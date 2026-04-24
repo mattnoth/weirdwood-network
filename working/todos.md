@@ -15,6 +15,14 @@
 - [ ] **mechanical-extractor: verbose extraction rules** — Still open. The original spec had richer fact-vs-interpretation explanations (e.g., "Ned thinks about a promise" = fact vs. "Ned is thinking about Lyanna's deathbed promise about Jon" = interpretation). Deferred pending full-book output review.
 - [x] **script-builder: verify POV table completeness** — Done. Found 6 missing headings (THE REAVER, THE BLIND GIRL, A GHOST IN WINTERFELL, THE IRON SUITOR, THE KINGBREAKER, THE QUEEN'S HAND). All added to reference file and splitter.
 
+## Timeline & Chronology
+
+- [ ] **Timeline reconstruction pass or script** — Once all books have Pass 1 extractions with `time_markers` fields, build a dedicated pass (or Python script) that attempts fan-community-style relative timeline reconstruction from the captured markers across all chapters. Cross-reference with known travel times, moon-turn references, and seasonal indicators.
+
+## Direwolves & Dragons
+
+- [x] **Direwolves and dragons are characters, not creatures** — Ghost, Grey Wind, Lady, Nymeria, Summer, Shaggydog, Drogon, Rhaegal, and Viserion must be treated as characters in all extractions and graph nodes. They have agency, POV-adjacent perspectives, and narrative arcs. Added to mechanical-extractor prompt (2026-04-22). Verify AGOT re-run captures them in Characters Present tables, not as fauna. Ensure node schema and future agent prompts also enforce this.
+
 ## Agent Prompts to Write
 
 - [ ] **Pass 2: wiki-ingester** — Full prompt. Needs: node file schema, web scraping approach, entity target list from Pass 1.

@@ -7,7 +7,7 @@ Run the end-of-session checklist for the Weirwood Network project. Do each step 
    - What's next
    - Update the Current State checkboxes if any items were completed
 
-2. **Update working/progress.md** — If any work is mid-flight or needs handoff, log it under Active Handoffs. If scratch notes accumulated, make sure they're tagged with source.
+2. **Update progress/** — If any work is mid-flight or needs handoff, log it in `progress/handoffs.md`. If scratch notes accumulated, add them to `progress/scratch-notes.md` tagged with source. If extraction waves ran, update the relevant `progress/pass1-{book}.md` file.
 
 3. **Update working/todos.md** — If new TODOs surfaced during the session, add them to the appropriate section.
 

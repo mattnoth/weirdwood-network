@@ -54,9 +54,11 @@ This is your project memory. When you come back after a break, read Current Stat
 - [x] ocrmypdf + poppler installed (Tesseract, Ghostscript, pdftotext)
 
 ### Extraction Pipeline
-- [ ] Pass 1 agent prompt finalized (draft complete — `agents/pass-1-mechanical.md`)
-- [ ] Pass 1 run on AGOT
-- [ ] Pass 1 run on all books
+- [x] Pass 1 agent prompt v1 (draft complete — `agents/pass-1-mechanical.md`)
+- [x] Pass 1 v1 run on AGOT (73/73 chapters, archived to `extractions/archives/agot-v1/`)
+- [x] Pass 1 agent prompt v2 — added: Physical Environment, Character Appearances, Food & Drink, Hospitality & Guest Right, Location Descriptions, Spatial Layout & Movement, time_markers, direwolves/dragons-as-characters rule
+- [ ] Pass 1 v2 run on AGOT (in progress)
+- [ ] Pass 1 run on remaining books (ACOK, ASOS, AFFC, ADWD)
 - [ ] Pass 2 wiki ingestion agent prompt written
 - [ ] Pass 2 wiki ingestion complete
 - [ ] Pass 3 voice/perception agent prompt written
@@ -148,6 +150,44 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session.
 
+### Session 7 — Mechanical Extraction Schema v2 + Tooling (2026-04-22)
+**What happened:**
+- Reviewed all 73 AGOT v1 extractions for quality and coverage gaps
+- Identified physical vector gaps: character appearances, food/drink, hospitality, location descriptions, spatial layout, weather/environment, time markers
+- Updated mechanical-extractor agent prompt (`.claude/agents/mechanical-extractor.md`) with 6 new schema sections:
+  - **Physical Environment** — weather, season, time of day, lighting, sounds, smells
+  - **Character Appearances** — hair, eyes, build, scars, clothing, weapons, age (per-chapter, not assumed)
+  - **Food & Drink** — dishes, ingredients, who eats with whom, preparation details
+  - **Hospitality & Guest Right** — bread and salt, guest right, violations, shelter offered/denied
+  - **Location Descriptions** — defensive features, architecture, interiors, scale, condition, terrain
+  - **Spatial Layout & Movement** — phase-based scene graph with controlled vocabulary (Advance, Ambush, Assembly, etc.)
+- Added `time_markers` field to Chapter Metadata
+- Added direwolves and dragons as characters rule (Ghost, Grey Wind, Lady, Nymeria, Summer, Shaggydog, Drogon, Rhaegal, Viserion)
+- Changed extraction philosophy from "leave empty if N/A" to "be expansive, never invent" — variance between runs is a feature
+- Archived AGOT v1 extractions to `extractions/archives/agot-v1/` for comparison
+- Updated `scripts/run-extraction-wave.sh` to take book as first argument, auto-discover chapters from directory
+- Created `scripts/launch-extraction.sh` — opens N iTerm2 tabs and distributes waves automatically
+- Created `weirwood-mechanical` shell function in `terminal-collection/functions/` for easy launching
+- Created extraction runbook at `working/runbooks/extraction-pass1.md`
+- Added orchestration rules to CLAUDE.md: agent prompt ↔ architecture.md sync rule, worklog archival rule
+- Archived Sessions 0–4 to `working/worklog-archives/archive001.md` to reduce context load
+- Updated `working/todos.md` with timeline reconstruction and direwolves/dragons items
+
+**Key decisions made:**
+- Food and Hospitality are separate concerns: food is GRRM's detailed descriptions (queryable data), hospitality is the moral/narrative framework (guest right, violations)
+- Physical character descriptions need to be granular enough for cross-identity matching (Jaqen/Alchemist use case)
+- Spatial Layout phases are directed-graph edges (Advance, Ambush, etc.) — mini scene graphs per chapter
+- Extraction runs use Opus for quality; 4 iTerm2 terminals with 5-chapter waves
+- v1 extractions preserved in archives for schema progression comparison
+
+**What's next:**
+- AGOT v2 extraction run in progress (launched via `weirwood-mechanical agot 4`)
+- Compare v1 vs v2 output quality on key chapters
+- Update `reference/architecture.md` to reflect new extraction schema sections (sync rule)
+- Begin ACOK extraction once AGOT v2 is validated
+
+---
+
 ### Session 6 — Book Integration: Dunk & Egg + TWOIAF (2026-04-16)
 **What happened:**
 - Followed runbook at `working/runbooks/book-integration.md` to integrate two new source artifacts.
@@ -195,170 +235,7 @@ This is your project memory. When you come back after a break, read Current Stat
 
 ---
 
-### Session 4 — Playwright Migration for Wiki Scraper (2026-04-13)
-**What happened:**
-- Attempted full wiki crawl per runbook — immediately failed. The `cf_clearance` cookie from Session 3 had expired, and a fresh cookie also failed.
-- Diagnosed the root cause: Cloudflare blocks ALL requests from urllib/curl regardless of cookies — TLS fingerprinting rejects non-browser connections.
-- Migrated `scripts/wiki-scraper.py` from stdlib urllib to Playwright (browser automation):
-  - Removed: `ssl`, `urllib.request`, `urllib.error` imports; `_build_ssl_context()`, `load_cookies_from_file()` functions; `COOKIES_FILE`, `_COOKIES`, `_SSL_CONTEXT` variables; `--cookies` CLI arg
-  - Added: Playwright browser lifecycle (`_launch_browser`, `_close_browser`), Cloudflare warmup with Turnstile polling (`_warmup_cloudflare`), `--headless` CLI flag (default: headed for Cloudflare reliability)
-  - All parsing, classification, caching, and markdown-writing code untouched
-- Discovered and fixed a Chromium/Playwright bug: `cf_clearance` cookie (httpOnly + sameSite=None) was stored in the browser context but NOT sent on subsequent navigations. Workaround: route interceptor that manually injects the cookie header on every outgoing request.
-- Smoke tested: `--entity "Tyrion Lannister"` (1/1 success) and `--mode all --limit 10` (10/10 success, including the 3 pages that previously failed with urllib).
-- Updated runbook for Playwright (no more cookie file, browser window opens, may need one manual Turnstile click).
-- New dependency: `pip3 install playwright && playwright install chromium` (Chromium ~91 MB in `~/.cache/ms-playwright/`)
-
-**Key decisions made:**
-- Playwright headed mode is the default — headless is detectable by Cloudflare
-- Cookie file approach (`sources/wiki/_raw/.cookies`) is dead — Playwright handles sessions natively
-- Route-based cookie injection is the workaround for the Chromium cookie-sending bug
-
-**What's next:**
-- Matt launches the full crawl from a new session: `claude --dangerously-skip-permissions "Follow the runbook at working/runbooks/wiki-full-crawl.md"`
-- First page load may require one manual "Verify I am human" click, then the crawl is fully automated
-- Estimated 6–8 hours for 17,952 pages
-
----
-
-### Session 3 — Wiki Crawl Planning + Smoke Test (2026-04-13)
-**What happened:**
-- Reviewed `scripts/wiki-scraper.py` and confirmed it already extracts full page text (not just summaries) — the `## Full Text` section in each output file gets the cleaned article body.
-- Discussed scope: shifted from targeted scraping to **full crawl, then triage**. Rationale: scraping is cheap, classification can be refined against a static cache, and `sources/wiki/` is a reference layer not the graph itself.
-- Updated `.gitignore` to exclude all of `sources/wiki/` (was previously only excluding `_raw/`). Wiki content is regenerable from cache; graph nodes (which are committed) are the canonical artifact.
-- Delegated to `script-builder` to add `--mode all` and `--limit N` to the scraper:
-  - New `fetch_all_page_titles()` uses MediaWiki `list=allpages&apnamespace=0`, paginates, caches title list to `_raw/.all-pages.json`
-  - New dispatch branch iterates `scrape_entity` over every title, streams progress to `_raw/.crawl-progress.log`
-  - Aborts cleanly after 3 consecutive failures (Cloudflare cookie expired) with cookie-refresh instructions
-- Matt provided a fresh `cf_clearance` cookie; saved to `sources/wiki/_raw/.cookies`.
-- Ran 5-page smoke test (`--mode all --limit 5 -v`):
-  - **All 5 pages succeeded.** No Cloudflare issues.
-  - **Title list fetched: 17,952 total pages** (significantly more than my initial 10–15k estimate).
-  - **Per-page footprint (smoke sample, biased small):** raw cache 4–24 KB, processed markdown 0.3–2.7 KB. Real character/location pages will be much larger (50–300 KB raw).
-  - **Realistic full-crawl projection:** 1.0–1.8 GB on disk, ~5–6 hours wall clock.
-  - **Classifier observation:** all 5 smoke pages landed in `_uncategorized/` because they're alphabetical edge cases (numeric dates, stubs). Expect a lot of `_uncategorized/` content in the full crawl — fine, classification is re-runnable against the cache.
-  - **Discovery:** the AWOIAF page "10,000 Ships" is about a planned HBO spinoff TV show, not the in-universe fleet. Wiki has out-of-universe meta content (TV, actors, production) mixed with canon. Pass 2 will need to filter these.
-- Wrote runbook at `working/runbooks/wiki-full-crawl.md` so the full crawl can be launched from a fresh `claude --dangerously-skip-permissions` session by pointing the agent at the file. Includes pre-flight checks, expected failure modes, cookie-refresh procedure, and required final report format.
-
-**Key decisions made:**
-- Wiki ingestion scope: **full crawl, not targeted** (now logged as DECIDED above)
-- `sources/wiki/` is fully gitignored — reference layer, not graph artifact
-- Long-running unattended tasks get runbooks in `working/runbooks/` rather than ad-hoc prompts; the runbook directory is now the home for any future agent-driven batch operations
-- The Cloudflare cookie problem has no "fix" beyond manual refresh — accepted as operational reality, mitigated by per-page caching that makes resume free
-
-**What's next:**
-- Matt launches the full crawl from a Claude CLI session: `claude --dangerously-skip-permissions "Follow the runbook at working/runbooks/wiki-full-crawl.md"`
-- Cookie may need refresh once or twice mid-run depending on Cloudflare's TTL
-- After crawl completes: review `_uncategorized/` count, decide whether to refine `classify_entity()` rules before designing Pass 2
-- Pass 2 (wiki-ingester) prompt design is the next non-trivial planning task — needs to answer "what gets promoted from `sources/wiki/` into `graph/nodes/` and how does `first_available` get assigned"
-
----
-
-### Session 2 — Foundation Builder: Chapter Splitter + Wiki Scraper (2026-04-13)
-**What happened:**
-- Wrote `scripts/chapter-splitter.py` — splits source .txt files into per-chapter markdown with YAML frontmatter
-  - Handles ALL CAPS headings, descriptive titles (AFFC/ADWD), prologues/epilogues
-  - Normalizes smart quotes (U+2019) to straight apostrophes for heading matching
-  - Detects TOC vs. actual chapters via narrative-text heuristic (prose lines >30 chars with lowercase letters)
-  - Stops at APPENDIX/ACKNOWLEDGMENTS/MEANWHILE end markers
-- Ran splitter on all 5 books — all counts match expected: AGOT 73, ACOK 70, ASOS 82, AFFC 46, ADWD 73 (344 total)
-- Fixed `is_narrative()` bug: all-caps lines like "APPENDIX: THE KINGS AND THEIR COURTS" in ASOS/AFFC TOC were incorrectly classified as narrative text. Added lowercase-letter requirement.
-- Discovered 6 missing chapter headings in `reference/pov-characters.md`: THE REAVER (AFFC), THE BLIND GIRL, A GHOST IN WINTERFELL, THE IRON SUITOR, THE KINGBREAKER, THE QUEEN'S HAND (all ADWD). Added all to reference file and splitter.
-- Wrote `scripts/wiki-scraper.py` (1213 lines, stdlib-only) — scrapes AWOIAF MediaWiki API
-  - Modes: single entity, category, targeted batches (characters/locations/houses/events/artifacts), category discovery
-  - Caches all API responses in `sources/wiki/_raw/` (gitignored)
-  - Rate-limited (1 req/sec), graceful error handling
-  - Handles Cloudflare challenge detection with clear user instructions for cookie setup
-- Created wiki directory structure (`sources/wiki/{characters,locations,houses,events,artifacts,_uncategorized,_raw,_category-reports}`)
-- Created `working/taxonomy-candidates.md` template for wiki-derived taxonomy expansion
-- Added `sources/wiki/_raw/` to `.gitignore`
-
-**Blockers:**
-- Wiki scraper is blocked on Cloudflare. AWOIAF uses managed challenges that require browser cookies (`cf_clearance`). Script detects this and provides setup instructions. Matt needs to:
-  1. Visit https://awoiaf.westeros.org in browser
-  2. Copy `cf_clearance` cookie value
-  3. Save to `sources/wiki/_raw/.cookies`
-
-**Key decisions made:**
-- Chapter splitter uses prose-detection heuristic (not gap-based) to distinguish TOC from chapters — more robust across different file structures
-- Wiki scraper is stdlib-only (no pip dependencies) — uses urllib, json, html.parser, re
-- Cloudflare cookie approach: manual browser session → cookie export → file-based auto-loading
-
-**What's next:**
-- Matt provides Cloudflare cookies so wiki scraper can run
-- Run `--mode targeted --batch characters` first, then locations, houses, events, artifacts
-- Run `--mode categories` for taxonomy discovery
-- Begin Pass 1 mechanical extraction testing on AGOT chapters (unblocked, doesn't depend on wiki)
-
----
-
-### Session 1 — Project Scaffolding & Cleanup (2026-04-13)
-**What happened:**
-- Created full directory skeleton from architecture spec (sources/, extractions/, graph/, index/, curation/, reference/, scripts/, .claude/agents/)
-- Created .gitignore FIRST — protects sources/raw/, sources/chapters/, full-txt-files/, epubs/ from ever being committed
-- Moved 5 .txt book files from full-txt-files/ to sources/raw/
-- Installed CLAUDE.md at project root (adapted from scaffold, references correct filenames)
-- Set up .claude/agents/ with 7 subagent definitions:
-  - **Full agents:** mechanical-extractor (Pass 1), script-builder (tooling)
-  - **Stub agents:** wiki-ingester (Pass 2), voice-analyzer (Pass 3), foreshadowing-scanner (Pass 4), theory-extractor (Pass 5), discovery-agent (Pass 6)
-- Removed claude-chat-scaffold/ directory (contents integrated)
-- Resolved open decision: source format is .txt (not PDF/EPUB)
-- Cleaned up root: moved specs to `reference/`, deleted files whose content was fully captured in agents
-  - `project-context.md` → `reference/architecture.md`
-  - `foreshadowing-events.md` → `reference/foreshadowing-events.md`
-  - POV lookup table extracted to `reference/pov-characters.md`
-  - `pass-1-mechanical.md` deleted (schema in agent def, worked example + verbose rules noted as TODOs)
-  - `agent-chapter-splitter.md` deleted (requirements in script-builder agent)
-- Created `working/` directory with `progress.md` (agent handoffs) and `todos.md` (actionable items by topic)
-- Created `/endsession` custom slash command (`.claude/commands/endsession.md`)
-
-**Key decisions made:**
-- Local directory stays as `asoiaf-chat`; GitHub repo will be `the-weirwood-network` (set via git remote)
-- Copyrighted content (full books AND split chapters) must NEVER enter git history
-- Later-pass agents (3-6) organized as stubs with purpose/inputs/outputs/TODOs — full prompts deferred
-- `working/` directory serves as scratchpad for in-progress work, agent handoffs, and anything uncertain
-- Root kept minimal: just CLAUDE.md + worklog.md
-
-**What's next:**
-- Write the chapter splitter Python script (scripts/chapter-splitter.py)
-- Test on AGOT first
-- Test mechanical extraction variations on a few chapters before committing to schema
-- Run Pass 1 mechanical extraction on a handful of AGOT chapters as proof of concept
-
----
-
-### Session 0 — Project Genesis (Date: ______)
-**What happened:**
-- Designed the overall system architecture in conversation with Claude
-- Produced the initial architecture spec document (to be placed at `reference/architecture-spec.md`)
-- Designed the six-pass extraction pipeline
-- Created three foundational documents:
-  - `CONTEXT.md` — master project context for all agents
-  - `agents/pass-1-mechanical.md` — Pass 1 mechanical extraction agent prompt
-  - `reference/foreshadowing-events.md` — 30 major events + 15 unfired Chekhov's guns
-  - `agents/agent-chapter-splitter.md` — Agent prompt for writing the chapter splitter script
-  - `WORKLOG.md` — this file
-
-**Key design decisions made:**
-- Two-layer architecture: trigger table (index) + knowledge graph working together
-- Spoiler gating via `first_available` field on all nodes/edges, required from the start
-- Six extraction passes in sequence, each building on prior outputs
-- Confidence tier system (5 levels) for all claims
-- `PERCEIVED_AS` edge type for cross-POV character perception
-- Descriptive chapter titles preserved in filenames with `real_identity` mapping in frontmatter
-- Project worklog as living context base for continuity across sessions
-
-**Ideas that surfaced:**
-- Theories serve as both output AND input to the extraction pipeline — they tell analytical agents what patterns to watch for
-- The bottom-up extraction pass might surface patterns that don't match any existing theory → new candidate theories
-- Fan fiction generation as a downstream use case (voice profiles + relationship graph)
-- The architecture generalizes beyond ASOIAF — same pattern could work for codebases, other fiction, cybersecurity domains
-
-**What's next:**
-- Matt to confirm ebook file format (PDF vs. EPUB)
-- Initialize the repository with the directory structure from CONTEXT.md
-- Run the chapter splitter agent to produce the script
-- Test the script on AGOT
-- Run Pass 1 on a handful of AGOT chapters to validate the extraction schema
+> Sessions 0–4 archived to `working/worklog-archives/archive001.md`
 
 ---
 

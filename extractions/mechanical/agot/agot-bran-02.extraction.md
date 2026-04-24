@@ -6,275 +6,304 @@
 - **pov_character:** Bran Stark
 - **pov_chapter_number:** Bran II
 - **first_available:** AGOT Bran II
-- **location_primary:** Winterfell (First Keep exterior / broken tower route)
-- **location_secondary:** King's Landing (mentioned), the Wall (mentioned), the Eyrie (mentioned), Casterly Rock (mentioned)
-- **approximate_timeline:** The final morning before the Stark party departs Winterfell for the south; the day of the last royal hunt
-- **chapter_summary:** On the last morning before departure, Bran wanders Winterfell attempting farewells but breaks down at the stable and abandons the effort. He spends the morning in the godswood with his unnamed direwolf, then resolves to climb the broken tower one final time. While traversing the exterior of the First Keep, he overhears a man and woman in private conversation about Eddard Stark's appointment as Hand, Lysa Arryn's knowledge, and Robert's emotional state. He repositions and looks through the window, witnessing Cersei and Jaime Lannister in a sexual encounter. Cersei sees him; Bran nearly falls. Jaime pulls him onto the windowsill, asks his age, then shoves him out the window. The chapter ends as Bran falls screaming and a wolf howls in the distance.
+- **location_primary:** Winterfell
+- **location_secondary:** King's Landing (referenced), the Wall (referenced), Casterly Rock (referenced), the Eyrie (referenced)
+- **approximate_timeline:** Final day before the royal party and the Starks depart Winterfell; the day of the last hunt
+- **time_markers:** Dawn (hunt departs at dawn); "on the morrow they left for the south"; "for days, Bran could scarcely wait"; Bran spent the morning alone in the godswood; "a fortnight" since the wolves were found (names still being decided — "tried a hundred names in the last fortnight"); "hadn't been up to the broken tower for weeks"; a promise to his mother kept "for almost a fortnight" (past event); "a hundred years before even his father had been born" (lightning strike on broken tower); courtyard stones "still wet with melted snow"
+- **chapter_summary:** On the last day before departing Winterfell, Bran attempts to say his farewells but becomes overwhelmed with emotion at the stable. He spends the morning in the godswood trying to teach his unnamed direwolf to fetch. He then climbs across the rooftops of Winterfell toward the broken tower. While traversing the First Keep, he overhears a man and woman discussing the danger posed by Eddard Stark becoming Hand of the King. Bran climbs to see who is speaking and discovers the queen and a man who looks exactly like her engaged in a sexual encounter. They see him, and the man pushes Bran from the window.
+
+## Physical Environment
+- **Weather:** Melted snow on courtyard stones; cold enough for snow to have recently fallen
+- **Season indicators:** Air described as "sweet and cold as a winter peach" (general climbing description); winter conditions implied throughout
+- **Time of day:** Dawn (hunt departure); morning (Bran in godswood); transitions through midday as he climbs
+- **Lighting:** Not explicitly described for the chapter's present action
+- **Sounds:** Wolf howling (Bran's direwolf howls when Bran climbs the sentinel tree); soft wet sounds of kissing; the woman's moaning; the woman's scream; a wolf howling in the distance at chapter's end; crows
+- **Smells:** Not explicitly described
+- **Notable sensory details:** Bran feels the deep sweet ache in muscles after climbing; air tastes sweet and cold; fingers and toes dig into crevices between stones; fingernails dig into unyielding stone; impact against the building knocks breath out of him; vertigo and sickening lurch as he falls; "a strange chill" when the wolf stares at him with slitted yellow eyes; takes off boots and goes barefoot when climbing — "it made him feel as if he had four hands instead of two"
 
 ## Characters Present
 | Character | Role in Chapter | First Appearance? | Notes |
 |-----------|----------------|-------------------|-------|
-| Bran Stark | POV character | No | Age seven confirmed by text; barefoot climber |
-| Cersei Lannister | Overheard and witnessed in sexual encounter; screams when she sees Bran | No | Recognized by Bran via golden hair and face |
-| Jaime Lannister | In sexual encounter with Cersei; pulls Bran onto ledge then shoves him off | No | Identified by golden hair matching Cersei's; described as "very strong" |
-| Bran's direwolf (unnamed) | Accompanies Bran; howls in warning as he climbs; howls again at chapter's close | No | Still has no name; wolf's howls bracket the chapter |
+| Bran Stark | POV character | No | Seven years old; climbs across Winterfell rooftops; overhears conversation; pushed from window |
+| Bran's direwolf (unnamed) | Companion | No | Follows Bran; howls when Bran climbs; still unnamed — Bran has tried a hundred names in a fortnight |
+| Cersei (the queen) | Antagonist | No | Identified as "the queen"; golden hair; overheard discussing political concerns; discovered in sexual encounter; screams when she sees Bran |
+| Jaime Lannister (the man) | Antagonist | No | Not named directly — identified by Bran as looking like the queen's reflection in a mirror; tangled golden hair; very strong; pushes Bran from window |
+
+## Character Appearances
+Record physical descriptions **as given in this chapter's text.**
+
+| Character | Hair | Eyes | Build/Height | Scars/Marks | Clothing/Armor | Weapons Worn | Distinguishing Features | Age (if stated) |
+|-----------|------|------|-------------|-------------|----------------|-------------|------------------------|-----------------|
+| Bran Stark | | | | | Barefoot when climbing (takes off boots) | | Exceptional climber; fingers dug deep gouges into the man's forearm | Seven |
+| Ser Boros Blount | Bald | | | | | | Jowly face | |
+| Ser Meryn Trant | Beard the color of rust | Droopy eyes | | | | | | |
+| The queen (Cersei) | Golden hair, swinging side to side | Eyes opened when she saw Bran | | | Naked (in scene) | | Looks like the man's reflection in a mirror; mouth open, moaning | |
+| The man (Jaime) | Tangled golden hair | | Very strong | | Naked (in scene) | | Looks like the queen's reflection in a mirror | |
+| Bran's direwolf | | Slitted yellow eyes | | | | | | |
 
 ## Characters Referenced
 | Character | Context of Reference | Referenced By |
 |-----------|---------------------|---------------|
-| King Robert Baratheon | Leads the hunt; discussed by Cersei and Jaime regarding his loyalty to Ned and his love for Lyanna | Narration; Cersei and Jaime in dialogue |
-| Eddard Stark | Appointed Hand of the King; subject of Cersei and Jaime's concern; Bran's father; told Bran to say his farewells | Narration; Cersei and Jaime in dialogue |
-| Robb Stark | Allowed to ride with the hunt | Narration |
-| Jon Snow | Left behind; described as angry at everyone; going north with Benjen to join the Night's Watch | Narration |
-| Sansa Stark | Left behind; named her direwolf Lady | Narration |
-| Arya Stark | Left behind; named her direwolf after an old witch queen in the songs | Narration |
-| Rickon Stark | Left behind; described as only a baby; named his direwolf Shaggydog | Narration |
-| Prince Joffrey Baratheon | Rode with his father on the hunt; Cersei names him as successor when Robert dies | Narration; Cersei in dialogue |
-| Benjen Stark | Rode out on the hunt; Jon is going with him to the Wall | Narration |
-| Jory Cassel | Rode out on the hunt; mentioned as a guard who tried to chase Bran off rooftops but could not climb as well | Narration |
-| Theon Greyjoy | Rode out on the hunt | Narration |
-| Ser Rodrik Cassel | Rode out on the hunt | Narration |
-| Tyrion Lannister | Rode out on the hunt; described as "the queen's funny little brother" | Narration |
-| Old Nan | Staying behind; told Bran a story about a boy struck by lightning for climbing; told stories about King's Landing ghosts and dragon heads | Narration |
-| Gage | The cook; staying behind; Bran intended to bid him farewell | Narration |
-| Mikken | The smith; staying behind; Bran intended to bid him farewell | Narration |
-| Hodor | The stableboy; staying behind; says only "Hodor"; smiles often; cares for Bran's pony | Narration |
-| Maester Luwin | Described Winterfell's growth like a stone tree; built a pottery mannequin dressed like Bran and threw it from a wall to demonstrate fall danger | Narration |
-| Catelyn Stark | Bran thinks of her fear of his climbing; "You're worse than Mother" said to the direwolf | Narration |
-| Stannis Baratheon | Named as one of Robert's brothers; Jaime says Robert can barely stomach him | Jaime in dialogue |
-| Renly Baratheon | Named alongside Stannis as Robert's brothers | Jaime in dialogue |
-| Petyr Baelish (Littlefinger) | Named by Jaime as another possible Hand candidate; "gods help us" | Jaime in dialogue |
-| Lysa Arryn | Fled King's Landing after Jon Arryn's death; Cersei believes she may know something damaging; her son was to be fostered at Casterly Rock; now at the Eyrie | Cersei and Jaime in dialogue |
-| Jon Arryn | Referenced as Lysa's late husband; his death and what Lysa may know is the implicit subject of concern | Cersei and Jaime in dialogue |
-| Robin Arryn (unnamed — "that weakling son of hers") | Referenced as being fostered at Casterly Rock as de facto hostage to Lysa's silence; now safe at the Eyrie | Cersei in dialogue |
-| Lyanna Stark | Robert described as "still in love with the sister, the insipid little dead sixteen-year-old"; Cersei fears being set aside for a "new Lyanna" | Cersei in dialogue |
-| Serwyn of the Mirror Shield | Historical Kingsguard; one of Bran's idols | Narration |
-| Ser Ryam Redwyne | Historical Kingsguard | Narration |
-| Prince Aemon the Dragonknight | Historical Kingsguard | Narration |
-| Ser Erryk | Historical Kingsguard twin; died fighting Ser Arryk during the Dance of the Dragons | Narration |
-| Ser Arryk | Historical Kingsguard twin; died fighting Ser Erryk during the Dance of the Dragons | Narration |
-| Ser Gerold Hightower (the White Bull) | Historical Kingsguard Lord Commander | Narration |
-| Ser Arthur Dayne (Sword of the Morning) | Historical Kingsguard | Narration |
-| Ser Barristan Selmy (Barristan the Bold) | Lord Commander of the Kingsguard; "the greatest living knight"; Bran's father promised they would meet him in King's Landing | Narration |
-| Ser Boros Blount | Kingsguard who came north with Robert; bald, jowly face | Narration |
-| Ser Meryn Trant | Kingsguard who came north with Robert; droopy eyes, rust-colored beard | Narration |
-| Man in the glass gardens (unnamed) | Gave Bran a blackberry when he visited; one of those Bran intended to bid farewell | Narration |
+| King Robert | Wanted wild boar for the feast; rode out hunting; loves Eddard Stark "like a brother"; can barely stomach his brothers; "still in love with the sister"; grows more restless every day | Bran (narration); the woman; the man |
+| Prince Joffrey | Rode with his father on the hunt; "Joff" will take the throne when Robert dies | Bran (narration); the woman |
+| Robb Stark | Allowed to join the hunters; calling his wolf Grey Wind because he ran so fast; said Jaime killed the old mad king and shouldn't count as Kingsguard | Bran (narration) |
+| Uncle Benjen (Benjen Stark) | Rode out with the hunt; Jon is going with him to the Wall | Bran (narration) |
+| Jory (Jory Cassel) | Rode out with the hunt; couldn't climb as well as Bran | Bran (narration) |
+| Theon Greyjoy | Rode out with the hunt | Bran (narration) |
+| Ser Rodrik (Rodrik Cassel) | Rode out with the hunt | Bran (narration) |
+| "The queen's funny little brother" (Tyrion Lannister) | Rode out with the hunt | Bran (narration) |
+| Jon Snow | Left behind with Bran; seems angry at everyone; going to the Wall with Uncle Ben; nowhere to be found with his wolf | Bran (narration) |
+| Ghost | Jon's wolf; the white one | Bran (narration) |
+| Sansa Stark | Left behind; "only girls"; named her wolf Lady | Bran (narration) |
+| Arya Stark | Left behind; "only girls"; named her wolf after "some old witch queen in the songs" | Bran (narration) |
+| Rickon Stark | Left behind; "only a baby"; named his wolf Shaggydog | Bran (narration) |
+| Lady | Sansa's direwolf | Bran (narration) |
+| Nymeria | Arya's direwolf (named after "some old witch queen") | Bran (narration) |
+| Shaggydog | Rickon's direwolf; Bran thinks it's a pretty stupid name for a direwolf | Bran (narration) |
+| Grey Wind | Robb's direwolf; named because he runs so fast | Bran (narration) |
+| Lord Eddard Stark (Father) | Told Bran to say farewells; will be Hand of the King; promised Bran would meet Ser Barristan; ordered Bran to godswood as punishment; "You're not my son, you're a squirrel"; never taken any interest in anything south of the Neck | Bran (narration); the woman; the man |
+| Bran's mother (Catelyn Stark) | Terrified Bran would fall; made him promise to stay on the ground; never believed he wouldn't slip | Bran (narration) |
+| Old Nan | Told Bran about ghosts and dungeons in King's Landing; said the Kingsguard were finest swords in all the realm; told story of bad boy who climbed too high, was struck by lightning, and had his eyes pecked out by crows | Bran (narration) |
+| Gage | The cook; someone Bran intended to visit for farewells | Bran (narration) |
+| Mikken | In his smithy; someone Bran intended to visit | Bran (narration) |
+| Hodor | The stableboy; smiles so much; says nothing but "Hodor"; takes care of Bran's pony | Bran (narration) |
+| The man in the glass gardens | Unnamed; gave Bran a blackberry when he came to visit | Bran (narration) |
+| Maester Luwin | Told Bran Winterfell grew like a monstrous stone tree; built a little pottery boy dressed in Bran's clothes and flung it off the wall | Bran (narration) |
+| Serwyn of the Mirror Shield | Legendary Kingsguard member | Bran (narration) |
+| Ser Ryam Redwyne | Legendary Kingsguard member | Bran (narration) |
+| Prince Aemon the Dragonknight | Legendary Kingsguard member | Bran (narration) |
+| Ser Erryk | Legendary Kingsguard; twin; died on his brother's sword during the Dance of the Dragons when brother fought sister | Bran (narration) |
+| Ser Arryk | Legendary Kingsguard; twin; died on his brother's sword during the Dance of the Dragons | Bran (narration) |
+| Gerold Hightower (The White Bull) | Legendary Kingsguard member | Bran (narration) |
+| Ser Arthur Dayne (The Sword of the Morning) | Legendary Kingsguard member | Bran (narration) |
+| Ser Barristan Selmy (Barristan the Bold) | Greatest living knight; Lord Commander of the Kingsguard; Father promised Bran would meet him in King's Landing | Bran (narration) |
+| Ser Boros (Blount) | One of two Kingsguard who came north with King Robert | Bran (narration) |
+| Ser Meryn (Trant) | One of two Kingsguard who came north with King Robert | Bran (narration) |
+| Ser Jaime Lannister | Of the Kingsguard; looked more like the knights in the stories; Robb said he killed the old mad king and shouldn't count anymore | Bran (narration) |
+| Stannis Baratheon | Robert's brother; "would be enough to give anyone indigestion" | The man |
+| Renly Baratheon | Robert's brother; mentioned alongside Stannis as "one thing" vs. Stark who is "quite another" | The woman |
+| Littlefinger | The king might as easily have named him Hand; "gods help us" | The man |
+| Lysa Arryn | Lady Arryn; her sister is Eddard's wife; shared Jon Arryn's bed; fled King's Landing; "a frightened cow"; may grow bolder now her son is safe atop the Eyrie | The woman; the man |
+| Jon Arryn | Referenced as dead; shared his bed with Lysa; had agreed to foster Lysa's son at Casterly Rock | The woman; the man |
+| Lysa's son (Robert Arryn) | "That weakling son of hers"; to have been fostered at Casterly Rock; now safe atop the Eyrie; his life would be hostage to Lysa's silence | The woman; the man |
+| Lyanna Stark | "The sister"; "the insipid little dead sixteen-year-old"; Robert still in love with her | The woman |
 
 ## Locations
-| Location | Role | First Appearance? | Description Notes |
-|----------|------|-------------------|-------------------|
-| Winterfell | Primary setting | No | Described as "grey stone labyrinth of walls and towers and courtyards and tunnels"; built on unleveled terrain with hills and valleys inside the walls; grown over centuries "like a monstrous stone tree" per Maester Luwin |
-| Broken tower | Bran's climbing destination | uncertain — verify | Once tallest watchtower in Winterfell; lightning struck it ~100 years before Eddard's birth, collapsing top third; never rebuilt; crows nest there |
-| First Keep | Bran's climbing route; site of the window where Cersei and Jaime are found | uncertain — verify | Oldest part of castle; squat round fortress, taller than it looks; only rats and spiders live there now; gargoyles on exterior; formerly empty per Bran's expectation |
-| Godswood | Bran's morning refuge; starting point for climb | No | Contains a pool with the heart tree (weirwood); Bran avoids that pool; sentinel tree near the armory wall serves as his climbing launch point |
-| Heart tree | Avoided by Bran | No | A weirwood in the godswood pool; Bran states trees ought not have eyes or leaves that look like hands |
-| Armory | First rooftop traversed on Bran's route | No | Sentinel tree grows beside the armory wall |
-| Guards hall | On Bran's rooftop route | uncertain — verify | Between armory and First Keep in Bran's described route |
-| Bell tower | Mentioned as part of a covered-bridge shortcut | uncertain — verify | Connected by covered bridge at fourth floor to the rookery's second floor |
-| Rookery | Connected to bell tower by covered bridge | No | |
-| Glass gardens | Mentioned as a place Bran visited and could see from rooftops | No | Cooks tend vegetables there; man inside gave Bran a blackberry |
-| Stable | Site of Bran's first attempted farewell; he sees his pony and breaks down | No | |
-| Kennels | Visible from rooftops; restless dogs run back and forth | No | |
-| Inner wall (tunnel) | A secret tunnel Bran believes only he knows | uncertain — verify | Accessible from inside at the south gate, three floors up; runs all the way around Winterfell; exits at ground level at the north gate |
-| King's Landing | Destination for the Stark party; where Bran hopes to meet Ser Barristan | No | "The red castle the Dragonlords built"; Old Nan says it has ghosts, dungeons, and dragon heads on walls |
-| The Wall | Jon's destination with Benjen | No | Jon is going to join the Night's Watch |
-| Casterly Rock | Where Robin Arryn was to be fostered | No | Referenced in dialogue |
-| The Eyrie | Where Lysa has retreated with her son | No | Referenced in dialogue |
-| The Neck | Cersei notes Ned has never taken interest in anything south of it | No | Referenced in dialogue |
-| Kingsroad | Bran was going to ride it on a real horse | No | Route south |
+| Location | Role | First Appearance? |
+|----------|------|-------------------|
+| Winterfell | Primary setting; Bran's home; site of all action | No |
+| The godswood | Where Bran spends the morning with his wolf | No |
+| The heart tree pool | Bran avoids it — the heart tree frightens him | No |
+| The broken tower | Bran's favorite climbing destination; crows nest there | No (uncertain — verify) |
+| The First Keep | Oldest part of the castle; squat round fortress; where Bran overhears the conversation | No (uncertain — verify) |
+| The armory | Adjacent to godswood wall; Bran crosses its roof | No (uncertain — verify) |
+| The guards hall | Bran crosses its roof en route to First Keep | No (uncertain — verify) |
+| The bell tower | Connected by covered bridge to rookery | No (uncertain — verify) |
+| The rookery | Connected by covered bridge to bell tower | No (uncertain — verify) |
+| The glass gardens | Where a man gave Bran a blackberry; cooks tend vegetables there | No (uncertain — verify) |
+| The stables | Where Bran sees his pony; Hodor works here | No |
+| The kennels | Restless dogs running back and forth | No (uncertain — verify) |
+| The washing well | Girls gossiping beside it (Bran's rooftop observations) | Yes (uncertain — verify) |
+| The yard | Men drilling with wood and steel | No |
+| King's Landing | Destination; the red castle the Dragonlords built; ghosts, dungeons, dragon heads on walls | No |
+| The Wall | Where Jon is going with Uncle Benjen; joining the Night's Watch | No |
+| Casterly Rock | Where Jon Arryn agreed to foster Lysa's son | No (uncertain — verify) |
+| The Eyrie | Where Lysa and her son are now safe | No (uncertain — verify) |
+| The Neck | Geographic reference — Eddard has never taken interest in anything south of it | No |
+| The kingsroad | Bran is going to ride it on a real horse | No |
+
+## Location Descriptions
+| Location | Defensive Features | Architecture/Layout | Interior Details | Scale | Condition | Surrounding Terrain/Geography | Notable Sensory Details |
+|----------|--------------------|--------------------|-----------------| ------|-----------|------------------------------|------------------------|
+| Winterfell | Inner wall accessible from south gate; narrow tunnel in stone runs three floors up through the full circumference to the north gate; hundred feet of wall looming at north gate | Grey stone labyrinth of walls, towers, courtyards, and tunnels spreading out in all directions; halls slant up and down in older parts so you can't tell what floor you're on; grew over centuries "like some monstrous stone tree" with gnarled thick twisted branches and roots sunk deep into the earth; builders had not leveled the earth — hills and valleys behind the walls; covered bridge from fourth floor of bell tower to second floor of rookery | | Sprawling; visible in a glance from the rooftops; life of the castle below — men drilling in yard, cooks in glass garden, dogs in kennels, girls at washing well | | | | Courtyard stones still wet with melted snow; shapeless rain-worn gargoyles brood over the First Keep |
+| The broken tower | | Once a watchtower, the tallest in Winterfell; top third collapsed inward; never rebuilt; two ways to reach the top — straight up the side (loose stones, mortar gone to ash) or via the godswood-armory-guards hall-First Keep route | | Tallest tower (formerly) | Lightning strike set it afire over a hundred years before Bran's father was born; top third collapsed; fallen stones, charred and rotten beams at base; stones loose, mortar gone to ash; father sends ratters into the base to clean nests | | Crows' nests at the jagged top |
+| The First Keep | | Squat round fortress; taller than it looks; oldest part of the castle; gargoyles lean out blindly over empty space on the exterior; blind side faces the approach from armory/guards hall | Room inside with a window; narrow ledge beneath window, only a few inches wide | | Only rats and spiders live there now; old stones still make for good climbing; has been empty all Bran's life | Close enough to the broken tower that you can reach across from one to the other; north side faces the broken tower | |
+| King's Landing | | The red castle the Dragonlords built | Ghosts, dungeons where terrible things were done, dragon heads on the walls (per Old Nan) | | | | |
+| The godswood | | Pool where the heart tree grows; sentinel trees | | | | | Heart tree has eyes; leaves that look like hands |
 
 ## Artifacts & Objects of Significance
 | Artifact | Context | First Appearance? | Current Holder/Location |
 |----------|---------|-------------------|------------------------|
-| Bran's direwolf (unnamed) | Howls warning twice before and during the climb; howls as Bran falls | No | Winterfell godswood / base of sentinel tree |
-| Bran's pony | Being left behind as Bran receives a real horse; sight of it triggers tears | uncertain — verify | Winterfell stable |
-| Pottery mannequin | Built by Maester Luwin, dressed in Bran's clothes, thrown from a wall to demonstrate fall danger | uncertain — verify | Destroyed |
-| Grey Wind | Robb's direwolf; named for speed | No | On the hunt with Robb |
-| Lady | Sansa's direwolf | No | Winterfell |
-| Arya's direwolf (unnamed in chapter) | Named after an old witch queen in the songs | No | Winterfell |
-| Shaggydog | Rickon's direwolf; Bran thinks it a stupid name | No | Winterfell |
-| Ghost | Jon's white direwolf; Bran wishes he had thought of the name first | No | With Jon (location unspecified in chapter) |
+| Bran's pony | Being left behind; Bran is getting a real horse; seeing it triggers his tears | No | Winterfell stables |
+| Pottery boy (Maester Luwin's) | Dressed in Bran's clothes, flung off the wall to demonstrate what would happen if Bran fell | Yes (uncertain — verify) | Destroyed (smashed in yard) |
+
+## Food & Drink
+| Meal/Occasion | Food Items Described | Drink | Who Is Eating/Drinking | Where | Preparation/Presentation Notes |
+|--------------|---------------------|-------|----------------------|-------|-------------------------------|
+| Planned feast (tonight) | Wild boar (desired by the king) | | The royal party and Winterfell household | Winterfell | The hunt at dawn is to procure the boar; this is the last feast before departure |
+| Blackberry (past memory) | A blackberry given to Bran by the man in the glass gardens | | Bran | Glass gardens | Given as a gift during a visit |
+| Corn for crows | Corn from Bran's pockets | | Crows | Broken tower | Bran fills his pockets before climbing; crows eat it right out of his hand |
+
+## Hospitality & Guest Right
+| Event | Type | Host | Guest(s) | Details |
+|-------|------|------|----------|---------|
+
+No explicit hospitality rituals in this chapter.
 
 ## Events & Actions
-1. **Hunt departs at dawn** — King Robert, Prince Joffrey, Robb, Benjen, Jory, Theon, Ser Rodrik, and Tyrion Lannister ride out for a final boar hunt. Bran is left behind with Jon, the girls, and Rickon.
-2. **Bran's failed farewell tour** — Bran wanders Winterfell intending to say goodbye to those staying behind. He goes to the stable, sees his pony, begins to cry, and abandons the effort.
-3. **Morning in the godswood** — Bran tries to teach his unnamed direwolf to fetch a stick; the wolf refuses. Bran has still not settled on a name.
-4. **Bran decides to climb the broken tower** — He views it as a last chance before departure and heads off.
-5. **The direwolf howls as Bran ascends** — Told to stay, the wolf obeys but immediately begins howling. It howls again as Bran continues climbing onto the armory roof. Bran ignores both warnings.
-6. **Bran traverses the First Keep exterior** — He moves hand-over-hand between gargoyles on the outer wall of the First Keep.
-7. **Bran overhears voices** — A man and woman are speaking inside a room he believed empty. Afraid they will see his feet if he swings past the window, he stops and listens.
-8. **Bran listens to Cersei and Jaime's conversation** — He overhears discussion of Ned's appointment, Robert's loyalty to Ned, Lysa Arryn's potential knowledge and flight, Robert's attachment to Lyanna, and Cersei's desire for Robert's death so Joffrey can rule. He does not yet know who is speaking.
-9. **Bran repositions above the window** — He climbs over a gargoyle onto the roof and hangs upside down by his legs from the gargoyle above the window to look inside.
-10. **Bran witnesses Cersei and Jaime in a sexual encounter** — He sees a naked man and woman against the wall; he recognizes Cersei by her face and hair; he recognizes the man by identical golden hair. He identifies them as looking "like reflections in a mirror."
-11. **Cersei sees Bran; Bran slips** — Cersei opens her eyes, sees Bran, and screams. Bran tries to pull himself up in panic, his hand scrapes smooth stone, his legs slip, and he falls from the gargoyle. He catches the window ledge with one hand, loses it, catches it again with the other hand, and swings against the wall.
-12. **Jaime pulls Bran onto the ledge** — Jaime and Cersei appear at the window. Jaime offers his hand; Bran grabs it. Jaime hauls him up to the sill and asks his age. Bran says seven.
-13. **Jaime shoves Bran from the window** — Jaime says "The things I do for love" and pushes Bran backward out the window.
-14. **Bran falls; wolf howls** — Bran falls screaming toward the courtyard. The chapter ends with a wolf howling in the distance and crows circling the broken tower.
+1. **The hunt departs at dawn** — King Robert, Prince Joffrey, Robb, Uncle Benjen, Jory, Theon Greyjoy, Ser Rodrik, and the queen's funny little brother ride out for wild boar for the last feast.
+2. **Bran is left behind** — He remains at Winterfell with Jon, the girls, and Rickon. Jon and his wolf are nowhere to be found.
+3. **Bran reflects on the departure** — He is excited about riding the kingsroad on a real horse, living in King's Landing, and someday becoming a Kingsguard knight. He recites the names of legendary Kingsguard members like music.
+4. **Bran describes the Kingsguard who came north** — Ser Boros (bald, jowly), Ser Meryn (droopy eyes, rust-colored beard), and notes Ser Jaime looks more like a storybook knight but Robb says he killed the old mad king and shouldn't count.
+5. **Bran feels lost on the last day** — Despite his excitement, he suddenly feels overwhelmed at leaving the only home he has ever known.
+6. **Bran attempts farewells** — He wanders with his wolf intending to visit Old Nan, Gage, Mikken, Hodor, and the man in the glass gardens, but becomes emotional at the stable seeing his pony and runs off before anyone can see his tears.
+7. **Bran spends the morning in the godswood** — He tries to teach his direwolf to fetch a stick; the wolf is smarter than any of the hounds but shows very little interest in chasing sticks.
+8. **Bran considers direwolf names** — He notes the names chosen by his siblings (Grey Wind, Lady, Nymeria, Shaggydog, Ghost) and has tried a hundred names in a fortnight without finding the right one. He wishes he had thought of Ghost first.
+9. **Bran decides to climb the broken tower** — He hasn't been there for weeks and this may be his last chance.
+10. **Bran races through the godswood** — He takes the long way around to avoid the heart tree pool (the tree frightens him — eyes, hands-like leaves) and tells his wolf to stay at the base of the sentinel tree near the armory wall.
+11. **The direwolf howls as Bran climbs** — The wolf obeys initially but then howls repeatedly; stares up at Bran with slitted yellow eyes; a strange chill goes through Bran. Bran yells at it: "You're worse than Mother." The howling follows him until he jumps onto the armory roof.
+12. **Extended narration of Bran's climbing history** — His mother's fear, the broken promise (kept for almost a fortnight), climbing out the bedroom window at night, his confession, Lord Eddard ordering him to the godswood as punishment. They found him asleep in the tallest sentinel. His father laughed: "You're not my son, you're a squirrel." Old Nan's cautionary tale of the boy struck by lightning with crows pecking his eyes. Maester Luwin's pottery boy demonstration. Guards chasing him on the roofs.
+13. **Bran describes what he sees from the rooftops** — Men drilling in the yard, cooks in the glass garden, dogs in the kennels, silence of the godswood, girls gossiping beside the washing well. It made him feel lord of the castle.
+14. **Bran describes his knowledge of Winterfell's secrets** — The covered bridge from bell tower to rookery, the tunnel inside the inner wall from south gate to north gate, things even Maester Luwin doesn't know.
+15. **Bran describes his climbing technique and pleasures** — Barefoot for grip, the ache in muscles, the taste of air, the birds (crows in broken tower, sparrows in cracks, ancient owl in the loft above the old armory). Going places no one else can go.
+16. **Bran describes the broken tower** — Once the tallest watchtower, set afire by lightning over a hundred years ago, never rebuilt. Two routes to the top described in detail.
+17. **Bran hears voices in the First Keep** — While moving gargoyle to gargoyle, he hears a man and woman talking. He nearly loses his grip in surprise. The First Keep has been empty all his life.
+18. **The woman argues the man should have been named Hand** — She fears the danger of Eddard Stark in the position, that Robert loves Stark like a brother and will listen to him.
+19. **The man dismisses her concerns** — He says being Hand involves too much work; he'd rather have honorable enemies than ambitious ones; prefers Stark to Littlefinger or Robert's brothers. Calls Stannis indigestible.
+20. **The woman warns they must watch Stark carefully** — She says he means to move against them and questions why else he would leave the seat of his power.
+21. **The man suggests mundane motivations** — Duty, honor, ambition, wanting to get away from his wife, wanting to be warm.
+22. **The woman raises Lysa Arryn** — She notes Eddard's wife is Lysa's sister and expresses surprise Lysa didn't come with accusations. The man calls Lysa "a frightened cow."
+23. **Discussion of Lysa Arryn's knowledge** — The man argues Lysa would have gone to Robert if she knew anything before fleeing. The woman counters that Lysa's son was to be fostered at Casterly Rock, making the boy's life hostage to her silence. She may grow bolder now that he's safe at the Eyrie.
+24. **The man dismisses the threat** — He says whatever Lysa knows or thinks she knows, she has no proof — then pauses to ask "Or does she?"
+25. **The man calls her "sweet sister"** — After the woman insists the king doesn't love her.
+26. **The woman compares the man to Robert** — She says he is as blind as Robert. The man says he sees a man (Stark) who would sooner die than betray his king. The woman counters that Stark "betrayed one already" — the old mad king.
+27. **The woman fears for the future** — She worries about what happens when Robert dies and "Joff" takes the throne. She says her husband grows more restless every day, that Stark beside him will make him worse. She says Robert is still in love with "the sister, the insipid little dead sixteen-year-old" and fears he'll put her aside "for some new Lyanna."
+28. **Bran decides he must see who is talking** — He climbs to the gargoyle above the window and hangs upside down to look in. The world looks strange upside down; a courtyard swims below, stones still wet with melted snow.
+29. **Bran sees a naked man and woman** — He initially cannot tell who they are. The man's back is to him, screening the woman as he pushes her up against a wall.
+30. **Bran witnesses kissing and sexual activity** — Soft wet sounds; the man has his hand between the woman's legs. She moans: "Stop it, stop it, stop it. Oh, please..." but does not push him away. Her hands bury themselves in his tangled golden hair and pull his face to her breast.
+31. **Bran recognizes the queen** — He sees her face: eyes closed, mouth open, moaning, golden hair swinging side to side.
+32. **The queen sees Bran** — Her eyes open and she stares right at him and screams.
+33. **Bran slips and falls** — The woman pushes the man away, shouting and pointing. Bran tries to pull himself up but in his hurry his hand scrapes smooth stone, his legs slip, and he falls. He catches the ledge with one hand, loses it, catches it again with his other hand. He swings against the building hard, breath knocked out.
+34. **Bran recognizes the man** — The queen and the man appear in the window above. They look "as much alike as reflections in a mirror."
+35. **"He saw us"** — The woman says it shrilly. The man acknowledges: "So he did."
+36. **The man pulls Bran up** — He reaches down and offers his hand: "Take my hand. Before you fall." Bran seizes his arm. The man is very strong and stands Bran on the sill.
+37. **The man asks Bran's age** — "How old are you, boy?" Bran says seven, shaking with relief. His fingers had dug deep gouges in the man's forearm.
+38. **"The things I do for love"** — The man looks at the woman, says it with loathing, then shoves Bran backward out the window into empty air.
+39. **Bran falls** — Screaming, he goes backward out the window. There is nothing to grab. The courtyard rushes up to meet him.
+40. **Final image** — A wolf howling in the distance. Crows circling the broken tower, waiting for corn.
+
+## Spatial Layout & Movement
+| Phase | Who | Position / Movement | Relative To | Notes |
+|-------|-----|---------------------|-------------|-------|
+| Opening | Bran | Wandering Winterfell with his wolf | Castle grounds | Attempting farewells |
+| Opening | Bran | At the stables | Stables | Sees his pony, becomes emotional, runs off |
+| Opening | Bran | In the godswood | Godswood | Spends morning trying to teach wolf to fetch |
+| Departure | Bran | Races across godswood avoiding heart tree pool | Godswood to sentinel tree near armory wall | Tells wolf to stay |
+| Advance | Bran | Climbs sentinel tree | Sentinel tree near armory wall | Wolf howls below |
+| Advance | Bran | Jumps onto armory roof | Armory | Out of wolf's sight; howling ceases |
+| Advance | Bran | Crosses rooftops: armory → guards hall | Rooftops | Barefoot so guards won't hear |
+| Advance | Bran | Up the blind side of the First Keep | First Keep, squat round fortress | Good climbing on old stones |
+| Advance | Bran | Gargoyle to gargoyle, hand over hand | First Keep exterior, heading to north side | Hears voices; nearly loses grip |
+| Scout | Bran | Hanging between gargoyles | Outside last window on this side of First Keep | Listens to conversation; afraid to swing past — they might glimpse his feet |
+| Advance | Bran | Pulls up over gargoyle, crawls across roof to next gargoyle | Directly above the window | Repositions to see into room |
+| Scout | Bran | Hangs upside down from gargoyle by his legs | Above the window, looking in and down | Sees naked man and woman; courtyard swims below |
+| Confrontation | The queen | Opens eyes, sees Bran at window | Inside the room | Screams; pushes the man away; shouts and points |
+| Retreat | Bran | Tries to pull himself up; slips; falls | Window → catches ledge → dangles one-handed, then two-handed | Swings against building, breath knocked out |
+| Confrontation | The man and the queen | Appear in window above Bran | Window, looking down at dangling Bran | "He saw us" / "So he did" |
+| Confrontation | The man | Reaches down, pulls Bran up to the sill | Window sill | Very strong; Bran digs gouges in his forearm |
+| Confrontation | The man | Shoves Bran backward out the window | Window sill → empty air → courtyard below | "The things I do for love"; Bran screaming |
 
 ## Information Revealed
 | Information | How Revealed | Known To (Characters) | Known To (Reader Only?) |
 |-------------|-------------|----------------------|------------------------|
-| Cersei and Jaime are in a sexual/incestuous relationship | Bran witnesses them directly | Bran (witnessed, now falling); Cersei; Jaime | Yes — no other characters in this chapter are present or informed |
-| Cersei and Jaime are siblings ("reflections in a mirror") | Bran's observation; Jaime calls Cersei "sweet sister" in dialogue | Bran; Cersei; Jaime | Yes within this chapter's witness |
-| Cersei fears Eddard Stark as Hand and considers him a threat to act against the Lannisters | Cersei's own dialogue | Jaime (hearing her); Bran (overhearing, doesn't grasp it fully) | Yes — Bran doesn't understand the political stakes |
-| Cersei believes Robert still loves Lyanna and fears being set aside | Cersei's own dialogue | Jaime; Bran (partially) | Yes |
-| Lysa Arryn fled King's Landing after Jon Arryn's death; Cersei believes she may know something damaging | Cersei and Jaime's dialogue | Jaime; Cersei; Bran (overheard) | Yes — content of what Lysa knows is not specified |
-| Robin Arryn was to be fostered at Casterly Rock as leverage over Lysa's silence | Cersei's dialogue | Jaime; Cersei | Yes — Bran overheard but has no frame of reference |
-| Cersei explicitly wants Robert to die so Joffrey can take the throne sooner | Cersei's dialogue | Jaime; Bran (overheard, not understood) | Yes |
-| Jaime killed the "old mad king" (Aerys II) | Robb's view reported in Bran's narration; Bran does not grasp the full significance | Bran (surface awareness); Robb; wider Westeros generally | No — framed as Robb's stated reason Jaime "shouldn't count" as Kingsguard |
-| Bran is seven years old | Stated by Bran to Jaime | Jaime; Cersei | No |
-| Bran's direwolf is still unnamed after a fortnight | Bran's narration | Reader | Yes |
-| A secret tunnel runs through Winterfell's inner wall from south gate to north gate; Bran believes only he knows of it | Bran's narration | Bran (claims exclusive knowledge) | Yes |
-| Bran's mother made him promise to stay on the ground; he broke the promise within a fortnight | Bran's narration | Bran | Yes |
-| Ned Stark laughed at Bran's climbing despite initial anger | Bran's narration | Bran | Yes |
-| The broken tower was struck by lightning approximately 100 years before Eddard Stark's birth | Bran's narration | Bran; general Winterfell knowledge (implied) | No |
+| Eddard Stark has been named Hand of the King | Overheard conversation; also Bran's narration | Bran, the man, the woman, the Stark family | No |
+| The queen and a man who looks exactly like her are having a sexual relationship | Bran witnesses them naked together | Bran, the queen, the man | Yes (Bran sees but may not fully understand) |
+| The man and woman fear Eddard Stark's influence over Robert | Overheard conversation | The man, the woman | Yes (Bran overhears but doesn't fully grasp) |
+| Lysa Arryn fled King's Landing | Overheard conversation | The man, the woman | Yes (Bran overhears) |
+| Lysa Arryn shared Jon Arryn's bed and may know something dangerous | Overheard conversation | The man, the woman | Yes (Bran overhears) |
+| Jon Arryn had agreed to foster Lysa's son at Casterly Rock | Overheard conversation | The man, the woman | Yes (Bran overhears) |
+| The boy's life was hostage to Lysa's silence | Overheard conversation (the woman's claim) | The woman | Yes |
+| The queen's husband (Robert) is still in love with Lyanna Stark | Overheard conversation (the woman's claim) | The woman | Yes (Bran overhears) |
+| Lyanna Stark died at sixteen | Overheard conversation | The woman | Yes |
+| The queen fears Robert will put her aside | Overheard conversation | The woman | Yes |
+| The woman calls the man "brother" / he calls her "sweet sister" | Overheard conversation | Bran (he hears this) | No |
+| The man and the queen look "as much alike as reflections in a mirror" | Bran's observation when he sees them both in the window | Bran | No |
+| Bran is seven years old | Bran states his age | Bran, the man | No |
+| Bran is pushed from a window | Direct action | Bran, the man, the woman | No |
+| Jon Snow seems angry at everyone | Bran's observation | Bran | No |
+| Jon Snow is going to the Wall with Benjen Stark | Bran's narration | Bran, the Stark family | No |
+| The heart tree frightens Bran | Internal narration | Bran only | Yes |
+| The woman says Eddard Stark "betrayed one already" — referring to the old mad king | Overheard conversation | The man, the woman | Yes (Bran overhears) |
+| The First Keep has been empty all Bran's life | Bran's observation (he is startled to hear voices there) | Bran | No |
 
 ## Dialogue of Note
 | Speaker | Listener | Quote/Paraphrase | Context |
 |---------|----------|------------------|---------|
-| Cersei | Jaime | "You should be the Hand." | Opening the overheard conversation; Cersei's stated wish |
-| Jaime | Cersei | "Gods forbid. It's not an honor I'd want. There's far too much work involved." | Jaime deflects with apparent laziness |
-| Cersei | Jaime | "Don't you see the danger this puts us in? Robert loves the man like a brother." | Cersei articulates the threat posed by Ned's appointment |
-| Jaime | Cersei | "Robert can barely stomach his brothers. Not that I blame him. Stannis would be enough to give anyone indigestion." | Jaime names Stannis specifically; dismissive tone |
-| Cersei | Jaime | "I should have insisted that he name you, but I was certain Stark would refuse him." | Cersei's regret and hindsight |
-| Jaime | Cersei | "Give me honorable enemies rather than ambitious ones, and I'll sleep more easily by night." | Jaime characterizes Ned as honorable, not ambitious |
-| Cersei | Jaime | "Lord Eddard has never taken any interest in anything that happened south of the Neck. Never. I tell you, he means to move against us. Why else would he leave the seat of his power?" | Cersei's suspicion of Ned's motives for accepting |
-| Jaime | Cersei | "A hundred reasons. Duty. Honor. He yearns to write his name large across the book of history, to get away from his wife, or both. Perhaps he just wants to be warm for once in his life." | Jaime lists alternative reasons |
-| Cersei | Jaime | "His wife is Lady Arryn's sister. It's a wonder Lysa was not here to greet us with her accusations." | Cersei notes the Tully-Arryn connection |
-| Jaime | Cersei | "You fret too much. Lysa Arryn is a frightened cow." | Jaime dismisses Lysa as a threat |
-| Cersei | Jaime | "That frightened cow shared Jon Arryn's bed." | Cersei's counter: proximity to Jon Arryn equals potential knowledge |
-| Jaime | Cersei | "If she knew anything, she would have gone to Robert before she fled King's Landing." | Jaime's reasoning: her silence implies ignorance or coercion |
-| Cersei | Jaime | "When he had already agreed to foster that weakling son of hers at Casterly Rock? I think not. She knew the boy's life would be hostage to her silence. She may grow bolder now that he's safe atop the Eyrie." | Cersei explains Lysa's coerced silence and new freedom |
-| Jaime | Cersei | "I think birthing does something to your minds. You are all mad." | Jaime's dismissive remark about mothers |
-| Cersei | Jaime | "Do you think the king will require proof? I tell you, he loves me not." | Cersei's fear that Robert will act on Lysa's accusations without evidence |
-| Jaime | Cersei | "And whose fault is that, sweet sister?" | Jaime's sardonic response; first use of "sister" — audible marker of their relationship |
-| Cersei | Jaime | "He betrayed one already, or have you forgotten?" | Cersei on Jaime's claim that Ned would never betray Robert; references Jaime killing Aerys |
-| Cersei | Jaime | "What happens when Robert dies and Joff takes the throne? And the sooner that comes to pass, the safer we'll all be." | Cersei explicitly expresses desire for Robert's death |
-| Cersei | Jaime | "My husband grows more restless every day. Having Stark beside him will only make him worse. He's still in love with the sister, the insipid little dead sixteen-year-old. How long till he decides to put me aside for some new Lyanna?" | Cersei's jealousy of Lyanna; fear of being replaced |
-| Jaime | Cersei (and Bran) | "The things I do for love." | Said immediately before pushing Bran from the window |
-| Bran | Jaime | "Seven." | Bran's age, in response to Jaime's question; Bran's only spoken line in the chapter |
-| Eddard Stark (paraphrased by Bran) | Bran | "You're not my son. You're a squirrel. So be it. If you must climb, then climb, but try not to let your mother see you." | Ned's response after finding Bran asleep in a tree following supposed reflection in the godswood |
+| Bran | His direwolf | "You stay here. Lie down. That's right. Now stay." | At the base of the sentinel tree before climbing |
+| Bran | His direwolf | "Quiet. Sit down. Stay. You're worse than Mother." | Wolf howling as Bran climbs; comparing wolf's protectiveness to his mother's |
+| Lord Eddard Stark | Bran (recalled) | "You're not my son, you're a squirrel. So be it. If you must climb, then climb, but try not to let your mother see you." | After Bran was caught sleeping in the tallest sentinel despite being ordered to the godswood |
+| Bran | Maester Luwin (recalled) | "I'm not made of clay. And anyhow, I never fall." | After Maester Luwin flung the pottery boy off the wall |
+| The woman | The man | "You should be the Hand." | Expressing frustration that Eddard was named instead |
+| The woman | The man | "Don't you see the danger this puts us in? Robert loves the man like a brother." | Warning about Stark as Hand |
+| The man | The woman | "Give me honorable enemies rather than ambitious ones, and I'll sleep more easily by night." | Dismissing the threat; preferring Stark to Littlefinger |
+| The woman | The man | "Lord Eddard has never taken any interest in anything that happened south of the Neck. Never. I tell you, he means to move against us. Why else would he leave the seat of his power?" | Arguing Stark's departure signals hostile intent |
+| The man | The woman | "A hundred reasons. Duty. Honor. He yearns to write his name large across the book of history, to get away from his wife, or both. Perhaps he just wants to be warm for once in his life." | Suggesting mundane motivations |
+| The woman | The man | "His wife is Lady Arryn's sister. It's a wonder Lysa was not here to greet us with her accusations." | Linking Catelyn to Lysa Arryn |
+| The man | The woman | "You fret too much. Lysa Arryn is a frightened cow." | Dismissing Lysa as a threat |
+| The woman | The man | "When he had already agreed to foster that weakling son of hers at Casterly Rock? I think not. She knew the boy's life would be hostage to her silence. She may grow bolder now that he's safe atop the Eyrie." | Explaining why Lysa didn't go to Robert |
+| The man | The woman | "Mothers. I think birthing does something to your minds. You are all mad." | Dismissing maternal concern with contempt |
+| The man | The woman | "Whatever she knows, whatever she thinks she knows, she has no proof. Or does she?" | Confident dismissal followed by momentary doubt |
+| The man | The woman | "And whose fault is that, sweet sister?" | After she says the king doesn't love her |
+| The woman | The man | "He betrayed one already, or have you forgotten?" | Referring to Stark and the old mad king |
+| The woman | The man | "He's still in love with the sister, the insipid little dead sixteen-year-old. How long till he decides to put me aside for some new Lyanna?" | Fear about Robert's attachment to Lyanna Stark |
+| The woman | The man | "He saw us." | Shrilly, after Bran witnesses them |
+| The man | Bran | "Take my hand. Before you fall." | Reaching down to the dangling Bran |
+| The man | Bran | "How old are you, boy?" | After pulling Bran up to the sill |
+| The man | The woman | "The things I do for love." | Said with loathing, immediately before pushing Bran |
+| The woman | The man | "Stop it, stop it, stop it. Oh, please ..." | During the sexual encounter; voice low and weak; does not push him away |
 
 ## POV Character's Internal State
-- **Emotional state:** Nostalgic and unexpectedly sorrowful about leaving Winterfell at the chapter's start; the anticipated excitement about going south has given way to grief; frightened and confused while overhearing the conversation; terrified as he falls
-- **Primary preoccupation:** The conflict between eagerness to go south and grief at leaving his only home; then a pivot to the overheard conversation and the fall
-- **Key decisions made:** Decides to climb the broken tower as a final farewell to Winterfell; decides he must get closer to see who is speaking rather than retreat; attempts to pull himself up when spotted
-- **Self-deception flags:** Bran asserts he is "not afraid" of King's Landing's darker aspects (ghosts, dungeons); he states "I never fall" — refuted directly by events of the chapter
+- **Emotional state:** Shifts dramatically — excitement about departure → sudden sadness and loss at leaving home → tears at the stable seeing his pony → contentment in the godswood with his wolf → restless energy driving him to climb → curiosity about the voices → fear at what he's hearing and awareness it's not meant for his ears → terror at being discovered → vertigo and panic during the fall → relief when pulled up and standing on the sill → shock and screaming as he's pushed
+- **Primary preoccupation:** Leaving Winterfell; his identity as a climber; wanting to be a knight of the Kingsguard
+- **Key decisions made:** Decides to go climbing one last time instead of completing farewells; decides he must get closer and see who is speaking despite being frightened
+- **Self-deception flags:** "I never fall" — Bran's absolute confidence in his climbing ability; he does not think he ever really fooled his mother about climbing despite trying
 
 ## Relationships Observed
 | Character A | Relationship | Character B | Evidence |
 |-------------|-------------|-------------|----------|
-| Jaime Lannister | Incestuous sexual relationship | Cersei Lannister | Directly witnessed by Bran; physical encounter in the First Keep |
-| Jaime Lannister | Sibling | Cersei Lannister | "Sweet sister" in dialogue; Bran notes they look "as much alike as reflections in a mirror" |
-| Cersei Lannister | Conspiratorial hostility toward | Eddard Stark | Dialogue: wants him watched; believes he will "move against us" |
-| Jaime Lannister | Dismissive of threat posed by | Eddard Stark | Jaime calls Ned "honorable," not ambitious; provides reassuring counter-arguments |
-| Cersei Lannister | Fear and hostility toward | Lysa Arryn | Dialogue: considers Lysa a potential threat who may speak |
-| Cersei Lannister | Hostility and jealousy toward | Robert Baratheon | Dialogue: wishes him dead; jealous of his love for Lyanna |
-| Cersei Lannister | Political goal: enthronement of | Joffrey Baratheon | Dialogue: "Joff takes the throne" stated as desired outcome |
-| Robert Baratheon | Lingering attachment to | Lyanna Stark (deceased) | Per Cersei's dialogue |
-| Eddard Stark | Trusted friend of / loyal to (per Cersei) | Robert Baratheon | "Robert loves the man like a brother"; "Robert will listen to Stark" |
-| Bran Stark | Deep reverence for | Historical Kingsguard | "Their names were like music to him"; knows all their stories |
-| Bran Stark | Fear and avoidance of | Heart tree / weirwood pool | "Trees ought not have eyes"; takes the long way around |
-| Catelyn Stark | Fearful prohibition toward | Bran's climbing | Repeatedly tried to stop him; made him promise to stay on the ground |
-| Eddard Stark | Indulgent tolerance of | Bran's climbing | Laughed and gave permission: "If you must climb, then climb" |
+| Bran | Attachment / farewell grief | Winterfell | Bran feels lost at leaving the only home he's ever known; can't complete farewells; cries at the stable |
+| Bran | Bond / companionship | His direwolf (unnamed) | Wolf follows Bran everywhere; Bran tries to teach it to fetch; wolf is smarter than the hounds |
+| Bran's direwolf | Protective warning | Bran | Howls when Bran climbs the sentinel tree; stares with slitted yellow eyes; a strange chill goes through Bran |
+| Bran | Admiration / aspiration | The Kingsguard | Dreams of becoming a Kingsguard knight; recites their names "like music"; marks days on wall eager to meet Ser Barristan |
+| Bran | Hero worship | Ser Barristan Selmy | Marking days on his wall, eager to meet the greatest living knight |
+| Bran | Fear / avoidance | The heart tree | Has always frightened him — "trees ought not have eyes or leaves that looked like hands"; takes the long way around |
+| Bran | Puzzlement / distance | Jon Snow | Thinks Jon is angry at him and everyone; doesn't understand why; doesn't look for him very hard |
+| Jon Snow | Distance / anger | Everyone (per Bran) | Seems angry at everyone these days; nowhere to be found with his wolf |
+| Bran | Love / security | Lord Eddard | Father's presence makes him unafraid of King's Landing; father gave permission to climb; "How could he be afraid? His father would be with him" |
+| Bran | Love / tension | Catelyn (Mother) | She fears for him; he tries to hide climbing from her; compares wolf's protectiveness to hers: "You're worse than Mother" |
+| Lord Eddard | Affectionate discipline | Bran | Ordered him to godswood, could not help but laugh, then permitted climbing |
+| The queen | Sexual / conspiratorial | The man (her mirror image) | Naked together; kissing; sexual contact; political co-conspirators discussing threats |
+| The queen | Fear / resentment | King Robert | He doesn't love her; still in love with Lyanna; she fears being set aside; "my husband grows more restless every day" |
+| The man | Contempt / dismissiveness | Political concerns | Sounds bored; dismisses danger; "far too much work involved"; prefers pleasure to worry |
+| The man | Willingness to kill | Bran | Pushes a seven-year-old from a window to protect their secret; "The things I do for love" — said with loathing |
+| The woman | Alarm about Bran | The man | "He saw us" — shrilly; "What are you doing?" when the man pulls Bran up |
+| Robb | Judgment | Ser Jaime Lannister | Says Jaime killed the old mad king and shouldn't count as Kingsguard anymore |
+| Bran | Dismissiveness | Rickon | "Rickon was only a baby" |
+| Bran | Dismissiveness | Sansa and Arya | "The girls were only girls" |
+| Bran | Judgment | Rickon | Thinks Shaggydog is "a pretty stupid name for a direwolf" |
+| Bran | Envy | Jon Snow | Wishes he had thought of "Ghost" first |
 
 ## Unanswered Questions
 | Question | Raised By | Context |
 |----------|-----------|---------|
-| Does Bran survive the fall? | Events of the chapter | Chapter ends mid-fall; fate unresolved |
-| What specifically did Jon Arryn discover, and what does Lysa know? | Cersei and Jaime's dialogue | They speak of "whatever she knows" without specifying the content |
-| Was the fosterage arrangement at Casterly Rock deliberate coercion of Lysa, and by whom? | Cersei's dialogue | Cersei frames it as a hostage arrangement but gives no detail on how it was engineered |
-| What is Bran's direwolf's name? | Bran's narration | He has tried "a hundred names" and settled on none |
-| What does the direwolf's howling signify? | Wolf's behavior before and during the climb | The wolf howled before Bran encountered danger and again as he fell |
-| What do Cersei and Jaime plan if Bran survives and speaks? | Events of chapter | Jaime has acted; outcome depends on Bran's survival |
+| Who are the man and woman Bran overhears? | Narrative | Bran recognizes the queen and notes the man looks like her mirror reflection; they call each other sister/brother; not named directly |
+| What does Lysa Arryn know or think she knows? | The overheard conversation | The man asks whether she has proof |
+| Why was Jon Arryn's son to be fostered at Casterly Rock? | The overheard conversation | The woman says it was a means to ensure Lysa's silence |
+| What did Stark betray — the woman says he "betrayed one already" | The overheard conversation | Referring to the "old mad king" |
+| Will Bran survive the fall? | Chapter ending | He is pushed from a high window; the courtyard rushes up to meet him |
+| Why is Jon Snow angry at everyone? | Bran's observation | Bran does not know the reason |
+| What name will Bran choose for his direwolf? | Bran's narration | He has tried a hundred names in a fortnight; none sounded right |
+| What is "the danger" the woman fears they are in? | The overheard conversation | She says Eddard as Hand "puts us in" danger; unspecified what they are hiding |
 
 ## Raw Entity List
-
 ### Characters
-- Bran Stark (POV, present)
-- Cersei Lannister (present)
-- Jaime Lannister (present)
-- Bran's direwolf, unnamed (present)
-- King Robert Baratheon (referenced)
-- Eddard Stark (referenced)
-- Robb Stark (referenced)
-- Jon Snow (referenced)
-- Sansa Stark (referenced)
-- Arya Stark (referenced)
-- Rickon Stark (referenced)
-- Prince Joffrey Baratheon (referenced)
-- Benjen Stark (referenced)
-- Jory Cassel (referenced)
-- Theon Greyjoy (referenced)
-- Ser Rodrik Cassel (referenced)
-- Tyrion Lannister (referenced)
-- Catelyn Stark (referenced)
-- Old Nan (referenced)
-- Gage (cook; referenced)
-- Mikken (smith; referenced)
-- Hodor (referenced)
-- Maester Luwin (referenced)
-- Stannis Baratheon (referenced)
-- Renly Baratheon (referenced)
-- Petyr Baelish / Littlefinger (referenced)
-- Lysa Arryn (referenced)
-- Jon Arryn (referenced; deceased)
-- Robin Arryn (referenced; unnamed in chapter)
-- Lyanna Stark (referenced; deceased)
-- Ser Barristan Selmy / Barristan the Bold (referenced)
-- Ser Boros Blount (referenced)
-- Ser Meryn Trant (referenced)
-- Serwyn of the Mirror Shield (referenced; historical)
-- Ser Ryam Redwyne (referenced; historical)
-- Prince Aemon the Dragonknight (referenced; historical)
-- Ser Erryk (referenced; historical)
-- Ser Arryk (referenced; historical)
-- Ser Gerold Hightower / The White Bull (referenced; historical)
-- Ser Arthur Dayne / Sword of the Morning (referenced; historical)
-- Man in the glass gardens (referenced; unnamed)
-- Grey Wind (Robb's direwolf; referenced)
-- Lady (Sansa's direwolf; referenced)
-- Arya's direwolf, unnamed in chapter (referenced)
-- Shaggydog (Rickon's direwolf; referenced)
-- Ghost (Jon's direwolf; referenced)
+Bran Stark, Bran's direwolf (unnamed), Jon Snow, Ghost, Robb Stark, Grey Wind, Sansa Stark, Lady, Arya Stark, Nymeria, Rickon Stark, Shaggydog, Lord Eddard Stark, Catelyn Stark, King Robert Baratheon, Prince Joffrey Baratheon, Cersei (the queen), Jaime Lannister (the man/her mirror image), Benjen Stark, Jory Cassel, Theon Greyjoy, Ser Rodrik Cassel, Tyrion Lannister (the queen's funny little brother), Old Nan, Gage the cook, Mikken the smith, Hodor, the man in the glass gardens (unnamed), Maester Luwin, Ser Boros Blount, Ser Meryn Trant, Ser Barristan Selmy, Stannis Baratheon, Renly Baratheon, Littlefinger, Lysa Arryn, Jon Arryn, Robert Arryn (Lysa's son), Lyanna Stark, Serwyn of the Mirror Shield, Ser Ryam Redwyne, Prince Aemon the Dragonknight, Ser Erryk, Ser Arryk, Gerold Hightower (The White Bull), Ser Arthur Dayne (The Sword of the Morning)
 
 ### Locations
-- Winterfell
-- Broken tower (Winterfell)
-- First Keep (Winterfell)
-- Godswood (Winterfell)
-- Heart tree / weirwood pool (Winterfell godswood)
-- Armory (Winterfell)
-- Guards hall (Winterfell)
-- Bell tower (Winterfell)
-- Rookery (Winterfell)
-- Glass gardens (Winterfell)
-- Stable (Winterfell)
-- Kennels (Winterfell)
-- Inner-wall tunnel (Winterfell; south gate to north gate)
-- King's Landing
-- The Wall
-- Casterly Rock
-- The Eyrie
-- The Neck
-- Kingsroad
+Winterfell, the godswood, the heart tree pool, the broken tower, the First Keep, the armory, the old armory (dusty loft with ancient owl), the guards hall, the bell tower, the rookery, the glass gardens, the stables, the kennels, the washing well, the yard (training), the south gate, the north gate, the inner wall, King's Landing (the red castle), the Wall, Casterly Rock, the Eyrie, the Neck, the kingsroad
 
 ### Artifacts
-- Bran's unnamed direwolf
-- Bran's pony
-- Pottery mannequin (Maester Luwin's demonstration prop)
-- Grey Wind
-- Lady
-- Arya's direwolf (unnamed in chapter)
-- Shaggydog
-- Ghost
+Bran's pony, Maester Luwin's pottery boy
 
 ### Houses/Factions
-- House Stark
-- House Lannister
-- House Baratheon
-- House Arryn
-- House Greyjoy
-- House Cassel
-- The Kingsguard
-- The Night's Watch
+House Stark, House Baratheon, House Lannister, House Arryn, the Kingsguard, the Night's Watch

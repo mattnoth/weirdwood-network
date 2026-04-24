@@ -6,161 +6,196 @@
 - **pov_character:** Eddard Stark
 - **pov_chapter_number:** Eddard III
 - **first_available:** AGOT Eddard III
-- **location_primary:** Darry Castle (Ser Raymun Darry's seat)
-- **location_secondary:** The Trident (referenced as nearby), Winterfell (referenced as destination for Lady's burial)
-- **approximate_timeline:** Several days after the Trident incident involving Joffrey, Arya, and Nymeria; Arya has been missing for four days and is recovered at the chapter's opening
-- **chapter_summary:** Arya is found and brought before King Robert at Darry Castle. A confrontation ensues over the Trident incident, with Joffrey and Arya giving conflicting accounts; Sansa refuses to corroborate Arya's version. The king decrees that the direwolf involved must be killed; since Nymeria cannot be found, Lady (Sansa's wolf) is condemned in her place. Ned kills Lady himself rather than leave it to the executioner Ser Ilyn Payne. As Ned returns, Sandor Clegane rides in with the body of Mycah the butcher's boy, whom he has hunted down and killed.
+- **location_primary:** Castle Darry
+- **location_secondary:** The Trident (referenced), Winterfell (referenced)
+- **approximate_timeline:** Four days after Arya's disappearance following the incident at the Trident; the royal party is halted at Castle Darry during the journey south to King's Landing
+- **time_markers:** "four days now" since Arya disappeared; "the first three days" Ned led searches himself; "this morning" he was too weary to stand; the Hound returns at the end of the chapter (time of day unspecified but Ned was heading to sleep)
+- **chapter_summary:** Arya is found after four days missing and brought before King Robert at Castle Darry to settle the dispute over her confrontation with Prince Joffrey. Arya and Joffrey give conflicting accounts, and Sansa claims she cannot remember what happened. Cersei demands punishment and, when the direwolf Nymeria cannot be found, insists that Sansa's direwolf Lady be killed instead. Robert agrees despite Ned's protests, and Ned insists on performing the execution himself rather than letting the royal executioner do it. He orders Lady's body sent north to Winterfell. As Ned returns to rest, Sandor Clegane arrives with the body of the butcher's boy Mycah, whom he has ridden down and killed.
+
+## Physical Environment
+- **Weather:** Not described
+- **Season indicators:** Not described
+- **Time of day:** Morning (Ned was "heartsick and weary he could scarcely stand" this morning); the chapter spans through an unspecified portion of the day; Ned is heading to sleep at the end
+- **Lighting:** Not described
+- **Sounds:** Boots ringing on stone floor; men calling out across the castle yard; Sansa's wails echoing in Ned's ears; Clegane's riders pounding through the castle gate; the thump of Mycah's body falling
+- **Smells:** Not described
+- **Notable sensory details:** The taste of bile in Ned's throat when he orders Ice brought; his eyes burning as he leaves the hall
 
 ## Characters Present
 | Character | Role in Chapter | First Appearance? | Notes |
 |-----------|----------------|-------------------|-------|
-| Eddard Stark | POV character | No | Lord of Winterfell, King's Hand |
-| Arya Stark | Recovered fugitive, key witness | No | Has been missing four days; found hungry but unharmed |
-| Sansa Stark | Witness summoned to testify | No | Refuses to give a clear account of the Trident incident |
-| Robert Baratheon | King, adjudicator of dispute | No | Slumped, sullen; reluctant to engage; ultimately yields to Cersei on Lady |
-| Cersei Lannister | Queen; drives the punishment agenda | No | Demands punishment for Arya and death of the direwolf |
-| Joffrey Baratheon | Prince; accuser | No | Has bandaged arm; gives version of Trident events contradicting Arya's; smiling when Lady is condemned |
-| Jory Cassel | Stark man-at-arms; recovered Arya | No | Speaks up to say Nymeria was not found |
-| Vayon Poole | Ned's steward | No | Informs Ned of Arya's recovery; escorts Sansa to the audience chamber |
-| Ser Barristan Selmy | Lord Commander of the Kingsguard | No | Present; grave in demeanor; reluctantly confirms Lady is chained at the gatehouse |
-| Lord Renly Baratheon | Robert's brother; observer | No | Laughs at Joffrey's account; is asked to leave; mocks the prince on the way out |
-| Ser Raymun Darry | Lord of Darry Castle; host | No (uncertain — verify) | Castle is his seat; politically neutral expression; his family fought for Rhaegar at the Trident |
-| Sandor Clegane ("the Hound") | Arrives at chapter's end with Mycah's body | No | Was north of the Trident on search; rode down Mycah |
-| Lady | Sansa's direwolf | No | Chained at the gatehouse; killed by Ned with Ice |
+| Eddard Stark | POV, protagonist | No | King's Hand; leads the defense of Arya and the direwolves |
+| Arya Stark | Central figure in dispute | No | Found after four days missing; dirty, hungry, shaking |
+| Sansa Stark | Witness called to testify | No | Claims she does not remember what happened |
+| Robert Baratheon | King, judge of the dispute | No | Reluctant, irritable, ultimately sides with Cersei on the wolf |
+| Cersei Lannister | Queen, antagonist | No | Demands punishment for Arya and death for the direwolf |
+| Joffrey Baratheon | Accuser | No | Gives a version of events contradicting Arya's; pale during testimony |
+| Jory Cassel | Ned's captain of guard | No | Found Arya; restrains her; brings Ice to Ned |
+| Vayon Poole | Ned's steward | No | Delivers news of Arya's finding; brings Sansa to the hall |
+| Renly Baratheon | Observer | No | Laughs at Joffrey's humiliation; escorted/leaves on his own |
+| Barristan Selmy | Kingsguard | No | Grave demeanor; reveals Lady's location when asked |
+| Sandor Clegane | Returned hunter | No | Arrives at end with Mycah's body |
+| Lady | Direwolf, victim | No | Chained outside the gatehouse; executed by Ned |
+
+## Character Appearances
+| Character | Hair | Eyes | Build/Height | Scars/Marks | Clothing/Armor | Weapons Worn | Distinguishing Features | Age (if stated) |
+|-----------|------|------|-------------|-------------|----------------|-------------|------------------------|-----------------|
+| Arya Stark | | | Described as "a scrawny little girl," tiny in Ned's arms | | | | Dirty face, tears leaving pink tracks down her cheeks | Nine years old (per Renly's remark) |
+| Sansa Stark | Thick auburn hair, brushed until it shone | | | | Blue velvets trimmed with white | | Silver chain around her neck | |
+| Robert Baratheon | | Flat, dead eyes (when leaving) | | | | | Thick beard; slumped posture in the high seat | |
+| Cersei Lannister | | Green eyes, shining with triumph | | | | | | |
+| Joffrey Baratheon | | | | Thick silken bandages covering his arm (from the bite) | | | Pale during testimony; smiling when Lady's execution is ordered | |
+| Sandor Clegane | | Eyes glittering through his helm | | | Dog's-head helm (steel, described as hideous) | | | |
+| Lady | Thick grey fur | Bright golden eyes | The smallest of the litter | | | | The prettiest, the most gentle and trusting | |
 
 ## Characters Referenced
 | Character | Context of Reference | Referenced By |
 |-----------|---------------------|---------------|
-| Mycah | Referred to as "the butcher's boy"; his body brought in by the Hound at chapter's end | Cersei (initial mention), Arya, Sandor Clegane |
-| Nymeria | Arya's direwolf; sought but not found; she bit Joffrey at the Trident | Cersei, Arya, Jory, Ned |
-| Jaime Lannister | Mentioned as absent — leading searches north of the Trident | Narrator (Ned's observation) |
-| Ser Ilyn Payne | Named as the executioner Cersei would send for Lady | Cersei |
-| Lyanna Stark | Ned invokes love for her in pleading to Robert to spare Lady | Ned |
-| Rhaegar Targaryen | Mentioned in context of the Battle of the Trident; Darry family fought under his banners | Narrator |
+| Mycah (butcher's boy) | Arya says Joffrey was hurting Mycah; Cersei calls him "the butcher boy"; his body is brought back by the Hound | Arya, Cersei, narrative |
+| Nymeria | The direwolf that bit Joffrey; Cersei demands its skin; Jory reports no trace found; Sansa names her as the one who bit Joffrey | Cersei, Jory, Sansa, Arya |
+| Jaime Lannister | Noted as absent, leading searches north of the Trident | Narrative |
+| Ilyn Payne | Cersei orders him sent for to execute Lady; Ned refers to him as "a butcher" | Cersei, Ned (indirectly) |
+| Ser Raymun Darry | Lord of Castle Darry; host to the royal party; guarded his expression carefully | Narrative |
+| Rhaegar Targaryen | Ser Raymun's family fought beneath Rhaegar's dragon banners at the Trident | Narrative |
+| Lyanna Stark | Ned appeals to Robert "for the love you bore my sister" | Ned |
 
 ## Locations
-| Location | Role | First Appearance? | Description Notes |
-|----------|------|-------------------|-------------------|
-| Darry Castle | Primary setting; seat of Ser Raymun Darry | No (uncertain — verify) | Modest holding a half day's ride south of the Trident; too small for the combined royal/Stark/Lannister/Darry parties; audience chamber appropriated by the king |
-| The Trident | Referenced as nearby river; site of the original incident | No | Joffrey's sword "Lion's Tooth" was thrown into it by Arya |
-| Winterfell | Destination Ned orders for Lady's body | No | Ned refuses to let the Lannisters have the skin; orders burial there |
+| Location | Role | First Appearance? |
+|----------|------|-------------------|
+| Castle Darry | Primary setting; where the royal party is staying and the hearing takes place | Yes |
+| The Trident | River referenced as boundary of the search and site of past battle | No |
+| Winterfell | Referenced as destination for Lady's burial | No |
+
+## Location Descriptions
+| Location | Defensive Features | Architecture/Layout | Interior Details | Scale | Condition | Surrounding Terrain/Geography | Notable Sensory Details |
+|----------|--------------------|--------------------|-----------------| ------|-----------|------------------------------|------------------------|
+| Castle Darry | Gatehouse with guards | Audience chamber (appropriated by Robert); tower (where Ned's quarters are, accessed by tower steps); castle yard | High seat at far end of audience chamber; stone floor | "A modest holding"; "a castle far too small" for the combined parties | Functional, occupied | A half day's ride south of the Trident | Boots ringing on stone floor; crowded with too many people |
 
 ## Artifacts & Objects of Significance
 | Artifact | Context | First Appearance? | Current Holder/Location |
 |----------|---------|-------------------|------------------------|
-| Ice | Ned's Valyrian steel greatsword; used by Ned to kill Lady | No | Brought to Ned by Jory; used and presumably returned |
-| Lion's Tooth | Prince Joffrey's sword; thrown into the Trident by Arya during the earlier incident | No (uncertain — verify) | Lost — in the Trident |
+| Ice | Ned's Valyrian steel greatsword; Jory brings it to Ned to execute Lady | No | Eddard Stark |
+| Lion's Tooth | Joffrey's sword; referenced as having been thrown in the river by Arya; Renly laughs at the name | No | Lost in the Trident |
+
+## Food & Drink
+| Meal/Occasion | Food Items Described | Drink | Who Is Eating/Drinking | Where | Preparation/Presentation Notes |
+|--------------|---------------------|-------|----------------------|-------|-------------------------------|
+| Arya's survival eating | Berries ("I ate some berries, but there was nothing else") | | Arya Stark (while missing) | Wilderness | Foraging; Arya is described as hungry |
+
+## Hospitality & Guest Right
+| Event | Type | Host | Guest(s) | Details |
+|-------|------|------|----------|---------|
+| Royal party at Castle Darry | shelter_offered | Ser Raymun Darry | Robert, Cersei, Ned, and entire royal party | "The royal party had made themselves the uninvited guests"; they "were not welcome visitors"; Ser Raymun's family fought for Rhaegar at the Trident and his three older brothers died there; Robert appropriated Ser Raymun's audience chamber and high seat |
 
 ## Events & Actions
-1. **Arya recovered** — Jory Cassel finds Arya after four days; Lannister gate guards inform the queen, and she is brought before the king rather than returned to Ned directly.
-2. **Audience chamber confrontation** — Ned, Cersei, Robert, Joffrey, and Arya dispute the events at the Trident. Joffrey and Arya give contradictory accounts.
-3. **Renly laughs and is dismissed** — Renly Baratheon laughs at Joffrey's account; Robert orders Ser Barristan to escort him out; Renly departs and mocks Joffrey at the door.
-4. **Sansa refuses to testify** — Called as a witness, Sansa says she does not remember what happened and does not corroborate Arya's account. Arya attacks Sansa physically; Jory pulls Arya off.
-5. **Robert's initial ruling** — Robert decrees no lasting harm was done, instructs Ned to discipline Arya, says he will discipline Joffrey, and starts to walk away.
-6. **Cersei demands the wolf's death** — The queen presses Robert on the direwolf that "savaged" Joffrey. Robert initially dismisses it when told Nymeria was not found.
-7. **Cersei offers a bounty** — Cersei offers one hundred golden dragons for Nymeria's pelt; Robert refuses to fund it with crown gold.
-8. **Lady condemned** — Cersei argues there is a wolf in hand (Lady), and Robert yields: "Have Ser Ilyn see to it."
-9. **Ned intervenes and takes the task himself** — Ned refuses to let Ilyn Payne execute Lady; orders Jory to take the girls away, requests Ice, and kills Lady himself. He orders four men to carry the body north to Winterfell for burial.
-10. **Sandor Clegane returns with Mycah's body** — The Hound rides in, having hunted down and killed Mycah. The body is nearly cut in half from shoulder to waist. The Hound states Mycah ran, but "not very fast."
+1. **Vayon Poole reports Arya found** — Ned's steward tells him Jory found Arya, but Lannister guards at the gate informed the queen and Arya is being brought before the king.
+2. **Ned descends in fury** — He orders Sansa brought to the audience chamber and crosses the castle yard, maintaining dignity despite his rage.
+3. **Ned enters the audience chamber** — He finds Robert slumped in Darry's high seat, Cersei and Joffrey beside him, and Arya standing in the center with Jory.
+4. **Ned confronts the situation** — He embraces Arya, who is shaking and sobbing, then demands to know why he was not informed.
+5. **Arya gives her account** — She tells her version of the incident with Joffrey, including that Joffrey was hurting Mycah.
+6. **Renly laughs and is dismissed** — When Arya reaches the part about throwing Joffrey's sword in the Trident, Renly laughs. Robert orders him escorted out; Renly leaves voluntarily, mocking Joffrey on the way out.
+7. **Joffrey gives his contradicting account** — He claims Arya, Mycah, and Nymeria all attacked him unprovoked.
+8. **Sansa is called to testify** — She claims she doesn't know and doesn't remember, refusing to confirm either version.
+9. **Arya attacks Sansa** — Arya tackles Sansa, pummeling her and calling her a liar. Jory pulls her off.
+10. **Robert attempts to dismiss the matter** — He tells Ned to discipline Arya and says he'll do the same with Joffrey.
+11. **Cersei raises the question of the direwolf** — She demands justice for the wolf that bit Joffrey. Jory reports Nymeria has not been found.
+12. **Cersei offers a bounty** — She puts a price of one hundred golden dragons on Nymeria's skin.
+13. **Cersei demands Lady's death** — Since Nymeria cannot be found, Cersei says "We have a wolf" — meaning Lady. Robert shrugs and agrees, ordering Ser Ilyn to do it.
+14. **Ned protests** — He appeals to Robert's friendship and his love for Ned's sister. Robert curses Cersei but does not reverse his decision.
+15. **Ned demands to do it himself** — He tells Robert to do it himself if he means it; Robert leaves silently. Ned then takes Ice and goes to Lady.
+16. **Ned sits with Lady** — He finds her chained outside the gatehouse, notes she is the smallest, prettiest, most gentle and trusting of the litter, with bright golden eyes and thick grey fur.
+17. **Ned executes Lady** — He kills her with Ice.
+18. **Ned orders Lady's body sent to Winterfell** — He tells Jory to choose four men and take her body north to be buried at Winterfell, declaring "The Lannister woman shall never have this skin."
+19. **Sandor Clegane returns with Mycah's body** — The Hound rides in with a heavy shape wrapped in a bloody cloak. It is Mycah, cut almost in half from shoulder to waist by a blow struck from above.
+20. **Clegane's cold remark** — When Ned says "You rode him down," Clegane replies "He ran" and then "But not very fast," laughing.
+
+## Spatial Layout & Movement
+| Phase | Who | Position / Movement | Relative To | Notes |
+|-------|-----|---------------------|-------------|-------|
+| Opening | Ned | In his quarters in the tower | Castle Darry tower | Receives news from Vayon Poole |
+| Advance | Ned | Descends tower steps, crosses castle yard | Tower to audience chamber | Moving quickly but maintaining dignity; men call out to him |
+| Assembly | Robert, Cersei, Joffrey, Arya, Jory, Renly, Barristan, Lannister men | In the audience chamber | Ser Raymun Darry's hall | Robert in the high seat at far end; Cersei and Joffrey beside him; Arya in center with Jory |
+| Arrival | Ned | Bursts into the audience chamber | Audience chamber | Goes to Arya, drops to one knee |
+| Arrival | Sansa, Vayon Poole | Enter through the door behind Ned | Back of the hall | Stand quietly at the back |
+| Confrontation | Arya | Flies at Sansa, knocks her down | Center of hall | Jory pulls her off |
+| Departure | Renly | Leaves the hall voluntarily | Audience chamber door | Mocking Joffrey as he goes |
+| Departure | Robert | Leaves the hall silently | Audience chamber | "Footsteps heavy as lead" |
+| Departure | Ned | Leaves the hall | Audience chamber to outside the gatehouse | Eyes burning, daughters' wails echoing |
+| Arrival | Ned | Goes to Lady | Outside the gatehouse | Lady chained there; Ned sits beside her |
+| Arrival | Jory | Brings Ice to Ned | Outside the gatehouse | |
+| Departure | Ned | Walking back to the tower | Gatehouse to tower | Heading to sleep |
+| Arrival | Sandor Clegane and riders | Pound through the castle gate | Castle gate | Something slung over the back of his destrier |
 
 ## Information Revealed
 | Information | How Revealed | Known To (Characters) | Known To (Reader Only?) |
 |-------------|-------------|----------------------|------------------------|
-| Arya was missing for four days | Ned's internal recollection | Ned, Robert's court | No |
-| Queen's men were also searching for Arya | Ned's recollection | Ned | No |
-| The Darry family fought for Rhaegar at the Trident; three of Ser Raymun's brothers died there | Narrator | Ned (and presumably those present) | No |
-| Jaime Lannister and Sandor Clegane were leading searches north of the Trident at the time of the audience | Narrator observation | Ned | No |
-| Joffrey's sword is named "Lion's Tooth" | Joffrey states it in his account | All present | No |
-| Sansa witnessed the Trident incident but refuses to give an account | Sansa's behavior in the audience chamber | All present | No |
-| Nymeria was not found during the search | Jory Cassel states this | All present | No |
-| Lady is chained at the gatehouse | Ser Barristan states this to Cersei | All present | No |
-| Lady is the smallest, prettiest, most gentle of the litter; has bright golden eyes and thick grey fur | Ned's direct observation at the chaining post | Ned (reader sees through his POV) | No — Ned observes this directly |
-| Ned kills Lady with Ice and orders her body taken to Winterfell | Events of the chapter | All present | No |
-| Mycah the butcher's boy has been killed by Sandor Clegane | Clegane's arrival with the body | Ned and those in the yard | No |
-| Mycah was cut nearly in half from shoulder to waist, struck from above | Physical description of body | Ned | No |
-| The Hound states Mycah "ran" | Sandor Clegane's own words | Ned | No |
+| Arya has been found by Jory after four days missing | Vayon Poole's report to Ned | Ned, Poole, Jory, the Lannisters (via gate guards) | No |
+| Lannister men control the gate and informed the queen | Poole tells Ned | Ned | No |
+| Arya survived by eating berries and is unhurt | Arya tells Ned | Ned, Arya | No |
+| Ser Raymun Darry's family fought for Rhaegar at the Trident; his three older brothers died there | Narrative background | Common knowledge within the story | No |
+| Sansa refuses to confirm either Arya's or Joffrey's version of events | Sansa's testimony | Everyone in the hall | No |
+| Nymeria has not been found | Jory's report | Everyone in the hall | No |
+| Cersei puts a bounty of 100 golden dragons on Nymeria's skin | Cersei's declaration | Everyone in the hall | No |
+| Robert agrees to have Lady killed in Nymeria's place | Robert's order | Everyone in the hall | No |
+| Ned has Lady's body sent north to Winterfell rather than surrendering the skin | Ned's order to Jory | Ned, Jory | Cersei does not know |
+| Mycah the butcher's boy is dead, killed by Sandor Clegane | Clegane returns with the body | Ned, Clegane | No |
+| Mycah was cut almost in half from shoulder to waist | Ned examines the body | Ned | No |
 
 ## Dialogue of Note
 | Speaker | Listener | Quote/Paraphrase | Context |
 |---------|----------|------------------|---------|
-| Cersei Lannister | Arya/court | "You and the butcher boy beat him with clubs while you set your wolf on him." | Cersei's version of the Trident incident, contradicting Arya |
-| Joffrey Baratheon | Court | "They all attacked me, and she threw Lion's Tooth in the river!" | Joffrey's account; does not look at Arya while speaking |
-| Renly Baratheon | Joffrey (departing) | "Perchance later you'll tell me how a nine-year-old girl the size of a wet rat managed to disarm you with a broom handle and throw your sword in the river." | Mocking Joffrey as he leaves; then says "Lion's Tooth" and laughs again |
-| Sansa Stark | Court | "I don't know. I don't remember. Everything happened so fast, I didn't see…" | Sansa's refusal to corroborate either account |
-| Robert Baratheon | Ned | "A direwolf is a savage beast. Sooner or later it would have turned on your girl the same way the other did on my son. Get her a dog, she'll be happier for it." | Robert dismissing Ned's protest over Lady's condemnation |
-| Ned Stark | Robert | "Please, Robert. For the love you bear me. For the love you bore my sister. Please." | Ned's appeal to spare Lady; invokes Lyanna |
-| Robert Baratheon | Cersei | "Damn you, Cersei." | Said with loathing after looking at Ned and Sansa, before leaving |
-| Ned Stark | Robert | "Do it yourself then, Robert. At least have the courage to do it yourself." | After Robert refuses to rescind the order; Robert leaves without a word |
-| Ned Stark | Cersei | "She is of the north. She deserves better than a butcher." | Explaining why he will kill Lady himself instead of leaving it to Ilyn Payne |
-| Ned Stark | Lady | "Lady" | Ned speaks her name while sitting with her before the execution |
-| Sandor Clegane | Ned | "No sign of your daughter, Hand, but the day was not wholly wasted. We got her little pet." | Presenting Mycah's body |
-| Ned Stark | Sandor Clegane | "You rode him down." | Ned's statement on seeing Mycah's body |
-| Sandor Clegane | Ned | "He ran. But not very fast." | The Hound's reply; said while laughing |
+| Cersei | Robert/the hall | "We have a wolf." | Quiet but triumphant; the moment she redirects the sentence from Nymeria to Lady |
+| Renly | Joffrey | "Perchance later you'll tell me how a nine-year-old girl the size of a wet rat managed to disarm you with a broom handle and throw your sword in the river." | Mocking Joffrey as he leaves the hall |
+| Robert | Ned | "Get her a dog, she'll be happier for it." | Dismissing Ned's protest about Lady's execution |
+| Ned | Robert | "Please, Robert. For the love you bear me. For the love you bore my sister. Please." | Desperate appeal to save Lady, invoking their bond and Lyanna |
+| Robert | Cersei | "Damn you, Cersei." | Said "with loathing" after Ned's appeal; Robert blames Cersei but does not reverse the decision |
+| Ned | Robert | "Do it yourself then, Robert. At least have the courage to do it yourself." | Cold challenge after Robert orders the execution but won't perform it |
+| Ned | Cersei | "She is of the north. She deserves better than a butcher." | Explaining why he will execute Lady himself rather than let Ilyn Payne do it |
+| Ned | Jory | "The Lannister woman shall never have this skin." | Ordering Lady's body sent to Winterfell |
+| Sandor Clegane | Ned | "He ran." … "But not very fast." | Clegane's response when Ned says "You rode him down"; said with a laugh |
+| Arya | Sansa | "Liar, liar, liar, liar." | Attacking Sansa after her refusal to testify truthfully |
+| Robert | The hall | "It is a great crime to lie to a king." | Warning before hearing Arya's testimony |
 
 ## POV Character's Internal State
-- **Emotional state:** Begins in exhausted fury (four days of searching, sleepless); shifts to grief and resignation as Lady's fate is decided; ends in cold horror at seeing Mycah's body.
-- **Primary preoccupation:** Protecting his daughters and limiting the damage from the Trident incident; then finding a way to preserve Lady's life; finally, preventing the Lannisters from claiming the wolf's skin.
-- **Key decisions made:** Kills Lady himself rather than leave her to Ilyn Payne; orders Lady's body taken to Winterfell for burial ("The Lannister woman shall never have this skin").
-- **Self-deception flags:** None evident; Ned's account of events appears clear-eyed and matches the narrative record.
+- **Emotional state:** Fury and relief at the start (Arya found but being brought before the king without his knowledge); weariness from four days of searching with almost no sleep; desperation when Lady's fate is decided; burning grief when leaving the hall; quiet tenderness when sitting with Lady before executing her; cold resolve in ordering her body sent north
+- **Primary preoccupation:** Protecting his daughters and their wolves from the Lannisters; navigating the power dynamics of the hearing where he is outnumbered
+- **Key decisions made:** Insists on executing Lady himself rather than allowing Ilyn Payne; orders Lady's body sent to Winterfell to deny Cersei the skin
+- **Self-deception flags:** None apparent; Ned seems clear-eyed about the situation, though he may overestimate his ability to appeal to Robert through their friendship
 
 ## Relationships Observed
 | Character A | Relationship | Character B | Evidence |
 |-------------|-------------|-------------|----------|
-| Ned Stark | Deep unease; strained loyalty | Robert Baratheon | Ned privately catalogues the room for friendly faces; appeals to old friendship and Lyanna's memory; ends by shaming Robert for his failure of courage |
-| Robert Baratheon | Dominated by / resentful of | Cersei Lannister | Robert capitulates on Lady despite personal reluctance; curses Cersei but complies; leaves rather than face what he has decreed |
-| Cersei Lannister | Contemptuous of | Eddard Stark | Drives the punishment agenda against Ned's daughters; suspicious of Ned's motives when he offers to kill Lady himself |
-| Joffrey Baratheon | Allied with / supported by | Cersei Lannister | Cersei stands beside him with hand on shoulder; advances his version of events |
-| Arya Stark | Hostile; physical attack | Sansa Stark | Arya attacks Sansa after Sansa refuses to corroborate her account |
-| Sansa Stark | Refuses to side with | Arya Stark | Sansa gives no account; refuses to corroborate her sister |
-| Renly Baratheon | Derisive toward | Joffrey Baratheon | Laughs at Joffrey's account; mocks him explicitly on the way out |
-| Ned Stark | Protective; grief-stricken | Lady | Sits with Lady before killing her; ensures she is buried at Winterfell |
-| Sandor Clegane | Contemptuous indifference toward | Mycah | Hunted down and killed the boy; reports it with laughter |
-| Ned Stark | Moral revulsion toward | Sandor Clegane | Ned's face registers enough that the Hound notices and laughs at it |
-| Ser Barristan Selmy | Reluctant compliance | Cersei Lannister | Answers Cersei's question about Lady's location "reluctantly" |
+| Ned | Paternal protector | Arya | Takes her in his arms; she cries and apologizes to him; he promises to feed her |
+| Ned | Paternal protector | Sansa | Takes her in his arms when she weeps; but her look "cut" him when he agrees to execute Lady |
+| Ned | Strained friendship | Robert | Ned appeals to their bond and Robert's love for his sister; Robert cannot meet his eyes and leaves; their friendship is visibly damaged |
+| Ned | Antagonism | Cersei | Cersei is hostile throughout; Ned calls her "that woman" and "the Lannister woman"; Cersei views him with suspicion |
+| Cersei | Political dominance over | Robert | Cersei manipulates Robert into agreeing to kill Lady despite his reluctance; Robert says "Damn you, Cersei" but complies |
+| Robert | Loathing | Cersei | "Damn you, Cersei" said with loathing; their marriage is openly hostile |
+| Arya | Fury/betrayal | Sansa | Arya attacks Sansa physically after Sansa refuses to confirm her testimony |
+| Sansa | Fear/conflict | Arya/Joffrey | Sansa looks between her sister and the prince, unable or unwilling to choose; her refusal to testify protects Joffrey at Arya's expense |
+| Renly | Contempt | Joffrey | Publicly mocks Joffrey's inability to defend himself against a child |
+| Robert | Dismissive of | Joffrey | Says Joffrey's scars will "teach him a lesson"; shows no sympathy for his son's injuries |
+| Sandor Clegane | Killed | Mycah | Rode the boy down and cut him almost in half; shows no remorse, laughs about it |
+| Ned | Tenderness | Lady | Sits with her, ruffles her fur, notes her gentle trusting nature; insists on executing her himself as a matter of honor |
+| Jory Cassel | Loyal service | Ned | Found Arya, restrains her, brings Ice, follows Ned's orders about Lady's body without question |
 
 ## Unanswered Questions
 | Question | Raised By | Context |
 |----------|-----------|---------|
-| Will Nymeria be found? | The Hound's failed search; Cersei's bounty | Nymeria evaded all search parties; Cersei has offered one hundred gold dragons for the pelt |
-| What will Sansa's relationship with Arya be after this? | Sansa's refusal to testify and Arya's physical attack | The sisters are now in open conflict |
-| What are the long-term political consequences of this confrontation? | Ned's cataloguing of the hostile room; Robert's weakness before Cersei | Ned observes he and Robert might have resolved this amicably alone |
-| Why does Joffrey not look at Arya while giving his account? | Narrator's observation | Noted by Ned; Joffrey's account contradicts Arya's |
+| Where is Nymeria? | The hearing | Jory reports no trace; she has been lost since the incident four days ago |
+| Why did Sansa refuse to testify truthfully? | Sansa's behavior | She claims not to remember; her motives are not stated |
+| What consequences will Lady's death have for the Stark-Baratheon alliance? | The chapter's events | Ned's relationship with Robert is visibly strained; Robert leaves with "flat, dead eyes" |
+| Will Cersei's bounty lead to Nymeria's death? | Cersei's offer | 100 golden dragons for her skin; Nymeria remains at large |
 
 ## Raw Entity List
-
 ### Characters
-- Eddard Stark
-- Arya Stark
-- Sansa Stark
-- Robert Baratheon
-- Cersei Lannister
-- Joffrey Baratheon
-- Jory Cassel
-- Vayon Poole
-- Ser Barristan Selmy
-- Lord Renly Baratheon
-- Ser Raymun Darry
-- Sandor Clegane ("the Hound")
-- Mycah (butcher's boy — deceased at chapter's end)
-- Lady (Sansa's direwolf — deceased at chapter's end)
-- Nymeria (Arya's direwolf — absent/not found)
-- Jaime Lannister (referenced, absent)
-- Ser Ilyn Payne (referenced, not present)
-- Lyanna Stark (referenced)
-- Rhaegar Targaryen (referenced)
+Eddard Stark, Arya Stark, Sansa Stark, Robert Baratheon, Cersei Lannister, Joffrey Baratheon, Jory Cassel, Vayon Poole, Renly Baratheon, Barristan Selmy, Sandor Clegane, Lady, Nymeria (referenced), Mycah, Jaime Lannister (referenced), Ilyn Payne (referenced), Ser Raymun Darry, Rhaegar Targaryen (referenced), Lyanna Stark (referenced indirectly as "my sister")
 
 ### Locations
-- Darry Castle
-- The Trident
-- Winterfell
+Castle Darry, the Trident, Winterfell, the audience chamber, the gatehouse, the tower
 
 ### Artifacts
-- Ice (Ned's Valyrian steel greatsword)
-- Lion's Tooth (Joffrey's sword, lost in the Trident)
+Ice (Valyrian steel greatsword), Lion's Tooth (Joffrey's sword, lost in the Trident)
 
 ### Houses/Factions
-- House Stark
-- House Baratheon
-- House Lannister
-- House Darry
-- Kingsguard
+House Stark, House Baratheon, House Lannister, House Darry

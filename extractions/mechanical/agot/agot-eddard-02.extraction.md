@@ -6,241 +6,234 @@
 - **pov_character:** Eddard Stark
 - **pov_chapter_number:** Eddard II
 - **first_available:** AGOT Eddard II
-- **location_primary:** Open plains south of the kingsroad (north of King's Landing, somewhere in the North or Riverlands en route south)
-- **location_secondary:** The barrows of the First Men (nearby plain); King's Landing (referenced); Bear Island (referenced); Pentos (referenced); the Trident (referenced); the Red Keep (referenced)
-- **approximate_timeline:** Early morning, shortly after the royal party's departure from Winterfell, during the southward journey to King's Landing
-- **chapter_summary:** King Robert summons Ned before dawn for a private ride away from camp. Robert shares intelligence from Varys that Daenerys Targaryen has married Khal Drogo, and argues that she and her brother should be killed as a threat to his rule. Ned opposes assassination of children, and they argue over the Targaryen danger and Robert's hatred. They then dispute Robert's intent to name Jaime Lannister as Warden of the East. Ned recounts the fall of King's Landing — Tywin Lannister's treachery in opening the gates, Aerys's death, and finding Jaime seated on the Iron Throne — as grounds to distrust him. Robert dismisses Ned's concerns and rides off; Ned follows, resigned.
+- **location_primary:** The barrowlands, rolling plains south of the kingsroad
+- **location_secondary:** Camp of the royal party (at chapter start); King's Landing (referenced); Bear Island (referenced); Pentos (referenced); the Trident (referenced); the Red Keep / Iron Throne room (referenced)
+- **approximate_timeline:** During the journey south from Winterfell to King's Landing; early in the trip
+- **time_markers:** "the hour before the dawn"; "predawn chill"; "Dawn broke as they crested a low ridge"; "the rising sun sent fingers of light through the pale white mists of dawn"; "a rider in the night"; Robert's Rebellion described as having "raged for close to a year"; Jorah Mormont fled "five years" ago; Ned has "lived his lies for fourteen years"
+- **chapter_summary:** Robert rouses Ned before dawn to ride out privately from the royal column. They gallop south of the kingsroad into the barrowlands, where Robert reveals that a message from Varys reports Daenerys Targaryen's marriage to Khal Drogo. Robert wants the Targaryens killed; Ned argues against murdering children. Robert also reveals he intends to name Jaime Lannister as Warden of the East rather than the sickly Robert Arryn. Ned objects, recounting how he found Jaime seated on the Iron Throne after the Sack of King's Landing, but Robert dismisses his concerns. Ned is left feeling helpless and out of place, questioning why he came south.
+
+## Physical Environment
+- **Weather:** Cold; Robert's breath steams with every word; he pulls his cloak tightly around himself and complains of the cold
+- **Season indicators:** None explicitly stated beyond the cold
+- **Time of day:** Begins in the hour before dawn ("predawn chill"); transitions through dawn breaking as they crest a ridge; continues into early morning with the rising sun
+- **Lighting:** Pre-dawn grey ("the world was still and grey"); dawn breaking over a ridge; "the rising sun sent fingers of light through the pale white mists of dawn"
+- **Sounds:** Wind blowing away Ned's words as they gallop; Robert's laughter startling a flight of crows from tall brown grass; "a wild beating of wings"
+- **Smells:** None described
+- **Notable sensory details:** Mist covering the rolling plains ("rolling plains dark with mist"; "pale white mists of dawn"); the cold temperature emphasized repeatedly; Robert's rough physicality (clapping Ned on the shoulder, slapping his knee, kicking his horse)
 
 ## Characters Present
 | Character | Role in Chapter | First Appearance? | Notes |
 |-----------|----------------|-------------------|-------|
-| Eddard Stark | POV character; rides privately with Robert | No | Referred to as Ned, Eddard, Lord Stark |
-| Robert Baratheon | King; initiates the private ride; drives discussion of policy | No | Described as flushed, exhilarated, prone to sudden rage and laughter |
-| Alyn | Eddard's man; wakes Ned before dawn | (uncertain — verify) | Shakes Ned from sleep, lifts tent flap |
-| Ser Boros (Blount) | Kingsguard; rides with the guard contingent | (uncertain — verify) | Named as part of the escort, stays out of earshot |
-| Ser Meryn (Trant) | Kingsguard; rides with the guard contingent | (uncertain — verify) | Named as part of the escort, stays out of earshot |
+| Eddard Stark | POV character | No | Rides out with Robert; argues against killing Daenerys and naming Jaime Lannister Warden of the East |
+| Robert Baratheon | Primary interlocutor | No | Summons Ned for a private ride; reveals Varys's message about Daenerys; reveals Jaime's appointment as Warden of the East |
+| Alyn | Minor role | uncertain — verify | Wakes Ned; described as shaking him roughly from his dreams |
+| Ser Boros (Blount) | Background presence | uncertain — verify | Waits behind Robert with guardsmen at the start |
+| Ser Meryn (Trant) | Background presence | uncertain — verify | Waits behind Robert with guardsmen at the start |
+
+## Character Appearances
+| Character | Hair | Eyes | Build/Height | Scars/Marks | Clothing/Armor | Weapons Worn | Distinguishing Features | Age (if stated) |
+|-----------|------|------|-------------|-------------|----------------|-------------|------------------------|-----------------|
+| Robert Baratheon | | | | | Thick brown gloves, heavy fur cloak with a hood covering his ears | | "looked for all the world like a bear sitting a horse"; flushed and exhilarated after the ride; rides a huge black destrier | |
+| Jaime Lannister (in Ned's memory) | | | | | White cloak of the Kingsguard over golden armor; helm fashioned in the shape of a lion's head | Golden/gilded sword | "How he glittered!" | Seventeen at the time of the Sack |
 
 ## Characters Referenced
 | Character | Context of Reference | Referenced By |
 |-----------|---------------------|---------------|
-| Varys | Master of whisperers; sent night rider with intelligence about Daenerys; served Aerys before Robert | Narrator; Robert |
-| Daenerys Targaryen | Has wed Khal Drogo; Robert wants her killed as a threat | Robert; Ned |
-| Viserys Targaryen | "Beggar king"; brother to Daenerys; sheltered in Pentos before being handed to the Dothraki | Robert (as "her brother"); Ned (as "beggar king") |
-| Khal Drogo | Dothraki khal Daenerys married; said to command a hundred thousand men | Robert; Ned |
-| Ser Jorah Mormont | Former lord of Bear Island; sold poachers to a Tyroshi slaver; now in Pentos acting as spy for Varys in exchange for a royal pardon | Narrator; Robert; Ned |
-| Jon Arryn | Described as a wise man and good Hand; previously counseled Robert not to kill the Targaryens; recently dead | Ned; Robert |
-| Lyanna Stark | Ned's sister; Robert loved her; her death reconciled Robert and Ned after a quarrel; Robert grieves her still | Robert; Ned; Narrator |
-| Catelyn Stark | Ned's wife; was pregnant with Ned's child when Ned lay with Wylla; Ned expresses guilt toward her | Ned; Robert |
-| Wylla | The woman Ned names as Jon Snow's mother; described only by name | Ned (confirms name); Robert (asks about her) |
-| Rhaegar Targaryen | Killed by Robert at the Trident; accused by Robert of raping Lyanna; Robert calls his children "dragonspawn" | Robert; Ned |
-| Aerys Targaryen (the Mad King) | Killed by Jaime; opened King's Landing gates to Tywin; found dead on the floor by Ned | Ned; Robert; Narrator |
-| Rhaegar's wife (unnamed) | Killed during the sack; described as crying as she was dragged from beneath her bed | Ned (narrator voice) |
-| Rhaegar's daughter (unnamed) | Killed during the sack; described as crying | Ned (narrator voice) |
-| Rhaegar's infant son (unnamed) | Killed during the sack; torn from mother's breast, head dashed against a wall | Ned (narrator voice) |
-| Jaime Lannister | Kingslayer; Robert wants to name him Warden of the East; Ned recounts finding him seated on the Iron Throne after killing Aerys | Ned; Robert |
-| Tywin Lannister | Warden of the West; arrived at King's Landing with 12,000 men under guise of loyalty; Robert says "Lord Tywin looms eternal as Casterly Rock" | Ned; Robert; Narrator |
-| Lord Varys (the eunuch) | Sent the intelligence report; described as king's master of whisperers; previously served Aerys | Narrator; Robert |
-| Lysa Arryn | Ned recalls her "terrible accusation" (unexplained in this chapter) | Ned (internal) |
-| Brandon Stark | Ned's brother; Robert references what Aerys did to him as "unspeakable" | Robert |
-| Rickard Stark | Ned's father; Robert references how he died as "unspeakable" | Robert |
-| Stannis Baratheon | Robert's brother; Ned suggests him as Warden of the East; noted for proving himself at the siege of Storm's End | Ned |
-| Robert Arryn | Young, sickly son of Jon Arryn; Robert refuses to name him Warden of the East; Ned calls him Robert's nephew | Robert; Ned |
-| Baelor the Blessed | Referenced by Robert in a joke about Ned being too pious | Robert |
-| Cersei | Robert threatens to burn the wheelhouse and make her walk | Robert |
-| Pentoshi cheesemonger (unnamed) | Sheltered Viserys and Daenerys on his estate with eunuch guards before handing them to the Dothraki | Robert |
+| Cersei (Baratheon/Lannister) | Robert complains about the wheelhouse and says Cersei can walk if it breaks again | Robert |
+| Wylla | Named as the mother of Ned's bastard; Robert tries to remember her name | Robert and Ned |
+| Becca | One of Robert's former women, black hair and big eyes | Robert (misremembering, thinking she was Ned's) |
+| Aleena | Wrong guess by Robert for the name of Jon Snow's mother | Robert |
+| Merryl | Wrong guess by Robert for the name of Jon Snow's mother | Robert |
+| Catelyn Stark | Ned says he dishonored her; notes she was carrying his child when he fathered the bastard; Ned thinks he belongs with her in her grief | Ned |
+| Jon Arryn | Referenced as a wise man and good Hand; counseled against killing Targaryens; Ned compares himself unfavorably to Jon Arryn | Robert and Ned |
+| Varys | King's master of whisperers; sent the rider in the night with news of Daenerys's marriage; described as "the eunuch" | Robert and Ned (narration) |
+| Ser Jorah Mormont | Now in Pentos spying for Varys; previously sold poachers to a Tyroshi slaver; fled Bear Island before Ned could bring justice | Robert and Ned |
+| Daenerys Targaryen | Has wed Khal Drogo; Robert wants her killed | Varys's message, discussed by Robert and Ned |
+| Khal Drogo | Daenerys's new husband; "said to have a hundred thousand men in his horde" | Robert |
+| Viserys Targaryen | Referenced as "the beggar king" and "her brother"; was walled up with Daenerys on a Pentoshi estate | Robert |
+| Tywin Lannister | Presented Robert with corpses of Rhaegar's children; appeared before King's Landing gates with 12,000 men professing loyalty to Aerys; currently Warden of the West; Robert says he "looms eternal as Casterly Rock" | Ned's memory, Robert |
+| Jaime Lannister | Named as intended Warden of the East; killed Aerys on the Iron Throne; sat on the throne afterward; called "Kingslayer" by Ned | Ned and Robert |
+| Rhaegar Targaryen | Wounded Robert at the Trident; his wife and children were killed; Robert accuses him of raping Lyanna "hundreds of times" | Robert and Ned |
+| Lyanna Stark | Robert's lost love; died after the war; her death reconciled Robert and Ned; Robert says the crown was hollow without her; Ned recalls her whisper "Promise me, Ned" | Robert and Ned |
+| Brandon Stark (Ned's brother) | Aerys did something "unspeakable" to him | Robert |
+| Lord Rickard Stark | "Your lord father" — Aerys killed him in an unspeakable manner | Robert |
+| Aerys Targaryen (the Mad King) | Varys once served him; ordered the gates opened to Tywin; killed by Jaime; found dead on the throne room floor "drowned in his own blood" | Ned and Robert |
+| Rhaegar's wife (Elia Martell, unnamed) | Her corpse presented to Robert by Tywin as a token of fealty | Ned's memory |
+| Rhaegar's children (unnamed) | The girl cried as she was dragged from beneath her bed; the boy was a babe torn from his mother's breast and dashed against a wall; Ned called it murder, Robert called it war | Ned's memory |
+| Robert Arryn | Ned's nephew; Ned suggests him as Warden of the East; Robert refuses, calling him "a sickly child" | Ned and Robert |
+| Stannis Baratheon | Ned suggests him as Warden of the East; "proved himself at the siege of Storm's End" | Ned |
+| Bran (Stark) | Ned thinks he belongs with Bran | Ned's thoughts |
+| Jon Snow (implied) | Referenced indirectly as "your bastard" whose mother Robert asks about | Robert |
+| Baelor the Blessed | Robert says no woman wants him in her bed | Robert |
+| Illyrio Mopatis (unnamed) | Referenced as "some pox-ridden Pentoshi cheesemonger" who sheltered Viserys and Daenerys and handed them to the Dothraki | Robert |
 
 ## Locations
-| Location | Role | First Appearance? | Description Notes |
-|----------|------|-------------------|-------------------|
-| Camp (kingsroad, north) | Where the chapter begins; Ned's tent | No | Described as full of ears; dawn, cold, misty |
-| Open plains south of kingsroad | Setting for private ride | Yes | Rolling plains dark with mist; cold; wide and bare with long low hummocks |
-| Barrows of the First Men | Landmark on the plain; Ned points them out | Yes | Long, low hummocks; described as an ancient graveyard; Ned says barrows are everywhere in the north |
-| Bear Island | Home of House Mormont; where Jorah's crime occurred | (uncertain — verify) | Cold, distant, poor lands; Ned made a long journey west to get there |
-| Pentos | Where Ser Jorah now operates as a spy; where Viserys and Daenerys were sheltered | (uncertain — verify) | Free City; Viserys and Daenerys were walled on a Pentoshi estate |
-| King's Landing | Where Robert's court is headed; site of fall of the Targaryens | (uncertain — verify) | Ned recounts finding Lannister men there after the Trident |
-| The Red Keep | Aerys's final refuge during the sack | (uncertain — verify) | Aerys held it with several thousand loyalists |
-| The Trident | Battle site where Robert defeated Rhaegar; Robert was wounded there | (uncertain — verify) | Robert took a wound from Rhaegar; Ned given the pursuit |
-| Casterly Rock | Seat of House Lannister; Tywin described as looming "eternal as Casterly Rock" | (uncertain — verify) | |
-| Storm's End | Where Stannis proved himself in a siege | (uncertain — verify) | |
-| Seven Kingdoms (the realm) | Framing for political discussions throughout | No | |
-| Free Cities | Mentioned as source of ships the Dothraki could potentially use | (uncertain — verify) | |
-| Narrow sea | Ned's argument: Dothraki cannot cross it | (uncertain — verify) | |
+| Location | Role | First Appearance? |
+|----------|------|-------------------|
+| The camp / tent (royal column) | Opening scene; Ned is roused from his tent | No |
+| The kingsroad | They leave it to ride across the plains | No |
+| The barrowlands / rolling plains | Main setting for the chapter's conversation; barrows of the First Men | uncertain — verify |
+| King's Landing | Referenced as Varys's location and site of the Sack | No |
+| Bear Island | Referenced as Mormont homeland; Ned traveled there to bring justice | uncertain — verify |
+| Pentos | Where Jorah Mormont now resides; where Viserys and Daenerys were sheltered | uncertain — verify |
+| The Trident | Site of Robert's victory over Rhaegar | uncertain — verify |
+| The Red Keep | Where Aerys sheltered with loyalists | uncertain — verify |
+| The Iron Throne room | Where Ned found Jaime after the Sack | uncertain — verify |
+| Casterly Rock | Seat of the Lannisters; Tywin "looms eternal" as it | uncertain — verify |
+| Storm's End | Where Stannis proved himself during the siege | uncertain — verify |
+| Winterfell | Where Ned feels he belongs | No |
+
+## Location Descriptions
+| Location | Defensive Features | Architecture/Layout | Interior Details | Scale | Condition | Surrounding Terrain/Geography | Notable Sensory Details |
+|----------|--------------------|--------------------|-----------------| ------|-----------|------------------------------|------------------------|
+| The barrowlands | | | | Wide plain; "bare and brown, its flatness here and there relieved by long, low hummocks" | Ancient; barrows of the First Men | Rolling plains dark with mist; tall brown grasses; low ridges | Pale white mists of dawn; cold; grey distance |
+| King's Landing (in Ned's memory) | Gates; ramparts where the lion of Lannister flew | | Dragon skulls staring down from the walls; "long rows of dragon skulls" in the throne room | | Aerys dead on the floor, drowned in his own blood; Lannister men everywhere | | |
+| The Iron Throne (in Ned's memory) | | High above the knights; Jaime seated on it | | | Described as "monstrous uncomfortable" by Robert; "not a very comfortable seat" by Jaime | | |
 
 ## Artifacts & Objects of Significance
 | Artifact | Context | First Appearance? | Current Holder/Location |
 |----------|---------|-------------------|------------------------|
-| Varys's intelligence letter | Carried by Robert; contains news of Daenerys's marriage to Drogo | Yes | Robert hands it to Ned; Ned hands it back |
-| Robert's black destrier | Robert's war horse; described as huge | No | Robert |
-| Jaime's golden sword | Gilded sword; blood-red along the edge from killing Aerys; Ned describes it laid across Jaime's legs on the throne | (uncertain — verify) | With Jaime (in Ned's recollection) |
-| Iron Throne | Ned found Jaime seated on it after the sack; described as monstrous and uncomfortable | (uncertain — verify) | King's Landing, Red Keep (referenced) |
-| Jaime's white Kingsguard cloak | Worn over his golden armor when Ned found him | (uncertain — verify) | With Jaime (in Ned's recollection) |
-| Jaime's lion-head helm | Fashioned in the shape of a lion's head; Jaime removes it and speaks to Ned | (uncertain — verify) | With Jaime (in Ned's recollection) |
-| Wheelhouse | Cersei's conveyance; Robert complains it creaks and has broken axles | No | Cersei / main party on kingsroad |
-| Ice (sword) | Referenced obliquely — Jorah fled "beyond the reach of Ice and the king's justice" | No | Ned / Stark household (referenced) |
+| Varys's letter | Message reporting Daenerys's marriage to Khal Drogo; Robert pulls it from his belt and hands it to Ned | Yes | Robert hands it to Ned, who reads it and hands it back |
+| Ice (Ned's ancestral sword) | Referenced indirectly — Jorah fled "beyond the reach of Ice and the king's justice" | No | Ned (implied) |
+| The Iron Throne | Described in Ned's memory of the Sack; Jaime sat on it | No | King's Landing |
+| Dragon skulls | Lined the walls of the throne room; seemed to watch Ned as he rode through | uncertain — verify | Throne room, King's Landing |
+| Jaime's golden sword | Across his legs as he sat the throne, "its edge red with a king's blood" | uncertain — verify | Jaime Lannister |
+| The wheelhouse | Robert complains bitterly about it creaking and groaning; threatens to burn it | uncertain — verify | Part of the royal column |
+
+## Food & Drink
+| Meal/Occasion | Food Items Described | Drink | Who Is Eating/Drinking | Where | Preparation/Presentation Notes |
+|--------------|---------------------|-------|----------------------|-------|-------------------------------|
+| (none depicted) | | | | | |
+
+No food or drink is consumed or described in this chapter.
+
+## Hospitality & Guest Right
+| Event | Type | Host | Guest(s) | Details |
+|-------|------|------|----------|---------|
+| (none depicted) | | | | |
+
+No hospitality customs or guest right events occur in this chapter.
 
 ## Events & Actions
-1. **Ned is woken before dawn** — Alyn shakes Ned from sleep; Robert is already mounted outside the tent with Ser Boros, Ser Meryn, and a dozen guardsmen.
-2. **Robert and Ned ride out alone** — They leave camp at speed, travel miles south of the main party across rolling misty plains, guard falling behind out of earshot.
-3. **Robert complains about travel** — Expresses frustration with the slow pace of the journey and threatens to burn the wheelhouse.
-4. **Robert and Ned banter about women and the past** — Robert teases Ned about a woman named Becca (one of Robert's own conquests) and then about Ned's bastard's mother, whom Ned names as Wylla. Ned refuses to discuss her further.
-5. **Robert shows Ned Varys's letter** — Intelligence from Varys: Daenerys Targaryen has married Khal Drogo. Varys is using Ser Jorah Mormont as his source from Pentos.
-6. **Robert proposes killing Daenerys** — Suggests sending a knife and a bold man; Ned opposes the murder of children.
-7. **Robert invokes Lyanna and Brandon** — Explodes in rage about Rhaegar's alleged rape of Lyanna and what Aerys did to Brandon and Rickard Stark.
-8. **Ned and Robert debate the Dothraki threat** — Ned argues Dothraki cannot cross the narrow sea; Robert worries about Targaryen loyalists in the Seven Kingdoms joining a Dothraki invasion.
-9. **Ned raises the succession of the Wardenship of the East** — Suggests Robert's brother Stannis as an alternative; Robert refuses.
-10. **Ned deduces and confirms Jaime as intended Warden** — Robert reluctantly confirms it is Jaime Lannister.
-11. **Ned argues against naming Jaime** — Points out Tywin is already Warden of the West; Jaime will eventually inherit; no one man should hold both east and west.
-12. **Ned recounts the fall of King's Landing** — Tells Robert about Tywin's treachery (opening the gates), finding Aerys dead, and discovering Jaime seated on the Iron Throne. Recounts Jaime's words: "Have no fear, Stark. I was only keeping it warm for our friend Robert."
-13. **Robert dismisses Ned's concerns about Jaime** — Laughs off the throne incident; says Jaime was only seventeen; declares the matter settled.
-14. **Robert rides off; Ned follows, resigned** — Ned reflects on his helplessness and his sense that he belongs in Winterfell with Catelyn and Bran, not on the road.
+1. **Ned is roused before dawn** — Alyn shakes him awake; Robert is already mounted and waiting outside the tent
+2. **Robert and Ned ride out from the column** — Robert drives his destrier hard, galloping away from the kingsroad onto rolling plains; Ser Boros, Ser Meryn, and a dozen guardsmen follow at a distance
+3. **They crest a ridge at dawn** — Robert pulls up, flushed and exhilarated; complains about the slow pace of the column and the wheelhouse
+4. **Robert fantasizes about abandoning responsibilities** — Suggests they ride on as "two vagabond knights"; Ned reminds him of their duties
+5. **Robert asks about Jon Snow's mother** — He tries to remember her name (guessing Becca, Aleena, Merryl); Ned coldly names her as Wylla and refuses to discuss further
+6. **Ned points out the barrows of the First Men** — They have ridden into the barrowlands
+7. **Robert reveals Varys's message** — A rider came in the night from King's Landing; the letter reports Daenerys Targaryen's marriage to Khal Drogo
+8. **Robert and Ned discuss Ser Jorah Mormont** — Robert explains Jorah is spying for Varys in Pentos in exchange for a potential pardon; Ned recalls Jorah's crime of selling poachers to slavers and his own journey to Bear Island
+9. **Robert proposes assassinating Daenerys** — Suggests sending "a knife" and "a bold man"; Ned objects, calling it murder of a child
+10. **Ned recalls the Sack of King's Landing** — Remembers Robert's rage at seeing Rhaegar's dead children, their argument over it, Ned riding south alone in cold rage; they were reconciled only by Lyanna's death
+11. **Robert rages against the Targaryens** — Invokes what Aerys did to Brandon and Rickard Stark, accuses Rhaegar of raping Lyanna; vows to kill every Targaryen
+12. **Ned deflects Robert's rage** — Points out Robert cannot reach Daenerys; Robert blames "a Pentoshi cheesemonger" for sheltering the Targaryens
+13. **Discussion of the Dothraki threat** — Robert worries about Khal Drogo's hundred thousand warriors and potential Targaryen loyalists in Westeros; Ned argues the Dothraki have no ships and are no threat
+14. **Robert reveals Jaime Lannister as Warden of the East** — Refuses to name Robert Arryn ("a sickly child"); Ned suggests Stannis as alternative; Robert has already promised it to Jaime
+15. **Ned objects to Jaime's appointment** — Argues no man should hold both East and West (as Jaime will inherit Warden of the West from Tywin); raises the question of trusting the Kingslayer
+16. **Ned recounts finding Jaime on the Iron Throne** — Describes entering the throne room after the Sack: Aerys dead on the floor, dragon skulls on the walls, Jaime in golden armor seated on the Iron Throne with his bloodied sword, who quipped he was "only keeping it warm for our friend Robert"
+17. **Robert dismisses Ned's concerns** — Laughs at the story; says Jaime was only seventeen; declares himself "heartily sick of secrets and squabbles and matters of state"
+18. **Robert rides off** — Gallops over a barrow; Ned hesitates, filled with helplessness, questioning why he came south and thinking he belongs in Winterfell with Catelyn and Bran
+19. **Ned follows** — Resigned, he puts boots to horse and rides after the king
+
+## Spatial Layout & Movement
+| Phase | Who | Position / Movement | Relative To | Notes |
+|-------|-----|---------------------|-------------|-------|
+| Opening | Robert | Already mounted outside Ned's tent | Camp | Waiting with Ser Boros, Ser Meryn, and a dozen guardsmen |
+| Opening | Ned | Inside his tent, asleep | Camp | Roused by Alyn |
+| Departure | Robert, Ned | Gallop away from camp along the kingsroad | Camp, kingsroad | Robert sets a hard pace; Ned tries to keep up |
+| Advance | Robert, Ned | Leave the kingsroad, ride across rolling plains dark with mist | Kingsroad | Guard falls back to a safe distance out of earshot |
+| Arrival | Robert, Ned | Crest a low ridge; Robert pulls up | Ridge overlooking barrowlands | Miles south of the main party; dawn breaks |
+| Confrontation | Robert, Ned | Stationary on the ridge, then ride down toward the barrows | Ridge, barrows | The political conversation takes place here |
+| Departure | Robert | Kicks his horse into motion, rides down toward barrows; later gallops up over a barrow | Ridge, barrows | Rains earth down behind him |
+| Departure | Ned | Hesitates, then follows Robert | Behind Robert | Filled with helplessness; resigned |
 
 ## Information Revealed
 | Information | How Revealed | Known To (Characters) | Known To (Reader Only?) |
 |-------------|-------------|----------------------|------------------------|
-| Daenerys Targaryen has married Khal Drogo | Varys's letter, shown by Robert | Robert, Ned | No — both characters learn it in this scene |
-| Ser Jorah Mormont is Varys's spy in Pentos | Robert explains Varys's use of Jorah | Robert, Ned | No |
-| Jorah sold poachers to a Tyroshi slaver; fled before Ned could execute him | Ned's recollection | Ned, Robert | No |
-| Robert intends to name Jaime Lannister as Warden of the East | Confirmed by Robert under Ned's questioning | Ned, Robert | No — confirmed in this chapter |
-| Tywin Lannister opened King's Landing's gates to Robert's forces under false pretense of loyalty | Ned's account | Ned, Robert | No |
-| Aerys was found dead on the floor of the throne room | Ned's account | Ned, Robert | No — Ned tells Robert the full story |
-| Jaime was seated on the Iron Throne when Ned arrived | Ned's account | Ned, Robert | No — Ned is recounting it now |
-| Jaime said to Ned: "Have no fear, Stark. I was only keeping it warm for our friend Robert. It's not a very comfortable seat, I'm afraid." | Ned's direct quotation | Ned, Robert | No — told for the first time in this chapter |
-| Jon Snow's mother is named Wylla (per Ned's acknowledgment) | Ned states the name when pressed | Robert, Ned | No |
-| Ned refuses to discuss Wylla further; expresses guilt toward Catelyn | Ned's dialogue and internal state | Robert | No |
-| Robert regrets not killing Viserys and Daenerys earlier; blames Jon Arryn for dissuading him | Robert states this | Ned, Robert | No |
-| Lyanna's death reconciled Robert and Ned after a falling-out over the killing of Rhaegar's wife and children | Narrator exposition | Reader | Yes — narrator exposition not explicitly shared in dialogue |
-| Ned "lived his lies for fourteen years" and they "still haunted him at night" | Narrator exposition | Reader | Yes — Ned's internal acknowledgment, not stated to Robert |
-| Ned thinks: "His sword helped taint the throne you sit on" (about Jaime) but does not say it aloud | Narrator exposition | Reader | Yes — unspoken thought |
-| Robert wanted Lyanna for himself; her death is a source of ongoing grief for him | Robert's own words | Ned, Robert | No |
-| Lysa Arryn made some "terrible accusation" that Ned was expecting to read about in Varys's letter | Ned's internal reaction when unrolling letter | Reader | Yes — Ned's internal thought, not explained to Robert |
-| Ned had ridden out alone to fight the last battles of the war after the quarrel with Robert over Rhaegar's family's deaths | Narrator exposition | Reader | Yes |
+| Daenerys Targaryen has married Khal Drogo | Varys's letter delivered by night rider | Robert, Ned, Varys | No |
+| Ser Jorah Mormont is spying for Varys in Pentos | Robert tells Ned | Robert, Varys, Ned | No |
+| Jorah Mormont's crime: selling poachers to a Tyroshi slaver | Ned's recollection | Ned, Robert (implied) | No |
+| Robert wants to assassinate Daenerys | Robert states it directly | Robert, Ned | No |
+| Wylla is named as Jon Snow's mother | Ned names her when pressed | Ned, Robert | No |
+| Robert intends to name Jaime Lannister Warden of the East | Ned deduces it; Robert confirms | Robert, Ned | No |
+| Robert refuses to name Robert Arryn as Warden of the East | Robert states it directly | Robert, Ned | No |
+| Ned found Jaime sitting on the Iron Throne after the Sack of King's Landing | Ned recounts the scene to Robert | Ned, Robert, Jaime | No |
+| Tywin Lannister took King's Landing by treachery — professing loyalty to Aerys, then sacking the city | Ned recounts it | Ned, Robert | No |
+| Rhaegar's children were killed by Lannister soldiers — the girl dragged from under her bed, the boy dashed against a wall | Ned's memory | Ned, Robert | No |
+| Ned and Robert were reconciled after Lyanna's death, having quarreled over the killing of Rhaegar's children | Ned's memory | Ned, Robert | No |
+| Ned has "lived his lies for fourteen years" and they still haunt him at night | Ned's internal thought | Ned only | Yes — the reader learns this; the nature of the lies is unspecified |
+| Lyanna whispered "Promise me, Ned" | Ned's internal memory | Ned only | Yes — the reader learns this; the promise's content is unspecified |
 
 ## Dialogue of Note
 | Speaker | Listener | Quote/Paraphrase | Context |
-|---------|----------|-------------------|---------|
-| Robert | Ned | "Up, Stark! Up, up! We have matters of state to discuss." | Summons Ned before dawn |
-| Robert | Ned | "I promise you, if that wretched thing breaks another axle, I'm going to burn it, and Cersei can walk!" | Complaining about the wheelhouse |
-| Robert | Ned | "Just you and me, two vagabond knights on the kingsroad … and maybe a farmer's daughter or a tavern wench to warm our beds tonight." | Fantasizing about abandoning their duties |
-| Ned | Robert | "We are not the boys we were." | Rebutting Robert's fantasy |
-| Robert | Ned | "She must have been a rare wench if she could make Lord Eddard Stark forget his honor, even for an hour." | About Wylla |
-| Ned | Robert | "Her name was Wylla, and I would sooner not speak of her." | Identifying Jon's mother; shutting the topic down |
-| Ned | Robert | "I dishonored myself and I dishonored Catelyn, in the sight of gods and men." | On the matter of Jon's parentage |
-| Robert | Ned | "A knife, perhaps. A good sharp one, and a bold man to wield it." | Responding to Ned's question about what to do about Daenerys's marriage |
-| Robert | Ned | "I will kill every Targaryen I can get my hands on, until they are as dead as their dragons, and then I will piss on their graves." | Outburst about the Targaryens |
-| Ned | Robert | "You are no Tywin Lannister, to slaughter innocents." | Opposing assassination of Daenerys |
-| Robert | Ned | "Some pox-ridden Pentoshi cheesemonger had her brother and her walled up on his estate with pointy-hatted eunuchs all around them." | On why he couldn't have them killed sooner |
-| Robert | Ned | "Jon Arryn was as bad as you. More fool I, I listened to him." | Regretting not killing the Targaryens earlier |
-| Ned | Robert | "He would say that even a million Dothraki are no threat to the realm, so long as they remain on the other side of the narrow sea. The barbarians have no ships. They hate and fear the open sea." | Paraphrasing what Jon Arryn would say about Khal Drogo's horde |
-| Ned | Robert | "Can you trust Jaime Lannister?" | Challenging the Warden of the East appointment |
-| Robert | Ned | "He is my wife's twin, a Sworn Brother of the Kingsguard, his life and fortune and honor all bound to mine." | Defending trust in Jaime |
-| Ned | Robert | "As they were bound to Aerys Targaryen's." | Rebuttal |
-| Robert | Ned | "Seven hells, someone had to kill Aerys! If Jaime hadn't done it, it would have been left for you or me." | Defending Jaime's killing of Aerys |
-| Ned | Robert | "I rode the length of the hall in silence, between the long rows of dragon skulls. It felt as though they were watching me, somehow." | Recounting entering the throne room after the sack |
-| Jaime (quoted by Ned) | Ned | "Have no fear, Stark. I was only keeping it warm for our friend Robert. It's not a very comfortable seat, I'm afraid." | Jaime's words when Ned found him on the Iron Throne |
-| Robert | Ned | "You think I should mistrust Lannister because he sat on my throne for a few moments?" | Dismissing the throne room incident |
-| Robert | Ned | "The gods be damned. It was a hollow victory they gave me. A crown … it was the girl I prayed them for." | Lamenting Lyanna's death |
-| Ned (internal) | — | "Promise me, Ned, she had whispered." | Ned's internal memory of Lyanna's dying words |
+|---------|----------|------------------|---------|
+| Robert | Ned | "The camp is full of ears." | Refusing to come inside Ned's tent; insisting they ride out |
+| Robert | Ned | "What do you say, Ned? Just you and me, two vagabond knights on the kingsroad, our swords at our sides and the gods know what in front of us, and maybe a farmer's daughter or a tavern wench to warm our beds tonight." | Fantasizing about abandoning his responsibilities |
+| Ned | Robert | "We have duties now, my liege … to the realm, to our children, I to my lady wife and you to your queen. We are not the boys we were." | Grounding Robert in reality |
+| Robert | Ned | "You were never the boy you were. More's the pity." | Chiding Ned for his seriousness |
+| Ned | Robert | "Her name was Wylla, and I would sooner not speak of her." | Shutting down Robert's inquiry about Jon Snow's mother |
+| Ned | Robert | "I dishonored myself and I dishonored Catelyn, in the sight of gods and men." | Expressing guilt about fathering a bastard |
+| Robert | Ned | "Shall we send her a wedding gift?" / "A knife, perhaps. A good sharp one, and a bold man to wield it." | Proposing Daenerys's assassination |
+| Ned (thought) | — | "Ned had named that murder; Robert called it war." | On the killing of Rhaegar's children |
+| Robert (past) | Ned (past) | "I see no babes. Only dragonspawn." | Robert's response when shown Rhaegar's dead children |
+| Ned | Robert | "Your Grace, the girl is scarcely more than a child. You are no Tywin Lannister, to slaughter innocents." | Arguing against killing Daenerys |
+| Robert | Ned | "What Aerys did to your brother Brandon was unspeakable. The way your lord father died, that was unspeakable. And Rhaegar … how many times do you think he raped your sister? How many hundreds of times?" | Justifying his hatred of Targaryens |
+| Robert | Ned | "I will kill every Targaryen I can get my hands on, until they are as dead as their dragons, and then I will piss on their graves." | Declaring his intent |
+| Ned (thought) | — | "Promise me, Ned" | Recalling Lyanna's dying whisper |
+| Robert | Ned | "It was the girl I prayed them for. Your sister, safe … and mine again, as she was meant to be." | Revealing his lingering grief for Lyanna |
+| Ned | Robert | "No one man should hold both East and West." | Objecting to Jaime as Warden of the East |
+| Ned (thought) | — | "His sword helped taint the throne you sit on." | Thinking but not saying his true feelings about Jaime |
+| Ned | Robert | "He swore a vow to protect his king's life with his own. Then he opened that king's throat with a sword." | On why Jaime cannot be trusted |
+| Jaime (past, quoted by Ned) | Ned (past) | "Have no fear, Stark. I was only keeping it warm for our friend Robert. It's not a very comfortable seat, I'm afraid." | Jaime's quip when Ned found him on the Iron Throne |
+| Robert | Ned | "I am heartily sick of secrets and squabbles and matters of state, Ned. It's all as tedious as counting coppers." | Ending the conversation; refusing to engage further |
 
 ## POV Character's Internal State
-- **Emotional state:** Guarded, resigned, carrying grief and guilt. Anger held carefully in check when discussing Jaime and Robert's decisions. A "vast sense of helplessness" by the chapter's end.
-- **Primary preoccupation:** Preventing Robert from making two dangerous decisions — ordering the assassination of Daenerys Targaryen, and naming Jaime Lannister as Warden of the East. Also suppressing guilt about Wylla and Jon.
-- **Key decisions made:** Decides to tell Robert the full story of the fall of King's Landing and Jaime on the throne, hoping it will change Robert's mind. Ultimately fails and resigns himself to following the king.
-- **Self-deception flags:** Ned tells himself he "dishonored" himself with Wylla and feels genuine guilt — his internal narration simultaneously references "lies" he has "lived for fourteen years" without reconciling the two. He declines to say aloud that Jaime "tainted" the throne, though he thinks it clearly.
+- **Emotional state:** Increasingly frustrated and helpless; moves from groggy compliance to anger (when Robert presses about Wylla) to careful political maneuvering to bitter recollection to a "vast sense of helplessness" by the end; resigned
+- **Primary preoccupation:** Robert's poor judgment — both in wanting to kill Daenerys and in appointing Jaime Lannister; Ned's inability to influence the king; whether he belongs here at all
+- **Key decisions made:** Decides to keep his temper when Robert rages about Targaryens (rather than provoke him as he did after the Sack); decides to tell Robert "the whole truth" about finding Jaime on the Iron Throne; ultimately chooses to follow Robert despite his misgivings
+- **Self-deception flags:** States definitively that Wylla is Jon Snow's mother ("Her name was Wylla") and claims he "dishonored myself and I dishonored Catelyn" — presented as fact to Robert but accompanied by the internal note that "he had lived his lies for fourteen years, yet they still haunted him at night" and the memory of Lyanna's "Promise me, Ned"
 
 ## Relationships Observed
 | Character A | Relationship | Character B | Evidence |
 |-------------|-------------|-------------|----------|
-| Robert Baratheon | old friends / king and loyal lord | Eddard Stark | Informal address, shared history, private rides, frank argument |
-| Robert Baratheon | deep ongoing grief / romantic obsession | Lyanna Stark | Robert says "it was the girl I prayed them for"; fought a war partly for her |
-| Eddard Stark | guilt and carefully maintained distance | Wylla | Refuses to discuss her; names his liaison with her a dishonor |
-| Eddard Stark | loyalty tinged with frustration | Robert Baratheon | Ned follows Robert despite disagreeing with him; feels helpless to influence him |
-| Robert Baratheon | hatred / obsession | Targaryens | Explicit; wants them all dead |
-| Robert Baratheon | reliance on / partnership with | Varys | Uses Varys's intelligence network; defers to Varys's judgment that spies are more useful than corpses |
-| Eddard Stark | distrust | Jaime Lannister | Calls him Kingslayer; recounts the throne room scene as evidence of untrustworthiness |
-| Robert Baratheon | comfort / favor | Jaime Lannister | Defends Jaime; calls his help in winning the throne an asset |
-| Varys | intelligence handler | Ser Jorah Mormont | Uses Jorah as spy in Pentos in exchange for a path to royal pardon |
-| Robert Baratheon | regret over / won't act on | Jon Arryn's counsel | Says Arryn "was as bad as you" in dissuading him from killing the Targaryens |
-| Eddard Stark | unresolved mourning | Lyanna Stark | Internal memory of her dying words; grief acknowledged but not elaborated |
-| Eddard Stark | loyalty to absent family | Catelyn Stark / Bran Stark | Thinks he belongs in Winterfell with them; cites duties to wife and children |
-| Tywin Lannister | overlapping power / political threat | Jaime Lannister | Ned's argument: Tywin is Warden of the West, Jaime would add East — too much power in one family |
+| Robert | Deep friendship with tension | Ned | Robert summons Ned for a private ride; trusts him with state secrets; claps him on the shoulder; but dismisses his counsel repeatedly |
+| Robert | Obsessive hatred | Targaryens (as a group) | Wants Daenerys assassinated; vows to kill every Targaryen; "a madness in him" |
+| Robert | Lingering love/grief | Lyanna Stark | "It was the girl I prayed them for"; looks away into the grey distance; says the crown was hollow without her |
+| Robert | Contemptuous tolerance | Cersei | Threatens to burn the wheelhouse and make her walk; refers to her dismissively |
+| Ned | Guilt and protectiveness | Wylla / Jon Snow's origins | Refuses to discuss Wylla; claims dishonor; "lived his lies for fourteen years" |
+| Ned | Loyalty strained by disagreement | Robert | Objects to killing Daenerys and to Jaime's appointment but ultimately follows Robert |
+| Ned | Contempt/distrust | Jaime Lannister | Calls him "Kingslayer"; recounts finding him on the throne; thinks "his sword helped taint the throne" |
+| Ned | Contempt | Tywin Lannister | Calls the killing of Rhaegar's children murder; recalls the treacherous sack of King's Landing |
+| Ned | Respect/inadequacy | Jon Arryn | "He was no Jon Arryn, to curb the wildness of his king and teach him wisdom" |
+| Ned | Disgust | Jorah Mormont | "His crime had dishonored the north"; would rather Jorah became a corpse than a spy |
+| Ned | Longing | Catelyn, Bran, Winterfell | Thinks he belongs in Winterfell with Catelyn in her grief and with Bran |
+| Ned | Haunted memory | Lyanna Stark | Recalls "Promise me, Ned" at the moment he thinks of the Trident and its aftermath |
+| Robert | Political dependence on | Lannisters | Appoints Jaime Warden of the East; dismisses concerns about Lannister power; Cersei is his queen |
+| Ned | Past conflict reconciled | Robert | They quarreled bitterly over the killing of Rhaegar's children; reconciled only by Lyanna's death |
+| Varys | Serves/spies for | Robert | Master of whisperers; uses Jorah as an informant |
+| Jorah Mormont | Informant for | Varys | Spying in Pentos to earn a pardon |
+| Mormonts | Bannermen to | Starks | Stated directly; Jorah's crime "dishonored the north" |
 
 ## Unanswered Questions
 | Question | Raised By | Context |
 |----------|-----------|---------|
-| What is Lysa Arryn's "terrible accusation" that Ned expected to read about in Varys's letter? | Ned's internal reaction when unrolling the letter | Ned braces himself for bad news about Lady Arryn, then is relieved the message is about something else |
-| What "lies" has Ned lived for fourteen years? | Narrator's voice in Ned's interiority | "He had lived his lies for fourteen years, yet they still haunted him at night" — related to the sack, Lyanna, or Jon's parentage (unclear within this chapter alone) |
-| What is Lyanna's dying request ("Promise me, Ned")? | Ned's internal memory | Referenced obliquely; content not stated |
-| Will Robert's plan to name Jaime Warden of the East proceed? | Robert's stubborn confirmation | Ned's opposition has no visible effect |
-| Will Robert act on his desire to have Daenerys (and possibly Viserys) killed? | Robert's stated desire | Ned has argued against it but Robert is unconvinced |
-| What exactly did Aerys do to Brandon Stark that Robert calls "unspeakable"? | Robert's outburst | Named but not described in this chapter |
-| How exactly did Rickard Stark die? | Robert's outburst | Named but not described in this chapter |
+| What are the "lies" Ned has lived for fourteen years? | Ned's internal thought | "He had lived his lies for fourteen years, yet they still haunted him at night" |
+| What did Lyanna make Ned promise? | Ned's internal memory | "Promise me, Ned, she had whispered" — content of the promise is not revealed |
+| What exactly did Aerys do to Brandon Stark? | Robert's reference | Robert calls it "unspeakable" but does not describe it |
+| How did Lord Rickard Stark die? | Robert's reference | Robert calls it "unspeakable" but does not describe it |
+| What is the source of Varys's information about Daenerys's marriage? | Ned asks, answered only as "Ser Jorah Mormont" | The full intelligence chain is not detailed |
+| Will Robert actually send an assassin after Daenerys? | The conversation | Robert proposes it; Ned argues against it; no resolution is reached |
+| Who will be named Warden of the East? | The political discussion | Robert says "the stone has been set" for Jaime, but Ned's objections are unresolved |
 
 ## Raw Entity List
-
 ### Characters
-- Eddard Stark (POV)
-- Robert Baratheon
-- Alyn (Ned's man)
-- Ser Boros Blount (Kingsguard)
-- Ser Meryn Trant (Kingsguard)
-- Varys
-- Daenerys Targaryen
-- Viserys Targaryen
-- Khal Drogo
-- Ser Jorah Mormont
-- Jon Arryn
-- Lyanna Stark
-- Catelyn Stark
-- Wylla
-- Rhaegar Targaryen
-- Aerys Targaryen (the Mad King)
-- Rhaegar's wife (unnamed)
-- Rhaegar's daughter (unnamed)
-- Rhaegar's infant son (unnamed)
-- Jaime Lannister
-- Tywin Lannister
-- Lysa Arryn
-- Brandon Stark
-- Rickard Stark
-- Stannis Baratheon
-- Robert Arryn
-- Cersei Lannister
-- Baelor the Blessed
-- Pentoshi cheesemonger (unnamed)
+Eddard (Ned) Stark, Robert Baratheon, Alyn, Ser Boros (Blount), Ser Meryn (Trant), Cersei, Wylla, Becca, Catelyn Stark, Jon Arryn, Varys, Ser Jorah Mormont, Daenerys Targaryen, Khal Drogo, Viserys Targaryen, Tywin Lannister, Jaime Lannister, Rhaegar Targaryen, Lyanna Stark, Brandon Stark (Ned's brother), Lord Rickard Stark, Aerys Targaryen (the Mad King), Rhaegar's wife (unnamed), Rhaegar's daughter (unnamed), Rhaegar's son (unnamed), Robert Arryn, Stannis Baratheon, Bran Stark, Baelor the Blessed, Jon Snow (implied, unnamed — "your bastard"), Illyrio Mopatis (unnamed — "Pentoshi cheesemonger")
 
 ### Locations
-- Camp on kingsroad (North)
-- Open plains south of kingsroad
-- Barrows of the First Men
-- Bear Island
-- Pentos
-- King's Landing
-- The Red Keep
-- The Trident (battle site)
-- Casterly Rock
-- Storm's End
-- Seven Kingdoms
-- The Free Cities
-- The narrow sea
-- Winterfell (referenced by Ned's longing)
+The camp (royal column), the kingsroad, the barrowlands / rolling plains, King's Landing, Bear Island, Pentos, the Trident, the Red Keep, the Iron Throne room, Casterly Rock, Storm's End, Winterfell, the narrow sea, the Free Cities, the Seven Kingdoms
 
 ### Artifacts
-- Varys's intelligence letter
-- Robert's black destrier
-- Jaime's golden sword (gilded; used to kill Aerys)
-- Iron Throne
-- Jaime's white Kingsguard cloak
-- Jaime's lion-head helm
-- The wheelhouse (Cersei's)
-- Ice (referenced obliquely)
+Varys's letter, Ice (referenced), the Iron Throne, dragon skulls, Jaime's golden/gilded sword, the wheelhouse, Robert's huge black destrier
 
 ### Houses/Factions
-- House Stark
-- House Baratheon
-- House Lannister
-- House Mormont
-- House Arryn
-- House Targaryen
-- Kingsguard
-- The Dothraki (Drogo's horde)
-- The crown / Robert's court
+House Stark, House Baratheon, House Lannister, House Targaryen, House Arryn, House Mormont, the Kingsguard, the Dothraki, the Night's Watch (implied — "Sworn Brothers"), Targaryen loyalists

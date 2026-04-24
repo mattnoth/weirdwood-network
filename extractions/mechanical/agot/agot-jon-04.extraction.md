@@ -7,158 +7,256 @@
 - **pov_chapter_number:** Jon IV
 - **first_available:** AGOT Jon IV
 - **location_primary:** Castle Black
-- **location_secondary:** The Wall (top), Horn Hill (referenced), Winterfell (referenced), Highgarden (referenced), Goldengrove (referenced), Shadow Tower (referenced), Qarth (referenced)
-- **approximate_timeline:** Weeks into Jon's training at Castle Black; routine has been established, Benjen Stark has been missing long enough for multiple search parties to return empty-handed
-- **chapter_summary:** A new recruit, Samwell Tarly, arrives at Castle Black and is brutalized by Halder under Ser Alliser Thorne's orders during training. Jon intervenes to defend Sam, and Pyp and Grenn join him, leading to a three-on-three fight that Jon's side wins. Jon befriends Sam, who reveals his backstory: Lord Randyll Tarly threatened to kill him if he did not join the Night's Watch and renounce his inheritance. Jon organizes the other recruits to protect Sam during training, using Ghost to intimidate the holdout Rast into compliance. Sam is gradually accepted into their group, and he and Jon form a close bond.
+- **location_secondary:** The Wall, Horn Hill (referenced in Sam's backstory), Winterfell (referenced in Jon's dream), Shadow Tower (mentioned), Goldengrove (mentioned), Barrowlands (mentioned in Sam's travel story)
+- **approximate_timeline:** Weeks into Jon's training at Castle Black; enough time has passed for Jon to have established himself as a skilled fighter and mentor to other recruits
+- **time_markers:** Morning training session; work takes half the morning (refitting Sam's armor); afternoon assignment atop the Wall; late afternoon finishing gravel work; sunset watched from atop the Wall; dusk settling; evening meal; nighttime conversation outside; hours later (visit to Rast's cell); next morning; "another fortnight" later; "a few nights later" (Sam joins for meals); one night Sam visits Jon's cell
+- **chapter_summary:** Samwell Tarly arrives at Castle Black as a new recruit and is brutally beaten by Halder on Ser Alliser Thorne's orders. Jon intervenes to stop the beating, then faces three opponents with Pyp and Grenn joining his side. Jon later befriends Sam, learning his backstory — that Lord Randyll Tarly threatened to kill him if he did not take the black. Jon organizes the other recruits to protect Sam during training, including intimidating the holdout Rast by having Ghost threaten him in his cell. Sam is accepted into the group, and Jon reflects that his brothers are now his Night's Watch companions.
+
+## Physical Environment
+- **Weather:** Hard frost settling over Castle Black at night; cold air described throughout
+- **Season indicators:** Late summer snows referenced (in Jon's backstory about finding the direwolf pups); Sam describes snow on the barrowlands during his journey north, his first time seeing snow
+- **Time of day:** Morning (practice yard), afternoon (atop the Wall), late afternoon (finishing work), sunset (watched from the Wall), dusk (descending), evening (meal and conversation), night (visit to Rast's cell), next morning
+- **Lighting:** Half moon illuminating the Wall at night; stars burning clear and sharp; darkness inside the crypts in Jon's dream
+- **Sounds:** Clang of steel in the practice yard; Jon's voice echoing in his dream of Winterfell; wind at night after Sam's story — "no other sound in all the world"; laughter in common hall; Ghost silent as shadow
+- **Smells:** Not explicitly described
+- **Notable sensory details:** Pain in Jon's shoulder from combat; cold clammy skin after the crypt dream; soft crunch of grey weeds beneath boots; frost-covered ground where Jon and Sam sit; cold air making words steam
 
 ## Characters Present
 | Character | Role in Chapter | First Appearance? | Notes |
 |-----------|----------------|-------------------|-------|
-| Jon Snow | POV character; defends Sam, organizes recruits | No | Identified as Ned Stark's bastard of Winterfell |
-| Samwell Tarly | New recruit; beaten in yard, befriended by Jon | Yes | Extremely fat, self-proclaimed coward; eldest son of Lord Randyll Tarly; formerly heir to Horn Hill |
-| Ser Alliser Thorne | Master-at-arms; antagonist | No | Cruel, mocking; calls Sam "Ser Piggy" and "Lady Piggy," Jon "Lord Snow" and "the Bastard" |
-| Pyp (Pypar) | Jon's friend; joins the fight, helps intimidate Rast | No | Former mummer's troupe member; claims he can identify origin by voice; big ears |
-| Grenn | Jon's friend; joins the fight, helps restrain Rast | No | Described as ugly by Pyp; initially reluctant to help Sam |
-| Halder | Opponent in training yard; later ally | No (uncertain — verify) | Born in a quarry, apprenticed as stonemason; sixteen, tall, muscular |
-| Rast | Antagonist; laughs at Sam, refuses Jon's pact | No (uncertain — verify) | Called "Rat" by Thorne; only recruit who resists Jon's plan; intimidated into compliance by Ghost |
-| Dareon | Recruit Jon was training at chapter start | No (uncertain — verify) | Former almost-apprentice singer; sent to Wall for alleged rape by Lord Rowan's daughter |
-| Albett | Fights on Halder's side in the yard | No (uncertain — verify) | Called "Pimple" by Thorne |
-| Donal Noye | Armorer at Castle Black | No (uncertain — verify) | One-armed smith; refits armor for Sam |
-| Ghost | Jon's direwolf; intimidates Rast | No | Red eyes; silent; licks Sam's tears; nips Rast's throat |
-| Toad | Recruit who mocks Sam | No (uncertain — verify) | Sings drinking songs learned at his father's winesink |
-| Jeren | Recruit in common hall | No (uncertain — verify) | Calls Sam "Lord of Ham" |
+| Jon Snow | POV character, protagonist | No | Mentors recruits, defends Sam, organizes protection for him |
+| Samwell Tarly | New recruit, central focus | Yes | Arrives at Castle Black; fat, frightened, self-proclaimed coward |
+| Ser Alliser Thorne | Antagonist, master-at-arms | No | Cruel to Sam, calls him "Ser Piggy" and "Lady Piggy" |
+| Pyp (Pypar) | Jon's ally | No | Joins Jon's defense of Sam; mummer's boy, storyteller |
+| Grenn | Jon's ally | No | Joins Jon's defense of Sam; later helps intimidate Rast |
+| Halder | Recruit, initial opponent | uncertain — verify | Ordered to beat Sam; later reconciles with the group |
+| Rast | Antagonist among recruits | uncertain — verify | Laughs at Sam, refuses to cooperate; intimidated by Ghost |
+| Dareon | Recruit | uncertain — verify | Being trained by Jon at chapter opening; singer |
+| Albett | Recruit | uncertain — verify | Fights on Thorne's side in 3v3; called "Pimple" by Thorne |
+| Donal Noye | Armorer at Castle Black | No | Refits mail for Sam's girth; one-armed smith |
+| Ghost | Jon's direwolf | No | Accompanies Jon; licks Sam's tears; intimidates Rast |
+| Toad | Recruit | uncertain — verify | Mocks Sam; sings drinking songs |
+| Jeren | Recruit | uncertain — verify | Suggests Sam thinks he's too good for them |
+
+## Character Appearances
+| Character | Hair | Eyes | Build/Height | Scars/Marks | Clothing/Armor | Weapons Worn | Distinguishing Features | Age (if stated) |
+|-----------|------|------|-------------|-------------|----------------|-------------|------------------------|-----------------|
+| Samwell Tarly | Blood-matted after fight | Pale | Enormously fat, must weigh twenty stone; great round moon of a face; plump sweaty fingers; thick-fingered hands | | Embroidered surcoat with fur collar, velvet doublet; fur-trimmed surcoat with striding huntsman in scarlet thread; later fur-lined cloak; brought own armor: padded doublet, boiled leather, mail and plate, helm, wood-and-leather shield with striding huntsman | | Multiple chins; face curdled like old milk when afraid; round fat face | |
+| Halder | | | Tall and muscular | | | Longsword | | Sixteen |
+| Pyp (Pypar) | | | Small | | Mailed hand | Sword | Big ears (bat ears per Grenn) | |
+| Grenn | | | | | | | Thick neck that flushed dark red; described as ugly | |
+| Ser Alliser Thorne | | Onyx eyes | | | | | Sharp, cold voice | |
+| Ghost | Shaggy white fur | Red as embers (burning) | | | | | Silent movement; pale | |
 
 ## Characters Referenced
 | Character | Context of Reference | Referenced By |
 |-----------|---------------------|---------------|
-| Lord Randyll Tarly | Sam's father; bannerman to Tyrells; threatened to kill Sam if he didn't take the black | Sam (direct account) |
-| Lady Tarly | Sam's mother; calls him Sam; has "a woman's heart" per Lord Randyll | Sam (direct account) |
-| Dickon Tarly | Sam's younger brother; fierce, robust; Lord Randyll's preferred heir | Sam (direct account) |
-| Mace Tyrell | Lord of Highgarden, Warden of the South; the Tarlys are his bannermen | Sam (mentioned) |
-| Tyrion Lannister | Jon recalls his words about denying hard truths | Jon (internal thought) |
-| Robb Stark | Jon dreams of searching for him in empty Winterfell | Jon (mentioned) |
-| Arya Stark | Jon dreams of searching for her | Jon (mentioned) |
-| Ned Stark (father) | Jon dreams of searching for him; Jon identifies himself as Ned Stark's bastard | Jon (mentioned) |
-| Benjen Stark | Jon's uncle; still missing; search parties have found nothing | Jon (internal thought) |
-| Ser Jaremy Rykker | Led two search sweeps for Benjen | Jon (mentioned) |
-| Qhorin Halfhand | Went forth from Shadow Tower to search for Benjen | Jon (mentioned) |
-| Ser Rodrik (Cassel) | Jon recalls his teaching: "Know your foe" | Jon (recalled during fight) |
-| Maester Aemon | Jon assists him with birds; praised Dareon's singing voice | Jon (mentioned) |
-| Bowen Marsh | Jon assists him with counts and inventories | Jon (mentioned) |
-| Lord Commander (the Old Bear) | Sent rangers to search for Benjen; Jon hunts game for his table | Jon (mentioned) |
-| Lord Rowan of Goldengrove | Found Dareon in bed with his daughter; sent him to the Wall | Jon (mentioned) |
-| Catelyn Stark | Made sure Jon never truly felt like one of the Stark children | Jon (internal reflection) |
-| Bran Stark | Named among Ned's sons Jon still loves | Jon (internal thought) |
-| Rickon Stark | Named among Ned's sons Jon still loves | Jon (internal thought) |
+| Robb Stark | Jon dreams of searching for him in Winterfell; remembered as father's son | Jon (internal) |
+| Arya Stark | Jon dreams of searching for her in Winterfell | Jon (internal) |
+| Benjen Stark | Jon's uncle, still missing; search parties sent for him | Jon (internal) |
+| Ned Stark (Eddard) | Jon identifies himself as Ned Stark's bastard; dreams of searching for him | Jon |
+| Tyrion Lannister | Jon thinks of what Tyrion would make of Sam; recalls his quote about denying hard truths | Jon (internal) |
+| Ser Rodrik Cassel | Jon recalls his teaching: "Know your foe" | Jon (internal) |
+| Lord Randyll Tarly | Sam's father; bannerman to Tyrells; threatened Sam's life to force him to take the black | Sam |
+| Lady Tarly | Sam's mother; calls him Sam; has "a woman's heart" per Randyll; bore three girls then Dickon | Sam |
+| Dickon Tarly | Sam's younger brother; fierce, robust child; Randyll's preferred heir | Sam |
+| Mace Tyrell | Lord of Highgarden and Warden of the South; Tarlys are his bannermen | Sam |
+| Ser Jaremy Rykker | Led two sweeps searching for Benjen | Jon (internal) |
+| Quorin Halfhand | Went forth from Shadow Tower searching for Benjen | Jon (internal) |
+| Lord Commander (Jeor Mormont) | Sent out rangers to search for Benjen; Jon hunts game for his table | Jon (internal) |
+| Maester Aemon | Jon assists him with birds; praised Dareon's voice as "honey poured over thunder" | Jon |
+| Bowen Marsh | Jon assists him with counts and inventories | Jon (internal) |
+| Lord Rowan of Goldengrove | Found Dareon in bed with his daughter | Jon |
+| Lord Rowan's daughter | Was in bed with Dareon; two years older; named it rape under her father's eye | Jon |
+| Catelyn Stark | Made sure Jon never truly felt like one of the Stark children | Jon (internal) |
+| Rickon Stark | Remembered as father's son | Jon (internal) |
+| Bran Stark | Remembered as father's son | Jon (internal) |
+| Kings of Winter | Sit on thrones in Winterfell crypts in Jon's dream | Jon (internal) |
 
 ## Locations
-| Location | Role | First Appearance? | Description Notes |
-|----------|------|-------------------|-------------------|
-| Castle Black | Primary setting | No | Buildings described as falling down; cold; practice yard, armory, common hall, cells, winch cage |
-| The Wall | Jon works atop it scattering gravel | No | Seven hundred feet high; can see half the world on clear day; has winch cage and wooden stairs |
-| Horn Hill | Sam's ancestral home | Yes | Seat of House Tarly; rich lands, strong keep |
-| Winterfell | Referenced in Jon's dreams and reflections | No | Grey walls; crypts with Kings of Winter on thrones with stone wolves and iron swords |
-| Highgarden | Seat of House Tyrell, mentioned as Tarly overlords | No (uncertain — verify) | — |
-| Shadow Tower | Qhorin Halfhand went forth from here to search for Benjen | Yes (uncertain — verify) | — |
-| Goldengrove | Lord Rowan's seat; where Dareon's incident occurred | Yes (uncertain — verify) | — |
-| Qarth | Origin of warlocks who visited Horn Hill | Yes (uncertain — verify) | Warlocks described as having white skin and blue lips |
-| The barrowlands | Sam crossed them on way north; saw first snow there | No (uncertain — verify) | — |
+| Location | Role | First Appearance? |
+|----------|------|-------------------|
+| Castle Black | Primary setting — practice yard, armory, common hall, cells | No |
+| The Wall | Jon works atop it scattering gravel; Sam views it at night | No |
+| Practice yard | Morning training takes place here | No |
+| Armory | Where Sam is refitted with armor; where Jon stores gear | No |
+| Common hall | Evening meals and socializing | No |
+| Horn Hill | Sam's ancestral seat; described in backstory | Yes |
+| Winterfell | Jon's dream setting; referenced as his former home | No |
+| Winterfell crypts | Featured in Jon's recurring dream | No |
+| Shadow Tower | Quorin Halfhand's base; mentioned in search for Benjen | uncertain — verify |
+| Goldengrove | Lord Rowan's seat; Dareon's backstory | Yes |
+| Barrowlands | Sam crossed them on journey north; first saw snow there | uncertain — verify |
+
+## Location Descriptions
+| Location | Defensive Features | Architecture/Layout | Interior Details | Scale | Condition | Surrounding Terrain/Geography | Notable Sensory Details |
+|----------|--------------------|--------------------|-----------------| ------|-----------|------------------------------|------------------------|
+| Castle Black | | Practice yard with armory adjacent; common hall with benches; individual cells; winch cage to reach top of Wall; stables; rookery | Common hall: bench nearest the west wall for Jon's group; fire where black brothers dice | | Buildings falling down (per Sam); grey weeds growing | | Hard frost settling over it; cold; soft crunch of grey weeds underfoot |
+| The Wall | | Great wooden stairs for climbing; winch cage for ascending | | Seven hundred feet high (per Sam) | Icy footpaths atop requiring gravel | Can see half the world from the top on a clear day | Glimmering palely in half-moon light; air always cold and bracing |
+| Winterfell (dream) | | Long empty hall; many doors; tower with spiraling stairs; crypts below with spiraling steps | Crypts: black inside; stone thrones with stone wolves at feet; iron swords across laps of Kings of Winter | | Empty, abandoned in the dream; stables full of bones; ravens gone from rookery | | Gets darker and darker descending into crypts |
+| Horn Hill | Strong keep | Castle with kitchen, bailey | | Rich lands | | Woods nearby where Randyll hunted | |
 
 ## Artifacts & Objects of Significance
 | Artifact | Context | First Appearance? | Current Holder/Location |
 |----------|---------|-------------------|------------------------|
-| Heartsbane | Valyrian steel greatsword of House Tarly; passed down ~500 years; Lord Randyll says Sam unworthy to touch it | Yes | House Tarly / Horn Hill (implied) |
-| Sam's personal armor | Padded doublet, boiled leather, mail, plate, helm, shield with striding huntsman sigil; not black, so replaced | Yes | Castle Black armory (reequipped from armory stock) |
-| Ghost (as narrative agent) | Direwolf used to intimidate Rast; licks Sam's tears | No | With Jon Snow |
+| Heartsbane | Valyrian steel greatsword of House Tarly, passed down nearly five hundred years; Sam was deemed unworthy to touch it | Yes | Lord Randyll Tarly / Horn Hill |
+| Samwell Tarly's personal armor | Padded doublet, boiled leather, mail and plate, helm, wood-and-leather shield with striding huntsman sigil; refitted by Donal Noye | Yes | Castle Black armory |
+| Iron swords | Across the laps of the Kings of Winter in Jon's dream of the crypts | No (uncertain — verify) | Winterfell crypts (in dream) |
+
+## Food & Drink
+| Meal/Occasion | Food Items Described | Drink | Who Is Eating/Drinking | Where | Preparation/Presentation Notes |
+|--------------|---------------------|-------|----------------------|-------|-------------------------------|
+| Evening meal / supper | Pork pie | Mulled wine (black brothers dicing near fire); hot cider mentioned as available | Sam eating pork pie alone at end of bench; black brothers dicing with mulled wine | Common hall | Sam finishing last of his pork pie when Jon sits with him |
+| Sam's childhood (referenced) | Lemon cakes, blueberry tarts | | Sam as a child | Horn Hill castle kitchen | Sam snitched them from the cooks; rich smells of the kitchen |
+| Jon's hunting (routine) | Game for Lord Commander's table | | Jon hunts it | Ranging outside Castle Black | Brought back on afternoons when sent out hunting |
+
+## Hospitality & Guest Right
+| Event | Type | Host | Guest(s) | Details |
+|-------|------|------|----------|---------|
+| No explicit hospitality rituals in this chapter | | | | |
 
 ## Events & Actions
-1. **Sam's arrival at Castle Black** — Samwell Tarly enters the practice yard as a new recruit, visibly fat and nervous, wearing fine clothing with a striding huntsman sigil.
-2. **Ser Alliser mocks Sam** — Thorne insults Sam as "Ser Piggy" and "Lord of Ham," orders him to reequip from the armory since his own armor is not black.
-3. **Donal Noye refits armor** — The one-armed smith spends half the morning adjusting mail and helm to fit Sam's girth.
-4. **Halder beats Sam** — Under Thorne's orders, Halder fights Sam, who collapses quickly, yields, and bleeds from a shattered helm. Thorne orders Halder to continue hitting Sam with the flat of his blade.
-5. **Jon intervenes** — Jon steps forward and tells Halder to stop, citing that there is no honor in beating a fallen foe who has yielded.
-6. **Three-on-three fight** — Thorne sends Rast, Albett, and Halder against Jon to punish his defiance. Pyp and Grenn voluntarily join Jon. Jon defeats Halder, helps Pyp defeat Rast, and Albett yields.
-7. **Sam introduces himself** — Sam reveals his full name (Samwell Tarly of Horn Hill), his father (Lord Randyll, bannerman to the Tyrells), and that he was formerly his father's heir.
-8. **Jon works atop the Wall** — Jon scatters gravel on icy footpaths, thinks about Sam and Tyrion Lannister's words about facing hard truths.
-9. **Jon and Sam talk outside** — Jon takes Sam outside after supper; Sam cries, Ghost comforts him by licking his tears; they share personal stories.
-10. **Jon's recurring dream revealed** — Jon describes a dream of walking through an empty Winterfell, searching for family, eventually drawn toward the crypts where he does not want to descend.
-11. **Sam tells his backstory** — Sam reveals Lord Randyll's ultimatum: take the black or be killed on a hunt. Also reveals childhood abuse, including being bathed in bull aurochs blood by Qartheen warlocks.
-12. **Jon organizes recruits to protect Sam** — Jon persuades, cajoles, shames, and threatens the other recruits into agreeing not to hurt Sam in training. All agree except Rast.
-13. **Ghost intimidates Rast** — Jon, Grenn, and Pyp visit Rast's cell at night; Ghost nips his throat, drawing blood. Rast tells others his razor slipped.
-14. **Sam is accepted into the group** — The recruits protect Sam in the yard; Sam eventually joins them for meals and conversation.
-15. **Sam and Jon bond** — Sam visits Jon's cell, acknowledges Jon did something to protect him, says he's never had a friend before. Jon responds: "We're not friends. We're brothers."
+1. **Jon trains Dareon** — Jon is teaching Dareon swordwork in the practice yard when Sam arrives
+2. **Sam arrives at Castle Black** — An enormously fat new recruit appears at the armory door, announcing he's been sent for training
+3. **Ser Alliser mocks Sam** — Thorne calls Sam "Lord of Ham" and "Ser Piggy," mocking his weight, fur, and velvet clothing
+4. **Sam is refitted with armor** — Donal Noye spends half the morning taking apart and refitting mail for Sam's girth; the visor must be detached from the helm
+5. **Halder beats Sam** — Thorne orders Halder against Sam; the fight lasts less than a minute before Sam is on the ground bleeding, yielding
+6. **Thorne orders continued beating** — Despite Sam's yield, Thorne tells Halder to hit Sam with the flat of his blade until he rises; Halder strikes hard enough to split leather
+7. **Jon intervenes** — Jon tells Halder to stop, citing that there's no honor in beating a fallen foe who has yielded
+8. **Thorne challenges Jon** — Thorne orders Jon to draw his sword and sets three opponents (Rast, Albett, Halder) against Jon to get past him to Sam
+9. **Pyp and Grenn join Jon** — Pyp steps up to make it 3v2, then Grenn makes it 3v3
+10. **Jon defeats Halder** — Jon drives Halder back using technique Ser Rodrik taught him, cuts his leg from under him
+11. **Pyp defeats Rast** — After Jon rings Rast's helm, Pyp knocks him down and puts a blade to his throat
+12. **Albett yields** — Facing two swords, Albett surrenders
+13. **Thorne ends the session** — Disgusted, Thorne walks away
+14. **Sam introduces himself** — Sam tells Jon his full name, House, and that his father is Lord Randyll Tarly, bannerman to the Tyrells
+15. **Sam calls himself a coward** — Sam openly admits to being craven; Grenn, Pyp, and Jon are stunned
+16. **Jon works atop the Wall** — Sent with four barrels of crushed stone to scatter gravel on icy footpaths; thinks of Sam and Tyrion Lannister
+17. **Jon recalls Tyrion's wisdom** — Remembers Tyrion saying most men would rather deny a hard truth than face it; reflects that Sam's open cowardice takes a queer sort of courage
+18. **Jon watches sunset from the Wall** — Lingers to watch the sun turn the western sky the color of blood
+19. **Jon sits with Sam at supper** — Instead of joining his friends, Jon sits at the far end of the bench with Sam, who is eating alone
+20. **Sam sees Ghost** — Sam is startled by Ghost; Jon explains it's a direwolf, sigil of his father's House
+21. **Jon and Sam walk outside** — Jon takes Sam to see the Wall at night; Sam expresses fear of heights, cold, and everything
+22. **Sam breaks down crying** — When Jon asks why a coward would join the Night's Watch, Sam collapses on the frozen ground sobbing
+23. **Ghost comforts Sam** — The direwolf silently approaches and licks the tears from Sam's face, turning sobs to laughter
+24. **Jon tells Sam about finding the direwolf pups** — Shares the story of finding the pups with Robb in late summer snows
+25. **Jon describes his recurring dream** — A dream of walking through an empty Winterfell, searching for family, ending at the crypts where he must descend into darkness despite protesting he is not a Stark
+26. **Sam tells his backstory** — Recounts his life at Horn Hill: his love of music, books, and food; his father's escalating attempts to make him martial; the warlocks from Qarth who made him bathe in bull aurochs blood; the birth of brother Dickon
+27. **Sam reveals Randyll's threat** — Lord Randyll gave Sam an ultimatum: take the black or be killed in a staged hunting accident; showed him a deer's heart as emphasis
+28. **Jon and Sam return to common hall** — Jon mentions Dareon's singing and Toad's drinking songs
+29. **Jon organizes Sam's protection** — In the common hall, Jon persuades, cajoles, shames, and threatens the other recruits into agreeing not to hurt Sam in training; all agree except Rast
+30. **Ghost intimidates Rast** — Hours later, Grenn holds Rast's arms, Pyp sits on his legs, and Ghost nips Rast's throat drawing blood; Jon warns "we know where you sleep"
+31. **Rast lies about the wound** — Next morning, Rast tells others his razor slipped while shaving
+32. **Recruits protect Sam in training** — From that day, no one hurts Sam; they stand ground and tap him lightly; Thorne rages but Sam remains unhurt
+33. **Sam integrates into the group** — Sam joins evening meals, eventually joins conversations, laughs at Pyp's faces and teases Grenn
+34. **Sam thanks Jon** — Sam visits Jon's cell, says he knows Jon did something; says he's never had a friend before
+35. **Jon calls Sam "brother"** — Jon tells Sam they're not friends, they're brothers
+36. **Jon reflects on his true family** — Thinks that Castle Black is his life now; his brothers are Sam, Grenn, Halder, Pyp, and the other Night's Watch recruits, not the Stark children from whom Catelyn always excluded him
+
+## Spatial Layout & Movement
+| Phase | Who | Position / Movement | Relative To | Notes |
+|-------|-----|---------------------|-------------|-------|
+| Opening | Jon, Dareon | Practice yard, Jon training Dareon | Armory door | Jon in helm |
+| Arrival | Sam | Appears in doorway of armory | Practice yard | Announced for training |
+| Confrontation | Halder vs Sam | Yard combat | Practice yard | Sam falls quickly, on ground bleeding |
+| Confrontation | Jon | Steps forward toward Sam | Pyp restrains him | Pyp lays mailed hand on arm |
+| Assembly | Rast, Albett, Halder | Line up together | Opposite Jon and Sam | Thorne's 3v1 order |
+| Assembly | Pyp, Grenn | Step up beside Jon | Between Sam and opponents | Volunteers to make 3v3 |
+| Confrontation | Jon vs Halder | Jon drives Halder backward | Center of yard | Jon cuts his leg, Halder falls |
+| Confrontation | Pyp vs Rast | Jon assists, then Pyp finishes | Yard | Rast knocked down, blade at throat |
+| Confrontation | Grenn vs Albett; Jon joins | Albett faces two swords | Yard | Albett yields |
+| Departure | Thorne | Walks away | Practice yard | Ends session |
+| Advance | Jon | Atop the Wall via winch cage | Wall top | Scattering gravel on icy footpaths with Ghost |
+| Arrival | Jon | Returns to common hall for evening meal | Common hall | Ghost accompanies |
+| Confrontation | Jon, Sam | Jon sits across from Sam at far end of bench | Common hall | Away from the others |
+| Departure | Jon, Sam, Ghost | Walk outside from common hall | Castle Black grounds toward the Wall | Sam huffing and puffing to keep up |
+| Assembly | Jon, Sam, Ghost | Sit on frozen ground | Before the Wall, under half moon | Ghost between them |
+| Departure | Sam | Returns toward common hall / sleep | Castle Black | Alone |
+| Arrival | Jon | Returns to common hall | Common hall | Organizes recruits |
+| Ambush | Jon, Grenn, Pyp, Ghost | Enter Rast's cell at night | Rast's cell | Grenn holds arms, Pyp sits on legs, Ghost on chest |
 
 ## Information Revealed
 | Information | How Revealed | Known To (Characters) | Known To (Reader Only?) |
 |-------------|-------------|----------------------|------------------------|
-| Samwell Tarly's identity and House (striding huntsman sigil, Horn Hill, bannerman to Tyrells) | Sam's self-introduction and narration | Jon, Pyp, Grenn | No |
-| Heartsbane is a Valyrian steel greatsword passed down in House Tarly for ~500 years | Sam's backstory narration | Jon | No |
-| Lord Randyll threatened to kill Sam if he refused to take the black | Sam tells Jon directly | Jon | No |
-| Warlocks from Qarth (white skin, blue lips) visited Horn Hill and made Sam bathe in bull aurochs blood | Sam tells Jon | Jon | No |
-| Dickon Tarly exists as Sam's younger brother and Lord Randyll's preferred heir | Sam's backstory | Jon | No |
-| Benjen Stark is still missing; search parties (Ser Jaremy Rykker, Qhorin Halfhand) found only trail blazes that stopped abruptly in stony highlands to the northwest | Jon's internal narration | Jon (and presumably the Watch leadership) | No |
-| Jon has a recurring dream about empty Winterfell and being drawn to the crypts | Jon tells Sam | Sam | No |
-| Dareon was sent to the Wall by Lord Rowan of Goldengrove for allegedly sleeping with his daughter | Jon tells Sam | Jon, Sam | No |
-| Jon uses Ghost to threaten Rast into compliance | Narrated action | Jon, Grenn, Pyp, Rast | No |
-| Jon reflects that Castle Black is now his life, the Watch recruits are his true brothers | Internal reflection | Jon only | Yes (internal) |
-| Jon reflects that Catelyn Stark ensured he never truly felt like one of the Stark children | Internal reflection | Jon only | Yes (internal) |
+| Sam is Samwell Tarly, son of Lord Randyll Tarly, bannerman to House Tyrell | Sam introduces himself to Jon | Jon, Pyp, Grenn | No |
+| Sam's father threatened to kill him in a staged hunting accident if he did not take the black | Sam confides in Jon | Jon | No |
+| Heartsbane is House Tarly's Valyrian steel greatsword, nearly 500 years old | Sam's backstory | Jon | No |
+| Sam has a younger brother Dickon whom Randyll prefers as heir | Sam's backstory | Jon | No |
+| Warlocks from Qarth with white skin and blue lips visited Horn Hill; made Sam bathe in bull aurochs blood | Sam's backstory | Jon | No |
+| Benjen Stark is still missing; search parties found only trail blazes that stopped in stony highlands to the northwest | Jon's internal reflection | Jon; implied the Watch leadership knows | No |
+| Ser Jaremy Rykker led two search sweeps for Benjen | Jon's internal reflection | Jon | No |
+| Quorin Halfhand searched from the Shadow Tower | Jon's internal reflection | Jon | No |
+| Dareon was sent to the Wall for allegedly raping Lord Rowan of Goldengrove's daughter | Jon tells Sam | Jon, Sam | No |
+| Jon has a recurring dream of searching empty Winterfell and descending into the crypts | Jon tells Sam | Sam | Yes (internal dream content) |
+| Jon screams "I'm not a Stark" in his dream and feels the crypts are not his place | Jon tells Sam | Sam | Yes |
+| Pyp traveled with a mummers' troupe before the Watch | Narration | General knowledge among recruits | No |
+| Halder was born in a quarry, apprenticed as a stonemason | Narration | General knowledge among recruits | No |
 
 ## Dialogue of Note
 | Speaker | Listener | Quote/Paraphrase | Context |
-|---------|----------|-------------------|---------|
-| Ser Alliser | All | "It would seem they have run short of poachers and thieves down south. Now they send us pigs to man the Wall." | Mocking Sam on arrival |
-| Jon | Halder | "There's no honor in beating a fallen foe. He yielded." | Intervening to stop Sam's beating |
-| Ser Alliser | Jon | "It would seem our Bastard is in love." | Taunting Jon for defending Sam |
-| Sam | Jon | "I … I fear I'm a coward. My lord father always said so." | Explaining why he didn't fight back |
-| Jon (recalling Tyrion) | — | "Most men would rather deny a hard truth than face it." | Jon thinking about Sam's honesty while atop the Wall |
-| Lord Randyll (via Sam) | Sam | "You will forsake all claim to your brother's inheritance and start north before evenfall … or this." (holding deer's heart) | Sam recounts his father's ultimatum |
-| Lord Randyll (via Sam) | Sam | "Nothing would please me more than to hunt you down like the pig you are." | The death threat if Sam refuses |
-| Maester Aemon (via Jon) | — | Dareon's voice was "honey poured over thunder" | Jon relaying to Sam |
+|---------|----------|------------------|---------|
+| Ser Alliser Thorne | Sam | "It would seem they have run short of poachers and thieves down south. Now they send us pigs to man the Wall. Is fur and velvet your notion of armor, my Lord of Ham?" | Mocking Sam upon arrival |
+| Jon Snow | Halder | "There's no honor in beating a fallen foe. He yielded." | Jon intervening to stop Sam's beating |
+| Ser Alliser Thorne | Jon | "It would seem our Bastard is in love." | Mocking Jon for helping Sam |
+| Pyp | Jon, Grenn | "Three to two will make for better sport." | Volunteering to fight alongside Jon |
+| Sam | Jon | "I … I fear I'm a coward. My lord father always said so." | Sam's confession after the fight |
+| Jon | Sam | "You were hurt. Tomorrow you'll do better." | Encouragement; Sam replies "No I won't. I never do better." |
+| Lord Randyll Tarly | Sam (recalled) | "You have given me no cause to disown you, but neither will I allow you to inherit the land and title that should be Dickon's... So I have decided that you shall this day announce that you wish to take the black... or this." | Ultimatum while skinning a deer, holding its ripped-out heart |
+| Tyrion Lannister | Jon (recalled) | "Most men would rather deny a hard truth than face it." | Jon remembering Tyrion's wisdom while thinking about Sam |
+| Jon | Sam | "We're not friends. We're brothers." | After Sam says he's never had a friend |
 | Jon | Rast | "Remember, we know where you sleep." | Threatening Rast with Ghost at his throat |
-| Sam | Jon | "I've never had a friend before." | Thanking Jon for protecting him |
-| Jon | Sam | "We're not friends. We're brothers." | Cementing their bond |
-| Jon | Ghost | "My uncle spoke truly." | Final line; reflecting on Benjen's words about the Watch |
+| Ser Alliser Thorne | Recruits | "The Bastard speaks and the peasants tremble. I remind you that I am the master-at-arms here, Lord Snow." | Reasserting authority after Jon intervenes |
+| Sam | Jon | "I never saw snow until last month... At first I thought it was so beautiful, like feathers drifting from the sky, but it kept on and on, until I was frozen to the bone." | Describing his journey north through the barrowlands |
+| Jon | Sam (dream narration) | "I scream that I'm not a Stark, that this isn't my place, but it's no good, I have to go anyway, so I start down, feeling the walls as I descend, with no torch to light the way." | Describing the recurring Winterfell crypt dream |
 
 ## POV Character's Internal State
-- **Emotional state:** Protective, empathetic toward Sam; defiant toward Ser Alliser; reflective and somewhat melancholy about Winterfell, family, and Benjen's disappearance; ultimately settled and accepting of his place at Castle Black
-- **Primary preoccupation:** Defending and integrating Samwell Tarly into the group; processing his own identity as a brother of the Night's Watch rather than a Stark of Winterfell
-- **Key decisions made:** Intervenes to stop Halder from beating Sam; organizes all recruits into a pact to protect Sam; uses Ghost to intimidate Rast into compliance
-- **Self-deception flags:** None apparent; Jon is unusually honest with himself in this chapter, including admitting he was never truly one of the Stark children
+- **Emotional state:** Protective and empathetic toward Sam; defiant toward Ser Alliser Thorne; reflective and melancholic when thinking of Winterfell and family; resolute in organizing Sam's protection; ultimately at peace with his new identity as a brother of the Night's Watch
+- **Primary preoccupation:** Defending and integrating Samwell Tarly; processing his own identity as neither Stark nor outsider but a brother of the Watch
+- **Key decisions made:** Intervenes to stop Halder's beating of Sam despite risk of Thorne's wrath; actively befriends Sam instead of ignoring him; organizes all recruits to protect Sam; uses Ghost to intimidate Rast into compliance
+- **Self-deception flags:** None apparent — Jon is unusually honest with himself in this chapter, acknowledging he was never truly one of the Stark children and accepting Castle Black as his home
 
 ## Relationships Observed
 | Character A | Relationship | Character B | Evidence |
 |-------------|-------------|-------------|----------|
-| Jon Snow | PROTECTS / ALLIES_WITH | Samwell Tarly | Defends him in yard, organizes recruits, befriends him, declares them brothers |
-| Ser Alliser Thorne | ANTAGONIZES | Jon Snow | Mocks him as "Lord Snow," "the Bastard"; pits three fighters against him |
-| Ser Alliser Thorne | ANTAGONIZES | Samwell Tarly | Forces continued beating, calls him "Ser Piggy" and "Lady Piggy" |
-| Pyp | ALLIES_WITH | Jon Snow | Voluntarily joins the fight; backs Jon's plan to protect Sam |
-| Grenn | ALLIES_WITH | Jon Snow | Joins the fight; helps restrain Rast |
-| Rast | OPPOSES | Jon Snow | Refuses the pact; laughs in Jon's face; only submits under threat |
-| Jon Snow | MANIPULATES (benevolently) | Recruits (group) | Persuades, cajoles, shames, and threatens them into protecting Sam |
-| Ghost | INTIMIDATES | Rast | Nips Rast's throat, drawing blood |
-| Lord Randyll Tarly | ABUSES / THREATENS | Samwell Tarly | Childhood abuse; death threat; forced him to take the black |
-| Jon Snow | MEMBER_OF | Night's Watch recruits (brotherhood) | Jon reflects these are his true brothers now |
-| Catelyn Stark | EXCLUDES | Jon Snow | Jon reflects she ensured he never felt like a true Stark |
-| Sam | PERCEIVED_AS (by Jon) | — | Jon sees Sam's admission of cowardice as requiring "a queer sort of courage" |
-| Halder | RESPECTS | Jon Snow | Acknowledges Jon nearly bested him; later joins the pact |
+| Jon Snow | protector / mentor | Samwell Tarly | Defends him from beating, befriends him, organizes collective protection, calls him "brother" |
+| Jon Snow | mentor | Dareon | Teaching him swordplay at chapter opening |
+| Jon Snow | ally / friend | Pyp | Pyp backs Jon immediately in defending Sam and organizing protection |
+| Jon Snow | ally / friend | Grenn | Grenn joins Jon's defense; helps intimidate Rast |
+| Jon Snow | defiance / conflict | Ser Alliser Thorne | Jon openly defies Thorne's orders regarding Sam; Thorne retaliates with 3v1 challenge |
+| Jon Snow | intimidator | Rast | Uses Ghost to threaten Rast into compliance |
+| Jon Snow | bond / companionship | Ghost | Ghost accompanies him everywhere; comforts him after dreams; tool of Jon's authority |
+| Ghost | comforter | Samwell Tarly | Licks Sam's tears, turning his sobs to laughter |
+| Ghost | intimidator | Rast | Nips Rast's throat, drawing blood |
+| Ser Alliser Thorne | cruelty / authority | Samwell Tarly | Calls him "Ser Piggy," "Lady Piggy," "Lord of Ham"; orders ongoing beating |
+| Ser Alliser Thorne | cruelty / authority | All recruits | Rages and threatens when they refuse to hurt Sam |
+| Halder | obedient / conflicted | Ser Alliser Thorne | Follows Thorne's orders to beat Sam but accepts Jon's moral argument to stop |
+| Lord Randyll Tarly | abusive father | Samwell Tarly | Years of cruelty, ultimately threatens to murder Sam if he doesn't take the black |
+| Lady Tarly | loving mother | Samwell Tarly | Calls him Sam; Randyll says she cherishes even Sam; has "a woman's heart" |
+| Samwell Tarly | gratitude / brotherhood | Jon Snow | Says he's never had a friend; Jon corrects — they're brothers |
+| Rast | antagonist | Samwell Tarly | Mocks Sam, refuses to cooperate with protection scheme until threatened |
+| Pyp | rivalry / teasing | Grenn | Ongoing banter about who is uglier; Pyp tricks Grenn into calling himself craven |
+| Jon Snow | longing / exclusion | Stark family | Dreams of searching for them in empty Winterfell; reflects Catelyn ensured he was never one of them |
+| Jon Snow | admiration (recalled) | Tyrion Lannister | Thinks of Tyrion's wisdom about facing hard truths; wonders what Tyrion would make of Sam |
+| Jon Snow | worry / loss | Benjen Stark | Uncle still missing; Jon wonders if he'll see him again |
+| Maester Aemon | appreciation | Dareon | Called his voice "honey poured over thunder" |
 
 ## Unanswered Questions
 | Question | Raised By | Context |
 |----------|-----------|---------|
-| What happened to Benjen Stark? | Jon's narration | Search parties found only trail blazes that stopped in stony highlands to the northwest; all trace vanished |
-| What is waiting for Jon in the Winterfell crypts in his dream? | Jon's recurring dream | Jon is afraid of what's down there, insists he's not a Stark, but is compelled to descend |
-| Who or what do the warlocks from Qarth represent and why did Lord Randyll hire them? | Sam's story | White-skinned, blue-lipped warlocks made Sam bathe in bull aurochs blood to make him brave |
-| What did Benjen say to Jon that Jon now considers true? | Jon's final whispered line | "My uncle spoke truly" — the specific words are not given in this chapter |
+| What happened to Benjen Stark? | Jon's reflection | Rangers sent to search found only blazes in trees that stopped abruptly in stony highlands to the northwest — all trace vanished |
+| What waits for Jon in the Winterfell crypts? | Jon's dream | Jon's recurring dream compels him downward into darkness but he always wakes before reaching the bottom |
+| Why does Jon scream "I'm not a Stark" in his dream? | Jon's dream | He feels the crypts are not his place, yet is compelled to descend anyway |
+| What will happen when Ser Alliser discovers the recruits' coordinated refusal to hurt Sam? | Chapter events | Thorne rages but the situation persists; unclear what consequences may follow |
 
 ## Raw Entity List
 ### Characters
-Jon Snow, Samwell Tarly, Ser Alliser Thorne, Pyp (Pypar), Grenn, Halder, Rast, Dareon, Albett, Donal Noye, Ghost, Toad, Jeren, Lord Randyll Tarly, Lady Tarly, Dickon Tarly, Mace Tyrell, Tyrion Lannister, Robb Stark, Arya Stark, Ned Stark, Benjen Stark, Ser Jaremy Rykker, Qhorin Halfhand, Ser Rodrik Cassel, Maester Aemon, Bowen Marsh, Lord Commander (the Old Bear), Lord Rowan of Goldengrove, Catelyn Stark, Bran Stark, Rickon Stark
+Jon Snow, Samwell Tarly, Ser Alliser Thorne, Pyp (Pypar), Grenn, Halder, Rast, Dareon, Albett, Donal Noye, Ghost, Toad, Jeren, Tyrion Lannister (referenced), Robb Stark (referenced), Arya Stark (referenced), Benjen Stark (referenced), Eddard (Ned) Stark (referenced), Ser Rodrik Cassel (referenced), Lord Randyll Tarly (referenced), Lady Tarly (referenced), Dickon Tarly (referenced), Mace Tyrell (referenced), Ser Jaremy Rykker (referenced), Quorin Halfhand (referenced), Lord Commander Jeor Mormont (referenced), Maester Aemon (referenced), Bowen Marsh (referenced), Lord Rowan of Goldengrove (referenced), Lord Rowan's daughter (referenced), Catelyn Stark (referenced), Bran Stark (referenced), Rickon Stark (referenced)
 
 ### Locations
-Castle Black (practice yard, armory, common hall, cells, winch cage), The Wall, Horn Hill, Winterfell (crypts, rookery, stables), Highgarden, Shadow Tower, Goldengrove, Qarth, The barrowlands, Stony highlands to the northwest (where Benjen's trail vanished)
+Castle Black, The Wall, Practice yard, Armory, Common hall, Horn Hill, Winterfell, Winterfell crypts, Shadow Tower, Goldengrove, Barrowlands, Highgarden (referenced), Qarth (referenced)
 
 ### Artifacts
-Heartsbane (Valyrian steel greatsword, House Tarly), Sam's personal armor and shield (striding huntsman sigil)
+Heartsbane (Valyrian steel greatsword of House Tarly), Samwell Tarly's personal armor and shield, Iron swords of the Kings of Winter (in dream)
 
 ### Houses/Factions
-Night's Watch, House Tarly, House Tyrell, House Stark, House Lannister (via Tyrion reference), House Rowan, Warlocks of Qarth
+Night's Watch, House Tarly, House Tyrell, House Stark, House Rowan, Kings of Winter

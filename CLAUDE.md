@@ -51,6 +51,11 @@ Later-pass agents (stubs exist in `.claude/agents/`, prompts not yet written):
 - **theory-extractor** — Pass 5: theory-informed pattern extraction
 - **discovery-agent** — Pass 6: open-ended pattern discovery
 
+Utility agents (not part of the extraction pipeline):
+- **status-reporter** — Surveys the repo and produces a detailed progress report
+
+See `reference/agents.md` for a full description of each agent and its current status.
+
 ## Directory Structure
 
 ```
@@ -58,7 +63,7 @@ asoiaf-chat/
 ├── CLAUDE.md                         # THIS FILE
 ├── worklog.md                        # Living project history
 ├── .claude/
-│   └── agents/                       # Subagent definitions (7 agents)
+│   └── agents/                       # Subagent definitions (8 agents)
 ├── scripts/                          # Python tooling
 ├── sources/
 │   ├── raw/                          # Original .txt files (GITIGNORED)
@@ -78,13 +83,21 @@ asoiaf-chat/
 │   └── convergence-maps/
 ├── index/
 ├── curation/
+├── progress/                             # Progress tracking (split by pass/book)
+│   ├── pass1-agot.md                     # AGOT extraction wave log
+│   ├── handoffs.md                       # Work needing human/agent pickup
+│   └── scratch-notes.md                  # Observations not yet triaged
 ├── reference/
-│   ├── architecture.md               # System architecture & conventions
-│   ├── foreshadowing-events.md       # 26 events + 15 Chekhov's guns
-│   └── pov-characters.md             # POV lookup table + expected chapter counts
+│   ├── agents.md                         # Agent inventory & status
+│   ├── architecture.md                   # System architecture & conventions
+│   ├── foreshadowing-events.md           # 26 events + 15 Chekhov's guns
+│   ├── pass-1-mechanical-extraction.md   # Pass 1 design & schema reference
+│   └── pov-characters.md                # POV lookup table + expected chapter counts
 └── working/
-    ├── progress.md                   # Agent handoff document
-    └── todos.md                      # Actionable TODOs by topic
+    ├── todos.md                          # Actionable TODOs by topic
+    ├── extraction-stats/                  # Token/timing stats per book-pass
+    ├── taxonomy-candidates.md            # Proposed node types from wiki categories
+    └── runbooks/                         # How-to procedures
 ```
 
 ## Key Conventions
@@ -97,10 +110,16 @@ asoiaf-chat/
 
 ## Working Directory
 
-`working/` is the scratchpad for in-progress work. Use it for:
-- **`working/progress.md`** — Agent handoff document. Read at start of any task, update when finishing a batch or surfacing something noteworthy.
+`working/` is the scratchpad for in-progress work:
 - **`working/todos.md`** — Actionable items organized by topic: agent improvements, prompts to write, reference files to create, infrastructure tasks.
+- **`working/runbooks/`** — Step-by-step procedures for operational tasks.
+- **`working/extraction-stats/`** — Token usage and timing stats, one file per book-pass (e.g., `extraction-stats-agot-pass1-v2.csv`).
 - **Anything uncertain** — If you encounter something potentially relevant during analysis but aren't sure where it belongs, put it in `working/` rather than discarding it. Tag it clearly. Matt or a later session will triage.
+
+`progress/` tracks extraction progress and agent handoffs:
+- **`progress/pass1-agot.md`** — Wave-by-wave log for AGOT Pass 1. Create new files per book/pass (e.g., `pass1-acok.md`, `pass2-wiki.md`).
+- **`progress/handoffs.md`** — Work needing human action or agent pickup.
+- **`progress/scratch-notes.md`** — Interesting observations not yet triaged.
 
 ## Orchestration Rules
 
@@ -109,3 +128,5 @@ asoiaf-chat/
 3. Write Python scripts for any repeatable task — don't process things manually
 4. Update worklog.md before ending any session
 5. If a step fails, log the failure in worklog.md and move to the next unblocked task
+6. When modifying an agent prompt's schema, update `reference/architecture.md` to match — these two must stay in sync
+7. When the worklog exceeds ~150 lines in the Session Log, archive older sessions to `working/worklog-archives/archiveNNN.md` (~150 lines each). The worklog keeps Current State, Active Decisions, Ideas & Backlog, Principles, and only recent sessions. Archives are available but not auto-loaded.

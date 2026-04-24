@@ -1,115 +1,66 @@
 #!/usr/bin/env bash
-# run-extraction-wave.sh — Run Pass 1 mechanical extraction on a wave of AGOT chapters
+# run-extraction-wave.sh — Run Pass 1 mechanical extraction on a wave of chapters
 #
 # Usage:
-#   ./scripts/run-extraction-wave.sh <wave_number>
+#   ./scripts/run-extraction-wave.sh <book> <wave_number>
 #
-# Waves are groups of 5 chapters (last wave has 3). Wave 1-5 already done.
-# Run different waves in separate terminals for parallelism.
+# Example:
+#   ./scripts/run-extraction-wave.sh agot 3
 #
-#   Terminal 1: ./scripts/run-extraction-wave.sh 6
-#   Terminal 2: ./scripts/run-extraction-wave.sh 7
-#   Terminal 3: ./scripts/run-extraction-wave.sh 8
-#   ...
+# Books: agot, acok, asos, affc, adwd
+# Chapters are auto-discovered from sources/chapters/<book>/
+# Waves are groups of 5 chapters (last wave may be smaller).
 #
-# Or run all remaining waves sequentially:
-#   for w in $(seq 6 15); do ./scripts/run-extraction-wave.sh "$w"; done
+# Run different waves in separate terminals for parallelism:
+#   Terminal 1: ./scripts/run-extraction-wave.sh agot 1
+#   Terminal 2: ./scripts/run-extraction-wave.sh agot 2
+#   Terminal 3: ./scripts/run-extraction-wave.sh agot 3
+#   Terminal 4: ./scripts/run-extraction-wave.sh agot 4
+#
+# See working/runbooks/extraction-pass1.md for full copy-paste runbook.
 #
 # Outputs:
-#   extractions/mechanical/agot/{chapter}.extraction.md  — the extraction
-#   /tmp/extraction-{chapter}.log                        — claude stdout (text)
-#   /tmp/extraction-{chapter}.json                       — full stream-json (token usage)
-#   working/extraction-stats.csv                         — per-chapter timing & token log
+#   extractions/mechanical/<book>/{chapter}.extraction.md  — the extraction
+#   /tmp/extraction-{chapter}.log                          — claude stdout (text)
+#   /tmp/extraction-{chapter}.json                         — full stream-json (token usage)
+#   working/extraction-stats.csv                           — per-chapter timing & token log
 
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
+BOOK=${1:?Usage: $0 <book> <wave_number>  (e.g., $0 agot 3)}
+WAVE=${2:?Usage: $0 <book> <wave_number>  (e.g., $0 agot 3)}
+
+CHAPTER_DIR="sources/chapters/${BOOK}"
+EXTRACT_DIR="extractions/mechanical/${BOOK}"
 STATS_FILE="working/extraction-stats.csv"
+
+if [[ ! -d "$CHAPTER_DIR" ]]; then
+  echo "ERROR: Chapter directory not found: $CHAPTER_DIR"
+  exit 1
+fi
+
+# Create extraction output directory if needed
+mkdir -p "$EXTRACT_DIR"
 
 # Create stats CSV with header if it doesn't exist
 if [[ ! -f "$STATS_FILE" ]]; then
-  echo "chapter,wave,status,start_time,end_time,duration_s,input_tokens,output_tokens,total_tokens" > "$STATS_FILE"
+  echo "chapter,book,wave,status,start_time,end_time,duration_s,input_tokens,cache_creation_tokens,cache_read_tokens,output_tokens,total_tokens,cost_usd" > "$STATS_FILE"
 fi
 
-# All 73 AGOT chapters in order
-CHAPTERS=(
-  agot-prologue
-  agot-bran-01
-  agot-catelyn-01
-  agot-daenerys-01
-  agot-eddard-01
-  agot-jon-01
-  agot-catelyn-02
-  agot-arya-01
-  agot-bran-02
-  agot-tyrion-01
-  agot-jon-02
-  agot-daenerys-02
-  agot-eddard-02
-  agot-tyrion-02
-  agot-catelyn-03
-  agot-sansa-01
-  agot-eddard-03
-  agot-bran-03
-  agot-catelyn-04
-  agot-jon-03
-  agot-eddard-04
-  agot-tyrion-03
-  agot-arya-02
-  agot-daenerys-03
-  agot-bran-04
-  agot-eddard-05
-  agot-jon-04
-  agot-eddard-06
-  agot-catelyn-05
-  agot-sansa-02
-  agot-eddard-07
-  agot-tyrion-04
-  agot-arya-03
-  agot-eddard-08
-  agot-catelyn-06
-  agot-eddard-09
-  agot-daenerys-04
-  agot-bran-05
-  agot-tyrion-05
-  agot-eddard-10
-  agot-catelyn-07
-  agot-jon-05
-  agot-tyrion-06
-  agot-eddard-11
-  agot-sansa-03
-  agot-eddard-12
-  agot-daenerys-05
-  agot-eddard-13
-  agot-jon-06
-  agot-eddard-14
-  agot-arya-04
-  agot-sansa-04
-  agot-jon-07
-  agot-bran-06
-  agot-daenerys-06
-  agot-catelyn-08
-  agot-tyrion-07
-  agot-sansa-05
-  agot-eddard-15
-  agot-catelyn-09
-  agot-jon-08
-  agot-daenerys-07
-  agot-tyrion-08
-  agot-catelyn-10
-  agot-daenerys-08
-  agot-arya-05
-  agot-bran-07
-  agot-sansa-06
-  agot-daenerys-09
-  agot-tyrion-09
-  agot-jon-09
-  agot-catelyn-11
-  agot-daenerys-10
-)
+# Auto-discover chapters from directory (sorted — filenames sort correctly)
+CHAPTERS=()
+for f in "$CHAPTER_DIR"/*.md; do
+  basename=$(basename "$f" .md)
+  CHAPTERS+=("$basename")
+done
+
+if (( ${#CHAPTERS[@]} == 0 )); then
+  echo "ERROR: No .md files found in $CHAPTER_DIR"
+  exit 1
+fi
 
 WAVE_SIZE=5
-WAVE=${1:?Usage: $0 <wave_number> (1-15)}
 
 # Calculate slice
 START=$(( (WAVE - 1) * WAVE_SIZE ))
@@ -118,14 +69,16 @@ if (( END > ${#CHAPTERS[@]} )); then
   END=${#CHAPTERS[@]}
 fi
 
+TOTAL_WAVES=$(( (${#CHAPTERS[@]} + WAVE_SIZE - 1) / WAVE_SIZE ))
+
 if (( START >= ${#CHAPTERS[@]} )); then
-  echo "Wave $WAVE is out of range (max 15)"
+  echo "Wave $WAVE is out of range (max $TOTAL_WAVES for $BOOK with ${#CHAPTERS[@]} chapters)"
   exit 1
 fi
 
 WAVE_CHAPTERS=("${CHAPTERS[@]:$START:$((END - START))}")
 
-echo "=== Wave $WAVE: chapters $((START+1))-$END of ${#CHAPTERS[@]} ==="
+echo "=== ${BOOK^^} Wave $WAVE/$TOTAL_WAVES: chapters $((START+1))-$END of ${#CHAPTERS[@]} ==="
 echo "Chapters: ${WAVE_CHAPTERS[*]}"
 echo ""
 
@@ -135,17 +88,50 @@ FAILURES=0
 FAILED_LIST=()
 WAVE_INPUT_TOKENS=0
 WAVE_OUTPUT_TOKENS=0
+WAVE_COST=""
 
 for ch in "${WAVE_CHAPTERS[@]}"; do
-  SRC="sources/chapters/agot/${ch}.md"
-  OUT="extractions/mechanical/agot/${ch}.extraction.md"
+  SRC="sources/chapters/${BOOK}/${ch}.md"
+  OUT="extractions/mechanical/${BOOK}/${ch}.extraction.md"
 
   if [[ ! -f "$SRC" ]]; then
     echo "SKIP: $SRC not found"
     FAILURES=$((FAILURES + 1))
     FAILED_LIST+=("$ch (source missing)")
-    echo "$ch,$WAVE,skip,,,,,," >> "$STATS_FILE"
+    echo "$ch,$BOOK,$WAVE,skip-no-source,,,,,,,,," >> "$STATS_FILE"
     continue
+  fi
+
+  # Check if extraction already exists and is complete
+  if [[ -f "$OUT" ]]; then
+    VALID=true
+    LINE_COUNT=$(wc -l < "$OUT" | tr -d ' ')
+    MISSING_SECTIONS=""
+    for section in "## Characters" "## Events" "## Locations" "## Relationships"; do
+      if ! grep -q "$section" "$OUT"; then
+        MISSING_SECTIONS+="${section#### }, "
+        VALID=false
+      fi
+    done
+    if (( LINE_COUNT < 100 )); then
+      VALID=false
+    fi
+
+    if [[ "$VALID" == true ]]; then
+      echo "SKIP: $ch already extracted (${LINE_COUNT} lines, all sections present)"
+      echo "$ch,$BOOK,$WAVE,skip-done,,,,,,,,," >> "$STATS_FILE"
+      SUCCESSES=$((SUCCESSES + 1))
+      continue
+    else
+      REASON=""
+      if (( LINE_COUNT < 100 )); then
+        REASON="only ${LINE_COUNT} lines"
+      fi
+      if [[ -n "$MISSING_SECTIONS" ]]; then
+        REASON="${REASON:+$REASON, }missing: ${MISSING_SECTIONS%, }"
+      fi
+      echo "RE-EXTRACTING: $ch (incomplete: $REASON)"
+    fi
   fi
 
   LOGFILE="/tmp/extraction-${ch}.log"
@@ -177,16 +163,34 @@ Follow the schema exactly. Overwrite any existing file. Do not reference other c
   CH_END_FMT=$(date '+%Y-%m-%d %H:%M:%S')
   ELAPSED=$(( CH_END - CH_START ))
 
-  # Extract token usage from stream-json output
-  # Look for the result message which contains usage stats
-  INPUT_TOKENS=$(grep -o '"input_tokens":[0-9]*' "$JSONFILE" 2>/dev/null | tail -1 | cut -d: -f2)
-  OUTPUT_TOKENS=$(grep -o '"output_tokens":[0-9]*' "$JSONFILE" 2>/dev/null | tail -1 | cut -d: -f2)
-  INPUT_TOKENS=${INPUT_TOKENS:-0}
-  OUTPUT_TOKENS=${OUTPUT_TOKENS:-0}
-  TOTAL_TOKENS=$(( INPUT_TOKENS + OUTPUT_TOKENS ))
+  # Extract token usage from the result event in stream-json output
+  eval $(python3 -c "
+import json
+found = False
+for line in open('$JSONFILE'):
+    line = line.strip()
+    if not line: continue
+    try:
+        obj = json.loads(line)
+        if obj.get('type') == 'result' and not found:
+            found = True
+            u = obj.get('usage', {})
+            print(f'INPUT_TOKENS={u.get(\"input_tokens\", 0)}')
+            print(f'CACHE_CREATION={u.get(\"cache_creation_input_tokens\", 0)}')
+            print(f'CACHE_READ={u.get(\"cache_read_input_tokens\", 0)}')
+            print(f'OUTPUT_TOKENS={u.get(\"output_tokens\", 0)}')
+            print(f'COST_USD={obj.get(\"total_cost_usd\", 0)}')
+    except: pass
+if not found:
+    print('INPUT_TOKENS=0')
+    print('CACHE_CREATION=0')
+    print('CACHE_READ=0')
+    print('OUTPUT_TOKENS=0')
+    print('COST_USD=0')
+" 2>/dev/null)
+  TOTAL_TOKENS=$(( INPUT_TOKENS + CACHE_CREATION + CACHE_READ + OUTPUT_TOKENS ))
 
-  # Also extract readable text from the json for the text log
-  # Pull out assistant text content for readable log
+  # Extract readable text from the json for the text log
   python3 -c "
 import json, sys
 for line in open('$JSONFILE'):
@@ -202,10 +206,10 @@ for line in open('$JSONFILE'):
 " > "$LOGFILE" 2>/dev/null || true
 
   if [[ "$STATUS" == "ok" ]]; then
-    echo "  ✅ $ch (${ELAPSED}s | in:${INPUT_TOKENS} out:${OUTPUT_TOKENS} total:${TOTAL_TOKENS})"
+    echo "  ✅ $ch (${ELAPSED}s | in:${INPUT_TOKENS} cache_create:${CACHE_CREATION} cache_read:${CACHE_READ} out:${OUTPUT_TOKENS} | \$${COST_USD})"
     tail -3 "$LOGFILE" | sed 's/^/    /'
     SUCCESSES=$((SUCCESSES + 1))
-    WAVE_INPUT_TOKENS=$(( WAVE_INPUT_TOKENS + INPUT_TOKENS ))
+    WAVE_INPUT_TOKENS=$(( WAVE_INPUT_TOKENS + INPUT_TOKENS + CACHE_CREATION + CACHE_READ ))
     WAVE_OUTPUT_TOKENS=$(( WAVE_OUTPUT_TOKENS + OUTPUT_TOKENS ))
   else
     echo "  ❌ $ch FAILED (${ELAPSED}s)"
@@ -215,18 +219,32 @@ for line in open('$JSONFILE'):
   fi
 
   # Append to stats CSV
-  echo "$ch,$WAVE,$STATUS,$CH_START_FMT,$CH_END_FMT,$ELAPSED,$INPUT_TOKENS,$OUTPUT_TOKENS,$TOTAL_TOKENS" >> "$STATS_FILE"
+  echo "$ch,$BOOK,$WAVE,$STATUS,$CH_START_FMT,$CH_END_FMT,$ELAPSED,$INPUT_TOKENS,$CACHE_CREATION,$CACHE_READ,$OUTPUT_TOKENS,$TOTAL_TOKENS,$COST_USD" >> "$STATS_FILE"
 done
 
 WAVE_ELAPSED=$(( $(date +%s) - WAVE_START ))
 WAVE_TOTAL_TOKENS=$(( WAVE_INPUT_TOKENS + WAVE_OUTPUT_TOKENS ))
 
+# Sum costs from this wave's CSV entries
+WAVE_COST=$(python3 -c "
+import csv, sys
+total = 0.0
+with open('$STATS_FILE') as f:
+    reader = csv.DictReader(f)
+    for row in reader:
+        if row.get('wave') == '$WAVE' and row.get('book') == '$BOOK':
+            try: total += float(row.get('cost_usd', 0))
+            except: pass
+print(f'{total:.4f}')
+" 2>/dev/null || echo "0")
+
 echo ""
-echo "=== Wave $WAVE complete ==="
+echo "=== ${BOOK^^} Wave $WAVE/$TOTAL_WAVES complete ==="
 echo "Succeeded: $SUCCESSES / ${#WAVE_CHAPTERS[@]}"
 echo "Failed: $FAILURES"
 echo "Wall time: ${WAVE_ELAPSED}s"
 echo "Tokens — input: $WAVE_INPUT_TOKENS | output: $WAVE_OUTPUT_TOKENS | total: $WAVE_TOTAL_TOKENS"
+echo "Cost: \$${WAVE_COST}"
 if (( FAILURES > 0 )); then
   echo "Failed chapters: ${FAILED_LIST[*]}"
 fi
@@ -235,8 +253,8 @@ fi
 TIMESTAMP=$(date '+%Y-%m-%d %H:%M')
 CHAPTER_LIST=$(IFS=', '; echo "${WAVE_CHAPTERS[*]}")
 if (( FAILURES == 0 )); then
-  echo "- **Wave $WAVE** ($TIMESTAMP) — $CHAPTER_LIST ✅ (${#WAVE_CHAPTERS[@]}/${#WAVE_CHAPTERS[@]}) [${WAVE_ELAPSED}s, ${WAVE_TOTAL_TOKENS} tokens]" >> working/progress.md
+  echo "- **${BOOK^^} Wave $WAVE** ($TIMESTAMP) — $CHAPTER_LIST ✅ (${#WAVE_CHAPTERS[@]}/${#WAVE_CHAPTERS[@]}) [${WAVE_ELAPSED}s, ${WAVE_TOTAL_TOKENS} tokens]" >> working/progress.md
 else
   FAIL_LIST_STR=$(IFS=', '; echo "${FAILED_LIST[*]}")
-  echo "- **Wave $WAVE** ($TIMESTAMP) — $CHAPTER_LIST ⚠️ ($SUCCESSES/${#WAVE_CHAPTERS[@]}, failed: $FAIL_LIST_STR) [${WAVE_ELAPSED}s, ${WAVE_TOTAL_TOKENS} tokens]" >> working/progress.md
+  echo "- **${BOOK^^} Wave $WAVE** ($TIMESTAMP) — $CHAPTER_LIST ⚠️ ($SUCCESSES/${#WAVE_CHAPTERS[@]}, failed: $FAIL_LIST_STR) [${WAVE_ELAPSED}s, ${WAVE_TOTAL_TOKENS} tokens]" >> working/progress.md
 fi

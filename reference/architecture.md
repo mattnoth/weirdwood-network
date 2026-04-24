@@ -219,13 +219,42 @@ The system can filter all content to a user-declared spoiler ceiling. Any node w
 
 ---
 
+## Pass 1 Extraction Schema (v2)
+
+Each mechanical extraction produces a `.extraction.md` file with these sections:
+
+| Section | Purpose |
+|---------|---------|
+| Chapter Metadata | Book, chapter number, POV, spoiler gate, locations, timeline, `time_markers` |
+| Physical Environment | Weather, season, time of day, lighting, sounds, smells, sensory details |
+| Characters Present | Who appears in the chapter with role and notes |
+| Character Appearances | Physical descriptions as given in this chapter: hair, eyes, build, scars, clothing, weapons, age |
+| Characters Referenced | Who is mentioned but not present |
+| Locations | Location routing table (name, role, first appearance) |
+| Location Descriptions | Defensive features, architecture, interiors, scale, condition, terrain, sensory details |
+| Artifacts & Objects | Objects of narrative significance |
+| Food & Drink | All meals/food described: dishes, ingredients, who eats with whom, preparation |
+| Hospitality & Guest Right | Guest right invocations, bread and salt, shelter, violations |
+| Events & Actions | Numbered sequence of chapter events |
+| Spatial Layout & Movement | Phase-based positioning table (Opening, Advance, Ambush, Assembly, etc.) |
+| Information Revealed | What the reader/characters learn, with knowledge asymmetry tracking |
+| Dialogue of Note | Key quotes with speaker, listener, context |
+| POV Internal State | Emotional state, preoccupations, decisions, self-deception |
+| Relationships Observed | Character-to-character relationships with evidence |
+| Unanswered Questions | Open questions raised by the chapter |
+| Raw Entity List | Flat lists of all characters, locations, artifacts, houses/factions |
+
+Full schema definition: `.claude/agents/mechanical-extractor.md`
+
+---
+
 ## Extraction Pass Sequence
 
 Agents execute in this order. Each pass builds on prior outputs.
 
 | Pass | Agent | Input | Output | Depends On |
 |------|-------|-------|--------|------------|
-| 1 | Mechanical | Raw chapter text | Structured chapter extraction (entities, locations, events, metadata) | Nothing — runs first |
+| 1 | Mechanical | Raw chapter text | Structured chapter extraction (entities, locations, events, food, hospitality, physical descriptions, spatial layout, metadata) | Nothing — runs first |
 | 2 | Wiki | AWOIAF wiki pages | Structured entity nodes with comprehensive data | Pass 1 (for cross-reference) |
 | 3 | Voice & Perception | Full POV character arc (all chapters) + wiki nodes | Voice profile + cross-POV perception mappings | Pass 1, Pass 2 |
 | 4 | Foreshadowing | Chapter extractions + confirmed event list | Foreshadowing edge mappings | Pass 1, event list |
@@ -245,6 +274,7 @@ All agents working in this project should:
 5. **Output structured markdown** — follow the schemas defined in each agent prompt file
 6. **Propose, don't decide** — analytical findings go to the curation queue as candidates, not as accepted facts
 7. **Cite chapter sources** — every claim traces back to a specific chapter or wiki page
+8. **Direwolves and dragons are characters** — Ghost, Grey Wind, Lady, Nymeria, Summer, Shaggydog, Drogon, Rhaegal, Viserion are characters with agency and narrative arcs, not creatures or fauna
 
 ---
 
@@ -258,8 +288,9 @@ All agents working in this project should:
 - [x] Source chapters extracted (ASOS — 82)
 - [x] Source chapters extracted (AFFC — 46)
 - [x] Source chapters extracted (ADWD — 73)
-- [ ] Pass 1 mechanical extraction (AGOT)
-- [ ] Pass 1 mechanical extraction (all books)
+- [x] Pass 1 v1 mechanical extraction (AGOT — 73/73, archived to `extractions/archives/agot-v1/`)
+- [ ] Pass 1 v2 mechanical extraction (AGOT — in progress, expanded schema)
+- [ ] Pass 1 mechanical extraction (remaining books)
 - [ ] Pass 2 wiki ingestion
 - [ ] Index / trigger table v1
 - [ ] Pass 3 voice analysis
