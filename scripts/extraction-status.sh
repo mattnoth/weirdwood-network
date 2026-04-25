@@ -13,7 +13,7 @@ cd "$(dirname "$0")/.."
 BOOK=${1:-agot}
 CHAPTER_DIR="sources/chapters/${BOOK}"
 EXTRACT_DIR="extractions/mechanical/${BOOK}"
-STATS_FILE="working/extraction-stats.csv"
+STATS_FILE="working/extraction-stats/extraction-stats-${BOOK}-pass1-v3.csv"
 WAVE_SIZE=5
 
 if [[ ! -d "$CHAPTER_DIR" ]]; then
