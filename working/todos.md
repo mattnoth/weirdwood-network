@@ -37,10 +37,19 @@
 - [ ] **theory-seeds.md** — Top 20-30 ASOIAF theories with descriptions and confidence tiers. Input for Pass 5.
 - [ ] **taxonomy.md** — Standalone reference for entity types, edge types, confidence tiers (currently embedded in architecture.md).
 - [ ] **node-schema.md** — What does a single entity node file look like? Frontmatter fields, required sections.
+- [ ] **Expand `reference/foreshadowing-events.md` before Pass 4** — currently 26 events + 15 Chekhov's guns. Audit/expand both: more event anchors (deaths, identity reveals, plot reveals, magic returnings, prophecy fulfillments) AND a richer Chekhov's gun *pattern library* so the scanner can flag candidate unknown foreshadowing, not just match known events. See `progress/scratch-notes.md` "Foreshadowing Pass Prep" entry for detail. Long-lead — Pass 4 is many sessions away, but file this now so it's not forgotten.
+
+## Collaboration
+
+- [ ] **Schema lock-in before collaborator handoff** — A collaborator may join to share extraction load. They have less ASOIAF depth than Matt, so the Pass 1 schema must produce correct output without needing lore knowledge to second-guess. Sequence: finish Track B → schema review across AGOT v3 → lock schema → onboard collaborator. See `progress/scratch-notes.md` "Collaborator Onboarding" entry.
+- [ ] **Revisit `/install-github-app`** — Useful once a collaborator is producing extractions: tagging Claude in PRs/issues becomes the natural review surface. Skip until handoff is near.
+- [ ] **Collaborator quick-reference doc** — README onboarding works for first-run, but a collaborator extracting on another machine needs a focused "running extractions" reference that doesn't require reading CLAUDE.md end-to-end. Write before handoff.
 
 ## Wiki / Pass 2 Prep
 
-- [ ] **Wiki infobox parser for `first_available`** — Wiki "Books" infobox field has structured HTML with appearance types: `(POV)`, `(appears)`, `(mentioned)`. First non-"mentioned" book → `first_available`. 5,279 of 17,657 pages have infoboxes. Write a script to extract this systematically. Chapter-level links also exist in body text (`A_Game_of_Thrones-Chapter_2` pattern) for finer granularity.
+- [ ] **Track B orchestration planning (PLAN-ONLY session)** — Design the multi-agent orchestration for wiki Pass 2 before writing code. Decompose deterministic vs. agentic work, define wave-equivalent for wiki, mirror extraction-stats observability, decide batch granularity, lock in no-DB-for-now. Output: `working/runbooks/wiki-pass2-orchestration.md`.
+  → continue: `2026-04-25-track-b-orchestration-planning.md`
+- [ ] **Wiki infobox parser for `first_available`** — Wiki "Books" infobox field has structured HTML with appearance types: `(POV)`, `(appears)`, `(mentioned)`. First non-"mentioned" book → `first_available`. 5,279 of 17,657 pages have infoboxes. Write a script to extract this systematically. Chapter-level links also exist in body text (`A_Game_of_Thrones-Chapter_2` pattern) for finer granularity. **Implementation gated on orchestration runbook above.**
   → continue: `2026-04-24-track-b-wiki-infobox-parser.md`
 - [ ] **Wiki infobox field → edge type extraction** — Infobox fields (Father, Mother, Spouse, Allegiance, Overlord, etc.) map directly to edge types. See mapping table in `reference/architecture.md`. Script should parse these for Pass 2 input.
 - [ ] **AGOT supplementary entity index** — Lightweight script to scan existing AGOT extractions and build a supplementary index for the 7 candidate entity types (religion, culture, species, magic, title, text, war). Not a re-extraction — just categorize what's already captured in narrative sections.
@@ -51,6 +60,6 @@
 - [x] **Chapter splitter script** — Done. `scripts/chapter-splitter.py`, all 5 books split (344 chapters total).
 - [x] **Wiki scraper script** — Done. `scripts/wiki-scraper.py` (1213 lines, stdlib-only). Full crawl complete (17,945 pages, 377 MB).
 - [x] **Batch extraction runner** — Done. `scripts/extract.sh` + `scripts/weirwood.zsh`. Wave-based parallel extraction via iTerm tabs, stats tracking, rate-limit detection, auto-worklog updates.
-- [ ] **AGOT v3 schema review** — Review extraction output quality across AGOT v3 (73 chapters). Check for: section completeness, entity coverage gaps, Raw Entity List consistency, Food & Drink / Hospitality coverage. One known gap: agot-eddard-01 missing `### Other` header.
+- [ ] **AGOT v3 schema review** — Review extraction output quality across AGOT v3 (73 chapters). Check for: section completeness, entity coverage gaps, Raw Entity List consistency, Food & Drink / Hospitality coverage. One known gap: agot-eddard-01 missing `### Other` header. **Sequenced after Track B** — see worklog "DECIDED: Track B Before v3 Schema Review" (2026-04-25). Track B's parser surfaces schema signals (entity boundaries, edge vocabulary, redundancy) that an isolated v3 review cannot.
 
 

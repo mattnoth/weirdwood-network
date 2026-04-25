@@ -31,6 +31,8 @@ source "$WEIRWOOD_PROJECT_DIR/scripts/weirwood.zsh"
 
 ### 2. Place your source files
 
+> **Already have `sources/raw/`, `sources/chapters/`, and `sources/wiki/` populated?** Skip to step 4 (`weirwood check`).
+
 Put your plain-text `.txt` source files in `sources/raw/`:
 
 | File | Book |

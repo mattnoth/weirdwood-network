@@ -8,6 +8,17 @@ We have 17,657 cached wiki pages as JSON files in `sources/wiki/_raw/`. Each fil
 
 This script is **independent of Track A** (extraction). It can be built and run regardless of extraction progress.
 
+## Why Track B Before v3 Schema Review (decision 2026-04-25)
+
+Track B isn't just parallel work — it's a reality check on the Pass 1 schema from the *other* side. Building the parser surfaces signals that the schema review in isolation cannot:
+
+- **Entity type boundaries** — wiki categories (Characters, Houses, Castles, Free Cities, Battles, Weapons…) are an external taxonomy. If they don't cleanly map to the 12 Pass 1 categories, that's a schema signal.
+- **Relationship/edge shape** — infobox fields (`spouse`, `father`, `liege`, `culture`, `religion`) are the relationship vocabulary the graph needs. Some may be missing from Pass 1's relationship extraction.
+- **`first_available` mechanics** — the `cite_ref` chapter anchors are the spoiler-gating primitive. Building the parser tells you whether the encoding is reliable enough to trust.
+- **Schema redundancy** — if the wiki provides house words, sigils, seats reliably, Pass 1 doesn't need to extract them. That could *shrink* the Pass 1 schema, not grow it.
+
+Schema review in isolation only answers "did the agent follow the prompt." Track B answers "is the prompt asking for the right things." Cost of doing schema review first and then discovering Track B reshapes it: re-running v3 across 272 chapters (ACOK + ASOS + AFFC + ADWD). Cost of doing Track B first: a few days' work that was queued anyway.
+
 ## What to Build
 
 A Python script at `scripts/wiki-infobox-parser.py` that processes the cached wiki JSON and outputs structured data.

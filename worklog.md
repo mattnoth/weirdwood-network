@@ -115,6 +115,16 @@ This is your project memory. When you come back after a break, read Current Stat
 - **Decision:** `first_available` field is required on every node and edge from the start. Not retrofittable.
 - **Rationale:** Discussed at length. Omitting now would require manually tagging hundreds of nodes later.
 
+### DECIDED: Track B (Wiki Parser) Before v3 Schema Review
+- **Decision (2026-04-25):** Build the wiki infobox parser (Track B) before doing a schema review of the v3 Pass 1 output and before scaling v3 to ACOK/ASOS/AFFC/ADWD.
+- **Rationale:** Track B surfaces schema signals that an isolated v3 review cannot:
+  - **Entity type boundaries** — wiki categories are an external taxonomy. Mismatch with the 12 Pass 1 categories is a schema signal.
+  - **Relationship/edge shape** — infobox fields (`spouse`, `father`, `liege`, `culture`, `religion`) define the graph's relationship vocabulary. Gaps in Pass 1's relationship extraction surface here.
+  - **`first_available` mechanics** — `cite_ref` chapter anchors are the spoiler-gating primitive. The parser proves whether the encoding is reliable.
+  - **Schema redundancy** — if the wiki provides house words / sigils / seats reliably, Pass 1 doesn't need to extract them. Track B can *shrink* the Pass 1 schema.
+- **Cost asymmetry:** Doing schema review first risks discovering Track B reshapes it → 272 chapters (ACOK + ASOS + AFFC + ADWD) re-run. Doing Track B first costs a few days of already-queued work.
+- **Continue prompt:** `progress/continue-prompts/2026-04-24-track-b-wiki-infobox-parser.md` (now includes this rationale at the top).
+
 ### DECIDED: Extraction Pass Order
 - **Decision:** Six passes in sequence: Mechanical → Wiki → Voice/Perception → Foreshadowing → Theory-Informed → Discovery
 - **Rationale:** Each pass builds on the structured outputs of prior passes. Cross-chapter analysis (Passes 3+) requires the chapter-level extractions from Pass 1 as input.
@@ -156,6 +166,26 @@ This is your project memory. When you come back after a break, read Current Stat
 ## Session Log
 
 > Newest first. One entry per work session.
+
+### Session 13 — Remote Added, Track B Sequencing, Orchestration Planning, Collaborator Prep (2026-04-25)
+**Detail:** `working/session-details/session-013.md`
+**Changes made:**
+- `git remote add origin https://github.com/mattnoth/weirdwood-network.git`
+- `README.md` — added skip-ahead note for users with `sources/raw/`, `sources/chapters/`, `sources/wiki/` already populated
+- `worklog.md` — new DECIDED: "Track B (Wiki Parser) Before v3 Schema Review"
+- `progress/continue-prompts/2026-04-24-track-b-wiki-infobox-parser.md` — prepended "Why Track B Before v3 Schema Review" rationale
+- `progress/continue-prompts/2026-04-25-track-b-orchestration-planning.md` — NEW, PLAN-ONLY orchestration design prompt (output: `working/runbooks/wiki-pass2-orchestration.md`)
+- `progress/scratch-notes.md` — added 3 entries: "Relational DB Decision — Defer", "Collaborator Onboarding — Schema Lock-In Before Handoff", "Foreshadowing Pass Prep — Expand Event List & Chekhov's Guns"
+- `working/todos.md` — orchestration-planning todo (top of Wiki/Pass 2 Prep), parser todo gated on runbook, schema review sequenced-after-Track B; new Collaboration section (schema lock-in, GitHub app revisit, collaborator quick-ref doc); new foreshadowing reference-expansion todo
+
+**Decisions:** Worklog kept at current size (Session Log ~91 lines, under 150 threshold; bulk is persistent context). Track B sequenced before v3 schema review — the wiki parser surfaces schema signals (entity boundaries, edge vocabulary, `cite_ref` reliability, redundancy) that an isolated review cannot. Schema-first risks re-running 272 chapters; Track-B-first costs queued work. **No relational DB** — JSONL + markdown handles current access patterns; Neo4j only relevant when traversal queries become painful (1-2 passes away). Migration cost from JSONL forward is low. **Collaborator onboarding constraint:** schema must be ironclad before handoff (collaborator has less ASOIAF depth, can't lore-check the schema). Pass 4 (foreshadowing) needs expanded event list and Chekhov's gun *pattern library* before running — filed long-lead so it's not forgotten.
+
+**What's next:**
+- Next session: run `progress/continue-prompts/2026-04-25-track-b-orchestration-planning.md` (PLAN-ONLY, output runbook)
+- Then implement parser per `progress/continue-prompts/2026-04-24-track-b-wiki-infobox-parser.md`
+- Then v3 schema review (informed by Track B output)
+- Then schema lock + collaborator onboarding (with collaborator quick-ref doc + GitHub app)
+- Then scale v3: ACOK (0/70), ASOS (0/82), AFFC (0/46), ADWD (0/73)
 
 ### Session 12 — AGOT v3 Complete, Rate-Limit Detection, Commit Catchup (2026-04-25)
 **Detail:** `working/session-details/session-012.md`
