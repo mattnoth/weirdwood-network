@@ -7,192 +7,244 @@
 - **pov_chapter_number:** Jon II
 - **first_available:** AGOT Jon II
 - **location_primary:** Winterfell
-- **location_secondary:** The Wall (referenced as destination)
-- **approximate_timeline:** Day of departure — the royal party, Ned Stark's household, and the Night's Watch party are all preparing to leave Winterfell simultaneously
-- **time_markers:** Lady Stark has been at Bran's bedside "close on a fortnight" since his fall; Benjen Stark wanted to leave "an hour ago"; departure is urged "before the snows come"; Jon references spending his "first year on the Wall"
-- **chapter_summary:** Jon climbs to Bran's sickroom to say goodbye before departing for the Wall. Catelyn Stark, who has not left Bran's bedside for a fortnight, grudgingly allows Jon a moment but tells him "It should have been you." Jon then finds Robb in the chaotic yard and they embrace farewell. Finally, Jon visits Arya in her room and gives her a slim sword he had Mikken forge — a bravo's blade they name "Needle" — before riding north.
+- **location_secondary:** The Wall (referenced as destination), King's Landing (referenced as destination), Pentos (referenced), Myr (referenced), Free Cities (referenced)
+- **approximate_timeline:** The morning of departure — Ned Stark's party and Benjen Stark's party are both leaving Winterfell simultaneously
+- **time_markers:** "close on a fortnight" (duration of Catelyn's vigil at Bran's bedside); "wanted to be gone an hour ago" (Benjen's impatience); departure is imminent, happening this day; "before the snows come" (seasonal urgency); light snow is falling during the departure preparations
+- **chapter_summary:** Jon visits the comatose Bran to say goodbye before leaving for the Wall. Catelyn, who has kept vigil for a fortnight, grudgingly allows the visit but tells Jon "It should have been you." Jon then says farewell to Robb in the courtyard and finally visits Arya in her room, where he gives her a slim sword he had Mikken forge — a bravo's blade they name "Needle." Jon departs Winterfell riding north with Benjen Stark.
 
 ## Physical Environment
 - **Weather:** Light snow falling; snow swirling through the castle gates
-- **Season indicators:** Snow and urgency to depart "before the snows come" suggest late autumn or onset of winter
-- **Time of day:** Daytime — departure preparations underway in the yard
-- **Lighting:** Not explicitly described; the window in Bran's room is open
-- **Sounds:** Yard is "all noise and chaos" — men shouting, wagons being loaded, horses being harnessed and saddled; inside the thick stone walls it is "still warm and quiet"; a direwolf howling outside the window below Bran's room; Nymeria yelps when she smells Ghost
-- **Smells:** Not described
-- **Notable sensory details:** Warmth inside the stone walls contrasted with snow outside; Robb has snow in his hair, melting from the heat of his body; the covered bridge connecting the armory to the Keep
+- **Season indicators:** Snow coming, urgency to depart "before the snows come" — winter approaching
+- **Time of day:** Morning/daytime — departure preparations underway, daylight implied throughout
+- **Lighting:** Not explicitly described; Bran's room has an open window
+- **Sounds:** Noise and chaos in the yard — wagons being loaded, men shouting, horses being harnessed and saddled; a wolf howling outside Bran's window; Nymeria yelping at Ghost; quiet inside the thick stone walls contrasted with noise outside
+- **Smells:** None described
+- **Notable sensory details:** Warmth inside the thick stone walls vs. snow outside; the tactile detail of Bran's fingers "like the bones of birds"; the sting of Arya's whap with the flat of the blade; the memory of Arya's laughter warming Jon on the ride north
 
 ## Characters Present
 | Character | Role in Chapter | First Appearance? | Notes |
 |-----------|----------------|-------------------|-------|
-| Jon Snow | POV character | No | Departing Winterfell for the Wall; says farewell to Bran, Robb, and Arya |
-| Ghost | Companion to Jon | No | Pads silently beside Jon; nuzzles his hand for comfort; present throughout |
-| Catelyn Stark | Antagonist | No | Has not left Bran's bedside for a fortnight; hostile to Jon |
-| Bran Stark | Incapacitated | No | Comatose in bed; has not woken since his fall |
-| Robb Stark | Ally/farewell | No | Commanding departure preparations in the yard; Grey Wind at his side |
-| Grey Wind | Present | No | At Robb's side in the yard |
-| Arya Stark | Ally/farewell | No | Packing in her room; receives Needle from Jon |
-| Nymeria | Companion to Arya | No | Helping Arya pack by fetching clothes; set to guard the door |
+| Jon Snow | POV character | No | Saying goodbyes before departing for the Wall |
+| Ghost | Companion to Jon | No | Pads silently beside Jon; nuzzles his hand for courage |
+| Catelyn Stark | Antagonist in scene | No | Referred to as "Lady Stark"; keeping vigil at Bran's bedside for close on a fortnight |
+| Bran Stark | Comatose patient | No | Unconscious, wasted; unnamed direwolf howls outside his window |
+| Robb Stark | Jon's brother, farewell scene | No | Shouting commands in the yard; seems to have grown stronger since Bran's fall |
+| Grey Wind | Robb's companion | No | At Robb's side in the yard |
+| Arya Stark | Jon's sister, farewell scene | No | Packing for the journey south; receives Needle from Jon |
+| Nymeria | Arya's companion | No | Helping Arya pack; fetches clothing; set to guard the hallway |
+| Bran's direwolf (unnamed) | Off-screen presence | No (uncertain — verify) | Howling outside Bran's window; Bran had not had time to name it before the fall |
 
 ## Character Appearances
 | Character | Hair | Eyes | Build/Height | Scars/Marks | Clothing/Armor | Weapons Worn | Distinguishing Features | Age (if stated) |
 |-----------|------|------|-------------|-------------|----------------|-------------|------------------------|-----------------|
-| Catelyn Stark | Long auburn, dull and tangled | | | | | | Looks as though she has aged twenty years | |
-| Bran Stark | | Eyes sunken deep into black pits, open but seeing nothing | Flesh gone from him; skin stretched tight over bones like sticks; legs bent in wrong ways under the blanket | | Under a blanket | | Looks half a leaf; shrunken; fingers like the bones of birds; hand looked like a claw; chest rises and falls with shallow breaths | |
+| Catelyn Stark | Long auburn hair, dull and tangled | Full of poison (emotional description during confrontation) | | | | | Looks as though she had aged twenty years | |
+| Bran Stark | | Eyes sunken deep into black pits; open but seeing nothing | Flesh all gone from him; skin stretched tight over bones like sticks; legs bent in wrong ways; looked half a leaf | | Under a blanket | | Shrunken by the fall; fingers like the bones of birds; chest rises and falls with each shallow breath; hand looked like a claw | |
 | Arya Stark | | Dark eyes, like Jon's | Skinny; skinny arms | | | | | |
-| Jon Snow | | Dark eyes (implied — "like his" when matching Arya's) | | | | | | |
+| Robb Stark | Snow in his hair, melting from the heat of his body | | | | | | Seems to have grown of late | |
 | Nymeria | | Dark golden eyes | | | | | She-wolf | |
 
 ## Characters Referenced
 | Character | Context of Reference | Referenced By |
 |-----------|---------------------|---------------|
-| Benjen Stark | Waiting for Jon to depart for the Wall; wanted to leave an hour ago | Robb, Jon |
 | Ned Stark | Catelyn prayed that Ned would change his mind and leave Bran at Winterfell | Catelyn |
-| Sansa Stark | "Don't tell Sansa!" — Jon and Arya agree to keep Needle secret from her | Jon, Arya |
-| Septa Mordane | Told Arya to refold her clothes properly; Jon jokes about her legs; Arya fears she'll confiscate the sword | Arya, Jon |
-| Mikken | Jon had Mikken make Needle specially for Arya | Jon |
+| Benjen Stark | Waiting for Jon; wanted to leave an hour ago; Jon calls him "Uncle Benjen" / "Uncle Ben" | Jon, Robb |
+| Sansa Stark | Jon and Arya agree she must not know about the sword | Jon, Arya |
+| Septa Mordane | Criticized Arya's packing; would confiscate the sword if she found it | Arya |
+| Mikken | Winterfell's smith; Jon had him forge Needle | Jon |
 
 ## Locations
 | Location | Role | First Appearance? |
 |----------|------|-------------------|
-| Winterfell | Primary setting — Bran's sickroom, yard, armory, the Keep, Arya's room | No |
-| Bran's sickroom | Where Jon says farewell to Bran; Catelyn has camped here for a fortnight | uncertain — verify |
-| Winterfell yard | Departure staging area — wagons, horses, men shouting | No |
-| Winterfell armory | Where Jon picks up his package (Needle) | uncertain — verify |
-| The Keep | Connected to armory by covered bridge; Arya's room is here | uncertain — verify |
-| Arya's room | Where Jon gives Arya the sword | uncertain — verify |
-| The Wall | Jon's destination; referenced but not visited | No |
-| King's Landing | Referenced as Arya's destination — "a true city, a thousand times the size of Winterfell" | No |
-| Pentos | Referenced — bravos use swords like Needle there | No |
-| Myr | Referenced — bravos use swords like Needle there | No |
-| The Free Cities | Referenced — bravos use swords like Needle there | No |
-| The sept (Winterfell) | Where Catelyn prayed to the seven-faced god | No |
+| Winterfell | Primary setting — Bran's room, the yard, the armory, the Keep, Arya's room, the stables | No |
+| The Wall | Jon's destination | No |
+| King's Landing | Destination for Ned's party; Jon describes it to Arya | No (uncertain — verify) |
+| Pentos | Referenced as a Free City where bravos use thin swords | No (uncertain — verify) |
+| Myr | Referenced as a Free City where bravos use thin swords | No (uncertain — verify) |
 
 ## Location Descriptions
 | Location | Defensive Features | Architecture/Layout | Interior Details | Scale | Condition | Surrounding Terrain/Geography | Notable Sensory Details |
 |----------|--------------------|--------------------|-----------------| ------|-----------|------------------------------|------------------------|
-| Winterfell | Castle gates mentioned | Thick stone walls; steps leading up to Bran's room; covered bridge connecting the armory to the Keep; stables | | | Active and operational | | Warm and quiet inside the thick stone walls; noisy and chaotic in the yard |
-| Bran's sickroom | | Reached by climbing steps; has a landing before the door; has a window that opens | A bed (Bran's); a small hard bed for Catelyn to sleep on; chamber pots brought in | | | | Still, warm, quiet |
-| Arya's room | | In the Keep, reached via covered bridge from armory | A polished ironwood chest bigger than Arya; clothes scattered everywhere | | | | |
+| Winterfell | Thick stone walls; castle gates | Steps leading up to Bran's room (a landing); the armory; a covered bridge connecting to the Keep; stables; the yard | Bran's room: a bed, an open window; Arya's room: scattered clothes, a polished ironwood chest bigger than Arya | "King's Landing is a thousand times the size of Winterfell" (comparative) | Active — wagons being loaded, horses being saddled, preparations for two departures | | Warm and quiet inside thick stone walls; noise and chaos outside in the yard; snow swirling through the gates |
 
 ## Artifacts & Objects of Significance
 | Artifact | Context | First Appearance? | Current Holder/Location |
 |----------|---------|-------------------|------------------------|
-| Needle | Slim bravo's blade Jon had Mikken forge specially for Arya; soft grey leather scabbard, deep blue sheen steel; designed for poking not hacking | Yes | Given to Arya Stark |
-| Ice | Referenced by name — Arya notes "all the best swords have names, like Ice" | No | Referenced only |
-| Polished ironwood chest | Arya's packing chest, bigger than she is | uncertain — verify | Arya's room |
+| Needle | A slim sword Jon had Mikken forge for Arya — bravo's blade style from the Free Cities; soft grey leather scabbard, deep blue sheen steel; skinny blade, sharp enough to shave with; designed for poking, not hacking; named "Needle" by Jon and Arya together | Yes | Given to Arya Stark |
+| Ice | Referenced by Arya as an example of a named sword ("Like Ice") | No | Not present in chapter |
+| Polished ironwood chest | Arya is packing her belongings in it; bigger than she is; no more than a third full | Yes (uncertain — verify) | Arya's room |
 
 ## Food & Drink
 | Meal/Occasion | Food Items Described | Drink | Who Is Eating/Drinking | Where | Preparation/Presentation Notes |
 |--------------|---------------------|-------|----------------------|-------|-------------------------------|
-| Bran's sustenance | Honey and water and herb mixture | | Catelyn feeds Bran | Bran's sickroom | Catelyn feeds him herself; this mixture "sustained life" |
-| Catelyn's meals | Meals brought to her in the room | | Catelyn Stark | Bran's sickroom | Had meals brought to her rather than leaving |
+| Bran's sustenance | Honey and water and herb mixture | | Catelyn feeds Bran | Bran's room | Catelyn feeds him herself; this mixture sustains his life while comatose |
+| Catelyn's meals | Meals brought to her | | Catelyn Stark | Bran's room | Has her meals brought to her at Bran's bedside; she has not left the room |
 
 ## Hospitality & Guest Right
-_No explicit hospitality rituals, guest right invocations, or bread-and-salt exchanges in this chapter._
+| Event | Type | Host | Guest(s) | Details |
+|-------|------|------|----------|---------|
+None explicitly invoked in this chapter.
 
 ## Events & Actions
-1. **Jon climbs to Bran's sickroom** — Ghost accompanies him; he is afraid and hesitates at the landing before entering
-2. **Catelyn challenges Jon's presence** — She asks what he is doing there and tells him to go away; Jon defies her and crosses to Bran's bedside
-3. **Jon observes Bran's condition** — Bran is emaciated, comatose, eyes open but unseeing, legs bent wrongly, breathing shallowly
-4. **Jon says goodbye to Bran** — He apologizes for not coming sooner, begs Bran not to die, mentions Robb and "the girls" are waiting for him to wake; he kisses Bran on the lips
-5. **A direwolf howls outside** — The wolf below the window howls; identified as the one Bran had not had time to name
-6. **Catelyn reveals she prayed for Bran to stay** — She says she went to the sept and prayed seven times to the seven faces of god that Ned would leave Bran at Winterfell; she says "sometimes prayers are answered"
-7. **Catelyn tells Jon "It should have been you"** — After Jon reaches the door, she calls him by name for the first time, then delivers this statement before breaking down weeping
-8. **Jon finds Robb in the yard** — Robb is commanding departure preparations; they embrace and say farewell; Robb promises Bran won't die; Jon lies about Catelyn being kind
-9. **Jon retrieves the package from the armory** — He picks up a wrapped package and crosses the covered bridge to the Keep
-10. **Jon gives Arya Needle** — He presents a specially forged bravo's blade; shows her how to hold it; they agree to keep it secret from Sansa and Septa Mordane
-11. **Jon and Arya name the sword Needle** — Arya guesses the name based on Jon's hint about her favorite thing
-12. **Jon departs Winterfell** — He rides north; the memory of Arya's laughter warms him on the journey
+1. **Jon climbs to Bran's room** — Jon ascends the steps with Ghost, steeling himself to visit Bran one last time before departing.
+2. **Catelyn confronts Jon** — Lady Stark, who has maintained a constant vigil for close on a fortnight, coldly tells Jon to leave. Jon refuses and insists on seeing his brother.
+3. **Jon sees Bran's condition** — Jon looks down at the comatose Bran, whose body has wasted away — flesh gone, skin over bones, legs bent wrongly, eyes open but seeing nothing.
+4. **Jon says goodbye to Bran** — Jon speaks to Bran, apologizes for not coming sooner, begs him not to die, mentions Robb and the girls are waiting for him to wake.
+5. **Jon kisses Bran goodbye** — Jon brushes away tears, leans over, and kisses Bran on the lips as a farewell.
+6. **Catelyn reveals her guilt and grief** — She tells Jon she prayed to the seven in the sept for Ned to leave Bran at Winterfell, implying she feels her prayers caused the fall.
+7. **Catelyn's cruelty** — When Jon offers clumsy consolation, Catelyn snaps "I need none of your absolution, bastard." As Jon leaves, she calls him back by name for the first time and tells him "It should have been you," then collapses into weeping.
+8. **Jon says farewell to Robb** — In the courtyard, Robb affirms Bran will survive. Jon lies about Catelyn being kind. They embrace — "Farewell, Snow" / "And you, Stark."
+9. **Jon visits Arya** — Jon goes to the armory, picks up a package, crosses the covered bridge to the Keep, and finds Arya in her room struggling with packing while Nymeria fetches clothes for her.
+10. **Jon gives Arya Needle** — Jon presents a bravo's blade he had Mikken forge, shows her how to hold it. They name it "Needle" together.
+11. **Jon advises Arya** — He tells her to practice every day, watch fighters in the yard, run, ride, make herself strong — and never tell Sansa.
+12. **Jon departs Winterfell** — Jon leaves, warmed by the memory of Arya's laughter on the long ride north.
 
 ## Spatial Layout & Movement
 | Phase | Who | Position / Movement | Relative To | Notes |
 |-------|-----|---------------------|-------------|-------|
-| Advance | Jon, Ghost | Climbing steps to Bran's room | Winterfell interior | Jon hesitates at the landing |
-| Confrontation | Jon, Catelyn | Jon enters room, crosses to Bran's bedside keeping the bed between himself and Catelyn | Bran's sickroom | Catelyn sits beside Bran, does not physically block Jon |
-| Departure | Jon | Walks to the door; Catelyn calls him back; he turns and she delivers "It should have been you"; Jon leaves | Bran's sickroom | "A long walk down to the yard" |
-| Assembly | Robb, Grey Wind | In the middle of the yard, shouting commands | Winterfell yard | Wagons, horses, men everywhere |
-| Confrontation | Jon, Robb | Jon finds Robb in the yard; they talk and embrace | Winterfell yard | |
-| Advance | Jon | Walks to the armory, picks up package, crosses covered bridge to the Keep | Armory → covered bridge → Keep | Short walk |
-| Arrival | Jon, Ghost | Enters Arya's room | Arya's room in the Keep | Nymeria reacts to Ghost's scent |
-| Concealment | Arya | Checks the hall, sets Nymeria to guard outside, closes the door | Arya's room | Secrecy for the gift |
-| Departure | Jon | Leaves Arya's room, rides north | Winterfell → northward | Memory of Arya's laughter warms him |
+| Opening | Jon, Ghost | Climbing steps inside the castle | Bran's room above | Hesitant, afraid |
+| Arrival | Jon | Enters Bran's room from the landing | Catelyn at bedside | Keeps the bed between himself and Catelyn |
+| Confrontation | Jon, Catelyn | Jon at Bran's bedside; Catelyn holding Bran's hand | Across the bed from each other | Jon takes Bran's other hand |
+| Departure | Jon | Leaves Bran's room, walks down to the yard | "A long walk down" | Emotionally devastated |
+| Assembly | Robb, Grey Wind | In the yard among wagons, wolves, and horses | Winterfell courtyard | Robb directing departure preparations |
+| Advance | Jon | Leaves Robb; walks to the armory; crosses covered bridge to the Keep | Armory → covered bridge → Keep | Picks up the wrapped sword |
+| Arrival | Jon, Ghost | Enters Arya's room | Arya packing with Nymeria | Nymeria yelps at Ghost's scent |
+| Concealment | Arya | Checks the hall; posts Nymeria as guard; closes door | Arya's room | Secret gift exchange |
+| Departure | Jon | Leaves Arya's room; departs Winterfell | Riding north | Memory of Arya's laughter on the ride |
 
 ## Information Revealed
 | Information | How Revealed | Known To (Characters) | Known To (Reader Only?) |
 |-------------|-------------|----------------------|------------------------|
-| Catelyn has not left Bran's bedside for close on a fortnight | Narration | Winterfell household (common knowledge implied) | No |
-| Catelyn feeds Bran a honey, water, and herb mixture to sustain him | Narration | Catelyn | No |
-| Bran's direwolf has not yet been named | Narration | Jon | No |
-| Catelyn prayed seven times to the seven-faced god for Ned to leave Bran at Winterfell | Catelyn's dialogue | Jon, Catelyn | No |
-| Catelyn has never called Jon by his name before | Jon's internal narration | Jon | Yes — Jon's private realization |
-| Catelyn has never cried in front of Jon before | Jon's internal narration | Jon | Yes — Jon's private observation |
-| Jon had Mikken forge a bravo's blade specially for Arya | Jon's dialogue | Jon, Arya | Yes — secret from others |
-| Bravos in Pentos, Myr, and the Free Cities use slim swords like Needle | Jon's dialogue | Jon, Arya | No |
-| King's Landing is a thousand times the size of Winterfell | Jon's dialogue (may be hyperbole) | Jon, Arya | No |
-| Arya was not allowed out to say goodbye | Arya's dialogue | Arya | No |
+| Catelyn has kept vigil at Bran's bedside for close on a fortnight without leaving the room | Narration | Jon, household (implied) | No |
+| Bran's physical condition — severely wasted, legs bent wrongly, eyes open but unseeing, alive but barely | Jon's direct observation | Jon, Catelyn | No |
+| Bran's direwolf is still unnamed — Bran hadn't had time to name it before the fall | Narration | Jon | No |
+| Catelyn prayed in the sept seven times to the seven faces of god for Ned to leave Bran at Winterfell | Catelyn tells Jon | Jon, Catelyn | No |
+| Catelyn feels Jon should have been the one to fall instead of Bran | Catelyn tells Jon directly | Jon, Catelyn | No |
+| Catelyn has never before called Jon by his name | Narration | Jon | No |
+| Jon has never seen Catelyn cry before | Narration | Jon | No |
+| Jon had Mikken forge a bravo-style sword for Arya | Jon tells/shows Arya | Jon, Arya | No |
+| The sword is named Needle | Jon and Arya name it together | Jon, Arya | No |
+| The sword must be hidden from Septa Mordane and Sansa | Jon and Arya agree | Jon, Arya | No |
+| Jon is departing for the Wall with Benjen Stark | Dialogue, narration | General knowledge among the household | No |
+| Ned's party is simultaneously departing south for King's Landing | Context of Arya's packing, Robb's comment about black | General knowledge | No |
+| Catelyn feeds Bran a mixture of honey, water, and herbs to keep him alive | Narration | Catelyn, household (implied) | No |
 
 ## Dialogue of Note
 | Speaker | Listener | Quote/Paraphrase | Context |
 |---------|----------|------------------|---------|
-| Catelyn | Jon | "What are you doing here?" | Flat, emotionless voice; first words to Jon upon noticing him |
-| Jon | Catelyn | "He's my brother." | Defiant response when Catelyn tries to send him away |
-| Catelyn | Jon | "I went to the sept and prayed seven times to the seven faces of god that Ned would change his mind and leave him here with me. Sometimes prayers are answered." | Catelyn reveals guilt — she prayed for Bran to stay and now he has, in the worst way |
-| Jon | Catelyn | "It wasn't your fault." | Awkward attempt at comfort |
-| Catelyn | Jon | "I need none of your absolution, bastard." | Venomous rejection; eyes "full of poison" |
-| Catelyn | Jon | "It should have been you." | Called him by name for the first time; then turns away weeping |
-| Jon | Robb | "You Starks are hard to kill." | Separating himself from the family — "you Starks" not "we" |
-| Robb | Jon | "The next time I see you, you'll be all in black." | Farewell; referencing Night's Watch black |
-| Robb | Jon | "Farewell, Snow." | Using Jon's bastard name as affectionate farewell |
-| Jon | Robb | "And you, Stark. Take care of Bran." | Matching Robb's use of surname |
-| Jon | Arya | "I had Mikken make this special. The bravos use swords like this in Pentos and Myr and the other Free Cities." | Explaining Needle's design |
-| Jon | Arya | "First lesson. Stick them with the pointy end." | Teaching moment; Arya whaps him with the flat of the blade in response |
-| Jon, Arya | (together) | "… don't … tell … Sansa!" | Shared joke; they know each other well enough to say it in unison |
-| Jon, Arya | (together) | "Needle!" | Naming the sword together — Arya's favorite thing |
-| Jon | Arya | "Different roads sometimes lead to the same castle." | Comforting Arya about their separation |
+| Catelyn | Jon | "What are you doing here?" | First words, flat and emotionless — she does not recognize him at first |
+| Catelyn | Jon | "You've said it. Now go away." | Rejecting Jon's attempt to say goodbye to Bran |
+| Catelyn | Jon | "I told you to leave. We don't want you here." | Cold rejection; "something cold moved in her eyes" |
+| Jon | Catelyn | "He's my brother." | Jon's defiant assertion of his bond with Bran |
+| Catelyn | Jon | "I prayed for it … I went to the sept and prayed seven times to the seven faces of god that Ned would change his mind and leave him here with me. Sometimes prayers are answered." | Catelyn reveals the source of her guilt — she prayed for Bran to stay, and now he is broken |
+| Catelyn | Jon | "I need none of your absolution, bastard." | Response to Jon's attempt to comfort her; eyes "full of poison" |
+| Catelyn | Jon | "It should have been you." | The cruelest line — Catelyn wishes Jon had fallen instead of Bran |
+| Robb | Jon | "He's not going to die. I know it." | Robb's confidence about Bran's survival |
+| Jon | Robb | "You Starks are hard to kill." | Jon's response — note the distancing "You Starks" rather than "We Starks" |
+| Robb | Jon | "The next time I see you, you'll be all in black." | Reference to Night's Watch black |
+| Jon | Robb | "It was always my color." | Jon's self-deprecating humor about bastard status / outsider identity |
+| Robb | Jon | "Farewell, Snow." | Parting words — use of bastard surname as affectionate |
+| Jon | Robb | "And you, Stark. Take care of Bran." | Mirror response; entrusting Bran to Robb |
+| Jon | Arya | "I had Mikken make this special. The bravos use swords like this in Pentos and Myr and the other Free Cities." | Explaining the sword's design |
+| Jon | Arya | "First lesson. Stick them with the pointy end." | Playful instruction; becomes a recurring phrase |
+| Jon | Arya | "King's Landing is a true city, a thousand times the size of Winterfell." | Encouraging Arya about opportunities to practice |
+| Jon, Arya | Each other | "… don't … tell … Sansa!" | Said in unison — shared understanding of the sisters' dynamic |
+| Jon, Arya | Each other | "Needle!" | Said together when naming the sword — Arya's favorite thing |
+| Jon | Arya | "Different roads sometimes lead to the same castle. Who knows?" | Comforting Arya about their separation |
 
 ## POV Character's Internal State
-- **Emotional state:** Grief, fear, anger, defiance, tenderness, and ultimately warmth. Jon is emotionally wrung out by the encounter with Catelyn and the sight of Bran, but recovers some joy through his farewell with Arya.
-- **Primary preoccupation:** Saying goodbye — this may be the last time he sees Bran, Robb, or Arya. He is acutely aware of finality.
-- **Key decisions made:** Defies Catelyn to see Bran despite her hostility; lies to Robb about Catelyn being kind; gives Arya Needle in secret.
-- **Self-deception flags:** Jon tells Robb that Catelyn "was very kind" — a deliberate lie to protect Robb from the truth. Jon also tells himself "He was not going to let himself be sad" after the Arya visit, suppressing his grief.
+- **Emotional state:** Profoundly conflicted — fear (of seeing Bran, of Catelyn), grief (Bran's condition, leaving Winterfell), anger (at Catelyn's cruelty), defiance (refusing to leave Bran's room), tenderness (with Bran, Arya), forced cheerfulness (with Robb, Arya), devastation after Catelyn's "It should have been you." The chapter arcs from fear → grief → anger → numbness → warmth.
+- **Primary preoccupation:** Saying goodbye to his siblings, especially Bran whom he may never see again. The finality of departure — "trying not to think that this might be the last time ever."
+- **Key decisions made:** Defies Catelyn to see Bran; lies to Robb about Catelyn's treatment; gives Arya the secret sword; departs for the Wall.
+- **Self-deception flags:** Jon tells Robb that Catelyn "was very kind" — a deliberate lie to protect Robb from the truth and perhaps to protect himself from reliving it. Jon resolves "He was not going to let himself be sad" after the Arya scene — suppressing his grief for the farewell.
 
 ## Relationships Observed
 | Character A | Relationship | Character B | Evidence |
 |-------------|-------------|-------------|----------|
-| Jon | Hostile rejection by | Catelyn | She tells him to leave, calls him "bastard," says "It should have been you" |
-| Jon | Brotherly love for | Bran | Comes despite fear; apologizes; kisses him goodbye; begs him not to die |
-| Jon | Brotherly love with | Robb | Fierce embrace; mutual farewell using surnames affectionately ("Snow"/"Stark") |
-| Jon | Deep affection for | Arya | Gives her Needle; they share jokes; she showers him with kisses; her laughter warms him |
-| Arya | Deep affection for | Jon | Throws arms around him; afraid he'd left without goodbye; "I wish you were coming with us" |
-| Jon | Bonded with | Ghost | Ghost pads silently beside him; nuzzles his hand when Jon is afraid; Jon takes courage from Ghost |
-| Arya | Bonded with | Nymeria | Nymeria helps her pack; Arya sets her to guard the door |
+| Jon | Brotherly love / deep bond | Bran | Visits despite fear; cries; kisses him goodbye; "Don't die, Bran. Please." |
+| Jon | Excluded outsider / target of hostility | Catelyn | She refuses to let him see Bran; calls him "bastard"; says "It should have been you" |
+| Catelyn | Hostile rejection | Jon | Has never called him by name before; cold, emotionless, then poisonous, then devastatingly cruel |
+| Catelyn | Devoted, desperate mother | Bran | Fortnight-long vigil; feeds him herself; has not left the room; has barely slept |
+| Jon | Close, affectionate brothers | Robb | Fierce embrace; "Farewell, Snow" / "And you, Stark"; Jon trusts Robb with Bran's care |
+| Robb | Brotherly concern for Jon | Jon | Notices something is wrong after Jon's visit to Catelyn; relieved when Jon says she was kind |
+| Jon | Deep affection / closest sibling bond | Arya | Special gift; shared humor; physical affection (hugs, kisses); "I will miss you, little sister" |
+| Arya | Adoration / deep bond | Jon | Throws arms around his neck; "I was afraid you were gone"; "I wish you were coming with us"; showers him with kisses |
+| Jon | Self-identifies as outsider to Stark family | Himself | "You Starks are hard to kill" — distancing language; considers himself a future Sworn Brother rather than a Stark |
+| Jon | Anticipation / respect | Benjen Stark | References him as "Uncle Benjen" / "Uncle Ben"; following him to the Wall |
+| Ghost | Loyal companion / emotional support | Jon | Pads beside him; nuzzles his hand when Jon is afraid |
+| Nymeria | Obedient companion | Arya | Fetches clothes; guards the hallway on command |
 | Nymeria | Wary of | Ghost | Sits on haunches and yelps when she smells Ghost |
-| Catelyn | Devoted to | Bran | Has not left his bedside for a fortnight; feeds him herself; barely sleeps |
-| Jon | Outsider status with | Stark family | "You Starks are hard to kill" — excludes himself; Catelyn reinforces with "bastard" and "It should have been you" |
-| Jon | Protective secrecy with | Arya | The sword is a secret from Sansa and Septa Mordane |
-| Robb | Growing authority | Winterfell household | Shouting commands; seems to have grown; Bran's fall and his mother's collapse have made him stronger |
-| Catelyn | Guilt/grief | The gods | Prayed seven times for Bran to stay; now tormented that her prayers were "answered" through his fall |
-| Jon | Lies to protect | Robb | Says Catelyn was "very kind" to shield Robb |
-| Arya | Antagonistic relationship with | Septa Mordane | Septa makes her refold clothes; Arya mocks her; fears she'll confiscate the sword |
+| Grey Wind | Loyal companion | Robb | At Robb's side in the yard |
+| Arya | Antagonistic / chafing | Septa Mordane | Mocks her packing instructions; must hide sword from her |
+| Arya | Conspiratorial exclusion | Sansa | Jon and Arya agree Sansa must not learn about the sword — shared understanding |
+| Catelyn | Guilt / religious devotion | The Seven (Faith) | Prayed seven times to the seven faces of god; believes her prayers may have led to Bran's fate |
+| Robb | Growing into authority | Winterfell household | Shouting commands; seems to have grown stronger since Bran's fall and his mother's collapse |
+| Bran's direwolf (unnamed) | Bond with | Bran | Howling outside Bran's window while Bran lies comatose |
 
 ## Unanswered Questions
 | Question | Raised By | Context |
 |----------|-----------|---------|
-| Will Bran survive and wake? | Jon's plea, Robb's assurance | Bran is comatose, emaciated, but still breathing |
-| What is the name of Bran's direwolf? | Narration | "The wolf that Bran had not had time to name" — still unnamed |
-| Will Jon and Arya see each other again? | Jon's farewell | "Different roads sometimes lead to the same castle" |
-| Why was Arya not allowed out to say goodbye? | Arya's statement | She says "they wouldn't let me out" — unclear who or exactly why beyond packing |
-| Will Arya be able to keep Needle hidden? | Jon and Arya's discussion | Arya worries Septa Mordane will confiscate it |
+| Will Bran survive and wake? | The chapter's central emotional question | Bran is comatose; Robb insists he'll live; Jon begs him not to die |
+| Why has Catelyn never called Jon by his name before? | Narration | "She had never called him by his name before" — implies a deep, lifelong refusal to acknowledge him |
+| Will Arya be able to keep Needle hidden? | Jon and Arya's discussion | Septa Mordane would confiscate it; Sansa must not know |
+| What is Bran's unnamed direwolf doing? | Jon's observation | The wolf howls outside Bran's window — some connection to the comatose boy implied |
 
 ## Raw Entity List
+
 ### Characters
-Jon Snow, Ghost, Catelyn Stark, Bran Stark, Robb Stark, Grey Wind, Arya Stark, Nymeria, Benjen Stark, Ned Stark (referenced), Sansa Stark (referenced), Septa Mordane (referenced), Mikken (referenced)
+- Jon Snow
+- Ghost (direwolf)
+- Catelyn Stark (Lady Stark, Catelyn Tully Stark)
+- Bran Stark
+- Robb Stark
+- Grey Wind (direwolf)
+- Arya Stark
+- Nymeria (direwolf)
+- Bran's unnamed direwolf
+- Ned Stark (Eddard Stark) — referenced
+- Benjen Stark — referenced
+- Sansa Stark — referenced
+- Septa Mordane — referenced
+- Mikken — referenced
 
 ### Locations
-Winterfell, Bran's sickroom, Winterfell yard, Winterfell stables, Winterfell armory, the Keep, covered bridge (armory to Keep), Arya's room, the sept (Winterfell), the Wall, King's Landing, Pentos, Myr, the Free Cities
+- Winterfell (Bran's room, the yard/courtyard, the armory, the covered bridge, the Keep, Arya's room, the stables, the sept, the castle gates)
+- The Wall
+- King's Landing
+- Pentos
+- Myr
+- The Free Cities (general reference)
 
-### Artifacts
-Needle (bravo's blade, grey leather scabbard, blue steel), Ice (referenced by name), polished ironwood chest
+### Houses
+- House Stark
+- House Tully (implied via "Catelyn Tully Stark")
 
-### Houses/Factions
-House Stark, Night's Watch (Jon departing to join)
+### Factions & Organizations
+- Night's Watch (Jon is about to become a Sworn Brother)
+
+### Religions & Faiths
+- Faith of the Seven (Catelyn prayed in the sept to the seven faces of god)
+
+### Cultures & Peoples
+- Bravos / Free City swordsmen (referenced as users of thin swords)
+- Southron (Septa Mordane's reference to "a proper southron lady")
+
+### Artifacts & Objects
+- Needle (bravo's blade — soft grey leather scabbard, deep blue steel, slim design)
+- Ice (named sword — referenced by Arya as an example of named swords)
+- Polished ironwood chest (Arya's packing chest)
+
+### In-world Texts & Songs
+None
+
+### Magic & Phenomena
+None explicitly described, though Bran's unnamed direwolf howling outside his window while he lies comatose may hint at a connection.
+
+### Wars & Conflicts
+None
+
+### Titles & Offices
+- Sworn Brother of the Night's Watch (Jon's anticipated status)
+- Septa (Septa Mordane's title)
+
+### Other
+None

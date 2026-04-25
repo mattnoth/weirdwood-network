@@ -7,249 +7,290 @@
 - **pov_chapter_number:** Catelyn VIII
 - **first_available:** AGOT Catelyn VIII
 - **location_primary:** Moat Cailin
-- **location_secondary:** White Harbor (referenced), Winterfell (referenced), Riverrun (referenced), the Eyrie (referenced), King's Landing (referenced), the Twins (referenced), Casterly Rock (referenced), Greywater Watch (referenced), Harrenhal (referenced), Golden Tooth (referenced), Mummer's Ford (referenced)
-- **approximate_timeline:** After Ned's arrest and Robert's death; Robb has called the banners and marched south to Moat Cailin; Catelyn has traveled from the Eyrie to White Harbor and then overland to Moat Cailin
-- **time_markers:** "less than a fortnight past" (battle at Golden Tooth); "a year ago he had been a boy"; Robb is fifteen, will be sixteen "soon enough"; Edmure grew first whiskers at sixteen; Lord Wyman described as "near sixty years"; Moat Cailin's wooden keep "rotted away a thousand years past"
-- **chapter_summary:** Catelyn arrives at Moat Cailin with Ser Brynden Tully and the Manderly forces, reuniting with Robb and his army. She privately counsels Robb on leadership, discusses Sansa's captivity and Arya's unknown fate, and learns the military situation in the riverlands. Robb presents his battle plan to split the host at the Twins, and Catelyn advises him to give command of the eastern force to Roose Bolton rather than the Greatjon. She announces she will ride to Riverrun rather than return to Winterfell, as her father may be dying and her brother is besieged.
+- **location_secondary:** White Harbor (referenced), Winterfell (referenced), Riverrun (referenced), the Eyrie (referenced), King's Landing (referenced), Casterly Rock (referenced)
+- **approximate_timeline:** After Ned's arrest in King's Landing and Robert's death; Robb has called the banners and assembled his host at Moat Cailin; less than a fortnight after the battle at the Golden Tooth
+- **time_markers:** "Less than a fortnight past" (battle at Golden Tooth); Robb is fifteen, will be sixteen "soon enough"; Edmure grew his first whiskers at sixteen; a year ago Robb was fighting with wooden swords; the wooden keep of Moat Cailin rotted away "a thousand years past"
+- **chapter_summary:** Catelyn arrives at Moat Cailin with the Manderly forces and her uncle Ser Brynden Tully. She reunites with Robb, who commands the northern host of eighteen thousand men. They discuss Ned's imprisonment, Sansa's captive letter, Arya's unknown fate, Lysa's refusal to help, and the military situation in the riverlands. Robb presents his battle plan to split his host, sending foot down the kingsroad and horse across the Twins, and Catelyn advises him to give command of the eastern force to Roose Bolton rather than the Greatjon. Catelyn announces she will ride to Riverrun rather than return to Winterfell.
 
 ## Physical Environment
 - **Weather:** Drifting fog obscuring banners at distance
-- **Season indicators:** None explicitly stated
-- **Time of day:** Not specified; chapter spans what appears to be daytime arrival and an extended meeting
-- **Lighting:** Smoky peat fires; a peat fire smoking in a black hearth inside the Gatehouse Tower
-- **Sounds:** The Greatjon's "bass rumble"; Roose Bolton's "small voice" that makes larger men quiet to listen
-- **Smells:** Smoky peat fires (implied)
-- **Notable sensory details:** Soft, wet ground underfoot; green-and-black fields of mud; boggy soil throughout Moat Cailin's environs
+- **Season indicators:** None explicit
+- **Time of day:** Not specified; arrival and extended conference
+- **Lighting:** Not specified beyond fog-diffused light
+- **Sounds:** The Greatjon's "bass rumble"; general quiet when Grey Wind alerts the lords to Catelyn's presence
+- **Smells:** Smoky peat fires
+- **Notable sensory details:** Soft, wet ground under horses' hooves; green-and-black fields of mud; drafty hall with smoking peat fire in a black hearth
 
 ## Characters Present
 | Character | Role in Chapter | First Appearance? | Notes |
 |-----------|----------------|-------------------|-------|
-| Catelyn Stark | POV character | No | Arrives at Moat Cailin with Manderly forces and Brynden Tully |
-| Ser Wylis Manderly | Escort commander | Yes (uncertain — verify) | Older son of Lord Wyman; remains behind to see to camp |
-| Ser Wendel Manderly | Escort, presents respects | Yes (uncertain — verify) | Younger son of Lord Wyman; rides on with Catelyn to Robb |
-| Ser Brynden Tully | Catelyn's uncle, military advisor | No | Called "the Blackfish"; has left Lysa's service for Catelyn's |
-| Robb Stark | Commander of the Northern host | No | Fifteen years old, has grown a beard; seated in the Gatehouse Tower |
-| Grey Wind | Direwolf companion to Robb | No | Lying near the fire; notices Catelyn before Robb does; golden eyes |
-| Roose Bolton | Lord bannerman, military advisor | No | Lord of the Dreadfort; pale eyes, small voice, disturbing look |
-| Greatjon Umber | Lord bannerman | No | Loud, aggressive; wants to attack Tywin directly |
-| Ser Helman Tallhart | Lord bannerman | No | First to pay respects to Catelyn |
-| Galbart Glover | Lord bannerman | No | Present at war council |
-| Robett Glover | Lord bannerman | No | Present at war council |
-| Theon Greyjoy | Ward of Winterfell | No | Last to pay respects; lingers until Catelyn dismisses him |
-| Lord Hornwood | Lord bannerman | Yes (uncertain — verify) | Described as "ever-obliging"; leads bannermen out when dismissed |
+| Catelyn Stark | POV character | No | Arrives at Moat Cailin with Manderly forces |
+| Ser Brynden Tully | Escort/advisor | No | Called "the Blackfish"; has left Lysa's service for Catelyn's |
+| Ser Wylis Manderly | Commander of Manderly levies | Yes (uncertain — verify) | Older than Catelyn; fat, quiet, formal; remains behind to set camp |
+| Ser Wendel Manderly | Manderly knight | Yes (uncertain — verify) | Younger brother of Wylis; fat, loud, boisterous |
+| Robb Stark | Commander of the northern host | No | Fifteen years old; has grown a beard; seated in Gatehouse Tower |
+| Grey Wind | Robb's direwolf | No | Lying near the fire; golden eyes; alerts room to Catelyn's presence |
+| Roose Bolton | Lord bannerman | No | Lord of the Dreadfort; small voice, pale eyes; advises on strategy |
+| Greatjon Umber | Lord bannerman | No | Advocates attacking Tywin directly; bass rumble voice |
+| Ser Helman Tallhart | Lord bannerman | Yes (uncertain — verify) | First to kneel to Catelyn |
+| Galbart Glover | Lord bannerman | Yes (uncertain — verify) | Present at the war council |
+| Robett Glover | Lord bannerman | Yes (uncertain — verify) | Present at the war council |
+| Theon Greyjoy | Ward/companion to Robb | No | Last to kneel; lingers when others leave; dismissed by Catelyn |
+| Lord Hornwood | Lord bannerman | Yes (uncertain — verify) | "Ever-obliging"; leads bannermen out when Catelyn dismisses them |
 
 ## Character Appearances
 | Character | Hair | Eyes | Build/Height | Scars/Marks | Clothing/Armor | Weapons Worn | Distinguishing Features | Age (if stated) |
 |-----------|------|------|-------------|-------------|----------------|-------------|------------------------|-----------------|
-| Ser Wylis Manderly | | | Extremely fat, nearly too heavy to mount his horse | | Garments spotted with food stains | | Ostentatious walrus mustache; bald head | Older than Catelyn |
-| Ser Wendel Manderly | | | Extremely fat (would be fattest man Catelyn had known, but for father and brother) | | Garments spotted with food stains | | Ostentatious walrus mustache; bald head; loud and boisterous | Older than Catelyn |
-| Lord Wyman Manderly | | | Massive belly, "fingers fat as sausages" | | | | Enormously stout, too heavy to sit a horse | Near sixty |
-| Robb Stark | Auburn, shaggy mane; chin hairs redder than head hair | | Seems taller than when Catelyn last saw him | | | Dagger (used as map weight) | Wisps of beard/stubble | Fifteen |
+| Ser Wylis Manderly | Bald ("head as bare as a baby's bottom") | | Extremely fat ("only a few eels short of not being able to mount his own horse") | | Garments spotted with food stains | | Ostentatious walrus mustache | Older than Catelyn |
+| Ser Wendel Manderly | Bald ("head as bare as a baby's bottom") | | Extremely fat ("would have been the fattest man she'd ever known" if not for father and brother) | | Garments spotted with food stains | | Ostentatious walrus mustache | Older than Catelyn |
+| Lord Wyman Manderly | | | Massive; grown too stout to sit a horse; massive belly; fingers fat as sausages | | | | | Near sixty years |
+| Robb Stark | Auburn, shaggy mane; chin hairs redder than hair on his head | | Seems taller than when Catelyn left | | | Dagger (used to weigh down map) | Stubbled jaw; wisps of new beard | Fifteen |
 | Grey Wind | | Golden eyes | Bigger than a wolf ought to be; great grey beast | | | | | |
-| Roose Bolton | | Curiously pale, almost without color | | | | | Disturbing look | |
+| Roose Bolton | | Curiously pale eyes, almost without color | | | | | Disturbing look | |
 
 ## Characters Referenced
 | Character | Context of Reference | Referenced By |
 |-----------|---------------------|---------------|
-| Lord Wyman Manderly | Remained at White Harbor to see to defenses; too stout to ride; met Catelyn's ship | Narration/Catelyn |
-| Eddard (Ned) Stark | Arrested in King's Landing; Catelyn recalls his words about Moat Cailin; his teaching of Robb | Catelyn, Robb |
-| Sansa Stark | Held captive by Lannisters; her letter discussed | Robb, Catelyn |
-| Arya Stark | No mention of her in Sansa's letter; fate unknown | Robb, Catelyn |
-| Cersei Lannister | Wrote Sansa's letter (per Catelyn's reading); described as "wise enough" to keep hostages alive | Catelyn |
-| Tyrion Lannister | Catelyn previously held him captive but he was freed | Roose Bolton, Catelyn |
-| Tywin Lannister | Leading a Lannister army from the south; marching toward Harrenhal; burning as he goes | Robb, Greatjon, various lords |
-| Jaime Lannister (the Kingslayer) | Defeated lords at Golden Tooth; pursuing toward Riverrun | Robb |
-| Robert Baratheon | Recently died; won his crown at the ruby ford | Catelyn, Robb |
-| Edmure Tully | Catelyn's brother; sent Lords Vance and Piper to hold the pass; now at Riverrun; Robb compared to him | Catelyn, Robb |
-| Hoster Tully | Catelyn's father; may be dying at Riverrun; never trusted Lord Frey | Catelyn |
-| Lysa Arryn | Catelyn's sister; refused to call the Vale banners; threatened Catelyn over Lord Robert | Catelyn |
-| Lord Robert Arryn | Catelyn offered to foster him at Winterfell; Lysa refused | Catelyn |
+| Lord Wyman Manderly | Remained at White Harbor; too stout to ride; vowed his sons would escort Catelyn | Catelyn (narration) |
+| Eddard (Ned) Stark | Imprisoned in King's Landing; his arrest is known; taught Robb well; once assured Catelyn of Moat Cailin's strength | Catelyn, Robb |
+| Sansa Stark | Held hostage by Lannisters; wrote a letter dictated by Cersei | Robb, Catelyn |
+| Arya Stark | No mention in Sansa's letter; fate unknown | Robb, Catelyn |
+| Cersei Lannister | Behind Sansa's letter; wise enough to know she needs hostages for peace | Catelyn |
+| Tyrion Lannister | Catelyn held him captive but no longer; freed with help from Lysa | Roose Bolton, Catelyn |
+| Lysa Arryn | Catelyn's sister; refused to call the Vale banners; threatened Catelyn with the Moon Door over fostering Robert | Catelyn, Robb |
+| Robert Arryn | Catelyn offered to foster him at Winterfell; Lysa refused violently | Catelyn (narration) |
+| Rickard Karstark | Named as a bannerman present; Catelyn mentions him as potential commander | Catelyn |
+| Tywin Lannister | Bringing a second Lannister army from the south; marching toward Harrenhal; closed the kingsroad | Robb |
+| Jaime Lannister (the Kingslayer) | Defeated Lords Vance and Piper at the Golden Tooth; pursuing toward Riverrun | Robb |
+| Lord Vance | Sent to hold the pass at Golden Tooth; slain | Robb |
+| Lord Piper | Sent to hold the pass; falling back to Riverrun | Robb |
+| Edmure Tully | Catelyn's brother; sent Vance and Piper to the pass; surrounded by foes at Riverrun | Robb, Catelyn |
+| Ser Raymun Darry | Rode with the force sent under the king's banner; killed at the Mummer's Ford | Robb |
+| Lord Erik/Derik (Beric Dondarrion) | Southron lordling given command of the force under the king's banner; may have escaped | Robb |
+| Gregor Clegane | Took the royal force in the rear at Mummer's Ford | Robb |
+| Howland Reed | Ned's old friend at Greywater Watch; Robb has sent word to him | Robb |
+| Lord Frey | Controls the crossing at the Twins; Catelyn's father's bannerman; not trusted by Hoster Tully | Robb, Catelyn |
+| Hoster Tully | Catelyn's father; may be dying behind the walls of Riverrun | Catelyn |
+| Robert Baratheon | Dead; won his crown at the ruby ford; his death reported to Catelyn at White Harbor | Catelyn, Robb |
 | Ser Rodrik Cassel | On his way north from White Harbor; named castellan of Winterfell by Catelyn | Catelyn |
-| Maester Luwin | Wise counsellor but unskilled in war | Catelyn |
-| Lord Walder Frey | "The Late Lord Frey"; controls the crossing at the Twins; Catelyn's father's bannerman but not trusted | Catelyn |
-| Lord Vance | Sent to hold the pass at Golden Tooth; slain by Jaime | Robb |
-| Lord Piper | Sent to hold the pass; falling back to Riverrun after defeat | Robb |
-| Ser Raymun Darry | Rode with the force sent against Tywin under the king's banner; killed at Mummer's Ford | Robb |
-| Lord Erik/Derik | Southron lordling given command of force by Ned; may have escaped Mummer's Ford | Robb |
-| Gregor Clegane | Took the force in the rear at Mummer's Ford | Robb |
-| Howland Reed | Ned's old friend at Greywater Watch; Robb sent word to him | Robb |
-| Rickard Karstark | Lord bannerman; Catelyn names him among those who could command | Catelyn |
-| Rhaegar Targaryen | His children's fate invoked as warning | Catelyn |
+| Maester Luwin | Wise counsellor but unskilled in war; at Winterfell | Catelyn |
+| Rhaegar Targaryen | His children's fate referenced as warning | Catelyn |
 
 ## Locations
 | Location | Role | First Appearance? |
 |----------|------|-------------------|
-| Moat Cailin | Primary setting; Robb's army encamped here | No |
-| Gatehouse Tower | Where Robb has made his seat; Stark banner flies alone atop it | Yes (uncertain — verify) |
-| Drunkard's Tower | One of three surviving towers; Karstark sunburst displayed | Yes (uncertain — verify) |
-| Children's Tower | One of three surviving towers; Umber giant in chains displayed | Yes (uncertain — verify) |
-| White Harbor | Where Catelyn landed and received news | No |
-| Winterfell | Robb's home, being held by Ser Rodrik | No |
-| Riverrun | Besieged seat of House Tully; Catelyn's destination | No |
+| Moat Cailin | Primary setting; Robb's camp and command post | No |
+| Gatehouse Tower | Where Robb has his seat; one of three surviving towers | Yes (uncertain — verify) |
+| Drunkard's Tower | One of three surviving towers; Karstark banner flies here | Yes (uncertain — verify) |
+| Children's Tower | One of three surviving towers; Umber banner flies here | Yes (uncertain — verify) |
+| White Harbor | Where Catelyn landed; where Lord Wyman met her | No |
+| Winterfell | Referenced as home; Ser Rodrik to hold it as castellan | No |
+| Riverrun | Besieged or threatened; Edmure there with bannermen | No |
 | The Eyrie | Where Catelyn parted from Lysa | No |
-| The Twins | Crossing on the Green Fork; controlled by Lord Frey | No |
-| King's Landing | Where Ned and Sansa are held captive | No |
-| Casterly Rock | Referenced; "naught but stone at its heart" | No |
-| Greywater Watch | Howland Reed's seat; Robb sent word there | No |
+| King's Landing | Where Ned is imprisoned | No |
+| The Golden Tooth | Battle site; pass where Jaime defeated Vance and Piper | Yes (uncertain — verify) |
+| Mummer's Ford | Where Gregor Clegane ambushed the royal force at the Red Fork | Yes (uncertain — verify) |
+| The Twins | Lord Frey's castle controlling the Green Fork crossing | No |
+| Greywater Watch | Howland Reed's seat in the Neck | Yes (uncertain — verify) |
 | Harrenhal | Tywin marching toward it | No |
-| Golden Tooth | Battle fought in hills below it | No |
-| Mummer's Ford | Where Ned's force was ambushed trying to cross the Red Fork | No |
-| The ruby ford | Where Robert won his crown; no crossing above it until the Twins | No |
-| The Neck | Causeway running through it; crannogmen territory | No |
-| Green Fork | River; Robb plans to cross at the Twins | No |
-| Red Fork | River; Lord Derik's force crossed it before being ambushed | No |
-| The kingsroad | Road south; Tywin has closed it off | No |
+| Casterly Rock | "Naught but stone at the heart of Casterly Rock" | No |
+| The Neck | Swampy region; crannogmen territory | No |
+| The ruby ford | Where Robert won his crown; no crossing above it on the Green Fork until the Twins | Yes (uncertain — verify) |
+| The Red Fork | River crossing where Lord Derik was ambushed | Yes (uncertain — verify) |
+| The Green Fork | River in Robb's battle plan; to be crossed at the Twins | Yes (uncertain — verify) |
 | The Bloody Gate | Lysa will not stir beyond it | No |
+| The Moon Door | Lysa threatened to push Catelyn through it | No |
 
 ## Location Descriptions
 | Location | Defensive Features | Architecture/Layout | Interior Details | Scale | Condition | Surrounding Terrain/Geography | Notable Sensory Details |
 |----------|--------------------|--------------------|-----------------| ------|-----------|------------------------------|------------------------|
-| Moat Cailin | Three surviving towers command the causeway from all sides; enemy must pass between them; impenetrable bogs with quicksands, suckholes, and snakes; moat full of lizard-lions; walls slimy with moss; archers in towers can fire on attackers wading through waist-deep black muck | Immense blocks of black basalt, each large as a crofter's cottage; once had twenty towers and a curtain wall as high as Winterfell's; wooden keep long gone | Gatehouse Tower: drafty hall with massive stone table (basalt slab), peat fire in black hearth | Once twenty towers; now three remain | Ruinous; curtain wall collapsed; blocks scattered and half-sunk in boggy soil; wooden keep rotted away a thousand years past; Children's Tower has lost half its crown; Drunkard's Tower leans precariously; all three towers green with moss | Soft boggy soil; green-and-black fields of mud; log-and-plank road laid across the mud; stony outcrop of higher ground nearby | Smoky peat fires; drifting fog; drafty interior |
-| Gatehouse Tower | A few feet of standing wall to either side | | Drafty hall; massive stone table; peat fire smoking in a black hearth; maps and papers on the table | | Sound enough structurally; a tree growing out between stones on north side, gnarled limbs with ropy white blankets of ghostskin | | Drafty, smoky |
-| Drunkard's Tower | | | | | Leaning severely, "like a man about to spew a bellyful of wine into the gutter" | Located in the bog where south and west walls once met | |
-| Children's Tower | | | | Tall and slender | Lost half its crown; crenellations look as if bitten off by some great beast, rubble scattered across the bog | | |
+| Moat Cailin | Three surviving towers command the causeway from all sides; impenetrable bogs with quicksands, suckholes, and snakes; moat full of lizard-lions; walls slimy with moss; any attacker must wade through waist-deep black muck; archers in towers can fire on attackers from multiple angles | Three surviving towers of original twenty; immense blocks of black basalt each as large as a crofter's cottage, scattered and tumbled, half-sunk in boggy soil; curtain wall once as high as Winterfell's; wooden keep entirely rotted away | | Once had twenty towers; curtain wall as high as Winterfell's; now reduced to three towers | Ruinous; curtain wall fallen; wooden keep gone "a thousand years past" | Soft boggy soil; green-and-black fields of mud; log-and-plank road laid across mud | Smoky peat fires; fog |
+| Gatehouse Tower | A few feet of standing wall to either side | | Drafty hall with peat fire smoking in a black hearth; massive stone table used for maps and papers | Sounds enough structurally | Green with moss; tree growing out between stones on north side with gnarled limbs festooned with ropy white blankets of ghostskin | | Drafty; smoking fire |
+| Drunkard's Tower | | Leaning "like a man about to spew a bellyful of wine into the gutter" | | | Leaning severely; green with moss | Located in the bog where south and west walls once met | |
+| Children's Tower | | Tall and slender; lost half its crown; crenellations look bitten away by a great beast; rubble scattered across the bog | | Tall, slender | Partially collapsed crown; green with moss | In the bog | |
 
 ## Artifacts & Objects of Significance
 | Artifact | Context | First Appearance? | Current Holder/Location |
 |----------|---------|-------------------|------------------------|
-| Sansa's letter | Written under Lannister control; Catelyn identifies it as Cersei's words, not Sansa's; contains veiled threats | Yes | Robb has it at Moat Cailin; crumpled repeatedly |
-| Robb's battle map | Ragged piece of old leather covered with lines of faded paint; one end curled from being rolled | Yes | On the stone table in the Gatehouse Tower |
-| Robb's dagger | Used to weigh down the map | No | Robb |
-| King's banner | Carried by the force Ned sent against Tywin; disregarded by the Lannisters at Mummer's Ford | No | Referenced |
+| Sansa's letter | Written under Lannister direction; praises their treatment; no mention of Arya; Robb has crumpled it repeatedly | Yes | Robb at Moat Cailin |
+| Battle map | Ragged piece of old leather covered with lines of faded paint; one end curled from being rolled | Yes | Robb's table at Moat Cailin |
+| Robb's dagger | Used to weigh down the map | Yes | Robb |
+| Stark banners | White with grey direwolf; flying atop all three towers; flying alone on Gatehouse Tower | No | Moat Cailin |
+| Karstark banner | Sunburst; hung from Drunkard's Tower beneath the direwolf | Yes (uncertain — verify) | Drunkard's Tower |
+| Umber banner | Giant in shattered chains; on Children's Tower | Yes (uncertain — verify) | Children's Tower |
+| Manderly banners | White merman with trident in hand, rising from a blue-green sea | Yes (uncertain — verify) | Manderly forces |
+| Hornwood banner | Bull moose, brown on dark orange field | Yes (uncertain — verify) | Lord's pavilion at Moat Cailin |
 
 ## Food & Drink
 | Meal/Occasion | Food Items Described | Drink | Who Is Eating/Drinking | Where | Preparation/Presentation Notes |
 |--------------|---------------------|-------|----------------------|-------|-------------------------------|
-| Army provisions | Hardbread, salt beef | | Army at large | Wagons in camp near Moat Cailin | Wagons heavy-laden |
-| Catelyn and Robb's private meeting | Cheese | Ale | Catelyn | Gatehouse Tower, at the stone table | Catelyn fills a horn of ale and sips it |
+| Camp supplies | Hardbread and salt beef | | Army provisions | Wagons in the camp | Heavy-laden wagons |
+| Private meeting between Catelyn and Robb | Cheese | Ale | Catelyn (sips ale) | Gatehouse Tower hall, at the table | Catelyn fills a horn of ale |
+| Lord Wyman's self-deprecating remark | Eels (referenced as his habitual food) | | Lord Wyman (referenced) | White Harbor (referenced) | "If I had thought to see war again in my lifetime, I should have eaten a few less eels" |
 
 ## Hospitality & Guest Right
 | Event | Type | Host | Guest(s) | Details |
 |-------|------|------|----------|---------|
-| Manderly escort to Robb | safe_conduct | Lord Wyman Manderly | Catelyn Stark | Lord Wyman met Catelyn's ship at White Harbor and pledged his sons would see her safe to Robb |
-| Catelyn offered to foster Robert Arryn | shelter_offered | Catelyn (on behalf of Winterfell) | Lord Robert Arryn | Catelyn offered to take Robert to Winterfell; Lysa furiously refused and threatened the Moon Door |
+| Catelyn's arrival at White Harbor | shelter_offered | Lord Wyman Manderly | Catelyn Stark | Wyman met her ship and provided escort to Robb |
+| Lysa's threat to Catelyn | refusal_to_host | Lysa Arryn | Catelyn Stark | "If you try to steal my son, you will leave by the Moon Door" — hostile end to Catelyn's stay at the Eyrie |
+| Catelyn offered to foster Robert Arryn | shelter_offered | Catelyn Stark | Robert Arryn (proposed) | Offered to take Robert to Winterfell; rejected by Lysa with threat |
 
 ## Events & Actions
-1. **Catelyn spots Stark banners** — Riding through fog, Catelyn sees white banners with the direwolf sigil and is relieved she is not too late.
-2. **Approach to Moat Cailin** — Ser Brynden, Catelyn, Ser Wendel, and the Manderly levies (~1,500 men) ride toward the encampment.
-3. **Outriders greet the Manderly force** — Robb's outriders spot the Manderly merman banners and hail them warmly.
-4. **Ser Wylis makes camp** — Ser Wylis halts on high ground to establish camp while Ser Wendel rides on with Catelyn and Brynden.
-5. **Catelyn observes Moat Cailin's ruins** — She notes the three surviving towers, the collapsed walls, and the defensive terrain; explains the stronghold's strategic value to Brynden.
-6. **Catelyn enters the Gatehouse Tower** — She finds Robb with Roose Bolton and the Greatjon, consulting maps. Grey Wind notices her before Robb does.
-7. **Reunion with Robb** — Robb greets Catelyn emotionally; she restrains herself from embracing him before his lords, noting his beard and growth.
-8. **Bannermen pay respects** — Ser Helman Tallhart, the Glovers, the Greatjon, and others greet Catelyn; Theon Greyjoy is the last.
-9. **Catelyn introduces Brynden and Wendel** — She presents the Blackfish (who has left Lysa's service) and Ser Wendel Manderly.
-10. **Roose Bolton asks about Tyrion** — Catelyn admits Tyrion has been freed, blaming Lysa; she reveals her bitter parting from the Eyrie.
-11. **Catelyn dismisses the lords** — She sends the bannermen away, including a lingering Theon, to speak privately with Robb.
-12. **Private counsel: Robb's command** — Catelyn considers sending Robb home but decides against it, recognizing it would undermine his authority with his lords.
-13. **Discussion of Ned and the girls** — Robb and Catelyn discuss Ned's arrest, Robert's death, Sansa's captive letter, and Arya's silence; Catelyn identifies Sansa's letter as Cersei's work.
-14. **Lysa's refusal confirmed** — Catelyn reports that Lysa will not call the Vale banners; only Brynden has come.
-15. **Robb's vulnerability** — Robb breaks down briefly, admitting his uncertainty and fear for his father and sister.
-16. **Catelyn's counsel on strategy** — She tells Robb he must fight; retreat or capitulation will doom them. She invokes the fate of Rhaegar's children as warning.
-17. **Military situation briefing** — Robb reports: Jaime defeated Vance and Piper at the Golden Tooth; Tywin's force ambushed Ned's men at Mummer's Ford; Ser Raymun Darry killed; Tywin marching toward Harrenhal.
-18. **Robb presents his battle plan** — He proposes leaving archers at Moat Cailin, marching south, then splitting the host: foot down the kingsroad as a feint, horse crossing at the Twins to ride to Riverrun.
-19. **Catelyn advises on command** — She steers Robb away from giving the Greatjon command of the eastern host, toward choosing Roose Bolton for his "cold cunning."
-20. **Catelyn refuses to return to Winterfell** — Instead of going home, she declares she must ride to Riverrun, where her father may be dying and her brother Edmure is surrounded.
+1. **Catelyn spots Stark banners** — Riding through fog, Catelyn sees white banners with the Stark direwolf and gives thanks to the gods that she is not too late.
+2. **Arrival with Manderly forces** — Catelyn, Ser Brynden, Ser Wylis, and Ser Wendel lead approximately 1,500 Manderly men to Robb's camp at Moat Cailin.
+3. **Outriders greet the Manderlys** — Robb's outriders spot the Manderly merman banner and guide them to a dry camp site on high ground.
+4. **Catelyn observes Moat Cailin's ruins** — She and Ser Brynden ride past the three surviving towers and the remnants of the ancient fortress, with Catelyn explaining its defensive value to her skeptical uncle.
+5. **Catelyn enters the Gatehouse Tower** — She finds Robb with his bannermen studying maps; Grey Wind alerts the room to her presence before Robb sees her.
+6. **Reunion with Robb** — Catelyn restrains herself from embracing Robb in front of his lords, noting his new beard and increased height.
+7. **Lords pay respects** — Ser Helman Tallhart, the Glovers, the Greatjon, and others kneel to Catelyn; Theon Greyjoy is last.
+8. **Catelyn introduces Ser Brynden and Ser Wendel** — Robb welcomes the Blackfish and Wendel; asks after Ser Rodrik.
+9. **Catelyn explains Ser Rodrik's assignment** — She has named him castellan of Winterfell.
+10. **Roose Bolton asks about Tyrion** — Catelyn admits she no longer holds the Imp; blames Lysa for helping him go free.
+11. **Catelyn dismisses the bannermen** — She sends the lords away to speak with Robb privately; specifically dismisses the lingering Theon.
+12. **Private conversation about Ned** — Robb confirms he knows about Robert's death and Ned's arrest; asks about the girls.
+13. **Sansa's letter discussed** — Catelyn reads the letter and identifies it as Cersei's work; notes the absence of any mention of Arya.
+14. **Lysa's refusal discussed** — Robb learns only Brynden has come from the Vale; Lysa will not send aid.
+15. **Robb's moment of vulnerability** — He breaks down briefly, expressing fear about the Lannisters killing Ned and Sansa if the army marches.
+16. **Catelyn's strategic counsel** — She argues that fighting is the only option; retreating or surrendering will both lead to ruin; holding power forces Cersei to keep hostages alive for potential peace.
+17. **Robb reports on the riverlands fighting** — He describes the Lannister victories at the Golden Tooth and Mummer's Ford, and Tywin's march toward Harrenhal.
+18. **Robb presents his battle plan** — He proposes splitting the host: foot down the kingsroad as a decoy for Tywin, horse crossing at the Twins to ride to Riverrun's relief.
+19. **Catelyn advises on command selection** — She steers Robb away from giving the Greatjon command of the diversionary force, pointing out that the role needs "cold cunning, not courage."
+20. **Robb selects Roose Bolton** — He names Bolton to command the eastern host, saying "That man scares me."
+21. **Catelyn refuses to return to Winterfell** — When Robb offers an escort home, Catelyn declares she must go to Riverrun, where her father is dying and her brother is besieged.
 
 ## Spatial Layout & Movement
 | Phase | Who | Position / Movement | Relative To | Notes |
 |-------|-----|---------------------|-------------|-------|
-| Advance | Catelyn, Ser Brynden, Ser Wylis, Ser Wendel, Manderly levies (~1,500) | Riding toward Stark banners through fog | Moat Cailin | Banners visible in distance |
-| Arrival | All | Reach outrider screen east of camp | Moat Cailin outskirts | Outriders spot Manderly banners |
-| Assembly | Ser Wylis, Manderly foot | Halt on high ground to make camp | Moat Cailin | Fires laid, horses tended |
-| Advance | Catelyn, Ser Brynden, Ser Wendel | Ride on through camp toward Gatehouse Tower | Past smoky peat fires, horse lines, provision wagons, Hornwood pavilion | Log-and-plank road across mud |
-| Arrival | Catelyn, Ser Brynden, Ser Wendel | Enter Gatehouse Tower, drafty hall | Robb, Bolton, Greatjon at stone table; Grey Wind by the fire | Grey Wind crosses room to Catelyn |
-| Assembly | Bannermen | Cross room to pay respects to Catelyn | Stone table in Gatehouse Tower | Tallhart first, Theon last |
-| Dispersal | All bannermen, including Theon | Leave the hall when Catelyn dismisses them | Gatehouse Tower | Lord Hornwood leads them out |
-| Confrontation | Catelyn, Robb | Private meeting at the stone table | Gatehouse Tower | Robb moves to hearth, Grey Wind beside him; returns to table for map |
+| Advance | Catelyn, Ser Brynden, Manderly forces (~1,500) | Riding toward Stark banners through fog | Moat Cailin | Ser Brynden trots briskly ahead |
+| Arrival | Manderly forces | Led to high ground for camp | East of Moat Cailin | Outriders guide them |
+| Advance | Catelyn, Ser Brynden, Ser Wendel | Ride past peat fires, horse lines, supply wagons | Through the camp toward Gatehouse Tower | Ser Wylis remains behind with main force |
+| Arrival | Catelyn, Ser Brynden, Ser Wendel | Enter Gatehouse Tower hall | Robb's command post | Grey Wind notices Catelyn first |
+| Assembly | Robb, Roose Bolton, Greatjon, other lords | Seated around massive stone table with maps | Gatehouse Tower hall | Peat fire smoking, drafty |
+| Dispersal | Bannermen | Bow and leave the hall | Gatehouse Tower | Led out by Lord Hornwood; Theon lingers, then leaves |
+| Confrontation | Catelyn, Robb | Private conversation at the table | Gatehouse Tower hall | Robb moves to hearth at emotional moments |
 
 ## Information Revealed
 | Information | How Revealed | Known To (Characters) | Known To (Reader Only?) |
 |-------------|-------------|----------------------|------------------------|
-| Lord Wyman Manderly is too stout to ride to war | Narration/Catelyn's recollection | Catelyn | No |
-| Manderly force: ~1,500 men (20+ knights, 200 mounted lances, rest foot with spears/pikes/tridents) | Narration | Catelyn | No |
-| Robb has posted outriders to the east as well as south | Catelyn's observation | Catelyn | No |
-| Catelyn has named Ser Rodrik castellan of Winterfell | Catelyn tells Robb | Catelyn, Robb | No |
+| Manderly forces total ~1,500 men: 20+ knights, as many squires, 200 mounted lances/swordsmen/freeriders, rest foot with spears/pikes/tridents | Narration | Catelyn | No |
+| Lord Wyman too stout to ride; remained at White Harbor | Narration/dialogue | Catelyn | No |
+| Robb has posted eastern outriders despite Lannisters expected from south | Catelyn's observation | Catelyn | No |
+| Robb's total force is eighteen thousand men | Robb tells Catelyn | Robb, Catelyn | No |
+| Moat Cailin has three surviving towers of original twenty | Narration | Catelyn, Brynden | No |
+| Robert Baratheon is dead; Ned has been arrested | Background knowledge; Lord Manderly told Catelyn at White Harbor | Catelyn, Robb, the lords | No |
+| Sansa is held hostage; her letter is dictated by Cersei | Catelyn deduces from letter's content | Catelyn, Robb | No |
+| Arya is unaccounted for — no mention in Sansa's letter | Robb and Catelyn note the absence | Catelyn, Robb | No |
 | Tyrion Lannister has been freed | Catelyn admits to the lords | All present | No |
-| Lysa refused to call the Vale banners and threatened Catelyn over fostering Robert | Catelyn's recollection and report | Catelyn, Robb | No |
-| Robert Baratheon is dead and Ned has been arrested | Prior knowledge discussed | Catelyn, Robb | No |
-| Sansa's letter is actually Cersei's work; Sansa is a hostage | Catelyn reads and interprets the letter | Catelyn, Robb | No |
-| No mention of Arya in Sansa's letter; her fate unknown | Robb points out | Catelyn, Robb | No |
-| Battle at Golden Tooth: Lord Vance slain, Lord Piper in retreat toward Riverrun, Jaime in pursuit | Robb reports (from letter/intelligence) | Robb, Catelyn | No |
-| Ned sent a force under "Lord Erik or Derik" with the king's banner; ambushed at Mummer's Ford; Gregor Clegane attacked from the rear; Ser Raymun Darry killed; most Winterfell men killed | Robb reports | Robb, Catelyn | No |
-| Tywin has closed the kingsroad and is marching north toward Harrenhal, burning as he goes | Robb reports | Robb, Catelyn | No |
+| Lysa refused to call the Vale banners | Catelyn tells Robb | Catelyn, Robb | No |
+| Lysa threatened Catelyn with the Moon Door over fostering Robert | Catelyn's internal narration | Catelyn only | Yes (within this chapter) |
+| Battle at Golden Tooth: Jaime defeated Vance and Piper; Lord Vance slain | Robb reports from letters/reports | Robb, Catelyn | No |
+| Ned sent a force under king's banner; ambushed at Mummer's Ford by Tywin and Gregor Clegane; Ser Raymun Darry killed | Robb reports | Robb, Catelyn | No |
+| Tywin has closed the kingsroad and marches north toward Harrenhal, burning as he goes | Robb reports | Robb, Catelyn | No |
 | Robb has sent word to Howland Reed at Greywater Watch | Robb tells Catelyn | Robb, Catelyn | No |
-| Robb's army is 18,000 men | Robb states | Robb, Catelyn | No |
-| Robb's battle plan: split the host at the Twins, foot south on kingsroad as feint, horse cross to west bank toward Riverrun | Robb presents to Catelyn | Robb, Catelyn | No |
-| Roose Bolton will command the eastern/infantry host | Decided during Robb-Catelyn discussion | Robb, Catelyn | No |
-| Catelyn's father Hoster Tully may be dying at Riverrun | Catelyn states | Catelyn | No |
+| Robb's battle plan: split host at the Neck, foot south on kingsroad, horse cross at the Twins | Robb tells Catelyn | Robb, Catelyn | No |
+| Robb will command the horse; Roose Bolton will command the foot/diversionary force | Decided during the conversation | Robb, Catelyn | No |
+| Catelyn has named Ser Rodrik castellan of Winterfell | Catelyn tells Robb | Robb, Catelyn | No |
+| Hoster Tully may be dying | Catelyn states at chapter's end | Catelyn | No |
 
 ## Dialogue of Note
 | Speaker | Listener | Quote/Paraphrase | Context |
 |---------|----------|------------------|---------|
-| Ser Wylis Manderly | Catelyn | "They await our coming, my lady, as my lord father swore they would." | Confirming Robb's army is at Moat Cailin |
-| Lord Wyman Manderly | Catelyn | "If I had thought to see war again in my lifetime, I should have eaten a few less eels." | Explaining his inability to ride; slapping his belly |
-| Catelyn | Ser Brynden | Describes Moat Cailin's defensive strengths: three towers commanding the causeway, impenetrable bogs, quicksands, lizard-lions, archers in overlapping fields of fire, and "ghosts, cold vengeful spirits of the north" | Brynden initially dismisses the ruin |
-| Ser Brynden | Catelyn | "Remind me not to linger here. Last I looked, I was southron myself." | Humorous response to ghost warning |
-| Robb | Catelyn | "The Blackfish. Thank you for joining us, ser. We need men of your courage." | Greeting Brynden Tully |
-| Greatjon Umber | Catelyn | "We'll shove our swords up Tywin Lannister's bunghole soon enough, begging your pardons, and then it's on to the Red Keep to free Ned." | Blunt reassurance about the war |
-| Roose Bolton | Catelyn | "It is said that you hold Lord Tywin's dwarf son as captive. Have you brought him to us? I vow, we should make good use of such a hostage." | Bolton's small voice making larger men quiet |
-| Catelyn | The lords | "The gods saw fit to free him, with some help from my fool of a sister." | Admitting Tyrion's release; contempt for Lysa |
-| Lysa Arryn | Catelyn (recalled) | "Sister or no, if you try to steal my son, you will leave by the Moon Door." | Lysa's threat when Catelyn offered to foster Robert |
-| Catelyn | Robb | "Edmure was sixteen when he grew his first whiskers." | Teasing/connecting Robb's beard to family |
-| Robb | Catelyn | "They are not Starks." | Why he could not give command to his bannermen |
-| Catelyn | Robb | "You named yourself battle commander. Command." | Telling Robb he cannot appear indecisive before Bolton and Karstark |
-| Catelyn | Robb | "If you lose, there is no hope for any of us. They say there is naught but stone at the heart of Casterly Rock. Remember the fate of Rhaegar's children." | Warning Robb of the stakes |
-| Robb | Catelyn | "Then I will not lose." | Resolving to fight |
-| Catelyn | Robb | "Your father is not fearless. He is brave, but that is very different." | Steering Robb away from giving the Greatjon command |
-| Robb | Catelyn | "Roose Bolton. That man scares me." | Choosing Bolton for cold cunning |
-| Catelyn | Robb | "Then let us pray he will scare Tywin Lannister as well." | Endorsing the choice |
-| Catelyn | Robb | "I am not going to Winterfell... My father may be dying behind the walls of Riverrun. My brother is surrounded by foes. I must go to them." | Refusing to return home; tears blurring her vision |
+| Lord Wyman Manderly | Catelyn | "If I had thought to see war again in my lifetime, I should have eaten a few less eels." | Self-deprecating humor at White Harbor, slapping his belly |
+| Robb | Catelyn | "They are not Starks." | When Catelyn suggests he could have given command to a bannerman |
+| Greatjon Umber | Catelyn | "Winterfell is safe. We'll shove our swords up Tywin Lannister's bunghole soon enough, begging your pardons, and then it's on to the Red Keep to free Ned." | Boisterous confidence |
+| Roose Bolton | Catelyn | "It is said that you hold Lord Tywin's dwarf son as captive. Have you brought him to us? I vow, we should make good use of such a hostage." | Quiet, calculating inquiry about Tyrion |
+| Catelyn | The lords | "I did hold Tyrion Lannister, but no longer... The gods saw fit to free him, with some help from my fool of a sister." | Public admission of losing Tyrion |
+| Lysa Arryn | Catelyn | "Sister or no, if you try to steal my son, you will leave by the Moon Door." | Threat at the Eyrie when Catelyn offered to foster Robert |
+| Catelyn | Robb | "This is Cersei's letter, not your sister's. The real message is in what Sansa does not say." | Analyzing the hostage letter |
+| Robb | Catelyn | "I brought this whole army together, eighteen thousand men, but I don't... I'm not certain..." | Moment of vulnerability; boy beneath the commander |
+| Catelyn | Robb | "If you lose, there is no hope for any of us. They say there is naught but stone at the heart of Casterly Rock. Remember the fate of Rhaegar's children." | Refusing to soften the truth |
+| Robb | Catelyn | "Then I will not lose." | Resolving his fear into determination |
+| Catelyn | Robb | "Be certain, or go home and take up that wooden sword again. You cannot afford to seem indecisive in front of men like Roose Bolton and Rickard Karstark." | Challenging him to command |
+| Catelyn | Robb | "You want cold cunning, I should think, not courage." | Steering him toward Bolton over the Greatjon |
+| Robb | Catelyn | "Roose Bolton. That man scares me." | Choosing his diversionary commander |
+| Catelyn | Robb | "Then let us pray he will scare Tywin Lannister as well." | Approving the choice |
+| Catelyn | Robb | "I am not going to Winterfell... My father may be dying behind the walls of Riverrun. My brother is surrounded by foes. I must go to them." | Refusing escort home; choosing Riverrun |
 
 ## POV Character's Internal State
-- **Emotional state:** A complex mixture of maternal fear, pride, relief, grief, and determination. Catelyn is desperately afraid for Robb but proud of his growth. She restrains herself from embracing him before his lords. She fights to appear strong but breaks down when announcing her decision to go to Riverrun. She feels contempt and bitterness toward Lysa.
-- **Primary preoccupation:** Robb's readiness to lead; the safety of Ned, Sansa, and Arya; the military threat from both Lannister armies; her dying father at Riverrun
-- **Key decisions made:** (1) Not to send Robb back to Winterfell, recognizing it would destroy his authority; (2) To steer Robb toward choosing Bolton over the Greatjon for the eastern command; (3) To ride to Riverrun instead of returning to Winterfell
-- **Self-deception flags:** Catelyn tells herself she has "put despair and fear aside, as if they were garments she did not choose to wear" — then realizes "she had donned them after all." She recognizes her own emotional suppression breaking down.
+- **Emotional state:** Desperate fear for Robb, Ned, Sansa, and Arya, mingled with reluctant pride in her son's growth; grief over her parting with Lysa; controlled composure in front of the lords that breaks at the chapter's end with sudden tears
+- **Primary preoccupation:** Assessing whether Robb is ready to command; ensuring he understands the stakes and makes sound strategic decisions; worry about hostage family members
+- **Key decisions made:** Decides not to send Robb back to Winterfell despite wanting to keep him safe; steers Robb toward Bolton for the diversionary command; decides to go to Riverrun instead of Winterfell
+- **Self-deception flags:** "She had put despair and fear aside, as if they were garments she did not choose to wear … but now she saw that she had donned them after all" — recognizes she has been suppressing her emotions rather than truly mastering them
 
 ## Relationships Observed
 | Character A | Relationship | Character B | Evidence |
 |-------------|-------------|-------------|----------|
-| Catelyn | mother, advisor | Robb | Counsels him on command, strategy, and leadership; restrains maternal affection in front of lords |
-| Robb | son, commander seeking approval | Catelyn | Looks to her for answers; seeks her praise on his battle plan; defers to her advice |
-| Grey Wind | bonded companion | Robb | Lies near Robb; rubs head against his leg; Robb scratches him under the jaw |
-| Grey Wind | recognition | Catelyn | Notices her before Robb does; crosses room to her; sniffs her hand; nips playfully |
-| Catelyn | contempt, estrangement | Lysa Arryn | Calls Lysa "my fool of a sister"; bitter about Lysa's refusal to help and her threat |
-| Ser Brynden Tully | loyal service | Catelyn | Left Lysa's service for Catelyn's; rides at her side throughout |
-| Robb | distrust | Theon Greyjoy | Catelyn says Theon "would not be my choice"; Robb does not contradict this |
-| Catelyn | dismissive | Theon Greyjoy | Pointedly sends him away with the other lords when he lingers |
-| Ser Wylis/Wendel Manderly | dutiful service | Catelyn/Robb | Escort Catelyn to Robb as their father pledged |
-| Roose Bolton | unease-inducing subordinate | Robb | Robb says "That man scares me"; Bolton's pale eyes and quiet voice are disturbing |
-| Greatjon Umber | aggressive bannerman | Robb | Wants to smash Tywin directly; Catelyn steers Robb away from giving him key command |
-| Catelyn | grief, duty | Hoster Tully | Her father may be dying; drives her decision to ride to Riverrun |
-| Catelyn | concern | Edmure Tully | Her brother is surrounded by foes at Riverrun |
-| Robb | echoes of father | Eddard Stark | Catelyn hears echoes of Ned in Robb's voice; Robb takes the more dangerous task, as Ned would |
-| Catelyn | recalled trust | Eddard Stark | Remembers Ned's assurance about Moat Cailin's defensive value |
+| Catelyn | Mother of | Robb | Emotional reunion; restrains herself from embracing him in front of lords; "You are my firstborn" |
+| Catelyn | Sister of (hostile) | Lysa Arryn | "My fool of a sister"; Lysa threatened her with Moon Door |
+| Catelyn | Niece of | Ser Brynden Tully | Rides with him; he has left Lysa's service for hers |
+| Catelyn | Daughter of | Hoster Tully | "My father may be dying behind the walls of Riverrun" |
+| Catelyn | Sister-in-law of | Edmure Tully | "My brother is surrounded by foes" |
+| Robb | Commands | Northern bannermen | Seated at head of war council; they defer to him |
+| Robb | Bonded with | Grey Wind | Scratches him under the jaw; wolf rubs head against his leg; wolf lies near him |
+| Grey Wind | Protective of | Robb | Alerts room to Catelyn's arrival; positioned near Robb at hearth |
+| Grey Wind | Accepts | Catelyn | Sniffs her hand; nips her fingers playfully |
+| Ser Wylis/Wendel Manderly | Sons of | Lord Wyman Manderly | Escorting Catelyn on father's orders; share his build |
+| Lord Wyman Manderly | Sworn to | Robb/House Stark | Sends his sons and levies to join Robb's host |
+| Theon Greyjoy | Ward of / companion to | Robb | Lingers after lords are dismissed; Catelyn specifically sends him away |
+| Catelyn | Distrusts | Theon Greyjoy | "You might even have sent Theon, though he would not be my choice" |
+| Catelyn | Distrusts | Lord Frey | "My father has never trusted him. Nor should you." |
+| Roose Bolton | Serves under | Robb | Advises at war council; selected to command diversionary force |
+| Catelyn | Unsettled by | Roose Bolton | Notes his pale eyes, small voice, disturbing look |
+| Robb | Fears (respects) | Roose Bolton | "That man scares me" |
+| Greatjon Umber | Loyal to | House Stark | Boisterous confidence about freeing Ned |
+| Robb | Advised by | Catelyn | She steers his battle plan and command choices |
+| Catelyn | Sees Ned in | Robb | "She could hear echoes of Ned in his voice" |
+| Catelyn | Sees Tully in | Robb | "He looks like a Tully"; beard makes him look like Edmure |
+| Ser Rodrik Cassel | Named castellan by | Catelyn | Sent to hold Winterfell |
+| Howland Reed | Old friend of | Ned Stark | "Father's old friend at Greywater Watch" |
+| Catelyn | Contempt for | Lysa Arryn | "My fool of a sister"; open contempt despite knowing she shouldn't |
 
 ## Unanswered Questions
 | Question | Raised By | Context |
 |----------|-----------|---------|
-| Where is Arya? | Robb, Catelyn | No mention of her in Sansa's letter; her fate is unknown |
-| Will Lord Frey allow passage at the Twins? | Robb, Catelyn | Catelyn warns Frey is not to be trusted; Robb's plan depends on crossing there |
-| Is Hoster Tully still alive? | Catelyn | She says he "may be dying behind the walls of Riverrun" |
-| Did Lord "Erik or Derik" survive the Mummer's Ford? | Robb | "No one is certain" whether he escaped |
-| Will the crannogmen of Greywater Watch answer Robb's call? | Robb | He has sent word to Howland Reed but no response mentioned |
-| What happened to Ned's guardsmen from Winterfell? | Robb | "Most of our men from Winterfell" were killed at Mummer's Ford |
+| Where is Arya? | Robb, Catelyn | No mention of Arya in Sansa's letter |
+| Will Robb's plan to split the host and cross at the Twins work? | Robb, Catelyn | Depends on Lord Frey granting passage |
+| Will Lord Frey allow passage across the Twins? | Catelyn | "My father has never trusted him" |
+| Did Lord Erik/Derik escape from the Mummer's Ford? | Robb | "This Lord Derik and a few others may have escaped, no one is certain" |
+| Is Hoster Tully actually dying? | Catelyn | "My father may be dying behind the walls of Riverrun" |
+| Will the crannogmen bleed the Lannisters if they come up the Neck? | Robb | Robb has sent word to Howland Reed |
+| What will the Lannisters do with Ned and Sansa? | Catelyn, Robb | Catelyn argues they're safe as long as Robb has power |
+| Will Catelyn reach Riverrun safely? | Catelyn | She declares her intention to go there at chapter's end |
 
 ## Raw Entity List
+
 ### Characters
-Catelyn Stark, Robb Stark, Grey Wind, Ser Brynden Tully (the Blackfish), Ser Wylis Manderly, Ser Wendel Manderly, Lord Wyman Manderly, Roose Bolton, Greatjon Umber, Ser Helman Tallhart, Galbart Glover, Robett Glover, Theon Greyjoy, Lord Hornwood, Eddard (Ned) Stark, Sansa Stark, Arya Stark, Cersei Lannister, Tyrion Lannister, Tywin Lannister, Jaime Lannister (the Kingslayer), Robert Baratheon, Edmure Tully, Hoster Tully, Lysa Arryn, Lord Robert Arryn, Ser Rodrik Cassel, Maester Luwin, Lord Walder Frey, Lord Vance, Lord Piper, Ser Raymun Darry, Lord Erik/Derik, Gregor Clegane, Howland Reed, Rickard Karstark, Rhaegar Targaryen
+Catelyn Stark, Robb Stark, Grey Wind, Ser Brynden Tully (the Blackfish), Ser Wylis Manderly, Ser Wendel Manderly, Lord Wyman Manderly, Roose Bolton, Greatjon Umber, Ser Helman Tallhart, Galbart Glover, Robett Glover, Theon Greyjoy, Lord Hornwood, Eddard (Ned) Stark, Sansa Stark, Arya Stark, Cersei Lannister, Tyrion Lannister, Lysa Arryn, Robert Arryn, Tywin Lannister, Jaime Lannister (the Kingslayer), Lord Vance, Lord Piper, Ser Raymun Darry, Lord Erik/Derik (a southron lordling), Gregor Clegane, Howland Reed, Lord Frey, Hoster Tully, Edmure Tully, Robert Baratheon, Ser Rodrik Cassel, Maester Luwin, Rickard Karstark, Rhaegar Targaryen
 
 ### Locations
-Moat Cailin, Gatehouse Tower, Drunkard's Tower, Children's Tower, White Harbor, Winterfell, Riverrun, the Eyrie, the Twins, King's Landing, Casterly Rock, Greywater Watch, Harrenhal, Golden Tooth, Mummer's Ford, the ruby ford, the Neck, Green Fork, Red Fork, the kingsroad, the Bloody Gate, the Red Keep, the Moon Door
+Moat Cailin, Gatehouse Tower, Drunkard's Tower, Children's Tower, White Harbor, Winterfell, Riverrun, the Eyrie, King's Landing, the Golden Tooth, Mummer's Ford, the Twins, Greywater Watch, Harrenhal, Casterly Rock, the Neck, the ruby ford, the Red Fork, the Green Fork, the kingsroad, the causeway, the Bloody Gate, the Moon Door, the Red Keep
 
-### Artifacts
-Sansa's letter, Robb's battle map (leather with faded paint), Robb's dagger, king's banner
+### Houses
+House Stark, House Manderly, House Tully, House Bolton, House Umber, House Tallhart, House Glover, House Hornwood, House Karstark, House Lannister, House Arryn, House Frey, House Greyjoy, House Vance, House Piper, House Darry, House Clegane, House Reed, House Baratheon, House Targaryen
 
-### Houses/Factions
-House Stark, House Manderly, House Tully, House Bolton, House Umber, House Tallhart, House Glover, House Hornwood, House Karstark, House Greyjoy, House Lannister, House Baratheon, House Arryn, House Frey, House Vance, House Piper, House Darry, House Clegane, House Reed, the children of the forest (legendary), crannogmen
+### Factions & Organizations
+None
+
+### Religions & Faiths
+"The gods" (invoked generically by Catelyn); "nameless gods" of the children of the forest (referenced in legend about Children's Tower)
+
+### Cultures & Peoples
+First Men (built Moat Cailin), children of the forest (legend of the Children's Tower and the hammer of the waters), crannogmen (Howland Reed's people in the Neck), smallfolk (composition of Robb's army: crofters, fieldhands, fishermen, sheepherders, sons of innkeeps and traders and tanners), sellswords and freeriders, southrons (Ser Brynden's joke)
+
+### Artifacts & Objects
+Sansa's letter (Cersei's dictation), Robb's battle map (old leather with faded paint), Robb's dagger, Stark banners (white with grey direwolf), Karstark banners (sunburst), Umber banners (giant in shattered chains), Manderly banners (white merman with trident, blue-green sea), Hornwood banner (brown bull moose on dark orange field), the king's banner (under which Ned's force rode)
+
+### In-world Texts & Songs
+None
+
+### Magic & Phenomena
+The hammer of the waters (legend: children of the forest called upon their nameless gods to send it at the Children's Tower); ghosts of Moat Cailin ("cold vengeful spirits of the north who hunger for southron blood" — said to haunt at night); lizard-lions (in the moat); ghostskin (ropy white moss on the Gatehouse Tower tree)
+
+### Wars & Conflicts
+War of the Five Kings (emerging — the military conflict between Stark/Tully and Lannister forces); Battle at the Golden Tooth (Jaime defeated Vance and Piper); Battle at Mummer's Ford (Tywin and Gregor ambushed the royal force); Robert's Rebellion (referenced via the ruby ford where Robert won his crown)
+
+### Titles & Offices
+Lord of the Dreadfort (Roose Bolton), castellan of Winterfell (Ser Rodrik, newly appointed), the Kingslayer (Jaime Lannister), the Blackfish (Ser Brynden Tully), liege lord (Robb to the Manderlys)
+
+### Other
+None

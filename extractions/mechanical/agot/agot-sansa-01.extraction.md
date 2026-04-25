@@ -6,241 +6,269 @@
 - **pov_character:** Sansa Stark
 - **pov_chapter_number:** Sansa I
 - **first_available:** AGOT Sansa I
-- **location_primary:** The Trident / kingsroad camp
-- **location_secondary:** Inn at the crossroads (area), banks of the Trident, clearing overlooking the river, the Neck (recalled)
-- **approximate_timeline:** During the journey south from Winterfell to King's Landing, while the royal party camps near the Trident
-- **time_markers:** Eddard left before dawn; the chapter takes place over the course of a single day; twelve days crossing the Neck (recalled); "last week" Arya found a haunted watchtower (recalled); Ser Ilyn has not spoken for fourteen years; Sansa and Joffrey are not to marry for "years and years"
-- **chapter_summary:** Sansa breaks her fast with Septa Mordane at an inn and learns she is invited to ride in the queen's wheelhouse. She fails to convince Arya to join her. When Sansa arrives at the wheelhouse, she encounters Ser Barristan Selmy, Lord Renly Baratheon, and Ser Ilyn Payne, who terrifies her. Joffrey rescues her from the awkward scene and takes her riding along the Trident. They discover Arya and Mycah practicing swordplay with sticks, and Joffrey threatens Mycah with his sword. Arya attacks Joffrey, Nymeria bites his sword arm, and Arya throws Lion's Tooth into the river before fleeing. Joffrey rejects Sansa's attempts to help him.
+- **location_primary:** The Trident / Kingsroad (inn and surrounding area)
+- **location_secondary:** Banks of the Trident, clearing overlooking the river, holdfast by the river, the Neck (recalled)
+- **approximate_timeline:** During the journey south from Winterfell to King's Landing; the royal party is encamped at a large inn near the Trident
+- **time_markers:** "left before dawn" (Eddard's departure); more than a week of anticipation for riding with the queen; twelve days crossing the Neck (recalled); "last week" Arya found a haunted watchtower (recalled); "these past fourteen years" since Ser Ilyn lost his tongue; the chapter spans a full day from breakfast through afternoon
+- **chapter_summary:** Sansa breaks her fast at the inn with Septa Mordane and tries unsuccessfully to get Arya to join them in the queen's wheelhouse. Riders from King's Landing arrive — Ser Barristan Selmy, Lord Renly Baratheon, and Ser Ilyn Payne — and Sansa is terrified by Ser Ilyn before Joffrey rescues her and she impresses the court with her knowledge of courtesies. Joffrey takes Sansa riding along the Trident, where they dine and drink wine at a holdfast. They discover Arya and Mycah practicing swordplay; Joffrey threatens Mycah with Lion's Tooth, Arya strikes Joffrey, and Nymeria attacks Joffrey, mauling his arm. Arya throws Lion's Tooth into the river and flees. When Sansa tends to the wounded Joffrey, he turns on her with contempt.
 
 ## Physical Environment
-- **Weather:** Warm air, heavy with the scent of flowers; a "glorious" and "magical" day
-- **Season indicators:** None explicitly stated
-- **Time of day:** Begins before dawn (Eddard's departure), breakfast time, then throughout the day
-- **Lighting:** Sunlight — silver chasings glitter in the sun, golden curls shining in the sun, blue steel flashes in the sun
-- **Sounds:** Shouts and curses and creak of wooden wheels as camp is broken down; wooden clattering (snack snack snack) of Arya and Mycah's stick-swords; heavy breathing and grunts; crack of wood splitting against Joffrey's head
-- **Smells:** Scent of flowers in the woods along the Trident; air in the Neck described as damp and clammy (recalled); Mycah smelled of the slaughtering block
-- **Notable sensory details:** Lady licks Sansa's fingers with a rough tongue, licks her cheek; wine makes Sansa dizzy; the woods have "a gentle beauty that Sansa had never seen in the north"
+- **Weather:** Warm; a "glorious day" with sun shining
+- **Season indicators:** Air warm and heavy with the scent of flowers; woods have "a gentle beauty" unlike the north
+- **Time of day:** Begins at breakfast (Eddard left before dawn); progresses through the full day
+- **Lighting:** Sunlight — silver chasings glitter in the sun; golden curls shining in the sun like a crown; blue steel flashing in the sun
+- **Sounds:** Shouts and curses of men breaking camp; creak of wooden wheels; wooden clattering (snack snack snack) of Arya and Mycah's practice swords; clack of wood on wood; heavy breathing and grunts
+- **Smells:** Scent of flowers in the air along the Trident; the Neck recalled as damp and clammy air; Mycah described as smelling of the slaughtering block
+- **Notable sensory details:** The Neck recalled — endless black bog, branches dripping with pale fungus, huge flowers in mud, quicksands, stagnant water pools; Lady licks Sansa's fingers with a rough tongue; Lady licks her cheek; wine makes Sansa dizzy; the feel of Joffrey's hand on her sleeve makes her heart beat faster
 
 ## Characters Present
 | Character | Role in Chapter | First Appearance? | Notes |
 |-----------|----------------|-------------------|-------|
 | Sansa Stark | POV character | Yes | Traveling south with the royal party; betrothed to Joffrey |
-| Lady | Sansa's direwolf companion | Yes | Delicate, well-behaved; growls at Ser Ilyn Payne and the Hound |
-| Septa Mordane | Governess to the Stark girls | No (uncertain — verify) | Instructs Sansa at breakfast; disapproves of Lady at the table |
-| Arya Stark | Sansa's sister | No | Wild, willful; practices swordplay with Mycah; attacks Joffrey |
-| Nymeria | Arya's direwolf | No | Matted grey fur; bites Joffrey's sword arm |
-| Joffrey Baratheon | Sansa's betrothed, the prince | No | Initially gallant, then cruel; threatens Mycah, attacks Arya |
-| Sandor Clegane (the Hound) | Joffrey's bodyguard | No (uncertain — verify) | Burns on his face; grasps Sansa's shoulders; rasping voice |
-| Ser Barristan Selmy | Lord Commander of the Kingsguard | Yes | Old, strong, graceful; arrives from King's Landing as honor guard |
-| Lord Renly Baratheon | King Robert's brother, councillor | Yes | Young (~20), handsome; witty and teasing |
-| Ser Ilyn Payne | The King's Justice | Yes | Gaunt, grim, tongueless; terrifies Sansa and Lady |
-| Cersei Lannister | The queen | No | Stands atop wheelhouse steps; directs Joffrey to comfort Sansa |
-| Mycah | Butcher's boy, Arya's friend | Yes | Thirteen, freckled, thick red hair; practices swordplay with Arya |
+| Lady | Sansa's direwolf companion | Yes | Delicate, well-mannered; growls at Ser Ilyn and Sandor Clegane |
+| Septa Mordane | Sansa and Arya's governess | No (uncertain — verify) | Breaks fast with Sansa; instructs girls on propriety |
+| Arya Stark | Sansa's younger sister | No | Wild, willful; practices swordplay with Mycah; strikes Joffrey |
+| Nymeria | Arya's direwolf | No | Matted grey fur; attacks Joffrey to defend Arya |
+| Mycah | Butcher's boy, Arya's friend | Yes | Thirteen, coarse freckled face, thick red hair; practices swords with Arya |
+| Joffrey Baratheon | Prince, Sansa's betrothed | No | Gallant then cruel; threatens Mycah; mauled by Nymeria |
+| Sandor Clegane (The Hound) | Joffrey's bodyguard | No (uncertain — verify) | Burned face; grabs Sansa's shoulders; dismissed by Joffrey |
+| Cersei Lannister | Queen | No | Receives the arriving knights; postpones wheelhouse ride |
+| Ser Barristan Selmy | Lord Commander of the Kingsguard | Yes | Old man in white enameled armor; gentle and courteous |
+| Lord Renly Baratheon | King's brother, councillor | Yes | Young, handsome; green armor with golden antlered helm; witty |
+| Ser Ilyn Payne | King's Justice | Yes | Gaunt, grim, pockmarked, tongueless; terrifies Sansa |
 
 ## Character Appearances
 | Character | Hair | Eyes | Build/Height | Scars/Marks | Clothing/Armor | Weapons Worn | Distinguishing Features | Age (if stated) |
 |-----------|------|------|-------------|-------------|----------------|-------------|------------------------|-----------------|
-| Sansa Stark | Long auburn, brushed until it shone | | | | Blue silks (nicest) | | | |
-| Arya Stark | Long, tangled; brown hair of the Starks | | Scrawny | Bruises on arms and shoulders — dark purple welts and faded green-and-yellow splotches | Riding leathers (same ones worn for days); soiled leathers | | Long horsey face; looks like Jon with the Stark coloring | |
-| Joffrey Baratheon | Golden curls; soft blond hair | | Tall | | Blue wool and black leather | Lion's Tooth — a longsword shrunken for a boy, gleaming blue steel, castle-forged, double-edged, leather grip, lion's-head pommel in gold | | Twelve |
-| Ser Barristan Selmy | Pale as his armor | | Strong and graceful | | White enameled scales with silver chasings and clasps; pure white cloak of the Kingsguard | | Old man | |
-| Lord Renly Baratheon | Jet-black, falling to shoulders | Laughing green eyes | Tall and powerfully made | | Steel plate of deep forest-green | Antlered helm with gold rack | Handsomest man Sansa had ever seen; clean-shaven | Near twenty |
-| Ser Ilyn Payne | Only a few wisps remaining, sprouting above his ears, grown long as a woman's | Pale colorless eyes; deepset | Gaunt | Pockmarked face | Iron-grey chainmail over boiled leather, plain and unadorned, aged and hard-used | Two-handed greatsword strapped to his back, stained leather hilt visible above right shoulder | Beardless; hollow cheeks; grim; not old | |
-| Sandor Clegane | | | | Burned face, ruined by fire | | | Mouth twisted in a terrible mockery of a smile; rasping voice | |
-| Mycah | Thick red hair | | Ungainly; a head taller than Arya | | | | Coarse, freckled face | Thirteen |
-| Nymeria | Matted grey fur | | | | | | | |
-| Lady | | | | | | | Delicate as a queen when taking food | |
+| Sansa Stark | Long auburn, brushed until it shone | | | | Nicest blue silks | | | |
+| Arya Stark | Long, tangled; brown hair of the Starks | | Scrawny | Bruises on arms and shoulders — dark purple welts and faded green-and-yellow splotches | Riding leathers (same worn yesterday and day before); soiled leathers | | Long "horsey" face; looks like Jon Snow | Two years younger than Sansa |
+| Joffrey Baratheon | Golden curls; soft blond hair | | Tall | | Blue wool and black leather; later soaked in blood | Lion's Tooth (longsword shrunken for a boy, gleaming blue steel, castle-forged, double-edged, leather grip, lion's-head pommel in gold) | | Twelve |
+| Ser Barristan Selmy | Pale as his armor | | Strong and graceful | | White enameled scales with silver chasings and clasps; pure white cloak of the Kingsguard | | Old man but vigorous | Old |
+| Lord Renly Baratheon | Jet-black, fell to shoulders | Laughing green eyes | Tall and powerfully made | | Deep forest-green steel plate armor | Sword (drawn when Lady growls) | Handsomest man Sansa had ever seen; clean-shaven; antlered helm with magnificent gold rack | Near twenty |
+| Ser Ilyn Payne | Only a few wisps remaining, sprouting above his ears, grown long as a woman's | Pale colorless eyes, deepset | Gaunt | Pockmarked face | Iron-grey chainmail over boiled leather, plain and unadorned, aged and hard-used | Two-handed greatsword strapped to back, stained leather hilt visible above right shoulder | Beardless; hollow cheeks; tongueless; grim; silent | Not old |
+| Sandor Clegane | | | | Burned face (ruin that fire had made of his face) | | | Mouth twisted in a terrible mockery of a smile; rasping voice | |
+| Mycah | Thick red hair | | Ungainly, a head taller than Arya | Freckled face | | Wooden stick (broom handle) | Coarse face | Thirteen |
 
 ## Characters Referenced
 | Character | Context of Reference | Referenced By |
 |-----------|---------------------|---------------|
-| Eddard Stark | Left before dawn; the king sent for him on a hunt | Septa Mordane, Sansa |
-| Robert Baratheon (the king) | Gone hunting for wild aurochs; killed Rhaegar at the Trident | Septa Mordane, Joffrey, the squire |
-| Princess Myrcella | Invited to ride in the wheelhouse; afraid of wolves | Septa Mordane, Sansa, the queen |
-| Jon Snow | Sansa's half brother; Arya resembles him; his mother was common, people whispered | Sansa (internal) |
-| Catelyn Stark (Mother) | Sansa once asked her if Arya was switched; Mother laughed and said Arya was trueborn | Sansa (recalled) |
-| Rhaegar Targaryen | Robert killed him at the Trident; his rubies scattered at the ford | Arya, Joffrey |
-| Aerys Targaryen | Jaime killed him; he had Ser Ilyn's tongue ripped out with hot pincers | Joffrey, Sansa (courtesies) |
-| Jaime Lannister | Joffrey says his uncle killed Aerys | Joffrey |
-| Serwyn of the Mirror Shield | Saved Princess Daeryssa from giants (a song) | Sansa (internal) |
-| Prince Aemon the Dragonknight | Championed Queen Naerys against Ser Morgil (a song) | Sansa (internal) |
-| Princess Daeryssa | Saved by Serwyn in a song | Sansa (internal) |
-| Queen Naerys | Defended by Prince Aemon in a song | Sansa (internal) |
-| Ser Morgil | Slandered Queen Naerys in a song | Sansa (internal) |
+| Eddard Stark | Left before dawn; king sent for him for a hunt | Septa Mordane to Sansa |
+| Robert Baratheon (the king) | Gone hunting; killed Rhaegar at the Trident | Septa Mordane; Cersei; Joffrey |
+| Princess Myrcella | Was to ride in wheelhouse with Sansa and Arya; afraid of direwolves | Septa Mordane; Sansa |
+| Jon Snow | Sansa's half brother; Arya resembles him; his mother was common | Sansa's thoughts |
+| Catelyn Stark (Mother) | Told Sansa that Arya was her trueborn sister | Sansa's memory |
+| Rhaegar Targaryen | Killed by Robert at the Trident; rubies scattered at the ford | Arya; Joffrey |
+| Aerys Targaryen | Ser Barristan served him; had Ser Ilyn's tongue ripped out with hot pincers | Sansa; Joffrey |
+| Jaime Lannister | Killed Aerys; Joffrey calls him "my uncle Jaime" | Joffrey |
+| Serwyn of the Mirror Shield | Saved Princess Daeryssa from giants | Sansa's thoughts |
+| Prince Aemon the Dragonknight | Championed Queen Naerys's honor against Ser Morgil | Sansa's thoughts |
+| Princess Daeryssa | Saved by Serwyn of the Mirror Shield | Sansa's thoughts |
+| Queen Naerys | Honor championed by Prince Aemon the Dragonknight | Sansa's thoughts |
+| Ser Morgil | Slandered Queen Naerys; fought by Prince Aemon | Sansa's thoughts |
 
 ## Locations
 | Location | Role | First Appearance? |
 |----------|------|-------------------|
-| The inn (at the crossroads area) | Where the party is staying; Sansa breaks her fast here | Yes |
-| Banks of the Trident | Where Arya brushes Nymeria; where Sansa and Joffrey ride | Yes |
-| The Neck | Recalled — twelve days crossing the causeway through bogs | No (uncertain — verify) |
-| The ford (ruby ford) | Where Robert killed Rhaegar; Arya and Mycah plan to search for rubies | Yes (as reference) |
-| Clearing overlooking the river | Where Arya and Mycah practice swordplay; site of the confrontation | Yes |
-| A holdfast (along the river) | Joffrey commands food and wine from its people | Yes |
-| King's Landing | Where the council sent riders from | No |
+| The inn (three-story pale stone) | Main camp; Sansa breaks her fast here | Yes |
+| Banks of the Trident | Where Arya brushes Nymeria; Sansa and Joffrey ride along | Yes |
+| The Neck | Recalled — twelve-day crossing through bog | No |
+| Queen's wheelhouse | Where Cersei receives the knights | No (uncertain — verify) |
+| Clearing overlooking the river | Where Arya and Mycah practice swords; the confrontation | Yes |
+| Holdfast by the river | Where Joffrey commands food and wine | Yes |
+| Caves by the riverbank | Explored by Sansa and Joffrey | Yes |
+| King's Landing | Origin of the honor guard riders | No |
 | Winterfell | Referenced as Sansa's home | No |
 | Storm's End | Renly's seat, mentioned in Sansa's identification of him | No (uncertain — verify) |
 
 ## Location Descriptions
 | Location | Defensive Features | Architecture/Layout | Interior Details | Scale | Condition | Surrounding Terrain/Geography | Notable Sensory Details |
 |----------|--------------------|--------------------|-----------------| ------|-----------|------------------------------|------------------------|
-| The inn | | Sprawling three-story structure of pale stone | Common room with benches | Biggest Sansa had ever seen; accommodations for less than a third of the king's party | | Tents and pavilions outside; wagons being loaded | |
-| The Neck (recalled) | | Crooked causeway through endless black bog | | So narrow they could not make proper camp; had to stop on the kingsroad | | Dense thickets of half-drowned trees with branches dripping pale fungus; huge flowers in mud; pools of stagnant water; quicksands; snakes in trees; lizard-lions floating like black logs with eyes and teeth | Air damp and clammy |
-| Woods along the Trident | | | | | | Caves by the riverbank; gentle beauty unlike the north; warm air heavy with scent of flowers; fields and farms and holdfasts along the way | Gentle beauty; warm; floral scent |
+| The inn | | Sprawling three-story structure of pale stone | Common room with benches | Biggest Sansa had ever seen; accommodations for less than a third of the king's party (400+) | | Tents and pavilions around it; wagons being loaded | Shouts, curses, creak of wooden wheels outside |
+| The Neck (recalled) | | Crooked causeway through endless black bog | | Twelve days to cross; causeway too narrow for proper camp | | Dense thickets of half-drowned trees; branches dripping with pale fungus; huge flowers in mud; pools of stagnant water; quicksands | Air damp and clammy; snakes in trees; lizard-lions floating like black logs with eyes and teeth |
+| The Trident / riverbank woods | | | | | | Woods with gentle beauty unlike the north; river with caves along the bank; river bends at the old battleground | Air warm and heavy with scent of flowers |
+| Queen's wheelhouse | | Wooden steps; doors thrown open | No windows (per Arya) | Large enough for feather pillows, lemon cakes, and tea | | | |
 
 ## Artifacts & Objects of Significance
 | Artifact | Context | First Appearance? | Current Holder/Location |
 |----------|---------|-------------------|------------------------|
-| Lion's Tooth | Joffrey's sword — longsword shrunken for a boy, blue steel, castle-forged, double-edged, leather grip, gold lion's-head pommel | Yes | Thrown into the Trident by Arya |
-| Rhaegar's rubies | Arya and Mycah plan to search for them at the ford where Robert killed Rhaegar | Yes (as reference) | Scattered at the ford / in the river |
-| Wooden practice swords | Broom handles used by Arya and Mycah for swordplay | Yes | Broken/dropped in the clearing |
-| Queen's wheelhouse | Royal conveyance; has no windows according to Arya; wooden steps | Yes | At the camp |
+| Lion's Tooth | Joffrey's longsword — gleaming blue steel, castle-forged, double-edged, leather grip, lion's-head pommel in gold; shrunken to suit a boy of twelve | Yes | Thrown into the Trident by Arya |
+| Rhaegar's rubies | Scattered at the ford when Robert killed Rhaegar; Arya and Mycah hunt for them | Yes (as referenced objects) | In the Trident at the ford |
+| Ser Ilyn Payne's greatsword | Two-handed greatsword, too long to wear at the side, strapped to his back with stained leather hilt | Yes | Ser Ilyn Payne |
+| Wooden practice swords | Broom handles used by Arya and Mycah | Yes | Broken/discarded in clearing |
 
 ## Food & Drink
 | Meal/Occasion | Food Items Described | Drink | Who Is Eating/Drinking | Where | Preparation/Presentation Notes |
 |--------------|---------------------|-------|----------------------|-------|-------------------------------|
-| Breaking fast (morning) | Bacon; honeycomb with honey dripping onto bread | | Sansa, Septa Mordane; Sansa feeds bacon to Lady under the table | Inn's common room | Septa Mordane breaks off comb and lets honey drip onto bread |
-| Anticipated treats in wheelhouse | Lemon cakes | Tea | Expected for Sansa, Arya, Myrcella, the queen | Queen's wheelhouse | Mentioned as enticement to Arya; never consumed |
-| Midday meal along the river | Trout fresh from the river | Wine (Sansa drinks more than ever before; Joffrey refills her cup) | Sansa and Joffrey | A holdfast along the Trident | Joffrey found the holdfast by its smoke and commanded the people to fetch food and wine; Sansa notes her father only lets them have one cup at feasts |
+| Breakfast | Bacon; honeycomb (broken pieces); bread with honey dripped on it | | Sansa, Septa Mordane; Lady fed bacon under the table | Inn's common room | Septa Mordane breaking off comb and letting honey drip onto bread |
+| Midday meal at holdfast | Trout fresh from the river | Wine (Sansa drinks more than ever before) | Sansa and Joffrey | Holdfast by the river | Joffrey told holdfast people to fetch food and wine for "their prince and his lady"; Joffrey refills Sansa's cup |
+| Lemon cakes and tea (anticipated) | Lemon cakes | Tea | Would have been Sansa, Arya, the queen, Myrcella | Queen's wheelhouse | Never happens — ride is cancelled |
 
 ## Hospitality & Guest Right
 | Event | Type | Host | Guest(s) | Details |
 |-------|------|------|----------|---------|
-| Holdfast provides food and wine | shelter_offered | Unnamed holdfast people | Joffrey and Sansa | Joffrey "told them to fetch food and wine for their prince and his lady" — a command, not a request; the smallfolk comply |
+| Holdfast provides food and wine | shelter_offered | Holdfast residents | Joffrey, Sansa | Joffrey commands them to fetch food and wine for "their prince and his lady"; they comply |
+| Queen's wheelhouse invitation | feast_given | Cersei / Queen | Sansa, Arya, Myrcella | Cancelled when council business intervenes; Cersei asks Sansa to give Arya her apologies |
 
 ## Events & Actions
-1. **Sansa breaks her fast with Septa Mordane** — Septa Mordane informs Sansa that Eddard left before dawn to hunt with the king. Sansa feeds bacon to Lady under the table, which Septa Mordane disapproves of.
-2. **Invitation to ride in the wheelhouse** — Septa Mordane announces they are invited to ride with the queen and Princess Myrcella. Sansa is thrilled; she is told to remind Arya to dress nicely.
-3. **Sansa finds Arya at the riverbank** — Arya is brushing Nymeria's matted fur. Arya refuses to ride in the wheelhouse, saying she plans to ride upstream with Mycah to look for Rhaegar's rubies at the ford.
-4. **Sisters argue** — Sansa tries to convince Arya to come. Arya talks about adventures on the road (flowers in the Neck, a haunted watchtower, wild horses). Sansa finds Arya's behavior embarrassing and unladylike.
-5. **Sansa returns alone to camp** — She walks back humiliated, nearly in tears. She reflects on how different she and Arya are, noting Arya looks like Jon with Stark coloring while Sansa favors their mother.
-6. **Arrival of honor guard from King's Landing** — A crowd gathers at the queen's wheelhouse. Sansa sees Ser Barristan Selmy in white Kingsguard armor and Lord Renly Baratheon in green armor kneeling before the queen. Ser Ilyn Payne stands apart.
-7. **Sansa is terrified by Ser Ilyn Payne** — Lady growls. Sansa steps backward into Sandor Clegane, who mocks her. Lady interposes. The stranger knights draw swords at the sight of Lady. Sansa is embarrassed and near tears.
-8. **Joffrey rescues Sansa** — At the queen's direction, Joffrey goes to Sansa. He orders swords put away, dismisses the Hound, and takes Sansa's hand. She is charmed by his gallantry.
-9. **Sansa identifies the newcomers** — Ser Barristan introduces himself. Sansa names him properly with his titles. Lord Renly challenges her to identify him; she does so by his antlered helm and youth. Ser Barristan and Renly joke with each other.
-10. **Sansa apologizes to Ser Ilyn** — He stares at her silently and walks away. Renly comments he hasn't spoken in fourteen years. Joffrey explains Aerys had his tongue ripped out.
-11. **The queen postpones the wheelhouse ride** — Cersei must speak with the councillors. She asks Joffrey to entertain Sansa instead.
-12. **Joffrey and Sansa ride along the Trident** — They leave Lady and the Hound behind. They explore caves, track a shadowcat, and stop at a holdfast for trout and wine. Joffrey sings. Sansa drinks more wine than ever before.
-13. **They approach the battleground at the ford** — Joffrey tells Sansa about Robert killing Rhaegar and Jaime killing Aerys.
-14. **They discover Arya and Mycah sparring** — In a clearing, Arya and Mycah fight with broom-handle swords. Mycah is older, taller, stronger; Arya is managing but losing.
-15. **Joffrey threatens Mycah** — Joffrey dismounts and orders Mycah to pick up his sword. Mycah is frozen with fear. Joffrey presses Lion's Tooth to Mycah's cheek, drawing blood.
-16. **Arya attacks Joffrey** — Arya hits Joffrey in the back of the head with her stick, cracking it. Joffrey turns on her in rage, slashing at her with Lion's Tooth, backing her against a tree.
-17. **Nymeria attacks Joffrey** — Nymeria leaps on Joffrey, biting his sword arm. He drops the sword. Nymeria mauls his arm; his shirt is soaked in blood.
-18. **Arya throws Lion's Tooth into the river** — Arya picks up the fallen sword, stands over the whimpering Joffrey, then hurls Lion's Tooth into the Trident. She rides off with Nymeria.
-19. **Joffrey rejects Sansa** — Sansa kneels beside the injured Joffrey, offering to get help. He looks at her with loathing and contempt, tells her to go and not to touch him.
+1. **Sansa and Septa Mordane break their fast at the inn** — Septa Mordane tells Sansa that Eddard left before dawn for a hunt with the king. Sansa feeds Lady bacon under the table; the septa disapproves.
+2. **Septa Mordane instructs Sansa about the wheelhouse ride** — They are invited to ride with Queen Cersei and Princess Myrcella. Septa tells Sansa to remind Arya to dress nicely in grey velvet.
+3. **Sansa finds Arya at the riverbank** — Arya is brushing mud from Nymeria's matted fur. Arya refuses to join the wheelhouse ride, preferring to ride upstream with Mycah to look for Rhaegar's rubies at the ford.
+4. **Sansa and Arya argue** — Sansa tries to convince Arya to come. Arya talks about adventures on the march — flowers in the Neck, a lizard-lion, a haunted watchtower, wild horses. Sansa is unable to persuade her.
+5. **Sansa returns to camp alone and upset** — She reflects on how different she and Arya are; recalls asking her mother if Arya was really her sister.
+6. **Honor guard arrives from King's Landing** — A crowd gathers at the queen's wheelhouse. Two knights kneel before Cersei: Ser Barristan Selmy (white Kingsguard armor) and Lord Renly Baratheon (green armor, golden antlered helm). Ser Ilyn Payne stands apart, silent and grim.
+7. **Sansa is terrified by Ser Ilyn Payne** — Lady growls at him. Sansa steps backward in fear and bumps into Sandor Clegane, who mocks her. Lady interposes herself. Sansa kneels and hugs Lady. The two stranger knights draw swords at the sight of the wolf. Sansa is ashamed and near tears.
+8. **Joffrey rescues Sansa** — At Cersei's prompting, Joffrey comes to Sansa, helps her to her feet, tells men to put away their swords, and dismisses the Hound.
+9. **Sansa identifies the knights** — She names Ser Barristan Selmy as Lord Commander of the Kingsguard with knowledge of his service to Aerys and Robert. She identifies Renly Baratheon by his golden antlers and youth. Both are impressed.
+10. **Sansa apologizes to Ser Ilyn** — He stares at her silently and walks away. Renly explains Ser Ilyn hasn't spoken in fourteen years. Joffrey tells Sansa that Aerys had Ser Ilyn's tongue ripped out with hot pincers.
+11. **Cersei cancels the wheelhouse ride** — She must speak with the councillors. She asks Joffrey to entertain Sansa for the day.
+12. **Joffrey and Sansa ride along the Trident** — They leave Lady and the Hound behind. They explore caves, track a shadowcat to its lair, and dine at a holdfast on trout and wine. Joffrey sings for Sansa.
+13. **They approach the battleground at the ford** — Joffrey describes how Robert killed Rhaegar and Jaime killed Aerys. They hear the sound of wooden swords.
+14. **They discover Arya and Mycah sparring** — The boy is older, taller, stronger, pressing the attack. Arya is dodging but taking hits. Mycah hits her fingers and she loses her stick.
+15. **Joffrey threatens Mycah** — He dismounts with Lion's Tooth drawn, commands Mycah to pick up his sword. When Mycah refuses, Joffrey presses the blade to his cheek, drawing blood.
+16. **Arya attacks Joffrey** — She grabs her stick and strikes the back of Joffrey's head, splitting the wood. Joffrey whirls and fights back. Arya throws a rock, hitting Joffrey's horse, which bolts. Joffrey backs Arya against a tree, slashing with Lion's Tooth.
+17. **Nymeria attacks Joffrey** — The direwolf leaps and bites Joffrey's sword arm; he drops Lion's Tooth. Nymeria mangles his arm. Arya calls Nymeria off.
+18. **Arya throws Lion's Tooth into the Trident** — She stands over the whimpering Joffrey, then hurls the sword into the river. She rides off with Nymeria.
+19. **Sansa tends to Joffrey** — She kneels beside him, brushes his hair, promises to ride for help. Joffrey turns on her with loathing and contempt, telling her not to touch him.
 
 ## Spatial Layout & Movement
 | Phase | Who | Position / Movement | Relative To | Notes |
 |-------|-----|---------------------|-------------|-------|
-| Opening | Sansa, Septa Mordane, Lady | Seated at breakfast in the inn's common room | Inn | Lady under the table |
-| Departure | Sansa, Lady | Leaves inn, goes outside | Inn → camp | Amid the noise of camp being broken |
-| Advance | Sansa, Lady | Goes to the banks of the Trident | Camp → river | Finds Arya and Nymeria |
-| Confrontation | Sansa, Arya | Argue about the wheelhouse | River bank | Arya refuses to come |
-| Retreat | Sansa, Lady | Takes the long way back to the inn | River → camp | Humiliated, nearly in tears |
-| Assembly | Crowd, Cersei, Ser Barristan, Renly, Ser Ilyn | Gathered around the queen's wheelhouse | Center of camp | Honor guard has arrived from King's Landing |
-| Advance | Sansa, Lady | Pushes through the crowd to see | Camp → wheelhouse | Lady clears a path |
-| Confrontation | Sansa, Sandor Clegane | Sansa stumbles into the Hound | At the wheelhouse crowd | He grabs her shoulders; Lady interposes |
-| Arrival | Joffrey | Comes to Sansa at the queen's command | Wheelhouse area | Dismisses the Hound, takes Sansa's hand |
-| Departure | Joffrey, Sansa | Leave camp riding east along north bank of the Trident | Camp → east along river | Leave Lady and the Hound behind |
-| Advance | Joffrey, Sansa | Ride along the Trident exploring caves, tracking a shadowcat | East along north bank | Joffrey rides recklessly on his blood bay courser |
-| Assembly | Joffrey, Sansa | Stop at a holdfast for food | Holdfast along the river | Dine on trout and wine |
-| Advance | Joffrey, Sansa | Continue east toward the battleground at the ford | Along the river bend | Moving more slowly after eating |
-| Arrival | Joffrey, Sansa | Discover Arya and Mycah in a clearing | Clearing overlooking the river | Hear wooden clattering and follow the sound |
-| Confrontation | Joffrey, Mycah | Joffrey threatens Mycah with Lion's Tooth | Clearing | Draws blood on Mycah's cheek |
-| Ambush | Arya | Strikes Joffrey from behind with her stick | Clearing | Cracks him on the back of the head |
-| Pursuit | Joffrey | Chases Arya, slashing with Lion's Tooth | Clearing → toward trees | Backs her against a tree |
-| Ambush | Nymeria | Leaps on Joffrey, bites his sword arm | Clearing | Grey blur; knocks him off his feet |
-| Dispersal | Arya, Nymeria, Mycah | Flee the scene | Clearing → away | Arya throws Lion's Tooth into river first |
+| Opening | Sansa, Septa Mordane | Seated at breakfast | Inn's common room | Lady under the table |
+| Departure | Sansa | Leaves inn, goes outside | Camp around inn | Tents being broken down, wagons loaded |
+| Advance | Sansa | Goes to the riverbank | Banks of the Trident | Looking for Arya |
+| Confrontation | Sansa, Arya | Argue about the wheelhouse | Riverbank | Arya brushing Nymeria |
+| Retreat | Sansa | Returns to camp alone | Long way back to the inn | Lady at her side |
+| Assembly | Crowd, Cersei, Ser Barristan, Renly, Ser Ilyn | Gathered around queen's wheelhouse | Center of camp | Doors open, queen on wooden steps |
+| Confrontation | Sansa, Ser Ilyn, Sandor Clegane | Sansa terrified, bumps into Sandor | Near the wheelhouse | Lady growls, interposes |
+| Departure | Joffrey, Sansa | Leave camp riding east | North bank of the Trident | Leave Lady and the Hound behind |
+| Advance | Joffrey, Sansa | Ride east along the river | Caves, holdfast, battleground | Explore caves, track shadowcat, dine at holdfast |
+| Arrival | Joffrey, Sansa | Come upon clearing | Overlooking the river | Hear wooden clattering, ride through trees |
+| Confrontation | Joffrey, Mycah | Joffrey threatens Mycah with Lion's Tooth | Clearing | Presses blade to Mycah's cheek, draws blood |
+| Ambush | Arya | Strikes Joffrey from behind with stick | Clearing | Splits wood on back of his head |
+| Pursuit | Joffrey | Backs Arya toward trees, slashing | Clearing / tree line | Arya throws rock, hits horse; horse bolts |
+| Ambush | Nymeria | Leaps at Joffrey, bites sword arm | Clearing | Grey blur; knocks him off feet |
+| Dispersal | Arya, Nymeria | Flee on horseback | Away from clearing | Arya throws Lion's Tooth into river first |
+| Confrontation | Sansa, Joffrey | Sansa kneels beside wounded Joffrey | Clearing | He rejects her with contempt |
 
 ## Information Revealed
 | Information | How Revealed | Known To (Characters) | Known To (Reader Only?) |
 |-------------|-------------|----------------------|------------------------|
-| The council has sent riders from King's Landing as an honor guard | Announced publicly; the squire tells Sansa | General knowledge in camp | No |
-| Ser Barristan Selmy is Lord Commander of the Kingsguard | He introduces himself; Sansa identifies him | Sansa, the crowd | No |
-| The green-armored knight is Lord Renly Baratheon | Sansa identifies him by his antlered helm and youth | Sansa, the crowd | No |
-| Ser Ilyn Payne is the King's Justice and has no tongue | Renly and Joffrey explain; Aerys had it ripped out with hot pincers | Sansa, Joffrey, Renly | No |
-| Ser Ilyn has not spoken for fourteen years | Renly states this | Sansa, those present | No |
-| The ford on the Trident is where Robert killed Rhaegar | Arya mentions it; Joffrey elaborates | Sansa, Arya, Joffrey | No |
-| Joffrey's sword is called Lion's Tooth | Joffrey tells Sansa | Sansa, Joffrey | No |
-| Arya has bruises on her arms and shoulders | Sansa has seen them when Arya undresses | Sansa | Yes (Arya may know, but the cause is unspoken) |
-| Arya has been practicing swordplay with Mycah | Sansa and Joffrey discover them | Sansa, Joffrey | No |
-| Jon Snow's mother was common, "or so people whispered" | Sansa's internal recollection | Sansa (and general gossip) | No |
+| Eddard left before dawn to hunt with the king | Septa Mordane tells Sansa | Sansa, Septa Mordane | No |
+| Sansa is betrothed to Joffrey | Sansa's internal thoughts | Sansa, Joffrey, the court | No |
+| The Trident ford is where Robert killed Rhaegar | Arya tells Sansa; Joffrey retells it | Arya, Sansa, Joffrey | No |
+| Arya has bruises on her arms and shoulders | Sansa has seen them when Arya undresses | Sansa | Yes (within this chapter — Arya may not know Sansa noticed) |
+| Arya has been practicing swordplay with Mycah | Discovered by Joffrey and Sansa in the clearing | Sansa, Joffrey, Arya, Mycah | No |
+| Ser Ilyn Payne is tongueless | Renly and Joffrey explain | Sansa, Renly, Joffrey | No |
+| Aerys Targaryen had Ser Ilyn's tongue ripped out with hot pincers | Joffrey tells Sansa | Sansa, Joffrey | No |
+| Jaime Lannister killed Aerys Targaryen | Joffrey states it while describing the battle | Sansa, Joffrey | No |
+| Jon Snow's mother was common | "So people whispered" — Sansa recalls this rumor | Sansa (from general gossip) | No |
+| Joffrey's true nature — contempt for Sansa after being wounded | Joffrey's reaction when Sansa tries to comfort him | Sansa | No |
+| The king's party has swollen to more than four hundred | Narrator description | Sansa | No |
+| Sandor Clegane is set by Cersei to guard Joffrey | Joffrey tells Sansa | Sansa, Joffrey | No |
 
 ## Dialogue of Note
 | Speaker | Listener | Quote/Paraphrase | Context |
 |---------|----------|------------------|---------|
-| Septa Mordane | Sansa | "A noble lady does not feed dogs at her table." | Disapproves of Sansa feeding Lady |
-| Arya | Sansa | "Mycah and I are going to ride upstream and look for rubies at the ford." | Refuses the wheelhouse invitation |
-| Arya | Sansa | "Rhaegar's rubies. This is where King Robert killed him and won the crown." | Explains the rubies at the ford |
+| Septa Mordane | Sansa | "A noble lady does not feed dogs at her table." | Scolding Sansa for feeding Lady |
+| Sansa | Septa Mordane | "She's not a dog, she's a direwolf." | Defending Lady |
+| Arya | Sansa | "Mycah and I are going to ride upstream and look for rubies at the ford." | Refusing the wheelhouse ride |
+| Arya | Sansa | "Rhaegar's rubies. This is where King Robert killed him and won the crown." | Explaining the rubies |
 | Sandor Clegane | Sansa | "You are shaking, girl. Do I frighten you so much?" | After grabbing Sansa's shoulders |
-| The Hound | The crowd | "The Starks use them for wet nurses." | Mocking remark about Lady |
-| Joffrey | The crowd | "Leave her alone... The wolf is her little pet, that's all." | Rescuing Sansa from the scene |
-| Joffrey | Sandor Clegane | "And you, dog, away with you, you're scaring my betrothed." | Dismissing the Hound |
-| Ser Barristan | Sansa | "Ofttimes Ser Ilyn frightens me as well, sweet lady. He has a fearsome aspect." | Comforting Sansa |
-| Cersei | The crowd | "If the wicked do not fear the King's Justice, you have put the wrong man in the office." | Defending Ser Ilyn's fearsome appearance |
-| Sansa | Cersei | "Then surely you have chosen the right one, Your Grace." | Courteous reply; earns laughter |
-| Ser Barristan | Sansa | "I am honored to know you, however irregular the manner of our meeting. I am Ser Barristan Selmy, of the Kingsguard." | Formal introduction |
-| Sansa | Ser Barristan | "Even in the far north, the singers praise the deeds of Barristan the Bold." | Demonstrating her courtesies |
-| Renly | Sansa | "Now, wolf girl, if you can put a name to me as well, then I must concede that you are truly our Hand's daughter." | Challenging Sansa to identify him |
-| Sansa | Renly | "By your extreme youth, you can only be Renly Baratheon, Lord of Storm's End and councillor to the king." | Correctly identifies Renly |
-| Renly | Sansa | "Ser Ilyn has not been feeling talkative these past fourteen years." | Explains Ser Ilyn's silence with dark humor |
-| Joffrey | Sansa | "Aerys Targaryen had his tongue ripped out with hot pincers." | Explains why Ser Ilyn cannot speak |
-| Cersei | Joffrey, Sansa | "Joffrey, perhaps you would be so kind as to entertain our guest today." | Directs Joffrey to spend the day with Sansa |
-| Joffrey | Sansa | "My betrothed can drink as much as she wants." | Refilling Sansa's wine cup |
-| Joffrey | Sansa | "My father killed Rhaegar Targaryen... He smashed in his chest, crunch, right through the armor. Then my uncle Jaime killed old Aerys." | Recounting the battle at the Trident |
-| Mycah | Joffrey | "She ast me to, m'lord. She ast me to." | Defending himself; Arya asked him to spar |
-| Joffrey | Mycah | "That was my lady's sister you were hitting, do you know that?" | While pressing Lion's Tooth to Mycah's cheek |
-| Arya | Joffrey | "She didn't hurt you ... much." | Echoing Joffrey's earlier words about Mycah after Nymeria's attack |
-| Joffrey | Arya | "No... don't hurt me. I'll tell my mother." | Whimpering on the ground after Nymeria's attack |
-| Joffrey | Sansa | "Then go. And don't touch me." | Rejecting Sansa's comfort after the incident |
+| The Hound | Crowd | "The Starks use them for wet nurses." | Mocking Sansa and Lady |
+| Joffrey | Crowd / Sandor | "Leave her alone... Put away your swords, all of you. The wolf is her little pet, that's all... And you, dog, away with you, you're scaring my betrothed." | Rescuing Sansa from the scene |
+| Ser Barristan Selmy | Sansa | "Ofttimes Ser Ilyn frightens me as well, sweet lady. He has a fearsome aspect." | Comforting Sansa about her reaction to Ser Ilyn |
+| Sansa | Court | "Then surely you have chosen the right one, Your Grace." | Responding to Cersei's remark about the King's Justice — draws laughter |
+| Sansa | Ser Barristan | "The Lord Commander of the Kingsguard... and councillor to Robert our king and to Aerys Targaryen before him. The honor is mine, good knight. Even in the far north, the singers praise the deeds of Barristan the Bold." | Demonstrating her courtly education |
+| Renly Baratheon | Sansa | "Now, wolf girl, if you can put a name to me as well, then I must concede that you are truly our Hand's daughter." | Challenging Sansa playfully |
+| Sansa | Renly | "Your helmet bears golden antlers, my lord... By your extreme youth, you can only be Renly Baratheon, Lord of Storm's End and councillor to the king." | Identifying Renly — impresses the court |
+| Ser Barristan | Renly | "By his extreme youth, he can only be a prancing jackanapes, and so I name him." | Good-natured ribbing |
+| Lord Renly | Sansa | "Ser Ilyn has not been feeling talkative these past fourteen years." | Explaining Ser Ilyn's silence with sly humor |
+| Joffrey | Sansa | "Aerys Targaryen had his tongue ripped out with hot pincers." | Explaining why Ser Ilyn cannot speak |
+| Cersei | Joffrey | "Joffrey, perhaps you would be so kind as to entertain our guest today." | Directing Joffrey to spend the day with Sansa |
+| Joffrey | Sansa | "My betrothed can drink as much as she wants." | Refilling Sansa's wine cup at the holdfast |
+| Joffrey | Mycah | "Pick up your sword, butcher's boy... Let us see how good you are." | Bullying Mycah |
+| Mycah | Joffrey | "She ast me to, m'lord. She ast me to." | Defending himself; reveals Arya asked to practice |
+| Arya | Joffrey | "She didn't hurt you... much." | Echoing Joffrey's earlier words back at him after Nymeria's attack |
+| Joffrey | Arya | "No... don't hurt me. I'll tell my mother." | Whimpering after Nymeria's attack |
+| Joffrey | Sansa | "Then go. And don't touch me." | Rejecting Sansa's comfort with contempt |
 
 ## POV Character's Internal State
-- **Emotional state:** Begins excited and hopeful about the day with the queen and Joffrey. Cycles through embarrassment (Arya's behavior), humiliation (the scene at the wheelhouse), romantic elation (Joffrey's rescue and their day together), dizziness (from wine), horror (watching the fight), and devastation (Joffrey's rejection).
-- **Primary preoccupation:** Being proper, beautiful, and worthy of her prince. Everything is filtered through courtly ideals and songs. She wants the world to match the stories she's been taught.
-- **Key decisions made:** Decides not to press Arya further about the wheelhouse; agrees to leave Lady behind at Joffrey's suggestion; does not intervene physically in the fight (screams but is helpless); stays to tend Joffrey after Arya flees.
-- **Self-deception flags:** Sansa believes Joffrey is "all she ever dreamt her prince should be" — gallant, like heroes in songs. She sees his rescue at the wheelhouse as a romantic act. She is blind to the cruelty he shows Mycah until it erupts. She blames Arya for "ruining everything" rather than recognizing Joffrey's aggression. She does not register the significance of the wine (Joffrey deliberately gets her drunk). She tells herself "I love riding" though she has just said she hates it, simply to please Joffrey.
+- **Emotional state:** Begins excited and happy about the prospect of riding with the queen and seeing Joffrey; frustrated and embarrassed by Arya; thrilled when Joffrey rescues her and spends the day with her; terrified by Ser Ilyn Payne; humiliated by the public scene with Lady; ecstatic during the ride with Joffrey; horrified during the confrontation at the clearing; devastated by Joffrey's rejection at the end
+- **Primary preoccupation:** Wanting everything to be "nice and pretty, the way they were in the songs"; craving Joffrey's approval; wanting to be a proper lady
+- **Key decisions made:** Decides to go to the wheelhouse without Arya; agrees to leave Lady behind when Joffrey suggests it; chooses not to intervene when Joffrey threatens Mycah (only screams for them to stop)
+- **Self-deception flags:** Believes Joffrey is "all she ever dreamt her prince should be" — gallant, kind, heroic; compares his rescue of her to Serwyn of the Mirror Shield and Prince Aemon the Dragonknight; claims "I love riding" immediately after saying "I hate riding" — changes her stated preference to match Joffrey's suggestion; does not recognize Joffrey's cruelty toward Mycah as a warning sign, only screams for them to stop because they're "spoiling it"
 
 ## Relationships Observed
 | Character A | Relationship | Character B | Evidence |
 |-------------|-------------|-------------|----------|
-| Sansa | Romantic idealization of | Joffrey | "Already in love with him"; worships him; thinks of him like heroes in songs |
-| Sansa | Sibling tension with | Arya | Finds Arya embarrassing, wild, unladylike; wishes she were like Myrcella |
-| Sansa | Bonded with | Lady | Feeds her, hugs her, scratches her ears; Lady follows her, licks her, protects her |
-| Arya | Bonded with | Nymeria | Brushes her; Nymeria stays with her; comes to her defense |
-| Arya | Friendship with | Mycah | They ride together, explore, practice swordplay; Arya calls him "my friend" |
-| Joffrey | Performative chivalry toward | Sansa | Rescues her from the scene; takes her riding; sings for her; calls her "sweet lady" |
-| Joffrey | Cruelty toward | Mycah | Threatens him with a steel sword; draws blood on his cheek |
-| Joffrey | Contempt toward | Sansa | After being injured, looks at her with "nothing but loathing" and "vilest contempt" |
-| Sandor Clegane | Mocking/guarding | Joffrey | Called Joffrey's "dog"; set by Cersei to guard him; obeys Joffrey's dismissal |
-| Sandor Clegane | Intimidating | Sansa | Grabs her shoulders; his burned face terrifies her; mocks her |
-| Cersei | Directing | Joffrey | Tells Joffrey to go comfort Sansa; tells him to entertain her for the day |
-| Ser Barristan | Kindness toward | Sansa | Speaks gently; comforts her about Ser Ilyn |
-| Renly | Teasing/warmth toward | Sansa | Calls her "wolf girl"; challenges her to name him; amused |
-| Ser Ilyn Payne | Silent menace toward | Sansa | Stares at her; his eyes seem to strip her bare; does not respond to her apology |
-| Lady | Protective of | Sansa | Growls at Ser Ilyn, growls at the Hound, interposes between Sansa and threats |
-| Nymeria | Protective of | Arya | Attacks Joffrey when he threatens Arya with his sword |
-| Septa Mordane | Authority over | Sansa and Arya | Instructs them on behavior and dress; expects obedience |
-| Sansa | Compares unfavorably | Arya to Jon | Both have Stark looks (long face, brown hair); unlike Sansa and their mother |
-| Joffrey | Hostility toward | Arya | Chases her with his sword; she is not his class of person |
-| Arya | Defiance toward | Joffrey | Hits him with a stick; takes his sword; echoes his threat back at him |
+| Sansa | Betrothed to | Joffrey | Stated explicitly; she is "already in love with him" |
+| Sansa | Frustrated with / embarrassed by | Arya | Constant conflict over Arya's behavior; wishes Arya were like Myrcella |
+| Sansa | Loves and trusts | Lady | Feeds her, hugs her, scratches her ears; Lady stays at her side |
+| Lady | Protective of | Sansa | Growls at Ser Ilyn and Sandor Clegane; interposes between Sansa and threats |
+| Arya | Close friendship with | Mycah | Rides with him daily, practices swords, defends him ("He's my friend") |
+| Arya | Bonded with | Nymeria | Nymeria always with her; Nymeria defends Arya against Joffrey |
+| Nymeria | Protective of | Arya | Attacks Joffrey when he threatens Arya with a sword |
+| Joffrey | Performatively chivalrous toward | Sansa | Rescues her publicly, spends day with her, calls her "sweet lady" |
+| Joffrey | Contemptuous of | Sansa | After being wounded, turns on her with "nothing but loathing... the vilest contempt" |
+| Joffrey | Cruel toward | Mycah | Presses sword to Mycah's cheek, draws blood, bullies him |
+| Joffrey | Dismissive of | Sandor Clegane | Calls him "dog," orders him away |
+| Sandor Clegane | Guards / obeys | Joffrey | Cersei set him to guard Joffrey; he obeys and withdraws when dismissed |
+| Sandor Clegane | Mocks | Sansa | "Do I frighten you so much?"; "The Starks use them for wet nurses" |
+| Cersei | Directs / controls | Joffrey | Tells Joffrey to go to Sansa, then to entertain her; sets the Hound to guard him |
+| Septa Mordane | Governs / teaches | Sansa and Arya | Instructs on propriety, dress, and behavior |
+| Ser Barristan Selmy | Kind toward | Sansa | Comforts her about Ser Ilyn; praises her as Eddard Stark's daughter |
+| Renly Baratheon | Playful / teasing toward | Sansa | "Wolf girl" challenge; sly humor about Ser Ilyn |
+| Renly Baratheon | Teased by / teases | Ser Barristan Selmy | Mutual ribbing — "Barristan the Old" / "prancing jackanapes" |
+| Ser Ilyn Payne | Terrifies | Sansa | His silent stare and appearance cause overwhelming fear |
+| Sansa | Wishes were different | Arya | Wished Arya were sweet like Myrcella; once asked mother if there was a mistake |
+| Arya | Defiant toward | Joffrey | Strikes him with stick, echoes his words, throws his sword in the river |
+| Eddard Stark | Indulgent toward | Arya | Only hugged her and thanked her for the flowers (recalled by Sansa) |
+| Sansa | Idolizes | Joffrey | Gazes at him "worshipfully"; compares him to heroes in songs |
 
 ## Unanswered Questions
 | Question | Raised By | Context |
 |----------|-----------|---------|
-| Where did Arya get the bruises on her arms and shoulders? | Sansa (internal) | Dark purple welts and faded green-and-yellow splotches seen when Arya undressed; "only the seven gods knew" |
-| What will happen as a result of Nymeria biting the prince? | The chapter's ending | Joffrey is injured, his sword lost; he threatens to tell his mother |
-| Where has Arya gone with Nymeria? | End of chapter | She rides off after throwing Lion's Tooth in the river |
-| Why does Joffrey direct such venom at Sansa after the incident? | Sansa (bewildered) | She tried to help him; he responded with loathing and contempt |
+| What consequences will follow the attack on Joffrey? | Chapter events | Joffrey is wounded, his sword lost; he threatens to tell his mother |
+| Where did Arya get her bruises? | Sansa's observation | Dark purple welts and green-and-yellow splotches on arms and shoulders — "how she had gotten those only the seven gods knew" |
+| What happened to Mycah after he fled? | Chapter events | He ran for the trees when the fight began; not seen again |
+| Where did Arya and Nymeria go? | Chapter events | Arya rode off with Nymeria after throwing Lion's Tooth in the river |
+| Will the rubies at the ford be found? | Arya's plan | Arya planned to look for Rhaegar's rubies at the ford with Mycah |
+| What will the queen and council discuss? | Cersei's statement | Cersei says "the good councillors and I must speak together until the king returns" |
 
 ## Raw Entity List
+
 ### Characters
-Sansa Stark, Lady, Arya Stark, Nymeria, Joffrey Baratheon, Sandor Clegane (the Hound), Ser Barristan Selmy, Lord Renly Baratheon, Ser Ilyn Payne, Cersei Lannister, Mycah, Septa Mordane, Eddard Stark, Robert Baratheon, Princess Myrcella, Jon Snow, Catelyn Stark, Rhaegar Targaryen, Aerys Targaryen, Jaime Lannister, Serwyn of the Mirror Shield, Prince Aemon the Dragonknight, Queen Naerys, Princess Daeryssa, Ser Morgil
+Sansa Stark, Lady (direwolf), Arya Stark, Nymeria (direwolf), Joffrey Baratheon, Cersei Lannister, Eddard Stark, Sandor Clegane (the Hound), Ser Barristan Selmy, Lord Renly Baratheon, Ser Ilyn Payne, Mycah, Septa Mordane, Princess Myrcella, Robert Baratheon (the king), Rhaegar Targaryen, Aerys Targaryen, Jaime Lannister, Jon Snow, Catelyn Stark, Serwyn of the Mirror Shield, Prince Aemon the Dragonknight, Queen Naerys, Ser Morgil, Princess Daeryssa
 
 ### Locations
-The inn (three-story pale stone), Banks of the Trident, The Neck (recalled), The ford / ruby ford, Clearing overlooking the river, A holdfast (along the Trident), King's Landing, Winterfell, Storm's End, The kingsroad
+The inn (three-story pale stone), Banks of the Trident, The Trident (river), The ford (where Robert killed Rhaegar), The Neck, The kingsroad, King's Landing, Winterfell, Storm's End, Clearing overlooking the river, Holdfast by the river, Caves by the riverbank, Queen's wheelhouse
 
-### Artifacts
-Lion's Tooth (Joffrey's sword), Rhaegar's rubies, Queen's wheelhouse, Wooden practice swords (broom handles)
+### Houses
+House Stark, House Baratheon, House Lannister, House Targaryen
 
-### Houses/Factions
-House Stark, House Baratheon, House Lannister, House Targaryen (referenced), The Kingsguard
+### Factions & Organizations
+The Kingsguard, The king's council (the council)
+
+### Religions & Faiths
+The Seven ("only the seven gods knew")
+
+### Cultures & Peoples
+None
+
+### Artifacts & Objects
+Lion's Tooth (Joffrey's sword), Ser Ilyn Payne's greatsword, Rhaegar's rubies, Wooden practice swords (broom handles), Antlered helm with golden rack (Renly's)
+
+### In-world Texts & Songs
+None explicitly named, though Sansa references "the songs" and "the singers" generally; stories of Serwyn of the Mirror Shield, Prince Aemon the Dragonknight
+
+### Magic & Phenomena
+None
+
+### Wars & Conflicts
+Robert's Rebellion (referenced via the Battle of the Trident — Robert killing Rhaegar, Jaime killing Aerys)
+
+### Titles & Offices
+Lord Commander of the Kingsguard, King's Justice, Hand of the King, Prince, Princess, Queen, Lord of Storm's End, Septa
+
+### Other
+Aurochs (wild, mentioned as quarry for the hunt), Shadowcat (tracked to its lair by Sansa and Joffrey), Lizard-lions (recalled from the Neck), Poison kisses (purple flowers that gave Arya a rash)

@@ -6,236 +6,257 @@
 - **pov_character:** Daenerys Targaryen
 - **pov_chapter_number:** Daenerys VII
 - **first_available:** AGOT Daenerys VII
-- **location_primary:** Lhazareen town (unnamed, recently sacked)
-- **location_secondary:** Dothraki sea (surrounding grasslands), fields outside the town, temple of the Great Shepherd
-- **approximate_timeline:** Shortly after Khal Drogo's khalasar defeats Khal Ogo's khalasar while the latter was attacking a Lhazareen town; Daenerys is visibly pregnant and near her due date
-- **time_markers:** Battle has just concluded ("when the battle was done"); Daenerys's pregnancy is advanced ("her belly grew larger and heavier," "my time is near"); healing instructions reference "ten days and ten nights"
-- **chapter_summary:** Daenerys rides through the aftermath of Khal Drogo's victory over Khal Ogo at a Lhazareen town, witnessing the slaughter, enslavement, and rape of the defeated. She commands her khas to stop the rapes and claims the victims as her own slaves. She finds Drogo wounded and insists a Lhazareen healer, Mirri Maz Duur, treat his injuries. Mirri removes an arrow and stitches a deep arakh wound on Drogo's chest. Daenerys asks Mirri to attend her when she gives birth.
+- **location_primary:** Unnamed Lhazareen town (sacked)
+- **location_secondary:** Dothraki sea (surrounding grasslands), Vaes Dothrak (referenced), Slaver's Bay (referenced), Meereen (referenced), Asshai by the Shadow (referenced), the Citadel at Oldtown (referenced)
+- **approximate_timeline:** Late in AGOT; Daenerys is visibly pregnant and near term; after the khalasar has crossed into Lhazareen territory
+- **time_markers:** Daenerys's belly has grown large and heavy; her time is near; battle has just concluded (immediate aftermath); ten days and ten nights prescribed for healing; Mirri Maz Duur studied in Asshai "when I was younger and more fair"
+- **chapter_summary:** Daenerys rides through the aftermath of Khal Drogo's victory over Khal Ogo at a Lhazareen town. Witnessing the rape and enslavement of captives, she commands her khas to stop the rapes and claims the victims as her own slaves. She confronts Drogo and his bloodriders about this, and Drogo supports her. Drogo has been wounded — an arakh cut across his chest and an arrow in his arm — and a Lhazareen healer named Mirri Maz Duur, whom Dany saved, treats his wounds over the bloodriders' objections. Dany asks Mirri to attend her when she gives birth.
 
 ## Physical Environment
-- **Weather:** Hard blue sky; smoke plumes rising from burning town
-- **Season indicators:** None stated
-- **Time of day:** Daytime (hard blue sky visible, battle recently concluded)
-- **Lighting:** Daylight outside; faint light through hidden windows and smoky torches inside the temple
-- **Sounds:** Dying horses screaming; wounded men moaning and praying; sobbing of women and children; the girl being raped making "a heartrending sound, a long sobbing wail"; bells ringing in Drogo's braid; distant screams and wailing of frightened children; a building collapsing
-- **Smells:** Smoke from burning town; fragrant smoke from dried leaves thrown on a brazier inside the temple
-- **Notable sensory details:** Fields torn by Dothraki hooves; rye and lentils trampled; dead sheep black with flies and bristling with arrows; blood covering Drogo's left chest "like a splash of paint"; boiling wine poured over wounds
+- **Weather:** Hard blue sky; smoke plumes rising from burning buildings
+- **Season indicators:** None explicitly stated
+- **Time of day:** Daytime (battle has concluded; bright sky described)
+- **Lighting:** Bright daylight; faint light through hidden windows inside the temple; torches burning smokily from sconces on temple walls
+- **Sounds:** Dying horses screaming; wounded men moaning and praying; sobbing of raped girl (high thin voice, long sobbing wail); bells ringing in braids; building collapsing; distant screams and wailing of children; Lhazareen singsong tongue chanting
+- **Smells:** Smoke from burning buildings; fragrant smoke from dried leaves thrown on brazier inside temple
+- **Notable sensory details:** Blood everywhere — on corpses, on Drogo's chest, on the raped girl's matted hair; flies black on dead sheep; mud underfoot; wine heated to boiling poured over wounds; Drogo grinding his teeth and swallowing a scream during treatment
 
 ## Characters Present
 | Character | Role in Chapter | First Appearance? | Notes |
 |-----------|----------------|-------------------|-------|
-| Daenerys Targaryen | POV, protagonist | No | Rides through battlefield aftermath; commands halt to rapes; claims Lhazareen women as slaves; arranges Drogo's healing |
-| Khal Drogo | Daenerys's husband, khal | No | Wounded in battle — arakh cut to chest, arrow in arm; refuses healers initially; accepts Mirri Maz Duur's treatment |
-| Ser Jorah Mormont | Knight, advisor to Daenerys | No | Wears armor; reports on battle; advises selling slaves at Meereen; helps stop rapes |
-| Mirri Maz Duur | Lhazareen healer, godswife | Yes | Treats Drogo's wounds; claims training from Asshai mages, a Jogos Nhai moonsinger, a Dothraki woman, and Maester Marwyn |
-| Jhogo | Warrior of Daenerys's khas | No | Beheads a raper on Dany's orders; sent to fetch eunuch healers |
-| Quaro | Warrior of Daenerys's khas | No | Aids in stopping rapes |
-| Aggo | Warrior of Daenerys's khas | No | Kills a Dothraki raper with an arrow; threatens Mirri with a knife on Qotho's order; defers to Dany |
-| Rakharo | Warrior of Daenerys's khas | No | Aids in stopping rapes |
-| Qotho | Drogo's bloodrider | No | Cruelest of the bloodriders; hostile to Mirri; mocks Lhazareen; slaps Mirri; threatens her |
-| Haggo | Drogo's bloodrider | No | Translates Mago's complaint; calls Mirri "maegi"; offers to carry Drogo |
-| Cohollo | Drogo's bloodrider | No | Described as old; has a deep gash in his left shoulder; sent to fetch Drogo's vest |
-| Irri | Daenerys's handmaid | No | Echoes "it is known" |
-| Jhiqui | Daenerys's handmaid | No | Helps Dany dismount |
-| Doreah | Daenerys's handmaid | No | Told to tend to the first rescued Lhazareen girl |
-| Mago | Rider in Ko Jhaqo's khas | Yes (uncertain — verify) | Complains to Drogo that Dany took his "spoils" (a Lhazareen girl) |
+| Daenerys Targaryen | POV character; rides through battlefield aftermath, intervenes to stop rapes, claims captive women, brings healer to Drogo | No | Visibly pregnant, near term |
+| Ser Jorah Mormont | Advisor and protector; fights alongside khas, pulls rapist off victim, advises on selling slaves at Meereen | No | Wearing armor (dark green surcoat, mail, dark grey steel gauntlets/greaves/greathelm) |
+| Khal Drogo | Daenerys's husband; has won the battle, wounded, receives treatment from Mirri Maz Duur | No | Wounded: arakh cut across chest (left nipple removed), arrow in upper arm |
+| Mirri Maz Duur | Lhazareen godswife and healer; treats Drogo's wounds | Yes | Thick-bodied, flat-nosed, speaks Common Tongue and Dothraki; trained in Asshai |
+| Jhogo | Warrior in Dany's khas; obeys her command to stop rape, beheads a rapist | No | Rides a tall grey stallion given by Drogo; bells in hair |
+| Quaro | Warrior in Dany's khas; aids in stopping rapes | No | |
+| Aggo | Warrior in Dany's khas; kills rapist with arrow, threatens Mirri with knife on Qotho's order | No | |
+| Rakharo | Warrior in Dany's khas; aids in stopping rapes | No | |
+| Qotho | Drogo's bloodrider; cruel, hostile to Mirri, slaps her | No | Described as "ever the cruelest of the bloodriders" |
+| Haggo | Drogo's bloodrider; suspicious of Mirri, calls her maegi | No | Described as huge |
+| Cohollo | Drogo's bloodrider; reports Drogo sent healers away, sent to fetch vest | No | Described as old; has a deep gash in left shoulder |
+| Mago | Rider in Ko Jhaqo's khas; complains Dany took his rape victim | Yes | |
+| Irri | Dany's handmaid; echoes Dothraki customs | No | |
+| Doreah | Dany's handmaid; tasked with caring for first rescued woman | No | Noted as not having "a rider's look" |
+| Jhiqui | Dany's handmaid; helps Dany dismount | No | Previously told Dany a story about maegi |
 
 ## Character Appearances
 | Character | Hair | Eyes | Build/Height | Scars/Marks | Clothing/Armor | Weapons Worn | Distinguishing Features | Age (if stated) |
 |-----------|------|------|-------------|-------------|----------------|-------------|------------------------|-----------------|
-| Ser Jorah Mormont | | | | | Dark green surcoat over mail; dark grey steel gauntlets, greaves, and flat-topped greathelm with visor | Longsword (referenced in anecdote about clashing with arakh) | Blood-spattered cloak (used to cover rescued girl) | |
-| Khal Drogo | Braid with bells | Black eyes | Towering over everyone when he stands | Left nipple cut off by arakh; flap of bloody flesh dangling; arrow wound in upper arm; blood covering left side of bare chest | Bare-chested (vest sent for later) | | Bells in his braid ring with every step; pile of severed heads beside him taller than he is | |
-| Mirri Maz Duur | | | Heavy/thick-bodied | Bruised face (from Qotho's slap) | Robes of fine wool with embroidery, now mud-caked, bloody, and ripped; clutches torn bodice to her heavy breasts | | Flat-nosed, old, plain-faced, homely | Described as old |
-| Cohollo | | | | Deep gash in left shoulder | | | Described as old | |
-| Lhazareen people (general) | Black hair, cropped short | Almond-shaped | Squat, flat-faced | | | Short arrows | Copper skin | |
+| Ser Jorah Mormont | | | | | Dark green surcoat over mail; dark grey steel gauntlets, greaves, and flat-topped greathelm with visor | Longsword | | |
+| Khal Drogo | Braid with bells | Black eyes | Towering over all others; huge hand | Arakh cut across left breast (nipple removed, flap of skin dangling); arrow through meat of upper arm; blood covering left side of bare chest | Bare-chested (vest sent for later) | | Bells ringing with every step (added from Ogo and Fogo) | |
+| Mirri Maz Duur | | | Thick-bodied | Bruised face (from Qotho's slap) | Robes of finest wool, richly embroidered but now mud-caked, bloody, and ripped; clutches torn bodice to heavy breasts | | Flat-nosed; old; homely; plain-faced | Described as old |
+| Lhazareen people (general) | Black hair, cropped unnaturally short | Almond-shaped eyes | Squat, flat-faced | | | | Copper skin | |
 | Mago | | | | | | | | |
-| Jhogo | Hair with bells | | | | | Arakh | Rides a tall grey stallion (gift from Drogo) | |
-| Daenerys Targaryen | | | Belly grown larger and heavier (pregnant, near term) | | | | Clumsy dismounting due to pregnancy | |
+| Cohollo | | | | Deep gash in left shoulder | | | | Old |
+| Haggo | | | Huge | | | Arakh | | |
 
 ## Characters Referenced
 | Character | Context of Reference | Referenced By |
 |-----------|---------------------|---------------|
-| Khal Ogo | Slain by Drogo in battle; his khalasar was attacking the town; his riders killed the sheep; shared the high bench with Drogo at the naming feast in Vaes Dothrak | Ser Jorah, Dany (narration), Drogo |
+| Khal Ogo | Killed by Drogo in the battle; his riders had killed the sheep; shared high bench with Drogo at naming feast in Vaes Dothrak | Ser Jorah, Dany (narration), Drogo |
 | Fogo | Son of Ogo; became khal when Ogo fell; also slain by Drogo | Ser Jorah, Drogo |
-| Viserys Targaryen | "Crowned" at the naming feast in Vaes Dothrak; Dany thinks of him when Qotho's tone reminds her of Viserys; Jorah says Dany is like her brother — then clarifies he means Rhaegar, not Viserys | Dany (narration), Ser Jorah |
-| Rhaegar Targaryen | Jorah compares Dany to Rhaegar: "You are your brother's sister, in truth" | Ser Jorah |
-| Illyrio Mopatis | Writes to Jorah with information about slave prices; mentioned in context of selling slaves at Meereen | Ser Jorah |
-| Marwyn | Maester who traveled to Asshai; taught Mirri Maz Duur the Common Tongue and healing; wore a maester's chain of many metals | Mirri Maz Duur |
+| Viserys | Dany reminded of him by Qotho's tone; was crowned at the naming feast; Ser Jorah says Dany is like her brother — but means Rhaegar, not Viserys | Ser Jorah, Dany (narration) |
+| Rhaegar | Ser Jorah says Dany is "your brother's sister" and means Rhaegar | Ser Jorah |
 | Ko Jhaqo | Mago rides in his khas | Haggo |
+| Illyrio | Writes to Ser Jorah about slave prices; mentioned in context of selling captives | Ser Jorah |
+| Marwyn | Maester who taught Mirri Maz Duur in Asshai; wore a chain of many metals | Mirri Maz Duur, Ser Jorah |
 
 ## Locations
 | Location | Role | First Appearance? |
 |----------|------|-------------------|
-| Lhazareen town (unnamed) | Primary setting; sacked town where battle took place | Yes |
-| Temple of the Great Shepherd | Where Mirri Maz Duur treats Drogo's wounds; her temple | Yes |
-| Dothraki sea | Surrounding grasslands; referenced as not meant for sheep | No |
-| Vaes Dothrak | Referenced — site of the naming feast where Ogo shared high bench with Drogo | No |
-| Mother of Mountains | Referenced — located at Vaes Dothrak | No |
-| Slaver's Bay | Referenced — Jorah suggests driving slaves to towns there | No (uncertain — verify) |
-| Meereen | Referenced — Jorah recommends selling slaves there for better prices | Yes (uncertain — verify) |
-| Asshai by the Shadow | Referenced — where Mirri Maz Duur studied healing | No (uncertain — verify) |
-| The Citadel, Oldtown | Referenced — where maesters are trained | No (uncertain — verify) |
-| Sunset Lands / Seven Lands | Mirri's term for Westeros, as learned from Marwyn | No |
+| Unnamed Lhazareen town | Primary setting; sacked and burning; where battle occurred and Drogo is treated | Yes |
+| Lhazareen temple (god's house) | Where Mirri treats Drogo; square, windowless, thick mud walls, bulbous onion dome | Yes |
+| Dothraki sea (grasslands) | Surrounding territory; referenced as not meant for sheep | No |
+| Vaes Dothrak | Referenced — where Ogo shared high bench at naming feast | No |
+| Mother of Mountains | Referenced — in connection with Vaes Dothrak | No |
+| Slaver's Bay | Referenced — destination for driving captive slaves | No (uncertain — verify) |
+| Meereen | Referenced — Ser Jorah recommends selling slaves there; had a plague last year | Yes (uncertain — verify) |
+| Asshai by the Shadow | Referenced — where Mirri Maz Duur studied healing | No |
+| The Citadel (Oldtown) | Referenced — where maesters are trained and receive their chains | No |
+| Sunset Lands / Seven Lands | Referenced by Mirri — Westeros, described from an eastern perspective | No |
 
 ## Location Descriptions
 | Location | Defensive Features | Architecture/Layout | Interior Details | Scale | Condition | Surrounding Terrain/Geography | Notable Sensory Details |
 |----------|--------------------|--------------------|-----------------| ------|-----------|------------------------------|------------------------|
-| Lhazareen town | Walls of dried mud, now broken/shattered; wooden gate, now shattered | Narrow, twisty lanes inside | | | Afire; black smoke plumes; buildings collapsing; many houses burning; headless corpses filling lanes | Fields of rye and lentils surrounding the town; a river nearby (boy runs toward it) | Smoke rolling and tumbling; distant screams; wailing of children |
-| Temple of the Great Shepherd | Thick mud walls | Square, windowless exterior; bulbous dome "like some immense brown onion"; series of anterooms leading to high central chamber under the dome; hidden windows above | Sheepskins scattered across mud floor; torches in sconces on walls; altar of massive blue-veined stone carved with images of shepherds and their flocks; a brazier; a carved chest containing bottles, boxes, knives, and needles | High central chamber | | | Faint light from hidden windows above; smoky torchlight; fragrant smoke from dried leaves on brazier |
+| Unnamed Lhazareen town | Walls of dried mud, now broken/cracked; wooden gate, now shattered | Narrow, twisty lanes | | Thousands of dead sheep outside; potentially ten thousand captives | Actively burning; buildings collapsing; walls broken | Fields of rye and lentils (trampled); road outside gates; river nearby (boy runs for it) | Black plumes of smoke; fires burning; screams; headless corpses filling lanes |
+| Lhazareen temple | Thick mud walls | Square, windowless exterior; bulbous dome "like some immense brown onion"; series of anterooms leading to high central chamber under the dome; hidden windows above letting in faint light | Sheepskins on mud floor; torches in sconces on walls; brazier; carved altar of massive blue-veined stone with images of shepherds and flocks; carved chest containing bottles, boxes, knives, needles | High central chamber | Intact (not yet burned) | At center of town | Fragrant smoke from dried leaves on brazier; smokily burning torches; faint light from above |
 
 ## Artifacts & Objects of Significance
 | Artifact | Context | First Appearance? | Current Holder/Location |
 |----------|---------|-------------------|------------------------|
-| Bells from Ogo's and Fogo's hair | Cut by Drogo's bloodriders after he slew them; added to Drogo's braid | Yes | Khal Drogo (in his braid) |
-| Drogo's pile of severed heads | Taller than Drogo; displayed outside the temple | Yes | Outside the temple |
-| Silver needle and silk thread | Used by Mirri to stitch Drogo's wound | Yes | Mirri Maz Duur |
-| Maester's chain (Marwyn's) | "A chain so tight it was like to choke him, with links of many metals" — described by Mirri | No | Marwyn (referenced) |
-| Daenerys's silver horse | Dany rides it through the battlefield | No | Daenerys |
+| Drogo's bells (including Ogo's and Fogo's) | Bloodriders cut bells from defeated khals' hair; Drogo's steps now ring louder | No | Khal Drogo's braid |
+| Blue-veined stone altar | Massive carved altar inside temple with images of shepherds and flocks; Drogo lies on it for treatment | Yes | Lhazareen temple |
+| Silver needle and silk thread | Used by Mirri Maz Duur to sew Drogo's wound | Yes | Mirri Maz Duur |
+| Arakhs | Dothraki curved swords; used in battle and by Jhogo to behead a man | No | Various Dothraki warriors |
+| Qotho's skinning knife | Shown to Mirri as a threat | No | Qotho |
 
 ## Food & Drink
 | Meal/Occasion | Food Items Described | Drink | Who Is Eating/Drinking | Where | Preparation/Presentation Notes |
 |--------------|---------------------|-------|----------------------|-------|-------------------------------|
-| Healing prohibition | | Wine, milk of the poppy — both prohibited by Mirri | Khal Drogo (told not to drink) | Temple | Mirri instructs Drogo to drink neither wine nor milk of the poppy to keep his body strong against "poison spirits" |
-| Drogo's defiance | | Wine (implied — "drink what I like") | Khal Drogo | Temple | Drogo declares he will drink what he likes, rejecting the prohibition |
-| Wine used medicinally | | Wine heated to boiling | N/A — poured on wounds | Temple | Mirri heats a flagon of wine to boiling on the brazier and pours it over Drogo's wounds |
+| Medicinal instruction | | Wine (heated to boiling, poured on wounds); milk of the poppy (warned against) | Khal Drogo | Temple | Mirri cautions Drogo to drink neither wine nor milk of the poppy during healing |
 
 ## Hospitality & Guest Right
 | Event | Type | Host | Guest(s) | Details |
 |-------|------|------|----------|---------|
-| Vaes Dothrak naming feast (referenced) | feast_given | Vaes Dothrak custom | Khal Drogo, Khal Ogo, Fogo | Ogo and his son shared the high bench with Drogo; "beneath the Mother of Mountains, where every rider was a brother and all quarrels were put aside" — hospitality/peace enforced in Vaes Dothrak |
-| Daenerys claiming women | shelter_offered | Daenerys | Lhazareen women being raped | Dany claims women as her slaves, effectively offering them protection; one blesses Dany in the Common Tongue but others are suspicious, "afraid that she had saved them for some worse fate" |
+| Vaes Dothrak naming feast (referenced) | feast_given | Implied communal hosting | Khal Drogo, Khal Ogo, Fogo | Ogo and his son shared the high bench with Drogo; in Vaes Dothrak "every rider was a brother and all quarrels were put aside" — a sacred peace within the city |
 
 ## Events & Actions
-1. **Daenerys rides through the battlefield aftermath** — She surveys the dead, dying horses, wounded men, jaqqa rhan taking heads, girls collecting arrows, and feral dogs following the khalasar.
-2. **Dead sheep and slaughtered shepherds observed** — Thousands of sheep killed by Khal Ogo's riders; Lhazareen survivors herded as slaves by Drogo's riders.
-3. **A Lhazareen boy is run down and killed** — A boy tries to flee toward the river; riders chase him, whip him bloody, and shoot him with an arrow when he can only crawl.
-4. **Ser Jorah reports on the battle** — He tells Dany that Drogo slew both Khal Ogo and his son Fogo; bloodriders took the bells from their hair. Most of Ogo's riders fled; perhaps ten thousand captives taken.
-5. **A Lhazareen girl is gang-raped** — Dany witnesses riders raping a girl her own age across the road atop a pile of corpses.
-6. **Ser Jorah suggests selling slaves at Meereen** — He says Illyrio wrote about a plague there; brothels paying double for girls and triple for boys under ten; the gold would buy ships for the invasion of Westeros.
-7. **Daenerys commands the rapes stopped** — She orders Jhogo, Quaro, and Ser Jorah to intervene. They are baffled but obey.
-8. **Jhogo beheads a raper** — When the rapers laugh at Jhogo, his arakh flashes and one man's head is cut off; Aggo, Quaro, and Rakharo back him.
-9. **Aggo kills another raper** — Ser Jorah pulls a man off the girl; the man attacks with a knife; Aggo kills him with an arrow through his throat.
-10. **First Lhazareen girl rescued** — Jorah wraps her in his cloak; Dany sends her to Doreah for care.
-11. **Daenerys claims more women throughout the town** — She rides through the burning town, stopping each time she finds women being raped, claiming them as her slaves. One blesses her in the Common Tongue.
-12. **Ser Jorah cautions Dany** — He says she cannot claim them all; Dany invokes her identity as khaleesi and blood of the dragon.
-13. **Jorah compares Dany to Rhaegar** — He tells her "you are your brother's sister" and clarifies he means Rhaegar, not Viserys.
-14. **Daenerys finds Drogo wounded outside the temple** — He sits beside a pile of heads taller than himself. He has an arrow in his upper arm and an arakh wound that has cut off his left nipple.
-15. **Mago complains about losing his "spoils"** — A rider from Ko Jhaqo's khas protests that Dany took a Lhazareen girl he intended to rape. Haggo translates.
-16. **Drogo rules in Dany's favor** — He tells Mago to find another lamb to mount; the claimed women belong to his khaleesi. He smiles and praises Dany's fierceness, attributing it to their unborn son.
-17. **Dany insists on healers for Drogo** — She sees his wounds are worse than reported. Drogo had sent away the eunuch healers; Dany orders Jhogo to fetch them.
-18. **Mirri Maz Duur offers to heal Drogo** — The Lhazareen godswife, one of the women Dany claimed, steps forward and offers her skills.
-19. **Qotho and bloodriders resist Mirri** — Qotho orders Aggo to cut out her tongue; Aggo grabs her hair and puts a knife to her throat; Dany commands them to stop; Aggo defers to Dany.
-20. **Mirri describes her training** — She learned from her mother (a godswife), mages in Asshai, a moonsinger of the Jogos Nhai, a Dothraki herbwoman, and Maester Marwyn from Westeros.
-21. **Jorah confirms Marwyn's credentials** — He notes that only Citadel-trained maesters wear chains of many metals, and they know healing.
-22. **Drogo agrees to Mirri's treatment** — He enters the temple despite Qotho's objections.
-23. **Mirri treats Drogo's wounds** — Inside the temple, she removes the arrow, pours boiling wine over the wounds, applies a green paste, stitches the chest wound with silver needle and silk thread, applies red ointment, covers with leaves, and binds with lambskin.
-24. **Mirri gives aftercare instructions** — She tells Drogo to say certain prayers, keep the lambskin on for ten days and nights, and drink neither wine nor milk of the poppy.
-25. **Drogo rejects restrictions** — He declares he will drink what he likes, spits on pain, and orders Cohollo to bring his vest.
-26. **Dany asks Mirri to attend her birth** — Mirri agrees, saying she has never lost a babe and knows the secrets of the "bloody bed."
-27. **Qotho threatens Mirri** — He warns that as the khal fares, so shall she. Mirri answers that "the Great Shepherd guards the flock."
-28. **Drogo departs the temple** — He declares "the stallions call, this place is ashes. It is time to ride."
+1. **Dany rides through the battlefield aftermath** — She surveys the dead: slain sheep, headless corpses, dying horses, wounded men. Jaqqa rhan harvest heads, girls collect arrows, dogs scavenge.
+2. **The sacked town is observed** — The Lhazareen town is burning. Women and children of Ogo's khalasar walk in bondage with pride. Lhazareen townsfolk — mostly mothers, children, cripples, and old men — are herded as captives.
+3. **A boy is run down and killed** — A Lhazareen boy tries to flee toward the river. Dothraki riders chase him, whip him bloody, and shoot him with an arrow when he can only crawl.
+4. **Ser Jorah meets Dany at the gate** — He reports Drogo is unhurt save minor cuts, and has killed Khal Ogo and his son Fogo. Drogo's bloodriders took their bells.
+5. **Dany witnesses a gang rape** — A Lhazareen girl Dany's age is being raped by multiple riders across the road from her.
+6. **Dany commands the rape stopped** — She orders Ser Jorah, Jhogo, and Quaro to intervene. They object (Dothraki custom), but she insists, invoking Drogo's name.
+7. **Ser Jorah compares Dany to Rhaegar** — When she orders him to go, he says she is her brother's sister; she assumes he means Viserys, but he says "No — Rhaegar."
+8. **Jhogo and the khas stop the rapists** — Jhogo beheads one man. The other riders look at Dany coldly but disperse. Ser Jorah pulls the last rapist off the girl; Aggo kills him with an arrow. Jorah wraps the girl in his cloak and brings her to Dany.
+9. **Dany gives the rescued girl to Doreah for care** — She instructs Doreah because she doesn't have "a rider's look."
+10. **Dany claims more women as she rides through town** — Inside the burning town, she stops at each rape, sends her khas to end it, and claims the victims. One woman blesses her in the Common Tongue; others stare with suspicion.
+11. **Ser Jorah advises she cannot claim them all** — Dany asserts her authority as khaleesi and blood of the dragon.
+12. **Dany finds Khal Drogo before the temple** — He sits beside a pile of heads taller than himself; he has an arrow in his arm and an arakh wound across his chest (left nipple cut away). His three bloodriders are with him.
+13. **Jhiqui helps Dany dismount** — Dany has grown clumsy with pregnancy.
+14. **Mago protests to Drogo** — He complains through Haggo that Dany took "his" rape victim. Drogo asks Dany for her side.
+15. **Dany explains and proposes marriage for captive women** — She tells Drogo what she did and suggests warriors take the women as wives rather than rape slaves.
+16. **Qotho mocks her; Dany retorts** — Qotho asks "Does the horse breed with the sheep?" Dany replies "The dragon feeds on horse and sheep alike."
+17. **Drogo supports Dany** — He praises her fierceness, attributes it to their unborn son, tells Qotho to ride slowly and Mago to find another lamb. The women belong to his khaleesi.
+18. **Drogo grimaces in pain** — His wounds are worse than Ser Jorah indicated. Dany demands healers. Cohollo says Drogo sent the hairless men (eunuch healers) away.
+19. **Mirri Maz Duur offers to heal Drogo** — She identifies herself as godswife of the temple with healing skills. The bloodriders call her maegi and want her killed.
+20. **Mirri describes her training** — Learned from her mother (godswife), studied in Asshai (moonsinger of Jogos Nhai, a Dothraki woman, and Maester Marwyn taught her).
+21. **Ser Jorah confirms Marwyn's maester credentials** — He recognizes the description of a maester's chain and vouches for Citadel-trained healers.
+22. **Drogo allows Mirri to treat him** — They enter the temple. Mirri removes the arrow, washes wounds with boiling wine, applies paste and plaster, sews the chest wound with silver needle and silk thread, applies red ointment and lambskin binding.
+23. **Mirri gives healing instructions** — Ten days and ten nights with lambskin; no wine or milk of the poppy. Drogo dismisses her cautions.
+24. **Dany asks Mirri to attend her birth** — Mirri agrees. Drogo says a slave is told, not asked.
+25. **Qotho threatens Mirri** — He warns that as the khal fares, so shall she. She answers invoking the Great Shepherd.
 
 ## Spatial Layout & Movement
 | Phase | Who | Position / Movement | Relative To | Notes |
 |-------|-----|---------------------|-------------|-------|
-| Opening | Daenerys | Riding her silver through the fields of the dead | Outside the town walls | Handmaids and khas follow behind |
-| Opening | Jaqqa rhan | Moving among dead and dying | Battlefield | Taking heads with heavy axes |
-| Opening | Small girls | Following jaqqa rhan | Battlefield | Pulling arrows from corpses |
-| Opening | Feral dogs | Following last of all | Behind the khalasar | Lean and hungry pack |
-| Advance | Daenerys | Rides toward the town gate | From battlefield to town | Witnesses rape across the road; turns silver toward gate |
-| Arrival | Ser Jorah | Meets Dany outside the shattered gate | Town gate | Reports on Drogo's status |
-| Confrontation | Jhogo, Quaro, Aggo, Rakharo | Ride to stop the rapers | Across the road from Dany | Jhogo beheads one; Aggo kills another |
-| Advance | Daenerys | Rides through the broken wooden gate into the town | Town interior | Worse inside — fires, headless corpses, narrow lanes |
-| Patrol | Daenerys and khas | Move through the town, stopping at each rape | Throughout the burning town | Claims multiple women as slaves |
-| Arrival | Daenerys | Finds Drogo seated before the temple | Square temple with onion dome | Pile of heads beside him |
-| Assembly | Daenerys, Drogo, bloodriders, Mago | Gathered before the temple | Temple exterior | Mago's complaint and Drogo's ruling |
-| Advance | Daenerys and Drogo | Walk into the temple | From exterior to interior | Dany supports Drogo's weight; bloodriders follow |
-| Assembly | Daenerys, Drogo, Mirri, bloodriders | Inside the high central chamber | Beneath the onion dome | Drogo lies on the altar for treatment |
-| Departure | Drogo, Haggo | Leave the temple | Temple | "The stallions call, this place is ashes" |
+| Opening | Dany, handmaids, khas | Riding through fields of dead outside the town | Battlefield, town gate | Surveying aftermath |
+| Advance | Dany | Approaching town gate | From fields toward the broken gate | Passing dead sheep, dying horses, wounded men |
+| Confrontation | Dany | Stops on road, orders khas to stop rape | Across the road from rape | Girl being raped visible from Dany's position |
+| Advance | Jhogo, Quaro, Aggo, Rakharo | Ride to rapists; Jhogo beheads one | Across the road | Aggo points back at Dany on her silver |
+| Advance | Ser Jorah | Dismounts, pulls rapist off victim | At the rape site | Kills rapist (Aggo's arrow); wraps girl in his cloak |
+| Advance | Dany, khas, claimed women | Rides through broken wooden gate into the town | From outside to inside the town | Stopping at each rape scene |
+| Assembly | Dany, growing group of claimed women | Multiple stops inside town | Various narrow twisty lanes | Four stops mentioned explicitly |
+| Arrival | Dany | Finds Drogo before the temple | Square windowless temple with onion dome | Pile of heads beside Drogo |
+| Confrontation | Mago | Rides up, dismounts, protests to Haggo/Drogo | Before the temple | Complains about Dany taking his spoils |
+| Advance | Dany, Drogo, bloodriders | Walk into the temple | From outside temple through anterooms to central chamber | Dany supports Drogo's weight; he's wounded |
+| Assembly | Drogo, Mirri, bloodriders, Dany | Inside central chamber under dome | At the blue-veined stone altar | Ser Jorah and khas guard the entrance outside |
+| Departure | Drogo, Haggo | Leave the temple | From altar to outside | Drogo jumps down from altar; Qotho lingers to threaten Mirri |
 
 ## Information Revealed
 | Information | How Revealed | Known To (Characters) | Known To (Reader Only?) |
 |-------------|-------------|----------------------|------------------------|
-| Drogo defeated and killed both Khal Ogo and his son Fogo | Ser Jorah tells Dany | Dany, Jorah, the khalasar | No |
-| Approximately ten thousand captives taken | Jorah tells Dany | Dany, Jorah | No |
-| Illyrio has written about a plague in Meereen; brothels paying premium for slaves | Jorah tells Dany | Dany, Jorah | No |
-| Mirri Maz Duur trained in Asshai with mages, and with Maester Marwyn | Mirri tells Dany and Jorah | Dany, Jorah, bloodriders | No |
-| Maester Marwyn traveled to Asshai | Mirri's testimony, confirmed by Jorah recognizing the chain description | Dany, Jorah | No |
-| Drogo's wounds are worse than Jorah initially reported | Dany observes them directly — left nipple cut off, arrow in arm | Dany | No |
-| Drogo sent away the eunuch healers | Cohollo tells Dany | Dany, bloodriders | No |
-| Mirri Maz Duur claims never to have lost a babe and knows birthing songs | Mirri tells Dany | Dany | No |
-| The Lhazareen call themselves by that name; Dothraki call them "haesh rakhi" (Lamb Men) | Jorah tells Dany | Dany, Jorah | No |
-| Peace is enforced in Vaes Dothrak — "every rider was a brother and all quarrels put aside" | Dany's internal narration recalling the naming feast | Dany | No |
+| Drogo killed both Khal Ogo and his son Fogo in battle | Ser Jorah reports to Dany | Dany, Ser Jorah, the khalasar | No |
+| Drogo's bloodriders took bells from Ogo and Fogo | Ser Jorah reports | Dany, Ser Jorah | No |
+| May be as many as ten thousand captives | Ser Jorah estimates | Dany, Ser Jorah | No |
+| Meereen had a plague last year; brothels paying double/triple for slaves | Ser Jorah, citing Illyrio's letters | Dany, Ser Jorah | No |
+| Illyrio is writing to Ser Jorah | Revealed in conversation | Dany, Ser Jorah, the reader | No — but the correspondence itself is notable |
+| The Lhazareen call themselves the Lhazareen; Dothraki call them haesh rakhi (Lamb Men) | Ser Jorah tells Dany | Dany, Ser Jorah | No |
+| Mirri Maz Duur is godswife of the temple | Mirri introduces herself | Dany, Drogo, bloodriders | No |
+| Mirri studied in Asshai and was taught by Maester Marwyn | Mirri tells Dany | Dany, Ser Jorah, bloodriders | No |
+| Marwyn wore a maester's chain | Mirri describes; Jorah confirms significance | Dany, Ser Jorah | No |
+| The Dothraki khalasar has two types of healers: barren women (herbwomen) and eunuch slaves | Narration | Dany | No |
+| Drogo's wounds are worse than Ser Jorah initially reported | Dany observes directly | Dany | No |
+| Drogo sent the eunuch healers away to treat other riders first | Cohollo tells Dany | Dany, Cohollo | No |
+| Mirri's healing instructions: keep lambskin ten days/nights, no wine or milk of poppy | Mirri tells Drogo | Dany, Drogo, bloodriders | No |
+| Dany's time to give birth is near | Dany states to Mirri | Mirri, Dany | No |
 
 ## Dialogue of Note
 | Speaker | Listener | Quote/Paraphrase | Context |
 |---------|----------|------------------|---------|
-| Ser Jorah | Dany | "You are your brother's sister, in truth." / "No … Rhaegar." | After Dany commands him to stop the rapes; he compares her to Rhaegar, not Viserys |
-| Dany | Jhogo, Quaro | "I want no rape." | Commanding her khas to stop the Dothraki from raping Lhazareen women |
-| Quaro | Dany | "She is a lamb girl … She is nothing, Khaleesi. The riders do her honor." | Expressing the Dothraki view of the conquered |
-| Dany | Quaro/khas | "I claim her. Do as I command you, or Khal Drogo will know the reason why." | Asserting her authority as khaleesi |
-| Ser Jorah | Dany | "I've told the khal he ought to make for Meereen … the brothels are paying double for healthy young girls, and triple for boys under ten." | Advising on slave trade routes; reveals Illyrio's correspondence |
-| Dany | Ser Jorah | "I am khaleesi, heir to the Seven Kingdoms, the blood of the dragon. It is not for you to tell me what I cannot do." | When Jorah tells her she cannot claim all the women |
-| Qotho | Dany | "Does the horse breed with the sheep?" | Mocking Dany's suggestion that warriors take Lhazareen women as wives |
-| Dany | Qotho | "The dragon feeds on horse and sheep alike." | Sharp retort; something in Qotho's tone reminded her of Viserys |
-| Drogo | Qotho, Mago | "See how fierce she grows! … if the mother does not burn you where you sit, the son will trample you into the mud." | Praising Dany's fierceness; attributes it to the unborn "stallion who mounts the world" |
-| Mirri Maz Duur | Dany | "I am named Mirri Maz Duur. I am godswife of this temple." | Introducing herself |
-| Mirri Maz Duur | Dany, Jorah | Description of her training — mother taught her, traveled to Asshai, learned from moonsinger, Dothraki herbwoman, and Maester Marwyn | Establishing her healing credentials |
-| Mirri Maz Duur | Jorah | "Marwyn, he named himself … From the sea. Beyond the sea. The Seven Lands … Where men are iron and dragons rule." | Identifying the maester who taught her |
-| Mirri Maz Duur | Dany | "All men are one flock, or so we are taught. The Great Shepherd sent me to earth to heal his lambs, wherever I might find them." | Explaining why she would help Drogo |
-| Drogo | Mirri | "I am khal. I spit on pain and drink what I like." | Rejecting her aftercare instructions |
-| Mirri Maz Duur | Dany | "I know every secret of the bloody bed, Silver Lady, nor have I ever lost a babe." | When Dany asks her to attend the birth |
-| Qotho | Mirri | "Remember, maegi, as the khal fares, so shall you." | Threatening Mirri as they leave |
-| Mirri Maz Duur | Qotho | "As you say, rider. The Great Shepherd guards the flock." | Her reply to Qotho's threat |
-| Dany | (internal) | "I am the blood of the dragon." | Steeling herself as she witnesses the rape across the road |
-| Dany | (internal) | "This is war, this is what it looks like, this is the price of the Iron Throne." | Attempting to harden herself to the slavery |
-| Dany | Drogo | "I am no man, so you may lean on me." | Offering to support him walking to the temple |
+| Ser Jorah | Dany | "You are your brother's sister, in truth." / "Viserys?" / "No. Rhaegar." | After Dany commands him to stop the rape; a significant comparison |
+| Ser Jorah | Dany | "I've told the khal he ought to make for Meereen … the brothels are paying double for healthy young girls, and triple for boys under ten." | Casually discussing slave prices; Dany does not respond directly |
+| Dany | Ser Jorah | "Make them stop." | Hearing the raped girl's wail; Dany's first command to intervene |
+| Quaro | Dany | "She is a lamb girl. She is nothing, Khaleesi. The riders do her honor." | Defending Dothraki custom |
+| Jhogo | Dany | "If her wailing offends your ears, Khaleesi, Jhogo will bring you her tongue." | Misunderstanding Dany's concern |
+| Dany | All | "I claim her. Do as I command you, or Khal Drogo will know the reason why." | Asserting authority |
+| Qotho | Dany | "Does the horse breed with the sheep?" | Mocking Dany's suggestion that warriors marry captive women |
+| Dany | Qotho | "The dragon feeds on horse and sheep alike." | Fierce retort |
+| Drogo | Qotho, Mago | "See how fierce she grows! … the stallion who mounts the world, filling her with his fire. Ride slowly, Qotho … hold your tongue and find another lamb to mount. These belong to my khaleesi." | Supporting Dany; attributing her fierceness to their unborn son |
+| Mirri Maz Duur | Dany | "My mother was godswife before me … I went in caravan to Asshai by the Shadow … a maester from the Sunset Lands opened a body for me and showed me all the secrets that hide beneath the skin." | Describing her extensive training |
+| Mirri Maz Duur | Ser Jorah | "Marwyn, he named himself … The Seven Lands, he said. Sunset Lands. Where men are iron and dragons rule." | Identifying the maester who taught her |
+| Dany | Drogo | "I am no man, so you may lean on me." | Tenderly helping wounded Drogo walk to the temple |
+| Drogo | Dany, all | "I am khal. I spit on pain and drink what I like." | Dismissing Mirri's healing cautions |
+| Qotho | Mirri | "Remember, maegi, as the khal fares, so shall you." | Threatening her as they leave the temple |
+| Mirri | Qotho | "As you say, rider. The Great Shepherd guards the flock." | Calm response to threat |
 
 ## POV Character's Internal State
-- **Emotional state:** Deeply disturbed by the violence, rape, and slavery she witnesses; pities the Lhazareen; steels herself by invoking her identity as "blood of the dragon"; anger at Qotho (his tone reminds her of Viserys); sadness when rescued women fear her motives; growing confidence and assertiveness as khaleesi
-- **Primary preoccupation:** Stopping the rapes of Lhazareen women; Drogo's wounds; the approaching birth of her child
-- **Key decisions made:** Commands her khas to stop rapes and claims the women as her own slaves; insists Mirri Maz Duur treat Drogo over bloodriders' objections; asks Mirri to attend her birth; suggests warriors take Lhazareen women as wives rather than rape them
-- **Self-deception flags:** Tells herself "this is the price of the Iron Throne" to justify the enslavement and violence she is complicit in; trusts Mirri Maz Duur based on having rescued her, believing the woman would feel gratitude ("she had saved her from the hard hands of her rapers, after all")
+- **Emotional state:** Conflicted — horrified by the violence and rape, pitying the Lhazareen, but telling herself she must be strong. Growing fierce and assertive as she intervenes. Feels sadness when the rescued women regard her with suspicion.
+- **Primary preoccupation:** Stopping the rapes and protecting the captive women; Drogo's wounds and whether they are serious; her approaching childbirth.
+- **Key decisions made:** Orders the rapes stopped despite Dothraki custom; claims victims as her own slaves; insists on Mirri Maz Duur healing Drogo over the bloodriders' objections; asks Mirri to attend her birth.
+- **Self-deception flags:** Tells herself "This is war, this is what it looks like, this is the price of the Iron Throne" — rationalizing the violence as necessary for her goals. Trusts Mirri because she saved her, reasoning "she had saved her from the hard hands of her rapers, after all" — a thin basis for trusting someone with Drogo's life.
 
 ## Relationships Observed
 | Character A | Relationship | Character B | Evidence |
 |-------------|-------------|-------------|----------|
-| Daenerys | wife, growing authority | Khal Drogo | Dany intercedes for captive women; Drogo rules in her favor and praises her fierceness |
-| Daenerys | commands | Jhogo, Quaro, Aggo, Rakharo | She orders her khas to stop rapes; they obey despite bewilderment |
-| Daenerys | commands/protects | Mirri Maz Duur | Dany claims Mirri as her slave, prevents bloodriders from harming her, trusts her to heal Drogo |
-| Daenerys | tension/asserts authority over | Ser Jorah | Jorah advises caution; Dany overrules him; he also compares her favorably to Rhaegar |
-| Ser Jorah | advisor/admirer | Daenerys | Compares her to Rhaegar; obeys her commands; expresses both caution and respect |
-| Ser Jorah | correspondent | Illyrio Mopatis | Jorah references letters from Illyrio about slave prices in Meereen |
-| Khal Drogo | husband, pride in | Daenerys | Calls her "moon of my life"; praises her fierceness; attributes it to their unborn son |
-| Khal Drogo | commands | Qotho, Mago | Tells Qotho to ride slowly and Mago to hold his tongue and find another |
-| Qotho | hostile, threatening | Mirri Maz Duur | Slaps her; orders Aggo to cut out her tongue; threatens her as they leave |
-| Qotho | cruelest bloodrider to | Daenerys | Mocks her suggestion with "does the horse breed with the sheep"; his tone reminds Dany of Viserys |
-| Aggo | conflicted loyalty | Daenerys vs. Qotho | Grabs Mirri on Qotho's order but looks between Qotho and Dany, then defers to Dany |
-| Haggo | bloodrider to | Khal Drogo | Translates Mago's complaint; offers to carry Drogo; calls Mirri "maegi" |
-| Cohollo | bloodrider to | Khal Drogo | Described as old; wounded himself; insists on staying in temple ("we are blood of his blood"); fetches Drogo's vest |
-| Mago | aggrieved warrior | Daenerys | Complains that Dany took his claimed Lhazareen girl |
-| Mirri Maz Duur | former student of | Maester Marwyn | Marwyn taught her the Common Tongue and showed her healing anatomy in Asshai |
-| Daenerys | reminded of Viserys by | Qotho | "Something in his tone reminded her of Viserys" |
-| Daenerys | compared to Rhaegar by | Ser Jorah | "You are your brother's sister, in truth … No … Rhaegar" |
+| Dany | wife of / devoted to | Drogo | Calls him "my sun-and-stars"; supports him physically; demands healers for him |
+| Drogo | husband of / supportive of | Dany | Calls her "moon of my life"; supports her claims over captive women; praises her fierceness |
+| Dany | commands | Jhogo, Quaro, Aggo, Rakharo | Orders them to stop rapes; they obey (after hesitation) |
+| Dany | commands / trusts | Ser Jorah | Orders him to stop rapes and guard temple; he obeys and advises |
+| Ser Jorah | advises / respects | Dany | Compares her to Rhaegar (highest praise); advises on Meereen; calls her "Princess" |
+| Ser Jorah | corresponds with | Illyrio | "Illyrio writes that they had a plague last year" — active correspondence |
+| Qotho | hostile toward | Mirri Maz Duur | Slaps her; calls her maegi; threatens her life |
+| Qotho | hostile toward / mocking | Dany | Mocks her suggestion about marrying captive women; his tone reminds Dany of Viserys |
+| Haggo | suspicious of | Mirri Maz Duur | Calls her maegi; fingers his arakh; gives Dany a heavy look |
+| Cohollo | loyal to | Drogo | Reports on Drogo's instructions; insists on staying as "blood of his blood" |
+| Dany | protects / claims | Mirri Maz Duur | Saves her from rape; prevents Aggo from cutting her tongue; allows her to heal Drogo |
+| Mirri Maz Duur | healer of / obedient to | Drogo | Treats his wounds; gives healing instructions |
+| Mirri Maz Duur | student of | Marwyn | Marwyn taught her Common Tongue, showed her anatomy |
+| Mago | resentful of | Dany | Complains she took "his" rape victim |
+| Mago | subordinate to | Ko Jhaqo | Rides in Jhaqo's khas |
+| Drogo | killed | Khal Ogo | Slew him in battle |
+| Drogo | killed | Fogo | Slew him after he became khal upon Ogo's death |
+| Drogo | dismissive of / dominant over | Qotho, Mago | Tells Qotho to ride slowly, tells Mago to hold his tongue |
+| Dany | reminded of Viserys by | Qotho | "Something in his tone reminded her of Viserys" |
+| Dany | claims as slaves | Lhazareen women | Repeatedly claims rape victims throughout the town |
+| Irri | echoes Dothraki customs | Dany | "It is known" — reflects internalized Dothraki worldview |
+| Jhogo | obeys / serves | Dany | Beheads a man on her orders despite initial confusion |
 
 ## Unanswered Questions
 | Question | Raised By | Context |
 |----------|-----------|---------|
-| Will Drogo's wounds heal properly given his refusal to follow Mirri's instructions? | Narrative | Drogo rejects Mirri's prohibition on wine and milk of the poppy; his wounds are described as worse than initially reported |
-| Can Mirri Maz Duur be trusted to heal Drogo? | Bloodriders (Qotho, Haggo) | They call her "maegi" and distrust her; Dany trusts her based on having rescued her |
-| What is Maester Marwyn doing in Asshai? | Mirri's testimony | A Citadel-trained maester far from Westeros, teaching healing to foreign practitioners |
-| Will the Lhazareen women Dany claimed be safe within the khalasar? | Narrative | The women are suspicious of Dany's motives; Mago and others are resentful |
-| Will Mirri Maz Duur attend Daenerys's birth? | Dany's request | Dany asks Mirri to attend when her time comes; Mirri claims she has never lost a babe |
+| Will Drogo's wounds heal properly? | Narration | Wounds are worse than initially described; Drogo dismisses Mirri's healing cautions about wine/poppy; visible muscle through the wound |
+| Can Mirri Maz Duur be trusted? | Narration | The bloodriders call her maegi; Dany trusts her on thin evidence (having saved her from rape); Qotho's warning carries an implied threat to both |
+| What is the nature of Illyrio's correspondence with Ser Jorah? | Narration | Jorah casually references "Illyrio writes" about slave markets; suggests ongoing communication |
+| What will become of the claimed Lhazareen women? | Narration | Dany has claimed them but their status within the khalasar is unclear; the women themselves are suspicious of her motives |
+| How will the bloodriders (especially Qotho and Mago) react to Dany's interventions? | Narration | Qotho is openly hostile; Mago was overruled; tensions are established |
+| Will Drogo follow Mirri's healing instructions? | Narration | Drogo explicitly says "I spit on pain and drink what I like," directly contradicting her instructions |
 
 ## Raw Entity List
+
 ### Characters
-Daenerys Targaryen, Khal Drogo, Ser Jorah Mormont, Mirri Maz Duur, Jhogo, Quaro, Aggo, Rakharo, Qotho, Haggo, Cohollo, Irri, Jhiqui, Doreah, Mago, Khal Ogo (referenced), Fogo (referenced), Viserys Targaryen (referenced), Rhaegar Targaryen (referenced), Illyrio Mopatis (referenced), Marwyn (referenced), Ko Jhaqo (referenced)
+Daenerys Targaryen, Khal Drogo, Ser Jorah Mormont, Mirri Maz Duur, Jhogo, Quaro, Aggo, Rakharo, Qotho, Haggo, Cohollo, Mago, Irri, Doreah, Jhiqui, Khal Ogo, Fogo, Viserys, Rhaegar, Ko Jhaqo, Illyrio, Marwyn
 
 ### Locations
-Lhazareen town (unnamed), Temple of the Great Shepherd, Dothraki sea, Vaes Dothrak, Mother of Mountains, Slaver's Bay (referenced), Meereen (referenced), Asshai by the Shadow (referenced), The Citadel at Oldtown (referenced), Sunset Lands / Seven Lands (Westeros, referenced)
+Unnamed Lhazareen town, Lhazareen temple (god's house), Dothraki sea, Vaes Dothrak, Mother of Mountains, Slaver's Bay, Meereen, Asshai by the Shadow, The Citadel at Oldtown, Sunset Lands / Seven Lands (Westeros)
 
-### Artifacts
-Bells from Ogo's and Fogo's hair, Drogo's pile of severed heads, Mirri's silver needle and silk thread, Maester Marwyn's chain (referenced), Daenerys's silver horse, arakh (weapon type), skinning knife (Qotho's)
+### Houses
+House Targaryen (implied — "blood of the dragon")
 
-### Houses/Factions
-Drogo's khalasar, Ogo's khalasar (defeated), Lhazareen (Lamb Men), Jogos Nhai (referenced — moonsinger), Jaqqa rhan (mercy men), Ko Jhaqo's khas
+### Factions & Organizations
+Drogo's khalasar, Ogo's khalasar, Jaqqa rhan (mercy men), Ko Jhaqo's khas, Dany's khas
+
+### Religions & Faiths
+The Great Shepherd (Lhazareen religion — Mirri is godswife of temple; references to "flock" and shepherd imagery), Citadel-trained maesters (referenced as institution)
+
+### Cultures & Peoples
+Dothraki, Lhazareen (Lamb Men / haesh rakhi), Jogos Nhai (moonsinger mentioned by Mirri)
+
+### Artifacts & Objects
+Arakhs, bells (in braids — Ogo's and Fogo's taken by Drogo's bloodriders), blue-veined stone altar (carved with shepherds and flocks), silver needle and silk thread, skinning knife (Qotho's), longwhips, Drogo's silver (Dany's horse), tall grey stallion (Jhogo's, gift from Drogo)
+
+### In-world Texts & Songs
+Birthing songs (moonsinger of the Jogos Nhai), songs and spells of the Great Shepherd (Lhazareen healing tradition)
+
+### Magic & Phenomena
+Maegi (sorcery practitioners — described in Jhiqui's story as women who lie with demons and practice black sorcery, suck life and strength from men), healing arts (Mirri's skills — potions, spells, sacred smokes, ointments), Asshai mages (referenced as Mirri's teachers)
+
+### Wars & Conflicts
+Battle between Drogo's and Ogo's khalasars at the Lhazareen town (this chapter), sack of the Lhazareen town
+
+### Titles & Offices
+Khaleesi, Khal, Ko, Bloodrider, Godswife, Maester, Khalakka
+
+### Other
+Iron Throne (referenced by Dany as justification for the violence), stallion who mounts the world (Drogo's prophecy for their unborn son), jaqqa rhan / mercy men (battlefield role), haesh rakhi (Dothraki term for Lhazareen), milk of the poppy (medicinal), sacred smokes and ointments (healing materials)

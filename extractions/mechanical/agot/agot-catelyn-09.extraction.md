@@ -6,265 +6,272 @@
 - **pov_character:** Catelyn Stark
 - **pov_chapter_number:** Catelyn IX
 - **first_available:** AGOT Catelyn IX
-- **location_primary:** The Twins (both castles and bridge)
-- **location_secondary:** The Neck (bogs, causeway), the riverlands, the Green Fork, camp on southern edge of the bogs
-- **approximate_timeline:** The northern host has marched south through the Neck into the riverlands; Robb's army approaches and crosses the Twins; the Battle of Riverrun has already occurred (Edmure defeated and captured by Jaime)
-- **time_markers:** Days of marching through the Neck and riverlands; one night camping on the southern edge of the bogs (halfway between the kingsroad and the river); "the next morning" Ser Brynden rides back; arrival at the Twins "near midday"; Catelyn given until "evenfall" to negotiate; departure with Ser Stevron's party; "they crossed at evenfall as a horned moon floated upon the river"; the crossing takes "hours"
-- **chapter_summary:** Catelyn rides south with Robb's northern host through the Neck into the riverlands, anxious about her family. They learn that Walder Frey has massed four thousand men at the Twins and closed his gates. Ser Brynden Tully brings news that Jaime Lannister has defeated Edmure's host at Riverrun and taken Edmure prisoner. Catelyn volunteers to negotiate with Lord Walder Frey alone, enduring his complaints and grievances, and strikes a bargain: passage and Frey swords in exchange for wardship of two Frey grandsons, Olyvar Frey as Robb's squire, Arya's betrothal to Elmar Frey, and Robb's betrothal to a Frey daughter of his choosing. The army crosses at evenfall, with the horse going west under Robb and the foot remaining east under Roose Bolton.
+- **location_primary:** The Twins
+- **location_secondary:** The Neck (bogs), southern edge of bogs (camp), Green Fork, riverlands
+- **approximate_timeline:** Late in the novel; the northern host has marched south through the Neck into the riverlands and reaches the Twins
+- **time_markers:** Camp made at night on the southern edge of the bogs; next morning Ser Brynden rides back; near midday the vanguard comes in sight of the Twins; Catelyn required to return by evenfall; swollen red sun hung low against the western hills when she emerges; they cross at evenfall as a horned moon floated upon the river; crossing takes hours
+- **chapter_summary:** Catelyn rides south with Robb's host through the Neck into the riverlands, growing anxious about multiple family members. They learn Walder Frey has massed four thousand men at the Twins and closed his gates. Ser Brynden brings news that the Kingslayer has defeated Edmure's host and besieged Riverrun. Catelyn volunteers to negotiate with Lord Walder Frey alone. During the negotiation, Lord Walder reveals that Jon Arryn had planned to foster his son Robert with Stannis Baratheon at Dragonstone, not Tywin Lannister. Catelyn secures passage and Frey swords in exchange for fostering two Frey grandsons at Winterfell, taking Olyvar Frey as Robb's squire, betrothing Arya to Elmar Frey, and betrothing Robb to a Frey daughter of his choosing. The army splits: cavalry crosses west under Robb, while foot soldiers remain east under Roose Bolton to march south against Lord Tywin.
 
 ## Physical Environment
-- **Weather:** Not explicitly described; the river is running "high and fast"
-- **Season indicators:** None stated directly
-- **Time of day:** Multiple transitions — days of marching; night camp on the bogs; next morning (Brynden's arrival); near midday (arrival at Twins); evenfall (Catelyn's return from negotiations and the crossing); a horned moon rises during the crossing
-- **Lighting:** "A swollen red sun hung low against the western hills" when Catelyn emerges from negotiations; moonlight during the crossing ("a horned moon floated upon the river"); the glitter of eyes through murder hole slats
+- **Weather:** Not explicitly described; the river is running high and fast
+- **Season indicators:** None explicitly stated
+- **Time of day:** Night (camp on southern edge of bogs); morning (Ser Brynden arrives); near midday (vanguard reaches the Twins); evenfall (Catelyn exits the castle; army crosses); nightfall (horned moon on the river)
+- **Lighting:** Swollen red sun hung low against the western hills when Catelyn emerges from the castle; horned moon floated upon the river during the crossing; glitter of eyes peering through murder hole slats
 - **Sounds:** Clatter of countless hooves on the drawbridge; the drawbridge creaking down; the portcullis being winched up
 - **Smells:** None described
-- **Notable sensory details:** The black bogs of the Neck; the deep-running green waters of the Green Fork; Lord Walder's papery dry kiss on Catelyn's hand; ravens flying overhead causing Catelyn to clench her teeth
+- **Notable sensory details:** Lord Walder plants a papery dry kiss on Catelyn's hand; a cold hand clutched at Catelyn's heart (figurative, upon hearing of Edmure's defeat)
 
 ## Characters Present
 | Character | Role in Chapter | First Appearance? | Notes |
 |-----------|----------------|-------------------|-------|
-| Catelyn Stark | POV; negotiator with Lord Walder Frey | No | Rides at the head of the column; volunteers to enter the Twins alone to negotiate |
-| Robb Stark | Commander of the northern host | No | Rides at the front beneath the Winterfell banner; consents to the marriage pact |
-| Grey Wind | Robb's direwolf; companion | No | Pads by Robb's side; Ser Stevron's gelding shies from him |
-| Ser Brynden Tully (the Blackfish) | Scout commander; Catelyn's uncle | No | Commands 100 outriders screening ahead; brings news of Battle of Riverrun |
-| Theon Greyjoy | Messenger from the Blackfish | No | Reports on Lannister scouts and Frey activity |
-| Lord Walder Frey | Lord of the Crossing; negotiating counterpart | No (uncertain — verify) | Ninety years old; gouty; sharp-tongued; drives a hard bargain |
-| Lady Frey (eighth wife) | Lord Walder's wife | Yes (uncertain — verify) | Pale, frail girl of sixteen |
-| Ser Stevron Frey | Lord Walder's heir; envoy | Yes (uncertain — verify) | Past sixty; leads the Frey delegation; polite |
-| Ser Perwyn Frey | Frey envoy; hostage exchange | Yes (uncertain — verify) | Youngest of the four Frey envoys; stays with Robb as surety |
-| Ser Jared Frey | Lord Walder's son; confirms Lord Walder's claims | Yes (uncertain — verify) | Son by second wife; described as tall, stooped, fifty years old |
-| Ser Hosteen Frey | Leads pikemen out of the Twins | Yes (uncertain — verify) | Referenced as having been unhorsed in a tourney |
-| Ser Danwell Frey | Leads pikemen; helps Lord Walder to his chair | Yes (uncertain — verify) | Referenced as having been unhorsed by a hedge knight in a tourney |
-| Ronel Rivers | Lord Walder's bastard son; leads pikemen | Yes (uncertain — verify) | Leads column of pikemen with the other Frey sons |
-| Robett Glover | Robb's companion of the day | Yes (uncertain — verify) | Rides with Robb in the vanguard |
-| The Greatjon (Jon Umber) | Northern lord | No | Curses when he sees the fortified Twins |
-| Lord Rickard Karstark | Northern lord | No | Glowers in silence at the Twins |
-| Roose Bolton | Northern lord; given command of the eastern force | No | Announces the castle cannot be assaulted; commands the foot soldiers remaining east of the river |
-| Helman Tallhart | Northern lord | No | Notes siege impracticality; Catelyn suggests him for the Twins garrison command |
-| Galbart Glover | Northern lord | No | Pleads with Robb not to enter the Twins |
-| Ser Wendel Manderly | Northern lord | No | Suggests Lord Walder open his gates instead |
-| Ser Wylis Manderly | Northern lord | No | Suggests Lord Walder come out to treat with Robb |
-| Ryger (Frey bastard) | Lord Walder's bastard son | Yes (uncertain — verify) | Rebuked by Lord Walder for presuming to teach courtesy; his mother "was milking goats" |
-| Whalen Frey | Lord Walder's son | Yes (uncertain — verify) | Helps carry Lord Walder to his chair |
+| Catelyn Stark | POV character, negotiator | No | Rides with the host, then negotiates with Lord Walder alone |
+| Robb Stark | Commander of the northern host | No | Rides at the front of the column; defers to Catelyn's counsel |
+| Grey Wind | Robb's direwolf companion | No | Pads by Robb's side; races beside his stallion |
+| Ser Brynden Tully (the Blackfish) | Scout commander, Catelyn's uncle | No | Commands outriders screening the host's movements |
+| Theon Greyjoy | Messenger from the Blackfish | No | Brings reports from Ser Brynden to Robb and Catelyn |
+| Robett Glover | Lord, Robb's companion of the day | No (uncertain — verify) | Rides with Robb at the vanguard |
+| Galbart Glover | Lord bannerman | No (uncertain — verify) | Advises Robb against entering the Twins |
+| Greatjon Umber | Lord bannerman | No | Curses when he sees the Twins' defenses |
+| Lord Rickard Karstark | Lord bannerman | No | Glowers in silence at the Twins |
+| Roose Bolton | Lord bannerman, given command of foot | No | Declares the castle cannot be assaulted; commands the eastern force |
+| Helman Tallhart | Lord bannerman | No | Notes the impossibility of siege; chosen to command garrison at Twins |
+| Ser Wendel Manderly | Knight bannerman | No (uncertain — verify) | Suggests Lord Walder come out or open gates |
+| Ser Wylis Manderly | Knight bannerman | No (uncertain — verify) | Suggests Lord Walder treat with Robb in open |
+| Walder Frey (Lord) | Lord of the Crossing, negotiating party | No | Ninety years old; negotiates the terms for crossing |
+| Lady Frey (8th wife) | Lord Walder's newest wife | Yes (uncertain — verify) | Pale, frail girl of sixteen; walks beside his litter |
+| Ser Stevron Frey | Lord Walder's heir, eldest son | Yes (uncertain — verify) | Past sixty; speaks for the Frey party; rides with the column after crossing |
+| Ser Perwyn Frey | Lord Walder's son, hostage | Yes (uncertain — verify) | Youngest of the four Frey envoys; remains as guest/hostage |
+| Ser Jared Frey | Lord Walder's son by second wife | Yes (uncertain — verify) | Confirms Lord Walder's claim he intended to march |
+| Ser Hosteen Frey | Lord Walder's son | Yes (uncertain — verify) | Rides out with the Frey column after the deal |
+| Ser Danwell Frey | Lord Walder's son | Yes (uncertain — verify) | Helps Lord Walder to his chair; rides out with column |
+| Whalen Frey | Lord Walder's son | Yes (uncertain — verify) | Helps Lord Walder to his chair |
+| Ryger Rivers | Lord Walder's bastard son | Yes (uncertain — verify) | Rebuked by Lord Walder for presuming to teach courtesy |
+| Ronel Rivers | Lord Walder's bastard son | Yes (uncertain — verify) | Leads the Frey pikemen column |
 
 ## Character Appearances
 | Character | Hair | Eyes | Build/Height | Scars/Marks | Clothing/Armor | Weapons Worn | Distinguishing Features | Age (if stated) |
 |-----------|------|------|-------------|-------------|----------------|-------------|------------------------|-----------------|
-| Robb Stark | | | | Stubble on his cheeks | Mail; sword; direwolf shield of Winterfell strapped to saddle | Sword | | Fifteen years old |
-| Ser Brynden Tully | | | | | Lighter leather-and-mail of an outrider (replaced heavy plate and helm from the Knight of the Gate) | | Obsidian fish cloak clasp | |
+| Robb Stark | | | | | Mail and sword; direwolf shield of Winterfell strapped to saddle | Sword | Stubble on his cheeks | Fifteen years |
+| Ser Brynden Tully | | | | | Lighter leather-and-mail of an outrider; obsidian fish clasp fastening his cloak | | Obsidian fish cloak clasp | |
 | Ser Stevron Frey | | Watery grey eyes | | | | | Looks like an especially old and tired weasel | Past sixty, with grandchildren |
-| Lord Walder Frey | Bald, spotted head | | Wizened | | | | Wizened pink weasel; too gouty to stand unassisted; papery dry hands; bony fingers | Ninety |
-| Lady Frey (eighth wife) | | | Pale, frail | | | | | Sixteen |
-| Ser Jared Frey | | | Tall, stooped | | | | | Fifty years old |
-| Frey family (general) | | | | | | | "The Freys all looked like weasels" | |
+| Walder Frey (Lord) | Bald, spotted head | | Wizened | | | | Wizened pink weasel; too gouty to stand unassisted; spotted pink head; bony finger | Ninety |
+| Lady Frey (8th wife) | | | Pale, frail | | | | | Sixteen |
+| Frey pikemen (column) | | | | | Blue steel ringmail, silvery grey cloaks | Pikes | | |
 
 ## Characters Referenced
 | Character | Context of Reference | Referenced By |
 |-----------|---------------------|---------------|
-| Lord Hoster Tully | Catelyn fears for her father; his "ominous silence"; Lord Walder says he's "sick, might be dying"; refused Frey marriage proposals; called Walder "the Late Lord Frey" | Catelyn (thought), Lord Walder |
-| Edmure Tully | Catelyn fears for him; led the Tully host; wounded and taken prisoner by Jaime at Riverrun; Lord Hoster rejected a Frey match for him | Catelyn, Ser Brynden, Lord Walder |
-| Eddard (Ned) Stark | Catelyn fears for him; Robb learned from him; "in some traitor's cell under the Red Keep" | Catelyn (thought), Lord Walder |
-| Arya Stark | Referenced in marriage pact — to wed Elmar Frey | Catelyn |
-| Bran Stark | Left behind at Winterfell; would welcome lads near his own age | Catelyn |
-| Sansa Stark (implied) | Catelyn fears for "her girls" | Catelyn (thought) |
-| Jaime Lannister (the Kingslayer) | Destroyed Edmure's host; went through him "like an axe through ripe cheese"; has Edmure in chains | Ser Brynden, Lord Walder |
-| Lord Tywin Lannister | His host is many days to the south marching north; Lord Walder mocks him at length | Scouts, Theon, Catelyn, Lord Walder |
+| Hoster Tully (Lord) | Catelyn fears for her lord father and wonders at his ominous silence; described as sick, might be dying | Catelyn, Lord Walder |
+| Edmure Tully | Catelyn fears for him; he called the banners; defeated and captured by the Kingslayer | Catelyn, Ser Brynden |
+| Eddard (Ned) Stark | Catelyn fears for Ned and her girls; recalls his manner of listening; described as being in a traitor's cell under the Red Keep | Catelyn, Lord Walder |
+| Sansa Stark | Implied as one of "her girls" in King's Landing | Catelyn (implied) |
+| Arya Stark | Implied as one of "her girls"; named in the betrothal terms to Elmar Frey | Catelyn |
+| Bran Stark | One of the "sweet sons" left at Winterfell; mentioned as suitable companion for Frey wards | Catelyn |
+| Rickon Stark | Implied as one of the "sweet sons" left at Winterfell | Catelyn (implied) |
+| Tywin Lannister | Lannister host marching north; Warden of the West, Hand of the King | Multiple characters, Lord Walder |
+| Jaime Lannister (the Kingslayer) | Destroyed Edmure's host; besieging Riverrun | Ser Brynden, Lord Walder |
 | Ser Addam Marbrand | Commands Lannister outriders; pulling back south, burning as he goes | Theon Greyjoy |
-| Lord Blackwood | Survived the battle at Riverrun; under siege inside Riverrun | Ser Brynden |
-| Olyvar Frey | To serve as Robb's personal squire; Lord Walder wants him knighted | Catelyn |
+| Lord Blackwood | Survivor under siege inside Riverrun | Ser Brynden |
+| Joffrey | Named as king by Lord Walder | Lord Walder |
+| Lysa Arryn | Lord Walder's grievance about fostering refusal; "frosted up" at his proposal | Lord Walder |
+| Jon Arryn | Was Hand of the King; planned to foster Robert Arryn with Stannis; died | Lord Walder |
+| Stannis Baratheon | Jon Arryn planned to send Robert Arryn to foster with him at Dragonstone | Lord Walder |
+| Robert Arryn | Subject of the fostering dispute; Lysa's boy | Lord Walder, Catelyn |
+| Olyvar Frey | To serve as Robb's personal squire | Catelyn |
 | Elmar Frey | Lord Walder's youngest son; betrothed to Arya | Catelyn |
-| Lysa Arryn | Lord Walder recalls her reaction to fostering proposal; "frosted up" at the suggestion | Lord Walder |
-| Jon Arryn | Was Hand of the King; Lord Walder recounts the fostering dispute; was going to foster his son with Stannis Baratheon; died | Lord Walder |
-| Robert Arryn (Lysa's boy) | Was to be fostered with Stannis at Dragonstone, per Lord Walder; Catelyn thought it was Casterly Rock with Lord Tywin | Lord Walder, Catelyn |
-| Stannis Baratheon | Jon Arryn intended to foster Robert Arryn with him at Dragonstone | Lord Walder |
-| Joffrey | Named as king by Lord Walder; makes Starks and Tullys rebels | Lord Walder |
-| Tywin Lannister's sister | Married to one of Lord Walder's sons | Catelyn |
-| Merrett Frey | Father of one of the ward Walders | Lord Walder |
-| "Ser Daisy" (Tyrell whelp) | Unhorsed Hosteen Frey at a tourney | Lord Walder |
+| Walder Frey (grandson, Merrett's son) | One of two Frey wards to be sent to Winterfell, aged eight | Lord Walder |
+| Walder Frey (another grandson) | Second Frey ward to be sent to Winterfell, aged seven; Lord Walder can't recall the father | Lord Walder |
+| Merrett Frey | Father of one of the Frey wards named Walder | Lord Walder |
+| Ser Daisy (Tyrell whelp) | Unhorsed Hosteen Frey at a tourney | Lord Walder |
+| Lord Walder's third wife | A Crakehall; described as a slut; died before Catelyn was born | Lord Walder |
 
 ## Locations
 | Location | Role | First Appearance? |
 |----------|------|-------------------|
-| The Neck (causeway, black bogs) | March route; army exits southward | No |
-| The riverlands | Territory entered after the Neck | No |
-| The kingsroad | Landmark referenced for camp positioning | No |
-| The Green Fork | River obstacle; must be crossed | No |
-| The Twins (east castle, west castle, bridge) | Primary setting; Frey seat; negotiation site | No (uncertain — verify) |
-| The Water Tower | Tower rising from center of the bridge span | Yes (uncertain — verify) |
-| Riverrun | Referenced — site of battle; under siege by Jaime | No |
-| Winterfell | Referenced — Catelyn's sons left behind; destination for Frey wards | No |
-| Casterly Rock | Referenced — Frey connections to Lannisters; Catelyn thought Robert Arryn was to foster there | No |
-| The Red Keep | Referenced — Ned is imprisoned there | No |
-| Moat Cailin | Referenced — fallback position if Robb cannot cross | No |
-| Dragonstone | Referenced — Jon Arryn was going to foster his son with Stannis there | No |
+| The Neck (bogs) | Route of march; northern host passes through | No |
+| Riverlands | Region entered after exiting the Neck | No |
+| Kingsroad | Reference point for camp location | No |
+| The Twins | Primary setting; castle complex of House Frey at the crossing of the Green Fork | No (uncertain — verify) |
+| Green Fork | River that must be crossed; running high and fast | No |
+| Water Tower | Central tower of the Twins rising from the bridge span | Yes (uncertain — verify) |
+| Riverrun | Under siege by the Kingslayer; Edmure's host destroyed there | No |
+| Moat Cailin | Mentioned as fallback position | No |
+| Casterly Rock | Referenced as place friendly to Lord Walder | No |
+| Red Keep | Where Ned Stark is held prisoner | No |
+| Dragonstone | Where Jon Arryn planned to foster Robert Arryn with Stannis | No |
+| Winterfell | Catelyn's home; where Bran remains; destination for Frey wards | No |
+| King's Landing (the city) | Where Lord Walder traveled to see his sons ride in tourney | No |
 
 ## Location Descriptions
 | Location | Defensive Features | Architecture/Layout | Interior Details | Scale | Condition | Surrounding Terrain/Geography | Notable Sensory Details |
 |----------|--------------------|--------------------|-----------------| ------|-----------|------------------------------|------------------------|
-| The Twins | High curtain walls, deep moats, heavy oak-and-iron gates, barbican and portcullis on either bank, drawbridge, murder holes; battlements bristling with spears, swords, and scorpions; archer at every crenel and arrow slit; stout inner keeps at bridge footings; sally port | Two squat, ugly, formidable castles, identical in every respect, with bridge arching between; bridge is a massive arch of smooth grey rock, wide enough for two wagons abreast; Water Tower rises from center of the span with arrow slits, murder holes, and portcullises; originally timber keeps, long since replaced with stone | Great hall of the east castle; high seat of black oak carved in the shape of two towers linked by a bridge | Near four thousand men garrisoned; took three generations to build the bridge | Fully manned and battle-ready; drawbridge up, portcullis down, gates closed and barred | Spanning the Green Fork; river running swift and deep; cannot be forded this far north | Clatter of hooves on drawbridge; glitter of eyes through murder hole slats; creaking drawbridge |
-| The Neck | | | | | | Black bogs; causeway through the bogs | |
-| Riverrun | Under siege; surrounded by Jaime's host | | | | Under siege | | |
+| The Twins | High curtain walls, deep moats, heavy oak-and-iron gates, barbican and portcullis on either bank, Water Tower defending the span with arrow slits, murder holes, and portcullises; battlements bristling with spears, swords, and scorpions; archer at every crenel and arrow slit; drawbridge up, portcullis down, gates closed and barred | Two squat, ugly, formidable castles, identical in every respect, with the bridge arching between; bridge is a massive arch of smooth grey rock, wide enough for two wagons to pass abreast; bridge footings rise from within stout inner keeps; sally port from which knights ride | Great hall of the east castle; high seat of the Freys — tall chair of black oak carved in the shape of two towers linked by a bridge | Took three generations to build the bridge | Originally timber keeps, long since replaced with stone | Green Fork runs swift and deep here; black bogs of the Neck to the north | Glitter of eyes peering down through the slats of murder holes in the ceiling as they rode through the Water Tower; drawbridge creaking down |
 
 ## Artifacts & Objects of Significance
 | Artifact | Context | First Appearance? | Current Holder/Location |
 |----------|---------|-------------------|------------------------|
-| White banner of Winterfell | Robb rides beneath it at the front of the column | No | Robb's vanguard |
 | Direwolf shield of Winterfell | Strapped to Robb's saddle | No | Robb Stark |
-| Obsidian fish (cloak clasp) | Fastens Ser Brynden's cloak; carried over from his Knight of the Gate identity | No | Ser Brynden Tully |
-| Frey banner (twin towers, dark blue on pale silver-grey) | Borne by the Frey envoy party | Yes (uncertain — verify) | Frey knights |
-| High seat of the Freys | Black oak chair carved with two towers linked by a bridge | Yes | Great hall, east castle of the Twins |
+| White banner of Winterfell | Robb rides beneath it at the front of the column | No | Robb's column |
+| Obsidian fish clasp | Fastens Ser Brynden's cloak; carried over from his time as Knight of the Gate | No | Ser Brynden Tully |
+| Frey banner (twin towers) | Dark blue twin towers on pale silver-grey field | Yes (uncertain — verify) | Frey envoy party |
+| High seat of the Freys | Black oak chair carved as two towers linked by a bridge | Yes | Great hall of the east castle, the Twins |
 
 ## Food & Drink
 | Meal/Occasion | Food Items Described | Drink | Who Is Eating/Drinking | Where | Preparation/Presentation Notes |
 |--------------|---------------------|-------|----------------------|-------|-------------------------------|
-| Invitation to the Twins | "Meat and mead" offered | Mead | Robb (invited by Ser Stevron) | The Twins | Ser Stevron invites Robb to "share meat and mead" with Lord Walder — the traditional hospitality formula |
-| Ser Wendel's counter-offer | "Meat and mead" | Mead | All (proposed) | The Twins | Ser Wendel suggests Lord Walder open his gates so they can all share his meat and mead |
+| Invitation to share meat and mead | Meat, mead | Mead | Invitation from Lord Walder to Robb (via Ser Stevron) | The Twins castle | Formal invitation; not actually consumed in the chapter |
 
 ## Hospitality & Guest Right
 | Event | Type | Host | Guest(s) | Details |
 |-------|------|------|----------|---------|
-| Ser Stevron's invitation | guest_right_invoked | Lord Walder Frey (via Ser Stevron) | Robb Stark | Invitation to "share meat and mead" in the castle — the traditional hospitality formula |
-| Ser Perwyn as hostage/guest | safe_conduct | Robb Stark | Ser Perwyn Frey | Ser Perwyn dismounts and remains with Robb's host as surety for Catelyn's safe return; Robb calls him "our honored guest" |
-| Lord Walder's courtesies to Catelyn | guest_right_invoked | Lord Walder Frey | Catelyn Stark | Lord Walder kisses Catelyn's hand and announces he has "observed the courtesies"; receives her in his great hall |
-| Lord Walder boasts of hosting kings | feast_given | Lord Walder Frey | Three kings and queens (historical) | Lord Walder claims to have had "three kings to guest in my life, and queens as well" |
-| Marriage pact / crossing toll | gift_exchange | Catelyn Stark (on behalf of Robb) | Lord Walder Frey | Terms: two Frey grandsons as wards at Winterfell, Olyvar as Robb's squire, Arya betrothed to Elmar Frey, Robb to wed a Frey daughter of his choice; in exchange for passage and Frey swords |
+| Lord Walder invites Robb to share meat and mead | feast_given (invitation) | Lord Walder Frey | Robb Stark | Ser Stevron conveys the invitation; northern lords fear treachery |
+| Catelyn enters the Twins to negotiate | shelter_offered | Lord Walder Frey | Catelyn Stark | Catelyn goes alone; Ser Perwyn remains as hostage/honored guest to guarantee her safety |
+| Ser Perwyn held as surety | safe_conduct | Robb Stark | Ser Perwyn Frey | Described as "honored guest"; ensures Catelyn's safe return by evenfall |
+| Lord Walder boasts of hosting kings | hospitality_violated (none — boast only) | Lord Walder Frey | Three kings and queens (historical) | Lord Walder claims to have hosted three kings in his lifetime |
+| Crossing granted with terms | safe_conduct | Lord Walder Frey | Robb Stark's host | Lord Walder grants crossing and his swords in exchange for marriage and fostering terms |
 
 ## Events & Actions
-1. **March through the Neck** — The northern host troops down the causeway through the black bogs of the Neck and enters the riverlands.
-2. **Blackfish scouts ahead** — Ser Brynden Tully takes a hundred men and a hundred swift horses to screen the army's movements and scout the route.
-3. **Report on Walder Frey's massed force** — Scouts report that Lord Walder Frey has assembled nearly four thousand men at the Twins on the Green Fork.
-4. **Catelyn, Robb, and Robett Glover discuss Lord Frey's intentions** — Catelyn warns that Frey is unpredictable, has ties to Casterly Rock, and should not be expected to honor his oaths readily.
-5. **Night camp on the bogs** — The host camps on the southern edge of the bogs, halfway between the kingsroad and the river.
-6. **Theon Greyjoy brings word from the Blackfish** — Reports that Ser Brynden has engaged and killed a dozen Lannister scouts; Ser Addam Marbrand commands Lannister outriders and is pulling back south, burning as he goes; Blackfish has posted bowmen to shoot down ravens from the Twins.
-7. **Report of Frey-Lannister skirmishing** — Theon reports finding two Lannister scouts strung up by Frey men, but Lord Walder's main strength remains at the Twins.
-8. **Ser Brynden rides back with news of Riverrun** — Reports that the Kingslayer has destroyed Edmure's host; Edmure is wounded and taken prisoner; Lord Blackwood and survivors are besieged inside Riverrun.
-9. **Lord Frey closes his gates** — Lord Walder has pulled his entire strength inside the Twins; gates are closed and barred.
-10. **Northern lords assess the Twins** — Roose Bolton declares it cannot be assaulted; Helman Tallhart notes a siege is impractical without forces on both banks and without time.
-11. **Frey envoys ride forth** — A sally port opens; a dozen knights led by four of Lord Walder's sons (Ser Stevron, Ser Perwyn, and two others) ride out to meet the host.
-12. **Ser Stevron invites Robb inside** — Lord Walder offers to host Robb for meat and mead.
-13. **Northern lords object** — Galbart Glover, Roose Bolton, Ser Wendel Manderly, and Ser Wylis Manderly all argue against Robb entering the castle.
-14. **Catelyn volunteers to negotiate** — Catelyn announces she will go in Robb's place, citing her childhood acquaintance with Lord Walder.
-15. **Hostage exchange** — Ser Perwyn stays with Robb's host as surety; Catelyn rides into the Twins.
-16. **Catelyn enters the great hall** — Lord Walder receives her surrounded by his enormous family: twenty sons, thirty-six grandsons, nineteen great-grandsons, and numerous other descendants.
-17. **Lord Walder complains and negotiates** — He airs grievances against the Tullys and Starks at length, mocks Lord Tywin, boasts about his virility, and reveals the Jon Arryn fostering dispute.
-18. **Lord Walder reveals the Dragonstone fostering plan** — He states that Jon Arryn was going to foster his son Robert with Stannis Baratheon at Dragonstone, not with Tywin at Casterly Rock as Catelyn had understood.
-19. **Catelyn strikes the bargain** — After Lord Walder expresses his contempt for both sides, Catelyn negotiates a deal: passage and Frey swords in exchange for the marriage and fostering terms.
-20. **Catelyn reports the terms to Robb** — At evenfall, Catelyn emerges and relays the terms: two Frey wards to Winterfell, Olyvar as Robb's squire, Arya betrothed to Elmar Frey, Robb to marry a Frey daughter of his choosing; also recommends leaving 400 men at the Twins under a trusted commander.
-21. **Robb consents to the marriage pact** — Robb accepts all terms solemnly.
-22. **The crossing** — At evenfall under a horned moon, the column crosses through the eastern castle, over the bridge and Water Tower, and out through the western castle. The horse (nine-tenths) crosses west under Robb; the foot soldiers remain east under Roose Bolton's command, to march south and confront Lord Tywin.
-23. **Army splits** — Roose Bolton commands the larger part (pikes, archers, men-at-arms on foot) on the east bank to march south against Lord Tywin. Robb takes the mounted force west.
+1. **Northern host marches through the Neck** — Catelyn rides south with Robb's army through the black bogs of the Neck into the riverlands, growing increasingly anxious about her family.
+2. **Blackfish screens the march** — Ser Brynden takes a hundred picked men and swift horses to scout ahead and screen the army's movements.
+3. **Report on Walder Frey's position** — Scouts report Lord Walder Frey has massed nearly four thousand men at the Twins and has not marched to join the Tully host at Riverrun.
+4. **Catelyn and Robb discuss Lord Frey** — Catelyn warns Robb that Lord Frey's loyalty is uncertain, noting a Frey son is wed to Tywin Lannister's sister.
+5. **Theon brings word from the Blackfish** — Theon reports the Blackfish has engaged Lannister scouts, that Ser Addam Marbrand is pulling south burning as he goes, and that bowmen are posted to shoot down ravens from the Twins.
+6. **Ser Brynden brings news of the Battle of Riverrun** — The Kingslayer has destroyed Edmure's host; Edmure is wounded and captured; Lord Blackwood and survivors are besieged inside Riverrun.
+7. **Northern lords assess the Twins** — The Greatjon, Karstark, Bolton, and Tallhart conclude the castle cannot be stormed or besieged in time.
+8. **Frey envoy rides out** — Ser Stevron Frey and three brothers, with a dozen knights, emerge from a sally port to greet the northern host.
+9. **Catelyn volunteers to negotiate** — Over the lords' objections, Catelyn offers to go into the Twins alone, with Ser Perwyn remaining as hostage.
+10. **Catelyn meets Lord Walder** — In the great hall of the east castle, Lord Walder receives Catelyn amid his vast family, dismisses them all, and negotiates privately.
+11. **Lord Walder reveals Jon Arryn's fostering plan** — During a lengthy digression about perceived slights, Lord Walder discloses that Jon Arryn planned to foster Robert Arryn with Stannis Baratheon at Dragonstone, contradicting Catelyn's understanding it was to be Casterly Rock.
+12. **Terms agreed** — Catelyn secures crossing and Frey swords in exchange for: two Frey grandsons fostered at Winterfell, Olyvar Frey as Robb's squire, Arya betrothed to Elmar Frey, and Robb betrothed to a Frey daughter of his choosing.
+13. **Robb accepts the terms** — Robb consents to the marriage pact, particularly the betrothal to a Frey daughter.
+14. **Army splits and crosses** — Cavalry (nine-tenths of the horse) crosses west under Robb, Catelyn, Ser Brynden, and Ser Stevron. The foot soldiers remain east under Roose Bolton to march south against Lord Tywin. Frey pikemen join the host.
 
 ## Spatial Layout & Movement
 | Phase | Who | Position / Movement | Relative To | Notes |
 |-------|-----|---------------------|-------------|-------|
-| Advance | Northern host | Marches south through the Neck causeway into the riverlands | The Neck → riverlands | Days of marching |
-| Scout | Blackfish + 100 riders | Races ahead to screen movements and scout | Ahead of the main column | 100 picked men, 100 swift horses |
-| Assembly | Northern host | Camps on southern edge of bogs | Halfway between kingsroad and the river | Night camp |
-| Arrival | Northern host vanguard | Comes in sight of the Twins | The Green Fork | Near midday |
-| Confrontation | Frey envoys (12 knights, 4 Frey sons) | Ride forth from a sally port across a plank bridge over the moat | The eastern castle of the Twins | Meet the northern lords |
-| Departure | Catelyn | Rides into the Twins with Frey envoys | Leaving Robb's host; entering the eastern castle | Ser Perwyn stays behind as surety |
-| Confrontation | Catelyn | Negotiates with Lord Walder in the great hall | East castle great hall | Hours of negotiation |
-| Departure | Catelyn + Frey forces | Rides forth from the castle with Frey knights and pikemen | Eastern castle → Robb's host | At evenfall; swollen red sun |
-| Advance | Main column (horse) | Crosses through eastern castle, over bridge and Water Tower, out western castle | East bank → west bank of the Green Fork | At evenfall; takes hours; horned moon |
-| Opening (new disposition) | Roose Bolton + foot soldiers | Remain on east bank | East of the Green Fork | Pikes, archers, men-at-arms; to march south against Tywin |
-| Departure | Robb + mounted force | Proceeds west from the Twins | West bank of the Green Fork | Nine-tenths of the horse; knights, lancers, freeriders, mounted bowmen |
+| Advance | Northern host | Marches south through the Neck into the riverlands | Kingsroad to the east, river to the west | Column formation with Robb at the front |
+| Scout | Ser Brynden + 100 riders | Races ahead to screen and scout | Ahead of the main host | Engages and kills Lannister scouts |
+| Assembly | Northern host | Camps on southern edge of bogs | Halfway between kingsroad and river | Night camp |
+| Arrival | Vanguard | Comes in sight of the Twins | Near midday | Castle fully defended, gates barred |
+| Confrontation | Frey envoy (12 knights, 4 Frey sons) | Rides out from sally port | Eastern twin | Plank bridge laid across moat |
+| Advance | Catelyn | Rides into the Twins alone | Into the east castle | Ser Perwyn remains behind as surety |
+| Confrontation | Catelyn and Lord Walder | Private negotiation in great hall | East castle great hall | Lord Walder carried in on litter, seated in high chair |
+| Departure | Catelyn + Frey column | Rides out with Frey knights and pikemen | Through the castle gates at evenfall | Drawbridge lowered, portcullis raised |
+| Advance | Cavalry (Robb's force) | Crosses through the eastern twin, over the bridge, out the western twin | East bank to west bank of the Green Fork | Takes hours; like a great steel snake |
+| Opening | Roose Bolton's force | Remains on east bank | Eastern twin | Pikes, archers, men-at-arms on foot; commanded to march south against Tywin |
 
 ## Information Revealed
 | Information | How Revealed | Known To (Characters) | Known To (Reader Only?) |
 |-------------|-------------|----------------------|------------------------|
-| Lord Walder Frey has assembled ~4,000 men at the Twins | Scout reports via the Blackfish | Catelyn, Robb, lords | No |
-| Ser Addam Marbrand commands Lannister outriders and is pulling back south, burning as he goes | Theon relays from the Blackfish | Catelyn, Robb, Theon | No |
-| The Blackfish has killed a dozen Lannister scouts | Theon relays | Catelyn, Robb, Theon | No |
-| The Blackfish has posted bowmen to shoot down ravens from the Twins | Theon relays | Catelyn, Robb, Theon | No |
-| Frey men have killed and strung up two Lannister scouts | Theon reports | Catelyn, Robb, Theon | No |
-| Jaime Lannister has destroyed Edmure's host at Riverrun | Ser Brynden reports (from captured Lannister outrider) | Catelyn, Robb, Ser Brynden, lords | No |
-| Edmure is wounded and taken prisoner | Ser Brynden reports | Catelyn, Robb, Ser Brynden | No |
+| Lord Walder has massed ~4,000 men at the Twins and not marched to Riverrun | Scout reports from the Blackfish | Catelyn, Robb, northern lords | No |
+| Ser Addam Marbrand commands Lannister outriders and is pulling south, burning | Theon Greyjoy relays Blackfish's report | Catelyn, Robb, Theon | No |
+| The Blackfish has posted bowmen to shoot down ravens from the Twins | Theon relays | Catelyn, Robb | No |
+| The Kingslayer has destroyed Edmure's host at Riverrun | Ser Brynden reports, sourced from a captured Lannister outrider | Catelyn, Robb, Ser Brynden, northern lords | No |
+| Edmure is wounded and captured | Ser Brynden reports | Catelyn, Robb, Ser Brynden | No |
 | Lord Blackwood and survivors are besieged inside Riverrun | Ser Brynden reports | Catelyn, Robb, Ser Brynden | No |
-| Lord Walder has closed his gates and pulled all strength inside | Ser Brynden reports | Catelyn, Robb, lords | No |
-| Jon Arryn intended to foster Robert Arryn with Stannis Baratheon at Dragonstone | Lord Walder tells Catelyn during negotiation | Catelyn, Lord Walder | No |
-| Catelyn had understood Robert Arryn was to be fostered at Casterly Rock with Lord Tywin | Catelyn's reaction to Lord Walder's claim | Catelyn | Yes (her private thought/surprise) |
-| One of Lord Walder's sons is wed to Tywin Lannister's sister | Catelyn states it | Catelyn, Robb, Robett Glover | No |
-| Ned Stark is imprisoned at the Red Keep | Lord Walder mentions it | Lord Walder, Catelyn | No |
-| Lord Hoster Tully is sick, possibly dying | Lord Walder mentions it | Lord Walder, Catelyn | No |
-| Terms of the Frey crossing pact | Catelyn negotiates, then relays to Robb | Catelyn, Lord Walder, Robb | No |
-| Robb's army splits: horse west, foot east under Bolton | Robb's command decision | Catelyn, Robb, Roose Bolton, lords | No |
+| Jon Arryn planned to foster Robert Arryn with Stannis Baratheon at Dragonstone | Lord Walder tells Catelyn during negotiation | Lord Walder, Catelyn | No — but contradicts what Catelyn previously understood |
+| Catelyn had understood Robert Arryn was to be fostered with Lord Tywin at Casterly Rock | Catelyn states it aloud in surprise | Catelyn, Lord Walder | No |
+| Hoster Tully is sick, possibly dying | Lord Walder states | Lord Walder, Catelyn | No |
+| Ned Stark is in a cell under the Red Keep | Lord Walder states | Lord Walder, Catelyn | No |
+| A Frey son is wed to Tywin Lannister's sister | Catelyn tells Robb | Catelyn, Robb | No |
+| Lord Walder has an eighth wife, aged sixteen | Observed by Catelyn | Catelyn | No |
+| Terms of crossing: Frey wards, squire, two betrothals | Negotiated between Catelyn and Lord Walder, relayed to Robb | Catelyn, Robb, Lord Walder | No |
+| Army splits: cavalry west under Robb, foot east under Bolton | Robb's command decision | Catelyn, Robb, northern lords | No |
 
 ## Dialogue of Note
 | Speaker | Listener | Quote/Paraphrase | Context |
 |---------|----------|------------------|---------|
-| Catelyn | (internal) | "You must be a Stark for true now, like your son." | Self-exhortation to be fierce and hard |
-| Catelyn | Robb, Robett Glover | "Expect nothing of Walder Frey, and you will never be surprised." | Warning about Lord Frey's character |
-| Catelyn | Robb, Robett Glover | "If truth be told, I doubt even Lord Frey knows what Lord Frey intends to do. He has an old man's caution and a young man's ambition, and has never lacked for cunning." | Characterizing Walder Frey |
-| Robb | Catelyn | "We must have the Twins, Mother. There is no other way across the river." | Asserting strategic necessity |
-| Catelyn | Theon | Orders bowmen posted around the Twins to bring down any raven leaving the battlements | Preventing intelligence leaks to Lord Tywin |
-| Theon | Catelyn | "Ser Brynden has seen to it already, my lady... A few more blackbirds, and we should have enough to bake a pie." | The Blackfish anticipated Catelyn's order |
-| Robb | Catelyn | "What would my lord father do?" | Asking for guidance when stuck |
-| Catelyn | Robb | "Find a way across. Whatever it took." | Invoking Ned as a model |
-| Catelyn | Robb | "A child sees an obstacle, and his first thought is to run around it or knock it down. A lord must learn that sometimes words can accomplish what swords cannot." | Rebuking Robb for threatening to storm the Twins |
-| Roose Bolton | Lords | "That cannot be assaulted, my lords." | Military assessment of the Twins |
-| Galbart Glover | Robb | "You must not do this, my lord. Lord Walder is not to be trusted." | Warning against entering the Twins |
-| Roose Bolton | Robb | "Go in there alone and you're his. He can sell you to the Lannisters, throw you in a dungeon, or slit your throat, as he likes." | Warning against entering the Twins |
-| Catelyn | All | "I will go." | Volunteering to negotiate with Lord Walder |
-| Lord Walder | Catelyn | "Spare me your sweet words, Lady Catelyn, I am too old." | Blunt refusal of pleasantries |
-| Lord Walder | Ser Stevron | "You are not Lord Frey yet, not until I die. Do I look dead?" | Putting his heir in his place |
-| Lord Walder | Catelyn | "They're all waiting for me to die. Stevron's been waiting for forty years, but I keep disappointing him." | On his family's eagerness for his death |
-| Lord Walder | Catelyn | "Your husband's in some traitor's cell under the Red Keep, your father's sick, might be dying, and Jaime Lannister's got your brother in chains. What do you have that I should fear?" | Enumerating Stark/Tully weaknesses |
-| Lord Walder | Catelyn | "I'll match you son for son, and I'll still have eighteen when yours are all dead." | Boasting about his numerous progeny |
-| Lord Walder | Catelyn | "Lord Tywin the proud and splendid... I'll wager you, he eats too many beans, he breaks wind just like me, but you'll never hear him admit it" | Mocking Lord Tywin |
-| Lord Walder | Catelyn | "If Lord Tywin wants my help, he can bloody well ask for it." | Revealing he hasn't committed to the Lannisters |
-| Lord Walder | Catelyn | Lord Walder recounts that Jon Arryn was going to foster his son with Stannis Baratheon at Dragonstone, and that Lysa "frosted up" at the fostering proposals | Grievances about being snubbed by the Tullys and Arryns |
-| Catelyn | (internal) | "I had understood that Lysa's boy was to be fostered with Lord Tywin at Casterly Rock." | Surprise at the Dragonstone detail |
-| Robb | Catelyn | "I consent." | Accepting the marriage pact with the Freys |
-| Catelyn | (internal) | "Boys might play with swords, but it took a lord to make a marriage pact, knowing what it meant." | Reflecting on Robb's maturity |
+| Catelyn | (internal) | "You must be as fierce and hard as the north, Catelyn Tully. You must be a Stark for true now, like your son." | Self-exhortation while riding south |
+| Catelyn | Robb | "Expect nothing of Walder Frey, and you will never be surprised." | Warning about Lord Frey's unreliability |
+| Catelyn | Robett Glover | "I doubt even Lord Frey knows what Lord Frey intends to do. He has an old man's caution and a young man's ambition, and has never lacked for cunning." | Assessing Lord Walder's likely behavior |
+| Robb | Catelyn | "We must have the Twins, Mother. There is no other way across the river." | Strategic necessity |
+| Robb | Catelyn | "What would my lord father do?" | Seeking counsel, appearing younger than fifteen |
+| Catelyn | Robb | "Find a way across. Whatever it took." | Invoking Ned's pragmatism |
+| Roose Bolton | Northern lords | "That cannot be assaulted, my lords." | Military assessment of the Twins |
+| Catelyn | Robb | "A child sees an obstacle, and his first thought is to run around it or knock it down. A lord must learn that sometimes words can accomplish what swords cannot." | Rebuking Robb's threat to storm the Twins |
+| Lord Walder | Catelyn | "They're all waiting for me to die. Stevron's been waiting for forty years, but I keep disappointing him." | After dismissing his family from the hall |
+| Lord Walder | Catelyn | "Your husband's in some traitor's cell under the Red Keep, your father's sick, might be dying, and Jaime Lannister's got your brother in chains. What do you have that I should fear?" | Challenging Catelyn's bargaining position |
+| Lord Walder | Catelyn | "I swore oaths to the crown too ... Joffrey's the king now, and that makes you and your boy and all those fools out there no better than rebels." | Playing both sides |
+| Lord Walder | Catelyn | "Lord Tywin the proud and splendid ... I'll match him son for son, and I'll still have nineteen and a half left when all of his are dead!" | Mocking Tywin; revealing his own pride in his progeny |
+| Lord Walder | Catelyn | "No, it was Lord Stannis ... Do you think I can't tell Lord Stannis from Lord Tywin?" | Correcting Catelyn about the Arryn fostering plan |
+| Catelyn | (internal) | "Some truths did not bear saying, and some lies were necessary." | Reflecting on her decision to enter the Twins |
+| Robb | Catelyn | "I consent." | Agreeing to the marriage pact |
 
 ## POV Character's Internal State
-- **Emotional state:** Deeply anxious throughout — fears for her father, Edmure, Ned, her daughters, and her sons at Winterfell. Masks fear behind a still, stern face. Restless nights. Frustrated by Lord Walder's obstructionism but controls her anger strategically. Feels a surge of maternal pride when Robb solemnly consents to the marriage pact.
-- **Primary preoccupation:** Securing passage across the Twins for Robb's army; protecting Robb from making mistakes; worrying about family members she cannot help.
-- **Key decisions made:** Decides to volunteer herself to negotiate with Lord Walder rather than let Robb go; agrees to the marriage pact terms (two Frey wards, Olyvar as squire, Arya's betrothal, Robb's betrothal); recommends Helman Tallhart for the garrison command and suggests leaving 400 men at the Twins.
-- **Self-deception flags:** Tells Robb that Lord Walder "would never offer me any harm" while silently adding "unless he saw some profit in it" — knowingly lies to maintain the opportunity. Tells herself to be "a Stark for true now" — adopting an identity that is not native to her.
+- **Emotional state:** Deeply anxious throughout; fears for multiple family members (father, brother, husband, children); masks fear behind a still and stern face; angry at Lord Walder's provocations but controls it; relieved when negotiation succeeds
+- **Primary preoccupation:** Securing the crossing at the Twins; worrying about her divided, endangered family; supporting Robb's leadership
+- **Key decisions made:** Volunteers to enter the Twins alone to negotiate; agrees to Lord Walder's terms including the marriage pacts; advises Robb to leave 400 men at the Twins under a trusted commander
+- **Self-deception flags:** Tells herself to "put all thought" of family members she cannot help aside; lies to the lords that Lord Walder would never harm her while privately adding "unless he saw some profit in it"
 
 ## Relationships Observed
 | Character A | Relationship | Character B | Evidence |
 |-------------|-------------|-------------|----------|
-| Catelyn | mother / advisor to | Robb | Rides forward to counsel him; rebukes him sharply; volunteers to negotiate; reports terms |
-| Robb | defers to | Catelyn | Asks "what would my lord father do?"; accepts her rebuke meekly; consents to the terms she negotiated |
-| Robb | commands | Northern lords | Rides at the front; asks each lord to join him in turn; gives commands for the crossing and army split |
-| Catelyn | niece / trusts | Ser Brynden Tully | Relies on his scouting; he anticipates her orders; she trusts his military judgment |
-| Theon Greyjoy | serves as messenger for | Ser Brynden / Robb | Rides between the Blackfish's scouts and the main host |
-| Lord Walder Frey | contemptuous of | His own family | Rebukes Ser Stevron and Ryger; says they're all waiting for him to die |
-| Lord Walder Frey | resentful toward | House Tully | Enumerates grievances: Lord Hoster refused a match for Edmure, calls him "the Late Lord Frey"; Lysa snubbed his grandsons |
-| Lord Walder Frey | contemptuous of | Lord Tywin Lannister | Mocks him extensively but refuses to commit to the Lannisters |
-| Lord Walder Frey | possessive of | Lady Frey (eighth wife) | "Her honey's only for me"; boasts about getting her pregnant |
-| Ser Stevron Frey | deferential to / rebuked by | Lord Walder Frey | Tries to remind his father of courtesies; is shut down |
-| Grey Wind | companion to | Robb | Pads by Robb's side; races beside his stallion |
-| Galbart Glover | loyal advisor to | Robb | Warns him not to trust Lord Walder |
-| Roose Bolton | military advisor to | Robb | Provides tactical assessment; given command of the eastern force |
-| Catelyn | wife / worries about | Ned Stark | Fears for him throughout; invokes him as model for Robb |
-| Catelyn | sister / worried about | Edmure Tully | Prays for him; cold hand clutches her heart at news of his capture |
-| Catelyn | daughter / worries about | Lord Hoster Tully | Fears for her father; troubled by his silence |
-| Robb | betrothed to | A Frey daughter (unspecified) | Marriage pact term |
-| Arya Stark | betrothed to | Elmar Frey | Marriage pact term; Robb notes "Arya won't like that one bit" |
+| Catelyn | mother, counselor to | Robb | Rides with him, advises on strategy and diplomacy, negotiates on his behalf |
+| Catelyn | fears for | Hoster Tully | Worries about her father's ominous silence and possible illness |
+| Catelyn | fears for | Edmure Tully | Prays the gods watch over him if he faces the Kingslayer |
+| Catelyn | fears for | Ned Stark | Fears for Ned and her girls in King's Landing |
+| Catelyn | niece to | Ser Brynden Tully | He is her uncle; she trusts his military judgment completely |
+| Robb | emulates | Ned Stark | Listens to his lords as his father listened; asks "What would my lord father do?" |
+| Robb | commands | Northern lords | Rides at the front, confers with each lord in turn, issues orders |
+| Robb | bonded to | Grey Wind | Direwolf pads by his side, races beside his stallion |
+| Ser Brynden Tully | serves as scout commander for | Robb | Takes 100 picked men to screen movements and scout |
+| Theon Greyjoy | serves as messenger for | Ser Brynden / Robb | Rides between the Blackfish and the main host |
+| Walder Frey | bannerman to (unreliable) | Hoster Tully | Called his swords but has not marched; holds back and waits |
+| Walder Frey | friendlier with than expected | House Lannister | One of his sons is wed to Tywin Lannister's sister |
+| Walder Frey | resents | House Tully | Feels slighted: Hoster didn't attend weddings, refused Edmure-Frey match, calls him "Late Lord Frey" |
+| Walder Frey | resents | Lysa Arryn | "Frosted up" at his fostering proposal at court |
+| Walder Frey | contempt for | His own sons | "They're all waiting for me to die"; mocks their fighting ability |
+| Walder Frey | dominates | Lady Frey (8th wife) | She is timid, creeps up to cover his legs; he is possessive ("her honey's only for me") |
+| Ser Stevron Frey | heir to, waits on | Walder Frey | Has waited forty years; rebuked by his father for speaking out of turn |
+| Roose Bolton | commands eastern foot force for | Robb | Given command of pikes, archers, men-at-arms to march south against Tywin |
+| Catelyn | distrusts | Walder Frey | Expects nothing of him; privately acknowledges he'd harm her if profitable |
+| Robb | betrothed to | A Frey daughter (unnamed) | Terms of the crossing agreement |
+| Arya Stark | betrothed to | Elmar Frey | Terms of the crossing agreement |
+| Northern lords | distrust | Walder Frey | Galbart Glover, Roose Bolton, the Greatjon all warn against entering the Twins |
 
 ## Unanswered Questions
 | Question | Raised By | Context |
 |----------|-----------|---------|
-| Why was Jon Arryn going to foster Robert Arryn with Stannis at Dragonstone rather than Tywin at Casterly Rock? | Lord Walder's account / Catelyn's surprise | Catelyn had understood the fostering was to be at Casterly Rock; Lord Walder insists it was Dragonstone |
-| Will Lord Walder Frey actually keep faith with the pact? | Catelyn | She advises Robb to leave a trusted commander at the Twins and notes "Lord Walder may need help keeping faith" |
-| What is Lord Hoster Tully's condition? | Catelyn | His "ominous silence" worries her; Lord Walder says he's "sick, might be dying" |
-| Can the besieged forces at Riverrun hold out until relief arrives? | Robb, Catelyn | Lord Blackwood and survivors are under siege; Robb must cross and relieve them "in time" |
-| What will happen when Roose Bolton's foot soldiers confront Lord Tywin's host? | Narrative situation | Bolton commands the eastern force marching south; the outcome is uncertain |
-| Will Robb's gamble of splitting his forces succeed? | Catelyn | "For good or ill, her son had thrown the dice" |
+| Why was Jon Arryn planning to foster Robert with Stannis at Dragonstone, not Tywin at Casterly Rock? | Catelyn (disquieted by Lord Walder's disclosure) | Catelyn had understood the plan was for Casterly Rock; Lord Walder insists it was Dragonstone |
+| Will Lord Walder Frey keep faith with the terms? | Catelyn | She advises Robb to leave 400 men and a trusted commander to help Lord Walder "keep faith" |
+| What will happen when Roose Bolton's force meets Lord Tywin's larger army? | Narrative | Robb commands Bolton to march south with the foot; Tywin's host is described as "huge" |
+| What is the status of Hoster Tully? | Catelyn | She wonders at his "ominous silence"; Lord Walder says he's "sick, might be dying" |
+| Will the Frey-Stark betrothals actually be fulfilled? | Narrative | Robb consents solemnly but the text notes Arya "won't like that one bit" |
 
 ## Raw Entity List
+
 ### Characters
-Catelyn Stark, Robb Stark, Grey Wind, Ser Brynden Tully (the Blackfish), Theon Greyjoy, Lord Walder Frey, Lady Frey (eighth wife, unnamed), Ser Stevron Frey, Ser Perwyn Frey, Ser Jared Frey, Ser Hosteen Frey, Ser Danwell Frey, Whalen Frey, Ryger (Frey bastard), Ronel Rivers (Frey bastard), Olyvar Frey (referenced), Elmar Frey (referenced), Robett Glover, Galbart Glover, The Greatjon (Jon Umber), Lord Rickard Karstark, Roose Bolton, Helman Tallhart, Ser Wendel Manderly, Ser Wylis Manderly, Eddard Stark (referenced), Edmure Tully (referenced), Lord Hoster Tully (referenced), Jaime Lannister (referenced), Lord Tywin Lannister (referenced), Ser Addam Marbrand (referenced), Lord Blackwood (referenced), Lysa Arryn (referenced), Jon Arryn (referenced), Robert Arryn (referenced), Stannis Baratheon (referenced), Joffrey (referenced), Arya Stark (referenced), Bran Stark (referenced), Merrett Frey (referenced), "Ser Daisy" / Tyrell whelp (referenced)
+Catelyn Stark, Robb Stark, Grey Wind, Ser Brynden Tully (the Blackfish), Theon Greyjoy, Robett Glover, Galbart Glover, Greatjon Umber, Rickard Karstark, Roose Bolton, Helman Tallhart, Ser Wendel Manderly, Ser Wylis Manderly, Walder Frey (Lord of the Crossing), Lady Frey (eighth wife), Ser Stevron Frey, Ser Perwyn Frey, Ser Jared Frey, Ser Hosteen Frey, Ser Danwell Frey, Whalen Frey, Ryger Rivers, Ronel Rivers, Hoster Tully, Edmure Tully, Eddard (Ned) Stark, Arya Stark, Sansa Stark (implied), Bran Stark, Rickon Stark (implied), Tywin Lannister, Jaime Lannister (the Kingslayer), Ser Addam Marbrand, Lord Blackwood, Joffrey, Lysa Arryn, Jon Arryn, Stannis Baratheon, Robert Arryn, Olyvar Frey, Elmar Frey, Walder Frey (Merrett's son, aged eight), Walder Frey (another grandson, aged seven), Merrett Frey, "Ser Daisy" (Tyrell whelp), Lord Walder's third wife (a Crakehall)
 
 ### Locations
-The Neck (causeway, black bogs), the riverlands, the kingsroad, the Green Fork, the Twins (east castle, west castle), the Water Tower, Riverrun, Winterfell, Casterly Rock, the Red Keep, Moat Cailin, Dragonstone
+The Neck, the riverlands, the Twins, Green Fork, Water Tower, Riverrun, Moat Cailin, Casterly Rock, Red Keep, Dragonstone, Winterfell, King's Landing, the kingsroad, the Trident (referenced)
 
-### Artifacts
-White banner of Winterfell, direwolf shield of Winterfell, obsidian fish cloak clasp (Brynden Tully), Frey banner (twin towers, dark blue on pale silver-grey), high seat of the Freys (black oak, carved twin towers and bridge)
+### Houses
+House Stark, House Tully, House Frey, House Lannister, House Bolton, House Karstark, House Umber, House Glover, House Tallhart, House Manderly, House Arryn, House Baratheon, House Blackwood, House Marbrand, House Tyrell, House Crakehall
 
-### Houses/Factions
-House Stark, House Tully, House Frey, House Lannister, House Bolton, House Glover, House Umber, House Karstark, House Tallhart, House Manderly, House Blackwood, House Arryn, House Baratheon, House Tyrell, House Crakehall, House Marbrand
+### Factions & Organizations
+None
+
+### Religions & Faiths
+The gods (Catelyn prays the gods watch over Edmure); the Seven Kingdoms' general religious culture (graveyards reference)
+
+### Cultures & Peoples
+Northerners (the northern host), riverlanders (lords of the Trident)
+
+### Artifacts & Objects
+Direwolf shield of Winterfell, white banner of Winterfell, obsidian fish clasp, Frey banner (twin towers, dark blue on pale silver-grey), high seat of the Freys (black oak chair carved as two towers linked by a bridge), scorpions (defensive weapons on battlements)
+
+### In-world Texts & Songs
+None
+
+### Magic & Phenomena
+None
+
+### Wars & Conflicts
+War of the Five Kings (ongoing, unnamed in this chapter — Lannister-Stark conflict), Battle under the walls of Riverrun (Kingslayer defeats Edmure's host)
+
+### Titles & Offices
+Lord of the Crossing, Knight of the Gate, Warden of the West, Hand of the King, King (Joffrey), Lord
+
+### Other
+None

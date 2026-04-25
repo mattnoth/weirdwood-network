@@ -6,301 +6,332 @@
 - **pov_character:** Eddard Stark
 - **pov_chapter_number:** Eddard VII
 - **first_available:** AGOT Eddard VII
-- **location_primary:** Tournament grounds outside King's Landing
+- **location_primary:** Tourney grounds outside King's Landing
 - **location_secondary:** King's pavilion, jousting field, archery field, feast hall, Tower of the Hand, Ned's chambers
-- **approximate_timeline:** During the Hand's tourney, the second day of jousting and melee; continues into the feast that evening and late night
-- **time_markers:** Pale dawn light (opening); morning mists off the river; camp beginning to stir (early morning); breakfast at trestle table by river's edge; morning mist melting away; horns blew for day's first joust; that afternoon (archery); melee went on for three hours; that night at the feast; much later (taking girls back to bed); hour well past midnight; revels only now beginning to dwindle
-- **chapter_summary:** Ned views the body of Ser Hugh of the Vale, who died in the tourney the previous day. He and Ser Barristan persuade Robert not to fight in the melee by arguing no one would dare strike the king. The jousting concludes with Sandor Clegane defeating Jaime Lannister, then Ser Gregor Clegane losing to Ser Loras Tyrell and going berserk — killing his own horse and attacking Loras until the Hound intervenes and Robert stops the fight. Loras yields the championship to Sandor. That night, Varys visits Ned in disguise and reveals that the Lannisters planned to kill Robert during the melee, that Jon Arryn was poisoned with the tears of Lys, and that Ser Hugh was likely the one who administered it.
+- **approximate_timeline:** During the Hand's tourney, the day after Ser Hugh's death; final day of jousting, archery, and melee
+- **time_markers:** "pale dawn light" at chapter opening; morning mists off the river; "the camp was beginning to stir" (early morning); breakfast at a trestle table by the river; tournament resumes after breakfast; afternoon archery competition; melee lasting three hours; feast that night; "the hour was well past midnight" when Ned retires; "down by the river, the revels were only now beginning to dwindle and die"
+- **chapter_summary:** Ned views Ser Hugh of the Vale's body with Ser Barristan, then fails to dissuade King Robert from fighting in the melee but convinces him no one would dare strike the king fairly. At the tournament, Sandor Clegane unhorses Jaime Lannister, then Ser Loras Tyrell unhorses Ser Gregor Clegane using a mare in heat. Gregor kills his horse and attacks Loras, but the Hound intervenes and Robert stops the fight. That night, Ned reflects on Robert's bastards and the dagger used against Bran. Varys visits in disguise, reveals that Jon Arryn was poisoned with the tears of Lys, that the Lannisters planned to kill Robert in the melee, and that Ser Hugh may have been Jon Arryn's poisoner — killed before Ned could question him.
 
 ## Physical Environment
-- **Weather:** Warm day (the room is described as close and stuffy in the evening)
+- **Weather:** Warm day; morning mists off the river
 - **Season indicators:** None explicitly stated
-- **Time of day:** Dawn through well past midnight; the chapter spans an entire day and into the late night
-- **Lighting:** Pale dawn light (opening); morning mists; sapphires winking in the sun (midday jousting); candlelight flickering from Littlefinger's windows; cool night air
-- **Sounds:** Fat sausages sizzling and spitting over firepits; goose honking; horns blowing for jousts; audible clang of Sandor dropping his visor; wood shattering (lances); cheers, whistles, shocked gasps, excited muttering; rasping raucous laughter of the Hound; shrieks when Gregor kills his horse; the stallion screaming as it died; Robert's battlefield voice booming "STOP THIS MADNESS"; a troupe of singers performing "Dance of the Dragons"; soft rap on the door
-- **Smells:** Scents of garlic and pepper from sausages; Varys smelling of sweat instead of his usual lilacs
-- **Notable sensory details:** Beer described as black and thick, so strong it stung the eyes; the room close and stuffy; cool night air through the window; the heavy shutters unfastened
+- **Time of day:** Pale dawn light at opening; morning through afternoon tournament; feast that night; well past midnight for Varys's visit
+- **Lighting:** Dawn light; morning sun (sapphires winking in the sun); candlelight flickering from Littlefinger's windows at night; close and stuffy room at night
+- **Sounds:** Fat sausages sizzling and spitting over firepits; goose honking; horns blowing for the jousts; wood shattering (lances); cheers, shrieks, whistles, shocked gasps; rasping raucous laughter of the Hound; horses screaming; audible clang of visor dropping; Robert's booming voice ("STOP THIS MADNESS"); singers performing at the feast
+- **Smells:** Scents of garlic and pepper from sausages; Varys normally smells of lilacs but tonight smells of sweat
+- **Notable sensory details:** Beer described as "black and thick, so strong it stung the eyes"; the room atop the Tower of the Hand was close and stuffy; cool night air when Ned opens the shutters
 
 ## Characters Present
 | Character | Role in Chapter | First Appearance? | Notes |
 |-----------|----------------|-------------------|-------|
-| Eddard Stark | POV character | No | Hand of the King, observing tourney and conducting investigation |
-| Ser Barristan Selmy | Supporting | No | Lord Commander of Kingsguard; stood vigil for Ser Hugh; counsels Robert against melee |
-| Robert Baratheon | Major | No | King; persuaded not to fight in melee; shares intimate conversation with Ned |
-| Sandor Clegane (the Hound) | Active participant | No | Defeats Jaime in jousting; saves Loras from Gregor; wins championship |
-| Jaime Lannister (the Kingslayer) | Active participant | No | Jousts against the Hound; unhorsed and his helmet dented |
-| Ser Gregor Clegane (the Mountain) | Active participant | No | Loses to Loras; kills his horse; attacks Loras; fights the Hound |
-| Ser Loras Tyrell (Knight of Flowers) | Active participant | No | Defeats Gregor; yields championship to the Hound |
-| Petyr Baelish (Littlefinger) | Supporting | No | Wagers on jousting; comments that Loras used a mare in heat |
-| Lord Renly Baratheon | Supporting | No | Wagers against Littlefinger; bets on the Hound |
-| Sansa Stark | Supporting | No | Watches jousting with Ned; wears rose from Loras |
-| Arya Stark | Supporting | No | Appears at feast; shows bruise from training with Syrio |
-| Varys | Major | No | Visits Ned in disguise; reveals plot against Robert and Jon Arryn's poisoning |
-| Lancel Lannister | Minor | Yes (uncertain — verify) | One of Robert's squires; named by Robert |
-| Thoros of Myr | Referenced/active | No | Wins the melee with his flaming sword |
-| Anguy | Minor | Yes | Commoner from Dornish Marches who wins archery competition |
+| Eddard Stark | POV character | No | Hand of the King; observes tournament, reflects on mystery, meets Varys |
+| Ser Barristan Selmy | Supporting | No | Stood vigil for Ser Hugh; helps convince Robert not to fight; dodges thrown breastplate |
+| Robert Baratheon | Major | No | King; too fat for armor; angry about melee prohibition; nostalgic at breakfast |
+| Sandor Clegane (the Hound) | Major (action) | No | Unhorses Jaime; saves Loras from Gregor; wins champion's purse |
+| Jaime Lannister (the Kingslayer) | Supporting (action) | No | Unhorsed by the Hound; led off blind in dented helm |
+| Ser Gregor Clegane (the Mountain) | Major (action) | No | Unhorsed by Loras; kills his horse; attacks Loras; fought by the Hound |
+| Ser Loras Tyrell (Knight of Flowers) | Major (action) | No | Unhorses Gregor using a mare in heat; concedes victory to the Hound |
+| Petyr Baelish (Littlefinger) | Supporting | No | Wagers on jousts; suggests Loras planned the mare trick |
+| Lord Renly Baratheon | Supporting | No | Wagers against Littlefinger; walks with Ned after jousting |
+| Sansa Stark | Supporting | No | Watches jousting with Ned; frightened by Gregor's violence |
+| Arya Stark | Supporting | No | Shows bruise from training; reports on Syrio's lessons |
+| Varys | Major | No | Visits Ned in disguise; reveals assassination plot and Jon Arryn's poisoning |
+| Lancel Lannister | Minor | Yes (uncertain — verify) | One of Robert's two squires; named directly by Robert |
 | Harwin | Minor | No | Guard at Ned's door; announces Varys's arrival |
-| Jory Cassel | Referenced/present | No | Woke Ned the previous night; brought Arya to the feast |
-| Silent sister | Minor | Yes (uncertain — verify) | Unnamed; tends to Ser Hugh's body |
+| Anguy | Minor | Yes | Commoner from the Dornish Marches; wins archery competition |
+| Thoros of Myr | Minor | No | Red priest; wins the melee with a flaming sword |
+| Silent sister | Minor | Yes (uncertain — verify) | Tends to Ser Hugh's body |
 
 ## Character Appearances
 | Character | Hair | Eyes | Build/Height | Scars/Marks | Clothing/Armor | Weapons Worn | Distinguishing Features | Age (if stated) |
 |-----------|------|------|-------------|-------------|----------------|-------------|------------------------|-----------------|
-| Ser Hugh of the Vale | | | | Ruined throat (from lance) | Best velvet tunic with high collar; cloak of blue bordered in crescent moons | | Rough-hewn features smoothed by death; not handsome | Young |
-| Robert Baratheon | | | Large/big man; too fat for his armor | | Armor that no longer fits; thick neck | Warhammer (displayed outside pavilion) | Fat; flushed face when angry | |
-| Sandor Clegane (the Hound) | | | Big man | | Olive-green cloak over soot-grey armor; hound's-head helm | | | |
-| Jaime Lannister | | | | | Glittering golden armor; ornate lion helmet | Golden wood lance from the Summer Isles | Glittered from head to heel | |
-| Ser Gregor Clegane | Hair fell down into his eyes | | Well over seven feet, closer to eight; massive shoulders; arms thick as trunks of small trees | | Armored | Longsword; two-handed | Biggest man Ned had ever seen; huge; his destrier seemed a pony between his legs; lance looked small as a broom handle | |
-| Ser Loras Tyrell | | | Slender as a reed | | Fabulous silver armor polished to blinding sheen, filigreed with twining black vines and tiny blue forget-me-nots (sapphires); cloak of real forget-me-nots sewn to heavy woolen cape; later a simple linen doublet | | Beautiful (per Sansa) | Young/boy |
-| Lancel Lannister | Long golden curls (one squire); sandy-haired with wisp of a mustache (the other) | Emerald-green eyes (one squire) | | | | | Handsome boys, fair and well made | One is Sansa's age (~12); the other perhaps fifteen |
-| Varys | | | Stout | | Heavy brown robe of coarsest roughspun; cowl hiding features; cracked mud-caked boots | | Smells of sweat (instead of usual lilacs); soft hands; plump tight little smile | |
-| Arya Stark | | | | Huge purple bruise on her leg | | | Stands on one leg; practices balance | |
+| Ser Hugh of the Vale | | | | | Best velvet tunic with high collar (to cover throat wound); cloak of blue bordered in crescent moons | | Rough-hewn features smoothed by death; not handsome | Young |
+| Robert Baratheon | | | Too fat for his armor; thick neck | | Armor that no longer fits | Warhammer (displayed outside pavilion) | | |
+| Lancel Lannister | Long golden curls | | | | | | Fair and well made; handsome | Sansa's age (~11-12) |
+| Second Lannister squire | Sandy-haired | Emerald-green eyes (of the queen) | | | | | Wisp of a mustache | Perhaps fifteen |
+| Sandor Clegane | | | | | Olive-green cloak over soot-grey armor; hound's-head helm | | | |
+| Jaime Lannister | | | | | Glittered from head to heel; ornate lion helmet; gilded ringmail blanket on horse | Lance of golden wood from the Summer Isles; golden shield with lion blazon | | |
+| Ser Gregor Clegane | Hair fell down into his eyes | | Well over seven feet tall, closer to eight; massive shoulders; arms thick as the trunks of small trees | | Armored | Longsword (two-handed use) | Biggest man Ned had ever seen; destrier seemed a pony between his legs; lance looked small as a broom handle | |
+| Ser Loras Tyrell | | | Slender as a reed | | Fabulous silver armor polished to a blinding sheen, filigreed with twining black vines and tiny blue forget-me-nots (sapphires); cloak woven of hundreds of real forget-me-nots sewn to heavy woolen cape; later, simple linen doublet | | | Boy (young) |
+| Varys | | | Stout | | Heavy brown robe of coarsest roughspun; cracked mud-caked boots; cowl hiding features; hands drawn into voluminous sleeves | | Smells of sweat instead of usual lilacs; soft hand | |
+| Silent sister | | | | | Shrouded in grey, face hidden but for eyes | | | |
+| Arya Stark | | | | Huge purple bruise on her leg | | | Standing on one leg (practicing balance) | |
+| Sansa Stark | | | | | Wearing the rose Ser Loras had given her | | | |
 
 ## Characters Referenced
 | Character | Context of Reference | Referenced By |
 |-----------|---------------------|---------------|
-| Jon Arryn | Former Hand; his death under investigation; his squire was Ser Hugh; arranged Robert's marriage to Cersei; told them a commander needs a good battlefield voice | Ned (thought), Robert, Ser Barristan, Varys |
-| Cersei Lannister | Absent from tourney; forbade Robert from fighting; queen who watches Ned closely; Varys says she fears Ned | Robert, Ned (thought), Varys |
-| Lyanna Stark | Robert says she would never have shamed him; Ned says she had iron underneath; Robert lost interest in marriage after losing her | Robert, Ned |
-| Tyrion Lannister (the Imp) | Won Littlefinger's dagger in a tourney wager; Renly wishes he were present to bet against | Ned (thought), Renly |
-| Bran Stark | Dagger sent to kill him in his sleep; the attack linked to Jon Arryn's murder | Ned (thought) |
-| Lord Tywin Lannister | Robert's wife's father; Gregor was with Tywin when King's Landing fell; Cersei was meant to bind Tywin to Robert | Robert, Ned (thought) |
-| Joffrey Baratheon | Robert fears for what Joffrey would be like as king with Cersei whispering in his ear; Robert says "How could I have made a son like that" | Robert |
-| Viserys Targaryen | Jon Arryn argued Cersei would bind Tywin to Robert should Viserys try to reclaim throne | Robert |
-| Aegon Targaryen (infant prince) | Whispered that Gregor dashed his skull against a wall | Ned (thought) |
-| Princess Elia of Dorne | Whispered that Gregor raped and killed her after killing Aegon | Ned (thought) |
-| Rhaegar Targaryen | Robert smashed him on the Trident | Ned (thought) |
-| Gendry | The armorer's sullen apprentice; Ned concludes he is Robert's bastard son | Ned (thought) |
-| Lord Stannis Baratheon | Has not returned to King's Landing for the tourney | Ned (thought) |
-| Lysa Arryn | Holds silence behind the high walls of the Eyrie | Ned (thought) |
-| Syrio Forel | Arya's Braavosi dancing master; came with excellent reputation; teaching blindfolded exercises, spins, back flips, catching cats | Ned (thought), Arya |
-| Septa Mordane | Ill today; Sansa watches tourney without her | Ned (narration) |
-| Ser Ilyn Payne | The king's executioner; Varys references him twice | Varys |
-| Mace Tyrell | Father of Loras; Robert mentions "Mace Tyrell's boy" | Robert |
-| Grand Maester Pycelle | Varys says Pycelle loves his office | Varys |
-| Ser Boros Blount | Varys says he is the queen's creature to the bone | Varys |
-| Ser Meryn Trant | His shield scarred from Loras Tyrell's lance; Varys says he is the queen's creature | Narration, Varys |
-| Ryam Redwyne | Varys references him as example of past great Kingsguard | Varys |
-| Prince Aemon the Dragonknight | Varys references as past great Kingsguard | Varys |
-| Moon Boy | Robert compares Jon Arryn to Moon Boy for arranging the Cersei marriage | Robert |
-| Balon Greyjoy | Gregor rode with them during Balon's rebellion | Ned (thought) |
-| Hodor | Simpleminded stableboy at Winterfell who dwarfs most big men, but the Mountain would tower over even him | Ned (thought) |
-| Dacks | Redfort's pock-faced squire; hit with an orange by Robert at the Eyrie | Robert |
-| Ser Aron Santagar | Robert sends squires to find him for a nonexistent "breastplate stretcher" | Robert |
-| Ser Balon Swann | Finished second or third in archery | Narration |
-| Jalabhar Xho | Finished second or third in archery | Narration |
-| Alyn | Sent by Ned to offer Anguy a position; also posted on the stairs guarding the tower | Ned |
-| Porther | Guard posted outside the Tower of the Hand | Ned |
-| Cayn | Guard posted outside the Tower of the Hand | Ned |
-| Robert's acknowledged bastard | A boy of Bran's age, highborn mother, fostered at Storm's End | Ned (thought) |
-| Robert's first child | A daughter born in the Vale; would be seventeen or eighteen now | Ned (thought) |
-| Aerys Targaryen (the Mad King) | Robert asks Ned to say he's better than Aerys | Robert |
+| Ser Hugh of the Vale | Dead; body viewed; former squire to Jon Arryn | Barristan, Ned, Varys |
+| Jon Arryn | Former Hand; knighted Hugh; his death is central mystery; poisoned with tears of Lys | Barristan, Robert, Ned, Varys |
+| Cersei Lannister | Forbade Robert from melee; absent from tournament; queen watches Ned closely | Robert, Ned, Varys |
+| Lyanna Stark | Robert says Ned's sister would never have shamed him | Robert, Ned |
+| Lord Tywin Lannister | Robert's squires are sons of Tywin's brother; Gregor was with Tywin at the fall of King's Landing | Robert, Ned's thoughts |
+| Tyrion Lannister (the Imp) | Won the dagger from Littlefinger in a tourney wager; Renly notes his absence | Renly, Ned's thoughts |
+| Joffrey Baratheon | Robert despairs of his son; dreams of abdicating but fears Joffrey on the throne with Cersei | Robert |
+| Viserys Targaryen | Jon Arryn warned Viserys might try to reclaim his father's throne | Robert |
+| Bran Stark | Dagger sent to slay Bran; Lannisters may be behind his fall | Ned's thoughts |
+| Jon Arryn's mother (Ser Hugh's mother in the Vale) | Barristan mentions she exists | Barristan |
+| Ser Aron Santagar | Robert sends squires to find him for a "breastplate stretcher" (joke) | Robert |
+| Ser Meryn Trant | His shield scarred from where Loras's lance struck it | Mentioned in passing |
+| Mace Tyrell | Father of Loras; Robert calls Loras "Mace Tyrell's boy" | Robert |
+| Rhaegar Targaryen | Ned imagines Robert smashing him as on the Trident | Ned's thoughts |
+| Aegon Targaryen (infant prince) | Rumored dashed against a wall by Gregor | Ned's recollection of rumors |
+| Elia Martell (Dornish princess) | Rumored raped and killed by Gregor after her son's death | Ned's recollection of rumors |
+| Balon Greyjoy | Gregor rode with them during Balon Greyjoy's rebellion | Ned's thoughts |
+| Gregor's first two wives | Dark whisperings about their deaths | Ned's thoughts |
+| Gregor and Sandor's sister | Died young under queer circumstances | Ned's thoughts |
+| Gregor and Sandor's father | Died in a hunting accident | Ned's thoughts |
+| Septa Mordane | Ill today; Ned must watch Sansa at the jousting | Mentioned |
+| Syrio Forel | Arya's Braavosi dancing master; teaching her unusual techniques | Arya, Ned |
+| Jory Cassel | Woke Ned about Robert's melee plans; told Ned about Loras giving Sansa a rose; brought Arya to the feast | Mentioned |
+| Alyn | Sent to recruit Anguy; posted on the stairs as guard | Mentioned |
+| Porther | Posted outside the tower as guard | Mentioned |
+| Cayn | Posted outside the tower as guard | Mentioned |
+| Gendry | Robert's bastard; the armorer's sullen apprentice; Baratheon look stamped on his face | Ned's thoughts |
+| Dacks | Redfort's pock-faced squire from the Eyrie; Robert hit him with an orange | Robert's story |
+| Lord Stannis Baratheon | Has not returned to King's Landing for the tourney | Ned's thoughts |
+| Lysa Arryn | Holds her silence behind the Eyrie's walls | Ned's thoughts |
+| Grand Maester Pycelle | Loves his office | Varys |
+| Moon Boy | Robert compares Jon Arryn to "a bigger fool than Moon Boy" | Robert |
+| Ser Ilyn Payne | Royal executioner; Varys warns Ned about him | Varys, Robert (implied) |
+| Ser Boros Blount | Queen's creature to the bone | Varys |
+| Ryam Redwyne | Past Kingsguard of legendary honor | Varys |
+| Prince Aemon the Dragonknight | Past Kingsguard of legendary honor | Varys |
+| Robert's acknowledged bastard | Boy of Bran's age; highborn mother; fostered at Storm's End | Ned's thoughts |
+| Robert's daughter in the Vale | Born when Robert was young; sweet little girl; would be 17-18 now | Ned's thoughts |
+| Ser Balon Swann | Competed in archery; outshot by Anguy | Mentioned |
+| Jalabhar Xho | Competed in archery; outshot by Anguy | Mentioned |
+| Hodor | Simpleminded stableboy at Winterfell; dwarfs most large men | Ned's thoughts (comparison to Gregor) |
+| Renly's castellan at Storm's End | Fostering Robert's acknowledged bastard | Ned's thoughts |
 
 ## Locations
 | Location | Role | First Appearance? |
 |----------|------|-------------------|
-| Tournament grounds | Primary setting for the day's events | No |
-| King's pavilion | Where Ned and Barristan find Robert; golden silk, largest structure in camp | No |
-| Jousting field/lists | Where the tilts occur | No |
-| Archery field | Where Anguy wins the competition | No |
-| Feast hall | Evening feast | No |
-| Tower of the Hand | Ned's chambers; Varys visits at night | No |
-| King's Landing | The city they walk through returning | No |
-| The Eyrie | Referenced — where Lysa Arryn holds silence; where Robert and Ned were fostered | No |
-| Winterfell | Referenced — Ned's home; Hodor mentioned there | No |
-| Casterly Rock | Referenced — Lannister seat | No |
-| Storm's End | Referenced — Robert's acknowledged bastard fostered there | No |
-| The Trident | Referenced — where Robert killed Rhaegar | No |
-| Highgarden | Referenced — Loras described as "the boy from Highgarden" | No |
-| Seagard | Referenced via heraldry (silver eagle) | No |
-| The Free Cities | Referenced — Robert fantasizes about going there as a sellsword king | No |
-| Dornish Marches | Referenced — Anguy's home | No |
+| Tourney grounds | Primary setting; camp, jousting field, archery field | No |
+| King's pavilion | Where Ned confronts Robert about the melee | No |
+| Jousting field/lists | Scene of the jousts | No |
+| Archery field | Anguy wins competition | Yes (uncertain — verify) |
+| Tower of the Hand | Ned's chambers; Varys's late-night visit | No |
+| King's Landing | Referenced as broader setting | No |
+| The Eyrie | Referenced; Lysa Arryn holds silence there; Robert's orange story from youth | No |
+| Storm's End | Robert's acknowledged bastard fostered there | No |
+| Casterly Rock | Referenced by Varys regarding Lannister power | No |
+| Winterfell | Ned longs to return; Hodor mentioned there | No |
+| The Vale | Ser Hugh's mother lives there; Robert's first daughter born there | No |
+| The Trident | Robert smashed Rhaegar there | No |
+| Highgarden | Loras referred to as "the boy from Highgarden" | No |
+| Seagard | Shield with silver eagle displayed at camp | No |
+| Summer Isles | Jaime's lance made of golden wood from there | No |
+| Dornish Marches | Anguy's homeland | No |
+| Free Cities | Robert fantasizes about sailing there | No |
 
 ## Location Descriptions
 | Location | Defensive Features | Architecture/Layout | Interior Details | Scale | Condition | Surrounding Terrain/Geography | Notable Sensory Details |
 |----------|--------------------|--------------------|-----------------| ------|-----------|------------------------------|------------------------|
-| King's pavilion | | All golden silk; the largest and grandest structure in the camp | Sleeping furs; barrel of beer in the corner; chair | Largest structure in camp | | Close by the water; morning mists off the river wreathed it in wisps of grey | |
-| Tournament camp | | Tents with shields displayed outside each; trestle table by the river's edge for breakfast | | | | By a river | Fat sausages sizzling; scents of garlic and pepper; morning mists |
-| Jousting field | | Hastily erected gallery | | | Gallery trembled as horses galloped | | |
-| Tower of the Hand (Ned's chambers) | | Atop the tower; heavy shutters on windows | | | Close and stuffy on warm day | View across the Great Yard; can see Littlefinger's windows with candlelight | Cool night air when shutters opened |
+| King's pavilion | | All of golden silk; largest and grandest structure in the camp | Sleeping furs; barrel of beer in the corner; chair | Largest structure in camp | | Close by the water; morning mists off the river wreathed it in wisps of grey | |
+| Tourney camp | | Tents with shields displayed outside identifying occupants; trestle table by the river's edge | | | Hastily erected gallery (trembles as horses gallop) | By a river | Fat sausages sizzling over firepits; scents of garlic and pepper |
+| Ned's chambers (Tower of the Hand) | | Atop the Tower of the Hand; heavy shutters on window | | | Close and stuffy on the warm day | View across the Great Yard; can see Littlefinger's windows with candlelight | Cool night air when shutters opened |
 
 ## Artifacts & Objects of Significance
 | Artifact | Context | First Appearance? | Current Holder/Location |
 |----------|---------|-------------------|------------------------|
-| Littlefinger's Valyrian steel dagger | Ned studies it; described as won by Tyrion Lannister in a tourney wager, sent to kill Bran | No | Eddard Stark |
-| Robert's warhammer | Displayed outside the king's pavilion beside his shield | No | Robert Baratheon |
-| Robert's iron shield | Immense; blazoned with crowned stag of House Baratheon | No | Outside king's pavilion |
-| Ser Hugh's armor | Plain work but good; forged special for the tourney; Ned orders it sent to his mother in the Vale | No | To be sent to the Vale |
-| Ser Hugh's cloak | Bloodstained blue bordered in crescent moons | No | Covering his body |
-| Jaime's golden wood lance | Fashioned from the golden wood of the Summer Isles | Yes (uncertain — verify) | Jaime Lannister (broken in jousting) |
-| Thoros of Myr's flaming sword | A fire sword that frightens horses | No | Thoros of Myr |
-| The tears of Lys | Rare and costly poison; clear and sweet as water; leaves no trace; used to kill Jon Arryn | Yes | Unknown |
-| Sansa's rose | Given to her by Ser Loras the previous day; she wears it at the jousting | No | Sansa Stark |
+| Robert's warhammer | Displayed beside iron shield outside king's pavilion | No | Robert Baratheon |
+| Immense iron shield with crowned stag of House Baratheon | Displayed outside king's pavilion | Yes (uncertain — verify) | Robert Baratheon |
+| Valyrian steel dagger | Ned studies it; Littlefinger's blade, won by Tyrion in a tourney wager, sent to slay Bran | No | Eddard Stark |
+| Ser Hugh's armor | Plain work but good; forged special for the tourney; Ned orders it sent to his mother | Yes | To be sent to Hugh's mother in the Vale |
+| Jaime's golden lance | Fashioned from golden wood of the Summer Isles | Yes | Jaime Lannister (broken in joust) |
+| Hound's-head helm | Sandor's distinctive helmet | No | Sandor Clegane |
+| Ornate lion helmet | Jaime's; twisted and dented in his fall, trapping him | Yes (uncertain — verify) | Jaime Lannister |
+| Loras's silver armor with sapphires | Polished to blinding sheen; filigreed with black vines and blue forget-me-nots made of sapphires | Yes | Ser Loras Tyrell |
+| Cloak of forget-me-nots | Real flowers sewn to heavy woolen cape; worn by Loras | Yes | Ser Loras Tyrell |
+| Rose given by Loras to Sansa | Sansa wears it during the jousting | No | Sansa Stark |
+| Thoros's flaming sword | Fire sword; frightens other riders' mounts | No | Thoros of Myr |
+| Tears of Lys | Rare, costly poison; clear and sweet as water; leaves no trace; used to kill Jon Arryn | Yes | Unknown |
 
 ## Food & Drink
 | Meal/Occasion | Food Items Described | Drink | Who Is Eating/Drinking | Where | Preparation/Presentation Notes |
 |--------------|---------------------|-------|----------------------|-------|-------------------------------|
-| Camp breakfast (early morning) | Fat sausages | | Camp generally | Tournament camp | Sizzled and spit over firepits; spiced the air with scents of garlic and pepper |
-| Robert drinking in pavilion | | Beer — black and thick, so strong it stung the eyes | Robert Baratheon; Ned (commanded to drink) | King's pavilion | Drunk from a polished horn; beer from a barrel in the corner |
-| Breakfast by the river | Black bread, boiled goose eggs, fish fried up with onions and bacon, oranges | | Ned and Robert | Trestle table by the river's edge | Robert eating an orange; the king's melancholy melted away with the morning mist |
-| Feast that night | | | Ned, Robert, Sansa, Arya, Jory | Feast hall | Robert in high good humor; Lannisters nowhere to be seen |
-| Summerwine (late night) | | Summerwine — described as very choice by Varys | Ned and Varys | Ned's chambers, Tower of the Hand | Two cups filled by Ned; Varys goes back to refill |
+| Camp breakfast cooking | Fat sausages | | Camp in general | Tourney camp firepits | Sizzling and spitting; scented with garlic and pepper |
+| Robert drinking in pavilion | | Beer from a polished horn; black and thick, so strong it stung the eyes; from a barrel in the corner | Robert Baratheon; Ned is forced to drink | King's pavilion | Robert takes long swallow, tosses empty horn onto sleeping furs, wipes mouth with back of hand |
+| Breakfast by the river | Black bread, boiled goose eggs, fish fried up with onions and bacon, an orange | | Robert and Ned | Trestle table by the river's edge | Robert eating an orange while telling stories |
+| Oranges at the Eyrie (remembered) | Oranges (a barrel of them, gone rotten) | | Robert, Ned, Dacks (in memory) | The Eyrie, High Hall (memory) | Robert threw rotten orange at Dacks, sparking a food fight |
+| Feast that night | | | Ned, Sansa, Arya, Jory | Feast hall | Robert in high good humor; Lannisters nowhere to be seen |
+| Late-night wine | | Summerwine — "very choice" per Varys | Ned and Varys | Ned's chambers, Tower of the Hand | Ned fills two cups |
 
 ## Hospitality & Guest Right
 | Event | Type | Host | Guest(s) | Details |
 |-------|------|------|----------|---------|
-| Ned orders Ser Hugh's armor sent to his mother | gift_exchange | Eddard Stark | Ser Hugh's mother (in the Vale) | Ned takes responsibility for the cost of the armor and sends it home as a gesture of honor |
+| Ned orders Ser Hugh's armor sent home | gift_exchange | Eddard Stark (as Hand) | Ser Hugh's mother | Ned pays the outstanding debt and orders armor sent to the Vale |
 
 ## Events & Actions
-1. **Ned and Ser Barristan view Ser Hugh's body** — In the pale dawn, they stand over the dead young knight in a cart. Barristan reveals he stood last vigil. Ned orders the silent sister to send Hugh's armor to his mother in the Vale.
-2. **Ned and Barristan walk to the king's pavilion** — They pass through the stirring camp, noting heraldry on tents. Barristan reveals Robert intends to fight in the melee.
-3. **Robert struggles with his armor** — Robert rages at his squires (Lannister cousins including Lancel) who cannot buckle him into armor that no longer fits. Ned tells him he's too fat. Robert sends the boys to find a nonexistent "breastplate stretcher."
-4. **Ned and Barristan persuade Robert not to fight** — Barristan argues no one would dare strike the king; Ned agrees. Robert is furious but ultimately convinced, throwing his breastplate at Selmy and ordering them out.
-5. **Robert and Ned share an intimate conversation** — Robert speaks candidly about hating kingship, regretting his marriage to Cersei, worrying about Joffrey, dreaming of becoming a sellsword king, and apologizing about Lady. Robert drinks heavily.
-6. **Breakfast by the river** — Robert and Ned eat together. Robert reminisces about throwing oranges at the Eyrie. Ned feels hopeful that Robert would act against the Lannisters if proof were found.
-7. **Sandor Clegane defeats Jaime Lannister in jousting** — The Hound unhorsed Jaime on the second pass. Jaime's ornate lion helmet was dented and he had to be led off blind. Littlefinger wins his wager against Renly.
-8. **Ser Loras Tyrell defeats Ser Gregor Clegane** — Loras rides a mare in heat that distracts Gregor's stallion. Loras unhorses Gregor with his lance unbroken.
-9. **Gregor goes berserk** — Gregor kills his own horse with a single blow, then attacks Loras on foot, knocking him from his horse with a savage blow to the chest.
-10. **The Hound intervenes to save Loras** — Sandor Clegane catches Gregor's killing blow and the brothers fight. Robert uses his battlefield voice to command them to stop. Gregor is allowed to leave.
-11. **Loras yields the championship to Sandor** — Loras returns to the field and declares the day belongs to the Hound. Sandor takes the victory, the purse, and the love of the commons.
-12. **Littlefinger suggests Loras planned the mare trick** — Walking to the archery field, Littlefinger claims Loras knew the mare was in heat. Barristan objects that there is small honor in tricks.
-13. **Anguy wins the archery competition** — An unheralded commoner from the Dornish Marches outshoots Ser Balon Swann and Jalabhar Xho at a hundred paces. Ned offers him a position with the Hand's guard but Anguy refuses.
-14. **Thoros of Myr wins the melee** — Near forty men fight for three hours. Thoros wins with his flaming sword. Three broken limbs, a shattered collarbone, smashed fingers, two horses put down.
-15. **Evening feast** — Robert is in high humor, Lannisters absent. Arya shows Ned her bruise from training. Ned considers replacing Syrio Forel but Arya refuses. Sansa listens to singers performing "Dance of the Dragons."
-16. **Ned reflects on the investigation in his chambers** — Past midnight, he studies Littlefinger's dagger. He thinks about Gendry being Robert's bastard, Robert's other bastards (a daughter born in the Vale, an acknowledged boy at Storm's End), and realizes knowing about bastards hasn't advanced the case.
-17. **Varys visits Ned in disguise** — Varys arrives in roughspun robes, unrecognizable. He reveals: the Lannisters planned to kill Robert in the melee; Cersei's forbidding Robert was calculated to ensure he'd fight; Jon Arryn was poisoned with the tears of Lys; Ser Hugh likely administered it; and Jon Arryn was killed for "asking questions."
-18. **Varys tests Ned's loyalty** — Varys admits he waited to see if Ned was loyal to the realm or to himself. He concludes Ned is loyal and warns that only Ned can protect Robert, as the rest of the court is compromised.
+1. **Ned and Barristan view Ser Hugh's body** — In the pale dawn, they look at the dead young knight in a cart. Barristan reports he stood the last vigil. Ned orders the armor sent to Hugh's mother in the Vale.
+2. **Ned and Barristan walk to the king's pavilion** — They pass through the stirring camp, noting the shields of various houses and knights displayed outside tents.
+3. **Robert struggles with his armor** — Robert's squires (Lancel and another Lannister cousin) cannot fit the king's breastplate. Ned tells Robert he is too fat. Robert sends the squires to find a nonexistent "breastplate stretcher."
+4. **Ned, Robert, and Barristan discuss the melee** — Ned and Barristan convince Robert that no one would dare strike the king fairly, touching Robert's pride. Robert angrily throws his breastplate at Barristan and dismisses him.
+5. **Robert and Ned talk privately** — Robert confides he was never so alive as when winning the throne, despairs of Cersei and Joffrey, dreams of abdicating to become a sellsword in the Free Cities, and mentions Lyanna. Robert expresses regret about the direwolf incident with Sansa.
+6. **Breakfast by the river** — Robert and Ned eat together; Robert reminisces about an orange fight at the Eyrie. Ned feels hopeful that if he can prove Lannister crimes, Robert will act.
+7. **Jousting: Sandor Clegane vs. Jaime Lannister** — In the first pass, Jaime shifts his seat and deflects the Hound's lance while landing his own. In the second pass, both lances shatter and Jaime is unhorsed. His lion helmet is dented and stuck; he is led off to a blacksmith. Littlefinger wins his wager against Renly.
+8. **Jousting: Ser Gregor Clegane vs. Ser Loras Tyrell** — Gregor's stallion reacts to Loras's mare (in heat), becoming uncontrollable. Loras unhorses Gregor cleanly, lance unbroken.
+9. **Gregor kills his horse and attacks Loras** — In rage, Gregor beheads his stallion with one blow, then strides toward Loras and knocks him from the saddle with a savage sword blow to the chest.
+10. **The Hound intervenes** — Sandor Clegane grabs Gregor away from Loras and the brothers fight with swords. Sandor never strikes at Gregor's unprotected face. Robert commands them to stop.
+11. **Loras concedes victory to the Hound** — Loras returns and declares the day belongs to Sandor, giving him the champion's purse. The commons cheer the Hound.
+12. **Littlefinger suggests Loras planned the mare trick** — While walking to the archery field, Littlefinger notes Loras must have known the mare was in heat. Barristan disapproves.
+13. **Anguy wins the archery competition** — A commoner from the Dornish Marches outshoots Ser Balon Swann and Jalabhar Xho at a hundred paces. Ned offers him a position in the Hand's guard; Anguy refuses.
+14. **Thoros of Myr wins the melee** — Three-hour melee with near forty men; Thoros wins with his flaming sword. Three broken limbs, a shattered collarbone, a dozen smashed fingers, two horses put down. Robert did not participate.
+15. **Feast that night** — Robert in good humor; Lannisters absent. Arya shows her bruise from training; Sansa and Arya are civil. Sansa listens to singers performing "Dance of the Dragons."
+16. **Ned and Arya discuss Syrio Forel** — Arya reports on training (blindfolds, balance, catching cats next). Ned offers alternatives (Jory, Ser Barristan); Arya refuses.
+17. **Ned reflects in his chambers** — He studies the Valyrian steel dagger. Considers the mystery: Jon Arryn's death, Bran's fall, the dagger, Ser Hugh's death. He reviews what he knows of Robert's bastards — Gendry, the girl in the Vale, the boy at Storm's End.
+18. **Varys visits Ned in disguise** — Varys arrives in roughspun robes, reveals: (a) the Lannisters planned to kill Robert in the melee; (b) Cersei's forbidding him to fight was calculated to ensure he would; (c) among Robert's allies, only Ned is truly loyal; (d) Jon Arryn was poisoned with the tears of Lys; (e) Ser Hugh was likely the one who administered the poison; (f) Ser Hugh was killed at the tourney before Ned could question him; (g) Jon Arryn was killed because he was "asking questions."
 
 ## Spatial Layout & Movement
 | Phase | Who | Position / Movement | Relative To | Notes |
 |-------|-----|---------------------|-------------|-------|
-| Opening | Ned, Ser Barristan | Standing over a cart with Ser Hugh's body | Tournament camp, dawn | Silent sister present beside the cart |
-| Advance | Ned, Ser Barristan | Walking through stirring camp to king's pavilion | Past tents with displayed shields | Observe heraldry; serving man with goose kneels |
-| Arrival | Ned, Ser Barristan | Enter king's pavilion | By the river, wreathed in morning mist | Find Robert struggling with armor and squires |
-| Departure | Ser Barristan | Ordered out by Robert | King's pavilion | Robert throws breastplate at him |
-| Assembly | Ned, Robert | Breakfast at trestle table | River's edge | Intimate conversation over food |
-| Advance | Ned, Robert | Walk to jousting field | From breakfast to the lists | Ned promised to watch with Sansa |
-| Assembly | Ned, Sansa | Ned finds Sansa in the gallery | Jousting field | Sansa engrossed as horns blow |
-| Confrontation | Sandor Clegane vs. Jaime Lannister | Jousting — two passes | The lists | Sandor unhorses Jaime on second pass |
-| Confrontation | Ser Loras vs. Ser Gregor | Jousting — single pass | The lists | Loras unhorses Gregor; mare in heat distracts stallion |
-| Confrontation | Ser Gregor | Kills his horse, attacks Loras on foot | Middle of the field | Gregor strides down the lists toward Loras |
-| Confrontation | Sandor vs. Gregor | Hound intervenes; brothers fight | The field | Robert's voice and twenty swords end it |
-| Departure | Ser Gregor | Strides off, shoving past Barristan Selmy | The field | Robert says "let him go" |
-| Advance | Ned, Sansa, Littlefinger, Renly, others | Walk to archery field | From jousting to archery | Littlefinger discusses Loras's trick |
-| Assembly | Ned, family | Evening feast | Feast hall | Arya brought by Jory; Sansa listening to singers |
-| Advance | Ned | Takes girls back through the city to bed | King's Landing to the Red Keep | |
-| Arrival | Ned | Ascends to his chambers atop Tower of the Hand | Tower of the Hand | Opens shutters; studies the dagger |
-| Arrival | Varys | Enters Ned's chambers in disguise | Tower of the Hand | Past midnight; bypassed guards through secret passages |
-| Departure | Varys | Leaves after revealing the poisoning | Tower of the Hand | Pulls up cowl; final line about Jon Arryn "asking questions" |
+| Opening | Ned, Barristan | Standing over cart with Ser Hugh's body | Camp outskirts | Pale dawn; silent sister present |
+| Advance | Ned, Barristan | Walk through camp to king's pavilion | Past various tents with displayed shields | Camp stirring around them |
+| Confrontation | Ned, Barristan, Robert | Inside king's pavilion | By the water | Robert struggling with armor; squires present |
+| Departure | Barristan | Leaves pavilion after Robert throws breastplate | Dodges thrown armor | Robert orders him out |
+| Assembly | Robert, Ned | Breakfast at trestle table by river's edge | Morning mists clearing | Private conversation |
+| Advance | Ned, Robert | Walk to jousting field | Robert to his place; Ned finds Sansa | Ned promised to watch with Sansa |
+| Confrontation | Sandor Clegane vs. Jaime Lannister | Jousting lists | Two passes; Jaime unhorsed on second | Littlefinger and Renly wager from stands |
+| Confrontation | Ser Gregor vs. Ser Loras | Jousting lists | Gregor's stallion uncontrollable; Loras unhorses Gregor | Mare in heat agitates stallion |
+| Confrontation | Ser Gregor | Kills his horse, strides down lists toward Loras | On the field | Knocks Loras from saddle |
+| Confrontation | Sandor Clegane vs. Ser Gregor | On the jousting field | Sandor pulls Gregor away | Brothers hammer at each other |
+| Assembly | Robert, Kingsguard, knights | Surround the combatants | Robert commands them to stop | Twenty swords drawn |
+| Advance | Ned, Sansa, Littlefinger, Renly, others | Walk to archery field | After jousting concludes | Littlefinger discusses Loras's trick |
+| Assembly | Ned, daughters, others | Feast that night | | Robert in high humor; Lannisters absent |
+| Departure | Ned, Sansa, Arya | Through the city back to the Red Keep | Ned sees girls safe in bed | |
+| Arrival | Varys | Enters Ned's chambers atop Tower of the Hand | Past Porther, Cayn (outside tower), Alyn (on stairs), Harwin (at door) | Uses secret passages; disguised in roughspun |
 
 ## Information Revealed
 | Information | How Revealed | Known To (Characters) | Known To (Reader Only?) |
 |-------------|-------------|----------------------|------------------------|
-| Ser Hugh was Jon Arryn's squire for four years and was newly knighted | Ser Barristan tells Ned | Ned, Barristan | No |
-| Ser Hugh had not finished paying for his armor (but "paid dearly" in death) | Ser Barristan and Ned discuss | Ned, Barristan | No |
-| Robert intends to fight in the melee | Barristan tells Ned; Jory told Ned the previous night | Ned, Barristan, Jory, Robert | No |
-| Robert's squires are Lannister cousins — sons of Lord Tywin's brother | Robert tells Ned | Ned, Robert | No |
-| Cersei insisted Robert take these squires | Robert tells Ned | Ned, Robert | No |
-| Robert and Cersei had angry words; she forbade him to fight | Public knowledge; Robert tells Ned | Broadly known | No |
-| Robert dreams of giving up the crown and becoming a sellsword king | Robert confides in Ned | Ned, Robert | No |
-| Robert despairs of Joffrey and fears him on the throne | Robert confides in Ned | Ned, Robert | No |
-| Robert apologizes about Lady; says Joffrey was lying | Robert tells Ned | Ned, Robert | No |
-| Gregor Clegane is rumored to have killed infant Aegon and raped/killed Elia | Ned's thoughts recounting whispers | General rumor; not said in Gregor's hearing | No |
-| Gregor's first two wives died under dark circumstances; a sister died young; a fire disfigured his brother; a hunting accident killed their father | Ned's thoughts recounting rumors | General rumor | No |
-| Loras likely used a mare in heat to distract Gregor's stallion | Littlefinger observes/deduces | Littlefinger, those walking with him | No |
-| Anguy wins archery, refuses position with Hand's guard | Events/Alyn reports back | Ned, Alyn | No |
-| Gendry (the armorer's apprentice) is Robert's bastard son | Ned's deduction from Baratheon features | Ned | Yes — Ned's private conclusion |
-| Robert has an acknowledged bastard boy at Storm's End, fostered by Renly's castellan | Ned's knowledge | Ned | No |
-| Robert's first child was a daughter born in the Vale; would now be 17-18 | Ned's memory | Ned | No |
-| The Lannisters planned to kill Robert during the melee | Varys tells Ned | Ned, Varys | No |
-| Cersei's forbidding Robert to fight was calculated to ensure he would | Varys's analysis | Ned, Varys | No |
-| Jon Arryn was poisoned with the tears of Lys — rare, clear, untraceable | Varys tells Ned | Ned, Varys | No |
-| Varys begged Jon Arryn to use a food taster, but Jon refused | Varys tells Ned | Ned, Varys | No |
-| Ser Hugh likely administered the poison to Jon Arryn | Varys strongly implies | Ned, Varys | No |
-| Jon Arryn was killed for "asking questions" | Varys tells Ned | Ned, Varys | No |
-| The Red Keep has secret ways known only to "ghosts and spiders" | Varys tells Ned | Ned, Varys | No |
-| Varys tested Ned's loyalty by watching his actions before approaching | Varys tells Ned | Ned, Varys | No |
-| The Kingsguard is largely compromised — only Selmy is trustworthy; Boros and Meryn are queen's creatures | Varys tells Ned | Ned, Varys | No |
-| Lord Stannis has not returned to King's Landing for the tourney | Ned's observation | Ned | No |
+| Ser Hugh was Jon Arryn's squire for four years; knighted by Robert before the tourney | Barristan tells Ned | Ned, Barristan | No |
+| Robert is too fat for his armor | Ned observes and states directly | Ned, Robert | No |
+| Robert's squires are Lannister cousins — sons of Tywin's brother | Robert tells Ned | Ned, Robert | No |
+| Cersei forbade Robert from the melee; she's sulking in the castle | Robert tells Ned | Ned, Robert | No |
+| Robert despairs of Joffrey; dreams of abdicating | Robert confides to Ned | Ned, Robert | No |
+| Robert has an acknowledged bastard at Storm's End, Bran's age, with highborn mother | Ned's reflection | Ned | Yes |
+| Robert's first child was a daughter born in the Vale; she'd be 17-18 now | Ned's reflection | Ned | Yes |
+| Gendry is Robert's bastard; the Baratheon look is stamped on his face | Ned's conclusion | Ned | Yes |
+| Loras likely used a mare in heat to unsettle Gregor's stallion | Littlefinger observes aloud | Littlefinger, Renly, Ned, Barristan | No |
+| The Lannisters planned to kill Robert during the melee | Varys reveals to Ned | Ned, Varys (Lannisters know their own plot) | No |
+| Cersei's prohibition was calculated to force Robert into the melee | Varys reveals to Ned | Ned, Varys | No |
+| Jon Arryn was poisoned with the tears of Lys | Varys reveals to Ned | Ned, Varys | No |
+| Tears of Lys is rare, costly, clear as water, leaves no trace | Varys reveals to Ned | Ned, Varys | No |
+| Ser Hugh likely administered the poison to Jon Arryn | Varys strongly implies to Ned | Ned, Varys | No |
+| Ser Hugh was killed at the tourney before Ned could question him — possibly deliberate | Varys implies to Ned | Ned, Varys | No |
+| Jon Arryn was killed because he was "asking questions" | Varys tells Ned | Ned, Varys | No |
+| Varys tested Ned's loyalty by watching his behavior before approaching | Varys admits to Ned | Ned, Varys | No |
+| Among the Kingsguard, only Ser Barristan is trustworthy; Ser Boros and Ser Meryn are the queen's creatures | Varys tells Ned | Ned, Varys | No |
+| Lord Stannis has not returned to King's Landing for the tourney | Ned's reflection | Ned | Yes |
+| The Red Keep has secret passages known only to "ghosts and spiders" | Varys tells Ned | Ned, Varys | No |
+| Varys begged Jon Arryn to use a taster but Jon refused | Varys tells Ned | Ned, Varys | No |
 
 ## Dialogue of Note
 | Speaker | Listener | Quote/Paraphrase | Context |
 |---------|----------|------------------|---------|
-| Ned | Robert | "The boys are not at fault. You're too fat for your armor, Robert." | Ned bluntly tells Robert why his armor doesn't fit |
-| Robert | Squires | "Go find Ser Aron Santagar. Tell him I need the breastplate stretcher." | Robert sends squires on a fool's errand |
-| Ser Barristan | Robert | "It is not seemly that the king should ride into the melee. It would not be a fair contest. Who would dare strike you?" | The argument that persuades Robert not to fight |
-| Robert | Ned | "Damn you, Ned Stark. You and Jon Arryn, I loved you both. What have you done to me? You were the one should have been king, you or Jon." | Robert lamenting what kingship has done to him |
-| Robert | Ned | "I swear to you, I was never so alive as when I was winning this throne, or so dead as now that I've won it." | Robert's existential despair about being king |
-| Robert | Ned | "Let me tell you a secret, Ned. More than once, I have dreamed of giving up the crown. Take ship for the Free Cities with my horse and my hammer, spend my time warring and whoring, that's what I was made for." | Robert's fantasy of abdication |
-| Robert | Ned | "The thought of Joffrey on the throne, with Cersei standing behind him whispering in his ear. My son. How could I have made a son like that, Ned?" | Robert's fear and despair about Joffrey |
-| Ned | Robert | "You never knew Lyanna as I did, Robert. You saw her beauty, but not the iron underneath." | Ned correcting Robert's idealized view of Lyanna |
-| Littlefinger | Renly | "Even hungry dogs know better than to bite the hand that feeds them." | About the Hound jousting against Jaime Lannister |
-| Sandor Clegane | Ser Gregor | "Leave him be." | Intervening to save Loras |
-| Robert | All | "STOP THIS MADNESS, IN THE NAME OF YOUR KING!" | Halting the Clegane brothers' fight with battlefield voice |
-| Loras Tyrell | Sandor Clegane | "I owe you my life. The day is yours, ser." | Yielding the championship |
-| Sandor Clegane | Loras | "I am no ser." | Accepting the victory while rejecting the title |
-| Sansa | Ned | "Father, don't let Ser Gregor hurt him." | Concerned for Loras during the joust |
-| Arya | Ned | "Syrio says that every hurt is a lesson, and every lesson makes you better." | Defending her training |
-| Varys | Ned | "You are the King's Hand, and the king is a fool." | Opening his revelations |
-| Varys | Ned | "She forbade him to fight, in front of his brother, his knights, and half the court. Tell me truly, do you know any surer way to force King Robert into the melee?" | Revealing Cersei's manipulation |
+| Ned | Barristan | "None of us is ever ready." / "For death." | Viewing Ser Hugh's body; Barristan says Hugh was not ready for knighthood |
+| Ned | Robert | "You're too fat for your armor, Robert." | Telling the truth about why armor doesn't fit |
+| Robert | Squires | "Go find Ser Aron Santagar. Tell him I need the breastplate stretcher." | Practical joke; sends Lannister squires on fool's errand |
+| Robert | Ned | "I swear to you, I was never so alive as when I was winning this throne, or so dead as now that I've won it." | Confiding despair about kingship |
+| Robert | Ned | "Let me tell you a secret, Ned. More than once, I have dreamed of giving up the crown. Take ship for the Free Cities with my horse and my hammer, spend my time warring and whoring, that's what I was made for." | Dreams of abdication |
+| Robert | Ned | "How could I have made a son like that, Ned?" | About Joffrey; despair |
+| Robert | Ned | "I am sorry for your girl, Ned. Truly. About the wolf, I mean. My son was lying, I'd stake my soul on it." | About Sansa's direwolf Lady; admits Joffrey lied |
+| Robert | Ned | "STOP THIS MADNESS, IN THE NAME OF YOUR KING!" | Stopping the Clegane brothers' fight; battlefield voice |
+| Sandor Clegane | Loras | "I am no ser." | When Loras concedes the victory |
+| Littlefinger | Renly, others | "Even hungry dogs know better than to bite the hand that feeds them." | Before the Hound-vs-Jaime joust |
+| Littlefinger | Renly, Ned, others | "I swear the boy planned the whole thing. Gregor has always favored huge, ill-tempered stallions with more spirit than sense." | About Loras using a mare in heat |
+| Barristan | | "There is small honor in tricks." | Disapproving of Loras's tactic |
+| Arya | Ned | "Syrio says that every hurt is a lesson, and every lesson makes you better." | Justifying her bruises |
+| Varys | Ned | "You are the King's Hand, and the king is a fool." | Beginning his revelations |
+| Varys | Ned | "I command whisperers, not warriors." | When Ned asks why Varys did nothing about the plot |
 | Varys | Ned | "The Red Keep shelters two sorts of people, Lord Eddard. Those who are loyal to the realm, and those who are loyal only to themselves." | Explaining why he tested Ned |
-| Varys | Ned | "Ser Barristan loves his honor, Grand Maester Pycelle loves his office, and Littlefinger loves Littlefinger." | Characterizing Robert's councillors |
-| Varys | Ned | "The tears of Lys, they call it. A rare and costly thing, clear and sweet as water, and it leaves no trace." | Revealing the means of Jon Arryn's murder |
-| Varys | Ned | "Asking questions." | Final line — why Jon Arryn was killed |
+| Varys | Ned | "Ser Barristan loves his honor, Grand Maester Pycelle loves his office, and Littlefinger loves Littlefinger." | Assessing Robert's supposed allies |
+| Varys | Ned | "A paper shield." | Describing the Kingsguard's unreliability |
+| Varys | Ned | "The tears of Lys, they call it. A rare and costly thing, clear and sweet as water, and it leaves no trace." | Revealing the murder weapon used on Jon Arryn |
+| Varys | Ned | "Asking questions." | When Ned asks why Jon Arryn was killed; Varys's exit line |
 
 ## POV Character's Internal State
-- **Emotional state:** Guilt and sorrow over Ser Hugh's death (wondering if the boy died for his sake); weariness (slept badly); nostalgia and affection during breakfast with Robert; hope that Robert would act against the Lannisters; disquiet watching Gregor Clegane; frustration at his stalled investigation; shock and anger during Varys's visit; homesickness (wanting to return to Winterfell's "clean simplicity")
-- **Primary preoccupation:** The investigation into Jon Arryn's death and the Lannister conspiracy; keeping Robert safe; the connection between Bran's attempted murder, the dagger, and Jon Arryn's death
-- **Key decisions made:** Orders Ser Hugh's armor sent home to his mother; persuades Robert not to fight in the melee; decides not to replace Syrio Forel despite misgivings; implicitly agrees to work with Varys
-- **Self-deception flags:** Ned believes that if he proves Lannister guilt, Robert will act decisively — "He could see it all so clearly" — an optimism that overlooks Robert's weaknesses and the complexity of the political situation. Ned also underestimates how deeply compromised the court is until Varys spells it out.
+- **Emotional state:** Exhausted and grieving at the start (slept badly, tired beyond his years); conflicted between duty and desire to return to the north; briefly hopeful during breakfast with Robert; anxious during the jousting (especially Gregor's violence); hopeful again at the feast with Robert in good spirits and Lannisters absent; deeply disturbed and overwhelmed after Varys's revelations ("felt half-poisoned himself," "Ned's head was pounding")
+- **Primary preoccupation:** The interconnected mystery — Jon Arryn's murder, Bran's fall, the dagger, and the Lannisters' involvement. Secondarily: keeping Robert safe and alive; worry about Lannister influence surrounding the king.
+- **Key decisions made:** Orders Ser Hugh's armor sent to his mother and will deal with the smith; convinces Robert not to fight in the melee (with Barristan's help); decides to continue investigating despite the danger (implicit after Varys's visit); lets Arya continue training with Syrio despite reservations.
+- **Self-deception flags:** "He could see it all so clearly" — Ned's vision of proving Lannister guilt and Robert acting decisively against them is optimistic and possibly naive. He assumes Robert's current warmth and clarity will translate to decisive political action. He also assumes Varys is being fully truthful with him.
 
 ## Relationships Observed
 | Character A | Relationship | Character B | Evidence |
 |-------------|-------------|-------------|----------|
-| Ned | grief/guilt toward | Ser Hugh | Wonders if the boy died for his sake; covers him with his cloak; orders armor sent home |
-| Ned | deep friendship/loyalty | Robert | Shared history; Robert confides in Ned; the breakfast scene; Varys says Robert wouldn't kill Ned even for his queen |
-| Robert | nostalgic idealization | Lyanna Stark | "Your sister would never have shamed me like that"; lost interest in marriage after her death |
-| Ned | corrective honesty | Robert | Tells Robert he's too fat; tells Robert Lyanna had "iron underneath"; tells Robert no one would dare strike him |
-| Robert | contempt/resentment | Cersei Lannister | Calls her cold; complains about their marriage; rages about her forbidding the melee |
-| Robert | despair/disappointment | Joffrey | "How could I have made a son like that"; fears Joffrey on the throne |
-| Robert | love/grief | Jon Arryn | "I loved that old man"; though now thinks he was foolish about the marriage advice |
-| Ned | suspicion/wariness | Lannisters | Troubled by Lannister squires surrounding Robert; suspects Lannisters in Jon Arryn's death and Bran's attack |
-| Littlefinger | rivalry/wagering | Renly | Bet against each other on jousting outcomes; banter |
-| Sandor Clegane | protective intervention | Loras Tyrell | The Hound saves Loras from Gregor's killing blow |
-| Sandor Clegane | violent enmity | Gregor Clegane | Brothers fight; notably Sandor never aims at Gregor's unprotected face |
-| Gregor Clegane | violent rage | Loras Tyrell | Attacks Loras after losing; tries to deliver killing blow |
-| Loras Tyrell | gratitude/respect | Sandor Clegane | Yields championship to him; "I owe you my life" |
-| Sansa | romantic admiration | Loras Tyrell | Wears his rose; calls him beautiful; fears for his safety |
-| Arya | loyalty/attachment | Syrio Forel | Refuses to replace him; quotes his teachings |
-| Ned | paternal concern | Arya | Inspects her bruise; considers replacing Syrio; yields to her wishes |
-| Varys | cautious alliance | Ned | Tests Ned's loyalty then offers to work together; warns of Lannister plots |
-| Varys | self-preservation awareness | Robert | Knows Robert is ashamed of using him; knows he'd be killed if Cersei ordered it |
-| Ned | shocked trust | Varys | Initially astonished by Varys's honesty; accepts the information and implicitly agrees to cooperation |
-| Robert | indifference/ignorance | His squires (Lannister cousins) | Doesn't remember which brother of Tywin fathered them |
+| Eddard Stark | serves as Hand to | Robert Baratheon | Ned acts as Hand throughout; Robert addresses him as such |
+| Eddard Stark | deep old friendship with | Robert Baratheon | Breakfast nostalgia; Robert says "I loved you both" (with Jon Arryn); shared memories of the Eyrie |
+| Robert Baratheon | loathes marriage to | Cersei Lannister | "Cold… the way she guards her cunt"; blames Jon Arryn for the match |
+| Robert Baratheon | still mourns/loves | Lyanna Stark | "I had no wish to marry after Lyanna was taken from me"; compares Cersei unfavorably |
+| Robert Baratheon | despairs of | Joffrey Baratheon | "How could I have made a son like that, Ned?" |
+| Eddard Stark | protective of | Sansa Stark | Watches the jousting with her; covers her ears figuratively; takes her safely home |
+| Eddard Stark | protective of / uneasy about training | Arya Stark | Inspects bruise; offers alternatives to Syrio; yields to Arya's stubbornness |
+| Arya Stark | devoted student of | Syrio Forel | Refuses all alternatives; quotes Syrio's wisdom; practices balance constantly |
+| Sansa Stark | infatuated with | Ser Loras Tyrell | Watches moist-eyed; whispers "he's so beautiful"; wears his rose; begs Ned to protect him |
+| Sandor Clegane | protects | Ser Loras Tyrell | Intervenes to save Loras from Gregor; risks his own life |
+| Sandor Clegane | deep enmity with | Gregor Clegane | Brothers fight savagely; Sandor notably does not strike at Gregor's unprotected face |
+| Ser Gregor Clegane | violent fury toward | Ser Loras Tyrell | Attacks Loras after being unhorsed; aims killing blow |
+| Littlefinger | wagers against/banter with | Lord Renly | Bet of a hundred gold dragons on the jousts; competitive repartee |
+| Varys | secret counselor to | Eddard Stark | Comes in disguise to warn Ned; proposes alliance |
+| Varys | distrusts | Littlefinger | "Littlefinger loves Littlefinger" |
+| Varys | respects loyalty of | Ser Barristan Selmy | "Only Ser Barristan Selmy is made of the true steel" |
+| Cersei Lannister | manipulates | Robert Baratheon | Varys asserts she forbade Robert from the melee knowing it would ensure he fought |
+| Ned | investigates | Lannisters | Central preoccupation; connecting Jon Arryn, Bran, the dagger |
+| Ser Barristan Selmy | respected by / loyal to | Robert Baratheon | Helps convince Robert not to fight; Robert keeps him close despite anger |
+| Lancel Lannister | squire to | Robert Baratheon | Assigned by Cersei; Robert berates him |
+| Robert Baratheon | admits Joffrey lied about | Sansa's direwolf incident | "My son was lying, I'd stake my soul on it" |
+| Ned | bitter guilt about | Ser Hugh's death | Wonders if Hugh died because of him; reflects on the meaningless violence |
+| Loras Tyrell | concedes victory to / gratitude | Sandor Clegane | "I owe you my life. The day is yours, ser." |
+| Sansa Stark | sisterly civility toward | Arya Stark | Speaks pleasantly to Arya at the feast |
 
 ## Unanswered Questions
 | Question | Raised By | Context |
 |----------|-----------|---------|
-| Was Ser Hugh killed specifically to prevent Ned from questioning him? | Ned (thought) | Hugh was slain by a Lannister bannerman before Ned could speak to him |
-| Who specifically arranged Ser Hugh's death at the tourney? | Implicit | Hugh died jousting against Ser Gregor, a Lannister vassal |
-| Who exactly poisoned Jon Arryn with the tears of Lys? | Ned, Varys | Varys heavily implies Ser Hugh but does not name the ultimate orchestrator |
-| What was Jon Arryn "asking questions" about that got him killed? | Ned | Varys's final cryptic answer |
-| Why would Tyrion Lannister want Bran dead? Why would anyone? | Ned (thought) | Ned studying the dagger, unable to find a motive |
-| How are the dagger, Bran's fall, and Jon Arryn's murder connected? | Ned (thought) | Ned feels the connection in his gut but cannot prove it |
-| Will the Lannisters make another attempt on Robert's life? | Varys | Varys says they will, "sooner rather than later" |
-| What did Loras Tyrell know about his mare being in heat? | Littlefinger | Littlefinger claims Loras planned the whole thing; Barristan objects |
-| Which of the Kingsguard beyond Boros and Meryn are compromised? | Varys | Varys says he has "deep suspicions of the others" |
-| What is the significance of Robert's bastards to the investigation? | Ned (thought) | Ned knows Gendry is Robert's son but doesn't see how this advances the case |
+| Was Ser Hugh killed deliberately to prevent Ned from questioning him? | Ned's reflection; Varys's implication | Hugh was Jon Arryn's squire; slain by a Lannister bannerman before Ned could speak to him |
+| Who specifically ordered or gave the tears of Lys to Ser Hugh? | Ned asks Varys | Varys says only "some dear sweet friend" — refuses to name who provided the poison |
+| What questions was Jon Arryn asking that got him killed? | Ned asks Varys | Varys's only answer is "asking questions" — the specific subject is not revealed |
+| Why would Ser Hugh poison Jon Arryn, the man who made him everything? | Raised by the situation | Varys implies Hugh betrayed his master but does not explain his motivation |
+| Who among the forty melee riders was designated to kill Robert? | Implied by Varys | Varys says the Lannisters have many friends but does not identify the would-be assassin |
+| Why has Lord Stannis not returned to King's Landing? | Ned's reflection | Ned notes his absence but has no explanation |
+| What was Jon Arryn investigating about Robert's bastards? | Ned's reflection | Ned has identified Gendry as Robert's son but hasn't connected it to Jon Arryn's investigation |
+| What was the connection between the dagger, Bran's fall, and Jon Arryn's murder? | Ned's reflection | Ned feels they are linked but cannot see how |
+| Who are the Kingsguard members Varys has "deep suspicions" of beyond Boros and Meryn? | Varys's statement | Varys names Boros and Meryn as the queen's creatures but only has "suspicions" of others |
 
 ## Raw Entity List
+
 ### Characters
-Eddard (Ned) Stark, Robert Baratheon, Ser Barristan Selmy, Sandor Clegane (the Hound), Jaime Lannister (the Kingslayer), Ser Gregor Clegane (the Mountain), Ser Loras Tyrell (Knight of Flowers), Petyr Baelish (Littlefinger), Lord Renly Baratheon, Sansa Stark, Arya Stark, Varys, Lancel Lannister, Thoros of Myr, Anguy, Harwin, Jory Cassel, Ser Hugh of the Vale, Cersei Lannister, Jon Arryn, Lyanna Stark, Tyrion Lannister, Bran Stark, Joffrey Baratheon, Lord Tywin Lannister, Aegon Targaryen (infant), Elia Martell, Rhaegar Targaryen, Viserys Targaryen, Aerys Targaryen, Gendry, Lord Stannis Baratheon, Lysa Arryn, Syrio Forel, Septa Mordane, Ser Ilyn Payne, Mace Tyrell, Grand Maester Pycelle, Ser Boros Blount, Ser Meryn Trant, Ryam Redwyne, Prince Aemon the Dragonknight, Moon Boy, Balon Greyjoy, Hodor, Dacks, Ser Aron Santagar, Ser Balon Swann, Jalabhar Xho, Alyn, Porther, Cayn, the silent sister (unnamed)
+Eddard Stark (Ned), Robert Baratheon, Ser Barristan Selmy, Sandor Clegane (the Hound), Jaime Lannister (the Kingslayer), Ser Gregor Clegane (the Mountain That Rides), Ser Loras Tyrell (the Knight of Flowers), Petyr Baelish (Littlefinger), Lord Renly Baratheon, Sansa Stark, Arya Stark, Varys, Lancel Lannister, Cersei Lannister, Joffrey Baratheon, Tyrion Lannister (the Imp), Lord Tywin Lannister, Jon Arryn, Lyanna Stark, Ser Hugh of the Vale, Syrio Forel, Jory Cassel, Harwin, Alyn, Porther, Cayn, Anguy, Thoros of Myr, Ser Aron Santagar, Ser Meryn Trant, Ser Boros Blount, Ser Ilyn Payne, Grand Maester Pycelle, Gendry, Hodor, Mace Tyrell, Rhaegar Targaryen, Aegon Targaryen (infant prince), Elia Martell, Viserys Targaryen, Balon Greyjoy, Lord Stannis Baratheon, Lysa Arryn, Moon Boy, Dacks, Septa Mordane, Ser Balon Swann, Jalabhar Xho, Ryam Redwyne, Prince Aemon the Dragonknight, Robert's acknowledged bastard (unnamed, at Storm's End), Robert's daughter in the Vale (unnamed), Gregor's first two wives (unnamed), Gregor and Sandor's sister (unnamed), Gregor and Sandor's father (unnamed), Renly's castellan at Storm's End (unnamed), silent sister (unnamed)
 
 ### Locations
-Tournament grounds, King's pavilion, Jousting field/lists, Archery field, Feast hall, Tower of the Hand, King's Landing, The Eyrie, Winterfell, Casterly Rock, Storm's End, The Trident, Highgarden, Seagard, The Free Cities, Dornish Marches, The Vale, The Red Keep, Great Yard
+King's Landing, tourney grounds, king's pavilion, jousting field/lists, archery field, Tower of the Hand, the Red Keep, Great Yard, Winterfell, the Eyrie (High Hall), Storm's End, Casterly Rock, the Trident, the Vale, Highgarden, Seagard, the Summer Isles, the Dornish Marches, the Free Cities, the North, the Seven Kingdoms
 
-### Artifacts
-Littlefinger's Valyrian steel dagger, Robert's warhammer, Robert's iron shield (crowned stag), Ser Hugh's armor and cloak (crescent moons), Jaime's golden wood lance, Thoros's flaming sword, The tears of Lys, Sansa's rose (from Loras), Jaime's ornate lion helmet, Gregor's longsword
+### Houses
+House Baratheon, House Stark, House Lannister, House Tyrell, House Clegane, House Arryn, House Targaryen, House Martell, House Greyjoy, House Redwyne, House Caron (Bryce Caron — nightingales), House Mallister (Seagard — silver eagle)
 
-### Houses/Factions
-House Stark, House Baratheon, House Lannister, House Tyrell, House Arryn, House Clegane, House Targaryen, House Martell, House Greyjoy, The Kingsguard, The silent sisters, House Mallister (Seagard — silver eagle), House Caron (Bryce Caron — nightingales), House Redwyne (grapes), Faceless Men (not mentioned but tears of Lys imply professional poisoning)
+### Factions & Organizations
+Kingsguard (the White Swords), silent sisters, the small council
+
+### Religions & Faiths
+R'hllor (implied — Thoros is a red priest of Myr), Faith of the Seven (implied — "Seven hells" oaths)
+
+### Cultures & Peoples
+Braavosi (Syrio Forel's style and origin), Dornish (Elia Martell, Dornish Marches)
+
+### Artifacts & Objects
+Valyrian steel dagger (catspaw dagger), Robert's warhammer, immense iron shield (crowned stag), Jaime's golden lance (Summer Isles wood), Jaime's ornate lion helmet, Sandor's hound's-head helm, Loras's silver armor with sapphire forget-me-nots, Loras's cloak of real forget-me-nots, rose given by Loras to Sansa, Ser Hugh's armor (blue cloak with crescent moons), Thoros's flaming sword, tourney lances, tears of Lys (poison), summerwine, Robert's polished drinking horn, breastplate stretcher (nonexistent — Robert's joke)
+
+### In-world Texts & Songs
+"Dance of the Dragons" (complex round of interwoven ballads performed by singers at the feast)
+
+### Magic & Phenomena
+Tears of Lys (poison — clear and sweet as water, leaves no trace), Thoros's flaming sword (fire on steel)
+
+### Wars & Conflicts
+Robert's Rebellion (referenced — Robert winning the throne, the Trident), Greyjoy's Rebellion (referenced — Gregor rode with them), the fall of King's Landing (referenced — Gregor was with Tywin)
+
+### Titles & Offices
+King (Robert), Hand of the King (Ned; formerly Jon Arryn), Lord Commander of the Kingsguard (implied — Barristan), Master of Whisperers (Varys, implied), King's Justice (Ser Ilyn Payne, implied), Knight of Flowers (Loras), the Mountain That Rides (Gregor), the Hound (Sandor), the Kingslayer (Jaime)
+
+### Other
+Breastplate stretcher (fictional object used as practical joke by Robert)

@@ -6,221 +6,264 @@
 - **pov_character:** Bran Stark
 - **pov_chapter_number:** Bran I
 - **first_available:** AGOT Bran I
-- **location_primary:** Holdfast in the hills north of Winterfell (execution site); the road back to Winterfell
-- **location_secondary:** Winterfell (referenced as destination), riverbank north of the bridge, Riverrun (referenced)
-- **approximate_timeline:** Early in the narrative; the ninth year of summer, Bran is seven years old
-- **time_markers:** "The morning had dawned clear and cold"; "set forth at daybreak"; "the ninth year of summer, and the seventh of Bran's life"; "the sun was higher in the sky" on the ride back; "the late summer snows had been heavy this moonturn"; "not been a direwolf sighted south of the Wall in two hundred years"; Jon is fourteen; Robb is of an age with Jon; Theon is nineteen; Eddard is thirty-five; "Ser Rodrik's red bitch whelped again last week"
-- **chapter_summary:** Bran accompanies his father Lord Eddard Stark and a party of twenty to witness the execution of a Night's Watch deserter at a holdfast in the hills. After the beheading, Eddard explains to Bran the Stark tradition that the man who passes the sentence must swing the sword. On the ride back to Winterfell, Robb discovers a dead direwolf mother with five pups near a bridge. Jon argues the pups are meant for the five Stark children, deliberately excluding himself from the count. Eddard agrees to let the children keep the pups. Jon then finds a sixth pup — an albino with white fur and red eyes — separated from the others, and claims it for himself.
+- **location_primary:** The hills north of Winterfell (holdfast where the execution takes place); the kingsroad/bridge on the ride back
+- **location_secondary:** Winterfell (referenced as destination), the riverbank north of the bridge
+- **approximate_timeline:** Early in AGOT, shortly after the Prologue events; the ninth year of summer
+- **time_markers:** "The morning had dawned clear and cold"; daybreak departure; "the ninth year of summer, and the seventh of Bran's life"; sun higher in the sky on ride back; "the late summer snows had been heavy this moonturn"; "two hundred years" since a direwolf was sighted south of the Wall; "last week" (Ser Rodrik's bitch whelped)
+- **chapter_summary:** Bran rides out with his father Lord Eddard Stark and a party of twenty to witness the execution of a Night's Watch deserter at a holdfast in the hills. Ned beheads the man with the Valyrian steel greatsword Ice, and afterward explains to Bran the Stark tradition that the man who passes the sentence must swing the sword. On the ride back to Winterfell, the party discovers a dead direwolf mother on the riverbank with five pups. Jon argues that the five pups match the five trueborn Stark children and persuades Ned to let them keep the wolves. As they cross the bridge, Jon discovers a sixth pup — an albino white with red eyes — separated from the rest, and claims it for himself.
 
 ## Physical Environment
-- **Weather:** Clear and cold morning with a crispness hinting at the end of summer; faint wind at the holdfast; wind dies on the ride back
-- **Season indicators:** "The ninth year of summer"; crispness "hinted at the end of summer"; "late summer snows had been heavy this moonturn"
-- **Time of day:** Daybreak departure; morning execution; sun higher in the sky on the ride back
-- **Lighting:** Morning sunlight; sun shining in Robb's hair at the riverbank
-- **Sounds:** Breath of man and horse steaming; hooves kicking up showers of snow; Robb's laughter receding; woods growing silent; wind in trees; clatter of hooves on ironwood planks; whimpering of the pup; snow crunching under boots
-- **Smells:** "Faint smell of corruption" clinging to the dead direwolf "like a woman's perfume"
-- **Notable sensory details:** Blood spraying red as summerwine across the snow; snow drinking the blood eagerly; ice formed in the dead direwolf's shaggy grey fur; pup's fur soft and warm against Bran's cheek; pup licking Bran's face with a warm tongue; pup nuzzling blindly against Robb's chest, searching for milk; breath steaming in cold morning air; Bran waist-deep in snow drifts
+- **Weather:** Clear, cold morning with a crispness hinting at the end of summer; faint wind at the holdfast; wind dies on the ride back
+- **Season indicators:** Ninth year of summer; crispness hinting at the end of summer; late summer snows heavy this moonturn
+- **Time of day:** Dawn at departure; morning during execution; sun higher in the sky on the ride back
+- **Lighting:** Natural daylight; sun shining in Robb's hair at the riverbank
+- **Sounds:** Horses' hooves on ironwood planks of the bridge; the whimpering of the direwolf pup; the clatter of hooves; Robb's laughter receding into silence; hushed excited voices of the boys; the wind in the trees
+- **Smells:** Faint smell of corruption clinging to the dead direwolf like a woman's perfume; steaming breath of man and horse in cold air
+- **Notable sensory details:** Blood spraying red as summerwine across the snow; snow drinking the blood eagerly; ice formed in the dead direwolf's shaggy grey fur; the warmth of the direwolf pup's fur and tongue against Bran's skin; snow knee-deep; waist-high drifts; cold air described as crisp
 
 ## Characters Present
 | Character | Role in Chapter | First Appearance? | Notes |
 |-----------|----------------|-------------------|-------|
-| Bran Stark | POV character | Yes | Seven years old; rides a pony; first time seeing the king's justice |
-| Eddard (Ned) Stark | Bran's father; executes the deserter | Yes | Lord of Winterfell, Warden of the North; age thirty-five |
-| Jon Snow | Bran's half-brother; finds the albino pup | Yes | Age fourteen; called "Bran's bastard brother" |
-| Robb Stark | Bran's brother; finds the direwolf and pups | Yes | Of an age with Jon (fourteen); discovers the dead direwolf |
-| Theon Greyjoy | Eddard's ward; brings forth Ice | Yes | Nineteen years old; kicks the severed head |
-| Jory Cassel | Captain of Eddard's household guard | Yes | Draws sword at sight of direwolf |
-| Hullen | Master of horse | Yes | Counsels killing the pups |
-| Harwin | Member of the party; Hullen's son | Yes | Tells Robb he cannot keep the pups |
-| Desmond | Member of the party | Yes | Named only; ordered to help gather the pups |
-| The deserter (unnamed) | Night's Watch deserter; executed | Yes | Old, scrawny, lost ears and a finger to frostbite; dressed in ragged black furs; not named in this chapter |
+| Bran Stark | POV character | Yes (uncertain — verify) | Seven years old, riding with the party for the first time to see justice done |
+| Eddard (Ned) Stark | Bran's father, Lord of Winterfell, executioner | Yes (uncertain — verify) | Executes the deserter, decides to let boys keep the direwolf pups |
+| Robb Stark | Bran's older brother | Yes (uncertain — verify) | Finds the dead direwolf and pups on the riverbank |
+| Jon Snow | Bran's bastard half-brother | Yes (uncertain — verify) | Advises Bran during execution; argues for keeping the pups; finds the sixth (albino) pup |
+| Theon Greyjoy | Ned's ward | Yes (uncertain — verify) | Brings forth Ice for the execution; kicks the severed head; draws sword to kill pups |
+| Jory Cassel | Captain of Ned's household guard | Yes (uncertain — verify) | Receives Ned's gloves; draws sword at sight of direwolf; rides with the party |
+| Hullen | Master of horse | Yes (uncertain — verify) | Argues the pups should be killed |
+| Harwin | Member of Ned's party, Hullen's son | Yes (uncertain — verify) | Tells Robb he cannot keep the pups |
+| Desmond | Member of Ned's party | Yes (uncertain — verify) | Named when Ned orders pups gathered up |
+| The deserter (unnamed) | Night's Watch deserter, condemned man | Yes | Old, scrawny man executed for desertion; lost ears and a finger to frostbite |
 
 ## Character Appearances
 | Character | Hair | Eyes | Build/Height | Scars/Marks | Clothing/Armor | Weapons Worn | Distinguishing Features | Age (if stated) |
 |-----------|------|------|-------------|-------------|----------------|-------------|------------------------|-----------------|
-| Eddard Stark | Long brown hair | Grey eyes with a grim cast | Looms over Bran on his great warhorse | | Furs and leathers; gloves (removed for execution) | Ice (Valyrian steel greatsword) | Closely trimmed beard shot with white, making him look older than his years | 35 |
-| Robb Stark | Red-brown hair (his mother's coloring, the Tullys of Riverrun) | Blue eyes (Tully coloring) | Big and broad and growing every day; muscular, strong and fast | | Hood (pulled back at riverbank) | | Fair skin (Tully coloring) | ~14 (of an age with Jon) |
-| Jon Snow | Dark (implied by contrast — "dark where Robb was fair") | Grey so dark they seemed almost black; "there was little they did not see" | Slender, graceful and quick | | | | Described as opposite to Robb in almost every physical way | 14 |
-| Theon Greyjoy | | | Lean | | | Sword (drawn to kill pups) | Dark youth; finds everything amusing | 19 |
-| The deserter | | | Old and scrawny; not much taller than Robb | Lost both ears and a finger to frostbite | Dressed all in black — ragged and greasy furs (like Night's Watch garb) | | Bound hand and foot when found | |
-| The dead direwolf mother | Shaggy grey fur | Blind eyes crawling with maggots | Bigger than Bran's pony; twice the size of the largest hound in Eddard's kennel | | | | Huge dark shape; wide mouth full of yellowed teeth; ice formed in fur; faint smell of corruption | |
-| The albino direwolf pup | White fur | Red eyes (as red as the blood of the ragged man) | | | | | Albino; eyes already open while siblings' eyes still closed; separated from the litter | |
-| Bran Stark | | | Small (rides a pony; snow is waist-high on him) | | Leathers (pup snuggled inside) | | | 7 |
+| Eddard Stark | Long brown hair | Grey eyes, grim cast this day | Looms over Bran on his great warhorse | | Furs and leathers, gloves (removed for execution) | Ice (Valyrian steel greatsword) | Closely trimmed beard shot with white, making him look older than his years | 35 |
+| Robb Stark | Red-brown hair (his mother's coloring) | Blue eyes (Tully coloring) | Big and broad and growing every day | | Hood (pulled back at riverbank) | | Fair skin; his mother's coloring, the Tullys of Riverrun | |
+| Jon Snow | Dark | Grey so dark they seemed almost black; "there was little they did not see" | Slender, graceful and quick | | | | Of an age with Robb but does not look alike; dark where Robb is fair; slender where Robb is muscular | 14 |
+| Theon Greyjoy | | | Lean, dark | | | Sword (drawn to kill pups) | Found everything amusing | 19 |
+| The deserter | | | Old and scrawny, not much taller than Robb | Lost both ears and a finger to frostbite | Dressed all in black — ragged and greasy furs (Night's Watch garb) | | Bound hand and foot | |
+| Bran Stark | | | | | Leathers (pup snuggled inside) | | | 7 |
 
 ## Characters Referenced
 | Character | Context of Reference | Referenced By |
 |-----------|---------------------|---------------|
-| Old Nan | Told hearth tales about wildlings to the Stark children | Bran (memory); Eddard ("Old Nan has been telling you stories again") |
-| Mance Rayder | The King-beyond-the-Wall; Robb thought the deserter was a wildling sworn to him | Robb (thought) |
-| Robert Baratheon | King of the Andals, the Rhoynar, and the First Men; named in the execution sentence; has a headsman | Eddard (formal sentence); Bran (mentions Robert's headsman) |
-| The Targaryen kings | Had headsmen before Robert | Eddard |
-| Ser Rodrik | His red bitch whelped a small litter last week (two live pups); has milk enough | Robb |
-| Rickon Stark | Mentioned as "the baby" — Jon included him in the count of five trueborn children | Bran (narration) |
-| Sansa and Arya Stark | Included implicitly — Jon's count of five trueborn children includes "two daughters" | Jon (implicit in the count) |
-| Catelyn Tully/Stark | Referenced indirectly as Robb's mother — Robb has "his mother's coloring" | Bran (narration describing Robb) |
+| Old Nan | Told Bran hearth tales about wildlings | Bran (memory); Ned ("Old Nan has been telling you stories again") |
+| Mance Rayder | King-beyond-the-Wall; Robb thought the deserter was sworn to him | Robb's speculation |
+| King Robert Baratheon | Named in the execution sentence; Bran mentions he has a headsman | Ned (formal sentence); Bran (in conversation) |
+| The Targaryen kings | Had headsmen before Robert | Ned (in conversation with Bran) |
+| Ser Rodrik (Cassel, inferred) | His red bitch whelped last week, only two live pups | Robb (arguing to keep the direwolf pups) |
+| Rickon Stark | The baby; included in Jon's count of five trueborn children | Bran's internal narration |
+| Sansa and Arya Stark (inferred) | Included in Jon's count — "three sons, two daughters" | Jon (implicitly); Bran's narration ("He had included the girls") |
 
 ## Locations
 | Location | Role | First Appearance? |
 |----------|------|-------------------|
-| Holdfast in the hills | Execution site; where the deserter was taken | Yes |
-| Winterfell | Home of the Starks; referenced as destination | Yes |
+| Holdfast in the hills | Site of the execution | Yes |
+| Winterfell | Home, destination of return journey | Yes (uncertain — verify) |
+| The bridge (ironwood planks) | Landmark on the ride back; where Jon discovers the sixth pup | Yes |
 | Riverbank north of the bridge | Where the dead direwolf and pups are found | Yes |
-| The bridge (ironwood planks) | Crossing point on the road back to Winterfell; where Jon finds the sixth pup | Yes |
-| The Wall | Referenced as boundary — no direwolf seen south of it in 200 years | Yes |
-| Riverrun | Referenced as seat of the Tullys (Robb's mother's family) | Yes |
+| Riverrun | Referenced as seat of the Tullys | Yes (uncertain — verify) |
+| The Wall | Referenced as boundary — no direwolf sighted south of it in 200 years | Yes (uncertain — verify) |
 
 ## Location Descriptions
 | Location | Defensive Features | Architecture/Layout | Interior Details | Scale | Condition | Surrounding Terrain/Geography | Notable Sensory Details |
 |----------|--------------------|--------------------|-----------------| ------|-----------|------------------------------|------------------------|
-| Holdfast in the hills | Small holdfast with a wall (deserter bound to it) and a gate | Ironwood stump in center of the square | | Small | | Hills | Cold morning air; blood on snow; banner flapping overhead |
-| Riverbank north of the bridge | | | | | | North of the bridge; snow drifts knee-deep to waist-high; hidden uneven ground beneath the snow | Late summer snows heavy; sun shining |
-| The bridge | | Ironwood planks | | | | Spans a waterway on the road back to Winterfell | Clatter of hooves on ironwood planks |
+| Holdfast in the hills | Holdfast wall (where the deserter was bound); holdfast gate | Small holdfast with a gate; ironwood stump in the center of the square | | Small | | Hills outside Winterfell | Cold morning air; steaming breath; faint wind through the gate |
+| The bridge | | Ironwood planks | | | | Crosses a river; riverbank north of it where the direwolf is found | Clatter of hooves on ironwood planks |
+| Riverbank | | | | | | North of the bridge; knee-deep snow; waist-high drifts; hidden uneven ground | Late summer snows heavy; bloodstained snow around the direwolf corpse |
 
 ## Artifacts & Objects of Significance
 | Artifact | Context | First Appearance? | Current Holder/Location |
 |----------|---------|-------------------|------------------------|
-| Ice | Valyrian steel greatsword of House Stark; as wide across as a man's hand, taller even than Robb; blade is dark as smoke; used to execute the deserter | Yes | Eddard Stark |
-| Stark banner | Grey direwolf racing across an ice-white field; flapped over the party at the holdfast | Yes | Carried by the party |
-| Shattered antler | Foot-long piece of antler with tines snapped off, wet with blood; found lodged in the direwolf mother's throat | Yes | Pulled out by Eddard and tossed aside |
+| Ice | Valyrian steel greatsword of House Stark; used by Ned to execute the deserter | Yes (uncertain — verify) | Eddard Stark |
+| Shattered antler | Foot-long piece of antler with broken tines found in the dead direwolf's throat — killed her | Yes | Discarded by Ned in the snow |
+| Stark banner | Grey direwolf racing across an ice-white field, flapping over the party | Yes (uncertain — verify) | Carried by the party |
 
 ## Food & Drink
 | Meal/Occasion | Food Items Described | Drink | Who Is Eating/Drinking | Where | Preparation/Presentation Notes |
 |--------------|---------------------|-------|----------------------|-------|-------------------------------|
-| (none depicted) | | | | | |
-
-No meals are described in this chapter. Robb mentions soaking a towel with warm milk to feed the pups. Ser Rodrik's red bitch is referenced as having milk enough from her recent litter.
+| None | | | | | No meals described in this chapter |
 
 ## Hospitality & Guest Right
 | Event | Type | Host | Guest(s) | Details |
 |-------|------|------|----------|---------|
-| (none depicted) | | | | |
-
-No hospitality customs are invoked in this chapter.
+| None | | | | No hospitality events in this chapter |
 
 ## Events & Actions
-1. **Departure at daybreak** — Bran rides out with his lord father, brothers, and a party of twenty to see a man beheaded. This is Bran's first time witnessing the king's justice. It is the ninth year of summer and the seventh of Bran's life.
-2. **The deserter is presented** — The man, bound hand and foot at a small holdfast in the hills, is cut down and dragged before the party. He is old, scrawny, dressed in ragged black furs, and has lost ears and a finger to frostbite. Robb thinks him a wildling sworn to Mance Rayder.
-3. **Questions and sentencing** — Eddard asks questions of the man in the cold morning (Bran cannot recall what was said). He then formally sentences him to death in the name of King Robert Baratheon.
-4. **Jon counsels Bran** — Jon whispers to Bran to keep his pony in hand and not to look away, warning that their father will know if he does.
-5. **Execution** — Eddard takes off the man's head with a single sure stroke of Ice. Blood sprays across the snow, "as red as summerwine." One horse rears and must be restrained.
-6. **Theon's disrespect** — The severed head rolls to Theon Greyjoy's feet. Theon laughs, puts his boot on it, and kicks it away. Jon mutters "Ass" low enough so Greyjoy does not hear.
-7. **Jon praises Bran** — Jon puts a hand on Bran's shoulder and tells him solemnly "You did well." Jon is described as fourteen, "an old hand at justice."
-8. **Ride back begins** — The party rides back toward Winterfell. Bran rides with Robb and Jon ahead of the main party. Robb and Jon debate whether the deserter died bravely. Robb says he had courage; Jon says he was dead of fear.
-9. **Race to the bridge** — Robb challenges Jon to a race; they gallop off, Robb laughing and hooting, Jon silent and intent. Bran is left behind on his slower pony.
-10. **Eddard's lesson on bravery** — Eddard rides up beside Bran. Bran asks if a man can be brave while afraid. Eddard answers: "That is the only time a man can be brave."
-11. **Eddard's lesson on justice** — Eddard explains that the deserter was an oathbreaker from the Night's Watch, not a wildling. He explains the Stark way: the blood of the First Men flows in the Starks, and the man who passes the sentence should swing the sword. He tells Bran that one day he will be Robb's bannerman, holding a keep of his own.
-12. **Discovery of the direwolf** — Jon reappears on the crest of a hill, shouting for Eddard and Bran to come quickly. They find Robb at the riverbank north of the bridge, cradling a direwolf pup beside the corpse of a massive dead female direwolf.
-13. **Examination of the direwolf** — The party dismounts at the bridge and approaches on foot. The dead direwolf is enormous — bigger than Bran's pony, twice the size of the largest hound. She has shaggy grey fur with ice formed in it, blind eyes crawling with maggots, yellowed teeth. There are five living pups, still blind. Eddard finds a foot of shattered antler lodged in the mother's throat.
-14. **Silence at the antler** — When Eddard holds up the shattered antler, a sudden silence descends. The men look at it uneasily and no one speaks. Even Bran can sense their fear, though he does not understand.
-15. **Debate over the pups' fate** — Hullen, Theon, and others advocate killing the pups as a mercy. Robb and Bran resist fiercely. Bran cries "No! It's mine." Eddard initially sides with killing them.
-16. **Jon's argument** — Jon points out there are five pups (three male, two female) for five trueborn Stark children (three sons, two daughters), and that the direwolf is the sigil of House Stark. He calls Eddard "Lord Stark" — noted by Bran as strangely formal. Bran realizes Jon deliberately excluded himself from the count, including the girls and even Rickon "the baby" but not himself.
-17. **Eddard relents** — Eddard agrees to let the children keep the pups, on strict conditions: they feed and train them themselves, no help from servants or the kennelmaster. He warns that direwolves are not dogs — "A direwolf will rip a man's arm off his shoulder as easily as a dog will kill a rat."
-18. **Discovery of the sixth pup** — Halfway across the bridge on the ride home, Jon hears something the others cannot. He rides back to the dead direwolf and returns smiling with a sixth pup — an albino with white fur and red eyes (as red as the blood of the ragged man who died that morning). This pup's eyes are already open while the others are still blind. Eddard suggests it may have crawled away or been driven from the litter.
-19. **Jon claims the albino** — Theon predicts the albino will die even faster than the others. Jon gives Theon a long, chilling look and says "I think not, Greyjoy. This one belongs to me."
+1. **Departure at daybreak** — Bran rides out with his lord father, brothers, and a party of twenty to see a man executed. It is his first time attending.
+2. **The deserter is presented** — The condemned man, bound at a holdfast wall, is cut down and dragged before Lord Stark. He is old, scrawny, dressed in ragged Night's Watch blacks, with ears and a finger lost to frostbite.
+3. **Questioning** — Questions are asked and answered, but Bran cannot recall the details afterward.
+4. **The execution** — The man is forced onto an ironwood stump. Theon brings forth Ice. Ned recites the formal sentence in King Robert's name and beheads the man with a single stroke. Blood sprays across the snow.
+5. **Aftermath of the execution** — Theon kicks the severed head away, laughing. Jon quietly calls him an ass. Jon tells Bran he did well.
+6. **Ride back toward Winterfell** — Bran rides with Robb and Jon. Robb says the deserter died bravely; Jon disagrees, saying the man was dead of fear. They race their horses toward the bridge, leaving Bran behind on his slower pony.
+7. **Ned's lesson on justice** — Ned rides beside Bran and explains why the man who passes the sentence must swing the sword — the old way, the blood of the First Men. He tells Bran he will one day hold a keep as Robb's bannerman and must not look away from justice.
+8. **Discovery of the direwolf** — Jon calls them to the riverbank north of the bridge where Robb has found a dead direwolf mother with five living pups. The direwolf is enormous — bigger than Bran's pony — with a shattered antler lodged in her throat.
+9. **Debate over the pups' fate** — Hullen, Theon, and others argue the pups should be killed. Ned agrees it would be a mercy. Bran and Robb protest.
+10. **Jon's argument** — Jon points out there are five pups (three male, two female) matching the five trueborn Stark children (three sons, two daughters), and that the direwolf is the sigil of House Stark. He deliberately excludes himself from the count. Ned understands what Jon has done.
+11. **Ned agrees to keep the pups** — The boys promise to feed and train them themselves. Ned warns them the pups may die and that direwolves are dangerous. He consents and orders the pups gathered.
+12. **Discovery of the sixth pup** — Halfway across the bridge, Jon hears something, rides back, and finds a sixth pup — an albino with white fur and red eyes, separated from the others. Jon claims this one for himself.
 
 ## Spatial Layout & Movement
 | Phase | Who | Position / Movement | Relative To | Notes |
 |-------|-----|---------------------|-------------|-------|
-| Departure | Party of twenty | Ride from Winterfell toward the holdfast in the hills | | Daybreak departure |
-| Opening | Bran | On his pony between Robb and Jon on their horses | Robb and Jon flanking him | Trying to seem older than seven |
-| Opening | Eddard | Solemnly on his horse before the party | Holdfast wall | Long brown hair stirring in the wind |
-| Advance | Eddard's guardsmen | Drag the deserter to the ironwood stump | Center of the holdfast square | |
-| Confrontation | Eddard | Dismounts; takes Ice; stands at the stump | The deserter kneeling with head on the block | Theon brings the sword; Jory holds the gloves |
-| Departure | Bran, Robb, Jon | Ride well ahead of the main party toward Winterfell | | Bran's pony struggles to keep up |
-| Advance | Robb and Jon | Gallop off racing toward the bridge | Far ahead of Bran | Bran left behind on the trail |
-| Arrival | Eddard | Rides up beside Bran | On the trail | Father-son conversation |
-| Arrival | Jon | Reappears on the crest of the hill | Above Eddard and Bran | Shouts for them to come quickly |
-| Assembly | Robb | Stands knee-deep in snow on the riverbank | North of the bridge, beside the dead direwolf | Cradling a pup; Jon still mounted beside him |
-| Assembly | Jory, Theon | First riders to reach the boys | Riverbank | Theon reaches for his sword; Jory's sword already out |
-| Assembly | Bran | Dismounts at the bridge, runs through waist-high drifts | Pushes through to his brothers' side | |
-| Assembly | Eddard | Kneels beside the dead direwolf | Riverbank | Gropes under the beast's head; finds the antler |
-| Departure | Full party | Mounted and riding toward Winterfell | Crossing the bridge | Bran's pup snuggled inside his leathers |
-| Retreat | Jon | Halfway across the bridge, turns back to the dead direwolf | Bridge → direwolf corpse | Heard something the others did not |
-| Arrival | Jon | Returns to the party on the bridge | Carrying the sixth pup (the albino) | Smiling |
+| Opening | Full party (20) | Riding out from Winterfell at daybreak | Toward the holdfast in the hills | Bran on a pony between Robb and Jon on horses |
+| Arrival | Full party | At the holdfast | Holdfast square with ironwood stump | Deserter bound to the wall, cut down and dragged before them |
+| Confrontation | Eddard Stark | Dismounts, takes Ice | At the ironwood stump | Theon brings the sword; Jory holds gloves |
+| Departure | Full party | Riding back toward Winterfell | From holdfast toward bridge | Seems colder; wind has died, sun higher |
+| Advance | Robb, Jon | Race ahead on horses | Toward the bridge | Bran's pony cannot keep up; he falls behind |
+| Advance | Ned | Rides up beside Bran | On the trail | Conversation about bravery and justice |
+| Assembly | Robb, Jon | On the riverbank north of the bridge | Near the dead direwolf | Jon calls the others to come see |
+| Arrival | Full party | Picks way through drifts to the riverbank | Dismount at the bridge, approach on foot | Jory and Theon reach the boys first |
+| Departure | Full party | Mounted, riding toward Winterfell | Crossing the bridge | Bran has pup inside his leathers |
+| Retreat | Jon | Turns back across the bridge | To where the direwolf lay dead | Finds the sixth pup (albino), rides back smiling |
 
 ## Information Revealed
 | Information | How Revealed | Known To (Characters) | Known To (Reader Only?) |
 |-------------|-------------|----------------------|------------------------|
-| The deserter is from the Night's Watch — an oathbreaker, not a wildling | Eddard explains to Bran during conversation | Eddard; Bran learns it here | No |
-| The Stark/First Men tradition: the man who passes the sentence should swing the sword | Eddard explains to Bran | Eddard; Bran; presumably known to the household | No |
-| The blood of the First Men still flows in the Starks | Eddard states it during his explanation | Eddard, Bran | No |
-| One day Bran will be Robb's bannerman, holding a keep of his own | Eddard tells Bran | Eddard, Bran | No |
-| Direwolves have not been seen south of the Wall in two hundred years | Theon states it | Known to the party | No |
-| Five direwolf pups — three male, two female — match the five trueborn Stark children | Jon points out the correspondence | Jon, Eddard, the party | No |
-| Jon deliberately excludes himself from the Stark children count | Bran perceives Jon's reasoning | Bran, Eddard (understands) | Yes — revealed through Bran's internal narration |
+| The condemned man is a Night's Watch deserter, not a wildling | Ned corrects Bran's assumption | Ned; the party (presumably) | No |
+| The Stark tradition: the man who passes the sentence must swing the sword | Ned explains to Bran | Ned, Bran | No |
+| No direwolf has been sighted south of the Wall in two hundred years | Theon states this | The full party | No |
+| The direwolf was killed by a stag (shattered antler in her throat) | Ned pulls the antler from the direwolf's throat | The full party | No |
+| There are five pups matching five trueborn Stark children — three male, two female | Jon makes the connection explicitly | Jon, Ned, the full party | No |
+| Jon deliberately excludes himself from the count of Stark children | Bran observes this | Bran, Ned | No — Bran narrates his understanding |
+| A sixth pup exists — an albino, white-furred with red eyes, separated from the others | Jon discovers it by hearing something others didn't | Jon, then the full party | No |
 | Jon bears the surname Snow, given to northern bastards | Bran's internal narration | Common knowledge in-world | No |
-| A shattered antler killed the direwolf mother | Eddard pulls it from the throat and holds it up | Known to all present | No |
-| A sixth pup exists — albino, white fur, red eyes, eyes open while siblings are blind | Jon discovers it | Jon, then the party | No |
-| King Robert has a headsman; the Targaryen kings had them before | Eddard mentions in conversation | Eddard, Bran | No |
-| Bran is seven years old; it is the ninth year of summer | Stated in narration | | No |
-| The deserter knows his life is forfeit if taken, making him dangerous | Eddard explains to Bran | Eddard, Bran | No |
+| Bran is destined to be Robb's bannerman, holding a keep | Ned tells Bran | Ned, Bran | No |
 
 ## Dialogue of Note
 | Speaker | Listener | Quote/Paraphrase | Context |
 |---------|----------|------------------|---------|
-| Jon Snow | Bran | "Keep the pony well in hand. And don't look away. Father will know if you do." | Before the execution; whispered counsel |
-| Eddard Stark | The deserter | "In the name of Robert of the House Baratheon, the First of his Name, King of the Andals and the Rhoynar and the First Men, Lord of the Seven Kingdoms and Protector of the Realm, by the word of Eddard of the House Stark, Lord of Winterfell and Warden of the North, I do sentence you to die." | Formal death sentence |
-| Jon Snow | (to himself) | "Ass." | After Theon kicks the severed head; muttered so Theon doesn't hear |
-| Jon Snow | Bran | "You did well." | After the execution; hand on Bran's shoulder; said solemnly |
-| Robb Stark | Jon Snow | "The deserter died bravely. He had courage, at the least." | Riding back; assessing the deserter's death |
+| Jon Snow | Bran | "Keep the pony well in hand. And don't look away. Father will know if you do." | Whispered advice before the execution |
+| Robb | Jon, Bran | "The deserter died bravely. He had courage, at the least." | On the ride back |
 | Jon Snow | Robb | "No. It was not courage. This one was dead of fear. You could see it in his eyes, Stark." | Contradicting Robb's assessment |
-| Bran Stark | Eddard | "Can a man still be brave if he's afraid?" | After reflecting on the execution |
-| Eddard Stark | Bran | "That is the only time a man can be brave." | Answering Bran's question about bravery |
-| Eddard Stark | Bran | "The man who passes the sentence should swing the sword. If you would take a man's life, you owe it to him to look into his eyes and hear his final words. And if you cannot bear to do that, then perhaps the man does not deserve to die." | Explaining the Stark way of justice |
-| Eddard Stark | Bran | "One day, Bran, you will be Robb's bannerman, holding a keep of your own for your brother and your king, and justice will fall to you. When that day comes, you must take no pleasure in the task, but neither must you look away. A ruler who hides behind paid executioners soon forgets what death is." | Preparing Bran for his future responsibility |
-| Eddard Stark | Bran | "In truth, the man was an oathbreaker, a deserter from the Night's Watch. No man is more dangerous." | Correcting Bran's assumption the man was a wildling |
-| Jon Snow | Eddard | "There are five pups. Three male, two female. … Your children were meant to have these pups, my lord." | Arguing the Stark children should keep the pups; deliberately excludes himself |
-| Jon Snow | Eddard | "The direwolf graces the banners of House Stark. I am no Stark, Father." | When Eddard asks if Jon wants a pup for himself |
-| Robb Stark | The party | "Put away your sword, Greyjoy." | Commands Theon when he draws his sword to kill the pups; "for a moment he sounded as commanding as their father" |
-| Robb Stark | Eddard | "I will nurse him myself, Father. I will soak a towel with warm milk, and give him suck from that." | Pleading to keep the pups |
-| Eddard Stark | Robb, Bran | "If you want these pups, you will feed them yourselves. … These are not dogs to beg for treats and slink off at a kick. A direwolf will rip a man's arm off his shoulder as easily as a dog will kill a rat." | Setting conditions for keeping the pups |
-| Theon Greyjoy | The party | "An albino. This one will die even faster than the others." | Upon seeing the sixth pup; said with wry amusement |
-| Jon Snow | Theon Greyjoy | "I think not, Greyjoy. This one belongs to me." | Claiming the albino pup; delivered with a long, chilling look |
+| Bran | Ned | "Can a man still be brave if he's afraid?" | Asking his father after reflecting on Robb and Jon's disagreement |
+| Ned Stark | Bran | "That is the only time a man can be brave." | Response to Bran's question about bravery |
+| Ned Stark | Bran | "The blood of the First Men still flows in the veins of the Starks, and we hold to the belief that the man who passes the sentence should swing the sword." | Explaining the northern tradition of personal justice |
+| Ned Stark | Bran | "One day, Bran, you will be Robb's bannerman, holding a keep of your own for your brother and your king, and justice will fall to you." | Teaching Bran about his future responsibilities |
+| Jon Snow | Ned | "There are five pups. Three male, two female." / "Your children were meant to have these pups, my lord." | Persuading Ned to let them keep the direwolf pups |
+| Jon Snow | Ned | "The direwolf graces the banners of House Stark. I am no Stark, Father." | When Ned asks if Jon wants a pup — Jon excludes himself |
+| Ned Stark | Robb, Bran | "If you want these pups, you will feed them yourselves." | Setting conditions for keeping the pups |
+| Theon Greyjoy | Jon | "An albino. This one will die even faster than the others." | Mocking the sixth pup |
+| Jon Snow | Theon | "I think not, Greyjoy. This one belongs to me." | Claiming the albino pup |
 
 ## POV Character's Internal State
-- **Emotional state:** Nervous excitement at the start (first execution); awe and slight fear during the beheading; deep thoughtfulness on the ride back; fierce protectiveness over the direwolf pup (tears welling when threatened with their death; "No! It's mine"); desperate hope when Jon speaks up; delight and triumph when Eddard agrees ("the sweet air of victory"); curiosity about the albino pup
-- **Primary preoccupation:** Trying to appear older and braver than his seven years; processing what he witnessed; the direwolf pups and keeping them alive; wondering what to name his pup
-- **Key decisions made:** Does not look away during the execution (following Jon's advice); fiercely refuses to give up his pup ("No! It's mine"); echoes Robb's promise to nurse the pup himself
-- **Self-deception flags:** None apparent — Bran is honest and direct in his perceptions throughout
+- **Emotional state:** Nervous excitement at the execution (his first), trying to seem older than seven; dismay and fierce protectiveness over the direwolf pup; delight and curiosity at the discovery; joy at being allowed to keep the pup
+- **Primary preoccupation:** Processing the execution and what it means; protecting and keeping the direwolf pup
+- **Key decisions made:** Refuses to give up the pup despite Theon's demand; commits to feeding and training the pup himself
+- **Self-deception flags:** None apparent
 
 ## Relationships Observed
 | Character A | Relationship | Character B | Evidence |
 |-------------|-------------|-------------|----------|
-| Bran | looks up to / loves | Jon Snow | "He loved Jon with all his heart at that moment"; follows Jon's counsel; Jon is protective of him |
-| Jon Snow | protective older brother | Bran | Whispers advice before execution; praises him after; puts a pup in his arms |
-| Jon Snow | mutual antagonism / contempt | Theon Greyjoy | Calls Theon "Ass" under his breath; gives him "a long, chilling look" when claiming the albino |
-| Jon Snow | deliberate self-exclusion | House Stark | Omits himself from the count of Stark children; "I am no Stark, Father"; calls Eddard "Lord Stark" formally |
-| Eddard Stark | father-teacher | Bran | Explains bravery, justice, and Bran's future; patient and measured |
-| Eddard Stark | lord to ward | Theon Greyjoy | Theon brings forth Ice at the execution; described as "his ward" |
-| Eddard Stark | complex understanding | Jon Snow | "Their father understood as well" (Jon's self-exclusion); asks softly if Jon wants a pup; regards Jon thoughtfully |
-| Robb Stark | competitive equals | Jon Snow | Race to the bridge; debate about the deserter; described in physical contrast |
-| Robb Stark | protective older brother | Bran | "Go on, you can touch him"; stands up for keeping the pups |
-| Robb Stark | emerging authority | The party | "For a moment he sounded as commanding as their father, like the lord he would someday be" |
-| Jory Cassel | loyal guard-captain | Eddard Stark | Takes Eddard's gloves; rides up asking "Trouble, my lord?"; follows commands |
-| Hullen | practical advisor | Eddard Stark | Master of horse; counsels killing the pups as mercy |
-| Harwin | son of | Hullen | Explicitly stated: "Harwin, who was Hullen's son" |
-| Theon Greyjoy | callous outsider | Stark family | Kicks severed head; draws sword to kill pups; mocks albino pup; addressed by surname by Jon |
+| Bran Stark | Son of | Eddard Stark | Called "his lord father" throughout; Ned teaches him about justice |
+| Bran Stark | Brother of | Robb Stark | Rides with "his brothers"; Robb and Bran interact as siblings |
+| Bran Stark | Half-brother of | Jon Snow | Called "Bran's bastard brother"; Jon advises and protects Bran |
+| Robb Stark | Half-brother of | Jon Snow | They ride together, race, and interact as brothers; described as "of an age" but looking unlike |
+| Jon Snow | Bastard son of | Eddard Stark | Called "bastard brother"; bears surname Snow; Ned is "Father" |
+| Theon Greyjoy | Ward of | Eddard Stark | Called "his ward Theon Greyjoy" explicitly |
+| Jory Cassel | Captain of household guard for | Eddard Stark | "Jory Cassel, the captain of his household guard" |
+| Hullen | Master of horse for | Eddard Stark | "Hullen, the master of horse" |
+| Harwin | Son of | Hullen | "Harwin, who was Hullen's son" |
+| Jon Snow | Protective of | Bran Stark | Whispers advice before execution; tells Bran "You did well"; puts a hand on his shoulder |
+| Robb Stark | Protective of | Bran Stark | Includes Bran, shares pup with him |
+| Jon Snow | Excluded from / self-excludes from | House Stark | Omits himself from the count of five; "I am no Stark, Father" |
+| Bran Stark | Loves | Jon Snow | "Bran loved Jon with all his heart at that moment" when Jon makes the argument for the pups |
+| Ned Stark | Regards thoughtfully | Jon Snow | "Their lord father regarded Jon thoughtfully" after Jon's self-exclusion |
+| Theon Greyjoy | Antagonistic toward | Jon Snow | Kicks severed head (Jon calls him "ass"); mocks the albino pup; Jon gives him "a long, chilling look" |
+| Robb Stark | Commands / asserts authority over | Theon Greyjoy | "Put away your sword, Greyjoy" — sounded "as commanding as their father" |
+| Robb Stark | Has coloring of | House Tully | "his mother's coloring, the fair skin, red-brown hair, and blue eyes of the Tullys of Riverrun" |
+| Jon Snow | Contrasts with | Robb Stark | "Slender where Robb was muscular, dark where Robb was fair, graceful and quick where his half brother was strong and fast" |
+| Ned Stark | Teacher/mentor to | Bran Stark | Explains justice, bravery, and duty; tells Bran about his future role |
+| Jory Cassel | Serves | Eddard Stark | Holds gloves, rides beside him, asks "Trouble, my lord?" |
 
 ## Unanswered Questions
 | Question | Raised By | Context |
 |----------|-----------|---------|
-| What did the deserter say during questioning? | Narration | "There were questions asked and answers given … but afterward Bran could not recall much of what had been said" |
-| Why did the men react with such unease to the shattered antler? | Bran's observation | "A sudden silence descended over the party. The men looked at the antler uneasily, and no one dared to speak. Even Bran could sense their fear, though he did not understand." |
-| Was the direwolf mother already dead when the pups were born? | Jory Cassel | "Maybe she didn't [live long enough to whelp] … maybe the bitch was already dead when the pups came" |
-| Why was the albino pup separated from the litter? | Eddard Stark | Jon says "He must have crawled away from the others"; Eddard says "Or been driven away" |
-| Why were the albino pup's eyes open when the others were still blind? | Bran's observation | "Bran thought it curious that this pup alone would have opened his eyes while the others were still blind" |
-| What will the direwolf pups be named? | Narration | "Bran was wondering what to name him" |
-| Will Ser Rodrik's red bitch nurse the pups or attack them? | Robb, Hullen | Robb suggests the bitch as a wet nurse; Hullen says "She'll rip them apart when they try to nurse" |
+| What did the deserter say during questioning? | Narrative gap | Bran could not recall much of what was said |
+| What killed the direwolf mother — what stag? | Discovery of shattered antler | A foot of shattered antler found in her throat; the party reacts with unease and silence |
+| Why did the party react with fear and silence to the antler? | Bran's observation | "Even Bran could sense their fear, though he did not understand" |
+| Why was the sixth pup separated from the others? | Jon and Ned | Jon says "he must have crawled away"; Ned says "or been driven away" |
+| Why did the albino pup have its eyes open when the others were still blind? | Bran's observation | "Bran thought it curious that this pup alone would have opened his eyes while the others were still blind" |
+| Who is the mother of Robb, Bran, and the other trueborn children? | Implied but not named | Referenced only as having Tully coloring; never named in this chapter |
+| What are the names of the two daughters? | Jon's count | Jon counts "two daughters" but they are not named in this chapter |
 
 ## Raw Entity List
+
 ### Characters
-Bran Stark, Eddard (Ned) Stark, Jon Snow, Robb Stark, Theon Greyjoy, Jory Cassel, Hullen, Harwin, Desmond, the deserter (unnamed in this chapter), Old Nan, the direwolf mother (dead), five direwolf pups (unnamed), the albino direwolf pup
+- Bran Stark
+- Eddard (Ned) Stark
+- Robb Stark
+- Jon Snow
+- Theon Greyjoy
+- Jory Cassel
+- Hullen
+- Harwin
+- Desmond
+- Old Nan
+- The deserter (unnamed Night's Watch deserter)
+- Mance Rayder (referenced)
+- King Robert Baratheon (referenced)
+- Ser Rodrik (referenced, surname inferred as Cassel)
+- Rickon Stark (referenced)
+- Sansa Stark (inferred — one of the "two daughters")
+- Arya Stark (inferred — one of the "two daughters")
 
 ### Locations
-Holdfast in the hills, Winterfell, riverbank north of the bridge, the bridge (ironwood planks), the Wall, Riverrun
+- Holdfast in the hills (execution site)
+- Winterfell
+- The bridge (ironwood planks)
+- Riverbank north of the bridge
+- Riverrun (referenced — seat of the Tullys)
+- The Wall (referenced)
 
-### Artifacts
-Ice (Valyrian steel greatsword), Stark banner (grey direwolf on ice-white field), shattered antler
+### Houses
+- House Stark
+- House Baratheon (referenced — Robert's formal titles)
+- House Tully (referenced — Robb's mother's coloring)
+- House Greyjoy (Theon)
+- House Targaryen (referenced — "the Targaryen kings before him")
 
-### Houses/Factions
-House Stark, House Baratheon (referenced in the execution sentence), House Tully (Robb's mother's coloring), House Greyjoy (Theon's house), Night's Watch (the deserter's former order), the Targaryens (referenced as former kings), wildlings (referenced in Old Nan's tales), the Others (referenced in Old Nan's tales and Robb's oath)
+### Factions & Organizations
+- Night's Watch (the deserter was a brother; referenced as an institution)
+
+### Religions & Faiths
+- The old gods (implied — "the older way," "blood of the First Men")
+- The Seven (Greyjoy exclaims "Gods!"; "seven hells" used as an oath)
+
+### Cultures & Peoples
+- The First Men (their blood flows in the Starks' veins; "the older way")
+- Wildlings / Free Folk (Old Nan's stories; Robb's initial assumption about the deserter)
+- The Andals (named in Robert's formal title)
+- The Rhoynar (named in Robert's formal title)
+
+### Artifacts & Objects
+- Ice (Valyrian steel greatsword of House Stark)
+- Shattered antler (found in the direwolf's throat)
+- Stark banner (grey direwolf on ice-white field)
+
+### In-world Texts & Songs
+- None
+
+### Magic & Phenomena
+- The Others (referenced in Old Nan's tales; Robb's oath "The Others take his eyes")
+- The Long Night (referenced in Old Nan's tales)
+- Direwolves (as a species not seen south of the Wall in 200 years — treated as near-mythical)
+
+### Wars & Conflicts
+- None
+
+### Titles & Offices
+- Lord of Winterfell (Eddard Stark)
+- Warden of the North (Eddard Stark)
+- King of the Andals and the Rhoynar and the First Men (Robert Baratheon)
+- Lord of the Seven Kingdoms (Robert Baratheon)
+- Protector of the Realm (Robert Baratheon)
+- King-beyond-the-Wall (Mance Rayder)
+- Captain of the household guard (Jory Cassel)
+- Master of horse (Hullen)
+
+### Other
+- The children of the forest (referenced — Ned talks of them by the fire in the evening)
+- Giants (referenced in Old Nan's tales — wildlings consorted with them)
+- Ghouls (referenced in Old Nan's tales)

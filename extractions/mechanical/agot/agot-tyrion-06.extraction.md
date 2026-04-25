@@ -2,204 +2,267 @@
 
 ## Chapter Metadata
 - **book:** AGOT
-- **chapter_number:** 43
+- **chapter_number:** 42
 - **pov_character:** Tyrion Lannister
 - **pov_chapter_number:** Tyrion VI
 - **first_available:** AGOT Tyrion VI
-- **location_primary:** Mountains of the Moon (high road between the Vale and the riverlands)
-- **location_secondary:** The Eyrie (recalled), Casterly Rock (referenced), Lannisport (recalled), King's Landing (referenced), the Bloody Gate (referenced)
+- **location_primary:** Mountains of the Moon (high road between the Eyrie and the riverlands)
+- **location_secondary:** The Bloody Gate (referenced), The Eyrie (referenced), Casterly Rock (referenced), Lannisport (referenced), King's Landing (referenced)
 - **approximate_timeline:** Shortly after Tyrion's release from the Eyrie following his trial by combat; same day they passed through the Bloody Gate at daybreak
-- **time_markers:** "riding since daybreak"; fire built and meal eaten as "stars had come out and a half-moon was rising over the mountains"; "It will be full dark soon"; Tyrion falls asleep and is woken during the night; the recalled Tysha story took place when Tyrion was thirteen
-- **chapter_summary:** Tyrion and Bronn make camp in the mountains after being expelled from the Vale through the Bloody Gate by Ser Lyn Corbray. Despite Bronn's objections, Tyrion insists on building a fire and cooking food, gambling that the mountain clansmen will find them regardless. The two negotiate their arrangement — Bronn's sword for Lannister gold — with frank acknowledgment that loyalty is transactional. Tyrion tells Bronn the story of Tysha, his first wife, and how Jaime and Tywin orchestrated the marriage's brutal end. Mountain clansmen of the Stone Crows arrive led by Gunthor son of Gurn, with Shagga son of Dolf as a prominent warrior. After they threaten to kill Bronn and enslave Tyrion, Tyrion talks his way out by offering them weapons, steel, and ultimately the Vale of Arryn itself.
+- **time_markers:** "riding since daybreak"; an hour later (after Bronn hunts); "full dark soon"; stars out and half-moon rising; night
+- **chapter_summary:** Tyrion and Bronn make camp in the mountains after being expelled from the Eyrie through the Bloody Gate. They debate survival strategy — Bronn favors stealth, Tyrion insists on building a fire and traveling slowly. Tyrion secures Bronn's loyalty by promising gold. Over roast goat and stale bread, Tyrion tells Bronn the story of his first wife Tysha and Lord Tywin's cruel punishment. Mountain clansmen of the Stone Crows surround their camp; Tyrion negotiates with their chief Gunthor, offering them arms, steel, and the Vale of Arryn in exchange for safe passage.
 
 ## Physical Environment
-- **Weather:** Clear cold night; wind-carved crags suggest persistent wind in the mountains
-- **Season indicators:** "The nights are cold up here" — cold mountain conditions
-- **Time of day:** Begins during daytime (riding since daybreak), transitions through dusk ("It will be full dark soon") to full night (stars and half-moon rising), clansmen arrive during the night after the fire has burned down to embers
-- **Lighting:** Firelight from their campfire; moonlight (half-moon rising over mountains); starlight described as "bright and merciless as truth"; fire burned to embers when clansmen arrive; glint of moonlight on metal
-- **Sounds:** Crackling fire; spit and hiss of roasting meat; rasping sound of Bronn sharpening his sword on an oilstone; a branch cracking underfoot when Gunthor approaches; Shagga clashing club against axe
-- **Smells:** Roasting goat meat making Tyrion's mouth water; smoke stinging Tyrion's eyes
-- **Notable sensory details:** Stony and cold ground for sleeping; grease running down Tyrion's chin while eating; Tyrion's back aching from bending to gather wood; the terrain is mountainous with sparse undergrowth and aspens near a mountain stream
+- **Weather:** Clear cold night; cold nights in the mountains
+- **Season indicators:** "The nights are cold up here"
+- **Time of day:** Daybreak (departure from Bloody Gate); daytime (making camp, gathering wood); dusk ("It will be full dark soon"); night (stars out, half-moon rising); deep night (clansmen arrive, fire burned to embers)
+- **Lighting:** Firelight from their campfire; moonlight (half-moon rising over mountains); glint of moonlight on metal; embers glow as fire dies down; starlight ("stars shone down upon the mountains as bright and merciless as truth")
+- **Sounds:** Crackling fire; spitting and hissing of roasting meat; rasping of steel on stone (Bronn sharpening his sword with oilstone); branch cracking underfoot; Shagga clashing club against axe
+- **Smells:** Roasting goat meat; smoke stinging Tyrion's eyes
+- **Notable sensory details:** Stony and cold ground for sleeping; grease running down Tyrion's chin; mountain stream for watering horses; sparse undergrowth; high wind-carved crags surrounding them
 
 ## Characters Present
 | Character | Role in Chapter | First Appearance? | Notes |
 |-----------|----------------|-------------------|-------|
-| Tyrion Lannister | POV character, protagonist | No | Negotiates alliance with mountain clans after release from the Eyrie |
-| Bronn | Companion, sellsword | No | Serves as Tyrion's protector; frank transactional relationship established |
-| Gunthor son of Gurn | Antagonist/potential ally, chief of Stone Crows | Yes | Leader of the clan party that confronts Tyrion and Bronn |
-| Shagga son of Dolf | Antagonist/potential ally, Stone Crow warrior | Yes | Massive man armed with club and axe; laughs first at Tyrion's death quip |
-| Conn | Stone Crow clansman | Yes | Named by Gunthor, ordered to take horses |
-| Torrek | Stone Crow clansman | Yes | Named during introductions |
-| Jaggot | Stone Crow clansman | Yes | Pokes at Tyrion's face with a wooden spear |
+| Tyrion Lannister | POV character, negotiator | No | Recently freed from the Eyrie; traveling through the Mountains of the Moon |
+| Bronn | Companion, protector | No | Sellsword who championed Tyrion; sharpens his longsword throughout |
+| Gunthor son of Gurn | Antagonist/negotiator, chief of the Stone Crows | Yes | Wears a horned helmet; armed with a long knife; thin man |
+| Shagga son of Dolf | Antagonist, Stone Crow warrior | Yes | Massive, slow, strong; dressed in skins; carries club and axe |
+| Conn | Antagonist, Stone Crow warrior | Yes | Ordered to take the horses |
+| Torrek | Antagonist, Stone Crow warrior | Yes | Named among the clansmen |
+| Jaggot | Antagonist, Stone Crow warrior | Yes | Pokes at Tyrion with a fire-hardened wooden spear |
 
 ## Character Appearances
 | Character | Hair | Eyes | Build/Height | Scars/Marks | Clothing/Armor | Weapons Worn | Distinguishing Features | Age (if stated) |
 |-----------|------|------|-------------|-------------|----------------|-------------|------------------------|-----------------|
-| Tyrion Lannister | | | Stunted legs; squats awkwardly; described as "half man," "dwarf," "little" | | Gloves; shadowskin cloak; hauberk (described as large for him) | Battle-axe; knife/dagger at belt | Crooked smile | |
-| Bronn | Black hair (fall of black hair) | Dark eyes | | Dark gap in his smile where a tooth was cracked in half by Ser Vardis Egen's shield | | Longsword; long dirk at hip | Suspicious gaze | |
+| Tyrion Lannister | | | Stunted legs; described as "half man," "dwarf," "little man" | | Wears a hauberk (large for him); shadowskin cloak; gloves | Battle-axe; knife/dagger at belt | Squats awkwardly on stunted legs; crooked smile | |
+| Bronn | Black hair (fall of black hair) | Dark eyes | | Dark gap in smile where a tooth was cracked in half by Ser Vardis Egen's shield | | Longsword; long dirk at hip | Suspicious regard; grinning | |
 | Gunthor son of Gurn | | | Thin | | Horned helmet | Long knife | | |
-| Shagga son of Dolf | | | Massive; described as a boulder that stood and became a man; slow and strong | | Dressed all in skins | Club (right hand); axe (left hand, described as wood-axe) | Lumbers when he walks; deep voice | |
-| Jaggot | | | | | | Long wooden spear (fire-hardened point) | | |
+| Shagga son of Dolf | | | Massive, slow, strong | | Dressed all in skins | Club (right hand), axe (left hand) — wood-axe | Appeared first as a boulder that shifted and stood and became a man | |
 
 ## Characters Referenced
 | Character | Context of Reference | Referenced By |
 |-----------|---------------------|---------------|
-| Morrec | Tyrion's former servant who made fires for him | Tyrion |
+| Morrec | Tyrion's servant who used to make fires for him | Tyrion |
 | Ser Lyn Corbray | Ushered them through the Bloody Gate at daybreak, commanded them never to return | Narration |
-| Chiggen | Sellsword killed by Bronn after taking an arrow in the belly; Bronn told Catelyn Stark he died of the wound | Tyrion, Bronn |
-| Catelyn Stark | Bronn told her Chiggen died of his wound; Tyrion analyzes her character as proud and distasteful toward lowborn men | Tyrion, narration |
+| Chiggen | Sellsword who was killed by Bronn after catching an arrow in his belly; Bronn told Catelyn Stark he died of his wound | Tyrion, Bronn |
+| Catelyn Stark | Referenced as "Lady Catelyn," "Lady Stark"; Bronn told her Chiggen died of his wound; Tyrion says she would have given Bronn a coin with a look of distaste | Tyrion, narration |
 | Ser Vardis Egen | His shield cracked Bronn's tooth during the trial by combat | Narration |
-| Lord Eddard Stark | Described by Tyrion as proud, honorable, and honest | Tyrion |
-| Jaime Lannister | Tyrion compares Bronn's swordsmanship to Jaime's; central to the Tysha story — arranged the encounter, later confessed it was staged | Tyrion |
-| Lord Tywin Lannister | Tyrion's father; forced Jaime's confession about Tysha, gave Tysha to his guards, made Tyrion go last and pay a gold coin | Tyrion |
-| Tysha | Tyrion's first wife, a crofter's daughter (or so he believed); Jaime later revealed she was a whore he'd arranged; brutalized by Tywin's guards | Tyrion (inferred name — called "the girl," "my wife," "her") |
-| Mord | Gaoler at the Eyrie; Tyrion paid him a purse of gold as promised; invited him to come to Casterly Rock for the rest | Tyrion (recalled) |
-| Lady Lysa Arryn | Provided them with salt beef, hard cheese, and stale bread; referenced as employer Mord might leave | Tyrion |
-| Marillion (inferred) | "The singer" — Bronn suggests Tyrion should have gotten the singer to champion him | Bronn |
+| Eddard Stark | Described by Tyrion as "a proud, honorable, and honest man" | Tyrion |
+| Jaime Lannister | Tyrion's brother; compared to Bronn's swordsmanship; arranged the affair with Tysha — the road, the outlaws, the girl | Tyrion |
+| Tywin Lannister | Tyrion's father; the septon confessed to him about Tyrion's marriage; gave Tysha to his guards; made Tyrion go last and pay a gold coin | Tyrion |
+| Tysha (unnamed — "the girl," "my wife") | Crofter's daughter Tyrion married at thirteen; later revealed to be a whore arranged by Jaime; given to Tywin's guards | Tyrion |
+| Mord | Gaoler at the Eyrie; Tyrion paid him a purse of gold as promised; invited him to come to Casterly Rock for more | Tyrion (recalled) |
+| Marillion (unnamed — "the singer") | Referenced as someone who could have championed Tyrion | Bronn |
+| Lady Lysa Arryn | Referenced as provider of their provisions (salt beef, hard cheese, stale bread) | Tyrion |
 
 ## Locations
 | Location | Role | First Appearance? |
 |----------|------|-------------------|
-| Mountains of the Moon (high road) | Primary setting — Tyrion and Bronn camp near the road | No |
-| Copse of aspens | Specific campsite with mountain stream | Yes |
-| The Bloody Gate | Referenced — where they were expelled from the Vale at daybreak | No |
-| The Eyrie | Referenced — where Tyrion was imprisoned; sky cells recalled | No |
-| Casterly Rock | Referenced — Tyrion's home, destination; where Mord is invited | No |
+| Mountains of the Moon (high road) | Primary setting — campsite beneath aspens off the high road | No |
+| The Bloody Gate | Point of departure at daybreak | No |
+| The Eyrie | Referenced — Tyrion's recent imprisonment | No |
+| Casterly Rock | Referenced — Lannister seat; destination Tyrion considers | No |
 | King's Landing | Referenced — possible destination for Tyrion | No |
 | Lannisport | Referenced — Tyrion and Jaime were riding back from there when they met Tysha | No |
-| The Vale of Arryn | Offered by Tyrion to the Stone Crows | No |
+| The riverlands | Referenced — destination they hope to reach | No |
+| Vale of Arryn | Offered by Tyrion to the Stone Crows | No |
 
 ## Location Descriptions
 | Location | Defensive Features | Architecture/Layout | Interior Details | Scale | Condition | Surrounding Terrain/Geography | Notable Sensory Details |
 |----------|--------------------|--------------------|-----------------| ------|-----------|------------------------------|------------------------|
-| Mountains of the Moon (campsite) | | | | | | High, wind-carved crags surrounding the area; sparse undergrowth; copse of aspens near a mountain stream; stony ground | Cold nights; smoke from campfire; moonlight on metal; shadows creeping in as fire dies |
-| The Eyrie (recalled) | | | Sky cells referenced; barracks with a corner where Tyrion was made to watch | | | Described as a precipice — "dancing on a precipice in hopes of a boiled bean" | |
+| Campsite (Mountains of the Moon) | None — exposed position | Copse of aspens just off the high road; mountain stream nearby | | | Sparse undergrowth; stony ground | High, wind-carved crags surrounding them; mountains | Cold ground; smoke from fire; sounds of stream |
 
 ## Artifacts & Objects of Significance
 | Artifact | Context | First Appearance? | Current Holder/Location |
 |----------|---------|-------------------|------------------------|
-| Shadowskin cloak | Tyrion spreads it on the ground as bedding | No (uncertain — verify) | Tyrion |
-| Valyrian steel dagger / "a certain dagger" | Tyrion mentions wanting answers about "a certain dagger" — his reason to go to Casterly Rock or King's Landing | No | Not stated in this chapter |
-| Purse of gold (given to Mord) | Tyrion fulfilled his promise to pay Mord; leather purse with gold coins, golden dragons | No | Mord |
+| Shadowskin cloak | Tyrion spreads it on the ground to sleep on | No (uncertain — verify) | Tyrion Lannister |
+| Hauberk (chainmail) | Too large for Tyrion; he offers it to Conn | No | Tyrion Lannister |
+| Battle-axe | Tyrion carries it; offers it to Shagga | No (uncertain — verify) | Tyrion Lannister |
+| Valyrian steel dagger (referenced as "a certain dagger") | Tyrion wants to investigate questions about it when he reaches civilization | No | Not stated |
+| Purse of gold | Given to Mord as promised payment | No | Mord |
 
 ## Food & Drink
 | Meal/Occasion | Food Items Described | Drink | Who Is Eating/Drinking | Where | Preparation/Presentation Notes |
 |--------------|---------------------|-------|----------------------|-------|-------------------------------|
-| Provisions from Lady Lysa | Salt beef, hard cheese, stale bread | | Tyrion, Bronn (available but not preferred) | Camp in the mountains | Described dismissively — Tyrion fears breaking a tooth; stale bread hollowed out as trenchers |
-| Campfire supper | Young goat (kid) — haunch roasted over fire | No wine available (Tyrion laments the lack) | Tyrion, Bronn | Campsite by the aspens | Spit-roasted over campfire; spitting and hissing; Tyrion saws thin slices; "a bit tougher than I'd like, and in want of spicing"; grease running down Tyrion's chin; Bronn carves thick chunks of charred meat off the bone; stale bread hollowed as trenchers |
-| Recalled: Tysha meal | Two whole chickens and part of a third | A flagon of wine | Tyrion and Tysha | An inn near Casterly Rock | She was "hungrier than I would have believed"; the wine went to Tyrion's head at age thirteen |
-| Recalled: Eyrie food | Boiled beans | | Tyrion (reference to meager prison fare) | The Eyrie | "Dancing on a precipice in hopes of a boiled bean" |
+| Provisions from the Eyrie | Salt beef, hard cheese, stale bread | None mentioned | Tyrion and Bronn (available but not preferred) | Mountains of the Moon | Described disparagingly — "veritable feast" (sarcastic); stale bread later hollowed into trenchers |
+| Campfire supper | Haunch of young goat; charred meat carved off the bone | Wine desired but unavailable; flagon of wine wished for | Tyrion and Bronn | Campsite beneath aspens | Roasted over fire on a spit; spitting and hissing; "a bit tougher than I'd like, and in want of spicing"; grease running down Tyrion's chin; thick chunks of charred meat; stale bread hollowed as trenchers |
+| Tysha story — inn meal (recalled) | Two whole chickens and part of a third | A flagon of wine | Tyrion and Tysha | An inn near Casterly Rock | She was "hungrier than I would have believed"; wine went to Tyrion's head |
 
 ## Hospitality & Guest Right
 | Event | Type | Host | Guest(s) | Details |
 |-------|------|------|----------|---------|
-| Tyrion invites clansmen to share fire and food | shelter_offered | Tyrion (as de facto host of campfire) | Stone Crows | "Come share our fire, the night is cold … you're welcome to some of our goat" — an attempt to invoke hospitality norms with the clansmen |
-| Stone Crows reject Tyrion's claim | refusal_to_host | Gunthor | Tyrion, Bronn | "Our mountain. Our goat." — Gunthor asserts the clansmen own everything, including the goat Tyrion offers, nullifying any hospitality gesture |
-| Lysa provides provisions upon release | gift_exchange | Lysa Arryn | Tyrion, Bronn | Salt beef, hard cheese, stale bread — minimal provisions upon expulsion from the Vale |
+| Tyrion invites clansmen to share fire and food | shelter_offered | Tyrion | Stone Crows | "Come share our fire, the night is cold… you're welcome to some of our goat" — attempting to invoke hospitality custom to defuse confrontation |
 
 ## Events & Actions
-1. **Tyrion gathers firewood** — Despite Bronn's objections that a fire will attract clansmen, Tyrion insists on building one, arguing the clansmen will find them regardless.
-2. **Bronn and Tyrion debate survival strategy** — Bronn favors riding hard and fast by night with no fires; Tyrion argues this risks killing their horses and will not evade the clansmen whose "eyes are all around."
-3. **Tyrion and Bronn negotiate their alliance** — Tyrion explains why he gambled on Bronn at the trial: Bronn and Chiggen were motivated by gold, not honor, and the Starks would have offered little reward. Tyrion offers gold, land, and women in exchange for continued protection.
-4. **Bronn accepts the arrangement** — Bronn agrees to serve Tyrion for pay but explicitly refuses to act as a liegeman: "don't go looking for me to bend the knee and m'lord you every time you take a shit."
-5. **Tyrion warns Bronn about betrayal** — He tells Bronn he'll always match any price offered for betrayal: "A Lannister always pays his debts."
-6. **Bronn hunts and they make camp** — Bronn kills a young goat; they roast it over the fire and eat using hollowed-out stale bread as trenchers.
-7. **Tyrion recalls paying Mord** — In flashback, Tyrion gave Mord the promised purse of gold and invited him to Casterly Rock for more.
-8. **Tyrion states his intentions** — He plans to seek a whore, a featherbed, and wine when they reach the river, then travel to Casterly Rock or King's Landing to investigate "a certain dagger."
-9. **Tyrion tells the story of Tysha** — He recounts meeting a girl on the road near Lannisport at age thirteen, marrying her secretly, and the two-week marriage. Lord Tywin forced Jaime to reveal the girl was a whore Jaime had hired. Tywin then gave Tysha to his guards, who each paid her a silver; Tyrion was made to go last and pay a gold coin "because I was a Lannister, and worth more."
-10. **Bronn responds to Tysha story** — Bronn says he would have killed the man who did that; Tyrion replies Bronn may get that chance and repeats "A Lannister always pays his debts."
-11. **Tyrion falls asleep and dreams** — He dreams of the sky cell but as the gaoler, hitting his father and driving him toward the abyss.
-12. **Mountain clansmen arrive** — The Stone Crows surround their camp as the fire burns to embers. Gunthor son of Gurn identifies himself as leader; Shagga son of Dolf is the largest among at least ten warriors.
-13. **Clansmen threaten Tyrion and Bronn** — Gunthor claims everything they have and orders Conn to take their horses, kill Bronn, and seize Tyrion to "milk the goats and make the mothers laugh."
-14. **Tyrion negotiates with the Stone Crows** — He offers silver, his hauberk, and his battle-axe, which are rejected as already belonging to the clansmen. He then provokes and challenges their pride, mocking their weapons and courage.
-15. **Gunthor hears Tyrion's offer** — Tyrion promises swords, lances, mail, and more — ultimately offering them the Vale of Arryn.
+1. **Tyrion gathers firewood** — Tyrion collects deadwood while horses drink from a mountain stream, noting he is unpracticed at starting fires since Morrec did it for him.
+2. **Bronn opposes building a fire** — Bronn argues a fire will attract mountain clansmen and advocates for riding hard and fast by night with no fires.
+3. **Tyrion insists on fire and slow travel** — Tyrion argues that riding fast at night risks death by falling, that the clans will find them regardless, and that comfort and hot food are worth the risk.
+4. **Bronn considers abandoning Tyrion** — Bronn suggests taking Tyrion's horse and leaving him; Tyrion calmly accepts he would die, then reminds Bronn he killed Chiggen without hesitation.
+5. **Tyrion secures Bronn's loyalty** — Tyrion explains how he calculated that Bronn would champion him for gold rather than honor, and promises gold, land, and women for continued service. Bronn accepts but refuses to be a toady.
+6. **Tyrion warns Bronn about betrayal** — Tyrion tells Bronn that if ever tempted to sell him out, to remember that the Lannisters will match any price.
+7. **Bronn hunts and they eat** — Bronn goes into the trees and returns with a young goat; they roast it over the fire and eat with stale bread as trenchers.
+8. **Tyrion recalls paying Mord** — In flashback, Tyrion gave Mord the promised purse of gold and invited him to Casterly Rock for more.
+9. **Tyrion discusses his plans** — He tells Bronn he wants to reach the riverlands and then go to Casterly Rock or King's Landing to investigate the dagger.
+10. **Tyrion tells the story of Tysha** — Under the stars, Tyrion recounts meeting a girl on the road near Lannisport, marrying her secretly at thirteen, and Lord Tywin's discovery and punishment — having Jaime confess the girl was a hired whore, giving her to his guards, and forcing Tyrion to go last with a gold coin.
+11. **Bronn responds to the Tysha story** — Bronn says he would have killed whoever did that to him; Tyrion says Bronn may get the chance, invoking "A Lannister always pays his debts."
+12. **Tyrion sleeps and dreams** — He dreams of the sky cells but as the gaoler, driving his father toward the abyss with a strap.
+13. **Mountain clansmen surround the camp** — The fire has burned to embers when Bronn wakes Tyrion; shadows creep in around them.
+14. **Tyrion invites the clansmen to share fire and food** — He calls out offering hospitality; they identify themselves as Stone Crows.
+15. **Gunthor demands their possessions and lives** — The chief says their silver, horses, hauberk, axe, and knife all belong to the clansmen already.
+16. **Tyrion provokes and negotiates** — He mocks their weapons and courage, goading them; Gunthor listens and asks what Tyrion would give for their lives — swords, lances, mail?
+17. **Tyrion offers the Vale of Arryn** — He promises to give the Stone Crows the Vale itself in exchange for safe passage.
 
 ## Spatial Layout & Movement
 | Phase | Who | Position / Movement | Relative To | Notes |
 |-------|-----|---------------------|-------------|-------|
-| Opening | Tyrion, Bronn | Sheltering beneath a copse of aspens off the high road | Mountain stream where horses water | Tyrion gathering wood; Bronn objecting to fire |
-| Assembly | Tyrion, Bronn | Settled at campfire | Fire between them | Bronn sharpens sword; they eat roasted goat; conversation continues through evening |
-| Concealment | Stone Crows (~10+) | Creeping in from surrounding darkness | Around Tyrion and Bronn's camp | Shadows closing in as fire burns to embers; moonlight glints on metal |
-| Confrontation | Gunthor | Steps into firelight from trees | Tyrion, Bronn | Thin man in horned helmet with long knife |
-| Confrontation | Shagga | A boulder shifts to their left and becomes a man | Tyrion, Bronn | Massive, clubs and axes together, lumbers closer |
-| Confrontation | Conn, Torrek, Jaggot, others | Emerge and call their names | Surrounding camp | At least ten; armed with mix of swords, knives, pitchforks, scythes, wooden spears |
-| Confrontation | Bronn | Springs to feet, sword in one hand, dirk in the other | Ready to fight | "Who dies first?" |
-| Confrontation | Jaggot | Pokes at Tyrion's face with spear | Directly in front of Tyrion | Tyrion does his best not to flinch |
+| Opening | Tyrion | Gathering deadwood on foot | Copse of aspens off the high road | Horses watering at mountain stream |
+| Opening | Bronn | Standing/watching near camp | Campsite | Spitting; discussing strategy |
+| Assembly | Tyrion, Bronn | Seated by fire | Campfire | Bronn cross-legged, honing sword; Tyrion carving meat |
+| Concealment | Tyrion | Lying on shadowskin cloak | Campfire (dying embers) | Attempting to sleep; using saddle as pillow |
+| Ambush | Stone Crows (10+) | Creeping in from shadows on all sides | Surrounding the campfire | Glint of moonlight on metal in the trees |
+| Confrontation | Gunthor | Steps into firelight from trees | Campfire | Branch cracks underfoot |
+| Confrontation | Shagga | Rises from behind a boulder to their left | Campfire | "A boulder shifted to their left, and stood, and became a man" |
+| Confrontation | Jaggot | Pokes spear at Tyrion's face | Directly in front of Tyrion | Fire-hardened wooden spear |
+| Confrontation | Bronn | Springs to feet, sword and dirk drawn | Beside Tyrion | Ready to fight; "Who dies first?" |
 
 ## Information Revealed
 | Information | How Revealed | Known To (Characters) | Known To (Reader Only?) |
 |-------------|-------------|----------------------|------------------------|
-| Ser Lyn Corbray expelled them through the Bloody Gate and told them never to return | Narration | Tyrion, Bronn | No |
-| Bronn killed Chiggen to silence his moaning after an arrow wound, then lied to Catelyn about the cause of death | Tyrion confronts Bronn about it | Tyrion, Bronn | No — but Catelyn does not know Bronn killed Chiggen |
-| Tyrion explains why he gambled on Bronn: sellswords follow gold, not honor, and the Starks would have offered little | Dialogue | Tyrion, Bronn | No |
-| Tyrion paid Mord the full purse of gold as promised and invited him to Casterly Rock | Recalled narration | Tyrion, Mord | No |
-| Tyrion intends to investigate "a certain dagger" at Casterly Rock or King's Landing | Dialogue | Tyrion, Bronn | No |
-| The full Tysha story: Jaime arranged the rescue, hired the girl; Tywin forced the confession, gave Tysha to his guards, made Tyrion pay her a gold coin and watch | Tyrion tells Bronn | Tyrion, Bronn (and previously Jaime, Tywin, the guards) | No |
-| Tyrion was thirteen when the Tysha incident occurred | Dialogue | Tyrion, Bronn | No |
-| Tyrion dreams of being the gaoler in the sky cell, hitting his father and driving him toward the abyss | Narration (dream) | Tyrion only (internal) | Yes |
-| The Stone Crows' mothers go hungry and they need steel more than gold | Gunthor states it | Gunthor, Tyrion, Bronn | No |
-| Tyrion offers the Stone Crows the Vale of Arryn | Dialogue | Tyrion, Gunthor, Shagga, other Stone Crows, Bronn | No |
+| Ser Lyn Corbray expelled Tyrion and Bronn through the Bloody Gate at daybreak with orders never to return | Narration | Tyrion, Bronn | No |
+| Bronn killed Chiggen after he took an arrow — drove a dirk under his ear, then told Catelyn Stark he died of his wound | Tyrion states it; narration confirms | Tyrion, Bronn | Yes — Catelyn was deceived |
+| Tyrion calculated that Bronn would champion him because sellswords follow gold, not honor | Tyrion explains to Bronn | Tyrion, Bronn | No |
+| Tyrion paid Mord the full purse of gold as promised and invited him to Casterly Rock | Flashback narration | Tyrion, Mord | No |
+| Tyrion plans to investigate the dagger that was used in the attempt on Bran's life | Tyrion tells Bronn | Tyrion, Bronn | No |
+| Tyrion's first wife: he met a girl on the road near Lannisport at age thirteen, Jaime chased off two men, Tyrion took her to an inn, they married via a drunken septon | Tyrion tells Bronn | Tyrion, Bronn (now); previously Jaime, Tywin | No |
+| The marriage was revealed when the septon sobered and confessed to Lord Tywin | Tyrion tells Bronn | Tyrion, Bronn | No |
+| Jaime confessed that the girl was a whore he had hired — the road, the outlaws, all arranged | Tyrion tells Bronn | Tyrion, Bronn | No |
+| Lord Tywin gave Tysha to his guards, who each paid her a silver; Tyrion was made to go last and pay a gold coin "because I was a Lannister, and worth more" | Tyrion tells Bronn | Tyrion, Bronn | No |
+| The Stone Crows are a mountain clan operating in the Mountains of the Moon | Clansmen identify themselves | All present | No |
+| Tyrion offers the Stone Crows the Vale of Arryn in exchange for safe passage | Tyrion states it | All present | No |
 
 ## Dialogue of Note
 | Speaker | Listener | Quote/Paraphrase | Context |
 |---------|----------|------------------|---------|
-| Bronn | Tyrion | "A fire will bring the clansmen down on us from miles around. I mean to survive this journey, Lannister." | Objecting to Tyrion's plan to build a fire |
-| Tyrion | Bronn | "I prefer to die comfortable." | Justifying the fire despite danger |
-| Tyrion | Bronn | "It was your blade I needed, not your love." | Defining their transactional relationship |
-| Tyrion | Bronn | "You and Chiggen were lowborn scum." | Explaining why the Starks would never have rewarded them |
-| Tyrion | Bronn | "With a sword in your hand you're almost as good as my brother Jaime." | Praising Bronn's skill while comparing to Jaime |
-| Bronn | Tyrion | "Fair enough. My sword's yours, then … but don't go looking for me to bend the knee and m'lord you every time you take a shit. I'm no man's toady." | Accepting the arrangement on his own terms |
-| Tyrion | Bronn | "I'll match their price, whatever it is. I like living." | Warning Bronn never to betray him |
-| Tyrion | Bronn | "A Lannister always pays his debts." | Said twice — once about Mord, once after the Tysha story; functions as both promise and threat |
-| Bronn | Tyrion | "Thirteen or thirty or three, I would have killed the man who did that to me." | Response to the Tysha story — suggesting patricide |
-| Tyrion | Bronn | "You may get that chance one day." | Implying he may one day act against Tywin |
-| Tyrion | Stone Crows | "In my own bed, with a belly full of wine and a maiden's mouth around my cock, at the age of eighty." | Response to Gunthor asking how he'd like to die |
-| Tyrion | Gunthor | "I will give you the Vale of Arryn." | Final offer to secure their survival |
-| Gunthor | Tyrion | "The mothers go hungry, and steel fills more mouths than gold." | Revealing the clans need arms, not money |
-| Shagga | Tyrion | "Little boyman, will you mock my axe after I chop off your manhood and feed it to the goats?" | Threatening Tyrion after his mockery of their weapons |
+| Bronn | Tyrion | "A fire will bring the clansmen down on us from miles around. I mean to survive this journey, Lannister." | Warning against building a fire |
+| Tyrion | Bronn | "I know you love the taste of horse, Bronn, but if our mounts die under us this time, we'll be trying to saddle shadowcats" | Arguing against riding hard; referencing prior experience |
+| Bronn | Tyrion | "I should leave you here with your fool's fire. If I took your horse, I'd have twice the chance to make it through." | Considering abandoning Tyrion |
+| Tyrion | Bronn | "You'd do it in an instant, if it meant your life. You were quick enough to silence your friend Chiggen when he caught that arrow in his belly." | Challenging Bronn's loyalty; revealing knowledge of Chiggen's death |
+| Tyrion | Bronn | "with a sword in your hand you're almost as good as my brother Jaime" | Flattering Bronn while comparing him to Jaime |
+| Tyrion | Bronn | "don't go looking for me to bend the knee and m'lord you every time you take a shit. I'm no man's toady." | Bronn accepting Tyrion's service on his own terms |
+| Tyrion | Bronn | "I'll match their price, whatever it is. I like living." | Warning Bronn against future betrayal |
+| Tyrion | Bronn | "A Lannister always pays his debts." | Said twice: once about Mord, once as implicit threat regarding Tywin |
+| Tyrion | Bronn | "Lord Tywin had me go last… And he gave me a gold coin to pay her, because I was a Lannister, and worth more." | Climax of the Tysha story |
+| Bronn | Tyrion | "Thirteen or thirty or three, I would have killed the man who did that to me." | Response to the Tysha story |
+| Tyrion | Bronn | "You may get that chance one day." | Implying he may one day want Tywin killed |
+| Tyrion | Stone Crows | "In my own bed, with a belly full of wine and a maiden's mouth around my cock, at the age of eighty." | Asked how he'd like to die |
+| Tyrion | Gunthor | "What do the Stone Crows do, but hide behind rocks and shiver with fear as the knights of the Vale ride by?" | Provoking and challenging the clansmen's pride |
+| Shagga | Tyrion | "Little boyman, will you mock my axe after I chop off your manhood and feed it to the goats?" | Threatening Tyrion |
+| Tyrion | Gunthor | "I will give you the Vale of Arryn." | Final offer to the Stone Crows |
 
 ## POV Character's Internal State
-- **Emotional state:** Outwardly bold and witty, masking underlying vulnerability; becomes genuinely desolate when telling the Tysha story ("surprised at how desolate it made him feel to say it, even after all these years"); the smoke "stinging his eyes" as he recounts the worst parts; dreams reveal deep rage toward his father
-- **Primary preoccupation:** Survival — engineering an alliance with Bronn through gold and with the mountain clans through bold rhetoric; secondary preoccupation is the unresolved matter of "a certain dagger" and the lingering trauma of Tysha
-- **Key decisions made:** Insists on building fire despite danger (calculated risk to draw the clansmen on his terms); commits to keeping Bronn through gold rather than loyalty; offers the Stone Crows arms and the Vale of Arryn
-- **Self-deception flags:** Accepts Jaime's account that Tysha was "a whore" without apparent question — "the girl was a whore, you see" — though the emotional weight of the memory suggests unresolved doubt; attributes the sting of retelling to tiredness ("Perhaps he was just tired")
+- **Emotional state:** Outwardly sardonic and calm, inwardly haunted by the memory of Tysha. Desolate when recounting the story ("surprised at how desolate it made him feel to say it, even after all these years"). Enjoys the goat meat and warmth of the fire despite danger. Dreams of reversing power — becoming the gaoler beating his father toward the abyss.
+- **Primary preoccupation:** Immediate survival through the mountains; securing Bronn's loyalty; investigating the dagger when he reaches safety; beneath it all, the unresolved trauma of Tysha and his father's cruelty.
+- **Key decisions made:** Insists on building a fire (calculated risk to attract clansmen he intends to recruit); secures Bronn's service with promises of gold; negotiates with the Stone Crows rather than fighting; offers them the Vale of Arryn.
+- **Self-deception flags:** Attributes the emotion of telling the Tysha story to tiredness ("Perhaps he was just tired") rather than genuine grief. Says "the smoke was stinging his eyes" when he is clearly moved to tears.
 
 ## Relationships Observed
 | Character A | Relationship | Character B | Evidence |
 |-------------|-------------|-------------|----------|
-| Tyrion | employer/patron → | Bronn | Promises gold, land, women in exchange for Bronn's sword; explicitly transactional arrangement |
-| Bronn | protector (hired) → | Tyrion | Accepts payment for service but refuses feudal deference; "I'm no man's toady" |
-| Tyrion | distrust ↔ | Bronn | Tyrion openly acknowledges Bronn would betray him for profit; Bronn does not deny it |
-| Tyrion | resentment → | Tywin Lannister | Dream of beating his father and driving him toward the abyss; "You may get that chance one day" re: killing Tywin |
-| Tyrion | complicated loyalty → | Jaime Lannister | Compares Bronn favorably to Jaime's swordsmanship; Jaime arranged the Tysha deception but also the original "rescue" |
-| Tyrion | grief/loss → | Tysha | Tells her story with deep emotion; "in love" by morning; the memory still devastates him |
-| Tywin Lannister | cruelty → | Tyrion | Forced Tyrion to watch his wife with the guards and participate last; a lesson in humiliation |
-| Tywin Lannister | cruelty → | Tysha | Gave her to his guards; systematic degradation |
-| Jaime Lannister | deception → | Tyrion | Arranged the entire Tysha encounter as a scheme to get Tyrion a woman; later confessed under Tywin's orders |
-| Bronn | killed | Chiggen | Slit Chiggen's throat to stop his moaning after an arrow wound; told Catelyn he died of the wound |
-| Tyrion | paid debt → | Mord | Gave Mord the full purse of gold as promised; invited him to Casterly Rock |
-| Gunthor | commands → | Stone Crows | Functions as chief; other clansmen defer to him; raises hand to silence Shagga |
-| Tyrion | negotiates with → | Gunthor/Stone Crows | Offers escalating payments culminating in the Vale itself |
-| Shagga | defers to → | Gunthor | Silenced by Gunthor's raised hand despite his rage |
+| Tyrion | Employer/patron of | Bronn | Promises gold, land, and women for continued service; "My sword's yours" |
+| Tyrion | Mutual pragmatic respect with | Bronn | Tyrion calls him scum but useful; Bronn calls Tyrion bold; neither pretends to friendship |
+| Tyrion | Deep resentment toward | Tywin Lannister | Tells the Tysha story with desolation; dreams of beating his father toward an abyss; "A Lannister always pays his debts" directed at Tywin |
+| Tyrion | Complex feelings toward | Jaime Lannister | Compares Bronn favorably to Jaime's sword skill; Jaime arranged the Tysha deception but also rescued the girl on the road |
+| Tyrion | Lasting grief over | Tysha (unnamed wife) | Whistles her song; still desolate telling the story years later; can't get the song out of his head |
+| Bronn | Killed | Chiggen | Drove a dirk under his ear when wounded; claimed mercy killing |
+| Bronn | Served then abandoned | Catelyn Stark | Helped capture Tyrion for her; then championed Tyrion against her interests |
+| Tyrion | Contempt toward / negotiates with | Gunthor son of Gurn | Mocks the Stone Crows' weapons and courage to provoke negotiation |
+| Tyrion | Offers alliance to | Stone Crows | Promises steel, arms, and the Vale of Arryn |
+| Gunthor | Leads | Stone Crows | "seemed to be their chief"; raises hand to silence others; listens to Tyrion |
+| Tyrion | Paid debt to | Mord | Gave full purse of gold as promised; invited him to Casterly Rock |
+| Tywin Lannister | Cruelly punished | Tyrion | Forced him to watch guards with Tysha; made him go last; paid gold "because I was a Lannister" |
+| Jaime Lannister | Arranged deception of | Tyrion | Hired Tysha, staged the rescue, later confessed under Tywin's orders |
 
 ## Unanswered Questions
 | Question | Raised By | Context |
 |----------|-----------|---------|
-| Will the Stone Crows accept Tyrion's offer of the Vale of Arryn? | Chapter ending | The chapter ends on Tyrion's offer — no response is given |
-| What will Tyrion discover about "a certain dagger" at Casterly Rock or King's Landing? | Tyrion's stated intention | He mentions wanting answers about it but provides no further detail in this chapter |
-| Was Tysha truly a whore, or was that itself a lie? | Subtext of Tyrion's telling | Tyrion accepts Jaime's confession at face value, but his deep emotional reaction and the detail of her weeping when he "broke her maidenhead" raise the possibility |
-| Will Bronn remain loyal or eventually betray Tyrion? | Tyrion's own warning | Tyrion explicitly tells Bronn he expects potential betrayal and will outbid any offer |
-| What happened to Tysha after the barracks? | Unstated | Tyrion does not say where she went or what became of her |
+| Will the Stone Crows accept Tyrion's offer of the Vale of Arryn? | Chapter ending | Tyrion makes the offer; chapter ends before the response |
+| What questions does Tyrion have about "a certain dagger"? | Tyrion's stated plans | He tells Bronn he wants to investigate the dagger when he reaches civilization |
+| Was Tysha truly a whore, or was that another of Tywin's cruelties? | The Tysha story | Jaime confessed she was hired, but the story is told only from Tyrion's perspective of what Jaime and Tywin told him |
+| Will Tyrion survive the mountain crossing? | Overall situation | Surrounded by hostile clansmen with only Bronn as a fighter |
 
 ## Raw Entity List
+
 ### Characters
-Tyrion Lannister, Bronn, Gunthor son of Gurn, Shagga son of Dolf, Conn, Torrek, Jaggot, Morrec, Ser Lyn Corbray, Chiggen, Catelyn Stark, Ser Vardis Egen, Lord Eddard Stark, Jaime Lannister, Lord Tywin Lannister, Tysha (inferred name), Mord, Lysa Arryn, Marillion (inferred — "the singer")
+- Tyrion Lannister (POV)
+- Bronn
+- Gunthor son of Gurn
+- Shagga son of Dolf
+- Conn
+- Torrek
+- Jaggot
+- Morrec (referenced)
+- Ser Lyn Corbray (referenced)
+- Chiggen (referenced, dead)
+- Catelyn Stark (referenced)
+- Ser Vardis Egen (referenced)
+- Eddard Stark (referenced)
+- Jaime Lannister (referenced)
+- Tywin Lannister (referenced)
+- Tysha (unnamed — "the girl," "my wife," referenced)
+- Mord (referenced)
+- Marillion (unnamed — "the singer," referenced)
+- Lysa Arryn (referenced)
 
 ### Locations
-Mountains of the Moon, high road, copse of aspens (campsite), mountain stream, the Bloody Gate, the Eyrie, Casterly Rock, Lannisport, King's Landing, the Vale of Arryn, the riverlands
+- Mountains of the Moon / high road
+- The Bloody Gate
+- The Eyrie
+- Casterly Rock
+- Lannisport
+- King's Landing
+- The riverlands
+- Vale of Arryn
 
-### Artifacts
-Shadowskin cloak, Valyrian steel dagger ("a certain dagger"), purse of gold (paid to Mord), Bronn's longsword, Bronn's dirk, Tyrion's hauberk, Tyrion's battle-axe, Gunthor's horned helmet, Shagga's club, Shagga's wood-axe, Jaggot's fire-hardened wooden spear
+### Houses
+- House Lannister ("the Clan Lannister, the Lions of the Rock")
+- House Stark (referenced)
+- House Arryn (referenced — Lady Arryn, Vale of Arryn)
 
-### Houses/Factions
-House Lannister ("the Lions of the Rock," "Clan Lannister"), House Stark, House Arryn, Stone Crows (mountain clan)
+### Factions & Organizations
+- Stone Crows (mountain clan)
+
+### Religions & Faiths
+- None explicitly named (a septon is referenced, implying the Faith of the Seven)
+
+### Cultures & Peoples
+- Mountain clans of the Vale (Stone Crows specifically; dressed in skins, armed with crude weapons, live in the mountains)
+
+### Artifacts & Objects
+- Shadowskin cloak (Tyrion's)
+- Hauberk / chainmail (Tyrion's, too large for him)
+- Battle-axe (Tyrion's)
+- Bronn's longsword
+- Bronn's long dirk
+- Oilstone (Bronn's, for sharpening)
+- Flint (Bronn's)
+- Valyrian steel dagger (referenced as "a certain dagger")
+- Purse of gold (given to Mord)
+- Horned helmet (Gunthor's)
+- Wooden spear, fire-hardened (Jaggot's)
+- Club and wood-axe (Shagga's)
+
+### In-world Texts & Songs
+- "The Seasons of My Love" (Myrish song — sweet and sad; Tysha used to sing it; Tyrion whistles it)
+
+### Magic & Phenomena
+- None
+
+### Wars & Conflicts
+- None explicitly named
+
+### Titles & Offices
+- None explicitly named (though "lord father," "Lady Arryn," "Ser" are used as forms of address)
+
+### Other
+- Shadowcats (mountain predators referenced by Tyrion)

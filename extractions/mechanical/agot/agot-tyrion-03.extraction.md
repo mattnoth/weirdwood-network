@@ -7,244 +7,272 @@
 - **pov_chapter_number:** Tyrion III
 - **first_available:** AGOT Tyrion III
 - **location_primary:** Castle Black
-- **location_secondary:** The Wall (top)
-- **approximate_timeline:** Near the end of Tyrion's stay at Castle Black; he departs the following morning
-- **time_markers:** Evening meal; "much later" after the meal for private conversation with Mormont; nighttime walk to the Wall; "tomorrow" / "first light" departure planned; Mormont says he will be seventy in two years; this summer has lasted nine years with a tenth approaching; Tyrion has seen eight or nine winters; Tyrion was born in a winter that lasted near three years
-- **chapter_summary:** Tyrion dines with the senior officers of the Night's Watch at Castle Black, trading barbs with Ser Alliser Thorne and earning the respect of Maester Aemon. After the meal, Lord Commander Mormont privately urges Tyrion to speak to the king and his family about the Watch's desperate need for men and resources. Tyrion promises to do so, though privately doubts anyone will listen. Later that night, Tyrion ascends the Wall by cage for a final look and encounters Jon Snow on night guard duty. They discuss messages for Robb, Rickon, and Bran, and Tyrion agrees to help Bran. They part as friends, standing together at the edge of the Wall looking north into the haunted forest.
+- **location_secondary:** The Wall (top), Mole's Town (seen from above)
+- **approximate_timeline:** Near the end of Tyrion's stay at the Wall; he departs south the next morning
+- **time_markers:** Dinner/evening; "much later" after dinner for private conversation with Mormont; nighttime ascent of the Wall; Yoren determined to ride at first light; crabs arrived "only this morning" from Eastwatch; summer has lasted nine years with a tenth approaching; Mormont says in two years he will be seventy; Tyrion has seen eight or nine winters; he was born in "the dead of winter" lasting near three years; long summer said to mean long winter; days growing shorter
+- **chapter_summary:** Tyrion dines with the senior officers of the Night's Watch at Castle Black, trading barbs with Ser Alliser Thorne and earning Maester Aemon's praise. Afterward, Lord Commander Mormont privately urges Tyrion to speak to the king and his own family about the Watch's desperate need for men and resources, warning of gathering dangers beyond the Wall. Tyrion promises to deliver the message though he privately doubts it will be heeded. On his way to bed, Tyrion impulsively ascends the Wall one last time, encounters Jon Snow on night guard duty, and they share a conversation about Jon's training of recruits, messages for Winterfell, and Benjen Stark's disappearance. They part as friends, standing together at the edge of the haunted forest.
 
 ## Physical Environment
-- **Weather:** Bitter cold; wind pulling at clothes; cold described as "a spear in his guts" atop the Wall
-- **Season indicators:** End of a nine-year summer approaching; days growing shorter; Maester Aemon has had letters from the Citadel confirming summer's end; discussion of the relationship between long summers and long winters
-- **Time of day:** Evening meal, then nighttime; Tyrion walks across the yard and ascends the Wall at night; moonlight illuminates the scene
-- **Lighting:** Firelight in Mormont's quarters; moonlight on the Wall and Castle Black; Morrec's fire visible in Tyrion's room from the cage; dull glow of a brazier in the winch shack atop the Wall; darkness beyond the Wall with no fires
-- **Sounds:** Laughter around the dinner table; raven cawing "Duel! Duel! Duel!" and "Fool"; ropes creaking as the cage ascends; gravel crunching underfoot atop the Wall; wind swirling; wolves howling far to the north (multiple voices)
+- **Weather:** Bitter cold; wind pulling at clothing described as "an insistent lover"; cold "like a spear in his guts"
+- **Season indicators:** Summer has lasted nine years, a tenth approaching; days growing shorter; Maester Aemon has had letters from the Citadel confirming end of summer; Mormont warns "winter is coming"; Tyrion was born in a cruel winter lasting near three years
+- **Time of day:** Evening dinner; transitions to late night for private conversation with Mormont; full nighttime for Wall ascent and walk with Jon
+- **Lighting:** Firelight in the tower room during dinner; fire in Mormont's quarters for private talk; moonlight on the Wall and Castle Black; dull glow of a brazier in the winch shack; Morrec has a fire burning in Tyrion's room (seen from cage); no fires burning in the haunted forest
+- **Sounds:** Laughter and guffaws during dinner; Mormont's raven cawing "Duel! Duel! Duel!" and "Fool"; ropes creaking as the cage ascends; gravel crunching underfoot on the Wall; wind swirling; wolves howling far to the north
 - **Smells:** None explicitly described
-- **Notable sensory details:** Snow crunching beneath boots breaking the night's crust; breath steaming like a banner; cold of iron bars felt through gloves; bare cheeks ruddy with cold; legs aching and cramping from cold and haste; the wind "like an insistent lover"; the cold "like a spear in his guts"; strong mulled spirits bringing tears to Tyrion's eyes; brief gust of warmth from the winch shack
+- **Notable sensory details:** Cold metal of cage bars felt through gloves; snow crunching beneath boots; breath steaming like a banner; bare cheeks ruddy with cold; legs aching and cramping from cold and climbing; brief gust of warmth from winch shack; Jon's bare handclasp described as "firm and strong"; mulled spirits so strong they brought tears to Tyrion's eyes
 
 ## Characters Present
 | Character | Role in Chapter | First Appearance? | Notes |
 |-----------|----------------|-------------------|-------|
-| Tyrion Lannister | POV character | No | Departing Castle Black the following morning |
-| Jeor Mormont (Lord Commander) | Major speaking role | No | Pleads with Tyrion to advocate for the Watch |
-| Ser Alliser Thorne | Antagonist | No | Humiliated by Tyrion at dinner, storms out |
-| Bowen Marsh | Speaking role | Yes (uncertain — verify) | Lord Steward of the Night's Watch |
-| Ser Jaremy Rykker | Speaking role | Yes (uncertain — verify) | Night's Watch officer; fought at King's Landing |
-| Maester Aemon | Speaking role | Yes (uncertain — verify) | Elderly maester of the Night's Watch; blind |
+| Tyrion Lannister | POV character | No | Dining with Watch officers, then ascending the Wall for a final look |
+| Jeor Mormont (Lord Commander) | Major speaking role | No | Hosts dinner; privately pleads for Tyrion to advocate for the Watch |
+| Ser Alliser Thorne | Antagonist | No | Clashes with Tyrion at dinner, storms out humiliated |
+| Bowen Marsh | Minor speaking role | Yes (uncertain — verify) | Lord Steward of the Night's Watch |
+| Ser Jaremy Rykker | Minor speaking role | Yes (uncertain — verify) | Night's Watch officer; fought on Targaryen side at King's Landing |
+| Maester Aemon | Minor speaking role | Yes (uncertain — verify) | Ancient, blind maester; praises Tyrion as "a giant come among us" |
 | Jon Snow | Major speaking role | No | On night guard duty atop the Wall |
-| Ghost | Present | No | With Jon on the Wall; sniffs Tyrion, watches with red eyes |
-| Mormont's raven | Present | No | Caws "Duel!" and "Fool"; perches on Mormont's shoulder |
+| Ghost | Present | No | Accompanies Jon on guard; sniffs Tyrion's furs; listens to wolves howling |
+| Mormont's raven | Present | No | Caws "Duel!" and "Fool" during dinner; perches on Mormont's shoulder |
 
 ## Character Appearances
 | Character | Hair | Eyes | Build/Height | Scars/Marks | Clothing/Armor | Weapons Worn | Distinguishing Features | Age (if stated) |
 |-----------|------|------|-------------|-------------|----------------|-------------|------------------------|-----------------|
-| Jeor Mormont | | | Old but still has the strength of a bear | | | | Thick grey beard | Will be seventy in two years |
-| Bowen Marsh | | | Round | | | | Red as a pomegranate | |
-| Maester Aemon | Hairless | Clouded, milk-white (blind) | Tiny, wrinkled, shrunken | | Maester's collar with links of many metals, hanging loose about his throat | | | A hundred years old (described as "the weight of a hundred years") |
-| Ser Alliser Thorne | | Black | | | | | Mouth a tight line when angry; walks very stiffly | |
-| Jon Snow | | | Looks bigger and heavier in layers of fur and leather | | Layers of fur and leather; hood of cloak pulled down over face; woolen scarf over mouth; gloves | Heavy iron-tipped spear taller than he is; sword in leather sheath; gleaming black warhorn banded with silver | | |
-| Ghost | White (shaggy pale shape) | Red | Comes up as high as Tyrion's chest | | | | | |
-| Tyrion Lannister | | | Less than half a man (Thorne's insult); small/dwarf | | Bundled thickly in furs; gloves | | | Born in a terrible winter lasting near three years; has seen eight or nine winters |
+| Jeor Mormont | | | Old but still strong ("strength of a bear") | | | | Thick grey beard | Will be seventy in two years |
+| Bowen Marsh | | | Round | | | | "As round and red as a pomegranate" | |
+| Maester Aemon | Hairless | Clouded, milk-white eyes | Tiny, wrinkled, shrunken | | Maester's collar with links of many metals, hanging loose about his throat | | Blind; bowed under weight of a hundred years | ~100 years old |
+| Jon Snow | | | Looks bigger and heavier in layers | | Layers of fur and leather; hood of cloak pulled down over face; leather sheath for sword; gloves | Heavy iron-tipped spear taller than him; sword in leather sheath | Gleaming black warhorn banded with silver across his chest | |
+| Ghost | White (shaggy pale shape) | Red eyes | Comes up as high as Tyrion's chest | | | | White direwolf; moves silently | |
+| Tyrion Lannister | | | Less than half a man (per Thorne); dwarf | | Bundled thickly in furs; gloves | | Bare cheeks ruddy with cold | Has seen eight or nine winters |
+| Wall sentries (two) | | | One described as "heavy figure" | | Faces muffled in woolen scarves showing only eyes; plump with layers of wool and leather, black on black | | | |
 
 ## Characters Referenced
 | Character | Context of Reference | Referenced By |
 |-----------|---------------------|---------------|
-| Jaime Lannister | Tyrion says Jaime will wonder what became of him; Tyrion will speak to Jaime about the Watch's needs | Tyrion |
-| Jyck | One of Tyrion's traveling companions | Tyrion |
-| Morrec | One of Tyrion's traveling companions/servants; has fire burning in Tyrion's room | Tyrion |
-| Yoren | Riding south again; determined to ride at first light | Tyrion, Mormont |
-| Benjen Stark | Missing beyond the Wall; sent to search for Waymar Royce; Jon watches for his return | Mormont, Jon |
-| Waymar Royce (referred to as "Yohn Royce's son" / "the Royce boy") | Lost on his first ranging; insisted on his own command as a knight | Mormont |
-| Yohn Royce | Father of the lost ranger | Mormont (by implication) |
-| Gared | Old ranger who deserted; Lord Eddard sent his head from Winterfell | Mormont |
-| Eddard Stark | Sent Gared's head to Castle Black | Mormont |
-| Tywin Lannister | Gave Thorne and Rykker the choice of the black or death after King's Landing; very fond of spiked heads | Rykker, Tyrion |
-| Cersei Lannister (referred to as "your sister") | Sits beside the king | Mormont |
-| King Robert (referred to as "the king") | Mormont wants Tyrion to speak to him; Tyrion thinks Robert will ignore him | Mormont, Tyrion (internal) |
+| Jaime Lannister | Tyrion says Jaime will wonder what's become of him; Mormont notes "your brother is a great knight"; Tyrion will speak to him about the Watch | Tyrion, Mormont |
+| Jyck | One of Tyrion's men riding south with him | Tyrion |
+| Morrec | One of Tyrion's men; has a fire burning in Tyrion's room; Tyrion hopes he remembered hot bricks | Tyrion |
+| Yoren | Night's Watch recruiter riding south; determined to ride at first light | Tyrion, Mormont |
+| Robert (the king) | Mormont asks Tyrion to speak to the king; Tyrion privately thinks Robert will ignore him | Mormont, Tyrion |
+| Cersei Lannister | "Your sister sits beside the king" | Mormont |
+| Tywin Lannister | "Your father the most powerful lord in the Seven Kingdoms"; Tyrion thinks Tywin would ask if he'd taken leave of his senses; gave Thorne and Rykker choice of black or execution; "very fond of spiked heads" | Mormont, Tyrion, Rykker |
+| Benjen Stark | Mormont sent him to search after Royce's son; now gone missing; Jon says "my uncle is out there" and vows to find him | Mormont, Jon |
+| Waymar Royce (Yohn Royce's son) | Green as summer grass; insisted on his own command as a knight; lost on first ranging | Mormont |
+| Gared | Near as old as Mormont; long on the Wall; apparently deserted; Lord Eddard sent his head | Mormont |
+| Eddard Stark (Lord Eddard) | Sent Gared's head from Winterfell to the Wall | Mormont |
 | Maege Mormont | Mormont's sister; rules Bear Island since his son's dishonor | Mormont |
-| Jorah Mormont (referred to as "my son") | His dishonor caused Maege to take over Bear Island | Mormont (by implication) |
-| Denys Mallister | Writes to Mormont about mountain people moving south past Shadow Tower | Mormont |
-| Robb Stark | Jon sends a mock message for him | Jon |
-| Rickon Stark | Jon wants Tyrion to explain his absence; says Rickon can have his things | Jon |
-| Bran Stark | Jon asks Tyrion to help him; Tyrion agrees | Jon |
-| Grenn | Jon's trainee; held his own against Halder | Jon |
-| Halder | Sparring partner; Grenn held his own against him | Jon |
-| Pyp (Pypar) | Small boy with large ears; asked Jon for help with swordwork; Thorne never taught him proper grip | Jon |
-| Mikken | Winterfell's smith; mentioned in Jon's joke about melting swords | Jon |
+| Jorah Mormont (implied) | "My son's dishonor" — unnamed but referenced as the cause of Maege ruling Bear Island | Mormont |
+| Denys Mallister | Writes to Mormont that mountain people are moving south past the Shadow Tower | Mormont |
+| Robb Stark | Jon jokes about commanding the Watch to keep Robb safe; tells Tyrion to deliver the message | Jon |
+| Rickon Stark | Jon says Rickon will ask when he's coming home; can have all Jon's things | Jon |
+| Bran Stark | Jon asks Tyrion to help Bran; Tyrion agrees to give whatever help he can | Jon |
+| Grenn | Held his own against Halder in training; Jon is working with him | Jon |
+| Halder | Fought Grenn in morning drill | Jon |
+| Pypar (Pyp) | Small boy with large ears; asked Jon for help; Thorne never showed him proper sword grip; no longer drops his sword as often | Jon |
+| Mikken | Winterfell's smith; Jon jokes Robb should have him melt his sword for horseshoes | Jon |
+| Yohn Royce | Waymar's lord father; Mormont didn't want to offend him | Mormont |
 
 ## Locations
 | Location | Role | First Appearance? |
 |----------|------|-------------------|
-| Castle Black | Primary setting | No |
-| The Wall | Setting for second half of chapter | No |
-| Commander's Keep | Where Tyrion dines with Mormont and officers | Yes (uncertain — verify) |
-| King's Tower | Where Tyrion is housed | Yes (uncertain — verify) |
-| Mole's Town | Visible from atop the Wall | Yes (uncertain — verify) |
-| Eastwatch (Eastwatch-by-the-Sea) | Referenced as source of crabs and location of fisherfolk; small garrison | No |
-| Shadow Tower | Referenced; fewer men than Castle Black; mountain people slipping past | Yes (uncertain — verify) |
-| Winterfell | Referenced as stop on journey south | No |
-| King's Landing | Referenced as site of past battle | No |
-| Bear Island | Referenced; ruled by Maege Mormont | Yes (uncertain — verify) |
-| Lannisport | Referenced in Tyrion's quip about merlings | Yes (uncertain — verify) |
-| The Citadel | Referenced; sends letters confirming end of summer | Yes (uncertain — verify) |
-| The haunted forest | Visible from the Wall; described in detail | Yes (uncertain — verify) |
+| Castle Black | Primary setting; dining hall, Commander's Keep, King's Tower, the yard | No |
+| The Wall | Tyrion ascends for a final look; walks atop with Jon | No |
+| Mole's Town | Seen from atop the Wall, half a league south along the kingsroad | Yes (uncertain — verify) |
+| Eastwatch (Eastwatch-by-the-Sea) | Source of the crabs; fewer than 200 men stationed there; fisherfolk nearby have glimpsed white walkers | No |
+| Shadow Tower | 200 men stationed there; mountain people slipping past it | No |
+| Winterfell | Tyrion plans to stop there on the way south; Eddard sent Gared's head from there | No |
+| King's Landing | Where Thorne and Rykker fought during the sack | No |
+| Bear Island | Ruled by Maege Mormont since Jorah's dishonor | No |
+| The Citadel | Maester Aemon has received letters confirming end of summer | No |
+| Lannisport | Tyrion quips that fisherfolk there often glimpse merlings | No |
+| The haunted forest | Dark forest beyond the cleared zone north of the Wall | No |
 
 ## Location Descriptions
 | Location | Defensive Features | Architecture/Layout | Interior Details | Scale | Condition | Surrounding Terrain/Geography | Notable Sensory Details |
 |----------|--------------------|--------------------|-----------------| ------|-----------|------------------------------|------------------------|
-| Castle Black | No walls mentioned; open courtyards | Windowless keeps; Commander's Keep; King's Tower; tower room where officers dine | | | Crumbling walls; courtyards choked with broken stone; stark and empty from above | Half a league north of Mole's Town along the kingsroad; icy streams descending from mountain heights cut across surrounding plains; windswept hills and rocky fields spotted with snow | Patches of snow in the yard |
-| The Wall | Hundred leagues long; massive catapult (tall as a city wall) sunk into the ice, though its throwing arm is detached and half-embedded in ice | Wooden stair on south face anchored on huge rough-hewn beams sunk into ice, switching back and forth; iron cage/lift beside a well with bell rope; small wooden shack with brazier under a great crane at top; low icy northern parapet; walkways with crushed stone spread across them | | Top wider than the kingsroad often is | Catapult broken and forgotten; ice swallows the gravel on walkways requiring constant re-crushing | Forest kept half a mile from north face; open ground (cleared centuries ago) between Wall and haunted forest | Glimmers in moonlight; immense and mysterious; footing slicker than expected; weight of footsteps melts the Wall beneath the gravel; bitingly cold at top with strong wind |
-| The haunted forest | | | | Trees grow huge | Dark, ancient tangle of root and thorn and grasping limb; even moonlight cannot penetrate | Beyond the cleared half-mile north of the Wall; dark trees loom like a second wall parallel to the first | Brooding quality; few axes have ever swung there |
+| Castle Black | No walls mentioned; open yard; the Wall itself as primary defense | Commander's Keep (where dinner is held); King's Tower (where Tyrion lodges); windowless keeps; courtyards; wooden stair ascending Wall's south face anchored on huge rough-hewn beams sunk into ice, switching back and forth like a bolt of lightning; iron cage/elevator beside a well with bell rope; massive catapult on the Wall with throwing arm removed for repairs and half-embedded in ice; small wooden shack under the great crane atop the Wall with a brazier | Tower room where dinner takes place; fire in Mormont's quarters for private conversation | | Stark and empty from above; windowless keeps; crumbling walls; courtyards choked with broken stone | Kingsroad runs south; Mole's Town half a league south; icy streams descending from mountain heights cutting across plains; bleak emptiness of windswept hills and rocky fields spotted with snow | Bitter cold; patches of snow crunching underfoot; breath steaming |
+| The Wall | Hundred leagues long; three men to defend each mile; low icy northern parapet | Top wider than the kingsroad often is; crushed stone spread across walkways that gets swallowed by ice over time; footing slicker than desired | | Immense; hundred leagues long | Catapult with broken throwing arm half-embedded in ice, forgotten | Glimmers in moonlight; dark abyss on either side from top; vast white road with no beginning and no end | Bitingly cold at top; wind pulls at clothes; gravel crunches underfoot |
+| The haunted forest | Watch keeps forest half a mile from north face; cleared zone of open ground | Dark trees looming like a second wall parallel to the first; trees grow huge; ancient tangle of root and thorn and grasping limb | | | Ironwood, sentinel, and oak once grew near the Wall but harvested centuries ago; wildwood creeping back elsewhere between fortresses; grey-green sentinels and pale white weirwoods taking root in Wall's shadow elsewhere; Castle Black keeps forest at bay with axes | Beyond the cleared open ground north of the Wall | Even moonlight cannot penetrate it; no fires burning; darkness |
 
 ## Artifacts & Objects of Significance
 | Artifact | Context | First Appearance? | Current Holder/Location |
 |----------|---------|-------------------|------------------------|
-| Black warhorn banded with silver | Worn across Jon Snow's chest while on guard duty | Yes (uncertain — verify) | Jon Snow |
-| Iron cage/lift | Mechanism for ascending the Wall at Castle Black; operated by winch | Yes (uncertain — verify) | Castle Black |
-| Broken catapult | Massive catapult sunk into the Wall; throwing arm removed for repairs and forgotten, half-embedded in ice | Yes (uncertain — verify) | Atop the Wall |
+| Black warhorn banded with silver | Worn across Jon's chest on guard duty | Yes (uncertain — verify) | Jon Snow |
+| Maester Aemon's chain | Links of many metals, hanging loose about his throat | Yes (uncertain — verify) | Maester Aemon |
+| Crab fork | Tyrion uses it to poke at Thorne's chest in mock duel | No | Tyrion (during dinner) |
 
 ## Food & Drink
 | Meal/Occasion | Food Items Described | Drink | Who Is Eating/Drinking | Where | Preparation/Presentation Notes |
 |--------------|---------------------|-------|----------------------|-------|-------------------------------|
-| Dinner with Night's Watch officers | Crabs — crab claws, crab legs, crab meat | Wine (Tyrion holds out his cup for more; Rykker fills it) | Tyrion, Mormont, Ser Alliser Thorne, Bowen Marsh, Ser Jaremy Rykker, Maester Aemon, and other officers | Tower room in Commander's Keep | Crabs arrived from Eastwatch that morning, packed in a barrel of snow; described as succulent; Mormont cracks claw in his fist; Tyrion sucks meat from a leg; bits of crab fly from Mormont's mouth while laughing; Tyrion claims Thorne's share after Thorne storms out |
-| Private drinks with Mormont (after dinner) | | Mulled spirits — described as so strong they brought tears to Tyrion's eyes | Tyrion, Mormont | By the fire in Mormont's quarters (chair beside the fire) | Cup of mulled spirits; Tyrion thinks how badly he needs another strong drink; wine and drink make him sleepy and light-headed |
+| Dinner with Watch officers | Crabs — crab claws cracked in fist, crab legs with meat sucked out | Wine (Tyrion holds out cup for refill; Rykker fills it) | Tyrion, Mormont, Bowen Marsh, Ser Alliser Thorne, Ser Jaremy Rykker, Maester Aemon, other officers | Tower room, Commander's Keep | Crabs arrived from Eastwatch that morning, packed in a barrel of snow; described as "succulent"; bits of crab fly from Mormont's mouth as he chokes laughing |
+| Private drink with Mormont | | Mulled spirits — "so strong they brought tears to his eyes" | Tyrion, Mormont | By the fire, after others left | Cup of mulled spirits; described as "strong drink" making Tyrion light-headed |
+| Mormont feeds raven | Corn from his pocket | | Mormont's raven | As Tyrion departs | Mormont gives corn from his pocket to the raven on his shoulder |
 
 ## Hospitality & Guest Right
 | Event | Type | Host | Guest(s) | Details |
 |-------|------|------|----------|---------|
-| Dinner with officers | feast_given | Lord Commander Mormont / Night's Watch | Tyrion Lannister | Farewell meal before Tyrion's departure; crabs from Eastwatch; wine served |
-| Private audience after dinner | shelter_offered | Lord Commander Mormont | Tyrion | Chair beside fire, mulled spirits; Mormont uses the occasion to plead the Watch's case |
-| Escort to Winterfell offered | safe_conduct | Lord Commander Mormont | Tyrion | Mormont announces three men will escort Tyrion as far as Winterfell; brooked no argument |
+| Dinner with Watch officers | feast_given | Lord Commander Mormont / Night's Watch | Tyrion Lannister | Tyrion dines as honored guest with senior officers; fresh crabs from Eastwatch served |
+| Private drink by fire | hospitality_offered | Lord Commander Mormont | Tyrion | Mormont offers chair beside fire and cup of mulled spirits after others leave |
+| Escort to Winterfell | safe_conduct | Lord Commander Mormont | Tyrion | Mormont announces the Watch will escort Tyrion with three men as far as Winterfell; "announced in a tone that brooked no argument" |
 
 ## Events & Actions
-1. **Farewell dinner with Night's Watch officers** — Tyrion dines with Mormont, Thorne, Bowen Marsh, Ser Jaremy Rykker, Maester Aemon, and others in a tower room of the Commander's Keep.
-2. **Tyrion baits Ser Alliser Thorne** — Tyrion trades barbs with Thorne, who challenges him to the yard. Tyrion hops on his chair and pokes Thorne's chest with a crab fork, causing uproarious laughter. Thorne storms out.
-3. **Tyrion claims Thorne's crabs** — Tyrion calls out that the victor claims the spoils and takes Thorne's share.
-4. **Mormont scolds Tyrion lightly** — Mormont says Tyrion is wicked to provoke Thorne. Tyrion criticizes Thorne as a poor trainer.
-5. **Bowen Marsh and Ser Jaremy discuss Thorne** — Marsh defends Thorne's "droll names" for recruits; Rykker reveals he and Thorne fought on the Targaryen side at King's Landing and were given the choice of the black or death by Tywin Lannister.
-6. **Maester Aemon calls Tyrion "a giant"** — Aemon declares Tyrion is a giant come among them at the end of the world, leaving Tyrion unusually at a loss for words.
-7. **Private meeting with Mormont** — After the others leave, Mormont gives Tyrion mulled spirits by the fire and pleads the Watch's desperate case: fewer than a thousand men, aging and poorly skilled, stretched across a hundred leagues.
-8. **Mormont recounts losses** — He tells of sending Benjen Stark after Waymar Royce's lost ranging party; of Gared's desertion and execution by Lord Eddard; and of Benjen's disappearance.
-9. **Mormont laments the Watch's decline** — He describes the Watch as an army of sullen boys and tired old men, no longer building but merely surviving.
-10. **Tyrion promises to speak to the king and his family** — Tyrion promises gravely but privately doubts Robert will listen, Tywin will take him seriously, or Jaime will do more than laugh.
-11. **Mormont warns of coming winter and dangers** — He speaks of the long summer ending, wild animals moving, mountain people fleeing south past Shadow Tower, fisherfolk seeing white walkers near Eastwatch, and darker shapes in his dreams.
-12. **Tyrion departs for bed** — He leaves Mormont, who gives corn to his raven from his pocket.
-13. **Tyrion crosses the yard** — He walks from the Commander's Keep toward the King's Tower in bitter cold, breath steaming, snow crunching.
-14. **Tyrion decides to ascend the Wall** — Seized by a sudden whim, he passes the King's Tower and goes to the iron cage, pulling the bell rope three times.
-15. **Cage ascent** — Tyrion rises slowly; observes Castle Black from above — stark, empty, crumbling — and sees Mole's Town, streams, and empty hills.
-16. **Tyrion reaches the top** — Two watchmen on the winch bring him up; one warns him not to fall. They retreat into a wooden shack with a brazier.
-17. **Tyrion walks the Wall westward** — He passes the broken catapult and observes the Wall stretching to the horizon.
-18. **Jon Snow challenges him** — Jon, on night guard, calls out; Ghost approaches and sniffs Tyrion.
-19. **Tyrion and Jon discuss Ser Alliser** — Jon reveals Thorne has arranged for him to be assigned night guard repeatedly to exhaust him. Jon reports that Grenn and Pyp are improving under his informal training.
-20. **They walk together** — Tyrion announces his departure tomorrow; Jon asks him to deliver messages.
-21. **Jon's messages** — A joke for Robb; an explanation for Rickon (who can have Jon's things); a plea to help Bran, which Tyrion agrees to.
-22. **They clasp hands as friends** — Jon offers his bare hand; Tyrion clasps it flesh to flesh, calling Jon the first bastard he's had to friend.
-23. **They stand at the northern parapet** — Side by side, they look out over the cleared ground and the haunted forest beyond. The forest is described as dark, ancient, impenetrable.
-24. **Tyrion feels the weight of the darkness** — Standing in the cold and wind, he almost believes in the Others; his jokes about grumkins and snarks feel less amusing.
-25. **Jon speaks of Benjen** — He says he watched for Benjen every night but his uncle never came; vows that he and Ghost will go find Benjen if he doesn't return.
-26. **Tyrion believes Jon but privately worries** — He thinks "And who will go find you?" and shivers.
+1. **Tyrion dines with Night's Watch officers** — Tyrion shares a meal of crabs and wine with Lord Commander Mormont, Ser Alliser Thorne, Bowen Marsh, Ser Jaremy Rykker, Maester Aemon, and others in the tower room.
+2. **Tyrion and Thorne clash verbally** — Thorne accuses Tyrion of mocking the Watch. Tyrion deflects with wit. Thorne challenges Tyrion to the yard with steel.
+3. **Tyrion mock-duels Thorne with a crab fork** — Tyrion hops on his chair and pokes Thorne's chest with a crab fork, causing uproarious laughter. Mormont chokes on crab. The raven caws "Duel!"
+4. **Thorne storms out** — Thorne leaves the room stiffly, humiliated. Tyrion claims his share of the crabs.
+5. **Tyrion criticizes Thorne as trainer** — Tyrion tells the officers that Thorne should be mucking stables, not training recruits. Mormont defends Thorne as an anointed knight.
+6. **Rykker reveals how he and Thorne took the black** — Rykker explains that Tywin Lannister gave them the choice of the black or execution after the sack of King's Landing.
+7. **Maester Aemon calls Tyrion a giant** — Aemon quiets the table and declares Tyrion "a giant come among us, here at the end of the world." Tyrion is moved and at a loss for words.
+8. **Mormont pleads the Watch's case privately** — After others leave, Mormont tells Tyrion the Watch is dying — fewer than a thousand men, mostly stableboys, thieves, and rapers. He asks Tyrion to tell the king, his father, and his brother.
+9. **Mormont recounts Benjen's mission and losses** — Mormont explains he sent Benjen after Waymar Royce, that Gared deserted and was executed by Eddard Stark, and that Benjen has now gone missing too.
+10. **Mormont warns of gathering threats** — Mormont describes reports of white walkers seen by fisherfolk near Eastwatch, mountain people fleeing south past the Shadow Tower in greater numbers, and his own dark dreams. He invokes "Winter is coming."
+11. **Tyrion promises to speak to the king** — Tyrion pledges to tell the king and his family, though he privately believes Robert will ignore him, Tywin will question his sanity, and Jaime will laugh.
+12. **Tyrion crosses the yard toward King's Tower** — Walking in bitter cold, breath steaming, hoping Morrec warmed his bed with hot bricks.
+13. **Tyrion impulsively decides to ascend the Wall** — Instead of going to bed, Tyrion walks past King's Tower to the iron cage elevator and rings the bell rope three times.
+14. **Tyrion rides the cage to the top of the Wall** — He ascends slowly, observing Castle Black in moonlight below — its emptiness, crumbling walls, and broken courtyards. He sees Mole's Town and icy streams.
+15. **Two sentries admit Tyrion atop the Wall** — They recognize "the dwarf," warn him not to fall, and retreat to their shack with its brazier.
+16. **Tyrion walks west along the Wall** — He follows the path near the north edge, passing a massive catapult with its throwing arm removed and half-embedded in ice.
+17. **Tyrion encounters Jon Snow on guard** — Jon challenges him; Ghost approaches and sniffs Tyrion's furs. Tyrion scratches Ghost behind the ears.
+18. **Jon reports on his training efforts** — Jon tells Tyrion that Ser Alliser has arranged for him to draw night guard repeatedly. Grenn held his own against Halder, and Pyp is improving with sword work.
+19. **Jon asks Tyrion to carry messages** — Jon asks Tyrion to tell Robb a joke, explain his situation to Rickon, and help Bran.
+20. **Tyrion and Jon clasp hands as friends** — Jon offers his bare hand and says "Friend." Tyrion responds that Jon is the first bastard he's had to friend, and they shake hands flesh to flesh.
+21. **Tyrion and Jon stand at the northern parapet** — They look out over the cleared ground and the haunted forest. The narrative describes the Watch's policy of keeping trees cut back, and the dark ancient forest beyond.
+22. **Tyrion feels the reality of the threat** — Standing in the cold darkness with no fires burning, Tyrion almost believes in the Others; his jokes about grumkins and snarks no longer seem droll.
+23. **Jon speaks of Benjen** — Jon says he watched for Benjen every night but he never came. He vows that if Benjen doesn't return, he and Ghost will go find him.
+24. **Tyrion privately doubts Jon's chances** — Tyrion says "I believe you" but thinks "And who will go find you?" He shivers.
 
 ## Spatial Layout & Movement
 | Phase | Who | Position / Movement | Relative To | Notes |
 |-------|-----|---------------------|-------------|-------|
-| Opening | Tyrion, Mormont, Thorne, Marsh, Rykker, Aemon, others | Seated at table dining | Tower room, Commander's Keep | |
-| Confrontation | Thorne | Stands up from table | Other diners | Mouth a tight line, challenges Tyrion |
-| Confrontation | Tyrion | Hops up on his chair | Thorne | Pokes Thorne's chest with crab fork |
-| Departure | Thorne | Walks stiffly from the room | | Exits after humiliation |
-| Dispersal | Other officers | Leave after the meal | | Tyrion and Mormont remain |
-| Assembly | Tyrion, Mormont | Seated by the fire | Mormont's quarters | Private conversation over mulled spirits |
-| Departure | Tyrion | Leaves Commander's Keep | Crosses yard toward King's Tower | Cold, snow crunching, breath steaming |
-| Advance | Tyrion | Passes the King's Tower, goes to iron cage | South face of the Wall | Seized by sudden whim; pulls bell rope three times |
-| Ascent | Tyrion | Rises in iron cage | Wall, south face | Observes Castle Black below, Mole's Town in distance |
-| Arrival | Tyrion | Cage stops atop the Wall | Two winch men at top | Cage slides sideways over the Wall |
-| Patrol | Tyrion | Walks west along the Wall | Northern edge, freshest gravel | Passes the broken catapult |
-| Confrontation | Jon Snow | Calls challenge | Tyrion approaching from east | Ghost slips forward silently |
-| Patrol | Tyrion, Jon, Ghost | Walk together westward along the Wall | Northern parapet | Jon has a mile to guard |
-| Scout | Tyrion, Jon | Stand at the northern parapet | Edge of the Wall, looking north | Observe the haunted forest and darkness beyond |
+| Opening | Tyrion, Mormont, Thorne, Marsh, Rykker, Aemon, others | Seated at dinner table | Tower room, Commander's Keep | Aemon at far end of table |
+| Departure | Ser Alliser Thorne | Walks stiffly from the room | Tower room | After humiliation with crab fork |
+| Dispersal | Other officers | Leave after dinner | Tower room | Mormont and Tyrion remain |
+| Assembly | Tyrion, Mormont | Seated by fire for private talk | Commander's Keep | Chair beside fire, mulled spirits |
+| Departure | Tyrion | Leaves Commander's Keep, crosses yard | Toward King's Tower | Nods to sentries outside Commander's Keep; patches of snow, breath steaming |
+| Advance | Tyrion | Passes King's Tower, goes to iron cage | South face of the Wall | Impulsive decision; examines wooden stair but rejects it due to cramping legs |
+| Advance | Tyrion | Rides cage upward | Wall, south face | Slow ascent; observes Castle Black below in moonlight; sees Mole's Town |
+| Arrival | Tyrion | Steps onto top of the Wall | Top of Wall | Two sentries admit him; they retreat to shack |
+| Patrol | Tyrion | Walks west along north edge | Top of the Wall | Passes massive catapult with broken throwing arm |
+| Confrontation | Jon Snow, Ghost | Jon challenges Tyrion | Top of the Wall, west of catapult | Ghost approaches silently, sniffs Tyrion |
+| Patrol | Tyrion, Jon, Ghost | Walk together westward | Top of the Wall, north edge | Jon has a mile of Wall to guard |
+| Assembly | Tyrion, Jon | Stand at northern parapet | North edge of Wall | Look out over cleared ground and haunted forest |
 
 ## Information Revealed
 | Information | How Revealed | Known To (Characters) | Known To (Reader Only?) |
 |-------------|-------------|----------------------|------------------------|
-| The Night's Watch has fewer than a thousand men: ~600 at Castle Black, ~200 at Shadow Tower, even fewer at Eastwatch; scant third are fighting men | Mormont tells Tyrion directly | Mormont, Tyrion | No |
-| The Wall is a hundred leagues long | Mormont states this | Mormont, Tyrion | No |
-| Mormont has about twenty men who can read, fewer who can think, plan, or lead | Mormont states this | Mormont, Tyrion | No |
-| Ser Alliser Thorne and Ser Jaremy Rykker fought on the Targaryen side at King's Landing | Rykker reveals this at dinner | Rykker, Tyrion, the officers at table | No |
-| Tywin Lannister gave them the choice: take the black or be executed | Rykker states this | Rykker, Tyrion, the officers | No |
-| Mormont's sister Maege rules Bear Island since his son's dishonor | Mormont states this | Mormont, Tyrion | No |
-| Mormont has nieces he has never seen | Mormont states this | Mormont, Tyrion | No |
-| Gared deserted and Lord Eddard sent his head to Castle Black | Mormont tells Tyrion | Mormont, Tyrion | No |
-| Waymar Royce insisted on his own command due to his status as a knight | Mormont tells Tyrion | Mormont, Tyrion | No |
-| Benjen Stark is still missing | Mormont tells Tyrion | Mormont, Tyrion | No |
-| The summer has lasted nine years with a tenth approaching; days are growing shorter | Mormont states; confirmed by Aemon's letters from the Citadel | Mormont, Aemon, Tyrion | No |
-| Denys Mallister reports mountain people moving south past Shadow Tower in unprecedented numbers | Mormont tells Tyrion | Mormont, Mallister, Tyrion | No |
-| Fisherfolk near Eastwatch have seen white walkers on the shore | Mormont tells Tyrion | Mormont, Tyrion | No |
-| Tyrion privately believes Robert will ignore him, Tywin will dismiss him, and Jaime will laugh | Tyrion's internal thought | Tyrion only | Yes |
-| Ser Alliser has arranged for Jon to draw night guard repeatedly to exhaust him | Jon tells Tyrion | Jon, Tyrion | No |
-| Jon has been training Grenn and Pyp informally | Jon tells Tyrion | Jon, Tyrion | No |
-| Thorne never taught Pyp the proper way to grip a sword | Jon states | Jon, Tyrion | No |
-| Tyrion was born in a terrible winter lasting near three years | Tyrion's internal recollection | Tyrion | Yes |
-| The Night's Watch keeps the forest cleared half a mile from the Wall's north face at Castle Black | Tyrion's observation and knowledge | General knowledge at Castle Black | No |
+| The Night's Watch has fewer than 1,000 men: ~600 at Castle Black, ~200 at Shadow Tower, fewer at Eastwatch, only a third are fighting men | Mormont tells Tyrion directly | Mormont, Tyrion, Watch leadership | No |
+| The Wall is a hundred leagues long, giving roughly three men per mile | Mormont tells Tyrion | Mormont, Tyrion | No |
+| Mormont sent Benjen Stark to search for Waymar Royce | Mormont tells Tyrion | Mormont, Tyrion | No |
+| Gared deserted and Lord Eddard sent his head to the Wall | Mormont tells Tyrion | Mormont, Tyrion | No |
+| Benjen Stark has gone missing | Mormont tells Tyrion; Jon confirms atop Wall | Mormont, Tyrion, Jon, Watch | No |
+| Ser Alliser Thorne and Ser Jaremy Rykker fought on the Targaryen side at King's Landing and were given the choice of the black or death by Tywin Lannister | Rykker tells the table | Rykker, Tyrion, dinner company | No |
+| Maege Mormont rules Bear Island due to Mormont's son's dishonor | Mormont tells Tyrion | Mormont, Tyrion | No |
+| Fisherfolk near Eastwatch have glimpsed white walkers on the shore | Mormont tells Tyrion | Mormont, Tyrion | No |
+| Mountain people are moving south past the Shadow Tower in unprecedented numbers (per Denys Mallister's letter) | Mormont tells Tyrion | Mormont, Tyrion, Denys Mallister | No |
+| Maester Aemon has had letters from the Citadel confirming the end of summer | Mormont tells Tyrion | Mormont, Aemon, Tyrion | No |
+| Summer has lasted nine years, a tenth approaching; days growing shorter | Mormont tells Tyrion | Mormont, Tyrion | No |
+| Tyrion privately believes Robert will ignore his message, Tywin will question his sanity, and Jaime will laugh | Tyrion's internal narration | Tyrion only | Yes |
+| Jon has been drawing repeated night guard at Ser Alliser's arrangement | Jon tells Tyrion | Jon, Tyrion | No |
+| Jon is secretly training other recruits (Grenn, Pyp) | Jon tells Tyrion | Jon, Tyrion, Grenn, Pyp | No |
+| Tyrion was born in the dead of winter, a cruel one lasting near three years | Tyrion's internal narration | Tyrion | Yes |
+| Mormont will be seventy in two years | Mormont says so | Mormont, Tyrion | No |
+| The Watch will escort Tyrion south with three men to Winterfell | Mormont announces | Mormont, Tyrion | No |
+| Tyrion privately thinks "And who will go find you?" about Jon's vow | Tyrion's internal thought | Tyrion only | Yes |
 
 ## Dialogue of Note
 | Speaker | Listener | Quote/Paraphrase | Context |
 |---------|----------|------------------|---------|
-| Maester Aemon | Tyrion (and all at table) | "I think he is a giant come among us, here at the end of the world." | Aemon praises Tyrion after others mock his size; silences the table |
-| Maester Aemon | Tyrion | "I have been called many things, my lord, but kind is seldom one of them." | Mirrors Tyrion's own phrasing back to him; playful and warm |
-| Mormont | Tyrion | "You must make them understand. I tell you, my lord, the darkness is coming." | Mormont's desperate plea for Tyrion to advocate for the Watch |
-| Mormont | Tyrion | "Winter is coming, and when the Long Night falls, only the Night's Watch will stand between the realm and the darkness that sweeps from the north." | Final plea at the window; uses Stark words and invokes the Long Night |
-| Tyrion | Mormont | "The fisherfolk of Lannisport often glimpse merlings." | Tyrion's dismissive reply to reports of white walkers |
-| Ser Jaremy Rykker | Tyrion | "On the wrong side … Tywin Lannister gave us a splendid choice. Take the black, or see our heads on spikes before evenfall." | Reveals how he and Thorne came to the Watch |
-| Tyrion | Jon Snow | "Most of my kin are bastards, but you're the first I've had to friend." | Accepting Jon's offered friendship; clasping bare hands |
-| Jon Snow | Tyrion | "I don't know what message to send to Bran. Help him, Tyrion." | Jon's emotional plea for Bran |
-| Tyrion | Jon Snow | "You're asking a lame man to teach a cripple how to dance … Still, I know what it is to love a brother, Lord Snow. I will give Bran whatever small help is in my power." | Tyrion accepts the request despite self-deprecation |
-| Jon Snow | (to the darkness) | "If he doesn't come back, Ghost and I will go find him." | Speaking of Benjen; hand on Ghost's head |
-| Mormont's raven | (general) | "Duel! Duel! Duel!" / "Fool" | Echoes words during the crab fork scene and after |
-| Mormont | Tyrion | "Sometimes I fear Ser Alliser saw you true, Tyrion. You do mock us and our noble purpose here." | Mild rebuke after the Thorne incident |
-| Tyrion | Mormont | "We all need to be mocked from time to time, Lord Mormont, lest we start to take ourselves too seriously." | Tyrion's philosophy on humor |
+| Maester Aemon | Tyrion, table | "I think he is a giant come among us, here at the end of the world." | After officers mock Tyrion's drinking; Aemon silences the table with this praise |
+| Maester Aemon | Tyrion | "I have been called many things, my lord, but kind is seldom one of them." | Echoing Tyrion's earlier phrasing back to him |
+| Ser Jaremy Rykker | Table | "On the wrong side … Tywin Lannister gave us a splendid choice. Take the black, or see our heads on spikes before evenfall." | Explaining how he and Thorne came to the Wall |
+| Mormont | Tyrion | "The Night's Watch is dying. Our strength is less than a thousand now." | Private plea for Tyrion to advocate for the Watch |
+| Mormont | Tyrion | "You must make them understand. I tell you, my lord, the darkness is coming." | Mormont's urgent warning about threats beyond the Wall |
+| Mormont | Tyrion | "Winter is coming, and when the Long Night falls, only the Night's Watch will stand between the realm and the darkness that sweeps from the north." | Final warning; uses the Stark words |
+| Tyrion | Mormont | "I promise, the king will hear of your need … and I will speak to my father and my brother Jaime as well." | Tyrion's pledge, though he privately doubts it will matter |
+| Jon Snow | Tyrion | "I don't know what message to send to Bran. Help him, Tyrion." | Asking Tyrion to help his crippled brother |
+| Tyrion | Jon | "You're asking a lame man to teach a cripple how to dance … Still, I know what it is to love a brother, Lord Snow. I will give Bran whatever small help is in my power." | Agreeing to help Bran despite his own limitations |
+| Jon Snow | Tyrion | "Friend." | Offering his bare hand in friendship |
+| Tyrion | Jon | "Most of my kin are bastards, but you're the first I've had to friend." | Accepting Jon's friendship with self-deprecating humor |
+| Jon Snow | Tyrion | "If he doesn't come back, Ghost and I will go find him." | Vowing to search for Benjen Stark |
+| Mormont | Tyrion | "Tell them, Tyrion. Tell them and make them believe. That is all the thanks I need." | Final words as Tyrion departs |
 
 ## POV Character's Internal State
-- **Emotional state:** Witty and socially dominant at dinner; faintly embarrassed for Mormont during the private plea; sleepy and light-headed from wine; seized by sudden romantic impulse to see the Wall one last time; genuinely touched by Jon's offer of friendship; unsettled by the darkness beyond the Wall — almost believing in the Others
-- **Primary preoccupation:** Departure the next morning; navigating social dynamics at Castle Black; privately assessing the futility of Mormont's request
-- **Key decisions made:** Promises Mormont he will speak to the king and his family about the Watch's needs; agrees to deliver Jon's messages and help Bran
-- **Self-deception flags:** Tyrion promises Mormont gravely while privately knowing Robert will ignore him, Tywin will dismiss him, and Jaime will laugh — he performs sincerity while expecting futility. He tells himself his promise is honest ("Tyrion Lannister was as good as his word") but leaves unsaid that his word may accomplish nothing.
+- **Emotional state:** Convivial and witty at dinner, enjoying the verbal sparring; genuinely touched by Maester Aemon's praise (rare moment of speechlessness); faintly embarrassed for Mormont's earnest pleading; increasingly sobered by the reality of the Wall's vulnerability; oddly touched by Jon's offer of friendship; genuinely unsettled by the darkness beyond the Wall — his skepticism falters as he stands in the cold
+- **Primary preoccupation:** Departure south the next morning; the tension between his promise to Mormont and his private certainty that Robert, Tywin, and Jaime will not act; a strange compulsion to see the Wall one final time
+- **Key decisions made:** Promises to advocate for the Watch to the king and his family; agrees to help Bran; accepts Jon Snow's friendship; decides on impulse to ascend the Wall one last time
+- **Self-deception flags:** Tyrion promises Mormont he will speak to the king and his family, but privately acknowledges this will accomplish nothing — he makes the promise anyway, partly out of genuine respect for Mormont and partly to avoid confronting the old man's desperation directly
 
 ## Relationships Observed
 | Character A | Relationship | Character B | Evidence |
 |-------------|-------------|-------------|----------|
-| Tyrion | antagonistic/contemptuous | Ser Alliser Thorne | Tyrion mocks Thorne repeatedly; Thorne regards Tyrion with loathing; Thorne challenges him to combat |
-| Tyrion | respectful/warm | Maester Aemon | Aemon's praise leaves Tyrion at a loss for words; Tyrion bows his head politely; mutual wordplay |
-| Tyrion | transactional/sympathetic | Jeor Mormont | Mormont hosts Tyrion and seeks advocacy; Tyrion promises but privately doubts effectiveness |
-| Tyrion | friendship | Jon Snow | They clasp bare hands; Tyrion calls Jon the first bastard he's had to friend; genuine warmth and concern |
-| Tyrion | protective concern | Bran Stark | Agrees to help Bran at Jon's request; identifies with Bran as a fellow physically different person |
-| Jon Snow | devotion/worry | Benjen Stark | Jon watches nightly for Benjen's return; vows to go find him |
-| Jon Snow | mentor | Grenn, Pyp | Jon trains them informally; reports their progress with pride |
-| Jon Snow | targeted by | Ser Alliser Thorne | Thorne arranges repeated night guard to exhaust Jon |
-| Jeor Mormont | refusal | Jon Snow (re: visiting Winterfell) | Mormont says young recruits need to forget their past lives; won't send Jon |
-| Jeor Mormont | shame/estrangement | Jorah Mormont (son) | Mormont references his son's dishonor; sister rules Bear Island now |
-| Ser Jaremy Rykker | former enemy of | Tywin Lannister | Rykker fought against Tywin at King's Landing; given the black or death |
-| Mormont | desperation toward | The realm (Robert, Lannisters) | Pleads for Tyrion to make the powerful understand the Watch's dire need |
-| Ghost | companion | Jon Snow | Paces beside Jon like a white shadow; Jon puts hand on Ghost's head |
-| Ghost | tolerant of | Tyrion | Sniffs Tyrion's furs; watches impassively as Tyrion scratches his ears |
+| Tyrion | mocks / antagonizes | Ser Alliser Thorne | Trades barbs at dinner; pokes him with crab fork; publicly humiliates him |
+| Ser Alliser Thorne | loathes | Tyrion | "Fixed on Tyrion with loathing"; challenges him to the yard |
+| Tyrion | respects / is moved by | Maester Aemon | "Found himself at a loss for words"; bows politely; Aemon's praise genuinely touches him |
+| Maester Aemon | respects / praises | Tyrion | Calls him "a giant come among us" |
+| Mormont | appeals to / trusts | Tyrion | Privately pleads Watch's case; asks Tyrion to speak to the powerful |
+| Tyrion | pities / respects | Mormont | "Felt faintly embarrassed for the old man" but recognizes his sincerity; promises to help |
+| Tyrion | friendship | Jon Snow | They clasp bare hands; Jon says "Friend"; Tyrion calls Jon the first bastard he's had to friend |
+| Jon Snow | friendship / trust | Tyrion | Offers bare hand; asks Tyrion to help Bran; shares his concerns about Benjen |
+| Jon Snow | loves / misses | Benjen Stark | "My uncle is out there"; watches every night for his return; vows to go find him |
+| Jon Snow | loves / worries about | Bran Stark | Stops mid-sentence when mentioning Bran; asks Tyrion to help him |
+| Jon Snow | loves | Robb Stark | Sends a joking message showing affection and longing |
+| Jon Snow | loves | Rickon Stark | Wants Tyrion to explain his absence; offers Rickon all his things |
+| Ser Alliser Thorne | persecutes | Jon Snow | Arranges for Jon to draw night guard repeatedly to exhaust him |
+| Jon Snow | mentors | Grenn, Pypar | Training them in sword work; Grenn improving, Pyp no longer dropping his sword |
+| Mormont | defends | Ser Alliser Thorne | Says Thorne is an anointed knight who fought bravely; one of few knights to take the black |
+| Ser Jaremy Rykker | sardonic camaraderie with | Tyrion | Shares the story of taking the black; accepts Tyrion's dark humor about his father |
+| Tyrion | privately doubts efficacy of | Robert, Tywin, Jaime | Believes Robert will ignore, Tywin will question his sanity, Jaime will laugh |
+| Mormont | grieves / is estranged from | His son (Jorah, implied) | "My son's dishonor"; sister rules Bear Island now; has nieces he's never seen |
+| Mormont | worries about | Benjen Stark | Sent him out and now he's missing; no one left to send searching |
+| Ghost | bonded to | Jon Snow | Walks beside Jon "like a white shadow"; accompanies him on guard |
+| Ghost | tolerant of | Tyrion | Lets Tyrion scratch behind his ears; sniffs his furs without aggression |
+| Mormont's raven | bonded to | Mormont | Perches on shoulder; Mormont gives it corn; mimics key words |
+| Tywin Lannister | forced into service | Thorne, Rykker | Gave them the choice of the black or death after King's Landing |
 
 ## Unanswered Questions
 | Question | Raised By | Context |
 |----------|-----------|---------|
-| What happened to Benjen Stark beyond the Wall? | Mormont, Jon | Benjen was sent after Waymar Royce and has not returned |
-| What happened to Waymar Royce and his two companions? | Mormont | One (Gared) deserted; the other two are unaccounted for; "of Royce, there is no word" |
-| What are the mountain people fleeing from? | Mormont (via Denys Mallister) | Moving south past the Shadow Tower in unprecedented numbers — "running from what?" |
-| Did fisherfolk near Eastwatch actually see white walkers? | Mormont | Mormont reports this; Tyrion is skeptical |
-| Will anyone listen to Tyrion's advocacy for the Watch? | Tyrion (internal) | He privately doubts Robert, Tywin, or Jaime will act |
-| Who will go find Jon if he goes looking for Benjen? | Tyrion (internal) | Tyrion thinks this but does not say it; worries for Jon |
-| What are the "darker shapes" in Mormont's dreams? | Mormont | Mormont mentions them alongside real threats but gives no details |
+| What happened to Benjen Stark? | Mormont, Jon | Benjen went searching for Waymar Royce and has not returned |
+| What happened to Waymar Royce? | Mormont | Lost on his first ranging; no word |
+| What are the white walkers seen by fisherfolk near Eastwatch? | Mormont | Reports of sightings on the shore |
+| Why are the mountain people fleeing south past the Shadow Tower in unprecedented numbers? What are they running from? | Mormont (via Denys Mallister) | Mormont asks "running from what?" |
+| Will Tyrion's advocacy to Robert, Tywin, and Jaime accomplish anything for the Watch? | Tyrion (internal) | Tyrion privately doubts all three will act |
+| What are the "darker shapes" Mormont has seen in his dreams? | Mormont | Mentioned alongside reports of wild animals and white walkers |
+| Will Jon attempt to search for Benjen? | Jon | Jon vows "Ghost and I will go find him" if Benjen doesn't return |
 
 ## Raw Entity List
+
 ### Characters
-Tyrion Lannister, Jeor Mormont, Ser Alliser Thorne, Bowen Marsh, Ser Jaremy Rykker, Maester Aemon, Jon Snow, Ghost, Mormont's raven, Jaime Lannister, Jyck, Morrec, Yoren, Benjen Stark, Waymar Royce, Yohn Royce, Gared, Eddard Stark, Tywin Lannister, Cersei Lannister, Robert Baratheon, Maege Mormont, Jorah Mormont, Denys Mallister, Robb Stark, Rickon Stark, Bran Stark, Grenn, Halder, Pyp (Pypar), Mikken
+Tyrion Lannister, Jeor Mormont (the Old Bear), Ser Alliser Thorne, Bowen Marsh, Ser Jaremy Rykker, Maester Aemon, Jon Snow, Ghost, Mormont's raven, Jaime Lannister, Cersei Lannister, Tywin Lannister, Robert (the king), Benjen Stark, Waymar Royce (Yohn Royce's son), Gared, Eddard Stark (Lord Eddard), Maege Mormont, Jorah Mormont (implied — "my son"), Denys Mallister, Robb Stark, Rickon Stark, Bran Stark, Grenn, Halder, Pypar (Pyp), Mikken, Yoren, Jyck, Morrec, Yohn Royce
 
 ### Locations
-Castle Black, The Wall, Commander's Keep, King's Tower, Mole's Town, Eastwatch-by-the-Sea, Shadow Tower, Winterfell, King's Landing, Bear Island, Lannisport, The Citadel, The haunted forest, The kingsroad, King's Gate, The Seven Kingdoms
+Castle Black, The Wall, Commander's Keep, King's Tower, Eastwatch (Eastwatch-by-the-Sea), Shadow Tower, Winterfell, King's Landing, Bear Island, The Citadel, Lannisport, Mole's Town, The haunted forest, The kingsroad, King's Gate (city wall gate at King's Landing), The Seven Kingdoms
 
-### Artifacts
-Black warhorn banded with silver (Jon's), iron cage/lift, broken catapult atop the Wall, crab fork (Tyrion's improvised "weapon")
+### Houses
+House Lannister, House Stark, House Mormont, House Royce
 
-### Houses/Factions
-Night's Watch, House Lannister, House Stark, House Mormont, House Royce, House Mallister
+### Factions & Organizations
+Night's Watch
+
+### Religions & Faiths
+The gods (generic reference by Mormont: "the gods help us all"; by Tyrion: "if men were good, the gods would give the world a summer without ending")
+
+### Cultures & Peoples
+Mountain people (wildlings moving south past Shadow Tower), fisherfolk near Eastwatch, fisherfolk of Lannisport
+
+### Artifacts & Objects
+Black warhorn banded with silver (Jon's), Maester Aemon's chain (links of many metals), crab fork, iron cage elevator (at the Wall), massive catapult atop the Wall (broken throwing arm half-embedded in ice)
+
+### In-world Texts & Songs
+None
+
+### Magic & Phenomena
+White walkers (glimpsed by fisherfolk near Eastwatch), the Others ("the enemy in the night"), grumkins and snarks (Tyrion's skeptical references), the Long Night (referenced by Mormont), darker shapes in Mormont's dreams
+
+### Wars & Conflicts
+Sack of King's Landing (where Thorne and Rykker fought on Targaryen side; Tywin gave them the choice of black or death)
+
+### Titles & Offices
+Lord Commander of the Night's Watch (Mormont), Lord Steward of the Night's Watch (Bowen Marsh), Maester (Aemon), Ser (Alliser Thorne, Jaremy Rykker), Watch commander (unnamed, assigns Jon night guard)
+
+### Other
+None

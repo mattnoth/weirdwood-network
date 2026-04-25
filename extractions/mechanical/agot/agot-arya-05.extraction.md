@@ -6,256 +6,267 @@
 - **pov_character:** Arya Stark
 - **pov_chapter_number:** Arya V
 - **first_available:** AGOT Arya V
-- **location_primary:** King's Landing — Flea Bottom, the wharfs, the Great Sept of Baelor
-- **location_secondary:** Street of Flour, Street of the Sisters, Visenya's Hill, the riverfront/Blackwater Rush, Pig Alley (referenced)
-- **approximate_timeline:** Shortly after Eddard Stark's arrest and King Robert's death; the chapter ends with Eddard's execution
-- **time_markers:** "Every day since her escape from the Red Keep" (multiple days surviving in the city); bells tolled "for a day and a night" for King Robert's death; Arya visits each of the seven city gates daily; silver bracelet stolen "her first night out of the castle"; "only yesterday" a girl attacked her for her boots; the chapter spans from daytime pigeon-catching to the afternoon/midday summoning at the sept
-- **chapter_summary:** Arya has been living as a street urchin in Flea Bottom since escaping the Red Keep, catching pigeons for food and checking the city gates daily for a way out. She discovers the Wind Witch — the ship her father hired to take her home — is still at the pier, but manned by strangers in Winterfell colors who do not recognize her. Bells summon the city to the Great Sept of Baelor, where Eddard Stark publicly confesses to treason and acknowledges Joffrey as king. Despite Queen Cersei and Sansa's pleas for mercy, Joffrey orders Ser Ilyn Payne to execute Eddard with his own sword Ice. As Arya fights through the crowd toward the pulpit, Yoren of the Night's Watch seizes her, prevents her from witnessing the beheading, and begins cutting her hair to disguise her as a boy.
+- **location_primary:** King's Landing (Flea Bottom, the wharfs, the plaza before the Great Sept of Baelor)
+- **location_secondary:** Street of Flour, Street of the Sisters, Visenya's Hill, the riverfront/wharfs, Pig Alley (mentioned), the Red Keep (seen from distance)
+- **approximate_timeline:** After Robert's death and Eddard's arrest; Arya has been living on the streets for multiple days; ends with Eddard's execution
+- **time_markers:** "Every day since her escape from the Red Keep"; bells tolled "for a day and a night" after Robert's death; Arya has been visiting the seven city gates daily; silver bracelet stolen "her first night out of the castle"; chapter events appear to span a single day from the pigeon hunt through the execution
+- **chapter_summary:** Arya survives on the streets of King's Landing, hunting pigeons and trading them at pot-shops for bowls of brown. She visits the wharfs and discovers the Wind Witch, the ship her father hired, still at its pier — but the guardsmen in Winterfell colors are strangers. Bells ring summoning the city to the Great Sept of Baelor, where Eddard Stark publicly confesses to treason and declares Joffrey the true heir. Despite the queen and Sansa pleading for mercy, Joffrey orders Ser Ilyn Payne to take Eddard's head. As Arya fights through the crowd toward her father, Yoren of the Night's Watch seizes her, forces her not to watch, and begins cutting her hair to disguise her as a boy.
 
 ## Physical Environment
-- **Weather:** Not explicitly described; no rain or notable weather mentioned
+- **Weather:** Not explicitly described; no mention of rain or extreme conditions
 - **Season indicators:** None stated directly in this chapter
-- **Time of day:** Daytime throughout; sunlight glints off Ser Ilyn's blade during the execution scene; the chapter progresses from morning (pigeon-hunting on the Street of Flour) through the day to the summoning
-- **Lighting:** Sunlight — "sunlight seemed to ripple and dance down the dark metal" of Ice; rainbows from the High Septon's crystal crown whenever he moves
-- **Sounds:** Bells ringing from the seven towers of the Great Sept of Baelor (summoning bells, one tower tolling); crowd screaming and shouting; Sansa screaming; taunts and obscenities; "a soft sighing sound, as if a million people had let out their breath at once" (the moment of execution); clanging of stones off armor
-- **Smells:** Hot bread from the Street of Flour ("sweeter than any perfume"); blueberry, lemon, and apricot tarts from a pushcart; the stench of Flea Bottom — "pigsties and stables and tanner's sheds, mixed in with the sour smell of winesinks and cheap whorehouses"; bubbling brown from a pot-shop doorway; Yoren's breath — "sour wine perfumed his breath"
-- **Notable sensory details:** Arya's torn thumbnail leaving blood smears on painted marble; the salt taste of tears on her lips; her scalp tearing as Yoren grips her hair; the physical press of the crowd — bodies closing in, stumbling, trampling; cobblestones underfoot; deep rut in the street
+- **Time of day:** Daytime throughout; "sunlight seemed to ripple and dance down the dark metal" of Ice during the execution scene
+- **Lighting:** Sunlight on Ice's blade; rainbows refracting from the High Septon's crystal crown
+- **Sounds:** Bells ringing from the seven towers of the Great Sept of Baelor — "clanging, calling"; crowd screaming and shouting; Sansa screaming; the "soft sighing sound, as if a million people had let out their breath at once" at the moment of execution; pigeon fluttering; stones clanging off armor
+- **Smells:** Hot bread from the Street of Flour ("sweeter than any perfume"); blueberry, lemon, and apricot tarts from the pushcart; Flea Bottom's stench — "pigsties and stables and tanner's sheds, mixed in with the sour smell of winesinks and cheap whorehouses"; bubbling brown from a pot-shop door; Yoren's breath — "sour wine perfumed his breath"
+- **Notable sensory details:** Arya's broken thumbnail leaving blood smears on painted marble; the salt taste of tears on her lips; her scraped knee and bloodied thumb; the hard-packed earth of the street; cobblestones
 
 ## Characters Present
 | Character | Role in Chapter | First Appearance? | Notes |
 |-----------|----------------|-------------------|-------|
-| Arya Stark | POV character | No | Living as a street urchin in Flea Bottom, disguised as a boy |
-| Eddard Stark | Prisoner, her father | No | Brought to the sept to confess; executed |
-| Joffrey Baratheon | King, orders execution | No | Wears a gold crown; referred to as both prince and king |
-| Cersei Lannister | Queen mother | No | In black mourning gown; bids Joffrey let Eddard take the black |
-| Sansa Stark | Arya's sister, present at sept | No | In sky-blue silk; begs mercy for her father; collapses sobbing |
-| Sandor Clegane (the Hound) | Kingsguard | No | Wearing a snowy white cloak over dark grey armor |
-| Varys | Courtier | No | In soft slippers and patterned damask robe; rushes to protest Joffrey's order |
-| Ser Ilyn Payne | King's Justice, executioner | No | Described as tall, fleshless, "a skeleton in iron mail" |
-| The High Septon | Religious leader | No | Squat, grey with age, ponderously fat; wears immense crown of spun gold and crystal |
-| Yoren | Night's Watch recruiter | No (uncertain — verify) | Seizes Arya, disguises her; described with matted greasy hair, patched dusty black cloak, hard black eyes |
-| Ser Horas Redwyne | Rides past Arya | No | Orange hair, square freckled face |
-| Ser Hobber Redwyne | Rides past Arya | No | Orange hair, square freckled face; twin of Horas |
+| Arya Stark | POV character | No | Living on the streets of King's Landing, hunting pigeons, surviving in Flea Bottom |
+| Eddard Stark | Prisoner forced to confess | No | Thin, drawn with pain, broken leg in a grey rotten cast; publicly confesses treason and is executed |
+| Joffrey Baratheon | King, orders execution | No | Wearing crimson silk and satin with stags and lions, gold crown; overrules his mother and Sansa |
+| Cersei Lannister | Queen mother | No | In black mourning gown slashed with crimson, veil of black diamonds; bids Joffrey let Eddard take the black |
+| Sansa Stark | Prisoner/hostage | No | In sky-blue silk with silver bracelets, auburn hair washed and curled; begs mercy, collapses sobbing |
+| Sandor Clegane (the Hound) | Kingsguard | No | Wearing snowy white cloak over dark grey armor |
+| Varys | Councillor | No | In soft slippers and patterned damask robe; rushes over waving arms to intervene after Joffrey's order |
+| Ser Ilyn Payne | King's Justice, executioner | No | Tall and fleshless, "a skeleton in iron mail"; wields Ice to execute Eddard |
+| Yoren | Night's Watch recruiter | No | Matted greasy hair, patched dusty black cloak, twisted shoulders, hard black eyes, tangled beard, rotten teeth; seizes Arya and begins disguising her |
+| The High Septon | Religious leader | No | Squat, grey with age, ponderously fat; long white robes, immense crown of spun gold and crystal |
+| Ser Horas Redwyne | Lordling riding past | No | Orange hair, square freckled face; rides a chestnut mare |
+| Ser Hobber Redwyne | Lordling riding past | No | Orange hair, square freckled face; rides a chestnut mare identical to his twin's |
 
 ## Character Appearances
 | Character | Hair | Eyes | Build/Height | Scars/Marks | Clothing/Armor | Weapons Worn | Distinguishing Features | Age (if stated) |
 |-----------|------|------|-------------|-------------|----------------|-------------|------------------------|-----------------|
-| Eddard Stark | | | Thinner than Arya has ever seen him | Deep gash across forehead from thrown stone; broken leg in grey rotten cast | Rich grey velvet doublet with white wolf sewn in beads; grey wool cloak trimmed with fur | | Long face drawn with pain; cannot stand unaided | |
-| Joffrey Baratheon | | | | | Crimson silk and satin patterned with prancing stags and roaring lions; gold crown | | | |
-| Cersei Lannister | | | | | Black mourning gown slashed with crimson; veil of black diamonds in her hair | | | |
+| Arya Stark | Extremely mussed | | | Scraped knee, ripped-off half thumbnail, bloodied hands from fall | Cloak draped over right arm to conceal Needle, leathers, boots | Needle (hidden under cloak), wooden practice sword (carried openly in left hand) | Mistaken for a boy by multiple people | |
+| Eddard Stark | | | Thinner than Arya has ever seen him | Deep gash across forehead from thrown stone, broken leg in grey rotten cast | Rich grey velvet doublet with white wolf in beads, grey wool cloak trimmed with fur | | Long face drawn with pain; not standing so much as being held up | |
+| Joffrey Baratheon | | | | | Crimson silk and satin patterned with prancing stags and roaring lions, gold crown | | | |
+| Cersei Lannister | | | | | Black mourning gown slashed with crimson, veil of black diamonds in hair | | | |
 | Sandor Clegane | | | | | Snowy white cloak over dark grey armor | | | |
-| Varys | | | | | Soft slippers; patterned damask robe | | | |
-| Ser Ilyn Payne | | | Tall, fleshless | | Iron mail | Two-handed greatsword (Ice) drawn from scabbard on his back | "A skeleton in iron mail" | |
-| High Septon | | | Squat, ponderously fat | | Long white robes; immense crown of spun gold and crystal that wreathed his head with rainbows | | Grey with age | |
-| Yoren | Matted greasy hair, long black hair, tangled beard | Hard black eyes, squinting | | | Patched, dusty black cloak | Knife | Rotten teeth; twisted shoulders; stiff iron-strong fingers | Old (called "the old man") |
-| Ser Horas Redwyne | Orange | | | | Checked cloaks, blue-and-burgundy (guardsmen) | | Square, freckled face | |
-| Ser Hobber Redwyne | Orange | | | | Checked cloaks, blue-and-burgundy (guardsmen) | | Square, freckled face; twin of Horas | |
-| Arya Stark | Extremely mussed | | | Broken/torn left thumbnail; scraped knee; bloody thumb | Cloak draped over right arm to conceal Needle; leathers; boots | Needle (hidden at hip); wooden practice sword (carried openly in left hand) | Mistaken for a boy | |
-| Gold cloak commander | | | Stout | | Elaborate armor, all black lacquer and gold filigree; cloak of true cloth-of-gold | | | |
-| Gold cloaks (pair on Street of Flour) | | | | | Heavy wool cloaks dyed rich gold; black mail, boots, and gloves | One wears a longsword, the other an iron cudgel | | |
+| Varys | | | | | Soft slippers, patterned damask robe | | Described as "the eunuch"; gliding movement | |
+| Ser Ilyn Payne | | | Tall, fleshless | | Iron mail | Ice (two-handed greatsword, taken from scabbard on his back) | "A skeleton in iron mail" | |
+| Yoren | Matted greasy hair, long black hair, tangled beard | Hard black eyes, squinting | | Twisted shoulders | Patched, dusty black cloak | Knife | Rotten teeth; sour wine on breath | Old (called "the old man") |
+| High Septon | | | Squat, ponderously fat | | Long white robes, immense crown of spun gold and crystal | | Grey with age; crown wreathed his head with rainbows when he moved | |
+| Ser Horas Redwyne | Orange hair | | | | Checked cloak, blue-and-burgundy (guardsmen) | | Square, freckled face | |
+| Ser Hobber Redwyne | Orange hair | | | | Checked cloak, blue-and-burgundy (guardsmen) | | Square, freckled face; twin of Horas | |
+| Gold cloaks (pair near Street of Flour) | | | | | Heavy wool cloaks dyed rich gold; mail, boots, and gloves all black | One with longsword, one with iron cudgel | | |
+| Commander of gold cloaks at sept | | | Stout | | Elaborate armor, all black lacquer and gold filigree; cloak of true cloth-of-gold | | | |
+| Pushcart man | | | Short, little round belly | | | | Favors left leg slightly | |
 
 ## Characters Referenced
 | Character | Context of Reference | Referenced By |
 |-----------|---------------------|---------------|
-| Syrio Forel | Arya remembers his teaching — "seeing" and "look with your eyes" | Arya (internal) |
-| King Robert Baratheon | Dead; multiple conflicting stories of how he died | Street gossip / crowd |
-| Lord Renly Baratheon | Rumored to have killed Robert or fled the city | Street gossip |
-| Bran Stark | Arya wonders if he is sad; remembers playing hoops with him | Arya (internal) |
+| Syrio Forel | Arya remembers his teaching about "seeing" — "Look with your eyes" | Arya (internal) |
+| Robert Baratheon | Dead king; conflicting rumors about his death circulate in Flea Bottom | Street talk, crowd |
+| Renly Baratheon | Rumored to have killed Robert; fled in the night | Street talk |
+| Bran Stark | Arya remembers playing hoops with him; wonders if he is sad | Arya (internal) |
 | Jon Snow | Arya wishes he were here to call her "little sister" and muss her hair | Arya (internal) |
 | Rickon Stark | Arya wonders how big he has grown | Arya (internal) |
-| Sansa Stark | Referenced before Arya sees her — Sansa and Jeyne Poole used to mock the Redwyne twins | Arya (internal) |
-| Jeyne Poole | Used to call the Redwyne twins "Ser Horror and Ser Slobber" with Sansa | Arya (internal) |
 | Old Nan | Told stories of boys who stowed away on trading galleys | Arya (internal) |
-| Ned Stark's father (i.e., "her lord father") | Taught Arya never to steal | Arya (internal) |
-| "Buu" | Unnamed boy's source for news that they're taking the Hand's head | Street boy |
-| Littlefinger (inferred) | "The short man with the silvery cape and pointed beard" who "once fought a duel for Mother" | Arya (visual identification, not named) |
+| Jeyne Poole | She and Sansa used to call the Redwyne twins "Ser Horror and Ser Slobber" | Arya (internal) |
+| Littlefinger (implied) | "The short man with the silvery cape and pointed beard might be the one who had once fought a duel for Mother" | Arya (internal observation, not named) |
 
 ## Locations
 | Location | Role | First Appearance? |
 |----------|------|-------------------|
-| Street of Flour | Where Arya catches pigeons; bakeries | No (uncertain — verify) |
-| Flea Bottom | Arya's base of operations; where she sleeps | No |
-| King's Landing | Overall city setting | No |
-| The wharfs / riverfront | Where Arya finds the Wind Witch | No |
-| The Blackwater Rush | River; Arya considers swimming it | No |
+| King's Landing | Primary setting — city where Arya is trapped | No |
+| Street of Flour | Where Arya hunts pigeons for bread crumbs | uncertain — verify |
+| Flea Bottom | Slum district where Arya has been living | No |
+| The wharfs/riverfront | Where Arya finds the Wind Witch | No |
 | Great Sept of Baelor | Site of Eddard's confession and execution | No |
-| Visenya's Hill | Hill topped by the sept plaza | No (uncertain — verify) |
-| Street of the Sisters | Route to the sept | No (uncertain — verify) |
-| Red Keep | Visible from a distance; heads rotting on walls | No |
-| Dragon Gate | Closed and barred | No (uncertain — verify) |
-| Lion Gate | Closed and barred | No (uncertain — verify) |
-| Old Gate | Closed and barred | No (uncertain — verify) |
-| Mud Gate | Open for entry only | No (uncertain — verify) |
-| Gate of the Gods | Open for entry only | No (uncertain — verify) |
-| King's Gate | Lannister-controlled exit | No (uncertain — verify) |
-| Iron Gate | Lannister-controlled exit | No (uncertain — verify) |
-| Pig Alley | Where Arya's things were stolen | No (uncertain — verify) |
+| Visenya's Hill | Hill leading to the Great Sept; white marble plaza | uncertain — verify |
+| Street of the Sisters | Route to the Great Sept | uncertain — verify |
+| Red Keep | Seen from distance; heads rotting on high red walls | No |
+| Dragon Gate | City gate — closed and barred | uncertain — verify |
+| Lion Gate | City gate — closed and barred | uncertain — verify |
+| Old Gate | City gate — closed and barred | uncertain — verify |
+| Mud Gate | City gate — open for entry only, no exit | No |
+| Gate of the Gods | City gate — open for entry only, no exit | uncertain — verify |
+| King's Gate | City gate — manned by Lannister men, searching travelers | uncertain — verify |
+| Iron Gate | City gate — manned by Lannister men, searching travelers | uncertain — verify |
+| Blackwater Rush | River; wide, deep, treacherous currents | No |
+| Pig Alley | Where Arya's silver bracelet and clothes were stolen | uncertain — verify |
+| Winterfell | Home; Arya wants to return | No |
 
 ## Location Descriptions
 | Location | Defensive Features | Architecture/Layout | Interior Details | Scale | Condition | Surrounding Terrain/Geography | Notable Sensory Details |
 |----------|--------------------|--------------------|-----------------| ------|-----------|------------------------------|------------------------|
-| King's Landing (general) | Seven city gates; city walls thick with gold cloaks; gold-cloaked spearmen hold crowd lines | | | | | The Blackwater Rush — wide and deep with wicked, treacherous currents; war galleys patrol the river | |
-| Flea Bottom | | Maze of twisting alleys and cross streets; narrow crooked unpaved streets between the hills; buildings lean in so close they almost meet in some alleys | Pot-shops along alleys with huge tubs of stew simmering | | | Between the hills | Stench of pigsties, stables, tanner's sheds; sour smell of winesinks and cheap whorehouses; bubbling brown smell from pot-shops |
-| Street of Flour | | Shops selling hot bread | | | | Downhill from approach, above Flea Bottom | Scent of hot bread "sweeter than any perfume"; blueberry, lemon, and apricot tart smells from pushcarts |
-| Great Sept of Baelor | | Seven slender towers; High Septon's pulpit outside the doors (raised marble); steps leading up to pulpit; white marble plaza in front | | Massive plaza packed with thousands | | Atop Visenya's Hill | Bells ringing from seven towers; crowd noise |
-| Statue of Baelor | | Painted marble; plinth at base large enough for a child to wedge between the king's feet | | | | In the plaza before the sept | Arya's blood smears on the painted marble |
-| The wharfs | | Fish market; piers (at least three) | | Half the stalls empty; fewer ships at dock than Arya remembers | Oddly quiet | Along the Blackwater Rush | |
-| Red Keep | High red walls visible from distance | | | | Heads rotting atop the walls; flocks of crows squabbling over each head | | |
+| King's Landing (general) | Seven city gates described with varying levels of closure and manning; city walls thick with gold cloaks | | | | | Blackwater Rush runs along the city; hills within the city (Visenya's Hill) | |
+| Flea Bottom | | Narrow crooked unpaved streets between the hills; maze of twisting alleys and cross streets; buildings lean so close they almost meet in some alleys | Pot-shops along the alleys with huge tubs of stew | | Well-named for its fleas | Between city hills | Stench of pigsties, stables, tanner's sheds, sour smell of winesinks and cheap whorehouses; bubbling brown smell from pot-shops |
+| Street of Flour | | Shops selling bread; cobblestones | | | | Above Flea Bottom (down the hill toward Flea Bottom from here) | Hot bread smell "sweeter than any perfume" |
+| Great Sept of Baelor | | Seven slender towers; marble pulpit/raised platform outside the doors; steps | | White marble plaza before it — solid mass of people | | Atop Visenya's Hill | Bells very loud; crowd noise |
+| Red Keep | High red walls | | | | Heads rotting atop the walls | Visible from distance across the city | Flocks of crows squabbling over rotting heads |
+| The wharfs | | Fish market; piers (at least three mentioned) | | Fewer ships at dock than Arya remembers; half the stalls empty | Oddly quiet | Along the Blackwater | |
 
 ## Artifacts & Objects of Significance
 | Artifact | Context | First Appearance? | Current Holder/Location |
 |----------|---------|-------------------|------------------------|
-| Needle | Arya's sword, hidden under her cloak; she draws it in the crowd; Yoren returns it to her after | No | Arya Stark → briefly lost in the crowd → returned by Yoren |
-| Ice | The Stark ancestral greatsword, used by Ser Ilyn Payne to execute Eddard; Arya recognizes it — "he has Ice!" | No | Ser Ilyn Payne (wielding it) |
-| Arya's wooden practice sword / stick sword | Used to kill pigeons; carried openly to deter robbers; slid through her belt at the sept | No | Arya Stark |
-| Silver bracelet | Stolen from Arya her first night out of the castle | No (uncertain — verify) | Stolen (unknown thief) |
-| Wind Witch | Trading galley out of Myr; the ship Eddard had hired to take Arya home; still at dock, third pier | No (uncertain — verify) | At moorings on the third pier, guarded by strangers in Winterfell colors |
+| Needle | Arya's sword, hidden under her cloak; she draws it during the execution scene; Yoren retrieves it and returns it to her | No | Arya Stark |
+| Ice | Valyrian steel greatsword of House Stark; used by Ser Ilyn Payne to execute Eddard; described as dark metal with light rippling down it, edge sharper than any razor | No | Ser Ilyn Payne (wielding it for the execution) |
+| Arya's wooden practice sword (stick sword) | Used to hunt pigeons; carried openly in left hand to deter robbers | No | Arya Stark |
+| Wind Witch | Trading galley out of Myr; the ship Eddard hired to take Arya home; still at dock with false Winterfell guardsmen | uncertain — verify | At the third pier on the wharfs |
+| Silver bracelet | Stolen from Arya her first night out of the castle, along with her bundle of good clothes | No | Stolen |
+| Joffrey's gold crown | Worn at the execution | No | Joffrey |
+| High Septon's crown | Immense crown of spun gold and crystal that wreathed his head with rainbows | No | High Septon |
 
 ## Food & Drink
 | Meal/Occasion | Food Items Described | Drink | Who Is Eating/Drinking | Where | Preparation/Presentation Notes |
 |--------------|---------------------|-------|----------------------|-------|-------------------------------|
-| Pigeon-catching | Plump speckled brown pigeon; Arya kills it with her stick sword | | Arya (intended) | Street of Flour | Caught live, neck snapped; later lost from her belt |
-| Pushcart tarts | Blueberry, lemon, and apricot tarts | | Arya wants one but cannot afford it | Street of Flour | Still warm from the oven; cost three coppers; Arya tries to trade a pigeon |
-| Bowl o' brown (general description) | Stew with barley, chunks of carrot, onion, turnip, sometimes apple; film of grease on top; once a piece of fish; unidentified meat | | Arya (regularly) | Flea Bottom pot-shops | Huge tubs simmering "for years"; trade half a bird for a heel of yesterday's bread and a bowl; they crisp the other half bird in the fire if you pluck the feathers |
-| Raw pigeon | Pigeon eaten raw | | Arya | Before finding Flea Bottom | Eaten out of desperation before she found the pot-shops |
-| Desired food | Cup of milk and a lemon cake | Milk | Arya (wished for) | | Arya would have given anything for these |
+| Arya's pigeon hunting | Plump speckled brown pigeon, caught with stick sword | | Arya (intended) | Street of Flour | Killed by snapping neck; tied to belt; lost before she could eat it |
+| Pushcart tarts (desired, not obtained) | Tarts — blueberry, lemon, apricot | | Arya wanted one but had no coppers | Street of Flour | Still warm from the oven; on a two-wheeled cart; cost three coppers |
+| Pot-shop meals (recurring) | "Bowl o' brown" — barley, chunks of carrot, onion, turnip, sometimes apple, film of grease on top; once a piece of fish; unidentified meat; half a pigeon crisped in the fire; heel of yesterday's bread | | Arya | Flea Bottom pot-shops | Trade half a pigeon for bread and a bowl; they crisp the other half if you pluck the feathers yourself; huge tubs simmering for years |
+| Desired foods | Cup of milk, lemon cake | | Arya (longing) | | Arya "would have given anything" for these |
+| Raw pigeons | Pigeons eaten raw | | Arya | Before finding Flea Bottom | Eaten before she found the pot-shops |
 
 ## Hospitality & Guest Right
 | Event | Type | Host | Guest(s) | Details |
 |-------|------|------|----------|---------|
-| Pot-shop exchange | shelter_offered | Pot-shop keepers | Arya | Arya trades half a pigeon for bread and a bowl o' brown; the shops serve anyone but patrons watch her with predatory interest — she is followed and chased after eating |
-| Pushcart refusal | refusal_to_host | Pushcart man | Arya | Refuses to trade a tart for a pigeon; threatens her with gold cloaks; calls her a "thieving little gutter rat" |
+| Pot-shop transactions | shelter_offered (informal) | Pot-shop proprietors | Arya and others | Trade pigeon for food; Arya feels watched and unsafe — people stare at her boots, cloak, and body; she is sometimes chased afterward |
+| Burnt-out house on Pig Alley | shelter (informal, violated) | None (abandoned) | Arya | Arya sleeps there; her silver bracelet and good clothes are stolen while she sleeps — violation of implicit shared shelter |
 
 ## Events & Actions
-1. **Arya catches a pigeon** — On the Street of Flour, Arya kills a plump pigeon with her stick sword, watched by a passing septon.
-2. **Arya tries to buy a tart** — She attempts to trade her pigeon for a lemon tart from a pushcart man, who refuses and threatens to call the gold cloaks.
-3. **Arya spots gold cloaks** — Two City Watch guards stand at the mouth of an alley; Arya edges away from the cart and hurries off.
-4. **Arya reflects on her situation** — She has been living in Flea Bottom since escaping the Red Keep, sleeping on rooftops and in stables, checking the seven city gates daily. All are either closed or controlled by Lannister forces.
-5. **Arya considers escape routes** — She thinks about swimming the Blackwater (too dangerous), stowing away on a ship (no coin), and surviving on the road once outside the city.
-6. **Arya moves through Flea Bottom** — She navigates the crowded, dangerous streets, recalling how her silver bracelet and good clothes were stolen, how she hides Needle under her cloak, and how the pot-shops are dangerous.
-7. **Arya remembers her siblings** — She sees children playing hoops and thinks of Bran, Jon, and Rickon with longing.
-8. **Arya heads to the riverfront** — She decides to check the Mud Gate and visit the wharfs, which are oddly quiet with fewer ships than before.
-9. **Arya discovers the Wind Witch** — She sees guardsmen in grey cloaks trimmed with white satin on the third pier and recognizes Winterfell's colors. The ship is a Myrish trading galley called the Wind Witch — the ship her father hired for her passage home.
-10. **Arya is turned away by fake Stark guards** — The three guardsmen in Winterfell colors are strangers. One calls her "boy" and tells her to leave. Arya realizes these are not her father's men.
-11. **Arya flees back to Flea Bottom** — She runs back, losing her pigeon along the way.
-12. **Bells begin to ring** — A single tower of the Great Sept of Baelor tolls summoning bells. The crowd debates what it means.
-13. **Arya learns the Hand is being taken to the sept** — A running boy tells her "they'll be taking his head off."
-14. **Arya falls and injures herself** — She trips in a rut, scrapes her knee, and tears off half her left thumbnail.
-15. **The Redwyne party rides past** — Four guardsmen in blue-and-burgundy checked cloaks and the Redwyne twins (Ser Horas and Ser Hobber) gallop past on chestnut mares.
-16. **Arya reaches the Great Sept of Baelor** — She fights through the packed crowd on Visenya's Hill and climbs the statue of Baelor the Blessed for a vantage point.
-17. **Arya sees her father on the pulpit** — Eddard Stark is held up by gold cloaks, thin and in pain, his broken leg in a grey rotten cast. She sees Joffrey, Cersei, the Hound, Kingsguard, Varys, Littlefinger (inferred), and Sansa among the assembled lords.
-18. **Eddard confesses to treason** — He publicly declares he plotted to depose Joffrey and seize the throne, and affirms Joffrey as the true heir.
-19. **The crowd throws stones** — Eddard is struck in the forehead; stones hit guards and the gold cloak commander's armor; Kingsguard shield Joffrey and Cersei.
-20. **The High Septon asks Joffrey for judgment** — He invokes the gods' justice and mercy, noting Eddard's confession.
-21. **Joffrey orders Eddard's execution** — Despite Cersei's wish to send Eddard to the Wall and Sansa's plea for mercy, Joffrey commands Ser Ilyn Payne to bring him Eddard's head.
-22. **Arya fights through the crowd** — She jumps from the statue, draws Needle, and tries to reach the pulpit, slashing at people blocking her way.
-23. **Ser Ilyn Payne executes Eddard Stark with Ice** — He draws Ice from the scabbard on his back; sunlight glints on the blade. Arya recognizes the Stark greatsword.
-24. **Yoren seizes Arya** — A hand grabs her arm; Yoren, a black brother she remembers visiting her father, pulls her away, tells her not to look, and calls her "boy."
-25. **Yoren disguises Arya** — After the plaza empties, he returns Needle to her, shoves her into a doorway, grabs her hair, and produces a knife to cut it, beginning her disguise as a boy.
+1. **Arya hunts a pigeon** — She catches a plump speckled brown pigeon on the Street of Flour using her stick sword, snaps its neck, and ties it to her belt.
+2. **Arya attempts to trade for a tart** — She offers the pigeon to a pushcart man selling tarts but is refused; she considers stealing one but spots two gold cloaks nearby and retreats.
+3. **Street rumors about Robert's death** — Arya hears conflicting stories about how King Robert died and who was responsible; all agree he is dead. The bells of the Great Sept tolled for a day and a night.
+4. **Arya surveys the city gates** — She has been checking each of the seven gates daily. Three are closed; two admit entrants only; two are manned by Lannister soldiers who search everyone leaving.
+5. **Arya considers the river** — She thinks about swimming the Blackwater Rush but it is too wide, deep, and treacherous; she has no coin for a ferry or ship.
+6. **Arya discovers the Wind Witch** — At the wharfs, she sees guardsmen in Winterfell grey-and-white and recognizes the Wind Witch, the ship her father hired. But the guardsmen are strangers; one calls her "boy" and tells her to leave.
+7. **Arya flees back to Flea Bottom** — Running back, she loses the pigeon from her belt.
+8. **Bells ring — summoning** — Bells begin ringing across the city. A boy tells Arya they are taking the Hand to the sept to take his head off.
+9. **Arya falls and injures herself** — Tripping in a street rut, she scrapes her knee, smashes her fingers, and rips off half her left thumbnail.
+10. **The Redwyne twins ride past** — Ser Horas and Ser Hobber Redwyne gallop through with four guardsmen in checked blue-and-burgundy cloaks.
+11. **Arya climbs the statue of Baelor** — She forces through the crowd to the base of Baelor's statue and climbs up between its feet to see.
+12. **Eddard's public confession** — Eddard declares himself a traitor, confesses to plotting to depose Joffrey, and acknowledges Joffrey Baratheon as the one true heir to the Iron Throne.
+13. **Crowd throws stones** — A stone gashes Eddard's forehead; more stones follow, hitting guards and the gold cloak commander's armor.
+14. **The High Septon asks Joffrey for judgment** — The High Septon kneels and asks what shall be done with the traitor.
+15. **Joffrey orders execution** — Despite Cersei bidding him to let Eddard take the black and Sansa begging for mercy, Joffrey commands Ser Ilyn Payne to bring him Eddard's head.
+16. **Ser Ilyn draws Ice** — He takes the Stark greatsword from his back scabbard and raises it; Arya recognizes the blade.
+17. **Arya leaps into the crowd** — She jumps from the statue drawing Needle, trying to fight through the crowd toward her father, slashing with the sword.
+18. **Yoren seizes Arya** — A hand grabs her arm; Yoren, the Night's Watch recruiter, forces her not to look, calling her "boy." The execution occurs — described as "a soft sighing sound, as if a million people had let out their breath at once."
+19. **Yoren returns Needle and begins disguising Arya** — He gives back the sword, shoves her into a doorway, grabs her hair, and produces a knife — beginning to cut her hair to complete the boy disguise.
 
 ## Spatial Layout & Movement
 | Phase | Who | Position / Movement | Relative To | Notes |
 |-------|-----|---------------------|-------------|-------|
-| Opening | Arya | Street of Flour, catching pigeons | Near bakeries and pushcart | Daytime foraging |
-| Patrol | Arya | Checks seven city gates daily | King's Landing perimeter | Dragon, Lion, Old Gates closed; Mud and Gate of Gods entry-only; King's and Iron Gates Lannister-controlled |
-| Advance | Arya | Moves downhill toward Flea Bottom, then to the riverfront/wharfs | Heading toward Mud Gate | Decides to check the river |
-| Arrival | Arya | Reaches the third pier; sees Wind Witch and false Stark guards | The wharfs | Approaches the guards, pretends to sell a pigeon |
-| Retreat | Arya | Flees back to Flea Bottom | From the wharfs | Loses her pigeon during the flight |
-| Advance | Arya | Follows the crowd uphill toward the Great Sept of Baelor | Street of the Sisters → Visenya's Hill | Carried by the human current |
-| Assembly | Crowd, lords, Kingsguard, gold cloaks | Packed into the white marble plaza; lords clustered at sept doors; gold-cloaked spearmen hold the line | Great Sept of Baelor plaza | Thousands present |
-| Concealment/Scout | Arya | Climbs the statue of Baelor, wedges between his feet | Center of the plaza | Blood smears on marble from torn thumbnail |
-| Confrontation | Eddard | On the High Septon's pulpit, held up by gold cloaks | Outside the sept doors, above the crowd | Confesses, then is struck by stones |
-| Advance | Arya | Jumps from statue into crowd, draws Needle, fights toward the pulpit | Moving toward the sept steps | Slashing with Needle, shoving, climbing over people |
-| Ambush | Yoren | Grabs Arya's arm from the crowd | In the press near the statue | "A hand shot out of the press and closed round her arm like a wolf trap" |
-| Dispersal | Crowd | Plaza empties after the execution | | "The press dissolved around them" |
-| Concealment | Yoren + Arya | Yoren shoves Arya into a doorway, begins cutting her hair | Off the main street | Disguising her as a boy |
+| Opening | Arya | Street of Flour, hunting pigeons | Near bread shops | On cobblestoned street |
+| Patrol | Gold cloaks (pair) | Standing at the mouth of an alley | Near pushcart | Arya spots them and retreats |
+| Advance | Arya | Moves down from Street of Flour through Flea Bottom to the wharfs | Descending the hill | Scrambling through crowds, keeping to center of streets |
+| Arrival | Arya | Reaches the wharfs and the third pier | Riverfront | Spots Winterfell-colored guardsmen and the Wind Witch |
+| Retreat | Arya | Flees back to Flea Bottom from the wharfs | Running uphill | Loses pigeon during flight |
+| Advance | Arya | Joins crowd moving up toward Great Sept of Baelor | Street of the Sisters → Visenya's Hill | Carried by the human current |
+| Assembly | Crowd, lords, Kingsguard | Packed into the white marble plaza before the Great Sept | Great Sept of Baelor | Gold-cloaked spearmen holding back the crowd |
+| Concealment/Scout | Arya | Climbs statue of Baelor the Blessed, wedges between the king's feet | Base of statue, overlooking the pulpit | Broken thumbnail leaves blood on marble |
+| Confrontation | Eddard | On the High Septon's pulpit, held up by gold cloaks | Outside the doors of the sept | Head and chest forced over the edge of the marble for execution |
+| Advance | Arya | Leaps from statue into crowd, drawing Needle, fighting toward father | Moving through packed crowd | Slashing, kicking, shoving — cannot reach the pulpit |
+| Ambush | Yoren | Grabs Arya's arm from the press | In the crowd near the statue | Forces her to look away; retrieves Needle |
+| Dispersal | Crowd | Plaza begins to empty | After execution | People drift away |
+| Concealment | Yoren, Arya | Yoren shoves Arya into a doorway | Off the plaza | Begins cutting her hair with a knife |
 
 ## Information Revealed
 | Information | How Revealed | Known To (Characters) | Known To (Reader Only?) |
 |-------------|-------------|----------------------|------------------------|
-| King Robert is dead | Street gossip; bells tolled for a day and a night | Common knowledge in King's Landing | No |
-| Multiple conflicting stories about Robert's death circulate | Arya overhears various rumors (murdered by Ned, by Renly, killed by a boar, poisoned by Varys or Cersei, died of pox, choked on a fish bone) | Common people — various contradictory beliefs | No |
-| Gold cloaks have allied with the Lannisters | Flea Bottom talk — commander made a lord with Trident lands and a council seat | Common knowledge in Flea Bottom | No |
-| Heads are rotting on the Red Keep's walls | Arya observes from a distance | Arya; visible to all | No |
-| All seven city gates are controlled or closed | Arya's daily reconnaissance | Arya | No |
-| Lannister men-at-arms search everyone leaving via King's Gate and Iron Gate | Arya observes from a rooftop | Arya | No |
+| King Robert is dead | Street rumors heard by Arya | Common knowledge in King's Landing | No |
+| The gold cloaks have sided with the Lannisters; their commander made a lord with lands on the Trident and a seat on the council | Flea Bottom gossip | Common knowledge | No |
+| Seven city gates: three closed, two entry-only, two Lannister-controlled | Arya's daily reconnaissance | Arya | No |
 | The Wind Witch is still at dock | Arya sees it at the third pier | Arya | No |
-| Strangers in Winterfell colors guard the Wind Witch | Arya approaches and does not recognize them | Arya | Yes — Arya notes they are strangers, not her father's men |
-| Eddard Stark publicly confesses to treason | He speaks from the pulpit | Everyone present | No |
-| Eddard affirms Joffrey as the one true heir | Part of his confession | Everyone present | No |
-| Cersei wanted Eddard sent to the Wall | Joffrey states "my mother bids me let Lord Eddard take the black" | Everyone present | No |
-| Sansa begged mercy for her father | Joffrey states "Lady Sansa has begged mercy for her father" | Everyone present | No |
-| Joffrey overrides both Cersei and Sansa | He orders execution despite their pleas | Everyone present | No |
-| Ser Ilyn Payne uses Ice to execute Eddard | Arya sees the greatsword — "he has Ice!" | Arya recognizes it; unclear if others do | Yes (Arya's recognition) |
-| Yoren is present in King's Landing | He seizes Arya | Arya recognizes him | No |
-| Yoren recognizes Arya despite her disguise | He calls her "boy" but clearly knows who she is | Yoren, Arya | Yes |
+| The guardsmen at the Wind Witch wear Winterfell colors but are strangers | Arya observes them | Arya | Yes — Arya doesn't understand the implication but knows the men are not her father's |
+| Eddard confesses to treason and names Joffrey the one true heir | Public confession at the Great Sept | All present | No |
+| Cersei wanted Eddard to take the black | Joffrey states this publicly | All present | No |
+| Sansa begged mercy for her father | Joffrey states this publicly | All present | No |
+| Joffrey overrules his mother and Sansa, ordering execution | Public declaration | All present | No |
+| Eddard is executed with Ice, the Stark ancestral sword | Arya witnesses from the crowd | All present | No |
+| Yoren recognizes Arya despite her disguise | He calls her "boy" but clearly knows who she is — "Remember, boy?" | Yoren, Arya | No |
 
 ## Dialogue of Note
 | Speaker | Listener | Quote/Paraphrase | Context |
 |---------|----------|------------------|---------|
-| Arya | Passing septon | "Here's the best place to find pigeon. They come for the crumbs." | After catching a pigeon on the Street of Flour |
-| Pushcart man | Arya | "The Others take your pigeon." | Refusing her trade offer |
-| Pushcart man | Arya | "You be keepin' your filthy hands off. The gold cloaks know how to deal with thieving little gutter rats, that they do." | Threatening her when he notices her sizing him up |
-| Street boy | Arya | "The gold cloaks is carryin' him to the sept." / "The Hand! They'll be taking his head off, Buu says." | Running toward the sept after the bells begin |
-| Crowd voice | Crowd | "—the King's Hand, Lord Stark. They're carrying him up to Baelor's Sept." | Overheard in the stream of people |
-| Crowd man | Crowd | "I heard he was dead." / "Past time, the traitor." | Discussing Eddard's fate |
-| Crowd man | Crowd | "I heard it was Stark killed old King Robert. Slit his throat in the woods." | False rumor about Robert's death |
-| Another crowd voice | Crowd | "That's not true, it was his own brother did him, that Renly, him with his gold antlers." | Competing rumor |
-| Defender in crowd | Others | "You shut your lying mouth, woman. You don't know what you're saying, his lordship's a fine true man." | Defending Eddard against slander |
-| Eddard Stark | The assembled crowd | "I am Eddard Stark, Lord of Winterfell and Hand of the King, and I come before you to confess my treason in the sight of gods and men." | Beginning of his public confession |
-| Eddard Stark | The assembled crowd | "I betrayed the faith of my king and the trust of my friend, Robert. I swore to defend and protect his children, yet before his blood was cold, I plotted to depose and murder his son and seize the throne for myself. Let the High Septon and Baelor the Beloved and the Seven bear witness to the truth of what I say: Joffrey Baratheon is the one true heir to the Iron Throne, and by the grace of all the gods, Lord of the Seven Kingdoms and Protector of the Realm." | Full text of his forced confession |
-| High Septon | Joffrey | "As we sin, so do we suffer. This man has confessed his crimes in the sight of gods and men, here in this holy place. The gods are just, yet Blessed Baelor taught us that they are also merciful. What shall be done with this traitor, Your Grace?" | Asking for Joffrey's judgment |
-| Joffrey | The crowd | "My mother bids me let Lord Eddard take the black, and Lady Sansa has begged mercy for her father. But they have the soft hearts of women. So long as I am your king, treason shall never go unpunished. Ser Ilyn, bring me his head!" | Ordering Eddard's execution, overruling Cersei and Sansa |
-| Fat man | Red-haired whore | "Stupid slut. The king's not dead, that's only summoning bells. One tower tolling. When the king dies, they ring every bell in the city." | Correcting the whore's assumption about the bells |
-| Red-haired whore | Fat man | "Is it the boy king that's died now? Ah, that's a boy for you, they never last long." | Speculating on the bells' meaning |
-| Yoren | Arya | "Don't look!" / "Shut your mouth and close your eyes, boy." / "Look at me. Yes, that's the way of it, at me." / "Remember, boy?" | Preventing Arya from witnessing the execution |
-| Yoren | Arya | "Know me now, do you? There's a bright boy. They're done here. You'll be coming with me, and you'll be keeping your mouth shut." | After Arya recognizes him |
+| Pushcart man | Arya | "The Others take your pigeon." | Refusing Arya's trade offer |
+| Pushcart man | Arya | "You be keepin' your filthy hands off. The gold cloaks know how to deal with thieving little gutter rats, that they do." | Threatening Arya when she considers stealing |
+| Guardsman at pier | Arya | "What do you want here, boy?" | Challenging Arya; mistakes her for a boy |
+| Boy in street | Arya | "The Hand! They'll be taking his head off, Buu says." | Telling Arya why the bells are ringing |
+| Crowd member | Another | "I heard he was dead." / "Past time, the traitor." | Discussing Eddard on the way to the sept |
+| Crowd member | Another | "I heard it was Stark killed old King Robert. Slit his throat in the woods." | False rumor about Eddard |
+| Eddard Stark | Crowd/gods | "I am Eddard Stark, Lord of Winterfell and Hand of the King, and I come before you to confess my treason in the sight of gods and men." | Beginning of forced confession |
+| Eddard Stark | Crowd/gods | "I betrayed the faith of my king and the trust of my friend, Robert… Joffrey Baratheon is the one true heir to the Iron Throne, and by the grace of all the gods, Lord of the Seven Kingdoms and Protector of the Realm." | Full false confession |
+| High Septon | Joffrey | "As we sin, so do we suffer… The gods are just, yet Blessed Baelor taught us that they are also merciful. What shall be done with this traitor, Your Grace?" | Asking for judgment after confession |
+| Joffrey | Crowd | "My mother bids me let Lord Eddard take the black, and Lady Sansa has begged mercy for her father… But they have the soft hearts of women. So long as I am your king, treason shall never go unpunished. Ser Ilyn, bring me his head!" | Ordering execution against his mother's wishes |
+| Yoren | Arya | "Don't look!" / "Shut your mouth and close your eyes, boy." | Grabbing Arya during the execution |
+| Yoren | Arya | "Know me now, do you? There's a bright boy." | After Arya recognizes him |
 | Yoren | Arya | "Hope you can use that, boy." | Returning Needle to Arya |
-| False Stark guard | Arya | "You. What do you want here, boy?" / "Get out of here." | Challenging Arya at the Wind Witch pier |
 
 ## POV Character's Internal State
-- **Emotional state:** Desperate, hungry, frightened, lonely, grief-stricken. Moves from survival-mode resourcefulness to horror and anguish at her father's confession and execution. Ends in numb shock — "Arya's life was gone."
-- **Primary preoccupation:** Escaping King's Landing. Every action is oriented toward finding a way out of the city — checking gates, considering the river, finding the Wind Witch. This gives way entirely to reaching her father once the bells ring.
-- **Key decisions made:** Decides to check the riverfront and Mud Gate; decides not to steal the tart (deterred by gold cloaks); decides to follow the crowd to the sept; decides to fight through the crowd toward her father (drawing Needle); accepts Yoren's authority and goes with him.
-- **Self-deception flags:** None observed. Arya is remarkably clear-eyed about her situation — she recognizes the false Stark guards, understands the danger of the pot-shops, and does not delude herself about her chances.
+- **Emotional state:** Desperate, hungry, lonely, frightened — escalating to horror, grief, and numbness. Arya moves from survivalist resourcefulness to absolute devastation. She cries multiple times: at seeing Winterfell colors, at her father's confession, during the execution. After the execution she is described as "numb" — "Arya's life was gone."
+- **Primary preoccupation:** Escaping King's Landing to go home; finding food; then consumed entirely by her father's fate at the sept
+- **Key decisions made:** Decides to check the riverfront/Mud Gate; decides to follow the crowd to the Great Sept; draws Needle and leaps into the crowd to try to reach her father; accepts Yoren's control after recognizing him
+- **Self-deception flags:** None observed — Arya's perceptions are direct and accurate throughout
 
 ## Relationships Observed
 | Character A | Relationship | Character B | Evidence |
 |-------------|-------------|-------------|----------|
-| Arya | daughter, desperate to save | Eddard Stark | Prays for his safety; fights through crowd to reach him; recognizes his sword Ice |
-| Arya | longing for / missing | Jon Snow | Wishes he were here to call her "little sister" and muss her hair |
-| Arya | longing for / missing | Bran Stark | Wonders if he is sad |
-| Arya | longing for / missing | Rickon Stark | Wonders how big he has grown |
-| Arya | student remembering teacher | Syrio Forel | Hears his voice in her mind — "look with your eyes"; remembers his lessons about seeing |
-| Arya | resentment/confusion toward | Sansa Stark | Scowls seeing Sansa in the crowd, wonders "what her sister was doing here, why she looked so happy"; hears Sansa scream and collapse |
-| Joffrey | overrules / defies | Cersei Lannister | Cersei wanted Eddard to take the black; Joffrey orders execution despite her wishes |
-| Joffrey | dismisses plea of | Sansa Stark | Sansa begged mercy; Joffrey dismisses her as having "the soft heart of women" |
-| Yoren | protector / rescuer of | Arya Stark | Grabs her, shields her from witnessing the execution, returns Needle, begins disguising her |
-| Yoren | known visitor to | Eddard Stark | Arya remembers "the black brother who had come to visit her father" |
-| Cersei | political ally with | Gold cloaks (City Watch) | The gold cloaks have "thrown in with the Lannisters" — their commander made a lord |
-| Ser Ilyn Payne | executioner of | Eddard Stark | Carries out Joffrey's order using Ice |
-| High Septon | defers to | Joffrey | Kneels before Joffrey; asks for his judgment |
-| Varys | protests (implied) | Joffrey | Comes "rushing over waving his arms" when Joffrey orders the execution |
-| Sansa Stark | pleads for father | Eddard Stark | Joffrey says she "begged mercy for her father"; she falls to her knees screaming |
+| Arya | daughter of, desperate to save | Eddard Stark | Prays for his safety; draws Needle and fights through crowd to reach him; sobs throughout |
+| Arya | longs for | Jon Snow | Wishes Jon were there to call her "little sister" and muss her hair |
+| Arya | worries about | Bran Stark | Wonders if Bran is sad |
+| Arya | worries about | Rickon Stark | Wonders how big Rickon has grown |
+| Arya | remembers teaching of | Syrio Forel | Recalls his words about seeing — "Look with your eyes" — applies his lessons to assess the pushcart man and the false guardsmen |
+| Arya | scowls at, puzzled by | Sansa Stark | Wonders what Sansa is doing at the sept, why she looks happy; but hears Sansa scream and sob |
+| Joffrey | overrules | Cersei Lannister | Cersei bids him let Eddard take the black; Joffrey refuses, saying women have "soft hearts" |
+| Joffrey | overrules | Sansa Stark | Sansa begs mercy; Joffrey refuses |
+| Joffrey | commands | Ser Ilyn Payne | Orders him to bring Eddard's head |
+| Ser Ilyn Payne | executes | Eddard Stark | Draws Ice and carries out the beheading |
+| Yoren | protects and disguises | Arya | Seizes her, prevents her from watching, returns Needle, begins cutting her hair |
+| Yoren | knew | Eddard Stark | "The black brother who had come to visit her father" |
+| Gold cloaks | allied with | Lannisters | Rumor that they've thrown in with the Lannisters; commander raised to a lord |
+| Sansa and Jeyne Poole | mocked | Ser Horas and Ser Hobber Redwyne | Called them "Ser Horror and Ser Slobber" |
+| High Septon | defers to | Joffrey | Kneels before Joffrey; asks him for judgment |
+| Varys | attempts to intervene | Joffrey | Rushes over waving his arms after Joffrey orders execution |
+| Cersei | attempts to intervene | Joffrey | "Even the queen was saying something to him" after he orders execution |
 
 ## Unanswered Questions
 | Question | Raised By | Context |
 |----------|-----------|---------|
-| Who are the strangers guarding the Wind Witch in Winterfell colors? | Arya's observation | Three men in grey cloaks trimmed with white satin whom Arya does not recognize — they are not her father's men |
-| What will happen to Arya now that Yoren has her? | Chapter ending | Yoren is cutting her hair and disguising her as a boy; her destination is unknown |
-| How did Robert actually die? | Conflicting street rumors | Arya hears at least six different accounts — boar while hunting, eating too much, poisoned by Varys, poisoned by Cersei, pox, fish bone |
-| Will Arya escape King's Landing? | Arya's ongoing struggle | Every gate is closed or controlled; the Wind Witch is guarded by strangers |
-| What happened to the rest of the Stark household? | Implicit | Heads are rotting on the Red Keep walls; Arya's people are dead or scattered |
+| Who are the strangers in Winterfell colors guarding the Wind Witch? | Arya's observation | She knows all her father's men; these three are not among them — the ship is compromised |
+| What will happen to Arya now that Yoren has taken her? | Chapter ending | Yoren is cutting her hair, disguising her as a boy; the chapter ends mid-action |
+| How did Robert actually die? | Conflicting rumors | Multiple contradictory accounts circulate in Flea Bottom — boar, poison, pox, choking, murder by Eddard or Renly |
+| Why did Eddard confess? | Implied | He publicly confesses to treason, but Arya knows he is not a traitor; was he promised mercy? |
+| Who is the gold cloak commander who has been raised to a lord? | Flea Bottom gossip | Given lands on the Trident and a seat on the king's council |
+| Who is the short man with the silvery cape and pointed beard? | Arya's observation | She thinks he might be the one who fought a duel for her mother, but is not certain |
 
 ## Raw Entity List
+
 ### Characters
-Arya Stark, Eddard Stark, Joffrey Baratheon, Cersei Lannister, Sansa Stark, Sandor Clegane (the Hound), Varys, Ser Ilyn Payne, the High Septon, Yoren, Ser Horas Redwyne, Ser Hobber Redwyne, Syrio Forel (referenced), King Robert Baratheon (referenced, dead), Lord Renly Baratheon (referenced), Bran Stark (referenced), Jon Snow (referenced), Rickon Stark (referenced), Jeyne Poole (referenced), Old Nan (referenced), Littlefinger/Petyr Baelish (inferred — "the short man with the silvery cape and pointed beard"), the pushcart man, the passing septon, the fat man (pot-shop), the red-haired whore, the old woman, the street boy, the longshoreman, the tanner's boy (referenced), "Buu" (referenced)
+Arya Stark, Eddard Stark, Joffrey Baratheon, Cersei Lannister, Sansa Stark, Sandor Clegane (the Hound), Varys, Ser Ilyn Payne, Yoren, the High Septon, Ser Horas Redwyne, Ser Hobber Redwyne, Syrio Forel (referenced), Robert Baratheon (referenced, dead), Renly Baratheon (referenced), Bran Stark (referenced), Jon Snow (referenced), Rickon Stark (referenced), Old Nan (referenced), Jeyne Poole (referenced), Littlefinger (implied — "short man with silvery cape and pointed beard who fought a duel for Mother"), gold cloak commander at the sept (stout man in black-and-gold armor), passing septon, pushcart man, longshoreman, tanner's boy (mentioned), fat man at pot-shop, old woman in street, red-haired whore, Buu (mentioned — a boy who says they'll take the Hand's head)
 
 ### Locations
-King's Landing, Flea Bottom, Street of Flour, Street of the Sisters, Visenya's Hill, Great Sept of Baelor, the wharfs/riverfront, the Blackwater Rush, the Red Keep, Pig Alley, Dragon Gate, Lion Gate, Old Gate, Mud Gate, Gate of the Gods, King's Gate, Iron Gate, Winterfell (referenced), the Trident (referenced), Myr (referenced — origin of the Wind Witch)
+King's Landing, Flea Bottom, Street of Flour, the wharfs/riverfront, Great Sept of Baelor, Visenya's Hill, Street of the Sisters, Red Keep, Dragon Gate, Lion Gate, Old Gate, Mud Gate, Gate of the Gods, King's Gate, Iron Gate, Blackwater Rush, Pig Alley, Winterfell (referenced), the Trident (referenced)
 
-### Artifacts
-Needle (Arya's sword), Ice (Stark ancestral greatsword — used by Ser Ilyn Payne), Arya's wooden practice sword/stick sword, the Wind Witch (Myrish trading galley), silver bracelet (stolen), the High Septon's crown of spun gold and crystal, Joffrey's gold crown
+### Houses
+House Stark, House Lannister, House Baratheon, House Redwyne
 
-### Houses/Factions
-House Stark, House Lannister, House Baratheon, the City Watch (gold cloaks), the Kingsguard, the Night's Watch, House Redwyne, the Faith of the Seven (the High Septon)
+### Factions & Organizations
+City Watch (gold cloaks), Kingsguard, Night's Watch, the king's council (small council)
+
+### Religions & Faiths
+The Faith of the Seven (the Great Sept of Baelor, the High Septon, Blessed Baelor, the Seven invoked as witnesses), the gods (invoked generically by Arya and others)
+
+### Cultures & Peoples
+Myrish (Wind Witch is out of Myr), Braavosi (Arya considers the ship name might be Braavosi), Valyrian (Arya considers the name might be High Valyrian)
+
+### Artifacts & Objects
+Needle (Arya's sword), Ice (Valyrian steel greatsword of House Stark, used as execution sword), Arya's wooden practice sword (stick sword), Wind Witch (trading galley out of Myr), silver bracelet (stolen from Arya), High Septon's crown of spun gold and crystal, Joffrey's gold crown, iron cudgel (gold cloak weapon)
+
+### In-world Texts & Songs
+None
+
+### Magic & Phenomena
+None
+
+### Wars & Conflicts
+None named explicitly, though talk of war is on every lip and gold cloaks man the walls
+
+### Titles & Offices
+King (Joffrey Baratheon), Queen (Cersei Lannister — queen mother), Hand of the King (Eddard Stark's title, used in his confession), Lord of Winterfell (Eddard's title), King's Justice (Ser Ilyn Payne's office), Lord of the Seven Kingdoms and Protector of the Realm (Joffrey's title per Eddard's confession), High Septon
+
+### Other
+None

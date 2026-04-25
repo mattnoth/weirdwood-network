@@ -7,228 +7,254 @@
 - **pov_chapter_number:** Eddard I
 - **first_available:** AGOT Eddard I
 - **location_primary:** Winterfell
-- **location_secondary:** Winterfell crypts
-- **approximate_timeline:** Day of the royal party's arrival at Winterfell
-- **time_markers:** "They had been riding since dawn" (the royal party); fifteen years since Robert and Ned rode to win the throne; nine years since Ned last saw Robert during Balon Greyjoy's rebellion; Brandon died "a few short days" before his wedding; "a fortnight" between Jon Arryn appearing healthy at the tourney and his death; Robert Arryn is six years old; Sansa is eleven; Lyanna was sixteen when she died; Brandon was twenty when he died
-- **chapter_summary:** King Robert Baratheon arrives at Winterfell with a large royal procession. Ned greets the king and queen, then Robert immediately asks to visit the crypts to pay respects to Lyanna Stark. In the crypts, Robert and Ned discuss Lyanna, Rhaegar's death, Jon Arryn's sudden illness and death, Lysa Arryn's flight to the Eyrie with her son, and the question of who will ward young Robert Arryn. Robert offers Ned the position of Hand of the King and proposes a betrothal between Joffrey and Sansa. Ned asks for time to consider.
+- **location_secondary:** Winterfell crypts, King's Landing (mentioned), the Eyrie (mentioned), Storm's End (mentioned), Casterly Rock (mentioned), Highgarden (mentioned), the Trident (mentioned), Riverrun (mentioned), Pyke (mentioned)
+- **approximate_timeline:** Early in the book; King Robert arrives at Winterfell after a long journey from King's Landing
+- **time_markers:** "riding since dawn" (the royal party); "fifteen years past" since Robert and Ned rode to win the throne; "nine years before" since Ned last saw Robert (during Greyjoy's rebellion); "a fortnight later" Jon Arryn was dead after a tourney on Joffrey's name day; Brandon died "a few short days before" his planned wedding; Lyanna was sixteen when she died
+- **chapter_summary:** King Robert Baratheon arrives at Winterfell with a large royal procession including the queen and her children, the Kingsguard, and Lannister retainers. After brief formalities, Robert insists on visiting the crypts to pay respects at Lyanna Stark's tomb. In the crypts, Robert and Ned reminisce about Lyanna and Rhaegar's death at the Trident. Robert reveals that Jon Arryn died suddenly, discusses Lysa Arryn's flight to the Eyrie with her son, and then offers Ned the position of Hand of the King. Robert also proposes a betrothal between his son Joffrey and Ned's daughter Sansa. Ned asks for time to consider, feeling a deep sense of foreboding.
 
 ## Physical Environment
-- **Weather:** Northern wind blowing; late summer snows on the ground; cold enough for snow
-- **Season indicators:** Late summer; Robert mentions summer in the south before it flees; late summer snows described as "common enough"
-- **Time of day:** Daytime arrival (the royal party had been riding since dawn)
-- **Lighting:** Lantern light in the crypts; flickering light touching stones and pillars; darkness of the crypt beyond the lantern's reach
-- **Sounds:** Footsteps ringing off stones and echoing in the vault overhead; Robert's laughter echoing through the darkness and rattling among the tombs
+- **Weather:** Late summer snows falling; northern wind blowing; cold enough for snow on the ground
+- **Season indicators:** Late summer; Robert mentions wanting Ned to "taste summer before it flees"; summer snows described as "common enough"
+- **Time of day:** Daytime arrival (the party had been "riding since dawn"); the crypt visit follows immediately after arrival
+- **Lighting:** Lantern light in the crypts; flickering light touching stones; darkness of the crypt beyond the lantern's reach; red lantern light on Robert's face
+- **Sounds:** Footsteps ringing off stones and echoing in the vault overhead; Robert's laughter echoing through the darkness; Robert's roar of greeting; banners whipping in the wind
 - **Smells:** Blood and roses in Ned's memory of Lyanna's death room
-- **Notable sensory details:** Chill coming up the crypt stairs described as "a cold breath from deep within the earth"; subterranean cold ("it was always cold down here"); Ned kneels in the snow to kiss the queen's ring; bone-crunching force of Robert's hug
+- **Notable sensory details:** Chill coming up the crypt stairs described as "a cold breath from deep within the earth"; bone-crunching force of Robert's hug; subterranean cold of the crypt ("It was always cold down here"); Robert breathing heavily after descending the stairs; rough stone of Lyanna's tomb effigy
 
 ## Characters Present
 | Character | Role in Chapter | First Appearance? | Notes |
 |-----------|----------------|-------------------|-------|
-| Eddard (Ned) Stark | POV character, host to the king | uncertain — verify | Lord of Winterfell |
+| Eddard (Ned) Stark | POV character, host | uncertain — verify | Lord of Winterfell, receives Robert |
 | Robert Baratheon | King, primary interlocutor | uncertain — verify | Arrives at Winterfell with royal procession |
-| Cersei Lannister | Queen, briefly present | uncertain — verify | Enters on foot with younger children; protests the crypt visit |
-| Jaime Lannister | Kingsguard, briefly present | uncertain — verify | Takes Cersei by the arm to quiet her |
-| Sandor Clegane | Member of royal procession | uncertain — verify | Identified by his burned face |
-| Joffrey Baratheon | Crown prince, briefly present | uncertain — verify | Described as "the tall boy" beside Sandor |
-| Tyrion Lannister | Member of royal procession | uncertain — verify | Described as "that stunted little man" — the Imp |
-| Catelyn Stark | Ned's wife, briefly present | uncertain — verify | Robert embraces her; mentioned in dialogue |
+| Cersei Lannister | Queen, briefly present | uncertain — verify | Enters on foot with younger children; protests crypt visit |
+| Jaime Lannister | Kingsguard knight, briefly present | uncertain — verify | Golden-haired; takes Cersei by the arm to quiet her |
+| Sandor Clegane | Member of royal party | uncertain — verify | Has a terrible burned face |
+| Joffrey Baratheon | Crown prince, briefly present | uncertain — verify | Described as "the tall boy" beside Sandor Clegane |
+| Tyrion Lannister | Member of royal party | uncertain — verify | Described as "that stunted little man"; called "the Imp" |
+| Catelyn Stark | Ned's wife, briefly present | uncertain — verify | Robert embraces her; mentioned in later dialogue |
 
 ## Character Appearances
 | Character | Hair | Eyes | Build/Height | Scars/Marks | Clothing/Armor | Weapons Worn | Distinguishing Features | Age (if stated) |
 |-----------|------|------|-------------|-------------|----------------|-------------|------------------------|-----------------|
-| Jaime Lannister | "bright as beaten gold" | | | | | | | |
-| Sandor Clegane | | | | "terrible burned face" | | | | |
-| Joffrey Baratheon | | | "the tall boy" | | | | | |
-| Tyrion Lannister | | | "stunted little man" | | | | | |
-| Robert Baratheon (past, 15 years ago) | | "clear-eyed" | Six and a half feet tall; "muscled like a maiden's fantasy" | | Great antlered helmet of his House | Spiked iron warhammer | Clean-shaven; smell of leather and blood clung to him | |
-| Robert Baratheon (present) | | Dark circles under his eyes | Massive; gained at least eight stone since Greyjoy's rebellion; huge girth | | | | Beard "as coarse and black as iron wire" covering jaw, hiding double chin and sagging jowls; large stomach; face red from exertion; breathing heavily; smile "a flash of white teeth in the thicket of the huge black beard"; massive arm | |
+| Robert Baratheon (past) | | clear-eyed | clean-shaven, muscled like a maiden's fantasy, six and a half feet tall | | armor with great antlered helmet of his House | spiked iron warhammer | towered over lesser men; smell of leather and blood clung to him | |
+| Robert Baratheon (present) | | dark circles under eyes | girth to match his height; gained at least eight stone since Greyjoy's rebellion; massive arm | | | | beard as coarse and black as iron wire covering jaw to hide double chin and sag of royal jowls; huge stomach; white teeth in thicket of huge black beard; face red from exertion; breathing heavily | |
+| Jaime Lannister | bright as beaten gold | | | | | | | |
+| Sandor Clegane | | | | terrible burned face | | | | |
+| Joffrey Baratheon | | | tall boy | | | | | |
+| Tyrion Lannister | | | stunted little man | | | | | |
 | Eddard Stark | | | | | | | "frozen face" (Robert's description) | |
+| Rhaegar Targaryen (in memory) | | | | | armored all in black; breastplate with three-headed dragon wrought in rubies | | | |
+| Brandon Stark (tomb) | | | | | | | | twenty when he died |
+| Lyanna Stark (tomb/memory) | | | | | | | surpassing loveliness; "more beautiful than that" per Robert | sixteen when she died |
+| Rickard Stark (tomb) | | | | | | stone sword across his lap | long, stern face | |
 
 ## Characters Referenced
 | Character | Context of Reference | Referenced By |
 |-----------|---------------------|---------------|
-| Lyanna Stark | Dead sister of Ned; Robert's intended bride; buried in the crypts; died at sixteen; Ned was with her when she died | Ned (memory), Robert (dialogue) |
-| Rickard Stark | Ned's father; tomb in the crypts with long stern face; stone likeness holds sword | Ned (observation in crypts) |
-| Brandon Stark (elder) | Ned's brother; died at twenty; strangled by order of the Mad King; was to wed Catelyn Tully; was the true heir | Ned (memory) |
-| Aerys Targaryen (the Mad King) | Ordered Brandon's strangling; Rickard forced to watch | Ned (memory) |
-| Rhaegar Targaryen | Killed by Robert at the Trident; Robert vows he killed him; wore black armor with three-headed dragon in rubies | Robert (dialogue), Ned (memory) |
-| Jon Arryn | Recently dead; served as Lord of the Eyrie, Warden of the East, Hand of the King; sickened quickly — "a fortnight" from healthy to dead; sickness "like a fire in his gut" | Robert (dialogue) |
-| Lysa Arryn | Jon Arryn's widow; taken her son to the Eyrie against Robert's wishes; refused Tywin's fostering offer; fled in the dead of night | Robert (dialogue), Ned (dialogue) |
-| Robert Arryn | Jon Arryn's son; six years old; sickly; Lord of the Eyrie; Robert's namesake; Robert wanted him fostered with Tywin Lannister | Robert (dialogue), Ned (dialogue) |
-| Tywin Lannister | Lord who Robert wanted to foster Robert Arryn; had given consent; had never taken a ward before | Robert (dialogue), Ned (internal) |
-| Balon Greyjoy | Rebel lord; self-proclaimed King of the Iron Islands; surrendered to Robert at his fallen stronghold nine years ago | Ned (memory) |
-| Theon Greyjoy | Balon's son; taken by Ned as hostage and ward after the rebellion | Ned (memory) |
-| Benjen Stark | Ned's brother; at the Wall; Ned begins to relay his views on the Night's Watch | Ned (dialogue) |
-| Sansa Stark | Ned's daughter; eleven years old; Robert proposes her betrothal to Joffrey | Robert (dialogue), Ned (dialogue) |
+| Jon Arryn | Recently deceased former Hand of the King; served as Lord of the Eyrie, Warden of the East, Hand of the King; sickened quickly after a tourney on Joffrey's name day; "a fire in his gut" burned through him | Robert, Ned |
+| Lysa Arryn | Jon Arryn's widow; has taken her son back to the Eyrie against Robert's wishes; refused to foster her son with Tywin Lannister; left King's Landing in the dead of night | Robert |
+| Robert Arryn | Jon Arryn's son; six years old; sickly; Lord of the Eyrie; Robert's namesake | Robert |
+| Tywin Lannister | Lord Tywin; Robert had hoped to foster Robert Arryn with him at Casterly Rock; "never taken a ward before"; has already given his consent | Robert |
+| Balon Greyjoy | Self-proclaimed King of the Iron Islands; his rebellion was nine years ago; surrendered to Robert at his fallen stronghold | Ned (memory) |
+| Theon Greyjoy | Balon's son; taken by Ned as hostage and ward after Greyjoy's rebellion | Ned (memory) |
+| Rhaegar Targaryen | Killed by Robert at the Trident; Robert vowed to kill him for what he did to Lyanna; armored in black with ruby dragon on breastplate; Robert dreams of killing him every night | Robert, Ned (memory) |
+| Aerys Targaryen | "The Mad King"; ordered Brandon Stark strangled; forced Rickard Stark to watch | Ned (memory) |
+| Sansa Stark | Ned's daughter; Robert proposes betrothal to Joffrey; eleven years old | Robert, Ned |
+| Benjen Stark | Ned's brother; at the Wall; Ned begins to quote him about the Night's Watch | Ned |
 | Howland Reed | "The little crannogman"; took Lyanna's hand from Ned's after her death | Ned (memory) |
-| Catelyn Tully | Referenced as Brandon's intended bride (maiden name used) | Ned (memory) |
+| Catelyn Tully | Referenced as Brandon's intended bride before his death; "Catelyn Tully of Riverrun" | Ned (memory) |
+| Lyanna Stark | Ned's sister; died at sixteen; Robert's intended bride; Ned was with her when she died; room smelled of blood and roses; said "Promise me, Ned"; rose petals spilling from her palm, dead and black | Ned (memory), Robert |
+| Brandon Stark | Ned's brother; the true heir, the eldest, born to rule; strangled by order of Aerys; was twenty; entombed beside father | Ned (memory) |
+| Rickard Stark | Ned's father; forced to watch Brandon die; entombed in the crypts; stonemason knew him well | Ned (memory) |
 
 ## Locations
 | Location | Role | First Appearance? |
 |----------|------|-------------------|
-| Winterfell | Primary setting; castle where royal party arrives | uncertain — verify |
+| Winterfell | Primary setting; Ned's seat; where the royal party arrives | uncertain — verify |
 | Winterfell crypts | Scene of Ned and Robert's private conversation | uncertain — verify |
-| Storm's End | Robert's seat, mentioned in passing | uncertain — verify |
-| The Eyrie | Seat of House Arryn; where Lysa fled with her son | uncertain — verify |
-| Casterly Rock | Tywin Lannister's seat; proposed fostering location | uncertain — verify |
 | King's Landing | Seat of the Iron Throne; where Robert wants Ned to come | uncertain — verify |
-| The Trident (ford) | Site of Robert's killing of Rhaegar | uncertain — verify |
-| The Iron Islands | Balon Greyjoy's domain | uncertain — verify |
-| Highgarden | Mentioned by Robert for its golden roses and summer bounty | uncertain — verify |
-| The Wall | Mentioned by Ned; where Benjen serves | uncertain — verify |
-| The Neck | Geographic reference; Robert notes scarcely a decent inn north of it | uncertain — verify |
-| Riverrun | Referenced as Catelyn Tully's origin | uncertain — verify |
+| The Eyrie | Seat of House Arryn; where Lysa has taken Robert Arryn | uncertain — verify |
+| Storm's End | Robert's former seat as Lord of Storm's End | uncertain — verify |
+| Casterly Rock | Seat of House Lannister; where Robert wanted to foster Robert Arryn | uncertain — verify |
+| The Trident | Site of Robert's battle with Rhaegar | uncertain — verify |
+| Highgarden | Mentioned by Robert for its golden roses and beauty | uncertain — verify |
+| Riverrun | Catelyn Tully's family seat | uncertain — verify |
+| The Wall | Where Benjen serves; Night's Watch garrison | uncertain — verify |
+| The Neck | Geographic boundary; "scarcely a decent inn north of the Neck" | uncertain — verify |
+| Iron Islands | Balon Greyjoy's domain | uncertain — verify |
+| Pyke | Greyjoy's fallen stronghold (inferred) | uncertain — verify |
 
 ## Location Descriptions
 | Location | Defensive Features | Architecture/Layout | Interior Details | Scale | Condition | Surrounding Terrain/Geography | Notable Sensory Details |
 |----------|--------------------|--------------------|-----------------| ------|-----------|------------------------------|------------------------|
-| Winterfell | Castle gates (too narrow for the royal wheelhouse) | | | | | Snow on the ground | |
-| Winterfell crypts | | Winding narrow stone steps descending; long procession of granite pillars marching two by two into the dark; vaulted ceiling; tombs along walls with stone thrones for the dead; sepulchres behind the seated figures; tombs continue beyond occupied ones into empty, unsealed black holes | Stone figures of Lords of Winterfell carved into tomb-sealing stones; great stone direwolves curled at the feet of the figures; iron longswords laid across each Lord's lap by ancient custom (oldest rusted to red stains); Rickard Stark's likeness has a long stern face with stone fingers gripping sword | Long enough that occupied tombs end and empty ones stretch into further darkness | Oldest swords rusted away entirely | Below Winterfell, reached by narrow winding stairs | Always cold; cold breath rising from deep in the earth; chill silence; footsteps ring off stones and echo in vault; darkness beyond lantern light; shifting shadows make stone figures seem to stir |
+| Winterfell | Castle gates too narrow for the royal wheelhouse to pass through | | | | | | |
+| Winterfell crypts | | Winding narrow stone steps descending deep underground; long procession of granite pillars marching two by two into darkness; tombs with stone thrones along the walls against sepulchres; vaulted ceiling | Stone figures carved as likenesses of the entombed Lords of Winterfell with blind eyes staring into darkness; great stone direwolves curled round their feet; iron longswords laid across the laps of each Lord of Winterfell by ancient custom (oldest rusted away to red stains); empty unsealed tombs beyond the occupied ones, waiting | Long procession of pillars stretching into darkness; tombs extend well beyond the current dead | Oldest swords rusted to nothing; ancient custom maintained | Deep underground beneath Winterfell | Cold breath from deep within the earth; subterranean chill ("always cold down here"); footsteps ringing off stones and echoing in the vault; flickering lantern light making shadows move and stone figures seem to stir; darkness beyond the lantern's reach |
 
 ## Artifacts & Objects of Significance
 | Artifact | Context | First Appearance? | Current Holder/Location |
 |----------|---------|-------------------|------------------------|
-| Iron longswords (crypt) | Laid across the laps of the Lords of Winterfell by ancient custom to keep vengeful spirits in their crypts; oldest rusted away | uncertain — verify | Winterfell crypts |
-| Robert's spiked iron warhammer | His weapon of choice in the past; Ned could scarcely lift it; used to kill Rhaegar at the Trident | uncertain — verify | Robert Baratheon (presumably) |
-| Great antlered helmet | Robert's helm, worn in battle; referenced in memory of past Robert and at the Trident | uncertain — verify | Robert Baratheon (presumably) |
-| Royal wheelhouse | Huge double-decked carriage of oiled oak and gilded metal, pulled by forty heavy draft horses; too wide to pass through Winterfell's castle gate | uncertain — verify | Royal party at Winterfell |
-| Rhaegar's ruby-studded breastplate | Black armor with three-headed dragon wrought in rubies; rubies flashed like fire; knocked free and scattered in the Trident's waters; men of both armies scrabbled for them | uncertain — verify | Destroyed/scattered at the Trident |
-| Golden banners of Baratheon | A dozen, emblazoned with the crowned stag, whipping in the northern wind | uncertain — verify | Royal procession |
-| Oil lantern | Carried by Ned to light the crypts | No | Ned, in the crypts |
+| Iron longswords | Laid across the laps of each Lord of Winterfell by ancient custom to keep vengeful spirits in their crypts; oldest have rusted away | uncertain — verify | Winterfell crypts |
+| Robert's spiked iron warhammer | Robert's weapon of choice; Ned could scarcely lift it; used to kill Rhaegar at the Trident | uncertain — verify | Robert Baratheon |
+| Great antlered helmet | Robert's helm bearing the antlers of House Baratheon; worn at the Trident | uncertain — verify | Robert Baratheon |
+| Rhaegar's ruby-studded breastplate | Black armor with three-headed dragon of House Targaryen wrought in rubies; rubies knocked free into the Trident during the battle | uncertain — verify | Destroyed at the Trident |
+| Royal wheelhouse | Huge double-decked carriage of oiled oak and gilded metal, pulled by forty heavy draft horses; too wide to pass through Winterfell's gate | Yes (uncertain — verify) | Cersei Lannister / royal party |
+| Iron Throne | The throne Robert sits; "damnable iron chair" | uncertain — verify | King's Landing |
+| Lyanna's tomb effigy | Stone likeness; Robert says she was more beautiful than the carving | uncertain — verify | Winterfell crypts |
+| Oil lantern | Ned carries it to light the way through the crypts | No | Ned Stark |
 
 ## Food & Drink
 | Meal/Occasion | Food Items Described | Drink | Who Is Eating/Drinking | Where | Preparation/Presentation Notes |
 |--------------|---------------------|-------|----------------------|-------|-------------------------------|
-| Robert's description of southern bounty | Melons, peaches, fireplums ("fruits so ripe they explode in your mouth"); golden roses of Highgarden; markets bursting with food | Summerwines ("so cheap and so good that you can get drunk just breathing the air") | Described generally, not a specific meal | The south (Highgarden, Storm's End) | Robert says he brought some fruit for Ned |
-| Refreshment upon arrival (proposed) | | | | Winterfell | Cersei suggests they should "refresh themselves first" before visiting the crypts; this meal does not occur in the chapter |
+| Robert's description of southern bounty | melons, peaches, fireplums; fruits so ripe they explode in your mouth; markets bursting with food; golden roses of Highgarden | summerwines so cheap and good "you can get drunk just breathing the air" | Robert describing (not eating) | South — Highgarden, Storm's End (described) | Robert says he brought some southern fruits for Ned |
 
 ## Hospitality & Guest Right
 | Event | Type | Host | Guest(s) | Details |
 |-------|------|------|----------|---------|
-| Royal arrival at Winterfell | shelter_offered | Eddard Stark | Robert Baratheon, Cersei Lannister, royal procession | Ned kneels and says "Winterfell is yours"; formal greeting with children introduced and approved |
-| Ned kneels to kiss queen's ring | feast_given | Eddard Stark | Cersei Lannister | Ned kneels in the snow to kiss the queen's ring — formal gesture of hospitality and deference |
-| Ned offers to ward Robert Arryn | shelter_offered | Eddard Stark | Robert Arryn (proposed) | Ned offers to take Robert Arryn as ward; Robert declines, saying Tywin has already consented |
+| Royal arrival at Winterfell | shelter_offered | Eddard Stark | Robert Baratheon, Cersei Lannister, royal party | "Winterfell is yours" — formal greeting of the king by his host; Ned kneels to kiss the queen's ring; children introduced and approved by both sides |
+| Fostering dispute — Robert Arryn | refusal_to_host | Tywin Lannister (proposed) | Robert Arryn (proposed ward) | Lysa refused to foster her son with Tywin at Casterly Rock; Ned offers to take Robert Arryn as ward instead; Robert says Tywin has already consented and fostering elsewhere would be "a grievous affront" |
 
 ## Events & Actions
-1. **Royal procession arrives at Winterfell** — Three hundred strong pour through the castle gates with golden Baratheon banners; Ned recognizes Jaime Lannister, Sandor Clegane, Joffrey, and Tyrion among the riders.
-2. **Robert greets Ned** — Robert vaults from his warhorse, crushes Ned in a hug, and declares it good to see him. Ned is shocked by how much Robert has changed physically.
-3. **Cersei arrives on foot** — The queen enters with her younger children because the wheelhouse is too wide for the castle gate. Ned kneels to kiss her ring. Robert embraces Catelyn. Children are introduced.
-4. **Robert asks to visit the crypts** — Immediately after formal greetings, Robert asks to pay respects to Lyanna. Cersei protests, wanting to rest first; Jaime takes her by the arm and she says no more.
-5. **Ned and Robert descend to the crypts** — Ned leads with a lantern down narrow winding stairs. They discuss the journey, the vastness and emptiness of the north, late summer snows.
-6. **Robert describes the south** — Robert extols the pleasures of the south: Highgarden's roses, fruits, summerwines, the heat, the women. He says he brought Ned some of the fruit.
-7. **They reach Lyanna's tomb** — Ned shows Robert the three tombs of Rickard, Brandon, and Lyanna. Robert kneels and bows his head in silence.
-8. **Robert mourns Lyanna** — Robert says the statue doesn't do her justice, wishes she were buried somewhere with sunlight. Ned recalls her death — a room smelling of blood and roses, her whispered plea "Promise me, Ned," rose petals spilling from her palm. Howland Reed had to take her hand from Ned's.
-9. **Robert vows about Rhaegar** — Robert says he vowed to kill Rhaegar and dreams of killing him every night. Ned recalls the battle at the Trident — Robert's hammer crushing Rhaegar's ruby-studded breastplate, men scrabbling for rubies in the water.
-10. **Discussion of Jon Arryn's death** — Robert describes Jon Arryn's rapid decline: healthy at a tourney for Joffrey's name day, dead a fortnight later from a sickness "like a fire in his gut."
-11. **Discussion of Lysa Arryn and Robert Arryn** — Robert reveals Lysa has fled to the Eyrie with her son against his wishes. He had wanted the boy fostered with Tywin Lannister. Ned offers to ward the boy instead; Robert says it's too late, Tywin has already consented.
-12. **Robert offers Ned the position of Hand of the King** — Robert says he needs Ned, describes the misery of ruling, and formally offers the Handship. Ned kneels, says he is not worthy.
-13. **Robert proposes the Joffrey-Sansa betrothal** — Robert suggests joining their houses through Joffrey and Sansa, as he and Lyanna might have done. Ned is surprised, notes Sansa is only eleven. Robert says old enough for betrothal.
-14. **Ned asks for time** — Ned asks to consider the offers and tell Catelyn. Robert agrees but urges him not to wait long.
-15. **Ned feels foreboding** — Standing among the tombs, Ned is filled with a sense of foreboding. He feels this is his place, in the north, and senses the dead watching.
+1. **Royal procession arrives at Winterfell** — Three hundred strong, with golden Baratheon banners, knights, sworn swords, and freeriders pour through the castle gates.
+2. **Ned recognizes members of the party** — He identifies Jaime Lannister, Sandor Clegane, Prince Joffrey, and Tyrion Lannister among the riders.
+3. **Robert greets Ned** — Robert vaults off his warhorse and crushes Ned in a hug, commenting that Ned hasn't changed. Ned privately notes how much Robert has changed — grown enormously fat.
+4. **Cersei and children arrive on foot** — The queen enters with her younger children because the wheelhouse is too wide for the castle gate. Ned kneels to kiss her ring; Robert embraces Catelyn.
+5. **Robert demands to visit the crypts** — Immediately after formalities, Robert insists on going to the crypts to pay respects to Lyanna. Cersei protests; Jaime takes her arm to quiet her.
+6. **Ned and Robert descend into the crypts** — Ned leads with a lantern down the winding narrow steps. They pass the stone Lords of Winterfell with their iron swords and stone direwolves.
+7. **Robert pays respects at Lyanna's tomb** — They stop at the three tombs of Rickard, Brandon, and Lyanna Stark. Robert kneels and bows his head. He says the effigy doesn't do her justice.
+8. **Ned remembers Lyanna's death** — He recalls being with her when she died in a room smelling of blood and roses, her whispering "Promise me, Ned," rose petals falling from her palm. Howland Reed took her hand from Ned's.
+9. **Robert recalls killing Rhaegar** — He touches Lyanna's stone cheek, says he vowed to kill Rhaegar. Ned remembers the battle at the Trident — Robert's hammer crushing through Rhaegar's ruby breastplate. Robert says he kills Rhaegar in his dreams every night.
+10. **Robert tells Ned about Jon Arryn's death** — Jon sickened quickly; looked healthy at a tourney for Joffrey's name day but was dead a fortnight later. The sickness burned through him like fire in his gut.
+11. **Robert discusses Lysa Arryn's flight** — Lysa took her son to the Eyrie against Robert's wishes. Robert had wanted to foster the boy with Tywin Lannister. Lysa refused and left in the night.
+12. **Ned offers to take Robert Arryn as ward** — Robert declines, saying Tywin has already consented and fostering elsewhere would affront him.
+13. **Robert strips the Warden of the East title from Robert Arryn** — He says a six-year-old cannot hold the east. Ned protests that the title belongs to House Arryn. Robert says perhaps it can be restored when the boy comes of age.
+14. **Robert offers Ned the position of Hand of the King** — He describes the misery of ruling and says he needs Ned at his side. Ned kneels but says he is not worthy.
+15. **Robert proposes betrothal of Joffrey and Sansa** — He says they were meant to rule together and their children should join the houses as Robert and Lyanna might once have done. Ned is surprised; Sansa is only eleven. Robert says old enough for betrothal.
+16. **Ned asks for time to consider** — Robert agrees but tells Ned not to keep him waiting. Ned is filled with a terrible sense of foreboding.
 
 ## Spatial Layout & Movement
 | Phase | Who | Position / Movement | Relative To | Notes |
 |-------|-----|---------------------|-------------|-------|
-| Arrival | Royal procession (300 strong) | Pour through the castle gates | Winterfell | River of gold, silver, polished steel |
-| Arrival | Robert Baratheon | At head of column, flanked by two Kingsguard | Winterfell gates | Vaults off warhorse to greet Ned |
-| Arrival | Cersei Lannister | Enters on foot with younger children | Winterfell gates | Wheelhouse too wide for the gate |
-| Departure | Ned and Robert | Descend winding narrow stone stairs | Winterfell → crypts | Ned leads with lantern; Robert follows |
-| Advance | Ned and Robert | Walk between granite pillars, two by two | Winterfell crypts | Past the stone thrones of dead Starks |
-| Arrival | Ned and Robert | Stop at Lyanna's tomb | End of occupied tombs | Three tombs: Rickard, Brandon, Lyanna; empty tombs beyond |
-| Departure | Ned and Robert | Start back up between the pillars | Crypts → Winterfell | Robert's footsteps fall heavily |
+| Arrival | Royal procession (300 strong) | Pouring through castle gates | Winterfell | River of gold, silver, polished steel |
+| Arrival | Robert | At head of column, flanked by two Kingsguard | Castle gates | Vaults off warhorse to greet Ned |
+| Arrival | Cersei + younger children | Enter on foot | Castle gates | Wheelhouse too wide for the gate |
+| Assembly | Ned, Robert, Catelyn, Cersei, children | Greeting formalities | Winterfell courtyard (inferred) | Kneeling, embracing, introductions |
+| Departure | Ned and Robert | Descend narrow winding stone steps | Winterfell to crypts | Ned goes first with lantern; Robert steadies himself against wall |
+| Advance | Ned and Robert | Walk between granite pillars past tombs | Winterfell crypts | Past the Lords of Winterfell with stone direwolves |
+| Confrontation | Ned and Robert | Stop at Lyanna's tomb | End of occupied tombs, before empty ones | Three tombs side by side: Rickard, Brandon, Lyanna |
+| Retreat | Ned and Robert | Start back the way they came | Returning through the crypts | Robert's footsteps falling heavily |
 
 ## Information Revealed
 | Information | How Revealed | Known To (Characters) | Known To (Reader Only?) |
 |-------------|-------------|----------------------|------------------------|
-| Robert has gained enormous weight and deteriorated physically | Ned's direct observation | Ned | No |
-| Ned last saw Robert nine years ago at Greyjoy's rebellion | Ned's memory | Ned, Robert | No |
-| Theon Greyjoy was taken as hostage/ward by Ned after the Greyjoy rebellion | Ned's memory | Ned, Robert | No |
-| Lyanna died in a room smelling of blood and roses; she said "Promise me, Ned"; rose petals spilled from her palm | Ned's memory | Ned | Yes — the specific details of the promise and the scene |
-| Howland Reed was present at Lyanna's death | Ned's memory | Ned | Yes |
-| Jon Arryn died suddenly — healthy at a tourney, dead a fortnight later from a gut-burning sickness | Robert's account | Robert, Ned | No |
-| Robert wanted Robert Arryn fostered with Tywin Lannister | Robert's account | Robert, Ned | No |
-| Lysa Arryn fled to the Eyrie with her son against Robert's wishes, in the dead of night | Robert's account | Robert, Ned | No |
-| Robert Arryn is six, sickly, and Lord of the Eyrie | Robert's account | Robert, Ned | No |
-| Robert offers Ned the position of Hand of the King | Direct dialogue | Robert, Ned | No |
-| Robert proposes betrothal of Joffrey and Sansa | Direct dialogue | Robert, Ned | No |
-| The Arryns have always been Wardens of the East; Robert is withholding the title from young Robert Arryn | Dialogue | Robert, Ned | No |
-| Rhaegar wore black armor with a three-headed dragon in rubies at the Trident | Ned's memory | Ned | No |
-| Robert killed Rhaegar with a crushing hammer blow that stove in the dragon breastplate | Ned's memory | Ned, Robert | No |
-| Ancient custom places iron longswords on the laps of Winterfell's dead lords to keep spirits in their crypts | Ned's narration | Ned | No |
-| Brandon was to wed Catelyn Tully before his death | Ned's memory | Ned | No |
-| Lyanna was sixteen when she died; Brandon was twenty | Ned's memory | Ned | No |
+| Robert has grown enormously fat — at least eight stone gained since Greyjoy's rebellion | Ned's observation | Ned (and presumably everyone) | No |
+| Jon Arryn is dead — sickened suddenly after Joffrey's name day tourney, dead within a fortnight | Robert tells Ned | Robert, Ned | No |
+| Jon Arryn's sickness was "like a fire in his gut" | Robert tells Ned | Robert, Ned | No |
+| Lysa Arryn has fled to the Eyrie with her son against Robert's wishes | Robert tells Ned | Robert, Ned, Cersei (furious about it) | No |
+| Robert had planned to foster Robert Arryn with Tywin Lannister at Casterly Rock | Robert tells Ned | Robert, presumably Tywin, Lysa | No |
+| Robert Arryn is six years old, sickly, and Robert's namesake | Robert tells Ned | Robert, Ned | No |
+| Robert is stripping the Warden of the East title from the Arryn boy | Robert tells Ned | Robert, Ned | No |
+| Robert offers Ned the position of Hand of the King | Robert tells Ned directly | Robert, Ned | No |
+| Robert proposes betrothal of Joffrey and Sansa | Robert tells Ned | Robert, Ned | No |
+| Sansa is eleven years old | Ned states | Ned, Robert | No |
+| Lyanna died in a room that smelled of blood and roses; she said "Promise me, Ned"; rose petals spilled from her palm, dead and black | Ned's internal memory | Ned, Howland Reed (present at the death) | Yes — reader learns details Ned has never shared with Robert |
+| Howland Reed was present at Lyanna's death and took her hand from Ned's | Ned's internal memory | Ned, Howland Reed | Yes |
+| Brandon Stark was strangled by order of Aerys Targaryen; Rickard was forced to watch | Ned's internal memory / established fact | Ned (and presumably widely known) | No |
+| Ned would sooner trust a child to a pit viper than to Tywin Lannister | Ned's internal thought | Ned only | Yes |
+| The Night's Watch is "a shadow of what it once was" | Ned tells Robert | Ned, Benjen (source) | No |
 
 ## Dialogue of Note
 | Speaker | Listener | Quote/Paraphrase | Context |
 |---------|----------|------------------|---------|
-| Robert | Ned | "Ned! Ah, but it is good to see that frozen face of yours." | Greeting at arrival |
-| Ned | Robert | "Your Grace. Winterfell is yours." | Formal greeting; acknowledging Robert as king |
+| Robert | Ned | "Ned! Ah, but it is good to see that frozen face of yours." | Greeting, after crushing hug |
+| Ned | Robert | "Your Grace. Winterfell is yours." | Formal greeting to his king |
 | Robert | Ned | "Take me down to your crypt, Eddard. I would pay my respects." | Immediately after formalities; wants to see Lyanna's tomb |
-| Robert | Ned | "In the south, the way they talk about my Seven Kingdoms, a man forgets that your part is as big as the other six combined." | Complaining about the long journey north |
-| Robert | Ned | "The Others take your mild snows." | Swearing about the northern weather |
-| Ned | Robert | "The winters are hard. But the Starks will endure. We always have." | Response to Robert's worry about winter |
-| Robert | Ned | "She was more beautiful than that." | Looking at Lyanna's tomb statue |
-| Ned | (memory) | "Promise me, she had cried, in a room that smelled of blood and roses. Promise me, Ned." | Ned's memory of Lyanna's dying words |
-| Robert | Ned | "I vowed to kill Rhaegar for what he did to her." | At Lyanna's tomb |
-| Robert | Ned | "Only once." | When Ned reminds him he did kill Rhaegar; wants to have killed him more |
-| Robert | Ned | "In my dreams, I kill him every night. A thousand deaths will still be less than he deserves." | Still consumed by hatred for Rhaegar |
-| Robert | Ned | "I have never seen a man sicken so quickly. We gave a tourney on my son's name day. If you had seen Jon then, you would have sworn he would live forever. A fortnight later he was dead. The sickness was like a fire in his gut. It burned right through him." | Describing Jon Arryn's death |
+| Robert | Ned | "The Others take your mild snows. What will this place be like in winter? I shudder to think." | Descending into crypt, complaining about the cold |
+| Ned | Robert | "The winters are hard. But the Starks will endure. We always have." | Responding to Robert's complaint |
+| Robert | Ned | "She was more beautiful than that." | Looking at Lyanna's stone effigy |
+| Robert | Ned | "I vowed to kill Rhaegar for what he did to her." | Touching Lyanna's stone cheek |
+| Robert | Ned | "In my dreams, I kill him every night. A thousand deaths will still be less than he deserves." | About Rhaegar, raw hatred |
+| Robert | Ned | "I have never seen a man sicken so quickly. We gave a tourney on my son's name day. If you had seen Jon then, you would have sworn he would live forever. A fortnight later he was dead. The sickness was like a fire in his gut." | Describing Jon Arryn's sudden death |
 | Robert | Ned | "I think losing Jon has driven the woman mad, Ned." | About Lysa Arryn |
-| Robert | Ned | "Lord Tywin had never taken a ward before. Lysa ought to have been honored." | Angry that Lysa refused Tywin's fostering |
-| Ned | Robert | "I have more concern for my nephew's welfare than I do for Lannister pride." | Offering to ward Robert Arryn; shows distrust of Lannisters |
-| Robert | Ned | "That is because you do not sleep with a Lannister." | Sardonic response about his marriage |
+| Robert | Ned | "Lord Tywin had never taken a ward before. Lysa ought to have been honored." | Frustrated that Lysa refused the fostering arrangement |
+| Ned | Robert | "I have more concern for my nephew's welfare than I do for Lannister pride." | Pushing back on the Tywin fostering plan |
+| Robert | Ned | "That is because you do not sleep with a Lannister." | Wry response to Ned's anti-Lannister sentiment |
+| Robert | Ned | "I swear to you, sitting a throne is a thousand times harder than winning one." | Lamenting kingship |
 | Robert | Ned | "Lord Eddard Stark, I would name you the Hand of the King." | The formal offer |
-| Robert | Ned | "If I wanted to honor you, I'd let you retire. I am planning to make you run the kingdom and fight the wars while I eat and drink and wench myself into an early grave." | Self-aware about his own decline |
-| Robert | Ned | "What the king dreams, the Hand builds." / "The king eats, they say, and the Hand takes the shit." | Two versions of the saying about king and Hand |
-| Robert | Ned | "Come south with me, and I'll teach you how to laugh again." | Urging Ned to accept |
-| Robert | Ned | "I have a son. You have a daughter. My Joff and your Sansa shall join our houses, as Lyanna and I might once have done." | Proposing the betrothal |
-| Robert | Ned | "I sit on that damnable iron chair and listen to them complain until my mind is numb and my ass is raw. They all want something, money or land or justice. The lies they tell … and my lords and ladies are no better. I am surrounded by flatterers and fools." | Robert's misery as king |
-| Robert | Ned | "There are nights I wish we had lost at the Trident." | Expressing regret about winning the throne |
+| Robert | Ned | "If I wanted to honor you, I'd let you retire. I am planning to make you run the kingdom and fight the wars while I eat and drink and wench myself into an early grave." | Self-deprecating description of the Hand's role |
+| Ned | Robert | "What the king dreams, the Hand builds." | The formal version of the saying |
+| Robert | Ned | "The king eats, they say, and the Hand takes the shit." | The lowborn version of the saying |
+| Robert | Ned | "Come south with me, and I'll teach you how to laugh again." | Trying to persuade Ned |
+| Robert | Ned | "I have a son. You have a daughter. My Joff and your Sansa shall join our houses, as Lyanna and I might once have done." | Betrothal proposal |
 
 ## POV Character's Internal State
-- **Emotional state:** Conflicted throughout — love and loyalty toward Robert mixed with shock at the king's physical decline; deep grief when remembering Lyanna's death; foreboding and reluctance about the offers made; distrust of the Lannisters
-- **Primary preoccupation:** The weight of Robert's requests (Hand of the King, Sansa's betrothal); memories of Lyanna; concern for the Night's Watch and the north
-- **Key decisions made:** Asks for time to consider both the Handship and the betrothal rather than accepting or refusing immediately
-- **Self-deception flags:** Ned says "nothing would give me greater pleasure" about the offers when internally "it was the last thing in the world he wanted"; says formulaic words of obedience ("I am yours to command") while feeling apprehensive
+- **Emotional state:** Complex mix of love and duty toward Robert; grief when remembering Lyanna; wariness about the offers being made; deep foreboding about leaving Winterfell. Loved Robert for remembering Lyanna. Private distaste for Lannister power.
+- **Primary preoccupation:** The gap between the Robert he knew and the king before him; Lyanna's memory and the unfulfilled promise; the weight of what Robert is asking.
+- **Key decisions made:** Does not immediately accept or refuse the Hand position — asks for time to consider. Does not voice his doubts about Tywin Lannister.
+- **Self-deception flags:** None explicitly. Ned is guarded but honest with himself — he knows he doesn't want the position ("It was the last thing in the world he wanted") but feels the pull of duty.
 
 ## Relationships Observed
 | Character A | Relationship | Character B | Evidence |
 |-------------|-------------|-------------|----------|
-| Ned | deep friendship / sworn loyalty | Robert | Robert's bone-crunching hug; "we are more to each other than that"; shared history at the Eyrie and in war; Robert keeps his arm around Ned's shoulders |
-| Robert | enduring love / obsession | Lyanna | Immediately asks to visit her tomb; touches her stone cheek gently; says she deserved better; dreams of killing Rhaegar every night for what he did to her |
-| Ned | grief / love | Lyanna | "Ned had loved her with all his heart"; brings her flowers; vivid memory of her death |
-| Robert | strained / dismissive marriage | Cersei | "The Others take my wife"; Cersei protests and Robert silences her with a look; "you do not sleep with a Lannister" |
-| Jaime | protective / controlling | Cersei | Takes her quietly by the arm when Robert silences her — intervenes before it escalates |
-| Robert | grief / respect | Jon Arryn | "I loved that old man"; describes Jon's service and death with emotion |
-| Ned | distrust | Tywin Lannister | "Ned would sooner entrust a child to a pit viper than to Lord Tywin" — strong internal judgment |
-| Robert | frustration / concern | Lysa Arryn | Thinks she's been driven mad by grief; angry she fled with the boy |
-| Ned | brotherly concern | Benjen Stark | Begins to relay Benjen's views on the Night's Watch; concerned about the Watch's decline |
-| Ned | political obligation | Robert | Kneels, says "I am yours to command" while internally reluctant; says formulaic words |
-| Robert | patron / political alliance | Ned | Wants Ned as Hand; proposes marriage alliance; needs Ned to help him rule |
-| Ned | memory of elder brother | Brandon Stark | "He was the true heir, the eldest, born to rule" |
-| Ned | memory of father | Rickard Stark | Notes the stonemason knew him well; observes his stern stone likeness |
+| Ned Stark | Deep old friendship with, now subject to | Robert Baratheon | "Robert was Ned's king now, and not just a friend"; Robert keeps arm around Ned's shoulders; "we are more to each other than that" |
+| Robert Baratheon | Enduring love/obsession for | Lyanna Stark | Insists on visiting her tomb immediately; says she was more beautiful than the effigy; touches her stone cheek gently |
+| Ned Stark | Grief and love for | Lyanna Stark | "Ned had loved her with all his heart"; brings her flowers; haunted by her death |
+| Robert Baratheon | Undying hatred for | Rhaegar Targaryen | "I vowed to kill Rhaegar"; "In my dreams, I kill him every night"; "a thousand deaths will still be less than he deserves" |
+| Ned Stark | Distrust and contempt for | Tywin Lannister | "Ned would sooner entrust a child to a pit viper than to Lord Tywin" |
+| Robert Baratheon | Cold/hostile marriage with | Cersei Lannister | "The Others take my wife"; Cersei protests the crypt visit and Robert silences her with a look |
+| Jaime Lannister | Protective of / controlling toward | Cersei Lannister | Takes her quietly by the arm to stop her protesting |
+| Robert Baratheon | Grief and admiration for | Jon Arryn | "I loved that old man"; wants to replace him with someone equally trustworthy |
+| Ned Stark | Grief and respect for | Jon Arryn | "We both did" |
+| Robert Baratheon | Frustration/contempt for | Lysa Arryn | "I think losing Jon has driven the woman mad"; angry she defied him |
+| Robert Baratheon | Plans to join houses with | Ned Stark | Proposes Joffrey-Sansa betrothal; "we were meant to rule together" |
+| Ned Stark | Took as hostage/ward | Theon Greyjoy | Ned took Balon Greyjoy's son as hostage and ward after the rebellion |
+| Ned Stark | Concern for | Benjen Stark | Tries to raise the Night's Watch's plight; "Benjen says—" |
+| Ned Stark | Haunted by promise to | Lyanna Stark | "Promise me, Ned" — her dying words; the memory still vivid |
+| Howland Reed | Present at death of | Lyanna Stark | "The little crannogman, Howland Reed, had taken her hand from his" |
+| Brandon Stark | Was betrothed to | Catelyn Tully | Brandon was "to wed Catelyn Tully of Riverrun" before his death |
+| Rickard Stark | Father of | Brandon, Lyanna, Ned | Entombed between his children; forced to watch Brandon die |
 
 ## Unanswered Questions
 | Question | Raised By | Context |
 |----------|-----------|---------|
-| What did Lyanna make Ned promise? | Ned's memory | "Promise me, Ned" — the content of the promise is never stated |
-| Why was Lyanna in a room that smelled of blood and roses when she died? | Ned's memory | Vivid sensory detail but no explanation of circumstances |
-| What significance do the dead black rose petals have? | Ned's memory | Rose petals spilling from Lyanna's palm as she died |
-| What caused Jon Arryn's sudden death? | Robert's account | Described as "a fire in his gut" — remarkably rapid decline from apparent health |
-| Why did Lysa Arryn flee to the Eyrie so suddenly? | Robert's account | Left "in the dead of night, without so much as a by-your-leave" |
-| Will Ned accept the Handship and the betrothal? | Chapter events | Ned asks for time; filled with foreboding |
-| What are the oldest spirits of Winterfell's crypts doing now that their swords have rusted away? | Ned's musing | Ned wonders if "those ghosts were free to roam the castle now" |
-| Why does Robert want to strip young Robert Arryn of the Warden of the East title? | Robert's dialogue | Claims a six-year-old is no war leader, but the title is honorific in peacetime |
+| What did Lyanna make Ned promise? | Ned's memory | "Promise me, she had cried, in a room that smelled of blood and roses. Promise me, Ned." — the content of the promise is never stated |
+| Why did the room smell of blood and roses? | Ned's memory | Lyanna dying with rose petals spilling from her palm, dead and black — unexplained context |
+| What actually killed Jon Arryn? | Robert's account | Robert describes sudden illness ("fire in his gut") after appearing healthy at a tourney — notably rapid |
+| Why did Lysa Arryn flee King's Landing so abruptly? | Robert's account | Left "in the dead of night, without so much as a by-your-leave" — her motive beyond grief is unclear |
+| Who will Robert name as Warden of the East? | Robert's decision | He strips the title from the Arryn boy but does not say who will get it |
+| Will Ned accept the position of Hand of the King? | Chapter ending | Ned asks for time; feels "a terrible sense of foreboding" |
+| What are the "old wounds" Ned avoids reopening regarding Tywin? | Ned's internal thought | "Some old wounds never truly heal, and bleed again at the slightest word" — unspecified history |
 
 ## Raw Entity List
+
 ### Characters
-Eddard (Ned) Stark, Robert Baratheon, Cersei Lannister, Jaime Lannister, Sandor Clegane, Joffrey Baratheon, Tyrion Lannister, Catelyn Stark, Lyanna Stark (dead), Rickard Stark (dead), Brandon Stark (dead, Ned's brother), Aerys Targaryen / the Mad King (dead), Rhaegar Targaryen (dead), Jon Arryn (dead), Lysa Arryn, Robert Arryn, Tywin Lannister, Balon Greyjoy, Theon Greyjoy, Benjen Stark, Sansa Stark, Howland Reed
+Eddard (Ned) Stark, Robert Baratheon, Cersei Lannister, Jaime Lannister, Sandor Clegane, Joffrey Baratheon, Tyrion Lannister, Catelyn Stark, Lyanna Stark, Brandon Stark, Rickard Stark, Rhaegar Targaryen, Aerys Targaryen (the Mad King), Jon Arryn, Lysa Arryn, Robert Arryn, Tywin Lannister, Balon Greyjoy, Theon Greyjoy, Benjen Stark, Howland Reed, Sansa Stark
 
 ### Locations
-Winterfell, Winterfell crypts, Storm's End, The Eyrie, Casterly Rock, King's Landing, The Trident (ford), The Iron Islands, Highgarden, The Wall, The Neck, Riverrun, Greyjoy's fallen stronghold (unnamed)
+Winterfell, Winterfell crypts, King's Landing, the Eyrie, Storm's End, Casterly Rock, the Trident (ford), Highgarden, Riverrun, the Wall, the Neck, Iron Islands, Pyke (inferred — "Greyjoy's fallen stronghold")
 
-### Artifacts
-Iron longswords of the crypt lords, Robert's spiked iron warhammer, Robert's great antlered helmet, Royal wheelhouse, Rhaegar's ruby-studded black breastplate, Golden Baratheon banners, Oil lantern, Iron Throne (referenced)
+### Houses
+House Stark, House Baratheon, House Lannister, House Arryn, House Greyjoy, House Targaryen, House Tully
 
-### Houses/Factions
-House Stark, House Baratheon, House Lannister, House Arryn, House Greyjoy, House Targaryen, House Tully, Kingsguard, Night's Watch
+### Factions & Organizations
+Kingsguard, Night's Watch
+
+### Religions & Faiths
+None explicitly practiced; Robert swears "gods have mercy" (generic)
+
+### Cultures & Peoples
+Northerners (implied — Stark identity, "this is her place"), lowborn (referenced in the saying about the Hand)
+
+### Artifacts & Objects
+Iron longswords (crypt tradition), Robert's spiked iron warhammer, great antlered helmet (Baratheon), Rhaegar's ruby-studded black breastplate, royal wheelhouse (oiled oak and gilded metal, forty draft horses), Iron Throne, golden Baratheon banners (crowned stag), stone direwolves (crypt effigies), oil lantern
+
+### In-world Texts & Songs
+The saying about the king and his Hand ("What the king dreams, the Hand builds" / "The king eats, and the Hand takes the shit")
+
+### Magic & Phenomena
+None
+
+### Wars & Conflicts
+Robert's Rebellion (referenced — "when they had ridden forth to win a throne"; Battle of the Trident), Greyjoy's Rebellion (nine years prior — Robert and Ned stood together at Greyjoy's fallen stronghold)
+
+### Titles & Offices
+King (Robert Baratheon), Queen (Cersei Lannister), Hand of the King (formerly Jon Arryn; offered to Ned), Lord of Winterfell (Ned Stark), Lord of Storm's End (Robert, formerly), Lord of the Eyrie (Robert Arryn), Warden of the East (stripped from Robert Arryn), Crown Prince (Joffrey), Lord Commander (implied — Kingsguard context), Kings in the North (ancient Stark title, before the Dragonlords)

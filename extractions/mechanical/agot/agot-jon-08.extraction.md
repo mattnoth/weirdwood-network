@@ -7,232 +7,276 @@
 - **pov_chapter_number:** Jon VIII
 - **first_available:** AGOT Jon VIII
 - **location_primary:** Castle Black
-- **location_secondary:** King's Tower, Hardin's Tower, the rookery, the common hall (mentioned), Mole's Town (mentioned), King's Landing (mentioned), the Shadow Tower (mentioned), Eastwatch-by-the-Sea (mentioned), the riverlands (mentioned)
-- **approximate_timeline:** After the wight attack on Lord Commander Mormont; Jon's hand is healing from burns sustained fighting the wight; Robb Stark has called the banners and marched south
-- **time_markers:** Jon's burns are healing but still bandaged; Dywen and Hake returned "last night" from ranging; Ser Alliser Thorne left "yestermorn" for Eastwatch; Jon previously dragged himself to the common hall to sup with friends; Maester Aemon is described as "a hundred years old"; the Night's Watch is described as "thousands of years old"; the Long Night referenced as "eight thousand years" ago
-- **chapter_summary:** Jon Snow visits Lord Commander Mormont, who presents him with Longclaw, the Mormont ancestral Valyrian steel bastard sword, reforged with a white wolf pommel, as reward for saving his life from the wight. Mormont informs Jon that Ser Barristan Selmy has been removed from the Kingsguard and that Ser Alliser Thorne has been sent to King's Landing with the wight's severed hand. Jon shows Longclaw to his friends, then is summoned by Maester Aemon, who counsels him about the tension between love and duty and reveals his own identity as Aemon Targaryen, a man who faced the same choice three times and chose duty each time.
+- **location_secondary:** King's Landing (referenced), Mole's Town (referenced), Shadow Tower (referenced), Eastwatch-by-the-Sea (referenced), the riverlands (referenced)
+- **approximate_timeline:** After the wight attack on Lord Commander Mormont; Jon's burns are healing but still bandaged; Robb has called the banners and marched south
+- **time_markers:** Jon's burned hand is healing but still bandaged in silk; "Dywen and Hake returned last night"; "Ser Alliser Thorne left yestermorn"; pale sunlight during the outdoor scene; night referenced when Jon will serve hot spice wine; Maester Aemon described as "a hundred years old"
+- **chapter_summary:** Jon meets with Lord Commander Mormont, who gives him Longclaw, a Valyrian steel bastard sword with a new wolf's-head pommel, as reward for saving his life from the wight. Jon learns that Ser Barristan Selmy has been removed from the Kingsguard and that Ser Alliser Thorne has been sent to King's Landing with the wight's severed hand. Jon shows the sword to his friends, then is summoned by Maester Aemon, who counsels him about the conflict between love and duty, and reveals his own identity as Aemon Targaryen, urging Jon to make his own choice about whether to stay or go.
 
 ## Physical Environment
-- **Weather:** Not described in detail
+- **Weather:** Not explicitly described; pale sunlight mentioned
 - **Season indicators:** "Summer is at an end, and a winter is coming such as this world has never seen"; late summer snow referenced in Jon's memory of finding Ghost
-- **Time of day:** Daytime — "the bastard blade glittered in the pale sunlight"
-- **Lighting:** Pale sunlight outside; no specific interior lighting described
-- **Sounds:** Ravens screaming, squawking, squabbling, and shrieking; raven's wings beating against metal cage bars; the raven's repeated words ("Well," "Father," "Boy," "Corn," "Claw," "Take it," "Who will"); the empty bucket clanging to the floor
-- **Smells:** Not explicitly described; implied blood and raw meat in the rookery
-- **Notable sensory details:** Jon's burned hand throbs with pain, cracked red skin oozing fluid, blood blisters "big as roaches" between fingers; the feel of soft new leather on Longclaw's grip; Jon's left hand slimy with blood from feeding ravens; raw red meat morsels; the weight of the bucket causing pain in his burned right hand
+- **Time of day:** Daytime (pale sunlight when Jon shows sword outside); references to the coming night (hot spice wine for evening)
+- **Lighting:** Pale sunlight outdoors; the blade glittering in the pale sunlight
+- **Sounds:** Raven squawking and crying ("Well," "Father," "Corn," "Claw," "Boy," "Who will," "Take it," "Crow"); ravens screaming and shrieking in the rookery; wings beating against cage bars
+- **Smells:** Implied blood smell from the bucket of chopped meat in the rookery
+- **Notable sensory details:** Jon's burned hand — cracked red skin oozing fluid, fearsome blood blisters between fingers "big as roaches"; pain throbbing under the skin; soft leather of Longclaw's grip giving beneath Jon's fingers; blood up to the wrist from feeding ravens; the weight of tiny black raven eyes watching him
 
 ## Characters Present
 | Character | Role in Chapter | First Appearance? | Notes |
 |-----------|----------------|-------------------|-------|
-| Jon Snow | POV character | No | Hand bandaged from burns sustained fighting the wight; receives Longclaw |
-| Jeor Mormont (the Old Bear) | Lord Commander of the Night's Watch | No | Beard singed off in fire, now pale stubble; presents Longclaw to Jon |
-| Mormont's raven | Mormont's companion | No | Repeats words throughout; eats fruit and corn unlike most ravens |
-| Ghost | Jon's direwolf | No | Curled up asleep beside the door of Jon's cell in Hardin's Tower |
-| Pyp | Jon's friend, Night's Watch brother | No | Calls out to Jon to see the sword |
-| Grenn | Jon's friend, Night's Watch brother | No | Demands to see the sword; reveals Rudge saw the burnt blade brought to Donal Noye |
-| Toad | Jon's friend, Night's Watch brother | No | Makes jokes about Valyrian steel |
-| Halder | Jon's friend, Night's Watch builder | No | Helped Pate carve the stone pommel |
-| Matt | Jon's friend, Night's Watch brother | No (uncertain — verify) | Leads the chant for Jon to show the sword |
-| Samwell Tarly | Jon's friend, Night's Watch brother | No | Tells Jon that Maester Aemon wants to see him; bought garnets for Longclaw's pommel in Mole's Town |
-| Maester Aemon | Maester of Castle Black | No | Reveals his identity as Aemon Targaryen; counsels Jon on love vs. duty |
-| Clydas | Aemon's steward/assistant | No | Carrying bucket of chopped meat; described as hunched and pink-eyed |
+| Jon Snow | POV character | No | Burned right hand bandaged in silk halfway to elbow; receives Longclaw |
+| Jeor Mormont (the Old Bear) | Lord Commander, gives Jon Longclaw | No | Beard singed in fire, shaved off; pale stubble makes him look old, disreputable, grumpy |
+| Mormont's raven | Present throughout Mormont scene | No | Repeats words: "Well," "Father," "Boy," "Corn," "Who will," "Take it," "Claw," "Crow" |
+| Ghost | Jon's direwolf, present in cell | No | Red eyes darker than garnets; white fur; curled asleep beside door |
+| Pyp | Friend, outside King's Tower | No | Calls out to Jon; grins |
+| Grenn | Friend, outside King's Tower | No | Wants to see the sword |
+| Toad | Friend, outside King's Tower | No | Sidles close; tells razor anecdote |
+| Halder | Friend, builder | No | Helped Pate carve the pommel stone; gives apologetic shrug |
+| Matt | Friend, outside King's Tower | No | Insists on seeing the sword |
+| Samwell Tarly | Friend, delivers message from Aemon | No | Fat, sweaty hands, heavy fur cloak, rocking nervously on heels, red cheeks |
+| Maester Aemon | Counsels Jon about duty vs. love | No | Blind (dead white eyes), ancient, toothless, withered spotted hand, thin fleshless neck; reveals he is Aemon Targaryen |
+| Clydas | Assists Maester Aemon in rookery | No | Hunched, pink-eyed; carries bucket of chopped meat |
 
 ## Character Appearances
 | Character | Hair | Eyes | Build/Height | Scars/Marks | Clothing/Armor | Weapons Worn | Distinguishing Features | Age (if stated) |
 |-----------|------|------|-------------|-------------|----------------|-------------|------------------------|-----------------|
-| Jeor Mormont | | | | | | | Shaggy grey beard singed off in fire; pale stubble of new whiskers makes him look old, disreputable, and grumpy | |
-| Jon Snow | | | | Right hand burned — cracked red skin oozing fluid, blood blisters between fingers "big as roaches"; hand bandaged in silk halfway to the elbow | | Longclaw (Valyrian steel bastard sword) received this chapter | | |
-| Ghost | White fur | Red eyes darker than garnets | | | | | "Wiser than men" | |
-| Samwell Tarly | | | Fat | | Heavy fur cloak "that made him look ready for hibernation" | | Red cheeks; sweaty hands; rocking nervously on heels | |
+| Jon Snow | | | | Right hand burned — cracked red skin oozing fluid, blood blisters big as roaches between fingers | Right hand swathed in silk bandages halfway to elbow | Longclaw (received this chapter) | | |
+| Jeor Mormont | | | | | | | Shaggy grey beard singed in fire and hacked off; pale stubble of new whiskers; looks old, disreputable, grumpy | |
+| Ghost | White fur (almost invisible against snow drifts) | Red eyes, darker than garnets | | | | | "Wiser than men" | |
+| Samwell Tarly | | | Fat | | Heavy fur cloak (makes him look ready for hibernation) | | Red cheeks; sweaty hands; rocking nervously on heels | |
+| Maester Aemon | | Dead white eyes (blind) | | | Maester's chain hanging loosely around thin, fleshless neck | | Ancient; toothless smile; withered, spotted hand | ~100 years old ("a hundred years old") |
 | Clydas | | Pink eyes | Hunched | | | | | |
-| Maester Aemon | | Dead white eyes | | | | | Withered, spotted hand; thin, fleshless neck; ancient lips; toothless smile; maester's chain hanging loosely | A hundred years old |
 
 ## Characters Referenced
 | Character | Context of Reference | Referenced By |
 |-----------|---------------------|---------------|
-| Lord Eddard Stark | Jon hopes for word of his father; Jon dreams of the burning corpse with Eddard's face; Jon recalls childhood dreams of saving his father and receiving Ice | Jon Snow, Mormont |
-| Robb Stark | Has called the banners and ridden south to war; Jon feels craven for not marching with him | Jon's internal thoughts |
-| Sansa and Arya Stark (implied) | Jon asks about "my sisters"; no news of them | Jon Snow |
-| Benjen Stark | Dywen and Hake returned with no sign of Jon's uncle | Mormont |
-| Ser Barristan Selmy | Removed from the Kingsguard; wanted for treason; slew two gold cloaks and escaped | Mormont (via raven message) |
-| Sandor Clegane | Given Barristan's place in the Kingsguard; called "that black dog Clegane" | Mormont |
-| Joffrey Baratheon | "A boy sits the Iron Throne"; referred to as "this boy king" and "young Joffrey" | Mormont |
-| Ser Alliser Thorne | Left yestermorn for Eastwatch-by-the-Sea; sent to King's Landing with the wight's hand | Mormont |
-| Ser Endrew Tarth | Coming from Shadow Tower to be new master-at-arms | Mormont |
-| Jorah Mormont | Brought dishonor to House Mormont; fled but left Longclaw behind | Mormont |
-| Maela Mormont (Mormont's sister, unnamed) | Returned Longclaw to the Old Bear after Jorah fled | Mormont |
-| Othor | The wight Jon killed with fire; dead man with blue eyes and black hands | Jon's memories, Mormont |
-| Jafer Flowers | The other wight; one-handed; killed Ser Jaremy Rykker and four others before being cut to pieces | Narration |
-| Ser Jaremy Rykker | Killed by Jafer Flowers's wight after hacking its head off; the headless corpse stabbed him with his own dagger | Narration |
-| Dywen | Returned from ranging, found no sign of Benjen | Mormont |
-| Hake | Returned from ranging with Dywen | Mormont |
-| Pate | One of the builders; carved the stone wolf pommel for Longclaw | Halder |
-| Rudge | Helped Donal Noye in the forge; saw the burnt blade brought in | Grenn |
-| Donal Noye | The blacksmith/armorer; worked on reforging Longclaw | Grenn |
-| Grand Maester Pycelle | May not have deigned to reply to Mormont's letter | Mormont |
-| Bran Stark | Jon remembers being Bran's age and dreaming of great deeds | Jon's internal thoughts |
-| Baelor the Blessed | Tried to replace all ravens with doves | Maester Aemon |
-| Aegon (Aemon's brother) | Reigned as king after Maekar in Aemon's stead | Maester Aemon |
-| Maekar I | Aemon's father; King Maekar, the First of his Name | Maester Aemon |
-| Prince Aemon the Dragonknight | Aemon was named for him; described as grandfather's uncle or father depending on the tale | Maester Aemon |
-| Black Harren (Harren the Black) | Slain by Aegon; his brother was Lord Commander of the Night's Watch at the time | Maester Aemon |
-| Lord Randyll Tarly | Sam's father; let Sam hold Heartsbane a few times | Samwell Tarly |
-| Dickon Tarly | Sam's brother; will inherit Heartsbane | Samwell Tarly |
-| Jon's mother | Referenced obliquely — "your mother, what of his duty to her, he will not even say her name" | Jon's internal voice |
-| Aemon's brother's grandson, son, and "little children" | Cut down in the ruin of Aemon's House; Aemon grieved sitting forgotten | Maester Aemon |
+| Benjen Stark (Jon's uncle) | Rangers found no sign of him | Mormont |
+| Dywen | Returned from search for Benjen | Mormont |
+| Hake | Returned from search for Benjen | Mormont |
+| Eddard Stark (Lord Eddard) | Jon hopes for news of his father; Jon dreams of him; Mormont says no news | Jon, Mormont |
+| Ser Barristan Selmy (Barristan the Bold) | Removed from Kingsguard, wanted for treason, slew two gold cloaks and escaped | Mormont |
+| Sandor Clegane ("that black dog Clegane") | Given Selmy's place in Kingsguard | Mormont |
+| Joffrey ("a boy sits the Iron Throne") | Sits the Iron Throne; Mormont hopes the wight's hand will get his attention | Mormont |
+| Grand Maester Pycelle | May not have replied to Aemon's letters | Mormont |
+| Robb Stark | Called the banners and ridden south to war | Jon (internal), via Sam's earlier report |
+| Sansa and Arya (Jon's sisters) | Jon asks about them; no news | Jon |
+| Othor | Wight that attacked Mormont; destroyed by fire Jon started | Jon (memory), Mormont |
+| Jafer Flowers | Wight, one-handed; destroyed by swords after killing five men | Jon (memory) |
+| Ser Jaremy Rykker | Killed by Jafer Flowers wight after hacking its head off | Jon (memory) |
+| Jorah Mormont | Mormont's son; brought dishonor to House Mormont; fled, left Longclaw behind | Mormont |
+| Mormont's sister (Maege Mormont, unnamed) | Returned Longclaw to the Old Bear | Mormont |
+| Mormont's father and grandfather | Previous wielders of Longclaw ("five centuries") | Mormont |
+| Bran Stark | Jon references "when Jon had been Bran's age" | Jon (internal) |
+| Rudge | Helped Donal Noye in the forge; was there when Old Bear brought the burnt blade | Grenn |
+| Pate | Carved the stone for the pommel | Halder |
+| Donal Noye | Armorer; reforged Longclaw | Grenn |
+| Ser Endrew Tarth | On his way from Shadow Tower to be new master-at-arms | Mormont |
+| Ser Alliser Thorne | Sent to Eastwatch, then King's Landing with wight's hand | Mormont |
+| Three-Eyed Hobb (Hobb) | Cook; Mormont complains about boiled mutton | Mormont |
+| Baelor the Blessed | Tried to replace ravens with doves | Maester Aemon |
+| Aegon (Aemon's brother) | Reigned after their father Maekar | Maester Aemon |
+| Maekar (Aemon's father) | "Maekar, the First of his Name" | Maester Aemon |
+| Prince Aemon the Dragonknight | Aemon was named for him; "his uncle, or his father, depending on which tale you believe" | Maester Aemon |
+| Aemon's grandfather (unnamed) | Named Aemon for the Dragonknight | Maester Aemon |
+| Black Harren (Harren the Black) | Slain by Aegon the Conqueror; his brother was Lord Commander | Maester Aemon |
+| Harren's brother (unnamed Lord Commander) | Had ten thousand swords, did not march when Harren fell | Maester Aemon |
+| Aegon (the Conqueror) | Slew Black Harren and claimed his kingdom | Maester Aemon |
+| Dickon Tarly | Sam's brother; will inherit Heartsbane | Sam |
+| Lord Randyll Tarly | Sam's father; lord of Heartsbane | Sam |
+| Sam's sisters (unnamed) | Sam was afraid he'd hurt them with Heartsbane | Sam |
 
 ## Locations
 | Location | Role | First Appearance? |
 |----------|------|-------------------|
 | Castle Black | Primary setting | No |
-| King's Tower | Where Lord Commander Mormont now makes his residence; Jon meets Mormont here | No |
-| Hardin's Tower | Jon's cell; where Ghost waits for him | No |
-| The rookery | Where Jon meets Maester Aemon; ravens in cages | No |
-| The common hall | Where Jon supped with friends and heard about ranging failure | No |
-| The granary | Friends hung a target on its doors | No (uncertain — verify) |
-| Lord Commander's Tower (formerly Mormont's) | Gutted by fire Jon started fighting the wight; top two floors destroyed | No |
-| Mole's Town | Where Sam bought garnets for the pommel | No |
-| King's Landing | Where Thorne is being sent with the wight's hand; where Ser Barristan was dismissed | No |
-| The Shadow Tower | Where Ser Endrew Tarth is coming from | No |
-| Eastwatch-by-the-Sea | Where Ser Alliser Thorne left for | No |
-| The riverlands | Where fighting is happening; Robb marching south | No |
-| The Citadel | Referenced as Aemon's order | No |
+| Lord Commander's chambers (King's Tower) | Where Mormont gives Jon Longclaw; Mormont's new residence | No (uncertain — verify: King's Tower as Mormont's residence may be new after fire) |
+| Lord Commander's Tower (old) | Referenced — gutted by fire Jon started | No |
+| Hardin's Tower | Jon's cell; tumbledown | No |
+| The rookery | Where Maester Aemon counsels Jon | No |
+| Granary | Friends hang target on granary doors | No |
+| Common hall | Referenced — Jon supped there with friends | No |
+| Mole's Town | Sam bought garnets there | No |
+| Shadow Tower | Ser Endrew Tarth coming from there | No |
+| Eastwatch-by-the-Sea | Ser Alliser sent there | No |
+| King's Landing | News from there; Thorne being sent there | No |
+| The riverlands | Fighting referenced; Robb marching | No |
+| The Citadel | Maester Aemon identifies himself as "a maester of the Citadel" | No |
 
 ## Location Descriptions
 | Location | Defensive Features | Architecture/Layout | Interior Details | Scale | Condition | Surrounding Terrain/Geography | Notable Sensory Details |
 |----------|--------------------|--------------------|-----------------| ------|-----------|------------------------------|------------------------|
-| King's Tower | | Turret stair that winds down; guards in niches along the stairway | Mormont's chambers: rough oak plank table | | Now serving as Lord Commander's residence after the Lord Commander's Tower was gutted | | |
-| Lord Commander's Tower | Formidable stone tower | Stone construction (fire did not burn it down) | Top two floors gutted by fire — interior destroyed while stone structure survived | | Fire damage — interior of top two floors gutted; Mormont's former chambers destroyed | | |
-| Hardin's Tower | | | Jon's cell | | Described as "tumbledown" | | |
-| The rookery | | Ravens in cages with metal bars; accessed by ladder | | | | | Ravens screaming, squawking; blood and raw meat everywhere |
+| King's Tower | | Turret stair winding down; niches where guards stand | | | Now Mormont's residence after fire gutted Lord Commander's Tower | | Guards smile from niches as Jon descends |
+| Lord Commander's Tower (old) | Formidable stone tower | | | Top two floors gutted by fire | Fire gutted interior of top two floors; stone structure survived | | |
+| Hardin's Tower | | | Jon's cell | | Tumbledown | | |
+| The rookery | | Accessed by ladder; cages for ravens arranged in rows | Cages with metal bars | | | | Ravens screaming; wings beating against bars; blood and meat scraps |
 
 ## Artifacts & Objects of Significance
 | Artifact | Context | First Appearance? | Current Holder/Location |
 |----------|---------|-------------------|------------------------|
-| Longclaw | Valyrian steel bastard sword; ancestral Mormont blade carried for five centuries; reforged with white wolf pommel (pale stone with garnet eyes), new black leather grip, silver-banded black metal scabbard; blade has rippled dark steel with three fullers; hand-and-a-half length, lighter than normal steel | Yes (as reforged with wolf pommel) | Jon Snow (given by Mormont) |
-| Ice | Stark ancestral Valyrian steel greatsword; Jon recalls handling it; described as "a true two-handed greatsword" | No | Referenced — Lord Eddard's sword |
-| Heartsbane | Valyrian steel ancestral sword of House Tarly; Sam once held it; "beautiful but so sharp" | Yes | Lord Randyll Tarly (Dickon will inherit) |
-| The severed wight hand | Jafer Flowers's hand torn off by Ghost; being sent to King's Landing as proof | No | Ser Alliser Thorne (carrying it to King's Landing) |
-| Maester Aemon's chain | Hangs loosely around his thin, fleshless neck | No | Maester Aemon |
-| Milk of the poppy | Given to Jon by Maester Aemon for pain | No | |
+| Longclaw | Valyrian steel bastard sword; given to Jon by Mormont; new white wolf's-head pommel of pale stone with garnet eyes; black metal scabbard banded with silver; virgin black leather grip; hand-and-a-half blade; three fullers; darker steel with visible folding ripples | Yes (as reforged with wolf pommel) | Jon Snow |
+| Ice | Referenced — Ned's Valyrian steel greatsword; Jon dreamed of receiving it as a boy | No | Referenced (Eddard Stark) |
+| Heartsbane | Sam's family Valyrian steel sword; Sam was once heir to it | Yes | House Tarly (Dickon will inherit) |
+| Jafer Flowers's severed hand | Wight's hand, torn off by Ghost; sent with Ser Alliser to King's Landing | No | Ser Alliser Thorne (carrying to King's Landing) |
+| Maester Aemon's chain | Maester's chain hanging loosely around thin, fleshless neck | No | Maester Aemon |
+| Mormont's letter to King's Landing | Two copies sent by Aemon with his best birds; possibly unanswered | No | Unknown if received |
 
 ## Food & Drink
 | Meal/Occasion | Food Items Described | Drink | Who Is Eating/Drinking | Where | Preparation/Presentation Notes |
 |--------------|---------------------|-------|----------------------|-------|-------------------------------|
-| Mormont's requested supper | Boiled mutton (complained about — the last haunch was grey, "even the bird wouldn't touch it") | Hot spice wine — red, not too sour, don't skimp on spices | Mormont (requesting) | King's Tower | Mormont threatens to boil Hobb if he sends grey mutton again |
-| Ravens being fed | Chopped meat — pieces no larger than a finger joint; raw red morsels; long stringy bits | | Ravens in the rookery | The rookery | Carried in a bucket by Clydas, then Jon; bloody; ravens fight over choice pieces |
-| Mormont's raven's preferences | Fruit and corn | | Mormont's raven | | Noted as unusual — most ravens prefer flesh |
+| Mormont's supper (requested) | Mormont demands no more boiled mutton — last haunch was grey; even the bird wouldn't touch it | Hot spice wine — red, not too sour, don't skimp on spices | Mormont (upcoming) | Lord Commander's chambers | Jon told to arrange with Hobb |
+| Jon's supper (prior night, referenced) | Not described | Not described | Jon with friends | Common hall | Jon dragged himself there despite injury |
+| Raven feeding | Chopped meat, pieces no larger than a finger joint; raw red morsels; long stringy bits | | Ravens in rookery | Rookery | Carried in bucket by Clydas, then Jon; ravens fight over choice pieces; blood everywhere |
+| Mormont's raven preferences | Fruit and corn (noted as unusual) | | Mormont's raven | | "He is a rare bird" — most ravens prefer flesh |
 
 ## Hospitality & Guest Right
-No explicit hospitality rituals in this chapter.
+| Event | Type | Host | Guest(s) | Details |
+|-------|------|------|----------|---------|
+None
 
 ## Events & Actions
-1. **Jon visits Lord Commander Mormont** — Jon reports to Mormont in the King's Tower; both men discuss their injuries from the wight attack
-2. **Mormont reports failed search for Benjen** — Dywen and Hake returned the previous night with no sign of Benjen Stark
-3. **Mormont relays news of Ser Barristan Selmy** — A raven message reports Selmy's removal from the Kingsguard, his replacement by Clegane, and his escape after killing two gold cloaks
-4. **Mormont presents Longclaw to Jon** — The Old Bear gives Jon the Mormont ancestral Valyrian steel sword, reforged with a white wolf pommel carved by Pate, with garnets purchased by Sam
-5. **Mormont reveals Ser Alliser Thorne's reassignment** — Thorne sent to Eastwatch-by-the-Sea and then to King's Landing with the wight's severed hand; Ser Endrew Tarth coming from the Shadow Tower as new master-at-arms
-6. **Mormont dismisses Jon to resume duties** — Orders Jon to arrange hot spice wine and speak to Hobb about supper
-7. **Jon shows Longclaw to his friends** — Pyp, Grenn, Toad, Halder, Matt, and others admire the sword outside the King's Tower; they reveal they knew about the gift in advance
-8. **Jon returns to Hardin's Tower** — Jon retreats to his cell, shows Ghost the wolf pommel, and recalls finding Ghost as a pup separated from the litter
-9. **Sam summons Jon to Maester Aemon** — Sam arrives nervously; Jon realizes Sam told Aemon about revealing the news of Robb's march
-10. **Maester Aemon counsels Jon** — Aemon speaks about ravens, love vs. duty, and the Night's Watch vow of neutrality, using historical examples
-11. **Aemon reveals his identity** — Maester Aemon tells Jon he is Aemon Targaryen, son of King Maekar I, who chose duty over family three times; he tells Jon the choice of whether to stay or go is Jon's alone
+1. **Jon meets with Lord Mormont** — Jon visits the Old Bear in his new chambers in the King's Tower; Mormont asks about his healing hand.
+2. **Search for Benjen fails** — Mormont reports that Dywen and Hake returned with no sign of Benjen Stark.
+3. **News from King's Landing** — Mormont tells Jon that Ser Barristan Selmy has been removed from the Kingsguard, replaced by Clegane, and is now wanted for treason; Selmy slew two gold cloaks and escaped.
+4. **Mormont gives Jon Longclaw** — The Lord Commander presents his ancestral Valyrian steel sword, reforged with a white wolf's-head pommel carved in pale stone with garnet eyes, as reward for saving his life from the wight Othor.
+5. **Mormont explains Longclaw's history** — Five centuries in House Mormont; passed to his son Jorah, who left it behind when he fled in disgrace; Mormont's sister returned it; the fire damaged pommel and grip but not the blade.
+6. **Mormont announces Ser Endrew Tarth** — A knight from the Shadow Tower is coming to replace Ser Alliser Thorne as master-at-arms.
+7. **Mormont reveals Thorne's mission** — Ser Alliser has been sent to Eastwatch and then to King's Landing with the wight's severed hand to present to King Joffrey as proof of the threat.
+8. **Mormont admonishes Jon** — Tells Jon to act like a man, not a boy, referencing "that nonsense in the common hall."
+9. **Jon shows Longclaw to friends** — Outside the King's Tower, Pyp, Grenn, Toad, Halder, and Matt admire the sword; they already knew about it.
+10. **Jon recalls the wight attacks** — Reflects on how Othor was destroyed by fire, and how Jafer Flowers killed Ser Jaremy Rykker and four other men before being hacked apart.
+11. **Jon returns to Hardin's Tower** — Shows the sword pommel to Ghost; remembers finding Ghost alone in the snow, apart from the other pups.
+12. **Sam summons Jon to Maester Aemon** — Sam nervously tells Jon that Aemon wants to see him; Jon realizes Sam told Aemon about passing along the news of Robb's war.
+13. **Jon feeds ravens with Maester Aemon** — Clydas hands off the bucket; Jon throws chopped meat into cages while Aemon talks.
+14. **Aemon counsels Jon on duty vs. love** — The maester explains why the Night's Watch takes no wives and fathers no children, and speaks of the conflict between honor and love.
+15. **Aemon reveals his identity** — Maester Aemon tells Jon he is Aemon Targaryen, son of King Maekar I, brother of King Aegon; he was tested three times by the conflict between duty and love; he watched the ruin of his house from the Wall.
+16. **Aemon tells Jon to choose** — Refuses to tell Jon whether to stay or go; says Jon must make the choice himself and live with it.
 
 ## Spatial Layout & Movement
 | Phase | Who | Position / Movement | Relative To | Notes |
 |-------|-----|---------------------|-------------|-------|
-| Opening | Jon, Mormont | Inside Mormont's chambers | King's Tower | Seated at a table with rough oak planks |
-| Opening | Mormont's raven | On Mormont's shoulders, then hops to his head, then flies to perch above a window | King's Tower chamber | |
-| Departure | Jon | Winds down turret stair | King's Tower | Guards smile from niches along the stair |
-| Assembly | Pyp, Grenn, Toad, Halder, Matt, others | Lurking outside King's Tower | Granary doors (target hung for cover) | Pretending to practice archery |
-| Confrontation | Jon | Shows sword, then turns away abruptly | Outside King's Tower | Strides off sullen, ignoring Pyp |
-| Arrival | Jon | Returns to his old cell | Hardin's Tower | Ghost curled asleep beside the door |
+| Opening | Jon, Mormont | Seated in Mormont's chambers | King's Tower | Mormont at table; raven on his shoulders, then flies to window |
+| Departure | Jon | Descends turret stair | King's Tower | Guards in niches smile at him |
+| Assembly | Pyp, Grenn, Toad, Halder, Matt | Waiting outside King's Tower | Granary doors (target hung there as cover) | Pretending to practice archery |
+| Confrontation | Jon | Shows sword, then abruptly turns away | Friends outside King's Tower | Strides off sullen; Pyp calls after him |
+| Arrival | Jon | Returns to his cell | Hardin's Tower | Ghost asleep beside the door |
 | Arrival | Sam | Comes to Jon's cell | Hardin's Tower | Rocking nervously on heels |
-| Departure | Jon | Leaves Sam standing openmouthed | Hardin's Tower | Goes to find Maester Aemon |
-| Arrival | Jon | Finds Maester Aemon in the rookery | The rookery | Clydas present with bucket of meat |
-| Departure | Clydas | Hands Jon the bucket and scurries down the ladder | The rookery | Leaves Jon and Aemon alone |
-| Assembly | Jon, Aemon | Jon feeds ravens while Aemon talks | The rookery | Jon's hands bloody from meat; ravens watching |
+| Departure | Jon | Leaves Sam, goes to rookery | Hardin's Tower → rookery | Leaves Sam standing openmouthed |
+| Assembly | Jon, Maester Aemon, Clydas | In the rookery | Among raven cages | Clydas departs down ladder after handing off bucket |
+| Confrontation | Jon, Maester Aemon | Standing among cages | Rookery | Aemon's hand on Jon's shoulder; emotional revelation |
 
 ## Information Revealed
 | Information | How Revealed | Known To (Characters) | Known To (Reader Only?) |
 |-------------|-------------|----------------------|------------------------|
-| Ser Barristan Selmy removed from Kingsguard; Clegane given his place; Selmy wanted for treason, killed two gold cloaks, escaped | Raven message, Mormont tells Jon | Mormont, Jon | No |
-| Mormont's letters to King's Landing may have been ignored by Pycelle | Mormont speculates | Mormont, Jon | No |
-| Robb Stark has called the banners and marched south to war | Sam read the letter to Maester Aemon and whispered it to Jon in secret | Jon, Sam, Maester Aemon | No — but the Night's Watch leadership has not officially told Jon |
-| Longclaw is Valyrian steel, five centuries in the Mormont family | Mormont tells Jon | Mormont, Jon | No |
-| Jorah Mormont brought dishonor to his House; fled but left Longclaw behind; Mormont's sister returned it | Mormont tells Jon | Mormont, Jon | No |
-| Ser Alliser Thorne sent to Eastwatch and then King's Landing with the wight's hand | Mormont tells Jon | Mormont, Jon | No |
-| Ser Endrew Tarth coming from the Shadow Tower as new master-at-arms | Mormont tells Jon | Mormont, Jon | No |
-| Wight Jafer Flowers killed Ser Jaremy Rykker and four other men before being destroyed | Jon's recollection / common knowledge at Castle Black | Castle Black generally | No |
-| Maester Aemon is Aemon Targaryen, son of King Maekar I | Aemon reveals to Jon | Aemon, Jon (now) | No |
-| Aemon's brother Aegon reigned as king in his stead | Aemon reveals to Jon | Aemon, Jon | No |
-| Aemon was named for Prince Aemon the Dragonknight | Aemon reveals to Jon | Aemon, Jon | No |
-| Aemon was tested three times — as boy, as man, as old man — the last being the destruction of his House and kin | Aemon reveals to Jon | Aemon, Jon | No |
-| Sam told Aemon about revealing Robb's march to Jon | Jon deduces; Sam admits | Jon, Sam, Aemon | No |
-| Jon dreams of the burning corpse with his father's face | Jon's internal thought | Jon only | Yes |
+| Ser Barristan Selmy removed from Kingsguard, replaced by Clegane, wanted for treason; killed two gold cloaks, escaped | Raven message reported by Mormont | Mormont, Jon | No |
+| Dywen and Hake found no sign of Benjen Stark | Direct report by Mormont | Mormont, Jon, the men (common knowledge) | No |
+| Mormont sent two copies of a letter to King's Landing via Aemon's best birds; no reply received | Mormont tells Jon | Mormont, Aemon, Jon | No |
+| Robb Stark has called the banners and marched south | Sam read the letter to Aemon and whispered it to Jon in secret | Sam, Jon; also Aemon (he received the letter) | No |
+| Longclaw is a Mormont ancestral Valyrian steel sword, 500 years old | Mormont tells Jon its history | Mormont, Jon | No |
+| Jorah Mormont brought dishonor to House Mormont but left the sword behind when he fled | Mormont tells Jon | Mormont, Jon | No |
+| Mormont's sister returned Longclaw to the Old Bear | Mormont tells Jon | Mormont, Jon | No |
+| Ser Endrew Tarth coming from Shadow Tower as new master-at-arms | Mormont tells Jon | Mormont, Jon | No |
+| Ser Alliser Thorne sent to Eastwatch, then King's Landing with wight's hand | Mormont tells Jon | Mormont, Jon | No |
+| Sam told Aemon about sharing the letter's contents with Jon | Jon confronts Sam; Sam admits it | Jon, Sam, Aemon | No |
+| Maester Aemon is Aemon Targaryen, son of King Maekar I, brother of King Aegon V | Aemon reveals his identity to Jon | Aemon, Jon | No |
+| Aemon was tested three times in his vows; watched his house destroyed from the Wall | Aemon tells Jon | Aemon, Jon | No |
+| Heartsbane is House Tarly's Valyrian steel sword; Sam was once heir to it, Dickon will have it now | Sam tells Jon | Sam, Jon | No |
+| Jon dreams of the burning corpse wearing Lord Eddard's face | Jon's internal thought | Jon only | Yes (reader learns Jon's dream) |
 
 ## Dialogue of Note
 | Speaker | Listener | Quote/Paraphrase | Context |
 |---------|----------|------------------|---------|
 | Mormont | Jon | "The cold winds are rising. Summer is at an end, and a winter is coming such as this world has never seen." | After discussing the wights and Maester Aemon's agreement |
-| Mormont | Jon | "We have white shadows in the woods and unquiet dead stalking our halls, and a boy sits the Iron Throne." | Disgust at Selmy's dismissal and the state of the realm |
+| Mormont | Jon | "We have white shadows in the woods and unquiet dead stalking our halls, and a boy sits the Iron Throne." | Disgust at the political situation in King's Landing |
 | Mormont | Jon | "A sword's small payment for a life." | Presenting Longclaw to Jon |
-| Mormont | Jon | "Honor the steel with deeds, not words." | Refusing Jon's thanks |
-| Mormont | Jon | "That's a man's sword you have there, and it will take a man to wield her. I'll expect you to act the part, henceforth." | Warning Jon about his behavior in the common hall |
-| Pyp | Jon's friends | "The Night's Watch is thousands of years old, but I'll wager Lord Snow's the first brother ever honored for burning down the Lord Commander's Tower." | Joking about the fire |
-| Sam | Jon | "I was heir to my father's blade once. Heartsbane. Lord Randyll let me hold it a few times, but it always scared me." | Sam's mournful comparison when Jon asks if he wants to see the sword |
-| Aemon | Jon | "Love is the bane of honor, the death of duty." | Explaining why Night's Watch takes no wives |
-| Aemon | Jon | "What is honor compared to a woman's love? What is duty against the feel of a newborn son in your arms … or the memory of a brother's smile? Wind and words. Wind and words." | The speech on love vs. duty |
-| Aemon | Jon | "A craven can be as brave as any man, when there is nothing to fear. And we all do our duty, when there is no cost to it." | On the true test of honor |
-| Aemon | Jon | "It hurts, boy. Oh, yes. Choosing … it has always hurt. And always will. I know." | After Jon feels exposed |
+| Mormont | Jon | "That's a man's sword you have there, and it will take a man to wield her. I'll expect you to act the part, henceforth." | Admonishing Jon about behavior in the common hall |
+| Mormont | Jon | "He's bringing the hand your Ghost tore off the end of Jafer Flowers's wrist. I have commanded him to take ship to King's Landing and lay it before this boy king." | Explaining Thorne's mission |
+| Mormont | Jon | "As well, it puts a thousand leagues twixt him and you without it seeming a rebuke." | Secondary motive for sending Thorne away |
+| Pyp | Jon | "The Night's Watch is thousands of years old, but I'll wager Lord Snow's the first brother ever honored for burning down the Lord Commander's Tower." | Joking about how Jon earned the sword |
+| Sam | Jon | "I was heir to my father's blade once. Heartsbane. Lord Randyll let me hold it a few times, but it always scared me." | Connecting with Jon over Valyrian steel swords |
+| Aemon | Jon | "So they will not love, for love is the bane of honor, the death of duty." | Explaining why the Watch takes no wives |
+| Aemon | Jon | "What is honor compared to a woman's love? What is duty against the feel of a newborn son in your arms … or the memory of a brother's smile? Wind and words. Wind and words. We are only human, and the gods have fashioned us for love. That is our great glory, and our great tragedy." | Central speech on love vs. duty |
+| Aemon | Jon | "A craven can be as brave as any man, when there is nothing to fear. And we all do our duty, when there is no cost to it. How easy it seems then, to walk the path of honor. Yet soon or late in every man's life comes a day when it is not easy, a day when he must choose." | Preparing Jon for the choice ahead |
 | Aemon | Jon | "My father was Maekar, the First of his Name, and my brother Aegon reigned after him in my stead." | Revealing his identity as Aemon Targaryen |
-| Aemon | Jon | "I will not tell you stay or go. You must make that choice yourself, and live with it all the rest of your days. As I have." | Final counsel — leaving the choice to Jon |
+| Jon | Aemon | "You don't know. No one knows. Even if I am his bastard, he's still my father …" | Jon's bitter response before Aemon's revelation |
+| Aemon | Jon | "I will not tell you stay or go. You must make that choice yourself, and live with it all the rest of your days. As I have." | Refusing to make Jon's choice for him |
 
 ## POV Character's Internal State
-- **Emotional state:** Conflicted, angry, resentful, guilty. Jon feels he should be honored by Longclaw but cannot feel genuine pleasure. He is angry without knowing exactly why. He feels craven for not marching with Robb. He is disturbed by nightmares of his father's burning face. He feels exposed and shaken after Aemon's speech.
-- **Primary preoccupation:** The tension between his duty to the Night's Watch and his love for his family — his father in peril, his brother marching to war, his sisters unheard from. The sword should make him feel honored but instead reminds him of Ice, the sword he can never wield as a bastard.
-- **Key decisions made:** None yet — Jon is presented with the choice (stay or go) but the chapter ends with Aemon telling him the choice is his. Jon is clearly being pulled toward leaving.
-- **Self-deception flags:** Jon tells Mormont he is "well" and explicitly notes he "lied"; he makes himself smile at friends when his heart is not in it; he tries to sound "pleased and proud as he ought to have felt" when showing Longclaw; internally he knows Lord Eddard fathered a bastard, undermining his claim that his father would always do right — "a small sly voice whispered"
+- **Emotional state:** Conflicted, angry, bitter, and guilty. Jon feels he should be honored by Longclaw but cannot feel genuine pleasure. He aches with resentment that his friends and the Watch withhold information from him. He feels craven that Robb is marching to war while he remains on the Wall. His anger has no clear target — diffuse frustration at his situation.
+- **Primary preoccupation:** The tension between his duty to the Night's Watch and his desire to join Robb and fight for his family. His father's fate weighs on him heavily. The recurring nightmare of the burning corpse with Eddard's face terrifies him.
+- **Key decisions made:** No firm decision yet — Aemon leaves the choice to him. Jon accepts Longclaw but internally resists the emotional commitment it represents ("He is not my father").
+- **Self-deception flags:** Jon tells Mormont "I am well" — explicitly noted as a lie. He tries to "sound as pleased and proud as he ought to have felt" about Longclaw. He speaks "ringingly" about Eddard always doing right, overcompensating for his inner doubt about his father's honor regarding his own bastard birth. He tells himself "his place was here now" but does not believe it.
 
 ## Relationships Observed
 | Character A | Relationship | Character B | Evidence |
 |-------------|-------------|-------------|----------|
-| Jon Snow | sworn service / mentee | Jeor Mormont | Mormont gives Jon his family sword and warns him to behave like a man; Jon serves as his steward |
-| Jon Snow | bond / companion | Ghost | Ghost sleeps beside Jon's door; Jon shows Ghost the wolf pommel; Jon recalls finding Ghost alone in the snow, separate from the litter |
-| Jon Snow | filial love / grief | Eddard Stark | Jon dreams of his father's face on the burning corpse; "He is not my father" thought about Mormont immediately followed by "Lord Eddard Stark is my father. I will not forget him" |
-| Jon Snow | fraternal loyalty / guilt | Robb Stark | Jon feels craven that Robb is marching to war and he is not |
-| Jon Snow | friendship | Sam Tarly | Sam bought garnets for the pommel; Sam secretly told Jon about Robb; Jon is angry that Sam told Aemon about the leak, but the friendship is deep |
-| Jon Snow | friendship | Pyp, Grenn, Halder, Toad, Matt | They wait to see the sword; they knew about it and helped make it happen; Jon turns away from them brusquely |
-| Jeor Mormont | shame / disownment | Jorah Mormont | "My son brought dishonor to House Mormont"; the sight of the sword reminded him of Jorah's shame |
-| Jeor Mormont | family connection | Mormont's sister (unnamed) | She returned Longclaw to him after Jorah fled |
-| Maester Aemon | mentor / counselor | Jon Snow | Aemon summons Jon to counsel him about love vs. duty; shares his own identity and painful choices |
-| Maester Aemon | grief / familial loss | House Targaryen | Tears in his eyes speaking of his kin being cut down — brother's grandson, son, even the children |
-| Sam Tarly | fear / subservience | Lord Randyll Tarly | Sam was scared of Heartsbane; Randyll let him hold it but Sam feared cutting his sisters; Dickon will inherit instead |
-| Jon Snow | antagonism (resolved by distance) | Alliser Thorne | Mormont sent Thorne away partly to put distance between him and Jon; freeing Jon from "Alliser Thorne's malignance" |
-| Mormont | contempt | Joffrey / the court | Calls Joffrey "a boy" on the Iron Throne; calls gold cloaks sent against Selmy "fools" |
+| Jon Snow | Liege/steward to | Jeor Mormont | Jon serves as Mormont's steward; Mormont gives him commands about supper and duties |
+| Jeor Mormont | Rewards/mentors | Jon Snow | Gives Longclaw; admonishes him to act like a man; sends Thorne away partly to protect Jon |
+| Jon Snow | Bonded to | Ghost | Ghost is with Jon in his cell; Jon kneels and scratches his ear; shows him the pommel; remembers finding him |
+| Jon Snow | Mourns/worries for | Eddard Stark | Hopes for news; dreams of his father's burning face; internally insists "Lord Eddard Stark is my father" |
+| Jon Snow | Guilt toward | Robb Stark | Feels craven that Robb marches to war while he remains at the Wall |
+| Jon Snow | Worries for | Sansa/Arya (his sisters) | Asks Mormont about them; no news |
+| Samwell Tarly | Loyal but conflicted friend to | Jon Snow | Shared secret intelligence about Robb's war; told Aemon about it under pressure |
+| Jon Snow | Angry at | Samwell Tarly | Furious Sam told Aemon about sharing the letter; leaves him standing openmouthed |
+| Maester Aemon | Counsels/tests | Jon Snow | Summons Jon to the rookery; delivers speech on duty vs. love; reveals his identity to connect with Jon's dilemma |
+| Jon Snow | Friendly with | Pyp, Grenn, Toad, Halder, Matt | They wait to see the sword; joke with him; they helped with the pommel |
+| Halder | Collaborated with | Pate (builder) | Helped Pate carve the stone pommel |
+| Samwell Tarly | Bought garnets for | Jon Snow (Longclaw pommel) | Sam bought the garnets in Mole's Town |
+| Jeor Mormont | Ashamed of | Jorah Mormont | "My son brought dishonor to House Mormont"; the sight of the sword reminded him of Jorah's shame |
+| Mormont's sister | Returned Longclaw to | Jeor Mormont | Sent the sword back to him after Jorah fled |
+| Jeor Mormont | Hostile toward | Ser Alliser Thorne | Sends him away; notes it "puts a thousand leagues twixt him and you without it seeming a rebuke" |
+| Jeor Mormont | Contemptuous of | Joffrey / King's Landing court | "A boy sits the Iron Throne"; doubts they'll listen; calls gold cloaks fools for going against Selmy |
+| Mormont | Respected | Ser Barristan Selmy | Called him Mormont's "best hope"; snorted in disgust at those who sent watchmen against him |
+| Jafer Flowers (wight) | Killed | Ser Jaremy Rykker + four men | Headless corpse pulled Rykker's dagger and stabbed him in the bowels |
+| Jon Snow | Internal conflict about | Night's Watch vows | Feels torn between duty to the Watch and desire to fight beside Robb |
+| Aemon | Grieved for | House Targaryen | Watched from the Wall as his family was destroyed; tears in his eyes |
+| Rudge | Assisted | Donal Noye | Helped in the forge when Mormont brought the burnt blade |
 
 ## Unanswered Questions
 | Question | Raised By | Context |
 |----------|-----------|---------|
-| What has happened to Lord Eddard Stark? | Jon | No news in any raven message; Jon asks twice and gets no answer |
-| What has happened to Jon's sisters (Sansa and Arya)? | Jon | "The message made no mention of Lord Eddard or the girls" |
-| What happened to Benjen Stark? | Mormont, Jon | Dywen and Hake found no sign; all search parties have failed |
-| Why does Jon dream of the burning corpse with his father's face? | Jon | Jon does not understand what it means but it frightens him |
-| Will Jon stay with the Night's Watch or ride south to join Robb? | Maester Aemon | The central tension — Aemon explicitly leaves the choice to Jon |
-| Will the wight's hand convince King Joffrey and the court? | Jon | Mormont hopes it will get attention but the court has ignored them before |
-| What were the three tests of Maester Aemon's vows? | Jon / reader | Aemon mentions being tested as boy, man, and old man — gives detail only on the last |
-| Who or what are the "white shadows in the woods"? | Mormont | Mormont mentions them alongside the wights |
+| What has happened to Eddard Stark? | Jon | No news of his father in any messages; Jon hopes for word |
+| What has happened to Sansa and Arya? | Jon | No mention of them in the message; Jon asks specifically |
+| What will Jon choose — stay at the Wall or go to Robb? | Maester Aemon | Aemon explicitly frames this as Jon's choice to make |
+| Why does Jon dream of the burning corpse with his father's face? | Jon | He does not understand what it means but it frightens him |
+| What happened to Benjen Stark? | Mormont | Dywen and Hake found no sign; all search parties have failed |
+| Did Mormont's letter ever reach King's Landing? | Mormont | Two copies sent; no reply; Pycelle may have ignored it |
+| What are the "white shadows in the woods"? | Mormont | Mentioned alongside the wights; nature unclear in this chapter |
+| What were Aemon's three tests of his vows? | Aemon | He mentions three times but only elaborates on the last (watching his house fall) |
 
 ## Raw Entity List
+
 ### Characters
-Jon Snow, Jeor Mormont (the Old Bear), Mormont's raven, Ghost, Pyp, Grenn, Toad, Halder, Matt, Samwell Tarly, Maester Aemon (Aemon Targaryen), Clydas, Eddard Stark, Robb Stark, Benjen Stark, Bran Stark, Ser Barristan Selmy, Sandor Clegane, Joffrey Baratheon, Ser Alliser Thorne, Ser Endrew Tarth, Jorah Mormont, Mormont's sister (unnamed), Othor, Jafer Flowers, Ser Jaremy Rykker, Dywen, Hake, Pate (builder), Rudge, Donal Noye, Grand Maester Pycelle, Hobb (cook), Lord Randyll Tarly, Dickon Tarly, Baelor the Blessed, King Maekar I, King Aegon (Aemon's brother), Prince Aemon the Dragonknight, Black Harren (Harren the Black), Jon's mother (unnamed)
+Jon Snow, Jeor Mormont (the Old Bear), Mormont's raven, Ghost, Pyp, Grenn, Toad, Halder, Matt, Samwell Tarly, Maester Aemon (Aemon Targaryen), Clydas, Benjen Stark, Eddard Stark, Ser Barristan Selmy (Barristan the Bold), Sandor Clegane, Joffrey, Robb Stark, Bran Stark, Sansa Stark (referenced as "sisters"), Arya Stark (referenced as "sisters"), Othor, Jafer Flowers, Ser Jaremy Rykker, Jorah Mormont, Mormont's sister (unnamed), Ser Endrew Tarth, Ser Alliser Thorne, Hobb (Three-Eyed Hobb), Dywen, Hake, Rudge, Pate (builder), Donal Noye, Grand Maester Pycelle, Dickon Tarly, Lord Randyll Tarly, Sam's sisters (unnamed), Baelor the Blessed, Aegon (Aemon's brother, King Aegon V), Maekar I (Aemon's father), Prince Aemon the Dragonknight, Black Harren (Harren the Black), Harren's brother (unnamed Lord Commander), Aegon the Conqueror
 
 ### Locations
-Castle Black, King's Tower, Hardin's Tower, the rookery, the common hall, the granary, Lord Commander's Tower (gutted by fire), Mole's Town, King's Landing, the Shadow Tower, Eastwatch-by-the-Sea, the riverlands, the Wall, the Citadel, the Iron Throne (location reference), the narrow sea (referenced)
+Castle Black, King's Tower, Lord Commander's Tower (old, fire-gutted), Hardin's Tower, the rookery, the granary, the common hall, the Wall, Mole's Town, Shadow Tower, Eastwatch-by-the-Sea, King's Landing, the Iron Throne (as location/seat of power), the riverlands, the Citadel, the narrow sea (referenced in Aemon's history)
 
-### Artifacts
-Longclaw (Valyrian steel bastard sword), Ice (Valyrian steel greatsword), Heartsbane (Valyrian steel sword), the wight's severed hand, maester's chain (Aemon's), milk of the poppy
+### Houses
+House Mormont, House Stark, House Targaryen, House Tarly
 
-### Houses/Factions
-House Stark, House Mormont, House Targaryen, House Tarly, the Night's Watch, the Kingsguard, the gold cloaks (City Watch of King's Landing), the Andals (referenced historically), the First Men (referenced historically)
+### Factions & Organizations
+Night's Watch, Kingsguard, gold cloaks (City Watch of King's Landing)
+
+### Religions & Faiths
+The gods (generic — Jon "thanked the gods"); the Seven Kingdoms' religious context ("some godly men abhor them" re: ravens)
+
+### Cultures & Peoples
+Wildlings (referenced — "the wildlings call us crows"), the First Men (referenced in Aemon's history — Andals swept away their kingdoms), the Andals (referenced — "crossed the narrow sea")
+
+### Artifacts & Objects
+Longclaw (Valyrian steel bastard sword, wolf's-head pommel with garnet eyes, black metal scabbard banded with silver), Ice (Valyrian steel greatsword, House Stark), Heartsbane (Valyrian steel sword, House Tarly), Jafer Flowers's severed hand (wight evidence), maester's chain (Aemon's), milk of the poppy (used for Jon's pain)
+
+### In-world Texts & Songs
+Mormont's letter to King's Landing (two copies sent via raven), the raven message about Ser Barristan Selmy
+
+### Magic & Phenomena
+Wights (reanimated dead — Othor and Jafer Flowers; blue eyes, black hands; driven out by fire), "white shadows in the woods" (referenced by Mormont), the Long Night (referenced — "eight thousand years"), Jon's prophetic/disturbing dream (burning corpse with father's face)
+
+### Wars & Conflicts
+Robb Stark's war / fighting in the riverlands, Aegon's Conquest (referenced — Aegon slew Black Harren), the wars of the Seven Kingdoms era (referenced in Aemon's speech)
+
+### Titles & Offices
+Lord Commander of the Night's Watch, King (Joffrey on Iron Throne; Maekar I; Aegon V), master-at-arms (position Ser Endrew Tarth will assume), Lord of Bear Island (implied — Mormont's former title), Kingsguard member, Hand of the King (implied context of court)
+
+### Other
+"Winter is coming" (Stark words), the Night's Watch vow of celibacy and political neutrality (discussed at length by Aemon)

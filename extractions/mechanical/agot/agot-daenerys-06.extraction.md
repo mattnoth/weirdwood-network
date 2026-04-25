@@ -7,241 +7,361 @@
 - **pov_chapter_number:** Daenerys VI
 - **first_available:** AGOT Daenerys VI
 - **location_primary:** Vaes Dothrak
-- **location_secondary:** Western Market (Vaes Dothrak), Eastern Market (mentioned)
-- **approximate_timeline:** Shortly after Viserys's death; Daenerys is visibly pregnant; the khalasar departs Vaes Dothrak two days after the assassination attempt
-- **time_markers:** Morning (handmaids summoned after Drogo leaves to hunt); "wandered for half the morning" at market; stars coming out when Drogo returns; brazier cold by the time Drogo returns; khalasar departs two days later
-- **chapter_summary:** Daenerys tries to persuade Khal Drogo to cross the Narrow Sea and invade Westeros, but he dismisses the idea and leaves to hunt hrakkar. Dany visits the Western Market with Ser Jorah and her retinue, where Ser Jorah — having read a letter from Illyrio warning of Robert Baratheon's assassination bounty — exposes a wine merchant's attempt to poison Dany with a cask of Arbor wine. Back in her dwelling, Dany learns from the letter that Robert offers lands and lordships for her death. She places her three dragon eggs in a lit brazier, but they do not hatch. Drogo returns from a successful hunt, learns of the assassination attempt, and vows before the Mother of Mountains to cross the sea, conquer the Seven Kingdoms, and give Rhaego the Iron Throne. The khalasar departs Vaes Dothrak two days later with the poisoner chained to Dany's silver mare.
+- **location_secondary:** Western Market, Eastern Market (recalled)
+- **approximate_timeline:** Late in AGOT; Daenerys is heavily pregnant with Rhaego; Viserys is already dead; the khalasar departs Vaes Dothrak at chapter's end
+- **time_markers:** Morning through evening in the main day (Drogo hunts during the day, returns after stars come out); "half the morning" spent wandering the market; "two days later" the khalasar departs Vaes Dothrak; a great caravan arrived "during the night"; Dany's pregnancy is advanced (she feels "fat and ungainly")
+- **chapter_summary:** Daenerys tries to persuade Khal Drogo to cross the sea and claim the Iron Throne, but he refuses. After Drogo leaves to hunt hrakkar, Dany visits the Western Market with Ser Jorah, her handmaids, and her khas. A wine merchant attempts to poison Dany with a cask of wine, but Ser Jorah intervenes after reading a warning letter from Illyrio about Robert Baratheon's assassination bounty. The poisoner is captured. Dany places her three dragon eggs in a lit brazier, but nothing happens. Drogo returns from a successful hunt and, upon hearing of the assassination attempt, vows to invade Westeros with his khalasar. They depart Vaes Dothrak two days later.
 
 ## Physical Environment
-- **Weather:** Warm and cloudless; deep blue sky; wind blowing
+- **Weather:** Warm and cloudless day; deep blue sky
 - **Season indicators:** None explicitly stated
-- **Time of day:** Morning through evening — chapter begins at dawn/morning (Drogo rising from sleeping mats), continues through the morning market visit, and ends at nightfall (stars coming out) when Drogo returns; final scene is two days later at departure
-- **Lighting:** Ruddy light from a brazier (opening scene); sunlight and shadow alternating as litter passes beneath stolen monuments; lamplight limning dragon eggs in the dwelling; starlight at Drogo's return
-- **Sounds:** Snap of Jhogo's whip; wine merchant's sales cries ("Sweet reds!"); ambient market noise
-- **Smells:** Rich scents of grass and earth on the wind; sharp odors of garlic and pepper at the Western Market; heady sweet perfumes of Lys; scented oils that remind Dany of childhood
-- **Notable sensory details:** Heat shimmering in waves around dragon eggs in the brazier; shifting lamplight making motes of jade, scarlet, and gold swim in air around eggs; Drogo's skin shining dark as bronze; sweat on the wine merchant's brow; taste of fear in Dany's mouth; the baby moving restlessly inside her
+- **Time of day:** Morning (after Drogo departs to hunt) through evening (stars coming out when Drogo returns); transitions across the full day
+- **Lighting:** Ruddy light from a brazier (opening scene); sunlight and shadow alternating as Dany passes beneath stolen monuments; shifting lamplight inside Dany's dwelling (evening scene with dragon eggs); starlight when Drogo returns
+- **Sounds:** Snap of Jhogo's whip; the wine merchant's sales cry calling out his wares in fluent Dothraki; high ululating voices of spellsingers in the Eastern Market (recalled)
+- **Smells:** Sharp odors of garlic and pepper in the Western Market; heady sweet perfumes of Lys; rich scents of grass and earth on the wind; scented oils recalling Dany's childhood
+- **Notable sensory details:** Dany's body feels fat and ungainly; heat shimmers in waves around the dragon eggs in the brazier; the taste of fear in Dany's mouth; Rhaego moving restlessly inside her womb; coarse dark hair on Ser Jorah's knuckles; the wineseller's sweat on his brow
 
 ## Characters Present
 | Character | Role in Chapter | First Appearance? | Notes |
 |-----------|----------------|-------------------|-------|
-| Daenerys Targaryen | POV character | No | Pregnant, trying to persuade Drogo to invade Westeros; survives assassination attempt; places dragon eggs in fire |
-| Khal Drogo | Major — Dany's husband | No | Dismisses Westeros invasion; hunts hrakkar; vows to conquer Seven Kingdoms after learning of assassination attempt |
-| Ser Jorah Mormont | Major — advisor/protector | No | Reads Illyrio's letter, suspects poison, exposes wine merchant; receives gift horse from Drogo |
-| Doreah | Supporting — handmaid | No | Combs Dany's hair; catches Dany when she falls during assassination attempt; looks longingly at fertility charm |
-| Irri | Supporting — handmaid | No | Helps Dany from litter; comments that Dany hasn't laughed since Viserys's death |
-| Jhiqui | Supporting — handmaid | No | Sent to find Ser Jorah; helps Dany to her feet after assassination attempt |
-| Jhogo | Supporting — khas warrior | No | Reaches for whip during confrontation; catches wine merchant with his whip; receives gift horse from Drogo |
-| Aggo | Supporting — khas warrior | No | Tasked with carrying the wine cask to the litter |
-| Rakharo | Supporting — khas warrior | No | Eats three sausages; the wine merchant darts between him and Aggo |
-| Quaro | Supporting — khas warrior | No | Eats two sausages; reaches for an arakh that isn't there as wine merchant flees |
-| Wine merchant (unnamed) | Antagonist — assassin | Yes | Lysene man posing as wine merchant; attempts to poison Dany with a cask of Arbor red; caught by Jhogo's whip; later chained to Dany's horse |
-| Byan Votyris | Minor — merchant captain | Yes | Norvoshi merchant captain of the caravan; orders the wine merchant seized; gifts the poisoner's goods to Dany |
-| Cohollo | Minor — Drogo's bloodrider | No | Leading packhorse with hrakkar carcass when Drogo returns |
-| Old sausage woman (unnamed) | Minor — food vendor | Yes | Pentoshi woman grilling sausages at the Western Market |
+| Daenerys Targaryen | POV character | No | Pregnant with Rhaego; attempts to persuade Drogo to invade Westeros; survives assassination attempt; places dragon eggs in fire |
+| Khal Drogo | Dany's husband, khal | No | Refuses to cross the sea; hunts hrakkar; vows to invade Westeros after learning of the poisoning attempt |
+| Ser Jorah Mormont | Advisor/protector | No | Warns Dany about the poisoned wine; reads Illyrio's letter; receives a horse as gift from Drogo |
+| Doreah | Handmaid | No | Combs Dany's hair; catches Dany when she falls to protect her belly |
+| Irri | Handmaid | No | Helps Dany from the litter; comments on Dany's laughter |
+| Jhiqui | Handmaid | No | Sent to find Ser Jorah; helps Dany back to her feet after the poisoning attempt |
+| Jhogo | Khas member | No | Reaches for his whip when the wineseller hesitates; catches the fleeing wineseller with his whip; receives a horse from Drogo |
+| Aggo | Khas member | No | Tasked with carrying the wine cask |
+| Rakharo | Khas member | No | Eats three sausages; the wineseller darts between him and Aggo |
+| Quaro | Khas member | No | Eats a second sausage; reaches for an arakh that isn't there; the wineseller slams him aside |
+| Wine merchant (poisoner) | Antagonist | Yes | Lysene appearance; attempts to poison Dany with wine; captured; chained to Dany's horse at chapter's end |
+| Merchant Captain Byan Votyris | Caravan master | Yes | Norvoshi; arrives with the caravan; orders the wineseller taken away; gifts his goods to Dany |
+| Cohollo | Drogo's bloodrider | No | Leading a packhorse with the hrakkar carcass at chapter's end |
+| Old sausage woman | Market vendor | Yes | Pentoshi woman grilling sausages; explains she uses horsemeat instead of pork |
 
 ## Character Appearances
 | Character | Hair | Eyes | Build/Height | Scars/Marks | Clothing/Armor | Weapons Worn | Distinguishing Features | Age (if stated) |
 |-----------|------|------|-------------|-------------|----------------|-------------|------------------------|-----------------|
-| Khal Drogo | Ink-black, loose and unbound, cascading over shoulders and down his back, well past his waist; never been cut | | Tall, towers above Dany; broad chest | Faint lines of old scars on broad chest; fresh scars on leg from hrakkar | Painted vest, wide belt with heavy medallions of silver, gold, and bronze; horsehair leggings | | Skin dark as bronze; long mustachio; manhood glistened wetly (post-coitus) | |
-| Ser Jorah Mormont | | Dark eyes | Thick chest, muscular arms | | Horsehair leggings and painted vest, like a rider | No weapons (sacred city) | Coarse black hair covering chest and arms; big, hard, dangerous hands with knuckles covered in coarse dark hairs | |
-| Wine merchant | Flaxen hair, curled and perfumed after the fashion of Lys | | Small, slender | | | Hammer (tool, not weapon) | Handsome; sheen of sweat on brow during confrontation | |
-| Byan Votyris | | | Diminutive | | | | Skin like old leather; bristling blue mustachio swept up to ears | |
-| Daenerys Targaryen | Oiled hair (combed out by Doreah) | | Body feels fat and ungainly (pregnancy) | | Sandsilk, loose and flowing; silver medallions on belt; red silk curtains on litter | | Sun-browned skin; taken for Dothraki in her clothes | |
+| Khal Drogo | Ink-black, loose and unbound, cascading past his waist; never been cut | — | Towers above Dany; broad chest | Faint lines of old scars on broad chest; new scars on leg from hrakkar | Painted vest, wide belt with heavy medallions of silver, gold, and bronze | — | Skin dark as bronze; long mustachio | — |
+| Ser Jorah Mormont | — | Dark eyes | Thick chest, muscular arms | — | Horsehair leggings and painted vest, like a rider | None (no weapons allowed in sacred city); hands described as big, hard, dangerous | Coarse black hair covering chest and arms; coarse dark hairs on knuckles | — |
+| Wine merchant (poisoner) | Flaxen, curled and perfumed after the fashion of Lys | — | Small, slender | — | — | — | Handsome | — |
+| Merchant Captain Byan Votyris | — | — | Diminutive | — | — | — | Skin like old leather; bristling blue mustachio sweeping up to his ears | — |
+| Dany's khas (collectively) | — | Dark, almond-shaped | — | — | — | No arakhs (sacred city) | — | Young |
+| Eunuch guard (at goldwork stall) | Hairless | — | Huge | — | Sweat-stained velvets | — | Mute | — |
+| Old sausage woman | — | — | — | — | — | — | Wizened, little | — |
 
 ## Characters Referenced
 | Character | Context of Reference | Referenced By |
 |-----------|---------------------|---------------|
-| Viserys Targaryen | Dead; his promises of returning to Westeros died with him; Irri calls him "your brother the Khal Rhaggat" (referencing his golden crown death) | Dany (internal), Irri |
-| Rhaego | Unborn son; Drogo says the stallion who mounts the world needs no iron chair; Dany tells wine merchant her son already has a name; Drogo pledges him the Seven Kingdoms | Dany, Drogo |
-| Robert Baratheon | "The Usurper" — offers lands and lordships for the deaths of Dany, Viserys, and the unborn child | Dany, Ser Jorah (via Illyrio's letter) |
-| Illyrio Mopatis | Wrote a letter to Viserys warning of Robert's assassination bounty; may have sent letters with the caravan; Ser Jorah read his letter | Ser Jorah |
-| Rhaegar Targaryen | "Your brother Rhaegar was the last dragon" — Dany recalls Ser Jorah's earlier words while gazing at the unhatched eggs | Dany (recalling Ser Jorah's words) |
-| Bharbo | Drogo's father — Drogo names himself "Drogo son of Bharbo" in his vow | Drogo |
+| Viserys Targaryen | Dany recalls his promises to take her home; Irri references his death ("crowned by Drogo"); Illyrio's letter was addressed to him; the Usurper's bounty was also on him | Dany (internal), Irri, Ser Jorah |
+| Rhaego | Dany's unborn son; named as "the stallion who mounts the world"; Drogo pledges the Iron Throne to him | Dany, Drogo |
+| Illyrio Mopatis | Sent a letter warning of Robert's assassination bounty; Ser Jorah expected a letter from him with the caravan | Ser Jorah |
+| Robert Baratheon | "The Usurper" — offers lands and lordships for the deaths of Dany and Viserys | Ser Jorah, Dany |
+| Rhaegar Targaryen | Recalled via Ser Jorah's earlier words: "Your brother Rhaegar was the last dragon" | Dany (internal) |
+| Bharbo | Drogo's father; Drogo identifies himself as "Drogo son of Bharbo" in his vow | Drogo |
+| Dany's father (Aerys II, implied) | Referenced as "her mother's father" who sat the iron chair — actually should be "his mother's father" referring to Rhaego's lineage; Drogo says "this iron chair his mother's father sat in" | Drogo |
 
 ## Locations
 | Location | Role | First Appearance? |
 |----------|------|-------------------|
-| Vaes Dothrak | Primary setting — sacred Dothraki city | No |
-| Western Market (Vaes Dothrak) | Scene of assassination attempt and market visit | No (uncertain — verify) |
-| Eastern Market (Vaes Dothrak) | Referenced — Dany's usual market | No (uncertain — verify) |
-| The Seven Kingdoms / Westeros | Goal of Dany's persuasion; object of Drogo's vow | No |
-| Pentos | Origin of caravan; Dany's childhood memories | No |
-| Norvos | Caravan route waypoint | No |
-| Qohor | Caravan route waypoint | No |
+| Vaes Dothrak | Primary setting; sacred Dothraki city | No |
+| Western Market | Where the assassination attempt occurs | No (uncertain — verify) |
+| Eastern Market | Recalled by Dany as a place she enjoys visiting | No (uncertain — verify) |
+| The Dothraki sea (plains) | Khalasar departs across it; the sausage woman's pigs died there | No |
+| Seven Kingdoms / Westeros | Discussed as invasion target | No |
 | Bear Island | Ser Jorah's home | No |
+| Pentos | Caravan's origin; Dany's childhood memories | No |
+| Norvos | Caravan route | No (uncertain — verify) |
+| Qohor | Caravan route | No (uncertain — verify) |
 | The Arbor | Origin of the poisoned wine | No |
-| Lys | Origin of perfumes and wines mentioned | No |
-| Tyrosh | Dany's childhood memories of bazaars and honeyfingers | No |
-| Myr | Dany's childhood memories; Myrish lace sold at market | No |
-| Dorne | Wine merchant mentions Dornish summerwine | No |
-| Lorath | Ser Jorah compares small island cities | No |
-| Volantis | Sweet reds from Volantis mentioned by wine merchant | No |
-| The Jade Sea | Drogo talks of plundering lands around it | No |
-| Mother of Mountains | Sacred Dothraki mountain; Drogo swears his vow before it | No |
-| Womb of the World | Sacred Dothraki lake; must not be profaned | No |
-| Asshai | Mentioned — dark solemn Asshai'i seen at Eastern Market | No |
-| Qarth | Mentioned — tall pale Qartheen at Eastern Market | No |
-| Yi Ti | Mentioned — bright-eyed men in monkey-tail hats | No |
-| Bayasabhad | Mentioned — warrior maids with iron rings and rubies | No |
-| Shamyriana | Mentioned — warrior maids | No |
-| Kayakayanaya | Mentioned — warrior maids | No |
-| Summer Isles | Origin of a feathered cloak Dany acquires | No |
-| Lannisport | Goldwork sold at market | No |
-| Jogos Nhai | Mentioned — striped black-and-white horses | No |
+| Lys | Wines and perfumes from there; wine merchant styled after Lysene fashion | No |
+| Tyrosh | Dany's childhood memories; sausages and honeyfingers | No |
+| Myr | Dany's childhood memories; Myrish lace; pale green nectars | No |
+| Volantis | Sweet reds from there | No (uncertain — verify) |
+| Dorne | Summerwine from there | No |
+| Lorath | Mentioned as example of small island cities | No (uncertain — verify) |
+| Mother of Mountains | Sacred Dothraki mountain; must not be profaned; Drogo swears before it | No |
+| Womb of the World | Sacred Dothraki site; must not be profaned | No |
+| Free Cities | General reference; Valyrian speech | No |
+| Jade Sea | Drogo considers plundering lands around it | No (uncertain — verify) |
+| Summer Isles | Origin of a feathered cloak | No |
+| Lannisport | Origin of goldwork sold at market | No (uncertain — verify) |
+| Yi Ti | Fat cloth trader from there; monkey-tail hats | No |
+| Asshai | Dark solemn Asshai'i people at the Eastern Market | No |
+| Qarth | Tall pale Qartheen at the Eastern Market | No |
+| Bayasabhad | Warrior maids from there | No (uncertain — verify) |
+| Shamyriana | Warrior maids from there | No (uncertain — verify) |
+| Kayakayanaya | Warrior maids from there | No (uncertain — verify) |
 
 ## Location Descriptions
 | Location | Defensive Features | Architecture/Layout | Interior Details | Scale | Condition | Surrounding Terrain/Geography | Notable Sensory Details |
 |----------|--------------------|--------------------|-----------------| ------|-----------|------------------------------|------------------------|
-| Western Market (Vaes Dothrak) | | Great square of beaten earth surrounded by warrens of mud-baked brick, animal pens, whitewashed drinking halls; hummocks rising from the ground like backs of great subterranean beasts with yawning black mouths leading down to cool cavernous storerooms below; interior is a maze of stalls and crookback aisles shaded by awnings of woven grass | | A hundred merchants and traders setting up when Dany arrives | Hushed and deserted compared to bazaars of Pentos and Free Cities | | Sharp odors of garlic and pepper; heady sweet perfumes of Lys |
-| Vaes Dothrak (general) | | Stolen monuments lining the approach; hollow hummock of earth serving as Dany's dwelling | Cushions inside the hummock dwelling; dark velvet nest for dragon eggs; brazier; smokehole | | | Plains; grass; Dothraki sea | Rich scents of grass and earth on the wind; sunlight to shadow beneath monuments |
+| Western Market | — | Great square of beaten earth surrounded by warrens of mud-baked brick, animal pens, whitewashed drinking halls; interior is a maze of stalls and crookback aisles shaded by awnings of woven grass | — | A hundred merchants and traders setting up | Active, functioning | Hummocks rising from the ground like backs of great subterranean beasts, with yawning black mouths leading down to cool cavernous storerooms below | Sharp odors of garlic and pepper; heady sweet perfumes of Lys |
+| Dany's dwelling (in Vaes Dothrak) | — | Hollow hummock of earth | Cushions; smokehole for ventilation; brazier; dragon eggs resting in nest of dark velvet | — | — | — | Shifting lamplight; heat shimmering around eggs |
+| Vaes Dothrak (general) | — | Stolen monuments lining paths — faces of dead heroes and forgotten kings | — | — | — | — | Alternating sunlight and shadow passing beneath monuments |
 
 ## Artifacts & Objects of Significance
 | Artifact | Context | First Appearance? | Current Holder/Location |
 |----------|---------|-------------------|------------------------|
-| Dragon eggs (three) | Dany places all three in brazier coals — black-and-scarlet egg placed first, two others beside it; scales seem to glow drinking heat; flames lick against the stone; they do not hatch; described as "pretty rocks" after; jade, scarlet, and gold motes shimmer around them in lamplight | No | Daenerys — in her dwelling in Vaes Dothrak |
-| Iron Throne ("iron chair") | Drogo dismisses it initially; later vows to give it to Rhaego; described as the chair Dany's mother's father sat in | No | Referenced — in Westeros |
-| Illyrio's letter | Folded parchment addressed to Viserys; warns of Robert Baratheon's bounty on Targaryen lives — lands and lordships offered for their deaths | Yes | Ser Jorah reads it and shows it to Dany |
-| Poisoned wine cask | Small oaken cask with cluster of grapes burned into wood (Redwyne sigil); purportedly dry red from the Arbor; smashed open when wine merchant throws it at Dany; wine leaks into dirt | Yes | Destroyed — smashed on ground |
-| Feathered cloak (Summer Isles) | Dany takes it as a gift, trading a silver medallion from her belt | Yes | Daenerys |
-| Scented oils (twelve flasks) | Perfumes of Dany's childhood; she closes her eyes and sees the big house with the red door | Yes | Daenerys |
-| Fertility charm | From a magician's booth; Doreah looked at it longingly; Dany takes it and gives it to Doreah | Yes | Doreah |
-| Hrakkar carcass (great white lion) | Drogo returns from hunt with it slung across a packhorse; vows to make Dany a cloak from its skin | Yes | Drogo |
-| Jhogo's whip | Used to catch the fleeing wine merchant; leather coils around his leg | No | Jhogo |
+| Dragon eggs (three) | Dany places them in the brazier; black-and-scarlet egg handled first; they glow with heat but do not hatch; described as "pretty rocks" afterward | No | Dany; resting in nest of dark velvet, placed in brazier then presumably retrieved |
+| Iron Throne ("iron chair") | Object of political desire; Drogo pledges to give it to Rhaego | No | In Westeros |
+| Illyrio's letter | Folded parchment warning of Robert's assassination bounty; addressed to Viserys | Yes | Ser Jorah reads it to Dany |
+| Poisoned wine cask | Small oaken cask with cluster of grapes burned into the wood (Redwyne sigil); smashed on the ground when the wineseller hurls it | Yes | Destroyed; wine leaked into dirt |
+| Hrakkar carcass (great white lion) | Drogo's hunting trophy; he promises to make Dany a cloak from its skin | Yes | Slung across a packhorse |
+| Dany's silver horse | Her mount, Drogo's bride gift | No | Dany rides it when departing |
+| Drogo's great red stallion | His mount | No | Drogo rides it |
+| Feathered cloak from the Summer Isles | Dany takes it as a gift, trades a silver medallion | Yes | Dany |
+| Scented oils (dozen flasks) | Perfumes of Dany's childhood | Yes | Dany |
+| Fertility charm | Doreah looks at it longingly at a magician's booth; Dany takes it for her | Yes | Doreah |
+| Jhogo's whip | Used to catch the fleeing wineseller | No | Jhogo |
 
 ## Food & Drink
 | Meal/Occasion | Food Items Described | Drink | Who Is Eating/Drinking | Where | Preparation/Presentation Notes |
 |--------------|---------------------|-------|----------------------|-------|-------------------------------|
-| Market sausages | Sausages made with horsemeat (normally pork in Pentos), lots of garlic and hot peppers, with onions | | Dany, Doreah, Irri, Jhiqui, Quaro (two sausages), Rakharo (four sausages — belching loudly) | Western Market, at a stall | Grilled on a hot firestone by a wizened old Pentoshi woman; Dany says they taste different than she remembers; old woman explains her pigs died on the Dothraki sea so she uses horsemeat |
-| Eastern Market foods (recalled) | Tree eggs, locust pie, green noodles | | Dany (habitual) | Eastern Market | Dany nibbles these on her usual morning visits |
-| Childhood memories | Sausages, honeyfingers | | Dany (childhood) | Bazaars of Tyrosh | Honeyfingers baked in Tyrosh — Dany asks Ser Jorah if they have them in the Seven Kingdoms |
-| Wine tasting — assassination attempt | | Dry red from the Arbor (offered); also advertised: sweet reds from Lys, Volantis, the Arbor; whites from Lys; Tyroshi pear brandy; firewine; pepperwine; pale green nectars of Myr; smokeberry browns; Andalish sours; Dornish summerwine (first offered) | Dany (offered but never drunk); Ser Jorah (sniffs but does not drink); wine merchant (refuses to drink) | Western Market, wine merchant's stall | Thimble-sized tasting cups; wine merchant pours deftly without spilling a drop; poisoned cask has Redwyne sigil (cluster of grapes) burned into the wood |
+| Market sausages | Sausages made of horsemeat with garlic and hot peppers, grilled with onions on a hot firestone | — | Dany, her handmaids (giggling and grinning), Quaro (has two), Rakharo (eats four total, belching loudly); khas men sniff suspiciously at first | Western Market stall | Originally made with pork in Pentos; adapted to horsemeat because pigs died on the Dothraki sea; Dany notes they taste different than she remembers |
+| Eastern Market foods (recalled) | Tree eggs, locust pie, green noodles | — | Dany (habitual) | Eastern Market | Nibbled during morning visits |
+| Childhood foods (recalled) | Sausages, honeyfingers | — | Dany as a child | Bazaars of Free Cities (Tyrosh) | Honeyfingers baked in Tyrosh; seldom had coin to buy anything |
+| Wine tasting | — | Sweet reds from Lys, Volantis, and the Arbor; whites from Lys; Tyroshi pear brandy; firewine; pepperwine; pale green nectars of Myr; smokeberry browns; Andalish sours; sweet red from Dorne ("sings of plums and cherries and rich dark oak"); dry red from the Arbor ("crisp and delectable") — the last being the poisoned cask | Dany asks to taste summerwine; neither she nor anyone else drinks it | Western Market, wine merchant's stall | Thimble-sized tasting cups; the "Dornish swill" is dismissed in favor of the Arbor dry red; wine poured deftly without spilling a drop |
 
 ## Hospitality & Guest Right
 | Event | Type | Host | Guest(s) | Details |
 |-------|------|------|----------|---------|
-| Dothraki market peace | safe_conduct | Dothraki / dosh khaleen | Caravan merchants and traders | Caravans come and go unmolested so long as they observe the peace of the sacred city, do not profane the Mother of Mountains or Womb of the World, and honor the crones of the dosh khaleen with traditional gifts of salt, silver, and seed |
-| Byan Votyris gifts poisoner's goods | gift_exchange | Byan Votyris | Daenerys | "His goods I gift to you as well, Princess — small token of regret that one of mine would do this thing" |
-| Drogo's gift horses | gift_exchange | Khal Drogo | Jhogo, Ser Jorah | Drogo tells each to choose any horse from his herds (except his red stallion and Dany's silver) as reward for protecting Dany |
+| Caravan peace in Vaes Dothrak | safe_conduct | Dothraki (implied) | Caravan traders | Riders let caravans come and go unmolested if they observe the peace of the sacred city, do not profane the Mother of Mountains or the Womb of the World, and honor the dosh khaleen with traditional gifts of salt, silver, and seed |
+| Byan Votyris gifts goods to Dany | gift_exchange | Merchant Captain Byan Votyris | Daenerys | Gifts the wineseller's goods to Dany as a "small token of regret" for the assassination attempt |
+| Wine merchant offers a cask | gift_exchange | Wine merchant | Daenerys | Offers a cask of Arbor wine as a gift to the princess — actually a poisoning attempt; violates the implied hospitality of trade |
 
 ## Events & Actions
-1. **Drogo dismisses Westeros invasion** — After sex, Dany raises the conquest of Westeros; Drogo declares the stallion who mounts the world needs no iron chair and speaks of hunting, not sailing; he refuses to discuss "wooden horses and iron chairs."
-2. **Drogo departs to hunt** — Drogo and his bloodriders ride out to hunt hrakkar (great white lion) on the plains.
-3. **Dany summons Ser Jorah** — After being bathed and dressed by her handmaids, Dany sends Jhiqui to fetch Ser Jorah to discuss persuading Drogo.
-4. **Ser Jorah counsels patience** — Jorah explains Drogo has never seen the Seven Kingdoms and eastern riches seem more tempting; advises Dany not to repeat Viserys's mistakes.
-5. **Ser Jorah mentions the caravan** — He tells Dany a great caravan of four hundred horses has arrived from Pentos via Norvos and Qohor, under Merchant Captain Byan Votyris; suggests Illyrio may have sent a letter; proposes visiting the Western Market.
-6. **Dany travels to the Western Market** — Carried by litter with red silk curtains; Ser Jorah rides beside her with her khas and handmaids; she passes beneath the stolen monuments of Vaes Dothrak.
-7. **Market browsing** — Dany wanders the Western Market for half the morning; acquires a feathered cloak from the Summer Isles (trades a silver medallion), twelve flasks of scented oils, and a fertility charm (given to Doreah). She refuses a talking parrot.
-8. **Sausage stop** — Dany discovers a Pentoshi sausage vendor; the group eats sausages (horsemeat, not pork); Quaro eats two, Rakharo eats four; Irri notes Dany hasn't laughed since Viserys's death.
-9. **Ser Jorah departs to find the merchant captain** — He excuses himself to seek out Byan Votyris for letters, deflecting Dany's offer to accompany him.
-10. **Wine merchant offers poisoned wine** — A Lysene wine merchant offers Dany a taste of summerwine, then upon learning her identity, insists on giving her a cask of dry red from the Arbor (Redwyne sigil on the cask).
-11. **Ser Jorah returns and demands the cask be opened** — Jorah returns, orders Aggo to put the cask down, and demands the wine merchant open it and pour.
-12. **Ser Jorah demands the merchant taste the wine** — After sniffing the wine, Jorah offers the cup to the merchant; the merchant refuses to drink his own wine. Dany commands him to drink or be held down.
-13. **Assassination attempt exposed** — The wine merchant throws the cask at Dany instead of drinking. Ser Jorah knocks Dany aside; the cask hits his shoulder and smashes. Doreah catches Dany so she lands on her legs, not her belly.
-14. **Wine merchant captured** — The merchant vaults his stall and flees; Quaro reaches for an arakh that isn't there; Jhogo catches the man with his whip around his leg, bringing him down face-first.
-15. **Byan Votyris intervenes** — The merchant captain arrives with caravan guards, orders the poisoner held for the khal, and gifts the wine merchant's goods to Dany.
-16. **Ser Jorah reveals the assassination plot** — Back in her dwelling, Jorah shows Dany Illyrio's letter: Robert Baratheon offers lands and lordships for her death or Viserys's. Dany realizes Robert doesn't know Viserys is already dead. The bounty includes the unborn child.
-17. **Dany places dragon eggs in the brazier** — Alone, Dany lights the brazier, places all three dragon eggs among the burning coals. The black scales seem to glow; flames lick the stone. She watches until coals turn to ash. The eggs do not hatch. She concludes they are only pretty rocks.
-18. **Drogo returns from a successful hunt** — Drogo returns at nightfall with a hrakkar carcass; shows Dany the scars on his leg from the lion; vows to make her a cloak from its skin.
-19. **Drogo vows to conquer Westeros** — After learning of the assassination attempt, Drogo grows quiet, then swears before the Mother of Mountains: he will take his khalasar west, cross the sea on wooden horses, kill the men in iron suits, tear down stone houses, and give Rhaego the Iron Throne. He gifts horses to Jhogo and Ser Jorah.
-20. **The khalasar departs Vaes Dothrak** — Two days later, the khalasar strikes south and west. Drogo leads on his red stallion, Dany rides her silver. The wine merchant is chained naked at throat and wrists to Dany's horse's halter, running behind barefoot.
+1. **Drogo refuses Dany's plea** — Dany tries to persuade Drogo to cross the sea and claim the Iron Throne; he dismisses the idea, saying the stallion who mounts the world needs no iron chairs and the earth ends at the black salt sea.
+2. **Drogo departs to hunt** — Drogo leaves with his bloodriders to hunt hrakkar (great white lion) on the plains.
+3. **Dany prepares to visit the market** — After bathing and dressing in sandsilk, Dany sends Jhiqui to find Ser Jorah. She asks him to convince Drogo to ride west.
+4. **Ser Jorah counsels patience** — He advises Dany not to make her brother's mistake and promises they will go home.
+5. **Ser Jorah announces the caravan** — He tells Dany a great caravan of 400 horses arrived during the night from Pentos via Norvos and Qohor, under Merchant Captain Byan Votyris, and that Illyrio may have sent a letter.
+6. **Dany travels to the Western Market** — She rides in a litter with red silk curtains, accompanied by Ser Jorah, her khas, and her handmaids, passing beneath the stolen monuments.
+7. **Ser Jorah leaves to find the caravan captain** — He excuses himself abruptly, declining Dany's offer to accompany him.
+8. **Dany browses the market** — She eats sausages with her entourage, acquires a feathered cloak, refuses a parrot, buys scented oils, and gives Doreah a fertility charm.
+9. **The wine merchant attempts to poison Dany** — A Lysene-looking wine merchant offers Dany a cask of Arbor red. Ser Jorah returns and demands the man open and taste the wine. When pressed, the man hurls the cask at Dany.
+10. **Ser Jorah saves Dany** — He knocks her out of the way of the thrown cask; Doreah catches her to prevent her from landing on her belly.
+11. **Jhogo captures the wineseller** — The poisoner flees but Jhogo's whip catches his leg, sending him sprawling.
+12. **Byan Votyris takes custody** — The merchant captain orders the wineseller held for the khal and gifts his goods to Dany.
+13. **Ser Jorah reveals the assassination plot** — He shows Dany Illyrio's letter: Robert Baratheon offers lands and lordships for Dany's and Viserys's deaths.
+14. **Dany places the dragon eggs in fire** — Alone, she lights a brazier and places all three eggs among the burning coals. They glow with heat but do not hatch. She concludes they are only stone.
+15. **Drogo returns from the hunt** — He comes back with a hrakkar carcass, showing Dany the scars from the hunt and promising her a cloak of its skin.
+16. **Drogo vows to invade Westeros** — Upon hearing of the poisoning attempt, he pledges horses to Jhogo and Ser Jorah, and vows before the Mother of Mountains to take his khalasar west, cross the sea, and conquer the Seven Kingdoms for Rhaego.
+17. **The khalasar departs Vaes Dothrak** — Two days later, the khalasar leaves, heading south and west. The wineseller is chained naked to the halter of Dany's silver, forced to run behind her.
 
 ## Spatial Layout & Movement
 | Phase | Who | Position / Movement | Relative To | Notes |
 |-------|-----|---------------------|-------------|-------|
-| Opening | Dany, Drogo | Sleeping mats in their dwelling | Vaes Dothrak | Post-coitus; brazier provides ruddy light |
-| Departure | Drogo, bloodriders | Ride out to hunt on the plains | Away from Vaes Dothrak | Drogo with bows, hunting hrakkar |
-| Advance | Dany, Ser Jorah, khas, handmaids | Litter procession through Vaes Dothrak to Western Market | Beneath stolen monuments | Red silk curtains; Jorah rides beside |
-| Arrival | Dany's party | Arrive at Western Market | Western Market square | Irri and Jhiqui help Dany from litter |
-| Dispersal | Ser Jorah | Departs to find merchant captain | Away from Dany | Strides off through throngs |
-| Patrol | Dany, handmaids, khas | Wandering market aisles | Western Market | Half a morning; browsing stalls |
-| Confrontation | Ser Jorah, wine merchant | Jorah returns, confronts wine merchant at his stall | Wine stall in Western Market | Khas warriors array behind Jorah |
-| Pursuit | Wine merchant → Jhogo | Merchant vaults stall, darts between Aggo and Rakharo, slams past Quaro, runs down aisle | Western Market aisle | Jhogo's whip catches his leg |
-| Retreat | Dany's party | Return to dwelling by litter | Back to hummock dwelling | Curtains drawn tight; Dany near tears |
-| Arrival | Drogo, Cohollo | Return from hunt at nightfall | Dany's dwelling | Packhorse with hrakkar carcass |
-| Departure | Entire khalasar | Strike south and west from Vaes Dothrak | Plains | Wine merchant chained to Dany's silver |
+| Opening | Dany, Drogo | In their dwelling on sleeping mats | Their hummock dwelling | Intimate scene; Drogo rises, towers above her |
+| Departure | Drogo, bloodriders | Ride out to hunt hrakkar | Away from Vaes Dothrak | Dany stays behind |
+| Advance | Dany, Ser Jorah, khas, handmaids | Travel via litter through Vaes Dothrak to the Western Market | Passing beneath stolen monuments | Ser Jorah rides beside the litter |
+| Dispersal | Ser Jorah | Leaves Dany at the market | Goes to find the caravan captain | Abrupt departure; declines Dany's company |
+| Patrol | Dany, handmaids, khas | Wander through market aisles for half the morning | Western Market stalls | Shopping and eating |
+| Confrontation | Ser Jorah, wine merchant | Ser Jorah returns and confronts the wineseller at his stall | Dany's khas array behind Jorah | Demands the man drink the wine |
+| Ambush | Wine merchant | Hurls the cask at Dany and vaults over the stall | Between Aggo and Rakharo; slams Quaro aside | Dany is knocked aside by Jorah; Doreah catches her |
+| Pursuit | Jhogo | Whip catches the fleeing wineseller's leg | Down the aisle from the stall | Wineseller sprawls face-first in dirt |
+| Assembly | Caravan guards, Byan Votyris | A dozen guards come running with the merchant captain | At the wine stall | Votyris orders the wineseller taken away |
+| Retreat | Dany and retinue | Carried back to dwelling in litter, curtains drawn tight | Return from market | Dany is frightened, near tears |
+| Arrival | Drogo, Cohollo | Return from hunt after dark | Dany's dwelling | Hrakkar carcass on packhorse; stars coming out |
+| Departure | Entire khalasar | Leaves Vaes Dothrak, striking south and west | Across the plains | Wineseller chained naked to Dany's silver |
 
 ## Information Revealed
 | Information | How Revealed | Known To (Characters) | Known To (Reader Only?) |
 |-------------|-------------|----------------------|------------------------|
-| Drogo refuses to cross the sea; plans to ride east toward the Jade Sea after Rhaego's birth | Dialogue between Dany and Drogo, then Dany and Ser Jorah | Dany, Drogo, Ser Jorah | No |
-| A great caravan of 400 horses arrived from Pentos via Norvos and Qohor under Byan Votyris | Ser Jorah tells Dany | Ser Jorah, Dany | No |
-| Robert Baratheon offers lands and lordships for the deaths of Dany, Viserys, and the child | Illyrio's letter to Viserys, read by Ser Jorah | Ser Jorah, Dany | No |
-| Viserys is already dead (unknown to Robert) | Dany realizes the irony — "He does not know yet" | Dany, Ser Jorah | No |
-| The wine merchant attempted to poison Dany with the Arbor wine | Ser Jorah's suspicion confirmed when merchant refuses to drink and then attacks | Dany, Ser Jorah, khas, Byan Votyris, market crowd | No |
-| Ser Jorah suspected poison after reading Illyrio's letter | Jorah explains to Dany afterward | Dany, Ser Jorah | No |
-| Dragon eggs do not hatch when placed in a brazier fire | Dany tests this alone | Dany only | Yes — no one else witnesses this |
-| Dothraki market customs: caravans trade with each other, not primarily with Dothraki; peace of the sacred city must be observed; gifts of salt, silver, and seed go to the dosh khaleen | Narrative exposition via Ser Jorah's prior explanation | Dany (from Jorah's teaching) | No |
-| Drogo vows to cross the sea and conquer Westeros for Rhaego | Drogo's public speech/vow before the Mother of Mountains | Drogo, Dany, Ser Jorah, khalasar | No |
+| Robert Baratheon has placed a bounty on Dany and Viserys — lands and lordships for their deaths | Illyrio's letter, read by Ser Jorah | Ser Jorah, Dany, later Drogo | No |
+| Illyrio wrote a letter to Viserys (who is already dead) | Ser Jorah shows the letter | Ser Jorah, Dany | No |
+| The wine was poisoned | Inferred from wineseller's refusal to drink and flight | Ser Jorah, Dany, bystanders, Byan Votyris | No |
+| Drogo plans to lead his khalasar east after Rhaego is born, to plunder lands around the Jade Sea | Dany tells Ser Jorah | Dany, Ser Jorah | No |
+| The Dothraki fear the sea — water a horse cannot drink is foul to them | Dany's internal narration | Dany | Yes (internal knowledge) |
+| Drogo has never seen the Seven Kingdoms and thinks little of them | Ser Jorah's assessment | Ser Jorah, Dany | No |
+| Dany places dragon eggs in fire; they glow but do not hatch | Dany's private act | Dany only | Yes |
+| Drogo vows to invade Westeros and give the Iron Throne to Rhaego | Drogo's public speech | Everyone present | No |
 
 ## Dialogue of Note
 | Speaker | Listener | Quote/Paraphrase | Context |
 |---------|----------|------------------|---------|
-| Khal Drogo | Dany | "The stallion who mounts the world has no need of iron chairs." | Dismissing the Iron Throne after sex |
-| Khal Drogo | Dany | "The earth ends at the black salt sea. No horse can cross the poison water." | Refusing to consider crossing the Narrow Sea |
-| Khal Drogo | Dany | "We will speak no more of wooden horses and iron chairs." | Ending the discussion of Westeros |
-| Ser Jorah | Dany | "Do not make your brother's mistake." | Warning Dany not to push Drogo as Viserys did |
-| Ser Jorah | Dany | "We will go home, I promise you." | Reassuring Dany about returning to Westeros |
-| Dany | (internal) | "Home? The word made her feel sad … what was home to her? A few tales, names recited as solemnly as the words of a prayer, the fading memory of a red door." | Reflecting on her lack of a true home |
-| Doreah | Wine merchant | "You have the honor to address Daenerys of the House Targaryen, Daenerys Stormborn, khaleesi of the riding men and princess of the Seven Kingdoms." | Introducing Dany's identity — this triggers the assassination attempt |
-| Dany | Wine merchant | "You will drink. Empty the cup, or I will tell them to hold you down while Ser Jorah pours the whole cask down your throat." | Commanding the merchant to prove the wine is safe |
-| Ser Jorah | Dany | "I did not know, Khaleesi, not until the man refused to drink, but once I read Magister Illyrio's letter, I feared." | Explaining how he suspected the poison |
-| Irri | Dany | "You have not laughed since your brother the Khal Rhaggat was crowned by Drogo. It is good to see, Khaleesi." | After Dany laughs at the sausage eating |
-| Dany | (internal/to her unborn child) | "You are the blood of the dragon, little one … and the dragon does not fear." | Whispering to her belly on the litter ride back, terrified |
-| Ser Jorah | Dany | "A letter to Viserys, from Magister Illyrio. Robert Baratheon offers lands and lordships for your death, or your brother's." | Revealing the assassination plot |
-| Dany | Ser Jorah | "He does not know yet, does he? The Usurper owes Drogo a lordship." | Bitter humor that Robert doesn't know Viserys is dead — Drogo already killed him |
-| Dany | (internal) | "The Usurper has woken the dragon now." | Resolve crystallizing after learning of the bounty |
-| Dany | Ser Jorah | "Ser Jorah, light the brazier." / "I have a chill." | Ordering the brazier lit to place dragon eggs in fire; concealing her true purpose |
-| Khal Drogo | Dany | "I shall make you a cloak of its skin, moon of my life." | Returning from the hrakkar hunt |
-| Khal Drogo | Khalasar | "I will take my khalasar west to where the world ends, and ride the wooden horses across the black salt water as no khal has done before. I will kill the men in the iron suits and tear down their stone houses." | Vowing to conquer Westeros; swears before the Mother of Mountains |
-| Khal Drogo | Jhogo, Ser Jorah | "Choose any horse you wish from my herds, and it is yours. Any horse save my red and the silver that was my bride gift to the moon of my life." | Rewarding those who saved Dany |
-| Ser Jorah | Drogo | "This poisoner was the first, but he will not be the last. Men will risk much for a lordship." | Warning Drogo of future assassination attempts |
+| Khal Drogo | Dany | "The stallion who mounts the world has no need of iron chairs." | Refusing Dany's plea to claim the Iron Throne |
+| Drogo | Dany | "The earth ends at the black salt sea. No horse can cross the poison water." | Expressing Dothraki worldview about the sea |
+| Dany | Drogo | "In the Free Cities, there are ships by the thousand. Wooden horses with a hundred legs, that fly across the sea on wings full of wind." | Trying to persuade him ships are possible |
+| Ser Jorah | Dany | "Do not make your brother's mistake. We will go home, I promise you." | Counseling patience |
+| Irri | Dany | "You have not laughed since your brother the Khal Rhaggat was crowned by Drogo. It is good to see, Khaleesi." | After Dany laughs at the sausage-eating contest |
+| Dany | Wine merchant | "You will drink. Empty the cup, or I will tell them to hold you down while Ser Jorah pours the whole cask down your throat." | Commanding the wineseller to taste the wine, voice "cold as ice" |
+| Dany | Ser Jorah | "He does not know yet, does he? The Usurper owes Drogo a lordship." | Bitter humor about the bounty on the already-dead Viserys |
+| Drogo | All present | "I will take my khalasar west to where the world ends, and ride the wooden horses across the black salt water as no khal has done before. I will kill the men in the iron suits and tear down their stone houses..." | Vowing to invade Westeros; sworn before the Mother of Mountains |
+| Dany | Herself/Rhaego | "You are the blood of the dragon, little one... and the dragon does not fear." | Whispering to her unborn child in the litter, calming herself |
 
 ## POV Character's Internal State
-- **Emotional state:** Shifts across the chapter — frustrated and despairing when Drogo refuses Westeros; wistful and sad reflecting on the concept of home; briefly happy and girlish at the market; terrified after the assassination attempt (the taste of fear); resolute and fierce upon learning of Robert's bounty; disappointed when the dragon eggs fail to hatch
-- **Primary preoccupation:** Getting Drogo to invade Westeros; after the assassination attempt, protecting her unborn child Rhaego; testing whether the dragon eggs are truly alive
-- **Key decisions made:** Decides to wait for Drogo's good mood after a successful hunt rather than push him; commands the wine merchant to drink (exposing the poison); decides to place dragon eggs in fire (alone, after dismissing everyone); accepts the eggs' failure to hatch
-- **Self-deception flags:** Tells Ser Jorah "I have a chill" as excuse for the brazier — deliberately concealing her true intent to test the eggs; questions her own sanity ("Was it madness that seized her then?") but proceeds anyway
+- **Emotional state:** Anxious and frustrated at the chapter's opening (unable to persuade Drogo); briefly happy and nostalgic in the market (laughing, feeling "half a girl again"); terrified after the assassination attempt (the taste of fear, near tears); determined and fierce by the end ("the Usurper has woken the dragon now"); sad and uncertain about the dragon eggs' failure
+- **Primary preoccupation:** Getting Drogo to cross the sea and reclaim the Iron Throne; protecting her unborn child; her identity as "the last" of the dragons
+- **Key decisions made:** Decides to place the dragon eggs in fire (acting on instinct — "madness" or "strange wisdom buried in her blood"); decides to have the wineseller drink from the cup; tells Drogo about the assassination attempt (which triggers his vow)
+- **Self-deception flags:** Dany entertains the thought that Vaes Dothrak could be her home "if I were not the blood of the dragon" — immediately corrects herself that she must not forget her identity; dismisses the dragon eggs as "only pretty rocks" after they fail to hatch, yet she felt certain enough to try
 
 ## Relationships Observed
 | Character A | Relationship | Character B | Evidence |
 |-------------|-------------|-------------|----------|
-| Daenerys | wife / loves | Khal Drogo | She loves his hair especially; calls him "my sun-and-stars"; admires him as "so tall and magnificent" |
-| Khal Drogo | husband / protective | Daenerys | Calls her "moon of my life"; vows vengeance and conquest after assassination attempt; promises a hrakkar-skin cloak |
-| Daenerys | commands / trusts | Ser Jorah | Sends for him for counsel; trusts his judgment on the wine; asks how he knew |
-| Ser Jorah | protects / advises | Daenerys | Physically shields her from the cask; counsels patience; reveals the assassination plot; warns of future attempts |
-| Ser Jorah | counsels | Khal Drogo | Warns Drogo that more assassins will come |
-| Daenerys | mistress of | Doreah, Irri, Jhiqui | Handmaids serve her — bathing, dressing, combing hair; Dany gives Doreah a fertility charm |
-| Doreah | protects | Daenerys | Catches Dany's arm during the assassination attempt, preventing her from landing on her belly |
-| Jhogo | loyal warrior | Daenerys | Catches the fleeing wine merchant with his whip |
-| Khal Drogo | rewards | Jhogo, Ser Jorah | Gives each the right to choose any horse from his herds |
-| Daenerys | grieves / dismisses | Viserys | "He was dead now and his promises had died with him"; notes bitterly that Robert doesn't know; her sob is half a laugh |
-| Daenerys | mother / protective | Rhaego (unborn) | Strokes her belly, whispers "blood of the dragon"; fears for him more than herself; feels him move restlessly |
-| Khal Drogo | father / champion | Rhaego (unborn) | Pledges to give Rhaego the Seven Kingdoms; names him "the stallion who will mount the world" |
-| Byan Votyris | defers to | Daenerys | Calls her "Princess"; gifts the poisoner's goods; orders the assassin seized |
-| Irri | observes / cares for | Daenerys | Notes that Dany hasn't laughed since Viserys's death |
-| Khal Drogo | fears | The sea | Dothraki superstitious loathing of salt water; Dany notes Drogo is bolder than other khals in many ways but not this |
-| Robert Baratheon | seeks death of | Daenerys, Rhaego | Offers lands and lordships for her assassination, including the child |
-| Illyrio Mopatis | warns / supports | Daenerys (via Viserys) | Letter warning of the assassination bounty sent with the caravan |
+| Daenerys | Wife / subordinate in public, persuader in private | Khal Drogo | She tries to convince him to cross the sea; defers to him publicly ("Yes, my sun-and-stars") |
+| Khal Drogo | Husband / authority figure, devoted | Daenerys | Calls her "moon of my life"; vows to conquer Westeros for her and Rhaego after the attempt on her life |
+| Ser Jorah | Protector and advisor | Daenerys | Physically saves her from the poisoned cask; reads the warning letter; counsels patience |
+| Daenerys | Trusts and relies on | Ser Jorah | Obeys his command to put down the cask; asks him to persuade Drogo; allows him to handle the confrontation |
+| Doreah | Devoted handmaid / protector | Daenerys | Catches Dany to prevent her from landing on her belly during the fall |
+| Irri | Handmaid, affectionate | Daenerys | Notes with warmth that Dany has not laughed since Viserys's death |
+| Jhogo | Loyal khas warrior | Daenerys | Captures the fleeing wineseller with his whip |
+| Khal Drogo | Rewards loyalty | Jhogo, Ser Jorah | Gives each the choice of any horse from his herds |
+| Daenerys | Maternal bond | Rhaego (unborn) | Strokes her belly, whispers to him, fears for his safety above her own |
+| Daenerys | Grief / complicated memory | Viserys | His promises died with him; she lived in terror of him for years but he is still "her brother" |
+| Robert Baratheon | Hostile / threatens | Daenerys | Placed an assassination bounty on her |
+| Illyrio Mopatis | Informant / ally | Daenerys (via Ser Jorah) | Sent warning letter about the bounty |
+| Byan Votyris | Respectful / protective of guest peace | Daenerys | Takes custody of the wineseller; gifts his goods to Dany |
+| Wine merchant | Attempted assassin | Daenerys | Tries to poison her with wine |
+| Daenerys | Punisher | Wine merchant | Has him chained naked to her horse, forced to run behind it |
+| Khal Drogo | Commander | Cohollo (bloodrider) | Cohollo rides with him to the hunt, leads packhorse |
 
 ## Unanswered Questions
 | Question | Raised By | Context |
 |----------|-----------|---------|
-| Why did Ser Jorah not want Dany to accompany him to find Byan Votyris? | Dany (internal speculation) | He "glanced away impatiently" and insisted she not come; Dany speculates he might want to find a whore, but the narrative implies something else |
-| What exactly was in Illyrio's letter beyond the assassination bounty? | Narrative gap | Jorah says "once I read Magister Illyrio's letter, I feared" — the letter was addressed to Viserys, so it may contain more than what Jorah shares |
-| Why did the dragon eggs not hatch in the fire? | Dany (internal) | She expected something but they remained stone; she concludes "a dragon was air and fire. Living flesh, not dead stone" — but the question of what would make them hatch remains |
-| Was the wine merchant acting alone or part of a larger network? | Implicit | He was part of Byan Votyris's caravan; Votyris seemed unsurprised; Ser Jorah warns "he will not be the last" |
-| What will happen to the wine merchant? | Narrative | Chained naked to Dany's horse at departure — "no harm would come to him so long as he kept up" — his ultimate fate is unresolved in this chapter |
-| What is the "big house with the red door" that Dany remembers? | Dany (internal) | Triggered by the scented oils; a recurring childhood memory for Dany; no further context given in this chapter |
+| Who specifically sent the wine merchant to poison Dany? | The events of the chapter | Robert Baratheon placed the bounty, but who arranged this specific attempt? |
+| What did Illyrio's letter say in full? | Ser Jorah summarizes it | Only the key detail — bounty for death — is revealed; the letter was addressed to Viserys |
+| What was Ser Jorah really doing when he left Dany at the market? | Dany's curiosity | He was oddly insistent she not come with him; he returned with the letter and knowledge of the plot |
+| Why did the dragon eggs not hatch in the fire? | Dany's experiment | She expected something to happen; they only glowed but remained stone — what would make them hatch? |
+| What "madness" or "strange wisdom buried in her blood" prompted Dany to place the eggs in fire? | Dany's internal state | She cannot explain her own impulse |
+| Will the wineseller survive running behind Dany's horse? | End of chapter | He is chained naked and barefoot; "no harm would come to him … so long as he kept up" |
 
 ## Raw Entity List
+
 ### Characters
-Daenerys Targaryen, Khal Drogo, Ser Jorah Mormont, Doreah, Irri, Jhiqui, Jhogo, Aggo, Rakharo, Quaro, Cohollo, Byan Votyris, wine merchant (unnamed Lysene man), old sausage woman (unnamed Pentoshi), Rhaego (unborn — referenced), Viserys Targaryen (dead — referenced), Robert Baratheon (referenced), Illyrio Mopatis (referenced), Rhaegar Targaryen (referenced), Bharbo (referenced — Drogo's father), large eunuch guarding Lannisport goldwork stall (unnamed), pretty young woman selling Lannisport goldwork (unnamed), fat cloth trader from Yi Ti (unnamed)
+- Daenerys Targaryen (Dany)
+- Khal Drogo
+- Ser Jorah Mormont (Jorah the Andal)
+- Doreah
+- Irri
+- Jhiqui
+- Jhogo
+- Aggo
+- Rakharo
+- Quaro
+- Cohollo
+- Rhaego (unborn)
+- Viserys Targaryen (referenced, deceased)
+- Rhaegar Targaryen (referenced)
+- Robert Baratheon (the Usurper, referenced)
+- Illyrio Mopatis (Magister Illyrio, referenced)
+- Bharbo (Drogo's father, referenced)
+- Merchant Captain Byan Votyris
+- Wine merchant / poisoner (unnamed)
+- Old sausage woman (unnamed Pentoshi)
+- Pretty young woman selling Lannisport goldwork (unnamed)
+- Huge eunuch guarding goldwork stall (unnamed)
+- Fat cloth trader from Yi Ti (unnamed)
+- Birdseller (unnamed)
 
 ### Locations
-Vaes Dothrak, Western Market, Eastern Market, Mother of Mountains, Womb of the World, the Seven Kingdoms (Westeros), Pentos, Norvos, Qohor, Bear Island, the Arbor, Lys, Tyrosh, Myr, Dorne, Lorath, Volantis, the Jade Sea, the Dothraki sea (grasslands), Asshai, Qarth, Yi Ti, Bayasabhad, Shamyriana, Kayakayanaya, Summer Isles, Lannisport, the Free Cities, the Sunset Kingdoms, Jogos Nhai (people/land)
+- Vaes Dothrak
+- Western Market
+- Eastern Market
+- The Dothraki sea (plains)
+- Seven Kingdoms / Westeros / Sunset Kingdoms
+- Bear Island
+- Pentos
+- Norvos
+- Qohor
+- The Arbor
+- Lys
+- Tyrosh
+- Myr
+- Volantis
+- Dorne
+- Lorath
+- Mother of Mountains
+- Womb of the World
+- Free Cities
+- Jade Sea
+- Summer Isles
+- Lannisport
+- Yi Ti
+- Asshai
+- Qarth
+- Bayasabhad
+- Shamyriana
+- Kayakayanaya
 
-### Artifacts
-Dragon eggs (three — black-and-scarlet, plus two others), Iron Throne (referenced), Illyrio's letter, poisoned wine cask (Redwyne sigil), feathered cloak (Summer Isles), scented oils (twelve flasks), fertility charm, hrakkar carcass / white lion skin, Jhogo's whip, Drogo's silver/gold/bronze medallion belt
+### Houses
+- House Targaryen
+- House Redwyne (sigil on the wine cask — cluster of grapes)
+- House Baratheon (Robert Baratheon)
 
-### Houses/Factions
-House Targaryen, House Baratheon (referenced — Robert), House Redwyne (sigil on wine cask), Dothraki (khalasar), dosh khaleen (crones), Jogos Nhai (referenced), Shadow Men (referenced), Asshai'i (referenced), Qartheen (referenced), Yi Ti (referenced), House Lannister (Lannisport goldwork implied)
+### Factions & Organizations
+- Drogo's khalasar
+- Dosh khaleen (crones)
+- Dany's khas (four young warriors: Jhogo, Aggo, Rakharo, Quaro)
+- Drogo's bloodriders
+
+### Religions & Faiths
+- Dothraki sacred traditions (Mother of Mountains, Womb of the World, peace of the sacred city, swearing before the Mother of Mountains as stars witness)
+
+### Cultures & Peoples
+- Dothraki
+- Lysene (wine merchant's fashion)
+- Norvoshi (Byan Votyris)
+- Pentoshi (sausage woman)
+- Asshai'i
+- Qartheen
+- Yi Ti (Yi Tish)
+- Jogos Nhai (striped horses)
+- Warrior maids of Bayasabhad, Shamyriana, and Kayakayanaya
+- Shadow Men (tattooed, masked)
+- Tyroshi
+- Myrish
+- Valyrian (language spoken in Free Cities)
+
+### Artifacts & Objects
+- Dragon eggs (three: black-and-scarlet, plus two others)
+- Iron Throne ("iron chair")
+- Illyrio's letter (folded parchment)
+- Poisoned wine cask (oaken, Redwyne sigil)
+- Feathered cloak from the Summer Isles
+- Scented oils (dozen flasks)
+- Fertility charm
+- Jhogo's whip
+- Dany's silver (horse)
+- Drogo's red stallion
+- Silver medallion (from Dany's belt, traded for cloak)
+- Drogo's belt with medallions of silver, gold, and bronze
+- Manticores in silver cages (recalled, Eastern Market)
+- Steel breastplates worked with gold and silver
+- Copper helmets
+- Lannisport goldwork (rings, brooches, torcs, medallions)
+- Myrish lace
+- Green-and-red parrot
+
+### In-world Texts & Songs
+- Illyrio's letter to Viserys
+
+### Magic & Phenomena
+- Stallion who mounts the world prophecy (Rhaego's prophesied destiny)
+- Dragon eggs placed in fire — glow with heat, shimmer with motes of jade, scarlet, and gold, but do not hatch
+- Dany's fire affinity / impulse ("madness" or "strange wisdom buried in her blood")
+- Spellsingers (recalled, Eastern Market)
+
+### Wars & Conflicts
+None
+
+### Titles & Offices
+- Khal
+- Khaleesi
+- Bloodrider
+- Princess of the Seven Kingdoms
+- Daenerys Stormborn
+- Merchant Captain
+- Magister
+- Ser (knightly title)
+- The Usurper (title used for Robert Baratheon)
+
+### Other
+- Hrakkar (great white lion of the plains)
+- Sandsilk (fabric)
+- Honeyfingers (Tyroshi pastry)
+- Tree eggs, locust pie, green noodles (Eastern Market foods)
+- Summerwine (Dornish wine variety)
+- Firewine, pepperwine (wine varieties)
+- Smokeberry browns, Andalish sours (wine varieties)
+- Tyroshi pear brandy

@@ -6,242 +6,258 @@
 - **pov_character:** Daenerys Targaryen
 - **pov_chapter_number:** Daenerys IX
 - **first_available:** AGOT Daenerys IX
-- **location_primary:** Dothraki camp (remnants of Drogo's khalasar)
-- **location_secondary:** Fever-dream locations: a long hall with stone arches and a red door, the Dothraki sea (dream), Mirri Maz Duur's tent
-- **approximate_timeline:** Days or longer after the events of the previous Daenerys chapter; Dany has been unconscious through a prolonged fever following Rhaego's stillbirth and Drogo's blood magic ritual
-- **time_markers:** Dany wakes multiple times over an indeterminate period ("a night, a day, a year, she could not say"); golden sunlight on the third waking; bathing Drogo takes until "well past dark"; she takes Drogo outside under the night sky described as "black and moonless"; "bleak dawn" breaks at chapter's end
-- **chapter_summary:** Daenerys experiences vivid fever dreams involving Viserys, Rhaegar, Drogo, her unborn son, ghosts of Targaryen kings, and a recurring red door. She wakes in stages over days to learn that her son Rhaego was stillborn and monstrous, that Drogo's khalasar has fractured into a dozen new khalasars under Ko Pono and Khal Jhaqo among others, and that Khal Drogo lives but is an empty shell — blind, mute, and unresponsive. Dany confronts Mirri Maz Duur about the cost of the blood magic, learns the maegi acted deliberately to destroy "the stallion who mounts the world," and orders her bound. After spending the night trying to reach Drogo and failing, Dany smothers him with a cushion at dawn.
+- **location_primary:** Dothraki sea (remnant camp of Drogo's khalasar)
+- **location_secondary:** Dream locations: a long stone hall with a red door; the Dothraki sea (in vision)
+- **approximate_timeline:** Shortly after the blood magic ritual performed by Mirri Maz Duur; Daenerys has been unconscious for an extended, indeterminate period
+- **time_markers:** Indeterminate time unconscious ("a night, a day, a year, she could not say"); wakes multiple times over an unclear span; "long" illness per Irri; golden sunlight on third waking; past dark when she finishes bathing Drogo; moonless black night; bleak dawn breaks over empty horizon
+- **chapter_summary:** Daenerys experiences intense fever dreams filled with visions of dragons, Viserys's death, her dead son, Targaryen ghosts, and a red door. She wakes multiple times, tended by her handmaids and Mirri Maz Duur. She learns her son Rhaego was born dead and monstrous — scaled, blind, winged, and full of graveworms. The khalasar has splintered, with Ko Pono and Jhaqo naming themselves khals and taking most of the riders, herds, and slaves. Daenerys finds Drogo alive but in a vegetative state — blind, unresponsive, unable to speak or act. She confronts Mirri Maz Duur, who shows no remorse and speaks of her own suffering. After a failed attempt to reach Drogo through intimacy and memory, Daenerys mercy-kills him with a cushion at dawn.
 
 ## Physical Environment
-- **Weather:** Blazing sun described as burning "like molten gold"; land is "seared and empty"; sand glare; bleak dawn at chapter's end
+- **Weather:** Blazing sun described as "molten gold"; land is "seared and empty"; wind and dust on the plains
 - **Season indicators:** None explicitly stated
-- **Time of day:** Multiple transitions — Dany wakes in a dim tent, then a dark tent, then in golden sunlight; she bathes Drogo past dark; goes outside at night; dawn breaks at the end
-- **Lighting:** Tent interior is "drenched in shadow"; brazier with flakes of ash drifting upward; shaft of golden sunlight through smoke hole on third waking; blinding bright sun outside; moonless night with a million stars; bleak dawn
-- **Sounds:** Wind gusting against tent walls ("silken walls flapping like wings"); children gathered to watch; bloodflies buzzing; Dany's own breathing; silence and emptiness of the depleted camp
-- **Smells:** Dream sequence: "smells of earth and death" on the Dothraki sea; "stench of burning blood"; waking: no specific smells noted beyond implication of dust and emptiness
-- **Notable sensory details:** Dany's fever — burning heat inside her body, perspiration ("dragondew"), aching between thighs from birth; the dragon egg feels hot to her but cold ("hard as rock," "cold stone") to Ser Jorah; bare red earth where Drogo lies; bloodflies settling on Drogo's body; dusty ground strewn with stones at night
+- **Time of day:** Multiple transitions — Dany wakes in shadow/darkness, then in golden sunlight; evening/past dark while bathing Drogo; black moonless night for their final scene together; bleak dawn at chapter's end
+- **Lighting:** Tent drenched in shadow; smoke hole admitting shaft of golden sunlight; blinding bright outside; glare of sun on sand; dark night with million stars; bleak dawn
+- **Sounds:** Wind gusting against tent walls (silken walls "flapping like wings"); wind and dust on the empty plain; children watching; soft sound of Dany's breathing; silence from Drogo
+- **Smells:** Ashes (Dany wakes to "the taste of ashes"); burning blood in fever dream; stench of corruption from Rhaego's description; earth and death in dream of Dothraki sea
+- **Notable sensory details:** Terrible burning in her womb during fever; deep ache between her thighs on waking; body feels "torn to pieces and remade from the scraps"; too raw and torn from birth; perspiration ("dragondew") on skin; heat from dragon eggs; bare red earth where Drogo lies; bloodflies settling on Drogo; hard dusty ground strewn with stones
 
 ## Characters Present
 | Character | Role in Chapter | First Appearance? | Notes |
 |-----------|----------------|-------------------|-------|
-| Daenerys Targaryen | POV character | No | Recovering from fever and childbirth; confronts the aftermath of the blood magic ritual |
-| Ser Jorah Mormont | Advisor, protector | No | Physically diminished — flesh hangs loose, limps; carries Dany, supports her |
-| Mirri Maz Duur | Antagonist, maegi | No | Reveals Rhaego's monstrous stillbirth; confronted by Dany; ordered bound |
-| Jhiqui | Handmaid | No | First to attend Dany on waking; tells Dany the boy did not live |
-| Irri | Handmaid | No | Dampens cloth for Dany's brow; tells Dany "Jhaqo is a khal now, with twenty thousand riders" |
-| Doreah | Handmaid | No | Flees to fetch Ser Jorah rather than tell Dany about Drogo; previously taught Dany sexual techniques |
+| Daenerys Targaryen | POV character | No | Wakes from fever dreams, learns of her son's death, discovers Drogo's state, mercy-kills him |
+| Jhiqui | Handmaid | No | First to attend Dany on waking; tells her Rhaego did not live |
+| Irri | Handmaid | No | Dampens Dany's brow; says "the khal lives" with darkness in her eyes |
+| Doreah | Handmaid | No | Flees to fetch Ser Jorah rather than tell Dany the truth |
+| Ser Jorah Mormont | Advisor/protector | No | Carries Dany back to bed; reports on khalasar's dissolution; limps, looks haunted |
+| Mirri Maz Duur | Maegi/antagonist | No | Tends Dany's illness; describes Rhaego's monstrous birth; confronts Dany with the cost of the blood magic |
 | Jhogo | Bloodrider/khas member | No | Helps support Dany; reports Eroeh's fate at Mago's hands |
-| Aggo | Khas member | No | States the old, frightened, weak, and sick remain; says Eroeh's fate "was her fate" |
-| Rakharo | Khas member | No | Reports the herds and slaves were taken; explains the Dothraki right of the strong |
-| Khal Drogo | Central figure | No | Alive but utterly unresponsive — blind, mute, vegetative; smothered by Dany at chapter's end |
+| Aggo | Khas member | No | Declares "the old remain"; says Eroeh's fate "was her fate" |
+| Rakharo | Khas member | No | Reports theft of herds and slaves |
+| Khal Drogo | Dany's husband | No | Alive but in vegetative state — blind, unresponsive, cannot speak or act; mercy-killed by Dany |
 
 ## Character Appearances
 | Character | Hair | Eyes | Build/Height | Scars/Marks | Clothing/Armor | Weapons Worn | Distinguishing Features | Age (if stated) |
 |-----------|------|------|-------------|-------------|----------------|-------------|------------------------|-----------------|
-| Ser Jorah Mormont | | haunted eyes | flesh hangs loose on him | | | | limps when he moves; looks "half a corpse himself"; grey face, hollow eyes | |
-| Mirri Maz Duur | | heavy eyes (from sleep) | | | | | heavy, flat-nosed woman; described as stronger, crueler, and more dangerous than Ser Jorah | |
-| Jhogo | | | | | | | little wisp of mustache | |
-| Mirri Maz Duur (face detail) | | | flat broad face | | | | | |
-| Khal Drogo | long black hair (washed and combed by Dany) | wide open but unseeing, blind | | wound on breast healed with grey and red and hideous scar | | | bloodflies settle on him; lies on bare red earth staring at the sun; does not respond to touch, voice, or stimuli | |
-| Rhaego (dream vision) | silver-gold hair | violet eyes shaped like almonds | tall and proud | | | | copper skin (like Drogo); bursts into flame and is consumed | |
-| Rhaegar (dream vision) | | fire glimmered red through narrow eye slit of helm | | | polished black armor; mounted on black stallion | | face within the visor is Dany's own | |
-| Viserys (dream vision) | | eyes burst and ran like jelly | | molten gold trickling down face like wax, burning deep channels in flesh; seared and blackened cheeks | | | fingers "snapped like snakes" | |
-| Targaryen ghosts (dream) | silver, gold, platinum white | opal, amethyst, tourmaline, jade | | | faded raiment of kings | swords of pale fire | | |
+| Ser Jorah Mormont | | Eyes described as "haunted" | Flesh hangs loose on him (weight loss) | | | | Limps when he moves; "looked half a corpse himself"; face grey with shame; described as a powerful man | |
+| Mirri Maz Duur | | Eyes heavy from sleep | | | | | Heavy, flat-nosed woman; described as stronger, crueler, and infinitely more dangerous than Ser Jorah | |
+| Khal Drogo | Long black hair (washed and combed by Dany) | Wide open but unseeing; blind; follow the sun though he does not see it | | Wound on breast healed with scar — grey and red and hideous | | | Lies on bare red earth; bloodflies settle on him; does not feel, speak, or rise | |
+| Jhogo | Little wisp of mustache | | | | | | | |
+| Aggo | | | | | | | Flat broad face | |
+| Rhaego (vision) | Silver-gold hair | Violet eyes shaped like almonds | Tall and proud | | | | Copper skin (Drogo's); smiled; burst into flame | |
+| Rhaegar (vision) | | Fire glimmered red through narrow eye slit | | | Polished black armor; mounted on black stallion | | Face within the visor was Dany's own | |
+| Viserys (vision) | | Eyes burst and ran like jelly | | Molten gold trickled down face burning deep channels in flesh | | | Fingers snapped like snakes | |
+| Targaryen ghosts (vision) | Silver, gold, platinum white | Opal, amethyst, tourmaline, jade | | | Faded raiment of kings | Swords of pale fire | | |
 
 ## Characters Referenced
 | Character | Context of Reference | Referenced By |
 |-----------|---------------------|---------------|
-| Rhaegar Targaryen | Dream vision: Ser Jorah calls him "the last dragon"; appears mounted in black armor, face revealed as Dany's own | Dream sequence / Ser Jorah (in dream) |
-| Viserys Targaryen | Dream vision: screams about being the dragon and being crowned; molten gold death replayed | Dream sequence |
-| Rhaego | Dany's stillborn son; described by Mirri as monstrous — scaled, blind, winged, full of graveworms, dead for years; dream vision shows him burning | Jhiqui, Mirri Maz Duur, Dany's memories |
-| Ko Pono / Khal Pono | Left first, naming himself Khal Pono, taking many followers | Ser Jorah |
-| Jhaqo / Khal Jhaqo | Left shortly after Pono, also naming himself khal; now has twenty thousand riders | Ser Jorah, Irri |
-| Mago | Jhaqo's bloodrider; seized Eroeh, raped her, gave her to Jhaqo and his other bloodriders, who then cut her throat | Jhogo |
-| Eroeh | The girl Dany had saved; seized by Mago, gang-raped, and murdered | Dany (asking), Jhogo (reporting) |
-| Quaro | Named among those who died as part of the "price" paid | Dany |
-| Qotho | Named among those who died as part of the "price" paid | Dany |
-| Haggo | Named among those who died as part of the "price" paid | Dany |
-| Cohollo | Named among those who died as part of the "price" paid | Dany |
-| Aegon the Conqueror | Dany claims his bloodline in her declaration | Dany |
-| Maegor the Cruel | Dany claims his bloodline in her declaration | Dany |
+| Rhaego | Dany's dead son — born monstrous, scaled, blind, with wings and tail, full of graveworms | Jhiqui, Mirri Maz Duur, Dany |
+| Rhaegar Targaryen | Appears in fever dream; Ser Jorah calls him "the last dragon" in dream; mounted in black armor | Dany (dream), Ser Jorah (dream) |
+| Viserys Targaryen | Appears in fever dream screaming about being the dragon and being crowned; molten gold death replayed | Dany (dream) |
+| Ko Pono (Khal Pono) | Left first, naming himself Khal Pono, many followed | Ser Jorah |
+| Jhaqo (Khal Jhaqo) | Left after Pono, named himself khal | Ser Jorah, Jhogo, Dany |
+| Mago | Jhaqo's bloodrider; seized Eroeh, raped her, gave her to Jhaqo and other bloodriders, then cut her throat | Jhogo, Dany |
+| Eroeh | Frightened child Dany had saved outside the city of the Lamb Men; seized by Mago, gang-raped, throat cut | Dany, Jhogo |
+| Quaro | Named among the dead — part of the price paid | Dany |
+| Qotho | Named among the dead — part of the price paid | Dany |
+| Haggo | Named among the dead — part of the price paid | Dany |
+| Cohollo | Named among the dead — part of the price paid | Dany |
+| Aegon the Conqueror | Dany names him as her ancestor | Dany |
+| Maegor the Cruel | Dany names him as her ancestor | Dany |
 
 ## Locations
 | Location | Role | First Appearance? |
 |----------|------|-------------------|
-| Dothraki camp (remnant) | Primary setting — what remains after the khalasar scattered | No |
-| Dany's tent | Where Dany recovers from fever; where she bathes Drogo | No |
-| The Dothraki sea | Referenced in dreams and as the place where new khalasars roam | No |
-| Long hall with red door (dream) | Recurring dream location — high stone arches, door painted red | No (uncertain — verify) |
-| The Womb of the World | Referenced by Dany when speaking to Drogo, recalling past events | No |
-| The city of the Lamb Men | Referenced — where Dany saved Eroeh | No |
+| Dothraki sea (remnant camp) | Primary setting — where the remnants of the khalasar camp | No |
+| Long stone hall with red door (dream) | Dream location — Dany runs toward a red door | No |
+| Dothraki sea (dream/vision) | Dream setting — Dany sees/flies over the living plain | No |
+| City of the Lamb Men | Referenced — where Dany saved Eroeh | No |
 | Asshai | Referenced — where Mirri Maz Duur learned spells | No |
-| Old Valyria | Referenced in Dany's declaration of lineage | No |
+| Womb of the World | Referenced — Dany recalls its cool clean water | No |
+| Valyria | Referenced — Dany names it as ancestral homeland | No |
 
 ## Location Descriptions
 | Location | Defensive Features | Architecture/Layout | Interior Details | Scale | Condition | Surrounding Terrain/Geography | Notable Sensory Details |
 |----------|--------------------|--------------------|-----------------| ------|-----------|------------------------------|------------------------|
-| Dany's tent | | Silk-walled tent with smoke hole above; sleeping silks and cushions inside | Brazier with flakes of ash drifting upward; blankets/bedsilks; pile of cushions; chest containing dragon eggs; tub for bathing | | | | Drenched in shadow; still and close; silken walls flap like wings when wind gusts; shaft of golden sunlight pours through smoke hole |
-| Remnant camp (exterior) | | Scattering of tents and bedrolls; ashes of a fire | | Small — perhaps a hundred people total | Depleted, abandoned feel | Seared and empty land; bare red earth; sand; flat blue sky; empty horizon | Blinding bright sun; glare of sun on sand; wind and dust; bloodflies |
+| Remnant camp | None | A scattering of tents and bedrolls; ashes of a fire | Dany's tent: drenched in shadow, silken walls flap like wings in wind, smoke hole in top, brazier with flakes of ash drifting upward, sleeping silks, cushions, chest containing dragon eggs, tub for bathing | Perhaps a hundred people remain; a few score horses | Desolate — land is seared and empty; only wind and dust where 40,000 had camped | Bare red earth; sand; no grass, no trees, no stream; hard dusty ground strewn with stones; flat blue sky; empty horizon | Blinding bright sun; glare of sun on sand; taste of ashes; bloodflies; wind gusting |
+| Long hall (dream) | | High stone arches; long hallway; tiny red door at far end | | Vast — door is "tiny with distance" | Stone floor — melts under Dany's feet | | Bloody footprints; cold/icy breath behind; ghosts line the hallway |
 
 ## Artifacts & Objects of Significance
 | Artifact | Context | First Appearance? | Current Holder/Location |
 |----------|---------|-------------------|------------------------|
-| Dragon eggs (three) | Dany is drawn to them while delirious; sleeps with the pale/cream one; feels heat from all three; Jorah feels only cold stone | No | Dany's tent, in a chest (two) and in Dany's arms (one) |
-| Pale/cream dragon egg | Scales "the color of butter cream, veined with whorls of gold and bronze"; Dany feels heat from it and something "twist and stretch" inside | No | In Dany's arms as she sleeps |
-| Black dragon egg with scarlet swirls | Dany places Jorah's hand on it; he feels only cold stone | No | In chest in Dany's tent |
-| Cushion (silk stuffed with feathers) | Dany uses it to smother Khal Drogo | No | Dany's tent |
-| Swords of pale fire (dream) | Held by ghosts of Targaryen kings in the dream hallway | No (dream object) | Dream sequence |
+| Dragon eggs (three) | Dany crawls toward them on waking; sleeps with the pale/cream one; feels heat and movement within; the black egg with scarlet swirls feels hot to her but cold to Ser Jorah; two remain in their chest | No | Daenerys — in her tent |
+| Pale/cream dragon egg | Scales color of butter cream, veined with whorls of gold and bronze; Dany feels heat and something twist and stretch inside it | No | Daenerys — slept with it |
+| Black dragon egg with scarlet swirls | Dany places Ser Jorah's hand on it; he feels only cold stone, she feels heat | No | Daenerys — in chest |
+| Cushion (silk stuffed with feathers) | Used by Dany to smother/mercy-kill Drogo | No | Daenerys |
+| Brazier | In tent; stone eggs had smouldered on it in dream; flakes of ash drift from it | No | Dany's tent |
 
 ## Food & Drink
 | Meal/Occasion | Food Items Described | Drink | Who Is Eating/Drinking | Where | Preparation/Presentation Notes |
 |--------------|---------------------|-------|----------------------|-------|-------------------------------|
-| Dany's recovery (first waking) | | Sour milk mixed with something thick and bitter (medicine) | Dany | Tent | Mirri Maz Duur tips cup against Dany's lips; warm liquid runs down her chin |
-| Dany's recovery (second waking) | | Water (warm and flat); sweet wine | Dany | Tent | Dany drinks water eagerly, sends for more; Mirri brings wine |
-| Dany's recovery (third waking) | Dates (requested) | Water (cold as they can find), fruit | Dany | Tent | Dany requests these specifically upon waking |
-| Handmaids waiting outside | Fruit | Wine, water | Available for Dany | Outside tent | Handmaids wait with fruit and wine and water |
-| Evening before final night | A fig (nibbled at) | A mouthful of water | Dany | Tent (implied) | Dany can barely eat; exhausted from bathing Drogo |
-| Drogo's feeding (described) | Food put in his mouth | Water dribbled on his lips | Drogo (fed by others) | Outside | Ser Jorah describes how Drogo must be manually fed |
+| Dany's first drink on waking | | Water — warm and flat | Daenerys | Tent | Dany drinks eagerly despite poor quality; sends Jhiqui for more |
+| Mirri's medicine | | Sour milk mixed with something thick and bitter | Daenerys | Tent | Tipped against her lips by Mirri; warm liquid ran down her chin |
+| Mirri's second drink | | Sweet wine | Daenerys | Tent | Mirri lifts Dany's head to cup |
+| Dany requests food | Dates, fruit | Water (cold as they can find) | Daenerys | Tent | Requests upon waking the third time |
+| Handmaids waiting outside | Fruit | Wine and water | Available for Daenerys | Outside tent | Waiting when Dany emerges |
+| Evening meal | A fig (nibbled) | Water (mouthful) | Daenerys | Tent area | Barely able to eat; exhausted |
+| Drogo's feeding (reported) | Food put in his mouth | Water dribbled on his lips | Khal Drogo | Camp | Per Ser Jorah — Drogo eats only if food placed in his mouth |
 
 ## Hospitality & Guest Right
 | Event | Type | Host | Guest(s) | Details |
 |-------|------|------|----------|---------|
-| Mirri Maz Duur's accusation | hospitality_violated | Dany (who "saved" Mirri) | Mirri Maz Duur | Mirri argues Dany did not truly save her — she had already been raped repeatedly and witnessed her temple, home, and community destroyed before Dany intervened; frames the "saving" as hollow |
+| None | | | | |
 
 ## Events & Actions
-1. **Dany experiences extended fever dreams** — Visions include: a long hall with a red door and icy darkness behind; Drogo on the Dothraki sea; Ser Jorah fading to nothing over a brazier with smoldering stone eggs, calling Rhaegar "the last dragon"; Viserys screaming about being crowned as molten gold burns his face; Dany's unborn son with copper skin and silver-gold hair bursting into flame; ghosts of Targaryen kings with pale fire swords urging her to run faster; Dany's skin tears open revealing wings and she flies; she sees Rhaegar in black armor and lifts his visor to find her own face.
-2. **Dany wakes for the first time** — Jhiqui attends her; Dany crawls toward the dragon eggs; Ser Jorah carries her back; Mirri Maz Duur gives her medicine (sour milk and something bitter); Dany sleeps again.
-3. **Dany wakes for the second time** — The tent is dark with wind gusting; she drinks warm flat water and sweet wine; Irri dampens her brow; she asks for a dragon egg before falling asleep again.
-4. **Dany wakes for the third time** — Golden sunlight; her arms are wrapped around the pale cream dragon egg; she feels heat from it and something moving inside; her fever has broken; she feels strong.
-5. **Dany requests food, water, Ser Jorah, a bath, and Mirri Maz Duur** — She stands, remembers Drogo and Rhaego, and asks about them.
-6. **Jhiqui tells Dany the boy did not live** — Dany realizes she had known since waking; connects her dream of the burning copper-skinned man with silver-gold hair to Rhaego's death.
-7. **Mirri Maz Duur describes Rhaego's monstrous stillbirth** — Scaled like a lizard, blind, stub of a tail, small leather bat-wings, flesh sloughing off the bone, full of graveworms, dead for years.
-8. **Ser Jorah and Mirri discuss the shadows in the tent** — Jorah saw Mirri dancing alone with shadows; Mirri speaks of the grave's long shadows.
-9. **Dany recognizes Ser Jorah's role** — She understands he carried her into the tent and fed her baby to the darkness out of love and loyalty; notes his physical deterioration.
-10. **Dany confronts Mirri about the price** — Mirri tells her "That was a lie you told yourself. You knew the price."
-11. **Dany exits the tent and sees the remnant of the khalasar** — Perhaps a hundred people where forty thousand had camped; old, sick, frightened, and those who swore oaths remain.
-12. **Ser Jorah explains the khalasar's dissolution** — Ko Pono left first as Khal Pono; Jhaqo followed; the rest slipped away; a dozen new khalasars formed.
-13. **Rakharo reports the herds and many slaves were taken** — The strong taking from the weak.
-14. **Jhogo reports Eroeh's fate** — Mago seized her, raped her, gave her to Jhaqo and his six bloodriders, who then cut her throat.
-15. **Dany swears vengeance on Mago and Jhaqo** — Invokes multiple gods and declares herself of the blood of Aegon and Maegor and old Valyria; "these men will die screaming."
-16. **Dany sees Khal Drogo** — He lies on bare red earth, blind, unresponsive, covered in bloodflies; his breast wound has healed into a grey and red scar.
-17. **Dany confronts Mirri Maz Duur about Drogo's condition** — Mirri says she delivered what was asked: life. Dany describes what Drogo's real life was.
-18. **Mirri delivers the prophecy-like conditions for Drogo's return** — "When the sun rises in the west and sets in the east. When the seas go dry and mountains blow in the wind like leaves. When your womb quickens again, and you bear a living child."
-19. **Dany confronts Mirri privately** — Mirri reveals her motive: her temple was burned, her community slaughtered; she deliberately destroyed "the stallion who mounts the world." Dany argues she saved Mirri; Mirri retorts she was already destroyed before Dany intervened.
-20. **Dany orders Mirri Maz Duur bound hand and foot** — Mirri smiles as if they share a secret.
-21. **Dany bathes Khal Drogo** — She washes him personally, soaps and combs his long black hair until it shines; this takes past dark.
-22. **Dany leads Drogo outside under the stars** — Recalls their first ride and wedding night; the night is black and moonless with a million stars; she attempts to reach him through memory, touch, prayer, and physical intimacy.
-23. **Drogo does not respond** — He does not feel, speak, or rise despite Dany's efforts through the entire night.
-24. **At dawn, Dany accepts Drogo is truly lost** — She repeats Mirri's conditions, acknowledging they mean "never."
-25. **Dany smothers Khal Drogo** — She takes a silk cushion stuffed with feathers, kisses him on the lips, and presses the cushion across his face.
+1. **Daenerys experiences extended fever dreams** — Visions include: a long hall with a red door she runs toward; Drogo making love to her under stars before the sky takes flame; Ser Jorah fading away calling Rhaegar "the last dragon" over a brazier of smouldering eggs; Viserys screaming about being crowned as molten gold consumes him; her unborn son as a tall copper-skinned man with silver-gold hair who bursts into flame; ghosts of Targaryen kings with pale fire swords urging her faster; she sprouts wings and flies; she sees Rhaegar in black armor and lifts his visor to find her own face.
+2. **First waking** — Dany wakes to "the taste of ashes"; Jhiqui attends her; she is disoriented, body feels torn apart and remade; she crawls toward the dragon eggs; Ser Jorah carries her back to bed; Mirri Maz Duur gives her a bitter medicinal drink; she falls asleep again without dreaming.
+3. **Second waking** — Tent is dark, wind gusts outside; Dany calls for her handmaids; drinks warm flat water; Irri strokes her brow and seems sad; Mirri gives her sweet wine; Dany asks for a dragon egg and falls asleep holding the pale cream one.
+4. **Third waking** — Golden sunlight; Dany's arms wrapped around the pale dragon egg; feels heat and movement within it; fever is gone; she feels strong; asks for water, fruit, dates; asks for Ser Jorah, a warm bath, Mirri Maz Duur.
+5. **Dany learns Rhaego is dead** — She asks about Drogo and her child; handmaids evade and flee; Jhiqui finally tells her "the boy did not live"; Dany realizes she had already known from her dreams.
+6. **Mirri Maz Duur describes Rhaego's monstrous birth** — The child was scaled like a lizard, blind, with a stub of tail and small leather bat-wings; flesh sloughed off bone when touched; full of graveworms and stink of corruption; "had been dead for years."
+7. **Ser Jorah reports the khalasar's dissolution** — Ko Pono left first naming himself Khal Pono; Jhaqo followed; the rest slipped away night by night; a dozen new khalasars formed; only the old, frightened, weak, sick, and sworn remain — perhaps a hundred people.
+8. **Rakharo reports theft of herds and slaves** — The departing khals took Drogo's herds and many slaves; "the right of the strong to take from the weak."
+9. **Jhogo reports Eroeh's fate** — Mago (now Jhaqo's bloodrider) seized Eroeh, raped her, gave her to Jhaqo who gave her to his six bloodriders, then they cut her throat.
+10. **Dany swears vengeance** — She vows that Mago and Jhaqo will die screaming; invokes multiple gods; declares herself Daenerys Stormborn of House Targaryen, blood of Aegon the Conqueror and Maegor the Cruel and old Valyria.
+11. **Dany sees Drogo's condition** — He lies on bare red earth staring at the sun, blind, covered in bloodflies; healed wound is a grey and red hideous scar; he does not see, hear, speak, or respond; can walk if led but goes no farther; eats and drinks only if food/water placed in his mouth.
+12. **Dany confronts Mirri Maz Duur** — Mirri says "You asked for life. You paid for life"; gives impossible conditions for Drogo's return; Mirri speaks of her own suffering — her temple burned, raped by four riders, saw piles of heads; says "the stallion who mounts the world will burn no cities now."
+13. **Dany orders Mirri bound** — Commands her khas to take Mirri and bind her hand and foot; Mirri smiles as if they share a secret.
+14. **Dany bathes and tends Drogo** — Washes dirt and dust from him, cleans his face, soaps and combs his long black hair till it shines; spends until well past dark.
+15. **Dany's final attempt to reach Drogo** — Leads him outside under the stars at night (Dothraki custom: important things done under open sky); reminds him of their first ride, their wedding night, making Rhaego, the Womb of the World; uses hands, mouth, breasts; rakes him with nails, kisses him, whispers, prays, tells stories, bathes him with tears; Drogo does not respond.
+16. **Dany mercy-kills Drogo at dawn** — At bleak dawn she knows he is truly lost; repeats Mirri's impossible conditions; takes a cushion (soft silk stuffed with feathers) from the tent; kisses Drogo on the lips; presses the cushion down across his face.
 
 ## Spatial Layout & Movement
 | Phase | Who | Position / Movement | Relative To | Notes |
 |-------|-----|---------------------|-------------|-------|
-| Opening | Dany | Unconscious in tent on sleeping silks | Tent interior | Wakes repeatedly over days |
-| Advance | Dany | Crawls toward dragon eggs | Across tent floor | Delirious, driven toward eggs |
-| Retreat | Ser Jorah | Carries Dany back to sleeping silks | From eggs to bed | She struggles feebly |
-| Assembly | Ser Jorah, Mirri, handmaids, Jhogo | Gather around Dany | Tent interior | After Dany's first waking |
-| Departure | Dany | Exits tent into sunlight | Tent → camp exterior | Supported by Jorah and Jhogo |
-| Scout | Dany | Surveys remnant camp | From tent entrance | Sees ~100 people, scattered tents, horses, ashes of fire |
-| Advance | Dany, attendants | Walk to where Drogo lies | Camp exterior → bare red earth | Drogo lies alone in the sun |
-| Confrontation | Dany | Kneels beside Drogo | Next to Drogo on ground | Sees he is blind and unresponsive |
-| Confrontation | Dany | Faces Mirri Maz Duur | Standing over Drogo | Demands explanation |
-| Dismissal | Dany | Sends Jorah and Dothraki away | Near Drogo | Private confrontation with Mirri |
-| Confrontation | Dany | Confronts Mirri alone | Near Drogo | Mirri reveals her motives |
-| Dispersal | Khas men | Carry Mirri away bound | From Dany's presence | Mirri smiles as she is taken |
-| Retreat | Dany, attendants | Lead Drogo back to tent | From exterior → tent | Dany bathes him inside |
-| Departure | Dany | Leads Drogo out into night | Tent → open ground under stars | Dothraki custom: important things under open sky |
-| Vigil | Dany | Spends entire night with Drogo | Open ground, bare and stony | Uses hands, mouth, words, tears to try to reach him |
-| Arrival | Dawn | Dawn breaks | Over empty horizon | Dany accepts Drogo is lost |
-| Return | Dany | Goes back into tent for cushion | Open ground → tent → back to Drogo | Retrieves soft silk cushion |
-| Final | Dany | Kneels, kisses Drogo, smothers him | Beside Drogo on ground | Presses cushion across his face |
+| Opening | Daenerys | Unconscious in tent on sleeping silks | Tent interior | Fever dreams |
+| Advance | Daenerys | Crawls across carpet toward dragon eggs | Dragon egg chest | Found on carpet by attendants |
+| Retreat | Ser Jorah | Carries Dany back to sleeping silks | Tent interior | Against her feeble struggling |
+| Assembly | Daenerys | Stands over dragon egg chest | Tent interior | Third waking; touches eggs |
+| Departure | Daenerys | Exits tent into camp | Tent → outside | Blinding bright; supported by Ser Jorah and Jhogo |
+| Scout | Daenerys | Surveys remnant camp, shading eyes | Camp perimeter | Sees ~100 people, few score horses, scattered tents |
+| Advance | Daenerys, Ser Jorah, attendants | Walk to where Drogo lies | Bare red earth in sun | Drogo is alone outside |
+| Confrontation | Daenerys | Kneels beside Drogo; then stands to face Mirri | Drogo's position | Examines his condition |
+| Confrontation | Daenerys | Speaks alone with Mirri Maz Duur | After others withdraw | Orders Mirri bound afterward |
+| Retreat | Attendants | Lead Drogo back to tent | Camp → tent | At Dany's command |
+| Assembly | Daenerys | Bathes Drogo in tent | Tent interior; tub with clean water | Until well past dark |
+| Departure | Daenerys, Drogo | Dany leads Drogo out into darkness | Tent → open ground under stars | Dothraki custom: important things under open sky |
+| Confrontation | Daenerys | Attempts to reach Drogo through intimacy | Open ground, night | Uses hands, mouth, tears — no response |
+| Arrival | Daenerys | Returns briefly to tent for cushion | Open ground → tent → back to Drogo | Clutches cushion to breast |
+| Confrontation | Daenerys | Kisses Drogo, presses cushion over his face | Beside Drogo at dawn | Mercy killing |
 
 ## Information Revealed
 | Information | How Revealed | Known To (Characters) | Known To (Reader Only?) |
 |-------------|-------------|----------------------|------------------------|
-| Rhaego was stillborn and monstrous — scaled, blind, bat-winged, tail-stubbed, full of graveworms, "dead for years" | Mirri Maz Duur describes pulling him forth | Mirri, Ser Jorah, the women of the khalasar, Jhiqui, Dany | No |
-| Drogo is alive but vegetative — blind, mute, unresponsive | Dany sees him; Ser Jorah describes his condition | All present | No |
-| Drogo's khalasar has completely dissolved | Ser Jorah, Aggo, Rakharo report | Dany and her remaining followers | No |
-| Ko Pono named himself Khal Pono and left first | Ser Jorah tells Dany | Dany and attendants | No |
-| Jhaqo named himself khal and left with followers; now has twenty thousand riders | Ser Jorah, Irri | Dany and attendants | No |
-| A dozen new khalasars formed from Drogo's | Ser Jorah | Dany and attendants | No |
-| Only ~100 people remain — the old, frightened, weak, sick, and oath-sworn | Aggo states; Dany observes | Dany and attendants | No |
-| Eroeh was seized by Mago, raped by him and Jhaqo's bloodriders (six total), then her throat was cut | Jhogo reports | Dany and attendants | No |
-| Mirri deliberately destroyed Rhaego ("the stallion who mounts the world") as revenge | Mirri tells Dany in private | Dany and Mirri only | No |
-| Mirri was raped by three (then four) riders before Dany intervened | Mirri tells Dany | Dany and Mirri | No |
-| Dragon eggs feel hot to Dany but cold to Ser Jorah | Dany places Jorah's hand on an egg; he feels cold stone | Dany and Jorah | No |
-| Something moves inside the cream dragon egg when Dany touches it | Dany feels it | Dany only | Yes — only Dany perceives this |
-| Mirri's conditions for Drogo's return are effectively "never" | Mirri states them; Dany repeats them at dawn | Dany, Mirri, Jorah and attendants (heard the conditions) | No |
-| Dany smothers Drogo | Dany acts alone | Dany only (at this moment) | Yes — no other character is present |
-| Ser Jorah saw Mirri "alone, dancing with the shadows" during the ritual | Jorah states this | Jorah, Mirri, Dany | No |
+| Rhaego is dead — born monstrous: scaled, blind, winged, tailed, full of graveworms, "dead for years" | Jhiqui tells Dany the boy did not live; Mirri describes the monstrous details | Dany, Ser Jorah, Mirri, handmaids, Jhogo | No |
+| Drogo is alive but in a vegetative state — blind, unresponsive, can walk if led, eats if fed | Dany sees Drogo; Ser Jorah describes his condition | All present | No |
+| The khalasar has splintered — Ko Pono and Jhaqo named themselves khals; a dozen new khalasars formed; only ~100 remain | Ser Jorah, Aggo, Rakharo report | Dany, her retinue | No |
+| Eroeh was seized by Mago, gang-raped by Jhaqo and his bloodriders, then had her throat cut | Jhogo reports | Dany, attendants | No |
+| Drogo's herds and many slaves were taken by departing khals | Rakharo reports | Dany, attendants | No |
+| The dragon eggs radiate heat that only Dany can feel; she feels something twist and stretch inside the pale egg | Dany feels heat; Ser Jorah feels only "cold stone" | Dany knows heat; Ser Jorah cannot feel it | Yes — reader sees the discrepancy |
+| Mirri Maz Duur acted deliberately — she murdered Rhaego to prevent "the stallion who mounts the world" from burning cities | Mirri states her motivation directly | Dany, Mirri | No |
+| Mirri's impossible conditions for Drogo's return: sun rises in west/sets in east; seas go dry; mountains blow like leaves; Dany's womb quickens again | Mirri states them | Dany, Mirri (others have withdrawn) | No |
+| Quaro, Qotho, Haggo, and Cohollo are dead | Dany names them among the price paid | Dany, attendants | No |
+| Ser Jorah was affected by the shadow magic — he limps, has lost weight, looks haunted, face grey | Observed by Dany | Dany | No |
+| Dany identifies herself as Daenerys Stormborn, of the blood of Aegon the Conqueror and Maegor the Cruel | Dany declares it | All present | No |
 
 ## Dialogue of Note
 | Speaker | Listener | Quote/Paraphrase | Context |
 |---------|----------|------------------|---------|
-| Dream voice (recurring) | Dany | "You don't want to wake the dragon, do you?" | Refrain throughout the fever dream sequence; echoes Viserys's threat |
-| Ser Jorah (dream) | Dany | "Rhaegar was the last dragon." | Dream vision; Jorah fades to nothing while warming hands over smoldering dragon eggs |
-| Viserys (dream) | Dany | "The dragon does not beg, slut. You do not command the dragon. I am the dragon, and I will be crowned." | Dream replay of his death, molten gold burning his face |
-| Targaryen ghosts (dream) | Dany | "Faster, faster, faster!" | Dream hallway; ghosts of kings urge Dany to run as she transforms |
-| Jhiqui | Dany | "The boy … he did not live, Khaleesi." | Breaking the news of Rhaego's death; frightened whisper |
-| Mirri Maz Duur | Dany, Ser Jorah | "Monstrous. Twisted. I drew him forth myself. He was scaled like a lizard, blind, with the stub of a tail and small leather wings like the wings of a bat. When I touched him, the flesh sloughed off the bone, and inside he was full of graveworms and the stink of corruption. He had been dead for years." | Describing Rhaego's stillbirth |
-| Mirri Maz Duur | Ser Jorah | "The grave casts long shadows, Iron Lord. Long and dark, and in the end no light can hold them back." | Responding to Jorah's mention of shadows in the tent |
-| Mirri Maz Duur | Dany | "That was a lie you told yourself. You knew the price." | When Dany says she thought the horse was the price for Drogo's life |
-| Jhogo | Dany | "A khal who cannot ride is no khal." | Explaining why the khalasar dissolved |
-| Aggo | Dany | "The old remain. The frightened, the weak, and the sick. And we who swore. We remain." | Declaring loyalty |
-| Jhogo | Dany | "Mago seized her, who is Khal Jhaqo's bloodrider now. He mounted her high and low and gave her to his khal, and Jhaqo gave her to his other bloodriders. They were six. When they were done with her, they cut her throat." | Reporting Eroeh's fate |
-| Dany | Attendants | "And I am Daenerys Stormborn, Daenerys of House Targaryen, of the blood of Aegon the Conqueror and Maegor the Cruel and old Valyria before them. I am the dragon's daughter, and I swear to you, these men will die screaming." | Declaring vengeance on Mago and Jhaqo; asserting her identity |
-| Mirri Maz Duur | Dany | "When the sun rises in the west and sets in the east. When the seas go dry and mountains blow in the wind like leaves. When your womb quickens again, and you bear a living child. Then he will return, and not before." | Conditions for Drogo's recovery — effectively "never" |
-| Mirri Maz Duur | Dany | "The stallion who mounts the world will burn no cities now. His khalasar shall trample no nations into dust." | Revealing her deliberate destruction of Rhaego |
-| Mirri Maz Duur | Dany | "Three riders had taken me, not as a man takes a woman but from behind, as a dog takes a bitch. The fourth was in me when you rode past. How then did you save me? I saw my god's house burn … I saw piles of heads … Tell me again what you saved." | Challenging Dany's belief that she saved her |
-| Mirri Maz Duur | Dany | "Look to your khal and see what life is worth, when all the rest is gone." | Final taunt before being bound |
-| Ser Jorah | Dany | "Shell, hard as rock. Scales." / "No. Cold stone." | When Dany asks him what he feels touching the dragon egg — he feels no heat |
-| Dany | Drogo | "Remember, Drogo. Remember our first ride together, the day we wed. Remember the night we made Rhaego, with the khalasar all around us and your eyes on my face. Remember how cool and clean the water was in the Womb of the World. Remember, my sun-and-stars. Remember, and come back to me." | Final night plea to the unresponsive Drogo |
+| Jhiqui | Daenerys | "The boy … he did not live, Khaleesi." | Breaking the news of Rhaego's death; voice a frightened whisper |
+| Mirri Maz Duur | Daenerys, Ser Jorah | "Monstrous. Twisted. I drew him forth myself. He was scaled like a lizard, blind, with the stub of a tail and small leather wings like the wings of a bat. When I touched him, the flesh sloughed off the bone, and inside he was full of graveworms and the stink of corruption. He had been dead for years." | Describing Rhaego's monstrous birth |
+| Ser Jorah | Daenerys | "Ko Pono left first, naming himself Khal Pono, and many followed him. Jhaqo was not long to do the same. The rest slipped away night by night, in large bands and small. There are a dozen new khalasars on the Dothraki sea, where once there was only Drogo's." | Reporting the khalasar's dissolution |
+| Aggo | Daenerys | "The old remain. The frightened, the weak, and the sick. And we who swore. We remain." | Declaring loyalty |
+| Jhogo | Daenerys | "Mago seized her, who is Khal Jhaqo's bloodrider now. He mounted her high and low and gave her to his khal, and Jhaqo gave her to his other bloodriders. They were six. When they were done with her, they cut her throat." | Reporting Eroeh's fate |
+| Daenerys | Attendants | "I swear to you, these men will die screaming." / "I am Daenerys Stormborn, Daenerys of House Targaryen, of the blood of Aegon the Conqueror and Maegor the Cruel and old Valyria before them. I am the dragon's daughter." | Swearing vengeance on Mago and Jhaqo; declaring her identity |
+| Mirri Maz Duur | Daenerys | "When the sun rises in the west and sets in the east. When the seas go dry and mountains blow in the wind like leaves. When your womb quickens again, and you bear a living child. Then he will return, and not before." | Giving impossible conditions for Drogo's recovery |
+| Mirri Maz Duur | Daenerys | "That was a lie you told yourself. You knew the price." | When Dany says she thought the horse would pay for the life |
+| Mirri Maz Duur | Daenerys | "The stallion who mounts the world will burn no cities now. His khalasar shall trample no nations into dust." | Revealing her motive for killing Rhaego |
+| Mirri Maz Duur | Daenerys | "Three riders had taken me, not as a man takes a woman but from behind, as a dog takes a bitch. The fourth was in me when you rode past. How then did you save me?" | Confronting Dany about the limits of her "saving" |
+| Mirri Maz Duur | Daenerys | "Look to your khal and see what life is worth, when all the rest is gone." | Final rebuke |
+| Ser Jorah | Mirri Maz Duur | "Only shadows. I saw, maegi. I saw you, alone, dancing with the shadows." | Recalling what he witnessed in the tent during the ritual |
+| Mirri Maz Duur | Ser Jorah | "The grave casts long shadows, Iron Lord. Long and dark, and in the end no light can hold them back." | Response to Jorah's account of shadows |
+| Dream voice | Daenerys | "You don't want to wake the dragon, do you?" | Recurring refrain throughout fever dream — echoes Viserys's threat |
+| Ser Jorah (dream) | Daenerys | "Rhaegar was the last dragon." / "The last, the last." | Dream vision; Jorah fading to nothing over brazier of smouldering eggs |
+| Targaryen ghosts (dream) | Daenerys | "Faster, faster, faster." | Urging Dany to run/fly in the hall of kings |
 
 ## POV Character's Internal State
-- **Emotional state:** Grief burned to ash — Dany notes "all the grief has been burned out of me"; fury at Mirri gives her strength; anguish over Eroeh's death; fierce determination in her vengeance oath; deep sorrow during the final night with Drogo; acceptance at dawn; resolute calm when she smothers him. The recurring internal refrain "If I look back I am lost" serves as self-governance.
-- **Primary preoccupation:** What has the blood magic cost her — the fate of Rhaego, the condition of Drogo, the dissolution of the khalasar; the dragon eggs and their heat; reaching Drogo through memory and intimacy
-- **Key decisions made:** Orders Mirri Maz Duur bound; swears vengeance on Mago and Jhaqo; decides to mercy-kill Drogo after an entire night of failing to reach him; claims her Targaryen identity and lineage publicly
-- **Self-deception flags:** Mirri directly accuses Dany of self-deception: "That was a lie you told yourself. You knew the price." Dany's internal response is ambiguous: "Had she? Had she? If I look back I am lost." — she cuts off self-examination rather than answering the question. The mantra "If I look back I am lost" functions as a conscious refusal to examine past choices.
+- **Emotional state:** Progresses through disorientation → grief (muted, burned out) → fury at Mirri → desperate hope → acceptance → resolved sorrow. "All the grief has been burned out of me." She feels Rhaego "receding from her, as if he had never been." Her tears have "turned to steam." By the end, she is resolute but devastated.
+- **Primary preoccupation:** The dragon eggs (crawls toward them on first waking; asks for one to hold; feels their heat); Drogo's condition and whether he can be reached; the cost of the blood magic and who truly paid it.
+- **Key decisions made:** Swears vengeance on Mago and Jhaqo; orders Mirri Maz Duur bound; chooses to mercy-kill Drogo after failing to reach him.
+- **Self-deception flags:** Mirri tells her directly: "That was a lie you told yourself. You knew the price." Dany's internal response: "Had she? Had she? If I look back I am lost." The refrain "If I look back I am lost" appears four times — it functions as a mechanism to suppress doubt and grief, pushing forward rather than examining what she chose.
 
 ## Relationships Observed
 | Character A | Relationship | Character B | Evidence |
 |-------------|-------------|-------------|----------|
-| Dany | love / grief | Khal Drogo | Spends entire night trying to reach him; kisses him; smothers him as mercy |
-| Dany | grief / loss | Rhaego | Knows her son is dead; dreams of him burning; asks for him by name |
-| Dany | fury / accusation | Mirri Maz Duur | Confronts her, accuses her of cheating and murdering her child, orders her bound |
-| Mirri Maz Duur | defiance / contempt | Dany | Challenges Dany's claims of saving her; smiles as she is carried off bound |
-| Dany | complex trust / guilt | Ser Jorah | Knows he carried her into the tent out of love and loyalty but this killed her son; notes his physical decline |
-| Ser Jorah | devotion / protectiveness | Dany | Carries her, supports her, tries to shield her from difficult truths |
-| Aggo | loyalty / oath | Dany | "And we who swore. We remain." |
-| Rakharo | loyalty / service | Dany | Reports losses; stays with the remnant |
-| Jhogo | loyalty / service | Dany | Reports Eroeh's fate; supports Dany physically |
-| Irri | loyalty / concern | Dany | Dampens her brow; tries to warn her about Jhaqo's power |
-| Dany | vengeance | Mago | Swears he will die screaming for what he did to Eroeh |
-| Dany | vengeance | Khal Jhaqo | Swears he will die screaming; invokes gods and ancestry |
-| Dany | connection / compulsion | Dragon eggs | Crawls toward them while delirious; feels heat from them when no one else can; feels something move inside |
-| Mirri Maz Duur | revenge | Rhaego / Drogo | Deliberately destroyed both as revenge for the sack of her city and temple |
-| Dany | guilt / helplessness | Eroeh | Remembers saving her; horrified at her fate; it fuels her vengeance oath |
+| Daenerys | wife/lover of (ending) | Khal Drogo | Bathes him, tends him, attempts intimacy, recalls their history, mercy-kills him out of love |
+| Daenerys | mother of (bereaved) | Rhaego | Grieves his death; feels him "receding from her"; dreams of him burning |
+| Daenerys | antagonist of | Mirri Maz Duur | Accuses her of murder and cheating; orders her bound; Mirri shows no remorse |
+| Mirri Maz Duur | antagonist of | Daenerys | Deliberately killed Rhaego to prevent "the stallion who mounts the world"; mocks Dany's grief |
+| Ser Jorah Mormont | protector/advisor of | Daenerys | Carries her, supports her physically, reports news, calls her "my princess" |
+| Daenerys | holds responsible | Ser Jorah Mormont | "Ser Jorah had killed her son" — he carried her into the tent; she sees it was done from love and loyalty |
+| Jhiqui | serves | Daenerys | Attends her, brings water, delivers news of Rhaego's death |
+| Irri | serves | Daenerys | Dampens her brow, shows sadness; explains Jhaqo has 20,000 riders |
+| Doreah | serves | Daenerys | Flees rather than deliver bad news; previously taught Dany "other ways" of intimacy |
+| Aggo | sworn to | Daenerys | Declares "we who swore, we remain"; loyal among the remnant |
+| Rakharo | sworn to | Daenerys | Reports on herds/slaves; remains loyal |
+| Jhogo | sworn to | Daenerys | Reports Eroeh's fate; helps support Dany; remains loyal |
+| Daenerys | seeks vengeance against | Mago | Swears he will die screaming for what he did to Eroeh |
+| Daenerys | seeks vengeance against | Khal Jhaqo | Swears he will plead for mercy; considers him responsible for Eroeh's death |
+| Mago | bloodrider of | Khal Jhaqo | Identified as Jhaqo's bloodrider now |
+| Mago | killed | Eroeh | Seized her, raped her, gave her to Jhaqo, she was gang-raped and throat cut |
+| Ko Pono (Khal Pono) | former subordinate of | Khal Drogo | Left first, declared himself khal |
+| Jhaqo (Khal Jhaqo) | former subordinate of | Khal Drogo | Left after Pono, declared himself khal |
+| Daenerys | connected to (mystically) | Dragon eggs | Only she can feel their heat; feels movement inside; crawls toward them instinctively |
+| Mirri Maz Duur | blames | Daenerys / Dothraki | Her temple burned, she was gang-raped, saw heads of people she knew; Dany's "saving" came too late |
+| Daenerys | claims descent from | Aegon the Conqueror | "of the blood of Aegon the Conqueror" |
+| Daenerys | claims descent from | Maegor the Cruel | "and Maegor the Cruel" |
 
 ## Unanswered Questions
 | Question | Raised By | Context |
 |----------|-----------|---------|
-| Why does Dany feel heat from the dragon eggs when Ser Jorah feels only cold stone? | Dany's observation vs. Jorah's | She places his hand on the black egg; he feels nothing; she feels heat from all three |
-| What moved inside the cream dragon egg when Dany touched it? | Dany's perception | "Deep in the stone she felt something twist and stretch in response" |
-| Was Rhaego's monstrous form caused by the blood magic, or was it something else? | Mirri's description, Dany's accusation | Mirri says "death was in that tent"; the deformities include scales and wings — dragon-like features |
-| What were the shadows Ser Jorah saw Mirri dancing with? | Ser Jorah's account | "I saw you, alone, dancing with the shadows" |
-| What is the significance of the dream sequence — particularly Dany seeing her own face under Rhaegar's visor? | Dany's fever dream | Dream ends with Dany lifting Rhaegar's visor and seeing her own face |
-| Will Mirri Maz Duur's conditions ("when the sun rises in the west...") ever be met? | Mirri's declaration | Stated as conditions for Drogo's return; context implies they mean "never" |
-| What will Dany do with the remnant of the khalasar and the dragon eggs? | Chapter's open ending | Drogo is dead; ~100 people remain; Dany has three dragon eggs she feels heat from |
+| Why can only Daenerys feel the heat of the dragon eggs? | Narrative contrast | Ser Jorah feels only "cold stone" when touching the same egg Dany feels is hot |
+| What twisted and stretched inside the pale dragon egg? | Dany's observation | "Deep in the stone she felt something twist and stretch in response" |
+| Was Mirri's description of Rhaego accurate, or was it shaped by the blood magic she performed? | Implicit | Rhaego was alive when Dany entered the tent; Mirri says he was "dead for years" |
+| Are Mirri's conditions for Drogo's return truly impossible, or could they be fulfilled? | Mirri Maz Duur's statement | "When the sun rises in the west and sets in the east…" — presented as impossible conditions |
+| What exactly happened in the tent during the blood magic ritual? | Ser Jorah's account | He saw Mirri "alone, dancing with the shadows"; "death was in that tent" |
+| What will Daenerys do with Mirri Maz Duur? | Narrative | Mirri is bound but alive; Dany considers: "A word, and Dany could have her head off… yet then what would she have?" |
+| What was the significance of the Targaryen ghosts with swords of pale fire in the fever dream? | Dany's dream | Ghosts dressed as kings urge her "faster" as she runs/flies toward the red door |
+| What is the red door that recurs in Dany's dreams? | Dany's dream | Painted red, represents "home" — green fields, stone houses, arms to keep her warm |
+| Will Daenerys's threat against Mago and Jhaqo be fulfilled? | Dany's vow | She swears by multiple gods that they will die screaming |
 
 ## Raw Entity List
+
 ### Characters
-Daenerys Targaryen, Khal Drogo, Ser Jorah Mormont, Mirri Maz Duur, Jhiqui, Irri, Doreah, Jhogo, Aggo, Rakharo, Rhaego (stillborn), Viserys Targaryen (dream), Rhaegar Targaryen (dream), Eroeh (referenced), Mago (referenced), Khal Pono (referenced), Khal Jhaqo (referenced), Quaro (referenced, dead), Qotho (referenced, dead), Haggo (referenced, dead), Cohollo (referenced, dead), Targaryen kings/ghosts (dream), Aegon the Conqueror (referenced), Maegor the Cruel (referenced)
+Daenerys Targaryen, Khal Drogo, Ser Jorah Mormont, Mirri Maz Duur, Jhiqui, Irri, Doreah, Jhogo, Aggo, Rakharo, Rhaego (dead), Viserys Targaryen (dream), Rhaegar Targaryen (dream), Ko Pono / Khal Pono (referenced), Khal Jhaqo (referenced), Mago (referenced), Eroeh (referenced), Quaro (referenced, dead), Qotho (referenced, dead), Haggo (referenced, dead), Cohollo (referenced, dead), Aegon the Conqueror (referenced), Maegor the Cruel (referenced), Targaryen ghost kings (dream)
 
 ### Locations
-Dothraki camp (remnant), Dany's tent, the Dothraki sea, the Womb of the World (referenced), the city of the Lamb Men (referenced), Asshai (referenced), Valyria (referenced)
+Dothraki sea (remnant camp), Dothraki sea (dream/vision), Long stone hall with red door (dream), City of the Lamb Men (referenced), Asshai (referenced), Womb of the World (referenced), Valyria (referenced), Mother of Mountains (referenced in oath)
 
-### Artifacts
-Dragon eggs (three — cream/gold/bronze, black/scarlet, and a third), silk cushion (used to smother Drogo), swords of pale fire (dream)
+### Houses
+House Targaryen
 
-### Houses/Factions
-House Targaryen, Drogo's khalasar (dissolved), Khal Pono's new khalasar, Khal Jhaqo's new khalasar, the Lhazareen (Lamb Men — Mirri's people)
+### Factions & Organizations
+Drogo's khalasar (dissolved), Khal Pono's khalasar (newly formed), Khal Jhaqo's khalasar (newly formed), Daenerys's remaining retinue (~100 people)
+
+### Religions & Faiths
+"The old gods and the new" (invoked in oath), "The lamb god" (invoked in oath — Lhazareen deity / Great Shepherd), "The horse god" (invoked in oath — Dothraki deity / Great Stallion), "Every god that lives" (invoked in oath), The Great Shepherd (Mirri references — "angered the Great Shepherd")
+
+### Cultures & Peoples
+Dothraki, Lhazareen (Lamb Men), Lysene (Doreah identified as "the Lysene girl"), Valyrians (ancestral)
+
+### Artifacts & Objects
+Dragon eggs (three — pale/cream with gold and bronze veins; black with scarlet swirls; third not individually described this chapter), Brazier, Silk cushion stuffed with feathers (used to kill Drogo), Swords of pale fire (dream — held by Targaryen ghosts), Drogo's arakh (referenced as part of his former life), Drogo's bells (referenced as part of his former life)
+
+### In-world Texts & Songs
+None
+
+### Magic & Phenomena
+Blood magic / death-for-life ritual (aftermath — Rhaego's monstrous birth as cost of Drogo's "life"), Mirri Maz Duur's shadow-dancing (Ser Jorah witnessed her dancing alone with shadows), Dragon egg heat perceptible only to Daenerys, Movement/life sensed within dragon egg, Fever dreams / prophetic visions (Dany's extended dream sequence — flying, Targaryen ghosts, red door, transformation), "The stallion who mounts the world" prophecy (Mirri references it as motivation for killing Rhaego), Dragondew (perspiration Dany names while holding heated egg)
+
+### Wars & Conflicts
+None named explicitly; the dissolution of Drogo's khalasar into a dozen new khalasars implies widespread conflict
+
+### Titles & Offices
+Khaleesi, Khal, Ko, Bloodrider, Maegi, Princess (Ser Jorah's address for Dany), Iron Lord (Mirri's address for Ser Jorah), Daenerys Stormborn (self-styled title), "The dragon's daughter" (self-styled)
+
+### Other
+"If I look back I am lost" — recurring internal refrain (appears four times); "the stallion who mounts the world" — Dothraki prophecy referenced by Mirri; Mother of Mountains and Womb of the World — sacred Dothraki sites invoked in oath; Guest right / bread and salt not applicable this chapter

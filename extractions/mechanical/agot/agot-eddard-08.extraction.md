@@ -6,233 +6,263 @@
 - **pov_character:** Eddard Stark
 - **pov_chapter_number:** Eddard VIII
 - **first_available:** AGOT Eddard VIII
-- **location_primary:** Red Keep — Small Council chambers
-- **location_secondary:** Tower of the Hand (Ned's solar)
-- **approximate_timeline:** Shortly after news of Daenerys's pregnancy reaches King's Landing; the morning after Yoren warned Ned about Catelyn seizing Tyrion
-- **time_markers:** "this morning" (the council session); "last night" (Yoren's warning about Catelyn and the dwarf); "a fortnight" (estimated time to ready for departure); "on the morrow" (Ned's hope for a ship); "come evenfall" (Littlefinger's brothel offer); "fifteen years dead" (how long Rhaegar has been dead); "twenty years removed" (Ned's description of the Targaryen threat's distance)
-- **chapter_summary:** The small council debates assassinating Daenerys Targaryen, who is pregnant. Ned refuses to condone the murder and resigns as Hand of the King, returning the badge of office to Robert. Robert furiously tells Ned to leave King's Landing. Ned begins preparations to depart with his daughters, considering taking a ship north with a stop at Dragonstone to see Stannis Baratheon. Littlefinger visits Ned's solar and reveals the council opted for a cheaper assassination scheme rather than the Faceless Men, then offers to take Ned to the brothel Jory has been searching for.
+- **location_primary:** The Red Keep — small council chambers, then Tower of the Hand (Ned's solar)
+- **location_secondary:** Winterfell (discussed), Dragonstone (discussed), Vaes Dothrak (mentioned), Braavos (mentioned), King's Landing docks (referenced)
+- **approximate_timeline:** Mid-AGOT; follows Ned's earlier investigations into Jon Arryn's death; Catelyn has already seized Tyrion Lannister (news has reached Ned via Yoren the previous night)
+- **time_markers:** The council meeting takes place in the morning ("after you took your leave of us this morning"); Ned reflects afterward during daytime ("The day felt heavy and oppressive"); Littlefinger mentions "come evenfall" as a future time that day; Ned references "last night" when Yoren warned him about Catelyn and the dwarf; a fortnight mentioned as travel preparation time; fifteen years since Rhaegar's death
+- **chapter_summary:** The small council debates assassinating Daenerys Targaryen, who is pregnant with Khal Drogo's child. Ned alone opposes the assassination (with partial support from Ser Barristan), and when Robert insists, Ned resigns as Hand of the King, removing the badge of office and laying it on the table. Ned returns to his solar and begins planning an immediate departure for Winterfell, considering traveling by sea with a stop at Dragonstone to speak with Stannis Baratheon. Littlefinger visits to report that the council settled on offering a lordship to any would-be assassin instead of hiring the Faceless Men, and offers to take Ned to the brothel Jory has been searching for.
 
 ## Physical Environment
 - **Weather:** Heavy, oppressive day with the threat of rain in the air
-- **Season indicators:** None stated
-- **Time of day:** Morning (council session); crosses to afternoon; Littlefinger mentions "evenfall" as upcoming
-- **Lighting:** Not described
-- **Sounds:** Robert's fist slamming on the table "loud as a thunderclap"; wine flagon shattering against the wall; the closing of the door silencing the council voices
-- **Smells:** Not described
-- **Notable sensory details:** Ned feels "unclean" after the council session; he would have welcomed rain to feel "a trifle less unclean"
+- **Season indicators:** None explicitly stated
+- **Time of day:** Morning (council session); transitions to daytime (crossing the bailey, brooding in solar); Littlefinger mentions "evenfall" as upcoming
+- **Lighting:** Not explicitly described
+- **Sounds:** Robert's fist slamming the council table "loud as a thunderclap"; Robert bellowing; the wine flagon shattering against the wall; the door closing and silencing the council voices
+- **Smells:** None described
+- **Notable sensory details:** Ned feels the heaviness of the air; he would have welcomed rain to feel "a trifle less unclean"; the weight of the silver Hand clasp as he unfastens it
 
 ## Characters Present
 | Character | Role in Chapter | First Appearance? | Notes |
 |-----------|----------------|-------------------|-------|
-| Eddard Stark | POV; Hand of the King (resigns) | No | Opposes assassination; resigns as Hand |
-| Robert Baratheon | King; drives assassination decision | No | Furious, purple-faced, drinking wine |
-| Varys | Councillor; intelligence source | No | Reports Daenerys's pregnancy via Jorah Mormont |
-| Lord Renly Baratheon | Councillor; votes for assassination | No | Dismissive; reminds council of Mormont's desire for pardon |
-| Ser Barristan Selmy | Kingsguard; opposes assassination | No | Stands with Ned against the killing |
-| Grand Maester Pycelle | Councillor; votes for assassination | No | Argues pragmatic case for killing; mentions Faceless Men |
-| Petyr Baelish (Littlefinger) | Councillor; votes for assassination; visits Ned afterward | No | Sly, mocking; claims to have steered council away from Faceless Men |
-| Ser Boros Blount | Kingsguard; stationed outside council chamber | No | Gives Ned a curious glance |
-| Vayon Poole | Steward of Ned's household | No | Summoned twice — once about departure, once about finding a ship |
-| Tomard (Tom) | Guardsman; announces Littlefinger's visit | No | Called "Tom" by Ned |
+| Eddard Stark | POV; opposes the assassination, resigns as Hand | No | Called Ned, Lord Eddard, Lord Stark |
+| Robert Baratheon | King; demands Daenerys's assassination | No | Described as furious, drinking wine, face purpling |
+| Varys | Councillor; reports Daenerys's pregnancy, advocates assassination | No | Called "the eunuch"; wrings powdered hands; suggests poison (tears of Lys) |
+| Lord Renly Baratheon | Councillor; supports assassination | No | Shrugs at the matter; references Jon Arryn's past advice of mercy |
+| Ser Barristan Selmy | Councillor; sides with Ned against assassination | No | Raises pale blue eyes; speaks of honor |
+| Grand Maester Pycelle | Councillor; supports assassination via utilitarian argument | No | Clears throat at length; strokes white beard; sleepy eyes flick open at mention of poison |
+| Petyr Baelish (Littlefinger) | Councillor; supports assassination, then visits Ned privately | No | Stifles a yawn; later visits Ned's solar; offers to take him to the brothel |
+| Ser Boros Blount | Kingsguard on duty outside council chambers | No | Wears white cloak and armor; gives Ned a curious glance |
+| Vayon Poole | Steward of Ned's household; receives orders to prepare departure | No | Summoned twice — first to prepare departure, then to find a ship |
+| Tomard (Tom) | Guard; announces Littlefinger's visit | No | Called "Tom" by Ned |
 
 ## Character Appearances
 | Character | Hair | Eyes | Build/Height | Scars/Marks | Clothing/Armor | Weapons Worn | Distinguishing Features | Age (if stated) |
 |-----------|------|------|-------------|-------------|----------------|-------------|------------------------|-----------------|
-| Robert Baratheon | | | | | Velvet collar | | Face flushes purple with rage; flush creeps up his neck | |
-| Ser Barristan Selmy | | Pale blue | | | | | | |
-| Grand Maester Pycelle | Luxuriant white beard | Sleepy eyes | | | | | Appears infinitely sad, infinitely weary | |
-| Varys | | | | | | | Powdered hands; powdered cheek; soft hands; described as "the eunuch" | |
-| Petyr Baelish | | | | | Slashed velvet doublet in cream-and-silver; grey silk cloak trimmed with black fox | | Customary mocking smile | |
-| Ser Boros Blount | | | | | Long white cloak and armor of the Kingsguard | | | |
+| Robert Baratheon | | | | | Velvet collar | | Face flushes/purples with rage; angry pointing finger | |
+| Varys | | | | | | | Powdered hands; powdered cheek; soft hands; sly smile; unctuous manner | |
+| Ser Barristan Selmy | | Pale blue eyes | | | | | | |
+| Grand Maester Pycelle | White beard (luxuriant) | Sleepy eyes | | | | | Infinitely sad, infinitely weary manner | |
+| Petyr Baelish (Littlefinger) | | | | | Slashed velvet doublet in cream-and-silver; grey silk cloak trimmed with black fox | | Customary mocking smile | |
+| Ser Boros Blount | | | | | Long white cloak; armor of the Kingsguard | | | |
 
 ## Characters Referenced
 | Character | Context of Reference | Referenced By |
 |-----------|---------------------|---------------|
-| Daenerys Targaryen | Subject of assassination debate; described as pregnant, "a fourteen-year-old girl" | Ned, Robert, Varys, council |
-| Viserys Targaryen | Robert wants him killed too; called "that fool" | Robert |
-| Jorah Mormont (Ser Jorah) | Varys's informant; source of the pregnancy report; craves a royal pardon | Varys, Ned, Renly |
-| Khal Drogo | Daenerys's husband; Varys says he need not know of a poisoning | Varys |
-| Jon Arryn | His death remains unsolved; Ned believes he was murdered; he originally counseled mercy for the Targaryens; he pinned the Hand's badge on Ned | Ned (internal), Renly |
-| Aerys Targaryen (the Mad King) | Referenced in Ned's argument — "what did we rise against Aerys Targaryen for" | Ned, Pycelle |
-| Rhaegar Targaryen | Ned taunts Robert about not fearing Rhaegar; Ned recalls Robert still hates him fifteen years after his death | Ned |
+| Daenerys Targaryen | Subject of assassination debate; described as pregnant, a fourteen-year-old girl | Entire council; Ned defends her |
+| Viserys Targaryen | Robert wants him dead too; Renly says they should have been killed years ago | Robert, Renly |
+| Khal Drogo | Father of Daenerys's unborn child; would not know of a poisoning | Varys |
+| Jorah Mormont (Ser Jorah) | Varys's informant who reported the pregnancy; craves a royal pardon | Varys, Ned, Renly |
+| Jon Arryn | Renly says Robert listened to Jon Arryn's counsel of mercy; Ned reflects on Jon Arryn's murder | Renly, Ned (internal) |
 | Roose Bolton | Urged cutting Barristan's throat after the Trident | Ned |
-| Catelyn Stark | Ned thinks of returning to her; recalls her warning about Robert; "the business with Catelyn and the dwarf"; she brought Ned the dagger | Ned (internal) |
-| Tyrion Lannister | "The dwarf"; business with Catelyn and the dwarf; owner of the Valyrian steel dagger (per Catelyn's claim) | Ned (internal) |
-| Bran Stark | Ned wonders why the Imp would want Bran dead — "to silence him" | Ned (internal) |
-| Stannis Baratheon | Ned considers stopping at Dragonstone to see him; Pycelle sent a raven requesting his return; shares Jon Arryn's secret | Ned (internal) |
-| Aegon the Conqueror | "Even Aegon did no conquering until after he was weaned" | Ned |
+| Rhaegar Targaryen | Ned recalls Robert still hates Rhaegar fifteen years after his death | Ned (internal) |
+| Aerys Targaryen (the Mad King) | Ned asks what they rose against Aerys for; Pycelle mentions counseling him | Ned, Pycelle |
+| Aegon (the Conqueror) | Ned says even Aegon did no conquering until after he was weaned | Ned |
+| Catelyn Stark | Ned reflects on her seizure of Tyrion; remembers her warning about Robert; she brought him the dagger | Ned (internal) |
+| Tyrion Lannister | "The dwarf"; Catelyn's seizure of him will soon come to light | Ned (internal) |
+| Bran Stark | Ned wonders why the dwarf would want Bran dead — to silence him | Ned (internal) |
 | Yoren | Warned Ned last night about Catelyn and the dwarf | Ned (internal) |
-| Jory Cassel | Has been searching for a brothel ineffectually; Ned tells Poole to inform Jory of departure plans | Ned, Littlefinger |
-| Lady Tanda | Littlefinger is dining with her; she wants to wed him to her younger daughter | Littlefinger |
-| Lady Tanda's younger daughter | Littlefinger mentions she is offered as a match | Littlefinger |
-| Cersei Lannister | Ned worries about what the queen might do regarding Catelyn/Tyrion; Littlefinger lists her as someone Ned might dislike more | Ned (internal), Littlefinger |
-| Ned's sons | Waiting at Winterfell | Ned (internal) |
-| Ned's daughters | Ned plans to take them when he leaves | Ned (internal) |
+| Stannis Baratheon | Ned considers sailing to Dragonstone to speak with him; shares Jon Arryn's secret | Ned (internal) |
+| Cersei Lannister | Littlefinger names her among those whose company Ned might desire less; Ned worries what the queen might do about Catelyn seizing Tyrion | Littlefinger, Ned (internal) |
+| Lady Tanda | Littlefinger dining with her; she wants to wed him to her younger daughter | Littlefinger |
+| Lady Tanda's younger daughter | Tanda wishes to wed her to Littlefinger | Littlefinger |
+| Jory Cassel | Ned tells Poole to inform Jory; Littlefinger mentions Jory has been searching for a brothel "ineffectually" | Ned, Littlefinger |
+| The Dothraki (people) | Ned dismisses their threat; Varys warns what they'd do to someone who drew a blade at Vaes Dothrak | Ned, Varys |
 
 ## Locations
 | Location | Role | First Appearance? |
 |----------|------|-------------------|
-| Small Council chambers | Setting for the assassination debate | No |
-| Bailey (Red Keep) | Ned crosses it returning to his tower | No |
-| Tower of the Hand | Ned's quarters; where he broods and receives visitors | No |
-| Ned's solar | Room within Tower of the Hand where Ned meets Poole and Littlefinger | No |
-| Winterfell | Where Ned plans to return | No |
+| Small council chambers (Red Keep) | Setting for the assassination debate | No |
+| Bailey (Red Keep) | Ned crosses it returning to Tower of the Hand | No |
+| Tower of the Hand | Ned's solar; where he broods and receives Littlefinger | No |
+| Winterfell | Ned's intended destination; where his sons wait | No |
 | Vaes Dothrak | Where Daenerys is heading; death to draw a blade there | No (uncertain — verify) |
-| Dragonstone | Stannis's seat; Ned considers stopping there by ship | No |
-| King's Landing | Current setting | No |
-| The Trident | Referenced — battlefield where Barristan was captured | No |
-| The barrowlands | Robert references warning Ned there | No |
+| The Trident | Referenced — where Ser Barristan was defeated and spared | No |
+| Dragonstone | Stannis's seat; Ned considers stopping there en route north | No |
 | Braavos | Home of the Faceless Men | No |
+| King's Landing docks | Poole sent to find a ship there | No |
+| The barrowlands | Robert references warning Ned there previously | No |
 | The narrow sea | Geographic barrier between Westeros and Essos | No |
-| The docks | Where Ned sends Poole to find a ship | No |
-| The kingsroad | Ned's usual overland route but considers sea instead | No |
-| The wolfswood | Ned dreams of its deep quiet at night | No |
 
 ## Location Descriptions
 | Location | Defensive Features | Architecture/Layout | Interior Details | Scale | Condition | Surrounding Terrain/Geography | Notable Sensory Details |
 |----------|--------------------|--------------------|-----------------| ------|-----------|------------------------------|------------------------|
-| Small Council chambers | | | Council table; door that when closed silences voices within | | | | |
-| Dragonstone | | | | | | Ancient island fortress of House Targaryen; across the water from King's Landing | |
-| Vaes Dothrak | | | | | | | Death to draw a blade there (sacred law) |
+| Small council chambers | | Council table as central feature; a door that closes to silence conversation within | | | | Located within the Red Keep; across a bailey from the Tower of the Hand | |
+| Tower of the Hand — solar | | Ned's personal solar with a window | | | | | |
+| Dragonstone | | "Ancient island fortress of House Targaryen" | | | | Island across the water from King's Landing; raven-reachable | |
 
 ## Artifacts & Objects of Significance
 | Artifact | Context | First Appearance? | Current Holder/Location |
 |----------|---------|-------------------|------------------------|
-| Hand of the King badge | Ornate silver hand clasp; Ned unfastens it and lays it on the table, resigning | No | Left on the council table before Robert |
-| The Imp's dagger (Valyrian steel) | Ned slides it from his belt sheath; Catelyn brought it to him; tied to the attempt on Bran's life | No | Eddard Stark (on his belt) |
-| Tears of Lys | Varys suggests this poison for killing Daenerys | No (uncertain — verify) | Mentioned as available option |
-| Wine flagon | Robert finds it empty and flings it against the wall to shatter | No | Shattered in the council chambers |
+| Badge of the Hand (ornate silver hand clasp) | Ned unfastens it from his cloak and lays it on the council table, resigning as Hand | No | Left on the council table before Robert |
+| Catelyn's dagger ("the Imp's knife") | Ned slides it from the sheath on his belt while brooding; connects it to the attempt on Bran's life | No | Ned's belt sheath |
+| Tears of Lys | Varys suggests this poison for killing Daenerys | No (uncertain — verify) | Not physically present; mentioned as a method |
 
 ## Food & Drink
 | Meal/Occasion | Food Items Described | Drink | Who Is Eating/Drinking | Where | Preparation/Presentation Notes |
 |--------------|---------------------|-------|----------------------|-------|-------------------------------|
-| Council session | | Wine (flagon at Robert's elbow) | Robert Baratheon | Small Council chambers | Robert takes a swallow, finds the flagon empty, flings it against the wall where it shatters |
-| Littlefinger's upcoming dinner with Lady Tanda | Lamprey pie, roast suckling pig | | Littlefinger (planned) | Lady Tanda's table (off-scene) | "Her table is always astonishing"; Littlefinger says "I do love lamprey pie" |
+| Council session | | Wine (from a flagon) | Robert Baratheon | Small council chambers | Robert takes a swallow; finds the flagon empty; flings it against the wall to shatter |
+| Littlefinger's upcoming dinner with Lady Tanda | Lamprey pie, roast suckling pig | | Littlefinger (planned) | Lady Tanda's table | Described as "always astonishing"; Littlefinger professes to love lamprey pie |
 
 ## Hospitality & Guest Right
 | Event | Type | Host | Guest(s) | Details |
 |-------|------|------|----------|---------|
-| Lady Tanda's dinner for Littlefinger | feast_given | Lady Tanda | Littlefinger | Tanda courts Littlefinger as a match for her younger daughter with lavish meals |
+| None | | | | No formal hospitality customs invoked in this chapter |
 
 ## Events & Actions
-1. **Council debates assassination of Daenerys** — Varys reports that Daenerys Targaryen is pregnant, based on intelligence from Ser Jorah Mormont. Robert demands she be killed along with Viserys and the unborn child.
-2. **Ned opposes the assassination** — Ned argues against killing a fourteen-year-old girl, invoking the principles of Robert's Rebellion and Robert's past mercy toward Ser Barristan.
-3. **Council votes** — Renly, Varys, Pycelle, and Littlefinger vote for assassination. Only Ser Barristan sides with Ned.
-4. **Varys proposes poison** — Varys suggests the tears of Lys, noting that drawing a blade is forbidden in Vaes Dothrak.
-5. **Ned resigns as Hand** — Ned refuses to seal the assassination order, removes the Hand's badge (ornate silver hand clasp), and lays it on the council table.
-6. **Robert banishes Ned** — Robert, purple with rage, orders Ned to leave King's Landing and threatens to put his head on a spike.
-7. **Council continues without Ned** — As Ned exits, Pycelle mentions the Faceless Men; Littlefinger complains about their cost.
-8. **Ned crosses the bailey** — Passes Ser Boros Blount outside the chamber; crosses the bailey feeling the threat of rain.
-9. **Ned summons Vayon Poole (first time)** — Tells Poole they are returning to Winterfell; says he will leave ahead with his daughters and a few guardsmen; tells Poole to inform Jory but no one else.
-10. **Ned broods at the window** — Reflects on Robert, Jon Arryn's unsolved murder, Stannis Baratheon's silence, the dagger and Bran, and Catelyn's warning about Robert.
-11. **Ned considers sailing to Dragonstone** — Thinks he could stop at Dragonstone to speak with Stannis, who may share Jon Arryn's secret.
-12. **Ned summons Vayon Poole (second time)** — Sends him to the docks to find a fast ship for immediate departure.
-13. **Littlefinger visits Ned's solar** — Tells Ned that Robert is wroth, that the council chose a cheaper assassination plan (offering a lordship to whoever kills Daenerys), and claims he steered them away from the Faceless Men.
-14. **Littlefinger offers to show Ned the brothel** — Offers to take Ned to the brothel Jory has been searching for, if Ned is still in King's Landing by evenfall.
+1. **Small council debates assassination of Daenerys Targaryen** — Robert demands the death of Daenerys, her unborn child, and Viserys after Varys reports Daenerys is pregnant with Khal Drogo's child.
+2. **Ned opposes the assassination** — He argues it is dishonorable to murder a fourteen-year-old girl and her unborn child, invoking the memory of why they rebelled against Aerys.
+3. **Ned recounts Barristan's sparing at the Trident** — He reminds Robert how he showed mercy to Ser Barristan after the battle, when Roose Bolton urged killing him.
+4. **Council members voice support for assassination** — Renly, Varys, Pycelle, and Littlefinger all support killing Daenerys in turn. Only Ser Barristan sides with Ned.
+5. **Varys proposes poison (tears of Lys)** — He suggests a covert killing at Vaes Dothrak where blades cannot be drawn, noting Jorah Mormont craves a pardon but values his life more.
+6. **Ned challenges Robert to do it himself** — Invokes the principle that the man who passes the sentence should swing the sword.
+7. **Ned resigns as Hand of the King** — He unfastens the silver hand badge and lays it on the table before Robert.
+8. **Robert threatens Ned** — Robert orders Ned out, tells him to return to Winterfell, and threatens to put his head on a spike if he sees Ned's face again.
+9. **Ned exits the council chamber** — He hears Pycelle mention the Faceless Men and Littlefinger complain about their cost as the door closes behind him.
+10. **Ned crosses the bailey to the Tower of the Hand** — The day is heavy and oppressive with threat of rain.
+11. **Ned summons Vayon Poole and orders departure preparations** — He tells Poole they are returning to Winterfell, possibly very soon.
+12. **Ned broods at his window** — He reflects on unfinished business: Jon Arryn's murder, Catelyn's seizure of Tyrion, Robert's enduring hatred of Rhaegar, and the danger of the queen's reaction.
+13. **Ned considers traveling by sea via Dragonstone** — He wants to speak with Stannis Baratheon, who he believes shares Jon Arryn's secret. Pycelle has sent a raven to Stannis but received no reply.
+14. **Ned examines the Valyrian steel dagger** — He slides it from his belt and connects the attempt on Bran to a need to silence the boy — "another secret, or only a different strand of the same web."
+15. **Ned questions whether Robert could be involved in the conspiracy** — He reflects on Catelyn's warning that the king is a stranger to him.
+16. **Ned summons Poole again to find a fast ship** — He wants to leave immediately, caring only for speed and safety.
+17. **Tomard announces Littlefinger** — Ned reluctantly agrees to see him, reasoning he must "play their games" until he is free.
+18. **Littlefinger reports the council's decision** — Instead of hiring the Faceless Men, Varys will offer a lordship to whoever kills Daenerys.
+19. **Littlefinger claims he did the Targaryen girl more good than Ned** — He argues a sellsword will likely botch the attempt, whereas a Faceless Man would have succeeded.
+20. **Littlefinger offers to take Ned to the brothel** — He mentions the brothel Jory has been searching for and offers to bring Ned there at evenfall, with a sly reference to not telling Catelyn.
 
 ## Spatial Layout & Movement
 | Phase | Who | Position / Movement | Relative To | Notes |
 |-------|-----|---------------------|-------------|-------|
-| Opening | Ned, Robert, Varys, Renly, Barristan, Pycelle, Littlefinger | Seated around the council table | Small Council chambers | All councillors present |
-| Confrontation | Ned | Pushes back his chair and stands | Council table | After Ned tells Robert to do the killing himself |
-| Departure | Ned | Unfastens Hand's badge, lays it on table, turns and strides out | Council chambers → door | Council resumes discussion behind him |
-| Advance | Ned | Crosses the bailey | Red Keep → Tower of the Hand | Passes Ser Boros Blount outside the chamber |
-| Arrival | Ned | Reaches his solar | Tower of the Hand | Goes to the window and sits brooding |
-| Arrival | Vayon Poole | Comes to Ned's solar (first summons) | Tower of the Hand | |
-| Arrival | Littlefinger | Saunters into the solar | Tower of the Hand | Announced by Tomard |
+| Opening | Ned, Robert, Varys, Renly, Barristan, Pycelle, Littlefinger | Seated around the council table | Small council chambers | Full council in session |
+| Confrontation | Ned | Pushes back chair and stands | Council table | Challenges Robert to swing the sword himself |
+| Departure | Ned | Unfastens Hand badge, lays it on table, bows, turns on heel, strides from chamber | Council chambers → door | Robert's eyes on his back as he leaves |
+| Advance | Ned | Crosses the bailey | Red Keep, between council chambers and Tower of the Hand | Day feels heavy and oppressive |
+| Arrival | Ned | Reaches his solar in the Tower of the Hand | Tower of the Hand | Summons Vayon Poole |
+| Assembly | Ned, Vayon Poole | Poole comes to solar | Ned's solar | Ned gives departure orders |
+| Opening | Ned | Sits at window, brooding | His solar | Reflects on unfinished business |
+| Assembly | Ned, Vayon Poole | Second summons | Ned's solar | Sent to docks to find a ship |
+| Assembly | Ned, Tomard, then Littlefinger | Tom announces Littlefinger; Littlefinger saunters in | Ned's solar | Ned reluctantly receives him |
 
 ## Information Revealed
 | Information | How Revealed | Known To (Characters) | Known To (Reader Only?) |
 |-------------|-------------|----------------------|------------------------|
-| Daenerys Targaryen is pregnant | Varys reports to council, based on Ser Jorah's intelligence | All councillors, Robert | No |
-| Ser Jorah Mormont is spying on Daenerys for Varys, seeking a royal pardon | Stated in council discussion | All councillors | No |
-| It is death to draw a blade in Vaes Dothrak | Varys states this | All councillors | No |
-| Ned resigns as Hand of the King | Ned removes badge and lays it on the table | Robert, all councillors present | No |
-| Robert threatens Ned's life ("head on a spike") | Robert shouts at Ned | Ned, Robert | No |
-| The council will offer a lordship to whoever kills Daenerys (instead of hiring Faceless Men) | Littlefinger tells Ned privately | Ned, Littlefinger, council members (decided after Ned left) | No |
-| Ned believes Jon Arryn was murdered but hasn't identified the killer | Ned's internal reflection | Ned only | Yes |
-| Ned believes Stannis shares Jon Arryn's secret | Ned's internal reflection | Ned only | Yes |
-| Pycelle sent a raven to Stannis requesting his return; no reply received | Ned's internal reflection | Ned, Pycelle (presumably) | Yes |
-| Yoren warned Ned about Catelyn and the dwarf (Tyrion) last night | Ned's internal reflection | Ned, Yoren | Yes |
-| Ned wonders if Robert could be part of a conspiracy | Ned's internal reflection | Ned only | Yes |
-| Ned plans to leave with his daughters and a few guardsmen, keeping plans secret | Ned tells Poole | Ned, Vayon Poole | No |
-| Littlefinger knows the location of the brothel Jory has been searching for | Littlefinger tells Ned | Littlefinger, Ned | No |
+| Daenerys Targaryen is pregnant | Varys reports to the council, citing Jorah Mormont as source | Entire small council | No |
+| Jorah Mormont is Varys's informant and craves a royal pardon | Varys states it openly; Renly confirms | Entire small council | No |
+| The council votes to assassinate Daenerys; only Ned and Barristan oppose | Council debate and vote | Entire small council | No |
+| Ned resigns as Hand of the King | Ned removes badge and lays it on table | Entire small council; Ser Boros observes Ned leaving | No |
+| Robert threatens to put Ned's head on a spike | Robert shouts it | Entire small council | No |
+| The council's final plan: offer a lordship for Daenerys's assassination instead of hiring Faceless Men | Littlefinger reports to Ned privately | Ned, Littlefinger (and the council) | No |
+| Ned plans to leave King's Landing immediately, possibly by ship | Ned tells Vayon Poole | Ned, Vayon Poole | No |
+| Ned considers stopping at Dragonstone to see Stannis | Ned's internal reflection | Ned only (internal) | Yes — reader learns Ned's plan |
+| Ned believes Stannis shares Jon Arryn's secret | Ned's internal reflection | Ned only (internal) | Yes — reader learns Ned's suspicion |
+| Pycelle sent a raven to Stannis requesting his return; no reply received | Ned's internal reflection | Ned, Pycelle | Yes — reader learns of the unanswered raven |
+| Ned connects the dagger and the attempt on Bran to a need to silence Bran | Ned's internal reflection | Ned only (internal) | Yes — reader learns Ned's reasoning |
+| Ned questions whether Robert could be part of the conspiracy | Ned's internal reflection | Ned only (internal) | Yes — reader learns Ned's doubt |
+| Catelyn's seizure of Tyrion will soon become public knowledge | Ned's internal reflection; Yoren warned him the previous night | Ned (via Yoren) | Yes — reader learns this is imminent |
+| Littlefinger knows what brothel Jory has been searching for | Littlefinger states it | Ned, Littlefinger | No |
+| At the Trident, Roose Bolton urged cutting Ser Barristan's throat; Robert refused | Ned recounts to the council | Council learns/is reminded | No |
 
 ## Dialogue of Note
 | Speaker | Listener | Quote/Paraphrase | Context |
 |---------|----------|------------------|---------|
-| Ned | Robert | "Robert, I beg of you, hear what you are saying. You are talking of murdering a child." | Opening of the chapter; Ned's plea |
-| Robert | Ned | "The whore is pregnant! … I want them dead, mother and child both, and that fool Viserys as well." | Robert's demand for assassination |
-| Ned | Robert | "You will dishonor yourself forever if you do this." | Ned's moral argument |
-| Varys | Ned | "I understand your qualms, Lord Eddard, truly I do. … Yet we who presume to rule must do vile things for the good of the realm, howevermuch it pains us." | Varys's unctuous appeal |
-| Renly | Council | "We ought to have had Viserys and his sister killed years ago, but His Grace my brother made the mistake of listening to Jon Arryn." | Renly's dismissive position |
-| Ned | Council | "On the Trident, Ser Barristan here cut down a dozen good men … Roose Bolton urged us to cut his throat, but your brother said, 'I will not kill a man for loyalty, nor for fighting well.'" | Ned recalls Robert's past mercy toward Barristan |
-| Ned | Robert | "What did we rise against Aerys Targaryen for, if not to put an end to the murder of children?" | Ned invokes the principles of Robert's Rebellion |
-| Robert | Ned | "To put an end to Targaryens!" | Robert's blunt counter |
-| Ned | Robert | "Your Grace, I never knew you to fear Rhaegar. Have the years so unmanned you that you tremble at the shadow of an unborn child?" | Ned goads Robert |
-| Barristan | Council | "There is honor in facing an enemy on the battlefield, but none in killing him in his mother's womb. Forgive me, but I must stand with Lord Eddard." | Barristan sides with Ned |
-| Pycelle | Council | "Is it not wiser, even kinder, that Daenerys Targaryen should die now so that tens of thousands might live?" | Pycelle's pragmatic argument |
-| Littlefinger | Council | "When you find yourself in bed with an ugly woman, the best thing to do is close your eyes and get on with it. … A steel kiss." | Littlefinger's crude metaphor for assassination |
-| Ned | Robert | "Do it yourself, Robert. The man who passes the sentence should swing the sword." | Ned invokes Stark justice |
-| Ned | Robert | "I will not be part of murder, Robert. Do as you will, but do not ask me to fix my seal to it." | Ned's refusal |
-| Ned | Robert | "I thought you a better man than this, Robert. I thought we had made a nobler king." | Ned lays down the Hand's badge |
-| Robert | Ned | "Out, damn you, I'm done with you. … Go, run back to Winterfell. And make certain I never look on your face again, or I swear, I'll have your head on a spike!" | Robert banishes Ned |
-| Pycelle | Council (as Ned exits) | "On Braavos there is a society called the Faceless Men." | Council continues planning assassination |
-| Littlefinger | Council (as Ned exits) | "Do you have any idea how costly they are? You could hire an army of common sellswords for half the price." | Cost objection to Faceless Men |
-| Littlefinger | Ned | "After you stormed out, it was left to me to convince them not to hire the Faceless Men. Instead Varys will quietly let it be known that we'll make a lord of whoever does in the Targaryen girl." | Littlefinger claims to have helped Daenerys |
-| Littlefinger | Ned | "Let some sellsword drunk on visions of lordship try to kill her. Likely he'll make a botch of it … If we'd sent a Faceless Man after her, she'd be as good as buried." | Littlefinger's logic |
-| Littlefinger | Ned | "It's not murder I find amusing, Lord Stark, it's you. You rule like a man dancing on rotten ice. I daresay you will make a noble splash." | Littlefinger's warning/mockery |
-| Littlefinger | Ned | "If perchance you're still here come evenfall, I'd be pleased to take you to this brothel your man Jory has been searching for so ineffectually." | Littlefinger offers information about Jon Arryn's investigation |
+| Robert | Council | "The whore is pregnant! … I want them dead, mother and child both, and that fool Viserys as well." | Opening demand for assassination |
+| Ned | Robert | "You will dishonor yourself forever if you do this." | First moral appeal |
+| Ned | Robert | "What did we rise against Aerys Targaryen for, if not to put an end to the murder of children?" | Invoking the rebellion's moral foundation |
+| Ned | Robert | "Your Grace, I never knew you to fear Rhaegar. Have the years so unmanned you that you tremble at the shadow of an unborn child?" | Deliberately provocative challenge |
+| Robert | Ned | "No more, Ned … Have you forgotten who is king here?" / Ned: "No, Your Grace. Have you?" | The exchange that crystallizes the rupture |
+| Ser Barristan | Robert | "There is honor in facing an enemy on the battlefield, but none in killing him in his mother's womb." | Barristan sides with Ned |
+| Pycelle | Council | Argues that killing Daenerys now would prevent tens of thousands dying in a future war | Utilitarian justification for assassination |
+| Littlefinger | Council | "When you find yourself in bed with an ugly woman, the best thing to do is close your eyes and get on with it." | Characteristic deflection through crude metaphor |
+| Littlefinger | Barristan | "A steel kiss." | Clarifying his metaphor means assassination |
+| Ned | Robert | "Do it yourself, Robert. The man who passes the sentence should swing the sword." | The Stark principle of justice |
+| Ned | Robert | "I thought you a better man than this, Robert. I thought we had made a nobler king." | As Ned lays down the Hand badge |
+| Robert | Ned | "Go, run back to Winterfell. And make certain I never look on your face again, or I swear, I'll have your head on a spike!" | Threatening Ned after the resignation |
+| Pycelle | Council (overheard) | "On Braavos there is a society called the Faceless Men." | Ned overhears as he exits |
+| Littlefinger | Ned | "You rule like a man dancing on rotten ice. I daresay you will make a noble splash." | Warning disguised as mockery |
+| Littlefinger | Ned | "I did the Targaryen girl more good than you with all your talk of honor." | Claims his pragmatism saved Daenerys more than Ned's principles |
+| Varys | Council | "The tears of Lys, let us say. Khal Drogo need never know it was not a natural death." | Proposing the specific poison method |
+| Ned | Robert | "Whereas Daenerys is a fourteen-year-old girl." | Contrasting Barristan (a warrior spared) with Daenerys (a child targeted) |
 
 ## POV Character's Internal State
-- **Emotional state:** Isolated, angry, disgusted, conflicted. Feels "unclean" after the council session. Sadness at the memory of his friendship with Robert. Longing for Winterfell and his family.
-- **Primary preoccupation:** The moral outrage of assassinating Daenerys; his failed friendship with Robert; the unsolved murder of Jon Arryn and the secret Stannis may hold; the danger posed by Catelyn's seizure of Tyrion becoming known.
-- **Key decisions made:** Resigns as Hand of the King; decides to leave King's Landing with his daughters; considers sailing to Dragonstone to see Stannis; sends Poole to find a ship; agrees (implicitly) to stay for Littlefinger's brothel visit.
-- **Self-deception flags:** Ned does not truly believe Robert would harm him — "not Robert" — despite Robert's explicit death threat. He trusts that Robert's rage will cool "as it always did." He also acknowledges he might be wrong: recalling Robert's undying hatred for Rhaegar gives him pause.
+- **Emotional state:** Isolated, disgusted, morally certain but politically alone; anger at Robert mixed with sadness for the friendship lost; feeling "unclean" from the council session; growing unease about his safety and his family's
+- **Primary preoccupation:** The immediate crisis of Robert's demand for assassination gives way to planning his departure, then to the unresolved mysteries — Jon Arryn's death, Stannis's silence, the dagger and Bran, Catelyn's seizure of Tyrion and its consequences
+- **Key decisions made:** Resigns as Hand of the King; decides to leave King's Landing immediately; plans to take only his daughters and a few guards; considers traveling by sea via Dragonstone; reluctantly agrees to see Littlefinger
+- **Self-deception flags:** Ned tells himself Robert would not truly harm him ("He did not truly believe the king would harm him, not Robert"), then immediately undermines this by recalling Robert's undiminished hatred of Rhaegar fifteen years later and Catelyn's warning that "the king is a stranger to you"
 
 ## Relationships Observed
 | Character A | Relationship | Character B | Evidence |
 |-------------|-------------|-------------|----------|
-| Ned | opposes / defies | Robert | Refuses assassination order; resigns as Hand; Robert banishes him |
-| Ned | former close friendship (strained) | Robert | Ned recalls "the friend he had loved"; saddened at laying down badge; but "the king is a stranger to you" |
-| Robert | commands / threatens | Ned | Points angry finger; threatens head on a spike; orders him to leave |
-| Varys | manipulates / advises | Robert | Provides intelligence; suggests poison method; supports assassination while appearing reluctant |
-| Varys | intelligence source for | Jorah Mormont | Jorah reports to Varys on Daenerys |
-| Ser Barristan | allies with | Ned | Only councillor to stand with Ned against the assassination |
-| Renly | dismissive of | Ned's position | Calls the matter "simple enough"; advocates killing |
-| Pycelle | supports | Robert's decision | Argues pragmatic case for assassination |
-| Littlefinger | mocks / warns | Ned | "You rule like a man dancing on rotten ice" |
-| Littlefinger | claims to protect | Daenerys (indirectly) | Says he steered council away from Faceless Men to a less effective plan |
-| Ned | distrust | Varys | Looks at eunuch coldly; questions his intelligence |
-| Ned | distrust | Littlefinger | Half-tempted to turn him away; greets him coldly; questions his motives |
-| Ned | suspicion toward | Robert | Wonders if Robert could be "part of it" — the conspiracy around Jon Arryn's death |
-| Ned | longing for | Catelyn | Thinks of making a new son together when he returns |
-| Ned | protective of | His daughters | Plans to take them when he leaves, ahead of the rest of the household |
-| Lady Tanda | courts | Littlefinger | Lavish dinners; wants to wed her younger daughter to him |
-| Robert | hates (still, after 15 years) | Rhaegar Targaryen | Ned reflects on this with discomfort |
-| Robert | past mercy toward | Ser Barristan | Refused to kill him after the Trident; sent his own maester |
-| Roose Bolton | urged killing of | Ser Barristan | After the Trident, urged cutting Barristan's throat |
+| Ned | Defies / moral opposition | Robert | Refuses assassination order, resigns, lays down badge |
+| Ned | Mourns lost friendship | Robert | "Saddened by the memory of the man who had pinned it on him, the friend he had loved" |
+| Robert | Threatens | Ned | Threatens to put Ned's head on a spike |
+| Robert | Hates (enduringly) | Rhaegar Targaryen | "Fifteen years dead, yet Robert hates him as much as ever" |
+| Varys | Serves / manipulates | Robert | Reports intelligence, advocates assassination while appearing reluctant |
+| Varys | Controls | Jorah Mormont | "Ser Jorah would not dare deceive me" — Mormont is Varys's agent |
+| Renly | Defers to pragmatism over | Jon Arryn's memory | Says listening to Jon Arryn was a "mistake" |
+| Ser Barristan | Sides with / respects | Ned | "I must stand with Lord Eddard" |
+| Ned | Respects | Ser Barristan | Recounts Robert's mercy toward Barristan as an example of noble conduct |
+| Robert | Previously showed mercy to | Ser Barristan | Spared him after the Trident; sent his own maester to heal him |
+| Roose Bolton | Urged killing of | Ser Barristan | "Roose Bolton urged us to cut his throat" at the Trident |
+| Littlefinger | Mocks / warns | Ned | "You rule like a man dancing on rotten ice" |
+| Littlefinger | Claims to protect (ambiguously) | Daenerys | Says he steered council away from Faceless Men toward a less effective plan |
+| Littlefinger | Avoids marrying | Lady Tanda's daughter | "I'd sooner marry the pig" |
+| Ned | Distrusts | Littlefinger | Greeted him coldly; questions his motives |
+| Ned | Suspects shared knowledge with | Stannis Baratheon | Believes Stannis shares Jon Arryn's secret |
+| Ned | Worries about consequences for | Catelyn Stark | Fears what queen/Robert will do when Tyrion's capture comes to light |
+| Pycelle | Sent raven to | Stannis Baratheon | Polite letter requesting Stannis return to council; no reply |
+| Ned | Investigates murder of | Jon Arryn | "Found a few pieces, enough to convince him that Jon had indeed been murdered" |
+| Ned | Depends on | Vayon Poole | Summons him twice for logistical arrangements |
+| Ned | Commands | Tomard | Tom serves as guard and doorkeeper |
+| Littlefinger | Monitors | Jory Cassel | Knows Jory has been searching for a brothel "ineffectually" |
+| Pycelle | Suspicious of | Varys | Sleepy eyes flick open and squint suspiciously when Varys mentions poison |
 
 ## Unanswered Questions
 | Question | Raised By | Context |
 |----------|-----------|---------|
-| Why does the Imp want Bran dead? | Ned (internal) | Ned suspects it is "to silence him" but does not know what Bran might have seen |
-| What secret did Jon Arryn die for? | Ned (internal) | Ned has found pieces suggesting murder but not the full truth |
-| Does Stannis share Jon Arryn's secret? | Ned (internal) | Stannis has not replied to Pycelle's raven; his silence deepens Ned's suspicions |
-| Could Robert be part of a conspiracy? | Ned (internal) | The thought occurs to Ned after seeing Robert order a child's murder |
-| What will the queen do when she learns of Catelyn seizing Tyrion? | Ned (internal) | Ned fears the fallout, especially with Robert already angry |
-| What is the brothel Littlefinger offers to show Ned? | Littlefinger's offer | Connected to Jory's search, presumably related to Jon Arryn's investigation |
-| Is Littlefinger genuinely trying to help Ned or manipulating him? | Ned (implicit) | Littlefinger's motives are opaque; he mocks Ned while offering assistance |
+| What secret did Jon Arryn die for that Stannis also knows? | Ned's internal reflection | Ned is certain Stannis shares the knowledge but cannot reach him |
+| Why has Stannis not replied to the raven requesting his return? | Ned's internal reflection | The silence deepens Ned's suspicions |
+| Why would someone want Bran dead — what did he see or know? | Ned's internal reflection | "To silence him, surely" — but silence him about what? |
+| Is the dagger conspiracy connected to Jon Arryn's murder — "another secret, or only a different strand of the same web"? | Ned's internal reflection | Ned holds the dagger and wonders |
+| Could Robert himself be part of the conspiracy? | Ned's internal reflection | Ned is disturbed by the thought but does not dismiss it |
+| What will happen when Catelyn's seizure of Tyrion becomes public? | Ned's internal reflection | He fears Robert's reaction and especially the queen's |
+| What brothel has Jory been searching for, and why does Littlefinger know? | Littlefinger's offer | Littlefinger offers to take Ned there at evenfall |
+| Did Littlefinger truly steer the council away from the Faceless Men to protect Daenerys, or for other reasons? | Ned's skepticism | "How big a fool do you take me for?" |
+| Will Robert's threat against Ned prove serious or will his rage cool? | Ned's internal reflection | Ned believes it will cool "as it always did" but is unsure |
 
 ## Raw Entity List
+
 ### Characters
-Eddard Stark, Robert Baratheon, Varys, Renly Baratheon, Ser Barristan Selmy, Grand Maester Pycelle, Petyr Baelish (Littlefinger), Ser Boros Blount, Vayon Poole, Tomard (Tom), Daenerys Targaryen, Viserys Targaryen, Jorah Mormont, Khal Drogo, Jon Arryn, Aerys Targaryen, Rhaegar Targaryen, Roose Bolton, Catelyn Stark, Tyrion Lannister, Bran Stark, Stannis Baratheon, Aegon the Conqueror, Yoren, Jory Cassel, Lady Tanda, Lady Tanda's younger daughter, Cersei Lannister
+Eddard Stark (Ned), Robert Baratheon, Varys, Renly Baratheon, Ser Barristan Selmy, Grand Maester Pycelle, Petyr Baelish (Littlefinger), Ser Boros Blount, Vayon Poole, Tomard (Tom), Daenerys Targaryen, Viserys Targaryen, Khal Drogo, Jorah Mormont (Ser Jorah), Jon Arryn, Roose Bolton, Rhaegar Targaryen, Aerys Targaryen, Aegon (the Conqueror), Catelyn Stark, Tyrion Lannister, Bran Stark, Yoren, Stannis Baratheon, Cersei Lannister, Lady Tanda, Lady Tanda's younger daughter (unnamed), Jory Cassel
 
 ### Locations
-Small Council chambers, Red Keep (bailey), Tower of the Hand, Ned's solar, Winterfell, Vaes Dothrak, Dragonstone, King's Landing, The Trident, The barrowlands, Braavos, The narrow sea, The docks, The kingsroad, The wolfswood
+Small council chambers (Red Keep), Bailey (Red Keep), Tower of the Hand, Ned's solar, Winterfell, Vaes Dothrak, The Trident, Dragonstone, Braavos, King's Landing docks, The barrowlands, The narrow sea, King's Landing, Wolfswood
 
-### Artifacts
-Hand of the King badge (ornate silver hand clasp), Valyrian steel dagger (the Imp's knife), Tears of Lys (poison), Wine flagon (shattered)
+### Houses
+House Stark, House Baratheon, House Targaryen, House Lannister, House Arryn, House Bolton
 
-### Houses/Factions
-House Stark, House Baratheon, House Targaryen, House Lannister, House Bolton, House Arryn, The Kingsguard, The Small Council, The Faceless Men, The Dothraki, House Stokeworth (Lady Tanda's house — inferred)
+### Factions & Organizations
+Small council, Kingsguard, Faceless Men, Dothraki (as military force)
+
+### Religions & Faiths
+None explicitly invoked (Robert swears "Gods" as an exclamation; Varys mentions "the gods in their caprice")
+
+### Cultures & Peoples
+Dothraki
+
+### Artifacts & Objects
+Badge of the Hand (ornate silver hand clasp), Catelyn's dagger / the Imp's knife, Tears of Lys (poison), Wine flagon (shattered by Robert)
+
+### In-world Texts & Songs
+None
+
+### Magic & Phenomena
+None
+
+### Wars & Conflicts
+Robert's Rebellion (referenced — "what did we rise against Aerys Targaryen for"), Battle of the Trident (referenced — Ser Barristan's defeat and sparing)
+
+### Titles & Offices
+Hand of the King, King (of the Seven Kingdoms), Lord of Winterfell, Master of Whisperers (Varys's role implied), Master of Coin (Littlefinger's role implied), Grand Maester, Lord Commander of the Kingsguard (Barristan's role implied), Kingsguard, Khaleesi
+
+### Other
+None
