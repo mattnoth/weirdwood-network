@@ -167,6 +167,17 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session.
 
+### Session 14 — Pipeline-Not-Fixed Note (2026-04-25)
+**Detail:** `working/session-details/session-014.md`
+**Changes made:**
+- `README.md` — added callout under "Extraction Pipeline": Passes 2–6 are a working sketch, not a contract; scope/order/existence open while Pass 1 in progress
+- `memory/project_pipeline_not_fixed.md` — NEW project memory (type: project) capturing the same stance with Why + How-to-apply lines for future sessions
+- `memory/MEMORY.md` — added index entry for the new memory
+
+**Decisions:** Pipeline flexibility was already implicit in Session 13's "Track B Before v3 Schema Review" rationale; this session generalizes it. Future-pass work should be framed as "current sketch, open to redesign," and Pass 1 gaps should be treated as inputs to redesigning later passes, not as Pass 1 bugs. No new tracks opened, no continue prompts created or deleted, no extractions run.
+
+**What's next:** Fresh session to start Track B — `progress/continue-prompts/2026-04-25-track-b-orchestration-planning.md` (PLAN-ONLY runbook output), then parser implementation per `progress/continue-prompts/2026-04-24-track-b-wiki-infobox-parser.md`.
+
 ### Session 13 — Remote Added, Track B Sequencing, Orchestration Planning, Collaborator Prep (2026-04-25)
 **Detail:** `working/session-details/session-013.md`
 **Changes made:**

@@ -163,6 +163,8 @@ The project builds the knowledge graph through a sequence of extraction passes, 
 
 Pass 1 is the foundation — everything else reads from its outputs. Currently: Pass 1 complete for AGOT (73/73), remaining books ready to run.
 
+> **The pipeline is not set in stone.** Passes 2–6 are the current plan, but their scope, ordering, and even existence are open while Pass 1 is still in progress. As we learn what Pass 1 outputs actually support (and what they're missing), later passes will be redesigned, merged, split, or dropped. Treat the table above as a working sketch, not a contract.
+
 ## Project Structure
 
 ```
@@ -185,8 +187,19 @@ asoiaf-chat/
 │   ├── pov-characters.md            POV lookup table + expected chapter counts
 │   └── foreshadowing-events.md      26 events + 15 Chekhov's guns
 ├── working/                         Stats, session details, TODOs, runbooks
-├── progress/                        Wave logs, continue prompts
+├── progress/                        Wave logs, continue prompts, scratch-notes.md
 └── CLAUDE.md                        Full architecture and agent system documentation
 ```
+
+### Scratch Notes
+
+`progress/scratch-notes.md` is the project's quick-jot file — observations, half-formed ideas, edge cases, or anything noticed mid-session that's worth keeping but doesn't yet belong in a structured doc (worklog decision, todo, runbook, architecture). It started life as a literal file called `scratch` and was promoted into `progress/` once it became clear the project needed a designated landing spot for untriaged thoughts.
+
+Conventions:
+- Tag entries with source/date (e.g., `(Session 13, 2026-04-25)`).
+- Newest entries can go anywhere — order isn't load-bearing.
+- Periodically triage: notes that crystallize into decisions move to `worklog.md` Active Decisions; notes that become actions move to `working/todos.md`; notes that turn out to be wrong get deleted.
+
+If you're a future agent or collaborator reading this: treat `scratch-notes.md` as time-stamped context, not as authoritative state. The worklog and todos are the sources of truth.
 
 See `CLAUDE.md` for the complete orchestrator guide, agent definitions, and project conventions.
