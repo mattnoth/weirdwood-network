@@ -182,10 +182,31 @@ Phase vocabulary (use the most fitting — not an exhaustive list):
 |----------|-----------|---------|
 
 ## Raw Entity List
+List every entity mentioned or present in this chapter under the appropriate category. An entity appearing in tables above should also appear here — this is the comprehensive flat index for downstream processing.
+
+**You MUST include all 12 category headers below, exactly as written, even if a category has no entries for this chapter.** Write "None" under empty categories. Do not rename, merge, split, or omit any header.
+
 ### Characters
+(Named individuals, direwolves, dragons — anyone with identity and agency)
 ### Locations
-### Artifacts
-### Houses/Factions
+### Houses
+### Factions & Organizations
+(Night's Watch, Faceless Men, Golden Company, maesters' order, etc. — NOT houses)
+### Religions & Faiths
+(Faith of the Seven, R'hllor, Old Gods, Drowned God — also note sacred sites, clergy, rituals)
+### Cultures & Peoples
+(Dothraki, Ironborn, Free Folk, Dornish, First Men, Andals, etc.)
+### Artifacts & Objects
+### In-world Texts & Songs
+(Books, letters, scrolls, songs referenced in the chapter — The Rains of Castamere, lineage books, etc.)
+### Magic & Phenomena
+(Warging, greensight, dragonglass properties, wildfire, prophecies-as-phenomena, blood magic, etc.)
+### Wars & Conflicts
+(Named conflicts referenced: Robert's Rebellion, Greyjoy Rebellion, War of the Ninepenny Kings, etc.)
+### Titles & Offices
+(Hand of the King, Lord Commander, Master of Whisperers, High Septon, etc.)
+### Other
+(Entities that don't fit the above categories. If you find yourself putting multiple entries here, flag it — it may warrant a new category.)
 ```
 
 ## Extraction Rules

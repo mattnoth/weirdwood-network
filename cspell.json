@@ -1,0 +1,33 @@
+{
+  "version": "0.2",
+  "words": [
+    "AGOT", "ACOK", "ASOS", "AFFC", "ADWD",
+    "agot", "acok", "asos", "affc", "adwd",
+    "ASOIAF", "AWOIAF", "GRRM",
+    "infobox", "infoboxes",
+    "frontmatter",
+    "agentic",
+    "ingester",
+    "endsession", "Endsession",
+    "worklog", "weirwood",
+    "retrofittable",
+    "Arya", "Theon", "Cersei", "Tyrion", "Sansa", "Bran",
+    "Eddard", "Jaime", "Joffrey", "Robb", "Rickon",
+    "Daenerys", "Catelyn", "Samwell", "Brienne", "Davos",
+    "Oldtown", "Winterfell", "Dragonstone", "Casterly",
+    "Nymeria", "Shaggydog", "Drogon", "Rhaegal", "Viserion",
+    "Glidus", "Balerion", "Targaryen", "Lannister", "Baratheon",
+    "Greyjoy", "Martell", "Tyrell", "Tully", "Arryn", "Frey",
+    "Stark", "Bolton", "Mormont", "Manderly",
+    "direwolf", "direwolves",
+    "greensight", "warging", "dragonglass", "wildfire",
+    "R'hllor", "Dothraki", "Ironborn", "Dornish",
+    "Valyrian"
+  ],
+  "ignorePaths": [
+    "sources/**",
+    "extractions/**",
+    "graph/**",
+    "scripts/**"
+  ]
+}

@@ -36,7 +36,7 @@ This is your project memory. When you come back after a break, read Current Stat
 - [x] Directory structure created (sources/, extractions/, graph/, index/, curation/, reference/, scripts/)
 - [x] Source .txt files moved to sources/raw/
 - [x] Subagent definitions in .claude/agents/ (2 full: mechanical-extractor, script-builder; 5 stubs: wiki-ingester, voice-analyzer, foreshadowing-scanner, theory-extractor, discovery-agent)
-- [x] Custom slash commands (.claude/commands/endsession.md)
+- [x] Custom slash commands (.claude/commands/endsession.md, continue.md)
 - [x] Working directory with progress.md + todos.md
 - [x] Reference files organized (reference/architecture.md, foreshadowing-events.md, pov-characters.md)
 - [x] Chapter splitter script written (`scripts/chapter-splitter.py`)
@@ -57,8 +57,15 @@ This is your project memory. When you come back after a break, read Current Stat
 - [x] Pass 1 agent prompt v1 (draft complete — `agents/pass-1-mechanical.md`)
 - [x] Pass 1 v1 run on AGOT (73/73 chapters, archived to `extractions/archives/agot-v1/`)
 - [x] Pass 1 agent prompt v2 — added: Physical Environment, Character Appearances, Food & Drink, Hospitality & Guest Right, Location Descriptions, Spatial Layout & Movement, time_markers, direwolves/dragons-as-characters rule
-- [ ] Pass 1 v2 run on AGOT (in progress)
-- [ ] Pass 1 run on remaining books (ACOK, ASOS, AFFC, ADWD)
+- [x] Pass 1 v2 run on AGOT (73/73, archived to `extractions/archives/agot-v2/` — 4-category Raw Entity List)
+- [x] Pass 1 v2 run on ACOK (50/70, archived to `extractions/archives/acok-v2/` — 4-category Raw Entity List)
+- [x] Pass 1 v3 prompt update: expanded Raw Entity List to 12 categories (10 + Other catch-all), added strict formatting rules (all headers required, no merging/renaming, "None" for empty categories)
+- [x] Pass 1 v3 run on AGOT (73/73 — complete)
+- [ ] Pass 1 v3 run on ACOK (0/70)
+- [ ] Pass 1 v3 run on remaining books (ASOS 0/82, AFFC 0/46, ADWD 0/73)
+- [ ] Wiki infobox parser script: extract `first_available` (cite_ref chapter tags + Books infobox) and relationship fields from cached wiki HTML
+- [ ] AGOT/ACOK supplementary entity index: script to scan existing extractions and categorize candidate entity types from narrative sections
+- [ ] Pass 1 run on remaining books (ASOS, AFFC, ADWD) — blocked on prompt update + wiki parser groundwork
 - [ ] Pass 2 wiki ingestion agent prompt written
 - [ ] Pass 2 wiki ingestion complete
 - [ ] Pass 3 voice/perception agent prompt written
@@ -150,91 +157,78 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session.
 
-### Session 7 — Mechanical Extraction Schema v2 + Tooling (2026-04-22)
-**What happened:**
-- Reviewed all 73 AGOT v1 extractions for quality and coverage gaps
-- Identified physical vector gaps: character appearances, food/drink, hospitality, location descriptions, spatial layout, weather/environment, time markers
-- Updated mechanical-extractor agent prompt (`.claude/agents/mechanical-extractor.md`) with 6 new schema sections:
-  - **Physical Environment** — weather, season, time of day, lighting, sounds, smells
-  - **Character Appearances** — hair, eyes, build, scars, clothing, weapons, age (per-chapter, not assumed)
-  - **Food & Drink** — dishes, ingredients, who eats with whom, preparation details
-  - **Hospitality & Guest Right** — bread and salt, guest right, violations, shelter offered/denied
-  - **Location Descriptions** — defensive features, architecture, interiors, scale, condition, terrain
-  - **Spatial Layout & Movement** — phase-based scene graph with controlled vocabulary (Advance, Ambush, Assembly, etc.)
-- Added `time_markers` field to Chapter Metadata
-- Added direwolves and dragons as characters rule (Ghost, Grey Wind, Lady, Nymeria, Summer, Shaggydog, Drogon, Rhaegal, Viserion)
-- Changed extraction philosophy from "leave empty if N/A" to "be expansive, never invent" — variance between runs is a feature
-- Archived AGOT v1 extractions to `extractions/archives/agot-v1/` for comparison
-- Updated `scripts/run-extraction-wave.sh` to take book as first argument, auto-discover chapters from directory
-- Created `scripts/launch-extraction.sh` — opens N iTerm2 tabs and distributes waves automatically
-- Created `weirwood-mechanical` shell function in `terminal-collection/functions/` for easy launching
-- Created extraction runbook at `working/runbooks/extraction-pass1.md`
-- Added orchestration rules to CLAUDE.md: agent prompt ↔ architecture.md sync rule, worklog archival rule
-- Archived Sessions 0–4 to `working/worklog-archives/archive001.md` to reduce context load
-- Updated `working/todos.md` with timeline reconstruction and direwolves/dragons items
+### Session 11 — Extract.sh Instrumentation: Worklog Auto-Update & Versioned CSV (2026-04-24)
+**Detail:** `working/session-details/session-011.md`
+**Changes made:**
+- `scripts/extract.sh` — stats CSV now per-book versioned (`working/extraction-stats/extraction-stats-{book}-pass1-v3.csv`); new `update_worklog()` function auto-updates `worklog.md` checklist after each wave
+- `scripts/extraction-status.sh` — updated to use per-book CSV path
+- `working/extraction-stats.csv` — split: v2 rows (Apr 23) back to v2 CSV, v3 rows (Apr 24) to new v3 CSV
+- `worklog.md` — updated AGOT v3 progress to 30/73 (was stale at 0/73)
 
-**Key decisions made:**
-- Food and Hospitality are separate concerns: food is GRRM's detailed descriptions (queryable data), hospitality is the moral/narrative framework (guest right, violations)
-- Physical character descriptions need to be granular enough for cross-identity matching (Jaqen/Alchemist use case)
-- Spatial Layout phases are directed-graph edges (Advance, Ambush, etc.) — mini scene graphs per chapter
-- Extraction runs use Opus for quality; 4 iTerm2 terminals with 5-chapter waves
-- v1 extractions preserved in archives for schema progression comparison
+**Decisions:** PASS/VERSION hardcoded at script top (not CLI flags) — prompt version changes are rare and deliberate. Worklog update uses filesystem truth via `is_complete`, not CSV row counts. Stats CSVs versioned per book/pass/version so they archive with their extraction run.
 
 **What's next:**
-- AGOT v2 extraction run in progress (launched via `weirwood-mechanical agot 4`)
-- Compare v1 vs v2 output quality on key chapters
-- Update `reference/architecture.md` to reflect new extraction schema sections (sync rule)
-- Begin ACOK extraction once AGOT v2 is validated
+- Continue AGOT v3 extraction (30/73 done, waves 7-15 remaining)
+- Track B (wiki infobox parser) remains independent: `progress/continue-prompts/2026-04-24-track-b-wiki-infobox-parser.md`
 
----
+### Session 10 — Prompt Update v3, Archive Prior Extractions, Process Lessons (2026-04-24)
+**Detail:** `working/session-details/session-010.md`
+**Changes made:**
+- `.claude/agents/mechanical-extractor.md` — Raw Entity List expanded to 12 categories (10 named + Other catch-all), added strict formatting rules (all headers required, no merging/renaming, "None" for empty)
+- `reference/architecture.md` — Pass 1 schema table updated to reflect 12 categories
+- `extractions/archives/agot-v2/` — archived 73 AGOT v2 extractions (4-category format)
+- `extractions/archives/acok-v2/` — archived 50 ACOK v2 extractions (4-category format)
+- `extractions/mechanical/agot/` and `acok/` — now empty, ready for v3 runs
+- `cspell.json` — created project-level cSpell dictionary for ASOIAF terms
+- 3 new memory entries (no-extraction-without-asking, check-existing-knowledge-first, knowledge-index-deferred)
 
-### Session 6 — Book Integration: Dunk & Egg + TWOIAF (2026-04-16)
-**What happened:**
-- Followed runbook at `working/runbooks/book-integration.md` to integrate two new source artifacts.
-- **Dunk & Egg (D&E):**
-  - Converted `The Tales of Dunk & Egg.epub` to plaintext via Calibre `ebook-convert` → `sources/raw/TDAE.txt`
-  - Structure deviated from runbook expectations: Calibre output used mixed-case titles (not ALL CAPS) and had **no internal chapter/section divisions** (no Roman numerals). Each novella is one continuous block of prose.
-  - Wrote `scripts/dunk-egg-splitter.py` via script-builder subagent. Imports `normalize()` from `chapter-splitter.py` via importlib (hyphenated filename workaround).
-  - Produced 3 files total (one per novella):
-    - `thk-dunk-01.md` — The Hedge Knight (~31,600 words)
-    - `tss-dunk-01.md` — The Sworn Sword (~36,600 words)
-    - `tmk-dunk-01.md` — The Mystery Knight (~36,800 words)
-  - All files have valid YAML frontmatter with `collection: tales-of-dunk-and-egg`, `first_available: pre-agot`, `real_identity: Duncan the Tall`
-- **TWOIAF (The World of Ice and Fire):**
-  - Installed `ocrmypdf` + `poppler` via Homebrew (Tesseract, Ghostscript, pdftotext, dependencies)
-  - OCR'd 344-page scanned PDF: `ocrmypdf --output-type pdf --optimize 1 --jobs 8` → `sources/raw/TWOIAF.ocr.pdf` (164MB, 5.7% smaller than input)
-  - Tesseract warnings on ~15 pages ("lots of diacritics" — decorative pages, maps) but no fatal errors
-  - Extracted text: `pdftotext -layout` → `sources/raw/TWOIAF.txt` (179,397 words)
-  - Quality spot-check: "valyrian" 129 hits, "targaryen" 309 hits, "long night" 14 hits — all pass
-  - OCR quality: title/TOC pages have garbled decorative text (expected for scanned ornamental fonts), but prose content is clean and readable
-- Updated `.gitignore` with `sources/reference/` exclusion
-- Updated `reference/architecture.md` with D&E book codes, `collection:` field, `first_available: pre-agot` convention, and `sources/reference/` layer
-- Updated `reference/pov-characters.md` with Duncan the Tall entry and per-novella chapter counts
-
-**Anomalies / follow-ups:**
-- D&E novellas have no internal chapter divisions — if future analysis needs finer granularity, a subdivider script could split on scene breaks (blank-line gaps in prose), but not needed now
-- TWOIAF OCR: decorative cover pages and TOC dotted-leader lines are garbled, but this is cosmetic — the prose content that matters for the reference layer is clean
-- TWOIAF structural splitter was explicitly deferred per plan — needs a planning session once we decide how to segment the reference material (by region? by era? by topic heading?)
-- The `pre-agot` value for `first_available` is a new convention not previously in the architecture — flagged in architecture.md, can be renamed later if a more specific scheme is needed
+**Decisions:** Extractions must go through `weirwood` pipeline only, never background subagents. Raw Entity List locked at 12 categories with strict no-rename/no-merge formatting rules. All prior extractions archived; v3 starts fresh. Trust wiki organization as authority for entity type categories. `Other` catch-all handles edge cases without agent improvisation. Behavioral rules for checking existing knowledge saved; structural index deferred.
 
 **What's next:**
-- Pass 1 mechanical extraction on AGOT remains the primary unblocked work
-- TWOIAF structural splitter is deferred until OCR quality reviewed and segmentation strategy decided
-- D&E chapters are available for Pass 1 extraction whenever the main-series pipeline is proven
+- Run AGOT extraction via `weirwood agot` with v3 prompt (Matt will trigger manually)
+- After AGOT v3 validates, run ACOK and remaining books
+- Track B (wiki infobox parser) remains independent: `progress/continue-prompts/2026-04-24-track-b-wiki-infobox-parser.md`
 
----
+### Session 9 — /continue Command, Todo-Prompt Linking, Session Backfill (2026-04-24)
+**Detail:** `working/session-details/session-009.md`
+**Changes made:**
+- Created `.claude/commands/continue.md` — priority-aware `/continue` slash command
+- Updated `working/todos.md` — added `→ continue:` references linking two todo items to their continue prompts
+- Updated `.claude/commands/endsession.md` — added depth-scaling guidance for session details, continue prompt lifecycle (create + cleanup), removed handoffs.md references
+- Updated `CLAUDE.md` — removed handoffs.md, pass1-agot.md, taxonomy-candidates.md from directory tree
+- Created `working/session-details/session-000.md` through `session-007.md` — backfilled all pre-documentation sessions
+- Deleted 7 stale files: `progress/handoffs.md`, `progress/pass1-agot.md`, `progress/README.md`, `working/progress.md`, `working/taxonomy-candidates.md`, `working/extraction-stats-agot-pass1-v1.csv`, `scratch`
+- Deleted completed continue prompt: `2026-04-24-backfill-session-details.md`
 
-### Session 5 — Full Wiki Crawl Executed (2026-04-14)
-**What happened:**
-- Ran `python3 scripts/wiki-scraper.py --mode all -v` per runbook (`working/runbooks/wiki-full-crawl.md`). Crawl completed fully unattended — no Cloudflare challenges triggered. All 17,952 pages processed: 17,945 succeeded, 7 failed (all HTTP 403 — 6 "Mander"-related pages + "The Mance", likely redirect/special-character edge cases). Final disk footprint: 377 MB total (293 MB raw cache, 81 MB uncategorized markdown, 3.8 MB houses). Only 640 pages classified as `houses/`; 17,305 landed in `_uncategorized/` due to conservative classifier rules. No anomalies beyond the classification skew. Crawl took approximately 36 hours wall clock (slower than the 6–8 hour estimate due to sustained ~280 pages/hour rate on larger character/location pages).
+**Decisions:** Todos.md is the priority authority; continue prompts link from todos via `→ continue:` lines (one-directional). handoffs.md retired — redundant with todos + continue prompts. Session detail depth should scale to session type (design = full narrative, execution = decisions + surprises). Endsession owns the continue prompt lifecycle (create new, delete completed).
 
 **What's next:**
-- Refine `classify_entity()` rules against the static cache to reduce `_uncategorized/` count before designing Pass 2
-- Design Pass 2 (wiki-ingester) prompt — what gets promoted from `sources/wiki/` into `graph/nodes/` and how `first_available` gets assigned
-- Begin Pass 1 mechanical extraction testing on AGOT chapters (unblocked)
+- Track A: Update extractor Raw Entity List 4→10 categories, finish ACOK + start ASOS (`progress/continue-prompts/2026-04-24-track-a-extraction-prompt-update.md`)
+- Track B: Write wiki infobox parser script, design Pass 2 (`progress/continue-prompts/2026-04-24-track-b-wiki-infobox-parser.md`)
 
----
+### Session 8 — Architecture Refactor, Edge/Entity Taxonomy, Wiki Discovery (2026-04-24)
 
+**Detail:** `working/session-details/session-008.md`
+
+**Changes made:**
+- `reference/architecture.md` → pure agent schema reference (removed directory tree, current state, project overview)
+- Entity types: flat list → hierarchical taxonomy with inheritance (18 leaf types across 8 parent categories)
+- Edge types: 26 → ~80 across 14 categories (normalized from v1's 127 ad-hoc types + wiki infobox fields)
+- Edge taxonomy is for graph layer only — Pass 1 stays free-text
+- Wiki `cite_ref` anchors discovered: `R{book}{chapter}` encoding gives chapter-level `first_available`
+- Wiki infobox → edge type mapping table added to architecture.md
+- CLAUDE.md: pipeline status updated, directory tree refreshed
+- Coverage analysis: Raw Entity List has 4 categories, needs 10. Magic/Species/War severely under-indexed.
+- ACOK confirmed at 50/70 (same prompt gap as AGOT)
+
+**Decisions:** architecture.md is agent-only; `house` is its own type under Organization; AGOT/ACOK don't need re-runs (supplementary index instead); prompt update before any further extraction; wiki confidence-tier mapping is a Pass 2 problem; two independent work tracks (A: extraction, B: wiki/Pass 2).
+
+**What's next:**
+- **Track A** (continue prompt: `progress/continue-prompts/2026-04-24-track-a-extraction-prompt-update.md`): Update extractor Raw Entity List 4→10 categories, then finish ACOK + start ASOS
+- **Track B** (continue prompt: `progress/continue-prompts/2026-04-24-track-b-wiki-infobox-parser.md`): Write wiki infobox parser script, then design Pass 2
+- Tracks converge at graph building
+
+> Sessions 5–7 archived to `working/worklog-archives/archive002.md`
 > Sessions 0–4 archived to `working/worklog-archives/archive001.md`
 
 ---
