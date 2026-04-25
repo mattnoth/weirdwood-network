@@ -157,6 +157,7 @@ usage() {
 extract.sh — Unified extraction for the Weirwood Network
 
 Subcommands:
+  extract.sh check                                  Verify source files & prerequisites
   extract.sh status <book>                          Show progress (wave table, costs)
   extract.sh launch <book> -t <N> -w <N> [-m model] Open iTerm tabs to run waves
   extract.sh run <book> --wave <N> [-m model]       Run a single wave (used by iTerm tabs)
@@ -686,12 +687,142 @@ EOF
   fi
 }
 
+# ── CMD: check ─────────────────────────────────────────────────────────────────
+
+cmd_check() {
+  local all_ok=true
+
+  echo ""
+  echo "🔍 Checking source files and prerequisites..."
+  echo ""
+
+  # Check raw source files
+  local -A RAW_FILES=(
+    [agot]="GoT.txt"
+    [acok]="ACOK.txt"
+    [asos]="ASOS.txt"
+    [affc]="AFFC.txt"
+    [adwd]="ADWD.txt"
+  )
+
+  local -A EXPECTED_CHAPTERS=(
+    [agot]=73
+    [acok]=70
+    [asos]=82
+    [affc]=46
+    [adwd]=73
+  )
+
+  echo "Raw source files (sources/raw/):"
+  for book in agot acok asos affc adwd; do
+    local raw="sources/raw/${RAW_FILES[$book]}"
+    if [[ -f "$raw" ]]; then
+      local size
+      size=$(du -h "$raw" | cut -f1)
+      echo "  ✅ ${RAW_FILES[$book]} ($size)"
+    else
+      echo "  ❌ ${RAW_FILES[$book]} — MISSING"
+      all_ok=false
+    fi
+  done
+
+  echo ""
+  echo "Split chapter files (sources/chapters/):"
+  for book in agot acok asos affc adwd; do
+    local chapter_dir="sources/chapters/${book}"
+    local expected=${EXPECTED_CHAPTERS[$book]}
+    if [[ ! -d "$chapter_dir" ]]; then
+      echo "  ❌ ${book^^}: directory missing"
+      all_ok=false
+    else
+      local count
+      count=$(ls "$chapter_dir"/*.md 2>/dev/null | wc -l | tr -d ' ')
+      if (( count == expected )); then
+        echo "  ✅ ${book^^}: ${count}/${expected} chapters"
+      elif (( count > 0 )); then
+        echo "  ⚠️  ${book^^}: ${count}/${expected} chapters (${expected - count} missing)"
+        all_ok=false
+      else
+        echo "  ❌ ${book^^}: no chapter files"
+        all_ok=false
+      fi
+    fi
+  done
+
+  echo ""
+  echo "Extraction outputs (extractions/mechanical/):"
+  for book in agot acok asos affc adwd; do
+    local extract_dir="extractions/mechanical/${book}"
+    local chapter_dir="sources/chapters/${book}"
+    if [[ ! -d "$chapter_dir" ]]; then
+      echo "  ⏭️  ${book^^}: no chapters to extract"
+      continue
+    fi
+    local total=0 done=0
+    for f in "$chapter_dir"/*.md; do
+      total=$(( total + 1 ))
+      local stem
+      stem=$(basename "$f" .md)
+      if is_complete "${extract_dir}/${stem}.extraction.md"; then
+        done=$(( done + 1 ))
+      fi
+    done
+    if (( done == total )); then
+      echo "  ✅ ${book^^}: ${done}/${total} complete"
+    elif (( done > 0 )); then
+      echo "  🔶 ${book^^}: ${done}/${total} (${total - done} remaining)"
+    else
+      echo "  ⬜ ${book^^}: 0/${total} (not started)"
+    fi
+  done
+
+  echo ""
+  echo "Prerequisites:"
+  if command -v claude &>/dev/null; then
+    echo "  ✅ claude CLI found"
+  else
+    echo "  ❌ claude CLI not found — install from https://claude.ai/code"
+    all_ok=false
+  fi
+
+  if [[ -d /Applications/iTerm.app ]] || command -v osascript &>/dev/null; then
+    echo "  ✅ iTerm2 / osascript available"
+  else
+    echo "  ⚠️  iTerm2 not found — launch command won't work"
+  fi
+
+  if command -v python3 &>/dev/null; then
+    echo "  ✅ python3 found"
+  else
+    echo "  ❌ python3 not found — needed for chapter splitting and stats"
+    all_ok=false
+  fi
+
+  echo ""
+  if [[ "$all_ok" == true ]]; then
+    echo "✅ All checks passed. Ready to extract."
+  else
+    echo "⚠️  Some issues found. See above."
+    echo ""
+    echo "If you have raw .txt source files but chapters aren't split yet:"
+    echo "  python3 scripts/chapter-splitter.py sources/raw/GoT.txt agot"
+    echo "  python3 scripts/chapter-splitter.py sources/raw/ACOK.txt acok"
+    echo "  python3 scripts/chapter-splitter.py sources/raw/ASOS.txt asos"
+    echo "  python3 scripts/chapter-splitter.py sources/raw/AFFC.txt affc"
+    echo "  python3 scripts/chapter-splitter.py sources/raw/ADWD.txt adwd"
+    echo ""
+    echo "Or tell Claude Code where your source files are and it can place them."
+  fi
+  echo ""
+}
+
 # ── Dispatch ──────────────────────────────────────────────────────────────────
 
 case "${1:-}" in
   run)    shift; cmd_run "$@" ;;
   status) shift; cmd_status "$@" ;;
   launch) shift; cmd_launch "$@" ;;
+  check)  shift; cmd_check "$@" ;;
   --help|-h) usage ;;
   *)      usage ;;
 esac

@@ -48,6 +48,9 @@ weirwood() {
   fi
 
   case "${1:-}" in
+    check)
+      "$script" check
+      ;;
     stop)
       touch /tmp/extraction-stop
       echo "Stop file created — terminals will halt after their current wave."
@@ -57,6 +60,7 @@ weirwood() {
       echo ""
       echo "Commands:"
       echo "  weirwood                          This help + all-books overview"
+      echo "  weirwood check                    Verify source files & prerequisites"
       echo "  weirwood <book>                   Detailed status (wave table, costs)"
       echo "  weirwood <book> <terms> <waves>   Launch iTerm tabs to extract"
       echo "  weirwood <book> <t> <w> <model>   Launch with a specific model"
