@@ -157,6 +157,21 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session.
 
+### Session 12 — AGOT v3 Complete, Rate-Limit Detection, Commit Catchup (2026-04-25)
+**Detail:** `working/session-details/session-012.md`
+**Changes made:**
+- `scripts/extract.sh` — rate-limit detection: checks JSON for `status:rejected`, halts wave immediately, marks remaining chapters as `skip-rate-limit`; replaced `tail -3` preview with structured extraction summary; added emoji indicators (✅ ❌ 🚫 ⏭️ 🔄 ⚠️); removed raw JSON dump on failures
+- `extractions/mechanical/agot/` — all 73 chapters now v3 complete (26 chapters extracted this session, finishing waves 8, 10, 12-15)
+- 3 commits landed: infrastructure (sessions 8-11), extraction tooling, AGOT v3 extractions + archives
+- Memory updated: extraction rule strengthened to absolute prohibition on agent-triggered extractions
+
+**Decisions:** Rate-limit detection halts the wave (not the terminal) — stop-file handles cross-wave halting. Emoji in terminal output only, never in extraction content. Structured summary (line count, table rows, events, relationships) replaces raw preview. All historical stat CSVs (v1, v2, v3) kept. One minor schema gap: eddard-01 missing `### Other` header — cosmetic, not blocking.
+
+**What's next:**
+- ACOK v3 extraction: `weirwood acok` to see starting point, then `weirwood acok <tabs> <waves>` to run (0/70, user triggers)
+- Track B (wiki infobox parser) remains independent: `progress/continue-prompts/2026-04-24-track-b-wiki-infobox-parser.md`
+- Schema review of AGOT v3 output quality (next session)
+
 ### Session 11 — Extract.sh Instrumentation: Worklog Auto-Update & Versioned CSV (2026-04-24)
 **Detail:** `working/session-details/session-011.md`
 **Changes made:**

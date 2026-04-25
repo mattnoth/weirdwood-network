@@ -50,6 +50,7 @@
 
 - [x] **Chapter splitter script** — Done. `scripts/chapter-splitter.py`, all 5 books split (344 chapters total).
 - [x] **Wiki scraper script** — Done. `scripts/wiki-scraper.py` (1213 lines, stdlib-only). Full crawl complete (17,945 pages, 377 MB).
-- [ ] **Batch extraction runner** — Script to invoke mechanical-extractor across all chapters in a book directory.
+- [x] **Batch extraction runner** — Done. `scripts/extract.sh` + `scripts/weirwood.zsh`. Wave-based parallel extraction via iTerm tabs, stats tracking, rate-limit detection, auto-worklog updates.
+- [ ] **AGOT v3 schema review** — Review extraction output quality across AGOT v3 (73 chapters). Check for: section completeness, entity coverage gaps, Raw Entity List consistency, Food & Drink / Hospitality coverage. One known gap: agot-eddard-01 missing `### Other` header.
 
 
