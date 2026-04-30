@@ -1,0 +1,49 @@
+---
+name: "Orphans of the Greenblood"
+type: organization.faction
+slug: orphans-of-the-greenblood
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Orphans_of_the_Greenblood"
+bucket_id: tier3-cultures
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Orphans of the Greenblood is a culture/people from the AWOIAF wiki.
+
+## Edges
+
+
+## Culture
+
+The orphans still mourn the loss of their distant homeland in [Essos](wiki:Essos), and so continue to practice the traditions of their river-faring ancestors. They consider themselves to be "orphans" as they are of the [Rhoynar](wiki:Rhoynar) and have been orphaned from their "Mother", the river [Rhoyne](wiki:Rhoyne), which in their faith also holds a divine status. Therefore, they also identify the river as "[Mother Rhoyne](wiki:Mother_Rhoyne)."(wiki:Orphans_of_the_Greenblood.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
+The orphans live on [boats](wiki:Ships) along the river [Greenblood](wiki:Greenblood). It is said that when they first came to [Dorne](wiki:Dorne), they built their smaller boats from the burned carcasses of the ships they used to cross the [narrow sea](wiki:Narrow_sea).(wiki:Orphans_of_the_Greenblood.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) The pole boats have hardly any draft to speak of. Painted and carved, they have low roofs and wide beams. The orphans' boats are wonderfully carved and painted. For example, one boat is painted in shades of green, with a curved wooden tiller shaped like a [mermaid](wiki:Mermaid), and fish faces peering through her rails. Poles and ropes and jars of olive oil clutter her decks, and iron lanterns swing fore and aft.(wiki:Orphans_of_the_Greenblood.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) The orphans pole their boats up and down the river and its tributaries, fishing, picking fruits, and doing whatever work is required.(wiki:Orphans_of_the_Greenblood.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+Some orphans have been known to sell cloth and [spices](wiki:Spices) up and down the Greenblood.(wiki:Orphans_of_the_Greenblood.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) They dance and sing on the river, and are also said to have great knowledge of the [healing arts](wiki:Medicine), curing warts and producing the best midwives.(wiki:Orphans_of_the_Greenblood.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4) They speak the [Rhoynish language](wiki:Rhoynish_language), though in secret after it was banned by the [Red Princes](wiki:Red_Princes).(wiki:Orphans_of_the_Greenblood.cite_ref-Rtwoiafdorne:_queer_customs_of_the_south.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) [Doran Martell](wiki:Doran_Martell), [Prince of Dorne](wiki:Prince_of_Dorne), believes the orphans to be gossips.(wiki:Orphans_of_the_Greenblood.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+The orphans founded the [Planky Town](wiki:Planky_Town) as a gathering place, lashing together their boats,(wiki:Orphans_of_the_Greenblood.cite_ref-Rtwoiafdorne:_queer_customs_of_the_south.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1) and go there to trade with the carracks, cogs, and galleys from across the [narrow sea](wiki:Narrow_sea).(wiki:Orphans_of_the_Greenblood.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+Some Greenblood-born orphans have returned home to the Rhoyne in Essos, such as [Yandry](wiki:Yandry) and [Ysilla](wiki:Ysilla), who ply the river on the [Shy Maid](wiki:Shy_Maid).(wiki:Orphans_of_the_Greenblood.cite_ref-Radwd8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)(wiki:Orphans_of_the_Greenblood.cite_ref-Radwd14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
+
+## Origins
+
+Circa [209](wiki:209_AC)–[210 AC](wiki:Years_after_Aegon's_Conquest), Ser [Duncan the Tall](wiki:Duncan_the_Tall) and his [squire](wiki:Squire) [Egg](wiki:Egg) traveled down the Greenblood from [Vaith](wiki:Vaith) to Planky Town on an orphans' poleboat. The orphan girls would often rub Egg's shaved head for luck, embarrassing the boy.(wiki:Orphans_of_the_Greenblood.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+
+## Narrative Arc
+
+### A Feast for Crows[ ]
+
+One of Princess [Arianne Martell](wiki:Arianne_Martell)'s companions in her attempt to crown Princess [Myrcella Baratheon](wiki:Myrcella_Baratheon) is the orphan [Garin](wiki:Garin_(orphan)), her [milk brother](wiki:Milk_brother). He has arranged for them to meet some orphan friends on the [Greenblood](wiki:Greenblood), who will take them down the river. However, when they reach the pole boat, they are ambushed by [Areo Hotah](wiki:Areo_Hotah) and [his men](wiki:House_Martell_guards).(wiki:Orphans_of_the_Greenblood.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+Prince [Doran Martell](wiki:Doran_Martell) takes coin and hostages from Garin's kin among the orphans, as punishment for his role in the plot.(wiki:Orphans_of_the_Greenblood.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
+
+### A Dance with Dragons[ ]
+
+On the [Rhoyne](wiki:Rhoyne) in [Essos](wiki:Essos), [Tyrion Lannister](wiki:Tyrion_Lannister) encounters [Yandry](wiki:Yandry) and his wife [Ysilla](wiki:Ysilla), two orphans who have come home to Mother Rhoyne. Yandry captains the poleboat [Shy Maid](wiki:Shy_Maid), and transports Tyrion, [Griff](wiki:Griff), and the rest of their party down the river to [Volantis](wiki:Volantis).(wiki:Orphans_of_the_Greenblood.cite_ref-Radwd8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)(wiki:Orphans_of_the_Greenblood.cite_ref-Radwd14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+
+## Quotes
+
+Arianne: They live on boats, and pole them up and down the [Greenblood](wiki:Greenblood) and its vassals, fishing and picking fruit and doing whatever work needs doing.
+Garin: Aye, and we sing and play and dance on water, and know much and more of healing. My mother is the best midwife in [Westeros](wiki:Westeros), and my father can cure warts. Myrcella: How can you be orphans if you have mothers and fathers? Arianne: They are the [Rhoynar](wiki:Rhoynar), and their Mother was the river [Rhoyne](wiki:Rhoyne). Myrcella: I thought you were the Rhoynar. You [Dornishmen](wiki:Dornishmen), I mean.
+Low of roof and wide abeam, the poleboats had hardly any draft to speak of; the [Young Dragon](wiki:Daeron_I_Targaryen) had disparaged them as "hovels built on rafts," but that was hardly fair. All but the poorest orphan boats were wonderfully carved and painted.(wiki:Orphans_of_the_Greenblood.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
+The orphans are free spirits, they live to wander.(wiki:Orphans_of_the_Greenblood.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
