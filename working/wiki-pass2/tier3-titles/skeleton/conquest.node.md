@@ -1,0 +1,19 @@
+---
+name: "Conquest"
+type: title
+slug: conquest
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Conquest"
+bucket_id: tier3-titles
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Conquest is a title from the AWOIAF wiki.
+
+## Edges
+

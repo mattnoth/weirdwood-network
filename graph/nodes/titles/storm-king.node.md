@@ -1,0 +1,36 @@
+---
+name: "Storm King"
+type: title
+slug: storm-king
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Storm_King"
+bucket_id: tier3-titles
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Storm King is a title from the AWOIAF wiki.
+
+## Edges
+
+
+## Origins
+
+### Storm Kings[ ]
+
+The first of the line was [Durran Godsgrief](wiki:Durran_Godsgrief), who according to legends built [Storm's End](wiki:Storm's_End) and won the love of [Elenei](wiki:Elenei), the daughter of the [sea god](wiki:Sea_god) and the [goddess of the wind](wiki:Goddess_of_the_wind).(wiki:Storm_King.cite_ref-Racok31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+The Storm Kings established a powerful kingdom, and the [Durrandons](wiki:House_Durrandon) extended their control north to [Massey's Hook](wiki:Massey's_Hook)(wiki:Storm_King.cite_ref-Rtwoiafthe_stormlands:_men_of_the_stormlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) and the [Bay of Crabs](wiki:Bay_of_Crabs),(wiki:Storm_King.cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) west into the [Dornish Marches](wiki:Dornish_Marches),(wiki:Storm_King.cite_ref-Rtwoiafthe_stormlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) and south to [Cape Wrath](wiki:Cape_Wrath).(wiki:Storm_King.cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
+During the reign of King [Arlan III Durrandon](wiki:Arlan_III_Durrandon), the stormlands claimed the [riverlands](wiki:Riverlands) after the downfall of [House Teague](wiki:House_Teague).(wiki:Storm_King.cite_ref-Rtwoiafthe_riverlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) King [Arrec Durrandon](wiki:Arrec_Durrandon) was defeated by [Harwyn Hoare](wiki:Harwyn_Hoare), [King of the Iron Islands](wiki:King_of_the_Iron_Islands), in the [battle at Fairmarket](wiki:Battle_at_Fairmarket), ending three centuries of Storm King rule over the [Trident](wiki:Trident).(wiki:Storm_King.cite_ref-Rtwoiafthe_riverlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+
+### Argilac the Arrogant[ ]
+
+During the [Century of Blood](wiki:Century_of_Blood), the militant [tigers](wiki:Tigers_(Volantis)) of [Volantis](wiki:Volantis) attacked [Tyrosh](wiki:Tyrosh) after taking [Lys](wiki:Lys) and [Myr](wiki:Myr). The Storm King [Argilac Durrandon](wiki:Argilac_Durrandon) joined the [Sealord of Braavos](wiki:Sealord_of_Braavos) and [Aegon Targaryen](wiki:Aegon_I_Targaryen), [Lord of Dragonstone](wiki:Lord_of_Dragonstone), in aiding [Pentos](wiki:Pentos) in Tyrosh's defense, however, allowing Lys and Myr to rebel.(wiki:Storm_King.cite_ref-Radwd14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) Argilac defeated a Volantene host in the [Disputed Lands](wiki:Disputed_Lands) which was attempting to retake Myr.(wiki:Storm_King.cite_ref-Rtwoiafancient_history:_the_doom_of_valyria.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+The last Storm King, Argilac the Arrogant, was slain in the [Last Storm](wiki:Last_Storm) by [Orys Baratheon](wiki:Orys_Baratheon). [Argella Durrandon](wiki:Argella_Durrandon) declared herself Storm Queen after her father's death, but the men of [Storm's End](wiki:Storm's_End) turned her over to Orys's camp.(wiki:Storm_King.cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2) Orys wed Argella and took Argilac's colors and words as his own during [Aegon's Conquest](wiki:Aegon's_Conquest), founding [House Baratheon](wiki:House_Baratheon).(wiki:Storm_King.cite_ref-Ragotappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0) King Aegon granted Storm's End to Orys and named him [Lord Paramount of the Stormlands](wiki:Lord_Paramount_of_the_Stormlands).(wiki:Storm_King.cite_ref-Rtwoiafthe_stormlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
+
+### The Laughing Storm[ ]
+
+Prince [Duncan Targaryen](wiki:Duncan_Targaryen) married [Jenny of Oldstones](wiki:Jenny_of_Oldstones), breaking his betrothal with the daughter of [Lyonel Baratheon](wiki:Lyonel_Baratheon), [Lord of Storm's End](wiki:Lord_of_Storm's_End). The outraged Lyonel renounced his fealty to the [Iron Throne](wiki:Iron_Throne) and declared himself Storm King. A [short and bloody rebellion](wiki:Lyonel_Baratheon's_rebellion) followed, which ended when Lyonel, the Laughing Storm, yielded to Ser [Duncan the Tall](wiki:Duncan_the_Tall) of the [Kingsguard](wiki:Kingsguard) during a [trial by battle](wiki:Trial_by_combat).(wiki:Storm_King.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_v.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)(wiki:Storm_King.cite_ref-Rtwoiafthe_stormlands:_house_baratheon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)

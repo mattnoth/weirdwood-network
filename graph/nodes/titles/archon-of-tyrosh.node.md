@@ -1,0 +1,55 @@
+---
+name: "Archon of Tyrosh"
+type: title
+slug: archon-of-tyrosh
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Archon_of_Tyrosh"
+bucket_id: tier3-titles
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Archon of Tyrosh is a title from the AWOIAF wiki.
+
+## Edges
+
+
+## Origins
+
+### Jaehaerys I[ ]
+
+The Archon and his [maiden daughter](wiki:Archon's_daughter_(Jaehaerys_I)) attended the [Golden Wedding](wiki:Golden_Wedding) in [49 AC](wiki:49_AC). Lord [Rogar Baratheon](wiki:Rogar_Baratheon) suggested that King [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen) wed the [Archon's daughter](wiki:Archon's_daughter_(Jaehaerys_I)), but the king instead married his sister, [Alysanne Targaryen](wiki:Alysanne_Targaryen).(wiki:Archon_of_Tyrosh.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) After being exiled from [Westeros](wiki:Westeros) by Jaehaerys in [50 AC](wiki:50_AC), Ser [Orryn Baratheon](wiki:Orryn_Baratheon) entered the Archon's service and wed his daughter.(wiki:Archon_of_Tyrosh.cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1) In [56 AC](wiki:56_AC), the [Adventurers](wiki:Adventurers) were destroyed when they were caught in the [Disputed Lands](wiki:Disputed_Lands) between a great fire and the Archon's host.(wiki:Archon_of_Tyrosh.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+Two years later Jaehaerys mediated in [King's Landing](wiki:King's_Landing) between the Archon of Tyrosh and the [Prince of Pentos](wiki:Prince_of_Pentos). The Archon's galley was burned while docked at King's Landing, a city which the Archon despised. Jaehaerys eventually mediated "A Treaty of Eternal Peace" between his Free City counterparts.(wiki:Archon_of_Tyrosh.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
+During the [Myrish Bloodbath](wiki:Myrish_Bloodbath) of [91](wiki:Years_after_Aegon's_Conquest)–[92 AC](wiki:92_AC), the Archon allied with [pirate](wiki:Pirate) kings to expel a faction of [Myrmen](wiki:Myr) from the [Stepstones](wiki:Stepstones). The Myrish outlaws then fled to [Tarth](wiki:Tarth).(wiki:Archon_of_Tyrosh.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne_-_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+
+### Triarchy and the Daughters' War[ ]
+
+In [96 AC](wiki:Years_after_Aegon's_Conquest) an alliance of [Lys](wiki:Lys), [Myr](wiki:Myr), and [Tyrosh](wiki:Tyrosh) defeated [Volantis](wiki:Volantis) in the [Battle of the Borderland](wiki:Battle_of_the_Borderland). The three cities then united as the [Triarchy](wiki:Triarchy), also known as the Kingdom of the Three Daughters. The Triarchy was ruled by a council of thirty-three [magisters](wiki:Magisters). The Triarchy's conquest of the [Stepstones](wiki:Stepstones) eventually led to Prince [Daemon Targaryen](wiki:Daemon_Targaryen)'s own [war for the Stepstones](wiki:War_for_the_Stepstones) in [106 AC](wiki:106_AC).(wiki:Archon_of_Tyrosh.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
+The Triarchy supported the [greens](wiki:Greens) during the [Dance of the Dragons](wiki:Dance_of_the_Dragons).(wiki:Archon_of_Tyrosh.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0) When the [Daughters' War](wiki:Daughters'_War) broke out, the Archon sent [Racallio Ryndoon](wiki:Racallio_Ryndoon) to control the Stepstones, but the rakish admiral claimed the islands for himself as [King of the Narrow Sea](wiki:King_of_the_Narrow_Sea). Once Lys and Myr made peace and began attacking Tyrosh, the Archon was forced to recall his forces from the Stepstones.(wiki:Archon_of_Tyrosh.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)
+The Archon allied with Racallio and the [Sealord of Braavos](wiki:Sealord_of_Braavos) to jointly rule the Stepstones. [Lord Alyn's attack](wiki:Lord_Alyn's_attack) on the [Braavosi](wiki:Braavos) ships caused the alliance's collapse, however.(wiki:Archon_of_Tyrosh.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0) The Archon hired [sellswords](wiki:Sellswords) from [Pentos](wiki:Pentos) to hold some of the islands,(wiki:Archon_of_Tyrosh.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-1) and Tyrosh gained much of the Disputed Lands once the war ended.(wiki:Archon_of_Tyrosh.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0) The Archon sent his sister to attend the [Maiden's Day Ball](wiki:Maiden's_Day_Ball).(wiki:Archon_of_Tyrosh.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-2) When [Lysandro](wiki:Lysandro_Rogare) and [Drazenko Rogare](wiki:Drazenko_Rogare) suddenly died during the [Lysene Spring](wiki:Lysene_Spring), the Archon was one of many possibilities suspected of assassinating them with [Faceless Men](wiki:Faceless_Men).(wiki:Archon_of_Tyrosh.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-1)
+
+### Recent History[ ]
+
+King [Daeron II Targaryen](wiki:Daeron_II_Targaryen) paid a [dowry](wiki:Dowry) to the Archon when [Daemon Blackfyre](wiki:Daemon_I_Blackfyre) wed [Rohanne of Tyrosh](wiki:Rohanne_of_Tyrosh).(wiki:Archon_of_Tyrosh.cite_ref-Rtwoiafthe_targaryen_kings:_daeron_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0)
+[Alequo Adarys](wiki:Alequo_Adarys) led the [Band of Nine](wiki:Band_of_Nine) in [conquering](wiki:Sack_of_Tyrosh) Tyrosh before the [War of the Ninepenny Kings](wiki:War_of_the_Ninepenny_Kings). After at least six years of rule, Alequo was poisoned by his queen and the [Archon](wiki:Archon_of_Tyrosh_(War_of_the_Ninepenny_Kings)) was restored to his position.(wiki:Archon_of_Tyrosh.cite_ref-Rtwoiafthe_targaryen_kings:_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0)
+After [Robert's Rebellion](wiki:Robert's_Rebellion), the exiled [Viserys](wiki:Viserys_Targaryen) and [Daenerys Targaryen](wiki:Daenerys_Targaryen) traveled from one [Free City](wiki:Free_City) to another, staying with merchant princes, [magisters](wiki:Magisters), and Archons.(wiki:Archon_of_Tyrosh.cite_ref-Ragot3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0)
+The [green-haired daughter](wiki:Archon's_green-haired_daughter) of the Archon spent some time at the [Water Gardens](wiki:Water_Gardens) with Princess [Arianne Martell](wiki:Arianne_Martell), although Arianne did not know the girl's identity at the time.(wiki:Archon_of_Tyrosh.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0)
+
+## Narrative Arc
+
+### A Game of Thrones[ ]
+
+The green-bearded brother of the Archon attends the introduction of [Daenerys Targaryen](wiki:Daenerys_Targaryen) to her future husband, [Drogo](wiki:Drogo), at the [khal's manse](wiki:Drogo's_manse) in [Pentos](wiki:Pentos).(wiki:Archon_of_Tyrosh.cite_ref-Ragot3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-1)
+
+### A Feast for Crows[ ]
+
+It is rumored that the Archon has offered terms to end the trade war between Tyrosh and [Lys](wiki:Lys).(wiki:Archon_of_Tyrosh.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-0)
+[Doran Martell](wiki:Doran_Martell), [Prince of Dorne](wiki:Prince_of_Dorne), reveals to his daughter, Princess [Arianne](wiki:Arianne_Martell), that at one point she was to have been sent to Tyrosh to serve as the Archon's cupbearer, so she could have met her betrothed, [Viserys Targaryen](wiki:Viserys_Targaryen), in secret. The [Archon's green-haired daughter](wiki:Archon's_green-haired_daughter) had already been sent to the [Water Gardens](wiki:Water_Gardens), but [Mellario](wiki:Mellario) refused to allow her daughter Arianne to leave [Dorne](wiki:Dorne).(wiki:Archon_of_Tyrosh.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-1)
+
+### The Winds of Winter[ ]
+
+[The Anguish of the Archon](wiki:The_Anguish_of_the_Archon) is a play performed at the [Gate](wiki:Gate_(playhouse)) in [Braavos](wiki:Braavos).(wiki:Archon_of_Tyrosh.cite_ref-19)

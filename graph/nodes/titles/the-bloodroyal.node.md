@@ -1,0 +1,19 @@
+---
+name: "The Bloodroyal"
+type: title
+slug: the-bloodroyal
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/The_Bloodroyal"
+bucket_id: tier3-titles
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+The Bloodroyal is a title from the AWOIAF wiki.
+
+## Edges
+

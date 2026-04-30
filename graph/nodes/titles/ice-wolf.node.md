@@ -1,0 +1,23 @@
+---
+name: "Ice Wolf"
+type: title
+slug: ice-wolf
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Ice_Wolf"
+bucket_id: tier3-titles
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Ice Wolf is a title from the AWOIAF wiki.
+
+## Edges
+
+
+## Origins
+
+During one voyage, [Corlys Velaryon](wiki:Corlys_Velaryon) sailed Ice Wolf to [Braavos](wiki:Braavos), [Eastwatch-by-the-Sea](wiki:Eastwatch-by-the-Sea), [Hardhome](wiki:Hardhome), [Lorath](wiki:Lorath), and the [Port of Ibben](wiki:Port_of_Ibben).(wiki:Ice_Wolf.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0) He later took the ship [beyond the Wall](wiki:Beyond_the_Wall) in an attempt to find a northerly route around [Westeros](wiki:Westeros) in the [Shivering Sea](wiki:Shivering_Sea), but he turned back after finding frozen seas and icebergs.(wiki:Ice_Wolf.cite_ref-Rtwoiaf_the_targaryen_kings:_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

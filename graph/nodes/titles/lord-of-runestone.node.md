@@ -1,0 +1,46 @@
+---
+name: "Lord of Runestone"
+type: title
+slug: lord-of-runestone
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Lord_of_Runestone"
+bucket_id: tier3-titles
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Lord of Runestone is a title from the AWOIAF wiki.
+
+## Edges
+
+
+## Origins
+
+In [37 AC](wiki:37_AC), [Jonos Arryn](wiki:Jonos_Arryn) imprisoned and usurped his brother, Lord [Ronnel](wiki:Ronnel_Arryn_(king)). Lord [Allard Royce](wiki:Allard_Royce) marched against the [Eyrie](wiki:Eyrie) and to demand the release of his rightful lord. Jonos answered by throwing his brother from the [Moon Door](wiki:Moon_Door). The conflict was resolved after the arrival of Prince [Maegor Targaryen](wiki:Maegor_Targaryen) on top of [Balerion](wiki:Balerion).(wiki:Lord_of_Runestone.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
+An unnamed Lord Royce travelled to [King's Landing](wiki:King's_Landing) in [49 AC](wiki:49_AC) to assist to the [wedding](wiki:Golden_Wedding) of Lord [Rogar Baratheon](wiki:Rogar_Baratheon) and Lady [Alyssa Velaryon](wiki:Alyssa_Velaryon).(wiki:Lord_of_Runestone.cite_ref-Rfabthe_year_of_the_three_brides_.E2.80.94_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
+Lord [Yorbert Royce](wiki:Yorbert_Royce) was Lady [Jeyne Arryn](wiki:Jeyne_Arryn)'s [regent](wiki:Regent) during her [minority](wiki:Customs) and held the title of [Lord Protector of the Vale](wiki:Lord_Protector_of_the_Vale). As such he attended the [Great Council](wiki:Great_Council) of [101 AC](wiki:101_AC) at [Harrenhal](wiki:Harrenhal) in her place.(wiki:Lord_of_Runestone.cite_ref-Rtwoiaf_the_vale:_house_arryn.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) A few years later, [Rhea Royce](wiki:Rhea_Royce) had become the Lady of Runestone.(wiki:Lord_of_Runestone.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)(wiki:Lord_of_Runestone.cite_ref-9)
+In [115 AC](wiki:Years_after_Aegon's_Conquest), Lady Rhea died from a fall from her [horse](wiki:Horse) whilst hawking. Her lands and title were coveted by her husband, Prince [Daemon Targaryen](wiki:Daemon_Targaryen), but Lady Jeyne ruled in favor of Rhea's nephew instead.(wiki:Lord_of_Runestone.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
+A succession dispute arose in the Vale following the death of Lady Jeyne Arryn in [134 AC](wiki:134_AC). Old Lord [Gunthor Royce](wiki:Gunthor_Royce) supported her first cousin, Ser [Arnold Arryn](wiki:Arnold_Arryn), as her heir. The [king](wiki:Aegon_III_Targaryen)'s regent, Ser [Corwyn Corbray](wiki:Corwyn_Corbray), ruled that her chosen heir, Ser [Joffrey Arryn](wiki:Joffrey_Arryn), must be the next [Lord of the Eyrie](wiki:Lord_of_the_Eyrie), however. Ser Corwyn was killed by a crossbowman at Runestone while confronting Lord Gunthor, as Ser Arnold had sought sanctuary there. War began anew across the Vale, with the Royces, and their bannermen, the [Coldwaters](wiki:House_Coldwater) and [Tolletts](wiki:House_Tollett) supporting Ser Arnold's claim.(wiki:Lord_of_Runestone.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)
+Lord Royce competed in a [tourney](wiki:Tourney_at_Maidenpool) at [Maidenpool](wiki:Maidenpool) in [208 AC](wiki:Years_after_Aegon's_Conquest), but he was defeated by Ser [Humfrey Hardyng](wiki:Humfrey_Hardyng).(wiki:Lord_of_Runestone.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)
+When Lord [Yohn Royce](wiki:Yohn_Royce) went [north](wiki:North) with his son, Ser [Waymar](wiki:Waymar_Royce), who was joining the [Night's Watch](wiki:Night's_Watch) at the [Wall](wiki:Wall), they stopped at [Winterfell](wiki:Winterfell).(wiki:Lord_of_Runestone.cite_ref-Ragot29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0) After a hunt, Yohn defeated both Lord [Eddard Stark](wiki:Eddard_Stark) and Ser [Rodrik Cassel](wiki:Rodrik_Cassel) in the training yard.(wiki:Lord_of_Runestone.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+
+## Narrative Arc
+
+### A Game of Thrones[ ]
+
+Lord Yohn Royce and his two eldest sons, Ser [Andar](wiki:Andar_Royce) and Ser [Robar](wiki:Robar_Royce), participate in the [Hand's tourney](wiki:Hand's_tourney) in [King's Landing](wiki:King's_Landing).(wiki:Lord_of_Runestone.cite_ref-Ragot29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-1)
+Yohn stays in the capital after the tourney and goes hunting with King [Robert I Baratheon](wiki:Robert_I_Baratheon) in the [kingswood](wiki:Kingswood).(wiki:Lord_of_Runestone.cite_ref-Ragot43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0)
+
+### A Storm of Swords[ ]
+
+Lord Yohn is close to open revolt, as Lady [Lysa Arryn](wiki:Lysa_Arryn) failed to support [Robb Stark](wiki:Robb_Stark), [King in the North](wiki:King_in_the_North), during the [War of the Five Kings](wiki:War_of_the_Five_Kings).(wiki:Lord_of_Runestone.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0)
+
+### A Feast for Crows[ ]
+
+Lord Yohn is one of the [Lords Declarant](wiki:Lords_Declarant) demanding the removal of [Petyr Baelish](wiki:Petyr_Baelish) as Lord Protector of the Vale after the death of Lysa Arryn. The Lords Declarant sign and issue their statement of demands from Runestone.(wiki:Lord_of_Runestone.cite_ref-Raffc17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0)
+After the Lords Declarant surround the [Gates of the Moon](wiki:Gates_of_the_Moon), they are hosted by Petyr within the Eyrie. Although they want young Lord [Robert Arryn](wiki:Robert_Arryn) to be Yohn's [ward](wiki:Ward) and [squire](wiki:Squire) at Runestone, Petyr manipulates them into granting him a year to set the Vale to rights.(wiki:Lord_of_Runestone.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+Lord Yohn holds a small melee at Runestone for squires which [Harrold Hardyng](wiki:Harrold_Hardyng) wins, and Yohn [knights](wiki:Knight) Harry as his reward.(wiki:Lord_of_Runestone.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0)

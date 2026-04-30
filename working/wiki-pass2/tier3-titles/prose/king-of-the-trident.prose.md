@@ -1,0 +1,21 @@
+## Origins
+
+Numerous houses ruled the [riverlands](wiki:Riverlands) as [First Men](wiki:First_Men) river kings, including Houses [Fisher](wiki:House_Fisher), [Blackwood](wiki:House_Blackwood), [Bracken](wiki:House_Bracken), and [Mudd](wiki:House_Mudd).(wiki:King of the Trident.cite_ref-Rtwoiafthe_riverlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)(wiki:King of the Trident.cite_ref-Rssm1243.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) The Mudds ruled from the [Trident](wiki:Trident) to the [Neck](wiki:Neck), and reigned as kings for a thousand years before the [coming of the Andals](wiki:Coming_of_the_Andals).(wiki:King of the Trident.cite_ref-Rasos45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+The [coming of the Andals](wiki:Coming_of_the_Andals) led to the downfall of the Mudds, and the division of the riverlands by the [Andal](wiki:Andals) conquerors. Petty lords fought each other for centuries as rival river kings. [House Justman](wiki:House_Justman) rose to power, and ruled all of the riverlands for nearly three centuries, but they were eventually extinguished by [ironborn](wiki:Ironborn). Blackwoods, Brackens, [Charltons](wiki:House_Charlton), [Mallisters](wiki:House_Mallister), and [Vances](wiki:House_Vance) then fought each other as rival kings in the following century.(wiki:King of the Trident.cite_ref-Rtwoiafthe_riverlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4) The [Hooks](wiki:House_Hook) were also river kings of old, although it is unknown if they ruled during the First Men or Andal eras.(wiki:King of the Trident.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
+After another century of conflict, [House Teague](wiki:House_Teague) conquered the riverlands with the aid of [sellswords](wiki:Sellswords) from across the [narrow sea](wiki:Narrow_sea).(wiki:King of the Trident.cite_ref-Rtwoiafthe_riverlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5) According to a semi-canon source, the Teagues may not have had an uninterrupted rule, instead being contested by other river dynasties for generations.(wiki:King of the Trident.cite_ref-7) The Teagues, the last of the native river kings, were eventually extinguished in the [Battle of Six Kings](wiki:Battle_of_Six_Kings), and the riverlands passed first to the [Storm Kings](wiki:Storm_Kings) from [House Durrandon](wiki:House_Durrandon), and then the [Kings of the Isles and the Rivers](wiki:Kings_of_the_Isles_and_the_Rivers) from [House Hoare](wiki:House_Hoare).(wiki:King of the Trident.cite_ref-Rtwoiafthe_riverlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+During [the Conquest](wiki:Aegon's_Conquest), [Aegon the Conqueror](wiki:Aegon_I_Targaryen) created the title of [Lord Paramount of the Trident](wiki:Lord_Paramount_of_the_Trident) for the liege lord of the riverlands within the [Seven Kingdoms](wiki:Seven_Kingdoms).(wiki:King of the Trident.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+
+## Narrative Arc
+
+### A Game of Thrones[ ]
+
+In the [Great Hall of Riverrun](wiki:Great_Hall_of_Riverrun), the gathered river lords join the [northern](wiki:North) bannermen in declaring [Robb Stark](wiki:Robb_Stark) to be [King in the North](wiki:King_in_the_North).(wiki:King of the Trident.cite_ref-Ragot71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+
+### A Storm of Swords[ ]
+
+When Robb, the Young Wolf, gathers his bannermen in Riverrun's Great Hall after campaigning in the [westerlands](wiki:Westerlands), the [Greatjon](wiki:Jon_Umber) calls out, "King in the North!", to which the river lords respond with "King of the Trident!"(wiki:King of the Trident.cite_ref-Rasos14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
+Robb is betrayed and murdered during the [Red Wedding](wiki:Red_Wedding) at the [Twins](wiki:Twins) by his bannermen, the [Freys](wiki:House_Frey) and [Boltons](wiki:House_Bolton),(wiki:King of the Trident.cite_ref-Rasos51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0) with no known heir made public.
+
+### A Dance with Dragons[ ]
+
+Lord [Tytos Blackwood](wiki:Tytos_Blackwood), the last resisting river lord, reluctantly agrees to swear fealty to the [Iron Throne](wiki:Iron_Throne).(wiki:King of the Trident.cite_ref-Radwd48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0) The title King of the Trident is left vacant.

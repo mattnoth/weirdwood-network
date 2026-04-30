@@ -1,0 +1,38 @@
+---
+name: "Lord of Claw Isle"
+type: title
+slug: lord-of-claw-isle
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Lord_of_Claw_Isle"
+bucket_id: tier3-titles
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Lord of Claw Isle is a title from the AWOIAF wiki.
+
+## Edges
+
+
+## Origins
+
+The Celtigars, a family of [Valyrian](wiki:Valyria) descent, settled on [Claw Isle](wiki:Claw_Isle) at an unknown date and became the rulers of the island.(wiki:Lord_of_Claw_Isle.cite_ref-Rtwoiaf31.7B.7B.7B4.7D.7D.7D_2-0) They also claimed dominion over [Crackclaw Point](wiki:Crackclaw_Point), but the inhabitants did not acknowledge them as their rulers.(wiki:Lord_of_Claw_Isle.cite_ref-Raffc20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+By the time of [Aegon's Conquest](wiki:Aegon's_Conquest), the Lords of Claw Isle dominated the middle reaches of the [narrow sea](wiki:Narrow_sea). Lord [Alton Celtigar](wiki:Alton_Celtigar) was named Aegon I's [Hand of the King](wiki:Hand_of_the_King) in [9 AC](wiki:9_AC), and served ably until his death in [17 AC](wiki:Years_after_Aegon's_Conquest).(wiki:Lord_of_Claw_Isle.cite_ref-Rfab3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+Lord [Edwell Celtigar](wiki:Edwell_Celtigar) was named as [Hand of the King](wiki:Hand_of_the_King) by Aegon I's second son, King [Maegor I Targaryen](wiki:Maegor_I_Targaryen), in [44 AC](wiki:44_AC).(wiki:Lord_of_Claw_Isle.cite_ref-Rtwoiaf43.7B.7B.7B4.7D.7D.7D_5-0) In [47 AC](wiki:47_AC), Lord Edwell suggested one or both of his own daughters, [Prunella](wiki:Prunella_Celtigar) and [Prudence](wiki:Prudence_Celtigar), as potential brides for the king, who was in need of an heir. Maegor refused the notion, however. Edwell resigned from his office the following year.(wiki:Lord_of_Claw_Isle.cite_ref-Rfab4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
+King [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen) pardonned Edwell for having supported Maegor, recalled him from Claw Isle, and named him as his [master of coin](wiki:Master_of_coin).(wiki:Lord_of_Claw_Isle.cite_ref-Rfab6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) When Jaehaerys turned sixteen years old, he kindly dismissed Edwell from office and replaced him with [Rego Draz](wiki:Rego_Draz), a wealthy [Pentoshi](wiki:Pentos) merchant.(wiki:Lord_of_Claw_Isle.cite_ref-Rfab8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0) Edwell died of the [Shivers](wiki:Shivers) in [59 AC](wiki:59_AC) and was succeeded by his son. This new Lord of Claw Isle died of the same disease three days later, however.(wiki:Lord_of_Claw_Isle.cite_ref-Rfab11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
+During the [Dance of the Dragons](wiki:Dance_of_the_Dragons), old Lord [Bartimos Celtigar](wiki:Bartimos_Celtigar) sat on [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen)'s [black council](wiki:Black_council) and was one of her staunchest supporters. As Bartimos was a very wealthy lord, Rhaenyra hoped he would competently manage the treasury of the Crown and named him her master of coin after the [fall of King's Landing](wiki:Fall_of_King's_Landing). However, Bartimos quickly grew unpopular in the city after he restored ancient taxes and created new ones.(wiki:Lord_of_Claw_Isle.cite_ref-Rfab16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0) In [130 AC](wiki:130_AC), some angry kingslanders cut off Bartimos's genitals and beheaded him during the [riots](wiki:Riot_of_King's_Landing_(Dance_of_the_Dragons)) that broke out in the capital.(wiki:Lord_of_Claw_Isle.cite_ref-Rfab17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0) Bartimos was succeeded by his son, [Clement Celtigar](wiki:Clement_Celtigar).(wiki:Lord_of_Claw_Isle.cite_ref-Rfab19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0)
+After the ascension of King [Aegon III Targaryen](wiki:Aegon_III_Targaryen), Lord Clement rode to King's Landing from [Duskendale](wiki:Duskendale) with Ser [Corwyn Corbray](wiki:Corwyn_Corbray) and Lady [Staunton](wiki:House_Staunton).(wiki:Lord_of_Claw_Isle.cite_ref-Rfab19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-1)
+
+## Narrative Arc
+
+### A Clash of Kings[ ]
+
+The old Lord of Claw Isle, [Ardrian Celtigar](wiki:Ardrian_Celtigar), declares for [Stannis Baratheon](wiki:Stannis_Baratheon) at the start of the [War of the Five Kings](wiki:War_of_the_Five_Kings).(wiki:Lord_of_Claw_Isle.cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0) He is captured at the [Battle of the Blackwater](wiki:Battle_of_the_Blackwater) and bends the knee to King [Joffrey I Baratheon](wiki:Joffrey_Baratheon).(wiki:Lord_of_Claw_Isle.cite_ref-Racok65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0)
+
+### A Storm of Swords[ ]
+
+Lord Ardrian stays in [King's Landing](wiki:King's_Landing) in fear of reprisals from Stannis. He is present at [the wedding](wiki:Purple_Wedding) of King Joffrey I to Lady [Margaery Tyrell](wiki:Margaery_Tyrell), and later testifies against [Tyrion Lannister](wiki:Tyrion_Lannister) at his trial for regicide.(wiki:Lord_of_Claw_Isle.cite_ref-Rasos66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0)
