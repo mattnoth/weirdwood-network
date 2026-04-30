@@ -1,0 +1,3 @@
+## Origins
+
+Harlan was the heir of King [Qhorwyn Hoare](wiki:Qhorwyn_Hoare), as Qhorwyn's eldest son had died of [greyscale](wiki:Greyscale). When Qhorwyn the Cunning was dying, Harlan died suddenly, allegedly due to falling from a horse. Some suggested that Harlan's younger brother, [Harwyn](wiki:Harwyn_Hoare) was actually to blame, while others attributed Harlan's death to a [Faceless Man](wiki:Faceless_Man). Harwyn succeeded as [King of the Iron Islands](wiki:King_of_the_Iron_Islands) six days after Qhorwyn's own death.(wiki:Harlan_Hoare.cite_ref-Rtwoiafthe_iron_islands:_the_black_blood.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

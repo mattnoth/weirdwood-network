@@ -1,0 +1,38 @@
+{
+  "bucket_id": "characters-house-bettley",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "4183622458f4bc9272fe9ff2ba50a006375542c2c22b3ba583d35646cc274e59",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Jon Bettley"
+  ],
+  "expected_nodes": [
+    "jon-bettley.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Jon Bettley"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 1,
+      "tier_a": 0,
+      "tier_b": 1,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.656283+00:00",
+  "stage3_promoted_count": 1,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

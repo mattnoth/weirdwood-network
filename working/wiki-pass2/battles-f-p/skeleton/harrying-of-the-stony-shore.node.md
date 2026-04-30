@@ -1,0 +1,21 @@
+---
+name: "Harrying of the Stony Shore"
+type: event.battle
+slug: harrying-of-the-stony-shore
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Harrying_of_the_Stony_Shore"
+bucket_id: battles-f-p
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Harrying of the Stony Shore is a event.battle from the AWOIAF wiki.
+
+## Edges
+
+- FIGHTS_IN: War of the Five Kings (track_b: Conflict)
+- DEFEATS: Greyjoy victory (track_b: Result)

@@ -1,0 +1,7 @@
+## Origins
+
+Laena was born while her father, Lord [Alyn Velaryon](wiki:Alyn_Velaryon), was on his voyage to the [Iron Islands](wiki:Iron_Islands) and then [Lys](wiki:Lys). Alyn first met his daughter when he returned to [King's Landing](wiki:King's_Landing) with the previously-missing Prince [Viserys Targaryen](wiki:Viserys_II_Targaryen).(wiki:Laena_Velaryon_(daughter_of_Alyn).cite_ref-Rfabunder_the_regents_-_the_voyage_of_alyn_oakenfist.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) Laena and her parents departed soon after to return to [Driftmark](wiki:Driftmark).(wiki:Laena_Velaryon_(daughter_of_Alyn).cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+
+Laena had been presented a [dragon egg](wiki:Dragon_egg) upon her birth. At [Driftmark](wiki:Driftmark) in [135 AC](wiki:135_AC), it hatched a blind and wingless [wyrm](wiki:Wyrm), white as a maggot. After the monster tore a bloody chunk from young Laena's arm, Alyn Oakenfist hacked it to pieces.(wiki:Laena_Velaryon_(daughter_of_Alyn).cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+
+### Family

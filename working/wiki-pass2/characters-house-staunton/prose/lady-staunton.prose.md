@@ -1,0 +1,3 @@
+## Origins
+
+After the execution of her [husband](wiki:Lord_Staunton) at the [Battle of Rook's Rest](wiki:Battle_of_Rook's_Rest), Lady Staunton took charge of House Staunton. During the [Hour of the Wolf](wiki:Hour_of_the_Wolf), when Lord [Cregan Stark](wiki:Cregan_Stark) and his [northmen](wiki:Northmen) took control of [King's Landing](wiki:King's_Landing) and secured the young king [Aegon III Targaryen](wiki:Aegon_III_Targaryen), she rode from [Duskendale](wiki:Duskendale) to [King's Landing](wiki:King's_Landing) with the armies of Ser [Corwyn Corbray](wiki:Corwyn_Corbray) and Lord [Clement Celtigar](wiki:Clement_Celtigar).(wiki:Lady_Staunton.cite_ref-Rfabaftermath_-_the_hour_of_the_wolf.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

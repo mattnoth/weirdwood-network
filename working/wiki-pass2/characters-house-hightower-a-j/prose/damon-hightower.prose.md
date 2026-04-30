@@ -1,0 +1,3 @@
+## Origins
+
+Damon was a grandson of Lord [Dorian Hightower](wiki:Dorian_Hightower), the first [Hightower](wiki:House_Hightower) to wed an [Andal](wiki:Andals) princess. Damon was the first Hightower to convert to the [Faith of the Seven](wiki:Faith_of_the_Seven), building the first [sept](wiki:Sept) in [Oldtown](wiki:Oldtown) and six elsewhere in the [Kingdom of the Reach](wiki:Kingdom_of_the_Reach). When Damon prematurely died of a bad belly, Septon [Robeson](wiki:Robeson) became regent for Damon's newborn son, [Triston](wiki:Triston_Hightower).(wiki:Damon_Hightower.cite_ref-Rtwoiafthe_reach:_oldtown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

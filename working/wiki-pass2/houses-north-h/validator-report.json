@@ -1,0 +1,8 @@
+{
+  "bucket_id": "houses-north-h",
+  "passed": true,
+  "checked_at": "2026-04-27T16:16:26Z",
+  "node_count_expected": 22,
+  "node_count_actual": 22,
+  "failures": []
+}

@@ -1,0 +1,41 @@
+{
+  "bucket_id": "characters-house-merlyn",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "3b2e9904acbeaed6881b350c199c583ba8e0d7ef4462ea4d40e0ab53c95d1264",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Manfryd Merlyn",
+    "Meldred Merlyn"
+  ],
+  "expected_nodes": [
+    "manfryd-merlyn.node.md",
+    "meldred-merlyn.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Manfryd Merlyn",
+      "Meldred Merlyn"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 2,
+      "tier_a": 0,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.872592+00:00",
+  "stage3_promoted_count": 2,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

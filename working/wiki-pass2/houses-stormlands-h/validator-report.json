@@ -1,0 +1,8 @@
+{
+  "bucket_id": "houses-stormlands-h",
+  "passed": true,
+  "checked_at": "2026-04-27T15:16:26Z",
+  "node_count_expected": 18,
+  "node_count_actual": 18,
+  "failures": []
+}

@@ -1,0 +1,30 @@
+---
+name: "Jon Piper"
+type: character.human
+slug: jon-piper
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Jon_Piper"
+bucket_id: characters-house-piper
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Jon Piper is a character.human from the AWOIAF wiki.
+
+## Edges
+
+- HOLDS_TITLE: Lord of Pinkmaiden Castle (track_b: Title)
+- SWORN_TO: House Piper (track_b: Allegiance)
+- CULTURE_OF: Rivermen (track_b: Culture)
+
+## Origins
+
+After declaring his uncle [Maegor I Targaryen](wiki:Maegor_I_Targaryen) a usurper and a tyrant, Prince [Aegon the Uncrowned](wiki:Aegon_Targaryen_(son_of_Aenys_I)) and Princess [Rhaena](wiki:Rhaena_Targaryen_(daughter_of_Aenys_I)) lost many of their supporters while they remained at [Casterly Rock](wiki:Casterly_Rock), as they left to bend the knee to Maegor at [King's Landing](wiki:King's_Landing). However, Lord Jon Piper, his brothers, and his sister [Melony](wiki:Melony_Piper), a friend and former favorite to Rhaena, arrived at [Lannisport](wiki:Lannisport) to swear the loyalty of House Piper.(wiki:Jon_Piper.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+
+After claiming their [dragons](wiki:Dragon), Aegon and Rhaena gathered their supporters at [Pinkmaiden Castle](wiki:Pinkmaiden_Castle). Lord Jon had pledged his sword to Aegon's cause, though many believed it was Melony that convinced her brother to rally under the prince. When Aegon's gathered host began marching on King's Landing, the Piper levies were not led by Lord Jon or his brothers, but by Melony, who died with the prince and many of the rebels at the [Battle Beneath the Gods Eye](wiki:Battle_Beneath_the_Gods_Eye) in [43 AC](wiki:43_AC), alongside three of her brothers.(wiki:Jon_Piper.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3) Jon's fate is unclear.(wiki:Jon_Piper.cite_ref-2)
+
+When King [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen) reclaimed the throne from his uncle Maegor, Dowager Queen [Alyssa Velaryon](wiki:Alyssa_Velaryon) argued for wedding the young king to a Piper, rewarding House Piper's loyalty to her late son Aegon.(wiki:Jon_Piper.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

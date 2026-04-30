@@ -1,0 +1,25 @@
+---
+name: "Prince of Dorne"
+type: title
+slug: prince-of-dorne
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Prince_of_Dorne"
+bucket_id: tier2-recovery
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Prince of Dorne is a title from the AWOIAF wiki.
+
+## Edges
+
+
+## Origins
+
+For thousands of years Dorne was a patchwork of petty [First Men](wiki:First_Men) and [Andal](wiki:Andal) kingdoms which included the [Kings of the Torrentine](wiki:Kings_of_the_Torrentine), the [Kings of Stone and Sky](wiki:Kings_of_Stone_and_Sky), and the different houses laying claim to the title of [High Kings of Dorne](wiki:High_Kings_of_Dorne). Sailing on [ten thousand ships](wiki:Ten_thousand_ships), Princess [Nymeria](wiki:Nymeria) led the [Rhoynar](wiki:Rhoynar) to southeastern Dorne. Nymeria married Lord [Mors Martell](wiki:Mors_Martell) of the [Sandship](wiki:Sandship), forming [House Nymeros Martell](wiki:House_Martell), and the Rhoynar intermarried with the bannermen of Mors. Nymeria named her husband "Prince of Dorne", using the Rhoynish term instead of the [Westerosi](wiki:Westeros) title of "[king](wiki:King)". The addition of Rhoynish power allowed the Martells to conquer Dorne in [Nymeria's War](wiki:Nymeria's_War), reducing the rival kings to vassals.(wiki:Prince_of_Dorne.cite_ref-Rtwoiafancient_history:_ten_thousand_ships.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
+
+Dorne successfully resisted [House Targaryen](wiki:House_Targaryen) during [Aegon's Conquest](wiki:Aegon's_Conquest) and [First Dornish War](wiki:First_Dornish_War).(wiki:Prince_of_Dorne.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)(wiki:Prince_of_Dorne.cite_ref-Rtwoiafdorne:_dorne_against_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) When Dorne was peacefully incorporated into the [Seven Kingdoms](wiki:Seven_Kingdoms) during the reign of [Daeron II Targaryen](wiki:Daeron_II_Targaryen), the [Dornishmen](wiki:Dornishmen) received concessions from the [Iron Throne](wiki:Iron_Throne), unlike the other [Great Houses](wiki:Great_Houses). Among these were the right to retain the Dornish royal title of prince, while the rulers of the other regions of the Seven Kingdoms had been reduced to [wardens](wiki:Warden) or [lords paramount](wiki:Lord_Paramount) during the Conquest and forced to give up their royal titles and crowns.(wiki:Prince_of_Dorne.cite_ref-Rtwoiafthe_targaryen_kings:_daeron_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)

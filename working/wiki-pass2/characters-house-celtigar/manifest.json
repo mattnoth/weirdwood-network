@@ -1,0 +1,60 @@
+{
+  "bucket_id": "characters-house-celtigar",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "871d6eda7c780b982d9a236beade2c0b65551c4703e3effcdabfff8b791321e6",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Alton Celtigar",
+    "Ardrian Celtigar",
+    "Arthor Celtigar",
+    "Clement Celtigar",
+    "Crispian Celtigar",
+    "Edwell Celtigar",
+    "Prudence Celtigar",
+    "Prunella Celtigar"
+  ],
+  "expected_nodes": [
+    "alton-celtigar.node.md",
+    "ardrian-celtigar.node.md",
+    "arthor-celtigar.node.md",
+    "clement-celtigar.node.md",
+    "crispian-celtigar.node.md",
+    "edwell-celtigar.node.md",
+    "prudence-celtigar.node.md",
+    "prunella-celtigar.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Ardrian Celtigar"
+    ],
+    "tier_b": [
+      "Alton Celtigar",
+      "Arthor Celtigar",
+      "Clement Celtigar",
+      "Crispian Celtigar",
+      "Edwell Celtigar",
+      "Prudence Celtigar",
+      "Prunella Celtigar"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 8,
+      "tier_a": 1,
+      "tier_b": 7,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.706039+00:00",
+  "stage3_promoted_count": 8,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

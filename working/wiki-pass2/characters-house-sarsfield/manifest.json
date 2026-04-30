@@ -1,0 +1,42 @@
+{
+  "bucket_id": "characters-house-sarsfield",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "90e66fb2ecdd3b20ddfa22e0120ab012009c6a829d64fa80d776f259b7f4b24f",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Melwyn Sarsfield",
+    "Pimply squire"
+  ],
+  "expected_nodes": [
+    "melwyn-sarsfield.node.md",
+    "pimply-squire.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Pimply squire"
+    ],
+    "tier_b": [
+      "Melwyn Sarsfield"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 2,
+      "tier_a": 1,
+      "tier_b": 1,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.960276+00:00",
+  "stage3_promoted_count": 2,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

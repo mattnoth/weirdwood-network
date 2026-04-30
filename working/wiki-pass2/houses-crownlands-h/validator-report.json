@@ -1,0 +1,8 @@
+{
+  "bucket_id": "houses-crownlands-h",
+  "passed": true,
+  "checked_at": "2026-04-27T03:18:45Z",
+  "node_count_expected": 24,
+  "node_count_actual": 24,
+  "failures": []
+}

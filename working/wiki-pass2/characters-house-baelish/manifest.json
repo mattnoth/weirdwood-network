@@ -1,0 +1,66 @@
+{
+  "bucket_id": "characters-house-baelish",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "eeeb00943299c9cbaa835fbac984785ce9f54b464a38f452f328d8660cdaf1d5",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Alayne Baelish",
+    "Baelish (hedge knight)",
+    "Bryen",
+    "Byron the Beautiful",
+    "Grisel",
+    "Kella",
+    "Lord Baelish (father of Petyr)",
+    "Morgarth the Merry",
+    "Petyr Baelish",
+    "Umfred"
+  ],
+  "expected_nodes": [
+    "alayne-baelish.node.md",
+    "baelish-hedge-knight.node.md",
+    "bryen.node.md",
+    "byron-the-beautiful.node.md",
+    "grisel.node.md",
+    "kella.node.md",
+    "lord-baelish-father-of-petyr.node.md",
+    "morgarth-the-merry.node.md",
+    "petyr-baelish.node.md",
+    "umfred.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Petyr Baelish"
+    ],
+    "tier_b": [
+      "Alayne Baelish",
+      "Baelish (hedge knight)",
+      "Bryen",
+      "Byron the Beautiful",
+      "Grisel",
+      "Kella",
+      "Lord Baelish (father of Petyr)",
+      "Morgarth the Merry",
+      "Umfred"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 10,
+      "tier_a": 1,
+      "tier_b": 9,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.641860+00:00",
+  "stage3_promoted_count": 10,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

@@ -1,0 +1,1976 @@
+{
+  "bucket_id": "houses-westerlands-h",
+  "tier": "core",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "House Lantell",
+      "raw_html_path": "sources/wiki/_raw/House_Lantell.json",
+      "track_b_row": {
+        "page": "House Lantell",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 21,
+          "source": "cite_ref",
+          "pov": "Brienne IV"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Lannisport",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Westerlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Lannister",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            21
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Lantell",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 21138
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Lefford",
+      "raw_html_path": "sources/wiki/_raw/House_Lefford.json",
+      "track_b_row": {
+        "page": "House Lefford",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 14,
+          "source": "cite_ref",
+          "pov": "The Soiled Knight"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Golden Tooth",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Alysanne Lefford",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "westerlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Lord of the Golden Tooth",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Lannister",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            33,
+            45
+          ],
+          "agot": [
+            62
+          ],
+          "affc": [
+            14
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Lefford",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 2,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 37789
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-tyrion-08",
+          "line": 249,
+          "context": "### Houses\nHouse Lannister, House Stark, House Frey, House Clegane, House Marbrand, House Lefford, House Lydden, House Serrett, House Crakehall, House Swyft, House Hornwood, House Karstark, House Cerw"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 255,
+          "context": "### Houses\nHouse Lannister, House Stark, House Tully, House Baratheon, House Tyrell, House Crakehall, House Swyft, House Clegane, House Marbrand, House Brax, House Lefford, House Piper, House Blackwoo"
+        }
+      ]
+    },
+    {
+      "page": "House Lorch",
+      "raw_html_path": "sources/wiki/_raw/House_Lorch.json",
+      "track_b_row": {
+        "page": "House Lorch",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 12,
+          "source": "cite_ref",
+          "pov": "Daenerys II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Lorent Lorch",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Westerlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Lannister",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            14,
+            30,
+            47
+          ],
+          "agot": [
+            12
+          ],
+          "asos": [
+            39,
+            53
+          ],
+          "affc": [
+            27
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Lorch",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 3,
+          "asos": 2,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 36046
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Lydden",
+      "raw_html_path": "sources/wiki/_raw/House_Lydden.json",
+      "track_b_row": {
+        "page": "House Lydden",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 16,
+          "source": "cite_ref",
+          "pov": "Samwell II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Deep Den",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Lewys Lydden",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Westerlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Lord of the Deep Den",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Lannister",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            56,
+            62
+          ],
+          "acok": [
+            30,
+            38,
+            65
+          ],
+          "affc": [
+            16
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Lydden",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 2,
+          "acok": 3,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 47806
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-tyrion-08",
+          "line": 249,
+          "context": "### Houses\nHouse Lannister, House Stark, House Frey, House Clegane, House Marbrand, House Lefford, House Lydden, House Serrett, House Crakehall, House Swyft, House Hornwood, House Karstark, House Cerw"
+        },
+        {
+          "chapter": "agot-tyrion-07",
+          "line": 262,
+          "context": "### Houses\nHouse Lannister, House Stark, House Tully, House Arryn, House Baratheon, House Brax, House Prester, House Crakehall, House Marbrand, House Lydden, House Blackwood, House Whent, House Frey, "
+        }
+      ]
+    },
+    {
+      "page": "House Marbrand",
+      "raw_html_path": "sources/wiki/_raw/House_Marbrand.json",
+      "track_b_row": {
+        "page": "House Marbrand",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 4,
+          "source": "cite_ref",
+          "pov": "Arya I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Ashemark",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Damon Marbrand",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Westerlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Lord of Ashemark",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Heir",
+            "target": "Addam Marbrand",
+            "edge_type": "HEIR_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Lannister",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            30,
+            56,
+            59,
+            62
+          ],
+          "asos": [
+            4,
+            38,
+            60,
+            66,
+            70,
+            72
+          ],
+          "acok": [
+            35,
+            45,
+            65
+          ],
+          "affc": [
+            8,
+            27,
+            33,
+            44
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Marbrand",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 4,
+          "acok": 3,
+          "asos": 6,
+          "affc": 4,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 81714
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-tyrion-08",
+          "line": 249,
+          "context": "### Houses\nHouse Lannister, House Stark, House Frey, House Clegane, House Marbrand, House Lefford, House Lydden, House Serrett, House Crakehall, House Swyft, House Hornwood, House Karstark, House Cerw"
+        },
+        {
+          "chapter": "agot-tyrion-07",
+          "line": 262,
+          "context": "### Houses\nHouse Lannister, House Stark, House Tully, House Arryn, House Baratheon, House Brax, House Prester, House Crakehall, House Marbrand, House Lydden, House Blackwood, House Whent, House Frey, "
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 250,
+          "context": "### Houses\nHouse Stark, House Tully, House Frey, House Lannister, House Bolton, House Karstark, House Umber, House Glover, House Tallhart, House Manderly, House Arryn, House Baratheon, House Blackwood"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 255,
+          "context": "### Houses\nHouse Lannister, House Stark, House Tully, House Baratheon, House Tyrell, House Crakehall, House Swyft, House Clegane, House Marbrand, House Brax, House Lefford, House Piper, House Blackwoo"
+        }
+      ]
+    },
+    {
+      "page": "House Moreland",
+      "raw_html_path": "sources/wiki/_raw/House_Moreland.json",
+      "track_b_row": {
+        "page": "House Moreland",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 16,
+          "source": "cite_ref",
+          "pov": "Samwell II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Robin Moreland",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Westerlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Lannister",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Founder",
+            "target": "Pate the Plowman",
+            "edge_type": "FOUNDED",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            16
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Moreland",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 26105
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Myatt",
+      "raw_html_path": "sources/wiki/_raw/House_Myatt.json",
+      "track_b_row": {
+        "page": "House Myatt",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 9,
+          "source": "cite_ref",
+          "pov": "Tyrion II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "westerlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Lannister",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            9
+          ],
+          "asos": [
+            50
+          ],
+          "affc": [
+            16
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Myatt",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 1,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 25721
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Parren",
+      "raw_html_path": "sources/wiki/_raw/House_Parren.json",
+      "track_b_row": {
+        "page": "House Parren",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Extinct",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Westerlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Lannister",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Parren",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 24827
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Payne",
+      "raw_html_path": "sources/wiki/_raw/House_Payne.json",
+      "track_b_row": {
+        "page": "House Payne",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 9,
+          "source": "cite_ref",
+          "pov": "Jaime I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Westerlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Lannister",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            11,
+            38,
+            59,
+            60
+          ],
+          "agot": [
+            15,
+            16,
+            43,
+            62,
+            65
+          ],
+          "affc": [
+            9,
+            14,
+            20,
+            27,
+            37,
+            42
+          ],
+          "acok": [
+            59,
+            60
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Payne",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 5,
+          "acok": 2,
+          "asos": 4,
+          "affc": 6,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 52214
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-tyrion-08",
+          "line": 249,
+          "context": "### Houses\nHouse Lannister, House Stark, House Frey, House Clegane, House Marbrand, House Lefford, House Lydden, House Serrett, House Crakehall, House Swyft, House Hornwood, House Karstark, House Cerw"
+        },
+        {
+          "chapter": "agot-sansa-03",
+          "line": 236,
+          "context": "### Houses\nHouse Stark, House Baratheon, House Lannister, House Dondarrion, House Tyrell, House Clegane, House Payne"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 244,
+          "context": "### Houses\nHouse Stark, House Baratheon, House Lannister, House Tyrell, House Darry, House Vance, House Piper, House Tully, House Royce, House Payne, House Clegane"
+        }
+      ]
+    },
+    {
+      "page": "House Peckledon",
+      "raw_html_path": "sources/wiki/_raw/House_Peckledon.json",
+      "track_b_row": {
+        "page": "House Peckledon",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 27,
+          "source": "cite_ref",
+          "pov": "Samwell III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Westerlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Lannister",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            38,
+            65
+          ],
+          "asos": [
+            66
+          ],
+          "affc": [
+            27,
+            33
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Peckledon",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 2,
+          "asos": 1,
+          "affc": 2,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 29783
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Plumm",
+      "raw_html_path": "sources/wiki/_raw/House_Plumm.json",
+      "track_b_row": {
+        "page": "House Plumm",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 12,
+          "source": "cite_ref",
+          "pov": "The Kraken's Daughter"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Philip Plumm",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Westerlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Heir",
+            "target": "Dennis Plumm",
+            "edge_type": "HEIR_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Lannister",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            57,
+            62
+          ],
+          "affc": [
+            12,
+            16,
+            30
+          ],
+          "adwd": [
+            57
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Plumm",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 2,
+          "affc": 3,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 73216
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Prester",
+      "raw_html_path": "sources/wiki/_raw/House_Prester.json",
+      "track_b_row": {
+        "page": "House Prester",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 30,
+          "source": "cite_ref",
+          "pov": "Sansa II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Feastfires",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Garrison Prester",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Westerlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Feastfires",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Lannister",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            30,
+            56
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Prester",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 2,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 38550
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-tyrion-07",
+          "line": 262,
+          "context": "### Houses\nHouse Lannister, House Stark, House Tully, House Arryn, House Baratheon, House Brax, House Prester, House Crakehall, House Marbrand, House Lydden, House Blackwood, House Whent, House Frey, "
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 255,
+          "context": "### Houses\nHouse Lannister, House Stark, House Tully, House Baratheon, House Tyrell, House Crakehall, House Swyft, House Clegane, House Marbrand, House Brax, House Lefford, House Piper, House Blackwoo"
+        }
+      ]
+    },
+    {
+      "page": "House Reyne",
+      "raw_html_path": "sources/wiki/_raw/House_Reyne.json",
+      "track_b_row": {
+        "page": "House Reyne",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 19,
+          "source": "cite_ref",
+          "pov": "Samwell I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Castamere",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Extinct",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Westerlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Lord of Castamere",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Lannister",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            19,
+            37,
+            39,
+            62,
+            72
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Reyne",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 5,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 69408
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Sarsfield",
+      "raw_html_path": "sources/wiki/_raw/House_Sarsfield.json",
+      "track_b_row": {
+        "page": "House Sarsfield",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 14,
+          "source": "cite_ref",
+          "pov": "The Soiled Knight"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Sarsfield",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Westerlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Lannister",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            38
+          ],
+          "asos": [
+            74
+          ],
+          "affc": [
+            14,
+            16,
+            27,
+            37
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Sarsfield",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 1,
+          "affc": 4,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 34550
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Sarwyck",
+      "raw_html_path": "sources/wiki/_raw/House_Sarwyck.json",
+      "track_b_row": {
+        "page": "House Sarwyck",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Riverspring",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Region",
+            "target": "Westerlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Lannister",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Sarwyck",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 11431
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Serrett",
+      "raw_html_path": "sources/wiki/_raw/House_Serrett.json",
+      "track_b_row": {
+        "page": "House Serrett",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 11,
+          "source": "cite_ref",
+          "pov": "Sansa"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Silverhill",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Serrett",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Westerlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Lannister",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            38
+          ],
+          "affc": [
+            11,
+            14
+          ],
+          "agot": [
+            62
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Serrett",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 1,
+          "asos": 0,
+          "affc": 2,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 32201
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-tyrion-08",
+          "line": 249,
+          "context": "### Houses\nHouse Lannister, House Stark, House Frey, House Clegane, House Marbrand, House Lefford, House Lydden, House Serrett, House Crakehall, House Swyft, House Hornwood, House Karstark, House Cerw"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 255,
+          "context": "### Houses\nHouse Lannister, House Stark, House Tully, House Baratheon, House Tyrell, House Crakehall, House Swyft, House Clegane, House Marbrand, House Brax, House Lefford, House Piper, House Blackwoo"
+        }
+      ]
+    },
+    {
+      "page": "House Spicer",
+      "raw_html_path": "sources/wiki/_raw/House_Spicer.json",
+      "track_b_row": {
+        "page": "House Spicer",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 14,
+          "source": "cite_ref",
+          "pov": "Arya II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Castamere",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Rolph Spicer",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "westerlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Lord of Castamere",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Heir",
+            "target": "Sybell Spicer",
+            "edge_type": "HEIR_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Lannister",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Founder",
+            "target": "Rolph Spicer",
+            "edge_type": "FOUNDED",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            14,
+            19,
+            20,
+            45,
+            51,
+            53,
+            62,
+            72
+          ],
+          "affc": [
+            36,
+            44
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Spicer",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 8,
+          "affc": 2,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 61329
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Stackspear",
+      "raw_html_path": "sources/wiki/_raw/House_Stackspear.json",
+      "track_b_row": {
+        "page": "House Stackspear",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 16,
+          "source": "cite_ref",
+          "pov": "Samwell II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Selmond Stackspear",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Westerlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Heir",
+            "target": "Steffon Stackspear",
+            "edge_type": "HEIR_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Lannister",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            16
+          ],
+          "acok": [
+            30
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Stackspear",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 38043
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Stilwood",
+      "raw_html_path": "sources/wiki/_raw/House_Stilwood.json",
+      "track_b_row": {
+        "page": "House Stilwood",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 30,
+          "source": "cite_ref",
+          "pov": "Tyrion VII"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Westerlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Lannister",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            30
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Stilwood",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 22044
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Swyft",
+      "raw_html_path": "sources/wiki/_raw/House_Swyft.json",
+      "track_b_row": {
+        "page": "House Swyft",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 7,
+          "source": "cite_ref",
+          "pov": "Arya I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Cornfield",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Harys Swyft",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Westerlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Knight of Cornfield",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Heir",
+            "target": "Steffon Swyft",
+            "edge_type": "HEIR_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Lannister",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            30,
+            38,
+            65
+          ],
+          "affc": [
+            7,
+            16,
+            17,
+            27,
+            37,
+            39,
+            43
+          ],
+          "agot": [
+            62,
+            69
+          ],
+          "asos": [
+            38
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Swyft",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 2,
+          "acok": 3,
+          "asos": 1,
+          "affc": 7,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 77821
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-tyrion-08",
+          "line": 249,
+          "context": "### Houses\nHouse Lannister, House Stark, House Frey, House Clegane, House Marbrand, House Lefford, House Lydden, House Serrett, House Crakehall, House Swyft, House Hornwood, House Karstark, House Cerw"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 255,
+          "context": "### Houses\nHouse Lannister, House Stark, House Tully, House Baratheon, House Tyrell, House Crakehall, House Swyft, House Clegane, House Marbrand, House Brax, House Lefford, House Piper, House Blackwoo"
+        }
+      ]
+    },
+    {
+      "page": "House Tarbeck",
+      "raw_html_path": "sources/wiki/_raw/House_Tarbeck.json",
+      "track_b_row": {
+        "page": "House Tarbeck",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 33,
+          "source": "cite_ref",
+          "pov": "Cersei VII"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Tarbeck Hall",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Extinct",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Westerlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Lord of Tarbeck Hall",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Lannister",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            33
+          ],
+          "asos": [
+            37,
+            44,
+            62
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Tarbeck",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 3,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 60901
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Turnberry",
+      "raw_html_path": "sources/wiki/_raw/House_Turnberry.json",
+      "track_b_row": {
+        "page": "House Turnberry",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 7,
+          "source": "cite_ref",
+          "pov": "Arya I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "westerlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Lannister",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            7,
+            16,
+            28,
+            39,
+            43
+          ],
+          "adwd": [
+            54
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Turnberry",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 5,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 29812
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Vikary",
+      "raw_html_path": "sources/wiki/_raw/House_Vikary.json",
+      "track_b_row": {
+        "page": "House Vikary",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 32,
+          "source": "cite_ref",
+          "pov": "Catelyn III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Lymond Vikary",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Westerlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Lannister",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            32
+          ],
+          "affc": [
+            37,
+            38
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Vikary",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 2,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 32113
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Westerling",
+      "raw_html_path": "sources/wiki/_raw/House_Westerling.json",
+      "track_b_row": {
+        "page": "House Westerling",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 11,
+          "source": "cite_ref",
+          "pov": "Davos II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Crag",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Gawen Westerling",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Westerlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Lord of the Crag",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Heir",
+            "target": "Rollam Westerling",
+            "edge_type": "HEIR_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Lannister",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "AGOT"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Stark",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "ASOS"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            11,
+            14,
+            19,
+            20,
+            45,
+            51,
+            53,
+            72
+          ],
+          "agot": [
+            63
+          ],
+          "acok": [
+            45
+          ],
+          "affc": [
+            33,
+            38,
+            44
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Westerling",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 1,
+          "asos": 8,
+          "affc": 3,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 86719
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-catelyn-10",
+          "line": 238,
+          "context": "### Houses\nHouse Stark, House Lannister, House Tully, House Frey, House Mormont, House Karstark, House Glover, House Umber, House Mallister, House Hornwood, House Manderly, House Flint, House Westerli"
+        }
+      ]
+    },
+    {
+      "page": "House Westford",
+      "raw_html_path": "sources/wiki/_raw/House_Westford.json",
+      "track_b_row": {
+        "page": "House Westford",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Mors Westford",
+            "edge_type": "RULES",
+            "direction": "forward",
+            "qualifier": "exiled to the Night's Watch"
+          },
+          {
+            "field": "Head",
+            "target": "Night's Watch",
+            "edge_type": "RULES",
+            "direction": "forward",
+            "qualifier": "exiled to the Night's Watch"
+          },
+          {
+            "field": "Region",
+            "target": "Westerlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Lannister",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Westford",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 9172
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Yarwyck",
+      "raw_html_path": "sources/wiki/_raw/House_Yarwyck.json",
+      "track_b_row": {
+        "page": "House Yarwyck",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 16,
+          "source": "cite_ref",
+          "pov": "Samwell II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Westerlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Lannister",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            16
+          ],
+          "asos": [
+            79
+          ],
+          "agot": [
+            48
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Yarwyck",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 0,
+          "asos": 1,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 24663
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Yew",
+      "raw_html_path": "sources/wiki/_raw/House_Yew.json",
+      "track_b_row": {
+        "page": "House Yew",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 44,
+          "source": "cite_ref",
+          "pov": "Cersei X"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Manfryd Yew",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Westerlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Lannister",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Founder",
+            "target": "Alan o' the Oak",
+            "edge_type": "FOUNDED",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            44
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Yew",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 28074
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "bucket_id": "characters-house-staedmon",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "bc70b322db67be46c953f86f0e9b1e3f12776474836f83681c019b9be01d626c",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Alesander Staedmon"
+  ],
+  "expected_nodes": [
+    "alesander-staedmon.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Alesander Staedmon"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 1,
+      "tier_a": 0,
+      "tier_b": 1,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.974040+00:00",
+  "stage3_promoted_count": 1,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

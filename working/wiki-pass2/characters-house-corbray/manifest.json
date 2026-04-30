@@ -1,0 +1,78 @@
+{
+  "bucket_id": "characters-house-corbray",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "548ea2f8e11189905b8dcec8b5f00e136283bc85b383c03b6e1111f0dc5bb539",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Baelish (sellsword)",
+    "Corwyn Corbray",
+    "Corwyn Corbray (lord)",
+    "Gawen Corbray",
+    "Gwayne Corbray",
+    "Jaime Corbray",
+    "Lady Corbray",
+    "Leowyn Corbray",
+    "Lord Corbray (father of Lyonel)",
+    "Lucas Corbray",
+    "Lyn Corbray",
+    "Lyonel Corbray",
+    "Qarl Corbray",
+    "Quenton Corbray"
+  ],
+  "expected_nodes": [
+    "baelish-sellsword.node.md",
+    "corwyn-corbray-lord.node.md",
+    "corwyn-corbray.node.md",
+    "gawen-corbray.node.md",
+    "gwayne-corbray.node.md",
+    "jaime-corbray.node.md",
+    "lady-corbray.node.md",
+    "leowyn-corbray.node.md",
+    "lord-corbray-father-of-lyonel.node.md",
+    "lucas-corbray.node.md",
+    "lyn-corbray.node.md",
+    "lyonel-corbray.node.md",
+    "qarl-corbray.node.md",
+    "quenton-corbray.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Lyn Corbray",
+      "Lyonel Corbray"
+    ],
+    "tier_b": [
+      "Baelish (sellsword)",
+      "Corwyn Corbray",
+      "Corwyn Corbray (lord)",
+      "Gawen Corbray",
+      "Gwayne Corbray",
+      "Jaime Corbray",
+      "Lady Corbray",
+      "Leowyn Corbray",
+      "Lord Corbray (father of Lyonel)",
+      "Lucas Corbray",
+      "Qarl Corbray",
+      "Quenton Corbray"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 14,
+      "tier_a": 2,
+      "tier_b": 12,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.721549+00:00",
+  "stage3_promoted_count": 14,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

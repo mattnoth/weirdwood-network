@@ -1,0 +1,53 @@
+{
+  "bucket_id": "characters-house-vance-of-atranta",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "8c90d12f531c43109037a4482b42f3dafc79461779c09cd979d1f9db6c93e206",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Ellery Vance",
+    "Hugo Vance",
+    "Jon Vance",
+    "Kirth Vance",
+    "Norbert Vance",
+    "Ronald Vance"
+  ],
+  "expected_nodes": [
+    "ellery-vance.node.md",
+    "hugo-vance.node.md",
+    "jon-vance.node.md",
+    "kirth-vance.node.md",
+    "norbert-vance.node.md",
+    "ronald-vance.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:56Z",
+    "tier_a": [],
+    "tier_b": [
+      "Ellery Vance",
+      "Hugo Vance",
+      "Jon Vance",
+      "Kirth Vance",
+      "Norbert Vance",
+      "Ronald Vance"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 6,
+      "tier_a": 0,
+      "tier_b": 6,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.016428+00:00",
+  "stage3_promoted_count": 6,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

@@ -1,0 +1,2013 @@
+{
+  "bucket_id": "characters-house-greyjoy-s-w",
+  "tier": "core",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Sigrin",
+      "raw_html_path": "sources/wiki/_raw/Sigrin.json",
+      "track_b_row": {
+        "page": "Sigrin",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 24,
+          "source": "cite_ref",
+          "pov": "Jon III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Mother",
+            "target": "Esgred",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [
+          "Sigrin the Shipwright"
+        ],
+        "cite_refs": {
+          "acok": [
+            24
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Sigrin",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 7487
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Skyte",
+      "raw_html_path": "sources/wiki/_raw/Skyte.json",
+      "track_b_row": {
+        "page": "Skyte",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 24,
+          "source": "cite_ref",
+          "pov": "Jon III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            24
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Skyte",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 6878
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Squint",
+      "raw_html_path": "sources/wiki/_raw/Squint.json",
+      "track_b_row": {
+        "page": "Squint",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 50,
+          "source": "cite_ref",
+          "pov": "Tyrion XI"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "299\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Winterfell",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            50
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Squint",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 6808
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Steffar Stammerer",
+      "raw_html_path": "sources/wiki/_raw/Steffar_Stammerer.json",
+      "track_b_row": {
+        "page": "Steffar Stammerer",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 63,
+          "source": "cite_ref",
+          "pov": "The Sacrifice"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Steffar Stammerer"
+        ],
+        "cite_refs": {
+          "adwd": [
+            63
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Steffar Stammerer",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 6714
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Stygg",
+      "raw_html_path": "sources/wiki/_raw/Stygg.json",
+      "track_b_row": {
+        "page": "Stygg",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 37,
+          "source": "cite_ref",
+          "pov": "Tyrion VIII"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            37,
+            46,
+            50,
+            56,
+            66
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Stygg",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 5,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 14075
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Sylas Sourmouth",
+      "raw_html_path": "sources/wiki/_raw/Sylas_Sourmouth.json",
+      "track_b_row": {
+        "page": "Sylas Sourmouth",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 11,
+          "source": "cite_ref",
+          "pov": "Davos I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Pyke",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "294\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Sylas Sourmouth"
+        ],
+        "cite_refs": {
+          "acok": [
+            11
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Sylas Sourmouth",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 7252
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Tess",
+      "raw_html_path": "sources/wiki/_raw/Tess.json",
+      "track_b_row": {
+        "page": "Tess",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward",
+            "qualifier": "forcibly"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Fair Isle",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "133\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Sunset sea",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Faircastle",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouse",
+            "target": "Dalton Greyjoy",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric",
+            "qualifier": "as a salt wife"
+          },
+          {
+            "field": "Spouse",
+            "target": "salt wife",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric",
+            "qualifier": "as a salt wife"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Tess",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 7975
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Theon Greyjoy",
+      "raw_html_path": "sources/wiki/_raw/Theon_Greyjoy.json",
+      "track_b_row": {
+        "page": "Theon Greyjoy",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 1,
+          "source": "cite_ref",
+          "pov": "Prologue"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Sea Bitch",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Prince of Winterfell",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of the Iron Islands",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "claimant"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Ironmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "278",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "279\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Pyke",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Iron Islands",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Balon Greyjoy",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Alannys Harlaw",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Lovers",
+            "target": "Barth's wife",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Lovers",
+            "target": "Kyra",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Lovers",
+            "target": "Bessa",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Lovers",
+            "target": "Miller's wife",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Lovers",
+            "target": "Captain's daughter",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [
+          "Prince of Fools",
+          "Theon Turncloak",
+          "The squid prince",
+          "Reek (III)",
+          "Rightful Lord of the Iron Islands",
+          "Theon Kinslayer",
+          "The Prince of Stink"
+        ],
+        "cite_refs": {
+          "acok": [
+            7,
+            11,
+            24,
+            35,
+            37,
+            46,
+            49,
+            50,
+            55,
+            56,
+            66,
+            69
+          ],
+          "adwd": [
+            12,
+            20,
+            26,
+            32,
+            35,
+            37,
+            41,
+            46,
+            51,
+            62,
+            69
+          ],
+          "agot": [
+            1,
+            4,
+            5,
+            8,
+            14,
+            20,
+            24,
+            37,
+            53,
+            55,
+            59,
+            63,
+            71
+          ],
+          "asos": [
+            19,
+            35,
+            45,
+            48,
+            49,
+            51,
+            55
+          ],
+          "affc": [
+            1,
+            11,
+            17
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Theon Greyjoy",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 13,
+          "acok": 12,
+          "asos": 7,
+          "affc": 3,
+          "adwd": 11
+        },
+        "has_infobox": true,
+        "byte_size": 214658
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 38,
+          "context": "| Robett Glover | Lord bannerman | Yes (uncertain \u2014 verify) | Present at the war council |\n| Theon Greyjoy | Ward/companion to Robb | No | Last to kneel; lingers when others leave; dismissed by Cately"
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 145,
+          "context": "6. **Reunion with Robb** \u2014 Catelyn restrains herself from embracing Robb in front of his lords, noting his new beard and increased height.\n7. **Lords pay respects** \u2014 Ser Helman Tallhart, the Glovers,"
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 234,
+          "context": "| Lord Wyman Manderly | Sworn to | Robb/House Stark | Sends his sons and levies to join Robb's host |\n| Theon Greyjoy | Ward of / companion to | Robb | Lingers after lords are dismissed; Catelyn speci"
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 235,
+          "context": "| Theon Greyjoy | Ward of / companion to | Robb | Lingers after lords are dismissed; Catelyn specifically sends him away |\n| Catelyn | Distrusts | Theon Greyjoy | \"You might even have sent Theon, thou"
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 263,
+          "context": "### Characters\nCatelyn Stark, Robb Stark, Grey Wind, Ser Brynden Tully (the Blackfish), Ser Wylis Manderly, Ser Wendel Manderly, Lord Wyman Manderly, Roose Bolton, Greatjon Umber, Ser Helman Tallhart,"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 78,
+          "context": "| Lord Manderly | Ned orders him to strengthen defenses at White Harbor | Ned |\n| Theon Greyjoy | Ned orders a careful watch kept over him; \"sore need of his father's fleet\" if war comes | Ned |\n| Bal"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 155,
+          "context": "21. **Catelyn warns about Varys's knowledge** \u2014 Ser Rodrik spoke to Ser Aron Santagar in secrecy but Varys learned of it anyway.\n22. **Ned instructs Catelyn to return to Winterfell** \u2014 Orders her to h"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 242,
+          "context": "| Catelyn | fears | Varys | \"I fear that man\" \u2014 his ability to learn secrets |\n| Ned | orders military preparation against | House Lannister | Fortify Moat Cailin, strengthen White Harbor, watch Theon"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 243,
+          "context": "| Ned | orders military preparation against | House Lannister | Fortify Moat Cailin, strengthen White Harbor, watch Theon Greyjoy |\n| Ned | watches cautiously | Theon Greyjoy | \"From this day on, I wa"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 261,
+          "context": "### Characters\nEddard Stark, Varys, Renly Baratheon, Petyr Baelish (Littlefinger), Grand Maester Pycelle, Catelyn Stark, Ser Rodrik Cassel, Vayon Poole, Robert Baratheon, Stannis Baratheon, Ser Barris"
+        },
+        {
+          "chapter": "agot-jon-09",
+          "line": 58,
+          "context": "| Aemon Targaryen | The old maester; Jon reflects on his three choices of honor; wonders if he stayed from weakness or strength | Jon (thoughts) |\n| Theon Greyjoy | Recalled bringing forth Ice at the "
+        },
+        {
+          "chapter": "agot-jon-09",
+          "line": 102,
+          "context": "| Longclaw | Jon deliberately left it on his bed \u2014 refuses to take it as a deserter; even Jorah Mormont didn't take the family sword when he fled | No | Left on Jon's bed in his cell at Castle Black |"
+        },
+        {
+          "chapter": "agot-jon-09",
+          "line": 241,
+          "context": "### Characters\nJon Snow, Ghost (direwolf), Samwell Tarly, Pyp, Grenn (the Aurochs), Halder, Toad, Matthar, Jeor Mormont (the Old Bear / Lord Commander), Mormont's raven, Three-Finger Hobb, Robb Stark,"
+        },
+        {
+          "chapter": "agot-bran-04",
+          "line": 37,
+          "context": "| Tyrion Lannister | Visitor | No | Brings saddle design for Bran; menaced by direwolves; declines Winterfell hospitality |\n| Theon Greyjoy | Attendant to Robb | No | Stands behind Robb; comments on w"
+        },
+        {
+          "chapter": "agot-bran-04",
+          "line": 155,
+          "context": "| Assembly | Robb | Seated in father's high seat | Center of great hall | |\n| Assembly | Theon Greyjoy, Hallis Mollen | Standing behind Robb | Behind the high seat | |\n| Assembly | Guardsmen (dozen) |"
+        },
+        {
+          "chapter": "agot-bran-04",
+          "line": 205,
+          "context": "| Tyrion | Robb | \"Your brother Jon asked it of me. And I have a tender spot in my heart for cripples and bastards and broken things.\" | Explaining his motives |\n| Theon Greyjoy | Tyrion | \"The wolves"
+        },
+        {
+          "chapter": "agot-bran-04",
+          "line": 244,
+          "context": "| Grey Wind | bond with | Rickon | Lopes ahead to cut Rickon off in play |\n| Theon Greyjoy | mocking | Tyrion | Comments on wolves not liking his smell; laughs at \"cripple\" quip |\n| Robb | spends time"
+        },
+        {
+          "chapter": "agot-bran-04",
+          "line": 245,
+          "context": "| Theon Greyjoy | mocking | Tyrion | Comments on wolves not liking his smell; laughs at \"cripple\" quip |\n| Robb | spends time with | Theon Greyjoy, Hallis Mollen | More time for them than for his brot"
+        },
+        {
+          "chapter": "agot-bran-04",
+          "line": 267,
+          "context": "### Characters\nBran Stark, Rickon Stark, Robb Stark, Old Nan, Hodor (Walder), Maester Luwin, Tyrion Lannister, Theon Greyjoy, Hallis Mollen, Yoren, Eddard Stark, Catelyn Stark, Jon Snow, Benjen Stark,"
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 30,
+          "context": "| Grey Wind | Minor | No | In the bow of the boat with Robb; frightens a guard at the water stair |\n| Theon Greyjoy | Supporting | No | Accompanies Robb; tells stories of the Whispering Wood in the Gr"
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 142,
+          "context": "|--------------|---------------------|-------|----------------------|-------|-------------------------------|\n| Theon's refreshment | | Horn of ale | Theon Greyjoy | Great Hall of Riverrun | Drinking "
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 244,
+          "context": "| Robb | companion of / bonded to | Grey Wind | Hand resting on Grey Wind's head in the boat |\n| Robb | allied with | Theon Greyjoy | Theon accompanies Robb; lifts Catelyn from boat |\n| Robb | declare"
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 276,
+          "context": "### Characters\nCatelyn Stark, Robb Stark, Grey Wind, Theon Greyjoy, Brynden Tully (the Blackfish), Edmure Tully, Hoster Tully, Tytos Blackwood, Jon Umber (the Greatjon), Rickard Karstark, Maege Mormon"
+        },
+        {
+          "chapter": "agot-catelyn-10",
+          "line": 33,
+          "context": "| Jaime Lannister | Enemy commander; captured | No | Rides into ambush; fights his way toward Robb; captured and brought before Catelyn |\n| Theon Greyjoy | Member of Robb's battle guard | No | Part of"
+        },
+        {
+          "chapter": "agot-catelyn-10",
+          "line": 160,
+          "context": "| Jaime fought his way toward Robb specifically, shouting for him | Robb, Galbart Glover | Catelyn, Robb, Glover | No |\n| Approximately 100 knights and a dozen lords bannermen captured | Theon Greyjoy"
+        },
+        {
+          "chapter": "agot-catelyn-10",
+          "line": 161,
+          "context": "| Approximately 100 knights and a dozen lords bannermen captured | Theon Greyjoy's report | Catelyn, Robb, Theon | No |\n| Named captives: Lord Westerling, Lord Banefort, Ser Garth Greenfield, Lord Est"
+        },
+        {
+          "chapter": "agot-catelyn-10",
+          "line": 179,
+          "context": "| Catelyn | Jaime | \"It is not your sword I want, ser. Give me my father and my brother Edmure. Give me my daughters. Give me my lord husband.\" | Demands return of her family |\n| Theon Greyjoy | Robb "
+        },
+        {
+          "chapter": "agot-catelyn-10",
+          "line": 206,
+          "context": "| Grey Wind | Bonded to / shadows | Robb | Prowls at Robb's heels; howls to trigger battle; fights alongside him |\n| Theon Greyjoy | Companion of / eager subordinate | Robb | Part of battle guard; urg"
+        },
+        {
+          "chapter": "agot-catelyn-10",
+          "line": 232,
+          "context": "### Characters\nCatelyn Stark, Robb Stark, Grey Wind, Hallis Mollen, Olyvar Frey, Jaime Lannister, Theon Greyjoy, Greatjon (Jon Umber), Galbart Glover, Maege Mormont, Dacey Mormont, Torrhen Karstark, E"
+        },
+        {
+          "chapter": "agot-catelyn-03",
+          "line": 32,
+          "context": "| Ser Rodrik Cassel | Master-at-arms | No | Identifies the Valyrian steel dagger, volunteers to accompany Catelyn south |\n| Theon Greyjoy | Ned's ward | No | Participates in discussion of the assassin"
+        },
+        {
+          "chapter": "agot-catelyn-03",
+          "line": 46,
+          "context": "| Ser Rodrik Cassel | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | Great white whiskers | \u2014 |\n| Theon Greyjoy | Dark | \u2014 | Lean | \u2014 | \u2014 | Blade at hip | Impetuous (Catelyn's observation) | Young |\n| Bran's direwolf | \u2014 | "
+        },
+        {
+          "chapter": "agot-catelyn-03",
+          "line": 119,
+          "context": "14. **Catelyn sleeps four days** \u2014 She wakes feeling resolute, ashamed of her prior behavior, resolved to be strong.\n15. **Council in Catelyn's chambers** \u2014 Robb, Ser Rodrik, Theon Greyjoy, and Hallis"
+        },
+        {
+          "chapter": "agot-catelyn-03",
+          "line": 179,
+          "context": "| Ser Rodrik | The group | \"The blade is Valyrian steel, the hilt dragonbone. A weapon like that has no business being in the hands of such as him. Someone gave it to him.\" | Identifying the dagger as"
+        },
+        {
+          "chapter": "agot-catelyn-03",
+          "line": 206,
+          "context": "| Ser Rodrik Cassel | Loyal retainer | Catelyn | Volunteers to accompany her south; investigates the dagger |\n| Theon Greyjoy | Ward, declares loyalty | Eddard Stark / House Stark | Calls Ned \"a secon"
+        },
+        {
+          "chapter": "agot-catelyn-03",
+          "line": 236,
+          "context": "- Ser Rodrik Cassel\n- Theon Greyjoy\n- Hallis (Hal) Mollen"
+        },
+        {
+          "chapter": "agot-bran-02",
+          "line": 53,
+          "context": "| Jory Cassel | Rode out with the hunt; couldn't climb as well as Bran | Bran (narration) |\n| Theon Greyjoy | Rode out with the hunt | Bran (narration) |\n| Ser Rodrik Cassel | Rode out with the hunt |"
+        },
+        {
+          "chapter": "agot-bran-02",
+          "line": 274,
+          "context": "### Characters\nBran Stark, Bran's direwolf (unnamed), Cersei Lannister, Jaime Lannister, Robert Baratheon, Joffrey Baratheon, Robb Stark, Jon Snow, Sansa Stark, Arya Stark, Rickon Stark, Benjen Stark,"
+        },
+        {
+          "chapter": "agot-bran-06",
+          "line": 48,
+          "context": "| Hallis Mollen | Guard captain | No | Carries the Stark banner; announces Bran formally at feast |\n| Theon Greyjoy | Ward/companion to Robb | No | Falls in beside Robb on departure; jokes about Lord "
+        },
+        {
+          "chapter": "agot-bran-06",
+          "line": 177,
+          "context": "17. **Bran tells Luwin he wants magic** \u2014 Bran says \"I want to learn magic. The crow promised that I would fly.\" Luwin offers maester training instead and dismisses Osha's warnings as folly.\n18. **Rob"
+        },
+        {
+          "chapter": "agot-bran-06",
+          "line": 273,
+          "context": "| Karstarks | kinship (distant) with | Starks | Old Nan says they have Stark blood going back hundreds of years |\n| Theon Greyjoy | companion to | Robb | Falls in at Robb's side at departure; jokes ab"
+        },
+        {
+          "chapter": "agot-bran-06",
+          "line": 292,
+          "context": "### Characters\nBran Stark, Robb Stark, Rickon Stark, Eddard Stark (Father), Catelyn Stark (Mother), Sansa Stark, Arya Stark, Brandon Stark (Ned's brother), Lord Rickard Stark (grandfather), Hodor, Mae"
+        },
+        {
+          "chapter": "agot-jon-01",
+          "line": 43,
+          "context": "| Jaime Lannister | Queen's brother, in procession | No (uncertain \u2014 verify) | Tall, golden, green eyes; crimson silk and black satin cloak; lion embroidered on tunic |\n| Theon Greyjoy | Eddard's ward"
+        },
+        {
+          "chapter": "agot-jon-01",
+          "line": 109,
+          "context": "1. **Jon drinks at the lower tables** \u2014 Jon sits among younger squires during the fourth hour of the welcoming feast, drinking summerwine freely, having been excluded from the family table by Lady Sta"
+        },
+        {
+          "chapter": "agot-jon-01",
+          "line": 199,
+          "context": "| Tyrion Lannister | resented by father | Tywin Lannister | \"My mother died birthing me, and he's never been sure\" |\n| Theon Greyjoy | ward of / ignores Jon | Eddard Stark / Jon Snow | Entered with Be"
+        },
+        {
+          "chapter": "agot-jon-01",
+          "line": 215,
+          "context": "### Characters\nJon Snow, Ghost (direwolf), Eddard (Ned) Stark, Catelyn Stark, Robb Stark, Sansa Stark, Arya Stark, Bran Stark, Rickon Stark, Robert Baratheon, Cersei Lannister, Joffrey Baratheon, Myrc"
+        },
+        {
+          "chapter": "agot-bran-01",
+          "line": 31,
+          "context": "| Jon Snow | Bran's bastard half-brother | Yes (uncertain \u2014 verify) | Advises Bran during execution; argues for keeping the pups; finds the sixth (albino) pup |\n| Theon Greyjoy | Ned's ward | Yes (unc"
+        },
+        {
+          "chapter": "agot-bran-01",
+          "line": 44,
+          "context": "| Jon Snow | Dark | Grey so dark they seemed almost black; \"there was little they did not see\" | Slender, graceful and quick | | | | Of an age with Robb but does not look alike; dark where Robb is fai"
+        },
+        {
+          "chapter": "agot-bran-01",
+          "line": 147,
+          "context": "| Ned Stark | Robb, Bran | \"If you want these pups, you will feed them yourselves.\" | Setting conditions for keeping the pups |\n| Theon Greyjoy | Jon | \"An albino. This one will die even faster than t"
+        },
+        {
+          "chapter": "agot-bran-01",
+          "line": 164,
+          "context": "| Jon Snow | Bastard son of | Eddard Stark | Called \"bastard brother\"; bears surname Snow; Ned is \"Father\" |\n| Theon Greyjoy | Ward of | Eddard Stark | Called \"his ward Theon Greyjoy\" explicitly |\n| J"
+        },
+        {
+          "chapter": "agot-bran-01",
+          "line": 173,
+          "context": "| Ned Stark | Regards thoughtfully | Jon Snow | \"Their lord father regarded Jon thoughtfully\" after Jon's self-exclusion |\n| Theon Greyjoy | Antagonistic toward | Jon Snow | Kicks severed head (Jon ca"
+        },
+        {
+          "chapter": "agot-bran-01",
+          "line": 174,
+          "context": "| Theon Greyjoy | Antagonistic toward | Jon Snow | Kicks severed head (Jon calls him \"ass\"); mocks the albino pup; Jon gives him \"a long, chilling look\" |\n| Robb Stark | Commands / asserts authority o"
+        },
+        {
+          "chapter": "agot-bran-01",
+          "line": 198,
+          "context": "- Jon Snow\n- Theon Greyjoy\n- Jory Cassel"
+        },
+        {
+          "chapter": "agot-bran-05",
+          "line": 13,
+          "context": "- **time_markers:** Bran has not been outside Winterfell since his fall; has been riding Dancer in the yard for a fortnight; the long summer is ending; Bran is eight years old; Robb is fifteen; the ra"
+        },
+        {
+          "chapter": "agot-bran-05",
+          "line": 29,
+          "context": "| Robb Stark | Bran's brother, acting lord | No | Fifteen years old; delivers news of Jory's death and Eddard's injury; fights the wildlings |\n| Theon Greyjoy | Ward of Winterfell, companion | No | Ca"
+        },
+        {
+          "chapter": "agot-bran-05",
+          "line": 48,
+          "context": "| Robb Stark | Auburn, grown shaggy and unkempt; reddish stubble on jaw | | | | Gloved hand; sword | Longsword | Looks older than his years due to stubble | Fifteen years old (almost a man grown) |\n| "
+        },
+        {
+          "chapter": "agot-bran-05",
+          "line": 223,
+          "context": "| Robb | Bonded to | Grey Wind | Whistles to summon Grey Wind; wolves obey his command to stand down |\n| Bran | Distrust / dislike | Theon Greyjoy | \"Bran had never warmed to his father's ward\"; feels"
+        },
+        {
+          "chapter": "agot-bran-05",
+          "line": 224,
+          "context": "| Bran | Distrust / dislike | Theon Greyjoy | \"Bran had never warmed to his father's ward\"; feels Greyjoy's eyes on him |\n| Robb | Apparent friendship but anger | Theon Greyjoy | Robb \"seemed to admir"
+        },
+        {
+          "chapter": "agot-bran-05",
+          "line": 254,
+          "context": "### Characters\nBran Stark, Robb Stark, Theon Greyjoy, Summer (direwolf), Grey Wind (direwolf), Maester Luwin, Joseth, Osha, Stiv, Hali, Wallen, Quent, Wayn, unnamed axe-man, unnamed sixth man, Eddard "
+        },
+        {
+          "chapter": "agot-eddard-01",
+          "line": 59,
+          "context": "| Balon Greyjoy | Self-proclaimed King of the Iron Islands; his rebellion was nine years ago; surrendered to Robert at his fallen stronghold | Ned (memory) |\n| Theon Greyjoy | Balon's son; taken by Ne"
+        },
+        {
+          "chapter": "agot-eddard-01",
+          "line": 209,
+          "context": "| Robert Baratheon | Plans to join houses with | Ned Stark | Proposes Joffrey-Sansa betrothal; \"we were meant to rule together\" |\n| Ned Stark | Took as hostage/ward | Theon Greyjoy | Ned took Balon Gr"
+        },
+        {
+          "chapter": "agot-eddard-01",
+          "line": 230,
+          "context": "### Characters\nEddard (Ned) Stark, Robert Baratheon, Cersei Lannister, Jaime Lannister, Sandor Clegane, Joffrey Baratheon, Tyrion Lannister, Catelyn Stark, Lyanna Stark, Brandon Stark, Rickard Stark, "
+        },
+        {
+          "chapter": "agot-arya-01",
+          "line": 41,
+          "context": "| Ser Rodrik Cassel | Supporting | No (uncertain \u2014 verify) | Master-at-arms of Winterfell |\n| Theon Greyjoy | Minor | No (uncertain \u2014 verify) | Standing beside Robb |\n| Sandor Clegane | Minor | Yes (u"
+        },
+        {
+          "chapter": "agot-arya-01",
+          "line": 60,
+          "context": "| Ser Rodrik Cassel | \u2014 | \u2014 | Great stout keg of a man | \u2014 | \u2014 | \u2014 | Magnificent white cheek whiskers | Old |\n| Theon Greyjoy | \u2014 | \u2014 | \u2014 | \u2014 | Black doublet emblazoned with the golden kraken of his H"
+        },
+        {
+          "chapter": "agot-arya-01",
+          "line": 120,
+          "context": "8. **Arya joins Jon at the window** \u2014 Arya and Nymeria find Jon and Ghost at a window in the covered bridge overlooking the practice yard. Nymeria and Ghost greet each other cautiously.\n9. **Bran and "
+        },
+        {
+          "chapter": "agot-arya-01",
+          "line": 124,
+          "context": "12. **Sandor Clegane confronts Ser Rodrik** \u2014 The burned man challenges Ser Rodrik's authority to deny the prince live steel, asking if he is \"training women.\" He claims he killed a man at twelve.\n13."
+        },
+        {
+          "chapter": "agot-arya-01",
+          "line": 137,
+          "context": "| Opening (yard) | Bran, Tommen | Sparring with padded swords | Practice yard, below the window | Under Ser Rodrik's watchful eye |\n| Opening (yard) | Robb, Theon Greyjoy | Spectating | Practice yard "
+        },
+        {
+          "chapter": "agot-arya-01",
+          "line": 202,
+          "context": "| Joffrey | disdain for | Robb / Starks | \"I grow tired of swatting at Starks with a play sword\"; insults on departure |\n| Theon Greyjoy | restrains / supports | Robb | Seized Robb's arm to keep him f"
+        },
+        {
+          "chapter": "agot-arya-01",
+          "line": 235,
+          "context": "- Ser Rodrik Cassel\n- Theon Greyjoy\n- Sandor Clegane"
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 31,
+          "context": "| Ser Brynden Tully (the Blackfish) | Scout commander, Catelyn's uncle | No | Commands outriders screening the host's movements |\n| Theon Greyjoy | Messenger from the Blackfish | No | Brings reports f"
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 73,
+          "context": "| Jaime Lannister (the Kingslayer) | Destroyed Edmure's host; besieging Riverrun | Ser Brynden, Lord Walder |\n| Ser Addam Marbrand | Commands Lannister outriders; pulling back south, burning as he goe"
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 167,
+          "context": "| Lord Walder has massed ~4,000 men at the Twins and not marched to Riverrun | Scout reports from the Blackfish | Catelyn, Robb, northern lords | No |\n| Ser Addam Marbrand commands Lannister outriders"
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 218,
+          "context": "| Ser Brynden Tully | serves as scout commander for | Robb | Takes 100 picked men to screen movements and scout |\n| Theon Greyjoy | serves as messenger for | Ser Brynden / Robb | Rides between the Bla"
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 244,
+          "context": "### Characters\nCatelyn Stark, Robb Stark, Grey Wind, Ser Brynden Tully (the Blackfish), Theon Greyjoy, Robett Glover, Galbart Glover, Greatjon Umber, Rickard Karstark, Roose Bolton, Helman Tallhart, S"
+        }
+      ]
+    },
+    {
+      "page": "Tom Tidewood",
+      "raw_html_path": "sources/wiki/_raw/Tom_Tidewood.json",
+      "track_b_row": {
+        "page": "Tom Tidewood",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 63,
+          "source": "cite_ref",
+          "pov": "The Sacrifice"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            63
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Tom Tidewood",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 4709
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Toron Greyjoy",
+      "raw_html_path": "sources/wiki/_raw/Toron_Greyjoy.json",
+      "track_b_row": {
+        "page": "Toron Greyjoy",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord Reaper of Pyke",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of the Iron Islands",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "127\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Dalton Greyjoy",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Toron Greyjoy",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 42196
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Torwyn Greyjoy",
+      "raw_html_path": "sources/wiki/_raw/Torwyn_Greyjoy.json",
+      "track_b_row": {
+        "page": "Torwyn Greyjoy",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord of the Iron Islands",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord Reaper of Pyke",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Torwyn Greyjoy",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 10977
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Tymor",
+      "raw_html_path": "sources/wiki/_raw/Tymor.json",
+      "track_b_row": {
+        "page": "Tymor",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 37,
+          "source": "cite_ref",
+          "pov": "Tyrion VIII"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "299\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Winterfell",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            37,
+            66
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Tymor",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 2,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 8526
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Ulf the Ill",
+      "raw_html_path": "sources/wiki/_raw/Ulf_the_Ill.json",
+      "track_b_row": {
+        "page": "Ulf the Ill",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 66,
+          "source": "cite_ref",
+          "pov": "Sansa VIII"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "299\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Winterfell",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            66
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Ulf the Ill",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 5466
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Uller",
+      "raw_html_path": "sources/wiki/_raw/Uller.json",
+      "track_b_row": {
+        "page": "Uller",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 24,
+          "source": "cite_ref",
+          "pov": "Jon III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            24
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Uller",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 5707
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Urrigon Greyjoy",
+      "raw_html_path": "sources/wiki/_raw/Urrigon_Greyjoy.json",
+      "track_b_row": {
+        "page": "Urrigon Greyjoy",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 1,
+          "source": "cite_ref",
+          "pov": "Prologue"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "268",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "270\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Pyke",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "283\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "284\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Pyke",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Quellon Greyjoy",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Sunderly",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [
+          "Urri"
+        ],
+        "cite_refs": {
+          "affc": [
+            1
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Urrigon Greyjoy",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 69152
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Urzen",
+      "raw_html_path": "sources/wiki/_raw/Urzen.json",
+      "track_b_row": {
+        "page": "Urzen",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 37,
+          "source": "cite_ref",
+          "pov": "Tyrion VIII"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            37,
+            50,
+            56,
+            66
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Urzen",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 4,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 13672
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Veron Greyjoy",
+      "raw_html_path": "sources/wiki/_raw/Veron_Greyjoy.json",
+      "track_b_row": {
+        "page": "Veron Greyjoy",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "114",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "130\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "130",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "133\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Greyjoy",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Farman",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric",
+            "qualifier": "salt wife"
+          },
+          {
+            "field": "Spouse",
+            "target": "salt wife",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric",
+            "qualifier": "salt wife"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Veron Greyjoy",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 32532
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Vickon Greyjoy",
+      "raw_html_path": "sources/wiki/_raw/Vickon_Greyjoy.json",
+      "track_b_row": {
+        "page": "Vickon Greyjoy",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord of the Iron Islands",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord Reaper of Pyke",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "33\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Goren Greyjoy",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Vickon Greyjoy",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 22655
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Victarion Greyjoy",
+      "raw_html_path": "sources/wiki/_raw/Victarion_Greyjoy.json",
+      "track_b_row": {
+        "page": "Victarion Greyjoy",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 1,
+          "source": "cite_ref",
+          "pov": "Prologue"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord Captain of the Iron Fleet",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Iron Victory",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "257",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "269\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Pyke",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Quellon Greyjoy",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Sunderly",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouses",
+            "target": "Unnamed",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric",
+            "qualifier": "salt wife"
+          },
+          {
+            "field": "Spouses",
+            "target": "salt wife",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric",
+            "qualifier": "salt wife"
+          },
+          {
+            "field": "Issue",
+            "target": "Stillborn daughter",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "The Iron Captain"
+        ],
+        "cite_refs": {
+          "affc": [
+            1,
+            18,
+            19,
+            20,
+            29,
+            29483
+          ],
+          "acok": [
+            11,
+            24,
+            46,
+            49,
+            50,
+            69
+          ],
+          "adwd": [
+            20,
+            56,
+            63
+          ],
+          "asos": [
+            45
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Victarion Greyjoy",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 6,
+          "asos": 1,
+          "affc": 6,
+          "adwd": 3
+        },
+        "has_infobox": true,
+        "byte_size": 141142
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Victarion Greyjoy's third wife",
+      "raw_html_path": "sources/wiki/_raw/Victarion_Greyjoy's_third_wife.json",
+      "track_b_row": {
+        "page": "Victarion Greyjoy's third wife",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 11,
+          "source": "cite_ref",
+          "pov": "Davos I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "297\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouse",
+            "target": "Victarion Greyjoy",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric",
+            "qualifier": "as a salt wife"
+          },
+          {
+            "field": "Spouse",
+            "target": "salt wife",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric",
+            "qualifier": "as a salt wife"
+          },
+          {
+            "field": "Issue",
+            "target": "unborn child",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            18,
+            29
+          ],
+          "acok": [
+            11
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Victarion Greyjoy's third wife",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 2,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 16975
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Wendamyr",
+      "raw_html_path": "sources/wiki/_raw/Wendamyr.json",
+      "track_b_row": {
+        "page": "Wendamyr",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 11,
+          "source": "cite_ref",
+          "pov": "Sansa"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Maester",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Citadel",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            11
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Wendamyr",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 9598
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Werlag",
+      "raw_html_path": "sources/wiki/_raw/Werlag.json",
+      "track_b_row": {
+        "page": "Werlag",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 37,
+          "source": "cite_ref",
+          "pov": "Tyrion VIII"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            37,
+            46,
+            66
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Werlag",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 3,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 5937
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Wulfe One-Ear",
+      "raw_html_path": "sources/wiki/_raw/Wulfe_One-Ear.json",
+      "track_b_row": {
+        "page": "Wulfe One-Ear",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 29,
+          "source": "cite_ref",
+          "pov": "Cersei VI"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Captain",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            29
+          ],
+          "adwd": [
+            56
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Wulfe One-Ear",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 15262
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

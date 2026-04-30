@@ -1,0 +1,72 @@
+{
+  "bucket_id": "characters-house-clegane",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "b27f790103c812076bd07068c49b90b6465afd379b7a697077b0c6fc5352c3f3",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Chiswyck",
+    "Clegane (father of Gregor and Sandor)",
+    "Clegane (founder)",
+    "Dunsen",
+    "Eggon",
+    "Gregor Clegane",
+    "Polliver",
+    "Rafford",
+    "Sandor Clegane",
+    "Shitmouth",
+    "Tickler",
+    "Tobbot"
+  ],
+  "expected_nodes": [
+    "chiswyck.node.md",
+    "clegane-father-of-gregor-and-sandor.node.md",
+    "clegane-founder.node.md",
+    "dunsen.node.md",
+    "eggon.node.md",
+    "gregor-clegane.node.md",
+    "polliver.node.md",
+    "rafford.node.md",
+    "sandor-clegane.node.md",
+    "shitmouth.node.md",
+    "tickler.node.md",
+    "tobbot.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Dunsen",
+      "Gregor Clegane",
+      "Polliver",
+      "Rafford",
+      "Sandor Clegane",
+      "Tickler"
+    ],
+    "tier_b": [
+      "Chiswyck",
+      "Clegane (father of Gregor and Sandor)",
+      "Clegane (founder)",
+      "Eggon",
+      "Shitmouth",
+      "Tobbot"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 12,
+      "tier_a": 6,
+      "tier_b": 6,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.712658+00:00",
+  "stage3_promoted_count": 12,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

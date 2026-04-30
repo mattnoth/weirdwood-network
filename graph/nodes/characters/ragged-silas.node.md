@@ -1,0 +1,28 @@
+---
+name: "Ragged Silas"
+type: character.human
+slug: ragged-silas
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Ragged_Silas"
+bucket_id: characters-other-q-r
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Ragged Silas is a character.human from the AWOIAF wiki.
+
+## Edges
+
+- SWORN_TO: Faith of the Seven (track_b: Allegiances)
+- SWORN_TO: Poor Fellows (track_b: Allegiances)
+- CULTURE_OF: Westerosi (track_b: Culture)
+
+## Origins
+
+Following the [Faith Militant](wiki:Faith_Militant)'s defeats in the battles at [Stonebridge](wiki:Battle_of_Stonebridge) and the [Great Fork of the Blackwater](wiki:Battle_at_the_Great_Fork) the previous year, new leaders arose across the [Seven Kingdoms](wiki:Seven_Kingdoms) in [43 AC](wiki:43_AC), one of which was Ragged Silas. He and his followers were hardly distinguishable from outlaws, ambushing royal forces then disappearing into the greenwood. [Smallfolk](wiki:Smallfolk) gave them aid wherever they went, while the [knights](wiki:Knight) and men-at-arms who were sent out to bring them to justice often disappeared.(wiki:Ragged_Silas.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+The exact region that Ragged Silas and his followers were active in hasn't been stated. Silas was still alive at the time of Maegor's death, but his ultimate fate has not been revealed.(wiki:Ragged_Silas.cite_ref-Rfabprince_into_king_-_the_ascension_of_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

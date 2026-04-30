@@ -1,0 +1,62 @@
+{
+  "bucket_id": "characters-house-tarbeck",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "198e4753b768802ccd03e1bd60a6cb4d3e7470e227df1295b7aa91c7cf01b1ff",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Adrian Tarbeck",
+    "Alyn Tarbeck",
+    "Cyrelle Tarbeck",
+    "Jocasta Lannister",
+    "Last Lord Tarbeck",
+    "Lord Tarbeck (son of Alyn)",
+    "Rohanne Tarbeck",
+    "Tion Tarbeck",
+    "Walderan Tarbeck"
+  ],
+  "expected_nodes": [
+    "adrian-tarbeck.node.md",
+    "alyn-tarbeck.node.md",
+    "cyrelle-tarbeck.node.md",
+    "jocasta-lannister.node.md",
+    "last-lord-tarbeck.node.md",
+    "lord-tarbeck-son-of-alyn.node.md",
+    "rohanne-tarbeck.node.md",
+    "tion-tarbeck.node.md",
+    "walderan-tarbeck.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Adrian Tarbeck",
+      "Alyn Tarbeck",
+      "Cyrelle Tarbeck",
+      "Jocasta Lannister",
+      "Last Lord Tarbeck",
+      "Lord Tarbeck (son of Alyn)",
+      "Rohanne Tarbeck",
+      "Tion Tarbeck",
+      "Walderan Tarbeck"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 9,
+      "tier_a": 0,
+      "tier_b": 9,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.994217+00:00",
+  "stage3_promoted_count": 9,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

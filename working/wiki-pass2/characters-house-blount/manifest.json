@@ -1,0 +1,38 @@
+{
+  "bucket_id": "characters-house-blount",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "cdf9de763a083023eb0df8a82fec08a82e17c3c94186e4190254de180acb18f0",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Boros Blount"
+  ],
+  "expected_nodes": [
+    "boros-blount.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Boros Blount"
+    ],
+    "tier_b": [],
+    "tier_c": [],
+    "stats": {
+      "total": 1,
+      "tier_a": 1,
+      "tier_b": 0,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.667701+00:00",
+  "stage3_promoted_count": 1,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

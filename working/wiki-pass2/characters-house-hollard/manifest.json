@@ -1,0 +1,51 @@
+{
+  "bucket_id": "characters-house-hollard",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "37f526a2959a703429a808d47b6de7b199e8bc96369143ccf2fb3e256af1b37e",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Dontos Hollard",
+    "Jon Hollard",
+    "Robin Hollard",
+    "Steffon Hollard",
+    "Symon Hollard"
+  ],
+  "expected_nodes": [
+    "dontos-hollard.node.md",
+    "jon-hollard.node.md",
+    "robin-hollard.node.md",
+    "steffon-hollard.node.md",
+    "symon-hollard.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Dontos Hollard"
+    ],
+    "tier_b": [
+      "Jon Hollard",
+      "Robin Hollard",
+      "Steffon Hollard",
+      "Symon Hollard"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 5,
+      "tier_a": 1,
+      "tier_b": 4,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.833407+00:00",
+  "stage3_promoted_count": 5,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

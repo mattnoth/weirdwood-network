@@ -1,0 +1,3 @@
+## Appearances & Description
+
+Merrell is a squire at the [Arbor](wiki:Arbor).(wiki:Merrell_Florent.cite_ref-Racokappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

@@ -1,0 +1,38 @@
+{
+  "bucket_id": "characters-house-harlaw-of-harridan-hill",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "cb57e7df207d8ecea48ddb2054bbe4d6a2cc47ab8f310f152d38768eae7f98ba",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Boremund Harlaw"
+  ],
+  "expected_nodes": [
+    "boremund-harlaw.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Boremund Harlaw"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 1,
+      "tier_a": 0,
+      "tier_b": 1,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.813232+00:00",
+  "stage3_promoted_count": 1,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

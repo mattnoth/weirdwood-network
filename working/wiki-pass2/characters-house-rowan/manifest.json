@@ -1,0 +1,63 @@
+{
+  "bucket_id": "characters-house-rowan",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "22c6faa39b680f0c09019035ef67c5d74bb8ee6831d6d35e136156f8af553772",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Jeyne Rowan",
+    "Mathis Rowan",
+    "Mathis Rowan's daughter",
+    "Nyles Rowan",
+    "Rhonda Rowan",
+    "Rickard Rowan",
+    "Robert Rowan",
+    "Rowan Gold-Tree",
+    "Thaddeus Rowan"
+  ],
+  "expected_nodes": [
+    "jeyne-rowan.node.md",
+    "mathis-rowan.node.md",
+    "mathis-rowans-daughter.node.md",
+    "nyles-rowan.node.md",
+    "rhonda-rowan.node.md",
+    "rickard-rowan.node.md",
+    "robert-rowan.node.md",
+    "rowan-gold-tree.node.md",
+    "thaddeus-rowan.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Mathis Rowan"
+    ],
+    "tier_b": [
+      "Jeyne Rowan",
+      "Mathis Rowan's daughter",
+      "Nyles Rowan",
+      "Rhonda Rowan",
+      "Rickard Rowan",
+      "Robert Rowan",
+      "Rowan Gold-Tree",
+      "Thaddeus Rowan"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 9,
+      "tier_a": 1,
+      "tier_b": 8,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.947497+00:00",
+  "stage3_promoted_count": 9,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

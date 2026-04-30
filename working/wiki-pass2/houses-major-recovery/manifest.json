@@ -1,0 +1,357 @@
+{
+  "bucket_id": "houses-major-recovery",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1-python",
+  "created_at": "2026-04-27T00:00:00Z",
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "pages": [
+    {
+      "page": "House Lannister",
+      "slug": "house-lannister"
+    },
+    {
+      "page": "House Greyjoy",
+      "slug": "house-greyjoy"
+    },
+    {
+      "page": "House Baratheon",
+      "slug": "house-baratheon"
+    },
+    {
+      "page": "House Frey",
+      "slug": "house-frey"
+    },
+    {
+      "page": "House Bolton",
+      "slug": "house-bolton"
+    },
+    {
+      "page": "House Mormont",
+      "slug": "house-mormont"
+    },
+    {
+      "page": "House Karstark",
+      "slug": "house-karstark"
+    },
+    {
+      "page": "Westeros",
+      "slug": "westeros"
+    },
+    {
+      "page": "North",
+      "slug": "north"
+    },
+    {
+      "page": "Reach",
+      "slug": "reach"
+    },
+    {
+      "page": "Riverlands",
+      "slug": "riverlands"
+    },
+    {
+      "page": "Vale of Arryn",
+      "slug": "vale-of-arryn"
+    },
+    {
+      "page": "Westerlands",
+      "slug": "westerlands"
+    },
+    {
+      "page": "Stormlands",
+      "slug": "stormlands"
+    },
+    {
+      "page": "Iron Islands",
+      "slug": "iron-islands"
+    },
+    {
+      "page": "Dorne",
+      "slug": "dorne"
+    },
+    {
+      "page": "Beyond the Wall",
+      "slug": "beyond-the-wall"
+    },
+    {
+      "page": "Crownlands",
+      "slug": "crownlands"
+    },
+    {
+      "page": "Free Cities",
+      "slug": "free-cities"
+    },
+    {
+      "page": "Slaver's Bay",
+      "slug": "slavers-bay"
+    },
+    {
+      "page": "Essos",
+      "slug": "essos"
+    },
+    {
+      "page": "Iron Throne",
+      "slug": "iron-throne"
+    },
+    {
+      "page": "Wall",
+      "slug": "wall"
+    },
+    {
+      "page": "Red Keep",
+      "slug": "red-keep"
+    },
+    {
+      "page": "Castle Black",
+      "slug": "castle-black"
+    },
+    {
+      "page": "Eastwatch-by-the-Sea",
+      "slug": "eastwatch-by-the-sea"
+    },
+    {
+      "page": "Shadow Tower",
+      "slug": "shadow-tower"
+    },
+    {
+      "page": "Great Sept of Baelor",
+      "slug": "great-sept-of-baelor"
+    },
+    {
+      "page": "Citadel",
+      "slug": "citadel"
+    },
+    {
+      "page": "Trident",
+      "slug": "trident"
+    },
+    {
+      "page": "Stepstones",
+      "slug": "stepstones"
+    },
+    {
+      "page": "Blackwater Rush",
+      "slug": "blackwater-rush"
+    },
+    {
+      "page": "Gods Eye",
+      "slug": "gods-eye"
+    },
+    {
+      "page": "Kingsroad",
+      "slug": "kingsroad"
+    },
+    {
+      "page": "Aegon I Targaryen",
+      "slug": "aegon-i-targaryen"
+    },
+    {
+      "page": "Aegon II Targaryen",
+      "slug": "aegon-ii-targaryen"
+    },
+    {
+      "page": "Aegon III Targaryen",
+      "slug": "aegon-iii-targaryen"
+    },
+    {
+      "page": "Aegon IV Targaryen",
+      "slug": "aegon-iv-targaryen"
+    },
+    {
+      "page": "Aegon V Targaryen",
+      "slug": "aegon-v-targaryen"
+    },
+    {
+      "page": "Aerys II Targaryen",
+      "slug": "aerys-ii-targaryen"
+    },
+    {
+      "page": "Aenys I Targaryen",
+      "slug": "aenys-i-targaryen"
+    },
+    {
+      "page": "Viserys I Targaryen",
+      "slug": "viserys-i-targaryen"
+    },
+    {
+      "page": "Daemon Targaryen",
+      "slug": "daemon-targaryen"
+    },
+    {
+      "page": "Corlys Velaryon",
+      "slug": "corlys-velaryon"
+    },
+    {
+      "page": "Gendry",
+      "slug": "gendry"
+    },
+    {
+      "page": "Gilly",
+      "slug": "gilly"
+    }
+  ],
+  "input_pages": [
+    "House Lannister",
+    "House Greyjoy",
+    "House Baratheon",
+    "House Frey",
+    "House Bolton",
+    "House Mormont",
+    "House Karstark",
+    "Westeros",
+    "North",
+    "Reach",
+    "Riverlands",
+    "Vale of Arryn",
+    "Westerlands",
+    "Stormlands",
+    "Iron Islands",
+    "Dorne",
+    "Beyond the Wall",
+    "Crownlands",
+    "Free Cities",
+    "Slaver's Bay",
+    "Essos",
+    "Iron Throne",
+    "Wall",
+    "Red Keep",
+    "Castle Black",
+    "Eastwatch-by-the-Sea",
+    "Shadow Tower",
+    "Great Sept of Baelor",
+    "Citadel",
+    "Trident",
+    "Stepstones",
+    "Blackwater Rush",
+    "Gods Eye",
+    "Kingsroad",
+    "Aegon I Targaryen",
+    "Aegon II Targaryen",
+    "Aegon III Targaryen",
+    "Aegon IV Targaryen",
+    "Aegon V Targaryen",
+    "Aerys II Targaryen",
+    "Aenys I Targaryen",
+    "Viserys I Targaryen",
+    "Daemon Targaryen",
+    "Corlys Velaryon",
+    "Gendry",
+    "Gilly"
+  ],
+  "expected_nodes": [
+    "house-lannister.node.md",
+    "house-greyjoy.node.md",
+    "house-baratheon.node.md",
+    "house-frey.node.md",
+    "house-bolton.node.md",
+    "house-mormont.node.md",
+    "house-karstark.node.md",
+    "westeros.node.md",
+    "north.node.md",
+    "reach.node.md",
+    "riverlands.node.md",
+    "vale-of-arryn.node.md",
+    "westerlands.node.md",
+    "stormlands.node.md",
+    "iron-islands.node.md",
+    "dorne.node.md",
+    "beyond-the-wall.node.md",
+    "crownlands.node.md",
+    "free-cities.node.md",
+    "slavers-bay.node.md",
+    "essos.node.md",
+    "iron-throne.node.md",
+    "wall.node.md",
+    "red-keep.node.md",
+    "castle-black.node.md",
+    "eastwatch-by-the-sea.node.md",
+    "shadow-tower.node.md",
+    "great-sept-of-baelor.node.md",
+    "citadel.node.md",
+    "trident.node.md",
+    "stepstones.node.md",
+    "blackwater-rush.node.md",
+    "gods-eye.node.md",
+    "kingsroad.node.md",
+    "aegon-i-targaryen.node.md",
+    "aegon-ii-targaryen.node.md",
+    "aegon-iii-targaryen.node.md",
+    "aegon-iv-targaryen.node.md",
+    "aegon-v-targaryen.node.md",
+    "aerys-ii-targaryen.node.md",
+    "aenys-i-targaryen.node.md",
+    "viserys-i-targaryen.node.md",
+    "daemon-targaryen.node.md",
+    "corlys-velaryon.node.md",
+    "gendry.node.md",
+    "gilly.node.md"
+  ],
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-27T00:00:00Z",
+    "tier_a": [
+      "House Lannister",
+      "House Greyjoy",
+      "House Baratheon",
+      "House Frey",
+      "House Bolton",
+      "House Mormont",
+      "House Karstark",
+      "Westeros",
+      "North",
+      "Reach",
+      "Riverlands",
+      "Vale of Arryn",
+      "Westerlands",
+      "Stormlands",
+      "Iron Islands",
+      "Dorne",
+      "Beyond the Wall",
+      "Crownlands",
+      "Free Cities",
+      "Slaver's Bay",
+      "Essos",
+      "Iron Throne",
+      "Wall",
+      "Red Keep",
+      "Castle Black",
+      "Eastwatch-by-the-Sea",
+      "Shadow Tower",
+      "Great Sept of Baelor",
+      "Citadel",
+      "Trident",
+      "Stepstones",
+      "Blackwater Rush",
+      "Gods Eye",
+      "Kingsroad",
+      "Aegon I Targaryen",
+      "Aegon II Targaryen",
+      "Aegon III Targaryen",
+      "Aegon IV Targaryen",
+      "Aegon V Targaryen",
+      "Aerys II Targaryen",
+      "Aenys I Targaryen",
+      "Viserys I Targaryen",
+      "Daemon Targaryen",
+      "Corlys Velaryon",
+      "Gendry",
+      "Gilly"
+    ],
+    "tier_b": [],
+    "tier_c": [],
+    "stats": {
+      "total": 46,
+      "tier_a": 46,
+      "tier_b": 0,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T05:34:32.231645+00:00",
+  "stage3_promoted_count": 27,
+  "stage3_skipped_count": 19,
+  "stage3_conflicted_count": 0
+}

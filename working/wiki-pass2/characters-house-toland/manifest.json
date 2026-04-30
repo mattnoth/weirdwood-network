@@ -1,0 +1,47 @@
+{
+  "bucket_id": "characters-house-toland",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "3e28f71ad24e386fd402754c51c01a0d1dc0948139af0244f76ede88fceb8777",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Nymella Toland",
+    "Teora Toland",
+    "Toman",
+    "Valena Toland"
+  ],
+  "expected_nodes": [
+    "nymella-toland.node.md",
+    "teora-toland.node.md",
+    "toman.node.md",
+    "valena-toland.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Nymella Toland",
+      "Teora Toland",
+      "Toman",
+      "Valena Toland"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 4,
+      "tier_a": 0,
+      "tier_b": 4,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.003302+00:00",
+  "stage3_promoted_count": 4,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

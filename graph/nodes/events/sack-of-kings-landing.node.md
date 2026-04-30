@@ -1,0 +1,97 @@
+---
+name: "Sack of King's Landing"
+type: event.battle
+slug: sack-of-kings-landing
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Sack_of_King's_Landing"
+bucket_id: battles-p-s
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Sack of King's Landing is a event.battle from the AWOIAF wiki.
+
+## Edges
+
+- FIGHTS_IN: Robert's Rebellion (track_b: Conflict)
+- DEFEATS: Lannister (track_b: Result)
+- DEFEATS: Jaime Lannister (track_b: Result)
+- DEFEATS: Elia of Dorne (track_b: Result)
+
+## Origins
+
+The [Battle of the Trident](wiki:Battle_of_the_Trident) resulted in a loss for the loyalists. [Rhaegar Targaryen](wiki:Rhaegar_Targaryen), [Prince of Dragonstone](wiki:Prince_of_Dragonstone), was killed by [Robert Baratheon](wiki:Robert_I_Baratheon), [Lord of Storm's End](wiki:Lord_of_Storm's_End). Prince [Lewyn Martell](wiki:Lewyn_Martell) and Ser [Jonothor Darry](wiki:Jonothor_Darry), members of the [Kingsguard](wiki:Kingsguard) of [Aerys II Targaryen](wiki:Aerys_II_Targaryen), were also killed in the battle. Ser [Barristan Selmy](wiki:Barristan_Selmy), the third and last knight of the Kingsguard who had accompanied Rhaegar to the Trident, was a severely-wounded captive of the rebels.
+
+The loyalist army broke and ran, with the survivors fleeing back to [King's Landing](wiki:King's_Landing). Robert Baratheon had taken a wound from Rhaegar, and so gave command of the vanguard to Lord [Eddard Stark](wiki:Eddard_Stark) of [Winterfell](wiki:Winterfell), who chased the loyalists to the capital. There, King Aerys was located in the [Red Keep](wiki:Red_Keep), protected by several thousand loyalists.(wiki:Sack_of_King's_Landing.cite_ref-Ragot12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)(wiki:Sack_of_King's_Landing.cite_ref-Rasos37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) When news about Rhaegar's death arrived at King's Landing, Aerys sent his pregnant wife, Queen [Rhaella Targaryen](wiki:Rhaella_Targaryen), and their young son, Prince [Viserys](wiki:Viserys_Targaryen), to [Dragonstone](wiki:Dragonstone), their second stronghold, for safety. However, convinced that Lewyn and his ten thousand [Dornishmen](wiki:Dornishmen) had betrayed Rhaegar at the Trident, Aerys refused to allow Rhaegar's wife, Princess [Elia Martell](wiki:Elia_Martell) of [Dorne](wiki:Dorne), and Rhaegar's two young children, Princess [Rhaenys](wiki:Rhaenys_Targaryen_(daughter_of_Rhaegar)) and the infant Prince [Aegon](wiki:Aegon_Targaryen_(son_of_Rhaegar)), to go to Dragonstone as well. Instead, he kept them at the Red Keep as his hostages, to ensure the loyalty of Dorne.(wiki:Sack_of_King's_Landing.cite_ref-Rasos37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)(wiki:Sack_of_King's_Landing.cite_ref-Rtwoiafthe_fall_of_the_dragons:_the_end.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+
+Aerys had been preparing his [wildfire plot](wiki:Wildfire_plot) for a while prior to the Battle of the Trident. Three [pyromancers](wiki:Pyromancers)—[Rossart](wiki:Rossart), [Garigus](wiki:Garigus) and [Belis](wiki:Belis)—came and went day and night at the Red Keep, and Aerys's [Hand of the King](wiki:Hand_of_the_King), Lord [Qarlton Chelsted](wiki:Qarlton_Chelsted), eventually became suspicious. When he discovered Aerys's wildfire plot, Qarlton attempted to convince Aerys otherwise, by reasoning, jesting, threatening, and begging the king. Nothing could convince Aerys, however, so Chelsted resigned his office.(wiki:Sack_of_King's_Landing.cite_ref-Rasos37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2) For that, Aerys had Chelsted dipped in wildfire and burned alive.(wiki:Sack_of_King's_Landing.cite_ref-Rasos37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-3)(wiki:Sack_of_King's_Landing.cite_ref-Rasos11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)(wiki:Sack_of_King's_Landing.cite_ref-Raffc16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0) After the Trident, Aerys named Rossart as his new Hand.(wiki:Sack_of_King's_Landing.cite_ref-Rtwoiafthe_fall_of_the_dragons:_the_end.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
+
+## Narrative Arc
+
+### A Game of Thrones
+
+Lord [Eddard Stark](wiki:Eddard_Stark) repeats his disapproval of the Sack, Ser [Jaime Lannister](wiki:Jaime_Lannister)'s murder of King [Aerys II Targaryen](wiki:Aerys_II_Targaryen), and the deaths of Prince [Rhaegar Targaryen](wiki:Rhaegar_Targaryen)'s children, but King [Robert I Baratheon](wiki:Robert_I_Baratheon) considers the actions to have been necessary to end the war.(wiki:Sack_of_King's_Landing.cite_ref-Ragot12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-9)
+
+At the [inn at the crossroads](wiki:Inn_at_the_crossroads), [Marillion](wiki:Marillion) offers to sing to [Tywin Lannister](wiki:Tywin_Lannister) the lay of his father [Tywin's](wiki:Tywin_Lannister) great victory at [King's Landing](wiki:King's_Landing).(wiki:Sack_of_King's_Landing.cite_ref-Ragot28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-0)
+
+### A Clash of Kings
+
+Grand Maester [Pycelle](wiki:Pycelle) admits to Tyrion that he had convinced Aerys to open the gates of King's Landing for Tyrion's father, Lord Tywin. Pycelle had felt that the war had been lost after the death of Rhaegar. With Aerys mad, and Viserys and Aegon too young, Pycelle admits that he had hoped that Tywin would have been the new king.(wiki:Sack_of_King's_Landing.cite_ref-Racok25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-1)
+
+Ser [Amory Lorch](wiki:Amory_Lorch) is fed to a bear after the [fall of Harrenhal](wiki:Fall_of_Harrenhal).(wiki:Sack_of_King's_Landing.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-0)
+
+While in the [House of the Undying](wiki:House_of_the_Undying), [Daenerys Targaryen](wiki:Daenerys_Targaryen) sees a vision of [an old man](wiki:Aerys_II_Targaryen) telling [another](wiki:Rossart), "Let [him](wiki:Robert_I_Baratheon) be king over [charred bones and cooked meat](wiki:Wildfire_plot). Let him be the [king of ashes](wiki:Wildfire_plot)."(wiki:Sack_of_King's_Landing.cite_ref-Racok48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_32-0)
+
+### A Storm of Swords
+
+Jaime confides in [Brienne of Tarth](wiki:Brienne_Tarth) that he slew Lord [Rossart](wiki:Rossart) and King Aerys to prevent King's Landing from [burning](wiki:Wildfire_plot).(wiki:Sack_of_King's_Landing.cite_ref-Rasos37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-12)
+
+Lord [Tywin Lannister](wiki:Tywin_Lannister) tells his son Tyrion that he ordered the Sack to prove [House Lannister](wiki:House_Lannister)'s loyalty to [Robert Baratheon](wiki:Robert_I_Baratheon), the victor of the [Trident](wiki:Battle_of_the_Trident), and out of worry of what Aerys would do to Jaime, his bodyguard and hostage within the [Red Keep](wiki:Red_Keep). Tywin explains that while the deaths of Prince [Aegon](wiki:Aegon_Targaryen_(son_of_Rhaegar)) and Princess [Rhaenys](wiki:Rhaenys_Targaryen) were necessary, he had not expected Ser [Gregor Clegane](wiki:Gregor_Clegane) and Ser [Amory Lorch](wiki:Amory_Lorch) to be so brutal, nor for Gregor to rape and kill [Elia Martell](wiki:Elia_Martell).(wiki:Sack_of_King's_Landing.cite_ref-Rasos53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-3) However, Tywin's explanation for Elia's brother, Prince [Oberyn Martell](wiki:Oberyn_Martell), is that only Amory was responsible for the murders, an attempt by Amory to impress the future king, Robert.(wiki:Sack_of_King's_Landing.cite_ref-Rasos53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-4)
+
+Arrested for the death of King [Joffrey I Baratheon](wiki:Joffrey_Baratheon), Tyrion confirms for Oberyn that Gregor was involved in the murders of his kin.(wiki:Sack_of_King's_Landing.cite_ref-Rasos66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-0) Oberyn duels Gregor to avenge the deaths of his sister and her children, but the Red Viper is slain by the Mountain. During the [trial by combat](wiki:Trial_by_combat), the [poisoned](wiki:Poison) Gregor publicly admits to killing Elia and Aegon.(wiki:Sack_of_King's_Landing.cite_ref-Rasos70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-1) Tyrion kills Tywin and disappears from the Red Keep.(wiki:Sack_of_King's_Landing.cite_ref-Rasos77.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_34-0)
+
+### A Feast for Crows
+
+As thousands of nobles and smallfolk pay their respects to Tywin's body in the [Great Sept of Baelor](wiki:Great_Sept_of_Baelor), Jaime thinks that many are happy at his father's death, as King's Landing still remembers the Sack.(wiki:Sack_of_King's_Landing.cite_ref-Raffc8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_35-0)
+
+### A Dance with Dragons
+
+Ser [Balon Swann](wiki:Balon_Swann) delivers the [Mountain's skull](wiki:Mountain's_skull) to Oberyn's brother [Doran](wiki:Doran_Martell), the [Prince of Dorne](wiki:Prince_of_Dorne).(wiki:Sack_of_King's_Landing.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-1)
+
+[Illyrio Mopatis](wiki:Illyrio_Mopatis), [Varys](wiki:Varys), and the [Golden Company](wiki:Golden_Company) support [Young Griff](wiki:Aegon_Targaryen_(Young_Griff)), a youth claiming to be [Aegon Targaryen](wiki:Aegon_Targaryen_(son_of_Rhaegar)).(wiki:Sack_of_King's_Landing.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_36-0)(wiki:Sack_of_King's_Landing.cite_ref-Radwd61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_37-0) Varys allegedly smuggled the infant prince away to safety in the [Free Cities](wiki:Free_Cities), so that Gregor actually killed the so-called [pisswater prince](wiki:Pisswater_prince).(wiki:Sack_of_King's_Landing.cite_ref-Radwd22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_38-0)
+
+## Aftermath
+
+Lords [Eddard Stark](wiki:Eddard_Stark) and [Robert Baratheon](wiki:Robert_I_Baratheon) argued over the killing of Prince [Rhaegar Targaryen](wiki:Rhaegar_Targaryen)'s family. While Eddard believed it to have been unjustified murder, Robert had been satisfied with the deaths of Rhaegar's children, whom he described as "[dragonspawn](wiki:Dragon)". [Jon Arryn](wiki:Jon_Arryn), [Lord of the Eyrie](wiki:Lord_of_the_Eyrie), was not able to calm their anger, and Eddard rode south the next day to lift the [siege of Storm's End](wiki:Siege_of_Storm's_End) by [Mace Tyrell](wiki:Mace_Tyrell), [Lord of Highgarden](wiki:Lord_of_Highgarden). Afterwards, Eddard travelled with a small group to the [tower of joy](wiki:Tower_of_joy) in the [Red Mountains](wiki:Red_Mountains) of [Dorne](wiki:Dorne), where they [battled the three remaining Kingsguard knights of Aerys II](wiki:Combat_at_the_tower_of_joy) and found his sister [Lyanna Stark](wiki:Lyanna_Stark) dying. Only the grief Eddard and Robert shared over the death of Lyanna eventually reconciled them.(wiki:Sack_of_King's_Landing.cite_ref-Ragot12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)(wiki:Sack_of_King's_Landing.cite_ref-Ragot39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-0)(wiki:Sack_of_King's_Landing.cite_ref-Rawoiaflyanna_stark.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-0)
+
+Lord [Tywin Lannister](wiki:Tywin_Lannister) gave royalist survivors of the Sack, such as Ser [Jaremy Rykker](wiki:Jaremy_Rykker) and Ser [Alliser Thorne](wiki:Alliser_Thorne), the choice of joining the [Night's Watch](wiki:Night's_Watch) or being executed. Both knights chose the [Wall](wiki:Wall).(wiki:Sack_of_King's_Landing.cite_ref-Ragot21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-0)
+
+Robert was crowned before Eddard managed to lift the siege of Storm's End.(wiki:Sack_of_King's_Landing.cite_ref-Rasos36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-0) While Lord Stark had argued that Ser [Jaime Lannister](wiki:Jaime_Lannister) should be stripped of his white cloak and sent to the Wall, Robert listened to Lord Arryn's counsel instead.(wiki:Sack_of_King's_Landing.cite_ref-Rasos36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-1) At Robert's coronation, Jaime, [Varys](wiki:Varys), and [Pycelle](wiki:Pycelle) were forgiven for their crimes and taken into Robert's service.(wiki:Sack_of_King's_Landing.cite_ref-Racok55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-0) During the coronation feast, Robert joked to Jaime about the fact that he was being called "kingslayer".(wiki:Sack_of_King's_Landing.cite_ref-Rasos37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-10) In the days following the Sack, Jaime hunted down and killed [Belis](wiki:Belis) and [Garigus](wiki:Garigus), the two other pyromancers who had known about Aerys's [wildfire plot](wiki:Wildfire_plot). Garigus wept for mercy, and Belis attempted to bribe Jaime with gold in exchange for his life.(wiki:Sack_of_King's_Landing.cite_ref-Rasos37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-11)
+
+The deaths of [Elia Martell](wiki:Elia_Martell) and her children infuriated [House Martell](wiki:House_Martell). Prince [Oberyn Martell](wiki:Oberyn_Martell)'s attempts at another rebellion were stopped by his elder brother [Doran](wiki:Doran_Martell), [Prince of Dorne](wiki:Prince_of_Dorne), following Jon Arryn's visit to Dorne the year after Robert took the throne.(wiki:Sack_of_King's_Landing.cite_ref-Rasos53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-2)(wiki:Sack_of_King's_Landing.cite_ref-Rasos38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_27-0) Doran continued to plot a Targaryen restoration in secret,(wiki:Sack_of_King's_Landing.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-0) however, working closely together with Oberyn.(wiki:Sack_of_King's_Landing.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-0)
+
+## Quotes
+
+> **Eddard**: I expected to find the gates closed to us. **Robert**: Instead you found that our men had already taken the city. What of it? **Eddard**: Not our men. The lion of [Lannister](wiki:House_Lannister) flew over the ramparts, not [the crowned stag](wiki:House_Baratheon). And they had taken the city by treachery. **Robert**: Treachery was a coin the [Targaryens](wiki:House_Targaryen) knew well. [Lannister](wiki:Tywin_Lannister) paid them back in kind. It was no less than they deserved. I shall not trouble my sleep over it. **Eddard**: You were not there. There was no honor in that conquest.(wiki:Sack_of_King's_Landing.cite_ref-Ragot12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-10)
+>
+> —[Eddard Stark](wiki:Eddard_Stark) and [Robert I Baratheon](wiki:Robert_I_Baratheon)
+
+> **Pycelle**: All I did, I did for [House Lannister](wiki:House_Lannister). Always ... for years ... [your lord father](wiki:Tywin_Lannister), ask him, I was ever his true servant ... 'twas I who bid [Aerys](wiki:Aerys_II_Targaryen) open his gates ... **Tyrion**: So the Sack of King's Landing was your work as well? **Pycelle**: For the [realm](wiki:Seven_Kingdoms)! Once [Rhaegar](wiki:Rhaegar_Targaryen) died, [the war](wiki:Robert's_Rebellion) was done.(wiki:Sack_of_King's_Landing.cite_ref-Racok25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-2)
+>
+> —[Pycelle](wiki:Pycelle) and [Tyrion Lannister](wiki:Tyrion_Lannister)
+
+> I saw [King's Landing](wiki:King's_Landing) after the Sack. Babes were butchered that day as well, and old men, and children at play. More women were raped than you can count.(wiki:Sack_of_King's_Landing.cite_ref-Rasos23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-1)
+>
+> —[Jorah Mormont](wiki:Jorah_Mormont) to [Daenerys Targaryen](wiki:Daenerys_Targaryen)
+
+> Do you think the noble [Lord of Winterfell](wiki:Eddard_Stark) wanted to hear my feeble explanations? Such an honorable man. He only had to look at me to judge me guilty. By what right does [the wolf](wiki:House_Stark) judge [the lion](wiki:House_Lannister)? By what right?(wiki:Sack_of_King's_Landing.cite_ref-Rasos37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-13)
+>
+> —[Jaime Lannister](wiki:Jaime_Lannister) to [Brienne of Tarth](wiki:Brienne_of_Tarth)
+
+> [Justice](wiki:Laws_and_justice_of_the_Seven_Kingdoms) is in short supply this side of [the mountains](wiki:Red_Mountains). There has been none for [Elia](wiki:Elia_Martell), [Aegon](wiki:Aegon_Targaryen_(son_of_Rhaegar)), or [Rhaenys](wiki:Rhaenys_Targaryen_(daughter_of_Rhaegar)).(wiki:Sack_of_King's_Landing.cite_ref-Rasos66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-1)
+>
+> —[Oberyn Martell](wiki:Oberyn_Martell) to [Tyrion Lannister](wiki:Tyrion_Lannister)

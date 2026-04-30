@@ -1,0 +1,66 @@
+{
+  "bucket_id": "characters-house-yronwood",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "dea3fdc1658727539232474874206094fc3895afdd3f2ff8caf9478da93e7288",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Anders Yronwood",
+    "Archibald Yronwood",
+    "Cletus Yronwood",
+    "Edgar Yronwood",
+    "Gwyneth Yronwood",
+    "Gyles Yronwood",
+    "Kedry",
+    "Ormond Yronwood",
+    "Ynys Yronwood",
+    "Yoren Yronwood"
+  ],
+  "expected_nodes": [
+    "anders-yronwood.node.md",
+    "archibald-yronwood.node.md",
+    "cletus-yronwood.node.md",
+    "edgar-yronwood.node.md",
+    "gwyneth-yronwood.node.md",
+    "gyles-yronwood.node.md",
+    "kedry.node.md",
+    "ormond-yronwood.node.md",
+    "ynys-yronwood.node.md",
+    "yoren-yronwood.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:56Z",
+    "tier_a": [
+      "Archibald Yronwood"
+    ],
+    "tier_b": [
+      "Anders Yronwood",
+      "Cletus Yronwood",
+      "Edgar Yronwood",
+      "Gwyneth Yronwood",
+      "Gyles Yronwood",
+      "Kedry",
+      "Ormond Yronwood",
+      "Ynys Yronwood",
+      "Yoren Yronwood"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 10,
+      "tier_a": 1,
+      "tier_b": 9,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.050495+00:00",
+  "stage3_promoted_count": 10,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

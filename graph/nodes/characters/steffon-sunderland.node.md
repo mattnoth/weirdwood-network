@@ -1,0 +1,27 @@
+---
+name: "Steffon Sunderland"
+type: character.human
+slug: steffon-sunderland
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Steffon_Sunderland"
+bucket_id: characters-house-sunderland
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Steffon Sunderland is a character.human from the AWOIAF wiki.
+
+## Edges
+
+- HOLDS_TITLE: Lord of the Three Sisters (track_b: Title)
+- SWORN_TO: House Sunderland (track_b: Allegiance)
+- CULTURE_OF: Sistermen (track_b: Culture)
+- PARENT_OF: Two sons (track_b: Issue)
+
+## Origins
+
+During [Aegon's Conquest](wiki:Aegon's_Conquest) the lords of the [Three Sisters](wiki:Three_Sisters) declared their independence from King [Ronnel Arryn](wiki:Ronnel_Arryn_(king)), and installed Lady [Marla Sunderland](wiki:Marla_Sunderland), Steffon's older sister, as their queen. However, when the conquest was done and [House Arryn](wiki:House_Arryn) swore their allegiance to [House Targaryen](wiki:House_Targaryen), King Aegon I sent an army under the command of Ser [Warrick Manderly](wiki:Warrick_Manderly) and Queen [Visenya Targaryen](wiki:Visenya_Targaryen), which was tasked with putting [the rebellion](wiki:Sistermen's_Rebellion) down. The lords of the Sisters were not willing to face the queen's dragon [Vhagar](wiki:Vhagar), and deposed Queen Marla in favor of Steffon. Lord Steffon renewed his fealty to House Arryn and bent the knee to Queen Visenya. He had to give over two of his sons as hostages for his good behavior, one with the [Manderlys](wiki:House_Manderly) at [White Harbor](wiki:White_Harbor), the other to the [Eyrie](wiki:Eyrie) with the Arryns.(wiki:Steffon_Sunderland.cite_ref-Rfabreign_of_the_dragon_-_the_wars_of_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)

@@ -1,0 +1,75 @@
+---
+name: "Robett Glover"
+type: character.human
+slug: robett-glover
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Robett_Glover"
+bucket_id: characters-house-glover
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Robett Glover is a character.human from the AWOIAF wiki.
+
+## Edges
+
+- SWORN_TO: House Glover (track_b: Allegiance)
+- CULTURE_OF: Northmen (track_b: Culture)
+- BORN_AT: Deepwood Motte (track_b: Born)
+- SPOUSE_OF: Sybelle Locke (track_b: Spouse)
+- PARENT_OF: Gawen Glover (track_b: Issue)
+- PARENT_OF: Erena Glover (track_b: Issue)
+
+## Appearances & Description
+
+Robett is tall, with a deeply-lined face and brown-grey hair.(wiki:Robett_Glover.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) He wears mail beneath a red surcoat,(wiki:Robett_Glover.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) and his scarlet cloak is clasped with a silver brooch in the shape of a mailed fist.(wiki:Robett_Glover.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1) [Arya Stark](wiki:Arya_Stark) believes him to be a [lord](wiki:Lord) when she notices the proud way he holds his head and his whole bearing.(wiki:Robett_Glover.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
+
+## Narrative Arc
+
+### A Game of Thrones
+
+When [Robb Stark](wiki:Robb_Stark) calls his banners, both Robett and his brother [Galbart](wiki:Galbart_Glover) ride out from [Deepwood Motte](wiki:Deepwood_Motte), leaving it in the hands of Robett's wife, [Sybelle](wiki:Sybelle_Glover), and the castle's steward.(wiki:Robett_Glover.cite_ref-Racok16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) Robb's lord [bannermen](wiki:Bannermen) haggle over influence on military decisions at [Winterfell](wiki:Winterfell), with both Robett and Lord [Roose Bolton](wiki:Roose_Bolton) demanding a command. Notably, Robett does so with a jest and a smile while Lord Bolton is brusque.(wiki:Robett_Glover.cite_ref-Ragot53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
+
+At [Moat Cailin](wiki:Moat_Cailin), Robb and his bannermen consult on military tactics. [Greatjon Umber](wiki:Jon_Umber_(Greatjon)) argues for riding against the main [Lannister](wiki:House_Lannister) host led by Lord [Tywin Lannister](wiki:Tywin_Lannister) while Robett and Galbart, among others, suggest to attack Ser [Jaime Lannister](wiki:Jaime_Lannister)'s force besieging [Riverrun](wiki:Riverrun). When Lady [Catelyn Stark](wiki:Catelyn_Stark) arrives at Moat Cailin from [White Harbor](wiki:White_Harbor), Robett is among those kneeling before Catelyn to greet her. When she speaks with Robb alone, Catelyn names Robett as a possible candidate her son could have chosen to lead the northern army, if he had not decided to ride to war himself.(wiki:Robett_Glover.cite_ref-Ragot55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+
+Robett is accompanying Robb when news arrive from Ser [Brynden Tully](wiki:Brynden_Tully)'s outriders that Lord [Walder Frey](wiki:Walder_Frey) has gathered four thousand men at the [Twins](wiki:Twins) without any apparent indication of moving them south to relieve his besieged liege lord, [Hoster Tully](wiki:Hoster_Tully), at Riverrun. Robett asks Catelyn whether she believes that Walder will betray them to the Lannisters, receiving the answer that not even Walder himself might know what he is going to do.(wiki:Robett_Glover.cite_ref-Ragot59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+
+When Robb's army splits at the Twins after Walder and Catelyn negotiate an alliance, Robett becomes part of Lord Bolton's force that goes on to fight in the [battle on the Green Fork](wiki:Battle_on_the_Green_Fork) against Tywin's main host.(wiki:Robett_Glover.cite_ref-Ragot62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
+
+### A Clash of Kings
+
+Robett is in Lord [Roose Bolton](wiki:Roose_Bolton)'s camp when it is approached by [Vargo Hoat](wiki:Vargo_Hoat), leader of the [Brave Companions](wiki:Brave_Companions).(wiki:Robett_Glover.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+
+[Arya Stark](wiki:Arya_Stark) serves incognito at [Harrenhal](wiki:Harrenhal) during the [War of the Five Kings](wiki:War_of_the_Five_Kings). After Lord [Tywin Lannister](wiki:Tywin_Lannister) marches from the castle, Vargo brings in a group of ragged prisoners led by Robett and Ser [Aenys Frey](wiki:Aenys_Frey). Vargo claims they were captured when the Brave Companions repelled an attempt by Lord Bolton's forces to cross the [Trident](wiki:Trident). Ser [Amory Lorch](wiki:Amory_Lorch), left by Tywin as castellan of Harrenhal, orders that the captives be brought to a dungeon, ignoring a protest by Robett that they have been promised honorable treatment by Vargo.(wiki:Robett_Glover.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
+
+Recognizing them as northmen, Arya liberates the captives with the assistance of [Jaqen H'ghar](wiki:Jaqen_H'ghar), [Biter](wiki:Biter), and [Rorge](wiki:Rorge). Robett congratulates Jaqen on the trick of making the guards defenseless by burning them with hot soup, inquiring whether this was Vargo's idea. The Brave Companions had actually defected from the Lannisters to the [Starks](wiki:House_Stark), and Robett expected to be freed by Vargo's men, not the strangers with Arya. Rorge claims the three men are now Brave Companions, and Robett is disinterested when Arya identifies herself as "Weasel". Having infiltrated Harrenhal's walls, Robett's northmen join the Brave Companions in overpowering Amory's small Lannister garrison. Following the [fall of Harrenhal](wiki:Fall_of_Harrenhal), Robett is among those welcoming Roose Bolton the following evening.(wiki:Robett_Glover.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4) Robett rides out of the castle soon, leaving Arya not enough time to come to a decision whether she can trust him with her identity.(wiki:Robett_Glover.cite_ref-Racok64.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)
+
+Following Tywin's victory over [Stannis Baratheon](wiki:Stannis_Baratheon) in the [Battle of the Blackwater](wiki:Battle_of_the_Blackwater), Roose orders Robett to join with Ser [Helman Tallhart](wiki:Helman_Tallhart) and march on [Duskendale](wiki:Duskendale) in the [crownlands](wiki:Crownlands), rich lands hardly touched by the war so far. The Glovers' seat, [Deepwood Motte](wiki:Deepwood_Motte), has been [taken](wiki:Taking_of_Deepwood_Motte) by [Asha Greyjoy](wiki:Asha_Greyjoy)'s [ironborn](wiki:Ironborn) and Helman has lost his son [Benfred](wiki:Benfred_Tallhart), so Lord Bolton expects that the two will take their vengeance on Duskendale.(wiki:Robett_Glover.cite_ref-Racok64.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1)
+
+### A Storm of Swords
+
+Lord [Tywin Lannister](wiki:Tywin_Lannister) soon finds out about the march of a third of the northmen's strength on [Duskendale](wiki:Duskendale), led by Robett and Ser [Helman Tallhart](wiki:Helman_Tallhart). Tywin orders Lord [Randyll Tarly](wiki:Randyll_Tarly), who came into the [Lannister](wiki:House_Lannister) fold as result of the alliance struck with [House Tyrell](wiki:House_Tyrell), to march against them. He also commands Ser [Gregor Clegane](wiki:Gregor_Clegane) to move up the [kingsroad](wiki:Kingsroad) and cut off their retreat. When Tywin's son [Tyrion](wiki:Tyrion_Lannister) learns about this, he is surprised, as there seems nothing in Duskendale worth such a risk. Tyrion wonders whether [Robb Stark](wiki:Robb_Stark), [King in the North](wiki:King_in_the_North), has finally made a blunder, but his father tells him that it is not a matter he should concern himself with.(wiki:Robett_Glover.cite_ref-Rasos4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)
+
+The [battle at Duskendale](wiki:Battle_at_Duskendale) turns into a disaster for the northmen. The forces of Lord Tarly catch up with Robett's men outside Duskendale, trapping them against the [Blackwater Bay](wiki:Blackwater_Bay). Fighting breaks out with heavy losses on both sides, but the forces loyal to the [Iron Throne](wiki:Iron_Throne) prevail and Helman is among one thousand northmen killed. Robett leads a chaotic retreat towards [Harrenhal](wiki:Harrenhal), not expecting to be faced with the [Mountain's men](wiki:Mountain's_men) along the way.(wiki:Robett_Glover.cite_ref-Rasos19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0)
+
+When Robb learns about the defeat and Robett's capture, he is bewildered, wondering why his forces marched on Duskendale in the first place and how that campaign justified losing a third of his infantry. Robb intends to exchange Robett for [Martyn Lannister](wiki:Martyn_Lannister), who is the son of Tywin's brother [Kevan](wiki:Kevan_Lannister), as Martyn's twin brother [Willem](wiki:Willem_Lannister) has already been murdered by Lord [Rickard Karstark](wiki:Rickard_Karstark) while in captivity. It also provides an opportunity for Robb to rid himself of the concern that Martyn will be slaughtered by northmen as well.(wiki:Robett_Glover.cite_ref-Rasos35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0) Tywin agrees to Robb's offer and Robett is put on a ship at Duskendale while Martyn is handed over to the Lannisters at the [Golden Tooth](wiki:Golden_Tooth).(wiki:Robett_Glover.cite_ref-Rasos45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0)
+
+When Robb's host gathers at the [Twins](wiki:Twins) for Lord [Edmure Tully](wiki:Edmure_Tully)'s wedding, Robb meets with Lord [Roose Bolton](wiki:Roose_Bolton), commanding the remnants of Robb's foot. Robb tells Roose that Robett will have to answer for Duskendale when they meet again. Roose plays into Robb's mistaken belief that the campaign came on Robett's initiative, suggesting that Robett acted out of grief and fear for his wife and children when he heard that Deepwood had been taken by the ironborn.(wiki:Robett_Glover.cite_ref-Rasos49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0) Roose then betrays and murders Robb during the [Red Wedding](wiki:Red_Wedding).(wiki:Robett_Glover.cite_ref-Rasos51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0)
+
+### A Feast for Crows
+
+[Asha Greyjoy](wiki:Asha_Greyjoy) brings Robett's family as hostages when she sails from [Deepwood Motte](wiki:Deepwood_Motte) back to the [Iron Islands](wiki:Iron_Islands) for the [kingsmoot on Old Wyk](wiki:Kingsmoot_on_Old_Wyk) to be held after the death of her father, [Balon](wiki:Balon_Greyjoy).(wiki:Robett_Glover.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0)
+
+### A Dance with Dragons
+
+After [Euron Greyjoy](wiki:Euron_Greyjoy) is proclaimed [King of the Isles and the North](wiki:King_of_the_Isles_and_the_North) at the kingsmoot, Asha leaves Robett's children, [Gawen](wiki:Gawen_Glover) and [Erena](wiki:Erena_Glover), at [Ten Towers](wiki:Ten_Towers) and returns to [Deepwood Motte](wiki:Deepwood_Motte) with his wife, Lady [Sybelle Glover](wiki:Sybelle_Glover).(wiki:Robett_Glover.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-0)
+
+[Davos Seaworth](wiki:Davos_Seaworth), an envoy of [Stannis Baratheon](wiki:Stannis_Baratheon), learns that Robett arrived in [White Harbor](wiki:White_Harbor) after the prisoner exchange and tried to raise men. However, he had little success as Lord [Wyman Manderly](wiki:Wyman_Manderly) and White Harbor are reportedly weary of war.(wiki:Robett_Glover.cite_ref-Radwd9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-0) Publicly supporting King [Tommen I Baratheon](wiki:Tommen_Baratheon) and [House Frey](wiki:House_Frey), Wyman has Davos imprisoned in the [Wolf's Den](wiki:Wolf's_Den).(wiki:Robett_Glover.cite_ref-Radwd19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-0)
+
+A haggard Robett escorts [Davos Seaworth](wiki:Davos_Seaworth) to a secret meeting in the [New Castle](wiki:New_Castle) with Wyman, however, where the three discuss the possibility of White Harbor aligning itself with Stannis. Robett expresses his gratitude when he learns Stannis defeated Asha in the [fight by Deepwood Motte](wiki:Fight_by_Deepwood_Motte) and returned the castle to [House Glover](wiki:House_Glover). He has been teaching [Wex Pyke](wiki:Wex_Pyke), a survivor of the [sack of Winterfell](wiki:Sack_of_Winterfell), to read and write, which provides him and Wyman the information that Robb's younger brothers [Bran](wiki:Bran_Stark) and [Rickon Stark](wiki:Rickon_Stark) survived the sack as well, and that Rickon has gone to [Skagos](wiki:Skagos).(wiki:Robett_Glover.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)(wiki:Robett_Glover.cite_ref-Rawoiafrickon_stark.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-0)
+
+Robett claims he will join Stannis when Davos returns Rickon,(wiki:Robett_Glover.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3) and Sybelle supplies hunters and trackers to aid the king during his [march on Winterfell](wiki:March_on_Winterfell).(wiki:Robett_Glover.cite_ref-Radwd42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-0)

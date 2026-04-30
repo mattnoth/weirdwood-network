@@ -1,0 +1,45 @@
+{
+  "bucket_id": "characters-house-santagar",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "49b819959859527ee2365e6c9970f27362de8043f6a6d6440f3778b93ad382c1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Aron Santagar",
+    "Sylva Santagar",
+    "Symon Santagar"
+  ],
+  "expected_nodes": [
+    "aron-santagar.node.md",
+    "sylva-santagar.node.md",
+    "symon-santagar.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Aron Santagar"
+    ],
+    "tier_b": [
+      "Sylva Santagar",
+      "Symon Santagar"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 3,
+      "tier_a": 1,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.959655+00:00",
+  "stage3_promoted_count": 3,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

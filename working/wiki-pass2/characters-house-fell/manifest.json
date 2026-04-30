@@ -1,0 +1,50 @@
+{
+  "bucket_id": "characters-house-fell",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "24dee71209317d97a823ebb9175f7f1080b35a73bb35f0698682afa80320376a",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Harwood Fell",
+    "Lord Fell",
+    "Silveraxe Fell",
+    "Thurgood Fell",
+    "Willis Fell"
+  ],
+  "expected_nodes": [
+    "harwood-fell.node.md",
+    "lord-fell.node.md",
+    "silveraxe-fell.node.md",
+    "thurgood-fell.node.md",
+    "willis-fell.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Harwood Fell",
+      "Lord Fell",
+      "Silveraxe Fell",
+      "Thurgood Fell",
+      "Willis Fell"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 5,
+      "tier_a": 0,
+      "tier_b": 5,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.759407+00:00",
+  "stage3_promoted_count": 5,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

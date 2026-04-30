@@ -1,0 +1,38 @@
+{
+  "bucket_id": "characters-house-of-yunzak",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "18c32d91653d22355b11312d8e272da3fedebc1bbc01f5f39c33cf09e35c650f",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Yurkhaz zo Yunzak"
+  ],
+  "expected_nodes": [
+    "yurkhaz-zo-yunzak.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Yurkhaz zo Yunzak"
+    ],
+    "tier_b": [],
+    "tier_c": [],
+    "stats": {
+      "total": 1,
+      "tier_a": 1,
+      "tier_b": 0,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.900865+00:00",
+  "stage3_promoted_count": 1,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

@@ -1,0 +1,44 @@
+{
+  "bucket_id": "characters-house-vaith",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "10bb6778711e12a4cefe8bd2810ef93177111adca2dc0a20ac8ea2be79530bef",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Cassella Vaith",
+    "Daeron Vaith",
+    "Lord Vaith (father of Cassella)"
+  ],
+  "expected_nodes": [
+    "cassella-vaith.node.md",
+    "daeron-vaith.node.md",
+    "lord-vaith-father-of-cassella.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:56Z",
+    "tier_a": [],
+    "tier_b": [
+      "Cassella Vaith",
+      "Daeron Vaith",
+      "Lord Vaith (father of Cassella)"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 3,
+      "tier_a": 0,
+      "tier_b": 3,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.013630+00:00",
+  "stage3_promoted_count": 3,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

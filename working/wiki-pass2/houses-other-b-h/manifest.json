@@ -1,0 +1,159 @@
+{
+  "bucket_id": "houses-other-b-h",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "87a6e9720466a7395e59ad49723b68eda8aa2f411de0ddfe9af8268b2963888a",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Bearded priests",
+    "City Watch of King's Landing",
+    "Faith Militant",
+    "Golden Company",
+    "Holy Hundred",
+    "House Ahlaq",
+    "House Arryn guards",
+    "House Baelish of Harrenhal",
+    "House Baratheon of Storm's End",
+    "House Belaerys",
+    "House Belgrave",
+    "House Belmore",
+    "House Blackbrow",
+    "House Boggs (The Neck)",
+    "House Bolton guards",
+    "House Borrell",
+    "House Bourney",
+    "House Branfield",
+    "House Brightstone",
+    "House Brownbarrow",
+    "House Brownhill (Stormlands)",
+    "House Brune",
+    "House Brune of Brownhollow",
+    "House Brune of the Dyre Den",
+    "House Bullock",
+    "House Bush",
+    "House Caron",
+    "House Cassel/Theories",
+    "House Caulfield",
+    "House Celtigar"
+  ],
+  "expected_nodes": [
+    "bearded-priests.node.md",
+    "city-watch-of-kings-landing.node.md",
+    "faith-militant.node.md",
+    "golden-company.node.md",
+    "holy-hundred.node.md",
+    "house-ahlaq.node.md",
+    "house-arryn-guards.node.md",
+    "house-baelish-of-harrenhal.node.md",
+    "house-baratheon-of-storms-end.node.md",
+    "house-belaerys.node.md",
+    "house-belgrave.node.md",
+    "house-belmore.node.md",
+    "house-blackbrow.node.md",
+    "house-boggs-the-neck.node.md",
+    "house-bolton-guards.node.md",
+    "house-borrell.node.md",
+    "house-bourney.node.md",
+    "house-branfield.node.md",
+    "house-brightstone.node.md",
+    "house-brownbarrow.node.md",
+    "house-brownhill-stormlands.node.md",
+    "house-brune-of-brownhollow.node.md",
+    "house-brune-of-the-dyre-den.node.md",
+    "house-brune.node.md",
+    "house-bullock.node.md",
+    "house-bush.node.md",
+    "house-caron.node.md",
+    "house-cassel-theories.node.md",
+    "house-caulfield.node.md",
+    "house-celtigar.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:56Z",
+    "tier_a": [
+      "City Watch of King's Landing",
+      "Golden Company",
+      "House Arryn guards",
+      "House Bolton guards",
+      "House Brune of Brownhollow",
+      "House Caron",
+      "House Celtigar"
+    ],
+    "tier_b": [
+      "Bearded priests",
+      "Faith Militant",
+      "Holy Hundred",
+      "House Belaerys",
+      "House Belgrave",
+      "House Belmore",
+      "House Borrell",
+      "House Bourney",
+      "House Brightstone",
+      "House Brune",
+      "House Brune of the Dyre Den",
+      "House Bullock",
+      "House Bush",
+      "House Cassel/Theories"
+    ],
+    "tier_c": [
+      {
+        "page": "House Ahlaq",
+        "page_kind": "redirect",
+        "redirect_target": "House of Ahlaq"
+      },
+      {
+        "page": "House Baelish of Harrenhal",
+        "page_kind": "redirect",
+        "redirect_target": "House Baelish"
+      },
+      {
+        "page": "House Baratheon of Storm's End",
+        "page_kind": "redirect",
+        "redirect_target": "House Baratheon"
+      },
+      {
+        "page": "House Blackbrow",
+        "page_kind": "redirect"
+      },
+      {
+        "page": "House Boggs (The Neck)",
+        "page_kind": "redirect",
+        "redirect_target": "House Boggs (north)"
+      },
+      {
+        "page": "House Branfield",
+        "page_kind": "redirect"
+      },
+      {
+        "page": "House Brownbarrow",
+        "page_kind": "redirect"
+      },
+      {
+        "page": "House Brownhill (Stormlands)",
+        "page_kind": "redirect",
+        "redirect_target": "House Brownhill (stormlands)"
+      },
+      {
+        "page": "House Caulfield",
+        "page_kind": "redirect"
+      }
+    ],
+    "stats": {
+      "total": 30,
+      "tier_a": 7,
+      "tier_b": 14,
+      "tier_c": 9
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.297223+00:00",
+  "stage3_promoted_count": 21,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

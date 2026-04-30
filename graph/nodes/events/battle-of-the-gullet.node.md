@@ -1,0 +1,58 @@
+---
+name: "Battle of the Gullet"
+type: event.battle
+slug: battle-of-the-gullet
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Battle_of_the_Gullet"
+bucket_id: battles-b
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Battle of the Gullet is a event.battle from the AWOIAF wiki.
+
+## Edges
+
+- FIGHTS_IN: Dance of the Dragons (track_b: Conflict)
+- DEFEATS: Driftmark (track_b: Result)
+- DEFEATS: Triarchy (track_b: Result)
+
+## Origins
+
+[House Velaryon](wiki:House_Velaryon) blockaded the [Gullet](wiki:Gullet) and controlled access to [Blackwater Bay](wiki:Blackwater_Bay) at the start of the civil war. After the [assault on Harrenhal](wiki:Assault_on_Harrenhal) by Prince [Daemon Targaryen](wiki:Daemon_Targaryen) and further blows to the [greens](wiki:Greens), Ser [Otto Hightower](wiki:Otto_Hightower), the [Hand of the King](wiki:Hand_of_the_King) to [Aegon II Targaryen](wiki:Aegon_II_Targaryen), hatched a plan to break the [Velaryon fleet](wiki:Velaryon_fleet)'s blockade. Otto reached out across the [narrow sea](wiki:Narrow_sea) to enemies of Prince Daemon, the [Triarchy](wiki:Triarchy), hoping to persuade them to move against the Sea Snake, Lord [Corlys Velaryon](wiki:Corlys_Velaryon). Otto's plan took time and Aegon II eventually ran out of patience with his grandfather's prevarications, replacing him as Hand with Ser [Criston Cole](wiki:Criston_Cole).(wiki:Battle_of_the_Gullet.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+
+The schemes of Otto eventually bore fruit, as the [High Council of the Triarchy](wiki:High_Council_of_the_Triarchy) accepted his offer of alliance in [Tyrosh](wiki:Tyrosh). Ninety warships, commanded by Admiral [Sharako Lohar](wiki:Sharako_Lohar) of [Lys](wiki:Lys), swept from the [Stepstones](wiki:Stepstones) under the banners of the Three Daughters, bending their oars for the Gullet.(wiki:Battle_of_the_Gullet.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+
+Meanwhile on [Dragonstone](wiki:Dragonstone), it was decided by Prince [Jacaerys Velaryon](wiki:Jacaerys_Velaryon) that his half-brothers, Princes [Aegon](wiki:Aegon_III_Targaryen) and [Viserys Targaryen](wiki:Viserys_II_Targaryen), would be [fostered](wiki:Fosterage) with the [Prince of Pentos](wiki:Prince_of_Pentos) until their mother, Queen [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen), had secured the [Iron Throne](wiki:Iron_Throne). The princes departed on a [Pentoshi](wiki:Pentos) cog, the *[Gay Abandon](wiki:Gay_Abandon)*, towards the end of [129 AC](wiki:129_AC). The Sea Snake sent seven of his warships with them as escort.(wiki:Battle_of_the_Gullet.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+
+*Gay Abandon* encountered the Triarchy's fleet, which had sailed up to the Gullet. The *Gay Abandon* was taken captive and her escorts sunk or captured. Possessed only of a [dragon egg](wiki:Dragon_egg), Viserys had no way of escaping from the cog and was made captive by a [Tyroshi](wiki:Tyrosh) captain. Aegon escaped the *Gay Abandon* on his young [dragon](wiki:Dragon), [Stormcloud](wiki:Stormcloud). Sailors attempted to bring them down and Stormcloud was wounded by arrows and scorpion bolts. Nevertheless, they flew to Dragonstone, where Aegon delivered the news of the threat from the east. Stormcloud died at Dragonstone from his wounds.(wiki:Battle_of_the_Gullet.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+
+## Narrative Arc
+
+Battle began on the fifth day of the new year, [130 AC](wiki:130_AC).(wiki:Battle_of_the_Gullet.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8) [Sharako Lohar](wiki:Sharako_Lohar) divided the [Triarchy](wiki:Triarchy)'s ships into two squadrons entering the [Gullet](wiki:Gullet) to the north and south of [Dragonstone](wiki:Dragonstone). They attacked at sunrise, surprising [House Velaryon](wiki:House_Velaryon)'s fleet.(wiki:Battle_of_the_Gullet.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
+
+Flying on [Vermax](wiki:Vermax) to meet the fleet of the Triarchy, Prince [Jacaerys Velaryon](wiki:Jacaerys_Velaryon) swept down upon a line of [Lysene](wiki:Lys) galleys. The sailors had experience fighting Prince [Daemon Targaryen](wiki:Daemon_Targaryen) and his dragon, [Caraxes](wiki:Caraxes), during the [war for the Stepstones](wiki:War_for_the_Stepstones), so their captains directed their spears and arrows against Jacaerys. One ship caught on fire and then another, however. When Jacaerys was joined by [Ulf the White](wiki:Ulf_the_White) on [Silverwing](wiki:Silverwing), [Nettles](wiki:Nettles) on [Sheepstealer](wiki:Sheepstealer), [Addam Velaryon](wiki:Addam_Velaryon) on [Seasmoke](wiki:Seasmoke), and [Hugh Hammer](wiki:Hugh_Hammer) on [Vermithor](wiki:Vermithor), the line of warships from the [Free Cities](wiki:Free_Cities) shattered as one galley after another turned away.(wiki:Battle_of_the_Gullet.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
+
+Vermax flew too low, however, and crashed down into the sea, possibly wounded from a crossbow bolt to the eye or pulled down by a grapnel. Survivors said he struggled in the rigging of a burning galley and sank with it. Jacaerys leapt free, but was then killed by [Myrish](wiki:Myr) crossbowmen.(wiki:Battle_of_the_Gullet.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-11)
+
+North and south of Dragonstone, the battle continued into nighttime. The southern squadron bypassed Dragonstone, believing that it was too strong to assault, and instead attacked [Driftmark](wiki:Driftmark), setting afire the harbor of [Spicetown](wiki:Spicetown) with fire ships. The town was sacked, with its inhabitants butchered and left as carrion. [High Tide](wiki:High_Tide) and the treasures of Lord [Corlys Velaryon](wiki:Corlys_Velaryon) were burned by Myrish and [Tyroshi](wiki:Tyrosh) soldiers, with the Sea Snake's servants cut down as they fled.(wiki:Battle_of_the_Gullet.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-12)
+
+## Aftermath
+
+Thousands died from the battle, and [Spicetown](wiki:Spicetown) was never rebuilt. The Velaryon fleet lost almost a third of its strength. Prince [Jacaerys Velaryon](wiki:Jacaerys_Velaryon) and his dragon [Vermax](wiki:Vermax) were killed, and Prince [Viserys Targaryen](wiki:Viserys_II_Targaryen) was taken captive,(wiki:Battle_of_the_Gullet.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-13)(wiki:Battle_of_the_Gullet.cite_ref-Rtwoiaf_the_targaryen_kings:_aegon_iii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) but presumed dead by both sides. Prince Aegon the Younger never forgave himself for abandoning his little brother.(wiki:Battle_of_the_Gullet.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-14)
+
+[According](wiki:The_Testimony_of_Mushroom) to [Mushroom](wiki:Mushroom), [Hugh the Hammer](wiki:Hugh_Hammer) and [Ulf the White](wiki:Ulf_the_White) celebrated their participation. [Nettles](wiki:Nettles) and [Addam Velaryon](wiki:Addam_Velaryon) were heavily affected, with the latter seeking out the Sea Snake, though what they spoke to each other remains unknown.(wiki:Battle_of_the_Gullet.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-15) Many people on Dragonstone came to resent Queen [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen) for kin they had lost during the battle.(wiki:Battle_of_the_Gullet.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
+
+Only twenty-eight of the ninety ships commanded by [Sharako Lohar](wiki:Sharako_Lohar) returned home, and only three of those were not crewed by [Lyseni](wiki:Lys).(wiki:Battle_of_the_Gullet.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-16) The Gullet was considered a disaster by the Triarchy.(wiki:Battle_of_the_Gullet.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) The Myrish and Tyroshi widows accused Sharako of sending their fleets to destruction while holding back his own Lysene ships, thus beginning a quarrel that would eventually lead to the [Daughters' War](wiki:Daughters'_War).(wiki:Battle_of_the_Gullet.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-17) A disgraced Sharako discretely sold the captive Viserys to Magister [Bambarro Bazanne](wiki:Bambarro_Bazanne) of Lys.(wiki:Battle_of_the_Gullet.cite_ref-Rfabunder_the_regents_-_the_voyage_of_alyn_oakenfist.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+
+Ultimately the battle was very costly for both sides, and could be considered both a tactical victory for the greens and a strategic win for the blacks. Whereas the death of Prince Jacaerys deprived the blacks of one of their own commanders and Queen Rhaenyra of her eldest heir, the greens had failed in their main goal: to break the hold of the Velaryon fleet on the east coasts of Westeros. Moreover, the greens' allies in the southern Free Cities took such heavy losses that they played no further part in the war.(wiki:Battle_of_the_Gullet.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
+
+## Quotes
+
+> If this be victory, I pray I never win another.(wiki:Battle_of_the_Gullet.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-18)
+>
+> —[Corlys Velaryon](wiki:Corlys_Velaryon)

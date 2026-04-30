@@ -1,0 +1,81 @@
+{
+  "bucket_id": "characters-other-y-z",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "ba3af691fc863ca6cd46e7b74e4cf390f50cab5857f89a29a49224e9f69e4ff7",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Yna",
+    "Yoren",
+    "Yorick V Yronwood",
+    "Yorko Terys",
+    "Yorwyck VI Royce",
+    "Young Henly",
+    "Young John Mudd",
+    "Zahrina",
+    "Zarabelo",
+    "Zeggo",
+    "Zei",
+    "Zekko",
+    "Zhako",
+    "Zhea",
+    "Zollo"
+  ],
+  "expected_nodes": [
+    "yna.node.md",
+    "yoren.node.md",
+    "yorick-v-yronwood.node.md",
+    "yorko-terys.node.md",
+    "yorwyck-vi-royce.node.md",
+    "young-henly.node.md",
+    "young-john-mudd.node.md",
+    "zahrina.node.md",
+    "zarabelo.node.md",
+    "zeggo.node.md",
+    "zei.node.md",
+    "zekko.node.md",
+    "zhako.node.md",
+    "zhea.node.md",
+    "zollo.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:56Z",
+    "tier_a": [
+      "Yoren"
+    ],
+    "tier_b": [
+      "Yna",
+      "Yorick V Yronwood",
+      "Yorko Terys",
+      "Yorwyck VI Royce",
+      "Young Henly",
+      "Young John Mudd",
+      "Zahrina",
+      "Zarabelo",
+      "Zeggo",
+      "Zei",
+      "Zekko",
+      "Zhako",
+      "Zhea",
+      "Zollo"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 15,
+      "tier_a": 1,
+      "tier_b": 14,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.289020+00:00",
+  "stage3_promoted_count": 15,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

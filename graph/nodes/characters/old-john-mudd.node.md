@@ -1,0 +1,26 @@
+---
+name: "Old John Mudd"
+type: character.human
+slug: old-john-mudd
+aliases: ["Old John Mudd"]
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Old_John_Mudd"
+bucket_id: characters-other-n-o
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Old John Mudd is a character.human from the AWOIAF wiki.
+
+## Edges
+
+- SWORN_TO: Golden Company (track_b: Allegiance)
+- CULTURE_OF: Free Cities (track_b: Culture)
+- PARENT_OF: Young John Mudd (track_b: Issue)
+
+## Origins
+
+Old John's surname is of a house that had once loomed large in the histories of the [Seven Kingdoms](wiki:Seven_Kingdoms).(wiki:Old_John_Mudd.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) [House Mudd](wiki:House_Mudd) ruled as [Kings of the Rivers and the Hills](wiki:King_of_the_Trident) thousands of years ago until their line was extinguished with the death of King [Tristifer V Mudd](wiki:Tristifer_V_Mudd) at the hands of the [Andals](wiki:Andals).(wiki:Old_John_Mudd.cite_ref-Rasos45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) He may or may not have been of House Mudd, as in the free companies a man can call himself whatever he chooses, and not all were genuine.(wiki:Old_John_Mudd.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) Besides his son, [Young John Mudd](wiki:Young_John_Mudd),(wiki:Old_John_Mudd.cite_ref-Ar2_1-1) Old John may have been related to a serjeant in the company, [Lorimas Mudd](wiki:Lorimas_Mudd).(wiki:Old_John_Mudd.cite_ref-Radwdappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)

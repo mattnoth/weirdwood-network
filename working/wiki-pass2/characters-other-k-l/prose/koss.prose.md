@@ -1,0 +1,15 @@
+## Origins
+
+Koss had been arrested as a poacher.(wiki:Koss.cite_ref-Racok9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+
+## Narrative Arc
+
+### A Clash of Kings
+
+Moving north on the [kingsroad](wiki:Kingsroad), [Yoren](wiki:Yoren)'s band arrives at an inn with a bathhouse where a group of [gold cloaks](wiki:City_Watch_of_King’s_Landing) carrying an arrest warrant for [Gendry](wiki:Gendry) catches up with them. Yoren refuses to hand anyone over and the gold cloaks threaten to use force, prompting Yoren's band to announce their resistance, including Koss, who intends to use his longbow as weapon. In the end, the gold cloaks retreat without violence breaking out.(wiki:Koss.cite_ref-Racok5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+
+Avoiding the kingsroad after this encounter, the group moves west- and northwards on side roads in the direction of the [Gods Eye](wiki:Gods_Eye). Soon the food Yoren has brought north runs out and he turns to Koss and [Kurz](wiki:Kurz) to keep the group fed. They move ahead of the [column](wiki:Column) and return by dusk, bringing in [deer](wiki:Deer) or quails. One day, Koss comes across a camp of twenty to thirty armed men. Some of them are hurt bad and one is dying, making so much noise that Koss can get close without being noticed, spotting that the group has only one lame horse and a banner with a treecat, yellow and black, with a mud-brown field (suggesting they are fighting for [House Myatt](wiki:House_Myatt) and the [Lannisters](wiki:House_Lannister), although neither Koss nor Yoren can make the connection). He assumes the men have been there for a while, based on the stench of the place. He runs back to inform Yoren who decides it is better to avoid the camp and opts for a detour, costing the band two days.(wiki:Koss.cite_ref-Racok9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+
+The band arrives at the eastern side of [the river](wiki:Gods_Eye_river) running south from the Gods Eye and Koss is the first to spot a dead soldier in the water. That morning, he and Yoren go upriver searching a ford to cross the river while [Woth](wiki:Woth) and [Gerren](wiki:Gerren) search downstream, but they have no luck. They move on north to [a town](wiki:Gods_Eye_town) on the southern shore of the Gods Eye where Yoren intends to rent a boat for crossing the lake, but the town is deserted and no boats can be found. Koss suggests they could patch the bottom of a rotten rowboat they came across. Yoren decides to spend the night at the abandoned holdfast of the town and Koss again takes care of dinner, catching a goose and two chicken.(wiki:Koss.cite_ref-Racok14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+
+That night, the whole town is burned down by men under the command of Ser [Amory Lorch](wiki:Amory_Lorch). When they begin to attack the holdfast, Yoren assigns Koss and [Urreg](wiki:Urreg) the task of holding the postern. Later on, Koss kills four men attacking the gate with his bow and arrow. As the fort is overtaken, he tries to yield by dropping his blade but is cut down all the same.(wiki:Koss.cite_ref-Racok14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)

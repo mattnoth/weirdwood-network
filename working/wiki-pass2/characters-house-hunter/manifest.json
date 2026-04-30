@@ -1,0 +1,57 @@
+{
+  "bucket_id": "characters-house-hunter",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "452657f94be6c2bfb83fc7a70b964d34df7e450e37a3a26b9059613ef4b1d9fb",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Alec Hunter",
+    "Eon Hunter",
+    "Eustace Hunter",
+    "Gilwood Hunter",
+    "Harlan Hunter",
+    "Janyce Hunter",
+    "Teora Hunter"
+  ],
+  "expected_nodes": [
+    "alec-hunter.node.md",
+    "eon-hunter.node.md",
+    "eustace-hunter.node.md",
+    "gilwood-hunter.node.md",
+    "harlan-hunter.node.md",
+    "janyce-hunter.node.md",
+    "teora-hunter.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Eon Hunter"
+    ],
+    "tier_b": [
+      "Alec Hunter",
+      "Eustace Hunter",
+      "Gilwood Hunter",
+      "Harlan Hunter",
+      "Janyce Hunter",
+      "Teora Hunter"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 7,
+      "tier_a": 1,
+      "tier_b": 6,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.838719+00:00",
+  "stage3_promoted_count": 7,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

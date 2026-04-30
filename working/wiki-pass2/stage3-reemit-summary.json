@@ -1,0 +1,2590 @@
+{
+  "run_at": "2026-04-30T21:34:48Z",
+  "mode": "APPLY",
+  "scope_a": true,
+  "scope_b": true,
+  "results": [
+    {
+      "scope": "A",
+      "slug": "house-allyrion",
+      "page": "House Allyrion",
+      "current_edges": 6,
+      "fresh_edges": 6,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-arryn-of-gulltown",
+      "page": "House Arryn of Gulltown",
+      "current_edges": 4,
+      "fresh_edges": 3,
+      "edge_diff": 1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-arryn",
+      "page": "House Arryn",
+      "current_edges": 13,
+      "fresh_edges": 13,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-baelish",
+      "page": "House Baelish",
+      "current_edges": 10,
+      "fresh_edges": 11,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-bar-emmon",
+      "page": "House Bar Emmon",
+      "current_edges": 9,
+      "fresh_edges": 9,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-baratheon-of-dragonstone",
+      "page": "House Baratheon of Dragonstone",
+      "current_edges": 10,
+      "fresh_edges": 10,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-baratheon-of-kings-landing",
+      "page": "House Baratheon of King's Landing",
+      "current_edges": 9,
+      "fresh_edges": 11,
+      "edge_diff": -2,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-blackberry",
+      "page": "House Blackberry",
+      "current_edges": 3,
+      "fresh_edges": 3,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-blackfyre",
+      "page": "House Blackfyre",
+      "current_edges": 7,
+      "fresh_edges": 8,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-blackmont",
+      "page": "House Blackmont",
+      "current_edges": 7,
+      "fresh_edges": 7,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-blount",
+      "page": "House Blount",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-boggs",
+      "page": "House Boggs",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-breakstone",
+      "page": "House Breakstone",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-briar",
+      "page": "House Briar",
+      "current_edges": 2,
+      "fresh_edges": 4,
+      "edge_diff": -2,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-brook",
+      "page": "House Brook",
+      "current_edges": 2,
+      "fresh_edges": 4,
+      "edge_diff": -2,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-brownhill",
+      "page": "House Brownhill",
+      "current_edges": 2,
+      "fresh_edges": 4,
+      "edge_diff": -2,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-buckwell",
+      "page": "House Buckwell",
+      "current_edges": 4,
+      "fresh_edges": 5,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-byrch",
+      "page": "House Byrch",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-bywater",
+      "page": "House Bywater",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-cargyll",
+      "page": "House Cargyll",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-cave",
+      "page": "House Cave",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-chelsted",
+      "page": "House Chelsted",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-chyttering",
+      "page": "House Chyttering",
+      "current_edges": 3,
+      "fresh_edges": 3,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-corbray",
+      "page": "House Corbray",
+      "current_edges": 10,
+      "fresh_edges": 10,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-crabb",
+      "page": "House Crabb",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-crayne",
+      "page": "House Crayne",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-cressey",
+      "page": "House Cressey",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-dalt",
+      "page": "House Dalt",
+      "current_edges": 6,
+      "fresh_edges": 6,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-dargood",
+      "page": "House Dargood",
+      "current_edges": 2,
+      "fresh_edges": 2,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-darke",
+      "page": "House Darke",
+      "current_edges": 2,
+      "fresh_edges": 2,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-darklyn",
+      "page": "House Darklyn",
+      "current_edges": 9,
+      "fresh_edges": 10,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-darkwood",
+      "page": "House Darkwood",
+      "current_edges": 2,
+      "fresh_edges": 2,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-dayne-of-high-hermitage",
+      "page": "House Dayne of High Hermitage",
+      "current_edges": 6,
+      "fresh_edges": 5,
+      "edge_diff": 1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-dayne",
+      "page": "House Dayne",
+      "current_edges": 9,
+      "fresh_edges": 8,
+      "edge_diff": 1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-donniger",
+      "page": "House Donniger",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-drinkwater",
+      "page": "House Drinkwater",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-dryland",
+      "page": "House Dryland",
+      "current_edges": 4,
+      "fresh_edges": 5,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-dutton",
+      "page": "House Dutton",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-edgerton",
+      "page": "House Edgerton",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-egen",
+      "page": "House Egen",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-elesham",
+      "page": "House Elesham",
+      "current_edges": 4,
+      "fresh_edges": 5,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-farring",
+      "page": "House Farring",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-follard",
+      "page": "House Follard",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-fowler",
+      "page": "House Fowler",
+      "current_edges": 10,
+      "fresh_edges": 9,
+      "edge_diff": 1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-gargalen",
+      "page": "House Gargalen",
+      "current_edges": 5,
+      "fresh_edges": 5,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-gaunt",
+      "page": "House Gaunt",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-graceford",
+      "page": "House Graceford",
+      "current_edges": 5,
+      "fresh_edges": 5,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-grafton",
+      "page": "House Grafton",
+      "current_edges": 6,
+      "fresh_edges": 6,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-graves",
+      "page": "House Graves",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-grimm",
+      "page": "House Grimm",
+      "current_edges": 8,
+      "fresh_edges": 8,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-hardy",
+      "page": "House Hardy",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-hardyng",
+      "page": "House Hardyng",
+      "current_edges": 3,
+      "fresh_edges": 3,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-harte",
+      "page": "House Harte",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-hastwyck",
+      "page": "House Hastwyck",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-hayford",
+      "page": "House Hayford",
+      "current_edges": 5,
+      "fresh_edges": 5,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-hersy",
+      "page": "House Hersy",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-hewett",
+      "page": "House Hewett",
+      "current_edges": 7,
+      "fresh_edges": 8,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-hightower",
+      "page": "House Hightower",
+      "current_edges": 16,
+      "fresh_edges": 16,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-hoare",
+      "page": "House Hoare",
+      "current_edges": 9,
+      "fresh_edges": 10,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-hogg",
+      "page": "House Hogg",
+      "current_edges": 5,
+      "fresh_edges": 5,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-hollard",
+      "page": "House Hollard",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-holt-dorne",
+      "page": "House Holt (Dorne)",
+      "current_edges": 2,
+      "fresh_edges": 4,
+      "edge_diff": -2,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-hull",
+      "page": "House Hull",
+      "current_edges": 2,
+      "fresh_edges": 4,
+      "edge_diff": -2,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-humble",
+      "page": "House Humble",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-hunt",
+      "page": "House Hunt",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-hutcheson",
+      "page": "House Hutcheson",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-inchfield",
+      "page": "House Inchfield",
+      "current_edges": 2,
+      "fresh_edges": 2,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-ironmaker",
+      "page": "House Ironmaker",
+      "current_edges": 3,
+      "fresh_edges": 3,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-jordayne",
+      "page": "House Jordayne",
+      "current_edges": 7,
+      "fresh_edges": 7,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-kenning-of-harlaw",
+      "page": "House Kenning of Harlaw",
+      "current_edges": 4,
+      "fresh_edges": 3,
+      "edge_diff": 1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-kettleblack",
+      "page": "House Kettleblack",
+      "current_edges": 2,
+      "fresh_edges": 2,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-kidwell",
+      "page": "House Kidwell",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-ladybright",
+      "page": "House Ladybright",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-lake-dorne",
+      "page": "House Lake (Dorne)",
+      "current_edges": 2,
+      "fresh_edges": 4,
+      "edge_diff": -2,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-langward",
+      "page": "House Langward",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-lantell",
+      "page": "House Lantell",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-largent",
+      "page": "House Largent",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-lefford",
+      "page": "House Lefford",
+      "current_edges": 5,
+      "fresh_edges": 4,
+      "edge_diff": 1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-leygood",
+      "page": "House Leygood",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-lipps",
+      "page": "House Lipps",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-longwaters",
+      "page": "House Longwaters",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-lorch",
+      "page": "House Lorch",
+      "current_edges": 3,
+      "fresh_edges": 3,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-lowther",
+      "page": "House Lowther",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-lyberr",
+      "page": "House Lyberr",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-lychester",
+      "page": "House Lychester",
+      "current_edges": 5,
+      "fresh_edges": 5,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-lydden",
+      "page": "House Lydden",
+      "current_edges": 5,
+      "fresh_edges": 5,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-mallery",
+      "page": "House Mallery",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-mallister",
+      "page": "House Mallister",
+      "current_edges": 8,
+      "fresh_edges": 8,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-manning",
+      "page": "House Manning",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-manwoody",
+      "page": "House Manwoody",
+      "current_edges": 7,
+      "fresh_edges": 7,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-marbrand",
+      "page": "House Marbrand",
+      "current_edges": 6,
+      "fresh_edges": 6,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-massey",
+      "page": "House Massey",
+      "current_edges": 6,
+      "fresh_edges": 7,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-meadows",
+      "page": "House Meadows",
+      "current_edges": 7,
+      "fresh_edges": 7,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-melcolm",
+      "page": "House Melcolm",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-merlyn",
+      "page": "House Merlyn",
+      "current_edges": 5,
+      "fresh_edges": 5,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-merryweather",
+      "page": "House Merryweather",
+      "current_edges": 6,
+      "fresh_edges": 6,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-middlebury",
+      "page": "House Middlebury",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-moore",
+      "page": "House Moore",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-mooton",
+      "page": "House Mooton",
+      "current_edges": 8,
+      "fresh_edges": 8,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-moreland",
+      "page": "House Moreland",
+      "current_edges": 4,
+      "fresh_edges": 4,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-mudd",
+      "page": "House Mudd",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-mullendore",
+      "page": "House Mullendore",
+      "current_edges": 5,
+      "fresh_edges": 5,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-musgood",
+      "page": "House Musgood",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-myatt",
+      "page": "House Myatt",
+      "current_edges": 2,
+      "fresh_edges": 2,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-myre",
+      "page": "House Myre",
+      "current_edges": 3,
+      "fresh_edges": 3,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-nayland",
+      "page": "House Nayland",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-netley",
+      "page": "House Netley",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-norcross",
+      "page": "House Norcross",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-norridge",
+      "page": "House Norridge",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-nutt",
+      "page": "House Nutt",
+      "current_edges": 4,
+      "fresh_edges": 5,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-oakheart",
+      "page": "House Oakheart",
+      "current_edges": 7,
+      "fresh_edges": 7,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-oldflowers",
+      "page": "House Oldflowers",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-orkwood",
+      "page": "House Orkwood",
+      "current_edges": 4,
+      "fresh_edges": 4,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-orme",
+      "page": "House Orme",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-osgrey-of-leafy-lake",
+      "page": "House Osgrey of Leafy Lake",
+      "current_edges": 4,
+      "fresh_edges": 4,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-osgrey",
+      "page": "House Osgrey",
+      "current_edges": 7,
+      "fresh_edges": 8,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-overton",
+      "page": "House Overton",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-paege",
+      "page": "House Paege",
+      "current_edges": 5,
+      "fresh_edges": 5,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-parren",
+      "page": "House Parren",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-payne",
+      "page": "House Payne",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-peake",
+      "page": "House Peake",
+      "current_edges": 8,
+      "fresh_edges": 8,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-peasebury",
+      "page": "House Peasebury",
+      "current_edges": 4,
+      "fresh_edges": 6,
+      "edge_diff": -2,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-peat",
+      "page": "House Peat",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-peckledon",
+      "page": "House Peckledon",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-pemford",
+      "page": "House Pemford",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-penrose",
+      "page": "House Penrose",
+      "current_edges": 4,
+      "fresh_edges": 4,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-perryn",
+      "page": "House Perryn",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-piper",
+      "page": "House Piper",
+      "current_edges": 7,
+      "fresh_edges": 6,
+      "edge_diff": 1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-plumm",
+      "page": "House Plumm",
+      "current_edges": 4,
+      "fresh_edges": 4,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-pommingham",
+      "page": "House Pommingham",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-poole",
+      "page": "House Poole",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-prester",
+      "page": "House Prester",
+      "current_edges": 5,
+      "fresh_edges": 5,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-pryor",
+      "page": "House Pryor",
+      "current_edges": 4,
+      "fresh_edges": 5,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-pyle",
+      "page": "House Pyle",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-pyne",
+      "page": "House Pyne",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-qoherys",
+      "page": "House Qoherys",
+      "current_edges": 5,
+      "fresh_edges": 6,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-qorgyle",
+      "page": "House Qorgyle",
+      "current_edges": 6,
+      "fresh_edges": 6,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-quagg",
+      "page": "House Quagg",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-rambton",
+      "page": "House Rambton",
+      "current_edges": 1,
+      "fresh_edges": 2,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-redding",
+      "page": "House Redding",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-redfort",
+      "page": "House Redfort",
+      "current_edges": 6,
+      "fresh_edges": 6,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-redwyne",
+      "page": "House Redwyne",
+      "current_edges": 8,
+      "fresh_edges": 8,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-reyne",
+      "page": "House Reyne",
+      "current_edges": 4,
+      "fresh_edges": 5,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-rhysling",
+      "page": "House Rhysling",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-risley",
+      "page": "House Risley",
+      "current_edges": 5,
+      "fresh_edges": 6,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-rodden",
+      "page": "House Rodden",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-rogers",
+      "page": "House Rogers",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-rollingford",
+      "page": "House Rollingford",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-roote",
+      "page": "House Roote",
+      "current_edges": 4,
+      "fresh_edges": 5,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-rosby",
+      "page": "House Rosby",
+      "current_edges": 4,
+      "fresh_edges": 5,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-rowan",
+      "page": "House Rowan",
+      "current_edges": 7,
+      "fresh_edges": 7,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-roxton",
+      "page": "House Roxton",
+      "current_edges": 4,
+      "fresh_edges": 5,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-royce-of-the-gates-of-the-moon",
+      "page": "House Royce of the Gates of the Moon",
+      "current_edges": 7,
+      "fresh_edges": 6,
+      "edge_diff": 1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-ruthermont",
+      "page": "House Ruthermont",
+      "current_edges": 2,
+      "fresh_edges": 4,
+      "edge_diff": -2,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-ryder",
+      "page": "House Ryder",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-ryger",
+      "page": "House Ryger",
+      "current_edges": 4,
+      "fresh_edges": 5,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-rykker",
+      "page": "House Rykker",
+      "current_edges": 5,
+      "fresh_edges": 5,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-ryswell",
+      "page": "House Ryswell",
+      "current_edges": 5,
+      "fresh_edges": 5,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-saltcliffe",
+      "page": "House Saltcliffe",
+      "current_edges": 4,
+      "fresh_edges": 4,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-santagar",
+      "page": "House Santagar",
+      "current_edges": 6,
+      "fresh_edges": 6,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-sarsfield",
+      "page": "House Sarsfield",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-seaworth",
+      "page": "House Seaworth",
+      "current_edges": 5,
+      "fresh_edges": 5,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-selmy",
+      "page": "House Selmy",
+      "current_edges": 5,
+      "fresh_edges": 5,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-serrett",
+      "page": "House Serrett",
+      "current_edges": 4,
+      "fresh_edges": 4,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-sharp",
+      "page": "House Sharp",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-shawney",
+      "page": "House Shawney",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-shell-dorne",
+      "page": "House Shell (Dorne)",
+      "current_edges": 2,
+      "fresh_edges": 4,
+      "edge_diff": -2,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-shepherd",
+      "page": "House Shepherd",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-shermer",
+      "page": "House Shermer",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-shett-of-gull-tower",
+      "page": "House Shett of Gull Tower",
+      "current_edges": 5,
+      "fresh_edges": 5,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-shett-of-gulltown",
+      "page": "House Shett of Gulltown",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-slate",
+      "page": "House Slate",
+      "current_edges": 6,
+      "fresh_edges": 8,
+      "edge_diff": -2,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-sloane",
+      "page": "House Sloane",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-slynt",
+      "page": "House Slynt",
+      "current_edges": 8,
+      "fresh_edges": 8,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-smallwood",
+      "page": "House Smallwood",
+      "current_edges": 6,
+      "fresh_edges": 6,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-sparr",
+      "page": "House Sparr",
+      "current_edges": 4,
+      "fresh_edges": 4,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-spicer",
+      "page": "House Spicer",
+      "current_edges": 7,
+      "fresh_edges": 6,
+      "edge_diff": 1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-stackhouse",
+      "page": "House Stackhouse",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-stackspear",
+      "page": "House Stackspear",
+      "current_edges": 4,
+      "fresh_edges": 4,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-staedmon",
+      "page": "House Staedmon",
+      "current_edges": 4,
+      "fresh_edges": 4,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-stane",
+      "page": "House Stane",
+      "current_edges": 4,
+      "fresh_edges": 5,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-staunton",
+      "page": "House Staunton",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-stilwood",
+      "page": "House Stilwood",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-stokeworth",
+      "page": "House Stokeworth",
+      "current_edges": 5,
+      "fresh_edges": 5,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-stonehouse",
+      "page": "House Stonehouse",
+      "current_edges": 4,
+      "fresh_edges": 4,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-stout",
+      "page": "House Stout",
+      "current_edges": 5,
+      "fresh_edges": 5,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-strong",
+      "page": "House Strong",
+      "current_edges": 4,
+      "fresh_edges": 4,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-sunderly",
+      "page": "House Sunderly",
+      "current_edges": 4,
+      "fresh_edges": 4,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-swann",
+      "page": "House Swann",
+      "current_edges": 6,
+      "fresh_edges": 6,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-sweet",
+      "page": "House Sweet",
+      "current_edges": 4,
+      "fresh_edges": 3,
+      "edge_diff": 1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-swyft",
+      "page": "House Swyft",
+      "current_edges": 6,
+      "fresh_edges": 6,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-swygert",
+      "page": "House Swygert",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-tallhart",
+      "page": "House Tallhart",
+      "current_edges": 7,
+      "fresh_edges": 7,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-tarbeck",
+      "page": "House Tarbeck",
+      "current_edges": 4,
+      "fresh_edges": 5,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-tarly",
+      "page": "House Tarly",
+      "current_edges": 9,
+      "fresh_edges": 9,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-tarth",
+      "page": "House Tarth",
+      "current_edges": 9,
+      "fresh_edges": 9,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-tawney",
+      "page": "House Tawney",
+      "current_edges": 4,
+      "fresh_edges": 4,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-teague",
+      "page": "House Teague",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-templeton",
+      "page": "House Templeton",
+      "current_edges": 5,
+      "fresh_edges": 5,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-terrick",
+      "page": "House Terrick",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-thenn",
+      "page": "House Thenn",
+      "current_edges": 5,
+      "fresh_edges": 6,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-thorne",
+      "page": "House Thorne",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-toland",
+      "page": "House Toland",
+      "current_edges": 6,
+      "fresh_edges": 6,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-towers-of-harrenhal",
+      "page": "House Towers of Harrenhal",
+      "current_edges": 5,
+      "fresh_edges": 5,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-toyne",
+      "page": "House Toyne",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-trant",
+      "page": "House Trant",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-tudbury",
+      "page": "House Tudbury",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-tully",
+      "page": "House Tully",
+      "current_edges": 9,
+      "fresh_edges": 9,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-turnberry",
+      "page": "House Turnberry",
+      "current_edges": 2,
+      "fresh_edges": 2,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-tyrell-of-brightwater-keep",
+      "page": "House Tyrell of Brightwater Keep",
+      "current_edges": 7,
+      "fresh_edges": 7,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-tyrell",
+      "page": "House Tyrell",
+      "current_edges": 13,
+      "fresh_edges": 12,
+      "edge_diff": 1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-uffering",
+      "page": "House Uffering",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-uller",
+      "page": "House Uller",
+      "current_edges": 5,
+      "fresh_edges": 5,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-umber",
+      "page": "House Umber",
+      "current_edges": 7,
+      "fresh_edges": 6,
+      "edge_diff": 1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-upcliff",
+      "page": "House Upcliff",
+      "current_edges": 3,
+      "fresh_edges": 3,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-vaith",
+      "page": "House Vaith",
+      "current_edges": 5,
+      "fresh_edges": 5,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-vance-of-atranta",
+      "page": "House Vance of Atranta",
+      "current_edges": 8,
+      "fresh_edges": 8,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-vance-of-wayfarers-rest",
+      "page": "House Vance of Wayfarer's Rest",
+      "current_edges": 8,
+      "fresh_edges": 8,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-varner",
+      "page": "House Varner",
+      "current_edges": 3,
+      "fresh_edges": 3,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-vikary",
+      "page": "House Vikary",
+      "current_edges": 3,
+      "fresh_edges": 3,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-volmark",
+      "page": "House Volmark",
+      "current_edges": 7,
+      "fresh_edges": 7,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-vypren",
+      "page": "House Vypren",
+      "current_edges": 5,
+      "fresh_edges": 5,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-vyrwel",
+      "page": "House Vyrwel",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-wade",
+      "page": "House Wade",
+      "current_edges": 2,
+      "fresh_edges": 4,
+      "edge_diff": -2,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-wagstaff",
+      "page": "House Wagstaff",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-waterman",
+      "page": "House Waterman",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-waxley",
+      "page": "House Waxley",
+      "current_edges": 5,
+      "fresh_edges": 5,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-wayn",
+      "page": "House Wayn",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-waynwood",
+      "page": "House Waynwood",
+      "current_edges": 6,
+      "fresh_edges": 6,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-weaver",
+      "page": "House Weaver",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-webber",
+      "page": "House Webber",
+      "current_edges": 4,
+      "fresh_edges": 5,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-wells-dorne",
+      "page": "House Wells (Dorne)",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-wells-north",
+      "page": "House Wells (north)",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-wendwater",
+      "page": "House Wendwater",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-wensington",
+      "page": "House Wensington",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-westbrook",
+      "page": "House Westbrook",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-westerling",
+      "page": "House Westerling",
+      "current_edges": 7,
+      "fresh_edges": 7,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-whent",
+      "page": "House Whent",
+      "current_edges": 6,
+      "fresh_edges": 7,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-whitehead",
+      "page": "House Whitehead",
+      "current_edges": 5,
+      "fresh_edges": 3,
+      "edge_diff": 2,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-whitehill",
+      "page": "House Whitehill",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-willum",
+      "page": "House Willum",
+      "current_edges": 5,
+      "fresh_edges": 5,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-wode",
+      "page": "House Wode",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-woodfoot",
+      "page": "House Woodfoot",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-woodhull",
+      "page": "House Woodhull",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-woods",
+      "page": "House Woods",
+      "current_edges": 3,
+      "fresh_edges": 3,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-woodwright",
+      "page": "House Woodwright",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-woolfield",
+      "page": "House Woolfield",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-wull",
+      "page": "House Wull",
+      "current_edges": 8,
+      "fresh_edges": 8,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-wydman",
+      "page": "House Wydman",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-wyl",
+      "page": "House Wyl",
+      "current_edges": 3,
+      "fresh_edges": 4,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-wylde",
+      "page": "House Wylde",
+      "current_edges": 5,
+      "fresh_edges": 5,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-wynch",
+      "page": "House Wynch",
+      "current_edges": 5,
+      "fresh_edges": 5,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-wythers",
+      "page": "House Wythers",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-yarwyck",
+      "page": "House Yarwyck",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-yelshire",
+      "page": "House Yelshire",
+      "current_edges": 2,
+      "fresh_edges": 3,
+      "edge_diff": -1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-yew",
+      "page": "House Yew",
+      "current_edges": 4,
+      "fresh_edges": 4,
+      "edge_diff": 0,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "A",
+      "slug": "house-yronwood",
+      "page": "House Yronwood",
+      "current_edges": 16,
+      "fresh_edges": 15,
+      "edge_diff": 1,
+      "outcome": "edges_replaced"
+    },
+    {
+      "scope": "B",
+      "slug": "asshai",
+      "page": "Asshai",
+      "type": "place.location",
+      "dir": "locations",
+      "current_edges": 1,
+      "fresh_edges": 0,
+      "outcome": "overwritten"
+    },
+    {
+      "scope": "B",
+      "slug": "barrow-hall",
+      "page": "Barrow Hall",
+      "type": "place.location",
+      "dir": "locations",
+      "current_edges": 2,
+      "fresh_edges": 2,
+      "outcome": "overwritten"
+    },
+    {
+      "scope": "B",
+      "slug": "barrowton",
+      "page": "Barrowton",
+      "type": "place.location",
+      "dir": "locations",
+      "current_edges": 1,
+      "fresh_edges": 0,
+      "outcome": "overwritten"
+    },
+    {
+      "scope": "B",
+      "slug": "blackpool",
+      "page": "Blackpool",
+      "type": "place.location",
+      "dir": "locations",
+      "current_edges": 2,
+      "fresh_edges": 2,
+      "outcome": "overwritten"
+    },
+    {
+      "scope": "B",
+      "slug": "braavos",
+      "page": "Braavos",
+      "type": "place.location",
+      "dir": "locations",
+      "current_edges": 1,
+      "fresh_edges": 1,
+      "outcome": "overwritten"
+    },
+    {
+      "scope": "B",
+      "slug": "deepwood-motte",
+      "page": "Deepwood Motte",
+      "type": "place.location",
+      "dir": "locations",
+      "current_edges": 2,
+      "fresh_edges": 2,
+      "outcome": "overwritten"
+    },
+    {
+      "scope": "B",
+      "slug": "dreadfort",
+      "page": "Dreadfort",
+      "type": "place.location",
+      "dir": "locations",
+      "current_edges": 2,
+      "fresh_edges": 1,
+      "outcome": "overwritten"
+    },
+    {
+      "scope": "B",
+      "slug": "greywater-watch",
+      "page": "Greywater Watch",
+      "type": "place.location",
+      "dir": "locations",
+      "current_edges": 2,
+      "fresh_edges": 2,
+      "outcome": "overwritten"
+    },
+    {
+      "scope": "B",
+      "slug": "karhold",
+      "page": "Karhold",
+      "type": "place.location",
+      "dir": "locations",
+      "current_edges": 3,
+      "fresh_edges": 3,
+      "outcome": "overwritten"
+    },
+    {
+      "scope": "B",
+      "slug": "last-hearth",
+      "page": "Last Hearth",
+      "type": "place.location",
+      "dir": "locations",
+      "current_edges": 2,
+      "fresh_edges": 2,
+      "outcome": "overwritten"
+    },
+    {
+      "scope": "B",
+      "slug": "lorath",
+      "page": "Lorath",
+      "type": "place.location",
+      "dir": "locations",
+      "current_edges": 2,
+      "fresh_edges": 1,
+      "outcome": "overwritten"
+    },
+    {
+      "scope": "B",
+      "slug": "meereen",
+      "page": "Meereen",
+      "type": "place.location",
+      "dir": "locations",
+      "current_edges": 1,
+      "fresh_edges": 0,
+      "outcome": "overwritten"
+    },
+    {
+      "scope": "B",
+      "slug": "myr",
+      "page": "Myr",
+      "type": "place.location",
+      "dir": "locations",
+      "current_edges": 1,
+      "fresh_edges": 0,
+      "outcome": "overwritten"
+    },
+    {
+      "scope": "B",
+      "slug": "new-ghis",
+      "page": "New Ghis",
+      "type": "place.location",
+      "dir": "locations",
+      "current_edges": 1,
+      "fresh_edges": 0,
+      "outcome": "overwritten"
+    },
+    {
+      "scope": "B",
+      "slug": "old-empire-of-ghis",
+      "page": "Old Empire of Ghis",
+      "type": "place.location",
+      "dir": "locations",
+      "current_edges": 1,
+      "fresh_edges": 1,
+      "outcome": "overwritten"
+    },
+    {
+      "scope": "B",
+      "slug": "raventree-hall",
+      "page": "Raventree Hall",
+      "type": "place.location",
+      "dir": "locations",
+      "current_edges": 2,
+      "fresh_edges": 2,
+      "outcome": "overwritten"
+    },
+    {
+      "scope": "B",
+      "slug": "valyria",
+      "page": "Valyria",
+      "type": "place.location",
+      "dir": "locations",
+      "current_edges": 1,
+      "fresh_edges": 0,
+      "outcome": "overwritten"
+    },
+    {
+      "scope": "B",
+      "slug": "valyrian-freehold",
+      "page": "Valyrian Freehold",
+      "type": "place.location",
+      "dir": "locations",
+      "current_edges": 3,
+      "fresh_edges": 3,
+      "outcome": "overwritten"
+    },
+    {
+      "scope": "B",
+      "slug": "vaes-dothrak",
+      "page": "Vaes Dothrak",
+      "type": "place.location",
+      "dir": "locations",
+      "current_edges": 1,
+      "fresh_edges": 1,
+      "outcome": "overwritten"
+    },
+    {
+      "scope": "B",
+      "slug": "volantis",
+      "page": "Volantis",
+      "type": "place.location",
+      "dir": "locations",
+      "current_edges": 1,
+      "fresh_edges": 0,
+      "outcome": "overwritten"
+    },
+    {
+      "scope": "B",
+      "slug": "white-harbor",
+      "page": "White Harbor",
+      "type": "place.location",
+      "dir": "locations",
+      "current_edges": 2,
+      "fresh_edges": 1,
+      "outcome": "overwritten"
+    },
+    {
+      "scope": "B",
+      "slug": "whitetree",
+      "page": "Whitetree",
+      "type": "place.location",
+      "dir": "locations",
+      "current_edges": 1,
+      "fresh_edges": 1,
+      "outcome": "overwritten"
+    },
+    {
+      "scope": "B",
+      "slug": "winterfell",
+      "page": "Winterfell",
+      "type": "place.location",
+      "dir": "locations",
+      "current_edges": 3,
+      "fresh_edges": 3,
+      "outcome": "overwritten"
+    },
+    {
+      "scope": "B",
+      "slug": "seven-kingdoms",
+      "page": "Seven Kingdoms",
+      "type": "place.location",
+      "dir": "locations",
+      "current_edges": 4,
+      "fresh_edges": 4,
+      "outcome": "overwritten"
+    },
+    {
+      "scope": "B",
+      "slug": "triarchy",
+      "page": "Triarchy",
+      "type": "organization.faction",
+      "dir": "factions",
+      "current_edges": 2,
+      "fresh_edges": 2,
+      "outcome": "overwritten"
+    }
+  ],
+  "skipped": [
+    {
+      "scope": "A",
+      "slug": "house-martell",
+      "page": "House Martell",
+      "reason": "edge-count-drop: current=25 fresh=9 diff=16",
+      "current_edges": 25,
+      "fresh_edges": 9
+    },
+    {
+      "scope": "A",
+      "slug": "house-reed",
+      "page": "House Reed",
+      "reason": "edge-count-drop: current=15 fresh=8 diff=7",
+      "current_edges": 15,
+      "fresh_edges": 8
+    }
+  ],
+  "errors": []
+}

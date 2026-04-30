@@ -1,0 +1,38 @@
+{
+  "bucket_id": "characters-house-chambers",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "56044b3ca206085d7d1770c7d90a32c549af083c56e40756b16a73d2f894a503",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Lord Chambers"
+  ],
+  "expected_nodes": [
+    "lord-chambers.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Lord Chambers"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 1,
+      "tier_a": 0,
+      "tier_b": 1,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.707717+00:00",
+  "stage3_promoted_count": 1,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

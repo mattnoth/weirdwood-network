@@ -1,0 +1,41 @@
+{
+  "bucket_id": "characters-house-penny",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "ef571ccb8b30cd7f6b913cdc4acdc6e6590e0ad16b6a5723a5825101e913fa76",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Corliss Penny",
+    "Harry Penny"
+  ],
+  "expected_nodes": [
+    "corliss-penny.node.md",
+    "harry-penny.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Corliss Penny",
+      "Harry Penny"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 2,
+      "tier_a": 0,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.918353+00:00",
+  "stage3_promoted_count": 2,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

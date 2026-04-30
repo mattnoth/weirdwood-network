@@ -1,0 +1,35 @@
+---
+name: "Quicksilver"
+type: character.dragon
+slug: quicksilver
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Quicksilver"
+bucket_id: characters-other-p-q
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Quicksilver is a character.dragon from the AWOIAF wiki.
+
+## Edges
+
+- DIED_AT: Gods Eye (track_b: Died) [43 AC]
+- DIED_AT: Riverlands (track_b: Died) [43 AC]
+
+## Origins
+
+As a hatchling, Quicksilver bonded with infant Prince [Aenys Targaryen](wiki:Aenys_I_Targaryen), who had also been born in [7 AC](wiki:Years_after_Aegon's_Conquest). The health of Aenys, who had been sickly from birth, quickly improved after this. This also ended the rumors that Aenys had been fathered by someone other than King [Aegon I Targaryen](wiki:Aegon_I_Targaryen).(wiki:Quicksilver.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7)(wiki:Quicksilver.cite_ref-Rtwoiafthe_targaryen_kings:_aenys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1) Both prince and dragon thrived together, and Quicksilver became beloved to Aenys. Though Aenys loved to ride [horses](wiki:Horse), Quicksilver was his favorite mount.(wiki:Quicksilver.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)
+
+In [23 AC](wiki:Years_after_Aegon's_Conquest), Aenys flew upon Quicksilver to [Sunspear](wiki:Sunspear) in [Dorne](wiki:Dorne) to attend the feast held to celebrate the tenth anniversary of the peace between Dorne and the [Iron Throne](wiki:Iron_Throne).(wiki:Quicksilver.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-9) Aenys succeeded his father [Aegon I Targaryen](wiki:Aegon_I_Targaryen) as king in [37 AC](wiki:37_AC). At his father's death, he was at [Highgarden](wiki:Highgarden) with Quicksilver, and flew upon the dragon to [Dragonstone](wiki:Dragonstone) to attend his father's funeral.(wiki:Quicksilver.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-10) He was with Quicksilver at [Riverrun](wiki:Riverrun) when rebellions broke out later that same year. When word reached them that the [outlaw](wiki:Outlaw) called [Harren the Red](wiki:Harren_the_Red) had killed Lord [Gargon Qoherys](wiki:Gargon_Qoherys) of [Harrenhal](wiki:Harrenhal) and claimed the castle for himself, Lord Tully urged Aenys to mount Quicksilver and descend on Harrenhal [as Aegon I had done during the Conquest](wiki:Burning_of_Harrenhal). Aenys refused.(wiki:Quicksilver.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-11)
+
+King Aenys I Targaryen died in early [42 AC](wiki:42_AC). Quicksilver [lit](wiki:Dragonflame) his funeral pyre at Dragonstone, and the dragons [Silverwing](wiki:Silverwing) and [Vermithor](wiki:Vermithor) added their flame to hers. Shortly thereafter, Aenys's half-brother [Maegor I Targaryen](wiki:Maegor_I_Targaryen) claimed the [Iron Throne](wiki:Iron_Throne), usurping it from his nephew Prince [Aegon Targaryen](wiki:Aegon_Targaryen_(son_of_Aenys_I)). When Maegor took the throne, Prince Aegon and his wife Princess [Rhaena Targaryen](wiki:Rhaena_Targaryen_(daughter_of_Aenys_I)) were besieged at [Crakehall](wiki:Crakehall) (and later protected at [Casterly Rock](wiki:Casterly_Rock)), but both Quicksilver and Rhaena's dragon [Dreamfyre](wiki:Dreamfyre) were in [King's Landing](wiki:King's_Landing). While King Maegor was in [Oldtown](wiki:Oldtown) for half a year in [43 AC](wiki:43_AC), Aegon and Rhaena took note of his long absence from the capital. They managed to successfully infiltrate [King's Landing](wiki:King's_Landing) with the help of several collaborators within the city, though they knew they dare not seize the throne as they lacked the strength to hold it. They had come for dragons — Rhaena was reunited with Dreamfyre, and Aegon finally claimed a dragon, his father's Quicksilver. They had entered the city in a mule-drawn wagon, but left it flying on dragonback.(wiki:Quicksilver.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-12)
+
+In [43 AC](wiki:43_AC), Prince Aegon attempted to win back the throne that by rights was his, returning to the [westerlands](wiki:Westerlands) and [riverlands](wiki:Riverlands) to assemble an army. His allies gathered at [House Piper](wiki:House_Piper)'s [Pinkmaiden Castle](wiki:Pinkmaiden_Castle). Aegon, mounted on Quicksilver, descended from the sky to denounce Maegor as a tyrant and usurper, and called upon all honest men to rally to his banners. Fifteen thousand men joined the rebellion, and marched through the riverlands towards King's Landing, led by Aegon the Uncrowned on Quicksilver. Royalist armies marched toward him from three directions, and Aegon's army was larger than any of the three, but the inexperienced young commander did not want to attack and defeat each one separately, and continued towards the capital. Just south of the [Gods Eye](wiki:Gods_Eye), Prince Aegon found a force of [crownlands](wiki:Crownlands) men blocking his path. Aegon ordered a charge against the hill where the Kingslanders had gathered, hoping to shatter them before the other hosts could flank him. Aegon mounted Quicksilver, intending to lead the attack. But he had only taken off when King Maegor appeared from the south upon the back of his dragon [Balerion](wiki:Balerion), four times as large as Quicksilver. For the first time since the [Doom of Valyria](wiki:Doom_of_Valyria), dragon fought dragon in the sky, while the [Battle Beneath the Gods Eye](wiki:Battle_Beneath_the_Gods_Eye) was fought below. Quicksilver was no match for the older, fiercer dragon, and her pale white fireballs were overcome by Balerion's masses of black flame. Then Balerion fell upon Quicksilver from above, grabbed her neck in his jaws, and ripped one of her wings from her body. Quicksilver fell to her death, along with Prince Aegon.(wiki:Quicksilver.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-13)
+
+## Appearances & Description
+
+In [43 AC](wiki:43_AC), Quicksilver was a quarter the size of [Balerion](wiki:Balerion). Her [fireballs](wiki:Dragonfire) were pale white in color.(wiki:Quicksilver.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5) Although Quicksilver's coloring is not described in the books, her name, the color of her fire and an illustration from *[The Rise of the Dragon](wiki:The_Rise_of_the_Dragon)* imply that Quicksilver's scales were [silver](wiki:Silver).(wiki:Quicksilver.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)(wiki:Quicksilver.cite_ref-Rtrotd5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

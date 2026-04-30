@@ -1,0 +1,69 @@
+{
+  "bucket_id": "characters-house-swyft",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "0a5fb2e6cd8cffdca45096075a2afe13fd7763141cc4304ee718fa1e1ab8eda6",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Addison Hill",
+    "Dorna Swyft",
+    "Harrold Swyft",
+    "Harys Swyft",
+    "Humfrey Swyft",
+    "Joanna Swyft",
+    "Jocelyn Swyft",
+    "Lord Swyft",
+    "Shierle Swyft",
+    "Steffon Swyft",
+    "Willit"
+  ],
+  "expected_nodes": [
+    "addison-hill.node.md",
+    "dorna-swyft.node.md",
+    "harrold-swyft.node.md",
+    "harys-swyft.node.md",
+    "humfrey-swyft.node.md",
+    "joanna-swyft.node.md",
+    "jocelyn-swyft.node.md",
+    "lord-swyft.node.md",
+    "shierle-swyft.node.md",
+    "steffon-swyft.node.md",
+    "willit.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Harys Swyft",
+      "Jocelyn Swyft"
+    ],
+    "tier_b": [
+      "Addison Hill",
+      "Dorna Swyft",
+      "Harrold Swyft",
+      "Humfrey Swyft",
+      "Joanna Swyft",
+      "Lord Swyft",
+      "Shierle Swyft",
+      "Steffon Swyft",
+      "Willit"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 11,
+      "tier_a": 2,
+      "tier_b": 9,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.991123+00:00",
+  "stage3_promoted_count": 11,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

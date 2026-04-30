@@ -1,0 +1,3 @@
+## Origins
+
+During the [Andal invasion](wiki:Andal_invasion) of the [stormlands](wiki:Stormlands), he sought out the remaining [Children of the Forest](wiki:Children_of_the_Forest) taking refuge in caves and hollow hills, and made common cause with them. This [Weirwood Alliance](wiki:Weirwood_Alliance) dealt the [Andals](wiki:Andals) a series of stinging defeats in such battles as the [Battle at Black Bog](wiki:Battle_at_Black_Bog), the Battle in the Misty Wood, and the Battle beneath the Howling Hill, and checked the decline of the [Kingdom of the Storm](wiki:Kingdom_of_the_Storm) for a time.(wiki:Durran_XXI_Durrandon.cite_ref-Rtwoiaf_the_stormlands:_andals_in_the_stormlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

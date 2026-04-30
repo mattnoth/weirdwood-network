@@ -1,0 +1,27 @@
+---
+name: "Burning of Jeyne Poore"
+type: event.battle
+slug: burning-of-jeyne-poore
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Burning_of_Jeyne_Poore"
+bucket_id: battles-b-d
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Burning of Jeyne Poore is a event.battle from the AWOIAF wiki.
+
+## Edges
+
+- FIGHTS_IN: Faith Militant uprising (track_b: Conflict)
+- DEFEATS: Iron Throne (track_b: Result)
+
+## Origins
+
+Late in [45 AC](wiki:45_AC), scores of [Poor Fellows](wiki:Poor_Fellows) were [hunted](wiki:Hunt_of_the_Poor_Fellows) down in the [kingswood](wiki:Kingswood) by the forces of King [Maegor I Targaryen](wiki:Maegor_I_Targaryen). [Poxy Jeyne Poore](wiki:Poxy_Jeyne_Poore), a woman considered a [witch](wiki:Witch) by Maegor's three [septons](wiki:Septon), was eventually betrayed to the king by three of her Poor Fellow followers. Maegor pardoned the three and granted them [knighthoods](wiki:Knight).(wiki:Burning_of_Jeyne_Poore.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
+
+Maegor the Cruel ordered that Jeyne be burned alive in a field by the [Wendwater](wiki:Wendwater). Ser [Horys Hill](wiki:Horys_Hill) led three hundred Poor Fellows and peasants in an attempt to rescue Jeyne. Maegor was prepared for this eventuality, however, and the king's men slaughtered the would-be rescuers, with Horys among the last to fall. Maegor eventually returned to the [Red Keep](wiki:Red_Keep) in [46 AC](wiki:Years_after_Aegon's_Conquest).(wiki:Burning_of_Jeyne_Poore.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

@@ -1,0 +1,170 @@
+{
+  "bucket_id": "houses-other-h",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "9bddc319df3ce19ced87bc3faa3e93fcab779d0601b9546821f9c6bb41df8e92",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "House Sawyer",
+    "House Scales",
+    "House Serry",
+    "House Shell",
+    "House Shell (Vale)",
+    "House Shett",
+    "House Silverfist",
+    "House Smallford",
+    "House Stark guards",
+    "House Stark of Karhold",
+    "House Stark of Karl's Hold",
+    "House Stonetree",
+    "House Straw",
+    "House Strickland",
+    "House Suggs",
+    "House Sunderland",
+    "House Sunglass",
+    "House Targaryen guards",
+    "House Tarwick",
+    "House Tollet",
+    "House Tollett",
+    "House Torrent",
+    "House Towers",
+    "House Towers (North)",
+    "House Towers (Riverlands)",
+    "House Tully guards",
+    "House Tuttle",
+    "House Tyrell guards",
+    "House Uhlez",
+    "House Ullhor"
+  ],
+  "expected_nodes": [
+    "house-sawyer.node.md",
+    "house-scales.node.md",
+    "house-serry.node.md",
+    "house-shell-vale.node.md",
+    "house-shell.node.md",
+    "house-shett.node.md",
+    "house-silverfist.node.md",
+    "house-smallford.node.md",
+    "house-stark-guards.node.md",
+    "house-stark-of-karhold.node.md",
+    "house-stark-of-karls-hold.node.md",
+    "house-stonetree.node.md",
+    "house-straw.node.md",
+    "house-strickland.node.md",
+    "house-suggs.node.md",
+    "house-sunderland.node.md",
+    "house-sunglass.node.md",
+    "house-targaryen-guards.node.md",
+    "house-tarwick.node.md",
+    "house-tollet.node.md",
+    "house-tollett.node.md",
+    "house-torrent.node.md",
+    "house-towers-north.node.md",
+    "house-towers-riverlands.node.md",
+    "house-towers.node.md",
+    "house-tully-guards.node.md",
+    "house-tuttle.node.md",
+    "house-tyrell-guards.node.md",
+    "house-uhlez.node.md",
+    "house-ullhor.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:56Z",
+    "tier_a": [
+      "House Stark guards",
+      "House Sunglass",
+      "House Targaryen guards",
+      "House Tully guards"
+    ],
+    "tier_b": [
+      "House Sawyer",
+      "House Scales",
+      "House Serry",
+      "House Shell",
+      "House Shell (Vale)",
+      "House Shett",
+      "House Stonetree",
+      "House Straw",
+      "House Strickland",
+      "House Suggs",
+      "House Sunderland",
+      "House Tollett",
+      "House Torrent",
+      "House Towers",
+      "House Tyrell guards"
+    ],
+    "tier_c": [
+      {
+        "page": "House Silverfist",
+        "page_kind": "redirect",
+        "redirect_target": "Tysha"
+      },
+      {
+        "page": "House Smallford",
+        "page_kind": "redirect",
+        "redirect_target": "House Smallwood"
+      },
+      {
+        "page": "House Stark of Karhold",
+        "page_kind": "redirect",
+        "redirect_target": "House Karstark"
+      },
+      {
+        "page": "House Stark of Karl's Hold",
+        "page_kind": "redirect",
+        "redirect_target": "House Karstark"
+      },
+      {
+        "page": "House Tarwick",
+        "page_kind": "redirect"
+      },
+      {
+        "page": "House Tollet",
+        "page_kind": "redirect",
+        "redirect_target": "House Tollett"
+      },
+      {
+        "page": "House Towers (North)",
+        "page_kind": "redirect",
+        "redirect_target": "House Towers (north)"
+      },
+      {
+        "page": "House Towers (Riverlands)",
+        "page_kind": "redirect",
+        "redirect_target": "House Towers of Harrenhal"
+      },
+      {
+        "page": "House Tuttle",
+        "page_kind": "redirect",
+        "redirect_target": "House Tuttle (Telltale)"
+      },
+      {
+        "page": "House Uhlez",
+        "page_kind": "redirect",
+        "redirect_target": "House of Uhlez"
+      },
+      {
+        "page": "House Ullhor",
+        "page_kind": "redirect",
+        "redirect_target": "House of Ullhor"
+      }
+    ],
+    "stats": {
+      "total": 30,
+      "tier_a": 4,
+      "tier_b": 15,
+      "tier_c": 11
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.301422+00:00",
+  "stage3_promoted_count": 19,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

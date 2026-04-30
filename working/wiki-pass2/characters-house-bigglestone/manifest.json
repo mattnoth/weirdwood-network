@@ -1,0 +1,38 @@
+{
+  "bucket_id": "characters-house-bigglestone",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "ed5f47831327def29d064e958c729dd825b9c08b42870f4bea2d8983038a2a8e",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Lord Bigglestone"
+  ],
+  "expected_nodes": [
+    "lord-bigglestone.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Lord Bigglestone"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 1,
+      "tier_a": 0,
+      "tier_b": 1,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.656568+00:00",
+  "stage3_promoted_count": 1,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

@@ -1,0 +1,48 @@
+{
+  "bucket_id": "characters-house-reed",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "c2cbbe29b0880f757f892e9677c0d68dc3e20cfcf772ba331d5db6fb49f9bde6",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Howland Reed",
+    "Jojen Reed",
+    "Jyana",
+    "Meera Reed"
+  ],
+  "expected_nodes": [
+    "howland-reed.node.md",
+    "jojen-reed.node.md",
+    "jyana.node.md",
+    "meera-reed.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Howland Reed",
+      "Jojen Reed",
+      "Meera Reed"
+    ],
+    "tier_b": [
+      "Jyana"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 4,
+      "tier_a": 3,
+      "tier_b": 1,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.938256+00:00",
+  "stage3_promoted_count": 4,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

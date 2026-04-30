@@ -1,0 +1,5 @@
+## Origins
+
+According to a semi-canon source,(wiki:Cyrelle_Tarbeck.cite_ref-sample_1-3) Lady [Ellyn Tarbeck](wiki:Ellyn_Reyne) [named](wiki:Named_after) her second daughter after [Cerelle Lannister](wiki:Cerelle_Lannister_(daughter_of_Tybolt)), as an attack against [Gerold Lannister](wiki:Gerold_Lannister), Lord of [Casterly Rock](wiki:Casterly_Rock) and the late Cerelle's uncle, who had been suspected of causing his niece's death.(wiki:Cyrelle_Tarbeck.cite_ref-Rtwoiaf_the_westerlands:_house_lannister_under_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+
+During the [Reyne-Tarbeck rebellion](wiki:Reyne-Tarbeck_rebellion), Lord [Tywin Lannister](wiki:Tywin_Lannister) ordered the executions of Cyrelle's unnamed husband and her father, Lord [Walderan Tarbeck](wiki:Walderan_Tarbeck). Cyrelle and her sister [Rohanne](wiki:Rohanne_Tarbeck) were taken captive during Tywin's assault on [Tarbeck Hall](wiki:Tarbeck_Hall). Some stories claim that Tywin ordered their [tongues removed](wiki:Tongue_mutilation) before they were forced to join the [silent sisters](wiki:Silent_sisters).(wiki:Cyrelle_Tarbeck.cite_ref-sample_1-4)

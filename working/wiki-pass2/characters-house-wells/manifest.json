@@ -1,0 +1,41 @@
+{
+  "bucket_id": "characters-house-wells",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "9b12aa653034010ecff6c2e184667257cc49cda708513ea0fd52c7377432858f",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Theodan Wells",
+    "Willam Wells"
+  ],
+  "expected_nodes": [
+    "theodan-wells.node.md",
+    "willam-wells.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:56Z",
+    "tier_a": [],
+    "tier_b": [
+      "Theodan Wells",
+      "Willam Wells"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 2,
+      "tier_a": 0,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.032890+00:00",
+  "stage3_promoted_count": 2,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

@@ -1,0 +1,56 @@
+{
+  "bucket_id": "characters-house-stackspear",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "8e146d567846e951f00594271a9fdd1e33cbe49c9a3891e6f953bf4a8abd972e",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Alyn Stackspear",
+    "Alys Stackspear",
+    "Lord Stackspear (father of Alys)",
+    "Selmond Stackspear",
+    "Steffon Stackspear",
+    "Walder Stackspear",
+    "Willam Stackspear"
+  ],
+  "expected_nodes": [
+    "alyn-stackspear.node.md",
+    "alys-stackspear.node.md",
+    "lord-stackspear-father-of-alys.node.md",
+    "selmond-stackspear.node.md",
+    "steffon-stackspear.node.md",
+    "walder-stackspear.node.md",
+    "willam-stackspear.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Alyn Stackspear",
+      "Alys Stackspear",
+      "Lord Stackspear (father of Alys)",
+      "Selmond Stackspear",
+      "Steffon Stackspear",
+      "Walder Stackspear",
+      "Willam Stackspear"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 7,
+      "tier_a": 0,
+      "tier_b": 7,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.973697+00:00",
+  "stage3_promoted_count": 7,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

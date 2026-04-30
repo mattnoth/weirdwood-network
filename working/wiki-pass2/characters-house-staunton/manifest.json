@@ -1,0 +1,62 @@
+{
+  "bucket_id": "characters-house-staunton",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "7fde375cc67c0b0eefea95051f5b1874dd33659e3b74c71580c6e86aa5b3a869",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Cassella Staunton",
+    "Joffrey Staunton",
+    "Lady Staunton",
+    "Lord Staunton (father of Cassella)",
+    "Sefton Staunton",
+    "Simon Staunton",
+    "Simon Staunton (squire)",
+    "Symond Staunton",
+    "Ysabel Staunton"
+  ],
+  "expected_nodes": [
+    "cassella-staunton.node.md",
+    "joffrey-staunton.node.md",
+    "lady-staunton.node.md",
+    "lord-staunton-father-of-cassella.node.md",
+    "sefton-staunton.node.md",
+    "simon-staunton-squire.node.md",
+    "simon-staunton.node.md",
+    "symond-staunton.node.md",
+    "ysabel-staunton.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Cassella Staunton",
+      "Joffrey Staunton",
+      "Lady Staunton",
+      "Lord Staunton (father of Cassella)",
+      "Sefton Staunton",
+      "Simon Staunton",
+      "Simon Staunton (squire)",
+      "Symond Staunton",
+      "Ysabel Staunton"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 9,
+      "tier_a": 0,
+      "tier_b": 9,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.976919+00:00",
+  "stage3_promoted_count": 9,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

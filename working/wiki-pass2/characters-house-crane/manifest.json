@@ -1,0 +1,57 @@
+{
+  "bucket_id": "characters-house-crane",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "a3fe3c81a58a84ac91b55699468900060b2d1a1ea8616157b07dcecbaffc4b5d",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Ellard Crane",
+    "Melara Crane",
+    "Meredyth Crane",
+    "Parmen Crane",
+    "Rose of Red Lake",
+    "Rycherd Crane",
+    "Vortimer Crane"
+  ],
+  "expected_nodes": [
+    "ellard-crane.node.md",
+    "melara-crane.node.md",
+    "meredyth-crane.node.md",
+    "parmen-crane.node.md",
+    "rose-of-red-lake.node.md",
+    "rycherd-crane.node.md",
+    "vortimer-crane.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Meredyth Crane"
+    ],
+    "tier_b": [
+      "Ellard Crane",
+      "Melara Crane",
+      "Parmen Crane",
+      "Rose of Red Lake",
+      "Rycherd Crane",
+      "Vortimer Crane"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 7,
+      "tier_a": 1,
+      "tier_b": 6,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.729165+00:00",
+  "stage3_promoted_count": 7,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

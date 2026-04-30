@@ -1,0 +1,62 @@
+{
+  "bucket_id": "characters-house-caswell",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "da49b16f1f41bb939651de344057add125e3263b2f5c071e7721d6827189e1b8",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Armond Caswell",
+    "Cleyton Caswell",
+    "Joffrey Caswell",
+    "Kyle the Cat",
+    "Lord Caswell (father of Lorent)",
+    "Lorent Caswell",
+    "Orbert Caswell",
+    "Rolly Duckfield",
+    "Tom Flowers"
+  ],
+  "expected_nodes": [
+    "armond-caswell.node.md",
+    "cleyton-caswell.node.md",
+    "joffrey-caswell.node.md",
+    "kyle-the-cat.node.md",
+    "lord-caswell-father-of-lorent.node.md",
+    "lorent-caswell.node.md",
+    "orbert-caswell.node.md",
+    "rolly-duckfield.node.md",
+    "tom-flowers.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Armond Caswell",
+      "Cleyton Caswell",
+      "Joffrey Caswell",
+      "Kyle the Cat",
+      "Lord Caswell (father of Lorent)",
+      "Lorent Caswell",
+      "Orbert Caswell",
+      "Rolly Duckfield",
+      "Tom Flowers"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 9,
+      "tier_a": 0,
+      "tier_b": 9,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.703947+00:00",
+  "stage3_promoted_count": 9,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

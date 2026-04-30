@@ -1,0 +1,38 @@
+{
+  "bucket_id": "characters-house-woolfield",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "e99d584aef18bbf6bc137306e072e392f125178221f86f629ef03201acda3e28",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Leona Woolfield"
+  ],
+  "expected_nodes": [
+    "leona-woolfield.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:56Z",
+    "tier_a": [],
+    "tier_b": [
+      "Leona Woolfield"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 1,
+      "tier_a": 0,
+      "tier_b": 1,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.040884+00:00",
+  "stage3_promoted_count": 1,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

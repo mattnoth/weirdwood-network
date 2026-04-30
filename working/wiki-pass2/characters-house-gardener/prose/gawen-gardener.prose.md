@@ -1,0 +1,3 @@
+## Origins
+
+When his father, King [Mern IX](wiki:Mern_IX_Gardener), made an alliance with [Loren I Lannister](wiki:Loren_I_Lannister), [King of the Rock](wiki:King_of_the_Rock), to join their armies against [Aegon the Conqueror](wiki:Aegon_I_Targaryen), Gawen rode beside him carrying the Gardener banner. Gawen burned in the [Field of Fire](wiki:Field_of_Fire) alongside his father, brothers, and his father's grandsons when Aegon and his sisters, [Visenya](wiki:Visenya_Targaryen) and [Rhaenys](wiki:Rhaenys_Targaryen), unleashed the fury of their [dragons](wiki:Dragon).(wiki:Gawen_Gardener.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)

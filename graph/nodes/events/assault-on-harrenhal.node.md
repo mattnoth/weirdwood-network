@@ -1,0 +1,39 @@
+---
+name: "Assault on Harrenhal"
+type: event.battle
+slug: assault-on-harrenhal
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Assault_on_Harrenhal"
+bucket_id: battles-a
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Assault on Harrenhal is a event.battle from the AWOIAF wiki.
+
+## Edges
+
+- FIGHTS_IN: Dance of the Dragons (track_b: Conflict)
+- DEFEATS: blacks (track_b: Result)
+
+## Origins
+
+The rival claims of Queen [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen) and King [Aegon II Targaryen](wiki:Aegon_II_Targaryen) led to [civil war](wiki:Dance_of_the_Dragons) in the [Seven Kingdoms](wiki:Seven_Kingdoms). Rhaenyra's [blacks](wiki:Blacks) had more [dragons](wiki:Dragon) than Aegon's [greens](wiki:Greens), but most of their strength was focused around [Dragonstone](wiki:Dragonstone) instead of mainland [Westeros](wiki:Westeros). With [House Tully](wiki:House_Tully) effectively neutral because of disagreement between Lord [Grover Tully](wiki:Grover_Tully) and his grandson, Ser [Elmo](wiki:Elmo_Tully), Rhaenyra's husband, Prince [Daemon Targaryen](wiki:Daemon_Targaryen), suggested [Harrenhal](wiki:Harrenhal) as a rallying point for potential supporters in the [riverlands](wiki:Riverlands). [Larys Strong](wiki:Larys_Strong), Lord of Harrenhal, was a green supporter of Aegon, however.(wiki:Assault_on_Harrenhal.cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
+
+While [Jacaerys](wiki:Jacaerys_Velaryon) and [Lucerys Velaryon](wiki:Lucerys_Velaryon) left Dragonstone to seek allies and [Corlys Velaryon](wiki:Corlys_Velaryon) closed [Blackwater Bay](wiki:Blackwater_Bay), Rhaenyra allowed her husband to command the assault on Harrenhal.(wiki:Assault_on_Harrenhal.cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+## Aftermath
+
+The loss of Harrenhal shocked Aegon II and encouraged the blacks, who soon after won at the [Burning Mill](wiki:Battle_of_the_Burning_Mill) and [Stone Hedge](wiki:Taking_of_Stone_Hedge).(wiki:Assault_on_Harrenhal.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)(wiki:Assault_on_Harrenhal.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) [House Blackwood](wiki:House_Blackwood) and other river lords gathered at Harrenhal, which was where Daemon approved of [Blood and Cheese](wiki:Blood_and_Cheese) to avenge the death of Rhaenyra's son, Lucerys.
+
+When Daemon learned that Ser [Criston Cole](wiki:Criston_Cole) and Prince [Aemond Targaryen](wiki:Aemond_Targaryen) had left [King's Landing](wiki:King's_Landing) to retake Harrenhal, the blacks abandoned the castle and the rivermen marched to meet the [westermen](wiki:Westermen) of Lord [Jason Lannister](wiki:Jason_Lannister) at the [Red Fork](wiki:Battle_at_the_Red_Fork). While Criston and Aemond retook Harrenhal without bloodshed, their absence contributed to the [fall of King's Landing](wiki:Fall_of_King's_Landing) to Daemon and Rhaenyra. Aemond ordered the executions of [Simon Strong](wiki:Simon_Strong) and his kin, although he spared [Alys Rivers](wiki:Alys_Rivers).(wiki:Assault_on_Harrenhal.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+
+## Quotes
+
+> We have friends in the [riverlands](wiki:Riverlands), though not all of them dare show their colors yet. We need a place where they can gather, a toehold on the mainland large enough to house a sizeable host, and strong enough to hold against whatever forces [the usurper](wiki:Aegon_II_Targaryen) can send against us. Here. [Harrenhal](wiki:Harrenhal).(wiki:Assault_on_Harrenhal.cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+>
+> —[Daemon Targaryen](wiki:Daemon_Targaryen) to the [black council](wiki:Black_council)

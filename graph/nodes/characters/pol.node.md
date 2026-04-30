@@ -1,0 +1,25 @@
+---
+name: "Pol"
+type: character.human
+slug: pol
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Pol"
+bucket_id: characters-other-o-p
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Pol is a character.human from the AWOIAF wiki.
+
+## Edges
+
+- HOLDS_TITLE: Maester (track_b: Title)
+- SWORN_TO: The Citadel (track_b: Allegiance)
+
+## Origins
+
+Pol spent many years of residence in Qohor, investigating the secrets of Qohorik blacksmiths. He was thrice publicly whipped, and cast out for making too many inquiries. The final time, his hand was also cut off, per the allegation he had stolen a [Valyrian steel](wiki:Valyrian_steel) blade. According to him, the true reason for his final exile was the discovery of blood sacrifices — including that of infant [slaves](wiki:Slavery) — which the Qohorik smiths use in their efforts to produce steel equal to the original Valyrian steel.(wiki:Pol.cite_ref-Rtwoiafthe_free_cities:_qohor.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

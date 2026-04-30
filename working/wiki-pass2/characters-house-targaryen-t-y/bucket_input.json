@@ -1,0 +1,4144 @@
+{
+  "bucket_id": "characters-house-targaryen-t-y",
+  "tier": "core",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Tal Toraq",
+      "raw_html_path": "sources/wiki/_raw/Tal_Toraq.json",
+      "track_b_row": {
+        "page": "Tal Toraq",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 11,
+          "source": "cite_ref",
+          "pov": "Jon III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Stalwart Shields",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Stalwart Shields",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Summer Isles",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            11,
+            70
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Tal Toraq",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 11786
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Tom Turnip",
+      "raw_html_path": "sources/wiki/_raw/Tom_Turnip.json",
+      "track_b_row": {
+        "page": "Tom Turnip",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Turnip"
+        ],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Tom Turnip",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 11030
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Tristimun",
+      "raw_html_path": "sources/wiki/_raw/Tristimun.json",
+      "track_b_row": {
+        "page": "Tristimun",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 10,
+          "source": "cite_ref",
+          "pov": "Bran I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "sea watch",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Sea watch",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            10
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Tristimun",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 4317
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Tyanna of the Tower",
+      "raw_html_path": "sources/wiki/_raw/Tyanna_of_the_Tower.json",
+      "track_b_row": {
+        "page": "Tyanna of the Tower",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 1,
+          "source": "cite_ref",
+          "pov": "Prologue"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Mistress of whisperers",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Pentoshi",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Pentos",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "48\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "King's Landing",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "magister",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Maegor I Targaryen",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Lover",
+            "target": "Alys Harroway",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric",
+            "qualifier": "rumored"
+          }
+        ],
+        "aliases": [
+          "Tyanna of Pentos",
+          "The king's raven",
+          "The mistress of whispers",
+          "Mistress of the spiders"
+        ],
+        "cite_refs": {
+          "agot": [
+            3
+          ],
+          "adwd": [
+            1
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Tyanna of the Tower",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 45257
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Ummet",
+      "raw_html_path": "sources/wiki/_raw/Ummet.json",
+      "track_b_row": {
+        "page": "Ummet",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "131\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "King's Landing",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Ummet",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 9036
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Vaegon Targaryen",
+      "raw_html_path": "sources/wiki/_raw/Vaegon_Targaryen.json",
+      "track_b_row": {
+        "page": "Vaegon Targaryen",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 28,
+          "source": "cite_ref",
+          "pov": "Daenerys II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Prince",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Archmaester",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "The Citadel",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "63\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "101\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Jaehaerys I Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Alysanne Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [
+          "Vaegon Targaryen",
+          "The Dragonless",
+          "Vaegon the Dragonless"
+        ],
+        "cite_refs": {
+          "agot": [
+            41
+          ],
+          "acok": [
+            28
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Vaegon Targaryen",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 1,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 74778
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Vaella Targaryen (daughter of Aenys I)",
+      "raw_html_path": "sources/wiki/_raw/Vaella_Targaryen_(daughter_of_Aenys_I).json",
+      "track_b_row": {
+        "page": "Vaella Targaryen (daughter of Aenys I)",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Princess",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "39\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "39\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Aenys I Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Alyssa Velaryon",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Vaella Targaryen (daughter of Aenys I)",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 42261
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Vaella Targaryen (daughter of Daeron)",
+      "raw_html_path": "sources/wiki/_raw/Vaella_Targaryen_(daughter_of_Daeron).json",
+      "track_b_row": {
+        "page": "Vaella Targaryen (daughter of Daeron)",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 6,
+          "source": "cite_ref",
+          "pov": "Arya II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Princess",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "222\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Daeron Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Kiera of Tyrosh",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [
+          "Vaella the Simple"
+        ],
+        "cite_refs": {
+          "acok": [
+            6
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Vaella Targaryen (daughter of Daeron)",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 75593
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Valarr Targaryen",
+      "raw_html_path": "sources/wiki/_raw/Valarr_Targaryen.json",
+      "track_b_row": {
+        "page": "Valarr Targaryen",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 5,
+          "source": "cite_ref",
+          "pov": "Brienne I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Prince",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Prince of Dragonstone",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Hand of the King",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "possibly"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "182",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "193\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Westeros",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "209\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "King's Landing",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Baelor Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Jena Dondarrion",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Kiera of Tyrosh",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Stillborn sons",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "The Young Prince"
+        ],
+        "cite_refs": {
+          "acok": [
+            6
+          ],
+          "affc": [
+            5
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Valarr Targaryen",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 106700
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Valerion Targaryen",
+      "raw_html_path": "sources/wiki/_raw/Valerion_Targaryen.json",
+      "track_b_row": {
+        "page": "Valerion Targaryen",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Prince",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "77\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "78\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Jaehaerys I Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Alysanne Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Valerion Targaryen",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 47636
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Varys",
+      "raw_html_path": "sources/wiki/_raw/Varys.json",
+      "track_b_row": {
+        "page": "Varys",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 1,
+          "source": "cite_ref",
+          "pov": "Prologue"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Master of whisperers",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Undergaoler",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "as Rugen"
+          },
+          {
+            "field": "Titles",
+            "target": "Rugen",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "as Rugen"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward",
+            "qualifier": "Aegon VI Targaryen faction"
+          },
+          {
+            "field": "Allegiance",
+            "target": "Aegon VI Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward",
+            "qualifier": "Aegon VI Targaryen faction"
+          },
+          {
+            "field": "Born",
+            "target": "Lys",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Lord Varys",
+          "The King's Spider",
+          "The eunuch",
+          "The Spider",
+          "Varys the Spider",
+          "Rugen",
+          "Lord Eunuch"
+        ],
+        "cite_refs": {
+          "agot": [
+            12,
+            18,
+            19,
+            20,
+            25,
+            30,
+            32,
+            33,
+            43,
+            45,
+            47,
+            49,
+            51,
+            57,
+            58,
+            65,
+            69
+          ],
+          "acok": [
+            3,
+            8,
+            15,
+            25,
+            29,
+            41,
+            44,
+            54,
+            55,
+            65
+          ],
+          "asos": [
+            8,
+            12,
+            19,
+            32,
+            36,
+            37,
+            53,
+            54,
+            57,
+            62,
+            66,
+            68,
+            71,
+            72,
+            77
+          ],
+          "affc": [
+            3,
+            4,
+            7,
+            8,
+            17,
+            24,
+            27
+          ],
+          "adwd": [
+            1,
+            5,
+            22,
+            24,
+            63,
+            67,
+            70,
+            72
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Varys",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 17,
+          "acok": 10,
+          "asos": 15,
+          "affc": 7,
+          "adwd": 8
+        },
+        "has_infobox": true,
+        "byte_size": 159271
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-eddard-14",
+          "line": 35,
+          "context": "| Petyr Baelish (Littlefinger) | Small council member | No | Reports task accomplished; supports Ned physically; ultimately betrays him |\n| Varys | Small council member | No | Reports Renly's departur"
+        },
+        {
+          "chapter": "agot-eddard-14",
+          "line": 53,
+          "context": "| Petyr Baelish (Littlefinger) | | | | | Blue velvets, silver mockingbird cape; dusty boots from riding | | | |\n| Varys | | | Plump face | | Soft slippers | | Pink from bath, scrubbed and freshly powd"
+        },
+        {
+          "chapter": "agot-eddard-14",
+          "line": 64,
+          "context": "| Robert Baratheon | Just died; his final letter names Ned Protector of the Realm | Pycelle, Ned, Barristan, Cersei |\n| Renly Baratheon | Fled the city an hour before dawn with Loras Tyrell and fifty "
+        },
+        {
+          "chapter": "agot-eddard-14",
+          "line": 65,
+          "context": "| Renly Baratheon | Fled the city an hour before dawn with Loras Tyrell and fifty retainers, heading south | Varys |\n| Ser Loras Tyrell | Accompanied Renly's departure from the city | Varys |\n| Stanni"
+        },
+        {
+          "chapter": "agot-eddard-14",
+          "line": 118,
+          "context": "9. **Littlefinger reports task complete** \u2014 Arrives in last night's clothes with dusty boots; tells Ned the task Ned set him is accomplished.\n10. **Varys reports Renly's flight** \u2014 Renly left through "
+        },
+        {
+          "chapter": "agot-eddard-14",
+          "line": 121,
+          "context": "12. **Ned withholds the succession truth** \u2014 Internally reflects that \"the heir\" is already of age (referring to Stannis), but keeps silent, planning to wait until his daughters are safe and Stannis h"
+        },
+        {
+          "chapter": "agot-eddard-14",
+          "line": 129,
+          "context": "20. **Joffrey demands coronation** \u2014 Commands coronation within the fortnight and oaths of fealty from councillors.\n21. **Ned presents Robert's letter to Cersei** \u2014 Has Varys carry it to her. Cersei r"
+        },
+        {
+          "chapter": "agot-eddard-14",
+          "line": 147,
+          "context": "| Opening | Sandor Clegane | Galloping across yard | Yard below Ned's window | Drives lance through dummy's head |\n| Assembly | Pycelle, Barristan, Littlefinger, Varys | Arrive at Ned's solar one by o"
+        },
+        {
+          "chapter": "agot-eddard-14",
+          "line": 167,
+          "context": "| King Robert is dead | Pycelle announces it to Ned | Ned, Pycelle, and soon the council | No |\n| Renly has fled the city with Loras Tyrell and fifty retainers, heading south | Varys reports to the co"
+        },
+        {
+          "chapter": "agot-eddard-14",
+          "line": 170,
+          "context": "| Ned intends to eventually name Stannis as true heir, not Joffrey | Ned's internal thoughts; he withholds this from the council initially | Ned only (at first) | Yes \u2014 reader learns Ned's plan via PO"
+        },
+        {
+          "chapter": "agot-eddard-14",
+          "line": 187,
+          "context": "| Littlefinger | Ned/council | \"That little task you set me is accomplished, Lord Eddard.\" | Claiming he secured the gold cloaks |\n| Varys | Council | \"Lord Renly has left the city... He took his leav"
+        },
+        {
+          "chapter": "agot-eddard-14",
+          "line": 214,
+          "context": "| Eddard Stark | Deep grief for | Robert Baratheon | \"Something died within him\"; would give all titles to weep; personal eulogy |\n| Eddard Stark | Distrusts | Grand Maester Pycelle | Internal: \"He tr"
+        },
+        {
+          "chapter": "agot-eddard-14",
+          "line": 215,
+          "context": "| Eddard Stark | Distrusts | Grand Maester Pycelle | Internal: \"He trusted neither Pycelle nor Varys\" |\n| Eddard Stark | Distrusts | Varys | Internal: \"He trusted neither Pycelle nor Varys\" |\n| Eddard"
+        },
+        {
+          "chapter": "agot-eddard-14",
+          "line": 237,
+          "context": "|----------|-----------|---------|\n| Why did Renly flee instead of supporting Ned? | Ned's surprise at the report | Varys says Renly left with Loras and fifty retainers toward Storm's End or Highgarde"
+        },
+        {
+          "chapter": "agot-eddard-14",
+          "line": 247,
+          "context": "### Characters\nEddard Stark, Sansa Stark, Arya Stark, Septa Mordane, Sandor Clegane (the Hound), Grand Maester Pycelle, Ser Barristan Selmy, Petyr Baelish (Littlefinger), Varys, Tomard (Fat Tom), Jano"
+        },
+        {
+          "chapter": "agot-arya-04",
+          "line": 60,
+          "context": "| The man with the yellow beard (Illyrio Mopatis, inferred) | Arya recalls him saying \"If one Hand can die, why not a second?\" from when she found the monsters | Arya (memory) |\n| The wizard (Varys, i"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 13,
+          "context": "- **time_markers:** \"pale dawn light\" at chapter opening; morning mists off the river; \"the camp was beginning to stir\" (early morning); breakfast at a trestle table by the river; tournament resumes a"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 18,
+          "context": "- **Season indicators:** None explicitly stated\n- **Time of day:** Pale dawn light at opening; morning through afternoon tournament; feast that night; well past midnight for Varys's visit\n- **Lighting"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 21,
+          "context": "- **Sounds:** Fat sausages sizzling and spitting over firepits; goose honking; horns blowing for the jousts; wood shattering (lances); cheers, shrieks, whistles, shocked gasps; rasping raucous laughte"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 27,
+          "context": "|-----------|----------------|-------------------|-------|\n| Eddard Stark | POV character | No | Hand of the King; observes tournament, reflects on mystery, meets Varys |\n| Ser Barristan Selmy | Suppo"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 38,
+          "context": "| Arya Stark | Supporting | No | Shows bruise from training; reports on Syrio's lessons |\n| Varys | Major | No | Visits Ned in disguise; reveals assassination plot and Jon Arryn's poisoning |\n| Lancel"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 40,
+          "context": "| Lancel Lannister | Minor | Yes (uncertain \u2014 verify) | One of Robert's two squires; named directly by Robert |\n| Harwin | Minor | No | Guard at Ned's door; announces Varys's arrival |\n| Anguy | Minor"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 56,
+          "context": "| Ser Loras Tyrell | | | Slender as a reed | | Fabulous silver armor polished to a blinding sheen, filigreed with twining black vines and tiny blue forget-me-nots (sapphires); cloak woven of hundreds "
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 64,
+          "context": "|-----------|---------------------|---------------|\n| Ser Hugh of the Vale | Dead; body viewed; former squire to Jon Arryn | Barristan, Ned, Varys |\n| Jon Arryn | Former Hand; knighted Hugh; his death"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 65,
+          "context": "| Ser Hugh of the Vale | Dead; body viewed; former squire to Jon Arryn | Barristan, Ned, Varys |\n| Jon Arryn | Former Hand; knighted Hugh; his death is central mystery; poisoned with tears of Lys | Ba"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 66,
+          "context": "| Jon Arryn | Former Hand; knighted Hugh; his death is central mystery; poisoned with tears of Lys | Barristan, Robert, Ned, Varys |\n| Cersei Lannister | Forbade Robert from melee; absent from tournam"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 94,
+          "context": "| Lysa Arryn | Holds her silence behind the Eyrie's walls | Ned's thoughts |\n| Grand Maester Pycelle | Loves his office | Varys |\n| Moon Boy | Robert compares Jon Arryn to \"a bigger fool than Moon Boy"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 96,
+          "context": "| Moon Boy | Robert compares Jon Arryn to \"a bigger fool than Moon Boy\" | Robert |\n| Ser Ilyn Payne | Royal executioner; Varys warns Ned about him | Varys, Robert (implied) |\n| Ser Boros Blount | Quee"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 97,
+          "context": "| Ser Ilyn Payne | Royal executioner; Varys warns Ned about him | Varys, Robert (implied) |\n| Ser Boros Blount | Queen's creature to the bone | Varys |\n| Ryam Redwyne | Past Kingsguard of legendary ho"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 98,
+          "context": "| Ser Boros Blount | Queen's creature to the bone | Varys |\n| Ryam Redwyne | Past Kingsguard of legendary honor | Varys |\n| Prince Aemon the Dragonknight | Past Kingsguard of legendary honor | Varys |"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 99,
+          "context": "| Ryam Redwyne | Past Kingsguard of legendary honor | Varys |\n| Prince Aemon the Dragonknight | Past Kingsguard of legendary honor | Varys |\n| Robert's acknowledged bastard | Boy of Bran's age; highbo"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 114,
+          "context": "| Archery field | Anguy wins competition | Yes (uncertain \u2014 verify) |\n| Tower of the Hand | Ned's chambers; Varys's late-night visit | No |\n| King's Landing | Referenced as broader setting | No |"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 118,
+          "context": "| Storm's End | Robert's acknowledged bastard fostered there | No |\n| Casterly Rock | Referenced by Varys regarding Lannister power | No |\n| Winterfell | Ned longs to return; Hodor mentioned there | N"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 159,
+          "context": "| Feast that night | | | Ned, Sansa, Arya, Jory | Feast hall | Robert in high good humor; Lannisters nowhere to be seen |\n| Late-night wine | | Summerwine \u2014 \"very choice\" per Varys | Ned and Varys | N"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 184,
+          "context": "17. **Ned reflects in his chambers** \u2014 He studies the Valyrian steel dagger. Considers the mystery: Jon Arryn's death, Bran's fall, the dagger, Ser Hugh's death. He reviews what he knows of Robert's b"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 203,
+          "context": "| Departure | Ned, Sansa, Arya | Through the city back to the Red Keep | Ned sees girls safe in bed | |\n| Arrival | Varys | Enters Ned's chambers atop Tower of the Hand | Past Porther, Cayn (outside t"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 217,
+          "context": "| Loras likely used a mare in heat to unsettle Gregor's stallion | Littlefinger observes aloud | Littlefinger, Renly, Ned, Barristan | No |\n| The Lannisters planned to kill Robert during the melee | V"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 218,
+          "context": "| The Lannisters planned to kill Robert during the melee | Varys reveals to Ned | Ned, Varys (Lannisters know their own plot) | No |\n| Cersei's prohibition was calculated to force Robert into the mele"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 219,
+          "context": "| Cersei's prohibition was calculated to force Robert into the melee | Varys reveals to Ned | Ned, Varys | No |\n| Jon Arryn was poisoned with the tears of Lys | Varys reveals to Ned | Ned, Varys | No "
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 220,
+          "context": "| Jon Arryn was poisoned with the tears of Lys | Varys reveals to Ned | Ned, Varys | No |\n| Tears of Lys is rare, costly, clear as water, leaves no trace | Varys reveals to Ned | Ned, Varys | No |\n| S"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 221,
+          "context": "| Tears of Lys is rare, costly, clear as water, leaves no trace | Varys reveals to Ned | Ned, Varys | No |\n| Ser Hugh likely administered the poison to Jon Arryn | Varys strongly implies to Ned | Ned,"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 222,
+          "context": "| Ser Hugh likely administered the poison to Jon Arryn | Varys strongly implies to Ned | Ned, Varys | No |\n| Ser Hugh was killed at the tourney before Ned could question him \u2014 possibly deliberate | Va"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 223,
+          "context": "| Ser Hugh was killed at the tourney before Ned could question him \u2014 possibly deliberate | Varys implies to Ned | Ned, Varys | No |\n| Jon Arryn was killed because he was \"asking questions\" | Varys tel"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 224,
+          "context": "| Jon Arryn was killed because he was \"asking questions\" | Varys tells Ned | Ned, Varys | No |\n| Varys tested Ned's loyalty by watching his behavior before approaching | Varys admits to Ned | Ned, Var"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 225,
+          "context": "| Varys tested Ned's loyalty by watching his behavior before approaching | Varys admits to Ned | Ned, Varys | No |\n| Among the Kingsguard, only Ser Barristan is trustworthy; Ser Boros and Ser Meryn ar"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 227,
+          "context": "| Lord Stannis has not returned to King's Landing for the tourney | Ned's reflection | Ned | Yes |\n| The Red Keep has secret passages known only to \"ghosts and spiders\" | Varys tells Ned | Ned, Varys "
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 228,
+          "context": "| The Red Keep has secret passages known only to \"ghosts and spiders\" | Varys tells Ned | Ned, Varys | No |\n| Varys begged Jon Arryn to use a taster but Jon refused | Varys tells Ned | Ned, Varys | No"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 246,
+          "context": "| Arya | Ned | \"Syrio says that every hurt is a lesson, and every lesson makes you better.\" | Justifying her bruises |\n| Varys | Ned | \"You are the King's Hand, and the king is a fool.\" | Beginning hi"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 247,
+          "context": "| Varys | Ned | \"You are the King's Hand, and the king is a fool.\" | Beginning his revelations |\n| Varys | Ned | \"I command whisperers, not warriors.\" | When Ned asks why Varys did nothing about the p"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 248,
+          "context": "| Varys | Ned | \"I command whisperers, not warriors.\" | When Ned asks why Varys did nothing about the plot |\n| Varys | Ned | \"The Red Keep shelters two sorts of people, Lord Eddard. Those who are loya"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 249,
+          "context": "| Varys | Ned | \"The Red Keep shelters two sorts of people, Lord Eddard. Those who are loyal to the realm, and those who are loyal only to themselves.\" | Explaining why he tested Ned |\n| Varys | Ned |"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 250,
+          "context": "| Varys | Ned | \"Ser Barristan loves his honor, Grand Maester Pycelle loves his office, and Littlefinger loves Littlefinger.\" | Assessing Robert's supposed allies |\n| Varys | Ned | \"A paper shield.\" |"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 251,
+          "context": "| Varys | Ned | \"A paper shield.\" | Describing the Kingsguard's unreliability |\n| Varys | Ned | \"The tears of Lys, they call it. A rare and costly thing, clear and sweet as water, and it leaves no tra"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 252,
+          "context": "| Varys | Ned | \"The tears of Lys, they call it. A rare and costly thing, clear and sweet as water, and it leaves no trace.\" | Revealing the murder weapon used on Jon Arryn |\n| Varys | Ned | \"Asking q"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 255,
+          "context": "## POV Character's Internal State\n- **Emotional state:** Exhausted and grieving at the start (slept badly, tired beyond his years); conflicted between duty and desire to return to the north; briefly h"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 257,
+          "context": "- **Primary preoccupation:** The interconnected mystery \u2014 Jon Arryn's murder, Bran's fall, the dagger, and the Lannisters' involvement. Secondarily: keeping Robert safe and alive; worry about Lanniste"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 258,
+          "context": "- **Key decisions made:** Orders Ser Hugh's armor sent to his mother and will deal with the smith; convinces Robert not to fight in the melee (with Barristan's help); decides to continue investigating"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 276,
+          "context": "| Littlefinger | wagers against/banter with | Lord Renly | Bet of a hundred gold dragons on the jousts; competitive repartee |\n| Varys | secret counselor to | Eddard Stark | Comes in disguise to warn "
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 277,
+          "context": "| Varys | secret counselor to | Eddard Stark | Comes in disguise to warn Ned; proposes alliance |\n| Varys | distrusts | Littlefinger | \"Littlefinger loves Littlefinger\" |\n| Varys | respects loyalty of"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 278,
+          "context": "| Varys | distrusts | Littlefinger | \"Littlefinger loves Littlefinger\" |\n| Varys | respects loyalty of | Ser Barristan Selmy | \"Only Ser Barristan Selmy is made of the true steel\" |\n| Cersei Lannister"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 279,
+          "context": "| Varys | respects loyalty of | Ser Barristan Selmy | \"Only Ser Barristan Selmy is made of the true steel\" |\n| Cersei Lannister | manipulates | Robert Baratheon | Varys asserts she forbade Robert from"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 291,
+          "context": "|----------|-----------|---------|\n| Was Ser Hugh killed deliberately to prevent Ned from questioning him? | Ned's reflection; Varys's implication | Hugh was Jon Arryn's squire; slain by a Lannister b"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 292,
+          "context": "| Was Ser Hugh killed deliberately to prevent Ned from questioning him? | Ned's reflection; Varys's implication | Hugh was Jon Arryn's squire; slain by a Lannister bannerman before Ned could speak to "
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 293,
+          "context": "| Who specifically ordered or gave the tears of Lys to Ser Hugh? | Ned asks Varys | Varys says only \"some dear sweet friend\" \u2014 refuses to name who provided the poison |\n| What questions was Jon Arryn "
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 294,
+          "context": "| What questions was Jon Arryn asking that got him killed? | Ned asks Varys | Varys's only answer is \"asking questions\" \u2014 the specific subject is not revealed |\n| Why would Ser Hugh poison Jon Arryn, "
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 295,
+          "context": "| Why would Ser Hugh poison Jon Arryn, the man who made him everything? | Raised by the situation | Varys implies Hugh betrayed his master but does not explain his motivation |\n| Who among the forty m"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 299,
+          "context": "| What was the connection between the dagger, Bran's fall, and Jon Arryn's murder? | Ned's reflection | Ned feels they are linked but cannot see how |\n| Who are the Kingsguard members Varys has \"deep "
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 304,
+          "context": "### Characters\nEddard Stark (Ned), Robert Baratheon, Ser Barristan Selmy, Sandor Clegane (the Hound), Jaime Lannister (the Kingslayer), Ser Gregor Clegane (the Mountain That Rides), Ser Loras Tyrell ("
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 334,
+          "context": "### Titles & Offices\nKing (Robert), Hand of the King (Ned; formerly Jon Arryn), Lord Commander of the Kingsguard (implied \u2014 Barristan), Master of Whisperers (Varys, implied), King's Justice (Ser Ilyn "
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 21,
+          "context": "- **Sounds:** \"Music and raucous laughter\" from the brothel; a fat woman singing bawdy songs inside; shouting men in the castle yard\n- **Smells:** Varys smells \"as foul and sweet as flowers on a grave"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 28,
+          "context": "| Eddard Stark | POV character, newly arrived Hand of the King | No | Arrives at Red Keep, attends council, meets Catelyn secretly |\n| Varys | Small council member (Master of Whisperers) | Yes (uncert"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 43,
+          "context": "| Littlefinger | \u2014 | Grey-green | \u2014 | \u2014 | \u2014 | \u2014 | Little pointed chin beard; smile that borders on insolence | \u2014 |\n| Varys | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | \u2014 | Eunuch; hands leave powder stains; smells foul and "
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 50,
+          "context": "|-----------|---------------------|---------------|\n| Robert Baratheon | King who commanded the tournament; absent from council; reportedly traveling in the wheelhouse, drunk | Varys, Renly, Littlefin"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 51,
+          "context": "| Robert Baratheon | King who commanded the tournament; absent from council; reportedly traveling in the wheelhouse, drunk | Varys, Renly, Littlefinger, Ned's thoughts |\n| Stannis Baratheon | Took him"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 52,
+          "context": "| Stannis Baratheon | Took himself to Dragonstone after the king went north | Varys |\n| Ser Barristan Selmy | Lord Commander of the Kingsguard, riding beside the king | Varys |\n| Jon Arryn | Former Ha"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 58,
+          "context": "| Arya Stark | Lost/brooding after the butcher's boy's death; not to go exploring | Ned's thoughts, Ned's instructions to Poole |\n| Joffrey Baratheon | Called \"Prince Joffrey\"; Varys says candles lit "
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 73,
+          "context": "| Cersei Lannister (the queen) | \"We have a wolf\" \u2014 her words when Arya was found; possible role in conspiracy | Ned's thoughts, Littlefinger |\n| Ser Aron Santagar | Ser Rodrik spoke to him in secrecy"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 138,
+          "context": "4. **Ned instructs Vayon Poole** \u2014 Orders his steward to see his daughters to their bedchambers and have Jory keep them there; specifically says Arya is not to go exploring.\n5. **Ned enters the counci"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 139,
+          "context": "5. **Ned enters the council chambers** \u2014 Finds four councillors waiting: Varys, Renly, Littlefinger, and Grand Maester Pycelle.\n6. **Varys greets Ned with concern about Joffrey** \u2014 Mentions visiting t"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 151,
+          "context": "17. **Ned is reunited with Catelyn** \u2014 She embraces him fiercely; she has been receiving reports from Littlefinger.\n18. **Catelyn tells Ned about the assassination attempt** \u2014 The fire in the library "
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 154,
+          "context": "20. **Catelyn reveals she told Littlefinger their suspicions about Jon Arryn's death** \u2014 Littlefinger has promised to help find the truth.\n21. **Catelyn warns about Varys's knowledge** \u2014 Ser Rodrik sp"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 163,
+          "context": "| Assembly | Ned | Enters council chambers; takes chair at right hand of king's seat | Council table, head of table | King's seat empty |\n| Assembly | Varys, Renly, Littlefinger, Pycelle | Already in "
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 182,
+          "context": "| Aerys Targaryen left a full treasury | Ned states it; others don't dispute it | Council members | No |\n| Stannis has gone to Dragonstone | Varys reports at council | Council members | No |\n| Catelyn"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 184,
+          "context": "| Catelyn is secretly in King's Landing | Littlefinger reveals to Ned | Catelyn, Littlefinger, Ser Rodrik; now Ned | No |\n| Assassination attempt on Bran \u2014 catspaw with Valyrian steel dagger | Catelyn"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 187,
+          "context": "| Bran's direwolf saved his life | Catelyn tells Ned | Catelyn, Ned | No |\n| Varys has learned of Ser Rodrik's secret conversation with Ser Aron Santagar | Catelyn reports this to Ned | Catelyn, Ser R"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 189,
+          "context": "| Littlefinger owns the brothel | Littlefinger states it | Ned, Catelyn, Littlefinger | No |\n| Littlefinger claims leverage over Varys | Littlefinger states metaphorically | Ned, Catelyn | No |\n| Ned "
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 211,
+          "context": "| Littlefinger | Ned, Catelyn | \"I am desperately sentimental, sweet lady. Best not tell anyone. I have spent years convincing the court that I am wicked and cruel, and I should hate to see all that h"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 219,
+          "context": "- **Key decisions made:** Agrees to attend the council; adjourns the meeting over the tournament; refuses to drop the dagger in the river; accepts Littlefinger's help reluctantly; sends Catelyn home w"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 224,
+          "context": "|-------------|-------------|-------------|----------|\n| Ned | distrusts / dislikes | Varys | \"The councillor Ned liked least, the eunuch Varys\" |\n| Ned | distrusts / hostile toward | Littlefinger | C"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 233,
+          "context": "| Renly | mocks / irreverent toward | Robert Baratheon | \"If we wait for my brother to grace us with his royal presence, it could be a long sit\" |\n| Varys | deferential to | Ned | \"We serve at your pl"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 240,
+          "context": "| Ned | remembers with complicated feeling | Robert | Recalls Robert's callousness about Rhaegar's son, the butcher's boy; questions who Robert has become |\n| Littlefinger | claims leverage over | Var"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 241,
+          "context": "| Littlefinger | claims leverage over | Varys | \"I hold the man's balls in the palm of my hand\" (metaphorical) |\n| Catelyn | fears | Varys | \"I fear that man\" \u2014 his ability to learn secrets |\n| Ned | "
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 253,
+          "context": "| Was Jon Arryn murdered, and by whom? | Ned, Catelyn | Catelyn told Littlefinger their suspicions; Littlefinger promised to help investigate |\n| How does Varys learn secrets that should be unknown? |"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 254,
+          "context": "| How does Varys learn secrets that should be unknown? | Catelyn, Ned | Varys knew of Ser Rodrik's secret conversation with Ser Aron Santagar |\n| Why did Stannis leave for Dragonstone after the king w"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 261,
+          "context": "### Characters\nEddard Stark, Varys, Renly Baratheon, Petyr Baelish (Littlefinger), Grand Maester Pycelle, Catelyn Stark, Ser Rodrik Cassel, Vayon Poole, Robert Baratheon, Stannis Baratheon, Ser Barris"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 20,
+          "context": "- **Lighting:** Ned's chamber is completely dark; moonlight in the inner bailey and on the bridge over the dry moat (\"moonlight silvered the cruel edges of the spikes\"); Ser Boros's white armor \"ghost"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 32,
+          "context": "| Grand Maester Pycelle | Tending to Robert's wound | No | Hands shaking, offers milk of the poppy |\n| Varys | Appears outside the bedchamber, questions the wine, departs | No | Wearing black velvet r"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 49,
+          "context": "| Cersei Lannister | Tousled, as if from sleep | Nothing sleepy in her eyes | | | Skirts (gathered when leaving) | | | |\n| Varys | | | | | Black velvet robe brushing the floor, soft-soled slippers | |"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 62,
+          "context": "| Joffrey Baratheon | Named in Robert's will as heir; discussed extensively in succession debate; Littlefinger describes him as twelve years old | Robert, Ned, Renly, Littlefinger |\n| Daenerys Targary"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 64,
+          "context": "| Stannis Baratheon | Named as rightful heir by Ned; discussed at length in succession debate; Ned writes him a letter | Ned, Littlefinger |\n| Lancel Lannister | Identified as the squire who kept Robe"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 65,
+          "context": "| Lancel Lannister | Identified as the squire who kept Robert supplied with wine during the hunt | Ser Barristan, Varys |\n| Ser Kevan Lannister | Lancel's father | Varys |\n| Lord Tywin Lannister | Lan"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 66,
+          "context": "| Ser Kevan Lannister | Lancel's father | Varys |\n| Lord Tywin Lannister | Lancel's uncle; threat of Lannister military response discussed | Varys, Littlefinger, Ned |\n| Jaime Lannister | Named as tru"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 138,
+          "context": "| Robert's funeral feast (requested) | Boar | | | | Robert requests: \"Serve the boar at my funeral feast. Apple in its mouth, skin seared crisp. Eat the bastard.\" |\n| Hunt (referenced) | | Wine from t"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 160,
+          "context": "14. **Ned instructs Ser Barristan** \u2014 Ned tells Barristan that no one may disturb Robert without Ned's leave. Barristan expresses that he has \"failed my sacred trust.\"\n15. **Varys appears and question"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 161,
+          "context": "15. **Varys appears and questions the wine** \u2014 Varys materializes and asks who gave Robert the wine. Ser Barristan identifies Lancel, the king's squire, as the one who kept fetching fresh wineskins. V"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 169,
+          "context": "23. **Ned thinks of home** \u2014 Ned reflects that his regency will be short and thinks longingly of Winterfell \u2014 Bran's laughter, hawking with Robb, watching Rickon play, sleeping beside Catelyn.\n24. **L"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 186,
+          "context": "| Departure | Ned | Exits bedchamber, encounters Ser Barristan at the door | Maegor's Holdfast stairs | Gives Barristan orders about guarding Robert |\n| Confrontation | Varys | Appears quietly near Ne"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 205,
+          "context": "| Robert says the gods sent the boar to punish him for the Daenerys decision | Robert tells Ned | Ned, Robert | No |\n| Lancel Lannister kept Robert supplied with wine during the hunt | Ser Barristan t"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 206,
+          "context": "| Lancel Lannister kept Robert supplied with wine during the hunt | Ser Barristan tells Ned; Varys draws attention to it | Ned, Ser Barristan, Varys | No |\n| Lancel is Ser Kevan Lannister's son, nephe"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 207,
+          "context": "| Lancel is Ser Kevan Lannister's son, nephew to Tywin, cousin to the queen | Varys states this | Ned, Varys, Ser Barristan | No |\n| Varys implies the wine supply was deliberately excessive | Varys's "
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 218,
+          "context": "| Gregor Clegane's head has been delivered (by Ser Robar) | Robert mentions it in delirium | Ned | No |\n| Varys quickly learned about the regency and told Littlefinger | Littlefinger reveals this | Ne"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 226,
+          "context": "| Robert | Ned | \"The girl. Daenerys. Only a child, you were right \u2026 that's why, the girl \u2026 the gods sent the boar \u2026 sent to punish me \u2026\" | Expressing regret over the assassination attempt |\n| Robert "
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 234,
+          "context": "| Ser Barristan | Ned | \"I have failed my sacred trust.\" | Guilt over Robert's mortal wound |\n| Varys | Ser Barristan | \"I wonder, Ser Barristan, who gave the king this wine?\" | Implying foul play in "
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 235,
+          "context": "| Varys | Ser Barristan | \"I wonder, Ser Barristan, who gave the king this wine?\" | Implying foul play in Robert's death |\n| Varys | Ned, Ser Barristan | \"Such a dutiful boy \u2026 Ser Kevan Lannister's so"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 266,
+          "context": "| Eddard Stark | Reassurance / respect | Ser Barristan Selmy | \"Even the truest knight cannot protect a king against himself\" |\n| Varys | Suspicion / implication | Lancel Lannister | Pointedly identif"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 267,
+          "context": "| Varys | Suspicion / implication | Lancel Lannister | Pointedly identifies Lancel's Lannister connections and role in supplying wine |\n| Varys | Information broker | Littlefinger | Hinted at the rege"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 268,
+          "context": "| Varys | Information broker | Littlefinger | Hinted at the regency to Littlefinger |\n| Eddard Stark | Distrust | Varys | \"Damn Varys and his little birds \u2026 I do not trust him\" |\n| Littlefinger | Poli"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 283,
+          "context": "|----------|-----------|---------|\n| Was Robert's death deliberately engineered through the wine supply? | Varys's pointed questions | Varys asks who gave the king wine; Lancel kept fetching fresh ski"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 285,
+          "context": "| Will Cersei flee King's Landing before Robert dies? | Ned's internal hope | Ned thinks if she had sense she would take her children and fly, but she has \"lingered too long already\" |\n| Can the assas"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 297,
+          "context": "### Characters\nEddard Stark, Robert Baratheon, Cersei Lannister, Lord Renly Baratheon, Grand Maester Pycelle, Varys, Petyr Baelish (Littlefinger), Ser Barristan Selmy, Ser Boros Blount, Ser Preston Gr"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 321,
+          "context": "### Magic & Phenomena\nVarys's intelligence network (\"little birds,\" \"some black art\"), Ned's prophetic/haunting dream of the Winterfell crypts (Lyanna's statue whispers, eyes weep blood)"
+        },
+        {
+          "chapter": "agot-sansa-05",
+          "line": 31,
+          "context": "| Grand Maester Pycelle | Reads royal decrees | No | Seated at council table |\n| Lord Varys | Council member | No | Enters quietly; speaks gently to Ser Barristan; comments on Sansa's plea |\n| Petyr B"
+        },
+        {
+          "chapter": "agot-sansa-05",
+          "line": 65,
+          "context": "| Eddard Stark | Imprisoned; named traitor; Sansa pleads for mercy | Sansa, Pycelle, Cersei, Joffrey, herald |\n| Tywin Lannister | Named new Hand of the King | Pycelle (reading decree); Varys (offerin"
+        },
+        {
+          "chapter": "agot-sansa-05",
+          "line": 154,
+          "context": "3. **Sansa mingles with lords** \u2014 She tries to greet lords and knights but is shunned; Lord Gyles feigns coughing, Ser Dontos is warned off by Ser Balon Swann. Only about twenty lords are present wher"
+        },
+        {
+          "chapter": "agot-sansa-05",
+          "line": 160,
+          "context": "9. **Janos Slynt elevated** \u2014 Pycelle reads decree raising Slynt to lord, granting him Harrenhal and a council seat. Slynt enters with sons carrying his new shield bearing a bloody spear sigil. Lords "
+        },
+        {
+          "chapter": "agot-sansa-05",
+          "line": 164,
+          "context": "13. **Barristan departs** \u2014 He walks out through the silent hall; lords part for him; the doors close behind him.\n14. **Joffrey reacts** \u2014 Joffrey complains Barristan called him \"boy\" and mentioned St"
+        },
+        {
+          "chapter": "agot-sansa-05",
+          "line": 177,
+          "context": "| Opening | Pycelle | Seated at council table | | Seemingly asleep |\n| Arrival | Varys | Hurries into the hall | | Feet making no sound |\n| Arrival | Littlefinger | Enters through tall doors in rear |"
+        },
+        {
+          "chapter": "agot-sansa-05",
+          "line": 226,
+          "context": "| Ser Barristan | Court | \"The Kingslayer. The false knight who profaned his blade with the blood of the king he had sworn to defend.\" | On hearing Jaime named Lord Commander |\n| Varys | Ser Barristan"
+        },
+        {
+          "chapter": "agot-sansa-05",
+          "line": 239,
+          "context": "| Sansa | Joffrey | \"His leg was broken\u2026 Maester Pycelle was giving him milk of the poppy, and they say that milk of the poppy fills your head with clouds.\" | Explaining away Eddard's treason claim |\n"
+        },
+        {
+          "chapter": "agot-sansa-05",
+          "line": 263,
+          "context": "| Littlefinger | Mocks | Ser Barristan Selmy | \"A naked knight\" quip; \"and all of them dead\" |\n| Varys | Shows sympathy toward | Ser Barristan Selmy | Speaks \"gentler than the others\"; offers land and"
+        },
+        {
+          "chapter": "agot-sansa-05",
+          "line": 264,
+          "context": "| Varys | Shows sympathy toward | Ser Barristan Selmy | Speaks \"gentler than the others\"; offers land and keep |\n| Varys | Shows sympathy toward | Sansa Stark | Calls her \"poor sad thing\" and \"only a "
+        },
+        {
+          "chapter": "agot-sansa-05",
+          "line": 291,
+          "context": "### Characters\nSansa Stark, Joffrey Baratheon, Cersei Lannister, Grand Maester Pycelle, Lord Varys, Petyr Baelish (Littlefinger), Ser Barristan Selmy, Sandor Clegane (the Hound), Janos Slynt, Ser Mand"
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 29,
+          "context": "| Robert Baratheon | King; demands Daenerys's assassination | No | Described as furious, drinking wine, face purpling |\n| Varys | Councillor; reports Daenerys's pregnancy, advocates assassination | No"
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 42,
+          "context": "| Robert Baratheon | | | | | Velvet collar | | Face flushes/purples with rage; angry pointing finger | |\n| Varys | | | | | | | Powdered hands; powdered cheek; soft hands; sly smile; unctuous manner | "
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 53,
+          "context": "| Viserys Targaryen | Robert wants him dead too; Renly says they should have been killed years ago | Robert, Renly |\n| Khal Drogo | Father of Daenerys's unborn child; would not know of a poisoning | V"
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 54,
+          "context": "| Khal Drogo | Father of Daenerys's unborn child; would not know of a poisoning | Varys |\n| Jorah Mormont (Ser Jorah) | Varys's informant who reported the pregnancy; craves a royal pardon | Varys, Ned"
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 69,
+          "context": "| Jory Cassel | Ned tells Poole to inform Jory; Littlefinger mentions Jory has been searching for a brothel \"ineffectually\" | Ned, Littlefinger |\n| The Dothraki (people) | Ned dismisses their threat; "
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 98,
+          "context": "| Catelyn's dagger (\"the Imp's knife\") | Ned slides it from the sheath on his belt while brooding; connects it to the attempt on Bran's life | No | Ned's belt sheath |\n| Tears of Lys | Varys suggests "
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 112,
+          "context": "## Events & Actions\n1. **Small council debates assassination of Daenerys Targaryen** \u2014 Robert demands the death of Daenerys, her unborn child, and Viserys after Varys reports Daenerys is pregnant with"
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 115,
+          "context": "3. **Ned recounts Barristan's sparing at the Trident** \u2014 He reminds Robert how he showed mercy to Ser Barristan after the battle, when Roose Bolton urged killing him.\n4. **Council members voice suppor"
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 116,
+          "context": "4. **Council members voice support for assassination** \u2014 Renly, Varys, Pycelle, and Littlefinger all support killing Daenerys in turn. Only Ser Barristan sides with Ned.\n5. **Varys proposes poison (te"
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 129,
+          "context": "17. **Tomard announces Littlefinger** \u2014 Ned reluctantly agrees to see him, reasoning he must \"play their games\" until he is free.\n18. **Littlefinger reports the council's decision** \u2014 Instead of hirin"
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 136,
+          "context": "|-------|-----|---------------------|-------------|-------|\n| Opening | Ned, Robert, Varys, Renly, Barristan, Pycelle, Littlefinger | Seated around the council table | Small council chambers | Full co"
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 149,
+          "context": "|-------------|-------------|----------------------|------------------------|\n| Daenerys Targaryen is pregnant | Varys reports to the council, citing Jorah Mormont as source | Entire small council | N"
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 150,
+          "context": "| Daenerys Targaryen is pregnant | Varys reports to the council, citing Jorah Mormont as source | Entire small council | No |\n| Jorah Mormont is Varys's informant and craves a royal pardon | Varys sta"
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 183,
+          "context": "| Littlefinger | Ned | \"I did the Targaryen girl more good than you with all your talk of honor.\" | Claims his pragmatism saved Daenerys more than Ned's principles |\n| Varys | Council | \"The tears of "
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 199,
+          "context": "| Robert | Hates (enduringly) | Rhaegar Targaryen | \"Fifteen years dead, yet Robert hates him as much as ever\" |\n| Varys | Serves / manipulates | Robert | Reports intelligence, advocates assassination"
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 200,
+          "context": "| Varys | Serves / manipulates | Robert | Reports intelligence, advocates assassination while appearing reluctant |\n| Varys | Controls | Jorah Mormont | \"Ser Jorah would not dare deceive me\" \u2014 Mormont"
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 217,
+          "context": "| Littlefinger | Monitors | Jory Cassel | Knows Jory has been searching for a brothel \"ineffectually\" |\n| Pycelle | Suspicious of | Varys | Sleepy eyes flick open and squint suspiciously when Varys me"
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 235,
+          "context": "### Characters\nEddard Stark (Ned), Robert Baratheon, Varys, Renly Baratheon, Ser Barristan Selmy, Grand Maester Pycelle, Petyr Baelish (Littlefinger), Ser Boros Blount, Vayon Poole, Tomard (Tom), Daen"
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 247,
+          "context": "### Religions & Faiths\nNone explicitly invoked (Robert swears \"Gods\" as an exclamation; Varys mentions \"the gods in their caprice\")"
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 265,
+          "context": "### Titles & Offices\nHand of the King, King (of the Seven Kingdoms), Lord of Winterfell, Master of Whisperers (Varys's role implied), Master of Coin (Littlefinger's role implied), Grand Maester, Lord "
+        },
+        {
+          "chapter": "agot-sansa-04",
+          "line": 13,
+          "context": "- **time_markers:** \"the third day\"; \"the first day\"; \"late that night\" (first day); \"the second day\"; \"that evening\" (second day); \"at sunset on the second day\" (bells ring); \"that night\" (Sansa drea"
+        },
+        {
+          "chapter": "agot-sansa-04",
+          "line": 21,
+          "context": "- **Sounds:** Fighting \u2014 clash of sword on sword, grunts of pain, angry curses, shouts for help, moans of wounded and dying men (first day); Jeyne Poole's endless whimpers and sobs; great bell ringing"
+        },
+        {
+          "chapter": "agot-sansa-04",
+          "line": 33,
+          "context": "| Grand Maester Pycelle | Small council member | No | Argues Sansa carries \"traitor's seed\" |\n| Lord Varys | Small council member | No | Calls Eddard a traitor; has Eddard's seal; smells flowery |\n| S"
+        },
+        {
+          "chapter": "agot-sansa-04",
+          "line": 43,
+          "context": "| Queen Cersei | | Clear green eyes | | | High-collared black silk gown with a hundred dark red rubies sewn into bodice (neck to bosom), cut in teardrop shapes | | | |\n| Lord Varys | | | | | Black (mo"
+        },
+        {
+          "chapter": "agot-sansa-04",
+          "line": 51,
+          "context": "| Vayon Poole | Jeyne's father; Sansa notes he is a steward and does not even wear a sword | Sansa (internal), Jeyne |\n| Eddard Stark (Lord Eddard) | Accused of treason; arrested; his letter to Stanni"
+        },
+        {
+          "chapter": "agot-sansa-04",
+          "line": 96,
+          "context": "| Eddard's letter to Stannis | Torn, stiff with dried blood; broken direwolf seal in pale wax; found on captain of Stark household guard; invites Stannis to take the crown | Yes | Cersei/council |\n| E"
+        },
+        {
+          "chapter": "agot-sansa-04",
+          "line": 124,
+          "context": "8. **Ser Boros Blount escorts Sansa to the queen** \u2014 On the third morning, Sansa crosses the lowered drawbridge, sees a body impaled on iron spikes in the dry moat, and averts her eyes.\n9. **Council m"
+        },
+        {
+          "chapter": "agot-sansa-04",
+          "line": 126,
+          "context": "10. **Cersei orders Jeyne removed** \u2014 Cersei directs Ser Boros to take Jeyne to Littlefinger's apartments, telling Jeyne that Littlefinger will take her to see her father. Cersei wants Jeyne gone befo"
+        },
+        {
+          "chapter": "agot-sansa-04",
+          "line": 127,
+          "context": "11. **Sansa told her father is a traitor** \u2014 Varys declares Eddard a traitor. Pycelle claims Eddard betrayed his oath. Cersei shows Sansa a torn, bloodstained letter from Eddard to Stannis Baratheon, "
+        },
+        {
+          "chapter": "agot-sansa-04",
+          "line": 131,
+          "context": "15. **Cersei proposes a test of loyalty** \u2014 Sansa must write letters to her mother, Robb, Lysa Arryn, and Hoster Tully urging them to swear fealty to Joffrey and come to King's Landing.\n16. **Sansa ag"
+        },
+        {
+          "chapter": "agot-sansa-04",
+          "line": 143,
+          "context": "| Arrival | Sansa, Ser Boros | Enter council chambers | Red Keep | Ser Mandon Moore at the door |\n| Assembly | Cersei, Baelish, Pycelle, Varys, Sansa | Seated around long table | Council chambers | Ce"
+        },
+        {
+          "chapter": "agot-sansa-04",
+          "line": 151,
+          "context": "| King Robert is dead | Bells ringing at sunset on the second day; Sansa intuits it | Sansa (intuition); confirmed by mourning clothes at council | No |\n| Eddard Stark accused of treason | Varys state"
+        },
+        {
+          "chapter": "agot-sansa-04",
+          "line": 158,
+          "context": "| The fighting killed people in the Tower of the Hand | Jeyne reported bodies on the stairs, steps slick with blood | Sansa, Jeyne | No |\n| Varys possesses Eddard's seal | He stamps Sansa's letters wi"
+        },
+        {
+          "chapter": "agot-sansa-04",
+          "line": 169,
+          "context": "| Ser Boros | Cersei | \"I've brought the girl.\" | Presenting Sansa at the council chamber |\n| Varys | Sansa | \"Your father is a traitor, dear.\" | Blunt declaration at the council meeting |\n| Pycelle |"
+        },
+        {
+          "chapter": "agot-sansa-04",
+          "line": 176,
+          "context": "| Pycelle | Sansa | \"A child born of traitor's seed will find that betrayal comes naturally to her.\" | Pressuring Sansa by questioning her nature |\n| Varys | Council | \"Oh, so poignant. And yet, it is"
+        },
+        {
+          "chapter": "agot-sansa-04",
+          "line": 201,
+          "context": "| Petyr Baelish | Remembers | Catelyn Stark | Compares Sansa to young Cat unprompted |\n| Varys | Possesses | Eddard's seal | Uses it to stamp Sansa's letters |\n| Varys | Accuses | Eddard Stark | \"Your"
+        },
+        {
+          "chapter": "agot-sansa-04",
+          "line": 202,
+          "context": "| Varys | Possesses | Eddard's seal | Uses it to stamp Sansa's letters |\n| Varys | Accuses | Eddard Stark | \"Your father is a traitor, dear\" |\n| Pycelle | Accuses | Eddard Stark | Claims Eddard broke "
+        },
+        {
+          "chapter": "agot-sansa-04",
+          "line": 223,
+          "context": "### Characters\nSansa Stark, Jeyne Poole, Ser Boros Blount, Queen Cersei Lannister, Lord Petyr Baelish (Littlefinger), Grand Maester Pycelle, Lord Varys, Ser Mandon Moore, Ser Arys Oakheart, Eddard Sta"
+        },
+        {
+          "chapter": "agot-sansa-04",
+          "line": 241,
+          "context": "### Artifacts & Objects\nEddard's letter to Stannis (torn, bloodstained, direwolf seal), Eddard's seal (direwolf in pale wax \u2014 held by Varys), Lion brooch (gold with ruby eyes \u2014 Ser Boros's cloak clasp"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 13,
+          "context": "- **time_markers:** Arrival at King's Landing within the hour; Ser Rodrik's mother died forty years ago; voyage from White Harbor; Ser Rodrik ill for most of the voyage; Catelyn wakes at sunset (setti"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 21,
+          "context": "- **Sounds:** Clamor of the fish market audible from the harbor; pounding on door; fist hammering at door\n- **Smells:** Varys's breath smells of lilacs; Varys is perfumed\n- **Notable sensory details:*"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 22,
+          "context": "- **Smells:** Varys's breath smells of lilacs; Varys is perfumed\n- **Notable sensory details:** Pain throbbing in Catelyn's bandaged fingers; Varys's flesh is soft and moist; bedding stuffed with stra"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 31,
+          "context": "| Petyr Baelish (Littlefinger) | Master of coin; Catelyn's childhood acquaintance | Yes | Summoned Catelyn to the Red Keep |\n| Lord Varys | Master of whisperers | Yes | Knew about Catelyn's arrival an"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 40,
+          "context": "| Petyr Baelish (Littlefinger) | Dark hair with threads of silver | Laughing grey-green eyes | An inch or two shorter than Catelyn; slender and quick | | Cloak fastened with a silver mockingbird | | S"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 46,
+          "context": "|-----------|---------------------|---------------|\n| Bran Stark | Catelyn's injured son; the dagger was used in an attempt on his life; Varys expresses sorrow about him | Catelyn (thought), Varys |\n|"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 51,
+          "context": "| Lysa Arryn (Lysa Tully) | Catelyn's sister; Littlefinger claims friendship with her | Littlefinger |\n| Ser Aron Santagar | King's master-at-arms; described as vain but honest; Ser Rodrik visited him"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 54,
+          "context": "| Maegor the Cruel | Completed the Red Keep; beheaded all builders | Catelyn (thought) |\n| King Robert Baratheon | Current king; Varys professes love for him; rode north | Varys, Littlefinger |\n| Barr"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 58,
+          "context": "| Lord Stannis Baratheon | Gone to Dragonstone | Littlefinger |\n| Maester Pycelle | Remaining on the small council; makes a marvelous salve | Littlefinger, Varys |\n| Maester Luwin | Has tended Catelyn"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 79,
+          "context": "| Aegon's High Hill | Highest of the three hills; site of the Red Keep | Yes |\n| The Red Keep | Royal castle; where Catelyn meets Littlefinger and Varys | Yes |\n| Street of the Sisters | Runs between "
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 120,
+          "context": "| Inn's reputation | Fish stew (described by Moreo as \"the most savory in all the Seven Kingdoms\") | | | The inn on Eel Alley | Referenced but not shown being eaten |\n| Common room drinking | | Drinki"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 138,
+          "context": "9. **Catelyn meets Littlefinger** \u2014 He dismisses the guards. She confronts him about the summoning. He has changed little from boyhood \u2014 still small, slender, quick, with grey-green eyes and now a sil"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 139,
+          "context": "10. **Littlefinger explains Varys found her** \u2014 He tells her Varys's \"little birds\" detected her arrival. He claims he was the logical person for Varys to inform since Selmy and Renly rode north, Stan"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 141,
+          "context": "12. **Catelyn suspects Moreo informed on them** \u2014 She deduces the Tyroshi captain sold information about their identity and location.\n13. **Varys asks to see the dagger** \u2014 He knows about it, stunning"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 142,
+          "context": "13. **Varys asks to see the dagger** \u2014 He knows about it, stunning Catelyn. He explains Ser Rodrik visited Ser Aron Santagar at the armory, they discussed the dagger, then went to the inn together and"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 157,
+          "context": "| Confrontation | Catelyn, Littlefinger | Meeting in tower room; guards dismissed | Red Keep tower | Littlefinger was writing at a table when she entered |\n| Assembly | Varys | Joins Catelyn and Littl"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 166,
+          "context": "| Littlefinger is now master of coin on the small council | Ser Rodrik states it | Catelyn, Ser Rodrik | No |\n| Varys has a network of informants (\"little birds\") who detected Catelyn's arrival | Litt"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 167,
+          "context": "| Varys has a network of informants (\"little birds\") who detected Catelyn's arrival | Littlefinger tells Catelyn | Littlefinger, Varys, Catelyn | No |\n| Ser Rodrik visited Ser Aron Santagar at the arm"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 169,
+          "context": "| Moreo likely sold information about Catelyn's identity and location | Catelyn deduces this | Catelyn | No |\n| The Valyrian steel dagger was originally Littlefinger's | Littlefinger reveals | Littlef"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 170,
+          "context": "| The Valyrian steel dagger was originally Littlefinger's | Littlefinger reveals | Littlefinger, Catelyn, Varys | No |\n| Littlefinger lost the dagger in a bet when Loras Tyrell unhorsed Ser Jaime at P"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 171,
+          "context": "| Littlefinger lost the dagger in a bet when Loras Tyrell unhorsed Ser Jaime at Prince Joffrey's name day tourney | Littlefinger reveals | Littlefinger, Catelyn, Varys | No |\n| Tyrion Lannister won th"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 184,
+          "context": "| Catelyn | Gold cloaks | \"By whose authority?\" | Demanding to know who sent the escort |\n| Littlefinger | Catelyn | \"Lord Varys knows all.\" | Explaining how her arrival was detected |\n| Littlefinger "
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 185,
+          "context": "| Littlefinger | Catelyn | \"Lord Varys knows all.\" | Explaining how her arrival was detected |\n| Littlefinger | Catelyn | \"I was ever a friend to your sister Lysa, Varys knows that.\" | Explaining why "
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 188,
+          "context": "| Catelyn | Littlefinger | \"Family, Duty, Honor.\" | Reciting Tully house words |\n| Varys | Catelyn | \"I know things, sweet lady. That is the nature of my service.\" | Explaining his awareness of events"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 189,
+          "context": "| Varys | Catelyn | \"I know things, sweet lady. That is the nature of my service.\" | Explaining his awareness of events |\n| Littlefinger | Catelyn, Varys | \"Nothing holds an edge like Valyrian steel.\""
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 190,
+          "context": "| Littlefinger | Catelyn, Varys | \"Nothing holds an edge like Valyrian steel.\" | Commenting on the dagger after Varys cuts himself |\n| Littlefinger | Catelyn, Varys | \"It's mine.\" | Revealing ownershi"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 194,
+          "context": "## POV Character's Internal State\n- **Emotional state:** Tense and anxious throughout; pain in her hands a constant reminder of the attempt on Bran's life; wary and distrustful of those she encounters"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 196,
+          "context": "- **Primary preoccupation:** Identifying the owner of the Valyrian steel dagger and reaching trustworthy people at court; protecting her mission's secrecy\n- **Key decisions made:** Insisted on hiring "
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 210,
+          "context": "| Petyr Baelish | Was ward of | Hoster Tully (implied) | \"He was my father's ward\" \u2014 Catelyn's father at Riverrun |\n| Catelyn Stark | Distrusts | Varys | \"She trusted Littlefinger only a little, and V"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 212,
+          "context": "| Catelyn Stark | Partially trusts | Petyr Baelish | Trusts him \"only a little\" but accepts his information |\n| Varys | Informed | Petyr Baelish | Varys came to Littlefinger first about Catelyn's arri"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 213,
+          "context": "| Varys | Informed | Petyr Baelish | Varys came to Littlefinger first about Catelyn's arrival |\n| Varys | Surveils | Catelyn Stark, Ser Rodrik | Knew about their arrival, the dagger, Ser Rodrik's visi"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 222,
+          "context": "|----------|-----------|---------|\n| Is Littlefinger telling the truth about the dagger belonging to Tyrion Lannister? | Reader | Only Littlefinger's word identifies Tyrion as the owner; Varys neither"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 223,
+          "context": "| Is Littlefinger telling the truth about the dagger belonging to Tyrion Lannister? | Reader | Only Littlefinger's word identifies Tyrion as the owner; Varys neither confirms nor denies, only watches "
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 226,
+          "context": "| Can Littlefinger be trusted as an ally? | Catelyn / Reader | Catelyn acknowledges she trusts him only a little; she notes his childhood gift for looking contrite after mischief |\n| What are Varys's "
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 236,
+          "context": "- Petyr Baelish (Littlefinger)\n- Lord Varys\n- Gold cloak leader (unnamed)"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 305,
+          "context": "### Religions & Faiths\n- The Faith of the Seven (Great Sept of Baelor present in cityscape; \"The gods are cruel\" \u2014 Varys)"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 331,
+          "context": "- Master of coin (Littlefinger)\n- Master of whisperers (Varys \u2014 referred to as \"King's Spider\")\n- Hand of the King (Eddard Stark, referenced)"
+        },
+        {
+          "chapter": "agot-eddard-12",
+          "line": 57,
+          "context": "| Bran Stark | Cersei confirms he saw her with Jaime; Ned thinks Bran \"stumbled on some part of the truth\" | Ned, Cersei |\n| Varys | Heard ominous whispers from the west; Ned thinks he knows too much "
+        },
+        {
+          "chapter": "agot-eddard-12",
+          "line": 129,
+          "context": "7. **Littlefinger notices Malleon's book** \u2014 Reads the title aloud; Ned reveals Jon Arryn was studying it when taken sick; Littlefinger deflects with a quip and departs.\n8. **Ned assesses his allies**"
+        },
+        {
+          "chapter": "agot-eddard-12",
+          "line": 132,
+          "context": "10. **Ned dreams of Rhaegar's murdered children** \u2014 Remembers Tywin laying the bodies beneath the Iron Throne wrapped in crimson cloaks. Resolves he cannot let that happen again.\n11. **Ned considers R"
+        },
+        {
+          "chapter": "agot-eddard-12",
+          "line": 170,
+          "context": "| Tywin Lannister is furious about the party sent after Gregor Clegane | Pycelle tells Ned about a raven from Tywin to Cersei | Ned, Pycelle, Cersei, Tywin | No |\n| Freeriders and sellswords are flock"
+        },
+        {
+          "chapter": "agot-eddard-12",
+          "line": 225,
+          "context": "| Eddard Stark | Distrusts | Littlefinger | \"his haste to save his own skin when Jaime and his swords had come out of the rain still rankled\"; \"too clever by half\" |\n| Eddard Stark | Distrusts | Varys"
+        },
+        {
+          "chapter": "agot-eddard-12",
+          "line": 266,
+          "context": "### Characters\nEddard Stark, Cersei Lannister, Grand Maester Pycelle, Petyr Baelish (Littlefinger), Tomard (Fat Tom), Varly, Tywin Lannister, Jaime Lannister, Robert Baratheon, Joffrey Baratheon, Tomm"
+        },
+        {
+          "chapter": "agot-eddard-12",
+          "line": 296,
+          "context": "### Titles & Offices\nHand of the King (Ned holds this title; Cersei says \"the realm needs a strong Hand\"), King of the Seven Kingdoms (Robert), Grand Maester (Pycelle), Lord of Casterly Rock (Tywin), "
+        },
+        {
+          "chapter": "agot-eddard-05",
+          "line": 13,
+          "context": "- **time_markers:** Daytime (heat described, sweat-stained silks); recalled vigil \u2014 \"all through the dark hours\" until dawn; the serving girl brings iced milk during the visit; the tourney referenced "
+        },
+        {
+          "chapter": "agot-eddard-05",
+          "line": 28,
+          "context": "| Eddard Stark | POV; investigator questioning about Jon Arryn's death | No | Referred to as Ned, Lord Eddard, the King's Hand |\n| Grand Maester Pycelle | Interviewee; provides information about Jon A"
+        },
+        {
+          "chapter": "agot-eddard-05",
+          "line": 50,
+          "context": "| Maester Colemon | Treated Jon Arryn; was purging him with wasting potions and pepper juice; sent away by Pycelle | Pycelle |\n| Varys | Called \"the Spider\"; born a slave in Lys; Pycelle casts suspici"
+        },
+        {
+          "chapter": "agot-eddard-05",
+          "line": 85,
+          "context": "| The Citadel | Referenced \u2014 where Pycelle forged his chain | No |\n| Lys | Referenced \u2014 Varys's birthplace | No |\n| Valyria | Referenced \u2014 Littlefinger's joke about selling a palace | No |"
+        },
+        {
+          "chapter": "agot-eddard-05",
+          "line": 126,
+          "context": "6. **Pycelle reveals Jon Arryn's final words** \u2014 Jon called out \"Robert\" during his fever (unclear if meaning the king or his son); Pycelle gave milk of the poppy; Jon whispered \"the seed is strong\" t"
+        },
+        {
+          "chapter": "agot-eddard-05",
+          "line": 138,
+          "context": "18. **Littlefinger reveals Jon Arryn's remaining servants** \u2014 Names four: a pregnant kitchen girl wed to one of Renly's grooms, a stablehand who joined the City Watch, a potboy discharged for theft, a"
+        },
+        {
+          "chapter": "agot-eddard-05",
+          "line": 150,
+          "context": "| Assembly | Ned, Littlefinger | Littlefinger waiting in Ned's solar on window seat | Tower of the Hand solar | Alyn announces Littlefinger |\n| Scout | Littlefinger, Ned | Littlefinger directs Ned to "
+        },
+        {
+          "chapter": "agot-eddard-05",
+          "line": 165,
+          "context": "| Tywin had brought a retinue for Joffrey's name day tourney | Pycelle tells Ned | Ned, Pycelle | No |\n| Varys was born a slave in Lys | Pycelle tells Ned | Ned, Pycelle | No |\n| Four former servants "
+        },
+        {
+          "chapter": "agot-eddard-05",
+          "line": 168,
+          "context": "| Ser Hugh of the Vale was Jon Arryn's squire, knighted after Jon's death | Littlefinger tells Ned | Ned, Littlefinger | No |\n| A boy at the armory reports to Varys | Littlefinger tells Ned | Ned, Lit"
+        },
+        {
+          "chapter": "agot-eddard-05",
+          "line": 181,
+          "context": "| Pycelle | Ned | \"The seed is strong, he said.\" | Reporting Jon Arryn's final words |\n| Pycelle | Ned | \"Women, cravens \u2026 and eunuchs.\" | When Ned mentions poison is a woman's weapon; Pycelle deflect"
+        },
+        {
+          "chapter": "agot-eddard-05",
+          "line": 182,
+          "context": "| Pycelle | Ned | \"Women, cravens \u2026 and eunuchs.\" | When Ned mentions poison is a woman's weapon; Pycelle deflects toward Varys |\n| Pycelle | Ned | \"Put not your trust in spiders, my lord.\" | Warning "
+        },
+        {
+          "chapter": "agot-eddard-05",
+          "line": 205,
+          "context": "| Ned | Distrusts | Pycelle | Internal thought: \"but whom?\" when Pycelle offers to serve |\n| Pycelle | Deflects suspicion toward | Varys | \"Put not your trust in spiders\" \u2014 names eunuchs alongside wom"
+        },
+        {
+          "chapter": "agot-eddard-05",
+          "line": 221,
+          "context": "| Tywin Lannister | Father of | Jaime Lannister | Hoped to see Jaime win the champion's crown at the tourney |\n| Varys | Surveils | Ned | Has informers watching Ned's comings and goings |\n| Cersei (th"
+        },
+        {
+          "chapter": "agot-eddard-05",
+          "line": 242,
+          "context": "### Characters\nEddard Stark (Ned), Grand Maester Pycelle, Arya Stark, Sansa Stark, Petyr Baelish (Littlefinger), Alyn, Jon Arryn, Robert Baratheon, Lysa Arryn, Robert Arryn, Maester Colemon, Varys (th"
+        },
+        {
+          "chapter": "agot-eddard-06",
+          "line": 29,
+          "context": "| Janos Slynt | Commander of the City Watch, petitioner | Yes (uncertain \u2014 verify) | Requests more men for the Watch |\n| Varys | Council member | No | Brief comment (\"How dreadful\") |\n| Renly Baratheo"
+        },
+        {
+          "chapter": "agot-eddard-06",
+          "line": 155,
+          "context": "|-------|-----|---------------------|-------------|-------|\n| Opening | Ned, Slynt, Varys, Renly, Littlefinger, Pycelle | Seated in small council chamber | Red Keep | Robert absent |\n| Departure | Ned"
+        },
+        {
+          "chapter": "agot-eddard-06",
+          "line": 234,
+          "context": "| Ned | yearns for home with | Robb Stark, Jon Snow | Recalls sounds of them crossing swords in the practice yard |\n| Ned | wary of / fretted by | Varys | \"The shadow of the King's Spider and his litt"
+        },
+        {
+          "chapter": "agot-eddard-06",
+          "line": 255,
+          "context": "### Characters\nEddard Stark, Janos Slynt, Varys, Renly Baratheon, Petyr Baelish (Littlefinger), Grand Maester Pycelle, Jory Cassel, Harwin, Tobho Mott, Gendry, Varly, Jacks, Lord Beric Dondarrion, Rob"
+        },
+        {
+          "chapter": "agot-arya-05",
+          "line": 33,
+          "context": "| Sandor Clegane (the Hound) | Kingsguard | No | Wearing snowy white cloak over dark grey armor |\n| Varys | Councillor | No | In soft slippers and patterned damask robe; rushes over waving arms to int"
+        },
+        {
+          "chapter": "agot-arya-05",
+          "line": 48,
+          "context": "| Sandor Clegane | | | | | Snowy white cloak over dark grey armor | | | |\n| Varys | | | | | Soft slippers, patterned damask robe | | Described as \"the eunuch\"; gliding movement | |\n| Ser Ilyn Payne | "
+        },
+        {
+          "chapter": "agot-arya-05",
+          "line": 223,
+          "context": "| High Septon | defers to | Joffrey | Kneels before Joffrey; asks him for judgment |\n| Varys | attempts to intervene | Joffrey | Rushes over waving his arms after Joffrey orders execution |\n| Cersei |"
+        },
+        {
+          "chapter": "agot-arya-05",
+          "line": 239,
+          "context": "### Characters\nArya Stark, Eddard Stark, Joffrey Baratheon, Cersei Lannister, Sansa Stark, Sandor Clegane (the Hound), Varys, Ser Ilyn Payne, Yoren, the High Septon, Ser Horas Redwyne, Ser Hobber Redw"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 28,
+          "context": "| Eddard Stark | POV, acting as king from the Iron Throne | No | Shattered leg in a cast, sitting the throne in Robert's absence |\n| Varys | Small council member, observer/advisor | No | At the counci"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 80,
+          "context": "| Robb Stark | Ned compares Loras's youth to Robb's | Ned (internal) |\n| Ser Ilyn Payne | King's Justice; Ned chose not to send him; Varys warns of his displeasure | Varys, Ned |\n| Robar Royce's fathe"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 141,
+          "context": "12. **Ned descends the throne** \u2014 Alyn and Porther help him down the steep iron steps. Loras stares sullenly but stalks away.\n13. **Varys counsels Ned privately** \u2014 Warns that sending Beric instead of"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 147,
+          "context": "| Opening | Eddard Stark | Seated on the Iron Throne | High above the hall | In pain from shattered leg |\n| Opening | Varys, Pycelle, Littlefinger | Seated at council table | Beneath the throne | Only"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 161,
+          "context": "| Departure | Pycelle, Littlefinger | Already departed | Council table empty | Left before Ned descends |\n| Departure | Varys | Gathering papers at council table | Base of throne | Speaks privately wi"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 175,
+          "context": "| Ned sentences Gregor Clegane to death, strips him of all titles and lands | Ned's public pronouncement | Everyone in the hall | No |\n| Paynes are bannermen to House Lannister \u2014 Ned chose not to send"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 176,
+          "context": "| Paynes are bannermen to House Lannister \u2014 Ned chose not to send Ser Ilyn for this reason | Ned tells Varys | Ned, Varys | No |\n| Ser Ilyn Payne was present in the back of the hall and appeared displ"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 181,
+          "context": "|---------|----------|------------------|---------|\n| Ser Raymun Darry | Varys / the court | \"Brigands, Lord Varys? Oh, they were brigands, beyond a doubt. Lannister brigands.\" | Responding with scorn"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 191,
+          "context": "| Ned | Ser Loras | \"No one doubts your valor, Ser Loras, but we are about justice here, and what you seek is vengeance.\" | Denying Loras the command |\n| Varys | Ned | \"A man who has the Lannisters fo"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 192,
+          "context": "| Varys | Ned | \"A man who has the Lannisters for his enemies would do well to make the Tyrells his friends.\" | Private counsel after the session \u2014 suggesting Ned should have sent Loras |\n| Varys | Ne"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 193,
+          "context": "| Varys | Ned | Warning that Ser Ilyn Payne looked displeased at being bypassed | Private counsel \u2014 subtle threat/warning |\n| Ned | Varys | \"The Paynes are bannermen to House Lannister. I thought it b"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 199,
+          "context": "- **Key decisions made:** Sends Beric Dondarrion rather than Loras Tyrell; bypasses Ser Ilyn Payne (Lannister bannerman); sentences Gregor to death and strips him of all honors; sends Ser Robar to inf"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 206,
+          "context": "| Eddard Stark | Distrusts | Grand Maester Pycelle | Pycelle consistently defends Lannisters; Ned responds with sarcasm |\n| Eddard Stark | Wary of | Varys | Brusque with Varys; \"in no mood for word ga"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 212,
+          "context": "| Grand Maester Pycelle | Defends / shields | House Lannister | Argues against action; reminds court Tywin is the queen's father |\n| Varys | Advises | Eddard Stark | Counsels Ned after court about pol"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 232,
+          "context": "| Will Lord Beric's force of ~100 men be sufficient against Gregor? | Implied by the mission scope | Littlefinger warned even Loras alone would be overmatched |\n| What will Ser Ilyn Payne do about bei"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 233,
+          "context": "| What will Ser Ilyn Payne do about being bypassed? | Varys raises this | Varys warns he \"did not look pleased\" and \"does so love his work\" |\n| Will the political cost of not sending Loras harm Ned? |"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 238,
+          "context": "### Characters\nEddard Stark, Varys, Grand Maester Pycelle, Petyr Baelish (Littlefinger), Ser Raymun Darry, Ser Karyl Vance, Ser Marq Piper, Joss (alehouse keeper), Ser Arys Oakheart, Septa Mordane, Sa"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 12,
+          "context": "- **approximate_timeline:** Days to possibly weeks after Ned's arrest in the throne room; Ned has been imprisoned long enough to become feverish, starving, and disoriented\n- **time_markers:** No sun o"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 13,
+          "context": "- **time_markers:** No sun or moon visible; hours turning to days by Ned's estimation; he counts water deliveries as days; \"on the morrow\" Cersei will visit; \"a few days ago\" Sansa came to court; Ned "
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 19,
+          "context": "- **Time of day:** Indeterminate \u2014 total darkness; Ned cannot distinguish day from night; he counts water deliveries as proxy for days\n- **Lighting:** Absolute darkness in the cell; brief glare of lig"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 21,
+          "context": "- **Sounds:** Only Ned's own breathing for extended periods; footsteps in the hall; rattle of iron chains; creaking of the heavy wooden door; Ned begins talking aloud to hear a voice\n- **Smells:** Str"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 22,
+          "context": "- **Smells:** Straw stinking of urine initially; later Ned's sense of smell has dulled (\"it no longer smelled at all\"); Varys reeks of sweat and sour wine as part of his disguise\n- **Notable sensory d"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 28,
+          "context": "| Eddard Stark | POV character, prisoner | No | Confined in the black cells, injured leg in a cast, feverish, starving |\n| Varys | Visitor, informant, manipulator | No | Disguised as a grizzled turnke"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 30,
+          "context": "| Gaoler (rat-faced) | Brings water | Yes (uncertain \u2014 verify) | Scarecrow of a man with a rat's face and frayed beard |\n| Gaoler (stout, short \u2014 Varys in disguise) | Brings wine | No | This is Varys "
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 37,
+          "context": "| Gaoler (rat-faced) | Frayed beard | | Scarecrow of a man (thin/gaunt) | | Mail shirt and leather half cape | | Rat's face | |\n| Varys (disguised) | Dark stubble of beard (false) | | Stouter, shorter"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 46,
+          "context": "|-----------|---------------------|---------------|\n| Robert Baratheon | Remembered extensively \u2014 his death, his jests, his youth at Harrenhal; Ned dreams/hallucinates conversations with him | Ned (in"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 47,
+          "context": "| Robert Baratheon | Remembered extensively \u2014 his death, his jests, his youth at Harrenhal; Ned dreams/hallucinates conversations with him | Ned (internal), Varys |\n| Littlefinger (Petyr Baelish) | Da"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 49,
+          "context": "| Janos Slynt | Damned by Ned for his betrayal | Ned (internal) |\n| Cersei Lannister | Damned by Ned; her face floats before him; Varys discusses her political fears and plans | Ned (internal), Varys "
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 50,
+          "context": "| Cersei Lannister | Damned by Ned; her face floats before him; Varys discusses her political fears and plans | Ned (internal), Varys |\n| Jaime Lannister (the Kingslayer) | Damned by Ned; remembered a"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 52,
+          "context": "| Pycelle | Damned by Ned | Ned (internal) |\n| Varys | Damned by Ned initially | Ned (internal) |\n| Ser Barristan Selmy | Damned by Ned; unhorsed by Rhaegar in the final tilt at Harrenhal | Ned (inter"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 54,
+          "context": "| Ser Barristan Selmy | Damned by Ned; unhorsed by Rhaegar in the final tilt at Harrenhal | Ned (internal) |\n| Renly Baratheon | Damned by Ned for running when needed; Varys notes Renly is raising arm"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 55,
+          "context": "| Renly Baratheon | Damned by Ned for running when needed; Varys notes Renly is raising armies at Storm's End; Ned told to denounce him as usurper | Ned (internal), Varys |\n| Catelyn Stark | Ned think"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 56,
+          "context": "| Catelyn Stark | Ned thinks of her painfully; wonders where she is; Ned reasons she holds Cersei's brother as leverage; Varys says she let Tyrion escape | Ned (internal), Varys |\n| Sansa Stark | Ned'"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 57,
+          "context": "| Sansa Stark | Ned's daughter, still betrothed to Joffrey; came to court to plead for Ned's life; Varys threatens her safety as leverage | Varys |\n| Arya Stark | Escaped Ser Meryn and fled; neither V"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 58,
+          "context": "| Arya Stark | Escaped Ser Meryn and fled; neither Varys nor the Lannisters can find her | Varys |\n| Joffrey Baratheon | The new king; loves Arya not; Varys urges Ned to proclaim him true heir | Varys"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 59,
+          "context": "| Joffrey Baratheon | The new king; loves Arya not; Varys urges Ned to proclaim him true heir | Varys |\n| Tyrion Lannister (the Imp) | Has escaped Catelyn; Varys believes he may be dead in the Mountai"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 60,
+          "context": "| Tyrion Lannister (the Imp) | Has escaped Catelyn; Varys believes he may be dead in the Mountains of the Moon | Varys |\n| Stannis Baratheon | Robert's true heir per Ned; gathering strength at Dragons"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 61,
+          "context": "| Stannis Baratheon | Robert's true heir per Ned; gathering strength at Dragonstone; Cersei's greatest fear; known as a battle commander utterly without mercy | Varys, Ned |\n| Robb Stark | Marching so"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 62,
+          "context": "| Robb Stark | Marching south down the Neck with a northern host | Varys |\n| Jon Snow | Ned's baseborn son at the Wall; thinking of him fills Ned with shame and sorrow | Ned (internal), Varys |\n| Benj"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 63,
+          "context": "| Jon Snow | Ned's baseborn son at the Wall; thinking of him fills Ned with shame and sorrow | Ned (internal), Varys |\n| Benjen Stark | Ned's brother at the Wall (implied by Varys's mention of \"your b"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 67,
+          "context": "| Lyanna Stark | Rhaegar laid the queen of beauty's laurel in her lap; she loved winter roses; whispered \"Promise me, Ned\" from her bed of blood | Ned (memory) |\n| Elia Martell | Rhaegar's wife, the D"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 76,
+          "context": "| Lord Hunter | Old Lord Hunter, present at Harrenhal with Robert and Jon | Ned (memory) |\n| Rhaenys Targaryen | Rhaegar's daughter; had a black kitten called Balerion; killed by the Lannisters | Vary"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 77,
+          "context": "| Rhaenys Targaryen | Rhaegar's daughter; had a black kitten called Balerion; killed by the Lannisters | Varys |\n| Balerion (the cat) | Rhaenys's small black kitten, named after Balerion the Black Dre"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 78,
+          "context": "| Balerion (the cat) | Rhaenys's small black kitten, named after Balerion the Black Dread | Varys |\n| Lancel Lannister | Gave Robert the strong wine on Cersei's orders | Varys |\n| Ser Meryn Trant | Ar"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 79,
+          "context": "| Lancel Lannister | Gave Robert the strong wine on Cersei's orders | Varys |\n| Ser Meryn Trant | Arya escaped from him | Varys |\n| Ser Gregor Clegane | Alyn and Harwin are dealing with him (per Ned's"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 83,
+          "context": "| Harwin | Member of Ned's household guard, expected to return after dealing with Ser Gregor | Ned (internal) |\n| Lysa Arryn | Sits in the Eyrie, no love between her and Cersei | Varys |\n| The High Se"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 84,
+          "context": "| Lysa Arryn | Sits in the Eyrie, no love between her and Cersei | Varys |\n| The High Septon | Told Varys \"as we sin, so do we suffer\" | Varys |\n| Tywin Lannister | \"Her father\" \u2014 spending power battl"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 85,
+          "context": "| The High Septon | Told Varys \"as we sin, so do we suffer\" | Varys |\n| Tywin Lannister | \"Her father\" \u2014 spending power battling Starks and Tullys (inferred) | Varys |"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 116,
+          "context": "| Rhaegar's black armor with ruby dragon | The armor \"he would die in\" \u2014 gleaming black plate with three-headed dragon in rubies | No | Memory |\n| Balerion (the cat/kitten) | Rhaenys's small black kit"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 122,
+          "context": "| Water delivery by gaoler | None | Water in a cool clay jug beaded with moisture | Ned | Black cell | Ned gulps eagerly; water runs from mouth and drips through beard; drinks until he thinks he'll be"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 132,
+          "context": "1. **Ned is confined in the black cells** \u2014 Thrown into a dark dungeon cell beneath the Red Keep with no window, bed, or slop bucket; his injured leg throbs constantly.\n2. **Ned reflects on his downfa"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 146,
+          "context": "15. **Ned continues to deteriorate** \u2014 Stomach cramps begin; he begs for food but is not fed; he reasons Cersei wants him alive because Catelyn holds her brother.\n16. **Varys arrives disguised as a ga"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 147,
+          "context": "16. **Varys arrives disguised as a gaoler** \u2014 Stouter and shorter than the rat-faced man, wearing leather half cape and spiked steel cap; brings a wineskin; Ned recognizes his voice.\n17. **Ned touches"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 148,
+          "context": "17. **Ned touches Varys's face** \u2014 Feels coarse false stubble; Varys has transformed into a grizzled turnkey reeking of sweat and sour wine.\n18. **Varys shares wine** \u2014 Drinks first to prove it's not "
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 149,
+          "context": "18. **Varys shares wine** \u2014 Drinks first to prove it's not poisoned; Ned drinks the strong dregs.\n19. **Varys reveals Arya has escaped** \u2014 She fled Ser Meryn; neither Varys nor the Lannisters have fou"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 150,
+          "context": "19. **Varys reveals Arya has escaped** \u2014 She fled Ser Meryn; neither Varys nor the Lannisters have found her; the new king \"loves her not.\"\n20. **Varys reveals Sansa's situation** \u2014 Still betrothed to"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 151,
+          "context": "20. **Varys reveals Sansa's situation** \u2014 Still betrothed to Joffrey; Cersei keeps her close; she came to court to plead for Ned's life.\n21. **Varys tells Ned he is a dead man** \u2014 Bluntly states Ned's"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 152,
+          "context": "21. **Varys tells Ned he is a dead man** \u2014 Bluntly states Ned's position.\n22. **Ned argues Catelyn holds Cersei's brother** \u2014 Varys counters that she held \"the wrong brother\" and has let Tyrion escape"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 153,
+          "context": "22. **Ned argues Catelyn holds Cersei's brother** \u2014 Varys counters that she held \"the wrong brother\" and has let Tyrion escape; he expects Tyrion is dead in the Mountains of the Moon.\n23. **Ned confro"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 154,
+          "context": "23. **Ned confronts Varys about standing by during the slaughter** \u2014 Varys replies he was unarmed and surrounded by Lannister swords; explains his philosophy that each man has a role to play, and the "
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 155,
+          "context": "24. **Ned asks Varys to free him** \u2014 Varys says he could but won't, as questions would lead back to him.\n25. **Ned asks Varys to carry a message** \u2014 Varys offers paper and ink but will read the letter"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 156,
+          "context": "25. **Ned asks Varys to carry a message** \u2014 Varys offers paper and ink but will read the letter and deliver it or not as serves his own ends.\n26. **Varys reveals his goal is peace** \u2014 Claims he was th"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 157,
+          "context": "26. **Varys reveals his goal is peace** \u2014 Claims he was the one soul desperate to keep Robert alive; protected him for fifteen years from enemies but not from friends.\n27. **Varys asks why Ned warned "
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 158,
+          "context": "27. **Varys asks why Ned warned Cersei** \u2014 Ned admits \"the madness of mercy.\"\n28. **Varys confirms Cersei's role in Robert's death** \u2014 Lancel was given the wineskins by Cersei, told it was Robert's fa"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 159,
+          "context": "28. **Varys confirms Cersei's role in Robert's death** \u2014 Lancel was given the wineskins by Cersei, told it was Robert's favorite vintage; but Varys says it was Ned's mercy, not wine, that killed the k"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 160,
+          "context": "29. **Varys outlines the political landscape** \u2014 Jaime fighting river lords; Lysa Arryn in the Eyrie; Martells brooding in Dorne; Robb marching south with a northern host; Stannis gathering swords at "
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 162,
+          "context": "31. **Ned declares Stannis the true heir** \u2014 Says the throne is his by rights.\n32. **Varys proposes a deal** \u2014 Ned should confess treason, command Robb to lay down his sword, proclaim Joffrey true hei"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 164,
+          "context": "33. **Ned thinks of Jon with shame and sorrow** \u2014 Wishes he could see and talk to the boy again.\n34. **Ned asks if Varys is in league with Littlefinger** \u2014 Varys says he'd sooner wed the Black Goat of"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 165,
+          "context": "34. **Ned asks if Varys is in league with Littlefinger** \u2014 Varys says he'd sooner wed the Black Goat of Qohor; calls Littlefinger the second most devious man in the Seven Kingdoms; says he feeds Littl"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 167,
+          "context": "36. **Ned refuses the deal** \u2014 Says his word would be hollow; his life is not so precious.\n37. **Varys threatens Sansa's life** \u2014 Asks how precious Ned's daughter's life is; invokes the fate of Rhaeny"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 168,
+          "context": "37. **Varys threatens Sansa's life** \u2014 Asks how precious Ned's daughter's life is; invokes the fate of Rhaenys Targaryen and her kitten Balerion; describes the Lannisters breaking down Rhaenys's door."
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 177,
+          "context": "| Confinement resumes | Ned | Curls up on straw, head on chest | Black cell | Sense of smell gone |\n| Varys's arrival | Ned | Pushes himself toward the light using damp wall | Cell door | Rattle of ir"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 178,
+          "context": "| Varys's arrival | Ned | Pushes himself toward the light using damp wall | Cell door | Rattle of iron chains precedes door opening |\n| Confrontation | Ned, Varys | Face to face in the cell | Black ce"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 179,
+          "context": "| Confrontation | Ned, Varys | Face to face in the cell | Black cell | Ned touches Varys's face; extended conversation |\n| Departure | Varys | Stands, prepares to leave | Cell | After delivering ultim"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 184,
+          "context": "|-------------|-------------|----------------------|------------------------|\n| Arya escaped Ser Meryn and cannot be found | Varys tells Ned | Varys, the Lannisters (they've searched), Ned | No |\n| Sa"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 185,
+          "context": "| Arya escaped Ser Meryn and cannot be found | Varys tells Ned | Varys, the Lannisters (they've searched), Ned | No |\n| Sansa is still betrothed to Joffrey and came to court to plead for Ned | Varys t"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 186,
+          "context": "| Sansa is still betrothed to Joffrey and came to court to plead for Ned | Varys tells Ned | Varys, Cersei, Ned | No |\n| Joffrey is the new king | Varys tells Ned (\"our new king\") | Common knowledge |"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 187,
+          "context": "| Joffrey is the new king | Varys tells Ned (\"our new king\") | Common knowledge | No |\n| Tyrion has escaped Catelyn, possibly dead in the Mountains of the Moon | Varys tells Ned | Varys, Ned | No |\n| "
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 188,
+          "context": "| Tyrion has escaped Catelyn, possibly dead in the Mountains of the Moon | Varys tells Ned | Varys, Ned | No |\n| Catelyn held \"the wrong brother\" (Tyrion, not Jaime) | Varys tells Ned | Varys, Ned | N"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 189,
+          "context": "| Catelyn held \"the wrong brother\" (Tyrion, not Jaime) | Varys tells Ned | Varys, Ned | No |\n| Cersei gave Lancel the strong wine to give Robert | Varys tells Ned; Varys questioned Lancel | Varys, Ned"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 190,
+          "context": "| Cersei gave Lancel the strong wine to give Robert | Varys tells Ned; Varys questioned Lancel | Varys, Ned; Lancel knows his role | No |\n| It was Ned's mercy (warning Cersei) that enabled Robert's de"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 191,
+          "context": "| It was Ned's mercy (warning Cersei) that enabled Robert's death | Varys's analysis | Varys, Ned | No |\n| Varys claims he was desperate to keep Robert alive for 15 years | Varys tells Ned | Varys, Ne"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 192,
+          "context": "| Varys claims he was desperate to keep Robert alive for 15 years | Varys tells Ned | Varys, Ned | No \u2014 truth of claim uncertain within this chapter |\n| Jaime Lannister is fighting the river lords | V"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 193,
+          "context": "| Jaime Lannister is fighting the river lords | Varys tells Ned | Varys, Ned | No |\n| Lysa Arryn sits in the Eyrie with no love for Cersei | Varys tells Ned | Varys, Ned | No |\n| Martells brood over t"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 194,
+          "context": "| Lysa Arryn sits in the Eyrie with no love for Cersei | Varys tells Ned | Varys, Ned | No |\n| Martells brood over the murder of Elia and her children | Varys tells Ned | Varys, Ned | No |\n| Robb marc"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 195,
+          "context": "| Martells brood over the murder of Elia and her children | Varys tells Ned | Varys, Ned | No |\n| Robb marches south down the Neck with a northern host | Varys tells Ned | Varys, Ned | No |\n| Stannis "
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 196,
+          "context": "| Robb marches south down the Neck with a northern host | Varys tells Ned | Varys, Ned | No |\n| Stannis is gathering strength at Dragonstone; Cersei fears him most | Varys tells Ned | Varys, Ned | No "
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 197,
+          "context": "| Stannis is gathering strength at Dragonstone; Cersei fears him most | Varys tells Ned | Varys, Ned | No |\n| Renly is raising armies at Storm's End | Varys tells Ned (and Ned already hoped this) | Va"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 198,
+          "context": "| Renly is raising armies at Storm's End | Varys tells Ned (and Ned already hoped this) | Varys, Ned | No |\n| Cersei's deal: confess treason, support Joffrey, take the black | Varys proposes to Ned | "
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 199,
+          "context": "| Cersei's deal: confess treason, support Joffrey, take the black | Varys proposes to Ned | Varys, Ned (Cersei presumably involved in the offer) | No |\n| Varys feeds Littlefinger whispers to keep him "
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 200,
+          "context": "| Varys feeds Littlefinger whispers to keep him controlled | Varys tells Ned | Varys, Ned | No |\n| Littlefinger is \"the second most devious man in the Seven Kingdoms\" | Varys tells Ned | Varys, Ned | "
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 201,
+          "context": "| Littlefinger is \"the second most devious man in the Seven Kingdoms\" | Varys tells Ned | Varys, Ned | No |\n| Varys allows both Cersei and Littlefinger to believe he serves them | Varys tells Ned | Va"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 202,
+          "context": "| Varys allows both Cersei and Littlefinger to believe he serves them | Varys tells Ned | Varys, Ned | No |\n| Rhaenys Targaryen had a black kitten named Balerion | Varys tells Ned | Varys, Ned | No |\n"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 203,
+          "context": "| Rhaenys Targaryen had a black kitten named Balerion | Varys tells Ned | Varys, Ned | No |\n| The threat to Sansa: next visitor brings food or her head | Varys tells Ned | Varys, Ned | No |\n| Rhaegar "
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 205,
+          "context": "| Rhaegar crowned Lyanna at Harrenhal, passing over Elia | Ned's memory | Ned (and everyone present at Harrenhal) | No \u2014 this is Ned's memory |\n| Lyanna whispered \"Promise me, Ned\" from her bed of blo"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 216,
+          "context": "| Lyanna (remembered) | Ned | \"Promise me, Ned.\" | Whispered from her bed of blood |\n| Varys | Ned | \"I trust you realize that you are a dead man, Lord Eddard?\" | Blunt assessment of Ned's situation |"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 217,
+          "context": "| Varys | Ned | \"I trust you realize that you are a dead man, Lord Eddard?\" | Blunt assessment of Ned's situation |\n| Varys | Ned | \"The wrong brother. And lost to her, in any case.\" | On Catelyn hold"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 218,
+          "context": "| Varys | Ned | \"The wrong brother. And lost to her, in any case.\" | On Catelyn holding Tyrion rather than Jaime |\n| Varys | Ned | \"It was not wine that killed the king. It was your mercy.\" | On Ned's"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 219,
+          "context": "| Varys | Ned | \"It was not wine that killed the king. It was your mercy.\" | On Ned's warning to Cersei enabling Robert's murder |\n| Ned | Varys | \"The madness of mercy.\" | Explaining why he warned Ce"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 220,
+          "context": "| Ned | Varys | \"The madness of mercy.\" | Explaining why he warned Cersei |\n| Varys | Ned | \"Each man has a role to play, in life as well as mummery.\" | Justifying his inaction during the slaughter of"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 221,
+          "context": "| Varys | Ned | \"Each man has a role to play, in life as well as mummery.\" | Justifying his inaction during the slaughter of Ned's men |\n| Varys | Ned | \"Peace\u2026 If there was one soul in King's Landing"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 222,
+          "context": "| Varys | Ned | \"Peace\u2026 If there was one soul in King's Landing who was truly desperate to keep Robert Baratheon alive, it was me.\" | Claiming his motivation |\n| Varys | Ned | \"A courageous informer w"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 223,
+          "context": "| Varys | Ned | \"A courageous informer would be as useless as a cowardly knight.\" | On the role of master of whisperers |\n| Ned | Varys | \"Stannis Baratheon is Robert's true heir. The throne is his by"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 224,
+          "context": "| Ned | Varys | \"Stannis Baratheon is Robert's true heir. The throne is his by rights.\" | Refusing to support Joffrey |\n| Varys | Ned | \"Tell the queen that you will confess your vile treason, command"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 225,
+          "context": "| Varys | Ned | \"Tell the queen that you will confess your vile treason, command your son to lay down his sword, and proclaim Joffrey as the true heir.\" | Proposing the deal for Ned to take the black "
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 226,
+          "context": "| Varys | Ned | \"I would sooner wed the Black Goat of Qohor. Littlefinger is the second most devious man in the Seven Kingdoms.\" | Denying alliance with Littlefinger |\n| Varys | Ned | \"Why, the realm,"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 227,
+          "context": "| Varys | Ned | \"Why, the realm, my good lord\u2026 I serve the realm, and the realm needs peace.\" | On whom he truly serves |\n| Ned | Varys | \"If I did, my word would be as hollow as an empty suit of armo"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 228,
+          "context": "| Ned | Varys | \"If I did, my word would be as hollow as an empty suit of armor. My life is not so precious to me as that.\" | Refusing the deal |\n| Varys | Ned | \"And your daughter's life, my lord? Ho"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 229,
+          "context": "| Varys | Ned | \"And your daughter's life, my lord? How precious is that?\" | Pivoting to threaten Sansa |\n| Varys | Ned | \"Rhaenys was a child too\u2026 She had a small black kitten she called Balerion\u2026 I "
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 230,
+          "context": "| Varys | Ned | \"Rhaenys was a child too\u2026 She had a small black kitten she called Balerion\u2026 I imagine the Lannisters taught her the difference between a kitten and a dragon quick enough, the day they "
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 231,
+          "context": "| Varys | Ned | \"Why is it always the innocents who suffer most, when you high lords play your game of thrones?\" | Philosophical challenge; quoting the High Septon's saying about sin and suffering |\n|"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 236,
+          "context": "- **Primary preoccupation:** His daughters' safety (especially Sansa and Arya); his own failure and foolishness; guilt over Robert's death; the memory of Lyanna and her deathbed promise\n- **Key decisi"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 237,
+          "context": "- **Key decisions made:** Initially refuses Varys's deal to confess and take the black, saying his word would be hollow and his life not worth that price; left at an agonizing impasse when Varys invok"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 244,
+          "context": "| Eddard Stark | feels shame and sorrow toward | Jon Snow | \"The thought of Jon filled Ned with a sense of shame, and a sorrow too deep for words\" |\n| Eddard Stark | grieves for / fears for | Sansa St"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 252,
+          "context": "| Eddard Stark | holds secret of | Lyanna Stark | Remembers her deathbed, \"Promise me, Ned,\" bed of blood, winter roses |\n| Varys | manipulates / pressures | Eddard Stark | Uses wine, intelligence, an"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 253,
+          "context": "| Varys | manipulates / pressures | Eddard Stark | Uses wine, intelligence, and threats to Sansa to pressure Ned into confessing |\n| Varys | claims to serve | The realm | \"I serve the realm, and the r"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 254,
+          "context": "| Varys | claims to serve | The realm | \"I serve the realm, and the realm needs peace\" |\n| Varys | manipulates | Littlefinger | Feeds him \"choice whispers\" so Littlefinger thinks Varys is his |\n| Vary"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 255,
+          "context": "| Varys | manipulates | Littlefinger | Feeds him \"choice whispers\" so Littlefinger thinks Varys is his |\n| Varys | manipulates | Cersei Lannister | Allows her to believe he is hers |\n| Varys | claims "
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 256,
+          "context": "| Varys | manipulates | Cersei Lannister | Allows her to believe he is hers |\n| Varys | claims to have protected | Robert Baratheon | \"For fifteen years I protected him from his enemies\" |\n| Cersei La"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 274,
+          "context": "| Robb Stark | marches south with army for | Eddard Stark | A boy with a northern host at his back, marching down the Neck |\n| Varys | traveled with as youth | Troupe of mummers | Traveled through the"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 279,
+          "context": "|----------|-----------|---------|\n| Will Ned confess to save Sansa? | Varys's ultimatum | Ned refused for himself but was shaken when Sansa was threatened; the chapter ends without his answer |\n| Whe"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 280,
+          "context": "| Will Ned confess to save Sansa? | Varys's ultimatum | Ned refused for himself but was shaken when Sansa was threatened; the chapter ends without his answer |\n| Where is Arya? | Varys | She escaped S"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 281,
+          "context": "| Where is Arya? | Varys | She escaped Ser Meryn and neither side can find her |\n| Is Tyrion alive or dead? | Varys | Varys expects him dead in the Mountains of the Moon |\n| What is Stannis doing on D"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 282,
+          "context": "| Is Tyrion alive or dead? | Varys | Varys expects him dead in the Mountains of the Moon |\n| What is Stannis doing on Dragonstone? | Varys | \"No one knows what Stannis has been doing on Dragonstone\" |"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 283,
+          "context": "| What is Stannis doing on Dragonstone? | Varys | \"No one knows what Stannis has been doing on Dragonstone\" |\n| What happened to Rhaenys's kitten Balerion? | Varys | \"I always wondered what happened t"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 286,
+          "context": "| What truth did Ned hide from Robert? | Ned's internal thought | \"I lied to you, hid the truth\" \u2014 the specific truth is not stated |\n| Will Cersei actually allow Ned to take the black if he confesses"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 287,
+          "context": "| Will Cersei actually allow Ned to take the black if he confesses? | Implicit | Varys says he \"believes\" she will, but it's uncertain |\n| Who does Varys truly serve? | Ned asks directly | Varys claim"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 288,
+          "context": "| Who does Varys truly serve? | Ned asks directly | Varys claims \"the realm\" \u2014 Ned clearly has doubts |\n| Who is the most devious man in the Seven Kingdoms? | Implicit | Varys calls Littlefinger \"the "
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 293,
+          "context": "### Characters\nEddard Stark, Robert Baratheon, Cersei Lannister, Jaime Lannister, Varys, Littlefinger (Petyr Baelish), Janos Slynt, Pycelle, Ser Barristan Selmy, Renly Baratheon, Catelyn Stark, Sansa "
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 302,
+          "context": "### Factions & Organizations\nKingsguard (the White Swords / White Cloaks), Gold cloaks (City Watch), Troupe of mummers (Varys's youth)"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 305,
+          "context": "### Religions & Faiths\nThe Faith of the Seven (the High Septon referenced), The Old Gods (implied \u2014 \"Gods save me\"), The Black Goat of Qohor (referenced by Varys in jest)"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 311,
+          "context": "### Artifacts & Objects\nCrown of winter roses (blue as frost), Robert's warhammer, Robert's great antlered helm, Rhaegar's black armor with ruby dragon, Balerion (the kitten \u2014 Rhaenys's pet), Grey pla"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 323,
+          "context": "### Titles & Offices\nHand of the King, King (Robert, then Joffrey), Lord Commander of the Kingsguard (Ser Gerold Hightower), Master of Whisperers (Varys), Master of Coin (referenced generically by Var"
+        },
+        {
+          "chapter": "agot-eddard-02",
+          "line": 13,
+          "context": "- **time_markers:** \"the hour before the dawn\"; predawn chill; breath steaming; dawn breaks as they crest a ridge; rising sun sends fingers of light through mists; \"fourteen years\" since Robert's Rebe"
+        },
+        {
+          "chapter": "agot-eddard-02",
+          "line": 47,
+          "context": "| Merryl | Name Robert guesses for Ned's woman (incorrect) | Robert |\n| Varys | King's master of whisperers; sent the intelligence report about Daenerys | Robert and Ned (narration) |\n| Aerys Targarye"
+        },
+        {
+          "chapter": "agot-eddard-02",
+          "line": 52,
+          "context": "| Viserys Targaryen | Referenced as \"the beggar king\" and Daenerys's brother | Robert |\n| Jorah Mormont | Former lord of Bear Island who fled after selling poachers to slavers; now spying for Varys in"
+        },
+        {
+          "chapter": "agot-eddard-02",
+          "line": 97,
+          "context": "| Ice | Referenced as the instrument of justice Jorah Mormont fled from | No | Eddard Stark (implied) |\n| Varys's intelligence report (paper/letter) | Robert pulls it from his belt; contains news of D"
+        },
+        {
+          "chapter": "agot-eddard-02",
+          "line": 122,
+          "context": "9. **Ned points out the barrows of the First Men** \u2014 They observe the ancient burial mounds on the plains.\n10. **Robert delivers Varys's intelligence** \u2014 He gives Ned a paper reporting Daenerys Targar"
+        },
+        {
+          "chapter": "agot-eddard-02",
+          "line": 150,
+          "context": "|-------------|-------------|----------------------|------------------------|\n| Daenerys Targaryen has married Khal Drogo | Varys's intelligence report delivered by night rider | Robert, Ned, Varys | "
+        },
+        {
+          "chapter": "agot-eddard-02",
+          "line": 151,
+          "context": "| Daenerys Targaryen has married Khal Drogo | Varys's intelligence report delivered by night rider | Robert, Ned, Varys | No |\n| Ser Jorah Mormont is spying for Varys from Pentos | Robert tells Ned di"
+        },
+        {
+          "chapter": "agot-eddard-02",
+          "line": 153,
+          "context": "| Jorah Mormont fled Bear Island after selling poachers to a Tyroshi slaver, five years ago | Ned's narration/recollection | Ned, Robert (known before this chapter) | No |\n| Khal Drogo is said to have"
+        },
+        {
+          "chapter": "agot-eddard-02",
+          "line": 156,
+          "context": "| Robert refuses to name Robert Arryn as Warden of the East due to his being sickly | Robert states directly | Robert, Ned | No |\n| A \"Pentoshi cheesemonger\" sheltered Viserys and Daenerys and has han"
+        },
+        {
+          "chapter": "agot-eddard-02",
+          "line": 216,
+          "context": "| Ned | Contempt | Jorah Mormont | \"The slaver has become a spy\"; \"I would rather he become a corpse\" |\n| Varys | Spymaster serving | Robert | Master of whisperers; sends intelligence via night riders"
+        },
+        {
+          "chapter": "agot-eddard-02",
+          "line": 217,
+          "context": "| Varys | Spymaster serving | Robert | Master of whisperers; sends intelligence via night riders |\n| Jorah Mormont | Spy serving | Varys | Spies from Pentos in exchange for the prospect of a pardon |\n"
+        },
+        {
+          "chapter": "agot-eddard-02",
+          "line": 231,
+          "context": "| Is Wylla truly Jon Snow's mother? | Implications of narration | Ned names Wylla but the narration immediately references his \"lies\" \u2014 suggesting the Wylla story may be false |\n| What did Varys's rep"
+        },
+        {
+          "chapter": "agot-eddard-02",
+          "line": 239,
+          "context": "### Characters\nEddard Stark, Robert Baratheon, Alyn, Ser Boros Blount, Ser Meryn Trant, Cersei Lannister, Wylla, Becca, Varys, Aerys Targaryen, Daenerys Targaryen, Khal Drogo, Viserys Targaryen, Jorah"
+        },
+        {
+          "chapter": "agot-eddard-02",
+          "line": 257,
+          "context": "### Artifacts & Objects\nIce (Ned's Valyrian steel sword, referenced obliquely), Varys's intelligence report/letter, the Iron Throne, dragon skulls in the throne room, Jaime's gilded sword, Jaime's lio"
+        },
+        {
+          "chapter": "agot-eddard-02",
+          "line": 269,
+          "context": "### Titles & Offices\nKing (Robert), Hand of the King (Ned; previously Jon Arryn), Master of Whisperers (Varys), Warden of the East (disputed \u2014 Robert Arryn vs. Jaime Lannister), Warden of the West (Ty"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 71,
+          "context": "| Grand Maester (Pycelle) | Councillor; criticized by Tywin as \"venerable\" (sarcastically) | Tywin |\n| Varys | The eunuch; hears whispers from the south and about Stannis; criticized by Tywin as \"cock"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 171,
+          "context": "| Ser Forley Prester retreated with ~4,000 men | Messenger's report | All present | No |\n| Renly Baratheon married Margaery Tyrell and claimed the crown | Tywin reveals (from Varys's intelligence) | T"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 176,
+          "context": "| Joffrey talks of leading the City Watch against Renly | Tywin reveals | Tywin, Tyrion, Kevan | No |\n| Stannis is building ships, hiring sellswords, bringing a shadowbinder from Asshai | Tywin reveal"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 233,
+          "context": "| Tyrion | Trusts | His mountain clansmen (Shagga, Timett) | \"the wildlings were his, and he trusted them more than any of his father's men\" |\n| Tywin | Contempt toward | Varys, Petyr Baelish, Grand M"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 243,
+          "context": "| Has Tywin truly given Jaime up for lost? | Tyrion's internal realization | \"You have given him up for lost... you think Jaime's good as dead, so I'm all you have left\" |\n| Are the councillors (Petyr"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 249,
+          "context": "### Characters\nTyrion Lannister, Tywin Lannister, Ser Kevan Lannister, Jaime Lannister, Crakehall messenger (unnamed), Ser Harys Swyft, Ser Gregor Clegane (the Mountain), Ser Addam Marbrand, Ser Fleme"
+        }
+      ]
+    },
+    {
+      "page": "Violante",
+      "raw_html_path": "sources/wiki/_raw/Violante.json",
+      "track_b_row": {
+        "page": "Violante",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Septa",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Faith of the Seven",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westeros",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Violante",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 7453
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Visenya Targaryen",
+      "raw_html_path": "sources/wiki/_raw/Visenya_Targaryen.json",
+      "track_b_row": {
+        "page": "Visenya Targaryen",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 18,
+          "source": "cite_ref",
+          "pov": "Bran III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Dragonstone",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "29\u00a0BC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Dragonstone",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "44\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Dragonstone",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Buried",
+            "target": "44\u00a0AC",
+            "edge_type": "BURIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Buried",
+            "target": "Dragonstone",
+            "edge_type": "BURIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Aerion Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Valaena Velaryon",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Aegon I Targaryen",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Maegor I Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            20,
+            34
+          ],
+          "agot": [
+            18
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Visenya Targaryen",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 0,
+          "asos": 0,
+          "affc": 2,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 133791
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Visenya Targaryen (daughter of Daemon)",
+      "raw_html_path": "sources/wiki/_raw/Visenya_Targaryen_(daughter_of_Daemon).json",
+      "track_b_row": {
+        "page": "Visenya Targaryen (daughter of Daemon)",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Princess",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "129\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Sea Dragon Tower",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Dragonstone",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "129\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "stillborn"
+          },
+          {
+            "field": "Died",
+            "target": "Sea Dragon Tower",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Dragonstone",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Daemon Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Rhaenyra Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Visenya Targaryen (daughter of Daemon)",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 91633
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Viserra Targaryen",
+      "raw_html_path": "sources/wiki/_raw/Viserra_Targaryen.json",
+      "track_b_row": {
+        "page": "Viserra Targaryen",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Princess",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "71\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "87\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "aged 15"
+          },
+          {
+            "field": "Died",
+            "target": "King's Landing",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Jaehaerys I Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Alysanne Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Viserra Targaryen",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 57069
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Viserys Targaryen",
+      "raw_html_path": "sources/wiki/_raw/Viserys_Targaryen.json",
+      "track_b_row": {
+        "page": "Viserys Targaryen",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 1,
+          "source": "cite_ref",
+          "pov": "Prologue"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Prince of Dragonstone",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "King of the Andals and the Rhoynar and the First Men",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "claimant"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of the Seven Kingdoms",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "claimant"
+          },
+          {
+            "field": "Titles",
+            "target": "Protector of the Realm",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "claimant"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Free Cities",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "276\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Red Keep",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "King's Landing",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "298\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Vaes Dothrak",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Dothraki sea",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Aerys II Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Rhaella Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [
+          "King Viserys III",
+          "The Beggar King",
+          "Khal Rhae Mhar (Sorefoot King)",
+          "Khal Rhaggat (Cart King)"
+        ],
+        "cite_refs": {
+          "agot": [
+            3,
+            11,
+            12,
+            23,
+            33,
+            36,
+            46,
+            54
+          ],
+          "acok": [
+            0,
+            2,
+            12,
+            26,
+            27,
+            40,
+            48
+          ],
+          "adwd": [
+            1,
+            5,
+            11,
+            16,
+            24,
+            30,
+            36,
+            43,
+            52,
+            59,
+            71
+          ],
+          "affc": [
+            0,
+            30,
+            40
+          ],
+          "asos": [
+            8,
+            27,
+            37,
+            71
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Viserys Targaryen",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 8,
+          "acok": 7,
+          "asos": 4,
+          "affc": 3,
+          "adwd": 11
+        },
+        "has_infobox": true,
+        "byte_size": 169338
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-daenerys-01",
+          "line": 13,
+          "context": "- **time_markers:** Setting sun observed from Dany's window; red priests lighting night fires; streets pitch-dark when they depart; moonlight in the courtyard of Drogo's manse; \"nigh on half a year\" l"
+        },
+        {
+          "chapter": "agot-daenerys-01",
+          "line": 28,
+          "context": "| Daenerys Targaryen | POV character | Yes | Thirteen years old, exiled Targaryen princess being presented to Khal Drogo |\n| Viserys Targaryen | Primary interlocutor, antagonist | Yes | Daenerys's bro"
+        },
+        {
+          "chapter": "agot-daenerys-01",
+          "line": 43,
+          "context": "| Daenerys Targaryen | Long, silver-pale; brushed until it shone like molten silver | Violet/purple | Slim (\"too skinny\" per Viserys), budding breasts | | Deep plum silk gown, gilded sandals, golden b"
+        },
+        {
+          "chapter": "agot-daenerys-01",
+          "line": 268,
+          "context": "- Daenerys Targaryen (Dany, Daenerys Stormborn, Princess of Dragonstone)\n- Viserys Targaryen (Viserys III, \"the beggar king\")\n- Illyrio Mopatis (Magister of the Free City of Pentos)"
+        },
+        {
+          "chapter": "agot-eddard-10",
+          "line": 63,
+          "context": "| Ser Willem Darry | Fled to Dragonstone with the queen and Prince Viserys; described as \"a good man and true\" but \"not of the Kingsguard\" | Dream dialogue |\n| Prince Viserys Targaryen | Fled to Drago"
+        },
+        {
+          "chapter": "agot-eddard-10",
+          "line": 238,
+          "context": "### Characters\nEddard Stark, Robert Baratheon, Cersei Lannister, Vayon Poole, Alyn, Ser Meryn Trant, Lyanna Stark, Jaime Lannister, Catelyn Stark, Tyrion Lannister, Jory Cassel, Ser Arthur Dayne, Ser "
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 71,
+          "context": "| Joffrey Baratheon | Robert despairs of his son; dreams of abdicating but fears Joffrey on the throne with Cersei | Robert |\n| Viserys Targaryen | Jon Arryn warned Viserys might try to reclaim his fa"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 304,
+          "context": "### Characters\nEddard Stark (Ned), Robert Baratheon, Ser Barristan Selmy, Sandor Clegane (the Hound), Jaime Lannister (the Kingslayer), Ser Gregor Clegane (the Mountain That Rides), Ser Loras Tyrell ("
+        },
+        {
+          "chapter": "agot-daenerys-05",
+          "line": 29,
+          "context": "| Khal Drogo | Presents the stallion heart, has sex with Dany, kills Viserys | No | Described with bronze shield face, gold rings, bells in braid |\n| Viserys Targaryen | Arrives drunk, draws sword, th"
+        },
+        {
+          "chapter": "agot-daenerys-05",
+          "line": 46,
+          "context": "| Khal Drogo | Long black braid shiny with oil, long black mustache drooping beneath weight of gold rings | Dark, almond-shaped; onyx eyes with fires dancing in them | Huge; lifts Dany into the air as"
+        },
+        {
+          "chapter": "agot-daenerys-05",
+          "line": 199,
+          "context": "| Khal Drogo | proud of | Daenerys | Glimpse of fierce pride in his eyes as she eats the heart; looks on her body with approval |\n| Khal Drogo | kills | Viserys Targaryen | Pours molten gold over his "
+        },
+        {
+          "chapter": "agot-daenerys-05",
+          "line": 200,
+          "context": "| Khal Drogo | kills | Viserys Targaryen | Pours molten gold over his head |\n| Daenerys | conflicted loyalty toward | Viserys Targaryen | Defends him to Jorah \u2014 \"He is my brother and my true king\"; of"
+        },
+        {
+          "chapter": "agot-daenerys-05",
+          "line": 209,
+          "context": "| Cohollo | bloodrider of | Khal Drogo | Helps khaleesi mount; takes sword from Viserys |\n| Khal Drogo | contempt for | Viserys Targaryen | Calls him \"Sorefoot King\" and \"Khal Rhaggat\" (Cart King); as"
+        },
+        {
+          "chapter": "agot-daenerys-05",
+          "line": 233,
+          "context": "### Characters\nDaenerys Targaryen, Khal Drogo, Viserys Targaryen, Ser Jorah Mormont, Irri, Jhiqui, Doreah, Qotho, Haggo, Cohollo, Khal Jommo, Khal Ogo, Fogo (khalakka), the one-eyed crone (leader of d"
+        },
+        {
+          "chapter": "agot-daenerys-02",
+          "line": 29,
+          "context": "| Khal Drogo | Groom, khal of a great khalasar | No | Forty thousand warriors in his khalasar |\n| Viserys Targaryen | Brother of the bride | No | Impatient for his crown, seated below Dany at the feas"
+        },
+        {
+          "chapter": "agot-daenerys-02",
+          "line": 43,
+          "context": "| Daenerys Targaryen | Silver-blond | | | | Wedding silks | | Small breasts | Thirteen |\n| Viserys Targaryen | | Lilac | | | New black wool tunic with scarlet dragon on the chest | | | |\n| Khal Drogo "
+        },
+        {
+          "chapter": "agot-daenerys-02",
+          "line": 216,
+          "context": "- Khal Drogo\n- Viserys Targaryen\n- Illyrio Mopatis (Magister Illyrio)"
+        },
+        {
+          "chapter": "agot-daenerys-06",
+          "line": 56,
+          "context": "|-----------|---------------------|---------------|\n| Viserys Targaryen | Dany recalls his promises to take her home; Irri references his death (\"crowned by Drogo\"); Illyrio's letter was addressed to "
+        },
+        {
+          "chapter": "agot-daenerys-06",
+          "line": 244,
+          "context": "- Rhaego (unborn)\n- Viserys Targaryen (referenced, deceased)\n- Rhaegar Targaryen (referenced)"
+        },
+        {
+          "chapter": "agot-daenerys-08",
+          "line": 59,
+          "context": "| Rhaego | Dany's unborn son, kicking in her womb; \"the stallion who mounts the world\" prophecy | Dany, Ser Jorah |\n| Viserys Targaryen | Told Dany the story of what happened to Rhaegar's children | D"
+        },
+        {
+          "chapter": "agot-daenerys-08",
+          "line": 269,
+          "context": "### Characters\nDaenerys Targaryen, Khal Drogo, Ser Jorah Mormont, Mirri Maz Duur, Qotho, Haggo, Cohollo, Irri, Doreah, Jhiqui, Eroeh, Jhogo, Aggo, Rakharo, Quaro, Rhaego (unborn), Viserys Targaryen (r"
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 52,
+          "context": "| Daenerys Targaryen | Subject of assassination debate; described as pregnant, a fourteen-year-old girl | Entire council; Ned defends her |\n| Viserys Targaryen | Robert wants him dead too; Renly says "
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 235,
+          "context": "### Characters\nEddard Stark (Ned), Robert Baratheon, Varys, Renly Baratheon, Ser Barristan Selmy, Grand Maester Pycelle, Petyr Baelish (Littlefinger), Ser Boros Blount, Vayon Poole, Tomard (Tom), Daen"
+        },
+        {
+          "chapter": "agot-daenerys-09",
+          "line": 56,
+          "context": "| Rhaegar Targaryen | Appears in fever dream; Ser Jorah calls him \"the last dragon\" in dream; mounted in black armor | Dany (dream), Ser Jorah (dream) |\n| Viserys Targaryen | Appears in fever dream sc"
+        },
+        {
+          "chapter": "agot-daenerys-09",
+          "line": 230,
+          "context": "### Characters\nDaenerys Targaryen, Khal Drogo, Ser Jorah Mormont, Mirri Maz Duur, Jhiqui, Irri, Doreah, Jhogo, Aggo, Rakharo, Rhaego (dead), Viserys Targaryen (dream), Rhaegar Targaryen (dream), Ko Po"
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 54,
+          "context": "|-----------|---------------------|---------------|\n| Viserys Targaryen | Dany declares Viserys dead and herself his heir | Daenerys |\n| Aegon (the Conqueror, implied) | Dany wonders how many Aegon ha"
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 216,
+          "context": "|-------------|-------------|-------------|----------|\n| Daenerys | Claims queenship / heir to | Viserys Targaryen | \"Viserys is dead. I am his heir, the last blood of House Targaryen\" |\n| Daenerys | "
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 248,
+          "context": "### Characters\nDaenerys Targaryen, Ser Jorah Mormont, Khal Drogo (dead), Mirri Maz Duur, Jhogo, Aggo, Rakharo, Irri, Jhiqui, Doreah, Viserys Targaryen (referenced), Aegon (referenced, implied Aegon th"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 29,
+          "context": "| Ser Jorah Mormont | Advisor, companion | No | Rides with Dany; describes the Dothraki sea; restrains Viserys on Dany's command; calls Rhaegar \"the last dragon\" |\n| Viserys Targaryen | Antagonist | N"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 41,
+          "context": "| Ser Jorah Mormont | Bald on head; coarse black hair covering arms and chest thickly | | Neck and shoulders like a bull | | | | Not a handsome man | |\n| Viserys Targaryen | | Lilac eyes | | Thin line"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 229,
+          "context": "- Ser Jorah Mormont\n- Viserys Targaryen\n- Khal Drogo"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 29,
+          "context": "| Khal Drogo | Leads khalasar into Vaes Dothrak | No | Leads from the front with bloodriders; departs to ascend Mother of Mountains for sacrifice |\n| Viserys Targaryen | Antagonist, source of conflict"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 43,
+          "context": "|-----------|------|------|-------------|-------------|----------------|-------------|------------------------|-----------------|\n| Viserys Targaryen | Silver (implied \u2014 cloak chosen to \"bring out the"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 238,
+          "context": "### Characters\nDaenerys Targaryen, Khal Drogo, Viserys Targaryen, Ser Jorah Mormont, Cohollo, Haggo, Qotho, Irri, Jhiqui, Doreah, Aggo, Rakharo, Magister Illyrio Mopatis, Rhaegar Targaryen, Robert Bar"
+        },
+        {
+          "chapter": "agot-eddard-02",
+          "line": 51,
+          "context": "| Khal Drogo | Dothraki horselord who married Daenerys; said to have 100,000 men | Intelligence report / Robert |\n| Viserys Targaryen | Referenced as \"the beggar king\" and Daenerys's brother | Robert "
+        },
+        {
+          "chapter": "agot-eddard-02",
+          "line": 239,
+          "context": "### Characters\nEddard Stark, Robert Baratheon, Alyn, Ser Boros Blount, Ser Meryn Trant, Cersei Lannister, Wylla, Becca, Varys, Aerys Targaryen, Daenerys Targaryen, Khal Drogo, Viserys Targaryen, Jorah"
+        }
+      ]
+    },
+    {
+      "page": "Viserys Targaryen (son of Aenys I)",
+      "raw_html_path": "sources/wiki/_raw/Viserys_Targaryen_(son_of_Aenys_I).json",
+      "track_b_row": {
+        "page": "Viserys Targaryen (son of Aenys I)",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Prince",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "29\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "44\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "aged 15"
+          },
+          {
+            "field": "Died",
+            "target": "King's Landing",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Aenys I Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Alyssa Velaryon",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Viserys Targaryen (son of Aenys I)",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 56883
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Wate",
+      "raw_html_path": "sources/wiki/_raw/Wate.json",
+      "track_b_row": {
+        "page": "Wate",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Wate",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 4257
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-eddard-10",
+          "line": 110,
+          "context": "|--------------|---------------------|-------|----------------------|-------|-------------------------------|\n| Ned waking | | Water | Eddard Stark | Tower of the Hand bedchamber | Vayon Poole holds c"
+        },
+        {
+          "chapter": "agot-arya-04",
+          "line": 272,
+          "context": "### Other\nWater dancing / water dancer (Braavosi sword style \u2014 referenced as both a fighting technique and philosophy), the Sealord's cat (ordinary tomcat mistaken for an exotic beast \u2014 central to Syr"
+        },
+        {
+          "chapter": "agot-tyrion-05",
+          "line": 49,
+          "context": "| Tyrion Lannister | | | Dwarf; stunted legs; arms too short | Bruises on face from Mord's beatings | Shadowskin cloak (recovered from Mord) | | | |\n| Lysa Arryn | Long auburn hair woven into elaborat"
+        },
+        {
+          "chapter": "agot-catelyn-06",
+          "line": 87,
+          "context": "| Giant's Lance | Massive mountain peak; the Eyrie is built upon it | Yes |\n| Alyssa's Tears | Waterfall flowing over the Giant's Lance's western shoulder | Yes |\n| The Gates of the Moon | Castle at t"
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 19,
+          "context": "- **Time of day:** Begins during daytime (sunlight on the river, moving from sunlight to shadow and back); the war council runs \"late into the night\"\n- **Lighting:** Sunlight on the river and through "
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 101,
+          "context": "| Wheel Tower | Landmark tower with great waterwheel inside | No (uncertain \u2014 verify) |\n| Water Gate | Entry into Riverrun by water; wide arch with iron portcullis | No (uncertain \u2014 verify) |\n| Water "
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 102,
+          "context": "| Water Gate | Entry into Riverrun by water; wide arch with iron portcullis | No (uncertain \u2014 verify) |\n| Water stair | Steps from the water into the castle | No (uncertain \u2014 verify) |\n| Lower bailey "
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 125,
+          "context": "|----------|--------------------|--------------------|-----------------| ------|-----------|------------------------------|------------------------|\n| Riverrun | Sandstone walls with ramparts; Water G"
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 152,
+          "context": "1. **Crossing the Tumblestone** \u2014 Catelyn, Robb (with Grey Wind), and Theon cross the river by boat to enter Riverrun. Brynden, the Greatjon, and Lord Karstark follow in a second boat.\n2. **Entry thro"
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 177,
+          "context": "|-------|-----|---------------------|-------------|-------|\n| Arrival | Catelyn, Robb, Grey Wind, Theon | Cross Tumblestone by boat | Past Wheel Tower, through Water Gate | Brynden, Greatjon, Karstark"
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 269,
+          "context": "| Will Lysa ever come to see her dying father? | Hoster | He clearly wants to see her; Catelyn says she is frightened |\n| How deep does the rust go on the Water Gate portcullis, and should it be repla"
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 279,
+          "context": "### Locations\nRiverrun, Tumblestone (river), Wheel Tower, Water Gate, water stair, lower bailey, Lord Hoster's solar, godswood (Riverrun), Great Hall (Riverrun), Whispering Wood, Harrenhal, the Twins,"
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 294,
+          "context": "### Artifacts & Objects\nRobb's longsword, Greatjon's two-handed greatsword, Karstark's longsword, Maege Mormont's spiked mace, Banner of House Tully (leaping trout, silver, on blue-and-red), fish-cres"
+        },
+        {
+          "chapter": "agot-daenerys-09",
+          "line": 97,
+          "context": "|--------------|---------------------|-------|----------------------|-------|-------------------------------|\n| Dany's first drink on waking | | Water \u2014 warm and flat | Daenerys | Tent | Dany drinks e"
+        },
+        {
+          "chapter": "agot-daenerys-09",
+          "line": 100,
+          "context": "| Mirri's second drink | | Sweet wine | Daenerys | Tent | Mirri lifts Dany's head to cup |\n| Dany requests food | Dates, fruit | Water (cold as they can find) | Daenerys | Tent | Requests upon waking "
+        },
+        {
+          "chapter": "agot-daenerys-09",
+          "line": 102,
+          "context": "| Handmaids waiting outside | Fruit | Wine and water | Available for Daenerys | Outside tent | Waiting when Dany emerges |\n| Evening meal | A fig (nibbled) | Water (mouthful) | Daenerys | Tent area | "
+        },
+        {
+          "chapter": "agot-daenerys-09",
+          "line": 103,
+          "context": "| Evening meal | A fig (nibbled) | Water (mouthful) | Daenerys | Tent area | Barely able to eat; exhausted |\n| Drogo's feeding (reported) | Food put in his mouth | Water dribbled on his lips | Khal Dr"
+        },
+        {
+          "chapter": "agot-arya-02",
+          "line": 273,
+          "context": "### Other\nWater dance / bravo's dance (Braavosi sword fighting style, distinguished from the \"iron dance of Westeros\"), \"the wolf blood\" (a familial temperament trait named by Rickard Stark)"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 121,
+          "context": "|--------------|---------------------|-------|----------------------|-------|-------------------------------|\n| Water delivery by gaoler | None | Water in a cool clay jug beaded with moisture | Ned | "
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 175,
+          "context": "| Confinement | Ned | Lies unmoving to minimize leg pain | Black cell | Extended period \u2014 hours to days |\n| Water delivery | Rat-faced gaoler | Enters through heavy door; thrusts jug | Ned in cell | B"
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 56,
+          "context": "| Ser Brynden Tully | | | | | Lighter leather-and-mail of an outrider; obsidian fish clasp fastening his cloak | | Obsidian fish cloak clasp | |\n| Ser Stevron Frey | | Watery grey eyes | | | | | Looks"
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 96,
+          "context": "| Green Fork | River that must be crossed; running high and fast | No |\n| Water Tower | Central tower of the Twins rising from the bridge span | Yes (uncertain \u2014 verify) |\n| Riverrun | Under siege by "
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 108,
+          "context": "|----------|--------------------|--------------------|-----------------| ------|-----------|------------------------------|------------------------|\n| The Twins | High curtain walls, deep moats, heavy"
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 247,
+          "context": "### Locations\nThe Neck, the riverlands, the Twins, Green Fork, Water Tower, Riverrun, Moat Cailin, Casterly Rock, Red Keep, Dragonstone, Winterfell, King's Landing, the kingsroad, the Trident (referen"
+        }
+      ]
+    },
+    {
+      "page": "Yandry",
+      "raw_html_path": "sources/wiki/_raw/Yandry.json",
+      "track_b_row": {
+        "page": "Yandry",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 8,
+          "source": "cite_ref",
+          "pov": "Jon II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Dornish",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Orphans of the Greenblood",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouse",
+            "target": "Ysilla",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            8,
+            14,
+            18,
+            22,
+            24
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Yandry",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 5
+        },
+        "has_infobox": true,
+        "byte_size": 9515
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Yorkel",
+      "raw_html_path": "sources/wiki/_raw/Yorkel.json",
+      "track_b_row": {
+        "page": "Yorkel",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Yorkel",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 4456
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Yormwell",
+      "raw_html_path": "sources/wiki/_raw/Yormwell.json",
+      "track_b_row": {
+        "page": "Yormwell",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Maester",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Citadel",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Yormwell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 5872
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Ysabel",
+      "raw_html_path": "sources/wiki/_raw/Ysabel.json",
+      "track_b_row": {
+        "page": "Ysabel",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Septa",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Faith of the Seven",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Ysabel",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 7578
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Ysilla",
+      "raw_html_path": "sources/wiki/_raw/Ysilla.json",
+      "track_b_row": {
+        "page": "Ysilla",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 8,
+          "source": "cite_ref",
+          "pov": "Jon II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Dornish",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Orphans of the Greenblood",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouse",
+            "target": "Yandry",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            8,
+            14
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Ysilla",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 7960
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

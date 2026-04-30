@@ -1,0 +1,21 @@
+## Origins
+
+Once considered a city,(wiki:Volon_Therys.cite_ref-Rtwoiafthe_free_cities.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) Volon Therys was founded by the [Valyrian Freehold](wiki:Valyrian_Freehold) when it expanded west after defeating the [Old Empire of Ghis](wiki:Old_Empire_of_Ghis).(wiki:Volon_Therys.cite_ref-Rtwoiafancient_history:_ten_thousand_ships.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) Although rich and glorious, Volon Therys did not have self-rule and was instead governed by men and women sent from [Valyria](wiki:Valyria) to rule in the name of the Freehold.(wiki:Volon_Therys.cite_ref-Rtwoiafthe_free_cities.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
+
+Volon Therys was involved with the [Rhoynish Wars](wiki:Rhoynish_Wars), and half the city was washed away when the [Rhoynar](wiki:Rhoynar) used [water magic](wiki:Magic) during the [First Turtle War](wiki:First_Turtle_War).(wiki:Volon_Therys.cite_ref-Rtwoiafancient_history:_ten_thousand_ships.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1) During the [Second Spice War](wiki:Second_Spice_War), Volon Therys faced the host of the Rhoynish prince [Garin the Great](wiki:Garin_the_Great). The Valyrians numbered one hunded thousand and had three [dragonlords](wiki:Dragonlord), but the Rhoynish troops were protected by their water wizards. Rhoynish archers managed to kill two [dragons](wiki:Dragon) and drive away the third. The Valyrians lost the battle and Volon Therys was again flooded.(wiki:Volon_Therys.cite_ref-Rtwoiafancient_history:_ten_thousand_ships.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
+
+The town has been under the authority of [Volantis](wiki:Volantis) since the [Century of Blood](wiki:Century_of_Blood), the years of expansion under the [tigers](wiki:Tigers_(Volantis)).(wiki:Volon_Therys.cite_ref-Rtwoiafthe_free_cities:_volantis.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+
+After the death of his father [Lysandro](wiki:Lysandro_Rogare) in [135 AC](wiki:135_AC), [Lysaro Rogare](wiki:Lysaro_Rogare) fled [Lys](wiki:Lys), but was captured in Volon Therys and returned to the city, where he was scourged to death.(wiki:Volon_Therys.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+
+## Appearances & Description
+
+Although it is larger than the cities of [King's Landing](wiki:King's_Landing) and [Oldtown](wiki:Oldtown) in [Westeros](wiki:Westeros), Volon Therys is considered a town.(wiki:Volon_Therys.cite_ref-Rtwoiafthe_free_cities:_volantis.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) It has high white walls and a long, chaotic riverfront,(wiki:Volon_Therys.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) which handles timber shipped from [Qohor](wiki:Qohor).(wiki:Volon_Therys.cite_ref-Rtwoiafthe_free_cities:_qohor.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+
+## Narrative Arc
+
+### A Dance with Dragons
+
+The [Golden Company](wiki:Golden_Company) encamps three miles south of Volon Therys due to Triarch [Malaquo](wiki:Malaquo) coming north with five thousand foot and a thousand horse to cut the sellswords off from the delta road to [Volantis](wiki:Volantis).(wiki:Volon_Therys.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1) With the *[khalasar](wiki:Khalasar)* of Khal [Pono](wiki:Pono) having been spotted east of the [Rhoyne](wiki:Rhoyne) near the headwaters of the [Selhoru](wiki:Selhoru),(wiki:Volon_Therys.cite_ref-Radwd8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0) many of the townspeople flee on horseback.(wiki:Volon_Therys.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+
+The *[Shy Maid](wiki:Shy_Maid)* ties up in one of the meaner sections of the riverfront. [Haldon](wiki:Haldon) purchases three [horses](wiki:Horse), which are not the best horseflesh. [Griff](wiki:Griff), Haldon, and [Young Griff](wiki:Young_Griff) ride the horses south to the Golden Company's camp.(wiki:Volon_Therys.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3) Many captains in Volantis race upriver to Volon Therys to offer their ships to [Jon Connington](wiki:Jon_Connington).(wiki:Volon_Therys.cite_ref-Radwd27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0) Ten thousand men eventually sail from Volon Therys with their weapons, horses, and [elephants](wiki:Elephants).(wiki:Volon_Therys.cite_ref-Radwd61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)

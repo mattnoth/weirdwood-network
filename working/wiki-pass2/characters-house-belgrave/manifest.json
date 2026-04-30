@@ -1,0 +1,41 @@
+{
+  "bucket_id": "characters-house-belgrave",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "a0fba92f42f006731810acbe754e4688c616e7863d875b185606d11917ee155d",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Gyles Belgrave",
+    "Lord Belgrave"
+  ],
+  "expected_nodes": [
+    "gyles-belgrave.node.md",
+    "lord-belgrave.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Gyles Belgrave",
+      "Lord Belgrave"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 2,
+      "tier_a": 0,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.655492+00:00",
+  "stage3_promoted_count": 2,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

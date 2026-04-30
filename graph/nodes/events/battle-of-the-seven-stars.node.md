@@ -1,0 +1,39 @@
+---
+name: "Battle of the Seven Stars"
+type: event.battle
+slug: battle-of-the-seven-stars
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Battle_of_the_Seven_Stars"
+bucket_id: battles-b
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Battle of the Seven Stars is a event.battle from the AWOIAF wiki.
+
+## Edges
+
+- FIGHTS_IN: Andal invasion (track_b: Conflict)
+- DEFEATS: Andal (track_b: Result)
+- DEFEATS: Artys Arryn (track_b: Result)
+- DEFEATS: King of Mountain and Vale (track_b: Result)
+
+## Origins
+
+The invading [Andals](wiki:Andals) initially conquered much of [the Vale](wiki:Vale_of_Arryn), as the native [First Men](wiki:First_Men) kings were disunited and often collaborated with the Andals against each other. Once most of the Vale was under Andal control, however, they began to fight amongst themselves. The remaining First Men houses then began to unify behind [Robar II Royce](wiki:Robar_II_Royce), crowning him High King of [the Vale](wiki:Vale_of_Arryn_(valley)), the [Fingers](wiki:Fingers), and the [Mountains of the Moon](wiki:Mountains_of_the_Moon). After Robar defeated [Qyle Corbray](wiki:Qyle_Corbray), the [Graftons](wiki:House_Grafton), and the [Hammer of the Hills](wiki:Hammer_of_the_Hills), the threatened Andals united behind the young Ser [Artys Arryn](wiki:Artys_Arryn), an Andal [knight](wiki:Knight) born near the [Giant's Lance](wiki:Giant's_Lance).(wiki:Battle_of_the_Seven_Stars.cite_ref-Rtwoiaf_the_vale.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+
+Robar's First Men, who were mostly on foot, fortified their position with the Giant's Lance at their back, lining their trenches with sharpened stakes. The Andals arrived at dusk three days later.(wiki:Battle_of_the_Seven_Stars.cite_ref-Rtwoiaf_the_vale.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+
+## Narrative Arc
+
+The exact details of the conclusive battle between the First Men and the Andals in the Vale are lost to legend. Andal songs claim the Andals began their attack when they saw seven stars in the dawn sky. The First Men resisted the first six Andal attacks, but the seventh was led by [Torgold Tollett](wiki:Torgold_Tollett), who slew [Lord Redfort](wiki:House_Redfort) and [Ursula Upcliff](wiki:Ursula_Upcliff). To prevent a rout, King Robar led the First Men's counterattack and slew Torgold the Grim. Hoping to render the Andals leaderless, Robar then dueled with Artys Arryn, slaying the armored knight.(wiki:Battle_of_the_Seven_Stars.cite_ref-Rtwoiaf_the_vale.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+
+Five hundred Andal knights then attacked the First Men from their rear, as Artys was familiar with a goat track which led around the Giant's Lance. Leading these reinforcements was Artys himself, as one of his retainers had dressed in the Arryn armor as a decoy and been slain by Robar. The Andals routed the First Men, with all thirty of Robar's lords killed. Robar died in the fighting, although it is disputed whether he was vanquished by Artys Arryn, [Lord Ruthermont](wiki:Lord_Ruthermont), [Luceon Templeton](wiki:Luceon_Templeton), or [Jaime Corbray](wiki:Jaime_Corbray).(wiki:Battle_of_the_Seven_Stars.cite_ref-Rtwoiaf_the_vale.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+
+## Aftermath
+
+The Battle of the Seven Stars resulted in the extinguishing of fourteen First Men houses and the submission to the Andals of other houses, such as the [Belmores](wiki:House_Belmore), [Hunters](wiki:House_Hunter), [Coldwaters](wiki:House_Coldwater), [Redforts](wiki:House_Redfort), and [Royces](wiki:House_Royce). Ser Artys was crowned [Artys I Arryn](wiki:Artys_I_Arryn), [King of Mountain and Vale](wiki:King_of_Mountain_and_Vale). Those First Men who did not submit to the Andals fled into the [Mountains of the Moon](wiki:Mountains_of_the_Moon), becoming the [mountain clans](wiki:Vale_mountain_clans).(wiki:Battle_of_the_Seven_Stars.cite_ref-Rtwoiaf_the_vale.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)

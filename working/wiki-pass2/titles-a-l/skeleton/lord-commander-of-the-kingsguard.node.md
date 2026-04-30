@@ -1,0 +1,20 @@
+---
+name: "Lord Commander of the Kingsguard"
+type: title
+slug: lord-commander-of-the-kingsguard
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Lord_Commander_of_the_Kingsguard"
+bucket_id: titles-a-l
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Lord Commander of the Kingsguard is a title from the AWOIAF wiki.
+
+## Edges
+
+- REGION_OF: Seven Kingdoms (track_b: Region)

@@ -1,0 +1,1743 @@
+{
+  "bucket_id": "characters-house-greyjoy-a-g",
+  "tier": "core",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Aeron Greyjoy",
+      "raw_html_path": "sources/wiki/_raw/Aeron_Greyjoy.json",
+      "track_b_row": {
+        "page": "Aeron Greyjoy",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 1,
+          "source": "cite_ref",
+          "pov": "Prologue"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Golden Storm",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "formerly"
+          },
+          {
+            "field": "Titles",
+            "target": "Priest of the Drowned God",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "269",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "273\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Pyke",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Quellon Greyjoy",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Sunderly",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [
+          "The Damphair",
+          "Aeron Damphair"
+        ],
+        "cite_refs": {
+          "acok": [
+            11,
+            24,
+            37
+          ],
+          "affc": [
+            1,
+            11,
+            18,
+            19,
+            29
+          ],
+          "adwd": [
+            26,
+            56
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Aeron Greyjoy",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 3,
+          "asos": 0,
+          "affc": 5,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 122989
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Aggar",
+      "raw_html_path": "sources/wiki/_raw/Aggar.json",
+      "track_b_row": {
+        "page": "Aggar",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 41,
+          "source": "cite_ref",
+          "pov": "Tyrion IX"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "299\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Winterfell",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            50,
+            56
+          ],
+          "adwd": [
+            41
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Aggar",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 2,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 9356
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Alannys Harlaw",
+      "raw_html_path": "sources/wiki/_raw/Alannys_Harlaw.json",
+      "track_b_row": {
+        "page": "Alannys Harlaw",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 4,
+          "source": "cite_ref",
+          "pov": "Daenerys I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lady Greyjoy",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Queen",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Harlaw",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Harlaw",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Harlaw",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Balon Greyjoy",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Rodrik Greyjoy",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Maron Greyjoy",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Asha Greyjoy",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Theon Greyjoy",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Lanny"
+        ],
+        "cite_refs": {
+          "affc": [
+            11,
+            18,
+            19
+          ],
+          "acok": [
+            11,
+            24,
+            49,
+            56,
+            66
+          ],
+          "agot": [
+            4
+          ],
+          "asos": [
+            19,
+            45,
+            49
+          ],
+          "adwd": [
+            26,
+            42
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Alannys Harlaw",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 5,
+          "asos": 3,
+          "affc": 3,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 121581
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Alton Greyjoy",
+      "raw_html_path": "sources/wiki/_raw/Alton_Greyjoy.json",
+      "track_b_row": {
+        "page": "Alton Greyjoy",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord of the Iron Islands",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord Reaper of Pyke",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "The Holy Fool"
+        ],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Alton Greyjoy",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 11561
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Asha Greyjoy",
+      "raw_html_path": "sources/wiki/_raw/Asha_Greyjoy.json",
+      "track_b_row": {
+        "page": "Asha Greyjoy",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 1,
+          "source": "cite_ref",
+          "pov": "Prologue"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Princess",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Black Wind",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Ironmaker",
+            "edge_type": "SWORN_TO",
+            "direction": "forward",
+            "qualifier": "forced marriage"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "275\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "276\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Pyke",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Balon Greyjoy",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Alannys Harlaw",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Erik Ironmaker",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric",
+            "qualifier": "forced marriage"
+          },
+          {
+            "field": "Lovers",
+            "target": "Tristifer Botley",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Lovers",
+            "target": "Qarl the Maid",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [
+          "Esgred",
+          "The kraken's daughter"
+        ],
+        "cite_refs": {
+          "acok": [
+            11,
+            24,
+            50,
+            56,
+            66
+          ],
+          "adwd": [
+            26,
+            35,
+            42,
+            51,
+            62
+          ],
+          "affc": [
+            1,
+            11,
+            18,
+            19,
+            29
+          ],
+          "asos": [
+            45
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Asha Greyjoy",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 5,
+          "asos": 1,
+          "affc": 5,
+          "adwd": 5
+        },
+        "has_infobox": true,
+        "byte_size": 140013
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Black Lorren",
+      "raw_html_path": "sources/wiki/_raw/Black_Lorren.json",
+      "track_b_row": {
+        "page": "Black Lorren",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 37,
+          "source": "cite_ref",
+          "pov": "Tyrion VIII"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Castellan",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Winterfell",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "299\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Winterfell",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Black Lorren"
+        ],
+        "cite_refs": {
+          "acok": [
+            37,
+            46,
+            50,
+            56,
+            66,
+            69
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Black Lorren",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 6,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 24907
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Bluetooth",
+      "raw_html_path": "sources/wiki/_raw/Bluetooth.json",
+      "track_b_row": {
+        "page": "Bluetooth",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 24,
+          "source": "cite_ref",
+          "pov": "Jon III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Captain",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouse",
+            "target": "Unknown wife",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            24
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Bluetooth",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 7943
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Boy (thrall)",
+      "raw_html_path": "sources/wiki/_raw/Boy_(thrall).json",
+      "track_b_row": {
+        "page": "Boy (thrall)",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "280\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "roughly"
+          }
+        ],
+        "aliases": [
+          "the boy"
+        ],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Boy (thrall)",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 7592
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Cadwyl",
+      "raw_html_path": "sources/wiki/_raw/Cadwyl.json",
+      "track_b_row": {
+        "page": "Cadwyl",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 56,
+          "source": "cite_ref",
+          "pov": "Catelyn VII"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            56,
+            66
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Cadwyl",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 2,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 10089
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Cragorn",
+      "raw_html_path": "sources/wiki/_raw/Cragorn.json",
+      "track_b_row": {
+        "page": "Cragorn",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 19,
+          "source": "cite_ref",
+          "pov": "The Iron Captain"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "300\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Old Wyk",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            19,
+            29
+          ],
+          "adwd": [
+            63
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Cragorn",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 2,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 15566
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Cromm",
+      "raw_html_path": "sources/wiki/_raw/Cromm.json",
+      "track_b_row": {
+        "page": "Cromm",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 26,
+          "source": "cite_ref",
+          "pov": "The Windblown"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "300\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Deepwood Motte",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            26,
+            62
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Cromm",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 10069
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Dagmer",
+      "raw_html_path": "sources/wiki/_raw/Dagmer.json",
+      "track_b_row": {
+        "page": "Dagmer",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 1,
+          "source": "cite_ref",
+          "pov": "Prologue"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Foamdrinker",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Master-at-arms",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Pyke",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Iron Islands",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Dagmer Cleftjaw",
+          "Cleftjaw"
+        ],
+        "cite_refs": {
+          "acok": [
+            11,
+            24,
+            37,
+            46,
+            56
+          ],
+          "affc": [
+            1
+          ],
+          "asos": [
+            76
+          ],
+          "adwd": [
+            26,
+            42
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Dagmer",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 5,
+          "asos": 1,
+          "affc": 1,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 37919
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Dagon Greyjoy",
+      "raw_html_path": "sources/wiki/_raw/Dagon_Greyjoy.json",
+      "track_b_row": {
+        "page": "Dagon Greyjoy",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 18,
+          "source": "cite_ref",
+          "pov": "Cersei IV"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord Reaper of Pyke",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of the Iron Islands",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Iron Islands",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "212",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "259\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouse",
+            "target": "Unknown",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Quellon Greyjoy",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Last Reaver"
+        ],
+        "cite_refs": {
+          "adwd": [
+            26,
+            56,
+            63
+          ],
+          "affc": [
+            18,
+            32
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Dagon Greyjoy",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 2,
+          "adwd": 3
+        },
+        "has_infobox": true,
+        "byte_size": 84741
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Dagon Greyjoy (Drunkard)",
+      "raw_html_path": "sources/wiki/_raw/Dagon_Greyjoy_(Drunkard).json",
+      "track_b_row": {
+        "page": "Dagon Greyjoy (Drunkard)",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 26,
+          "source": "cite_ref",
+          "pov": "The Windblown"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Dagon the Drunkard"
+        ],
+        "cite_refs": {
+          "adwd": [
+            26,
+            42
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Dagon Greyjoy (Drunkard)",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 11225
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Dalton Greyjoy",
+      "raw_html_path": "sources/wiki/_raw/Dalton_Greyjoy.json",
+      "track_b_row": {
+        "page": "Dalton Greyjoy",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 19,
+          "source": "cite_ref",
+          "pov": "The Iron Captain"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord Reaper of Pyke",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of the Iron Islands",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Blacks",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "113\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "133\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Faircastle",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Greyjoy",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouses",
+            "target": "salt wives",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Spouses",
+            "target": "Tess",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Spouses",
+            "target": "Knight of Kayce",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Spouses",
+            "target": "Lannister of Lannisport",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Spouses",
+            "target": "Lysa Farman",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Spouses",
+            "target": "Farman",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Toron Greyjoy",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Rodrik Greyjoy",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "The Red Kraken"
+        ],
+        "cite_refs": {
+          "affc": [
+            19
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Dalton Greyjoy",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 67422
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Donel Greyjoy",
+      "raw_html_path": "sources/wiki/_raw/Donel_Greyjoy.json",
+      "track_b_row": {
+        "page": "Donel Greyjoy",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 1,
+          "source": "cite_ref",
+          "pov": "Prologue"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "255",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "262\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Quellon Greyjoy",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Stonetree",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            1
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Donel Greyjoy",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 59244
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Drennan",
+      "raw_html_path": "sources/wiki/_raw/Drennan.json",
+      "track_b_row": {
+        "page": "Drennan",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 50,
+          "source": "cite_ref",
+          "pov": "Tyrion XI"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "299\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Winterfell",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            50
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Drennan",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 8383
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Droopeye Dale",
+      "raw_html_path": "sources/wiki/_raw/Droopeye_Dale.json",
+      "track_b_row": {
+        "page": "Droopeye Dale",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 26,
+          "source": "cite_ref",
+          "pov": "The Windblown"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Droop-eye Dale"
+        ],
+        "cite_refs": {
+          "adwd": [
+            26
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Droopeye Dale",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 9230
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Dusky woman",
+      "raw_html_path": "sources/wiki/_raw/Dusky_woman.json",
+      "track_b_row": {
+        "page": "Dusky woman",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 23,
+          "source": "cite_ref",
+          "pov": "Arya IV"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward",
+            "qualifier": "forcibly as a thrall"
+          },
+          {
+            "field": "Allegiance",
+            "target": "thrall",
+            "edge_type": "SWORN_TO",
+            "direction": "forward",
+            "qualifier": "forcibly as a thrall"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            29
+          ],
+          "adwd": [
+            56,
+            63
+          ],
+          "asos": [
+            23
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Dusky woman",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 1,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 22415
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Endehar",
+      "raw_html_path": "sources/wiki/_raw/Endehar.json",
+      "track_b_row": {
+        "page": "Endehar",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 66,
+          "source": "cite_ref",
+          "pov": "Sansa VIII"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            66
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Endehar",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 8220
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Gelmarr",
+      "raw_html_path": "sources/wiki/_raw/Gelmarr.json",
+      "track_b_row": {
+        "page": "Gelmarr",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 41,
+          "source": "cite_ref",
+          "pov": "Tyrion IX"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "299\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Winterfell",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "The Grim"
+        ],
+        "cite_refs": {
+          "acok": [
+            50,
+            56
+          ],
+          "adwd": [
+            41
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Gelmarr",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 2,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 9853
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Goren Greyjoy",
+      "raw_html_path": "sources/wiki/_raw/Goren_Greyjoy.json",
+      "track_b_row": {
+        "page": "Goren Greyjoy",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord of the Iron Islands",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord Reaper of Pyke",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Vickon Greyjoy",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Goren Greyjoy",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 18544
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Grimtongue",
+      "raw_html_path": "sources/wiki/_raw/Grimtongue.json",
+      "track_b_row": {
+        "page": "Grimtongue",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 26,
+          "source": "cite_ref",
+          "pov": "The Windblown"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            26,
+            42,
+            62
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Grimtongue",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 3
+        },
+        "has_infobox": true,
+        "byte_size": 12093
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

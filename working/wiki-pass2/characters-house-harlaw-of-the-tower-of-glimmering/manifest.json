@@ -1,0 +1,41 @@
+{
+  "bucket_id": "characters-house-harlaw-of-the-tower-of-glimmering",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "5e74ec0c26da93a6efc453c5305b7288b8771bf936db3ec9134226d5c5b9dc8b",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Hotho Harlaw",
+    "Hotho Harlaw's daughter"
+  ],
+  "expected_nodes": [
+    "hotho-harlaw.node.md",
+    "hotho-harlaws-daughter.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Hotho Harlaw",
+      "Hotho Harlaw's daughter"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 2,
+      "tier_a": 0,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.813743+00:00",
+  "stage3_promoted_count": 2,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

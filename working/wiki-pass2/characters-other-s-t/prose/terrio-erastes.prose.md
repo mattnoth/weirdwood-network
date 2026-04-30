@@ -1,0 +1,3 @@
+## Origins
+
+Terrio witnessed the destruction of [Ibbish](wiki:Ibbish) that led to Dhako being called *"the Dragon of the North"*. He wrote that the khal took great pride in his moniker, but came to rue it when the younger Khal [Temmo](wiki:Temmo) broke his *[khalasar](wiki:Khalasar)*, took him captive and fed him to the flames, cutting off his hands, feet, and [genitals](wiki:Eunuch) and roasting them before his eyes, after killing his wives and sons in the same manner.(wiki:Terrio_Erastes.cite_ref-Rtwoiafbeyond_the_free_cities:_ib.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

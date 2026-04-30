@@ -1,0 +1,122 @@
+{
+  "version": "v1",
+  "computed_at": "2026-04-28T01:11:55Z",
+  "buckets_processed": 472,
+  "totals": {
+    "tier_a": 624,
+    "tier_b": 2691,
+    "tier_c_total": 57,
+    "tier_c_by_kind": {
+      "redirect": 57,
+      "disambiguation": 0,
+      "list_article": 0,
+      "year_article": 0,
+      "stub": 0,
+      "entity": 0
+    }
+  },
+  "samples": {
+    "tier_a_first_20": [
+      "Aegon's Conquest",
+      "Arrest of Eddard Stark",
+      "Assault on Dragonstone",
+      "Attack on Castle Black",
+      "Battle at Duskendale",
+      "Battle at Pyke",
+      "Battle at the Horns of Hazzat",
+      "Battle at the Mummer's Ford",
+      "Battle beneath the Wall",
+      "Battle in the Whispering Wood",
+      "Battle in the hills below the Golden Tooth",
+      "Battle in the ice",
+      "Battle of the Bells",
+      "Battle of the Blackwater",
+      "Battle of the Camps",
+      "Battle of the Fords",
+      "Battle of the Trident",
+      "Battle on the Green Fork",
+      "Battle outside the gates of Winterfell",
+      "Burning of Stone Hedge"
+    ],
+    "tier_b_first_20": [
+      "A Storm of Swords-Chapter 71",
+      "A Storm of Swords-Chapter 72",
+      "A Storm of Swords-Chapter 73",
+      "A Storm of Swords-Chapter 74",
+      "A Storm of Swords-Chapter 75",
+      "A Storm of Swords-Chapter 76",
+      "A Storm of Swords-Chapter 77",
+      "A Storm of Swords-Chapter 78",
+      "A Storm of Swords-Chapter 79",
+      "A Storm of Swords-Chapter 8",
+      "A Storm of Swords-Chapter 80",
+      "A Storm of Swords-Chapter 9",
+      "A Storm of Swords-Epilogue",
+      "A Storm of Swords-Prologue",
+      "Aegon the Uncrowned's rebellion",
+      "Aegon's first test",
+      "Aemond's march on Harrenhal",
+      "Alayne I (The Winds of Winter)",
+      "Ambush at Fair Isle",
+      "Ambush on the Wendwater"
+    ],
+    "tier_c_redirect_first_10": [
+      "Battle of Ashemark",
+      "Battle of the Bitter River",
+      "Battle of the Bridge of Skulls",
+      "Battle of the Crag",
+      "Battle of the Fist of the First Men",
+      "Battle of the Golden Tooth",
+      "Battle of the Green Fork",
+      "Battle of the Last Storm",
+      "Battle of the Mummer's Ford",
+      "Battle of the Red Fork"
+    ],
+    "tier_c_stub_first_10": [],
+    "tier_c_entity_first_10": []
+  },
+  "buckets_with_mixed_tiers": [
+    {
+      "bucket_id": "battles-a-b",
+      "a": 8,
+      "b": 21,
+      "c": 1
+    },
+    {
+      "bucket_id": "battles-b",
+      "a": 5,
+      "b": 11,
+      "c": 14
+    },
+    {
+      "bucket_id": "battles-b-d",
+      "a": 9,
+      "b": 16,
+      "c": 5
+    },
+    {
+      "bucket_id": "battles-s-t",
+      "a": 10,
+      "b": 15,
+      "c": 5
+    },
+    {
+      "bucket_id": "houses-other-b-h",
+      "a": 7,
+      "b": 14,
+      "c": 9
+    },
+    {
+      "bucket_id": "houses-other-h",
+      "a": 4,
+      "b": 15,
+      "c": 11
+    },
+    {
+      "bucket_id": "houses-other-h-w",
+      "a": 6,
+      "b": 8,
+      "c": 12
+    }
+  ]
+}

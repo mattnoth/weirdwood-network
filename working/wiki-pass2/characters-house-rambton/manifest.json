@@ -1,0 +1,38 @@
+{
+  "bucket_id": "characters-house-rambton",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "b76a630aea46f5dc4e30150d2c4a966939ef3048a0d12e81f061c18bd0da6b19",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Hubard Rambton"
+  ],
+  "expected_nodes": [
+    "hubard-rambton.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Hubard Rambton"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 1,
+      "tier_a": 0,
+      "tier_b": 1,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.930881+00:00",
+  "stage3_promoted_count": 1,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

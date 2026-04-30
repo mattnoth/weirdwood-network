@@ -1,0 +1,62 @@
+{
+  "bucket_id": "characters-house-butterwell",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "28e99ac20434d6b88f7c5545f648d2d4153966aa12356f7f1b84bac9d0c53a06",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Alton Butterwell",
+    "Ambrose Butterwell",
+    "Argrave the Defiant",
+    "Beatrice Butterwell",
+    "Cosgrove",
+    "Lord Butterwell (Dance)",
+    "Lord Butterwell (grandfather of Ambrose)",
+    "Lothar",
+    "Tommard Heddle"
+  ],
+  "expected_nodes": [
+    "alton-butterwell.node.md",
+    "ambrose-butterwell.node.md",
+    "argrave-the-defiant.node.md",
+    "beatrice-butterwell.node.md",
+    "cosgrove.node.md",
+    "lord-butterwell-dance.node.md",
+    "lord-butterwell-grandfather-of-ambrose.node.md",
+    "lothar.node.md",
+    "tommard-heddle.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Alton Butterwell",
+      "Ambrose Butterwell",
+      "Argrave the Defiant",
+      "Beatrice Butterwell",
+      "Cosgrove",
+      "Lord Butterwell (Dance)",
+      "Lord Butterwell (grandfather of Ambrose)",
+      "Lothar",
+      "Tommard Heddle"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 9,
+      "tier_a": 0,
+      "tier_b": 9,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.695403+00:00",
+  "stage3_promoted_count": 9,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

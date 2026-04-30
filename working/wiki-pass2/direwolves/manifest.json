@@ -1,0 +1,29 @@
+{
+  "bucket_id": "direwolves",
+  "tier": "core",
+  "tier_default": "tier-2",
+  "fingerprint": "f9b4904db6acca8d504b3916c83ef1b5e0c3dbb11f6d1009102e15c1b47bd153",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Ghost",
+    "Grey Wind",
+    "Lady",
+    "Nymeria (direwolf)",
+    "Shaggydog",
+    "Summer"
+  ],
+  "expected_nodes": [
+    "ghost.node.md",
+    "grey-wind.node.md",
+    "lady.node.md",
+    "nymeria-direwolf.node.md",
+    "shaggydog.node.md",
+    "summer.node.md"
+  ],
+  "status": "complete",
+  "started_at": "2026-04-27T00:59:19Z",
+  "completed_at": "2026-04-27T01:04:06Z",
+  "validation_report": "working/wiki-pass2/direwolves/validator-report.json"
+}

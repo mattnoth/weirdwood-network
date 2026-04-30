@@ -1,0 +1,69 @@
+{
+  "bucket_id": "characters-house-tarth",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "9af7165b676fd6d2bfe9c87b4f578c024d9cf560992b9983b4aed7b5b4ede949",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Alysanne Tarth",
+    "Arianne Tarth",
+    "Brienne Tarth",
+    "Bryndemere Tarth",
+    "Cameron Tarth",
+    "Endrew Tarth",
+    "Galladon Tarth",
+    "Goodwin",
+    "Quentyn Tarth",
+    "Roelle",
+    "Selwyn Tarth"
+  ],
+  "expected_nodes": [
+    "alysanne-tarth.node.md",
+    "arianne-tarth.node.md",
+    "brienne-tarth.node.md",
+    "bryndemere-tarth.node.md",
+    "cameron-tarth.node.md",
+    "endrew-tarth.node.md",
+    "galladon-tarth.node.md",
+    "goodwin.node.md",
+    "quentyn-tarth.node.md",
+    "roelle.node.md",
+    "selwyn-tarth.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Brienne Tarth",
+      "Endrew Tarth",
+      "Selwyn Tarth"
+    ],
+    "tier_b": [
+      "Alysanne Tarth",
+      "Arianne Tarth",
+      "Bryndemere Tarth",
+      "Cameron Tarth",
+      "Galladon Tarth",
+      "Goodwin",
+      "Quentyn Tarth",
+      "Roelle"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 11,
+      "tier_a": 3,
+      "tier_b": 8,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.999152+00:00",
+  "stage3_promoted_count": 11,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

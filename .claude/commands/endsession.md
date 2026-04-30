@@ -27,3 +27,20 @@ Run the end-of-session checklist for the Weirwood Network project. Do each step 
 7. **Verify .gitignore** — Confirm sources/raw/ and sources/chapters/ are still in .gitignore. Run `git status` and flag if any copyrighted content is showing as untracked.
 
 8. **Show session summary** — Print a brief summary of what was accomplished and what the next session should pick up.
+
+9. **Output copy/paste handoff block** — At the very end, print a clearly-delimited code block that Matt can paste into a fresh agent conversation as-is. Format:
+
+   ```
+   ━━━ HANDOFF FOR NEXT AGENT ━━━
+   /continue {prompt-filename-without-.md}
+
+   Context:
+   - Active work track: {one-line description}
+   - Last session: {session number} — {one-line outcome}
+   - Read first: {path to canonical reference, e.g. wiki-pass2-pipeline.md, if relevant}
+   - Open questions for Matt: {bullet list, or "none"}
+   - DO NOT: {one-line list of things the next agent must avoid — e.g., "do not run /endsession without permission, do not auto-launch agent runs"}
+   ━━━
+   ```
+
+   The block must be self-contained — a fresh Claude with no carry-over context should be able to start work from this paste alone. If multiple work tracks are in flight, output one block per track with a clear label. If no follow-up work track exists, say so explicitly rather than emit an empty block.

@@ -1,0 +1,8 @@
+{
+  "bucket_id": "characters-house-arryn",
+  "passed": true,
+  "checked_at": "2026-04-27T15:11:04Z",
+  "node_count_expected": 30,
+  "node_count_actual": 30,
+  "failures": []
+}

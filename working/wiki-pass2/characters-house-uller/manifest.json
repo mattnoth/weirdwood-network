@@ -1,0 +1,51 @@
+{
+  "bucket_id": "characters-house-uller",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "9e8dd9bd147d4ab09026cb91f64280e993c3476eb94d28d28fe484cd136be524",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Ellaria Sand",
+    "Harmen Uller",
+    "Lord Uller (husband of Nymeria)",
+    "Ulwyck Uller",
+    "Uthor Uller"
+  ],
+  "expected_nodes": [
+    "ellaria-sand.node.md",
+    "harmen-uller.node.md",
+    "lord-uller-husband-of-nymeria.node.md",
+    "ulwyck-uller.node.md",
+    "uthor-uller.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Ellaria Sand"
+    ],
+    "tier_b": [
+      "Harmen Uller",
+      "Lord Uller (husband of Nymeria)",
+      "Ulwyck Uller",
+      "Uthor Uller"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 5,
+      "tier_a": 1,
+      "tier_b": 4,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.010370+00:00",
+  "stage3_promoted_count": 5,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

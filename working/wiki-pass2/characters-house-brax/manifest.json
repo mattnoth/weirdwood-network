@@ -1,0 +1,63 @@
+{
+  "bucket_id": "characters-house-brax",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "361561e7443d731b2e60891cb46cee04742b584f615a25f2a5304bd5b5d9e4e3",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Andros Brax",
+    "Cerissa Brax",
+    "Flement Brax",
+    "Jon Brax",
+    "Robert Brax",
+    "Robert Brax (son of Flement)",
+    "Rupert Brax",
+    "Tytos Brax",
+    "Walder Brax"
+  ],
+  "expected_nodes": [
+    "andros-brax.node.md",
+    "cerissa-brax.node.md",
+    "flement-brax.node.md",
+    "jon-brax.node.md",
+    "robert-brax-son-of-flement.node.md",
+    "robert-brax.node.md",
+    "rupert-brax.node.md",
+    "tytos-brax.node.md",
+    "walder-brax.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Flement Brax",
+      "Tytos Brax"
+    ],
+    "tier_b": [
+      "Andros Brax",
+      "Cerissa Brax",
+      "Jon Brax",
+      "Robert Brax",
+      "Robert Brax (son of Flement)",
+      "Rupert Brax",
+      "Walder Brax"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 9,
+      "tier_a": 2,
+      "tier_b": 7,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.685752+00:00",
+  "stage3_promoted_count": 9,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

@@ -1,0 +1,45 @@
+{
+  "bucket_id": "characters-house-greenfield",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "0b01b190149a4b4a500b39e638d331e52602d14f3e5a1fa5deba2da5f8ab0d89",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Garth Greenfield",
+    "Myles Greenfield",
+    "Preston Greenfield"
+  ],
+  "expected_nodes": [
+    "garth-greenfield.node.md",
+    "myles-greenfield.node.md",
+    "preston-greenfield.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Preston Greenfield"
+    ],
+    "tier_b": [
+      "Garth Greenfield",
+      "Myles Greenfield"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 3,
+      "tier_a": 1,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.806581+00:00",
+  "stage3_promoted_count": 3,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

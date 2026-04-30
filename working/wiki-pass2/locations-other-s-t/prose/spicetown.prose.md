@@ -1,0 +1,13 @@
+## Origins
+
+Spicetown arose from a village when [House Velaryon](wiki:House_Velaryon) became the wealthiest house of the [Seven Kingdoms](wiki:Seven_Kingdoms) from the [voyages](wiki:Great_Voyages) of Lord [Corlys Velaryon](wiki:Corlys_Velaryon). Due to its location, it began to attract much of the trade that elswise would have made for [Duskendale](wiki:Duskendale) or [King's Landing](wiki:King's_Landing). Spicetown's wharves became crowded with ships from the [Free Cities](wiki:Free_Cities) and beyond.(wiki:Spicetown.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+
+In [120 AC](wiki:120_AC), Ser [Qarl Correy](wiki:Qarl_Correy) slew his alleged lover, Ser [Laenor Velaryon](wiki:Laenor_Velaryon), over an unknown quarrel at a fair in the town.(wiki:Spicetown.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2) [Nettles](wiki:Nettles) grew up homeless in Spicetown and [Hull](wiki:Hull).(wiki:Spicetown.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+
+Corlys the Sea Snake launched his ships from Hull and Spicetown to close the [Gullet](wiki:Gullet) at the start of the [Dance of the Dragons](wiki:Dance_of_the_Dragons).(wiki:Spicetown.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) The people of Spicetown heard the shriek of [Vermax](wiki:Vermax) when the dragon was wounded during the [Battle of the Gullet](wiki:Battle_of_the_Gullet) in [130 AC](wiki:130_AC). On behalf of the [greens](wiki:Greens), the [Triarchy](wiki:Triarchy) then sacked the town, butchering its populace and burning its buildings. Nearby High Tide was also burned during the battle. Spicetown was not rebuilt after the civil war.(wiki:Spicetown.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
+
+Ser [Marston Waters](wiki:Marston_Waters) and another "cousin" from Spicetown, left homeless from the Battle of the Gullet,(wiki:Spicetown.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1) aided [Tom Tanglebeard](wiki:Tom_Tanglebeard) and [Tom Tangletongue](wiki:Tom_Tangletongue).(wiki:Spicetown.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+
+## Culture
+
+[Named after](wiki:Named_after) the town, *[Spicetown Girl](wiki:Spicetown_Girl)* was a warship belonging to [House Velaryon](wiki:House_Velaryon) of Driftmark.(wiki:Spicetown.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

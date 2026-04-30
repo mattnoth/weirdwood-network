@@ -1,0 +1,1812 @@
+{
+  "bucket_id": "houses-crownlands-d-h",
+  "tier": "core",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Dragonkeepers",
+      "raw_html_path": "sources/wiki/_raw/Dragonkeepers.json",
+      "track_b_row": {
+        "page": "Dragonkeepers",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 20,
+          "source": "cite_ref",
+          "pov": "Jon III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Dragonpit",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Seat",
+            "target": "King's Landing",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Seat",
+            "target": "Dragonstone",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Region",
+            "target": "Crownlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Founder",
+            "target": "Jaehaerys I Targaryen",
+            "edge_type": "FOUNDED",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            20
+          ],
+          "asos": [
+            61
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Dragonkeepers",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 0,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 28567
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Bar Emmon",
+      "raw_html_path": "sources/wiki/_raw/House_Bar_Emmon.json",
+      "track_b_row": {
+        "page": "House Bar Emmon",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 10,
+          "source": "cite_ref",
+          "pov": "Arya III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Sharp Point",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Duram Bar Emmon",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Crownlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of Sharp Point",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "King",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "historical"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Durrandon",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "?\u20132\u00a0BC"
+          },
+          {
+            "field": "Overlords",
+            "target": "2\u00a0BC",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "?\u20132\u00a0BC"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Targaryen",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "2\u00a0BC\u00a0\u2013 284\u00a0AC"
+          },
+          {
+            "field": "Overlords",
+            "target": "284\u00a0AC",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "2\u00a0BC\u00a0\u2013 284\u00a0AC"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Baratheon of Dragonstone",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "284\u00a0AC\u2013present"
+          },
+          {
+            "field": "Founder",
+            "target": "Togarion Bar Emmon",
+            "edge_type": "FOUNDED",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            25,
+            36,
+            75
+          ],
+          "acok": [
+            10,
+            58
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Bar Emmon",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 2,
+          "asos": 3,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 57411
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Baratheon of Dragonstone",
+      "raw_html_path": "sources/wiki/_raw/House_Baratheon_of_Dragonstone.json",
+      "track_b_row": {
+        "page": "House Baratheon of Dragonstone",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 9,
+          "source": "cite_ref",
+          "pov": "Tyrion III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Dragonstone",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Stannis I Baratheon",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Regions",
+            "target": "Crownlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Regions",
+            "target": "Stormlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of Dragonstone",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of Storm's End",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "disputed"
+          },
+          {
+            "field": "Titles",
+            "target": "King of Westeros",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "disputed"
+          },
+          {
+            "field": "Heir",
+            "target": "Shireen Baratheon",
+            "edge_type": "HEIR_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Baratheon of King's Landing",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "284\u2013299\u00a0AC"
+          },
+          {
+            "field": "Overlord",
+            "target": "284",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "284\u2013299\u00a0AC"
+          },
+          {
+            "field": "Overlord",
+            "target": "299\u00a0AC",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "284\u2013299\u00a0AC"
+          },
+          {
+            "field": "Founder",
+            "target": "Stannis Baratheon",
+            "edge_type": "FOUNDED",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            10,
+            22,
+            25,
+            31,
+            33,
+            42,
+            62
+          ],
+          "agot": [
+            20,
+            27,
+            57,
+            59,
+            69
+          ],
+          "asos": [
+            10,
+            36,
+            54,
+            73,
+            74
+          ],
+          "adwd": [
+            9,
+            26,
+            39,
+            42,
+            44,
+            61,
+            62,
+            69
+          ],
+          "affc": [
+            12,
+            32,
+            36,
+            43
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Baratheon of Dragonstone",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 5,
+          "acok": 7,
+          "asos": 5,
+          "affc": 4,
+          "adwd": 8
+        },
+        "has_infobox": true,
+        "byte_size": 134726
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Baratheon of King's Landing",
+      "raw_html_path": "sources/wiki/_raw/House_Baratheon_of_King's_Landing.json",
+      "track_b_row": {
+        "page": "House Baratheon of King's Landing",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 5,
+          "source": "cite_ref",
+          "pov": "Eddard I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Red Keep",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Seat",
+            "target": "King's Landing",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Tommen I Baratheon",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Crownlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "King of the Andals, the Rhoynar, and the First Men",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of the Seven Kingdoms",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of Storm's End",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "disputed"
+          },
+          {
+            "field": "Heir",
+            "target": "Myrcella Baratheon",
+            "edge_type": "HEIR_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "sovereign",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "disputed by House Baratheon of Dragonstone and House Targaryen"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Baratheon of Dragonstone",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "disputed by House Baratheon of Dragonstone and House Targaryen"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Targaryen",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "disputed by House Baratheon of Dragonstone and House Targaryen"
+          },
+          {
+            "field": "Founder",
+            "target": "Robert I Baratheon",
+            "edge_type": "FOUNDED",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            5,
+            7,
+            15,
+            30
+          ],
+          "acok": [
+            65
+          ],
+          "affc": [
+            12,
+            13,
+            14,
+            21
+          ],
+          "asos": [
+            38
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Baratheon of King's Landing",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 4,
+          "acok": 1,
+          "asos": 1,
+          "affc": 4,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 129767
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Blackberry",
+      "raw_html_path": "sources/wiki/_raw/House_Blackberry.json",
+      "track_b_row": {
+        "page": "House Blackberry",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 10,
+          "source": "cite_ref",
+          "pov": "Bran I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Crownlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "stormlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Baratheon of Dragonstone",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            10,
+            63
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Blackberry",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 2,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 12280
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Blackfyre",
+      "raw_html_path": "sources/wiki/_raw/House_Blackfyre.json",
+      "track_b_row": {
+        "page": "House Blackfyre",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 5,
+          "source": "cite_ref",
+          "pov": "Bran I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Tyrosh",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse",
+            "qualifier": "in exile"
+          },
+          {
+            "field": "Head",
+            "target": "Extinct",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Crownlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward",
+            "qualifier": "exiled"
+          },
+          {
+            "field": "Titles",
+            "target": "King of the Andals, the Rhoynar, and the First Men",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "claimant"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of the Seven Kingdoms",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "claimant"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Targaryen",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "184\u2013196\u00a0AC"
+          },
+          {
+            "field": "Overlord",
+            "target": "184",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "184\u2013196\u00a0AC"
+          },
+          {
+            "field": "Overlord",
+            "target": "196\u00a0AC",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "184\u2013196\u00a0AC"
+          },
+          {
+            "field": "Ancestral weapon",
+            "target": "Blackfyre",
+            "edge_type": "ANCESTRAL_WEAPON_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Founder",
+            "target": "Daemon Blackfyre",
+            "edge_type": "FOUNDED",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            5,
+            55
+          ],
+          "asos": [
+            45
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Blackfyre",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 97763
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Blount",
+      "raw_html_path": "sources/wiki/_raw/House_Blount.json",
+      "track_b_row": {
+        "page": "House Blount",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 8,
+          "source": "cite_ref",
+          "pov": "Arya I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Crownlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Targaryen",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "?\u2013283\u00a0AC"
+          },
+          {
+            "field": "Overlords",
+            "target": "283\u00a0AC",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "?\u2013283\u00a0AC"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Baratheon of King's Landing",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "283\u00a0AC\u2013present"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            12,
+            24,
+            66,
+            67
+          ],
+          "agot": [
+            8
+          ],
+          "acok": [
+            49
+          ],
+          "affc": [
+            12,
+            17
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Blount",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 1,
+          "asos": 4,
+          "affc": 2,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 32918
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-sansa-05",
+          "line": 297,
+          "context": "### Houses\nHouse Baratheon, House Lannister, House Stark, House Tyrell, House Arryn, House Tully, House Martell, House Royce, House Mallister, House Caron, House Blackwood, House Frey, House Vance, Ho"
+        }
+      ]
+    },
+    {
+      "page": "House Boggs",
+      "raw_html_path": "sources/wiki/_raw/House_Boggs.json",
+      "track_b_row": {
+        "page": "House Boggs",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 20,
+          "source": "cite_ref",
+          "pov": "The Drowned Man"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Crownlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Targaryen",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "?\u2013283\u00a0AC"
+          },
+          {
+            "field": "Overlords",
+            "target": "283\u00a0AC",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "?\u2013283\u00a0AC"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Baratheon of King's Landing",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "283\u00a0AC\u2013present"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            20
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Boggs",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 24628
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Buckwell",
+      "raw_html_path": "sources/wiki/_raw/House_Buckwell.json",
+      "track_b_row": {
+        "page": "House Buckwell",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 13,
+          "source": "cite_ref",
+          "pov": "Daenerys I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Antlers",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Crownlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Targaryen",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "?\u2013283\u00a0AC"
+          },
+          {
+            "field": "Overlords",
+            "target": "283\u00a0AC",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "?\u2013283\u00a0AC"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Baratheon of King's Landing",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "283\u00a0AC\u2013present"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            13,
+            48
+          ],
+          "adwd": [
+            21
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Buckwell",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 2,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 33128
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Byrch",
+      "raw_html_path": "sources/wiki/_raw/House_Byrch.json",
+      "track_b_row": {
+        "page": "House Byrch",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 7,
+          "source": "cite_ref",
+          "pov": "Arya I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Crownlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Targaryen",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "?\u2013283\u00a0AC"
+          },
+          {
+            "field": "Overlords",
+            "target": "283\u00a0AC",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "?\u2013283\u00a0AC"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Baratheon of King's Landing",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "283\u00a0AC\u2013present"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            7,
+            32,
+            37
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Byrch",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 3,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 32464
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Bywater",
+      "raw_html_path": "sources/wiki/_raw/House_Bywater.json",
+      "track_b_row": {
+        "page": "House Bywater",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 4,
+          "source": "cite_ref",
+          "pov": "Arya I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Crownlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Targaryen",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "?\u2013283\u00a0AC"
+          },
+          {
+            "field": "Overlords",
+            "target": "283\u00a0AC",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "?\u2013283\u00a0AC"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Baratheon of King's Landing",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "283\u00a0AC\u2013present"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            8,
+            44,
+            49,
+            59
+          ],
+          "asos": [
+            4
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Bywater",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 4,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 33194
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Cargyll",
+      "raw_html_path": "sources/wiki/_raw/House_Cargyll.json",
+      "track_b_row": {
+        "page": "House Cargyll",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 8,
+          "source": "cite_ref",
+          "pov": "Arya I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Extinct",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Crownlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Targaryen",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            8
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Cargyll",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 26241
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Cave",
+      "raw_html_path": "sources/wiki/_raw/House_Cave.json",
+      "track_b_row": {
+        "page": "House Cave",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 20,
+          "source": "cite_ref",
+          "pov": "The Drowned Man"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Crownlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Baratheon of King's Landing",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            20
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Cave",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 21251
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Chelsted",
+      "raw_html_path": "sources/wiki/_raw/House_Chelsted.json",
+      "track_b_row": {
+        "page": "House Chelsted",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 11,
+          "source": "cite_ref",
+          "pov": "Davos II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Crownlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Baratheon of King's Landing",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            11
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Chelsted",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 23191
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Chyttering",
+      "raw_html_path": "sources/wiki/_raw/House_Chyttering.json",
+      "track_b_row": {
+        "page": "House Chyttering",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 10,
+          "source": "cite_ref",
+          "pov": "Bran I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Lucos Chyttering",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Crownlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Baratheon of King's Landing",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            10
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Chyttering",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 25328
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Crabb",
+      "raw_html_path": "sources/wiki/_raw/House_Crabb.json",
+      "track_b_row": {
+        "page": "House Crabb",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 7,
+          "source": "cite_ref",
+          "pov": "The Merchant's Man"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Whispers",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse",
+            "qualifier": "former"
+          },
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Crownlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Baratheon of King's Landing",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            14,
+            20
+          ],
+          "adwd": [
+            7
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Crabb",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 2,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 40432
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Cressey",
+      "raw_html_path": "sources/wiki/_raw/House_Cressey.json",
+      "track_b_row": {
+        "page": "House Cressey",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Crownlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Baratheon of King's Landing",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Cressey",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 24384
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Dargood",
+      "raw_html_path": "sources/wiki/_raw/House_Dargood.json",
+      "track_b_row": {
+        "page": "House Dargood",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 9,
+          "source": "cite_ref",
+          "pov": "Jaime I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Crownlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            9
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Dargood",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 23203
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Darke",
+      "raw_html_path": "sources/wiki/_raw/House_Darke.json",
+      "track_b_row": {
+        "page": "House Darke",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 9,
+          "source": "cite_ref",
+          "pov": "Jaime I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Crownlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            9
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Darke",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 26829
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Darklyn",
+      "raw_html_path": "sources/wiki/_raw/House_Darklyn.json",
+      "track_b_row": {
+        "page": "House Darklyn",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 9,
+          "source": "cite_ref",
+          "pov": "Jaime I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Dun Fort",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Seat",
+            "target": "Duskendale",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Extinct",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Crownlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of Duskendale",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "King",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "historical"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Targaryen",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Cadet branches",
+            "target": "House Darke",
+            "edge_type": "CADET_BRANCH_OF",
+            "direction": "forward",
+            "qualifier": "possibly"
+          },
+          {
+            "field": "Cadet branches",
+            "target": "House Darkwood",
+            "edge_type": "CADET_BRANCH_OF",
+            "direction": "forward",
+            "qualifier": "possibly"
+          },
+          {
+            "field": "Cadet branches",
+            "target": "House Dargood",
+            "edge_type": "CADET_BRANCH_OF",
+            "direction": "forward",
+            "qualifier": "possibly"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            9,
+            16,
+            20
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Darklyn",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 3,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 72094
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Darkwood",
+      "raw_html_path": "sources/wiki/_raw/House_Darkwood.json",
+      "track_b_row": {
+        "page": "House Darkwood",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 9,
+          "source": "cite_ref",
+          "pov": "Jaime I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Crownlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            9
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Darkwood",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 23374
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Edgerton",
+      "raw_html_path": "sources/wiki/_raw/House_Edgerton.json",
+      "track_b_row": {
+        "page": "House Edgerton",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Crownlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Baratheon of King's Landing",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Edgerton",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 22950
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Farring",
+      "raw_html_path": "sources/wiki/_raw/House_Farring.json",
+      "track_b_row": {
+        "page": "House Farring",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 3,
+          "source": "cite_ref",
+          "pov": "Daenerys I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Crownlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Baratheon of Dragonstone",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            10
+          ],
+          "asos": [
+            36
+          ],
+          "affc": [
+            24
+          ],
+          "adwd": [
+            3,
+            42,
+            62
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Farring",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 1,
+          "affc": 1,
+          "adwd": 3
+        },
+        "has_infobox": true,
+        "byte_size": 32592
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Follard",
+      "raw_html_path": "sources/wiki/_raw/House_Follard.json",
+      "track_b_row": {
+        "page": "House Follard",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 44,
+          "source": "cite_ref",
+          "pov": "Daenerys VII"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Crownlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Baratheon of King's Landing",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            55
+          ],
+          "adwd": [
+            44,
+            55
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Follard",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 32945
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

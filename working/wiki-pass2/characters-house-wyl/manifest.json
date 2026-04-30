@@ -1,0 +1,50 @@
+{
+  "bucket_id": "characters-house-wyl",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "f36e0e1d2c18cea3e1576b9c31837d23c7a9cf07adc057ac1867c25a4203bbbe",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Lord Wyl (conquest of Dorne)",
+    "Walter Wyl",
+    "Wyl of Wyl",
+    "Wyland Wyl",
+    "Wylla of Wyl"
+  ],
+  "expected_nodes": [
+    "lord-wyl-conquest-of-dorne.node.md",
+    "walter-wyl.node.md",
+    "wyl-of-wyl.node.md",
+    "wyland-wyl.node.md",
+    "wylla-of-wyl.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:56Z",
+    "tier_a": [],
+    "tier_b": [
+      "Lord Wyl (conquest of Dorne)",
+      "Walter Wyl",
+      "Wyl of Wyl",
+      "Wyland Wyl",
+      "Wylla of Wyl"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 5,
+      "tier_a": 0,
+      "tier_b": 5,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.042618+00:00",
+  "stage3_promoted_count": 5,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

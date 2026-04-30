@@ -1,0 +1,7 @@
+## Origins
+
+After being trained by Ser [Eustace Osgrey](wiki:Eustace_Osgrey)'s sons with other peasants from his lands, Pate went off to fight for [House Osgrey](wiki:House_Osgrey) during the [Blackfyre Rebellion](wiki:Blackfyre_Rebellion). He was one of the only three surviving men that returned with Ser Eustace, along with [Dake](wiki:Dake) and [Lem](wiki:Lem_(Standfast)).(wiki:Pate_(Standfast).cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+
+## Appearances & Description
+
+Pate had weepy eyes, and he snored. He liked to talk about the [camp followers](wiki:Camp_follower) he had known during the war.(wiki:Pate_(Standfast).cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)

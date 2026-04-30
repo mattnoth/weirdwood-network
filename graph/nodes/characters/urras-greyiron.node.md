@@ -1,0 +1,32 @@
+---
+name: "Urras Greyiron"
+type: character.human
+slug: urras-greyiron
+aliases: ["Ironfoot", "Urras Ironfoot"]
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Urras_Greyiron"
+bucket_id: characters-other-u-v
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Urras Greyiron is a character.human from the AWOIAF wiki.
+
+## Edges
+
+- HOLDS_TITLE: High King of the Iron Islands (track_b: Titles)
+- HOLDS_TITLE: Salt king (track_b: Titles)
+- HOLDS_TITLE: Orkmont (track_b: Titles)
+- BORN_AT: Orkmont (track_b: Born)
+- PARENT_OF: Erich I Greyiron (track_b: Issue)
+
+## Origins
+
+The prophet [Galon Whitestaff](wiki:Galon_Whitestaff) summoned the numerous [rock](wiki:Rock_king) and [salt kings](wiki:Salt_king) to [Old Wyk](wiki:Old_Wyk) for a [kingsmoot](wiki:Kingsmoot), during which Urras, the salt king of [Orkmont](wiki:Orkmont), was chosen as the first [High King of the Iron Islands](wiki:High_King_of_the_Iron_Islands). Urras was the first monarch to rule all [ironborn](wiki:Ironborn) since the [Grey King](wiki:Grey_King). After Ironfoot's death, the driftwood crown was claimed by his son, [Erich the Ugly](wiki:Erich_I_Greyiron). Galon forced Erich to step down under threat of death, however, since he had not been chosen in a kingsmoot. [Regnar Drumm](wiki:Regnar_Drumm) was instead chosen in a new kingsmoot.(wiki:Urras_Greyiron.cite_ref-Rtwoiafthe_iron_islands:_driftwood_crowns.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+
+## Appearances & Description
+
+Urras was the greatest reaver of his age.(wiki:Urras_Greyiron.cite_ref-Rtwoiafthe_iron_islands:_driftwood_crowns.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)

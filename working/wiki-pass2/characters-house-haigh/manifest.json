@@ -1,0 +1,50 @@
+{
+  "bucket_id": "characters-house-haigh",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "e7f31b73bd5a0b2a7f7c120ded86b36a0c5c58f99b90d1a35b98c0a0497853b0",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Alyn Haigh",
+    "Donnel Haigh",
+    "Harys Haigh",
+    "Leslyn Haigh",
+    "Walder Haigh"
+  ],
+  "expected_nodes": [
+    "alyn-haigh.node.md",
+    "donnel-haigh.node.md",
+    "harys-haigh.node.md",
+    "leslyn-haigh.node.md",
+    "walder-haigh.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Alyn Haigh",
+      "Donnel Haigh",
+      "Harys Haigh",
+      "Leslyn Haigh",
+      "Walder Haigh"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 5,
+      "tier_a": 0,
+      "tier_b": 5,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.809987+00:00",
+  "stage3_promoted_count": 5,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

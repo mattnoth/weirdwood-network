@@ -1,0 +1,23 @@
+## Origins
+
+Hobert fought in the [Dance of the Dragons](wiki:Dance_of_the_Dragons) on the side of his kin, King [Aegon II Targaryen](wiki:Aegon_II_Targaryen). He was in charge of the baggage train for his cousin, Lord [Ormund Hightower](wiki:Ormund_Hightower). At the age of sixty, Hobert was given command of the [greens](wiki:Greens)' army, as he was the most senior [Hightower](wiki:House_Hightower) remaining after Ormund's death in the [First Battle of Tumbleton](wiki:First_Battle_of_Tumbleton). Prince [Daeron Targaryen](wiki:Daeron_Targaryen_(son_of_Viserys_I)) ordered Hobert to stop the sack of [Tumbleton](wiki:Tumbleton), but Hobert failed miserably.(wiki:Hobert_Hightower.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+
+Along with Lord [Unwin Peake](wiki:Unwin_Peake), Hobert was a leader of the [Caltrops](wiki:Caltrops), who conspired to kill the [Two Betrayers](wiki:Two_Betrayers), [Hugh Hammer](wiki:Hugh_Hammer) and [Ulf White](wiki:Ulf_White), after the treacherous [dragonseeds](wiki:Dragonseed) announced their intention to take the [Iron Throne](wiki:Iron_Throne). During the [Second Battle of Tumbleton](wiki:Second_Battle_of_Tumbleton), one of the Caltrops, Ser [Jon Roxton](wiki:Jon_Roxton), had killed Hugh Hammer, but Ulf had [drunkenly](wiki:Alcoholism) slept through the entire battle. After the battle, Hobert brought two casks of [wine](wiki:Wine) to Ulf, one [Arbor](wiki:Arbor) gold and one [Dornish](wiki:Dornish) red, to drink while they discussed Ulf's plan to attack [King's Landing](wiki:King's_Landing). As Ulf was known to prefer sweet wines, the Arbor gold was [poisoned](wiki:Poison), and Hobert had intended to reserve the sour red for himself. Unfortunately, Hobert was sweating and stammering and far too enthusiastic, leading the suspicious Ulf to insist that Hobert share the Arbor gold with him. Instead of betraying his allies, Hobert had his [squire](wiki:Squire) pour him a cup of wine, drank it, and asked for a second cup. This satisfied Ulf, who quickly drank three cups of the poisoned wine. After Ulf fell unconscious, Hobert tried to make himself vomit, but it was too late and he succumbed to the poisons effect falling unconscious. They both died within the hour, their hearts stopped, the poison that had been used killed painlessly and neither man had suffered. (wiki:Hobert_Hightower.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+
+## Appearances & Description
+
+Hobert was as stout as he was slow. He did not distinguish himself until late in life.(wiki:Hobert_Hightower.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1) Hobert had a splendid [silken](wiki:Silk) pavilion.(wiki:Hobert_Hightower.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+
+## Quotes
+
+> [Any man](wiki:Two_Betrayers) can be killed, but what of the [dragons](wiki:Dragon)?(wiki:Hobert_Hightower.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+>
+> —Hobert, asking the other [Caltrops](wiki:Caltrops) what they should do about [Vermithor](wiki:Vermithor) and [Silverwing](wiki:Silverwing)
+
+> History has little good to say about Ser Hobert Hightower, but no man can question the manner of his death. Rather than [betray](wiki:Poison) his fellow [Caltrops](wiki:Caltrops), he let the squire [fill his cup](wiki:Wine), drank deep, and asked for more.(wiki:Hobert_Hightower.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+>
+> —writings of [Gyldayn](wiki:Gyldayn)
+
+> No man ever feared Ser Hobert's sword, but his [wine](wiki:Wine) cup was deadlier than [Valyrian steel](wiki:Valyrian_steel).(wiki:Hobert_Hightower.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
+>
+> —[Mushroom](wiki:Mushroom), about Hobert

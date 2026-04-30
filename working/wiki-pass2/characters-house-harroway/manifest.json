@@ -1,0 +1,50 @@
+{
+  "bucket_id": "characters-house-harroway",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "590d3e2f14141fe4323f5e440b4c528b7b615b4950bc781bf23cd67219d5ad14",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Alys Harroway",
+    "Hanna Harroway",
+    "Horas Harroway",
+    "Jeyne Harroway",
+    "Lucas Harroway"
+  ],
+  "expected_nodes": [
+    "alys-harroway.node.md",
+    "hanna-harroway.node.md",
+    "horas-harroway.node.md",
+    "jeyne-harroway.node.md",
+    "lucas-harroway.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Alys Harroway",
+      "Hanna Harroway",
+      "Horas Harroway",
+      "Jeyne Harroway",
+      "Lucas Harroway"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 5,
+      "tier_a": 0,
+      "tier_b": 5,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.814939+00:00",
+  "stage3_promoted_count": 5,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

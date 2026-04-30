@@ -1,0 +1,34 @@
+---
+name: "High Tide"
+type: place.location
+slug: high-tide
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/High_Tide"
+bucket_id: locations-other-g-m
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+High Tide is a place.location from the AWOIAF wiki.
+
+## Edges
+
+- WORSHIPS: Faith of the Seven (track_b: Religion)
+
+## Origins
+
+High Tide was the seat of the Sea Snake, Lord [Corlys Velaryon](wiki:Corlys_Velaryon), one of the wealthiest and most powerful lords of the [Seven Kingdoms](wiki:Seven_Kingdoms). Having accumulated numerous treasures from [Essos](wiki:Essos), Corlys constructed High Tide to replace the damp and crowded ancestral Velaryon seat, [Castle Driftmark](wiki:Castle_Driftmark), and to house the [Driftwood Throne](wiki:Driftwood_Throne).(wiki:High_Tide.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)(wiki:High_Tide.cite_ref-Rtwoiafthe_targaryen_kings:_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) [Spicetown](wiki:Spicetown) developed from a fishing village near High Tide.(wiki:High_Tide.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+
+Corlys and Prince [Daemon Targaryen](wiki:Daemon_Targaryen) planned their invasion of the [Stepstones](wiki:Stepstones) from High Tide in [106 AC](wiki:106_AC). Corlys's son, Ser [Laenor Velaryon](wiki:Laenor_Velaryon), preferred High Tide to [King's Landing](wiki:King's_Landing), where his wife, Princess [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen), remained at court. One of Laenor's favorites at High Tide was the household knight [Qarl Correy](wiki:Qarl_Correy).(wiki:High_Tide.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4) A widower after the death of his wife, Lady [Rhea Royce](wiki:Rhea_Royce), Prince Daemon won a duel against a [Braavosi](wiki:Braavos) exile and then married [Laena Velaryon](wiki:Laena_Velaryon), the daughter of the [Lord of the Tides](wiki:Lord_of_the_Tides).(wiki:High_Tide.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+
+Laena died at High Tide from childbed fever in [120 AC](wiki:120_AC), while Laenor died later that year at Spicetown. While at High Tide for the funeral of Laenor, Prince [Aemond Targaryen](wiki:Aemond_Targaryen) rode the [dragon](wiki:Dragon) [Vhagar](wiki:Vhagar) above the castle's towers. Aemond subsequently lost an eye fighting with Rhaenyra's children after he landed.(wiki:High_Tide.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+
+The Velaryons sided with the [blacks](wiki:Blacks) during the [Dance of the Dragons](wiki:Dance_of_the_Dragons). Following the [Battle in the Gullet](wiki:Battle_in_the_Gullet), the [greens](wiki:Greens) destroyed [Spicetown](wiki:Spicetown), which was never rebuilt, and [Myrish](wiki:Myr) and [Tyroshi](wiki:Tyrosh) soldiers put High Tide to the torch. The Sea Snake's treasures from Essos were destroyed by fire, and his servants were cut down as they tried to escape.(wiki:High_Tide.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+
+## Appearances & Description
+
+High Tide is built from [pale stone](wiki:Marble), the same material used in the [Eyrie](wiki:Eyrie). Its slender towers are crowned with roofs of beaten [silver](wiki:Silver) which shine in the sun. When the waters of [Blackwater Bay](wiki:Blackwater_Bay) are at high tide, the castle is connected to the island of Driftmark by only a causeway.(wiki:High_Tide.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

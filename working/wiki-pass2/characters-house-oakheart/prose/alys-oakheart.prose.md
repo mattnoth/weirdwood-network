@@ -1,0 +1,3 @@
+## Origins
+
+The daughter of Lord Oakheart, Alys married Ser [Jon Cafferen](wiki:Jon_Cafferen), heir to [Fawnton](wiki:Fawnton) in [12 AC](wiki:12_AC). During the [wedding](wiki:Wedding), Lord [Wyl of Wyl](wiki:Wyl_of_Wyl) turned up uninvited and was admitted through the postern gate by a treacherous servant. Lord Oakheart and most of the guests were slain, and Alys was forced to watch as her husband was [gelded](wiki:Eunuch). Afterwards, she and her [handmaids](wiki:Handmaid) were gang-raped by Wyl's men and then sold off to a [Myrish](wiki:Myr) slaver. This was the most infamous act of the [First Dornish War](wiki:First_Dornish_War).(wiki:Alys_Oakheart.cite_ref-Rfabreign_of_the_dragon_-_the_wars_of_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

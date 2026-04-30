@@ -1,0 +1,65 @@
+---
+name: "Kingswood Brotherhood"
+type: organization.faction
+slug: kingswood-brotherhood
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Kingswood_Brotherhood"
+bucket_id: houses-other-h-w
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Kingswood Brotherhood is a organization.faction from the AWOIAF wiki.
+
+## Edges
+
+- SEAT_OF (reverse): Kingswood (track_b: Seat)
+- FOUNDED: Simon Toyne (track_b: Founder)
+
+## Origins
+
+Operating out of the [kingswood](wiki:Kingswood), the Brotherhood gained recognition by robbing and kidnapping nobles and, with [smallfolk](wiki:Smallfolk) helping them,(wiki:Kingswood_Brotherhood.cite_ref-Raffc30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) they evaded attempts to capture them for years.(wiki:Kingswood_Brotherhood.cite_ref-Rawoiafarthur_dayne.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) The outlaws hid in the forests and used their numbers to surprise smaller parties.(wiki:Kingswood_Brotherhood.cite_ref-Rasosepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
+
+Ser [Victor Tyrell](wiki:Victor_Tyrell), cousin of Lord [Mace Tyrell](wiki:Mace_Tyrell), was slain by the [Smiling Knight](wiki:Smiling_Knight).(wiki:Kingswood_Brotherhood.cite_ref-Raffcappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) Ser [Gerold Hightower](wiki:Gerold_Hightower), [Lord Commander of the Kingsguard](wiki:Lord_Commander_of_the_Kingsguard), was shot through the hand by [Ulmer of the Kingswood](wiki:Ulmer_of_the_Kingswood) when the outlaws attacked Princess [Elia Martell](wiki:Elia_Martell)'s escort through the woods, and Ulmer went on to steal a kiss and some jewels from the [Dornish](wiki:Dorne) princess.(wiki:Kingswood_Brotherhood.cite_ref-Rasos33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0) [Fletcher Dick](wiki:Fletcher_Dick), the outlaw who taught Ulmer, is considered among the greatest archers to have ever lived.(wiki:Kingswood_Brotherhood.cite_ref-Rasos33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)(wiki:Kingswood_Brotherhood.cite_ref-Rtwoiafthe_stormlands:_the_men_of_the_stormlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
+
+The outlaws eventually became such a nuisance that King [Aerys II Targaryen](wiki:Aerys_II_Targaryen) sent a detachment of soldiers led by Ser [Arthur Dayne](wiki:Arthur_Dayne) of the [Kingsguard](wiki:Kingsguard) to destroy them. Lord [Sumner Crakehall](wiki:Sumner_Crakehall) and his two squires, [Jaime Lannister](wiki:Jaime_Lannister) and [Merrett Frey](wiki:Merrett_Frey), were also part of the retinue. Merrett contracted the [pox](wiki:Pox) from a camp follower, and he was also captured by [Wenda the White Fawn](wiki:Wenda_the_White_Fawn); the bandit woman branded her sigil on Merrett's arse before ransoming him back to Lord Crakehall.(wiki:Kingswood_Brotherhood.cite_ref-Raffc30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1) When he next faced the Brotherhood in combat, Merrett was heavily wounded by a mace strike on his helm. Though he survived the battle, the squire was never able to fight again.(wiki:Kingswood_Brotherhood.cite_ref-Rasosepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+
+Arthur gained the confidence of the smallfolk, who had believed that the only ones protecting their rights was the Brotherhood. The [Sword of the Morning](wiki:Sword_of_the_Morning) petitioned King Aerys for better rights for the smallfolk, and he made sure the royal forces paid for any items they took from the peasantry. Arthur's actions swung the allegiance of the smallfolk to the royal forces, who could now hunt the Brotherhood, as the outlaws could no longer walk around with impunity in the forest.(wiki:Kingswood_Brotherhood.cite_ref-Raffc30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+
+Ser [Barristan Selmy](wiki:Barristan_Selmy) of the Kingsguard rescued Lady [Jeyne Swann](wiki:Jeyne_Swann) and her [septa](wiki:Septa) from the Kingswood Brotherhood, defeating the Smiling Knight and slaying the outlaws' leader, Simon Toyne.(wiki:Kingswood_Brotherhood.cite_ref-Rasos67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0) Young Jaime Lannister saved Lord Crakehall's life by fending off [Big Belly Ben](wiki:Big_Belly_Ben), but the outlaw was able to escape the confrontation.(wiki:Kingswood_Brotherhood.cite_ref-Rasos67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1) Jaime also crossed swords with the mad Smiling Knight, with the fearsome bandit then being slain by Arthur with his legendary longsword, [Dawn](wiki:Dawn).(wiki:Kingswood_Brotherhood.cite_ref-Rasos67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-2) Arthur knighted Jaime for his valor on the battlefield,(wiki:Kingswood_Brotherhood.cite_ref-Rasos11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)(wiki:Kingswood_Brotherhood.cite_ref-Rasos67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-3) with Arthur touching the fifteen-year-old's shoulders with Dawn after he stood vigil in a [sept](wiki:Sept).(wiki:Kingswood_Brotherhood.cite_ref-Raffc8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0)
+
+In the aftermath of the Brotherhood's defeat, King Aerys chose Jaime to replace the late Ser [Harlan Grandison](wiki:Harlan_Grandison) in the Kingsguard;(wiki:Kingswood_Brotherhood.cite_ref-Rasos11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-1) Jaime became the youngest ever member of the White Swords.(wiki:Kingswood_Brotherhood.cite_ref-Racok55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0)
+
+[Ulmer of the Kingswood](wiki:Ulmer_of_the_Kingswood) was captured and allowed to join the [Night's Watch](wiki:Night's_Watch).(wiki:Kingswood_Brotherhood.cite_ref-Rawoiafulmer.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0) The fates of the other outlaws are unknown, though they are presumably dead.(wiki:Kingswood_Brotherhood.cite_ref-Rasos67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-4)
+
+## Narrative Arc
+
+### A Storm of Swords
+
+[Tom of Sevenstreams](wiki:Tom_of_Sevenstreams), a member of the outlaw [brotherhood without banners](wiki:Brotherhood_without_banners), sings a song about the Kingswood Brotherhood while traveling in the [riverlands](wiki:Riverlands).(wiki:Kingswood_Brotherhood.cite_ref-Rasos17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0)
+
+[Ulmer of the Kingswood](wiki:Ulmer_of_the_Kingswood) frequently tells tales of his time with the Brotherhood to his fellow members of the [Night's Watch](wiki:Night's_Watch).(wiki:Kingswood_Brotherhood.cite_ref-Rasos33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2)
+
+[Merrett Frey](wiki:Merrett_Frey) recalls fighting the Kingswood Brotherhood while traveling to [Oldstones](wiki:Oldstones) to ransom [Petyr Frey](wiki:Petyr_Frey) from the brotherhood without banners, but both Freys are hanged by the outlaws now led by [Lady Stoneheart](wiki:Lady_Stoneheart).(wiki:Kingswood_Brotherhood.cite_ref-Rasosepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
+
+### A Feast for Crows
+
+Ser [Jaime Lannister](wiki:Jaime_Lannister), [Lord Commander of the Kingsguard](wiki:Lord_Commander_of_the_Kingsguard), speaks about Ser [Arthur Dayne](wiki:Arthur_Dayne)'s methods of defeating the Kingswood Brotherhood while meeting with Merrett's family at [Darry](wiki:Darry).(wiki:Kingswood_Brotherhood.cite_ref-Raffc30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
+
+## Quotes
+
+> [Ulmer](wiki:Ulmer), stooped and grey-bearded and loose of skin and limb, stepped to the mark and pulled an arrow from the quiver at his waist. In his youth he had been an outlaw, a member of the infamous Kingswood Brotherhood. He claimed he'd once put an arrow through the hand of the [White Bull](wiki:Gerold_Hightower) of the [Kingsguard](wiki:Kingsguard) to steal a kiss from the lips of a [Dornish](wiki:Dorne) princess. He had stolen her jewels too, and a chest of [golden dragons](wiki:Currency), but it was the kiss he liked to boast of in his cups.(wiki:Kingswood_Brotherhood.cite_ref-Rasos33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-4)
+>
+> —thoughts of [Samwell Tarly](wiki:Samwell_Tarly)
+
+> [Bloody outlaws](wiki:Brotherhood_without_banners), always hiding in the bushes. It had been the same in the [kingswood](wiki:Kingswood). you'd think you'd caught five of them, and ten more would spring from nowhere.(wiki:Kingswood_Brotherhood.cite_ref-Rasosepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)
+>
+> —thoughts of [Merrett Frey](wiki:Merrett_Frey)
+
+> If you want their help, you need to make them love you. That was how [Arthur Dayne](wiki:Arthur_Dayne) did it, when we rode against the Kingswood Brotherhood. He paid the [smallfolk](wiki:Smallfolk) for the food we ate, brought their grievances to King [Aerys](wiki:Aerys_II_Targaryen), expanded the grazing lands around their villages, even won them the right to fell a certain number of trees each year and take a few of the king's deer during the autumn. The forest folk had looked to [Toyne](wiki:Simon_Toyne) to defend them, but Ser Arthur did more for them than the Brotherhood could ever hope to do, and won them to our side. After that, the rest was easy.(wiki:Kingswood_Brotherhood.cite_ref-Raffc30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
+>
+> —[Jaime Lannister](wiki:Jaime_Lannister) to [Lyle Crakehall](wiki:Lyle_Crakehall)

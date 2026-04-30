@@ -1,0 +1,186 @@
+---
+name: "Oldtown"
+type: place.location
+slug: oldtown
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Oldtown"
+bucket_id: locations-other-m-s
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Oldtown is a place.location from the AWOIAF wiki.
+
+## Edges
+
+- WORSHIPS: Faith of the Seven (track_b: Religion)
+
+## Origins
+
+### Ancient History
+
+The origins of Oldtown are lost to time. The oldest [runic](wiki:Runes) records of the [First Men](wiki:First_Men), as well as records from [maesters](wiki:Maesters) that claim to have lived among the [children of the forest](wiki:Children_of_the_forest), confirm men have lived at the mouth of the [Honeywine](wiki:Honeywine) since the [Dawn Age](wiki:Dawn_Age). Maester [Jellicoe](wiki:Jellicoe) suggested the settlement at [Whispering Sound](wiki:Whispering_Sound) began as a trading post where ships from [Valyria](wiki:Valyria), [Old Ghis](wiki:Old_Ghis), and the [Summer Isles](wiki:Summer_Isles) could resupply and trade with so-called "elder races".(wiki:Oldtown.cite_ref-Rtwoiafthe_reach:_oldtown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)
+
+In the [Age of Heroes](wiki:Age_of_Heroes), what is now the [Ravenry](wiki:Ravenry) of the [Citadel](wiki:Citadel) was supposedly the stronghold of a [pirate](wiki:Pirate) lord who robbed ships as they came down the Honeywine.(wiki:Oldtown.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4) [House Hightower](wiki:House_Hightower) lived within an ancient fortress of [black stone](wiki:Black_stone) on [Battle Isle](wiki:Battle_Isle) and subsequently built the [Hightower](wiki:Hightower) above it.(wiki:Oldtown.cite_ref-Rtwoiafthe_reach:_oldtown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-9)
+
+Rival kings, pirates, and reavers coveted Oldtown's wealth as the city grew more powerful, but it was protected by only wooden palisades and ditches. In one century, the city was sacked by [Samwell the Starfire](wiki:Samwell_Dayne), [Qhored the Cruel](wiki:Qhored_Hoare), and [Gyles the Woe](wiki:Gyles_I_Gardener). Three quarters of the city's inhabitants were reportedly sold into slavery by Gyles, but he failed to conquer the Hightower. [Otho II](wiki:Otho_II_Hightower), [King of the High Tower](wiki:King_of_the_High_Tower), built massive stone walls to protect Oldtown.(wiki:Oldtown.cite_ref-Rtwoiafthe_reach:_oldtown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-10)
+
+Oldtown joined the [Kingdom of the Reach](wiki:Kingdom_of_the_Reach) when King [Lymond Hightower](wiki:Lymond_Hightower) and King [Garland II Gardener](wiki:Garland_II_Gardener) agreed to marry each other's daughters.(wiki:Oldtown.cite_ref-Rtwoiafthe_reach:_the_gardener_kings.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-0)
+
+Oldtown survived the [coming of the Andals](wiki:Coming_of_the_Andals) by welcoming the newcomers instead of resisting them. Lord [Dorian Hightower](wiki:Dorian_Hightower) married an [Andal](wiki:Andal) princess, while his grandson [Damon](wiki:Damon_Hightower) converted to the [Faith of the Seven](wiki:Faith_of_the_Seven).(wiki:Oldtown.cite_ref-Rtwoiafthe_reach:_oldtown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-11)
+
+Oldtown was [besieged](wiki:Anarchy_in_the_Reach) by a [Dornish](wiki:Dorne) king in the late reign of [Garth X](wiki:Garth_X_Gardener).(wiki:Oldtown.cite_ref-Rtwoiafthe_reach:_andals_in_the_reach.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-0)
+
+### Wars of Conquest
+
+At the time of [Aegon's Conquest](wiki:Aegon's_Conquest), Oldtown was the greatest city in Westeros.(wiki:Oldtown.cite_ref-Rtwoiafthe_reach:_oldtown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-12) The [High Septon](wiki:High_Septon_(Aegon's_Conquest)) advised Lord [Manfred Hightower](wiki:Manfred_Hightower_(Aegon's_Conquest)) to yield Oldtown without conflict, so the city was open to King [Aegon I Targaryen](wiki:Aegon_I_Targaryen) when he marched south after the [Field of Fire](wiki:Field_of_Fire) and the submission of King [Torrhen Stark](wiki:Torrhen_Stark). Two years after [Aegon's Landing](wiki:Aegon's_Landing), Aegon the Conqueror's reign is dated from his coronation by the High Septon in the [Starry Sept](wiki:Starry_Sept). Hundreds of lords attended the event in the sept, and thousands of people cheered the new king as he flew through the city on [Balerion](wiki:Balerion).(wiki:Oldtown.cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-0)
+
+Oldtown's walls repelled an attack by Ser [Joffrey Dayne](wiki:Joffrey_Dayne) during the [First Dornish War](wiki:First_Dornish_War), but the [Dornishmen](wiki:Dornishmen) burned farmland and villages in the vicinity of the city before returning to the [Red Mountains](wiki:Red_Mountains).(wiki:Oldtown.cite_ref-Rfabreign_of_the_dragon_-_the_wars_of_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-0)
+
+King Aegon visited Oldtown many times during his [royal progresses](wiki:Royal_progress),(wiki:Oldtown.cite_ref-Rfabthree_heads_had_the_dragon_-_governance_under_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-0) and he visited the Starry Sept during each visit.(wiki:Oldtown.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-0)
+
+### Faith Militant Uprising
+
+After the death of Aegon the Conqueror, his elder son [Aenys I Targaryen](wiki:Aenys_I_Targaryen) traveled by land for his coronation in Oldtown.(wiki:Oldtown.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-1) The [High Septon](wiki:High_Septon_(Aenys_I)) objected to Aenys's polygamous younger brother, Prince [Maegor I Targaryen](wiki:Maegor_I_Targaryen), and to the incestual marriage of Aenys's children, Prince [Aegon](wiki:Aegon_Targaryen_(son_of_Aenys_I)) and Princess [Rhaena](wiki:Rhaena_Targaryen_(daughter_of_Aenys_I)), however.(wiki:Oldtown.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-2) Maegor later claimed the [Iron Throne](wiki:Iron_Throne) after Aenys's death.(wiki:Oldtown.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-3)
+
+Oldtown contained a chapter of the [Warrior's Sons](wiki:Warrior's_Sons) during the [Faith Militant uprising](wiki:Faith_Militant_uprising). Ser [Joffrey Doggett](wiki:Joffrey_Doggett) gathered an army of two thousand during his journey from [Lannisport](wiki:Lannisport) to Oldtown to seek the blessing of the [High Septon](wiki:High_Septon_(Aenys_I)).(wiki:Oldtown.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-4) Lord [Martyn Hightower](wiki:Martyn_Hightower) called his banners to resist King Maegor the Cruel, and thousands fled Oldtown out of fear of the [dragons](wiki:Dragon) of [House Targaryen](wiki:House_Targaryen). Oldtown submitted to Maegor and his mother, Dowager Queen [Visenya Targaryen](wiki:Visenya_Targaryen), however, after the High Septon suddenly died. Maegor held court in Oldtown for half a year, dismantling the Warrior's Sons chapter and reconciling with his first wife, Queen [Ceryse Hightower](wiki:Ceryse_Hightower).(wiki:Oldtown.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-5)
+
+In [47 AC](wiki:47_AC), Maegor sent Princess [Rhaella Targaryen](wiki:Rhaella_Targaryen_(daughter_of_Aegon)) to Oldtown to be trained as a septa, while her twin sister [Aera](wiki:Aerea_Targaryen) was named Maegor's heir and kept at court. After Rhaena fled [King's Landing](wiki:King's_Landing) to join the cause of Prince [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen) in opposition to Maegor the following year, the enraged king cause sent a rider to Oldtown, commanding Lord Hightower to behead Rhaella as punishment for Rhaena's betrayal. Lord Hightower instead imprisoned the messenger and declared for Jaehaerys.(wiki:Oldtown.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-6)
+
+In [48 AC](wiki:48_AC), Septon [Moon](wiki:Moon_(septon)) led thousands of followers of the [Faith](wiki:Faith_of_the_Seven) across the Reach to pressure the "[High Lickspittle](wiki:High_Lickspittle)" against Maegor. While encamped outside of Oldtown, his forces were joined by the armies of Lord [Torgen Oakheart](wiki:Torgen_Oakheart) and Lord [Rickard Rowan](wiki:Rickard_Rowan).(wiki:Oldtown.cite_ref-Rtwoiafthe_targaryen_kings:_maegor_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-0)(wiki:Oldtown.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-7) Although most of Moon's followers remained camped outside Oldtown after Maegor's death, the horde fell apart after the septon was assassinated. [Lorcas the Learned](wiki:Lorcas_the_Learned) led a group in attacking Oldtown's gates, but all were killed by the city's defenders. After Lords Oakheart and Rowan returned to their seats, Lord [Donnel Hightower](wiki:Donnel_Hightower) had his men slaughter Moon's stragglers who refused to depart from Oldtown. The defeat of Septon's Moon followers allowed for Jaehaerys to be crowned in Oldtown.(wiki:Oldtown.cite_ref-Rfabprince_into_king_-_the_ascension_of_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-0)
+
+### Jaehaerys I
+
+Lord [Edwell Celtigar](wiki:Edwell_Celtigar), Jaehaerys I's [master of coin](wiki:Master_of_coin), imposed new taxes on the [smallfolk](wiki:Smallfolk) of Oldtown, but the Hightowers refused to collect them.(wiki:Oldtown.cite_ref-Rfaba_surfeit_of_rulers.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_27-0)
+
+In [50 AC](wiki:50_AC), Lord [Rogar Baratheon](wiki:Rogar_Baratheon) sent his brother, Ser [Orryn](wiki:Orryn_Baratheon), to the [motherhouse](wiki:Motherhouse) of the Starry Sept to demand that the High Septon turn over Rhaella, still a novice, so she could be taken to [Storm's End](wiki:Storm's_End). Rogar planned to force her to confess that she was the actual Princess Aerea, not Rhaella, and Rogar would crown her queen in opposition to Jaehaerys. [Casper Straw](wiki:Casper_Straw) led thirty armed septons in protecting Rhaella, however, and the Baratheon plot was foiled.(wiki:Oldtown.cite_ref-Rfaba_surfeit_of_rulers.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_27-1)
+
+As part of his royal reforms, Jaehaerys replaced the harbormaster of Oldtown.(wiki:Oldtown.cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-1) The king's spouse, Queen [Alysanne Targaryen](wiki:Alysanne_Targaryen) brought to court a harpist from Oldtown.(wiki:Oldtown.cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-2) After the [High Septon](wiki:High_Lickspittle) died in [54 AC](wiki:54_AC), Jaehaerys and Alysanne flew on their dragons, [Vermithor](wiki:Vermithor) and [Silverwing](wiki:Silverwing), to ensure that the replacement would be a supporter of their [Doctrine of Exceptionalism](wiki:Doctrine_of_Exceptionalism); [Alfyn](wiki:Alfyn) was eventually chosen.(wiki:Oldtown.cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-0)
+
+In [56 AC](wiki:56_AC), [Elissa Farman](wiki:Elissa_Farman) departed Oldtown on *[Sun Chaser](wiki:Sun_Chaser)* to explore the [Sunset Sea](wiki:Sunset_Sea) with *[Lady Meredith](wiki:Lady_Meredith)* and *[Autumn Moon](wiki:Autumn_Moon)*.(wiki:Oldtown.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-0)
+
+Oldtown lost a quarter of its population to the [Shivers](wiki:Shivers) during the winter of [59](wiki:59_AC)–[60 AC](wiki:60_AC).(wiki:Oldtown.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-0) Jaehaerys visited his daughter, Septa [Maegelle](wiki:Maegelle_Targaryen), in Oldtown in [89 AC](wiki:Years_after_Aegon's_Conquest).(wiki:Oldtown.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-1) [Corlys Velaryon](wiki:Corlys_Velaryon) visited Oldtown in his youth, and Prince [Daeron Targaryen](wiki:Daeron_Targaryen_(son_of_Viserys_I)) squired in the city.[[(wiki:Oldtown.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-1)
+
+### Dance of the Dragons
+
+At the start of the [Dance of the Dragons](wiki:Dance_of_the_Dragons), Ser [Tyland Lannister](wiki:Tyland_Lannister), a supporter of King [Aegon II Targaryen](wiki:Aegon_II_Targaryen) instead of his rival, Queen [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen), sent a third of the royal treasury to Oldtown for safekeeping.(wiki:Oldtown.cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-0) Lord [Ormund Hightower](wiki:Ormund_Hightower) and Aegon's younger brother, Prince Daeron, marched an army from Oldtown on behalf of Aegon's [greens](wiki:Greens). Their host participated in the [Battle of the Honeywine](wiki:Battle_of_the_Honeywine),(wiki:Oldtown.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_32-0) and they sent the children of [Lady Caswell](wiki:Lady_Caswell) to captivity in Oldtown after the [sack of Bitterbridge](wiki:Sack_of_Bitterbridge).(wiki:Oldtown.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-0) Ormond and Ser [Bryndon Hightower](wiki:Bryndon_Hightower), the foremost knight of Oldtown, were slain by Lord [Roderick Dustin](wiki:Roderick_Dustin) in the [First Battle of Tumbleton](wiki:First_Battle_of_Tumbleton),(wiki:Oldtown.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-1) however, and the remnants of their host fell to pieces after [Second Tumbleton](wiki:Second_Battle_of_Tumbleton).(wiki:Oldtown.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_34-0)
+
+The Hightowers were slow to reply to Aegon II's call for more men from Oldtown after the [Battle of the Kingsroad](wiki:Battle_of_the_Kingsroad), and the crippled king was soon after [poisoned](wiki:Poison) and succeeded by King [Aegon III Targaryen](wiki:Aegon_III_Targaryen), son of the late Rhaenyra.(wiki:Oldtown.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_35-0) Ormond's heir, [Lyonel Hightower](wiki:Lyonel_Hightower), was convinced by his paramour, Lady [Samantha Tarly](wiki:Samantha_Tarly), to make peace.(wiki:Oldtown.cite_ref-Rfabaftermath_-_the_hour_of_the_wolf.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_36-0) The relationship between Lyonel and Sam outraged the [High Septon](wiki:High_Septon_(Regency_of_Aegon_III)), as Sam had briefly been married to Lord Ormond before his death in the war.(wiki:Oldtown.cite_ref-Rfabaftermath_-_the_hour_of_the_wolf.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_36-1)
+
+### Regency of Aegon III
+
+Lord [Alyn Velaryon](wiki:Alyn_Velaryon) stopped at Oldtown during his voyage west to confront Lord [Dalton Greyjoy](wiki:Dalton_Greyjoy), and Lord Lyonel provided twenty war galleys under the command of Ser [Leo Costayne](wiki:Leo_Costayne) in support of the Oakenfist.(wiki:Oldtown.cite_ref-Rfabunder_the_regents_-_the_voyage_of_alyn_oakenfist.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_37-0) Dalton, the Red Kraken, was killed at [Faircastle](wiki:Faircastle) before Alyn arrived in the west, and the Oakenfist spent more time with Lyonel and Lady Sam in Oldtown during his return journey.(wiki:Oldtown.cite_ref-Rfabunder_the_regents_-_the_voyage_of_alyn_oakenfist.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_37-1)
+
+Trade expanded in Oldtown during the [Rogare Ascendency](wiki:Rogare_Ascendency). After the collapse of the [Rogare Bank](wiki:Rogare_Bank), House Hightower—which had, unlike others in Westeros, not entrusted its wealth to it—founded the [Bank of Oldtown](wiki:Bank_of_Oldtown) and became even more wealthy.(wiki:Oldtown.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-1)
+
+### Plagues
+
+During the [Great Spring Sickness](wiki:Great_Spring_Sickness) of [209 AC](wiki:209_AC), Oldtown suffered badly, second only to [King's Landing](wiki:King's_Landing). Ser [Duncan the Tall](wiki:Duncan_the_Tall) met Maester [Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I)) when he and Prince [Aegon Targaryen](wiki:Aegon_V_Targaryen) visited the city while returning from [Dorne](wiki:Dorne) via *[White Lady](wiki:White_Lady)*.(wiki:Oldtown.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_38-0) The city steamed and sweltered during the summer of King [Maekar I Targaryen](wiki:Maekar_I_Targaryen)'s reign.(wiki:Oldtown.cite_ref-Ragot25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
+
+A generation later Oldtown was struck by the dreaded [grey plague](wiki:Grey_plague), a more deadly and fast-acting cousin of [greyscale](wiki:Greyscale). The outbreak occurred when [Grand Maester](wiki:Grand_Maester) [Pycelle](wiki:Pycelle) was young, and it wiped out half the city and three-quarters of the [Citadel](wiki:Citadel) during its run. To prevent its spread, Lord [Quenton Hightower](wiki:Quenton_Hightower) ordered the gates barred, all the ships in harbor burned, and anyone trying to leave killed. These orders made him extremely unpopular, but the measures were successful. The day he rescinded the orders, after the plague had burnt itself out, Quenton and his young son were pulled from their horses and had their throats slit by the survivors.(wiki:Oldtown.cite_ref-Raffc8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_39-0)
+
+### Later History
+
+Around fifty years ago, [Hother Umber](wiki:Hother_Umber) disemboweled a whore in Oldtown, earning himself the nickname Whoresbane.(wiki:Oldtown.cite_ref-Radwd17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_40-0) [Varys](wiki:Varys) visited Oldtown, King's Landing, and the [Free Cities](wiki:Free_Cities) while part of a troupe of [mummers](wiki:Mummers).(wiki:Oldtown.cite_ref-Racok44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_41-0)
+
+Prince [Oberyn Martell](wiki:Oberyn_Martell) and Princess [Elia Martell](wiki:Elia_Martell) visited Oldtown on their way to [Casterly Rock](wiki:Casterly_Rock) where their mother was to broker their marriage to the [Lannister](wiki:House_Lannister) twins, [Cersei](wiki:Cersei_Lannister) and [Jaime](wiki:Jaime_Lannister).(wiki:Oldtown.cite_ref-Rasos70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_42-0) Oberyn later studied at the Citadel of Oldtown, where he forged six links.(wiki:Oldtown.cite_ref-Rasos38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_43-0) Oberyn fathered [Obara Sand](wiki:Obara_Sand) on an Oldtown whore.(wiki:Oldtown.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_44-0)
+
+Ser [Barristan Selmy](wiki:Barristan_Selmy) defeated [Blackshield](wiki:Blackshield) in a [tourney](wiki:Tourney) at Oldtown.(wiki:Oldtown.cite_ref-Rasos67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_45-0)
+
+### Baratheon Era
+
+[Orland of Oldtown](wiki:Orland_of_Oldtown) is a court musician for King [Robert I Baratheon](wiki:Robert_I_Baratheon).(wiki:Oldtown.cite_ref-Rasos7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_46-0) Maester [Pylos](wiki:Pylos) was sent from Oldtown to aid Maester [Cressen](wiki:Cressen) at [Dragonstone](wiki:Dragonstone) shortly before Stannis Baratheon closed the isle.(wiki:Oldtown.cite_ref-Racokprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_47-0) [Allard Seaworth](wiki:Allard_Seaworth) has a relationship with an Oldtown girl.(wiki:Oldtown.cite_ref-Rasos5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_48-0)
+
+Lord [Baelor Blacktyde](wiki:Baelor_Blacktyde) spent eight years as a hostage in Oldtown after [Greyjoy's Rebellion](wiki:Greyjoy's_Rebellion).(wiki:Oldtown.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_49-0) Before fleeing in exile from Lord [Eddard Stark](wiki:Eddard_Stark), Lord [Jorah Mormont](wiki:Jorah_Mormont) attended fairs and festivals in Oldtown with his wife, [Lynesse Hightower](wiki:Lynesse_Hightower).(wiki:Oldtown.cite_ref-Racok12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_50-0) Archmaester [Marwyn](wiki:Marwyn) is known as Marwyn the Mage all across Oldtown.(wiki:Oldtown.cite_ref-Radwdprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_51-0) Lord [Randyll Tarly](wiki:Randyll_Tarly) is little loved in the city.(wiki:Oldtown.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-5) Oldtown knows the father of [Penny](wiki:Penny) and [Groat](wiki:Groat) as [Hop-Bean](wiki:Hop-Bean).(wiki:Oldtown.cite_ref-Radwd33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_52-0)
+
+Although Oldtown remains the largest and richest city of Westeros, the newer capital city of [King's Landing](wiki:King's_Landing) has since grown more populous.(wiki:Oldtown.cite_ref-Rtwoiafthe_reach:_oldtown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-13)
+
+## Appearances & Description
+
+### Location
+
+Oldtown is located at the mouth of the [Honeywine](wiki:Honeywine) in the southwestern side of the [Reach](wiki:Reach). North of the city are the castles [Honeyholt](wiki:Honeyholt) and [Brightwater Keep](wiki:Brightwater_Keep). To the east lies [Uplands](wiki:Uplands), and to the west [Blackcrown](wiki:Blackcrown) and [Three Towers](wiki:Three_Towers). To enter the port of Oldtown from the [Sunset Sea](wiki:Sunset_Sea), one first needs to enter the [Whispering Sound](wiki:Whispering_Sound). The [Roseroad](wiki:Roseroad) travels from Oldtown to [Highgarden](wiki:Highgarden), from where it continued on to [King's Landing](wiki:King's_Landing).(wiki:Oldtown.cite_ref-Rtloiaf_westeros.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
+
+### Layout
+
+> *See also: [Images of Oldtown](wiki:Category:Images_of_Oldtown)*
+
+Oldtown is built in stone, with all its streets cobbled,(wiki:Oldtown.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) which can make them wet and slippery on a damp day.(wiki:Oldtown.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1) Most bridges are made of stone, although some wooden bridges can be found as well.(wiki:Oldtown.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)(wiki:Oldtown.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2) The city itself is surrounded by massive, thick, high stone walls.(wiki:Oldtown.cite_ref-Rtwoiafthe_reach:_oldtown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+
+Oldtown is a labyrinth of wynds, crisscrossing alleys, narrow crookback streets, and markets. These include the [Thieves Market](wiki:Thieves_Market) and [Ragpicker's Wynd](wiki:Ragpicker's_Wynd).(wiki:Oldtown.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
+
+Beautiful(wiki:Oldtown.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3) Oldtown is described as smelling as flowery as a perfumed dowager.(wiki:Oldtown.cite_ref-Radwd15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) During summer, it steams and swelters during daytime but comes alive at night. Foliage include melons, [moonbloom](wiki:Moonbloom), [nightshade](wiki:Nightshade), peaches, and pomegranates.(wiki:Oldtown.cite_ref-Ragot25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+
+Many small isles are located in Oldtown; the [Quill and Tankard](wiki:Quill_and_Tankard), an inn, stands on its own island in the Honeywine, for instance.(wiki:Oldtown.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-4) The river road winds along beside the Honeywine through the heart of the city.(wiki:Oldtown.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3) West of the river, the Guildhalls line the river bank.(wiki:Oldtown.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-5) [Rat pits](wiki:Rat_pits) and black brothels are located in the undercity.(wiki:Oldtown.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-6)
+
+The [Citadel](wiki:Citadel) is located upriver on both sides of the Honeywine, connected by stone bridges crowded with halls and houses.(wiki:Oldtown.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-7) Boys and men gather there from all over Westeros to learn, study, and forge a [maester](wiki:Maester)'s chain. The Citadel is considered to be the greatest seat of knowledge in the [known world](wiki:Known_world).(wiki:Oldtown.cite_ref-Rtwoiafthe_reach:_oldtown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+
+Downriver(wiki:Oldtown.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-8) is the [Starry Sept](wiki:Starry_Sept) of the [Faith of the Seven](wiki:Faith_of_the_Seven), which was raised on the command of Lord [Triston Hightower](wiki:Triston_Hightower). It became the seat of the [High Septons](wiki:High_Septon) for a thousand years, which made Oldtown the unquestioned center of the Faith for all of Westeros. Only following the construction of the [Great Sept of Baelor](wiki:Great_Sept_of_Baelor) in [King's Landing](wiki:King's_Landing) during the second half of the second century after [Aegon's Conquest](wiki:Aegon's_Conquest), did the Starry Sept lose its status.(wiki:Oldtown.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-9)(wiki:Oldtown.cite_ref-Rtwoiafthe_reach:_oldtown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4) Besides the Sept of Oldtown, at least seven more septs honoring the Seven, built on the command of Lord [Damon Hightower](wiki:Damon_Hightower), can be found nearby.(wiki:Oldtown.cite_ref-Rtwoiafthe_reach:_oldtown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5) These include the [Sailor's Sept](wiki:Sailor's_Sept) down by the harbor, the [Lord's Sept](wiki:Lord's_Sept), and the [Seven Shrines](wiki:Seven_Shrines) in their gardens across the Honeywine.(wiki:Oldtown.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-10) Oldtown is also home to a [motherhouse](wiki:Motherhouse).(wiki:Oldtown.cite_ref-Rasos22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0) Down by the wharves can be found temples that cater to foreigners, such as [Summer Islanders](wiki:Summer_Isles) and [red priests](wiki:Red_priests) of the [Lord of Light](wiki:Lord_of_Light).(wiki:Oldtown.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-11)
+
+The mighty [Hightower](wiki:Hightower) is a massive stepped lighthouse located on [Battle Isle](wiki:Battle_Isle), where the Honeywine widens into Whispering Sound.(wiki:Oldtown.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-12) The Hightower has a great beacon on top, which shows ships the way to port.(wiki:Oldtown.cite_ref-ssm_10-0) The Hightower is located on [Battle Isle](wiki:Battle_Isle)(wiki:Oldtown.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-13) in the center of Oldtown.(wiki:Oldtown.cite_ref-ssm_10-1) The Hightower is the tallest tower in the world,(wiki:Oldtown.cite_ref-Rtwoiafthe_reach.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0) higher than even the seven-hundred-foot [Wall](wiki:Wall).(wiki:Oldtown.cite_ref-Rawoiafhightower.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0)
+
+### People and Economy
+
+Oldtown is the richest city of [Westeros](wiki:Westeros) and second in population only to [King's Landing](wiki:King's_Landing).(wiki:Oldtown.cite_ref-Rtwoiafthe_reach:_oldtown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6) Trade features heavily,(wiki:Oldtown.cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0) as the city is home to the realm's second most important port.(wiki:Oldtown.cite_ref-Rasos32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0) Trading ships from all the world, including the rest of Westeros, the nine [Free Cities](wiki:Free_Cities), the [Summer Isles](wiki:Summer_Isles), and more, are known to call upon Oldtown's port. Traders from the city often visit [Qarth](wiki:Qarth).(wiki:Oldtown.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0)
+
+Oldtown is ruled from the Hightower by [House Hightower](wiki:House_Hightower), who were originally [Kings of the High Tower](wiki:Kings_of_the_High_Tower) but later swore fealty to [House Gardener](wiki:House_Gardener), the [Kings of the Reach](wiki:Kings_of_the_Reach). They became vassals of the [Tyrells](wiki:House_Tyrell) after the Conquest,(wiki:Oldtown.cite_ref-Rtwoiafthe_reach:_oldtown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7) and own the [Bank of Oldtown](wiki:Bank_of_Oldtown).(wiki:Oldtown.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0) The city is protected by the [City Watch of Oldtown](wiki:City_Watch_of_Oldtown),(wiki:Oldtown.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0) currently commanded by Ser [Moryn Tyrell](wiki:Moryn_Tyrell), an uncle of Lord [Mace Tyrell](wiki:Mace_Tyrell) of [Highgarden](wiki:Highgarden).(wiki:Oldtown.cite_ref-Ragotappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-0)
+
+## Narrative Arc
+
+### A Clash of Kings
+
+The *[Myraham](wiki:Myraham)* sails from Oldtown to [Seagard](wiki:Seagard).(wiki:Oldtown.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1) While at Oldtown, the *[Cinnamon Wind](wiki:Cinnamon_Wind)* learns that King [Robert I Baratheon](wiki:Robert_I_Baratheon) has died.(wiki:Oldtown.cite_ref-Racok27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_53-0) [Satin](wiki:Satin), a former whore from Oldtown, arrives at [Castle Black](wiki:Castle_Black) at the [Wall](wiki:Wall) and begins his training.(wiki:Oldtown.cite_ref-Racok6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_54-0)
+
+### A Storm of Swords
+
+[Carellen Smallwood](wiki:Carellen_Smallwood) is sent from [Acorn Hall](wiki:Acorn_Hall) to safety at a [motherhouse](wiki:Motherhouse) in Oldtown during the [War of the Five Kings](wiki:War_of_the_Five_Kings).(wiki:Oldtown.cite_ref-Rasos22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-1)
+
+[Garth of Oldtown](wiki:Garth_of_Oldtown) is killed by [Garth of Greenaway](wiki:Garth_of_Greenaway) during the [mutiny at Craster's Keep](wiki:Mutiny_at_Craster's_Keep).(wiki:Oldtown.cite_ref-Rasos33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_55-0) Maester [Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I)) sends [ravens](wiki:Raven) from [Castle Black](wiki:Castle_Black) to Oldtown and the [Citadel](wiki:Citadel) warning of [Mance Rayder](wiki:Mance_Rayder)'s host of [wildlings](wiki:Wildlings). [Satin](wiki:Satin), a former whore from Oldtown and a current recruit of the [Night's Watch](wiki:Night's_Watch) at [Castle Black](wiki:Castle_Black), participates in the defense of the [Wall](wiki:Wall) during the [attack on Castle Black](wiki:Attack_on_Castle_Black)(wiki:Oldtown.cite_ref-Rasos55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_56-0) and the [battle beneath the Wall](wiki:Battle_beneath_the_Wall).(wiki:Oldtown.cite_ref-Rasos55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_56-1)
+
+### A Feast for Crows
+
+[Pate](wiki:Pate_(novice)), a novice of the Citadel, dies after meeting with an [alchemist](wiki:Alchemist) in the streets of Oldtown.(wiki:Oldtown.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-14)
+
+In response to the death in [King's Landing](wiki:King's_Landing) of her father, [Oberyn Martell](wiki:Oberyn_Martell), [Obara Sand](wiki:Obara_Sand) desires to sack Oldtown.(wiki:Oldtown.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_44-1)
+
+[Garth Tyrell](wiki:Garth_Tyrell), the choice of the late Lord [Tywin Lannister](wiki:Tywin_Lannister) to become [master of coin](wiki:Master_of_coin), travels to Oldtown to take ship for King's Landing. Queen Regent [Cersei Lannister](wiki:Cersei_Lannister) instead appoints Lord [Gyles Rosby](wiki:Gyles_Rosby).(wiki:Oldtown.cite_ref-Raffc7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_57-0)
+
+[Hotho Harlaw](wiki:Hotho_Harlaw) brings Lord [Rodrik Harlaw](wiki:Rodrik_Harlaw) a copy of *[Book of Lost Books](wiki:Book_of_Lost_Books)* from Oldtown.(wiki:Oldtown.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_58-0)
+
+[Timeon](wiki:Timeon) informs [Brienne of Tarth](wiki:Brienne_of_Tarth) that [Urswyck](wiki:Urswyck) was heading towards Oldtown with a small band of his fellow former [Brave Companions](wiki:Brave_Companions).(wiki:Oldtown.cite_ref-Raffc20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_59-0)
+
+[Euron Greyjoy](wiki:Euron_Greyjoy), the new [King of the Isles and the North](wiki:King_of_the_Isles_and_the_North), attacks the [Reach](wiki:Reach), conquering the [Shield Islands](wiki:Taking_of_the_Shields) and parts of the [Arbor](wiki:Invasion_of_the_Arbor) before trying to blockade the mouth of the Honeywine. An [ironborn](wiki:Ironborn) attack on the harbor is repulsed by the city's defenders. Aboard *[Honor of Oldtown](wiki:Honor_of_Oldtown)*, Ser [Gunthor Hightower](wiki:Gunthor_Hightower) commands a line of warships and a boom which protects the harbor.(wiki:Oldtown.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-6)
+
+Jon Snow, the new [Lord Commander of the Night's Watch](wiki:Lord_Commander_of_the_Night's_Watch), sends [Samwell Tarly](wiki:Samwell_Tarly) south to Oldtown so that he might study there to become a [maester](wiki:Maester) for [Castle Black](wiki:Castle_Black). Maester [Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I)) dies en route, but Sam reaches Oldtown. At the [Seneschal's Court](wiki:Seneschal's_Court) he is approached by the acolyte [Alleras](wiki:Alleras), who introduces him to [Archmaester](wiki:Archmaester) [Marwyn](wiki:Marwyn) and [Leo Tyrell](wiki:Leo_Tyrell_(son_of_Moryn)). After Marwyn leaves, the novice Pate gives Sam a cell near Archmaester [Walgrave](wiki:Walgrave)'s chamber.(wiki:Oldtown.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-7)
+
+### A Dance with Dragons
+
+Jon Snow sends from Castle Black to Oldtown for more maesters.(wiki:Oldtown.cite_ref-Radwd7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_60-0)
+
+Stories of [Daenerys Targaryen](wiki:Daenerys_Targaryen) and her [dragons](wiki:Dragon) have reached Oldtown.(wiki:Oldtown.cite_ref-Radwdepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_61-0)
+
+## Quotes
+
+> There are truths in [this world](wiki:Known_world) that are not taught at Oldtown.(wiki:Oldtown.cite_ref-Racokprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_47-1)
+>
+> —[Melisandre](wiki:Melisandre) to [Cressen](wiki:Cressen)
+
+> Oldtown was a veritable labyrinth of a city, all wynds and crisscrossing alleys and narrow crookback streets.(wiki:Oldtown.cite_ref-Raffc0.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_62-0)
+>
+> —thoughts of [Pate](wiki:Pate_(novice))
+
+> The city was never more beautiful than at break of day.(wiki:Oldtown.cite_ref-Raffc0.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_62-1)
+>
+> —thoughts of [Pate](wiki:Pate_(novice))
+
+> **Doran**: [Obara](wiki:Obara_Sand) would have me go to war. **Nymeria**: Yes, she wants to set the torch to Oldtown. She hates that city as much as [our little sister](wiki:Sarella_Sand) loves it.(wiki:Oldtown.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_44-2)
+>
+> —[Doran Martell](wiki:Doran_Martell) and [Nymeria Sand](wiki:Nymeria_Sand)
+
+> Oldtown. Yes. I dreamt of Oldtown, Sam. I was young again and my brother [Egg](wiki:Aegon_V_Targaryen) was with me, with that [big knight](wiki:Duncan_the_Tall) he served. We were drinking in [the old inn](wiki:Quill_and_Tankard) where they make the fearsomely strong cider.(wiki:Oldtown.cite_ref-Raffc26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_63-0)
+>
+> —[Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I)) to [Samwell Tarly](wiki:Samwell_Tarly)

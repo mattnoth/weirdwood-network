@@ -1,0 +1,8 @@
+{
+  "bucket_id": "direwolves",
+  "passed": true,
+  "checked_at": "2026-04-27T01:04:05Z",
+  "node_count_expected": 6,
+  "node_count_actual": 6,
+  "failures": []
+}

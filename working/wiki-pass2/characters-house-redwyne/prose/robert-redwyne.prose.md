@@ -1,0 +1,7 @@
+## Origins
+
+Robert was the eldest(wiki:Robert_Redwyne.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1) son of [Manfryd Redwyne](wiki:Manfryd_Redwyne), the Lord of the [Arbor](wiki:Arbor) and [master of ships](wiki:Master_of_ships) to King [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen). While still a squire, he came to [King's Landing](wiki:King's_Landing) with his father and brothers, [Rickard](wiki:Rickard_Redwyne) and [Ryam](wiki:Ryam_Redwyne), when Lord Manfryd was appointed to the [small council](wiki:Small_council) in [50 AC](wiki:50_AC).(wiki:Robert_Redwyne.cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+
+After the death of Ser [Qarl Corbray](wiki:Qarl_Corbray), who succumbed to the [Shivers](wiki:Shivers) in [59 AC](wiki:59_AC), Robert, by now a [knight](wiki:Knight), was appointed to command the [City Watch of King's Landing](wiki:City_Watch_of_King's_Landing).(wiki:Robert_Redwyne.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+
+Robert's father, Lord [Manfryd Redwyne](wiki:Manfryd_Redwyne), passed away in [89 AC](wiki:Years_after_Aegon's_Conquest), making Robert the new Lord of the Arbor. Robert followed his father into the grave soon thereafter, however.(wiki:Robert_Redwyne.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)

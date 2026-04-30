@@ -1,0 +1,22 @@
+---
+name: "Howd Wanderer"
+type: character.human
+slug: howd-wanderer
+aliases: ["The Wanderer"]
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Howd_Wanderer"
+bucket_id: characters-other-h-i
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Howd Wanderer is a character.human from the AWOIAF wiki.
+
+## Edges
+
+- SWORN_TO: Mance Rayder (track_b: Allegiance)
+- CULTURE_OF: Free folk (track_b: Culture)
+- PARENT_OF: Sons (track_b: Issue)

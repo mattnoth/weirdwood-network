@@ -1,0 +1,203 @@
+{
+  "bucket_id": "tier2-recovery",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1-python",
+  "created_at": "2026-04-27T00:00:00Z",
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "pages": [
+    {
+      "page": "Faith of the Seven",
+      "slug": "faith-of-the-seven"
+    },
+    {
+      "page": "R'hllor",
+      "slug": "rhllor"
+    },
+    {
+      "page": "Old Gods of the Forest",
+      "slug": "old-gods-of-the-forest"
+    },
+    {
+      "page": "Drowned God",
+      "slug": "drowned-god"
+    },
+    {
+      "page": "Knight",
+      "slug": "knight"
+    },
+    {
+      "page": "Squire",
+      "slug": "squire"
+    },
+    {
+      "page": "Septon",
+      "slug": "septon"
+    },
+    {
+      "page": "Lord",
+      "slug": "lord"
+    },
+    {
+      "page": "Bastard",
+      "slug": "bastard"
+    },
+    {
+      "page": "Maester",
+      "slug": "maester"
+    },
+    {
+      "page": "Grand Maester",
+      "slug": "grand-maester"
+    },
+    {
+      "page": "Regent",
+      "slug": "regent"
+    },
+    {
+      "page": "Sellsword",
+      "slug": "sellsword"
+    },
+    {
+      "page": "King in the North",
+      "slug": "king-in-the-north"
+    },
+    {
+      "page": "Prince of Dorne",
+      "slug": "prince-of-dorne"
+    },
+    {
+      "page": "Hedge knight",
+      "slug": "hedge-knight"
+    },
+    {
+      "page": "Ironborn",
+      "slug": "ironborn"
+    },
+    {
+      "page": "Free folk",
+      "slug": "free-folk"
+    },
+    {
+      "page": "Wildlings",
+      "slug": "wildlings"
+    },
+    {
+      "page": "Dornishmen",
+      "slug": "dornishmen"
+    },
+    {
+      "page": "Dothraki",
+      "slug": "dothraki"
+    },
+    {
+      "page": "First Men",
+      "slug": "first-men"
+    },
+    {
+      "page": "Brotherhood Without Banners",
+      "slug": "brotherhood-without-banners"
+    },
+    {
+      "page": "Brave Companions",
+      "slug": "brave-companions"
+    }
+  ],
+  "input_pages": [
+    "Faith of the Seven",
+    "R'hllor",
+    "Old Gods of the Forest",
+    "Drowned God",
+    "Knight",
+    "Squire",
+    "Septon",
+    "Lord",
+    "Bastard",
+    "Maester",
+    "Grand Maester",
+    "Regent",
+    "Sellsword",
+    "King in the North",
+    "Prince of Dorne",
+    "Hedge knight",
+    "Ironborn",
+    "Free folk",
+    "Wildlings",
+    "Dornishmen",
+    "Dothraki",
+    "First Men",
+    "Brotherhood Without Banners",
+    "Brave Companions"
+  ],
+  "expected_nodes": [
+    "faith-of-the-seven.node.md",
+    "rhllor.node.md",
+    "old-gods-of-the-forest.node.md",
+    "drowned-god.node.md",
+    "knight.node.md",
+    "squire.node.md",
+    "septon.node.md",
+    "lord.node.md",
+    "bastard.node.md",
+    "maester.node.md",
+    "grand-maester.node.md",
+    "regent.node.md",
+    "sellsword.node.md",
+    "king-in-the-north.node.md",
+    "prince-of-dorne.node.md",
+    "hedge-knight.node.md",
+    "ironborn.node.md",
+    "free-folk.node.md",
+    "wildlings.node.md",
+    "dornishmen.node.md",
+    "dothraki.node.md",
+    "first-men.node.md",
+    "brotherhood-without-banners.node.md",
+    "brave-companions.node.md"
+  ],
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-27T00:00:00Z",
+    "tier_a": [
+      "Faith of the Seven",
+      "R'hllor",
+      "Old Gods of the Forest",
+      "Drowned God",
+      "Knight",
+      "Squire",
+      "Septon",
+      "Lord",
+      "Bastard",
+      "Maester",
+      "Grand Maester",
+      "Regent",
+      "Sellsword",
+      "King in the North",
+      "Prince of Dorne",
+      "Hedge knight",
+      "Ironborn",
+      "Free folk",
+      "Wildlings",
+      "Dornishmen",
+      "Dothraki",
+      "First Men",
+      "Brotherhood Without Banners",
+      "Brave Companions"
+    ],
+    "tier_b": [],
+    "tier_c": [],
+    "stats": {
+      "total": 24,
+      "tier_a": 24,
+      "tier_b": 0,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T05:39:37.655824+00:00",
+  "stage3_promoted_count": 24,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

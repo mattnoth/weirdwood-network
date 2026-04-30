@@ -1,0 +1,41 @@
+---
+name: "Siege of Storm's End (300)"
+type: event.battle
+slug: siege-of-storms-end-300
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Siege_of_Storm's_End_(300)"
+bucket_id: battles-s-t
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Siege of Storm's End (300) is a event.battle from the AWOIAF wiki.
+
+## Edges
+
+- FIGHTS_IN: War of the Five Kings (track_b: Conflict)
+- DEFEATS: Unresolved (track_b: Result)
+
+## Origins
+
+Most of Stannis's bannermen kneel to King [Joffrey I Baratheon](wiki:Joffrey_Baratheon) after Stannis's defeat in the [Battle of the Blackwater](wiki:Battle_of_the_Blackwater).(wiki:Siege_of_Storm's_End_(300).cite_ref-Racok65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)(wiki:Siege_of_Storm's_End_(300).cite_ref-Rasos25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) Aside from garrisons at Storm's End and [Dragonstone](wiki:Dragonstone),(wiki:Siege_of_Storm's_End_(300).cite_ref-Raffcappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) the remaining lords loyal to Stannis travel with him [to defend the Wall and Castle Black](wiki:Battle_beneath_the_Wall) from [wildlings](wiki:Wildlings).(wiki:Siege_of_Storm's_End_(300).cite_ref-Rasos73.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) Joffrey dies at [his wedding](wiki:Purple_Wedding),(wiki:Siege_of_Storm's_End_(300).cite_ref-Rasos60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) and he is succeeded by his younger brother, [Tommen Baratheon](wiki:Tommen_Baratheon).(wiki:Siege_of_Storm's_End_(300).cite_ref-Rasos72.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+
+## Narrative Arc
+
+To remove Lord [Mace Tyrell](wiki:Mace_Tyrell) from [King's Landing](wiki:King's_Landing),(wiki:Siege_of_Storm's_End_(300).cite_ref-Raffc8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0) Queen Regent [Cersei Lannister](wiki:Cersei_Lannister) commands him to lay siege to the castle of [Storm's End](wiki:Storm's_End), which remains loyal to Stannis Baratheon and is held by Ser [Gilbert Farring](wiki:Gilbert_Farring).(wiki:Siege_of_Storm's_End_(300).cite_ref-Raffcappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) Ser [Garlan Tyrell](wiki:Garlan_Tyrell) takes half of the [Tyrell](wiki:House_Tyrell) men back to the [Reach](wiki:Reach) to deal with [Brightwater Keep](wiki:Brightwater_Keep), and Mace marches on Storm's End with the other half.(wiki:Siege_of_Storm's_End_(300).cite_ref-Raffc16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)
+
+When Mace arrives, he sets up two dozen mangonels, achieving little against the stout castle walls.(wiki:Siege_of_Storm's_End_(300).cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0) Some ships of the [Redwyne fleet](wiki:Redwyne_fleet) patrol [Shipbreaker Bay](wiki:Shipbreaker_Bay) to prevent Storm's End from being resupplied.(wiki:Siege_of_Storm's_End_(300).cite_ref-Raffc32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0)
+
+Lord Tyrell hears that his daughter, Queen [Margaery Tyrell](wiki:Margaery_Tyrell), has been imprisoned at the [Great Sept of Baelor](wiki:Great_Sept_of_Baelor) by the [High Sparrow](wiki:High_Sparrow). Leaving a token force at Storm's End under Lord [Mathis Rowan](wiki:Mathis_Rowan),(wiki:Siege_of_Storm's_End_(300).cite_ref-Rawoiafmathis_rowan.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0) Mace marches on King's Landing and orders Lord [Randyll Tarly](wiki:Randyll_Tarly) to return from [Maidenpool](wiki:Maidenpool) and join him at the capital.(wiki:Siege_of_Storm's_End_(300).cite_ref-Raffc43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0)
+
+After the [landing of the Golden Company](wiki:Landing_of_the_Golden_Company) in the [stormlands](wiki:Stormlands), [Jon Connington](wiki:Jon_Connington) plans his own attack on Storm's End in the name of [Aegon Targaryen](wiki:Aegon_Targaryen_(son_of_Rhaegar)).(wiki:Siege_of_Storm's_End_(300).cite_ref-Radwd61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0) The [small council](wiki:Small_council) later hears reports that Jon is marching on the castle.(wiki:Siege_of_Storm's_End_(300).cite_ref-Radwdepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0)
+
+## Quotes
+
+> You need Tyrell, but not [here](wiki:King's_Landing). Ask him to capture [Storm's End](wiki:Storm's_End) for [Tommen](wiki:Tommen_Baratheon). Flatter him, and tell him you need him in the field, to replace [Father](wiki:Tywin_Lannister). [Mace](wiki:Mace_Tyrell) fancies himself a mighty warrior. Either he will deliver Storm's End to you, or he will muck it up and look a fool. Either way, you win.(wiki:Siege_of_Storm's_End_(300).cite_ref-Raffc8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-1)
+>
+> —[Jaime Lannister](wiki:Jaime_Lannister) to [Cersei Lannister](wiki:Cersei_Lannister)

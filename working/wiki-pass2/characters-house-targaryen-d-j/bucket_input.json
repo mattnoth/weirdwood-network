@@ -1,0 +1,3012 @@
+{
+  "bucket_id": "characters-house-targaryen-d-j",
+  "tier": "core",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Dick Bean",
+      "raw_html_path": "sources/wiki/_raw/Dick_Bean.json",
+      "track_b_row": {
+        "page": "Dick Bean",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "42\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "King's Landing",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Dick Bean",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 8577
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Dogkiller",
+      "raw_html_path": "sources/wiki/_raw/Dogkiller.json",
+      "track_b_row": {
+        "page": "Dogkiller",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Unsullied",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Unsullied",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Dogkiller",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 6529
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Doreah",
+      "raw_html_path": "sources/wiki/_raw/Doreah.json",
+      "track_b_row": {
+        "page": "Doreah",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 6,
+          "source": "cite_ref",
+          "pov": "Jon I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiances",
+            "target": "Drogo",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Lysene",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "278\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "279\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Lys",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "299\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "red waste",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            6,
+            11,
+            23,
+            36,
+            46,
+            54,
+            61,
+            64,
+            72
+          ],
+          "acok": [
+            12
+          ],
+          "adwd": [
+            43,
+            50
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Doreah",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 9,
+          "acok": 1,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 28599
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-daenerys-05",
+          "line": 33,
+          "context": "| Jhiqui | Handmaid; taught Dany Dothraki phrases, sobs in fear during confrontation | No | |\n| Doreah | Handmaid; brings robe, alerts Dany to Viserys's arrival | No | |\n| Qotho | Bloodrider; seizes V"
+        },
+        {
+          "chapter": "agot-daenerys-05",
+          "line": 116,
+          "context": "6. **Ritual bathing in the Womb of the World** \u2014 Dany strips naked and wades into the sacred lake, cleansing herself and the child while the procession watches from the grassy shore.\n7. **Public consu"
+        },
+        {
+          "chapter": "agot-daenerys-05",
+          "line": 213,
+          "context": "| Irri | serves/assists | Daenerys | Helped prepare for ceremony; chew dried horseflesh; fits slippers |\n| Doreah | serves/alerts | Daenerys | Brings robe after bathing; tugs elbow to warn of Viserys "
+        },
+        {
+          "chapter": "agot-daenerys-05",
+          "line": 233,
+          "context": "### Characters\nDaenerys Targaryen, Khal Drogo, Viserys Targaryen, Ser Jorah Mormont, Irri, Jhiqui, Doreah, Qotho, Haggo, Cohollo, Khal Jommo, Khal Ogo, Fogo (khalakka), the one-eyed crone (leader of d"
+        },
+        {
+          "chapter": "agot-daenerys-02",
+          "line": 34,
+          "context": "| Jhiqui | Handmaid gifted to Dany | Yes | Copper-skinned Dothraki, to teach the Dothraki tongue |\n| Doreah | Handmaid gifted to Dany | Yes | Fair-haired, blue-eyed Lysene girl, to instruct in arts of"
+        },
+        {
+          "chapter": "agot-daenerys-02",
+          "line": 48,
+          "context": "| Jhiqui | Black hair | Almond-shaped eyes | | | | | Copper-skinned | |\n| Doreah | Fair-haired | Blue-eyed | | | | | Lysene | |"
+        },
+        {
+          "chapter": "agot-daenerys-02",
+          "line": 69,
+          "context": "| Dragonstone | Dany calls herself \"Princess of Dragonstone\" | Yes (uncertain \u2014 verify) |\n| Lys | Doreah's origin | Yes (uncertain \u2014 verify) |"
+        },
+        {
+          "chapter": "agot-daenerys-02",
+          "line": 112,
+          "context": "8. **Bride gifts presented at sunset** \u2014 Drogo claps his hands and the feast halts. Gift-giving begins.\n9. **Viserys gives three handmaids** \u2014 Irri (riding), Jhiqui (Dothraki language), and Doreah (ar"
+        },
+        {
+          "chapter": "agot-daenerys-02",
+          "line": 148,
+          "context": "| The dragon eggs are from the Shadow Lands beyond Asshai and have turned to stone | Illyrio states | Illyrio, Dany | No |\n| Illyrio and Viserys personally selected Doreah and have personal experience"
+        },
+        {
+          "chapter": "agot-daenerys-02",
+          "line": 164,
+          "context": "| Dany | (internal) | \"I am blood of the dragon \u2026 I am Daenerys Stormborn, Princess of Dragonstone, of the blood and seed of Aegon the Conqueror.\" | Self-encouragement during the wedding feast |\n| Vis"
+        },
+        {
+          "chapter": "agot-daenerys-02",
+          "line": 193,
+          "context": "| Drogo | Commands | Haggo, Cohollo, Qotho | They are his bloodriders; they offer traditional weapons |\n| Dany | Mistress to | Irri, Jhiqui, Doreah | Three handmaids gifted to her; each assigned speci"
+        },
+        {
+          "chapter": "agot-daenerys-02",
+          "line": 196,
+          "context": "| Drogo | Gentle/tender toward | Dany | Unexpected warmth in his tone; deft and tender touch; asks consent (\"No?\") |\n| Illyrio | Has had sexual relations with | Doreah | Viserys implies both he and Il"
+        },
+        {
+          "chapter": "agot-daenerys-02",
+          "line": 197,
+          "context": "| Illyrio | Has had sexual relations with | Doreah | Viserys implies both he and Illyrio \"can swear to\" her skill |\n| Viserys | Has had sexual relations with | Doreah | Same statement from Viserys |\n|"
+        },
+        {
+          "chapter": "agot-daenerys-02",
+          "line": 221,
+          "context": "- Jhiqui\n- Doreah\n- Haggo"
+        },
+        {
+          "chapter": "agot-daenerys-02",
+          "line": 258,
+          "context": "- Dothraki (customs extensively described: open-sky ceremonies, braids, arakhs, horsemanship, rendering pits, mare's milk, blood pies, mounted coupling, violent weddings, grass palaces, bronze medalli"
+        },
+        {
+          "chapter": "agot-daenerys-06",
+          "line": 30,
+          "context": "| Ser Jorah Mormont | Advisor/protector | No | Warns Dany about the poisoned wine; reads Illyrio's letter; receives a horse as gift from Drogo |\n| Doreah | Handmaid | No | Combs Dany's hair; catches D"
+        },
+        {
+          "chapter": "agot-daenerys-06",
+          "line": 115,
+          "context": "| Scented oils (dozen flasks) | Perfumes of Dany's childhood | Yes | Dany |\n| Fertility charm | Doreah looks at it longingly at a magician's booth; Dany takes it for her | Yes | Doreah |\n| Jhogo's whi"
+        },
+        {
+          "chapter": "agot-daenerys-06",
+          "line": 141,
+          "context": "7. **Ser Jorah leaves to find the caravan captain** \u2014 He excuses himself abruptly, declining Dany's offer to accompany him.\n8. **Dany browses the market** \u2014 She eats sausages with her entourage, acqui"
+        },
+        {
+          "chapter": "agot-daenerys-06",
+          "line": 143,
+          "context": "9. **The wine merchant attempts to poison Dany** \u2014 A Lysene-looking wine merchant offers Dany a cask of Arbor red. Ser Jorah returns and demands the man open and taste the wine. When pressed, the man "
+        },
+        {
+          "chapter": "agot-daenerys-06",
+          "line": 161,
+          "context": "| Confrontation | Ser Jorah, wine merchant | Ser Jorah returns and confronts the wineseller at his stall | Dany's khas array behind Jorah | Demands the man drink the wine |\n| Ambush | Wine merchant | "
+        },
+        {
+          "chapter": "agot-daenerys-06",
+          "line": 206,
+          "context": "| Daenerys | Trusts and relies on | Ser Jorah | Obeys his command to put down the cask; asks him to persuade Drogo; allows him to handle the confrontation |\n| Doreah | Devoted handmaid / protector | D"
+        },
+        {
+          "chapter": "agot-daenerys-06",
+          "line": 235,
+          "context": "- Ser Jorah Mormont (Jorah the Andal)\n- Doreah\n- Irri"
+        },
+        {
+          "chapter": "agot-daenerys-08",
+          "line": 35,
+          "context": "| Irri | Handmaid | No | Helps tend Drogo, suggests taking Dany to the maegi |\n| Doreah | Handmaid | No | Helps tend Drogo, reports birthing women have fled |\n| Jhiqui | Handmaid | No | Helps undress "
+        },
+        {
+          "chapter": "agot-daenerys-08",
+          "line": 91,
+          "context": "| Drogo's bells | Laid aside by Dany as she undoes his braid; \"the bells his father gave him\" \u2014 he still wears them (his hair has never been cut) | No | Laid aside in the tent |\n| Drogo's medallion be"
+        },
+        {
+          "chapter": "agot-daenerys-08",
+          "line": 109,
+          "context": "3. **Dany orders camp made** \u2014 She commands the bloodriders to make camp, telling Haggo to claim Drogo ordered the halt and to say her time is near if asked. She sends Qotho to fetch Mirri Maz Duur de"
+        },
+        {
+          "chapter": "agot-daenerys-08",
+          "line": 145,
+          "context": "| Arrival | Cohollo | Vaults from horse, kneels beside Drogo | Drogo on ground | Haggo and Qotho remain mounted |\n| Assembly | Slaves, Irri, Doreah | Erect tent beneath black rock outcrop | Jagged out"
+        },
+        {
+          "chapter": "agot-daenerys-08",
+          "line": 181,
+          "context": "| Shadows in the tent include shapes not human \u2014 a great wolf and a man wreathed in flames | Dany glimpses through the sandsilk | Dany; possibly others watching | No |\n| Birthing women have fled, sayi"
+        },
+        {
+          "chapter": "agot-daenerys-08",
+          "line": 269,
+          "context": "### Characters\nDaenerys Targaryen, Khal Drogo, Ser Jorah Mormont, Mirri Maz Duur, Qotho, Haggo, Cohollo, Irri, Doreah, Jhiqui, Eroeh, Jhogo, Aggo, Rakharo, Quaro, Rhaego (unborn), Viserys Targaryen (r"
+        },
+        {
+          "chapter": "agot-daenerys-09",
+          "line": 30,
+          "context": "| Irri | Handmaid | No | Dampens Dany's brow; says \"the khal lives\" with darkness in her eyes |\n| Doreah | Handmaid | No | Flees to fetch Ser Jorah rather than tell Dany the truth |\n| Ser Jorah Mormon"
+        },
+        {
+          "chapter": "agot-daenerys-09",
+          "line": 199,
+          "context": "| Irri | serves | Daenerys | Dampens her brow, shows sadness; explains Jhaqo has 20,000 riders |\n| Doreah | serves | Daenerys | Flees rather than deliver bad news; previously taught Dany \"other ways\" "
+        },
+        {
+          "chapter": "agot-daenerys-09",
+          "line": 230,
+          "context": "### Characters\nDaenerys Targaryen, Khal Drogo, Ser Jorah Mormont, Mirri Maz Duur, Jhiqui, Irri, Doreah, Jhogo, Aggo, Rakharo, Rhaego (dead), Viserys Targaryen (dream), Rhaegar Targaryen (dream), Ko Po"
+        },
+        {
+          "chapter": "agot-daenerys-09",
+          "line": 245,
+          "context": "### Cultures & Peoples\nDothraki, Lhazareen (Lamb Men), Lysene (Doreah identified as \"the Lysene girl\"), Valyrians (ancestral)"
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 36,
+          "context": "| Jhiqui | Handmaid | No | Scented the bath water; fans Dany dry |\n| Doreah | Handmaid | No | Washes and combs Dany's hair |\n| Drogon | Newborn dragon (black-and-scarlet) | Yes | Draped across Dany's "
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 124,
+          "context": "13. **Dany names Ser Jorah first of her Queensguard** \u2014 Promises him a Valyrian steel longsword, dragon-forged; he kneels and vows to serve, obey, and die for her; she kisses him and names him first o"
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 231,
+          "context": "| Jhiqui | Serves | Daenerys | Scents the bath water with oils |\n| Doreah | Serves | Daenerys | Washes and combs Dany's hair |\n| Ser Jorah | References past love for | His lady wife | \"I loved my lady"
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 248,
+          "context": "### Characters\nDaenerys Targaryen, Ser Jorah Mormont, Khal Drogo (dead), Mirri Maz Duur, Jhogo, Aggo, Rakharo, Irri, Jhiqui, Doreah, Viserys Targaryen (referenced), Aegon (referenced, implied Aegon th"
+        },
+        {
+          "chapter": "agot-daenerys-07",
+          "line": 40,
+          "context": "| Irri | Dany's handmaid; echoes Dothraki customs | No | |\n| Doreah | Dany's handmaid; tasked with caring for first rescued woman | No | Noted as not having \"a rider's look\" |\n| Jhiqui | Dany's handma"
+        },
+        {
+          "chapter": "agot-daenerys-07",
+          "line": 113,
+          "context": "8. **Jhogo and the khas stop the rapists** \u2014 Jhogo beheads one man. The other riders look at Dany coldly but disperse. Ser Jorah pulls the last rapist off the girl; Aggo kills him with an arrow. Jorah"
+        },
+        {
+          "chapter": "agot-daenerys-07",
+          "line": 229,
+          "context": "### Characters\nDaenerys Targaryen, Khal Drogo, Ser Jorah Mormont, Mirri Maz Duur, Jhogo, Quaro, Aggo, Rakharo, Qotho, Haggo, Cohollo, Mago, Irri, Doreah, Jhiqui, Khal Ogo, Fogo, Viserys, Rhaegar, Ko J"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 18,
+          "context": "- **Season indicators:** Green grasses described as the current seasonal state; Ser Jorah describes dry season turning the world \"the color of old bronze\" and blooming season with \"dark red flowers fr"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 19,
+          "context": "- **Time of day:** Daytime (riding on the ridge); setting sun as Dany gallops back; dusk when she reaches the khalasar; night scenes (bath, supper, intimacy with Drogo); moon risen during conversation"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 33,
+          "context": "| Jhiqui | Handmaid | No | Helps carry the copper tub; sluices sand from Dany's hair; oils Dany's body; notices Dany's pregnancy |\n| Doreah | Handmaid | No | Builds fire for bath; tells the Qartheen m"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 43,
+          "context": "| Daenerys Targaryen | Oiled hair; silvery-wet hair after bath; hair like \"spun silver\" when brushed | | | | Dothraki riding leathers and a painted vest (bride gift); barefoot; sleeping silks (later) "
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 53,
+          "context": "| Aegon III (the Dragonbane) | Last Targaryen dragons died during his reign, no more than a century and a half ago (per Viserys) | Dany recalling Viserys's teaching |\n| A trader from Qarth | Told Dore"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 71,
+          "context": "| Asshai | Referenced \u2014 spellsingers, warlocks, aeromancers practice openly there | No |\n| Qarth | Referenced \u2014 a trader from Qarth told Doreah the moon story | Yes (uncertain \u2014 verify) |\n| Lys | Refe"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 72,
+          "context": "| Qarth | Referenced \u2014 a trader from Qarth told Doreah the moon story | Yes (uncertain \u2014 verify) |\n| Lys | Referenced \u2014 where Illyrio found Doreah in a pleasure house | No |"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 96,
+          "context": "|--------------|---------------------|-------|----------------------|-------|-------------------------------|\n| Dany's supper | Fruit, cheese, fry bread | Honeyed wine (a jug) | Dany; Doreah commanded"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 121,
+          "context": "16. **The dragon eggs glow** \u2014 In her tent, red light touches the dragon eggs and Dany sees \"a thousand droplets of scarlet flame.\" She touches the black egg \u2014 it is warm, almost hot. She attributes i"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 122,
+          "context": "17. **Bath scene** \u2014 Dany bathes in a copper tub (a bride gift). She asks her handmaids about dragons. Irri and Jhiqui say dragons are gone. Doreah tells the Qartheen story of the moon-egg and dragons"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 123,
+          "context": "18. **Grooming and preparation** \u2014 Jhiqui oils Dany and scrapes her pores; Irri sprinkles her with spiceflower and cinnamon; Doreah brushes her hair.\n19. **Supper with Doreah** \u2014 Dany eats a simple me"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 158,
+          "context": "| In Dany's imagination, the doors of her envisioned home are all red | Internal narration | Dany | Yes |\n| Doreah's dragon origin story: the moon cracked from the sun's heat, releasing a thousand tho"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 161,
+          "context": "| Magic died in the west when the Doom fell on Valyria | Dany's internal reflection | Dany | No |\n| Doreah is from Lys, found by Illyrio in a pleasure house; she is almost twenty | Internal narration "
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 181,
+          "context": "| Dany | Ser Jorah | \"My brother will never take back the Seven Kingdoms.\" | Saying it aloud for the first time |\n| Doreah | Dany, Irri, Jhiqui | \"He told me the moon was an egg, Khaleesi. Once there "
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 182,
+          "context": "| Doreah | Dany, Irri, Jhiqui | \"He told me the moon was an egg, Khaleesi. Once there were two moons in the sky, but one wandered too close to the sun and cracked from the heat. A thousand thousand dr"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 206,
+          "context": "| Jhiqui | Serves | Daenerys | Carries tub, washes hair, oils body; notices pregnancy |\n| Doreah | Serves and teaches | Daenerys | Tells dragon stories; teaches her about lovemaking; eats with her |\n|"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 212,
+          "context": "| Irri and Jhiqui | Enslaved by (in past) | Khal Drogo | Taken as slaves when Drogo destroyed their father's khalasar |\n| Doreah | Purchased from | A pleasure house in Lys | Illyrio found her there |"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 222,
+          "context": "| Where is \"home\" for Dany? | Raised by conversation with Jorah | Dany imagines King's Landing and Dragonstone, but the recurring image of red doors suggests a different, more personal \"home\" |\n| What"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 233,
+          "context": "- Jhiqui\n- Doreah\n- Jhogo"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 275,
+          "context": "- Dothraki (customs: no naming of animals; man who does not ride is lowest of low; all important things done beneath open sky; \"it is known\" as affirmation)\n- Lysene (Doreah's origin)\n- Qartheen (the "
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 13,
+          "context": "- **time_markers:** Arrival takes place during daylight (long shadows from the bronze stallions); Drogo must ascend the Mother of Mountains \"this night\" and return at dawn; Dany plans supper for the e"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 34,
+          "context": "| Jhiqui | Handmaid to Dany | No | Washes Dany's hair; roasts the goat meat; announces supper |\n| Doreah | Handmaid to Dany | No | Sent to invite Viserys; struck by Viserys, eye reddened; Lysene girl "
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 38,
+          "context": "| Haggo | Drogo's bloodrider | No | Described as huge and silent, often glowering |\n| Qotho | Drogo's bloodrider | No | Described as having cruel eyes and quick hands; bruises Doreah and makes Irri so"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 45,
+          "context": "| Cohollo | Bald | | Squat | Crooked nose; mouth full of broken teeth (shattered by a mace twenty years before) | | | | Oldest of Drogo's three bloodriders |\n| Doreah | | | | Red eye where Viserys hit"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 51,
+          "context": "|-----------|---------------------|---------------|\n| Magister Illyrio Mopatis | Had tried to warn Viserys about Dothraki ways; had let Viserys bed Doreah in Pentos; his slave girl had spoken of a pal"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 90,
+          "context": "| Bronze medallion belt | Gift Dany had made for Viserys; ornate bronze medallions on a heavy chain; she swings it and strikes Viserys across the face, cutting his cheek | Yes | Daenerys (intended as "
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 105,
+          "context": "| Sacred peace of Vaes Dothrak | shelter_offered | Dosh khaleen / sacred city | All Dothraki | Forbidden to carry blades or shed free man's blood; warring khalasars must put aside feuds, share meat an"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 119,
+          "context": "11. **Cohollo delivers Drogo's message** \u2014 Cohollo informs Dany that Drogo must ascend the Mother of Mountains that night to sacrifice to the gods for his safe return. Only men are allowed on the moun"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 123,
+          "context": "15. **Dany prepares gifts for Viserys** \u2014 She lays out Dothraki-style clothing made to his measurements: white linen tunic and leggings, leather sandals, bronze medallion belt, leather vest painted wi"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 147,
+          "context": "| Departure | Drogo + bloodriders | Ascending Mother of Mountains | Away from camp | Nighttime sacrifice; return at dawn |\n| Assembly | Doreah | Leads Dany to earthen dwelling | Camp | |\n| Departure |"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 149,
+          "context": "| Departure | Irri | Goes to bazaar | Away from dwelling | Buys food |\n| Departure | Doreah | Goes to find Viserys | Away from dwelling | Sent by Dany |\n| Arrival | Viserys | Enters Dany's dwelling dr"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 150,
+          "context": "| Departure | Doreah | Goes to find Viserys | Away from dwelling | Sent by Dany |\n| Arrival | Viserys | Enters Dany's dwelling dragging Doreah | Dany's earthen dwelling | Angry, violent |\n| Confrontat"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 168,
+          "context": "| Drogo does not share his wives with his bloodriders (unlike some khals) | Dany's internal knowledge | Dany | No |\n| Qotho bruises Doreah and makes Irri sob at night | Dany's observation | Dany | No "
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 184,
+          "context": "| Ser Jorah | Dany | \"He took from me all I loved, for the sake of a few lice-ridden poachers and his precious honor.\" | Bitter reference to his exile by Eddard Stark |\n| Viserys | Dany, Doreah | \"How"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 206,
+          "context": "| Daenerys | Mystical connection to | Dragon eggs | Feels stronger, braver near them; the child moves as if reaching toward the egg |\n| Daenerys | Commands | Irri, Jhiqui, Doreah | Sends them on erran"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 207,
+          "context": "| Daenerys | Commands | Irri, Jhiqui, Doreah | Sends them on errands; they address her as \"Khaleesi\" |\n| Viserys | Abuses | Doreah | Drags her by the arm; hits her (red eye); Dany recalls he was \"nice"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 216,
+          "context": "| Cohollo | Bound to | Khal Drogo | Bloodrider; saved young Drogo from sellswords; life bound to Drogo's since the day Drogo was born |\n| Qotho | Abuses | Doreah, Irri | Leaves bruises on Doreah; make"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 221,
+          "context": "| Jhiqui | Teacher to | Daenerys | Taught Dany about bloodrider customs and traditions |\n| Doreah | Teacher to | Daenerys | Taught Dany \"pillow tricks\" |\n| Daenerys | Protects | Doreah | Calms her wit"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 222,
+          "context": "| Doreah | Teacher to | Daenerys | Taught Dany \"pillow tricks\" |\n| Daenerys | Protects | Doreah | Calms her with a touch; tells her Viserys won't hurt her |"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 238,
+          "context": "### Characters\nDaenerys Targaryen, Khal Drogo, Viserys Targaryen, Ser Jorah Mormont, Cohollo, Haggo, Qotho, Irri, Jhiqui, Doreah, Aggo, Rakharo, Magister Illyrio Mopatis, Rhaegar Targaryen, Robert Bar"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 253,
+          "context": "### Cultures & Peoples\nDothraki, Lysene (Doreah), Free Cities peoples (traders at Western Market)"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 271,
+          "context": "### Other\nNight lands (Dothraki afterlife \u2014 where the dead ride), \"Blood of my blood\" (bloodrider oath/greeting), \"Waking the dragon\" (Viserys's threat phrase), Pillow tricks (sexual techniques Doreah"
+        }
+      ]
+    },
+    {
+      "page": "Duncan Targaryen",
+      "raw_html_path": "sources/wiki/_raw/Duncan_Targaryen.json",
+      "track_b_row": {
+        "page": "Duncan Targaryen",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 10,
+          "source": "cite_ref",
+          "pov": "Brienne II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Prince of Dragonstone",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "renounced"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "220",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "224\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "259\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Summerhall",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Aegon V Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Betha Blackwood",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Jenny of Oldstones",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [
+          "Duncan the Small",
+          "Prince of Dragonflies"
+        ],
+        "cite_refs": {
+          "asos": [
+            43,
+            45,
+            67,
+            81
+          ],
+          "adwd": [
+            59,
+            67
+          ],
+          "affc": [
+            10
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Duncan Targaryen",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 4,
+          "affc": 1,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 75308
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Edyth",
+      "raw_html_path": "sources/wiki/_raw/Edyth.json",
+      "track_b_row": {
+        "page": "Edyth",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Novice",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Septa",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Faith of the Seven",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westeros",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "36\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "59\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "60\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Dragonstone",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Edyth",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 13374
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Eladon Goldenhair",
+      "raw_html_path": "sources/wiki/_raw/Eladon_Goldenhair.json",
+      "track_b_row": {
+        "page": "Eladon Goldenhair",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 11,
+          "source": "cite_ref",
+          "pov": "Jon III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiances",
+            "target": "Unsullied",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "300\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Meereen",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            11
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Eladon Goldenhair",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 6059
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Elaena Targaryen",
+      "raw_html_path": "sources/wiki/_raw/Elaena_Targaryen.json",
+      "track_b_row": {
+        "page": "Elaena Targaryen",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 8,
+          "source": "cite_ref",
+          "pov": "Cersei II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Princess",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Parchments",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Master of coin",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "unofficially"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Plumm",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Penrose",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Manwoody",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "150\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "220\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Aegon III Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Daenaera Velaryon",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouses",
+            "target": "Ossifer Plumm",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Spouses",
+            "target": "Ronnel Penrose",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Spouses",
+            "target": "Michael Manwoody",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Lovers",
+            "target": "Alyn Velaryon",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Lovers",
+            "target": "Aegon IV Targaryen",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric",
+            "qualifier": "rumored"
+          },
+          {
+            "field": "Issue",
+            "target": "Jon Waters",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Jeyne Waters",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Viserys Plumm",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Robin Penrose",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Laena Penrose",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Jocelyn Penrose",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Joy Penrose",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Dragon princess"
+        ],
+        "cite_refs": {
+          "asos": [
+            57
+          ],
+          "affc": [
+            8,
+            12
+          ],
+          "adwd": [
+            57
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Elaena Targaryen",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 2,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 117814
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Elaena Targaryen (daughter of Gaemon)",
+      "raw_html_path": "sources/wiki/_raw/Elaena_Targaryen_(daughter_of_Gaemon).json",
+      "track_b_row": {
+        "page": "Elaena Targaryen (daughter of Gaemon)",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lady of Dragonstone",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "114",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "80\u00a0BC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Dragonstone",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Gaemon Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Daenys Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Aegon Targaryen",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Maegon Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Aerys Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Elaena Targaryen (daughter of Gaemon)",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 63035
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Elder Brother (Quiet Isle)",
+      "raw_html_path": "sources/wiki/_raw/Elder_Brother_(Quiet_Isle).json",
+      "track_b_row": {
+        "page": "Elder Brother (Quiet Isle)",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 31,
+          "source": "cite_ref",
+          "pov": "Jaime IV"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Elder Brother",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward",
+            "qualifier": "formerly"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Faith of the Seven",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Quiet Isle",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "255\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "age 44"
+          },
+          {
+            "field": "Born",
+            "target": "256\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "age 44"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            31,
+            37
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Elder Brother (Quiet Isle)",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 2,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 28089
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Elysar",
+      "raw_html_path": "sources/wiki/_raw/Elysar.json",
+      "track_b_row": {
+        "page": "Elysar",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Grand Maester",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "The Citadel",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "97\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Elysar",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 25593
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Eustace (Dance of the Dragons)",
+      "raw_html_path": "sources/wiki/_raw/Eustace_(Dance_of_the_Dragons).json",
+      "track_b_row": {
+        "page": "Eustace (Dance of the Dragons)",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Septon",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Most Devout",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Faith of the Seven",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Greens",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Stoney Sept",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Eustace (Dance of the Dragons)",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 32861
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Gael Targaryen",
+      "raw_html_path": "sources/wiki/_raw/Gael_Targaryen.json",
+      "track_b_row": {
+        "page": "Gael Targaryen",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Princess",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "80\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "99\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Blackwater Bay",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Jaehaerys I Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Alysanne Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Issue",
+            "target": "bastard",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "The Winter Child"
+        ],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Gael Targaryen",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 50731
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Gaemon Palehair",
+      "raw_html_path": "sources/wiki/_raw/Gaemon_Palehair.json",
+      "track_b_row": {
+        "page": "Gaemon Palehair",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "King",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "126\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "135\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "aged 9"
+          },
+          {
+            "field": "Died",
+            "target": "Red Keep",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Mother",
+            "target": "Essie",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [
+          "King Cunny",
+          "The Cunny King"
+        ],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Gaemon Palehair",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 46119
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Gaemon Targaryen (son of Aenar)",
+      "raw_html_path": "sources/wiki/_raw/Gaemon_Targaryen_(son_of_Aenar).json",
+      "track_b_row": {
+        "page": "Gaemon Targaryen (son of Aenar)",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lord of Dragonstone",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "114\u00a0BC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Valyria",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "101\u00a0BC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Dragonstone",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Aenar Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Daenys Targaryen",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Aegon Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Elaena Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Gaemon the Glorious"
+        ],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Gaemon Targaryen (son of Aenar)",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 70140
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Gaemon Targaryen (son of Jaehaerys I)",
+      "raw_html_path": "sources/wiki/_raw/Gaemon_Targaryen_(son_of_Jaehaerys_I).json",
+      "track_b_row": {
+        "page": "Gaemon Targaryen (son of Jaehaerys I)",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Prince",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "73\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "King's Landing",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "73\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "King's Landing",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Jaehaerys I Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Alysanne Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Gaemon Targaryen (son of Jaehaerys I)",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 48878
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Gawen",
+      "raw_html_path": "sources/wiki/_raw/Gawen.json",
+      "track_b_row": {
+        "page": "Gawen",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 12,
+          "source": "cite_ref",
+          "pov": "Jaime II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Grand Maester",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "The Citadel",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "42\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Dragonstone",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            12
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Gawen",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 31776
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Gerardys",
+      "raw_html_path": "sources/wiki/_raw/Gerardys.json",
+      "track_b_row": {
+        "page": "Gerardys",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 12,
+          "source": "cite_ref",
+          "pov": "Jaime II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Maester",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Dragonstone",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Grand Maester",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "for Rhaenyra Targaryen"
+          },
+          {
+            "field": "Titles",
+            "target": "Rhaenyra Targaryen",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "for Rhaenyra Targaryen"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Citadel",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Blacks",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westeros",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "130\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Dragonstone",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            12
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Gerardys",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 30945
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Goodwife (fool)",
+      "raw_html_path": "sources/wiki/_raw/Goodwife_(fool).json",
+      "track_b_row": {
+        "page": "Goodwife (fool)",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westeros",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Goodwife (fool)",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 6259
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Grey Worm",
+      "raw_html_path": "sources/wiki/_raw/Grey_Worm.json",
+      "track_b_row": {
+        "page": "Grey Worm",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 42,
+          "source": "cite_ref",
+          "pov": "Jon V"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Unsullied",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Unsullied",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Essos",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            42,
+            57
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Grey Worm",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 2,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 15720
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Groleo",
+      "raw_html_path": "sources/wiki/_raw/Groleo.json",
+      "track_b_row": {
+        "page": "Groleo",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 8,
+          "source": "cite_ref",
+          "pov": "Jon I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord Admiral",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Pentoshi",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Pentos",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "300\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Meereen",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            8,
+            71
+          ],
+          "acok": [
+            63
+          ],
+          "adwd": [
+            16,
+            67
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Groleo",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 2,
+          "affc": 0,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 20507
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Haldon",
+      "raw_html_path": "sources/wiki/_raw/Haldon.json",
+      "track_b_row": {
+        "page": "Haldon",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 8,
+          "source": "cite_ref",
+          "pov": "Jon II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Acolyte",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Westeros",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Haldon Halfmaester",
+          "The Halfmaester"
+        ],
+        "cite_refs": {
+          "adwd": [
+            8,
+            14,
+            18,
+            22,
+            61
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Haldon",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 5
+        },
+        "has_infobox": true,
+        "byte_size": 19660
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Hero",
+      "raw_html_path": "sources/wiki/_raw/Hero.json",
+      "track_b_row": {
+        "page": "Hero",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 50,
+          "source": "cite_ref",
+          "pov": "Jon X"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Unsullied",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Unsullied",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Essos",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Essos",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            50,
+            59,
+            67
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Hero",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 3
+        },
+        "has_infobox": true,
+        "byte_size": 8269
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-catelyn-06",
+          "line": 103,
+          "context": "|----------|--------------------|--------------------|-----------------| ------|-----------|------------------------------|------------------------|\n| The Bloody Gate | Long parapets built into the st"
+        },
+        {
+          "chapter": "agot-catelyn-06",
+          "line": 302,
+          "context": "### Wars & Conflicts\nThe coming conflict between Stark and Lannister (discussed); the Age of Heroes battles at the Bloody Gate (referenced)"
+        },
+        {
+          "chapter": "agot-bran-07",
+          "line": 185,
+          "context": "| Bran | Luwin | \"Ser Rodrik should teach me to use a poleaxe. If I had a poleaxe with a big long haft, Hodor could be my legs. We could be a knight together.\" | Proposing how he might still fight |\n|"
+        },
+        {
+          "chapter": "agot-bran-07",
+          "line": 361,
+          "context": "- The Dawn Age\n- The Age of Heroes\n- The Long Night"
+        },
+        {
+          "chapter": "agot-eddard-06",
+          "line": 64,
+          "context": "| Grand Maester Malleon | Author of the lineage book | Narration |\n| Lann the Clever | Legendary ancestor of House Lannister; trickster from Age of Heroes who winkled Casterlys out of Casterly Rock | "
+        }
+      ]
+    },
+    {
+      "page": "Hunnimore",
+      "raw_html_path": "sources/wiki/_raw/Hunnimore.json",
+      "track_b_row": {
+        "page": "Hunnimore",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Maester",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Dragonstone",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Citadel",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Hunnimore",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 8051
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Illyrio Mopatis",
+      "raw_html_path": "sources/wiki/_raw/Illyrio_Mopatis.json",
+      "track_b_row": {
+        "page": "Illyrio Mopatis",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 1,
+          "source": "cite_ref",
+          "pov": "Prologue"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Magister",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Pentoshi",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Pentos",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouses",
+            "target": "Cousin to the Prince of Pentos",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Spouses",
+            "target": "Serra",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [
+          "The cheesemonger",
+          "The lord of cheese",
+          "The fat man"
+        ],
+        "cite_refs": {
+          "adwd": [
+            1,
+            2,
+            5,
+            8,
+            18,
+            22,
+            24
+          ],
+          "agot": [
+            3,
+            11,
+            12,
+            23,
+            32,
+            36,
+            46,
+            54,
+            72
+          ],
+          "affc": [
+            27
+          ],
+          "acok": [
+            40,
+            63
+          ],
+          "asos": [
+            8,
+            10,
+            23
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Illyrio Mopatis",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 9,
+          "acok": 2,
+          "asos": 3,
+          "affc": 1,
+          "adwd": 7
+        },
+        "has_infobox": true,
+        "byte_size": 77751
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-daenerys-01",
+          "line": 29,
+          "context": "| Viserys Targaryen | Primary interlocutor, antagonist | Yes | Daenerys's brother, styles himself king, orchestrating the marriage alliance |\n| Illyrio Mopatis | Host, facilitator | Yes | Magister of "
+        },
+        {
+          "chapter": "agot-daenerys-01",
+          "line": 44,
+          "context": "| Viserys Targaryen | Silver-blond, same as Daenerys's, pulled back tightly and fastened with a dragonbone brooch | Pale lilac | Gaunt | | | Borrowed sword (lent by Illyrio) | Nervous hands, feverish "
+        },
+        {
+          "chapter": "agot-daenerys-01",
+          "line": 142,
+          "context": "|-------|------|------|----------|---------|\n| Illyrio hosting the Targaryens | shelter_offered | Illyrio Mopatis | Daenerys, Viserys | Nearly half a year of food, shelter, servants, and gifts; Dany n"
+        },
+        {
+          "chapter": "agot-daenerys-01",
+          "line": 269,
+          "context": "- Viserys Targaryen (Viserys III, \"the beggar king\")\n- Illyrio Mopatis (Magister of the Free City of Pentos)\n- Khal Drogo"
+        },
+        {
+          "chapter": "agot-arya-04",
+          "line": 59,
+          "context": "| The queen (Cersei) | Stableboy says the queen will reward him for capturing Arya | Stableboy |\n| The man with the yellow beard (Illyrio Mopatis, inferred) | Arya recalls him saying \"If one Hand can "
+        },
+        {
+          "chapter": "agot-daenerys-05",
+          "line": 56,
+          "context": "| Rhaegar Targaryen | Dany names her son after him; tells Drogo he was a fierce warrior who died before she was born; Ser Jorah called him \"the last of the dragons\" | Daenerys, Ser Jorah |\n| Magister "
+        },
+        {
+          "chapter": "agot-daenerys-05",
+          "line": 233,
+          "context": "### Characters\nDaenerys Targaryen, Khal Drogo, Viserys Targaryen, Ser Jorah Mormont, Irri, Jhiqui, Doreah, Qotho, Haggo, Cohollo, Khal Jommo, Khal Ogo, Fogo (khalakka), the one-eyed crone (leader of d"
+        },
+        {
+          "chapter": "agot-daenerys-02",
+          "line": 30,
+          "context": "| Viserys Targaryen | Brother of the bride | No | Impatient for his crown, seated below Dany at the feast |\n| Illyrio Mopatis | Host, facilitator of the marriage | No | Translates, provides gifts, arr"
+        },
+        {
+          "chapter": "agot-daenerys-02",
+          "line": 45,
+          "context": "| Khal Drogo | Long, black, thick hair \u2014 oiled and gleaming; long heavy braid with tiny silver bells | | Towers over everyone; hulking giant | | | | Face as still and cruel as a bronze mask; callused "
+        },
+        {
+          "chapter": "agot-daenerys-02",
+          "line": 217,
+          "context": "- Viserys Targaryen\n- Illyrio Mopatis (Magister Illyrio)\n- Ser Jorah Mormont"
+        },
+        {
+          "chapter": "agot-daenerys-06",
+          "line": 58,
+          "context": "| Rhaego | Dany's unborn son; named as \"the stallion who mounts the world\"; Drogo pledges the Iron Throne to him | Dany, Drogo |\n| Illyrio Mopatis | Sent a letter warning of Robert's assassination bou"
+        },
+        {
+          "chapter": "agot-daenerys-06",
+          "line": 213,
+          "context": "| Robert Baratheon | Hostile / threatens | Daenerys | Placed an assassination bounty on her |\n| Illyrio Mopatis | Informant / ally | Daenerys (via Ser Jorah) | Sent warning letter about the bounty |\n|"
+        },
+        {
+          "chapter": "agot-daenerys-06",
+          "line": 247,
+          "context": "- Robert Baratheon (the Usurper, referenced)\n- Illyrio Mopatis (Magister Illyrio, referenced)\n- Bharbo (Drogo's father, referenced)"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 49,
+          "context": "|-----------|---------------------|---------------|\n| Magister Illyrio Mopatis | Had urged Viserys to wait in Pentos; offered hospitality of his manse; gave Dany the dragon eggs as wedding gift; told "
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 209,
+          "context": "| Khal Drogo | Commanded by / assigned | Irri | Commanded Irri to teach Dany to ride Dothraki-style |\n| Illyrio Mopatis | Gave gifts to | Daenerys | Dragon eggs, copper tub (bride gifts) |\n| Illyrio M"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 210,
+          "context": "| Illyrio Mopatis | Gave gifts to | Daenerys | Dragon eggs, copper tub (bride gifts) |\n| Illyrio Mopatis | Offered hospitality to | Viserys | Urged him to stay in Pentos; Viserys refused |\n| Irri and "
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 236,
+          "context": "- Quaro\n- Magister Illyrio Mopatis\n- Rhaegar Targaryen"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 51,
+          "context": "|-----------|---------------------|---------------|\n| Magister Illyrio Mopatis | Had tried to warn Viserys about Dothraki ways; had let Viserys bed Doreah in Pentos; his slave girl had spoken of a pal"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 238,
+          "context": "### Characters\nDaenerys Targaryen, Khal Drogo, Viserys Targaryen, Ser Jorah Mormont, Cohollo, Haggo, Qotho, Irri, Jhiqui, Doreah, Aggo, Rakharo, Magister Illyrio Mopatis, Rhaegar Targaryen, Robert Bar"
+        },
+        {
+          "chapter": "agot-eddard-02",
+          "line": 68,
+          "context": "| Baelor the Blessed | Robert references him as a figure no woman would want in her bed | Robert |\n| Illyrio Mopatis (unnamed) | Referenced as \"some pox-ridden Pentoshi cheesemonger\" who sheltered the"
+        },
+        {
+          "chapter": "agot-eddard-02",
+          "line": 239,
+          "context": "### Characters\nEddard Stark, Robert Baratheon, Alyn, Ser Boros Blount, Ser Meryn Trant, Cersei Lannister, Wylla, Becca, Varys, Aerys Targaryen, Daenerys Targaryen, Khal Drogo, Viserys Targaryen, Jorah"
+        }
+      ]
+    },
+    {
+      "page": "Irri",
+      "raw_html_path": "sources/wiki/_raw/Irri.json",
+      "track_b_row": {
+        "page": "Irri",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 2,
+          "source": "cite_ref",
+          "pov": "Tyrion I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiances",
+            "target": "Drogo",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Dothraki",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "283\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "284\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Dothraki Sea",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Lover",
+            "target": "Daenerys Targaryen",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            11,
+            23,
+            68
+          ],
+          "adwd": [
+            2,
+            16,
+            36,
+            52,
+            55
+          ],
+          "acok": [
+            12
+          ],
+          "asos": [
+            8,
+            23,
+            27
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Irri",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 3,
+          "acok": 1,
+          "asos": 3,
+          "affc": 0,
+          "adwd": 5
+        },
+        "has_infobox": true,
+        "byte_size": 29292
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-eddard-03",
+          "line": 182,
+          "context": "| Renly Baratheon | Mocks | Joffrey Baratheon | Laughs at Joffrey's humiliation; openly mocks him on the way out |\n| Robert Baratheon | Irritation with brother | Renly Baratheon | Orders Barristan to "
+        },
+        {
+          "chapter": "agot-daenerys-05",
+          "line": 31,
+          "context": "| Ser Jorah Mormont | Advises Dany, tries to restrain Viserys | No | Seated in place of respect in the hall |\n| Irri | Handmaid; helps Dany prepare, fits slippers | No | |\n| Jhiqui | Handmaid; taught "
+        },
+        {
+          "chapter": "agot-daenerys-05",
+          "line": 80,
+          "context": "| The godsway | | Broad grassy road running through heart of Vaes Dothrak, from horse gate to Mother of Mountains | | | Lined with stolen hero statues and gods of dead peoples brooding in darkness bey"
+        },
+        {
+          "chapter": "agot-daenerys-05",
+          "line": 98,
+          "context": "| Stallion heart ceremony | Raw wild stallion heart \u2014 all muscle, tough, stringy flesh; warm blood | | Daenerys (ritual consumption) | The chalk-walled pit | Raw and bloody; steaming in cool air; no s"
+        },
+        {
+          "chapter": "agot-daenerys-05",
+          "line": 212,
+          "context": "| Jhiqui | taught Dothraki phrases to | Daenerys | Dany practiced \"Khalakka dothrae mr'anha\" with Jhiqui |\n| Irri | serves/assists | Daenerys | Helped prepare for ceremony; chew dried horseflesh; fits"
+        },
+        {
+          "chapter": "agot-daenerys-05",
+          "line": 233,
+          "context": "### Characters\nDaenerys Targaryen, Khal Drogo, Viserys Targaryen, Ser Jorah Mormont, Irri, Jhiqui, Doreah, Qotho, Haggo, Cohollo, Khal Jommo, Khal Ogo, Fogo (khalakka), the one-eyed crone (leader of d"
+        },
+        {
+          "chapter": "agot-daenerys-02",
+          "line": 32,
+          "context": "| Ser Jorah Mormont | Exiled knight, companion | No | Offered his sword to Viserys; has traveled to Vaes Dothrak |\n| Irri | Handmaid gifted to Dany | Yes | Copper-skinned Dothraki, to teach riding |\n|"
+        },
+        {
+          "chapter": "agot-daenerys-02",
+          "line": 46,
+          "context": "| Illyrio Mopatis | Yellow beard (forked) | | Fat | | | | Rings glittering on fat fingers; fat fingers dripping with honey and grease | |\n| Irri | Black hair | Almond-shaped eyes | | | | | Copper-skin"
+        },
+        {
+          "chapter": "agot-daenerys-02",
+          "line": 112,
+          "context": "8. **Bride gifts presented at sunset** \u2014 Drogo claps his hands and the feast halts. Gift-giving begins.\n9. **Viserys gives three handmaids** \u2014 Irri (riding), Jhiqui (Dothraki language), and Doreah (ar"
+        },
+        {
+          "chapter": "agot-daenerys-02",
+          "line": 164,
+          "context": "| Dany | (internal) | \"I am blood of the dragon \u2026 I am Daenerys Stormborn, Princess of Dragonstone, of the blood and seed of Aegon the Conqueror.\" | Self-encouragement during the wedding feast |\n| Vis"
+        },
+        {
+          "chapter": "agot-daenerys-02",
+          "line": 193,
+          "context": "| Drogo | Commands | Haggo, Cohollo, Qotho | They are his bloodriders; they offer traditional weapons |\n| Dany | Mistress to | Irri, Jhiqui, Doreah | Three handmaids gifted to her; each assigned speci"
+        },
+        {
+          "chapter": "agot-daenerys-02",
+          "line": 219,
+          "context": "- Ser Jorah Mormont\n- Irri\n- Jhiqui"
+        },
+        {
+          "chapter": "agot-daenerys-06",
+          "line": 31,
+          "context": "| Doreah | Handmaid | No | Combs Dany's hair; catches Dany when she falls to protect her belly |\n| Irri | Handmaid | No | Helps Dany from the litter; comments on Dany's laughter |\n| Jhiqui | Handmaid "
+        },
+        {
+          "chapter": "agot-daenerys-06",
+          "line": 56,
+          "context": "|-----------|---------------------|---------------|\n| Viserys Targaryen | Dany recalls his promises to take her home; Irri references his death (\"crowned by Drogo\"); Illyrio's letter was addressed to "
+        },
+        {
+          "chapter": "agot-daenerys-06",
+          "line": 187,
+          "context": "| Ser Jorah | Dany | \"Do not make your brother's mistake. We will go home, I promise you.\" | Counseling patience |\n| Irri | Dany | \"You have not laughed since your brother the Khal Rhaggat was crowned"
+        },
+        {
+          "chapter": "agot-daenerys-06",
+          "line": 207,
+          "context": "| Doreah | Devoted handmaid / protector | Daenerys | Catches Dany to prevent her from landing on her belly during the fall |\n| Irri | Handmaid, affectionate | Daenerys | Notes with warmth that Dany ha"
+        },
+        {
+          "chapter": "agot-daenerys-06",
+          "line": 236,
+          "context": "- Doreah\n- Irri\n- Jhiqui"
+        },
+        {
+          "chapter": "agot-daenerys-08",
+          "line": 34,
+          "context": "| Cohollo | Bloodrider | No | Spits on Dany, holds knife to her throat, killed by Aggo's arrow |\n| Irri | Handmaid | No | Helps tend Drogo, suggests taking Dany to the maegi |\n| Doreah | Handmaid | No"
+        },
+        {
+          "chapter": "agot-daenerys-08",
+          "line": 109,
+          "context": "3. **Dany orders camp made** \u2014 She commands the bloodriders to make camp, telling Haggo to claim Drogo ordered the halt and to say her time is near if asked. She sends Qotho to fetch Mirri Maz Duur de"
+        },
+        {
+          "chapter": "agot-daenerys-08",
+          "line": 145,
+          "context": "| Arrival | Cohollo | Vaults from horse, kneels beside Drogo | Drogo on ground | Haggo and Qotho remain mounted |\n| Assembly | Slaves, Irri, Doreah | Erect tent beneath black rock outcrop | Jagged out"
+        },
+        {
+          "chapter": "agot-daenerys-08",
+          "line": 216,
+          "context": "| Aggo (possibly) | Others | \"Take her to the maegi.\" | Suggesting Mirri deliver Dany's baby |\n| Irri | Others | \"The Lamb Woman knows the secrets of the birthing bed. She said so, I heard her.\" | Sup"
+        },
+        {
+          "chapter": "agot-daenerys-08",
+          "line": 269,
+          "context": "### Characters\nDaenerys Targaryen, Khal Drogo, Ser Jorah Mormont, Mirri Maz Duur, Qotho, Haggo, Cohollo, Irri, Doreah, Jhiqui, Eroeh, Jhogo, Aggo, Rakharo, Quaro, Rhaego (unborn), Viserys Targaryen (r"
+        },
+        {
+          "chapter": "agot-daenerys-09",
+          "line": 12,
+          "context": "- **approximate_timeline:** Shortly after the blood magic ritual performed by Mirri Maz Duur; Daenerys has been unconscious for an extended, indeterminate period\n- **time_markers:** Indeterminate time"
+        },
+        {
+          "chapter": "agot-daenerys-09",
+          "line": 29,
+          "context": "| Jhiqui | Handmaid | No | First to attend Dany on waking; tells her Rhaego did not live |\n| Irri | Handmaid | No | Dampens Dany's brow; says \"the khal lives\" with darkness in her eyes |\n| Doreah | Ha"
+        },
+        {
+          "chapter": "agot-daenerys-09",
+          "line": 113,
+          "context": "2. **First waking** \u2014 Dany wakes to \"the taste of ashes\"; Jhiqui attends her; she is disoriented, body feels torn apart and remade; she crawls toward the dragon eggs; Ser Jorah carries her back to bed"
+        },
+        {
+          "chapter": "agot-daenerys-09",
+          "line": 198,
+          "context": "| Jhiqui | serves | Daenerys | Attends her, brings water, delivers news of Rhaego's death |\n| Irri | serves | Daenerys | Dampens her brow, shows sadness; explains Jhaqo has 20,000 riders |\n| Doreah | "
+        },
+        {
+          "chapter": "agot-daenerys-09",
+          "line": 230,
+          "context": "### Characters\nDaenerys Targaryen, Khal Drogo, Ser Jorah Mormont, Mirri Maz Duur, Jhiqui, Irri, Doreah, Jhogo, Aggo, Rakharo, Rhaego (dead), Viserys Targaryen (dream), Rhaegar Targaryen (dream), Ko Po"
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 34,
+          "context": "| Khal Drogo | Deceased; body placed on pyre | No | Dead throughout; his body is washed, braided, dressed, and burned |\n| Irri | Handmaid | No | Helps Dany bathe; fans her dry |\n| Jhiqui | Handmaid | "
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 124,
+          "context": "13. **Dany names Ser Jorah first of her Queensguard** \u2014 Promises him a Valyrian steel longsword, dragon-forged; he kneels and vows to serve, obey, and die for her; she kisses him and names him first o"
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 229,
+          "context": "| Daenerys | Mother of | Drogon, Rhaegal, Viserion | Dragons hatch on her pyre; she calls them \"my children\"; they suckle at her breasts |\n| Irri | Serves | Daenerys | Helps her bathe, scrubs her back"
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 248,
+          "context": "### Characters\nDaenerys Targaryen, Ser Jorah Mormont, Khal Drogo (dead), Mirri Maz Duur, Jhogo, Aggo, Rakharo, Irri, Jhiqui, Doreah, Viserys Targaryen (referenced), Aegon (referenced, implied Aegon th"
+        },
+        {
+          "chapter": "agot-daenerys-07",
+          "line": 39,
+          "context": "| Mago | Rider in Ko Jhaqo's khas; complains Dany took his rape victim | Yes | |\n| Irri | Dany's handmaid; echoes Dothraki customs | No | |\n| Doreah | Dany's handmaid; tasked with caring for first res"
+        },
+        {
+          "chapter": "agot-daenerys-07",
+          "line": 213,
+          "context": "| Dany | claims as slaves | Lhazareen women | Repeatedly claims rape victims throughout the town |\n| Irri | echoes Dothraki customs | Dany | \"It is known\" \u2014 reflects internalized Dothraki worldview |\n"
+        },
+        {
+          "chapter": "agot-daenerys-07",
+          "line": 229,
+          "context": "### Characters\nDaenerys Targaryen, Khal Drogo, Ser Jorah Mormont, Mirri Maz Duur, Jhogo, Quaro, Aggo, Rakharo, Qotho, Haggo, Cohollo, Mago, Irri, Doreah, Jhiqui, Khal Ogo, Fogo, Viserys, Rhaegar, Ko J"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 31,
+          "context": "| Khal Drogo | Dany's husband | No | Present in recalled scenes (nightly visits, ignoring Dany during the day); present in the final intimate scene where Dany takes initiative |\n| Irri | Handmaid | No"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 121,
+          "context": "16. **The dragon eggs glow** \u2014 In her tent, red light touches the dragon eggs and Dany sees \"a thousand droplets of scarlet flame.\" She touches the black egg \u2014 it is warm, almost hot. She attributes i"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 122,
+          "context": "17. **Bath scene** \u2014 Dany bathes in a copper tub (a bride gift). She asks her handmaids about dragons. Irri and Jhiqui say dragons are gone. Doreah tells the Qartheen story of the moon-egg and dragons"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 131,
+          "context": "| Opening | Dany, Ser Jorah | On top of a ridge overlooking the Dothraki sea | Rest of party climbing ridge below | Dany and Jorah have outdistanced the others |\n| Opening | Irri, khas archers, Visery"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 136,
+          "context": "| Confrontation | Dany | Shoves Viserys away | Standing on the plain | First time she has defied him |\n| Ambush | Jhogo | Cracks whip around Viserys's throat from horseback | Behind/around Viserys | T"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 151,
+          "context": "| Red light touching the dragon eggs produces a momentary vision of \"a thousand droplets of scarlet flame\" | Dany sees it as she enters her tent | Dany | Yes |\n| Irri was commanded by Drogo to teach D"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 158,
+          "context": "| In Dany's imagination, the doors of her envisioned home are all red | Internal narration | Dany | Yes |\n| Doreah's dragon origin story: the moon cracked from the sun's heat, releasing a thousand tho"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 162,
+          "context": "| Doreah is from Lys, found by Illyrio in a pleasure house; she is almost twenty | Internal narration | Dany | No |\n| Irri and Jhiqui are Dothraki girls taken as slaves when Drogo destroyed their fath"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 181,
+          "context": "| Dany | Ser Jorah | \"My brother will never take back the Seven Kingdoms.\" | Saying it aloud for the first time |\n| Doreah | Dany, Irri, Jhiqui | \"He told me the moon was an egg, Khaleesi. Once there "
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 182,
+          "context": "| Doreah | Dany, Irri, Jhiqui | \"He told me the moon was an egg, Khaleesi. Once there were two moons in the sky, but one wandered too close to the sun and cracked from the heat. A thousand thousand dr"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 204,
+          "context": "| Quaro | Loyal to | Daenerys | Suggests taking Viserys's ear as punishment |\n| Irri | Serves | Daenerys | Translates; teaches riding; attends to bathing and grooming |\n| Jhiqui | Serves | Daenerys | "
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 208,
+          "context": "| Khal Drogo | Ignored and used | Daenerys (early) | Ignored her during the day; took her roughly each night before dawn |\n| Khal Drogo | Commanded by / assigned | Irri | Commanded Irri to teach Dany "
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 211,
+          "context": "| Illyrio Mopatis | Offered hospitality to | Viserys | Urged him to stay in Pentos; Viserys refused |\n| Irri and Jhiqui | Enslaved by (in past) | Khal Drogo | Taken as slaves when Drogo destroyed thei"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 231,
+          "context": "- Khal Drogo\n- Irri\n- Jhiqui"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 32,
+          "context": "| Cohollo | Drogo's bloodrider, messenger | No | Oldest of Drogo's three bloodriders; delivers Drogo's message to Dany |\n| Irri | Handmaid to Dany | No | Sent to bazaar for food; fetches dragon egg |\n"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 38,
+          "context": "| Haggo | Drogo's bloodrider | No | Described as huge and silent, often glowering |\n| Qotho | Drogo's bloodrider | No | Described as having cruel eyes and quick hands; bruises Doreah and makes Irri so"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 97,
+          "context": "|--------------|---------------------|-------|----------------------|-------|-------------------------------|\n| Supper prepared for Dany and Viserys | Haunch of goat roasted with sweetgrass and firepo"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 98,
+          "context": "| Supper prepared for Dany and Viserys | Haunch of goat roasted with sweetgrass and firepods, basted with honey; melons; pomegranates; plums; \"some queer eastern fruit Dany did not know\"; basket of fr"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 119,
+          "context": "11. **Cohollo delivers Drogo's message** \u2014 Cohollo informs Dany that Drogo must ascend the Mother of Mountains that night to sacrifice to the gods for his safe return. Only men are allowed on the moun"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 148,
+          "context": "| Assembly | Doreah | Leads Dany to earthen dwelling | Camp | |\n| Departure | Irri | Goes to bazaar | Away from dwelling | Buys food |\n| Departure | Doreah | Goes to find Viserys | Away from dwelling "
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 168,
+          "context": "| Drogo does not share his wives with his bloodriders (unlike some khals) | Dany's internal knowledge | Dany | No |\n| Qotho bruises Doreah and makes Irri sob at night | Dany's observation | Dany | No "
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 189,
+          "context": "| Dany | Viserys | \"You are the one who forgets himself \u2026 Leave me now, before I summon my khas to drag you out. And pray that Khal Drogo does not hear of this, or he will cut open your belly and feed"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 206,
+          "context": "| Daenerys | Mystical connection to | Dragon eggs | Feels stronger, braver near them; the child moves as if reaching toward the egg |\n| Daenerys | Commands | Irri, Jhiqui, Doreah | Sends them on erran"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 216,
+          "context": "| Cohollo | Bound to | Khal Drogo | Bloodrider; saved young Drogo from sellswords; life bound to Drogo's since the day Drogo was born |\n| Qotho | Abuses | Doreah, Irri | Leaves bruises on Doreah; make"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 238,
+          "context": "### Characters\nDaenerys Targaryen, Khal Drogo, Viserys Targaryen, Ser Jorah Mormont, Cohollo, Haggo, Qotho, Irri, Jhiqui, Doreah, Aggo, Rakharo, Magister Illyrio Mopatis, Rhaegar Targaryen, Robert Bar"
+        }
+      ]
+    },
+    {
+      "page": "Jaehaera Targaryen",
+      "raw_html_path": "sources/wiki/_raw/Jaehaera_Targaryen.json",
+      "track_b_row": {
+        "page": "Jaehaera Targaryen",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Princess",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Greens",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "123\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "133\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "King's Landing",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Aegon II Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Helaena Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Aegon III Targaryen",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Jaehaera Targaryen",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 125215
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

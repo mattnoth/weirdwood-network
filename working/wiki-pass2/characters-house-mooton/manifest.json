@@ -1,0 +1,63 @@
+{
+  "bucket_id": "characters-house-mooton",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "7946c1c51ec2ab0d16d839627954fe26fa9d8b1313209d95caa290e3caeb987f",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Eleanor Mooton",
+    "Florian Greysteel",
+    "Jeyne Mooton",
+    "Jirelle Mooton",
+    "Jon Mooton",
+    "Jonah Mooton",
+    "Myles Mooton",
+    "Norren (House Mooton)",
+    "William Mooton"
+  ],
+  "expected_nodes": [
+    "eleanor-mooton.node.md",
+    "florian-greysteel.node.md",
+    "jeyne-mooton.node.md",
+    "jirelle-mooton.node.md",
+    "jon-mooton.node.md",
+    "jonah-mooton.node.md",
+    "myles-mooton.node.md",
+    "norren-house-mooton.node.md",
+    "william-mooton.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "William Mooton"
+    ],
+    "tier_b": [
+      "Eleanor Mooton",
+      "Florian Greysteel",
+      "Jeyne Mooton",
+      "Jirelle Mooton",
+      "Jon Mooton",
+      "Jonah Mooton",
+      "Myles Mooton",
+      "Norren (House Mooton)"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 9,
+      "tier_a": 1,
+      "tier_b": 8,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.878367+00:00",
+  "stage3_promoted_count": 9,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

@@ -1,0 +1,50 @@
+{
+  "bucket_id": "characters-house-redbeard",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "0a66fbfd37f7c9b188b32054b1e7cc8fe9f5ba7edea3da0b5ae864113d8e2a66",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Gerrick Kingsblood",
+    "Gerrick Kingsblood's eldest daughter",
+    "Gerrick Kingsblood's second daughter",
+    "Gerrick Kingsblood's son",
+    "Gerrick Kingsblood's youngest daughter"
+  ],
+  "expected_nodes": [
+    "gerrick-kingsblood.node.md",
+    "gerrick-kingsbloods-eldest-daughter.node.md",
+    "gerrick-kingsbloods-second-daughter.node.md",
+    "gerrick-kingsbloods-son.node.md",
+    "gerrick-kingsbloods-youngest-daughter.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Gerrick Kingsblood",
+      "Gerrick Kingsblood's eldest daughter",
+      "Gerrick Kingsblood's second daughter",
+      "Gerrick Kingsblood's son",
+      "Gerrick Kingsblood's youngest daughter"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 5,
+      "tier_a": 0,
+      "tier_b": 5,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.932455+00:00",
+  "stage3_promoted_count": 5,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

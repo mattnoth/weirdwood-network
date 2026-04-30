@@ -1,0 +1,3 @@
+## Origins
+
+After Lord Corlys was imprisoned under charges of treason for warning [Addam Velaryon](wiki:Addam_Velaryon) of his impending arrest, Ser Thoron and Ser [Denys Woodwright](wiki:Denys_Woodwright), another sworn sword to the Sea Snake, cut their way into the dungeons of the [Red Keep](wiki:Red_Keep) to liberate their lord. However, their plans had been betrayed to [Lady Misery](wiki:Mysaria) by a [whore](wiki:Whore) Ser Thoron had been bedding. Ser Thoron and Ser Denys were taken and hanged from the walls of the Red Keep, dying at dawn.(wiki:Thoron_True.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)

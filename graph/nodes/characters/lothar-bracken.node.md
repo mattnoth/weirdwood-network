@@ -1,0 +1,26 @@
+---
+name: "Lothar Bracken"
+type: character.human
+slug: lothar-bracken
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Lothar_Bracken"
+bucket_id: characters-house-bracken
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Lothar Bracken is a character.human from the AWOIAF wiki.
+
+## Edges
+
+- HOLDS_TITLE: Lord of the Stone Hedge (track_b: Title)
+- SWORN_TO: House Bracken (track_b: Allegiance)
+- CULTURE_OF: Rivermen (track_b: Culture)
+
+## Origins
+
+[Harwyn Hoare](wiki:Harwyn_Hoare), [King of the Iron Islands](wiki:King_of_the_Iron_Islands), invaded the northern [riverlands](wiki:Riverlands) when they were under the rule of the [Storm King](wiki:Storm_King) [Arrec Durrandon](wiki:Arrec_Durrandon). Lothar's neighbour, Lady [Agnes Blackwood](wiki:Agnes_Blackwood), led the rivermen in resisting Harwyn's [ironborn](wiki:Ironborn), but Lord Lothar attacked her army from behind. Some have theorized that Lothar hoped to become [King of the Trident](wiki:King_of_the_Trident) once Harwyn defeated Arrec. However, Harwyn claimed the riverlands for [House Hoare](wiki:House_Hoare). Six months later, Lothar rebelled against this new [King of the Isles and the Rivers](wiki:King_of_the_Isles_and_the_Rivers), but Harwyn crushed the rebellion, sacking and destroying [Stone Hedge](wiki:Stone_Hedge), and imprisoning Lothar in a [crow cage](wiki:Crow_cage). Lothar died of starvation most of a year later.(wiki:Lothar_Bracken.cite_ref-Rtwoiafthe_riverlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

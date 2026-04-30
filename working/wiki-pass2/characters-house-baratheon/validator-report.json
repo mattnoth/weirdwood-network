@@ -1,0 +1,8 @@
+{
+  "bucket_id": "characters-house-baratheon",
+  "passed": true,
+  "checked_at": "2026-04-27T03:15:15Z",
+  "node_count_expected": 29,
+  "node_count_actual": 29,
+  "failures": []
+}

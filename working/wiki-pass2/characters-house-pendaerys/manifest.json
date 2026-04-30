@@ -1,0 +1,41 @@
+{
+  "bucket_id": "characters-house-pendaerys",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "86c4ce960abdb628ba6359137628e7e2206e69bfd437443990a107c80a74d2b3",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Pereno Pendaerys",
+    "Silvario Pendaerys"
+  ],
+  "expected_nodes": [
+    "pereno-pendaerys.node.md",
+    "silvario-pendaerys.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Pereno Pendaerys",
+      "Silvario Pendaerys"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 2,
+      "tier_a": 0,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.917770+00:00",
+  "stage3_promoted_count": 2,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

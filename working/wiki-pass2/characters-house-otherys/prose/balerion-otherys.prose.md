@@ -1,0 +1,3 @@
+## Origins
+
+After Princess [Naerys Targaryen](wiki:Naerys_Targaryen) had almost died, giving birth in [161 AC](wiki:161_AC), her husband, Prince [Aegon](wiki:Aegon_IV_Targaryen) was sent to [Braavos](wiki:Braavos) as an envoy, so Naerys would have sufficient time to recover. In Braavos, Aegon met Bellegere Otherys, with whom he started an affair. Aegon and Bellegere had an affair for ten years, during which Bellegere gave birth to three children: [Bellenora](wiki:Bellenora_Otherys), [Narha](wiki:Narha_Otherys) and Balerion. Their paternity remains doubtful, as Bellegere is said to have had a husband in every port she visited.(wiki:Balerion_Otherys.cite_ref-Rtwoiaf411.7B.7B.7B4.7D.7D.7D_2-1)

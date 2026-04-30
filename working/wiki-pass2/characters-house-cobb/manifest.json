@@ -1,0 +1,41 @@
+{
+  "bucket_id": "characters-house-cobb",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "f6e3745abd641048fe24c5641ca5f3bd7389be6cfef84f80d555dcb4c554dcca",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Agramore Cobb",
+    "Harys Cobb"
+  ],
+  "expected_nodes": [
+    "agramore-cobb.node.md",
+    "harys-cobb.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Agramore Cobb",
+      "Harys Cobb"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 2,
+      "tier_a": 0,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.713756+00:00",
+  "stage3_promoted_count": 2,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

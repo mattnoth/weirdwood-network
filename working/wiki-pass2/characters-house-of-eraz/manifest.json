@@ -1,0 +1,41 @@
+{
+  "bucket_id": "characters-house-of-eraz",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "e5e37680a7f57bc3d2413eeaf0f74f3734a4e3440b7a6841666277cbbf40f29c",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Gorzhak zo Eraz",
+    "Grazdan mo Eraz"
+  ],
+  "expected_nodes": [
+    "gorzhak-zo-eraz.node.md",
+    "grazdan-mo-eraz.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Gorzhak zo Eraz",
+      "Grazdan mo Eraz"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 2,
+      "tier_a": 0,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.891269+00:00",
+  "stage3_promoted_count": 2,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

@@ -1,0 +1,22 @@
+---
+name: "Elwood Blackbar"
+type: character.human
+slug: elwood-blackbar
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Elwood_Blackbar"
+bucket_id: characters-house-blackbar
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Elwood Blackbar is a character.human from the AWOIAF wiki.
+
+## Edges
+
+- HOLDS_TITLE: Ser (track_b: Title)
+- SWORN_TO: House Blackbar (track_b: Allegiance)
+- CULTURE_OF: Reach (track_b: Culture)

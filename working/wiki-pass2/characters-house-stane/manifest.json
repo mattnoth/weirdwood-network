@@ -1,0 +1,38 @@
+{
+  "bucket_id": "characters-house-stane",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "741ca8da7083939da53baf9c6af112ebce937f7b5d7d27aa16b5199d31f635d6",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "First Ranger Stane"
+  ],
+  "expected_nodes": [
+    "first-ranger-stane.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "First Ranger Stane"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 1,
+      "tier_a": 0,
+      "tier_b": 1,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.974346+00:00",
+  "stage3_promoted_count": 1,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

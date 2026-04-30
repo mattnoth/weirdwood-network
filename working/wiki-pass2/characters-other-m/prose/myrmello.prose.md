@@ -1,0 +1,5 @@
+## Narrative Arc
+
+### A Feast for Crows
+
+Myrmello plays the priest at the weddings of the [Sailor's Wife](wiki:Sailor's_Wife) at the [Happy Port](wiki:Happy_Port) when Septon [Eustace](wiki:Eustace_(Braavos)) and the red priest [Ezzelyno](wiki:Ezzelyno) are not available. [Merry](wiki:Meralyn) claims that the mummers are much better priests than the priests, especially Myrmello.(wiki:Myrmello.cite_ref-Raffc34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

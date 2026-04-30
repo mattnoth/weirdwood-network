@@ -1,0 +1,54 @@
+{
+  "bucket_id": "characters-house-hornwood",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "60cdc9fb4645439046ae8c45cca840337faaa864ed26aed91feff2df5b9575d7",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Berena Hornwood",
+    "Daryn Hornwood",
+    "Hallis Hornwood",
+    "Halys Hornwood",
+    "Larence Snow",
+    "Medrick"
+  ],
+  "expected_nodes": [
+    "berena-hornwood.node.md",
+    "daryn-hornwood.node.md",
+    "hallis-hornwood.node.md",
+    "halys-hornwood.node.md",
+    "larence-snow.node.md",
+    "medrick.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Halys Hornwood"
+    ],
+    "tier_b": [
+      "Berena Hornwood",
+      "Daryn Hornwood",
+      "Hallis Hornwood",
+      "Larence Snow",
+      "Medrick"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 6,
+      "tier_a": 1,
+      "tier_b": 5,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.835211+00:00",
+  "stage3_promoted_count": 6,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

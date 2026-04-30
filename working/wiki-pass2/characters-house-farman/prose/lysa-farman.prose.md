@@ -1,0 +1,7 @@
+## Origins
+
+Lysa was the daughter of [Lord Farman](wiki:Lord_Farman_(father_of_Lysa)) of [Faircastle](wiki:Faircastle). During the [Dance of the Dragons](wiki:Dance_of_the_Dragons), Lord [Dalton Greyjoy](wiki:Dalton_Greyjoy) captured [Fair Isle](wiki:Fair_Isle) claimed Lysa and three of her sisters as [salt wives](wiki:Salt_wife) and gave another to his brother [Veron](wiki:Veron_Greyjoy).(wiki:Lysa_Farman.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+
+By [133 AC](wiki:133_AC) two of her sisters and her father had perished. One of Lord Dalton's other salt wives, [Tess](wiki:Tess), slit his throat, making Lysa a salt widow. The smallfolk of [Fair Isle](wiki:Fair_Isle) and the few knights that remained on the island rose in rebellion and killed the remaining ironmen. Though the garrison at [Faircastle](wiki:Faircastle) was maintained by [Alester Wynch](wiki:Alester_Wynch) and [Gunthor Goodbrother](wiki:Gunthor_Goodbrother), the latter slew the former in a quarrel over Lysa.(wiki:Lysa_Farman.cite_ref-Rfabunder_the_regents_-_the_voyage_of_alyn_oakenfist.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+Lysa's fate after [Johanna Lannister](wiki:Johanna_Lannister)'s liberation of Fair Isle and invasion of the [Iron Islands](wiki:Iron_Islands) is unknown.(wiki:Lysa_Farman.cite_ref-Rfabunder_the_regents_-_the_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

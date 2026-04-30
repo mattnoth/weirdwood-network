@@ -1,0 +1,38 @@
+{
+  "bucket_id": "characters-house-blanetree",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "8cbfd688a4c6a0555f245983fecbdd4832cd43bf24f7cf7ac5fbb2ac3227bee1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Zhoe Blanetree"
+  ],
+  "expected_nodes": [
+    "zhoe-blanetree.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Zhoe Blanetree"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 1,
+      "tier_a": 0,
+      "tier_b": 1,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.667426+00:00",
+  "stage3_promoted_count": 1,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

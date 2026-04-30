@@ -1,0 +1,155 @@
+---
+name: "Eyrie"
+type: place.location
+slug: eyrie
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Eyrie"
+bucket_id: locations-other-b-g
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Eyrie is a place.location from the AWOIAF wiki.
+
+## Edges
+
+- RULES: Jon Arryn (track_b: Ruler) [AGoT]
+- RULES: Robert Arryn (track_b: Ruler) [ADwD]
+- WORSHIPS: Faith of the Seven (track_b: Religion)
+
+## Origins
+
+### Kings of Mountain and Vale
+
+Legends claim that the [Winged Knight](wiki:Winged_Knight) drove the [First Men](wiki:First_Men) from the Vale and flew to the top of the [Giant's Lance](wiki:Giant's_Lance) on a huge [falcon](wiki:Falcon) to slay the [Griffin King](wiki:Griffin_King).(wiki:Eyrie.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-5)(wiki:Eyrie.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-6) Records indicate that [Artys I Arryn](wiki:Artys_I_Arryn), the first [King of Mountain and Vale](wiki:King_of_Mountain_and_Vale), constructed the [Gates of the Moon](wiki:Gates_of_the_Moon) at the foot of the Giant's Lance, where he had defeated King [Robar II Royce](wiki:Robar_II_Royce)'s army of First Men in the [Battle of the Seven Stars](wiki:Battle_of_the_Seven_Stars).(wiki:Eyrie.cite_ref-Rtwoiafthe_vale.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)
+
+Artys's grandson, [Roland I Arryn](wiki:Roland_I_Arryn), believed that the Gates of the Moon was both inferior to [Casterly Rock](wiki:Casterly_Rock) and the [Hightower](wiki:Hightower) and strategically vulnerable to raids from the [Vale mountain clans](wiki:Vale_mountain_clans). Allegedly inspired by his wife [Teora Hunter](wiki:Teora_Hunter), Roland decided to build a new royal palace high in the mountain above the Gates of the Moon.(wiki:Eyrie.cite_ref-Rtwoiafthe_vale:_the_eyrie.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+
+Construction of the Eyrie took place intermittently over generations, and [marble](wiki:Marble) was imported from [Tarth](wiki:Tarth) in the [narrow sea](wiki:Narrow_sea), as Roland disliked the appearance of stone available in the Vale. The first [maester](wiki:Maester) to serve at the Eyrie was [Quince](wiki:Quince).(wiki:Eyrie.cite_ref-Rtwoiafthe_vale:_the_eyrie.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+
+The Eyrie was inhabited as a pleasure palace(wiki:Eyrie.cite_ref-Rawoiafthe_eyrie.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0) for the Kings of Mountain and Vale during [spring](wiki:Spring), [summer](wiki:Summer_(season)), and [autumn](wiki:Autumn). The Arryns descend to the larger Gates of the Moon for [winter](wiki:Winter)(wiki:Eyrie.cite_ref-Rtwoiafthe_vale:_the_eyrie.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4) and host a feast when they return to the Eyrie in the spring.(wiki:Eyrie.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-7)
+
+### The Conquest
+
+During [Aegon's Conquest](wiki:Aegon's_Conquest), Queen Regent [Sharra Arryn](wiki:Sharra_Arryn) fortified the [Bloody Gate](wiki:Bloody_Gate) and had her son, the boy king [Ronnel Arryn](wiki:Ronnel_Arryn_(king)), take refuge in the Eyrie. The fleet of [House Arryn](wiki:House_Arryn) defeated that of [House Targaryen](wiki:House_Targaryen) in a [battle in the waters off Gulltown](wiki:Battle_in_the_waters_off_Gulltown).(wiki:Eyrie.cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0)
+
+After the [Field of Fire](wiki:Field_of_Fire) and the submission of the [north](wiki:North), Queen [Visenya Targaryen](wiki:Visenya_Targaryen), bypassed the Eyrie's lower defenses by flying upon her [dragon](wiki:Dragon), [Vhagar](wiki:Vhagar), to the castle's inner courtyard. Realizing that the Eyrie's isolated location could not protect against dragons, Sharra submitted to Visenya.(wiki:Eyrie.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0) Visenya flew Ronnel thrice around the [Giant's Lance](wiki:Giant's_Lance), and the boy became [Warden of the East](wiki:Warden_of_the_East) for King [Aegon I Targaryen](wiki:Aegon_I_Targaryen), the new [Lord of the Seven Kingdoms](wiki:Lord_of_the_Seven_Kingdoms).(wiki:Eyrie.cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-1)
+
+### Early Targaryens
+
+King [Aegon I Targaryen](wiki:Aegon_I_Targaryen) visited the Eyrie during his [royal progresses](wiki:Royal_progress).(wiki:Eyrie.cite_ref-Rfabthree_heads_had_the_dragon_-_governance_under_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0)
+
+During the reign of Aegon's successor, King [Aenys I Targaryen](wiki:Aenys_I_Targaryen), [Jonos Arryn](wiki:Jonos_Arryn) imprisoned his brother, Lord Ronnel, and took control of the Eyrie. When Lord [Allard Royce](wiki:Allard_Royce)'s host of loyal bannermen defeated Jonos's rebels below, the self-proclaimed King of Mountain and Vale threw Ronnel to his death through the [Moon Door](wiki:Moon_Door). Aegon's younger son, Prince [Maegor Targaryen](wiki:Maegor_I_Targaryen), rode the dragon [Balerion](wiki:Balerion) to the Eyrie. To avoid being burned by Balerion's [dragonflame](wiki:Dragonflame), the Eyrie's garrison captured Jonos and threw him through the Moon Door. Maegor hanged all of Jonos's followers from the walls of the Eyrie.(wiki:Eyrie.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0)
+
+After [Elinor Costayne](wiki:Elinor_Costayne) was forced to wed King Maegor I, one of her sons from her first marriage was sent to the Eyrie to be raised.(wiki:Eyrie.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-1)
+
+King [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen) visited the Eyrie on [Vermithor](wiki:Vermithor) during his royal progress in [52 AC](wiki:52_AC).(wiki:Eyrie.cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0) Princess [Daella Targaryen](wiki:Daella_Targaryen_(daughter_of_Jaehaerys_I)) died at the Eyrie after giving birth to [Aemma Arryn](wiki:Aemma_Arryn) in [82 AC](wiki:Years_after_Aegon's_Conquest). Lord [Rodrik Arryn](wiki:Rodrik_Arryn) wanted his wife to be buried in the [Vale of Arryn](wiki:Vale_of_Arryn), but Queen [Alysanne Targaryen](wiki:Alysanne_Targaryen) insisted that her daughter be burned and her ashes interred at [Dragonstone](wiki:Dragonstone).(wiki:Eyrie.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-0)
+
+### The Dance and Regency
+
+During the [Dance of the Dragons](wiki:Dance_of_the_Dragons), Prince [Jacaerys Velaryon](wiki:Jacaerys_Velaryon) flew to the Eyrie on [Vermax](wiki:Vermax) to secure an alliance between [Jeyne Arryn](wiki:Jeyne_Arryn), [Lady of the Eyrie](wiki:Lady_of_the_Eyrie), and the [blacks](wiki:Blacks) of his mother, Queen [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen). According to Grand Maester [Munkun](wiki:Munkun), Jacaerys and Jeyne agreed to an alliance in the castle's High Hall, with Jacaerys promising to have [dragonriders](wiki:Dragonrider) sent to the Vale to help protect the Eyrie from enemy dragons.(wiki:Eyrie.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-0)
+
+Jeyne had her first cousin, Ser [Arnold Arryn](wiki:Arnold_Arryn) imprisoned in the [sky cells](wiki:Sky_cells) of the Eyrie and in the dungeons of the [Gates of the Moon](wiki:Gates_of_the_Moon) after two failed rebellions. After Jeyne died, her preferred heir, Ser [Joffrey Arryn](wiki:Joffrey_Arryn), was contested by Arnold's son, Ser [Eldric Arryn](wiki:Eldric_Arryn), and by [Isembard Arryn](wiki:Isembard_Arryn) of [Gulltown](wiki:Gulltown). After a civil war in the [Vale of Arryn](wiki:Vale_of_Arryn), Joffrey eventually emerged as Lord of the Eyrie during the [regency of Aegon III](wiki:Regency_of_Aegon_III).(wiki:Eyrie.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-0)
+
+### Recent History
+
+[Eddard Stark](wiki:Eddard_Stark) and [Robert Baratheon](wiki:Robert_I_Baratheon) were fostered at the Eyrie for years by the childless Lord [Jon Arryn](wiki:Jon_Arryn). On one occasion while having breakfast, a food fight ensued when Robert struck [Dacks](wiki:Dacks) in the face with an orange.(wiki:Eyrie.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1) When King [Aerys II Targaryen](wiki:Aerys_II_Targaryen) demanded the heads of the wards,(wiki:Eyrie.cite_ref-Radwd9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-0)(wiki:Eyrie.cite_ref-Rtwoiafthe_vale:_house_arryn.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-0) Lord Arryn refused and raised his banners in revolt, thus beginning what would become [Robert's Rebellion](wiki:Robert's_Rebellion).(wiki:Eyrie.cite_ref-Ragot2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-0) After winning the war, Jon was named [Hand of the King](wiki:Hand_of_the_King) to the new monarch, Robert I. With Jon serving in [King's Landing](wiki:King's_Landing), the Vale has been ruled in his absence by Lord [Nestor Royce](wiki:Nestor_Royce), [High Steward of the Vale](wiki:High_Steward_of_the_Vale).(wiki:Eyrie.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-13)
+
+The singer [Tom of Sevenstreams](wiki:Tom_of_Sevenstreams) was once sent from the Eyrie by Jon's wife, Lady [Lysa Arryn](wiki:Lysa_Arryn), and forced to take the [high road](wiki:High_road).(wiki:Eyrie.cite_ref-Rasos43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-0) Before giving birth to [Robert Arryn](wiki:Robert_Arryn), Lysa miscarried five times, twice at the Eyrie and three times in King's Landing.(wiki:Eyrie.cite_ref-Rasos2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-0)
+
+## Appearances & Description
+
+The Eyrie is the smallest of the great castles,(wiki:Eyrie.cite_ref-Rtwoiafthe_vale:_the_eyrie.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) being no larger than [Maegor's Holdfast](wiki:Maegor's_Holdfast).(wiki:Eyrie.cite_ref-Rasos80.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) The castle is made of fine white stone.(wiki:Eyrie.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0) Its seven slim, white towers are bunched tightly together and can hold up to five hundred men.(wiki:Eyrie.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) The waterfall known as [Alyssa's Tears](wiki:Alyssa's_Tears) can be heard from the Eyrie,(wiki:Eyrie.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1) and [falcons](wiki:Falcon) fly near the castle.(wiki:Eyrie.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)(wiki:Eyrie.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
+
+The Eyrie lacks stables, smithys, and kennels, but its granary is as large as those found in much larger castles, like [Winterfell](wiki:Winterfell).(wiki:Eyrie.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3) The Eyrie also contains a [sept](wiki:Sept).(wiki:Eyrie.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1) The castle's [household guard](wiki:House_Arryn_guards) wear sky-blue cloaks.(wiki:Eyrie.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
+
+- The [High Hall](wiki:High_Hall) is a long and austere hall, with walls made of blue-veined white [marble](wiki:Marble).(wiki:Eyrie.cite_ref-Ragot38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1) The High Hall is decorated with rows of slim fluted pillars and a blue silk carpet.(wiki:Eyrie.cite_ref-Rasos80.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1) At the end of it sit two thrones carved of [weirwood](wiki:Weirwood), one the high seat of the lord and the other a lesser throne for a consort.(wiki:Eyrie.cite_ref-Ragot38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)(wiki:Eyrie.cite_ref-Rasos80.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2) It has narrow, arched windows, between which are torches mounted on high iron(wiki:Eyrie.cite_ref-Rasos80.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-3) or silver(wiki:Eyrie.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-1) sconces. Feasts can be held in the High Hall.(wiki:Eyrie.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0) Entrance to the High Hall is through carved wooden doors.(wiki:Eyrie.cite_ref-Rasos80.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-4)
+- The [Moon Door](wiki:Moon_Door) is a narrow weirwood door that stands between two slender pillars halfway in the High Hall. A crescent [moon](wiki:Moon) is carved into the door, which opens inward and is barred by three heavy [bronze](wiki:Bronze) bars. The door opens into the sky. Most executions at the Eyrie use this door, which opens onto a six hundred foot drop to the stones of the valley below.(wiki:Eyrie.cite_ref-Ragot38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+- The Crescent Chamber is the Eyrie's reception hall. Here, guests are given refreshments and warmed by the fire after making the climb up the [Giant's Lance](wiki:Giant's_Lance).(wiki:Eyrie.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)
+- A flight of steep marble stairs from the Crescent Chamber bypasses the Eyrie's undercrofts and dungeons and is protected by three murder holes. The portcullis atop the stairs leads to an arcade decorated with [tapestries](wiki:Tapestries).(wiki:Eyrie.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-4)
+- The solar is located at the end of the arcade. The chamber is decorated with a [Myrish](wiki:Myr) carpet and has enough room for a trestle table and at least eight heavy [oak](wiki:Oak)-and-leather chairs.(wiki:Eyrie.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-5)
+- The Lower Hall is a hall in which food and [wine](wiki:Wine) can be served.(wiki:Eyrie.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-2)
+- The Morning Hall is located above the kitchens and is where people can break their fast.(wiki:Eyrie.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-6)
+- The [Maiden's Tower](wiki:Maiden's_Tower) is the easternmost of the seven towers of the Eyrie. From a balcony on the tower, one can see the [Vale](wiki:Vale_of_Arryn_(valley)) and the Giant's Lance.(wiki:Eyrie.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-3)
+- The Moon Tower contains the bedchambers of Lord Arryn,(wiki:Eyrie.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-4) which is protected by an oaken door four inches thick and has curtains of plush blue velvet. The bedchamber's window has small diamond-shaped panes.(wiki:Eyrie.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2)
+- The [godswood of the Eyrie](wiki:Godswood_of_the_Eyrie) is encircled by the castle's towers. It lacks a [heart tree](wiki:Heart_tree), as no [weirwood](wiki:Weirwood) would take root in the stony soil.(wiki:Eyrie.cite_ref-Ragot40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)(wiki:Eyrie.cite_ref-Rasos80.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-5) The garden, which is overlooked by Lady [Lysa Arryn](wiki:Lysa_Arryn)'s apartments, instead contains blue flowers, grass, shrubbery, thin dark trees, and statuary, including a depiction of a weeping [Alyssa Arryn](wiki:Alyssa_Arryn) in its center.(wiki:Eyrie.cite_ref-Ragot40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)(wiki:Eyrie.cite_ref-Rasos80.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-6)
+- [Sky cells](wiki:Sky_cells) are the Eyrie's infamous dungeons. They are shelves on the side of the mountain's sheer cliffs, left open to the cold sky, with slightly sloping floors to unnerve the prisoners. Many prisoners, driven mad by the cold and howling wind, commit suicide rather than remain imprisoned.(wiki:Eyrie.cite_ref-Ragot38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
+- The Eyrie is located six hundred feet above a waycastle, [Sky](wiki:Sky). Using handholds carved into the rock within the Giant's Lance, visitors can climb a ladder-like chimney(wiki:Eyrie.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)(wiki:Eyrie.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-7) which leads from Sky up to the castle's undercellar.(wiki:Eyrie.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-3) Alternatively, wicker baskets and six great oaken buckets are drawn on long iron chains between the Eyrie and Sky.(wiki:Eyrie.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5) Supplies can thus brought from Sky to the Eyrie's winch room, as can visitors unable or unwilling to climb the chimney ladder.(wiki:Eyrie.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)(wiki:Eyrie.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-8) Oxen are used to turn the winches, and the animals are slaughtered and left for falcons when the Arryns descend to the Gates of the Moon before winter. When the court returns to the Eyrie after winter, unspoiled meat is served in a spring feast.(wiki:Eyrie.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-4)
+
+## Narrative Arc
+
+### A Game of Thrones
+
+After the death in [King's Landing](wiki:King's_Landing) of [Jon Arryn](wiki:Jon_Arryn), [Lord of the Eyrie](wiki:Lord_of_the_Eyrie) and [Hand of the King](wiki:Hand_of_the_King) to [Robert I Baratheon](wiki:Robert_I_Baratheon), his widow [Lysa](wiki:Lysa_Arryn) travels to the Eyrie with their young son, Lord [Robert Arryn](wiki:Robert_Arryn).(wiki:Eyrie.cite_ref-Ragot2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-1) Numerous suitors from throughout the [Vale of Arryn](wiki:Vale_of_Arryn) come to the Eyrie to woo Lysa.(wiki:Eyrie.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-14)
+
+Lysa's sister, Lady [Catelyn Stark](wiki:Catelyn_Stark), arrests [Tyrion Lannister](wiki:Tyrion_Lannister) at the [crossroads inn](wiki:Crossroads_inn)(wiki:Eyrie.cite_ref-Ragot28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-0) and brings him to the [Vale of Arryn](wiki:Vale_of_Arryn). [Mya Stone](wiki:Mya_Stone) aids Catelyn with a night ascent to the Eyrie upon Lysa's insistence.(wiki:Eyrie.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-15) The rest of Catelyn's party stays at the [Gates of the Moon](wiki:Gates_of_the_Moon) overnight and spends the next day ascending the [Giant's Lance](wiki:Giant's_Lance); Tyrion falters near the end of their journey and is carried the rest of the way by a [sellsword](wiki:Sellsword), [Bronn](wiki:Bronn).(wiki:Eyrie.cite_ref-Ragot38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5) Catelyn sends a [raven](wiki:Raven) from the Eyrie to [Winterfell](wiki:Winterfell) to inform her son, [Robb Stark](wiki:Robb_Stark), of Tyrion's capture.(wiki:Eyrie.cite_ref-Ragot35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_27-0)
+
+In the [High Hall](wiki:High_Hall) of the Eyrie, Lysa accuses Tyrion of having murdered her husband, and she has the [dwarf](wiki:Dwarf) imprisoned in the [sky cells](wiki:Sky_cells).(wiki:Eyrie.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-16) When he is eventually returned to the High Hall, Tyrion publicly demands [trial by combat](wiki:Trial_by_combat).(wiki:Eyrie.cite_ref-Ragot38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6) The captain of the [guards](wiki:House_Arryn_guards), Ser [Vardis Egen](wiki:Vardis_Egen), is killed by Tyrion's champion, Bronn, in their duel in the [castle godswood](wiki:Godswood_of_the_Eyrie),(wiki:Eyrie.cite_ref-Ragot40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3) so Lysa reluctantly releases Tyrion. She expects the dwarf and Bronn to be killed on the [high road](wiki:High_road), however.(wiki:Eyrie.cite_ref-Ragot42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-0)
+
+### A Clash of Kings
+
+Ser [Marwyn Belmore](wiki:Marwyn_Belmore) becomes the new [captain of the guards](wiki:House_Arryn_guards) at the Eyrie after Vardis's death.(wiki:Eyrie.cite_ref-Racokappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-0) [Marillion](wiki:Marillion) has become the court singer for Lady Lysa.(wiki:Eyrie.cite_ref-Racokappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-1)
+
+[Stannis Baratheon](wiki:Stannis_Baratheon), [Lord of Dragonstone](wiki:Lord_of_Dragonstone) and claimant to the [Iron Throne](wiki:Iron_Throne), rejects Maester [Cressen](wiki:Cressen)'s suggestion to have his daughter, [Shireen Baratheon](wiki:Shireen_Baratheon), fostered at the Eyrie.(wiki:Eyrie.cite_ref-Racokprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-0)
+
+[Robb Stark](wiki:Robb_Stark), now [King in the North](wiki:King_in_the_North), sends multiple [ravens](wiki:Raven) to the Eyrie seeking assistance from his aunt, Lysa, during the [War of the Five Kings](wiki:War_of_the_Five_Kings), but there is no response.(wiki:Eyrie.cite_ref-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-0)
+
+### A Storm of Swords
+
+The Eyrie continues to disregard Robb's messages.(wiki:Eyrie.cite_ref-Rasos20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_32-0)
+
+After Robb's death at the [Twins](wiki:Twins) in the [Red Wedding](wiki:Red_Wedding), [Sandor Clegane](wiki:Sandor_Clegane) intends to ransom [Arya Stark](wiki:Arya_Stark) to her aunt Lysa at the Eyrie. They are forced to turn back in the foothills of the [Mountains of the Moon](wiki:Mountains_of_the_Moon), however, as, the [high road](wiki:High_road) to the Eyrie has become too dangerous because of snowfall, wild animals, and [mountain clans](wiki:Vale_mountain_clans).(wiki:Eyrie.cite_ref-Rasos65.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-0)
+
+Lord [Petyr Baelish](wiki:Petyr_Baelish) brings a disguised [Sansa Stark](wiki:Sansa_Stark) to the [Vale of Arryn](wiki:Vale_of_Arryn) after [the death](wiki:Purple_Wedding) of King [Joffrey I Baratheon](wiki:Joffrey_Baratheon). Lysa departs the Eyrie with a small escort to meet Petyr, her childhood friend and lover, on the [Fingers](wiki:Fingers). Petyr wants to publicly wed Lysa at the Eyrie, but Lysa insists upon an immediate wedding at [his small castle](wiki:Drearfort), as she brought her own septon. They agree to present Sansa as Petyr's [bastard](wiki:Bastard), "Alayne Stone", and Lysa privately tells the girl that she can be betrothed to her son Robert, [Lord of the Eyrie](wiki:Lord_of_the_Eyrie).(wiki:Eyrie.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_34-0)
+
+After the party arrives at the Eyrie, Sansa finds the castle an empty and lonely place, and Lysa keeps the High Hall closed most of the time.(wiki:Eyrie.cite_ref-Rasos80.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-7) Lord Baelish dismisses Marwyn and names Ser [Lothor Brune](wiki:Lothor_Brune) as his replacement.(wiki:Eyrie.cite_ref-Rasos80.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-8) The plump [septon](wiki:Septon) is no longer in attendance.(wiki:Eyrie.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-8)
+
+When heavy snow falls on the castle, Petyr aids Sansa in building a snow castle of [Winterfell](wiki:Winterfell) in the Eyrie's garden. He then kisses the girl, an act secretly witnessed by Lysa. Young Lord Robert destroys Sansa's snow castle.(wiki:Eyrie.cite_ref-Rasos80.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-9) A frantic Lysa summons Sansa to the High Hall, accuses her of having tried to seduce Petyr, and threatens to throw the girl through the [Moon Door](wiki:Moon_Door). Petyr, however, throws Lysa herself through the door and places blame on her court singer, Marillion.(wiki:Eyrie.cite_ref-Rasos80.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-10)
+
+### A Feast for Crows
+
+Lord Baelish is left as Lord Protector of the Vale, ruling in the name of the child Lord Robert. Because the boy wanders the castle to sleep in the beds of others, Sansa has Ser [Lothor Brune](wiki:Lothor_Brune) lock Robert in his room at night.(wiki:Eyrie.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-6) Petyr has Marillion imprisoned in the sky cells, and the prisoner's constant singing haunts Sansa and upsets Robert.(wiki:Eyrie.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-7)
+
+When Lord [Nestor Royce](wiki:Nestor_Royce) visits the Eyrie to investigate Lysa's death, Sansa lies about Lysa's death. A tortured Marillion is brought to the High Hall and confesses to having pushed Lysa. In the solar, Petyr grants Nestor the [Gates of the Moon](wiki:Gates_of_the_Moon), ostensibly according to Lysa's wishes.(wiki:Eyrie.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-8) Petyr later says that Marillion ended his life by walking from the sky cell, but Robert insists he can still hear the musician's singing.(wiki:Eyrie.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-10)
+
+Objecting to Petyr's rule over the Vale,(wiki:Eyrie.cite_ref-Raffc17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_35-0) the [Lords Declarant](wiki:Lords_Declarant) encamp with six thousand men before the Gates of the Moon. Petyr meets with the six lords in his solar, rather than the High Hall, and they eventually agree to grant Petyr a year to bring order to the Vale.(wiki:Eyrie.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-11)
+
+With the arrival of winter, the court leaves the Eyrie for the Gates of the Moon at the foot of the [Giant's Lance](wiki:Giant's_Lance).(wiki:Eyrie.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-9)
+
+### The Winds of Winter
+
+Lord Robert fears that his heir, Ser [Harrold Hardyng](wiki:Harrold_Hardyng), is waiting for him to die so that Harry can claim the Eyrie. At the Gates of the Moon, the cooks of Lord Nestor prepare a lemon cake in the shape of the Giant's Lance with the Eyrie depicted in sugar.(wiki:Eyrie.cite_ref-36)
+
+## Quotes
+
+> The most splendid work ever built by the hands of men, a palace worthy of [the gods](wiki:Faith_of_the_Seven) themselves. Surely even the [Father Above](wiki:Father_(the_Seven)) does not have such a seat.(wiki:Eyrie.cite_ref-Rtwoiafthe_vale:_the_eyrie.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+>
+> —[Quince](wiki:Quince)
+
+> Those years we spent in the Eyrie ... gods, those were good years.(wiki:Eyrie.cite_ref-Ragot4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_37-0)
+>
+> —[Robert I Baratheon](wiki:Robert_I_Baratheon) to [Eddard Stark](wiki:Eddard_Stark)
+
+> Above [the Vale](wiki:Vale_of_Arryn_(valley)), the Eyrie stood high and impregnable, its towers reaching for the sky.(wiki:Eyrie.cite_ref-Ragot28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-1)
+>
+> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+
+> Seven towers, [Ned](wiki:Eddard_Stark) had told her, like white daggers thrust into the belly of the sky, so high you can stand on the parapets and look down on the clouds.(wiki:Eyrie.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-17)
+>
+> —thoughts of [Catelyn Stark](wiki:Catelyn_Stark)
+
+> The Eyrie is impregnable. You saw for yourself. No enemy could ever reach us up here.(wiki:Eyrie.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-18)
+>
+> —[Lysa Arryn](wiki:Lysa_Arryn) to [Catelyn Stark](wiki:Catelyn_Stark)
+
+> The older servants said these halls rang with laughter when [her father](wiki:Eddard_Stark) and [Robert Baratheon](wiki:Robert_I_Baratheon) had been [Jon Arryn](wiki:Jon_Arryn)'s wards, but those days were many years gone.(wiki:Eyrie.cite_ref-Rasos80.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-11)
+>
+> —thoughts of [Sansa Stark](wiki:Sansa_Stark)
+
+> The Eyrie boasted a [sept](wiki:Sept), but no [septon](wiki:Septon); [a godswood](wiki:Godswood_of_the_Eyrie), but no [heart tree](wiki:Heart_tree). No prayers are answered here, she often thought, though some days she felt so lonely she had to try. Only the wind answered her, sighing endlessly around the seven slim white towers and rattling the [Moon Door](wiki:Moon_Door) every time it gusted. It will be even worse in winter, she knew. In winter this will be a cold white prison.(wiki:Eyrie.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-10)
+>
+> —thoughts of [Sansa Stark](wiki:Sansa_Stark)

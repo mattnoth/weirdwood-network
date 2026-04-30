@@ -1,0 +1,38 @@
+{
+  "bucket_id": "characters-house-grell",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "5a5f5952709b6284a50c82cc779a5543b9db4060fa6cbc75f668ace0214bc900",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Desmond Grell"
+  ],
+  "expected_nodes": [
+    "desmond-grell.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Desmond Grell"
+    ],
+    "tier_b": [],
+    "tier_c": [],
+    "stats": {
+      "total": 1,
+      "tier_a": 1,
+      "tier_b": 0,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.807314+00:00",
+  "stage3_promoted_count": 1,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

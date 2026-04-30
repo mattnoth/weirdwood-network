@@ -1,0 +1,57 @@
+{
+  "bucket_id": "characters-house-bulwer",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "3e8c31a80849faeb742ed82cfa1601b1433b542287af1578a6f49e82fb3a4596",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Alysanne Bulwer",
+    "Bors the Breaker",
+    "Buford Bulwer",
+    "Humphrey Bulwer",
+    "Jack Bulwer",
+    "Jon Bulwer",
+    "Lady Bulwer's brother"
+  ],
+  "expected_nodes": [
+    "alysanne-bulwer.node.md",
+    "bors-the-breaker.node.md",
+    "buford-bulwer.node.md",
+    "humphrey-bulwer.node.md",
+    "jack-bulwer.node.md",
+    "jon-bulwer.node.md",
+    "lady-bulwers-brother.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Jack Bulwer"
+    ],
+    "tier_b": [
+      "Alysanne Bulwer",
+      "Bors the Breaker",
+      "Buford Bulwer",
+      "Humphrey Bulwer",
+      "Jon Bulwer",
+      "Lady Bulwer's brother"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 7,
+      "tier_a": 1,
+      "tier_b": 6,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.692276+00:00",
+  "stage3_promoted_count": 7,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

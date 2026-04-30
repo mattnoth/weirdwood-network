@@ -1,0 +1,28 @@
+---
+name: "Argos Sevenstar"
+type: character.human
+slug: argos-sevenstar
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Argos_Sevenstar"
+bucket_id: characters-other-a
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Argos Sevenstar is a character.human from the AWOIAF wiki.
+
+## Edges
+
+- CULTURE_OF: Andals (track_b: Culture)
+- BORN_AT: Essos (track_b: Born)
+- DIED_AT: Weeping Water (track_b: Died)
+
+## Origins
+
+Argos was one of many warlords during the [coming of the Andals](wiki:Coming_of_the_Andals) to [Westeros](wiki:Westeros). He led the great of the [Andal](wiki:Andal) threats to the [north](wiki:North), but was smashed by an alliance between King [Theon Stark](wiki:Theon_Stark) and [House Bolton](wiki:House_Bolton) at the [Battle of the Weeping Water](wiki:Battle_of_the_Weeping_Water).(wiki:Argos_Sevenstar.cite_ref-Rtwoiafthe_north:_the_kings_of_winter.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
+
+In the aftermath of victory, King Theon raised his own fleet and crossed the [narrow sea](wiki:Narrow_sea) to the shores of [Andalos](wiki:Andalos) in western [Essos](wiki:Essos), with Argos's corpse lashed to the prow of his flagship. Theon's [northmen](wiki:Northmen) burned a score of villages, captured three tower houses and a fortified [sept](wiki:Sept), and put hundreds to the sword. When he returned to the north, the Hungry Wolf planted the heads of the slain on spikes along his coasts as a warning for other potential invaders.(wiki:Argos_Sevenstar.cite_ref-Rtwoiafthe_north:_the_kings_of_winter.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

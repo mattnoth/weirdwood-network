@@ -1,0 +1,3 @@
+## Origins
+
+According to legend, Teora reminded her future husband of how his grandfather, [Artys I Arryn](wiki:Artys_I_Arryn), the first [King of Mountain and Vale](wiki:King_of_Mountain_and_Vale), had defeated [Robar II Royce](wiki:Robar_II_Royce), [High King of the Vale](wiki:High_King_of_the_Vale,_the_Fingers,_and_the_Mountains_of_the_Moon), by attacking from the high ground in the [Battle of the Seven Stars](wiki:Battle_of_the_Seven_Stars). Thanks to Teora's words, King [Roland I Arryn](wiki:Roland_I_Arryn) decreed that the [Eyrie](wiki:Eyrie) should be built on the [Giant's Lance](wiki:Giant's_Lance) high above the [Gates of the Moon](wiki:Gates_of_the_Moon).(wiki:Teora_Hunter.cite_ref-Rtwoiafthe_vale.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

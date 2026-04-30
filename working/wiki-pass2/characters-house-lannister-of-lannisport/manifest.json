@@ -1,0 +1,47 @@
+{
+  "bucket_id": "characters-house-lannister-of-lannisport",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "b93c9674ec85b2002afe5386783e387efe13f6bdec6073c31659a1e0b7767a43",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Ella Lannister",
+    "Emory Hill",
+    "Rosamund Lannister",
+    "Theomore Lannister"
+  ],
+  "expected_nodes": [
+    "ella-lannister.node.md",
+    "emory-hill.node.md",
+    "rosamund-lannister.node.md",
+    "theomore-lannister.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Ella Lannister",
+      "Emory Hill",
+      "Rosamund Lannister",
+      "Theomore Lannister"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 4,
+      "tier_a": 0,
+      "tier_b": 4,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.847937+00:00",
+  "stage3_promoted_count": 4,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

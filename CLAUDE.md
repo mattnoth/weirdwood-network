@@ -23,6 +23,12 @@ This project builds a queryable knowledge graph for ASOIAF by:
 
 **NEVER commit source texts or chapter files to git.** The `sources/raw/` and `sources/chapters/` directories are gitignored and must stay that way. Do not modify `.gitignore` to remove these exclusions.
 
+## Critical Rule: The Wiki Is Already Local — Never Re-Fetch
+
+**The entire AWOIAF wiki (17,945 pages, 377 MB) is cached locally at `sources/wiki/_raw/`.** Every Pass 2+ workflow reads from this cache. There is no re-fetching. Ever. No HTTP calls to `awoiaf.westeros.org`. No `WebFetch`, no `curl`, no `requests.get`, no `Playwright`. The Playwright-based scraper was archived to `scripts/archive/wiki-scraper.py` and **must not be restored**. If you think you need to fetch a page, you don't — read it from `sources/wiki/_raw/<Page_Name>.json` instead.
+
+**Never drop anything from `sources/`.** Stub pages, redirect pages, list articles, year articles, disambiguation pages — all stay. Tier them, label them, defer them, but never delete them. Source data is read-only and additive-only.
+
 ## Pipeline Sequence
 
 The build follows this order. Each step depends on prior steps completing:
@@ -34,7 +40,7 @@ The build follows this order. Each step depends on prior steps completing:
 | 0 | **Scaffold** | ✅ Done | Directory structure created |
 | 1 | **Chapter Splitter** | ✅ Done | `scripts/chapter-splitter.py` — splits .txt source files into per-chapter markdown with YAML frontmatter |
 | 2 | **Run Splitter** | ✅ Done | All 5 books split (344 chapters) + 3 D&E novellas |
-| 3 | **Wiki Scrape** | ✅ Done | `scripts/wiki-scraper.py` — 17,945 pages cached in `sources/wiki/` |
+| 3 | **Wiki Scrape** | ✅ Done | 17,945 pages cached locally in `sources/wiki/` (one-time crawl, scraper archived to `scripts/archive/`). All Pass 2+ work reads local cache only — never re-fetch. |
 | 4 | **Pass 1: Mechanical Extraction** | In progress | v2 schema, AGOT in progress, 4 books remaining |
 | 5 | **Pass 2: Wiki Ingestion** | Not started | Agent prompt not yet written — will promote wiki cache into `graph/nodes/` |
 | 6 | **Build Index** | Not started | Generate trigger table and entity index from extraction outputs |
@@ -68,7 +74,8 @@ asoiaf-chat/
 ├── .claude/
 │   ├── agents/                       # Subagent definitions (8 agents)
 │   └── commands/                     # Custom slash commands
-├── scripts/                          # Python tooling (chapter-splitter, wiki-scraper, etc.)
+├── scripts/                          # Python tooling (chapter-splitter, wiki-pass2 pipeline, etc.)
+│   └── archive/                      # Retired scripts (Playwright wiki-scraper) — DO NOT restore
 ├── sources/
 │   ├── raw/                          # Original .txt files (GITIGNORED)
 │   ├── chapters/                     # Split chapter files (GITIGNORED)
@@ -113,7 +120,7 @@ asoiaf-chat/
 
 - **Chapter file naming:** `{book}-{pov-character}-{number}.md` (e.g., `agot-bran-01.md`)
 - **Node file naming:** `{entity-name-kebab-case}.node.md`
-- **Every node/edge must have a `first_available` field** for spoiler gating — this is architectural, not optional
+- **`first_available` (spoiler gating) is DEFERRED to post-first-release.** Field is optional in v1 nodes; existing values may be wrong (parser bug class — see architecture.md). Do not invest context reasoning out individual values; backfill happens via deterministic script later.
 - **Confidence tiers:** Tier 1 (verified canon) through Tier 5 (crackpot) — tag everything
 - **Agents propose, Matt decides** — analytical findings go to `curation/candidates.md`, not directly into the graph
 

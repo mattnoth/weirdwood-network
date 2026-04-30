@@ -1,0 +1,47 @@
+{
+  "bucket_id": "houses-seven-kingdoms",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "3ac298a349e76edd0626999c6e8fd4d18bf86f9576fe59bf175de2ddb8f913d1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Kingsguard",
+    "Maesters",
+    "Rainbow Guard",
+    "Warrior's Sons"
+  ],
+  "expected_nodes": [
+    "kingsguard.node.md",
+    "maesters.node.md",
+    "rainbow-guard.node.md",
+    "warriors-sons.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:56Z",
+    "tier_a": [
+      "Kingsguard",
+      "Maesters",
+      "Rainbow Guard",
+      "Warrior's Sons"
+    ],
+    "tier_b": [],
+    "tier_c": [],
+    "stats": {
+      "total": 4,
+      "tier_a": 4,
+      "tier_b": 0,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.303894+00:00",
+  "stage3_promoted_count": 4,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

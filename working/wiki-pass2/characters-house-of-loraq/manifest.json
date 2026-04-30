@@ -1,0 +1,69 @@
+{
+  "bucket_id": "characters-house-of-loraq",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "8ccd154ca8b81d7ee364d45bea32950361e677348bdc149cb7c821e3b09d7183",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Belaquo Bonebreaker",
+    "Bhakaz zo Loraq",
+    "Camarron of the Count",
+    "Fearless Ithoke",
+    "Goghor the Giant",
+    "Hazrak zo Loraq",
+    "Khrazz",
+    "Marghaz zo Loraq",
+    "Mazdhan zo Loraq",
+    "Steelskin",
+    "Zharaq zo Loraq"
+  ],
+  "expected_nodes": [
+    "belaquo-bonebreaker.node.md",
+    "bhakaz-zo-loraq.node.md",
+    "camarron-of-the-count.node.md",
+    "fearless-ithoke.node.md",
+    "goghor-the-giant.node.md",
+    "hazrak-zo-loraq.node.md",
+    "khrazz.node.md",
+    "marghaz-zo-loraq.node.md",
+    "mazdhan-zo-loraq.node.md",
+    "steelskin.node.md",
+    "zharaq-zo-loraq.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Belaquo Bonebreaker",
+      "Bhakaz zo Loraq",
+      "Goghor the Giant",
+      "Khrazz"
+    ],
+    "tier_b": [
+      "Camarron of the Count",
+      "Fearless Ithoke",
+      "Hazrak zo Loraq",
+      "Marghaz zo Loraq",
+      "Mazdhan zo Loraq",
+      "Steelskin",
+      "Zharaq zo Loraq"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 11,
+      "tier_a": 4,
+      "tier_b": 7,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.896111+00:00",
+  "stage3_promoted_count": 11,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

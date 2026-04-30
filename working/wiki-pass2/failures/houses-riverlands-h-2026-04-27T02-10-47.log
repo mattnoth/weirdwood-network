@@ -1,0 +1,6 @@
+I'll read my agent definition and the bucket input file.
+Reading architecture reference and the wiki cache files for each page.
+Now I'll read the raw HTML cache files for all 25 pages. Let me batch these reads.
+I have sufficient data from the track_b rows and wiki HTML. Let me create the tmp directory and start writing all 25 node files.
+Now writing all 25 node files. Starting with the smaller/simpler houses, then the larger ones.
+You've hit your limit · resets 5am (America/Chicago)

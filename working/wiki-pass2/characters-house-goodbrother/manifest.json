@@ -1,0 +1,66 @@
+{
+  "bucket_id": "characters-house-goodbrother",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "dec1c84b07cd0f08fe52e763da96670a75920838d5352eafcf240550a8eaad11",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Arthur Goodbrother",
+    "Gormond Goodbrother",
+    "Gorold Goodbrother",
+    "Gran Goodbrother",
+    "Greydon Goodbrother",
+    "Gundor Goodbrother",
+    "Gunthor Goodbrother",
+    "Gwin Goodbrother",
+    "Gysella Goodbrother",
+    "Murenmure"
+  ],
+  "expected_nodes": [
+    "arthur-goodbrother.node.md",
+    "gormond-goodbrother.node.md",
+    "gorold-goodbrother.node.md",
+    "gran-goodbrother.node.md",
+    "greydon-goodbrother.node.md",
+    "gundor-goodbrother.node.md",
+    "gunthor-goodbrother.node.md",
+    "gwin-goodbrother.node.md",
+    "gysella-goodbrother.node.md",
+    "murenmure.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Gorold Goodbrother"
+    ],
+    "tier_b": [
+      "Arthur Goodbrother",
+      "Gormond Goodbrother",
+      "Gran Goodbrother",
+      "Greydon Goodbrother",
+      "Gundor Goodbrother",
+      "Gunthor Goodbrother",
+      "Gwin Goodbrother",
+      "Gysella Goodbrother",
+      "Murenmure"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 10,
+      "tier_a": 1,
+      "tier_b": 9,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.800735+00:00",
+  "stage3_promoted_count": 10,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

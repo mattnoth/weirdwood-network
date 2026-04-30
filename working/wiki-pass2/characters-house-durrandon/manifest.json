@@ -1,0 +1,44 @@
+{
+  "bucket_id": "characters-house-durrandon",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "35707a843d40f55a527d23b489bb177769062f32e61b8432a1efd004ac99771c",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Argella Durrandon",
+    "Elenei",
+    "Erich Durrandon (Kin-Killer)"
+  ],
+  "expected_nodes": [
+    "argella-durrandon.node.md",
+    "elenei.node.md",
+    "erich-durrandon-kin-killer.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Argella Durrandon",
+      "Elenei",
+      "Erich Durrandon (Kin-Killer)"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 3,
+      "tier_a": 0,
+      "tier_b": 3,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.747693+00:00",
+  "stage3_promoted_count": 3,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

@@ -1,0 +1,56 @@
+{
+  "bucket_id": "characters-house-vance",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "a415d395dd1a5ed07f272bf7aa67124f8cf85fecdd856a41ab2ee60b5b25dd42",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Armistead Vance",
+    "Dafyn Vance",
+    "Marianne Vance",
+    "Patrek Vance",
+    "Robert Vance",
+    "Ronnel Vance",
+    "Walder Vance"
+  ],
+  "expected_nodes": [
+    "armistead-vance.node.md",
+    "dafyn-vance.node.md",
+    "marianne-vance.node.md",
+    "patrek-vance.node.md",
+    "robert-vance.node.md",
+    "ronnel-vance.node.md",
+    "walder-vance.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:56Z",
+    "tier_a": [],
+    "tier_b": [
+      "Armistead Vance",
+      "Dafyn Vance",
+      "Marianne Vance",
+      "Patrek Vance",
+      "Robert Vance",
+      "Ronnel Vance",
+      "Walder Vance"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 7,
+      "tier_a": 0,
+      "tier_b": 7,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.015063+00:00",
+  "stage3_promoted_count": 7,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

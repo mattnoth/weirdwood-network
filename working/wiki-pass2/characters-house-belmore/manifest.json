@@ -1,0 +1,41 @@
+{
+  "bucket_id": "characters-house-belmore",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "c579c82492ced8a463cda8264ceb5582c5a373055866b2bd6967f52e0f7aca2c",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Benedar Belmore",
+    "Marwyn Belmore"
+  ],
+  "expected_nodes": [
+    "benedar-belmore.node.md",
+    "marwyn-belmore.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Benedar Belmore",
+      "Marwyn Belmore"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 2,
+      "tier_a": 0,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.656048+00:00",
+  "stage3_promoted_count": 2,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

@@ -1,0 +1,96 @@
+{
+  "version": "v1",
+  "ran_at": "2026-04-28T04:51:11+00:00",
+  "buckets_processed": 472,
+  "pages_processed": 3314,
+  "prose_files_emitted": 2988,
+  "pages_skipped_no_content": 326,
+  "mean_word_count": 293.61,
+  "median_word_count": 105,
+  "unmapped_sections_top_20": [
+    {
+      "section_name": "Legacy",
+      "count": 20
+    },
+    {
+      "section_name": "Character List appearing/mentioned",
+      "count": 13
+    },
+    {
+      "section_name": "Places and terms mentioned",
+      "count": 13
+    },
+    {
+      "section_name": "Character List",
+      "count": 11
+    },
+    {
+      "section_name": "Household",
+      "count": 10
+    },
+    {
+      "section_name": "Places and Terms Mentioned",
+      "count": 9
+    },
+    {
+      "section_name": "Quote",
+      "count": 6
+    },
+    {
+      "section_name": "The Battle",
+      "count": 4
+    },
+    {
+      "section_name": "War",
+      "count": 4
+    },
+    {
+      "section_name": "The Rebellion",
+      "count": 4
+    },
+    {
+      "section_name": "Location",
+      "count": 4
+    },
+    {
+      "section_name": "Participants",
+      "count": 3
+    },
+    {
+      "section_name": "Sack",
+      "count": 3
+    },
+    {
+      "section_name": "House of the Dragon",
+      "count": 3
+    },
+    {
+      "section_name": "Recent History",
+      "count": 3
+    },
+    {
+      "section_name": "Description",
+      "count": 3
+    },
+    {
+      "section_name": "Population",
+      "count": 3
+    },
+    {
+      "section_name": "Tasks",
+      "count": 3
+    },
+    {
+      "section_name": "Duties",
+      "count": 3
+    },
+    {
+      "section_name": "Responsibilities",
+      "count": 3
+    }
+  ],
+  "missing_html_pages": [
+    "House Cassel/Theories"
+  ],
+  "missing_skeleton_pages": []
+}

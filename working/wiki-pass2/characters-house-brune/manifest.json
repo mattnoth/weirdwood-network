@@ -1,0 +1,38 @@
+{
+  "bucket_id": "characters-house-brune",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "bf92ab039d32004af3ea06ea4aa7977654796773af3a8661fb0c2d6df4afa06e",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Bernarr Brune"
+  ],
+  "expected_nodes": [
+    "bernarr-brune.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Bernarr Brune"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 1,
+      "tier_a": 0,
+      "tier_b": 1,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.687420+00:00",
+  "stage3_promoted_count": 1,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

@@ -1,0 +1,31 @@
+---
+name: "Toefinger"
+type: character.human
+slug: toefinger
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Toefinger"
+bucket_id: characters-other-t
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Toefinger is a character.human from the AWOIAF wiki.
+
+## Edges
+
+- SWORN_TO: Mance Rayder (track_b: Allegiance)
+- CULTURE_OF: Free folk (track_b: Culture)
+
+## Origins
+
+Toefinger was once chased up a tree by a [moose](wiki:Moose).(wiki:Toefinger.cite_ref-Rasos41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+## Narrative Arc
+
+### A Storm of Swords
+
+Toefinger was one of the wildling raiders that went over the [Wall](wiki:Wall) under the command of [Styr](wiki:Styr).(wiki:Toefinger.cite_ref-Rasos41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)

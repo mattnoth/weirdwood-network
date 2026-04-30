@@ -1,0 +1,42 @@
+{
+  "bucket_id": "characters-house-brune-of-brownhollow",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "567383805eec290ec217ca896dc8e617b9afbe599cc6635a03d517c70acd8d4e",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Bennard Brune",
+    "Lothor Brune"
+  ],
+  "expected_nodes": [
+    "bennard-brune.node.md",
+    "lothor-brune.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Lothor Brune"
+    ],
+    "tier_b": [
+      "Bennard Brune"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 2,
+      "tier_a": 1,
+      "tier_b": 1,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.687952+00:00",
+  "stage3_promoted_count": 2,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

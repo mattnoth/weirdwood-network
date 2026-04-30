@@ -1,0 +1,15 @@
+## Origins
+
+After her death in [115 AC](wiki:Years_after_Aegon's_Conquest),(wiki:Gunthor_Royce.cite_ref-Rtwoiafthe_targaryen_kings:_viserys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) the Lady of Runestone, [Rhea Royce](wiki:Rhea_Royce), was succeeded by her nephew.(wiki:Gunthor_Royce.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) It is unknown when and how Gunthor came to his lordship.
+
+During the dispute over succession after Lady [Jeyne Arryn](wiki:Jeyne_Arryn)'s death, the claimant to [the Eyrie](wiki:The_Eyrie), Ser [Arnold Arryn](wiki:Arnold_Arryn), eluded Ser [Corwyn Corbray](wiki:Corwyn_Corbray), who claimed that Lady Jeyne's testament must be upheld and that her more distant cousin Ser [Joffrey Arryn](wiki:Joffrey_Arryn) should become [Lord of the Eyrie](wiki:Lord_of_the_Eyrie). Ser Arnold was given sanctuary at Runestone by Lord Gunthor, having served as a [squire](wiki:Squire) there in his youth.(wiki:Gunthor_Royce.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+
+When Ser Corwyn tried to winkle him out, Lord Gunthor rode out to confront him in his ancient bronze armor. Words grew heated, then turned to curses, then threats, and Ser Corwyn drew [Lady Forlorn](wiki:Lady_Forlorn), though whether as a threat or to strike at Lord Royce is unknown. A crossbowman on Runestone's battlements loosed a quarrel, and pierced Ser Corwyn through the breast. Striking down one of the king's [regents](wiki:Regent) was an act of treason, and war began anew across the [Vale of Arryn](wiki:Vale_of_Arryn). House Royce, joined by their vassals, the [Coldwaters](wiki:House_Coldwater) and the [Tolletts](wiki:House_Tollett), supported Ser Arnold's claim.(wiki:Gunthor_Royce.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+
+By the time the new regents were to be chosen by lot in [136 AC](wiki:136_AC), Lord [Alyn Velaryon](wiki:Alyn_Velaryon) and Lord [Benjicot Blackwood](wiki:Benjicot_Blackwood) had at last forced the Bronze Giant and the supporters of [Isembard Arryn](wiki:Isembard_Arryn) and Arnold Arryn to do homage to Lord Joffrey as their liege. Gunthor made his way to [King's Landing](wiki:King's_Landing) for the lottery to select new regents with Lord Joffrey Arryn, Lord [Quenton Corbray](wiki:Quenton_Corbray), and Isembard Arryn.(wiki:Gunthor_Royce.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+
+## Appearances & Description
+
+By [134 AC](wiki:134_AC), Gunthor had become an old man. Despite his age, he was stubborn as he was fearless.(wiki:Gunthor_Royce.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+
+In battle, Gunthor donned the ancient bronze armor of his forebears, worn by the Lords of [Runestone](wiki:Runestone).(wiki:Gunthor_Royce.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)(wiki:Gunthor_Royce.cite_ref-Rtwoiafthe_vale:_house_arryn.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

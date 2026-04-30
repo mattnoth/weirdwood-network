@@ -1,0 +1,41 @@
+{
+  "bucket_id": "characters-house-straw",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "152c8bc62d0ce8418daf7a7ead3123af392257799682c0732ae03daac7ab6deb",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Casper Straw",
+    "Dick Straw"
+  ],
+  "expected_nodes": [
+    "casper-straw.node.md",
+    "dick-straw.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Casper Straw",
+      "Dick Straw"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 2,
+      "tier_a": 0,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.982933+00:00",
+  "stage3_promoted_count": 2,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

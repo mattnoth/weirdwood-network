@@ -1,0 +1,32 @@
+---
+name: "Tarber"
+type: character.human
+slug: tarber
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Tarber"
+bucket_id: characters-other-s-t
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Tarber is a character.human from the AWOIAF wiki.
+
+## Edges
+
+- CULTURE_OF: Crownlands (track_b: Culture)
+
+## Narrative Arc
+
+### A Clash of Kings
+
+As one of [Yoren](wiki:Yoren)'s recruits, Tarber travels north from [King's Landing](wiki:King's_Landing). When one of their band, [Praed](wiki:Praed), dies and is buried along the [kingsroad](wiki:Kingsroad), Tarber drops a handful of acorns on the body, so that an [oak](wiki:Oak) might grow to mark the grave.(wiki:Tarber.cite_ref-Racok5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+
+That evening, the band arrives at an inn with a bathhouse and Tarber joins those who want to take a bath. He is the first to join Yoren in his resistance against the men of the [City Watch of King’s Landing](wiki:City_Watch_of_King’s_Landing) who arrive at the inn to arrest [Gendry](wiki:Gendry). Tarber picks up a pitchfork for a weapon. The men of the City Watch eventually retreat without further violence.(wiki:Tarber.cite_ref-Racok5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+
+The group avoids the [kingsroad](wiki:Kingsroad) following this encounter and instead moves north along the eastern side of [the river](wiki:Gods_Eye_river) running south from the [Gods Eye](wiki:Gods_Eye). When they come across an abandoned cottage, Tarber finds a garden in the backyard where they pull some onions and radishes. At [a town](wiki:Gods_Eye_town) on the southern shore of the Gods Eye, they spend the night in the town's holdfast, where Yoren assigns Tarber, [Kurz](wiki:Kurz) and [Cutjack](wiki:Cutjack) the task of holding vigil from on high at the towerhouse of the town.(wiki:Tarber.cite_ref-Racok14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+
+The whole town is burned down that night by men under the command of Ser [Amory Lorch](wiki:Amory_Lorch). Kurz manages to warn the rest of the band with his hunting horn, but the holdfast is attacked and taken over nonetheless and most of the group killed.(wiki:Tarber.cite_ref-Racok14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1) However, Lorch's men cannot put the towerhouse on fire and they have no patience to starve out the three up there. They reunited with [Arry](wiki:Arya_Stark) and others who escaped the holdfast via a tunnel.(wiki:Tarber.cite_ref-Racok19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) The injured [Kurz](wiki:Kurz) dies from an infection of his wound, after which Tarber and Cutjack take everything of value and abandon the other survivors.(wiki:Tarber.cite_ref-Racok19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)

@@ -1,0 +1,48 @@
+{
+  "bucket_id": "characters-house-cassel",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "704de615965f647dc7dcca3b3b4c33b077a81f8bc6c7042f7db9fb20886e3230",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Beth Cassel",
+    "Jory Cassel",
+    "Martyn Cassel",
+    "Rodrik Cassel"
+  ],
+  "expected_nodes": [
+    "beth-cassel.node.md",
+    "jory-cassel.node.md",
+    "martyn-cassel.node.md",
+    "rodrik-cassel.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Beth Cassel",
+      "Jory Cassel",
+      "Rodrik Cassel"
+    ],
+    "tier_b": [
+      "Martyn Cassel"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 4,
+      "tier_a": 3,
+      "tier_b": 1,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.701417+00:00",
+  "stage3_promoted_count": 4,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

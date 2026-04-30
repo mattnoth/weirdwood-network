@@ -1,0 +1,48 @@
+{
+  "bucket_id": "characters-house-farring",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "2e1db878d7a8aad7a31aaefe086ea00555c91101eb6fa5721e2b4146e439d059",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Annara Farring",
+    "Bryen Farring",
+    "Gilbert Farring",
+    "Godry Farring"
+  ],
+  "expected_nodes": [
+    "annara-farring.node.md",
+    "bryen-farring.node.md",
+    "gilbert-farring.node.md",
+    "godry-farring.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Godry Farring"
+    ],
+    "tier_b": [
+      "Annara Farring",
+      "Bryen Farring",
+      "Gilbert Farring"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 4,
+      "tier_a": 1,
+      "tier_b": 3,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.756197+00:00",
+  "stage3_promoted_count": 4,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

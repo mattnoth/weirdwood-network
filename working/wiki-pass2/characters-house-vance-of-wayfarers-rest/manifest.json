@@ -1,0 +1,60 @@
+{
+  "bucket_id": "characters-house-vance-of-wayfarers-rest",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "a65cef10463ad7eb94c05629e17f41f6f0916088235d6000abb0427113ab4dbb",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Black Trombo",
+    "Emphyria Vance",
+    "Hugo Vance (lord)",
+    "Karyl Vance",
+    "Liane Vance",
+    "Lord Vance",
+    "Rhialta Vance",
+    "Tristan Vance"
+  ],
+  "expected_nodes": [
+    "black-trombo.node.md",
+    "emphyria-vance.node.md",
+    "hugo-vance-lord.node.md",
+    "karyl-vance.node.md",
+    "liane-vance.node.md",
+    "lord-vance.node.md",
+    "rhialta-vance.node.md",
+    "tristan-vance.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:56Z",
+    "tier_a": [
+      "Karyl Vance"
+    ],
+    "tier_b": [
+      "Black Trombo",
+      "Emphyria Vance",
+      "Hugo Vance (lord)",
+      "Liane Vance",
+      "Lord Vance",
+      "Rhialta Vance",
+      "Tristan Vance"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 8,
+      "tier_a": 1,
+      "tier_b": 7,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.018249+00:00",
+  "stage3_promoted_count": 8,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

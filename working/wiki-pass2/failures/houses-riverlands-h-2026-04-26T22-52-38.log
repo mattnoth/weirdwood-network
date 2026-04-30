@@ -1,0 +1,8 @@
+I'll read my agent definition and the bucket input file.
+Reading the architecture reference and starting to read wiki cache files for the larger/more important houses first.
+The raw HTML files are large. I'll read key portions of the bigger houses and rely on track_b_row for minor ones. Let me ensure the tmp directory exists, then start reading wiki pages.
+Let me extract the key content from the wiki pages using a script approach.
+Now let me read the remaining wiki pages.
+I have all the data I need. Now I'll write the 25 node files. Let me start with the major houses and work through to the minor ones. I'm also noticing several first_available parser errors where cite_refs show earlier book appearances than the parser computed.
+Continuing with the next batch of houses.
+You've hit your limit · resets 12:50am (America/Chicago)

@@ -1,0 +1,48 @@
+{
+  "bucket_id": "characters-house-toyne",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "6f7d1fc5940748e4e7c0dfae09c41e71fef6f916138f8b4dfbfa3d935585a224",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Brothers Toyne",
+    "Myles Toyne",
+    "Simon Toyne",
+    "Terrence Toyne"
+  ],
+  "expected_nodes": [
+    "brothers-toyne.node.md",
+    "myles-toyne.node.md",
+    "simon-toyne.node.md",
+    "terrence-toyne.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Simon Toyne",
+      "Terrence Toyne"
+    ],
+    "tier_b": [
+      "Brothers Toyne",
+      "Myles Toyne"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 4,
+      "tier_a": 2,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.007373+00:00",
+  "stage3_promoted_count": 4,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

@@ -63,11 +63,16 @@ This is your project memory. When you come back after a break, read Current Stat
 - [x] Pass 1 v3 run on AGOT (73/73 — complete)
 - [ ] Pass 1 v3 run on ACOK (0/70)
 - [ ] Pass 1 v3 run on remaining books (ASOS 0/82, AFFC 0/46, ADWD 0/73)
-- [ ] Wiki infobox parser script: extract `first_available` (cite_ref chapter tags + Books infobox) and relationship fields from cached wiki HTML
+- [x] Wiki infobox parser script (Track B) — `scripts/wiki-infobox-parser.py` produces `working/wiki-parsed/{infobox-data.jsonl (5,279), page-index.jsonl (17,657), parse-stats.md}`. `first_available` populated 2,888/5,279 (54.7%). **Three open issues:** (1) `categories[]` empty across all pages (parse API strips catlinks footer) — blocker for runbook §1.2.1 unless deferred to `entity_type_guess`, (2) `books` field parsed only 37 times vs 1,953 raw occurrences (parser bug), (3) unmapped infobox fields worth edge-taxonomy review (`dynasty`, `written by`, `hatched`, `fathers`, `vassal`, `cadet branch`).
 - [ ] AGOT/ACOK supplementary entity index: script to scan existing extractions and categorize candidate entity types from narrative sections
 - [ ] Pass 1 run on remaining books (ASOS, AFFC, ADWD) — blocked on prompt update + wiki parser groundwork
 - [ ] Pass 2 wiki ingestion agent prompt written
 - [ ] Pass 2 wiki ingestion complete
+- [x] Wiki Pass 2 v1 — core (37/37 buckets complete; 855 nodes; cost $95.33; per-node $0.111 healthy per Stage-2 cold review)
+- [x] Wiki Pass 2 Stage 2 cold review (Session 24; decision was `remediate`, but overturned same session — see Active Decisions)
+- [x] Wiki Pass 2 Stage 3 — secondary (Session 26; FULL pipeline rebuilt as Python-only after design review showed the Stage 3b agent was inertia-driven. 472 buckets / 3,315 candidate pages → 3,314 nodes promoted. Cumulative graph: 855→4,169 then →4,239 after Tier-1+Tier-2 recovery. Cost $0. Wall-clock ~30 sec total. 0 conflicts.) Canonical pipeline: `working/runbooks/wiki-pass2-pipeline.md` (rewritten as v3).
+- [x] Wiki Pass 2 Stage 0 foundation — alias-resolver built + run (Session 26). 707 broken refs reclaimed via slug-mismatch fix. Empirical signal validates that most remaining "broken" refs are genuinely missing concept entities (concept-pages decision: defer).
+- [ ] Wiki Pass 2 Stage 4 — prose-derived edge discovery (Stage 0 prep complete + cross-references index built; Stage 4 hybrid plan documented in `working/fleet-orchestration-plan.md`. Need to build: edge-candidate-generator script, then prose-edge-classifier agent runs (full prompt ready), then peer review, then promote. Skeleton: `2026-04-27-wiki-pass2-stage4-edge-discovery.md`)
 - [ ] Pass 3 voice/perception agent prompt written
 - [ ] Pass 4 foreshadowing agent prompt written
 - [ ] Pass 5 theory-informed agent prompt written
@@ -111,9 +116,11 @@ This is your project memory. When you come back after a break, read Current Stat
 - **Decision:** Source files are plain .txt (converted from EPUB). Splitter targets .txt input.
 - **Location:** `sources/raw/` contains GoT.txt, ACOK.txt, ASOS.txt, AFFC.txt, ADWD.txt
 
-### DECIDED: Spoiler Gating Architecture
-- **Decision:** `first_available` field is required on every node and edge from the start. Not retrofittable.
-- **Rationale:** Discussed at length. Omitting now would require manually tagging hundreds of nodes later.
+### DEFERRED: Spoiler Gating to Post-First-Release (2026-04-27)
+- **Decision (2026-04-27):** `first_available` field is **deferred**. Optional in v1 nodes; existing values may be wrong/missing/inconsistent. Do not invest context reasoning out individual values. Backfill via deterministic script after first release.
+- **Supersedes prior DECIDED rule** ("required on every node from the start; not retrofittable") which was overturned mid-Stage-2 review when schema-correctness remediation was projected to consume too much context for too little payoff. The wiki cite_ref data is rich enough that a deterministic backfill is cheap once we stop trying to enforce per-node consistency during extraction.
+- **What this changes:** wiki-ingester drops the "agent self-corrects to `always available`" rule. Validator does not enforce `first_available`. CLAUDE.md and architecture.md updated. Tyrion/Varys (Stage-2 sample bugs) nulled rather than manually patched.
+- **What this preserves:** the wiki data sources (infobox Books field + cite_ref anchors) remain documented in architecture.md so the backfill script can still use them.
 
 ### DECIDED: Track B (Wiki Parser) Before v3 Schema Review
 - **Decision (2026-04-25):** Build the wiki infobox parser (Track B) before doing a schema review of the v3 Pass 1 output and before scaling v3 to ACOK/ASOS/AFFC/ADWD.
@@ -167,123 +174,66 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session.
 
-### Session 14 — Pipeline-Not-Fixed Note (2026-04-25)
-**Detail:** `working/session-details/session-014.md`
+### Session 26 — Stage 3 Completion + Tier-Recovery + Fleet Architecture + Chat UI Design (2026-04-27 → 2026-04-28)
+**Detail:** `working/session-details/session-026.md`
+
 **Changes made:**
-- `README.md` — added callout under "Extraction Pipeline": Passes 2–6 are a working sketch, not a contract; scope/order/existence open while Pass 1 in progress
-- `memory/project_pipeline_not_fixed.md` — NEW project memory (type: project) capturing the same stance with Why + How-to-apply lines for future sessions
-- `memory/MEMORY.md` — added index entry for the new memory
+- `scripts/wiki-pass2-extract-prose.py` — NEW. Stage 3b deterministic prose extractor (replaces planned LLM agent). H2→schema-heading mapping, h3 book-boundary preservation, cite_ref translation. ~770 lines.
+- `scripts/wiki-pass2-promote.py` — NEW. Stage 3 promoter. Concat skeleton + "\n" + prose → `graph/nodes/<type>/<slug>.node.md`. Atomic-rename + conflict-detect. ~585 lines.
+- `scripts/wiki-pass2-build-cross-refs.py` — NEW. Stage 4 prep step. Walks prose files extracting `[anchor](wiki:Page)` links → `cross-references.jsonl` (81,090 rows) + `backlink-counts.json` + `cross-refs-summary.md`.
+- `scripts/wiki-pass2-build-alias-resolver.py` — NEW. Stage 0 foundation. Walks node aliases, builds wiki-form-kebab→canonical-slug map. 707 broken refs reclaimed.
+- `scripts/wiki-pass2-emit-deterministic.py` — UPDATED. Emits to `skeleton/` (was `tmp/`) for single-writer-per-file. Added `## Culture`, `## Organization`, `## Aftermath` schema headings. Added `Background`/`Prelude`/`Battle`/`Aftermath`/`Layout`/`City`/`Legend`/`Character and Appearance` mappings. Skip-empty-prose-files behavior.
+- `scripts/wiki-infobox-parser.py` — UPDATED. Plural mappings (fathers/cultures/battles) and `written by`→`WRITTEN_BY`. ENTITY_TYPE_OVERRIDES dict (21 entries).
+- `.claude/agents/` — 6 detailed agent prompts NEW (`prose-edge-classifier`, `cross-identity-detector`, `schema-drift-auditor`, `citation-validator`, `duplicate-detector`, `orphan-edge-finder`). 13 stub agents NEW (`disambiguation-resolver`, `contradiction-surfacer`, `multi-type-entity-resolver`, `perception-mapper`, `chekhovs-gun-tracker`, `theory-evidence-scorer`, `extraction-quality-auditor`, `cross-book-entity-reconciler`, `chronology-extractor`, `event-orderer`, `prose-edge-reviewer`, `cross-identity-reviewer`, `fleet-stats-reviewer`). Total fleet now 27 agents (was 8).
+- `.claude/agents/wiki-ingester.md` — header note explaining Stage 1 archive; full v1 prompt restored beneath.
+- `.claude/commands/check-fleet.md` — NEW slash command for fleet monitoring (verb-rich: status/questions/answer/cost/dag/spot/dry-run-next-stage/divert/etc.; degrades gracefully against existing-state when daemon doesn't exist yet).
+- `working/agent-pipeline-plan.md` — NEW canonical fleet roster (27 agents, dependency-driven ordering, total budget ~$1,250-2,310).
+- `working/fleet-orchestration-plan.md` — NEW. Stage DAG, stats schema, rate-limit handling, sample-based peer-review pattern.
+- `working/fleet-runtime-architecture.md` — NEW. Multi-day Python daemon (NOT a Claude Code session — sidesteps session limits via subprocess.run on `claude --print`). tmux for persistence. State files. Resilience: 4 scales of failure isolation. Coordinator pattern for auto-respawn. Per-stage scripts as no-daemon escape hatch.
+- `working/chat-ui-architecture.md` — NEW. Three-corpus retrieval (graph + wiki prose + book chunks, joined on slug). Friend-group D&D-preview deployment via mattnoth.com submodule. Pure TS + native CSS matching mattnoth-dev's stack. Spoiler gate fully OPEN for v1. Synthesis-not-quotation prompt rule for book copyright posture. UI build fleet separate from construction fleet. .gitignore + Netlify deployment-boundary architecture.
+- `working/design-philosophy.md` — NEW. Unix philosophy + worse-is-better corollary + anti-patterns (featuritis/hidden-coupling/recursive-complexity/composition-through-inheritance). Soft-corrected on peer review (orchestrator-driven sample-based is fine; recursive subagent calls are not). Package + global-install policy.
+- `working/diagrams.md` — NEW. 14 small focused architecture diagrams as scan-in-30-seconds reference.
+- `working/scratch-design-review-stage3b.md` — NEW. Briefing for second-opinion agent that validated the Stage 3b agent→Python redesign.
+- `working/runbooks/wiki-pass2-pipeline.md` — REWRITTEN as v3. Stage 3 fully Python; mid-stage review marked as ran-once-clean; new `## Aftermath`/`## Culture`/`## Organization` schema headings documented.
+- `reference/architecture.md` — Artifact-Format-by-Consumer section + entity-type override doc + edge-vocabulary-lock callout (from Session 25 carried into Session 26 work).
+- `reference/agents.md` — REWRITTEN. 27-agent canonical roster organized by category (Active / Archived / Stage 4 / Quality / Pass 3 / Pass 4 / Pass 5 / Pass 6 / Tier 3 / Reviewers / Meta). Hard-rules block at top includes package-policy reference.
+- `working/wiki-pass2/houses-major-recovery/` — NEW one-off recovery bucket for Tier-1 entities (46 nodes: 7 missing major houses, 27 regions/locations, 10 pre-narrative Targs, 2 chars).
+- `working/wiki-pass2/tier2-recovery/` — NEW one-off recovery bucket for Tier-2 entities (24 nodes: 4 religions, 12 titles, 6 cultures, 2 organizations).
+- `graph/nodes/` — 3,384 new nodes added (3,314 Stage 3 + 46 Tier 1 + 24 Tier 2). Cumulative: 855→4,239.
+- `working/wiki-parsed/` — `cross-references.jsonl` (81,090), `backlink-counts.json` (6,526 entries), `alias-resolver.json`, `cross-refs-summary.md`, `stage3a-emission-summary.json`, `stage3b-extraction-summary.json`, `stage3-promote-summary.json`.
+- `working/todos.md` — major updates: Stage 3 marked complete with stats; Tier 1+2 recoveries logged; obsoleted entries (`Wiki-ingester prompt v2`, `Validator edge byte-equality`); new entries (alias-resolver, multi-type-entity policy PROMINENT, temporal edges v2, per-entity index tables, spoiler-gate-fully-open PROMINENT, chat-UI-deployable-D&D-preview PROMINENT, religion type drift, type=unknown song page, 4 new agent prompts to write, agent pipeline plan reference, chat UI scope shift).
+- `progress/continue-prompts/2026-04-27-wiki-pass2-stage3-finish.md` — completed this session (work absorbed into pipeline-plan + orchestration plan; not deleted because the file documented the redesign decisions).
+- `progress/continue-prompts/2026-04-27-wiki-pass2-stage4-edge-discovery.md` — UPDATED with hybrid plan (Python preprocessing + agent classification). Step 1 (cross-references index) marked complete in this session.
 
-**Decisions:** Pipeline flexibility was already implicit in Session 13's "Track B Before v3 Schema Review" rationale; this session generalizes it. Future-pass work should be framed as "current sketch, open to redesign," and Pass 1 gaps should be treated as inputs to redesigning later passes, not as Pass 1 bugs. No new tracks opened, no continue prompts created or deleted, no extractions run.
+**Decisions (compressed):** Stage 3b became fully Python (no LLM agent) after design review showed wiki HTML already contains the prose; extractor is deterministic, cheap, ~14 sec for 3,315 pages. Concept pages defer (option iii) — empirical broken-link analysis validates this. Multi-type entities are single-node v1 with dominant infobox-type. Spoiler gate fully OPEN for v1. Chat UI scope shifted from personal-local to friend-group-shareable preview at mattnoth.com/projects/<slug> with full prose retrieval (book copyright posture: friend-group only, synthesis-not-quotation, snippet-limited). Stack confirmed pure-TS + native-CSS + esbuild matching mattnoth-dev. Construction fleet ≠ UI build fleet (separate orchestrators, separate tmux sessions; `/check-fleet` skill is multi-orchestrator-aware). Orchestrator daemon is Python-not-Claude-Code-session (subprocess.run on `claude --print` per agent invocation; sidesteps session limits). Per-stage scripts as no-daemon escape hatch. Peer review IS allowed (orchestrator-driven sample-based, not recursive subagent calls). Package + global-install policy codified for code-writing agents. Unix-philosophy framing established as canonical project rationale. Repo confirmed PRIVATE on GitHub (`mattnoth/weirdwood-network`); .gitignore + Netlify-auto-publish-from-main is the intentional safety property keeping copyrighted content off Netlify; books reach the backend via separate path (private container registry, recommended).
 
-**What's next:** Fresh session to start Track B — `progress/continue-prompts/2026-04-25-track-b-orchestration-planning.md` (PLAN-ONLY runbook output), then parser implementation per `progress/continue-prompts/2026-04-24-track-b-wiki-infobox-parser.md`.
+**What's next:** Two parallel tracks, both unblocked. Track A (pipeline construction): Stage 4 build (edge-candidate-generator → prose-edge-classifier runs → reviewer → promote-prose-edges) and Pass 1 catch-up (ACOK + ASOS via mechanical-extractor). Track B (chat UI, eventual): wiki prose chunker + book chapter chunker + embedding pipeline + backend FastAPI + chat component + mattnoth-dev integration. Neither needs a continue prompt — `working/agent-pipeline-plan.md` and `working/chat-ui-architecture.md` document the next-action ladders. Open question: whether to build the orchestrator daemon next OR run Pass 1 catch-up in background tabs OR start the chat UI side. Matt's call.
 
-### Session 13 — Remote Added, Track B Sequencing, Orchestration Planning, Collaborator Prep (2026-04-25)
-**Detail:** `working/session-details/session-013.md`
+### Session 25 — Stage 3 Prep: Priority Script + Stage 3a + Edge Vocabulary Lockdown (2026-04-27)
+**Detail:** `working/session-details/session-025.md`
 **Changes made:**
-- `git remote add origin https://github.com/mattnoth/weirdwood-network.git`
-- `README.md` — added skip-ahead note for users with `sources/raw/`, `sources/chapters/`, `sources/wiki/` already populated
-- `worklog.md` — new DECIDED: "Track B (Wiki Parser) Before v3 Schema Review"
-- `progress/continue-prompts/2026-04-24-track-b-wiki-infobox-parser.md` — prepended "Why Track B Before v3 Schema Review" rationale
-- `progress/continue-prompts/2026-04-25-track-b-orchestration-planning.md` — NEW, PLAN-ONLY orchestration design prompt (output: `working/runbooks/wiki-pass2-orchestration.md`)
-- `progress/scratch-notes.md` — added 3 entries: "Relational DB Decision — Defer", "Collaborator Onboarding — Schema Lock-In Before Handoff", "Foreshadowing Pass Prep — Expand Event List & Chekhov's Guns"
-- `working/todos.md` — orchestration-planning todo (top of Wiki/Pass 2 Prep), parser todo gated on runbook, schema review sequenced-after-Track B; new Collaboration section (schema lock-in, GitHub app revisit, collaborator quick-ref doc); new foreshadowing reference-expansion todo
+- `scripts/wiki-pass2-prioritize.py` — NEW. 472 secondary manifests labeled with `priority_tier` (A/B/C) + `page_kind` (Tier C only). Tier-C-`entity` → Tier-B promotion patched in. Idempotent.
+- `scripts/wiki-pass2-emit-deterministic.py` — NEW. Stage 3a deterministic skeleton emitter. Reads infobox-data.jsonl + per-bucket priority labels; emits `working/wiki-pass2/<bucket>/tmp/<slug>.node.md` (frontmatter + thin Identity + full `## Edges`). Tested on 1 bucket (`houses-other-h-w`, 14 nodes). Full --apply NOT YET RUN.
+- `scripts/wiki-infobox-parser.py` — NEW `ENTITY_TYPE_OVERRIDES` dict (21 mistyped "houses" → `organization.faction`: Night's Watch, Kingsguard, Faceless Men, Maesters, Golden Company, etc.). FIELD_EDGE_MAP additions: `fathers`/`cultures`/`battles` (plural variants of existing mappings) + new `written by` → `WRITTEN_BY` edge type. Module docstring expanded with edge-vocabulary-lock callout.
+- `scripts/wiki-pass2.sh` (`cmd_run`) — reads `prior_status` before flipping bucket to in-progress; if prior was `fail`/`validation-failed`, `rm -rf` `tmp/` (closes long-standing footgun).
+- `reference/architecture.md` — Edge Type Mapping table gained `WRITTEN_BY` row + `Battles` plural note. NEW vocabulary-lock callout block above table (parser is single source of truth, no script invents edges, currently-unmapped fields ranked, edge-polish-is-future, procedure for adding new edge types).
+- `working/wiki-parsed/{infobox-data.jsonl, page-index.jsonl, parse-stats.md, priority-summary.json}` — regenerated by parser + prioritize re-runs.
+- `working/wiki-pass2/*/manifest.json` × 472 — gained additive `priority` field.
+- `working/wiki-pass2/houses-other-h-w/tmp/*.node.md` × 14 — test-bucket skeletons.
+- `working/todos.md` — 4 entries added (book-chapter-pages defer-bucket plan, vocabulary-lock note attached to "Edge taxonomy gaps", new "Edge polish phase (FUTURE)" entry, new "Non-ASCII qualifier normalization (graph layer)" entry). "Launcher should auto-wipe stale tmp/" checked off.
+- `progress/continue-prompts/2026-04-27-wiki-pass2-stage3-prep.md` → archived (DoD ~60% complete).
+- `progress/continue-prompts/2026-04-27-wiki-pass2-stage3-finish.md` — NEW handoff for next session (remaining 40%).
 
-**Decisions:** Worklog kept at current size (Session Log ~91 lines, under 150 threshold; bulk is persistent context). Track B sequenced before v3 schema review — the wiki parser surfaces schema signals (entity boundaries, edge vocabulary, `cite_ref` reliability, redundancy) that an isolated review cannot. Schema-first risks re-running 272 chapters; Track-B-first costs queued work. **No relational DB** — JSONL + markdown handles current access patterns; Neo4j only relevant when traversal queries become painful (1-2 passes away). Migration cost from JSONL forward is low. **Collaborator onboarding constraint:** schema must be ironclad before handoff (collaborator has less ASOIAF depth, can't lore-check the schema). Pass 4 (foreshadowing) needs expanded event list and Chekhov's gun *pattern library* before running — filed long-lead so it's not forgotten.
+**Decisions:** Three mid-course corrections beyond the original prep prompt scope. (1) **Tier-C-entity → Tier-B promotion:** 9 real-content houses/people lacking infoboxes (House Brune, House Shett, etc.) would have been deferred to Stage 4; promoted instead. Empty `## Edges` accepted as the cost. (2) **21 mistyped "houses" surfaced via Stage 3a test-bucket emission and fixed at parser level** (not inline in emit script) so the fix propagates to Stage 4 + future spoiler-gating backfill + any other downstream consumer. v1 uses `organization.faction` for all 21; finer-grained split (order/guild/company) deferred to future edge-polish/entity-polish phase. (3) **Edge vocabulary lock documented in 4 places** after Matt asked whether the taxonomy was being protected from drift — confirmed empirically derived from infobox field frequencies (parse-stats.md is the auto gap-finder), but added explicit hard-rule callouts in architecture.md, parser docstring, emit-deterministic docstring, and todos.md. Captured "edge polish phase" as a future agent-reasoning step, not a Stage 3a/3b concern. Sub-correction: 4 unmapped fields added to FIELD_EDGE_MAP during the lock-down review (`fathers`, `cultures`, `battles` plurals + `written by` → `WRITTEN_BY` new type); mean edges/skeleton ticked 4.57 → 4.60. Tier distribution after promotion: A=624 (18.5%), B=2,691 (79.8%), C=57 (1.7%, all redirects). Stage 3b cost projection: ~$70 for 624 Tier-A pages, well under the $200 guard.
 
 **What's next:**
-- Next session: run `progress/continue-prompts/2026-04-25-track-b-orchestration-planning.md` (PLAN-ONLY, output runbook)
-- Then implement parser per `progress/continue-prompts/2026-04-24-track-b-wiki-infobox-parser.md`
-- Then v3 schema review (informed by Track B output)
-- Then schema lock + collaborator onboarding (with collaborator quick-ref doc + GitHub app)
-- Then scale v3: ACOK (0/70), ASOS (0/82), AFFC (0/46), ADWD (0/73)
+- `/continue 2026-04-27-wiki-pass2-stage3-finish` — fresh agent runs full Stage 3a `--apply`, mid-stage review, wiki-ingester v2 prose-only rewrite, validator edge byte-equality update. THEN STOPS for Matt's go-ahead before Stage 3b.
+- Stage 4 (`2026-04-27-wiki-pass2-stage4-edge-discovery.md`) skeleton remains — flesh out only after Stage 3 finishes.
 
-### Session 12 — AGOT v3 Complete, Rate-Limit Detection, Commit Catchup (2026-04-25)
-**Detail:** `working/session-details/session-012.md`
-**Changes made:**
-- `scripts/extract.sh` — rate-limit detection: checks JSON for `status:rejected`, halts wave immediately, marks remaining chapters as `skip-rate-limit`; replaced `tail -3` preview with structured extraction summary; added emoji indicators (✅ ❌ 🚫 ⏭️ 🔄 ⚠️); removed raw JSON dump on failures
-- `extractions/mechanical/agot/` — all 73 chapters now v3 complete (26 chapters extracted this session, finishing waves 8, 10, 12-15)
-- 3 commits landed: infrastructure (sessions 8-11), extraction tooling, AGOT v3 extractions + archives
-- Memory updated: extraction rule strengthened to absolute prohibition on agent-triggered extractions
+> Sessions 22–24 archived to `working/worklog-archives/archive005.md`
+> Sessions 16-21 archived to `working/worklog-archives/archive004.md`
 
-**Decisions:** Rate-limit detection halts the wave (not the terminal) — stop-file handles cross-wave halting. Emoji in terminal output only, never in extraction content. Structured summary (line count, table rows, events, relationships) replaces raw preview. All historical stat CSVs (v1, v2, v3) kept. One minor schema gap: eddard-01 missing `### Other` header — cosmetic, not blocking.
-
-**What's next:**
-- ACOK v3 extraction: `weirwood acok` to see starting point, then `weirwood acok <tabs> <waves>` to run (0/70, user triggers)
-- Track B (wiki infobox parser) remains independent: `progress/continue-prompts/2026-04-24-track-b-wiki-infobox-parser.md`
-- Schema review of AGOT v3 output quality (next session)
-
-### Session 11 — Extract.sh Instrumentation: Worklog Auto-Update & Versioned CSV (2026-04-24)
-**Detail:** `working/session-details/session-011.md`
-**Changes made:**
-- `scripts/extract.sh` — stats CSV now per-book versioned (`working/extraction-stats/extraction-stats-{book}-pass1-v3.csv`); new `update_worklog()` function auto-updates `worklog.md` checklist after each wave
-- `scripts/extraction-status.sh` — updated to use per-book CSV path
-- `working/extraction-stats.csv` — split: v2 rows (Apr 23) back to v2 CSV, v3 rows (Apr 24) to new v3 CSV
-- `worklog.md` — updated AGOT v3 progress to 30/73 (was stale at 0/73)
-
-**Decisions:** PASS/VERSION hardcoded at script top (not CLI flags) — prompt version changes are rare and deliberate. Worklog update uses filesystem truth via `is_complete`, not CSV row counts. Stats CSVs versioned per book/pass/version so they archive with their extraction run.
-
-**What's next:**
-- Continue AGOT v3 extraction (30/73 done, waves 7-15 remaining)
-- Track B (wiki infobox parser) remains independent: `progress/continue-prompts/2026-04-24-track-b-wiki-infobox-parser.md`
-
-### Session 10 — Prompt Update v3, Archive Prior Extractions, Process Lessons (2026-04-24)
-**Detail:** `working/session-details/session-010.md`
-**Changes made:**
-- `.claude/agents/mechanical-extractor.md` — Raw Entity List expanded to 12 categories (10 named + Other catch-all), added strict formatting rules (all headers required, no merging/renaming, "None" for empty)
-- `reference/architecture.md` — Pass 1 schema table updated to reflect 12 categories
-- `extractions/archives/agot-v2/` — archived 73 AGOT v2 extractions (4-category format)
-- `extractions/archives/acok-v2/` — archived 50 ACOK v2 extractions (4-category format)
-- `extractions/mechanical/agot/` and `acok/` — now empty, ready for v3 runs
-- `cspell.json` — created project-level cSpell dictionary for ASOIAF terms
-- 3 new memory entries (no-extraction-without-asking, check-existing-knowledge-first, knowledge-index-deferred)
-
-**Decisions:** Extractions must go through `weirwood` pipeline only, never background subagents. Raw Entity List locked at 12 categories with strict no-rename/no-merge formatting rules. All prior extractions archived; v3 starts fresh. Trust wiki organization as authority for entity type categories. `Other` catch-all handles edge cases without agent improvisation. Behavioral rules for checking existing knowledge saved; structural index deferred.
-
-**What's next:**
-- Run AGOT extraction via `weirwood agot` with v3 prompt (Matt will trigger manually)
-- After AGOT v3 validates, run ACOK and remaining books
-- Track B (wiki infobox parser) remains independent: `progress/continue-prompts/2026-04-24-track-b-wiki-infobox-parser.md`
-
-### Session 9 — /continue Command, Todo-Prompt Linking, Session Backfill (2026-04-24)
-**Detail:** `working/session-details/session-009.md`
-**Changes made:**
-- Created `.claude/commands/continue.md` — priority-aware `/continue` slash command
-- Updated `working/todos.md` — added `→ continue:` references linking two todo items to their continue prompts
-- Updated `.claude/commands/endsession.md` — added depth-scaling guidance for session details, continue prompt lifecycle (create + cleanup), removed handoffs.md references
-- Updated `CLAUDE.md` — removed handoffs.md, pass1-agot.md, taxonomy-candidates.md from directory tree
-- Created `working/session-details/session-000.md` through `session-007.md` — backfilled all pre-documentation sessions
-- Deleted 7 stale files: `progress/handoffs.md`, `progress/pass1-agot.md`, `progress/README.md`, `working/progress.md`, `working/taxonomy-candidates.md`, `working/extraction-stats-agot-pass1-v1.csv`, `scratch`
-- Deleted completed continue prompt: `2026-04-24-backfill-session-details.md`
-
-**Decisions:** Todos.md is the priority authority; continue prompts link from todos via `→ continue:` lines (one-directional). handoffs.md retired — redundant with todos + continue prompts. Session detail depth should scale to session type (design = full narrative, execution = decisions + surprises). Endsession owns the continue prompt lifecycle (create new, delete completed).
-
-**What's next:**
-- Track A: Update extractor Raw Entity List 4→10 categories, finish ACOK + start ASOS (`progress/continue-prompts/2026-04-24-track-a-extraction-prompt-update.md`)
-- Track B: Write wiki infobox parser script, design Pass 2 (`progress/continue-prompts/2026-04-24-track-b-wiki-infobox-parser.md`)
-
-### Session 8 — Architecture Refactor, Edge/Entity Taxonomy, Wiki Discovery (2026-04-24)
-
-**Detail:** `working/session-details/session-008.md`
-
-**Changes made:**
-- `reference/architecture.md` → pure agent schema reference (removed directory tree, current state, project overview)
-- Entity types: flat list → hierarchical taxonomy with inheritance (18 leaf types across 8 parent categories)
-- Edge types: 26 → ~80 across 14 categories (normalized from v1's 127 ad-hoc types + wiki infobox fields)
-- Edge taxonomy is for graph layer only — Pass 1 stays free-text
-- Wiki `cite_ref` anchors discovered: `R{book}{chapter}` encoding gives chapter-level `first_available`
-- Wiki infobox → edge type mapping table added to architecture.md
-- CLAUDE.md: pipeline status updated, directory tree refreshed
-- Coverage analysis: Raw Entity List has 4 categories, needs 10. Magic/Species/War severely under-indexed.
-- ACOK confirmed at 50/70 (same prompt gap as AGOT)
-
-**Decisions:** architecture.md is agent-only; `house` is its own type under Organization; AGOT/ACOK don't need re-runs (supplementary index instead); prompt update before any further extraction; wiki confidence-tier mapping is a Pass 2 problem; two independent work tracks (A: extraction, B: wiki/Pass 2).
-
-**What's next:**
-- **Track A** (continue prompt: `progress/continue-prompts/2026-04-24-track-a-extraction-prompt-update.md`): Update extractor Raw Entity List 4→10 categories, then finish ACOK + start ASOS
-- **Track B** (continue prompt: `progress/continue-prompts/2026-04-24-track-b-wiki-infobox-parser.md`): Write wiki infobox parser script, then design Pass 2
-- Tracks converge at graph building
-
+> Sessions 8–15 archived to `working/worklog-archives/archive003.md`
 > Sessions 5–7 archived to `working/worklog-archives/archive002.md`
 > Sessions 0–4 archived to `working/worklog-archives/archive001.md`
 

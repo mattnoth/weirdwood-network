@@ -1,0 +1,72 @@
+{
+  "bucket_id": "characters-house-stokeworth",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "f1f319e4f96db475b61358d9051e5b8cdc2c02d8e0500f9eb820d18c60abf3ba",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Alyn Stokeworth",
+    "Falena Stokeworth",
+    "Falyse Stokeworth",
+    "Frenken",
+    "Lollys Stokeworth",
+    "Lord Stokeworth",
+    "Maia Stokeworth",
+    "Manly Stokeworth",
+    "Samantha Stokeworth",
+    "Samwell Stokeworth",
+    "Tanda Stokeworth",
+    "Tyrion Tanner"
+  ],
+  "expected_nodes": [
+    "alyn-stokeworth.node.md",
+    "falena-stokeworth.node.md",
+    "falyse-stokeworth.node.md",
+    "frenken.node.md",
+    "lollys-stokeworth.node.md",
+    "lord-stokeworth.node.md",
+    "maia-stokeworth.node.md",
+    "manly-stokeworth.node.md",
+    "samantha-stokeworth.node.md",
+    "samwell-stokeworth.node.md",
+    "tanda-stokeworth.node.md",
+    "tyrion-tanner.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Falyse Stokeworth",
+      "Frenken",
+      "Lollys Stokeworth",
+      "Tanda Stokeworth",
+      "Tyrion Tanner"
+    ],
+    "tier_b": [
+      "Alyn Stokeworth",
+      "Falena Stokeworth",
+      "Lord Stokeworth",
+      "Maia Stokeworth",
+      "Manly Stokeworth",
+      "Samantha Stokeworth",
+      "Samwell Stokeworth"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 12,
+      "tier_a": 5,
+      "tier_b": 7,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.980547+00:00",
+  "stage3_promoted_count": 12,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

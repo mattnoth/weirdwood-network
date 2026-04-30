@@ -1,0 +1,66 @@
+{
+  "bucket_id": "characters-house-crakehall",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "3da3e071f0604b78efe5ed520014b06bebf34e381aa7145e1b75b5fbddd90e0d",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Amarei Crakehall",
+    "Burton Crakehall",
+    "Clarent Crakehall",
+    "Crake the Boarkiller",
+    "Lyle Crakehall",
+    "Melesa Crakehall",
+    "Merlon Crakehall",
+    "Shiera Crakehall",
+    "Sumner Crakehall",
+    "Tybolt Crakehall"
+  ],
+  "expected_nodes": [
+    "amarei-crakehall.node.md",
+    "burton-crakehall.node.md",
+    "clarent-crakehall.node.md",
+    "crake-the-boarkiller.node.md",
+    "lyle-crakehall.node.md",
+    "melesa-crakehall.node.md",
+    "merlon-crakehall.node.md",
+    "shiera-crakehall.node.md",
+    "sumner-crakehall.node.md",
+    "tybolt-crakehall.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Lyle Crakehall"
+    ],
+    "tier_b": [
+      "Amarei Crakehall",
+      "Burton Crakehall",
+      "Clarent Crakehall",
+      "Crake the Boarkiller",
+      "Melesa Crakehall",
+      "Merlon Crakehall",
+      "Shiera Crakehall",
+      "Sumner Crakehall",
+      "Tybolt Crakehall"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 10,
+      "tier_a": 1,
+      "tier_b": 9,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.727855+00:00",
+  "stage3_promoted_count": 10,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

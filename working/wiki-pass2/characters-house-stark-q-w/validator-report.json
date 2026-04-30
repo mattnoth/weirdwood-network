@@ -1,0 +1,8 @@
+{
+  "bucket_id": "characters-house-stark-q-w",
+  "passed": true,
+  "checked_at": "2026-04-27T03:22:44Z",
+  "node_count_expected": 26,
+  "node_count_actual": 26,
+  "failures": []
+}

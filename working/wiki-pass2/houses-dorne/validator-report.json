@@ -1,0 +1,8 @@
+{
+  "bucket_id": "houses-dorne",
+  "passed": true,
+  "checked_at": "2026-04-27T20:11:20Z",
+  "node_count_expected": 29,
+  "node_count_actual": 29,
+  "failures": []
+}

@@ -1,0 +1,2129 @@
+{
+  "bucket_id": "characters-house-martell-a-m",
+  "tier": "core",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Aliandra Martell",
+      "raw_html_path": "sources/wiki/_raw/Aliandra_Martell.json",
+      "track_b_row": {
+        "page": "Aliandra Martell",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Princess of Dorne",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lady of Sunspear",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Martell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Dornishmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "115\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "136",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "158\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Qoren Martell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Drazenko Rogare",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Lover",
+            "target": "Alyn Velaryon",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric",
+            "qualifier": "rumored"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Aliandra Martell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 33476
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Areo Hotah",
+      "raw_html_path": "sources/wiki/_raw/Areo_Hotah.json",
+      "track_b_row": {
+        "page": "Areo Hotah",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 2,
+          "source": "cite_ref",
+          "pov": "The Prophet"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Captain of the guards",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Sunspear",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Holy guard",
+            "edge_type": "SWORN_TO",
+            "direction": "forward",
+            "qualifier": "formerly"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Martell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Norvoshi",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "257\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Norvos",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            2,
+            13,
+            21,
+            40
+          ],
+          "adwd": [
+            38
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Areo Hotah",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 4,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 52263
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Arianne Martell",
+      "raw_html_path": "sources/wiki/_raw/Arianne_Martell.json",
+      "track_b_row": {
+        "page": "Arianne Martell",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 2,
+          "source": "cite_ref",
+          "pov": "The Prophet"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Princess",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Martell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Dornishmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "276\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Sunspear",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Doran Martell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Mellario",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Lovers",
+            "target": "Daemon Sand",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Lovers",
+            "target": "Gerold Dayne",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Lovers",
+            "target": "Arys Oakheart",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            2,
+            13,
+            21,
+            40
+          ],
+          "adwd": [
+            6,
+            38,
+            43,
+            52,
+            60,
+            61,
+            68,
+            70
+          ],
+          "agot": [
+            46
+          ],
+          "acok": [
+            20,
+            41
+          ],
+          "asos": [
+            4
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Arianne Martell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 2,
+          "asos": 1,
+          "affc": 4,
+          "adwd": 8
+        },
+        "has_infobox": true,
+        "byte_size": 156813
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Belandra",
+      "raw_html_path": "sources/wiki/_raw/Belandra.json",
+      "track_b_row": {
+        "page": "Belandra",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 40,
+          "source": "cite_ref",
+          "pov": "Cersei IX"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Martell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Dornishmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            40
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Belandra",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 6861
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Bors",
+      "raw_html_path": "sources/wiki/_raw/Bors.json",
+      "track_b_row": {
+        "page": "Bors",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 40,
+          "source": "cite_ref",
+          "pov": "Cersei IX"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Martell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Dornishmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            40
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Bors",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 6026
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Caleotte",
+      "raw_html_path": "sources/wiki/_raw/Caleotte.json",
+      "track_b_row": {
+        "page": "Caleotte",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 2,
+          "source": "cite_ref",
+          "pov": "The Prophet"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Maester",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Sunspear",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Citadel",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Martell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Westeros",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            2,
+            21,
+            40
+          ],
+          "adwd": [
+            38
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Caleotte",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 3,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 21740
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Cedra",
+      "raw_html_path": "sources/wiki/_raw/Cedra.json",
+      "track_b_row": {
+        "page": "Cedra",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 40,
+          "source": "cite_ref",
+          "pov": "Cersei IX"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Martell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Dornishmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            40
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Cedra",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 7156
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Coryanne Martell",
+      "raw_html_path": "sources/wiki/_raw/Coryanne_Martell.json",
+      "track_b_row": {
+        "page": "Coryanne Martell",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Princess",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Martell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Dornishmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "116",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "132\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Qoren Martell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Coryanne Martell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 14680
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Deria Martell",
+      "raw_html_path": "sources/wiki/_raw/Deria_Martell.json",
+      "track_b_row": {
+        "page": "Deria Martell",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Princess of Dorne",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lady of Sunspear",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Martell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Dornishmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "35 BC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "37",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "49\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Nymor Martell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Deria Martell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 26959
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Doran Martell",
+      "raw_html_path": "sources/wiki/_raw/Doran_Martell.json",
+      "track_b_row": {
+        "page": "Doran Martell",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 2,
+          "source": "cite_ref",
+          "pov": "Bran I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Prince of Dorne",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of Sunspear",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Castellan",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "formerly"
+          },
+          {
+            "field": "Titles",
+            "target": "Sunspear",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Martell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Dornishmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "247\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "248\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Sunspear",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Mother",
+            "target": "Martell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Mellario",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Spouse",
+            "target": "Norvos",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Arianne Martell",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Quentyn Martell",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Trystane Martell",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            2,
+            13,
+            17,
+            21,
+            23,
+            40
+          ],
+          "adwd": [
+            24,
+            38,
+            43,
+            59,
+            61,
+            68
+          ],
+          "asos": [
+            37,
+            38,
+            53,
+            60,
+            70
+          ],
+          "agot": [
+            2,
+            3,
+            30,
+            57,
+            58
+          ],
+          "acok": [
+            20,
+            22,
+            25,
+            41,
+            42
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Doran Martell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 5,
+          "acok": 5,
+          "asos": 5,
+          "affc": 6,
+          "adwd": 6
+        },
+        "has_infobox": true,
+        "byte_size": 163020
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-sansa-05",
+          "line": 89,
+          "context": "| Lady Shella Whent | Named in traitor decree | Pycelle (decree) |\n| Doran Martell | Named in traitor decree; Prince of Dorne, and all his sons | Pycelle (decree) |\n| Catelyn Stark | Named in traitor "
+        },
+        {
+          "chapter": "agot-sansa-05",
+          "line": 291,
+          "context": "### Characters\nSansa Stark, Joffrey Baratheon, Cersei Lannister, Grand Maester Pycelle, Lord Varys, Petyr Baelish (Littlefinger), Ser Barristan Selmy, Sandor Clegane (the Hound), Janos Slynt, Ser Mand"
+        }
+      ]
+    },
+    {
+      "page": "Dorea Sand",
+      "raw_html_path": "sources/wiki/_raw/Dorea_Sand.json",
+      "track_b_row": {
+        "page": "Dorea Sand",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 2,
+          "source": "cite_ref",
+          "pov": "The Prophet"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Martell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Dornishmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "291\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "age 8"
+          },
+          {
+            "field": "Born",
+            "target": "292\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "age 8"
+          },
+          {
+            "field": "Father",
+            "target": "Oberyn Martell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Ellaria Sand",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            2,
+            40
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Dorea Sand",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 2,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 59034
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Elia Martell",
+      "raw_html_path": "sources/wiki/_raw/Elia_Martell.json",
+      "track_b_row": {
+        "page": "Elia Martell",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 2,
+          "source": "cite_ref",
+          "pov": "The Prophet"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Princess",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Martell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Dornishmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "256\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "257\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Sunspear",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Dorne",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "283\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Maegor's Holdfast",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "King's Landing",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Mother",
+            "target": "Martell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Rhaegar Targaryen",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Rhaenys Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Aegon Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Elia of Dorne"
+        ],
+        "cite_refs": {
+          "acok": [
+            17,
+            48,
+            63
+          ],
+          "agot": [
+            3,
+            12,
+            58
+          ],
+          "asos": [
+            11,
+            19,
+            24,
+            33,
+            37,
+            38,
+            42,
+            44,
+            53,
+            66,
+            70
+          ],
+          "affc": [
+            2,
+            24,
+            40
+          ],
+          "adwd": [
+            23,
+            24,
+            61,
+            67
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Elia Martell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 3,
+          "acok": 3,
+          "asos": 11,
+          "affc": 3,
+          "adwd": 4
+        },
+        "has_infobox": true,
+        "byte_size": 125019
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-eddard-07",
+          "line": 79,
+          "context": "| Aegon Targaryen (infant prince) | Rumored dashed against a wall by Gregor | Ned's recollection of rumors |\n| Elia Martell (Dornish princess) | Rumored raped and killed by Gregor after her son's deat"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 304,
+          "context": "### Characters\nEddard Stark (Ned), Robert Baratheon, Ser Barristan Selmy, Sandor Clegane (the Hound), Jaime Lannister (the Kingslayer), Ser Gregor Clegane (the Mountain That Rides), Ser Loras Tyrell ("
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 319,
+          "context": "### Cultures & Peoples\nBraavosi (Syrio Forel's style and origin), Dornish (Elia Martell, Dornish Marches)"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 67,
+          "context": "| Lyanna Stark | Rhaegar laid the queen of beauty's laurel in her lap; she loved winter roses; whispered \"Promise me, Ned\" from her bed of blood | Ned (memory) |\n| Elia Martell | Rhaegar's wife, the D"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 142,
+          "context": "11. **Ned remembers Rhaegar's triumph** \u2014 Rhaegar in black ruby-studded armor defeated Brandon, Bronze Yohn Royce, Ser Arthur Dayne, and Ser Barristan Selmy in jousting.\n12. **Ned remembers the moment"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 263,
+          "context": "| Rhaegar Targaryen | crowned as queen of beauty | Lyanna Stark | Laid the laurel of winter roses in her lap, passing over his wife Elia |\n| Rhaegar Targaryen | married to | Elia Martell | \"His own wi"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 293,
+          "context": "### Characters\nEddard Stark, Robert Baratheon, Cersei Lannister, Jaime Lannister, Varys, Littlefinger (Petyr Baelish), Janos Slynt, Pycelle, Ser Barristan Selmy, Renly Baratheon, Catelyn Stark, Sansa "
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 308,
+          "context": "### Cultures & Peoples\nDornish (Elia Martell described as \"the Dornish princess\"), Northerners (Robb's northern host)"
+        },
+        {
+          "chapter": "agot-eddard-02",
+          "line": 60,
+          "context": "| Rickard Stark (Ned's father) | Killed by Aerys (\"your lord father\"); Robert references this | Robert |\n| Rhaegar's wife (Elia Martell, unnamed) | Murdered by Lannister men after the sack | Ned (narr"
+        },
+        {
+          "chapter": "agot-eddard-02",
+          "line": 239,
+          "context": "### Characters\nEddard Stark, Robert Baratheon, Alyn, Ser Boros Blount, Ser Meryn Trant, Cersei Lannister, Wylla, Becca, Varys, Aerys Targaryen, Daenerys Targaryen, Khal Drogo, Viserys Targaryen, Jorah"
+        }
+      ]
+    },
+    {
+      "page": "Elia Sand",
+      "raw_html_path": "sources/wiki/_raw/Elia_Sand.json",
+      "track_b_row": {
+        "page": "Elia Sand",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 2,
+          "source": "cite_ref",
+          "pov": "The Prophet"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Martell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Dornishmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "285\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "age 14"
+          },
+          {
+            "field": "Born",
+            "target": "286\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "age 14"
+          },
+          {
+            "field": "Father",
+            "target": "Oberyn Martell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Ellaria Sand",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [
+          "El",
+          "Lady Lance"
+        ],
+        "cite_refs": {
+          "adwd": [
+            38
+          ],
+          "affc": [
+            2,
+            13,
+            40
+          ],
+          "asos": [
+            38
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Elia Sand",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 3,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 77918
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Frynne",
+      "raw_html_path": "sources/wiki/_raw/Frynne.json",
+      "track_b_row": {
+        "page": "Frynne",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 40,
+          "source": "cite_ref",
+          "pov": "Cersei IX"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Martell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Dornishmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "smith",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            40
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Frynne",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 4747
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Garibald Shells",
+      "raw_html_path": "sources/wiki/_raw/Garibald_Shells.json",
+      "track_b_row": {
+        "page": "Garibald Shells",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Martell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Dornishmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Garibald Shells",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 9840
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Gascoyne of the Greenblood",
+      "raw_html_path": "sources/wiki/_raw/Gascoyne_of_the_Greenblood.json",
+      "track_b_row": {
+        "page": "Gascoyne of the Greenblood",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 13,
+          "source": "cite_ref",
+          "pov": "Cersei III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Martell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Dornishmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Gascoyne of the Greenblood"
+        ],
+        "cite_refs": {
+          "affc": [
+            13
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Gascoyne of the Greenblood",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 5204
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Joss Hood",
+      "raw_html_path": "sources/wiki/_raw/Joss_Hood.json",
+      "track_b_row": {
+        "page": "Joss Hood",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Martell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Dornishmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Joss Hood",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 7716
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Lewyn Martell",
+      "raw_html_path": "sources/wiki/_raw/Lewyn_Martell.json",
+      "track_b_row": {
+        "page": "Lewyn Martell",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 13,
+          "source": "cite_ref",
+          "pov": "Cersei III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Prince",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Martell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Kingsguard",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Dornishmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "283\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Trident",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Lover",
+            "target": "paramour",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [
+          "Lewyn of Dorne"
+        ],
+        "cite_refs": {
+          "agot": [
+            57
+          ],
+          "affc": [
+            13,
+            23
+          ],
+          "asos": [
+            37,
+            38,
+            44,
+            67
+          ],
+          "adwd": [
+            59
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Lewyn Martell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 0,
+          "asos": 4,
+          "affc": 2,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 71503
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Loreza Sand",
+      "raw_html_path": "sources/wiki/_raw/Loreza_Sand.json",
+      "track_b_row": {
+        "page": "Loreza Sand",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 13,
+          "source": "cite_ref",
+          "pov": "Cersei III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Martell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Dornishmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "293\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "age 7"
+          },
+          {
+            "field": "Father",
+            "target": "Oberyn Martell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Ellaria Sand",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [
+          "Loree"
+        ],
+        "cite_refs": {
+          "adwd": [
+            38
+          ],
+          "affc": [
+            13
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Loreza Sand",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 62226
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Manfrey Martell",
+      "raw_html_path": "sources/wiki/_raw/Manfrey_Martell.json",
+      "track_b_row": {
+        "page": "Manfrey Martell",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 13,
+          "source": "cite_ref",
+          "pov": "Cersei III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Castellan",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Sunspear",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Martell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Dornishmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouse",
+            "target": "Unknown",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            13,
+            40
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Manfrey Martell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 2,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 60226
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Mara Martell",
+      "raw_html_path": "sources/wiki/_raw/Mara_Martell.json",
+      "track_b_row": {
+        "page": "Mara Martell",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Princess of Dorne",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lady of Sunspear",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Martell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Dornishmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "83",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "101\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Mara Martell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 12019
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Maron Martell",
+      "raw_html_path": "sources/wiki/_raw/Maron_Martell.json",
+      "track_b_row": {
+        "page": "Maron Martell",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 2,
+          "source": "cite_ref",
+          "pov": "The Prophet"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Prince of Dorne",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of Sunspear",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Martell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Dornishmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "147",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "158\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Martell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Daenerys Targaryen",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Son",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            38
+          ],
+          "affc": [
+            2,
+            13
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Maron Martell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 2,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 48958
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Maron Martell's son",
+      "raw_html_path": "sources/wiki/_raw/Maron_Martell's_son.json",
+      "track_b_row": {
+        "page": "Maron Martell's son",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 38,
+          "source": "cite_ref",
+          "pov": "The Prince of Winterfell"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Martell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Dornishmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "187",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "194\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Maron Martell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Daenerys Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            38
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Maron Martell's son",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 28858
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Mellario",
+      "raw_html_path": "sources/wiki/_raw/Mellario.json",
+      "track_b_row": {
+        "page": "Mellario",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 2,
+          "source": "cite_ref",
+          "pov": "The Prophet"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Princess Consort of Dorne",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "formerly"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Martell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Norvoshi",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "248\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "264\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Norvos",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouse",
+            "target": "Doran Martell",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Arianne Martell",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Quentyn Martell",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Trystane Martell",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Mellario of Norvos"
+        ],
+        "cite_refs": {
+          "asos": [
+            19,
+            70
+          ],
+          "adwd": [
+            68
+          ],
+          "affc": [
+            2,
+            13,
+            21,
+            40
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Mellario",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 2,
+          "affc": 4,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 82364
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Mellei",
+      "raw_html_path": "sources/wiki/_raw/Mellei.json",
+      "track_b_row": {
+        "page": "Mellei",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 40,
+          "source": "cite_ref",
+          "pov": "Cersei IX"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Martell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Dornishmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            40
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Mellei",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 4613
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Morgan Martell",
+      "raw_html_path": "sources/wiki/_raw/Morgan_Martell.json",
+      "track_b_row": {
+        "page": "Morgan Martell",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lord of the Sandship",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Martell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Andal",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Andal",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Morgan Martell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 6267
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

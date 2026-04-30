@@ -1,0 +1,41 @@
+{
+  "bucket_id": "characters-house-norridge",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "152826ee4f6b193cb34b2e93282c47b0c12191693bea28ec459628eab7ff746d",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Elyn Norridge",
+    "Jeremy Norridge"
+  ],
+  "expected_nodes": [
+    "elyn-norridge.node.md",
+    "jeremy-norridge.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Elyn Norridge",
+      "Jeremy Norridge"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 2,
+      "tier_a": 0,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.887732+00:00",
+  "stage3_promoted_count": 2,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

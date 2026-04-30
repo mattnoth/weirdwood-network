@@ -1,0 +1,54 @@
+{
+  "bucket_id": "characters-house-tallhart",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "9cf2fd8982f96787930d59a0652d4be957180fb6ebed353745d6a5698903899e",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Benfred Tallhart",
+    "Beren Tallhart",
+    "Brandon Tallhart",
+    "Eddara Tallhart",
+    "Helman Tallhart",
+    "Leobald Tallhart"
+  ],
+  "expected_nodes": [
+    "benfred-tallhart.node.md",
+    "beren-tallhart.node.md",
+    "brandon-tallhart.node.md",
+    "eddara-tallhart.node.md",
+    "helman-tallhart.node.md",
+    "leobald-tallhart.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Helman Tallhart"
+    ],
+    "tier_b": [
+      "Benfred Tallhart",
+      "Beren Tallhart",
+      "Brandon Tallhart",
+      "Eddara Tallhart",
+      "Leobald Tallhart"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 6,
+      "tier_a": 1,
+      "tier_b": 5,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.992432+00:00",
+  "stage3_promoted_count": 6,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

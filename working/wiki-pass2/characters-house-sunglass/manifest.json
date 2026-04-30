@@ -1,0 +1,45 @@
+{
+  "bucket_id": "characters-house-sunglass",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "a4535924b7820080ec71559940d89a2c26c4642e2f1b83fa88f0e83034b4f3ee",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Guncer Sunglass",
+    "Lord Sunglass",
+    "Triston of Tally Hill"
+  ],
+  "expected_nodes": [
+    "guncer-sunglass.node.md",
+    "lord-sunglass.node.md",
+    "triston-of-tally-hill.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Guncer Sunglass"
+    ],
+    "tier_b": [
+      "Lord Sunglass",
+      "Triston of Tally Hill"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 3,
+      "tier_a": 1,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.986285+00:00",
+  "stage3_promoted_count": 3,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

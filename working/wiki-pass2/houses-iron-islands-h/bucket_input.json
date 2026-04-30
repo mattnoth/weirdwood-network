@@ -1,0 +1,1212 @@
+{
+  "bucket_id": "houses-iron-islands-h",
+  "tier": "core",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "House Hoare",
+      "raw_html_path": "sources/wiki/_raw/House_Hoare.json",
+      "track_b_row": {
+        "page": "House Hoare",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 1,
+          "source": "cite_ref",
+          "pov": "Prologue"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seats",
+            "target": "Orkmont",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Seats",
+            "target": "Hoare Castle",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Seats",
+            "target": "Pyke",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse",
+            "qualifier": "possibly"
+          },
+          {
+            "field": "Seats",
+            "target": "Fairmarket",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Seats",
+            "target": "Harrenhal",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Extinct",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Regions",
+            "target": "Iron Islands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Regions",
+            "target": "Riverlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "King of the Iron Islands",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "King of the Isles and the Rivers",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            11
+          ],
+          "affc": [
+            1,
+            11,
+            19,
+            29
+          ],
+          "agot": [
+            60
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Hoare",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 1,
+          "asos": 0,
+          "affc": 4,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 85373
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Humble",
+      "raw_html_path": "sources/wiki/_raw/House_Humble.json",
+      "track_b_row": {
+        "page": "House Humble",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 18,
+          "source": "cite_ref",
+          "pov": "Cersei IV"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Iron Islands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Greyjoy",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            18,
+            29
+          ],
+          "adwd": [
+            20,
+            56
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Humble",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 2,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 29991
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Ironmaker",
+      "raw_html_path": "sources/wiki/_raw/House_Ironmaker.json",
+      "track_b_row": {
+        "page": "House Ironmaker",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 19,
+          "source": "cite_ref",
+          "pov": "The Iron Captain"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Erik Ironmaker",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Iron Islands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Greyjoy",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            26
+          ],
+          "affc": [
+            19
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Ironmaker",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 36974
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Kenning of Harlaw",
+      "raw_html_path": "sources/wiki/_raw/House_Kenning_of_Harlaw.json",
+      "track_b_row": {
+        "page": "House Kenning of Harlaw",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 11,
+          "source": "cite_ref",
+          "pov": "Sansa"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Lord Kenning",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Iron Islands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Harlaw",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            11,
+            18
+          ],
+          "adwd": [
+            20,
+            26
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Kenning of Harlaw",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 2,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 29973
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Merlyn",
+      "raw_html_path": "sources/wiki/_raw/House_Merlyn.json",
+      "track_b_row": {
+        "page": "House Merlyn",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 1,
+          "source": "cite_ref",
+          "pov": "Prologue"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Pebbleton",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Meldred Merlyn",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Iron Islands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Lord of Pebbleton",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Greyjoy",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            24
+          ],
+          "affc": [
+            1,
+            19
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Merlyn",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 2,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 26815
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Myre",
+      "raw_html_path": "sources/wiki/_raw/House_Myre.json",
+      "track_b_row": {
+        "page": "House Myre",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 11,
+          "source": "cite_ref",
+          "pov": "Sansa"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Lord Myre",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Iron Islands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Harlaw",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            11,
+            18
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Myre",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 2,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 26258
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Netley",
+      "raw_html_path": "sources/wiki/_raw/House_Netley.json",
+      "track_b_row": {
+        "page": "House Netley",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 18,
+          "source": "cite_ref",
+          "pov": "Cersei IV"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Iron Islands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Greyjoy",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            18
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Netley",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 21765
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Orkwood",
+      "raw_html_path": "sources/wiki/_raw/House_Orkwood.json",
+      "track_b_row": {
+        "page": "House Orkwood",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 11,
+          "source": "cite_ref",
+          "pov": "Sansa"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Orkmont",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Alyn Orkwood",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Iron Islands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Greyjoy",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            11,
+            18,
+            19
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Orkwood",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 3,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 28961
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Saltcliffe",
+      "raw_html_path": "sources/wiki/_raw/House_Saltcliffe.json",
+      "track_b_row": {
+        "page": "House Saltcliffe",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 19,
+          "source": "cite_ref",
+          "pov": "The Iron Captain"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Saltcliffe",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Donnor Saltcliffe",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Iron Islands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Greyjoy",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            24,
+            49
+          ],
+          "affc": [
+            19
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Saltcliffe",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 2,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 27605
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Sharp",
+      "raw_html_path": "sources/wiki/_raw/House_Sharp.json",
+      "track_b_row": {
+        "page": "House Sharp",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 19,
+          "source": "cite_ref",
+          "pov": "The Iron Captain"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Iron Islands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Greyjoy",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            66
+          ],
+          "affc": [
+            19
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Sharp",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 24540
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Shepherd",
+      "raw_html_path": "sources/wiki/_raw/House_Shepherd.json",
+      "track_b_row": {
+        "page": "House Shepherd",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 18,
+          "source": "cite_ref",
+          "pov": "Cersei IV"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Iron Islands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Greyjoy",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            18
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Shepherd",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 22562
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Sparr",
+      "raw_html_path": "sources/wiki/_raw/House_Sparr.json",
+      "track_b_row": {
+        "page": "House Sparr",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 1,
+          "source": "cite_ref",
+          "pov": "Prologue"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Great Wyk",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Sparr",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Iron Islands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Greyjoy",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            24,
+            46,
+            49
+          ],
+          "affc": [
+            1,
+            18
+          ],
+          "adwd": [
+            56
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Sparr",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 3,
+          "asos": 0,
+          "affc": 2,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 29004
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Stonehouse",
+      "raw_html_path": "sources/wiki/_raw/House_Stonehouse.json",
+      "track_b_row": {
+        "page": "House Stonehouse",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 11,
+          "source": "cite_ref",
+          "pov": "Davos I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Old Wyk",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Stonehouse",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Iron Islands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Greyjoy",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            11,
+            24
+          ],
+          "affc": [
+            18,
+            19
+          ],
+          "adwd": [
+            56
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Stonehouse",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 2,
+          "asos": 0,
+          "affc": 2,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 32543
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Sunderly",
+      "raw_html_path": "sources/wiki/_raw/House_Sunderly.json",
+      "track_b_row": {
+        "page": "House Sunderly",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 1,
+          "source": "cite_ref",
+          "pov": "Prologue"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Saltcliffe",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Sunderly",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Iron Islands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Greyjoy",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            1
+          ],
+          "acok": [
+            24
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Sunderly",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 26919
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Tawney",
+      "raw_html_path": "sources/wiki/_raw/House_Tawney.json",
+      "track_b_row": {
+        "page": "House Tawney",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 18,
+          "source": "cite_ref",
+          "pov": "Cersei IV"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Orkmont",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Balon Tawney",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Iron Islands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Greyjoy",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            18
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Tawney",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 25976
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Volmark",
+      "raw_html_path": "sources/wiki/_raw/House_Volmark.json",
+      "track_b_row": {
+        "page": "House Volmark",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 11,
+          "source": "cite_ref",
+          "pov": "Sansa"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Volmark",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Maron Volmark",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Regions",
+            "target": "Iron Islands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Regions",
+            "target": "Reach",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of Volmark",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of Greenshield",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Harlaw",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            11,
+            18,
+            19,
+            29
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Volmark",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 4,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 35923
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Weaver",
+      "raw_html_path": "sources/wiki/_raw/House_Weaver.json",
+      "track_b_row": {
+        "page": "House Weaver",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 18,
+          "source": "cite_ref",
+          "pov": "Cersei IV"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Iron Islands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Greyjoy",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            18
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Weaver",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 22733
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Wynch",
+      "raw_html_path": "sources/wiki/_raw/House_Wynch.json",
+      "track_b_row": {
+        "page": "House Wynch",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 11,
+          "source": "cite_ref",
+          "pov": "Davos I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Iron Holt",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Waldon Wynch",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Iron Islands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Lord of Iron Holt",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Greyjoy",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            11,
+            24
+          ],
+          "asos": [
+            69
+          ],
+          "affc": [
+            11,
+            18,
+            19
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Wynch",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 2,
+          "asos": 1,
+          "affc": 3,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 34699
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

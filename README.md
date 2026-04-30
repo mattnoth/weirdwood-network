@@ -202,4 +202,19 @@ Conventions:
 
 If you're a future agent or collaborator reading this: treat `scratch-notes.md` as time-stamped context, not as authoritative state. The worklog and todos are the sources of truth.
 
+### Continue Prompts and `/continue`
+
+`progress/continue-prompts/` holds self-contained resumption context for specific work tracks that span multiple sessions. Each prompt is a markdown file with everything a fresh agent needs to pick up the work without reading session history — goal, current state, files involved, next concrete step.
+
+Use the `/continue` slash command to resume a track:
+
+- `/continue` — lists active continue prompts (linked from `working/todos.md` via `→ continue:` lines), ranked by todo priority, and asks which one to run.
+- `/continue <substring>` — substring-matches a prompt filename (e.g., `/continue backfill` → `2026-04-24-backfill-session-details.md`).
+
+The `/endsession` checklist creates new continue prompts for any work that's mid-flight at session end and deletes prompts whose work has been completed. Continue prompts referenced from `todos.md` are linked back via a `→ continue: progress/continue-prompts/...` line under the relevant todo item.
+
+### `/endsession`
+
+The `/endsession` slash command runs the end-of-session checklist defined in `.claude/commands/endsession.md`: writes a full narrative to `working/session-details/session-NNN.md`, adds a concise entry to `worklog.md`, manages continue prompts and todos, updates progress logs, archives old worklog entries if needed, and verifies `.gitignore` still protects copyrighted content. Run it at the end of every working session.
+
 See `CLAUDE.md` for the complete orchestrator guide, agent definitions, and project conventions.

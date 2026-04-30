@@ -1,0 +1,3 @@
+## Origins
+
+Lyanne married [Willam Stark](wiki:Willam_Stark), the [Lord of Winterfell](wiki:Lord_of_Winterfell) and [Warden of the North](wiki:Warden_of_the_North). She gave him a son, [Brandon](wiki:Brandon_Stark_(son_of_Willam)), but died during his birth.(wiki:Lyanne_Glover.cite_ref-Rtwoiafappendix:_stark_lineage.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)(wiki:Lyanne_Glover.cite_ref-Ragot24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) After Lyanne's death, Lord Willam remarried to [Melantha Blackwood](wiki:Melantha_Blackwood).(wiki:Lyanne_Glover.cite_ref-Rtwoiafappendix:_stark_lineage.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)(wiki:Lyanne_Glover.cite_ref-4)

@@ -1,0 +1,62 @@
+{
+  "bucket_id": "characters-house-seaworth",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "d567fabad7343f314d9c68d70f33e5f23b51f6b7a75dd9791d96fce08148b114",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Allard Seaworth",
+    "Dale Seaworth",
+    "Davos Seaworth",
+    "Devan Seaworth",
+    "Maric Seaworth",
+    "Marya Seaworth",
+    "Matthos Seaworth",
+    "Stannis Seaworth",
+    "Steffon Seaworth"
+  ],
+  "expected_nodes": [
+    "allard-seaworth.node.md",
+    "dale-seaworth.node.md",
+    "davos-seaworth.node.md",
+    "devan-seaworth.node.md",
+    "maric-seaworth.node.md",
+    "marya-seaworth.node.md",
+    "matthos-seaworth.node.md",
+    "stannis-seaworth.node.md",
+    "steffon-seaworth.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Allard Seaworth",
+      "Dale Seaworth",
+      "Davos Seaworth",
+      "Devan Seaworth",
+      "Maric Seaworth",
+      "Marya Seaworth",
+      "Matthos Seaworth",
+      "Stannis Seaworth",
+      "Steffon Seaworth"
+    ],
+    "tier_b": [],
+    "tier_c": [],
+    "stats": {
+      "total": 9,
+      "tier_a": 9,
+      "tier_b": 0,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.963234+00:00",
+  "stage3_promoted_count": 9,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

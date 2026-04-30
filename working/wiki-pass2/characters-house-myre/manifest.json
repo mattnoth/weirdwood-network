@@ -1,0 +1,41 @@
+{
+  "bucket_id": "characters-house-myre",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "a820ee96d74c9d39a5ff8ef775bd66a9c1406626fce20342267a3ca9f903ba4c",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Jon Myre",
+    "Lord Myre"
+  ],
+  "expected_nodes": [
+    "jon-myre.node.md",
+    "lord-myre.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Jon Myre",
+      "Lord Myre"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 2,
+      "tier_a": 0,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.884985+00:00",
+  "stage3_promoted_count": 2,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

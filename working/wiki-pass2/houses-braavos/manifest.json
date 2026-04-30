@@ -1,0 +1,60 @@
+{
+  "bucket_id": "houses-braavos",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "84e1967f28721e990473f1de7c17e81ae60b3cd919339bdaf0b14b8472fedecc",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Faceless Men",
+    "House Antaryon",
+    "House Fregar",
+    "House Otharys",
+    "House Otherys",
+    "House Prestayn",
+    "House Reyaan",
+    "House Zalyne"
+  ],
+  "expected_nodes": [
+    "faceless-men.node.md",
+    "house-antaryon.node.md",
+    "house-fregar.node.md",
+    "house-otharys.node.md",
+    "house-otherys.node.md",
+    "house-prestayn.node.md",
+    "house-reyaan.node.md",
+    "house-zalyne.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:56Z",
+    "tier_a": [
+      "Faceless Men"
+    ],
+    "tier_b": [
+      "House Antaryon",
+      "House Fregar",
+      "House Otharys",
+      "House Otherys",
+      "House Prestayn",
+      "House Reyaan",
+      "House Zalyne"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 8,
+      "tier_a": 1,
+      "tier_b": 7,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.290924+00:00",
+  "stage3_promoted_count": 8,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

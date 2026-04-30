@@ -1,0 +1,33 @@
+---
+name: "Lorent Grandison"
+type: character.human
+slug: lorent-grandison
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Lorent_Grandison"
+bucket_id: characters-house-grandison
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Lorent Grandison is a character.human from the AWOIAF wiki.
+
+## Edges
+
+- HOLDS_TITLE: Lord of Grandview (track_b: Titles)
+- HOLDS_TITLE: Lord Regent (track_b: Titles)
+- SWORN_TO: House Grandison (track_b: Allegiance)
+- CULTURE_OF: Stormlander (track_b: Culture)
+
+## Origins
+
+During the [Great Council](wiki:Great_Council) of [136 AC](wiki:136_AC), three [regents](wiki:Regent) were selected by lot to serve in the [regency](wiki:Regency_of_Aegon_III) for King [Aegon III Targaryen](wiki:Aegon_III_Targaryen).(wiki:Lorent_Grandison.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_iii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) Lord Lorent Grandison was among the three regents selected, considered an inoffensive, though undistinguished, choice.(wiki:Lorent_Grandison.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+
+When Lady [Cassandra Baratheon](wiki:Cassandra_Baratheon) was found guilty of conspiring to [poison](wiki:Poison) Queen [Daenaera Velaryon](wiki:Daenaera_Velaryon), three bannermen of [House Baratheon](wiki:House_Baratheon) spoke for [Storm's End](wiki:Storm's_End) at the trial. Through them and Lord Grandison, Lady Cassandra was arranged to marry Ser [Walter Brownhill](wiki:Walter_Brownhill), a minor [landed knight](wiki:Landed_knight). While the regents and Lord [Torrhen Manderly](wiki:Torrhen_Manderly), the [Hand of the King](wiki:Hand_of_the_King), were discussing King Aegon III's first [royal progress](wiki:Royal_progress), the young king entered the room and dismissed them all, for he had come of age.(wiki:Lorent_Grandison.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+
+## Appearances & Description
+
+Lorent was known for his love to sleep. An undistinguished [regent](wiki:Regent), he considered his two fellow regents, [Marq Merryweather](wiki:Marq_Merryweather) and [Willam Stackspear](wiki:Willam_Stackspear), to be fools.(wiki:Lorent_Grandison.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)

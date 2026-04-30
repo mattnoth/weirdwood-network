@@ -1,0 +1,8 @@
+{
+  "bucket_id": "houses-iron-islands-h",
+  "passed": true,
+  "checked_at": "2026-04-27T16:11:40Z",
+  "node_count_expected": 18,
+  "node_count_actual": 18,
+  "failures": []
+}

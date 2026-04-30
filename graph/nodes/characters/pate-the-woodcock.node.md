@@ -1,0 +1,32 @@
+---
+name: "Pate the Woodcock"
+type: character.human
+slug: pate-the-woodcock
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Pate_the_Woodcock"
+bucket_id: characters-other-o-p
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Pate the Woodcock is a character.human from the AWOIAF wiki.
+
+## Edges
+
+- HOLDS_TITLE: Ser (track_b: Title)
+- SWORN_TO: Kingsguard (track_b: Allegiance)
+- CULTURE_OF: Westerosi (track_b: Culture)
+
+## Origins
+
+By [49 AC](wiki:49_AC), the young king [Jaehaerys I](wiki:Jaehaerys_I_Targaryen) still had five vacant spots in the Kingsguard to fill. At the [wedding](wiki:Golden_Wedding) of his mother [Alyssa Velaryon](wiki:Alyssa_Velaryon) and Lord [Rogar Baratheon](wiki:Rogar_Baratheon), it was decided to fill the remaining five slots by a test of arms since knights from all over the realm had come to attend the wedding. Jaehaerys agreed, but with a twist - the knights must fight on foot, not in the [joust](wiki:Joust), for foes seldom strike a king from [horseback](wiki:Horse).(wiki:Pate_the_Woodcock.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+
+The wild [melees](wiki:Melee) and bloody duels that followed were dubbed by [maesters](wiki:Maesters) as the [War for the White Cloaks](wiki:War_for_the_White_Cloaks), with hundreds of knights competing for the honor of serving in the [Kingsguard](wiki:Kingsguard). Ser Pate the Woodcock was one of the five champions. He was the youngest of all the champions, and his weapon of choice was a [spear](wiki:Spear) instead of a [sword](wiki:Sword). Some questioned whether he truly was a knight, but such was his skill that Ser [Joffrey Doggett](wiki:Joffrey_Doggett) personally knighted the lad himself to end the accusation while hundreds of onlookers cheered, after which Pate was given the white cloak of the Kingsguard.(wiki:Pate_the_Woodcock.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+
+During King Jaehaerys' training at [Dragonstone](wiki:Dragonstone), Ser Pate was the one who won the castle garrison's wagers on who would "kill" (defeat) the young king the most. In the book allegedly written by Lady [Coryanne Wylde](wiki:Coryanne_Wylde), *[A Caution for Young Girls](wiki:A_Caution_for_Young_Girls)*, the author claimed to have bedded both Ser Pate and his sworn brother Ser [Joffrey Doggett](wiki:Joffrey_Doggett), although most maesters dismiss these claims.(wiki:Pate_the_Woodcock.cite_ref-Rfaba_surfeit_of_rulers.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+
+After Jaehaerys reached maturity and sat on the [Iron Throne](wiki:Iron_Throne) in [King's Landing](wiki:King's_Landing), the king summoned Lord [Rogar Baratheon](wiki:Rogar_Baratheon) and granted him a full pardon, on the condition that he be a faithful husband to Jaehaerys's mother, [Alyssa Velaryon](wiki:Alyssa_Velaryon), to which Lord Rogar agreed. Ser Pate led the escort of a hundred [men-at-arms](wiki:Men-at-arms) to take Lord Rogar and Queen Alyssa safely to [Storm's End](wiki:Storm's_End).(wiki:Pate_the_Woodcock.cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)

@@ -1,0 +1,5 @@
+## Origins
+
+During the [Dance of the Dragons](wiki:Dance_of_the_Dragons), Ser Loreth sided with the [blacks](wiki:Blacks). After Rhaenyra [seized](wiki:Fall_of_King's_Landing) [King's Landing](wiki:King's_Landing), Ser Loreth was made one of her Queensguard. He was one of the [Seven Who Rode](wiki:Seven_Who_Rode), seven knights that went after Prince [Joffrey Velaryon](wiki:Joffrey_Velaryon) when the prince mounted the [dragon](wiki:Dragon) [Syrax](wiki:Syrax) to fly to the [Dragonpit](wiki:Dragonpit), during the [Riot of King's Landing](wiki:Riot_of_King's_Landing_(Dance_of_the_Dragons)).(wiki:Loreth_Lansdale.cite_ref-Rfabthe_dying_of_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+
+Ser Loreth was killed in defense of Rhaenyra by the men of Ser [Alfred Broome](wiki:Alfred_Broome) at [Dragonstone](wiki:Dragonstone). He managed to kill two of his opponents before falling. He was the last of Rhaenyra's Queensguard.(wiki:Loreth_Lansdale.cite_ref-Rfabthe_dying_of_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)

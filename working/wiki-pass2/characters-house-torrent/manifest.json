@@ -1,0 +1,38 @@
+{
+  "bucket_id": "characters-house-torrent",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "b2dc06e116da01f1f779d667df96d80593bae579f0221ef1914d1349be1a2136",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Alesandor Torrent"
+  ],
+  "expected_nodes": [
+    "alesandor-torrent.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Alesandor Torrent"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 1,
+      "tier_a": 0,
+      "tier_b": 1,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.005269+00:00",
+  "stage3_promoted_count": 1,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

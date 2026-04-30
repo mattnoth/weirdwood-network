@@ -1,0 +1,48 @@
+{
+  "bucket_id": "characters-house-slynt",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "6e07d58c2f0b46612a2a9e27a2740f4440b2af49a5d170d36660cb4149213349",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Danos Slynt",
+    "Janos Slynt",
+    "Jothos Slynt",
+    "Morros Slynt"
+  ],
+  "expected_nodes": [
+    "danos-slynt.node.md",
+    "janos-slynt.node.md",
+    "jothos-slynt.node.md",
+    "morros-slynt.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Janos Slynt",
+      "Morros Slynt"
+    ],
+    "tier_b": [
+      "Danos Slynt",
+      "Jothos Slynt"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 4,
+      "tier_a": 2,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.968514+00:00",
+  "stage3_promoted_count": 4,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

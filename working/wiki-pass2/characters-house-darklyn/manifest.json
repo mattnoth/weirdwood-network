@@ -1,0 +1,62 @@
+{
+  "bucket_id": "characters-house-darklyn",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "7344d9477d986916dcef33d74072c81bb4261d501359e9b578e5430c135c1ce0",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Davos Darklyn",
+    "Denys Darklyn",
+    "Lord Darklyn (father of Jonquil Darke)",
+    "Meredyth Darklyn",
+    "Robert Darklyn",
+    "Robin Darklyn",
+    "Rolland Darklyn",
+    "Serala of Myr",
+    "Steffon Darklyn"
+  ],
+  "expected_nodes": [
+    "davos-darklyn.node.md",
+    "denys-darklyn.node.md",
+    "lord-darklyn-father-of-jonquil-darke.node.md",
+    "meredyth-darklyn.node.md",
+    "robert-darklyn.node.md",
+    "robin-darklyn.node.md",
+    "rolland-darklyn.node.md",
+    "serala-of-myr.node.md",
+    "steffon-darklyn.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Davos Darklyn",
+      "Denys Darklyn",
+      "Lord Darklyn (father of Jonquil Darke)",
+      "Meredyth Darklyn",
+      "Robert Darklyn",
+      "Robin Darklyn",
+      "Rolland Darklyn",
+      "Serala of Myr",
+      "Steffon Darklyn"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 9,
+      "tier_a": 0,
+      "tier_b": 9,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.734463+00:00",
+  "stage3_promoted_count": 9,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

@@ -1,0 +1,5 @@
+## Origins
+
+Hagon took the throne when his elder brother, King [Harmund III Hoare](wiki:Harmund_III_Hoare), was overthrown and mutilated by the [Shrike](wiki:Shrike_(priest)) and other priest. Hagon quickly expelled the [Faith of the Seven](wiki:Faith_of_the_Seven) from the [Iron Islands](wiki:Iron_Islands). He allowed his mother, Queen [Lelia Lannister](wiki:Lelia_Lannister), to also be mutilated by the Shrike and then sent back to her family home, [Casterly Rock](wiki:Casterly_Rock). Her outraged nephew, the [King of the Rock](wiki:King_of_the_Rock), responded by invading the Iron Islands.(wiki:Hagon_Hoare.cite_ref-Rtwoiafthe_iron_islands:_the_black_blood.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+Ser [Aubrey Crakehall](wiki:Aubrey_Crakehall), the commander of the [westermen](wiki:Westermen), defeated Hagon's army on [Great Wyk](wiki:Great_Wyk) and captured [Hoare Castle](wiki:Hoare_Castle) in the seventh year of fighting. Before being hanged, Hagon was mutilated as Lelia had been.(wiki:Hagon_Hoare.cite_ref-Rtwoiafthe_iron_islands:_the_black_blood.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)

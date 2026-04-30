@@ -1,0 +1,41 @@
+{
+  "bucket_id": "characters-house-cuy",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "d1839be7d6ef97f0ac2c870222da98b71a8d1e38386c588e0edcbf83a30fcb78",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Branston Cuy",
+    "Emmon Cuy"
+  ],
+  "expected_nodes": [
+    "branston-cuy.node.md",
+    "emmon-cuy.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Branston Cuy",
+      "Emmon Cuy"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 2,
+      "tier_a": 0,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.731008+00:00",
+  "stage3_promoted_count": 2,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

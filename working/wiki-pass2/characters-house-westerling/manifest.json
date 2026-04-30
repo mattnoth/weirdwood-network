@@ -1,0 +1,66 @@
+{
+  "bucket_id": "characters-house-westerling",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "ab2b1190d1ce3f5efb06d29513178b6652e1c87504965de471a1522c374d2660",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Eleyna Westerling",
+    "Elys Westerling",
+    "Gawen Westerling",
+    "Jeyne Westerling",
+    "Jeyne Westerling (wife of Maegor I)",
+    "Johanna Lannister",
+    "Ormond Westerling",
+    "Raynald Westerling",
+    "Roland Westerling",
+    "Rollam Westerling"
+  ],
+  "expected_nodes": [
+    "eleyna-westerling.node.md",
+    "elys-westerling.node.md",
+    "gawen-westerling.node.md",
+    "jeyne-westerling-wife-of-maegor-i.node.md",
+    "jeyne-westerling.node.md",
+    "johanna-lannister.node.md",
+    "ormond-westerling.node.md",
+    "raynald-westerling.node.md",
+    "roland-westerling.node.md",
+    "rollam-westerling.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:56Z",
+    "tier_a": [
+      "Gawen Westerling",
+      "Jeyne Westerling",
+      "Raynald Westerling"
+    ],
+    "tier_b": [
+      "Eleyna Westerling",
+      "Elys Westerling",
+      "Jeyne Westerling (wife of Maegor I)",
+      "Johanna Lannister",
+      "Ormond Westerling",
+      "Roland Westerling",
+      "Rollam Westerling"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 10,
+      "tier_a": 3,
+      "tier_b": 7,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.035148+00:00",
+  "stage3_promoted_count": 10,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

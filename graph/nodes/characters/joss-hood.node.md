@@ -1,0 +1,27 @@
+---
+name: Joss Hood
+type: character.human
+slug: joss-hood
+aliases: []
+confidence: tier-1
+wiki_source: https://awoiaf.westeros.org/index.php/Joss_Hood
+bucket_id: characters-house-martell-a-m
+prompt_version: v1
+node_version: 1
+pass_origin: pass2-wiki
+first_available: null
+---
+
+## Identity
+
+Ser Joss Hood is a Dornish knight in the service of House Martell (wiki:Joss_Hood). He `HOLDS_TITLE` Ser (track_b: Title).
+
+## Allegiances
+
+`SWORN_TO` House Martell (track_b: Allegiance). `CULTURE_OF` Dornishmen (track_b: Culture).
+
+## Edges
+
+- HOLDS_TITLE: Ser (cite: track_b: Title)
+- SWORN_TO: House Martell (cite: track_b: Allegiance)
+- CULTURE_OF: Dornishmen (cite: track_b: Culture)

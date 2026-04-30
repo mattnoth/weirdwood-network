@@ -1,0 +1,44 @@
+{
+  "bucket_id": "characters-house-graceford",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "9f4284fc07a13f1a8446b9a1a2cc5c2921100c1254faad058bbb257da15c4484",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Alyce Graceford",
+    "George Graceford",
+    "Harys Graceford"
+  ],
+  "expected_nodes": [
+    "alyce-graceford.node.md",
+    "george-graceford.node.md",
+    "harys-graceford.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Alyce Graceford",
+      "George Graceford",
+      "Harys Graceford"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 3,
+      "tier_a": 0,
+      "tier_b": 3,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.803334+00:00",
+  "stage3_promoted_count": 3,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

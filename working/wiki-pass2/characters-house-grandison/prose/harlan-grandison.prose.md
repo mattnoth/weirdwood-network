@@ -1,0 +1,3 @@
+## Origins
+
+Ser Harlan was a member of the [Kingsguard](wiki:Kingsguard) under [Aerys II](wiki:Aerys_II_Targaryen) and presumably his father [Jaehaerys II](wiki:Jaehaerys_II_Targaryen) before him, as he was an old man when Aerys reigned. He died in his sleep in his cell in the [White Sword Tower](wiki:White_Sword_Tower) of the [Red Keep](wiki:Red_Keep). Harlan's slot in the white cloaks was taken by a young Ser [Jaime Lannister](wiki:Jaime_Lannister).(wiki:Harlan_Grandison.cite_ref-Rasos11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)(wiki:Harlan_Grandison.cite_ref-Rtwoiafthe_targaryen_kings:_aerys_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)

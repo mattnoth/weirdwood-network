@@ -1,0 +1,45 @@
+{
+  "bucket_id": "characters-house-fossoway",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "c792b266af13e95f0147cab4f763c859a356feb7de52061db8acbf670aac67e4",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Derrick Fossoway",
+    "Florence Fossoway",
+    "Leonette Fossoway"
+  ],
+  "expected_nodes": [
+    "derrick-fossoway.node.md",
+    "florence-fossoway.node.md",
+    "leonette-fossoway.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Leonette Fossoway"
+    ],
+    "tier_b": [
+      "Derrick Fossoway",
+      "Florence Fossoway"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 3,
+      "tier_a": 1,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.767083+00:00",
+  "stage3_promoted_count": 3,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

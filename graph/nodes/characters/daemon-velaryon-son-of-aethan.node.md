@@ -1,0 +1,68 @@
+---
+name: "Daemon Velaryon (son of Aethan)"
+type: character.human
+slug: daemon-velaryon-son-of-aethan
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Daemon_Velaryon_(son_of_Aethan)"
+bucket_id: characters-house-velaryon
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Daemon Velaryon (son of Aethan) is a character.human from the AWOIAF wiki.
+
+## Edges
+
+- HOLDS_TITLE: Lord of the Tides (track_b: Titles)
+- HOLDS_TITLE: Master of Driftmark (track_b: Titles)
+- HOLDS_TITLE: Lord admiral (track_b: Titles)
+- HOLDS_TITLE: Master of ships (track_b: Titles)
+- HOLDS_TITLE: Hand of the King (track_b: Titles)
+- SWORN_TO: House Velaryon (track_b: Allegiance)
+- CULTURE_OF: Valyrian (track_b: Race)
+- CULTURE_OF: Crownlands (track_b: Culture)
+- PARENT_OF (reverse): Aethan Velaryon (track_b: Father)
+- PARENT_OF (reverse): Alarra Massey (track_b: Mother)
+- PARENT_OF: Corwyn Velaryon (track_b: Issue)
+- PARENT_OF: Jorgen Velaryon (track_b: Issue)
+- PARENT_OF: Victor Velaryon (track_b: Issue)
+
+## Origins
+
+### Early life
+
+Daemon was the eldest son and heir of Lord [Aethan Velaryon](wiki:Aethan_Velaryon) and Lady [Alarra Massey](wiki:Alarra_Massey).(wiki:Daemon_Velaryon_(son_of_Aethan).cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5) He had several brothers, and a sister, [Alyssa](wiki:Alyssa_Velaryon), who wed their cousin Prince [Aenys Targaryen](wiki:Aenys_I_Targaryen) in [22 AC](wiki:Years_after_Aegon's_Conquest), and later became the Queen of the [Seven Kingdoms](wiki:Seven_Kingdoms).(wiki:Daemon_Velaryon_(son_of_Aethan).cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+
+After King Aenys' death, his brother [Maegor I Targaryen](wiki:Maegor_I_Targaryen) usurped the throne from Alyssa's eldest son [Aegon](wiki:Aegon_Targaryen_(son_of_Aenys_I)). Fleeing to [Driftmark](wiki:Driftmark), Alyssa named her son the rightful king, but a visit from Dowager Queen [Visenya Targaryen](wiki:Visenya_Targaryen) and her [dragon](wiki:Dragon) [Vhagar](wiki:Vhagar) convinced Daemon's family to return to court. In [42 AC](wiki:42_AC), Daemon, Alyssa, and their brothers and cousins did homage to Maegor as the true king.(wiki:Daemon_Velaryon_(son_of_Aethan).cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
+
+### Master of ships
+
+Daemon served on Maegor's [small council](wiki:Small_council) as the [lord admiral](wiki:Lord_admiral) of the [royal fleet](wiki:Royal_fleet). When Maegor, in need of an heir, sought to find a new wife, Daemon advised him to wed his niece, Princess [Rhaena](wiki:Rhaena_Targaryen_(daughter_of_Aenys_I)), suggesting that such a union would unite the Targaryen claims, prevent any fresh rebellions from forming around her, and acquire a [hostage](wiki:Hostage) against Dowager Queen Alyssa, his sister. Maegor eventually took [three brides](wiki:Black_Brides), and followed Daemon's counsel by making Rhaena as one of those brides.(wiki:Daemon_Velaryon_(son_of_Aethan).cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2) When Daemon's nephew, Prince [Jaehaerys](wiki:Jaehaerys_I_Targaryen), [began gathering forces](wiki:Jaehaerys_Targaryen's_uprising) at [Storm's End](wiki:Storm's_End) in [48 AC](wiki:48_AC), Daemon and Lord [Rogar Baratheon](wiki:Rogar_Baratheon) were some of the first great lords to turn against Maegor, and the rest of the realm soon followed their example.(wiki:Daemon_Velaryon_(son_of_Aethan).cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-3)(wiki:Daemon_Velaryon_(son_of_Aethan).cite_ref-Rfabprince_into_king_-_the_ascension_of_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0) As the Velaryons were the realm's traditional admirals, Daemon's decision ensured that the King no longer had the royal fleet at his disposal.(wiki:Daemon_Velaryon_(son_of_Aethan).cite_ref-Rtwoiafthe_targaryen_kings:_maegor_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)(wiki:Daemon_Velaryon_(son_of_Aethan).cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-4) When Jaehaerys ascended to the [Iron Throne](wiki:Iron_Throne), Daemon was confirmed as lord admiral and [master of ships](wiki:Master_of_ships) once again.(wiki:Daemon_Velaryon_(son_of_Aethan).cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
+
+When considering a queen for the king, Daemon suggested that Jaehaerys wed Queen [Elinor Costayne](wiki:Elinor_Costayne), one of Maegor's widows. He argued that such a union would demonstrate that Maegor's supporters had been forgiven, and Elinor's proven fertility was another point in her favor. Daemon even suggested for the king to adopt her sons by Ser [Theo Bolling](wiki:Theo_Bolling). In defiance of the [small council](wiki:Small_council), Jaehaerys ultimately wed his younger sister [Alysanne](wiki:Alysanne_Targaryen), whom Lord Baratheon had decided to wed to his brother, Ser [Orryn](wiki:Orryn_Baratheon).(wiki:Daemon_Velaryon_(son_of_Aethan).cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7)
+
+Both [Grand Maester](wiki:Grand_Maester) [Benifer](wiki:Benifer)(wiki:Daemon_Velaryon_(son_of_Aethan).cite_ref-Rtrotd6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0) and Lord Rogar suspected that it had been Daemon who alerted his niece about the plot, in fear that the Baratheons were attempting to replace House Velaryon as the second house of the realm.(wiki:Daemon_Velaryon_(son_of_Aethan).cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8) Though Daemon served with the [regents](wiki:Regent) in [King's Landing](wiki:King's_Landing), Jaehaerys and Alysanne flew their [dragons](wiki:Dragon) to Driftmark to tour Daemon's shipyards, accompanied by Daemon's sons. Rogar requested for Daemon to use the [Velaryon fleet](wiki:Velaryon_fleet) to prevent lords from visiting Dragonstone to curry the king's favor, but Daemon responded with a blunt "no", which Baratheon took as a slight. Daemon and the other councilors objected to Lord Rogar's plot to crown Princess [Aerea](wiki:Aerea_Targaryen) in place of Jaehaerys, after which Alyssa ordered the resignation of Rogar, her own husband, as [Hand of the King](wiki:Hand_of_the_King).(wiki:Daemon_Velaryon_(son_of_Aethan).cite_ref-Rfaba_surfeit_of_rulers.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
+
+### Hand of the King
+
+Daemon was raised to the office of [Hand of the King](wiki:Hand_of_the_King) by his sister, Queen Regent [Alyssa Velaryon](wiki:Alyssa_Velaryon), to replace [Rogar Baratheon](wiki:Rogar_Baratheon). Alyssa retired from public life and Daemon ruled the realm as best he could together with the small council for the remainder of Jaehaerys's regency, "saying little and doing less" according to Grand Maester Benifer.(wiki:Daemon_Velaryon_(son_of_Aethan).cite_ref-Rfaba_surfeit_of_rulers.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-7) When Jaehaerys reached the [age of majority](wiki:Age_of_majority) in [50 AC](wiki:50_AC), he confirmed Daemon in his office as Hand, while [Manfryd Redwyne](wiki:Manfryd_Redwyne), [Lord of the Arbor](wiki:Lord_of_the_Arbor), was summoned to fill the post of master of ships. This marked the first time that the office of master of ships had not gone to a man of House Velaryon.(wiki:Daemon_Velaryon_(son_of_Aethan).cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)
+
+Daemon served ably as Hand of the King. After the death of the [High Septon](wiki:High_Lickspittle) in [54 AC](wiki:54_AC), Daemon advocated for a show of force, suggesting to use the [royal fleet](wiki:Royal_fleet) to prevent the elevation of [Septon](wiki:Septon) [Mattheus](wiki:Mattheus) to the office of [High Septon](wiki:High_Septon), for Mattheus was a great opponent of the Targaryens. Later that year, when a mysterious ailment caused the death of all of [Rhaena Targaryen](wiki:Rhaena_Targaryen_(daughter_of_Aenys_I))'s companions on [Dragonstone](wiki:Dragonstone), Jaehaerys ordered Daemon to send forth his galleys to ensure no one spread the disease beyond the island. Daemon did as commanded, while grieving for his own young niece [Lianna](wiki:Lianna_Velaryon), who had been one of Rhaena's companions.(wiki:Daemon_Velaryon_(son_of_Aethan).cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
+
+Following the death of his sister Alyssa later that same year, Daemon resigned from the office of Hand of the King, claiming he wished to spend his remaining time with his family. Although most [maesters](wiki:Maester) and historians believe Daemon at his word, some say he had a rivalry with Lord Redwyne and wished to relinquish his post as a result of a bitter feud. Daemon was succeeded as Hand by Lord [Myles Smallwood](wiki:Myles_Smallwood).(wiki:Daemon_Velaryon_(son_of_Aethan).cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)
+
+### Later life
+
+In late [58 AC](wiki:Years_after_Aegon's_Conquest), Lord Daemon attended the [tourney](wiki:Tourney) at [King's Landing](wiki:King's_Landing) commemorating the tenth anniversary of the king's coronation.(wiki:Daemon_Velaryon_(son_of_Aethan).cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0) During the winter of [59 AC](wiki:59_AC), when the [Shivers](wiki:Shivers) spread to the [crownlands](wiki:Crownlands), Daemon sickened on Driftmark and was at the point of death, but eventually recovered. However, his second son (possibly [Jorgen](wiki:Jorgen_Velaryon)) and three of his daughters perished.(wiki:Daemon_Velaryon_(son_of_Aethan).cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-4) In [73 AC](wiki:Years_after_Aegon's_Conquest), Ser [Lucamore Strong](wiki:Lucamore_Strong) of the [Kingsguard](wiki:Kingsguard) was disgraced for having broken his vows by [marrying three women](wiki:Polygamy) and fathering children with them. The [knight](wiki:Knight)'s second wife and her children were sent to Driftmark to be fostered with Daemon.(wiki:Daemon_Velaryon_(son_of_Aethan).cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne_-_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0)
+
+Daemon eventually passed away at the age of eighty-eight.(wiki:Daemon_Velaryon_(son_of_Aethan).cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1) As he had outlived his eldest son, Daemon was succeeded as Lord of the Tides by his grandson, Ser [Corlys Velaryon](wiki:Corlys_Velaryon).(wiki:Daemon_Velaryon_(son_of_Aethan).cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)(wiki:Daemon_Velaryon_(son_of_Aethan).cite_ref-Rtwoiafthe_targaryen_kings:_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0)
+
+## Appearances & Description
+
+Daemon Velaryon was a prideful man who enjoyed his family's position as the "second house" of the realm, on account of the Velaryons' close ties to [House Targaryen](wiki:House_Targaryen).(wiki:Daemon_Velaryon_(son_of_Aethan).cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+
+Daemon served ably during his long tenure as [master of ships](wiki:Master_of_ships) and [Hand of the King](wiki:Hand_of_the_King).(wiki:Daemon_Velaryon_(son_of_Aethan).cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)

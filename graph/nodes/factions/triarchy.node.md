@@ -1,0 +1,51 @@
+---
+name: "Triarchy"
+type: organization.faction
+slug: triarchy
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Triarchy"
+bucket_id: locations-other-s-t
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Triarchy is a organization.faction from the AWOIAF wiki.
+
+## Edges
+
+- RULES: High Council of the Triarchy (track_b: Ruler)
+- WORSHIPS: Mixed (track_b: Religion)
+
+## Origins
+
+### Origin
+
+In [96 AC](wiki:Years_after_Aegon's_Conquest), [Tyrosh](wiki:Tyrosh), [Lys](wiki:Lys), and Myr ended their strife and drove [Volantis](wiki:Volantis) from the [Disputed Lands](wiki:Disputed_Lands), defeating the Volantenes in the [Battle of the Borderland](wiki:Battle_of_the_Borderland) and forging the "eternal alliance" of the Triarchy. The Myrish prince-admiral [Craghas Drahar](wiki:Craghas_Drahar) then led an invasion of the [Stepstones](wiki:Stepstones), clearing out the pirate dens of the islands and making safe the trade lanes of the [narrow sea](wiki:Narrow_sea).(wiki:Triarchy.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+The [Seven Kingdoms](wiki:Seven_Kingdoms) initially approved of the Triarchy's actions, but Craghas and his co-admirals became greedy with their tolls. The Lyseni enslaved women, girls, and comely boys to bring back to their [pillow houses](wiki:Pillow_house), including Lady [Johanna Swann](wiki:Johanna_Swann), niece to the Lord of [Stonehelm](wiki:Stonehelm).(wiki:Triarchy.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+
+### War for the Stepstones
+
+In [106 AC](wiki:106_AC), [Westerosi](wiki:Westeros) forces led by Lord [Corlys Velaryon](wiki:Corlys_Velaryon) and Prince [Daemon Targaryen](wiki:Daemon_Targaryen) began the [war for the Stepstones](wiki:War_for_the_Stepstones), Daemon hoping to make himself a kingdom. Despite inferior numbers, they inflicted a string of defeats on the Triarchy for two years before Daemon slew [Craghas Drahar](wiki:Craghas_Drahar) in single combat. By [109 AC](wiki:Years_after_Aegon's_Conquest), Daemon's armies controlled all but two of the Stepstones, and the Sea Snake's fleets had naval supremacy. Corlys crowned Daemon the [King of the Stepstones and the Narrow Sea](wiki:King_of_the_Stepstones_and_the_Narrow_Sea).(wiki:Triarchy.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+
+In [110 AC](wiki:Years_after_Aegon's_Conquest), the Triarchy dispatched a counterattack led by [Racallio Ryndoon](wiki:Racallio_Ryndoon), supported by newly-acquired [Dornish](wiki:Dorne) allies, who were wary of the new [Targaryen](wiki:House_Targaryen)-backed sellsword kingdom controlling the [narrow sea](wiki:Narrow_sea). Fighting continued in [111 AC](wiki:111_AC), when Daemon withdrew to court at [King's Landing](wiki:King's_Landing) for several months, and raged beyond [115 AC](wiki:Years_after_Aegon's_Conquest), when Daemon returned to the [Vale of Arryn](wiki:Vale_of_Arryn) after the death of his first wife, Lady [Rhea Royce](wiki:Rhea_Royce). Five other men followed him as Kings of the Narrow Sea before the sellsword kingdom ended.(wiki:Triarchy.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+
+[Pentos](wiki:Pentos), bordering Myr to the north and wary of the rising power to their south, often welcomed Daemon as an ally. Volantis similarly welcomed Daemon warmly when he visited, though it was in less of a position to fight back against its rivals to the west. The Three Daughters were not, however, so powerful that their influence spread to the northeast, where [Norvos](wiki:Norvos) and [Qohor](wiki:Qohor) remained little concerned about them.(wiki:Triarchy.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+
+### Dance of the Dragons
+
+In the Westerosi civil war called the [Dance of the Dragons](wiki:Dance_of_the_Dragons) ([129](wiki:129_AC)–[131 AC](wiki:131_AC)), Prince [Daemon Targaryen](wiki:Daemon_Targaryen) and Lord [Corlys Velaryon](wiki:Corlys_Velaryon) supported the [blacks](wiki:Blacks) of [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen). Early in the fighting, the [Velaryon](wiki:House_Velaryon) fleet blockaded the [Gullet](wiki:Gullet) and [Blackwater Bay](wiki:Blackwater_Bay). Ser [Otto Hightower](wiki:Otto_Hightower), [Hand of the King](wiki:Hand_of_the_King) to [Aegon II Targaryen](wiki:Aegon_II_Targaryen) and a leader of the [greens](wiki:Greens), reached across the [narrow sea](wiki:Narrow_sea) to the Triarchy, which he knew to be an enemy of Daemon. Otto hoped to persuade them to move against Corlys the Sea Snake and break his blockade. The [High Council of the Triarchy](wiki:High_Council_of_the_Triarchy) eventually met in [Tyrosh](wiki:Tyrosh) and chose to accept Otto's offer of alliance.(wiki:Triarchy.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+
+A combined fleet of ninety [Myrish](wiki:Myr), [Lysene](wiki:Lys) and Tyroshi warships under the banners of the Three Daughters, commanded by the Triarchy's admiral [Sharako Lohar](wiki:Sharako_Lohar) of [Lys](wiki:Lys), swept from the [Stepstones](wiki:Stepstones), bending their oars for the Gullet. En route they intercepted the *[Gay Abandon](wiki:Gay_Abandon)*, which was carrying two of [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen)'s sons, Princes [Aegon](wiki:Aegon_III_Targaryen) and [Viserys](wiki:Viserys_II_Targaryen). Aegon escaped atop [Stormcloud](wiki:Stormcloud), but Viserys was taken as a captive to Sharako.(wiki:Triarchy.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+
+Once the news of the fleet's presence in the Gullet reached [Dragonstone](wiki:Dragonstone), Prince [Jacaerys Velaryon](wiki:Jacaerys_Velaryon) swept down on [Vermax](wiki:Vermax) and was soon joined by four other [dragons](wiki:Dragon). In the resulting [Battle of the Gullet](wiki:Battle_of_the_Gullet), in early [130 AC](wiki:130_AC), the prince met his demise. The fleet of the Three Daughters avoided Dragonstone and sacked [Spicetown](wiki:Spicetown) and [High Tide](wiki:High_Tide) on the Velaryon isle of [Driftmark](wiki:Driftmark), but took such heavy losses that it played no further part in the war. Only twenty-eight of Sharako's ships, most of them Lysene, returned home. The widows of the fallen Myrmen and Tyroshi accused Sharako of having held back his own Lysene ships.(wiki:Triarchy.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+
+### Daughters' War
+
+The Triarchy began to tear itself to pieces in [130 AC](wiki:130_AC),(wiki:Triarchy.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) and the following year Ser [Marston Waters](wiki:Marston_Waters) reported that it had collapsed.(wiki:Triarchy.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) [Sharako Lohar](wiki:Sharako_Lohar) was killed by a rival for the affections of the Black Swan, [Johanna Swann](wiki:Johanna_Swann), but at the time [Tyrosh](wiki:Tyrosh) suspected it was an assassination arranged by [Myr](wiki:Myr). A series of retaliatory murders followed, and the [Daughters' War](wiki:Daughters'_War) broke out two years after the Gullet.(wiki:Triarchy.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3) A rival alliance formed between [Pentos](wiki:Pentos), [Braavos](wiki:Braavos), and the normally-isolationist [Lorath](wiki:Lorath) which helped bring down the Triarchy.(wiki:Triarchy.cite_ref-Rtwoiafthe_free_cities:_the_quarrelsome_daughters:_myr.2C_lys.2C_and_tyrosh.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
+
+Grand Maester [Greydon](wiki:Greydon) wrote a comprehensive history of the Kingdom of the Three Daughters.(wiki:Triarchy.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)

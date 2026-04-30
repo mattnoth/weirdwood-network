@@ -1,0 +1,25 @@
+---
+name: "A Storm of Swords-Chapter 75"
+type: event.battle
+slug: a-storm-of-swords-chapter-75
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords-Chapter_75"
+bucket_id: battles-a
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+A Storm of Swords-Chapter 75 is a event.battle from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+At [Castle Black](wiki:Castle_Black), [Gilly](wiki:Gilly) is nursing both her own son as well as [Mance Rayder](wiki:Mance_Rayder)'s, as [Dalla](wiki:Dalla) died giving birth. [Sam](wiki:Samwell_Tarly) and Gilly have recently returned to Castle Black, meeting up with Ser [Denys Mallister](wiki:Denys_Mallister) and the men from the [Shadow Tower](wiki:Shadow_Tower). They also joined with [Dywen](wiki:Dywen), [Edd](wiki:Edd_Tollett) and [Giant](wiki:Bedwyck), survivors from the Bridge of Skulls where [Bowen Marsh](wiki:Bowen_Marsh) held back the [Weeper](wiki:Weeper)'s advance. Sam is happy to be reunited with [Jon](wiki:Jon_Snow), although he is wary of King [Stannis](wiki:Stannis_Baratheon)'s army being present at Castle Black. It was the king who defeated the [wildlings](wiki:Wildlings), scattering their remnants back into the [haunted forest](wiki:Haunted_forest). [Val](wiki:Val) wants to bring her sister's baby to Mance, but Jon tells her that only Maester [Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I)) is permitted to see the imprisoned wildling king. Alone, Sam asks Jon, "Could there be honor in a lie, if it were told for a good purpose?" Sam is considering sending Gilly and her son to [Horn Hill](wiki:Horn_Hill), with a letter claiming that he fathered the boy.
+
+Jon reveals that [Slynt](wiki:Janos_Slynt) still considers him a traitor, because he did not kill Mance as he was sent to do. Sam remembers swearing to [Bran](wiki:Bran_Stark) and [Jojen Reed](wiki:Jojen_Reed) not to reveal to anyone, even Jon, that Bran is still alive. [Coldhands](wiki:Coldhands)' last words to Sam were, "Let the world believe the boy is dead. We want no seekers coming after us. Swear it, Samwell of the Night's Watch. Swear it for the life you owe me." And Sam has kept his vows to all three. Later, Sam considers the last vote for a new Lord Commander, with Ser Denys Mallister still leading, but no one near the majority. At dinner, Bowen Marsh withdraws his name from the voting, and backs Janos Slynt. When the votes are tallied that night, both Ser Denys and [Cotter Pyke](wiki:Cotter_Pyke) have lost votes, and Slynt has gained on both of them. Sitting with [Grenn](wiki:Grenn), [Pyp](wiki:Pypar) and Dolorous Edd, Pyp suggests that if Sam were to persuade either Ser Denys or Cotter Pyke to set aside their quarrels and back the other, a new Lord Commander could be decided. Preferably one who would be beneficial to the Watch, so long as it was not Janos Slynt.

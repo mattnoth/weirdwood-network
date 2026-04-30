@@ -1,0 +1,60 @@
+{
+  "bucket_id": "characters-house-smallwood",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "d0cf8994db6b13846cd2d9a8992d0cee9e94f0ff2f5ed2d2feed538e195b06eb",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Carellen Smallwood",
+    "Jeyne Smallwood",
+    "Joseth Smallwood",
+    "Lord Smallwood",
+    "Myles Smallwood",
+    "Theomar Smallwood",
+    "Thoren Smallwood",
+    "Willam the Wasp"
+  ],
+  "expected_nodes": [
+    "carellen-smallwood.node.md",
+    "jeyne-smallwood.node.md",
+    "joseth-smallwood.node.md",
+    "lord-smallwood.node.md",
+    "myles-smallwood.node.md",
+    "theomar-smallwood.node.md",
+    "thoren-smallwood.node.md",
+    "willam-the-wasp.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Thoren Smallwood"
+    ],
+    "tier_b": [
+      "Carellen Smallwood",
+      "Jeyne Smallwood",
+      "Joseth Smallwood",
+      "Lord Smallwood",
+      "Myles Smallwood",
+      "Theomar Smallwood",
+      "Willam the Wasp"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 8,
+      "tier_a": 1,
+      "tier_b": 7,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.970296+00:00",
+  "stage3_promoted_count": 8,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

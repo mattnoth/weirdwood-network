@@ -1,0 +1,28 @@
+---
+name: "Dorden the Dour"
+type: character.human
+slug: dorden-the-dour
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Dorden_the_Dour"
+bucket_id: characters-house-baratheon-of-dragonstone
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Dorden the Dour is a character.human from the AWOIAF wiki.
+
+## Edges
+
+- HOLDS_TITLE: Ser (track_b: Title)
+- SWORN_TO: House Baratheon of Dragonstone (track_b: Allegiances)
+- SWORN_TO: Queen's men (track_b: Allegiances)
+
+## Narrative Arc
+
+### A Dance with Dragons
+
+Dorden stays with Queen [Selyse](wiki:Selyse_Florent) at [Eastwatch-by-the-Sea](wiki:Eastwatch-by-the-Sea), when Stannis goes to take [Deepwood Motte](wiki:Deepwood_Motte). When Selyse leaves Eastwatch to go to the [Nightfort](wiki:Nightfort), he accompanies her to [Castle Black](wiki:Castle_Black).(wiki:Dorden_the_Dour.cite_ref-Radwd44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

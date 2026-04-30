@@ -1,0 +1,8 @@
+{
+  "bucket_id": "characters-house-lannister-r-w",
+  "passed": true,
+  "checked_at": "2026-04-27T19:57:52Z",
+  "node_count_expected": 23,
+  "node_count_actual": 23,
+  "failures": []
+}

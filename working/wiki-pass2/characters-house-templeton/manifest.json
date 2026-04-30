@@ -1,0 +1,50 @@
+{
+  "bucket_id": "characters-house-templeton",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "10ae121d4899f9b813b45b8f49f2c770de23469115847f9e48b89ce06076f793",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Gerold Templeton",
+    "Jennis Templeton",
+    "Knight of Ninestars (First Blackfyre Rebellion)",
+    "Luceon Templeton",
+    "Symond Templeton"
+  ],
+  "expected_nodes": [
+    "gerold-templeton.node.md",
+    "jennis-templeton.node.md",
+    "knight-of-ninestars-first-blackfyre-rebellion.node.md",
+    "luceon-templeton.node.md",
+    "symond-templeton.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Gerold Templeton",
+      "Jennis Templeton",
+      "Knight of Ninestars (First Blackfyre Rebellion)",
+      "Luceon Templeton",
+      "Symond Templeton"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 5,
+      "tier_a": 0,
+      "tier_b": 5,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.001035+00:00",
+  "stage3_promoted_count": 5,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

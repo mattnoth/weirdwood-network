@@ -1,0 +1,8 @@
+{
+  "bucket_id": "houses-vale",
+  "passed": true,
+  "checked_at": "2026-04-27T15:23:38Z",
+  "node_count_expected": 30,
+  "node_count_actual": 30,
+  "failures": []
+}

@@ -1,0 +1,53 @@
+---
+name: "Garth Greenhand"
+type: character.human
+slug: garth-greenhand
+aliases: ["Garth Greenhair", "Garth the Green"]
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Garth_Greenhand"
+bucket_id: characters-other-f-g
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Garth Greenhand is a character.human from the AWOIAF wiki.
+
+## Edges
+
+- HOLDS_TITLE: High King of the First Men (track_b: Title)
+- CULTURE_OF: First Men (track_b: Culture)
+- PARENT_OF: Garth the Gardener (track_b: Issue)
+- PARENT_OF: John the Oak (track_b: Issue)
+- PARENT_OF: Gilbert of the Vines (track_b: Issue)
+- PARENT_OF: Florys the Fox (track_b: Issue)
+- PARENT_OF: Maris the Maid (track_b: Issue)
+- PARENT_OF: Foss the Archer (track_b: Issue)
+- PARENT_OF: Brandon of the Bloody Blade (track_b: Issue)
+- PARENT_OF: Owen Oakenshield (track_b: Issue)
+- PARENT_OF: Harlon the Hunter (track_b: Issue)
+- PARENT_OF: Herndon of the Horn (track_b: Issue)
+- PARENT_OF: Bors the Breaker (track_b: Issue)
+- PARENT_OF: Rose of Red Lake (track_b: Issue)
+- PARENT_OF: Ellyn Ever Sweet (track_b: Issue)
+- PARENT_OF: Rowan Gold-Tree (track_b: Issue)
+
+## Origins
+
+According to some legends, Garth Greenhand was the [High King](wiki:High_King_of_the_First_Men) who led the [First Men](wiki:First_Men) across the [Arm of Dorne](wiki:Arm_of_Dorne). Other tales claim he predated the arrival of the First Men, making him not only the first human in [Westeros](wiki:Westeros) but also the only human, and that he interacted with the [children of the forest](wiki:Children_of_the_forest) and [giants](wiki:Giants). In some tales Garth is a god, and in a few of these, the oldest ones, he demands blood sacrifice from his worshippers to ensure a bountiful harvest. In some stories the green god dies every [autumn](wiki:Autumn), only to be reborn with the coming of [spring](wiki:Spring). Some tales claim he had green hands, green hair or green skin overall, or antlers like a [stag](wiki:Stag).
+
+It is said Garth first taught men to farm, giving them the gift of seed and showing them how to plant and sow, how to raise crops and reap the harvest. Some tales indicate he tried to do the same with giants and children of the forest, but the giants pelted him with boulders and the children laughed, stating the woods provided them with all their needs. Where Garth walked, farms and villages and orchards sprouted. He carried a canvas bag, heavy with seed, which he scattered as he went along. Befitting a god, the bag was filled with seeds for all of the world's trees, grains, fruits and flowers, and its content was endless.
+
+Garth Greenhand not only brought fertility to the land but also to women, making barren ones fruitful with a touch, even crones who no longer got their moon blood. Maidens ripened in his presence, mothers brought forth twins or even triplets when he blessed them and young girls flowered at his smile. Lords and common men alike offered up their virgin daughters to him wherever he went so their crops may ripen and trees grow heavy with fruit. Any maiden he deflowered delivered strong sons or fair daughters.
+
+In some myths Garth is a contemporary of [Bran the Builder](wiki:Brandon_the_Builder) or [Durran Godsgrief](wiki:Durran_Godsgrief), while in others he is the ancestor of them all. To the [maesters](wiki:Maesters), however, he was no more than a warchief or petty king who led the first wave of First Men across the Arm of Dorne.(wiki:Garth_Greenhand.cite_ref-Rtwoiafthe_reach.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) Legends in the [north](wiki:North) state that the [First King](wiki:First_King) led the First Men to Westeros, not Garth.(wiki:Garth_Greenhand.cite_ref-Radwd32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)(wiki:Garth_Greenhand.cite_ref-Rtwoiafthe_north.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+
+Garth also planted an [oak](wiki:Oak) from which sprung the [Oakenseat](wiki:Oakenseat), the throne of the [Gardener](wiki:House_Gardener) kings.(wiki:Garth_Greenhand.cite_ref-Rtwoiafthe_reach:_the_gardener_kings.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
+
+## Quotes
+
+> Garth liked to plant his seed in fertile ground, they say. I shouldn't wonder that more than his hands were green.(wiki:Garth_Greenhand.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+>
+> —[Olenna Redwyne](wiki:Olenna_Redwyne) to [Sansa Stark](wiki:Sansa_Stark)

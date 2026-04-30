@@ -1,0 +1,1905 @@
+{
+  "bucket_id": "houses-reach-h-o",
+  "tier": "core",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "House Pommingham",
+      "raw_html_path": "sources/wiki/_raw/House_Pommingham.json",
+      "track_b_row": {
+        "page": "House Pommingham",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Reach",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Tyrell",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Pommingham",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 23715
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Redding",
+      "raw_html_path": "sources/wiki/_raw/House_Redding.json",
+      "track_b_row": {
+        "page": "House Redding",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Reach",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Tyrell",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Redding",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 23731
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Redwyne",
+      "raw_html_path": "sources/wiki/_raw/House_Redwyne.json",
+      "track_b_row": {
+        "page": "House Redwyne",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 1,
+          "source": "cite_ref",
+          "pov": "Prologue"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Arbor",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Paxter Redwyne",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Reach",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of the Arbor",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "King of the Arbor",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "historical"
+          },
+          {
+            "field": "Heir",
+            "target": "Horas Redwyne",
+            "edge_type": "HEIR_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Tyrell",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Founder",
+            "target": "Gilbert of the Vines",
+            "edge_type": "FOUNDED",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            2,
+            8,
+            12,
+            36,
+            40,
+            62,
+            65
+          ],
+          "affc": [
+            7,
+            12,
+            15,
+            16,
+            17,
+            32,
+            33,
+            36,
+            43
+          ],
+          "agot": [
+            3,
+            27,
+            29,
+            47,
+            49,
+            54,
+            65,
+            71
+          ],
+          "asos": [
+            19,
+            59,
+            60,
+            66,
+            67,
+            70
+          ],
+          "adwd": [
+            1,
+            54
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Redwyne",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 8,
+          "acok": 7,
+          "asos": 6,
+          "affc": 9,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 143795
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-daenerys-01",
+          "line": 72,
+          "context": "| House Tyrell | Named as potential supporters | Viserys |\n| House Redwyne | Named as potential supporters | Viserys |\n| House Darry | Named as potential supporters | Viserys |"
+        },
+        {
+          "chapter": "agot-daenerys-01",
+          "line": 328,
+          "context": "- House Tyrell (referenced)\n- House Redwyne (referenced)\n- House Darry (referenced)"
+        },
+        {
+          "chapter": "agot-eddard-10",
+          "line": 244,
+          "context": "### Houses\nHouse Stark, House Baratheon, House Lannister, House Targaryen, House Cassel, House Wull, House Glover, House Ryswell, House Dustin, House Reed, House Dayne, House Whent, House Hightower, H"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 310,
+          "context": "### Houses\nHouse Baratheon, House Stark, House Lannister, House Tyrell, House Clegane, House Arryn, House Targaryen, House Martell, House Greyjoy, House Redwyne, House Caron (Bryce Caron \u2014 nightingale"
+        },
+        {
+          "chapter": "agot-daenerys-06",
+          "line": 289,
+          "context": "- House Targaryen\n- House Redwyne (sigil on the wine cask \u2014 cluster of grapes)\n- House Baratheon (Robert Baratheon)"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 303,
+          "context": "### Houses\nHouse Stark, House Baratheon, House Lannister, House Targaryen, House Tyrell (referenced via Ser Loras), House Redwyne (referenced), House Royce (referenced via Bronze Yohn), House Greyjoy "
+        },
+        {
+          "chapter": "agot-sansa-02",
+          "line": 290,
+          "context": "### Houses\nHouse Stark, House Lannister, House Baratheon, House Tyrell, House Clegane, House Royce, House Mallister, House Redwyne, House Frey, House Dondarrion, House Swann, House Caron, House Tully "
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 282,
+          "context": "### Houses\nHouse Tully, House Stark, House Lannister, House Baratheon, House Greyjoy, House Blackwood, House Umber, House Karstark, House Mormont, House Glover, House Piper, House Vance, House Bracken"
+        },
+        {
+          "chapter": "agot-sansa-05",
+          "line": 297,
+          "context": "### Houses\nHouse Baratheon, House Lannister, House Stark, House Tyrell, House Arryn, House Tully, House Martell, House Royce, House Mallister, House Caron, House Blackwood, House Frey, House Vance, Ho"
+        },
+        {
+          "chapter": "agot-bran-02",
+          "line": 280,
+          "context": "### Houses\nHouse Stark, House Lannister, House Baratheon, House Arryn, House Hightower (via Gerold Hightower), House Redwyne (via Ser Ryam Redwyne), House Dayne (via Ser Arthur Dayne)"
+        },
+        {
+          "chapter": "agot-arya-05",
+          "line": 245,
+          "context": "### Houses\nHouse Stark, House Lannister, House Baratheon, House Redwyne"
+        }
+      ]
+    },
+    {
+      "page": "House Rhysling",
+      "raw_html_path": "sources/wiki/_raw/House_Rhysling.json",
+      "track_b_row": {
+        "page": "House Rhysling",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Reach",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Tyrell",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Rhysling",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 28394
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Risley",
+      "raw_html_path": "sources/wiki/_raw/House_Risley.json",
+      "track_b_row": {
+        "page": "House Risley",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Risley Glade",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Reach",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Knight of Risley Glade",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "formerly"
+          },
+          {
+            "field": "Titles",
+            "target": "Risley Glade",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "formerly"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Tyrell",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Risley",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 35132
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Rodden",
+      "raw_html_path": "sources/wiki/_raw/House_Rodden.json",
+      "track_b_row": {
+        "page": "House Rodden",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Reach",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Tyrell",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Rodden",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 26357
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Rowan",
+      "raw_html_path": "sources/wiki/_raw/House_Rowan.json",
+      "track_b_row": {
+        "page": "House Rowan",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 6,
+          "source": "cite_ref",
+          "pov": "Davos I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Goldengrove",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Mathis Rowan",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Reach",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of Goldengrove",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Marshall of the Northmarch",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "possibly"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Tyrell",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Founder",
+            "target": "Rowan Gold-Tree",
+            "edge_type": "FOUNDED",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            22,
+            44,
+            62,
+            65
+          ],
+          "asos": [
+            6,
+            19,
+            28,
+            59,
+            60,
+            62
+          ],
+          "agot": [
+            26,
+            71
+          ],
+          "affc": [
+            7,
+            12,
+            16
+          ],
+          "adwd": [
+            54,
+            61
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Rowan",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 2,
+          "acok": 4,
+          "asos": 6,
+          "affc": 3,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 81976
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 282,
+          "context": "### Houses\nHouse Tully, House Stark, House Lannister, House Baratheon, House Greyjoy, House Blackwood, House Umber, House Karstark, House Mormont, House Glover, House Piper, House Vance, House Bracken"
+        },
+        {
+          "chapter": "agot-jon-04",
+          "line": 256,
+          "context": "### Houses\nHouse Stark, House Tarly, House Tyrell, House Rowan, House Lannister"
+        }
+      ]
+    },
+    {
+      "page": "House Roxton",
+      "raw_html_path": "sources/wiki/_raw/House_Roxton.json",
+      "track_b_row": {
+        "page": "House Roxton",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Ring",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Reach",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Tyrell",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Ancestral weapon",
+            "target": "Orphan-Maker",
+            "edge_type": "ANCESTRAL_WEAPON_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Roxton",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 36149
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Shermer",
+      "raw_html_path": "sources/wiki/_raw/House_Shermer.json",
+      "track_b_row": {
+        "page": "House Shermer",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 31,
+          "source": "cite_ref",
+          "pov": "Arya VII"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Smithyton",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Reach",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Tyrell",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            31
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Shermer",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 26327
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Sloane",
+      "raw_html_path": "sources/wiki/_raw/House_Sloane.json",
+      "track_b_row": {
+        "page": "House Sloane",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Reach",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Tyrell",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Sloane",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 25130
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Stackhouse",
+      "raw_html_path": "sources/wiki/_raw/House_Stackhouse.json",
+      "track_b_row": {
+        "page": "House Stackhouse",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "The Reach",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Tyrell",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Stackhouse",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 26246
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Tarly",
+      "raw_html_path": "sources/wiki/_raw/House_Tarly.json",
+      "track_b_row": {
+        "page": "House Tarly",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 7,
+          "source": "cite_ref",
+          "pov": "Arya I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Horn Hill",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Randyll Tarly",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Reach",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Lord of Horn Hill",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Heir",
+            "target": "Dickon Tarly",
+            "edge_type": "HEIR_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Tyrell",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Ancestral weapon",
+            "target": "Heartsbane",
+            "edge_type": "ANCESTRAL_WEAPON_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Founder",
+            "target": "Herndon of the Horn",
+            "edge_type": "FOUNDED",
+            "direction": "forward"
+          },
+          {
+            "field": "Founder",
+            "target": "Harlon the Hunter",
+            "edge_type": "FOUNDED",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            7,
+            9,
+            14,
+            25,
+            45
+          ],
+          "agot": [
+            26,
+            48
+          ],
+          "asos": [
+            18,
+            19,
+            33,
+            60,
+            75,
+            78,
+            79
+          ],
+          "acok": [
+            22,
+            44,
+            65
+          ],
+          "adwd": [
+            7,
+            54
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Tarly",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 2,
+          "acok": 3,
+          "asos": 7,
+          "affc": 5,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 83501
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-jon-07",
+          "line": 294,
+          "context": "### Houses\nHouse Stark, House Baratheon, House Lannister, House Mormont, House Tarly"
+        },
+        {
+          "chapter": "agot-jon-04",
+          "line": 87,
+          "context": "| Winterfell \u2014 crypts | Central location in Jon's recurring dream | No |\n| Horn Hill | Sam's ancestral home; seat of House Tarly | Yes (uncertain \u2014 verify) |\n| Highgarden | Seat of House Tyrell; refer"
+        },
+        {
+          "chapter": "agot-jon-04",
+          "line": 105,
+          "context": "|----------|---------|-------------------|------------------------|\n| Heartsbane | Valyrian steel greatsword of House Tarly; passed father to son for ~500 years; Randyll says Sam is unworthy to touch "
+        },
+        {
+          "chapter": "agot-jon-04",
+          "line": 106,
+          "context": "| Heartsbane | Valyrian steel greatsword of House Tarly; passed father to son for ~500 years; Randyll says Sam is unworthy to touch it | Yes | Lord Randyll Tarly / Horn Hill |\n| Striding huntsman sigi"
+        },
+        {
+          "chapter": "agot-jon-04",
+          "line": 175,
+          "context": "| Sam's identity: Samwell Tarly, son of Lord Randyll, bannerman to Tyrells of Highgarden | Sam tells Jon directly | Jon, Sam | No |\n| House Tarly's sigil: a striding huntsman | Visual (on Sam's surcoa"
+        },
+        {
+          "chapter": "agot-jon-04",
+          "line": 231,
+          "context": "| Samwell Tarly | Displaced heir | Dickon Tarly | Randyll prefers Dickon; Sam forced to renounce inheritance |\n| House Tarly | Bannerman | House Tyrell | Sam states his father is \"a bannerman to the T"
+        },
+        {
+          "chapter": "agot-jon-04",
+          "line": 256,
+          "context": "### Houses\nHouse Stark, House Tarly, House Tyrell, House Rowan, House Lannister"
+        },
+        {
+          "chapter": "agot-jon-04",
+          "line": 268,
+          "context": "### Artifacts & Objects\nHeartsbane (Valyrian steel greatsword of House Tarly), House Tarly shield (wood-and-leather, blazoned with striding huntsman), Iron swords (on laps of Kings of Winter in Jon's "
+        },
+        {
+          "chapter": "agot-jon-05",
+          "line": 246,
+          "context": "### Houses\nHouse Stark, House Tarly"
+        },
+        {
+          "chapter": "agot-jon-06",
+          "line": 182,
+          "context": "| Mormont | Jon | \"I expect you will want to say your words before a heart tree, as your uncle did.\" | Referencing Benjen Stark |\n| Sam | All present | \"The Seven have never answered my prayers. Perha"
+        },
+        {
+          "chapter": "agot-jon-06",
+          "line": 237,
+          "context": "### Houses\nHouse Stark, House Tarly, House Tyrell, House Mormont (implied by bearclaw fastenings)"
+        },
+        {
+          "chapter": "agot-jon-08",
+          "line": 118,
+          "context": "| Ice | Referenced \u2014 Ned's Valyrian steel greatsword; Jon dreamed of receiving it as a boy | No | Referenced (Eddard Stark) |\n| Heartsbane | Sam's family Valyrian steel sword; Sam was once heir to it "
+        },
+        {
+          "chapter": "agot-jon-08",
+          "line": 182,
+          "context": "| Aemon was tested three times in his vows; watched his house destroyed from the Wall | Aemon tells Jon | Aemon, Jon | No |\n| Heartsbane is House Tarly's Valyrian steel sword; Sam was once heir to it,"
+        },
+        {
+          "chapter": "agot-jon-08",
+          "line": 255,
+          "context": "### Houses\nHouse Mormont, House Stark, House Targaryen, House Tarly"
+        },
+        {
+          "chapter": "agot-jon-08",
+          "line": 267,
+          "context": "### Artifacts & Objects\nLongclaw (Valyrian steel bastard sword, wolf's-head pommel with garnet eyes, black metal scabbard banded with silver), Ice (Valyrian steel greatsword, House Stark), Heartsbane "
+        }
+      ]
+    },
+    {
+      "page": "House Tyrell",
+      "raw_html_path": "sources/wiki/_raw/House_Tyrell.json",
+      "track_b_row": {
+        "page": "House Tyrell",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 3,
+          "source": "cite_ref",
+          "pov": "Catelyn I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Highgarden",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Mace Tyrell",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Reach",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "High Steward",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "pre-Conquest"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of Highgarden",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord Paramount of the Mander",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Defender of the Marches",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "High Marshal of the Reach",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Warden of the South",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Heir",
+            "target": "Willas Tyrell",
+            "edge_type": "HEIR_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Baratheon of King's Landing",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Founder",
+            "target": "Alester Tyrell",
+            "edge_type": "FOUNDED",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            17,
+            22,
+            36,
+            61,
+            62,
+            65
+          ],
+          "asos": [
+            6,
+            14,
+            16,
+            19,
+            54,
+            60,
+            62,
+            66,
+            67,
+            68,
+            72,
+            78
+          ],
+          "agot": [
+            3,
+            30,
+            39,
+            43,
+            47,
+            49,
+            57,
+            69
+          ],
+          "affc": [
+            3,
+            7,
+            8,
+            12,
+            16,
+            17,
+            24,
+            28,
+            29,
+            32,
+            36,
+            39,
+            43
+          ],
+          "adwd": [
+            54,
+            65
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Tyrell",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 8,
+          "acok": 6,
+          "asos": 12,
+          "affc": 13,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 238543
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-daenerys-01",
+          "line": 71,
+          "context": "| The High Septon | Anointed Ser Jorah with the seven oils | Illyrio |\n| House Tyrell | Named as potential supporters | Viserys |\n| House Redwyne | Named as potential supporters | Viserys |"
+        },
+        {
+          "chapter": "agot-daenerys-01",
+          "line": 327,
+          "context": "- House Stark (referenced)\n- House Tyrell (referenced)\n- House Redwyne (referenced)"
+        },
+        {
+          "chapter": "agot-eddard-14",
+          "line": 253,
+          "context": "### Houses\nHouse Stark, House Lannister, House Baratheon, House Tyrell"
+        },
+        {
+          "chapter": "agot-eddard-10",
+          "line": 244,
+          "context": "### Houses\nHouse Stark, House Baratheon, House Lannister, House Targaryen, House Cassel, House Wull, House Glover, House Ryswell, House Dustin, House Reed, House Dayne, House Whent, House Hightower, H"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 310,
+          "context": "### Houses\nHouse Baratheon, House Stark, House Lannister, House Tyrell, House Clegane, House Arryn, House Targaryen, House Martell, House Greyjoy, House Redwyne, House Caron (Bryce Caron \u2014 nightingale"
+        },
+        {
+          "chapter": "agot-arya-03",
+          "line": 268,
+          "context": "### Houses\nHouse Stark, House Baratheon, House Lannister, House Arryn (referenced), House Tyrell (referenced), House Tully (referenced)"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 267,
+          "context": "### Houses\nHouse Stark, House Baratheon, House Lannister, House Arryn, House Tyrell, House Targaryen, House Tallhart, House Glover, House Manderly, House Greyjoy, House Baelish"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 303,
+          "context": "### Houses\nHouse Stark, House Baratheon, House Lannister, House Targaryen, House Tyrell (referenced via Ser Loras), House Redwyne (referenced), House Royce (referenced via Bronze Yohn), House Greyjoy "
+        },
+        {
+          "chapter": "agot-sansa-02",
+          "line": 116,
+          "context": "| The Fingers | Origin of some hedge knights | No |\n| Highgarden | Origin of some hedge knights; seat of House Tyrell | No |\n| Mountains of Dorne | Origin of some hedge knights | No |"
+        },
+        {
+          "chapter": "agot-sansa-02",
+          "line": 290,
+          "context": "### Houses\nHouse Stark, House Lannister, House Baratheon, House Tyrell, House Clegane, House Royce, House Mallister, House Redwyne, House Frey, House Dondarrion, House Swann, House Caron, House Tully "
+        },
+        {
+          "chapter": "agot-catelyn-05",
+          "line": 229,
+          "context": "### Houses\nHouse Stark, House Tully, House Lannister, House Mallister, House Frey, House Bracken, House Whent, House Arryn, House Blackwood, House Darry, House Ryger, House Mooton, House Targaryen, Ho"
+        },
+        {
+          "chapter": "agot-sansa-05",
+          "line": 297,
+          "context": "### Houses\nHouse Baratheon, House Lannister, House Stark, House Tyrell, House Arryn, House Tully, House Martell, House Royce, House Mallister, House Caron, House Blackwood, House Frey, House Vance, Ho"
+        },
+        {
+          "chapter": "agot-jon-04",
+          "line": 88,
+          "context": "| Horn Hill | Sam's ancestral home; seat of House Tarly | Yes (uncertain \u2014 verify) |\n| Highgarden | Seat of House Tyrell; referenced as Tarly overlords | No |\n| Shadow Tower | Where Quorin Halfhand se"
+        },
+        {
+          "chapter": "agot-jon-04",
+          "line": 231,
+          "context": "| Samwell Tarly | Displaced heir | Dickon Tarly | Randyll prefers Dickon; Sam forced to renounce inheritance |\n| House Tarly | Bannerman | House Tyrell | Sam states his father is \"a bannerman to the T"
+        },
+        {
+          "chapter": "agot-jon-04",
+          "line": 256,
+          "context": "### Houses\nHouse Stark, House Tarly, House Tyrell, House Rowan, House Lannister"
+        },
+        {
+          "chapter": "agot-jon-06",
+          "line": 83,
+          "context": "| Horn Hill | Referenced \u2014 Tarly seat | Yes (uncertain \u2014 verify) |\n| Highgarden | Referenced \u2014 seat of House Tyrell | Yes (uncertain \u2014 verify) |\n| Eastwatch (-by-the-Sea) | Dareon's assignment destina"
+        },
+        {
+          "chapter": "agot-jon-06",
+          "line": 237,
+          "context": "### Houses\nHouse Stark, House Tarly, House Tyrell, House Mormont (implied by bearclaw fastenings)"
+        },
+        {
+          "chapter": "agot-sansa-03",
+          "line": 236,
+          "context": "### Houses\nHouse Stark, House Baratheon, House Lannister, House Dondarrion, House Tyrell, House Clegane, House Payne"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 297,
+          "context": "- House Baelish\n- House Tyrell\n- House Targaryen (historical \u2014 banners replaced)"
+        },
+        {
+          "chapter": "agot-eddard-06",
+          "line": 261,
+          "context": "### Houses\nHouse Stark, House Baratheon, House Lannister, House Arryn, House Tyrell, House Casterly (historical \u2014 winkled out of Casterly Rock by Lann the Clever)"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 54,
+          "context": "| Joss | Balding | | Plump | | Brewer's apron | | | |\n| Ser Loras Tyrell | | | | | Pale blue silk; belt a linked chain of golden roses (sigil of House Tyrell) | | Handsome; looks even younger than six"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 244,
+          "context": "### Houses\nHouse Stark, House Baratheon, House Lannister, House Tyrell, House Darry, House Vance, House Piper, House Tully, House Royce, House Payne, House Clegane"
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 250,
+          "context": "### Houses\nHouse Stark, House Tully, House Frey, House Lannister, House Bolton, House Karstark, House Umber, House Glover, House Tallhart, House Manderly, House Arryn, House Baratheon, House Blackwood"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 255,
+          "context": "### Houses\nHouse Lannister, House Stark, House Tully, House Baratheon, House Tyrell, House Crakehall, House Swyft, House Clegane, House Marbrand, House Brax, House Lefford, House Piper, House Blackwoo"
+        }
+      ]
+    },
+    {
+      "page": "House Tyrell of Brightwater Keep",
+      "raw_html_path": "sources/wiki/_raw/House_Tyrell_of_Brightwater_Keep.json",
+      "track_b_row": {
+        "page": "House Tyrell of Brightwater Keep",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 12,
+          "source": "cite_ref",
+          "pov": "The Kraken's Daughter"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Brightwater Keep",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse",
+            "qualifier": "disputed by House Florent"
+          },
+          {
+            "field": "Seat",
+            "target": "House Florent",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse",
+            "qualifier": "disputed by House Florent"
+          },
+          {
+            "field": "Head",
+            "target": "Garlan Tyrell",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "The Reach",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Lord of Brightwater Keep",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Heir",
+            "target": "None",
+            "edge_type": "HEIR_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Tyrell of Highgarden",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Founder",
+            "target": "Garlan Tyrell",
+            "edge_type": "FOUNDED",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            19
+          ],
+          "affc": [
+            12,
+            32
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Tyrell of Brightwater Keep",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 2,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 31073
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Uffering",
+      "raw_html_path": "sources/wiki/_raw/House_Uffering.json",
+      "track_b_row": {
+        "page": "House Uffering",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Reach",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Tyrell",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Uffering",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 30114
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Varner",
+      "raw_html_path": "sources/wiki/_raw/House_Varner.json",
+      "track_b_row": {
+        "page": "House Varner",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 22,
+          "source": "cite_ref",
+          "pov": "Bran III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Steffon Varner",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Reach",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Tyrell",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            22,
+            42,
+            65
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Varner",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 3,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 31508
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Vyrwel",
+      "raw_html_path": "sources/wiki/_raw/House_Vyrwel.json",
+      "track_b_row": {
+        "page": "House Vyrwel",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Darkdell",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Reach",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Tyrell",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Vyrwel",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 28990
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Webber",
+      "raw_html_path": "sources/wiki/_raw/House_Webber.json",
+      "track_b_row": {
+        "page": "House Webber",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 25,
+          "source": "cite_ref",
+          "pov": "The Lost Lord"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Coldmoat",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Reach",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Lord of Coldmoat",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Rowan",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            25
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Webber",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 95205
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Westbrook",
+      "raw_html_path": "sources/wiki/_raw/House_Westbrook.json",
+      "track_b_row": {
+        "page": "House Westbrook",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Reach",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Tyrell",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Westbrook",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 23640
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Willum",
+      "raw_html_path": "sources/wiki/_raw/House_Willum.json",
+      "track_b_row": {
+        "page": "House Willum",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 65,
+          "source": "cite_ref",
+          "pov": "Arya X"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Lord Willum",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Reach",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Heir",
+            "target": "Josua",
+            "edge_type": "HEIR_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Heir",
+            "target": "Elyas Willum",
+            "edge_type": "HEIR_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Tyrell",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            69
+          ],
+          "acok": [
+            65
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Willum",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 35236
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Woodwright",
+      "raw_html_path": "sources/wiki/_raw/House_Woodwright.json",
+      "track_b_row": {
+        "page": "House Woodwright",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 28,
+          "source": "cite_ref",
+          "pov": "Jaime III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Reach",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Tyrell",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            28
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Woodwright",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 29168
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Wythers",
+      "raw_html_path": "sources/wiki/_raw/House_Wythers.json",
+      "track_b_row": {
+        "page": "House Wythers",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 13,
+          "source": "cite_ref",
+          "pov": "Daenerys I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Reach",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Tyrell",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            13
+          ],
+          "affc": [
+            18
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Wythers",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 30360
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Yelshire",
+      "raw_html_path": "sources/wiki/_raw/House_Yelshire.json",
+      "track_b_row": {
+        "page": "House Yelshire",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Reach",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Tyrell",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Yelshire",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 25165
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Order of the Green Hand",
+      "raw_html_path": "sources/wiki/_raw/Order_of_the_Green_Hand.json",
+      "track_b_row": {
+        "page": "Order of the Green Hand",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 19,
+          "source": "cite_ref",
+          "pov": "Tyrion V"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Region",
+            "target": "Reach",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "Kings of the Reach",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Founder",
+            "target": "House Gardener",
+            "edge_type": "FOUNDED",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            19
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Order of the Green Hand",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 14572
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

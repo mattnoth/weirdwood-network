@@ -1,0 +1,28 @@
+---
+name: "Theron Pyke"
+type: character.human
+slug: theron-pyke
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Theron_Pyke"
+bucket_id: characters-other-s-t
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Theron Pyke is a character.human from the AWOIAF wiki.
+
+## Edges
+
+- HOLDS_TITLE: Maester (track_b: Title)
+- SWORN_TO: Citadel (track_b: Allegiance)
+- CULTURE_OF: ironborn (track_b: Culture)
+
+## Origins
+
+Theron Pyke was born a [bastard](wiki:Bastard) of the [Iron Islands](wiki:Iron_Islands). In his manuscript *[Strange Stone](wiki:Strange_Stone)*, Maester Theron postulated the existence of [Deep Ones](wiki:Deep_Ones), which he described as a "queer, misshapen race of half men sired by creatures of the salt seas upon human women". Theron suggested they inspired the legend of [merlings](wiki:Merling) and that the sea creatures who fathered them inspired the religion of the [Drowned God](wiki:Drowned_God).(wiki:Theron_Pyke.cite_ref-Rtwoiafthe_reach:_oldtown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+Theron also noted a certain likeness between the [black stone](wiki:Black_stone) of the ancient fortress on [Battle Isle](wiki:Battle_Isle) that serves as foundation to the [Hightower](wiki:Hightower) and that of the [Seastone Chair](wiki:Seastone_Chair), both of unknown origin. He postulated they had been constructed by the Deep Ones.(wiki:Theron_Pyke.cite_ref-Rtwoiafthe_reach:_oldtown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)

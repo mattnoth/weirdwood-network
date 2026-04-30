@@ -1,0 +1,48 @@
+{
+  "bucket_id": "characters-house-codd",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "f50c739b7f656577661b6941df37b3b682674a3582e9737ef2536d9146c695bf",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Dagon Codd",
+    "Eldred Codd",
+    "Lucas Codd",
+    "Tom Codd"
+  ],
+  "expected_nodes": [
+    "dagon-codd.node.md",
+    "eldred-codd.node.md",
+    "lucas-codd.node.md",
+    "tom-codd.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Lucas Codd"
+    ],
+    "tier_b": [
+      "Dagon Codd",
+      "Eldred Codd",
+      "Tom Codd"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 4,
+      "tier_a": 1,
+      "tier_b": 3,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.715030+00:00",
+  "stage3_promoted_count": 4,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

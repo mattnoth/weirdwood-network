@@ -1,0 +1,53 @@
+{
+  "bucket_id": "characters-house-hoare",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "97fddb097783cd927b49b2e42e9c5bc437d73242841cf200ed6aa854f62e3d0d",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Erich Hoare",
+    "Harlan Hoare",
+    "Harren the Red",
+    "Lord Commander Hoare",
+    "Ravos Hoare",
+    "Sam Salt"
+  ],
+  "expected_nodes": [
+    "erich-hoare.node.md",
+    "harlan-hoare.node.md",
+    "harren-the-red.node.md",
+    "lord-commander-hoare.node.md",
+    "ravos-hoare.node.md",
+    "sam-salt.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Erich Hoare",
+      "Harlan Hoare",
+      "Harren the Red",
+      "Lord Commander Hoare",
+      "Ravos Hoare",
+      "Sam Salt"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 6,
+      "tier_a": 0,
+      "tier_b": 6,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.830983+00:00",
+  "stage3_promoted_count": 6,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

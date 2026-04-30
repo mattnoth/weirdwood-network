@@ -1,0 +1,47 @@
+{
+  "bucket_id": "characters-house-kettleblack",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "4add7f1afa576dadc4bf19c6c2a7a63c96d8dfd076aea81ff81da8c8523bbde5",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Osfryd Kettleblack",
+    "Osmund Kettleblack",
+    "Osney Kettleblack",
+    "Oswell Kettleblack"
+  ],
+  "expected_nodes": [
+    "osfryd-kettleblack.node.md",
+    "osmund-kettleblack.node.md",
+    "osney-kettleblack.node.md",
+    "oswell-kettleblack.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Osfryd Kettleblack",
+      "Osmund Kettleblack",
+      "Osney Kettleblack",
+      "Oswell Kettleblack"
+    ],
+    "tier_b": [],
+    "tier_c": [],
+    "stats": {
+      "total": 4,
+      "tier_a": 4,
+      "tier_b": 0,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.845864+00:00",
+  "stage3_promoted_count": 4,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

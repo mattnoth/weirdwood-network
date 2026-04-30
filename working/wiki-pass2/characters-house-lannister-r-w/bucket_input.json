@@ -1,0 +1,3877 @@
+{
+  "bucket_id": "characters-house-lannister-r-w",
+  "tier": "core",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Rolder",
+      "raw_html_path": "sources/wiki/_raw/Rolder.json",
+      "track_b_row": {
+        "page": "Rolder",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 21,
+          "source": "cite_ref",
+          "pov": "Brienne IV"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Lannister",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westeros",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            21
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Rolder",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 4488
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Saranella",
+      "raw_html_path": "sources/wiki/_raw/Saranella.json",
+      "track_b_row": {
+        "page": "Saranella",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 39,
+          "source": "cite_ref",
+          "pov": "Jaime VI"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Septa",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Faith of the Seven",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Lannister",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            39
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Saranella",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 7747
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Senelle",
+      "raw_html_path": "sources/wiki/_raw/Senelle.json",
+      "track_b_row": {
+        "page": "Senelle",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 3,
+          "source": "cite_ref",
+          "pov": "The Captain of Guards"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Lannister",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Westeros",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "300\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "black cells",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Red Keep",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "King's Landing",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            3,
+            12,
+            24
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Senelle",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 3,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 9518
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Shortear",
+      "raw_html_path": "sources/wiki/_raw/Shortear.json",
+      "track_b_row": {
+        "page": "Shortear",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 3,
+          "source": "cite_ref",
+          "pov": "The Captain of Guards"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Lannister",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            3
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Shortear",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 4807
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Stafford Lannister",
+      "raw_html_path": "sources/wiki/_raw/Stafford_Lannister.json",
+      "track_b_row": {
+        "page": "Stafford Lannister",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 7,
+          "source": "cite_ref",
+          "pov": "Jon I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Lannister",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "245",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "253\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "299\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Oxcross",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Jason Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Marla Prester",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Myranda Lefford",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Daven Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Cerenna Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Myrielle Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Uncle Dolt"
+        ],
+        "cite_refs": {
+          "acok": [
+            7,
+            32,
+            39,
+            55
+          ],
+          "asos": [
+            19,
+            20,
+            44
+          ],
+          "affc": [
+            33
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Stafford Lannister",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 4,
+          "asos": 3,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 93505
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Tion Lannister",
+      "raw_html_path": "sources/wiki/_raw/Tion_Lannister.json",
+      "track_b_row": {
+        "page": "Tion Lannister",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Lannister",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "211",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "219\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "236\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Wendwater",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Gerold Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Rohanne Webber",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Ellyn Reyne",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Tion Lannister",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 49387
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Tregar",
+      "raw_html_path": "sources/wiki/_raw/Tregar.json",
+      "track_b_row": {
+        "page": "Tregar",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 35,
+          "source": "cite_ref",
+          "pov": "Catelyn VI"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Captain of the guards",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Lannister",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "298\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "King's Landing",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            35,
+            39
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Tregar",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 2,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 9587
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-eddard-10",
+          "line": 12,
+          "context": "- **approximate_timeline:** Shortly after the street fight with Jaime Lannister; Ned has been unconscious for six days and seven nights\n- **time_markers:** \"Six days and seven nights\" unconscious; nig"
+        },
+        {
+          "chapter": "agot-eddard-10",
+          "line": 73,
+          "context": "| Lord Redwyne | Dipped banners at Storm's End and pledged fealty (dream dialogue) | Ned (dream) |\n| Tregar | One of Jaime's men; died this morning from the blow Lord Stark gave him | Cersei |\n| Rober"
+        },
+        {
+          "chapter": "agot-eddard-10",
+          "line": 163,
+          "context": "| Sansa prays quietly for Ned; Arya has not spoken a word and shows fierce anger | Alyn reports | Ned, Alyn | No |\n| Tregar (one of Jaime's men) died this morning from a blow Ned gave him, making eigh"
+        },
+        {
+          "chapter": "agot-eddard-10",
+          "line": 238,
+          "context": "### Characters\nEddard Stark, Robert Baratheon, Cersei Lannister, Vayon Poole, Alyn, Ser Meryn Trant, Lyanna Stark, Jaime Lannister, Catelyn Stark, Tyrion Lannister, Jory Cassel, Ser Arthur Dayne, Ser "
+        },
+        {
+          "chapter": "agot-eddard-09",
+          "line": 33,
+          "context": "| Jaime Lannister | Antagonist | No | Ambushes Ned's party demanding news of Tyrion |\n| Tregar | Lannister captain | Yes (uncertain \u2014 verify) | Given command by Jaime; struck on helm by Ned |\n| Barra'"
+        },
+        {
+          "chapter": "agot-eddard-09",
+          "line": 52,
+          "context": "| Eddard Stark | \u2014 | \u2014 | \u2014 | \u2014 | Cloak with hood, gloves | Longsword | \u2014 | \u2014 |\n| Tregar | \u2014 | \u2014 | \u2014 | Blood running down face after Ned's blow | Lion-crested helm (sheared in half) | \u2014 | \u2014 | \u2014 |"
+        },
+        {
+          "chapter": "agot-eddard-09",
+          "line": 129,
+          "context": "17. **Ned warns Jaime that killing him means Tyrion dies** \u2014 Ned says Catelyn will slay Tyrion if Ned is killed. Jaime pokes Ned's chest with his gilded sword, doubts \"the noble Catelyn Tully\" would m"
+        },
+        {
+          "chapter": "agot-eddard-09",
+          "line": 130,
+          "context": "18. **Jaime sheathes his sword but orders Ned's men killed** \u2014 He tells Tregar to ensure no harm comes to Lord Stark, then orders \"kill his men.\"\n19. **Battle in the street** \u2014 Ned rides down a Lannis"
+        },
+        {
+          "chapter": "agot-eddard-09",
+          "line": 151,
+          "context": "| Confrontation | Jaime | Pokes Ned's chest with sword | Face to face | Debates whether to fight or withdraw |\n| Departure | Jaime | Canters off down the street | Away from the fight | Orders Tregar t"
+        },
+        {
+          "chapter": "agot-eddard-09",
+          "line": 155,
+          "context": "| Battle | Wyl | Pulled from dying horse | Ground | Swords slashing at him in the rain |\n| Battle | Ned | Gallops to Wyl, strikes Tregar | Tregar | Brings longsword down on Tregar's helm |\n| Battle | "
+        },
+        {
+          "chapter": "agot-eddard-09",
+          "line": 202,
+          "context": "| Jaime | Ned | \"Would she? The noble Catelyn Tully of Riverrun murder a hostage? I think... not. But I am not willing to chance my brother's life on a woman's honor.\" | Weighing whether to kill Ned |"
+        },
+        {
+          "chapter": "agot-eddard-09",
+          "line": 235,
+          "context": "| Littlefinger | familiar with | Chataya | Visits her establishment; kisses the woman's hand; whispers jokes |\n| Tregar | serves | Jaime Lannister | Captain of Lannister guards; follows Jaime's orders"
+        },
+        {
+          "chapter": "agot-eddard-09",
+          "line": 255,
+          "context": "### Characters\nEddard Stark, Petyr Baelish (Littlefinger), Jory Cassel, Heward, Wyl, Jaime Lannister (the Kingslayer), Tregar, Barra, Barra's mother (unnamed), Chataya (tall black-skinned woman), Gran"
+        }
+      ]
+    },
+    {
+      "page": "Tybolt Lannister",
+      "raw_html_path": "sources/wiki/_raw/Tybolt_Lannister.json",
+      "track_b_row": {
+        "page": "Tybolt Lannister",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of Casterly Rock",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Shield of Lannisport",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Warden of the West",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Lannister",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "194\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Casterly Rock",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "212\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Damon Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Cerissa Brax",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Teora Kyndall",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Cerelle Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Tybolt Lannister",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 63139
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Tygett Lannister",
+      "raw_html_path": "sources/wiki/_raw/Tygett_Lannister.json",
+      "track_b_row": {
+        "page": "Tygett Lannister",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 5,
+          "source": "cite_ref",
+          "pov": "Bran I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Lannister",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "250\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Casterly Rock",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "285\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Tytos Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Jeyne Marbrand",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Darlessa Marbrand",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Tyrek Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Tyg"
+        ],
+        "cite_refs": {
+          "affc": [
+            33
+          ],
+          "acok": [
+            41
+          ],
+          "adwd": [
+            5,
+            8
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Tygett Lannister",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 70774
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Tyler Hill",
+      "raw_html_path": "sources/wiki/_raw/Tyler_Hill.json",
+      "track_b_row": {
+        "page": "Tyler Hill",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Lannister",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "28\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "50\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Lyman Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Tyler Hill",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 25012
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Tymond Lannister",
+      "raw_html_path": "sources/wiki/_raw/Tymond_Lannister.json",
+      "track_b_row": {
+        "page": "Tymond Lannister",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of Casterly Rock",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Shield of Lannisport",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Warden of the West",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Lannister",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "60\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "101",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "129\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Lord Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Tymond Lannister",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 41040
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Tyrek Lannister",
+      "raw_html_path": "sources/wiki/_raw/Tyrek_Lannister.json",
+      "track_b_row": {
+        "page": "Tyrek Lannister",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 2,
+          "source": "cite_ref",
+          "pov": "Arya I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Lannister",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "286\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Westerlands",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "299\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "King's Landing",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "presumably"
+          },
+          {
+            "field": "Father",
+            "target": "Tygett Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Darlessa Marbrand",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Ermesande Hayford",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [
+          "Wet Nurse"
+        ],
+        "cite_refs": {
+          "acok": [
+            2,
+            18,
+            25,
+            41
+          ],
+          "affc": [
+            27
+          ],
+          "agot": [
+            30
+          ],
+          "asos": [
+            4
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Tyrek Lannister",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 4,
+          "asos": 1,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 69812
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Tyrion Lannister",
+      "raw_html_path": "sources/wiki/_raw/Tyrion_Lannister.json",
+      "track_b_row": {
+        "page": "Tyrion Lannister",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 1,
+          "source": "cite_ref",
+          "pov": "Prologue"
+        },
+        "books": [
+          {
+            "book": "AGOT",
+            "appearance": "POV"
+          },
+          {
+            "book": "ACOK",
+            "appearance": "POV"
+          },
+          {
+            "book": "ASOS",
+            "appearance": "POV"
+          },
+          {
+            "book": "AFFC",
+            "appearance": "mentioned"
+          },
+          {
+            "book": "ADWD",
+            "appearance": "POV"
+          }
+        ],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Hand of the King",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "formerly"
+          },
+          {
+            "field": "Titles",
+            "target": "Master of coin",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "formerly"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of Casterly Rock",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "claimant"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Lannister",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Second Sons",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "273\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Casterly Rock",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "westerlands",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Tywin Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Joanna Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouses",
+            "target": "Tysha",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric",
+            "qualifier": "annulled"
+          },
+          {
+            "field": "Spouses",
+            "target": "Sansa Stark",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Lover",
+            "target": "Shae",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [
+          "The Imp",
+          "Halfman",
+          "Boyman",
+          "Giant of Lannister",
+          "Lord Imp",
+          "Lord Tywin's Doom",
+          "Lord Tywin's Bane",
+          "Yollo",
+          "Hugor Hill",
+          "Hugor Halfwit",
+          "No-Nose",
+          "Freak",
+          "Redhands",
+          "Ser Imp",
+          "Monkey demon",
+          "The Bloody Hand",
+          "The demonic dwarf"
+        ],
+        "cite_refs": {
+          "agot": [
+            4,
+            5,
+            9,
+            13,
+            19,
+            21,
+            24,
+            28,
+            31,
+            34,
+            35,
+            38,
+            40,
+            42,
+            56,
+            62,
+            69
+          ],
+          "acok": [
+            2,
+            3,
+            7,
+            8,
+            15,
+            17,
+            20,
+            25,
+            29,
+            32,
+            36,
+            39,
+            44,
+            49,
+            54,
+            56,
+            58,
+            59,
+            61,
+            65,
+            67
+          ],
+          "asos": [
+            4,
+            11,
+            12,
+            19,
+            28,
+            32,
+            38,
+            59,
+            60,
+            61,
+            66,
+            68,
+            70,
+            77
+          ],
+          "adwd": [
+            1,
+            5,
+            8,
+            14,
+            18,
+            22,
+            27,
+            33,
+            40,
+            47,
+            52,
+            57,
+            66
+          ],
+          "affc": [
+            7,
+            9,
+            17,
+            33,
+            36,
+            39
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Tyrion Lannister",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 17,
+          "acok": 21,
+          "asos": 14,
+          "affc": 6,
+          "adwd": 13
+        },
+        "has_infobox": true,
+        "byte_size": 250573
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-eddard-10",
+          "line": 57,
+          "context": "| Catelyn Stark | Seized Tyrion on the kingsroad; news is on every lip in the city | Alyn, Robert, Cersei, Ned |\n| Tyrion Lannister | Seized by Catelyn; referred to as \"the Imp\" and \"the dwarf\" | Alyn"
+        },
+        {
+          "chapter": "agot-eddard-10",
+          "line": 208,
+          "context": "| Cersei Lannister | Hostility toward | Eddard Stark | Immediately aggressive; implies he should lose his head; calls him a dishonor to Robert |\n| Cersei Lannister | Protective of | Jaime Lannister / "
+        },
+        {
+          "chapter": "agot-eddard-10",
+          "line": 238,
+          "context": "### Characters\nEddard Stark, Robert Baratheon, Cersei Lannister, Vayon Poole, Alyn, Ser Meryn Trant, Lyanna Stark, Jaime Lannister, Catelyn Stark, Tyrion Lannister, Jory Cassel, Ser Arthur Dayne, Ser "
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 69,
+          "context": "| Lord Tywin Lannister | Robert's squires are sons of Tywin's brother; Gregor was with Tywin at the fall of King's Landing | Robert, Ned's thoughts |\n| Tyrion Lannister (the Imp) | Won the dagger from"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 304,
+          "context": "### Characters\nEddard Stark (Ned), Robert Baratheon, Ser Barristan Selmy, Sandor Clegane (the Hound), Jaime Lannister (the Kingslayer), Ser Gregor Clegane (the Mountain That Rides), Ser Loras Tyrell ("
+        },
+        {
+          "chapter": "agot-tyrion-08",
+          "line": 6,
+          "context": "- **chapter_number:** 63\n- **pov_character:** Tyrion Lannister\n- **pov_chapter_number:** Tyrion VIII"
+        },
+        {
+          "chapter": "agot-tyrion-08",
+          "line": 27,
+          "context": "|-----------|----------------|-------------------|-------|\n| Tyrion Lannister | POV character; leads clansmen in battle | No | Assigned to vanguard, fights in Battle of the Green Fork |\n| Tywin Lannis"
+        },
+        {
+          "chapter": "agot-tyrion-08",
+          "line": 47,
+          "context": "|-----------|------|------|-------------|-------------|----------------|-------------|------------------------|-----------------|\n| Tyrion Lannister | | | Dwarf, waddling gait, stunted legs | | Mismat"
+        },
+        {
+          "chapter": "agot-tyrion-08",
+          "line": 243,
+          "context": "### Characters\nTyrion Lannister, Tywin Lannister, Kevan Lannister, Jaime Lannister (referenced), Bronn, Shae, Podrick Payne, Ser Ilyn Payne (referenced), Gregor Clegane (the Mountain), Ser Addam Marbr"
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 59,
+          "context": "| Cersei Lannister | Behind Sansa's letter; wise enough to know she needs hostages for peace | Catelyn |\n| Tyrion Lannister | Catelyn held him captive but no longer; freed with help from Lysa | Roose "
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 183,
+          "context": "| Arya is unaccounted for \u2014 no mention in Sansa's letter | Robb and Catelyn note the absence | Catelyn, Robb | No |\n| Tyrion Lannister has been freed | Catelyn admits to the lords | All present | No |"
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 202,
+          "context": "| Roose Bolton | Catelyn | \"It is said that you hold Lord Tywin's dwarf son as captive. Have you brought him to us? I vow, we should make good use of such a hostage.\" | Quiet, calculating inquiry abou"
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 263,
+          "context": "### Characters\nCatelyn Stark, Robb Stark, Grey Wind, Ser Brynden Tully (the Blackfish), Ser Wylis Manderly, Ser Wendel Manderly, Lord Wyman Manderly, Roose Bolton, Greatjon Umber, Ser Helman Tallhart,"
+        },
+        {
+          "chapter": "agot-arya-03",
+          "line": 11,
+          "context": "- **location_secondary:** Dungeons beneath the Red Keep; underground tunnels; sewer exit at the river; Tower of the Hand (solar)\n- **approximate_timeline:** During the Hand's tourney period; after Ary"
+        },
+        {
+          "chapter": "agot-arya-03",
+          "line": 76,
+          "context": "| Littlefinger (Petyr Baelish) | Conspirator says \"the gods only know what game Littlefinger is playing\"; blames him for meddling that led to Catelyn abducting Tyrion | Stout man (torchbearer) |\n| Tyr"
+        },
+        {
+          "chapter": "agot-arya-03",
+          "line": 78,
+          "context": "| Jaime Lannister | Has \"a queer affection for the Imp\" | Stout man (torchbearer) |\n| Catelyn Stark | Referenced as Ned's wife who abducted Tyrion Lannister | Stout man (torchbearer) |\n| Jeor Mormont "
+        },
+        {
+          "chapter": "agot-arya-03",
+          "line": 194,
+          "context": "| A secret mechanism seals the underground well entrance with a stone slab | Arya witnesses the stout man activate it | Arya; the two conspirators | No |\n| Catelyn Stark has abducted Tyrion Lannister "
+        },
+        {
+          "chapter": "agot-arya-03",
+          "line": 262,
+          "context": "### Characters\nArya Stark, Eddard Stark, Myrcella Baratheon, Tommen Baratheon, Godwyn (Lannister guard), Syrio Forel (referenced), Septa Mordane (referenced), Sansa Stark (referenced), Jon Snow (refer"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 13,
+          "context": "- **time_markers:** Arrival during the day; council meeting takes place shortly after arrival; Littlefinger leads Ned outside at dusk (\"the ruddy glow of dusk,\" \"gathering dusk\"); the last fortnight o"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 54,
+          "context": "| Jon Arryn | Former Hand of the King; his old chambers given to Ned; described as prudent; his death is suspicious | King's steward, Pycelle, Ned, Catelyn |\n| Tyrion Lannister (the Imp) | Owner of th"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 113,
+          "context": "|----------|---------|-------------------|------------------------|\n| Valyrian steel dagger with dragonbone hilt | Sent to kill Bran; traced to Tyrion Lannister; Catelyn brings it to Ned | No | Ned ta"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 151,
+          "context": "17. **Ned is reunited with Catelyn** \u2014 She embraces him fiercely; she has been receiving reports from Littlefinger.\n18. **Catelyn tells Ned about the assassination attempt** \u2014 The fire in the library "
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 185,
+          "context": "| Assassination attempt on Bran \u2014 catspaw with Valyrian steel dagger | Catelyn tells Ned the full story | Catelyn, Ned, Littlefinger, (Varys knows some) | No |\n| The dagger is traced to Tyrion Lannist"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 249,
+          "context": "|----------|-----------|---------|\n| Why would Tyrion Lannister want Bran dead? | Ned | \"The boy has never done him harm\" |\n| Did the queen or king have a role in the assassination attempt? | Ned, Lit"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 261,
+          "context": "### Characters\nEddard Stark, Varys, Renly Baratheon, Petyr Baelish (Littlefinger), Grand Maester Pycelle, Catelyn Stark, Ser Rodrik Cassel, Vayon Poole, Robert Baratheon, Stannis Baratheon, Ser Barris"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 95,
+          "context": "| Lords Tyrell and Redwyne | Would fear Stannis due to the siege of Storm's End | Littlefinger |\n| Tyrion Lannister (the Imp) | Littlefinger suggests releasing him as part of making peace with the Lan"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 297,
+          "context": "### Characters\nEddard Stark, Robert Baratheon, Cersei Lannister, Lord Renly Baratheon, Grand Maester Pycelle, Varys, Petyr Baelish (Littlefinger), Ser Barristan Selmy, Ser Boros Blount, Ser Preston Gr"
+        },
+        {
+          "chapter": "agot-jon-09",
+          "line": 55,
+          "context": "| Maester Luwin | Jon thinks Luwin would bar the gates and send him away, as he should | Jon (thoughts) |\n| Tyrion Lannister | Jon recalls Tyrion saying most men would rather deny a hard truth than fa"
+        },
+        {
+          "chapter": "agot-jon-09",
+          "line": 220,
+          "context": "| Jeor Mormont | Shame/grief | Jorah Mormont | Jon's desertion is \"salt in the still-raw wound of his son's disgrace\" |\n| Jon Snow | Intellectual respect | Tyrion Lannister | Jon recalls Tyrion's wisd"
+        },
+        {
+          "chapter": "agot-jon-09",
+          "line": 241,
+          "context": "### Characters\nJon Snow, Ghost (direwolf), Samwell Tarly, Pyp, Grenn (the Aurochs), Halder, Toad, Matthar, Jeor Mormont (the Old Bear / Lord Commander), Mormont's raven, Three-Finger Hobb, Robb Stark,"
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 13,
+          "context": "- **time_markers:** \"dawn the next day\" (Jon watching Benjen leave \u2014 recalled); \"almost midday\" when Jon leaves the armory; \"this morning\" (the raven arrived from Winterfell); Jon's name day came and "
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 32,
+          "context": "| Donal Noye | Mentor/armorer | Yes (uncertain \u2014 verify) | One-armed armorer; breaks up fight; gives Jon crucial speech about privilege |\n| Tyrion Lannister | Companion/advisor | No | Guest at Castle "
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 47,
+          "context": "| Donal Noye | | | Chest like a keg of ale, gut to match | Missing left arm | Black wool tunic with left sleeve fastened at shoulder with a silver pin shaped like a longsword | | Nose flat and broad; "
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 103,
+          "context": "| Robert's warhammer | Forged by Donal Noye; crushed the life from Rhaegar Targaryen on the Trident | No (uncertain \u2014 verify) | Referenced only |\n| Tyrion's walking stick | Gnarled black walking stick"
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 111,
+          "context": "| Benjen's meal (recalled) | Meat, cut with fork and dagger | | Benjen Stark | Great timbered common hall | Recalled from days after Jon's arrival |\n| Midday meal | Stew (barley, onion, carrot, turnip"
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 116,
+          "context": "|-------|------|------|----------|---------|\n| Tyrion's accommodation at Castle Black | shelter_offered | Night's Watch / Lord Commander Mormont | Tyrion Lannister | Given rooms in the King's Tower as"
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 123,
+          "context": "4. **Jon changes in the armory** \u2014 Strips off training gear, dons roughspun blacks, feels cold and weary. Remembers Winterfell's warm walls.\n5. **Jon recalls his disillusionment** \u2014 Reflects that no o"
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 224,
+          "context": "| Benjen Stark | spends time with (as peer) | Jeor Mormont | As First Ranger, spends days and nights with high officers |\n| Jon Snow | receives counsel from | Tyrion Lannister | Tyrion advised Jon abo"
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 225,
+          "context": "| Jon Snow | receives counsel from | Tyrion Lannister | Tyrion advised Jon about the Watch on the road north; now advises about owning the name \"Lord Snow\" |\n| Tyrion Lannister | shows compassion towa"
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 226,
+          "context": "| Tyrion Lannister | shows compassion toward | Jon Snow | Says \"I am truly sorry\" about the news; is startled but amused when Jon lifts him |\n| Tyrion Lannister | antagonizes | Ser Alliser Thorne | Th"
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 227,
+          "context": "| Tyrion Lannister | antagonizes | Ser Alliser Thorne | Threatens to use court influence against Thorne; tells him to stop frightening Jon |\n| Ser Alliser Thorne | clashes with | Tyrion Lannister | \"K"
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 252,
+          "context": "### Characters\nJon Snow, Grenn (the Aurochs), Ser Alliser Thorne, Todder (Toad), Donal Noye, Tyrion Lannister, Jeor Mormont (the Old Bear), Ghost, Jeren, Pyp, Dareon, Halder, Benjen Stark, Eddard Star"
+        },
+        {
+          "chapter": "agot-bran-04",
+          "line": 13,
+          "context": "- **time_markers:** Bran's eighth name day has come and gone; daytime scene (sunlight streaming through yard door); night feast in Great Hall; Bran sleeps and dreams; Hodor wakes him and carries him d"
+        },
+        {
+          "chapter": "agot-bran-04",
+          "line": 36,
+          "context": "| Robb Stark | Acting lord of Winterfell | No | Seated in father's high seat; confronts Tyrion; hosts Night's Watch; emotional scene with Bran at end |\n| Tyrion Lannister | Visitor | No | Brings saddl"
+        },
+        {
+          "chapter": "agot-bran-04",
+          "line": 50,
+          "context": "| Hodor | Great shaggy head; arms matted with brown hair | | Nearly seven feet tall; massive chest; arms thick with muscle | | | | Simpleminded; smiles hugely; always smells faintly of horses | |\n| Ty"
+        },
+        {
+          "chapter": "agot-bran-04",
+          "line": 117,
+          "context": "| Robb welcomes Night's Watch | hospitality_offered | Robb Stark (as acting lord) | Night's Watch brothers | \"Any man of the Night's Watch is welcome here at Winterfell for as long as he wishes to sta"
+        },
+        {
+          "chapter": "agot-bran-04",
+          "line": 118,
+          "context": "| Robb greets Tyrion with bare sword | implicit_hostility | Robb Stark | Tyrion Lannister | Sword bare across knees; even Bran knows what it means to greet a guest with an unsheathed sword |\n| Robb of"
+        },
+        {
+          "chapter": "agot-bran-04",
+          "line": 119,
+          "context": "| Robb offers hospitality to Tyrion (belatedly) | hospitality_offered | Robb Stark | Tyrion Lannister | After Tyrion's gift: \"The hospitality of Winterfell is yours if you wish it, Lannister\" \u2014 at Mae"
+        },
+        {
+          "chapter": "agot-bran-04",
+          "line": 127,
+          "context": "4. **Old Nan tells the story of the Others** \u2014 Old Nan tells of the Long Night, the Others who came with cold and death, their pale dead horses and hosts of the slain, and the last hero who sought the"
+        },
+        {
+          "chapter": "agot-bran-04",
+          "line": 185,
+          "context": "| Maester Luwin sent birds to Eddard, Catelyn, and Jon with no replies | Bran's recollection | Bran, Maester Luwin | No |\n| The direwolves are hostile to Tyrion Lannister | Wolves growl, lunge, and sn"
+        },
+        {
+          "chapter": "agot-bran-04",
+          "line": 232,
+          "context": "| Bran | dependence on | Hodor | Hodor carries him everywhere; washes him; dresses him |\n| Robb | hostility toward | Tyrion Lannister | Greets with bare sword; calls him \"Lannister\"; questions his mot"
+        },
+        {
+          "chapter": "agot-bran-04",
+          "line": 241,
+          "context": "| Tyrion | connection to | Jon Snow | Says Jon asked him to help Bran; compares Jon's graces favorably to Robb's |\n| Summer, Grey Wind, Shaggydog | hostility toward | Tyrion Lannister | Growl, lunge, "
+        },
+        {
+          "chapter": "agot-bran-04",
+          "line": 267,
+          "context": "### Characters\nBran Stark, Rickon Stark, Robb Stark, Old Nan, Hodor (Walder), Maester Luwin, Tyrion Lannister, Theon Greyjoy, Hallis Mollen, Yoren, Eddard Stark, Catelyn Stark, Jon Snow, Benjen Stark,"
+        },
+        {
+          "chapter": "agot-jon-07",
+          "line": 74,
+          "context": "| Lord Eddard Stark | Imprisoned, charged with treason; accused of plotting with Robert's brothers to deny Joffrey the throne | Letter via Mormont; Jon (internal) |\n| Tyrion Lannister | \"The dwarf\" \u2014 "
+        },
+        {
+          "chapter": "agot-jon-07",
+          "line": 262,
+          "context": "| Jon Snow | Brotherhood with (recalled) | Robb Stark | Remembered at Old Nan's feet; \"As much as Robb and Bran and Rickon\" |\n| Jon Snow | Remembered friendship with | Tyrion Lannister | \"Tyrion Lanni"
+        },
+        {
+          "chapter": "agot-jon-07",
+          "line": 288,
+          "context": "### Characters\nJon Snow, Ghost (direwolf), Jeor Mormont (the Old Bear), Samwell Tarly, Ser Jaremy Rykker, Dywen, Chett, Ser Alliser Thorne, Pyp, Grenn, Toad (Todder), Bowen Marsh, Hake, Donal Noye, Ma"
+        },
+        {
+          "chapter": "agot-tyrion-01",
+          "line": 6,
+          "context": "- **chapter_number:** 10\n- **pov_character:** Tyrion Lannister\n- **pov_chapter_number:** Tyrion I"
+        },
+        {
+          "chapter": "agot-tyrion-01",
+          "line": 13,
+          "context": "- **time_markers:** Dawn (reading lamp flickering, oil nearly gone, dawn light leaking through high windows); rising sun not yet clearing Winterfell's walls; \"all night\" reading; \"four days with no ch"
+        },
+        {
+          "chapter": "agot-tyrion-01",
+          "line": 27,
+          "context": "|-----------|----------------|-------------------|-------|\n| Tyrion Lannister | POV character | uncertain \u2014 verify | Reads all night, confronts Joffrey, delivers news about Bran at breakfast |\n| Septo"
+        },
+        {
+          "chapter": "agot-tyrion-01",
+          "line": 39,
+          "context": "|-----------|------|------|-------------|-------------|----------------|-------------|------------------------|-----------------|\n| Tyrion Lannister | | | Short, stunted legs (short and twisted), twis"
+        },
+        {
+          "chapter": "agot-tyrion-01",
+          "line": 93,
+          "context": "|--------------|---------------------|-------|----------------------|-------|-------------------------------|\n| Breakfast | Bread (black bread, ripped into chunks), two little fish, bacon (burned unti"
+        },
+        {
+          "chapter": "agot-tyrion-01",
+          "line": 216,
+          "context": "### Characters\n- Tyrion Lannister\n- Septon Chayle"
+        },
+        {
+          "chapter": "agot-tyrion-05",
+          "line": 6,
+          "context": "- **chapter_number:** 39\n- **pov_character:** Tyrion Lannister\n- **pov_chapter_number:** Tyrion V"
+        },
+        {
+          "chapter": "agot-tyrion-05",
+          "line": 27,
+          "context": "|-----------|----------------|-------------------|-------|\n| Tyrion Lannister | POV character, prisoner | No | Imprisoned in the Eyrie's sky cells; secures trial by combat through cunning |\n| Mord | T"
+        },
+        {
+          "chapter": "agot-tyrion-05",
+          "line": 48,
+          "context": "| Mord | | Small, dark eyes | Twenty stone; thick, stub-fingered hands; heavy white belly; meaty hands | Left side of face slick with scar where an axe cut off his ear and part of his cheek | | Wears "
+        },
+        {
+          "chapter": "agot-tyrion-05",
+          "line": 113,
+          "context": "|-------|------|------|----------|---------|\n| Tyrion's imprisonment | shelter_offered (ironically \u2014 as prisoner) | Lysa Arryn / House Arryn | Tyrion Lannister | The \"dungeon\" is an open sky cell desi"
+        },
+        {
+          "chapter": "agot-tyrion-05",
+          "line": 114,
+          "context": "| Tyrion's imprisonment | shelter_offered (ironically \u2014 as prisoner) | Lysa Arryn / House Arryn | Tyrion Lannister | The \"dungeon\" is an open sky cell designed to break prisoners through exposure and "
+        },
+        {
+          "chapter": "agot-tyrion-05",
+          "line": 247,
+          "context": "### Characters\nTyrion Lannister, Mord, Lysa Arryn, Robert Arryn, Catelyn Stark, Ser Vardis Egen, Bronn, Ser Brynden Tully, Lord Nestor Royce, Ser Albar Royce, Ser Lyn Corbray, Lord Hunter, Lady Waynwo"
+        },
+        {
+          "chapter": "agot-catelyn-05",
+          "line": 13,
+          "context": "- **time_markers:** \"near dark when they reached it\" (arrival at inn); \"for the past week, the travelers had been thick as flies\" (week of heavy road traffic); \"we left King's Landing a fortnight ago\""
+        },
+        {
+          "chapter": "agot-catelyn-05",
+          "line": 33,
+          "context": "| Marillion | Singer at the inn | Yes (uncertain \u2014 verify) | Handsome youth of about eighteen; plays woodharp; inadvertently reveals Catelyn's identity to Tyrion |\n| Tyrion Lannister | Antagonist/arri"
+        },
+        {
+          "chapter": "agot-catelyn-05",
+          "line": 45,
+          "context": "| Marillion | | | | | | | Handsome | ~18 years |\n| Tyrion Lannister | | Mismatched eyes | Small (dwarf) | | | | \"Small and bold as life\"; mocking grin; mismatched eyes mentioned twice | |\n| Yoren | | "
+        },
+        {
+          "chapter": "agot-catelyn-05",
+          "line": 103,
+          "context": "| Marillion's woodharp | Singer plucks and plays it throughout the inn scene | uncertain \u2014 verify | Marillion |\n| Gold coin | Tyrion flips it to buy a room from a freerider; its wink is visible across"
+        },
+        {
+          "chapter": "agot-catelyn-05",
+          "line": 116,
+          "context": "| Inn lodging | shelter_offered | Masha Heddle | Catelyn, Ser Rodrik | Two garret rooms assigned; boots must be left downstairs; coin taken; strict meal schedule enforced |\n| Tyrion's arrival | shelte"
+        },
+        {
+          "chapter": "agot-catelyn-05",
+          "line": 117,
+          "context": "| Tyrion's arrival | shelter_offered | Masha Heddle (reluctant) / Freerider | Tyrion Lannister | Masha claims no rooms available; freerider gives up his room for a gold coin; Masha agrees to provide f"
+        },
+        {
+          "chapter": "agot-catelyn-05",
+          "line": 130,
+          "context": "10. **Conversation with Marillion** \u2014 The young singer boasts of his talent, discusses the upcoming tourney, claims familiarity with Riverrun and Edmure.\n11. **Tyrion Lannister arrives at the inn** \u2014 "
+        },
+        {
+          "chapter": "agot-catelyn-05",
+          "line": 155,
+          "context": "| Lord Walder Frey plans to take a new wife on his ninetieth name day and has invited Hoster Tully to the wedding | Frey captain tells Catelyn | Catelyn, Frey men, those nearby | No |\n| Tyrion Lannist"
+        },
+        {
+          "chapter": "agot-catelyn-05",
+          "line": 195,
+          "context": "| Catelyn Stark | traveling companion / protected by | Ser Rodrik Cassel | He is her sole escort and protector; they adopt father-daughter disguise |\n| Catelyn Stark | accuses / arrests | Tyrion Lanni"
+        },
+        {
+          "chapter": "agot-catelyn-05",
+          "line": 204,
+          "context": "| House Blackwood | rivals with | House Bracken | \"ever enemies, whose quarrels her father was obliged to settle\" |\n| Tyrion Lannister | traveling companion of | Yoren | Arrive together; Tyrion invite"
+        },
+        {
+          "chapter": "agot-catelyn-05",
+          "line": 223,
+          "context": "### Characters\nCatelyn Stark (Catelyn Tully), Ser Rodrik Cassel, Lord Jason Mallister, Patrek Mallister, Masha Heddle, Marillion, Tyrion Lannister, Yoren, Hoster Tully, Lysa Arryn (Lysa Tully), Petyr "
+        },
+        {
+          "chapter": "agot-tyrion-02",
+          "line": 6,
+          "context": "- **chapter_number:** 14\n- **pov_character:** Tyrion Lannister\n- **pov_chapter_number:** Tyrion II"
+        },
+        {
+          "chapter": "agot-tyrion-02",
+          "line": 13,
+          "context": "- **time_markers:** \"a fortnight on the wild track\"; left Winterfell on the same day as the king; \"by the end of the first week\"; \"three days ride from Winterfell\"; \"by the fifth day\"; \"on the eightee"
+        },
+        {
+          "chapter": "agot-tyrion-02",
+          "line": 27,
+          "context": "|-----------|----------------|-------------------|-------|\n| Tyrion Lannister | POV character | No | Traveling north to the Wall with Benjen Stark's party |\n| Jon Snow | Major supporting | No | Travel"
+        },
+        {
+          "chapter": "agot-tyrion-02",
+          "line": 38,
+          "context": "|-----------|------|------|-------------|-------------|----------------|-------------|------------------------|-----------------|\n| Tyrion Lannister | | | Short and twisted legs; arms strong but too s"
+        },
+        {
+          "chapter": "agot-tyrion-02",
+          "line": 113,
+          "context": "| Stay at forest holdfast | shelter_offered | Unnamed holdfast residents | Tyrion's party | \"At the edge of the wolfswood they stayed a night behind the wooden walls of a forest holdfast\" \u2014 where Yore"
+        },
+        {
+          "chapter": "agot-tyrion-02",
+          "line": 233,
+          "context": "### Characters\n- Tyrion Lannister (POV)\n- Jon Snow"
+        },
+        {
+          "chapter": "agot-tyrion-06",
+          "line": 6,
+          "context": "- **chapter_number:** 42\n- **pov_character:** Tyrion Lannister\n- **pov_chapter_number:** Tyrion VI"
+        },
+        {
+          "chapter": "agot-tyrion-06",
+          "line": 27,
+          "context": "|-----------|----------------|-------------------|-------|\n| Tyrion Lannister | POV character, negotiator | No | Recently freed from the Eyrie; traveling through the Mountains of the Moon |\n| Bronn | "
+        },
+        {
+          "chapter": "agot-tyrion-06",
+          "line": 38,
+          "context": "|-----------|------|------|-------------|-------------|----------------|-------------|------------------------|-----------------|\n| Tyrion Lannister | | | Stunted legs; described as \"half man,\" \"dwarf"
+        },
+        {
+          "chapter": "agot-tyrion-06",
+          "line": 79,
+          "context": "|----------|---------|-------------------|------------------------|\n| Shadowskin cloak | Tyrion spreads it on the ground to sleep on | No (uncertain \u2014 verify) | Tyrion Lannister |\n| Hauberk (chainmail"
+        },
+        {
+          "chapter": "agot-tyrion-06",
+          "line": 80,
+          "context": "| Shadowskin cloak | Tyrion spreads it on the ground to sleep on | No (uncertain \u2014 verify) | Tyrion Lannister |\n| Hauberk (chainmail) | Too large for Tyrion; he offers it to Conn | No | Tyrion Lannist"
+        },
+        {
+          "chapter": "agot-tyrion-06",
+          "line": 81,
+          "context": "| Hauberk (chainmail) | Too large for Tyrion; he offers it to Conn | No | Tyrion Lannister |\n| Battle-axe | Tyrion carries it; offers it to Shagga | No (uncertain \u2014 verify) | Tyrion Lannister |\n| Valy"
+        },
+        {
+          "chapter": "agot-tyrion-06",
+          "line": 197,
+          "context": "### Characters\n- Tyrion Lannister (POV)\n- Bronn"
+        },
+        {
+          "chapter": "agot-catelyn-06",
+          "line": 30,
+          "context": "| Brynden Tully (the Blackfish) | Knight of the Gate, Catelyn's uncle | Yes | Guards the Bloody Gate; reunites with Catelyn |\n| Tyrion Lannister | Prisoner / captive | No | Armed despite being a priso"
+        },
+        {
+          "chapter": "agot-catelyn-06",
+          "line": 47,
+          "context": "| Brynden Tully | Grey (time had stolen the auburn) | Deep blue | | | Grey horse and grey armor; cloak of rippling blue-and-red of Riverrun; shiny black fish pin wrought in gold and obsidian | | Featu"
+        },
+        {
+          "chapter": "agot-catelyn-06",
+          "line": 116,
+          "context": "|----------|---------|-------------------|------------------------|\n| Shadowskin cloak | Won by Tyrion dicing with Marillion the singer | Yes | Tyrion Lannister |\n| Chainmail hauberk | Taken by Tyrion"
+        },
+        {
+          "chapter": "agot-catelyn-06",
+          "line": 117,
+          "context": "| Shadowskin cloak | Won by Tyrion dicing with Marillion the singer | Yes | Tyrion Lannister |\n| Chainmail hauberk | Taken by Tyrion from Chiggen's corpse | Yes | Tyrion Lannister |\n| Axe | Strapped t"
+        },
+        {
+          "chapter": "agot-catelyn-06",
+          "line": 118,
+          "context": "| Chainmail hauberk | Taken by Tyrion from Chiggen's corpse | Yes | Tyrion Lannister |\n| Axe | Strapped to Tyrion's saddle | No | Tyrion Lannister |\n| Dirk | At Tyrion's belt | No | Tyrion Lannister |"
+        },
+        {
+          "chapter": "agot-catelyn-06",
+          "line": 119,
+          "context": "| Axe | Strapped to Tyrion's saddle | No | Tyrion Lannister |\n| Dirk | At Tyrion's belt | No | Tyrion Lannister |\n| Moon-and-falcon banner | Banner of House Arryn, sky-blue and white; carried before t"
+        },
+        {
+          "chapter": "agot-catelyn-06",
+          "line": 131,
+          "context": "| Offered at Snow waycastle | Bread and cheese | | Offered by the commander but declined by Mya | Snow waycastle | Also offered chance to warm by fire; declined to keep moving |\n| Tyrion's demand at G"
+        },
+        {
+          "chapter": "agot-catelyn-06",
+          "line": 139,
+          "context": "| Lysa demands immediate ascent | hospitality_violated (partial) | Lysa Arryn | Catelyn | Lysa sends word demanding Catelyn ascend at once rather than rest the night; Brynden calls it madness |\n| Cate"
+        },
+        {
+          "chapter": "agot-catelyn-06",
+          "line": 246,
+          "context": "| Brynden Tully | Estranged from | Lord Hoster Tully | Years of quarreling; Hoster hasn't spoken his name since the wedding |\n| Tyrion Lannister | Growing alliance with | Bronn | \"The two of them had "
+        },
+        {
+          "chapter": "agot-catelyn-06",
+          "line": 247,
+          "context": "| Tyrion Lannister | Growing alliance with | Bronn | \"The two of them had grown thick as thieves since Chiggen had died\"; they ride together, talk in low voices, laugh at private jokes; Bronn laughs a"
+        },
+        {
+          "chapter": "agot-catelyn-06",
+          "line": 258,
+          "context": "| Brynden Tully | Protective but critical of | Lysa Arryn | Serves her at the Bloody Gate but is candid about her failings to Catelyn |\n| Tyrion Lannister | Sardonic about his family | Jaime, Cersei, "
+        },
+        {
+          "chapter": "agot-catelyn-06",
+          "line": 275,
+          "context": "### Characters\nCatelyn Stark, Ser Donnel Waynwood, Brynden Tully (the Blackfish), Tyrion Lannister, Bronn, Ser Rodrik Cassel, Marillion, Ser Willis Wode, Lord Nestor Royce, Mya Stone, Ser Vardis Egen,"
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 93,
+          "context": "| Kevan Lannister | Named by Marq Piper as one whose head they'd have on a pike | Marq Piper |\n| Tyrion Lannister (the Imp) | Named by Marq Piper among Lannister targets; Catelyn's internal voice refe"
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 276,
+          "context": "### Characters\nCatelyn Stark, Robb Stark, Grey Wind, Theon Greyjoy, Brynden Tully (the Blackfish), Edmure Tully, Hoster Tully, Tytos Blackwood, Jon Umber (the Greatjon), Rickard Karstark, Maege Mormon"
+        },
+        {
+          "chapter": "agot-eddard-09",
+          "line": 11,
+          "context": "- **location_secondary:** Red Keep, Storm's End (referenced), Winterfell (recalled), Casterly Rock (referenced), Riverrun (referenced)\n- **approximate_timeline:** Shortly after Ned resigns as Hand of "
+        },
+        {
+          "chapter": "agot-eddard-09",
+          "line": 59,
+          "context": "| Lyanna Stark | Ned recalls her words about Robert at Winterfell on the night of her betrothal | Ned (memory) |\n| Tyrion Lannister | Jaime demands to know about his brother's capture; described as \"f"
+        },
+        {
+          "chapter": "agot-eddard-09",
+          "line": 220,
+          "context": "| Jaime Lannister | hostile confrontation with | Eddard Stark | Ambushes Ned's party; threatens to kill him |\n| Jaime Lannister | protective brother to | Tyrion Lannister | Ambushes Ned specifically t"
+        },
+        {
+          "chapter": "agot-eddard-09",
+          "line": 221,
+          "context": "| Jaime Lannister | protective brother to | Tyrion Lannister | Ambushes Ned specifically to learn Tyrion's fate; \"not willing to chance my brother's life\" |\n| Catelyn Stark | captor of | Tyrion Lannis"
+        },
+        {
+          "chapter": "agot-eddard-09",
+          "line": 233,
+          "context": "| Cersei Lannister | allegedly murdered children of | Robert Baratheon | Rumored to have killed twin bastards at Casterly Rock and sold the mother |\n| Tywin Lannister | protective father of | Tyrion L"
+        },
+        {
+          "chapter": "agot-eddard-09",
+          "line": 255,
+          "context": "### Characters\nEddard Stark, Petyr Baelish (Littlefinger), Jory Cassel, Heward, Wyl, Jaime Lannister (the Kingslayer), Tregar, Barra, Barra's mother (unnamed), Chataya (tall black-skinned woman), Gran"
+        },
+        {
+          "chapter": "agot-jon-04",
+          "line": 67,
+          "context": "| Catelyn Stark | \"Catelyn Stark had seen to that\" \u2014 ensured Jon never truly belonged among the Stark children | Jon's internal thought |\n| Tyrion Lannister | Jon thinks of him oddly when considering "
+        },
+        {
+          "chapter": "agot-jon-04",
+          "line": 136,
+          "context": "14. **Sam introduces himself to Jon** \u2014 After the fight, Sam removes Jon's helm for him and introduces himself as Samwell Tarly of Horn Hill.\n15. **Jon works atop the Wall** \u2014 That afternoon, Jon scat"
+        },
+        {
+          "chapter": "agot-jon-04",
+          "line": 200,
+          "context": "| Sam | Jon | \"No I won't. I never do better.\" | Sam's bleak self-assessment |\n| Tyrion Lannister (recalled) | Jon (recalled) | \"Most men would rather deny a hard truth than face it.\" | Jon remembers "
+        },
+        {
+          "chapter": "agot-jon-04",
+          "line": 236,
+          "context": "| Dareon | Background friendship | Jon Snow | Jon trains him; Jon tells Sam about his singing |\n| Jon Snow | Intellectual respect / recalled connection | Tyrion Lannister | Thinks of Tyrion's wisdom w"
+        },
+        {
+          "chapter": "agot-jon-04",
+          "line": 250,
+          "context": "### Characters\nJon Snow, Samwell Tarly (Sam), Ghost, Ser Alliser Thorne, Pyp (Pypar), Grenn, Halder, Dareon, Rast, Albett (Pimple), Donal Noye, Toad, Jeren, Lord Randyll Tarly, Lady Tarly, Dickon Tarl"
+        },
+        {
+          "chapter": "agot-catelyn-07",
+          "line": 11,
+          "context": "- **location_secondary:** Riverrun (referenced), Casterly Rock (referenced), the Golden Tooth (referenced), King's Landing (referenced), Winterfell (referenced), Gulltown (referenced), Dragonstone (re"
+        },
+        {
+          "chapter": "agot-catelyn-07",
+          "line": 32,
+          "context": "| Robert Arryn | Lord of the Eyrie | No | Child lord; fidgets and demands entertainment; wants to \"make the little man fly\" |\n| Tyrion Lannister | Prisoner/accused | No | On trial; released after Bron"
+        },
+        {
+          "chapter": "agot-catelyn-07",
+          "line": 55,
+          "context": "| Maester Colemon | | | | | | | Absurdly long neck; bobbing adam's apple; loose maester's chain | |\n| Tyrion Lannister | | Mismatched eyes | | | | | Described as \"the dwarf,\" \"the Imp\" | |\n| The septo"
+        },
+        {
+          "chapter": "agot-catelyn-07",
+          "line": 121,
+          "context": "| Catelyn's stay at the Eyrie | shelter_offered | Lysa Arryn | Catelyn Stark, Ser Rodrik | Lysa has given Catelyn servants; Catelyn is ready to depart |\n| Tyrion's release | safe_conduct | Lysa Arryn "
+        },
+        {
+          "chapter": "agot-catelyn-07",
+          "line": 211,
+          "context": "| Lysa | Surrounded by suitors | Lord Hunter, Ser Lyn Corbray, Ser Morton Waynwood | They compete for her favor; Catelyn considers them all unsuitable |\n| Lysa | Accuses of murder | Tyrion Lannister |"
+        },
+        {
+          "chapter": "agot-catelyn-07",
+          "line": 236,
+          "context": "### Characters\nCatelyn Stark, Ser Rodrik Cassel, Brynden Tully (the Blackfish), Lysa Arryn, Robert Arryn, Tyrion Lannister, Bronn, Ser Vardis Egen, Maester Colemon, Lord Eon Hunter, Ser Lyn Corbray, S"
+        },
+        {
+          "chapter": "agot-tyrion-07",
+          "line": 6,
+          "context": "- **chapter_number:** 57\n- **pov_character:** Tyrion Lannister\n- **pov_chapter_number:** Tyrion VII"
+        },
+        {
+          "chapter": "agot-tyrion-07",
+          "line": 27,
+          "context": "|-----------|----------------|-------------------|-------|\n| Tyrion Lannister | POV character | No | Leads clansmen down from the mountains to his father's camp |\n| Bronn | Companion/sellsword | No | "
+        },
+        {
+          "chapter": "agot-tyrion-07",
+          "line": 50,
+          "context": "| Timett son of Timett | | Missing left eye (put out with white-hot knife) | | Self-inflicted eye removal | | | | Not yet twenty |\n| Tyrion Lannister | | | Stunted legs; waddles | Deformities referenc"
+        },
+        {
+          "chapter": "agot-tyrion-07",
+          "line": 117,
+          "context": "| Tywin and Kevan sharing ale | | Ale \u2014 brown and yeasty, \"so thick you could almost chew it\" | Tywin Lannister, Kevan Lannister; Tyrion helps himself | Inn at the crossroads, common room | Described "
+        },
+        {
+          "chapter": "agot-tyrion-07",
+          "line": 256,
+          "context": "### Characters\nTyrion Lannister, Bronn, Chella daughter of Cheyk, Shagga son of Dolf, Conn son of Coratt, Ulf son of Umar, Timett son of Timett, Tywin Lannister, Kevan Lannister, Ser Flement Brax, Jai"
+        },
+        {
+          "chapter": "agot-tyrion-03",
+          "line": 6,
+          "context": "- **chapter_number:** 22\n- **pov_character:** Tyrion Lannister\n- **pov_chapter_number:** Tyrion III"
+        },
+        {
+          "chapter": "agot-tyrion-03",
+          "line": 27,
+          "context": "|-----------|----------------|-------------------|-------|\n| Tyrion Lannister | POV character | No | Dining with Watch officers, then ascending the Wall for a final look |\n| Jeor Mormont (Lord Command"
+        },
+        {
+          "chapter": "agot-tyrion-03",
+          "line": 45,
+          "context": "| Ghost | White (shaggy pale shape) | Red eyes | Comes up as high as Tyrion's chest | | | | White direwolf; moves silently | |\n| Tyrion Lannister | | | Less than half a man (per Thorne); dwarf | | Bun"
+        },
+        {
+          "chapter": "agot-tyrion-03",
+          "line": 113,
+          "context": "|-------|------|------|----------|---------|\n| Dinner with Watch officers | feast_given | Lord Commander Mormont / Night's Watch | Tyrion Lannister | Tyrion dines as honored guest with senior officers"
+        },
+        {
+          "chapter": "agot-tyrion-03",
+          "line": 245,
+          "context": "### Characters\nTyrion Lannister, Jeor Mormont (the Old Bear), Ser Alliser Thorne, Bowen Marsh, Ser Jaremy Rykker, Maester Aemon, Jon Snow, Ghost, Mormont's raven, Jaime Lannister, Cersei Lannister, Ty"
+        },
+        {
+          "chapter": "agot-bran-02",
+          "line": 55,
+          "context": "| Ser Rodrik Cassel | Rode out with the hunt | Bran (narration) |\n| Tyrion Lannister | \"The queen's funny little brother\"; rode out with the hunt | Bran (narration) |\n| Old Nan | Told Bran about ghost"
+        },
+        {
+          "chapter": "agot-bran-02",
+          "line": 274,
+          "context": "### Characters\nBran Stark, Bran's direwolf (unnamed), Cersei Lannister, Jaime Lannister, Robert Baratheon, Joffrey Baratheon, Robb Stark, Jon Snow, Sansa Stark, Arya Stark, Rickon Stark, Benjen Stark,"
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 11,
+          "context": "- **location_secondary:** Winterfell (discussed), Dragonstone (discussed), Vaes Dothrak (mentioned), Braavos (mentioned), King's Landing docks (referenced)\n- **approximate_timeline:** Mid-AGOT; follow"
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 61,
+          "context": "| Catelyn Stark | Ned reflects on her seizure of Tyrion; remembers her warning about Robert; she brought him the dagger | Ned (internal) |\n| Tyrion Lannister | \"The dwarf\"; Catelyn's seizure of him wi"
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 235,
+          "context": "### Characters\nEddard Stark (Ned), Robert Baratheon, Varys, Renly Baratheon, Ser Barristan Selmy, Grand Maester Pycelle, Petyr Baelish (Littlefinger), Ser Boros Blount, Vayon Poole, Tomard (Tom), Daen"
+        },
+        {
+          "chapter": "agot-bran-06",
+          "line": 80,
+          "context": "| King Robert | Dead \u2014 confirmed by Sansa's letter; one rumor says died at Father's hands | Sansa's letter, rumors |\n| Tyrion Lannister (the Imp) | Rumored killed by Mother, hung from walls of Riverru"
+        },
+        {
+          "chapter": "agot-bran-06",
+          "line": 292,
+          "context": "### Characters\nBran Stark, Robb Stark, Rickon Stark, Eddard Stark (Father), Catelyn Stark (Mother), Sansa Stark, Arya Stark, Brandon Stark (Ned's brother), Lord Rickard Stark (grandfather), Hodor, Mae"
+        },
+        {
+          "chapter": "agot-jon-01",
+          "line": 13,
+          "context": "- **time_markers:** \"fourth hour of the welcoming feast\"; nighttime (feast extends into evening); \"this afternoon\" (referring to the king's visit to the crypts earlier that day); Jon states he will \"t"
+        },
+        {
+          "chapter": "agot-jon-01",
+          "line": 30,
+          "context": "| Benjen Stark | Jon's uncle, Night's Watch brother | No (uncertain \u2014 verify) | Visits Jon at the lower tables; discourages Jon from joining the Watch |\n| Tyrion Lannister | Encounters Jon in the cour"
+        },
+        {
+          "chapter": "agot-jon-01",
+          "line": 57,
+          "context": "| Jaime Lannister | Golden | Flashing green | Tall | | Crimson silk; high black boots; black satin cloak; lion of his House embroidered in gold thread on tunic breast | | Twin to Cersei; smile that cu"
+        },
+        {
+          "chapter": "agot-jon-01",
+          "line": 66,
+          "context": "| Daeron Targaryen (the Young Dragon) | Jon cites him as a hero \u2014 conquered Dorne at fourteen, died at eighteen | Jon Snow, Benjen Stark |\n| Lord Tywin Lannister | Mentioned as Tyrion's father; Tyrion"
+        },
+        {
+          "chapter": "agot-jon-01",
+          "line": 67,
+          "context": "| Lord Tywin Lannister | Mentioned as Tyrion's father; Tyrion says his father has never been sure of him | Tyrion Lannister (narrator context) |\n| Tyrion's mother | Tyrion says she died birthing him |"
+        },
+        {
+          "chapter": "agot-jon-01",
+          "line": 109,
+          "context": "1. **Jon drinks at the lower tables** \u2014 Jon sits among younger squires during the fourth hour of the welcoming feast, drinking summerwine freely, having been excluded from the family table by Lady Sta"
+        },
+        {
+          "chapter": "agot-jon-01",
+          "line": 128,
+          "context": "| Arrival | Jon Snow | Stands in the quiet, empty yard | Outside the Great Hall | Sentry visible on the battlements of the inner wall |\n| Confrontation | Tyrion Lannister | Sitting on the ledge above "
+        },
+        {
+          "chapter": "agot-jon-01",
+          "line": 130,
+          "context": "| Confrontation | Ghost | Backs away from Tyrion, then sits on Jon's command | Near Jon and Tyrion | Wary of Tyrion; bares fangs but obeys Jon |\n| Departure | Tyrion Lannister | Turns and saunters bac"
+        },
+        {
+          "chapter": "agot-jon-01",
+          "line": 160,
+          "context": "| Jon Snow | (the table) | \"I will never father a bastard. Never!\" | Emotional outburst that silences the table |\n| Tyrion Lannister | Jon Snow | \"Never forget what you are, for surely the world will "
+        },
+        {
+          "chapter": "agot-jon-01",
+          "line": 161,
+          "context": "| Tyrion Lannister | Jon Snow | \"Never forget what you are, for surely the world will not. Make it your strength. Then it can never be your weakness. Armor yourself in it, and it will never be used to"
+        },
+        {
+          "chapter": "agot-jon-01",
+          "line": 162,
+          "context": "| Jon Snow | Tyrion Lannister | \"What do you know about being a bastard?\" | Challenging Tyrion's right to advise him |\n| Tyrion Lannister | Jon Snow | \"All dwarfs are bastards in their father's eyes.\""
+        },
+        {
+          "chapter": "agot-jon-01",
+          "line": 163,
+          "context": "| Tyrion Lannister | Jon Snow | \"All dwarfs are bastards in their father's eyes.\" | Drawing a parallel between their outsider statuses |\n| Tyrion Lannister | Jon Snow | \"All dwarfs may be bastards, ye"
+        },
+        {
+          "chapter": "agot-jon-01",
+          "line": 183,
+          "context": "| Jon Snow | nephew (warm affection) | Benjen Stark | Benjen ruffles Jon's hair, puts a hand on his shoulder; Jon looks up \"happily\" at Benjen's arrival; their conversation is intimate despite its pai"
+        },
+        {
+          "chapter": "agot-jon-01",
+          "line": 187,
+          "context": "| Jon Snow | admiration toward | Jaime Lannister | \"This is what a king should look like\"; found it hard to look away |\n| Jon Snow | fascination toward | Tyrion Lannister | Watched him \"with fascinati"
+        },
+        {
+          "chapter": "agot-jon-01",
+          "line": 197,
+          "context": "| Jaime Lannister | twin to | Cersei Lannister | \"Ser Jaime Lannister was twin to Queen Cersei\" |\n| Tyrion Lannister | brother (mocking affection) | Jaime Lannister | Tyrion waddled half-hidden by Jai"
+        },
+        {
+          "chapter": "agot-jon-01",
+          "line": 198,
+          "context": "| Tyrion Lannister | brother (mocking affection) | Jaime Lannister | Tyrion waddled half-hidden by Jaime; jokes about vomiting on his brother |\n| Tyrion Lannister | resented by father | Tywin Lanniste"
+        },
+        {
+          "chapter": "agot-jon-01",
+          "line": 215,
+          "context": "### Characters\nJon Snow, Ghost (direwolf), Eddard (Ned) Stark, Catelyn Stark, Robb Stark, Sansa Stark, Arya Stark, Bran Stark, Rickon Stark, Robert Baratheon, Cersei Lannister, Joffrey Baratheon, Myrc"
+        },
+        {
+          "chapter": "agot-bran-05",
+          "line": 68,
+          "context": "| Catelyn Stark (Mother) | Took the Imp as prisoner; message from the Eyrie; did not say when she would return | Bran's recollection |\n| Tyrion Lannister (the Imp) | Taken prisoner by Catelyn; designe"
+        },
+        {
+          "chapter": "agot-bran-05",
+          "line": 109,
+          "context": "|----------|---------|-------------------|------------------------|\n| Bran's specially designed saddle | Designed by Tyrion Lannister; huge with thick horn and high back; straps around chest and thigh"
+        },
+        {
+          "chapter": "agot-bran-05",
+          "line": 234,
+          "context": "| Theon | Competitive / self-congratulatory | Robb | Expects thanks for saving Bran; sullen when rebuked |\n| Bran | Ambivalent memory | Tyrion Lannister | \"Sort of liked the little man\" but the name L"
+        },
+        {
+          "chapter": "agot-bran-05",
+          "line": 254,
+          "context": "### Characters\nBran Stark, Robb Stark, Theon Greyjoy, Summer (direwolf), Grey Wind (direwolf), Maester Luwin, Joseth, Osha, Stiv, Hali, Wallen, Quent, Wayn, unnamed axe-man, unnamed sixth man, Eddard "
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 13,
+          "context": "- **time_markers:** Arrival at King's Landing within the hour; Ser Rodrik's mother died forty years ago; voyage from White Harbor; Ser Rodrik ill for most of the voyage; Catelyn wakes at sunset (setti"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 63,
+          "context": "| Queen Cersei | Lost an emerald pendant betting on Jaime; got it back | Littlefinger |\n| Tyrion Lannister (the Imp) | Won the dagger from Littlefinger in the tourney bet | Littlefinger |\n| Prince Jof"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 110,
+          "context": "|----------|---------|-------------------|------------------------|\n| Valyrian steel dagger | The weapon used in the attempt on Bran's life; Catelyn has brought it to King's Landing to identify its ow"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 143,
+          "context": "14. **Catelyn produces the dagger** \u2014 Varys examines it, cuts his thumb on the Valyrian steel blade.\n15. **Littlefinger identifies the dagger** \u2014 He claims it was his, lost in a wager when Loras Tyrel"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 171,
+          "context": "| Littlefinger lost the dagger in a bet when Loras Tyrell unhorsed Ser Jaime at Prince Joffrey's name day tourney | Littlefinger reveals | Littlefinger, Catelyn, Varys | No |\n| Tyrion Lannister won th"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 191,
+          "context": "| Littlefinger | Catelyn, Varys | \"It's mine.\" | Revealing ownership of the dagger |\n| Littlefinger | Catelyn | \"The Imp. Tyrion Lannister.\" | Naming who won the dagger from him |"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 215,
+          "context": "| Captain Moreo | Likely betrayed trust of | Catelyn Stark | Catelyn deduces Moreo sold information about their identity |\n| Littlefinger | Lost dagger in bet to | Tyrion Lannister | At the tourney on"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 222,
+          "context": "|----------|-----------|---------|\n| Is Littlefinger telling the truth about the dagger belonging to Tyrion Lannister? | Reader | Only Littlefinger's word identifies Tyrion as the owner; Varys neither"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 255,
+          "context": "- Queen Cersei (referenced)\n- Tyrion Lannister (the Imp) (referenced)\n- Prince Joffrey (referenced)"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 6,
+          "context": "- **chapter_number:** 32\n- **pov_character:** Tyrion Lannister\n- **pov_chapter_number:** Tyrion IV"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 13,
+          "context": "- **time_markers:** Predawn (opening scene \u2014 butchering the horse); dawn light seeping through hood when they first stopped on the high road (flashback transition); \"long days later\" since the capture"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 27,
+          "context": "|-----------|----------------|-------------------|-------|\n| Tyrion Lannister | POV character, captive | No | Traveling as prisoner; fights in his first battle |\n| Catelyn Stark | Captor, leader of th"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 46,
+          "context": "| Chiggen | | | Squat | | | Skinning knife | Yellow teeth | |\n| Tyrion Lannister | | | Small, not strong; limps | | Stolen halfhelm (taken from dead clansman, fits too snugly) | Double-bladed axe (bor"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 96,
+          "context": "| The Valyrian steel dagger | Central to the conflict \u2014 Catelyn accuses Tyrion of sending it to kill Bran; Tyrion denies ownership; Littlefinger claimed Tyrion won it in a wager | No | Not present (re"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 97,
+          "context": "| Tyrion's double-bladed axe | Given to him by Bronn for the battle; short haft, heavy head, nasty spike on top; Tyrion keeps it after | No (uncertain \u2014 verify) | Tyrion Lannister |\n| Kurleket's dirk "
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 100,
+          "context": "| The shadowskin cloak | Worn by the clan leader; disappears from his corpse; later seen on Marillion | No (uncertain \u2014 verify) | Marillion |\n| Jyck's spotted gelding | Tyrion takes it after Jyck's de"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 243,
+          "context": "### Characters\nTyrion Lannister, Catelyn Stark, Bronn, Chiggen, Ser Rodrik Cassel, Kurleket, Mohor, Lharys, Marillion, Ser Willis Wode, Jyck, Morrec, Yoren, Jaime Lannister (referenced), Lord Tywin La"
+        },
+        {
+          "chapter": "agot-eddard-01",
+          "line": 33,
+          "context": "| Joffrey Baratheon | Crown prince, briefly present | uncertain \u2014 verify | Described as \"the tall boy\" beside Sandor Clegane |\n| Tyrion Lannister | Member of royal party | uncertain \u2014 verify | Describ"
+        },
+        {
+          "chapter": "agot-eddard-01",
+          "line": 44,
+          "context": "| Joffrey Baratheon | | | tall boy | | | | | |\n| Tyrion Lannister | | | stunted little man | | | | | |\n| Eddard Stark | | | | | | | \"frozen face\" (Robert's description) | |"
+        },
+        {
+          "chapter": "agot-eddard-01",
+          "line": 118,
+          "context": "1. **Royal procession arrives at Winterfell** \u2014 Three hundred strong, with golden Baratheon banners, knights, sworn swords, and freeriders pour through the castle gates.\n2. **Ned recognizes members of"
+        },
+        {
+          "chapter": "agot-eddard-01",
+          "line": 230,
+          "context": "### Characters\nEddard (Ned) Stark, Robert Baratheon, Cersei Lannister, Jaime Lannister, Sandor Clegane, Joffrey Baratheon, Tyrion Lannister, Catelyn Stark, Lyanna Stark, Brandon Stark, Rickard Stark, "
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 11,
+          "context": "- **location_secondary:** Sherrer, Wendish Town, Mummer's Ford, Riverrun, Casterly Rock, Golden Tooth (all referenced)\n- **approximate_timeline:** After Ned's leg was shattered; Robert is away hunting"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 71,
+          "context": "| Tywin Lannister | His bannerman Gregor implicated; Ned suspects Tywin ordered the raids; Pycelle notes the queen is his daughter | Ned (internal), Pycelle, Ser Marq |\n| Catelyn Stark | Seized Tyrion"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 72,
+          "context": "| Catelyn Stark | Seized Tyrion Lannister, sparking the current crisis | Ned (internal) |\n| Tyrion Lannister | Seized by Catelyn | Ned (internal) |\n| Cersei Lannister | Father is Tywin; would insist T"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 170,
+          "context": "| Riverrun and Casterly Rock have called their banners; armies massing at the Golden Tooth | Ned's internal knowledge | Ned (and presumably the court) | No |\n| Catelyn seized Tyrion Lannister, sparkin"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 238,
+          "context": "### Characters\nEddard Stark, Varys, Grand Maester Pycelle, Petyr Baelish (Littlefinger), Ser Raymun Darry, Ser Karyl Vance, Ser Marq Piper, Joss (alehouse keeper), Ser Arys Oakheart, Septa Mordane, Sa"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 59,
+          "context": "| Joffrey Baratheon | The new king; loves Arya not; Varys urges Ned to proclaim him true heir | Varys |\n| Tyrion Lannister (the Imp) | Has escaped Catelyn; Varys believes he may be dead in the Mountai"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 293,
+          "context": "### Characters\nEddard Stark, Robert Baratheon, Cersei Lannister, Jaime Lannister, Varys, Littlefinger (Petyr Baelish), Janos Slynt, Pycelle, Ser Barristan Selmy, Renly Baratheon, Catelyn Stark, Sansa "
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 6,
+          "context": "- **chapter_number:** 70\n- **pov_character:** Tyrion Lannister\n- **pov_chapter_number:** Tyrion IX"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 27,
+          "context": "|-----------|----------------|-------------------|-------|\n| Tyrion Lannister | POV character | No | Wounded elbow from recent battle; drinking wine throughout the council |\n| Tywin Lannister | Comman"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 46,
+          "context": "| Ser Flement Brax | | | | | Silver-and-purple tabard | | Look of a man who cannot comprehend what he has heard | |\n| Tyrion Lannister | | | Dwarf | | | | Pain in elbow from battle wound | |"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 249,
+          "context": "### Characters\nTyrion Lannister, Tywin Lannister, Ser Kevan Lannister, Jaime Lannister, Crakehall messenger (unnamed), Ser Harys Swyft, Ser Gregor Clegane (the Mountain), Ser Addam Marbrand, Ser Fleme"
+        }
+      ]
+    },
+    {
+      "page": "Tyroshi sellsword",
+      "raw_html_path": "sources/wiki/_raw/Tyroshi_sellsword.json",
+      "track_b_row": {
+        "page": "Tyroshi sellsword",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 1,
+          "source": "cite_ref",
+          "pov": "Prologue"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiances",
+            "target": "House Lannister",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Stark",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Tyroshi",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            69
+          ],
+          "adwd": [
+            1
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Tyroshi sellsword",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 10874
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 61,
+          "context": "| Ser Forley Prester | Commanded the south camp; retreated in good order with 2,000 spears and as many bowmen | Messenger |\n| A Tyroshi sellsword | Led freeriders for Prester; struck his banners and d"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 137,
+          "context": "2. **Messenger details the battle** \u2014 The Blackfish led the van against the north camp; Lord Brax drowned trying to cross the river on a raft in full armor; Greatjon Umber fired the siege towers; Robb"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 169,
+          "context": "| Edmure Tully freed from captivity | Messenger's report | All present | No |\n| A Tyroshi sellsword defected from Ser Forley Prester's force | Messenger's report | All present | No |\n| Ser Forley Pres"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 196,
+          "context": "| Tywin | Tyrion/Kevan | \"I had thought you were the one made for motley, Tyrion, but it would appear that I was wrong.\" | Commenting on Joffrey's foolishness \u2014 a backhanded compliment to Tyrion |\n| K"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 249,
+          "context": "### Characters\nTyrion Lannister, Tywin Lannister, Ser Kevan Lannister, Jaime Lannister, Crakehall messenger (unnamed), Ser Harys Swyft, Ser Gregor Clegane (the Mountain), Ser Addam Marbrand, Ser Fleme"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 258,
+          "context": "### Factions & Organizations\nKingsguard (referenced via Selmy's dismissal and the Hound's appointment), City Watch of King's Landing, the King's council (small council), freeriders/sellswords (Tyroshi"
+        }
+      ]
+    },
+    {
+      "page": "Tyshara Lannister",
+      "raw_html_path": "sources/wiki/_raw/Tyshara_Lannister.json",
+      "track_b_row": {
+        "page": "Tyshara Lannister",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 28,
+          "source": "cite_ref",
+          "pov": "Jaime III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Lannister",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "103",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "121\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Jason Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Johanna Westerling",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            28
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Tyshara Lannister",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 29447
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Tytos Lannister",
+      "raw_html_path": "sources/wiki/_raw/Tytos_Lannister.json",
+      "track_b_row": {
+        "page": "Tytos Lannister",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 3,
+          "source": "cite_ref",
+          "pov": "The Captain of Guards"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord of Casterly Rock",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Shield of Lannisport",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Warden of the West",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Lannister",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "220\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "267\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "aged 46"
+          },
+          {
+            "field": "Died",
+            "target": "Casterly Rock",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Gerold Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Rohanne Webber",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Jeyne Marbrand",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Lovers",
+            "target": "First mistress",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Lovers",
+            "target": "Second mistress",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Tywin Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Kevan Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Genna Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Tygett Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Gerion Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "The Laughing Lion",
+          "The Toothless Lion",
+          "The Lord of Misrule"
+        ],
+        "cite_refs": {
+          "asos": [
+            19,
+            66
+          ],
+          "affc": [
+            3,
+            7,
+            32,
+            44
+          ],
+          "acok": [
+            18
+          ],
+          "adwd": [
+            65
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Tytos Lannister",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 2,
+          "affc": 4,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 135532
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-tyrion-07",
+          "line": 77,
+          "context": "| Lords Vance and Piper | Smashed by Jaime at the Golden Tooth | Tywin |\n| Tytos Lannister | Named in Tywin's formal introduction (\"Tywin son of Tytos\") | Tyrion |"
+        },
+        {
+          "chapter": "agot-tyrion-07",
+          "line": 256,
+          "context": "### Characters\nTyrion Lannister, Bronn, Chella daughter of Cheyk, Shagga son of Dolf, Conn son of Coratt, Ulf son of Umar, Timett son of Timett, Tywin Lannister, Kevan Lannister, Ser Flement Brax, Jai"
+        }
+      ]
+    },
+    {
+      "page": "Tytos Lannister's first mistress",
+      "raw_html_path": "sources/wiki/_raw/Tytos_Lannister's_first_mistress.json",
+      "track_b_row": {
+        "page": "Tytos Lannister's first mistress",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Lannister",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Lover",
+            "target": "Tytos Lannister",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Tytos Lannister's first mistress",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 5805
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Tytos Lannister's second mistress",
+      "raw_html_path": "sources/wiki/_raw/Tytos_Lannister's_second_mistress.json",
+      "track_b_row": {
+        "page": "Tytos Lannister's second mistress",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 3,
+          "source": "cite_ref",
+          "pov": "The Captain of Guards"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Lannister",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Lover",
+            "target": "Tytos Lannister",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            3
+          ],
+          "adwd": [
+            65
+          ],
+          "asos": [
+            66
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Tytos Lannister's second mistress",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 1,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 21888
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Tywald Lannister",
+      "raw_html_path": "sources/wiki/_raw/Tywald_Lannister.json",
+      "track_b_row": {
+        "page": "Tywald Lannister",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Lannister",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "211",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "219\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "233\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Starpike",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Gerold Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Rohanne Webber",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Tywald Lannister",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 43895
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Tywin Lannister",
+      "raw_html_path": "sources/wiki/_raw/Tywin_Lannister.json",
+      "track_b_row": {
+        "page": "Tywin Lannister",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 1,
+          "source": "cite_ref",
+          "pov": "Prologue"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Hand of the King",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of Casterly Rock",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Shield of Lannisport",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Warden of the West",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Savior of the City",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Lannister",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "242\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Casterly Rock",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "westerlands",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "300\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Tower of the Hand",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "King's Landing",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Buried",
+            "target": "Casterly Rock",
+            "edge_type": "BURIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Tytos Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Jeyne Marbrand",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Joanna Lannister",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Lover",
+            "target": "Shae",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Cersei Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Jaime Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Tyrion Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "The great lion of the rock",
+          "The old lion"
+        ],
+        "cite_refs": {
+          "asos": [
+            1,
+            4,
+            11,
+            14,
+            17,
+            19,
+            21,
+            24,
+            32,
+            37,
+            38,
+            39,
+            44,
+            51,
+            53,
+            54,
+            60,
+            62,
+            66,
+            68,
+            70,
+            72,
+            77
+          ],
+          "affc": [
+            2,
+            3,
+            7,
+            8,
+            16,
+            17,
+            18,
+            24,
+            27,
+            28,
+            32,
+            33,
+            36,
+            40,
+            43,
+            44
+          ],
+          "agot": [
+            4,
+            12,
+            20,
+            21,
+            25,
+            28,
+            31,
+            34,
+            35,
+            42,
+            43,
+            55,
+            56,
+            57,
+            62,
+            63,
+            69,
+            71
+          ],
+          "acok": [
+            2,
+            12,
+            30,
+            33,
+            36,
+            38,
+            39,
+            42,
+            44,
+            45,
+            47,
+            59,
+            62,
+            64,
+            65,
+            67
+          ],
+          "adwd": [
+            8,
+            24,
+            33,
+            43,
+            61,
+            65
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Tywin Lannister",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 18,
+          "acok": 16,
+          "asos": 23,
+          "affc": 16,
+          "adwd": 6
+        },
+        "has_infobox": true,
+        "byte_size": 268636
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-eddard-10",
+          "line": 75,
+          "context": "| Robert's first bastard girl | Fathered when Robert and Ned were boys in the Vale; Barra looks like her | Ned |\n| Tywin Lannister | Jaime reportedly riding to Casterly Rock to join \"his father\" | Aly"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 68,
+          "context": "| Lyanna Stark | Robert says Ned's sister would never have shamed him | Robert, Ned |\n| Lord Tywin Lannister | Robert's squires are sons of Tywin's brother; Gregor was with Tywin at the fall of King's"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 304,
+          "context": "### Characters\nEddard Stark (Ned), Robert Baratheon, Ser Barristan Selmy, Sandor Clegane (the Hound), Jaime Lannister (the Kingslayer), Ser Gregor Clegane (the Mountain That Rides), Ser Loras Tyrell ("
+        },
+        {
+          "chapter": "agot-tyrion-08",
+          "line": 28,
+          "context": "| Tyrion Lannister | POV character; leads clansmen in battle | No | Assigned to vanguard, fights in Battle of the Green Fork |\n| Tywin Lannister | Commander of Lannister army | No | Commands the reser"
+        },
+        {
+          "chapter": "agot-tyrion-08",
+          "line": 48,
+          "context": "| Tyrion Lannister | | | Dwarf, waddling gait, stunted legs | | Mismatched armor: mail hauberk and coif, dead knight's gorget, lobstered greaves and gauntlets, pointed steel boots, oversized breastpla"
+        },
+        {
+          "chapter": "agot-tyrion-08",
+          "line": 103,
+          "context": "| Morningstar/flail | Spiked ball weapon used by the knight who unhorsed Tyrion | Yes | Under fallen horse with knight |\n| Tywin's golden greatcloak | Countless layers of cloth-of-gold, held by paired"
+        },
+        {
+          "chapter": "agot-tyrion-08",
+          "line": 104,
+          "context": "| Tywin's golden greatcloak | Countless layers of cloth-of-gold, held by paired golden lioness clasps and lion atop greathelm, all with ruby eyes | No (uncertain \u2014 verify) | Tywin Lannister |\n| Tywin'"
+        },
+        {
+          "chapter": "agot-tyrion-08",
+          "line": 113,
+          "context": "| Garlic sausage (smelled in passing) | Garlic sausage, spiced and savory | | Unknown camp followers/soldiers | Somewhere in camp | Only smelled by Tyrion, not eaten; makes his empty stomach growl |\n|"
+        },
+        {
+          "chapter": "agot-tyrion-08",
+          "line": 243,
+          "context": "### Characters\nTyrion Lannister, Tywin Lannister, Kevan Lannister, Jaime Lannister (referenced), Bronn, Shae, Podrick Payne, Ser Ilyn Payne (referenced), Gregor Clegane (the Mountain), Ser Addam Marbr"
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 63,
+          "context": "| Rickard Karstark | Named as a bannerman present; Catelyn mentions him as potential commander | Catelyn |\n| Tywin Lannister | Bringing a second Lannister army from the south; marching toward Harrenha"
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 200,
+          "context": "| Robb | Catelyn | \"They are not Starks.\" | When Catelyn suggests he could have given command to a bannerman |\n| Greatjon Umber | Catelyn | \"Winterfell is safe. We'll shove our swords up Tywin Lannist"
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 211,
+          "context": "| Robb | Catelyn | \"Roose Bolton. That man scares me.\" | Choosing his diversionary commander |\n| Catelyn | Robb | \"Then let us pray he will scare Tywin Lannister as well.\" | Approving the choice |\n| C"
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 263,
+          "context": "### Characters\nCatelyn Stark, Robb Stark, Grey Wind, Ser Brynden Tully (the Blackfish), Ser Wylis Manderly, Ser Wendel Manderly, Lord Wyman Manderly, Roose Bolton, Greatjon Umber, Ser Helman Tallhart,"
+        },
+        {
+          "chapter": "agot-arya-03",
+          "line": 59,
+          "context": "| Robert Baratheon | Gold cloak's story about Robert laughing when the black tom stole a quail from Tywin's fingers; referenced as king by conspirators | Gold cloak (recalled); conspirators |\n| Lord T"
+        },
+        {
+          "chapter": "agot-arya-03",
+          "line": 132,
+          "context": "|--------------|---------------------|-------|----------------------|-------|-------------------------------|\n| Recalled feast (anecdote) | Roast quail | | Robert Baratheon, Lord Tywin Lannister (the "
+        },
+        {
+          "chapter": "agot-arya-03",
+          "line": 262,
+          "context": "### Characters\nArya Stark, Eddard Stark, Myrcella Baratheon, Tommen Baratheon, Godwyn (Lannister guard), Syrio Forel (referenced), Septa Mordane (referenced), Sansa Stark (referenced), Jon Snow (refer"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 61,
+          "context": "| Catelyn Tully/Stark | Referenced by Littlefinger as \"Cat\"; fought over by Brandon and Littlefinger | Littlefinger (before she appears) |\n| Tywin Lannister | Crown owes him some three million dragons"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 261,
+          "context": "### Characters\nEddard Stark, Varys, Renly Baratheon, Petyr Baelish (Littlefinger), Grand Maester Pycelle, Catelyn Stark, Ser Rodrik Cassel, Vayon Poole, Robert Baratheon, Stannis Baratheon, Ser Barris"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 66,
+          "context": "| Ser Kevan Lannister | Lancel's father | Varys |\n| Lord Tywin Lannister | Lancel's uncle; threat of Lannister military response discussed | Varys, Littlefinger, Ned |\n| Jaime Lannister | Named as tru"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 297,
+          "context": "### Characters\nEddard Stark, Robert Baratheon, Cersei Lannister, Lord Renly Baratheon, Grand Maester Pycelle, Varys, Petyr Baelish (Littlefinger), Ser Barristan Selmy, Ser Boros Blount, Ser Preston Gr"
+        },
+        {
+          "chapter": "agot-bran-04",
+          "line": 80,
+          "context": "| Ser Alliser Thorne | Jon Snow called \"Ser Alliser's bane\" | Yoren |\n| Tyrion's father (Tywin Lannister, unnamed) | Tyrion says \"My father will rejoice to hear it\" sarcastically about not being a dwa"
+        },
+        {
+          "chapter": "agot-bran-04",
+          "line": 267,
+          "context": "### Characters\nBran Stark, Rickon Stark, Robb Stark, Old Nan, Hodor (Walder), Maester Luwin, Tyrion Lannister, Theon Greyjoy, Hallis Mollen, Yoren, Eddard Stark, Catelyn Stark, Jon Snow, Benjen Stark,"
+        },
+        {
+          "chapter": "agot-tyrion-05",
+          "line": 63,
+          "context": "| Jaime Lannister | Tyrion threatens his brother will avenge any harm; Tyrion requests Jaime as champion; described as rash, headstrong, quick to anger; wears armor Tyrion claims is \"solid gold plate\""
+        },
+        {
+          "chapter": "agot-tyrion-05",
+          "line": 247,
+          "context": "### Characters\nTyrion Lannister, Mord, Lysa Arryn, Robert Arryn, Catelyn Stark, Ser Vardis Egen, Bronn, Ser Brynden Tully, Lord Nestor Royce, Ser Albar Royce, Ser Lyn Corbray, Lord Hunter, Lady Waynwo"
+        },
+        {
+          "chapter": "agot-catelyn-05",
+          "line": 60,
+          "context": "| King Robert | Catelyn invokes his name when calling for Tyrion's arrest | Catelyn (speech) |\n| Tywin Lannister | Marillion offers to sing \"the lay of your father's great victory at King's Landing\" t"
+        },
+        {
+          "chapter": "agot-catelyn-05",
+          "line": 223,
+          "context": "### Characters\nCatelyn Stark (Catelyn Tully), Ser Rodrik Cassel, Lord Jason Mallister, Patrek Mallister, Masha Heddle, Marillion, Tyrion Lannister, Yoren, Hoster Tully, Lysa Arryn (Lysa Tully), Petyr "
+        },
+        {
+          "chapter": "agot-catelyn-05",
+          "line": 244,
+          "context": "### In-world Texts & Songs\n\"The lay of [Tywin Lannister's] great victory at King's Landing\" (song Marillion offers to sing)"
+        },
+        {
+          "chapter": "agot-tyrion-02",
+          "line": 49,
+          "context": "| Maester Luwin | Gave cage of ravens to Benjen Stark for the journey | Tyrion (narration) |\n| Tywin Lannister | Tyrion's father; was Hand of the King for twenty years | Tyrion (dialogue) |\n| Jaime La"
+        },
+        {
+          "chapter": "agot-tyrion-02",
+          "line": 215,
+          "context": "| Tyrion | Master-servant | Morrec | Morrec tends the stewpot; wordlessly hands Tyrion the ladle; follows Tyrion's instruction to add more pepper |\n| Tyrion | Resentment / dark fantasy toward | Tywin "
+        },
+        {
+          "chapter": "agot-tyrion-02",
+          "line": 243,
+          "context": "- Cersei Lannister (referenced)\n- Tywin Lannister (referenced)\n- Jaime Lannister (referenced)"
+        },
+        {
+          "chapter": "agot-tyrion-02",
+          "line": 321,
+          "context": "### Titles & Offices\n- Hand of the King (held by Tywin Lannister for twenty years)\n- King (Robert Baratheon; Joffrey to follow)"
+        },
+        {
+          "chapter": "agot-tyrion-06",
+          "line": 53,
+          "context": "| Jaime Lannister | Tyrion's brother; compared to Bronn's swordsmanship; arranged the affair with Tysha \u2014 the road, the outlaws, the girl | Tyrion |\n| Tywin Lannister | Tyrion's father; the septon con"
+        },
+        {
+          "chapter": "agot-tyrion-06",
+          "line": 174,
+          "context": "| Tyrion | Mutual pragmatic respect with | Bronn | Tyrion calls him scum but useful; Bronn calls Tyrion bold; neither pretends to friendship |\n| Tyrion | Deep resentment toward | Tywin Lannister | Tel"
+        },
+        {
+          "chapter": "agot-tyrion-06",
+          "line": 183,
+          "context": "| Tyrion | Paid debt to | Mord | Gave full purse of gold as promised; invited him to Casterly Rock |\n| Tywin Lannister | Cruelly punished | Tyrion | Forced him to watch guards with Tysha; made him go "
+        },
+        {
+          "chapter": "agot-tyrion-06",
+          "line": 211,
+          "context": "- Jaime Lannister (referenced)\n- Tywin Lannister (referenced)\n- Tysha (unnamed \u2014 \"the girl,\" \"my wife,\" referenced)"
+        },
+        {
+          "chapter": "agot-catelyn-06",
+          "line": 70,
+          "context": "| Cersei Lannister | Tyrion says she lusts for power with every waking breath | Tyrion |\n| Tywin Lannister | Tyrion calls him the soul of avarice; says his father would be chagrined if his son went to"
+        },
+        {
+          "chapter": "agot-catelyn-06",
+          "line": 258,
+          "context": "| Brynden Tully | Protective but critical of | Lysa Arryn | Serves her at the Bloody Gate but is candid about her failings to Catelyn |\n| Tyrion Lannister | Sardonic about his family | Jaime, Cersei, "
+        },
+        {
+          "chapter": "agot-catelyn-06",
+          "line": 275,
+          "context": "### Characters\nCatelyn Stark, Ser Donnel Waynwood, Brynden Tully (the Blackfish), Tyrion Lannister, Bronn, Ser Rodrik Cassel, Marillion, Ser Willis Wode, Lord Nestor Royce, Mya Stone, Ser Vardis Egen,"
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 75,
+          "context": "| Jaime Lannister (the Kingslayer) | Brought to Riverrun in irons; lords say they must not give him up | Catelyn, Rickard Karstark |\n| Tywin Lannister | His army crossed the Trident, making for Harren"
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 265,
+          "context": "|----------|-----------|---------|\n| What happened to Harrion Karstark at the Green Fork? | Narration | \"There was no word of the third, his eldest, who had led the Karstark spears against Tywin Lanni"
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 276,
+          "context": "### Characters\nCatelyn Stark, Robb Stark, Grey Wind, Theon Greyjoy, Brynden Tully (the Blackfish), Edmure Tully, Hoster Tully, Tytos Blackwood, Jon Umber (the Greatjon), Rickard Karstark, Maege Mormon"
+        },
+        {
+          "chapter": "agot-sansa-05",
+          "line": 13,
+          "context": "- **time_markers:** \"first court session of Joffrey's reign\"; no specific time of day given\n- **chapter_summary:** Sansa attends the first court session of King Joffrey's reign in the throne room. Jof"
+        },
+        {
+          "chapter": "agot-sansa-05",
+          "line": 65,
+          "context": "| Eddard Stark | Imprisoned; named traitor; Sansa pleads for mercy | Sansa, Pycelle, Cersei, Joffrey, herald |\n| Tywin Lannister | Named new Hand of the King | Pycelle (reading decree); Varys (offerin"
+        },
+        {
+          "chapter": "agot-sansa-05",
+          "line": 114,
+          "context": "| Harrenhal | Granted to Janos Slynt | No |\n| Casterly Rock | Tywin Lannister's seat | No |\n| Winterfell | Sansa hopes Arya has fled there | No |"
+        },
+        {
+          "chapter": "agot-sansa-05",
+          "line": 157,
+          "context": "6. **Traitor decree read** \u2014 Pycelle reads a long list of names commanded to present themselves and swear fealty or be declared traitors with lands and titles forfeit. Names include Stannis, Renly, Ty"
+        },
+        {
+          "chapter": "agot-sansa-05",
+          "line": 198,
+          "context": "| Joffrey's decrees summoning dozens of lords to swear fealty or be declared traitors | Read aloud by Pycelle | All present in court | No |\n| Tywin Lannister named Hand of the King | Decree read aloud"
+        },
+        {
+          "chapter": "agot-sansa-05",
+          "line": 226,
+          "context": "| Ser Barristan | Court | \"The Kingslayer. The false knight who profaned his blade with the blood of the king he had sworn to defend.\" | On hearing Jaime named Lord Commander |\n| Varys | Ser Barristan"
+        },
+        {
+          "chapter": "agot-sansa-05",
+          "line": 291,
+          "context": "### Characters\nSansa Stark, Joffrey Baratheon, Cersei Lannister, Grand Maester Pycelle, Lord Varys, Petyr Baelish (Littlefinger), Ser Barristan Selmy, Sandor Clegane (the Hound), Janos Slynt, Ser Mand"
+        },
+        {
+          "chapter": "agot-eddard-09",
+          "line": 67,
+          "context": "| Renly Baratheon | Says Robert carried the girl upstairs; received the bastard boy from Stannis | Littlefinger |\n| Tywin Lannister | Jaime says \"my lord father is quite vexed\" about Tyrion; hosted a "
+        },
+        {
+          "chapter": "agot-eddard-09",
+          "line": 233,
+          "context": "| Cersei Lannister | allegedly murdered children of | Robert Baratheon | Rumored to have killed twin bastards at Casterly Rock and sold the mother |\n| Tywin Lannister | protective father of | Tyrion L"
+        },
+        {
+          "chapter": "agot-eddard-09",
+          "line": 255,
+          "context": "### Characters\nEddard Stark, Petyr Baelish (Littlefinger), Jory Cassel, Heward, Wyl, Jaime Lannister (the Kingslayer), Tregar, Barra, Barra's mother (unnamed), Chataya (tall black-skinned woman), Gran"
+        },
+        {
+          "chapter": "agot-catelyn-10",
+          "line": 64,
+          "context": "| Edmure Tully | His army was shattered beneath the walls of Riverrun; Catelyn demands his return from Jaime | Narration, Catelyn (to Jaime) |\n| Lord Tywin Lannister | Not captured; Catelyn insists wa"
+        },
+        {
+          "chapter": "agot-catelyn-10",
+          "line": 232,
+          "context": "### Characters\nCatelyn Stark, Robb Stark, Grey Wind, Hallis Mollen, Olyvar Frey, Jaime Lannister, Theon Greyjoy, Greatjon (Jon Umber), Galbart Glover, Maege Mormont, Dacey Mormont, Torrhen Karstark, E"
+        },
+        {
+          "chapter": "agot-catelyn-07",
+          "line": 62,
+          "context": "| Jaime Lannister (the Kingslayer) | Massing a host at Casterly Rock; mentioned as possible murderer of Jon Arryn; his golden sword referenced | Ser Rodrik (letter from Edmure), Catelyn, Ser Lyn Corbr"
+        },
+        {
+          "chapter": "agot-catelyn-07",
+          "line": 236,
+          "context": "### Characters\nCatelyn Stark, Ser Rodrik Cassel, Brynden Tully (the Blackfish), Lysa Arryn, Robert Arryn, Tyrion Lannister, Bronn, Ser Vardis Egen, Maester Colemon, Lord Eon Hunter, Ser Lyn Corbray, S"
+        },
+        {
+          "chapter": "agot-tyrion-07",
+          "line": 34,
+          "context": "| Timett son of Timett | Clansman, Burned Men | No | Red hand (war chief); rides alone; put out his own left eye |\n| Tywin Lannister | Tyrion's father, army commander | No | Commands from the inn at t"
+        },
+        {
+          "chapter": "agot-tyrion-07",
+          "line": 43,
+          "context": "|-----------|------|------|-------------|-------------|----------------|-------------|------------------------|-----------------|\n| Tywin Lannister | Once-thick golden hair, now shaved head; wiry gold"
+        },
+        {
+          "chapter": "agot-tyrion-07",
+          "line": 116,
+          "context": "|--------------|---------------------|-------|----------------------|-------|-------------------------------|\n| Tywin and Kevan sharing ale | | Ale \u2014 brown and yeasty, \"so thick you could almost chew "
+        },
+        {
+          "chapter": "agot-tyrion-07",
+          "line": 256,
+          "context": "### Characters\nTyrion Lannister, Bronn, Chella daughter of Cheyk, Shagga son of Dolf, Conn son of Coratt, Ulf son of Umar, Timett son of Timett, Tywin Lannister, Kevan Lannister, Ser Flement Brax, Jai"
+        },
+        {
+          "chapter": "agot-tyrion-03",
+          "line": 57,
+          "context": "| Cersei Lannister | \"Your sister sits beside the king\" | Mormont |\n| Tywin Lannister | \"Your father the most powerful lord in the Seven Kingdoms\"; Tyrion thinks Tywin would ask if he'd taken leave of"
+        },
+        {
+          "chapter": "agot-tyrion-03",
+          "line": 123,
+          "context": "5. **Tyrion criticizes Thorne as trainer** \u2014 Tyrion tells the officers that Thorne should be mucking stables, not training recruits. Mormont defends Thorne as an anointed knight.\n6. **Rykker reveals h"
+        },
+        {
+          "chapter": "agot-tyrion-03",
+          "line": 167,
+          "context": "| Benjen Stark has gone missing | Mormont tells Tyrion; Jon confirms atop Wall | Mormont, Tyrion, Jon, Watch | No |\n| Ser Alliser Thorne and Ser Jaremy Rykker fought on the Targaryen side at King's La"
+        },
+        {
+          "chapter": "agot-tyrion-03",
+          "line": 186,
+          "context": "| Maester Aemon | Tyrion | \"I have been called many things, my lord, but kind is seldom one of them.\" | Echoing Tyrion's earlier phrasing back to him |\n| Ser Jaremy Rykker | Table | \"On the wrong side"
+        },
+        {
+          "chapter": "agot-tyrion-03",
+          "line": 229,
+          "context": "| Mormont's raven | bonded to | Mormont | Perches on shoulder; Mormont gives it corn; mimics key words |\n| Tywin Lannister | forced into service | Thorne, Rykker | Gave them the choice of the black or"
+        },
+        {
+          "chapter": "agot-tyrion-03",
+          "line": 245,
+          "context": "### Characters\nTyrion Lannister, Jeor Mormont (the Old Bear), Ser Alliser Thorne, Bowen Marsh, Ser Jaremy Rykker, Maester Aemon, Jon Snow, Ghost, Mormont's raven, Jaime Lannister, Cersei Lannister, Ty"
+        },
+        {
+          "chapter": "agot-bran-06",
+          "line": 81,
+          "context": "| Tyrion Lannister (the Imp) | Rumored killed by Mother, hung from walls of Riverrun | Rumors |\n| Lord Tywin Lannister | Rumored marching on the Eyrie, burning and slaughtering | Rumors |\n| Renly Bara"
+        },
+        {
+          "chapter": "agot-bran-06",
+          "line": 119,
+          "context": "| Dragonstone | Rumored location where Rhaegar marshals a ghost host | No |\n| The Eyrie | Rumored target of Tywin Lannister's march | No |\n| Shadow Tower | Where Mance Rayder was formerly a black brot"
+        },
+        {
+          "chapter": "agot-bran-06",
+          "line": 292,
+          "context": "### Characters\nBran Stark, Robb Stark, Rickon Stark, Eddard Stark (Father), Catelyn Stark (Mother), Sansa Stark, Arya Stark, Brandon Stark (Ned's brother), Lord Rickard Stark (grandfather), Hodor, Mae"
+        },
+        {
+          "chapter": "agot-jon-01",
+          "line": 66,
+          "context": "| Daeron Targaryen (the Young Dragon) | Jon cites him as a hero \u2014 conquered Dorne at fourteen, died at eighteen | Jon Snow, Benjen Stark |\n| Lord Tywin Lannister | Mentioned as Tyrion's father; Tyrion"
+        },
+        {
+          "chapter": "agot-jon-01",
+          "line": 198,
+          "context": "| Tyrion Lannister | brother (mocking affection) | Jaime Lannister | Tyrion waddled half-hidden by Jaime; jokes about vomiting on his brother |\n| Tyrion Lannister | resented by father | Tywin Lanniste"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 60,
+          "context": "| Jaime Lannister | Gave Tyrion the mare for his twenty-third name day; was unhorsed by the Knight of Flowers at the tourney | Tyrion |\n| Lord Tywin Lannister | Tyrion's father; would not truly pay re"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 243,
+          "context": "### Characters\nTyrion Lannister, Catelyn Stark, Bronn, Chiggen, Ser Rodrik Cassel, Kurleket, Mohor, Lharys, Marillion, Ser Willis Wode, Jyck, Morrec, Yoren, Jaime Lannister (referenced), Lord Tywin La"
+        },
+        {
+          "chapter": "agot-eddard-12",
+          "line": 13,
+          "context": "- **time_markers:** \"an hour after the Grand Maester had left\" (Littlefinger's visit); \"Late that afternoon\" (summoning Tomard); \"She came to him at sunset\"; \"three days hence\" (the girls' scheduled d"
+        },
+        {
+          "chapter": "agot-eddard-12",
+          "line": 44,
+          "context": "|-----------|---------------------|---------------|\n| Tywin Lannister | Wrote angry letter to the queen about Gregor Clegane mission; sellswords flocking to Casterly Rock | Pycelle, Littlefinger, Ned "
+        },
+        {
+          "chapter": "agot-eddard-12",
+          "line": 122,
+          "context": "## Events & Actions\n1. **Pycelle treats Ned's leg** \u2014 Grand Maester Pycelle checks on Ned's healing broken leg, leaves milk of the poppy, and warns that Tywin Lannister is furious about the party sent"
+        },
+        {
+          "chapter": "agot-eddard-12",
+          "line": 169,
+          "context": "|-------------|-------------|----------------------|------------------------|\n| Tywin Lannister is furious about the party sent after Gregor Clegane | Pycelle tells Ned about a raven from Tywin to Cer"
+        },
+        {
+          "chapter": "agot-eddard-12",
+          "line": 223,
+          "context": "| Pycelle | Serves/reports to | Cersei Lannister | Ned suspects Pycelle went straight to royal apartments to whisper to the queen; \"more Cersei's creature with every passing day\" |\n| Tywin Lannister |"
+        },
+        {
+          "chapter": "agot-eddard-12",
+          "line": 266,
+          "context": "### Characters\nEddard Stark, Cersei Lannister, Grand Maester Pycelle, Petyr Baelish (Littlefinger), Tomard (Fat Tom), Varly, Tywin Lannister, Jaime Lannister, Robert Baratheon, Joffrey Baratheon, Tomm"
+        },
+        {
+          "chapter": "agot-eddard-05",
+          "line": 56,
+          "context": "| Catelyn Stark | Littlefinger says he promised Cat to help Ned; hid her in a brothel | Littlefinger |\n| Tywin Lannister | Brought retinue for tourney on Prince Joffrey's name day | Pycelle |\n| Jaime "
+        },
+        {
+          "chapter": "agot-eddard-05",
+          "line": 220,
+          "context": "| Pycelle | Dismissive of | Lysa Arryn | Calls her grief-deranged; says she \"was never\" strong and disciplined; mentions her enemies-in-every-shadow behavior |\n| Tywin Lannister | Father of | Jaime La"
+        },
+        {
+          "chapter": "agot-eddard-05",
+          "line": 242,
+          "context": "### Characters\nEddard Stark (Ned), Grand Maester Pycelle, Arya Stark, Sansa Stark, Petyr Baelish (Littlefinger), Alyn, Jon Arryn, Robert Baratheon, Lysa Arryn, Robert Arryn, Maester Colemon, Varys (th"
+        },
+        {
+          "chapter": "agot-eddard-01",
+          "line": 55,
+          "context": "| Jon Arryn | Recently deceased former Hand of the King; served as Lord of the Eyrie, Warden of the East, Hand of the King; sickened quickly after a tourney on Joffrey's name day; \"a fire in his gut\" "
+        },
+        {
+          "chapter": "agot-eddard-01",
+          "line": 57,
+          "context": "| Robert Arryn | Jon Arryn's son; six years old; sickly; Lord of the Eyrie; Robert's namesake | Robert |\n| Tywin Lannister | Lord Tywin; Robert had hoped to foster Robert Arryn with him at Casterly Ro"
+        },
+        {
+          "chapter": "agot-eddard-01",
+          "line": 114,
+          "context": "| Royal arrival at Winterfell | shelter_offered | Eddard Stark | Robert Baratheon, Cersei Lannister, royal party | \"Winterfell is yours\" \u2014 formal greeting of the king by his host; Ned kneels to kiss t"
+        },
+        {
+          "chapter": "agot-eddard-01",
+          "line": 127,
+          "context": "10. **Robert tells Ned about Jon Arryn's death** \u2014 Jon sickened quickly; looked healthy at a tourney for Joffrey's name day but was dead a fortnight later. The sickness burned through him like fire in"
+        },
+        {
+          "chapter": "agot-eddard-01",
+          "line": 153,
+          "context": "| Lysa Arryn has fled to the Eyrie with her son against Robert's wishes | Robert tells Ned | Robert, Ned, Cersei (furious about it) | No |\n| Robert had planned to foster Robert Arryn with Tywin Lannis"
+        },
+        {
+          "chapter": "agot-eddard-01",
+          "line": 162,
+          "context": "| Brandon Stark was strangled by order of Aerys Targaryen; Rickard was forced to watch | Ned's internal memory / established fact | Ned (and presumably widely known) | No |\n| Ned would sooner trust a "
+        },
+        {
+          "chapter": "agot-eddard-01",
+          "line": 192,
+          "context": "- **Primary preoccupation:** The gap between the Robert he knew and the king before him; Lyanna's memory and the unfulfilled promise; the weight of what Robert is asking.\n- **Key decisions made:** Doe"
+        },
+        {
+          "chapter": "agot-eddard-01",
+          "line": 202,
+          "context": "| Robert Baratheon | Undying hatred for | Rhaegar Targaryen | \"I vowed to kill Rhaegar\"; \"In my dreams, I kill him every night\"; \"a thousand deaths will still be less than he deserves\" |\n| Ned Stark |"
+        },
+        {
+          "chapter": "agot-eddard-01",
+          "line": 230,
+          "context": "### Characters\nEddard (Ned) Stark, Robert Baratheon, Cersei Lannister, Jaime Lannister, Sandor Clegane, Joffrey Baratheon, Tyrion Lannister, Catelyn Stark, Lyanna Stark, Brandon Stark, Rickard Stark, "
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 55,
+          "context": "| Stannis Baratheon | Named as one of the men around Robert who would counsel against open battle | Ser Jorah |\n| Tywin Lannister | Named as one of the men around Robert who would counsel against open"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 182,
+          "context": "| Ser Jorah | Dany | \"They are better riders than any knight, utterly fearless, and their bows outrange ours \u2026 your lord husband alone counts forty thousand mounted warriors in his khalasar.\" | Assess"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 238,
+          "context": "### Characters\nDaenerys Targaryen, Khal Drogo, Viserys Targaryen, Ser Jorah Mormont, Cohollo, Haggo, Qotho, Irri, Jhiqui, Doreah, Aggo, Rakharo, Magister Illyrio Mopatis, Rhaegar Targaryen, Robert Bar"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 70,
+          "context": "| Gregor Clegane (the Mountain) | Identified as the leader of the raids; described as impossibly large with a voice like stone breaking | Witnesses, Ser Marq, Ser Karyl, Ser Raymun, Ned |\n| Tywin Lann"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 184,
+          "context": "| Joss | Ned | Describes the leader: \"Big as an ox he was, and a voice like stone breaking.\" | Key identifying detail pointing to Gregor Clegane |\n| Grand Maester Pycelle | Ned | \"I urge you to remind"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 197,
+          "context": "- **Emotional state:** Anger at the raids and at the situation he's been put in; physical pain from his shattered leg making him irritable; a sense of grim duty; suppressed fury at the injustice done "
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 217,
+          "context": "| Lord Beric Dondarrion | Obeys / serves | Eddard Stark | Accepts command: \"As you command, Lord Eddard\" |\n| Gregor Clegane | Bannerman to | Tywin Lannister | Stated directly: \"Ser Gregor Clegane stoo"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 218,
+          "context": "| Gregor Clegane | Bannerman to | Tywin Lannister | Stated directly: \"Ser Gregor Clegane stood bannerman to Lord Tywin Lannister\" |\n| Eddard Stark | Suspects | Tywin Lannister | Believes Tywin sent Gr"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 230,
+          "context": "| Who were the men slipping out the back of the hall? | Ned's observation | \"Hares going to ground \u2026 or rats off to nibble the queen's cheese\" \u2014 are they informing Cersei? |\n| How will Tywin Lannister"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 238,
+          "context": "### Characters\nEddard Stark, Varys, Grand Maester Pycelle, Petyr Baelish (Littlefinger), Ser Raymun Darry, Ser Karyl Vance, Ser Marq Piper, Joss (alehouse keeper), Ser Arys Oakheart, Septa Mordane, Sa"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 85,
+          "context": "| The High Septon | Told Varys \"as we sin, so do we suffer\" | Varys |\n| Tywin Lannister | \"Her father\" \u2014 spending power battling Starks and Tullys (inferred) | Varys |"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 293,
+          "context": "### Characters\nEddard Stark, Robert Baratheon, Cersei Lannister, Jaime Lannister, Varys, Littlefinger (Petyr Baelish), Janos Slynt, Pycelle, Ser Barristan Selmy, Renly Baratheon, Catelyn Stark, Sansa "
+        },
+        {
+          "chapter": "agot-eddard-02",
+          "line": 54,
+          "context": "| Jon Arryn | Former Hand; referenced as wise counselor who also opposed killing Targaryens | Both |\n| Tywin Lannister | Presented Rhaegar's children's corpses to Robert; led sack of King's Landing; c"
+        },
+        {
+          "chapter": "agot-eddard-02",
+          "line": 162,
+          "context": "| Lyanna whispered \"Promise me, Ned\" | Internal thought triggered by discussing Lyanna | Ned only | Yes (internal) |\n| Tywin Lannister presented Robert with the corpses of Rhaegar's wife and children "
+        },
+        {
+          "chapter": "agot-eddard-02",
+          "line": 179,
+          "context": "| Robert | Ned | \"A knife, perhaps. A good sharp one, and a bold man to wield it.\" | Proposing assassination of Daenerys |\n| Ned | Robert | \"Your Grace, the girl is scarcely more than a child. You are"
+        },
+        {
+          "chapter": "agot-eddard-02",
+          "line": 207,
+          "context": "| Ned | Guilt and concealment | Wylla / \"his bastard\" | Names Wylla as the mother but the narration reveals he has \"lived his lies for fourteen years\" |\n| Ned | Moral opposition | Tywin Lannister | \"N"
+        },
+        {
+          "chapter": "agot-eddard-02",
+          "line": 239,
+          "context": "### Characters\nEddard Stark, Robert Baratheon, Alyn, Ser Boros Blount, Ser Meryn Trant, Cersei Lannister, Wylla, Becca, Varys, Aerys Targaryen, Daenerys Targaryen, Khal Drogo, Viserys Targaryen, Jorah"
+        },
+        {
+          "chapter": "agot-eddard-02",
+          "line": 269,
+          "context": "### Titles & Offices\nKing (Robert), Hand of the King (Ned; previously Jon Arryn), Master of Whisperers (Varys), Warden of the East (disputed \u2014 Robert Arryn vs. Jaime Lannister), Warden of the West (Ty"
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 13,
+          "context": "- **time_markers:** Camp made at night on the southern edge of the bogs; next morning Ser Brynden rides back; near midday the vanguard comes in sight of the Twins; Catelyn required to return by evenfa"
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 71,
+          "context": "| Rickon Stark | Implied as one of the \"sweet sons\" left at Winterfell | Catelyn (implied) |\n| Tywin Lannister | Lannister host marching north; Warden of the West, Hand of the King | Multiple characte"
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 137,
+          "context": "3. **Report on Walder Frey's position** \u2014 Scouts report Lord Walder Frey has massed nearly four thousand men at the Twins and has not marched to join the Tully host at Riverrun.\n4. **Catelyn and Robb "
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 176,
+          "context": "| Ned Stark is in a cell under the Red Keep | Lord Walder states | Lord Walder, Catelyn | No |\n| A Frey son is wed to Tywin Lannister's sister | Catelyn tells Robb | Catelyn, Robb | No |\n| Lord Walder"
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 220,
+          "context": "| Walder Frey | bannerman to (unreliable) | Hoster Tully | Called his swords but has not marched; holds back and waits |\n| Walder Frey | friendlier with than expected | House Lannister | One of his so"
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 244,
+          "context": "### Characters\nCatelyn Stark, Robb Stark, Grey Wind, Ser Brynden Tully (the Blackfish), Theon Greyjoy, Robett Glover, Galbart Glover, Greatjon Umber, Rickard Karstark, Roose Bolton, Helman Tallhart, S"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 13,
+          "context": "- **time_markers:** Night (Tyrion was woken from sleep by his squire); \"this fortnight past\" (Renly wed Margaery Tyrell at Highgarden); \"on the morrow\" (plan to march for Harrenhal); \"every morning,\" "
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 28,
+          "context": "| Tyrion Lannister | POV character | No | Wounded elbow from recent battle; drinking wine throughout the council |\n| Tywin Lannister | Commander, Tyrion's father | No | Presides over war council; assi"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 42,
+          "context": "| Crakehall messenger | | | | | Torn surcoat with brindled boar of Crakehall, half-obscured by dried blood | | Dulled voice from exhaustion; bloodstained | |\n| Tywin Lannister | | Gold-flecked pupils "
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 119,
+          "context": "|----------|---------|-------------------|------------------------|\n| Map (leather) | Tywin has Kevan bring it; unrolls and smooths it flat to discuss strategic situation | Yes (uncertain \u2014 verify) | "
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 249,
+          "context": "### Characters\nTyrion Lannister, Tywin Lannister, Ser Kevan Lannister, Jaime Lannister, Crakehall messenger (unnamed), Ser Harys Swyft, Ser Gregor Clegane (the Mountain), Ser Addam Marbrand, Ser Fleme"
+        }
+      ]
+    },
+    {
+      "page": "Vylarr",
+      "raw_html_path": "sources/wiki/_raw/Vylarr.json",
+      "track_b_row": {
+        "page": "Vylarr",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 3,
+          "source": "cite_ref",
+          "pov": "Sansa I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Captain of the guards",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Lannister",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            3,
+            7,
+            8,
+            17,
+            25,
+            39
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Vylarr",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 6,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 19861
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Whitesmile Wat",
+      "raw_html_path": "sources/wiki/_raw/Whitesmile_Wat.json",
+      "track_b_row": {
+        "page": "Whitesmile Wat",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 30,
+          "source": "cite_ref",
+          "pov": "Tyrion VII"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Lannister",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Whitesmile Wat"
+        ],
+        "cite_refs": {
+          "affc": [
+            33,
+            44
+          ],
+          "acok": [
+            30
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Whitesmile Wat",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 2,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 7666
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Willem Lannister",
+      "raw_html_path": "sources/wiki/_raw/Willem_Lannister.json",
+      "track_b_row": {
+        "page": "Willem Lannister",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 2,
+          "source": "cite_ref",
+          "pov": "Jaime I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Lannister",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "285",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "287\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Westerlands",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "299\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Riverrun",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Kevan Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Dorna Swyft",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            2,
+            14,
+            19,
+            20
+          ],
+          "agot": [
+            63
+          ],
+          "acok": [
+            25,
+            55
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Willem Lannister",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 2,
+          "asos": 4,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 68133
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

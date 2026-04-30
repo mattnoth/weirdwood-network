@@ -322,43 +322,43 @@ Every claim in the system has a confidence tier:
 
 ---
 
-## Spoiler Gating
+## Spoiler Gating — DEFERRED to Post-First-Release
 
-Every node and extraction carries a `first_available` field: the earliest book and chapter where this information becomes available to the reader.
+> **Status (2026-04-27):** Spoiler gating via `first_available` is **deferred** to a post-first-release backfill pass. The field is **optional** in v1 nodes. Existing values may be missing, in inconsistent shapes, or wrong (the wiki-infobox-parser produces systematically wrong values for some page classes — e.g., Tyrion and Varys both got `ADWD` despite appearing from AGOT). **Do not invest context reasoning out individual values during extraction or curation work.** Backfill will happen via a deterministic script after the first release, when the data model is stable enough to enforce consistently.
+>
+> When backfill runs, it will use the wiki data sources documented below to derive `first_available` mechanically across the entire node corpus in one pass, rather than relying on per-node agent judgment.
 
-Format: `{BOOK} {POV} {CHAPTER_NUMBER}` or `{BOOK} Prologue/Epilogue`
+### Format (when re-introduced)
+
+`{BOOK} {POV} {CHAPTER_NUMBER}` or `{BOOK} Prologue/Epilogue`
 
 Examples:
 - `first_available: AGOT Bran II` (Bran's fall — available from this chapter onward)
 - `first_available: ASOS Epilogue` (Lady Stoneheart reveal)
 - `first_available: pre-agot` (D&E novellas and pre-series information)
 
-The system can filter all content to a user-declared spoiler ceiling. Any node with `first_available` above the ceiling is excluded from retrieval.
+The system will filter content to a user-declared spoiler ceiling. Any node with `first_available` above the ceiling is excluded from retrieval. **This filtering is not active in v1.**
 
 **Retroactive significance:** Some information has retroactive importance. A fact available in AGOT may only become meaningful in ADWD. Use `significance_unlocked` as a secondary field:
 - `first_available: AGOT Eddard I` / `significance_unlocked: ADWD` (Ned's internal guilt about Jon)
 
-### Wiki Data Source for Spoiler Gates
+### Wiki Data Source for Future Backfill
 
-The AWOIAF wiki provides two structured sources for auto-populating `first_available`:
+The AWOIAF wiki provides two structured sources for the eventual backfill script:
 
 **1. Infobox "Books" field** (book-level granularity):
 ```html
 <li><a href="...">A Game of Thrones</a> <small>(POV)</small></li>
 <li><a href="...">A Clash of Kings</a> <small>(mentioned)</small></li>
 ```
-Appearance types: `POV` (has point-of-view chapters), `appears` (present in narrative), `mentioned` (referenced only). The first book where the entity is NOT just "mentioned" is the book-level `first_available`.
+Appearance types: `POV`, `appears`, `mentioned`. First non-"mentioned" book → book-level `first_available`.
 
 **2. Citation anchor IDs** (chapter-level granularity):
-Wiki footnotes encode book and chapter number directly in their `cite_ref` / `cite_note` HTML anchor IDs:
-```
-cite_ref-Ragot2...   → AGOT chapter 2
-cite_ref-Rasos24...  → ASOS chapter 24
-cite_ref-Radwd62...  → ADWD chapter 62
-```
-Format: `R{book_abbrev}{chapter_number}`. The **lowest-numbered citation** for a given entity gives us chapter-level `first_available`. Example: Eddard Stark's wiki page has 78 unique chapter citations across all 5 books — the first is `agot1` (AGOT chapter 1), giving `first_available: AGOT Bran I`.
+Format: `R{book_abbrev}{chapter_number}` in cite_ref HTML anchors. Example: `cite_ref-Ragot2` → AGOT chapter 2. Lowest-numbered citation per page → chapter-level `first_available`.
 
-5,279 of 17,657 cached wiki pages have infoboxes. Citation anchors appear across an even wider set of pages. A parser script should extract both and cross-reference to produce the most precise `first_available` possible.
+**Known parser-bug class:** the lowest-cite_ref heuristic produces wrong values for some pages (cite_refs are reordered when wiki footnotes are edited; ADWD-era references can sort first). The backfill script must cross-reference cite_refs against `pass1_mentions` to detect and correct these silent failures, OR simply use `Books` field as the primary signal and treat cite_refs as refinement only.
+
+**Coverage at v1:** 5,279 of 17,657 cached wiki pages have infoboxes. The Track B parser populated `first_available` for 2,888 of those (54.7%) — values not yet validated.
 
 ---
 
@@ -407,7 +407,40 @@ All agents working in this project should:
 
 ---
 
+## Artifact Formats by Consumer
+
+> **Principle:** Markdown for things that become node content. Structured (JSONL/JSON) for things consumed by code. Don't force one format across all artifact types.
+>
+> Wiki Pass 2 produces a per-page family of intermediate artifacts at `working/wiki-pass2/<bucket_id>/<artifact-dir>/<slug>.<ext>`. Each artifact has exactly one writer (single-writer-per-file invariant). The launcher's promotion step is the only process that combines them into the final node.
+
+| Artifact | Format | Producer | Format choice why |
+|----------|--------|----------|-------------------|
+| `skeleton/<slug>.node.md` | markdown | Python emitter (`scripts/wiki-pass2-emit-deterministic.py`) | becomes the head of the final node — frontmatter + thin Identity + full Edges from infobox |
+| `prose/<slug>.prose.md` | markdown | Python extractor (`scripts/wiki-pass2-extract-prose.py`) | concatenated onto skeleton at promotion — narrative body sections from wiki HTML |
+| `prose-edges/<slug>.edges.jsonl` | JSONL | Stage 4 agent (future) | structured rows `{source, edge_type, target, qualifier, citation}` consumed by graph build, not by readers |
+| `entity-index/<slug>.index.json` | JSON | post-promotion script (future) | trigger-table input — alias/title/name → slug lookup for Pass 3+ extractions |
+
+**Promotion rule:** the launcher concatenates `skeleton/<slug>.node.md + "\n" + prose/<slug>.prose.md` (when prose exists) and atomic-renames into `graph/nodes/<type>/<slug>.node.md`. Tier-B pages with no prose file get the skeleton verbatim. Stage 4 + entity-index artifacts attach later via separate promotion steps.
+
+**Investigation tooling:** `scripts/graph-query.py <slug>` — read-only CLI that prints a node's frontmatter, outbound edges (with target-resolution status: OK / ALIAS→ / ORPHAN), and top inbound references from `working/wiki-parsed/cross-references.jsonl`. Use this before grepping raw markdown when investigating any single node. Modes: default full, `--edges-only`, `--inbound-only`, `--json`.
+
+**Why single-writer-per-file matters:** if two processes (e.g., Python skeleton emitter + LLM prose-fill agent) both wrote to the same file, the LLM's tendency to paraphrase or normalize would corrupt the deterministic prefix. Separating artifacts by writer makes that class of failure structurally impossible. A validator never has to enforce byte-equality; the concatenation is the only path that produces the final node.
+
+---
+
 ## Wiki Infobox Fields → Edge Type Mapping
+
+> **Vocabulary lock — read this before adding or renaming any edge type.**
+>
+> This table is the single source of truth for the wiki-derived edge vocabulary. The parser at `scripts/wiki-infobox-parser.py` (`FIELD_EDGE_MAP` dict) implements it; everything downstream — `working/wiki-parsed/infobox-data.jsonl`, `scripts/wiki-pass2-emit-deterministic.py`, the `## Edges` section in every Pass-2 node — is a faithful pass-through of what the parser produces. **No script invents edge types.** No agent should propose a new edge type without it landing here first.
+>
+> **Why locked:** the graph's value comes from being able to traverse `SPOUSE_OF` everywhere consistently. If one source emits `SPOUSE_OF` and another emits `MARRIED_TO`, traversal breaks. The 22 edge types currently in the corpus were chosen deliberately; expanding the set requires the same deliberation.
+>
+> **Adding a new edge type:** append a row to this table FIRST, then add the field → edge_type mapping to `FIELD_EDGE_MAP` in the parser, then re-run the parser. Don't shortcut the order.
+>
+> **Currently unmapped infobox fields** (deliberately deferred — see `working/todos.md` "Edge taxonomy gaps"): `dynasty` (222 pages), `written by` (168), `hatched` (8), `fathers` plural (21), `vassal` (8), `cadet branch` singular (11). These need taxonomy decisions before mapping.
+>
+> **Edge polish phase (future):** semantically-equivalent variants that crept in via different infobox fields (e.g., `Predecessor`/`Successor` both producing `SUCCEEDS` in different directions, or any future near-duplicates) get reviewed and merged by an agent reasoning step. That review happens AFTER all wiki ingestion completes — not during. Stage 3a / Stage 3b never merge edges.
 
 When Pass 2 (wiki ingestion) processes wiki pages, these infobox fields map to edge types:
 
@@ -438,5 +471,6 @@ When Pass 2 (wiki ingestion) processes wiki pages, these infobox fields map to e
 | Ruler | `RULES` | |
 | Region, Regions | `REGION_OF` | |
 | Species | Node type metadata | Not an edge — informs entity type |
-| Conflict | `FIGHTS_IN` | For battle pages |
+| Conflict, Battles | `FIGHTS_IN` | For battle pages and characters' battle lists |
 | Result | `DEFEATS` | Extract victor/defeated from result text |
+| Written by | `WRITTEN_BY` | For in-world texts (books, songs, decrees); subject = text, target = author |

@@ -1,0 +1,62 @@
+---
+name: "Jaehaerys Targaryen's uprising"
+type: event.battle
+slug: jaehaerys-targaryens-uprising
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Jaehaerys_Targaryen's_uprising"
+bucket_id: battles-f-p
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Jaehaerys Targaryen's uprising is a event.battle from the AWOIAF wiki.
+
+## Edges
+
+- DEFEATS: Maegor I Targaryen (track_b: Result)
+- DEFEATS: Iron Throne (track_b: Result)
+- DEFEATS: Jaehaerys Targaryen (track_b: Result)
+
+## Origins
+
+In [42 AC](wiki:42_AC), Jaehaerys's father, King [Aenys I Targaryen](wiki:Aenys_I_Targaryen), died on [Dragonstone](wiki:Dragonstone). Dowager Queen [Visenya](wiki:Visenya_Targaryen) brought her son and Aenys's half-brother, Prince [Maegor](wiki:Maegor_I_Targaryen), back from his exile in [Essos](wiki:Essos), and he declared himself king, supplanting Aenys's eldest son and heir, Prince [Aegon](wiki:Aegon_Targaryen_(son_of_Aenys_I)). In [43 AC](wiki:43_AC), Aegon attempted [a rebellion](wiki:Aegon_the_Uncrowned's_rebellion) against his usurping uncle, but he and his [dragon](wiki:Dragon) [Quicksilver](wiki:Quicksilver) were slain by Maegor and his dragon [Balerion](wiki:Balerion) in a [battle](wiki:Battle_Beneath_the_Gods_Eye) just south of the [Gods Eye](wiki:Gods_Eye).(wiki:Jaehaerys_Targaryen's_uprising.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
+
+By [44 AC](wiki:44_AC), Prince Jaehaerys, his sister [Alysanne](wiki:Alysanne_Targaryen), and their mother, Dowager Queen [Alyssa Velaryon](wiki:Alyssa_Velaryon), resided on Dragonstone as the [hostages](wiki:Hostage) of Dowager Queen Visenya. In the chaos following Visenya's death of natural causes that year, Jaehaerys and his mother and sister fled the island, along with Jaehaerys's dragon [Vermithor](wiki:Vermithor) and Alysanne's dragon [Silverwing](wiki:Silverwing), and taking Visenya's ancestral [Valyrian steel](wiki:Valyrian_steel) sword [Dark Sister](wiki:Dark_Sister). In retaliation, King Maegor had Jaehaerys's older brother [Viserys](wiki:Viserys_Targaryen_(son_of_Aenys_I)), a hostage in [King's Landing](wiki:King's_Landing), [tortured](wiki:Torture) to death. As a result, Prince Jaehaerys became the eldest living son of the late King Aenys, though he remained in hiding.(wiki:Jaehaerys_Targaryen's_uprising.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)(wiki:Jaehaerys_Targaryen's_uprising.cite_ref-Rtwoiafthe_targaryen_kings:_maegor_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+
+King Maegor had great difficulty getting a heir of his own body. Two of his wives, Queen [Ceryse Hightower](wiki:Ceryse_Hightower) and Queen [Tyanna](wiki:Tyanna), appeared to be barren, and in [44 AC](wiki:44_AC) he had Queen [Alys Harroway](wiki:Alys_Harroway) tortured to death after she had given birth to a stillborn monstrosity. In [47 AC](wiki:47_AC), Maegor forced three widows of proven fertility to marry him in one ceremony. One of these [Black Brides](wiki:Black_Brides) was Jaehaerys's eldest sister and Aegon's widow, [Rhaena Targaryen](wiki:Rhaena_Targaryen_(daughter_of_Aenys_I)). Still without a child of his own, Maegor officially disinherited Jaehaerys, and proclaimed Rhaena and Aegon's daughter [Aerea](wiki:Aerea_Targaryen) as his heir.(wiki:Jaehaerys_Targaryen's_uprising.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)(wiki:Jaehaerys_Targaryen's_uprising.cite_ref-Rtwoiafthe_targaryen_kings:_maegor_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+
+In the meanwhile, the [Faith of the Seven](wiki:Faith_of_the_Seven) had been conflicting with [House Targaryen](wiki:House_Targaryen) over their practices of [incest](wiki:Incest) and [polygamy](wiki:Polygamy). The [Faith Militant uprising](wiki:Faith_Militant_uprising) had begun during King Aenys's reign,(wiki:Jaehaerys_Targaryen's_uprising.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3) but as the Faith continued to resist Maegor's rule, he raised [a set of laws](wiki:King_Maegor's_laws) that forbade holy men from carrying arms,(wiki:Jaehaerys_Targaryen's_uprising.cite_ref-Raffc43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)(wiki:Jaehaerys_Targaryen's_uprising.cite_ref-Rtwoiafthe_targaryen_kings:_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) and he punished [lords](wiki:Lord) who spoke out against the suppression of the Faith.(wiki:Jaehaerys_Targaryen's_uprising.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) King Maegor took brutal steps to put down the rebelling [Faith Militant](wiki:Faith_Militant) orders and the houses supporting them, including offering bounties for their heads.(wiki:Jaehaerys_Targaryen's_uprising.cite_ref-Raffc33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) Not even the death of the [High Septon](wiki:High_Septon_(Maegor_I)) and his replacement by [a more passive one](wiki:High_Lickspittle) stopped the determination of the Faith Militant. Thousands died during Maegor's campaigns against the Faith, which was also ruinously expensive. The [master of coin](wiki:Master_of_coin) continuously raised taxes and imposed new ones, and when these measures failed, Maegor demanded a tribute of [gold](wiki:Gold) from the high lords. Day by day, the [Seven Kingdoms](wiki:Seven_Kingdoms) turned against its king, as both [smallfolk](wiki:Smallfolk) and lords began to despise him for his tyranny and his many cruelties.(wiki:Jaehaerys_Targaryen's_uprising.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)(wiki:Jaehaerys_Targaryen's_uprising.cite_ref-Rtwoiafthe_targaryen_kings:_maegor_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+
+## Aftermath
+
+Jaehaerys arrived in King's Landing upon his [dragon](wiki:Dragon) [Vermithor](wiki:Vermithor), ahead of Lord Rogar Baratheon's army. Most of Maegor's supporters had fled, and Jaehaerys imprisoned the few who still remained. After he was joined by his mother and Hand, King Jaehaerys decided to pardon the lords and knights who had served Maegor, restoring their lands and titles to them, although he required a son or daughter as a [hostage](wiki:Hostage) from each, or the payment of a sum of [gold](wiki:Gold) to the crown. As the realm learned about Jaehaerys's willingness for granting pardons, the remainder of Maegor's adherents dismissed their armies and journeyed to King's Landing to swear fealty to the new king. An exception was made for some: the gaolers and [confessors](wiki:Confessor) who had assisted in the [torture](wiki:Torture) and death of Prince [Viserys](wiki:Viserys_Targaryen_(son_of_Aenys_I)) were all executed.(wiki:Jaehaerys_Targaryen's_uprising.cite_ref-Rfabprince_into_king_-_the_ascension_of_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
+
+Of Maegor's Kingsguard, Ser [Maladon Moore](wiki:Maladon_Moore) was executed for his alleged involvement in the murder of Maegor's queen [Ceryse Hightower](wiki:Ceryse_Hightower), and his definite particpation in the murder of Queen [Tyanna](wiki:Tyanna_of_the_Tower). The remaining five Kingsguard were given a choice between execution or [taking the black](wiki:Night's_Watch), including Ser [Olyver Bracken](wiki:Olyver_Bracken) and Ser [Raymund Mallery](wiki:Raymund_Mallery), who had abandoned Maegor for Jaehaerys, but whose service was refused by the young king since he did not want oathbreakers serving him. All chose to take the black, except for Ser [Harrold Langward](wiki:Harrold_Langward), who demanded a [trial by combat](wiki:Trial_by_combat) and was slain by the Crown's champion, Ser [Gyles Morrigen](wiki:Gyles_Morrigen). Afterwards, Ser Gyles was made [Lord Commander](wiki:Lord_Commander_of_the_Kingsguard) of Jaehaerys's Kingsguard.(wiki:Jaehaerys_Targaryen's_uprising.cite_ref-Rfabprince_into_king_-_the_ascension_of_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2)
+
+In [Oldtown](wiki:Oldtown), Jaehaerys was blessed and crowned by the [High Septon](wiki:High_Lickspittle) with [his late father's](wiki:Aenys_I_Targaryen) [crown](wiki:Crown) in the [Starry Sept](wiki:Starry_Sept). Jaehaerys removed the bounties that King Maegor had placed on the heads of the [Warrior's Sons](wiki:Warrior's_Sons) and [Poor Fellows](wiki:Poor_Fellows) during the [Faith Militant uprising](wiki:Faith_Militant_uprising),(wiki:Jaehaerys_Targaryen's_uprising.cite_ref-Rfabprince_into_king_-_the_ascension_of_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-3) and pardoned all those who would put down their weapons.(wiki:Jaehaerys_Targaryen's_uprising.cite_ref-Raffc33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)(wiki:Jaehaerys_Targaryen's_uprising.cite_ref-Rtwoiafthe_targaryen_kings:_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1) The [Faith](wiki:Faith_of_the_Seven) agreed to set aside their traditional right of judging their own and to accept justice from the throne,(wiki:Jaehaerys_Targaryen's_uprising.cite_ref-Rtwoiafthe_targaryen_kings:_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)(wiki:Jaehaerys_Targaryen's_uprising.cite_ref-Raffc43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1) while Jaehaerys swore that the crown would always protect and defend the Faith.(wiki:Jaehaerys_Targaryen's_uprising.cite_ref-Raffc28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0) Additionally, Jaehaerys offered a white cloak to Ser [Joffrey Doggett](wiki:Joffrey_Doggett), a former Warrior's Son, which the knight accepted. As such, Jaehaerys reconciled the Iron Throne and the Faith.(wiki:Jaehaerys_Targaryen's_uprising.cite_ref-Rfabprince_into_king_-_the_ascension_of_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-4)
+
+## Quotes
+
+> No man in the [Seven Kingdoms](wiki:Seven_Kingdoms) could doubt that [the king](wiki:Maegor_I_Targaryen) was accursed now.(wiki:Jaehaerys_Targaryen's_uprising.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-12)
+>
+> —writings of [Gyldayn](wiki:Gyldayn)
+
+> [Maegor](wiki:Maegor_I_Targaryen) has only [one](wiki:Balerion) [dragon](wiki:Dragon). [Our prince](wiki:Jaehaerys_I_Targaryen) has two.(wiki:Jaehaerys_Targaryen's_uprising.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-13)
+>
+> —[Rogar Baratheon](wiki:Rogar_Baratheon), to the [stormlords](wiki:Stormlords)
+
+> [Maegor the Cruel](wiki:Maegor_the_Cruel) was murdered in [that chair](wiki:Iron_Throne). *By* that chair, to hear some tell it.(wiki:Jaehaerys_Targaryen's_uprising.cite_ref-Rasos36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
+>
+> —[Stannis Baratheon](wiki:Stannis_Baratheon), to [Davos Seaworth](wiki:Davos_Seaworth)
+
+> It was a reign that ended in the only way it could after the six years of terror that [Maegor](wiki:Maegor_I_Targaryen) had visited upon [the realm](wiki:Westeros). But [his nephew's](wiki:Jaehaerys_I_Targaryen) reign would do much to mend the deep wounds he had made in the [Seven Kingdoms](wiki:Seven_Kingdoms).(wiki:Jaehaerys_Targaryen's_uprising.cite_ref-Rtwoiafthe_targaryen_kings:_maegor_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+>
+> —writings of [Yandel](wiki:Yandel)
+
+> There will be no trials, no [torture](wiki:Torture), and no executions. [The realm](wiki:Westeros) must see that I am not [my uncle](wiki:Maegor_I_Targaryen). I shall not begin my reign by bathing in blood. Some came to my banners early, some late. Let the rest come now.(wiki:Jaehaerys_Targaryen's_uprising.cite_ref-Rfabprince_into_king_-_the_ascension_of_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-5)
+>
+> —[Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen)

@@ -1,0 +1,162 @@
+{
+  "bucket_id": "houses-other-h-w",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "a13eae3f0415d65bf7ad6c7f4e9f3bcfd832840aea0cb50d459675c1327de8c0",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "House Vance",
+    "House Vance from Atranta",
+    "House Vance from Wayfarer's Rest",
+    "House Velaryon",
+    "House Warrick",
+    "House Weatherwax",
+    "House Wells",
+    "House Wells (the North)",
+    "House Wells of Dorne",
+    "House Whitfield",
+    "House Wibberley",
+    "House Woodright",
+    "House Words",
+    "House Wormwood",
+    "House Xaq",
+    "House Xho",
+    "House Yherizan",
+    "House Yunzak",
+    "House Zhak",
+    "House Zherzyn",
+    "House with a red door",
+    "House with the red door",
+    "Kingswood Brotherhood",
+    "Night's Watch",
+    "Queensguard",
+    "Windblown"
+  ],
+  "expected_nodes": [
+    "house-vance-from-atranta.node.md",
+    "house-vance-from-wayfarers-rest.node.md",
+    "house-vance.node.md",
+    "house-velaryon.node.md",
+    "house-warrick.node.md",
+    "house-weatherwax.node.md",
+    "house-wells-of-dorne.node.md",
+    "house-wells-the-north.node.md",
+    "house-wells.node.md",
+    "house-whitfield.node.md",
+    "house-wibberley.node.md",
+    "house-with-a-red-door.node.md",
+    "house-with-the-red-door.node.md",
+    "house-woodright.node.md",
+    "house-words.node.md",
+    "house-wormwood.node.md",
+    "house-xaq.node.md",
+    "house-xho.node.md",
+    "house-yherizan.node.md",
+    "house-yunzak.node.md",
+    "house-zhak.node.md",
+    "house-zherzyn.node.md",
+    "kingswood-brotherhood.node.md",
+    "nights-watch.node.md",
+    "queensguard.node.md",
+    "windblown.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:56Z",
+    "tier_a": [
+      "House Velaryon",
+      "House with the red door",
+      "Kingswood Brotherhood",
+      "Night's Watch",
+      "Queensguard",
+      "Windblown"
+    ],
+    "tier_b": [
+      "House Vance",
+      "House Warrick",
+      "House Weatherwax",
+      "House Wells",
+      "House Whitfield",
+      "House Wormwood",
+      "House Xaq",
+      "House Xho"
+    ],
+    "tier_c": [
+      {
+        "page": "House Vance from Atranta",
+        "page_kind": "redirect",
+        "redirect_target": "House Vance of Atranta"
+      },
+      {
+        "page": "House Vance from Wayfarer's Rest",
+        "page_kind": "redirect",
+        "redirect_target": "House Vance of Wayfarer's Rest"
+      },
+      {
+        "page": "House Wells (the North)",
+        "page_kind": "redirect",
+        "redirect_target": "House Wells (north)"
+      },
+      {
+        "page": "House Wells of Dorne",
+        "page_kind": "redirect",
+        "redirect_target": "House Wells (Dorne)"
+      },
+      {
+        "page": "House Wibberley",
+        "page_kind": "redirect"
+      },
+      {
+        "page": "House Woodright",
+        "page_kind": "redirect",
+        "redirect_target": "House Woodwright"
+      },
+      {
+        "page": "House Words",
+        "page_kind": "redirect",
+        "redirect_target": "House words"
+      },
+      {
+        "page": "House Yherizan",
+        "page_kind": "redirect",
+        "redirect_target": "House of Yherizan"
+      },
+      {
+        "page": "House Yunzak",
+        "page_kind": "redirect",
+        "redirect_target": "House of Yunzak"
+      },
+      {
+        "page": "House Zhak",
+        "page_kind": "redirect",
+        "redirect_target": "House of Zhak"
+      },
+      {
+        "page": "House Zherzyn",
+        "page_kind": "redirect",
+        "redirect_target": "House of Zherzyn"
+      },
+      {
+        "page": "House with a red door",
+        "page_kind": "redirect",
+        "redirect_target": "House with the red door"
+      }
+    ],
+    "stats": {
+      "total": 26,
+      "tier_a": 6,
+      "tier_b": 8,
+      "tier_c": 12
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.302553+00:00",
+  "stage3_promoted_count": 0,
+  "stage3_skipped_count": 14,
+  "stage3_conflicted_count": 0
+}

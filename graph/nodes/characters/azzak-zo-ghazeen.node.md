@@ -1,0 +1,37 @@
+---
+name: "Azzak zo Ghazeen"
+type: character.human
+slug: azzak-zo-ghazeen
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Azzak_zo_Ghazeen"
+bucket_id: characters-house-of-ghazeen
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Azzak zo Ghazeen is a character.human from the AWOIAF wiki.
+
+## Edges
+
+- HOLDS_TITLE: Cupbearer (track_b: Title)
+- SWORN_TO: House of Ghazeen (track_b: Allegiance)
+- CULTURE_OF: Ghiscari (track_b: Culture)
+- BORN_AT: Meereen (track_b: Born)
+
+## Narrative Arc
+
+### A Dance with Dragons
+
+With the [Sons of the Harpy](wiki:Sons_of_the_Harpy) killings continuing, Queen [Daenerys Targaryen](wiki:Daenerys_Targaryen) has every noble family of Meereen who is of dubious loyalty send her a child as a hostage. These children are made [her cupbearers](wiki:Cupbearers_of_Daenerys_Targaryen).(wiki:Azzak_zo_Ghazeen.cite_ref-Radwd11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0) Azzak is one of them.(wiki:Azzak_zo_Ghazeen.cite_ref-Radwd67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+
+Daenerys hopes having noble children as hostages will halt the killings, but it does not. However, Daenerys refuses to allow any harm to come to the children. She grows fond of them all, and ignores [Skahaz mo Kandaq](wiki:Skahaz_mo_Kandaq)'s counsel to kill one for every death done by the Sons of the Harpy. Ser [Barristan Selmy](wiki:Barristan_Selmy) instructs the boys in the ways of [Westerosi](wiki:Westeros) [chivalry](wiki:Knight).(wiki:Azzak_zo_Ghazeen.cite_ref-Radwd23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+
+When Daenerys disappears on [Drogon](wiki:Drogon)'s back, the cupbearers continue to serve her husband, King [Hizdahr zo Loraq](wiki:Hizdahr_zo_Loraq).(wiki:Azzak_zo_Ghazeen.cite_ref-Radwd55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+
+Ser Barristan Selmy plots with Skahaz mo Kandaq to seize control of Meereen in the queen's name. Although Skahaz wants to kill the cupbearers in return for the deaths of the hostages Daenerys had granted to the [besiegers of Meereen](wiki:Second_siege_of_Meereen), Barristan also refuses to allow any harm to come to the children.(wiki:Azzak_zo_Ghazeen.cite_ref-Radwd67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+
+After the death of Prince [Quentyn Martell](wiki:Quentyn_Martell), Barristan enters the queen's chambers and finds Azzak and five other cupbearers playing a children's game, sitting in a circle on the floor as they take turns spinning a dagger. Barristan has Azzak and [Grazhar zo Galare](wiki:Grazhar_zo_Galare) guard the door in expectation of the visit of [Galazza Galare](wiki:Galazza_Galare).(wiki:Azzak_zo_Ghazeen.cite_ref-Radwd70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)

@@ -1,0 +1,38 @@
+{
+  "bucket_id": "characters-house-torone",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "a56e56919cd1acb2a8b27bfdbbb7cac4f33ca38ff7469a08ec422e83ce28b8e3",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Torone"
+  ],
+  "expected_nodes": [
+    "torone.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Torone"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 1,
+      "tier_a": 0,
+      "tier_b": 1,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.004928+00:00",
+  "stage3_promoted_count": 1,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

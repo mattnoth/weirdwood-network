@@ -1,0 +1,8 @@
+{
+  "bucket_id": "characters-house-greyjoy-a-g",
+  "passed": true,
+  "checked_at": "2026-04-27T03:22:38Z",
+  "node_count_expected": 23,
+  "node_count_actual": 23,
+  "failures": []
+}

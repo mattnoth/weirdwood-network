@@ -1,0 +1,41 @@
+{
+  "bucket_id": "characters-house-errol",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "85d3dc91891b46b77d74038b0358425b2181ddbcb6cdbb521688d0b566cf73d4",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Sebastion Errol",
+    "Shyra Errol"
+  ],
+  "expected_nodes": [
+    "sebastion-errol.node.md",
+    "shyra-errol.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Sebastion Errol",
+      "Shyra Errol"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 2,
+      "tier_a": 0,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.750478+00:00",
+  "stage3_promoted_count": 2,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

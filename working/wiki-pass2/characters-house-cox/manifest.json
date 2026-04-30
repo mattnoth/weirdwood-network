@@ -1,0 +1,38 @@
+{
+  "bucket_id": "characters-house-cox",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "53ad6c6015165777492dee2f7b86b2d5285870353f7c40ee6b043ebdafc37e34",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Quincy Cox"
+  ],
+  "expected_nodes": [
+    "quincy-cox.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Quincy Cox"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 1,
+      "tier_a": 0,
+      "tier_b": 1,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.724225+00:00",
+  "stage3_promoted_count": 1,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

@@ -1,0 +1,24 @@
+---
+name: "Byam Flint"
+type: character.human
+slug: byam-flint
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Byam_Flint"
+bucket_id: characters-house-flint
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Byam Flint is a character.human from the AWOIAF wiki.
+
+## Edges
+
+- HOLDS_TITLE: Ser (track_b: Title)
+- SWORN_TO: House Flint (track_b: Allegiances)
+- SWORN_TO: Night's Watch (track_b: Allegiances)
+- CULTURE_OF: Northmen (track_b: Culture)
+- DIED_AT: Craster's Keep (track_b: Died) [299 AC]

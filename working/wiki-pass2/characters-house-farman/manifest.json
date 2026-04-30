@@ -1,0 +1,68 @@
+{
+  "bucket_id": "characters-house-farman",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "e84475ed90323c36277a0fecad543ad5c68194d4423877a3a355b81044f99013",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Alysanne Farman",
+    "Androw Farman",
+    "Elissa Farman",
+    "Franklyn Farman",
+    "Gylbert Farman",
+    "Jeyne Farman",
+    "Lord Farman (father of Lysa)",
+    "Lysa Farman",
+    "Marq Farman",
+    "Sebaston Farman",
+    "Smike"
+  ],
+  "expected_nodes": [
+    "alysanne-farman.node.md",
+    "androw-farman.node.md",
+    "elissa-farman.node.md",
+    "franklyn-farman.node.md",
+    "gylbert-farman.node.md",
+    "jeyne-farman.node.md",
+    "lord-farman-father-of-lysa.node.md",
+    "lysa-farman.node.md",
+    "marq-farman.node.md",
+    "sebaston-farman.node.md",
+    "smike.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Alysanne Farman",
+      "Androw Farman",
+      "Elissa Farman",
+      "Franklyn Farman",
+      "Gylbert Farman",
+      "Jeyne Farman",
+      "Lord Farman (father of Lysa)",
+      "Lysa Farman",
+      "Marq Farman",
+      "Sebaston Farman",
+      "Smike"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 11,
+      "tier_a": 0,
+      "tier_b": 11,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.755288+00:00",
+  "stage3_promoted_count": 11,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

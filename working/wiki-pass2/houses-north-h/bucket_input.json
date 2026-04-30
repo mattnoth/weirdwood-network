@@ -1,0 +1,1693 @@
+{
+  "bucket_id": "houses-north-h",
+  "tier": "core",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "House Overton",
+      "raw_html_path": "sources/wiki/_raw/House_Overton.json",
+      "track_b_row": {
+        "page": "House Overton",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "North",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Stark",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "AGOT"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Bolton",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "ADWD"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Overton",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 23566
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Peat",
+      "raw_html_path": "sources/wiki/_raw/House_Peat.json",
+      "track_b_row": {
+        "page": "House Peat",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 20,
+          "source": "cite_ref",
+          "pov": "Davos III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Neck",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "North",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Reed",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            20
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Peat",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 23341
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Poole",
+      "raw_html_path": "sources/wiki/_raw/House_Poole.json",
+      "track_b_row": {
+        "page": "House Poole",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 7,
+          "source": "cite_ref",
+          "pov": "Catelyn II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "North",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Stark",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "AGOT"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Bolton",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "ADWD"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            31,
+            37,
+            46,
+            51,
+            62
+          ],
+          "agot": [
+            7,
+            16,
+            29,
+            51
+          ],
+          "affc": [
+            17
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Poole",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 4,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 5
+        },
+        "has_infobox": true,
+        "byte_size": 36745
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Quagg",
+      "raw_html_path": "sources/wiki/_raw/House_Quagg.json",
+      "track_b_row": {
+        "page": "House Quagg",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 20,
+          "source": "cite_ref",
+          "pov": "Davos III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Neck",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "North",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Reed",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            20
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Quagg",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 23345
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Reed",
+      "raw_html_path": "sources/wiki/_raw/House_Reed.json",
+      "track_b_row": {
+        "page": "House Reed",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 13,
+          "source": "cite_ref",
+          "pov": "Reek I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Greywater Watch",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Howland Reed",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "North",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Lord of Greywater Watch",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Heir",
+            "target": "Meera",
+            "edge_type": "HEIR_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Heir",
+            "target": "Jojen Reed",
+            "edge_type": "HEIR_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Stark",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "AGOT"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Bolton",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "ADWD"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            13,
+            20
+          ],
+          "acok": [
+            21,
+            50,
+            69
+          ],
+          "agot": [
+            39,
+            55
+          ],
+          "asos": [
+            45,
+            51
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Reed",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 2,
+          "acok": 3,
+          "asos": 2,
+          "affc": 0,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 53119
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-eddard-10",
+          "line": 244,
+          "context": "### Houses\nHouse Stark, House Baratheon, House Lannister, House Targaryen, House Cassel, House Wull, House Glover, House Ryswell, House Dustin, House Reed, House Dayne, House Whent, House Hightower, H"
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 269,
+          "context": "### Houses\nHouse Stark, House Manderly, House Tully, House Bolton, House Umber, House Tallhart, House Glover, House Hornwood, House Karstark, House Lannister, House Arryn, House Frey, House Greyjoy, H"
+        }
+      ]
+    },
+    {
+      "page": "House Ryder",
+      "raw_html_path": "sources/wiki/_raw/House_Ryder.json",
+      "track_b_row": {
+        "page": "House Ryder",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Rills",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward",
+            "qualifier": "possibly extinct"
+          },
+          {
+            "field": "Region",
+            "target": "North",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Stark",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Ryder",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 23922
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Ryswell",
+      "raw_html_path": "sources/wiki/_raw/House_Ryswell.json",
+      "track_b_row": {
+        "page": "House Ryswell",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 15,
+          "source": "cite_ref",
+          "pov": "Tyrion IV"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Rodrik Ryswell",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "North",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Lord of the Rills",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Stark",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "AGOT"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Bolton",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "ADWD"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            15,
+            20,
+            32,
+            37,
+            41,
+            46
+          ],
+          "asos": [
+            49,
+            55,
+            56
+          ],
+          "agot": [
+            39
+          ],
+          "affc": [
+            17
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Ryswell",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 0,
+          "asos": 3,
+          "affc": 1,
+          "adwd": 6
+        },
+        "has_infobox": true,
+        "byte_size": 79283
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-eddard-10",
+          "line": 244,
+          "context": "### Houses\nHouse Stark, House Baratheon, House Lannister, House Targaryen, House Cassel, House Wull, House Glover, House Ryswell, House Dustin, House Reed, House Dayne, House Whent, House Hightower, H"
+        }
+      ]
+    },
+    {
+      "page": "House Slate",
+      "raw_html_path": "sources/wiki/_raw/House_Slate.json",
+      "track_b_row": {
+        "page": "House Slate",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 29,
+          "source": "cite_ref",
+          "pov": "Jon VI"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seats",
+            "target": "Blackpool",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Seats",
+            "target": "Wolf's Den",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse",
+            "qualifier": "formerly"
+          },
+          {
+            "field": "Head",
+            "target": "Slate",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "North",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Blackpool",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "King",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "formerly"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Stark",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "AGOT"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Bolton",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "ADWD"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            29,
+            32,
+            37,
+            46
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Slate",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 4
+        },
+        "has_infobox": true,
+        "byte_size": 33917
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Stane",
+      "raw_html_path": "sources/wiki/_raw/House_Stane.json",
+      "track_b_row": {
+        "page": "House Stane",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Driftwood Hall",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "North",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Stark",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "AGOT"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Bolton",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "ADWD"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Stane",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 27511
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Stout",
+      "raw_html_path": "sources/wiki/_raw/House_Stout.json",
+      "track_b_row": {
+        "page": "House Stout",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 32,
+          "source": "cite_ref",
+          "pov": "Melisandre"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Goldgrass",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Harwood Stout",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "North",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Goldgrass",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Dustin",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            32,
+            37,
+            41,
+            51
+          ],
+          "asos": [
+            48,
+            49,
+            64
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Stout",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 3,
+          "affc": 0,
+          "adwd": 4
+        },
+        "has_infobox": true,
+        "byte_size": 37922
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Tallhart",
+      "raw_html_path": "sources/wiki/_raw/House_Tallhart.json",
+      "track_b_row": {
+        "page": "House Tallhart",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 16,
+          "source": "cite_ref",
+          "pov": "Tyrion III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Torrhen's Square",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Eddara Tallhart",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "North",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Master of Torrhen's Square",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Heir",
+            "target": "Brandon Tallhart",
+            "edge_type": "HEIR_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Stark",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "AGOT"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Bolton",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "ADWD"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            20,
+            53,
+            55,
+            59
+          ],
+          "acok": [
+            16,
+            37,
+            39,
+            56,
+            64,
+            66
+          ],
+          "asos": [
+            19,
+            55,
+            76
+          ],
+          "adwd": [
+            20,
+            26,
+            32,
+            35,
+            46
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Tallhart",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 4,
+          "acok": 6,
+          "asos": 3,
+          "affc": 0,
+          "adwd": 5
+        },
+        "has_infobox": true,
+        "byte_size": 65086
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 269,
+          "context": "### Houses\nHouse Stark, House Manderly, House Tully, House Bolton, House Umber, House Tallhart, House Glover, House Hornwood, House Karstark, House Lannister, House Arryn, House Frey, House Greyjoy, H"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 267,
+          "context": "### Houses\nHouse Stark, House Baratheon, House Lannister, House Arryn, House Tyrell, House Targaryen, House Tallhart, House Glover, House Manderly, House Greyjoy, House Baelish"
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 282,
+          "context": "### Houses\nHouse Tully, House Stark, House Lannister, House Baratheon, House Greyjoy, House Blackwood, House Umber, House Karstark, House Mormont, House Glover, House Piper, House Vance, House Bracken"
+        },
+        {
+          "chapter": "agot-bran-06",
+          "line": 298,
+          "context": "### Houses\nHouse Stark, House Karstark, House Umber, House Bolton, House Glover, House Mormont, House Cerwyn, House Hornwood, House Tallhart, House Lannister, House Baratheon, House Targaryen, House T"
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 250,
+          "context": "### Houses\nHouse Stark, House Tully, House Frey, House Lannister, House Bolton, House Karstark, House Umber, House Glover, House Tallhart, House Manderly, House Arryn, House Baratheon, House Blackwood"
+        }
+      ]
+    },
+    {
+      "page": "House Thenn",
+      "raw_html_path": "sources/wiki/_raw/House_Thenn.json",
+      "track_b_row": {
+        "page": "House Thenn",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 44,
+          "source": "cite_ref",
+          "pov": "Daenerys VII"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Magnar",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Head",
+            "target": "Sigorn",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "North",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Magnar of Thenn",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Baratheon of Dragonstone",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Founder",
+            "target": "Sigorn",
+            "edge_type": "FOUNDED",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            44,
+            49
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Thenn",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 31778
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Tuttle (Telltale)",
+      "raw_html_path": "sources/wiki/_raw/House_Tuttle_(Telltale).json",
+      "track_b_row": {
+        "page": "House Tuttle (Telltale)",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Region",
+            "target": "North",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Forrester",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Tuttle (Telltale)",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 18719
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Umber",
+      "raw_html_path": "sources/wiki/_raw/House_Umber.json",
+      "track_b_row": {
+        "page": "House Umber",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 7,
+          "source": "cite_ref",
+          "pov": "The Merchant's Man"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Last Hearth",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Jon \"Greatjon\" Umber",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "north",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Lord of the Last Hearth",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Stark",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "AGOT"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Bolton",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "ADWD"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Baratheon of Dragonstone",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "ADWD"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            14,
+            20,
+            24,
+            26,
+            45,
+            49,
+            51,
+            55,
+            56
+          ],
+          "acok": [
+            16,
+            21,
+            39,
+            56,
+            66
+          ],
+          "adwd": [
+            7,
+            15,
+            17,
+            32,
+            41,
+            46,
+            62
+          ],
+          "agot": [
+            53,
+            55,
+            63,
+            69,
+            71
+          ],
+          "affc": [
+            17,
+            44
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Umber",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 5,
+          "acok": 5,
+          "asos": 9,
+          "affc": 2,
+          "adwd": 7
+        },
+        "has_infobox": true,
+        "byte_size": 110388
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 269,
+          "context": "### Houses\nHouse Stark, House Manderly, House Tully, House Bolton, House Umber, House Tallhart, House Glover, House Hornwood, House Karstark, House Lannister, House Arryn, House Frey, House Greyjoy, H"
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 282,
+          "context": "### Houses\nHouse Tully, House Stark, House Lannister, House Baratheon, House Greyjoy, House Blackwood, House Umber, House Karstark, House Mormont, House Glover, House Piper, House Vance, House Bracken"
+        },
+        {
+          "chapter": "agot-catelyn-10",
+          "line": 238,
+          "context": "### Houses\nHouse Stark, House Lannister, House Tully, House Frey, House Mormont, House Karstark, House Glover, House Umber, House Mallister, House Hornwood, House Manderly, House Flint, House Westerli"
+        },
+        {
+          "chapter": "agot-bran-06",
+          "line": 298,
+          "context": "### Houses\nHouse Stark, House Karstark, House Umber, House Bolton, House Glover, House Mormont, House Cerwyn, House Hornwood, House Tallhart, House Lannister, House Baratheon, House Targaryen, House T"
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 250,
+          "context": "### Houses\nHouse Stark, House Tully, House Frey, House Lannister, House Bolton, House Karstark, House Umber, House Glover, House Tallhart, House Manderly, House Arryn, House Baratheon, House Blackwood"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 255,
+          "context": "### Houses\nHouse Lannister, House Stark, House Tully, House Baratheon, House Tyrell, House Crakehall, House Swyft, House Clegane, House Marbrand, House Brax, House Lefford, House Piper, House Blackwoo"
+        }
+      ]
+    },
+    {
+      "page": "House Waterman",
+      "raw_html_path": "sources/wiki/_raw/House_Waterman.json",
+      "track_b_row": {
+        "page": "House Waterman",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "North",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Stark",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "AGOT"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Bolton",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "ADWD"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Waterman",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 23883
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Wells (north)",
+      "raw_html_path": "sources/wiki/_raw/House_Wells_(north).json",
+      "track_b_row": {
+        "page": "House Wells (north)",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 43,
+          "source": "cite_ref",
+          "pov": "Brienne VIII"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "North",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Stark",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "AGOT"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Bolton",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "ADWD"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            43
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Wells (north)",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 26893
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Whitehill",
+      "raw_html_path": "sources/wiki/_raw/House_Whitehill.json",
+      "track_b_row": {
+        "page": "House Whitehill",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "North",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Stark",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "AGOT"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Bolton",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "ADWD"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Whitehill",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 24107
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Whitehill (Telltale)",
+      "raw_html_path": "sources/wiki/_raw/House_Whitehill_(Telltale).json",
+      "track_b_row": {
+        "page": "House Whitehill (Telltale)",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Highpoint",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Either Ludd or Torrhen",
+            "edge_type": "RULES",
+            "direction": "forward",
+            "qualifier": "player-determined"
+          },
+          {
+            "field": "Region",
+            "target": "North",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Lord of Highpoint",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Heir",
+            "target": "Either Torrhen or Gryff",
+            "edge_type": "HEIR_TO",
+            "direction": "forward",
+            "qualifier": "player-determined"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Stark",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "AGOT"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Bolton",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "ADWD"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Whitehill (Telltale)",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 29191
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Woodfoot",
+      "raw_html_path": "sources/wiki/_raw/House_Woodfoot.json",
+      "track_b_row": {
+        "page": "House Woodfoot",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 56,
+          "source": "cite_ref",
+          "pov": "Jon VII"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Bear Island",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Extinct",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "North",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Stark",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            56
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Woodfoot",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 24337
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Woods",
+      "raw_html_path": "sources/wiki/_raw/House_Woods.json",
+      "track_b_row": {
+        "page": "House Woods",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 42,
+          "source": "cite_ref",
+          "pov": "The Turncloak"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "wolfswood",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "North",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Glover",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            42,
+            62
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Woods",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 26758
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Woolfield",
+      "raw_html_path": "sources/wiki/_raw/House_Woolfield.json",
+      "track_b_row": {
+        "page": "House Woolfield",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 19,
+          "source": "cite_ref",
+          "pov": "Tyrion V"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "North",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Stark",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "AGOT"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Bolton",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "ADWD"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            19
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Woolfield",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 29494
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Wull",
+      "raw_html_path": "sources/wiki/_raw/House_Wull.json",
+      "track_b_row": {
+        "page": "House Wull",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 17,
+          "source": "cite_ref",
+          "pov": "Daenerys III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Northern mountains",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Seat",
+            "target": "Bay of Ice",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Hugo Wull",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "North",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "The Wull",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord Wull",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Stark",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "AGOT"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Baratheon of Dragonstone",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "ADWD"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            24,
+            55
+          ],
+          "agot": [
+            39
+          ],
+          "acok": [
+            39
+          ],
+          "adwd": [
+            17,
+            42
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Wull",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 1,
+          "asos": 2,
+          "affc": 0,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 36496
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-eddard-10",
+          "line": 244,
+          "context": "### Houses\nHouse Stark, House Baratheon, House Lannister, House Targaryen, House Cassel, House Wull, House Glover, House Ryswell, House Dustin, House Reed, House Dayne, House Whent, House Hightower, H"
+        }
+      ]
+    }
+  ]
+}

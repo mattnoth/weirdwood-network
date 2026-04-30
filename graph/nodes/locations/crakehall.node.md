@@ -1,0 +1,33 @@
+---
+name: "Crakehall"
+type: place.location
+slug: crakehall
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Crakehall"
+bucket_id: locations-other-b-g
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Crakehall is a place.location from the AWOIAF wiki.
+
+## Edges
+
+- RULES: Roland Crakehall (track_b: Ruler)
+- WORSHIPS: Faith of the Seven (track_b: Religion)
+
+## Origins
+
+King [Aegon I Targaryen](wiki:Aegon_I_Targaryen) visited Crakehall on multiple occasions during his royal progresses.(wiki:Crakehall.cite_ref-Rfabthree_heads_had_the_dragon_-_governance_under_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+
+When the [Faith Militant uprising](wiki:Faith_Militant_uprising) began in [41 AC](wiki:41_AC), Prince [Aegon Targaryen](wiki:Aegon_Targaryen_(son_of_Aenys_I)) and his sister, Princess [Rhaena](wiki:Rhaena_Targaryen_(daughter_of_Aenys_I)), took shelter at Crakehall. Once [Aenys I Targaryen](wiki:Aenys_I_Targaryen) learned that his children were besieged by thousands of [Poor Fellows](wiki:Poor_Fellows), the king collapsed at [Dragonstone](wiki:Dragonstone) and died three days later. Aegon and Rhaena eventually departed for [Casterly Rock](wiki:Casterly_Rock) after most of the Poor Fellows left to join Ser [Horys Hill](wiki:Horys_Hill).(wiki:Crakehall.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)(wiki:Crakehall.cite_ref-Rtwoiafthe_targaryen_kings:_aenys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
+
+Rhaena visited Crakehall on her dragon, [Dreamfyre](wiki:Dreamfyre), during her search for the missing [Aerea Targaryen](wiki:Aerea_Targaryen).(wiki:Crakehall.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) King [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen) visited Crakehall with [Vermithor](wiki:Vermithor) in [55 AC](wiki:Years_after_Aegon's_Conquest)(wiki:Crakehall.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1) and [88 AC](wiki:Years_after_Aegon's_Conquest).(wiki:Crakehall.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne_-_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+
+Lord [Alyn Velaryon](wiki:Alyn_Velaryon) regrouped his fleet near Crakehall while sailing to confront Lord [Dalton Greyjoy](wiki:Dalton_Greyjoy) in [133 AC](wiki:133_AC).(wiki:Crakehall.cite_ref-Rfabunder_the_regents_-_the_voyage_of_alyn_oakenfist.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+
+Prince [Oberyn Martell](wiki:Oberyn_Martell) and his sister, Princess [Elia](wiki:Elia_Martell), visited Crakehall on their way to Casterly Rock, where their mother attempted to broker their marriages to the [Lannister](wiki:House_Lannister) twins, [Cersei](wiki:Cersei_Lannister) and [Jaime](wiki:Jaime_Lannister).(wiki:Crakehall.cite_ref-Rasos70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0) [Merrett Frey](wiki:Merrett_Frey) and Jaime were both squires at Crakehall.(wiki:Crakehall.cite_ref-Raffc30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)

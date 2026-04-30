@@ -1,0 +1,8 @@
+{
+  "bucket_id": "houses-riverlands-h",
+  "passed": true,
+  "checked_at": "2026-04-27T15:09:27Z",
+  "node_count_expected": 26,
+  "node_count_actual": 26,
+  "failures": []
+}

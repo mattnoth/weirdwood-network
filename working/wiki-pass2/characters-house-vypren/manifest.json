@@ -1,0 +1,47 @@
+{
+  "bucket_id": "characters-house-vypren",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "b65d0cc7eea58c72d8154ac5cc82ab639cd6b50842bbe9a34efe3c556968ea2c",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Damon Vypren",
+    "Elyana Vypren",
+    "Lucias Vypren",
+    "Vorian Vypren"
+  ],
+  "expected_nodes": [
+    "damon-vypren.node.md",
+    "elyana-vypren.node.md",
+    "lucias-vypren.node.md",
+    "vorian-vypren.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:56Z",
+    "tier_a": [],
+    "tier_b": [
+      "Damon Vypren",
+      "Elyana Vypren",
+      "Lucias Vypren",
+      "Vorian Vypren"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 4,
+      "tier_a": 0,
+      "tier_b": 4,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.025329+00:00",
+  "stage3_promoted_count": 4,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

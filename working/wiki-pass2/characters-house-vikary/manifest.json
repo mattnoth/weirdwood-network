@@ -1,0 +1,38 @@
+{
+  "bucket_id": "characters-house-vikary",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "3823a47958011c3f56895d46cf4f3eab50582f4e279dc740de5dd87230151285",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Lymond Vikary"
+  ],
+  "expected_nodes": [
+    "lymond-vikary.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:56Z",
+    "tier_a": [],
+    "tier_b": [
+      "Lymond Vikary"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 1,
+      "tier_a": 0,
+      "tier_b": 1,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.023806+00:00",
+  "stage3_promoted_count": 1,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

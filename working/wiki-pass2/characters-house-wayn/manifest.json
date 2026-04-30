@@ -1,0 +1,42 @@
+{
+  "bucket_id": "characters-house-wayn",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "893c53d0be2011913b28d8122bf54435b92d2e0277092df4aa3918ef9b7c3484",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Tristifer Wayn",
+    "Utherydes Wayn"
+  ],
+  "expected_nodes": [
+    "tristifer-wayn.node.md",
+    "utherydes-wayn.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:56Z",
+    "tier_a": [
+      "Utherydes Wayn"
+    ],
+    "tier_b": [
+      "Tristifer Wayn"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 2,
+      "tier_a": 1,
+      "tier_b": 1,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.027667+00:00",
+  "stage3_promoted_count": 2,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

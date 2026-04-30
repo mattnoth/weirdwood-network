@@ -1,0 +1,71 @@
+{
+  "bucket_id": "characters-house-wylde",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "baabdfe8417f7073b32810f4b2cfa1ba8fb2959b16550f8a9d9db64d41131618",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Casper Wylde",
+    "Coryanne Wylde",
+    "Criston Wylde",
+    "Gawen Wylde",
+    "Gladden Wylde",
+    "Jon Wylde",
+    "Morgan Wylde",
+    "Ormund Wylde",
+    "Rickard Wylde",
+    "Surly lad",
+    "Tyana Wylde",
+    "Willem Wylde"
+  ],
+  "expected_nodes": [
+    "casper-wylde.node.md",
+    "coryanne-wylde.node.md",
+    "criston-wylde.node.md",
+    "gawen-wylde.node.md",
+    "gladden-wylde.node.md",
+    "jon-wylde.node.md",
+    "morgan-wylde.node.md",
+    "ormund-wylde.node.md",
+    "rickard-wylde.node.md",
+    "surly-lad.node.md",
+    "tyana-wylde.node.md",
+    "willem-wylde.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:56Z",
+    "tier_a": [],
+    "tier_b": [
+      "Casper Wylde",
+      "Coryanne Wylde",
+      "Criston Wylde",
+      "Gawen Wylde",
+      "Gladden Wylde",
+      "Jon Wylde",
+      "Morgan Wylde",
+      "Ormund Wylde",
+      "Rickard Wylde",
+      "Surly lad",
+      "Tyana Wylde",
+      "Willem Wylde"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 12,
+      "tier_a": 0,
+      "tier_b": 12,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.044806+00:00",
+  "stage3_promoted_count": 12,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

@@ -1,0 +1,51 @@
+{
+  "bucket_id": "characters-house-cerwyn",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "bc0a3e784b76066ce247cee164f29b159406cecaf82857128e1232a7f70e64af",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Cley Cerwyn",
+    "Jonelle Cerwyn",
+    "Medger Cerwyn",
+    "Rhodry",
+    "Robard Cerwyn"
+  ],
+  "expected_nodes": [
+    "cley-cerwyn.node.md",
+    "jonelle-cerwyn.node.md",
+    "medger-cerwyn.node.md",
+    "rhodry.node.md",
+    "robard-cerwyn.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Cley Cerwyn",
+      "Jonelle Cerwyn"
+    ],
+    "tier_b": [
+      "Medger Cerwyn",
+      "Rhodry",
+      "Robard Cerwyn"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 5,
+      "tier_a": 2,
+      "tier_b": 3,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.707390+00:00",
+  "stage3_promoted_count": 5,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

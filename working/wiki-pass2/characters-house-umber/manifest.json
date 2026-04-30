@@ -1,0 +1,60 @@
+{
+  "bucket_id": "characters-house-umber",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "e4d03de3c47e4771699d12d2f6fd4d84bbae435160d5325e2ade085d6d239438",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Harmond Umber",
+    "Hoarfrost Umber",
+    "Hother Umber",
+    "Jon Umber",
+    "Jon Umber (husband of Serena)",
+    "Jon Umber (son of Jon)",
+    "Mors Umber",
+    "Osric Umber"
+  ],
+  "expected_nodes": [
+    "harmond-umber.node.md",
+    "hoarfrost-umber.node.md",
+    "hother-umber.node.md",
+    "jon-umber-husband-of-serena.node.md",
+    "jon-umber-son-of-jon.node.md",
+    "jon-umber.node.md",
+    "mors-umber.node.md",
+    "osric-umber.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:56Z",
+    "tier_a": [
+      "Hother Umber",
+      "Jon Umber",
+      "Jon Umber (son of Jon)",
+      "Mors Umber"
+    ],
+    "tier_b": [
+      "Harmond Umber",
+      "Hoarfrost Umber",
+      "Jon Umber (husband of Serena)",
+      "Osric Umber"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 8,
+      "tier_a": 4,
+      "tier_b": 4,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.012231+00:00",
+  "stage3_promoted_count": 8,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

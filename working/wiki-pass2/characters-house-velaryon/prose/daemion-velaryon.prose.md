@@ -1,0 +1,7 @@
+## Origins
+
+In [126 AC](wiki:Years_after_Aegon's_Conquest), after the death of his father at the hands of Prince [Daemon Targaryen](wiki:Daemon_Targaryen), Daeron sailed to [King's Landing](wiki:King's_Landing) with his mother, his brother [Daeron](wiki:Daeron_Velaryon), and his father's [five cousins](wiki:Silent_five) to seek justice from King [Viserys I Targaryen](wiki:Viserys_I_Targaryen) and put forward their claims on [Driftmark](wiki:Driftmark).(wiki:Daemion_Velaryon.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)(wiki:Daemion_Velaryon.cite_ref-Rtrp.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+
+In [132 AC](wiki:132_AC), following the death of [Corlys Velaryon](wiki:Corlys_Velaryon), Daemion and his brother Daeron contested the claim of [Alyn Velaryon](wiki:Alyn_Velaryon) as [Lord of the Tides](wiki:Lord_of_the_Tides) and put forth their own claims before the council of [regents](wiki:Regent) in [King's Landing](wiki:King's_Landing). When the [Hand of the King](wiki:Hand_of_the_King), Ser [Tyland Lannister](wiki:Tyland_Lannister), and the regents ruled against them, they chose to accept the decision and be reconciled with Lord Alyn, who rewarded them with lands on [Driftmark](wiki:Driftmark) on the condition that they contribute ships to his fleet.(wiki:Daemion_Velaryon.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+### Family

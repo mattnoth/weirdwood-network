@@ -1,0 +1,3 @@
+## Origins
+
+Jon became Lord of Maidenpool when his older brother was [killed in combat](wiki:Aegon's_first_test) against [Aegon I Targaryen](wiki:Aegon_I_Targaryen). Jon yielded Maidenpool to [House Targaryen](wiki:House_Targaryen) after the battle, becoming one of the first adversaries to join Aegon's cause. He commanded the Targaryen army during the [Field of Fire](wiki:Field_of_Fire), as Aegon took to the skies on [Balerion](wiki:Balerion).(wiki:Jon_Mooton.cite_ref-Rtwoiaf_the_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)(wiki:Jon_Mooton.cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

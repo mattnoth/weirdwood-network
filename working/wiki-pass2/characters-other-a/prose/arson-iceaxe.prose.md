@@ -1,0 +1,3 @@
+## Origins
+
+Arson tried to cross the [Wall](wiki:Wall) by digging through it's base. When he was midway under the ice, he was discovered by a patrol from the [Nightfort](wiki:Nightfort). Instead of trying to stop the wildling, they decided to wall him in alive. The legend says that by listening the ear against the [Wall](wiki:Wall), one can still hear the sound of Arson's axe digging away at the ice. Since this time, the [Night's Watch](wiki:Night's_Watch) sends infrequent patrols along the base of the Wall on its northern face to look for traces of excavation.(wiki:Arson_Iceaxe.cite_ref-Rasos26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

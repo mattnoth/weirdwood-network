@@ -1,0 +1,433 @@
+#!/usr/bin/env python3
+"""Fetch category metadata for all pages in the AWOIAF wiki category index.
+
+The original wiki crawl (wiki-scraper.py) discarded the parse.categories array,
+leaving categories: [] for all 17,657 pages in page-index.jsonl. This script
+performs a targeted re-fetch using action=query&prop=categories (up to 50 titles
+per batch) and writes the results to page-categories.jsonl.
+
+Uses api_get() from wiki-scraper.py for Cloudflare-aware Playwright plumbing.
+
+Output format (one JSON object per line):
+    {"page": "Eddard_Stark", "categories": ["House Stark members", ...], "fetched_at": "2026-04-26"}
+
+Usage:
+    python3 scripts/wiki-fetch-categories.py --smoke -v
+    python3 scripts/wiki-fetch-categories.py
+    python3 scripts/wiki-fetch-categories.py --limit 500 -v
+    python3 scripts/wiki-fetch-categories.py --input /path/to/page-index.jsonl
+    python3 scripts/wiki-fetch-categories.py --output /path/to/page-categories.jsonl
+"""
+
+import argparse
+import datetime
+import importlib.util
+import json
+import sys
+import time
+from pathlib import Path
+
+# ---------------------------------------------------------------------------
+# Project paths
+# ---------------------------------------------------------------------------
+SCRIPT_DIR = Path(__file__).resolve().parent
+PROJECT_ROOT = SCRIPT_DIR.parent
+DEFAULT_INPUT = PROJECT_ROOT / "working" / "wiki-parsed" / "page-index.jsonl"
+DEFAULT_OUTPUT = PROJECT_ROOT / "working" / "wiki-parsed" / "page-categories.jsonl"
+
+# ---------------------------------------------------------------------------
+# Import api_get and browser lifecycle from wiki-scraper.py
+# ---------------------------------------------------------------------------
+# We use importlib to load the sibling script as a module so we can reuse
+# the Cloudflare-aware Playwright infrastructure without duplicating it.
+_scraper_path = SCRIPT_DIR / "wiki-scraper.py"
+_spec = importlib.util.spec_from_file_location("wiki_scraper", _scraper_path)
+_scraper = importlib.util.module_from_spec(_spec)
+_spec.loader.exec_module(_scraper)
+
+api_get = _scraper.api_get
+_launch_browser = _scraper._launch_browser
+_close_browser = _scraper._close_browser
+_warmup_cloudflare = _scraper._warmup_cloudflare
+
+# ---------------------------------------------------------------------------
+# Constants
+# ---------------------------------------------------------------------------
+BATCH_SIZE = 50          # MediaWiki limit for non-bot prop=categories queries
+MIN_SLEEP_SEC = 0.25     # 4 req/sec max → 0.25s between batches (api_get throttles internally too)
+TRIPWIRE_SAMPLE = 100    # Number of pages to check before tripwire evaluation
+TRIPWIRE_THRESHOLD = 0.80  # Fail if fewer than 80% of sampled pages have categories
+TODAY = datetime.date.today().isoformat()
+
+
+# ---------------------------------------------------------------------------
+# Category fetch: single batch with continuation support
+# ---------------------------------------------------------------------------
+
+def fetch_categories_batch(titles, verbose=False):
+    """Fetch categories for up to 50 page titles using action=query&prop=categories.
+
+    Handles continuation (clcontinue) so all categories are retrieved even if a
+    page has more than the default limit. Returns a dict mapping pageid -> dict
+    with keys "title" and "categories" (list of strings, Category: prefix stripped).
+
+    If the API call fails entirely, returns an empty dict.
+    """
+    # Build title pipe string for the API call
+    titles_str = "|".join(titles)
+    params = {
+        "action": "query",
+        "prop": "categories",
+        "titles": titles_str,
+        "cllimit": "max",
+        "clshow": "!hidden",
+    }
+
+    # Accumulate results across continuation pages
+    # key: pageid (int), value: {"title": str, "categories": [str]}
+    page_data = {}
+
+    while True:
+        data = api_get(params, verbose=verbose)
+        if data is None:
+            print("  WARNING: api_get returned None for batch", file=sys.stderr)
+            break
+
+        if "error" in data:
+            err = data["error"]
+            print(
+                f"  WARNING: API error in batch: {err.get('info', err)}",
+                file=sys.stderr,
+            )
+            break
+
+        pages = data.get("query", {}).get("pages", {})
+        for pageid_str, page in pages.items():
+            pageid = int(pageid_str)
+            title = page.get("title", "")
+
+            if pageid not in page_data:
+                page_data[pageid] = {"title": title, "categories": []}
+
+            raw_cats = page.get("categories", [])
+            for cat in raw_cats:
+                cat_title = cat.get("title", "")
+                # Strip "Category:" prefix
+                if cat_title.startswith("Category:"):
+                    cat_title = cat_title[len("Category:"):]
+                if cat_title:
+                    page_data[pageid]["categories"].append(cat_title)
+
+        # Handle continuation
+        if "continue" in data and "clcontinue" in data["continue"]:
+            params["clcontinue"] = data["continue"]["clcontinue"]
+            if verbose:
+                print(f"    Continuing (clcontinue) for this batch...")
+        else:
+            break
+
+    return page_data
+
+
+# ---------------------------------------------------------------------------
+# Load already-fetched pages from the output file (for resume support)
+# ---------------------------------------------------------------------------
+
+def load_already_fetched(output_path):
+    """Return a set of page titles already present in the output file."""
+    fetched = set()
+    if not output_path.exists():
+        return fetched
+    with open(output_path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                obj = json.loads(line)
+                fetched.add(obj["page"])
+            except (json.JSONDecodeError, KeyError):
+                pass
+    return fetched
+
+
+# ---------------------------------------------------------------------------
+# Tripwire check
+# ---------------------------------------------------------------------------
+
+def check_tripwire(results_so_far, sample_size, verbose=False):
+    """Check that at least 80% of sampled pages have non-empty categories.
+
+    results_so_far: list of {"page": str, "categories": [...], "fetched_at": str}
+    sample_size: how many pages the tripwire was evaluated over
+
+    Returns True if tripwire passes, False if it fails (caller should exit).
+    """
+    non_empty = sum(1 for r in results_so_far if len(r["categories"]) > 0)
+    total = len(results_so_far)
+    pct = non_empty / total if total > 0 else 0.0
+
+    if pct < TRIPWIRE_THRESHOLD:
+        print(
+            f"\nTRIPWIRE FAIL: Only {non_empty}/{total} pages ({pct*100:.1f}%) have categories.\n"
+            f"Expected >=80%. Stopping to avoid writing 17k empty records.\n",
+            file=sys.stderr,
+        )
+        print("--- 5 sample pages with raw categories ---", file=sys.stderr)
+        for sample in results_so_far[:5]:
+            print(
+                f"  page={sample['page']!r}  categories={sample['categories']!r}",
+                file=sys.stderr,
+            )
+        return False
+    else:
+        print(
+            f"TRIPWIRE PASS: {non_empty}/{total} pages have categories "
+            f"({pct*100:.1f}% >= {TRIPWIRE_THRESHOLD*100:.0f}% threshold). Continuing."
+        )
+        return True
+
+
+# ---------------------------------------------------------------------------
+# Main processing loop
+# ---------------------------------------------------------------------------
+
+def run(input_path, output_path, limit=None, smoke=False, verbose=False):
+    """Main fetch loop.
+
+    Reads page titles from input_path, skips already-fetched pages in
+    output_path, fetches categories in batches of 50, and appends results
+    atomically per batch to output_path.
+    """
+    # Resolve smoke → limit
+    if smoke and limit is None:
+        limit = TRIPWIRE_SAMPLE
+
+    # Load all page titles from input
+    all_pages = []
+    with open(input_path, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                obj = json.loads(line)
+                all_pages.append(obj["page"])
+            except (json.JSONDecodeError, KeyError) as e:
+                print(f"  WARNING: Skipping malformed input line: {e}", file=sys.stderr)
+
+    print(f"Loaded {len(all_pages)} pages from {input_path}")
+
+    # Load resume set
+    already_fetched = load_already_fetched(output_path)
+    if already_fetched:
+        print(f"Resuming: {len(already_fetched)} pages already in output (will skip)")
+
+    # Filter to unfetched pages
+    pages_to_fetch = [p for p in all_pages if p not in already_fetched]
+
+    # Apply limit
+    if limit is not None:
+        pages_to_fetch = pages_to_fetch[:limit]
+        print(f"Limiting to {limit} pages (--limit/--smoke)")
+
+    print(f"Pages to fetch: {len(pages_to_fetch)}")
+
+    if not pages_to_fetch:
+        print("Nothing to do — all pages already fetched.")
+        return []
+
+    # Open output file in append mode
+    output_path.parent.mkdir(parents=True, exist_ok=True)
+    output_file = open(output_path, "a", encoding="utf-8")
+
+    all_results = []
+    tripwire_checked = False
+    total_batches = (len(pages_to_fetch) + BATCH_SIZE - 1) // BATCH_SIZE
+    batch_num = 0
+
+    try:
+        for batch_start in range(0, len(pages_to_fetch), BATCH_SIZE):
+            batch = pages_to_fetch[batch_start : batch_start + BATCH_SIZE]
+            batch_num += 1
+
+            if verbose:
+                print(
+                    f"\nBatch {batch_num}/{total_batches} "
+                    f"(pages {batch_start+1}–{batch_start+len(batch)} of {len(pages_to_fetch)})"
+                )
+
+            # Fetch from API
+            page_data = fetch_categories_batch(batch, verbose=verbose)
+
+            # Build result objects, preserving order of batch
+            # Map title → categories for lookup (pageid order may differ from batch order)
+            title_to_cats = {}
+            for pageid, info in page_data.items():
+                title_to_cats[info["title"]] = info["categories"]
+
+            batch_results = []
+            for page_title in batch:
+                cats = title_to_cats.get(page_title, [])
+                result = {
+                    "page": page_title,
+                    "categories": cats,
+                    "fetched_at": TODAY,
+                }
+                batch_results.append(result)
+
+            # Atomic append: write all batch results before moving on
+            for result in batch_results:
+                output_file.write(json.dumps(result, ensure_ascii=False) + "\n")
+            output_file.flush()
+
+            all_results.extend(batch_results)
+
+            # Tripwire: check after first TRIPWIRE_SAMPLE pages are processed
+            if not tripwire_checked and len(all_results) >= TRIPWIRE_SAMPLE:
+                tripwire_checked = True
+                sample = all_results[:TRIPWIRE_SAMPLE]
+                ok = check_tripwire(sample, TRIPWIRE_SAMPLE, verbose=verbose)
+                if not ok:
+                    output_file.close()
+                    sys.exit(2)
+
+            if verbose:
+                non_empty_batch = sum(1 for r in batch_results if r["categories"])
+                print(
+                    f"  Batch done: {len(batch_results)} pages, "
+                    f"{non_empty_batch} with categories"
+                )
+
+            # Throttle between batches (api_get has its own 1s throttle, but
+            # we add a small sleep to stay well under 4 req/sec on continuation
+            # calls too)
+            time.sleep(MIN_SLEEP_SEC)
+
+    finally:
+        output_file.close()
+
+    # If we processed fewer than TRIPWIRE_SAMPLE pages total without triggering
+    # the tripwire mid-run (e.g. limit < 100), check now against what we have.
+    if not tripwire_checked and all_results:
+        sample = all_results[:TRIPWIRE_SAMPLE]
+        ok = check_tripwire(sample, len(sample), verbose=verbose)
+        if not ok:
+            sys.exit(2)
+
+    return all_results
+
+
+# ---------------------------------------------------------------------------
+# Summary
+# ---------------------------------------------------------------------------
+
+def print_summary(results, output_path):
+    """Print a final summary of what was written."""
+    total = len(results)
+    with_cats = sum(1 for r in results if r["categories"])
+    empty = total - with_cats
+
+    # Count total lines in output file (includes previously-fetched pages)
+    total_lines = 0
+    byte_size = 0
+    if output_path.exists():
+        byte_size = output_path.stat().st_size
+        with open(output_path, "r", encoding="utf-8") as f:
+            for _ in f:
+                total_lines += 1
+
+    print(f"\n{'='*60}")
+    print(f"wiki-fetch-categories complete")
+    print(f"{'='*60}")
+    print(f"  Pages fetched this run:  {total}")
+    print(f"    With categories:       {with_cats} ({with_cats/total*100:.1f}%)" if total else "    With categories: n/a")
+    print(f"    Empty categories:      {empty}")
+    print(f"  Output file:             {output_path}")
+    print(f"    Total lines in file:   {total_lines}")
+    print(f"    File size:             {byte_size:,} bytes ({byte_size/1024/1024:.2f} MB)")
+    print(f"{'='*60}\n")
+
+
+# ---------------------------------------------------------------------------
+# CLI
+# ---------------------------------------------------------------------------
+
+def main():
+    parser = argparse.ArgumentParser(
+        description="Fetch category metadata for all AWOIAF wiki pages.",
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+        epilog=__doc__,
+    )
+    parser.add_argument(
+        "--input",
+        type=Path,
+        default=DEFAULT_INPUT,
+        metavar="PATH",
+        help=f"Input JSONL file (default: {DEFAULT_INPUT})",
+    )
+    parser.add_argument(
+        "--output",
+        type=Path,
+        default=DEFAULT_OUTPUT,
+        metavar="PATH",
+        help=f"Output JSONL file (default: {DEFAULT_OUTPUT})",
+    )
+    parser.add_argument(
+        "--limit",
+        type=int,
+        default=None,
+        metavar="N",
+        help="Process only first N unfetched pages (smoke test)",
+    )
+    parser.add_argument(
+        "--smoke",
+        action="store_true",
+        default=False,
+        help="Alias for --limit 100 plus tripwire check at page 100",
+    )
+    parser.add_argument(
+        "-v", "--verbose",
+        action="store_true",
+        default=False,
+        help="Print per-batch progress",
+    )
+    parser.add_argument(
+        "--headless",
+        action="store_true",
+        default=False,
+        help="Run browser in headless mode (default: headed, more reliable against Cloudflare)",
+    )
+
+    args = parser.parse_args()
+
+    print(f"wiki-fetch-categories.py")
+    print(f"  Input:  {args.input}")
+    print(f"  Output: {args.output}")
+    if args.smoke:
+        print(f"  Mode:   smoke test (first 100 pages + tripwire)")
+    elif args.limit:
+        print(f"  Mode:   limited to {args.limit} pages")
+    else:
+        print(f"  Mode:   full run (all pages)")
+
+    # Launch browser (Playwright / Cloudflare-aware)
+    _launch_browser(headless=args.headless)
+    _warmup_cloudflare(verbose=args.verbose)
+
+    try:
+        results = run(
+            input_path=args.input,
+            output_path=args.output,
+            limit=args.limit,
+            smoke=args.smoke,
+            verbose=args.verbose,
+        )
+        print_summary(results, args.output)
+
+    finally:
+        _close_browser()
+
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,72 @@
+{
+  "bucket_id": "characters-house-baratheon-of-kings-landing",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "b8fc35dfc9ffd38c7a000ed711cdc1d822a37341eb9683c9515cbafa83e029c1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Captain of the Prince Aemon",
+    "Captain of the River Arrow",
+    "Captain of the Wildwind",
+    "Eglantine",
+    "Master of the White Hart",
+    "Moon Boy",
+    "Mycah",
+    "Myrcella Baratheon",
+    "Orland of Oldtown",
+    "Pate (whipping boy)",
+    "Stableboy at King's Landing",
+    "Tallad"
+  ],
+  "expected_nodes": [
+    "captain-of-the-prince-aemon.node.md",
+    "captain-of-the-river-arrow.node.md",
+    "captain-of-the-wildwind.node.md",
+    "eglantine.node.md",
+    "master-of-the-white-hart.node.md",
+    "moon-boy.node.md",
+    "mycah.node.md",
+    "myrcella-baratheon.node.md",
+    "orland-of-oldtown.node.md",
+    "pate-whipping-boy.node.md",
+    "stableboy-at-kings-landing.node.md",
+    "tallad.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Moon Boy",
+      "Mycah",
+      "Myrcella Baratheon",
+      "Stableboy at King's Landing",
+      "Tallad"
+    ],
+    "tier_b": [
+      "Captain of the Prince Aemon",
+      "Captain of the River Arrow",
+      "Captain of the Wildwind",
+      "Eglantine",
+      "Master of the White Hart",
+      "Orland of Oldtown",
+      "Pate (whipping boy)"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 12,
+      "tier_a": 5,
+      "tier_b": 7,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.652410+00:00",
+  "stage3_promoted_count": 12,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

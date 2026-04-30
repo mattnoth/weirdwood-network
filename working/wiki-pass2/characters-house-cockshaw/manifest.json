@@ -1,0 +1,38 @@
+{
+  "bucket_id": "characters-house-cockshaw",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "dc35a9ca45abf9bb016544758f5ab9f55a7a6fabc0e583230dafc14a388e5b7a",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Alyn Cockshaw"
+  ],
+  "expected_nodes": [
+    "alyn-cockshaw.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Alyn Cockshaw"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 1,
+      "tier_a": 0,
+      "tier_b": 1,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.714108+00:00",
+  "stage3_promoted_count": 1,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

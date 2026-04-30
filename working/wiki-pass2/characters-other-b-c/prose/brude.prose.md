@@ -1,0 +1,3 @@
+## Origins
+
+Brude was born in the shadow city of [Sunspear](wiki:Sunspear). He famously observed that [Dorne](wiki:Dorne) has more in common with the [north](wiki:North) than the rest of the [Seven Kingdoms](wiki:Seven_Kingdoms) lying between them. Both regions are thinly peopled and cling stubbornly to their [laws](wiki:Laws_and_justice_of_the_Seven_Kingdoms) and [traditions](wiki:Customs), and neither was actually conquered by [House Targaryen](wiki:House_Targaryen). In addition, Brude observed that Dorne and the north are derided as 'savages' by the other five 'civilized' kingdoms.(wiki:Brude.cite_ref-Rtwoiafdorne.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

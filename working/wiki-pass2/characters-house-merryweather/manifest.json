@@ -1,0 +1,57 @@
+{
+  "bucket_id": "characters-house-merryweather",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "fa0b07456a0bcaa8a9ae838b1b45352a31d0b2324ac8c1587bf68e7ea7a69d2d",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Jeyne Merryweather",
+    "Lady Merryweather",
+    "Marq Merryweather",
+    "Orton Merryweather",
+    "Owen Merryweather",
+    "Russell Merryweather",
+    "Taena Merryweather"
+  ],
+  "expected_nodes": [
+    "jeyne-merryweather.node.md",
+    "lady-merryweather.node.md",
+    "marq-merryweather.node.md",
+    "orton-merryweather.node.md",
+    "owen-merryweather.node.md",
+    "russell-merryweather.node.md",
+    "taena-merryweather.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Orton Merryweather",
+      "Owen Merryweather",
+      "Russell Merryweather",
+      "Taena Merryweather"
+    ],
+    "tier_b": [
+      "Jeyne Merryweather",
+      "Lady Merryweather",
+      "Marq Merryweather"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 7,
+      "tier_a": 4,
+      "tier_b": 3,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.874389+00:00",
+  "stage3_promoted_count": 7,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

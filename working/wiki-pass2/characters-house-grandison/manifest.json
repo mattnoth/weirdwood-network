@@ -1,0 +1,50 @@
+{
+  "bucket_id": "characters-house-grandison",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "abdbdcf9bdf3ce77dca351df6c045561c6ccdb807339a688ac441054c2508c64",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Harlan Grandison",
+    "Hugh Grandison",
+    "Lord Grandison",
+    "Lorent Grandison",
+    "Narbert Grandison"
+  ],
+  "expected_nodes": [
+    "harlan-grandison.node.md",
+    "hugh-grandison.node.md",
+    "lord-grandison.node.md",
+    "lorent-grandison.node.md",
+    "narbert-grandison.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Harlan Grandison",
+      "Hugh Grandison",
+      "Lord Grandison",
+      "Lorent Grandison",
+      "Narbert Grandison"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 5,
+      "tier_a": 0,
+      "tier_b": 5,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.805541+00:00",
+  "stage3_promoted_count": 5,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

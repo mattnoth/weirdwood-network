@@ -1,0 +1,5 @@
+## Origins
+
+A [Lord Darry](wiki:Lord_Darry_(Dance)) and his heir were slain during the Dance when Prince [Aemond Targaryen](wiki:Aemond_Targaryen) burned [Darry](wiki:Darry) with the [dragonflame](wiki:Dragonflame) of [Vhagar](wiki:Vhagar), but Lady Darry and her younger children survived in the castle's vaults.(wiki:Derrick_Darry.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+
+Lord Derrick gathered men for Ser [Addam Velaryon](wiki:Addam_Velaryon)'s host before the [Second Battle of Tumbleton](wiki:Second_Battle_of_Tumbleton).(wiki:Derrick_Darry.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) Derrick may have died during the battle, as a Lord [Roland Darry](wiki:Roland_Darry) later participated in the [Battle of the Kingsroad](wiki:Battle_of_the_Kingsroad).(wiki:Derrick_Darry.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

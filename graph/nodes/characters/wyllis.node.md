@@ -1,0 +1,25 @@
+---
+name: "Wyllis"
+type: character.human
+slug: wyllis
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Wyllis"
+bucket_id: characters-other-w-y
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Wyllis is a character.human from the AWOIAF wiki.
+
+## Edges
+
+- HOLDS_TITLE: Maester (track_b: Title)
+- SWORN_TO: The Citadel (track_b: Allegiance)
+
+## Origins
+
+Wyllis journeyed to [Hardhome](wiki:Hardhome) on a [Pentoshi](wiki:Pentos) trader and established himself among the [Free Folk](wiki:Free_Folk), under the protection of the chieftain [Gorm the Wolf](wiki:Gorm), to write down their customs while practicing as a healer and counselor. When Gorm was murdered in a drunken brawl, Wyllis found himself in mortal danger and fled back to [Oldtown](wiki:Oldtown), where he wrote *[Hardhome: An Account of Three Years Spent Beyond-the-Wall among Savages, Raiders, and Woods-witches](wiki:Hardhome:_An_Account_of_Three_Years_Spent_Beyond-the-Wall_among_Savages,_Raiders,_and_Woods-witches)*. The year after the illuminations were done, Wyllis vanished. It was said in the [Citadel](wiki:Citadel) that he was last seen at the docks, looking for a ship that would take him to [Eastwatch-by-the-Sea](wiki:Eastwatch-by-the-Sea)(wiki:Wyllis.cite_ref-Rtwoiaf_the_wall_and_beyond:_the_wildlings.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

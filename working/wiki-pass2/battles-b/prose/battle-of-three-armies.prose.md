@@ -1,0 +1,3 @@
+## Origins
+
+In his last and greatest war, King [Garth VII Gardener](wiki:Garth_VII_Gardener) of the Reach faced an alliance between the [Storm King](wiki:Storm_King) and the [King of the Rock](wiki:King_of_the_Rock), who intended to divide the Reach between them. Garth defeated them both, and then with cunning words he sowed such discord between the two kings that they turned on each other with great slaughter. In the aftermath Garth married his daughters to their heirs and signed a pact with each, thereby fixing the borders between their three kingdoms.(wiki:Battle_of_Three_Armies.cite_ref-Rtwoiaf_the_gardener_kings.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

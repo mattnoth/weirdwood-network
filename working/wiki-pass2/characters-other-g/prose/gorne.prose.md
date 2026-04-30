@@ -1,0 +1,11 @@
+## Origins
+
+Maester [Herryk](wiki:Herryk)'s *[History of the Kings-Beyond-the-Wall](wiki:History_of_the_Kings-Beyond-the-Wall)* transcribes how Gendel and Gorne were asked to mediate a dispute between a clan of [children of the forest](wiki:Children_of_the_forest) and a family of [giants](wiki:Giant), who argued over the ownership of a cavern. Gorne and Gendel eventually used trickery to resolve the issue, after discovering the cavern was part of a chain of caverns that passed beneath the [Wall](wiki:Wall). According to Maester Herryk's history, Gorne and Gendel made both the giants and the children swear no longer to desire the cavern.(wiki:Gorne.cite_ref-Rtwoiafancient_history:_the_dawn_age.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+
+The passage underneath the Wall became known as [Gorne's Way](wiki:Gorne's_Way).(wiki:Gorne.cite_ref-Rasos26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) In search of conquest,(wiki:Gorne.cite_ref-Rasos73.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) Gorne and Gendel led the [free folk](wiki:Free_folk) south through Gorne's Way, allowing them to evade the [Night's Watch](wiki:Night's_Watch).(wiki:Gorne.cite_ref-Rasos26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1) Gorne and Gendel fought against the [King in the North](wiki:King_in_the_North), and Gorne killed the King in the North. However, the king's son took up his fallen father's crown and killed Gorne.(wiki:Gorne.cite_ref-Rasos26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)(wiki:Gorne.cite_ref-Rtwoiafthe_wall_and_beyond:_the_wildlings.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) According to northern stories, Gendel died as well, although both [maesters](wiki:Maester) and wildlings claim Gendel survived the battle and led the survivors back underneath the Wall to the [lands north of the Wall](wiki:Beyond_the_Wall). However, not knowing the caves as well as his brother had, Gendel became lost, and none of his people ever emerged.(wiki:Gorne.cite_ref-Rasos26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)(wiki:Gorne.cite_ref-Rtwoiafthe_wall_and_beyond:_the_wildlings.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+
+## Narrative Arc
+
+### A Storm of Swords
+
+[Ygritte](wiki:Ygritte) tells [Jon Snow](wiki:Jon_Snow) about Gorne while they are in a [cave near Greyguard](wiki:Cave_near_Greyguard).(wiki:Gorne.cite_ref-Rasos26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)

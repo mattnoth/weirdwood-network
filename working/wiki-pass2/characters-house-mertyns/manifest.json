@@ -1,0 +1,44 @@
+{
+  "bucket_id": "characters-house-mertyns",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "f7a7fc0c222217110521880fcca8b01d73d6b5b0b0f727db98479504c278829e",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Jon Mertyns",
+    "Mary Mertyns",
+    "Michael Mertyns"
+  ],
+  "expected_nodes": [
+    "jon-mertyns.node.md",
+    "mary-mertyns.node.md",
+    "michael-mertyns.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Jon Mertyns",
+      "Mary Mertyns",
+      "Michael Mertyns"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 3,
+      "tier_a": 0,
+      "tier_b": 3,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.874971+00:00",
+  "stage3_promoted_count": 3,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

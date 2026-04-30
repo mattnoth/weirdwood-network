@@ -1,0 +1,3 @@
+## Appearances & Description
+
+Gallard is the author of *[Children of Summer](wiki:Children_of_Summer)*, the chief source on the history of the [Summer Isles](wiki:Summer_Isles) in the [Seven Kingdoms](wiki:Seven_Kingdoms), which he wrote after translating the highly complicated, formal verses narrating Summer Islander history carved on the [Talking Trees](wiki:Talking_Trees) of [Tall Trees Town](wiki:Tall_Trees_Town). Archmaester [Mollos](wiki:Mollos) questions Gallard's chronology of the early princes of [Walano](wiki:Walano), however.(wiki:Gallard.cite_ref-Rtwoiafbeyond_the_free_cities:_the_summer_isles.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

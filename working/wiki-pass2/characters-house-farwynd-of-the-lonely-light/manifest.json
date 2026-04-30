@@ -1,0 +1,47 @@
+{
+  "bucket_id": "characters-house-farwynd-of-the-lonely-light",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "f65a76f368c33fa10c860918e92de111e968270f74d4931cbf136747816736ff",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Gylbert Farwynd",
+    "Gyles Farwynd",
+    "Ygon Farwynd",
+    "Yohn Farwynd"
+  ],
+  "expected_nodes": [
+    "gylbert-farwynd.node.md",
+    "gyles-farwynd.node.md",
+    "ygon-farwynd.node.md",
+    "yohn-farwynd.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Gylbert Farwynd",
+      "Gyles Farwynd",
+      "Ygon Farwynd",
+      "Yohn Farwynd"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 4,
+      "tier_a": 0,
+      "tier_b": 4,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.758057+00:00",
+  "stage3_promoted_count": 4,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

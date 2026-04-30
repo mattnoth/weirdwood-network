@@ -1,0 +1,59 @@
+{
+  "bucket_id": "characters-house-plumm",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "3865fd3ecafa10373fda828bc6883abb93be4d67956c2e60bd4c6a9f8bd3d84f",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Dennis Plumm",
+    "Harwyn Plumm",
+    "Maynard Plumm",
+    "Ossifer Plumm",
+    "Peter Plumm",
+    "Petyr Plumm",
+    "Philip Plumm",
+    "Viserys Plumm"
+  ],
+  "expected_nodes": [
+    "dennis-plumm.node.md",
+    "harwyn-plumm.node.md",
+    "maynard-plumm.node.md",
+    "ossifer-plumm.node.md",
+    "peter-plumm.node.md",
+    "petyr-plumm.node.md",
+    "philip-plumm.node.md",
+    "viserys-plumm.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Dennis Plumm",
+      "Harwyn Plumm",
+      "Maynard Plumm",
+      "Ossifer Plumm",
+      "Peter Plumm",
+      "Petyr Plumm",
+      "Philip Plumm",
+      "Viserys Plumm"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 8,
+      "tier_a": 0,
+      "tier_b": 8,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.924465+00:00",
+  "stage3_promoted_count": 8,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

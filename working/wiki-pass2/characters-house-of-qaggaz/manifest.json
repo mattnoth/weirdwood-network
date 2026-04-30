@@ -1,0 +1,53 @@
+{
+  "bucket_id": "characters-house-of-qaggaz",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "7dbccc5e51ccf291edce744bfbfdfa3580822244b43060fc77bd80b3db7414de",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Bearded woman",
+    "Goat boy",
+    "Nurse",
+    "Sweets",
+    "Two-headed girl",
+    "Yezzan zo Qaggaz"
+  ],
+  "expected_nodes": [
+    "bearded-woman.node.md",
+    "goat-boy.node.md",
+    "nurse.node.md",
+    "sweets.node.md",
+    "two-headed-girl.node.md",
+    "yezzan-zo-qaggaz.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Bearded woman",
+      "Goat boy",
+      "Nurse",
+      "Sweets",
+      "Two-headed girl",
+      "Yezzan zo Qaggaz"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 6,
+      "tier_a": 0,
+      "tier_b": 6,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.899241+00:00",
+  "stage3_promoted_count": 6,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

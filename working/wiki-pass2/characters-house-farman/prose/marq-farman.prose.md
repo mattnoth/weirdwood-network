@@ -1,0 +1,9 @@
+## Origins
+
+Marq was born a second son of the [Lord of Fair Isle](wiki:Lord_of_Fair_Isle). His father and elder brother perished during the [Battle Beneath the Gods Eye](wiki:Battle_Beneath_the_Gods_Eye) while fighting for Prince [Aegon the Uncrowned](wiki:Aegon_Targaryen_(son_of_Aenys_I)), which made Marq the new [lord](wiki:Lord). His eldest son and now his heir, Ser [Franklyn](wiki:Franklyn_Farman), returned the bodies of his kin to Fair Isle for burial.(wiki:Marq_Farman.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+
+In [47 AC](wiki:47_AC) Lord Marq hosted Princess [Rhaena Targaryen](wiki:Rhaena_Targaryen_(daughter_of_Aenys_I)).(wiki:Marq_Farman.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)(wiki:Marq_Farman.cite_ref-Rtwoiafthe_targaryen_kings:_maegor_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) During the princess's stay at [Faircastle](wiki:Faircastle), she befriended his daughter [Elissa](wiki:Elissa_Farman) and was courted by his second son [Androw](wiki:Androw_Farman). They [married](wiki:Wedding_of_Rhaena_Targaryen_and_Androw_Farman) in [49 AC](wiki:49_AC); however, there were tensions between them and Lord Marq's heir, Ser Franklyn.(wiki:Marq_Farman.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9) Marq died in [50 AC](wiki:50_AC), choking on a fish bone at his own table. He was forty-six years old at the time of his death.(wiki:Marq_Farman.cite_ref-Rfaba_surfeit_of_rulers.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+
+## Appearances & Description
+
+Marq was described as an amiable and good-natured man. He was a devoted father, who loved all his children.(wiki:Marq_Farman.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)

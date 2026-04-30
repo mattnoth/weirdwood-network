@@ -1,0 +1,3 @@
+## Origins
+
+In [239 AC](wiki:Years_after_Aegon's_Conquest), the High Septon along with the [Grand Maester](wiki:Grand_Maester) and the [small council](wiki:Small_council) insisted King Aegon force his son and heir, Prince [Duncan](wiki:Duncan_Targaryen), to choose between the [Iron Throne](wiki:Iron_Throne) and the woman he loved, [Jenny of Oldstones](wiki:Jenny_of_Oldstones). Duncan chose Jenny and abdicated as [Prince of Dragonstone](wiki:Prince_of_Dragonstone) in favor of his brother [Jaehaerys](wiki:Jaehaerys_II_Targaryen).(wiki:High_Septon_(Aegon_V).cite_ref-Rtwoiafthe_targaryen_kings:_aegon_v.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

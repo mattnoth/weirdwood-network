@@ -1,0 +1,42 @@
+{
+  "bucket_id": "characters-house-frey-of-riverrun",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "d086b72d40b2453b6e4dd63cdfcf6110e5cb6fb79d89bb1a6e125e9a3fb72e7d",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Lyonel Frey",
+    "Tom of Sevenstreams"
+  ],
+  "expected_nodes": [
+    "lyonel-frey.node.md",
+    "tom-of-sevenstreams.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Tom of Sevenstreams"
+    ],
+    "tier_b": [
+      "Lyonel Frey"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 2,
+      "tier_a": 1,
+      "tier_b": 1,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.788555+00:00",
+  "stage3_promoted_count": 2,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

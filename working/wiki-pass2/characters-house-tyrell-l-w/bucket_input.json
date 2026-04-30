@@ -1,0 +1,2284 @@
+{
+  "bucket_id": "characters-house-tyrell-l-w",
+  "tier": "core",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Luthor Tyrell (son of Moryn)",
+      "raw_html_path": "sources/wiki/_raw/Luthor_Tyrell_(son_of_Moryn).json",
+      "track_b_row": {
+        "page": "Luthor Tyrell (son of Moryn)",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Tyrell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "299\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Moryn Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Elyn Norridge",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Theodore Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Olene Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Medwick Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Luthor Tyrell (son of Moryn)",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 97363
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Luthor Tyrell (son of Theodore)",
+      "raw_html_path": "sources/wiki/_raw/Luthor_Tyrell_(son_of_Theodore).json",
+      "track_b_row": {
+        "page": "Luthor Tyrell (son of Theodore)",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 16,
+          "source": "cite_ref",
+          "pov": "Jon II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Tyrell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Theodore Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Lia Serry",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            16
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Luthor Tyrell (son of Theodore)",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 96923
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Lyonel Tyrell (son of Leo)",
+      "raw_html_path": "sources/wiki/_raw/Lyonel_Tyrell_(son_of_Leo).json",
+      "track_b_row": {
+        "page": "Lyonel Tyrell (son of Leo)",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Tyrell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Leo Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Alys Beesbury",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Lyonel Tyrell (son of Leo)",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 94359
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Mace Tyrell",
+      "raw_html_path": "sources/wiki/_raw/Mace_Tyrell.json",
+      "track_b_row": {
+        "page": "Mace Tyrell",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 3,
+          "source": "cite_ref",
+          "pov": "The Captain of Guards"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord of Highgarden",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord Paramount of the Mander",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Defender of the Marches",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "High Marshal of the Reach",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Warden of the South",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Master of ships",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "formerly"
+          },
+          {
+            "field": "Titles",
+            "target": "Hand of the King",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Tyrell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "256",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "263\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Highgarden",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Luthor Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Olenna Redwyne",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Alerie Hightower",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Willas Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Garlan Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Loras Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Margaery Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Lord Oaf",
+          "The Fat Flower",
+          "The Fat Flower of Highgarden",
+          "Lord Puff Fish",
+          "The rose lord"
+        ],
+        "cite_refs": {
+          "asos": [
+            6,
+            14,
+            16,
+            19,
+            24,
+            28,
+            32,
+            38,
+            59,
+            60,
+            62,
+            66,
+            68,
+            70,
+            78
+          ],
+          "acok": [
+            22,
+            33,
+            36,
+            41,
+            62,
+            65
+          ],
+          "affc": [
+            3,
+            7,
+            8,
+            12,
+            16,
+            17,
+            24,
+            28,
+            32,
+            43
+          ],
+          "agot": [
+            20,
+            27,
+            39,
+            57,
+            69
+          ],
+          "adwd": [
+            24,
+            54
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Mace Tyrell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 5,
+          "acok": 6,
+          "asos": 15,
+          "affc": 10,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 210640
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-eddard-07",
+          "line": 76,
+          "context": "| Ser Meryn Trant | His shield scarred from where Loras's lance struck it | Mentioned in passing |\n| Mace Tyrell | Father of Loras; Robert calls Loras \"Mace Tyrell's boy\" | Robert |\n| Rhaegar Targarye"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 304,
+          "context": "### Characters\nEddard Stark (Ned), Robert Baratheon, Ser Barristan Selmy, Sandor Clegane (the Hound), Jaime Lannister (the Kingslayer), Ser Gregor Clegane (the Mountain That Rides), Ser Loras Tyrell ("
+        },
+        {
+          "chapter": "agot-arya-03",
+          "line": 72,
+          "context": "| Loras Tyrell (Knight of Flowers) | Conspirator says he writes to Highgarden urging his father to send his sister to court | Stout man (torchbearer) |\n| Mace Tyrell | Referenced indirectly as Loras's"
+        },
+        {
+          "chapter": "agot-arya-03",
+          "line": 262,
+          "context": "### Characters\nArya Stark, Eddard Stark, Myrcella Baratheon, Tommen Baratheon, Godwyn (Lannister guard), Syrio Forel (referenced), Septa Mordane (referenced), Sansa Stark (referenced), Jon Snow (refer"
+        },
+        {
+          "chapter": "agot-sansa-02",
+          "line": 102,
+          "context": "| Lord Walder Frey | Father of the six Frey knights and grandfather; described as \"old Lord Walder Frey\" | Narrator |\n| Mace Tyrell | Father of Ser Loras; Lord of Highgarden and Warden of the South | "
+        },
+        {
+          "chapter": "agot-sansa-02",
+          "line": 263,
+          "context": "| Jaime | Defeated in joust | Barristan Selmy | Hard-fought match; Jaime wins |\n| Ser Loras Tyrell | Son of | Mace Tyrell | \"Youngest son of Mace Tyrell, the Lord of Highgarden\" |\n| Six Frey knights +"
+        },
+        {
+          "chapter": "agot-sansa-02",
+          "line": 284,
+          "context": "### Characters\nSansa Stark, Septa Mordane, Jeyne Poole, Jaime Lannister, Ser Gregor Clegane (the Mountain That Rides), Sandor Clegane (the Hound), Ser Loras Tyrell (the Knight of Flowers), Lord Yohn R"
+        },
+        {
+          "chapter": "agot-sansa-02",
+          "line": 314,
+          "context": "### Titles & Offices\nKing, Queen, Prince, Hand of the King (referenced via \"Hand's tourney\"), Lord, Ser, Septa, Warden of the South (Mace Tyrell), High Septon (referenced in Moon Boy's song), Kingslay"
+        },
+        {
+          "chapter": "agot-sansa-05",
+          "line": 73,
+          "context": "| Ser Loras Tyrell | Named in traitor decree | Pycelle (decree) |\n| Lord Mace Tyrell | Named in traitor decree, with brothers, uncles, sons | Pycelle (decree) |\n| Thoros of Myr | Named in traitor decr"
+        },
+        {
+          "chapter": "agot-sansa-05",
+          "line": 291,
+          "context": "### Characters\nSansa Stark, Joffrey Baratheon, Cersei Lannister, Grand Maester Pycelle, Lord Varys, Petyr Baelish (Littlefinger), Ser Barristan Selmy, Sandor Clegane (the Hound), Janos Slynt, Ser Mand"
+        },
+        {
+          "chapter": "agot-jon-04",
+          "line": 58,
+          "context": "| Dickon Tarly | Sam's younger brother; \"fierce, robust child\"; Randyll's preferred heir | Sam (telling his story) |\n| Mace Tyrell | Lord of Highgarden and Warden of the South; the Tarlys are his bann"
+        },
+        {
+          "chapter": "agot-jon-04",
+          "line": 250,
+          "context": "### Characters\nJon Snow, Samwell Tarly (Sam), Ghost, Ser Alliser Thorne, Pyp (Pypar), Grenn, Halder, Dareon, Rast, Albett (Pimple), Donal Noye, Toad, Jeren, Lord Randyll Tarly, Lady Tarly, Dickon Tarl"
+        },
+        {
+          "chapter": "agot-jon-04",
+          "line": 280,
+          "context": "### Titles & Offices\nMaster-at-arms (Ser Alliser Thorne), Lord Commander (the Old Bear), Warden of the South (Mace Tyrell), Kings of Winter (ancient Stark kings in Jon's dream)"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 141,
+          "context": "6. **Tywin dismisses the council** \u2014 Orders everyone out except Tyrion and Kevan; gives Tyrion his untouched wine.\n7. **Tywin reveals Renly's claim** \u2014 Renly Baratheon has married Margaery Tyrell and "
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 249,
+          "context": "### Characters\nTyrion Lannister, Tywin Lannister, Ser Kevan Lannister, Jaime Lannister, Crakehall messenger (unnamed), Ser Harys Swyft, Ser Gregor Clegane (the Mountain), Ser Addam Marbrand, Ser Fleme"
+        }
+      ]
+    },
+    {
+      "page": "Margaery Tyrell",
+      "raw_html_path": "sources/wiki/_raw/Margaery_Tyrell.json",
+      "track_b_row": {
+        "page": "Margaery Tyrell",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 3,
+          "source": "cite_ref",
+          "pov": "The Captain of Guards"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lady",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Queen Consort",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Tyrell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Baratheon of King's Landing",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Andal",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "283\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "age 16"
+          },
+          {
+            "field": "Born",
+            "target": "Highgarden",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Mace Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Alerie Hightower",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouses",
+            "target": "Renly Baratheon",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Spouses",
+            "target": "Joffrey Baratheon",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Spouses",
+            "target": "Tommen Baratheon",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Lovers",
+            "target": "Osney Kettleblack",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Lovers",
+            "target": "Tallad the Tall",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Lovers",
+            "target": "Lambert Turnberry",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Lovers",
+            "target": "Jalabhar Xho",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Lovers",
+            "target": "Hugh Clifton",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Lovers",
+            "target": "Mark Mullendore",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Lovers",
+            "target": "Bayard Norcross",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Lovers",
+            "target": "Hamish the Harper",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Lovers",
+            "target": "Horas Redwyne",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Lovers",
+            "target": "Hobber Redwyne",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [
+          "Little rose",
+          "Little queen",
+          "Maid Margaery"
+        ],
+        "cite_refs": {
+          "asos": [
+            6,
+            14,
+            16,
+            28,
+            38,
+            60,
+            62,
+            63,
+            66,
+            68,
+            72
+          ],
+          "affc": [
+            3,
+            7,
+            8,
+            12,
+            16,
+            17,
+            24,
+            28,
+            32,
+            36,
+            39,
+            43
+          ],
+          "acok": [
+            22,
+            31,
+            36,
+            65
+          ],
+          "agot": [
+            27,
+            30,
+            32,
+            69,
+            71
+          ],
+          "adwd": [
+            54,
+            65
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Margaery Tyrell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 5,
+          "acok": 4,
+          "asos": 11,
+          "affc": 12,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 207603
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-arya-03",
+          "line": 73,
+          "context": "| Mace Tyrell | Referenced indirectly as Loras's \"lord father\" at Highgarden | Stout man (torchbearer) |\n| Margaery Tyrell | Referenced as Loras's sister \u2014 \"a maid of fourteen, sweet and beautiful and"
+        },
+        {
+          "chapter": "agot-arya-03",
+          "line": 262,
+          "context": "### Characters\nArya Stark, Eddard Stark, Myrcella Baratheon, Tommen Baratheon, Godwyn (Lannister guard), Syrio Forel (referenced), Septa Mordane (referenced), Sansa Stark (referenced), Jon Snow (refer"
+        },
+        {
+          "chapter": "agot-eddard-06",
+          "line": 66,
+          "context": "| Bran the Builder | Compared to Lann the Clever as legendary figure | Narration |\n| Margaery Tyrell | Girl in the miniature painting Renly showed Ned; Loras Tyrell's sister | Renly (recalled), narrat"
+        },
+        {
+          "chapter": "agot-eddard-06",
+          "line": 117,
+          "context": "| Hand's badge of office | Clasps Ned's cloak at the throat | No | Ned |\n| Rose gold locket (miniature of Margaery Tyrell) | Renly showed it to Ned a few days past; painted in vivid Myrish style; depi"
+        },
+        {
+          "chapter": "agot-eddard-06",
+          "line": 185,
+          "context": "| Stannis left for Dragonstone when Robert rode north to Winterfell | Ned's reflection | Ned | No |\n| Renly showed Ned a locket with Margaery Tyrell's portrait, hoping she'd remind him of Lyanna | Ned"
+        },
+        {
+          "chapter": "agot-eddard-06",
+          "line": 230,
+          "context": "| Unknown lord | paid apprentice fee for | Gendry | Paid double in gold, plus payment for silence |\n| Renly | shows portrait of | Margaery Tyrell | Showed Ned a locket, anxious to know if she reminded"
+        },
+        {
+          "chapter": "agot-eddard-06",
+          "line": 255,
+          "context": "### Characters\nEddard Stark, Janos Slynt, Varys, Renly Baratheon, Petyr Baelish (Littlefinger), Grand Maester Pycelle, Jory Cassel, Harwin, Tobho Mott, Gendry, Varly, Jacks, Lord Beric Dondarrion, Rob"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 12,
+          "context": "- **approximate_timeline:** Shortly after the Battle of the Camps at Riverrun; Tywin's host has been marching south after the Battle of the Green Fork\n- **time_markers:** Night (Tyrion was woken from "
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 13,
+          "context": "- **time_markers:** Night (Tyrion was woken from sleep by his squire); \"this fortnight past\" (Renly wed Margaery Tyrell at Highgarden); \"on the morrow\" (plan to march for Harrenhal); \"every morning,\" "
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 62,
+          "context": "| A Tyroshi sellsword | Led freeriders for Prester; struck his banners and defected to the Starks | Messenger, Kevan |\n| Renly Baratheon | Wed Margaery Tyrell at Highgarden; claimed the crown | Tywin "
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 63,
+          "context": "| Renly Baratheon | Wed Margaery Tyrell at Highgarden; claimed the crown | Tywin |\n| Margaery Tyrell | Wed Renly Baratheon at Highgarden | Tywin |\n| Stannis Baratheon | On Dragonstone; building ships,"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 97,
+          "context": "| Dragonstone | Stannis's seat | No |\n| Highgarden | Where Renly wed Margaery Tyrell | No |\n| Storm's End | Calling banners (for Renly) | No |"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 141,
+          "context": "6. **Tywin dismisses the council** \u2014 Orders everyone out except Tyrion and Kevan; gives Tyrion his untouched wine.\n7. **Tywin reveals Renly's claim** \u2014 Renly Baratheon has married Margaery Tyrell and "
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 171,
+          "context": "| Ser Forley Prester retreated with ~4,000 men | Messenger's report | All present | No |\n| Renly Baratheon married Margaery Tyrell and claimed the crown | Tywin reveals (from Varys's intelligence) | T"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 249,
+          "context": "### Characters\nTyrion Lannister, Tywin Lannister, Ser Kevan Lannister, Jaime Lannister, Crakehall messenger (unnamed), Ser Harys Swyft, Ser Gregor Clegane (the Mountain), Ser Addam Marbrand, Ser Fleme"
+        }
+      ]
+    },
+    {
+      "page": "Martyn Tyrell",
+      "raw_html_path": "sources/wiki/_raw/Martyn_Tyrell.json",
+      "track_b_row": {
+        "page": "Martyn Tyrell",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Master of coin",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Tyrell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "43\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Bertrand Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Florence Fossoway",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Martyn Tyrell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 35057
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Matthos Tyrell",
+      "raw_html_path": "sources/wiki/_raw/Matthos_Tyrell.json",
+      "track_b_row": {
+        "page": "Matthos Tyrell",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord of Highgarden",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord Paramount of the Mander",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Defender of the Marches",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "High Marshal of the Reach",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Warden of the South",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Tyrell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "101",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "129\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Matthos Tyrell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 13720
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Medwick Tyrell",
+      "raw_html_path": "sources/wiki/_raw/Medwick_Tyrell.json",
+      "track_b_row": {
+        "page": "Medwick Tyrell",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Maester",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Tyrell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Citadel",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Luthor Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Elyn Norridge",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Medwick Tyrell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 94323
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Megga Tyrell",
+      "raw_html_path": "sources/wiki/_raw/Megga_Tyrell.json",
+      "track_b_row": {
+        "page": "Megga Tyrell",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 6,
+          "source": "cite_ref",
+          "pov": "Davos I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Tyrell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "286\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "roughly"
+          },
+          {
+            "field": "Father",
+            "target": "Olymer Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Lysa Meadows",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            6,
+            16,
+            28
+          ],
+          "affc": [
+            12,
+            17,
+            24,
+            28,
+            36,
+            43
+          ],
+          "adwd": [
+            54
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Megga Tyrell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 3,
+          "affc": 6,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 116319
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Mina Tyrell",
+      "raw_html_path": "sources/wiki/_raw/Mina_Tyrell.json",
+      "track_b_row": {
+        "page": "Mina Tyrell",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 19,
+          "source": "cite_ref",
+          "pov": "Samwell I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Arbor",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Tyrell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Redwyne",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "246",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "270\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Luthor Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Olenna Redwyne",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Paxter Redwyne",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Horas Redwyne",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Hobber Redwyne",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Desmera Redwyne",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            19
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Mina Tyrell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 100743
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Moryn Tyrell",
+      "raw_html_path": "sources/wiki/_raw/Moryn_Tyrell.json",
+      "track_b_row": {
+        "page": "Moryn Tyrell",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "City Watch of Oldtown",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Tyrell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "City Watch of Oldtown",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouse",
+            "target": "Unknown",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Luthor Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Leo Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            0
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Moryn Tyrell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 98972
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Normund Tyrell",
+      "raw_html_path": "sources/wiki/_raw/Normund_Tyrell.json",
+      "track_b_row": {
+        "page": "Normund Tyrell",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Maester",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Blackcrown",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Tyrell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Citadel",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Bulwer",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Normund Tyrell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 94021
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Nysterica",
+      "raw_html_path": "sources/wiki/_raw/Nysterica.json",
+      "track_b_row": {
+        "page": "Nysterica",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 6,
+          "source": "cite_ref",
+          "pov": "Davos I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Septa",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Faith of the Seven",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Tyrell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westerosi",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            6
+          ],
+          "affc": [
+            41,
+            43
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Nysterica",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 2,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 11837
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Olene Tyrell",
+      "raw_html_path": "sources/wiki/_raw/Olene_Tyrell.json",
+      "track_b_row": {
+        "page": "Olene Tyrell",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiances",
+            "target": "House Tyrell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Blackbar",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Luthor Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Elyn Norridge",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Leo Blackbar",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Olene Tyrell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 94368
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Olymer Tyrell",
+      "raw_html_path": "sources/wiki/_raw/Olymer_Tyrell.json",
+      "track_b_row": {
+        "page": "Olymer Tyrell",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Tyrell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Quentin Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Lysa Meadows",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Raymund Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Rickard Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Megga Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Olymer Tyrell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 95891
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Osmund Tyrell",
+      "raw_html_path": "sources/wiki/_raw/Osmund_Tyrell.json",
+      "track_b_row": {
+        "page": "Osmund Tyrell",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "High Steward",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Tyrell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Gardener",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Robert Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Osmund Tyrell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 55738
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Quentin Tyrell",
+      "raw_html_path": "sources/wiki/_raw/Quentin_Tyrell.json",
+      "track_b_row": {
+        "page": "Quentin Tyrell",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Tyrell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "282\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Ashford",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouse",
+            "target": "Unknown",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Olymer Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Quentin Tyrell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 97086
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Raymund Tyrell",
+      "raw_html_path": "sources/wiki/_raw/Raymund_Tyrell.json",
+      "track_b_row": {
+        "page": "Raymund Tyrell",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Tyrell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Olymer Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Lysa Meadows",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Raymund Tyrell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 93756
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Rickard Tyrell",
+      "raw_html_path": "sources/wiki/_raw/Rickard_Tyrell.json",
+      "track_b_row": {
+        "page": "Rickard Tyrell",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Tyrell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Olymer Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Lysa Meadows",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Rickard Tyrell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 93756
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Robert Tyrell",
+      "raw_html_path": "sources/wiki/_raw/Robert_Tyrell.json",
+      "track_b_row": {
+        "page": "Robert Tyrell",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "High Steward",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Tyrell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Gardener",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Osmund Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Issue",
+            "target": "Lorent Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Robert Tyrell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 55701
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Theo Tyrell",
+      "raw_html_path": "sources/wiki/_raw/Theo_Tyrell.json",
+      "track_b_row": {
+        "page": "Theo Tyrell",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord Paramount of the Mander",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of Highgarden",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Defender of the Marches",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "High Marshal of the Reach",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Warden of the South",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Tyrell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Harlan Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Theo Tyrell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 17353
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Theodore Tyrell",
+      "raw_html_path": "sources/wiki/_raw/Theodore_Tyrell.json",
+      "track_b_row": {
+        "page": "Theodore Tyrell",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Tyrell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Luthor Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Elyn Norridge",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Lia Serry",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Elinor Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Luthor Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Theodore Tyrell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 95852
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Victaria Tyrell",
+      "raw_html_path": "sources/wiki/_raw/Victaria_Tyrell.json",
+      "track_b_row": {
+        "page": "Victaria Tyrell",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 28,
+          "source": "cite_ref",
+          "pov": "Jaime III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Blackcrown",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Tyrell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Bulwer",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "279\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Victor Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Jon Bulwer",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Alysanne Bulwer",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Son",
+            "edge_type": "PARENT_OF",
+            "direction": "forward",
+            "qualifier": "possibly"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            28
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Victaria Tyrell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 97130
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Victor Tyrell",
+      "raw_html_path": "sources/wiki/_raw/Victor_Tyrell.json",
+      "track_b_row": {
+        "page": "Victor Tyrell",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Tyrell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "262\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "281\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouse",
+            "target": "Unknown",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Victaria Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Leo Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Victor Tyrell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 96795
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Willas Tyrell",
+      "raw_html_path": "sources/wiki/_raw/Willas_Tyrell.json",
+      "track_b_row": {
+        "page": "Willas Tyrell",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 6,
+          "source": "cite_ref",
+          "pov": "Davos I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Tyrell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "273",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "276\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Highgarden",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Mace Tyrell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Alerie Hightower",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            7,
+            32,
+            40
+          ],
+          "asos": [
+            6,
+            16,
+            19,
+            28,
+            32,
+            38,
+            68
+          ],
+          "agot": [
+            57
+          ],
+          "adwd": [
+            72
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Willas Tyrell",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 0,
+          "asos": 7,
+          "affc": 3,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 125687
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

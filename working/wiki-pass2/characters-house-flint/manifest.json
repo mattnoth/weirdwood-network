@@ -1,0 +1,44 @@
+{
+  "bucket_id": "characters-house-flint",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "28e280a0b2d5494914e90ac9b5449643e26e00f55ad4dc784dd66bf6cf60c803",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Byam Flint",
+    "Danny Flint",
+    "Rodrik Flint"
+  ],
+  "expected_nodes": [
+    "byam-flint.node.md",
+    "danny-flint.node.md",
+    "rodrik-flint.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Byam Flint",
+      "Danny Flint",
+      "Rodrik Flint"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 3,
+      "tier_a": 0,
+      "tier_b": 3,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.760433+00:00",
+  "stage3_promoted_count": 3,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

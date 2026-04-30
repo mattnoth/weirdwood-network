@@ -1,0 +1,23 @@
+## Appearances & Description
+
+Gylbert is tall and spare with a clean-shaven lantern jaw. To [Aeron Greyjoy](wiki:Aeron_Greyjoy), Gylbert's eyes appear to change from grey to blue like the sea.(wiki:Gylbert_Farwynd.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+## Narrative Arc
+
+### A Feast for Crows
+
+During the [kingsmoot on Old Wyk](wiki:Kingsmoot_on_Old_Wyk) to succeed [Balon Greyjoy](wiki:Balon_Greyjoy), [King of the Isles and the North](wiki:King_of_the_Isles_and_the_North), Lord Farwynd puts his name forth with his sons [Gyles](wiki:Gyles_Farwynd), [Ygon](wiki:Ygon_Farwynd), and [Yohn](wiki:Yohn_Farwynd) as his champions. Gylbert promises to lead the [ironborn](wiki:Ironborn) to a land without winter beyond the [Sunset Sea](wiki:Sunset_Sea) where death holds no sway and every man will be a king and his wife a queen. His gifts of [sealskins](wiki:Seal), walrus tusks, [whalebone](wiki:Whale) arm rings, and [bronze](wiki:Bronze)-banded warhorns are considered poor by the captains, however, and are left for lesser men. Gylbert's claim is dismissed quickly, with not even all of the [Farwynds](wiki:House_Farwynd) supporting him.(wiki:Gylbert_Farwynd.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+
+## Quotes
+
+### Quotes by Gylbert
+
+> We will build ten thousand ships as [Nymeria once did](wiki:Ten_thousand_ships) and take sail with all [our people](wiki:Ironborn) to the land beyond [the sunset](wiki:Sunset_Sea). There every man shall be a king and every wife a queen.(wiki:Gylbert_Farwynd.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+>
+> —Gylbert at the [kingsmoot on Old Wyk](wiki:Kingsmoot_on_Old_Wyk)
+
+### Quotes about Gylbert
+
+> His eyes, Aeron saw, were now grey, now blue, as changeable as the seas. Mad eyes, he thought, [fool](wiki:Fool)'s eyes. The vision he spoke of was doubtless a snare set by the [Storm God](wiki:Storm_God) to lure the [ironborn](wiki:Ironborn) to destruction.(wiki:Gylbert_Farwynd.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+>
+> —thoughts of [Aeron Greyjoy](wiki:Aeron_Greyjoy)

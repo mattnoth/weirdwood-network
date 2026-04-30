@@ -1,0 +1,3151 @@
+{
+  "bucket_id": "characters-house-baratheon",
+  "tier": "core",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Archon's daughter (Jaehaerys I)",
+      "raw_html_path": "sources/wiki/_raw/Archon's_daughter_(Jaehaerys_I).json",
+      "track_b_row": {
+        "page": "Archon's daughter (Jaehaerys I)",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiances",
+            "target": "Archon of Tyrosh",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Tyroshi",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "34\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouse",
+            "target": "Orryn Baratheon",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Daughter",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Archon's daughter (Jaehaerys I)",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 12075
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Borros Baratheon",
+      "raw_html_path": "sources/wiki/_raw/Borros_Baratheon.json",
+      "track_b_row": {
+        "page": "Borros Baratheon",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 8,
+          "source": "cite_ref",
+          "pov": "Jon II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord of Storm's End",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord Paramount of the Stormlands",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Greens",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Stormlander",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "64",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "104\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "131\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "kingsroad",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Boremund Baratheon",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Elenda Caron",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Cassandra Baratheon",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Maris Baratheon",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Ellyn Baratheon",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Floris Baratheon",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Royce Baratheon",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            8
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Borros Baratheon",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 100014
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Borys Baratheon",
+      "raw_html_path": "sources/wiki/_raw/Borys_Baratheon.json",
+      "track_b_row": {
+        "page": "Borys Baratheon",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Vulture King",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Stormlander",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "18",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "23\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "61\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Red Mountains",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Dorne",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Issue",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Borys Baratheon",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 80640
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Brella",
+      "raw_html_path": "sources/wiki/_raw/Brella.json",
+      "track_b_row": {
+        "page": "Brella",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 4,
+          "source": "cite_ref",
+          "pov": "Cersei I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiances",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward",
+            "qualifier": "formerly"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Lannister",
+            "edge_type": "SWORN_TO",
+            "direction": "forward",
+            "qualifier": "formerly"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            4,
+            9
+          ],
+          "asos": [
+            58,
+            59
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Brella",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 2,
+          "affc": 2,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 11914
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Colen of Greenpools",
+      "raw_html_path": "sources/wiki/_raw/Colen_of_Greenpools.json",
+      "track_b_row": {
+        "page": "Colen of Greenpools",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 22,
+          "source": "cite_ref",
+          "pov": "Bran III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            22
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Colen of Greenpools",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 8569
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Cressen",
+      "raw_html_path": "sources/wiki/_raw/Cressen.json",
+      "track_b_row": {
+        "page": "Cressen",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 10,
+          "source": "cite_ref",
+          "pov": "Arya III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Maester",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Dragonstone",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Citadel",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward",
+            "qualifier": "formerly"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Baratheon of Dragonstone",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westerosi",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "219\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "220\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Westeros",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "299\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "aged 79"
+          },
+          {
+            "field": "Died",
+            "target": "Dragonstone",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            10,
+            54
+          ],
+          "acok": [
+            10,
+            33
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Cressen",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 2,
+          "asos": 2,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 49437
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Davos Baratheon",
+      "raw_html_path": "sources/wiki/_raw/Davos_Baratheon.json",
+      "track_b_row": {
+        "page": "Davos Baratheon",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord of Storm's End",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "possibly"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord Paramount of the Stormlands",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "possibly"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Stormlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Orys Baratheon",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Argella Durrandon",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Davos Baratheon",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 66290
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Donal Noye",
+      "raw_html_path": "sources/wiki/_raw/Donal_Noye.json",
+      "track_b_row": {
+        "page": "Donal Noye",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 3,
+          "source": "cite_ref",
+          "pov": "Daenerys I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiances",
+            "target": "Night's Watch",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward",
+            "qualifier": "formerly"
+          },
+          {
+            "field": "Culture",
+            "target": "Stormlander",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "252\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Stormlands",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "300\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Castle Black",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            19,
+            26,
+            60
+          ],
+          "acok": [
+            6
+          ],
+          "asos": [
+            48,
+            55,
+            64,
+            73,
+            76,
+            78
+          ],
+          "adwd": [
+            3,
+            10,
+            28,
+            31,
+            58,
+            69
+          ],
+          "affc": [
+            5
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Donal Noye",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 3,
+          "acok": 1,
+          "asos": 6,
+          "affc": 1,
+          "adwd": 6
+        },
+        "has_infobox": true,
+        "byte_size": 48585
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-jon-03",
+          "line": 13,
+          "context": "- **time_markers:** \"dawn the next day\" (Jon watching Benjen leave \u2014 recalled); \"almost midday\" when Jon leaves the armory; \"this morning\" (the raven arrived from Winterfell); Jon's name day came and "
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 31,
+          "context": "| Todder (Toad) | Antagonist | No (uncertain \u2014 verify) | Short, ugly, unpleasant voice; pig eyes; taunts Jon about his mother; head bloodied by Jon |\n| Donal Noye | Mentor/armorer | Yes (uncertain \u2014 v"
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 46,
+          "context": "| Grenn | | | Thick of neck, red of face; sixteen and a head taller than Jon | | Thick woolen bandage on hand (end of chapter) | | | Sixteen |\n| Donal Noye | | | Chest like a keg of ale, gut to match "
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 56,
+          "context": "| Benjen Stark | Jon's uncle; First Ranger; departed on a ranging and is overdue; refused Jon's plea to join him | Jon (thoughts), Tyrion, Ser Alliser |\n| Eddard Stark (Lord Stark) | Jon's father; Jon"
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 64,
+          "context": "| Mance Rayder | Jon wants to fight Mance Rayder's wildlings | Jon (thoughts) |\n| Cotter Pyke | Baseborn son of a tavern wench, now commands Eastwatch-by-the-Sea | Donal Noye |\n| Stannis Baratheon | T"
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 66,
+          "context": "| Stannis Baratheon | The king's brother; Noye smithed for him before taking the black | Jon (thoughts) |\n| King Robert Baratheon | Donal Noye forged his warhammer; compared to the lean of Hardin's To"
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 102,
+          "context": "| Robb's letter | Sealed with white wax stamped with a direwolf; announces Bran has woken; written in Robb's hand | Yes | Jon receives it from Mormont |\n| Robert's warhammer | Forged by Donal Noye; cr"
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 104,
+          "context": "| Tyrion's walking stick | Gnarled black walking stick | Yes (uncertain \u2014 verify) | Tyrion Lannister |\n| Silver pin (longsword-shaped) | Fastens Donal Noye's empty left sleeve at the shoulder | Yes | "
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 128,
+          "context": "9. **Confrontation in the armory** \u2014 Grenn, Toad, and two rapers from the Fingers confront Jon. Toad insults Jon's mother. Jon attacks Toad, slams his head against the ground. The rapers pull Jon off;"
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 150,
+          "context": "| Confrontation | Jon, Grenn, Toad, two rapers | Inside the armory | Bench, packed earth floor | Grenn and three others corner Jon; fight breaks out |\n| Assembly | Donal Noye | Enters armory | | Break"
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 170,
+          "context": "| Jon's mother's identity is unknown even to Jon | Jon's internal thoughts; Eddard would not speak of her | Jon | Yes \u2014 Jon's private reflection |\n| Donal Noye forged Robert's warhammer and lost his a"
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 184,
+          "context": "| Benjen Stark | Jon | \"We put aside our old families when we swear our vows. Your father will always have a place in my heart, but these are my brothers now.\" | Explaining the Watch's separation from"
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 185,
+          "context": "| Donal Noye | Jon | \"They hate you because you act like you're better than they are. They look at you and see a castle-bred bastard who thinks he's a lordling.\" | Rebuking Jon for his behavior toward"
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 186,
+          "context": "| Donal Noye | Jon | \"You're no lordling. Remember that. You're a Snow, not a Stark. You're a bastard and a bully.\" | The culmination of Noye's rebuke |\n| Donal Noye | Jon | \"None of these others have"
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 187,
+          "context": "| Donal Noye | Jon | \"None of these others have ever had a master-at-arms until Ser Alliser. Their fathers were farmers and wagonmen and poachers, smiths and miners and oars on a trading galley.\" | Ex"
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 215,
+          "context": "| Jon Snow | attacks | Toad | Slams Toad down, chokes him, beats his head on the floor |\n| Donal Noye | mentors/rebukes | Jon Snow | Breaks up fight, forces Jon to see his privilege, calls him a bully"
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 231,
+          "context": "| Ser Alliser Thorne | declares enmity toward | Jon Snow | \"That was a grievous error, Lord Snow\" \u2014 spoken as an enemy |\n| Donal Noye | formerly served | Stannis Baratheon | Smithed for Stannis before"
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 232,
+          "context": "| Donal Noye | formerly served | Stannis Baratheon | Smithed for Stannis before losing his arm |\n| Donal Noye | forged weapon for | Robert Baratheon | Forged Robert's warhammer |\n| Jon Snow | wonders "
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 252,
+          "context": "### Characters\nJon Snow, Grenn (the Aurochs), Ser Alliser Thorne, Todder (Toad), Donal Noye, Tyrion Lannister, Jeor Mormont (the Old Bear), Ghost, Jeren, Pyp, Dareon, Halder, Benjen Stark, Eddard Star"
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 270,
+          "context": "### Artifacts & Objects\nRobb's letter (sealed with direwolf in white wax), Robert's warhammer (forged by Donal Noye), Tyrion's gnarled black walking stick, Donal Noye's silver longsword-shaped pin, Jo"
+        },
+        {
+          "chapter": "agot-jon-07",
+          "line": 40,
+          "context": "| Hake | Ranger; tries to load corpses onto horses | No | Also the cook (Hobb) or separate character \u2014 text distinguishes Hake (ranger) from Hobb (cook) |\n| Donal Noye | One-armed armorer; calls out t"
+        },
+        {
+          "chapter": "agot-jon-07",
+          "line": 57,
+          "context": "| Ser Alliser Thorne | | | | | | | \"Faint half smile on his lips\"; \"cold onyx eyes\" | |\n| Donal Noye | | | One-armed | | | | | |\n| Othor (wight) | | Eyes \"like blue stars burning\"; frost covering eyes"
+        },
+        {
+          "chapter": "agot-jon-07",
+          "line": 102,
+          "context": "| Maester Aemon's tower | Referenced \u2014 severed hand in vinegar jar there | No |\n| The armory | Donal Noye stands in its doorway | No |\n| Winterfell | Referenced \u2014 Jon's dream of the empty castle and c"
+        },
+        {
+          "chapter": "agot-jon-07",
+          "line": 153,
+          "context": "12. **Bowen Marsh delivers urgent news** \u2014 The Lord Steward meets them at the first gate, says a bird has arrived with an important letter.\n13. **Jon notices something wrong** \u2014 Ser Alliser Thorne sta"
+        },
+        {
+          "chapter": "agot-jon-07",
+          "line": 288,
+          "context": "### Characters\nJon Snow, Ghost (direwolf), Jeor Mormont (the Old Bear), Samwell Tarly, Ser Jaremy Rykker, Dywen, Chett, Ser Alliser Thorne, Pyp, Grenn, Toad (Todder), Bowen Marsh, Hake, Donal Noye, Ma"
+        },
+        {
+          "chapter": "agot-jon-04",
+          "line": 37,
+          "context": "| Albett (\"Pimple\") | Recruit | No | Fights alongside Halder and Rast against Jon; yields |\n| Donal Noye | Armorer at Castle Black | No | One-armed smith; refits armor for Sam |\n| Toad | Recruit | No "
+        },
+        {
+          "chapter": "agot-jon-04",
+          "line": 125,
+          "context": "3. **Ser Alliser mocks Sam** \u2014 Thorne calls Sam \"Ser Piggy\" and \"Lord of Ham,\" mocking his weight and fine clothing.\n4. **Sam is refitted with armor** \u2014 Donal Noye spends half the morning refitting ma"
+        },
+        {
+          "chapter": "agot-jon-04",
+          "line": 250,
+          "context": "### Characters\nJon Snow, Samwell Tarly (Sam), Ghost, Ser Alliser Thorne, Pyp (Pypar), Grenn, Halder, Dareon, Rast, Albett (Pimple), Donal Noye, Toad, Jeren, Lord Randyll Tarly, Lady Tarly, Dickon Tarl"
+        },
+        {
+          "chapter": "agot-jon-08",
+          "line": 70,
+          "context": "| Bran Stark | Jon references \"when Jon had been Bran's age\" | Jon (internal) |\n| Rudge | Helped Donal Noye in the forge; was there when Old Bear brought the burnt blade | Grenn |\n| Pate | Carved the "
+        },
+        {
+          "chapter": "agot-jon-08",
+          "line": 72,
+          "context": "| Pate | Carved the stone for the pommel | Halder |\n| Donal Noye | Armorer; reforged Longclaw | Grenn |\n| Ser Endrew Tarth | On his way from Shadow Tower to be new master-at-arms | Mormont |"
+        },
+        {
+          "chapter": "agot-jon-08",
+          "line": 232,
+          "context": "| Aemon | Grieved for | House Targaryen | Watched from the Wall as his family was destroyed; tears in his eyes |\n| Rudge | Assisted | Donal Noye | Helped in the forge when Mormont brought the burnt bl"
+        },
+        {
+          "chapter": "agot-jon-08",
+          "line": 249,
+          "context": "### Characters\nJon Snow, Jeor Mormont (the Old Bear), Mormont's raven, Ghost, Pyp, Grenn, Toad, Halder, Matt, Samwell Tarly, Maester Aemon (Aemon Targaryen), Clydas, Benjen Stark, Eddard Stark, Ser Ba"
+        }
+      ]
+    },
+    {
+      "page": "Edric Storm",
+      "raw_html_path": "sources/wiki/_raw/Edric_Storm.json",
+      "track_b_row": {
+        "page": "Edric Storm",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 10,
+          "source": "cite_ref",
+          "pov": "Arya III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Stormlander",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "287\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Robert I Baratheon",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Delena Florent",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            10,
+            36,
+            45,
+            51,
+            54,
+            60,
+            63,
+            73
+          ],
+          "acok": [
+            10,
+            44,
+            45,
+            58
+          ],
+          "agot": [
+            30,
+            35
+          ],
+          "adwd": [
+            15
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Edric Storm",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 2,
+          "acok": 4,
+          "asos": 8,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 134351
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-eddard-09",
+          "line": 70,
+          "context": "| Lady Selyse (Florent) | The mother of Robert's Storm's End bastard was her niece and bedmaid | Littlefinger |\n| Edric Storm (unnamed) | Robert's acknowledged bastard boy at Storm's End | Littlefinge"
+        },
+        {
+          "chapter": "agot-eddard-09",
+          "line": 255,
+          "context": "### Characters\nEddard Stark, Petyr Baelish (Littlefinger), Jory Cassel, Heward, Wyl, Jaime Lannister (the Kingslayer), Tregar, Barra, Barra's mother (unnamed), Chataya (tall black-skinned woman), Gran"
+        }
+      ]
+    },
+    {
+      "page": "Garon Baratheon",
+      "raw_html_path": "sources/wiki/_raw/Garon_Baratheon.json",
+      "track_b_row": {
+        "page": "Garon Baratheon",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Regent",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Stormlander",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "19",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "25\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "73\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouse",
+            "target": "Unknown",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Issue",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Garon Baratheon",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 78812
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Gowen Baratheon",
+      "raw_html_path": "sources/wiki/_raw/Gowen_Baratheon.json",
+      "track_b_row": {
+        "page": "Gowen Baratheon",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 45,
+          "source": "cite_ref",
+          "pov": "Sansa III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Stormlander",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Baratheon",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Tya Lannister",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Son",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            45
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Gowen Baratheon",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 26016
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-eddard-12",
+          "line": 12,
+          "context": "- **approximate_timeline:** Days after the street fight with Jaime Lannister; Robert is away hunting; shortly before Sansa and Arya are to sail on the Wind Witch\n- **time_markers:** \"an hour after the"
+        },
+        {
+          "chapter": "agot-eddard-12",
+          "line": 70,
+          "context": "| Balon Greyjoy | One of the enemies Robert pardoned | Ned (thought) |\n| Tya Lannister | Married Gowen Baratheon ninety years ago; recorded in Malleon's book | Ned (reading) |\n| Gowen Baratheon | Thir"
+        },
+        {
+          "chapter": "agot-eddard-12",
+          "line": 71,
+          "context": "| Tya Lannister | Married Gowen Baratheon ninety years ago; recorded in Malleon's book | Ned (reading) |\n| Gowen Baratheon | Third son of the reigning lord; married Tya Lannister | Ned (reading) |\n| T"
+        },
+        {
+          "chapter": "agot-eddard-12",
+          "line": 266,
+          "context": "### Characters\nEddard Stark, Cersei Lannister, Grand Maester Pycelle, Petyr Baelish (Littlefinger), Tomard (Fat Tom), Varly, Tywin Lannister, Jaime Lannister, Robert Baratheon, Joffrey Baratheon, Tomm"
+        }
+      ]
+    },
+    {
+      "page": "Harbert",
+      "raw_html_path": "sources/wiki/_raw/Harbert.json",
+      "track_b_row": {
+        "page": "Harbert",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 10,
+          "source": "cite_ref",
+          "pov": "Arya III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Castellan",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Storm's End",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Stormlander",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "278",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "299\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            10
+          ],
+          "agot": [
+            30
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Harbert",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 1,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 12084
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Jocelyn Baratheon",
+      "raw_html_path": "sources/wiki/_raw/Jocelyn_Baratheon.json",
+      "track_b_row": {
+        "page": "Jocelyn Baratheon",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lady",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Stormlander",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "54\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Storm's End",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "92",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "129\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Rogar Baratheon",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Alyssa Velaryon",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Aemon Targaryen",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Rhaenys Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Jocelyn Baratheon",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 82669
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Jommy",
+      "raw_html_path": "sources/wiki/_raw/Jommy.json",
+      "track_b_row": {
+        "page": "Jommy",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Stormlander",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "278",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "299\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Jommy",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 4644
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Jurne",
+      "raw_html_path": "sources/wiki/_raw/Jurne.json",
+      "track_b_row": {
+        "page": "Jurne",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Maester",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Storm's End",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "The Citadel",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Baratheon of Dragonstone",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Jurne",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 10049
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Kyrie",
+      "raw_html_path": "sources/wiki/_raw/Kyrie.json",
+      "track_b_row": {
+        "page": "Kyrie",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Maester",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Storm's End",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Citadel",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westeros",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Kyrie",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 8250
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Lyonel Baratheon",
+      "raw_html_path": "sources/wiki/_raw/Lyonel_Baratheon.json",
+      "track_b_row": {
+        "page": "Lyonel Baratheon",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 45,
+          "source": "cite_ref",
+          "pov": "Sansa III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of Storm's End",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord Paramount of the Stormlands",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Storm King",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "briefly"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Stormlander",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "174",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "194\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Storm's End",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "239",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "245\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouse",
+            "target": "Unknown",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Daughter",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "The Laughing Storm"
+        ],
+        "cite_refs": {
+          "agot": [
+            45
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Lyonel Baratheon",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 74477
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Ormund Baratheon",
+      "raw_html_path": "sources/wiki/_raw/Ormund_Baratheon.json",
+      "track_b_row": {
+        "page": "Ormund Baratheon",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 10,
+          "source": "cite_ref",
+          "pov": "Arya III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord Paramount of the Stormlands",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of Storm's End",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Hand of the King",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Stormlander",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "234\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "260\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Stepstones",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouse",
+            "target": "Rhaelle Targaryen",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Steffon Baratheon",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            10
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Ormund Baratheon",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 74229
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Orryn Baratheon",
+      "raw_html_path": "sources/wiki/_raw/Orryn_Baratheon.json",
+      "track_b_row": {
+        "page": "Orryn Baratheon",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Maiden's Men",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Stormlander",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "26\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "51\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Disputed Lands",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouse",
+            "target": "Daughter of the Archon of Tyrosh",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Daughter",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Orryn Baratheon",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 71285
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Orys Baratheon",
+      "raw_html_path": "sources/wiki/_raw/Orys_Baratheon.json",
+      "track_b_row": {
+        "page": "Orys Baratheon",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord of Storm's End",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord Paramount of the Stormlands",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Hand of the King",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Stormlander",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "20\u00a0BC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "37\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Stonehelm",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Storm's End",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Aerion Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse",
+            "qualifier": "rumored"
+          },
+          {
+            "field": "Spouse",
+            "target": "Argella Durrandon",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Davos Baratheon",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Raymont Baratheon",
+            "edge_type": "PARENT_OF",
+            "direction": "forward",
+            "qualifier": "dubious canonicity"
+          }
+        ],
+        "aliases": [
+          "Orys One-Hand",
+          "The King's Stump"
+        ],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Orys Baratheon",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 130794
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Patchface",
+      "raw_html_path": "sources/wiki/_raw/Patchface.json",
+      "track_b_row": {
+        "page": "Patchface",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 10,
+          "source": "cite_ref",
+          "pov": "Arya III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiances",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Baratheon of Dragonstone",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "262",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "275\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Essos",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Patches"
+        ],
+        "cite_refs": {
+          "asos": [
+            10,
+            54
+          ],
+          "adwd": [
+            44,
+            49,
+            53,
+            69
+          ],
+          "acok": [
+            10,
+            15,
+            31,
+            42
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Patchface",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 4,
+          "asos": 2,
+          "affc": 0,
+          "adwd": 4
+        },
+        "has_infobox": true,
+        "byte_size": 52269
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Raymont Baratheon",
+      "raw_html_path": "sources/wiki/_raw/Raymont_Baratheon.json",
+      "track_b_row": {
+        "page": "Raymont Baratheon",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Kingsguard",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Stormlander",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "1 BC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "25\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "41",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "48\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Orys Baratheon",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Argella Durrandon",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Raymont Baratheon",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 75562
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Renly Baratheon",
+      "raw_html_path": "sources/wiki/_raw/Renly_Baratheon.json",
+      "track_b_row": {
+        "page": "Renly Baratheon",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 3,
+          "source": "cite_ref",
+          "pov": "Sansa I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord of Storm's End",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord Paramount of the Stormlands",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Master of laws",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "formerly"
+          },
+          {
+            "field": "Titles",
+            "target": "King",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "claimant"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Stormlander",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "277\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Storm's End",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "stormlands",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "299\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "aged 21"
+          },
+          {
+            "field": "Died",
+            "target": "Storm's End",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Steffon Baratheon",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Cassana Estermont",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Margaery Tyrell",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Lover",
+            "target": "Loras Tyrell",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [
+          "The King in Highgarden",
+          "The King in the South"
+        ],
+        "cite_refs": {
+          "agot": [
+            15,
+            16,
+            20,
+            27,
+            29,
+            30,
+            32,
+            33,
+            43,
+            47,
+            49,
+            57,
+            58,
+            65,
+            69,
+            71
+          ],
+          "affc": [
+            3,
+            4,
+            9,
+            14,
+            16,
+            24,
+            28,
+            37,
+            40,
+            41,
+            42
+          ],
+          "acok": [
+            0,
+            3,
+            6,
+            7,
+            22,
+            31,
+            33,
+            36,
+            42,
+            62,
+            67
+          ],
+          "asos": [
+            4,
+            6,
+            8,
+            10,
+            12,
+            38,
+            54,
+            58,
+            60,
+            62,
+            67
+          ],
+          "adwd": [
+            42
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Renly Baratheon",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 16,
+          "acok": 11,
+          "asos": 11,
+          "affc": 11,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 198889
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-eddard-03",
+          "line": 33,
+          "context": "| Joffrey Baratheon | Accuser, gives his version of events | No | Pale when testifying; arm still bandaged; smiling when Lady's death is ordered |\n| Renly Baratheon | Observer, mocking | No | Laughs a"
+        },
+        {
+          "chapter": "agot-eddard-03",
+          "line": 181,
+          "context": "| Joffrey Baratheon | Lies/accuses | Arya Stark | Gives a contradictory version; does not look at Arya when speaking |\n| Renly Baratheon | Mocks | Joffrey Baratheon | Laughs at Joffrey's humiliation; "
+        },
+        {
+          "chapter": "agot-eddard-03",
+          "line": 182,
+          "context": "| Renly Baratheon | Mocks | Joffrey Baratheon | Laughs at Joffrey's humiliation; openly mocks him on the way out |\n| Robert Baratheon | Irritation with brother | Renly Baratheon | Orders Barristan to "
+        },
+        {
+          "chapter": "agot-eddard-03",
+          "line": 200,
+          "context": "### Characters\nEddard Stark, Arya Stark, Sansa Stark, Robert Baratheon, Cersei Lannister, Joffrey Baratheon, Renly Baratheon, Barristan Selmy, Jory Cassel, Vayon Poole, Sandor Clegane (the Hound), Ser"
+        },
+        {
+          "chapter": "agot-eddard-14",
+          "line": 64,
+          "context": "| Robert Baratheon | Just died; his final letter names Ned Protector of the Realm | Pycelle, Ned, Barristan, Cersei |\n| Renly Baratheon | Fled the city an hour before dawn with Loras Tyrell and fifty "
+        },
+        {
+          "chapter": "agot-eddard-14",
+          "line": 217,
+          "context": "| Eddard Stark | Reliance on (misplaced) | Petyr Baelish | Counted on Littlefinger's promise re: gold cloaks; let Littlefinger support him physically |\n| Eddard Stark | Counted on support of | Renly B"
+        },
+        {
+          "chapter": "agot-eddard-14",
+          "line": 218,
+          "context": "| Eddard Stark | Counted on support of | Renly Baratheon | \"Ned had counted on Renly's support\" \u2014 disappointed by his flight |\n| Renly Baratheon | Allied with / fled with | Loras Tyrell | Departed tog"
+        },
+        {
+          "chapter": "agot-eddard-14",
+          "line": 247,
+          "context": "### Characters\nEddard Stark, Sansa Stark, Arya Stark, Septa Mordane, Sandor Clegane (the Hound), Grand Maester Pycelle, Ser Barristan Selmy, Petyr Baelish (Littlefinger), Varys, Tomard (Fat Tom), Jano"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 35,
+          "context": "| Petyr Baelish (Littlefinger) | Supporting | No | Wagers on jousts; suggests Loras planned the mare trick |\n| Lord Renly Baratheon | Supporting | No | Wagers against Littlefinger; walks with Ned afte"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 304,
+          "context": "### Characters\nEddard Stark (Ned), Robert Baratheon, Ser Barristan Selmy, Sandor Clegane (the Hound), Jaime Lannister (the Kingslayer), Ser Gregor Clegane (the Mountain That Rides), Ser Loras Tyrell ("
+        },
+        {
+          "chapter": "agot-arya-03",
+          "line": 74,
+          "context": "| Margaery Tyrell | Referenced as Loras's sister \u2014 \"a maid of fourteen, sweet and beautiful and tractable\" | Stout man (torchbearer) |\n| Renly Baratheon | Conspirator says Renly and Loras intend Rober"
+        },
+        {
+          "chapter": "agot-arya-03",
+          "line": 262,
+          "context": "### Characters\nArya Stark, Eddard Stark, Myrcella Baratheon, Tommen Baratheon, Godwyn (Lannister guard), Syrio Forel (referenced), Septa Mordane (referenced), Sansa Stark (referenced), Jon Snow (refer"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 29,
+          "context": "| Varys | Small council member (Master of Whisperers) | Yes (uncertain \u2014 verify) | First to accost Ned; described as \"the eunuch\"; leaves powder stains, smells of flowers |\n| Renly Baratheon | Small c"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 40,
+          "context": "|-----------|------|------|-------------|-------------|----------------|-------------|------------------------|-----------------|\n| Renly Baratheon | \u2014 | \u2014 | \u2014 | \u2014 | Dark green velvet doublet with a d"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 261,
+          "context": "### Characters\nEddard Stark, Varys, Renly Baratheon, Petyr Baelish (Littlefinger), Grand Maester Pycelle, Catelyn Stark, Ser Rodrik Cassel, Vayon Poole, Robert Baratheon, Stannis Baratheon, Ser Barris"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 30,
+          "context": "| Cersei Lannister | Present at Robert's bedside, dismissed by Robert | No | Hair tousled as if from sleep, eyes sharp and watchful |\n| Lord Renly Baratheon | Present at Robert's bedside, proposes sei"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 47,
+          "context": "| Robert Baratheon | Matted black hair, a lock falling across his eyes | | | Massive wound from groin to nipple, wine-soaked bandages black with blood | Still wearing boots with dried mud and grass; g"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 260,
+          "context": "| Cersei Lannister | Watchful presence at deathbed | Robert Baratheon | Nothing sleepy in her eyes; follows Ned's movements |\n| Renly Baratheon | Brotherly admiration mixed with pragmatism | Robert Ba"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 263,
+          "context": "| Eddard Stark | Refuses alliance on moral grounds | Lord Renly | Won't dishonor Robert's last hours |\n| Renly Baratheon | Opposition | House Lannister | \"There is small love lost between Lord Renly a"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 297,
+          "context": "### Characters\nEddard Stark, Robert Baratheon, Cersei Lannister, Lord Renly Baratheon, Grand Maester Pycelle, Varys, Petyr Baelish (Littlefinger), Ser Barristan Selmy, Ser Boros Blount, Ser Preston Gr"
+        },
+        {
+          "chapter": "agot-sansa-06",
+          "line": 56,
+          "context": "| Stannis Baratheon | Joffrey says he is saving an empty spike for Stannis's head | Joffrey |\n| Renly Baratheon | Joffrey says he is saving an empty spike for Renly's head | Joffrey |\n| Robb Stark | J"
+        },
+        {
+          "chapter": "agot-sansa-06",
+          "line": 215,
+          "context": "| Joffrey | Hostility toward | Stannis Baratheon | Saving a spike for his head |\n| Joffrey | Hostility toward | Renly Baratheon | Saving a spike for his head |\n| Cersei | Mourns/concerned for | Jaime "
+        },
+        {
+          "chapter": "agot-sansa-06",
+          "line": 246,
+          "context": "- Stannis Baratheon\n- Renly Baratheon\n- Unnamed tavern singer"
+        },
+        {
+          "chapter": "agot-sansa-02",
+          "line": 60,
+          "context": "| Ser Aron Santagar | Tourney competitor | Yes (uncertain \u2014 verify) | Tilts with Brune; falls to Lord Jason Mallister |\n| Lord Renly Baratheon | Tourney competitor / feast attendee | No | Unhorsed by "
+        },
+        {
+          "chapter": "agot-sansa-02",
+          "line": 89,
+          "context": "| King Robert | \u2014 | \u2014 | \u2014 | \u2014 | Satin tunic (wine-splashed); jeweled goblet | \u2014 | Red of face; reeling drunk | \u2014 |\n| Lord Renly Baratheon | \u2014 | \u2014 | \u2014 | \u2014 | Golden antler on helm (one tine snapped off)"
+        },
+        {
+          "chapter": "agot-sansa-02",
+          "line": 284,
+          "context": "### Characters\nSansa Stark, Septa Mordane, Jeyne Poole, Jaime Lannister, Ser Gregor Clegane (the Mountain That Rides), Sandor Clegane (the Hound), Ser Loras Tyrell (the Knight of Flowers), Lord Yohn R"
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 70,
+          "context": "| Joffrey Baratheon | Debated as lawful king vs. illegitimate; put Ned to death | Robb, multiple lords |\n| Renly Baratheon | Has claimed the crown; debated as potential king to support | Robb, multipl"
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 163,
+          "context": "12. **Catelyn's godswood memories** \u2014 She remembers her father teaching her to ride, Edmure's broken arm, and she and Lysa playing at kissing with Petyr Baelish. Petyr chewed mint and tried to put his"
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 194,
+          "context": "| Lord Tytos Blackwood led the sortie that rescued Edmure from the Lannister camp | Narration | Catelyn, presumably the assembled lords | No |\n| Renly Baratheon has claimed Robert's crown | Robb tells"
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 276,
+          "context": "### Characters\nCatelyn Stark, Robb Stark, Grey Wind, Theon Greyjoy, Brynden Tully (the Blackfish), Edmure Tully, Hoster Tully, Tytos Blackwood, Jon Umber (the Greatjon), Rickard Karstark, Maege Mormon"
+        },
+        {
+          "chapter": "agot-sansa-05",
+          "line": 70,
+          "context": "| Shireen Baratheon (daughter) | Named in traitor decree (as Stannis's daughter) | Pycelle (decree) |\n| Renly Baratheon | Named traitor; summoned to swear fealty | Pycelle (decree), Sansa |\n| Both Lor"
+        },
+        {
+          "chapter": "agot-sansa-05",
+          "line": 291,
+          "context": "### Characters\nSansa Stark, Joffrey Baratheon, Cersei Lannister, Grand Maester Pycelle, Lord Varys, Petyr Baelish (Littlefinger), Ser Barristan Selmy, Sandor Clegane (the Hound), Janos Slynt, Ser Mand"
+        },
+        {
+          "chapter": "agot-eddard-09",
+          "line": 66,
+          "context": "| Stannis Baratheon | Robert fathered a bastard the night Stannis wed; Stannis shipped the boy to Renly | Littlefinger |\n| Renly Baratheon | Says Robert carried the girl upstairs; received the bastard"
+        },
+        {
+          "chapter": "agot-eddard-09",
+          "line": 255,
+          "context": "### Characters\nEddard Stark, Petyr Baelish (Littlefinger), Jory Cassel, Heward, Wyl, Jaime Lannister (the Kingslayer), Tregar, Barra, Barra's mother (unnamed), Chataya (tall black-skinned woman), Gran"
+        },
+        {
+          "chapter": "agot-sansa-01",
+          "line": 13,
+          "context": "- **time_markers:** \"left before dawn\" (Eddard's departure); more than a week of anticipation for riding with the queen; twelve days crossing the Neck (recalled); \"last week\" Arya found a haunted watc"
+        },
+        {
+          "chapter": "agot-sansa-01",
+          "line": 37,
+          "context": "| Ser Barristan Selmy | Lord Commander of the Kingsguard | Yes | Old man in white enameled armor; gentle and courteous |\n| Lord Renly Baratheon | King's brother, councillor | Yes | Young, handsome; gr"
+        },
+        {
+          "chapter": "agot-sansa-01",
+          "line": 47,
+          "context": "| Ser Barristan Selmy | Pale as his armor | | Strong and graceful | | White enameled scales with silver chasings and clasps; pure white cloak of the Kingsguard | | Old man but vigorous | Old |\n| Lord "
+        },
+        {
+          "chapter": "agot-sansa-01",
+          "line": 118,
+          "context": "5. **Sansa returns to camp alone and upset** \u2014 She reflects on how different she and Arya are; recalls asking her mother if Arya was really her sister.\n6. **Honor guard arrives from King's Landing** \u2014"
+        },
+        {
+          "chapter": "agot-sansa-01",
+          "line": 121,
+          "context": "8. **Joffrey rescues Sansa** \u2014 At Cersei's prompting, Joffrey comes to Sansa, helps her to her feet, tells men to put away their swords, and dismisses the Hound.\n9. **Sansa identifies the knights** \u2014 "
+        },
+        {
+          "chapter": "agot-sansa-01",
+          "line": 182,
+          "context": "| Sansa | Ser Barristan | \"The Lord Commander of the Kingsguard... and councillor to Robert our king and to Aerys Targaryen before him. The honor is mine, good knight. Even in the far north, the singe"
+        },
+        {
+          "chapter": "agot-sansa-01",
+          "line": 183,
+          "context": "| Renly Baratheon | Sansa | \"Now, wolf girl, if you can put a name to me as well, then I must concede that you are truly our Hand's daughter.\" | Challenging Sansa playfully |\n| Sansa | Renly | \"Your h"
+        },
+        {
+          "chapter": "agot-sansa-01",
+          "line": 220,
+          "context": "| Ser Barristan Selmy | Kind toward | Sansa | Comforts her about Ser Ilyn; praises her as Eddard Stark's daughter |\n| Renly Baratheon | Playful / teasing toward | Sansa | \"Wolf girl\" challenge; sly hu"
+        },
+        {
+          "chapter": "agot-sansa-01",
+          "line": 221,
+          "context": "| Renly Baratheon | Playful / teasing toward | Sansa | \"Wolf girl\" challenge; sly humor about Ser Ilyn |\n| Renly Baratheon | Teased by / teases | Ser Barristan Selmy | Mutual ribbing \u2014 \"Barristan the "
+        },
+        {
+          "chapter": "agot-sansa-01",
+          "line": 241,
+          "context": "### Characters\nSansa Stark, Lady (direwolf), Arya Stark, Nymeria (direwolf), Joffrey Baratheon, Cersei Lannister, Eddard Stark, Sandor Clegane (the Hound), Ser Barristan Selmy, Lord Renly Baratheon, S"
+        },
+        {
+          "chapter": "agot-bran-02",
+          "line": 72,
+          "context": "| Stannis Baratheon | Robert's brother; \"would be enough to give anyone indigestion\" | Jaime (dialogue) |\n| Renly Baratheon | Robert's brother; mentioned alongside Stannis | Cersei (dialogue) |\n| Litt"
+        },
+        {
+          "chapter": "agot-bran-02",
+          "line": 274,
+          "context": "### Characters\nBran Stark, Bran's direwolf (unnamed), Cersei Lannister, Jaime Lannister, Robert Baratheon, Joffrey Baratheon, Robb Stark, Jon Snow, Sansa Stark, Arya Stark, Rickon Stark, Benjen Stark,"
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 30,
+          "context": "| Varys | Councillor; reports Daenerys's pregnancy, advocates assassination | No | Called \"the eunuch\"; wrings powdered hands; suggests poison (tears of Lys) |\n| Lord Renly Baratheon | Councillor; sup"
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 235,
+          "context": "### Characters\nEddard Stark (Ned), Robert Baratheon, Varys, Renly Baratheon, Ser Barristan Selmy, Grand Maester Pycelle, Petyr Baelish (Littlefinger), Ser Boros Blount, Vayon Poole, Tomard (Tom), Daen"
+        },
+        {
+          "chapter": "agot-bran-06",
+          "line": 82,
+          "context": "| Lord Tywin Lannister | Rumored marching on the Eyrie, burning and slaughtering | Rumors |\n| Renly Baratheon | Rumored that Father fled south with him; called \"king's wicked brother\" | Rumors |\n| Rha"
+        },
+        {
+          "chapter": "agot-bran-06",
+          "line": 292,
+          "context": "### Characters\nBran Stark, Robb Stark, Rickon Stark, Eddard Stark (Father), Catelyn Stark (Mother), Sansa Stark, Arya Stark, Brandon Stark (Ned's brother), Lord Rickard Stark (grandfather), Hodor, Mae"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 56,
+          "context": "| Barristan Selmy | Rode north to meet Robert | Littlefinger |\n| Lord Renly Baratheon | Rode north to meet Robert | Littlefinger |\n| Lord Stannis Baratheon | Gone to Dragonstone | Littlefinger |"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 248,
+          "context": "- Barristan Selmy (referenced)\n- Lord Renly Baratheon (referenced)\n- Lord Stannis Baratheon (referenced)"
+        },
+        {
+          "chapter": "agot-eddard-05",
+          "line": 62,
+          "context": "| Ser Hugh of the Vale | Jon Arryn's former squire; knighted after Jon's death | Littlefinger |\n| Lord Renly Baratheon | One of his grooms married the pregnant kitchen girl | Littlefinger |\n| Maester "
+        },
+        {
+          "chapter": "agot-eddard-05",
+          "line": 242,
+          "context": "### Characters\nEddard Stark (Ned), Grand Maester Pycelle, Arya Stark, Sansa Stark, Petyr Baelish (Littlefinger), Alyn, Jon Arryn, Robert Baratheon, Lysa Arryn, Robert Arryn, Maester Colemon, Varys (th"
+        },
+        {
+          "chapter": "agot-eddard-06",
+          "line": 30,
+          "context": "| Varys | Council member | No | Brief comment (\"How dreadful\") |\n| Renly Baratheon | Council member | No | Mocks Slynt and Stannis |\n| Petyr Baelish (Littlefinger) | Council member, Master of Coin | N"
+        },
+        {
+          "chapter": "agot-eddard-06",
+          "line": 235,
+          "context": "| Ned | wary of / fretted by | Varys | \"The shadow of the King's Spider and his little birds had him fretting\" |\n| Tobho Mott | made armor for | Renly Baratheon | Green plate with golden antlers |\n| T"
+        },
+        {
+          "chapter": "agot-eddard-06",
+          "line": 255,
+          "context": "### Characters\nEddard Stark, Janos Slynt, Varys, Renly Baratheon, Petyr Baelish (Littlefinger), Grand Maester Pycelle, Jory Cassel, Harwin, Tobho Mott, Gendry, Varly, Jacks, Lord Beric Dondarrion, Rob"
+        },
+        {
+          "chapter": "agot-arya-05",
+          "line": 63,
+          "context": "| Robert Baratheon | Dead king; conflicting rumors about his death circulate in Flea Bottom | Street talk, crowd |\n| Renly Baratheon | Rumored to have killed Robert; fled in the night | Street talk |\n"
+        },
+        {
+          "chapter": "agot-arya-05",
+          "line": 239,
+          "context": "### Characters\nArya Stark, Eddard Stark, Joffrey Baratheon, Cersei Lannister, Sansa Stark, Sandor Clegane (the Hound), Varys, Ser Ilyn Payne, Yoren, the High Septon, Ser Horas Redwyne, Ser Hobber Redw"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 64,
+          "context": "| Robert Baratheon | Hunting across the Blackwater with a large party; left Ned to sit the throne | Ned (internal), Ned (spoken) |\n| Lord Renly Baratheon | Hunting with the king | Narration |\n| Ser Ba"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 238,
+          "context": "### Characters\nEddard Stark, Varys, Grand Maester Pycelle, Petyr Baelish (Littlefinger), Ser Raymun Darry, Ser Karyl Vance, Ser Marq Piper, Joss (alehouse keeper), Ser Arys Oakheart, Septa Mordane, Sa"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 54,
+          "context": "| Ser Barristan Selmy | Damned by Ned; unhorsed by Rhaegar in the final tilt at Harrenhal | Ned (internal) |\n| Renly Baratheon | Damned by Ned for running when needed; Varys notes Renly is raising arm"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 250,
+          "context": "| Eddard Stark | blames | Cersei Lannister | Damns her; sees her mockery in hallucination |\n| Eddard Stark | blames | Renly Baratheon | \"Robert's own blood, who had run when he was needed most\" |\n| Ed"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 293,
+          "context": "### Characters\nEddard Stark, Robert Baratheon, Cersei Lannister, Jaime Lannister, Varys, Littlefinger (Petyr Baelish), Janos Slynt, Pycelle, Ser Barristan Selmy, Renly Baratheon, Catelyn Stark, Sansa "
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 13,
+          "context": "- **time_markers:** Night (Tyrion was woken from sleep by his squire); \"this fortnight past\" (Renly wed Margaery Tyrell at Highgarden); \"on the morrow\" (plan to march for Harrenhal); \"every morning,\" "
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 62,
+          "context": "| A Tyroshi sellsword | Led freeriders for Prester; struck his banners and defected to the Starks | Messenger, Kevan |\n| Renly Baratheon | Wed Margaery Tyrell at Highgarden; claimed the crown | Tywin "
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 63,
+          "context": "| Renly Baratheon | Wed Margaery Tyrell at Highgarden; claimed the crown | Tywin |\n| Margaery Tyrell | Wed Renly Baratheon at Highgarden | Tywin |\n| Stannis Baratheon | On Dragonstone; building ships,"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 141,
+          "context": "6. **Tywin dismisses the council** \u2014 Orders everyone out except Tyrion and Kevan; gives Tyrion his untouched wine.\n7. **Tywin reveals Renly's claim** \u2014 Renly Baratheon has married Margaery Tyrell and "
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 171,
+          "context": "| Ser Forley Prester retreated with ~4,000 men | Messenger's report | All present | No |\n| Renly Baratheon married Margaery Tyrell and claimed the crown | Tywin reveals (from Varys's intelligence) | T"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 249,
+          "context": "### Characters\nTyrion Lannister, Tywin Lannister, Ser Kevan Lannister, Jaime Lannister, Crakehall messenger (unnamed), Ser Harys Swyft, Ser Gregor Clegane (the Mountain), Ser Addam Marbrand, Ser Fleme"
+        }
+      ]
+    },
+    {
+      "page": "Rogar Baratheon",
+      "raw_html_path": "sources/wiki/_raw/Rogar_Baratheon.json",
+      "track_b_row": {
+        "page": "Rogar Baratheon",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord of Storm's End",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord Paramount of the Stormlands",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Protector of the Realm",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Hand of the King",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Stormlander",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "17\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "62\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Storm's End",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouses",
+            "target": "Alyssa Velaryon",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Boremund Baratheon",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Jocelyn Baratheon",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Rogar Baratheon",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 165905
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Ronnal Baratheon",
+      "raw_html_path": "sources/wiki/_raw/Ronnal_Baratheon.json",
+      "track_b_row": {
+        "page": "Ronnal Baratheon",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Stormlander",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "19",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "25\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "59\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "60\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouse",
+            "target": "Unknown",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Sons",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Two daughters",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Ronnal Baratheon",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 70143
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Royce Baratheon",
+      "raw_html_path": "sources/wiki/_raw/Royce_Baratheon.json",
+      "track_b_row": {
+        "page": "Royce Baratheon",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord of Storm's End",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord Paramount of the Stormlands",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Stormlander",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "131\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Storm's End",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Borros Baratheon",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Elenda Caron",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Royce Baratheon",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 73682
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Steffon Baratheon",
+      "raw_html_path": "sources/wiki/_raw/Steffon_Baratheon.json",
+      "track_b_row": {
+        "page": "Steffon Baratheon",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 6,
+          "source": "cite_ref",
+          "pov": "Arya II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord of Storm's End",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord Paramount of the Stormlands",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Stormlander",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "246\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "278\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "279\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Shipbreaker Bay",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Storm's End",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Ormund Baratheon",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Rhaelle Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Cassana Estermont",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Robert Baratheon",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Stannis Baratheon",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Renly Baratheon",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            42,
+            54
+          ],
+          "acok": [
+            6,
+            10
+          ],
+          "affc": [
+            24
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Steffon Baratheon",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 2,
+          "asos": 2,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 90339
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Stormbreaker",
+      "raw_html_path": "sources/wiki/_raw/Stormbreaker.json",
+      "track_b_row": {
+        "page": "Stormbreaker",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Stormlander",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Stormbreaker",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 6865
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Tya Lannister",
+      "raw_html_path": "sources/wiki/_raw/Tya_Lannister.json",
+      "track_b_row": {
+        "page": "Tya Lannister",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 45,
+          "source": "cite_ref",
+          "pov": "Sansa III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiances",
+            "target": "House Baratheon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Lannister",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouse",
+            "target": "Gowen Baratheon",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Son",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            45
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Tya Lannister",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 41436
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-eddard-12",
+          "line": 12,
+          "context": "- **approximate_timeline:** Days after the street fight with Jaime Lannister; Robert is away hunting; shortly before Sansa and Arya are to sail on the Wind Witch\n- **time_markers:** \"an hour after the"
+        },
+        {
+          "chapter": "agot-eddard-12",
+          "line": 70,
+          "context": "| Balon Greyjoy | One of the enemies Robert pardoned | Ned (thought) |\n| Tya Lannister | Married Gowen Baratheon ninety years ago; recorded in Malleon's book | Ned (reading) |\n| Gowen Baratheon | Thir"
+        },
+        {
+          "chapter": "agot-eddard-12",
+          "line": 71,
+          "context": "| Tya Lannister | Married Gowen Baratheon ninety years ago; recorded in Malleon's book | Ned (reading) |\n| Gowen Baratheon | Third son of the reigning lord; married Tya Lannister | Ned (reading) |\n| T"
+        },
+        {
+          "chapter": "agot-eddard-12",
+          "line": 266,
+          "context": "### Characters\nEddard Stark, Cersei Lannister, Grand Maester Pycelle, Petyr Baelish (Littlefinger), Tomard (Fat Tom), Varly, Tywin Lannister, Jaime Lannister, Robert Baratheon, Joffrey Baratheon, Tomm"
+        }
+      ]
+    }
+  ]
+}

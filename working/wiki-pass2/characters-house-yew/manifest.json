@@ -1,0 +1,41 @@
+{
+  "bucket_id": "characters-house-yew",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "2df81e43540afab93169264291d9b386a03f5f02b9dc3123899197022bb16d11",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Alan o' the Oak",
+    "Manfryd Yew"
+  ],
+  "expected_nodes": [
+    "alan-o-the-oak.node.md",
+    "manfryd-yew.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:56Z",
+    "tier_a": [],
+    "tier_b": [
+      "Alan o' the Oak",
+      "Manfryd Yew"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 2,
+      "tier_a": 0,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.047765+00:00",
+  "stage3_promoted_count": 2,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

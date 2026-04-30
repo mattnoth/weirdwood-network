@@ -1,0 +1,38 @@
+{
+  "bucket_id": "characters-house-trant",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "53e8472d47ba2950b3c742710a12e5d089234074617008acbd3b3d6fa2912ef5",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Meryn Trant"
+  ],
+  "expected_nodes": [
+    "meryn-trant.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Meryn Trant"
+    ],
+    "tier_b": [],
+    "tier_c": [],
+    "stats": {
+      "total": 1,
+      "tier_a": 1,
+      "tier_b": 0,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.007723+00:00",
+  "stage3_promoted_count": 1,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

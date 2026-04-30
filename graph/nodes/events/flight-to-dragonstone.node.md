@@ -1,0 +1,44 @@
+---
+name: "Flight to Dragonstone"
+type: event.battle
+slug: flight-to-dragonstone
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Flight_to_Dragonstone"
+bucket_id: battles-f-p
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Flight to Dragonstone is a event.battle from the AWOIAF wiki.
+
+## Edges
+
+- FIGHTS_IN: Dance of the Dragons (track_b: Conflict)
+- DEFEATS: greens (track_b: Result)
+- DEFEATS: Rhaenyra Targaryen (track_b: Result)
+- DEFEATS: Queensguards (track_b: Result)
+- DEFEATS: Aegon Targaryen (track_b: Result)
+
+## Origins
+
+In early [130 AC](wiki:130_AC), [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen) led the [blacks](wiki:Blacks) in [taking King's Landing](wiki:Fall_of_King's_Landing) from the [greens](wiki:Greens). As the inhabitants of [the city](wiki:King's_Landing) did not bear love for King [Aegon II Targaryen](wiki:Aegon_II_Targaryen) and his [regent](wiki:Regent) brother, Prince [Aemond Targaryen](wiki:Aemond_Targaryen), they welcomed the arrival of the queen. However, executions ordered by Rhaenyra and the increase in taxes implemented by her [master of coin](wiki:Master_of_coin), Lord [Bartimos Celtigar](wiki:Bartimos_Celtigar), made the new queen hated by the Kingslanders, to the point that the "Realm's Delight" became known in the streets as "King [Maegor](wiki:Maegor_I_Targaryen) with teats".(wiki:Flight_to_Dragonstone.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+The greens' victory at the [First Battle of Tumbleton](wiki:First_Battle_of_Tumbleton) worsened the situation for Rhaenyra, and King's Landing was terrorized by the advancing green army being so close. The death of Queen [Helaena Targaryen](wiki:Helaena_Targaryen), Aegon II's sister-wife who was taken captive by the blacks after the city's fall, triggered [many riots](wiki:Riot_of_King's_Landing_(Dance_of_the_Dragons)) throughout the city, which led to the [Storming of the Dragonpit](wiki:Storming_of_the_Dragonpit). The consequences were terrible for Rhaenyra: all dragons in King's Landing were massacred by the angry crowd, thousands of men were burned or crushed, the [Hill of Rhaenys](wiki:Hill_of_Rhaenys) was in flames, and Prince [Joffrey Velaryon](wiki:Joffrey_Velaryon), a son of Rhaenyra, died while trying to save his dragon, [Tyraxes](wiki:Tyraxes).(wiki:Flight_to_Dragonstone.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+
+## Aftermath
+
+[Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen)'s flight from [King's Landing](wiki:King's_Landing) left a power vacuum in the capital, and three "monarchs"—[Trystane Truefyre](wiki:Trystane_Truefyre), [Gaemon Palehair](wiki:Gaemon_Palehair), and the [Shepherd](wiki:Shepherd)—took control of parts of the city during the [Moon of the Three Kings](wiki:Moon_of_the_Three_Kings).(wiki:Flight_to_Dragonstone.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8) Lord [Borros Baratheon](wiki:Borros_Baratheon) eventually marched on the city in support of the [greens](wiki:Greens).(wiki:Flight_to_Dragonstone.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+
+The death of Rhaenyra hurt the cause of the [blacks](wiki:Blacks), but King [Aegon II Targaryen](wiki:Aegon_II_Targaryen) was forced to remain at [Dragonstone](wiki:Dragonstone) since his return to King's Landing was blocked by the [Velaryon fleet](wiki:Velaryon_fleet). The [Dance of the Dragons](wiki:Dance_of_the_Dragons) continued, as the claim of the captive Prince [Aegon the Younger](wiki:Aegon_III_Targaryen) was taken up by Lord [Kermit Tully](wiki:Kermit_Tully), Lord [Cregan Stark](wiki:Cregan_Stark), and Lady [Jeyne Arryn](wiki:Jeyne_Arryn).(wiki:Flight_to_Dragonstone.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
+
+## Quotes
+
+> **Rhaenyra**: Dear brother. I had hoped you were dead.
+>
+> **Aegon**: After you. You are the elder. **Rhaenyra**: I am pleased to know that you remember that. It would seem we are your prisoners ... but do not think that you will hold us long. [My leal lords](wiki:Blacks) will find me.
+>
+> —[Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen) and [Aegon II Targaryen](wiki:Aegon_II_Targaryen)

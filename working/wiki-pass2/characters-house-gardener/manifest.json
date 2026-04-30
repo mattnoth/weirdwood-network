@@ -1,0 +1,45 @@
+{
+  "bucket_id": "characters-house-gardener",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "2e50f122b0f4ed3229523a5c7a40a140d68a1d4ef084763b70ef2d7e9d6b4035",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Edmund Gardener",
+    "Gawen Gardener",
+    "Serwyn of the Mirror Shield"
+  ],
+  "expected_nodes": [
+    "edmund-gardener.node.md",
+    "gawen-gardener.node.md",
+    "serwyn-of-the-mirror-shield.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Serwyn of the Mirror Shield"
+    ],
+    "tier_b": [
+      "Edmund Gardener",
+      "Gawen Gardener"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 3,
+      "tier_a": 1,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.794554+00:00",
+  "stage3_promoted_count": 3,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

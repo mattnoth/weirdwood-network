@@ -1,0 +1,47 @@
+---
+name: "Conquest of Dorne"
+type: event.battle
+slug: conquest-of-dorne
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Conquest_of_Dorne"
+bucket_id: battles-b-d
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Conquest of Dorne is a event.battle from the AWOIAF wiki.
+
+## Edges
+
+- FIGHTS_IN: Submission of Sunspear (track_b: Battles)
+- DEFEATS: Short-lasting conquest of Dorne, followed by a Dornish rebellion (track_b: Result)
+
+## Origins
+
+Shortly before [Aegon's Conquest](wiki:Aegon's_Conquest), Princess [Meria Martell](wiki:Meria_Martell), the ruling [Princess of Dorne](wiki:Princess_of_Dorne), offered an alliance to [Aegon Targaryen](wiki:Aegon_I_Targaryen) against the [Storm Kings](wiki:Storm_Kings). Aegon, looking not for alliances but for submission, did not accept, and began his [Wars of Conquest](wiki:Wars_of_Conquest). His sister-wife, Queen [Rhaenys Targaryen](wiki:Rhaenys_Targaryen), led an army into [Dorne](wiki:Dorne) during the first war. However, the Dornish refused to give battle, and instead hid, melting away in their mountains and deserts. Rhaenys captured holdfasts, but it made no difference, for there was no man to be found, only women and children. Eventually, Rhaenys flew to [Sunspear](wiki:Sunspear) on her dragon, [Meraxes](wiki:Meraxes), where Princess Meria told her to leave, as she was not wanted in Dorne. Rhaenys left with Dorne untaken.(wiki:Conquest_of_Dorne.cite_ref-Rtwoiaf_the_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) [House Targaryen](wiki:House_Targaryen) conquered the other six kingdoms of Westeros during [Aegon's Conquest](wiki:Aegon's_Conquest).
+
+In [4 AC](wiki:4_AC), Aegon the Conqueror launched a second attempt to conquer Dorne, the devastating [First Dornish War](wiki:First_Dornish_War). Notable events included the maiming of Lord [Orys Baratheon](wiki:Orys_Baratheon), the death of Queen Rhaenys and Meraxes at [Hellholt](wiki:Hellholt) in [10 AC](wiki:10_AC), and the formation of the [Kingsguard](wiki:Kingsguard) following a failed assassination attempt on King Aegon I.(wiki:Conquest_of_Dorne.cite_ref-Rtwoiaf_dorne:_dorne_against_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)(wiki:Conquest_of_Dorne.cite_ref-Rtwoiaf_the_targaryen_kings:_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) When Princess Meria died in [13 AC](wiki:13_AC), her successor, Prince [Nymor Martell](wiki:Nymor_Martell), sent his own heir, Princess [Deria](wiki:Deria_Martell), to King's Landing with the skull of Meraxes and a letter for King Aegon I. Though the gift of the skull was ill-received, Aegon signed a peace after reading the letter, whose contents are unknown.(wiki:Conquest_of_Dorne.cite_ref-Rtwoiaf_dorne:_dorne_against_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
+
+Dorne remained independent from Targaryen rule. Though King [Viserys I Targaryen](wiki:Viserys_I_Targaryen) considered wedding his heir, [Rhaenyra](wiki:Rhaenyra_Targaryen), to the Prince of Dorne as a way of bringing Dorne into his realm, he did not follow through on this idea.(wiki:Conquest_of_Dorne.cite_ref-Rtrp.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+
+## Aftermath
+
+With Dorne again independent, the body of King [Daeron I Targaryen](wiki:Daeron_I_Targaryen) returned to the lands of the [Iron Throne](wiki:Iron_Throne) via the [Weeping Town](wiki:Weeping_Town) in the [stormlands](wiki:Stormlands); the town received its name from its people's sadness at the king's murder.(wiki:Conquest_of_Dorne.cite_ref-Rtwoiaf_the_stormlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0) The [Hand of the King](wiki:Hand_of_the_King), Prince [Viserys Targaryen](wiki:Viserys_II_Targaryen), ordered the fourteen highborn hostages taken after the [Submission of Sunspear](wiki:Submission_of_Sunspear) thrown in the [Red Keep](wiki:Red_Keep)'s dungeons to await their execution.
+
+The newly-crowned [Baelor I Targaryen](wiki:Baelor_I_Targaryen), however, desired peace with Dorne, and he walked the [Boneway](wiki:Boneway) barefoot to Sunspear, returning the hostages. At the Dornish capital, he spoke with the [Prince of Dorne](wiki:Prince_of_Dorne), and negotiated a betrothal between his cousin, Prince [Daeron Targaryen](wiki:Daeron_II_Targaryen), and the eldest child of the Prince of Dorne, Princess [Myriah Martell](wiki:Myriah_Martell), as part of the peace negotiations.(wiki:Conquest_of_Dorne.cite_ref-Rtwoiaf_the_targaryen_kings:_baelor_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-0)
+
+From Sunspear, Baelor travelled to [Wyl](wiki:Wyl_(castle)), where his cousin, [Aemon the Dragonknight](wiki:Aemon_Targaryen_(son_of_Viserys_II)), had been imprisoned in a cage above a pit filled with vipers. Baelor was given the key to open the cage by Lord Wyl. While the songs say that the vipers bowed their heads to Baelor and refused to bite him because he was pure and holy, in truth Baelor the Blessed was bitten many times,(wiki:Conquest_of_Dorne.cite_ref-Rtwoiaf_the_targaryen_kings:_baelor_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-1)(wiki:Conquest_of_Dorne.cite_ref-Rasos59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-0) and he collapsed almost before Aemon could open the door to his cage and pull him inside. With Baelor flung across his back and his cage now opened, Aemon was able to get both of them to safety. The Dragonknight travelled from [Wyl](wiki:Wyl_(castle)) to [Blackhaven](wiki:Blackhaven) with an unconscious Baelor and on to [Storm's End](wiki:Storm's_End), where he stayed for half a year before he could continue his journey to [King's Landing](wiki:King's_Landing).(wiki:Conquest_of_Dorne.cite_ref-Rtwoiaf_the_targaryen_kings:_baelor_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-2)
+
+The betrothal between Daeron and Myriah that Baelor had negotiated eventually resulted in a fruitful marriage. Prince Daeron ascended the throne in [184 AC](wiki:184_AC) as Daeron II, and his good relations with Dorne led to an increased Dornish influence at court. There were some lords, however, who felt that the Dornish influence over Daeron II was too much, which in turn made them more sympathetic towards the [Blackfyre cause](wiki:Blackfyre_Pretenders).(wiki:Conquest_of_Dorne.cite_ref-Rtwoiaf_the_targaryen_kings:_daeron_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-0)
+
+Early in his reign, Daeron the Good began negotiations with his brother-in-law, [Maron Martell](wiki:Maron_Martell), the Prince of Dorne, to unify his realm with Dorne. He arranged a betrothal between his younger sister, Princess [Daenerys Targaryen](wiki:Daenerys_Targaryen_(daughter_of_Aegon_IV)), and Maron. The [marriage](wiki:Wedding_of_Maron_Martell_and_Daenerys_Targaryen) took place at King's Landing in [187 AC](wiki:Years_after_Aegon's_Conquest), and peacefully brought Dorne into the writ of the Iron Throne.(wiki:Conquest_of_Dorne.cite_ref-Rtwoiaf_the_targaryen_kings:_daeron_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-1)
+
+## Quotes
+
+> The arms of [House Martell](wiki:House_Martell) display the sun and spear, the Dornishman's two favored weapons, but of the two, the sun is the more deadly.(wiki:Conquest_of_Dorne.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-0)
+>
+> —excerpt from *[The Conquest of Dorne](wiki:The_Conquest_of_Dorne)* by [Daeron I Targaryen](wiki:Daeron_I_Targaryen)

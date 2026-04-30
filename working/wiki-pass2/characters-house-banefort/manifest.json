@@ -1,0 +1,41 @@
+{
+  "bucket_id": "characters-house-banefort",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "aa5756700f3c70f55d75b4cd4c66a0928ac7e3a002e9d3e07aaa93d7f1aea9f8",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Hooded Man",
+    "Quenten Banefort"
+  ],
+  "expected_nodes": [
+    "hooded-man.node.md",
+    "quenten-banefort.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Hooded Man",
+      "Quenten Banefort"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 2,
+      "tier_a": 0,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.642680+00:00",
+  "stage3_promoted_count": 2,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

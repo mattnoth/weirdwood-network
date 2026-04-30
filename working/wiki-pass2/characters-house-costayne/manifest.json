@@ -1,0 +1,62 @@
+{
+  "bucket_id": "characters-house-costayne",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "795f7344d36e182359ebf392b7f9ed2469df656b65c74fc33db7838875dc9ba3",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Aemon Costayne",
+    "Elinor Costayne",
+    "Leo Costayne",
+    "Lord Costayne (Aerys I)",
+    "Lord Costayne (Daeron II)",
+    "Owen Costayne",
+    "Tom Costayne",
+    "Tommen Costayne",
+    "Tommen Costayne (knight)"
+  ],
+  "expected_nodes": [
+    "aemon-costayne.node.md",
+    "elinor-costayne.node.md",
+    "leo-costayne.node.md",
+    "lord-costayne-aerys-i.node.md",
+    "lord-costayne-daeron-ii.node.md",
+    "owen-costayne.node.md",
+    "tom-costayne.node.md",
+    "tommen-costayne-knight.node.md",
+    "tommen-costayne.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Aemon Costayne",
+      "Elinor Costayne",
+      "Leo Costayne",
+      "Lord Costayne (Aerys I)",
+      "Lord Costayne (Daeron II)",
+      "Owen Costayne",
+      "Tom Costayne",
+      "Tommen Costayne",
+      "Tommen Costayne (knight)"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 9,
+      "tier_a": 0,
+      "tier_b": 9,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.723886+00:00",
+  "stage3_promoted_count": 9,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

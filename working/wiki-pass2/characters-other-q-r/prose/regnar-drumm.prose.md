@@ -1,0 +1,3 @@
+## Origins
+
+[Erich I Greyiron](wiki:Erich_I_Greyiron) seized the crown of his father, [Urras Greyiron](wiki:Urras_Greyiron), upon Ironfoot's death and declared himself [High King of the Iron Islands](wiki:High_King_of_the_Iron_Islands). [Galon Whitestaff](wiki:Galon_Whitestaff) commanded that kings may only be made by [kingsmoot](wiki:Kingsmoot), however, and the [ironborn](wiki:Ironborn) captains and kings cast Erich down from power. Regnar, the [rock king](wiki:Rock_king) of [Old Wyk](wiki:Old_Wyk), was chosen the new High King at the kingsmoot.(wiki:Regnar_Drumm.cite_ref-Rtwoiafthe_iron_islands:_driftwood_crowns.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

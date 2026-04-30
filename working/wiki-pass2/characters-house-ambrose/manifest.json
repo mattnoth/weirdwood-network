@@ -1,0 +1,53 @@
+{
+  "bucket_id": "characters-house-ambrose",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "0b76148a119e522a24c6a1468249e6a970500120b63d82fa0b432ce0909336a7",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Aegon Ambrose",
+    "Alyn Ambrose",
+    "Arthur Ambrose",
+    "Aubrey Ambrose",
+    "Edmund Ambrose",
+    "Marq Ambrose"
+  ],
+  "expected_nodes": [
+    "aegon-ambrose.node.md",
+    "alyn-ambrose.node.md",
+    "arthur-ambrose.node.md",
+    "aubrey-ambrose.node.md",
+    "edmund-ambrose.node.md",
+    "marq-ambrose.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Aegon Ambrose",
+      "Alyn Ambrose",
+      "Arthur Ambrose",
+      "Aubrey Ambrose",
+      "Edmund Ambrose",
+      "Marq Ambrose"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 6,
+      "tier_a": 0,
+      "tier_b": 6,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.639101+00:00",
+  "stage3_promoted_count": 6,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

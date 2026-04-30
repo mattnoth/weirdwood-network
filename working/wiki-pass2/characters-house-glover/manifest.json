@@ -1,0 +1,63 @@
+{
+  "bucket_id": "characters-house-glover",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "c752f5ffa81511b2f8e111f5742cd04f09bbe1fc7cd67c92c502b135f221b5e4",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Benton Glover",
+    "Erena Glover",
+    "Ethan Glover",
+    "Galbart Glover",
+    "Gawen Glover",
+    "Gilliane Glover",
+    "Glover steward",
+    "Lyanne Glover",
+    "Robett Glover"
+  ],
+  "expected_nodes": [
+    "benton-glover.node.md",
+    "erena-glover.node.md",
+    "ethan-glover.node.md",
+    "galbart-glover.node.md",
+    "gawen-glover.node.md",
+    "gilliane-glover.node.md",
+    "glover-steward.node.md",
+    "lyanne-glover.node.md",
+    "robett-glover.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Galbart Glover",
+      "Robett Glover"
+    ],
+    "tier_b": [
+      "Benton Glover",
+      "Erena Glover",
+      "Ethan Glover",
+      "Gawen Glover",
+      "Gilliane Glover",
+      "Glover steward",
+      "Lyanne Glover"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 9,
+      "tier_a": 2,
+      "tier_b": 7,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.797461+00:00",
+  "stage3_promoted_count": 9,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

@@ -1,0 +1,23 @@
+---
+name: "Della Frey"
+type: character.human
+slug: della-frey
+aliases: ["Deaf Della"]
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Della_Frey"
+bucket_id: characters-house-frey-a-e
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Della Frey is a character.human from the AWOIAF wiki.
+
+## Edges
+
+- SWORN_TO: House Frey (track_b: Allegiance)
+- CULTURE_OF: Rivermen (track_b: Culture)
+- PARENT_OF (reverse): Benfrey Frey (track_b: Father)
+- PARENT_OF (reverse): Jyanna Frey (track_b: Mother)

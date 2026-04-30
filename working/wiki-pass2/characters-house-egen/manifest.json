@@ -1,0 +1,38 @@
+{
+  "bucket_id": "characters-house-egen",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "11e4f5a39b1a9ca4c971100c7cbcb067d1e45d3f67575f3743f2d7c49e19b072",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Vardis Egen"
+  ],
+  "expected_nodes": [
+    "vardis-egen.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Vardis Egen"
+    ],
+    "tier_b": [],
+    "tier_c": [],
+    "stats": {
+      "total": 1,
+      "tier_a": 1,
+      "tier_b": 0,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.749113+00:00",
+  "stage3_promoted_count": 1,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

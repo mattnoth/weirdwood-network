@@ -1,0 +1,8 @@
+{
+  "bucket_id": "characters-house-tyrell-a-l",
+  "passed": true,
+  "checked_at": "2026-04-27T20:01:47Z",
+  "node_count_expected": 25,
+  "node_count_actual": 25,
+  "failures": []
+}

@@ -1,0 +1,9 @@
+## Narrative Arc
+
+### A Game of Thrones
+
+Daryn is one of [Robb Stark's personal guard](wiki:Robb_Stark's_personal_guard) at the [Whispering Wood](wiki:Whispering_Wood). He is slain by Ser [Jaime Lannister](wiki:Jaime_Lannister) during [the battle](wiki:Battle_in_the_Whispering_Wood).(wiki:Daryn_Hornwood.cite_ref-Ragot63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+### A Dance with Dragons
+
+[Alys Karstark](wiki:Alys_Karstark), the only daughter of Lord [Rickard Karstark](wiki:Rickard_Karstark), reveals to [Jon Snow](wiki:Jon_Snow) that she had been betrothed to Daryn. They were only waiting for her to [flower](wiki:Flowering) to be [wed](wiki:Wedding).(wiki:Daryn_Hornwood.cite_ref-Radwd44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

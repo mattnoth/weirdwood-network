@@ -1,0 +1,41 @@
+{
+  "bucket_id": "characters-house-ladybright",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "5d29dec8734ccb7211dee21d0348f03c0b2fad0fc011408af8a17d910be2b109",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Alyse Ladybright",
+    "Jayne Ladybright"
+  ],
+  "expected_nodes": [
+    "alyse-ladybright.node.md",
+    "jayne-ladybright.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Alyse Ladybright",
+      "Jayne Ladybright"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 2,
+      "tier_a": 0,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.846587+00:00",
+  "stage3_promoted_count": 2,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

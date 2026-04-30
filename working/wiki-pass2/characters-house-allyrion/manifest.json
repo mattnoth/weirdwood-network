@@ -1,0 +1,45 @@
+{
+  "bucket_id": "characters-house-allyrion",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "629d9e4301e4064a0fa80a604c75d3cd34cc0ba2a313d6ff7e689f8120eccc14",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Daemon Sand",
+    "Delonne Allyrion",
+    "Ryon Allyrion"
+  ],
+  "expected_nodes": [
+    "daemon-sand.node.md",
+    "delonne-allyrion.node.md",
+    "ryon-allyrion.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Daemon Sand"
+    ],
+    "tier_b": [
+      "Delonne Allyrion",
+      "Ryon Allyrion"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 3,
+      "tier_a": 1,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.638102+00:00",
+  "stage3_promoted_count": 3,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

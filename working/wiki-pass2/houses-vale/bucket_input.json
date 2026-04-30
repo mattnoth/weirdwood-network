@@ -1,0 +1,2362 @@
+{
+  "bucket_id": "houses-vale",
+  "tier": "core",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Brotherhood of Winged Knights",
+      "raw_html_path": "sources/wiki/_raw/Brotherhood_of_Winged_Knights.json",
+      "track_b_row": {
+        "page": "Brotherhood of Winged Knights",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Region",
+            "target": "Vale of Arryn",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Arryn",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Founder",
+            "target": "Robert Arryn",
+            "edge_type": "FOUNDED",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Brotherhood of Winged Knights",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 18848
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Arryn",
+      "raw_html_path": "sources/wiki/_raw/House_Arryn.json",
+      "track_b_row": {
+        "page": "House Arryn",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 2,
+          "source": "cite_ref",
+          "pov": "Bran I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seats",
+            "target": "Eyrie",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse",
+            "qualifier": "summer"
+          },
+          {
+            "field": "Seats",
+            "target": "Gates of the Moon",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse",
+            "qualifier": "winter; granted to the Royces"
+          },
+          {
+            "field": "Seats",
+            "target": "Royces",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse",
+            "qualifier": "winter; granted to the Royces"
+          },
+          {
+            "field": "Head",
+            "target": "Robert Arryn",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Vale of Arryn",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "King of Mountain and Vale",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "pre-Conquest"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of the Eyrie",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Defender of the Vale",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Warden of the East",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Heir",
+            "target": "Harrold Hardyng",
+            "edge_type": "HEIR_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Targaryen",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "1\u2013282\u00a0AC"
+          },
+          {
+            "field": "Overlords",
+            "target": "1",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "1\u2013282\u00a0AC"
+          },
+          {
+            "field": "Overlords",
+            "target": "282\u00a0AC",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "1\u2013282\u00a0AC"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Baratheon of King's Landing",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "284\u00a0AC\u2013present"
+          },
+          {
+            "field": "Overlords",
+            "target": "284\u00a0AC",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "284\u00a0AC\u2013present"
+          },
+          {
+            "field": "Cadet branches",
+            "target": "House Arryn of Gulltown",
+            "edge_type": "CADET_BRANCH_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Founder",
+            "target": "Artys Arryn",
+            "edge_type": "FOUNDED",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            10,
+            23,
+            41
+          ],
+          "agot": [
+            2,
+            3,
+            4,
+            6,
+            12,
+            25,
+            27,
+            28,
+            30,
+            34,
+            40,
+            42,
+            45,
+            55,
+            57
+          ],
+          "adwd": [
+            9,
+            17,
+            29
+          ],
+          "asos": [
+            2,
+            19,
+            20,
+            29,
+            35,
+            53,
+            68,
+            80
+          ],
+          "acok": [
+            17,
+            22,
+            31,
+            55
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Arryn",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 15,
+          "acok": 4,
+          "asos": 8,
+          "affc": 3,
+          "adwd": 3
+        },
+        "has_infobox": true,
+        "byte_size": 213119
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-eddard-07",
+          "line": 310,
+          "context": "### Houses\nHouse Baratheon, House Stark, House Lannister, House Tyrell, House Clegane, House Arryn, House Targaryen, House Martell, House Greyjoy, House Redwyne, House Caron (Bryce Caron \u2014 nightingale"
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 269,
+          "context": "### Houses\nHouse Stark, House Manderly, House Tully, House Bolton, House Umber, House Tallhart, House Glover, House Hornwood, House Karstark, House Lannister, House Arryn, House Frey, House Greyjoy, H"
+        },
+        {
+          "chapter": "agot-arya-03",
+          "line": 268,
+          "context": "### Houses\nHouse Stark, House Baratheon, House Lannister, House Arryn (referenced), House Tyrell (referenced), House Tully (referenced)"
+        },
+        {
+          "chapter": "agot-eddard-04",
+          "line": 267,
+          "context": "### Houses\nHouse Stark, House Baratheon, House Lannister, House Arryn, House Tyrell, House Targaryen, House Tallhart, House Glover, House Manderly, House Greyjoy, House Baelish"
+        },
+        {
+          "chapter": "agot-eddard-13",
+          "line": 303,
+          "context": "### Houses\nHouse Stark, House Baratheon, House Lannister, House Targaryen, House Tyrell (referenced via Ser Loras), House Redwyne (referenced), House Royce (referenced via Bronze Yohn), House Greyjoy "
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 258,
+          "context": "### Houses\nHouse Stark, House Lannister, House Baratheon, House Targaryen, House Royce, House Arryn"
+        },
+        {
+          "chapter": "agot-catelyn-01",
+          "line": 241,
+          "context": "- House Tully\n- House Arryn\n- House Baratheon"
+        },
+        {
+          "chapter": "agot-catelyn-01",
+          "line": 267,
+          "context": "- Oiled leather swatch (Ned uses to polish Ice)\n- Moon-and-falcon banners (Jon Arryn's / House Arryn's)"
+        },
+        {
+          "chapter": "agot-tyrion-05",
+          "line": 113,
+          "context": "|-------|------|------|----------|---------|\n| Tyrion's imprisonment | shelter_offered (ironically \u2014 as prisoner) | Lysa Arryn / House Arryn | Tyrion Lannister | The \"dungeon\" is an open sky cell desi"
+        },
+        {
+          "chapter": "agot-tyrion-05",
+          "line": 253,
+          "context": "### Houses\nHouse Arryn, House Lannister, House Stark, House Tully, House Royce, House Corbray, House Hunter, House Waynwood"
+        },
+        {
+          "chapter": "agot-tyrion-05",
+          "line": 280,
+          "context": "### Other\nHeraldic sigils mentioned: moon-and-falcon (House Arryn), broken lance (unknown house), green viper (unknown house), burning tower (unknown house), winged chalice (unknown house); trial by c"
+        },
+        {
+          "chapter": "agot-catelyn-05",
+          "line": 229,
+          "context": "### Houses\nHouse Stark, House Tully, House Lannister, House Mallister, House Frey, House Bracken, House Whent, House Arryn, House Blackwood, House Darry, House Ryger, House Mooton, House Targaryen, Ho"
+        },
+        {
+          "chapter": "agot-catelyn-02",
+          "line": 89,
+          "context": "| Carved wooden box | Container for the lens and secret letter; had a false bottom; left anonymously in Luwin's observatory | Yes | Maester Luwin |\n| Lysa Arryn's letter | Secret message written in a "
+        },
+        {
+          "chapter": "agot-catelyn-02",
+          "line": 111,
+          "context": "7. **Catelyn identifies the hidden message** \u2014 She recognizes the significance of a lens (\"an instrument to help us see\"); Luwin produces a tightly rolled paper from the box's false bottom, addressed "
+        },
+        {
+          "chapter": "agot-catelyn-02",
+          "line": 266,
+          "context": "- House Baratheon (implied via Robert)\n- House Arryn (moon-and-falcon seal)\n- House Lannister"
+        },
+        {
+          "chapter": "agot-tyrion-06",
+          "line": 230,
+          "context": "- House Stark (referenced)\n- House Arryn (referenced \u2014 Lady Arryn, Vale of Arryn)"
+        },
+        {
+          "chapter": "agot-catelyn-06",
+          "line": 28,
+          "context": "| Catelyn Stark | POV character | No | Traveling with Tyrion as prisoner to the Eyrie |\n| Ser Donnel Waynwood | Escort from House Arryn's forces | Yes | Escorted Catelyn's party through the last stret"
+        },
+        {
+          "chapter": "agot-catelyn-06",
+          "line": 120,
+          "context": "| Dirk | At Tyrion's belt | No | Tyrion Lannister |\n| Moon-and-falcon banner | Banner of House Arryn, sky-blue and white; carried before the riders | No | Arryn men-at-arms |\n| Black fish pin | Shiny,"
+        },
+        {
+          "chapter": "agot-catelyn-06",
+          "line": 122,
+          "context": "| Black fish pin | Shiny, wrought in gold and obsidian; pins Brynden's cloak | Yes | Brynden Tully |\n| Double standard | Moon-and-falcon of House Arryn on high, Blackfish sigil below | Yes | Brynden's"
+        },
+        {
+          "chapter": "agot-catelyn-06",
+          "line": 281,
+          "context": "### Houses\nHouse Arryn, House Stark, House Tully, House Lannister, House Waynwood, House Royce, House Redfort, House Corbray"
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 282,
+          "context": "### Houses\nHouse Tully, House Stark, House Lannister, House Baratheon, House Greyjoy, House Blackwood, House Umber, House Karstark, House Mormont, House Glover, House Piper, House Vance, House Bracken"
+        },
+        {
+          "chapter": "agot-sansa-05",
+          "line": 297,
+          "context": "### Houses\nHouse Baratheon, House Lannister, House Stark, House Tyrell, House Arryn, House Tully, House Martell, House Royce, House Mallister, House Caron, House Blackwood, House Frey, House Vance, Ho"
+        },
+        {
+          "chapter": "agot-eddard-09",
+          "line": 261,
+          "context": "### Houses\nHouse Stark, House Lannister, House Baratheon, House Tully, House Florent, House Arryn, House Targaryen"
+        },
+        {
+          "chapter": "agot-catelyn-07",
+          "line": 50,
+          "context": "| Robert Arryn | | | | | | | Fidgeting; arms trembling as they clutch his chair; begins to shake when denied | |\n| Ser Vardis Egen | | | | | Heavy plate armor over mail and padded surcoat; large circu"
+        },
+        {
+          "chapter": "agot-catelyn-07",
+          "line": 142,
+          "context": "18. **Bronn kills Ser Vardis** \u2014 He drives his blade under the arm and through the ribs of the pinned knight; Ser Vardis shudders and dies.\n19. **Tyrion demands release** \u2014 He invokes House Arryn's wo"
+        },
+        {
+          "chapter": "agot-catelyn-07",
+          "line": 193,
+          "context": "| Tyrion | Lysa | \"Not this little man. This little man is going down in the turnip hoist, thank you very much.\" | Refusing to be thrown from the Moon Door after his acquittal |\n| Tyrion | Lysa | \"I p"
+        },
+        {
+          "chapter": "agot-catelyn-07",
+          "line": 242,
+          "context": "### Houses\nHouse Stark, House Arryn, House Lannister, House Tully, House Corbray, House Waynwood, House Hunter, House Vance, House Piper"
+        },
+        {
+          "chapter": "agot-tyrion-07",
+          "line": 262,
+          "context": "### Houses\nHouse Lannister, House Stark, House Tully, House Arryn, House Baratheon, House Brax, House Prester, House Crakehall, House Marbrand, House Lydden, House Blackwood, House Whent, House Frey, "
+        },
+        {
+          "chapter": "agot-catelyn-03",
+          "line": 269,
+          "context": "- House Tully\n- House Arryn\n- House Greyjoy"
+        },
+        {
+          "chapter": "agot-bran-02",
+          "line": 280,
+          "context": "### Houses\nHouse Stark, House Lannister, House Baratheon, House Arryn, House Hightower (via Gerold Hightower), House Redwyne (via Ser Ryam Redwyne), House Dayne (via Ser Arthur Dayne)"
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 241,
+          "context": "### Houses\nHouse Stark, House Baratheon, House Targaryen, House Lannister, House Arryn, House Bolton"
+        },
+        {
+          "chapter": "agot-sansa-04",
+          "line": 229,
+          "context": "### Houses\nHouse Stark, House Lannister, House Baratheon, House Tully, House Arryn"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 80,
+          "context": "| King's Landing | Where Walder Frey would send birds; where Tyrion knew Lysa Arryn | No |\n| The Vale (of Arryn) | Destination; domain of House Arryn | No (uncertain \u2014 verify) |\n| The Eyrie (implied) "
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 249,
+          "context": "### Houses\nHouse Stark, House Lannister, House Arryn, House Frey, House Bracken, House Whent, House Tully (implied via Catelyn and Lysa)"
+        },
+        {
+          "chapter": "agot-eddard-12",
+          "line": 272,
+          "context": "### Houses\nHouse Stark, House Lannister, House Baratheon, House Targaryen, House Arryn, House Greyjoy, House Clegane, House Dayne, House Royce, House Swann, House Baelish (implied \u2014 mockingbird sigil)"
+        },
+        {
+          "chapter": "agot-eddard-05",
+          "line": 248,
+          "context": "### Houses\nHouse Stark, House Arryn, House Baratheon, House Lannister, House Baelish"
+        },
+        {
+          "chapter": "agot-eddard-01",
+          "line": 76,
+          "context": "| King's Landing | Seat of the Iron Throne; where Robert wants Ned to come | uncertain \u2014 verify |\n| The Eyrie | Seat of House Arryn; where Lysa has taken Robert Arryn | uncertain \u2014 verify |\n| Storm's "
+        },
+        {
+          "chapter": "agot-eddard-01",
+          "line": 129,
+          "context": "12. **Ned offers to take Robert Arryn as ward** \u2014 Robert declines, saying Tywin has already consented and fostering elsewhere would affront him.\n13. **Robert strips the Warden of the East title from R"
+        },
+        {
+          "chapter": "agot-eddard-01",
+          "line": 236,
+          "context": "### Houses\nHouse Stark, House Baratheon, House Lannister, House Arryn, House Greyjoy, House Targaryen, House Tully"
+        },
+        {
+          "chapter": "agot-eddard-06",
+          "line": 261,
+          "context": "### Houses\nHouse Stark, House Baratheon, House Lannister, House Arryn, House Tyrell, House Casterly (historical \u2014 winkled out of Casterly Rock by Lann the Clever)"
+        },
+        {
+          "chapter": "agot-eddard-15",
+          "line": 299,
+          "context": "### Houses\nHouse Stark, House Lannister, House Baratheon, House Targaryen, House Martell, House Arryn, House Tully (implied \u2014 river lords), House Royce (Bronze Yohn Royce), House Whent (Ser Oswell Whe"
+        },
+        {
+          "chapter": "agot-eddard-02",
+          "line": 245,
+          "context": "### Houses\nHouse Stark, House Baratheon, House Lannister, House Targaryen, House Arryn, House Mormont"
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 250,
+          "context": "### Houses\nHouse Stark, House Tully, House Frey, House Lannister, House Bolton, House Karstark, House Umber, House Glover, House Tallhart, House Manderly, House Arryn, House Baratheon, House Blackwood"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 255,
+          "context": "### Houses\nHouse Lannister, House Stark, House Tully, House Baratheon, House Tyrell, House Crakehall, House Swyft, House Clegane, House Marbrand, House Brax, House Lefford, House Piper, House Blackwoo"
+        }
+      ]
+    },
+    {
+      "page": "House Arryn of Gulltown",
+      "raw_html_path": "sources/wiki/_raw/House_Arryn_of_Gulltown.json",
+      "track_b_row": {
+        "page": "House Arryn of Gulltown",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 41,
+          "source": "cite_ref",
+          "pov": "The Princess in the Tower"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Gulltown",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Region",
+            "target": "Vale of Arryn",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Arryn",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            41
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Arryn of Gulltown",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 24498
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Baelish",
+      "raw_html_path": "sources/wiki/_raw/House_Baelish.json",
+      "track_b_row": {
+        "page": "House Baelish",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 2,
+          "source": "cite_ref",
+          "pov": "Bran I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seats",
+            "target": "Unnamed tower",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Seats",
+            "target": "Harrenhal",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Petyr Baelish",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Regions",
+            "target": "Vale of Arryn",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Regions",
+            "target": "Riverlands",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of Harrenhal",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord Paramount of the Trident",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Arryn",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Overlords",
+            "target": "House Baratheon of King's Landing",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Founder",
+            "target": "A hedge knight",
+            "edge_type": "FOUNDED",
+            "direction": "forward"
+          },
+          {
+            "field": "Founder",
+            "target": "Braavosi",
+            "edge_type": "FOUNDED",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            2,
+            3,
+            18,
+            20,
+            25,
+            40,
+            47,
+            49
+          ],
+          "asos": [
+            19,
+            60,
+            61,
+            68,
+            80
+          ],
+          "acok": [
+            17,
+            18,
+            36,
+            41,
+            65
+          ],
+          "affc": [
+            23
+          ],
+          "adwd": [
+            65
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Baelish",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 8,
+          "acok": 5,
+          "asos": 5,
+          "affc": 1,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 99821
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-eddard-04",
+          "line": 267,
+          "context": "### Houses\nHouse Stark, House Baratheon, House Lannister, House Arryn, House Tyrell, House Targaryen, House Tallhart, House Glover, House Manderly, House Greyjoy, House Baelish"
+        },
+        {
+          "chapter": "agot-catelyn-04",
+          "line": 296,
+          "context": "- House Lannister\n- House Baelish\n- House Tyrell"
+        },
+        {
+          "chapter": "agot-eddard-12",
+          "line": 272,
+          "context": "### Houses\nHouse Stark, House Lannister, House Baratheon, House Targaryen, House Arryn, House Greyjoy, House Clegane, House Dayne, House Royce, House Swann, House Baelish (implied \u2014 mockingbird sigil)"
+        },
+        {
+          "chapter": "agot-eddard-05",
+          "line": 248,
+          "context": "### Houses\nHouse Stark, House Arryn, House Baratheon, House Lannister, House Baelish"
+        }
+      ]
+    },
+    {
+      "page": "House Breakstone",
+      "raw_html_path": "sources/wiki/_raw/House_Breakstone.json",
+      "track_b_row": {
+        "page": "House Breakstone",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Vale of Arryn",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Arryn",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Breakstone",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 21462
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Corbray",
+      "raw_html_path": "sources/wiki/_raw/House_Corbray.json",
+      "track_b_row": {
+        "page": "House Corbray",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 10,
+          "source": "cite_ref",
+          "pov": "Brienne II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Heart's Home",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Lyonel Corbray",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Vale of Arryn",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of Heart's Home",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of the Five Fingers",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "historical"
+          },
+          {
+            "field": "Titles",
+            "target": "King of the Fingers",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "historical"
+          },
+          {
+            "field": "Heir",
+            "target": "Lyn Corbray",
+            "edge_type": "HEIR_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Arryn",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Ancestral weapon",
+            "target": "Lady Forlorn",
+            "edge_type": "ANCESTRAL_WEAPON_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Founder",
+            "target": "Corwyn Corbray",
+            "edge_type": "FOUNDED",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            34,
+            38,
+            40
+          ],
+          "affc": [
+            10,
+            23,
+            41
+          ],
+          "asos": [
+            45,
+            68,
+            80
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Corbray",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 3,
+          "acok": 0,
+          "asos": 3,
+          "affc": 3,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 99410
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-tyrion-05",
+          "line": 253,
+          "context": "### Houses\nHouse Arryn, House Lannister, House Stark, House Tully, House Royce, House Corbray, House Hunter, House Waynwood"
+        },
+        {
+          "chapter": "agot-catelyn-06",
+          "line": 281,
+          "context": "### Houses\nHouse Arryn, House Stark, House Tully, House Lannister, House Waynwood, House Royce, House Redfort, House Corbray"
+        },
+        {
+          "chapter": "agot-catelyn-07",
+          "line": 242,
+          "context": "### Houses\nHouse Stark, House Arryn, House Lannister, House Tully, House Corbray, House Waynwood, House Hunter, House Vance, House Piper"
+        }
+      ]
+    },
+    {
+      "page": "House Crayne",
+      "raw_html_path": "sources/wiki/_raw/House_Crayne.json",
+      "track_b_row": {
+        "page": "House Crayne",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Vale of Arryn",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Arryn",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Crayne",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 21676
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Donnerly",
+      "raw_html_path": "sources/wiki/_raw/House_Donnerly.json",
+      "track_b_row": {
+        "page": "House Donnerly",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Region",
+            "target": "Vale of Arryn",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Arryn",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Donnerly",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 5861
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Donniger",
+      "raw_html_path": "sources/wiki/_raw/House_Donniger.json",
+      "track_b_row": {
+        "page": "House Donniger",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Vale",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Arryn",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Donniger",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 17632
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Dutton",
+      "raw_html_path": "sources/wiki/_raw/House_Dutton.json",
+      "track_b_row": {
+        "page": "House Dutton",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Vale of Arryn",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Arryn",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Dutton",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 18283
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Egen",
+      "raw_html_path": "sources/wiki/_raw/House_Egen.json",
+      "track_b_row": {
+        "page": "House Egen",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 40,
+          "source": "cite_ref",
+          "pov": "Eddard X"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Vale of Arryn",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Arryn",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            40
+          ],
+          "asos": [
+            68
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Egen",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 0,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 26283
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Elesham",
+      "raw_html_path": "sources/wiki/_raw/House_Elesham.json",
+      "track_b_row": {
+        "page": "House Elesham",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 41,
+          "source": "cite_ref",
+          "pov": "The Princess in the Tower"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Paps",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Vale",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Lord of the Paps",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Arryn",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            41
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Elesham",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 24043
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Grafton",
+      "raw_html_path": "sources/wiki/_raw/House_Grafton.json",
+      "track_b_row": {
+        "page": "House Grafton",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 9,
+          "source": "cite_ref",
+          "pov": "Tyrion III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Gulltown",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Gerold Grafton",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Vale of Arryn",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Lord of Gulltown",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Arryn",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Founder",
+            "target": "Gerold Grafton",
+            "edge_type": "FOUNDED",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            38
+          ],
+          "adwd": [
+            9
+          ],
+          "affc": [
+            23,
+            41
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Grafton",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 0,
+          "asos": 0,
+          "affc": 2,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 49082
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Hardyng",
+      "raw_html_path": "sources/wiki/_raw/House_Hardyng.json",
+      "track_b_row": {
+        "page": "House Hardyng",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 41,
+          "source": "cite_ref",
+          "pov": "The Princess in the Tower"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Harrold Hardyng",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Vale of Arryn",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Waynwood",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            41
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Hardyng",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 31872
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Hersy",
+      "raw_html_path": "sources/wiki/_raw/House_Hersy.json",
+      "track_b_row": {
+        "page": "House Hersy",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 38,
+          "source": "cite_ref",
+          "pov": "Bran V"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Newkeep",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Vale of Arryn",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Arryn",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            38
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Hersy",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 21076
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Lipps",
+      "raw_html_path": "sources/wiki/_raw/House_Lipps.json",
+      "track_b_row": {
+        "page": "House Lipps",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Vale of Arryn",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Arryn",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Lipps",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 20572
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Melcolm",
+      "raw_html_path": "sources/wiki/_raw/House_Melcolm.json",
+      "track_b_row": {
+        "page": "House Melcolm",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Old Anchor",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Vale of Arryn",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Arryn",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Melcolm",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 18402
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Moore",
+      "raw_html_path": "sources/wiki/_raw/House_Moore.json",
+      "track_b_row": {
+        "page": "House Moore",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 12,
+          "source": "cite_ref",
+          "pov": "Jaime II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Vale of Arryn",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Arryn",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            51
+          ],
+          "acok": [
+            41,
+            57,
+            61,
+            65
+          ],
+          "asos": [
+            12
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Moore",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 4,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 32084
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-sansa-05",
+          "line": 297,
+          "context": "### Houses\nHouse Baratheon, House Lannister, House Stark, House Tyrell, House Arryn, House Tully, House Martell, House Royce, House Mallister, House Caron, House Blackwood, House Frey, House Vance, Ho"
+        }
+      ]
+    },
+    {
+      "page": "House Pryor",
+      "raw_html_path": "sources/wiki/_raw/House_Pryor.json",
+      "track_b_row": {
+        "page": "House Pryor",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Pebble",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Vale",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Lord of Pebble",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Arryn",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Pryor",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 20342
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Redfort",
+      "raw_html_path": "sources/wiki/_raw/House_Redfort.json",
+      "track_b_row": {
+        "page": "House Redfort",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 17,
+          "source": "cite_ref",
+          "pov": "Jaime II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Redfort",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Horton Redfort",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Vale of Arryn",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Lord of Redfort",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Heir",
+            "target": "Jasper Redfort",
+            "edge_type": "HEIR_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Arryn",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            30,
+            34
+          ],
+          "affc": [
+            17,
+            23,
+            41
+          ],
+          "adwd": [
+            32
+          ],
+          "asos": [
+            19,
+            80
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Redfort",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 2,
+          "acok": 0,
+          "asos": 2,
+          "affc": 3,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 50442
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-catelyn-06",
+          "line": 281,
+          "context": "### Houses\nHouse Arryn, House Stark, House Tully, House Lannister, House Waynwood, House Royce, House Redfort, House Corbray"
+        }
+      ]
+    },
+    {
+      "page": "House Royce of the Gates of the Moon",
+      "raw_html_path": "sources/wiki/_raw/House_Royce_of_the_Gates_of_the_Moon.json",
+      "track_b_row": {
+        "page": "House Royce of the Gates of the Moon",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 10,
+          "source": "cite_ref",
+          "pov": "Brienne II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Gates of the Moon",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Nestor Royce",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Vale of Arryn",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Keeper of the Gates of the Moon",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Heir",
+            "target": "Albar Royce",
+            "edge_type": "HEIR_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Arryn",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            45,
+            68
+          ],
+          "agot": [
+            34,
+            38,
+            57
+          ],
+          "affc": [
+            10,
+            23,
+            41
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Royce of the Gates of the Moon",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 3,
+          "acok": 0,
+          "asos": 2,
+          "affc": 3,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 50142
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Ruthermont",
+      "raw_html_path": "sources/wiki/_raw/House_Ruthermont.json",
+      "track_b_row": {
+        "page": "House Ruthermont",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Unknown",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Vale of Arryn",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Arryn",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Ruthermont",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 22110
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Shett of Gull Tower",
+      "raw_html_path": "sources/wiki/_raw/House_Shett_of_Gull_Tower.json",
+      "track_b_row": {
+        "page": "House Shett of Gull Tower",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 10,
+          "source": "cite_ref",
+          "pov": "Brienne II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Gull Tower",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Damon Shett",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Vale of Arryn",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Knight of Gull Tower",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Royce",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            10
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Shett of Gull Tower",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 23960
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Shett of Gulltown",
+      "raw_html_path": "sources/wiki/_raw/House_Shett_of_Gulltown.json",
+      "track_b_row": {
+        "page": "House Shett of Gulltown",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 10,
+          "source": "cite_ref",
+          "pov": "Brienne II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Gulltown",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Vale of Arryn",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Grafton",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse",
+            "qualifier": "possibly"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            10
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Shett of Gulltown",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 22207
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Templeton",
+      "raw_html_path": "sources/wiki/_raw/House_Templeton.json",
+      "track_b_row": {
+        "page": "House Templeton",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 17,
+          "source": "cite_ref",
+          "pov": "Jaime II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Ninestars",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Symond Templeton",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Vale of Arryn",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Knight of Ninestars",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Arryn",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            17,
+            23,
+            41
+          ],
+          "asos": [
+            45,
+            80
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Templeton",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 2,
+          "affc": 3,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 42827
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Upcliff",
+      "raw_html_path": "sources/wiki/_raw/House_Upcliff.json",
+      "track_b_row": {
+        "page": "House Upcliff",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Witch Isle",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Region",
+            "target": "Vale of Arryn",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Arryn",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Upcliff",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 23461
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Waxley",
+      "raw_html_path": "sources/wiki/_raw/House_Waxley.json",
+      "track_b_row": {
+        "page": "House Waxley",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 10,
+          "source": "cite_ref",
+          "pov": "Brienne II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Wickenden",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Edmund Waxley",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Vale of Arryn",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Knight of Wickenden",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Arryn",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            10,
+            23,
+            41
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Waxley",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 3,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 29814
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Waynwood",
+      "raw_html_path": "sources/wiki/_raw/House_Waynwood.json",
+      "track_b_row": {
+        "page": "House Waynwood",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 17,
+          "source": "cite_ref",
+          "pov": "Jaime II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Ironoaks",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Anya Waynwood",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Vale of Arryn",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Lord of Ironoaks Castle",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Heir",
+            "target": "Morton Waynwood",
+            "edge_type": "HEIR_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Arryn",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            17,
+            23,
+            41
+          ],
+          "agot": [
+            34,
+            38,
+            40
+          ],
+          "asos": [
+            45,
+            80
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Waynwood",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 3,
+          "acok": 0,
+          "asos": 2,
+          "affc": 3,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 103557
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-tyrion-05",
+          "line": 253,
+          "context": "### Houses\nHouse Arryn, House Lannister, House Stark, House Tully, House Royce, House Corbray, House Hunter, House Waynwood"
+        },
+        {
+          "chapter": "agot-catelyn-06",
+          "line": 281,
+          "context": "### Houses\nHouse Arryn, House Stark, House Tully, House Lannister, House Waynwood, House Royce, House Redfort, House Corbray"
+        },
+        {
+          "chapter": "agot-catelyn-07",
+          "line": 242,
+          "context": "### Houses\nHouse Stark, House Arryn, House Lannister, House Tully, House Corbray, House Waynwood, House Hunter, House Vance, House Piper"
+        }
+      ]
+    },
+    {
+      "page": "House Woodhull",
+      "raw_html_path": "sources/wiki/_raw/House_Woodhull.json",
+      "track_b_row": {
+        "page": "House Woodhull",
+        "entity_type": "organization.house",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Seat",
+            "target": "Paps",
+            "edge_type": "SEAT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Vale of Arryn",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Elesham",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "House Woodhull",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 20973
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "House Wydman",
+      "raw_html_path": "sources/wiki/_raw/House_Wydman.json",
+      "track_b_row": {
+        "page": "House Wydman",
+        "entity_type": "organization.house",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 38,
+          "source": "cite_ref",
+          "pov": "Bran V"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Head",
+            "target": "Unknown",
+            "edge_type": "RULES",
+            "direction": "forward"
+          },
+          {
+            "field": "Region",
+            "target": "Vale of Arryn",
+            "edge_type": "REGION_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Overlord",
+            "target": "House Arryn",
+            "edge_type": "OVERLORD_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Founder",
+            "target": "tourney",
+            "edge_type": "FOUNDED",
+            "direction": "forward"
+          },
+          {
+            "field": "Founder",
+            "target": "knight",
+            "edge_type": "FOUNDED",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            38
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "House Wydman",
+        "entity_type_guess": "organization.house",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 24844
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

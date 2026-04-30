@@ -1,0 +1,3112 @@
+{
+  "bucket_id": "characters-house-targaryen-a",
+  "tier": "core",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Aegon Targaryen (Young Griff)",
+      "raw_html_path": "sources/wiki/_raw/Aegon_Targaryen_(Young_Griff).json",
+      "track_b_row": {
+        "page": "Aegon Targaryen (Young Griff)",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 3,
+          "source": "cite_ref",
+          "pov": "Catelyn I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Prince",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "supposedly"
+          },
+          {
+            "field": "Titles",
+            "target": "King of the Andals, the Rhoynar, and the First Men",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "claimant"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of the Seven Kingdoms",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "claimant"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward",
+            "qualifier": "supposedly"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "281\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "supposedly"
+          },
+          {
+            "field": "Born",
+            "target": "282\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "supposedly"
+          },
+          {
+            "field": "Born",
+            "target": "Dragonstone",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "supposedly"
+          },
+          {
+            "field": "Mothers",
+            "target": "Tyroshi",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse",
+            "qualifier": "initially claimed"
+          },
+          {
+            "field": "Mothers",
+            "target": "Elia Martell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse",
+            "qualifier": "supposedly"
+          }
+        ],
+        "aliases": [
+          "Young Griff",
+          "Aegon VI"
+        ],
+        "cite_refs": {
+          "adwd": [
+            5,
+            8,
+            14,
+            18,
+            22,
+            24,
+            61
+          ],
+          "agot": [
+            3,
+            11
+          ],
+          "acok": [
+            35
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Aegon Targaryen (Young Griff)",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 2,
+          "acok": 1,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 7
+        },
+        "has_infobox": true,
+        "byte_size": 109745
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Aegon Targaryen (son of Aenys I)",
+      "raw_html_path": "sources/wiki/_raw/Aegon_Targaryen_(son_of_Aenys_I).json",
+      "track_b_row": {
+        "page": "Aegon Targaryen (son of Aenys I)",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Prince of Dragonstone",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "King of the Andals, the Rhoynar, and the First Men",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "claimant"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "26\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "43\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Gods Eye",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Aenys I Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Alyssa Velaryon",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Rhaena Targaryen",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Aerea Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Rhaella Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "The pretender",
+          "Aegon the Uncrowned"
+        ],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Aegon Targaryen (son of Aenys I)",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 99782
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Aegon Targaryen (son of Aerys II)",
+      "raw_html_path": "sources/wiki/_raw/Aegon_Targaryen_(son_of_Aerys_II).json",
+      "track_b_row": {
+        "page": "Aegon Targaryen (son of Aerys II)",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Prince",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "272\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "273\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Aerys II Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Rhaella Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Aegon Targaryen (son of Aerys II)",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 46825
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Aegon Targaryen (son of Baelon)",
+      "raw_html_path": "sources/wiki/_raw/Aegon_Targaryen_(son_of_Baelon).json",
+      "track_b_row": {
+        "page": "Aegon Targaryen (son of Baelon)",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Prince",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "84\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "85\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Baelon Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Alyssa Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Aegon Targaryen (son of Baelon)",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 86305
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Aegon Targaryen (son of Gaemon)",
+      "raw_html_path": "sources/wiki/_raw/Aegon_Targaryen_(son_of_Gaemon).json",
+      "track_b_row": {
+        "page": "Aegon Targaryen (son of Gaemon)",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lord of Dragonstone",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "114",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "80\u00a0BC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Dragonstone",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Gaemon Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Daenys Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Elaena Targaryen",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Maegon Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Aerys Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Aegon Targaryen (son of Gaemon)",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 63052
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Aegon Targaryen (son of Jaehaerys I)",
+      "raw_html_path": "sources/wiki/_raw/Aegon_Targaryen_(son_of_Jaehaerys_I).json",
+      "track_b_row": {
+        "page": "Aegon Targaryen (son of Jaehaerys I)",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Prince",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "51\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "King's Landing",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "51\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "King's Landing",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Jaehaerys I Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Alysanne Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Aegon Targaryen (son of Jaehaerys I)",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 43960
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Aegon Targaryen (son of Rhaegar)",
+      "raw_html_path": "sources/wiki/_raw/Aegon_Targaryen_(son_of_Rhaegar).json",
+      "track_b_row": {
+        "page": "Aegon Targaryen (son of Rhaegar)",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 2,
+          "source": "cite_ref",
+          "pov": "The Prophet"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Prince",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "281\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "282\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Dragonstone",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "crownlands",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "283\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "aged 1"
+          },
+          {
+            "field": "Died",
+            "target": "Maegor's Holdfast",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "King's Landing",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Rhaegar Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Elia Martell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [
+          "The prince that was promised"
+        ],
+        "cite_refs": {
+          "acok": [
+            17,
+            25,
+            38,
+            41,
+            48,
+            63
+          ],
+          "affc": [
+            2,
+            13,
+            35,
+            40
+          ],
+          "agot": [
+            3,
+            12,
+            20,
+            30,
+            45,
+            64
+          ],
+          "asos": [
+            34,
+            37,
+            53,
+            66,
+            70
+          ],
+          "adwd": [
+            2,
+            5,
+            8,
+            11,
+            22,
+            38,
+            67
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Aegon Targaryen (son of Rhaegar)",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 6,
+          "acok": 6,
+          "asos": 5,
+          "affc": 4,
+          "adwd": 7
+        },
+        "has_infobox": true,
+        "byte_size": 104506
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Aelor Targaryen",
+      "raw_html_path": "sources/wiki/_raw/Aelor_Targaryen.json",
+      "track_b_row": {
+        "page": "Aelor Targaryen",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 5,
+          "source": "cite_ref",
+          "pov": "Brienne I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Prince",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Prince of Dragonstone",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "195",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "209\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "217\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Rhaegel Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Alys Arryn",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Aelora Targaryen",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            5
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Aelor Targaryen",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 74737
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Aelora Targaryen",
+      "raw_html_path": "sources/wiki/_raw/Aelora_Targaryen.json",
+      "track_b_row": {
+        "page": "Aelora Targaryen",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Princess",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Princess of Dragonstone",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "195",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "209\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "217",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "221\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Rhaegel Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Alys Arryn",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Aelor Targaryen",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Aelora Targaryen",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 75991
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Aelyx Targaryen",
+      "raw_html_path": "sources/wiki/_raw/Aelyx_Targaryen.json",
+      "track_b_row": {
+        "page": "Aelyx Targaryen",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lord of Dragonstone",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "89",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "55\u00a0BC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Dragonstone",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Aerys Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Aelyx Targaryen",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 62364
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Aemon Targaryen (son of Jaehaerys I)",
+      "raw_html_path": "sources/wiki/_raw/Aemon_Targaryen_(son_of_Jaehaerys_I).json",
+      "track_b_row": {
+        "page": "Aemon Targaryen (son of Jaehaerys I)",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Prince",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Prince of Dragonstone",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Master of laws",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord justiciar",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "55\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Dragonstone",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "92\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "aged 37"
+          },
+          {
+            "field": "Died",
+            "target": "Tarth",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Jaehaerys I Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Alysanne Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Jocelyn Baratheon",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Rhaenys Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Aemon Targaryen (son of Jaehaerys I)",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 165212
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Aemon Targaryen (son of Maekar I)",
+      "raw_html_path": "sources/wiki/_raw/Aemon_Targaryen_(son_of_Maekar_I).json",
+      "track_b_row": {
+        "page": "Aemon Targaryen (son of Maekar I)",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 5,
+          "source": "cite_ref",
+          "pov": "Brienne I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Prince",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "formerly"
+          },
+          {
+            "field": "Titles",
+            "target": "Maester",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "formerly"
+          },
+          {
+            "field": "Titles",
+            "target": "Dragonstone",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "formerly"
+          },
+          {
+            "field": "Titles",
+            "target": "Castle Black",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Citadel",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Night's Watch",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "198\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "King's Landing",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "300\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "aged 102"
+          },
+          {
+            "field": "Died",
+            "target": "Cinnamon Wind",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Dorne",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Summer Sea",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Maekar I Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Dyanna Dayne",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [
+          "Aemon Targaryen",
+          "Uncle Maester"
+        ],
+        "cite_refs": {
+          "affc": [
+            5,
+            15,
+            26,
+            35,
+            45
+          ],
+          "acok": [
+            6
+          ],
+          "agot": [
+            19,
+            21,
+            26,
+            41,
+            48,
+            60
+          ],
+          "asos": [
+            48,
+            55,
+            69,
+            73,
+            75,
+            78,
+            79
+          ],
+          "adwd": [
+            7,
+            10,
+            21,
+            44,
+            69
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Aemon Targaryen (son of Maekar I)",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 6,
+          "acok": 1,
+          "asos": 7,
+          "affc": 5,
+          "adwd": 5
+        },
+        "has_infobox": true,
+        "byte_size": 147835
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Aemon Targaryen (son of Viserys II)",
+      "raw_html_path": "sources/wiki/_raw/Aemon_Targaryen_(son_of_Viserys_II).json",
+      "track_b_row": {
+        "page": "Aemon Targaryen (son of Viserys II)",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 3,
+          "source": "cite_ref",
+          "pov": "Sansa I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Prince",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord Commander of the Kingsguard",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Kingsguard",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "136\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Red Keep",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "King's Landing",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "178",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "183\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Viserys II Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Larra Rogare",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Lover",
+            "target": "Naerys Targaryen",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric",
+            "qualifier": "rumored"
+          },
+          {
+            "field": "Issue",
+            "target": "Daeron II Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward",
+            "qualifier": "rumored"
+          }
+        ],
+        "aliases": [
+          "The Dragonknight",
+          "The Knight of Tears"
+        ],
+        "cite_refs": {
+          "asos": [
+            12,
+            24,
+            59,
+            67
+          ],
+          "agot": [
+            15,
+            30,
+            44,
+            51,
+            60,
+            66
+          ],
+          "acok": [
+            3,
+            60
+          ],
+          "affc": [
+            13,
+            35,
+            43
+          ],
+          "adwd": [
+            29
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Aemon Targaryen (son of Viserys II)",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 6,
+          "acok": 2,
+          "asos": 4,
+          "affc": 3,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 142064
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Aemond Targaryen",
+      "raw_html_path": "sources/wiki/_raw/Aemond_Targaryen.json",
+      "track_b_row": {
+        "page": "Aemond Targaryen",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 8,
+          "source": "cite_ref",
+          "pov": "Jon II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Prince",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Protector of the Realm",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Prince Regent",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Greens",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "110\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "130\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "aged 20"
+          },
+          {
+            "field": "Died",
+            "target": "Gods Eye",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Viserys I Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Alicent Hightower",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Alys Rivers",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric",
+            "qualifier": "allegedly"
+          },
+          {
+            "field": "Issue",
+            "target": "Alleged son",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Aemond One-Eye",
+          "Aemond the Kinslayer"
+        ],
+        "cite_refs": {
+          "adwd": [
+            8
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Aemond Targaryen",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 137524
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Aenar Targaryen",
+      "raw_html_path": "sources/wiki/_raw/Aenar_Targaryen.json",
+      "track_b_row": {
+        "page": "Aenar Targaryen",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 11,
+          "source": "cite_ref",
+          "pov": "Sansa"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Dragonlord",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of Dragonstone",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "138\u00a0BC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Valyria",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "102\u00a0BC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Dragonstone",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouse",
+            "target": "Several wives",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Gaemon Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Daenys Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Aenar the Exile",
+          "The Lord who Left"
+        ],
+        "cite_refs": {
+          "affc": [
+            11
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Aenar Targaryen",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 74932
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Aerea Targaryen",
+      "raw_html_path": "sources/wiki/_raw/Aerea_Targaryen.json",
+      "track_b_row": {
+        "page": "Aerea Targaryen",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Princess",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "42\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Casterly Rock",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "56\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "King's Landing",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Aegon Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Rhaena Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [
+          "Rhaella Targaryen (allegedly)"
+        ],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Aerea Targaryen",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 90989
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Aerion Targaryen",
+      "raw_html_path": "sources/wiki/_raw/Aerion_Targaryen.json",
+      "track_b_row": {
+        "page": "Aerion Targaryen",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 6,
+          "source": "cite_ref",
+          "pov": "Arya II"
+        },
+        "books": [
+          {
+            "book": "ACOK",
+            "appearance": "mentioned"
+          },
+          {
+            "book": "ASOS",
+            "appearance": "mentioned"
+          },
+          {
+            "book": "AFFC",
+            "appearance": "mentioned"
+          },
+          {
+            "book": "ADWD",
+            "appearance": "mentioned"
+          }
+        ],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Prince of Dragonstone",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Second Sons",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "191",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "194\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "232\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Maekar I Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Dyanna Dayne",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Daenora Targaryen",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Maegor Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Aerion the Monstrous",
+          "The Prince Who Thought He Was a Dragon",
+          "Aerion Brightflame",
+          "Aerion Brightfire",
+          "The Bright Prince",
+          "Brightflame",
+          "Brightfire"
+        ],
+        "cite_refs": {
+          "acok": [
+            6
+          ],
+          "asos": [
+            6,
+            25,
+            37,
+            54
+          ],
+          "adwd": [
+            66
+          ],
+          "affc": [
+            26
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Aerion Targaryen",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 4,
+          "affc": 1,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 122633
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Aerion Targaryen (son of Daemion)",
+      "raw_html_path": "sources/wiki/_raw/Aerion_Targaryen_(son_of_Daemion).json",
+      "track_b_row": {
+        "page": "Aerion Targaryen (son of Daemion)",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lord of Dragonstone",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "75",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "41\u00a0BC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Dragonstone",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "27",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "2\u00a0BC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Dragonstone",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Daemion Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Valaena Velaryon",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Visenya Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Aegon I Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Rhaenys Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Orys Baratheon",
+            "edge_type": "PARENT_OF",
+            "direction": "forward",
+            "qualifier": "rumored"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Aerion Targaryen (son of Daemion)",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 120512
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Aeryn Targaryen",
+      "raw_html_path": "sources/wiki/_raw/Aeryn_Targaryen.json",
+      "track_b_row": {
+        "page": "Aeryn Targaryen",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Prince",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Aeryn Targaryen",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 44042
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Aerys II Targaryen's last mistress",
+      "raw_html_path": "sources/wiki/_raw/Aerys_II_Targaryen's_last_mistress.json",
+      "track_b_row": {
+        "page": "Aerys II Targaryen's last mistress",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "274\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "275\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Red Keep",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "King's Landing",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Lover",
+            "target": "Aerys II Targaryen",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Aerys II Targaryen's last mistress",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 6795
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Aerys Targaryen (son of Aegon)",
+      "raw_html_path": "sources/wiki/_raw/Aerys_Targaryen_(son_of_Aegon).json",
+      "track_b_row": {
+        "page": "Aerys Targaryen (son of Aegon)",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lord of Dragonstone",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "101",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "67\u00a0BC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Dragonstone",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Aegon Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Elaena Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Issue",
+            "target": "Aelyx Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Baelon Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Daemion Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Aerys Targaryen (son of Aegon)",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 62297
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Aggo",
+      "raw_html_path": "sources/wiki/_raw/Aggo.json",
+      "track_b_row": {
+        "page": "Aggo",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 2,
+          "source": "cite_ref",
+          "pov": "Tyrion I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Ko",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Bloodrider",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Drogo",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Queensguard",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Dothraki",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Dothraki",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            54,
+            57,
+            61,
+            64,
+            72
+          ],
+          "acok": [
+            12,
+            27,
+            40,
+            48,
+            63
+          ],
+          "asos": [
+            23,
+            27,
+            42,
+            57,
+            71
+          ],
+          "adwd": [
+            2,
+            30,
+            36,
+            52,
+            55,
+            59
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Aggo",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 5,
+          "acok": 5,
+          "asos": 5,
+          "affc": 0,
+          "adwd": 6
+        },
+        "has_infobox": true,
+        "byte_size": 44783
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-daenerys-06",
+          "line": 34,
+          "context": "| Jhogo | Khas member | No | Reaches for his whip when the wineseller hesitates; catches the fleeing wineseller with his whip; receives a horse from Drogo |\n| Aggo | Khas member | No | Tasked with car"
+        },
+        {
+          "chapter": "agot-daenerys-06",
+          "line": 35,
+          "context": "| Aggo | Khas member | No | Tasked with carrying the wine cask |\n| Rakharo | Khas member | No | Eats three sausages; the wineseller darts between him and Aggo |\n| Quaro | Khas member | No | Eats a sec"
+        },
+        {
+          "chapter": "agot-daenerys-06",
+          "line": 161,
+          "context": "| Confrontation | Ser Jorah, wine merchant | Ser Jorah returns and confronts the wineseller at his stall | Dany's khas array behind Jorah | Demands the man drink the wine |\n| Ambush | Wine merchant | "
+        },
+        {
+          "chapter": "agot-daenerys-06",
+          "line": 239,
+          "context": "- Jhogo\n- Aggo\n- Rakharo"
+        },
+        {
+          "chapter": "agot-daenerys-06",
+          "line": 295,
+          "context": "- Dosh khaleen (crones)\n- Dany's khas (four young warriors: Jhogo, Aggo, Rakharo, Quaro)\n- Drogo's bloodriders"
+        },
+        {
+          "chapter": "agot-daenerys-08",
+          "line": 13,
+          "context": "- **time_markers:** \"since they had mounted up at dawn\"; \"not even that much since midday\"; \"the heat of the afternoon sun\"; \"the sun was low on the horizon\" at chapter's end; \"He will be gone by morn"
+        },
+        {
+          "chapter": "agot-daenerys-08",
+          "line": 33,
+          "context": "| Haggo | Bloodrider | No | Strikes Mirri, killed by Rakharo and Jhogo |\n| Cohollo | Bloodrider | No | Spits on Dany, holds knife to her throat, killed by Aggo's arrow |\n| Irri | Handmaid | No | Helps"
+        },
+        {
+          "chapter": "agot-daenerys-08",
+          "line": 39,
+          "context": "| Jhogo | Member of Dany's khas | No | Guards tent, helps with stallion sacrifice, uses whip on Haggo |\n| Aggo | Member of Dany's khas | No | Guards tent, digs firepit, kills Cohollo with arrow |\n| Ra"
+        },
+        {
+          "chapter": "agot-daenerys-08",
+          "line": 129,
+          "context": "23. **Rakharo and Jhogo kill Haggo** \u2014 Jhogo's whip coils around Haggo's throat, pulling him down. Rakharo swings his arakh through the top of Haggo's head.\n24. **Aggo kills Cohollo** \u2014 Cohollo grabs "
+        },
+        {
+          "chapter": "agot-daenerys-08",
+          "line": 152,
+          "context": "| Departure | Qotho, Haggo | Leave the tent | | Ser Jorah also departs to don armor |\n| Assembly | Rakharo, Quaro, Aggo, Jhogo | Lower Drogo in bath; bring stallion into tent | Inside tent | Stallion "
+        },
+        {
+          "chapter": "agot-daenerys-08",
+          "line": 159,
+          "context": "| Confrontation | Rakharo + Jhogo vs. Haggo | Jhogo whips, Rakharo kills | Near tent | |\n| Confrontation | Cohollo vs. Dany/Aggo | Cohollo grabs Dany, knife to throat; Aggo shoots him | Near tent | |\n"
+        },
+        {
+          "chapter": "agot-daenerys-08",
+          "line": 215,
+          "context": "| Ser Jorah | Qotho | \"Horselord. Try me.\" | Challenging Qotho before the duel |\n| Aggo (possibly) | Others | \"Take her to the maegi.\" | Suggesting Mirri deliver Dany's baby |\n| Irri | Others | \"The L"
+        },
+        {
+          "chapter": "agot-daenerys-08",
+          "line": 230,
+          "context": "| Dany | commands | Haggo | Orders him to lie about why they stopped |\n| Dany | commands | Jhogo, Aggo, Rakharo, Quaro | Posts them as guards; they obey and fight for her |\n| Dany | trusts | Ser Jorah"
+        },
+        {
+          "chapter": "agot-daenerys-08",
+          "line": 245,
+          "context": "| Jhogo | assists in killing | Haggo | Whip around Haggo's throat to pull him down |\n| Aggo | kills | Cohollo | Arrow under the arm, through lungs and heart |\n| Cohollo | threatens / hostile toward | "
+        },
+        {
+          "chapter": "agot-daenerys-08",
+          "line": 269,
+          "context": "### Characters\nDaenerys Targaryen, Khal Drogo, Ser Jorah Mormont, Mirri Maz Duur, Qotho, Haggo, Cohollo, Irri, Doreah, Jhiqui, Eroeh, Jhogo, Aggo, Rakharo, Quaro, Rhaego (unborn), Viserys Targaryen (r"
+        },
+        {
+          "chapter": "agot-daenerys-08",
+          "line": 287,
+          "context": "### Artifacts & Objects\nMirri Maz Duur's bronze ritual knife (hammered red bronze, leaf-shaped, ancient glyphs), Mirri's chest of supplies, Drogo's bells (given by his father), Drogo's medallion belt,"
+        },
+        {
+          "chapter": "agot-daenerys-09",
+          "line": 34,
+          "context": "| Jhogo | Bloodrider/khas member | No | Helps support Dany; reports Eroeh's fate at Mago's hands |\n| Aggo | Khas member | No | Declares \"the old remain\"; says Eroeh's fate \"was her fate\" |\n| Rakharo |"
+        },
+        {
+          "chapter": "agot-daenerys-09",
+          "line": 45,
+          "context": "| Jhogo | Little wisp of mustache | | | | | | | |\n| Aggo | | | | | | | Flat broad face | |\n| Rhaego (vision) | Silver-gold hair | Violet eyes shaped like almonds | Tall and proud | | | | Copper skin ("
+        },
+        {
+          "chapter": "agot-daenerys-09",
+          "line": 152,
+          "context": "| Drogo is alive but in a vegetative state \u2014 blind, unresponsive, can walk if led, eats if fed | Dany sees Drogo; Ser Jorah describes his condition | All present | No |\n| The khalasar has splintered \u2014"
+        },
+        {
+          "chapter": "agot-daenerys-09",
+          "line": 168,
+          "context": "| Ser Jorah | Daenerys | \"Ko Pono left first, naming himself Khal Pono, and many followed him. Jhaqo was not long to do the same. The rest slipped away night by night, in large bands and small. There "
+        },
+        {
+          "chapter": "agot-daenerys-09",
+          "line": 200,
+          "context": "| Doreah | serves | Daenerys | Flees rather than deliver bad news; previously taught Dany \"other ways\" of intimacy |\n| Aggo | sworn to | Daenerys | Declares \"we who swore, we remain\"; loyal among the "
+        },
+        {
+          "chapter": "agot-daenerys-09",
+          "line": 230,
+          "context": "### Characters\nDaenerys Targaryen, Khal Drogo, Ser Jorah Mormont, Mirri Maz Duur, Jhiqui, Irri, Doreah, Jhogo, Aggo, Rakharo, Rhaego (dead), Viserys Targaryen (dream), Rhaegar Targaryen (dream), Ko Po"
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 13,
+          "context": "- **time_markers:** Sun creeping toward its zenith (midday); sun had begun to lower toward the west (afternoon); sun was going down (evening/dusk); first star appeared at dusk; fire burned through the"
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 31,
+          "context": "| Jhogo | Warrior of Dany's khas | No | Named ko; initially reluctant (\"it would shame me, to be bloodrider to a woman\"); first to kneel after dragons hatch |\n| Aggo | Warrior of Dany's khas | No | Na"
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 85,
+          "context": "| Silver-handled whip | Dany's bride gift; given to Jhogo when she names him ko | No | Jhogo |\n| Dragonbone bow | Dany's bride gift; double-curved, shiny black, taller than Dany; given to Aggo when sh"
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 97,
+          "context": "| Ser Jorah's sword | Laid at Dany's feet when he swears his oath | No | Ser Jorah / pledged to Dany |\n| Torch | Taken from Aggo's hand by Dany to light the pyre | No | Consumed |\n| Eggshell fragments"
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 103,
+          "context": "|--------------|---------------------|-------|----------------------|-------|-------------------------------|\n| Stallion sacrifice | Withered apple fed to the stallion before it is killed | | The stal"
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 112,
+          "context": "1. **Pyre construction begins** \u2014 Foragers gather gnarled cottonwoods, purple brush, and brown grass; logs are split and laid in a square, center filled with straw, brush, bark shavings, and dry grass"
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 116,
+          "context": "5. **Pyre platform built over horse** \u2014 Hewn logs laid east to west (sunrise to sunset); Drogo's treasures placed on the platform: tent, painted vests, saddles, harness, his father's whip, his arakh, "
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 121,
+          "context": "10. **Dany names Jhogo ko** \u2014 Gives him the silver-handled whip; he hesitates, says it would shame him to be bloodrider to a woman\n11. **Dany names Aggo ko** \u2014 Gives him the dragonbone bow; he says on"
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 126,
+          "context": "15. **Dany prepares Drogo's body** \u2014 Washes him, brushes and oils his hair, braids it, slides silver rings onto his mustache, hangs his bells; dresses him in horsehair leggings, high boots, gold-and-s"
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 132,
+          "context": "21. **The red comet appears** \u2014 Jhogo spots the first star \u2014 a comet, burning red, \"bloodred; fire red; the dragon's tail\"\n22. **Dany lights the pyre** \u2014 Takes the torch from Aggo and thrusts it betwe"
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 142,
+          "context": "31. **Dany found alive with three dragons** \u2014 After the fire dies and ground cools, Jorah finds her amidst the ashes, naked, soot-covered, hair burned away, but unhurt; cream-and-gold dragon suckling "
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 148,
+          "context": "|-------|-----|---------------------|-------------|-------|\n| Opening | Foragers, Rakharo, Aggo | Building the pyre on open ground | Funeral site | Red, dead, parched land |\n| Opening | Mirri Maz Duur"
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 154,
+          "context": "| Concealment | Daenerys | Inside the tent; bathes, prepares Drogo | Her tent | Private preparation |\n| Departure | Jhogo, Aggo | Carry Drogo's body from tent to pyre | Tent \u2192 pyre | Dany walks behind"
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 169,
+          "context": "| Dany frees all slaves in her khalasar | Public declaration | All present | No |\n| Dany names Jhogo, Aggo, and Rakharo as her kos | Public declaration | All present | No |\n| All three kos resist or q"
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 192,
+          "context": "| Jhogo | Daenerys | \"Khaleesi, this is not done. It would shame me, to be bloodrider to a woman.\" | Refusing/hesitating to accept ko status from a woman |\n| Aggo | Daenerys | \"I cannot say these word"
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 204,
+          "context": "| Jhogo | Daenerys | \"Blood of my blood.\" | Kneeling after the dragons hatch; first to swear |\n| Aggo | | \"Blood of my blood.\" | Echoing Jhogo |\n| Rakharo | | \"Blood of my blood.\" | Shouting the oath "
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 218,
+          "context": "| Daenerys | Commands | Jhogo | Orders him to silence Mirri; names him ko |\n| Daenerys | Commands | Aggo | Names him ko; takes torch from him |\n| Daenerys | Commands | Rakharo | Names him ko; orders h"
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 226,
+          "context": "| Jhogo | Reluctant loyalty to | Daenerys | Says it would shame him to be bloodrider to a woman; later kneels and says \"blood of my blood\" |\n| Aggo | Reluctant loyalty to | Daenerys | Says only a man "
+        },
+        {
+          "chapter": "agot-daenerys-10",
+          "line": 248,
+          "context": "### Characters\nDaenerys Targaryen, Ser Jorah Mormont, Khal Drogo (dead), Mirri Maz Duur, Jhogo, Aggo, Rakharo, Irri, Jhiqui, Doreah, Viserys Targaryen (referenced), Aegon (referenced, implied Aegon th"
+        },
+        {
+          "chapter": "agot-daenerys-07",
+          "line": 33,
+          "context": "| Quaro | Warrior in Dany's khas; aids in stopping rapes | No | |\n| Aggo | Warrior in Dany's khas; kills rapist with arrow, threatens Mirri with knife on Qotho's order | No | |\n| Rakharo | Warrior in "
+        },
+        {
+          "chapter": "agot-daenerys-07",
+          "line": 112,
+          "context": "7. **Ser Jorah compares Dany to Rhaegar** \u2014 When she orders him to go, he says she is her brother's sister; she assumes he means Viserys, but he says \"No \u2014 Rhaegar.\"\n8. **Jhogo and the khas stop the r"
+        },
+        {
+          "chapter": "agot-daenerys-07",
+          "line": 137,
+          "context": "| Confrontation | Dany | Stops on road, orders khas to stop rape | Across the road from rape | Girl being raped visible from Dany's position |\n| Advance | Jhogo, Quaro, Aggo, Rakharo | Ride to rapists"
+        },
+        {
+          "chapter": "agot-daenerys-07",
+          "line": 138,
+          "context": "| Advance | Jhogo, Quaro, Aggo, Rakharo | Ride to rapists; Jhogo beheads one | Across the road | Aggo points back at Dany on her silver |\n| Advance | Ser Jorah | Dismounts, pulls rapist off victim | A"
+        },
+        {
+          "chapter": "agot-daenerys-07",
+          "line": 195,
+          "context": "| Drogo | husband of / supportive of | Dany | Calls her \"moon of my life\"; supports her claims over captive women; praises her fierceness |\n| Dany | commands | Jhogo, Quaro, Aggo, Rakharo | Orders the"
+        },
+        {
+          "chapter": "agot-daenerys-07",
+          "line": 203,
+          "context": "| Cohollo | loyal to | Drogo | Reports on Drogo's instructions; insists on staying as \"blood of his blood\" |\n| Dany | protects / claims | Mirri Maz Duur | Saves her from rape; prevents Aggo from cutti"
+        },
+        {
+          "chapter": "agot-daenerys-07",
+          "line": 229,
+          "context": "### Characters\nDaenerys Targaryen, Khal Drogo, Ser Jorah Mormont, Mirri Maz Duur, Jhogo, Quaro, Aggo, Rakharo, Qotho, Haggo, Cohollo, Mago, Irri, Doreah, Jhiqui, Khal Ogo, Fogo, Viserys, Rhaegar, Ko J"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 35,
+          "context": "| Doreah | Handmaid to Dany | No | Sent to invite Viserys; struck by Viserys, eye reddened; Lysene girl |\n| Aggo | Rider in Dany's khas | No | Rides behind Dany's party |\n| Rakharo | Rider in Dany's k"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 140,
+          "context": "| Arrival | Ser Jorah, Viserys | Riding alongside Dany | Flanking Dany | |\n| Arrival | Aggo, Rakharo | Riding behind Dany's party | Behind Dany, Jorah, Viserys | Men of Dany's khas |\n| Advance | Entir"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 238,
+          "context": "### Characters\nDaenerys Targaryen, Khal Drogo, Viserys Targaryen, Ser Jorah Mormont, Cohollo, Haggo, Qotho, Irri, Jhiqui, Doreah, Aggo, Rakharo, Magister Illyrio Mopatis, Rhaegar Targaryen, Robert Bar"
+        }
+      ]
+    },
+    {
+      "page": "Alfyn",
+      "raw_html_path": "sources/wiki/_raw/Alfyn.json",
+      "track_b_row": {
+        "page": "Alfyn",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Septon",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "High Septon",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Father of the Faithful",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "His High Holiness",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Shepherd of the Faithful",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Voice of the Seven on Earth",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Faith of the Seven",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westerosi",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "54",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "59\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Alfyn"
+        ],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Alfyn",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 20528
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Allar",
+      "raw_html_path": "sources/wiki/_raw/Allar.json",
+      "track_b_row": {
+        "page": "Allar",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Grand Maester",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "The Citadel",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "101\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "King's Landing",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Allar",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 21994
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Alysanne Targaryen",
+      "raw_html_path": "sources/wiki/_raw/Alysanne_Targaryen.json",
+      "track_b_row": {
+        "page": "Alysanne Targaryen",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 5,
+          "source": "cite_ref",
+          "pov": "Brienne I"
+        },
+        "books": [
+          {
+            "book": "ASOS",
+            "appearance": "mentioned"
+          },
+          {
+            "book": "AFFC",
+            "appearance": "mentioned"
+          },
+          {
+            "book": "ADWD",
+            "appearance": "mentioned"
+          }
+        ],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Princess",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Queen",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "36\u00a0AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "King's Landing",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "100\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "aged 64"
+          },
+          {
+            "field": "Died",
+            "target": "Dragonstone",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Buried",
+            "target": "Dragonstone",
+            "edge_type": "BURIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Aenys I Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Alyssa Velaryon",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Jaehaerys I Targaryen",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Aegon Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Daenerys Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Aemon Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Baelon Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Alyssa Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Maegelle",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Vaegon",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Daella Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Saera Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Viserra Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Gaemon Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Valerion Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Gael Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Good Queen Alysanne",
+          "The little maid",
+          "The other daughter"
+        ],
+        "cite_refs": {
+          "asos": [
+            40,
+            41,
+            56
+          ],
+          "adwd": [
+            32,
+            33
+          ],
+          "affc": [
+            5,
+            10,
+            24
+          ],
+          "acok": [
+            58
+          ],
+          "agot": [
+            68
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Alysanne Targaryen",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 1,
+          "asos": 3,
+          "affc": 3,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 307185
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Anselm",
+      "raw_html_path": "sources/wiki/_raw/Anselm.json",
+      "track_b_row": {
+        "page": "Anselm",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Maester",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Dragonstone",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Citadel",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westerosi",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "54\u00a0AC",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Dragonstone",
+            "edge_type": "DIED_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Anselm",
+        "entity_type_guess": "character.human",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 8700
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

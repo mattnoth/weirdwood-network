@@ -1,0 +1,5 @@
+## Origins
+
+Lord Lucifer was present at [Visenya's Hill](wiki:Visenya's_Hill) when King Maegor was challenged by Ser [Damon Morrigen](wiki:Damon_Morrigen), [Grand Captain](wiki:Grand_Captain) of the [Warrior's Sons](wiki:Warrior's_Sons), to a [trial of seven](wiki:Trial_of_seven). He initially kept quiet when Maegor called upon those who would stand beside him. But he was shamed by the example of [Dick Bean](wiki:Dick_Bean), a simple man-at-arms, and the appeal of Ser [Bernarr Brune](wiki:Bernarr_Brune), and became one of the king's champions.(wiki:Lucifer_Massey.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+According to several chroniclers, Lord Lucifer hacked off an arm of Ser [Harys Horpe](wiki:Harys_Horpe), one of the Warrior's Sons. According to one of these accounts, Massey was killed after Horpe tossed his battle-axe into the other hand and buried it between Lord Massey's eyes.(wiki:Lucifer_Massey.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)

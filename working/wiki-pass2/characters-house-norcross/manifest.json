@@ -1,0 +1,53 @@
+{
+  "bucket_id": "characters-house-norcross",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "d80213bd5e411ac1f66903479b12e23cfc9ce2ab02a28f104799b57c04930612",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Alester Norcross",
+    "Bayard Norcross",
+    "Hosman Norcross",
+    "Jeffory Norcross",
+    "Renly Norcross",
+    "Tyler Norcross"
+  ],
+  "expected_nodes": [
+    "alester-norcross.node.md",
+    "bayard-norcross.node.md",
+    "hosman-norcross.node.md",
+    "jeffory-norcross.node.md",
+    "renly-norcross.node.md",
+    "tyler-norcross.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Alester Norcross",
+      "Bayard Norcross",
+      "Hosman Norcross",
+      "Jeffory Norcross",
+      "Renly Norcross",
+      "Tyler Norcross"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 6,
+      "tier_a": 0,
+      "tier_b": 6,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.886529+00:00",
+  "stage3_promoted_count": 6,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

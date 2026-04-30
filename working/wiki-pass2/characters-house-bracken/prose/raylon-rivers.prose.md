@@ -1,0 +1,3 @@
+## Origins
+
+[House Bracken](wiki:House_Bracken) declared for the [greens](wiki:Greens) during the [Dance of the Dragons](wiki:Dance_of_the_Dragons). Ser [Amos Bracken](wiki:Amos_Bracken) was slain during the [Battle of the Burning Mill](wiki:Battle_of_the_Burning_Mill), after which his half-brother Raylon led survivors back toward [Stone Hedge](wiki:Stone_Hedge). Prince [Daemon Targaryen](wiki:Daemon_Targaryen) had [taken Stone Hedge](wiki:Taking_of_Stone_Hedge) and Lord [Humfrey Bracken](wiki:Humfrey_Bracken) in the meantime, however, so Raylon surrendered to spare his kin from harm.(wiki:Raylon_Rivers.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

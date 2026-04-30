@@ -1,0 +1,44 @@
+{
+  "bucket_id": "characters-house-stonetree",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "49968d77c8f429ecfdbd5bc30ff966658b2906a6badcefd9cfb8faf7b3519c83",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Lady Stonetree (wife of Quellon Greyjoy)",
+    "Lord Stonetree",
+    "Sigfry Stonetree"
+  ],
+  "expected_nodes": [
+    "lady-stonetree-wife-of-quellon-greyjoy.node.md",
+    "lord-stonetree.node.md",
+    "sigfry-stonetree.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Lady Stonetree (wife of Quellon Greyjoy)",
+      "Lord Stonetree",
+      "Sigfry Stonetree"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 3,
+      "tier_a": 0,
+      "tier_b": 3,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.981744+00:00",
+  "stage3_promoted_count": 3,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

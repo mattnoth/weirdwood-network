@@ -1,0 +1,41 @@
+{
+  "bucket_id": "characters-house-longwaters",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "f5e145d7cc43c004a58c52793737440777c22987595e99236b9a22e8ae676c63",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Longwaters",
+    "Rennifer Longwaters"
+  ],
+  "expected_nodes": [
+    "longwaters.node.md",
+    "rennifer-longwaters.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Longwaters",
+      "Rennifer Longwaters"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 2,
+      "tier_a": 0,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.854468+00:00",
+  "stage3_promoted_count": 2,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

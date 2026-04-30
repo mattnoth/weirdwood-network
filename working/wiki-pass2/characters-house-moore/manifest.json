@@ -1,0 +1,45 @@
+{
+  "bucket_id": "characters-house-moore",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "9b3c596754e7804d9767c1d9952882259ca294b5f3abe61d610b465c3080e190",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Maladon Moore",
+    "Mandon Moore",
+    "Perianne Moore"
+  ],
+  "expected_nodes": [
+    "maladon-moore.node.md",
+    "mandon-moore.node.md",
+    "perianne-moore.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Mandon Moore"
+    ],
+    "tier_b": [
+      "Maladon Moore",
+      "Perianne Moore"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 3,
+      "tier_a": 1,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.876264+00:00",
+  "stage3_promoted_count": 3,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

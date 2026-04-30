@@ -1,0 +1,38 @@
+{
+  "bucket_id": "characters-house-foxglove",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "a35c2af8316f5550abb38f6b38ab84d9fe611bc87a565045400f6ebc40a8a223",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Willam Foxglove"
+  ],
+  "expected_nodes": [
+    "willam-foxglove.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Willam Foxglove"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 1,
+      "tier_a": 0,
+      "tier_b": 1,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.769339+00:00",
+  "stage3_promoted_count": 1,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

@@ -1,0 +1,63 @@
+{
+  "bucket_id": "characters-house-massey",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "ace976714599c7c2c4b61bdc410c15ece769ea0fe84cfa4d3cd33c4765bd518a",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Alarra Massey",
+    "Albin Massey",
+    "Elinor Massey",
+    "Justin Massey",
+    "Lucifer Massey",
+    "Maldon Massey",
+    "Robin Massey",
+    "Triston Massey",
+    "Wallace Massey"
+  ],
+  "expected_nodes": [
+    "alarra-massey.node.md",
+    "albin-massey.node.md",
+    "elinor-massey.node.md",
+    "justin-massey.node.md",
+    "lucifer-massey.node.md",
+    "maldon-massey.node.md",
+    "robin-massey.node.md",
+    "triston-massey.node.md",
+    "wallace-massey.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Justin Massey"
+    ],
+    "tier_b": [
+      "Alarra Massey",
+      "Albin Massey",
+      "Elinor Massey",
+      "Lucifer Massey",
+      "Maldon Massey",
+      "Robin Massey",
+      "Triston Massey",
+      "Wallace Massey"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 9,
+      "tier_a": 1,
+      "tier_b": 8,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.871615+00:00",
+  "stage3_promoted_count": 9,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

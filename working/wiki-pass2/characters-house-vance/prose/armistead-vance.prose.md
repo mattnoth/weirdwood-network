@@ -1,0 +1,3 @@
+## Origins
+
+Armistead was presumably one of the seven Andal kings who defeated [Tristifer IV Mudd](wiki:Tristifer_IV_Mudd), [King of the Rivers and the Hills](wiki:King_of_the_Rivers_and_the_Hills). Afterward he gained the allegiance of [Edmure Tully](wiki:Edmure_Tully_(father_of_Axel)) and his sons. Armistead granted Edmure's son [Axel](wiki:Axel_Tully) lands at the juncture of the [Red Fork](wiki:Red_Fork) and the [Tumblestone](wiki:Tumblestone), where Lord Axel raised [Riverrun](wiki:Riverrun).(wiki:Armistead_Vance.cite_ref-Rtwoiafthe_riverlands:_house_tully.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

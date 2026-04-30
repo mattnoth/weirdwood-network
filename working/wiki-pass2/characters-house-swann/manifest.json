@@ -1,0 +1,75 @@
+{
+  "bucket_id": "characters-house-swann",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "a2c1e79f251016a6b7a9750f35892feff70b6bbb318bffe8e82580e674e8d04c",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Balon Swann",
+    "Byron Swann",
+    "Clifford Swann",
+    "Corenna Swann",
+    "Cyrenna Swann",
+    "Denys Swann",
+    "Donnel Swann",
+    "Gawen Swann",
+    "Gulian Swann",
+    "Jeyne Swann",
+    "Johanna Swann",
+    "Manfred Swann",
+    "Ravella Smallwood"
+  ],
+  "expected_nodes": [
+    "balon-swann.node.md",
+    "byron-swann.node.md",
+    "clifford-swann.node.md",
+    "corenna-swann.node.md",
+    "cyrenna-swann.node.md",
+    "denys-swann.node.md",
+    "donnel-swann.node.md",
+    "gawen-swann.node.md",
+    "gulian-swann.node.md",
+    "jeyne-swann.node.md",
+    "johanna-swann.node.md",
+    "manfred-swann.node.md",
+    "ravella-smallwood.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Balon Swann"
+    ],
+    "tier_b": [
+      "Byron Swann",
+      "Clifford Swann",
+      "Corenna Swann",
+      "Cyrenna Swann",
+      "Denys Swann",
+      "Donnel Swann",
+      "Gawen Swann",
+      "Gulian Swann",
+      "Jeyne Swann",
+      "Johanna Swann",
+      "Manfred Swann",
+      "Ravella Smallwood"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 13,
+      "tier_a": 1,
+      "tier_b": 12,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.988766+00:00",
+  "stage3_promoted_count": 13,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

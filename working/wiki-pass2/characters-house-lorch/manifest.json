@@ -1,0 +1,54 @@
+{
+  "bucket_id": "characters-house-lorch",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "623e0b9bba9df3fa4bcae08fc92b1d2f1a3437cbf375fef296a2f8fc25d2d94b",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Amory Lorch",
+    "Biter",
+    "Jaqen H'ghar",
+    "Lorent Lorch",
+    "Lyonel Lorch",
+    "Rorge"
+  ],
+  "expected_nodes": [
+    "amory-lorch.node.md",
+    "biter.node.md",
+    "jaqen-hghar.node.md",
+    "lorent-lorch.node.md",
+    "lyonel-lorch.node.md",
+    "rorge.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Amory Lorch",
+      "Biter",
+      "Jaqen H'ghar",
+      "Rorge"
+    ],
+    "tier_b": [
+      "Lorent Lorch",
+      "Lyonel Lorch"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 6,
+      "tier_a": 4,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.856043+00:00",
+  "stage3_promoted_count": 6,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

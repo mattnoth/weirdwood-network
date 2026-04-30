@@ -40,6 +40,7 @@ weirwood() {
   # Resolve project dir relative to this script, or fall back to default
   local project_dir="${WEIRWOOD_PROJECT_DIR:-$HOME/source/asoiaf-chat}"
   local script="$project_dir/scripts/extract.sh"
+  local wiki_script="$project_dir/scripts/wiki-pass2.sh"
 
   if [[ ! -f "$script" ]]; then
     echo "ERROR: extract.sh not found at $script"
@@ -55,6 +56,76 @@ weirwood() {
       touch /tmp/extraction-stop
       echo "Stop file created — terminals will halt after their current wave."
       ;;
+
+    # ── Wiki Pass 2 subcommand ──────────────────────────────────────────────
+    wiki)
+      if [[ ! -f "$wiki_script" ]]; then
+        echo "ERROR: wiki-pass2.sh not found at $wiki_script"
+        return 1
+      fi
+      local wiki_sub="${2:-}"
+      case "$wiki_sub" in
+        ""|status)
+          # weirwood wiki              → status (all tiers)
+          # weirwood wiki status       → status (all tiers)
+          "$wiki_script" status "${3:-}"
+          ;;
+        triage|run|check|reset|unstick|questions|stop|launch)
+          # Pass remaining args verbatim
+          shift 2
+          "$wiki_script" "$wiki_sub" "$@"
+          ;;
+        core|secondary)
+          # weirwood wiki core          → status for core tier
+          # weirwood wiki core 2 3      → launch: 2 terminals, 3 waves each
+          local tier="$wiki_sub"
+          local terminals="${3:-}"
+          local waves="${4:-}"
+          if [[ -z "$terminals" ]]; then
+            # Status mode for this tier
+            "$wiki_script" status "$tier"
+          else
+            if [[ -z "$waves" ]]; then
+              echo "Usage: weirwood wiki $tier <terminals> <waves>"
+              return 1
+            fi
+            "$wiki_script" launch "$tier" -t "$terminals" -w "$waves"
+          fi
+          ;;
+        --help|-h)
+          echo "weirwood wiki — Wiki Pass 2 (wiki → graph/nodes/)"
+          echo ""
+          echo "Commands:"
+          echo "  weirwood wiki                           Status (all tiers)"
+          echo "  weirwood wiki status [tier]             Status table"
+          echo "  weirwood wiki triage [--accept]         Draft or commit bucket manifests"
+          echo "  weirwood wiki core                      Status for core tier"
+          echo "  weirwood wiki core <terms> <waves>      Launch iTerm tabs (core tier)"
+          echo "  weirwood wiki secondary                 Status for secondary tier"
+          echo "  weirwood wiki secondary <terms> <waves> Launch iTerm tabs (secondary)"
+          echo "  weirwood wiki run <tier> [--wave N]     Run a single wave"
+          echo "  weirwood wiki check                     Cross-bucket coherence check"
+          echo "  weirwood wiki reset --version vN        Archive prior-version output"
+          echo "  weirwood wiki unstick <bucket>          Clear orphaned in-progress bucket"
+          echo "  weirwood wiki questions [--unresolved]  View question queue"
+          echo "  weirwood wiki stop                      Soft stop (wiki tabs only)"
+          echo ""
+          echo "Examples:"
+          echo "  weirwood wiki triage --accept           Commit triage bucket manifests"
+          echo "  weirwood wiki core 2 3                  2 terminals, 3 waves each (core)"
+          echo "  weirwood wiki status core               Core tier progress table"
+          echo "  weirwood wiki stop                      Halt wiki tabs after current bucket"
+          echo "  weirwood wiki check                     Check graph/nodes/ coherence"
+          echo "  weirwood wiki reset --version v1        Archive v1 output before re-run"
+          ;;
+        *)
+          echo "Unknown wiki subcommand: $wiki_sub"
+          echo "Run 'weirwood wiki --help' for usage."
+          return 1
+          ;;
+      esac
+      ;;
+
     ""|--help|-h)
       echo "weirwood — run Weirwood Network extractions"
       echo ""
@@ -65,12 +136,15 @@ weirwood() {
       echo "  weirwood <book> <terms> <waves>   Launch iTerm tabs to extract"
       echo "  weirwood <book> <t> <w> <model>   Launch with a specific model"
       echo "  weirwood stop                     Soft stop (see below)"
+      echo "  weirwood wiki <subcommand>        Wiki Pass 2 — see 'weirwood wiki --help'"
       echo ""
       echo "Examples:"
       echo "  weirwood acok                     What's left in ACOK?"
       echo "  weirwood acok 2 3                 2 terminals, 3 waves each"
       echo "  weirwood acok 2 3 claude-sonnet-4-6"
       echo "  weirwood stop"
+      echo "  weirwood wiki triage --accept     Commit wiki triage manifests"
+      echo "  weirwood wiki core 2 3            Launch wiki core tier (2 tabs, 3 waves)"
       echo ""
       echo "Books: agot acok asos affc adwd"
       echo ""
@@ -87,6 +161,7 @@ weirwood() {
       echo "  the terminal exits instead of starting the next wave."
       echo "  Run it from any terminal, a third tab, or Claude Code (! weirwood stop)."
       echo "  The stop file is cleared automatically on the next launch."
+      echo "  Note: 'weirwood wiki stop' uses a SEPARATE stop file for wiki tabs."
       echo ""
       echo "Overview:"
       # Quick status across all books

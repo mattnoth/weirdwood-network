@@ -1,0 +1,72 @@
+{
+  "bucket_id": "characters-house-tarly",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "659c2368ffba88488829ffb268de6230ebab67aa2b5537ab4dc4e30c7d909333",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Alan Tarly",
+    "Dickon Tarly",
+    "Donald Tarly",
+    "Harlon the Hunter",
+    "Herndon of the Horn",
+    "Randyll Tarly",
+    "Samantha Tarly",
+    "Samwell Tarly",
+    "Samwell Tarly (lord)",
+    "Samwyle Tarly",
+    "Sansara Tarly",
+    "Talla Tarly"
+  ],
+  "expected_nodes": [
+    "alan-tarly.node.md",
+    "dickon-tarly.node.md",
+    "donald-tarly.node.md",
+    "harlon-the-hunter.node.md",
+    "herndon-of-the-horn.node.md",
+    "randyll-tarly.node.md",
+    "samantha-tarly.node.md",
+    "samwell-tarly-lord.node.md",
+    "samwell-tarly.node.md",
+    "samwyle-tarly.node.md",
+    "sansara-tarly.node.md",
+    "talla-tarly.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Dickon Tarly",
+      "Randyll Tarly",
+      "Samwell Tarly"
+    ],
+    "tier_b": [
+      "Alan Tarly",
+      "Donald Tarly",
+      "Harlon the Hunter",
+      "Herndon of the Horn",
+      "Samantha Tarly",
+      "Samwell Tarly (lord)",
+      "Samwyle Tarly",
+      "Sansara Tarly",
+      "Talla Tarly"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 12,
+      "tier_a": 3,
+      "tier_b": 9,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.996619+00:00",
+  "stage3_promoted_count": 12,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

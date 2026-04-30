@@ -1,0 +1,8 @@
+{
+  "bucket_id": "characters-house-martell-m-t",
+  "passed": true,
+  "checked_at": "2026-04-27T20:11:39Z",
+  "node_count_expected": 25,
+  "node_count_actual": 25,
+  "failures": []
+}

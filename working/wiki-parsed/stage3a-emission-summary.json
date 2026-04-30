@@ -1,0 +1,3877 @@
+{
+  "buckets_processed": 472,
+  "skeletons_emitted": 3315,
+  "tier_a_emitted": 624,
+  "tier_b_emitted": 2691,
+  "tier_b_without_infobox": 15,
+  "mean_edges_per_skeleton": 4.5991,
+  "type_distribution": {
+    "character.human": 2770,
+    "event.battle": 242,
+    "place.location": 151,
+    "title": 79,
+    "organization.house": 54,
+    "organization.faction": 18,
+    "unknown": 1
+  },
+  "top_fields_by_edge_count": [
+    [
+      "Culture",
+      2438
+    ],
+    [
+      "Allegiance",
+      1602
+    ],
+    [
+      "Died",
+      1549
+    ],
+    [
+      "Born",
+      1536
+    ],
+    [
+      "Allegiances",
+      1469
+    ],
+    [
+      "Title",
+      1374
+    ],
+    [
+      "Titles",
+      1223
+    ],
+    [
+      "Issue",
+      1109
+    ],
+    [
+      "Father",
+      622
+    ],
+    [
+      "Spouse",
+      380
+    ],
+    [
+      "Result",
+      343
+    ],
+    [
+      "Mother",
+      256
+    ],
+    [
+      "Conflict",
+      166
+    ],
+    [
+      "Race",
+      158
+    ],
+    [
+      "Region",
+      150
+    ],
+    [
+      "Religion",
+      112
+    ],
+    [
+      "Ruler",
+      84
+    ],
+    [
+      "Successor",
+      70
+    ],
+    [
+      "Lover",
+      69
+    ],
+    [
+      "Heir",
+      68
+    ]
+  ],
+  "per_bucket": [
+    {
+      "bucket_id": "battles-a",
+      "tier_a_count": 4,
+      "tier_b_count": 26,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 44
+    },
+    {
+      "bucket_id": "battles-a-b",
+      "tier_a_count": 8,
+      "tier_b_count": 21,
+      "emitted": 29,
+      "no_infobox_count": 0,
+      "total_edges": 54
+    },
+    {
+      "bucket_id": "battles-b",
+      "tier_a_count": 5,
+      "tier_b_count": 11,
+      "emitted": 16,
+      "no_infobox_count": 1,
+      "total_edges": 33
+    },
+    {
+      "bucket_id": "battles-b-d",
+      "tier_a_count": 9,
+      "tier_b_count": 16,
+      "emitted": 25,
+      "no_infobox_count": 0,
+      "total_edges": 62
+    },
+    {
+      "bucket_id": "battles-d-f",
+      "tier_a_count": 9,
+      "tier_b_count": 21,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 78
+    },
+    {
+      "bucket_id": "battles-f-p",
+      "tier_a_count": 4,
+      "tier_b_count": 26,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 88
+    },
+    {
+      "bucket_id": "battles-p-s",
+      "tier_a_count": 12,
+      "tier_b_count": 18,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 89
+    },
+    {
+      "bucket_id": "battles-s-t",
+      "tier_a_count": 10,
+      "tier_b_count": 15,
+      "emitted": 25,
+      "no_infobox_count": 0,
+      "total_edges": 55
+    },
+    {
+      "bucket_id": "battles-t-y",
+      "tier_a_count": 7,
+      "tier_b_count": 21,
+      "emitted": 28,
+      "no_infobox_count": 0,
+      "total_edges": 42
+    },
+    {
+      "bucket_id": "characters-house-allyrion",
+      "tier_a_count": 1,
+      "tier_b_count": 2,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 21
+    },
+    {
+      "bucket_id": "characters-house-ambrose",
+      "tier_a_count": 0,
+      "tier_b_count": 6,
+      "emitted": 6,
+      "no_infobox_count": 0,
+      "total_edges": 30
+    },
+    {
+      "bucket_id": "characters-house-antaryon",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-arryn-of-gulltown",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 7
+    },
+    {
+      "bucket_id": "characters-house-ashford",
+      "tier_a_count": 0,
+      "tier_b_count": 4,
+      "emitted": 4,
+      "no_infobox_count": 0,
+      "total_edges": 16
+    },
+    {
+      "bucket_id": "characters-house-baelish",
+      "tier_a_count": 1,
+      "tier_b_count": 9,
+      "emitted": 10,
+      "no_infobox_count": 0,
+      "total_edges": 53
+    },
+    {
+      "bucket_id": "characters-house-ball",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 16
+    },
+    {
+      "bucket_id": "characters-house-banefort",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 6
+    },
+    {
+      "bucket_id": "characters-house-bar-emmon",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-baratheon-of-dragonstone",
+      "tier_a_count": 5,
+      "tier_b_count": 19,
+      "emitted": 24,
+      "no_infobox_count": 0,
+      "total_edges": 88
+    },
+    {
+      "bucket_id": "characters-house-baratheon-of-kings-landing",
+      "tier_a_count": 5,
+      "tier_b_count": 7,
+      "emitted": 12,
+      "no_infobox_count": 0,
+      "total_edges": 47
+    },
+    {
+      "bucket_id": "characters-house-beesbury",
+      "tier_a_count": 0,
+      "tier_b_count": 12,
+      "emitted": 12,
+      "no_infobox_count": 0,
+      "total_edges": 78
+    },
+    {
+      "bucket_id": "characters-house-belgrave",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 10
+    },
+    {
+      "bucket_id": "characters-house-belmore",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 12
+    },
+    {
+      "bucket_id": "characters-house-bettley",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 5
+    },
+    {
+      "bucket_id": "characters-house-bigglestone",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 6
+    },
+    {
+      "bucket_id": "characters-house-blackbar",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 7
+    },
+    {
+      "bucket_id": "characters-house-blackberry",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 8
+    },
+    {
+      "bucket_id": "characters-house-blackfyre",
+      "tier_a_count": 1,
+      "tier_b_count": 11,
+      "emitted": 12,
+      "no_infobox_count": 0,
+      "total_edges": 117
+    },
+    {
+      "bucket_id": "characters-house-blackmont",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 11
+    },
+    {
+      "bucket_id": "characters-house-blacktyde",
+      "tier_a_count": 0,
+      "tier_b_count": 4,
+      "emitted": 4,
+      "no_infobox_count": 0,
+      "total_edges": 19
+    },
+    {
+      "bucket_id": "characters-house-blackwood",
+      "tier_a_count": 2,
+      "tier_b_count": 25,
+      "emitted": 27,
+      "no_infobox_count": 0,
+      "total_edges": 165
+    },
+    {
+      "bucket_id": "characters-house-blanetree",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 6
+    },
+    {
+      "bucket_id": "characters-house-blount",
+      "tier_a_count": 1,
+      "tier_b_count": 0,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 8
+    },
+    {
+      "bucket_id": "characters-house-boggs",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-bolling",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 11
+    },
+    {
+      "bucket_id": "characters-house-bolton",
+      "tier_a_count": 6,
+      "tier_b_count": 12,
+      "emitted": 18,
+      "no_infobox_count": 0,
+      "total_edges": 82
+    },
+    {
+      "bucket_id": "characters-house-bolton-of-the-dreadfort",
+      "tier_a_count": 1,
+      "tier_b_count": 0,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 14
+    },
+    {
+      "bucket_id": "characters-house-borrell",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 21
+    },
+    {
+      "bucket_id": "characters-house-botley",
+      "tier_a_count": 3,
+      "tier_b_count": 11,
+      "emitted": 14,
+      "no_infobox_count": 0,
+      "total_edges": 65
+    },
+    {
+      "bucket_id": "characters-house-bourney",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 7
+    },
+    {
+      "bucket_id": "characters-house-bracken",
+      "tier_a_count": 3,
+      "tier_b_count": 20,
+      "emitted": 23,
+      "no_infobox_count": 0,
+      "total_edges": 135
+    },
+    {
+      "bucket_id": "characters-house-branch",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 2
+    },
+    {
+      "bucket_id": "characters-house-brax",
+      "tier_a_count": 2,
+      "tier_b_count": 7,
+      "emitted": 9,
+      "no_infobox_count": 0,
+      "total_edges": 60
+    },
+    {
+      "bucket_id": "characters-house-breakstone",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-broom",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 6
+    },
+    {
+      "bucket_id": "characters-house-broome",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 11
+    },
+    {
+      "bucket_id": "characters-house-brownhill",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 5
+    },
+    {
+      "bucket_id": "characters-house-brune",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 5
+    },
+    {
+      "bucket_id": "characters-house-brune-of-brownhollow",
+      "tier_a_count": 1,
+      "tier_b_count": 1,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 11
+    },
+    {
+      "bucket_id": "characters-house-brune-of-the-dyre-den",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-buckler",
+      "tier_a_count": 0,
+      "tier_b_count": 5,
+      "emitted": 5,
+      "no_infobox_count": 0,
+      "total_edges": 26
+    },
+    {
+      "bucket_id": "characters-house-buckwell",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 5
+    },
+    {
+      "bucket_id": "characters-house-bullock",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 26
+    },
+    {
+      "bucket_id": "characters-house-bulwer",
+      "tier_a_count": 1,
+      "tier_b_count": 6,
+      "emitted": 7,
+      "no_infobox_count": 0,
+      "total_edges": 39
+    },
+    {
+      "bucket_id": "characters-house-burley",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 9
+    },
+    {
+      "bucket_id": "characters-house-bush",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 6
+    },
+    {
+      "bucket_id": "characters-house-bushy",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 5
+    },
+    {
+      "bucket_id": "characters-house-butterwell",
+      "tier_a_count": 0,
+      "tier_b_count": 9,
+      "emitted": 9,
+      "no_infobox_count": 0,
+      "total_edges": 52
+    },
+    {
+      "bucket_id": "characters-house-byrch",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 17
+    },
+    {
+      "bucket_id": "characters-house-bywater",
+      "tier_a_count": 1,
+      "tier_b_count": 0,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 11
+    },
+    {
+      "bucket_id": "characters-house-cafferen",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 9
+    },
+    {
+      "bucket_id": "characters-house-cargyll",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 22
+    },
+    {
+      "bucket_id": "characters-house-caron",
+      "tier_a_count": 2,
+      "tier_b_count": 7,
+      "emitted": 9,
+      "no_infobox_count": 0,
+      "total_edges": 77
+    },
+    {
+      "bucket_id": "characters-house-cassel",
+      "tier_a_count": 3,
+      "tier_b_count": 1,
+      "emitted": 4,
+      "no_infobox_count": 0,
+      "total_edges": 41
+    },
+    {
+      "bucket_id": "characters-house-casterly",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 5
+    },
+    {
+      "bucket_id": "characters-house-caswell",
+      "tier_a_count": 0,
+      "tier_b_count": 9,
+      "emitted": 9,
+      "no_infobox_count": 0,
+      "total_edges": 51
+    },
+    {
+      "bucket_id": "characters-house-celtigar",
+      "tier_a_count": 1,
+      "tier_b_count": 7,
+      "emitted": 8,
+      "no_infobox_count": 0,
+      "total_edges": 61
+    },
+    {
+      "bucket_id": "characters-house-cerwyn",
+      "tier_a_count": 2,
+      "tier_b_count": 3,
+      "emitted": 5,
+      "no_infobox_count": 0,
+      "total_edges": 37
+    },
+    {
+      "bucket_id": "characters-house-chambers",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-charlton",
+      "tier_a_count": 0,
+      "tier_b_count": 4,
+      "emitted": 4,
+      "no_infobox_count": 0,
+      "total_edges": 18
+    },
+    {
+      "bucket_id": "characters-house-chelsted",
+      "tier_a_count": 1,
+      "tier_b_count": 0,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 7
+    },
+    {
+      "bucket_id": "characters-house-chester",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 15
+    },
+    {
+      "bucket_id": "characters-house-chyttering",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 12
+    },
+    {
+      "bucket_id": "characters-house-clegane",
+      "tier_a_count": 6,
+      "tier_b_count": 6,
+      "emitted": 12,
+      "no_infobox_count": 0,
+      "total_edges": 73
+    },
+    {
+      "bucket_id": "characters-house-clifton",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 12
+    },
+    {
+      "bucket_id": "characters-house-cobb",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 8
+    },
+    {
+      "bucket_id": "characters-house-cockshaw",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 10
+    },
+    {
+      "bucket_id": "characters-house-codd",
+      "tier_a_count": 1,
+      "tier_b_count": 3,
+      "emitted": 4,
+      "no_infobox_count": 0,
+      "total_edges": 13
+    },
+    {
+      "bucket_id": "characters-house-coldwater",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 6
+    },
+    {
+      "bucket_id": "characters-house-cole",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 13
+    },
+    {
+      "bucket_id": "characters-house-condon",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-conklyn",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-connington",
+      "tier_a_count": 2,
+      "tier_b_count": 9,
+      "emitted": 11,
+      "no_infobox_count": 0,
+      "total_edges": 72
+    },
+    {
+      "bucket_id": "characters-house-corbray",
+      "tier_a_count": 2,
+      "tier_b_count": 12,
+      "emitted": 14,
+      "no_infobox_count": 0,
+      "total_edges": 94
+    },
+    {
+      "bucket_id": "characters-house-costayne",
+      "tier_a_count": 0,
+      "tier_b_count": 9,
+      "emitted": 9,
+      "no_infobox_count": 0,
+      "total_edges": 50
+    },
+    {
+      "bucket_id": "characters-house-cox",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 6
+    },
+    {
+      "bucket_id": "characters-house-crabb",
+      "tier_a_count": 1,
+      "tier_b_count": 6,
+      "emitted": 7,
+      "no_infobox_count": 0,
+      "total_edges": 29
+    },
+    {
+      "bucket_id": "characters-house-crakehall",
+      "tier_a_count": 1,
+      "tier_b_count": 9,
+      "emitted": 10,
+      "no_infobox_count": 0,
+      "total_edges": 60
+    },
+    {
+      "bucket_id": "characters-house-crane",
+      "tier_a_count": 1,
+      "tier_b_count": 6,
+      "emitted": 7,
+      "no_infobox_count": 0,
+      "total_edges": 32
+    },
+    {
+      "bucket_id": "characters-house-crayne",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 5
+    },
+    {
+      "bucket_id": "characters-house-cressey",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-crowl",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-cupps",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-cuy",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 10
+    },
+    {
+      "bucket_id": "characters-house-dalt",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 9
+    },
+    {
+      "bucket_id": "characters-house-darke",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 17
+    },
+    {
+      "bucket_id": "characters-house-darklyn",
+      "tier_a_count": 0,
+      "tier_b_count": 9,
+      "emitted": 9,
+      "no_infobox_count": 0,
+      "total_edges": 52
+    },
+    {
+      "bucket_id": "characters-house-darry",
+      "tier_a_count": 5,
+      "tier_b_count": 10,
+      "emitted": 15,
+      "no_infobox_count": 0,
+      "total_edges": 89
+    },
+    {
+      "bucket_id": "characters-house-dayne",
+      "tier_a_count": 3,
+      "tier_b_count": 8,
+      "emitted": 11,
+      "no_infobox_count": 0,
+      "total_edges": 75
+    },
+    {
+      "bucket_id": "characters-house-dayne-of-high-hermitage",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 8
+    },
+    {
+      "bucket_id": "characters-house-deddings",
+      "tier_a_count": 0,
+      "tier_b_count": 5,
+      "emitted": 5,
+      "no_infobox_count": 0,
+      "total_edges": 25
+    },
+    {
+      "bucket_id": "characters-house-doggett",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 10
+    },
+    {
+      "bucket_id": "characters-house-dondarrion",
+      "tier_a_count": 1,
+      "tier_b_count": 6,
+      "emitted": 7,
+      "no_infobox_count": 0,
+      "total_edges": 43
+    },
+    {
+      "bucket_id": "characters-house-drinkwater",
+      "tier_a_count": 1,
+      "tier_b_count": 1,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 12
+    },
+    {
+      "bucket_id": "characters-house-drumm",
+      "tier_a_count": 1,
+      "tier_b_count": 8,
+      "emitted": 9,
+      "no_infobox_count": 0,
+      "total_edges": 32
+    },
+    {
+      "bucket_id": "characters-house-durrandon",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 23
+    },
+    {
+      "bucket_id": "characters-house-dustin",
+      "tier_a_count": 1,
+      "tier_b_count": 2,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 17
+    },
+    {
+      "bucket_id": "characters-house-egen",
+      "tier_a_count": 1,
+      "tier_b_count": 0,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 12
+    },
+    {
+      "bucket_id": "characters-house-elesham",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-erenford",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 8
+    },
+    {
+      "bucket_id": "characters-house-errol",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 7
+    },
+    {
+      "bucket_id": "characters-house-estermont",
+      "tier_a_count": 3,
+      "tier_b_count": 6,
+      "emitted": 9,
+      "no_infobox_count": 0,
+      "total_edges": 56
+    },
+    {
+      "bucket_id": "characters-house-estren",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-falwell",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 6
+    },
+    {
+      "bucket_id": "characters-house-farman",
+      "tier_a_count": 0,
+      "tier_b_count": 11,
+      "emitted": 11,
+      "no_infobox_count": 0,
+      "total_edges": 68
+    },
+    {
+      "bucket_id": "characters-house-farring",
+      "tier_a_count": 1,
+      "tier_b_count": 3,
+      "emitted": 4,
+      "no_infobox_count": 0,
+      "total_edges": 32
+    },
+    {
+      "bucket_id": "characters-house-farrow",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 5
+    },
+    {
+      "bucket_id": "characters-house-farwynd",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-farwynd-of-the-lonely-light",
+      "tier_a_count": 0,
+      "tier_b_count": 4,
+      "emitted": 4,
+      "no_infobox_count": 0,
+      "total_edges": 16
+    },
+    {
+      "bucket_id": "characters-house-fell",
+      "tier_a_count": 0,
+      "tier_b_count": 5,
+      "emitted": 5,
+      "no_infobox_count": 0,
+      "total_edges": 27
+    },
+    {
+      "bucket_id": "characters-house-fenn",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 6
+    },
+    {
+      "bucket_id": "characters-house-flint",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 13
+    },
+    {
+      "bucket_id": "characters-house-flint-of-flints-finger",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 7
+    },
+    {
+      "bucket_id": "characters-house-flint-of-the-mountains",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 15
+    },
+    {
+      "bucket_id": "characters-house-flint-of-widows-watch",
+      "tier_a_count": 1,
+      "tier_b_count": 1,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 10
+    },
+    {
+      "bucket_id": "characters-house-florent",
+      "tier_a_count": 4,
+      "tier_b_count": 13,
+      "emitted": 17,
+      "no_infobox_count": 0,
+      "total_edges": 117
+    },
+    {
+      "bucket_id": "characters-house-follard",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 13
+    },
+    {
+      "bucket_id": "characters-house-foote",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 8
+    },
+    {
+      "bucket_id": "characters-house-fossoway",
+      "tier_a_count": 1,
+      "tier_b_count": 2,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 15
+    },
+    {
+      "bucket_id": "characters-house-fossoway-of-cider-hall",
+      "tier_a_count": 0,
+      "tier_b_count": 5,
+      "emitted": 5,
+      "no_infobox_count": 0,
+      "total_edges": 24
+    },
+    {
+      "bucket_id": "characters-house-fossoway-of-new-barrel",
+      "tier_a_count": 1,
+      "tier_b_count": 1,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 9
+    },
+    {
+      "bucket_id": "characters-house-fowler",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 15
+    },
+    {
+      "bucket_id": "characters-house-foxglove",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-fregar",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 2
+    },
+    {
+      "bucket_id": "characters-house-frey-a-e",
+      "tier_a_count": 5,
+      "tier_b_count": 23,
+      "emitted": 28,
+      "no_infobox_count": 0,
+      "total_edges": 200
+    },
+    {
+      "bucket_id": "characters-house-frey-e-m",
+      "tier_a_count": 4,
+      "tier_b_count": 24,
+      "emitted": 28,
+      "no_infobox_count": 0,
+      "total_edges": 216
+    },
+    {
+      "bucket_id": "characters-house-frey-m-t",
+      "tier_a_count": 8,
+      "tier_b_count": 20,
+      "emitted": 28,
+      "no_infobox_count": 0,
+      "total_edges": 216
+    },
+    {
+      "bucket_id": "characters-house-frey-of-riverrun",
+      "tier_a_count": 1,
+      "tier_b_count": 1,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 16
+    },
+    {
+      "bucket_id": "characters-house-frey-t-z",
+      "tier_a_count": 6,
+      "tier_b_count": 21,
+      "emitted": 27,
+      "no_infobox_count": 0,
+      "total_edges": 238
+    },
+    {
+      "bucket_id": "characters-house-gardener",
+      "tier_a_count": 1,
+      "tier_b_count": 2,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 17
+    },
+    {
+      "bucket_id": "characters-house-gargalen",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-garner",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-gaunt",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 6
+    },
+    {
+      "bucket_id": "characters-house-glover",
+      "tier_a_count": 2,
+      "tier_b_count": 7,
+      "emitted": 9,
+      "no_infobox_count": 0,
+      "total_edges": 56
+    },
+    {
+      "bucket_id": "characters-house-goodbrook",
+      "tier_a_count": 0,
+      "tier_b_count": 4,
+      "emitted": 4,
+      "no_infobox_count": 0,
+      "total_edges": 21
+    },
+    {
+      "bucket_id": "characters-house-goodbrother",
+      "tier_a_count": 1,
+      "tier_b_count": 9,
+      "emitted": 10,
+      "no_infobox_count": 0,
+      "total_edges": 46
+    },
+    {
+      "bucket_id": "characters-house-goodbrother-of-shatterstone",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-goode",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 22
+    },
+    {
+      "bucket_id": "characters-house-gower",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-graceford",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 15
+    },
+    {
+      "bucket_id": "characters-house-grafton",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 11
+    },
+    {
+      "bucket_id": "characters-house-grandison",
+      "tier_a_count": 0,
+      "tier_b_count": 5,
+      "emitted": 5,
+      "no_infobox_count": 0,
+      "total_edges": 22
+    },
+    {
+      "bucket_id": "characters-house-greenfield",
+      "tier_a_count": 1,
+      "tier_b_count": 2,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 16
+    },
+    {
+      "bucket_id": "characters-house-greenhill",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-grell",
+      "tier_a_count": 1,
+      "tier_b_count": 0,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 9
+    },
+    {
+      "bucket_id": "characters-house-grey",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 6
+    },
+    {
+      "bucket_id": "characters-house-grimm",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-groves",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 7
+    },
+    {
+      "bucket_id": "characters-house-haen",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 15
+    },
+    {
+      "bucket_id": "characters-house-haigh",
+      "tier_a_count": 0,
+      "tier_b_count": 5,
+      "emitted": 5,
+      "no_infobox_count": 0,
+      "total_edges": 35
+    },
+    {
+      "bucket_id": "characters-house-harclay",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 5
+    },
+    {
+      "bucket_id": "characters-house-hardy",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-hardyng",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 28
+    },
+    {
+      "bucket_id": "characters-house-harlaw",
+      "tier_a_count": 1,
+      "tier_b_count": 6,
+      "emitted": 7,
+      "no_infobox_count": 0,
+      "total_edges": 37
+    },
+    {
+      "bucket_id": "characters-house-harlaw-of-grey-garden",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 7
+    },
+    {
+      "bucket_id": "characters-house-harlaw-of-harlaw-hall",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-harlaw-of-harridan-hill",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-harlaw-of-the-tower-of-glimmering",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 10
+    },
+    {
+      "bucket_id": "characters-house-harroway",
+      "tier_a_count": 0,
+      "tier_b_count": 5,
+      "emitted": 5,
+      "no_infobox_count": 0,
+      "total_edges": 34
+    },
+    {
+      "bucket_id": "characters-house-harte",
+      "tier_a_count": 0,
+      "tier_b_count": 4,
+      "emitted": 4,
+      "no_infobox_count": 0,
+      "total_edges": 22
+    },
+    {
+      "bucket_id": "characters-house-hastwyck",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 5
+    },
+    {
+      "bucket_id": "characters-house-hasty",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 8
+    },
+    {
+      "bucket_id": "characters-house-hawick",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 5
+    },
+    {
+      "bucket_id": "characters-house-hayford",
+      "tier_a_count": 1,
+      "tier_b_count": 3,
+      "emitted": 4,
+      "no_infobox_count": 0,
+      "total_edges": 25
+    },
+    {
+      "bucket_id": "characters-house-hetherspoon",
+      "tier_a_count": 1,
+      "tier_b_count": 1,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 15
+    },
+    {
+      "bucket_id": "characters-house-hewett",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 24
+    },
+    {
+      "bucket_id": "characters-house-hightower-a-j",
+      "tier_a_count": 3,
+      "tier_b_count": 20,
+      "emitted": 23,
+      "no_infobox_count": 0,
+      "total_edges": 199
+    },
+    {
+      "bucket_id": "characters-house-hightower-j-w",
+      "tier_a_count": 2,
+      "tier_b_count": 21,
+      "emitted": 23,
+      "no_infobox_count": 0,
+      "total_edges": 228
+    },
+    {
+      "bucket_id": "characters-house-hoare",
+      "tier_a_count": 0,
+      "tier_b_count": 6,
+      "emitted": 6,
+      "no_infobox_count": 0,
+      "total_edges": 26
+    },
+    {
+      "bucket_id": "characters-house-hogg",
+      "tier_a_count": 0,
+      "tier_b_count": 4,
+      "emitted": 4,
+      "no_infobox_count": 0,
+      "total_edges": 14
+    },
+    {
+      "bucket_id": "characters-house-hollard",
+      "tier_a_count": 1,
+      "tier_b_count": 4,
+      "emitted": 5,
+      "no_infobox_count": 0,
+      "total_edges": 36
+    },
+    {
+      "bucket_id": "characters-house-holt",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-hornwood",
+      "tier_a_count": 1,
+      "tier_b_count": 5,
+      "emitted": 6,
+      "no_infobox_count": 0,
+      "total_edges": 33
+    },
+    {
+      "bucket_id": "characters-house-horpe",
+      "tier_a_count": 1,
+      "tier_b_count": 1,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 13
+    },
+    {
+      "bucket_id": "characters-house-humble",
+      "tier_a_count": 0,
+      "tier_b_count": 4,
+      "emitted": 4,
+      "no_infobox_count": 0,
+      "total_edges": 15
+    },
+    {
+      "bucket_id": "characters-house-hunt",
+      "tier_a_count": 1,
+      "tier_b_count": 1,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 9
+    },
+    {
+      "bucket_id": "characters-house-hunter",
+      "tier_a_count": 1,
+      "tier_b_count": 6,
+      "emitted": 7,
+      "no_infobox_count": 0,
+      "total_edges": 42
+    },
+    {
+      "bucket_id": "characters-house-inchfield",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 14
+    },
+    {
+      "bucket_id": "characters-house-ironmaker",
+      "tier_a_count": 0,
+      "tier_b_count": 4,
+      "emitted": 4,
+      "no_infobox_count": 0,
+      "total_edges": 16
+    },
+    {
+      "bucket_id": "characters-house-jast",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 6
+    },
+    {
+      "bucket_id": "characters-house-jordayne",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 7
+    },
+    {
+      "bucket_id": "characters-house-karstark",
+      "tier_a_count": 4,
+      "tier_b_count": 7,
+      "emitted": 11,
+      "no_infobox_count": 0,
+      "total_edges": 81
+    },
+    {
+      "bucket_id": "characters-house-kenning-of-harlaw",
+      "tier_a_count": 0,
+      "tier_b_count": 4,
+      "emitted": 4,
+      "no_infobox_count": 0,
+      "total_edges": 18
+    },
+    {
+      "bucket_id": "characters-house-kenning-of-kayce",
+      "tier_a_count": 1,
+      "tier_b_count": 1,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 7
+    },
+    {
+      "bucket_id": "characters-house-kettleblack",
+      "tier_a_count": 4,
+      "tier_b_count": 0,
+      "emitted": 4,
+      "no_infobox_count": 0,
+      "total_edges": 27
+    },
+    {
+      "bucket_id": "characters-house-kyndall",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 9
+    },
+    {
+      "bucket_id": "characters-house-ladybright",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 6
+    },
+    {
+      "bucket_id": "characters-house-langward",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 6
+    },
+    {
+      "bucket_id": "characters-house-lannister-of-casterly-rock",
+      "tier_a_count": 1,
+      "tier_b_count": 0,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 12
+    },
+    {
+      "bucket_id": "characters-house-lannister-of-lannisport",
+      "tier_a_count": 0,
+      "tier_b_count": 4,
+      "emitted": 4,
+      "no_infobox_count": 0,
+      "total_edges": 25
+    },
+    {
+      "bucket_id": "characters-house-leek",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 6
+    },
+    {
+      "bucket_id": "characters-house-lefford",
+      "tier_a_count": 0,
+      "tier_b_count": 5,
+      "emitted": 5,
+      "no_infobox_count": 0,
+      "total_edges": 30
+    },
+    {
+      "bucket_id": "characters-house-leygood",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 22
+    },
+    {
+      "bucket_id": "characters-house-liddle",
+      "tier_a_count": 0,
+      "tier_b_count": 5,
+      "emitted": 5,
+      "no_infobox_count": 0,
+      "total_edges": 19
+    },
+    {
+      "bucket_id": "characters-house-lipps",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-locke",
+      "tier_a_count": 1,
+      "tier_b_count": 5,
+      "emitted": 6,
+      "no_infobox_count": 0,
+      "total_edges": 39
+    },
+    {
+      "bucket_id": "characters-house-long",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 7
+    },
+    {
+      "bucket_id": "characters-house-longthorpe",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-longwaters",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 7
+    },
+    {
+      "bucket_id": "characters-house-lonmouth",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-lorch",
+      "tier_a_count": 4,
+      "tier_b_count": 2,
+      "emitted": 6,
+      "no_infobox_count": 0,
+      "total_edges": 33
+    },
+    {
+      "bucket_id": "characters-house-lothston",
+      "tier_a_count": 0,
+      "tier_b_count": 9,
+      "emitted": 9,
+      "no_infobox_count": 0,
+      "total_edges": 47
+    },
+    {
+      "bucket_id": "characters-house-lychester",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 10
+    },
+    {
+      "bucket_id": "characters-house-lydden",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 12
+    },
+    {
+      "bucket_id": "characters-house-lynderly",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 11
+    },
+    {
+      "bucket_id": "characters-house-mallery",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 15
+    },
+    {
+      "bucket_id": "characters-house-mallister",
+      "tier_a_count": 3,
+      "tier_b_count": 6,
+      "emitted": 9,
+      "no_infobox_count": 0,
+      "total_edges": 46
+    },
+    {
+      "bucket_id": "characters-house-manderly",
+      "tier_a_count": 4,
+      "tier_b_count": 16,
+      "emitted": 20,
+      "no_infobox_count": 0,
+      "total_edges": 150
+    },
+    {
+      "bucket_id": "characters-house-manwoody",
+      "tier_a_count": 0,
+      "tier_b_count": 5,
+      "emitted": 5,
+      "no_infobox_count": 0,
+      "total_edges": 21
+    },
+    {
+      "bucket_id": "characters-house-marbrand",
+      "tier_a_count": 1,
+      "tier_b_count": 5,
+      "emitted": 6,
+      "no_infobox_count": 0,
+      "total_edges": 43
+    },
+    {
+      "bucket_id": "characters-house-marsh",
+      "tier_a_count": 1,
+      "tier_b_count": 0,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 7
+    },
+    {
+      "bucket_id": "characters-house-massey",
+      "tier_a_count": 1,
+      "tier_b_count": 8,
+      "emitted": 9,
+      "no_infobox_count": 0,
+      "total_edges": 53
+    },
+    {
+      "bucket_id": "characters-house-meadows",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 16
+    },
+    {
+      "bucket_id": "characters-house-merlyn",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 6
+    },
+    {
+      "bucket_id": "characters-house-merryweather",
+      "tier_a_count": 4,
+      "tier_b_count": 3,
+      "emitted": 7,
+      "no_infobox_count": 0,
+      "total_edges": 46
+    },
+    {
+      "bucket_id": "characters-house-mertyns",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 11
+    },
+    {
+      "bucket_id": "characters-house-mollen",
+      "tier_a_count": 1,
+      "tier_b_count": 0,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 6
+    },
+    {
+      "bucket_id": "characters-house-moore",
+      "tier_a_count": 1,
+      "tier_b_count": 2,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 19
+    },
+    {
+      "bucket_id": "characters-house-mooton",
+      "tier_a_count": 1,
+      "tier_b_count": 8,
+      "emitted": 9,
+      "no_infobox_count": 0,
+      "total_edges": 44
+    },
+    {
+      "bucket_id": "characters-house-moraqos",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-moreland",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 6
+    },
+    {
+      "bucket_id": "characters-house-mormont",
+      "tier_a_count": 4,
+      "tier_b_count": 5,
+      "emitted": 9,
+      "no_infobox_count": 0,
+      "total_edges": 76
+    },
+    {
+      "bucket_id": "characters-house-morrigen",
+      "tier_a_count": 1,
+      "tier_b_count": 6,
+      "emitted": 7,
+      "no_infobox_count": 0,
+      "total_edges": 39
+    },
+    {
+      "bucket_id": "characters-house-mudd",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-mullendore",
+      "tier_a_count": 1,
+      "tier_b_count": 3,
+      "emitted": 4,
+      "no_infobox_count": 0,
+      "total_edges": 14
+    },
+    {
+      "bucket_id": "characters-house-musgood",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 6
+    },
+    {
+      "bucket_id": "characters-house-myre",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 6
+    },
+    {
+      "bucket_id": "characters-house-nayland",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 7
+    },
+    {
+      "bucket_id": "characters-house-norcross",
+      "tier_a_count": 0,
+      "tier_b_count": 6,
+      "emitted": 6,
+      "no_infobox_count": 0,
+      "total_edges": 32
+    },
+    {
+      "bucket_id": "characters-house-norrey",
+      "tier_a_count": 0,
+      "tier_b_count": 4,
+      "emitted": 4,
+      "no_infobox_count": 0,
+      "total_edges": 20
+    },
+    {
+      "bucket_id": "characters-house-norridge",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 11
+    },
+    {
+      "bucket_id": "characters-house-oakheart",
+      "tier_a_count": 2,
+      "tier_b_count": 9,
+      "emitted": 11,
+      "no_infobox_count": 0,
+      "total_edges": 52
+    },
+    {
+      "bucket_id": "characters-house-of-ahlaq",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 5
+    },
+    {
+      "bucket_id": "characters-house-of-black-and-white",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 2
+    },
+    {
+      "bucket_id": "characters-house-of-eraz",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 11
+    },
+    {
+      "bucket_id": "characters-house-of-faez",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 5
+    },
+    {
+      "bucket_id": "characters-house-of-galare",
+      "tier_a_count": 2,
+      "tier_b_count": 3,
+      "emitted": 5,
+      "no_infobox_count": 0,
+      "total_edges": 21
+    },
+    {
+      "bucket_id": "characters-house-of-ghazeen",
+      "tier_a_count": 1,
+      "tier_b_count": 0,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-of-kandaq",
+      "tier_a_count": 1,
+      "tier_b_count": 0,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 8
+    },
+    {
+      "bucket_id": "characters-house-of-kisses",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 16
+    },
+    {
+      "bucket_id": "characters-house-of-loraq",
+      "tier_a_count": 4,
+      "tier_b_count": 7,
+      "emitted": 11,
+      "no_infobox_count": 0,
+      "total_edges": 35
+    },
+    {
+      "bucket_id": "characters-house-of-merreq",
+      "tier_a_count": 1,
+      "tier_b_count": 0,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-of-myraq",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-of-nakloz",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 6
+    },
+    {
+      "bucket_id": "characters-house-of-pahl",
+      "tier_a_count": 2,
+      "tier_b_count": 1,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 15
+    },
+    {
+      "bucket_id": "characters-house-of-qaggaz",
+      "tier_a_count": 0,
+      "tier_b_count": 6,
+      "emitted": 6,
+      "no_infobox_count": 0,
+      "total_edges": 22
+    },
+    {
+      "bucket_id": "characters-house-of-reznak",
+      "tier_a_count": 1,
+      "tier_b_count": 0,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 5
+    },
+    {
+      "bucket_id": "characters-house-of-rhaezn",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 12
+    },
+    {
+      "bucket_id": "characters-house-of-yunzak",
+      "tier_a_count": 1,
+      "tier_b_count": 0,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 8
+    },
+    {
+      "bucket_id": "characters-house-of-zherzyn",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 5
+    },
+    {
+      "bucket_id": "characters-house-oldflowers",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-orkwood",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-orthys",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-osgrey",
+      "tier_a_count": 1,
+      "tier_b_count": 21,
+      "emitted": 22,
+      "no_infobox_count": 0,
+      "total_edges": 100
+    },
+    {
+      "bucket_id": "characters-house-otherys",
+      "tier_a_count": 0,
+      "tier_b_count": 5,
+      "emitted": 5,
+      "no_infobox_count": 0,
+      "total_edges": 34
+    },
+    {
+      "bucket_id": "characters-house-paege",
+      "tier_a_count": 0,
+      "tier_b_count": 7,
+      "emitted": 7,
+      "no_infobox_count": 0,
+      "total_edges": 32
+    },
+    {
+      "bucket_id": "characters-house-parren",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-payne",
+      "tier_a_count": 2,
+      "tier_b_count": 1,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 20
+    },
+    {
+      "bucket_id": "characters-house-peake",
+      "tier_a_count": 0,
+      "tier_b_count": 22,
+      "emitted": 22,
+      "no_infobox_count": 0,
+      "total_edges": 131
+    },
+    {
+      "bucket_id": "characters-house-peasebury",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-peckledon",
+      "tier_a_count": 1,
+      "tier_b_count": 0,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 5
+    },
+    {
+      "bucket_id": "characters-house-pemford",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 5
+    },
+    {
+      "bucket_id": "characters-house-pendaerys",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 10
+    },
+    {
+      "bucket_id": "characters-house-penny",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 13
+    },
+    {
+      "bucket_id": "characters-house-penrose",
+      "tier_a_count": 1,
+      "tier_b_count": 9,
+      "emitted": 10,
+      "no_infobox_count": 0,
+      "total_edges": 65
+    },
+    {
+      "bucket_id": "characters-house-perryn",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-piper",
+      "tier_a_count": 2,
+      "tier_b_count": 5,
+      "emitted": 7,
+      "no_infobox_count": 0,
+      "total_edges": 38
+    },
+    {
+      "bucket_id": "characters-house-plumm",
+      "tier_a_count": 0,
+      "tier_b_count": 8,
+      "emitted": 8,
+      "no_infobox_count": 0,
+      "total_edges": 45
+    },
+    {
+      "bucket_id": "characters-house-poole",
+      "tier_a_count": 2,
+      "tier_b_count": 0,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 21
+    },
+    {
+      "bucket_id": "characters-house-potter",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-pranelis",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 2
+    },
+    {
+      "bucket_id": "characters-house-prestayn",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 5
+    },
+    {
+      "bucket_id": "characters-house-prester",
+      "tier_a_count": 1,
+      "tier_b_count": 2,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 15
+    },
+    {
+      "bucket_id": "characters-house-pryor",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-pyle",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-qhoqua",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-qo",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 7
+    },
+    {
+      "bucket_id": "characters-house-qoherys",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 17
+    },
+    {
+      "bucket_id": "characters-house-qorgyle",
+      "tier_a_count": 0,
+      "tier_b_count": 5,
+      "emitted": 5,
+      "no_infobox_count": 0,
+      "total_edges": 23
+    },
+    {
+      "bucket_id": "characters-house-rambton",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 7
+    },
+    {
+      "bucket_id": "characters-house-rankenfell",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-redbeard",
+      "tier_a_count": 0,
+      "tier_b_count": 5,
+      "emitted": 5,
+      "no_infobox_count": 0,
+      "total_edges": 23
+    },
+    {
+      "bucket_id": "characters-house-redfort",
+      "tier_a_count": 1,
+      "tier_b_count": 6,
+      "emitted": 7,
+      "no_infobox_count": 0,
+      "total_edges": 34
+    },
+    {
+      "bucket_id": "characters-house-redwyne",
+      "tier_a_count": 6,
+      "tier_b_count": 10,
+      "emitted": 16,
+      "no_infobox_count": 0,
+      "total_edges": 111
+    },
+    {
+      "bucket_id": "characters-house-reed",
+      "tier_a_count": 3,
+      "tier_b_count": 1,
+      "emitted": 4,
+      "no_infobox_count": 0,
+      "total_edges": 30
+    },
+    {
+      "bucket_id": "characters-house-reyaan",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-reyne",
+      "tier_a_count": 0,
+      "tier_b_count": 7,
+      "emitted": 7,
+      "no_infobox_count": 0,
+      "total_edges": 54
+    },
+    {
+      "bucket_id": "characters-house-risley",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 12
+    },
+    {
+      "bucket_id": "characters-house-rodden",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 8
+    },
+    {
+      "bucket_id": "characters-house-rogare",
+      "tier_a_count": 0,
+      "tier_b_count": 12,
+      "emitted": 12,
+      "no_infobox_count": 0,
+      "total_edges": 77
+    },
+    {
+      "bucket_id": "characters-house-rogers",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 7
+    },
+    {
+      "bucket_id": "characters-house-rollingford",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 5
+    },
+    {
+      "bucket_id": "characters-house-roote",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 12
+    },
+    {
+      "bucket_id": "characters-house-rosby",
+      "tier_a_count": 1,
+      "tier_b_count": 5,
+      "emitted": 6,
+      "no_infobox_count": 0,
+      "total_edges": 48
+    },
+    {
+      "bucket_id": "characters-house-rowan",
+      "tier_a_count": 1,
+      "tier_b_count": 8,
+      "emitted": 9,
+      "no_infobox_count": 0,
+      "total_edges": 54
+    },
+    {
+      "bucket_id": "characters-house-roxton",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 6
+    },
+    {
+      "bucket_id": "characters-house-royce",
+      "tier_a_count": 4,
+      "tier_b_count": 18,
+      "emitted": 22,
+      "no_infobox_count": 0,
+      "total_edges": 151
+    },
+    {
+      "bucket_id": "characters-house-royce-of-the-gates-of-the-moon",
+      "tier_a_count": 2,
+      "tier_b_count": 4,
+      "emitted": 6,
+      "no_infobox_count": 0,
+      "total_edges": 37
+    },
+    {
+      "bucket_id": "characters-house-ruskyn",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 5
+    },
+    {
+      "bucket_id": "characters-house-ruthermont",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-ruttiger",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-ryger",
+      "tier_a_count": 1,
+      "tier_b_count": 1,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 11
+    },
+    {
+      "bucket_id": "characters-house-rykker",
+      "tier_a_count": 1,
+      "tier_b_count": 1,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 12
+    },
+    {
+      "bucket_id": "characters-house-ryswell",
+      "tier_a_count": 3,
+      "tier_b_count": 7,
+      "emitted": 10,
+      "no_infobox_count": 0,
+      "total_edges": 62
+    },
+    {
+      "bucket_id": "characters-house-saltcliffe",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-santagar",
+      "tier_a_count": 1,
+      "tier_b_count": 2,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 23
+    },
+    {
+      "bucket_id": "characters-house-sarsfield",
+      "tier_a_count": 1,
+      "tier_b_count": 1,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 9
+    },
+    {
+      "bucket_id": "characters-house-sawyer",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-scales",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 10
+    },
+    {
+      "bucket_id": "characters-house-seaworth",
+      "tier_a_count": 9,
+      "tier_b_count": 0,
+      "emitted": 9,
+      "no_infobox_count": 0,
+      "total_edges": 70
+    },
+    {
+      "bucket_id": "characters-house-selmy",
+      "tier_a_count": 1,
+      "tier_b_count": 2,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 26
+    },
+    {
+      "bucket_id": "characters-house-serrett",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-serry",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 17
+    },
+    {
+      "bucket_id": "characters-house-sharp",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 11
+    },
+    {
+      "bucket_id": "characters-house-shawney",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-shepherd",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 5
+    },
+    {
+      "bucket_id": "characters-house-shett-of-gull-tower",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-shett-of-gulltown",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 5
+    },
+    {
+      "bucket_id": "characters-house-slate",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-sloane",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-slynt",
+      "tier_a_count": 2,
+      "tier_b_count": 2,
+      "emitted": 4,
+      "no_infobox_count": 0,
+      "total_edges": 27
+    },
+    {
+      "bucket_id": "characters-house-smallwood",
+      "tier_a_count": 1,
+      "tier_b_count": 7,
+      "emitted": 8,
+      "no_infobox_count": 0,
+      "total_edges": 43
+    },
+    {
+      "bucket_id": "characters-house-sparr",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 9
+    },
+    {
+      "bucket_id": "characters-house-spicer",
+      "tier_a_count": 3,
+      "tier_b_count": 1,
+      "emitted": 4,
+      "no_infobox_count": 0,
+      "total_edges": 27
+    },
+    {
+      "bucket_id": "characters-house-stackhouse",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 2
+    },
+    {
+      "bucket_id": "characters-house-stackspear",
+      "tier_a_count": 0,
+      "tier_b_count": 7,
+      "emitted": 7,
+      "no_infobox_count": 0,
+      "total_edges": 34
+    },
+    {
+      "bucket_id": "characters-house-staedmon",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-stane",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-stark-of-winterfell",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-staunton",
+      "tier_a_count": 0,
+      "tier_b_count": 9,
+      "emitted": 9,
+      "no_infobox_count": 0,
+      "total_edges": 44
+    },
+    {
+      "bucket_id": "characters-house-stilwood",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 2
+    },
+    {
+      "bucket_id": "characters-house-stokeworth",
+      "tier_a_count": 5,
+      "tier_b_count": 7,
+      "emitted": 12,
+      "no_infobox_count": 0,
+      "total_edges": 81
+    },
+    {
+      "bucket_id": "characters-house-stonehouse",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 6
+    },
+    {
+      "bucket_id": "characters-house-stonetree",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 13
+    },
+    {
+      "bucket_id": "characters-house-stout",
+      "tier_a_count": 1,
+      "tier_b_count": 2,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 13
+    },
+    {
+      "bucket_id": "characters-house-straw",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 10
+    },
+    {
+      "bucket_id": "characters-house-strickland",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 6
+    },
+    {
+      "bucket_id": "characters-house-strong",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 19
+    },
+    {
+      "bucket_id": "characters-house-suggs",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 7
+    },
+    {
+      "bucket_id": "characters-house-sunderland",
+      "tier_a_count": 0,
+      "tier_b_count": 4,
+      "emitted": 4,
+      "no_infobox_count": 0,
+      "total_edges": 16
+    },
+    {
+      "bucket_id": "characters-house-sunderly",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 13
+    },
+    {
+      "bucket_id": "characters-house-sunglass",
+      "tier_a_count": 1,
+      "tier_b_count": 2,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 14
+    },
+    {
+      "bucket_id": "characters-house-swann",
+      "tier_a_count": 1,
+      "tier_b_count": 12,
+      "emitted": 13,
+      "no_infobox_count": 0,
+      "total_edges": 74
+    },
+    {
+      "bucket_id": "characters-house-sweet",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-swyft",
+      "tier_a_count": 2,
+      "tier_b_count": 9,
+      "emitted": 11,
+      "no_infobox_count": 0,
+      "total_edges": 65
+    },
+    {
+      "bucket_id": "characters-house-tallhart",
+      "tier_a_count": 1,
+      "tier_b_count": 5,
+      "emitted": 6,
+      "no_infobox_count": 0,
+      "total_edges": 45
+    },
+    {
+      "bucket_id": "characters-house-tarbeck",
+      "tier_a_count": 0,
+      "tier_b_count": 9,
+      "emitted": 9,
+      "no_infobox_count": 0,
+      "total_edges": 67
+    },
+    {
+      "bucket_id": "characters-house-tarly",
+      "tier_a_count": 3,
+      "tier_b_count": 9,
+      "emitted": 12,
+      "no_infobox_count": 0,
+      "total_edges": 79
+    },
+    {
+      "bucket_id": "characters-house-tarth",
+      "tier_a_count": 3,
+      "tier_b_count": 8,
+      "emitted": 11,
+      "no_infobox_count": 0,
+      "total_edges": 72
+    },
+    {
+      "bucket_id": "characters-house-tawney",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 5
+    },
+    {
+      "bucket_id": "characters-house-templeton",
+      "tier_a_count": 0,
+      "tier_b_count": 5,
+      "emitted": 5,
+      "no_infobox_count": 0,
+      "total_edges": 24
+    },
+    {
+      "bucket_id": "characters-house-terrick",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-thenn",
+      "tier_a_count": 1,
+      "tier_b_count": 0,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 8
+    },
+    {
+      "bucket_id": "characters-house-thorne",
+      "tier_a_count": 1,
+      "tier_b_count": 1,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 15
+    },
+    {
+      "bucket_id": "characters-house-toland",
+      "tier_a_count": 0,
+      "tier_b_count": 4,
+      "emitted": 4,
+      "no_infobox_count": 0,
+      "total_edges": 18
+    },
+    {
+      "bucket_id": "characters-house-tollett",
+      "tier_a_count": 1,
+      "tier_b_count": 4,
+      "emitted": 5,
+      "no_infobox_count": 0,
+      "total_edges": 19
+    },
+    {
+      "bucket_id": "characters-house-torone",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 2
+    },
+    {
+      "bucket_id": "characters-house-torrent",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-towers",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 19
+    },
+    {
+      "bucket_id": "characters-house-toyne",
+      "tier_a_count": 2,
+      "tier_b_count": 2,
+      "emitted": 4,
+      "no_infobox_count": 0,
+      "total_edges": 22
+    },
+    {
+      "bucket_id": "characters-house-trant",
+      "tier_a_count": 1,
+      "tier_b_count": 0,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 6
+    },
+    {
+      "bucket_id": "characters-house-turnberry",
+      "tier_a_count": 1,
+      "tier_b_count": 1,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 10
+    },
+    {
+      "bucket_id": "characters-house-tyrell-of-highgarden",
+      "tier_a_count": 1,
+      "tier_b_count": 0,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 10
+    },
+    {
+      "bucket_id": "characters-house-uffering",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 12
+    },
+    {
+      "bucket_id": "characters-house-uller",
+      "tier_a_count": 1,
+      "tier_b_count": 4,
+      "emitted": 5,
+      "no_infobox_count": 0,
+      "total_edges": 28
+    },
+    {
+      "bucket_id": "characters-house-umber",
+      "tier_a_count": 4,
+      "tier_b_count": 4,
+      "emitted": 8,
+      "no_infobox_count": 0,
+      "total_edges": 55
+    },
+    {
+      "bucket_id": "characters-house-upcliff",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 8
+    },
+    {
+      "bucket_id": "characters-house-vaith",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 12
+    },
+    {
+      "bucket_id": "characters-house-vance",
+      "tier_a_count": 0,
+      "tier_b_count": 7,
+      "emitted": 7,
+      "no_infobox_count": 0,
+      "total_edges": 40
+    },
+    {
+      "bucket_id": "characters-house-vance-of-atranta",
+      "tier_a_count": 0,
+      "tier_b_count": 6,
+      "emitted": 6,
+      "no_infobox_count": 0,
+      "total_edges": 29
+    },
+    {
+      "bucket_id": "characters-house-vance-of-wayfarers-rest",
+      "tier_a_count": 1,
+      "tier_b_count": 7,
+      "emitted": 8,
+      "no_infobox_count": 0,
+      "total_edges": 37
+    },
+    {
+      "bucket_id": "characters-house-varner",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-velaryon",
+      "tier_a_count": 2,
+      "tier_b_count": 22,
+      "emitted": 24,
+      "no_infobox_count": 0,
+      "total_edges": 260
+    },
+    {
+      "bucket_id": "characters-house-vikary",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-volmark",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 13
+    },
+    {
+      "bucket_id": "characters-house-vypren",
+      "tier_a_count": 0,
+      "tier_b_count": 4,
+      "emitted": 4,
+      "no_infobox_count": 0,
+      "total_edges": 25
+    },
+    {
+      "bucket_id": "characters-house-vyrwel",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 12
+    },
+    {
+      "bucket_id": "characters-house-wagstaff",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 8
+    },
+    {
+      "bucket_id": "characters-house-warrick",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-waxley",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-wayn",
+      "tier_a_count": 1,
+      "tier_b_count": 1,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 11
+    },
+    {
+      "bucket_id": "characters-house-waynwood",
+      "tier_a_count": 0,
+      "tier_b_count": 11,
+      "emitted": 11,
+      "no_infobox_count": 0,
+      "total_edges": 72
+    },
+    {
+      "bucket_id": "characters-house-weatherwax",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-weaver",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 2
+    },
+    {
+      "bucket_id": "characters-house-webber",
+      "tier_a_count": 0,
+      "tier_b_count": 6,
+      "emitted": 6,
+      "no_infobox_count": 0,
+      "total_edges": 27
+    },
+    {
+      "bucket_id": "characters-house-wells",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 11
+    },
+    {
+      "bucket_id": "characters-house-westerling",
+      "tier_a_count": 3,
+      "tier_b_count": 7,
+      "emitted": 10,
+      "no_infobox_count": 0,
+      "total_edges": 74
+    },
+    {
+      "bucket_id": "characters-house-whent",
+      "tier_a_count": 7,
+      "tier_b_count": 6,
+      "emitted": 13,
+      "no_infobox_count": 0,
+      "total_edges": 91
+    },
+    {
+      "bucket_id": "characters-house-whitehead",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-whitfield",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-willum",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 11
+    },
+    {
+      "bucket_id": "characters-house-wode",
+      "tier_a_count": 1,
+      "tier_b_count": 1,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 9
+    },
+    {
+      "bucket_id": "characters-house-woodhull",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 6
+    },
+    {
+      "bucket_id": "characters-house-woods",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 2
+    },
+    {
+      "bucket_id": "characters-house-woodwright",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 12
+    },
+    {
+      "bucket_id": "characters-house-woolfield",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 6
+    },
+    {
+      "bucket_id": "characters-house-wormwood",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 4
+    },
+    {
+      "bucket_id": "characters-house-wull",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 10
+    },
+    {
+      "bucket_id": "characters-house-wyl",
+      "tier_a_count": 0,
+      "tier_b_count": 5,
+      "emitted": 5,
+      "no_infobox_count": 0,
+      "total_edges": 17
+    },
+    {
+      "bucket_id": "characters-house-wylde",
+      "tier_a_count": 0,
+      "tier_b_count": 12,
+      "emitted": 12,
+      "no_infobox_count": 0,
+      "total_edges": 66
+    },
+    {
+      "bucket_id": "characters-house-wynch",
+      "tier_a_count": 0,
+      "tier_b_count": 3,
+      "emitted": 3,
+      "no_infobox_count": 0,
+      "total_edges": 14
+    },
+    {
+      "bucket_id": "characters-house-wythers",
+      "tier_a_count": 1,
+      "tier_b_count": 1,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 13
+    },
+    {
+      "bucket_id": "characters-house-xaq",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-house-xho",
+      "tier_a_count": 1,
+      "tier_b_count": 0,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 5
+    },
+    {
+      "bucket_id": "characters-house-yarwyck",
+      "tier_a_count": 1,
+      "tier_b_count": 0,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 5
+    },
+    {
+      "bucket_id": "characters-house-yew",
+      "tier_a_count": 0,
+      "tier_b_count": 2,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 6
+    },
+    {
+      "bucket_id": "characters-house-yronwood",
+      "tier_a_count": 1,
+      "tier_b_count": 9,
+      "emitted": 10,
+      "no_infobox_count": 0,
+      "total_edges": 71
+    },
+    {
+      "bucket_id": "characters-house-zalyne",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "characters-other-a",
+      "tier_a_count": 1,
+      "tier_b_count": 29,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 109
+    },
+    {
+      "bucket_id": "characters-other-a-b",
+      "tier_a_count": 6,
+      "tier_b_count": 24,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 124
+    },
+    {
+      "bucket_id": "characters-other-b",
+      "tier_a_count": 7,
+      "tier_b_count": 23,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 87
+    },
+    {
+      "bucket_id": "characters-other-b-c",
+      "tier_a_count": 2,
+      "tier_b_count": 28,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 80
+    },
+    {
+      "bucket_id": "characters-other-c",
+      "tier_a_count": 9,
+      "tier_b_count": 21,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 102
+    },
+    {
+      "bucket_id": "characters-other-c-d",
+      "tier_a_count": 6,
+      "tier_b_count": 24,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 159
+    },
+    {
+      "bucket_id": "characters-other-d",
+      "tier_a_count": 1,
+      "tier_b_count": 29,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 100
+    },
+    {
+      "bucket_id": "characters-other-d-e",
+      "tier_a_count": 2,
+      "tier_b_count": 28,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 109
+    },
+    {
+      "bucket_id": "characters-other-e-f",
+      "tier_a_count": 4,
+      "tier_b_count": 26,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 99
+    },
+    {
+      "bucket_id": "characters-other-f-g",
+      "tier_a_count": 3,
+      "tier_b_count": 27,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 111
+    },
+    {
+      "bucket_id": "characters-other-g",
+      "tier_a_count": 3,
+      "tier_b_count": 27,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 91
+    },
+    {
+      "bucket_id": "characters-other-g-h",
+      "tier_a_count": 3,
+      "tier_b_count": 27,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 85
+    },
+    {
+      "bucket_id": "characters-other-h",
+      "tier_a_count": 16,
+      "tier_b_count": 14,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 182
+    },
+    {
+      "bucket_id": "characters-other-h-i",
+      "tier_a_count": 1,
+      "tier_b_count": 29,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 124
+    },
+    {
+      "bucket_id": "characters-other-i-j",
+      "tier_a_count": 9,
+      "tier_b_count": 21,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 180
+    },
+    {
+      "bucket_id": "characters-other-j-k",
+      "tier_a_count": 5,
+      "tier_b_count": 25,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 92
+    },
+    {
+      "bucket_id": "characters-other-k-l",
+      "tier_a_count": 3,
+      "tier_b_count": 27,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 94
+    },
+    {
+      "bucket_id": "characters-other-l",
+      "tier_a_count": 1,
+      "tier_b_count": 29,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 95
+    },
+    {
+      "bucket_id": "characters-other-l-m",
+      "tier_a_count": 4,
+      "tier_b_count": 26,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 141
+    },
+    {
+      "bucket_id": "characters-other-m",
+      "tier_a_count": 2,
+      "tier_b_count": 28,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 92
+    },
+    {
+      "bucket_id": "characters-other-n-o",
+      "tier_a_count": 1,
+      "tier_b_count": 29,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 87
+    },
+    {
+      "bucket_id": "characters-other-o",
+      "tier_a_count": 1,
+      "tier_b_count": 29,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 94
+    },
+    {
+      "bucket_id": "characters-other-o-p",
+      "tier_a_count": 2,
+      "tier_b_count": 28,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 102
+    },
+    {
+      "bucket_id": "characters-other-p-q",
+      "tier_a_count": 7,
+      "tier_b_count": 23,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 92
+    },
+    {
+      "bucket_id": "characters-other-q-r",
+      "tier_a_count": 2,
+      "tier_b_count": 28,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 99
+    },
+    {
+      "bucket_id": "characters-other-r",
+      "tier_a_count": 5,
+      "tier_b_count": 25,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 176
+    },
+    {
+      "bucket_id": "characters-other-r-s",
+      "tier_a_count": 4,
+      "tier_b_count": 26,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 101
+    },
+    {
+      "bucket_id": "characters-other-s",
+      "tier_a_count": 5,
+      "tier_b_count": 25,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 100
+    },
+    {
+      "bucket_id": "characters-other-s-t",
+      "tier_a_count": 5,
+      "tier_b_count": 25,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 95
+    },
+    {
+      "bucket_id": "characters-other-t",
+      "tier_a_count": 8,
+      "tier_b_count": 22,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 109
+    },
+    {
+      "bucket_id": "characters-other-t-u",
+      "tier_a_count": 5,
+      "tier_b_count": 25,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 120
+    },
+    {
+      "bucket_id": "characters-other-u-v",
+      "tier_a_count": 6,
+      "tier_b_count": 24,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 126
+    },
+    {
+      "bucket_id": "characters-other-v-w",
+      "tier_a_count": 3,
+      "tier_b_count": 27,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 83
+    },
+    {
+      "bucket_id": "characters-other-w-y",
+      "tier_a_count": 8,
+      "tier_b_count": 22,
+      "emitted": 30,
+      "no_infobox_count": 0,
+      "total_edges": 92
+    },
+    {
+      "bucket_id": "characters-other-y-z",
+      "tier_a_count": 1,
+      "tier_b_count": 14,
+      "emitted": 15,
+      "no_infobox_count": 0,
+      "total_edges": 54
+    },
+    {
+      "bucket_id": "houses-braavos",
+      "tier_a_count": 1,
+      "tier_b_count": 7,
+      "emitted": 8,
+      "no_infobox_count": 0,
+      "total_edges": 11
+    },
+    {
+      "bucket_id": "houses-essos",
+      "tier_a_count": 1,
+      "tier_b_count": 0,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 3
+    },
+    {
+      "bucket_id": "houses-free-cities",
+      "tier_a_count": 0,
+      "tier_b_count": 1,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 2
+    },
+    {
+      "bucket_id": "houses-north-house-stark",
+      "tier_a_count": 1,
+      "tier_b_count": 0,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 19
+    },
+    {
+      "bucket_id": "houses-other-b-h",
+      "tier_a_count": 7,
+      "tier_b_count": 14,
+      "emitted": 21,
+      "no_infobox_count": 4,
+      "total_edges": 79
+    },
+    {
+      "bucket_id": "houses-other-h",
+      "tier_a_count": 4,
+      "tier_b_count": 15,
+      "emitted": 19,
+      "no_infobox_count": 7,
+      "total_edges": 50
+    },
+    {
+      "bucket_id": "houses-other-h-w",
+      "tier_a_count": 6,
+      "tier_b_count": 8,
+      "emitted": 14,
+      "no_infobox_count": 3,
+      "total_edges": 33
+    },
+    {
+      "bucket_id": "houses-other-house-targaryen",
+      "tier_a_count": 1,
+      "tier_b_count": 0,
+      "emitted": 1,
+      "no_infobox_count": 0,
+      "total_edges": 18
+    },
+    {
+      "bucket_id": "houses-seven-kingdoms",
+      "tier_a_count": 4,
+      "tier_b_count": 0,
+      "emitted": 4,
+      "no_infobox_count": 0,
+      "total_edges": 22
+    },
+    {
+      "bucket_id": "houses-westeros",
+      "tier_a_count": 1,
+      "tier_b_count": 1,
+      "emitted": 2,
+      "no_infobox_count": 0,
+      "total_edges": 7
+    },
+    {
+      "bucket_id": "locations-other-a-b",
+      "tier_a_count": 7,
+      "tier_b_count": 19,
+      "emitted": 26,
+      "no_infobox_count": 0,
+      "total_edges": 34
+    },
+    {
+      "bucket_id": "locations-other-b-g",
+      "tier_a_count": 9,
+      "tier_b_count": 17,
+      "emitted": 26,
+      "no_infobox_count": 0,
+      "total_edges": 41
+    },
+    {
+      "bucket_id": "locations-other-g-m",
+      "tier_a_count": 15,
+      "tier_b_count": 11,
+      "emitted": 26,
+      "no_infobox_count": 0,
+      "total_edges": 44
+    },
+    {
+      "bucket_id": "locations-other-m-s",
+      "tier_a_count": 13,
+      "tier_b_count": 13,
+      "emitted": 26,
+      "no_infobox_count": 0,
+      "total_edges": 26
+    },
+    {
+      "bucket_id": "locations-other-s-t",
+      "tier_a_count": 10,
+      "tier_b_count": 16,
+      "emitted": 26,
+      "no_infobox_count": 0,
+      "total_edges": 32
+    },
+    {
+      "bucket_id": "locations-other-t-y",
+      "tier_a_count": 9,
+      "tier_b_count": 12,
+      "emitted": 21,
+      "no_infobox_count": 0,
+      "total_edges": 19
+    },
+    {
+      "bucket_id": "titles-a-l",
+      "tier_a_count": 13,
+      "tier_b_count": 14,
+      "emitted": 27,
+      "no_infobox_count": 0,
+      "total_edges": 44
+    },
+    {
+      "bucket_id": "titles-l",
+      "tier_a_count": 11,
+      "tier_b_count": 16,
+      "emitted": 27,
+      "no_infobox_count": 0,
+      "total_edges": 44
+    },
+    {
+      "bucket_id": "titles-l-w",
+      "tier_a_count": 15,
+      "tier_b_count": 10,
+      "emitted": 25,
+      "no_infobox_count": 0,
+      "total_edges": 38
+    }
+  ]
+}

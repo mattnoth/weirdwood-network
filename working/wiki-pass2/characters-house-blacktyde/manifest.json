@@ -1,0 +1,47 @@
+{
+  "bucket_id": "characters-house-blacktyde",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "3c7c1a4171b40f1f8a80193b4ab89e658502e9f512769e0e21e56a8a7739f589",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Baelor Blacktyde",
+    "Beron Blacktyde",
+    "Joseran",
+    "Lord Blacktyde (father of Baelor)"
+  ],
+  "expected_nodes": [
+    "baelor-blacktyde.node.md",
+    "beron-blacktyde.node.md",
+    "joseran.node.md",
+    "lord-blacktyde-father-of-baelor.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Baelor Blacktyde",
+      "Beron Blacktyde",
+      "Joseran",
+      "Lord Blacktyde (father of Baelor)"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 4,
+      "tier_a": 0,
+      "tier_b": 4,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.661498+00:00",
+  "stage3_promoted_count": 4,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

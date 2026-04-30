@@ -1,0 +1,45 @@
+{
+  "bucket_id": "characters-house-payne",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "c73ce3144be50725056f5f960325c6073eae9fd7fcef54db73f5d60303cbebf8",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Cedric Payne",
+    "Ilyn Payne",
+    "Podrick Payne"
+  ],
+  "expected_nodes": [
+    "cedric-payne.node.md",
+    "ilyn-payne.node.md",
+    "podrick-payne.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Ilyn Payne",
+      "Podrick Payne"
+    ],
+    "tier_b": [
+      "Cedric Payne"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 3,
+      "tier_a": 2,
+      "tier_b": 1,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.911261+00:00",
+  "stage3_promoted_count": 3,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

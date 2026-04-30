@@ -1,0 +1,54 @@
+{
+  "bucket_id": "characters-house-rosby",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "0445942e282f9f5e637c3fa83ce384e1ab21bc9cab582dee9b3fd41b32eecc08",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Bethany Rosby",
+    "Gyles Rosby",
+    "Jon Rosby",
+    "Lord Rosby",
+    "Rayford Rosby",
+    "Ward of Gyles Rosby"
+  ],
+  "expected_nodes": [
+    "bethany-rosby.node.md",
+    "gyles-rosby.node.md",
+    "jon-rosby.node.md",
+    "lord-rosby.node.md",
+    "rayford-rosby.node.md",
+    "ward-of-gyles-rosby.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Gyles Rosby"
+    ],
+    "tier_b": [
+      "Bethany Rosby",
+      "Jon Rosby",
+      "Lord Rosby",
+      "Rayford Rosby",
+      "Ward of Gyles Rosby"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 6,
+      "tier_a": 1,
+      "tier_b": 5,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.945759+00:00",
+  "stage3_promoted_count": 6,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

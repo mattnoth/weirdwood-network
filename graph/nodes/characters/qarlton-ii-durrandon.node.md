@@ -1,0 +1,28 @@
+---
+name: "Qarlton II Durrandon"
+type: character.human
+slug: qarlton-ii-durrandon
+aliases: ["Qarlton the Conqueror"]
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Qarlton_II_Durrandon"
+bucket_id: characters-other-p-q
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Qarlton II Durrandon is a character.human from the AWOIAF wiki.
+
+## Edges
+
+- HOLDS_TITLE: Storm King (track_b: Title)
+- HEIR_TO: Qarlton III Durrandon (track_b: Heir)
+- SUCCEEDS: Qarlton III Durrandon (track_b: Successor)
+- CULTURE_OF: First Men (track_b: Culture)
+- PARENT_OF: Qarlton III Durrandon (track_b: Issue)
+
+## Origins
+
+Qarlton was the first Storm King to face the [Andals](wiki:Andals) in battle. He also, after four generations of war, completed the reconquest of [Massey's Hook](wiki:Massey's_Hook) after a year's siege and slaying the last [Massey](wiki:House_Massey) king, [Josua](wiki:Josua_Massey). However, he held his conquest for less than two years, as [Togarion Bar Emmon](wiki:Togarion_Bar_Emmon) threw the stormlanders away from Massey's Hook. Qarlton II, however, soon had to face the Andals, whose longships had begun to land on the Stormlands' shores. Qarlton II was succeeded by [Qarlton III Durrandon](wiki:Qarlton_III_Durrandon).(wiki:Qarlton_II_Durrandon.cite_ref-Rtwoiaf_the_stormlands:_andals_in_the_stormlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

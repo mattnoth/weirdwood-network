@@ -1,0 +1,3 @@
+## Origins
+
+When [King-Beyond-the-Wall](wiki:King-Beyond-the-Wall) [Raymun Redbeard](wiki:Raymun_Redbeard) and the his [free folk](wiki:Free_folk) army went over the [Wall](wiki:Wall) and marched south, Lord Harmond joined with Lord [Willam Stark](wiki:Willam_Stark) with the intent to meet them. Harmond and Lord Willam caught the wildling army between them and [Long Lake](wiki:Long_Lake), defeating the host [in battle](wiki:Battle_at_Long_Lake).(wiki:Harmond_Umber.cite_ref-Radwd7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)(wiki:Harmond_Umber.cite_ref-Rtwoiafthe_wall_and_beyond:_the_wildlings.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

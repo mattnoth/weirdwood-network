@@ -1,0 +1,8 @@
+{
+  "bucket_id": "characters-house-targaryen-t-y",
+  "passed": true,
+  "checked_at": "2026-04-27T19:47:45Z",
+  "node_count_expected": 23,
+  "node_count_actual": 23,
+  "failures": []
+}

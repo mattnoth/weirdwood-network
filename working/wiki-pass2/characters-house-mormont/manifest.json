@@ -1,0 +1,63 @@
+{
+  "bucket_id": "characters-house-mormont",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "226d6a616755c1a30d61ee2d86570023e05bc206714c55764be40316c6c8e889",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Alysane Mormont",
+    "Dacey Mormont",
+    "Jeor Mormont",
+    "Jorah Mormont",
+    "Jorelle Mormont",
+    "Lady Mormont (wife of Alaric Stark)",
+    "Lyanna Mormont",
+    "Lyra Mormont",
+    "Maege Mormont"
+  ],
+  "expected_nodes": [
+    "alysane-mormont.node.md",
+    "dacey-mormont.node.md",
+    "jeor-mormont.node.md",
+    "jorah-mormont.node.md",
+    "jorelle-mormont.node.md",
+    "lady-mormont-wife-of-alaric-stark.node.md",
+    "lyanna-mormont.node.md",
+    "lyra-mormont.node.md",
+    "maege-mormont.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Dacey Mormont",
+      "Jeor Mormont",
+      "Jorah Mormont",
+      "Maege Mormont"
+    ],
+    "tier_b": [
+      "Alysane Mormont",
+      "Jorelle Mormont",
+      "Lady Mormont (wife of Alaric Stark)",
+      "Lyanna Mormont",
+      "Lyra Mormont"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 9,
+      "tier_a": 4,
+      "tier_b": 5,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.881495+00:00",
+  "stage3_promoted_count": 9,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

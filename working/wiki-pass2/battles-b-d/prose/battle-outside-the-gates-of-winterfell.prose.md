@@ -1,0 +1,35 @@
+## Origins
+
+With the majority of the northern lords and their hosts fighting in the [riverlands](wiki:Riverlands) and the [westerlands](wiki:Westerlands) of southern [Westeros](wiki:Westeros), the [north](wiki:North) is left relatively undefended. Lord [Balon Greyjoy](wiki:Balon_Greyjoy) declares himself [King of the Isles and the North](wiki:King_of_the_Isles_and_the_North) and orders his longships to take the north by conquest. His son, [Theon Greyjoy](wiki:Theon_Greyjoy), is sent to [harry the Stony Shore](wiki:Harrying_of_the_Stony_Shore) with [Dagmer Cleftjaw](wiki:Dagmer). After completing this task, the two plot the capture of [Winterfell](wiki:Winterfell), the ancestral seat of [House Stark](wiki:House_Stark). Dagmer besieges [Torrhen's Square](wiki:Torrhen's_Square), the seat of the [Tallharts](wiki:House_Tallhart), in order to draw out the garrison of Winterfell, leaving the castle lightly defended.(wiki:Battle_outside_the_gates_of_Winterfell.cite_ref-Racok37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) Theon [captures Winterfell](wiki:Capture_of_Winterfell) in one night.(wiki:Battle_outside_the_gates_of_Winterfell.cite_ref-Racok46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) After some of his prisoners, including [Bran](wiki:Bran_Stark) and [Rickon Stark](wiki:Rickon_Stark), disappear, however, Theon presents the burned bodies of two sons of a miller as those of the missing Stark princes.(wiki:Battle_outside_the_gates_of_Winterfell.cite_ref-Racok50.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)(wiki:Battle_outside_the_gates_of_Winterfell.cite_ref-Racok56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
+
+Ser [Rodrik Cassel](wiki:Rodrik_Cassel), the castellan of Winterfell, breaks Dagmer's force in the [fight at Torrhen's Square](wiki:Fight_at_Torrhen's_Square). Strengthened by Tallhart men, he marches on Winterfell from [Castle Cerwyn](wiki:Castle_Cerwyn).(wiki:Battle_outside_the_gates_of_Winterfell.cite_ref-Racok55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)(wiki:Battle_outside_the_gates_of_Winterfell.cite_ref-Racok56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1) Many of the [ironborn](wiki:Ironborn) with Theon abandon him, including [Urzen](wiki:Urzen), [Stygg](wiki:Stygg), and ten of [Asha Greyjoy](wiki:Asha_Greyjoy)'s men, leaving Theon with only seventeen remaining in his command.(wiki:Battle_outside_the_gates_of_Winterfell.cite_ref-Racok66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)(wiki:Battle_outside_the_gates_of_Winterfell.cite_ref-Theon_8-0) However, Theon has allowed a [House Bolton](wiki:House_Bolton) serving man, "[Reek](wiki:Reek)", to leave Winterfell in search of aid by promising to find a few hundred reinforcements for Theon.(wiki:Battle_outside_the_gates_of_Winterfell.cite_ref-Racok56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
+
+The Stark army assembled by Rodrik totals less than two thousand men.(wiki:Battle_outside_the_gates_of_Winterfell.cite_ref-Racok66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-11) It includes six hundred from Winterfell and its vicinity under the command of Rodrik Cassel, three hundred [Cerwyns](wiki:House_Cerwyn) under the command of young Lord [Cley Cerwyn](wiki:Cley_Cerwyn), and a force of Tallharts under the command of [Leobald Tallhart](wiki:Leobald_Tallhart). Banners from Houses [Flint](wiki:House_Flint), [Hornwood](wiki:House_Hornwood), [Karstark](wiki:House_Karstark), and [Manderly](wiki:House_Manderly) are also seen.(wiki:Battle_outside_the_gates_of_Winterfell.cite_ref-Racok66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-12) Lord [Wyman Manderly](wiki:Wyman_Manderly) sent a dozen barges packed with [knights](wiki:Knight), warhorses, and siege engines up the [White Knife](wiki:White_Knife).(wiki:Battle_outside_the_gates_of_Winterfell.cite_ref-Racok56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3) At Winterfell Theon sees northern catapults and scorpions, but no siege towers, although there is plenty of timber in the [wolfswood](wiki:Wolfswood) if need be.(wiki:Battle_outside_the_gates_of_Winterfell.cite_ref-Racok66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-13)
+
+## Aftermath
+
+Although the battle at Winterfell is not especially bloody,(wiki:Battle_outside_the_gates_of_Winterfell.cite_ref-Rssm1284.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0) the hold of [House Stark](wiki:House_Stark) on the north is shattered. Most of Ser [Rodrik Cassel](wiki:Rodrik_Cassel)'s leaders are killed, but a good many of his common soldiers escape and return to their villages and holdfasts. However, their accounts of what happened vary.(wiki:Battle_outside_the_gates_of_Winterfell.cite_ref-Rssm1116.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)
+
+According to [Ramsay Snow](wiki:Ramsay_Snow), [Theon Greyjoy](wiki:Theon_Greyjoy) cut down Rodrik during a parley.(wiki:Battle_outside_the_gates_of_Winterfell.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0) At the [Twins](wiki:Twins) prior to the [Red Wedding](wiki:Red_Wedding), Lord [Roose Bolton](wiki:Roose_Bolton) tells [Robb Stark](wiki:Robb_Stark), the [King in the North](wiki:King_in_the_North), that his son Ramsay successfully rallied the northmen after Theon's ironmen cut down Rodrik and [Leobald Tallhart](wiki:Leobald_Tallhart).(wiki:Battle_outside_the_gates_of_Winterfell.cite_ref-Rasos49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0) [Wex Pyke](wiki:Wex_Pyke) indicates to Lord [Wyman Manderly](wiki:Wyman_Manderly) and [Robett Glover](wiki:Robett_Glover) that Ramsay's claims are false.(wiki:Battle_outside_the_gates_of_Winterfell.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-1)
+
+After the [fight by Deepwood Motte](wiki:Fight_by_Deepwood_Motte), [Stannis Baratheon](wiki:Stannis_Baratheon)'s army is joined by [Cerwyns](wiki:House_Cerwyn), [Hornwoods](wiki:House_Hornwood), and [Tallharts](wiki:House_Tallhart) who survived the battle outside the gates of Winterfell.(wiki:Battle_outside_the_gates_of_Winterfell.cite_ref-Radwd35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+
+## Quotes
+
+> **Kromm**: They're fighting. More men came up, hundreds of them, and at first they made to join the others. But now they've fallen on them!
+>
+> **Theon**: Is it [Asha](wiki:Asha_Greyjoy)?
+>
+> —[Kromm](wiki:Kromm) and [Theon Greyjoy](wiki:Theon_Greyjoy)
+
+> He saw no battle lines, only a swirling chaos of banners and blades.(wiki:Battle_outside_the_gates_of_Winterfell.cite_ref-Racok66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-19)
+>
+> —thoughts of [Theon Greyjoy](wiki:Theon_Greyjoy)
+
+> **Theon:** Ser [Rodrik](wiki:Rodrik_Cassel) had you five to one. **Ramsay:** Aye, but he thought us friends. A common mistake. When the old fool gave me his hand, I took half his arm instead. Then I let him see my face.(wiki:Battle_outside_the_gates_of_Winterfell.cite_ref-Racok66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-20)
+>
+> —[Theon Greyjoy](wiki:Theon_Greyjoy) and [Ramsay Snow](wiki:Ramsay_Snow)
+
+> War everywhere... each man against his neighbor, and [winter](wiki:Winter) coming... such folly, such black mad folly...(wiki:Battle_outside_the_gates_of_Winterfell.cite_ref-Racok69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0)
+>
+> —[Luwin](wiki:Luwin) to [Osha](wiki:Osha)

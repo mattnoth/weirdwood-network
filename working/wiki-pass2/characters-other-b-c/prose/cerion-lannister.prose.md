@@ -1,0 +1,3 @@
+## Origins
+
+Cerion extended the rule of the [Kingdom of the Rock](wiki:Kingdom_of_the_Rock) as far east as the [Golden Tooth](wiki:Golden_Tooth) and its surrounding hills, defeating three lesser kings when they made an alliance against him.(wiki:Cerion_Lannister.cite_ref-Rtwoiafthe_westerlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

@@ -1,0 +1,32 @@
+---
+name: "Myrish Bloodbath"
+type: event.battle
+slug: myrish-bloodbath
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Myrish_Bloodbath"
+bucket_id: battles-f-p
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Myrish Bloodbath is a event.battle from the AWOIAF wiki.
+
+## Edges
+
+- DEFEATS: Myrish (track_b: Result)
+
+## Origins
+
+The exact details of what happened in Myr are vague. [Archmaester](wiki:Archmaester) [Gyldayn](wiki:Gyldayn) wrote, briefly, that two rival factions within the Free City of Myr vied for supremacy. There were riots, [assassinations](wiki:Assassin), [poisonings](wiki:Poison), rapes, hangings, [tortures](wiki:Torture), and sea battles. The losing faction fled the city, and tried to set up a base on the [Stepstones](wiki:Stepstones). However, they were hounded from there by the [Archon](wiki:Archon) of [Tyrosh](wiki:Tyrosh), who had made a common cause with a league of [pirate](wiki:Pirate) kings.
+
+In desperation, the rogues fled to [Tarth](wiki:Tarth). Lord [Cameron Tarth](wiki:Cameron_Tarth), the [Evenstar](wiki:Evenstar), was taken off guard, and the Myrmen secured the entire eastern side of the island. The [Iron Throne](wiki:Iron_Throne) came to Tarth's aid, sending the [Velaryon fleet](wiki:Velaryon_fleet), under the command of Lord [Corlys Velaryon](wiki:Corlys_Velaryon), on the ninth day of the third month of [92 AC](wiki:92_AC). The ships would protect Lord [Boremund Baratheon](wiki:Boremund_Baratheon)'s [stormlander](wiki:Stormlander) levies that would be crossing to Tarth to join with the Evenstar's men. Prince [Aemon Targaryen](wiki:Aemon_Targaryen_(son_of_Jaehaerys_I)) was also sent with his [dragon](wiki:Dragon) [Caraxes](wiki:Caraxes). It was believed that the combined strength of the forces would be more than enough to retake Tarth.
+
+Prince Aemon arrived first, flying on his dragon, and met the Evenstar at his hidden camp in the mountains in the center of the island. However, the camp was found by two Myrish scouts, who recognized Lord Cameron and shot at him with a crossbow. The bolt missed him, but hit Prince Aemon in the throat, killing him.
+
+Prince [Baelon Targaryen](wiki:Baelon_Targaryen_(son_of_Jaehaerys_I)), enraged at his brother's death, soon arrived on his dragon [Vhagar](wiki:Vhagar), and burned all the Myrish ships. When the Evenstar and Lord Boremond's forces descended upon the Myrmen, they had nowhere to escape. The Westerosi, including Prince Baelon wielding [Dark Sister](wiki:Dark_Sister), wiped out the Myrish invaders, cutting down thousands and leaving them to rot along the beaches of Tarth.
+
+Prince Baelon returned to [King's Landing](wiki:King's_Landing) with Aemon's body, and the [smallfolk](wiki:Smallfolk) lined the streets, calling him a hero. But when Baelon saw his mother, Queen [Alysanne Targaryen](wiki:Alysanne_Targaryen), he cried in her arms, saying that he killed a thousand men, but it would not bring his brother back.(wiki:Myrish_Bloodbath.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

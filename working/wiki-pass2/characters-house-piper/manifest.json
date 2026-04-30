@@ -1,0 +1,57 @@
+{
+  "bucket_id": "characters-house-piper",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "b674211201ad9d97113a24039e901015dd1af2285a39a9fb8c94c2170e3e4f0f",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Clement Piper",
+    "Jon Piper",
+    "Lady Piper (wife of Quellon Greyjoy)",
+    "Lewys Piper",
+    "Marq Piper",
+    "Melony Piper",
+    "Stanton Piper"
+  ],
+  "expected_nodes": [
+    "clement-piper.node.md",
+    "jon-piper.node.md",
+    "lady-piper-wife-of-quellon-greyjoy.node.md",
+    "lewys-piper.node.md",
+    "marq-piper.node.md",
+    "melony-piper.node.md",
+    "stanton-piper.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Clement Piper",
+      "Marq Piper"
+    ],
+    "tier_b": [
+      "Jon Piper",
+      "Lady Piper (wife of Quellon Greyjoy)",
+      "Lewys Piper",
+      "Melony Piper",
+      "Stanton Piper"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 7,
+      "tier_a": 2,
+      "tier_b": 5,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.922353+00:00",
+  "stage3_promoted_count": 7,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

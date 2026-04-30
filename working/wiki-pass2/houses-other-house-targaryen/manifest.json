@@ -1,0 +1,38 @@
+{
+  "bucket_id": "houses-other-house-targaryen",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "1b98bf8211cdee0e88586fa5e0f1d3cb068f941255db84dd36209d5f1e4a1ba0",
+  "prompt_version": "v1",
+  "chunk_strategy": "section-by-section",
+  "oversized": true,
+  "input_pages": [
+    "House Targaryen"
+  ],
+  "expected_nodes": [
+    "house-targaryen.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:56Z",
+    "tier_a": [
+      "House Targaryen"
+    ],
+    "tier_b": [],
+    "tier_c": [],
+    "stats": {
+      "total": 1,
+      "tier_a": 1,
+      "tier_b": 0,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:24.302976+00:00",
+  "stage3_promoted_count": 1,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

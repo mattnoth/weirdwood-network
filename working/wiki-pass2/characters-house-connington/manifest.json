@@ -1,0 +1,69 @@
+{
+  "bucket_id": "characters-house-connington",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "f0c2456646cebf9a55b876b21154406acd8248bea2951fe5e50a95e41d927879",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Alyn Connington",
+    "Alynne Connington",
+    "Armond Connington",
+    "Jon Connington",
+    "Kyle Connington",
+    "Raymund Connington",
+    "Ronald Connington",
+    "Ronald Storm",
+    "Ronnet Connington",
+    "Roy Connington",
+    "Steffon Connington"
+  ],
+  "expected_nodes": [
+    "alyn-connington.node.md",
+    "alynne-connington.node.md",
+    "armond-connington.node.md",
+    "jon-connington.node.md",
+    "kyle-connington.node.md",
+    "raymund-connington.node.md",
+    "ronald-connington.node.md",
+    "ronald-storm.node.md",
+    "ronnet-connington.node.md",
+    "roy-connington.node.md",
+    "steffon-connington.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Jon Connington",
+      "Ronnet Connington"
+    ],
+    "tier_b": [
+      "Alyn Connington",
+      "Alynne Connington",
+      "Armond Connington",
+      "Kyle Connington",
+      "Raymund Connington",
+      "Ronald Connington",
+      "Ronald Storm",
+      "Roy Connington",
+      "Steffon Connington"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 11,
+      "tier_a": 2,
+      "tier_b": 9,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.718599+00:00",
+  "stage3_promoted_count": 11,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

@@ -1,0 +1,41 @@
+{
+  "bucket_id": "characters-house-coldwater",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "0c8eb155b289ac4356d8f3d0c8fe32169521d88848c991e4b6590600a2f832fd",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Ben Coldwater",
+    "Royce Coldwater"
+  ],
+  "expected_nodes": [
+    "ben-coldwater.node.md",
+    "royce-coldwater.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Ben Coldwater",
+      "Royce Coldwater"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 2,
+      "tier_a": 0,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.715474+00:00",
+  "stage3_promoted_count": 2,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

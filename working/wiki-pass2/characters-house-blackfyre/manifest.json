@@ -1,0 +1,72 @@
+{
+  "bucket_id": "characters-house-blackfyre",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "146e759b264991fabd0d1654c1f35db8c27cff04e76206ab1b339ee31a972d0b",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Aegon Blackfyre",
+    "Aemon Blackfyre",
+    "Aenys Blackfyre",
+    "Calla Blackfyre",
+    "Daemon Blackfyre (cousin of Maelys I)",
+    "Daemon I Blackfyre",
+    "Daemon II Blackfyre",
+    "Daemon III Blackfyre",
+    "Haegon I Blackfyre",
+    "Maelys I Blackfyre",
+    "Quickfinger",
+    "Rohanne of Tyrosh"
+  ],
+  "expected_nodes": [
+    "aegon-blackfyre.node.md",
+    "aemon-blackfyre.node.md",
+    "aenys-blackfyre.node.md",
+    "calla-blackfyre.node.md",
+    "daemon-blackfyre-cousin-of-maelys-i.node.md",
+    "daemon-i-blackfyre.node.md",
+    "daemon-ii-blackfyre.node.md",
+    "daemon-iii-blackfyre.node.md",
+    "haegon-i-blackfyre.node.md",
+    "maelys-i-blackfyre.node.md",
+    "quickfinger.node.md",
+    "rohanne-of-tyrosh.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Maelys I Blackfyre"
+    ],
+    "tier_b": [
+      "Aegon Blackfyre",
+      "Aemon Blackfyre",
+      "Aenys Blackfyre",
+      "Calla Blackfyre",
+      "Daemon Blackfyre (cousin of Maelys I)",
+      "Daemon I Blackfyre",
+      "Daemon II Blackfyre",
+      "Daemon III Blackfyre",
+      "Haegon I Blackfyre",
+      "Quickfinger",
+      "Rohanne of Tyrosh"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 12,
+      "tier_a": 1,
+      "tier_b": 11,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.660032+00:00",
+  "stage3_promoted_count": 12,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

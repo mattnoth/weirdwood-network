@@ -1,0 +1,41 @@
+{
+  "bucket_id": "characters-house-byrch",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "789907b1f0aafa1793cff6f5c26e7ed0cbbb2d0269941f12832ce9981c8b2799",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Balman Byrch",
+    "Balon Byrch"
+  ],
+  "expected_nodes": [
+    "balman-byrch.node.md",
+    "balon-byrch.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Balman Byrch",
+      "Balon Byrch"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 2,
+      "tier_a": 0,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.696012+00:00",
+  "stage3_promoted_count": 2,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

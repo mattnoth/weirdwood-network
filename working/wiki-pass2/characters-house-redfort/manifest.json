@@ -1,0 +1,57 @@
+{
+  "bucket_id": "characters-house-redfort",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "50fe2223439cf36a4cd9f0cf121ff0b1a32fed9538b6e58407777daafdcbeac0",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Creighton Redfort",
+    "Dacks",
+    "Horton Redfort",
+    "Jasper Redfort",
+    "Jessamyn Redfort",
+    "Jon Redfort",
+    "Mychel Redfort"
+  ],
+  "expected_nodes": [
+    "creighton-redfort.node.md",
+    "dacks.node.md",
+    "horton-redfort.node.md",
+    "jasper-redfort.node.md",
+    "jessamyn-redfort.node.md",
+    "jon-redfort.node.md",
+    "mychel-redfort.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [
+      "Horton Redfort"
+    ],
+    "tier_b": [
+      "Creighton Redfort",
+      "Dacks",
+      "Jasper Redfort",
+      "Jessamyn Redfort",
+      "Jon Redfort",
+      "Mychel Redfort"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 7,
+      "tier_a": 1,
+      "tier_b": 6,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.933858+00:00",
+  "stage3_promoted_count": 7,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}

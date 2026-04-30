@@ -1,0 +1,22 @@
+---
+name: "Elys Westerling"
+type: character.human
+slug: elys-westerling
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Elys_Westerling"
+bucket_id: characters-house-westerling
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Elys Westerling is a character.human from the AWOIAF wiki.
+
+## Edges
+
+- HOLDS_TITLE: Ser (track_b: Title)
+- SWORN_TO: House Westerling (track_b: Allegiance)
+- CULTURE_OF: Westermen (track_b: Culture)

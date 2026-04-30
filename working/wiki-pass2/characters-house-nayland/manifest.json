@@ -1,0 +1,41 @@
+{
+  "bucket_id": "characters-house-nayland",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "fingerprint": "376239567de29fd72967cc2414f34f34ad90cad127a35a701807d4cc3cc8bcb7",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "oversized": false,
+  "input_pages": [
+    "Lucas Nayland",
+    "Raymond Nayland"
+  ],
+  "expected_nodes": [
+    "lucas-nayland.node.md",
+    "raymond-nayland.node.md"
+  ],
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "priority": {
+    "version": "v1",
+    "computed_at": "2026-04-28T01:11:55Z",
+    "tier_a": [],
+    "tier_b": [
+      "Lucas Nayland",
+      "Raymond Nayland"
+    ],
+    "tier_c": [],
+    "stats": {
+      "total": 2,
+      "tier_a": 0,
+      "tier_b": 2,
+      "tier_c": 0
+    }
+  },
+  "stage3_promoted_at": "2026-04-28T04:57:23.885414+00:00",
+  "stage3_promoted_count": 2,
+  "stage3_skipped_count": 0,
+  "stage3_conflicted_count": 0
+}
