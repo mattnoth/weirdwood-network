@@ -1,0 +1,19 @@
+---
+name: "Light of Wisdom"
+type: title
+slug: light-of-wisdom
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Light_of_Wisdom"
+bucket_id: tier3-pathb-longtail
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Light of Wisdom is a title from the AWOIAF wiki.
+
+## Edges
+

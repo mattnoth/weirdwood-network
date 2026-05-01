@@ -1,0 +1,47 @@
+---
+name: "Greenseer"
+type: concept.magic
+slug: greenseer
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Greenseer"
+bucket_id: tier3-pathb-longtail
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Greenseer is a magical concept/practice from the AWOIAF wiki.
+
+## Edges
+
+
+## Origins
+
+Greenseers had the [greensight](wiki:Greensight) and were [wargs](wiki:Skinchanger) as well.(wiki:Greenseer.cite_ref-Rasos9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) The [First Men](wiki:First_Men) believed that they were responsible for carving faces into [weirwoods](wiki:Weirwood), creating [heart trees](wiki:Heart_tree).(wiki:Greenseer.cite_ref-Ragot66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) Stories describe the greenseers seeing through the faces of their weirwoods, influencing [animal](wiki:Animal) and [plant](wiki:Plant) life,(wiki:Greenseer.cite_ref-Racok28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) and possibly seeing into the past and future. [Maesters](wiki:Maesters) are skeptical of some feats of the greenseers.(wiki:Greenseer.cite_ref-Rtwoiaf_ancient_history:_the_dawn_age.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+During the [war of the First Men and the children of the forest](wiki:War_of_the_First_Men_and_the_children_of_the_forest), greenseers are said to have turned trees into warriors(wiki:Greenseer.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) and sent beasts against humans.(wiki:Greenseer.cite_ref-Rtwoiaf_ancient_history:_the_coming_of_the_first_men.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) As the tales go, they used the [hammer of the waters](wiki:Hammer_of_the_waters) to shatter the [Arm of Dorne](wiki:Arm_of_Dorne) into the [Broken Arm](wiki:Broken_Arm) and the [Stepstones](wiki:Stepstones), but the First Men continued to settle throughout [Westeros](wiki:Westeros).(wiki:Greenseer.cite_ref-Ragot66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1) The [Neck](wiki:Neck) was also flooded by their magic.(wiki:Greenseer.cite_ref-Racok28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1) The greenseers and [wood dancers](wiki:Wood_dancers) of the children agreed upon the [Pact](wiki:Pact) with the First Men at the Isle of Faces.(wiki:Greenseer.cite_ref-Ragot66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+The [Starks](wiki:House_Stark) of [Winterfell](wiki:Winterfell) slew the greenseers allied with the [Warg King](wiki:Warg_King) at [Sea Dragon Point](wiki:Sea_Dragon_Point).(wiki:Greenseer.cite_ref-Rtwoiaf_the_north:_the_kings_of_winter.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) During the [Andal invasion](wiki:Andal_invasion), [Erreg the Kinslayer](wiki:Erreg_the_Kinslayer) is said to have defeated greenseers at [High Heart](wiki:High_Heart), although [True History](wiki:True_History) insists that the children had already left the [riverlands](wiki:Riverlands) before the [Andals](wiki:Andals) arrived.(wiki:Greenseer.cite_ref-Rtwoiaf_the_riverlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0) [Gwayne IV Gardener](wiki:Gwayne_IV_Gardener), [King of the Reach](wiki:King_of_the_Reach), sought assistance from greenseers in anticipation of Andal attacks.(wiki:Greenseer.cite_ref-Rtwoiaf_the_reach:_andals_in_the_reach.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
+Only one in a thousand is born a [skinchanger](wiki:Skinchanger) and only one skinchanger in a thousand is born a greenseer.(wiki:Greenseer.cite_ref-Radwd34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0) While most children has golden eyes, the eyes of greenseers are red or green. They are not robust or long lived, but can linger within weirwoods. It is also known that humans can be born greenseers just as they are born wargs.(wiki:Greenseer.cite_ref-Radwd34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1)
+The relationship between the greenseers of the children of the forest and the order of the [green men](wiki:Green_men) who protect the Isle of Faces in the [Gods Eye](wiki:Gods_Eye) is unknown.
+
+## Narrative Arc
+
+### A Game of Thrones[ ]
+
+In [Winterfell](wiki:Winterfell) Maester [Luwin](wiki:Luwin) discusses greenseers and the [war of the First Men and the children of the forest](wiki:War_of_the_First_Men_and_the_children_of_the_forest) with [Bran Stark](wiki:Bran_Stark).(wiki:Greenseer.cite_ref-Ragot66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+
+### A Clash of Kings[ ]
+
+[Luwin](wiki:Luwin) discusses [greensight](wiki:Greensight) and the visions of [Jojen Reed](wiki:Jojen_Reed) with Bran.(wiki:Greenseer.cite_ref-Racok28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+
+### A Dance with Dragons[ ]
+
+The [three-eyed crow](wiki:Three-eyed_crow), the last greenseer,(wiki:Greenseer.cite_ref-Radwd4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0) lives with [children of the forest](wiki:Children_of_the_forest) in far north of the [Wall](wiki:Wall). [Bran Stark](wiki:Bran_Stark) and his companions go in search of him, embarking on a perilous journey [beyond the Wall](wiki:Beyond_the_Wall). They are led by [Coldhands](wiki:Coldhands) to the [cave of the three-eyed crow](wiki:Cave_of_the_three-eyed_crow).(wiki:Greenseer.cite_ref-Radwd13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0) The last greenseer and [Leaf](wiki:Leaf) have Bran consume [weirwood paste](wiki:Weirwood_paste) to help awaken his gifts and learn from the trees.(wiki:Greenseer.cite_ref-Radwd34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-2)
+
+## Quotes
+
+The [children](wiki:Children_of_the_forest) are gone from [the world](wiki:Known_world), and their wisdom with them. It had to do with the faces in the trees, we think. The [First Men](wiki:First_Men) believed that the greenseers could see through the eyes of the [weirwoods](wiki:Weirwood). That was why they cut down the trees whenever they [warred](wiki:War_of_the_First_Men_and_the_children_of_the_forest) upon the children. Supposedly the greenseers also had the power over the beasts of the wood and the birds in the trees. Even fish.(wiki:Greenseer.cite_ref-Racok28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
+Bran: You're a greenseer. Jojen: No, only a boy who [dreams](wiki:Greensight). The greenseers were more than that. They were [wargs](wiki:Warg) as well, as you are, and the greatest of them could wear the skins of any beast that flies or swims or crawls, and could look through the eyes of the [weirwoods](wiki:Weirwood) as well, and see the truth that lies beneath the world.(wiki:Greenseer.cite_ref-Rasos9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+A thousand eyes, a hundred skins, wisdom deep as the roots of ancient trees. Greenseers.(wiki:Greenseer.cite_ref-Radwd34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-3)

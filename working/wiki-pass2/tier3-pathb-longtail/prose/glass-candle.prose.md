@@ -1,0 +1,33 @@
+## Appearances & Description
+
+The four candles found at the [Citadel](wiki:Citadel) are said to be tall and twisted with sharp edges.(wiki:Glass_candle.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0) The black candle in the study of Archmaester [Marwyn](wiki:Marwyn) is three feet tall and slender like a sword.(wiki:Glass_candle.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+
+## Origins
+
+According to Archmaester [Marwyn](wiki:Marwyn), [sorcerers](wiki:Sorcerer) of the [Valyrian Freehold](wiki:Valyrian_Freehold) used glass candles to see across mountains, seas, and deserts; give men [visions](wiki:Visions) and dreams; and communicate with one another half a world apart.(wiki:Glass_candle.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+One green and three black candles were brought to the [Citadel](wiki:Citadel) from [Valyria](wiki:Valyria) a thousand years before [the Doom](wiki:Doom_of_Valyria).(wiki:Glass_candle.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+
+## Narrative Arc
+
+### A Clash of Kings[ ]
+
+After [Daenerys Targaryen](wiki:Daenerys_Targaryen) defeats the [Undying Ones](wiki:Undying_Ones) in [Qarth](wiki:Qarth), she is told by [Xaro Xhoan Daxos](wiki:Xaro_Xhoan_Daxos) that glass candles that have not burned in a hundred years are now burning in the house of [Urrathon Night-Walker](wiki:Urrathon_Night-Walker).(wiki:Glass_candle.cite_ref-Racok63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+
+### A Feast for Crows[ ]
+
+At the [Quill and Tankard](wiki:Quill_and_Tankard) in [Oldtown](wiki:Oldtown), [Leo Tyrell](wiki:Leo_Tyrell_(son_of_Moryn)) reports to his fellow novices and acolytes that the glass candle in Archmaester [Marwyn](wiki:Marwyn)'s study is burning. [Armen](wiki:Armen) tells [Roone](wiki:Roone) how acolytes are expected to stand vigil with one of the candles before they can become a [maester](wiki:Maester).(wiki:Glass_candle.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+Traveling on the [Cinnamon Wind](wiki:Cinnamon_Wind), the dying Maester [Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I)) mentions a glass candle that could not be lit to [Samwell Tarly](wiki:Samwell_Tarly).(wiki:Glass_candle.cite_ref-Raffc35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+When Samwell arrives at Marwyn's study on the [Isle of Ravens](wiki:Isle_of_Ravens), he sees a black glass candle burning with a pale flame. Sam finds it to be unpleasantly bright and unnerving, and that colors seem to be altered by its light. The [archmaester](wiki:Archmaester) tells Sam some of the properties of glass candles and reported abilities of those who use them. Marwyn believes the other maesters do not want glass candles in the world. When Sam asks [Alleras](wiki:Alleras) how they knew he was coming to the Citadel, Alleras nods at the burning candle.(wiki:Glass_candle.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+
+### A Dance with Dragons[ ]
+
+One night in the [apex of the Great Pyramid](wiki:Apex_of_the_Great_Pyramid) of [Meereen](wiki:Meereen), Daenerys is unable to sleep. She leaves her private chambers and heads for the terrace garden, where she decides to take a bath alone in the terrace pool. As she is bathing, Daenerys hears a noise and sees [Quaithe](wiki:Quaithe) standing under a persimmon tree. Daenerys wonders how an intruder could get past her guards. Quaithe replies that she "came another way", and that the guards never saw her. Quaithe tells Daenerys that the glass candles are burning and gives her a cryptic warning.(wiki:Glass_candle.cite_ref-Radwd11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
+
+## Quotes
+
+It is said that the glass candles are burning in the house of [Urrathon Night-Walker](wiki:Urrathon_Night-Walker), that have not burned in a hundred years.(wiki:Glass_candle.cite_ref-Racok63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+Pate: But what's the use of a candle that casts no light? Armen: It is a lesson, the last lesson we must learn before we don our [maester](wiki:Maester)'s chains. The glass candle is meant to represent truth and learning, rare and beautiful and fragile things. It is made in the shape of a candle to remind us that a maester must cast light wherever he serves, and it is sharp to remind us that knowledge can be dangerous. Wise men may grow arrogant in their wisdom, but a maester must always remain humble. The glass candle reminds us of that as well. Even after he has said his vow and donned his chain and gone forth to serve, a maester will think back on the darkness of his vigil and remember how nothing that he did could make the candle burn ... for even with knowledge, some things are not possible.(wiki:Glass_candle.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+The candle was unpleasantly bright. There was something queer about it. The flame did not flicker, even when Archmaester [Marwyn](wiki:Marwyn) closed the door so hard that papers blew off a nearby table. The light did something strange to colors too. Whites were bright as fresh-fallen snow, yellow shone like [gold](wiki:Gold), reds turned to flame, but the shadows were so black they looked like holes in the world. Sam found himself staring. The candle itself was three feet tall and slender as a sword, ridged and twisted, glittering black.(wiki:Glass_candle.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+Marwyn: Call it [dragonglass](wiki:Dragonglass). It burns but is not consumed.Samwell: What feeds the flame?Marwyn: What feeds a [dragon](wiki:Dragon)'s [fire](wiki:Dragonflame)?(wiki:Glass_candle.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+Marwyn: The [sorcerers](wiki:Sorcerer) of the [Freehold](wiki:Valyrian_Freehold) could see across mountains, seas, and deserts with one of these glass candles. They could enter a man's dreams and give him [visions](wiki:Visions), and speak to one another half a world apart, seated before their candles. Do you think that might be useful, Slayer?Samwell: We would have no more need of [ravens](wiki:Raven).Marwyn: Only after battles.(wiki:Glass_candle.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
+The glass candles are burning. Soon comes the [pale mare](wiki:Bloody_flux), and after her the others. [Kraken](wiki:Victarion_Greyjoy) and [dark flame](wiki:Moqorro), [lion](wiki:Tyrion_Lannister) and [griffin](wiki:Jon_Connington), the [sun's son](wiki:Quentyn_Martell) and the [mummer's dragon](wiki:Aegon_Targaryen_(Young_Griff)). Trust none of them. Remember the [Undying](wiki:House_of_the_Undying). Beware the [perfumed seneschal](wiki:Perfumed_seneschal).(wiki:Glass_candle.cite_ref-Radwd11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
