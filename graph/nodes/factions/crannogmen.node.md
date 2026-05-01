@@ -17,7 +17,6 @@ Crannogmen is a culture/people from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Culture
 
 The crannogmen are so called for their habit of living in small villages formed of reeds and thatch that sit atop floating islands in the mire (crannogs). They are a poor people and seldom leave their lands, subsisting on fishing and [frogging](wiki:Frog).(wiki:Crannogmen.cite_ref-Racok21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0) Some claim the crannogmen's smaller size is because of intermarriage with the [children of the forest](wiki:Children_of_the_forest), while others attribute their size to poor [nutrition](wiki:Food).(wiki:Crannogmen.cite_ref-Rtwoiafthe_north:_the_crannogmen_of_the_neck.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

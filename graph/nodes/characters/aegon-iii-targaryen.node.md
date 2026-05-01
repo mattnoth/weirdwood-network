@@ -22,14 +22,14 @@ Aegon III Targaryen is a character.human from the AWOIAF wiki.
 - HOLDS_TITLE: Protector of the Realm (track_b: Titles)
 - SUCCEEDS (reverse): Aegon II Targaryen (track_b: Predecessor)
 - HEIR_TO: Baela Targaryen (track_b: Heirs) [131–134 AC]
-- HEIR_TO: 131 (track_b: Heirs) [131–134 AC]
-- HEIR_TO: 134 AC (track_b: Heirs) [131–134 AC]
+
+[131–134 AC]
 - HEIR_TO: Viserys Targaryen (track_b: Heirs) [134–143 AC]
-- HEIR_TO: 134 (track_b: Heirs) [131–134 AC]
-- HEIR_TO: 143 AC (track_b: Heirs) [134–143 AC]
+[131–134 AC]
+[134–143 AC]
 - HEIR_TO: Daeron Targaryen (track_b: Heirs) [143–157 AC]
-- HEIR_TO: 143 (track_b: Heirs) [134–143 AC]
-- HEIR_TO: 157 AC (track_b: Heirs) [143–157 AC]
+[134–143 AC]
+[143–157 AC]
 - SUCCEEDS: Daeron I Targaryen (track_b: Successor)
 - BORN_AT: Dragonstone (track_b: Born) [120 AC]
 - DIED_AT: King's Landing (track_b: Died) [157 AC]

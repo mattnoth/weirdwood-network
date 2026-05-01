@@ -17,7 +17,6 @@ Warden of the Stone Way is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 The title dates to the time [House Yronwood](wiki:House_Yronwood) ruled in their own right as kings after the [coming of the Andals](wiki:Coming_of_the_Andals).(wiki:Warden_of_the_Stone_Way.cite_ref-Rtwoiafancient_history:_ten_thousand_ships.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) The earliest known Warden of the Stone Way is King [Yorick V Yronwood](wiki:Yorick_V_Yronwood); during the earlier time of the [First Men](wiki:First_Men), Yronwood kings styled themselves [Lords of the Stone Way](wiki:Lord_of_the_Stone_Way).(wiki:Warden_of_the_Stone_Way.cite_ref-Rtwoiafdorne:_kingdoms_of_the_first_men.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)

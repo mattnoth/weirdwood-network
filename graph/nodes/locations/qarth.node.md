@@ -17,7 +17,6 @@ Qarth is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Qarth claims to be the birthplace of civilization, although [maesters](wiki:Maesters) are skeptical.(wiki:Qarth.cite_ref-Rtwoiafancient_history:_the_rise_of_valyria.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-0) It is the sole surviving city-state established by the [Qaathi](wiki:Qaathi) people, who rose in the grasslands of central [Essos](wiki:Essos)—known today as the [Dothraki sea](wiki:Dothraki_sea)—and founded city-states as they moved southeast following defeat in wars against the [Sarnori](wiki:Sarnor).(wiki:Qarth.cite_ref-Rtwoiafbeyond_the_free_cities:_the_grasslands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-0) Ancient Qarth was ruled by [kings](wiki:King_of_Qarth) and queens, the ancestors of the [Pureborn](wiki:Pureborn).(wiki:Qarth.cite_ref-Racok40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-11) [Jar Han](wiki:Jar_Han), the eighth of the sea-green emperors of [Yi Ti](wiki:Yi_Ti), exacted tribute from Qarth.(wiki:Qarth.cite_ref-Rtwoiafthe_bones_and_beyond:_yi_ti.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-0)

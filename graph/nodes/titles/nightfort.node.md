@@ -17,7 +17,6 @@ Nightfort is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Appearances & Description
 
 ### Ruins[ ]

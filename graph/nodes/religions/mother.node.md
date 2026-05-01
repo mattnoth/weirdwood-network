@@ -17,7 +17,6 @@ Mother is a religion or divine entity from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Mother [Maris](wiki:Maris_(Mother)) taught generations of orphaned girls at a [motherhouse](wiki:Motherhouse_of_Maris) in [Gulltown](wiki:Gulltown)(wiki:Mother.cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0) that was later renamed in [her honor](wiki:Named_after).(wiki:Mother.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

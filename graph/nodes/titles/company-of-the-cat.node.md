@@ -17,7 +17,6 @@ Company of the Cat is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 There is enmity between the Company of the Cat and the [Windblown](wiki:Windblown), since they fought on opposite sides in the [Disputed Lands](wiki:Disputed_Lands) in the recent past. [Bloodbeard](wiki:Bloodbeard) refers to the Windblown as "old grey-beards in rags"(wiki:Company_of_the_Cat.cite_ref-Radwd25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) and he despises their leader, the [Tattered Prince](wiki:Tattered_Prince).(wiki:Company_of_the_Cat.cite_ref-Radwd55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

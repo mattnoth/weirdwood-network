@@ -17,7 +17,6 @@ Queensgate is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Six hundred years ago, the commanders of the [Nightfort](wiki:Nightfort) and Snowgate went to war with each other.(wiki:Queensgate.cite_ref-Rasos55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

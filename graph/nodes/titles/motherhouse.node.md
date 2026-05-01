@@ -17,7 +17,6 @@ Motherhouse is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 [Humfrey I Teague](wiki:Humfrey_I_Teague), [King of the Rivers and the Hills](wiki:King_of_the_Rivers_and_the_Hills), founded [septs](wiki:Sept) and motherhouses in the [riverlands](wiki:Riverlands) in his efforts to stamp out worship of the [old gods](wiki:Old_gods).(wiki:Motherhouse.cite_ref-Rtwoiafthe_riverlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) [Merle I Gardener](wiki:Merle_I_Gardener), [King of the Reach](wiki:King_of_the_Reach), encouraged construction of [septries](wiki:Septry), septs and motherhouses in the [Reach](wiki:Reach).(wiki:Motherhouse.cite_ref-Rtwoiafthe_reach:_andals_in_the_reach.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)

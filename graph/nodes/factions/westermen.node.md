@@ -17,7 +17,6 @@ Westermen is a culture/people from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Culture
 
 ### Religion[ ]

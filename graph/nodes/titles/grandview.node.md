@@ -17,7 +17,6 @@ Grandview is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Ser [Humfrey Wagstaff](wiki:Humfrey_Wagstaff) was the [castellan](wiki:Castellan) for Lord [Grandison](wiki:House_Grandison).(wiki:Grandview.cite_ref-Raffc9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

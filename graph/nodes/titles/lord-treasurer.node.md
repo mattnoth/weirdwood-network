@@ -17,7 +17,6 @@ Lord treasurer is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Lord [Edwell Celtigar](wiki:Edwell_Celtigar) was named master of coin and lord treasurer by Lord [Rogar Baratheon](wiki:Rogar_Baratheon), [Hand of the King](wiki:Hand_of_the_King) during the regency of Queen [Alyssa Velaryon](wiki:Alyssa_Velaryon) for King [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen).(wiki:Lord_treasurer.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

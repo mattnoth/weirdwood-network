@@ -17,7 +17,6 @@ King of the Fingers is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Prior to the [coming of the Andals](wiki:Coming_of_the_Andals) to [Westeros](wiki:Westeros), the [Fingers](wiki:Fingers) were inhabited and ruled by [First Men](wiki:First_Men). [Jon Brightstone](wiki:Jon_Brightstone) and [Dywen Shell](wiki:Dywen_Shell), two monarchs of First Men origin, each claimed to be King of the Fingers when [Andals](wiki:Andals) first landed on the peninsulas. Eager to oust their respective rivals, both petty kings employed Andal warlords to aid them. The Andals turned their sword on the First Men kings, however. Within a year, Jon had been tortured and beheaded, while Dywen was roasted alive within his wooden longhall.(wiki:King_of_the_Fingers.cite_ref-Rtwoiafthe_vale.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0) [Corwyn Corbray](wiki:Corwyn_Corbray_(lord)), an Andal [knight](wiki:Knight), took Jon Brightstone's daughter as a bride as well as Dywen Shell's wife as a bedwarmer. Corwyn proclaimed himself [Lord of the Five Fingers](wiki:Lord_of_the_Five_Fingers).(wiki:King_of_the_Fingers.cite_ref-Rtwoiafthe_vale.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

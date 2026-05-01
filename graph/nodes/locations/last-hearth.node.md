@@ -18,7 +18,7 @@ Last Hearth is a place.location from the AWOIAF wiki.
 ## Edges
 
 - RULES: Jon Umber (track_b: Ruler)
-- WORSHIPS: Old gods (track_b: Religion)
+- WORSHIPS: Old Gods of the Forest (track_b: Religion)
 
 ## Origins
 

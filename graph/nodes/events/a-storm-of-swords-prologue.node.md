@@ -17,7 +17,6 @@ A Storm of Swords-Prologue is a event.battle from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 [Chett](wiki:Chett)'s hatred of [Jon Snow](wiki:Jon_Snow) and [Samwell Tarly](wiki:Samwell_Tarly) for usurping his comfortable position as steward to Maester [Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I)) has boiled over. He and [Lark](wiki:Lark) the Sisterman are conspiring to desert the [Night's Watch](wiki:Night's_Watch), along with [Small Paul](wiki:Small_Paul) and about a dozen other sworn brothers. The traitors plan to kill Lord Commander [Mormont](wiki:Jeor_Mormont) and several other officers to prevent anyone from actively seeking them out after they desert.

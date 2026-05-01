@@ -17,7 +17,6 @@ Alysanne is a character from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Appearances & Description
 
 It may refer to the following characters:

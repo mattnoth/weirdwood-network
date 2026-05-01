@@ -17,7 +17,6 @@ Tall Men is a culture/people from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Appearances & Description
 
 Tall Men were long of limb, brown of skin, like the [Zoqora](wiki:Zoqora), and with eyes and hair as black as night.(wiki:Tall_Men.cite_ref-Rtwoiafbeyond_the_free_cities:_the_grasslands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

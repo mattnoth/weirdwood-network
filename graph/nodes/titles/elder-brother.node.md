@@ -17,7 +17,6 @@ Elder Brother is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 ### A Storm of Swords[ ]

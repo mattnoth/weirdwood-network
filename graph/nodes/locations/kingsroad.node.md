@@ -17,7 +17,6 @@ Kingsroad is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 In late [62 AC](wiki:Years_after_Aegon's_Conquest), King [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen) began a project to connect [King's Landing](wiki:King's_Landing) with the great settlements of the [Seven Kingdoms](wiki:Seven_Kingdoms), with what [smallfolk](wiki:Smallfolk) would call the "kingsroad" being the first of his roads. Construction began in the [kingswood](wiki:Kingswood) south of the capital, allowing King's Landing to connect to [Storm's End](wiki:Storm's_End). Construction continued north of King's Landing to connect the city with the [riverlands](wiki:Riverlands) and the [north](wiki:North).(wiki:Kingsroad.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne_-_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0)

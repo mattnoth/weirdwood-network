@@ -17,7 +17,6 @@ True Heart is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 True Heart was part of a great war fleet sent to put an end to the rogue [Racallio Ryndoon](wiki:Racallio_Ryndoon) and his piratical kingdom in the [Stepstones](wiki:Stepstones).(wiki:True_Heart.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) The [royal fleet](wiki:Royal_fleet)—comprised of the eight new warships and some twenty older cogs and galleys—was commanded by Ser [Gedmund Peake](wiki:Gedmund_Peake) and augmented by Lord [Alyn Velaryon](wiki:Alyn_Velaryon)'s fleet, some sixty war galleys, thirty longships, and more than a hundred cogs and great cogs.

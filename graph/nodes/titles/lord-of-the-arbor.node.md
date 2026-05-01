@@ -17,7 +17,6 @@ Lord of the Arbor is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 During the reign of King [Mern III Gardener](wiki:Mern_III_Gardener), Lord Redwyne built ships to strengthen the Reach's defenses against the [incoming Andals](wiki:Andal_Invasion).(wiki:Lord_of_the_Arbor.cite_ref-Rtwoiaf_the_reach:_andals_in_the_reach.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)

@@ -17,7 +17,6 @@ Dothraki is a organization.faction from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 ### Origins

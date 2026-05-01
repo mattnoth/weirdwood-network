@@ -17,7 +17,6 @@ Prince of Summerhall is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 The pleasure castle of [Summerhall](wiki:Summerhall) was built by King [Daeron II Targaryen](wiki:Daeron_II_Targaryen).(wiki:Prince_of_Summerhall.cite_ref-Rtwoiafthe_targaryen_kings:_daeron_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0) His son, [Maekar](wiki:Maekar_I_Targaryen), received the castle and became known as the Prince of Summerhall.(wiki:Prince_of_Summerhall.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) In time, many sons of House Targaryen would hold the seat as Prince of Summerhall.(wiki:Prince_of_Summerhall.cite_ref-Rtwoiafthe_targaryen_kings:_daeron_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

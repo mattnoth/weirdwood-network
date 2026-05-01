@@ -17,7 +17,6 @@ Wall is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 The Wall was made to defend the realms of the [First Men](wiki:First_Men),(wiki:Wall.cite_ref-Ragot70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-0)(wiki:Wall.cite_ref-Rtwoiafancient_history:_the_long_night.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_32-0) and the men of the [Night's Watch](wiki:Night's_Watch) have reportedly defended the Wall against [Others](wiki:Others) and other monsters(wiki:Wall.cite_ref-Rtwoiafthe_wall_and_beyond:_the_night.27s_watch.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2) for eight thousand years(wiki:Wall.cite_ref-Radwd53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-0) since the end of the [Long Night](wiki:Long_Night).(wiki:Wall.cite_ref-Rtwoiafthe_wall_and_beyond:_the_night.27s_watch.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)

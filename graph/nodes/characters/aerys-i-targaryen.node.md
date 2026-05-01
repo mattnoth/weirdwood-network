@@ -22,13 +22,13 @@ Aerys I Targaryen is a character from the AWOIAF wiki.
 - HOLDS_TITLE: Protector of the Realm (track_b: Titles)
 - SUCCEEDS (reverse): Daeron II Targaryen (track_b: Predecessor)
 - HEIR_TO: Rhaegel Targaryen (track_b: Heirs) [209 AC-215 AC]
-- HEIR_TO: 209 AC (track_b: Heirs) [209 AC-215 AC]
-- HEIR_TO: 215 AC (track_b: Heirs) [209 AC-215 AC]
+[209 AC-215 AC]
+[209 AC-215 AC]
 - HEIR_TO: Aelor Targaryen (track_b: Heirs) [215 AC-217 AC]
-- HEIR_TO: 217 AC (track_b: Heirs) [215 AC-217 AC]
+[215 AC-217 AC]
 - HEIR_TO: Aelora Targaryen (track_b: Heirs) [217 AC-Unknown]
 - HEIR_TO: Maekar Targaryen (track_b: Heirs) [Unknown-221 AC]
-- HEIR_TO: 221 AC (track_b: Heirs) [Unknown-221 AC]
+[Unknown-221 AC]
 - SUCCEEDS: Maekar I Targaryen (track_b: Successor)
 - BORN_AT: King's Landing (track_b: Born) [172]
 - PARENT_OF: None (track_b: Issue)

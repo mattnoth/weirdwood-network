@@ -17,7 +17,6 @@ Lord of Ghost Hill is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 When King [Aegon I Targaryen](wiki:Aegon_I_Targaryen) arrived at Ghost Hill in the [First Dornish War](wiki:First_Dornish_War), Lord Toland sent his champion to face him. After killing the man, Aegon learned he was no champion at all but simply Lord Toland's mad fool sent to give time for the Tolands to escape the castle.(wiki:Lord_of_Ghost_Hill.cite_ref-Rfabreign_of_the_dragon_-_the_wars_of_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)

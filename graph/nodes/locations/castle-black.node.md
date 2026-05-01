@@ -17,7 +17,6 @@ Castle Black is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Castle Black is an ancient stronghold,(wiki:Castle_Black.cite_ref-Ragot19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9) although the [Nightfort](wiki:Nightfort), the first castle of the [Night's Watch](wiki:Night's_Watch), is said to be twice as old.(wiki:Castle_Black.cite_ref-Rasos56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-0) Castle Black at some point became the seat of the [Lord Commander](wiki:Lord_Commander_of_the_Night's_Watch), taking over that role from the Nightfort(wiki:Castle_Black.cite_ref-Rawoiafcastle_black.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-0) at least six hundred years ago.(wiki:Castle_Black.cite_ref-Rasos55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-4)

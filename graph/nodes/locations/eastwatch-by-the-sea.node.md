@@ -17,7 +17,6 @@ Eastwatch-by-the-Sea is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Maester [Balder](wiki:Balder) wrote *[The Edge of the World](wiki:The_Edge_of_the_World)* while serving at Eastwatch.(wiki:Eastwatch-by-the-Sea.cite_ref-Rtwoiafthe_north:_the_stoneborn_of_skagos.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0) Maester [Wyllis](wiki:Wyllis), who studied the customs of the free folk and lived among them, was last seen at the docks of [Oldtown](wiki:Oldtown) hoping to find transport to Eastwatch.(wiki:Eastwatch-by-the-Sea.cite_ref-Rtwoiafthe_wall_and_beyond:_the_wildlings.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)

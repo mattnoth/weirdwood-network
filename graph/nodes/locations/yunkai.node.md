@@ -17,7 +17,6 @@ Yunkai is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Yunkai was a colony of the [Old Empire of Ghis](wiki:Old_Empire_of_Ghis). The city survived the destruction of [Old Ghis](wiki:Old_Ghis) at the hands of the [Valyrian Freehold](wiki:Valyrian_Freehold), and was subsequently conquered by the Valyrians, who learned [slavery](wiki:Slavery) from the conquered [Ghiscari](wiki:Ghiscari) and used slaves to expand their empire.(wiki:Yunkai.cite_ref-Rtwoiafancient_history:_valyria.27s_children.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0)

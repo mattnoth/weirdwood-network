@@ -17,7 +17,6 @@ Lady Baela is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Originally a [Braavosi](wiki:Braavos) ship, the galley was captured during [Lord Alyn's attack](wiki:Lord_Alyn's_attack) during the [Daughters' War](wiki:Daughters'_War). [Alyn Oakenfist](wiki:Alyn_Velaryon) [renamed](wiki:Named_after) the ship Lady Baela to honor his wife, Lady [Baela Targaryen](wiki:Baela_Targaryen).(wiki:Lady_Baela.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

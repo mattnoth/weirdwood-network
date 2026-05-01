@@ -17,7 +17,6 @@ Lengii is a culture/people from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Appearances & Description
 
 The Lengii are the tallest known race of mankind, with some reaching seven or eight feet in height. They are a slender people known for their beauty and having skin the color of oiled teak. They have large eyes golden in color which may grant them superior vision over other races.(wiki:Lengii.cite_ref-Rtwoiafthe_bones_and_beyond:_leng.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

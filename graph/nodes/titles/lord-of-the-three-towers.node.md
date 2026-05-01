@@ -17,7 +17,6 @@ Lord of the Three Towers is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Lord [Owen Costayne](wiki:Owen_Costayne) declared for the [blacks](wiki:Blacks) during the [Dance of the Dragons](wiki:Dance_of_the_Dragons). He was killed by [Bold Jon Roxton](wiki:Jon_Roxton) at the [Battle of the Honeywine](wiki:Battle_of_the_Honeywine) in [130 AC](wiki:130_AC).(wiki:Lord_of_the_Three_Towers.cite_ref-Rfab_the_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

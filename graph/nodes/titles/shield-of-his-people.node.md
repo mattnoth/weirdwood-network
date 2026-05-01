@@ -17,7 +17,6 @@ Shield of His People is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 At the [Aegonfort](wiki:Aegonfort) near the start of [Aegon's Conquest](wiki:Aegon's_Conquest), [Rhaenys Targaryen](wiki:Rhaenys_Targaryen) hailed her brother and husband, [Aegon the Conqueror](wiki:Aegon_I_Targaryen), as [King of All Westeros](wiki:King_of_All_Westeros) and Shield of His People.(wiki:Shield_of_His_People.cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

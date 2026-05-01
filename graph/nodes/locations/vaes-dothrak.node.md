@@ -17,8 +17,6 @@ Vaes Dothrak is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-- WORSHIPS: Dothraki (track_b: Religion)
-
 ## Origins
 
 Scholars believe the ancestors of the [Dothraki](wiki:Dothraki) came from the lands beyond the [Bone Mountains](wiki:Bone_Mountains) in the [Further East](wiki:Further_East) of [Essos](wiki:Essos),(wiki:Vaes_Dothrak.cite_ref-Rtwoiafthe_bones_and_beyond.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1) and the [Dothraki](wiki:Dothraki) themselves believe that their race was born in Vaes Dothrak.(wiki:Vaes_Dothrak.cite_ref-Rtwoiafbeyond_the_free_cities:_the_grasslands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)

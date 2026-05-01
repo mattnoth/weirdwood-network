@@ -17,7 +17,6 @@ Shadow Tower is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 [Redwyn](wiki:Redwyn), a [ranger](wiki:Ranger) who lived during the reign of King [Dorren Stark](wiki:Dorren_Stark), wrote an account of a ranging from the Shadow Tower to [Lorn Point](wiki:Lorn_Point) on the [Frozen Shore](wiki:Frozen_Shore). During that ranging, they fought [giants](wiki:Giants) and traded with the [children of the forest](wiki:Children_of_the_forest).(wiki:Shadow_Tower.cite_ref-Racok6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)(wiki:Shadow_Tower.cite_ref-Rtwoiafthe_dawn_age.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)

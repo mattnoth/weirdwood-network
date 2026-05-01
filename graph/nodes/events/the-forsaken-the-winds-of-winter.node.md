@@ -17,7 +17,6 @@ The Forsaken (The Winds of Winter) is a event.battle from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 [Aeron Damphair](wiki:Aeron_Greyjoy) awakens in a grim dungeon and is forced to drink [shade of the evening](wiki:Shade_of_the_evening) by his brother, [Euron](wiki:Euron_Greyjoy). Aeron dreams of his dead brother [Urri](wiki:Urrigon_Greyjoy), of Euron on a throne of skulls, and of [gods](wiki:Religion) impaled on the [Iron Throne](wiki:Iron_Throne).

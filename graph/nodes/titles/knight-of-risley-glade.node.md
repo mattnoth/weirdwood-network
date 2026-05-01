@@ -17,7 +17,6 @@ Knight of Risley Glade is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Ser [Victor Risley](wiki:Victor_Risley) held the title during the reign of [Aegon III Targaryen](wiki:Aegon_III_Targaryen).(wiki:Knight_of_Risley_Glade.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

@@ -17,7 +17,6 @@ Knight of the Gate is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Ser [Joffrey Arryn](wiki:Joffrey_Arryn) was appointed as Knight of the Gate in [124 AC](wiki:Years_after_Aegon's_Conquest) by his fourth cousin [Jeyne Arryn](wiki:Jeyne_Arryn), the [Lady of the Eyrie](wiki:Lady_of_the_Eyrie). He served for ten years until her death in [134 AC](wiki:134_AC).(wiki:Knight_of_the_Gate.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)

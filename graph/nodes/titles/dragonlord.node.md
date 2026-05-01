@@ -17,7 +17,6 @@ Dragonlord is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 While [Dragonstone](wiki:Dragonstone) is believed to have been the westernmost outpost of Valyria,(wiki:Dragonlord.cite_ref-Rtwoiafancient_history:_the_doom_of_valyria.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) some [maesters](wiki:Maesters) believe that the base of the [Hightower](wiki:Hightower) was created by dragonlords thousands of years ago.(wiki:Dragonlord.cite_ref-Rtwoiafthe_reach:_oldtown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1) The dragonlords are not believed to have traveled as far east as the [Five Forts](wiki:Five_Forts), though at least one dragonlord was Empress of [Yi Ti](wiki:Yi_Ti) through her marriage to [God-Emperor](wiki:God-Emperor) [Chai Duq](wiki:Chai_Duq), who kept her dragon at his court.(wiki:Dragonlord.cite_ref-Rtwoiafthe_bones_and_beyond:_yi_ti.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0)

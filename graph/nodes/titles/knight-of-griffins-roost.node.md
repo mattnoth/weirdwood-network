@@ -17,7 +17,6 @@ Knight of Griffin's Roost is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Prior to the rebel victory in [Robert's Rebellion](wiki:Robert's_Rebellion), House Connington was a full-fledged noble house but lost its [title](wiki:Lord_of_Griffin's_Roost) of [lord](wiki:Lord) along with much of its lands as they had remained loyal to King [Aerys II Targaryen](wiki:Aerys_II_Targaryen) until the royalist defeat in the [Battle of the Trident](wiki:Battle_of_the_Trident).(wiki:Knight_of_Griffin's_Roost.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)(wiki:Knight_of_Griffin's_Roost.cite_ref-Radwd61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

@@ -17,7 +17,6 @@ Smith is a religion or divine entity from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Culture
 
 [Smithyton](wiki:Smithyton) is the seat of [House Shermer](wiki:House_Shermer) in the [Reach](wiki:Reach).(wiki:Smith.cite_ref-6) [House Ironsmith](wiki:House_Ironsmith) is a noble house from the [north](wiki:North).(wiki:Smith.cite_ref-7)

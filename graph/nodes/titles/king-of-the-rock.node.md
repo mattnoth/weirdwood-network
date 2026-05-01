@@ -17,7 +17,6 @@ King of the Rock is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 The [Lannisters](wiki:House_Lannister) trace their descent back to [Lann the Clever](wiki:Lann_the_Clever), a trickster from the [Age of Heroes](wiki:Age_of_Heroes) who allegedly tricked the [Casterlys](wiki:House_Casterly) out of [Casterly Rock](wiki:Casterly_Rock).(wiki:King_of_the_Rock.cite_ref-Ragot27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) There is no record of Lann calling himself king, although some have granted him the title posthumously. The first recorded King of the Rock was [Loreon the Lion](wiki:Loreon_I_Lannister), who added the lands of [House Reyne](wiki:House_Reyne) to his land and defeated [House Banefort](wiki:House_Banefort).(wiki:King_of_the_Rock.cite_ref-Rtwoiafthe_westerlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

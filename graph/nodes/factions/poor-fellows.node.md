@@ -1,6 +1,6 @@
 ---
 name: "Poor Fellows"
-type: title
+type: organization.faction
 slug: poor-fellows
 aliases: []
 confidence: tier-2
@@ -13,7 +13,7 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Poor Fellows is a title from the AWOIAF wiki.
+Poor Fellows is a organization.faction from the AWOIAF wiki.
 
 ## Edges
 

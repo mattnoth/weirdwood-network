@@ -17,7 +17,6 @@ Keeper of the Gates of the Moon is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 King [Artys I Arryn](wiki:Artys_I_Arryn) raised the [Gates of the Moon](wiki:Gates_of_the_Moon) at the foot of the [Giant's Lance](wiki:Giant's_Lance) after the [Battle of the Seven Stars](wiki:Battle_of_the_Seven_Stars). King [Roland I Arryn](wiki:Roland_I_Arryn), fearing the castle was vulnerable to [mountain clans](wiki:Vale_mountain_clans) and desiring a grander seat, began construction of the [Eyrie](wiki:Eyrie) atop the mountain.(wiki:Keeper_of_the_Gates_of_the_Moon.cite_ref-Rtwoiaf_the_vale:_the_eyrie.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0) The [Kings of Mountain and Vale](wiki:Kings_of_Mountain_and_Vale) resided at the Eyrie in summer and descended to the Gates in winter.(wiki:Keeper_of_the_Gates_of_the_Moon.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

@@ -17,7 +17,6 @@ Lord of Goldengrove is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 In [48 AC](wiki:48_AC), Lords [Rickard Rowan](wiki:Rickard_Rowan) and [Torgen Oakheart](wiki:Torgen_Oakheart) supported [Septon](wiki:Septon) [Moon](wiki:Moon_(septon)) and marched with him towards [Oldtown](wiki:Oldtown). When Moon was assassinated, Lord Rickard decamped within the hour.(wiki:Lord_of_Goldengrove.cite_ref-Rfabprince_into_king_.E2.80.93_the_ascension_of_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0) The following year, Lord Rickard attended [the wedding](wiki:Golden_Wedding) of [Rogar Baratheon](wiki:Rogar_Baratheon) and [Alyssa Velaryon](wiki:Alyssa_Velaryon) at [King's Landing](wiki:King's_Landing), where he met King [Jaehaerys I](wiki:Jaehaerys_I_Targaryen), pronouncing him gentle and soft-spoken.(wiki:Lord_of_Goldengrove.cite_ref-Rfabthe_year_of_the_three_brides_.E2.80.93_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)

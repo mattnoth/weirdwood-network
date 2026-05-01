@@ -17,7 +17,6 @@ Lord of Strongsong is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Lord Belmore fought on the side of the [First Men](wiki:First_Men) in [Battle of the Seven Stars](wiki:Battle_of_the_Seven_Stars).(wiki:Lord_of_Strongsong.cite_ref-Rtwoiaf_the_vale.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)

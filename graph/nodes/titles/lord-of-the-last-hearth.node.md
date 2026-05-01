@@ -17,7 +17,6 @@ Lord of the Last Hearth is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 House Umber once ruled as [First Men](wiki:First_Men) kings but they were reduced to vassals of [House Stark](wiki:House_Stark) by the [Kings of Winter](wiki:Kings_of_Winter).(wiki:Lord_of_the_Last_Hearth.cite_ref-Rtwoiafthe_north:_the_kings_of_winter.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

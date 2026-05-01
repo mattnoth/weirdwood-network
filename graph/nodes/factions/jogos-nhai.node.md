@@ -17,7 +17,6 @@ Jogos Nhai is a culture/people from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Appearances & Description
 
 Jogos Nhai are as a rule, a head shorter than the [Dothraki](wiki:Dothraki) and are described as squat, bowlegged, and swarthy, with large heads, small faces, and sallow-colored skin. Men and women both have pointed skulls, a result of the custom of binding the heads of their newborn during the first two years of life.(wiki:Jogos_Nhai.cite_ref-plains_2-0)

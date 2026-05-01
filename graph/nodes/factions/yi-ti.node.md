@@ -17,7 +17,6 @@ Yi Ti is a culture/people from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 ### Great Empire of the Dawn[ ]

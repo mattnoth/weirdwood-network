@@ -17,7 +17,6 @@ Ny Sar is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Maester [Yandel](wiki:Yandel) describes Ny Sar as a "city of fountains, alive with song".(wiki:Ny_Sar.cite_ref-Rtwoiaf_ancient_history:_ten_thousand_ships.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

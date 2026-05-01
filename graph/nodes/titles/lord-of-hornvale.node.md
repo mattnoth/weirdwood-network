@@ -17,7 +17,6 @@ Lord of Hornvale is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Lord [Andros Brax](wiki:Andros_Brax) once visited [Riverrun](wiki:Riverrun) attempting to arrange a [marriage](wiki:Marriage) for one of his three sons to [Catelyn](wiki:Catelyn_Tully) or [Lysa](wiki:Lysa_Tully) of [House Tully](wiki:House_Tully), the daughters of Lord [Hoster Tully](wiki:Hoster_Tully), [Lord Paramount of the Trident](wiki:Lord_Paramount_of_the_Trident).(wiki:Lord_of_Hornvale.cite_ref-Racok45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)

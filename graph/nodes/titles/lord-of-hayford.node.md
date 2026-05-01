@@ -17,7 +17,6 @@ Lord of Hayford is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Lord Hayford urged King [Maegor I Targaryen](wiki:Maegor_I_Targaryen) to abdicate and was beheaded for it.(wiki:Lord_of_Hayford.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

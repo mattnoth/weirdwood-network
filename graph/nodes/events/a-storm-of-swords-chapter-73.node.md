@@ -17,7 +17,6 @@ A Storm of Swords-Chapter 73 is a event.battle from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 [Jon](wiki:Jon_Snow) is taken out of his ice cell and brought once again before [Janos Slynt](wiki:Janos_Slynt), and told that only Maester [Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I)) is preventing Janos from hanging Jon. Janos reveals that he will give Jon one last chance to prove his innocence, sending him to meet [Mance Rayder](wiki:Mance_Rayder) as an envoy, but Jon must kill the [wildling](wiki:Wildling) king. [Beyond the Wall](wiki:Beyond_the_Wall), Jon meets [Tormund](wiki:Tormund) who treats him with respect, almost as a friend. Jon is brought before Mance, and the king reveals that he is aware that the [Night's Watch](wiki:Night's_Watch) is nearly out of provisions and cannot hold out much longer.

@@ -17,7 +17,6 @@ Weeping Town is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 It is known as the Weeping Town because it is where the corpse of [Daeron I Targaryen](wiki:Daeron_I_Targaryen) was first brought after the king was murdered in [Dorne](wiki:Dorne),(wiki:Weeping_Town.cite_ref-Rtwoiafthe_stormlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) remaining there for three days.(wiki:Weeping_Town.cite_ref-Ar2_5-2)

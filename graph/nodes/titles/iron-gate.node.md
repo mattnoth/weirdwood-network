@@ -17,7 +17,6 @@ Iron Gate is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 In [19 AC](wiki:Years_after_Aegon's_Conquest), King [Aegon I Targaryen](wiki:Aegon_I_Targaryen) decreed that new city walls with seven gates, each with a massive gatehouse and defensive towers, be built to protect [King's Landing](wiki:King's_Landing). Grand Maester [Gawen](wiki:Gawen) and Ser [Osmund Strong](wiki:Osmund_Strong), [Hand of the King](wiki:Hand_of_the_King), headed the construction, which took place between [20](wiki:Years_after_Aegon's_Conquest)–[26 AC](wiki:Years_after_Aegon's_Conquest).(wiki:Iron_Gate.cite_ref-Rfabthree_heads_had_the_dragon_-_governance_under_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

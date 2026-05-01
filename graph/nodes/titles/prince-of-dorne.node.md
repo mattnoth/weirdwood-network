@@ -17,7 +17,6 @@ Prince of Dorne is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 For thousands of years Dorne was a patchwork of petty [First Men](wiki:First_Men) and [Andal](wiki:Andal) kingdoms which included the [Kings of the Torrentine](wiki:Kings_of_the_Torrentine), the [Kings of Stone and Sky](wiki:Kings_of_Stone_and_Sky), and the different houses laying claim to the title of [High Kings of Dorne](wiki:High_Kings_of_Dorne). Sailing on [ten thousand ships](wiki:Ten_thousand_ships), Princess [Nymeria](wiki:Nymeria) led the [Rhoynar](wiki:Rhoynar) to southeastern Dorne. Nymeria married Lord [Mors Martell](wiki:Mors_Martell) of the [Sandship](wiki:Sandship), forming [House Nymeros Martell](wiki:House_Martell), and the Rhoynar intermarried with the bannermen of Mors. Nymeria named her husband "Prince of Dorne", using the Rhoynish term instead of the [Westerosi](wiki:Westeros) title of "[king](wiki:King)". The addition of Rhoynish power allowed the Martells to conquer Dorne in [Nymeria's War](wiki:Nymeria's_War), reducing the rival kings to vassals.(wiki:Prince_of_Dorne.cite_ref-Rtwoiafancient_history:_ten_thousand_ships.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

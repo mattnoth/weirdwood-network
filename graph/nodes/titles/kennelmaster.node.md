@@ -17,7 +17,6 @@ Kennelmaster is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 After [reaching majority](wiki:Customs) and beggining to rule in his own right, King [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen) replaced the [Red Keep](wiki:Red_Keep)'s kennelmaster.(wiki:Kennelmaster.cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

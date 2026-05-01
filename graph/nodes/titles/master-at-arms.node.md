@@ -17,7 +17,6 @@ Master-at-arms is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Ser [Quentyn Ball](wiki:Quentyn_Ball), a master-at-arms at the [Red Keep](wiki:Red_Keep), supported [Daemon I Blackfyre](wiki:Daemon_I_Blackfyre) during the [First Blackfyre Rebellion](wiki:First_Blackfyre_Rebellion).(wiki:Master-at-arms.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)

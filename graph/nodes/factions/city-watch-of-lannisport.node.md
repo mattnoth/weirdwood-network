@@ -1,6 +1,6 @@
 ---
 name: "City Watch of Lannisport"
-type: title
+type: organization.faction
 slug: city-watch-of-lannisport
 aliases: []
 confidence: tier-2
@@ -13,7 +13,7 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-City Watch of Lannisport is a title from the AWOIAF wiki.
+City Watch of Lannisport is a organization.faction from the AWOIAF wiki.
 
 ## Edges
 

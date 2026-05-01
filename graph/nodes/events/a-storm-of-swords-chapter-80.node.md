@@ -17,7 +17,6 @@ A Storm of Swords-Chapter 80 is a event.battle from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 At the [Eyrie](wiki:Eyrie), [Sansa](wiki:Sansa_Stark) awakens to find it snowing outside. She wanders outside and begins to sculpt a snow castle, slowly forming it into a replica of [Winterfell](wiki:Winterfell). [Littlefinger](wiki:Petyr_Baelish) finds her in the garden and helps her finish the castle. He tells her she is even more beautiful than [her mother](wiki:Catelyn_Tully) was at her age, and then proceeds to kiss her. Sansa is shocked by Lord Baelish’s action, but for half a heartbeat she yields. She tries to make him stop and then young [Robert](wiki:Robert_Arryn) approaches interrupting them. Robert begins to destroy the snow castle with his ragged doll. Sansa reacts by grabbing the doll which causes it to tear in half. This in turn causes her cousin to begin shaking violently. Maester [Colemon](wiki:Colemon) is called to bring the boy for a leeching, in an attempt to cure the fit.

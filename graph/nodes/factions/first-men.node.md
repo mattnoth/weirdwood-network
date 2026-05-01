@@ -17,7 +17,6 @@ First Men is a organization.faction from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 ### Arrival in Westeros

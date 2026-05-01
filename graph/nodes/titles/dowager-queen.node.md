@@ -17,7 +17,6 @@ Dowager Queen is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 After the death of their royal spouse, a queen retains her title as queen and is known as the Dowager Queen or Queen Dowager. The Dowager Queen may still hold political power after her husband's death. Dowager Queen Visenya Targaryen advised her nephew King [Aenys I Targaryen](wiki:Aenys_I_Targaryen), though, paralyzed by indecision, he heeded little of it. She would go on to ensure her own son, Aenys' half-brother [Maegor I Targaryen](wiki:Maegor_I_Targaryen), succeeded as king and worked closely with Maegor to enforce his rule until her death.(wiki:Dowager_Queen.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) In the immediate hours after her husband [Viserys I Targaryen](wiki:Viserys_I_Targaryen)'s death, Dowager Queen [Alicent Hightower](wiki:Alicent_Hightower) was central figure in the scheme to crown her son [Aegon II Targaryen](wiki:Aegon_II_Targaryen) as king over their father's chosen heir, Aegon's elder sister [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen).(wiki:Dowager_Queen.cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

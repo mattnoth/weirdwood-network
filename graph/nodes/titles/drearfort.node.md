@@ -17,7 +17,6 @@ Drearfort is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Appearances & Description
 
 The old flint tower is located on the smallest of the [Fingers](wiki:Fingers).(wiki:Drearfort.cite_ref-Ragot18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1) It has arrowslits for defense but no windows.(wiki:Drearfort.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)

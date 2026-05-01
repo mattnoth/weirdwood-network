@@ -2,7 +2,7 @@
 name: "Lhazareen"
 type: organization.faction
 slug: lhazareen
-aliases: []
+aliases: ["lhazarene"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Lhazareen"
 bucket_id: tier3-cultures
@@ -16,7 +16,6 @@ pass_origin: pass2-wiki-deterministic
 Lhazareen is a culture/people from the AWOIAF wiki.
 
 ## Edges
-
 
 ## Narrative Arc
 

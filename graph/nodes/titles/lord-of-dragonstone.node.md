@@ -17,7 +17,6 @@ Lord of Dragonstone is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 When his daughter, [Daenys Targaryen](wiki:Daenys_Targaryen), foresaw the [Doom of Valyria](wiki:Doom_of_Valyria), Lord [Aenar Targaryen](wiki:Aenar_Targaryen) moved his wives, children, sibling, other kin, wealth and slaves to [Dragonstone](wiki:Dragonstone), a castle located on an [island with the same name](wiki:Dragonstone_(island)) in [114 BC](wiki:Years_before_Aegon's_Conquest). Dragonstone had been the westernmost outpost of the [Valyrian Freehold](wiki:Valyrian_Freehold) for two centuries by then. By moving his family to the outpost, Aenar became the first known Lord of Dragonstone. Aenar's descendants continued to rule Dragonstone after his death.(wiki:Lord_of_Dragonstone.cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

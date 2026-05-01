@@ -17,7 +17,6 @@ Gogossos is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 The [Old Empire of Ghis](wiki:Old_Empire_of_Ghis) founded the city under the name of Gorgai.(wiki:Gogossos.cite_ref-Rtwoiafbeyond_the_free_cities:_the_basilisk_isles.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) The [Ghiscari](wiki:Ghiscari) held Gorgai for between two and four centuries until the [Valyrian Freehold](wiki:Valyrian_Freehold) captured it during the [Third Ghiscari War](wiki:Third_Ghiscari_War) and renamed it Gogossos. The [dragonlords](wiki:Dragonlords) used it as a penal colony for the worst criminals. New methods of torture were used and [blood magic](wiki:Blood_magic) is said to have been practiced, including [slave women](wiki:Slavery) being forced to mate with beasts to produce [twisted, half-human offspring](wiki:Chimera).(wiki:Gogossos.cite_ref-Rtwoiafbeyond_the_free_cities:_the_basilisk_isles.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)

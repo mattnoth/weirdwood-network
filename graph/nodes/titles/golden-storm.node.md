@@ -17,7 +17,6 @@ Golden Storm is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 The Golden Storm was [Aeron Greyjoy](wiki:Aeron_Greyjoy)'s newly-made longship. Aeron, who in his early years was a jolly drunk, claimed the [Drowned God](wiki:Drowned_God) gifted him with the ability to piss longer or farther than any man. Upon receiving his longship, he wagered it against a herd of goats that he would be able to put out a hearthfire by pissing on it. Aeron won the bet giving the ship its name the Golden Storm, though his brother [Balon](wiki:Balon_Greyjoy), [Lord of the Iron Islands](wiki:Lord_of_the_Iron_Islands), threatened to hang him from her mast when he heard what sort of ram his brother intended to mount upon her prow to serve as graphic monument to Aeron's accomplishment.(wiki:Golden_Storm.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

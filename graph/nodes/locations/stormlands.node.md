@@ -17,7 +17,6 @@ Stormlands is a place.region from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 ### Storm Kings

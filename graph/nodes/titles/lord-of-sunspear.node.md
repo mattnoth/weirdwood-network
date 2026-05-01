@@ -17,7 +17,6 @@ Lord of Sunspear is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 After he ascended the [Iron Throne](wiki:Iron_Throne), King [Daeron II Targaryen](wiki:Daeron_II_Targaryen) began negotiations with Prince [Maron Martell](wiki:Maron_Martell) of [Sunspear](wiki:Sunspear). After two years, Maron agreed to be betrothed to Daeron's sister, Princess [Daenerys Targaryen](wiki:Daenerys_Targaryen_(daughter_of_Aegon_IV)). They were [wed](wiki:Wedding_of_Maron_Martell_and_Daenerys_Targaryen) in [187 AC](wiki:Years_after_Aegon's_Conquest) in [King's Landing](wiki:King's_Landing), after which Maron officially knelt for Daeron, bringing [Dorne](wiki:Dorne) under the rule of the Iron Throne.(wiki:Lord_of_Sunspear.cite_ref-Ragotappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)(wiki:Lord_of_Sunspear.cite_ref-2)(wiki:Lord_of_Sunspear.cite_ref-Rtwoiafthe_targaryen_kings:_daeron_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

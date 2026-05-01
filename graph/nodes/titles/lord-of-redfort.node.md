@@ -17,7 +17,6 @@ Lord of Redfort is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 During the [Andal invasion](wiki:Andal_invasion), King [Robar II Royce](wiki:Robar_II_Royce) formed an alliance of [First Men](wiki:First_Men) Houses from the Vale to repel the Andals. Robar's forces were defeated in the [Battle of the Seven Stars](wiki:Battle_of_the_Seven_Stars), however, and [Torgold Tollett](wiki:Torgold_Tollett) chopped off Lord Redfort's arm during the battle.(wiki:Lord_of_Redfort.cite_ref-Rtwoiaf_the_vale.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)

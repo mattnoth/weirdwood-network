@@ -17,7 +17,6 @@ Selhorys is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 During the [Second Spice War](wiki:Second_Spice_War), [Garin the Great](wiki:Garin_the_Great) achieved his first victory over the [Valyrian Freehold](wiki:Valyrian_Freehold) at Selhorys.(wiki:Selhorys.cite_ref-Rtwoiafancient_history:_ten_thousand_ships.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)

@@ -17,7 +17,6 @@ Kite is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Culture
 
 Flying kites are among the animals decorating the outermost of the [walls of Qarth](wiki:Walls_of_Qarth).(wiki:Kite.cite_ref-Racok27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

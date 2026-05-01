@@ -17,7 +17,6 @@ Hightower is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Appearances & Description
 
 According to a semi-canon source, the Hightower is a massive stepped tower with a beacon on top to guide ships into port.(wiki:Hightower.cite_ref-SSM_3-0) The color of the beacon's fire is changeable, as green flame can be used to call [House Hightower](wiki:House_Hightower)'s banners.(wiki:Hightower.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) The labyrinthine square fortress of unadorned [black stone](wiki:Black_stone) at the castle's foundation contains gloomy halls, vaults, and chambers.(wiki:Hightower.cite_ref-Rtwoiafthe_reach:_oldtown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) The Hightower contains a high hall.(wiki:Hightower.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) The top of the tower contains the apartments of the [Lord of the Hightower](wiki:Lord_of_the_Hightower).(wiki:Hightower.cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) Deep vaults are located underground.(wiki:Hightower.cite_ref-Rfabaftermath_-_the_hour_of_the_wolf.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)

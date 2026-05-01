@@ -17,7 +17,6 @@ Dragon that died in the Red Waste is a character.dragon from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 ### A Clash of Kings

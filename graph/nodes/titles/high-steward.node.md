@@ -17,7 +17,6 @@ High Steward is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 [Gareth Tyrell](wiki:Gareth_Tyrell), a bookish man, was named High Steward by the [King of the Reach](wiki:King_of_the_Reach), and was followed in this office by his son [Leo](wiki:Leo_Tyrell_(son_of_Gareth)). Gareth and Leo performed their duties so admirably that the [Gardener](wiki:House_Gardener) kings made the office of High Steward hereditary.(wiki:High_Steward.cite_ref-Rtwoiafthe_reach:_house_tyrell.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

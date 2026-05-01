@@ -17,7 +17,6 @@ Goodwife is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Goodwives, fishermen, and fieldhands cheered loudly when King [Aegon I Targaryen](wiki:Aegon_I_Targaryen) was crowned at the [Aegonfort](wiki:Aegonfort) during [Aegon's Conquest](wiki:Aegon's_Conquest).(wiki:Goodwife.cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

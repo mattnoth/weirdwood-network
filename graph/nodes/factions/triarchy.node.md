@@ -18,7 +18,6 @@ Triarchy is a organization.faction from the AWOIAF wiki.
 ## Edges
 
 - RULES: High Council of the Triarchy (track_b: Ruler)
-- WORSHIPS: Mixed (track_b: Religion)
 
 ## Origins
 

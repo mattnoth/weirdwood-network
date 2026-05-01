@@ -17,7 +17,6 @@ Lord of Bitterbridge is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 During the [Battle Beneath the Gods Eye](wiki:Battle_Beneath_the_Gods_Eye) in [43 AC](wiki:43_AC), Lord Caswell fought for King [Maegor I Targaryen](wiki:Maegor_I_Targaryen) against Prince [Aegon the Uncrowned](wiki:Aegon_Targaryen_(son_of_Aenys_I)).(wiki:Lord_of_Bitterbridge.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) He may have been the first Caswell to held the title of "Lord of Bitterbridge", as the town was, up until the previous year, known as "Stonebridge".(wiki:Lord_of_Bitterbridge.cite_ref-Rtwoiaf_the_targaryen_kings:_maegor_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)

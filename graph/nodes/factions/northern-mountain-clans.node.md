@@ -17,7 +17,6 @@ Northern mountain clans is a culture/people from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Culture
 
 The quarrelsome clans of the rugged northwest are a hardy people who, like most other [northmen](wiki:Northmen), worship the [old gods](wiki:Old_gods).(wiki:Northern_mountain_clans.cite_ref-Radwd49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)(wiki:Northern_mountain_clans.cite_ref-Radwd64.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0) According to a semi-canon source, the clansmen have lands and [holdfasts](wiki:Holdfast). Some reside in fastnesses large enough to be called castles, though they would be considered small and crudely constructed in comparison to the great castles of the south.(wiki:Northern_mountain_clans.cite_ref-13)

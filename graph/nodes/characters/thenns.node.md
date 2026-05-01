@@ -17,7 +17,6 @@ Thenns is a character from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Culture
 
 The Thenns consider themselves the last of the [First Men](wiki:First_Men). They speak the [Old Tongue](wiki:Old_Tongue) and most have only a few words of the [Common Tongue](wiki:Common_Tongue).(wiki:Thenns.cite_ref-Rasos26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) They are led by the [Magnar of Thenn](wiki:Magnar_of_Thenn), who is considered more a [god](wiki:God) than a man by his people.(wiki:Thenns.cite_ref-Rasos15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) Because they have [laws](wiki:Laws) and [lords](wiki:Lord) in their valley, some consider the Thenns more sophisticated than other [free folk](wiki:Free_folk) and closer to the people [south of the Wall](wiki:Seven_Kingdoms). They have more dealings with [giants](wiki:Giants) than other men.(wiki:Thenns.cite_ref-Radwd49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

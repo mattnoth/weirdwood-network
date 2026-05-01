@@ -23,10 +23,10 @@ Daeron II Targaryen is a character.human from the AWOIAF wiki.
 - HOLDS_TITLE: Protector of the Realm (track_b: Titles) [Baelor]
 - SUCCEEDS (reverse): Aegon IV Targaryen (track_b: Predecessor)
 - HEIR_TO: Baelor Targaryen (track_b: Heirs) [184–209 AC]
-- HEIR_TO: 184 (track_b: Heirs) [184–209 AC]
-- HEIR_TO: 209 AC (track_b: Heirs) [184–209 AC]
+
+[184–209 AC]
 - HEIR_TO: Valarr Targaryen (track_b: Heirs) [209–209 AC]
-- HEIR_TO: 209 (track_b: Heirs) [184–209 AC]
+[184–209 AC]
 - SUCCEEDS: Aerys I Targaryen (track_b: Successor)
 - BORN_AT: King's Landing (track_b: Born) [153 AC]
 - DIED_AT: King's Landing (track_b: Died) [209 AC]

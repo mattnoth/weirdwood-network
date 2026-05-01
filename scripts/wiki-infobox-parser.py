@@ -812,6 +812,7 @@ def parse_relationship_field(field_name, td_html):
     # This prevents "263 AC" and "Age of Heroes" from being emitted as
     # BORN_AT/DIED_AT targets (they're dates, not places).
     is_born_died_field = field_lower in ("born", "died", "buried")
+    is_heir_field = field_lower in ("heir", "heirs")
 
     parser = InlineTextExtractorHTML()
     parser.feed(td_html)
@@ -830,7 +831,7 @@ def parse_relationship_field(field_name, td_html):
     # Collect the first date link text as the edge qualifier; remove all
     # date links from the list so only place links remain.
     date_qualifier = None
-    if is_born_died_field and links:
+    if (is_born_died_field or is_heir_field) and links:
         for href, link_text in links:
             lt = link_text.strip()
             if _is_date_link(href, lt):
@@ -843,6 +844,10 @@ def parse_relationship_field(field_name, td_html):
             for href, lt in links
             if not _is_date_link(href, lt.strip())
         ]
+        # For heir fields: discard date qualifier since dates are annotations,
+        # not meaningful edge data. Keep only character-name links.
+        if is_heir_field:
+            date_qualifier = None
 
     if links:
         # Use link titles/text as primary targets (cleaner than raw text).
@@ -916,7 +921,7 @@ def parse_relationship_field(field_name, td_html):
             # e.g. "Winterfell, 263 AC" → target="Winterfell", qualifier="263 AC"
             # This handles Sub-pattern B from the audit where there are no links
             # and the entire "Place, Date" string is in one text item.
-            if is_born_died_field:
+            if is_born_died_field or is_heir_field:
                 # Match "Place, <date>" where date is year/era at end of string
                 date_suffix_m = re.search(
                     r',\s*((?:\d[\d\xa0\s–—-]*(?:AC|BC)?'

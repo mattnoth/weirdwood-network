@@ -17,7 +17,6 @@ Lord of Blackcrown is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Lord [Jon Bulwer](wiki:Jon_Bulwer) died of a summer fever.(wiki:Lord_of_Blackcrown.cite_ref-Rasosappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)(wiki:Lord_of_Blackcrown.cite_ref-Raffcappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

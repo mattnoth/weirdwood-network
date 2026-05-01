@@ -17,7 +17,6 @@ Lord of Honeyholt is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Lord [Lyman Beesbury](wiki:Lyman_Beesbury) served as [lord treasurer](wiki:Lord_treasurer)(wiki:Lord_of_Honeyholt.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) and [master of coin](wiki:Master_of_coin)(wiki:Lord_of_Honeyholt.cite_ref-Rfabheirs_of_the_dragon.E2.80.94a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) for kings [Jaehaerys I](wiki:Jaehaerys_I_Targaryen) and [Viserys I Targaryen](wiki:Viserys_I_Targaryen).(wiki:Lord_of_Honeyholt.cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)

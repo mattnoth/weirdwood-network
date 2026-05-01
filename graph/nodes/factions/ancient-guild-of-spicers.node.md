@@ -1,6 +1,6 @@
 ---
 name: "Ancient Guild of Spicers"
-type: title
+type: organization.faction
 slug: ancient-guild-of-spicers
 aliases: []
 confidence: tier-2
@@ -13,7 +13,7 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Ancient Guild of Spicers is a title from the AWOIAF wiki.
+Ancient Guild of Spicers is a organization.faction from the AWOIAF wiki.
 
 ## Edges
 

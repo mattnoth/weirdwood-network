@@ -17,7 +17,6 @@ Whispers is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 According to legend, the ancient castle received its name from the whispering heads of the victims of Ser [Clarence Crabb](wiki:Clarence_Crabb), a fabled knight from [Crackclaw Point](wiki:Crackclaw_Point). Whenever Clarence would kill a man—including [lords](wiki:Lord), wizards, [knights](wiki:Knight), [pirates](wiki:Pirate), and a king of [Duskendale](wiki:Duskendale)—he would cut off their head and bring it back to his castle to his wife, a [woods witch](wiki:Woods_witch). There, she would kiss the head and bring it back to life. The heads would then talk to each other and give Clarence counsel, creating the whispering sound.(wiki:Whispers.cite_ref-Raffc14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)

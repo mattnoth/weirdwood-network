@@ -17,7 +17,6 @@ House Stark guards is a organization.faction from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Before the outbreak of [Robert's Rebellion](wiki:Robert's_Rebellion), Lord [Rickard Stark](wiki:Rickard_Stark) went south to [King's Landing](wiki:King's_Landing) with two hundred of his best men(wiki:House_Stark_guards.cite_ref-Ragot53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0) since King [Aerys II Targaryen](wiki:Aerys_II_Targaryen) had imprisoned his heir, [Brandon](wiki:Brandon_Stark). Father and son were executed by the Mad King,(wiki:House_Stark_guards.cite_ref-Racok55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0) and none of their men returned to the [north](wiki:North).(wiki:House_Stark_guards.cite_ref-Ragot53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)

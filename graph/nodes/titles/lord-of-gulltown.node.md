@@ -17,7 +17,6 @@ Lord of Gulltown is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 In [52 AC](wiki:52_AC), Lord Grafton hosted King [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen) and his sister-wife, Queen [Alysanne Targaryen](wiki:Alysanne_Targaryen), during their [royal progress](wiki:Royal_progress) through the Vale. During their stay at Gulltown, Queen Alysanne arranged a [betrothal](wiki:Betrothal) between Lord Grafton and one of her ladies, Lady [Prudence Celtigar](wiki:Prudence_Celtigar).(wiki:Lord_of_Gulltown.cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

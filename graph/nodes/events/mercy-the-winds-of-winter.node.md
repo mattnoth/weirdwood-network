@@ -17,7 +17,6 @@ Mercy (The Winds of Winter) is a event.battle from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 A girl named Mercy, short for Mercedene, wakes up after having [dreamed](wiki:Skinchanger) of [wolves](wiki:Nymeria) and blood, and being watched by a tree. She is in [Braavos](wiki:Braavos), where the day is hidden in a chilly fog. She is going to perform in a play tonight at the [Gate](wiki:Gate_(playhouse)), where [an envoy](wiki:Harys_Swyft) from [Westeros](wiki:Westeros) will come and watch a performance. Izembaro, the King of the Mummers, will not tolerate her being late. After scrubbing and shaving her head, so as to better keep the wigs on her head, Mercy rushes to the Gate, where she finds [Big Brusco](wiki:Big_Brusco) painting the sign for tonight's play: *[The Bloody Hand](wiki:The_Bloody_Hand)*, written by [Phario Forel](wiki:Phario_Forel). *The Bloody Hand* features characters such as [the fat king](wiki:Robert_I_Baratheon), played by Izembaro, [the boy king](wiki:Joffrey_Baratheon), and [the demonic dwarf](wiki:Tyrion_Lannister), played by [Bobono](wiki:Bobono). Mercy's character is a young, sweet [maiden](wiki:Sansa_Stark) who will be raped and [murdered](wiki:Shae) by the dwarf.

@@ -17,7 +17,6 @@ Paramour is a character from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Culture
 
 In [Dorne](wiki:Dorne), it is common for [lords](wiki:Lord) and ladies to have paramours, chosen out of love and lust rather than political alliances. [Dornishmen](wiki:Dornishmen) are not greatly concerned if a [bastard](wiki:Bastard) is born to a paramour.(wiki:Paramour.cite_ref-Rtwoiaf795_3-0) Dorne gives a degree of social status to paramours, despite the "unchaste" nature of the relationship. Outside of Dorne, a Dornish paramour's status is less certain. They may be afforded the esteem granted in their homeland by the diplomatic-minded, or they may receive treatment ranging from slight social disdain to moral condemnation.(wiki:Paramour.cite_ref-Rasos38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

@@ -17,7 +17,6 @@ Sistermen is a culture/people from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Culture
 
 Some Sistermen, such as the [Borrells](wiki:House_Borrell), have webbing between their hands and feet, which they call the mark.(wiki:Sistermen.cite_ref-Radwd9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0) Some [Westerosi](wiki:Westeros) pejoratively consider Sistermen to have fishbreath.(wiki:Sistermen.cite_ref-Rasosprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

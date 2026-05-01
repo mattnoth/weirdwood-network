@@ -19,7 +19,7 @@ Karhold is a place.location from the AWOIAF wiki.
 
 - RULES: Rickard Karstark (track_b: Ruler) [AGoT]
 - RULES: Harrion Karstark (track_b: Ruler) [ADwD]
-- WORSHIPS: Old gods (track_b: Religion)
+- WORSHIPS: Old Gods of the Forest (track_b: Religion)
 
 ## Origins
 

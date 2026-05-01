@@ -17,7 +17,6 @@ Great Council is a character from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 ### 37 AC[ ]

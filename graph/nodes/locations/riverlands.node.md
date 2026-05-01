@@ -17,7 +17,6 @@ Riverlands is a place.region from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 ### First Men

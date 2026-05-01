@@ -17,7 +17,6 @@ Lord of Griffin's Roost is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 During the [First Dornish War](wiki:First_Dornish_War), the Lord of Griffin's Roost was murdered by [Dornish](wiki:Dorne) assassins while hunting.(wiki:Lord_of_Griffin's_Roost.cite_ref-Rfabthe_reign_of_the_dragon_-_the_wars_of_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

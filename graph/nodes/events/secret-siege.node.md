@@ -17,7 +17,6 @@ Secret siege is a event.battle from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 During the [Lysene Spring](wiki:Lysene_Spring), Prince [Viserys Targaryen](wiki:Viserys_II_Targaryen)'s wife, Lady [Larra of Lys](wiki:Larra_Rogare), and her family from [House Rogare](wiki:House_Rogare) were accused of being part of a plot to overthrow King Aegon. Lord [Thaddeus Rowan](wiki:Thaddeus_Rowan), the [Hand of the King](wiki:Hand_of_the_King), was also implicated in the conspiracy and was arrested and taken to the dungeons where the [Lord Confessor](wiki:Lord_Confessor), Lord [George Graceford](wiki:George_Graceford) began torturing him. Ser [Marston Waters](wiki:Marston_Waters), the [Lord Commander of the Kingsguard](wiki:Lord_Commander_of_the_Kingsguard), was appointed the new Hand by the council of [regents](wiki:Regent) and he ordered the arrest of Larra and her kin.(wiki:Secret_siege.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)

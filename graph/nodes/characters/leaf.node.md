@@ -17,7 +17,6 @@ Leaf is a character.human from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Leaf was born in the time of [House Targaryen](wiki:House_Targaryen)'s dynasty in the [Seven Kingdoms](wiki:Seven_Kingdoms), and walked the world of men for two hundred years to watch, listen, and learn. She says she might be walking still, but her legs were sore and her heart was weary, so she turned her feet for home.(wiki:Leaf.cite_ref-Radwd13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)

@@ -17,7 +17,6 @@ Giants is a culture/people from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Appearances & Description
 
 Giants generally grow between ten(wiki:Giants.cite_ref-Ragot53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) to fourteen feet tall.(wiki:Giants.cite_ref-Rtwoiafancient_history:_the_dawn_age.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) They are capable of great feats of strength, such as wrenching the bars of an iron gate apart.(wiki:Giants.cite_ref-Rasos64.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) They are covered by a shaggy pelt of fur, that is thicker below their waists than above. The fur of older giants becomes grey and streaked with white. Their heads are thrust forward from their shoulder blades. They have squashed-in faces with square teeth, and tiny eyes amidst folds of horny flesh. Their eyesight is poor, and they snuffle constantly, smelling as much as they see.(wiki:Giants.cite_ref-Rasos15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)

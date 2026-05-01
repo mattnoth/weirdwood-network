@@ -17,7 +17,6 @@ Elyria is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Elyria was founded by the [Valyrian Freehold](wiki:Valyrian_Freehold). Although rich and glorious, it did not have self-rule and was instead governed by men and women sent from [Valyria](wiki:Valyria) to rule in the name of the Freehold.(wiki:Elyria.cite_ref-Rtwoiafthe_free_cities.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

@@ -17,7 +17,6 @@ Lord of Godsgrace is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 ### A Dance with Dragons[ ]

@@ -17,7 +17,6 @@ Meereen is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 According to Ser [Barristan Selmy](wiki:Barristan_Selmy), it has been "a thousand years" since Meereen last had [a king](wiki:King_of_Meereen).(wiki:Meereen.cite_ref-Radwd55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-4)(wiki:Meereen.cite_ref-date_27-0)

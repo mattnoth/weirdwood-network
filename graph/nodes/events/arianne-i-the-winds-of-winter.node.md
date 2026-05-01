@@ -17,7 +17,6 @@ Arianne I (The Winds of Winter) is a event.battle from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 [Arianne Martell](wiki:Arianne_Martell) is traveling towards [Ghost Hill](wiki:Ghost_Hill) with her companions: her new sworn sword [Daemon Sand](wiki:Daemon_Sand), her bastard cousin [Elia Sand](wiki:Elia_Sand), [Jayne Ladybright](wiki:Jayne_Ladybright), Ser [Joss Hood](wiki:Joss_Hood), Ser [Garibald Shells](wiki:Garibald_Shells), and [Nate](wiki:Nate). [Ellaria Sand](wiki:Ellaria_Sand) has left [Sunspear](wiki:Sunspear) to go back to [Hellholt](wiki:Hellholt), her father [Harmen Uller](wiki:Harmen_Uller)'s seat, with [Loreza](wiki:Loreza_Sand). [Dorea Sand](wiki:Dorea_Sand) remains at the [Water Gardens](wiki:Water_Gardens), hidden among all the children, and [Obella Sand](wiki:Obella_Sand) is dispatched to Sunspear as a [cupbearer](wiki:Cupbearer). Ellaria's [Sand Snakes](wiki:Sand_Snakes) are now scattered, so as to better to survive the carnage.

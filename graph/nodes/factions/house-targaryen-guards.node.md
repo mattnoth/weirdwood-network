@@ -17,7 +17,6 @@ House Targaryen guards is a organization.faction from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 During the [First Dornish War](wiki:First_Dornish_War), guardsmen twice saved King [Aegon I Targaryen](wiki:Aegon_I_Targaryen) from [Dornish](wiki:Dornishmen) assassins.(wiki:House_Targaryen_guards.cite_ref-Rfabreign_of_the_dragon_-_the_wars_of_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0) Queen [Visenya Targaryen](wiki:Visenya_Targaryen) was also attacked in the streets of [King's Landing](wiki:King's_Landing) one night, and she slew the last assassin with [Dark Sister](wiki:Dark_Sister) after two of her escorts were killed.(wiki:House_Targaryen_guards.cite_ref-Rfabreign_of_the_dragon_-_the_wars_of_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) Visenya advised Aegon to wear mail at all times for his own protection. After the king refused, Visenya quickly drew Dark Sister and cut her brother's cheek before his guards could react. Recognizing his vulnerability, Aegon decided to have the [Kingsguard](wiki:Kingsguard) formed for better protection.(wiki:House_Targaryen_guards.cite_ref-Rfabthree_heads_had_the_dragon_-_governance_under_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

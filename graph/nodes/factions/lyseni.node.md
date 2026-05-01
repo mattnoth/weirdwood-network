@@ -2,7 +2,7 @@
 name: "Lyseni"
 type: organization.faction
 slug: lyseni
-aliases: []
+aliases: ["lysene"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Lyseni"
 bucket_id: tier3-cultures

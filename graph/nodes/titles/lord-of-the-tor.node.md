@@ -17,7 +17,6 @@ Lord of the Tor is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 The Lord of the Tor died shortly before King [Aegon I Targaryen](wiki:Aegon_I_Targaryen) captured the [Tor](wiki:Tor) during the [First Dornish War](wiki:First_Dornish_War).(wiki:Lord_of_the_Tor.cite_ref-Rfabreign_of_the_dragon_-_the_wars_of_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)

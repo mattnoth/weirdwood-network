@@ -17,7 +17,6 @@ King of Mountain and Vale is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 The first king to unite most of the [Vale](wiki:Vale_of_Arryn) was the last [Bronze King](wiki:Bronze_King), [Robar II Royce](wiki:Robar_II_Royce), during the [Andal invasion](wiki:Andal_invasion) of [Westeros](wiki:Westeros). With [Andals](wiki:Andals) having conquered three-quarters of the Vale, Robar united the houses and clans of the [First Men](wiki:First_Men) in resistance and became [High King of the Vale, the Fingers, and the Mountains of the Moon](wiki:High_King_of_the_Vale,_the_Fingers,_and_the_Mountains_of_the_Moon). However, Robar and the First Men were defeated by Ser [Artys Arryn](wiki:Artys_Arryn), a young Andal called the Falcon Knight, in the [Battle of Seven Stars](wiki:Battle_of_Seven_Stars). The Vale was renamed the [Vale of Arryn](wiki:Vale_of_Arryn) in Artys's honor.(wiki:King_of_Mountain_and_Vale.cite_ref-Rtwoiaf_the_vale.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) He became the first King of Mountain and Vale, and his [Falcon Crown](wiki:Falcon_Crown) was passed down from Arryn to Arryn.(wiki:King_of_Mountain_and_Vale.cite_ref-Rtwoiaf_the_vale:_house_arryn.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

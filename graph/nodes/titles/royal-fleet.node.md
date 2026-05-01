@@ -17,7 +17,6 @@ Royal fleet is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 ### Targaryen Era[ ]

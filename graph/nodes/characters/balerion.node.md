@@ -17,7 +17,6 @@ Balerion is a character.dragon from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 ### Origin

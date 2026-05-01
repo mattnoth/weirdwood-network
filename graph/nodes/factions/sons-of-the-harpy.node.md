@@ -1,6 +1,6 @@
 ---
 name: "Sons of the Harpy"
-type: title
+type: organization.faction
 slug: sons-of-the-harpy
 aliases: []
 confidence: tier-2
@@ -13,7 +13,7 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Sons of the Harpy is a title from the AWOIAF wiki.
+Sons of the Harpy is a organization.faction from the AWOIAF wiki.
 
 ## Edges
 

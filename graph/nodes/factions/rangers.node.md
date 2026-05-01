@@ -1,6 +1,6 @@
 ---
 name: "Rangers"
-type: title
+type: organization.faction
 slug: rangers
 aliases: []
 confidence: tier-2
@@ -13,7 +13,7 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Rangers is a title from the AWOIAF wiki.
+Rangers is a organization.faction from the AWOIAF wiki.
 
 ## Edges
 

@@ -17,7 +17,6 @@ A Storm of Swords-Chapter 77 is a event.battle from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 [Tyrion](wiki:Tyrion_Lannister), locked in the [black cells](wiki:Black_cells) beneath the [Red Keep](wiki:Red_Keep), is rescued by [Jaime](wiki:Jaime_Lannister). His brother tells him that he is to be beheaded on the morrow, and informs him that he coerced [Varys](wiki:Varys) into helping him charter a ship to take Tyrion from [King's Landing](wiki:King's_Landing). When Jaime tells him that the rescue was a debt he owed him, Tyrion presses his brother, and learns that [Tysha](wiki:Tysha) was not a whore, but a crofter’s daughter, just as she appeared. Lord [Tywin](wiki:Tywin_Lannister) had forced Jaime all those years ago to lie about Tysha so as to teach Tyrion a lesson. Tyrion is infuriated that his brother never told him the truth, and punches Jaime in the face. Tyrion warns him that he will exact revenge against him, [their father](wiki:Tywin_Lannister), and [Cersei](wiki:Cersei_Lannister), as a [Lannister](wiki:House_Lannister) always pays his debts. Jaime then asks if Tyrion poisoned [Joffrey](wiki:Joffrey_Baratheon) and, lying in his anger, Tyrion admits to doing so. He also tells Jaime that Cersei is sleeping with [Lancel](wiki:Lancel_Lannister) and Ser [Osmund](wiki:Osmund_Kettleblack) and perhaps others, and that Joffrey would have been a monster worse than [Aerys](wiki:Aerys_II_Targaryen) if he remained king.

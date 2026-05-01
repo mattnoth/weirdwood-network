@@ -17,7 +17,6 @@ A Storm of Swords-Epilogue is a event.battle from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 [Merrett Frey](wiki:Merrett_Frey) is approaching the ruins of [Oldstones](wiki:Oldstones) with the ransom for his half-brother's ([Stevron Frey](wiki:Stevron_Frey)'s) grandson [Petyr Pimple](wiki:Petyr_Frey). He is considering all the ill luck throughout his life, starting as a squire, where in a battle against the [Kingswood Brotherhood](wiki:Kingswood_Brotherhood) he got hit on the head so hard he was unable to ever truly fight again, which left him unable to reach knighthood. [His father](wiki:Walder_Frey) has always mocked him as "Merrett Muttonhead", and all he was good for during the [Red Wedding](wiki:Red_Wedding) was to drink the [Greatjon](wiki:Jon_Umber_(Greatjon)) under the table.

@@ -17,7 +17,6 @@ First Ranger is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 A [Stane](wiki:First_Ranger_Stane) of [Skagos](wiki:Skagos) once briefly served as First Ranger.(wiki:First_Ranger.cite_ref-Rtwoiaf_the_north:_the_stoneborn_of_skagos.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

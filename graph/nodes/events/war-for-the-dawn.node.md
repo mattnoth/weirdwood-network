@@ -17,7 +17,6 @@ War for the dawn is a event.war from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 ### A Storm of Swords

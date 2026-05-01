@@ -17,7 +17,6 @@ King of the Torrentine is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 [House Dayne](wiki:House_Dayne) is an ancient family that claims origin to the [Dawn of Days](wiki:Dawn_Age). At the mouth of the [Torrentine](wiki:Torrentine), the Daynes raised their seat of [Starfall](wiki:Starfall). They subsequently ruled over the Torrentine and western [Red Mountains](wiki:Red_Mountains) for centuries as Kings of the Torrentine and [Lords of Starfall](wiki:Lord_of_Starfall). Alongside the [Fowlers](wiki:House_Fowler) of [Skyreach](wiki:Skyreach) and [Yronwoods](wiki:House_Yronwood) of [Yronwood](wiki:Yronwood), the Daynes were the most prestigious and powerful kings.(wiki:King_of_the_Torrentine.cite_ref-Rtwoiafdorne:_kingdoms_of_the_first_men.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

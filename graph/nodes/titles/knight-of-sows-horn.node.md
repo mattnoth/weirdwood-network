@@ -17,7 +17,6 @@ Knight of Sow's Horn is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 ### A Feast for Crows[ ]

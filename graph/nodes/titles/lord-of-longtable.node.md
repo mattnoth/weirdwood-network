@@ -17,7 +17,6 @@ Lord of Longtable is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 During the [Battle Beneath the Gods Eye](wiki:Battle_Beneath_the_Gods_Eye) in [43 AC](wiki:43_AC), old Lord Merryweather fought for King [Maegor I Targaryen](wiki:Maegor_I_Targaryen) against Prince [Aegon the Uncrowned](wiki:Aegon_Targaryen_(son_of_Aenys_I)).(wiki:Lord_of_Longtable.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) Old Lord Merryweather was killed the following year by the outlawed [Warrior's Sons](wiki:Warrior's_Sons) who remained loyal to Ser [Joffrey Doggett](wiki:Joffrey_Doggett).(wiki:Lord_of_Longtable.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)

@@ -17,7 +17,6 @@ Clegane's Keep is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Appearances & Description
 
 The towerhouse(wiki:Clegane's_Keep.cite_ref-Racok18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) has a fearsome reputation, one that lives up to that of its [landed knight](wiki:Landed_knight), Ser [Gregor Clegane](wiki:Gregor_Clegane). It is said that servants disappear unaccountably, and even the dogs are afraid to enter the hall.(wiki:Clegane's_Keep.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) There is a village under the keep.(wiki:Clegane's_Keep.cite_ref-Ragot29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)

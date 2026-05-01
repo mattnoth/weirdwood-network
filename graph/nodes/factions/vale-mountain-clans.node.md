@@ -17,7 +17,6 @@ Vale mountain clans is a culture/people from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Culture
 
 The [Mountains of the Moon](wiki:Mountains_of_the_Moon) are home to a population of people who have rejected the authority of the [Eyrie](wiki:Eyrie) and are independent from the rest of the [Seven Kingdoms](wiki:Seven_Kingdoms) and its [feudal society](wiki:Feudalism). The clansmen are an egalitarian society, believing that every person's voice, regardless of gender, should be heard during councils.(wiki:Vale_mountain_clans.cite_ref-Ragot56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) Clansmen are fiercely loyal to each other, while some clans share close bonds.(wiki:Vale_mountain_clans.cite_ref-Ragot62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2) Conflicts between the clans are often resolved by payment of blood money and clansmen are quick to settle personal grievances through violence.(wiki:Vale_mountain_clans.cite_ref-Ragot62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3) Archmaester [Gyldayn](wiki:Gyldayn) considered the clansmen to be savages.(wiki:Vale_mountain_clans.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)

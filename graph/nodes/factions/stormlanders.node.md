@@ -2,7 +2,7 @@
 name: "Stormlanders"
 type: organization.faction
 slug: stormlanders
-aliases: []
+aliases: ["stormlander"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Stormlanders"
 bucket_id: tier3-cultures
@@ -16,7 +16,6 @@ pass_origin: pass2-wiki-deterministic
 Stormlanders is a culture/people from the AWOIAF wiki.
 
 ## Edges
-
 
 ## Culture
 

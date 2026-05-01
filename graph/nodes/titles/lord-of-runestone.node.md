@@ -17,7 +17,6 @@ Lord of Runestone is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 In [37 AC](wiki:37_AC), [Jonos Arryn](wiki:Jonos_Arryn) imprisoned and usurped his brother, Lord [Ronnel](wiki:Ronnel_Arryn_(king)). Lord [Allard Royce](wiki:Allard_Royce) marched against the [Eyrie](wiki:Eyrie) and to demand the release of his rightful lord. Jonos answered by throwing his brother from the [Moon Door](wiki:Moon_Door). The conflict was resolved after the arrival of Prince [Maegor Targaryen](wiki:Maegor_Targaryen) on top of [Balerion](wiki:Balerion).(wiki:Lord_of_Runestone.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)

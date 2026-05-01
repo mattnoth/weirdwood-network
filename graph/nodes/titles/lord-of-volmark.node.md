@@ -17,7 +17,6 @@ Lord of Volmark is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Lord [Qhorin Volmark](wiki:Qhorin_Volmark) claimed the title of [King of the Iron Islands](wiki:King_of_the_Iron_Islands), as his grandmother was the younger sister of King [Harwyn Hardhand](wiki:Harwyn_Hoare). He was slain by King [Aegon I Targaryen](wiki:Aegon_I_Targaryen) in [2 AC](wiki:2_AC), however.(wiki:Lord_of_Volmark.cite_ref-Rfabreign_of_the_dragon_-_the_wars_of_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) [Goren Greyjoy](wiki:Goren_Greyjoy), [Lord of the Iron Islands](wiki:Lord_of_the_Iron_Islands), defeated a conspiracy to crown Qhorin's son in [33 AC](wiki:Years_after_Aegon's_Conquest).(wiki:Lord_of_Volmark.cite_ref-Rtwoiafthe_iron_islands:_the_greyjoys_of_pyke.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

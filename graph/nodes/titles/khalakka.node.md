@@ -17,7 +17,6 @@ Khalakka is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Quotes
 
 Khalakka dothrae!(wiki:Khalakka.cite_ref-Ragot46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)

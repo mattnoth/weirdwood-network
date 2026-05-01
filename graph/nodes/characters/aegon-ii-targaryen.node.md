@@ -22,13 +22,13 @@ Aegon II Targaryen is a character.human from the AWOIAF wiki.
 - HOLDS_TITLE: Protector of the Realm (track_b: Titles)
 - SUCCEEDS (reverse): Viserys I Targaryen (track_b: Predecessor)
 - HEIR_TO: Jaehaerys Targaryen (track_b: Heirs) [129 AC]
-- HEIR_TO: 129 AC (track_b: Heirs) [129 AC]
+[129 AC]
 - HEIR_TO: Maelor Targaryen (track_b: Heirs) [129–130 AC]
-- HEIR_TO: 129 (track_b: Heirs) [129 AC]
-- HEIR_TO: 130 AC (track_b: Heirs) [129–130 AC]
+[129 AC]
+[129–130 AC]
 - HEIR_TO: Aegon Targaryen (track_b: Heirs) [130–131 AC]
-- HEIR_TO: 130 (track_b: Heirs) [129–130 AC]
-- HEIR_TO: 131 AC (track_b: Heirs) [130–131 AC]
+[129–130 AC]
+[130–131 AC]
 - SUCCEEDS: Aegon III Targaryen (track_b: Successor)
 - BORN_AT: King's Landing (track_b: Born) [107 AC]
 - DIED_AT: King's Landing (track_b: Died) [131 AC]

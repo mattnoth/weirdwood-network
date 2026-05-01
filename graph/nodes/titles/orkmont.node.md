@@ -17,7 +17,6 @@ Orkmont is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 [Urras Greyiron](wiki:Urras_Greyiron), the [salt king](wiki:Salt_king) of Orkmont, was crowned the first [High King of the Iron Islands](wiki:High_King_of_the_Iron_Islands) in a [kingsmoot](wiki:Kingsmoot) on [Old Wyk](wiki:Old_Wyk).(wiki:Orkmont.cite_ref-Rtwoiafthe_iron_islands:_driftwood_crowns.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0) Longships from Orkmont attacked the western shores of the [north](wiki:North) during the reign of King [Harrag Hoare](wiki:Harrag_Hoare).(wiki:Orkmont.cite_ref-Rtwoiafthe_north:_the_kings_of_winter.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)

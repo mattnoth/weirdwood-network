@@ -17,7 +17,6 @@ Lord of Greyshield is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Lord Grimm supported the [blacks](wiki:Blacks) during the [Dance of the Dragons](wiki:Dance_of_the_Dragons).(wiki:Lord_of_Greyshield.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)

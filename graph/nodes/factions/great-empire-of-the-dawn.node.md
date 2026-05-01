@@ -17,7 +17,6 @@ Great Empire of the Dawn is a culture/people from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 ### God-on-Earth[ ]

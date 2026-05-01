@@ -17,7 +17,6 @@ Sea Snake is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Ser [Corlys Velaryon](wiki:Corlys_Velaryon) made nine [Great Voyages](wiki:Great_Voyages) aboard the Sea Snake in the East before he inherited the [lordship](wiki:Lord_of_the_Tides) of his [house](wiki:House_Velaryon) from his [grandfather](wiki:Daemon_Velaryon_(son_of_Aethan)). These expeditions are described in Maester [Mathis](wiki:Mathis)'s [The Nine Voyages](wiki:The_Nine_Voyages), and garnered him great wealth from [Essos](wiki:Essos), including stops at [Qarth](wiki:Qarth), [Yi Ti](wiki:Yi_Ti), and [Leng](wiki:Leng). During the last journey, Corlys loaded the Sea Snake with gold and purchased twenty ships in Qarth, allowing him to sail most of them back to [Westeros](wiki:Westeros) with [spices](wiki:Spices), [elephants](wiki:Elephant) (which did not survive the voyage), and silk.(wiki:Sea_Snake.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)(wiki:Sea_Snake.cite_ref-Rtwoiafthe_targaryen_kings:_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

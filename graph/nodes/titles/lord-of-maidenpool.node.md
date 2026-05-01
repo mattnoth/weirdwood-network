@@ -17,7 +17,6 @@ Lord of Maidenpool is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 At the start of the [Conquest](wiki:Aegon's_Conquest), Lord Mooton allied himself with Lord [Darklyn](wiki:House_Darklyn) to fight [Aegon the Conqueror](wiki:Aegon_I_Targaryen). Both Lords died in the following [battle](wiki:Aegon's_first_test), Lord Mooton's brother, [Jon Mooton](wiki:Jon_Mooton), yielded to Aegon and became the new Lord of Maidenpool. Lord Jon later fought for the [Targaryens](wiki:House_Targaryen) in the [Field of Fire](wiki:Field_of_Fire), slaying men who tried to escape the [dragons](wiki:Dragon).(wiki:Lord_of_Maidenpool.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)(wiki:Lord_of_Maidenpool.cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)

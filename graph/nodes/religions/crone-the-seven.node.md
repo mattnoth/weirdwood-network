@@ -17,7 +17,6 @@ Crone (the Seven) is a religion or divine entity from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 ### A Clash of Kings[ ]

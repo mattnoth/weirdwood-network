@@ -17,7 +17,6 @@ Spicetown is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Spicetown arose from a village when [House Velaryon](wiki:House_Velaryon) became the wealthiest house of the [Seven Kingdoms](wiki:Seven_Kingdoms) from the [voyages](wiki:Great_Voyages) of Lord [Corlys Velaryon](wiki:Corlys_Velaryon). Due to its location, it began to attract much of the trade that elswise would have made for [Duskendale](wiki:Duskendale) or [King's Landing](wiki:King's_Landing). Spicetown's wharves became crowded with ships from the [Free Cities](wiki:Free_Cities) and beyond.(wiki:Spicetown.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)

@@ -17,7 +17,6 @@ Barrowton is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 The [Great Barrow](wiki:Great_Barrow) of Barrowton is said to contain the grave of the [First King](wiki:First_King) of the [First Men](wiki:First_Men) or a [King of the Giants](wiki:King_of_the_Giants).(wiki:Barrowton.cite_ref-Radwd32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5) The [Dustins](wiki:House_Dustin) of Barrowton have been bannermen of [House Stark](wiki:House_Stark) of [Winterfell](wiki:Winterfell) since the downfall of the [Barrow Kings](wiki:Barrow_Kings) of old.(wiki:Barrowton.cite_ref-Rtwoiafthe_north.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)

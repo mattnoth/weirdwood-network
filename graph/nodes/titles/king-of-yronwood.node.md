@@ -17,7 +17,6 @@ King of Yronwood is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Ruling from [Yronwood](wiki:Yronwood) in the southeastern [Red Mountains](wiki:Red_Mountains), the Kings of Yronwood once controlled half of [Dorne](wiki:Dorne).(wiki:King_of_Yronwood.cite_ref-Rtwoiafdorne:_queer_customs_of_the_south.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) Their last king was [Yorick V Yronwood](wiki:Yorick_V_Yronwood), whose vassals included, among others, the [Blackmonts](wiki:House_Blackmont) of [Blackmont](wiki:Blackmont), the [Jordaynes](wiki:House_Jordayne) of the [Tor](wiki:Tor), the [Qorgyles](wiki:House_Qorgyle) of [Sandstone](wiki:Sandstone), and the [Wyls](wiki:House_Wyl) of [Wyl](wiki:Wyl_(castle)).(wiki:King_of_Yronwood.cite_ref-Rtwoiafancient_history:_then_thousand_ships.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) The Yronwoods were defeated by [House Martell](wiki:House_Martell) during [Nymeria's War](wiki:Nymeria's_War), however, with Yorick forced to join the [Night's Watch](wiki:Night's_Watch).(wiki:King_of_Yronwood.cite_ref-Rtwoiafdorne:_the_coming_of_the_rhoynar.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

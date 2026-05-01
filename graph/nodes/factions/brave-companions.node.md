@@ -17,7 +17,6 @@ Brave Companions is a organization.faction from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 According to semi-canon sources, the Brave Companions are not as old as other mercenary companies and were established before [Vargo Hoat](wiki:Vargo_Hoat) became their leader. Their numbers consist of the scum of the west, and a few from the east and the south. Their previous leader was likely not a [Qohorik](wiki:Qohor), and their next might possibly be a [Lyseni](wiki:Lys), a [Dornishman](wiki:Dornishmen) or even an [Ibbenese](wiki:Ibben).(wiki:Brave_Companions.cite_ref-7)

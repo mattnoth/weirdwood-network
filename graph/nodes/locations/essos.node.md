@@ -17,7 +17,6 @@ Essos is a place.region from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Quotes
 
 > Essos, the vast continent across the [narrow sea](wiki:Narrow_sea), teems with strange, exotic, and ancient civilizations, some still extant and striving, others long fallen and lost to legend.(wiki:Essos.cite_ref-Rtwoiafthe_free_cities.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)

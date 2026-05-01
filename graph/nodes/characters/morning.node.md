@@ -17,7 +17,6 @@ Morning is a character.dragon from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Morning hatched during the [Dance of the Dragons](wiki:Dance_of_the_Dragons) from one of the three [dragon eggs](wiki:Dragon_egg) that Lady [Rhaena Targaryen](wiki:Rhaena_Targaryen_(daughter_of_Daemon)) brought with her to the [Vale](wiki:Vale), a clutch produced by Rhaenyra's she-dragon [Syrax](wiki:Syrax). News of Morning's birth reached the [greens](wiki:Greens) around the start of [131 AC](wiki:131_AC), greatly troubling them, as they had lost all of their dragons during the fighting. Dowager Queen [Alicent Hightower](wiki:Alicent_Hightower) feared that the [smallfolk](wiki:Smallfolk) would consider the [blacks](wiki:Blacks) as more legitimate, due to Morning's birth.(wiki:Morning.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1) The war lasted only for another half a year, during which time Morning was still too young to be ridden.(wiki:Morning.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)(wiki:Morning.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)

@@ -17,7 +17,6 @@ Prince of Dragonstone is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 ### Targaryen Dynasty[ ]

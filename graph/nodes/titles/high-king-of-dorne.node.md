@@ -17,7 +17,6 @@ High King of Dorne is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 ### House Yronwood[ ]

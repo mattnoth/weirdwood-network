@@ -17,7 +17,6 @@ Ghost Hill is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Appearances & Description
 
 Located atop a hill, Ghost Hill has chalk-white walls that shine against the deep blue of the [Sea of Dorne](wiki:Sea_of_Dorne). There are square towers at the corners of the castle, which has a great central keep. The castle's maester is [Toman](wiki:Toman). There is a village with dusty lanes situated at the bottom of the hill.(wiki:Ghost_Hill.cite_ref-TWOW_2-0)

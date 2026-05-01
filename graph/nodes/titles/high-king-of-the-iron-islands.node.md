@@ -17,7 +17,6 @@ High King of the Iron Islands is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 ### Origin[ ]

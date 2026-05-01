@@ -17,7 +17,6 @@ Castellan is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Some of the [Tyrells](wiki:House_Tyrell) who served [House Gardener](wiki:House_Gardener) as [High Steward](wiki:High_Steward) were appointed castellan in times of war.(wiki:Castellan.cite_ref-Rtwoiafthe_reach:_house_tyrell.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0)

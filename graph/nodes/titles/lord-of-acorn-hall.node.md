@@ -17,7 +17,6 @@ Lord of Acorn Hall is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Lord Smallwood died fighting in King [Arlan III Durrandon](wiki:Arlan_III_Durrandon)'s campaign against King [Humfrey I Teague](wiki:Humfrey_I_Teague), which included the [Battle of Six Kings](wiki:Battle_of_Six_Kings).(wiki:Lord_of_Acorn_Hall.cite_ref-Rtwoiafthe_riverlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)

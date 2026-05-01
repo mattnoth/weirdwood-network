@@ -17,7 +17,6 @@ First Sword is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Culture
 
 The First Sword commands the [Sealord's](wiki:Sealord_of_Braavos) guardsmen and protects him in public. The First Sword is often the deadliest of the [bravos](wiki:Bravo) and [water dancers](wiki:Water_dance) of [Braavos](wiki:Braavos).(wiki:First_Sword.cite_ref-Rtwoiafthe_free_cities:_braavos.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

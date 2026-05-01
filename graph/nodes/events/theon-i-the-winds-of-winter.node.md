@@ -17,7 +17,6 @@ Theon I (The Winds of Winter) is a event.battle from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 Though reportedly isolated and secluded at the [crofters' village](wiki:Crofters'_village), [Stannis](wiki:Stannis_Baratheon) is actively preparing for the looming battle against the [Boltons](wiki:House_Bolton). Stannis received the [Braavosi](wiki:Braavos) [banker](wiki:Iron_Bank_of_Braavos) [Tycho Nestoris](wiki:Tycho_Nestoris) and the two signed a contract, Stannis is planning on sending the banker back to the [Wall](wiki:Wall) so he does not get caught up in the fighting.

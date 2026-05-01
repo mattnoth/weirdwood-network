@@ -17,7 +17,6 @@ Lord Protector of the Eyrie and the Vale of Arryn is a title from the AWOIAF wik
 
 ## Edges
 
-
 ## Narrative Arc
 
 ### A Storm of Swords[ ]

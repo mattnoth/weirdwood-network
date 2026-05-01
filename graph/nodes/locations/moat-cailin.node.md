@@ -17,7 +17,6 @@ Moat Cailin is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 ### Ancient History

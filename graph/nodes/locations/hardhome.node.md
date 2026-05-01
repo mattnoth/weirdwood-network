@@ -17,7 +17,6 @@ Hardhome is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Hardhome was close to becoming the only true town north of the [Wall](wiki:Wall).(wiki:Hardhome.cite_ref-Radwd39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3) Before its destruction, Maester [Wyllis](wiki:Wyllis) journeyed to Hardhome aboard a [Pentoshi](wiki:Pentos) trader and established himself as a healer and counselor under the protection of [Gorm the Wolf](wiki:Gorm_the_Wolf), one of the four chieftains who controlled the settlement, so that he may write of the local customs. However, Gorm was murdered and Wyllis, in mortal danger, fled back to Oldtown, where he wrote *[Hardhome: An Account of Three Years Spent Beyond-the-Wall among Savages, Raiders, and Woods-witches](wiki:Hardhome:_An_Account_of_Three_Years_Spent_Beyond-the-Wall_among_Savages,_Raiders,_and_Woods-witches)*.

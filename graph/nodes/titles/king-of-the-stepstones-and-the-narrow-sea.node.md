@@ -17,7 +17,6 @@ King of the Stepstones and the Narrow Sea is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 After Prince [Daemon Targaryen](wiki:Daemon_Targaryen) conquered all but two of [the islands](wiki:Stepstones) in [109 AC](wiki:Years_after_Aegon's_Conquest) during the [War for the Stepstones](wiki:War_for_the_Stepstones), he declared himself King of the Stepstones and the Narrow Sea, and Lord [Corlys Velaryon](wiki:Corlys_Velaryon) placed a crown on his ally's head. The [Kingdom of the Three Daughters](wiki:Kingdom_of_the_Three_Daughters) responded the following year by sending a force led by [Racallio Ryndoon](wiki:Racallio_Ryndoon).(wiki:King_of_the_Stepstones_and_the_Narrow_Sea.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) Another of Daemon's opponents was [Qoren Martell](wiki:Qoren_Martell), [Prince of Dorne](wiki:Prince_of_Dorne).(wiki:King_of_the_Stepstones_and_the_Narrow_Sea.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

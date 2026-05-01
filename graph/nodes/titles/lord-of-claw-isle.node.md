@@ -17,7 +17,6 @@ Lord of Claw Isle is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 The Celtigars, a family of [Valyrian](wiki:Valyria) descent, settled on [Claw Isle](wiki:Claw_Isle) at an unknown date and became the rulers of the island.(wiki:Lord_of_Claw_Isle.cite_ref-Rtwoiaf31.7B.7B.7B4.7D.7D.7D_2-0) They also claimed dominion over [Crackclaw Point](wiki:Crackclaw_Point), but the inhabitants did not acknowledge them as their rulers.(wiki:Lord_of_Claw_Isle.cite_ref-Raffc20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

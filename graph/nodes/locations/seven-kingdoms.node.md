@@ -19,7 +19,7 @@ Seven Kingdoms is a place.location from the AWOIAF wiki.
 
 - RULES: King of the Andals, the Rhoynar, and the First Men (track_b: Ruler)
 - WORSHIPS: Faith of the Seven (track_b: Religion)
-- WORSHIPS: Old gods (track_b: Religion) [North]
+- WORSHIPS: Old Gods of the Forest (track_b: Religion) [North]
 - WORSHIPS: Drowned God (track_b: Religion) [Iron Islands]
 
 ## Origins

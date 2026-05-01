@@ -1,6 +1,6 @@
 ---
 name: "City watch (Braavos)"
-type: title
+type: organization.faction
 slug: city-watch-braavos
 aliases: []
 confidence: tier-2
@@ -13,7 +13,7 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-City watch (Braavos) is a title from the AWOIAF wiki.
+City watch (Braavos) is a organization.faction from the AWOIAF wiki.
 
 ## Edges
 

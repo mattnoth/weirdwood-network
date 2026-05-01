@@ -17,7 +17,6 @@ Seneschal of the Citadel is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 ### A Feast for Crows[ ]

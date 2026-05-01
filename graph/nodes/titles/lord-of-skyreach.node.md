@@ -17,7 +17,6 @@ Lord of Skyreach is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 The Lords of Skyreach have long fought against the [marcher lords](wiki:Marcher_lords) of the [Dornish Marches](wiki:Dornish_Marches) to the north.(wiki:Lord_of_Skyreach.cite_ref-Rawoiaf_blackmont.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)(wiki:Lord_of_Skyreach.cite_ref-Rtwoiafdorne:_queer_customs_of_the_south.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) This includes King [Ferris Fowler](wiki:Ferris_Fowler) who led ten thousand [Dornishmen](wiki:Dornishmen) through the Wide Way to the [Kingdom of the Reach](wiki:Kingdom_of_the_Reach). However, King [Garth VII Gardener](wiki:Garth_VII_Gardener) turned them back.(wiki:Lord_of_Skyreach.cite_ref-Rtwoiaf_the_reach:_the_gardener_kings.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)

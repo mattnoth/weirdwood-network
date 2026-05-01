@@ -17,7 +17,6 @@ Lord of Holyhall is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Lord [George Graceford](wiki:George_Graceford) declared for the [greens](wiki:Greens) at the start of the [Dance of the Dragons](wiki:Dance_of_the_Dragons). He was one of the thirteen [Caltrops](wiki:Caltrops), a group of nobles from the Reach who conspired against the [Two Betrayers](wiki:Two_Betrayers).(wiki:Lord_of_Holyhall.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)(wiki:Lord_of_Holyhall.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) George survived the war and was later named [Lord Confessor](wiki:Lord_Confessor) by King [Aegon III Targaryen](wiki:Aegon_III_Targaryen)'s [Hand](wiki:Hand_of_the_King), Lord [Unwin Peake](wiki:Unwin_Peake).(wiki:Lord_of_Holyhall.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

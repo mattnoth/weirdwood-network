@@ -17,7 +17,6 @@ Knight is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Knighthood likely has its roots in [Andal](wiki:Andal) culture(wiki:Knight.cite_ref-yetmorequestions_1-0) due to its association with the [Faith of the Seven](wiki:Faith_of_the_Seven), which was brought to [Westeros](wiki:Westeros) with the [coming of the Andals](wiki:Coming_of_the_Andals).(wiki:Knight.cite_ref-Rtwoiafancient_history:_the_arrival_of_the_andals.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) Legends of the [Reach](wiki:Reach) claim chivalry was brought by the First Knight, [John the Oak](wiki:John_the_Oak), however.(wiki:Knight.cite_ref-Rtwoiafthe_reach:_garth_greenhand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) The military success of mounted knights and their [steel](wiki:Steel) [armament](wiki:Armament) proved vital to the [Andals](wiki:Andals)' conquest of most of Westeros.(wiki:Knight.cite_ref-Rtwoiafancient_history:_the_arrival_of_the_andals.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) Knighthood holds less cultural significance in areas of Westeros that are less assimilated to Andal culture, such as the [north](wiki:North) and the [Iron Islands](wiki:Iron_Islands), though there are knights from these regions.(wiki:Knight.cite_ref-Rtwoiafancient_history:_the_arrival_of_the_andals.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)

@@ -17,7 +17,6 @@ Lord of Wayfarer's Rest is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Lord Vance was slain in the war between the [Teagues](wiki:House_Teague) and the [Storm King](wiki:Storm_King) [Arlan III Durrandon](wiki:Arlan_III_Durrandon).(wiki:Lord_of_Wayfarer's_Rest.cite_ref-Rtwoiaf_the_riverlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)

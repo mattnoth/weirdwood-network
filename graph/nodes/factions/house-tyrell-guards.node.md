@@ -17,7 +17,6 @@ House Tyrell guards is a organization.faction from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 ### A Game of Thrones

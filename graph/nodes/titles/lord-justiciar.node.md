@@ -17,7 +17,6 @@ Lord justiciar is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 During the [Targaryen](wiki:House_Targaryen) reign of the [Seven Kingdoms](wiki:Seven_Kingdoms), Lord [Prentys Tully](wiki:Prentys_Tully), Lord [Albin Massey](wiki:Albin_Massey), Lord [Rodrik Arryn](wiki:Rodrik_Arryn), Prince [Aemon Targaryen](wiki:Aemon_Targaryen_(son_of_Jaehaerys_I)), and Lord [Thaddeus Rowan](wiki:Thaddeus_Rowan) all served as justiciar as well as [master of laws](wiki:Master_of_laws).(wiki:Lord_justiciar.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)(wiki:Lord_justiciar.cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)(wiki:Lord_justiciar.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)(wiki:Lord_justiciar.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)(wiki:Lord_justiciar.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)

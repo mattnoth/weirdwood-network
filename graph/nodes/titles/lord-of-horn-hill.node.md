@@ -17,7 +17,6 @@ Lord of Horn Hill is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 During the reign of [Aenys I Targaryen](wiki:Aenys_I_Targaryen), [Savage Sam Tarly](wiki:Samwell_Tarly_(lord)) was among the [marcher lords](wiki:Marcher_lords) who participated in the [Vulture Hunt](wiki:Vulture_Hunt).(wiki:Lord_of_Horn_Hill.cite_ref-Rtwoiaf_the_targaryens_kings:_aenys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)

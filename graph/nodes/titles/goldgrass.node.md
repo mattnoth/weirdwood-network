@@ -17,7 +17,6 @@ Goldgrass is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Appearances & Description
 
 [House Stout](wiki:House_Stout)'s modest keep is near the eastern gate of [Barrowton](wiki:Barrowton) in the [barrowlands](wiki:Barrowlands). It has a hall, stables, and gates.(wiki:Goldgrass.cite_ref-Radwd32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

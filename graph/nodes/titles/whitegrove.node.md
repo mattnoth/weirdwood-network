@@ -17,7 +17,6 @@ Whitegrove is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 For siding against King [Daeron II Targaryen](wiki:Daeron_II_Targaryen) in the [First Blackfyre Rebellion](wiki:First_Blackfyre_Rebellion), [House Peake](wiki:House_Peake) was stripped of two of their three castles,(wiki:Whitegrove.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0) [Dunstonbury](wiki:Dunstonbury) and Whitegrove, leaving them only [Starpike](wiki:Starpike).(wiki:Whitegrove.cite_ref-Rtwoiaf_aegon_iii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) It is unknown to which houses the [Iron Throne](wiki:Iron_Throne) granted the stripped castles.

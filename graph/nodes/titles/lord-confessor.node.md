@@ -17,7 +17,6 @@ Lord Confessor is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Following the death of King [Maegor I Targaryen](wiki:Maegor_I_Targaryen), Prince [Jaehaerys Targaryen](wiki:Jaehaerys_I_Targaryen) ordered the arrests of the Lord Confessor, the [King's Justice](wiki:King's_Justice), the [Chief Gaoler](wiki:Chief_Gaoler), the [Commander of the City Watch](wiki:Commander_of_the_City_Watch), and the four remaining [Kingsguard](wiki:Kingsguard) who had remained loyal to the late king.(wiki:Lord_Confessor.cite_ref-Rfabprince_into_king_-_the_ascension_of_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0).

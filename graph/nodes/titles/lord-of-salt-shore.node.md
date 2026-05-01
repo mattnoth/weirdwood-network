@@ -17,7 +17,6 @@ Lord of Salt Shore is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Lord Gargalen announced the birth of [Elia Martell](wiki:Elia_Martell) to her brother, [Doran Martell](wiki:Doran_Martell).(wiki:Lord_of_Salt_Shore.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)

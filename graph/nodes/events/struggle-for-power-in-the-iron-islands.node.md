@@ -17,7 +17,6 @@ Struggle for power in the Iron Islands is a event.battle from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 [Dalton Greyjoy](wiki:Dalton_Greyjoy), [Lord of the Iron Islands](wiki:Lord_of_the_Iron_Islands), aligned with the [blacks](wiki:Blacks) during the [Dance of the Dragons](wiki:Dance_of_the_Dragons), and he sent the [ironborn](wiki:Ironborn) to attack the [westerlands](wiki:Westerlands), which supported the [greens](wiki:Greens). With [Jason Lannister](wiki:Jason_Lannister), [Lord of Casterly Rock](wiki:Lord_of_Casterly_Rock), away on campaign against the [riverlands](wiki:Riverlands), the ironborn eliminated the [Lannister fleet](wiki:Lannister_fleet), sacked [Lannisport](wiki:Lannisport),(wiki:Struggle_for_power_in_the_Iron_Islands.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) and conquered [Faircastle](wiki:Faircastle) in [130 AC](wiki:130_AC).(wiki:Struggle_for_power_in_the_Iron_Islands.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)

@@ -17,7 +17,6 @@ Trios is a religion or divine entity from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 ### A Dance with Dragons[ ]

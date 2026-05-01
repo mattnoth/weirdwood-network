@@ -17,7 +17,6 @@ New Ghis is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 New Ghis is the newest and smallest of the [Ghiscari](wiki:Ghiscari) cities, but also the most dynamic.(wiki:New_Ghis.cite_ref-Rtwoiafancient_history:_the_rise_of_valyria.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) Its [iron legions](wiki:Ghiscari_legions) are inspired by the lockstep legions of the [Old Empire of Ghis](wiki:Old_Empire_of_Ghis).(wiki:New_Ghis.cite_ref-Rtwoiaf_ancient_history:_the_rise_of_valyria.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) They are armed and trained in the fashion of the [Unsullied](wiki:Unsullied), the [eunuch](wiki:Eunuch) soldiers of [Astapor](wiki:Astapor).(wiki:New_Ghis.cite_ref-Radwd56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) The Unsullied are [slaves](wiki:Slavery), however, while the legionaries of New Ghis are free men who serve terms of three years.(wiki:New_Ghis.cite_ref-Radwd57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)(wiki:New_Ghis.cite_ref-Rtwoiaf_ancient_history:_the_rise_of_valyria.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)

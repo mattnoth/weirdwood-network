@@ -17,7 +17,6 @@ A Storm of Swords-Chapter 74 is a event.battle from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 [Sandor Clegane](wiki:Sandor_Clegane) and [Arya Stark](wiki:Arya_Stark) come to the [inn at the crossroads](wiki:Inn_at_the_crossroads). To Arya's dismay, she recognizes [Polliver](wiki:Polliver) and the [Tickler](wiki:Tickler) with a [pimply squire](wiki:Pimply_squire). The squire tries to bait Sandor with insults about fleeing King's Landing and the room is tense. The Hound demands [wine](wiki:Wine), which the innkeeper brings and Sandor gulps down. When Sandor claims the men-at-arms will torture the innkeep for his gold, the innkeep, his girls, and other patrons vacate the common room.

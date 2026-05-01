@@ -17,7 +17,6 @@ Lord of the Waters is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 ### The Winds of Winter[ ]

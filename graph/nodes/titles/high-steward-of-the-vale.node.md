@@ -17,7 +17,6 @@ High Steward of the Vale is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 The only known High Steward of the Vale has been Lord [Nestor Royce](wiki:Nestor_Royce), [Keeper of the Gates of the Moon](wiki:Keeper_of_the_Gates_of_the_Moon), during the fourteen years in which Lord [Jon Arryn](wiki:Jon_Arryn), [Lord of the Eyrie](wiki:Lord_of_the_Eyrie), [Defender of the Vale](wiki:Defender_of_the_Vale) and [Warden of the East](wiki:Warden_of_the_East), remained in court at the [Red Keep](wiki:Red_Keep) serving as [Hand of the King](wiki:Hand_of_the_King). As High Steward, Nestor ruled the [Vale of Arryn](wiki:Vale_of_Arryn) in the name of Lord Jon.(wiki:High_Steward_of_the_Vale.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

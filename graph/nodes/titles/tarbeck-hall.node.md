@@ -17,7 +17,6 @@ Tarbeck Hall is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Appearances & Description
 
 Tarbeck Hall had an aged keep, towers, and a curtain wall.(wiki:Tarbeck_Hall.cite_ref-Rtwoiafthe_westerlands:_house_lannister_under_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

@@ -17,7 +17,6 @@ Driftmark is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Driftmark was settled by [House Velaryon](wiki:House_Velaryon) prior to the arrival of [House Targaryen](wiki:House_Targaryen) at [Dragonstone](wiki:Dragonstone_(island)).(wiki:Driftmark.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2) Ships from Driftmark allowed the Velaryons to control the middle of the [narrow sea](wiki:Narrow_sea) prior to [Aegon's Conquest](wiki:Aegon's_Conquest).(wiki:Driftmark.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)

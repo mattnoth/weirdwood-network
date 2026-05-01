@@ -17,7 +17,6 @@ Greenshield is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 According to legend, [Owen Oakenshield](wiki:Owen_Oakenshield) drove [selkies](wiki:Selkies) and [merlings](wiki:Merlings) from the [Shield Islands](wiki:Shield_Islands) into the sea.(wiki:Greenshield.cite_ref-Rtwoiafthe_reach:_garth_greenhand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

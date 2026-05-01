@@ -17,7 +17,6 @@ Orphans of the Greenblood is a culture/people from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Culture
 
 The orphans still mourn the loss of their distant homeland in [Essos](wiki:Essos), and so continue to practice the traditions of their river-faring ancestors. They consider themselves to be "orphans" as they are of the [Rhoynar](wiki:Rhoynar) and have been orphaned from their "Mother", the river [Rhoyne](wiki:Rhoyne), which in their faith also holds a divine status. Therefore, they also identify the river as "[Mother Rhoyne](wiki:Mother_Rhoyne)."(wiki:Orphans_of_the_Greenblood.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

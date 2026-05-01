@@ -17,7 +17,6 @@ Great Sept of Baelor is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 During the reign of King [Aegon I Targaryen](wiki:Aegon_I_Targaryen), a [sept](wiki:Sept) for the [smallfolk](wiki:Smallfolk) of [King's Landing](wiki:King's_Landing) was made in a sunken cog in the [Blackwater Rush](wiki:Blackwater_Rush), while the [High Septon](wiki:High_Septon_(Aegon's_Conquest)) in [Oldtown](wiki:Oldtown) sponsored a grander sept atop [Visenya's Hill](wiki:Visenya's_Hill).(wiki:Great_Sept_of_Baelor.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0) The [Sept of Remembrance](wiki:Sept_of_Remembrance) was then built on the [Hill of Rhaenys](wiki:Hill_of_Rhaenys) to honor the late Queen [Rhaenys Targaryen](wiki:Rhaenys_Targaryen).(wiki:Great_Sept_of_Baelor.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-1) King [Maegor I Targaryen](wiki:Maegor_I_Targaryen) destroyed the Sept of Remembrance during the [Faith Militant uprising](wiki:Faith_Militant_uprising), however, and replaced it with the [Dragonpit](wiki:Dragonpit).(wiki:Great_Sept_of_Baelor.cite_ref-Rtwoiafthe_targaryen_kings:_maegor_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0)

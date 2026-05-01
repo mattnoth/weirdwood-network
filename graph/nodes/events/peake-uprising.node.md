@@ -17,7 +17,6 @@ Peake Uprising is a event.battle from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 [House Peake](wiki:House_Peake) were loyal supporters of the [Blackfyre pretenders](wiki:Blackfyre_pretenders). They were stripped of their castles [Dunstonbury](wiki:Dunstonbury) and [Whitegrove](wiki:Whitegrove) in the aftermath of the [First Blackfyre Rebellion](wiki:First_Blackfyre_Rebellion) in [196 AC](wiki:196_AC), and Lord [Gormon Peake](wiki:Gormon_Peake) was executed in the [Second Blackfyre Rebellion](wiki:Second_Blackfyre_Rebellion) in [212 AC](wiki:212_AC).(wiki:Peake_Uprising.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

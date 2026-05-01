@@ -17,7 +17,6 @@ Skagosi is a culture/people from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Culture
 
 The Skagosi call themselves the stoneborn, as skagos means "stone" in the [Old Tongue](wiki:Old_Tongue).(wiki:Skagosi.cite_ref-Raffc15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) They are an isolated people descended from the [First Men](wiki:First_Men). Because of their huge size and foul smell, some [maesters](wiki:Maester) believe the hairy Skagosi have a strong admixture of [Ibbenese](wiki:Ibbenese) blood, whereas others suggest they may be partially descended from [giants](wiki:Giants).(wiki:Skagosi.cite_ref-Rtwoiafthe_north:_the_stoneborn_of_skagos.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

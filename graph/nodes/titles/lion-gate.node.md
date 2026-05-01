@@ -17,7 +17,6 @@ Lion Gate is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Appearances & Description
 
 The Lion Gate is located near the center of the southwest wall, with the [King's Gate](wiki:King's_Gate) and the [tourney grounds](wiki:Tourney_grounds_(King's_Landing)) to the south. The [Goldroad](wiki:Goldroad) to [Lannisport](wiki:Lannisport) in the [westerlands](wiki:Westerlands) starts at the Lion Gate.(wiki:Lion_Gate.cite_ref-Rtloiafking.27s_landing.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

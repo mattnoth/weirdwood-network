@@ -17,7 +17,6 @@ Summer Isles is a character from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 The Summer Isles have a history dating back thousands of years. Much of this was recorded in carvings made by priestesses on the famous [Talking Trees](wiki:Talking_Trees) of [Tall Trees Town](wiki:Tall_Trees_Town). Even more is recorded in oral tradition, because the Summer Islanders rely heavily upon histories recorded in highly complicated formal verse and memorized by rote.(wiki:Summer_Isles.cite_ref-24) In Westeros, Maester [Gallard](wiki:Gallard) painstakingly translated and recorded many of these in his [Children of Summer](wiki:Children_of_Summer), which remains the chief historical text on the Summer Isles.(wiki:Summer_Isles.cite_ref-Rtwoiafbeyond_the_free_cities:_the_summer_isles.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-23)

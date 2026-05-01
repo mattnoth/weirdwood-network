@@ -17,7 +17,6 @@ Fist of the First Men is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 The ancient [ringfort](wiki:Ringfort) on the Fist was built by the [First Men](wiki:First_Men) during the [Dawn Age](wiki:Dawn_Age). Some of its stone ringwall still remains.(wiki:Fist_of_the_First_Men.cite_ref-Racok34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)

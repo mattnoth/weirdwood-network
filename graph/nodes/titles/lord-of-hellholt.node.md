@@ -17,7 +17,6 @@ Lord of Hellholt is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 After the death of [Mors Martell](wiki:Mors_Martell), Princess [Nymeria](wiki:Nymeria) took the aged [Lord Uller](wiki:Lord_Uller_(husband_of_Nymeria)) as her second husband.(wiki:Lord_of_Hellholt.cite_ref-Rtwoiaf_ancient_history:_ten_thousand_ships.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)

@@ -17,7 +17,6 @@ Septon is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 The [First Men](wiki:First_Men) of antiquity only wrote with runes on rocks, so stories about the [Dawn Age](wiki:Dawn_Age), [Age of Heroes](wiki:Age_of_Heroes), and and the [Long Night](wiki:Long_Night) were written down thousands of years later by septons(wiki:Septon.cite_ref-Raffc5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-0) and [maesters](wiki:Maesters),(wiki:Septon.cite_ref-Rtwoiafthe_age_of_heroes.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-0) with septons choosing to include or alter details as they saw fit.(wiki:Septon.cite_ref-Rtwoiafthe_age_of_heroes.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-1)

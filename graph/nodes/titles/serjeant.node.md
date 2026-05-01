@@ -17,7 +17,6 @@ Serjeant is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Quotes
 
 Day or night, the benches below the salt were never less than half-full with men drinking, dicing, talking, or sleeping in their clothes in quiet corners. Their serjeants would kick them awake when it came their turn to shrug back into their cloaks and walk the walls.(wiki:Serjeant.cite_ref-Radwd41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-1)

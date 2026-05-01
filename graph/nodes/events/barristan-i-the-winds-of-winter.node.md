@@ -17,7 +17,6 @@ Barristan I (The Winds of Winter) is a event.battle from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 The Yunkish troops are shooting dead men into Meereen with [six trebuchets](wiki:Six_sisters), but despite their size, the trebuchets fail to get the corpses far into the city. [Barristan](wiki:Barristan_Selmy) rides through the western market square, remembering the time [Daenerys](wiki:Daenerys_Targaryen) [took Meereen](wiki:Siege_of_Meereen). The market has again become a scene of carnage, this time from the [pale mare](wiki:Pale_mare).

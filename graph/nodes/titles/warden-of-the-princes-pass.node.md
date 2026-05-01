@@ -17,7 +17,6 @@ Warden of the Prince's Pass is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Prior to bending the knee to [House Martell](wiki:House_Martell), [House Fowler](wiki:House_Fowler) held the title of [Lord of the Wide Way](wiki:Lord_of_the_Wide_Way), referring to the older name of the [Prince's Pass](wiki:Prince's_Pass).(wiki:Warden_of_the_Prince's_Pass.cite_ref-Rtwoiafdorne:_kingdoms_of_the_first_men.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

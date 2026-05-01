@@ -17,8 +17,6 @@ Old Empire of Ghis is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-- WORSHIPS: Mixed (track_b: Religion)
-
 ## Origins
 
 ### Rise

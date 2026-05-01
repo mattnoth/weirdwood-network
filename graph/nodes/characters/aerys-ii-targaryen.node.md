@@ -24,8 +24,8 @@ Aerys II Targaryen is a character.human from the AWOIAF wiki.
 - HOLDS_TITLE: Protector of the Realm (track_b: Titles)
 - SUCCEEDS (reverse): Jaehaerys II Targaryen (track_b: Predecessor)
 - HEIR_TO: Rhaegar Targaryen (track_b: Heirs) [262–283 AC]
-- HEIR_TO: 262 (track_b: Heirs) [262–283 AC]
-- HEIR_TO: 283 AC (track_b: Heirs) [262–283 AC]
+
+[262–283 AC]
 - HEIR_TO: Viserys Targaryen (track_b: Heirs) [283 AC]
 - SUCCEEDS: Robert I Baratheon (track_b: Successor)
 - BORN_AT: Red Keep (track_b: Born) [244 AC]

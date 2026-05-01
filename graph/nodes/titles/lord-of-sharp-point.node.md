@@ -17,7 +17,6 @@ Lord of Sharp Point is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Prior to the [War of Conquest](wiki:War_of_Conquest), House Bar Emmon was sworn to [House Durrandon](wiki:House_Durrandon), the Storm Kings from [Storm's End](wiki:Storm's_End), but had closer ties to [House Targaryen](wiki:House_Targaryen) of nearby [Dragonstone](wiki:Dragonstone). When [Aegon the Conqueror](wiki:Aegon_I_Targaryen) launched his [invasion](wiki:Aegon's_Conquest) of [Westeros](wiki:Westeros), Lord Bar Emmon supported him instead of the [Storm King](wiki:Storm_King), [Argilac the Arrogant](wiki:Argilac_Durrandon). With the creation of the [crownlands](wiki:Crownlands) after the Conquest, the Bar Emmons became sworn directly to [Dragonstone](wiki:Dragonstone), instead of [House Baratheon](wiki:House_Baratheon) of Storm's End, who had replaced the Durrandons.(wiki:Lord_of_Sharp_Point.cite_ref-Rtwoiafthe_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)

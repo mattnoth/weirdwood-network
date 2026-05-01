@@ -17,7 +17,6 @@ R'hllor is a organization.religion from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Followers of R'hllor believe that he made the sun and the stars.(wiki:R'hllor.cite_ref-Radwd22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)

@@ -17,7 +17,6 @@ Vulture King is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 The [first Vulture King](wiki:Vulture_King_(Aenys_I)) was a [Dornishman](wiki:Dornishman) who rose against [Aenys I Targaryen](wiki:Aenys_I_Targaryen). He was defeated through the [Vulture Hunt](wiki:Vulture_Hunt) at the end of the [Second Dornish War](wiki:Second_Dornish_War).(wiki:Vulture_King.cite_ref-Rtwoiaf_the_targaryen_kings:_aenys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

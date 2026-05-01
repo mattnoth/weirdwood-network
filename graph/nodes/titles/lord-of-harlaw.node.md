@@ -17,7 +17,6 @@ Lord of Harlaw is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Lord Harlaw was put to the sword by [westermen](wiki:Westerlands) during Lady [Johanna Lannister](wiki:Johanna_Lannister)'s invasion of the Iron Islands in [134 AC](wiki:134_AC).(wiki:Lord_of_Harlaw.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)

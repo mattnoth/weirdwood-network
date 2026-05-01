@@ -17,7 +17,6 @@ House Bolton guards is a organization.faction from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Appearances & Description
 
 Bolton guardsmen usually wear fur cloaks over chainmail,(wiki:House_Bolton_guards.cite_ref-Racok64.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) while their sergeants wear pale pink cloaks decorated with red teardrops.(wiki:House_Bolton_guards.cite_ref-Rasos50.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

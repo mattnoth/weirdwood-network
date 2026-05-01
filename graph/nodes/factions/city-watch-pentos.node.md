@@ -1,6 +1,6 @@
 ---
 name: "City watch (Pentos)"
-type: title
+type: organization.faction
 slug: city-watch-pentos
 aliases: []
 confidence: tier-2
@@ -13,7 +13,7 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-City watch (Pentos) is a title from the AWOIAF wiki.
+City watch (Pentos) is a organization.faction from the AWOIAF wiki.
 
 ## Edges
 

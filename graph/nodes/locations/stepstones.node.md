@@ -17,7 +17,6 @@ Stepstones is a place.region from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 ### Antiquity

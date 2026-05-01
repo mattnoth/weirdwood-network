@@ -17,7 +17,6 @@ Salt wife is a character from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 [House Humble](wiki:House_Humble) descends from salt wives and thralls.(wiki:Salt_wife.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)

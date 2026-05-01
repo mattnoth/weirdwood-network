@@ -17,7 +17,6 @@ Lord of White Harbor is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 When [House Manderly](wiki:House_Manderly) was driven from the [Reach](wiki:Reach) by the [Gardener Kings](wiki:House_Gardener),(wiki:Lord_of_White_Harbor.cite_ref-Radwd9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)(wiki:Lord_of_White_Harbor.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)(wiki:Lord_of_White_Harbor.cite_ref-Rawoiaf_white_harbor.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) they fled north. The [Starks](wiki:House_Stark) of [Winterfell](wiki:Winterfell) welcomed them as their own bannermen and awarded them the [Wolf's Den](wiki:Wolf's_Den).(wiki:Lord_of_White_Harbor.cite_ref-Radwd19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) With their southron wealth, the House Manderly constructed the city of [White Harbor](wiki:White_Harbor) and further developed it over the centuries that followed.(wiki:Lord_of_White_Harbor.cite_ref-Radwd19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)

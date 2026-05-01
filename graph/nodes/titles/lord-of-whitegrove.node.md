@@ -17,7 +17,6 @@ Lord of Whitegrove is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 At an unknown time,(wiki:Lord_of_Whitegrove.cite_ref-Whitegrove_7-0) House Peake gained dominion over the castle of Whitegrove. The first known Peake to have held the title of "Lord of Whitegrove" was [Uther Peake](wiki:Uther_Peake), who lived during the early part of King [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen)'s reign.(wiki:Lord_of_Whitegrove.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

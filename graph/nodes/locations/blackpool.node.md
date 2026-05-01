@@ -18,7 +18,7 @@ Blackpool is a place.location from the AWOIAF wiki.
 ## Edges
 
 - RULES: Lord Slate (track_b: Ruler)
-- WORSHIPS: Old gods (track_b: Religion)
+- WORSHIPS: Old Gods of the Forest (track_b: Religion)
 
 ## Origins
 

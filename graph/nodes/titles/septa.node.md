@@ -17,7 +17,6 @@ Septa is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Culture
 
 Women who wish to become septas train first as novices.(wiki:Septa.cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) There are some great centers of religious training, such as the [Great Sept of Baelor](wiki:Great_Sept_of_Baelor).(wiki:Septa.cite_ref-Various_3-0) Upon taking her vows and being consecrated in the Faith,(wiki:Septa.cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) a septa sets aside her last name, even if she comes from a noble family.(wiki:Septa.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) Septas take a vow of chastity.(wiki:Septa.cite_ref-Rasos23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)(wiki:Septa.cite_ref-Radwd68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) Unlike the [silent sisters](wiki:Silent_sisters),(wiki:Septa.cite_ref-Raffc31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) septas do not swear a vow of silence.

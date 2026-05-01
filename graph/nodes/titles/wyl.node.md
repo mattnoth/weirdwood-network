@@ -17,7 +17,6 @@ Wyl is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Appearances & Description
 
 [Wyl](wiki:Wyl_(guard)), a guard sworn to House Stark

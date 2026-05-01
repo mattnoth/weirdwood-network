@@ -19,7 +19,6 @@ Valyrian Freehold is a place.location from the AWOIAF wiki.
 
 - RULES: Archons (track_b: Ruler)
 - RULES: Lords freeholder (track_b: Ruler)
-- WORSHIPS: Mixed (track_b: Religion)
 
 ## Origins
 

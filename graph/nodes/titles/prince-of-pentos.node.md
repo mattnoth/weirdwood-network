@@ -17,7 +17,6 @@ Prince of Pentos is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 The Prince of [Pentos](wiki:Pentos) has long been chosen from the so-called forty families with high and noble birth. Each prince ruled for life, with his successor almost always coming from a different family.(wiki:Prince_of_Pentos.cite_ref-Rtwoiafthe_free_cities:_pentos.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5) As time passed, however, power shifted to the [council of magisters](wiki:Council_of_magisters_(Pentos)), with the prince's power becoming nominal.(wiki:Prince_of_Pentos.cite_ref-Rtwoiafthe_free_cities:_pentos.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)

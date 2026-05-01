@@ -17,7 +17,6 @@ Lord Paramount of the Stormlands is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 [Argilac Durrandon](wiki:Argilac_Durrandon), the last [Storm King](wiki:Storm_King), was killed by [Orys Baratheon](wiki:Orys_Baratheon) in the [Last Storm](wiki:Last_Storm) during [Aegon's Conquest](wiki:Aegon's_Conquest). [Aegon the Conqueror](wiki:Aegon_I_Targaryen) named Orys the Lord Paramount of the Stormlands and [Hand of the King](wiki:Hand_of_the_King). Argilac's seat, [Storm's End](wiki:Storm's_End), was also granted to [House Baratheon](wiki:House_Baratheon).(wiki:Lord_Paramount_of_the_Stormlands.cite_ref-Rtwoiafthe_stormlands:_house_baratheon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

@@ -17,7 +17,6 @@ Marshall of the Northmarch is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 According to Ser [Eustace Osgrey](wiki:Eustace_Osgrey), House Osgrey were Marshalls of the Northmarch for a thousand years before [Aegon's Conquest](wiki:Aegon's_Conquest).(wiki:Marshall_of_the_Northmarch.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) During the reign of [Gyles III Gardener](wiki:Gyles_III_Gardener), [King of the Reach](wiki:King_of_the_Reach), Ser [Wilbert Osgrey](wiki:Wilbert_Osgrey) defended the Reach when [Lancel IV Lannister](wiki:Lancel_IV_Lannister), [King of the Rock](wiki:King_of_the_Rock), invaded the realm. The two nobles slew each other in combat.(wiki:Marshall_of_the_Northmarch.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)(wiki:Marshall_of_the_Northmarch.cite_ref-Rtwoiafthe_reach:_andals_in_the_reach.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

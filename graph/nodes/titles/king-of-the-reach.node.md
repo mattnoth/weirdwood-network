@@ -17,7 +17,6 @@ King of the Reach is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 The mythical [Garth Greenhand](wiki:Garth_Greenhand) is said to have been the High King who lead the [First Men](wiki:First_Men) across the [Arm of Dorne](wiki:Arm_of_Dorne). His firstborn son was [Garth the Gardener](wiki:Garth_the_Gardener), the legendary first King of the Reach.(wiki:King_of_the_Reach.cite_ref-Rtwoiafthe_reach:_garth_greenhand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) The kings from [House Gardener](wiki:House_Gardener) initially ruled the [Reach proper](wiki:Reach_proper), focused on [Highgarden](wiki:Highgarden) and the [Mander](wiki:Mander),(wiki:King_of_the_Reach.cite_ref-Rtwoiafthe_reach.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) but over time they used their claim of descending from Garth the Gardener to claim supremacy over neighboring kings and [lords](wiki:Lord).(wiki:King_of_the_Reach.cite_ref-Rtwoiafthe_reach:_the_gardener_kings.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)

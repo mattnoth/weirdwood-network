@@ -17,7 +17,6 @@ Mermaid's Daughter is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 In [136 AC](wiki:136_AC), following the [Lysene Spring](wiki:Lysene_Spring), Roggerio sold his pillow house in [King's Landing](wiki:King's_Landing), the [Mermaid](wiki:Mermaid_(pillow_house)), and used the funds to purchase a [cog](wiki:Ships). Converted into a pleasure barge with [prostitutes](wiki:Prostitutes), Mermaid's Daughter entertained patrons while traveling from port to port in the [narrow sea](wiki:Narrow_sea). The ship also traded in spiced [wines](wiki:Wine) and exotic foods.(wiki:Mermaid's_Daughter.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

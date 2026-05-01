@@ -17,7 +17,6 @@ Ibbenese is a culture/people from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Appearances & Description
 
 The Ibbenese are considered by [maesters](wiki:Maesters) to be different from the other races of mankind. They are a heavy, broad-shouldered, and broad-chested people. The Ibbenese are short in stature, seldom reaching a height more than five and a half feet. Their arms are long, while their legs are short and thick. Their skulls have sloping brows with heavy ridges, small sunken eyes, great square teeth, and massive jaws.(wiki:Ibbenese.cite_ref-Rtwoiafbeyond_the_free_cities:_ib.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)

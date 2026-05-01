@@ -17,7 +17,6 @@ Storm King is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 ### Storm Kings[ ]

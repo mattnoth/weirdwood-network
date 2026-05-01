@@ -17,7 +17,6 @@ Silence is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Appearances & Description
 
 Silence has a single mast,(wiki:Silence.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) black sails, and dark red hull.(wiki:Silence.cite_ref-Racok24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) Its decks are painted red to better hide the blood that soaks them. The ship's figurehead is a mouthless maiden with one arm outstretched. The figure is made of black [iron](wiki:Iron), with long shapely legs, a slender waist, and high breasts, and has streaming black iron hair and [mother-of-pearl](wiki:Mother-of-pearl) eyes.(wiki:Silence.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)

@@ -17,7 +17,6 @@ Goldengrove is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Goldengrove is part of the [Reach proper](wiki:Reach_proper)(wiki:Goldengrove.cite_ref-Rtwoiafthe_reach.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) and was added to the [Kingdom of the Reach](wiki:Kingdom_of_the_Reach) by [Garth III Gardener](wiki:Garth_III_Gardener) through pacts of friendship and mutual defense.(wiki:Goldengrove.cite_ref-Rtwoiafthe_reach:_the_gardener_kings.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)

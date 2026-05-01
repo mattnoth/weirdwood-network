@@ -17,7 +17,6 @@ Red King is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 From the [Dreadfort](wiki:Dreadfort), the Red Kings ruled over land stretching from the [Last River](wiki:Last_River) to the [White Knife](wiki:White_Knife) and the [Sheepshead Hills](wiki:Sheepshead_Hills). After the [Long Night](wiki:Long_Night), they often fought against the [Kings of Winter](wiki:Kings_of_Winter), the [Starks](wiki:House_Stark) of [Winterfell](wiki:Winterfell) to the west of the Dreadfort.(wiki:Red_King.cite_ref-Rtwoiafthe_north:_the_kings_of_winter.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) Some Red Kings are said to have worn cloaks made out of the skins of [flayed](wiki:Flaying) Starks during the [Age of Heroes](wiki:Age_of_Heroes).(wiki:Red_King.cite_ref-Rasos62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) Some Red Kings allied with [Marsh Kings](wiki:Marsh_Kings) to defend against [southron](wiki:Southron) invaders.(wiki:Red_King.cite_ref-Rtwoiafthe_north:_the_kings_of_winter.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)

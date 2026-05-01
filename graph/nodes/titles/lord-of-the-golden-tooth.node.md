@@ -17,7 +17,6 @@ Lord of the Golden Tooth is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 After the death of Lord [Jason Lannister](wiki:Jason_Lannister), Lord [Humfrey Lefford](wiki:Humfrey_Lefford) eventually assumed command of the [westermen](wiki:Westermen) host during the [Dance of the Dragons](wiki:Dance_of_the_Dragons). An aged and cautious commander, he was eventually slain at the [Battle by the Lakeshore](wiki:Battle_by_the_Lakeshore), the bloodiest battle of the war.(wiki:Lord_of_the_Golden_Tooth.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)(wiki:Lord_of_the_Golden_Tooth.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)(wiki:Lord_of_the_Golden_Tooth.cite_ref-Rtwoiafthe_westerlands:_house_lannister_under_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)

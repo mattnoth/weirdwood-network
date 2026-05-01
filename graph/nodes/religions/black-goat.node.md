@@ -17,7 +17,6 @@ Black Goat is a religion or divine entity from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Culture
 
 The [Faceless Men](wiki:Faceless_Men) consider the Black Goat one of the faces of the [Many-Faced God](wiki:Many-Faced_God),(wiki:Black_Goat.cite_ref-Raffc34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) and the [bearded priests](wiki:Bearded_priests) of [Norvos](wiki:Norvos) consider the Black Goat to be a [demon](wiki:Demon).(wiki:Black_Goat.cite_ref-Rtwoiafthe_free_cities:_qohor.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

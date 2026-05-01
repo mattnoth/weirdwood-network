@@ -17,7 +17,6 @@ Greenstone is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 According to Archmaester [Gyldayn](wiki:Gyldayn), Greenstone is an ancient castle.(wiki:Greenstone.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

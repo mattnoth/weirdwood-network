@@ -17,7 +17,6 @@ Lord of Harrenhal is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 ### House Hoare[ ]

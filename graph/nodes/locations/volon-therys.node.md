@@ -17,7 +17,6 @@ Volon Therys is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Once considered a city,(wiki:Volon_Therys.cite_ref-Rtwoiafthe_free_cities.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) Volon Therys was founded by the [Valyrian Freehold](wiki:Valyrian_Freehold) when it expanded west after defeating the [Old Empire of Ghis](wiki:Old_Empire_of_Ghis).(wiki:Volon_Therys.cite_ref-Rtwoiafancient_history:_ten_thousand_ships.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) Although rich and glorious, Volon Therys did not have self-rule and was instead governed by men and women sent from [Valyria](wiki:Valyria) to rule in the name of the Freehold.(wiki:Volon_Therys.cite_ref-Rtwoiafthe_free_cities.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)

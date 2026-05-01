@@ -17,7 +17,6 @@ Battle of the Blackwater (song) is a unknown from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 ### A Storm of Swords

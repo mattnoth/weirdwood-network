@@ -17,7 +17,6 @@ Warrior (the Seven) is a religion or divine entity from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Appearances & Description
 
 [Jaime Lannister](wiki:Jaime_Lannister)(wiki:Warrior_(the_Seven).cite_ref-Raffc8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)

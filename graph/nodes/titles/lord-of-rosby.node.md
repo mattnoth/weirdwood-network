@@ -17,7 +17,6 @@ Lord of Rosby is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Lord [Jon Rosby](wiki:Jon_Rosby) was named [Warden of the Sands](wiki:Warden_of_the_Sands) by King [Aegon I Targaryen](wiki:Aegon_I_Targaryen) during the [First Dornish War](wiki:First_Dornish_War), but Jon was killed in the [Defenestration of Sunspear](wiki:Defenestration_of_Sunspear).(wiki:Lord_of_Rosby.cite_ref-Rtwoiafdorne:_dorne_against_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) When word of Jon's death reached the [Hellholt](wiki:Hellholt), Lord [Harlan Tyrell](wiki:Harlan_Tyrell) set off towards [Sunspear](wiki:Sunspear) to punish Lord Rosby's murderers. However, somewhere east of the Hellholt amidst the red sands, Tyrell and his entire army disappeared. No man of them was ever seen again.(wiki:Lord_of_Rosby.cite_ref-Rfabreign_of_the_dragon_-_the_wars_of_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)

@@ -17,7 +17,6 @@ Valysar is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Valysar was founded as a colony of the [Valyrian Freehold](wiki:Valyrian_Freehold). It was taken by [Garin the Great](wiki:Garin_the_Great) and the [Rhoynar](wiki:Rhoynar) during the [Second Spice War](wiki:Second_Spice_War).(wiki:Valysar.cite_ref-Rtwoiafancient_history:_ten_thousand_ships.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)

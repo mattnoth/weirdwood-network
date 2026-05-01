@@ -17,7 +17,6 @@ Bloodrider is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Culture
 
 Part guardian, brother and companion, the bloodriders guard and accompany the [khal](wiki:Khal) in his daily routine. They share what is his, sometimes even his wives, but never his [horse](wiki:Horse). Sometimes a bloodrider may also be a [ko](wiki:Ko), one of the leaders in charge of the khalasar's subdivisions. The bloodriders and their khal refer to each other as "blood of my blood".(wiki:Bloodrider.cite_ref-Ragot36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

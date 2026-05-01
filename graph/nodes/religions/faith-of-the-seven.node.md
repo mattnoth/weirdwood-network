@@ -17,7 +17,6 @@ Faith of the Seven is a organization.religion from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 ### Andals

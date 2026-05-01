@@ -17,7 +17,6 @@ Many-Faced God is a religion or divine entity from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Quotes
 
 He has faces beyond count, little one, as many faces as there are stars in the sky. In [Braavos](wiki:Braavos), men worship as they will... but at the end of every road stands Him of Many Faces, waiting. He will be there for you one day, do not fear. You need not rush to his embrace.(wiki:Many-Faced_God.cite_ref-Raffc6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

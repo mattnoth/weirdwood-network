@@ -17,7 +17,6 @@ Magnar of Thenn is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Culture
 
 [Magnar](wiki:Magnar) is a word in the [Old Tongue](wiki:Old_Tongue) translated as "[lord](wiki:Lord)" in the [Common Tongue](wiki:Common_Tongue).(wiki:Magnar_of_Thenn.cite_ref-Rasos7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)(wiki:Magnar_of_Thenn.cite_ref-Rasos48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

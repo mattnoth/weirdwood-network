@@ -17,7 +17,6 @@ Whipping boy is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 In [133 AC](wiki:133_AC), King [Aegon III Targaryen](wiki:Aegon_III_Targaryen) was twelve years old when he was assigned a new [master-at-arms](wiki:Master-at-arms), Ser [Gareth Long](wiki:Gareth_Long). Aegon quickly grew to despise Ser Gareth, and often ignored his instructions, refused to cooperate, or simply walked away. In his former position at [Starpike](wiki:Starpike), Ser Gareth was known for his harshness to the boys he instructed; those who did not meet his standards were made to go for days without sleep, doused in tubs of iced water, had their heads shaved, and were often beaten. However, none of these punishments were available to Ser Gareth in his new position, as the king's royal body was not allowed to be harmed. Nevertheless, Aegon had one friend, his six-year-old companion, [cupbearer](wiki:Cupbearer), and [food taster](wiki:Food_taster), [Gaemon Palehair](wiki:Gaemon_Palehair). Ser Gareth asked Lord [Unwin Peake](wiki:Unwin_Peake), the [Hand of the King](wiki:Hand_of_the_King), to appoint Gaemon as Aegon's whipping boy, and Peake was pleased to do so. Afterwards, any "misbehavior, laziness, or truculence" of Aegon's resulted in punishment for his friend. Gaemon's tears and blood were motivation enough for Aegon, and his skill at arms improved dramatically. However, Aegon's resentment of Ser Gareth only deepened.(wiki:Whipping_boy.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)

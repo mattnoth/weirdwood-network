@@ -2,7 +2,7 @@
 name: "Free folk"
 type: organization.faction
 slug: free-folk
-aliases: []
+aliases: ["Wildlings"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Free_folk"
 bucket_id: tier2-recovery

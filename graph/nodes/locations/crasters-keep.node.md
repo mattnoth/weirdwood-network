@@ -17,7 +17,6 @@ Craster's Keep is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Appearances & Description
 
 Craster's Keep sits in the [haunted forest](wiki:Haunted_forest) atop a low hill with an earthen dike around it. There is at least one gate on the southwest side of the compound and a stream runs around the north end of the hill. The gate is decorated with the skulls of a [bear](wiki:Bear) and a ram. Inside the dike, there is also a midden heap, a pigsty and a sheepfold.(wiki:Craster's_Keep.cite_ref-Racok23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

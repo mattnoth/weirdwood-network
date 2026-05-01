@@ -1,6 +1,6 @@
 ---
 name: "Antler Men"
-type: title
+type: organization.faction
 slug: antler-men
 aliases: []
 confidence: tier-2
@@ -13,7 +13,7 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Antler Men is a title from the AWOIAF wiki.
+Antler Men is a organization.faction from the AWOIAF wiki.
 
 ## Edges
 

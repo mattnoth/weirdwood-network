@@ -17,7 +17,6 @@ Storm God is a religion or divine entity from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 After the [Grey King](wiki:Grey_King) killed the first sea dragon, [Nagga](wiki:Nagga), the Drowned God turned the beast's bones to stone. From her bones the Grey King made [his hall](wiki:Grey_King's_Hall), which he heated with Nagga's living fire. For a thousand years he reigned, during which he plotted his war against the Storm God. When the Grey King died, the Storm God snuffed out the fire.(wiki:Storm_God.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

@@ -25,11 +25,11 @@ Robert I Baratheon is a character.human from the AWOIAF wiki.
 - HOLDS_TITLE: Protector of the Realm (track_b: Titles)
 - SUCCEEDS (reverse): Aerys II Targaryen (track_b: Predecessor)
 - HEIR_TO: Stannis Baratheon (track_b: Heirs) [heir presumptive]
-- HEIR_TO: 283 (track_b: Heirs) [heir presumptive]
-- HEIR_TO: 286 AC (track_b: Heirs) [heir presumptive]
+
+[heir presumptive]
 - HEIR_TO: Joffrey Baratheon (track_b: Heirs) [286–298 AC]
-- HEIR_TO: 286 (track_b: Heirs) [heir presumptive]
-- HEIR_TO: 298 AC (track_b: Heirs) [286–298 AC]
+[heir presumptive]
+[286–298 AC]
 - SUCCEEDS: Joffrey I Baratheon (track_b: Successor)
 - BORN_AT: Storm's End (track_b: Born) [262 AC]
 - DIED_AT: Red Keep (track_b: Died) [298 AC]

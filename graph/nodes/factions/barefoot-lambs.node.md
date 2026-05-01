@@ -1,6 +1,6 @@
 ---
 name: "Barefoot lambs"
-type: title
+type: organization.faction
 slug: barefoot-lambs
 aliases: []
 confidence: tier-2
@@ -13,7 +13,7 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Barefoot lambs is a title from the AWOIAF wiki.
+Barefoot lambs is a organization.faction from the AWOIAF wiki.
 
 ## Edges
 

@@ -17,7 +17,6 @@ Naathi is a culture/people from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Appearances & Description
 
 Considered a beautiful people,(wiki:Naathi.cite_ref-Rtwoiafbeyond_the_free_cities:_naath.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) Naathi have round flat faces, dusky skin, and amber eyes which can resemble molten [gold](wiki:Gold).(wiki:Naathi.cite_ref-Rasos23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)(wiki:Naathi.cite_ref-Radwd43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)

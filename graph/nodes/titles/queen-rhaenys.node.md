@@ -17,7 +17,6 @@ Queen Rhaenys is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 The Queen Rhaenys was Lord [Alyn Velaryon](wiki:Alyn_Velaryon)'s flagship when [House Velaryon](wiki:House_Velaryon) joined Ser [Gedmund Peake](wiki:Gedmund_Peake) against [Racallio Ryndoon](wiki:Racallio_Ryndoon), the self-proclaimed [King of the Narrow Sea](wiki:King_of_the_Narrow_Sea), during the [Daughters' War](wiki:Daughters'_War). When the Velaryons joined the [royal fleet](wiki:Royal_fleet), Gedmund sent [Ned Bean](wiki:Ned_Bean) to the Queen Rhaenys to take command of the Velaryon ships. Alyn left Gedmund Great-Axe and Blackbean behind at [Tarth](wiki:Tarth), however.(wiki:Queen_Rhaenys.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

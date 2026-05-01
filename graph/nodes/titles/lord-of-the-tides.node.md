@@ -17,7 +17,6 @@ Lord of the Tides is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Lord [Daemon Velaryon](wiki:Daemon_Velaryon) of [Driftmark](wiki:Driftmark) was named the first [master of ships](wiki:Master_of_ships) by King [Aegon I Targaryen](wiki:Aegon_I_Targaryen) at the start of [Aegon's Conquest](wiki:Aegon's_Conquest). He died during the war in the [battle in the waters off Gulltown](wiki:Battle_in_the_waters_off_Gulltown).(wiki:Lord_of_the_Tides.cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)(wiki:Lord_of_the_Tides.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) Daemon's son [Aethan](wiki:Aethan_Velaryon) succeeded him as Lord of the Tides, and eventually also became master of ships to King Aegon I.(wiki:Lord_of_the_Tides.cite_ref-Rtsotd.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)(wiki:Lord_of_the_Tides.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) Aethan's son [Daemon](wiki:Daemon_Velaryon_(son_of_Aethan)) succeeded his father to both positions, serving under King [Maegor I](wiki:Maegor_I_Targaryen) and [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen).(wiki:Lord_of_the_Tides.cite_ref-Rtwoiaf_the_targaryen_kings:_maegor_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)(wiki:Lord_of_the_Tides.cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)

@@ -17,7 +17,6 @@ Bloody Gate is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 ### Antiquity

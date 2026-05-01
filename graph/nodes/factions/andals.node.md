@@ -2,7 +2,7 @@
 name: "Andals"
 type: organization.faction
 slug: andals
-aliases: []
+aliases: ["andal"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Andals"
 bucket_id: tier3-cultures
@@ -16,7 +16,6 @@ pass_origin: pass2-wiki-deterministic
 Andals is a culture/people from the AWOIAF wiki.
 
 ## Edges
-
 
 ## Culture
 

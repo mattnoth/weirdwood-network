@@ -17,7 +17,6 @@ Justiciar is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 In [Braavos](wiki:Braavos), justiciars are civil servants. Like [keyholders](wiki:Keyholders), they dress in drab coats of brown and grey.(wiki:Justiciar.cite_ref-Raffc34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

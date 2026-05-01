@@ -1,6 +1,6 @@
 ---
 name: "City watch (Qohor)"
-type: title
+type: organization.faction
 slug: city-watch-qohor
 aliases: []
 confidence: tier-2
@@ -13,7 +13,7 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-City watch (Qohor) is a title from the AWOIAF wiki.
+City watch (Qohor) is a organization.faction from the AWOIAF wiki.
 
 ## Edges
 

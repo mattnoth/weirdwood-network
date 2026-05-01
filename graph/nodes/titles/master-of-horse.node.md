@@ -17,7 +17,6 @@ Master of horse is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 After King [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen) [turned sixteen](wiki:Customs) and began to rule in his own right, he replaced the [Red Keep](wiki:Red_Keep)'s master of horse.(wiki:Master_of_horse.cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

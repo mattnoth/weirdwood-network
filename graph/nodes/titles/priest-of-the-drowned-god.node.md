@@ -17,7 +17,6 @@ Priest of the Drowned God is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Culture
 
 The priests worship the [Drowned God](wiki:Drowned_God) and oppose his rival, the [Storm God](wiki:Storm_God). Followers of their religion are symbolically drowned by having salt water poured over their heads by priests or having their head placed in water.(wiki:Priest_of_the_Drowned_God.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)(wiki:Priest_of_the_Drowned_God.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) Some priests, such as [Aeron Greyjoy](wiki:Aeron_Greyjoy), believe that true believers must actually be drowned and then revived with the [kiss of life](wiki:Kiss_of_life).(wiki:Priest_of_the_Drowned_God.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) Aeron's acolytes are known as [drowned men](wiki:Drowned_men).(wiki:Priest_of_the_Drowned_God.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)(wiki:Priest_of_the_Drowned_God.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

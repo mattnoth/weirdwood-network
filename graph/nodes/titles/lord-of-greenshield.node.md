@@ -17,7 +17,6 @@ Lord of Greenshield is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 In [89 AC](wiki:Years_after_Aegon's_Conquest), Lord Chester hosted King [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen) during one of his [royal progress](wiki:Royal_progress).(wiki:Lord_of_Greenshield.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)

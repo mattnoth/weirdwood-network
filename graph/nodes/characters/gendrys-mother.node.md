@@ -17,7 +17,6 @@ Gendry's mother is a character from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Appearances & Description
 
 The woman had yellow hair.(wiki:Gendry's_mother.cite_ref-Ragot27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

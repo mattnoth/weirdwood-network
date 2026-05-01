@@ -17,7 +17,6 @@ Cupbearer is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 During the [Andal invasion](wiki:Andal_invasion) in the [Westerlands](wiki:Westerlands), the [First Men](wiki:First_Men) [Kings of the Rock](wiki:Kings_of_the_Rock) ennobled the more powerful of the [Andal](wiki:Andal) war chiefs, but took their children as [wards](wiki:Ward), to serve as squires and pages and cupbearers in [Casterly Rock](wiki:Casterly_Rock), and as hostages against potential treachery.(wiki:Cupbearer.cite_ref-Rtwoiaf_the_westerlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

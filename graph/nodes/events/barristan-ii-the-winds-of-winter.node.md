@@ -17,7 +17,6 @@ Barristan II (The Winds of Winter) is a event.battle from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 Barristan's gut feels twisted from nervousness as he rides through the gates. He knows that the feeling will go away when time slows down in the chaos of battle. [The silver](wiki:The_silver) [mare](wiki:Horse) is easily outpacing the rest of the cavalry; Barristan is pleased because he intends to outrun the [Widower](wiki:Widower) and strike the first blow. The Yunkai’i are totally unprepared, and Barristan closes in on [the Harridan](wiki:Six_sisters), the largest of the [trebuchets](wiki:Trebuchet). The [Stormcrows](wiki:Stormcrows) take up the cry, *“[Daario](wiki:Daario_Naharis)!”* and *“Stormcrows, fly!”* Barristan thinks that he will never again doubt the valor of [sellswords](wiki:Sellsword).

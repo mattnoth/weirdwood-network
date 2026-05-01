@@ -17,7 +17,6 @@ Summerhall is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 ### Prince of Summerhall

@@ -17,7 +17,6 @@ Willow is a character from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Appearances & Description
 
 [Willow (hound)](wiki:Willow_(hound)), a hound belonging to Ramsay Bolton

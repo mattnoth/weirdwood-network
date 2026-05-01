@@ -17,7 +17,6 @@ A Storm of Swords-Chapter 78 is a event.battle from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 King [Stannis](wiki:Stannis_Baratheon) has brought several of the [black brothers](wiki:Night's_Watch) before him to make known his anger about them taking too long to select a new Lord Commander. Stannis sees through [Janos Slynt](wiki:Janos_Slynt)’s fawning, having known the man as a bribe-taker in [King's Landing](wiki:King's_Landing). The king makes it clear that after they finally vote in a new Lord Commander, he plans to take all the castles along [the Wall](wiki:The_Wall), except for the three currently occupied by the [Watch](wiki:Night's_Watch), to garrison his forces. He also plans to either take or be granted the [Gift](wiki:Gift), stating that he intends to help the Watch guard the Wall. He commands the builders to deliver reports on the conditions of the abandoned castles, and informs the men gathered that nightfires will be lit before the gates of all the castles. When [Melisandre](wiki:Melisandre) mentions the impending war, Maester [Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I)) is aware that she speaks of the prophesied War for the Dawn. After the others have left, Aemon asks to see the fabled sword [Lightbringer](wiki:Lightbringer) through Sam’s eyes. [Sam](wiki:Samwell_Tarly) describes the sword as glowing, yet there are no flames.

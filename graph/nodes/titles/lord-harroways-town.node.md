@@ -17,7 +17,6 @@ Lord Harroway's Town is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Appearances & Description
 
 Harroway includes a seven-sided [sept](wiki:Sept), a two-story inn, a stone roundtower, and many smaller buildings with chimneys.(wiki:Lord_Harroway's_Town.cite_ref-Rasos47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) A wide, flat-bottomed boat, called [Old King Andahar's](wiki:Andahar) two-headed water horse by some, is found at the ferry. It has a dozen oarlocks, a wooden house on its deck, and is decorated with two carved [horse](wiki:Horse) heads fore and aft.(wiki:Lord_Harroway's_Town.cite_ref-Rasos47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3) A two-headed horse is included in the arms of [House Roote](wiki:House_Roote) of Harroway.(wiki:Lord_Harroway's_Town.cite_ref-4)

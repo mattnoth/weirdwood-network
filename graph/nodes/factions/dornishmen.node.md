@@ -2,7 +2,7 @@
 name: "Dornishmen"
 type: organization.faction
 slug: dornishmen
-aliases: []
+aliases: ["dornish", "dornishman"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Dornishmen"
 bucket_id: tier2-recovery
@@ -16,7 +16,6 @@ pass_origin: pass2-wiki-deterministic
 Dornishmen is a organization.faction from the AWOIAF wiki.
 
 ## Edges
-
 
 ## Origins
 

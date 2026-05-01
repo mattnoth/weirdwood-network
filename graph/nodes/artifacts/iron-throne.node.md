@@ -17,7 +17,6 @@ Iron Throne is a object.artifact from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 ### Aegon the Conqueror

@@ -17,7 +17,6 @@ Skahazadhan is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 After the death of [Scarb](wiki:Scarb), [Ben Plumm](wiki:Ben_Plumm) fled [Meereen](wiki:Meereen) by escaping through the sewers which empty into the Skahazadhan.(wiki:Skahazadhan.cite_ref-Rasos57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)

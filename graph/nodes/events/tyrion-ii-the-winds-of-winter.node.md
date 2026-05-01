@@ -17,7 +17,6 @@ Tyrion II (The Winds of Winter) is a event.battle from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 [Tyrion](wiki:Tyrion_Lannister) is in the encampment of the [Second Sons](wiki:Second_Sons), awaiting his battle orders with the other men. The battle has already begun, and the dragons [Rhaegal](wiki:Rhaegal) and [Viserion](wiki:Viserion) are flying overhead. The Ironborn have arrived in Slaver's Bay; Tyrion can hear the clash of warships, and a fire ship has blocked the mouth of the [Skahazadhan](wiki:Skahazadhan).

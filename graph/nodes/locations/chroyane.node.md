@@ -17,7 +17,6 @@ Chroyane is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Chroyane, nicknamed the festival city, was once the richest and most splendid of the cities along the [Rhoyne](wiki:Rhoyne). It contained the colossal [Palace of Love](wiki:Palace_of_Sorrow), a magnificent fastness.(wiki:Chroyane.cite_ref-Radwd18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)

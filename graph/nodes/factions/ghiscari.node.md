@@ -17,7 +17,6 @@ Ghiscari is a culture/people from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Quotes
 
 The gods of [Ghis](wiki:Ghis) were dead, and so too its people; these [Astapori](wiki:Astapor) were mongrels, Ser [Jorah](wiki:Jorah_Mormont) said. Even the [Ghiscari tongue](wiki:Old_Ghiscari) was largely forgotten; the [slave cities](wiki:Slave_cities) spoke the [High Valyrian](wiki:High_Valyrian) of [their conquerors](wiki:Valyrian_Freehold), or what they had made of it.(wiki:Ghiscari.cite_ref-Rasos23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-7)

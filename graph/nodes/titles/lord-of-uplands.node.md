@@ -17,7 +17,6 @@ Lord of Uplands is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 In [55 AC](wiki:Years_after_Aegon's_Conquest), Lord Mullendore married [Jennis Templeton](wiki:Jennis_Templeton).(wiki:Lord_of_Uplands.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

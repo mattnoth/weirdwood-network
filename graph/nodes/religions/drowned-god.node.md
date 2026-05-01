@@ -17,7 +17,6 @@ Drowned God is a organization.religion from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 ### Antiquity

@@ -17,7 +17,6 @@ A Storm of Swords-Chapter 72 is a event.battle from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 [Jaime](wiki:Jaime_Lannister) is seated with the [small council](wiki:Small_council), as King [Tommen](wiki:Tommen_Baratheon) signs all the papers brought before him by Ser [Kevan](wiki:Kevan_Lannister). The [Lannisters](wiki:House_Lannister) are granting [Riverrun](wiki:Riverrun) to Ser [Emmon Frey](wiki:Emmon_Frey) and Kevan's sister [Genna](wiki:Genna_Lannister), once the [Blackfish](wiki:Brynden_Tully) has surrendered. They legitimize [Ramsay Snow](wiki:Ramsay_Snow) and name [Roose Bolton](wiki:Roose_Bolton) [Warden of the North](wiki:Warden_of_the_North). Ser [Rolph Spicer](wiki:Rolph_Spicer) is granted [Castamere](wiki:Castamere), and raised to lord, and Lord [Gawen Westerling](wiki:Gawen_Westerling), [his wife](wiki:Sybell_Spicer), and daughter [Jeyne](wiki:Jeyne_Westerling) are all granted a royal pardon, along with Lord [Jonos Bracken](wiki:Jonos_Bracken), Lord [Vance](wiki:House_Vance), Lord [Goodbrook](wiki:Lymond_Goodbrook) and Lord [Mooton](wiki:William_Mooton) for entering King Tommen's service. Jaime had recently lost during a spar with Ser [Addam Marbrand](wiki:Addam_Marbrand), and is disgusted that he cannot fight left-handed, especially after receiving the new [Valyrian sword](wiki:Valyrian_steel) from [his father](wiki:Tywin_Lannister).

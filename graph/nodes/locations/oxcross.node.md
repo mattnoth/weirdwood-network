@@ -17,7 +17,6 @@ Oxcross is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 ### A Clash of Kings

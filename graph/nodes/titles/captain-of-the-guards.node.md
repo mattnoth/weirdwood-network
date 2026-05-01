@@ -17,7 +17,6 @@ Captain of the guards is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Ser [Merrell Bullock](wiki:Merrell_Bullock) was the commander of the castle garrison at [Dragonstone](wiki:Dragonstone) during the reign of King [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen).(wiki:Captain_of_the_guards.cite_ref-Rfaba_surfeit_of_rulers.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1) In [54 AC](wiki:54_AC), after [Elissa Farman](wiki:Elissa_Farman) stole three [dragon eggs](wiki:Dragon_egg) from the Dragonstone hatcheries, he was relieved of his position by Princess [Rhaena Targaryen](wiki:Rhaena_Targaryen_(daughter_of_Aenys_I)). When [Androw Farman](wiki:Androw_Farman) asked if he could be made commander of the garrison in Ser Merrell's place, Rhaena and her [ladies](wiki:Lady-in-waiting) burst out laughing.(wiki:Captain_of_the_guards.cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)

@@ -17,7 +17,6 @@ Lord of the Seven Kingdoms is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 After [his landing](wiki:Aegon's_Landing) at the mouth of the [Blackwater Rush](wiki:Blackwater_Rush), [Aegon the Conqueror](wiki:Aegon_I_Targaryen) was crowned by his sister [Visenya](wiki:Visenya_Targaryen) as "Aegon, First of His Name, [King of All Westeros](wiki:King_of_All_Westeros), [Shield of His People](wiki:Shield_of_His_People)".(wiki:Lord_of_the_Seven_Kingdoms.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0) When Aegon was anointed by the [High Septon](wiki:High_Septon_(War_of_Conquest)) at [Oldtown](wiki:Oldtown)'s [Starry Sept](wiki:Starry_Sept) after [the Conquest](wiki:Aegon's_Conquest), he was named "Aegon of [House Targaryen](wiki:House_Targaryen), the First of His Name, [King of the Andals, the Rhoynar, and the First Men](wiki:King_of_the_Andals,_the_Rhoynar,_and_the_First_Men), Lord of the Seven Kingdoms, and [Protector of the Realm](wiki:Protector_of_the_Realm)".(wiki:Lord_of_the_Seven_Kingdoms.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)

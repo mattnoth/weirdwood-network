@@ -17,7 +17,6 @@ Lady Marya is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 ### A Clash of Kings[ ]

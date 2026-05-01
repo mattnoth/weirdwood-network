@@ -17,7 +17,6 @@ Most Devout is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Before the arrival of the [Targaryens](wiki:House_Targaryen), the seat of the [Faith of the Seven](wiki:Faith_of_the_Seven) was the ornate [Starry Sept](wiki:Starry_Sept) in [Oldtown](wiki:Oldtown).(wiki:Most_Devout.cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) Many of the Most Devout were displeased when the [High Septon](wiki:High_Septon_(Aegon's_Conquest)) advised Lord [Manfred Hightower](wiki:Manfred_Hightower_(Aegon's_Conquest)) not to oppose King [Aegon I Targaryen](wiki:Aegon_I_Targaryen) during [Aegon's Conquest](wiki:Aegon's_Conquest), as the Faith disapproved of the [incest](wiki:Incest) and [polygamy](wiki:Polygamy) practiced by House Targaryen.(wiki:Most_Devout.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)

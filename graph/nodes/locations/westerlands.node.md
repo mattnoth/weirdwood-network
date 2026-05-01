@@ -17,7 +17,6 @@ Westerlands is a place.region from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 ### Before the Andals

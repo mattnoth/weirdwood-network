@@ -17,7 +17,6 @@ Lord of Longbow Hall is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 During the [Andal invasion](wiki:Andal_invasion), King [Robar II Royce](wiki:Robar_II_Royce) formed an alliance of [First Men](wiki:First_Men) Houses from the Vale to repel the Andals. He gained the Hunters as allies after he bested Lord Hunter at an archery contest. Robar's forces were defeated in the [Battle of the Seven Stars](wiki:Battle_of_the_Seven_Stars), however, and the Hunters submitted to [Artys I Arryn](wiki:Artys_I_Arryn), the new [King of Mountain and Vale](wiki:King_of_Mountain_and_Vale).(wiki:Lord_of_Longbow_Hall.cite_ref-Rtwoiaf_the_vale.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)

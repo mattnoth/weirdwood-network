@@ -17,7 +17,6 @@ Man-at-arms is a character from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 At the [Field of Fire](wiki:Field_of_Fire) during [Aegon's Conquest](wiki:Aegon's_Conquest), the [Two Kings](wiki:Two_Kings) led five thousand [knights](wiki:Knight) and ten times as many [freeriders](wiki:Freerider) and men-at-arms.(wiki:Man-at-arms.cite_ref-Ragot13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-0)

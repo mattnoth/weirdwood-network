@@ -17,7 +17,6 @@ Astapor is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Astapor was a colony of the [Old Empire of Ghis](wiki:Old_Empire_of_Ghis). According to an old saying, *"Bricks and blood built Astapor, and bricks and blood her people"*, referring to the red bricks gaining their color from the blood of the slaves who had made them.(wiki:Astapor.cite_ref-Rasos23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-21)(wiki:Astapor.cite_ref-Rtwoiafancient_history:_the_rise_of_valyria.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-4) Astapor survived the destruction of [Old Ghis](wiki:Old_Ghis) at the hands of the [Valyrian Freehold](wiki:Valyrian_Freehold), but it was conquered by the Valyrians, who learned [slavery](wiki:Slavery) from the conquered [Ghiscari](wiki:Ghiscari) and used slaves to expand their empire.(wiki:Astapor.cite_ref-Rtwoiafancient_history:_valyria.27s_children.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0) As a result, the Ghiscari gods and the Ghiscari tongue are now largely forgotten.(wiki:Astapor.cite_ref-Rasos23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-22) After the [Doom of Valyria](wiki:Doom_of_Valyria) and the fall of the Freehold, the Ghiscari of [Slaver's Bay](wiki:Slaver's_Bay) took control of the slave trade.(wiki:Astapor.cite_ref-Rtwoiafancient_history:_the_rise_of_valyria.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-5)

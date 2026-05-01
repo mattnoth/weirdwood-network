@@ -17,7 +17,6 @@ Gonfaloniere is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 In the aftermath of the deaths of [Lysandro Rogare](wiki:Lysandro_Rogare) and his brother [Drazenko](wiki:Drazenko_Rogare) during the [Lysene Spring](wiki:Lysene_Spring), the gonfaloniere [Moreo Dagareon](wiki:Moreo_Dagareon) was slain by his own elite guards and [Torreo Haen](wiki:Torreo_Haen) was [poisoned](wiki:Poison) after being named [First Magister](wiki:First_Magister).(wiki:Gonfaloniere.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3) [Lysaro Rogare](wiki:Lysaro_Rogare), Lysandro's son and heir, aspired to rule Lys and was elected gonfaloniere after bribing [magisters](wiki:Magisters) and entertaining commoners. Lysaro planned on sacking [Tyrosh](wiki:Tyrosh) or [Myr](wiki:Myr) to increase his wealth and influence, and then use these resources to become First Magister of Lys. However, the bankruptcy of the [Rogare Bank](wiki:Rogare_Bank) put an end to Lysaro's ambitions and brought the downfall of [his family](wiki:House_Rogare).(wiki:Gonfaloniere.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)

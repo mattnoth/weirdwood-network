@@ -17,7 +17,6 @@ House with the red door is a organization.house from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 According to Daenerys it was a big house.(wiki:House_with_the_red_door.cite_ref-Ragot3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) One of its rooms had great wooden beams with carved [animal](wiki:Animal) faces adorning them. The lemon tree could be seen outside a window from that room.(wiki:House_with_the_red_door.cite_ref-Racok48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

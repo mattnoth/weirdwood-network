@@ -17,7 +17,6 @@ Lord of Brightwater is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 [Lord Florent](wiki:Lord_Florent) hired Ser [Arlan of Pennytree](wiki:Arlan_of_Pennytree) and his squire, [Duncan](wiki:Duncan_the_Tall), in his service for half of the year [206 AC](wiki:Years_after_Aegon's_Conquest).(wiki:Lord_of_Brightwater.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)

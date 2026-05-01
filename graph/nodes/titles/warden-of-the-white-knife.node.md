@@ -17,7 +17,6 @@ Warden of the White Knife is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 The castle of the [Wolf's Den](wiki:Wolf's_Den) was raised by King [Jon Stark](wiki:Jon_Stark) to guard the mouth of the [White Knife](wiki:White_Knife) at the [Bite](wiki:Bite).(wiki:Warden_of_the_White_Knife.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) After being expelled from the [Reach](wiki:Reach), the Manderlys received the Wolf's Den from [House Stark](wiki:House_Stark) in return for loyally defending the river for their new liege lords in [Winterfell](wiki:Winterfell).(wiki:Warden_of_the_White_Knife.cite_ref-Radwd19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) The Manderlys then developed the city of [White Harbor](wiki:White_Harbor) and fortified the White Knife's defenses.(wiki:Warden_of_the_White_Knife.cite_ref-Rtwoiafthe_north:_the_kings_of_winter.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)

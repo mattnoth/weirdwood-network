@@ -17,7 +17,6 @@ Drogon is a character from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Appearances & Description
 
 As a hatchling, Drogon is the largest of Daenerys Targaryen's dragons.(wiki:Drogon.cite_ref-Racok12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6) His black scales are slashed with streaks of vivid scarlet red. His horns and wings are also scarlet red,(wiki:Drogon.cite_ref-Racok12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7) and his eyes are red as coals.(wiki:Drogon.cite_ref-Ragot72.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) As typical of dragons, his teeth are black.(wiki:Drogon.cite_ref-Rasos8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)(wiki:Drogon.cite_ref-Radwd52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4) His [flame](wiki:Dragonflame) is black fire shot with red.(wiki:Drogon.cite_ref-Rasos42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1) The span of his wings is three times the length of his body, and most of his body appears to be neck, tail, and wing.(wiki:Drogon.cite_ref-Racok12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)

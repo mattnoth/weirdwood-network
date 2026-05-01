@@ -17,7 +17,6 @@ Arbor is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Culture
 
 The Arbor is among the richest places of [Westeros](wiki:Westeros).(wiki:Arbor.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) The island is known for making the best [wine](wiki:Wine) in Westeros,(wiki:Arbor.cite_ref-Racok40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) including [Arbor reds](wiki:Arbor_red)(wiki:Arbor.cite_ref-Racok25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) and [Arbor golds](wiki:Arbor_gold).(wiki:Arbor.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0) Wine from the Arbor is usually sweeter than wine from [Dorne](wiki:Dorne).(wiki:Arbor.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0) Peaches from the Arbor are huge and sweet.(wiki:Arbor.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)

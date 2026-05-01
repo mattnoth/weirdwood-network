@@ -17,7 +17,6 @@ Mantarys is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Mantarys was founded by the [Valyrian Freehold](wiki:Valyrian_Freehold). Although rich and glorious, it did not have self-rule and instead men and women sent from [Valyria](wiki:Valyria) ruled it in the name of the Freehold - thus it is not counted among the [Free Cities](wiki:Free_Cities).(wiki:Mantarys.cite_ref-Rtwoiaf_the_free_cities.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) Mantarys remained inhabited after the [Doom of Valyria](wiki:Doom_of_Valyria), but its people are said to be twisted and monstrous.(wiki:Mantarys.cite_ref-Rtwoiaf_ancient_history:_the_doom_of_valyria.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)

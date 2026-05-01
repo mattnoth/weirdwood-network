@@ -17,7 +17,6 @@ Lady Meredith is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 When [Elissa Farman](wiki:Elissa_Farman), using the name Alys Westhill, sailed from [Oldtown](wiki:Oldtown) on [Sun Chaser](wiki:Sun_Chaser) to explore the [Sunset Sea](wiki:Sunset_Sea) in [56 AC](wiki:56_AC), she was joined by Ser [Eustace Hightower](wiki:Eustace_Hightower) on Lady Meredith and his brother, Ser [Norman](wiki:Norman_Hightower), on [Autumn Moon](wiki:Autumn_Moon).(wiki:Lady_Meredith.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

@@ -17,7 +17,6 @@ Sun Chaser is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 In [54 AC](wiki:54_AC), Lady [Elissa Farman](wiki:Elissa_Farman) fled [Dragonstone](wiki:Dragonstone), taking with her three [dragon eggs](wiki:Dragon_eggs). She traveled to [Pentos](wiki:Pentos), and from there to [Braavos](wiki:Braavos), where she took on the name "Alys Westhill". Using that name, she was granted an audience with the [Sealord of Braavos](wiki:Sealord_of_Braavos), who bought the three dragon eggs from her. Alys entrusted her new gold to the [Iron Bank of Braavos](wiki:Iron_Bank_of_Braavos) and used it to pay for the construction of the Sun Chaser.(wiki:Sun_Chaser.cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

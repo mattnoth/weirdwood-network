@@ -17,7 +17,6 @@ Valyria is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Valyria was ruled by its [dragonlords](wiki:Dragonlords), led by two score rival houses that contested for power. [House Targaryen](wiki:House_Targaryen), however, was not considered a powerful house.(wiki:Valyria.cite_ref-Rtwoiaf_the_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) At times the lords freeholder elected [archons](wiki:Archon) for temporary leadership.(wiki:Valyria.cite_ref-Rtwoiaf_ancient_history:_the_rise_of_valyria.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)

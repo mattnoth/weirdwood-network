@@ -17,7 +17,6 @@ Lord of Stonedance is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Lord [Maldon Massey](wiki:Maldon_Massey) built [Stonedance](wiki:Stonedance) and ruled [Massey's Hook](wiki:Massey's_Hook) in the [Age of Heroes](wiki:Age_of_Heroes). The Masseys broke away from [House Durrandon](wiki:House_Durrandon) during the reign of King [Durwald the Fat](wiki:Durwald_I_Durrandon) and declared themselves kings, however.(wiki:Lord_of_Stonedance.cite_ref-Rtwoiafthe_stormlands:_house_durrandon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) King [Josua Massey](wiki:Josua_Massey) was the last Massey king, his son was made a puppet lord under the rule of King [Togarion Bar Emmon](wiki:Togarion_Bar_Emmon).(wiki:Lord_of_Stonedance.cite_ref-Rtwoiafthe_stormlands:_andals_in_the_stormlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)

@@ -17,7 +17,6 @@ Asshai is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 The origins of Asshai are lost in history. Even the Asshai'i do not claim to know who built it, stating only a city stood there since the world began and will stand there until it ends.(wiki:Asshai.cite_ref-Rtwoiaf844_5-9) [Maesters](wiki:Maesters) find it difficult to discern the truth about legendary Asshai.(wiki:Asshai.cite_ref-Rtwoiaf25.7B.7B.7B4.7D.7D.7D_15-0)

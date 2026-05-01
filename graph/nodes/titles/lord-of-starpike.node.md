@@ -17,7 +17,6 @@ Lord of Starpike is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 ### Kingdom of the Reach[ ]

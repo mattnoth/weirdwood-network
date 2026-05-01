@@ -17,7 +17,6 @@ A Storm of Swords-Chapter 71 is a event.battle from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 [Daenerys](wiki:Daenerys_Targaryen) sits in the great pyramid of [Meereen](wiki:Meereen), her troops having conquered the city after the men she sent into the sewers opened the gates. She meets an envoy from [Astapor](wiki:Astapor), who represents King [Cleon](wiki:Cleon) the great, a former butcher who now rules Astapor, supposedly in Dany’s name. But the envoy suggests that King Cleon wishes to marry Dany, and that the men she left to rule Astapor have all been deposed. Cleon has amassed new slaves, and is beginning to train them as [Unsullied](wiki:Unsullied), and Daenerys is dismayed that all she has done to free Astapor of slavery is coming undone.

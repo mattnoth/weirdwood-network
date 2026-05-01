@@ -17,7 +17,6 @@ Beyond the Wall is a place.region from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 ### Older History

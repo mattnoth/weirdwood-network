@@ -17,7 +17,6 @@ Lord of Blackmont is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 The Lords of Blackmont have long fought against the [marcher lords](wiki:Marcher_lords) of the [Dornish Marches](wiki:Dornish_Marches) to the north.(wiki:Lord_of_Blackmont.cite_ref-Rawoiaf_blackmont.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)(wiki:Lord_of_Blackmont.cite_ref-Rtwoiafdorne:_queer_customs_of_the_south.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

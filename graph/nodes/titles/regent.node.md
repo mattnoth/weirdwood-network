@@ -17,7 +17,6 @@ Regent is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Septon [Robeson](wiki:Robeson) acted as regent for the [newborn son](wiki:Triston_Hightower) of the late Lord [Damon Hightower](wiki:Damon_Hightower).(wiki:Regent.cite_ref-Rtwoiafthe_reach:_oldtown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0) A member of [House Tyrell](wiki:House_Tyrell) served as regent for the young King [Garland VI Gardener](wiki:Garland_VI_Gardener).(wiki:Regent.cite_ref-Rtwoiafthe_reach:_house_tyrell.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

@@ -17,7 +17,6 @@ Lord of Duskendale is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 During [Aegon's Conquest](wiki:Aegon's_Conquest), [Aegon I Targaryen](wiki:Aegon_I_Targaryen), together with his [bastard](wiki:Bastard) half-brother [Orys Baratheon](wiki:Orys_Baratheon), defeated Lord Darklyn of Duskendale and Lord [Mooton](wiki:House_Mooton) of [Maidenpool](wiki:Maidenpool) in his [first test](wiki:Aegon's_first_test). Lord Darklyn died during the battle and was succeeded by his son, who yielded to Aegon.(wiki:Lord_of_Duskendale.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)

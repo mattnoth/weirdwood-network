@@ -17,7 +17,6 @@ Lord of the Marches is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 [Royce Caron](wiki:Royce_Caron), Lord of the Marches, served in the [regency of Aegon III](wiki:Regency_of_Aegon_III).(wiki:Lord_of_the_Marches.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)

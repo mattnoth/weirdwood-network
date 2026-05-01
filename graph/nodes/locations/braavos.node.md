@@ -17,8 +17,6 @@ Braavos is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-- WORSHIPS: Mixed religions (track_b: Religion)
-
 ## Origins
 
 ### Foundation

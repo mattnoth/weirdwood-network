@@ -17,7 +17,6 @@ Lord of Grassfield Keep is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Lord Meadows had the command of King [Maegor I Targaryen](wiki:Maegor_I_Targaryen)'s army at the start of the [Faith Militant uprising](wiki:Faith_Militant_uprising). He was killed in [battle](wiki:Battle_at_Stonebridge) by [Wat the Hewer](wiki:Wat_the_Hewer) in [42 AC](wiki:42_AC).(wiki:Lord_of_Grassfield_Keep.cite_ref-Rtsotd.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)(wiki:Lord_of_Grassfield_Keep.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)

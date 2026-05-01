@@ -19,7 +19,7 @@ Winterfell is a place.location from the AWOIAF wiki.
 
 - RULES: Eddard Stark (track_b: Ruler) [AGoT]
 - RULES: Ramsay Bolton (track_b: Ruler) [ADwD]
-- WORSHIPS: Old gods (track_b: Religion)
+- WORSHIPS: Old Gods of the Forest (track_b: Religion)
 
 ## Origins
 

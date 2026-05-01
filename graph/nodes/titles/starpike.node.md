@@ -17,7 +17,6 @@ Starpike is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 The [Peakes](wiki:House_Peake) of Starpike have an older lineage than that of [House Tyrell](wiki:House_Tyrell),(wiki:Starpike.cite_ref-Rtwoiaf_the_reach:_house_tyrell.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) claiming descent from [Florys the Fox](wiki:Florys_the_Fox).(wiki:Starpike.cite_ref-Rtwoiaf_the_reach:_garth_greenhand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

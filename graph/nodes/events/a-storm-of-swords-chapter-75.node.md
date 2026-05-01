@@ -17,7 +17,6 @@ A Storm of Swords-Chapter 75 is a event.battle from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 At [Castle Black](wiki:Castle_Black), [Gilly](wiki:Gilly) is nursing both her own son as well as [Mance Rayder](wiki:Mance_Rayder)'s, as [Dalla](wiki:Dalla) died giving birth. [Sam](wiki:Samwell_Tarly) and Gilly have recently returned to Castle Black, meeting up with Ser [Denys Mallister](wiki:Denys_Mallister) and the men from the [Shadow Tower](wiki:Shadow_Tower). They also joined with [Dywen](wiki:Dywen), [Edd](wiki:Edd_Tollett) and [Giant](wiki:Bedwyck), survivors from the Bridge of Skulls where [Bowen Marsh](wiki:Bowen_Marsh) held back the [Weeper](wiki:Weeper)'s advance. Sam is happy to be reunited with [Jon](wiki:Jon_Snow), although he is wary of King [Stannis](wiki:Stannis_Baratheon)'s army being present at Castle Black. It was the king who defeated the [wildlings](wiki:Wildlings), scattering their remnants back into the [haunted forest](wiki:Haunted_forest). [Val](wiki:Val) wants to bring her sister's baby to Mance, but Jon tells her that only Maester [Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I)) is permitted to see the imprisoned wildling king. Alone, Sam asks Jon, "Could there be honor in a lie, if it were told for a good purpose?" Sam is considering sending Gilly and her son to [Horn Hill](wiki:Horn_Hill), with a letter claiming that he fathered the boy.

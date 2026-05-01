@@ -17,7 +17,6 @@ Lord Paramount of the Trident is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 During [Aegon's Conquest](wiki:Aegon's_Conquest), [House Tully](wiki:House_Tully) of [Riverrun](wiki:Riverrun) were the first of the [rivermen](wiki:Rivermen) support [Aegon I Targaryen](wiki:Aegon_I_Targaryen) against [Harren Hoare](wiki:Harren_Hoare), [King of the Isles and the Rivers](wiki:King_of_the_Isles_and_the_Rivers). After Harren's death in the [burning of Harrenhal](wiki:Burning_of_Harrenhal), Aegon the Conqueror rewarded Lord [Edmyn Tully](wiki:Edmyn_Tully) by granting him the [riverlands](wiki:Riverlands) and naming him Lord Paramount of the Trident.(wiki:Lord_Paramount_of_the_Trident.cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

@@ -17,7 +17,6 @@ A Storm of Swords-Chapter 8 is a event.battle from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 [Illyrio](wiki:Illyrio_Mopatis)'s three ships are sailing for [Pentos](wiki:Pentos), and [Daenerys](wiki:Daenerys_Targaryen) is watching her [dragons](wiki:Dragon) fly over the ocean. [Arstan](wiki:Barristan_Selmy) tells her that [Balerion](wiki:Balerion) was 200 years old when he died during the reign of King [Jaehaerys the Conciliator](wiki:Jaehaerys_I_Targaryen). Arstan then speaks of [Rhaegar](wiki:Rhaegar_Targaryen), how bookish he was as a child, always reading. Then one day he read something in a scroll that made him want to be a warrior, and he began training fiercely. Arstan admits that Rhaegar was a great warrior, but he won no battles.

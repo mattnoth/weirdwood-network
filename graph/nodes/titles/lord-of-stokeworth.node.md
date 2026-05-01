@@ -17,7 +17,6 @@ Lord of Stokeworth is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 Lord [Alyn Stokeworth](wiki:Alyn_Stokeworth) was named [Hand of the King](wiki:Hand_of_the_King) by King [Aegon I Targaryen](wiki:Aegon_I_Targaryen) in [34 AC](wiki:Years_after_Aegon's_Conquest). He was assigned the task over overseeing the construction of the [Red Keep](wiki:Red_Keep) in [35 AC](wiki:Years_after_Aegon's_Conquest).(wiki:Lord_of_Stokeworth.cite_ref-Rtsotd.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)(wiki:Lord_of_Stokeworth.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) In [37 AC](wiki:37_AC), Lord Alyn was slain in battle by a bandit [outlaw](wiki:Outlaw) known as [Harren the Red](wiki:Harren_the_Red).(wiki:Lord_of_Stokeworth.cite_ref-Rtsotd.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)(wiki:Lord_of_Stokeworth.cite_ref-Rtwoiaf_the_targaryen_kings:_aenys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)

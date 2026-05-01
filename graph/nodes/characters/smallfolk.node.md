@@ -17,7 +17,6 @@ Smallfolk is a character from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 During the [Century of Blood](wiki:Century_of_Blood), many smallfolk in [Essos](wiki:Essos) fled before the [Dothraki](wiki:Dothraki).(wiki:Smallfolk.cite_ref-Radwd14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_96-0)

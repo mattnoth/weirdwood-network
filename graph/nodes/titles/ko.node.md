@@ -17,7 +17,6 @@ Ko is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Narrative Arc
 
 ### A Game of Thrones[ ]

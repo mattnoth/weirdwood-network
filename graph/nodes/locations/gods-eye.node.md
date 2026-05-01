@@ -17,7 +17,6 @@ Gods Eye is a place.location from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 ### Age of Heroes

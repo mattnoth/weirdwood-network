@@ -17,7 +17,6 @@ Lord of Whitewalls is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 [Lord Butterwell](wiki:Lord_Butterwell_(grandfather_of_Ambrose)) served as [Hand of the King](wiki:Hand_of_the_King) to [Aegon IV Targaryen](wiki:Aegon_IV_Targaryen), and he had [Whitewalls](wiki:Whitewalls) built at great expense during his rule.(wiki:Lord_of_Whitewalls.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) His grandson was Lord [Ambrose Butterwell](wiki:Ambrose_Butterwell), who served as Hand to King [Daeron II Targaryen](wiki:Daeron_II_Targaryen).(wiki:Lord_of_Whitewalls.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

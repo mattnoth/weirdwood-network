@@ -17,7 +17,6 @@ Lord of Yronwood is a title from the AWOIAF wiki.
 
 ## Edges
 
-
 ## Origins
 
 King [Olyvar Yronwood](wiki:Olyvar_Yronwood) repeatedly led incursions into the [Stormlands](wiki:Stormlands) during the reign of the [Storm King](wiki:Storm_King) [Erich VII Durrandon](wiki:Erich_VII_Durrandon).(wiki:Lord_of_Yronwood.cite_ref-Rtwoiaf_andals_in_the_stormlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
