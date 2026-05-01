@@ -2,20 +2,19 @@
 
 > **Continue prompt for a fresh session.** Self-contained — pick this up without prior conversation context.
 >
-> **Drafted:** 2026-05-01 end of Session 29. All Session 29 work committed (verify with `git log --oneline -3` — top should be `d6362f74 Year-page chronology extraction + concept.culture canonical-home decision`).
+> **Drafted:** 2026-05-01 end of Session 29. **Updated 2026-05-01 Session 30:** Pass 1 dependency now resolved up-front — Pass 1 across ACOK/ASOS/AFFC/ADWD is being completed BEFORE this work track per Matt-decision Session 30. The AGOT-only contradiction-sweep carve-out is dropped; this prompt now describes a full-5-book contradiction sweep. Pre-flight check: confirm `extractions/mechanical/{acok,asos,affc,adwd}/` are all populated to chapter-count parity before launching Step 3.
 
 ---
 
 ## Why this work, why now
 
-Stage 4 v1 discovers the edges that infobox extraction couldn't see — prose-derived single-page edges, cross-page edges, and cross-identity merges (Reek=Theon, Alayne=Sansa). It is the highest-leverage unblocked work in the project.
+Stage 4 v1 discovers the edges that infobox extraction couldn't see — prose-derived single-page edges, cross-page edges, and cross-identity merges (Reek=Theon, Alayne=Sansa). It is the highest-leverage unblocked work in the project once Pass 1 corpus completion lands.
 
-**Readiness:** Stage 3 promotion stable (Session 28+29). Schema-drift audit clean (0 HIGH). Cross-references index built (Session 26: `working/wiki-parsed/cross-references.jsonl`, 81,090 links). Alias resolver built (Session 26: `working/wiki-parsed/alias-resolver.json`). Locked 22-type edge vocabulary in `reference/architecture.md`. 7,563 graph nodes across 18 type directories.
+**Readiness:** Stage 3 promotion stable (Session 28+29). Schema-drift audit clean (0 HIGH). Cross-references index built (Session 26: `working/wiki-parsed/cross-references.jsonl`). Alias resolver built (Session 26: `working/wiki-parsed/alias-resolver.json`). Locked 22-type edge vocabulary in `reference/architecture.md`. 7,563+ graph nodes across 19 type directories.
 
-**Pass 1 dependency is partial only.** The contradiction-surfacing component (compares wiki claims to chapter Pass 1 extractions) wants Pass 1 — Pass 1 is complete for AGOT only. But the prose-edge discovery + cross-identity detection don't need any chapter Pass 1; they read wiki node prose. Two paths:
+**Pass 1 dependency** — corpus-complete before this work starts (per Session 30 sequencing decision; see `progress/continue-prompts/2026-05-02-pass1-mechanical-remaining-books.md`). All 5 books contribute to the contradiction sweep — no AGOT-only carve-out. **Hard pre-flight:** verify `extractions/mechanical/{agot,acok,asos,affc,adwd}/` extraction counts match `sources/chapters/{agot,acok,asos,affc,adwd}/` chapter counts (344/344 across all books). If short, this work is blocked — finish Pass 1 first.
 
-- **Stage 4 v1 (this prompt):** AGOT-only contradiction sweep + full-corpus prose-edge discovery + cross-identity detection. Ships in 3-5 hrs / ~$50-100. **Recommended.**
-- **Stage 4 v2 (later):** Re-run contradiction sweep against ACOK/ASOS/AFFC/ADWD as Pass 1 completes those books. Each book back-fill: ~$10-20.
+Prose-edge discovery + cross-identity detection still don't strictly need Pass 1 (they read wiki node prose), but bundling all three components into a single Stage 4 v1 — now that Pass 1 isn't gating — gives the cleanest single deliverable.
 
 ---
 
@@ -187,7 +186,7 @@ Pass-1 mechanical extractions for AGOT live at `extractions/mechanical/agot/agot
 1. Python: build a (slug → AGOT-Pass-1-mentions) inverted index from extraction files' Raw Entity Lists + Relationships Observed sections.
 2. Agent: per slug, read wiki node prose + AGOT mentions. Surface contradictions.
 
-**v1 scope:** AGOT only. v2 scope: ACOK/ASOS/AFFC/ADWD as Pass 1 lands. Each book back-fill: ~$10-20.
+**Scope:** all 5 books. Pass 1 corpus completion is a hard pre-req for this prompt (see Session 30 dependency note above). The earlier "AGOT-only v1, back-fill v2" carve-out is dropped.
 
 ---
 
@@ -255,7 +254,7 @@ Pass-1 mechanical extractions for AGOT live at `extractions/mechanical/agot/agot
 
 1. **Tier-B nodes:** skip in v1 (their prose is thin), or include? Recommendation: skip in v1; revisit if Tier-A yield disappoints.
 2. **Cross-identity inline vs follow-on:** during Step 3 or as Step 3.5? Recommendation: follow-on (lower volume, higher stakes, easier review).
-3. **Contradiction sweep scope:** strict AGOT-only for v1, or include AGOT + Pass 1 partial coverage of any other book? Recommendation: strict AGOT-only — clean signal.
+3. ~~**Contradiction sweep scope:** strict AGOT-only for v1, or include AGOT + Pass 1 partial coverage of any other book?~~ **RESOLVED Session 30:** all 5 books — Pass 1 is being completed corpus-wide before this work track starts.
 4. **Cost ceiling:** Stage 3 was $95 for 855 Stage-1 nodes. Stage 4 v1 estimate is $50-100 for full-corpus prose-edge discovery. Confirm budget OK before Step 3 launch.
 
 ---

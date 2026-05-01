@@ -62,7 +62,9 @@ This is your project memory. When you come back after a break, read Current Stat
 - [x] Pass 1 v3 prompt update: expanded Raw Entity List to 12 categories (10 + Other catch-all), added strict formatting rules (all headers required, no merging/renaming, "None" for empty categories)
 - [x] Pass 1 v3 run on AGOT (73/73 — complete)
 - [ ] Pass 1 v3 run on ACOK (0/70)
-- [ ] Pass 1 v3 run on remaining books (ASOS 0/82, AFFC 0/46, ADWD 0/73)
+- [ ] Pass 1 v3 run on ASOS (0/82)
+- [x] Pass 1 v3 run on AFFC (46/46 — complete)
+- [ ] Pass 1 v3 run on ADWD (0/73)
 - [x] Wiki infobox parser script (Track B) — `scripts/wiki-infobox-parser.py` produces `working/wiki-parsed/{infobox-data.jsonl (5,279), page-index.jsonl (17,657), parse-stats.md}`. `first_available` populated 2,888/5,279 (54.7%). **Three open issues:** (1) `categories[]` empty across all pages (parse API strips catlinks footer) — blocker for runbook §1.2.1 unless deferred to `entity_type_guess`, (2) `books` field parsed only 37 times vs 1,953 raw occurrences (parser bug), (3) unmapped infobox fields worth edge-taxonomy review (`dynasty`, `written by`, `hatched`, `fathers`, `vassal`, `cadet branch`).
 - [ ] AGOT/ACOK supplementary entity index: script to scan existing extractions and categorize candidate entity types from narrative sections
 - [ ] Pass 1 run on remaining books (ASOS, AFFC, ADWD) — blocked on prompt update + wiki parser groundwork
@@ -177,6 +179,19 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session.
 
+### Session 30 — Pass-1-first sequencing decision + Stage 4 v1 prompt amended (2026-05-01)
+
+**Changes made:**
+- `progress/continue-prompts/2026-05-02-pass1-mechanical-remaining-books.md` — NEW. Self-contained continue prompt for Pass 1 mechanical extraction across ACOK/ASOS/AFFC/ADWD. Order: AFFC (canary, 46ch) → ACOK (70) → ASOS (82) → ADWD (73). 271 chapters / 56 waves / ~11.5 hrs at 4 terminals. Existing `weirwood` infra reused (soft-stop + wave checkpointing = graceful-fail). Hard pre-flight checks; per-book acceptance criteria; canary-quality-check after AFFC; both manual-batched and `--chain` launch options documented.
+- `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md` — UPDATED. Pass-1 dependency now resolved up-front (no longer "AGOT-only v1 + back-fill v2"). Contradiction sweep now spans all 5 books in a single pass. Open question 3 marked RESOLVED. Pre-flight check for 344/344 chapter parity added.
+- `worklog.md` — Session 29 "What's next" reordered: Pass 1 first, Stage 4 v1 second. New Session 30 entry (this).
+
+**Decisions:** Sequence Pass 1 corpus completion BEFORE Stage 4 v1 (Matt-decision Session 30, "I need to get the books in then"). Reasoning: Stage 4's contradiction-sweep component compares wiki node prose to Pass-1 mentions; AGOT-only sweep would have to re-run for each later book as Pass 1 lands. Bundling the corpus-complete prep with Stage 4 v1 launch means a single clean deliverable instead of N back-fills. Pass 1 also unblocks Pass 3/4/5/6 + trigger-table + index work that Stage 4 doesn't touch. Stage 4 v1 (when it eventually launches) will include Tier-B nodes (Matt-decision Session 30: thin-infobox ≠ thin-prose; Tier-B is where prose-edge yield is proportionally MOST valuable since Python had less to extract there). Cross-identity escalation runs INLINE in Step 3 (single load of source prose) with flags batched to `cross-identity-queue.jsonl` for end-of-pass review (avoids double-load while preserving review batching). Usage-limit graceful-fail = the existing `weirwood` soft-stop (`/tmp/extraction-stop`) + wave-boundary checkpoint pattern — no new scripts needed for Pass 1; Stage 4 launcher will mirror this pattern when it ships.
+
+**No code changes; no agent runs; no commits this session.** Planning + prompt-amendment only.
+
+**What's next:** Launch Pass 1 per the new continue prompt. Open questions deferred to launch-time (in iTerm session): manual-batched vs `--chain`, 4 terminals vs 2, who launches, per-book vs end-commit cadence. Stage 4 v1 follows once 344/344 extractions exist.
+
 ### Session 29 — Promotion completion + schema-drift audit + chronology extraction (2026-05-01)
 **Detail:** `working/session-details/session-029.md`
 
@@ -196,8 +211,8 @@ This is your project memory. When you come back after a break, read Current Stat
 **Counts:** unknown 2,098 → 1,257 (-841). skip 8,592 → 9,167 (+575). Cat 1 orphan edges 1,973 → 1,963. Edge vocabulary violations 0 → 0 (lock holds). Schema-drift HIGH 0. Total nodes 7,563.
 
 **What's next:**
-- Stage 4 v1 — prose-edge-classifier + cross-identity detection + AGOT contradiction sweep. Continue prompt: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md` (NEW, detailed). Cost ~$50-100, 3-5 hrs wall-clock. AGOT-only Pass-1 dependency (rest of books not blocking).
-- Pass 1 mechanical extraction on remaining 4 books (271 chapters; in parallel via `weirwood`).
+- **Pass 1 mechanical extraction on remaining 4 books FIRST** (271 chapters; AFFC→ACOK→ASOS→ADWD; via `weirwood` in iTerm). Order decision made Session 30. Continue prompt: `progress/continue-prompts/2026-05-02-pass1-mechanical-remaining-books.md`.
+- THEN Stage 4 v1 — prose-edge-classifier + cross-identity detection + full-5-book contradiction sweep (AGOT-only carve-out dropped). Continue prompt: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`. ~$50-100, 3-5 hrs.
 - v2 temporal-edges schema design — uses chronology-events.jsonl as input.
 
 ### Session 28 — Path B Promotion Campaign + Parser Iteration (2026-04-30 → 2026-05-01)
