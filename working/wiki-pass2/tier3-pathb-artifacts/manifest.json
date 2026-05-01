@@ -1,0 +1,773 @@
+{
+  "bucket_id": "tier3-pathb-artifacts",
+  "tier": "secondary",
+  "tier_default": "tier-2",
+  "prompt_version": "v1-python",
+  "created_at": "2026-05-01T14:21:17.827971+00:00",
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "pages": [
+    {
+      "page": "Adventure",
+      "slug": "adventure"
+    },
+    {
+      "page": "Ardent Friend",
+      "slug": "ardent-friend"
+    },
+    {
+      "page": "Banded Lizard",
+      "slug": "banded-lizard"
+    },
+    {
+      "page": "Black Betha",
+      "slug": "black-betha"
+    },
+    {
+      "page": "Blackfyre",
+      "slug": "blackfyre"
+    },
+    {
+      "page": "Bold Laughter",
+      "slug": "bold-laughter"
+    },
+    {
+      "page": "Bold Voyager",
+      "slug": "bold-voyager"
+    },
+    {
+      "page": "Bold Wind",
+      "slug": "bold-wind"
+    },
+    {
+      "page": "Bountiful Harvest",
+      "slug": "bountiful-harvest"
+    },
+    {
+      "page": "Brave Joffrey",
+      "slug": "brave-joffrey"
+    },
+    {
+      "page": "Brave Magister",
+      "slug": "brave-magister"
+    },
+    {
+      "page": "Brazen Monkey",
+      "slug": "brazen-monkey"
+    },
+    {
+      "page": "Brightfish",
+      "slug": "brightfish"
+    },
+    {
+      "page": "Brightroar",
+      "slug": "brightroar"
+    },
+    {
+      "page": "Cat (galley)",
+      "slug": "cat-galley"
+    },
+    {
+      "page": "Cersei's dromonds",
+      "slug": "cerseis-dromonds"
+    },
+    {
+      "page": "Courageous",
+      "slug": "courageous"
+    },
+    {
+      "page": "Dagon's Feast",
+      "slug": "dagons-feast"
+    },
+    {
+      "page": "Dark Sister",
+      "slug": "dark-sister"
+    },
+    {
+      "page": "Dawn",
+      "slug": "dawn"
+    },
+    {
+      "page": "Devotion",
+      "slug": "devotion"
+    },
+    {
+      "page": "Dog's Nose",
+      "slug": "dogs-nose"
+    },
+    {
+      "page": "Dolphin (ship)",
+      "slug": "dolphin-ship"
+    },
+    {
+      "page": "Dove",
+      "slug": "dove"
+    },
+    {
+      "page": "Dragonbinder",
+      "slug": "dragonbinder"
+    },
+    {
+      "page": "Dragons (mechanical)",
+      "slug": "dragons-mechanical"
+    },
+    {
+      "page": "Dragonsbane",
+      "slug": "dragonsbane"
+    },
+    {
+      "page": "Elephant (ship)",
+      "slug": "elephant-ship"
+    },
+    {
+      "page": "Esgred (ship)",
+      "slug": "esgred-ship"
+    },
+    {
+      "page": "Faithful",
+      "slug": "faithful"
+    },
+    {
+      "page": "Fear",
+      "slug": "fear"
+    },
+    {
+      "page": "Fingerdancer",
+      "slug": "fingerdancer"
+    },
+    {
+      "page": "Foamdrinker",
+      "slug": "foamdrinker"
+    },
+    {
+      "page": "Forlorn Hope",
+      "slug": "forlorn-hope"
+    },
+    {
+      "page": "Fury",
+      "slug": "fury"
+    },
+    {
+      "page": "Gay Abandon",
+      "slug": "gay-abandon"
+    },
+    {
+      "page": "Ghiscari Dawn",
+      "slug": "ghiscari-dawn"
+    },
+    {
+      "page": "Ghost (ship)",
+      "slug": "ghost-ship"
+    },
+    {
+      "page": "Goddess",
+      "slug": "goddess"
+    },
+    {
+      "page": "Godsgrace (ship)",
+      "slug": "godsgrace-ship"
+    },
+    {
+      "page": "Golden Rose",
+      "slug": "golden-rose"
+    },
+    {
+      "page": "Goodheart",
+      "slug": "goodheart"
+    },
+    {
+      "page": "Grand Defiance",
+      "slug": "grand-defiance"
+    },
+    {
+      "page": "Gulltown Girl",
+      "slug": "gulltown-girl"
+    },
+    {
+      "page": "Hardhand",
+      "slug": "hardhand"
+    },
+    {
+      "page": "Harridan",
+      "slug": "harridan"
+    },
+    {
+      "page": "Headless Jeyne",
+      "slug": "headless-jeyne"
+    },
+    {
+      "page": "Hearteater",
+      "slug": "hearteater"
+    },
+    {
+      "page": "Heartsbane",
+      "slug": "heartsbane"
+    },
+    {
+      "page": "Honor of Oldtown",
+      "slug": "honor-of-oldtown"
+    },
+    {
+      "page": "Horn",
+      "slug": "horn"
+    },
+    {
+      "page": "Horn of Herrock",
+      "slug": "horn-of-herrock"
+    },
+    {
+      "page": "Horn of Plenty",
+      "slug": "horn-of-plenty"
+    },
+    {
+      "page": "Horn of Winter",
+      "slug": "horn-of-winter"
+    },
+    {
+      "page": "Horned Honor",
+      "slug": "horned-honor"
+    },
+    {
+      "page": "Huntress",
+      "slug": "huntress"
+    },
+    {
+      "page": "Ice",
+      "slug": "ice"
+    },
+    {
+      "page": "Indigo Star",
+      "slug": "indigo-star"
+    },
+    {
+      "page": "Iron Kiss",
+      "slug": "iron-kiss"
+    },
+    {
+      "page": "Iron Lady",
+      "slug": "iron-lady"
+    },
+    {
+      "page": "Iron Vengeance",
+      "slug": "iron-vengeance"
+    },
+    {
+      "page": "Iron Wind",
+      "slug": "iron-wind"
+    },
+    {
+      "page": "Iron Wing",
+      "slug": "iron-wing"
+    },
+    {
+      "page": "Jolly Salt",
+      "slug": "jolly-salt"
+    },
+    {
+      "page": "Joso's Prank",
+      "slug": "josos-prank"
+    },
+    {
+      "page": "Just Maid",
+      "slug": "just-maid"
+    },
+    {
+      "page": "King Joffrey's Valor",
+      "slug": "king-joffreys-valor"
+    },
+    {
+      "page": "King Robert's Hammer",
+      "slug": "king-roberts-hammer"
+    },
+    {
+      "page": "Kingfisher",
+      "slug": "kingfisher"
+    },
+    {
+      "page": "Kingslander",
+      "slug": "kingslander"
+    },
+    {
+      "page": "Kite (ship)",
+      "slug": "kite-ship"
+    },
+    {
+      "page": "Kraken's Kiss",
+      "slug": "krakens-kiss"
+    },
+    {
+      "page": "Lady's Shame",
+      "slug": "ladys-shame"
+    },
+    {
+      "page": "Lady Bright",
+      "slug": "lady-bright"
+    },
+    {
+      "page": "Lady Forlorn",
+      "slug": "lady-forlorn"
+    },
+    {
+      "page": "Lady Harra",
+      "slug": "lady-harra"
+    },
+    {
+      "page": "Lady Joanna",
+      "slug": "lady-joanna"
+    },
+    {
+      "page": "Lady Lu",
+      "slug": "lady-lu"
+    },
+    {
+      "page": "Lady Lyanna",
+      "slug": "lady-lyanna"
+    },
+    {
+      "page": "Lady Olenna",
+      "slug": "lady-olenna"
+    },
+    {
+      "page": "Lady of Myr",
+      "slug": "lady-of-myr"
+    },
+    {
+      "page": "Lady of Silk",
+      "slug": "lady-of-silk"
+    },
+    {
+      "page": "Lady of the Tower",
+      "slug": "lady-of-the-tower"
+    },
+    {
+      "page": "Lamentation (ship)",
+      "slug": "lamentation-ship"
+    },
+    {
+      "page": "Lamentation (sword)",
+      "slug": "lamentation-sword"
+    },
+    {
+      "page": "Lance",
+      "slug": "lance"
+    },
+    {
+      "page": "Lance (ship)",
+      "slug": "lance-ship"
+    },
+    {
+      "page": "Laughing Lion",
+      "slug": "laughing-lion"
+    },
+    {
+      "page": "Laughing Lord",
+      "slug": "laughing-lord"
+    },
+    {
+      "page": "Leviathan (ship)",
+      "slug": "leviathan-ship"
+    },
+    {
+      "page": "Lightbringer",
+      "slug": "lightbringer"
+    },
+    {
+      "page": "Lion's Tooth",
+      "slug": "lions-tooth"
+    },
+    {
+      "page": "Lioness",
+      "slug": "lioness"
+    },
+    {
+      "page": "Lionstar",
+      "slug": "lionstar"
+    },
+    {
+      "page": "Lisping Lady",
+      "slug": "lisping-lady"
+    },
+    {
+      "page": "Littlefinger's blade",
+      "slug": "littlefingers-blade"
+    },
+    {
+      "page": "Longclaw",
+      "slug": "longclaw"
+    },
+    {
+      "page": "Lord Aethan's Glory",
+      "slug": "lord-aethans-glory"
+    },
+    {
+      "page": "Lord Dagon",
+      "slug": "lord-dagon"
+    },
+    {
+      "page": "Lord Renly",
+      "slug": "lord-renly"
+    },
+    {
+      "page": "Lord Steffon",
+      "slug": "lord-steffon"
+    },
+    {
+      "page": "Lord Tywin",
+      "slug": "lord-tywin"
+    },
+    {
+      "page": "Lord Vickon",
+      "slug": "lord-vickon"
+    },
+    {
+      "page": "Loyal Man",
+      "slug": "loyal-man"
+    },
+    {
+      "page": "Mad Prendos (galley)",
+      "slug": "mad-prendos-galley"
+    },
+    {
+      "page": "Maiden's Bane",
+      "slug": "maidens-bane"
+    },
+    {
+      "page": "Melantine",
+      "slug": "melantine"
+    },
+    {
+      "page": "Merling King",
+      "slug": "merling-king"
+    },
+    {
+      "page": "Mermaid's Kiss",
+      "slug": "mermaids-kiss"
+    },
+    {
+      "page": "Moonrunner",
+      "slug": "moonrunner"
+    },
+    {
+      "page": "Morning Tide",
+      "slug": "morning-tide"
+    },
+    {
+      "page": "Mouse (ship)",
+      "slug": "mouse-ship"
+    },
+    {
+      "page": "Narraqqa",
+      "slug": "narraqqa"
+    },
+    {
+      "page": "Needle",
+      "slug": "needle"
+    },
+    {
+      "page": "Nessaria",
+      "slug": "nessaria"
+    },
+    {
+      "page": "Nightfall",
+      "slug": "nightfall"
+    },
+    {
+      "page": "North Star",
+      "slug": "north-star"
+    },
+    {
+      "page": "Nymeria (ship)",
+      "slug": "nymeria-ship"
+    },
+    {
+      "page": "Oathkeeper",
+      "slug": "oathkeeper"
+    },
+    {
+      "page": "Old Mother's Son",
+      "slug": "old-mothers-son"
+    },
+    {
+      "page": "Old warhorn",
+      "slug": "old-warhorn"
+    },
+    {
+      "page": "Oledo",
+      "slug": "oledo"
+    },
+    {
+      "page": "Orphan-Maker",
+      "slug": "orphan-maker"
+    },
+    {
+      "page": "Peregrine",
+      "slug": "peregrine"
+    },
+    {
+      "page": "Piety",
+      "slug": "piety"
+    },
+    {
+      "page": "Prayer",
+      "slug": "prayer"
+    },
+    {
+      "page": "Pride of Driftmark",
+      "slug": "pride-of-driftmark"
+    },
+    {
+      "page": "Princess Daena",
+      "slug": "princess-daena"
+    },
+    {
+      "page": "Princess Myrcella",
+      "slug": "princess-myrcella"
+    },
+    {
+      "page": "Princess Rhaenys",
+      "slug": "princess-rhaenys"
+    },
+    {
+      "page": "Pureborn Princess",
+      "slug": "pureborn-princess"
+    },
+    {
+      "page": "Queen Alysanne",
+      "slug": "queen-alysanne"
+    },
+    {
+      "page": "Queen Cersei",
+      "slug": "queen-cersei"
+    },
+    {
+      "page": "Queen Margaery",
+      "slug": "queen-margaery"
+    },
+    {
+      "page": "Ragged Jenna",
+      "slug": "ragged-jenna"
+    },
+    {
+      "page": "Ramshead",
+      "slug": "ramshead"
+    },
+    {
+      "page": "Ravenfeeder",
+      "slug": "ravenfeeder"
+    },
+    {
+      "page": "Reaper's Wind",
+      "slug": "reapers-wind"
+    },
+    {
+      "page": "Red Claw",
+      "slug": "red-claw"
+    },
+    {
+      "page": "Red Rain",
+      "slug": "red-rain"
+    },
+    {
+      "page": "Red Raven (ship)",
+      "slug": "red-raven-ship"
+    },
+    {
+      "page": "Red Tide",
+      "slug": "red-tide"
+    },
+    {
+      "page": "Robert's warhammer",
+      "slug": "roberts-warhammer"
+    },
+    {
+      "page": "Saathos Saan (ship)",
+      "slug": "saathos-saan-ship"
+    },
+    {
+      "page": "Saduleon",
+      "slug": "saduleon"
+    },
+    {
+      "page": "Salty Wench",
+      "slug": "salty-wench"
+    },
+    {
+      "page": "Sceptre",
+      "slug": "sceptre"
+    },
+    {
+      "page": "Scorpion (weapon)",
+      "slug": "scorpion-weapon"
+    },
+    {
+      "page": "Sea Bitch",
+      "slug": "sea-bitch"
+    },
+    {
+      "page": "Sea Demon",
+      "slug": "sea-demon"
+    },
+    {
+      "page": "Seaflower",
+      "slug": "seaflower"
+    },
+    {
+      "page": "Seahorse",
+      "slug": "seahorse"
+    },
+    {
+      "page": "Seastrider",
+      "slug": "seastrider"
+    },
+    {
+      "page": "Seaswift",
+      "slug": "seaswift"
+    },
+    {
+      "page": "Seven Skulls",
+      "slug": "seven-skulls"
+    },
+    {
+      "page": "Seventh Son",
+      "slug": "seventh-son"
+    },
+    {
+      "page": "Shade",
+      "slug": "shade"
+    },
+    {
+      "page": "Shark (ship)",
+      "slug": "shark-ship"
+    },
+    {
+      "page": "Ship (playhouse)",
+      "slug": "ship-playhouse"
+    },
+    {
+      "page": "Shy Maid",
+      "slug": "shy-maid"
+    },
+    {
+      "page": "Silken Spirit",
+      "slug": "silken-spirit"
+    },
+    {
+      "page": "Silverfin",
+      "slug": "silverfin"
+    },
+    {
+      "page": "Sparrowhawk",
+      "slug": "sparrowhawk"
+    },
+    {
+      "page": "Spicetown Girl",
+      "slug": "spicetown-girl"
+    },
+    {
+      "page": "Stag of the Sea",
+      "slug": "stag-of-the-sea"
+    },
+    {
+      "page": "Summer's Dream",
+      "slug": "summers-dream"
+    },
+    {
+      "page": "Summer Sun",
+      "slug": "summer-sun"
+    },
+    {
+      "page": "Swan ship",
+      "slug": "swan-ship"
+    },
+    {
+      "page": "Sweet Cersei",
+      "slug": "sweet-cersei"
+    },
+    {
+      "page": "Swift Sword",
+      "slug": "swift-sword"
+    },
+    {
+      "page": "Swordfish (ship)",
+      "slug": "swordfish-ship"
+    },
+    {
+      "page": "Thrall's Bane",
+      "slug": "thralls-bane"
+    },
+    {
+      "page": "Treasure",
+      "slug": "treasure"
+    },
+    {
+      "page": "Triarch's Daughter",
+      "slug": "triarchs-daughter"
+    },
+    {
+      "page": "Trident Three",
+      "slug": "trident-three"
+    },
+    {
+      "page": "Truth (sword)",
+      "slug": "truth-sword"
+    },
+    {
+      "page": "Turtle (siege engine)",
+      "slug": "turtle-siege-engine"
+    },
+    {
+      "page": "Valyrian (ship)",
+      "slug": "valyrian-ship"
+    },
+    {
+      "page": "Valyrian steel",
+      "slug": "valyrian-steel"
+    },
+    {
+      "page": "Vigilance",
+      "slug": "vigilance"
+    },
+    {
+      "page": "Warhammer",
+      "slug": "warhammer"
+    },
+    {
+      "page": "Warrior Wench",
+      "slug": "warrior-wench"
+    },
+    {
+      "page": "Watercraft",
+      "slug": "watercraft"
+    },
+    {
+      "page": "White Widow",
+      "slug": "white-widow"
+    },
+    {
+      "page": "Whore (weapon)",
+      "slug": "whore-weapon"
+    },
+    {
+      "page": "Widow's Wail",
+      "slug": "widows-wail"
+    },
+    {
+      "page": "Willing Maiden",
+      "slug": "willing-maiden"
+    },
+    {
+      "page": "Windproud",
+      "slug": "windproud"
+    },
+    {
+      "page": "Wise Woman",
+      "slug": "wise-woman"
+    },
+    {
+      "page": "Woe",
+      "slug": "woe"
+    }
+  ]
+}

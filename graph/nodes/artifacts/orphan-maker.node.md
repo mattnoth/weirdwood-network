@@ -1,0 +1,30 @@
+---
+name: "Orphan-Maker"
+type: object.artifact
+slug: orphan-maker
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Orphan-Maker"
+bucket_id: tier3-pathb-artifacts
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Orphan-Maker is an artifact (named weapon, ship, or object) from the AWOIAF wiki.
+
+## Edges
+
+
+## Appearances & Description
+
+It is Valyrian steel longsword with a black blade.(wiki:Orphan-Maker.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+## Origins
+
+Ser [Jon Roxton](wiki:Jon_Roxton) wielded the blade during the [Targaryen](wiki:House_Targaryen) civil war known as the [Dance of the Dragons](wiki:Dance_of_the_Dragons) while fighting for King [Aegon II Targaryen](wiki:Aegon_II_Targaryen) and the [greens](wiki:Greens). During the [Battle on the Honeywine](wiki:Battle_on_the_Honeywine) in [130 AC](wiki:130_AC), he used it to deliver a fatal wound to Lord [Owen Costayne](wiki:Owen_Costayne).(wiki:Orphan-Maker.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) Jon [knighted](wiki:Knight) [Titus Peake](wiki:Titus_Peake_(son_of_Unwin)) after the battle for valor in the field.(wiki:Orphan-Maker.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) He presumably used Orphan-Maker for the ceremony.
+Later that year, Jon used Orphan-Maker to split in two [Lord Footly](wiki:Lord_Footly) in the aftermath of the [First Battle of Tumbleton](wiki:First_Battle_of_Tumbleton)(wiki:Orphan-Maker.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) and [Hugh Hammer](wiki:Hugh_Hammer) during the [second battle](wiki:Second_Battle_of_Tumbleton).(wiki:Orphan-Maker.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) Jon was immediately killed by Hugh's men in retribution, however.(wiki:Orphan-Maker.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
+The sword came into the possession of another [green commander](wiki:Caltrops) and the father of the late Ser Titus, Lord [Unwin Peake](wiki:Unwin_Peake). When Peake became [Hand of the King](wiki:Hand_of_the_King) during the [regency](wiki:Regency_of_Aegon_III) of young king [Aegon III Targaryen](wiki:Aegon_III_Targaryen) in [133 AC](wiki:133_AC), he drew Orphan-Maker, declaring that unlike the previous Hand, the blind and crippled Ser [Tyland Lannister](wiki:Tyland_Lannister), he could still wield a sword.(wiki:Orphan-Maker.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+The sword's current whereabouts are unknown.

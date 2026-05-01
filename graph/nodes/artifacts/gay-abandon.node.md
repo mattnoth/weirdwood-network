@@ -1,0 +1,24 @@
+---
+name: "Gay Abandon"
+type: object.artifact
+slug: gay-abandon
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Gay_Abandon"
+bucket_id: tier3-pathb-artifacts
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Gay Abandon is an artifact (named weapon, ship, or object) from the AWOIAF wiki.
+
+## Edges
+
+
+## Origins
+
+Two [Targaryen](wiki:House_Targaryen) princes, [Aegon the Younger](wiki:Aegon_III_Targaryen) and [Viserys](wiki:Viserys_II_Targaryen), were to be fostered by the [Prince of Pentos](wiki:Prince_of_Pentos) near the start of the civil war. While carrying them to [Pentos](wiki:Pentos), the Gay Abandon met ninety warships of the [Triarchy](wiki:Triarchy) sailing from the [Stepstones](wiki:Stepstones) to the [Gullet](wiki:Gullet). Aegon managed to fly away atop his dragon, [Stormcloud](wiki:Stormcloud), but Viserys remaining behind. Viserys was eventually captured by a [Tyroshi](wiki:Tyrosh) captain who brought him to [Sharako Lohar](wiki:Sharako_Lohar), the Triarchy's admiral. Shortly thereafter the [Battle of the Gullet](wiki:Battle_of_the_Gullet) took place.(wiki:Gay_Abandon.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
+The fate of Viserys remained unknown to his family until his return to [King's Landing](wiki:King's_Landing) five years later.(wiki:Gay_Abandon.cite_ref-Rfabunder_the_regents_-_the_voyage_of_alyn_oakenfist.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
