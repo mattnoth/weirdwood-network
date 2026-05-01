@@ -3,7 +3,7 @@
 
 Two stages:
 
-  Stage 1 — page-level categorization (page-categories.jsonl)
+  Stage 1 — page-level triage (triage-bucket-assignments.jsonl)
   Stage 2 — bucket-level grouping + manifest emission
 
 Reads from:
@@ -13,7 +13,7 @@ Reads from:
   sources/wiki/_uncategorized/<slug>.md    — 16,943 pages with derived frontmatter
 
 Writes to:
-  working/wiki-parsed/page-categories.jsonl  — page-level row (17,657 rows)
+  working/wiki-parsed/triage-bucket-assignments.jsonl  — page-level row (17,657 rows)
   working/wiki-parsed/triage-manifest.jsonl  — bucket membership (canonical)
   working/wiki-parsed/draft-buckets.jsonl    — bucket summary (review view)
 
@@ -66,7 +66,7 @@ INFOBOX_DATA_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "infobox-data.jso
 PAGE_INDEX_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "page-index.jsonl"
 HOUSES_DIR = PROJECT_ROOT / "sources" / "wiki" / "houses"
 UNCATEGORIZED_DIR = PROJECT_ROOT / "sources" / "wiki" / "_uncategorized"
-OUTPUT_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "page-categories.jsonl"
+OUTPUT_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "triage-bucket-assignments.jsonl"
 TRIAGE_MANIFEST_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "triage-manifest.jsonl"
 DRAFT_BUCKETS_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "draft-buckets.jsonl"
 WIKI_PASS2_DIR = PROJECT_ROOT / "working" / "wiki-pass2"

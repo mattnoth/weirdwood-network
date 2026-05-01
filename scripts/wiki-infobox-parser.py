@@ -54,6 +54,7 @@ OUTPUT_DIR = PROJECT_ROOT / "working" / "wiki-parsed"
 
 INFOBOX_DATA_FILE = OUTPUT_DIR / "infobox-data.jsonl"
 PAGE_INDEX_FILE = OUTPUT_DIR / "page-index.jsonl"
+PAGE_CATEGORIES_FILE = OUTPUT_DIR / "page-categories.jsonl"
 STATS_FILE = OUTPUT_DIR / "parse-stats.md"
 
 BOOKS = ["agot", "acok", "asos", "affc", "adwd"]
@@ -659,7 +660,7 @@ def classify_by_page_name(page_name):
        classified as organization.faction rather than organization.house.
     3. "House " prefix → organization.house (catches genuine house pages after
        any more-specific patterns have had their chance to match).
-    4. None (caller falls through to infobox field-signature classification)
+    4. None (caller falls through to category-based, then infobox-based)
     """
     if page_name in ENTITY_TYPE_OVERRIDES:
         return ENTITY_TYPE_OVERRIDES[page_name]
@@ -669,6 +670,165 @@ def classify_by_page_name(page_name):
     if page_name.startswith("House "):
         return "organization.house"
     return None
+
+
+# ---------------------------------------------------------------------------
+# MediaWiki category → entity type classification
+# ---------------------------------------------------------------------------
+# Backfilled 2026-04-30 (Path B): the original wiki crawl stripped catlinks
+# footers, leaving 70.4% of pages classified as `unknown` because the
+# infobox-only path doesn't recognize swords / books / songs / castles / etc.
+# The exception-fetch script `scripts/wiki-fetch-categories.py` populated
+# `working/wiki-parsed/page-categories.jsonl` with MediaWiki categories for
+# all 17,657 pages. This table maps those categories to project entity types.
+#
+# Order of precedence in process_page():
+#   1. ENTITY_TYPE_OVERRIDES (explicit per-page) — always wins
+#   2. PAGE_NAME_TYPE_PATTERNS (e.g. "X War" → event.war)
+#   3. classify_by_categories() — MediaWiki categories, mapped via this table
+#   4. classify_by_species() — Species infobox field for dragons/direwolves
+#   5. classify_entity_type() — infobox-field-signature heuristics
+#   6. "unknown" — fallback
+#
+# Rules for adding patterns:
+#   - First-match-wins: order patterns from most-specific to most-general.
+#   - Use anchors (^/$) to avoid accidental cross-matches.
+#   - Skip-categories (Redirect, Disambiguation, TV-only) return SKIP_CATEGORY
+#     so the caller can drop these from promotion entirely.
+SKIP_CATEGORY = "__SKIP__"
+
+CATEGORY_TYPE_MAP = [
+    # --- Skip categories (caller filters these out of promotion) ---
+    (re.compile(r"^Redirect$", re.IGNORECASE), SKIP_CATEGORY),
+    (re.compile(r"^Disambiguation pages$", re.IGNORECASE), SKIP_CATEGORY),
+    # TV-only content — pages exist for TV episodes / seasons / cast that
+    # aren't in-universe. Skip these from promotion. Real TV-vs-canon split
+    # could go to a separate `tv-` namespace but that's deferred.
+    (re.compile(r"^TV series$", re.IGNORECASE), SKIP_CATEGORY),
+    (re.compile(r"^Episodes$", re.IGNORECASE), SKIP_CATEGORY),
+    (re.compile(r"^House of the Dragon", re.IGNORECASE), SKIP_CATEGORY),
+    (re.compile(r"^Game of Thrones", re.IGNORECASE), SKIP_CATEGORY),
+
+    # --- Specific high-confidence type categories ---
+    # Artifacts (swords, weapons, ships, dragon eggs, named objects)
+    (re.compile(r"^(Valyrian steel blades|Swords|Weapons|Bows|Daggers|Lances|Spears|Maces|Axes|Whips|Crowns|Horns|Armor|Shields|Banners)$", re.IGNORECASE), "object.artifact"),
+    (re.compile(r"^(Ships|Galleys|Cogs|Warships)$", re.IGNORECASE), "object.artifact"),
+    (re.compile(r"^(Dragon eggs|Cyvasse pieces|Game pieces)$", re.IGNORECASE), "object.artifact"),
+
+    # Texts (books, songs, decrees, letters)
+    (re.compile(r"^(Books|Books and scrolls|Texts|Decrees|Letters|Documents|Manuscripts|Chronicles|Histories|Treatises)$", re.IGNORECASE), "object.text"),
+    (re.compile(r"^(Songs|Ballads|Anthems|Mottoes)$", re.IGNORECASE), "object.text"),
+
+    # Events
+    (re.compile(r"^(Battles|Sieges|Skirmishes)$", re.IGNORECASE), "event.battle"),
+    (re.compile(r"^(Wars|Rebellions|Conquests|Invasions|Campaigns|Conflicts|Crusades)$", re.IGNORECASE), "event.war"),
+    (re.compile(r"^(Rhoynish Wars|Wars of Conquest|Dance of the Dragons)", re.IGNORECASE), "event.war"),
+    (re.compile(r"^Tournaments$", re.IGNORECASE), "event.battle"),  # tournaments are single-event-shaped
+
+    # Places
+    (re.compile(r"^(Castles|Keeps|Holdfasts|Towers|Strongholds|Fortresses|Forts|Watchtowers)", re.IGNORECASE), "place.location"),
+    (re.compile(r"^(Cities|Towns|Villages|Settlements|Hamlets|Holds)$", re.IGNORECASE), "place.location"),
+    (re.compile(r"^(Free Cities|City states)$", re.IGNORECASE), "place.location"),
+    (re.compile(r"^(Inns|Septs|Temples|Sept of)", re.IGNORECASE), "place.location"),
+    (re.compile(r"^(Brothels|Taverns)$", re.IGNORECASE), "place.location"),
+    (re.compile(r"^(Islands|Mountains|Rivers|Seas|Bays|Forests|Lakes|Marshes|Plains|Hills|Valleys|Caves|Tunnels|Roads|Crossings|Fords|Passes|Ruins)$", re.IGNORECASE), "place.location"),
+    (re.compile(r"^(Regions|Realms|Kingdoms|Continents|Territories)$", re.IGNORECASE), "place.region"),
+    (re.compile(r"^Places (in|of) ", re.IGNORECASE), "place.location"),
+
+    # Organizations
+    (re.compile(r"^Noble houses$", re.IGNORECASE), "organization.house"),
+    (re.compile(r"^Houses ", re.IGNORECASE), "organization.house"),
+    (re.compile(r"^Houses (with|without|from|of) ", re.IGNORECASE), "organization.house"),
+    (re.compile(r"^(Knightly orders|Sworn brotherhoods|Sellsword companies|Mercenary companies|Guilds|Orders|Brotherhoods|Sisterhoods|Cults|Crews)$", re.IGNORECASE), "organization.faction"),
+    (re.compile(r"^(Religions|Religious orders|Faiths|Pantheons)$", re.IGNORECASE), "organization.religion"),
+    (re.compile(r"^Cultures$", re.IGNORECASE), "concept.culture"),
+
+    # Species (biological types — NOT individuals)
+    (re.compile(r"^(Species|Magical creatures|Magical races|Sentient species)$", re.IGNORECASE), "species"),
+
+    # Concepts
+    (re.compile(r"^(Magic|Magical phenomena|Magical abilities|Magical objects)$", re.IGNORECASE), "concept.magic"),
+    (re.compile(r"^(Prophecies|Prophetic dreams|Visions)$", re.IGNORECASE), "concept.prophecy"),
+
+    # Titles
+    (re.compile(r"^Titles$", re.IGNORECASE), "title"),
+
+    # --- Lower-confidence / character-default patterns (fall last) ---
+    # Specific character categories
+    (re.compile(r"^Characters from ", re.IGNORECASE), "character.human"),
+    (re.compile(r"^Character pages ", re.IGNORECASE), "character.human"),  # meta tag
+    (re.compile(r"^(Nobles|Noblewomen|Smallfolk|Knights|Squires|Septons|Septas|Maesters|Grand Maesters|Bastards|Slaves|Sellswords|Hedge knights|Mercenaries)$", re.IGNORECASE), "character.human"),
+    (re.compile(r"^(Casualties of |Slain in )", re.IGNORECASE), "character.human"),  # death tags imply person
+    (re.compile(r"^(Kings|Queens|Princes|Princesses|Lords|Ladies|Dukes|Counts|Sers)$", re.IGNORECASE), "character.human"),
+    (re.compile(r"^Unnamed characters$", re.IGNORECASE), "character.human"),
+    (re.compile(r"^(Wildlings|Free folk)$", re.IGNORECASE), "character.human"),  # individual wildling pages
+    (re.compile(r"birth(s|ed)?$", re.IGNORECASE), "character.human"),  # "263 AC births"
+    (re.compile(r"death(s|ed)?$", re.IGNORECASE), "character.human"),  # "299 AC deaths"
+]
+
+
+def classify_by_categories(categories):
+    """Classify entity by MediaWiki categories.
+
+    Args:
+        categories: list[str] — category names (without "Category:" prefix)
+
+    Returns:
+        - SKIP_CATEGORY string if any skip-pattern matches → caller drops page
+        - Entity type string ("object.artifact", "place.location", etc.) on first match
+        - None if no pattern matches → caller falls through to infobox-based
+    """
+    if not categories:
+        return None
+
+    # First pass: skip-categories take priority (Redirect, Disambiguation, TV)
+    for cat in categories:
+        for pattern, etype in CATEGORY_TYPE_MAP:
+            if etype == SKIP_CATEGORY and pattern.search(cat):
+                return SKIP_CATEGORY
+
+    # Second pass: type categories. First match across (category × pattern) wins.
+    # Walk patterns in order so high-confidence patterns beat low-confidence
+    # patterns when a page has multiple categories.
+    for pattern, etype in CATEGORY_TYPE_MAP:
+        if etype == SKIP_CATEGORY:
+            continue
+        for cat in categories:
+            if pattern.search(cat):
+                return etype
+
+    return None
+
+
+# Module-level cache for page-categories.jsonl (loaded once in main()).
+_PAGE_CATEGORIES: dict[str, list[str]] = {}
+
+
+def load_page_categories():
+    """Load working/wiki-parsed/page-categories.jsonl into _PAGE_CATEGORIES dict.
+
+    Called once from main() before processing pages. Returns count loaded.
+    Returns 0 if the file doesn't exist (parser still works in legacy mode).
+    """
+    global _PAGE_CATEGORIES
+    if not PAGE_CATEGORIES_FILE.exists():
+        return 0
+    n = 0
+    with open(PAGE_CATEGORIES_FILE, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                rec = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            page = rec.get("page")
+            cats = rec.get("categories") or []
+            if page:
+                _PAGE_CATEGORIES[page] = cats
+                n += 1
+    return n
 
 
 # ---------------------------------------------------------------------------
@@ -1077,21 +1237,43 @@ def process_page(page_name, html_str, chapter_map, verbose=False):
     # Full count across all books
     total_cite_refs = sum(cr_counts.values())
 
-    # --- Categories (parse API HTML doesn't include mw-normal-catlinks footer) ---
-    # Extract whatever Category: hrefs exist (usually just gallery image links)
-    category_hrefs = re.findall(r'href="/index\.php/Category:([^"]+)"', html_str, re.IGNORECASE)
-    categories = list({
-        href.replace("_", " ").split("?")[0]
-        for href in category_hrefs
-        if "Images_of" not in href and "images of" not in href.lower()
-    })
-    # Add page-name-based category hint
+    # --- Categories ---
+    # Primary source: working/wiki-parsed/page-categories.jsonl, populated by
+    # scripts/wiki-fetch-categories.py (Path B exception fetch, 2026-04-30).
+    # The original wiki crawl stripped catlinks footers, so the inline href
+    # extraction below is a fallback only.
+    categories = list(_PAGE_CATEGORIES.get(page_name, []))
+    if not categories:
+        # Fallback: extract whatever Category: hrefs exist in the body HTML
+        # (usually just gallery image links — but better than nothing if the
+        # categories cache is missing for this page).
+        category_hrefs = re.findall(r'href="/index\.php/Category:([^"]+)"', html_str, re.IGNORECASE)
+        categories = list({
+            href.replace("_", " ").split("?")[0]
+            for href in category_hrefs
+            if "Images_of" not in href and "images of" not in href.lower()
+        })
+
+    # Page-name hint (overrides + regex patterns + "House " prefix)
     name_hint = classify_by_page_name(page_name)
 
-    # --- Entity type guess ---
-    if not has_infobox:
-        entity_type_guess = name_hint or "unknown"
+    # Category-based classification (NEW 2026-04-30; MediaWiki category mapping)
+    cat_hint = classify_by_categories(categories)
+
+    # Skip-category check: if categories say this is a Redirect / Disambiguation /
+    # TV-only page, mark the page as such so callers can drop it from promotion.
+    if cat_hint == SKIP_CATEGORY:
+        # Surface skip status via index_record.skip_reason (not a real entity type).
+        # Don't return early — still emit the page-index record so the skip is
+        # visible in audits.
+        skip_reason = "category-skip"
+        entity_type_guess = "skip"
+    elif not has_infobox:
+        # Without infobox, prefer name_hint > cat_hint > unknown
+        skip_reason = None
+        entity_type_guess = name_hint or cat_hint or "unknown"
     else:
+        skip_reason = None
         # Parse infobox fields
         field_parser = InfoboxFieldParser()
         try:
@@ -1109,7 +1291,8 @@ def process_page(page_name, html_str, chapter_map, verbose=False):
                 fields_dict[clean_name] = td_html
 
         fields_lower = {k.lower() for k in fields_dict}
-        entity_type_guess = name_hint or classify_entity_type(fields_lower)
+        # Resolution order: name_hint > cat_hint > infobox-field-signature > unknown
+        entity_type_guess = name_hint or cat_hint or classify_entity_type(fields_lower)
 
         # Species-based type override: if the infobox has a "Species" field whose
         # value is "Dragon" or "Direwolf", override the type regardless of what
@@ -1137,8 +1320,13 @@ def process_page(page_name, html_str, chapter_map, verbose=False):
         "has_infobox": has_infobox,
         "byte_size": byte_size,
     }
+    if skip_reason:
+        index_record["skip_reason"] = skip_reason
 
-    if not has_infobox:
+    # Skip-categorized pages don't get an infobox-data.jsonl row even if they
+    # have an infobox HTML structure (Disambiguation/Redirect/TV pages have
+    # infoboxes but their content isn't useful as an entity edge source).
+    if skip_reason or not has_infobox:
         return None, index_record, warnings
 
     # --- Parse infobox fields for infobox-data.jsonl ---
@@ -1361,6 +1549,11 @@ def main():
             print(f"ERROR: Not found: {raw_file}", file=sys.stderr)
             sys.exit(1)
         chapter_map = build_chapter_map()
+        n_cats = load_page_categories()
+        if n_cats:
+            print(f"Loaded MediaWiki categories for {n_cats:,} pages")
+        else:
+            print("No page-categories.jsonl found — proceeding without category data")
         data = json.loads(raw_file.read_text(encoding="utf-8"))
         html_str = data.get("html", "")
         infobox_rec, index_rec, warnings = process_page(
@@ -1385,6 +1578,15 @@ def main():
     chapter_map = build_chapter_map()
     mapped_total = sum(len(v) for v in chapter_map.values())
     print(f"  Mapped {mapped_total} chapters across {len(chapter_map)} books")
+
+    # Load MediaWiki categories (Path B exception fetch — 2026-04-30)
+    print("Loading MediaWiki categories from page-categories.jsonl...")
+    n_cats = load_page_categories()
+    if n_cats:
+        print(f"  Loaded categories for {n_cats:,} pages")
+    else:
+        print("  WARNING: page-categories.jsonl not found — categorization "
+              "will fall back to infobox-only (legacy mode, ~70% unknown)")
 
     # Collect input files
     raw_files = sorted(

@@ -23,11 +23,18 @@ This project builds a queryable knowledge graph for ASOIAF by:
 
 **NEVER commit source texts or chapter files to git.** The `sources/raw/` and `sources/chapters/` directories are gitignored and must stay that way. Do not modify `.gitignore` to remove these exclusions.
 
-## Critical Rule: The Wiki Is Already Local — Never Re-Fetch
+## Critical Rule: The Wiki Is Already Local — Never Re-Fetch (with one narrow exception)
 
-**The entire AWOIAF wiki (17,945 pages, 377 MB) is cached locally at `sources/wiki/_raw/`.** Every Pass 2+ workflow reads from this cache. There is no re-fetching. Ever. No HTTP calls to `awoiaf.westeros.org`. No `WebFetch`, no `curl`, no `requests.get`, no `Playwright`. The Playwright-based scraper was archived to `scripts/archive/wiki-scraper.py` and **must not be restored**. If you think you need to fetch a page, you don't — read it from `sources/wiki/_raw/<Page_Name>.json` instead.
+**The entire AWOIAF wiki (17,945 pages, 377 MB) is cached locally at `sources/wiki/_raw/`.** Every Pass 2+ workflow reads from this cache. There is no re-fetching of page bodies. No `WebFetch`, no full re-crawls, no resurrection of the archived Playwright scraper.
 
-**Never drop anything from `sources/`.** Stub pages, redirect pages, list articles, year articles, disambiguation pages — all stay. Tier them, label them, defer them, but never delete them. Source data is read-only and additive-only.
+**Narrow exception — completion-of-original-crawl operations.** A single bounded fetch is permitted ONLY to fill specific metadata gaps the original crawl missed (e.g., MediaWiki categories, which the `action=parse` API stripped from the HTML footer). Each exception requires explicit per-use approval, must target one specific data field, must NOT write to `sources/`, and must hit the MediaWiki API endpoint via a lightweight client (`cloudscraper` for Cloudflare bypass — verified 2026-04-30). The Playwright-based scraper at `scripts/archive/wiki-scraper.py.archive` remains archived and should NOT be restored — exception fetches use the lighter `cloudscraper` path. New exception-fetch scripts are short, single-purpose, throttled, and write to `working/wiki-parsed/`.
+
+If you think you need to fetch a page's body content, you don't — read it from `sources/wiki/_raw/<Page_Name>.json` instead.
+
+**Approved exception fetches (audit log):**
+- `2026-04-30` — MediaWiki categories backfill (`scripts/wiki-fetch-categories.py` → `working/wiki-parsed/page-categories.jsonl`). Reason: original crawl used `action=parse` which strips catlinks footer; the entity categorizer in the archived scraper depended on category data and never ran for `characters/`, `locations/`, `events/`, `artifacts/` (~17k pages misclassified as `unknown`).
+
+**Never drop anything from `sources/`.** Stub pages, redirect pages, list articles, year articles, disambiguation pages — all stay. Tier them, label them, defer them, but never delete them. Source data is read-only and additive-only. **Exception fetches must NOT write to `sources/`** — outputs land in `working/wiki-parsed/` or `graph/`.
 
 ## Pipeline Sequence
 
