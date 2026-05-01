@@ -1,0 +1,46 @@
+---
+name: "Boneway"
+type: place.location
+slug: boneway
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Boneway"
+bucket_id: tier3-pathb-locations
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Boneway is a location from the AWOIAF wiki.
+
+## Edges
+
+
+## Origins
+
+King [Yorick V Yronwood](wiki:Yorick_V_Yronwood) slew Lord [Mors Martell](wiki:Mors_Martell) in the [Third Battle of the Boneway](wiki:Third_Battle_of_the_Boneway) during [Nymeria's War](wiki:Nymeria's_War).(wiki:Boneway.cite_ref-Rtwoiafancient_history:_ten_thousand_ships.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
+While the [Storm Kings](wiki:Storm_King) were dealing with the advance of [House Hoare](wiki:House_Hoare) into the [riverlands](wiki:Riverlands), [Dornishmen](wiki:Dornishmen) invaded from the Boneway.(wiki:Boneway.cite_ref-Rtwoiafthe_stormlands:_andals_in_the_stormlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)
+When Lord [Orys Baratheon](wiki:Orys_Baratheon) marched a thousand [knights](wiki:Knights) from the stormlands up the Boneway in the [First Dornish War](wiki:First_Dornish_War), hidden [Dornishmen](wiki:Dornishmen) attacked the invaders with arrows, boulders, and spears.(wiki:Boneway.cite_ref-Rfabreign_of_the_dragon_-_the_wars_of_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)(wiki:Boneway.cite_ref-Rtwoiafdorne:_dorne_against_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0) While crossing a bridge on the [Wyl](wiki:Wyl_(river)), the stormlanders were ambushed by archers and had their retreat cut off by a rockslide. Orys and a dozen of his bannermen were taken captive by the [Wyl of Wyl](wiki:Wyl_of_Wyl), and the rest of his men were slaughtered.(wiki:Boneway.cite_ref-Rfabreign_of_the_dragon_-_the_wars_of_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2)
+During his [conquest of Dorne](wiki:Conquest_of_Dorne) in [157 AC](wiki:Years_after_Aegon's_Conquest), King [Daeron I Targaryen](wiki:Daeron_I_Targaryen) used dangerous goat tracks(wiki:Boneway.cite_ref-Rtwoiafthe_targyaren_kings:_daeron_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0) to evade the watchtowers of the Boneway.(wiki:Boneway.cite_ref-Radwd17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0) The Dornish killed Lord [Lyonel Tyrell](wiki:Lyonel_Tyrell_(lord)) at [Sandstone](wiki:Sandstone) and rose in rebellion, so the Young Dragon returned to [Dorne](wiki:Dorne) in [160 AC](wiki:160_AC). While Lord [Alyn Velaryon](wiki:Alyn_Velaryon) sailed for the [Planky Town](wiki:Planky_Town) and the [Greenblood](wiki:Greenblood), King Daeron achieved some victories along the Boneway. The Dornish met Daeron to discuss peace, but the king was killed during the parley and Prince [Aemon Targaryen](wiki:Aemon_Targaryen_(son_of_Viserys_II)) was taken captive.(wiki:Boneway.cite_ref-Rtwoiafthe_targyaren_kings:_daeron_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-1)
+Daeron's brother, [Baelor the Blessed](wiki:Baelor_I_Targaryen), began his reign by walking the Boneway barefoot to make peace between the [Iron Throne](wiki:Iron_Throne) and [Dorne](wiki:Dorne).(wiki:Boneway.cite_ref-Rasos59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0) After meeting the [Prince of Dorne](wiki:Prince_of_Dorne_(father_of_Maron)) in [Sunspear](wiki:Sunspear), Baelor returned north. He recovered Aemon from the Wyls, but was bitten by vipers while doing so. The [septon](wiki:Septon) of a village along the Boneway aided the ailing king, and the Targaryens managed to reach the safety of [Blackhaven](wiki:Blackhaven).(wiki:Boneway.cite_ref-Rtwoiafthe_targyaren_kings:_baelor_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+King [Aegon IV Targaryen](wiki:Aegon_IV_Targaryen) wanted his [mechanical dragons](wiki:Dragons_(mechanical)) to be transported through the Boneway for his invasion of Dorne, but the devices went up in flames in the [kingswood](wiki:Kingswood).(wiki:Boneway.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_iv.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0)
+Ten thousand Dornishmen marched up the Boneway to support [Rhaegar Targaryen](wiki:Rhaegar_Targaryen), [Prince of Dragonstone](wiki:Prince_of_Dragonstone), during [Robert's Rebellion](wiki:Robert's_Rebellion).(wiki:Boneway.cite_ref-Rtwoiafthe_fall_of_the_dragons:_robert.27s_rebellion.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0)
+
+## Narrative Arc
+
+### A Clash of Kings[ ]
+
+[Tyrion Lannister](wiki:Tyrion_Lannister) requests that [Doran Martell](wiki:Doran_Martell), [Prince of Dorne](wiki:Prince_of_Dorne), send his armies to the Boneway to keep the [marcher lords](wiki:Marcher_lords) in their castles as part of the political betrothal of Princess [Myrcella Baratheon](wiki:Myrcella_Baratheon) and Prince [Trystane Martell](wiki:Trystane_Martell).(wiki:Boneway.cite_ref-Rawoiafdornish_marches.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0) Doran promises to move his banners into the high passes once Myrcella arrives safely at [Sunspear](wiki:Sunspear).(wiki:Boneway.cite_ref-Racok41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-0)
+Word eventually reaches [Stannis Baratheon](wiki:Stannis_Baratheon) that the Dornish have fortified the mountain passes, poised to sweep down onto the [Dornish Marches](wiki:Dornish_Marches) while he besieges [Storm's End](wiki:Storm's_End).(wiki:Boneway.cite_ref-Racok42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-0)
+
+### A Feast for Crows[ ]
+
+[Obara Sand](wiki:Obara_Sand) claims that thousands of [Dornishmen](wiki:Dornishmen) are traveling to the Boneway to aid [Ellaria Sand](wiki:Ellaria_Sand) in bringing home the body of Prince [Oberyn Martell](wiki:Oberyn_Martell).(wiki:Boneway.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-0)
+Lord [Anders Yronwood](wiki:Anders_Yronwood) commands a Dornish host in the Boneway.(wiki:Boneway.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-1)
+Ser [Balon Swann](wiki:Balon_Swann) brings the [Mountain's skull](wiki:Mountain's_skull) to [Sunspear](wiki:Sunspear), but he is delayed by [House Wyl](wiki:House_Wyl) with eight days of hunting and [hawking](wiki:Hawk) on the Boneway.(wiki:Boneway.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-0)
+
+### The Winds of Winter[ ]
+
+Two Dornish hosts have massed in the Boneway and the [Prince's Pass](wiki:Prince's_Pass). The hosts sit encamped, waiting for Prince Doran to loose them on the enemies of [House Martell](wiki:House_Martell).(wiki:Boneway.cite_ref-22)

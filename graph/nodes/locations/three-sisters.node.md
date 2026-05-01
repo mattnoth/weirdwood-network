@@ -1,0 +1,67 @@
+---
+name: "Three Sisters"
+type: place.location
+slug: three-sisters
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Three_Sisters"
+bucket_id: tier3-pathb-locations
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Three Sisters is a location from the AWOIAF wiki.
+
+## Edges
+
+
+## Culture
+
+The Three Sisters are within the dominion of the [Vale of Arryn](wiki:Vale_of_Arryn) and are ruled by [House Sunderland](wiki:House_Sunderland). Houses [Borrell](wiki:House_Borrell) of [Sweetsister](wiki:Sweetsister), [Longthorpe](wiki:House_Longthorpe) of [Longsister](wiki:Longsister), and [Torrent](wiki:House_Torrent) of [Littlesister](wiki:Littlesister) are sworn to the Sunderlands. The Three Sisters are sworn to [House Arryn](wiki:House_Arryn) of the Vale, but the [Eyrie](wiki:Eyrie)'s grasp upon the islands is tenuous at best.(wiki:Three_Sisters.cite_ref-Radwd9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+Ships go between the Three Sisters and [White Harbor](wiki:White_Harbor) all the time. The Sisters sell crab, fish, and goat [cheese](wiki:Cheese) to White Harbor, and in return the city sells them wood, wool, and hides.(wiki:Three_Sisters.cite_ref-Radwd9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+[Sister's stew](wiki:Sister's_stew) is a white seafood stew that is served all over the Three Sisters, in every inn and tavern.(wiki:Three_Sisters.cite_ref-Radwd9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
+Beacons burn along the shores of the Three Sisters to warn passing ships of danger. The [Night Lamp](wiki:Night_Lamp) of [Sisterton](wiki:Sisterton) is a prominent beacon operated by House Borrell. Some disreputable Sistermen use false lights to lure ships into wrecks to take their cargo.(wiki:Three_Sisters.cite_ref-Radwd9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
+Sailors from the Sisters have been known to work the rich fishing grounds of the westernmost reaches of the [Shivering Sea](wiki:Shivering_Sea), an area controlled by [Braavos](wiki:Braavos).(wiki:Three_Sisters.cite_ref-Rtwoiafbeyond_the_free_cities:_the_shivering_sea.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
+
+## Origins
+
+### Pirate Kings[ ]
+
+The Sistermen of antiquity worshiped the [Lady of the Waves](wiki:Lady_of_the_Waves) and the [Lord of the Skies](wiki:Lord_of_the_Skies) instead of the [old gods](wiki:Old_gods) of the [children of the forest](wiki:Children_of_the_forest), who had been adopted by the [First Men](wiki:First_Men) of mainland [Westeros](wiki:Westeros). The Sistermen of that time cast [dwarfs](wiki:Dwarf) into the sea as an offering to the gods. [Septons](wiki:Septon) stopped the practice after the [coming of the Andals](wiki:Coming_of_the_Andals) and the arrival of the [Faith of the Seven](wiki:Faith_of_the_Seven), however.(wiki:Three_Sisters.cite_ref-Radwd9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
+The Sistermen of old were a free people ruled by [local kings](wiki:King_of_the_Three_Sisters). These [pirates](wiki:Pirates) and raiders sent longships into the [Bite](wiki:Bite), the [narrow sea](wiki:Narrow_sea), and the [Shivering Sea](wiki:Shivering_Sea) to reave and capture [slaves](wiki:Slavery).(wiki:Three_Sisters.cite_ref-Rtwoiafthe_vale.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) Raiders from the Three Sisters once captured the [Wolf's Den](wiki:Wolf's_Den) and made it their toehold in the north,(wiki:Three_Sisters.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)(wiki:Three_Sisters.cite_ref-Rtwoiafthe_north:_the_kings_of_winter.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0) and Sistermen also raided the eastern coasts of the [riverlands](wiki:Riverlands).(wiki:Three_Sisters.cite_ref-Rtwoiafthe_riverlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0) King [Theon Stark](wiki:Theon_Stark) conquered the three islands at some point.(wiki:Three_Sisters.cite_ref-Rtwoiafthe_north:_the_kings_of_winter.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-1)
+
+### Arryn Era[ ]
+
+In retaliation for the raids,(wiki:Three_Sisters.cite_ref-Rtwoiafthe_vale.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1) [maesters](wiki:Maesters) say that two thousand years ago the islands were conquered by the [north](wiki:North) in an invasion known as the [Rape of the Three Sisters](wiki:Rape_of_the_Three_Sisters). The Sistermen bent the knee to the [Eyrie](wiki:Eyrie) to expel the northmen, ending the era of native kings on the Sisters. The [Kings of Mountain and Vale](wiki:Kings_of_Mountain_and_Vale) from [House Arryn](wiki:House_Arryn) and the [Kings in the North](wiki:Kings_in_the_North) from [House Stark](wiki:House_Stark) fought over the Three Sisters for a thousand years in the [War Across the Water](wiki:War_Across_the_Water),(wiki:Three_Sisters.cite_ref-Rtwoiafthe_vale.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2) depleting much of the islands' resources.(wiki:Three_Sisters.cite_ref-Radwd9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-7) The largest port of the Three Sisters, [Sisterton](wiki:Sisterton), remembers the northern invasion and some Sistermen still resent northmen.(wiki:Three_Sisters.cite_ref-Radwd9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-8)
+[Pirate](wiki:Pirate) lords from the Sisters and [slavers](wiki:Slavers) from the [Stepstones](wiki:Stepstones) attacked the [Wolf's Den](wiki:Wolf's_Den).(wiki:Three_Sisters.cite_ref-Rtwoiafthe_north:_the_kings_of_winter.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-2)
+The Three Sisters have been a haven for smugglers for centuries. Instead of piracy, the Sistermen turned to wrecking.(wiki:Three_Sisters.cite_ref-Radwd9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-9)
+
+### Targaryen Era[ ]
+
+During [Aegon's Conquest](wiki:Aegon's_Conquest), the Sistermen rebelled against [Ronnel Arryn](wiki:Ronnel_Arryn_(king)), [King of Mountain and Vale](wiki:King_of_Mountain_and_Vale), declaring [Marla Sunderland](wiki:Marla_Sunderland) as their [queen](wiki:King_of_the_Three_Sisters).(wiki:Three_Sisters.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0) She was deposed, however, when a [Braavosi](wiki:Braavos) fleet hired by [House Stark](wiki:House_Stark) at the behest of [Aegon the Conqueror](wiki:Aegon_I_Targaryen) approached the islands. Lord [Steffon Sunderland](wiki:Steffon_Sunderland) bent the knee to [House Targaryen](wiki:House_Targaryen) and ended the [Sistermen's Rebellion](wiki:Sistermen's_Rebellion), while his sister Marla ended her days as a [silent sister](wiki:Silent_sister).(wiki:Three_Sisters.cite_ref-Rtwoiafthe_vale.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-3)
+The [sweating sickness](wiki:Sweating_sickness) broke out on the islands in [54 AC](wiki:54_AC).(wiki:Three_Sisters.cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0)
+Led by the [Sunderlands](wiki:House_Sunderland), the Three Sisters supported [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen) against [Aegon II Targaryen](wiki:Aegon_II_Targaryen) during the [Dance of the Dragons](wiki:Dance_of_the_Dragons), along with the Arryns.(wiki:Three_Sisters.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0) The [Winter Fever](wiki:Winter_Fever) struck the islands late in [132 AC](wiki:132_AC).(wiki:Three_Sisters.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0) When the [Vale of Arryn](wiki:Vale_of_Arryn) broke out into civil war after the passing of Lady [Jeyne Arryn](wiki:Jeyne_Arryn), the Three Sisters supported Ser [Arnold Arryn](wiki:Arnold_Arryn).(wiki:Three_Sisters.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0)
+The Three Sisters suffered after the Sunderlands dragged the islands into two of the unsuccessful [Blackfyre Rebellions](wiki:Blackfyre_Rebellions) against the Targaryens.(wiki:Three_Sisters.cite_ref-Radwd9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-10) Lord Sunderland attended the [wedding tourney at Whitewalls](wiki:Wedding_tourney_at_Whitewalls).(wiki:Three_Sisters.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
+
+## Narrative Arc
+
+### A Game of Thrones[ ]
+
+While in [White Harbor](wiki:White_Harbor), Ser [Rodrik Cassel](wiki:Rodrik_Cassel) suggests hiring a fishing sloop out of the Three Sisters to transport him and [Catelyn Stark](wiki:Catelyn_Stark) to [King's Landing](wiki:King's_Landing). Catelyn instead chooses [Storm Dancer](wiki:Storm_Dancer), a galley out of [Tyrosh](wiki:Tyrosh).(wiki:Three_Sisters.cite_ref-Ragot18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0)
+
+### A Clash of Kings[ ]
+
+Ser [Davos Seaworth](wiki:Davos_Seaworth) is sent by [Stannis Baratheon](wiki:Stannis_Baratheon) with a chest of letters to spread word of [Joffrey Baratheon](wiki:Joffrey_Baratheon)'s illegitimacy. His route is to sail to the Three Sisters and other harbors along the [narrow sea](wiki:Narrow_sea).(wiki:Three_Sisters.cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0)
+
+### A Dance with Dragons[ ]
+
+When [Salladhor Saan](wiki:Salladhor_Saan) decides to leave the service of Stannis, he sets Davos loose in a boat, with Davos eventually washing up on [Sweetsister](wiki:Sweetsister). Rather than turn Davos over to Lord [Triston Sunderland](wiki:Triston_Sunderland), Lord [Godric Borrell](wiki:Godric_Borrell) allows Davos to continue on to White Harbor.(wiki:Three_Sisters.cite_ref-Radwd9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-11)
+
+## Quotes
+
+Dunk had heard [septons](wiki:Septon) say that the isles were sinks of sin and avarice.(wiki:Three_Sisters.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+The Three Sisters were fickle bitches, loyal only to themselves. Supposedly they were sworn to the [Arryns](wiki:House_Arryn) of the [Vale](wiki:Vale_of_Arryn), but the [Eyrie](wiki:Eyrie)'s grasp upon the islands was tenuous at best.(wiki:Three_Sisters.cite_ref-Radwd9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-12)
+Storms were sacred on the Sisters before the [Andals came](wiki:Coming_of_the_Andals). Our gods of old were the [Lady of the Waves](wiki:Lady_of_the_Waves) and the [Lord of the Skies](wiki:Lord_of_the_Skies). They made storms every time they mated. [These kings](wiki:Iron_Throne) never bother with the Sisters. Why should they? We are small and poor.(wiki:Three_Sisters.cite_ref-Radwd9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-13)

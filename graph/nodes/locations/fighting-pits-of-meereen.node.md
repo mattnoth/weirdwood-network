@@ -1,0 +1,37 @@
+---
+name: "Fighting pits of Meereen"
+type: place.location
+slug: fighting-pits-of-meereen
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Fighting_pits_of_Meereen"
+bucket_id: tier3-pathb-locations
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Fighting pits of Meereen is a location from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+### A Storm of Swords[ ]
+
+After the [siege of Meereen](wiki:Siege_of_Meereen), [Daenerys Targaryen](wiki:Daenerys_Targaryen) has 163 of the [Great Masters](wiki:Great_Masters) impaled on spikes in [Daznak's Pit](wiki:Daznak's_Pit).(wiki:Fighting_pits_of_Meereen.cite_ref-Rasos57.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+
+### A Dance with Dragons[ ]
+
+Daenerys, Queen of Meereen, closes the city's fighting pits, which causes the value of pit shares to plummet. [Hizdahr zo Loraq](wiki:Hizdahr_zo_Loraq) takes advantage of the cheap prices and soon owns most of the pits in the city.(wiki:Fighting_pits_of_Meereen.cite_ref-Radwd2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+Hizdahr has an audience with the queen six times to plead that she re-open the pits, unsuccessfully arguing that by re-opening the pits Dany would show the people of Meereen that she respects their ways and customs.(wiki:Fighting_pits_of_Meereen.cite_ref-Radwd2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6) The queen considers collecting one-tenth of the revenue, rather than one-tenth of the profits after expenses. The seventh time Hizdahr brings with him seven well-known pit fighters, [slaves](wiki:Slaves) previously freed by Daenerys.(wiki:Fighting_pits_of_Meereen.cite_ref-Radwd2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7) The pit fighters give her practical reasons as to why they want her to re-open the pits so that they can risk their lives on the scarlet sands. With the exception of [Missandei](wiki:Missandei), Dany's councilors also promote the advantages of reopening the pits.(wiki:Fighting_pits_of_Meereen.cite_ref-Radwd11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+To avoid war with [Yunkai](wiki:Yunkai) and its allies, and stop the constant attacks of the [Sons of the Harpy](wiki:Sons_of_the_Harpy), Dany marries Hizdahr and allows the fighting pits to be reopened.(wiki:Fighting_pits_of_Meereen.cite_ref-Radwd43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) To celebrate the peace between [Yunkai](wiki:Yunkai) and Meereen, Daenerys and her new husband attend the re-opening of [Daznak's Pit](wiki:Daznak's_Pit), where Dany is [almost assassinated](wiki:Poisoned_locusts). During the fighting, her dragon [Drogon](wiki:Drogon) appears, descends into the pit, and she flies away on him.(wiki:Fighting_pits_of_Meereen.cite_ref-Radwd52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+After [Viserion](wiki:Viserion) and [Rhaegal](wiki:Rhaegal) are unleashed upon the city the [ruling council of Meereen](wiki:Ruling_council_of_Meereen) herd animals into Daznak's Pit, the [Golden Pit](wiki:Golden_Pit), and the [Pit of Ghrazz](wiki:Pit_of_Ghrazz) in order to feed them and keep them sated. The two dragons prove to have a taste for mutton, returning to Daznak's Pit, which is full of sheep, whenever they grow hungry.(wiki:Fighting_pits_of_Meereen.cite_ref-Radwd70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
+
+## Quotes
+
+[Reznak mo Reznak](wiki:Reznak_mo_Reznak) stressed the coin to be made through taxes. The [Green Grace](wiki:Green_Grace) said that reopening the pits would please the gods. The [Shavepate](wiki:Skahaz_mo_Kandaq) felt it would win her support against the [Sons of the Harpy](wiki:Sons_of_the_Harpy). “Let them fight,” grunted [Strong Belwas](wiki:Strong_Belwas), who had been a champion in the pits. Ser [Barristan](wiki:Barristan_Selmy) suggested a [tourney](wiki:Tourney) instead; his orphans could [ride at rings](wiki:Ride_at_rings) and fight a melee with blunted weapons, he said, a suggestion Dany knew was as hopeless as it was well-intentioned. It was blood the [Meereenese](wiki:Meereen) yearned to see, not skill. Elsewise the fighting [slaves](wiki:Slaves) would have worn armor. Only the little scribe [Missandei](wiki:Missandei) seemed to share the queen’s misgivings.(wiki:Fighting_pits_of_Meereen.cite_ref-Radwd11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+The small ones dotted the face of [Meereen](wiki:Meereen) like pockmarks; the larger were weeping sores, red and raw.(wiki:Fighting_pits_of_Meereen.cite_ref-Radwd52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)

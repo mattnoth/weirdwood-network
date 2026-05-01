@@ -1,0 +1,23 @@
+---
+name: "Isle of Women"
+type: place.location
+slug: isle-of-women
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Isle_of_Women"
+bucket_id: tier3-pathb-locations
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Isle of Women is a location from the AWOIAF wiki.
+
+## Edges
+
+
+## Origins
+
+The isle was home for a time to [Nymeria](wiki:Nymeria) and her [Rhoynar](wiki:Rhoynar) refugees before they moved to [Dorne](wiki:Dorne) in southern [Westeros](wiki:Westeros). A few thousand of her followers chose to remain behind, and their descendants still dwell on the Isle of Women today.(wiki:Isle_of_Women.cite_ref-Rtwoiafbeyond_the_free_cities:_the_summer_isles.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

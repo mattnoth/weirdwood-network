@@ -1,0 +1,19 @@
+---
+name: "Canal of Heroes"
+type: place.location
+slug: canal-of-heroes
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Canal_of_Heroes"
+bucket_id: tier3-pathb-locations
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Canal of Heroes is a location from the AWOIAF wiki.
+
+## Edges
+

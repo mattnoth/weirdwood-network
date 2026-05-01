@@ -1,0 +1,26 @@
+---
+name: "Sept of Remembrance"
+type: place.location
+slug: sept-of-remembrance
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Sept_of_Remembrance"
+bucket_id: tier3-pathb-locations
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Sept of Remembrance is a location from the AWOIAF wiki.
+
+## Edges
+
+
+## Origins
+
+The Sept of Remembrance was the third sept built in [King's Landing](wiki:King's_Landing).(wiki:Sept_of_Remembrance.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) It was constructed at the top of the [Hill of Rhaenys](wiki:Hill_of_Rhaenys), in memory of [Aegon I Targaryen](wiki:Aegon_I_Targaryen)'s sister-wife [Rhaenys](wiki:Rhaenys_Targaryen),(wiki:Sept_of_Remembrance.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) who was killed in [10 AC](wiki:10_AC) during the [First Dornish War](wiki:First_Dornish_War).(wiki:Sept_of_Remembrance.cite_ref-Rtwoiaf_dorne:_dorne_against_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) It seems likely that construction of the sept began during the reign of [Aegon I](wiki:Aegon_I_Targaryen).(wiki:Sept_of_Remembrance.cite_ref-5)
+In [41 AC](wiki:41_AC), it was used for the controversial marriage of [Aenys I](wiki:Aenys_I_Targaryen)'s children [Aegon](wiki:Aegon_Targaryen_(son_of_Aenys_I)) and [Rhaena](wiki:Rhaena_Targaryen_(daughter_of_Aenys_I)).(wiki:Sept_of_Remembrance.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2) This marriage of two siblings led to the [Faith Militant uprising](wiki:Faith_Militant_uprising). During the uprising, the Sept of Remembrance was fortified by the [Warrior's Sons](wiki:Warrior's_Sons) into "a citadel that could stand against the king", according to Maester [Yandel](wiki:Yandel), and became their base of operations.(wiki:Sept_of_Remembrance.cite_ref-Rtwoiaf_the_targaryen_kings:_aenys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)(wiki:Sept_of_Remembrance.cite_ref-Rtwoiafthe_targaryen_kings:_maegor_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+On the thirtieth day since the [trial of seven](wiki:Trial_of_seven) between Ser [Damon Morrigen](wiki:Damon_Morrigen) and King [Maegor I Targaryen](wiki:Maegor_I_Targaryen), hundreds of Warrior's Sons gathered for their morning prayers. Maegor mounted his [dragon](wiki:Dragon), [Balerion](wiki:Balerion), and unleashed [dragonfire](wiki:Dragonfire) without warning. During the [burning of the Sept of Remembrance](wiki:Burning_of_the_Sept_of_Remembrance) some tried to flee, but were cut down by the archers and spearmen that Maegor had ready. It is said that the screams of the burning and dying men were heard throughout [King's Landing](wiki:King's_Landing). The burning was so immense that scholars claim there was a pall over the capital for seven days.(wiki:Sept_of_Remembrance.cite_ref-Rtwoiafthe_targaryen_kings:_maegor_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+Afterwards, Maegor had the ruins of the Sept cleared, and ordered the construction of a large domed stable, the [Dragonpit](wiki:Dragonpit), where [Targaryens](wiki:House_Targaryen) could house their dragons.(wiki:Sept_of_Remembrance.cite_ref-Rtwoiafthe_targaryen_kings:_maegor_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)

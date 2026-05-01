@@ -1,0 +1,50 @@
+---
+name: "Mountains of the Moon"
+type: place.location
+slug: mountains-of-the-moon
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Mountains_of_the_Moon"
+bucket_id: tier3-pathb-locations
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Mountains of the Moon is a location from the AWOIAF wiki.
+
+## Edges
+
+
+## Origins
+
+During the [coming of the Andals](wiki:Coming_of_the_Andals) to the [Vale](wiki:Vale_of_Arryn_(valley)), some of the defeated [First Men](wiki:First_Men) who refused to submit to [House Arryn](wiki:House_Arryn) after the [Battle of the Seven Stars](wiki:Battle_of_the_Seven_Stars) fled into the Mountains of the Moon, becoming the [mountain clans](wiki:Vale_mountain_clans).(wiki:Mountains_of_the_Moon.cite_ref-Rtwoiafthe_vale.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4) Wild tribes have sometimes raided the [riverlands](wiki:Riverlands) from the mountains.(wiki:Mountains_of_the_Moon.cite_ref-Rtwoiafthe_riverlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0) Etchings of stars and axes by the victorious [Andals](wiki:Andals) can also be found in some parts of the mountains.(wiki:Mountains_of_the_Moon.cite_ref-Rtwoiafthe_free_cities:_norvos.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
+A dozen armies have attempted to cross the mountains and invade the Vale, but they have all been stopped by the [Bloody Gate](wiki:Bloody_Gate).(wiki:Mountains_of_the_Moon.cite_ref-Rtwoiafthe_vale.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+During her search for the missing [Aerea Targaryen](wiki:Aerea_Targaryen), [Rhaena Targaryen](wiki:Rhaena_Targaryen_(daughter_of_Aenys_I)) and her dragon, [Dreamfyre](wiki:Dreamfyre), were seen flying over the [Fingers](wiki:Fingers) and the Mountains of the Moon.(wiki:Mountains_of_the_Moon.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)
+Passes through the mountains were closed by snow in [130 AC](wiki:130_AC) during the [Dance of the Dragons](wiki:Dance_of_the_Dragons). Lady [Jeyne Arryn](wiki:Jeyne_Arryn) instead sent men to aid the [blacks](wiki:Blacks) by sea.(wiki:Mountains_of_the_Moon.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0) Prince [Aemond Targaryen](wiki:Aemond_Targaryen) attacked [Stonyhead](wiki:Stonyhead) in the foothills with [Vhagar](wiki:Vhagar).(wiki:Mountains_of_the_Moon.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-1) [Nettles](wiki:Nettles) was believed to have flown [Sheepstealer](wiki:Sheepstealer) to [Crackclaw Point](wiki:Crackclaw_Point) or the Mountains of the Moon after fleeing [Maidenpool](wiki:Maidenpool).(wiki:Mountains_of_the_Moon.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0)
+Lady Jeyne served in the [regency of Aegon III](wiki:Regency_of_Aegon_III), but she returned to the Vale in [132 AC](wiki:132_AC) to deal with clansmen raiding from the mountains.(wiki:Mountains_of_the_Moon.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0) A war of succession broke out after Jeyne's death, with Ser [Robert Rowan](wiki:Robert_Rowan) leading a royal host in support of Jeyne's chosen heir, Ser [Joffrey Arryn](wiki:Joffrey_Arryn). Robert's host was slowed by deep snow, however, and their baggage train was attacked by clansmen. Some of Robert's men encountered Sheepstealer in a cave, and in later years the [Burned Men](wiki:Burned_Men) are said to have worshipped a "fire witch" in a hidden vale.(wiki:Mountains_of_the_Moon.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0)(wiki:Mountains_of_the_Moon.cite_ref-Rtwoiafthe_vale.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6) A third of the royal host, including Robert, was lost reaching the Bloody Gate, forcing Lord [Benjicot Blackwood](wiki:Benjicot_Blackwood) to take command.(wiki:Mountains_of_the_Moon.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-1) Septon [Bernard](wiki:Bernard) blamed the deaths of thousands in the mountains on Robert's father, Lord [Thaddeus Rowan](wiki:Thaddeus_Rowan).(wiki:Mountains_of_the_Moon.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-2)
+At the start of [Robert's Rebellion](wiki:Robert's_Rebellion), Lord [Eddard Stark](wiki:Eddard_Stark) traveled from the [Eyrie](wiki:Eyrie) through the Mountains of the Moon to the [Fingers](wiki:Fingers), where he took ship for the [north](wiki:North).(wiki:Mountains_of_the_Moon.cite_ref-Radwd9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0)
+
+## Narrative Arc
+
+### A Game of Thrones[ ]
+
+After abducting [Tyrion Lannister](wiki:Tyrion_Lannister) at the [crossroads inn](wiki:Crossroads_inn), [Catelyn Stark](wiki:Catelyn_Stark) brings him to the [Eyrie](wiki:Eyrie) by taking the [high road](wiki:High_road) through the Mountains of the Moon. They survive an attack by [mountain clansmen](wiki:Vale_mountain_clans).(wiki:Mountains_of_the_Moon.cite_ref-Ragot31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)(wiki:Mountains_of_the_Moon.cite_ref-Ragot34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
+Following [Bronn](wiki:Bronn)'s victory on Tyrion's behalf in [trial by combat](wiki:Trial_by_combat),(wiki:Mountains_of_the_Moon.cite_ref-Ragot40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0) Ser [Lyn Corbray](wiki:Lyn_Corbray) escorts Tyrion and Bronn to the [Bloody Gate](wiki:Bloody_Gate), where he commands them never to return to the Vale.(wiki:Mountains_of_the_Moon.cite_ref-Ragot42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1) The pair are surrounded by clansmen while traveling west, but Tyrion recruits them to fight for [House Lannister](wiki:House_Lannister) after promising them the Vale.(wiki:Mountains_of_the_Moon.cite_ref-Ragot42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+
+### A Storm of Swords[ ]
+
+[Timett](wiki:Timett) leads the [Burned Men](wiki:Burned_Men) back to the mountains after the [Battle of the Blackwater](wiki:Battle_of_the_Blackwater).(wiki:Mountains_of_the_Moon.cite_ref-Rasos4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0)
+Catelyn writes to her sister, Lady [Lysa Arryn](wiki:Lysa_Arryn), asking her to travel through the mountains and visit their dying father, Lord [Hoster Tully](wiki:Hoster_Tully), at [Riverrun](wiki:Riverrun).(wiki:Mountains_of_the_Moon.cite_ref-Rasos2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-0) [Robb Stark](wiki:Robb_Stark), [King in the North](wiki:King_in_the_North) and [King of the Trident](wiki:King_of_the_Trident), asks for his aunt to open the Bloody Gate and let his army return to the [north](wiki:North) via [Gulltown](wiki:Gulltown).(wiki:Mountains_of_the_Moon.cite_ref-Rasos20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-0) Lysa does not respond to them, however.(wiki:Mountains_of_the_Moon.cite_ref-Rasos35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-0)
+Travel through the Mountains of the Moon is near impossible because of snowfall and raiding by the clans, who are better equipped than usual.(wiki:Mountains_of_the_Moon.cite_ref-Rasos74.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-0)
+
+## Quotes
+
+Though the [Vale itself](wiki:Vale_of_Arryn_(valley)) is famously fertile, it is small compared to the domains of other [kings](wiki:King) (and even some [great lords](wiki:Great_Houses)), and the Mountains of the Moon are bleak, stony, and inhospitable.(wiki:Mountains_of_the_Moon.cite_ref-Rtwoiafthe_vale.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+[Shadowcats](wiki:Shadowcat) prowled those passes, rock slides were common, and the [mountain clans](wiki:Vale_mountain_clans) were lawless brigands, descending from the heights to rob and kill and melting away like snow whenever the [knights](wiki:Knight) rode out from [the Vale](wiki:Vale_of_Arryn_(valley)) in search of them. Even [Jon Arryn](wiki:Jon_Arryn), as great a lord as any the [Eyrie](wiki:Eyrie) had ever known, had always traveled in strength when he crossed the mountains.(wiki:Mountains_of_the_Moon.cite_ref-Ragot28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+Tywin: Even in [the west](wiki:Westerlands), we know the prowess of the [warrior clans](wiki:Vale_mountain_clans) of the Mountains of the Moon. What brings you down from your strongholds, my lords? Shagga: [Horses](wiki:Horse).(wiki:Mountains_of_the_Moon.cite_ref-Ragot56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
+Tyrion: [Strike at their camps](wiki:Battle_of_the_Blackwater) and baggage train. Ambush their scouts and hang the bodies from trees ahead of their line of march, loop around and cut down stragglers. I want night attacks, so many and so sudden that they'll be afraid to sleep— Shagga: All this I learned from [Dolf](wiki:Dolf) son of [Holger](wiki:Holger) before my beard had grown. This is the way of war in the Mountains of the Moon.(wiki:Mountains_of_the_Moon.cite_ref-Racok49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-0)
+Petyr: My lords, grant me the men, and I will sort out [Lysa Arryn](wiki:Lysa_Arryn). Mace: Perhaps you'd best leave the fighting to fighters. Better men than you have lost great armies in the Mountains of the Moon, or shattered them against the [Bloody Gate](wiki:Bloody_Gate).(wiki:Mountains_of_the_Moon.cite_ref-Rasos19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-0)
+The way the sun was hitting the mountains made them look like solid gold.(wiki:Mountains_of_the_Moon.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-0)

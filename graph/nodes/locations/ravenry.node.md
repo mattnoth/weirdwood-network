@@ -1,0 +1,45 @@
+---
+name: "Ravenry"
+type: place.location
+slug: ravenry
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Ravenry"
+bucket_id: tier3-pathb-locations
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Ravenry is a location from the AWOIAF wiki.
+
+## Edges
+
+
+## Appearances & Description
+
+The oldest building of the [Citadel](wiki:Citadel), the Ravenry is found on the [Isle of Ravens](wiki:Isle_of_Ravens) within the [Honeywine](wiki:Honeywine). It is cool and dim inside the the castle's walls, which are covered in purple [moss](wiki:Moss) and creeping vines.(wiki:Ravenry.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
+An ancient [weirwood](wiki:Weirwood) fills the castle's yard, with the face on the [heart tree](wiki:Heart_tree) also covered in moss. Half of its branches appear dead, though [ravens](wiki:Raven) like to perch on the branches which still have red leaves. Ravens fill not only the weirwood, but also the yard, windows, and battlements.(wiki:Ravenry.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+There are separate [rookeries](wiki:Rookeries) at the Ravenry, with [white ravens](wiki:White_raven) in the west tower and black ravens in the north tower, as the two colors quarrel.(wiki:Ravenry.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+Archmaester [Walgrave](wiki:Walgrave)'s rooms are below the white rookery in the west tower.(wiki:Ravenry.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3) [Pate's](wiki:Pate_(novice)) sleeping cell is below Walgrave's chambers, and has a good view of the Honeywine.(wiki:Ravenry.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+Archmaester [Marwyn](wiki:Marwyn)'s chambers are below the black rookery in the north tower. Marwyn's chamber door is made of [oak](wiki:Oak) and [iron](wiki:Iron), accessible through the north tower's ground level door and up a flight of steps. Marwyn's room is large and round and has a hearth. There are books and scrolls everywhere, strewn across the tables and stacked up on the floor in piles four feet high. Faded [tapestries](wiki:Tapestries) and ragged maps cover the stone walls.(wiki:Ravenry.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+
+## Origins
+
+The Ravenry is said to have been the stronghold of a [pirate](wiki:Pirate) lord who robbed [ships](wiki:Ship) on the [Honeywine](wiki:Honeywine) during the [Age of Heroes](wiki:Age_of_Heroes).(wiki:Ravenry.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+The aged Archmaester [Walgrave](wiki:Walgrave) has lost his wits, and is often found weeping in the [Library](wiki:Library_(Citadel)), unable to remember the way back to his chambers. The novice [Pate](wiki:Pate_(novice)) has been assigned to help him, tending the ravens, fetching Walgrave's meals, cleaning his chambers, and dressing him every morning.(wiki:Ravenry.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+
+## Narrative Arc
+
+### A Feast for Crows[ ]
+
+Archmaester [Walgrave](wiki:Walgrave)'s assistant, the novice [Pate](wiki:Pate_(novice)), steals Walgrave's [personal key](wiki:Personal_key_of_Walgrave) from the strongbox beneath his bed in the Ravenry. Pate meets his novice and acolyte friends at the [Quill and Tankard](wiki:Quill_and_Tankard), where [Leo Tyrell](wiki:Leo_Tyrell_(son_of_Moryn)) tells them that a [glass candle](wiki:Glass_candle) is burning in Archmaester [Marwyn](wiki:Marwyn)'s chambers. After Pate's friends leave, he gives the archmaester's key to a man calling himself an [alchemist](wiki:Alchemist) in exchange for a [golden](wiki:Gold) coin. After Pate bites the coin it turns out to be [poisoned](wiki:Poison), however, and he dies.(wiki:Ravenry.cite_ref-Raffcprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+When [Samwell Tarly](wiki:Samwell_Tarly) arrives at the Citadel, [Alleras](wiki:Alleras) intercepts him in the [Seneschal's Court](wiki:Seneschal's_Court) and brings him to Archmaester [Marwyn](wiki:Marwyn)'s chambers in the Ravenry. At the top of the steps, Sam meets his old acquaintance Leo, who is staring into a candle's flame but stops to insult Sam.(wiki:Ravenry.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+Marwyn pulls Sam into his chambers, where the only light comes from a three-foot-tall [obsidian](wiki:Obsidian) candle in the center of the room. After Marwyn hears Samwell's story and Maester [Aemon's fate](wiki:Aemon_Targaryen_(son_of_Maekar_I)), he decides to leave for [Meereen](wiki:Meereen) to find [Daenerys Targaryen](wiki:Daenerys_Targaryen) in Aemon's place. Before he departs, Marwyn places Sam in the care of Alleras and commands "[Pate](wiki:Alchemist)" to find a sleeping cell for the newcomer in the Ravenry, where Sam will assist Pate with the ravens. Pate tells Sam there is a room beneath his in the west tower.(wiki:Ravenry.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
+
+## Quotes
+
+Moss and creeping vines covered the walls, Sam saw, and [ravens](wiki:Raven) walked its battlements in place of archers. The drawbridge had not been raised in living memory.(wiki:Ravenry.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
+The [white ravens](wiki:White_raven) and the [black ones](wiki:Raven) quarrel like [Dornishmen](wiki:Dornishmen) and [Marchers](wiki:Marcher_lords), so they keep them apart.(wiki:Ravenry.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)

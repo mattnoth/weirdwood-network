@@ -1,0 +1,82 @@
+---
+name: "Dragonstone (island)"
+type: place.location
+slug: dragonstone-island
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Dragonstone_(island)"
+bucket_id: tier3-pathb-locations
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Dragonstone (island) is a location from the AWOIAF wiki.
+
+## Edges
+
+
+## Origins
+
+### Valyria[ ]
+
+The isle of Dragonstone was settled two centuries before the [Doom](wiki:Doom_of_Valyria) by [Valyrians](wiki:Valyria) who defeated local lords of the [narrow sea](wiki:Narrow_sea). They used [magic](wiki:Magic) to shape the [castle of Dragonstone](wiki:Dragonstone). When the maiden [Daenys Targaryen](wiki:Daenys_Targaryen) had visions of the Doom, her father [Aenar](wiki:Aenar_Targaryen) relocated his family, their five [dragons](wiki:Dragon), and all their wealth from the [Valyrian peninsula](wiki:Valyrian_peninsula) to Dragonstone.(wiki:Dragonstone_(island).cite_ref-Rtwoiafancient_history:_the_doom_of_valyria.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0)(wiki:Dragonstone_(island).cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0)
+[House Targaryen](wiki:House_Targaryen) became powerful by controlling the [Gullet](wiki:Gullet) and growing dragons in Dragonstone's hatcheries and firepits;(wiki:Dragonstone_(island).cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0)(wiki:Dragonstone_(island).cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0) the dragons [Vhagar](wiki:Vhagar) and [Meraxes](wiki:Meraxes) were born on their island, for instance. Although the Targaryens were sovereign, their island "kingdom" was not considered one of the [Seven Kingdoms](wiki:Seven_Kingdoms) of [Westeros](wiki:Westeros).(wiki:Dragonstone_(island).cite_ref-Rtwoiafthe_north.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0)
+
+### The Conquest[ ]
+
+[Aegon Targaryen](wiki:Aegon_I_Targaryen), Lord of Dragonstone, called his friends, bannermen, and allies to Dragonstone before his invasion of the [Seven Kingdoms](wiki:Seven_Kingdoms).(wiki:Dragonstone_(island).cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-1) With the aid of his sister-wives, [Visenya](wiki:Visenya_Targaryen) and [Rhaenys](wiki:Rhaenys_Targaryen), and three [dragons](wiki:Dragons), Aegon the Conqueror received the allegiance of six kingdoms during the [Wars of Conquest](wiki:Wars_of_Conquest), with only [Dorne](wiki:Dorne) resisting.(wiki:Dragonstone_(island).cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-2)(wiki:Dragonstone_(island).cite_ref-Rtwoiafthe_reign_of_the_dragon_-_the_wars_of_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0) [Quenton Qoherys](wiki:Quenton_Qoherys), master-at-arms of Dragonstone, became [Lord of Harrenhal](wiki:Lord_of_Harrenhal) after the [burning of Black Harren](wiki:Burning_of_Harrenhal) during [Aegon's Conquest](wiki:Aegon's_Conquest).(wiki:Dragonstone_(island).cite_ref-Rtwoiafthe_riverlands:_house_tully.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-0)
+
+### Iron Throne[ ]
+
+Although the growing city of [King's Landing](wiki:King's_Landing) became the capital of the newly-united realm, King [Aegon I Targaryen](wiki:Aegon_I_Targaryen) continued to spend much of his time at Dragonstone.(wiki:Dragonstone_(island).cite_ref-Rfabthree_heads_had_the_dragon_-_governance_under_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-0) [Maegor Targaryen](wiki:Maegor_I_Targaryen), the king's younger son, came to be known as the [Prince of Dragonstone](wiki:Prince_of_Dragonstone).(wiki:Dragonstone_(island).cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-1) After their deaths, the bodies of Aegon I and his successor, King [Aenys I Targaryen](wiki:Aenys_I_Targaryen), were burned on Dragonstone in traditional Valyrian manner.(wiki:Dragonstone_(island).cite_ref-Rtwoiafthe_targaryen_kings:_aenys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-0)
+The fisherfolk of Dragonstone spread word that [Elissa Farman](wiki:Elissa_Farman) had stolen three [dragon eggs](wiki:Dragon_eggs) from the island's hatcheries.(wiki:Dragonstone_(island).cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-0)
+When [Corlys Velaryon](wiki:Corlys_Velaryon) was sixteen, he sailed [Cod Queen](wiki:Cod_Queen) from [Driftmark](wiki:Driftmark) to Dragonstone and back.(wiki:Dragonstone_(island).cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+
+### Dance of the Dragons[ ]
+
+During the [Dance of the Dragons](wiki:Dance_of_the_Dragons), the island served as the early seat of power for Queen [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen) and her [black council](wiki:Black_council), and the [Velaryon fleet](wiki:Velaryon_fleet) sailed from [Driftmark](wiki:Driftmark) and Dragonstone to blockade [Blackwater Bay](wiki:Blackwater_Bay).(wiki:Dragonstone_(island).cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-0) Rhaenyra's rival, King [Aegon II Targaryen](wiki:Aegon_II_Targaryen), offered to confirm her control of Dragonstone if she bent the knee, but Rhaenyra refused.(wiki:Dragonstone_(island).cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-1) The [blacks](wiki:Blacks) sought out [dragonriders](wiki:Dragonrider) from the [dragonseeds](wiki:Dragonseed) of the island.(wiki:Dragonstone_(island).cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-3) The fleet of the [Triarchy](wiki:Triarchy) avoided Dragonstone during the [Battle of the Gullet](wiki:Battle_of_the_Gullet), instead invading Driftmark.(wiki:Dragonstone_(island).cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-4)
+Rhaenyra seized the [Iron Throne](wiki:Iron_Throne) with the [fall of King's Landing](wiki:Fall_of_King's_Landing).(wiki:Dragonstone_(island).cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-0) Lord [Larys Strong](wiki:Larys_Strong) smuggled Aegon II from the capital, however, and Ser [Marston Waters](wiki:Marston_Waters) took the king to Dragonstone, correctly believing that the queen would not think to look for her rival on her own island.(wiki:Dragonstone_(island).cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-0) Aegon's dragon, [Sunfyre](wiki:Sunfyre), eventually found its way to its [dragonrider](wiki:Dragonrider) as well, killing a wild dragon, the [Grey Ghost](wiki:Grey_Ghost), during the journey. With the assistance of Ser [Alfred Broome](wiki:Alfred_Broome) and smallfolk, Aegon was able to take control of Dragonstone and its castle.(wiki:Dragonstone_(island).cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-1)
+Rhaenyra returned to her stronghold after the [Storming of the Dragonpit](wiki:Storming_of_the_Dragonpit). Unaware of the [fall of Dragonstone](wiki:Fall_of_Dragonstone), however, she was captured by Aegon's supporters and then fed to Sunfyre.(wiki:Dragonstone_(island).cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-2) The golden dragon eventually died there of its own wounds.(wiki:Dragonstone_(island).cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-0) [Alyn Velaryon](wiki:Alyn_Velaryon) prepared the Velaryon fleet for an attack on Dragonstone, but Aegon came to an accord with his grandfather, [Corlys Velaryon](wiki:Corlys_Velaryon), [Lord of the Tides](wiki:Lord_of_the_Tides).(wiki:Dragonstone_(island).cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-1)
+After his death, Corlys, the famous Sea Snake, was buried at sea in the deep waters east of Dragonstone.(wiki:Dragonstone_(island).cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-0)
+
+### War of the Usurper[ ]
+
+During the [War of the Usurper](wiki:Robert's_Rebellion), [Rhaegar Targaryen](wiki:Rhaegar_Targaryen), [Prince of Dragonstone](wiki:Prince_of_Dragonstone), was killed by [Robert Baratheon](wiki:Robert_I_Baratheon), [Lord of Storm's End](wiki:Lord_of_Storm's_End), in the [Battle of the Trident](wiki:Battle_of_the_Trident). In response, King [Aerys II Targaryen](wiki:Aerys_II_Targaryen) sent Queen [Rhaella Targaryen](wiki:Rhaella_Targaryen) with his new heir, Prince [Viserys Targaryen](wiki:Viserys_Targaryen), from [King's Landing](wiki:King's_Landing) to Dragonstone. Nine months later, while a fierce storm destroyed the Targaryen [royal fleet](wiki:Royal_fleet) at Dragonstone, Rhaella died giving birth to Princess [Daenerys Targaryen](wiki:Daenerys_Targaryen).(wiki:Dragonstone_(island).cite_ref-Ragot3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_27-0)
+Robert I, the new king after Aerys's death during the [Sack of King's Landing](wiki:Sack_of_King's_Landing), ordered his younger brother, [Stannis Baratheon](wiki:Stannis_Baratheon), to construct a new fleet and conquer Dragonstone from the remaining Targaryen loyalists. Ser [Willem Darry](wiki:Willem_Darry) fled with Viserys and Daenerys for the safety of the [Braavosian coast](wiki:Braavosian_coast) before Stannis's ships arrived. Stannis commanded the successful [assault on Dragonstone](wiki:Assault_on_Dragonstone).(wiki:Dragonstone_(island).cite_ref-Ragot3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_27-1)(wiki:Dragonstone_(island).cite_ref-Ragot27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-0)(wiki:Dragonstone_(island).cite_ref-Racok58.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-0) Robert then granted the island and its castle to Stannis.(wiki:Dragonstone_(island).cite_ref-Racokprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) Stannis, [Lord of Dragonstone](wiki:Lord_of_Dragonstone), has outlawed [prostitution](wiki:Prostitution) on the island.(wiki:Dragonstone_(island).cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1)
+
+## Narrative Arc
+
+### A Game of Thrones[ ]
+
+[Stannis Baratheon](wiki:Stannis_Baratheon), Lord of Dragonstone, returns to his island from [King's Landing](wiki:King's_Landing) shortly after King [Robert I Baratheon](wiki:Robert_I_Baratheon) travels north to offer the [Hand of the King](wiki:Hand_of_the_King) to Lord [Eddard Stark](wiki:Eddard_Stark).(wiki:Dragonstone_(island).cite_ref-Ragot20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-0)
+While sailing from [White Harbor](wiki:White_Harbor) to King's Landing, [Storm Dancer](wiki:Storm_Dancer) survives a storm while passing the island of Dragonstone.(wiki:Dragonstone_(island).cite_ref-Ragot18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-0)
+
+### A Clash of Kings[ ]
+
+During the [War of the Five Kings](wiki:War_of_the_Five_Kings), the poor lands of Dragonstone give King Stannis few supporters for his claim to the [Iron Throne](wiki:Iron_Throne). For the past half-year no craft that has come within sight of Dragonstone has been allowed to leave again. The island's docks are full of ships for Stannis's [royal fleet](wiki:Royal_fleet).(wiki:Dragonstone_(island).cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-2)
+
+### A Storm of Swords[ ]
+
+Dragonstone's harbor and the dockside streets are largely empty since so many ships were destroyed in the [Battle of the Blackwater](wiki:Battle_of_the_Blackwater).(wiki:Dragonstone_(island).cite_ref-Rasos10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_32-0) Disappointed at Stannis' defeat and considering Melisandre to be a sorceress, many [smallfolk](wiki:Smallfolk) return to worshipping [the Seven](wiki:Faith_of_the_Seven) instead of the [Lord of Light](wiki:R'hllor).(wiki:Dragonstone_(island).cite_ref-Rasos54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-0)
+Lord [Davos Seaworth](wiki:Davos_Seaworth) has [Edric Storm](wiki:Edric_Storm) smuggled from the island on [Mad Prendos](wiki:Mad_Prendos_(galley)) to save him from Melisandre's fires.(wiki:Dragonstone_(island).cite_ref-Rasos63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_34-0) Stannis and his forces leave Dragonstone to [defend Castle Black](wiki:Battle_beneath_the_Wall) and the [Wall](wiki:Wall).(wiki:Dragonstone_(island).cite_ref-Rasos73.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_35-0)
+Once at the Wall Stannis sends word to Ser [Rolland Storm](wiki:Rolland_Storm) to begin mining [obsidian](wiki:Obsidian) on the island. Stannis fears he will not hold his seat much longer but hopes that the Lord of Light shall grant them enough "frozen fire" to arm themselves against the [Others](wiki:Others) before Dragonstone falls.(wiki:Dragonstone_(island).cite_ref-Rasos78.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
+
+### A Feast for Crows[ ]
+
+With Stannis gone, only a few fishing ships remain to defend Dragonstone.(wiki:Dragonstone_(island).cite_ref-Raffc17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_36-0) The [Redwyne fleet](wiki:Redwyne_fleet) transports two thousand [Lannister](wiki:House_Lannister) soldiers(wiki:Dragonstone_(island).cite_ref-Raffc16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_37-0) from King's Landing across [Blackwater Bay](wiki:Blackwater_Bay), and Lord [Paxter Redwyne](wiki:Paxter_Redwyne) encamps beneath the castle's walls.(wiki:Dragonstone_(island).cite_ref-Raffc32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_38-0)
+Ser [Loras Tyrell](wiki:Loras_Tyrell), realizing that the Redwyne ships are needed elsewhere after the [taking of the Shields](wiki:Taking_of_the_Shields) by the [ironborn](wiki:Ironborn), volunteers to take command of the [siege of Dragonstone](wiki:Siege_of_Dragonstone), as he feels that Paxter's strategy of starving the castle will take too long.(wiki:Dragonstone_(island).cite_ref-Raffc32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_38-1) Lord [Aurane Waters](wiki:Aurane_Waters), the [small council](wiki:Small_council)'s [master of ships](wiki:Master_of_ships), later reports to Queen Regent [Cersei Lannister](wiki:Cersei_Lannister) that Loras succeeding in taking Dragonstone, but was heavily wounded in doing so and there was high loss of life.(wiki:Dragonstone_(island).cite_ref-Raffc36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_39-0) Lord [Hallyne](wiki:Hallyne) asks permission from Cersei to allow the [Alchemists' Guild](wiki:Alchemists'_Guild) access to any [dragon eggs](wiki:Dragon_egg) found on the island.(wiki:Dragonstone_(island).cite_ref-Raffc36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_39-1)
+
+### A Dance with Dragons[ ]
+
+Lord [Mace Tyrell](wiki:Mace_Tyrell) tells Ser [Harys Swyft](wiki:Harys_Swyft) that Loras's men found no wealth or dragon eggs on Dragonstone.(wiki:Dragonstone_(island).cite_ref-Radwdepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
+
+## Quotes
+
+[The Conqueror](wiki:Aegon_I_Targaryen) was once heard to say that he even loved the scent of Dragonstone, where the salt air always smelled of smoke and brimstone.(wiki:Dragonstone_(island).cite_ref-Rfabthree_heads_had_the_dragon_-_governance_under_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-1)
+[Dragons](wiki:Dragon) thrive best here on Dragonstone.(wiki:Dragonstone_(island).cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-2)
+The [dragons](wiki:Dragon) are done. The [Targaryens](wiki:House_Targaryen) tried to bring them back half a dozen times. And made fools of themselves, or corpses. [Patchface](wiki:Patchface) is the only [fool](wiki:Fool) we need on this godsforsaken rock.(wiki:Dragonstone_(island).cite_ref-Rasos36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_40-0)
+The [Freehold's](wiki:Valyrian_Freehold) grasp had reached as far as Dragonstone, but never to the mainland of [Westeros](wiki:Westeros) itself. Odd, that. Dragonstone is no more than a rock. The wealth was farther west, but they had [dragons](wiki:Dragon). Surely they knew that it was there.(wiki:Dragonstone_(island).cite_ref-Radwd5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_41-0)
+When the red star bleeds and the darkness gathers, [Azor Ahai](wiki:Azor_Ahai) shall be born again amidst smoke and salt to wake [dragons](wiki:Dragon) out of stone. Dragonstone is the place of smoke and salt.(wiki:Dragonstone_(island).cite_ref-Radwd49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_42-0)

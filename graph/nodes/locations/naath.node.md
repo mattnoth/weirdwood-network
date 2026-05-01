@@ -1,0 +1,43 @@
+---
+name: "Naath"
+type: place.location
+slug: naath
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Naath"
+bucket_id: tier3-pathb-locations
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Naath is a location from the AWOIAF wiki.
+
+## Edges
+
+
+## Origins
+
+During the height of the [Old Empire of Ghis](wiki:Old_Empire_of_Ghis), one of their ships briefly landed in the [Summer Isles](wiki:Summer_Isles), alerting their inhabitants that lands and peoples existed beyond their own waters. Explorers from the Summer Isles then landed on Naath to the east.(wiki:Naath.cite_ref-Rtwoiafbeyond_the_free_cities:_the_summer_isles.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
+The [Ghiscari](wiki:Ghiscari) seized Naath three times, and the isle has frequently been raided by [corsairs](wiki:Corsairs) from the [Basilisk Isles](wiki:Basilisk_Isles). The [Valyrian Freehold](wiki:Valyrian_Freehold) erected a [dragonstone](wiki:Dragonstone_(material)) fort, and a company of [Volantene](wiki:Volantis) adventurers built a trade town with timber palisades and slave pens.(wiki:Naath.cite_ref-Rtwoiafbeyond_the_free_cities:_the_summer_isles.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1) The [Naathi](wiki:Naathi) claim that none of these invaders maintained a permanent presence on the island for more than a single year, however, as the outsiders fell victim to the so-called [butterfly fever](wiki:Butterfly_fever) which does not affect the Peaceful People themselves.(wiki:Naath.cite_ref-Rtwoiafbeyond_the_free_cities:_naath.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+A thousand years ago, Naathi welcomed the [ten thousand ships](wiki:Ten_thousand_ships) of [Rhoynar](wiki:Rhoynar) led by Princess [Nymeria](wiki:Nymeria), who stopped at Naath after fleeing from their failed attempt to settle in [Sothoryos](wiki:Sothoryos). When they began dying from an unknown illness,(wiki:Naath.cite_ref-Rtwoiafancient_history:_ten_thousand_ships.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) however, presumably butterfly fever, the Rhoynar returned to their ships and departed.(wiki:Naath.cite_ref-Rtwoiafancient_history:_ten_thousand_ships.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+[Slavers](wiki:Slavers) and corsairs learned to limit their time on the island to avoid catching butterfly fever, instead capturing the Peaceful People in brief nighttime raids. The captives were then sold in Valyria and [Slaver's Bay](wiki:Slaver's_Bay).(wiki:Naath.cite_ref-Rtwoiafbeyond_the_free_cities:_naath.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3) The slaver attacks worsened during the [Century of Blood](wiki:Century_of_Blood), since Valyria no longer controlled the seas after the [Doom](wiki:Doom_of_Valyria). Unwilling to break their vows of total pacifism, even to defend their homes and persons, the Naathi fled from their coasts to the hills and forests. As a result the [silk](wiki:Silk) exports which once flowed from Naath have dwindled away.(wiki:Naath.cite_ref-Rtwoiafbeyond_the_free_cities:_naath.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+[Missandei](wiki:Missandei) and her three brothers,(wiki:Naath.cite_ref-Rasos27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) including [Mossador](wiki:Mossador) and [Marselen](wiki:Marselen), were taken from Naath by raiders from the Basilisk Isles and then sold into slavery in [Astapor](wiki:Astapor).(wiki:Naath.cite_ref-Radwd11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+
+## Narrative Arc
+
+### A Storm of Swords[ ]
+
+[Daenerys Targaryen](wiki:Daenerys_Targaryen) meets [Missandei](wiki:Missandei), who is from Naath.(wiki:Naath.cite_ref-Rasos23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0) After the [siege of Meereen](wiki:Siege_of_Meereen), Daenerys promises to take Missandei home to Naath but the scribe declines.(wiki:Naath.cite_ref-Rasos71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
+
+### A Dance with Dragons[ ]
+
+Daenerys, now [Queen of Meereen](wiki:Queen_of_Meereen), offers to send Missandei back to Naath after the death of her brother, [Mossador](wiki:Mossador), but the girl reaffirms her preference to remain with Daenerys.(wiki:Naath.cite_ref-Radwd11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+
+## Quotes
+
+One day she hoped to see this fabled isle of Naath. [Missandei](wiki:Missandei) said the [Peaceful People](wiki:Naathi) made music instead of war. They did not kill, not even animals; they ate only fruit and never flesh. The [butterfly](wiki:Butterfly) spirits sacred to their [Lord of Harmony](wiki:Lord_of_Harmony) protected their isle against those who would do them harm. Many conquerors had sailed on Naath to blood their swords, only to sicken and die. The butterflies do not help them when the [slave](wiki:Slave) ships come raiding, though.(wiki:Naath.cite_ref-Rasos71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-1)
+Daenerys: Come. Sit. Talk with me.
+Missandei: If it please you. What shall we talk of?

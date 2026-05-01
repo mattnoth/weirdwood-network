@@ -1,0 +1,5 @@
+## Narrative Arc
+
+### A Dance with Dragons[ ]
+
+During the [siege of Astapor](wiki:Siege_of_Astapor), the Temple of the Graces is full of sick people asking the gods for healing. The [iron legions](wiki:Iron_legions) of [New Ghis](wiki:New_Ghis) seal the temple's doors and set it ablaze.(wiki:Temple_of_the_Graces_(Astapor).cite_ref-Radwd30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

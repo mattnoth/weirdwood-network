@@ -1,0 +1,19 @@
+---
+name: "Vulture's Roost"
+type: place.location
+slug: vultures-roost
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Vulture's_Roost"
+bucket_id: tier3-pathb-locations
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Vulture's Roost is a location from the AWOIAF wiki.
+
+## Edges
+

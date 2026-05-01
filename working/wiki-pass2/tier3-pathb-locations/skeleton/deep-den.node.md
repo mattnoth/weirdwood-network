@@ -1,0 +1,19 @@
+---
+name: "Deep Den"
+type: place.location
+slug: deep-den
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Deep_Den"
+bucket_id: tier3-pathb-locations
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Deep Den is a location from the AWOIAF wiki.
+
+## Edges
+

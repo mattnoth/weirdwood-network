@@ -1,0 +1,37 @@
+---
+name: "Prince's Pass"
+type: place.location
+slug: princes-pass
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Prince's_Pass"
+bucket_id: tier3-pathb-locations
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Prince's Pass is a location from the AWOIAF wiki.
+
+## Edges
+
+
+## Origins
+
+The Prince's Pass was originally the Wide Way, the shortest and easiest route between the [Reach](wiki:Reach) and [Dorne](wiki:Dorne). It was guarded by the Lords of the Wide Way, the [Kings of Stone and Sky](wiki:Kings_of_Stone_and_Sky) from [House Fowler](wiki:House_Fowler), who carved [Skyreach](wiki:Skyreach) into its stony slopes.(wiki:Prince's_Pass.cite_ref-Rtwoiafdorne:_kingdoms_of_the_first_men.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1) [Garth VII Gardener](wiki:Garth_VII_Gardener), [King of the Reach](wiki:King_of_the_Reach), once repelled an army from the Wide Way led by King [Ferris Fowler](wiki:Ferris_Fowler).(wiki:Prince's_Pass.cite_ref-Rtwoiafthe_reach:_the_gardener_kings.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) The Fowlers submitted to [House Martell](wiki:House_Martell) during [Nymeria's War](wiki:Nymeria's_War),(wiki:Prince's_Pass.cite_ref-Rtwoiafancient_history:_ten_thousand_ships.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) however, and the route became known as the Prince's Pass, as the Martells used the title of "[prince](wiki:Prince_of_Dorne)" in the [Rhoynish](wiki:Rhoynar) custom.
+[Alester Oakheart](wiki:Alester_Oakheart) died in the Prince's Pass while blowing his warhorn, having been mortally wounded by [Dornishmen](wiki:Dornishmen).(wiki:Prince's_Pass.cite_ref-Raffc13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+Dornish spearmen guarded the Prince's Pass during [Aegon's Conquest](wiki:Aegon's_Conquest), but Queen [Rhaenys Targaryen](wiki:Rhaenys_Targaryen) instead flew above them atop [Meraxes](wiki:Meraxes).(wiki:Prince's_Pass.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+King [Aegon I Targaryen](wiki:Aegon_I_Targaryen) and Lord [Harlan Tyrell](wiki:Harlan_Tyrell) warred against the mountain lords of the Prince's Pass during the [First Dornish War](wiki:First_Dornish_War).(wiki:Prince's_Pass.cite_ref-Rtwoiafdorne:_dorne_against_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0) To deny food and fodder to the invaders, the Dornishmen abandoned their watchtowers, burned their crops, and [poisoned](wiki:Poison) their wells. Aegon was able to replenish his host after reaching the foothills of the [Red Mountains](wiki:Red_Mountains), however, and the king then took Skyreach and continued east. After declaring victory in [Sunspear](wiki:Sunspear), Aegon returned north through the Prince's Pass. Dorne rebelled after the king's departure, however, and the war continued. Lord Fowler led an army through the Prince's Pass to attack [Nightsong](wiki:Nightsong).(wiki:Prince's_Pass.cite_ref-Rfabthe_wars_of_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)
+Lord [Lyonel Tyrell](wiki:Lyonel_Tyrell_(lord)) marched an army along the Prince's Pass during the [conquest of Dorne](wiki:Conquest_of_Dorne) by King [Daeron I Targaryen](wiki:Daeron_I_Targaryen).(wiki:Prince's_Pass.cite_ref-Rtwoiaf_the_targaryen_kings:_daeron_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)
+
+## Narrative Arc
+
+### A Clash of Kings[ ]
+
+[Tyrion Lannister](wiki:Tyrion_Lannister) requests that [Doran Martell](wiki:Doran_Martell), [Prince of Dorne](wiki:Prince_of_Dorne), send his armies to the Prince's Pass to keep the [marcher lords](wiki:Marcher_lords) in their castles as part of the political betrothal of Princess [Myrcella Baratheon](wiki:Myrcella_Baratheon) and Prince [Trystane Martell](wiki:Trystane_Martell).(wiki:Prince's_Pass.cite_ref-Rawoiaf_dornish_marches.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0) Doran promises to move his banners into the high passes once Myrcella arrives safely at [Sunspear](wiki:Sunspear).(wiki:Prince's_Pass.cite_ref-Racok41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0) Word eventually reaches [Stannis Baratheon](wiki:Stannis_Baratheon) that the [Dornish](wiki:Dornish) have fortified the mountain passes, poised to sweep down onto the [Dornish Marches](wiki:Dornish_Marches) while he besieges [Storm's End](wiki:Siege_of_Storm's_End_(299)).(wiki:Prince's_Pass.cite_ref-Racok42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0)
+
+### The Winds of Winter[ ]
+
+Two Dornish hosts have massed in the [Boneway](wiki:Boneway) and the Prince's Pass. The hosts sit encamped, waiting for Doran to loose them on the enemies of [House Martell](wiki:House_Martell).(wiki:Prince's_Pass.cite_ref-15)

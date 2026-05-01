@@ -1,0 +1,23 @@
+---
+name: "Vaes Athjikhari"
+type: place.location
+slug: vaes-athjikhari
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Vaes_Athjikhari"
+bucket_id: tier3-pathb-locations
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Vaes Athjikhari is a location from the AWOIAF wiki.
+
+## Edges
+
+
+## Origins
+
+Located on the [Silver Shore](wiki:Silver_Shore), Sallosh was known as the City of Scholars. Its excellent library contained extensive histories of the [Tall Men](wiki:Tall_Men). The city and its library were destroyed by [Dothraki](wiki:Dothraki) during the [Century of Blood](wiki:Century_of_Blood) which followed the [Doom of Valyria](wiki:Doom_of_Valyria), however.(wiki:Vaes_Athjikhari.cite_ref-Rawoiafvaes_athjikhari_.28sallosh.29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)(wiki:Vaes_Athjikhari.cite_ref-Rtwoiafbeyond_the_free_cities:_the_grasslands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)

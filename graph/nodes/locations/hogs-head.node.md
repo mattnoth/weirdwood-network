@@ -1,0 +1,28 @@
+---
+name: "Hogs Head"
+type: place.location
+slug: hogs-head
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Hogs_Head"
+bucket_id: tier3-pathb-locations
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Hogs Head is a location from the AWOIAF wiki.
+
+## Edges
+
+
+## Appearances & Description
+
+Hogs Head was located on the north bank of the [Mander](wiki:Mander), near the foot of the old stone bridge that gave the town its name.(wiki:Hogs_Head.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+## Origins
+
+After the [fall of King's Landing](wiki:Fall_of_King's_Landing), Ser [Rickard Thorne](wiki:Rickard_Thorne) of the [Kingsguard](wiki:Kingsguard) was named guardian and [sworn shield](wiki:Sworn_shield) of Prince [Maelor Targaryen](wiki:Maelor_Targaryen), the younger son of King [Aegon II Targaryen](wiki:Aegon_II_Targaryen), and was instructed to take him to [Oldtown](wiki:Oldtown). The disguised Rickard tried to stay overnight in the Hogs Head while journeying to the safety of Lord [Ormund Hightower](wiki:Ormund_Hightower)'s host at the nearby [siege of Longtable](wiki:Siege_of_Longtable). [Ben Buttercakes](wiki:Ben_Buttercakes) instructed his stableboy, [Sly](wiki:Sly_(stableboy)), to search for [coins](wiki:Currency) in Rickard's belongings but he found Maelor's [dragon egg](wiki:Dragon_egg) wrapped in Rickard's white cloak instead. When Sly informed the inn's common room of his discovery, Rickard fled the inn with Maelor, slaying Ben on his way out. He was killed by crossbowmen on the stone bridge not long after. Prince Maelor died as well, though the manner of his death is disputed.(wiki:Hogs_Head.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+When Lord Ormund's host arrived at Bitterbridge, the town was [sacked](wiki:Sack_of_Bitterbridge) and Maelor's uncle, Prince [Daeron the Daring](wiki:Daeron_Targaryen_(son_of_Viserys_I)), burned it mounted on his [dragon](wiki:Dragon) [Tessarion](wiki:Tessarion). Hogs Head was the first building to be burned.(wiki:Hogs_Head.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)

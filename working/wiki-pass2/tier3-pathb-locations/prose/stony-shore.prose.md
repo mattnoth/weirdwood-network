@@ -1,0 +1,27 @@
+## Origins
+
+[House Fisher](wiki:House_Fisher_of_the_Stony_Shore) ruled the Stony Shore as [First Men](wiki:First_Men) kings after the [Long Night](wiki:Long_Night), but they eventually submitted to the [Kings of Winter](wiki:Kings_of_Winter) and became vassals of [House Stark](wiki:House_Stark) of [Winterfell](wiki:Winterfell).(wiki:Stony_Shore.cite_ref-Rtwoiafthe_north:_the_kings_of_winter.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) It is unknown if the Fishers still live in the area or are an extinct house.
+Large portions of the Stony Shore have been controlled by the [ironborn](wiki:Ironborn) at times,(wiki:Stony_Shore.cite_ref-Rtwoiafthe_north:_the_mountain_clans.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0), including during the reign of [Harrag Hoare](wiki:Harrag_Hoare), [King of the Iron Islands](wiki:King_of_the_Iron_Islands).(wiki:Stony_Shore.cite_ref-Rtwoiafthe_north:_the_kings_of_winter.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2) Centuries of reaving along the stony shore has led to animosity by [northmen](wiki:North) toward the ironborn.(wiki:Stony_Shore.cite_ref-Radwd62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
+
+## Narrative Arc
+
+### A Clash of Kings[ ]
+
+[Theon Greyjoy](wiki:Theon_Greyjoy) and eight [ironborn](wiki:Ironborn) longships are sent to attack the fishing villages of the Stony Shore and sink any ships they encounter.(wiki:Stony_Shore.cite_ref-Racok24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) The [harrying of the Stony Shore](wiki:Harrying_of_the_Stony_Shore) is planned by Theon's father, [Balon Greyjoy](wiki:Balon_Greyjoy), to distract the [northmen](wiki:Northmen) from more ambitious ironborn attacks on [Deepwood Motte](wiki:Fall_of_Deepwood_Motte) and [Moat Cailin](wiki:Fall_of_Moat_Cailin).(wiki:Stony_Shore.cite_ref-Racok37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0)
+[Leobald Tallhart](wiki:Leobald_Tallhart) sends [Benfred Tallhart](wiki:Benfred_Tallhart) and his [Wild Hares](wiki:Wild_Hares) from Torrhen's Square to drive off the raiders,(wiki:Stony_Shore.cite_ref-Racok35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1) but the youths are ambushed and slain by Theon's men near a destroyed village.(wiki:Stony_Shore.cite_ref-Racok37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-1) Dissatisfied with Balon's orders, Theon gives six longships to his uncle, [Aeron Greyjoy](wiki:Aeron_Greyjoy), to continue the raiding of the Stony Shore, and he gives [Dagmer Cleftjaw](wiki:Dagmer_Cleftjaw) most of the remaining men to attack Torrhen's Square. Theon plans that Dagmer's attack will draw the levies from [Winterfell](wiki:Winterfell) so that he himself can then [capture the undermanned castle](wiki:Capture_of_Winterfell) with only a handful of ironborn.(wiki:Stony_Shore.cite_ref-Racok37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-2)
+
+### A Storm of Swords[ ]
+
+The ironborn hold most of the Stony Shore.(wiki:Stony_Shore.cite_ref-Rasos19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0)(wiki:Stony_Shore.cite_ref-Rasos76.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0)
+At [Hag's Mire](wiki:Hag's_Mire), [Robb Stark](wiki:Robb_Stark), [King in the North](wiki:King_in_the_North), tasks [Maege Mormont](wiki:Maege_Mormont) and [Galbart Glover](wiki:Galbart_Glover) with sailing from [Seagard](wiki:Seagard) into the [Neck](wiki:Neck) to find Lord [Howland Reed](wiki:Howland_Reed). If they are caught by enemies, they are to claim they were sailing to [Bear Island](wiki:Bear_Island) or the Stony Shore.(wiki:Stony_Shore.cite_ref-Rasos45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0)
+
+### A Feast for Crows[ ]
+
+Aeron Damphair returns to [Pyke](wiki:Pyke) after harrying the Stony Shore.(wiki:Stony_Shore.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0)
+[Asha Greyjoy](wiki:Asha_Greyjoy) tells Lord [Rodrik Harlaw](wiki:Rodrik_Harlaw) that she had to beach her [Black Wind](wiki:Black_Wind) along the Stony Shore in order to find a wet nurse for [Erena Glover](wiki:Erena_Glover); they found her a goat.(wiki:Stony_Shore.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-0)
+Most of the ironborn leave the north to attend the [kingsmoot on Old Wyk](wiki:Kingsmoot_on_Old_Wyk) following the death of Balon, [King of the Isles and the North](wiki:King_of_the_Isles_and_the_North) and Asha's father.(wiki:Stony_Shore.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-1) In her candidacy to become queen, Asha tries to convince the ironborn to make peace with the north and settle for the Stony Shore and [Sea Dragon Point](wiki:Sea_Dragon_Point). However, the assembled captains choose the plan of Balon's brother, [Euron Greyjoy](wiki:Euron_Greyjoy), to expand their war instead.(wiki:Stony_Shore.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
+
+### A Dance with Dragons[ ]
+
+In order to resolve the [siege of Moat Cailin](wiki:Siege_of_Moat_Cailin), [Ramsay Bolton](wiki:Ramsay_Snow) offers the ironborn garrison safe conduct from [Moat Cailin](wiki:Moat_Cailin) to the Stony Shore, where they can take ship back to the [Iron Islands](wiki:Iron_Islands). However, Ramsay has them executed and [flayed](wiki:Flay) after they surrender.(wiki:Stony_Shore.cite_ref-Radwd20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-0)
+Many villagers of the Stony Shore who have fled the ironborn join King [Stannis Baratheon](wiki:Stannis_Baratheon) after he defeats Asha in the [fight by Deepwood Motte](wiki:Fight_by_Deepwood_Motte).(wiki:Stony_Shore.cite_ref-Radwd35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)

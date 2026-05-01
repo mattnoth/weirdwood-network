@@ -1,0 +1,68 @@
+---
+name: "Holdfast"
+type: place.location
+slug: holdfast
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Holdfast"
+bucket_id: tier3-pathb-locations
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Holdfast is a location from the AWOIAF wiki.
+
+## Edges
+
+
+## Appearances & Description
+
+Holdfasts can be solitary(wiki:Holdfast.cite_ref-Ragot13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0) or be surrounded by villages or towns.(wiki:Holdfast.cite_ref-Ragot43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) Holdfasts can be built of stone or timber,(wiki:Holdfast.cite_ref-Ragot43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) and they can have gated walls(wiki:Holdfast.cite_ref-Ragot1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) and timber palisades.(wiki:Holdfast.cite_ref-Racok9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) They can include towerhouses overlooking small villages,(wiki:Holdfast.cite_ref-Rasos41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) roundtowers within towns,(wiki:Holdfast.cite_ref-Rasos47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) or encompass large compounds.(wiki:Holdfast.cite_ref-Racok14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+[Maegor's Holdfast](wiki:Maegor's_Holdfast) is a massive square fortress within the [Red Keep](wiki:Red_Keep).(wiki:Holdfast.cite_ref-Ragot47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0) The spacious holdfast at the [Gods Eye town](wiki:Gods_Eye_town) has rough unmortared stone ten feet high and a wooden catwalk inside its battlements,(wiki:Holdfast.cite_ref-Racok14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1) and the holdfast of [Pennytree](wiki:Pennytree) has thick stone walls twelve feet high.(wiki:Holdfast.cite_ref-Radwd48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0) The sept of [Stoney Sept](wiki:Stoney_Sept) sits above a strong stone holdfast,(wiki:Holdfast.cite_ref-Rasos29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0) while the holdfast of [Queenscrown](wiki:Queenscrown) is defended by a lake.(wiki:Holdfast.cite_ref-Rasos40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0) [Shandystone](wiki:Shandystone) in [Dorne](wiki:Dorne) is a holdfast decorated with fluted columns and triple arches.(wiki:Holdfast.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0)
+
+## Culture
+
+Stout holdfasts are found near the [kingsroad](wiki:Kingsroad) east of the [Green Fork](wiki:Green_Fork)(wiki:Holdfast.cite_ref-Ragot28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0) and north of [King's Landing](wiki:King's_Landing).(wiki:Holdfast.cite_ref-Racok5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0)
+Younger sons of [House Stark](wiki:House_Stark) are sometimes given holdfasts to rule in the name of the Lord of [Winterfell](wiki:Winterfell).(wiki:Holdfast.cite_ref-Ragot5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0) Small farms and villages are spread around holdfasts north of Winterfell and south of [Castle Black](wiki:Castle_Black), along the kingsroad.(wiki:Holdfast.cite_ref-Ragot13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)(wiki:Holdfast.cite_ref-Ragot70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0) [Northern](wiki:North) farmers often leave their farms and holdfasts for the safety of the [winter town](wiki:Winter_town) and Winterfell during winter.(wiki:Holdfast.cite_ref-Ragot37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0)
+Dispute between rival holdfasts can be settled by the royal court at the [Red Keep](wiki:Red_Keep).(wiki:Holdfast.cite_ref-Ragot43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+Lands under the dominion of [Norvos](wiki:Norvos) are protected by walled villages and stout holdfasts surrounded by timber palisades.(wiki:Holdfast.cite_ref-Rtwoiafthe_free_cities:_norvos.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-0)
+
+## Origins
+
+The [First Men](wiki:First_Men) of the [Dawn Age](wiki:Dawn_Age) built [ringforts](wiki:Ringfort) in [Westeros](wiki:Westeros), such as the [Fist of the First Men](wiki:Fist_of_the_First_Men).(wiki:Holdfast.cite_ref-Racok34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-0) They chopped down trees for their farms, ringforts, and holdfasts, eventually leading to [war](wiki:War_of_the_First_Men_and_the_children_of_the_forest) between the humans and the [children of the forest](wiki:Children_of_the_forest).(wiki:Holdfast.cite_ref-Ragot66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-0)(wiki:Holdfast.cite_ref-Rtwoiafancient_history:_the_coming_of_the_first_men.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-0)
+According to [Old Nan](wiki:Old_Nan), the [Others](wiki:Others) swept over holdfasts, cities, and kingdoms during the [Long Night](wiki:Long_Night).(wiki:Holdfast.cite_ref-Ragot24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-0)(wiki:Holdfast.cite_ref-Ragot52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-0)
+[Andal](wiki:Andal) stonemasons were able to build stronger holdfasts than those built by the First Men.(wiki:Holdfast.cite_ref-Rtwoiafthe_reach:_andals_in_the_reach.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-0)
+[Oldstones](wiki:Oldstones) was dismantled long ago by [smallfolk](wiki:Smallfolk) who used its stones to raise barns, [septs](wiki:Sept), and holdfasts.(wiki:Holdfast.cite_ref-Rasos45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-0) [Shandystone](wiki:Shandystone) was abandoned after its well went dry.(wiki:Holdfast.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-1)
+Most holdfasts of the [Ibbenese](wiki:Ibbenese) in northern [Essos](wiki:Essos) were destroyed by the [Dothraki](wiki:Dothraki) in recent centuries.(wiki:Holdfast.cite_ref-Rtwoiafbeyond_the_free_cities:_ib.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-0)
+Lord [Eddard Stark](wiki:Eddard_Stark) and [Hallis Mollen](wiki:Hallis_Mollen) sometimes visit holdfasts distant from [Winterfell](wiki:Winterfell),(wiki:Holdfast.cite_ref-Ragot24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-1) and [Jon Snow](wiki:Jon_Snow) once saw an abandoned fortification.(wiki:Holdfast.cite_ref-Ragot5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-1) Many villages and holdfasts in the [Gift](wiki:Gift) have been abandoned over the years.(wiki:Holdfast.cite_ref-Rasos41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
+
+## Narrative Arc
+
+### A Game of Thrones[ ]
+
+Having deserted from the [Night's Watch](wiki:Night's_Watch), [Gared](wiki:Gared) is executed by Lord [Eddard Stark](wiki:Eddard_Stark), [Warden of the North](wiki:Warden_of_the_North), at a [holdfast in the hills](wiki:Holdfast_in_the_hills) near [Winterfell](wiki:Winterfell). The holdfast has walls and a gate.(wiki:Holdfast.cite_ref-Ragot1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+While traveling on the [kingsroad](wiki:Kingsroad) north to [Castle Black](wiki:Castle_Black), [Tyrion Lannister](wiki:Tyrion_Lannister) and [Jon Snow](wiki:Jon_Snow) stop at a [wolfswood](wiki:Wolfswood) holdfast with wooden walls and later at a long-abandoned holdfast with a tumbledown wall.(wiki:Holdfast.cite_ref-Ragot13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+[Sansa Stark](wiki:Sansa_Stark) observes fields, farms, and holdfasts while the royal party travels south on the kingsroad to [King's Landing](wiki:King's_Landing). Sansa and Prince [Joffrey Baratheon](wiki:Joffrey_Baratheon) find a holdfast by the [Trident](wiki:Trident), and the prince requests food and wine from its occupants.(wiki:Holdfast.cite_ref-Ragot15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_27-0)
+After Tyrion's abduction by [Catelyn Stark](wiki:Catelyn_Stark),(wiki:Holdfast.cite_ref-Ragot28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-1) Lord [Tywin Lannister](wiki:Tywin_Lannister) sends Ser [Gregor Clegane](wiki:Gregor_Clegane) to raid the [riverlands](wiki:Riverlands). While some of the people of [Sherrer](wiki:Sherrer) find refuge in their stone holdfast, the timbered holdfast at [Wendish Town](wiki:Wendish_Town) is set afire.(wiki:Holdfast.cite_ref-Ragot43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3) Ser [Edmure Tully](wiki:Edmure_Tully) sends men to defend every village and holdfast,(wiki:Holdfast.cite_ref-Ragot43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4) but they are eventually overwhelmed by the army of Lord [Tywin Lannister](wiki:Tywin_Lannister).(wiki:Holdfast.cite_ref-Ragot56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-0) While his own army besieges [Riverrun](wiki:Riverrun), Ser [Jaime Lannister](wiki:Jaime_Lannister) subdues stubborn holdfasts.(wiki:Holdfast.cite_ref-Ragot63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-0)
+
+### A Clash of Kings[ ]
+
+The riverlands suffer during the [War of the Five Kings](wiki:War_of_the_Five_Kings), with many people seeking protection in holdfasts.(wiki:Holdfast.cite_ref-Racok5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-1) [Yoren](wiki:Yoren)'s band passes by [Briarwhite](wiki:Briarwhite) and later finds [Weasel](wiki:Weasel) in a burned holdfast.(wiki:Holdfast.cite_ref-Ragot9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-0) They stay within the holdfast of the [Gods Eye town](wiki:Gods_Eye_town), but come under attack there by Ser [Amory Lorch](wiki:Amory_Lorch).(wiki:Holdfast.cite_ref-Racok14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2) While marching to [Harrenhal](wiki:Harrenhal) as a captive of Gregor, [Arya Stark](wiki:Arya_Stark) sees husks of burnt holdfasts.(wiki:Holdfast.cite_ref-Racok26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-0) [Martyn Rivers](wiki:Martyn_Rivers) makes his camp at a shattered holdfast near Riverrun.(wiki:Holdfast.cite_ref-Racok39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_32-0)
+Friends from nearby holdfasts attend the [harvest feast](wiki:Harvest_feast) at [Winterfell](wiki:Winterfell),(wiki:Holdfast.cite_ref-Racok21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-0) and Ser [Rodrik Cassel](wiki:Rodrik_Cassel) gathers a host of six hundred men from Winterfell and nearby holdfasts.(wiki:Holdfast.cite_ref-Racok46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_34-0) After the [capture of Winterfell](wiki:Capture_of_Winterfell), [Asha Greyjoy](wiki:Asha_Greyjoy) warns her brother, [Theon](wiki:Theon_Greyjoy), against trying to hold the castle because it is ringed by hostile holdfasts.(wiki:Holdfast.cite_ref-Racok56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_35-0)
+
+### A Storm of Swords[ ]
+
+[Bran Stark](wiki:Bran_Stark) and his companions stay at the holdfast of [Queenscrown](wiki:Queenscrown).(wiki:Holdfast.cite_ref-Rasos40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-1)
+
+### A Feast for Crows[ ]
+
+Princess [Arianne Martell](wiki:Arianne_Martell) gathers her conspirators at the abandoned holdfast of [Shandystone](wiki:Shandystone).(wiki:Holdfast.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-2)
+
+## Quotes
+
+Jon had seen an abandoned holdfast once, a drear place where nothing moved but the wind and the stones kept silent about whatever people had lived there.(wiki:Holdfast.cite_ref-Ragot5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-2)
+When there was a [Stark](wiki:House_Stark) in [Winterfell](wiki:Winterfell), a maiden girl could walk the [kingsroad](wiki:Kingsroad) in her name-day gown and still go unmolested, and travelers could find fire, bread, and salt at many an inn and holdfast. But the nights are colder now, and doors are closed. There's [squids](wiki:House_Greyjoy) in the [wolfswood](wiki:Wolfswood), and [flayed men](wiki:House_Bolton) ride the kingsroad asking after strangers.(wiki:Holdfast.cite_ref-Rasos24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_36-0)
+Inside the homes all the fires had been put out, but some still smoked, and none of them were cold. The nanny goat that [Hot Harry Merrell](wiki:Hot_Harry_Merrell) found rooting through a vegetable garden was the only living creature to be seen ... but [the village](wiki:Pennytree) had a holdfast as strong as any in the [riverlands](wiki:Riverlands), with thick stone walls twelve feet high, and Jaime knew that was where he'd find the villagers. They hid behind those walls when raiders came, that's why there's still a village here. And they are hiding there again, from me.(wiki:Holdfast.cite_ref-Radwd48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-1)

@@ -1,0 +1,26 @@
+---
+name: "Shivering Sea"
+type: place.location
+slug: shivering-sea
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Shivering_Sea"
+bucket_id: tier3-pathb-locations
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Shivering Sea is a location from the AWOIAF wiki.
+
+## Edges
+
+
+## Origins
+
+[Pirates](wiki:Pirates) from the [Three Sisters](wiki:Three_Sisters) once raided the [Bite](wiki:Bite), the [narrow sea](wiki:Narrow_sea), and as far as the Shivering Sea. This reaving by the [Sistermen](wiki:Sistermen) eventually led to an invasion of their islands by the [Kings of Winter](wiki:Kings_of_Winter), which was then followed by the [War Across the Water](wiki:War_Across_the_Water).(wiki:Shivering_Sea.cite_ref-Rtwoiafthe_vale.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)
+The destruction of [Hardhome](wiki:Hardhome) led to ashes raining down on the [haunted forest](wiki:Haunted_forest) and the Shivering Sea alike for almost half a year.(wiki:Shivering_Sea.cite_ref-Radwd39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
+A young [Corlys Velaryon](wiki:Corlys_Velaryon) sailed on his [Ice Wolf](wiki:Ice_Wolf) to [Braavos](wiki:Braavos), [Eastwatch-by-the-Sea](wiki:Eastwatch-by-the-Sea), [Hardhome](wiki:Hardhome), and then [Lorath](wiki:Lorath) and the [Port of Ibben](wiki:Port_of_Ibben) in the Shivering Sea.(wiki:Shivering_Sea.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0) Corlys was the first [Westerosi](wiki:Westeros) to explore the Shivering Sea as far as the [Thousand Islands](wiki:Thousand_Islands),(wiki:Shivering_Sea.cite_ref-Rtwoiafbeyond_the_free_cities:_ib.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-1) doing so on the third of his great voyages on [Sea Snake](wiki:Sea_Snake).(wiki:Shivering_Sea.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-1) [Bryan of Oldtown](wiki:Bryan_of_Oldtown) later sailed [Spearshaker](wiki:Spearshaker) in the Shivering Sea.(wiki:Shivering_Sea.cite_ref-Rtwoiafbeyond_the_free_cities:_ib.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-2)
+[Roro Uhoris](wiki:Roro_Uhoris) sailed [beyond the Wall](wiki:Beyond_the_Wall) on [Cobblecat](wiki:Cobblecat) and traded with [free folk](wiki:Free_folk) in numerous coves along the Shivering Sea. When he returned south, he was executed at [Eastwatch-by-the-Sea](wiki:Eastwatch-by-the-Sea) by the [Night's Watch](wiki:Night's_Watch) for having traded weapons to wildlings.(wiki:Shivering_Sea.cite_ref-Rasos54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0)

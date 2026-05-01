@@ -1,0 +1,3858 @@
+{
+  "bucket_id": "tier3-pathb-locations",
+  "tier": "secondary",
+  "tier_default": "tier-2",
+  "prompt_version": "v1-python",
+  "created_at": "2026-05-01T14:25:47.350297+00:00",
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "pages": [
+    {
+      "page": "Acorn Water",
+      "slug": "acorn-water",
+      "type": "place.location"
+    },
+    {
+      "page": "Adakhakileki",
+      "slug": "adakhakileki",
+      "type": "place.location"
+    },
+    {
+      "page": "Aegon's High Hill",
+      "slug": "aegons-high-hill",
+      "type": "place.location"
+    },
+    {
+      "page": "Aegon, Rhaenys, and Visenya (islands)",
+      "slug": "aegon-rhaenys-and-visenya-islands",
+      "type": "place.location"
+    },
+    {
+      "page": "Aegonfort",
+      "slug": "aegonfort",
+      "type": "place.location"
+    },
+    {
+      "page": "Alyssa's Tears",
+      "slug": "alyssas-tears",
+      "type": "place.location"
+    },
+    {
+      "page": "Andalos",
+      "slug": "andalos",
+      "type": "place.location"
+    },
+    {
+      "page": "Antler River",
+      "slug": "antler-river",
+      "type": "place.location"
+    },
+    {
+      "page": "Aquos Dhaen",
+      "slug": "aquos-dhaen",
+      "type": "place.location"
+    },
+    {
+      "page": "Ar Noy",
+      "slug": "ar-noy",
+      "type": "place.location"
+    },
+    {
+      "page": "Arsenal",
+      "slug": "arsenal",
+      "type": "place.location"
+    },
+    {
+      "page": "Asabhad",
+      "slug": "asabhad",
+      "type": "place.location"
+    },
+    {
+      "page": "Ash (river)",
+      "slug": "ash-river",
+      "type": "place.location"
+    },
+    {
+      "page": "Ashford Meadow",
+      "slug": "ashford-meadow",
+      "type": "place.location"
+    },
+    {
+      "page": "Ax Isle",
+      "slug": "ax-isle",
+      "type": "place.location"
+    },
+    {
+      "page": "Axe",
+      "slug": "axe",
+      "type": "place.location"
+    },
+    {
+      "page": "Barrowlands",
+      "slug": "barrowlands",
+      "type": "place.location"
+    },
+    {
+      "page": "Barter Beach",
+      "slug": "barter-beach",
+      "type": "place.location"
+    },
+    {
+      "page": "Basilisk Isles",
+      "slug": "basilisk-isles",
+      "type": "place.location"
+    },
+    {
+      "page": "Basilisk Point",
+      "slug": "basilisk-point",
+      "type": "place.location"
+    },
+    {
+      "page": "Bastard's Cradle",
+      "slug": "bastards-cradle",
+      "type": "place.location"
+    },
+    {
+      "page": "Battle Island",
+      "slug": "battle-island",
+      "type": "place.location"
+    },
+    {
+      "page": "Battle Valley",
+      "slug": "battle-valley",
+      "type": "place.location"
+    },
+    {
+      "page": "Bawdy Badger",
+      "slug": "bawdy-badger",
+      "type": "place.location"
+    },
+    {
+      "page": "Bay of Crabs",
+      "slug": "bay-of-crabs",
+      "type": "place.location"
+    },
+    {
+      "page": "Bay of Ice",
+      "slug": "bay-of-ice",
+      "type": "place.location"
+    },
+    {
+      "page": "Bay of Pentos",
+      "slug": "bay-of-pentos",
+      "type": "place.location"
+    },
+    {
+      "page": "Bay of Seals",
+      "slug": "bay-of-seals",
+      "type": "place.location"
+    },
+    {
+      "page": "Bay of Tusks",
+      "slug": "bay-of-tusks",
+      "type": "place.location"
+    },
+    {
+      "page": "Bay of Whales",
+      "slug": "bay-of-whales",
+      "type": "place.location"
+    },
+    {
+      "page": "Bayasabhad",
+      "slug": "bayasabhad",
+      "type": "place.location"
+    },
+    {
+      "page": "Bear Island",
+      "slug": "bear-island",
+      "type": "place.location"
+    },
+    {
+      "page": "Bechester",
+      "slug": "bechester",
+      "type": "place.location"
+    },
+    {
+      "page": "Bell Tower",
+      "slug": "bell-tower",
+      "type": "place.location"
+    },
+    {
+      "page": "Belly of the Whale",
+      "slug": "belly-of-the-whale",
+      "type": "place.location"
+    },
+    {
+      "page": "Big Willow",
+      "slug": "big-willow",
+      "type": "place.location"
+    },
+    {
+      "page": "Bite",
+      "slug": "bite",
+      "type": "place.location"
+    },
+    {
+      "page": "Bitter River",
+      "slug": "bitter-river",
+      "type": "place.location"
+    },
+    {
+      "page": "Bitterweed Bay",
+      "slug": "bitterweed-bay",
+      "type": "place.location"
+    },
+    {
+      "page": "Black Bargeman",
+      "slug": "black-bargeman",
+      "type": "place.location"
+    },
+    {
+      "page": "Black Bog",
+      "slug": "black-bog",
+      "type": "place.location"
+    },
+    {
+      "page": "Black Canal",
+      "slug": "black-canal",
+      "type": "place.location"
+    },
+    {
+      "page": "Black Cliffs",
+      "slug": "black-cliffs",
+      "type": "place.location"
+    },
+    {
+      "page": "Black Pudding",
+      "slug": "black-pudding",
+      "type": "place.location"
+    },
+    {
+      "page": "Black Walls",
+      "slug": "black-walls",
+      "type": "place.location"
+    },
+    {
+      "page": "Blackbottom Bend",
+      "slug": "blackbottom-bend",
+      "type": "place.location"
+    },
+    {
+      "page": "Blackbuckle",
+      "slug": "blackbuckle",
+      "type": "place.location"
+    },
+    {
+      "page": "Blackhull",
+      "slug": "blackhull",
+      "type": "place.location"
+    },
+    {
+      "page": "Blacktyde",
+      "slug": "blacktyde",
+      "type": "place.location"
+    },
+    {
+      "page": "Blackwater Bay",
+      "slug": "blackwater-bay",
+      "type": "place.location"
+    },
+    {
+      "page": "Blackwood Vale",
+      "slug": "blackwood-vale",
+      "type": "place.location"
+    },
+    {
+      "page": "Blazewater Bay",
+      "slug": "blazewater-bay",
+      "type": "place.location"
+    },
+    {
+      "page": "Bleeding Sea",
+      "slug": "bleeding-sea",
+      "type": "place.location"
+    },
+    {
+      "page": "Bleeding Tower",
+      "slug": "bleeding-tower",
+      "type": "place.location"
+    },
+    {
+      "page": "Bloodstone",
+      "slug": "bloodstone",
+      "type": "place.location"
+    },
+    {
+      "page": "Bloody Caltrops",
+      "slug": "bloody-caltrops",
+      "type": "place.location"
+    },
+    {
+      "page": "Bloody Isle",
+      "slug": "bloody-isle",
+      "type": "place.location"
+    },
+    {
+      "page": "Bloody Keep",
+      "slug": "bloody-keep",
+      "type": "place.location"
+    },
+    {
+      "page": "Bloody Meadow",
+      "slug": "bloody-meadow",
+      "type": "place.location"
+    },
+    {
+      "page": "Blue Fork",
+      "slug": "blue-fork",
+      "type": "place.location"
+    },
+    {
+      "page": "Blue Lantern",
+      "slug": "blue-lantern",
+      "type": "place.location"
+    },
+    {
+      "page": "Blueburn",
+      "slug": "blueburn",
+      "type": "place.location"
+    },
+    {
+      "page": "Bone Mountains",
+      "slug": "bone-mountains",
+      "type": "place.location"
+    },
+    {
+      "page": "Bones",
+      "slug": "bones",
+      "type": "place.location"
+    },
+    {
+      "page": "Bonetown",
+      "slug": "bonetown",
+      "type": "place.location"
+    },
+    {
+      "page": "Boneway",
+      "slug": "boneway",
+      "type": "place.location"
+    },
+    {
+      "page": "Book Tower",
+      "slug": "book-tower",
+      "type": "place.location"
+    },
+    {
+      "page": "Bowshot Bridge",
+      "slug": "bowshot-bridge",
+      "type": "place.location"
+    },
+    {
+      "page": "Braavosian Coastland",
+      "slug": "braavosian-coastland",
+      "type": "place.location"
+    },
+    {
+      "page": "Bravo",
+      "slug": "bravo",
+      "type": "place.location"
+    },
+    {
+      "page": "Breakstone Hill",
+      "slug": "breakstone-hill",
+      "type": "place.location"
+    },
+    {
+      "page": "Breakwater",
+      "slug": "breakwater",
+      "type": "place.location"
+    },
+    {
+      "page": "Bridge of Dream",
+      "slug": "bridge-of-dream",
+      "type": "place.location"
+    },
+    {
+      "page": "Bridge of Eyes",
+      "slug": "bridge-of-eyes",
+      "type": "place.location"
+    },
+    {
+      "page": "Brimstone",
+      "slug": "brimstone",
+      "type": "place.location"
+    },
+    {
+      "page": "Broken Anvil",
+      "slug": "broken-anvil",
+      "type": "place.location"
+    },
+    {
+      "page": "Broken Arm",
+      "slug": "broken-arm",
+      "type": "place.location"
+    },
+    {
+      "page": "Broken Branch",
+      "slug": "broken-branch",
+      "type": "place.location"
+    },
+    {
+      "page": "Broken Shield",
+      "slug": "broken-shield",
+      "type": "place.location"
+    },
+    {
+      "page": "Bronzegate",
+      "slug": "bronzegate",
+      "type": "place.location"
+    },
+    {
+      "page": "Buckle",
+      "slug": "buckle",
+      "type": "place.location"
+    },
+    {
+      "page": "Burning Mill",
+      "slug": "burning-mill",
+      "type": "place.location"
+    },
+    {
+      "page": "Burning septry",
+      "slug": "burning-septry",
+      "type": "place.location"
+    },
+    {
+      "page": "Cairns",
+      "slug": "cairns",
+      "type": "place.location"
+    },
+    {
+      "page": "Canal of Heroes",
+      "slug": "canal-of-heroes",
+      "type": "place.location"
+    },
+    {
+      "page": "Cannibal Bay",
+      "slug": "cannibal-bay",
+      "type": "place.location"
+    },
+    {
+      "page": "Cannibal Sands",
+      "slug": "cannibal-sands",
+      "type": "place.region"
+    },
+    {
+      "page": "Cape Kraken",
+      "slug": "cape-kraken",
+      "type": "place.location"
+    },
+    {
+      "page": "Cape Wrath",
+      "slug": "cape-wrath",
+      "type": "place.location"
+    },
+    {
+      "page": "Cape of Eagles",
+      "slug": "cape-of-eagles",
+      "type": "place.location"
+    },
+    {
+      "page": "Carcosa",
+      "slug": "carcosa",
+      "type": "place.location"
+    },
+    {
+      "page": "Castamere (pool)",
+      "slug": "castamere-pool",
+      "type": "place.location"
+    },
+    {
+      "page": "Castlewood",
+      "slug": "castlewood",
+      "type": "place.location"
+    },
+    {
+      "page": "Causeway",
+      "slug": "causeway",
+      "type": "place.location"
+    },
+    {
+      "page": "Cave near Greyguard",
+      "slug": "cave-near-greyguard",
+      "type": "place.location"
+    },
+    {
+      "page": "Cave of the three-eyed crow",
+      "slug": "cave-of-the-three-eyed-crow",
+      "type": "place.location"
+    },
+    {
+      "page": "Checkered Hazard",
+      "slug": "checkered-hazard",
+      "type": "place.location"
+    },
+    {
+      "page": "Chequy Port",
+      "slug": "chequy-port",
+      "type": "place.location"
+    },
+    {
+      "page": "Chequy Water",
+      "slug": "chequy-water",
+      "type": "place.location"
+    },
+    {
+      "page": "Children's Tower",
+      "slug": "childrens-tower",
+      "type": "place.location"
+    },
+    {
+      "page": "Cinnamon Straits",
+      "slug": "cinnamon-straits",
+      "type": "place.location"
+    },
+    {
+      "page": "Cities of the Bloodless Men",
+      "slug": "cities-of-the-bloodless-men",
+      "type": "place.location"
+    },
+    {
+      "page": "City of the Winged Men",
+      "slug": "city-of-the-winged-men",
+      "type": "place.location"
+    },
+    {
+      "page": "Claw Isle",
+      "slug": "claw-isle",
+      "type": "place.location"
+    },
+    {
+      "page": "Claypool",
+      "slug": "claypool",
+      "type": "place.location"
+    },
+    {
+      "page": "Cobble Cove",
+      "slug": "cobble-cove",
+      "type": "place.location"
+    },
+    {
+      "page": "Cockleswent",
+      "slug": "cockleswent",
+      "type": "place.location"
+    },
+    {
+      "page": "Coldwater Burn",
+      "slug": "coldwater-burn",
+      "type": "place.location"
+    },
+    {
+      "page": "Cornfield",
+      "slug": "cornfield",
+      "type": "place.location"
+    },
+    {
+      "page": "Corpse Lake",
+      "slug": "corpse-lake",
+      "type": "place.location"
+    },
+    {
+      "page": "Corsair's road",
+      "slug": "corsairs-road",
+      "type": "place.location"
+    },
+    {
+      "page": "Crackclaw Point",
+      "slug": "crackclaw-point",
+      "type": "place.location"
+    },
+    {
+      "page": "Crag",
+      "slug": "crag",
+      "type": "place.location"
+    },
+    {
+      "page": "Crofters' village",
+      "slug": "crofters-village",
+      "type": "place.location"
+    },
+    {
+      "page": "Crone's Mill",
+      "slug": "crones-mill",
+      "type": "place.location"
+    },
+    {
+      "page": "Crossbow Ridge",
+      "slug": "crossbow-ridge",
+      "type": "place.location"
+    },
+    {
+      "page": "Crossed Elms",
+      "slug": "crossed-elms",
+      "type": "place.location"
+    },
+    {
+      "page": "Crow's Nest",
+      "slug": "crows-nest",
+      "type": "place.location"
+    },
+    {
+      "page": "Crow Spike Keep",
+      "slug": "crow-spike-keep",
+      "type": "place.location"
+    },
+    {
+      "page": "Dagger Lake",
+      "slug": "dagger-lake",
+      "type": "place.location"
+    },
+    {
+      "page": "Darkwash",
+      "slug": "darkwash",
+      "type": "place.location"
+    },
+    {
+      "page": "Darry (river)",
+      "slug": "darry-river",
+      "type": "place.location"
+    },
+    {
+      "page": "Daznak's Pit",
+      "slug": "daznaks-pit",
+      "type": "place.location"
+    },
+    {
+      "page": "Deep Den",
+      "slug": "deep-den",
+      "type": "place.location"
+    },
+    {
+      "page": "Deep Lake",
+      "slug": "deep-lake",
+      "type": "place.location"
+    },
+    {
+      "page": "Deepdown",
+      "slug": "deepdown",
+      "type": "place.location"
+    },
+    {
+      "page": "Derring Downs",
+      "slug": "derring-downs",
+      "type": "place.location"
+    },
+    {
+      "page": "Disputed Lands",
+      "slug": "disputed-lands",
+      "type": "place.location"
+    },
+    {
+      "page": "Dome",
+      "slug": "dome",
+      "type": "place.location"
+    },
+    {
+      "page": "Donnelwood",
+      "slug": "donnelwood",
+      "type": "place.location"
+    },
+    {
+      "page": "Doquu",
+      "slug": "doquu",
+      "type": "place.location"
+    },
+    {
+      "page": "Dornish Marches",
+      "slug": "dornish-marches",
+      "type": "place.location"
+    },
+    {
+      "page": "Dosk",
+      "slug": "dosk",
+      "type": "place.location"
+    },
+    {
+      "page": "Douquor's Pit",
+      "slug": "douquors-pit",
+      "type": "place.location"
+    },
+    {
+      "page": "Downdelving",
+      "slug": "downdelving",
+      "type": "place.location"
+    },
+    {
+      "page": "Draconys",
+      "slug": "draconys",
+      "type": "place.location"
+    },
+    {
+      "page": "Dragonmont",
+      "slug": "dragonmont",
+      "type": "place.location"
+    },
+    {
+      "page": "Dragonpit",
+      "slug": "dragonpit",
+      "type": "place.location"
+    },
+    {
+      "page": "Dragonstone (hill)",
+      "slug": "dragonstone-hill",
+      "type": "place.location"
+    },
+    {
+      "page": "Dragonstone (island)",
+      "slug": "dragonstone-island",
+      "type": "place.location"
+    },
+    {
+      "page": "Driftwood Hall",
+      "slug": "driftwood-hall",
+      "type": "place.location"
+    },
+    {
+      "page": "Drogo's manse",
+      "slug": "drogos-manse",
+      "type": "place.location"
+    },
+    {
+      "page": "Drowned Town",
+      "slug": "drowned-town",
+      "type": "place.location"
+    },
+    {
+      "page": "Drunkard's Tower",
+      "slug": "drunkards-tower",
+      "type": "place.location"
+    },
+    {
+      "page": "Drunken Dornishman",
+      "slug": "drunken-dornishman",
+      "type": "place.location"
+    },
+    {
+      "page": "Dry Bones",
+      "slug": "dry-bones",
+      "type": "place.location"
+    },
+    {
+      "page": "Dry Deep",
+      "slug": "dry-deep",
+      "type": "place.location"
+    },
+    {
+      "page": "Durran's Point",
+      "slug": "durrans-point",
+      "type": "place.location"
+    },
+    {
+      "page": "Duskendale road",
+      "slug": "duskendale-road",
+      "type": "place.location"
+    },
+    {
+      "page": "East Tower",
+      "slug": "east-tower",
+      "type": "place.location"
+    },
+    {
+      "page": "Eastern gate",
+      "slug": "eastern-gate",
+      "type": "place.location"
+    },
+    {
+      "page": "Ebonhead",
+      "slug": "ebonhead",
+      "type": "place.location"
+    },
+    {
+      "page": "Estermont",
+      "slug": "estermont",
+      "type": "place.location"
+    },
+    {
+      "page": "Evenfall Hall",
+      "slug": "evenfall-hall",
+      "type": "place.location"
+    },
+    {
+      "page": "Eysen",
+      "slug": "eysen",
+      "type": "place.location"
+    },
+    {
+      "page": "Fair Isle",
+      "slug": "fair-isle",
+      "type": "place.location"
+    },
+    {
+      "page": "Faircastle",
+      "slug": "faircastle",
+      "type": "place.location"
+    },
+    {
+      "page": "Fairmarket",
+      "slug": "fairmarket",
+      "type": "place.location"
+    },
+    {
+      "page": "Falcon Tower",
+      "slug": "falcon-tower",
+      "type": "place.location"
+    },
+    {
+      "page": "Far Ib",
+      "slug": "far-ib",
+      "type": "place.location"
+    },
+    {
+      "page": "Faros",
+      "slug": "faros",
+      "type": "place.location"
+    },
+    {
+      "page": "Felwood",
+      "slug": "felwood",
+      "type": "place.location"
+    },
+    {
+      "page": "Fever River",
+      "slug": "fever-river",
+      "type": "place.location"
+    },
+    {
+      "page": "Fieldstone",
+      "slug": "fieldstone",
+      "type": "place.location"
+    },
+    {
+      "page": "Fighting pits of Meereen",
+      "slug": "fighting-pits-of-meereen",
+      "type": "place.location"
+    },
+    {
+      "page": "Fingers",
+      "slug": "fingers",
+      "type": "place.location"
+    },
+    {
+      "page": "First Keep",
+      "slug": "first-keep",
+      "type": "place.location"
+    },
+    {
+      "page": "Fishermonger's Square",
+      "slug": "fishermongers-square",
+      "type": "place.location"
+    },
+    {
+      "page": "Five Forts",
+      "slug": "five-forts",
+      "type": "place.location"
+    },
+    {
+      "page": "Flatlands",
+      "slug": "flatlands",
+      "type": "place.location"
+    },
+    {
+      "page": "Flint's Finger",
+      "slug": "flints-finger",
+      "type": "place.location"
+    },
+    {
+      "page": "Flint Cliffs",
+      "slug": "flint-cliffs",
+      "type": "place.location"
+    },
+    {
+      "page": "Forest of Qohor",
+      "slug": "forest-of-qohor",
+      "type": "place.location"
+    },
+    {
+      "page": "Forktop",
+      "slug": "forktop",
+      "type": "place.location"
+    },
+    {
+      "page": "Fountain of the Drunken God",
+      "slug": "fountain-of-the-drunken-god",
+      "type": "place.location"
+    },
+    {
+      "page": "Fourteen Flames",
+      "slug": "fourteen-flames",
+      "type": "place.location"
+    },
+    {
+      "page": "Frostfangs",
+      "slug": "frostfangs",
+      "type": "place.location"
+    },
+    {
+      "page": "Frozen Ford",
+      "slug": "frozen-ford",
+      "type": "place.location"
+    },
+    {
+      "page": "Further East",
+      "slug": "further-east",
+      "type": "place.region"
+    },
+    {
+      "page": "Gallowsgrey",
+      "slug": "gallowsgrey",
+      "type": "place.location"
+    },
+    {
+      "page": "Garden of Gehane",
+      "slug": "garden-of-gehane",
+      "type": "place.location"
+    },
+    {
+      "page": "Gardens of Gelenei",
+      "slug": "gardens-of-gelenei",
+      "type": "place.location"
+    },
+    {
+      "page": "Gate (playhouse)",
+      "slug": "gate-playhouse",
+      "type": "place.location"
+    },
+    {
+      "page": "Gatehouse Tower",
+      "slug": "gatehouse-tower",
+      "type": "place.location"
+    },
+    {
+      "page": "Gates of Fate",
+      "slug": "gates-of-fate",
+      "type": "place.location"
+    },
+    {
+      "page": "Ghaen",
+      "slug": "ghaen",
+      "type": "place.location"
+    },
+    {
+      "page": "Ghaston Grey",
+      "slug": "ghaston-grey",
+      "type": "place.location"
+    },
+    {
+      "page": "Ghiscar",
+      "slug": "ghiscar",
+      "type": "place.location"
+    },
+    {
+      "page": "Ghiscari Strait",
+      "slug": "ghiscari-strait",
+      "type": "place.location"
+    },
+    {
+      "page": "Ghoyan Drohe",
+      "slug": "ghoyan-drohe",
+      "type": "place.location"
+    },
+    {
+      "page": "Ghozai",
+      "slug": "ghozai",
+      "type": "place.location"
+    },
+    {
+      "page": "Giant's Lance",
+      "slug": "giants-lance",
+      "type": "place.location"
+    },
+    {
+      "page": "Giant's Stair",
+      "slug": "giants-stair",
+      "type": "place.location"
+    },
+    {
+      "page": "Gift",
+      "slug": "gift",
+      "type": "place.location"
+    },
+    {
+      "page": "Gods Eye river",
+      "slug": "gods-eye-river",
+      "type": "place.location"
+    },
+    {
+      "page": "Gods Eye town",
+      "slug": "gods-eye-town",
+      "type": "place.location"
+    },
+    {
+      "page": "Godsgrace",
+      "slug": "godsgrace",
+      "type": "place.location"
+    },
+    {
+      "page": "Godsway",
+      "slug": "godsway",
+      "type": "place.location"
+    },
+    {
+      "page": "Golden Fields",
+      "slug": "golden-fields",
+      "type": "place.location"
+    },
+    {
+      "page": "Golden Head",
+      "slug": "golden-head",
+      "type": "place.location"
+    },
+    {
+      "page": "Golden Pit",
+      "slug": "golden-pit",
+      "type": "place.location"
+    },
+    {
+      "page": "Goldroad",
+      "slug": "goldroad",
+      "type": "place.location"
+    },
+    {
+      "page": "Gorge",
+      "slug": "gorge",
+      "type": "place.location"
+    },
+    {
+      "page": "Gorne's Way",
+      "slug": "gornes-way",
+      "type": "place.location"
+    },
+    {
+      "page": "Gorosh",
+      "slug": "gorosh",
+      "type": "place.location"
+    },
+    {
+      "page": "Grassfield Keep",
+      "slug": "grassfield-keep",
+      "type": "place.location"
+    },
+    {
+      "page": "Great Barrow",
+      "slug": "great-barrow",
+      "type": "place.location"
+    },
+    {
+      "page": "Great Keep (Winterfell)",
+      "slug": "great-keep-winterfell",
+      "type": "place.location"
+    },
+    {
+      "page": "Great Lagoon",
+      "slug": "great-lagoon",
+      "type": "place.location"
+    },
+    {
+      "page": "Great Moraq",
+      "slug": "great-moraq",
+      "type": "place.location"
+    },
+    {
+      "page": "Great Pyramid",
+      "slug": "great-pyramid",
+      "type": "place.location"
+    },
+    {
+      "page": "Great Pyramid of Ghis",
+      "slug": "great-pyramid-of-ghis",
+      "type": "place.location"
+    },
+    {
+      "page": "Great Sand Sea",
+      "slug": "great-sand-sea",
+      "type": "place.location"
+    },
+    {
+      "page": "Great Wyk",
+      "slug": "great-wyk",
+      "type": "place.location"
+    },
+    {
+      "page": "Green Canal",
+      "slug": "green-canal",
+      "type": "place.location"
+    },
+    {
+      "page": "Green Fork",
+      "slug": "green-fork",
+      "type": "place.location"
+    },
+    {
+      "page": "Green Hell",
+      "slug": "green-hell",
+      "type": "place.location"
+    },
+    {
+      "page": "Greenapple",
+      "slug": "greenapple",
+      "type": "place.location"
+    },
+    {
+      "page": "Greenaway",
+      "slug": "greenaway",
+      "type": "place.location"
+    },
+    {
+      "page": "Greenblood",
+      "slug": "greenblood",
+      "type": "place.location"
+    },
+    {
+      "page": "Greenhill",
+      "slug": "greenhill",
+      "type": "place.location"
+    },
+    {
+      "page": "Greenpools",
+      "slug": "greenpools",
+      "type": "place.location"
+    },
+    {
+      "page": "Grey Cliffs",
+      "slug": "grey-cliffs",
+      "type": "place.location"
+    },
+    {
+      "page": "Grey Gallows",
+      "slug": "grey-gallows",
+      "type": "place.location"
+    },
+    {
+      "page": "Grey Garden",
+      "slug": "grey-garden",
+      "type": "place.location"
+    },
+    {
+      "page": "Grey Glen",
+      "slug": "grey-glen",
+      "type": "place.location"
+    },
+    {
+      "page": "Grey Keep",
+      "slug": "grey-keep",
+      "type": "place.location"
+    },
+    {
+      "page": "Grey King's Hall",
+      "slug": "grey-kings-hall",
+      "type": "place.location"
+    },
+    {
+      "page": "Grey Waste",
+      "slug": "grey-waste",
+      "type": "place.region"
+    },
+    {
+      "page": "Greyguard",
+      "slug": "greyguard",
+      "type": "place.location"
+    },
+    {
+      "page": "Greyshield",
+      "slug": "greyshield",
+      "type": "place.location"
+    },
+    {
+      "page": "Grimston",
+      "slug": "grimston",
+      "type": "place.location"
+    },
+    {
+      "page": "Grindcorn Mill",
+      "slug": "grindcorn-mill",
+      "type": "place.location"
+    },
+    {
+      "page": "Gulf of Grief",
+      "slug": "gulf-of-grief",
+      "type": "place.location"
+    },
+    {
+      "page": "Gull Tower",
+      "slug": "gull-tower",
+      "type": "place.location"
+    },
+    {
+      "page": "Gullet",
+      "slug": "gullet",
+      "type": "place.location"
+    },
+    {
+      "page": "Hag's Mire",
+      "slug": "hags-mire",
+      "type": "place.location"
+    },
+    {
+      "page": "Hall of a Thousand Thrones",
+      "slug": "hall-of-a-thousand-thrones",
+      "type": "place.location"
+    },
+    {
+      "page": "Hammerhal",
+      "slug": "hammerhal",
+      "type": "place.location"
+    },
+    {
+      "page": "Hammerhorn",
+      "slug": "hammerhorn",
+      "type": "place.location"
+    },
+    {
+      "page": "Hardin's Tower",
+      "slug": "hardins-tower",
+      "type": "place.location"
+    },
+    {
+      "page": "Hardstone Hills",
+      "slug": "hardstone-hills",
+      "type": "place.location"
+    },
+    {
+      "page": "Harlaw",
+      "slug": "harlaw",
+      "type": "place.location"
+    },
+    {
+      "page": "Harlaw Hall",
+      "slug": "harlaw-hall",
+      "type": "place.location"
+    },
+    {
+      "page": "Harrenton",
+      "slug": "harrenton",
+      "type": "place.location"
+    },
+    {
+      "page": "Harridan Hill",
+      "slug": "harridan-hill",
+      "type": "place.location"
+    },
+    {
+      "page": "Harvest Hall",
+      "slug": "harvest-hall",
+      "type": "place.location"
+    },
+    {
+      "page": "Haystack Hall",
+      "slug": "haystack-hall",
+      "type": "place.location"
+    },
+    {
+      "page": "Headman's Mount",
+      "slug": "headmans-mount",
+      "type": "place.location"
+    },
+    {
+      "page": "Hellholt",
+      "slug": "hellholt",
+      "type": "place.location"
+    },
+    {
+      "page": "Hesh",
+      "slug": "hesh",
+      "type": "place.location"
+    },
+    {
+      "page": "Hidden Sea",
+      "slug": "hidden-sea",
+      "type": "place.location"
+    },
+    {
+      "page": "High Heart",
+      "slug": "high-heart",
+      "type": "place.location"
+    },
+    {
+      "page": "High Hermitage",
+      "slug": "high-hermitage",
+      "type": "place.location"
+    },
+    {
+      "page": "Hill of Rhaenys",
+      "slug": "hill-of-rhaenys",
+      "type": "place.location"
+    },
+    {
+      "page": "Hills of Norvos",
+      "slug": "hills-of-norvos",
+      "type": "place.location"
+    },
+    {
+      "page": "Hoare Castle",
+      "slug": "hoare-castle",
+      "type": "place.location"
+    },
+    {
+      "page": "Hoarfrost Hill",
+      "slug": "hoarfrost-hill",
+      "type": "place.location"
+    },
+    {
+      "page": "Hogg Hall",
+      "slug": "hogg-hall",
+      "type": "place.location"
+    },
+    {
+      "page": "Hogs Head",
+      "slug": "hogs-head",
+      "type": "place.location"
+    },
+    {
+      "page": "Holdfast",
+      "slug": "holdfast",
+      "type": "place.location"
+    },
+    {
+      "page": "Holdfast in the hills",
+      "slug": "holdfast-in-the-hills",
+      "type": "place.location"
+    },
+    {
+      "page": "Hollow hill",
+      "slug": "hollow-hill",
+      "type": "place.location"
+    },
+    {
+      "page": "Holy Refuge",
+      "slug": "holy-refuge",
+      "type": "place.location"
+    },
+    {
+      "page": "Holyhall",
+      "slug": "holyhall",
+      "type": "place.location"
+    },
+    {
+      "page": "Honeyholt",
+      "slug": "honeyholt",
+      "type": "place.location"
+    },
+    {
+      "page": "Honeytree",
+      "slug": "honeytree",
+      "type": "place.location"
+    },
+    {
+      "page": "Honeywine",
+      "slug": "honeywine",
+      "type": "place.location"
+    },
+    {
+      "page": "Hornoth",
+      "slug": "hornoth",
+      "type": "place.location"
+    },
+    {
+      "page": "Horns of Hazzat",
+      "slug": "horns-of-hazzat",
+      "type": "place.location"
+    },
+    {
+      "page": "Hornvale",
+      "slug": "hornvale",
+      "type": "place.location"
+    },
+    {
+      "page": "Hornwood (forest)",
+      "slug": "hornwood-forest",
+      "type": "place.location"
+    },
+    {
+      "page": "Horseshoe Hills",
+      "slug": "horseshoe-hills",
+      "type": "place.location"
+    },
+    {
+      "page": "Horseshoe Rock",
+      "slug": "horseshoe-rock",
+      "type": "place.location"
+    },
+    {
+      "page": "Howling Hill",
+      "slug": "howling-hill",
+      "type": "place.location"
+    },
+    {
+      "page": "Howling Hills",
+      "slug": "howling-hills",
+      "type": "place.location"
+    },
+    {
+      "page": "Howling Mountain",
+      "slug": "howling-mountain",
+      "type": "place.location"
+    },
+    {
+      "page": "Ib",
+      "slug": "ib",
+      "type": "place.location"
+    },
+    {
+      "page": "Ib Nor",
+      "slug": "ib-nor",
+      "type": "place.location"
+    },
+    {
+      "page": "Ib Sar",
+      "slug": "ib-sar",
+      "type": "place.location"
+    },
+    {
+      "page": "Ibben",
+      "slug": "ibben",
+      "type": "place.location"
+    },
+    {
+      "page": "Illyrio's manse",
+      "slug": "illyrios-manse",
+      "type": "place.location"
+    },
+    {
+      "page": "Indigo Straits",
+      "slug": "indigo-straits",
+      "type": "place.location"
+    },
+    {
+      "page": "Inn near Ashford",
+      "slug": "inn-near-ashford",
+      "type": "place.location"
+    },
+    {
+      "page": "Inn of the Green Eel",
+      "slug": "inn-of-the-green-eel",
+      "type": "place.location"
+    },
+    {
+      "page": "Inn of the Kneeling Man",
+      "slug": "inn-of-the-kneeling-man",
+      "type": "place.location"
+    },
+    {
+      "page": "Iron Bank of Braavos",
+      "slug": "iron-bank-of-braavos",
+      "type": "place.location"
+    },
+    {
+      "page": "Iron Holt",
+      "slug": "iron-holt",
+      "type": "place.location"
+    },
+    {
+      "page": "Ironman's Bay",
+      "slug": "ironmans-bay",
+      "type": "place.location"
+    },
+    {
+      "page": "Isle of Birds",
+      "slug": "isle-of-birds",
+      "type": "place.location"
+    },
+    {
+      "page": "Isle of Cedars",
+      "slug": "isle-of-cedars",
+      "type": "place.location"
+    },
+    {
+      "page": "Isle of Elephants",
+      "slug": "isle-of-elephants",
+      "type": "place.location"
+    },
+    {
+      "page": "Isle of Faces",
+      "slug": "isle-of-faces",
+      "type": "place.location"
+    },
+    {
+      "page": "Isle of Flies",
+      "slug": "isle-of-flies",
+      "type": "place.location"
+    },
+    {
+      "page": "Isle of Love",
+      "slug": "isle-of-love",
+      "type": "place.location"
+    },
+    {
+      "page": "Isle of Pigs",
+      "slug": "isle-of-pigs",
+      "type": "place.location"
+    },
+    {
+      "page": "Isle of Ravens",
+      "slug": "isle-of-ravens",
+      "type": "place.location"
+    },
+    {
+      "page": "Isle of Tears",
+      "slug": "isle-of-tears",
+      "type": "place.location"
+    },
+    {
+      "page": "Isle of Toads",
+      "slug": "isle-of-toads",
+      "type": "place.location"
+    },
+    {
+      "page": "Isle of Whips",
+      "slug": "isle-of-whips",
+      "type": "place.location"
+    },
+    {
+      "page": "Isle of Women",
+      "slug": "isle-of-women",
+      "type": "place.location"
+    },
+    {
+      "page": "Isle of the Gods",
+      "slug": "isle-of-the-gods",
+      "type": "place.location"
+    },
+    {
+      "page": "Ivy Hall",
+      "slug": "ivy-hall",
+      "type": "place.location"
+    },
+    {
+      "page": "Jade Gates",
+      "slug": "jade-gates",
+      "type": "place.location"
+    },
+    {
+      "page": "Jade Sea",
+      "slug": "jade-sea",
+      "type": "place.location"
+    },
+    {
+      "page": "Jhala",
+      "slug": "jhala",
+      "type": "place.location"
+    },
+    {
+      "page": "Jinqi",
+      "slug": "jinqi",
+      "type": "place.location"
+    },
+    {
+      "page": "Jonquil's Tower",
+      "slug": "jonquils-tower",
+      "type": "place.location"
+    },
+    {
+      "page": "Jothiel's Pit",
+      "slug": "jothiels-pit",
+      "type": "place.location"
+    },
+    {
+      "page": "K'Dath",
+      "slug": "kdath",
+      "type": "place.location"
+    },
+    {
+      "page": "Kayakayanaya",
+      "slug": "kayakayanaya",
+      "type": "place.location"
+    },
+    {
+      "page": "Khyzai Pass",
+      "slug": "khyzai-pass",
+      "type": "place.location"
+    },
+    {
+      "page": "King's Mountain",
+      "slug": "kings-mountain",
+      "type": "place.location"
+    },
+    {
+      "page": "King's Tower",
+      "slug": "kings-tower",
+      "type": "place.location"
+    },
+    {
+      "page": "Kingdom of Omber",
+      "slug": "kingdom-of-omber",
+      "type": "place.location"
+    },
+    {
+      "page": "Kingdom of Sarnor",
+      "slug": "kingdom-of-sarnor",
+      "type": "place.location"
+    },
+    {
+      "page": "Kingdom of the Ifequevron",
+      "slug": "kingdom-of-the-ifequevron",
+      "type": "place.location"
+    },
+    {
+      "page": "Kingsgrave",
+      "slug": "kingsgrave",
+      "type": "place.location"
+    },
+    {
+      "page": "Kingshouse",
+      "slug": "kingshouse",
+      "type": "place.location"
+    },
+    {
+      "page": "Kingspyre Tower",
+      "slug": "kingspyre-tower",
+      "type": "place.location"
+    },
+    {
+      "page": "Kingswood",
+      "slug": "kingswood",
+      "type": "place.location"
+    },
+    {
+      "page": "Kitchen Keep",
+      "slug": "kitchen-keep",
+      "type": "place.location"
+    },
+    {
+      "page": "Kosrak",
+      "slug": "kosrak",
+      "type": "place.location"
+    },
+    {
+      "page": "Krazaaj Has",
+      "slug": "krazaaj-has",
+      "type": "place.location"
+    },
+    {
+      "page": "Krazaaj Zasqa",
+      "slug": "krazaaj-zasqa",
+      "type": "place.location"
+    },
+    {
+      "page": "Kyth",
+      "slug": "kyth",
+      "type": "place.location"
+    },
+    {
+      "page": "Lady Catelyn's sept",
+      "slug": "lady-catelyns-sept",
+      "type": "place.location"
+    },
+    {
+      "page": "Lambswold",
+      "slug": "lambswold",
+      "type": "place.location"
+    },
+    {
+      "page": "Lance (tower)",
+      "slug": "lance-tower",
+      "type": "place.location"
+    },
+    {
+      "page": "Lancewood",
+      "slug": "lancewood",
+      "type": "place.location"
+    },
+    {
+      "page": "Land of the Shrykes",
+      "slug": "land-of-the-shrykes",
+      "type": "place.region"
+    },
+    {
+      "page": "Lands of the Long Summer",
+      "slug": "lands-of-the-long-summer",
+      "type": "place.location"
+    },
+    {
+      "page": "Lann's Point",
+      "slug": "lanns-point",
+      "type": "place.location"
+    },
+    {
+      "page": "Last Lament",
+      "slug": "last-lament",
+      "type": "place.location"
+    },
+    {
+      "page": "Last River",
+      "slug": "last-river",
+      "type": "place.location"
+    },
+    {
+      "page": "Lazy Eel",
+      "slug": "lazy-eel",
+      "type": "place.location"
+    },
+    {
+      "page": "Leafy Lake",
+      "slug": "leafy-lake",
+      "type": "place.location"
+    },
+    {
+      "page": "Lemonwood",
+      "slug": "lemonwood",
+      "type": "place.location"
+    },
+    {
+      "page": "Leng",
+      "slug": "leng",
+      "type": "place.location"
+    },
+    {
+      "page": "Leng Ma",
+      "slug": "leng-ma",
+      "type": "place.location"
+    },
+    {
+      "page": "Leng Yi",
+      "slug": "leng-yi",
+      "type": "place.location"
+    },
+    {
+      "page": "Lesser Moraq",
+      "slug": "lesser-moraq",
+      "type": "place.location"
+    },
+    {
+      "page": "Leviathan Sound",
+      "slug": "leviathan-sound",
+      "type": "place.location"
+    },
+    {
+      "page": "Lhazar",
+      "slug": "lhazar",
+      "type": "place.location"
+    },
+    {
+      "page": "Lhazosh",
+      "slug": "lhazosh",
+      "type": "place.location"
+    },
+    {
+      "page": "Lhorulu",
+      "slug": "lhorulu",
+      "type": "place.location"
+    },
+    {
+      "page": "Library Tower",
+      "slug": "library-tower",
+      "type": "place.location"
+    },
+    {
+      "page": "Little Dosk",
+      "slug": "little-dosk",
+      "type": "place.location"
+    },
+    {
+      "page": "Little Rhoyne",
+      "slug": "little-rhoyne",
+      "type": "place.location"
+    },
+    {
+      "page": "Little Willow",
+      "slug": "little-willow",
+      "type": "place.location"
+    },
+    {
+      "page": "Littlesister",
+      "slug": "littlesister",
+      "type": "place.location"
+    },
+    {
+      "page": "Lizard Head",
+      "slug": "lizard-head",
+      "type": "place.location"
+    },
+    {
+      "page": "Lonely Hills",
+      "slug": "lonely-hills",
+      "type": "place.location"
+    },
+    {
+      "page": "Lonely Light",
+      "slug": "lonely-light",
+      "type": "place.location"
+    },
+    {
+      "page": "Long Bridge",
+      "slug": "long-bridge",
+      "type": "place.location"
+    },
+    {
+      "page": "Long Canal",
+      "slug": "long-canal",
+      "type": "place.location"
+    },
+    {
+      "page": "Long Lake",
+      "slug": "long-lake",
+      "type": "place.location"
+    },
+    {
+      "page": "Longbow Hall",
+      "slug": "longbow-hall",
+      "type": "place.location"
+    },
+    {
+      "page": "Longleaf",
+      "slug": "longleaf",
+      "type": "place.location"
+    },
+    {
+      "page": "Longsister",
+      "slug": "longsister",
+      "type": "place.location"
+    },
+    {
+      "page": "Longtown",
+      "slug": "longtown",
+      "type": "place.location"
+    },
+    {
+      "page": "Loon",
+      "slug": "loon",
+      "type": "place.location"
+    },
+    {
+      "page": "Lorassyon",
+      "slug": "lorassyon",
+      "type": "place.location"
+    },
+    {
+      "page": "Lorath Bay",
+      "slug": "lorath-bay",
+      "type": "place.location"
+    },
+    {
+      "page": "Lord's Mill",
+      "slug": "lords-mill",
+      "type": "place.location"
+    },
+    {
+      "page": "Lord's Sept",
+      "slug": "lords-sept",
+      "type": "place.location"
+    },
+    {
+      "page": "Lord Commander's Tower",
+      "slug": "lord-commanders-tower",
+      "type": "place.location"
+    },
+    {
+      "page": "Lord Hewett's castle",
+      "slug": "lord-hewetts-castle",
+      "type": "place.location"
+    },
+    {
+      "page": "Lord Lychester's keep",
+      "slug": "lord-lychesters-keep",
+      "type": "place.location"
+    },
+    {
+      "page": "Lorgen's Wood",
+      "slug": "lorgens-wood",
+      "type": "place.location"
+    },
+    {
+      "page": "Lotus Point",
+      "slug": "lotus-point",
+      "type": "place.location"
+    },
+    {
+      "page": "Lyber",
+      "slug": "lyber",
+      "type": "place.location"
+    },
+    {
+      "page": "Maegor's Holdfast",
+      "slug": "maegors-holdfast",
+      "type": "place.location"
+    },
+    {
+      "page": "Maester Aemon's tower",
+      "slug": "maester-aemons-tower",
+      "type": "place.location"
+    },
+    {
+      "page": "Maiden's Tower",
+      "slug": "maidens-tower",
+      "type": "place.location"
+    },
+    {
+      "page": "Maiden (river)",
+      "slug": "maiden-river",
+      "type": "place.location"
+    },
+    {
+      "page": "Maiden Isle",
+      "slug": "maiden-isle",
+      "type": "place.location"
+    },
+    {
+      "page": "Mander",
+      "slug": "mander",
+      "type": "place.location"
+    },
+    {
+      "page": "Manticore Isles",
+      "slug": "manticore-isles",
+      "type": "place.location"
+    },
+    {
+      "page": "Marahai",
+      "slug": "marahai",
+      "type": "place.location"
+    },
+    {
+      "page": "Massey's Hook",
+      "slug": "masseys-hook",
+      "type": "place.location"
+    },
+    {
+      "page": "Mazdhan's Maze",
+      "slug": "mazdhans-maze",
+      "type": "place.location"
+    },
+    {
+      "page": "Merchant's House",
+      "slug": "merchants-house",
+      "type": "place.location"
+    },
+    {
+      "page": "Merling Rock",
+      "slug": "merling-rock",
+      "type": "place.location"
+    },
+    {
+      "page": "Mermaid's Palace",
+      "slug": "mermaids-palace",
+      "type": "place.location"
+    },
+    {
+      "page": "Merrydown Dell",
+      "slug": "merrydown-dell",
+      "type": "place.location"
+    },
+    {
+      "page": "Mhysa Faer",
+      "slug": "mhysa-faer",
+      "type": "place.location"
+    },
+    {
+      "page": "Middleton",
+      "slug": "middleton",
+      "type": "place.location"
+    },
+    {
+      "page": "Milkwater",
+      "slug": "milkwater",
+      "type": "place.location"
+    },
+    {
+      "page": "Misty Isle",
+      "slug": "misty-isle",
+      "type": "place.location"
+    },
+    {
+      "page": "Misty Moor",
+      "slug": "misty-moor",
+      "type": "place.location"
+    },
+    {
+      "page": "Misty Wood",
+      "slug": "misty-wood",
+      "type": "place.location"
+    },
+    {
+      "page": "Mole's Town",
+      "slug": "moles-town",
+      "type": "place.location"
+    },
+    {
+      "page": "Mole's Town brothel",
+      "slug": "moles-town-brothel",
+      "type": "place.location"
+    },
+    {
+      "page": "Moluu",
+      "slug": "moluu",
+      "type": "place.location"
+    },
+    {
+      "page": "Moon Pool",
+      "slug": "moon-pool",
+      "type": "place.location"
+    },
+    {
+      "page": "Moontown",
+      "slug": "moontown",
+      "type": "place.location"
+    },
+    {
+      "page": "Mormont Keep",
+      "slug": "mormont-keep",
+      "type": "place.location"
+    },
+    {
+      "page": "Morne",
+      "slug": "morne",
+      "type": "place.location"
+    },
+    {
+      "page": "Moroggo's",
+      "slug": "moroggos",
+      "type": "place.location"
+    },
+    {
+      "page": "Morosh",
+      "slug": "morosh",
+      "type": "place.location"
+    },
+    {
+      "page": "Mory",
+      "slug": "mory",
+      "type": "place.location"
+    },
+    {
+      "page": "Mossovy",
+      "slug": "mossovy",
+      "type": "place.location"
+    },
+    {
+      "page": "Mother of Mountains",
+      "slug": "mother-of-mountains",
+      "type": "place.location"
+    },
+    {
+      "page": "Mountains of the Moon",
+      "slug": "mountains-of-the-moon",
+      "type": "place.location"
+    },
+    {
+      "page": "Mountains of the Morn",
+      "slug": "mountains-of-the-morn",
+      "type": "place.location"
+    },
+    {
+      "page": "Mousedown Mill",
+      "slug": "mousedown-mill",
+      "type": "place.location"
+    },
+    {
+      "page": "Muddy Hall",
+      "slug": "muddy-hall",
+      "type": "place.location"
+    },
+    {
+      "page": "Mudgrave",
+      "slug": "mudgrave",
+      "type": "place.location"
+    },
+    {
+      "page": "Mummer's Ford",
+      "slug": "mummers-ford",
+      "type": "place.location"
+    },
+    {
+      "page": "Naath",
+      "slug": "naath",
+      "type": "place.location"
+    },
+    {
+      "page": "Nagga's Cradle",
+      "slug": "naggas-cradle",
+      "type": "place.location"
+    },
+    {
+      "page": "Neck",
+      "slug": "neck",
+      "type": "place.location"
+    },
+    {
+      "page": "Nefer",
+      "slug": "nefer",
+      "type": "place.location"
+    },
+    {
+      "page": "New Barrel",
+      "slug": "new-barrel",
+      "type": "place.location"
+    },
+    {
+      "page": "New Ibbish",
+      "slug": "new-ibbish",
+      "type": "place.location"
+    },
+    {
+      "page": "Newkeep",
+      "slug": "newkeep",
+      "type": "place.location"
+    },
+    {
+      "page": "Ninestars",
+      "slug": "ninestars",
+      "type": "place.location"
+    },
+    {
+      "page": "North gate",
+      "slug": "north-gate",
+      "type": "place.location"
+    },
+    {
+      "page": "Northern mountains",
+      "slug": "northern-mountains",
+      "type": "place.location"
+    },
+    {
+      "page": "Noyne",
+      "slug": "noyne",
+      "type": "place.location"
+    },
+    {
+      "page": "Nunn's Deep",
+      "slug": "nunns-deep",
+      "type": "place.location"
+    },
+    {
+      "page": "Nunny",
+      "slug": "nunny",
+      "type": "place.location"
+    },
+    {
+      "page": "Nutten",
+      "slug": "nutten",
+      "type": "place.location"
+    },
+    {
+      "page": "Oakenshield",
+      "slug": "oakenshield",
+      "type": "place.location"
+    },
+    {
+      "page": "Oakenshield (Wall)",
+      "slug": "oakenshield-wall",
+      "type": "place.location"
+    },
+    {
+      "page": "Ocean Road",
+      "slug": "ocean-road",
+      "type": "place.location"
+    },
+    {
+      "page": "Old Anchor",
+      "slug": "old-anchor",
+      "type": "place.location"
+    },
+    {
+      "page": "Old Ferry",
+      "slug": "old-ferry",
+      "type": "place.location"
+    },
+    {
+      "page": "Old Oak",
+      "slug": "old-oak",
+      "type": "place.location"
+    },
+    {
+      "page": "Old Willow",
+      "slug": "old-willow",
+      "type": "place.location"
+    },
+    {
+      "page": "Old Wyk",
+      "slug": "old-wyk",
+      "type": "place.location"
+    },
+    {
+      "page": "Old inn by the lakeshore",
+      "slug": "old-inn-by-the-lakeshore",
+      "type": "place.location"
+    },
+    {
+      "page": "Old inn on Eel Alley",
+      "slug": "old-inn-on-eel-alley",
+      "type": "place.location"
+    },
+    {
+      "page": "Oldcastle",
+      "slug": "oldcastle",
+      "type": "place.location"
+    },
+    {
+      "page": "Oldforge",
+      "slug": "oldforge",
+      "type": "place.location"
+    },
+    {
+      "page": "Oldstones",
+      "slug": "oldstones",
+      "type": "place.location"
+    },
+    {
+      "page": "Omboru",
+      "slug": "omboru",
+      "type": "place.location"
+    },
+    {
+      "page": "Orange Shore",
+      "slug": "orange-shore",
+      "type": "place.location"
+    },
+    {
+      "page": "Oros",
+      "slug": "oros",
+      "type": "place.location"
+    },
+    {
+      "page": "Otter Gimpknee's inn",
+      "slug": "otter-gimpknees-inn",
+      "type": "place.location"
+    },
+    {
+      "page": "Outcast Inn",
+      "slug": "outcast-inn",
+      "type": "place.location"
+    },
+    {
+      "page": "Outer Harbor",
+      "slug": "outer-harbor",
+      "type": "place.location"
+    },
+    {
+      "page": "Painted Mountains",
+      "slug": "painted-mountains",
+      "type": "place.location"
+    },
+    {
+      "page": "Painted Turtle",
+      "slug": "painted-turtle",
+      "type": "place.location"
+    },
+    {
+      "page": "Palace With a Thousand Rooms",
+      "slug": "palace-with-a-thousand-rooms",
+      "type": "place.location"
+    },
+    {
+      "page": "Palace of Sorrow",
+      "slug": "palace-of-sorrow",
+      "type": "place.location"
+    },
+    {
+      "page": "Palace of Truth",
+      "slug": "palace-of-truth",
+      "type": "place.location"
+    },
+    {
+      "page": "Paps",
+      "slug": "paps",
+      "type": "place.location"
+    },
+    {
+      "page": "Parchments",
+      "slug": "parchments",
+      "type": "place.location"
+    },
+    {
+      "page": "Parrot Bay",
+      "slug": "parrot-bay",
+      "type": "place.location"
+    },
+    {
+      "page": "Patternmaker's Maze",
+      "slug": "patternmakers-maze",
+      "type": "place.location"
+    },
+    {
+      "page": "Peach",
+      "slug": "peach",
+      "type": "place.location"
+    },
+    {
+      "page": "Pearl Palace",
+      "slug": "pearl-palace",
+      "type": "place.location"
+    },
+    {
+      "page": "Peasedale",
+      "slug": "peasedale",
+      "type": "place.location"
+    },
+    {
+      "page": "Pendric Hills",
+      "slug": "pendric-hills",
+      "type": "place.location"
+    },
+    {
+      "page": "Pennytree",
+      "slug": "pennytree",
+      "type": "place.location"
+    },
+    {
+      "page": "Pepper Coast",
+      "slug": "pepper-coast",
+      "type": "place.location"
+    },
+    {
+      "page": "Perfumed Garden",
+      "slug": "perfumed-garden",
+      "type": "place.location"
+    },
+    {
+      "page": "Pinkmaiden Castle",
+      "slug": "pinkmaiden-castle",
+      "type": "place.location"
+    },
+    {
+      "page": "Pit of Ghrazz",
+      "slug": "pit-of-ghrazz",
+      "type": "place.location"
+    },
+    {
+      "page": "Plains of the Jogos Nhai",
+      "slug": "plains-of-the-jogos-nhai",
+      "type": "place.region"
+    },
+    {
+      "page": "Planky Town",
+      "slug": "planky-town",
+      "type": "place.location"
+    },
+    {
+      "page": "Plaza of Pride",
+      "slug": "plaza-of-pride",
+      "type": "place.location"
+    },
+    {
+      "page": "Plaza of Punishment",
+      "slug": "plaza-of-punishment",
+      "type": "place.location"
+    },
+    {
+      "page": "Plaza of Purification",
+      "slug": "plaza-of-purification",
+      "type": "place.location"
+    },
+    {
+      "page": "Pleasure house",
+      "slug": "pleasure-house",
+      "type": "place.location"
+    },
+    {
+      "page": "Plowman's Keep",
+      "slug": "plowmans-keep",
+      "type": "place.location"
+    },
+    {
+      "page": "Poddingfield",
+      "slug": "poddingfield",
+      "type": "place.location"
+    },
+    {
+      "page": "Poison Sea",
+      "slug": "poison-sea",
+      "type": "place.location"
+    },
+    {
+      "page": "Port Moraq",
+      "slug": "port-moraq",
+      "type": "place.location"
+    },
+    {
+      "page": "Port Plunder",
+      "slug": "port-plunder",
+      "type": "place.location"
+    },
+    {
+      "page": "Port Yhos",
+      "slug": "port-yhos",
+      "type": "place.location"
+    },
+    {
+      "page": "Port of Ibben",
+      "slug": "port-of-ibben",
+      "type": "place.location"
+    },
+    {
+      "page": "Port of Qarth",
+      "slug": "port-of-qarth",
+      "type": "place.location"
+    },
+    {
+      "page": "Prince's Pass",
+      "slug": "princes-pass",
+      "type": "place.location"
+    },
+    {
+      "page": "Purple Harbor",
+      "slug": "purple-harbor",
+      "type": "place.location"
+    },
+    {
+      "page": "Purple Lotus",
+      "slug": "purple-lotus",
+      "type": "place.location"
+    },
+    {
+      "page": "Pussywillows",
+      "slug": "pussywillows",
+      "type": "place.location"
+    },
+    {
+      "page": "Pyke (island)",
+      "slug": "pyke-island",
+      "type": "place.location"
+    },
+    {
+      "page": "Pyramid",
+      "slug": "pyramid",
+      "type": "place.location"
+    },
+    {
+      "page": "Pyramid of Dhazak",
+      "slug": "pyramid-of-dhazak",
+      "type": "place.location"
+    },
+    {
+      "page": "Pyramid of Ghazeen",
+      "slug": "pyramid-of-ghazeen",
+      "type": "place.location"
+    },
+    {
+      "page": "Pyramid of Hazkar",
+      "slug": "pyramid-of-hazkar",
+      "type": "place.location"
+    },
+    {
+      "page": "Pyramid of Kandaq",
+      "slug": "pyramid-of-kandaq",
+      "type": "place.location"
+    },
+    {
+      "page": "Pyramid of Loraq",
+      "slug": "pyramid-of-loraq",
+      "type": "place.location"
+    },
+    {
+      "page": "Pyramid of Merreq",
+      "slug": "pyramid-of-merreq",
+      "type": "place.location"
+    },
+    {
+      "page": "Pyramid of Nakloz",
+      "slug": "pyramid-of-nakloz",
+      "type": "place.location"
+    },
+    {
+      "page": "Pyramid of Naqqan",
+      "slug": "pyramid-of-naqqan",
+      "type": "place.location"
+    },
+    {
+      "page": "Pyramid of Pahl",
+      "slug": "pyramid-of-pahl",
+      "type": "place.location"
+    },
+    {
+      "page": "Pyramid of Quazzar",
+      "slug": "pyramid-of-quazzar",
+      "type": "place.location"
+    },
+    {
+      "page": "Pyramid of Rhazdar",
+      "slug": "pyramid-of-rhazdar",
+      "type": "place.location"
+    },
+    {
+      "page": "Pyramid of Uhlez",
+      "slug": "pyramid-of-uhlez",
+      "type": "place.location"
+    },
+    {
+      "page": "Pyramid of Ullhor",
+      "slug": "pyramid-of-ullhor",
+      "type": "place.location"
+    },
+    {
+      "page": "Pyramid of Yherizan",
+      "slug": "pyramid-of-yherizan",
+      "type": "place.location"
+    },
+    {
+      "page": "Pyramid of Zhak",
+      "slug": "pyramid-of-zhak",
+      "type": "place.location"
+    },
+    {
+      "page": "Qal",
+      "slug": "qal",
+      "type": "place.location"
+    },
+    {
+      "page": "Qarkash",
+      "slug": "qarkash",
+      "type": "place.location"
+    },
+    {
+      "page": "Qhoyne",
+      "slug": "qhoyne",
+      "type": "place.location"
+    },
+    {
+      "page": "Queenscrown",
+      "slug": "queenscrown",
+      "type": "place.location"
+    },
+    {
+      "page": "Quiet Isle",
+      "slug": "quiet-isle",
+      "type": "place.location"
+    },
+    {
+      "page": "Quill and Tankard",
+      "slug": "quill-and-tankard",
+      "type": "place.location"
+    },
+    {
+      "page": "Ragman's Harbor",
+      "slug": "ragmans-harbor",
+      "type": "place.location"
+    },
+    {
+      "page": "Ragman's Road",
+      "slug": "ragmans-road",
+      "type": "place.location"
+    },
+    {
+      "page": "Rain House",
+      "slug": "rain-house",
+      "type": "place.location"
+    },
+    {
+      "page": "Rainwood",
+      "slug": "rainwood",
+      "type": "place.location"
+    },
+    {
+      "page": "Ramsford",
+      "slug": "ramsford",
+      "type": "place.location"
+    },
+    {
+      "page": "Ramsgate",
+      "slug": "ramsgate",
+      "type": "place.location"
+    },
+    {
+      "page": "Rathylar",
+      "slug": "rathylar",
+      "type": "place.location"
+    },
+    {
+      "page": "Ravenry",
+      "slug": "ravenry",
+      "type": "place.location"
+    },
+    {
+      "page": "Ravishment",
+      "slug": "ravishment",
+      "type": "place.location"
+    },
+    {
+      "page": "Reach proper",
+      "slug": "reach-proper",
+      "type": "place.location"
+    },
+    {
+      "page": "Realm of the Jhogwin",
+      "slug": "realm-of-the-jhogwin",
+      "type": "place.location"
+    },
+    {
+      "page": "Red Deer Island",
+      "slug": "red-deer-island",
+      "type": "place.location"
+    },
+    {
+      "page": "Red Fork",
+      "slug": "red-fork",
+      "type": "place.location"
+    },
+    {
+      "page": "Red Lake",
+      "slug": "red-lake",
+      "type": "place.location"
+    },
+    {
+      "page": "Red Mountains",
+      "slug": "red-mountains",
+      "type": "place.location"
+    },
+    {
+      "page": "Red Watch",
+      "slug": "red-watch",
+      "type": "place.location"
+    },
+    {
+      "page": "Redfort",
+      "slug": "redfort",
+      "type": "place.location"
+    },
+    {
+      "page": "Redgrass Field",
+      "slug": "redgrass-field",
+      "type": "place.location"
+    },
+    {
+      "page": "Redpool",
+      "slug": "redpool",
+      "type": "place.location"
+    },
+    {
+      "page": "Redwyne Straits",
+      "slug": "redwyne-straits",
+      "type": "place.location"
+    },
+    {
+      "page": "Rhoyne",
+      "slug": "rhoyne",
+      "type": "place.location"
+    },
+    {
+      "page": "Rhyos",
+      "slug": "rhyos",
+      "type": "place.location"
+    },
+    {
+      "page": "Rills",
+      "slug": "rills",
+      "type": "place.location"
+    },
+    {
+      "page": "Ring",
+      "slug": "ring",
+      "type": "place.location"
+    },
+    {
+      "page": "Ringfort",
+      "slug": "ringfort",
+      "type": "place.location"
+    },
+    {
+      "page": "Rippledown Rill",
+      "slug": "rippledown-rill",
+      "type": "place.location"
+    },
+    {
+      "page": "Risley Glade",
+      "slug": "risley-glade",
+      "type": "place.location"
+    },
+    {
+      "page": "Riverbend",
+      "slug": "riverbend",
+      "type": "place.location"
+    },
+    {
+      "page": "Riverman (tavern)",
+      "slug": "riverman-tavern",
+      "type": "place.location"
+    },
+    {
+      "page": "Riverspring",
+      "slug": "riverspring",
+      "type": "place.location"
+    },
+    {
+      "page": "Roseroad",
+      "slug": "roseroad",
+      "type": "place.location"
+    },
+    {
+      "page": "Rosewood",
+      "slug": "rosewood",
+      "type": "place.location"
+    },
+    {
+      "page": "Royal sept",
+      "slug": "royal-sept",
+      "type": "place.location"
+    },
+    {
+      "page": "Runestone",
+      "slug": "runestone",
+      "type": "place.location"
+    },
+    {
+      "page": "Runnymudd",
+      "slug": "runnymudd",
+      "type": "place.location"
+    },
+    {
+      "page": "Rushing Falls",
+      "slug": "rushing-falls",
+      "type": "place.location"
+    },
+    {
+      "page": "Rutting Meadow",
+      "slug": "rutting-meadow",
+      "type": "place.location"
+    },
+    {
+      "page": "Saath",
+      "slug": "saath",
+      "type": "place.location"
+    },
+    {
+      "page": "Saffron Straits",
+      "slug": "saffron-straits",
+      "type": "place.location"
+    },
+    {
+      "page": "Sailmender's",
+      "slug": "sailmenders",
+      "type": "place.location"
+    },
+    {
+      "page": "Sailor's Sept",
+      "slug": "sailors-sept",
+      "type": "place.location"
+    },
+    {
+      "page": "Sallydance",
+      "slug": "sallydance",
+      "type": "place.location"
+    },
+    {
+      "page": "Salt Shore",
+      "slug": "salt-shore",
+      "type": "place.location"
+    },
+    {
+      "page": "Saltcliffe",
+      "slug": "saltcliffe",
+      "type": "place.location"
+    },
+    {
+      "page": "Saltpans",
+      "slug": "saltpans",
+      "type": "place.location"
+    },
+    {
+      "page": "Saltspear",
+      "slug": "saltspear",
+      "type": "place.location"
+    },
+    {
+      "page": "Sand Road",
+      "slug": "sand-road",
+      "type": "place.location"
+    },
+    {
+      "page": "Sandship",
+      "slug": "sandship",
+      "type": "place.location"
+    },
+    {
+      "page": "Sandstone",
+      "slug": "sandstone",
+      "type": "place.location"
+    },
+    {
+      "page": "Sarne",
+      "slug": "sarne",
+      "type": "place.location"
+    },
+    {
+      "page": "Sarsfield",
+      "slug": "sarsfield",
+      "type": "place.location"
+    },
+    {
+      "page": "Scourge",
+      "slug": "scourge",
+      "type": "place.location"
+    },
+    {
+      "page": "Sea Dragon Point",
+      "slug": "sea-dragon-point",
+      "type": "place.location"
+    },
+    {
+      "page": "Sea Dragon Tower",
+      "slug": "sea-dragon-tower",
+      "type": "place.location"
+    },
+    {
+      "page": "Sea Tower",
+      "slug": "sea-tower",
+      "type": "place.location"
+    },
+    {
+      "page": "Sea of Dorne",
+      "slug": "sea-of-dorne",
+      "type": "place.location"
+    },
+    {
+      "page": "Sea of Myrth",
+      "slug": "sea-of-myrth",
+      "type": "place.location"
+    },
+    {
+      "page": "Sea of Sighs",
+      "slug": "sea-of-sighs",
+      "type": "place.location"
+    },
+    {
+      "page": "Seal Rock",
+      "slug": "seal-rock",
+      "type": "place.location"
+    },
+    {
+      "page": "Sealord's Palace",
+      "slug": "sealords-palace",
+      "type": "place.location"
+    },
+    {
+      "page": "Sealskin Point",
+      "slug": "sealskin-point",
+      "type": "place.location"
+    },
+    {
+      "page": "Selhoru",
+      "slug": "selhoru",
+      "type": "place.location"
+    },
+    {
+      "page": "Sellagoro's Shield",
+      "slug": "sellagoros-shield",
+      "type": "place.location"
+    },
+    {
+      "page": "Sentinel Stand",
+      "slug": "sentinel-stand",
+      "type": "place.location"
+    },
+    {
+      "page": "Sept-Beyond-the-Sea",
+      "slug": "sept-beyond-the-sea",
+      "type": "place.location"
+    },
+    {
+      "page": "Sept",
+      "slug": "sept",
+      "type": "place.location"
+    },
+    {
+      "page": "Sept at Dragonstone",
+      "slug": "sept-at-dragonstone",
+      "type": "place.location"
+    },
+    {
+      "page": "Sept of Remembrance",
+      "slug": "sept-of-remembrance",
+      "type": "place.location"
+    },
+    {
+      "page": "Sept of the Snows",
+      "slug": "sept-of-the-snows",
+      "type": "place.location"
+    },
+    {
+      "page": "Seven Shrines",
+      "slug": "seven-shrines",
+      "type": "place.location"
+    },
+    {
+      "page": "Seven Swords",
+      "slug": "seven-swords",
+      "type": "place.location"
+    },
+    {
+      "page": "Sevenstreams",
+      "slug": "sevenstreams",
+      "type": "place.location"
+    },
+    {
+      "page": "Shadow Lands",
+      "slug": "shadow-lands",
+      "type": "place.location"
+    },
+    {
+      "page": "Shady Glen",
+      "slug": "shady-glen",
+      "type": "place.location"
+    },
+    {
+      "page": "Shamyriana",
+      "slug": "shamyriana",
+      "type": "place.location"
+    },
+    {
+      "page": "Shandystone",
+      "slug": "shandystone",
+      "type": "place.location"
+    },
+    {
+      "page": "Sheepshead Hills",
+      "slug": "sheepshead-hills",
+      "type": "place.location"
+    },
+    {
+      "page": "Shermer's Grove",
+      "slug": "shermers-grove",
+      "type": "place.location"
+    },
+    {
+      "page": "Sherrer",
+      "slug": "sherrer",
+      "type": "place.location"
+    },
+    {
+      "page": "Shield Islands",
+      "slug": "shield-islands",
+      "type": "place.location"
+    },
+    {
+      "page": "Shipbreaker Bay",
+      "slug": "shipbreaker-bay",
+      "type": "place.location"
+    },
+    {
+      "page": "Shivering Sea",
+      "slug": "shivering-sea",
+      "type": "place.location"
+    },
+    {
+      "page": "Shrinking Sea",
+      "slug": "shrinking-sea",
+      "type": "place.location"
+    },
+    {
+      "page": "Si Qo",
+      "slug": "si-qo",
+      "type": "place.location"
+    },
+    {
+      "page": "Silent Tower",
+      "slug": "silent-tower",
+      "type": "place.location"
+    },
+    {
+      "page": "Silk Road",
+      "slug": "silk-road",
+      "type": "place.location"
+    },
+    {
+      "page": "Silty Town",
+      "slug": "silty-town",
+      "type": "place.location"
+    },
+    {
+      "page": "Silver Bridge",
+      "slug": "silver-bridge",
+      "type": "place.location"
+    },
+    {
+      "page": "Silver Sea",
+      "slug": "silver-sea",
+      "type": "place.location"
+    },
+    {
+      "page": "Silver Shore",
+      "slug": "silver-shore",
+      "type": "place.location"
+    },
+    {
+      "page": "Singing Stones",
+      "slug": "singing-stones",
+      "type": "place.location"
+    },
+    {
+      "page": "Singing Towers",
+      "slug": "singing-towers",
+      "type": "place.location"
+    },
+    {
+      "page": "Sinner's Steps",
+      "slug": "sinners-steps",
+      "type": "place.location"
+    },
+    {
+      "page": "Skagos",
+      "slug": "skagos",
+      "type": "place.location"
+    },
+    {
+      "page": "Skane",
+      "slug": "skane",
+      "type": "place.location"
+    },
+    {
+      "page": "Skipping Stones",
+      "slug": "skipping-stones",
+      "type": "place.location"
+    },
+    {
+      "page": "Skirling Pass",
+      "slug": "skirling-pass",
+      "type": "place.location"
+    },
+    {
+      "page": "Skull Island",
+      "slug": "skull-island",
+      "type": "place.location"
+    },
+    {
+      "page": "Sky",
+      "slug": "sky",
+      "type": "place.location"
+    },
+    {
+      "page": "Skyreach",
+      "slug": "skyreach",
+      "type": "place.location"
+    },
+    {
+      "page": "Slave Exchange",
+      "slug": "slave-exchange",
+      "type": "place.location"
+    },
+    {
+      "page": "Slayne",
+      "slug": "slayne",
+      "type": "place.location"
+    },
+    {
+      "page": "Sludgy Pond",
+      "slug": "sludgy-pond",
+      "type": "place.location"
+    },
+    {
+      "page": "Smiling Sea",
+      "slug": "smiling-sea",
+      "type": "place.location"
+    },
+    {
+      "page": "Smithyton",
+      "slug": "smithyton",
+      "type": "place.location"
+    },
+    {
+      "page": "Smoking Log",
+      "slug": "smoking-log",
+      "type": "place.location"
+    },
+    {
+      "page": "Smoking Sea",
+      "slug": "smoking-sea",
+      "type": "place.location"
+    },
+    {
+      "page": "Snakewood",
+      "slug": "snakewood",
+      "type": "place.location"
+    },
+    {
+      "page": "Snakewood (forest)",
+      "slug": "snakewood-forest",
+      "type": "place.location"
+    },
+    {
+      "page": "Snow (waycastle)",
+      "slug": "snow-waycastle",
+      "type": "place.location"
+    },
+    {
+      "page": "Solar",
+      "slug": "solar",
+      "type": "place.location"
+    },
+    {
+      "page": "Sorrows",
+      "slug": "sorrows",
+      "type": "place.location"
+    },
+    {
+      "page": "Sothoryos",
+      "slug": "sothoryos",
+      "type": "place.region"
+    },
+    {
+      "page": "Southshield",
+      "slug": "southshield",
+      "type": "place.location"
+    },
+    {
+      "page": "Spiderwood",
+      "slug": "spiderwood",
+      "type": "place.location"
+    },
+    {
+      "page": "Spottswood",
+      "slug": "spottswood",
+      "type": "place.location"
+    },
+    {
+      "page": "Starry Sept",
+      "slug": "starry-sept",
+      "type": "place.location"
+    },
+    {
+      "page": "Steel Road",
+      "slug": "steel-road",
+      "type": "place.location"
+    },
+    {
+      "page": "Stinking Goose",
+      "slug": "stinking-goose",
+      "type": "place.location"
+    },
+    {
+      "page": "Stinkwater",
+      "slug": "stinkwater",
+      "type": "place.location"
+    },
+    {
+      "page": "Stone",
+      "slug": "stone",
+      "type": "place.location"
+    },
+    {
+      "page": "Stone Drum",
+      "slug": "stone-drum",
+      "type": "place.location"
+    },
+    {
+      "page": "Stone Head",
+      "slug": "stone-head",
+      "type": "place.location"
+    },
+    {
+      "page": "Stone Hedge",
+      "slug": "stone-hedge",
+      "type": "place.location"
+    },
+    {
+      "page": "Stone Mill",
+      "slug": "stone-mill",
+      "type": "place.location"
+    },
+    {
+      "page": "Stone Road",
+      "slug": "stone-road",
+      "type": "place.location"
+    },
+    {
+      "page": "Stonecrab Cay",
+      "slug": "stonecrab-cay",
+      "type": "place.location"
+    },
+    {
+      "page": "Stonehelm",
+      "slug": "stonehelm",
+      "type": "place.location"
+    },
+    {
+      "page": "Stones of the Silent God",
+      "slug": "stones-of-the-silent-god",
+      "type": "place.location"
+    },
+    {
+      "page": "Stoney Sept",
+      "slug": "stoney-sept",
+      "type": "place.location"
+    },
+    {
+      "page": "Stony Shore",
+      "slug": "stony-shore",
+      "type": "place.location"
+    },
+    {
+      "page": "Stonyhead",
+      "slug": "stonyhead",
+      "type": "place.location"
+    },
+    {
+      "page": "Storrold's Point",
+      "slug": "storrolds-point",
+      "type": "place.location"
+    },
+    {
+      "page": "Straits of Fair Isle",
+      "slug": "straits-of-fair-isle",
+      "type": "place.location"
+    },
+    {
+      "page": "Straits of Tarth",
+      "slug": "straits-of-tarth",
+      "type": "place.location"
+    },
+    {
+      "page": "Strongsong",
+      "slug": "strongsong",
+      "type": "place.location"
+    },
+    {
+      "page": "Sty",
+      "slug": "sty",
+      "type": "place.location"
+    },
+    {
+      "page": "Summer Sea",
+      "slug": "summer-sea",
+      "type": "place.location"
+    },
+    {
+      "page": "Summerfield",
+      "slug": "summerfield",
+      "type": "place.location"
+    },
+    {
+      "page": "Sunhouse",
+      "slug": "sunhouse",
+      "type": "place.location"
+    },
+    {
+      "page": "Sunset Sea",
+      "slug": "sunset-sea",
+      "type": "place.location"
+    },
+    {
+      "page": "Sweetsister",
+      "slug": "sweetsister",
+      "type": "place.location"
+    },
+    {
+      "page": "Sweetwater river",
+      "slug": "sweetwater-river",
+      "type": "place.location"
+    },
+    {
+      "page": "Sweetwillow",
+      "slug": "sweetwillow",
+      "type": "place.location"
+    },
+    {
+      "page": "Swynford",
+      "slug": "swynford",
+      "type": "place.location"
+    },
+    {
+      "page": "Tall Trees Town",
+      "slug": "tall-trees-town",
+      "type": "place.location"
+    },
+    {
+      "page": "Tally Hill",
+      "slug": "tally-hill",
+      "type": "place.location"
+    },
+    {
+      "page": "Talon (island)",
+      "slug": "talon-island",
+      "type": "place.location"
+    },
+    {
+      "page": "Tarth",
+      "slug": "tarth",
+      "type": "place.location"
+    },
+    {
+      "page": "Teats",
+      "slug": "teats",
+      "type": "place.location"
+    },
+    {
+      "page": "Temple of Memory",
+      "slug": "temple-of-memory",
+      "type": "place.location"
+    },
+    {
+      "page": "Temple of Trade",
+      "slug": "temple-of-trade",
+      "type": "place.location"
+    },
+    {
+      "page": "Temple of Trios",
+      "slug": "temple-of-trios",
+      "type": "place.location"
+    },
+    {
+      "page": "Temple of the Graces",
+      "slug": "temple-of-the-graces",
+      "type": "place.location"
+    },
+    {
+      "page": "Temple of the Graces (Astapor)",
+      "slug": "temple-of-the-graces-astapor",
+      "type": "place.location"
+    },
+    {
+      "page": "Temple of the Lord of Light",
+      "slug": "temple-of-the-lord-of-light",
+      "type": "place.location"
+    },
+    {
+      "page": "Temple of the Lord of Light (Braavos)",
+      "slug": "temple-of-the-lord-of-light-braavos",
+      "type": "place.location"
+    },
+    {
+      "page": "Temple of the Moonsingers",
+      "slug": "temple-of-the-moonsingers",
+      "type": "place.location"
+    },
+    {
+      "page": "Thenn (valley)",
+      "slug": "thenn-valley",
+      "type": "place.location"
+    },
+    {
+      "page": "Thousand Islands",
+      "slug": "thousand-islands",
+      "type": "place.location"
+    },
+    {
+      "page": "Three Exiles",
+      "slug": "three-exiles",
+      "type": "place.location"
+    },
+    {
+      "page": "Three Sisters",
+      "slug": "three-sisters",
+      "type": "place.location"
+    },
+    {
+      "page": "Three Towers",
+      "slug": "three-towers",
+      "type": "place.location"
+    },
+    {
+      "page": "Threepenny Wood",
+      "slug": "threepenny-wood",
+      "type": "place.location"
+    },
+    {
+      "page": "Tiqui",
+      "slug": "tiqui",
+      "type": "place.location"
+    },
+    {
+      "page": "Titan of Braavos",
+      "slug": "titan-of-braavos",
+      "type": "place.location"
+    },
+    {
+      "page": "Tolos",
+      "slug": "tolos",
+      "type": "place.location"
+    },
+    {
+      "page": "Tor",
+      "slug": "tor",
+      "type": "place.location"
+    },
+    {
+      "page": "Torches",
+      "slug": "torches",
+      "type": "place.location"
+    },
+    {
+      "page": "Torentine",
+      "slug": "torentine",
+      "type": "place.location"
+    },
+    {
+      "page": "Torrhen's Square",
+      "slug": "torrhens-square",
+      "type": "place.location"
+    },
+    {
+      "page": "Torturer's Deep",
+      "slug": "torturers-deep",
+      "type": "place.location"
+    },
+    {
+      "page": "Tower of Dread",
+      "slug": "tower-of-dread",
+      "type": "place.location"
+    },
+    {
+      "page": "Tower of Ghosts",
+      "slug": "tower-of-ghosts",
+      "type": "place.location"
+    },
+    {
+      "page": "Tower of Glimmering",
+      "slug": "tower-of-glimmering",
+      "type": "place.location"
+    },
+    {
+      "page": "Tower of Owls",
+      "slug": "tower-of-owls",
+      "type": "place.location"
+    },
+    {
+      "page": "Tower of the Hand",
+      "slug": "tower-of-the-hand",
+      "type": "place.location"
+    },
+    {
+      "page": "Trader Town",
+      "slug": "trader-town",
+      "type": "place.location"
+    },
+    {
+      "page": "Tumbledown Tower",
+      "slug": "tumbledown-tower",
+      "type": "place.location"
+    },
+    {
+      "page": "Tumbler's Falls",
+      "slug": "tumblers-falls",
+      "type": "place.location"
+    },
+    {
+      "page": "Tumblestone",
+      "slug": "tumblestone",
+      "type": "place.location"
+    },
+    {
+      "page": "Turrani",
+      "slug": "turrani",
+      "type": "place.location"
+    },
+    {
+      "page": "Tyria",
+      "slug": "tyria",
+      "type": "place.location"
+    },
+    {
+      "page": "Ulos",
+      "slug": "ulos",
+      "type": "place.location"
+    },
+    {
+      "page": "Ulthos",
+      "slug": "ulthos",
+      "type": "place.location"
+    },
+    {
+      "page": "Uplands",
+      "slug": "uplands",
+      "type": "place.location"
+    },
+    {
+      "page": "Upper Rhoyne",
+      "slug": "upper-rhoyne",
+      "type": "place.location"
+    },
+    {
+      "page": "Vaes Aresak",
+      "slug": "vaes-aresak",
+      "type": "place.location"
+    },
+    {
+      "page": "Vaes Athjikhari",
+      "slug": "vaes-athjikhari",
+      "type": "place.location"
+    },
+    {
+      "page": "Vaes Diaf",
+      "slug": "vaes-diaf",
+      "type": "place.location"
+    },
+    {
+      "page": "Vaes Efe",
+      "slug": "vaes-efe",
+      "type": "place.location"
+    },
+    {
+      "page": "Vaes Gorqoyi",
+      "slug": "vaes-gorqoyi",
+      "type": "place.location"
+    },
+    {
+      "page": "Vaes Graddakh",
+      "slug": "vaes-graddakh",
+      "type": "place.location"
+    },
+    {
+      "page": "Vaes Jini",
+      "slug": "vaes-jini",
+      "type": "place.location"
+    },
+    {
+      "page": "Vaes Khadokh",
+      "slug": "vaes-khadokh",
+      "type": "place.location"
+    },
+    {
+      "page": "Vaes Khewo",
+      "slug": "vaes-khewo",
+      "type": "place.location"
+    },
+    {
+      "page": "Vaes Leisi",
+      "slug": "vaes-leisi",
+      "type": "place.location"
+    },
+    {
+      "page": "Vaes Leqse",
+      "slug": "vaes-leqse",
+      "type": "place.location"
+    },
+    {
+      "page": "Vaes Mejhah",
+      "slug": "vaes-mejhah",
+      "type": "place.location"
+    },
+    {
+      "page": "Vaes Orvik",
+      "slug": "vaes-orvik",
+      "type": "place.location"
+    },
+    {
+      "page": "Vaes Qosar",
+      "slug": "vaes-qosar",
+      "type": "place.location"
+    },
+    {
+      "page": "Vaes Shirosi",
+      "slug": "vaes-shirosi",
+      "type": "place.location"
+    },
+    {
+      "page": "Vaes Tolorro",
+      "slug": "vaes-tolorro",
+      "type": "place.location"
+    },
+    {
+      "page": "Vahar",
+      "slug": "vahar",
+      "type": "place.location"
+    },
+    {
+      "page": "Vaith",
+      "slug": "vaith",
+      "type": "place.location"
+    },
+    {
+      "page": "Vaith (river)",
+      "slug": "vaith-river",
+      "type": "place.location"
+    },
+    {
+      "page": "Vale of Arryn (valley)",
+      "slug": "vale-of-arryn-valley",
+      "type": "place.location"
+    },
+    {
+      "page": "Vale of Shadows",
+      "slug": "vale-of-shadows",
+      "type": "place.location"
+    },
+    {
+      "page": "Valyrian roads",
+      "slug": "valyrian-roads",
+      "type": "place.location"
+    },
+    {
+      "page": "Velos",
+      "slug": "velos",
+      "type": "place.location"
+    },
+    {
+      "page": "Velvet Hills",
+      "slug": "velvet-hills",
+      "type": "place.location"
+    },
+    {
+      "page": "Visenya's Hill",
+      "slug": "visenyas-hill",
+      "type": "place.location"
+    },
+    {
+      "page": "Vojjor Samvi",
+      "slug": "vojjor-samvi",
+      "type": "place.location"
+    },
+    {
+      "page": "Volaena",
+      "slug": "volaena",
+      "type": "place.location"
+    },
+    {
+      "page": "Volmark",
+      "slug": "volmark",
+      "type": "place.location"
+    },
+    {
+      "page": "Vulture's Roost",
+      "slug": "vultures-roost",
+      "type": "place.location"
+    },
+    {
+      "page": "Wailing Tower",
+      "slug": "wailing-tower",
+      "type": "place.location"
+    },
+    {
+      "page": "Walano",
+      "slug": "walano",
+      "type": "place.location"
+    },
+    {
+      "page": "Warlock's Way",
+      "slug": "warlocks-way",
+      "type": "place.location"
+    },
+    {
+      "page": "Waspwood",
+      "slug": "waspwood",
+      "type": "place.location"
+    },
+    {
+      "page": "Wat's Wood",
+      "slug": "wats-wood",
+      "type": "place.location"
+    },
+    {
+      "page": "Water Gardens",
+      "slug": "water-gardens",
+      "type": "place.location"
+    },
+    {
+      "page": "Wayfarer's Rest",
+      "slug": "wayfarers-rest",
+      "type": "place.location"
+    },
+    {
+      "page": "Weatherback Ridge",
+      "slug": "weatherback-ridge",
+      "type": "place.location"
+    },
+    {
+      "page": "Weeping Ridge",
+      "slug": "weeping-ridge",
+      "type": "place.location"
+    },
+    {
+      "page": "Weeping Water",
+      "slug": "weeping-water",
+      "type": "place.location"
+    },
+    {
+      "page": "Wendish Town",
+      "slug": "wendish-town",
+      "type": "place.location"
+    },
+    {
+      "page": "Wendwater",
+      "slug": "wendwater",
+      "type": "place.location"
+    },
+    {
+      "page": "West way",
+      "slug": "west-way",
+      "type": "place.location"
+    },
+    {
+      "page": "Western marches",
+      "slug": "western-marches",
+      "type": "place.location"
+    },
+    {
+      "page": "Westwatch-by-the-Bridge",
+      "slug": "westwatch-by-the-bridge",
+      "type": "place.location"
+    },
+    {
+      "page": "Whispering Sound",
+      "slug": "whispering-sound",
+      "type": "place.location"
+    },
+    {
+      "page": "Whispering Wood",
+      "slug": "whispering-wood",
+      "type": "place.location"
+    },
+    {
+      "page": "White Knife",
+      "slug": "white-knife",
+      "type": "place.location"
+    },
+    {
+      "page": "White Sword Tower",
+      "slug": "white-sword-tower",
+      "type": "place.location"
+    },
+    {
+      "page": "White Waste",
+      "slug": "white-waste",
+      "type": "place.region"
+    },
+    {
+      "page": "White Willow",
+      "slug": "white-willow",
+      "type": "place.location"
+    },
+    {
+      "page": "White Wood",
+      "slug": "white-wood",
+      "type": "place.location"
+    },
+    {
+      "page": "Whore's Gash",
+      "slug": "whores-gash",
+      "type": "place.location"
+    },
+    {
+      "page": "Widow's Tower",
+      "slug": "widows-tower",
+      "type": "place.location"
+    },
+    {
+      "page": "Widow's Tower (Ten Towers)",
+      "slug": "widows-tower-ten-towers",
+      "type": "place.location"
+    },
+    {
+      "page": "Widow's Wash",
+      "slug": "widows-wash",
+      "type": "place.location"
+    },
+    {
+      "page": "Widow's Watch",
+      "slug": "widows-watch",
+      "type": "place.location"
+    },
+    {
+      "page": "Willow Wood",
+      "slug": "willow-wood",
+      "type": "place.location"
+    },
+    {
+      "page": "Winesink",
+      "slug": "winesink",
+      "type": "place.location"
+    },
+    {
+      "page": "Winter town",
+      "slug": "winter-town",
+      "type": "place.location"
+    },
+    {
+      "page": "Witch Isle",
+      "slug": "witch-isle",
+      "type": "place.location"
+    },
+    {
+      "page": "Wolfswood",
+      "slug": "wolfswood",
+      "type": "place.location"
+    },
+    {
+      "page": "Womb of the World",
+      "slug": "womb-of-the-world",
+      "type": "place.location"
+    },
+    {
+      "page": "Woodhedge",
+      "slug": "woodhedge",
+      "type": "place.location"
+    },
+    {
+      "page": "Woodmere",
+      "slug": "woodmere",
+      "type": "place.location"
+    },
+    {
+      "page": "Woodswatch-by-the-Pool",
+      "slug": "woodswatch-by-the-pool",
+      "type": "place.location"
+    },
+    {
+      "page": "Worm",
+      "slug": "worm",
+      "type": "place.location"
+    },
+    {
+      "page": "Wyl (castle)",
+      "slug": "wyl-castle",
+      "type": "place.location"
+    },
+    {
+      "page": "Wyl (river)",
+      "slug": "wyl-river",
+      "type": "place.location"
+    },
+    {
+      "page": "Wyndhall",
+      "slug": "wyndhall",
+      "type": "place.location"
+    },
+    {
+      "page": "Wyvern Point",
+      "slug": "wyvern-point",
+      "type": "place.location"
+    },
+    {
+      "page": "Xon",
+      "slug": "xon",
+      "type": "place.location"
+    },
+    {
+      "page": "Yalli Qamayi",
+      "slug": "yalli-qamayi",
+      "type": "place.location"
+    },
+    {
+      "page": "Yaros",
+      "slug": "yaros",
+      "type": "place.location"
+    },
+    {
+      "page": "Yeen",
+      "slug": "yeen",
+      "type": "place.location"
+    },
+    {
+      "page": "Yellow Gate",
+      "slug": "yellow-gate",
+      "type": "place.location"
+    },
+    {
+      "page": "Yin",
+      "slug": "yin",
+      "type": "place.location"
+    },
+    {
+      "page": "Yore",
+      "slug": "yore",
+      "type": "place.location"
+    },
+    {
+      "page": "Zabhad",
+      "slug": "zabhad",
+      "type": "place.location"
+    },
+    {
+      "page": "Zamettar",
+      "slug": "zamettar",
+      "type": "place.location"
+    },
+    {
+      "page": "Zamoyos",
+      "slug": "zamoyos",
+      "type": "place.location"
+    }
+  ]
+}

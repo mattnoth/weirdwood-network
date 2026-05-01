@@ -1,0 +1,31 @@
+---
+name: "Isle of Cedars"
+type: place.location
+slug: isle-of-cedars
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Isle_of_Cedars"
+bucket_id: tier3-pathb-locations
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Isle of Cedars is a location from the AWOIAF wiki.
+
+## Edges
+
+
+## Origins
+
+Two cities on the Isle of Cedars, [Ghozai](wiki:Ghozai) in the north and [Velos](wiki:Velos) in the south, were destroyed by a tsunami triggered by the [Doom of Valyria](wiki:Doom_of_Valyria) four centuries ago.(wiki:Isle_of_Cedars.cite_ref-Radwd56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3) The only survivors from the isle were Velosi spearmen stationed on the tallest hill and some fishermen at sea.(wiki:Isle_of_Cedars.cite_ref-Radwd56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4) There is another ruin on a small island just west of the Isle of Cedars.(wiki:Isle_of_Cedars.cite_ref-Rtloiaf_central_essos.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+
+## Narrative Arc
+
+### A Dance with Dragons[ ]
+
+[Victarion Greyjoy](wiki:Victarion_Greyjoy) arrives at the isle to join up with the rest of his scattered [Iron Fleet](wiki:Iron_Fleet), which has orders to reunite at the southern tip of the isle. Endless cloudless skies and blazing sun beat down on the heads of the [ironborn](wiki:Ironborn) sailors and bakes the decks until the boards are hot enough to scorch bare feet. There are storms that seem to come up out of nowhere. The ironborn hunt the isle's pigs and fill their larders with smoked hams, salted pork, and bacon.(wiki:Isle_of_Cedars.cite_ref-Radwd56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
+Victarion thinks that the "Isle of Monkeys" would be a more apt name. Monkeys become a plague to the Iron Fleet; they infest half the flotilla, including the [Iron Victory](wiki:Iron_Victory), and swing from spar to spar and ship to ship. The ironborn do not recognize some of the flowers. There are horrors lurking amongst the broken palaces and shattered statues of drowned [Velos](wiki:Velos), half a league north of the point where the fleet lays at anchor.(wiki:Isle_of_Cedars.cite_ref-Radwd56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
+Victarion goes ashore a dozen times. During the last night his dreams are dark and disturbing and when he wakes his mouth is full of blood, possibly having bitten his tongue. Victarion takes it as a sign from the [Drowned God](wiki:Drowned_God), a warning that if he lingers here too long, he will choke on his own blood.(wiki:Isle_of_Cedars.cite_ref-Radwd56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7) When what is left of the Iron Fleet departs the Isle of Cedars, the storm-damaged [Shark](wiki:Shark_(ship)) remains to repair itself and to tell any stragglers that the fleet has gone on to [Slaver's Bay](wiki:Slaver's_Bay).(wiki:Isle_of_Cedars.cite_ref-Radwd56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)

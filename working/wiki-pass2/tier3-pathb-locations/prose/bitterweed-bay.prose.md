@@ -1,0 +1,3 @@
+## Origins
+
+Bitterweed Bay has long been disputed by numerous peoples. The [Lorathi](wiki:Lorath) refer to it as Bloody Bay, while the [Ibbenese](wiki:Ibben) call it Battle Bay. The [Sealord](wiki:Sealord) of [Braavos](wiki:Braavos) sank the last great fleet of the [Kingdom of Sarnor](wiki:Kingdom_of_Sarnor) in Bitterweed Bay.(wiki:Bitterweed_Bay.cite_ref-Rtwoiafbeyond_the_free_cities:_the_shivering_sea.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) There is evidence of historical Ibbenese settlements along the bay.(wiki:Bitterweed_Bay.cite_ref-Rtwoiafbeyond_the_free_cities:_ib.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

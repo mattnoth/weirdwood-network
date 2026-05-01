@@ -1,0 +1,38 @@
+---
+name: "Planky Town"
+type: place.location
+slug: planky-town
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Planky_Town"
+bucket_id: tier3-pathb-locations
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Planky Town is a location from the AWOIAF wiki.
+
+## Edges
+
+
+## Appearances & Description
+
+The Planky Town is the largest and most populous settlement in [Dorne](wiki:Dorne), and the closest thing the Dornish have to a true city.(wiki:Planky_Town.cite_ref-Rtwoiafdorne.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) The town is the chief harbor of Dorne.(wiki:Planky_Town.cite_ref-Rawoiafplanky_town.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+The town sits at the mouth of the [Greenblood](wiki:Greenblood), with planks instead of streets lending to its name.(wiki:Planky_Town.cite_ref-Rtwoiafdorne.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) The Planky Town is a settlement that floats upon the river. The houses, halls, and shops are made of poleboats, barges, and merchant ships, lashed together with hempen rope and floating on the tide.(wiki:Planky_Town.cite_ref-Rtwoiafdorne.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)(wiki:Planky_Town.cite_ref-Rfabreign_of_the_dragon_-_the_wars_of_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+The trading galleys of the [Free Cities](wiki:Free_Cities) are known to call upon the Planky Town.(wiki:Planky_Town.cite_ref-Rtwoiafdorne:_queer_customs_of_the_south.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)(wiki:Planky_Town.cite_ref-Rtwoiafthe_free_cities.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) The [orphans of the Greenblood](wiki:Orphans_of_the_Greenblood) trade with merchants from across the [narrow sea](wiki:Narrow_sea) at the Planky Town.(wiki:Planky_Town.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+
+## Origins
+
+The [Red Princes](wiki:Red_Princes) lashed together poleboats and ferries to create the Planky Town as a gathering place. As the Planky Town grew popular with traders from the [Free Cities](wiki:Free_Cities), the [Princes of Dorne](wiki:Princes_of_Dorne) built a citadel nearby to guard it.(wiki:Planky_Town.cite_ref-Rtwoiafdorne:_queer_customs_of_the_south.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1) The Planky Town flourished under the rule of [House Martell](wiki:House_Martell).(wiki:Planky_Town.cite_ref-Rtwoiafdorne:_the_coming_of_the_rhoynar.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+Towards the end of [Aegon's Conquest](wiki:Aegon's_Conquest), Queen [Rhaenys Targaryen](wiki:Rhaenys_Targaryen) came upon the Planky Town from her [dragon](wiki:Dragon), [Meraxes](wiki:Meraxes). However, she found the town inhabited only by a handful of old women and small children.(wiki:Planky_Town.cite_ref-Rfabreign_of_the_dragon_-_the_wars_of_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)(wiki:Planky_Town.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0) Rhaenys later initiated the [First Dornish War](wiki:First_Dornish_War) in [4 AC](wiki:4_AC) when she burned the town from Meraxes until the whole mouth of the Greenblood was choked with burning ships. The smoke of the Planky Town was said to be visible from [Sunspear](wiki:Sunspear). The town's residents took to the river for refuge from the flames, so fewer than a hundred died in the attack, and most of those from drowning.(wiki:Planky_Town.cite_ref-Rfabreign_of_the_dragon_-_the_wars_of_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+During the [conquest of Dorne](wiki:Conquest_of_Dorne), Lord [Alyn Velaryon](wiki:Alyn_Velaryon) broke the Planky Town and sailed up the [Greenblood](wiki:Greenblood) while most of the [Dornish](wiki:Dornishmen) strength was in the [Prince's Pass](wiki:Prince's_Pass).(wiki:Planky_Town.cite_ref-Rtwoiafthe_targaryen_kings:_daeron_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)(wiki:Planky_Town.cite_ref-Radwd17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0) When the Dornishmen rebelled against the [Iron Throne](wiki:Iron_Throne), Lord Velaryon later returned and descended upon the Planky Town once again.(wiki:Planky_Town.cite_ref-Rtwoiafthe_targaryen_kings:_daeron_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1)
+The game [cyvasse](wiki:Cyvasse) was introduced to [Westeros](wiki:Westeros) by a [Volantene](wiki:Volantis) trading ship at the Planky Town. It was spread by the [orphans of the Greenblood](wiki:Orphans_of_the_Greenblood), and soon became popular among the Dornish court.(wiki:Planky_Town.cite_ref-Raffc13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0)
+
+## Narrative Arc
+
+### A Dance with Dragons[ ]
+
+Posing as merchants, Prince [Quentyn Martell](wiki:Quentyn_Martell) and his companions sail from the Planky Town to the [Free Cities](wiki:Free_Cities).(wiki:Planky_Town.cite_ref-Radwd6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0)

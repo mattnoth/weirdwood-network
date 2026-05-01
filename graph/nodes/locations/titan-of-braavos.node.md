@@ -1,0 +1,63 @@
+---
+name: "Titan of Braavos"
+type: place.location
+slug: titan-of-braavos
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Titan_of_Braavos"
+bucket_id: tier3-pathb-locations
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Titan of Braavos is a location from the AWOIAF wiki.
+
+## Edges
+
+
+## Appearances & Description
+
+The feet of the Titan lie on two separate islands, including [Sellagoro's Shield](wiki:Sellagoro's_Shield),(wiki:Titan_of_Braavos.cite_ref-Rtloiafbraavos.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) and each foot is set upon a mountain of black [granite](wiki:Granite). The islands are covered in [soldier pines](wiki:Soldier_pine) and black spruce.(wiki:Titan_of_Braavos.cite_ref-Raffc6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+The statue's legs and lower torso, also granite, were originally a natural stone archway.(wiki:Titan_of_Braavos.cite_ref-Rtwoiafthe_free_cities:_braavos.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) The Titan's hips are encased in an armored skirt of greenish [bronze](wiki:Bronze), and arrow slits dot the inside of the statue's thighs. There are murder holes beneath the armored skirt, with soldiers within protected by iron bars.(wiki:Titan_of_Braavos.cite_ref-Raffc6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2) The watchmen can drop stones and pots of burning pitch onto the decks of enemy ships.(wiki:Titan_of_Braavos.cite_ref-Rtwoiafthe_free_cities:_braavos.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+Above the waist, the bronze colossus is filled with halls and chambers,(wiki:Titan_of_Braavos.cite_ref-Rtwoiafthe_free_cities:_braavos.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4) its breastplate punctured with more arrow slits. One hand rests on the top of a ridge, its fingers wrapped around the stone. The other hand is thrust into the air, holding the hilt of a broken sword.(wiki:Titan_of_Braavos.cite_ref-Raffc6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3) Seabirds nest on the statue's arms and shoulders.(wiki:Titan_of_Braavos.cite_ref-Raffc6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+The Titan's head, rising four hundred feet above sea level,(wiki:Titan_of_Braavos.cite_ref-Rtwoiafthe_free_cities:_braavos.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5) is crested with a bronze halfhelm, and it has green-dyed hempen rope for its long hair. In its eyes burn large beacon fires, lighting the way inside the lagoon for returning ships.(wiki:Titan_of_Braavos.cite_ref-Raffc6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5) The watchmen within the statue can steer enemy ships onto the nearby rocks.(wiki:Titan_of_Braavos.cite_ref-Rtwoiafthe_free_cities:_braavos.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+Whenever a ship approaches its entrance, the Titan lets out a roar to warn the [Arsenal](wiki:Arsenal) of Braavos;(wiki:Titan_of_Braavos.cite_ref-Raffc6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6) the terrible groaning and grinding blast drowns out most sounds nearby(wiki:Titan_of_Braavos.cite_ref-Raffc6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7) and can be heard across the lagoon in the city.(wiki:Titan_of_Braavos.cite_ref-Raffc34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) The Titan also roars to herald sunrise(wiki:Titan_of_Braavos.cite_ref-Raffc34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1) and sunset,(wiki:Titan_of_Braavos.cite_ref-Radwd45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) and the hours of the day are counted by its roar.(wiki:Titan_of_Braavos.cite_ref-Rtwow.5B.5Bmercy_.28the_winds_of_winter.29.7Cmercy.5D.5D.7B.7B.7B4.7D.7D.7D_6-0)
+
+## Culture
+
+During the anniversary of the [Uncloaking](wiki:Uncloaking_of_Uthero), at midnight on the tenth day, the Titan roars to signify that the celebrants should all remove their masks.(wiki:Titan_of_Braavos.cite_ref-Rtwoiafthe_free_cities:_braavos.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+According to a semi-canon source, the Titan is included by [Lomas Longstrider](wiki:Lomas_Longstrider) in [Wonders Made by Man](wiki:Wonders_Made_by_Man).(wiki:Titan_of_Braavos.cite_ref-7)
+[Old Nan](wiki:Old_Nan) has told stories about the Titan to the children of [Eddard](wiki:Eddard_Stark) and [Catelyn Stark](wiki:Catelyn_Stark).(wiki:Titan_of_Braavos.cite_ref-Racok64.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0) Nan claims that the statue comes to life to smash enemies, and that it eats highborn girls like [Arya Stark](wiki:Arya_Stark).(wiki:Titan_of_Braavos.cite_ref-Raffc6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)
+[Mero](wiki:Mero), a Braavosi sellsword who captains the [Second Sons](wiki:Second_Sons), calls himself the Titan's Bastard.(wiki:Titan_of_Braavos.cite_ref-Rasos42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
+[Titan's Daughter](wiki:Titan's_Daughter) is a Braavosi galleas captained by [Ternesio Terys](wiki:Ternesio_Terys).(wiki:Titan_of_Braavos.cite_ref-Rasos74.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)(wiki:Titan_of_Braavos.cite_ref-Raffc6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-9)
+The titan's head is depicted on the traditional sigil of [House Baelish](wiki:House_Baelish).(wiki:Titan_of_Braavos.cite_ref-Rasos68.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)
+
+## Origins
+
+The archway of the Titan's legs was carved and shaped by three generations of sculptors and stonemasons.(wiki:Titan_of_Braavos.cite_ref-Rtwoiafthe_free_cities:_braavos.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
+According to Maester [Yandel](wiki:Yandel), the Titan has not been attacked since the [Century of Blood](wiki:Century_of_Blood).(wiki:Titan_of_Braavos.cite_ref-Rtwoiafthe_free_cities:_braavos.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9) [Lomas Longstrider](wiki:Lomas_Longstrider) marveled at the Titan when he visited [Braavos](wiki:Braavos).(wiki:Titan_of_Braavos.cite_ref-Rtwoiafthe_free_cities:_braavos.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
+During the [Dance of the Dragons](wiki:Dance_of_the_Dragons), King [Aegon II Targaryen](wiki:Aegon_II_Targaryen) desired that statues larger than the Titan be built of his late brothers, Princes [Aemon](wiki:Aemon_Targaryen) and [Daeron](wiki:Daeron_Targaryen_(son_of_Viserys_I)), in [King's Landing](wiki:King's_Landing).(wiki:Titan_of_Braavos.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0) Lord [Manfryd Mooton](wiki:Manfryd_Mooton) and his fellow envoys marveled at the Titan when they were sent to treat with the [Sealord of Braavos](wiki:Sealord_of_Braavos) during the [regency of Aegon III](wiki:Regency_of_Aegon_III).(wiki:Titan_of_Braavos.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0)
+Because of a dispute with the [Iron Bank of Braavos](wiki:Iron_Bank_of_Braavos), King [Aerys II Targaryen](wiki:Aerys_II_Targaryen) desired to built a huge war fleet "to bring the Titan to his knees" in [267 AC](wiki:Years_after_Aegon's_Conquest). Lord [Tywin Lannister](wiki:Tywin_Lannister), the [Hand of the King](wiki:Hand_of_the_King), resolved the situation peacefully by paying the [Iron Throne](wiki:Iron_Throne)'s debts with gold from [Casterly Rock](wiki:Casterly_Rock).(wiki:Titan_of_Braavos.cite_ref-Rtwoiafthe_targaryen_kings:_aerys_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0)
+[Samwell Tarly](wiki:Samwell_Tarly) has wanted to visit Braavos and see the Titan since he read about the city as a boy.(wiki:Titan_of_Braavos.cite_ref-Raffc26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0) [Tyrion Lannister](wiki:Tyrion_Lannister) hopes to one day see the Titan as well.(wiki:Titan_of_Braavos.cite_ref-Rasos60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0)
+
+## Narrative Arc
+
+### A Clash of Kings[ ]
+
+[Arya Stark](wiki:Arya_Stark) wishes she had wings and could fly away from [Harrenhal](wiki:Harrenhal) to see sights such as the Titan.(wiki:Titan_of_Braavos.cite_ref-Racok64.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
+
+### A Feast for Crows[ ]
+
+Arya sails underneath the Titan when arriving in [Braavos](wiki:Braavos) on [Titan's Daughter](wiki:Titan's_Daughter).(wiki:Titan_of_Braavos.cite_ref-Raffc6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-10)
+The roar of the Titan to announce nightfall awakens [the child](wiki:Aemon_Steelsong) with [Samwell Tarly](wiki:Samwell_Tarly) and [Gilly](wiki:Gilly).(wiki:Titan_of_Braavos.cite_ref-Raffc26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-1)
+
+## Quotes
+
+Petyr: [My grandfather's](wiki:Baelish_(hedge_knight)) shield. [His own father](wiki:Baelish_(sellsword)) was born in [Braavos](wiki:Braavos) and came to the [Vale](wiki:Vale_of_Arryn) as a [sellsword](wiki:Sellsword) in the hire of Lord [Corbray](wiki:House_Corbray), so my grandfather took the head of the Titan as his sigil when he was knighted.
+Sansa: It's very fierce.
+[Old Nan](wiki:Old_Nan) had told them stories of the Titan back in [Winterfell](wiki:Winterfell). He was a [giant](wiki:Giant) as tall as a mountain, and whenever [Braavos](wiki:Braavos) stood in danger he would wake with fire in his eyes, his rocky limbs grinding and groaning as he waded out into the sea to smash the enemies.(wiki:Titan_of_Braavos.cite_ref-Raffc6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-11)
+Her neck craned upward. [Baelor the Blessed](wiki:Great_Sept_of_Baelor) would not reach his knee. He could step right over the walls of [Winterfell](wiki:Winterfell).(wiki:Titan_of_Braavos.cite_ref-Raffc6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-12)
+I read a book about [Braavos](wiki:Braavos) when I was small. The whole city is built in a lagoon on a hundred little islands, and they have a titan there, a stone man hundreds of feet high.(wiki:Titan_of_Braavos.cite_ref-Raffc15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0)

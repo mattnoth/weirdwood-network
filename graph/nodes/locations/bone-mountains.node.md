@@ -1,0 +1,31 @@
+---
+name: "Bone Mountains"
+type: place.location
+slug: bone-mountains
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Bone_Mountains"
+bucket_id: tier3-pathb-locations
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Bone Mountains is a location from the AWOIAF wiki.
+
+## Edges
+
+
+## Origins
+
+The mountains are named after the multitude of [bones](wiki:Bone) left behind by creatures attempting to traverse the range.(wiki:Bone_Mountains.cite_ref-Rtwoiafthe_bones_and_beyond.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
+The ancestors of the [Dothraki](wiki:Dothraki) crossed the Bone Mountains, eventually settling in what is now the [Dothraki sea](wiki:Dothraki_sea).(wiki:Bone_Mountains.cite_ref-Rtwoiafthe_bones_and_beyond.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7)
+The [Realm of the Jhogwin](wiki:Realm_of_the_Jhogwin) in the northern [Krazaaj Zasqa](wiki:Krazaaj_Zasqa) contained the giant [Jhogwin](wiki:Jhogwin) a thousand years ago,(wiki:Bone_Mountains.cite_ref-Rtwoiafthe_bones_and_beyond.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8) while the [Patrimony of Hyrkoon](wiki:Patrimony_of_Hyrkoon) once flourished east of the mountain range.(wiki:Bone_Mountains.cite_ref-Rtwoiafbeyond_the_free_cities:_the_grasslands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1) The Dothraki conquered much of western Essos in the [Century of Blood](wiki:Century_of_Blood), but were halted by the Bones and the fortress cities of [Kayakayanaya](wiki:Kayakayanaya), [Samyriana](wiki:Samyriana), and [Bayasabhad](wiki:Bayasabhad) when they attempted to expand east.(wiki:Bone_Mountains.cite_ref-Rtwoiafbeyond_the_free_cities:_the_grasslands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2) The [Jogos Nhai](wiki:Jogos_Nhai) desire to conquer Kayakayanaya and expand into the grasslands west of the Bones.(wiki:Bone_Mountains.cite_ref-Rtwoiafthe_bones_and_beyond:_the_plains_of_the_jogos_nhai.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
+When he reached the Bone Mountains, [Lomas Longstrider](wiki:Lomas_Longstrider) believed he had reached the ends of the earth.(wiki:Bone_Mountains.cite_ref-Rtwoiafthe_bones_and_beyond.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-9)
+
+## Quotes
+
+The [bones](wiki:Bone) of men, the bones of [horses](wiki:Horse), the bones of [giants](wiki:Giants) and camels and oxen, of every sort of beast and bird and monster, all can be found amongst these savage peaks.(wiki:Bone_Mountains.cite_ref-Rtwoiafthe_bones_and_beyond.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-10)
+A thousand roads lead into the Bones, but only three lead out.(wiki:Bone_Mountains.cite_ref-Rtwoiafthe_bones_and_beyond.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-11)
