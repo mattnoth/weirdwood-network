@@ -1,0 +1,1918 @@
+{
+  "bucket_id": "tier3-pathb-characters",
+  "tier": "secondary",
+  "tier_default": "tier-2",
+  "prompt_version": "v1-python",
+  "created_at": "2026-05-01T14:36:23.636872+00:00",
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "pages": [
+    {
+      "page": "A certain man",
+      "slug": "a-certain-man",
+      "type": "character.human"
+    },
+    {
+      "page": "Abelar Hightower",
+      "slug": "abelar-hightower",
+      "type": "character.human"
+    },
+    {
+      "page": "Abelon",
+      "slug": "abelon",
+      "type": "character.human"
+    },
+    {
+      "page": "Addam Rivers",
+      "slug": "addam-rivers",
+      "type": "character.human"
+    },
+    {
+      "page": "Addam of Duskendale",
+      "slug": "addam-of-duskendale",
+      "type": "character.human"
+    },
+    {
+      "page": "Adrian Redfort",
+      "slug": "adrian-redfort",
+      "type": "character.human"
+    },
+    {
+      "page": "Aethan",
+      "slug": "aethan",
+      "type": "character.human"
+    },
+    {
+      "page": "Aethelmure",
+      "slug": "aethelmure",
+      "type": "character.human"
+    },
+    {
+      "page": "Aglantine",
+      "slug": "aglantine",
+      "type": "character.human"
+    },
+    {
+      "page": "Agrivane",
+      "slug": "agrivane",
+      "type": "character.human"
+    },
+    {
+      "page": "Alan of Rosby",
+      "slug": "alan-of-rosby",
+      "type": "character.human"
+    },
+    {
+      "page": "Alaric of Eysen",
+      "slug": "alaric-of-eysen",
+      "type": "character.human"
+    },
+    {
+      "page": "Albett",
+      "slug": "albett",
+      "type": "character.human"
+    },
+    {
+      "page": "Albin Manwoody",
+      "slug": "albin-manwoody",
+      "type": "character.human"
+    },
+    {
+      "page": "Alchemist",
+      "slug": "alchemist",
+      "type": "character.human"
+    },
+    {
+      "page": "Alequo Adarys",
+      "slug": "alequo-adarys",
+      "type": "character.human"
+    },
+    {
+      "page": "Alf of Runnymudd",
+      "slug": "alf-of-runnymudd",
+      "type": "character.human"
+    },
+    {
+      "page": "Alford",
+      "slug": "alford",
+      "type": "character.human"
+    },
+    {
+      "page": "Alfred Broome",
+      "slug": "alfred-broome",
+      "type": "character.human"
+    },
+    {
+      "page": "Alfyn Crowkiller",
+      "slug": "alfyn-crowkiller",
+      "type": "character.human"
+    },
+    {
+      "page": "Alia of Braavos",
+      "slug": "alia-of-braavos",
+      "type": "character.human"
+    },
+    {
+      "page": "Alios Qhaedar",
+      "slug": "alios-qhaedar",
+      "type": "character.human"
+    },
+    {
+      "page": "Alison",
+      "slug": "alison",
+      "type": "character.human"
+    },
+    {
+      "page": "Allaquo",
+      "slug": "allaquo",
+      "type": "character.human"
+    },
+    {
+      "page": "Amos Bracken",
+      "slug": "amos-bracken",
+      "type": "character.human"
+    },
+    {
+      "page": "Argoth Stone-Skin",
+      "slug": "argoth-stone-skin",
+      "type": "character.human"
+    },
+    {
+      "page": "Arlan of Pennytree",
+      "slug": "arlan-of-pennytree",
+      "type": "character.human"
+    },
+    {
+      "page": "Aubrey Crakehall",
+      "slug": "aubrey-crakehall",
+      "type": "character.human"
+    },
+    {
+      "page": "Balerion (cat)",
+      "slug": "balerion-cat",
+      "type": "character.human"
+    },
+    {
+      "page": "Balon Blackskin",
+      "slug": "balon-blackskin",
+      "type": "character.human"
+    },
+    {
+      "page": "Barre",
+      "slug": "barre",
+      "type": "character.human"
+    },
+    {
+      "page": "Bastard's bastard",
+      "slug": "bastards-bastard",
+      "type": "character.human"
+    },
+    {
+      "page": "Bastardy",
+      "slug": "bastardy",
+      "type": "character.human"
+    },
+    {
+      "page": "Beldecar",
+      "slug": "beldecar",
+      "type": "character.human"
+    },
+    {
+      "page": "Belicho",
+      "slug": "belicho",
+      "type": "character.human"
+    },
+    {
+      "page": "Belicho Staegone",
+      "slug": "belicho-staegone",
+      "type": "character.human"
+    },
+    {
+      "page": "Belis",
+      "slug": "belis",
+      "type": "character.human"
+    },
+    {
+      "page": "Bello",
+      "slug": "bello",
+      "type": "character.human"
+    },
+    {
+      "page": "Ben",
+      "slug": "ben",
+      "type": "character.human"
+    },
+    {
+      "page": "Ben Buttercakes",
+      "slug": "ben-buttercakes",
+      "type": "character.human"
+    },
+    {
+      "page": "Bendamure",
+      "slug": "bendamure",
+      "type": "character.human"
+    },
+    {
+      "page": "Benedict",
+      "slug": "benedict",
+      "type": "character.human"
+    },
+    {
+      "page": "Benedict Blackmont",
+      "slug": "benedict-blackmont",
+      "type": "character.human"
+    },
+    {
+      "page": "Benedict II Justman",
+      "slug": "benedict-ii-justman",
+      "type": "character.human"
+    },
+    {
+      "page": "Benedict I Justman",
+      "slug": "benedict-i-justman",
+      "type": "character.human"
+    },
+    {
+      "page": "Benerro",
+      "slug": "benerro",
+      "type": "character.human"
+    },
+    {
+      "page": "Benjamin Avery",
+      "slug": "benjamin-avery",
+      "type": "character.human"
+    },
+    {
+      "page": "Benjen Stark (Bitter)",
+      "slug": "benjen-stark-bitter",
+      "type": "character.human"
+    },
+    {
+      "page": "Benjen Stark (Sweet)",
+      "slug": "benjen-stark-sweet",
+      "type": "character.human"
+    },
+    {
+      "page": "Benjicot",
+      "slug": "benjicot",
+      "type": "character.human"
+    },
+    {
+      "page": "Bennet",
+      "slug": "bennet",
+      "type": "character.human"
+    },
+    {
+      "page": "Bennis of the Brown Shield",
+      "slug": "bennis-of-the-brown-shield",
+      "type": "character.human"
+    },
+    {
+      "page": "Bernarr II Justman",
+      "slug": "bernarr-ii-justman",
+      "type": "character.human"
+    },
+    {
+      "page": "Bessa (Hag's Mire)",
+      "slug": "bessa-hags-mire",
+      "type": "character.human"
+    },
+    {
+      "page": "Bessa (Winterfell)",
+      "slug": "bessa-winterfell",
+      "type": "character.human"
+    },
+    {
+      "page": "Big Belly Ben",
+      "slug": "big-belly-ben",
+      "type": "character.human"
+    },
+    {
+      "page": "Big Boil",
+      "slug": "big-boil",
+      "type": "character.human"
+    },
+    {
+      "page": "Big Brusco",
+      "slug": "big-brusco",
+      "type": "character.human"
+    },
+    {
+      "page": "Black Balaq",
+      "slug": "black-balaq",
+      "type": "character.human"
+    },
+    {
+      "page": "Black Bernarr",
+      "slug": "black-bernarr",
+      "type": "character.human"
+    },
+    {
+      "page": "Black Gerrold",
+      "slug": "black-gerrold",
+      "type": "character.human"
+    },
+    {
+      "page": "Black Knife",
+      "slug": "black-knife",
+      "type": "character.human"
+    },
+    {
+      "page": "Black Maris",
+      "slug": "black-maris",
+      "type": "character.human"
+    },
+    {
+      "page": "Black Robin",
+      "slug": "black-robin",
+      "type": "character.human"
+    },
+    {
+      "page": "Blane",
+      "slug": "blane",
+      "type": "character.human"
+    },
+    {
+      "page": "Blood (butcher)",
+      "slug": "blood-butcher",
+      "type": "character.human"
+    },
+    {
+      "page": "Blood (horse)",
+      "slug": "blood-horse",
+      "type": "character.human"
+    },
+    {
+      "page": "Brindled Butcher",
+      "slug": "brindled-butcher",
+      "type": "character.human"
+    },
+    {
+      "page": "Brothers Brune",
+      "slug": "brothers-brune",
+      "type": "character.human"
+    },
+    {
+      "page": "Brute",
+      "slug": "brute",
+      "type": "character.human"
+    },
+    {
+      "page": "Cannibal (dragon)",
+      "slug": "cannibal-dragon",
+      "type": "character.dragon"
+    },
+    {
+      "page": "Captain of the Adventure",
+      "slug": "captain-of-the-adventure",
+      "type": "character.human"
+    },
+    {
+      "page": "Casso",
+      "slug": "casso",
+      "type": "character.human"
+    },
+    {
+      "page": "Cheese (ratcatcher)",
+      "slug": "cheese-ratcatcher",
+      "type": "character.human"
+    },
+    {
+      "page": "Clanker Lords",
+      "slug": "clanker-lords",
+      "type": "character.human"
+    },
+    {
+      "page": "Corsair king",
+      "slug": "corsair-king",
+      "type": "character.human"
+    },
+    {
+      "page": "Craghas Drahar",
+      "slug": "craghas-drahar",
+      "type": "character.human"
+    },
+    {
+      "page": "Craghorn Hoare",
+      "slug": "craghorn-hoare",
+      "type": "character.human"
+    },
+    {
+      "page": "Craster's sons",
+      "slug": "crasters-sons",
+      "type": "character.human"
+    },
+    {
+      "page": "Craster's wives",
+      "slug": "crasters-wives",
+      "type": "character.human"
+    },
+    {
+      "page": "Craven",
+      "slug": "craven",
+      "type": "character.human"
+    },
+    {
+      "page": "Daeron Targaryen (son of Viserys I)",
+      "slug": "daeron-targaryen-son-of-viserys-i",
+      "type": "character.human"
+    },
+    {
+      "page": "Davos the Dragonslayer",
+      "slug": "davos-the-dragonslayer",
+      "type": "character.human"
+    },
+    {
+      "page": "Dog (Meribald)",
+      "slug": "dog-meribald",
+      "type": "character.human"
+    },
+    {
+      "page": "Donkey",
+      "slug": "donkey",
+      "type": "character.human"
+    },
+    {
+      "page": "Dragon Twins",
+      "slug": "dragon-twins",
+      "type": "character.human"
+    },
+    {
+      "page": "Durran Durrandon (The Third)",
+      "slug": "durran-durrandon-the-third",
+      "type": "character.human"
+    },
+    {
+      "page": "Durwald I Durrandon",
+      "slug": "durwald-i-durrandon",
+      "type": "character.human"
+    },
+    {
+      "page": "Edwyn Tarth",
+      "slug": "edwyn-tarth",
+      "type": "character.human"
+    },
+    {
+      "page": "Elinda Massey",
+      "slug": "elinda-massey",
+      "type": "character.human"
+    },
+    {
+      "page": "Eunuch strangler",
+      "slug": "eunuch-strangler",
+      "type": "character.human"
+    },
+    {
+      "page": "Euron's mongrel sons",
+      "slug": "eurons-mongrel-sons",
+      "type": "character.human"
+    },
+    {
+      "page": "Fergon Hoare",
+      "slug": "fergon-hoare",
+      "type": "character.human"
+    },
+    {
+      "page": "Fingers (guards)",
+      "slug": "fingers-guards",
+      "type": "character.human"
+    },
+    {
+      "page": "Flame",
+      "slug": "flame",
+      "type": "character.human"
+    },
+    {
+      "page": "Forrest Frey",
+      "slug": "forrest-frey",
+      "type": "character.human"
+    },
+    {
+      "page": "Fossoway twins",
+      "slug": "fossoway-twins",
+      "type": "character.human"
+    },
+    {
+      "page": "Four-Headed Beast",
+      "slug": "four-headed-beast",
+      "type": "character.human"
+    },
+    {
+      "page": "Four Storms",
+      "slug": "four-storms",
+      "type": "character.human"
+    },
+    {
+      "page": "Galbart Glover's maester",
+      "slug": "galbart-glovers-maester",
+      "type": "character.human"
+    },
+    {
+      "page": "Galendro",
+      "slug": "galendro",
+      "type": "character.human"
+    },
+    {
+      "page": "Garland VI Gardener",
+      "slug": "garland-vi-gardener",
+      "type": "character.human"
+    },
+    {
+      "page": "Garth III Gardener",
+      "slug": "garth-iii-gardener",
+      "type": "character.human"
+    },
+    {
+      "page": "Garth IX Gardener",
+      "slug": "garth-ix-gardener",
+      "type": "character.human"
+    },
+    {
+      "page": "Garth VII Gardener",
+      "slug": "garth-vii-gardener",
+      "type": "character.human"
+    },
+    {
+      "page": "Garth VI Gardener",
+      "slug": "garth-vi-gardener",
+      "type": "character.human"
+    },
+    {
+      "page": "Garth V Gardener",
+      "slug": "garth-v-gardener",
+      "type": "character.human"
+    },
+    {
+      "page": "Garth XII Gardener",
+      "slug": "garth-xii-gardener",
+      "type": "character.human"
+    },
+    {
+      "page": "Garth XI Gardener",
+      "slug": "garth-xi-gardener",
+      "type": "character.human"
+    },
+    {
+      "page": "Garth X Gardener",
+      "slug": "garth-x-gardener",
+      "type": "character.human"
+    },
+    {
+      "page": "Garth of Greenaway",
+      "slug": "garth-of-greenaway",
+      "type": "character.human"
+    },
+    {
+      "page": "Garth of Oldtown",
+      "slug": "garth-of-oldtown",
+      "type": "character.human"
+    },
+    {
+      "page": "Garth the Harelip",
+      "slug": "garth-the-harelip",
+      "type": "character.human"
+    },
+    {
+      "page": "Gaven Greywolf",
+      "slug": "gaven-greywolf",
+      "type": "character.human"
+    },
+    {
+      "page": "Gavin the Trader",
+      "slug": "gavin-the-trader",
+      "type": "character.human"
+    },
+    {
+      "page": "Gendel",
+      "slug": "gendel",
+      "type": "character.human"
+    },
+    {
+      "page": "Geoff",
+      "slug": "geoff",
+      "type": "character.human"
+    },
+    {
+      "page": "George R. R. Martin",
+      "slug": "george-r-r-martin",
+      "type": "character.human"
+    },
+    {
+      "page": "Gerold Grafton (king)",
+      "slug": "gerold-grafton-king",
+      "type": "character.human"
+    },
+    {
+      "page": "Gerold III Lannister",
+      "slug": "gerold-iii-lannister",
+      "type": "character.human"
+    },
+    {
+      "page": "Gerold Lannister (king)",
+      "slug": "gerold-lannister-king",
+      "type": "character.human"
+    },
+    {
+      "page": "Gerren",
+      "slug": "gerren",
+      "type": "character.human"
+    },
+    {
+      "page": "Gerrold Redback",
+      "slug": "gerrold-redback",
+      "type": "character.human"
+    },
+    {
+      "page": "Gessio Haratis",
+      "slug": "gessio-haratis",
+      "type": "character.human"
+    },
+    {
+      "page": "Ghael",
+      "slug": "ghael",
+      "type": "character.human"
+    },
+    {
+      "page": "Gharak Squint-Eye",
+      "slug": "gharak-squint-eye",
+      "type": "character.human"
+    },
+    {
+      "page": "Ghost of High Heart",
+      "slug": "ghost-of-high-heart",
+      "type": "character.human"
+    },
+    {
+      "page": "Giant of the Trident",
+      "slug": "giant-of-the-trident",
+      "type": "character.human"
+    },
+    {
+      "page": "Gillam",
+      "slug": "gillam",
+      "type": "character.human"
+    },
+    {
+      "page": "Glory",
+      "slug": "glory",
+      "type": "character.human"
+    },
+    {
+      "page": "Gordan I Gardener",
+      "slug": "gordan-i-gardener",
+      "type": "character.human"
+    },
+    {
+      "page": "Gormon Massey",
+      "slug": "gormon-massey",
+      "type": "character.human"
+    },
+    {
+      "page": "Great Bastards",
+      "slug": "great-bastards",
+      "type": "character.human"
+    },
+    {
+      "page": "Grey Jeyne",
+      "slug": "grey-jeyne",
+      "type": "character.human"
+    },
+    {
+      "page": "Greydon Gardener",
+      "slug": "greydon-gardener",
+      "type": "character.human"
+    },
+    {
+      "page": "Growler",
+      "slug": "growler",
+      "type": "character.human"
+    },
+    {
+      "page": "Gwayne I Gardener",
+      "slug": "gwayne-i-gardener",
+      "type": "character.human"
+    },
+    {
+      "page": "Gyles III Gardener",
+      "slug": "gyles-iii-gardener",
+      "type": "character.human"
+    },
+    {
+      "page": "Gyles II Gardener",
+      "slug": "gyles-ii-gardener",
+      "type": "character.human"
+    },
+    {
+      "page": "Hagon the Terrible",
+      "slug": "hagon-the-terrible",
+      "type": "character.human"
+    },
+    {
+      "page": "Halder",
+      "slug": "halder",
+      "type": "character.human"
+    },
+    {
+      "page": "Half-blind garron",
+      "slug": "half-blind-garron",
+      "type": "character.human"
+    },
+    {
+      "page": "Hali",
+      "slug": "hali",
+      "type": "character.human"
+    },
+    {
+      "page": "Halleck",
+      "slug": "halleck",
+      "type": "character.human"
+    },
+    {
+      "page": "Hallyne",
+      "slug": "hallyne",
+      "type": "character.human"
+    },
+    {
+      "page": "Hamish the Harper",
+      "slug": "hamish-the-harper",
+      "type": "character.human"
+    },
+    {
+      "page": "Hammer",
+      "slug": "hammer",
+      "type": "character.human"
+    },
+    {
+      "page": "Hammer of the Hills",
+      "slug": "hammer-of-the-hills",
+      "type": "character.human"
+    },
+    {
+      "page": "Har Loi",
+      "slug": "har-loi",
+      "type": "character.human"
+    },
+    {
+      "page": "Hareth (Grand Maester)",
+      "slug": "hareth-grand-maester",
+      "type": "character.human"
+    },
+    {
+      "page": "Hareth (Mole's Town)",
+      "slug": "hareth-moles-town",
+      "type": "character.human"
+    },
+    {
+      "page": "Harghaz",
+      "slug": "harghaz",
+      "type": "character.human"
+    },
+    {
+      "page": "Harle the Handsome",
+      "slug": "harle-the-handsome",
+      "type": "character.human"
+    },
+    {
+      "page": "Harle the Huntsman",
+      "slug": "harle-the-huntsman",
+      "type": "character.human"
+    },
+    {
+      "page": "Harlon Stark",
+      "slug": "harlon-stark",
+      "type": "character.human"
+    },
+    {
+      "page": "Harma Dogshead",
+      "slug": "harma-dogshead",
+      "type": "character.human"
+    },
+    {
+      "page": "Harmon",
+      "slug": "harmon",
+      "type": "character.human"
+    },
+    {
+      "page": "Harmon of the Reeds",
+      "slug": "harmon-of-the-reeds",
+      "type": "character.human"
+    },
+    {
+      "page": "Harmund III Hoare",
+      "slug": "harmund-iii-hoare",
+      "type": "character.human"
+    },
+    {
+      "page": "Harmund I Hoare",
+      "slug": "harmund-i-hoare",
+      "type": "character.human"
+    },
+    {
+      "page": "Harmune",
+      "slug": "harmune",
+      "type": "character.human"
+    },
+    {
+      "page": "Haro",
+      "slug": "haro",
+      "type": "character.human"
+    },
+    {
+      "page": "Harodon",
+      "slug": "harodon",
+      "type": "character.human"
+    },
+    {
+      "page": "Harpy",
+      "slug": "harpy",
+      "type": "character.human"
+    },
+    {
+      "page": "Harrald Halfdrowned",
+      "slug": "harrald-halfdrowned",
+      "type": "character.human"
+    },
+    {
+      "page": "Harras Hoare",
+      "slug": "harras-hoare",
+      "type": "character.human"
+    },
+    {
+      "page": "Harren Half-Hoare",
+      "slug": "harren-half-hoare",
+      "type": "character.human"
+    },
+    {
+      "page": "Harren Hoare",
+      "slug": "harren-hoare",
+      "type": "character.human"
+    },
+    {
+      "page": "Harrold Westerling",
+      "slug": "harrold-westerling",
+      "type": "character.human"
+    },
+    {
+      "page": "Heddle family",
+      "slug": "heddle-family",
+      "type": "character.human"
+    },
+    {
+      "page": "Helaena Targaryen",
+      "slug": "helaena-targaryen",
+      "type": "character.human"
+    },
+    {
+      "page": "Hero (dog)",
+      "slug": "hero-dog",
+      "type": "character.human"
+    },
+    {
+      "page": "High Septon (Jaehaerys I)",
+      "slug": "high-septon-jaehaerys-i",
+      "type": "character.human"
+    },
+    {
+      "page": "Honor",
+      "slug": "honor",
+      "type": "character.human"
+    },
+    {
+      "page": "Horgan Hoare",
+      "slug": "horgan-hoare",
+      "type": "character.human"
+    },
+    {
+      "page": "Household knight",
+      "slug": "household-knight",
+      "type": "character.human"
+    },
+    {
+      "page": "Hugh Hammer",
+      "slug": "hugh-hammer",
+      "type": "character.human"
+    },
+    {
+      "page": "Humfrey Beesbury",
+      "slug": "humfrey-beesbury",
+      "type": "character.human"
+    },
+    {
+      "page": "Humfrey Hardyng",
+      "slug": "humfrey-hardyng",
+      "type": "character.human"
+    },
+    {
+      "page": "Humfrey Lefford",
+      "slug": "humfrey-lefford",
+      "type": "character.human"
+    },
+    {
+      "page": "Jasper Wylde",
+      "slug": "jasper-wylde",
+      "type": "character.human"
+    },
+    {
+      "page": "Jeyne Arryn",
+      "slug": "jeyne-arryn",
+      "type": "character.human"
+    },
+    {
+      "page": "Jeyne Nutt",
+      "slug": "jeyne-nutt",
+      "type": "character.human"
+    },
+    {
+      "page": "Jez",
+      "slug": "jez",
+      "type": "character.human"
+    },
+    {
+      "page": "Joffrey Lonmouth",
+      "slug": "joffrey-lonmouth",
+      "type": "character.human"
+    },
+    {
+      "page": "Jon Penny",
+      "slug": "jon-penny",
+      "type": "character.human"
+    },
+    {
+      "page": "Jon Roxton",
+      "slug": "jon-roxton",
+      "type": "character.human"
+    },
+    {
+      "page": "Justin Massey (Milk-Eye)",
+      "slug": "justin-massey-milk-eye",
+      "type": "character.human"
+    },
+    {
+      "page": "King of the Bees",
+      "slug": "king-of-the-bees",
+      "type": "character.human"
+    },
+    {
+      "page": "Knight of the Laughing Tree",
+      "slug": "knight-of-the-laughing-tree",
+      "type": "character.human"
+    },
+    {
+      "page": "Knights of the Vale",
+      "slug": "knights-of-the-vale",
+      "type": "character.human"
+    },
+    {
+      "page": "Lady Caswell",
+      "slug": "lady-caswell",
+      "type": "character.human"
+    },
+    {
+      "page": "Lady Farts-a-Lot",
+      "slug": "lady-farts-a-lot",
+      "type": "character.human"
+    },
+    {
+      "page": "Lady Fell",
+      "slug": "lady-fell",
+      "type": "character.human"
+    },
+    {
+      "page": "Lady Stork",
+      "slug": "lady-stork",
+      "type": "character.human"
+    },
+    {
+      "page": "Lancel V Lannister",
+      "slug": "lancel-v-lannister",
+      "type": "character.human"
+    },
+    {
+      "page": "Larys Strong",
+      "slug": "larys-strong",
+      "type": "character.human"
+    },
+    {
+      "page": "Last hero",
+      "slug": "last-hero",
+      "type": "character.human"
+    },
+    {
+      "page": "List of characters and arms in The Hedge Knight graphic novel collection",
+      "slug": "list-of-characters-and-arms-in-the-hedge-knight-graphic-novel-collection",
+      "type": "character.human"
+    },
+    {
+      "page": "List of characters created for A Song of Ice and Fire Roleplaying",
+      "slug": "list-of-characters-created-for-a-song-of-ice-and-fire-roleplaying",
+      "type": "character.human"
+    },
+    {
+      "page": "List of characters created for the Cyanide game",
+      "slug": "list-of-characters-created-for-the-cyanide-game",
+      "type": "character.human"
+    },
+    {
+      "page": "Loptail",
+      "slug": "loptail",
+      "type": "character.human"
+    },
+    {
+      "page": "Lord Ashford's daughter",
+      "slug": "lord-ashfords-daughter",
+      "type": "character.human"
+    },
+    {
+      "page": "Lord Ashford",
+      "slug": "lord-ashford",
+      "type": "character.human"
+    },
+    {
+      "page": "Lord Caswell (Dance)",
+      "slug": "lord-caswell-dance",
+      "type": "character.human"
+    },
+    {
+      "page": "Lord Darry (Dance)",
+      "slug": "lord-darry-dance",
+      "type": "character.human"
+    },
+    {
+      "page": "Lord Dondarrion (82 AC)",
+      "slug": "lord-dondarrion-82-ac",
+      "type": "character.human"
+    },
+    {
+      "page": "Lord Footly",
+      "slug": "lord-footly",
+      "type": "character.human"
+    },
+    {
+      "page": "Lord Hightower",
+      "slug": "lord-hightower",
+      "type": "character.human"
+    },
+    {
+      "page": "Lord Redwyne",
+      "slug": "lord-redwyne",
+      "type": "character.human"
+    },
+    {
+      "page": "Lords freeholder",
+      "slug": "lords-freeholder",
+      "type": "character.human"
+    },
+    {
+      "page": "Lorent Marbrand",
+      "slug": "lorent-marbrand",
+      "type": "character.human"
+    },
+    {
+      "page": "Lucifer Justman",
+      "slug": "lucifer-justman",
+      "type": "character.human"
+    },
+    {
+      "page": "Luthor Largent",
+      "slug": "luthor-largent",
+      "type": "character.human"
+    },
+    {
+      "page": "Lyman Beesbury",
+      "slug": "lyman-beesbury",
+      "type": "character.human"
+    },
+    {
+      "page": "Lymond Fisher",
+      "slug": "lymond-fisher",
+      "type": "character.human"
+    },
+    {
+      "page": "Lyonel Bentley",
+      "slug": "lyonel-bentley",
+      "type": "character.human"
+    },
+    {
+      "page": "Lyonel Strong",
+      "slug": "lyonel-strong",
+      "type": "character.human"
+    },
+    {
+      "page": "Mad Prendos",
+      "slug": "mad-prendos",
+      "type": "character.human"
+    },
+    {
+      "page": "Maester (mule)",
+      "slug": "maester-mule",
+      "type": "character.human"
+    },
+    {
+      "page": "Manfryd Mooton",
+      "slug": "manfryd-mooton",
+      "type": "character.human"
+    },
+    {
+      "page": "Marei",
+      "slug": "marei",
+      "type": "character.human"
+    },
+    {
+      "page": "Margate",
+      "slug": "margate",
+      "type": "character.human"
+    },
+    {
+      "page": "Marillion",
+      "slug": "marillion",
+      "type": "character.human"
+    },
+    {
+      "page": "Maris (Mother)",
+      "slug": "maris-mother",
+      "type": "character.human"
+    },
+    {
+      "page": "Marq Mandrake",
+      "slug": "marq-mandrake",
+      "type": "character.human"
+    },
+    {
+      "page": "Marq Mudd",
+      "slug": "marq-mudd",
+      "type": "character.human"
+    },
+    {
+      "page": "Marqelo Tagaros",
+      "slug": "marqelo-tagaros",
+      "type": "character.human"
+    },
+    {
+      "page": "Marrigo",
+      "slug": "marrigo",
+      "type": "character.human"
+    },
+    {
+      "page": "Marro",
+      "slug": "marro",
+      "type": "character.human"
+    },
+    {
+      "page": "Marston Waters",
+      "slug": "marston-waters",
+      "type": "character.human"
+    },
+    {
+      "page": "Marwyn",
+      "slug": "marwyn",
+      "type": "character.human"
+    },
+    {
+      "page": "Masha Heddle",
+      "slug": "masha-heddle",
+      "type": "character.human"
+    },
+    {
+      "page": "Maslyn",
+      "slug": "maslyn",
+      "type": "character.human"
+    },
+    {
+      "page": "Mathis",
+      "slug": "mathis",
+      "type": "character.human"
+    },
+    {
+      "page": "Mathos II Arryn",
+      "slug": "mathos-ii-arryn",
+      "type": "character.human"
+    },
+    {
+      "page": "Mathos Mallarawan",
+      "slug": "mathos-mallarawan",
+      "type": "character.human"
+    },
+    {
+      "page": "Matthar",
+      "slug": "matthar",
+      "type": "character.human"
+    },
+    {
+      "page": "Matthar (archmaester)",
+      "slug": "matthar-archmaester",
+      "type": "character.human"
+    },
+    {
+      "page": "Mattheus",
+      "slug": "mattheus",
+      "type": "character.human"
+    },
+    {
+      "page": "Maude",
+      "slug": "maude",
+      "type": "character.human"
+    },
+    {
+      "page": "Mawney",
+      "slug": "mawney",
+      "type": "character.human"
+    },
+    {
+      "page": "Maynard",
+      "slug": "maynard",
+      "type": "character.human"
+    },
+    {
+      "page": "Mazor Alexi",
+      "slug": "mazor-alexi",
+      "type": "character.human"
+    },
+    {
+      "page": "Mebble",
+      "slug": "mebble",
+      "type": "character.human"
+    },
+    {
+      "page": "Medgar Tully",
+      "slug": "medgar-tully",
+      "type": "character.human"
+    },
+    {
+      "page": "Meha",
+      "slug": "meha",
+      "type": "character.human"
+    },
+    {
+      "page": "Meizo Mahr",
+      "slug": "meizo-mahr",
+      "type": "character.human"
+    },
+    {
+      "page": "Meleys",
+      "slug": "meleys",
+      "type": "character.dragon"
+    },
+    {
+      "page": "Meliana",
+      "slug": "meliana",
+      "type": "character.human"
+    },
+    {
+      "page": "Melicent",
+      "slug": "melicent",
+      "type": "character.human"
+    },
+    {
+      "page": "Mellos",
+      "slug": "mellos",
+      "type": "character.human"
+    },
+    {
+      "page": "Melly",
+      "slug": "melly",
+      "type": "character.human"
+    },
+    {
+      "page": "Mengo Quen",
+      "slug": "mengo-quen",
+      "type": "character.human"
+    },
+    {
+      "page": "Meralyn",
+      "slug": "meralyn",
+      "type": "character.human"
+    },
+    {
+      "page": "Meraxes",
+      "slug": "meraxes",
+      "type": "character.dragon"
+    },
+    {
+      "page": "Mercenary",
+      "slug": "mercenary",
+      "type": "character.human"
+    },
+    {
+      "page": "Meribald",
+      "slug": "meribald",
+      "type": "character.human"
+    },
+    {
+      "page": "Merion",
+      "slug": "merion",
+      "type": "character.human"
+    },
+    {
+      "page": "Meris",
+      "slug": "meris",
+      "type": "character.human"
+    },
+    {
+      "page": "Merle I Gardener",
+      "slug": "merle-i-gardener",
+      "type": "character.human"
+    },
+    {
+      "page": "Merling Queen",
+      "slug": "merling-queen",
+      "type": "character.human"
+    },
+    {
+      "page": "Mern III Gardener",
+      "slug": "mern-iii-gardener",
+      "type": "character.human"
+    },
+    {
+      "page": "Mern II Gardener",
+      "slug": "mern-ii-gardener",
+      "type": "character.human"
+    },
+    {
+      "page": "Mern VI Gardener",
+      "slug": "mern-vi-gardener",
+      "type": "character.human"
+    },
+    {
+      "page": "Mero",
+      "slug": "mero",
+      "type": "character.human"
+    },
+    {
+      "page": "Merrell the Bold",
+      "slug": "merrell-the-bold",
+      "type": "character.human"
+    },
+    {
+      "page": "Merriman's widow",
+      "slug": "merrimans-widow",
+      "type": "character.human"
+    },
+    {
+      "page": "Merriman",
+      "slug": "merriman",
+      "type": "character.human"
+    },
+    {
+      "page": "Merrit o' Moontown",
+      "slug": "merrit-o-moontown",
+      "type": "character.human"
+    },
+    {
+      "page": "Meryn III Gardener",
+      "slug": "meryn-iii-gardener",
+      "type": "character.human"
+    },
+    {
+      "page": "Methyso",
+      "slug": "methyso",
+      "type": "character.human"
+    },
+    {
+      "page": "Michael Crowell",
+      "slug": "michael-crowell",
+      "type": "character.human"
+    },
+    {
+      "page": "Michael Miller",
+      "slug": "michael-miller",
+      "type": "character.human"
+    },
+    {
+      "page": "Midnight",
+      "slug": "midnight",
+      "type": "character.human"
+    },
+    {
+      "page": "Miklaz",
+      "slug": "miklaz",
+      "type": "character.human"
+    },
+    {
+      "page": "Miller's sons",
+      "slug": "millers-sons",
+      "type": "character.human"
+    },
+    {
+      "page": "Mirri Maz Duur",
+      "slug": "mirri-maz-duur",
+      "type": "character.human"
+    },
+    {
+      "page": "Moelle",
+      "slug": "moelle",
+      "type": "character.human"
+    },
+    {
+      "page": "Mollander",
+      "slug": "mollander",
+      "type": "character.human"
+    },
+    {
+      "page": "Mollos",
+      "slug": "mollos",
+      "type": "character.human"
+    },
+    {
+      "page": "Moon (septon)",
+      "slug": "moon-septon",
+      "type": "character.human"
+    },
+    {
+      "page": "Morden II Durrandon",
+      "slug": "morden-ii-durrandon",
+      "type": "character.human"
+    },
+    {
+      "page": "Mormont's raven",
+      "slug": "mormonts-raven",
+      "type": "character.human"
+    },
+    {
+      "page": "Mystery knight",
+      "slug": "mystery-knight",
+      "type": "character.human"
+    },
+    {
+      "page": "Nine Eunuchs",
+      "slug": "nine-eunuchs",
+      "type": "character.human"
+    },
+    {
+      "page": "Norwin Lannister",
+      "slug": "norwin-lannister",
+      "type": "character.human"
+    },
+    {
+      "page": "Old blind dog",
+      "slug": "old-blind-dog",
+      "type": "character.human"
+    },
+    {
+      "page": "Old piebald rounsey",
+      "slug": "old-piebald-rounsey",
+      "type": "character.human"
+    },
+    {
+      "page": "Olyvar Yronwood",
+      "slug": "olyvar-yronwood",
+      "type": "character.human"
+    },
+    {
+      "page": "Ormund III Durrandon",
+      "slug": "ormund-iii-durrandon",
+      "type": "character.human"
+    },
+    {
+      "page": "Orwyle",
+      "slug": "orwyle",
+      "type": "character.human"
+    },
+    {
+      "page": "Oswell I Arryn",
+      "slug": "oswell-i-arryn",
+      "type": "character.human"
+    },
+    {
+      "page": "Othgar Hoare (Demonlover)",
+      "slug": "othgar-hoare-demonlover",
+      "type": "character.human"
+    },
+    {
+      "page": "Othgar Hoare (the Soulless)",
+      "slug": "othgar-hoare-the-soulless",
+      "type": "character.human"
+    },
+    {
+      "page": "Otho II Hightower",
+      "slug": "otho-ii-hightower",
+      "type": "character.human"
+    },
+    {
+      "page": "Petyr Piper",
+      "slug": "petyr-piper",
+      "type": "character.human"
+    },
+    {
+      "page": "Plummer",
+      "slug": "plummer",
+      "type": "character.human"
+    },
+    {
+      "page": "Proudwing",
+      "slug": "proudwing",
+      "type": "character.human"
+    },
+    {
+      "page": "Qarl Correy",
+      "slug": "qarl-correy",
+      "type": "character.human"
+    },
+    {
+      "page": "Rafe",
+      "slug": "rafe",
+      "type": "character.human"
+    },
+    {
+      "page": "Rain",
+      "slug": "rain",
+      "type": "character.human"
+    },
+    {
+      "page": "Raymun Fossoway",
+      "slug": "raymun-fossoway",
+      "type": "character.human"
+    },
+    {
+      "page": "Red Jeyne",
+      "slug": "red-jeyne",
+      "type": "character.human"
+    },
+    {
+      "page": "Red Princes",
+      "slug": "red-princes",
+      "type": "character.human"
+    },
+    {
+      "page": "Rhaena Targaryen (daughter of Daemon)",
+      "slug": "rhaena-targaryen-daughter-of-daemon",
+      "type": "character.human"
+    },
+    {
+      "page": "Rhaenys Targaryen (daughter of Aemon)",
+      "slug": "rhaenys-targaryen-daughter-of-aemon",
+      "type": "character.human"
+    },
+    {
+      "page": "Rickard Thorne",
+      "slug": "rickard-thorne",
+      "type": "character.human"
+    },
+    {
+      "page": "Rickon Stark (son of Benjen)",
+      "slug": "rickon-stark-son-of-benjen",
+      "type": "character.human"
+    },
+    {
+      "page": "Robber knight",
+      "slug": "robber-knight",
+      "type": "character.human"
+    },
+    {
+      "page": "Robyn Rhysling",
+      "slug": "robyn-rhysling",
+      "type": "character.human"
+    },
+    {
+      "page": "Roderick Dustin",
+      "slug": "roderick-dustin",
+      "type": "character.human"
+    },
+    {
+      "page": "Roland Crakehall (Kingsguard)",
+      "slug": "roland-crakehall-kingsguard",
+      "type": "character.human"
+    },
+    {
+      "page": "Rymund the Rhymer",
+      "slug": "rymund-the-rhymer",
+      "type": "character.human"
+    },
+    {
+      "page": "Saathos the Wise",
+      "slug": "saathos-the-wise",
+      "type": "character.human"
+    },
+    {
+      "page": "Sabitha Frey",
+      "slug": "sabitha-frey",
+      "type": "character.human"
+    },
+    {
+      "page": "Sand Snakes",
+      "slug": "sand-snakes",
+      "type": "character.human"
+    },
+    {
+      "page": "Sara",
+      "slug": "sara",
+      "type": "character.human"
+    },
+    {
+      "page": "Sargoso Saan",
+      "slug": "sargoso-saan",
+      "type": "character.human"
+    },
+    {
+      "page": "Satin",
+      "slug": "satin",
+      "type": "character.human"
+    },
+    {
+      "page": "Sauron Salt-Tongue",
+      "slug": "sauron-salt-tongue",
+      "type": "character.human"
+    },
+    {
+      "page": "Sawwood",
+      "slug": "sawwood",
+      "type": "character.human"
+    },
+    {
+      "page": "Scales",
+      "slug": "scales",
+      "type": "character.human"
+    },
+    {
+      "page": "Scar",
+      "slug": "scar",
+      "type": "character.human"
+    },
+    {
+      "page": "Scarb",
+      "slug": "scarb",
+      "type": "character.human"
+    },
+    {
+      "page": "Scolera",
+      "slug": "scolera",
+      "type": "character.human"
+    },
+    {
+      "page": "Scoro",
+      "slug": "scoro",
+      "type": "character.human"
+    },
+    {
+      "page": "Seasmoke",
+      "slug": "seasmoke",
+      "type": "character.dragon"
+    },
+    {
+      "page": "Senerra She-Snake",
+      "slug": "senerra-she-snake",
+      "type": "character.human"
+    },
+    {
+      "page": "Septon of Sallydance",
+      "slug": "septon-of-sallydance",
+      "type": "character.human"
+    },
+    {
+      "page": "Ser Pounce",
+      "slug": "ser-pounce",
+      "type": "character.human"
+    },
+    {
+      "page": "Shagwell",
+      "slug": "shagwell",
+      "type": "character.human"
+    },
+    {
+      "page": "Sharako Lohar",
+      "slug": "sharako-lohar",
+      "type": "character.human"
+    },
+    {
+      "page": "Sharis Footly",
+      "slug": "sharis-footly",
+      "type": "character.human"
+    },
+    {
+      "page": "Sharra the Witch Queen",
+      "slug": "sharra-the-witch-queen",
+      "type": "character.human"
+    },
+    {
+      "page": "Sheepstealer",
+      "slug": "sheepstealer",
+      "type": "character.dragon"
+    },
+    {
+      "page": "Shella",
+      "slug": "shella",
+      "type": "character.human"
+    },
+    {
+      "page": "Shepherd",
+      "slug": "shepherd",
+      "type": "character.human"
+    },
+    {
+      "page": "Shepherd reborn",
+      "slug": "shepherd-reborn",
+      "type": "character.human"
+    },
+    {
+      "page": "Sherrit",
+      "slug": "sherrit",
+      "type": "character.human"
+    },
+    {
+      "page": "Shrike",
+      "slug": "shrike",
+      "type": "character.human"
+    },
+    {
+      "page": "Shrouded Lord",
+      "slug": "shrouded-lord",
+      "type": "character.human"
+    },
+    {
+      "page": "Shrykos",
+      "slug": "shrykos",
+      "type": "character.dragon"
+    },
+    {
+      "page": "Silver-haired whore",
+      "slug": "silver-haired-whore",
+      "type": "character.human"
+    },
+    {
+      "page": "Silver Denys",
+      "slug": "silver-denys",
+      "type": "character.human"
+    },
+    {
+      "page": "Silver mare",
+      "slug": "silver-mare",
+      "type": "character.human"
+    },
+    {
+      "page": "Silverwing",
+      "slug": "silverwing",
+      "type": "character.dragon"
+    },
+    {
+      "page": "Simon Strong",
+      "slug": "simon-strong",
+      "type": "character.human"
+    },
+    {
+      "page": "Sniff",
+      "slug": "sniff",
+      "type": "character.human"
+    },
+    {
+      "page": "Spotted dog",
+      "slug": "spotted-dog",
+      "type": "character.human"
+    },
+    {
+      "page": "Steely Pate",
+      "slug": "steely-pate",
+      "type": "character.human"
+    },
+    {
+      "page": "Steffon Fossoway",
+      "slug": "steffon-fossoway",
+      "type": "character.human"
+    },
+    {
+      "page": "Stone men",
+      "slug": "stone-men",
+      "type": "character.human"
+    },
+    {
+      "page": "Stranger (horse)",
+      "slug": "stranger-horse",
+      "type": "character.human"
+    },
+    {
+      "page": "Swan maidens",
+      "slug": "swan-maidens",
+      "type": "character.human"
+    },
+    {
+      "page": "Sweetfoot",
+      "slug": "sweetfoot",
+      "type": "character.human"
+    },
+    {
+      "page": "Tanselle",
+      "slug": "tanselle",
+      "type": "character.human"
+    },
+    {
+      "page": "Tarth triplets",
+      "slug": "tarth-triplets",
+      "type": "character.human"
+    },
+    {
+      "page": "Terrax",
+      "slug": "terrax",
+      "type": "character.dragon"
+    },
+    {
+      "page": "The Rat, the Hawk, and the Pig",
+      "slug": "the-rat-the-hawk-and-the-pig",
+      "type": "character.human"
+    },
+    {
+      "page": "Thomas the Threadbare",
+      "slug": "thomas-the-threadbare",
+      "type": "character.human"
+    },
+    {
+      "page": "Three-eyed crow",
+      "slug": "three-eyed-crow",
+      "type": "character.human"
+    },
+    {
+      "page": "Three Jeynes",
+      "slug": "three-jeynes",
+      "type": "character.human"
+    },
+    {
+      "page": "Three Widows",
+      "slug": "three-widows",
+      "type": "character.human"
+    },
+    {
+      "page": "Thunder",
+      "slug": "thunder",
+      "type": "character.human"
+    },
+    {
+      "page": "Thunderclap",
+      "slug": "thunderclap",
+      "type": "character.human"
+    },
+    {
+      "page": "Tom the Strummer",
+      "slug": "tom-the-strummer",
+      "type": "character.human"
+    },
+    {
+      "page": "True knight",
+      "slug": "true-knight",
+      "type": "character.human"
+    },
+    {
+      "page": "Two female puppeteers",
+      "slug": "two-female-puppeteers",
+      "type": "character.human"
+    },
+    {
+      "page": "Tyland Lannister",
+      "slug": "tyland-lannister",
+      "type": "character.human"
+    },
+    {
+      "page": "Tyrion II Lannister",
+      "slug": "tyrion-ii-lannister",
+      "type": "character.human"
+    },
+    {
+      "page": "Ulf White",
+      "slug": "ulf-white",
+      "type": "character.human"
+    },
+    {
+      "page": "Urrathon IV Goodbrother",
+      "slug": "urrathon-iv-goodbrother",
+      "type": "character.human"
+    },
+    {
+      "page": "Urreg",
+      "slug": "urreg",
+      "type": "character.human"
+    },
+    {
+      "page": "Vaggoro",
+      "slug": "vaggoro",
+      "type": "character.human"
+    },
+    {
+      "page": "Walys Mooton",
+      "slug": "walys-mooton",
+      "type": "character.human"
+    },
+    {
+      "page": "Wat (sailor)",
+      "slug": "wat-sailor",
+      "type": "character.human"
+    },
+    {
+      "page": "Winged Knight",
+      "slug": "winged-knight",
+      "type": "character.human"
+    },
+    {
+      "page": "Wrath",
+      "slug": "wrath",
+      "type": "character.human"
+    },
+    {
+      "page": "Wulfgar Hoare",
+      "slug": "wulfgar-hoare",
+      "type": "character.human"
+    },
+    {
+      "page": "Ygg",
+      "slug": "ygg",
+      "type": "character.human"
+    }
+  ]
+}

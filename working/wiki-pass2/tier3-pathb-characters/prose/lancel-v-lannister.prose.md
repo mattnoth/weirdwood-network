@@ -1,0 +1,3 @@
+## Origins
+
+When [Eustace Osgrey](wiki:Eustace_Osgrey) tells Ser [Duncan the Tall](wiki:Duncan_the_Tall) about the battle between [Wilbert Osgrey](wiki:Wilbert_Osgrey), the Little Lion, and a King of the Rock, he is unsure which King Lancel Lannister Wilbert fought against, and claims it was either [Lancel IV Lannister](wiki:Lancel_IV_Lannister) or Lancel V.(wiki:Lancel_V_Lannister.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) In truth, Wilbert had battled against Lancel IV.(wiki:Lancel_V_Lannister.cite_ref-Rtwoiafthe_westerlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

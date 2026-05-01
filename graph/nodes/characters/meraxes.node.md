@@ -1,0 +1,53 @@
+---
+name: "Meraxes"
+type: character.dragon
+slug: meraxes
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Meraxes"
+bucket_id: tier3-pathb-characters
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Meraxes is a dragon from the AWOIAF wiki.
+
+## Edges
+
+- OWNS: Rhaenys Targaryen (track_b: Owner)
+- BORN_AT: Dragonstone (track_b: Born) [114]
+- DIED_AT: Hellholt (track_b: Died) [10 AC]
+
+## Appearances & Description
+
+According to [Tyrion Lannister](wiki:Tyrion_Lannister), Meraxes was larger than [Vhagar](wiki:Vhagar) but smaller than [Balerion](wiki:Balerion),(wiki:Meraxes.cite_ref-Ragot13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) and it is said Meraxes could swallow horses whole.(wiki:Meraxes.cite_ref-Racok12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2) However, the reliability of both claims is uncertain, since Vhagar is the only dragon described by historical sources as grown almost as big as [Balerion](wiki:Balerion), and Meraxes died at least several decades younger than Vhagar.(wiki:Meraxes.cite_ref-8)
+Meraxes had [golden](wiki:Gold) eyes and silver scales.(wiki:Meraxes.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+
+## Origins
+
+Meraxes was named for a [god](wiki:Meraxes_(god)) of the [Valyrian Freehold](wiki:Valyrian_Freehold).(wiki:Meraxes.cite_ref-Racok12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3) Her [egg](wiki:Dragon_egg) hatched on [Dragonstone](wiki:Dragonstone) during the [Century of Blood](wiki:Century_of_Blood).(wiki:Meraxes.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+At some point, Meraxes was claimed by [Rhaenys Targaryen](wiki:Rhaenys_Targaryen). Rhaenys first rode Meraxes, demonstrating she was a [dragonrider](wiki:Dragonrider), some time before she married her brother, [Aegon](wiki:Aegon_I_Targaryen). Rhaenys loved to fly, spending more time on dragonback than her brother and sister combined, and was once heard to say that she meant to fly Meraxes across the [Sunset Sea](wiki:Sunset_Sea) to see what lay upon its western shores.(wiki:Meraxes.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+
+### Aegon's Conquest[ ]
+
+After Aegon [landed](wiki:Aegon's_Landing) on [Westeros](wiki:Westeros) and began his [conquest](wiki:Aegon's_Conquest), he dispatched his sisters to secure the submission of the nearest castles. [Rosby](wiki:Rosby) yielded to Rhaenys and Meraxes without a fight. Afterwards, Rhaenys and Meraxes accompanied [Orys Baratheon](wiki:Orys_Baratheon) on his mission to subdue [Argilac Durrandon](wiki:Argilac_Durrandon), the last [Storm King](wiki:Storm_King). At the Battle of the [Last Storm](wiki:Last_Storm), the wind and rain forced them to stay grounded, but even on the ground Meraxes slew many, engulfing Argilac's vanguard and the knights of his personal guard in [dragonflame](wiki:Dragonflame). Afterwards, Rhaenys flew Meraxes into the castle of [Storm's End](wiki:Storm's_End) to parley with Argilac's daughter [Argella](wiki:Argella_Durrandon).(wiki:Meraxes.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+After the stormlanders submitted, Rhaenys flew Meraxes to [Stoney Sept](wiki:Stoney_Sept), to link up with her siblings, their dragons, and Aegon's army. They advanced south, where all three dragons took part in the decisive [Field of Fire](wiki:Field_of_Fire) – the only battle in which all three of the Targaryen dragons took to the sky at the same time during Aegon's Conquest. Together, Meraxes, [Vhagar](wiki:Vhagar), and [Balerion](wiki:Balerion) killed four thousand men, burning them alive. King [Mern IX Gardener](wiki:Mern_IX_Gardener) died, and with him [House Gardener](wiki:House_Gardener). The army was broken, and House Targaryen was victorious.(wiki:Meraxes.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)(wiki:Meraxes.cite_ref-Ragot13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
+Rhaenys next flew Meraxes to the [Trident](wiki:Trident) in the [riverlands](wiki:Riverlands), where she met with her brother and sister and their dragons, to face [King in the North](wiki:King_in_the_North) [Torrhen Stark](wiki:Torrhen_Stark). [Brandon Snow](wiki:Brandon_Snow), the [bastard](wiki:Bastard) brother of Torrhen, offered to sneak into the Targaryen camp at night to slay the dragons, but the northern king refused the attempt, and instead sent his brother as an envoy, eventually bending the knee to the Targaryens.(wiki:Meraxes.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
+Afterwards, Rhaenys flew Meraxes to [Dorne](wiki:Dorne), to demand their submission. She did not find an easy conquest, as every castle she encountered was empty and abandoned, with only women and children and old men left in the towns and villages. Finally, she and Meraxes arrived in [Sunspear](wiki:Sunspear), where only the eighty-year-old [Meria Martell](wiki:Meria_Martell), [Princess of Dorne](wiki:Princess_of_Dorne), remained. Meria told Rhaenys to inform Aegon that Dorne would neither fight nor kneel, and would have no king. Rhaenys warned Meria that the Targaryens would return, and departed Sunspear, leaving Dorne the only unconquered kingdom.(wiki:Meraxes.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7)
+
+### The First Dornish War[ ]
+
+The [First Dornish War](wiki:First_Dornish_War) began in [4 AC](wiki:4_AC), when Aegon decided to conquer the kingdom at last. Queen Rhaenys led the first assault on Dorne, seizing Dornish seats as she approached Sunspear, and burning the [Planky Town](wiki:Planky_Town) on Meraxes. In [10 AC](wiki:10_AC) at [Hellholt](wiki:Hellholt), an iron bolt from a [scorpion](wiki:Scorpion_(weapon)) went through Meraxes's eye, and the dragon and Rhaenys fell from the sky. In Meraxes's death throes, she destroyed the castle's highest tower and part of the curtain wall. It is not certain whether Rhaenys outlived Meraxes. There are those who say that Rhaenys lost her seat and fell to her death, while others claim that she was crushed to death beneath Meraxes in the castle yard.(wiki:Meraxes.cite_ref-Rtwoiafdorne:_dorne_against_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+
+### Legacy[ ]
+
+Following the deaths of Rhaenys and Meraxes, Visenya and Aegon burned every Dornish stronghold at least once (except [Sunspear](wiki:Sunspear) and its [shadow city](wiki:Shadow_city)), during a two-year period known as the [Dragon's Wroth](wiki:Dragon's_Wroth). Meraxes's skull was later returned to Aegon by a peace delegation.(wiki:Meraxes.cite_ref-Rtwoiafdorne:_dorne_against_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2) Decades later, the remaining bones were still left in the open field at Hellholt.(wiki:Meraxes.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
+Along with eighteen(wiki:Meraxes.cite_ref-Ragot13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2) other Targaryen [dragon skulls](wiki:Dragon_skulls_(Targaryen)), Meraxes's skull hung on a wall in the [Red Keep](wiki:Red_Keep)'s throne room.(wiki:Meraxes.cite_ref-Ragot3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)(wiki:Meraxes.cite_ref-Ragot12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0) After [Robert's Rebellion](wiki:Robert's_Rebellion), King [Robert I Baratheon](wiki:Robert_I_Baratheon) had the skulls removed from the throne room, and stored them in a dank cellar. In [284 AC](wiki:284_AC), when [Tyrion Lannister](wiki:Tyrion_Lannister) visited the capital for the wedding of his sister [Cersei](wiki:Cersei_Lannister) to Robert, he observed the skulls in the cellar, including Meraxes's.(wiki:Meraxes.cite_ref-Ragot13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-3) In [298 AC](wiki:298_AC), [Arya Stark](wiki:Arya_Stark) encountered the dragon skulls while passing through the Red Keep cellars.(wiki:Meraxes.cite_ref-Ragot32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0)(wiki:Meraxes.cite_ref-Ragot50.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0)
+In [299 AC](wiki:299_AC), [Daenerys Targaryen](wiki:Daenerys_Targaryen) had the three [ships](wiki:Ships) sent to her by [Illyrio Mopatis](wiki:Illyrio_Mopatis) renamed [Vhagar](wiki:Vhagar_(ship)), [Meraxes](wiki:Meraxes_(ship)), and [Balerion](wiki:Balerion_(ship)), to tell the world that the [dragons](wiki:Dragons) had returned.(wiki:Meraxes.cite_ref-Racok63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0)
+
+## Quotes
+
+Aegon’s dragons were named for the gods of Old Valyria. Visenya’s dragon was Vhagar, Rhaenys had Meraxes, and Aegon rode Balerion, the Black Dread. It was said that […] Meraxes swallowed horses whole.(wiki:Meraxes.cite_ref-Racok12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)

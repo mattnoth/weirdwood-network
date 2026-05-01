@@ -1,0 +1,33 @@
+---
+name: "Lord Darry (Dance)"
+type: character.human
+slug: lord-darry-dance
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Lord_Darry_(Dance)"
+bucket_id: tier3-pathb-characters
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Lord Darry (Dance) is a character from the AWOIAF wiki.
+
+## Edges
+
+- HOLDS_TITLE: Lord of Darry (track_b: Title)
+- SWORN_TO: House Darry (track_b: Allegiances)
+- SWORN_TO: Blacks (track_b: Allegiances)
+- CULTURE_OF: Rivermen (track_b: Culture)
+- DIED_AT: Darry (track_b: Died) [130 AC]
+- PARENT_OF: One son (track_b: Issue)
+- PARENT_OF: Other children (track_b: Issue)
+
+## Origins
+
+At the start of the [Dance of the Dragons](wiki:Dance_of_the_Dragons), Lord Darry declared for Princess [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen) and supported the [blacks](wiki:Blacks). Lord Darry was part of the host led by Rhaenyra's consort, Prince [Daemon Targaryen](wiki:Daemon_Targaryen), who [took Stone Hedge](wiki:Taking_of_Stone_Hedge).(wiki:Lord_Darry_(Dance).cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
+Later on, Lord Darry alongside Lord [Roote](wiki:House_Roote) and Ser [Oswald Wode](wiki:Oswald_Wode) lost a short battle against the [vanguard](wiki:Vanguard) of Ser [Criston Cole](wiki:Criston_Cole)'s host on the lakeshore of the [God's Eye](wiki:God's_Eye). This was meant as a feint to lure them closer to [Harrenhal](wiki:Harrenhal) and away from [King's Landing](wiki:King's_Landing) which gave Daemon the opportunity to [take the capital](wiki:Fall_of_King's_Landing) for the blacks.(wiki:Lord_Darry_(Dance).cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+After hearing the news, Prince [Aemond Targaryen](wiki:Aemond_Targaryen), who had escorted Cole's men on his dragon [Vhagar](wiki:Vhagar), became enraged and retaliated against the riverlords by burning their lands and castles. Aemond first hit [Castle Darry](wiki:Castle_Darry) where Lord Darry, his son and heir, and forty Darry men died [burning](wiki:Dragonflame) on the castle's battlements. Fortunately, Lady Darry and their younger children survived the attack by hiding in the castle's vaults.(wiki:Lord_Darry_(Dance).cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+[Derrick Darry](wiki:Derrick_Darry) succeeded him as [Lord of Darry](wiki:Lord_of_Darry).(wiki:Lord_Darry_(Dance).cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

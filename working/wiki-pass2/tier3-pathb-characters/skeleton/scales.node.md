@@ -1,0 +1,19 @@
+---
+name: "Scales"
+type: character.human
+slug: scales
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Scales"
+bucket_id: tier3-pathb-characters
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Scales is a character from the AWOIAF wiki.
+
+## Edges
+

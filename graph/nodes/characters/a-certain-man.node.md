@@ -1,0 +1,38 @@
+---
+name: "A certain man"
+type: character.human
+slug: a-certain-man
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/A_certain_man"
+bucket_id: tier3-pathb-characters
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+A certain man is a character from the AWOIAF wiki.
+
+## Edges
+
+- CULTURE_OF: Myrish (track_b: Culture)
+
+## Origins
+
+When Varys was an orphan boy, he was apprenticed to a traveling [folly](wiki:Mummer). The folly's master owned a fat little [cog](wiki:Watercraft), and they sailed up and down the [narrow sea](wiki:Narrow_sea) performing in all the [Free Cities](wiki:Free_Cities), and from time to time in [Oldtown](wiki:Oldtown) and [King’s Landing](wiki:King’s_Landing).(wiki:A_certain_man.cite_ref-Racok44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+One day at [Myr](wiki:Myr), a certain man came to the folly. After the performance, he made an offer for young Varys that his master found too tempting to refuse. As he was [sold](wiki:Slavery), Varys was in terror, afraid that the man meant to use him as he had heard men used small boys. However, the only part of Varys the man had need of was his manhood. The man gave Varys a potion that made him powerless to move or speak, but did nothing to dull his senses as his manhood was cut off at the stem with a long hooked [blade](wiki:Knife), then burnt in a brazier in a [bloodmagic](wiki:Bloodmagic) ritual while the sorcerer chanted. Varys saw the flames turn blue and heard a voice within them answer the man's call, but he did not understand the words they spoke.(wiki:A_certain_man.cite_ref-Racok44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+With the ritual complete, the man had no further use for Varys and tossed him out on the streets. The mummers' ship had sailed away by then, so Varys asked the man what he should do. The sorcerer replied that he supposed Varys should die. To spite him, Varys vowed to live.(wiki:A_certain_man.cite_ref-Racok44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+
+## Narrative Arc
+
+### A Clash of Kings[ ]
+
+In [King's Landing](wiki:King's_Landing), [Tyrion Lannister](wiki:Tyrion_Lannister) asks Lord [Varys](wiki:Varys), [master of whisperers](wiki:Master_of_whisperers), how he became a [eunuch](wiki:Eunuch), but Varys refuses to answer.(wiki:A_certain_man.cite_ref-Racok8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+Some months later, while Tyrion and Varys discuss the [mysterious deaths](wiki:Shadow_assassin) of King [Stannis Baratheon](wiki:Stannis_Baratheon)'s enemies, Ser [Cortnay Penrose](wiki:Cortnay_Penrose) and King [Renly Baratheon](wiki:Renly_Baratheon), Varys suggests that they were performed by [magic](wiki:Magic). Tyrion is scornful of the idea, so Varys tells the story of his gelding and the ritual, referring to his mutilator as "a certain man". Varys explains that since that day, he has hated magic and all magic practitioners, and it is for this reason he opposes Stannis.(wiki:A_certain_man.cite_ref-Racok44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+
+## Quotes
+
+Tyrion: [Dwarfs](wiki:Dwarf) are a jape of the [gods](wiki:Gods)... but men make [eunuchs](wiki:Eunuch). Who cut you, [Varys](wiki:Varys)? When and why? Who are you, truly? Varys: You are kind to ask, my lord, but my tale is long and sad, and we have [treasons](wiki:Treason) to discuss.(wiki:A_certain_man.cite_ref-Racok8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+I still dream of that night, my lord. Not of the [sorcerer](wiki:Sorcerer), nor his blade, nor even the way my manhood shriveled as it burned. I dream of the voice. The voice from the flames. Was it a [god](wiki:God), a [demon](wiki:Demon), some conjurer's trick? I could not tell you, and I know all the tricks. All I can say for a certainty is that he called it, and it answered, and since that day I have hated [magic](wiki:Magic) and all those who practice it. If Lord [Stannis](wiki:Stannis_Baratheon) is one such, I mean to see him dead.(wiki:A_certain_man.cite_ref-Racok44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)

@@ -1,0 +1,3 @@
+## Origins
+
+Before the [Andals](wiki:Andals) arrived in the [Reach](wiki:Reach), Mern showered [gold](wiki:Gold) and honors on a [woods witch](wiki:Woods_witch) who boasted she could raise armies of the [dead](wiki:Wights) to fight off the invaders.(wiki:Mern_III_Gardener.cite_ref-Rtwoiafthe_reach:_andals_in_the_reach.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

@@ -1,0 +1,3 @@
+## Origins
+
+Horgan was the great-grandson of King [Wulfgar Hoare](wiki:Wulfgar_Hoare), the Widowmaker, who had allowed the construction on [Great Wyk](wiki:Great_Wyk) of the first [sept](wiki:Sept) in the [Iron Islands](wiki:Iron_Islands). When Horgan allowed the building of a [sept](wiki:Sept) on [Old Wyk](wiki:Old_Wyk), which was once the site of the holy [kingsmoots](wiki:Kingsmoot), the priests of the [Drowned God](wiki:Drowned_God) rose in rebellion. According to Archmaester [Haereg](wiki:Haereg), Horgan responded by slaughtering these priests.(wiki:Horgan_Hoare.cite_ref-Rtwoiaf_the_iron_islands:_the_black_blood.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

@@ -1,0 +1,44 @@
+---
+name: "Tanselle"
+type: character.human
+slug: tanselle
+aliases: ["Tanselle Too-Tall", "the puppet girl"]
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Tanselle"
+bucket_id: tier3-pathb-characters
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Tanselle is a character from the AWOIAF wiki.
+
+## Edges
+
+- CULTURE_OF: Dornishmen (track_b: Culture)
+- BORN_AT: Dorne (track_b: Born)
+
+## Appearances & Description
+
+Tanselle was slim, with small breasts. She had black hair and olive skin.(wiki:Tanselle.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) She was taller than most women, only half a head shorter than [Duncan the Tall](wiki:Duncan_the_Tall)(wiki:Tanselle.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) (who was measured about a year later at 6'11").(wiki:Tanselle.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+
+## Origins
+
+### Ashford Tourney[ ]
+
+Tanselle and a group of Dornish puppeteers, including her uncle, perform puppet shows at the [Ashford Tourney](wiki:Ashford_Tourney) in [209 AC](wiki:209_AC). Tanselle's uncle had carved the puppets, and she had painted them. The shows they perform include the stories of [Florian](wiki:Florian_the_Fool) and [Jonquil](wiki:Jonquil), [Nymeria](wiki:Nymeria) and her [ten thousand ships](wiki:Ten_thousand_ships), [Symeon Star-Eyes](wiki:Symeon_Star-Eyes), and a [knight](wiki:Knight) defeating a [dragon](wiki:Dragon).(wiki:Tanselle.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+After seeing her perform several puppet shows, Ser [Duncan the Tall](wiki:Duncan_the_Tall) asks Tanselle to share a horn of ale with him, but she declines. Later he speaks with her, and discovering her skills with paint, pays her to paint his shield with his new sigil. They flirt a bit, but nothing comes of it.(wiki:Tanselle.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+The first night of the tourney, Prince [Aerion Targaryen](wiki:Aerion_Targaryen) sees the puppeteers performing the show about the dragon, and takes issue with the dragon's death, calling it [treason](wiki:Treason). Aerion has the puppets destroyed by his [men-at-arms](wiki:Man-at-arms), and begins attacking the puppeteers; but Dunk's squire [Egg](wiki:Aegon_V_Targaryen) (secretly Aerion's brother Prince [Aegon](wiki:Aegon_V_Targaryen)) had been at the show, and runs to Dunk telling him that Aerion was hurting Tanselle. Dunk arrives in time to see Aerion breaking one of Tanselle's fingers, and comes to her rescue, but is taken prisoner for striking a royal prince.(wiki:Tanselle.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+The puppeteers, including Tanselle and her uncle, leave for [Dorne](wiki:Dorne) as quickly as possible afterwards, but Tanselle leaves behind Duncan's painted shield in the care of [Steely Pate](wiki:Steely_Pate). According to Steely Pate, Tanselle's uncle feels they would be better off "well gone and well forgot", and that it would not be good for her to see Dunk die in his [trial of seven](wiki:Trial_of_seven).(wiki:Tanselle.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+
+### Reign of Aerys I[ ]
+
+Between the ending of [The Hedge Knight](wiki:The_Hedge_Knight) and the start of [The Sworn Sword](wiki:The_Sworn_Sword), Dunk and Egg travel through Dorne via the [Prince's Pass](wiki:Prince's_Pass), [Vaith](wiki:Vaith), the [Greenblood](wiki:Greenblood), and [Planky Town](wiki:Planky_Town), seeking Tanselle. They visit "a hundred" puppet shows, but by the time they leave Dorne, Dunk gives up on trying to find Tanselle or even talking about her. It is not stated unequivocally whether or not they ever found her, but Dunk thinks that he should be dreaming of her (instead of [Rohanne Webber](wiki:Rohanne_Webber)), and that they never actually touched each other or kissed, even in a chaste way.(wiki:Tanselle.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+At the wedding feast the first night of the [Whitewalls tourney](wiki:Whitewalls_tourney), Dunk wonders where Tanselle might be that night and if she ever thinks of him. He falls asleep at the table and has a pleasant dream involving Tanselle and Rohanne Webber. Later, when carrying [the bride](wiki:Lady_Frey_(wife_of_Ambrose_Butterwell)) during the [bedding](wiki:Bedding), Dunk thinks about Tanselle and wonders if he would ever find her again. When [John the Fiddler](wiki:John_the_Fiddler) tells Duncan of his [dream](wiki:Dragon_dream) of him as a [Kingsguard](wiki:Kingsguard) and asks if he would like to be one, Dunk thinks that he might find Tanselle again one day and have a wife and sons.(wiki:Tanselle.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+
+## Quotes
+
+All men are fools, and all men are [knights](wiki:Knight).(wiki:Tanselle.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+Tanselle Too-Tall was her name, but she was not too tall for me.(wiki:Tanselle.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)

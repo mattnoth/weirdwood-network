@@ -1,0 +1,73 @@
+---
+name: "Helaena Targaryen"
+type: character.human
+slug: helaena-targaryen
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Helaena_Targaryen"
+bucket_id: tier3-pathb-characters
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Helaena Targaryen is a character from the AWOIAF wiki.
+
+## Edges
+
+- HOLDS_TITLE: Princess (track_b: Titles)
+- SWORN_TO: House Targaryen (track_b: Allegiances)
+- SWORN_TO: Greens (track_b: Allegiances)
+- CULTURE_OF: Valyrian (track_b: Race)
+- CULTURE_OF: Crownlands (track_b: Culture)
+- DIED_AT: Maegor's Holdfast (track_b: Died) [130 AC]
+- DIED_AT: Red Keep (track_b: Died) [130 AC]
+- DIED_AT: King's Landing (track_b: Died) [130 AC]
+- PARENT_OF (reverse): Viserys I Targaryen (track_b: Father)
+- PARENT_OF (reverse): Alicent Hightower (track_b: Mother)
+- SPOUSE_OF: Aegon II Targaryen (track_b: Spouse)
+- PARENT_OF: Jaehaerys Targaryen (track_b: Issue)
+- PARENT_OF: Jaehaera Targaryen (track_b: Issue)
+- PARENT_OF: Maelor Targaryen (track_b: Issue)
+
+## Appearances & Description
+
+At the age of thirteen, Helaena was plumper than most [Targaryens](wiki:House_Targaryen), and less striking as well. Nonetheless, she was a pleasant and happy girl, and all agreed she would be an excellent mother.(wiki:Helaena_Targaryen.cite_ref-Rfab12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) She loved her dragon, Dreamfyre,(wiki:Helaena_Targaryen.cite_ref-Rfab16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) and according to a semi-canon source, taking to the skies on Dreamfyre was Helaena's greatest joy in life.(wiki:Helaena_Targaryen.cite_ref-GRRM_5-0) As queen, Helaena was loved by the [smallfolk](wiki:Smallfolk).(wiki:Helaena_Targaryen.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) Following the murder of her eldest son, Helaena became depressed and descended into [madness](wiki:Targaryen_madness).(wiki:Helaena_Targaryen.cite_ref-Rfab14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+
+## Origins
+
+### Early life[ ]
+
+In [109 AC](wiki:Years_after_Aegon's_Conquest), Helaena was born to King [Viserys I Targaryen](wiki:Viserys_I_Targaryen) and his second wife, Queen [Alicent Hightower](wiki:Alicent_Hightower). She had an older half-sister, Princess [Rhaenyra](wiki:Rhaenyra_Targaryen), and an older brother, Prince [Aegon](wiki:Aegon_II_Targaryen), and would have two younger brothers, Prince [Aemond](wiki:Aemond_Targaryen) and Prince [Daeron](wiki:Daeron_Targaryen_(son_of_Viserys_I)).(wiki:Helaena_Targaryen.cite_ref-Rfab12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)(wiki:Helaena_Targaryen.cite_ref-Rtwoiaf101.7B.7B.7B4.7D.7D.7D_8-0)
+By the age of eleven, Helaena had become a dragonrider, and rode the [dragon](wiki:Dragon) [Dreamfyre](wiki:Dreamfyre). In [122 AC](wiki:Years_after_Aegon's_Conquest), at the age of thirteen, Helaena was married to her older brother Prince Aegon, following the ancient tradition of [House Targaryen](wiki:House_Targaryen). Barely a year after her [wedding](wiki:Wedding), Helaena gave birth to twins: [Jaehaerys](wiki:Jaehaerys_Targaryen_(son_of_Aegon_II)) and [Jaehaera](wiki:Jaehaera_Targaryen).(wiki:Helaena_Targaryen.cite_ref-Rfab12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+On the first day of [127 AC](wiki:127_AC), Helaena's father, King Viserys I, held a feast to celebrate the recovery of his health. According to the [court fool](wiki:Court_fool) [Mushroom](wiki:Mushroom), after the king had left the feast, Helaena's nephew, Prince [Jacaerys Velaryon](wiki:Jacaerys_Velaryon), asked her for a dance, which her husband and brother, Aegon, took offense to. Later that same year, Helaena gave birth to a third child, a boy named [Maelor](wiki:Maelor_Targaryen).(wiki:Helaena_Targaryen.cite_ref-Rfab12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+On the third day of the third month of [129 AC](wiki:129_AC), Helaena brought her three children to her father's chambers, where the king, the night before his death, entertained her children with a fictional tale(wiki:Helaena_Targaryen.cite_ref-10) about their great-great-grandsire, King [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen).(wiki:Helaena_Targaryen.cite_ref-Rfab12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+
+### The Dance of the Dragons[ ]
+
+With the death of King [Viserys I Targaryen](wiki:Viserys_I_Targaryen), a [war for succession](wiki:Dance_of_the_Dragons) began. Helaena was informed of her father's passing a day after his death was discovered. When the decision was made to [crown](wiki:Crown) her husband, Prince [Aegon](wiki:Aegon_II_Targaryen), instead of Viserys's appointed heir, Princess [Rhaenyra](wiki:Rhaenyra_Targaryen), Helaena became a queen. On the day of the coronation, it was Helaena's mother [Alicent Hightower](wiki:Alicent_Hightower) who placed the crown upon Helaena's head and addressed her as "my queen".(wiki:Helaena_Targaryen.cite_ref-Rfab13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)
+Unwilling to accept Aegon as her king, Helaena's half-sister Rhaenyra was also crowned as [Queen of the Seven Kingdoms](wiki:King_of_the_Andals,_the_Rhoynar,_and_the_First_Men) on [Dragonstone](wiki:Dragonstone). While Rhaenyra declared Dowager Queen Alicent and Helaena's grandfather, Ser [Otto Hightower](wiki:Otto_Hightower), to be [traitors](wiki:Traitor), she expressed willingness to forgive Helaena and her siblings, as long as they came to Dragonstone and swore fealty to her. When [Grand Maester](wiki:Grand_Maester) [Orwyle](wiki:Orwyle) suggested traveling to Dragonstone to make Rhaenyra give up her claim, Helaena spoke in favor of his plan, together with her mother, after which King Aegon reluctantly agreed to send the Grand Maester under a peace banner.(wiki:Helaena_Targaryen.cite_ref-Rfab13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-1)
+After Prince Aemond [caused the death](wiki:Fight_above_Shipbreaker_Bay) of Rhaenyra's son, Prince [Lucerys Velaryon](wiki:Lucerys_Velaryon), her husband [Daemon Targaryen](wiki:Daemon_Targaryen) hired two men to murder one of Aegon and Helaena's sons as revenge. The [assassins](wiki:Assassin) were aware that Helaena was accustomed to bring her children to her mother's chambers in the [Tower of the Hand](wiki:Tower_of_the_Hand) every night before they were put to bed. Thus these two men, known as [Blood](wiki:Blood_(butcher)) and [Cheese](wiki:Cheese_(ratcatcher)), hid in Alicent's chambers, bound and gagged Alicent, and murdered her [bedmaid](wiki:Bedmaid). There, they awaited Helaena's arrival. After killing her guardsmen and barring the door, they took Helaena and her children hostage, and forced Helaena to choose which one of her sons would die. Helaena offered herself, but was refused. The two men forced Helaena to make a decision when they threatened to have Blood rape Jaehaera, and to kill all three of her children should she refuse to choose. In the end, Helaena reluctantly named her youngest child, Prince [Maelor](wiki:Maelor_Targaryen), who she deemed to be too young to understand what was happening. In response, the two men killed Prince [Jaehaerys](wiki:Jaehaerys_Targaryen_(son_of_Aegon_II)) instead, cutting off his head with a single swing of a sword, and fled with it while Helaena screamed.(wiki:Helaena_Targaryen.cite_ref-Rfab14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)(wiki:Helaena_Targaryen.cite_ref-Rtwoiaf46.7B.7B.7B4.7D.7D.7D_12-0)
+After Jaehaerys's death, Helaena became deeply depressed and slowly sank into madness, and refused to eat, bathe, or leave her chambers. Nor would she look at her younger son, Maelor, knowing that she had chosen him to die.(wiki:Helaena_Targaryen.cite_ref-Rfab14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2) Aegon and Helaena slept apart from one another from then on, and after Aegon was severely injured at the [Battle at Rook's Rest](wiki:Battle_at_Rook's_Rest), Helaena did not even make an attempt to visit him. She became unreliable as a [dragonrider](wiki:Dragonrider), incapable of flying into battle. When [King's Landing fell](wiki:Fall_of_King's_Landing) to Rhaenyra in early [130 AC](wiki:130_AC), Helaena was taken captive.(wiki:Helaena_Targaryen.cite_ref-Rfab15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0)
+After the death of Helaena's son [Maelor Targaryen](wiki:Maelor_Targaryen) at [Bitterbridge](wiki:Bitterbridge), his head was sent to Queen Rhaenyra in King's Landing. [Mushroom](wiki:Mushroom) says that Rhaenyra cried when presented with Maelor's head, whereas [Septon](wiki:Septon) [Eustace](wiki:Eustace_(Dance_of_the_Dragons)) says she smiled, and ordered that the head be cremated per [Targaryen funeral customs](wiki:House_Targaryen). However, false rumors spread through King's Landing that Rhaenyra had Maelor's head delivered to Queen Helaena in a chamberpot.(wiki:Helaena_Targaryen.cite_ref-Rfab16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
+Several days after the [Battle Above the Gods Eye](wiki:Battle_Above_the_Gods_Eye), Helaena jumped from the window of her room in [Maegor's Holdfast](wiki:Maegor's_Holdfast). She died immediately on the spikes below, with her throat impaled, only twenty-one years old. At the moment of Helaena's death, her dragon Dreamfyre suddenly rose and snapped two of her chains, and roared loud enough to shake the [Dragonpit](wiki:Dragonpit). When Dowager Queen Alicent was informed of her daughter's death, she tore her clothes and cursed Rhaenyra.(wiki:Helaena_Targaryen.cite_ref-Rfab17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0)(wiki:Helaena_Targaryen.cite_ref-16)
+The reasons Helaena committed suicide, after half a year of captivity, remain the subject of speculation. [Court fool](wiki:Court_fool) Mushroom asserted that Helaena had been impregnated after being sold into [prostitution](wiki:Prostitution) by Rhaenyra and [Mysaria](wiki:Mysaria), but Archmaester [Gyldayn](wiki:Gyldayn) dismisses the tale of the "[Brothel Queens](wiki:Brothel_Queens)". Grand Maester [Munkun](wiki:Munkun) proposes that Helaena was driven to the act by the horror of seeing Ser [Thoron True](wiki:Thoron_True) and Ser [Denys Woodwright](wiki:Denys_Woodwright) hanged from the walls of the [Red Keep](wiki:Red_Keep) that same day, but Gyldayn also dismisses this notion as there is no evidence she witnessed the hanging, and knew the two men as gaolers at best. For his part, Septon Eustace suggests that Lady Mysaria had chosen that night to tell Helaena of the death of her son Maelor and the manner it had happened, but Gyldayn does not understand what motive Mysaria would have had for doing so.(wiki:Helaena_Targaryen.cite_ref-Rfab17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-2)(wiki:Helaena_Targaryen.cite_ref-18)
+By the nightfall of Helaena's death, rumors were flying in King's Landing that she had been murdered. It was believed it had been done by Ser [Luthor Largent](wiki:Luthor_Largent) of the [gold cloaks](wiki:Gold_cloaks), at the behest of Rhaenyra,(wiki:Helaena_Targaryen.cite_ref-Rfab17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-3)(wiki:Helaena_Targaryen.cite_ref-Rtwoiaf46.7B.7B.7B4.7D.7D.7D_12-2) for Prince Daeron would soon be at the gates of the city with his dragons. Munkun proposes these calumnies were begotten by the [Shepherd](wiki:Shepherd), who decried both crime and the queen. Mushroom, for his part, indicates this slander was concocted by Lord [Larys Strong](wiki:Larys_Strong), former [master of whisperers](wiki:Master_of_whisperers), who had never left the capital. That same night, [King's Landing rose in a riot](wiki:Riot_of_King's_Landing_(Dance_of_the_Dragons)), with men and women of the [common folk](wiki:Smallfolk) shouting for justice for the beloved Helaena and her dead sons. Helaena's dragon, Dreamfyre, was slain when the smallfolk [stormed the Dragonpit](wiki:Storming_of_the_Dragonpit).(wiki:Helaena_Targaryen.cite_ref-Rfab17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-4)
+
+### Legacy[ ]
+
+In [131 AC](wiki:131_AC), Helaena's daughter, Jaehaera, was married to Rhaenyra's son, King [Aegon III Targaryen](wiki:Aegon_III_Targaryen), as part of the peace agreement between the blacks and the greens.(wiki:Helaena_Targaryen.cite_ref-Rfab18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-0)
+When Dowager Queen Alicent Hightower was dying of the [Winter Fever](wiki:Winter_Fever) in [133 AC](wiki:133_AC), she spoke of hoping to see her sons and Helaena again.(wiki:Helaena_Targaryen.cite_ref-Rfab20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-0)
+Later in [133 AC](wiki:133_AC), Queen Jaehaera reportedly threw herself from her window in Maegor's Holdfast, and died on the spikes of the dry moat below. Her death ended the line of King Aegon II and Queen Helaena, as well as the line of King Viserys I Targaryen and Queen Alicent Hightower. Jaehaera's death was officially deemed a suicide, akin to Helaena's, but many suspected that she had been murdered.(wiki:Helaena_Targaryen.cite_ref-Rfab21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-0)
+
+## Quotes
+
+[Daemon](wiki:Daemon_Targaryen) will find some pretext to put them all to death. Even Helaena and her little ones.(wiki:Helaena_Targaryen.cite_ref-Rfab13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-2)
+[He](wiki:Aegon_II_Targaryen) is not in my bed, you may be sure. Feel free to search beneath the blankets.(wiki:Helaena_Targaryen.cite_ref-Rfab13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-3)
+As for my half-brothers and my sweet sister, Helaena, they have been led astray by the counsel of [evil men](wiki:Green_council). Let them come to [Dragonstone](wiki:Dragonstone), [bend the knee](wiki:Kneeler), and ask my forgiveness, and I shall gladly spare their lives and take them back into my heart, for they are of my own blood, and no man or woman is as accursed as the [kinslayer](wiki:Kinslayer).(wiki:Helaena_Targaryen.cite_ref-Rfab13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-4)
+You hear that, little boy? Your momma wants you dead.(wiki:Helaena_Targaryen.cite_ref-Rfab14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-3)
+Though [Blood and Cheese](wiki:Blood_and_Cheese) had spared her life, Queen Helaena cannot be said to have survived that fateful dusk.(wiki:Helaena_Targaryen.cite_ref-Rfab14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-4)
+[This unnatural queen](wiki:Rhaenyra_Targaryen) who sits bleeding on the [Iron Throne](wiki:Iron_Throne), her [whore](wiki:Whore)'s lips glistening and red with the blood of her sweet sister.(wiki:Helaena_Targaryen.cite_ref-Rfab17.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-5)
+I want to see my sons again, and Helaena, my sweet girl...(wiki:Helaena_Targaryen.cite_ref-Rfab20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-1)

@@ -1,0 +1,40 @@
+---
+name: "Lady Caswell"
+type: character.human
+slug: lady-caswell
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Lady_Caswell"
+bucket_id: tier3-pathb-characters
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Lady Caswell is a character from the AWOIAF wiki.
+
+## Edges
+
+- HOLDS_TITLE: Bitterbridge (track_b: Titles)
+- SWORN_TO: House Caswell (track_b: Allegiances)
+- SWORN_TO: Blacks (track_b: Allegiances)
+- CULTURE_OF: Reach (track_b: Culture)
+- DIED_AT: Bitterbridge (track_b: Died) [130 AC]
+- SPOUSE_OF: Lord Caswell (track_b: Spouse)
+- PARENT_OF: Sons (track_b: Issue)
+- PARENT_OF: Daughter (track_b: Issue)
+
+## Origins
+
+After the execution of her [husband](wiki:Lord_Caswell_(Dance)),(wiki:Lady_Caswell.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) Lady Caswell ruled Bitterbridge in the name of her young son.(wiki:Lady_Caswell.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+Lady Caswell had the gates of her castle barred and refused hospitality to anyone, [knight](wiki:Knight) or [lord](wiki:Lord), who was not from her own house. One evening, a riot broke out on the stone bridge of the city. Lady Caswell sent her knights to disperse the mob, who discovered that the origin of the troubles was none other than the presence of Prince [Maelor Targaryen](wiki:Maelor_Targaryen), son of King [Aegon II Targaryen](wiki:Aegon_II_Targaryen), and his [sworn shield](wiki:Sworn_shield), Ser [Rickard Thorne](wiki:Rickard_Thorne) of the [Kingsguard](wiki:Kingsguard), at an inn named the [Hogs Head](wiki:Hogs_Head). Both having been massacred by the mob, she would have exclaimed, according to [Mushroom](wiki:Mushroom)'s [Testimony](wiki:The_Testimony_of_Mushroom), that the curse of [the Seven](wiki:Faith_of_the_Seven) was going to pursue them all because of this crime. She therefore ordered the hangings of three of people implicated in the death of the prince: the stable boy [Sly](wiki:Sly_(stableboy)), the [washerwoman](wiki:Washerwoman) [Willow Pound-Stone](wiki:Willow_Pound-Stone) and the owner of the horse on which Ser Rickard Thorne had tried to flee. Lady Caswell sent Maelor's head and Rickard's body to Queen [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen) at [King's Landing](wiki:King's_Landing). Maelor's [dragon egg](wiki:Dragon_egg) was sent to Lord [Ormund Hightower](wiki:Ormund_Hightower), a supporter of Aegon II, who at that time [was besieging](wiki:Siege_of_Longtable) [Lady Merryweather](wiki:Lady_Merryweather) at [Longtable](wiki:Longtable) thirty leagues away. Lady Caswell hoped that this diplomatic gesture would appease the fury of Lord Ormund.(wiki:Lady_Caswell.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
+Lord Ormund and his army soon arrived at Bitterbridge. Lady Caswell offered to capitulate in exchange for a safe conduct for her and her family, but Prince [Daeron Targaryen](wiki:Daeron_Targaryen_(son_of_Viserys_I)), still furious after the death of his nephew, did not intend to grant any mercy to the murderers. Bitterbridge was [sacked and burned](wiki:Sack_of_Bitterbridge), while the population was executed or pushed into the [Mander](wiki:Mander) to drown. After observing the spectacle from the ramparts of her castle, Lady Caswell ordered the gates of the castle opened, knowing that no wall would protect her family from the [dragonfire](wiki:Dragonfire) of Daeron's [dragon](wiki:Dragon), [Tessarion](wiki:Tessarion). When Lord Ormund rode up, he saw Lady Caswell standing on the roof of the gatehouse with a noose around her neck. She begged him to spare her children, and threw herself from the ramparts, hanging herself.(wiki:Lady_Caswell.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
+Lord Ormund captured Lady Caswell's sons and daughter. He obliged to her last wish and sent them to [Oldtown](wiki:Oldtown) as hostages. The garrison of Bitterbridge was not so fortunate, however. They were all put to the sword.(wiki:Lady_Caswell.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
+
+## Quotes
+
+You shall receive the same terms you gave my nephew [Maelor](wiki:Maelor_Targaryen).(wiki:Lady_Caswell.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-11)
+No castle can be held against a [dragon](wiki:Tessarion).(wiki:Lady_Caswell.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-12)
+Have mercy on my children, [lord](wiki:Ormund_Hightower).(wiki:Lady_Caswell.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-13)

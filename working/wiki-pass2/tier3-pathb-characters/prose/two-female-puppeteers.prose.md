@@ -1,0 +1,11 @@
+## Narrative Arc
+
+### A Feast for Crows[ ]
+
+In Queen Regent [Cersei Lannister](wiki:Cersei_Lannister)'s [solar](wiki:Solar), her [Master of Whisperers](wiki:Master_of_Whisperers) [Qyburn](wiki:Qyburn) informs her of a puppet show that has recently become popular amongst the [King's Landing](wiki:King's_Landing) [smallfolk](wiki:Smallfolk). In the show, [the kingdom of the beasts](wiki:Westeros) is ruled by [a pride of haughty lions](wiki:House_Lannister). The puppet lions grow greedy and arrogant, and begin to devour their own subjects. When the [noble stag](wiki:Robert_Baratheon) objects, they devour him too, and roar that it is their right as the [mightiest of beasts](wiki:Lion). At the end, a [dragon](wiki:House_Targaryen) hatches from an egg and devours all of the lions.(wiki:Two_female_puppeteers.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+Cersei thinks to herself that the ending takes the show from simple insolence to treason. She tells [Qyburn](wiki:Qyburn) that any men of substance in the audience are to be fined half their worth, and those too poor to pay are to lose an eye for watching treason. Cersei also orders that the four puppeteers shall be executed. Qyburn asks her if he can have two puppeteers for his own purposes, and would prefer a woman. Cersei asks him about [Senelle](wiki:Senelle), who she had given him for his experiments in the [black cells](wiki:Black_cells), but he tells her that Senelle is now "exhausted". Cersei permits him to take two women puppeteers.(wiki:Two_female_puppeteers.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+When Lady [Falyse Stokeworth](wiki:Falyse_Stokeworth) comes to Cersei for help after their plan to murder [Bronn](wiki:Bronn) ended with the death of her husband [Balman Byrch](wiki:Balman_Byrch) instead, Cersei decides to discreetly rid herself of Falyse by handing her over to Qyburn. When Cersei asks if him he still needs women for his work, he tells her yes, as he has "used up" the puppeteers.(wiki:Two_female_puppeteers.cite_ref-Raffc32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+
+## Quotes
+
+The puppeteers are quite used up.(wiki:Two_female_puppeteers.cite_ref-Raffc32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)

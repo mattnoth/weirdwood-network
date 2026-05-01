@@ -1,0 +1,27 @@
+---
+name: "Rain"
+type: character.human
+slug: rain
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Rain"
+bucket_id: tier3-pathb-characters
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Rain is a character from the AWOIAF wiki.
+
+## Edges
+
+- OWNS: Rohanne Webber (track_b: Owners)
+- OWNS: Duncan the Tall (track_b: Owners)
+
+## Origins
+
+In [211 AC](wiki:211_AC), after Ser Duncan the Tall did a service for Lady Rohanne Webber, she intended to pay him back with a gift of a horse. Although Dunk rejected her gift of [Flame](wiki:Flame), he discovered that his squire, Egg, was riding a new handsome palfrey.(wiki:Rain.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) Egg named the horse Rain,(wiki:Rain.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2) likely for the rains that had just ended the [two-year summer drought](wiki:Westeros).(wiki:Rain.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+In [212 AC](wiki:212_AC), when Duncan lost a [tilt](wiki:Joust) at the [Whitewalls tourney](wiki:Whitewalls_tourney) to Ser [Uthor Underleaf](wiki:Uthor_Underleaf), and could not afford to pay the ransom for his [horse](wiki:Thunder_(horse)) and armor, Egg suggested that Dunk could ride Rain, and he would go back to riding [Maester](wiki:Maester_(mule)) the [mule](wiki:Mule). However, Dunk rejected the idea, as that would mean returning in shame to Egg (actually Prince [Aegon Targaryen](wiki:Aegon_V_Targaryen))'s father Prince [Maekar](wiki:Maekar_Targaryen) at [Summerhall](wiki:Summerhall).(wiki:Rain.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+After Dunk discovered that the tourney was secretly a rendezvous of those fomenting the [second Blackfyre Rebellion](wiki:Second_Blackfyre_Rebellion), he told Egg to go with Lord [Ambrose Butterwell](wiki:Ambrose_Butterwell), but to give Rain his head and get away to [Maidenpool](wiki:Maidenpool) before Butterwell switched sides again.(wiki:Rain.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)

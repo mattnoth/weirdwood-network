@@ -1,0 +1,64 @@
+---
+name: "Shagwell"
+type: character.human
+slug: shagwell
+aliases: ["Shagwell the Fool", "Shags"]
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Shagwell"
+bucket_id: tier3-pathb-characters
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Shagwell is a character from the AWOIAF wiki.
+
+## Edges
+
+- SWORN_TO: Brave Companions (track_b: Allegiance)
+- BORN_AT: Westeros (track_b: Born)
+- DIED_AT: Whispers (track_b: Died) [300 AC]
+
+## Appearances & Description
+
+Shagwell is a wispy [fool](wiki:Fool)(wiki:Shagwell.cite_ref-Racok30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) whose laugh is high and shrill(wiki:Shagwell.cite_ref-Rasos31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) and braying.(wiki:Shagwell.cite_ref-Raffc20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+The [sellsword](wiki:Sellsword) is a rapist(wiki:Shagwell.cite_ref-Rasos31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)(wiki:Shagwell.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) who tells cruel jokes(wiki:Shagwell.cite_ref-Rasos31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)(wiki:Shagwell.cite_ref-Raffc20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3) and is said to be half-mad.(wiki:Shagwell.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3) Ser [Jaime Lannister](wiki:Jaime_Lannister) considers Shagwell one of the worst members of the [Brave Companions](wiki:Brave_Companions).(wiki:Shagwell.cite_ref-Rasos31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+Shagwell wears green-and-pink(wiki:Shagwell.cite_ref-Racok30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)(wiki:Shagwell.cite_ref-Rasos21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) or grey-and-pink(wiki:Shagwell.cite_ref-Rasos31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4)(wiki:Shagwell.cite_ref-Raffc20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4) motley. He is nimble(wiki:Shagwell.cite_ref-Rasos31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-5) and fights with a triple morningstar, three spiked balls chained to a wooden haft.(wiki:Shagwell.cite_ref-Raffc20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
+
+## Origins
+
+There are rumors said that Shagwell once killed a man for not laughing at one of his japes.(wiki:Shagwell.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+
+## Narrative Arc
+
+### A Clash of Kings[ ]
+
+Shagwell is among the [Brave Companions](wiki:Brave_Companions) who arrive at [Harrenhal](wiki:Harrenhal) under the employ of Lord [Tywin Lannister](wiki:Tywin_Lannister).(wiki:Shagwell.cite_ref-Racok30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+After the [fall of Harrenhal](wiki:Fall_of_Harrenhal), Shagwell hacks off the heads of two dead [knights](wiki:Knights) from Ser [Amory Lorch](wiki:Amory_Lorch)'s garrison and prances through the castle, swinging the heads by the hair and mockingly making them talk of the cause of their deaths. Shagwell spreads the story of the 'weasel soup' and [Arya Stark](wiki:Arya_Stark)'s involvement in the castle's fall, which prompts Arya to consider adding him to her [prayer kill list](wiki:Arya_Stark), but her fear of Shagwell negates this thought.(wiki:Shagwell.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5) When Lord [Roose Bolton](wiki:Roose_Bolton) arrives at Harrenhal, Shagwell introduces Arya to him as the 'weasel who made the soup'. Shagwell kicks the captive Amory into the bear pit that evening.(wiki:Shagwell.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+
+### A Storm of Swords[ ]
+
+[Urswyck](wiki:Urswyck) captures Ser [Jaime Lannister](wiki:Jaime_Lannister) and [Brienne of Tarth](wiki:Brienne_of_Tarth) near [Maidenpool](wiki:Maidenpool) and brings them to [Vargo Hoat](wiki:Vargo_Hoat), the leader of the Brave Companions. Shagwell kicks out Jaime's legs and jumps on the knight's back, allowing [Zollo](wiki:Zollo) to then chop off Jaime's sword hand.(wiki:Shagwell.cite_ref-Rasos21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
+On the way to [Harrenhal](wiki:Harrenhal), Jaime grabs [Timeon](wiki:Timeon)'s sword one morning and tries to escape. Shagwell dodges all of the knight's swings, however, and kisses Jaime's head after he trips.(wiki:Shagwell.cite_ref-Rasos31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-6) Shagwell, Zollo, and [Rorge](wiki:Rorge) attempt to rape Brienne one night, but Jaime thwarts them by claiming she can be ransomed for [sapphires](wiki:Sapphire) from her father, Lord [Selwyn Tarth](wiki:Selwyn_Tarth).(wiki:Shagwell.cite_ref-Rasos31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-7) Shagwell suggests that Jaime be thrown into Harrenhal's bear pit, but Vargo and Roose refuse.(wiki:Shagwell.cite_ref-Raffc31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0) Shagwell is among the Companions mocked by Jaime after the knight is released from Harrenhal by Roose.(wiki:Shagwell.cite_ref-Rasos44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
+
+### A Feast for Crows[ ]
+
+The Brave Companions scatter with the [capture of Harrenhal](wiki:Capture_of_Harrenhal) by Ser [Gregor Clegane](wiki:Gregor_Clegane). Jaime hopes to find [Pyg](wiki:Pyg) and Shagwell in Harrenhal's dungeon when he returns to the castle, but they have already departed.(wiki:Shagwell.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0) Pyg, Timeon, and Shagwell torture an outlaw from the [brotherhood without banners](wiki:Brotherhood_without_banners) and learn that [Sandor Clegane](wiki:Sandor_Clegane) was with [Arya Stark](wiki:Arya_Stark), and they later hear a similar story from the innkeep at the [crossroads inn](wiki:Crossroads_inn).(wiki:Shagwell.cite_ref-Raffc20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
+The sellswords go to Maidenpool to find passage across the [narrow sea](wiki:Narrow_sea) to [Essos](wiki:Essos). The docks are guarded by Lord [Randyll Tarly](wiki:Randyll_Tarly)'s men, so the fool instead entertains at the [Stinking Goose](wiki:Stinking_Goose) and buys drinks for sailors, hoping that the three outlaws can be smuggled from [Westeros](wiki:Westeros) on a ship.(wiki:Shagwell.cite_ref-Raffc9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)(wiki:Shagwell.cite_ref-Raffc14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0) [Dick Crabb](wiki:Dick_Crabb) cons Shagwell into buying a map to the [Whispers](wiki:Whispers), which he says is a popular smugglers' cove, but Dick omits that ships have not been there for thirty years.(wiki:Shagwell.cite_ref-Raffc14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-1) The sellswords camp in the ruins after they arrive.(wiki:Shagwell.cite_ref-Raffc20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7)
+Brienne has been tasked by Jaime with finding [Sansa Stark](wiki:Sansa_Stark), who has gone missing after [the death](wiki:Purple_Wedding) of King [Joffrey I Baratheon](wiki:Joffrey_Baratheon). Sansa is believed to be in the company of [Dontos Hollard](wiki:Dontos_Hollard), another fool.(wiki:Shagwell.cite_ref-Raffc4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0) Brienne learns of Dick boasting of having "fooled a fool",(wiki:Shagwell.cite_ref-Raffc9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-1) and Dick later agrees to escort Brienne to the Whispers so she can find the fool in question.(wiki:Shagwell.cite_ref-Raffc14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-2)
+When Brienne, Dick, and [Podrick Payne](wiki:Podrick_Payne) arrive at the Whispers, Shagwell jumps down from a [weirwood](wiki:Weirwood) and breaks Dick's knee with his morningstar. Dick begs for mercy, but Shagwell crushes his face. Shagwell and Timeon begin talking to Brienne in an attempt to distract her while they surround her. While Brienne kills Timeon and Pyg, Podrick throws stones at Shagwell until he yields. Brienne makes him dig a grave for Dick beneath the weirwood. After he finishes digging, Shagwell lunges at Brienne with a rock, but she stabs him to death with a dagger while telling him to laugh. Brienne brings the heads of the three sellswords to Maidenpool and leaves their bodies for [crows](wiki:Crow).(wiki:Shagwell.cite_ref-Raffc20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)(wiki:Shagwell.cite_ref-Raffc25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0)
+Brienne later has nightmares involving Pyg, Timeon, and Shagwell.(wiki:Shagwell.cite_ref-Raffc25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-1)(wiki:Shagwell.cite_ref-Raffc42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0)
+
+## Quotes
+
+Shagwell: A riddle! If Lord [Bolton's](wiki:Roose_Bolton) goat eats the men who fed Lord [Lannister's](wiki:Tywin_Lannister) goat, how many goats are there?"
+Arya: [One](wiki:Vargo_Hoat).
+The lovers, and what a lovely sight they are. 'Twould be cruel to separate the good [knight](wiki:Knight) and his lady. Ah, but which one is the knight and which one is the lady?(wiki:Shagwell.cite_ref-Rasos31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-8)
+Shagwell: You mustn't hurt sweet Shagwell, I'm too droll to die.
+Brienne: You are no better than [the rest of them](wiki:Brave_Companions). You have robbed and raped and murdered. Shagwell: Oh, I have, I have, I shan't deny it... but I'm amusing, with all my japes and capers. I make men laugh. Brienne: And women weep.
+
+## Quotes
+
+He better shut his mouth or I'll put him on [my list](wiki:Arya_Stark) with the rest.(wiki:Shagwell.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)

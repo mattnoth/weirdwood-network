@@ -1,0 +1,70 @@
+---
+name: "Harren Hoare"
+type: character.human
+slug: harren-hoare
+aliases: ["Black Harren", "Harren the Black"]
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Harren_Hoare"
+bucket_id: tier3-pathb-characters
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Harren Hoare is a character from the AWOIAF wiki.
+
+## Edges
+
+- HOLDS_TITLE: King of the Isles and the Rivers (track_b: Title)
+- SUCCEEDS (reverse): Halleck Hoare (track_b: Predecessor)
+- SUCCEEDS: None (track_b: Successor)
+- DIED_AT: Harrenhal (track_b: Died) [2]
+- PARENT_OF: At least four sons (track_b: Issue)
+- PARENT_OF (reverse): Halleck Hoare (track_b: Father)
+
+## Appearances & Description
+
+At the time of [Aegon's Conquest](wiki:Aegon's_Conquest), Harren was an old, grey man who wore black armor.(wiki:Harren_Hoare.cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+A proud man,(wiki:Harren_Hoare.cite_ref-Racok7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) Black Harren's cruelty was famous throughout the [Seven Kingdoms](wiki:Seven_Kingdoms).(wiki:Harren_Hoare.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) He is remembered in children's stories as evil.(wiki:Harren_Hoare.cite_ref-Racok14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
+
+## Origins
+
+### Harrenhal[ ]
+
+Harren was born to [House Hoare](wiki:House_Hoare), the ruling house of the [Iron Islands](wiki:Iron_Islands). He was the grandson of King [Harwyn Hardhand](wiki:Harwyn_Hoare), who extended the [ironborn](wiki:Ironborn) rule over the [riverlands](wiki:Riverlands) from the [Neck](wiki:Neck) to the [Blackwater Rush](wiki:Blackwater_Rush), and the son of King [Halleck Hoare](wiki:Halleck_Hoare). [Harren's brother](wiki:Lord_Commander_Hoare) rose to become [Lord Commander of the Night's Watch](wiki:Lord_Commander_of_the_Night's_Watch).(wiki:Harren_Hoare.cite_ref-Ragot60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+During his reign, Harren was a vain, bloody tyrant hated by those he ruled. While Halleck ruled from a modest tower house at [Fairmarket](wiki:Fairmarket),(wiki:Harren_Hoare.cite_ref-Rtwoiafthe_iron_islands:_the_black_blood.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) Harren desired a grander seat, and he commanded the construction of the grand castle [Harrenhal](wiki:Harrenhal), a project that took almost forty years to complete. The riverlands and Iron Islands were drained to finance the building, with thousands of captives dying in the quarries, chained to sledges, or laboring on the towering walls and five huge towers of Harrenhal. [Weirwoods](wiki:Weirwood) were cut to provide rafters and beams.(wiki:Harren_Hoare.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)(wiki:Harren_Hoare.cite_ref-Racok7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+
+### Aegon's Conquest[ ]
+
+Harren had finally completed his grand castle of Harrenhal, when [Aegon Targaryen](wiki:Aegon_I_Targaryen), [Lord of Dragonstone](wiki:Lord_of_Dragonstone), landed in Westeros and began [the Conquest](wiki:Aegon's_Conquest). Aegon was victorious over Harren's men in the [Battle of the Reeds](wiki:Battle_of_the_Reeds), but two of Harren's sons were victorious at the [Wailing Willows](wiki:Wailing_Willows). While they were returning to Harrenhal across the [Gods Eye](wiki:Gods_Eye), however, the sons were killed by Aegon's [dragon](wiki:Dragon), [Balerion](wiki:Balerion).(wiki:Harren_Hoare.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2) Harren's tyrannical rule over the riverlands earned him little love from his lords. As Aegon advanced many of the river lords, led by Lord [Edmyn Tully](wiki:Edmyn_Tully), revolted against Harren to support the Targaryen invader and joined the conqueror's host.(wiki:Harren_Hoare.cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
+Harren took refuge in the well-stocked Harrenhal, the largest castle of Westeros, and the king rejected Aegon's offer of retaining Harrenhal in return for becoming Aegon's vassal. Balerion, who was not obstructed by the towering walls of Harrenhal, roasted Harren and his surviving sons in the [tallest tower](wiki:Kingspyre_Tower) of the castle,(wiki:Harren_Hoare.cite_ref-Racok7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3) ending his rule and kingdom.(wiki:Harren_Hoare.cite_ref-Ragotappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)(wiki:Harren_Hoare.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3) Harren's brother, [Lord Commander Hoare](wiki:Lord_Commander_Hoare), remained at the [Wall](wiki:Wall) when his kin died in the [burning of Harrenhal](wiki:Burning_of_Harrenhal).(wiki:Harren_Hoare.cite_ref-Ragot60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+
+### Legacy[ ]
+
+The death of Harren and his sons left a power vacuum in the [riverlands](wiki:Riverlands) and the [Iron Islands](wiki:Iron_Islands). [Aegon I Targaryen](wiki:Aegon_I_Targaryen) granted rule of the riverlands to [Edmyn Tully](wiki:Edmyn_Tully), the new [Lord Paramount of the Trident](wiki:Lord_Paramount_of_the_Trident),(wiki:Harren_Hoare.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-4) and the king granted [Harrenhal](wiki:Harrenhal) to Lord [Quenton Qoherys](wiki:Quenton_Qoherys).(wiki:Harren_Hoare.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0) Harren's fate led [Crackclaw Point](wiki:Crackclaw_Point) to quickly surrender to [Visenya Targaryen](wiki:Visenya_Targaryen).(wiki:Harren_Hoare.cite_ref-Raffc20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0) To avoid being burned at [Storm's End](wiki:Storm's_End), the [Storm King](wiki:Storm_King) [Argilac Durrandon](wiki:Argilac_Durrandon) marched to confront [Orys Baratheon](wiki:Orys_Baratheon) and [Rhaenys Targaryen](wiki:Rhaenys_Targaryen) in the [Last Storm](wiki:Last_Storm).(wiki:Harren_Hoare.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-5)
+[Qhorin Volmark](wiki:Qhorin_Volmark) claimed to be Harren's heir, but he was eventually killed by Aegon. The Conqueror allowed the [ironborn](wiki:Ironborn) to choose [Vickon Greyjoy](wiki:Vickon_Greyjoy) as [Lord of the Iron Islands](wiki:Lord_of_the_Iron_Islands) in the name of the [Iron Throne](wiki:Iron_Throne).(wiki:Harren_Hoare.cite_ref-Rtwoiafthe_iron_islands:_the_greyjoys_of_pyke.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)
+In [37 AC](wiki:37_AC), the rebel [Harren the Red](wiki:Harren_the_Red), who claimed to be a grandson of Harren the Black, seized Harrenhal from Lord [Gargon Qoherys](wiki:Gargon_Qoherys).(wiki:Harren_Hoare.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-1)
+Although Black Harren died in [Kingspyre Tower](wiki:Kingspyre_Tower), the spirits of the king and his sons are said to haunt the cellars of the [Wailing Tower](wiki:Wailing_Tower).(wiki:Harren_Hoare.cite_ref-Racok30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0) Another story claims that Harren and his sons walk Harrenhal's halls at nighttime, and any who look upon them burst into flame.(wiki:Harren_Hoare.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0)
+
+## Narrative Arc
+
+### A Clash of Kings[ ]
+
+After [Jaqen H'ghar](wiki:Jaqen_H'ghar) assassinates [Chiswyck](wiki:Chiswyck) and [Weese](wiki:Weese) at [Harrenhal](wiki:Harrenhal), some servants claim that the victims were killed by Harren's ghost.(wiki:Harren_Hoare.cite_ref-Racok30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-1)(wiki:Harren_Hoare.cite_ref-Racok38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0)
+
+### A Feast for Crows[ ]
+
+During the [kingsmoot](wiki:Kingsmoot) at [Old Wyk](wiki:Old_Wyk), [Tarle the Thrice-Drowned](wiki:Tarle_the_Thrice-Drowned) states that [Maron Volmark](wiki:Maron_Volmark) should become [King of the Iron Islands](wiki:King_of_the_Iron_Islands) because he shares Black Harren's blood.(wiki:Harren_Hoare.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0) Young Lord Volmark supports [Victarion Greyjoy](wiki:Victarion_Greyjoy) instead, however.(wiki:Harren_Hoare.cite_ref-Raffcappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0)
+
+## Quotes
+
+Aegon: Yield now and you may remain as [Lord of the Iron Islands](wiki:Lord_of_the_Iron_Islands). Yield now, and your sons will live to rule after you. I have eight thousand men outside [your walls](wiki:Harrenhal).
+Harren: What is outside my walls is of no concern to me. Those walls are strong and thick. Aegon: But not so high as to keep out [dragons](wiki:Dragon). Dragons fly. Harren: I built in stone. Stone does not burn.
+Had I a daughter, the [dragonslayer](wiki:Dragonslayer) could claim her hand as well. Instead I will give him one of [Tully](wiki:House_Tully)'s daughters, or all three if he likes. Or he may pick one of [Blackwood](wiki:House_Blackwood)'s whelps, or [Strong](wiki:House_Strong)'s, or any girl born of these traitors of the [Trident](wiki:Trident), these [lords](wiki:Lord) of yellow mud.(wiki:Harren_Hoare.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-7)
+
+## Quotes
+
+No king in [Westeros](wiki:Westeros) was more feared than Black Harren, whose cruelty had become legendary all through the [Seven Kingdoms](wiki:Seven_Kingdoms).(wiki:Harren_Hoare.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-8)
+Harren had beggared the [riverlands](wiki:Riverlands) and the [Iron Islands](wiki:Iron_Islands) alike to ornament [his dream](wiki:Harrenhal).(wiki:Harren_Hoare.cite_ref-Racok7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)

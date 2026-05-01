@@ -1,0 +1,5 @@
+## Origins
+
+Early in the reign of King Viserys I, Lord Hightower received a letter from his younger brother, Ser [Otto Hightower](wiki:Otto_Hightower). In this letter, the [Hand of the King](wiki:Hand_of_the_King) shared his fear about what kind of monarch Prince [Daemon Targaryen](wiki:Daemon_Targaryen) would be if he ever ascended to the [Iron Throne](wiki:Iron_Throne):
+On no account can Prince Daemon be allowed to ascend to the Iron Throne.[...] He would be a second [Maegor the Cruel](wiki:Maegor_I_Targaryen), or worse.[...] Better the [Realm’s Delight](wiki:Rhaenyra_Targaryen) than Lord Flea Bottom.(wiki:Lord_Hightower.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+After his death, Lord Hightower was succeeded by his son, [Ormund Hightower](wiki:Ormund_Hightower), as [Lord of the Hightower](wiki:Lord_of_the_Hightower).(wiki:Lord_Hightower.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)

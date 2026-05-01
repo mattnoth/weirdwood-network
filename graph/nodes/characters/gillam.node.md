@@ -1,0 +1,32 @@
+---
+name: "Gillam"
+type: character.human
+slug: gillam
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Gillam"
+bucket_id: tier3-pathb-characters
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Gillam is a character from the AWOIAF wiki.
+
+## Edges
+
+- HOLDS_TITLE: Brother (track_b: Title)
+- SWORN_TO: Faith of the Seven (track_b: Allegiances)
+- SWORN_TO: Quiet Isle (track_b: Allegiances)
+
+## Appearances & Description
+
+Gillam is short, bandy-legged and has blond hair. He tends to the animals on the isle.(wiki:Gillam.cite_ref-Raffc31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
+
+## Narrative Arc
+
+### A Feast for Crows[ ]
+
+Brother Gillam is introduced by Brother [Narbert](wiki:Narbert) after Ser [Hyle Hunt](wiki:Hyle_Hunt) makes a comment about [a horse](wiki:Stranger_(horse)) in their stables. His ear had been bitten off by the horse when he attempted to geld it.(wiki:Gillam.cite_ref-Raffc31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

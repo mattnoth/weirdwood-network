@@ -1,0 +1,27 @@
+---
+name: "Gerren"
+type: character.human
+slug: gerren
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Gerren"
+bucket_id: tier3-pathb-characters
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Gerren is a character from the AWOIAF wiki.
+
+## Edges
+
+- CULTURE_OF: Westeros (track_b: Culture)
+
+## Narrative Arc
+
+### A Clash of Kings[ ]
+
+Gerren travels north from [King's Landing](wiki:King's_Landing) as part of [Yoren](wiki:Yoren)'s group of recruits heading for the [Wall](wiki:Wall). When they arrive at the eastern side of [the river](wiki:Gods_Eye_river) running south from the [Gods Eye](wiki:Gods_Eye), Yoren creates search parties in order to find a ford to cross the river. Gerren and [Woth](wiki:Woth) go downstream, but have no luck in finding a place to cross. Gerren accompanies the group to [an deserted town](wiki:Gods_Eye_town) further north, located on the southern shore of the Gods Eye. The group decides to spend the night in the abandoned holdfast of the town. When exploring the holdfast, Gerren discovers an escape tunnel in a stable that he follows to the lakefront.(wiki:Gerren.cite_ref-Racok14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+When [Arya Stark](wiki:Arya_Stark) dreams of a howling wolf and wakes up, alarming all those present, Gerren tells her to just let the wolves howl. Shortly after, Ser [Amory Lorch](wiki:Amory_Lorch) and his men attack the holdfast. Gerren is seriously wounded in the fighting and when Arya and [Gendry](wiki:Gendry), on Yoren's order, gather survivors to escape through the tunnel Gerren found earlier, he is unable to move so they leave him behind.(wiki:Gerren.cite_ref-Racok14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) His further fate is unknown, but when Arry and Gendry return to the holdfast the next evening, they find nobody alive.(wiki:Gerren.cite_ref-Racok19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

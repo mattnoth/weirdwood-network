@@ -1,0 +1,23 @@
+---
+name: "Robyn Rhysling"
+type: character.human
+slug: robyn-rhysling
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Robyn_Rhysling"
+bucket_id: tier3-pathb-characters
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Robyn Rhysling is a character from the AWOIAF wiki.
+
+## Edges
+
+- HOLDS_TITLE: Ser (track_b: Title)
+- SWORN_TO: House Rhysling (track_b: Allegiance)
+- CULTURE_OF: Reach (track_b: Culture)
+- BORN_AT: Reach (track_b: Born)

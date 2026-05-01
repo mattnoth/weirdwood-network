@@ -1,0 +1,28 @@
+---
+name: "Craghas Drahar"
+type: character.human
+slug: craghas-drahar
+aliases: ["Craghas Crabfeeder", "Crabfeeder"]
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Craghas_Drahar"
+bucket_id: tier3-pathb-characters
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Craghas Drahar is a character from the AWOIAF wiki.
+
+## Edges
+
+- HOLDS_TITLE: Prince-admiral (track_b: Title)
+- SWORN_TO: Triarchy (track_b: Allegiance)
+- CULTURE_OF: Myrish (track_b: Culture)
+- DIED_AT: Stepstones (track_b: Died) [108 AC]
+
+## Origins
+
+The [Triarchy](wiki:Triarchy)—the alliance of [Lys](wiki:Lys), [Myr](wiki:Myr), and [Tyrosh](wiki:Tyrosh)—drove [Volantis](wiki:Volantis) from the [Disputed Lands](wiki:Disputed_Lands) with the [Battle of the Borderland](wiki:Battle_of_the_Borderland) in [96 AC](wiki:Years_after_Aegon's_Conquest). Craghas then led the Triarchy's armies and fleets in conquering the [Stepstones](wiki:Stepstones) from the islands' nests of [pirates](wiki:Pirate) and [outlaws](wiki:Outlaws). During this campaign he earned his sobriquet, "Craghas Crabfeeder", by ordering hundreds of pirates staked out on beaches to drown in the rising tide,(wiki:Craghas_Drahar.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4) with their bodies then consumed by [crabs](wiki:Crab).
+For a time the [Westerosi](wiki:Westeros) [lords](wiki:Lord) were pleased by the pirates' defeat, and were happy to pay the Triarchy's tolls for safe passage. Several years later, however, the avarice of Craghas and his Lysene and Tyroshi co-admirals had driven up the tolls to outrageous levels. [Corlys Velaryon](wiki:Corlys_Velaryon), [Lord of the Tides](wiki:Lord_of_the_Tides), was most hurt by these tolls, and he partnered with the glory-hungry Prince [Daemon Targaryen](wiki:Daemon_Targaryen) to drive the Triarchy's forces from the Stepstones and carve out a [realm](wiki:King_of_the_Stepstones_and_the_Narrow_Sea), attacking in [106 AC](wiki:106_AC). The forces of the Triarchy lost many battles over the next two years during the [War for the Stepstones](wiki:War_for_the_Stepstones), before Craghas was finally defeated in battle by Daemon, who beheaded him with his [Valyrian steel](wiki:Valyrian_steel) [longsword](wiki:Longsword), [Dark Sister](wiki:Dark_Sister).(wiki:Craghas_Drahar.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)

@@ -1,0 +1,20 @@
+---
+name: "Grey Jeyne"
+type: character.human
+slug: grey-jeyne
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Grey_Jeyne"
+bucket_id: tier3-pathb-characters
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Grey Jeyne is a character from the AWOIAF wiki.
+
+## Edges
+
+- OWNS: Ramsay Bolton (track_b: Owner)

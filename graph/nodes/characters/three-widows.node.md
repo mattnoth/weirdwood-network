@@ -1,0 +1,29 @@
+---
+name: "Three Widows"
+type: character.human
+slug: three-widows
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Three_Widows"
+bucket_id: tier3-pathb-characters
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Three Widows is a character from the AWOIAF wiki.
+
+## Edges
+
+
+## Origins
+
+After the death of King [Aegon II Targaryen](wiki:Aegon_II_Targaryen), Lord [Corlys Velaryon](wiki:Corlys_Velaryon) attempted to make peace between the [blacks](wiki:Blacks) and the [greens](wiki:Greens). He sent terms of peace to [Casterly Rock](wiki:Casterly_Rock), [Oldtown](wiki:Oldtown) and [Storm's End](wiki:Storm's_End), the seats of the three most powerful green supporters, the [Lannisters](wiki:House_Lannister), the [Hightowers](wiki:House_Hightower), and the [Baratheons](wiki:House_Baratheon). As the heads of these houses all died during the war and their successors were too young to rule,(wiki:Three_Widows.cite_ref-Young_2-0) the widows ruled in their stead.(wiki:Three_Widows.cite_ref-Rfabaftermath_-_the_hour_of_the_wolf.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+Lady Elenda and Lady Johanna quickly agreed to the terms sent by the Sea Snake. In Oldtown, young Lord Lyonel refused them at first, but in the end he was persuaded by Lady Samantha to accept them. After six days of waiting, Lord [Cregan Stark](wiki:Cregan_Stark), who had taken control of [King's Landing](wiki:King's_Landing), was forced to accept the peace forged by Lord Corlys and the Three Widows, which marked the official end of the [Dance of the Dragons](wiki:Dance_of_the_Dragons).(wiki:Three_Widows.cite_ref-Rfabaftermath_-_the_hour_of_the_wolf.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+The Three Widows(wiki:Three_Widows.cite_ref-Coronation_3-0) came to the capital to assist to the coronation of Prince Aegon into King [Aegon III Targaryen](wiki:Aegon_III_Targaryen), and his [wedding](wiki:Wedding) to Princess [Jaehaera Targaryen](wiki:Jaehaera_Targaryen). When they left the city, their daughters, son, siblings, and cousins remain to serve the new king and queen as companions and hostages.(wiki:Three_Widows.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+
+## Quotes
+
+The great lords would have given us another two years of war, it was the women who made the [peace](wiki:King's_Peace). [Black Aly](wiki:Alysanne_Blackwood), the [Maiden of the Vale](wiki:Jeyne_Arryn), the Three Widows, the [Dragon Twins](wiki:Dragon_Twins), ’twas them who brought the [bloodshed](wiki:Dance_of_the_Dragons) to an end, and not with [swords](wiki:Sword) or [poison](wiki:Poison), but with [ravens](wiki:Raven), words, and kisses.(wiki:Three_Widows.cite_ref-Rfabaftermath_-_the_hour_of_the_wolf.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)

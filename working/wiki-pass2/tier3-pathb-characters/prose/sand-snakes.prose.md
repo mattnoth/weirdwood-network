@@ -1,0 +1,19 @@
+## Narrative Arc
+
+### A Feast for Crows[ ]
+
+The three eldest Sand Snakes—[Obara](wiki:Obara_Sand), [Nymeria](wiki:Nymeria_Sand), and [Tyene](wiki:Tyene_Sand)—try to stir [Doran Martell](wiki:Doran_Martell), [Prince of Dorne](wiki:Prince_of_Dorne), into declaring war against the [Iron Throne](wiki:Iron_Throne) in revenge for the death of their father, [Oberyn Martell](wiki:Oberyn_Martell), at the hands of Ser [Gregor Clegane](wiki:Gregor_Clegane) in [King's Landing](wiki:King's_Landing). Doran orders his [captain of guards](wiki:House_Martell_guards), [Areo Hotah](wiki:Areo_Hotah), to take all Sand Snakes into custody, however. While the youngest Sand Snakes pose no threat, Doran wants to prevent anyone from using them against him. [Sarella](wiki:Sarella_Sand) remains free, however, because she is outside of [Dorne](wiki:Dorne), and Doran says to leave her to her "game".(wiki:Sand_Snakes.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+Obara, Nym, and Tyene are confined to cells in the Spear Tower of [Sunspear](wiki:Sunspear).(wiki:Sand_Snakes.cite_ref-Raffc13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) [Elia](wiki:Elia_Sand), [Obella](wiki:Obella_Sand), [Dorea](wiki:Dorea_Sand), and [Loreza](wiki:Loreza_Sand) are secluded in the [Water Gardens](wiki:Water_Gardens) along with their mother, [Ellaria Sand](wiki:Ellaria_Sand).(wiki:Sand_Snakes.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) Doran's daughter, Princess [Arianne Martell](wiki:Arianne_Martell), plans to crown Princess [Myrcella Baratheon](wiki:Myrcella_Baratheon) and then free the Sand Snakes. Her plot is halted by Areo at the [Greenblood](wiki:Greenblood), however.(wiki:Sand_Snakes.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
+
+### A Dance with Dragons[ ]
+
+Obara, Nym, Tyene, and their cousin, Arianne, are released from captivity and are present at the feast in which the [Mountain's skull](wiki:Mountain's_skull) is presented to the [Dornish](wiki:Dorne) court.(wiki:Sand_Snakes.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+Prince [Quentyn Martell](wiki:Quentyn_Martell), Doran's heir, remembers his cousins' sharp, mocking smiles.(wiki:Sand_Snakes.cite_ref-Radwd6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+
+## Quotes
+
+His tourneys, his battles, his duels, his horses, his carnality ... it was said that he bedded men and women both, and had begotten [bastard](wiki:Bastard) girls all over [Dorne](wiki:Dorne). The sand snakes, men called his daughters. So far as Tyrion had heard, Prince [Oberyn](wiki:Oberyn_Martell) had never fathered a son.(wiki:Sand_Snakes.cite_ref-Rasos38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+All of Prince [Oberyn's](wiki:Oberyn_Martell) daughters have his viper eyes, Hotah realized suddenly. The color does not matter.(wiki:Sand_Snakes.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+It would gladden my heart if I could assure you that the Sand Snakes were alone in wanting war, but I will not tell you lies, ser.(wiki:Sand_Snakes.cite_ref-Raffc13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
+Arianne: Are you certain you are not off to some other bed, some other woman? Tell me who she is. I will fight her for you, bare-breasted, knife to knife. Unless she is a Sand Snake. If so, we can share you. I love my cousins well. Arys: You know I have no other woman. Only ... duty.(wiki:Sand_Snakes.cite_ref-Raffc13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+Arianne loved all her [bastard](wiki:Bastard) cousins, from prickly, hot-tempered [Obara](wiki:Obara_Sand) to little [Loreza](wiki:Loreza_Sand), the youngest, only six years old. [Tyene](wiki:Tyene_Sand) had always been the one she loved the most, though; the sweet sister that she never had.(wiki:Sand_Snakes.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)

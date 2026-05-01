@@ -1,0 +1,3 @@
+## Origins
+
+In an ultimate indignity to the declining power of the [driftwood kings](wiki:High_King_of_the_Iron_Islands), Gerold the Great sailed his fleet to the [Iron Islands](wiki:Iron_Islands) in a daring raid, taking a hundred [ironborn](wiki:Ironborn) hostages. He kept them at [Casterly Rock](wiki:Casterly_Rock) afterwards, hanging one every time his shores were raided.(wiki:Gerold_Lannister_(king).cite_ref-Rtwoiafthe_iron_islands:_driftwood_crowns.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) True to his word, Gerold hanged more than twenty of the hostages.(wiki:Gerold_Lannister_(king).cite_ref-Rtwoiafthe_westerlands.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

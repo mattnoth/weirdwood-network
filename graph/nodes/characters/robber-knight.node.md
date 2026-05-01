@@ -1,0 +1,40 @@
+---
+name: "Robber knight"
+type: character.human
+slug: robber-knight
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Robber_knight"
+bucket_id: tier3-pathb-characters
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Robber knight is a character from the AWOIAF wiki.
+
+## Edges
+
+
+## Origins
+
+During the reign of King [Aegon I Targaryen](wiki:Aegon_I_Targaryen), the [Giant of the Trident](wiki:Giant_of_the_Trident) was a robber knight who troubled the [riverlands](wiki:Riverlands).(wiki:Robber_knight.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+During the [Dance of the Dragons](wiki:Dance_of_the_Dragons), [Hugh Hammer](wiki:Hugh_Hammer), one of the [Two Betrayers](wiki:Two_Betrayers), betrayed the [blacks](wiki:Blacks) to join the [greens](wiki:Greens), but then announced his ambitions to become king himself. He began amassing a following of [sellswords](wiki:Sellswords), robber knights, and other rabble.(wiki:Robber_knight.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+During the [tourney](wiki:Tourney_at_Ashford_Meadow) at [Ashford Meadow](wiki:Ashford_Meadow), Prince [Maekar](wiki:Maekar_I_Targaryen) was initially absent, as he was searching for his sons [Daeron](wiki:Daeron_Targaryen_(son_of_Maekar_I)) and [Aegon](wiki:Aegon_V_Targaryen), since they did not show up at the tourney, and Maekar had heard wild tales of robber knights in the area. Later, Prince Daeron accused Ser [Duncan the Tall](wiki:Duncan_the_Tall) of kidnapping Aegon, to avoid admitting that he had spent the days drinking and had not noticed Aegon had run off.(wiki:Robber_knight.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+Lord [Gormon Peake](wiki:Gormon_Peake) accused Ser [Duncan](wiki:Duncan_the_Tall) of being a robber knight. In turn, Duncan suspected Ser [Maynard Plumm](wiki:Maynard_Plumm) of being one.(wiki:Robber_knight.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
+After returning from the [War of the Ninepenny Kings](wiki:War_of_the_Ninepenny_Kings), Ser [Tywin Lannister](wiki:Tywin_Lannister) charged Ser [Kevan Lannister](wiki:Kevan_Lannister), his younger brother, with command of a company of five hundred knights to rid the [Westerlands](wiki:Westerlands) of robber knights and [outlaws](wiki:Outlaw).(wiki:Robber_knight.cite_ref-Rtwoiafthe_westerlands:_house_lannister_under_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
+The [Smiling Knight](wiki:Smiling_Knight), of the [Kingswood Brotherhood](wiki:Kingswood_Brotherhood), was a robber knight.(wiki:Robber_knight.cite_ref-Rasos67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+
+## Narrative Arc
+
+### A Storm of Swords[ ]
+
+After the [brotherhood without banners](wiki:Brotherhood_without_banners) seizes [Sandor Clegane](wiki:Sandor_Clegane)'s [gold](wiki:Gold) and gives him a note promising to pay once the [War of the Five Kings](wiki:War_of_the_Five_Kings) is done, Sandor accuses their leader, Ser [Beric Dondarrion](wiki:Beric_Dondarrion), of being a robber knight.(wiki:Robber_knight.cite_ref-Rasos39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+
+### A Feast for Crows[ ]
+
+[Brienne of Tarth](wiki:Brienne_of_Tarth) initially fears the [hedge knights](wiki:Hedge_knight) Ser [Creighton Longbough](wiki:Creighton_Longbough) and Ser [Illifer the Penniless](wiki:Illifer_the_Penniless) may be robber knights.(wiki:Robber_knight.cite_ref-Raffc4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+After Ser [Jaime Lannister](wiki:Jaime_Lannister) cautions Ser Kevan Lannister of going after Sandor Clegane, Kevan reminds Jaime that he was hanging outlaws and robber knights when Jaime was still a baby.(wiki:Robber_knight.cite_ref-Raffc16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
+When Princess [Arianne Martell](wiki:Arianne_Martell) and her party reach the well at [Shandystone](wiki:Shandystone), she tells her companions of the time her uncle, Prince [Oberyn Martell](wiki:Oberyn_Martell), took her and his daughters [Tyene](wiki:Tyene_Sand) and [Sarella Sand](wiki:Sarella_Sand) there. Arianne keeps to herself that while Oberyn taught Tyene to milk [viper](wiki:Snake) venom and Sarella turned over rocks to see what was underneath, she sat beside the well and fantasized that a robber knight with the same features as her uncle had brought her to the well to have his way with her.(wiki:Robber_knight.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)

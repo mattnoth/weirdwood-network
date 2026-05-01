@@ -1,0 +1,45 @@
+---
+name: "Jon Roxton"
+type: character.human
+slug: jon-roxton
+aliases: ["Bold Jon Roxton", "Bold John Roxton", "Jon Roxton the Bold"]
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Jon_Roxton"
+bucket_id: tier3-pathb-characters
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Jon Roxton is a character from the AWOIAF wiki.
+
+## Edges
+
+- HOLDS_TITLE: Ser (track_b: Titles)
+- HOLDS_TITLE: Lord (track_b: Titles) [possibly]
+- SWORN_TO: House Roxton (track_b: Allegiances)
+- SWORN_TO: Greens (track_b: Allegiances)
+- SWORN_TO: Caltrops (track_b: Allegiances)
+- CULTURE_OF: Reach (track_b: Culture)
+- DIED_AT: Tumbleton (track_b: Died) [130 AC]
+- PARENT_OF: Son (track_b: Issue) [disputed]
+
+## Appearances & Description
+
+Jon was known for his black temper.(wiki:Jon_Roxton.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2) He wielded the [Valyrian steel](wiki:Valyrian_steel) [longsword](wiki:Longsword) [Orphan-Maker](wiki:Orphan-Maker).(wiki:Jon_Roxton.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+## Origins
+
+Ser Jon fought on the side of King [Aegon II Targaryen](wiki:Aegon_II_Targaryen) and the [greens](wiki:Greens) during the [Dance of the Dragons](wiki:Dance_of_the_Dragons), a civil war between Aegon II and his half-sister, Princess [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen), over the [Iron Throne](wiki:Iron_Throne) of [Westeros](wiki:Westeros). At the [Battle on the Honeywine](wiki:Battle_on_the_Honeywine), Lord [Owen Costayne](wiki:Owen_Costayne) was mortally wounded by Jon's black [Valyrian steel](wiki:Valyrian_steel) blade, [Orphan-Maker](wiki:Orphan-Maker).(wiki:Jon_Roxton.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) Jon knighted [Titus Peake](wiki:Titus_Peake_(son_of_Unwin)), heir of Lord [Unwin Peake](wiki:Unwin_Peake), after the battle, but Ser Titus died six days later in a skirmish.(wiki:Jon_Roxton.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+Following the death of Lord [Ormund Hightower](wiki:Ormund_Hightower) in the [First Battle of Tumbleton](wiki:First_Battle_of_Tumbleton), Jon was among those who desired to take leadership of their host. Jon also claimed Lady [Sharis Footly](wiki:Sharis_Footly) as a "prize of war", slew [Lord Footly](wiki:Lord_Footly) when he objected,(wiki:Jon_Roxton.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3) and resided in his bedchamber.(wiki:Jon_Roxton.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+Jon was among those who wanted to quickly advance on [King's Landing](wiki:King's_Landing) after the [Storming of the Dragonpit](wiki:Storming_of_the_Dragonpit) and Rhaenyra's flight from the capital. Other green leaders were cautious, however, and the host remained at [Tumbleton](wiki:Tumbleton). When Ser [Ulf White](wiki:Ulf_White) and Ser [Hugh Hammer](wiki:Hugh_Hammer) demanded [Highgarden](wiki:Highgarden) and the [Iron Throne](wiki:Iron_Throne), respectively, Jon joined the [Caltrops](wiki:Caltrops) conspiracy which wanted the [dragonriders](wiki:Dragonrider) dead.(wiki:Jon_Roxton.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+During the [Second Battle of Tumbleton](wiki:Second_Battle_of_Tumbleton), Bold Jon slew Hugh Hammer when he least suspected it, splitting him from groin to throat with Orphan-Maker. Shortly thereafter he was attacked by a dozen of Hugh's men, but managed to kill three of them. Legend says Jon slipped on Hugh's entrails and was then slain.(wiki:Jon_Roxton.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
+Sharis gave birth to a lusty dark-haired child which she claimed was the son of her late lord husband, but it was widely believed the boy had actually been fathered by Bold Jon.(wiki:Jon_Roxton.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1) Unwin Peake revealed that Orphan-Maker was in his possession when he became [Hand of the King](wiki:Hand_of_the_King) during the [regency](wiki:Regency_of_Aegon_III) of [Aegon III Targaryen](wiki:Aegon_III_Targaryen).(wiki:Jon_Roxton.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
+
+## Quotes
+
+We kill [the bastards](wiki:Two_Betrayers) now. Afterward, let the bravest of us claim their [dragons](wiki:Dragon) and fly them into battle.(wiki:Jon_Roxton.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
+Jon: Lord Hammer, my condolences.
+Hugh: For what?
