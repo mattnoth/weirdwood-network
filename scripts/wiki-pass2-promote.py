@@ -92,6 +92,7 @@ TYPE_DIR_MAP: dict[str, str] = {
     "object": "artifacts",
     "object.artifact": "artifacts",
     "object.text": "texts",
+    "object.food": "foods",
     # Event leaves
     "event.battle": "events",
     "event.tournament": "events",

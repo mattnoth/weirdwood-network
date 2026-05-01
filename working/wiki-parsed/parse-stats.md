@@ -9,15 +9,15 @@ Generated: 2026-05-01
 | Pages with infoboxes | 5,279 |
 | Pages with cite_refs | 5,280 |
 | Parse failures | 0 |
-| Elapsed time | 14.4s |
+| Elapsed time | 13.6s |
 
 ## Entity Type Distribution
 
 | Entity Type | Count |
 |------------|-------|
 | `skip` | 8,592 |
-| `character.human` | 3,771 |
-| `unknown` | 2,187 |
+| `character.human` | 3,770 |
+| `unknown` | 2,098 |
 | `place.location` | 1,045 |
 | `organization.house` | 551 |
 | `title` | 374 |
@@ -26,13 +26,14 @@ Generated: 2026-05-01
 | `object.text` | 154 |
 | `organization.faction` | 110 |
 | `event.war` | 108 |
+| `object.food` | 69 |
 | `organization.religion` | 57 |
 | `concept.theory` | 45 |
 | `concept.culture` | 41 |
+| `species` | 40 |
 | `event.tournament` | 35 |
 | `concept.magic` | 30 |
 | `character.dragon` | 28 |
-| `species` | 19 |
 | `place.region` | 10 |
 | `character.direwolf` | 6 |
 
@@ -40,36 +41,36 @@ Generated: 2026-05-01
 
 | Field | Count |
 |-------|-------|
-| `culture` | 6,074 |
-| `allegiance` | 4,160 |
-| `title` | 3,617 |
-| `allegiances` | 2,859 |
-| `titles` | 2,752 |
-| `issue` | 2,392 |
-| `born` | 2,267 |
-| `died` | 2,103 |
-| `books` | 1,952 |
-| `father` | 1,858 |
-| `book` | 1,671 |
-| `aliases` | 1,233 |
-| `region` | 1,131 |
-| `spouse` | 1,058 |
-| `mother` | 991 |
-| `head` | 920 |
-| `alias` | 692 |
-| `page` ⚠ (unmapped) | 678 |
-| `overlord` | 654 |
-| `seat` | 565 |
-| `race` | 556 |
+| `culture` | 6,066 |
+| `allegiance` | 4,150 |
+| `title` | 3,611 |
+| `allegiances` | 2,863 |
+| `titles` | 2,757 |
+| `issue` | 2,396 |
+| `born` | 2,268 |
+| `died` | 2,088 |
+| `books` | 1,946 |
+| `father` | 1,860 |
+| `book` | 1,660 |
+| `aliases` | 1,235 |
+| `region` | 1,139 |
+| `spouse` | 1,055 |
+| `mother` | 993 |
+| `head` | 921 |
+| `page` ⚠ (unmapped) | 680 |
+| `alias` | 678 |
+| `overlord` | 651 |
+| `seat` | 567 |
+| `race` | 555 |
 | `result` | 549 |
-| `place` | 511 |
-| `tv series` | 448 |
-| `played by` | 414 |
-| `coat of arms` | 345 |
-| `pov` ⚠ (unmapped) | 334 |
-| `conflict` | 333 |
-| `overlords` | 328 |
-| `heir` | 313 |
+| `place` | 513 |
+| `tv series` | 449 |
+| `played by` | 416 |
+| `coat of arms` | 343 |
+| `pov` ⚠ (unmapped) | 335 |
+| `conflict` | 332 |
+| `overlords` | 330 |
+| `heir` | 311 |
 
 ## Unmapped Infobox Fields (schema signals)
 
@@ -78,43 +79,43 @@ High-count entries may indicate missing edge types.
 
 | Field | Count |
 |-------|-------|
-| `book` | 1,671 |
-| `page` | 678 |
-| `pov` | 334 |
-| `dynasty` | 224 |
-| `full name` | 194 |
-| `founded` | 161 |
-| `original air date` | 86 |
-| `running time` | 86 |
-| `directed by` | 86 |
-| `personal arms` | 79 |
-| `reign` | 49 |
-| `queen` | 34 |
-| `genre(s)` | 31 |
-| `country` | 25 |
-| `released` | 24 |
+| `book` | 1,660 |
+| `page` | 680 |
+| `pov` | 335 |
+| `dynasty` | 228 |
+| `full name` | 201 |
+| `founded` | 165 |
+| `original air date` | 88 |
+| `running time` | 88 |
+| `directed by` | 88 |
+| `personal arms` | 77 |
+| `reign` | 50 |
+| `queen` | 36 |
+| `genre(s)` | 33 |
+| `country` | 27 |
+| `released` | 27 |
 | `died out` | 24 |
-| `series` | 20 |
-| `named for` | 20 |
-| `dvd release` | 18 |
-| `current leader` | 17 |
+| `named for` | 23 |
+| `series` | 22 |
+| `created` | 19 |
 | `destroyed` | 17 |
-| `created` | 16 |
-| `network` | 15 |
+| `current leader` | 17 |
+| `dvd release` | 16 |
 | `followed&#160;by` | 14 |
-| `country of origin` | 13 |
-| `original run` | 13 |
 | `organizations` | 13 |
+| `disbanded` | 13 |
 | `preceded&#160;by` | 13 |
-| `disbanded` | 12 |
-| `cadet branch` | 11 |
-| `no. of episodes` | 11 |
+| `cadet branch` | 12 |
+| `network` | 12 |
+| `original run` | 12 |
+| `country of origin` | 11 |
 | `coronation` | 11 |
+| `no. of episodes` | 10 |
+| `vassal` | 9 |
+| `symbol` | 8 |
 | `size` | 8 |
-| `hatched` | 8 |
-| `vassals` | 8 |
-| `vassal` | 8 |
-| `colors` | 7 |
-| `symbol` | 7 |
+| `hatched` | 7 |
+| `vassals` | 7 |
+| `colors` | 6 |
 | `queens` | 6 |
-| `defunct` | 5 |
+| `reorganized` | 5 |

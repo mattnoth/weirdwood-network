@@ -764,7 +764,15 @@ CATEGORY_TYPE_MAP = [
     (re.compile(r"^Cultures$", re.IGNORECASE), "concept.culture"),
 
     # Species (biological types — NOT individuals)
+    # Trees go here too; weirwoods are first-class narrative entities,
+    # and the species/ dir scope broadens to in-world flora/fauna kinds.
+    # Trees take precedence over Food when both categories are present
+    # (Apple, Lemon, Orange, Chestnut tree are dual-tagged).
     (re.compile(r"^(Species|Magical creatures|Magical races|Sentient species)$", re.IGNORECASE), "species"),
+    (re.compile(r"^Trees$", re.IGNORECASE), "species"),
+
+    # Food + drinks (object.food — narrative hospitality / D&E food culture).
+    (re.compile(r"^(Food|Foods|Drinks|Drink|Beverages)$", re.IGNORECASE), "object.food"),
 
     # Concepts
     (re.compile(r"^(Magic|Magical phenomena|Magical abilities|Magical objects)$", re.IGNORECASE), "concept.magic"),

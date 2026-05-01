@@ -41,6 +41,7 @@ GRAPH_CONCEPTS_DIR = PROJECT_ROOT / "graph" / "nodes" / "concepts"
 GRAPH_FACTIONS_DIR = PROJECT_ROOT / "graph" / "nodes" / "factions"
 GRAPH_SPECIES_DIR = PROJECT_ROOT / "graph" / "nodes" / "species"
 GRAPH_THEORIES_DIR = PROJECT_ROOT / "graph" / "nodes" / "theories"
+GRAPH_FOODS_DIR = PROJECT_ROOT / "graph" / "nodes" / "foods"
 
 # concept.culture routes to factions/ per Pass B precedent (existing
 # culture nodes: first-men, ironborn, free-folk, dornishmen, etc.).
@@ -51,6 +52,7 @@ TYPE_TO_DIR = {
     "concept.culture": GRAPH_FACTIONS_DIR,
     "concept.theory":  GRAPH_THEORIES_DIR,
     "species":         GRAPH_SPECIES_DIR,
+    "object.food":     GRAPH_FOODS_DIR,
 }
 CONFLICTS_DIR = PROJECT_ROOT / "graph" / "nodes" / "_conflicts"
 BUCKET_DIR = PROJECT_ROOT / "working" / "wiki-pass2" / "tier3-pathb-longtail"
@@ -163,6 +165,8 @@ def render_skeleton(
         identity_line = f"{page_name} is a culture/people from the AWOIAF wiki."
     elif entity_type == "concept.theory":
         identity_line = f"{page_name} is a fan theory / interpretive framework from the AWOIAF wiki."
+    elif entity_type == "object.food":
+        identity_line = f"{page_name} is a food or drink from the AWOIAF wiki."
     else:
         identity_line = f"{page_name} is a species from the AWOIAF wiki."
 

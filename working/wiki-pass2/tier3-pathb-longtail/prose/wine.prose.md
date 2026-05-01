@@ -1,0 +1,56 @@
+## Culture
+
+Wine is popular among the [nobility](wiki:Nobility), whereas the [smallfolk](wiki:Smallfolk) generally prefer [beer](wiki:Beer). Wine is kept in casks and served in flagons. It can be watered down when preferable,(wiki:Wine.cite_ref-Rasos75.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)(wiki:Wine.cite_ref-Raffc9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)(wiki:Wine.cite_ref-Raffc13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)(wiki:Wine.cite_ref-Radwd2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) e.g. when served to children.(wiki:Wine.cite_ref-Rasos29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+Wine is also used in healthcare. Boiling wine can be used to disinfect wounds prior to binding them up, either by pouring it directly into the wound(wiki:Wine.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0) like [firemilk](wiki:Firemilk)(wiki:Wine.cite_ref-Ragot66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0) or by using silks drenched in boiling wine.(wiki:Wine.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)
+The castle of [House Celtigar](wiki:House_Celtigar) on [Claw Isle](wiki:Claw_Isle) and [the manse](wiki:Illyrio's_manse) of [Illyrio Mopatis](wiki:Illyrio_Mopatis) in [Pentos](wiki:Pentos) contain cellars with enough wine to keep a man drunk for a hundred years.(wiki:Wine.cite_ref-Rasos36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)(wiki:Wine.cite_ref-Radwd1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0)
+[Winesinks](wiki:Winesink), taverns, inns, and brothels are popular places to drink wine and other [alcoholic beverages](wiki:Alcoholic_beverages) in [Westeros](wiki:Westeros) and [Essos](wiki:Essos).(wiki:Wine.cite_ref-Racok41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0)(wiki:Wine.cite_ref-Racok63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0)
+
+## Origins
+
+According to legend, [Gilbert of the Vines](wiki:Gilbert_of_the_Vines) taught the men of the Arbor how to make sweet wine from grapes.(wiki:Wine.cite_ref-Rtwoiafthe_reach:_garth_greenhand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_39-0)
+During the [First Dornish War](wiki:First_Dornish_War), Lord [Mertyns](wiki:House_Mertyns) and his household at [Mistwood](wiki:Mistwood) were poisoned by a cask of [Dornish](wiki:Dorne) wine.(wiki:Wine.cite_ref-Rfabreign_of_the_dragon_-_the_wars_of_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_40-0)
+The assassin who cut the throat of Septon [Moon](wiki:Moon_(septon)) outside [Oldtown](wiki:Oldtown) also brought him poisoned wine.(wiki:Wine.cite_ref-Rfabprince_into_king_-_the_ascension_of_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_41-0)
+The wines from the Arbor were exempted from luxury taxes introduced by [Rego Draz](wiki:Rego_Draz), the [master of coin](wiki:Master_of_coin) for King [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen).(wiki:Wine.cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_42-0)
+The crews of [Lady Meredith](wiki:Lady_Meredith) and [Autumn Moon](wiki:Autumn_Moon) drank Arbor gold to celebrate sailing the farther west any ship had sailed before.(wiki:Wine.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-1)
+Princess [Alyssa Targaryen](wiki:Alyssa_Targaryen) poured a flagon of Arbor gold on her brother, Prince [Vaegon](wiki:Vaegon_Targaryen), after he had severely insulted their sister, Princess [Daella](wiki:Daella_Targaryen).(wiki:Wine.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-2)
+During the [Dance of the Dragons](wiki:Dance_of_the_Dragons), the [Caltrops](wiki:Caltrops) intended to murder Ser [Ulf White](wiki:Ulf_White) by poisoning his wine. When Ulf became suspicious of Ser [Hobert Hightower](wiki:Hobert_Hightower), Hobert agreed to drink from the same Arbor gold as Ulf. Both died from the poisoned wine.(wiki:Wine.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_43-0) King [Aegon II Targaryen](wiki:Aegon_II_Targaryen) died from drinking poisoned Arbor red.(wiki:Wine.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_44-0)
+After hurting Queen [Cersei Lannister](wiki:Cersei_Lannister) while having sex with her in the early years of their marriage, King [Robert I Baratheon](wiki:Robert_I_Baratheon) blamed his behavior on wine.(wiki:Wine.cite_ref-Raffc32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_45-0)
+
+## Narrative Arc
+
+### A Game of Thrones[ ]
+
+Lord [Jon Arryn](wiki:Jon_Arryn), [Hand of the King](wiki:Hand_of_the_King), is murdered by his own wife, Lady [Lysa Arryn](wiki:Lysa_Arryn), who poisons Jon's wine with the [tears of Lys](wiki:Tears_of_Lys).(wiki:Wine.cite_ref-Ragot2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_46-0)(wiki:Wine.cite_ref-Rasos80.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_47-0)
+Ser [Jorah Mormont](wiki:Jorah_Mormont) saves Princess [Daenerys Targaryen](wiki:Daenerys_Targaryen) from an attempted poisoning, by stopping her from drinking an [Arbor red](wiki:Arbor_red) poisoned by a [wineseller](wiki:Wineseller).(wiki:Wine.cite_ref-Ragot54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-11)
+[Lancel Lannister](wiki:Lancel_Lannister) provides King [Robert I Baratheon](wiki:Robert_I_Baratheon) with fortified wine, three times as strong as usual.(wiki:Wine.cite_ref-Racok3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_48-0) The king is mortally wounded fighting a [boar](wiki:Boar) in the [kingswood](wiki:Kingswood).(wiki:Wine.cite_ref-Ragot47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_49-0)
+
+### A Clash of Kings[ ]
+
+In order to temporarily eliminate his sister, Queen [Cersei Lannister](wiki:Cersei_Lannister), for a few days, [Tyrion Lannister](wiki:Tyrion_Lannister) eventually resorts to poisoning her Arbor red.(wiki:Wine.cite_ref-Racok25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-1)
+Daenerys visits the [Pureborn](wiki:Pureborn) of [Qarth](wiki:Qarth). While the Pureborn are notorious for offering poisoned wine to those they consider dangerous, she is not even offered a cup of water.(wiki:Wine.cite_ref-Racok40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_36-1)
+
+### A Storm of Swords[ ]
+
+For his support during the [Battle of the Blackwater](wiki:Battle_of_the_Blackwater), the [small council](wiki:Small_council) grants Lord [Paxter Redwyne](wiki:Paxter_Redwyne) a thirty years remission on taxes applied to certain fine wines of the [Arbor](wiki:Arbor).(wiki:Wine.cite_ref-Rasos19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-1)
+King [Joffrey I Baratheon](wiki:Joffrey_Baratheon) is killed at his own [wedding feast](wiki:Purple_Wedding) by drinking poisoned wine.(wiki:Wine.cite_ref-Rasos60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_50-0)(wiki:Wine.cite_ref-Rasos61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_51-0) His uncle, [Tyrion Lannister](wiki:Tyrion_Lannister), is arrested for the crime.(wiki:Wine.cite_ref-Rasos60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_50-1)(wiki:Wine.cite_ref-Rasos66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-1)
+
+### A Feast for Crows[ ]
+
+Ser [Jaime Lannister](wiki:Jaime_Lannister) observes that his sister, Queen Regent Cersei, frequently has flagons of wine available, although she had criticized King Robert for his drinking when he was alive.(wiki:Wine.cite_ref-Raffc16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_52-0)
+
+### A Dance with Dragons[ ]
+
+When travelling towards [Meereen](wiki:Meereen) in secret, Prince [Quentyn Martell](wiki:Quentyn_Martell) and his companions, Ser [Gerris Drinkwater](wiki:Gerris_Drinkwater) and Ser [Archibald Yronwood](wiki:Archibald_Yronwood), pretend to be merchants looking to sell their Dornish wine.(wiki:Wine.cite_ref-Radwd6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-1)
+The [giant](wiki:Giant) [Wun Weg Wun Dar Wun](wiki:Wun_Weg_Wun_Dar_Wun) takes a liking to wine after trying it at [Castle Black](wiki:Castle_Black).(wiki:Wine.cite_ref-Radwd44.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_53-0)
+During his journey through [Essos](wiki:Essos), Tyrion learns that Lord [Varys](wiki:Varys) swapped Prince [Aegon Targaryen](wiki:Aegon_Targaryen_(son_of_Rhaegar)) with [an infant](wiki:Pisswater_prince) whose features resembled Aegon close enough, preventing Aegon from being killed during the [Sack of King's Landing](wiki:Sack_of_King's_Landing) during [Robert's Rebellion](wiki:Robert's_Rebellion). According to Aegon, Varys had purchased the child who had died in his stead by trading him for a jug of [Arbor gold](wiki:Arbor_gold).(wiki:Wine.cite_ref-Radwd22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-2)
+
+## Quotes
+
+[Ale](wiki:Ale), [mead](wiki:Mead), and wine all featured in the evening's frolics, and [Viserra](wiki:Viserra_Targaryen) partook eagerly.(wiki:Wine.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-3)
+They say night's beauties fade at dawn, and the children of wine are oft disowned in the morning light.(wiki:Wine.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_54-0)
+I mean to sail to [Westeros](wiki:Westeros) and drink the wine of vengeance from the skull of the [Usurper](wiki:Robert_I_Baratheon).(wiki:Wine.cite_ref-Racok40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_36-2)
+I'd skin you alive for a cup of wine, girl.(wiki:Wine.cite_ref-Rasos74.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_55-0)
+You see the wonders than can be worked with lies and [Arbor gold](wiki:Arbor_gold)?(wiki:Wine.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_56-0)
+Will you take a cup of Lord [Hewett's](wiki:Humfrey_Hewett) wine? There's no wine half so sweet as wine taken from a beaten foe.(wiki:Wine.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_57-0)
+The world is full of wine.(wiki:Wine.cite_ref-Radwd1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-8)
+Japes are one way to keep the fear away. Wine's another.(wiki:Wine.cite_ref-58)

@@ -1,0 +1,16 @@
+## Origins
+
+According to legend, the son of an [Andal](wiki:Andal) king was cooked by the [Rat Cook](wiki:Rat_Cook) into a pie with onions, carrots, mushrooms, pepper, salt, bacon, and [wine](wiki:Wine). The pie was then served to the king.(wiki:Mushroom_(fungi).cite_ref-Rasos56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
+Capons stuffed with onions, herbs, mushrooms, and roasted chestnuts were served at the [wedding tourney at Whitewalls](wiki:Wedding_tourney_at_Whitewalls).(wiki:Mushroom_(fungi).cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+[Ordello](wiki:Ordello), a [magister](wiki:Magister) of [Pentos](wiki:Pentos), was [poisoned](wiki:Poison) by a mushroom.(wiki:Mushroom_(fungi).cite_ref-Radwd1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+
+## Narrative Arc
+
+### A Game of Thrones[ ]
+
+Fat mushrooms are among the foods served at the [crossroads inn](wiki:Crossroads_inn).(wiki:Mushroom_(fungi).cite_ref-Ragot28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+
+## Quotes
+
+[My sister](wiki:Cersei_Lannister) has mistaken me for a mushroom. She keeps me in the dark and feeds me shit.(wiki:Mushroom_(fungi).cite_ref-Rasos4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-0)
+Better a mushroom than a sword through your neck, is it not so? Why die with the taste of blood in your mouth when it could be butter and garlic?(wiki:Mushroom_(fungi).cite_ref-Radwd1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)

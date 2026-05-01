@@ -1,0 +1,26 @@
+---
+name: "Crocodile"
+type: object.food
+slug: crocodile
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Crocodile"
+bucket_id: tier3-pathb-longtail
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Crocodile is a food or drink from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+### A Dance with Dragons[ ]
+
+Crocodile meat is served in the feast celebrating [the wedding](wiki:Wedding_of_Hizdahr_zo_Loraq_and_Daenerys_Targaryen) between [Daenerys Targaryen](wiki:Daenerys_Targaryen) and [Hizdahr zo Loraq](wiki:Hizdahr_zo_Loraq).(wiki:Crocodile.cite_ref-Radwd50.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
+Crocodiles are one of the animals depicted in the masks of the [Brazen Beasts](wiki:Brazen_Beasts).(wiki:Crocodile.cite_ref-Radwd55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
