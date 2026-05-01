@@ -622,6 +622,7 @@ ENTITY_TYPE_OVERRIDES = {
     "Brave Companions":             "organization.faction",
     # Named artifacts without infoboxes
     "Iron Throne":                  "object.artifact",
+    "Dragon egg":                   "object.artifact",
 }
 
 # Regex patterns for page-name-based classification, evaluated AFTER the explicit
@@ -701,6 +702,11 @@ CATEGORY_TYPE_MAP = [
     # --- Skip categories (caller filters these out of promotion) ---
     (re.compile(r"^Redirect$", re.IGNORECASE), SKIP_CATEGORY),
     (re.compile(r"^Disambiguation pages$", re.IGNORECASE), SKIP_CATEGORY),
+    # Chapter-summary pages — meta-articles describing a single ASOIAF chapter
+    # (e.g. "A Clash of Kings-Chapter 1"). Their infoboxes contain a "Place"
+    # field which makes the field-signature classifier mistype them as
+    # event.battle. They're not in-world entities; skip from promotion.
+    (re.compile(r"^A Song of Ice And Fire chapters", re.IGNORECASE), SKIP_CATEGORY),
     # TV-only content — pages exist for TV episodes / seasons / cast that
     # aren't in-universe. Skip these from promotion. Real TV-vs-canon split
     # could go to a separate `tv-` namespace but that's deferred.

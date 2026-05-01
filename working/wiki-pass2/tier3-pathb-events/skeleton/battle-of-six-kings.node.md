@@ -1,0 +1,22 @@
+---
+name: "Battle of Six Kings"
+type: event.battle
+slug: battle-of-six-kings
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Battle_of_Six_Kings"
+bucket_id: tier3-pathb-events
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Battle of Six Kings is a battle/event from the AWOIAF wiki.
+
+## Edges
+
+- DEFEATS: Durrandon (track_b: Result)
+- DEFEATS: House Teague (track_b: Result)
+- DEFEATS: Storm Kings (track_b: Result)

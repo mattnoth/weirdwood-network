@@ -1,0 +1,143 @@
+{
+  "bucket_id": "tier3-pathb-events",
+  "tier": "secondary",
+  "tier_default": "tier-2",
+  "prompt_version": "v1-python",
+  "created_at": "2026-05-01T14:31:50.131242+00:00",
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "pages": [
+    {
+      "page": "Battle in the Howling Hills",
+      "slug": "battle-in-the-howling-hills",
+      "type": "event.battle"
+    },
+    {
+      "page": "Battle of Ashford",
+      "slug": "battle-of-ashford",
+      "type": "event.battle"
+    },
+    {
+      "page": "Battle of Bronzegate",
+      "slug": "battle-of-bronzegate",
+      "type": "event.battle"
+    },
+    {
+      "page": "Battle of Crookwater",
+      "slug": "battle-of-crookwater",
+      "type": "event.battle"
+    },
+    {
+      "page": "Battle of Oxcross",
+      "slug": "battle-of-oxcross",
+      "type": "event.battle"
+    },
+    {
+      "page": "Battle of Six Kings",
+      "slug": "battle-of-six-kings",
+      "type": "event.battle"
+    },
+    {
+      "page": "Battle of Summerfield",
+      "slug": "battle-of-summerfield",
+      "type": "event.battle"
+    },
+    {
+      "page": "Blackfyre Rebellion",
+      "slug": "blackfyre-rebellion",
+      "type": "event.war"
+    },
+    {
+      "page": "Century of Blood",
+      "slug": "century-of-blood",
+      "type": "event.war"
+    },
+    {
+      "page": "Fisherman's War",
+      "slug": "fishermans-war",
+      "type": "event.war"
+    },
+    {
+      "page": "Greyjoy Rebellion",
+      "slug": "greyjoy-rebellion",
+      "type": "event.war"
+    },
+    {
+      "page": "Lodos the Twice-Drowned's rebellion",
+      "slug": "lodos-the-twice-drowneds-rebellion",
+      "type": "event.war"
+    },
+    {
+      "page": "Long Night",
+      "slug": "long-night",
+      "type": "event.war"
+    },
+    {
+      "page": "Lord Rogar's War",
+      "slug": "lord-rogars-war",
+      "type": "event.war"
+    },
+    {
+      "page": "Pact of Ice and Fire",
+      "slug": "pact-of-ice-and-fire",
+      "type": "event.war"
+    },
+    {
+      "page": "Rhoynar Invasion",
+      "slug": "rhoynar-invasion",
+      "type": "event.war"
+    },
+    {
+      "page": "Rhoynish Wars",
+      "slug": "rhoynish-wars",
+      "type": "event.war"
+    },
+    {
+      "page": "Targaryen Conquest",
+      "slug": "targaryen-conquest",
+      "type": "event.war"
+    },
+    {
+      "page": "The Conquest of Dorne",
+      "slug": "the-conquest-of-dorne",
+      "type": "event.war"
+    },
+    {
+      "page": "Vulture Hunt",
+      "slug": "vulture-hunt",
+      "type": "event.battle"
+    },
+    {
+      "page": "War for the White Cloaks",
+      "slug": "war-for-the-white-cloaks",
+      "type": "event.war"
+    },
+    {
+      "page": "War of Five Kings",
+      "slug": "war-of-five-kings",
+      "type": "event.war"
+    },
+    {
+      "page": "War of the First Men and the Children of the Forest",
+      "slug": "war-of-the-first-men-and-the-children-of-the-forest",
+      "type": "event.war"
+    },
+    {
+      "page": "War of the Wombs",
+      "slug": "war-of-the-wombs",
+      "type": "event.war"
+    },
+    {
+      "page": "Wars of Conquest",
+      "slug": "wars-of-conquest",
+      "type": "event.war"
+    },
+    {
+      "page": "Winter of the Widows",
+      "slug": "winter-of-the-widows",
+      "type": "event.war"
+    }
+  ]
+}

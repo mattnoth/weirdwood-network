@@ -1,0 +1,55 @@
+---
+name: "Long Night"
+type: event.war
+slug: long-night
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Long_Night"
+bucket_id: tier3-pathb-events
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Long Night is a war from the AWOIAF wiki.
+
+## Edges
+
+
+## Origins
+
+### Westeros[ ]
+
+According to [Westerosi](wiki:Westeros) legends, in the midst of this darkness a race of apparent demons, called the [Others](wiki:Others), emerged from the uttermost north of Westeros, the polar regions of the [Lands of Always Winter](wiki:Lands_of_Always_Winter). They wielded razor-thin swords of ice and raised [wights](wiki:Wight) to fight the living. The [children of the forest](wiki:Children_of_the_forest) and their allies, the [First Men](wiki:First_Men), fought valiantly against them, but were driven southwards by their advance.(wiki:Long_Night.cite_ref-Ragot24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+The Others were eventually checked when it was discovered that weapons made of [dragonglass](wiki:Dragonglass) could kill them.(wiki:Long_Night.cite_ref-Rasos33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) Legends from the [north](wiki:North) claim that the [last hero](wiki:Last_hero) made contact with the children.(wiki:Long_Night.cite_ref-Rtwoiafancient_history:_the_long_night.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) The first members of the [Night's Watch](wiki:Night's_Watch) drove the Others back in the [Battle for the Dawn](wiki:Battle_for_the_Dawn).(wiki:Long_Night.cite_ref-Racok21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+Steps were taken to ensure that the people would never be caught off guard by an invasion from the north again. [Bran the Builder](wiki:Brandon_the_Builder) supposedly raised the [Wall](wiki:Wall),(wiki:Long_Night.cite_ref-Ragot24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) an imposing structure of solid ice and [magic](wiki:Magic), stretching one hundred leagues from the [Gorge](wiki:Gorge) in the west to the [Shivering Sea](wiki:Shivering_Sea) in the east, cutting off the Lands of Always Winter from the remainder of Westeros. The Night's Watch guarded the Wall and protected the people from threats [beyond the Wall](wiki:Beyond_the_Wall).
+It is said that the enmity between Houses Stark and [Bolton](wiki:House_Bolton) goes back to the Long Night.(wiki:Long_Night.cite_ref-Rtwoiafthe_north:_the_kings_of_winter.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
+
+### Essos[ ]
+
+The [Rhoynar](wiki:Rhoynar) tell of a darkness that made the [Rhoyne](wiki:Rhoyne) of [Essos](wiki:Essos) dwindle and disappear, her waters frozen as far south as the joining of the [Selhoru](wiki:Selhoru), until a hero convinced the many children of [Mother Rhoyne](wiki:Mother_Rhoyne), such as the [Crab King](wiki:Crab_King) and the [Old Man of the River](wiki:Old_Man_of_the_River), to put aside their bickering and join in a secret song that brought back the day.(wiki:Long_Night.cite_ref-Rtwoiafancient_history:_the_long_night.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1) [Lomas Longstrider](wiki:Lomas_Longstrider), in his [Wonders Made by Man](wiki:Wonders_Made_by_Man), describes meeting descendants of the Rhoynar in the ruins of the festival city of [Chroyane](wiki:Chroyane) who recounted this tale to him.(wiki:Long_Night.cite_ref-Rtwoiafancient_history:_the_long_night.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+Other legends from the [Further East](wiki:Further_East), including [Yi Ti](wiki:Yi_Ti), state the [Blood Betrayal](wiki:Blood_Betrayal) began the Long Night. The [Lion of Night](wiki:Lion_of_Night) was unleashed upon the world after the [Maiden-Made-of-Light](wiki:Maiden-Made-of-Light) turned her back on it.(wiki:Long_Night.cite_ref-Rtwoiafthe_bones_and_beyond:_yi_ti.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
+According to a legend from Yi Ti, during the Long Night the sun hid its face for a lifetime, ashamed at something none could discover, and disaster was only averted by the deeds of a woman with a [monkey](wiki:Monkey)'s tail.(wiki:Long_Night.cite_ref-Rtwoiafancient_history:_the_long_night.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+A great hero, known in different cultures as [Azor Ahai](wiki:Azor_Ahai), Hyrkoon the Hero, Yin Tar, Neferion, and Eldric Shadowchaser, wielded the flaming sword [Lightbringer](wiki:Lightbringer) and led humanity to victory. Some say the [Five Forts](wiki:Five_Forts) were built by the [Pearl Emperor](wiki:Pearl_Emperor) to guard against the Lion of Night and his demons.(wiki:Long_Night.cite_ref-Rtwoiafthe_bones_and_beyond:_yi_ti.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+The legend of Azor Ahai spread from [Asshai](wiki:Asshai) and is especially prevalent among the followers of [R'hllor](wiki:R'hllor).(wiki:Long_Night.cite_ref-Rtwoiafancient_history:_the_long_night.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4) According to prophecy, Azor Ahai is to be reborn again as a champion sent by [R'hllor](wiki:R'hllor).(wiki:Long_Night.cite_ref-Radwd10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) This will occur after a long summer when an evil, cold darkness descends upon the world.(wiki:Long_Night.cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0) There is also a similar prophecy about [the prince that was promised](wiki:The_prince_that_was_promised).(wiki:Long_Night.cite_ref-Rasos63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)(wiki:Long_Night.cite_ref-Rasos78.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)
+
+## Narrative Arc
+
+### A Game of Thrones[ ]
+
+Since [Bran Stark](wiki:Bran_Stark) enjoys scary stories, [Old Nan](wiki:Old_Nan) tells him about the Long Night.(wiki:Long_Night.cite_ref-Ragot24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+
+### A Clash of Kings[ ]
+
+"[The Night That Ended](wiki:The_Night_That_Ended)" is performed during the [harvest feast](wiki:Harvest_feast) at [Winterfell](wiki:Winterfell).(wiki:Long_Night.cite_ref-Racok21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
+
+### A Storm of Swords[ ]
+
+[Melisandre](wiki:Melisandre), a [red priestess](wiki:Red_priest) from [Asshai](wiki:Asshai), believes there will be another long night.(wiki:Long_Night.cite_ref-Rasos63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-1)
+
+## Quotes
+
+Nan: Oh, my sweet summer child, what do you know of fear? Fear is for the winter, my little lord, when the snows fall a hundred feet deep and the ice wind comes howling out of the north. Fear is for the long night, when the sun hides its face for years at a time, and little children are born and live and die all in darkness while the [direwolves](wiki:Direwolves) grow gaunt and hungry, and the [white walkers](wiki:White_walkers) move through the woods. Bran: You mean the [Others](wiki:Others).(wiki:Long_Night.cite_ref-Ragot24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+The oldest histories we have were written after the [Andals came](wiki:Coming_of_the_Andals) to [Westeros](wiki:Westeros). The [First Men](wiki:First_Men) only left us [runes](wiki:Runes) on rocks, so everything we know about the [Age of Heroes](wiki:Age_of_Heroes) and the [Dawn Age](wiki:Dawn_Age) and the Long Night comes from accounts set down by [septons](wiki:Septon) thousands of years later. There are [archmaesters](wiki:Archmaester) at the [Citadel](wiki:Citadel) who question all of it.(wiki:Long_Night.cite_ref-Raffc5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)
