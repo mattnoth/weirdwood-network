@@ -1,0 +1,3 @@
+## Origins
+
+The Breakstone Flints were [First Men](wiki:First_Men) kings after the [Long Night](wiki:Long_Night) who were eventually defeated and reduced to vassals by the [Kings of Winter](wiki:Kings_of_Winter), [House Stark](wiki:House_Stark) of [Winterfell](wiki:Winterfell).(wiki:House_Flint_of_Breakstone_Hill.cite_ref-Rtwoiafthe_north:_the_kings_of_winter.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0) The Breakstone Flints have not been mentioned in [A Song of Ice and Fire](wiki:A_Song_of_Ice_and_Fire) and are possibly extinct. It is also possible they are [House Flint of the mountains](wiki:House_Flint_of_the_mountains), who claim to be the First Flints.(wiki:House_Flint_of_Breakstone_Hill.cite_ref-Radwd49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

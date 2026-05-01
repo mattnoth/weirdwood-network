@@ -1,0 +1,76 @@
+---
+name: "House Harlaw"
+type: organization.house
+slug: house-harlaw
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/House_Harlaw"
+bucket_id: tier3-pathb-orgs
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+House Harlaw is a noble house from the AWOIAF wiki.
+
+## Edges
+
+- SEAT_OF (reverse): Ten Towers (track_b: Seats)
+- SEAT_OF (reverse): Harlaw Hall (track_b: Seats) [formerly]
+- RULES: Rodrik Harlaw (track_b: Head)
+- REGION_OF: Iron Islands (track_b: Region)
+- HOLDS_TITLE: Lord of Harlaw (track_b: Titles)
+- HOLDS_TITLE: Lord of Ten Towers (track_b: Titles)
+- HOLDS_TITLE: Harlaw of Harlaw (track_b: Titles)
+- HOLDS_TITLE: High King of the Iron Islands (track_b: Titles) [historical]
+- HEIR_TO: Harras Harlaw (track_b: Heir)
+- OVERLORD_OF (reverse): House Greyjoy (track_b: Overlord)
+- CADET_BRANCH_OF: Harlaws of Grey Garden (track_b: Cadet branches)
+- CADET_BRANCH_OF: Harlaws of Harlaw Hall (track_b: Cadet branches)
+- CADET_BRANCH_OF: Harlaws of Harridan Hill (track_b: Cadet branches)
+- CADET_BRANCH_OF: Harlaws of the Tower of Glimmering (track_b: Cadet branches)
+
+## Origins
+
+### Age of Heroes[ ]
+
+The Harlaws of antiquity were [rock](wiki:Rock_king) and [salt kings](wiki:Salt_king) on the island of [Harlaw](wiki:Harlaw).(wiki:House_Harlaw.cite_ref-Rtwoiafthe_iron_islands:_the_iron_kings.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0) [Myres](wiki:House_Myre) and the [Kennings](wiki:House_Kenning_of_Harlaw) had been their bitter foes in the past, but eventually they submitted to the Harlaws.(wiki:House_Harlaw.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7)
+Several Harlaws were elected as the [High King of the Iron Islands](wiki:High_King_of_the_Iron_Islands) through the [kingsmoot](wiki:Kingsmoot). The young [Erich V Harlaw](wiki:Erich_V_Harlaw) recovered [Fair Isle](wiki:Fair_Isle) for the [ironborn](wiki:Ironborn), but he eventually lost the island once he grew old. His son, [Harron Harlaw](wiki:Harron_Harlaw), slew [Gareth II Gardener](wiki:Gareth_II_Gardener), [King of the Reach](wiki:King_of_the_Reach), beneath the walls of [Oldtown](wiki:Oldtown).(wiki:House_Harlaw.cite_ref-Rtwoiafthe_iron_islands:_driftwood_crowns.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1) However, the institution of the kingsmoot was put to an end by King [Urron Greyiron](wiki:Urron_Greyiron) and the Harlaws were reduced to lords.(wiki:House_Harlaw.cite_ref-Rtwoiafthe_iron_islands:_the_iron_kings.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
+
+### Iron Throne[ ]
+
+During the reign of [Aegon I Targaryen](wiki:Aegon_I_Targaryen), Queen [Rhaenys Targaryen](wiki:Rhaenys_Targaryen) arranged a betrothal between a Harlaw and one of the [triplet daughters](wiki:Tarth_triplets) born to the [Evenstar](wiki:Evenstar) of [Tarth](wiki:Tarth).(wiki:House_Harlaw.cite_ref-Rfabthree_heads_had_the_dragon_-_governance_under_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
+After the death of Lord [Dalton Greyjoy](wiki:Dalton_Greyjoy) in [134 AC](wiki:134_AC), the Harlaws and [Blacktydes](wiki:House_Blacktyde) joined Dalton's cousins in raising up [Rodrik Greyjoy](wiki:Rodrik_Greyjoy_(son_of_Dalton)), the younger [salt son](wiki:Salt_son) of Dalton, as the new [Lord of the Iron Islands](wiki:Lord_of_the_Iron_Islands). Amidst the violent conflict over succession, Lady [Johanna Lannister](wiki:Johanna_Lannister) launched an invasion of the Iron Islands, landing [Lannister](wiki:House_Lannister) swords and spears on Harlaw. Lord Harlaw of Harlaw was among the lords put to the sword by the invading [westermen](wiki:Westerlands).(wiki:House_Harlaw.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)
+The Harlaws' seat was [Harlaw Hall](wiki:Harlaw_Hall) until the reign of Lord [Theomore Harlaw](wiki:Theomore_Harlaw). Theomore had lost three newborn sons due to the dampness and unhealthiness of Harlaw Hall, and decided to build a better sited and more comfortable seat. Since Theomore was a changeable man, he built ten different keeps that eventually were connected by wallwalks and covered bridges, creating the castle that would be known as the [Ten Towers](wiki:Ten_Towers).(wiki:House_Harlaw.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8)
+
+### Recent History[ ]
+
+After the death of their father, [Rodrik Harlaw](wiki:Rodrik_Harlaw) became the [Lord of Harlaw](wiki:Lord_of_Harlaw) instead of his sister, [Gwynesse](wiki:Gwynesse_Harlaw), who is seven years his elder. Rodrik's sister [Alannys](wiki:Alannys_Harlaw) wed Lord [Balon Greyjoy](wiki:Balon_Greyjoy).(wiki:House_Harlaw.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-9) Ser [Harras Harlaw](wiki:Harras_Harlaw), the wielder of [Nightfall](wiki:Nightfall), was a friend of [Rodrik Greyjoy](wiki:Rodrik_Greyjoy).(wiki:House_Harlaw.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)
+Lord Rodrik unsuccessfully attempted to dissuade Balon from rising against King [Robert I Baratheon](wiki:Robert_I_Baratheon). In the resulting [Greyjoy's Rebellion](wiki:Greyjoy's_Rebellion), Rodrik's two sons died in the [sea battle off Fair Isle](wiki:Sea_battle_off_Fair_Isle), as did Gwynesse's husband.(wiki:House_Harlaw.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-10) The Iron Throne proceeded to land ships on the islands and Harlaw was among the islands that saw battle.(wiki:House_Harlaw.cite_ref-Rtwoiafthe_iron_islands:_the_old_way_and_the_new.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0)
+
+## Narrative Arc
+
+### A Clash of Kings[ ]
+
+Lady [Alannys Harlaw](wiki:Alannys_Harlaw) dwells on [Harlaw](wiki:Harlaw) with her brother, Lord [Rodrik Harlaw](wiki:Rodrik_Harlaw), and sister, Lady [Gwynesse](wiki:Gwynesse_Harlaw).(wiki:House_Harlaw.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-11)(wiki:House_Harlaw.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+Longships with the silver scythe of the Harlaws are seen by [Theon Greyjoy](wiki:Theon_Greyjoy) at [Lordsport](wiki:Lordsport) after [Balon Greyjoy](wiki:Balon_Greyjoy) calls his banners. When entering the great hall with his father's captains Theon sees some Harlaws from Harlaw.(wiki:House_Harlaw.cite_ref-Racok24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0)
+[Gevin](wiki:Gevin_Harlaw),(wiki:House_Harlaw.cite_ref-Racok37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0) [Dykk](wiki:Dykk_Harlaw),(wiki:House_Harlaw.cite_ref-Racok66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0) and other Harlaws join Theon during the [harrying of the Stony Shore](wiki:Harrying_of_the_Stony_Shore). Four Harlaws remain with Theon before the [sack of Winterfell](wiki:Sack_of_Winterfell) by [House Bolton](wiki:House_Bolton);(wiki:House_Harlaw.cite_ref-Racok66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-1) it is unknown if Dykk and Gevin are among them or if they are among the ironborn who depart Theon beforehand.
+
+### A Feast for Crows[ ]
+
+After the death of [Balon Greyjoy](wiki:Balon_Greyjoy), the [King of the Isles and the North](wiki:King_of_the_Isles_and_the_North), and the seizure of the [Seastone Chair](wiki:Seastone_Chair) at [Pyke](wiki:Pyke) by [Euron Greyjoy](wiki:Euron_Greyjoy), Lord Rodrik summons lords of the Iron Islands to Ten Towers on behalf of his niece, [Asha Greyjoy](wiki:Asha_Greyjoy).(wiki:House_Harlaw.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0) Meanwhile, [Aeron Greyjoy](wiki:Aeron_Greyjoy) calls for a [kingsmoot](wiki:Kingsmoot) to be held on [Old Wyk](wiki:Old_Wyk).(wiki:House_Harlaw.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-1) [Hotho Harlaw](wiki:Hotho_Harlaw) brings Rodrik a copy of Archmaester [Marwyn](wiki:Marwyn)'s [The Book of Lost Books](wiki:The_Book_of_Lost_Books) from [Oldtown](wiki:Oldtown) trying to gain his favor, since Hotho hopes to marry his daughter to Rodrik.(wiki:House_Harlaw.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-12)
+Lord Rodrik offers to make Asha the heir to Ten Towers when she arrives at his castle, although Ser [Harras Harlaw](wiki:Harras_Harlaw) would still become head of the house. She rejects this offer, choosing to seek the Seastone Chair.(wiki:House_Harlaw.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-13)
+Lord Harlaw's [Sea Song](wiki:Sea_Song) is seen on the shores of Old Wyk,(wiki:House_Harlaw.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0) and [Aeron Greyjoy](wiki:Aeron_Greyjoy) spots the Harlaw scythe among the gathered banners.(wiki:House_Harlaw.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-0) When speaking to Asha before the [kingsmoot on Old Wyk](wiki:Kingsmoot_on_Old_Wyk), [Victarion Greyjoy](wiki:Victarion_Greyjoy) states that Hotho, not Harras, will be Rodrik's heir.(wiki:House_Harlaw.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-1) Rodrik offers full support to his niece Asha during the kingsmoot. His designated heir, Harras, also supports her as one of her three champions.(wiki:House_Harlaw.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-1) Hotho offers his daughter to Victarion and supports him,(wiki:House_Harlaw.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-2) but he is one of the first to shout Euron's name after he reveals his plans.(wiki:House_Harlaw.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-2)
+Rodrik, Harras, and Hotho are part of the [taking of the Shields](wiki:Taking_of_the_Shields) commanded by King Euron. Hotho reports how Harras planted his standard beneath the [Grimm](wiki:House_Grimm) castle and defied them to single combat. After seven champions had been defeated, Lord [Guthor Grimm](wiki:Guthor_Grimm)'s septon decided [the gods](wiki:Faith_of_the_Seven) had spoken and surrendered [Grimston](wiki:Grimston).(wiki:House_Harlaw.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-1)
+Victarion sees Lords Rodrik Harlaw, [Gorold Goodbrother](wiki:Gorold_Goodbrother), and [Dunstan Drumm](wiki:Dunstan_Drumm) talking at the yard of [Lord Hewett's castle](wiki:Lord_Hewett's_castle). The three share their fear of a [Tyrell](wiki:House_Tyrell) reprisal. Harras is named Lord of [Greyshield](wiki:Greyshield) by Euron, a move Victarion interprets as a way to gain his loyalty at Rodrik's cost. This also makes Hotho the new heir to Ten Towers.(wiki:House_Harlaw.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-2)
+
+### A Dance with Dragons[ ]
+
+Because Rodrik refuses to have Harlaws fight Harlaws, Asha flees Old Wyk for [Deepwood Motte](wiki:Deepwood_Motte).(wiki:House_Harlaw.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-0) [Earl Harlaw](wiki:Earl_Harlaw) is part of her crew on [Black Wind](wiki:Black_Wind).(wiki:House_Harlaw.cite_ref-Radwdappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-0)
+
+## Quotes
+
+[Harlaw](wiki:Harlaw) was not the largest of the [Iron Islands](wiki:Iron_Islands), but it was the richest and most populous, and Lord [Rodrik's](wiki:Rodrik_Harlaw) power was not to be despised.(wiki:House_Harlaw.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-33)
+Asha: I need you to raise the men of [Harlaw](wiki:Harlaw). Rodrik: The men of Harlaw are [here](wiki:Kingsmoot_on_Old_Wyk). The ones who count. Some were shouting [Euron's](wiki:Euron_Greyjoy) name. I will not set Harlaw against Harlaw.(wiki:House_Harlaw.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-2)

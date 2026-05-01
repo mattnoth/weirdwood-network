@@ -1,0 +1,34 @@
+---
+name: "House Harlaw of Grey Garden"
+type: organization.house
+slug: house-harlaw-of-grey-garden
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/House_Harlaw_of_Grey_Garden"
+bucket_id: tier3-pathb-orgs
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+House Harlaw of Grey Garden is a noble house from the AWOIAF wiki.
+
+## Edges
+
+- SEAT_OF (reverse): Grey Garden (track_b: Seat)
+- SEAT_OF (reverse): Harlaw (track_b: Seat)
+- RULES: Harras Harlaw (track_b: Head)
+- REGION_OF: Iron Islands (track_b: Region)
+- HOLDS_TITLE: Knight of Grey Garden (track_b: Titles)
+- HOLDS_TITLE: Lord of Greyshield (track_b: Titles)
+- OVERLORD_OF (reverse): House Harlaw (track_b: Overlord)
+
+## Narrative Arc
+
+### A Feast for Crows[ ]
+
+Ser [Harras Harlaw](wiki:Harras_Harlaw), the [Knight of Grey Garden](wiki:Knight_of_Grey_Garden), is the cousin and designated heir of Lord [Rodrik Harlaw](wiki:Rodrik_Harlaw). His personal banner is the Harlaw scythe quartered with the peacock of his mother's [House Serrett](wiki:House_Serrett).(wiki:House_Harlaw_of_Grey_Garden.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) He also bears a [Valyrian steel](wiki:Valyrian_steel) sword called [Nightfall](wiki:Nightfall).(wiki:House_Harlaw_of_Grey_Garden.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+The banner of Ser Harras is spotted by [Asha Greyjoy](wiki:Asha_Greyjoy) at [Ten Towers](wiki:Ten_Towers).(wiki:House_Harlaw_of_Grey_Garden.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1) Harras is also spotted by [Aeron Greyjoy](wiki:Aeron_Greyjoy) at the [kingsmoot on Old Wyk](wiki:Kingsmoot_on_Old_Wyk), where he is one of Asha's champions.(wiki:House_Harlaw_of_Grey_Garden.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
+[Hotho Harlaw](wiki:Hotho_Harlaw) reports to [Victarion Greyjoy](wiki:Victarion_Greyjoy) that during the [taking of the Shields](wiki:Taking_of_the_Shields), Harras planted his standard beneath [Grimston](wiki:Grimston), the [Grimm](wiki:House_Grimm) castle on [Greyshield](wiki:Greyshield), and defeated seven men. The [septon](wiki:Septon) in the castle believed [the gods](wiki:Faith_of_the_Seven) had spoken and had surrendered the castle to Harras. He is named [Lord of Greyshield](wiki:Lord_of_Greyshield) by King [Euron Greyjoy](wiki:Euron_Greyjoy).(wiki:House_Harlaw_of_Grey_Garden.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)

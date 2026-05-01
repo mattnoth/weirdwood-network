@@ -1,0 +1,19 @@
+---
+name: "Lady of Spears"
+type: organization.religion
+slug: lady-of-spears
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Lady_of_Spears"
+bucket_id: tier3-pathb-orgs
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Lady of Spears is a religion/faith from the AWOIAF wiki.
+
+## Edges
+

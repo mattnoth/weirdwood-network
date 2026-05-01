@@ -1,0 +1,63 @@
+---
+name: "House Glover"
+type: organization.house
+slug: house-glover
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/House_Glover"
+bucket_id: tier3-pathb-orgs
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+House Glover is a noble house from the AWOIAF wiki.
+
+## Edges
+
+- SEAT_OF (reverse): Deepwood Motte (track_b: Seat)
+- RULES: Galbart Glover (track_b: Head)
+- REGION_OF: North (track_b: Region)
+- HOLDS_TITLE: Master of Deepwood Motte (track_b: Title)
+- HEIR_TO: Robett Glover (track_b: Heir)
+- OVERLORD_OF (reverse): House Stark (track_b: Overlords) [AGOT]
+- OVERLORD_OF (reverse): House Baratheon of Dragonstone (track_b: Overlords) [ADWD]
+
+## Origins
+
+The Glovers ruled as [First Men](wiki:First_Men) kings after the [Long Night](wiki:Long_Night), but they were eventually reduced to vassals by the [Kings of Winter](wiki:Kings_of_Winter) from [House Stark](wiki:House_Stark).(wiki:House_Glover.cite_ref-Rtwoiaf_the_north:_the_kings_of_winter.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+[Benton Glover](wiki:Benton_Glover) served as [First Ranger](wiki:First_Ranger) when Queen [Alysanne Targaryen](wiki:Alysanne_Targaryen) visited the [north](wiki:North) in [58 AC](wiki:Years_after_Aegon's_Conquest).(wiki:House_Glover.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
+The Glovers aided Lord [Cregan Stark](wiki:Cregan_Stark) in hunting down the [free folk](wiki:Free_folk) raiders of [Sylas the Grim](wiki:Sylas_the_Grim).(wiki:House_Glover.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)
+[Jorah Mormont](wiki:Jorah_Mormont)'s first wife, chosen by his father [Jeor](wiki:Jeor_Mormont), was a Glover of [Deepwood Motte](wiki:Deepwood_Motte). They were married ten years, and she died after her third miscarriage.(wiki:House_Glover.cite_ref-Racok12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)
+[Ethan Glover](wiki:Ethan_Glover), who was [Brandon Stark](wiki:Brandon_Stark)'s squire and went to [King's Landing](wiki:King's_Landing) with him to challenge Prince [Rhaegar Targaryen](wiki:Rhaegar_Targaryen), was the only one of Brandon's companions to survive. Ethan later [died](wiki:Combat_at_the_tower_of_joy) at the [tower of joy](wiki:Tower_of_joy).(wiki:House_Glover.cite_ref-Ragot39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0)
+
+## Narrative Arc
+
+### A Game of Thrones[ ]
+
+After getting indications that the [Lannisters](wiki:House_Lannister) were involved in the [murder attempt](wiki:Catspaw) on [Bran Stark](wiki:Bran_Stark), Lord [Eddard Stark](wiki:Eddard_Stark) tells [Catelyn Stark](wiki:Catelyn_Stark) to send word to Ser [Helman Tallhart](wiki:Helman_Tallhart) and [Galbart Glover](wiki:Galbart_Glover) to raise a hundred bowmen and fortify [Moat Cailin](wiki:Moat_Cailin).(wiki:House_Glover.cite_ref-Ragot20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0)
+Bran recognizes the mailed fist of the Glovers, silver on scarlet, among the northern banners that answer [Robb Stark](wiki:Robb_Stark)'s call to [Winterfell](wiki:Winterfell). Galbart's brother, [Robett](wiki:Robett_Glover), demands the honor of battle command, though with a smile and a jest.(wiki:House_Glover.cite_ref-Ragot53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1) The brothers greet Catelyn when she joins Robb's army at Moat Cailin.(wiki:House_Glover.cite_ref-Ragot55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0) When Robb splits his forces at the [Twins](wiki:Twins), Galbart stays with him,(wiki:House_Glover.cite_ref-Ragot63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0) while Robett is assigned to the army commanded by Lord [Roose Bolton](wiki:Roose_Bolton).(wiki:House_Glover.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0)
+[Tyrion Lannister](wiki:Tyrion_Lannister) sees the mailed fist of the Glovers on the northern army he faces in the [battle on the Green Fork](wiki:Battle_on_the_Green_Fork).(wiki:House_Glover.cite_ref-Ragot62.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0) Catelyn notices Galbart praying with Robb at the godswood of [Riverrun](wiki:Riverrun) after the victory at [the Camps](wiki:Battle_of_the_Camps).(wiki:House_Glover.cite_ref-Ragot71.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-0)
+
+### A Clash of Kings[ ]
+
+The Glovers play a part in the succession of the [Hornwood](wiki:House_Hornwood) lands, as they are [fostering](wiki:Fostering) [Larence Snow](wiki:Larence_Snow), the [bastard](wiki:Bastard) of Lord [Halys Hornwood](wiki:Halys_Hornwood). When Robett and Galbart went south with [Robb Stark](wiki:Robb_Stark), they left Robett's wife, [Sybelle Glover](wiki:Sybelle_Glover), in charge of Deepwood Motte. When the [castle's steward](wiki:Glover_steward) comes to Winterfell for the [harvest feast](wiki:Harvest_feast), Bran realizes it is the steward, not Lady Glover, who is making the decisions at Deepwood.(wiki:House_Glover.cite_ref-Racok16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-0) Glover men play bladder and woodharp during the feast.(wiki:House_Glover.cite_ref-Racok21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-0)
+During Robb's campaign in the [westerlands](wiki:Westerlands), Galbart and Lord [Rickard Karstark](wiki:Rickard_Karstark) raid along the coast of the [Sunset Sea](wiki:Sunset_Sea) after the [Battle of Oxcross](wiki:Battle_of_Oxcross).(wiki:House_Glover.cite_ref-Racok39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-0) Robett is held prisoner at [Harrenhal](wiki:Harrenhal), reportedly having been made prisoner of the [Brave Companions](wiki:Brave_Companions). In fact, the northmen and sellswords [conspire to take](wiki:Fall_of_Harrenhal) the massive castle.(wiki:House_Glover.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-1) Robett is one of the northern commanders told to strike [Duskendale](wiki:Duskendale) by [Roose Bolton](wiki:Roose_Bolton), reporting supposed orders from Robb, [King in the North](wiki:King_in_the_North).(wiki:House_Glover.cite_ref-Racok64.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-0)
+During the [ironborn](wiki:Ironborn) invasion of the north, [Asha Greyjoy](wiki:Asha_Greyjoy) holds Sybelle and her children as hostages after the [taking of Deepwood Motte](wiki:Taking_of_Deepwood_Motte).(wiki:House_Glover.cite_ref-Racok56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-0) [Theon Greyjoy](wiki:Theon_Greyjoy) notices that no Glovers are part of the army commanded by Ser [Rodrik Cassel](wiki:Rodrik_Cassel) that gathers at Winterfell to expel the ironborn, due to the fact that their castle is occupied by his sister Asha.(wiki:House_Glover.cite_ref-Racok66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-0)
+
+### A Storm of Swords[ ]
+
+Robett Glover survives the [battle at Duskendale](wiki:Battle_at_Duskendale) and leads the survivors in retreat, only to meet Ser [Gregor Clegane](wiki:Gregor_Clegane), who is waiting for them on the [kingsroad](wiki:Kingsroad).(wiki:House_Glover.cite_ref-Rasos19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-0) King Robb exchanges prisoners with Lord [Tywin Lannister](wiki:Tywin_Lannister), trading young [Martyn Lannister](wiki:Martyn_Lannister) for Robett, who is put on a ship at Duskendale.(wiki:House_Glover.cite_ref-Rasos35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-0)
+During Robb's trip to the Twins for Lord [Edmure Tully](wiki:Edmure_Tully)'s marriage to [Roslin Frey](wiki:Roslin_Frey), Galbart Glover takes Ser [Brynden Tully](wiki:Brynden_Tully)'s place as the commander of scouts and outriders. In preparation for his campaign against the ironborn-held [Moat Cailin](wiki:Moat_Cailin), Robb commands Lady [Maege Mormont](wiki:Maege_Mormont) and Galbart to sail on [Mallister](wiki:House_Mallister) longships through the marshes of the [Neck](wiki:Neck) to seek out Lord [Howland Reed](wiki:Howland_Reed).(wiki:House_Glover.cite_ref-Rasos45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_27-0)
+
+### A Feast for Crows[ ]
+
+Asha treats Sybelle well while she is held at Deepwood Motte. Sybelle tells Asha that Galbart would talk with her, and that the northmen would agree to exchange Deepwood Motte, [Torrhen's Square](wiki:Torrhen's_Square), and Moat Cailin for [Sea Dragon Point](wiki:Sea_Dragon_Point) and the [Stony Shore](wiki:Stony_Shore).(wiki:House_Glover.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_28-0) Asha takes Lady Glover and her children with her to [Harlaw](wiki:Harlaw). During the voyage, Sybelle's milk dries up and they have to feed little [Erena](wiki:Erena_Glover) with milk from a goat found ashore. Erena is sick when they arrive at Harlaw.(wiki:House_Glover.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_29-0)
+[Brienne of Tarth](wiki:Brienne_of_Tarth) spots the badge of House Glover among those that have been collected from the dead around Duskendale.(wiki:House_Glover.cite_ref-Raffc9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_30-0)
+
+### A Dance with Dragons[ ]
+
+Asha and her ironborn are defeated by [Stannis Baratheon](wiki:Stannis_Baratheon) in the [fight by Deepwood Motte](wiki:Fight_by_Deepwood_Motte).(wiki:House_Glover.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_31-0) Lady Sybelle Glover declares for Stannis and sends clansmen sworn to Deepwood Motte with the king during his [march on Winterfell](wiki:March_on_Winterfell), which is held by Lord [Roose Bolton](wiki:Roose_Bolton), the new [Warden of the North](wiki:Warden_of_the_North).(wiki:House_Glover.cite_ref-Radwd42.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
+Robett tries to gather men at [White Harbor](wiki:White_Harbor) without much success.(wiki:House_Glover.cite_ref-Radwd15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_32-0) He and Lord [Wyman Manderly](wiki:Wyman_Manderly) ask Lord [Davos Seaworth](wiki:Davos_Seaworth) to use his smuggler skills to retrieve [Rickon Stark](wiki:Rickon_Stark).(wiki:House_Glover.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_33-0)

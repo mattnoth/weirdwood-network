@@ -1,0 +1,19 @@
+---
+name: "Saan family"
+type: organization.house
+slug: saan-family
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Saan_family"
+bucket_id: tier3-pathb-orgs
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Saan family is a noble house from the AWOIAF wiki.
+
+## Edges
+

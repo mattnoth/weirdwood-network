@@ -1,0 +1,25 @@
+---
+name: "House of Myraq"
+type: organization.house
+slug: house-of-myraq
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/House_of_Myraq"
+bucket_id: tier3-pathb-orgs
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+House of Myraq is a noble house from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+### A Dance with Dragons[ ]
+
+[Paezhar zo Myraq](wiki:Paezhar_zo_Myraq), a Yunkish noble and slaver, is present at the [siege of Astapor](wiki:Siege_of_Astapor).(wiki:House_of_Myraq.cite_ref-Radwd25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

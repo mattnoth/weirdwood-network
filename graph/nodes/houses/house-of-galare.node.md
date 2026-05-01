@@ -1,0 +1,27 @@
+---
+name: "House of Galare"
+type: organization.house
+slug: house-of-galare
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/House_of_Galare"
+bucket_id: tier3-pathb-orgs
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+House of Galare is a noble house from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+### A Dance with Dragons[ ]
+
+The House of Galare is seemingly less hostile to the rule of Queen [Daenerys Targaryen](wiki:Daenerys_Targaryen) than most Meereenese houses, and Daenerys herself is thankful to the [Green Grace](wiki:Green_Grace), [Galazza Galare](wiki:Galazza_Galare), for her assistance and her voice for peace and tolerance.(wiki:House_of_Galare.cite_ref-Radwd2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
+With the [Sons of the Harpy](wiki:Sons_of_the_Harpy) killings continuing, Daenerys has every noble family of Meereen who is of dubious loyalty send her a child as a hostage.(wiki:House_of_Galare.cite_ref-Radwd11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) Two of those hostages are siblings, [Qezza](wiki:Qezza_Galare) and [Grazhar](wiki:Grazhar_zo_Galare) of the House of Galare, cousins of the Green Grace.(wiki:House_of_Galare.cite_ref-Radwd23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) Daenerys hopes having noble children as hostages will halt the killings, but it does not. However, Daenerys refuses to allow any harm to come to the children. She grows fond of them all, and ignores Skahaz mo Kandaq's counsel to kill one for every death done by the Sons of the Harpy.(wiki:House_of_Galare.cite_ref-Radwd23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+When Daenerys disappears on Drogon's back and Ser [Barristan Selmy](wiki:Barristan_Selmy) seizes control of Meereen in her name, he also refuses to allow any harm to come to the [child hostages](wiki:Cupbearers_of_Daenerys_Targaryen), even though Skahaz mo Kandaq wants to kill them in return for the deaths of the hostages Daenerys had granted to the [besiegers of Meereen](wiki:Second_siege_of_Meereen).(wiki:House_of_Galare.cite_ref-Radwd67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)

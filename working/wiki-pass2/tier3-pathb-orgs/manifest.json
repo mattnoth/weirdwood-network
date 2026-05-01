@@ -1,0 +1,1458 @@
+{
+  "bucket_id": "tier3-pathb-orgs",
+  "tier": "secondary",
+  "tier_default": "tier-2",
+  "prompt_version": "v1-python",
+  "created_at": "2026-05-01T14:35:32.605265+00:00",
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "pages": [
+    {
+      "page": "Adventurers",
+      "slug": "adventurers",
+      "type": "organization.faction"
+    },
+    {
+      "page": "Aquan the Red Bull",
+      "slug": "aquan-the-red-bull",
+      "type": "organization.religion"
+    },
+    {
+      "page": "Azure emperors",
+      "slug": "azure-emperors",
+      "type": "organization.house"
+    },
+    {
+      "page": "Bakkalon",
+      "slug": "bakkalon",
+      "type": "organization.religion"
+    },
+    {
+      "page": "Barrow Kings",
+      "slug": "barrow-kings",
+      "type": "organization.house"
+    },
+    {
+      "page": "Bright Banners",
+      "slug": "bright-banners",
+      "type": "organization.faction"
+    },
+    {
+      "page": "Church of Starry Wisdom",
+      "slug": "church-of-starry-wisdom",
+      "type": "organization.religion"
+    },
+    {
+      "page": "Company of the Rose",
+      "slug": "company-of-the-rose",
+      "type": "organization.faction"
+    },
+    {
+      "page": "Father of Waters",
+      "slug": "father-of-waters",
+      "type": "organization.religion"
+    },
+    {
+      "page": "Free Company (sellsword company)",
+      "slug": "free-company-sellsword-company",
+      "type": "organization.faction"
+    },
+    {
+      "page": "Gallant Men",
+      "slug": "gallant-men",
+      "type": "organization.faction"
+    },
+    {
+      "page": "Graces",
+      "slug": "graces",
+      "type": "organization.religion"
+    },
+    {
+      "page": "Great Shepherd",
+      "slug": "great-shepherd",
+      "type": "organization.religion"
+    },
+    {
+      "page": "Grey emperors",
+      "slug": "grey-emperors",
+      "type": "organization.house"
+    },
+    {
+      "page": "Hooded Wayfarer",
+      "slug": "hooded-wayfarer",
+      "type": "organization.religion"
+    },
+    {
+      "page": "House Algood",
+      "slug": "house-algood",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Amber",
+      "slug": "house-amber",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Ambrose",
+      "slug": "house-ambrose",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Appleton",
+      "slug": "house-appleton",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Ashford",
+      "slug": "house-ashford",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Ashwood",
+      "slug": "house-ashwood",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Ball",
+      "slug": "house-ball",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Banefort",
+      "slug": "house-banefort",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Beesbury",
+      "slug": "house-beesbury",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Bettley",
+      "slug": "house-bettley",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Bigglestone",
+      "slug": "house-bigglestone",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Blackbar",
+      "slug": "house-blackbar",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Blackmyre",
+      "slug": "house-blackmyre",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Blacktyde",
+      "slug": "house-blacktyde",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Blackwood",
+      "slug": "house-blackwood",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Blanetree",
+      "slug": "house-blanetree",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Boggs (north)",
+      "slug": "house-boggs-north",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Bole",
+      "slug": "house-bole",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Bolling",
+      "slug": "house-bolling",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Bolton of Winterfell",
+      "slug": "house-bolton-of-winterfell",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Botley",
+      "slug": "house-botley",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Bracken",
+      "slug": "house-bracken",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Branch",
+      "slug": "house-branch",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Brax",
+      "slug": "house-brax",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Bridges",
+      "slug": "house-bridges",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Broom",
+      "slug": "house-broom",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Broome",
+      "slug": "house-broome",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Brownhill (Stormlands)",
+      "slug": "house-brownhill-stormlands",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Buckler",
+      "slug": "house-buckler",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Bulwer",
+      "slug": "house-bulwer",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Burley",
+      "slug": "house-burley",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Bushy",
+      "slug": "house-bushy",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Butterwell",
+      "slug": "house-butterwell",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Cafferen",
+      "slug": "house-cafferen",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Cassel",
+      "slug": "house-cassel",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Cassel/Theories",
+      "slug": "house-cassel-theories",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Casterly",
+      "slug": "house-casterly",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Caswell",
+      "slug": "house-caswell",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Celtigar horn",
+      "slug": "house-celtigar-horn",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Cerwyn",
+      "slug": "house-cerwyn",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Chambers",
+      "slug": "house-chambers",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Charlton",
+      "slug": "house-charlton",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Chester",
+      "slug": "house-chester",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Clegane",
+      "slug": "house-clegane",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Clifton",
+      "slug": "house-clifton",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Cobb",
+      "slug": "house-cobb",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Cockshaw",
+      "slug": "house-cockshaw",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Codd",
+      "slug": "house-codd",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Coldwater",
+      "slug": "house-coldwater",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Cole",
+      "slug": "house-cole",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Condon",
+      "slug": "house-condon",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Conklyn",
+      "slug": "house-conklyn",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Connington",
+      "slug": "house-connington",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Cordwayner",
+      "slug": "house-cordwayner",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Costayne",
+      "slug": "house-costayne",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Cox",
+      "slug": "house-cox",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Crakehall",
+      "slug": "house-crakehall",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Crane",
+      "slug": "house-crane",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Cray",
+      "slug": "house-cray",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Crowl",
+      "slug": "house-crowl",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Cupps",
+      "slug": "house-cupps",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Cuy",
+      "slug": "house-cuy",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Darry",
+      "slug": "house-darry",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Deddings",
+      "slug": "house-deddings",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Doggett",
+      "slug": "house-doggett",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Dondarrion",
+      "slug": "house-dondarrion",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Donnerly",
+      "slug": "house-donnerly",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Drox",
+      "slug": "house-drox",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Drumm",
+      "slug": "house-drumm",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Dunn",
+      "slug": "house-dunn",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Durrandon",
+      "slug": "house-durrandon",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Durrendon",
+      "slug": "house-durrendon",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Durwell",
+      "slug": "house-durwell",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Dustin",
+      "slug": "house-dustin",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Erenford",
+      "slug": "house-erenford",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Errol",
+      "slug": "house-errol",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Estermont",
+      "slug": "house-estermont",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Estermont/Family Trees",
+      "slug": "house-estermont-family-trees",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Estren",
+      "slug": "house-estren",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Falwell",
+      "slug": "house-falwell",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Farman",
+      "slug": "house-farman",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Farrow",
+      "slug": "house-farrow",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Farwynd of Sealskin Point",
+      "slug": "house-farwynd-of-sealskin-point",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Farwynd of the Lonely Light",
+      "slug": "house-farwynd-of-the-lonely-light",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Fell",
+      "slug": "house-fell",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Fenn",
+      "slug": "house-fenn",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Ferren",
+      "slug": "house-ferren",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Fisher",
+      "slug": "house-fisher",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Fisher of the Stony Shore",
+      "slug": "house-fisher-of-the-stony-shore",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Flint of Breakstone Hill",
+      "slug": "house-flint-of-breakstone-hill",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Flint of Flint's Finger",
+      "slug": "house-flint-of-flints-finger",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Flint of Widow's Watch",
+      "slug": "house-flint-of-widows-watch",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Flint of the mountains",
+      "slug": "house-flint-of-the-mountains",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Florent",
+      "slug": "house-florent",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Foote",
+      "slug": "house-foote",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Foote of Nightsong",
+      "slug": "house-foote-of-nightsong",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Footly",
+      "slug": "house-footly",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Forrester",
+      "slug": "house-forrester",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Forrester (Telltale)",
+      "slug": "house-forrester-telltale",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Fossoway of Cider Hall",
+      "slug": "house-fossoway-of-cider-hall",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Fossoway of New Barrel",
+      "slug": "house-fossoway-of-new-barrel",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Foxglove",
+      "slug": "house-foxglove",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Frey of Riverrun",
+      "slug": "house-frey-of-riverrun",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Frost",
+      "slug": "house-frost",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Gardener",
+      "slug": "house-gardener",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Garner",
+      "slug": "house-garner",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Glover",
+      "slug": "house-glover",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Goodbrook",
+      "slug": "house-goodbrook",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Goodbrother",
+      "slug": "house-goodbrother",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Goodbrother of Corpse Lake",
+      "slug": "house-goodbrother-of-corpse-lake",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Goodbrother of Crow Spike Keep",
+      "slug": "house-goodbrother-of-crow-spike-keep",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Goodbrother of Downdelving",
+      "slug": "house-goodbrother-of-downdelving",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Goodbrother of Orkmont",
+      "slug": "house-goodbrother-of-orkmont",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Goodbrother of Shatterstone",
+      "slug": "house-goodbrother-of-shatterstone",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Goode",
+      "slug": "house-goode",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Gower",
+      "slug": "house-gower",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Grandison",
+      "slug": "house-grandison",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Greenfield",
+      "slug": "house-greenfield",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Greengood",
+      "slug": "house-greengood",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Greenhill",
+      "slug": "house-greenhill",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Greenwood",
+      "slug": "house-greenwood",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Grell",
+      "slug": "house-grell",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Grey",
+      "slug": "house-grey",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Greyiron",
+      "slug": "house-greyiron",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Greystark",
+      "slug": "house-greystark",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Groves",
+      "slug": "house-groves",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Haen",
+      "slug": "house-haen",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Haigh",
+      "slug": "house-haigh",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Hamell",
+      "slug": "house-hamell",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Harclay",
+      "slug": "house-harclay",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Harlaw",
+      "slug": "house-harlaw",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Harlaw of Grey Garden",
+      "slug": "house-harlaw-of-grey-garden",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Harlaw of Harlaw Hall",
+      "slug": "house-harlaw-of-harlaw-hall",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Harlaw of Harridan Hill",
+      "slug": "house-harlaw-of-harridan-hill",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Harlaw of the Tower of Glimmering",
+      "slug": "house-harlaw-of-the-tower-of-glimmering",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Harlton",
+      "slug": "house-harlton",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Harroway",
+      "slug": "house-harroway",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Hasty",
+      "slug": "house-hasty",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Hawick",
+      "slug": "house-hawick",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Hawthorne",
+      "slug": "house-hawthorne",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Heddle",
+      "slug": "house-heddle",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Herston",
+      "slug": "house-herston",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Hetherspoon",
+      "slug": "house-hetherspoon",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Hook",
+      "slug": "house-hook",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Hornwood",
+      "slug": "house-hornwood",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Horpe",
+      "slug": "house-horpe",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Hunter",
+      "slug": "house-hunter",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Ironsmith",
+      "slug": "house-ironsmith",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Jast",
+      "slug": "house-jast",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Justman",
+      "slug": "house-justman",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Keath",
+      "slug": "house-keath",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Kellington",
+      "slug": "house-kellington",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Kenning of Kayce",
+      "slug": "house-kenning-of-kayce",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Knott",
+      "slug": "house-knott",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Kyndall",
+      "slug": "house-kyndall",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Lannett",
+      "slug": "house-lannett",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Lannister guards",
+      "slug": "house-lannister-guards",
+      "type": "organization.faction"
+    },
+    {
+      "page": "House Lannister of Darry",
+      "slug": "house-lannister-of-darry",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Lannister of Lannisport",
+      "slug": "house-lannister-of-lannisport",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Lanny",
+      "slug": "house-lanny",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Lansdale",
+      "slug": "house-lansdale",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Leek",
+      "slug": "house-leek",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Liddle",
+      "slug": "house-liddle",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Lightfoot",
+      "slug": "house-lightfoot",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Locke",
+      "slug": "house-locke",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Lolliston",
+      "slug": "house-lolliston",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Long",
+      "slug": "house-long",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Longthorpe",
+      "slug": "house-longthorpe",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Lonmouth",
+      "slug": "house-lonmouth",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Lothston",
+      "slug": "house-lothston",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Lynderly",
+      "slug": "house-lynderly",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Magnar",
+      "slug": "house-magnar",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Manderly",
+      "slug": "house-manderly",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Manderly guards",
+      "slug": "house-manderly-guards",
+      "type": "organization.faction"
+    },
+    {
+      "page": "House Mandrake",
+      "slug": "house-mandrake",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Marsh",
+      "slug": "house-marsh",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Martell guards",
+      "slug": "house-martell-guards",
+      "type": "organization.faction"
+    },
+    {
+      "page": "House Mertyns",
+      "slug": "house-mertyns",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Mollen",
+      "slug": "house-mollen",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Morrigen",
+      "slug": "house-morrigen",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Moss",
+      "slug": "house-moss",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Norrey",
+      "slug": "house-norrey",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Penny",
+      "slug": "house-penny",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Polander",
+      "slug": "house-polander",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Potter",
+      "slug": "house-potter",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Qhoqua",
+      "slug": "house-qhoqua",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Qo",
+      "slug": "house-qo",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Rankenfell",
+      "slug": "house-rankenfell",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Redbeard",
+      "slug": "house-redbeard",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Rogare",
+      "slug": "house-rogare",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Royce",
+      "slug": "house-royce",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Ruskyn",
+      "slug": "house-ruskyn",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Ruttiger",
+      "slug": "house-ruttiger",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Sarwyck",
+      "slug": "house-sarwyck",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Tollet",
+      "slug": "house-tollet",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Tuttle (Telltale)",
+      "slug": "house-tuttle-telltale",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Wells of Dorne",
+      "slug": "house-wells-of-dorne",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Westford",
+      "slug": "house-westford",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Whitehill (Telltale)",
+      "slug": "house-whitehill-telltale",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Woodright",
+      "slug": "house-woodright",
+      "type": "organization.house"
+    },
+    {
+      "page": "House Words",
+      "slug": "house-words",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of Ahlaq",
+      "slug": "house-of-ahlaq",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of Black and White",
+      "slug": "house-of-black-and-white",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of Dhazak",
+      "slug": "house-of-dhazak",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of Eraz",
+      "slug": "house-of-eraz",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of Faez",
+      "slug": "house-of-faez",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of Galare",
+      "slug": "house-of-galare",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of Ghazeen",
+      "slug": "house-of-ghazeen",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of Hazkar",
+      "slug": "house-of-hazkar",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of Kandaq",
+      "slug": "house-of-kandaq",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of Kisses",
+      "slug": "house-of-kisses",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of Loraq",
+      "slug": "house-of-loraq",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of Merreq",
+      "slug": "house-of-merreq",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of Myraq",
+      "slug": "house-of-myraq",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of Nakloz",
+      "slug": "house-of-nakloz",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of Naqqan",
+      "slug": "house-of-naqqan",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of Pahl",
+      "slug": "house-of-pahl",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of Qaggaz",
+      "slug": "house-of-qaggaz",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of Quazzar",
+      "slug": "house-of-quazzar",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of Reznak",
+      "slug": "house-of-reznak",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of Rhaezn",
+      "slug": "house-of-rhaezn",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of Rhazdar",
+      "slug": "house-of-rhazdar",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of Seven Lamps",
+      "slug": "house-of-seven-lamps",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of Uhlez",
+      "slug": "house-of-uhlez",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of Ullhor",
+      "slug": "house-of-ullhor",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of Yherizan",
+      "slug": "house-of-yherizan",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of Yunzak",
+      "slug": "house-of-yunzak",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of Zhak",
+      "slug": "house-of-zhak",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of Zherzyn",
+      "slug": "house-of-zherzyn",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of the Red Hands",
+      "slug": "house-of-the-red-hands",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of the Undying",
+      "slug": "house-of-the-undying",
+      "type": "organization.house"
+    },
+    {
+      "page": "House of the Undying servitor",
+      "slug": "house-of-the-undying-servitor",
+      "type": "organization.house"
+    },
+    {
+      "page": "Indigo emperors",
+      "slug": "indigo-emperors",
+      "type": "organization.house"
+    },
+    {
+      "page": "Iron Shields",
+      "slug": "iron-shields",
+      "type": "organization.faction"
+    },
+    {
+      "page": "Jade-green emperors",
+      "slug": "jade-green-emperors",
+      "type": "organization.house"
+    },
+    {
+      "page": "Jolly Fellows",
+      "slug": "jolly-fellows",
+      "type": "organization.faction"
+    },
+    {
+      "page": "Lady of Spears",
+      "slug": "lady-of-spears",
+      "type": "organization.religion"
+    },
+    {
+      "page": "List of Houses",
+      "slug": "list-of-houses",
+      "type": "organization.house"
+    },
+    {
+      "page": "Long Lances",
+      "slug": "long-lances",
+      "type": "organization.faction"
+    },
+    {
+      "page": "Lord of Harmony",
+      "slug": "lord-of-harmony",
+      "type": "organization.religion"
+    },
+    {
+      "page": "Maiden's Men",
+      "slug": "maidens-men",
+      "type": "organization.faction"
+    },
+    {
+      "page": "Maroon emperors",
+      "slug": "maroon-emperors",
+      "type": "organization.house"
+    },
+    {
+      "page": "Men of Valor",
+      "slug": "men-of-valor",
+      "type": "organization.faction"
+    },
+    {
+      "page": "Merling King (god)",
+      "slug": "merling-king-god",
+      "type": "organization.religion"
+    },
+    {
+      "page": "Moon-Pale Maiden",
+      "slug": "moon-pale-maiden",
+      "type": "organization.religion"
+    },
+    {
+      "page": "Moonsingers",
+      "slug": "moonsingers",
+      "type": "organization.religion"
+    },
+    {
+      "page": "Mother Rhoyne",
+      "slug": "mother-rhoyne",
+      "type": "organization.religion"
+    },
+    {
+      "page": "Old Ones",
+      "slug": "old-ones",
+      "type": "organization.religion"
+    },
+    {
+      "page": "Old gods of Valyria",
+      "slug": "old-gods-of-valyria",
+      "type": "organization.religion"
+    },
+    {
+      "page": "Orange emperors",
+      "slug": "orange-emperors",
+      "type": "organization.house"
+    },
+    {
+      "page": "Pantera",
+      "slug": "pantera",
+      "type": "organization.religion"
+    },
+    {
+      "page": "Pattern",
+      "slug": "pattern",
+      "type": "organization.religion"
+    },
+    {
+      "page": "Pearl-white emperors",
+      "slug": "pearl-white-emperors",
+      "type": "organization.house"
+    },
+    {
+      "page": "Purple emperors",
+      "slug": "purple-emperors",
+      "type": "organization.house"
+    },
+    {
+      "page": "Ragged Standard",
+      "slug": "ragged-standard",
+      "type": "organization.faction"
+    },
+    {
+      "page": "Religion",
+      "slug": "religion",
+      "type": "organization.religion"
+    },
+    {
+      "page": "Saagael",
+      "slug": "saagael",
+      "type": "organization.religion"
+    },
+    {
+      "page": "Saan family",
+      "slug": "saan-family",
+      "type": "organization.house"
+    },
+    {
+      "page": "Scarlet emperors",
+      "slug": "scarlet-emperors",
+      "type": "organization.house"
+    },
+    {
+      "page": "Sea-green emperors",
+      "slug": "sea-green-emperors",
+      "type": "organization.house"
+    },
+    {
+      "page": "Semosh and Selloso",
+      "slug": "semosh-and-selloso",
+      "type": "organization.religion"
+    },
+    {
+      "page": "Silent God",
+      "slug": "silent-god",
+      "type": "organization.religion"
+    },
+    {
+      "page": "Sorrowful Men",
+      "slug": "sorrowful-men",
+      "type": "organization.faction"
+    },
+    {
+      "page": "Stone Cow of Faros",
+      "slug": "stone-cow-of-faros",
+      "type": "organization.religion"
+    },
+    {
+      "page": "Stormbreakers",
+      "slug": "stormbreakers",
+      "type": "organization.faction"
+    },
+    {
+      "page": "Stormcrows",
+      "slug": "stormcrows",
+      "type": "organization.faction"
+    },
+    {
+      "page": "Thirteen",
+      "slug": "thirteen",
+      "type": "organization.faction"
+    },
+    {
+      "page": "Toad Stone",
+      "slug": "toad-stone",
+      "type": "organization.religion"
+    },
+    {
+      "page": "Tourmaline Brotherhood",
+      "slug": "tourmaline-brotherhood",
+      "type": "organization.faction"
+    },
+    {
+      "page": "Tower of Guards",
+      "slug": "tower-of-guards",
+      "type": "organization.faction"
+    },
+    {
+      "page": "Weeping Lady of Lys",
+      "slug": "weeping-lady-of-lys",
+      "type": "organization.religion"
+    },
+    {
+      "page": "Wolf Pack",
+      "slug": "wolf-pack",
+      "type": "organization.faction"
+    },
+    {
+      "page": "Yellow emperors",
+      "slug": "yellow-emperors",
+      "type": "organization.house"
+    },
+    {
+      "page": "Yndros of the Twilight",
+      "slug": "yndros-of-the-twilight",
+      "type": "organization.religion"
+    }
+  ]
+}

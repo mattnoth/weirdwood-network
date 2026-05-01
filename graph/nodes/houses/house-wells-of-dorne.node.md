@@ -1,0 +1,19 @@
+---
+name: "House Wells of Dorne"
+type: organization.house
+slug: house-wells-of-dorne
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/House_Wells_of_Dorne"
+bucket_id: tier3-pathb-orgs
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+House Wells of Dorne is a noble house from the AWOIAF wiki.
+
+## Edges
+
