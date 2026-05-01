@@ -146,14 +146,19 @@ FIELD_EDGE_MAP = {
     "conflict":         ("FIGHTS_IN",  "forward"),
     "battles":          ("FIGHTS_IN",  "forward"),
     "result":           ("DEFEATS",    "forward"),
-    # In-world texts (books, songs, decrees)
+    # In-world texts (books, songs, decrees) — both "written by" and
+    # "author" map to WRITTEN_BY. Real-world books are filtered at the
+    # category level (Books-without-Books-and-scrolls → SKIP_CATEGORY),
+    # so author no longer needs SKIP defense for real-world authorship.
     "written by":       ("WRITTEN_BY", "forward"),
+    "author":           ("WRITTEN_BY", "forward"),
+    "authors":          ("WRITTEN_BY", "forward"),
 }
 
 # Fields to skip entirely (TV, publication metadata)
 SKIP_FIELDS = {
     "played by", "tv series", "episode", "seasons", "first episode", "last episode",
-    "author", "publisher", "isbn", "pages", "language", "publication date",
+    "publisher", "isbn", "pages", "language", "publication date",
     "media type", "illustrator", "cover artist", "preceded by", "followed by",
     "titles in pretence",
 }
@@ -654,6 +659,10 @@ ENTITY_TYPE_OVERRIDES = {
     # concept.custom via the Culture-singular pattern. Skip — not a
     # narrative entity (Matt's call 2026-05-02).
     "Fiddle":                       SKIP_CATEGORY,
+    # Battle of the Blackwater (song) — in-world song named after a
+    # battle. Wiki page typed it `unknown` (no infobox cues for song);
+    # session 26 routed to _unclassified/. Override to object.text.
+    "Battle of the Blackwater (song)": "object.text",
 }
 
 # Anti-patterns evaluated BEFORE PAGE_NAME_TYPE_PATTERNS. If any matches,

@@ -3,15 +3,15 @@
   "tier": "secondary",
   "tier_default": "tier-2",
   "prompt_version": "v1-python",
-  "created_at": "2026-05-01T16:21:24.166961+00:00",
+  "created_at": "2026-05-01T16:41:43.805327+00:00",
   "status": "pending",
   "started_at": null,
   "completed_at": null,
   "validation_report": null,
   "pages": [
     {
-      "page": "Rat Cook",
-      "slug": "rat-cook"
+      "page": "Battle of the Blackwater (song)",
+      "slug": "battle-of-the-blackwater-song"
     }
   ]
 }

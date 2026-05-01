@@ -15,25 +15,29 @@ Generated: 2026-05-01
 
 | Entity Type | Count |
 |------------|-------|
-| `skip` | 8,592 |
-| `character.human` | 3,770 |
-| `unknown` | 2,098 |
+| `skip` | 9,170 |
+| `character.human` | 3,765 |
+| `unknown` | 1,211 |
 | `place.location` | 1,045 |
 | `organization.house` | 551 |
-| `title` | 374 |
-| `object.artifact` | 273 |
-| `event.battle` | 221 |
-| `object.text` | 154 |
-| `organization.faction` | 110 |
-| `event.war` | 108 |
-| `object.food` | 69 |
-| `organization.religion` | 57 |
+| `title` | 405 |
+| `object.artifact` | 272 |
+| `event.battle` | 224 |
+| `species` | 181 |
+| `object.text` | 156 |
+| `organization.faction` | 109 |
+| `event.war` | 93 |
+| `object.food` | 73 |
+| `organization.religion` | 58 |
+| `object.material` | 54 |
 | `concept.theory` | 45 |
 | `concept.culture` | 41 |
-| `species` | 40 |
+| `concept.custom` | 37 |
 | `event.tournament` | 35 |
-| `concept.magic` | 30 |
+| `concept.medical` | 34 |
+| `concept.magic` | 28 |
 | `character.dragon` | 28 |
+| `concept.language` | 26 |
 | `place.region` | 10 |
 | `character.direwolf` | 6 |
 
@@ -41,36 +45,36 @@ Generated: 2026-05-01
 
 | Field | Count |
 |-------|-------|
-| `culture` | 6,066 |
-| `allegiance` | 4,150 |
-| `title` | 3,611 |
-| `allegiances` | 2,863 |
-| `titles` | 2,757 |
-| `issue` | 2,396 |
-| `born` | 2,268 |
-| `died` | 2,088 |
-| `books` | 1,946 |
-| `father` | 1,860 |
-| `book` | 1,660 |
-| `aliases` | 1,235 |
-| `region` | 1,139 |
-| `spouse` | 1,055 |
-| `mother` | 993 |
-| `head` | 921 |
-| `page` ⚠ (unmapped) | 680 |
-| `alias` | 678 |
-| `overlord` | 651 |
-| `seat` | 567 |
-| `race` | 555 |
-| `result` | 549 |
-| `place` | 513 |
-| `tv series` | 449 |
-| `played by` | 416 |
-| `coat of arms` | 343 |
-| `pov` ⚠ (unmapped) | 335 |
-| `conflict` | 332 |
-| `overlords` | 330 |
-| `heir` | 311 |
+| `culture` | 6,064 |
+| `allegiance` | 4,141 |
+| `title` | 3,621 |
+| `allegiances` | 2,871 |
+| `titles` | 2,749 |
+| `issue` | 2,391 |
+| `born` | 2,253 |
+| `died` | 2,081 |
+| `books` | 1,950 |
+| `father` | 1,854 |
+| `book` | 1,657 |
+| `aliases` | 1,232 |
+| `region` | 1,145 |
+| `spouse` | 1,046 |
+| `mother` | 987 |
+| `head` | 927 |
+| `alias` | 676 |
+| `page` ⚠ (unmapped) | 676 |
+| `overlord` | 658 |
+| `seat` | 566 |
+| `race` | 551 |
+| `result` | 550 |
+| `place` | 512 |
+| `tv series` | 444 |
+| `played by` | 409 |
+| `coat of arms` | 344 |
+| `conflict` | 335 |
+| `pov` ⚠ (unmapped) | 333 |
+| `overlords` | 329 |
+| `heir` | 313 |
 
 ## Unmapped Infobox Fields (schema signals)
 
@@ -79,43 +83,43 @@ High-count entries may indicate missing edge types.
 
 | Field | Count |
 |-------|-------|
-| `book` | 1,660 |
-| `page` | 680 |
-| `pov` | 335 |
-| `dynasty` | 228 |
-| `full name` | 201 |
-| `founded` | 165 |
-| `original air date` | 88 |
-| `running time` | 88 |
-| `directed by` | 88 |
-| `personal arms` | 77 |
-| `reign` | 50 |
-| `queen` | 36 |
-| `genre(s)` | 33 |
+| `book` | 1,657 |
+| `page` | 676 |
+| `pov` | 333 |
+| `dynasty` | 227 |
+| `full name` | 196 |
+| `founded` | 161 |
+| `original air date` | 84 |
+| `running time` | 84 |
+| `directed by` | 84 |
+| `personal arms` | 75 |
+| `reign` | 49 |
+| `genre(s)` | 34 |
+| `queen` | 33 |
 | `country` | 27 |
 | `released` | 27 |
-| `died out` | 24 |
-| `named for` | 23 |
+| `named for` | 22 |
 | `series` | 22 |
+| `died out` | 22 |
 | `created` | 19 |
+| `dvd release` | 18 |
 | `destroyed` | 17 |
 | `current leader` | 17 |
-| `dvd release` | 16 |
 | `followed&#160;by` | 14 |
-| `organizations` | 13 |
-| `disbanded` | 13 |
+| `network` | 14 |
 | `preceded&#160;by` | 13 |
+| `organizations` | 13 |
+| `disbanded` | 12 |
 | `cadet branch` | 12 |
-| `network` | 12 |
-| `original run` | 12 |
-| `country of origin` | 11 |
-| `coronation` | 11 |
+| `country of origin` | 12 |
+| `original run` | 11 |
+| `coronation` | 10 |
 | `no. of episodes` | 10 |
-| `vassal` | 9 |
+| `vassal` | 8 |
 | `symbol` | 8 |
-| `size` | 8 |
-| `hatched` | 7 |
-| `vassals` | 7 |
-| `colors` | 6 |
+| `hatched` | 8 |
+| `vassals` | 8 |
+| `size` | 7 |
+| `colors` | 7 |
 | `queens` | 6 |
 | `reorganized` | 5 |
