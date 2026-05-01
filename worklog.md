@@ -71,6 +71,8 @@ This is your project memory. When you come back after a break, read Current Stat
 - [x] Wiki Pass 2 v1 — core (37/37 buckets complete; 855 nodes; cost $95.33; per-node $0.111 healthy per Stage-2 cold review)
 - [x] Wiki Pass 2 Stage 2 cold review (Session 24; decision was `remediate`, but overturned same session — see Active Decisions)
 - [x] Wiki Pass 2 Stage 3 — secondary (Session 26; FULL pipeline rebuilt as Python-only after design review showed the Stage 3b agent was inertia-driven. 472 buckets / 3,315 candidate pages → 3,314 nodes promoted. Cumulative graph: 855→4,169 then →4,239 after Tier-1+Tier-2 recovery. Cost $0. Wall-clock ~30 sec total. 0 conflicts.) Canonical pipeline: `working/runbooks/wiki-pass2-pipeline.md` (rewritten as v3).
+- [x] Wiki Pass 2 Stage 3c — audit cleanup (Session 27; 4 audits run, 6 parser bugs fixed, 484 nodes re-emitted across multiple targeted runs. Tier 3 promotion campaign Passes A-D + E Phase 1 added 769 new nodes. Cat 1 orphan edges 7,784→2,955 (62% drop). Stale religion-bleed 0. Edge vocabulary lock holds.)
+- [ ] Wiki Pass 2 Stage 3c — Phase 2 (books + named weapons + locations/events completeness; continue prompt at `progress/continue-prompts/2026-05-01-tier3-pass-e-phase-2.md`).
 - [x] Wiki Pass 2 Stage 0 foundation — alias-resolver built + run (Session 26). 707 broken refs reclaimed via slug-mismatch fix. Empirical signal validates that most remaining "broken" refs are genuinely missing concept entities (concept-pages decision: defer).
 - [ ] Wiki Pass 2 Stage 4 — prose-derived edge discovery (Stage 0 prep complete + cross-references index built; Stage 4 hybrid plan documented in `working/fleet-orchestration-plan.md`. Need to build: edge-candidate-generator script, then prose-edge-classifier agent runs (full prompt ready), then peer review, then promote. Skeleton: `2026-04-27-wiki-pass2-stage4-edge-discovery.md`)
 - [ ] Pass 3 voice/perception agent prompt written
@@ -173,6 +175,28 @@ This is your project memory. When you come back after a break, read Current Stat
 ## Session Log
 
 > Newest first. One entry per work session.
+
+### Session 27 — Stage 3c audit cleanup + Tier 3 promotion campaign + Option C (2026-04-30)
+**Detail:** `working/session-details/session-027.md`
+
+**Changes made:**
+- `scripts/wiki-infobox-parser.py` — UPDATED. 6 parser bug fixes: `PAGE_NAME_TYPE_PATTERNS` regex (war/rebellion/conquest/invasion/guards), expanded `ENTITY_TYPE_OVERRIDES` (Iron Throne→artifact, Triarchy + sellsword companies→faction), `<small>`-aware qualifier handling for religion-bleed, `_DATE_TEXT_RE` extensions for date-bleed, `classify_by_species()` for dragon detection, HEIR/Heirs date-link filter.
+- `scripts/wiki-pass2-build-alias-resolver.py` — UPDATED. `TITLE_WORD_SLUGS` filter + `BARE_DISAMBIGUATION_THRESHOLD=3` filter. Removed `ser → gregor-clegane` and `aegon-targaryen → pisswater-prince` bad mappings.
+- New scripts: `graph-query.py` (read-only investigation CLI), `orphan-edges-audit.py`, `wiki-pass2-duplicate-detector.py`, `stage3-preview-emit.py`, `wiki-pass2-fix-date-bleed-remaining.py`, `wiki-pass2-stage3-house-location-reemit.py`, `wiki-pass2-repromote-targeted.py`, `wiki-pass2-repromote-targeted-2.py`, `wiki-pass2-pass-e-phase1.py`, `wiki-pass2-tier3-pass-{a-titles,b-cultures,c-religions,d-characters}.py`, `wiki-pass2-option-c-prose-merge.py`.
+- 5 audit reports added: `working/audits/{schema-drift-sample,schema-drift-sample-characters,citation-issues,orphan-edges-2026-04-30,2026-04-30b/c/d/e/f,2026-05-01}.md`.
+- 6 buckets: `working/wiki-pass2/tier3-{titles,cultures,religions,characters}/`.
+- `graph/nodes/` — 769 new nodes net (5,008 total). Title 91→546, faction 37→97, religion 4→20, character 3,373→3,557. Plus deletions: 3 sub-page nodes (telltale ×2, theories ×1) + 6 culture variant duplicates merged. 484 nodes re-emitted across multiple targeted re-promotion runs. 544 Stage-1 character nodes had prose-only re-emission (Option C — preserves edges).
+- `working/runbooks/wiki-pass2-pipeline.md` — added Stage 3a/3b/3c framing (corrective vs additive).
+- `working/tier3-promotion-plan.md` — NEW. Multi-pass promotion strategy.
+- `reference/architecture.md` — `graph-query.py` discovery note added.
+- `working/todos.md` — Session 27 audit findings persisted; Stage 3c framing pointer; new sub-task entries for parser bugs + Tier 3 progress.
+- `progress/continue-prompts/2026-05-01-tier3-pass-e-phase-2.md` — NEW. Phase 2 continue prompt with critical-first-step framing (books + named weapons + WRITTEN_BY gap).
+
+**Decisions (compressed):** Stage 3a/3b/3c framing memorialized — corrective (Stage 3c) vs additive (Stage 4) cleanup boundary. Sample-based audits over full-corpus runs (8x cost reduction). Stage 1 character full re-emission deferred until Stage 4 prose-edge-classifier ships (preserves agent-derived narrative edges); Option C as hybrid (prose-only enrichment) approved instead. Variant culture duplicates accepted in Pass B then merged in Phase 1 with aliases on canonicals. `*-telltale` and `*-theories` sub-pages deleted per documented exclusion policy. `*-guards` retyped as `organization.faction` per Matt's call. Bare ambiguous aliases (`ser`, `aegon-targaryen`) filtered from resolver. The big architectural finding: 70.4% of wiki pages classify as `unknown` because the parser doesn't recognize their infobox templates (or they have NO infobox at all — verified Longclaw HTML has no `class="infobox"`). The Playwright scraper got everything; the parser is the bottleneck. ENTITY_TYPE_OVERRIDES is the cheapest fix path, mirroring the Session 27 Iron Throne pattern.
+
+**Counts:** Cat 1 orphan edges 7,784 → 2,955 (62% drop). Cat 2 alias-mismatch 784 → 268. Stale religion-bleed 24 → 0. Date-bleed 199 → 41 (parser-floor). Edge vocabulary violations 0 → 0 (lock holds). Slug-format violations 0 → 0. 8 commits.
+
+**What's next:** Phase 2 of Tier 3 — `progress/continue-prompts/2026-05-01-tier3-pass-e-phase-2.md`. Critical first step: books + named weapons + WRITTEN_BY edge gap (`graph/nodes/artifacts/` near-empty; ~30 books and ~20 named valyrian steel swords confirmed in wiki cache but classify as `unknown`; need ENTITY_TYPE_OVERRIDES + Stage 3 promotion). Then locations/events/factions completeness (~400-600 nodes), concept-page decision (lean defer), final full audits. Acceptance criteria: Cat 1 drops to <500 edges / <100 slugs.
 
 ### Session 26 — Stage 3 Completion + Tier-Recovery + Fleet Architecture + Chat UI Design (2026-04-27 → 2026-04-28)
 **Detail:** `working/session-details/session-026.md`
