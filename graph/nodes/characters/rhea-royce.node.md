@@ -1,0 +1,37 @@
+---
+name: "Rhea Royce"
+type: character.human
+slug: rhea-royce
+aliases: ["Bronze bitch"]
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Rhea_Royce"
+bucket_id: tier3-characters
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Rhea Royce is a character from the AWOIAF wiki.
+
+## Edges
+
+- HOLDS_TITLE: Lady of Runestone (track_b: Title)
+- SWORN_TO: House Royce (track_b: Allegiances)
+- SWORN_TO: House Targaryen (track_b: Allegiances)
+- CULTURE_OF: Valemen (track_b: Culture)
+- SPOUSE_OF: Daemon Targaryen (track_b: Spouse)
+
+## Origins
+
+### Marriage[ ]
+
+In [97 AC](wiki:Years_after_Aegon's_Conquest), Queen [Alysanne Targaryen](wiki:Alysanne_Targaryen) wed her grandson Prince [Daemon Targaryen](wiki:Daemon_Targaryen) to Lady Rhea Royce, the heir to [Runestone](wiki:Runestone).(wiki:Rhea_Royce.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3) Although the marriage was a fine, rich match, the marriage was not a success. Daemon found the [Vale of Arryn](wiki:Vale_of_Arryn) little to his liking and grew bored. He soon developed a dislike for his wife, holding no love or affection toward Rhea, referring to her as his bronze bitch, a mocking reference to the ancient armor of the [Royces](wiki:House_Royce). Rhea likewise had no love for Daemon, and they were soon estranged.(wiki:Rhea_Royce.cite_ref-Rtwoiafthe_targaryen_kings:_viserys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+Shortly after [101 AC](wiki:101_AC), Rhea succeeded Lord [Yorbert Royce](wiki:Yorbert_Royce) as the [Lady of Runestone](wiki:Lady_of_Runestone).(wiki:Rhea_Royce.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4) Meanwhile, Rhea's union with Daemon proved to be barren. Upon the ascension of his brother King [Viserys I](wiki:Viserys_I_Targaryen), Daemon petitioned the king to set aside his marriage, but Viserys denied the request. However, he did allow his brother to return to court to serve on the [small council](wiki:Small_council).(wiki:Rhea_Royce.cite_ref-Rtwoiafthe_targaryen_kings:_viserys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)(wiki:Rhea_Royce.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5) While at court, Daemon acquired the Lady [Mysaria](wiki:Mysaria) as a mistress and impregnated her in [105 AC](wiki:105_AC). After Daemon attempted to give her a [dragon egg](wiki:Dragon_egg), Viserys commanded Daemon to return the egg and return to Lady Rhea at Runestone, or else be attained; Daemon obeyed with ill grace and returned to Rhea's unwelcomed company.(wiki:Rhea_Royce.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+By [106 AC](wiki:106_AC), Daemon had once again left Lady Rhea at Runestone, this time to wage [a war](wiki:War_for_the_Stepstones) over control of the [Stepstones](wiki:Stepstones) with Lord [Corlys Velaryon](wiki:Corlys_Velaryon), declaring that he had suffered all he could of the Vale and his lady wife.(wiki:Rhea_Royce.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7) Daemon later reportedly requested for his marriage to be set aside to wed his niece, Princess [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen), but the king exiled him from the [Seven Kingdoms](wiki:Seven_Kingdoms).(wiki:Rhea_Royce.cite_ref-Rtwoiafthe_targaryen_kings:_viserys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)(wiki:Rhea_Royce.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
+
+### Death and succession[ ]
+
+In [115 AC](wiki:Years_after_Aegon's_Conquest), while she was [hawking](wiki:Hawk) in the Vale,(wiki:Rhea_Royce.cite_ref-Rtwoiafthe_targaryen_kings:_viserys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3) Lady Rhea fell from her horse and cracked her skull upon a stone. She lingered for nine days before finally feeling well enough to leave her bed, only to collapse and die within an hour of rising.(wiki:Rhea_Royce.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
+Upon learning of Rhea's death, Prince Daemon flew from [Bloodstone](wiki:Bloodstone) to put his wife to rest. After arriving in the Vale, however, he claimed the lands, castles, and incomes of [House Royce](wiki:House_Royce). Runestone passed to a nephew of Lady Rhea, however, and Daemon's claim was dismissed by Lady [Jeyne Arryn](wiki:Jeyne_Arryn), who warned him that he was unwelcome in the Vale.(wiki:Rhea_Royce.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)

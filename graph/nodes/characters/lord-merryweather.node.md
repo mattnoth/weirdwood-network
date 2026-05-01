@@ -1,0 +1,31 @@
+---
+name: "Lord Merryweather"
+type: character.human
+slug: lord-merryweather
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Lord_Merryweather"
+bucket_id: tier3-characters
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Lord Merryweather is a character from the AWOIAF wiki.
+
+## Edges
+
+- HOLDS_TITLE: Lord of Longtable (track_b: Title)
+- SWORN_TO: House Merryweather (track_b: Allegiances)
+- SWORN_TO: Blacks (track_b: Allegiances)
+- CULTURE_OF: Reach (track_b: Culture)
+- DIED_AT: Red Keep (track_b: Died) [129 AC]
+- DIED_AT: King's Landing (track_b: Died) [129 AC]
+- SPOUSE_OF: Lady Merryweather (track_b: Spouse) [possibly]
+
+## Origins
+
+At the start of the [Dance of the Dragons](wiki:Dance_of_the_Dragons), Lord Merryweather was arrested and put in the [Red Keep](wiki:Red_Keep)'s dungeons by [Aegon II Targaryen](wiki:Aegon_II_Targaryen)'s supporters for supporting his half-sister, Princess [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen). When given the choice between swearing his allegiance to Aegon II or being killed by the [King's Justice](wiki:King's_Justice), Lord Merryweather was one of the nobles who chose to keep their sworn words and were beheaded for it. Their heads were mounted on spikes above the city’s gates.(wiki:Lord_Merryweather.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+His House, now led by [Lady Merryweather](wiki:Lady_Merryweather), followed his example and continued to support Rhaenyra during the war.(wiki:Lord_Merryweather.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

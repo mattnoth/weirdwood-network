@@ -1,0 +1,37 @@
+---
+name: "Floris Baratheon"
+type: character.human
+slug: floris-baratheon
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/Floris_Baratheon"
+bucket_id: tier3-characters
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Floris Baratheon is a character from the AWOIAF wiki.
+
+## Edges
+
+- HOLDS_TITLE: Goldengrove (track_b: Title)
+- SWORN_TO: House Baratheon (track_b: Allegiances)
+- SWORN_TO: House Rowan (track_b: Allegiances)
+- CULTURE_OF: Stormlander (track_b: Culture)
+- PARENT_OF (reverse): Borros Baratheon (track_b: Father)
+- PARENT_OF (reverse): Elenda Caron (track_b: Mother)
+- SPOUSE_OF: Thaddeus Rowan (track_b: Spouse)
+
+## Appearances & Description
+
+Floris was widely considered to be the prettiest of the [Four Storms](wiki:Four_Storms).(wiki:Floris_Baratheon.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)(wiki:Floris_Baratheon.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) She was a sweet girl, if somewhat frivolous.(wiki:Floris_Baratheon.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+
+## Origins
+
+At the start of the [Dance of the Dragons](wiki:Dance_of_the_Dragons), Prince [Aemond Targaryen](wiki:Aemond_Targaryen) arrived at Storm's End. Lord Borros offered the hand of any of his daughters, noting that Floris was the prettiest. Prince Aemond agreed to a betrothal, though the identity of the daughter is not known, save it was not Maris. The lord and prince were haggling over dates and dowries the morning Prince [Lucerys](wiki:Lucerys_Velaryon) arrived, who claimed he could not marry Floris or any of her sisters due to his betrothal to [Rhaena Targaryen](wiki:Rhaena_Targaryen_(daughter_of_Daemon)), and was sent away by Lord Borros.(wiki:Floris_Baratheon.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+Later, in return for the support of Ser [Perkin the Flea](wiki:Perkin_the_Flea) and the stormlords in restoring King [Aegon II](wiki:Aegon_II_Targaryen) to the [Iron Throne](wiki:Iron_Throne), Floris was betrothed to Lord [Larys Strong](wiki:Larys_Strong) of [Harrenhal](wiki:Harrenhal).(wiki:Floris_Baratheon.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) However, Lord Strong was instead executed by Lord [Cregan Stark](wiki:Cregan_Stark) at the end of the war.(wiki:Floris_Baratheon.cite_ref-Rfabaftermath_-_the_hour_of_the_wolf.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
+Lady Elenda sent Cassandra, Ellyn, and Floris to represent House Baratheon at the coronation of [Aegon III Targaryen](wiki:Aegon_III_Targaryen) and his wedding to Princess [Jaehaera](wiki:Jaehaera_Targaryen).(wiki:Floris_Baratheon.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+After Lady [Baela Targaryen](wiki:Baela_Targaryen) rebuffed Lord [Thaddeus Rowan](wiki:Thaddeus_Rowan)'s proposal of marriage, he was betrothed to the fourteen-year-old Floris in [132 AC](wiki:132_AC), appeasing his wounded pride.(wiki:Floris_Baratheon.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5) She died two years later, in [134 AC](wiki:134_AC) or [135 AC](wiki:135_AC), during childbirth,(wiki:Floris_Baratheon.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6) leaving her husband in a black state.(wiki:Floris_Baratheon.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)

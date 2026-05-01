@@ -1,0 +1,749 @@
+{
+  "bucket_id": "tier3-characters",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1-python",
+  "created_at": "2026-05-01T00:09:57.204013+00:00",
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "pages": [
+    {
+      "page": "Smallfolk",
+      "slug": "smallfolk"
+    },
+    {
+      "page": "209 AC",
+      "slug": "209-ac"
+    },
+    {
+      "page": "130 AC",
+      "slug": "130-ac"
+    },
+    {
+      "page": "129 AC",
+      "slug": "129-ac"
+    },
+    {
+      "page": "Drogon",
+      "slug": "drogon"
+    },
+    {
+      "page": "Alicent Hightower",
+      "slug": "alicent-hightower"
+    },
+    {
+      "page": "Jacaerys Velaryon",
+      "slug": "jacaerys-velaryon"
+    },
+    {
+      "page": "Eustace Osgrey",
+      "slug": "eustace-osgrey"
+    },
+    {
+      "page": "Aerys I Targaryen",
+      "slug": "aerys-i-targaryen"
+    },
+    {
+      "page": "131 AC",
+      "slug": "131-ac"
+    },
+    {
+      "page": "134 AC",
+      "slug": "134-ac"
+    },
+    {
+      "page": "Ormund Hightower",
+      "slug": "ormund-hightower"
+    },
+    {
+      "page": "Rohanne Webber",
+      "slug": "rohanne-webber"
+    },
+    {
+      "page": "Laenor Velaryon",
+      "slug": "laenor-velaryon"
+    },
+    {
+      "page": "Joffrey Velaryon",
+      "slug": "joffrey-velaryon"
+    },
+    {
+      "page": "Addam Velaryon",
+      "slug": "addam-velaryon"
+    },
+    {
+      "page": "Great Council",
+      "slug": "great-council"
+    },
+    {
+      "page": "Summer Isles",
+      "slug": "summer-isles"
+    },
+    {
+      "page": "Shae",
+      "slug": "shae"
+    },
+    {
+      "page": "Torrhen Manderly",
+      "slug": "torrhen-manderly"
+    },
+    {
+      "page": "Lucerys Velaryon",
+      "slug": "lucerys-velaryon"
+    },
+    {
+      "page": "Robert Baratheon",
+      "slug": "robert-baratheon"
+    },
+    {
+      "page": "Jason Lannister",
+      "slug": "jason-lannister"
+    },
+    {
+      "page": "Thenns",
+      "slug": "thenns"
+    },
+    {
+      "page": "Paramour",
+      "slug": "paramour"
+    },
+    {
+      "page": "298 AC",
+      "slug": "298-ac"
+    },
+    {
+      "page": "Laena Velaryon",
+      "slug": "laena-velaryon"
+    },
+    {
+      "page": "Aemon Steelsong",
+      "slug": "aemon-steelsong"
+    },
+    {
+      "page": "Monster",
+      "slug": "monster"
+    },
+    {
+      "page": "Mern IX Gardener",
+      "slug": "mern-ix-gardener"
+    },
+    {
+      "page": "Harwin Strong",
+      "slug": "harwin-strong"
+    },
+    {
+      "page": "Salt wife",
+      "slug": "salt-wife"
+    },
+    {
+      "page": "283 AC",
+      "slug": "283-ac"
+    },
+    {
+      "page": "Alys Rivers",
+      "slug": "alys-rivers"
+    },
+    {
+      "page": "Alysanne Blackwood",
+      "slug": "alysanne-blackwood"
+    },
+    {
+      "page": "Boremund Baratheon",
+      "slug": "boremund-baratheon"
+    },
+    {
+      "page": "Aemma Arryn",
+      "slug": "aemma-arryn"
+    },
+    {
+      "page": "Alayaya",
+      "slug": "alayaya"
+    },
+    {
+      "page": "Meria Martell",
+      "slug": "meria-martell"
+    },
+    {
+      "page": "Bastards",
+      "slug": "bastards"
+    },
+    {
+      "page": "Mysaria",
+      "slug": "mysaria"
+    },
+    {
+      "page": "Halleck Hoare",
+      "slug": "halleck-hoare"
+    },
+    {
+      "page": "Rhea Royce",
+      "slug": "rhea-royce"
+    },
+    {
+      "page": "Shagga",
+      "slug": "shagga"
+    },
+    {
+      "page": "Cassandra Baratheon",
+      "slug": "cassandra-baratheon"
+    },
+    {
+      "page": "Widow of the Waterfront",
+      "slug": "widow-of-the-waterfront"
+    },
+    {
+      "page": "Alyssa Targaryen",
+      "slug": "alyssa-targaryen"
+    },
+    {
+      "page": "Bella",
+      "slug": "bella"
+    },
+    {
+      "page": "Lord Staunton",
+      "slug": "lord-staunton"
+    },
+    {
+      "page": "Oscar Tully",
+      "slug": "oscar-tully"
+    },
+    {
+      "page": "Sharna",
+      "slug": "sharna"
+    },
+    {
+      "page": "Bartimos Celtigar",
+      "slug": "bartimos-celtigar"
+    },
+    {
+      "page": "Gwayne Hightower",
+      "slug": "gwayne-hightower"
+    },
+    {
+      "page": "Camp follower",
+      "slug": "camp-follower"
+    },
+    {
+      "page": "Monfryd I Durrandon",
+      "slug": "monfryd-i-durrandon"
+    },
+    {
+      "page": "Floris Baratheon",
+      "slug": "floris-baratheon"
+    },
+    {
+      "page": "Loreon Lannister",
+      "slug": "loreon-lannister"
+    },
+    {
+      "page": "Man-at-arms",
+      "slug": "man-at-arms"
+    },
+    {
+      "page": "Harmund II Hoare",
+      "slug": "harmund-ii-hoare"
+    },
+    {
+      "page": "Vaemond Velaryon",
+      "slug": "vaemond-velaryon"
+    },
+    {
+      "page": "Goddess of the wind",
+      "slug": "goddess-of-the-wind"
+    },
+    {
+      "page": "Humfrey Bracken",
+      "slug": "humfrey-bracken"
+    },
+    {
+      "page": "Sea god",
+      "slug": "sea-god"
+    },
+    {
+      "page": "Manfred Hightower",
+      "slug": "manfred-hightower"
+    },
+    {
+      "page": "Elenda Caron",
+      "slug": "elenda-caron"
+    },
+    {
+      "page": "Ellyn Baratheon",
+      "slug": "ellyn-baratheon"
+    },
+    {
+      "page": "Gerold II Lannister",
+      "slug": "gerold-ii-lannister"
+    },
+    {
+      "page": "Maris Baratheon",
+      "slug": "maris-baratheon"
+    },
+    {
+      "page": "Gunthor Darklyn",
+      "slug": "gunthor-darklyn"
+    },
+    {
+      "page": "Maekar Targaryen",
+      "slug": "maekar-targaryen"
+    },
+    {
+      "page": "Walda Frey",
+      "slug": "walda-frey"
+    },
+    {
+      "page": "Three Daughters",
+      "slug": "three-daughters"
+    },
+    {
+      "page": "Monfryd V Durrandon",
+      "slug": "monfryd-v-durrandon"
+    },
+    {
+      "page": "Gendry's mother",
+      "slug": "gendrys-mother"
+    },
+    {
+      "page": "Serenei of Lys",
+      "slug": "serenei-of-lys"
+    },
+    {
+      "page": "Lord Blacktyde",
+      "slug": "lord-blacktyde"
+    },
+    {
+      "page": "Manfred Dondarrion",
+      "slug": "manfred-dondarrion"
+    },
+    {
+      "page": "Mermaid",
+      "slug": "mermaid"
+    },
+    {
+      "page": "Mya Stone's mother",
+      "slug": "mya-stones-mother"
+    },
+    {
+      "page": "Targaryen",
+      "slug": "targaryen"
+    },
+    {
+      "page": "Jaehaerys Targaryen",
+      "slug": "jaehaerys-targaryen"
+    },
+    {
+      "page": "Leo Tyrell",
+      "slug": "leo-tyrell"
+    },
+    {
+      "page": "Ronnel Arryn",
+      "slug": "ronnel-arryn"
+    },
+    {
+      "page": "Stark",
+      "slug": "stark"
+    },
+    {
+      "page": "Daella Targaryen",
+      "slug": "daella-targaryen"
+    },
+    {
+      "page": "Megette",
+      "slug": "megette"
+    },
+    {
+      "page": "Maris the Maid",
+      "slug": "maris-the-maid"
+    },
+    {
+      "page": "Lucas Lothston",
+      "slug": "lucas-lothston"
+    },
+    {
+      "page": "Aenys Targaryen",
+      "slug": "aenys-targaryen"
+    },
+    {
+      "page": "Alester II Arryn",
+      "slug": "alester-ii-arryn"
+    },
+    {
+      "page": "Bharbo",
+      "slug": "bharbo"
+    },
+    {
+      "page": "Bronn of the Blackwater",
+      "slug": "bronn-of-the-blackwater"
+    },
+    {
+      "page": "Cymmeri",
+      "slug": "cymmeri"
+    },
+    {
+      "page": "Dondarrion",
+      "slug": "dondarrion"
+    },
+    {
+      "page": "Garth the Gardener",
+      "slug": "garth-the-gardener"
+    },
+    {
+      "page": "Harrag Hoare",
+      "slug": "harrag-hoare"
+    },
+    {
+      "page": "Harron Harlaw",
+      "slug": "harron-harlaw"
+    },
+    {
+      "page": "Lanna",
+      "slug": "lanna"
+    },
+    {
+      "page": "Lord Merryweather",
+      "slug": "lord-merryweather"
+    },
+    {
+      "page": "Serra",
+      "slug": "serra"
+    },
+    {
+      "page": "Zoqora",
+      "slug": "zoqora"
+    },
+    {
+      "page": "Aegon Targaryen",
+      "slug": "aegon-targaryen"
+    },
+    {
+      "page": "Rhaena Targaryen",
+      "slug": "rhaena-targaryen"
+    },
+    {
+      "page": "Aemon Targaryen",
+      "slug": "aemon-targaryen"
+    },
+    {
+      "page": "Daeron Targaryen",
+      "slug": "daeron-targaryen"
+    },
+    {
+      "page": "Black Walder Frey",
+      "slug": "black-walder-frey"
+    },
+    {
+      "page": "Baelon Targaryen",
+      "slug": "baelon-targaryen"
+    },
+    {
+      "page": "Bracken",
+      "slug": "bracken"
+    },
+    {
+      "page": "Baelor Targaryen",
+      "slug": "baelor-targaryen"
+    },
+    {
+      "page": "Greyjoy",
+      "slug": "greyjoy"
+    },
+    {
+      "page": "Corbray",
+      "slug": "corbray"
+    },
+    {
+      "page": "Damon Lannister",
+      "slug": "damon-lannister"
+    },
+    {
+      "page": "Gaemon Targaryen",
+      "slug": "gaemon-targaryen"
+    },
+    {
+      "page": "Aegon Frey",
+      "slug": "aegon-frey"
+    },
+    {
+      "page": "Baelish",
+      "slug": "baelish"
+    },
+    {
+      "page": "Blackwood",
+      "slug": "blackwood"
+    },
+    {
+      "page": "Children",
+      "slug": "children"
+    },
+    {
+      "page": "Mormont",
+      "slug": "mormont"
+    },
+    {
+      "page": "Robert Frey",
+      "slug": "robert-frey"
+    },
+    {
+      "page": "Roland Crakehall",
+      "slug": "roland-crakehall"
+    },
+    {
+      "page": "Vaella Targaryen",
+      "slug": "vaella-targaryen"
+    },
+    {
+      "page": "Aerys Targaryen",
+      "slug": "aerys-targaryen"
+    },
+    {
+      "page": "Charlton",
+      "slug": "charlton"
+    },
+    {
+      "page": "Clegane",
+      "slug": "clegane"
+    },
+    {
+      "page": "Farman",
+      "slug": "farman"
+    },
+    {
+      "page": "Peake",
+      "slug": "peake"
+    },
+    {
+      "page": "Sunderly",
+      "slug": "sunderly"
+    },
+    {
+      "page": "Alayne",
+      "slug": "alayne"
+    },
+    {
+      "page": "Belmore",
+      "slug": "belmore"
+    },
+    {
+      "page": "Connington",
+      "slug": "connington"
+    },
+    {
+      "page": "Costayne",
+      "slug": "costayne"
+    },
+    {
+      "page": "Fossoway",
+      "slug": "fossoway"
+    },
+    {
+      "page": "Glover",
+      "slug": "glover"
+    },
+    {
+      "page": "Lord Butterwell",
+      "slug": "lord-butterwell"
+    },
+    {
+      "page": "Lyonel Tyrell",
+      "slug": "lyonel-tyrell"
+    },
+    {
+      "page": "Maegelle",
+      "slug": "maegelle"
+    },
+    {
+      "page": "Maegor Targaryen",
+      "slug": "maegor-targaryen"
+    },
+    {
+      "page": "Mengo",
+      "slug": "mengo"
+    },
+    {
+      "page": "Oakheart",
+      "slug": "oakheart"
+    },
+    {
+      "page": "Penrose",
+      "slug": "penrose"
+    },
+    {
+      "page": "Royce",
+      "slug": "royce"
+    },
+    {
+      "page": "Serrett",
+      "slug": "serrett"
+    },
+    {
+      "page": "Vaegon",
+      "slug": "vaegon"
+    },
+    {
+      "page": "Whent",
+      "slug": "whent"
+    },
+    {
+      "page": "143 AC",
+      "slug": "143-ac"
+    },
+    {
+      "page": "157 AC",
+      "slug": "157-ac"
+    },
+    {
+      "page": "286 AC",
+      "slug": "286-ac"
+    },
+    {
+      "page": "Addam of Hull",
+      "slug": "addam-of-hull"
+    },
+    {
+      "page": "Alysanne",
+      "slug": "alysanne"
+    },
+    {
+      "page": "Ball",
+      "slug": "ball"
+    },
+    {
+      "page": "Beesbury",
+      "slug": "beesbury"
+    },
+    {
+      "page": "Bessa",
+      "slug": "bessa"
+    },
+    {
+      "page": "Borrell",
+      "slug": "borrell"
+    },
+    {
+      "page": "Caswell",
+      "slug": "caswell"
+    },
+    {
+      "page": "Cleon II",
+      "slug": "cleon-ii"
+    },
+    {
+      "page": "Darklyn",
+      "slug": "darklyn"
+    },
+    {
+      "page": "Erich III Durrandon",
+      "slug": "erich-iii-durrandon"
+    },
+    {
+      "page": "Fat Walda Frey",
+      "slug": "fat-walda-frey"
+    },
+    {
+      "page": "Fell",
+      "slug": "fell"
+    },
+    {
+      "page": "Florent",
+      "slug": "florent"
+    },
+    {
+      "page": "Garland II",
+      "slug": "garland-ii"
+    },
+    {
+      "page": "Grafton",
+      "slug": "grafton"
+    },
+    {
+      "page": "Hardyng",
+      "slug": "hardyng"
+    },
+    {
+      "page": "Hunter",
+      "slug": "hunter"
+    },
+    {
+      "page": "Josua",
+      "slug": "josua"
+    },
+    {
+      "page": "Lady Smallwood",
+      "slug": "lady-smallwood"
+    },
+    {
+      "page": "Leygood",
+      "slug": "leygood"
+    },
+    {
+      "page": "Lord Baelish",
+      "slug": "lord-baelish"
+    },
+    {
+      "page": "Lord Mormont",
+      "slug": "lord-mormont"
+    },
+    {
+      "page": "Martell",
+      "slug": "martell"
+    },
+    {
+      "page": "Massey",
+      "slug": "massey"
+    },
+    {
+      "page": "Meera",
+      "slug": "meera"
+    },
+    {
+      "page": "Mullendore",
+      "slug": "mullendore"
+    },
+    {
+      "page": "Piper",
+      "slug": "piper"
+    },
+    {
+      "page": "Prester",
+      "slug": "prester"
+    },
+    {
+      "page": "Ryswell",
+      "slug": "ryswell"
+    },
+    {
+      "page": "Staunton",
+      "slug": "staunton"
+    },
+    {
+      "page": "Swann",
+      "slug": "swann"
+    },
+    {
+      "page": "Tiger-woman",
+      "slug": "tiger-woman"
+    },
+    {
+      "page": "Velaryon",
+      "slug": "velaryon"
+    },
+    {
+      "page": "Waynwood",
+      "slug": "waynwood"
+    },
+    {
+      "page": "Whitehead",
+      "slug": "whitehead"
+    },
+    {
+      "page": "Willow",
+      "slug": "willow"
+    },
+    {
+      "page": "Woodhull",
+      "slug": "woodhull"
+    }
+  ]
+}
