@@ -7,26 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Tytos_Lannister's_first_mistress"
 bucket_id: characters-house-lannister-r-w
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Tytos Lannister's first mistress was a lowborn woman who served as a wet nurse for House Lannister. Her name is unknown (wiki:Tytos_Lannister's_first_mistress).
-
 ## Origins
 
-She was originally Gerion Lannister's wet nurse (wiki:Tytos_Lannister's_first_mistress.cite_ref-TWOIAF).
-
-## Allegiances
-
-She is `SWORN_TO` House Lannister (track_b: Allegiance). Her culture is Westermen (track_b: Culture). She is `LOVER_OF` Tytos Lannister (track_b: Lover).
-
-## Narrative Arc
-
-Lady Jeyne Marbrand died not long after giving birth to Gerion Lannister in 255 AC. During the War of the Ninepenny Kings in 260 AC, Lord Tytos remained at Casterly Rock with his mistress rather than dealing with ruling the westerlands. By 267 AC, the wet nurse had been replaced by Tytos's second mistress (wiki:Tytos_Lannister's_first_mistress.cite_ref-TWOIAF).
+Lady [Jeyne Marbrand](wiki:Jeyne_Marbrand) died not long after giving birth to [Gerion Lannister](wiki:Gerion_Lannister) in [255 AC](wiki:Years_after_Aegon's_Conquest). During the [War of the Ninepenny Kings](wiki:War_of_the_Ninepenny_Kings) in [260 AC](wiki:260_AC), Lord [Tytos Lannister](wiki:Tytos_Lannister) remained at [Casterly Rock](wiki:Casterly_Rock) with his mistress, Gerion's young wet nurse. Tytos often retreated to her comforts rather than deal with ruling the [westerlands](wiki:Westerlands). By [267 AC](wiki:Years_after_Aegon's_Conquest), the wet nurse had been replaced by [Tytos's second mistress](wiki:Tytos_Lannister's_second_mistress).(wiki:Tytos_Lannister's_first_mistress.cite_ref-Rtwoiafthe_westerlands:_house_lannister_under_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
 ## Edges
 

@@ -7,26 +7,22 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Joffrey_Arryn"
 bucket_id: characters-house-arryn
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Joffrey Arryn was a Knight of the Gate from House Arryn who became Lord of the Eyrie during the reign of King Aegon III Targaryen. He was a fourth cousin of Lady Jeyne Arryn (wiki:Joffrey_Arryn).
-
 ## Origins
 
-Born 109 AC (track_b: Born). Died approximately 136–196 AC (track_b: Died).
+Ser Joffrey became the [Knight of the Gate](wiki:Knight_of_the_Gate) in [124 AC](wiki:Years_after_Aegon's_Conquest) and served his fourth cousin [Jeyne Arryn](wiki:Jeyne_Arryn), the [Lady of the Eyrie](wiki:Lady_of_the_Eyrie), for ten years before her death in [134 AC](wiki:134_AC). When she died, Lady Jeyne named Ser Joffrey as her heir in her last testament, although Ser [Arnold Arryn](wiki:Arnold_Arryn) was more closely related to her. However, as Ser Arnold had twice tried to depose her and had been imprisoned for it, he was disinherited from the line of Arryn succession.(wiki:Joffrey_Arryn.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
 
-## Allegiances
+However, tensions brewed on Jeyne's death between those who supported Jeyne's chosen successor and those who supported Ser Arnold. Many [lords](wiki:Lord) flocked to Ser Arnold's son, Ser [Eldric](wiki:Eldric_Arryn), insisting that the [laws](wiki:Law_and_justice_of_the_Seven_Kingdoms) of [inheritance](wiki:Inheritance) could not be put aside by "the whim of a dying woman." Additionally, [Isembard Arryn](wiki:Isembard_Arryn), head of [House Arryn of Gulltown](wiki:House_Arryn_of_Gulltown), emerged as a third claimant to the [Eyrie](wiki:Eyrie).(wiki:Joffrey_Arryn.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
 
-`SWORN_TO` House Arryn (track_b: Allegiance). `CULTURE_OF` Valemen (track_b: Culture). `HOLDS_TITLE` Ser, Knight of the Gate, Lord of the Eyrie, Defender of the Vale, Warden of the East (track_b: Titles).
+One of the young king [Aegon III Targaryen](wiki:Aegon_III_Targaryen)'s [regents](wiki:Regency_of_Aegon_III), Ser [Corwyn Corbray](wiki:Corwyn_Corbray), ruled that Lady Jeyne's will must prevail and declared Ser Joffrey the rightful Lord of the Eyrie. Isembard Arryn and his sons were imprisoned, and Ser Eldric was executed, but Ser Arnold eluded the knight and fled to [Runestone](wiki:Runestone), where Ser Corwyn was struck down by a crossbowman once he drew [Lady Forlorn](wiki:Lady_Forlorn).(wiki:Joffrey_Arryn.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
 
-## Narrative Arc
+Striking down the king's regent was an act of treason, and [war](wiki:Arryn_Succession_Conflict_(134_AC)) began anew across the [Vale of Arryn](wiki:Vale_of_Arryn). Houses [Corbray](wiki:House_Corbray), [Hunter](wiki:House_Hunter), [Crayne](wiki:House_Crayne) and [Redfort](wiki:House_Redfort) supported Ser Joffrey's claim, and the [Hand of the King](wiki:Hand_of_the_King), Lord [Thaddeus Rowan](wiki:Thaddeus_Rowan), commanded the lords supporting Ser Arnold and Isembard to lay down their arms. When no reply was forthcoming, the crown sent men through the [Mountains of the Moon](wiki:Mountains_of_the_Moon) and launched a sea attack to support Ser Joffrey's claim.(wiki:Joffrey_Arryn.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
 
-Joffrey served as Knight of the Gate for Lady Jeyne Arryn for ten years before her death in 134 AC. In her will, Jeyne named Joffrey as heir over closer kinsmen (Arnold Arryn was a first cousin but had been imprisoned for rebellion). Arnold's son Eldric and Isembard Arryn of Gulltown also pressed claims. Ser Corwyn Corbray upheld Jeyne's will, but war erupted when Arnold's supporters refused to submit. Corwyn was killed at Runestone. The crown intervened: Alyn Velaryon and Benjicot Blackwood forced all rivals to do homage to Lord Joffrey by 136 AC (wiki:Joffrey_Arryn).
+By the time the new regents were chosen by lot in [136 AC](wiki:136_AC), Lord [Alyn Velaryon](wiki:Alyn_Velaryon) and Lord [Benjicot Blackwood](wiki:Benjicot_Blackwood) had at last forced the supporters of Isembard and Arnold to do homage to Lord Joffrey as their liege.(wiki:Joffrey_Arryn.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
 
 ## Edges
 

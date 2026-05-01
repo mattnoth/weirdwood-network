@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Rhae_Targaryen
 bucket_id: characters-house-targaryen-o-s
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -16,23 +16,19 @@ first_available:
   pov: Cat of the Canals
 ---
 
-## Identity
-
-Princess Rhae Targaryen was a noblewoman of House Targaryen, the second daughter and youngest child of King Maekar I Targaryen and Lady Dyanna Dayne (wiki:Rhae_Targaryen.cite_ref-twoiaf_appendix).
-
 ## Origins
 
-Born 201–209 AC (track_b: Born). Valyrian race, Crownlands culture (track_b: Race, Culture).
+Rhae was the youngest child of Prince [Maekar Targaryen](wiki:Maekar_I_Targaryen) and his wife, Lady [Dyanna Dayne](wiki:Dyanna_Dayne). She had four older brothers, [Daeron](wiki:Daeron_Targaryen_(son_of_Maekar_I)), [Aerion](wiki:Aerion_Targaryen), [Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I)) and [Aegon](wiki:Aegon_V_Targaryen), and one older sister, [Daella](wiki:Daella_Targaryen_(daughter_of_Maekar_I)).(wiki:Rhae_Targaryen.cite_ref-Rtwoiafappendix:_targaryen_lineage.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
 
-## Allegiances
+Once, in her youth, Rhae gave a [love potion](wiki:Love_potion) to her youngest brother, [Aegon](wiki:Aegon_V_Targaryen), so he would marry her instead of Daella,(wiki:Rhae_Targaryen.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) to whom Aegon may have been betrothed.(wiki:Rhae_Targaryen.cite_ref-5)
 
-`SWORN_TO` House Targaryen (track_b: Allegiance).
+Later in life, Rhae was married, and had children.(wiki:Rhae_Targaryen.cite_ref-Raffc35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 
 ## Narrative Arc
 
-Rhae had four older brothers — Daeron, Aerion, Aemon, and Aegon — and one older sister, Daella. In her youth, Rhae gave a love potion to her youngest brother Aegon so he would marry her instead of Daella (wiki:Rhae_Targaryen.cite_ref-sworn_sword). She later married and had children, though the identity of her husband is unknown (wiki:Rhae_Targaryen.cite_ref-Raffc35).
+### A Feast for Crows
 
-In AFFC, dying Maester Aemon wonders if he will go to a heaven where he will hear his sisters Rhae and Daella singing to their children (wiki:Rhae_Targaryen.cite_ref-Raffc35).
+While on his deathbed on a voyage from [Braavos](wiki:Braavos) to [Oldtown](wiki:Oldtown), Maester [Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I)) wonders if, when he dies, he will go to a [heaven](wiki:Seven_heavens) where he will hear his sisters Rhae and Daella singing to their children.(wiki:Rhae_Targaryen.cite_ref-Raffc35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
 
 ## Edges
 

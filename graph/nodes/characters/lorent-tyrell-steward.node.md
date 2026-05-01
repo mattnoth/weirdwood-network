@@ -7,26 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Lorent_Tyrell_(steward)
 bucket_id: characters-house-tyrell-a-l
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Lorent Tyrell was a member of House Tyrell and a High Steward of the Reach during the reign of Mern VI Gardener, King of the Reach (wiki:Lorent_Tyrell_steward.cite_ref-Rtwoiaf1).
-
 ## Origins
 
-Son of Ser Robert Tyrell and a Gardener princess (track_b: Father, Mother).
-
-## Allegiances
-
-`SWORN_TO` House Tyrell (track_b: Allegiances). `SWORN_TO` House Gardener (track_b: Allegiances).
-
-## Narrative Arc
-
-Lorent succeeded his father, Ser Robert Tyrell, as High Steward. He continued his father's and grandfather's work in aiding King Mern VI in the reconstruction of the Reach after a Dornish raid that had sacked Highgarden and killed the senile King Garth X Gardener (wiki:Lorent_Tyrell_steward.cite_ref-Rtwoiaf1).
+Lorent succeeded his father, Ser [Robert Tyrell](wiki:Robert_Tyrell), as High Steward. He continued his father's and [grandfather's](wiki:Osmund_Tyrell) work in aiding his king, [Mern VI](wiki:Mern_VI_Gardener), in the reconstruction of the [Reach](wiki:Reach) after the [Dornish](wiki:Dorne) raid that had sacked [Highgarden](wiki:Highgarden) and killed the senile old king [Garth X Gardener](wiki:Garth_X_Gardener).(wiki:Lorent_Tyrell_(steward).cite_ref-Rtwoiaf_andals_in_the_reach.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
 
 ## Edges
 

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Tristimun
 bucket_id: characters-house-targaryen-t-y
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ASOS
@@ -16,17 +16,9 @@ first_available:
   pov: "Bran I"
 ---
 
-## Identity
+## Origins
 
-Ser Tristimun was a knight who commanded the sea watch during the reign of King Aerys II Targaryen (wiki:Tristimun).
-
-## Allegiances
-
-`SWORN_TO` House Targaryen (track_b: Allegiances). `MEMBER_OF` the sea watch (track_b: Allegiances). `CULTURE_OF` Crownlands (track_b: Culture).
-
-## Narrative Arc
-
-Smugglers were executed whenever they were caught by old Tristimun and his sea watch (wiki:Tristimun, cite: ASOS Davos II).
+[Smugglers](wiki:Smuggler) were executed whenever they were caught by old Tristimun and his [sea watch](wiki:Sea_watch).(wiki:Tristimun.cite_ref-Rasos10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
 
 ## Edges
 

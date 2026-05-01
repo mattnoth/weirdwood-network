@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lord_Tully_(father_of_Hoster)"
 bucket_id: characters-house-tully
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: "AGOT"
@@ -16,21 +16,15 @@ first_available:
   pov: "Bran I"
 ---
 
-## Identity
-
-Lord Tully was the Lord of Riverrun and head of House Tully during the early reign of King Aerys II Targaryen. He was the father of Hoster Tully and Brynden Tully (wiki:Lord_Tully_(father_of_Hoster)).
-
 ## Origins
 
-Born approximately 228 AC (track_b: Born). A follower of the Faith of the Seven (wiki:Lord_Tully_(father_of_Hoster)).
+He became the head of his house after the death of the [successor of Medgar](wiki:Lord_Tully_(successor_of_Medgar)).(wiki:Lord_Tully_(father_of_Hoster).cite_ref-Succession_3-0)
 
-## Allegiances
+When he passed away, he was sent down the [Red Fork](wiki:Red_Fork) in a boat following the [Tully](wiki:House_Tully) funeral [customs](wiki:Customs). The boat was set aflame by his eldest son, [Hoster](wiki:Hoster_Tully), who fired a fire arrow. Hoster missed his first shot but his second arrow found the sail.(wiki:Lord_Tully_(father_of_Hoster).cite_ref-Rasos35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
 
-`SWORN_TO` House Tully (track_b: Allegiance). `CULTURE_OF` Rivermen (track_b: Culture). `HOLDS_TITLE` Lord of Riverrun, Lord Paramount of the Trident (track_b: Titles).
+## Appearances & Description
 
-## Narrative Arc
-
-He became head of House Tully after the death of his predecessor, the successor of Medgar Tully. When he passed away, he was sent down the Red Fork in a boat following Tully funeral customs. His eldest son Hoster fired a flaming arrow to set the boat alight, missing his first shot but finding the sail with his second (wiki:Lord_Tully_(father_of_Hoster)).
+He was a follower of the [Faith of the Seven](wiki:Faith_of_the_Seven).(wiki:Lord_Tully_(father_of_Hoster).cite_ref-Ragot2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
 
 ## Edges
 

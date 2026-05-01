@@ -7,22 +7,16 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Lew_(guard)
 bucket_id: characters-house-stark-h-p
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: "AGOT Catelyn II"
 ---
 
-## Identity
-
-Lew is a member of the guard at Winterfell (wiki:Lew_(guard)).
-
-## Allegiances
-
-`SWORN_TO` House Stark (track_b: Allegiance). `CULTURE_OF` Northmen (track_b: Culture).
-
 ## Narrative Arc
 
-After practicing in the yard, Lew and Donnis help Prince Tommen Baratheon and Bran Stark out of their armor (wiki:Lew_(guard).cite_ref-Ragot7).
+### A Game of Thrones
+
+After practicing in the yard, Lew, together with [Donnis](wiki:Donnis), helps Prince [Tommen Baratheon](wiki:Tommen_Baratheon) and [Bran Stark](wiki:Bran_Stark) out of their armor.(wiki:Lew_(guard).cite_ref-Ragot7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
 
 ## Edges
 

@@ -7,26 +7,20 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Rogin_Salt-Beard
 bucket_id: characters-house-greyjoy-g-r
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Rogin Salt-Beard is an ironborn raider, one of Euron Greyjoy's captains or sworn swords (wiki:Rogin_Salt-Beard).
-
-## Allegiances
-
-He is `SWORN_TO` House Greyjoy (track_b: Allegiance). He is `CULTURE_OF` the ironborn (track_b: Culture).
-
 ## Appearances & Description
 
-Rogin has a beard (wiki:Rogin_Salt-Beard.cite_ref-Forsaken).
+Rogin has a beard.(wiki:Rogin_Salt-Beard.cite_ref-Forsaken_1-2)
 
 ## Narrative Arc
 
-Rogin feasts in the ruins of a castle near the Arbor with some of Euron's men. He takes part in mocking Aeron Greyjoy when the Damphair is brought up from the hold of the *Silence* (wiki:Rogin_Salt-Beard.cite_ref-Forsaken).
+### The Winds of Winter
+
+Rogin feasts in the ruins of a castle near the [Arbor](wiki:Arbor) with some of Euron's men, and he takes part in mocking [Aeron Greyjoy](wiki:Aeron_Greyjoy) when the latter is brought up from the hold of the *[Silence](wiki:Silence)*.(wiki:Rogin_Salt-Beard.cite_ref-Forsaken_1-3)
 
 ## Edges
 

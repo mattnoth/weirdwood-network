@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Brandon_Stark_(son_of_Cregan)"
 bucket_id: characters-house-stark-b-h
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -16,17 +16,13 @@ first_available:
   pov: "Jon VIII"
 ---
 
-## Identity
-
-Brandon Stark was the Lord of Winterfell and Warden of the North, the youngest son of Lord Cregan Stark and Lady Lynara Stark (track_b: Father, Mother). He was born between 140–183 AC and died between 184–212 AC (track_b: Born, Died).
-
 ## Origins
 
-Son of Cregan Stark and Lynara Stark, Cregan's third wife (track_b: Father, Mother). Married Alys Karstark (track_b: Spouse).
+Brandon succeeded his brother [Barthogan](wiki:Barthogan_Stark) as [Lord of Winterfell](wiki:Lord_of_Winterfell) at some time during the reign of King [Daeron II Targaryen](wiki:Daeron_II_Targaryen).(wiki:Brandon_Stark_(son_of_Cregan).cite_ref-Rtwoiafthe_north:_the_stoneborn_of_skagos.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
 
-## Allegiances
+Brandon married Lady [Alys Karstark](wiki:Alys_Karstark_(wife_of_Brandon)), with whom he had three children: [Rodwell](wiki:Rodwell_Stark), [Beron](wiki:Beron_Stark) and [Arsa Stark](wiki:Arsa_Stark).(wiki:Brandon_Stark_(son_of_Cregan).cite_ref-Rtwoiafappendix:_stark_lineage.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-7) Before his [marriage](wiki:Marriage),(wiki:Brandon_Stark_(son_of_Cregan).cite_ref-5) he had an affair with [Wylla Fenn](wiki:Wylla_Fenn) which resulted in a [bastard](wiki:Bastard) son, [Lonnel Snow](wiki:Lonnel_Snow).(wiki:Brandon_Stark_(son_of_Cregan).cite_ref-Rtwoiafappendix:_stark_lineage.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-8)
 
-Brandon was `SWORN_TO` House Stark (track_b: Allegiance) and `HOLDS_TITLE` Lord of Winterfell and Warden of the North (track_b: Titles). He belonged to `CULTURE_OF` Northmen (track_b: Culture).
+Brandon is buried in the [crypts of Winterfell](wiki:Crypts_of_Winterfell).(wiki:Brandon_Stark_(son_of_Cregan).cite_ref-Racok69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 
 ## Edges
 

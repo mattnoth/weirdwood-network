@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Mallor_the_Dornishman
 bucket_id: characters-house-lannister-j-q
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: AGOT
@@ -17,21 +17,11 @@ first_available:
   pov: "Tyrion VIII"
 ---
 
-## Identity
-
-Mallor the Dornishman is a sellsword in service to House Lannister (wiki:Mallor_the_Dornishman).
-
-## Origins
-
-Born in Dorne (track_b: Born). `CULTURE_OF` Dornishmen (track_b: Culture).
-
-## Allegiances
-
-`SWORN_TO` House Lannister (track_b: Allegiance).
-
 ## Narrative Arc
 
-Mallor is part of Ser Jaime Lannister's force besieging Riverrun. He is captured in the battle in the Whispering Wood (wiki:Mallor_the_Dornishman.cite_ref-Ragot63).
+### A Game of Thrones
+
+Mallor is part of Ser [Jaime Lannister](wiki:Jaime_Lannister)'s force besieging [Riverrun](wiki:Riverrun). He is captured in the [battle in the Whispering Wood](wiki:Battle_in_the_Whispering_Wood).(wiki:Mallor_the_Dornishman.cite_ref-Ragot63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
 
 ## Edges
 

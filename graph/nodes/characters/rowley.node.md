@@ -7,26 +7,16 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Rowley
 bucket_id: characters-house-targaryen-o-s
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
+## Origins
 
-Maester Rowley was a maester trained at the Citadel who became Lord Confessor for King Aegon III Targaryen (wiki:Rowley).
+Rowley studied at the [Citadel](wiki:Citadel) under Archmaester [Sandeman](wiki:Sandeman), a wise healer.(wiki:Rowley.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
 
-## Allegiances
-
-`SWORN_TO` The Citadel (track_b: Allegiances). `SWORN_TO` House Targaryen (track_b: Allegiances).
-
-## Narrative Arc
-
-Rowley studied at the Citadel under Archmaester Sandeman, a wise healer. After the downfall of George Graceford, young Rowley was appointed Lord Confessor in 136 AC by Lord Torrhen Manderly, the Hand of the King. Grand Maester Munkun recommended him, noting that a man who knows how to ease pain also knows how to inflict it, and that the role needed someone who saw the work as duty, not pleasure (wiki:Rowley).
-
-## Quotes
-
-- "A man who knows how to ease pain will also know how to inflict it, but it is also important that we have a Lord Confessor who sees his work as duty, not pleasure." — Munkun, recommending Rowley (wiki:Rowley)
+After the downfall of [George Graceford](wiki:George_Graceford), young Rowley was appointed as the new [Lord Confessor](wiki:Lord_Confessor) by Lord [Torrhen Manderly](wiki:Torrhen_Manderly), the [Hand of the King](wiki:Hand_of_the_King), in [136 AC](wiki:136_AC).(wiki:Rowley.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
 ## Edges
 

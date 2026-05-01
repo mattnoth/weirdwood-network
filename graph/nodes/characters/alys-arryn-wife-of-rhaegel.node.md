@@ -7,26 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alys_Arryn_(wife_of_Rhaegel)"
 bucket_id: characters-house-arryn
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Alys Arryn was a noblewoman of House Arryn who married Prince Rhaegel Targaryen, the third son of King Daeron II Targaryen (wiki:Alys_Arryn_(wife_of_Rhaegel)).
-
 ## Origins
 
-Born approximately 144–197 AC (track_b: Born). Died 196 AC (track_b: Died).
-
-## Allegiances
-
-`SWORN_TO` House Arryn (track_b: Allegiances). `SWORN_TO` House Targaryen (track_b: Allegiances) [by marriage]. `CULTURE_OF` Valemen (track_b: Culture).
-
-## Narrative Arc
-
-Lady Alys was the third match between Houses Targaryen and Arryn, following Rodrik Arryn's marriage to Princess Daella Targaryen and Aemma Arryn's marriage to Viserys I Targaryen. She married Prince Rhaegel and bore three children: the twins Aelor and Aelora, and daughter Daenora (wiki:Alys_Arryn_(wife_of_Rhaegel)).
+Lady Alys was the third match to be made between [House Targaryen](wiki:House_Targaryen) and [House Arryn](wiki:House_Arryn), following the past unions of [Rodrik Arryn](wiki:Rodrik_Arryn) to Princess [Daella Targaryen](wiki:Daella_Targaryen_(daughter_of_Jaehaerys_I)) and Daella's daughter [Aemma Arryn](wiki:Aemma_Arryn) to [Viserys I Targaryen](wiki:Viserys_I_Targaryen). She married Prince [Rhaegel](wiki:Rhaegel_Targaryen) and bore him three children; the twins [Aelor](wiki:Aelor_Targaryen) and [Aelora](wiki:Aelora_Targaryen), and daughter [Daenora](wiki:Daenora_Targaryen).(wiki:Alys_Arryn_(wife_of_Rhaegel).cite_ref-Rtwoiafappendix:_targaryen_lineage.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 
 ## Edges
 

@@ -7,24 +7,16 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Ysabel
 bucket_id: characters-house-targaryen-t-y
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
+## Origins
 
-Septa Ysabel was a septa of the Faith of the Seven during the reign of Jaehaerys I Targaryen and one of the "Wise Women" (wiki:Ysabel).
+Ysabel was part of the retinue sent to [Dragonstone](wiki:Dragonstone) by Queen Regent [Alyssa Velaryon](wiki:Alyssa_Velaryon), alongside novices [Lyra](wiki:Lyra) and [Edyth](wiki:Edyth). She was sent to see to Alysanne's religious instruction and expected to impress upon Alysanne, and perhaps even Jaehaerys, that the Faith considered [incest](wiki:Incest) an abomination so the couple would then consent to the annullment of their marriage.(wiki:Ysabel.cite_ref-Rfaba_surfeit_of_rulers.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
 
-## Allegiances
-
-`SWORN_TO` House Targaryen (track_b: Allegiances). `CLERGY_OF` Faith of the Seven (track_b: Allegiances).
-
-## Narrative Arc
-
-Ysabel was part of the retinue sent to Dragonstone by Queen Regent Alyssa Velaryon, alongside novices Lyra and Edyth, to see to Alysanne's religious instruction and impress upon her that the Faith considered incest an abomination, hoping the couple would consent to annulment of their marriage (wiki:Ysabel, cite: Fire & Blood, A Surfeit of Rulers).
-
-Later, after King Jaehaerys wed Alysanne, Jaehaerys sent seven preachers — the Seven Speakers — to walk the realm and win the smallfolk over. Septa Ysabel was among them. They traveled from village to village, telling the smallfolk of Jaehaerys's wisdom and Alysanne's kindness, and when challenged on incest, spread the Doctrine of Exceptionalism (wiki:Ysabel, cite: Fire & Blood, A Time of Testing - The Realm Remade).
+After King [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen) wed his sister, [Alysanne](wiki:Alysanne_Targaryen), Jaehaerys sent seven preachers to walk the realm and win the small folk over to the marriage, not with swords, but with words. Septa Ysabel was among these [Seven Speakers](wiki:Seven_Speakers). They traveled the realm alone, walking from village to village, telling the [smallfolk](wiki:Smallfolk) of Jaehaerys's wisdom and Alysanne's kindness. When challenged on the issue of [incest](wiki:Incest), they would spread the [Doctrine of Exceptionalism](wiki:Doctrine_of_Exceptionalism).(wiki:Ysabel.cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
 
 ## Edges
 

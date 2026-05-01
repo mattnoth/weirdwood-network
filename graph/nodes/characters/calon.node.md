@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Calon"
 bucket_id: characters-house-stark-b-h
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -16,17 +16,19 @@ first_available:
   pov: "Tyrion I"
 ---
 
-## Identity
+## Narrative Arc
 
-Calon is a Northman sworn to House Stark, the son of Cayn, a guard who died in Eddard Stark's service in King's Landing (track_b: Father).
+### A Game of Thrones
 
-## Origins
+Calon's father, [Cayn](wiki:Cayn), is killed by [Sandor Clegane](wiki:Sandor_Clegane) in [King's Landing](wiki:King's_Landing).(wiki:Calon.cite_ref-Ragot49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
 
-Son of Cayn (track_b: Father).
+### A Clash of Kings
 
-## Allegiances
+Calon plays [lord of the crossing](wiki:Lord_of_the_crossing) with the [Frey](wiki:House_Frey) wards, [Big Walder](wiki:Walder_Frey_(son_of_Jammos)) and [Little Walder](wiki:Walder_Frey_(son_of_Merrett)).(wiki:Calon.cite_ref-Racok4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) It is unknown what happened to Calon after the [sack of Winterfell](wiki:Sack_of_Winterfell).
 
-Calon is `SWORN_TO` House Stark (track_b: Allegiance) and belongs to `CULTURE_OF` Northmen (track_b: Culture).
+### A Storm of Swords
+
+The women and children of Winterfell are said to have been taken by [Ramsay Snow](wiki:Ramsay_Snow) to the [Dreadfort](wiki:Dreadfort).(wiki:Calon.cite_ref-Rasos35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) It is unknown if Calon is with them or if he died in the [sack of Winterfell](wiki:Sack_of_Winterfell).
 
 ## Edges
 

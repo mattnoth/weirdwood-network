@@ -7,25 +7,13 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Lyarra_Stark
 bucket_id: characters-house-stark-h-p
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 ---
 
-## Identity
-
-Lyarra Stark was a noblewoman of House Stark, daughter of Rodrik Stark and Arya Flint, and younger sister of Branda Stark (wiki:Lyarra_Stark).
-
 ## Origins
 
-Born between 215–250 AC (track_b: Born). Died between 267–299 AC (track_b: Died). Father: Rodrik Stark (track_b: Father). Mother: Arya Flint (track_b: Mother).
-
-## Allegiances
-
-`SWORN_TO` House Stark (track_b: Allegiance). `CULTURE_OF` Northmen (track_b: Culture).
-
-## Narrative Arc
-
-Lyarra married her first cousin once removed, Rickard Stark, Lord of Winterfell and Warden of the North. Together they had four children: Brandon, Eddard, Lyanna, and Benjen Stark (wiki:Lyarra_Stark). When asked about Eddard Stark's mother, George R. R. Martin responded simply: "Lady Stark. She died." (wiki:Lyarra_Stark).
+Lyarra married her first cousin once removed, [Rickard Stark](wiki:Rickard_Stark), the [Lord of Winterfell](wiki:Lord_of_Winterfell) and [Warden of the North](wiki:Warden_of_the_North). Together they had four children: [Brandon](wiki:Brandon_Stark), [Eddard](wiki:Eddard_Stark), [Lyanna](wiki:Lyanna_Stark), and [Benjen Stark](wiki:Benjen_Stark).(wiki:Lyarra_Stark.cite_ref-Rtwoiafappendix:_stark_lineage.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
 
 ## Edges
 

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Uller
 bucket_id: characters-house-greyjoy-s-w
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -16,17 +16,11 @@ first_available:
   pov: "Jon III"
 ---
 
-## Identity
-
-Uller is an ironborn sailor sworn to House Greyjoy. He is not related to the Dornish House Uller. (wiki:Uller)
-
-## Allegiances
-
-Uller is `SWORN_TO` House Greyjoy. (track_b: Allegiance) He is of `CULTURE_OF` ironborn culture. (track_b: Culture)
-
 ## Narrative Arc
 
-Uller was encountered by Theon Greyjoy and his sister Asha (disguised as Esgred) at Lordsport, along with Qarl the Maid and Skyte. (wiki:Uller.cite_ref-Racok24)
+### A Clash of Kings
+
+Uller and two of his companions, [Qarl](wiki:Qarl_the_Maid) and [Skyte](wiki:Skyte), encounter [Theon](wiki:Theon_Greyjoy) and [Asha Greyjoy](wiki:Asha_Greyjoy) in [Lordsport](wiki:Lordsport). There they recount the story of the death of Skyte's brother, [Eldiss](wiki:Eldiss). Asha believes that Theon should make them part of his crew.(wiki:Uller.cite_ref-Racok24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
 
 ## Edges
 

@@ -7,30 +7,28 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Rodrik_Arryn"
 bucket_id: characters-house-arryn
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Rodrik Arryn was Lord of the Eyrie and head of House Arryn during the reign of King Jaehaerys I Targaryen (wiki:Rodrik_Arryn).
-
 ## Origins
 
-Born 44 AC (track_b: Born). Died approximately 82–97 AC (track_b: Died). Son of Rymond Arryn (track_b: Father).
+Rodrik became the [Lord of the Eyrie](wiki:Lord_of_the_Eyrie) at the age of ten after the death of his [uncle](wiki:Darnold_Arryn) and [father](wiki:Rymond_Arryn) at the hands of [mountain clan](wiki:Vale_mountain_clans) raiders.(wiki:Rodrik_Arryn.cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 
-## Allegiances
+Rodrik's sister served as a companion to Queen [Alysanne Targaryen](wiki:Alysanne_Targaryen) at [Dragonstone](wiki:Dragonstone) when the queen was pregnant with Prince [Aemon](wiki:Aemon_Targaryen_(son_of_Jaehaerys_I)) in [55 AC](wiki:Years_after_Aegon's_Conquest).(wiki:Rodrik_Arryn.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
 
-`SWORN_TO` House Arryn (track_b: Allegiance). `CULTURE_OF` Valemen (track_b: Culture). `HOLDS_TITLE` Lord of the Eyrie, Defender of the Vale, Warden of the East, Master of Laws, Lord Justiciar (track_b: Titles).
+Rodrik was named [lord justiciar](wiki:Lord_justiciar) and [master of laws](wiki:Master_of_laws) by King [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen) in [59 AC](wiki:59_AC). He had four children with his first wife: two daughters, [Elys](wiki:Elys_Arryn) and [Amanda](wiki:Amanda_Arryn), and two sons.(wiki:Rodrik_Arryn.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-12)
+
+As King Jaehaerys I's and his sister-wife, Queen Alysanne's, daughter Princess [Daella's](wiki:Daella_Targaryen_(daughter_of_Jaehaerys_I)) sixteenth [nameday](wiki:Nameday) approached a suitable candidate for her to [wed](wiki:Marriage) was needed by the end of the year [80 AC](wiki:Years_after_Aegon's_Conquest). Among the [lords](wiki:Lord) that contended for her hand were, [Boremund Baratheon](wiki:Boremund_Baratheon) of [Storm's End](wiki:Storm's_End), [Tymond Lannister](wiki:Tymond_Lannister) of [Casterly Rock](wiki:Casterly_Rock), and Rodrik. Daella chose Rodrik for she found him the kindest.(wiki:Rodrik_Arryn.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-13)
+
+Rodrik then took his wife back to the Eyrie, resigning his position on the [small council](wiki:Small_council). Daella fell pregnant after a year and a half of marriage and died of childbed fever after their daughter, [Aemma](wiki:Aemma_Arryn), was born in [82 AC](wiki:Years_after_Aegon's_Conquest).(wiki:Rodrik_Arryn.cite_ref-Rtwoiafthe_targaryen_kings:_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)(wiki:Rodrik_Arryn.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-14)
 
 ## Appearances & Description
 
-Short, balding by thirty-six with a kettle belly. Sensible, knowledgeable, good-humored, a great asset to Jaehaerys's small council. Able, strong but just, affable, open-handed, loved by smallfolk and lords alike (wiki:Rodrik_Arryn).
+Rodrik was short.(wiki:Rodrik_Arryn.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-8) By the age of thirty-six, he was balding and had a kettle belly.(wiki:Rodrik_Arryn.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-9)
 
-## Narrative Arc
-
-Rodrik became Lord of the Eyrie at age ten after his father Rymond and uncle Darnold were killed by mountain clans in 54 AC. He served as lord justiciar and master of laws for King Jaehaerys I (wiki:Rodrik_Arryn). He had four children with his first wife: two daughters (Elys and Amanda) and two sons. When Princess Daella Targaryen's sixteenth nameday approached, she chose Rodrik as husband because she found him the kindest. Rodrik took Daella to the Eyrie, resigning his council position. Daella died of childbed fever after bearing their daughter Aemma in 82 AC (wiki:Rodrik_Arryn). Aemma later married Prince Viserys Targaryen, whose descendants include every subsequent Targaryen king and Robert I Baratheon (wiki:Rodrik_Arryn).
+A leal friend of both King [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen) and his wife, Queen [Alysanne](wiki:Alysanne_Targaryen), Rodrik was sensible, knowledgeable, good-humored and a great asset to Jaehaerys's [small council](wiki:Small_council).(wiki:Rodrik_Arryn.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-10) Despite becoming [Lord of the Eyrie](wiki:Lord_of_the_Eyrie) at the age of ten, he proved to be an able lord, strong but just, affable, open-handed, loved by both the [smallfolk](wiki:Smallfolk) and his lords [bannermen](wiki:Bannermen).(wiki:Rodrik_Arryn.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-11)
 
 ## Edges
 

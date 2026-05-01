@@ -7,30 +7,18 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Ollidar
 bucket_id: characters-house-targaryen-o-s
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Ollidar was an archmaester of the Citadel who became the first Grand Maester, serving under King Aegon I Targaryen (wiki:Ollidar).
-
 ## Origins
 
-He was the keeper of histories at the Citadel. His archmaester's ring, rod, and mask were bronze (wiki:Ollidar).
-
-## Allegiances
-
-`SWORN_TO` The Citadel (track_b: Allegiances). `SWORN_TO` House Targaryen (track_b: Allegiances).
+Although King [Aegon I Targaryen](wiki:Aegon_I_Targaryen) already had [maesters](wiki:Maesters) of his own, in [5 AC](wiki:5_AC) he asked the [Citadel](wiki:Citadel) for an archmaester to advise him on governing the [Seven Kingdoms](wiki:Seven_Kingdoms). The [Conclave](wiki:Conclave) selected the experienced Archmaester Ollidar, the keeper of histories. The new Grand Maester was exceptionally old, however, and he died less than a year after his appointment. Ollidar was succeeded as Grand Maester by Archmaester [Lyonce](wiki:Lyonce).(wiki:Ollidar.cite_ref-Rfabthree_heads_had_the_dragon_-_governance_under_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 
 ## Appearances & Description
 
-Exceptionally learned and exceptionally old at the time of his appointment (wiki:Ollidar).
-
-## Narrative Arc
-
-In 5 AC, King Aegon I asked the Citadel for an archmaester to advise him on governing the Seven Kingdoms. The Conclave selected Ollidar, the experienced keeper of histories. He died less than a year after his appointment, becoming the first and shortest-serving Grand Maester. He was succeeded by Archmaester Lyonce (wiki:Ollidar).
+Ollidar was exceptionally learned. While he was an archmaester, his ring, rod, and mask were [bronze](wiki:Bronze).(wiki:Ollidar.cite_ref-Rfabthree_heads_had_the_dragon_-_governance_under_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)(wiki:Ollidar.cite_ref-2)
 
 ## Edges
 

@@ -8,26 +8,18 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jonos_Arryn"
 bucket_id: characters-house-arryn
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Jonos Arryn, known as Jonos the Kinslayer, was a member of House Arryn and the younger brother of Ronnel Arryn, the last King of Mountain and Vale (wiki:Jonos_Arryn).
-
 ## Origins
 
-Born approximately 16 BC (track_b: Born). Died 37 AC at the Eyrie (track_b: Died). Mother was Sharra Arryn (track_b: Mother).
+In [37 AC](wiki:37_AC), at the start of the reign of King [Aenys I Targaryen](wiki:Aenys_I_Targaryen), Jonos rose in [rebellion](wiki:Jonos_Arryn's_rebellion). He deposed and imprisoned his own brother and declared himself [King of Mountain and Vale](wiki:King_of_Mountain_and_Vale). In response King Aenys I commanded his [Hand of the King](wiki:Hand_of_the_King), Lord [Alyn Stokeworth](wiki:Alyn_Stokeworth), to sail to the [Vale](wiki:Vale_of_Arryn) and deal with the usurper. That order was recalled out of fear that [Harren the Red](wiki:Harren_the_Red), a rebel from the [riverlands](wiki:Riverlands), might infiltrate [King's Landing](wiki:King's_Landing).(wiki:Jonos_Arryn.cite_ref-Rtwoiafthe_targaryen_kings:_aenys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)(wiki:Jonos_Arryn.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 
-## Allegiances
+Taking matter into own hands, Lord [Allard Royce](wiki:Allard_Royce) of [Runestone](wiki:Runestone) gathered forces to sweep away Jonos's supporters, penning him at the [Eyrie](wiki:Eyrie). However, this led Jonos to send his brother flying out of the [Moon Door](wiki:Moon_Door), earning him the nickname Jonos the [Kinslayer](wiki:Kinslaying).(wiki:Jonos_Arryn.cite_ref-Rtwoiafthe_targaryen_kings:_aenys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)(wiki:Jonos_Arryn.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 
-`SWORN_TO` House Arryn (track_b: Allegiance). `CULTURE_OF` Valemen (track_b: Culture). `HOLDS_TITLE` Prince (pre-Conquest), claimant to King of Mountain and Vale (track_b: Titles).
-
-## Narrative Arc
-
-In 37 AC, at the start of Aenys I Targaryen's reign, Jonos rebelled, deposed and imprisoned his brother Ronnel, and declared himself King of Mountain and Vale. Lord Allard Royce of Runestone penned Jonos at the Eyrie, but Jonos threw Ronnel through the Moon Door, earning the epithet "the Kinslayer" (wiki:Jonos_Arryn). Jonos remained defiant until Prince Maegor Targaryen flew to the Eyrie on Balerion. Rather than face dragonfire, Jonos's own garrison seized him and delivered him through the Moon Door. Maegor ordered all of Jonos's followers hanged (wiki:Jonos_Arryn). The Arryn line continued through their cousin Hubert (wiki:Jonos_Arryn).
+Jonos and his garrison remained defiant until Prince [Maegor Targaryen](wiki:Maegor_I_Targaryen) flew to the Eyrie atop the [dragon](wiki:Dragon) [Balerion](wiki:Balerion). Rather than face the fire, Jonos was seized by his garrison and delivered to Lord Royce through the Moon Door. Surrender saved Jonos's followers from burning, but not from death. All of them were hanged per the orders of Maegor, who denied the highborn rebels the honor of beheading.(wiki:Jonos_Arryn.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)(wiki:Jonos_Arryn.cite_ref-Rtwoiafthe_targaryen_kings:_aenys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3) [House Arryn](wiki:House_Arryn) continued through a kinsman after Ronnel and Jonos' deaths, a cousin, [Hubert Arryn](wiki:Hubert_Arryn).(wiki:Jonos_Arryn.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)(wiki:Jonos_Arryn.cite_ref-Rtwoiafthe_vale:_house_arryn.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
 
 ## Edges
 

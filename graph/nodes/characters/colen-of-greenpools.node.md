@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Colen_of_Greenpools"
 bucket_id: characters-house-baratheon
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -16,21 +16,15 @@ first_available:
   pov: "Bran III"
 ---
 
-## Identity
-
-Ser Colen of Greenpools is a knight from Greenpools in service to Renly Baratheon (wiki:Colen_of_Greenpools).
-
-## Allegiances
-
-`SWORN_TO` House Baratheon (track_b: Allegiance).
-
 ## Appearances & Description
 
-Colen is grizzled, with a grey beard. His coat-of-arms features bluejays (wiki:Colen_of_Greenpools).
+Colen is grizzled, with a grey beard. His coat-of-arms has [bluejays](wiki:Bluejay).(wiki:Colen_of_Greenpools.cite_ref-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
 ## Narrative Arc
 
-Ser Colen met Lady Catelyn Tully's party at the head of Renly Baratheon's outriders and escorted her to Renly's camp at Bitterbridge, where they witnessed the end of a great melee (wiki:Colen_of_Greenpools).
+### A Clash of Kings
+
+Ser Colen meets Lady [Catelyn Tully](wiki:Catelyn_Tully)'s party at the head of [Renly Baratheon](wiki:Renly_Baratheon)'s outriders. He escorts Catelyn to Renly's camp at [Bitterbridge](wiki:Bitterbridge), where they see the end of [a great melee](wiki:Melee_at_Bitterbridge).(wiki:Colen_of_Greenpools.cite_ref-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 
 ## Edges
 

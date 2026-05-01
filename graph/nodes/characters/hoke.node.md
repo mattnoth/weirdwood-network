@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Hoke
 bucket_id: characters-house-lannister-b-j
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -17,17 +17,11 @@ first_available:
   pov: "The Captain of Guards"
 ---
 
-## Identity
-
-Hoke, known as Hoke the Horseleg, is a guard in service with House Lannister (wiki:Hoke).
-
-## Allegiances
-
-`SWORN_TO` House Lannister (track_b: Allegiance).
-
 ## Narrative Arc
 
-Hoke is present when Queen Cersei Lannister offers the position of Hand of the King to her brother, Ser Jaime Lannister. Hoke is within earshot when Jaime refuses her (wiki:Hoke, cite_ref-Raffc3).
+### A Feast for Crows
+
+Hoke is present when Queen [Cersei Lannister](wiki:Cersei_Lannister) offers the position of [Hand of the King](wiki:Hand_of_the_King) to her brother, Ser [Jaime Lannister](wiki:Jaime_Lannister). Hoke is within earshot when Jaime refuses her.(wiki:Hoke.cite_ref-Raffc3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
 
 ## Edges
 

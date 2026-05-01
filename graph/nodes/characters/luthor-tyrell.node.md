@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Luthor_Tyrell
 bucket_id: characters-house-tyrell-a-l
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ASOS
@@ -16,29 +16,29 @@ first_available:
   pov: "Davos I"
 ---
 
-## Identity
-
-Lord Luthor Tyrell was the Lord of Highgarden and head of House Tyrell. He is the father of the current lord, Mace Tyrell (wiki:Luthor_Tyrell.cite_ref-Rasos6).
-
 ## Origins
 
-Born in or before 237 AC (track_b: Born). Died between 255 and 281 AC (track_b: Died).
+Luthor was betrothed to Princess [Shaera Targaryen](wiki:Shaera_Targaryen) in [237 AC](wiki:Years_after_Aegon's_Conquest) when he was the heir to Highgarden, but the pact was broken in [240 AC](wiki:Years_after_Aegon's_Conquest) when she married her brother, Prince [Jaehaerys Targaryen](wiki:Jaehaerys_II_Targaryen).(wiki:Luthor_Tyrell.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_v.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) He later married [Olenna Redwyne](wiki:Olenna_Redwyne), who gave him three children, and at some point became the Lord of Highgarden.(wiki:Luthor_Tyrell.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-11)(wiki:Luthor_Tyrell.cite_ref-Rasosappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
 
-## Allegiances
-
-`SWORN_TO` House Tyrell (track_b: Allegiance).
+Luthor rode off a cliff to his death while [hawking](wiki:Hawk). He had been looking up at the sky, and not paying attention to where his [horse](wiki:Horse) was going.(wiki:Luthor_Tyrell.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-12) After his death he was succeeded by his only son, Mace Tyrell.(wiki:Luthor_Tyrell.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-13)
 
 ## Appearances & Description
 
-Luthor's wife, Olenna Redwyne, considered him a kind man and skilled in bed, but nevertheless an oaf (wiki:Luthor_Tyrell.cite_ref-Rasos6).
+Luthor's wife, [Olenna Redwyne](wiki:Olenna_Redwyne), considered him to be a kind man, and skilled in bed, but nevertheless an oaf.(wiki:Luthor_Tyrell.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
 
 ## Narrative Arc
 
-Luthor was betrothed to Princess Shaera Targaryen in 237 AC when he was heir to Highgarden, but the pact was broken in 240 AC when she married her brother Prince Jaehaerys Targaryen (wiki:Luthor_Tyrell.cite_ref-Rtwoiaf3). He later married Olenna Redwyne, who gave him three children: Mace, Mina, and Janna. Luthor rode off a cliff to his death while hawking — he had been looking up at the sky and not paying attention to where his horse was going (wiki:Luthor_Tyrell.cite_ref-Rasos6). After his death he was succeeded by his only son, Mace Tyrell.
+### A Storm of Swords
+
+Luthor's widow, Lady [Olenna Tyrell](wiki:Olenna_Tyrell), tells [Sansa Stark](wiki:Sansa_Stark) that she loved her husband "well enough", but still considered him an oaf, and cites the example of his death.(wiki:Luthor_Tyrell.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-14)
+
+After meeting Olenna Tyrell at the [royal wedding](wiki:Purple_Wedding) of King [Joffrey I Baratheon](wiki:Joffrey_Baratheon), [Tyrion Lannister](wiki:Tyrion_Lannister) ponders if Luthor rode off that cliff on purpose.(wiki:Luthor_Tyrell.cite_ref-Rasos60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
 
 ## Quotes
 
-"My lord oaf, I call him. I loved the man, I won't deny it, and he gave me three good children, but oh, he was oafish." — Olenna Redwyne about Luthor (wiki:Luthor_Tyrell.cite_ref-Rasos6)
+> Oh, I loved him well enough, don't mistake me. A kind man, and not unskilled in the bedchamber, but an appalling oaf all the same.(wiki:Luthor_Tyrell.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-15)
+>
+> —[Olenna Tyrell](wiki:Olenna_Tyrell) to [Sansa Stark](wiki:Sansa_Stark)
 
 ## Edges
 

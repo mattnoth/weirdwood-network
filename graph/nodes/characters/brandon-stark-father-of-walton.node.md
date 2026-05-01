@@ -8,30 +8,18 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Brandon_Stark_(father_of_Walton)"
 bucket_id: characters-house-stark-a-b
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Brandon Stark, called Brandon the Boastful, was the Lord of Winterfell and head of House Stark during the early reign of King Jaehaerys I Targaryen (wiki:Brandon_Stark_(father_of_Walton)).
-
 ## Origins
 
-Died 49 AC at Winterfell. Succeeded Roderick Stark as Lord of Winterfell (wiki:Brandon_Stark_(father_of_Walton)).
+Brandon succeeded [Roderick Stark](wiki:Roderick_Stark) as [Lord of Winterfell](wiki:Lord_of_Winterfell) and [Warden of the North](wiki:Warden_of_the_North).(wiki:Brandon_Stark_(father_of_Walton).cite_ref-Roderick_4-0)
 
-## Allegiances
+In [49 AC](wiki:49_AC), Lord Brandon attended the [wedding](wiki:Golden_Wedding) of [Rogar Baratheon](wiki:Rogar_Baratheon) and [Alyssa Velaryon](wiki:Alyssa_Velaryon) in [King's Landing](wiki:King's_Landing) with his sons [Walton](wiki:Walton_Stark_(son_of_Brandon)) and [Alaric](wiki:Alaric_Stark), despite his ailing. They were accompanied by a dozen bannermen and thirty members of the [Night's Watch](wiki:Night's_Watch). While there, Brandon spoke with the young king [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen), profoundly praising him by claiming "I see his [grandsire](wiki:Aegon_I_Targaryen) in him."(wiki:Brandon_Stark_(father_of_Walton).cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 
-`SWORN_TO` House Stark (track_b: Allegiance). `CULTURE_OF` Northmen (track_b: Culture).
-
-## Narrative Arc
-
-In 49 AC, Lord Brandon attended the wedding of Rogar Baratheon and Alyssa Velaryon in King's Landing with his sons Walton and Alaric. While there, he spoke with the young King Jaehaerys I, praising him: "I see his grandsire in him." Brandon died soon after returning to Winterfell, the northmen believing the strenuous journey was too much for him (wiki:Brandon_Stark_(father_of_Walton)).
-
-## Quotes
-
-- "I see his grandsire in him." — speaking of King Jaehaerys I Targaryen (wiki:Brandon_Stark_(father_of_Walton))
+Brandon died soon after returning to [Winterfell](wiki:Winterfell), the northmen believing that the strenuous journey was too much for him. Brandon was succeeded as Lord of Winterfell by his eldest son Walton.(wiki:Brandon_Stark_(father_of_Walton).cite_ref-Rfaba_surfeit_of_rulers.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 
 ## Edges
 

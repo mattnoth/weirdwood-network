@@ -7,22 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Mara_Martell
 bucket_id: characters-house-martell-a-m
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
+## Origins
 
-Princess Mara Martell was the Princess of Dorne and Lady of Sunspear (wiki:Mara_Martell). She `HOLDS_TITLE` Princess of Dorne and Lady of Sunspear (track_b: Titles).
-
-## Allegiances
-
-`SWORN_TO` House Martell (track_b: Allegiance). `CULTURE_OF` Dornishmen (track_b: Culture).
-
-## Narrative Arc
-
-Mara Martell ruled as Princess of Dorne. She died between 83 and 101 AC (track_b: Died).
+Mara became the ruling Princess of Dorne in [83 AC](wiki:83_AC) after the death of Prince [Morion Martell](wiki:Morion_Martell) in the [Fourth Dornish War](wiki:Fourth_Dornish_War).(wiki:Mara_Martell.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
 
 ## Edges
 

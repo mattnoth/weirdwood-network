@@ -7,17 +7,13 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Matthos_Tyrell
 bucket_id: characters-house-tyrell-l-w
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 ---
 
-## Identity
+## Origins
 
-Lord Matthos Tyrell was the Lord of Highgarden and head of House Tyrell in the late reign of King Jaehaerys I Targaryen or the early reign of King Viserys I Targaryen. He died between 101–129 AC (wiki:Matthos_Tyrell).
-
-## Allegiances
-
-`SWORN_TO` House Tyrell (track_b: Allegiance). `CULTURE_OF` the Reach (track_b: Culture).
+Lord Matthos attended the [Great Council of 101 AC](wiki:Great_Council_of_101_AC) with a huge retinue of five hundred [bannermen](wiki:Bannermen), [men-at-arms](wiki:Men-at-arms), and servants, outshining Lord [Tymond Lannister](wiki:Tymond_Lannister), who only numbered three hundred retainers.(wiki:Matthos_Tyrell.cite_ref-Rtwoiafhouse_lannister_under_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)(wiki:Matthos_Tyrell.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
 
 ## Edges
 

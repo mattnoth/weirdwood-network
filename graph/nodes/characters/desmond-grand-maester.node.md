@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Desmond_(Grand_Maester)
 bucket_id: characters-house-targaryen-b-d
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ASOS
@@ -16,17 +16,11 @@ first_available:
   pov: "Jaime II"
 ---
 
-## Identity
+## Origins
 
-Desmond was a maester of the Citadel who served as Grand Maester during the reign of King Maegor I Targaryen (wiki:Desmond_(Grand_Maester)).
+After Queen [Alys Harroway](wiki:Alys_Harroway) went into premature labor in [44 AC](wiki:44_AC), Desmond assisted in the delivery. When the queen gave birth to a severely-deformed stillborn child, the furious King [Maegor I Targaryen](wiki:Maegor_I_Targaryen) blamed everyone who had assisted in the delivery, and later Alys herself for her supposed infidelity. The king eventually ordered the executions of Alys, her lord father [Lucas](wiki:Lucas_Harroway), her septas and midwives, and Desmond.(wiki:Desmond_(Grand_Maester).cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)(wiki:Desmond_(Grand_Maester).cite_ref-Rtwoiafthe_targaryen_kings:_maegor_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
 
-## Allegiances
-
-`SWORN_TO` The Citadel (track_b: Allegiances). `SWORN_TO` House Targaryen (track_b: Allegiances).
-
-## Narrative Arc
-
-After Queen Alys Harroway went into premature labor in 44 AC, Desmond assisted in the delivery. When the queen gave birth to a severely-deformed stillborn child, King Maegor blamed everyone who had assisted. Maegor eventually ordered the executions of Alys, her father Lucas, her septas and midwives, and Desmond. He died in 44 AC in King's Landing (track_b: Died). Desmond was one of three Grand Maesters executed during Maegor's reign, the others being Gawen and Myros (wiki:Desmond_(Grand_Maester)).
+Desmond was one of three [Grand Maesters](wiki:Grand_Maester) who were executed during Maegor's reign,(wiki:Desmond_(Grand_Maester).cite_ref-Rasos12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) the others being [Gawen](wiki:Gawen) and [Myros](wiki:Myros).
 
 ## Edges
 

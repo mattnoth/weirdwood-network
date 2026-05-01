@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Kym"
 bucket_id: characters-house-tully
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: "ACOK"
@@ -16,17 +16,9 @@ first_available:
   pov: "Tyrion X"
 ---
 
-## Identity
+## Origins
 
-Maester Kym was the maester assigned to Riverrun when Lord Hoster Tully's children were young. He is deceased and was succeeded by Maester Vyman (wiki:Kym).
-
-## Allegiances
-
-`HOLDS_TITLE` Maester (track_b: Title). `SWORN_TO` Citadel (track_b: Allegiances). `SWORN_TO` House Tully (track_b: Allegiances).
-
-## Narrative Arc
-
-Old Maester Kym prepared moon tea for Lysa Tully when she was pregnant with Petyr Baelish's child (wiki:Kym, cite: ACOK Catelyn VI, ASOS Sansa VII).
+Old Maester Kym prepared [moon tea](wiki:Moon_tea) for [Lysa Tully](wiki:Lysa_Arryn) when she was pregnant with [Petyr Baelish](wiki:Petyr_Baelish)'s child.(wiki:Kym.cite_ref-Rasos80.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 
 ## Edges
 

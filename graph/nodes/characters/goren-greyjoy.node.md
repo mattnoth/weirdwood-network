@@ -7,21 +7,17 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Goren_Greyjoy
 bucket_id: characters-house-greyjoy-a-g
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 ---
 
-## Identity
+## Origins
 
-Goren Greyjoy was the Lord of the Iron Islands and Lord Reaper of Pyke, the second to hold those titles under Targaryen rule. He served during the final years of Aegon I's reign and the reign of Aenys I Targaryen (wiki:Goren_Greyjoy).
+Goren was the son and heir of Lord [Vickon Greyjoy](wiki:Vickon_Greyjoy), who ruled the [Iron Islands](wiki:Iron_Islands) in the name of [Aegon I Targaryen](wiki:Aegon_I_Targaryen). Having allowed [septons](wiki:Septon) of the [Faith of the Seven](wiki:Faith_of_the_Seven) to preach on the islands, Vickon's decree angered pious [ironborn](wiki:Ironborn) and priests of the [Drowned God](wiki:Drowned_God), but Vickon reminded Goren that he was Aegon's man and that only a fool would rise against [House Targaryen](wiki:House_Targaryen) and their [dragons](wiki:Dragon). In [33 AC](wiki:Years_after_Aegon's_Conquest), Goren succeeded his father as [Lord of the Iron Islands](wiki:Lord_of_the_Iron_Islands) and [Lord Reaper of Pyke](wiki:Lord_Reaper_of_Pyke). Not long after, he easily put down a clumsy conspiracy which attempted to crown [Qhorin Volmark](wiki:Qhorin_Volmark)'s son.(wiki:Goren_Greyjoy.cite_ref-Rtwoiafthe_iron_islands:_the_greyjoys_of_pyke.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
 
-## Allegiances
+In [37 AC](wiki:37_AC), King [Aenys I Targaryen](wiki:Aenys_I_Targaryen) succeeded Aegon the Conqueror on the [Iron Throne](wiki:Iron_Throne). Among the multiple rebellions which broke out in the [Seven Kingdoms](wiki:Seven_Kingdoms), one took place on the Iron Islands, where a man claimed to be [Lodos the Twice-Drowned](wiki:Lodos_the_Twice-Drowned), returned at last from the watery halls of the Drowned God. To end [Lodos the Twice-Drowned's revolt](wiki:Lodos_the_Twice-Drowned's_revolt), Goren quickly descended on [Old Wyk](wiki:Old_Wyk) and [Great Wyk](wiki:Great_Wyk), where most of Lodos's followers could be found, with a hundred [longships](wiki:Longship) and put thousands of them to the sword.(wiki:Goren_Greyjoy.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) Goren sent to Aenys the head of Lodos pickled in brine. In return, Aenys granted Goren any boon within his power to give. Wanting to prove himself a true son of the Drowned God, Goren requested permission to expel the septons and [septas](wiki:Septa) who had come to the Iron Islands since [Aegon's Conquest](wiki:Aegon's_Conquest), preaching the Faith of the Seven. Aenys was unable to refuse.(wiki:Goren_Greyjoy.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)(wiki:Goren_Greyjoy.cite_ref-Rtwoiafthe_targaryen_kings:_aenys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 
-`SWORN_TO` House Greyjoy (track_b: Allegiance). `CULTURE_OF` ironborn (track_b: Culture).
-
-## Narrative Arc
-
-Goren succeeded his father Vickon Greyjoy as Lord of the Iron Islands in 33 AC. He quickly put down a conspiracy to crown Qhorin Volmark's son. When Aenys I took the throne in 37 AC and rebellions broke out across the Seven Kingdoms, a man claiming to be Lodos the Twice-Drowned raised followers on the Iron Islands. Goren descended on Old Wyk and Great Wyk with a hundred longships and put thousands of the pretender's followers to the sword. He sent Lodos's head pickled in brine to King Aenys, who granted Goren any boon he wished. Goren shrewdly requested permission to expel the septons and septas who had come to the Iron Islands since Aegon's Conquest — and Aenys was unable to refuse (wiki:Goren_Greyjoy.cite_ref-Rfab2).
+Goren was among those granted [gold](wiki:Gold), honors, and offices by a grateful King Aenys I Targaryen.(wiki:Goren_Greyjoy.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
 
 ## Edges
 

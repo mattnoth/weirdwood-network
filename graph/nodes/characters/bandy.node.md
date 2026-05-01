@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Bandy"
 bucket_id: characters-house-stark-a-b
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -16,17 +16,15 @@ first_available:
   pov: "Tyrion I"
 ---
 
-## Identity
-
-Bandy is the twin sister of Shyra and daughter of Joseth, the master of horse at Winterfell (wiki:Bandy).
-
-## Allegiances
-
-`SWORN_TO` House Stark (track_b: Allegiance). `CULTURE_OF` Northmen (track_b: Culture).
-
 ## Narrative Arc
 
-Bandy plays lord of the crossing with the Frey wards, Big Walder and Little Walder (wiki:Bandy.cite_ref-Racok4). After the sack of Winterfell, Bandy is among the captives being held at the Dreadfort (wiki:Bandy).
+### A Clash of Kings
+
+Bandy plays [lord of the crossing](wiki:Lord_of_the_crossing) with the [Frey](wiki:House_Frey) [wards](wiki:Fosterage), [Big Walder](wiki:Walder_Frey_(son_of_Jammos)) and [Little Walder](wiki:Walder_Frey_(son_of_Merrett)).(wiki:Bandy.cite_ref-Racok4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+### A Feast for Crows
+
+After the [sack of Winterfell](wiki:Sack_of_Winterfell), Bandy is among the captives being held at the [Dreadfort](wiki:Dreadfort).(wiki:Bandy.cite_ref-Raffcappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
 
 ## Edges
 

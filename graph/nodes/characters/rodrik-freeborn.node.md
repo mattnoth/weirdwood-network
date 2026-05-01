@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Rodrik_Freeborn
 bucket_id: characters-house-greyjoy-g-r
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -16,17 +16,11 @@ first_available:
   pov: Sansa
 ---
 
-## Identity
-
-Rodrik Freeborn is an ironborn man whose surname indicates descent from thralls or salt wives who gained their freedom (wiki:Rodrik_Freeborn).
-
-## Allegiances
-
-He is `SWORN_TO` House Greyjoy (track_b: Allegiance). He is `CULTURE_OF` the ironborn (track_b: Culture).
-
 ## Narrative Arc
 
-Rodrik is one of the early supporters of Euron Greyjoy after the kingsmoot. His surname "Freeborn" suggests his family descends from freed thralls or salt wives, making him lowborn among the ironborn but free-born rather than thrall-born (wiki:Rodrik_Freeborn.cite_ref-Raffc11).
+### A Feast for Crows
+
+Rodrik is among the first to join [Euron Greyjoy](wiki:Euron_Greyjoy)'s cause upon his return to the [Iron Islands](wiki:Iron_Islands).(wiki:Rodrik_Freeborn.cite_ref-Raffc11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) He is listed as one of Euron's supporters at the [kingsmoot](wiki:Kingsmoot).(wiki:Rodrik_Freeborn.cite_ref-Raffcappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
 
 ## Edges
 

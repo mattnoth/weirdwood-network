@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Cadwyn
 bucket_id: characters-house-lannister-b-j
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -16,17 +16,11 @@ first_available:
   pov: "Bran VI"
 ---
 
-## Identity
-
-Ser Cadwyn is a knight from the westerlands in service to House Lannister (wiki:Cadwyn).
-
-## Allegiances
-
-`SWORN_TO` House Lannister (track_b: Allegiance). `HOLDS_TITLE` Ser (track_b: Title). `CULTURE_OF` Westermen (track_b: Culture).
-
 ## Narrative Arc
 
-Ser Cadwyn is part of Lord Tywin Lannister's force at Harrenhal. When Tywin departs, Cadwyn remains under the command of Ser Amory Lorch. He is charged with taking over prisoners brought by the Brave Companions. The entire Lannister garrison at Harrenhal is killed during the fall of the castle to Lord Roose Bolton (wiki:Cadwyn, cite_ref-Racok47).
+### A Clash of Kings
+
+Ser Cadwyn is part of the force Lord [Tywin Lannister](wiki:Tywin_Lannister) commands at [Harrenhal](wiki:Harrenhal). When Tywin departs, Cadwyn stays in Harrenhal under the command of Ser [Amory Lorch](wiki:Amory_Lorch). Upon the arrival of the [Brave Companions](wiki:Brave_Companions), he is charged with taking over the prisoners that they brought. The entire Lannister garrison at Harrenhal is killed during the [fall of the castle](wiki:Fall_of_Harrenhal) to Lord [Roose Bolton](wiki:Roose_Bolton).(wiki:Cadwyn.cite_ref-Racok47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
 ## Edges
 

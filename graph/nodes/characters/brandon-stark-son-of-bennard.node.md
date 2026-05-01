@@ -7,22 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Brandon_Stark_(son_of_Bennard)"
 bucket_id: characters-house-stark-b-h
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Brandon Stark was a member of House Stark, the son of Bennard Stark and Margaret Karstark (track_b: Father, Mother). He was born in 125 AC and died in 126 AC (track_b: Born, Died).
-
 ## Origins
 
-Brandon was born to Bennard Stark and Margaret Karstark in 125 AC (track_b: Father, Mother, Born). His early death at approximately one year old suggests he died in infancy.
-
-## Allegiances
-
-Brandon was `SWORN_TO` House Stark (track_b: Allegiance) and belonged to `CULTURE_OF` Northmen (track_b: Culture).
+Brandon was imprisoned in [126 AC](wiki:Years_after_Aegon's_Conquest) with his father and brothers by his cousin Lord [Cregan Stark](wiki:Cregan_Stark).(wiki:Brandon_Stark_(son_of_Bennard).cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 
 ## Edges
 

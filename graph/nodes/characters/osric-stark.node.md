@@ -7,22 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Osric_Stark
 bucket_id: characters-house-stark-h-p
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: "AFFC Brienne I"
 ---
 
-## Identity
+## Origins
 
-Osric Stark was a member of House Stark who became Lord Commander of the Night's Watch around 400 BC (wiki:Osric_Stark).
-
-## Allegiances
-
-`SWORN_TO` House Stark (track_b: Allegiances). `SWORN_TO` Night's Watch (track_b: Allegiances). `HOLDS_TITLE` Lord Commander of the Night's Watch (track_b: Title). `CULTURE_OF` Northmen (track_b: Culture).
-
-## Narrative Arc
-
-Osric was only ten years old when elected Lord Commander of the Night's Watch, making him the youngest ever chosen for that position. He was a son or brother of a Stark King in the North (wiki:Osric_Stark.cite_ref-Raffc5). Maester Balder wrote *The Edge of the World* during Osric's rule of sixty years (wiki:Osric_Stark).
+Osric was only ten years old when he was elected [Lord Commander of the Night's Watch](wiki:Lord_Commander_of_the_Night's_Watch), making him the youngest chosen for that position. He was a son or brother of a Stark [King in the North](wiki:King_in_the_North).(wiki:Osric_Stark.cite_ref-Raffc5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0) [Maester](wiki:Maester) [Balder](wiki:Balder) wrote *[The Edge of the World](wiki:The_Edge_of_the_World)* during Osric's rule of sixty years.(wiki:Osric_Stark.cite_ref-Rtwoiafthe_north:_the_stoneborn_of_skagos.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
 
 ## Edges
 

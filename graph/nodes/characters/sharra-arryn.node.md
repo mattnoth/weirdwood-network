@@ -8,30 +8,24 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Sharra_Arryn"
 bucket_id: characters-house-arryn
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Sharra Arryn, known as the Flower of the Mountain, was Queen Regent of the Kingdom of Mountain and Vale, ruling in the name of her son, the boy-king Ronnel Arryn, during Aegon I Targaryen's invasion of Westeros (wiki:Sharra_Arryn).
-
 ## Origins
 
-Born approximately 37 BC (track_b: Born).
+In her youth, Sharra was regarded as one of the most beautiful women of Westeros, known as the "the Flower of the Mountain".(wiki:Sharra_Arryn.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) Sharra married the [King of Mountain and Vale](wiki:King_of_Mountain_and_Vale) and had two sons with him, [Ronnel](wiki:Ronnel_Arryn_(king)) and [Jonos Arryn](wiki:Jonos_Arryn).(wiki:Sharra_Arryn.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) Sharra was widowed when Ronnel was only a boy, and so rule of the [Vale of Arryn](wiki:Vale_of_Arryn) fell to Sharra.(wiki:Sharra_Arryn.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
 
-## Allegiances
+### The War of Conquest
 
-`SWORN_TO` House Arryn (track_b: Allegiance). `CULTURE_OF` Valemen (track_b: Culture). `HOLDS_TITLE` Queen, Regent (track_b: Title).
+After [Aegon I Targaryen](wiki:Aegon_I_Targaryen) launched his [invasion](wiki:War_of_Conquest) and made his intentions known to the rulers of the [seven independent kingdoms](wiki:Seven_Kingdoms) of [Westeros](wiki:Westeros), Sharra sent a portrait of herself to him and offered her hand in marriage with the condition Aegon would make Ronnel his heir. Though it is unknown if Aegon replied, he did apparently reject her proposal, as he already had two queens, and Sharra was ten years older than him, no longer as beautiful as she was in her youth.(wiki:Sharra_Arryn.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
 
-## Appearances & Description
+The Vale scored a victory against the invaders in a [battle in the waters off Gulltown](wiki:Battle_in_the_waters_off_Gulltown), though the Arryn fleet was burned afterwards by Queen [Visenya Targaryen](wiki:Visenya_Targaryen) and her [dragon](wiki:Dragon) [Vhagar](wiki:Vhagar). With the Arryn fleet destroyed, the [Sistermen](wiki:Three_Sisters) revolted against Arryn rule.(wiki:Sharra_Arryn.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
 
-Regarded as one of the most beautiful women of Westeros in her youth, known as "the Flower of the Mountain" (wiki:Sharra_Arryn).
+As other regions of Westeros fell to Aegon, Sharra strengthened the defenses of [Gulltown](wiki:Gulltown), amassed the Vale army at the [Bloody Gate](wiki:Bloody_Gate), and tripled the garrisons of [Stone](wiki:Stone_(waycastle)), [Snow](wiki:Snow_(waycastle)), and [Sky](wiki:Sky). However, Visenya bypassed these hosts by flying up to the [Eyrie](wiki:Eyrie) upon Vhagar's back, and landed the dragon in its courtyard. When Sharra returned to the Eyrie, she found Ronnel sitting on Visenya's knee, staring up at Vhagar. The wonderstruck boy king asked his mother if he could go flying upon the dragon. But Visenya made no verbal threats, and neither did Sharra; the queens only smiled and exchanged courtesies. After Sharra bent the knee and surrendered the [Falcon Crown](wiki:Falcon_Crown) of [House Arryn](wiki:House_Arryn), Ronnel's small [crown](wiki:Crown), and her own regent's coronet, Ronnel flew with Visenya upon Vhagar around the summit of the [Giant's Lance](wiki:Giant's_Lance).(wiki:Sharra_Arryn.cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
 
-## Narrative Arc
-
-Sharra was widowed when her son Ronnel was a boy, and ruled the Vale as regent. After Aegon I launched his invasion, Sharra sent a portrait of herself offering marriage — on condition Aegon make Ronnel his heir. Aegon apparently rejected the proposal (he already had two queens and Sharra was ten years older) (wiki:Sharra_Arryn). The Arryn fleet was burned at Gulltown by Visenya and Vhagar. Sharra fortified Gulltown, amassed forces at the Bloody Gate, and tripled the garrisons of Stone, Snow, and Sky. But Visenya bypassed all defenses by flying Vhagar directly to the Eyrie's courtyard (wiki:Sharra_Arryn). Sharra found her son sitting on Visenya's knee, asking if he could fly the dragon. The two queens exchanged courtesies; Sharra bent the knee and surrendered the Falcon Crown, Ronnel's crown, and her own regent's coronet. Ronnel then flew on Vhagar around the Giant's Lance (wiki:Sharra_Arryn).
+Rather than kings, [House Arryn](wiki:House_Arryn) henceforth ruled as [Lords of the Eyrie](wiki:Lords_of_the_Eyrie), Defenders of the Vale, and [Wardens of the East](wiki:Warden_of_the_East).(wiki:Sharra_Arryn.cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)(wiki:Sharra_Arryn.cite_ref-Rtwoiafthe_vale:_house_arryn.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
 
 ## Edges
 

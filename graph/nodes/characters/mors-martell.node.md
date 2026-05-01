@@ -7,26 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Mors_Martell"
 bucket_id: characters-house-martell-m-t
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Mors Martell was the head of House Martell and Lord of the Sandship who married the warrior queen Nymeria. Together they conquered the rest of Dorne in Nymeria's War (wiki:Mors_Martell).
-
 ## Origins
 
-Lord of the Sandship before Nymeria's arrival. His lands paled in comparison to those of House Yronwood at the time (wiki:Mors_Martell).
-
-## Allegiances
-
-`SWORN_TO` House Martell (track_b: Allegiance). `CULTURE_OF` Dornishmen (track_b: Culture). `HOLDS_TITLE` Lord of the Sandship, Lord of Sunspear, Prince of Dorne (track_b: Titles).
-
-## Narrative Arc
-
-When Nymeria led the Rhoynar refugees to Dorne, the marriage of Lord Mors to Nymeria gave the Martells the manpower to conquer the rest of Dorne and gave the Rhoynar a new homeland. The Dornish rulers styled themselves "Prince" in the Rhoynish fashion rather than "King." Mors was slain by King Yorick V Yronwood in the Third Battle of the Boneway, but Nymeria forced Yorick to submit two years later. They had four daughters together (wiki:Mors_Martell).
+When [Nymeria](wiki:Nymeria) led the [Rhoynar](wiki:Rhoynar) refugees to [Dorne](wiki:Dorne) in southern [Westeros](wiki:Westeros), the lands of the Martells paled in comparison to those of [House Yronwood](wiki:House_Yronwood).(wiki:Mors_Martell.cite_ref-3) The marriage of Lord Mors to Nymeria gave the Martells the manpower to conquer the rest of Dorne and gave the Rhoynar a new homeland. The Dornish rulers have since styled themselves "Prince" in the Rhoynish fashion rather than "King".(wiki:Mors_Martell.cite_ref-Ragotappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) Mors was slain by King [Yorick V Yronwood](wiki:Yorick_V_Yronwood) in the [Third Battle of the Boneway](wiki:Third_Battle_of_the_Boneway), but Nymeria forced Yorick to submit two years later.(wiki:Mors_Martell.cite_ref-Rtwoiafancient_history:_ten_thousand_ships.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
 
 ## Edges
 

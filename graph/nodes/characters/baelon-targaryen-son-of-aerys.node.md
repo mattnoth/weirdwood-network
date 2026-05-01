@@ -7,26 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Baelon_Targaryen_(son_of_Aerys)
 bucket_id: characters-house-targaryen-b-d
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Lord Baelon Targaryen was a member of House Targaryen during the Century of Blood, the second son of Lord Aerys Targaryen of Dragonstone (wiki:Baelon_Targaryen_(son_of_Aerys)). He had one older brother, Aelyx, and one younger brother, Daemion.
-
 ## Origins
 
-Born between 88 and 54 BC on Dragonstone (track_b: Born). Son of Aerys Targaryen (track_b: Father).
-
-## Allegiances
-
-`SWORN_TO` House Targaryen (track_b: Allegiance).
-
-## Narrative Arc
-
-Baelon inherited the lordship of Dragonstone from his brother Aelyx and was himself succeeded by his younger brother Daemion. King Jaehaerys I Targaryen later named his own second surviving son after this Baelon (wiki:Baelon_Targaryen_(son_of_Aerys)).
+Baelon inherited the lordship of Dragonstone from Aelyx and was himself succeeded by Daemion.(wiki:Baelon_Targaryen_(son_of_Aerys).cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)(wiki:Baelon_Targaryen_(son_of_Aerys).cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) King [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen) [named](wiki:Named_after) Prince [Baelon Targaryen](wiki:Baelon_Targaryen_(son_of_Jaehaerys_I)), the second of his sons who survived past infancy, after Lord Baelon, who was himself a second son.(wiki:Baelon_Targaryen_(son_of_Aerys).cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
 
 ## Edges
 

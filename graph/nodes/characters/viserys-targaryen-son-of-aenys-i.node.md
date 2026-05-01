@@ -7,38 +7,52 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Viserys_Targaryen_(son_of_Aenys_I)
 bucket_id: characters-house-targaryen-t-y
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Prince Viserys Targaryen was the second son of King Aenys I Targaryen and Queen Alyssa Velaryon (wiki:Viserys_Targaryen_(son_of_Aenys_I), cite: Fire & Blood).
-
 ## Origins
 
-Born in 29 AC, the thirdborn child of Prince Aenys Targaryen and Lady Alyssa Velaryon (wiki:Viserys_Targaryen_(son_of_Aenys_I)).
+### Youth
+
+Viserys was born in [29 AC](wiki:Years_after_Aegon's_Conquest)(wiki:Viserys_Targaryen_(son_of_Aenys_I).cite_ref-Rfabthe_sons_of_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4) the thirdborn child of Prince [Aenys Targaryen](wiki:Aenys_I_Targaryen) and Lady [Alyssa Velaryon](wiki:Alyssa_Velaryon).(wiki:Viserys_Targaryen_(son_of_Aenys_I).cite_ref-Rtwoiafappendix:_targaryen_lineages.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) Viserys and his older brother, Prince [Aegon](wiki:Aegon_Targaryen_(son_of_Aenys_I)), were with their grandfather, King [Aegon I Targaryen](wiki:Aegon_I_Targaryen), on [Dragonstone](wiki:Dragonstone_(island)) when Aegon the Conqueror died in [37 AC](wiki:37_AC), whilst telling his grandsons tales of his conquests.(wiki:Viserys_Targaryen_(son_of_Aenys_I).cite_ref-Rtwoiafthe_targaryen_kings:_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+
+### Reign of Aenys I
+
+The eight-year-old Viserys travelled with his parents and older siblings to [Oldtown](wiki:Oldtown), where his father, King [Aenys I Targaryen](wiki:Aenys_I_Targaryen), was anointed by the [High Septon](wiki:High_Septon_(Aenys_I)). Like his elder brother Aegon, he relished in the cheers of the smallfolk and the festivities held for his family at every castle they visted.(wiki:Viserys_Targaryen_(son_of_Aenys_I).cite_ref-Rfabthe_sons_of_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+
+In [42 AC](wiki:42_AC), Viserys was present on [Dragonstone](wiki:Dragonstone) for the funeral of his father.(wiki:Viserys_Targaryen_(son_of_Aenys_I).cite_ref-Rfabthe_sons_of_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+
+### Reign of Maegor I
+
+After the death of Viserys's father, King Aenys I, it was not Viserys's older brother, [Aegon](wiki:Aegon_Targaryen_(son_of_Aenys_I)), who ascended the [Iron Throne](wiki:Iron_Throne), but Viserys's uncle, [Maegor](wiki:Maegor_I_Targaryen). Viserys was present for Maegor's marriage to [Tyanna of the Tower](wiki:Tyanna_of_the_Tower).(wiki:Viserys_Targaryen_(son_of_Aenys_I).cite_ref-Rfabthe_sons_of_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+
+To make sure his family did not try to overthrow him, King Maegor summoned Viserys, by then the eldest living son of his late brother, to [King's Landing](wiki:King's_Landing) to serve as his [squire](wiki:Squire) and hostage. A [Kingsguard](wiki:Kingsguard) [knight](wiki:Knight) shadowed him to keep him out of any plots or treasons. After Dowager Queen [Visenya Targaryen](wiki:Visenya_Targaryen) died in [44 AC](wiki:44_AC), Viserys's mother, Dowager Queen [Alyssa Velaryon](wiki:Alyssa_Velaryon), fled with Viserys's younger siblings, [Jaehaerys](wiki:Jaehaerys_I_Targaryen) and [Alysanne](wiki:Alysanne_Targaryen).(wiki:Viserys_Targaryen_(son_of_Aenys_I).cite_ref-Rfabthe_sons_of_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
+
+In retaliation, Maegor ordered the [Kingsguard](wiki:Kingsguard) to chain up his nephew in the [black cells](wiki:Black_cell) and question him sharply. Though [Ser](wiki:Ser) [Owen Bush](wiki:Owen_Bush) of the Kingsguard protested, they imprisoned Viserys. Maegor had Viserys tortured and questioned, but he did not know where his mother had gone. Even the [black arts](wiki:Magic) of Maegor's third wife, [Tyanna](wiki:Tyanna_of_the_Tower) of [Pentos](wiki:Pentos), did not elicit any answers. After nine days of questioning, the boy died, and his body was left in the courtyard for a fortnight, in the hopes that his mother would feel forced to return and claim him. When Alyssa did not return, Maegor finally had his body consigned to the flames. At the time of his death, Viserys was fifteen years old, and the realm wept for him.(wiki:Viserys_Targaryen_(son_of_Aenys_I).cite_ref-Rfabthe_sons_of_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
+
+After ascending the throne, Viserys's brother [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen) offered clemency to the majority of the realm, but this did not extend to Maegor's headsmen, gaolers and confessors who had assisted in Viserys's torture and death. They were all executed, their heads and hands delivered to Viserys's mother, who was pleased with the tokens.(wiki:Viserys_Targaryen_(son_of_Aenys_I).cite_ref-Rfabprince_into_king_-_the_ascension_of_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
 
 ## Appearances & Description
 
-Viserys was a promising lad beloved of both the commons and lords (wiki:Viserys_Targaryen_(son_of_Aenys_I), cite: Fire & Blood).
-
-## Allegiances
-
-`SWORN_TO` House Targaryen (track_b: Allegiance). `CULTURE_OF` Crownlands (track_b: Culture).
-
-## Narrative Arc
-
-Viserys and his older brother Aegon were with their grandfather Aegon I Targaryen on Dragonstone when the Conqueror died in 37 AC. After his father King Aenys I died in 42 AC, his uncle Maegor seized the throne. Maegor summoned Viserys to King's Landing to serve as his squire and hostage. After Dowager Queen Visenya Targaryen died in 44 AC, Viserys's mother Alyssa fled with his younger siblings Jaehaerys and Alysanne. In retaliation, Maegor had Viserys chained in a black cell and tortured. Even the black arts of Tyanna of Pentos did not elicit answers. After nine days of questioning, the fifteen-year-old boy died. His body was left in the courtyard for a fortnight to lure his mother back. When she did not return, Maegor consigned him to the flames (wiki:Viserys_Targaryen_(son_of_Aenys_I), cite: Fire & Blood).
-
-After ascending the throne, Viserys's brother Jaehaerys I offered clemency to most of the realm, but not to the headsmen, gaolers, and confessors who had assisted in Viserys's torture and death — they were all executed (wiki:Viserys_Targaryen_(son_of_Aenys_I), cite: Fire & Blood).
+Viserys was a promising lad beloved of both the [commons](wiki:Smallfolk) and [lords](wiki:Lord).(wiki:Viserys_Targaryen_(son_of_Aenys_I).cite_ref-Rfabthe_sons_of_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 
 ## Quotes
 
-> **Maegor:** Chain him in a black cell and question him sharply. Ask him where his mother has gone.
-> **Owen:** He may not know.
-> **Maegor:** Then let him die. Perhaps the bitch will turn up for his funeral. (wiki:Viserys_Targaryen_(son_of_Aenys_I), cite: Fire & Blood)
+> **Maegor**: Chain him in a [black cell](wiki:Black_cell) and [question](wiki:Torture) him sharply. Ask him where his [mother](wiki:Alyssa_Velaryon) has gone.
+>
+> **Owen**: He may not know.
+>
+> —[Maegor I Targaryen](wiki:Maegor_I_Targaryen) and [Owen Bush](wiki:Owen_Bush)
+
+> Let his mother come and claim him.(wiki:Viserys_Targaryen_(son_of_Aenys_I).cite_ref-Rfabthe_sons_of_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-11)
+>
+> —[Maegor I Targaryen](wiki:Maegor_I_Targaryen), after Viserys was killed under questioning
+
+> When my boy Viserys was tortured and slain, these men stood by silently and spoke no word of protest. Why should we listen to them now?(wiki:Viserys_Targaryen_(son_of_Aenys_I).cite_ref-Rfabprince_into_king_-_the_ascension_of_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
+>
+> —[Alyssa Velaryon](wiki:Alyssa_Velaryon)
 
 ## Edges
 

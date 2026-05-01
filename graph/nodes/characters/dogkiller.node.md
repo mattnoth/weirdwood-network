@@ -7,22 +7,16 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Dogkiller
 bucket_id: characters-house-targaryen-d-j
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Dogkiller is a captain of the Unsullied sworn to Daenerys Targaryen (wiki:Dogkiller).
-
-## Allegiances
-
-`SWORN_TO` the Unsullied (track_b: Allegiances). `SWORN_TO` House Targaryen (track_b: Allegiances).
-
 ## Narrative Arc
 
-Dogkiller is spotted by Barristan Selmy alongside Grey Worm and Sure Spear when preparations are made to attack the Yunkai'i and their allies (wiki:Dogkiller.cite_ref-Rtwow_barristan_i-1).
+### The Winds of Winter
+
+Dogkiller is spotted by [Barristan Selmy](wiki:Barristan_Selmy) along with [Grey Worm](wiki:Grey_Worm) and [Sure Spear](wiki:Sure_Spear) when preparations are made to attack the [Yunkai'i](wiki:Yunkai) and their allies.(wiki:Dogkiller.cite_ref-Rtwow.5B.5Bbarristan_i_.28the_winds_of_winter.29.7Cbarristan_i.5D.5D.7B.7B.7B4.7D.7D.7D_1-0)
 
 ## Edges
 

@@ -7,22 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Edric_Stark"
 bucket_id: characters-house-stark-b-h
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Edric Stark was the Lord of Winterfell and Warden of the North (track_b: Titles). He was the son of Alaric Stark (track_b: Father).
-
 ## Origins
 
-Born between 58–72 AC, died between 72–101 AC (track_b: Born, Died). Son of Alaric Stark (track_b: Father).
-
-## Allegiances
-
-Edric was `SWORN_TO` House Stark (track_b: Allegiance), `HOLDS_TITLE` Lord of Winterfell and Warden of the North (track_b: Titles), and belonged to `CULTURE_OF` Northmen (track_b: Culture).
+Edric was a grandson of Lord [Alaric Stark](wiki:Alaric_Stark). Edric became Lord of [Winterfell](wiki:Winterfell) after Alaric's death in [72 AC](wiki:Years_after_Aegon's_Conquest), as Alaric's two sons had died previously.(wiki:Edric_Stark.cite_ref-Rfabthe_long_reign_-_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 
 ## Edges
 

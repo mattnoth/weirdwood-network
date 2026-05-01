@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Ysilla
 bucket_id: characters-house-targaryen-t-y
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -16,21 +16,15 @@ first_available:
   pov: "Jon II"
 ---
 
-## Identity
-
-Ysilla is Yandry's wife and one of the crew of the Shy Maid. She is an orphan of the Greenblood come home to Mother Rhoyne (wiki:Ysilla, cite: ADWD Tyrion IV).
-
 ## Appearances & Description
 
-Ysilla is described as an older woman, small and dark-colored, with a Rhoynish cast to her features (wiki:Ysilla, cite: ADWD Tyrion III, ADWD Tyrion IV).
-
-## Allegiances
-
-`SWORN_TO` House Targaryen (track_b: Allegiance). `CULTURE_OF` Dornish (track_b: Culture). `CULTURE_OF` Orphans of the Greenblood (track_b: Culture).
+Ysilla is described as an older woman(wiki:Ysilla.cite_ref-Radwd8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0). She is small and dark colored, has a Rhoynish cast to her features.(wiki:Ysilla.cite_ref-Radwd14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 
 ## Narrative Arc
 
-During the voyage on the Shy Maid, Ysilla does the cooking — biscuits, bacon, and sometimes fish (wiki:Ysilla, cite: ADWD Tyrion IV).
+### A Dance with Dragons
+
+During the voyage on the *Shy Maid* she does the cooking. She cooks biscuits and bacon and sometimes fish.(wiki:Ysilla.cite_ref-Radwd14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
 
 ## Edges
 

@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Denys_Arryn"
 bucket_id: characters-house-arryn
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -17,21 +17,15 @@ first_available:
   pov: "Brienne II"
 ---
 
-## Identity
-
-Denys Arryn, known as the Darling of the Vale, was a knight of House Arryn from a poor branch. A renowned jouster, handsome, gallant, and brimming with courtesy (wiki:Denys_Arryn).
-
 ## Origins
 
-Died 283 AC at Stoney Sept (track_b: Died). Hailed from a poor branch of House Arryn (wiki:Denys_Arryn).
+Denys married a distant cousin who descended from the main Arryn branch. Since Denys had "Arryn" as a surname and had married the eldest surviving daughter of [Alys Arryn](wiki:Alys_Arryn) he was considered the next heir of the house after Ser [Elbert Arryn](wiki:Elbert_Arryn). He was named Keeper of the [Gates of the Moon](wiki:Gates_of_the_Moon) by Lord [Jon Arryn](wiki:Jon_Arryn), replacing Jon's brother, Ser [Ronnel](wiki:Ronnel_Arryn_(son_of_Jasper)).(wiki:Denys_Arryn.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) When Elbert was murdered by King [Aerys II Targaryen](wiki:Aerys_II_Targaryen) Denys was made heir.(wiki:Denys_Arryn.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
 
-## Allegiances
+During the [Battle of the Bells](wiki:Battle_of_the_Bells), a major battle in [Robert's Rebellion](wiki:Robert's_Rebellion), Ser Denys fought Lord [Jon Connington](wiki:Jon_Connington) and was slain by him.(wiki:Denys_Arryn.cite_ref-Rasos29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) His wife and son both died shortly afterwards.(wiki:Denys_Arryn.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
 
-`SWORN_TO` House Arryn (track_b: Allegiance). `CULTURE_OF` Valemen (track_b: Culture). `HOLDS_TITLE` Ser, Keeper of the Gates of the Moon (track_b: Titles).
+## Appearances & Description
 
-## Narrative Arc
-
-Denys married Jon Arryn's niece (eldest surviving daughter of Alys Arryn), making him Jon's heir after Elbert Arryn. Jon named Denys Keeper of the Gates of the Moon, replacing Jon's brother Ronnel (wiki:Denys_Arryn). When Elbert was murdered by Aerys II, Denys became heir to the Vale. During the Battle of the Bells in Robert's Rebellion, Denys was slain by Lord Jon Connington. His wife and son both died shortly afterward (wiki:Denys_Arryn).
+Denys hailed from a poor branch of [House Arryn](wiki:House_Arryn). He was a "renowned jouster, handsome and gallant and brimming with courtesy".(wiki:Denys_Arryn.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
 
 ## Edges
 

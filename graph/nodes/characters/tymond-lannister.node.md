@@ -7,36 +7,28 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Tymond_Lannister"
 bucket_id: characters-house-lannister-r-w
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Lord Tymond Lannister was the Lord of Casterly Rock and head of House Lannister during the late reign of King Jaehaerys I Targaryen (wiki:Tymond_Lannister).
-
 ## Origins
 
-Born in 60 AC (track_b: Born). Son of an unnamed Lord of Casterly Rock (track_b: Father). Died between 101–129 AC (track_b: Died).
+In [80 AC](wiki:Years_after_Aegon's_Conquest), Ser Tymond was the son and heir of the Lord of [Casterly Rock](wiki:Casterly_Rock). Queen [Alysanne Targaryen](wiki:Alysanne_Targaryen) raised the possibility of Tymond as a suitor to her daughter, Princess [Daella](wiki:Daella_Targaryen_(daughter_of_Jaehaerys_I)). He was the richest among the possible contenders and closest in age to the princess, but the princess was dissuaded by his personality. Daella eventually married Lord [Rodrik Arryn](wiki:Rodrik_Arryn).(wiki:Tymond_Lannister.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 
-## Allegiances
-
-Tymond `HOLDS_TITLE` Ser, Lord of Casterly Rock, Shield of Lannisport, Warden of the West (track_b: Titles). He is `SWORN_TO` House Lannister (track_b: Allegiance). His culture is Westermen (track_b: Culture).
+By [101 AC](wiki:101_AC), Ser Tymond had inherited from his father. That year, he attended the [Great Council](wiki:Great_Council_of_101_AC) at [Harrenhal](wiki:Harrenhal) with a retinue of three hundred [bannermen](wiki:Bannermen), men-at-arms, and servants. However, he was outdone by Lord [Matthos Tyrell](wiki:Matthos_Tyrell) of [Highgarden](wiki:Highgarden), who counted five hundred in his retinue.(wiki:Tymond_Lannister.cite_ref-Rtwoiafhouse_lannister_under_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)(wiki:Tymond_Lannister.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) Lord Tymond supported the claim of Viserys Targaryen, a choice that would be remembered and rewarded when the prince ascended the [Iron Throne](wiki:Iron_Throne) as King [Viserys I Targaryen](wiki:Viserys_I_Targaryen).(wiki:Tymond_Lannister.cite_ref-Rtwoiafhouse_lannister_under_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
 
 ## Appearances & Description
 
-Lithe and slender with long golden mustachios and hair, Tymond was considered one of the most handsome men in the Seven Kingdoms in his youth. He always wore silk and satin, and was fond of women and wine (wiki:Tymond_Lannister.cite_ref-FB).
+The lithe and slender Tymond had long golden mustachios and hair, and he was considered one of the most handsome men in the [Seven Kingdoms](wiki:Seven_Kingdoms) in his youth.(wiki:Tymond_Lannister.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
-## Narrative Arc
-
-In 80 AC, Queen Alysanne Targaryen raised the possibility of Tymond as a suitor for Princess Daella. He was the richest contender and closest in age, but Daella was dissuaded by his personality. She eventually married Lord Rodrik Arryn (wiki:Tymond_Lannister.cite_ref-FB).
-
-By 101 AC, Tymond had inherited Casterly Rock. He attended the Great Council at Harrenhal with three hundred bannermen, though outdone by Lord Matthos Tyrell with five hundred. Lord Tymond supported the claim of Viserys Targaryen, a choice later rewarded when Viserys became king (wiki:Tymond_Lannister.cite_ref-TWOIAF).
+Tymond always wore silk and satin. He was fond of women and [wine](wiki:Wine).(wiki:Tymond_Lannister.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 
 ## Quotes
 
-> He was overly fond of wine and women ... — on Tymond (wiki:Tymond_Lannister)
+> He was overly fond of women, it was said, and even more fond of [wine](wiki:Wine).(wiki:Tymond_Lannister.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+>
+> —writings of [Gyldayn](wiki:Gyldayn)
 
 ## Edges
 

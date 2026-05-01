@@ -7,26 +7,24 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Aliandra_Martell
 bucket_id: characters-house-martell-a-m
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Princess Aliandra Martell was the Princess of Dorne and Lady of Sunspear, ruling during the Dance of the Dragons era (wiki:Aliandra_Martell). She held both the titles `HOLDS_TITLE` Princess of Dorne and `HOLDS_TITLE` Lady of Sunspear (track_b: Titles).
-
 ## Origins
 
-Born in or around 115 AC (track_b: Born). Her father was Qoren Martell (track_b: Father). She was of Dornish culture (track_b: Culture).
+The daughter of Prince [Qoren Martell](wiki:Qoren_Martell), Aliandra became [Princess of Dorne](wiki:Princess_of_Dorne) by the age of seventeen. She saw herself as "the new [Nymeria](wiki:Nymeria)"(wiki:Aliandra_Martell.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) and encouraged her [lords](wiki:Lord) and [knights](wiki:Knight) to prove themselves to her by raiding in the [Dornish Marches](wiki:Dornish_Marches).(wiki:Aliandra_Martell.cite_ref-Rtwoiafdorne:_dorne_against_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2) Aliandra's younger brother, Prince [Qyle](wiki:Qyle_Martell), was suggested as a possible husband for Lady [Baela Targaryen](wiki:Baela_Targaryen), but she wed her cousin Lord [Alyn Velaryon](wiki:Alyn_Velaryon) instead.(wiki:Aliandra_Martell.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
 
-## Allegiances
+In [133 AC](wiki:133_AC), when Aliandra was eighteen, she met Alyn Velaryon during his first [great journey](wiki:Great_Voyages), when his campaign to defend the [westerlands](wiki:Westerlands) from Lord [Dalton Greyjoy](wiki:Dalton_Greyjoy) brought him to [Sunspear](wiki:Sunspear). The book *[Bastard Born](wiki:Bastard_Born)* claims that Alyn had to provide intimate services to Aliandra before she allowed him provisions for his [fleet](wiki:Velaryon_fleet), although another biography of Alyn, *[Hard as Oak](wiki:Hard_as_Oak)*, contradicts that story.(wiki:Aliandra_Martell.cite_ref-Rfabunder_the_regents_-_the_voyage_of_alyn_oakenfist.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 
-`SWORN_TO` House Martell (track_b: Allegiance). Aliandra was a Dornish princess of `CULTURE_OF` Dornishmen heritage (track_b: Culture).
+Aliandra met Alyn again when he returned from the [Sunset Sea](wiki:Sunset_Sea), and [Drazenko Rogare](wiki:Drazenko_Rogare), a [Lysene](wiki:Lys) envoy, informed the Oakenfist that Prince [Viserys Targaryen](wiki:Viserys_II_Targaryen) was a captive of his brother, [Lysandro Rogare](wiki:Lysandro_Rogare).(wiki:Aliandra_Martell.cite_ref-Rfabunder_the_regents_-_the_voyage_of_alyn_oakenfist.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4) Aliandra showed great favor to Alyn during his visits.(wiki:Aliandra_Martell.cite_ref-Rtwoiafdorne:_dorne_against_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3) Alyn's wife, Baela Targaryen, disliked hearing about Aliandra.(wiki:Aliandra_Martell.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
 
-## Narrative Arc
+Aliandra was one of the greatest beneficiaries of the [Daughters' War](wiki:Daughters'_War), with [Dorne](wiki:Dorne) taking dominion over most of the [Stepstones](wiki:Stepstones).(wiki:Aliandra_Martell.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3) During the [Lysene Spring](wiki:Lysene_Spring), Aliandra married Drazenko and named him [Prince Consort of Dorne](wiki:Prince_Consort_of_Dorne) and [Lord of the Stepstones](wiki:Lord_of_the_Stepstones).(wiki:Aliandra_Martell.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)(wiki:Aliandra_Martell.cite_ref-Rtwoiafthe_free_cities:_the_quarrelsome_daughters:_myr.2C_lys.2C_and_tyrosh.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) When Drazenko suspiciously choked to death on bacon in [135 AC](wiki:135_AC), his death was attributed by some to the [Faceless Men](wiki:Faceless_Men) of [Braavos](wiki:Braavos).(wiki:Aliandra_Martell.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
 
-Aliandra Martell ruled Dorne during a turbulent period. She married Drazenko Rogare and was rumored to have been a lover of Alyn Velaryon (track_b: Spouse, Lover). She died between 136 and 158 AC (track_b: Died).
+## Appearances & Description
+
+Aliandra was a flirtatious and fiery young woman.(wiki:Aliandra_Martell.cite_ref-Rfabunder_the_regents_-_the_voyage_of_alyn_oakenfist.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)(wiki:Aliandra_Martell.cite_ref-Rtwoiafdorne:_dorne_against_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
 
 ## Edges
 

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Edwyle_Stark"
 bucket_id: characters-house-stark-b-h
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -16,17 +16,9 @@ first_available:
   pov: "Jon VIII"
 ---
 
-## Identity
-
-Edwyle Stark was the Lord of Winterfell and Warden of the North (track_b: Titles), the father of Lord Rickard Stark and grandfather of Eddard Stark.
-
 ## Origins
 
-Born between 197–226 AC, died between 229–262 AC (track_b: Born, Died). Son of Willam Stark and Melantha Blackwood (track_b: Father, Mother). Married Marna Locke (track_b: Spouse).
-
-## Allegiances
-
-Edwyle was `SWORN_TO` House Stark (track_b: Allegiance), `HOLDS_TITLE` Lord of Winterfell and Warden of the North (track_b: Titles), and belonged to `CULTURE_OF` Northmen (track_b: Culture).
+Edwyle married [Marna Locke](wiki:Marna_Locke) and had only one child with her, [Rickard](wiki:Rickard_Stark).(wiki:Edwyle_Stark.cite_ref-Rtwoiafappendix:_stark_lineage.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2) Edwyle was buried in the [crypt of Winterfell](wiki:Crypt_of_Winterfell). There is a statue of him placed with his tomb.(wiki:Edwyle_Stark.cite_ref-Racok69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) Edwyle was succeeded as Lord of [Winterfell](wiki:Winterfell) by his son, [Rickard Stark](wiki:Rickard_Stark).(wiki:Edwyle_Stark.cite_ref-Rtwoiafappendix:_stark_lineage.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
 
 ## Edges
 

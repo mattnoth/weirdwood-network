@@ -7,32 +7,32 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Tybolt_Lannister"
 bucket_id: characters-house-lannister-r-w
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Lord Tybolt Lannister was Lord of Casterly Rock and head of House Lannister, the eldest son and heir of Lord Damon Lannister. Not to be confused with Tybolt Lannister the king. His brother Gerold served as his advisor (wiki:Tybolt_Lannister).
-
 ## Origins
 
-Born in or before 194 AC at Casterly Rock (track_b: Born). Son of Damon Lannister and Cerissa Brax (track_b: Father, Mother). Died in 212 AC (track_b: Died).
+### Tourney at Ashford Meadow
 
-## Allegiances
+Ser Tybolt participated in the [tourney at Ashford Meadow](wiki:Tourney_at_Ashford_Meadow) in [209 AC](wiki:209_AC), beginning the tourney as a challenger. In his first tilt he chose to challenge Ser [Androw Ashford](wiki:Androw_Ashford) and defeated him after six broken lances, taking his place as a champion. In one of his later tilts, Ser Tybolt was unhorsed by Ser [Jon Penrose](wiki:Jon_Penrose) and broke his sword in his fall, but fought back with shield alone to win the bout and remain a champion.(wiki:Tybolt_Lannister.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
 
-Tybolt `HOLDS_TITLE` Ser, Lord of Casterly Rock, Shield of Lannisport, Warden of the West (track_b: Titles). He is `SWORN_TO` House Lannister (track_b: Allegiance). His culture is Westermen (track_b: Culture). He is `SPOUSE_OF` Teora Kyndall (track_b: Spouse).
+Ser [Steffon Fossoway](wiki:Steffon_Fossoway) later thought to challenge Tybolt as champion, believing themselves to be equally matched.(wiki:Tybolt_Lannister.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+
+### Lord of Castery Rock
+
+Tybolt become Lord of [Casterly Rock](wiki:Casterly_Rock) upon the death of his father, Lord [Damon Lannister](wiki:Damon_Lannister_(lord)), during the [Great Spring Sickness](wiki:Great_Spring_Sickness) in [210 AC](wiki:Years_after_Aegon's_Conquest).(wiki:Tybolt_Lannister.cite_ref-Rawoiaftybolt_lannister.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)(wiki:Tybolt_Lannister.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0) His brother [Gerold](wiki:Gerold_Lannister) served as his advisor.(wiki:Tybolt_Lannister.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
+
+In [211 AC](wiki:211_AC), Lord [Dagon Greyjoy](wiki:Dagon_Greyjoy) threatened the [westerlands](wiki:Westerlands), carrying off half the wealth of [Fair Isle](wiki:Fair_Isle).(wiki:Tybolt_Lannister.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2) In response, Tybolt began building a fleet to strike back at the [Greyjoys](wiki:House_Greyjoy) at sea and by assaulting the [Iron Islands](wiki:Iron_Islands), for King [Aerys I Targaryen](wiki:Aerys_I_Targaryen) was not lending the [Iron Throne](wiki:Iron_Throne)'s aid.(wiki:Tybolt_Lannister.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
+
+Despite being a young and healthy man, he died under suspicious circumstances in [212 AC](wiki:212_AC). Tybolt was briefly succeeded by his three-year-old daughter, [Cerelle Lannister](wiki:Cerelle_Lannister_(daughter_of_Tybolt)), with Tybolt's younger brother [Gerold](wiki:Gerold_Lannister) as her regent. However, she passed away less than a year later, leading many to suspect Gerold of having a hand in their deaths, as he succeeded Cerelle as Lord of Casterly Rock.(wiki:Tybolt_Lannister.cite_ref-Rtwoiafthe_westerlands:_house_lannister_under_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
 
 ## Appearances & Description
 
-Tybolt had golden hair and wore crimson armor bearing the golden lion of Casterly Rock (wiki:Tybolt_Lannister.cite_ref-THK). Raymun Fossoway believed Tybolt's tourney prowess equally matched his cousin Ser Steffon Fossoway (wiki:Tybolt_Lannister.cite_ref-THK).
+Tybolt had golden hair. He wore crimson armor that bore the golden lion of [Casterly Rock](wiki:Casterly_Rock).(wiki:Tybolt_Lannister.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 
-## Narrative Arc
-
-Ser Tybolt participated in the tourney at Ashford Meadow in 209 AC. He challenged Ser Androw Ashford and defeated him after six broken lances, taking his place as champion. When later unhorsed by Ser Jon Penrose, Tybolt broke his sword in the fall but fought back with shield alone to win the bout (wiki:Tybolt_Lannister.cite_ref-THK).
-
-Tybolt became Lord of Casterly Rock upon his father Damon's death during the Great Spring Sickness in 210 AC. In 211 AC, Lord Dagon Greyjoy began raiding the western coast, and Tybolt died in 212 AC (wiki:Tybolt_Lannister).
+[Raymun Fossoway](wiki:Raymun_Fossoway) believed that Tybolt's prowess in [tourneys](wiki:Tourney) was equally matched by his cousin, Ser [Steffon Fossoway](wiki:Steffon_Fossoway).(wiki:Tybolt_Lannister.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
 
 ## Edges
 

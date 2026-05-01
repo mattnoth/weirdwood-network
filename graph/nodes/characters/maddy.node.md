@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Maddy"
 bucket_id: characters-house-arryn
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -17,25 +17,29 @@ first_available:
   pov: "Brienne II"
 ---
 
-## Identity
-
-Maddy, called Fat Maddy, is a servant in House Arryn's household at the Eyrie (wiki:Maddy).
-
-## Allegiances
-
-`SWORN_TO` House Arryn (track_b: Allegiance). `CULTURE_OF` Valemen (track_b: Culture).
-
 ## Appearances & Description
 
-Has a wart beneath her eye. Sansa Stark considers her fat and a shameless gossip (wiki:Maddy).
+Maddy has a wart beneath her eye.(wiki:Maddy.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) [Sansa Stark](wiki:Sansa_Stark) thinks of her as fat(wiki:Maddy.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) and a shameless gossip.(wiki:Maddy.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 
 ## Narrative Arc
 
-Maddy tends to Robert Arryn's needs. She reports that Mord took three fingers from Marillion's hands. She prepares Littlefinger's solar for the Lords Declarant and stays behind to help ready Robert for the descent to the Gates of the Moon. Sansa learns from Maddy that Mya Stone is King Robert's bastard daughter and not a maid (wiki:Maddy).
+### A Feast for Crows
+
+Maddy is one of the servants assigned to tend to Lord [Robert Arryn](wiki:Robert_Arryn)'s needs. According to Maddy, [Mord](wiki:Mord) took three fingers from [Marillion](wiki:Marillion)'s hands.(wiki:Maddy.cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+
+When the [Lords Declarant](wiki:Lords_Declarant) visit the [Eyrie](wiki:Eyrie), Maddy prepares Lord [Petyr Baelish](wiki:Petyr_Baelish)'s solar for the newcomers.(wiki:Maddy.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+
+Maddy stays behind to help prepare Lord Robert for his descent to the [Gates of the Moon](wiki:Gates_of_the_Moon) after all the other servants have departed.(wiki:Maddy.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) [Sansa Stark](wiki:Sansa_Stark) learns from Maddy that [Mya Stone](wiki:Mya_Stone) is the [bastard](wiki:Bastard) daughter of the late King [Robert I Baratheon](wiki:Robert_I_Baratheon) and is not a [maid](wiki:Maid).(wiki:Maddy.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
 
 ## Quotes
 
-> "She has a mouth as big as her thighs, and her thighs are enormous." — Myranda Royce about Maddy (wiki:Maddy)
+> I hate Maddy. She has a wart on her eye, and she scrubs so hard it hurts. [My mommy](wiki:Lysa_Arryn) never hurt me scrubbing.(wiki:Maddy.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+>
+> —[Robert Arryn](wiki:Robert_Arryn) to [Sansa Stark](wiki:Sansa_Stark)
+
+> She has a mouth as big as her thighs, and her thighs are enormous.(wiki:Maddy.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+>
+> —[Myranda Royce](wiki:Myranda_Royce) to [Sansa Stark](wiki:Sansa_Stark)
 
 ## Edges
 

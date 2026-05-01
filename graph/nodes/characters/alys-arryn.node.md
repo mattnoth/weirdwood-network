@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Alys_Arryn"
 bucket_id: characters-house-arryn
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -16,21 +16,9 @@ first_available:
   pov: "The Princess in the Tower"
 ---
 
-## Identity
-
-Alys Arryn was a noblewoman of House Arryn, the only daughter of Lord Jasper Arryn and sister of Lord Jon Arryn and Ser Ronnel Arryn (wiki:Alys_Arryn).
-
 ## Origins
 
-Born approximately 219–251 AC (track_b: Born). Daughter of Jasper Arryn (track_b: Father).
-
-## Allegiances
-
-`SWORN_TO` House Arryn (track_b: Allegiances). `SWORN_TO` House Waynwood (track_b: Allegiances) [by marriage]. `CULTURE_OF` Valemen (track_b: Culture).
-
-## Narrative Arc
-
-Alys married Ser Elys Waynwood and bore nine children — one son and eight daughters. She died shortly after birthing her ninth child (wiki:Alys_Arryn.cite_ref-Raffc41). Her children suffered tragic fates: son Jasper died at three (kicked by a horse), the eldest daughter married Ser Denys Arryn and died soon after him, two died of pox as children, one became a septa after pox scarring, one joined the Silent Sisters, one married the Lord of the Paps but was barren, one was carried off by Burned Men, and the youngest married a Hardyng knight and died giving birth to Harrold Hardyng (wiki:Alys_Arryn.cite_ref-Raffc41).
+Elys and Alys had nine children together, one son and eight daughters. Alys died not long after having her ninth child.(wiki:Alys_Arryn.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4) Of their nine children, [Jasper](wiki:Jasper_Waynwood) died at three years old, kicked in the head by a horse. The eldest daughter married Ser [Denys Arryn](wiki:Denys_Arryn) but died soon after he did. Two daughters died while children from the [pox](wiki:Pox), and another was left scarred by the same disease and became a [septa](wiki:Septa). Another daughter was seduced by a [sellsword](wiki:Sellsword), but after her [bastard](wiki:Bastard) died in infancy, she joined the [Silent Sisters](wiki:Silent_Sisters). One daughter married the [Lord of the Paps](wiki:Lord_Elesham), but was barren. One daughter was carried off by [Burned Men](wiki:Burned_Men) on her way to marry a [Bracken](wiki:House_Bracken). The youngest daughter married a [landed knight](wiki:Landed_knight) of [House Hardyng](wiki:House_Hardyng) and died after giving him a son, [Harrold Hardyng](wiki:Harrold_Hardyng).(wiki:Alys_Arryn.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
 
 ## Edges
 

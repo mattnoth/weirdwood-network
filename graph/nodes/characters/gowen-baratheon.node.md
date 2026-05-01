@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Gowen_Baratheon"
 bucket_id: characters-house-baratheon
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: AGOT
@@ -16,21 +16,9 @@ first_available:
   pov: "Sansa III"
 ---
 
-## Identity
-
-Gowen Baratheon was the third son of a reigning Lord of Storm's End (wiki:Gowen_Baratheon).
-
 ## Origins
 
-Son of an unnamed Lord Baratheon of Storm's End (track_b: Father lists "Baratheon"). Possibly a brother of Lyonel Baratheon, who was heir to Storm's End in 209 AC (wiki:Gowen_Baratheon).
-
-## Allegiances
-
-`SWORN_TO` House Baratheon (track_b: Allegiance). `CULTURE_OF` Stormlander (track_b: Culture).
-
-## Narrative Arc
-
-Gowen married Lady Tya Lannister around 208 AC — the last marriage between Houses Lannister and Baratheon until Robert I married Cersei some seventy-six years later. Their union produced one son, a "large and lusty lad" born with a full head of black hair, who died in infancy. Eddard Stark reads about this marriage in Malleon's book while investigating the Baratheon bloodline in King's Landing (wiki:Gowen_Baratheon, agot-eddard-12).
+Gowen was married to Lady [Tya Lannister](wiki:Tya_Lannister). Their wedding, circa [208 AC](wiki:Years_after_Aegon's_Conquest), was the last between houses [Lannister](wiki:House_Lannister) and [Baratheon](wiki:House_Baratheon) until the marriage of King [Robert I Baratheon](wiki:Robert_I_Baratheon) and Queen [Cersei Lannister](wiki:Cersei_Lannister)(wiki:Gowen_Baratheon.cite_ref-Ragot45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3) some seventy-six years later.(wiki:Gowen_Baratheon.cite_ref-2) Gowen and Tya had one son, a "large and lusty lad" born with a full head of black hair, who died in his infancy.(wiki:Gowen_Baratheon.cite_ref-Ragot45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
 
 ## Edges
 

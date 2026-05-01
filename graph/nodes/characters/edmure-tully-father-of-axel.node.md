@@ -7,22 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Edmure_Tully_(father_of_Axel)"
 bucket_id: characters-house-tully
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
+## Origins
 
-Ser Edmure Tully was a knight and a head of House Tully during the coming of the Andals. He was the father of Axel Tully, the first Lord of Riverrun (wiki:Edmure_Tully_(father_of_Axel)).
-
-## Allegiances
-
-`SWORN_TO` House Tully (track_b: Allegiance). `CULTURE_OF` Rivermen (track_b: Culture). `HOLDS_TITLE` Ser (track_b: Title).
-
-## Narrative Arc
-
-Edmure and his sons fought under Tristifer IV Mudd, King of the Rivers and the Hills, in many of his ninety-nine victories. After the Hammer of Justice's death, Edmure went over to the mightiest of the Andal conquerors, Armistead Vance (wiki:Edmure_Tully_(father_of_Axel)).
+Edmure and his sons fought under [Tristifer IV Mudd](wiki:Tristifer_IV_Mudd), [King of the Rivers and the Hills](wiki:King_of_the_Rivers_and_the_Hills), in many of his ninety-nine victories. However, after the Hammer of Justice's death, Edmure went over to the mightiest of the [Andal](wiki:Andal) conquerors, [Armistead Vance](wiki:Armistead_Vance).(wiki:Edmure_Tully_(father_of_Axel).cite_ref-Rtwoiafthe_riverlands:_house_tully.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 
 ## Edges
 

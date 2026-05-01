@@ -7,18 +7,16 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Joss_Hood
 bucket_id: characters-house-martell-a-m
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
+## Narrative Arc
 
-Ser Joss Hood is a Dornish knight in the service of House Martell (wiki:Joss_Hood). He `HOLDS_TITLE` Ser (track_b: Title).
+### The Winds of Winter
 
-## Allegiances
-
-`SWORN_TO` House Martell (track_b: Allegiance). `CULTURE_OF` Dornishmen (track_b: Culture).
+Joss is chosen to accompany Princess [Arianne Martell](wiki:Arianne_Martell) on her journey to the [stormlands](wiki:Stormlands) to meet with [Jon Connington](wiki:Jon_Connington). On the *[Peregrine](wiki:Peregrine)*, Joss finds [Elia Sand](wiki:Elia_Sand) to be too precocious for his liking and states that someone should spank her. Elia both flirts with him and challenges him, saying that he must joust with her first if he wishes to punish her.(wiki:Joss_Hood.cite_ref-1)
 
 ## Edges
 

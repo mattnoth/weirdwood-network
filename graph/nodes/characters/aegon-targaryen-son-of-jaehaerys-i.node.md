@@ -7,22 +7,20 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aegon_Targaryen_(son_of_Jaehaerys_I)"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Prince Aegon Targaryen was the firstborn child of King Jaehaerys I Targaryen and Queen Alysanne Targaryen (wiki:Aegon_Targaryen_(son_of_Jaehaerys_I)).
-
 ## Origins
 
-Born in 51 AC in King's Landing (track_b: Born). Died in the same year, 51 AC, in King's Landing (track_b: Died). Son of Jaehaerys I Targaryen and Alysanne Targaryen (track_b: Father, Mother).
+Aegon was born too early. He was [named](wiki:Named_after) by Alysanne in honor of both her grandfather [Aegon the Conqueror](wiki:Aegon_I_Targaryen) and her deceased and much mourned elder brother [Aegon the Uncrowned](wiki:Aegon_Targaryen_(son_of_Aenys_I)). The entire realm rejoiced at the child's birth, most of all his father King Jaehaerys. The joy was short-lived, however, as Aegon died three days after his birth. Alysanne was so deeply affected by her son's death that the [maesters](wiki:Maester) feared for her life as well.(wiki:Aegon_Targaryen_(son_of_Jaehaerys_I).cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 
-## Allegiances
+Alysanne blamed her son's early birth and subsequent death on the women who had attacked her at [Jonquil's Pool](wiki:Jonquil's_Pool) at [Maidenpool](wiki:Maidenpool), believing that if she had she been allowed to bathe in the pool and its healing waters, Aegon would have lived.(wiki:Aegon_Targaryen_(son_of_Jaehaerys_I).cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
 
-`SWORN_TO` House Targaryen (track_b: Allegiance). `HOLDS_TITLE` Prince (track_b: Title).
+## Appearances & Description
+
+Aegon was a small and frail infant.(wiki:Aegon_Targaryen_(son_of_Jaehaerys_I).cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 
 ## Edges
 

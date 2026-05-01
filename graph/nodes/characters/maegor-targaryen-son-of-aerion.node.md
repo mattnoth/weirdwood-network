@@ -7,26 +7,16 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Maegor_Targaryen_(son_of_Aerion)"
 bucket_id: characters-house-targaryen-j-n
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Prince Maegor Targaryen was the son of Prince Aerion Targaryen (Aerion Brightflame) and Daenora Targaryen. He held the title of Prince (track_b: Title).
-
 ## Origins
 
-Born in 232 AC (track_b: Born). His father was Aerion Targaryen and his mother was Daenora Targaryen (track_b: Father, Mother). Of Valyrian race and Crownlands culture (track_b: Race, Culture).
+Born in [232 AC](wiki:Years_after_Aegon's_Conquest), Maegor was given his name by his sire who died the same year he was born. According to a semi-canon source, this name was a provocation, since King [Maegor I Targaryen](wiki:Maegor_I_Targaryen) had a poor reputation.(wiki:Maegor_Targaryen_(son_of_Aerion).cite_ref-3) Prince [Aerion](wiki:Aerion_Targaryen) died later that year from drinking [wildfire](wiki:Wildfire).(wiki:Maegor_Targaryen_(son_of_Aerion).cite_ref-Rtwoiaf_the_targaryen_kings:_maekar_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
-## Allegiances
-
-`SWORN_TO` House Targaryen (track_b: Allegiance).
-
-## Narrative Arc
-
-Maegor was passed over for the throne in the Great Council of 233 AC, which instead chose his great-uncle Aegon V. He was an infant at the time, and the council feared the madness of his father Aerion might be inherited.
+After the death of his grandfather, King [Maekar I Targaryen](wiki:Maekar_I_Targaryen), Maegor was one of the claimants in the [Great Council](wiki:Great_Council) of [233 AC](wiki:233_AC). Only a few spoke for him, and his claim was turned down because he was an infant and there were fears Maegor would inherit his father's madness. His uncle [Aegon V Targaryen](wiki:Aegon_V_Targaryen) was instead chosen king.(wiki:Maegor_Targaryen_(son_of_Aerion).cite_ref-Rtwoiaf_the_targaryen_kings:_maekar_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 
 ## Edges
 

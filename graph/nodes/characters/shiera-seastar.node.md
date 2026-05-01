@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Shiera_Seastar
 bucket_id: characters-house-targaryen-o-s
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -17,29 +17,45 @@ first_available:
   pov: Tyrion VIII
 ---
 
-## Identity
-
-Shiera Seastar was the last of the Great Bastards of King Aegon IV Targaryen, born to his final mistress Serenei of Lys. She was reputed to be the most beautiful woman in the Seven Kingdoms (wiki:Shiera_Seastar).
-
 ## Origins
 
-Born 178–184 AC in King's Landing (track_b: Born). Valyrian race, Crownlands culture (track_b: Race, Culture). Her mother Serenei of Lys died giving birth to her, naming her "Shiera, Star of the Sea" (wiki:Shiera_Seastar).
+King [Aegon IV Targaryen](wiki:Aegon_IV_Targaryen) sired Shiera upon the ninth and last of his mistresses, Lady [Serenei of Lys](wiki:Serenei_of_Lys). Serenei died giving birth to the last of the king's [bastard](wiki:Bastard) children, naming her child Shiera, Star of the Sea.(wiki:Shiera_Seastar.cite_ref-SSM_1-3)(wiki:Shiera_Seastar.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_iv.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
+
+Shiera never married, but took many [lovers](wiki:Paramour), and numerous duels were fought for her favor. Her half-brother [Brynden Rivers](wiki:Brynden_Rivers), known as Bloodraven, was her most ardent suitor, and repeatedly proposed [marriage](wiki:Marriage) to her. Although she refused to marry him, Shiera did share her bed with him and was amused by his jealousy.(wiki:Shiera_Seastar.cite_ref-SSM_1-4) Her other half-brother [Aegor Rivers](wiki:Aegor_Rivers), known as Bittersteel, also desired her, which only served to increase the hatred between Bloodraven and Bittersteel.(wiki:Shiera_Seastar.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_iv.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2)
+
+There were rumors that Shiera used [sorcery](wiki:Magic) to aid Bloodraven when he served as [Hand of the King](wiki:Hand_of_the_King) and [master of whisperers](wiki:Master_of_whisperers) to King [Aerys I Targaryen](wiki:Aerys_I_Targaryen),(wiki:Shiera_Seastar.cite_ref-Rtwoiafthe_targaryen_kings:_aerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) and that she bathed in blood to retain her beauty.(wiki:Shiera_Seastar.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 
 ## Appearances & Description
 
-Renowned as a beauty and seductress. Heart-shaped face, thick curly silver-gold Targaryen hair worn long. Two mismatched eyes — one dark blue, one bright green — said to enhance her beauty. Fond of ivory, lace, and cloth-of-silver but not cloth-of-gold (too vulgar). Possessed a heavy silver necklace with alternating star sapphires and emeralds complementing her eyes. A great reader from an early age, spoke many languages, maintained a large and arcane library. Reputed to share her mother Serenei's skill in the dark arts. Rumors claimed she bathed in blood to retain her beauty (wiki:Shiera_Seastar).
+Shiera was renowned as a beauty and seductress. She had a heart-shaped face, and thick and curly [Targaryen](wiki:House_Targaryen) silver-gold hair that she wore long. Although she had two mismatched eyes — one dark blue, the other bright green — it was said that the "defect" only enhanced her beauty. In clothing, Shiera was fond of [ivory](wiki:Ivory) and lace and cloth-of-[silver](wiki:Silver), but not cloth-of-[gold](wiki:Gold), which she considered too vulgar.(wiki:Shiera_Seastar.cite_ref-SSM_1-1)
 
-## Allegiances
-
-`SWORN_TO` House Targaryen (track_b: Allegiance).
+Shiera was a great reader, even at an early age, spoke many [languages](wiki:Languages), and maintained a large and arcane library. She also was reputed to share her mother [Serenei's](wiki:Serenei_of_Lys) skill in the [dark arts](wiki:Magic). Shiera was known to possess a heavy silver necklace, with alternating star [sapphires](wiki:Sapphire) and [emeralds](wiki:Emerald), that complemented her unusual eyes.(wiki:Shiera_Seastar.cite_ref-SSM_1-2)
 
 ## Narrative Arc
 
-Shiera never married but took many lovers, and numerous duels were fought for her favor. Her half-brother Brynden Rivers (Bloodraven) was her most ardent suitor and repeatedly proposed marriage. She refused to marry him but shared his bed and was amused by his jealousy. Her other half-brother Aegor Rivers (Bittersteel) also desired her, deepening the hatred between Bloodraven and Bittersteel. There were rumors that Shiera used sorcery to aid Bloodraven when he served as Hand of the King and master of whisperers (wiki:Shiera_Seastar).
+### A Dance with Dragons
 
-In ADWD, Shiera is mentioned in the context of Targaryen bastard history. She also appears in Rhae Targaryen's story — giving Rhae a love potion for her brother Aegon.
+[Bran Stark](wiki:Bran_Stark) trains [beyond the Wall](wiki:Beyond_the_Wall) with the ancient [three-eyed crow](wiki:Three-eyed_crow), who calls himself Lord [Brynden](wiki:Brynden_Rivers). Bran learns that this last [greenseer](wiki:Greenseer) once desired a woman, but her name is not mentioned.(wiki:Shiera_Seastar.cite_ref-Radwd34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
 
-Died in or after 211 AC (track_b: Died).
+[Barristan Selmy](wiki:Barristan_Selmy) recalls how love caused several wars in Westeros, including the rivalry of Bloodraven and Bittersteel for Shiera.(wiki:Shiera_Seastar.cite_ref-Radwd67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+
+## Quotes
+
+> **Duncan**: You've known queens and princesses. Did they dance with [demons](wiki:Demon) and practice the [black arts](wiki:Magic)? **Aegon**: Lady Shiera does. Lord [Bloodraven's](wiki:Brynden_Rivers) [paramour](wiki:Paramour). She bathes in blood to keep her beauty.(wiki:Shiera_Seastar.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+>
+> —[Duncan the Tall](wiki:Duncan_the_Tall) and [Aegon Targaryen](wiki:Aegon_V_Targaryen)
+
+> I have my own ghosts, Bran. A brother that I loved, [a brother](wiki:Aegor_Rivers) that I hated, a woman I desired.(wiki:Shiera_Seastar.cite_ref-Radwd34.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
+>
+> —[Brynden Rivers](wiki:Brynden_Rivers) to [Bran Stark](wiki:Bran_Stark)
+
+> [Bittersteel](wiki:Aegor_Rivers) and [Bloodraven](wiki:Brynden_Rivers) both loved Shiera Seastar, and the [Seven Kingdoms](wiki:Seven_Kingdoms) bled.(wiki:Shiera_Seastar.cite_ref-Radwd67.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
+>
+> —[Barristan Selmy](wiki:Barristan_Selmy)'s thoughts
+
+> Though she never wed, she had many offers, and several lovers through the years. Duels were fought over the right to sit beside her, men killed themselves after falling from her favor, poets outdid each other writing songs about her beauty. Her most ardent admirer was her half-brother, [Bloodraven](wiki:Brynden_Rivers), who proposed marriage to her half a hundred times. Shiera gave him her bed, but never her hand. It amused her more to make him jealous.(wiki:Shiera_Seastar.cite_ref-SSM_1-5)
+>
+> —[George R. R. Martin](wiki:George_R._R._Martin)
 
 ## Edges
 

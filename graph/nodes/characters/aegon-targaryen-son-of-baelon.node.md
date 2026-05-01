@@ -7,22 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aegon_Targaryen_(son_of_Baelon)"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Prince Aegon Targaryen was the youngest child of Prince Baelon Targaryen and Princess Alyssa Targaryen, named after Aegon the Conqueror (wiki:Aegon_Targaryen_(son_of_Baelon)).
-
 ## Origins
 
-Born in 84 AC (track_b: Born). Died in 85 AC as an infant (track_b: Died). Son of Baelon Targaryen and Alyssa Targaryen (track_b: Father, Mother). His older brothers were King Viserys I and Prince Daemon Targaryen (wiki:Aegon_Targaryen_(son_of_Baelon)).
-
-## Allegiances
-
-`SWORN_TO` House Targaryen (track_b: Allegiance). `HOLDS_TITLE` Prince (track_b: Title).
+Alyssa never recovered from the difficult labor, and perished the same year of Aegon's birth. Aegon died the following year, just short of his first [nameday](wiki:Nameday).(wiki:Aegon_Targaryen_(son_of_Baelon).cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
 
 ## Edges
 

@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Dalbridge
 bucket_id: characters-house-targaryen-b-d
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -17,25 +17,23 @@ first_available:
   pov: "Davos II"
 ---
 
-## Identity
-
-Dalbridge, called Squire Dalbridge, is a veteran ranger of the Night's Watch stationed at the Shadow Tower (wiki:Dalbridge).
-
-## Origins
-
-Born on or before 254 AC in Westeros (track_b: Born). He is nicknamed Squire Dalbridge because in his youth he squired for King Jaehaerys II Targaryen (wiki:Dalbridge).
-
-## Allegiances
-
-`SWORN_TO` Night's Watch (track_b: Allegiances). `SWORN_TO` House Targaryen (track_b: Allegiances).
-
 ## Appearances & Description
 
-Dalbridge is an older man, regarded as a great archer with the keenest eyes in the Night's Watch (wiki:Dalbridge).
+Dalbridge is an older man, regarded as a great archer.(wiki:Dalbridge.cite_ref-Racok51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) He is nicknamed Squire Dalbridge because in the spring of his youth he squired(wiki:Dalbridge.cite_ref-Racok51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1) for King [Jaehaerys II Targaryen](wiki:Jaehaerys_II_Targaryen).(wiki:Dalbridge.cite_ref-Rawoiaf_dalbridge.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) He is said to have the keenest eyes in the Night's Watch.(wiki:Dalbridge.cite_ref-Racok53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
 
 ## Narrative Arc
 
-Dalbridge is part of the one hundred reinforcements from the Shadow Tower to arrive at the Fist of the First Men. He is chosen by Qhorin Halfhand alongside Ebben, Stonesnake, and Jon Snow to scout the Skirling Pass. When the group is discovered by wildlings, Dalbridge stays behind to hold them off while the others escape. He dies at the Skirling Pass in 299 AC (track_b: Died) (wiki:Dalbridge).
+### A Clash of Kings
+
+Dalbridge is part of the one-hundred men reinforcements from the [Shadow Tower](wiki:Shadow_Tower) to arrive at the [Fist of the First Men](wiki:Fist_of_the_First_Men).(wiki:Dalbridge.cite_ref-Racok43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) He is chosen by [Qhorin Halfhand](wiki:Qhorin_Halfhand) alongside [Ebben](wiki:Ebben), [Stonesnake](wiki:Stonesnake) and [Jon Snow](wiki:Jon_Snow) to scout the [Skirling Pass](wiki:Skirling_Pass) to search for [wildlings](wiki:Wildlings).(wiki:Dalbridge.cite_ref-Racok43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
+
+When the group is discovered by the wildlings, Dalbridge stays behind to hold them off while the others make their escape. It is there that he is killed.(wiki:Dalbridge.cite_ref-Racok53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+
+## Quotes
+
+> It's always pretty women in my dreams. Would that I dreamed more often.(wiki:Dalbridge.cite_ref-Racok53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
+>
+> —Dalbridge to [Jon Snow](wiki:Jon_Snow)
 
 ## Edges
 

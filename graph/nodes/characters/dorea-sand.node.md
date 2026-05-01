@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Dorea_Sand
 bucket_id: characters-house-martell-a-m
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -16,17 +16,19 @@ first_available:
   pov: "The Prophet"
 ---
 
-## Identity
+## Appearances & Description
 
-Dorea Sand is one of the Sand Snakes, the bastard daughters of Prince Oberyn Martell. She is one of the younger Sand Snakes (wiki:Dorea_Sand).
+Like her sisters, Dorea has the same shape of eyes as her father's.(wiki:Dorea_Sand.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) Dorea is presumably [named after](wiki:Named_after) her uncle, Prince [Doran Martell](wiki:Doran_Martell).
 
-## Origins
+## Narrative Arc
 
-Born in 291 or 292 AC (track_b: Born, qualifier: age 8). Daughter of Oberyn Martell (track_b: Father) and Ellaria Sand (track_b: Mother). Of Dornish culture (track_b: Culture).
+### A Feast for Crows
 
-## Allegiances
+After the death of Prince Oberyn, Dorea and her sisters are taken into custody. Dorea, her mother and her sisters are all sent to the [Water Gardens](wiki:Water_Gardens), where Dorea walks around knocking oranges off the trees using her [morningstar](wiki:Armament).(wiki:Dorea_Sand.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
 
-`SWORN_TO` House Martell (track_b: Allegiance). `CULTURE_OF` Dornishmen (track_b: Culture).
+### The Winds of Winter
+
+Dorea remains at the Water Gardens while her mother travels with her sister [Loreza](wiki:Loreza_Sand) to [Hellholt](wiki:Hellholt), seat of [House Uller](wiki:House_Uller).(wiki:Dorea_Sand.cite_ref-5)
 
 ## Edges
 

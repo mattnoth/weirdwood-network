@@ -7,18 +7,16 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Skittrick
 bucket_id: characters-house-stark-q-w
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: ACOK 21 Tyrion V
 ---
 
-## Identity
+## Narrative Arc
 
-Skittrick is a man in service to House Stark (wiki:Skittrick).
+### A Clash of Kings
 
-## Allegiances
-
-`SWORN_TO` House Stark (track_b: Allegiance). `CULTURE_OF` Northmen (track_b: Culture).
+Skittrick is a new recruit, having signed up after the departure of both Lord [Eddard](wiki:Eddard_Stark) and [Robb Stark](wiki:Robb_Stark) to the south.(wiki:Skittrick.cite_ref-Racok21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
 
 ## Edges
 

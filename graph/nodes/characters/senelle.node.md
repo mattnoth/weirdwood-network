@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Senelle"
 bucket_id: characters-house-lannister-r-w
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -16,25 +16,21 @@ first_available:
   pov: "The Captain of Guards"
 ---
 
-## Identity
-
-Senelle is a maid in service to Queen Cersei Lannister (wiki:Senelle).
-
-## Origins
-
-Born in Westeros (track_b: Born). Died in 300 AC in the black cells of the Red Keep, King's Landing (track_b: Died).
-
-## Allegiances
-
-Senelle is `SWORN_TO` House Lannister (track_b: Allegiance).
-
 ## Narrative Arc
 
-Senelle is present when news of Lord Tywin Lannister's death is brought to Cersei (wiki:Senelle.cite_ref-Raffc3). Taena Merryweather informs Cersei that Senelle is spying for Margaery Tyrell (wiki:Senelle.cite_ref-Raffc12), so Cersei gives her to Qyburn for his experiments on the dying Ser Gregor Clegane. When Qyburn later requests more subjects, he notes that Senelle is "quite exhausted" (wiki:Senelle.cite_ref-Raffc24).
+### A Feast for Crows
+
+Senelle is present when the news of Lord [Tywin Lannister](wiki:Tywin_Lannister)'s death is brought to [Cersei Lannister](wiki:Cersei_Lannister).(wiki:Senelle.cite_ref-Raffc3.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+
+[Taena Merryweather](wiki:Taena_Merryweather) informs Cersei that Senelle is spying for [Margaery Tyrell](wiki:Margaery_Tyrell),(wiki:Senelle.cite_ref-Raffc12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) so Cersei gives her to [Qyburn](wiki:Qyburn) for his experiments on the dying Ser [Gregor Clegane](wiki:Gregor_Clegane).(wiki:Senelle.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) When he later requests more subjects, Cersei points out that she'd given him Senelle, to which he responds:
+
+> Alas. The poor girl is quite … exhausted.(wiki:Senelle.cite_ref-Raffc24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
 
 ## Quotes
 
-> Do not presume to smile at me, you treacherous little bitch. You will be begging me for mercy before I'm done with you. — Cersei Lannister's thoughts (wiki:Senelle.cite_ref-Raffc12)
+> Do not presume to smile at me, you treacherous little bitch. You will be begging me for mercy before I’m done with you.(wiki:Senelle.cite_ref-Raffc12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+>
+> —[Cersei Lannister](wiki:Cersei_Lannister)'s thoughts
 
 ## Edges
 

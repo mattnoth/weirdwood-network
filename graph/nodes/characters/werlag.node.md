@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Werlag
 bucket_id: characters-house-greyjoy-s-w
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -16,17 +16,11 @@ first_available:
   pov: "Tyrion VIII"
 ---
 
-## Identity
-
-Werlag is an ironborn raider sworn to House Greyjoy. (wiki:Werlag)
-
-## Allegiances
-
-Werlag is `SWORN_TO` House Greyjoy. (track_b: Allegiance) He is of `CULTURE_OF` ironborn culture. (track_b: Culture)
-
 ## Narrative Arc
 
-Werlag participated in the harrying of the Stony Shore under Theon Greyjoy. (wiki:Werlag.cite_ref-Racok37) He took part in the capture of Winterfell. (wiki:Werlag.cite_ref-Racok46) He remained with Theon after the northmen came to retake the castle, and was presumably killed when Bolton men sacked Winterfell. (wiki:Werlag.cite_ref-Racok66)
+### A Clash of Kings
+
+Werlag participates in the [harrying of the Stony Shore](wiki:Harrying_of_the_Stony_Shore)(wiki:Werlag.cite_ref-Racok37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0) and the [capture of Winterfell](wiki:Capture_of_Winterfell).(wiki:Werlag.cite_ref-Racok46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) He remains with [Theon Greyjoy](wiki:Theon_Greyjoy) after the [northmen](wiki:Northmen) come to [retake the castle](wiki:Battle_at_Winterfell).(wiki:Werlag.cite_ref-Racok66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) He is presumably killed when the [Bolton](wiki:House_Bolton) men [sack Winterfell](wiki:Sack_of_Winterfell).
 
 ## Edges
 

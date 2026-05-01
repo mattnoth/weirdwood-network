@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Hayhead"
 bucket_id: characters-house-stark-b-h
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -16,13 +16,15 @@ first_available:
   pov: "Tyrion I"
 ---
 
-## Identity
+## Appearances & Description
 
-Hayhead is a man sworn to House Stark (track_b: Allegiance).
+Hayhead has a large wen on his nose.(wiki:Hayhead.cite_ref-Racok4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
 
-## Allegiances
+## Narrative Arc
 
-Hayhead is `SWORN_TO` House Stark (track_b: Allegiance) and belongs to `CULTURE_OF` Northmen (track_b: Culture).
+### A Clash of Kings
+
+Hayhead is a new guardsman, hired after [Robb](wiki:Robb_Stark) and [Eddard Stark](wiki:Eddard_Stark) go south.(wiki:Hayhead.cite_ref-Racok4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)(wiki:Hayhead.cite_ref-Racok21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) He is injured by the [ironborn](wiki:Ironborn) during the [capture of Winterfell](wiki:Capture_of_Winterfell).(wiki:Hayhead.cite_ref-Racok46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 
 ## Edges
 

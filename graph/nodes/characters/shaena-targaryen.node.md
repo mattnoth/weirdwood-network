@@ -7,26 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Shaena_Targaryen
 bucket_id: characters-house-targaryen-o-s
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Princess Shaena Targaryen was the stillborn second child of King Aerys II Targaryen and Queen Rhaella Targaryen (wiki:Shaena_Targaryen).
-
 ## Origins
 
-Born and died 267 AC in King's Landing, stillborn (track_b: Born, Died). Valyrian race (track_b: Race).
-
-## Allegiances
-
-`SWORN_TO` House Targaryen (track_b: Allegiance).
-
-## Narrative Arc
-
-Shaena was stillborn in 267 AC while her father Aerys II, her brother Rhaegar, and half the court were in the westerlands. Queen Rhaella had remained in King's Landing. Shaena was the first of many tragic pregnancies Rhaella would endure after Rhaegar's birth (wiki:Shaena_Targaryen).
+Shaena was stillborn in [267 AC](wiki:Years_after_Aegon's_Conquest), while her father [Aerys II](wiki:Aerys_II_Targaryen), her brother [Rhaegar](wiki:Rhaegar_Targaryen), and half the court were present in the [westerlands](wiki:Westerlands). Shaena's mother, Queen [Rhaella](wiki:Rhaella_Targaryen), had remained in [King's Landing](wiki:King's_Landing).(wiki:Shaena_Targaryen.cite_ref-Rtwoiaf_the_targaryen_kings:_aerys_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 
 ## Edges
 

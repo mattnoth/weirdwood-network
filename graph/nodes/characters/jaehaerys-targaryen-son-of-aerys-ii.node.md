@@ -7,26 +7,16 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jaehaerys_Targaryen_(son_of_Aerys_II)"
 bucket_id: characters-house-targaryen-j-n
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Prince Jaehaerys Targaryen was the fourthborn son of King Aerys II Targaryen and Queen Rhaella Targaryen (wiki:Jaehaerys_Targaryen_(son_of_Aerys_II).cite_ref-Rtwoiaf). He held the title of Prince (track_b: Title).
-
 ## Origins
 
-Born in 274 AC and died the same year (track_b: Born, Died). His father was Aerys II Targaryen and his mother was Rhaella Targaryen (track_b: Father, Mother). Of Valyrian race and Crownlands culture (track_b: Race, Culture).
+Jaehaerys's birth in [274 AC](wiki:Years_after_Aegon's_Conquest) seemed to abate the [madness](wiki:Targaryen_madness) that was rising in King [Aerys II Targaryen](wiki:Aerys_II_Targaryen), who was so joyful he seemed to become as he had been in his youth. Jaehaerys died later in the same year, though, causing Aerys to despair. The rageful king blamed the prince's death on his [wet nurse](wiki:Wet_nurse) and had her beheaded.(wiki:Jaehaerys_Targaryen_(son_of_Aerys_II).cite_ref-Rtwoiafthe_targaryen_kings:_aerys_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 
-## Allegiances
-
-`SWORN_TO` House Targaryen (track_b: Allegiance).
-
-## Narrative Arc
-
-Jaehaerys's birth in 274 AC seemed to abate the madness rising in Aerys II, who appeared as joyful as in his youth. The prince died later that same year, causing Aerys to despair. The king blamed the wet nurse and had her beheaded. He later decided his royal mistress, the daughter of a household knight, had poisoned his son, and tortured the girl and her family to death. Their confessions differed greatly. This led Aerys to fast for a fortnight, make a walk of repentance, and vow loyalty to Queen Rhaella (wiki:Jaehaerys_Targaryen_(son_of_Aerys_II).cite_ref-Rtwoiaf).
+Later deciding that the royal mistress, the [daughter](wiki:Aerys_II_Targaryen's_last_mistress) of a [household knight](wiki:Household_knight), had [poisoned](wiki:Poison) his son, Aerys [tortured](wiki:Torture) the girl and her family to death. The entire family admitted to the murder, though their confessions differed greatly. This led to Aerys fasting for a fortnight, making a walk of repentance, and praying with the [High Septon](wiki:High_Septon_(Aerys_II)), before announcing that he would remain loyal to Queen [Rhaella](wiki:Rhaella_Targaryen).(wiki:Jaehaerys_Targaryen_(son_of_Aerys_II).cite_ref-Rtwoiafthe_targaryen_kings:_aerys_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
 
 ## Edges
 

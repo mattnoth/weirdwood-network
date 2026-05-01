@@ -10,7 +10,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Tytos_Lannister"
 bucket_id: characters-house-lannister-r-w
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -19,33 +19,31 @@ first_available:
   pov: "The Captain of Guards"
 ---
 
-## Identity
-
-Lord Tytos Lannister was the Lord of Casterly Rock and head of House Lannister during the reigns of kings Aegon V, Jaehaerys II, and Aerys II Targaryen. He is the grandfather of Cersei, Jaime, and Tyrion through his eldest son Tywin (wiki:Tytos_Lannister).
-
-## Origins
-
-Born in 220 AC (track_b: Born). Son of Gerold Lannister and Rohanne Webber (track_b: Father, Mother). Died in 267 AC aged 46 at Casterly Rock (track_b: Died).
-
-## Allegiances
-
-Tytos `HOLDS_TITLE` Lord of Casterly Rock, Shield of Lannisport, Warden of the West (track_b: Titles). He is `SWORN_TO` House Lannister (track_b: Allegiance). His culture is Westermen (track_b: Culture). He is `SPOUSE_OF` Jeyne Marbrand (track_b: Spouse).
-
 ## Appearances & Description
 
-An amiable and jovial gentleman, Tytos was called the Laughing Lion before his wife's death. He was weak-willed, eager to please, slow to anger, quick to forgive, and too trusting. He was a fat man who loved cheese, cakes, and beer (wiki:Tytos_Lannister.cite_ref-TWOIAF). Guests mocked him to his face, a practice called "twisting the lion's tail" (wiki:Tytos_Lannister.cite_ref-TWOIAF).
+An amiable and jovial gentleman, Tytos was called the Laughing Lion prior to the death of his beloved wife, [Jeyne Marbrand](wiki:Jeyne_Marbrand).(wiki:Tytos_Lannister.cite_ref-Rtwoiafthe_westerlands:_house_lannister_under_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3) However, he was also weak willed, eager to please, slow to anger, quick to forgive, and too trusting by half. He saw the good in everyone, great and small, but this trust blinded him to threats to [House Lannister](wiki:House_Lannister).(wiki:Tytos_Lannister.cite_ref-Rtwoiafthe_westerlands:_house_lannister_under_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
 
-## Narrative Arc
+Tytos was a fat man,(wiki:Tytos_Lannister.cite_ref-Rtwoiafthe_targaryen_kings:_aerys_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1) he loved eating cheese and cakes, and drinking [beer](wiki:Beer).(wiki:Tytos_Lannister.cite_ref-sample_2-1) While Lord of [Casterly Rock](wiki:Casterly_Rock), Tytos loaned money to [lords](wiki:Lord) who never bothered to repay him, and his [bannermen](wiki:Bannermen) openly ignored his orders.(wiki:Tytos_Lannister.cite_ref-Rasos66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) Guests at his court were allowed to mock him to his face, called "twisting the lion's tail".(wiki:Tytos_Lannister.cite_ref-Rtwoiafthe_westerlands:_house_lannister_under_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
 
-Tytos was the third son of Lord Gerold Lannister and Rohanne Webber. His elder twins Tywald and Tion died young, making Tytos heir to Casterly Rock by 236 AC. He married Jeyne Marbrand in 235 AC and had five children (wiki:Tytos_Lannister.cite_ref-TWOIAF).
+## Quotes
 
-After Tion's death, Ellyn Reyne tried to seduce Tytos so he would set aside Jeyne. Tytos was so intimidated he failed to perform, confessed to Jeyne, who informed Lord Gerold. Gerold hastily wed Ellyn to Lord Walderan Tarbeck (wiki:Tytos_Lannister.cite_ref-TWOIAF).
+### Quotes about Tytos
 
-Tytos became Lord of Casterly Rock in 244 AC. Bannermen and merchants took advantage of him. The power of House Lannister waned as neighboring houses grew in strength. Tytos loaned money to lords who never repaid him and his bannermen ignored his orders (wiki:Tytos_Lannister.cite_ref-Rasos19).
+> Lord Tytos was an altogether different character [to [Tywin](wiki:Tywin_Lannister)], amiable but ineffectual, and he allowed himself to be pushed around a good deal, by a number of people.. including Lord [Walder Frey](wiki:Walder_Frey) (ever wonder how [Genna](wiki:Genna_Lannister) came to marry [so poorly](wiki:Emmon_Frey)?) and the [Red Lion of Castamere](wiki:Roger_Reyne), the richest and most powerful [Lannister](wiki:House_Lannister) bannerman, and a formidable soldier/warrior in his own right...(wiki:Tytos_Lannister.cite_ref-13)
+>
+> —[George R. R. Martin](wiki:George_R._R._Martin)
 
-Tytos agreed to marry his daughter Genna to Emmon Frey just to please Lord Walder Frey. Only ten-year-old Tywin spoke against the match. During the War of the Ninepenny Kings in 260 AC, Tytos remained at Casterly Rock with his mistress rather than fight (wiki:Tytos_Lannister.cite_ref-TWOIAF).
+> His lordship wants only to be loved. So he laughs, and takes no offense, and forgives, and bestows honors and offices and lavish gifts on those who mock him and defy him, thinking thereby to win their loyalty. Yet the more he laughs and gives, the more they despise him.(wiki:Tytos_Lannister.cite_ref-Rtwoiafthe_westerlands:_house_lannister_under_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-18)
+>
+> —[Beldon](wiki:Beldon) in a letter to the [Citadel](wiki:Citadel)
 
-Tytos died in 267 AC of a heart attack while climbing stairs to see his second mistress. His son Tywin then purged the mistress and restored House Lannister's reputation (wiki:Tytos_Lannister.cite_ref-TWOIAF).
+> Our own father was gentle and amiable, but so weak his bannermen mocked him in their cups. Some saw fit to defy him openly. Other [lords](wiki:Lord) borrowed our [gold](wiki:Gold) and never troubled to repay it. At court they japed of toothless [lions](wiki:Lion). Even his [mistress](wiki:Tytos_Lannister's_second_mistress) stole from him. A woman scarcely one step above a [whore](wiki:Whore), and she helped herself to [my mother's](wiki:Jeyne_Marbrand) jewels!(wiki:Tytos_Lannister.cite_ref-Rasos66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-3)
+>
+> —[Kevan Lannister](wiki:Kevan_Lannister), to [Tyrion Lannister](wiki:Tyrion_Lannister)
+
+> [Tywin](wiki:Tywin_Lannister) mistrusted laughter. He heard too many people laughing at your grandsire.(wiki:Tytos_Lannister.cite_ref-Raffc32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-2)
+>
+> —[Genna Lannister](wiki:Genna_Lannister), to [Jaime Lannister](wiki:Jaime_Lannister)
 
 ## Edges
 

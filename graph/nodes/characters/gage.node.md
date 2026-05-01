@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Gage"
 bucket_id: characters-house-stark-b-h
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -16,25 +16,33 @@ first_available:
   pov: "Tyrion I"
 ---
 
-## Identity
+## Appearances & Description
 
-Gage is the cook at Winterfell, serving House Stark (track_b: Allegiance). He is known for his beef-and-bacon pies and lemoncakes (wiki:Gage, agot-jon-09).
-
-## Origins
-
-A Northman (track_b: Culture). Father of Turnip (track_b: Issue).
-
-## Allegiances
-
-Gage is `SWORN_TO` House Stark (track_b: Allegiance) and belongs to `CULTURE_OF` Northmen (track_b: Culture).
+Gage eagerly awaits the return of game hunters to [Winterfell](wiki:Winterfell).(wiki:Gage.cite_ref-Racok51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) When there are lemons to be had, he makes [lemon cakes](wiki:Lemon_cake) for [Sansa Stark](wiki:Sansa_Stark).(wiki:Gage.cite_ref-TWOW_4-0) Gage also bakes beef-and-bacon pies(wiki:Gage.cite_ref-Ragot70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) and steak-and-kidney pies.(wiki:Gage.cite_ref-TWOW_4-1)
 
 ## Narrative Arc
 
-Gage serves as Winterfell's cook. Jon Snow fondly recalls his beef-and-bacon pies after joining the Night's Watch (agot-jon-09). When the wildling captive Osha is put to work in the kitchens, Gage enters a sexual relationship with her; he lets her pray in the godswood from time to time in exchange (agot-bran-06, wiki:Gage). After Theon Greyjoy captures Winterfell, Gage is sullen toward the ironborn occupiers (wiki:Gage). When Jeyne Poole later escapes Winterfell posing as Arya Stark, Mors Umber tests her identity by asking for the cook's name — Jeyne immediately answers "Gage," and Mors assumes the cook died during the sack (wiki:Gage).
+### A Game of Thrones
+
+[Rickon Stark](wiki:Rickon_Stark) is upset, and his [direwolf](wiki:Direwolf) [Shaggydog](wiki:Shaggydog) bites Gage's arm.(wiki:Gage.cite_ref-Ragot53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) The captured [wildling](wiki:Wildling) [Osha](wiki:Osha) is sent to work with Gage in the kitchen. The cook has a sexual relationship with Osha, who finds Gage gentler than her former lover, [Stiv](wiki:Stiv). Gage lets Osha pray in the [godswood of Winterfell](wiki:Godswood_of_Winterfell) from time to time.(wiki:Gage.cite_ref-Ragot53.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+
+### A Clash of Kings
+
+Osha helps Gage with cooking, baking, and cleaning in the kitchens.(wiki:Gage.cite_ref-Racok46.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) The cook is sullen toward [Theon Greyjoy](wiki:Theon_Greyjoy) after the [capture of Winterfell](wiki:Capture_of_Winterfell).(wiki:Gage.cite_ref-Racok51.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)(wiki:Gage.cite_ref-Racok66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+
+### The Winds of Winter
+
+Theon Greyjoy and [Jeyne Poole](wiki:Jeyne_Poole) escape Winterfell, and are discovered by [Mors Umber](wiki:Mors_Umber). Crowfood asks Jeyne questions about the castle to confirm her assumed identity of "[Arya Stark](wiki:Arya_Stark)", such as the names of servants, including [the smith](wiki:Mikken) and the cook. Jeyne immediately answers with Gage's name, and Mors assumes the cook died during the [sack of Winterfell](wiki:Sack_of_Winterfell).(wiki:Gage.cite_ref-TWOW_4-2)
 
 ## Quotes
 
-- Jeyne Poole: "Gage. He was a good cook. He would make lemoncakes for Sansa whenever we had lemons." (wiki:Gage)
+> Well, your [dreams](wiki:Dream) are your business. Mine's in the kitchens, and I'd best be getting back before Gage starts to shouting and waving that big wooden spoon of his.(wiki:Gage.cite_ref-Racok16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
+>
+> —[Osha](wiki:Osha) to [Bran Stark](wiki:Bran_Stark)
+
+> **Mors**: When last I was inside those walls, your cook served us a steak and kidney pie. Made with [ale](wiki:Ale), I think, best I ever tasted. What was his name, that cook? **Jeyne**: Gage. He was a good cook. He would make [lemoncakes](wiki:Lemon_cake) for [Sansa](wiki:Sansa_Stark) whenever we had lemons.(wiki:Gage.cite_ref-TWOW_4-3)
+>
+> —[Mors Umber](wiki:Mors_Umber) and [Jeyne Poole](wiki:Jeyne_Poole)
 
 ## Edges
 

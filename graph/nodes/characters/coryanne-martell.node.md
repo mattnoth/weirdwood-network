@@ -7,22 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Coryanne_Martell
 bucket_id: characters-house-martell-a-m
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Princess Coryanne Martell was a Dornish princess of House Martell (wiki:Coryanne_Martell). She `HOLDS_TITLE` Princess (track_b: Title).
-
 ## Origins
 
-Born between 116 and 132 AC (track_b: Born). Daughter of Qoren Martell (track_b: Father), and sister of Aliandra Martell. Of Dornish culture (track_b: Culture).
-
-## Allegiances
-
-`SWORN_TO` House Martell (track_b: Allegiance). `CULTURE_OF` Dornishmen (track_b: Culture).
+Coryanne and her brother, Prince [Qyle](wiki:Qyle_Martell), were angered by the attentions their flirtatious older sister, Princess Aliandra, lavished upon Lord [Alyn Velaryon](wiki:Alyn_Velaryon).(wiki:Coryanne_Martell.cite_ref-Rfabunder_the_regents_-_the_voyage_of_alyn_oakenfist.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 
 ## Edges
 

@@ -7,22 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Brandon_Stark_(son_of_Bran_the_Builder)"
 bucket_id: characters-house-stark-b-h
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Brandon Stark was a member of House Stark in the Age of Heroes, the son of Brandon the Builder, the legendary founder of House Stark and builder of Winterfell and the Wall (track_b: Father).
-
 ## Origins
 
-Son of Brandon the Builder (track_b: Father). No mother recorded.
-
-## Allegiances
-
-Brandon was `SWORN_TO` House Stark (track_b: Allegiance) and belonged to `CULTURE_OF` Northmen (track_b: Culture).
+Some stories claim that King [Uthor of the High Tower](wiki:Uthor_of_the_High_Tower) commissioned Bran the Builder to design the stone [Hightower](wiki:Hightower), while others claim it was instead Bran's son, Brandon.(wiki:Brandon_Stark_(son_of_Bran_the_Builder).cite_ref-Rtwoiafthe_reach:_oldtown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0) It is unknown if Brandon was a [King of Winter](wiki:King_of_Winter).
 
 ## Edges
 

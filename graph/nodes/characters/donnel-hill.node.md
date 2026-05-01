@@ -9,7 +9,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Donnel_Hill
 bucket_id: characters-house-lannister-b-j
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -18,25 +18,27 @@ first_available:
   pov: "Davos I"
 ---
 
-## Identity
-
-Donnel Hill, known as Sweet Donnel, is a steward of the Night's Watch and squire of Ser Mallador Locke. He claims to be a bastard of the Lannisters (wiki:Donnel_Hill).
-
-## Origins
-
-Born in the Westerlands (track_b: Born). Claims Lannister blood, though this is unverified (wiki:Donnel_Hill).
-
-## Allegiances
-
-`SWORN_TO` House Lannister — claimed (track_b: Allegiances). `MEMBER_OF` Night's Watch (track_b: Allegiances). `CULTURE_OF` Westermen (track_b: Culture).
-
 ## Appearances & Description
 
-Donnel has white teeth, fat red lips, and yellow hair worn in a tumble down to his shoulders. He is slender and makes easy japes. He is a skilled archer (wiki:Donnel_Hill).
+Donnel has white teeth, fat red lips and yellow hair worn in a tumble down to his shoulders.(wiki:Donnel_Hill.cite_ref-Rasosprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3) He is slender(wiki:Donnel_Hill.cite_ref-Rasos33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) and makes easy japes.(wiki:Donnel_Hill.cite_ref-Rasosprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4) He is a skilled archer.(wiki:Donnel_Hill.cite_ref-Rawoiafdonnel_hill.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 
 ## Narrative Arc
 
-Donnel is part of the great ranging from Castle Black. He is one of the conspirators who intend to kill Lord Commander Jeor Mormont, tasked with cutting the horse tethers with Clubfoot Karl. The fight at the Fist disrupts their plan. Donnel is among the men who make it back to Craster's Keep, where he knocks one of Craster's wives to the floor during the mutiny (wiki:Donnel_Hill, cite_ref-Rasos18, cite_ref-Rasos33). In ADWD, he is with Stannis Baratheon's force at Castle Black (wiki:Donnel_Hill, cite_ref-Radwd10).
+### A Storm of Swords
+
+Donnel is part of the [great ranging](wiki:Great_ranging), the force that leaves [Castle Black](wiki:Castle_Black) in search of the [wildlings](wiki:Wildlings). He is one of the conspirators who intend to kill Lord Commander [Jeor Mormont](wiki:Jeor_Mormont) and several other brothers, and is tasked with cutting the horse tethers with [Clubfoot Karl](wiki:Clubfoot_Karl).(wiki:Donnel_Hill.cite_ref-Rasosprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5) The [fight at the Fist](wiki:Fight_at_the_Fist) disrupts their plan, however.(wiki:Donnel_Hill.cite_ref-Rasos18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+
+Donnel is among the men who make it back to [Craster's Keep](wiki:Craster's_Keep). He knocks one of [Craster](wiki:Craster)'s wives to the floor when she attacks him during [a mutiny](wiki:Mutiny_at_Craster's_Keep).(wiki:Donnel_Hill.cite_ref-Rasos33.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1) However, Donnel does not join the betrayers and instead is one of the few survivors of the ranging to make it back to Castle Black.(wiki:Donnel_Hill.cite_ref-Rasos48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
+
+### A Dance with Dragons
+
+When [Melisandre](wiki:Melisandre) is burning "[Mance Rayder](wiki:Rattleshirt)" at [Castle Black](wiki:Castle_Black), Lord Commander [Jon Snow](wiki:Jon_Snow) has Donnel, [Ulmer](wiki:Ulmer), [Garth Greyfeather](wiki:Garth_Greyfeather), and [Bearded Ben](wiki:Bearded_Ben) shoot arrows at the burning man to [end his suffering](wiki:Gift_of_mercy).(wiki:Donnel_Hill.cite_ref-Radwd10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
+
+## Quotes
+
+> [This King-beyond-the-Wall](wiki:Mance_Rayder) will never look for us so [far north](wiki:Fist_of_the_First_Men). And this [great host](wiki:Free_folk) of his is a shambling horde, full of useless mouths who won't know what end of a [sword](wiki:Sword) to hold. One blow will take all the fight out of them and send them howling back to their hovels for another fifty years.(wiki:Donnel_Hill.cite_ref-Rasosprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+>
+> —Donnel Hill to his [Sworn Brothers](wiki:Sworn_Brother)
 
 ## Edges
 

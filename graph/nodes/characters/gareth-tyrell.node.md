@@ -7,26 +7,18 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Gareth_Tyrell
 bucket_id: characters-house-tyrell-a-l
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Gareth Tyrell was a head of House Tyrell and the first High Steward of the Reach for House Gardener. He was the second son of Ser Alester Tyrell, founder of the house (wiki:Gareth_Tyrell.cite_ref-Rtwoiaf1).
-
 ## Origins
 
-Son of Alester Tyrell (track_b: Father). Unlike his elder brother who was a notable knight, Gareth was of a more bookish bent and never achieved knighthood, choosing to serve as a royal steward (wiki:Gareth_Tyrell.cite_ref-Rtwoiaf1).
+Gareth and his son [Leo](wiki:Leo_Tyrell_(son_of_Gareth)) performed their duties so well that the [Gardeners](wiki:House_Gardener) made the office of High Steward hereditary.(wiki:Gareth_Tyrell.cite_ref-Rtwoiafthe_reach:_house_tyrell.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 
-## Allegiances
+## Appearances & Description
 
-`SWORN_TO` House Tyrell (track_b: Allegiance). Served House Gardener as High Steward.
-
-## Narrative Arc
-
-Gareth and his son Leo performed their duties so well that the Gardeners made the office of High Steward hereditary, establishing the Tyrell line's role that would eventually lead to their elevation to lords of Highgarden (wiki:Gareth_Tyrell.cite_ref-Rtwoiaf1).
+Unlike his elder brother, Gareth was of a more bookish bent and never achieved [knighthood](wiki:Knight), choosing to serve as a royal steward instead.(wiki:Gareth_Tyrell.cite_ref-Rtwoiafthe_reach:_house_tyrell.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
 ## Edges
 

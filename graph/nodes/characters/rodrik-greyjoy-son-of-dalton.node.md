@@ -7,26 +7,22 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Rodrik_Greyjoy_(son_of_Dalton)
 bucket_id: characters-house-greyjoy-g-r
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Rodrik Greyjoy was a salt son of Dalton Greyjoy, the Red Kraken, and a claimant to the Seastone Chair after his father's death (wiki:Rodrik_Greyjoy_(son_of_Dalton), track_b: Father, Titles).
-
 ## Origins
 
-Son of Dalton Greyjoy (track_b: Father). Born as a salt son (bastard of a salt wife).
+Rodrik was a [salt son](wiki:Salt_son) of Lord [Dalton Greyjoy](wiki:Dalton_Greyjoy), the Red Kraken.(wiki:Rodrik_Greyjoy_(son_of_Dalton).cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
-## Allegiances
+In [133 AC](wiki:133_AC), Dalton was slain by one of his [salt wives](wiki:Salt_wife), [Tess](wiki:Tess), at [Faircastle](wiki:Faircastle). A bloody [power struggle](wiki:Iron_Islands_succession_struggle) ensued on the [Iron Islands](wiki:Iron_Islands). By law, the [Seastone Chair](wiki:Seastone_Chair) fell to Rodrik's elder half-brother, [Toron](wiki:Toron_Greyjoy), but Rodrik's father's cousins raised him up as [Lord of the Iron Islands](wiki:Lord_of_the_Iron_Islands). After half a year, Lady [Johanna Lannister](wiki:Johanna_Lannister) sent [westermen](wiki:Westerlands) to invade the Iron Islands in [134 AC](wiki:134_AC). Rodrik was captured, [gelded](wiki:Eunuch), and made a court [fool](wiki:Fool) to Johanna's son, Lord [Loreon Lannister](wiki:Loreon_Lannister_(son_of_Jason)), at [Casterly Rock](wiki:Casterly_Rock).(wiki:Rodrik_Greyjoy_(son_of_Dalton).cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)(wiki:Rodrik_Greyjoy_(son_of_Dalton).cite_ref-Rtwoiafthe_iron_islands:_the_red_kraken.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
 
-He is `SWORN_TO` House Greyjoy and later House Lannister (track_b: Allegiances). He is `CULTURE_OF` the ironborn (track_b: Culture). He `HOLDS_TITLE` Lord Reaper of Pyke (claimant) and Lord of the Iron Islands (claimant) (track_b: Titles).
+## Quotes
 
-## Narrative Arc
-
-After the death of his father Dalton Greyjoy, Rodrik was one of several salt sons who claimed the Seastone Chair during the power struggle that followed. He was eventually captured by the Lannisters, gelded, and made a court fool at Casterly Rock — a humiliating fate that symbolized the ironborn's loss of power after the Red Kraken's death (wiki:Rodrik_Greyjoy_(son_of_Dalton)).
+> A fine fool he proved, yet not half so foolish as [his father](wiki:Dalton_Greyjoy).(wiki:Rodrik_Greyjoy_(son_of_Dalton).cite_ref-Rtwoiafthe_iron_islands:_the_red_kraken.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+>
+> —writings of [Haereg](wiki:Haereg)
 
 ## Edges
 

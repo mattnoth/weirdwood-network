@@ -7,17 +7,15 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Robert_Tyrell
 bucket_id: characters-house-tyrell-l-w
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 ---
 
-## Identity
+## Origins
 
-Ser Robert Tyrell was a knight of House Tyrell and the High Steward of the Reach, succeeding his father Ser Osmund Tyrell in the role. He served House Gardener (wiki:Robert_Tyrell).
+Ser Robert succeeded his father, Ser [Osmund Tyrell](wiki:Osmund_Tyrell), as High Steward. He continued his father's work in aiding his king, [Mern VI](wiki:Mern_VI_Gardener), in the reconstruction of the [Reach](wiki:Reach) after the [Dornish](wiki:Dorne) raid that had sacked [Highgarden](wiki:Highgarden) and killed the senile old king, [Garth X](wiki:Garth_X_Gardener).(wiki:Robert_Tyrell.cite_ref-Rtwoiaf773_1-0)
 
-## Allegiances
-
-`SWORN_TO` House Tyrell (track_b: Allegiances). `SWORN_TO` House Gardener (track_b: Allegiances). `CULTURE_OF` the Reach (track_b: Culture).
+King Mern VI was so pleased with the [Tyrells](wiki:House_Tyrell) that he gave Robert the hand of his youngest daughter in marriage, thereby allowing the following generations of Tyrells to claim descent from [Garth Greenhand](wiki:Garth_Greenhand). Robert was succeeded by his eldest son, [Lorent](wiki:Lorent_Tyrell_(steward)).(wiki:Robert_Tyrell.cite_ref-Rtwoiaf775_2-0)
 
 ## Edges
 

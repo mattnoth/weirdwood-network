@@ -7,26 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Branda_Stark"
 bucket_id: characters-house-stark-a-b
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Branda Stark was a noblewoman from House Stark, the eldest daughter of Rodrik Stark and his wife Arya Flint (wiki:Branda_Stark).
-
 ## Origins
 
-Born between 202 and 249 AC. Daughter of Rodrik Stark and Arya Flint (track_b: Father, track_b: Mother). She had a younger sister, Lyarra Stark, who became the mother of Lord Eddard Stark (wiki:Branda_Stark).
-
-## Allegiances
-
-`SWORN_TO` House Stark (track_b: Allegiances). `SWORN_TO` House Rogers (track_b: Allegiances). `CULTURE_OF` Northmen (track_b: Culture).
-
-## Narrative Arc
-
-Branda married Ser Harrold Rogers (wiki:Branda_Stark).
+Branda was married to Ser [Harrold Rogers](wiki:Harrold_Rogers).(wiki:Branda_Stark.cite_ref-Rtwoiafappendix:_stark_lineage.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)(wiki:Branda_Stark.cite_ref-Title_3-0)
 
 ## Edges
 

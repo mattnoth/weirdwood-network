@@ -7,26 +7,16 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Veron_Greyjoy
 bucket_id: characters-house-greyjoy-s-w
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Veron Greyjoy was the brother of Dalton Greyjoy, the Red Kraken. (wiki:Veron_Greyjoy)
-
 ## Origins
 
-Born between 114–130 AC. His father was a Greyjoy lord. (track_b: Born, Father)
+When Lord [Dalton Greyjoy](wiki:Dalton_Greyjoy) took [Fair Isle](wiki:Fair_Isle) and [Faircastle](wiki:Faircastle) during the [Dance of the Dragons](wiki:Dance_of_the_Dragons), the Red Kraken claimed four daughters of [Lord Farman](wiki:Lord_Farman_(father_of_Lysa)) as [salt wives](wiki:Salt_wives), including [Lysa](wiki:Lysa_Farman). A fifth daughter, whom Dalton considered "homely", was given to Veron.(wiki:Veron_Greyjoy.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)(wiki:Veron_Greyjoy.cite_ref-Rtwoiafthe_iron_islands:_the_red_kraken.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
 
-## Allegiances
-
-Veron was `SWORN_TO` House Greyjoy. (track_b: Allegiance) He was of `CULTURE_OF` ironborn culture. (track_b: Culture)
-
-## Narrative Arc
-
-Veron was given a "homely" daughter of House Farman as a salt wife. He predeceased his brother Dalton, dying sometime before Dalton's murder in 133 AC. (wiki:Veron_Greyjoy; sources: Fire & Blood, TWOIAF)
+Archmaester [Gyldayn](wiki:Gyldayn) does not list Veron as one of his brother's heirs after the Red Kraken's death in [133 AC](wiki:133_AC), indicating that Veron had predeceased his elder brother.(wiki:Veron_Greyjoy.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
 
 ## Edges
 

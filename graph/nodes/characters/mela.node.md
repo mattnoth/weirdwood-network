@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Mela"
 bucket_id: characters-house-arryn
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -16,21 +16,15 @@ first_available:
   pov: "Arya II"
 ---
 
-## Identity
-
-Mela is a servant in House Arryn's household at the Eyrie (wiki:Mela).
-
-## Allegiances
-
-`SWORN_TO` House Arryn (track_b: Allegiance). `CULTURE_OF` Valemen (track_b: Culture).
-
 ## Appearances & Description
 
-Stoop-backed (wiki:Mela).
+Mela is stoop-backed.(wiki:Mela.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
 
 ## Narrative Arc
 
-Mela was sent by Petyr Baelish to fetch a new spoon for Robert Arryn after he refused to eat his porridge. Before she could go, Robert had a seizure (wiki:Mela).
+### A Feast for Crows
+
+Mela was sent by Lord [Petyr Baelish](wiki:Petyr_Baelish) to get a new spoon for Lord [Robert Arryn](wiki:Robert_Arryn) after he refused to eat his porridge. Before she could go, Lord Robert had a fit.(wiki:Mela.cite_ref-Raffc23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 
 ## Edges
 

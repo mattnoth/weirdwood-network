@@ -7,30 +7,26 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Bertrand_Tyrell
 bucket_id: characters-house-tyrell-a-l
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
+## Origins
 
-Lord Bertrand Tyrell was the Lord of Highgarden and head of House Tyrell during the early reign of King Jaehaerys I Targaryen (wiki:Bertrand_Tyrell.cite_ref-Rfab2).
+When Lord [Daemon Velaryon](wiki:Daemon_Velaryon_(son_of_Aethan)) resigned the office of [Hand of the King](wiki:Hand_of_the_King) in [54 AC](wiki:54_AC), several names were brought up and then quickly dismissed as potential replacements. Lord Bertrand was among them, for he was known to be a drunkard and the [small council](wiki:Small_council) feared that his unruly sons would bring disgrace to the Crown.(wiki:Bertrand_Tyrell.cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
 
-## Allegiances
-
-`SWORN_TO` House Tyrell (track_b: Allegiance). Ruled Highgarden as Lord Paramount of the Mander.
+In the terrible winter of [59 AC](wiki:59_AC), the [Shivers](wiki:Shivers) hit [Highgarden](wiki:Highgarden). Bertrand sickened but survived, only to perish, drunk, in a fall from his [horse](wiki:Horse) four days after his recovery.(wiki:Bertrand_Tyrell.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) He was succeeded as [Lord of Highgarden](wiki:Lord_of_Highgarden) and [Lord Paramount of the Mander](wiki:Lord_Paramount_of_the_Mander) by his eldest son.(wiki:Bertrand_Tyrell.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)(wiki:Bertrand_Tyrell.cite_ref-Rtrotd6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 
 ## Appearances & Description
 
-Bertrand was a well-known drunkard according to Archmaester Gyldayn (wiki:Bertrand_Tyrell.cite_ref-Rfab2). Lord Manfryd Redwyne held an unfavorable opinion of him, calling the Tyrells "dolts" and Lord Bertrand "a sot" (wiki:Bertrand_Tyrell.cite_ref-Rfab1).
-
-## Narrative Arc
-
-When Lord Daemon Velaryon resigned as Hand of the King in 54 AC, Bertrand was considered but dismissed as a replacement due to his drunkenness and his unruly sons. In the terrible winter of 59 AC, the Shivers struck Highgarden. Bertrand sickened but survived, only to die drunk in a fall from his horse four days after recovery. He was succeeded by his eldest son (wiki:Bertrand_Tyrell.cite_ref-Rfab1, wiki:Bertrand_Tyrell.cite_ref-Rfab2).
+According to Archmaester [Gyldayn](wiki:Gyldayn), Lord Bertrand was a well-known drunkard.(wiki:Bertrand_Tyrell.cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) Lord [Manfryd Redwyne](wiki:Manfryd_Redwyne) held an unfavorable opinion of his liege, believing that the Tyrells were dolts and Lord Bertrand a sot.(wiki:Bertrand_Tyrell.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
 ## Quotes
 
-"The Tyrells are dolts. I am sorry, Your Grace, they are my liege lords, but ... the Tyrells are dolts, and Lord Bertrand was a sot as well." — Manfryd Redwyne to Jaehaerys I Targaryen (wiki:Bertrand_Tyrell.cite_ref-Rfab1)
+> The [Tyrells](wiki:House_Tyrell) are dolts. I am sorry, Your Grace, they are my liege lords, but ... the Tyrells are dolts, and Lord Bertrand was a sot as well.(wiki:Bertrand_Tyrell.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+>
+> —[Manfryd Redwyne](wiki:Manfryd_Redwyne) to [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen)
 
 ## Edges
 

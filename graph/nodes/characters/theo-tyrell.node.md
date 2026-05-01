@@ -7,21 +7,19 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Theo_Tyrell
 bucket_id: characters-house-tyrell-l-w
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 ---
 
-## Identity
-
-Lord Theo Tyrell was the Lord of Highgarden and head of House Tyrell during the early Targaryen era. He held the titles Lord Paramount of the Mander, Defender of the Marches, High Marshal of the Reach, and Warden of the South (wiki:Theo_Tyrell).
-
 ## Origins
 
-Son of Harlan Tyrell (track_b: Father).
+Theo became the [Lord of Highgarden](wiki:Lord_of_Highgarden) in [5 AC](wiki:5_AC) after his father, Lord [Harlan Tyrell](wiki:Harlan_Tyrell), perished in the [First Dornish War](wiki:First_Dornish_War). King [Aegon I Targaryen](wiki:Aegon_I_Targaryen) flew [Balerion](wiki:Balerion) to [Highgarden](wiki:Highgarden) to take counsel with the young [Warden of the South](wiki:Warden_of_the_South), but Theo was reluctant to take any further part in the war against [Dorne](wiki:Dorne) after the fate that had befallen his father.(wiki:Theo_Tyrell.cite_ref-Rfabreign_of_the_dragon_-_the_wars_of_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) However, [House Tyrell](wiki:House_Tyrell) eventually became embroiled when the conflict spilled out beyond the [Red Mountains](wiki:Red_Mountains).(wiki:Theo_Tyrell.cite_ref-Rtwoiafthe_reach:_house_tyrell.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)
 
-## Allegiances
+After the [Targaryens](wiki:House_Targaryen) made peace with the [Dornishmen](wiki:Dornishmen), Theo spent his time consolidating Tyrell power. He called a council of [septons](wiki:Septons) and [maesters](wiki:Maesters) to examine and dismiss the claims put forth by other houses of the [Reach](wiki:Reach) trying to claim Highgarden.(wiki:Theo_Tyrell.cite_ref-Rtwoiafthe_reach:_house_tyrell.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
 
-`SWORN_TO` House Tyrell (track_b: Allegiance). `CULTURE_OF` the Reach (track_b: Culture).
+## Appearances & Description
+
+Theo was considered a young [lord](wiki:Lord) in [10 AC](wiki:10_AC).(wiki:Theo_Tyrell.cite_ref-Rfabreign_of_the_dragon_-_the_wars_of_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
 
 ## Edges
 

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Aggar
 bucket_id: characters-house-greyjoy-a-g
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -16,17 +16,15 @@ first_available:
   pov: Tyrion IX
 ---
 
-## Identity
-
-Aggar is an ironborn warrior in the service of House Greyjoy (wiki:Aggar).
-
-## Allegiances
-
-`SWORN_TO` House Greyjoy (track_b: Allegiance). `CULTURE_OF` ironborn (track_b: Culture).
-
 ## Narrative Arc
 
-Aggar is one of Theon Greyjoy's crew members during the capture of Winterfell. He accompanies Theon on the search for Bran Stark and is present with Gelmarr and Gynir when Theon and "Reek" stage the false execution of Bran and Rickon at the mill on the Acorn Water (wiki:Aggar.cite_ref-Racok50). Aggar is found with his throat cut the day after Gelmarr's death; Theon later recollects that Ramsay Snow was responsible for the murders (wiki:Aggar.cite_ref-Racok56). In ADWD, Theon recalls Aggar's death when mysterious killings occur in Bolton-held Winterfell (wiki:Aggar.cite_ref-Radwd41).
+### A Clash of Kings
+
+Aggar is one of [Theon Greyjoy](wiki:Theon_Greyjoy)'s crew members. He takes part in the [capture of Winterfell](wiki:Capture_of_Winterfell) and accompanies Theon during the search for [Bran Stark](wiki:Bran_Stark) and his companions.(wiki:Aggar.cite_ref-Racok50.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0) Aggar, [Gelmarr](wiki:Gelmarr), and [Gynir](wiki:Gynir) go with Theon and "[Reek](wiki:Ramsay_Snow)" and are present for the false execution of Bran and [Rickon Stark](wiki:Rickon_Stark) at the mill on the [Acorn Water](wiki:Acorn_Water). Gelmarr dies the night the group returns to [Winterfell](wiki:Winterfell), while Aggar is found with his throat cut the following day. Gynir is also eventually found dead. Although he has no evidence, Theon condemns [Farlen](wiki:Farlen) for the deaths and personally executes the kennelmaster. Theon later recollects that Reek was responsible for the murders.(wiki:Aggar.cite_ref-Racok56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+
+### A Dance with Dragons
+
+As more men turn up mysteriously dead in [Winterfell](wiki:Winterfell) Theon Greyjoy thinks to himself that it all seems so familiar, like a [mummer](wiki:Mummer) show that he had seen before. Except this time the mummers have changed, [Roose Bolton](wiki:Roose_Bolton) is playing the part that Theon once played and the dead men are playing the parts of Aggar, Gynir Rednose, and Gelmarr the Grim.(wiki:Aggar.cite_ref-Radwd41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 
 ## Edges
 

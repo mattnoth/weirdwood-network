@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Red_Rolfe
 bucket_id: characters-house-greyjoy-g-r
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -16,17 +16,11 @@ first_available:
   pov: "Sansa VIII"
 ---
 
-## Identity
-
-Red Rolfe is an ironborn warrior who serves in Theon Greyjoy's garrison at Winterfell (wiki:Red_Rolfe).
-
-## Allegiances
-
-He is `SWORN_TO` House Greyjoy (track_b: Allegiance). He is `CULTURE_OF` the ironborn (track_b: Culture).
-
 ## Narrative Arc
 
-Red Rolfe is part of Theon's ironborn garrison during the occupation of Winterfell. He is killed by Bolton men during the sack of Winterfell in 299 AC, when Ramsay Bolton's forces betray and slaughter the ironborn defenders (wiki:Red_Rolfe.cite_ref-Racok66).
+### A Clash of Kings
+
+Red Rolfe takes part in the [harrying of the Stony Shore](wiki:Harrying_of_the_Stony_Shore) and is among the chosen [ironborn](wiki:Ironborn) whom [Theon Greyjoy](wiki:Theon_Greyjoy) takes with him to [capture Winterfell](wiki:Capture_of_Winterfell). He remains with Theon when the [northmen](wiki:Northmen) led by Ser [Rodrik Cassel](wiki:Rodrik_Cassel) arrive to [retake the castle](wiki:Battle_outside_the_gates_of_Winterfell). Rolfe is killed by [Bolton](wiki:House_Bolton) men during the [sack of Winterfell](wiki:Sack_of_Winterfell).(wiki:Red_Rolfe.cite_ref-Racok66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
 ## Edges
 

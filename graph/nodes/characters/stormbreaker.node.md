@@ -7,21 +7,13 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Stormbreaker"
 bucket_id: characters-house-baratheon
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 ---
 
-## Identity
+## Origins
 
-The Stormbreaker was a famous knight from House Baratheon (wiki:Stormbreaker).
-
-## Allegiances
-
-`SWORN_TO` House Baratheon (track_b: Allegiance). `CULTURE_OF` Stormlander (track_b: Culture).
-
-## Narrative Arc
-
-The Stormbreaker brought glory onto House Baratheon. The character was named in homage to Ser Sarmion Baratheon, a character from the Blood of Dragons MUSH game (wiki:Stormbreaker).
+Stormbreaker brought glory onto House Baratheon.(wiki:Stormbreaker.cite_ref-Rtwoiafthe_stormlands:_house_baratheon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
 ## Edges
 

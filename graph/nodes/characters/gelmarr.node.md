@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Gelmarr
 bucket_id: characters-house-greyjoy-a-g
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -17,17 +17,17 @@ first_available:
   pov: Tyrion IX
 ---
 
-## Identity
-
-Gelmarr, known as the Grim, is an ironborn warrior in the service of House Greyjoy (wiki:Gelmarr).
-
-## Allegiances
-
-`SWORN_TO` House Greyjoy (track_b: Allegiance). `CULTURE_OF` ironborn (track_b: Culture).
-
 ## Narrative Arc
 
-Gelmarr is one of Theon's men during the capture of Winterfell. He accompanies Theon, Aggar, and Gynir on the mission to the mill on the Acorn Water where Theon and "Reek" stage the false execution of Bran and Rickon Stark. Gelmarr kills the miller's wife during the raid (wiki:Gelmarr.cite_ref-Racok50). He is later found murdered at Winterfell — Theon recalls that Ramsay Snow was responsible for the killings (wiki:Gelmarr.cite_ref-Racok56). In ADWD, Theon remembers Gelmarr's death when mysterious killings occur in Bolton-held Winterfell (wiki:Gelmarr.cite_ref-Radwd41).
+### A Clash of Kings
+
+Gelmarr is part of [Theon Greyjoy](wiki:Theon_Greyjoy)'s crew during the [harrying of the Stony Shore](wiki:Harrying_of_the_Stony_Shore) and the [capture of Winterfell](wiki:Capture_of_Winterfell). When [Bran](wiki:Bran_Stark) and [Rickon Stark](wiki:Rickon_Stark) go missing, Gelmarr is part of the search party.(wiki:Gelmarr.cite_ref-Racok50.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0) Gelmarr, along with [Aggar](wiki:Aggar) and [Gynir](wiki:Gynir), goes with Theon and [Reek](wiki:Ramsay_Snow) to the mill at the [Acorn Water](wiki:Acorn_Water), where Gelmarr kills the miller's wife with his longaxe.(wiki:Gelmarr.cite_ref-Racok56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+
+After the search party returns to [Winterfell](wiki:Winterfell) with the bodies of [two children](wiki:Miller's_sons) which Theon claims are the bodies of Bran and Rickon, Gelmarr falls down some steps at night and breaks his neck. Aggar and Gynir are also found dead in the following days. Although he knows [Reek](wiki:Ramsay_Snow) was responsible for the murders, Theon condemns [Farlen](wiki:Farlen) for the deaths and personally executes the [kennelmaster](wiki:Kennelmaster).(wiki:Gelmarr.cite_ref-Racok56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+
+### A Dance with Dragons
+
+As some men in Lord [Roose Bolton](wiki:Roose_Bolton)'s host mysteriously turn up dead in Winterfell, Theon is reminded of the deaths of Gelmarr, Aggar, and Gynir.(wiki:Gelmarr.cite_ref-Radwd41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 
 ## Edges
 

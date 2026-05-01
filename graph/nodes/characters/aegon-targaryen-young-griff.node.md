@@ -9,7 +9,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aegon_Targaryen_(Young_Griff)"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: AGOT
@@ -19,25 +19,49 @@ first_available:
 disputed: true
 ---
 
-## Identity
-
-Young Griff is a young man of Valyrian origin claiming to be Aegon Targaryen, the believed-dead son of Prince Rhaegar Targaryen and Princess Elia Martell (wiki:Aegon_Targaryen_(Young_Griff)). Whether he is truly Aegon or an impostor is unconfirmed in the text. He is also referred to as Aegon VI (wiki:Aegon_Targaryen_(Young_Griff)).
-
-## Origins
-
-Supposedly born in late 281 AC or early 282 AC at Dragonstone (track_b: Born). Initially claimed to be the son of a Tyroshi woman; later revealed as supposedly the son of Rhaegar Targaryen and Elia Martell (track_b: Mothers). Raised in hiding by Jon Connington (as "Griff") under the protection of Illyrio Mopatis (wiki:Aegon_Targaryen_(Young_Griff)).
-
 ## Appearances & Description
 
-Aegon is lithe and well-made with a lanky build, about fifteen or sixteen years old. He dyes his hair blue in the Tyroshi custom, making his purple eyes appear dark blue. He is as tall as Jon Connington (wiki:Aegon_Targaryen_(Young_Griff)).
+Aegon is lithe and well-made, with a lanky build. [Tyrion Lannister](wiki:Tyrion_Lannister) puts his age at "fifteen, sixteen, or near enough to make no matter".(wiki:Aegon_Targaryen_(Young_Griff).cite_ref-Radwd8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
 
-## Allegiances
+Aegon [dyes](wiki:Hair_dye) his hair blue in the custom of [Tyrosh](wiki:Tyrosh), making his [purple eyes](wiki:Purple_eyes) appear dark blue.(wiki:Aegon_Targaryen_(Young_Griff).cite_ref-Radwd14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) He is as tall as [Jon Connington](wiki:Jon_Connington).(wiki:Aegon_Targaryen_(Young_Griff).cite_ref-Radwd8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
 
-`SWORN_TO` House Targaryen (supposedly) (track_b: Allegiance). `HOLDS_TITLE` Prince (supposedly), King of the Andals, the Rhoynar, and the First Men (claimant), Lord of the Seven Kingdoms (claimant) (track_b: Titles).
+[Illyrio Mopatis](wiki:Illyrio_Mopatis) says there has never been a nobler lad than Young Griff.(wiki:Aegon_Targaryen_(Young_Griff).cite_ref-Radwd5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
-## Narrative Arc
+## Quotes
 
-Aegon travels in disguise as "Young Griff" along the Rhoyne with Jon Connington and others. In ADWD, Tyrion Lannister meets him and deduces his claimed identity. After encountering Tyrion, Aegon decides to invade Westeros directly rather than seek Daenerys. He lands in the Stormlands with the Golden Company and captures Griffin's Roost and other castles. By the end of ADWD, he has taken Storm's End (wiki:Aegon_Targaryen_(Young_Griff)).
+### Quotes by Aegon
+
+> **Aegon**: [Daenerys](wiki:Daenerys_Targaryen) is Prince [Rhaegar's](wiki:Rhaegar_Targaryen) sister, but I am Rhaegar's son. I am the only dragon you need.
+>
+> **Jon**: Spoken boldly, but think what you are saying.
+>
+> —Aegon and [Jon Connington](wiki:Jon_Connington)
+
+### Quotes about Aegon
+
+> This beardless boy could have any maiden in the [Seven Kingdoms](wiki:Seven_Kingdoms), blue hair or no. Those eyes of his would melt them.(wiki:Aegon_Targaryen_(Young_Griff).cite_ref-Radwd18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)
+>
+> —[Tyrion Lannister](wiki:Tyrion_Lannister)'s thoughts
+
+> The perfect prince but still half a boy for all that, with little and less experience of the world and all its woes.(wiki:Aegon_Targaryen_(Young_Griff).cite_ref-Radwd22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-3)
+>
+> —[Tyrion Lannister](wiki:Tyrion_Lannister)'s thoughts
+
+> Trust no one, my prince. Not your [chainless maester](wiki:Haldon), not your [false father](wiki:Jon_Connington), not the gallant [Duck](wiki:Rolly_Duckfield) nor the lovely [Lemore](wiki:Lemore) nor these other fine friends who grew you from a bean. Above all, trust not [the cheesemonger](wiki:Illyrio_Mopatis), nor [the Spider](wiki:Varys), nor this little [dragon queen](wiki:Daenerys_Targaryen) you mean to marry. All that mistrust will sour your stomach and keep you awake by night, 'tis true, but better that than the long sleep that does not end.(wiki:Aegon_Targaryen_(Young_Griff).cite_ref-Radwd22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-4)
+>
+> —[Tyrion Lannister](wiki:Tyrion_Lannister), to Aegon
+
+> Sail west, not east. Leave the [little queen](wiki:Daenerys_Targaryen) to her olives and seat Prince Aegon upon the [Iron Throne](wiki:Iron_Throne). The boy has stones, give him that.(wiki:Aegon_Targaryen_(Young_Griff).cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5)
+>
+> —[Franklyn Flowers](wiki:Franklyn_Flowers) to the [Golden Company](wiki:Golden_Company)
+
+> Aegon has been shaped for rule before he could walk. He has been trained in arms, as befits a [knight](wiki:Knight) to be, but that was not the end of his education. He reads and writes, he speaks several tongues, he has studied history and law and poetry. [A septa](wiki:Lemore) has instructed him in the mysteries of the [Faith](wiki:Faith_of_the_Seven) since he was old enough to understand them. He has lived with fisherfolk, worked with his hands, swum in rivers and mended nets and learned to wash his own clothes at need. He can fish and cook and bind up a wound, he knows what it is like to be hungry, to be hunted, to be afraid. [Tommen](wiki:Tommen_Baratheon) has been taught that kingship is his right. Aegon knows kingship is his duty, that a king must put his people first, and live and rule for them.(wiki:Aegon_Targaryen_(Young_Griff).cite_ref-Radwdepilogue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)
+>
+> —[Varys](wiki:Varys), to [Kevan Lannister](wiki:Kevan_Lannister)
+
+> **Arianne**: Could this truly be Prince Aegon? **Daemon**: If [Lord Connington](wiki:Jon_Connington)'s prince has a crushed skull, I will believe that Aegon Targaryen has returned from the grave. Elsewise, no. This is some feigned boy, no more. A [sellsword](wiki:Sellsword)'s ploy to win support.(wiki:Aegon_Targaryen_(Young_Griff).cite_ref-Rtwow.5B.5Barianne_i_.28the_winds_of_winter.29.7Carianne_i.5D.5D.7B.7B.7B4.7D.7D.7D_8-1)
+>
+> —[Arianne Martell](wiki:Arianne_Martell) and [Daemon Sand](wiki:Daemon_Sand)
 
 ## Edges
 

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Cetherys
 bucket_id: characters-house-targaryen-b-d
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -16,17 +16,11 @@ first_available:
   pov: "Jon III"
 ---
 
-## Identity
-
-Cetherys is an Unsullied sworn to Daenerys Targaryen (wiki:Cetherys).
-
-## Allegiances
-
-`SWORN_TO` Unsullied (track_b: Allegiances). `SWORN_TO` House Targaryen (track_b: Allegiances).
-
 ## Narrative Arc
 
-Cetherys patrols with another Unsullied, Black Fist. The pair are slain by crossbow bolts while walking Mazdhan's Maze in Meereen in 300 AC (wiki:Cetherys).
+### A Dance with Dragons
+
+Cetherys patrols with another Unsullied, [Black Fist](wiki:Black_Fist). The pair are slain by crossbow bolts while walking [Mazdhan's Maze](wiki:Mazdhan's_Maze).(wiki:Cetherys.cite_ref-Radwd11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
 
 ## Edges
 

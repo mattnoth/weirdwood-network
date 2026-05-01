@@ -7,22 +7,20 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Varly
 bucket_id: characters-house-stark-q-w
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: AGOT 27 Jon IV
 ---
 
-## Identity
-
-Varly is a guardsman in service to House Stark (wiki:Varly). He died in 298 AC in King's Landing (track_b: Died).
-
-## Allegiances
-
-`SWORN_TO` House Stark (track_b: Allegiance). `CULTURE_OF` Northmen (track_b: Culture).
-
 ## Narrative Arc
 
-Varly accompanied Lord Eddard Stark south to King's Landing as part of the Stark household guard. He rode with Eddard through the city streets on investigative errands (agot-eddard-06). He helped the injured Eddard walk to the godswood alongside Tomard (agot-eddard-12). During the arrest of Eddard Stark in the throne room, Janos Slynt slashed open Varly's throat with a sword, killing him in the gold cloaks' betrayal (agot-eddard-14).
+### A Game of Thrones
+
+Varly accompanies Lord [Eddard Stark](wiki:Eddard_Stark) to [King's Landing](wiki:King's_Landing) when Eddard is named [Hand of the King](wiki:Hand_of_the_King) to [Robert I Baratheon](wiki:Robert_I_Baratheon).(wiki:Varly.cite_ref-Ragot27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
+
+Varlys and [Jacks](wiki:Jacks) make up the escort for Eddard when he visits the [armorer](wiki:Armorer) [Tobho Mott](wiki:Tobho_Mott) and discovers [Gendry](wiki:Gendry), one of King Robert's [bastard](wiki:Bastard) children.(wiki:Varly.cite_ref-Ragot27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+Varly's throat is slashed by [Janos Slynt](wiki:Janos_Slynt) when [Eddard is arrested](wiki:Arrest_of_Eddard_Stark) in the [throne room](wiki:Great_Hall_(Red_Keep)).(wiki:Varly.cite_ref-Ragot49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
 
 ## Edges
 

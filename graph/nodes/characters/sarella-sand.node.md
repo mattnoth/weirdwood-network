@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Sarella_Sand"
 bucket_id: characters-house-martell-m-t
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: "AFFC"
@@ -16,29 +16,33 @@ first_available:
   pov: "The Prophet"
 ---
 
-## Identity
-
-Sarella Sand is the fourth eldest of the Sand Snakes, the bastard daughters of Oberyn Martell. Her mother is the captain of the trading ship Feathered Kiss (wiki:Sarella_Sand).
-
 ## Origins
 
-Born 280–281 AC. Father is Oberyn Martell; mother is a Summer Islander ship captain (track_b: Born, Father, Mother).
+Sarella is Prince [Oberyn Martell](wiki:Oberyn_Martell)'s fourth daughter. Her mother, the trader captain of the *[Feathered Kiss](wiki:Feathered_Kiss)*,(wiki:Sarella_Sand.cite_ref-Raffcappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1) comes from the [Summer Isles](wiki:Summer_Isles).(wiki:Sarella_Sand.cite_ref-Radwdappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+
+Sarella sometimes played with her cousin, Princess [Arianne Martell](wiki:Arianne_Martell), at the [Water Gardens](wiki:Water_Gardens), although Arianne was always closer to Sarella's half-sister, [Tyene Sand](wiki:Tyene_Sand).(wiki:Sarella_Sand.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-2)
+
+Sarella once visited the abandoned [holdfast](wiki:Holdfast) [Shandystone](wiki:Shandystone) with her father, Tyene, and Arianne. Sarella was interested in the history of the ruins, and turned over rocks and brushed sand off its mosaics, wanting to know everything about the people who had lived there.(wiki:Sarella_Sand.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
 
 ## Appearances & Description
 
-Mixed race Summer Islander and Dornish, with light brown skin as dark as teak. Known for insatiable curiosity and pushing in where she doesn't belong. Loves Oldtown. Like all of Oberyn's daughters, armed by her father so she would never be defenseless (wiki:Sarella_Sand).
+According to a semi-canon source, since Sarella is mixed race [Summer Islander](wiki:Summer_Islander) and [Dornish](wiki:Dornish), she has light brown skin,(wiki:Sarella_Sand.cite_ref-4) as dark as teak.(wiki:Sarella_Sand.cite_ref-5)
 
-## Allegiances
+Sarella has a reputation for insatiable curiosity, and for pushing in where she doesn't belong.(wiki:Sarella_Sand.cite_ref-Raffc21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)(wiki:Sarella_Sand.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) She loves [Oldtown](wiki:Oldtown).(wiki:Sarella_Sand.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 
-`SWORN_TO` House Martell (track_b: Allegiance). `CULTURE_OF` Dornishmen, half Summer Islander (track_b: Race, Culture).
+Like all of Oberyn's daughters, Sarella was armed by her father so that she would never be defenseless.(wiki:Sarella_Sand.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
 
 ## Narrative Arc
 
-Sarella sometimes played with her cousin Arianne at the Water Gardens, though Arianne was always closer to Tyene. She once visited the abandoned holdfast Shandystone with her father, Tyene, and Arianne, where she was interested in the history and turned over rocks and brushed sand off mosaics. When Doran orders the Sand Snakes taken into custody, Sarella is outside of Dorne, so he leaves her be, telling Areo Hotah to "leave her to her... game" (wiki:Sarella_Sand).
+### A Feast for Crows
+
+[Doran Martell](wiki:Doran_Martell), [Prince of Dorne](wiki:Prince_of_Dorne), orders [Areo Hotah](wiki:Areo_Hotah) to take the [Sand Snakes](wiki:Sand_Snakes) into custody, but as Sarella is outside of [Dorne](wiki:Dorne), he leaves her be.(wiki:Sarella_Sand.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
 
 ## Quotes
 
-> **Doran:** Unless she returns to Dorne, there's naught I can do about Sarella save pray that she shows more sense than her sisters. Leave her to her... game. (wiki:Sarella_Sand, affc-the-captain-of-guards)
+> **Areo**: What of Sarella? She is a woman grown, almost twenty. **Doran**: Unless she returns to [Dorne](wiki:Dorne), there's naught I can do about Sarella save pray that she shows more sense than [her sisters](wiki:Sand_Snakes). Leave her to her... game.(wiki:Sarella_Sand.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+>
+> —[Areo Hotah](wiki:Areo_Hotah) and [Doran Martell](wiki:Doran_Martell)
 
 ## Edges
 

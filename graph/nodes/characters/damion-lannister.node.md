@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Damion_Lannister
 bucket_id: characters-house-lannister-b-j
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -16,21 +16,11 @@ first_available:
   pov: "The Kraken's Daughter"
 ---
 
-## Identity
-
-Ser Damion Lannister is a knight of House Lannister, a cousin of the main branch. He is married to Shiera Crakehall and has two children: Ser Lucion and Lanna Lannister (wiki:Damion_Lannister).
-
-## Origins
-
-Born between 256 and 273 AC (track_b: Born). Son of Damon Lannister and Ella Lannister (track_b: Father, Mother).
-
-## Allegiances
-
-`SWORN_TO` House Lannister (track_b: Allegiance). `HOLDS_TITLE` Ser (track_b: Titles). `HOLDS_TITLE` Castellan of Casterly Rock (track_b: Titles). `CULTURE_OF` Westermen (track_b: Culture).
-
 ## Narrative Arc
 
-Damion is named castellan of Casterly Rock by Queen Regent Cersei Lannister, the new Lady of Casterly Rock, to spite Ser Kevan Lannister, who declined the office of Hand of the King when Cersei refused to name him Lord Regent (wiki:Damion_Lannister, cite_ref-Raffc12).
+### A Feast for Crows
+
+Damion is named [castellan](wiki:Castellan) of [Casterly Rock](wiki:Casterly_Rock) by Queen Regent [Cersei Lannister](wiki:Cersei_Lannister), the new Lady of Casterly Rock, to spite Ser [Kevan Lannister](wiki:Kevan_Lannister), who declined the office of [Hand of the King](wiki:Hand_of_the_King) when Cersei refused to name him [Lord Regent](wiki:Regent).(wiki:Damion_Lannister.cite_ref-Raffc12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 
 ## Edges
 

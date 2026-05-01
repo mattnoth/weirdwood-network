@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Tyrek_Lannister"
 bucket_id: characters-house-lannister-r-w
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -17,27 +17,45 @@ first_available:
   pov: "Arya I"
 ---
 
-## Identity
-
-Tyrek Lannister is a member of House Lannister, son of Ser Tygett Lannister and Lady Darlessa Marbrand (wiki:Tyrek_Lannister).
-
-## Origins
-
-Born in 286 AC in the Westerlands (track_b: Born). Son of Tygett Lannister and Darlessa Marbrand (track_b: Father, Mother). Presumably died in 299 AC in King's Landing (track_b: Died).
-
-## Allegiances
-
-Tyrek is `SWORN_TO` House Lannister (track_b: Allegiance). His culture is Westermen (track_b: Culture). He is `SPOUSE_OF` Ermesande Hayford (track_b: Spouse).
-
 ## Appearances & Description
 
-Tyrek is around Sansa Stark's age, handsome with long golden curls (wiki:Tyrek_Lannister.cite_ref-Ragot30).
+Tyrek is said to be around [Sansa Stark](wiki:Sansa_Stark)'s age. He is handsome, with long golden curls.(wiki:Tyrek_Lannister.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
 
 ## Narrative Arc
 
-Tyrek serves as a squire for King Robert I Baratheon alongside his cousin Lancel Lannister (wiki:Tyrek_Lannister.cite_ref-Ragot30). He is married to Lady Ermesande Hayford, the infant ruling Lady of House Hayford, so House Lannister can claim her lands. Because Ermesande is still a baby, the other squires call Tyrek "Wet Nurse" (wiki:Tyrek_Lannister.cite_ref-Racok2).
+### A Game of Thrones
 
-During the riot of King's Landing sparked by hunger, a mob attacks a royal party. Tyrek goes missing and is never found, despite Jaime Lannister's later extensive searches (wiki:Tyrek_Lannister.cite_ref-Racok25). Jaime suspects Varys may be involved in Tyrek's disappearance, as Tyrek could be used to control the Hayford lands through his marriage to Ermesande (wiki:Tyrek_Lannister.cite_ref-Raffc27).
+Tyrek is a [squire](wiki:Squire) for King [Robert I Baratheon](wiki:Robert_I_Baratheon) alongside [Lancel Lannister](wiki:Lancel_Lannister), his cousin.(wiki:Tyrek_Lannister.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+
+### A Clash of Kings
+
+Tyrek is [married](wiki:Wedding_of_Tyrek_Lannister_and_Ermesande_Hayford) to Lady [Ermesande Hayford](wiki:Ermesande_Hayford), the ruling Lady of [House Hayford](wiki:House_Hayford), so that [House Lannister](wiki:House_Lannister) can claim her lands.(wiki:Tyrek_Lannister.cite_ref-Racok2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)(wiki:Tyrek_Lannister.cite_ref-Racok25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) Because Ermesande is still a baby, the other squires call Tyrek "[Wet Nurse](wiki:Wet_nurse)".(wiki:Tyrek_Lannister.cite_ref-Racok25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)(wiki:Tyrek_Lannister.cite_ref-Racok41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+
+With people who fled the fighting in the [riverlands](wiki:Riverlands) flooding into [King's Landing](wiki:King's_Landing) and with provisions for commoners getting shorter, unrest is growing in the city. One minor uproar is created at the gate of the [Red Keep](wiki:Red_Keep) when news about preparations for Tyrek's upcoming [wedding](wiki:Wedding) feast gets out. It is quelled by a party led by King [Joffrey I Baratheon](wiki:Joffrey_Baratheon).(wiki:Tyrek_Lannister.cite_ref-Racok18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0) After Tyrek marries Ermesande, he wears a bridegroom mantle of miniver and velvet.(wiki:Tyrek_Lannister.cite_ref-Racok25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+
+Once the rival kings [Stannis](wiki:Stannis_Baratheon) and [Renly Baratheon](wiki:Renly_Baratheon) cut off King's Landing from supplies, suffering among the population gets worse. Driven by hunger, a [mob attacks](wiki:Riot_of_King's_Landing) a royal party that had gone to the harbor to bid safe journey to Princess [Myrcella Baratheon](wiki:Myrcella_Baratheon) as she departed for [Dorne](wiki:Dorne). In the riot, a number of men are killed. Tyrek goes missing and is presumed dead.(wiki:Tyrek_Lannister.cite_ref-Racok41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
+
+### A Storm of Swords
+
+Although [Tyrion Lannister](wiki:Tyrion_Lannister) and his father, Lord [Tywin](wiki:Tywin_Lannister), try to find Tyrek or his body, no trace of the boy can be found. Ser [Addam Marbrand](wiki:Addam_Marbrand), the new commander of the [gold cloaks](wiki:Gold_cloaks), has no luck either.(wiki:Tyrek_Lannister.cite_ref-Rasos4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)
+
+### A Feast for Crows
+
+Ser [Jaime Lannister](wiki:Jaime_Lannister) suspects that Lord [Varys](wiki:Varys) may have had a hand in Tyrek's disappearance, reasoning that Tyrek, as the late King Robert's squire, would have knowledge about the king, including the circumstances surrounding his death. Furthermore, Varys did not go to the docks with the rest of the court on the day Myrcella was sent to Dorne, suggesting Varys might have instigated the riot and had agents snatch Tyrek during the confusion.(wiki:Tyrek_Lannister.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
+
+## Quotes
+
+> **Tyrion**: I want Tyrek found, alive or dead. He's no more than a boy. Son to my late uncle [Tygett](wiki:Tygett_Lannister). His father was always kind to me. **Jacelyn**: We'll find him.(wiki:Tyrek_Lannister.cite_ref-Racok41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2)
+>
+> —[Tyrion Lannister](wiki:Tyrion_Lannister) and [Jacelyn Bywater](wiki:Jacelyn_Bywater)
+
+> **Bronn**: He's feeding worms. [Ironhand](wiki:Jacelyn_Bywater) looked for him, and [the eunuch](wiki:Varys) rattled a nice fat purse. They had no more luck than we did. Give it up, ser. **Addam**: Lord [Tywin](wiki:Tywin_Lannister) is stubborn where [his blood](wiki:House_Lannister) is concerned. He will have the lad, alive or dead, and I mean to oblige him.(wiki:Tyrek_Lannister.cite_ref-Rasos4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1)
+>
+> —[Bronn](wiki:Bronn) and [Addam Marbrand](wiki:Addam_Marbrand)
+
+> Tyrek had served King [Robert](wiki:Robert_I_Baratheon) as a squire, side by side with [Lancel](wiki:Lancel_Lannister). Knowledge could be more valuable than [gold](wiki:Gold), more deadly than a dagger.(wiki:Tyrek_Lannister.cite_ref-Raffc27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+>
+> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
 
 ## Edges
 

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Rossart
 bucket_id: characters-house-targaryen-o-s
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -16,30 +16,45 @@ first_available:
   pov: Sansa I
 ---
 
-## Identity
-
-Rossart was the Grand Master of the Alchemists' Guild and served as the last Hand of the King to Aerys II Targaryen for a fortnight in 283 AC (wiki:Rossart.cite_ref-Racok3).
-
 ## Origins
 
-Culture of the Crownlands (track_b: Culture).
+Rossart was the [Grand Master](wiki:Grand_Master) of the Alchemists' Guild during the reign of Aerys II, who granted him the title of [Lord](wiki:Lord) and a seat on the [small council](wiki:Small_council). He was also the pyromancer who had cooked Lord [Rickard Stark](wiki:Rickard_Stark) in his armor,(wiki:Rossart.cite_ref-Rasos37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) and one of the key players in the [wildfire plot](wiki:Wildfire_plot). During the latter stage of [Robert's Rebellion](wiki:Robert's_Rebellion), Lord [Qarlton Chelsted](wiki:Qarlton_Chelsted), the Hand of the King at that time, was burned alive by order of Aerys before the [Battle of the Trident](wiki:Battle_of_the_Trident), and after the battle the king made Rossart his new Hand.(wiki:Rossart.cite_ref-Rasos37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)(wiki:Rossart.cite_ref-Rtwoiaf_the_fall_of_the_dragons:_the_end.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) As his personal [arms](wiki:Heraldry) he chose a burning torch.(wiki:Rossart.cite_ref-Rasos11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)(wiki:Rossart.cite_ref-5) As the [Sack of King's Landing](wiki:Sack_of_King's_Landing) began, Rossart disguised as a common man-at-arms rushed to fulfill Aerys's command to burn the city down, but he was killed by Ser [Jaime Lannister](wiki:Jaime_Lannister) before he could carry out his orders, Rossart futilely tried to put up a fight.(wiki:Rossart.cite_ref-Rasos11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
 
-## Allegiances
-
-`SWORN_TO` Alchemists' Guild (track_b: Allegiances). `SWORN_TO` House Targaryen (track_b: Allegiances).
+In the recorded history, the [Maesters](wiki:Maesters), ignorant of the [wildfire plot](wiki:Wildfire_plot) write that Rossart was killed while attempting to flee the castle. They do not even speculate who killed him and apparently no one even inquired.(wiki:Rossart.cite_ref-Rtwoiaf_the_fall_of_the_dragons:_the_end.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
 
 ## Narrative Arc
 
-Rossart rose to Grand Master of the Alchemists' Guild under Aerys II, who granted him the title of Lord and a seat on the small council. Rossart was the pyromancer who cooked Lord Rickard Stark alive in his armor (wiki:Rossart.cite_ref-Rasos37). He was a key player in the wildfire plot, placing caches of wildfire beneath the Dragonpit and other locations throughout King's Landing (wiki:Rossart.cite_ref-Racok49). After Lord Qarlton Chelsted was burned alive for protesting the wildfire plot, Aerys made Rossart his new Hand following the Battle of the Trident (wiki:Rossart.cite_ref-Rasos37). As his personal arms he chose a burning torch — a hand holding a torch lit with green fire on silver.
+### A Clash of Kings
 
-During the Sack of King's Landing, Aerys commanded Rossart to ignite the wildfire caches and burn the city. Rossart disguised himself as a common man-at-arms and rushed to carry out the order, but Ser Jaime Lannister intercepted and killed him before he could reach the caches (wiki:Rossart.cite_ref-Rasos11). In the official histories, the maesters recorded that Rossart was killed at a postern gate while "cravenly attempting to flee" — no one ever inquired who killed him (wiki:Rossart.cite_ref-Rtwoiaf_the_fall_of_the_dragons).
+[Hallyne](wiki:Hallyne) the [pyromancer](wiki:Pyromancer) meets with [Tyrion Lannister](wiki:Tyrion_Lannister) to update him on the amount of [wildfire](wiki:Wildfire) that has been created. Tyrion is the first Hand of the King since Rossart to visit the [Alchemists' Guild](wiki:Alchemists'_Guild).(wiki:Rossart.cite_ref-Racok20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) Hallyne informs Tyrion that they found a cache of over three hundred jars of wildfire that had been placed beneath the [Dragonpit](wiki:Dragonpit) by Lord Rossart.(wiki:Rossart.cite_ref-Racok49.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
 
-In ACOK, Hallyne notes that Tyrion is the first Hand since Rossart to visit the Alchemists' Guild, and reports finding over three hundred jars of Rossart's wildfire beneath the Dragonpit (wiki:Rossart.cite_ref-Racok20, cite_ref-Racok49). In AFFC, Cersei considers appointing Hallyne as Hand, and Jaime recalls killing the last pyromancer Hand (wiki:Rossart.cite_ref-Raffc16). In ADWD, Kevan Lannister remembers that Aerys turned to Chelsted and Rossart instead of recalling Tywin after the Battle of the Bells (wiki:Rossart.cite_ref-Radwd72).
+### A Storm of Swords
+
+At [Harrenhal](wiki:Harrenhal), Ser [Jaime Lannister](wiki:Jaime_Lannister) reveals to [Brienne of Tarth](wiki:Brienne_of_Tarth) the [wildfire plot](wiki:Wildfire_plot) and the part Rossart played in it.(wiki:Rossart.cite_ref-Rasos11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
+
+### A Feast for Crows
+
+[Cersei Lannister](wiki:Cersei_Lannister) considers appointing Hallyne as the new [Hand of the King](wiki:Hand_of_the_King), stating he would not be the first pyromancer to become Hand. Jaime does not approve of the choice, remembering how he killed the last one.(wiki:Rossart.cite_ref-Raffc16.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+
+### A Dance with Dragons
+
+[Kevan Lannister](wiki:Kevan_Lannister) remembers that after the [Battle of the Bells](wiki:Battle_of_the_Bells) he had expected King [Aerys II Targaryen](wiki:Aerys_II_Targaryen) to have no choice but to summon [Tywin Lannister](wiki:Tywin_Lannister) once again, but instead Aerys had turned to Lords Chelsted and Rossart and paid for it with his life and crown.(wiki:Rossart.cite_ref-Radwd72.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
 
 ## Quotes
 
-- "All the traitors. Rossart says they are inside the walls! He's gone to make them a warm welcome. Whose blood? Whose?" / "Rossart's." — Aerys II to Jaime Lannister (wiki:Rossart.cite_ref-Rasos11)
-- "Queer that they never asked who killed Rossart...but of course, he was no one, lowborn, Hand for a fortnight, just another mad fancy of the Mad King." — thoughts of Jaime Lannister (wiki:Rossart.cite_ref-Rasos11)
+### Quotes about Rossart
+
+> **Aerys**: All the traitors. Rossart says they are inside the walls! He's gone to make them a warm welcome. Whose blood? Whose?. **Jaime**: Rossart's.(wiki:Rossart.cite_ref-Rasos11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
+>
+> —[Aerys II Targaryen](wiki:Aerys_II_Targaryen) to [Jaime Lannister](wiki:Jaime_Lannister), demanding to know whose blood is on Jaime's sword during the [Sack of King's Landing](wiki:Sack_of_King's_Landing).
+
+> Queer that they never asked who killed Rossart...but of course, he was no one, lowborn, Hand for a fortnight, just another mad fancy of the [Mad King](wiki:Aerys_II_Targaryen). (wiki:Rossart.cite_ref-Rasos11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
+>
+> —thoughts of [Jaime Lannister](wiki:Jaime_Lannister)
+
+> Aerys's Hand, Rossart, was killed at a postern gate after cravenly attempting to flee the castle.(wiki:Rossart.cite_ref-Rtwoiaf_the_fall_of_the_dragons:_the_end.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+>
+> —writings of [Maester Yandel](wiki:Yandel)
 
 ## Edges
 

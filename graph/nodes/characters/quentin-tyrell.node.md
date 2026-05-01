@@ -7,17 +7,13 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Quentin_Tyrell
 bucket_id: characters-house-tyrell-l-w
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 ---
 
-## Identity
+## Origins
 
-Ser Quentin Tyrell was a knight of House Tyrell, a cousin of Lord Mace Tyrell. He died in 282 AC at Ashford (wiki:Quentin_Tyrell).
-
-## Allegiances
-
-`SWORN_TO` House Tyrell (track_b: Allegiance). `CULTURE_OF` the Reach (track_b: Culture).
+Quentin died at the [Battle of Ashford](wiki:Battle_of_Ashford) during [Robert's Rebellion](wiki:Robert's_Rebellion).(wiki:Quentin_Tyrell.cite_ref-Raffcappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
 
 ## Edges
 

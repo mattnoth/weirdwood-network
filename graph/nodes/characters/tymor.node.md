@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Tymor
 bucket_id: characters-house-greyjoy-s-w
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -16,17 +16,13 @@ first_available:
   pov: "Tyrion VIII"
 ---
 
-## Identity
-
-Tymor is an ironborn raider sworn to House Greyjoy. He has two brothers. (wiki:Tymor)
-
-## Allegiances
-
-Tymor is `SWORN_TO` House Greyjoy. (track_b: Allegiance) He is of `CULTURE_OF` ironborn culture. (track_b: Culture)
-
 ## Narrative Arc
 
-Tymor participated in the harrying of the Stony Shore and the capture of Winterfell under Theon Greyjoy. (wiki:Tymor.cite_ref-Racok37) He remained with Theon after the northmen came to retake the castle, and was presumably killed when Bolton men sacked Winterfell. (wiki:Tymor.cite_ref-Racok66)
+### A Clash of Kings
+
+Tymor and his brothers participate in the [harrying of the Stony Shore](wiki:Harrying_of_the_Stony_Shore), gathering all the horses that survive [Theon Greyjoy](wiki:Theon_Greyjoy)'s battle with the [Wild Hares](wiki:Wild_Hares).(wiki:Tymor.cite_ref-Racok37.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+
+Tymor and his brothers take part in Theon's [capture of Winterfell](wiki:Capture_of_Winterfell). They remain with Theon after [northmen](wiki:Northmen) come to [retake the castle](wiki:Battle_outside_the_gates_of_Winterfell),(wiki:Tymor.cite_ref-Racok66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) and they are presumably killed when the [Bolton](wiki:House_Bolton) men [sack the castle](wiki:Sack_of_Winterfell).
 
 ## Edges
 

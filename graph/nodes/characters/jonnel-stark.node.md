@@ -8,26 +8,22 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Jonnel_Stark
 bucket_id: characters-house-stark-h-p
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: "ACOK Jon VIII"
 ---
 
-## Identity
-
-Jonnel Stark, also known as One-Eye, was a Lord of Winterfell and Warden of the North (wiki:Jonnel_Stark). He had only one eye (wiki:Jonnel_Stark).
-
 ## Origins
 
-Born between 136–179 AC (track_b: Born). Died between 157–209 AC (track_b: Died). Second son of Lord Cregan Stark and his third wife Lynara Stark (wiki:Jonnel_Stark). Buried in the Crypt of Winterfell (track_b: Buried).
+Jonnel became the heir to [Winterfell](wiki:Winterfell) after the death of his older brother [Rickon](wiki:Rickon_Stark_(son_of_Cregan)) in the [conquest of Dorne](wiki:Conquest_of_Dorne), passing over Rickon's daughters [Sansa](wiki:Sansa_Stark_(daughter_of_Rickon)) and [Serena Stark](wiki:Serena_Stark). Jonnel also married Sansa, his half-niece. Jonnel became the [Lord of Winterfell](wiki:Lord_of_Winterfell) after the death of his father, [Cregan](wiki:Cregan_Stark).(wiki:Jonnel_Stark.cite_ref-Rtwoiafappendix:_stark_lineage.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4) The north lamented the death of Rickon, for the reigns of Jonnel and his brothers after him were troublesome.(wiki:Jonnel_Stark.cite_ref-Rtwoiafthe_north:_the_lords_of_winterfell.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
 
-## Allegiances
+Jonnel's marriage with Sansa was childless. After her death, he married [Robyn Ryswell](wiki:Robyn_Ryswell), but also had no issue.(wiki:Jonnel_Stark.cite_ref-Rtwoiafappendix:_stark_lineage.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)(wiki:Jonnel_Stark.cite_ref-wives_4-2) He was succeeded by his brother, [Barthogan Stark](wiki:Barthogan_Stark), as Lord of [Winterfell](wiki:Winterfell).(wiki:Jonnel_Stark.cite_ref-Rtwoiafappendix:_stark_lineage.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
 
-`SWORN_TO` House Stark (track_b: Allegiance). `CULTURE_OF` Northmen (track_b: Culture). `HOLDS_TITLE` Lord of Winterfell, Warden of the North (track_b: Titles).
+Jonnel was interred in the [crypts of Winterfell](wiki:Crypts_of_Winterfell) after his death.(wiki:Jonnel_Stark.cite_ref-Racok69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
 
-## Narrative Arc
+## Appearances & Description
 
-Jonnel became heir to Winterfell after his older half-brother Rickon died in the conquest of Dorne, passing over Rickon's daughters Sansa and Serena Stark (wiki:Jonnel_Stark.cite_ref-Racok69). He married his half-niece Sansa Stark, but the marriage was childless. After Sansa's death he married Robyn Ryswell, also without issue. He was succeeded by his brother Barthogan Stark. The north lamented the death of Rickon, for the reigns of Jonnel and his brothers were troublesome (wiki:Jonnel_Stark).
+Jonnel had only one eye.(wiki:Jonnel_Stark.cite_ref-Racok69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
 
 ## Edges
 

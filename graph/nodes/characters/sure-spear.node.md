@@ -7,22 +7,16 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Sure_Spear
 bucket_id: characters-house-targaryen-o-s
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Sure Spear is a captain of the Unsullied sworn to Daenerys Targaryen (wiki:Sure_Spear).
-
-## Allegiances
-
-`SWORN_TO` Unsullied (track_b: Allegiances). `SWORN_TO` House Targaryen (track_b: Allegiances).
-
 ## Narrative Arc
 
-Sure Spear is spotted by Barristan Selmy alongside Grey Worm and Dogkiller when preparations are made to attack the Yunkai'i and their allies (wiki:Sure_Spear).
+### The Winds of Winter
+
+Sure Spear is spotted by [Barristan Selmy](wiki:Barristan_Selmy) along with [Grey Worm](wiki:Grey_Worm) and [Dogkiller](wiki:Dogkiller) when preparations are made to attack the [Yunkai'i](wiki:Yunkai) and their allies.(wiki:Sure_Spear.cite_ref-Rtwow.5B.5Bbarristan_i_.28the_winds_of_winter.29.7Cbarristan_i.5D.5D.7B.7B.7B4.7D.7D.7D_1-0)
 
 ## Edges
 

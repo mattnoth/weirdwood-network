@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Tyroshi_sellsword"
 bucket_id: characters-house-lannister-r-w
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -16,21 +16,15 @@ first_available:
   pov: "Prologue"
 ---
 
-## Identity
+## Origins
 
-An unnamed Tyroshi sellsword who commands the freeriders of Ser Forley Prester within the Lannister host led by Ser Jaime Lannister during the early stages of the War of the Five Kings. His given name is unknown (wiki:Tyroshi_sellsword).
-
-## Allegiances
-
-The sellsword is `SWORN_TO` House Lannister, later defecting `SWORN_TO` House Stark (track_b: Allegiances). His culture is Tyroshi (track_b: Culture).
+[Tyrion Lannister](wiki:Tyrion_Lannister) learned some of [the tongue](wiki:Bastard_Valyrian) of [Tyrosh](wiki:Tyrosh) from a sellsword at [Casterly Rock](wiki:Casterly_Rock),(wiki:Tyroshi_sellsword.cite_ref-Radwd1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) who may have been this sellsword.
 
 ## Narrative Arc
 
-Tyrion Lannister learned some of the tongue of Tyrosh from a sellsword at Casterly Rock, who may have been this man (wiki:Tyroshi_sellsword). During the Battle of the Camps, the Tyroshi and his freeriders dip their banners and defect to Robb Stark's army when they see the other camps overrun. Ser Forley Prester leads a retreat of four thousand loyal men (wiki:Tyroshi_sellsword.cite_ref-Ragot69).
+### A Game of Thrones
 
-## Notes
-
-GRRM admitted he forgot about this character after AGOT. He suggested the Tyroshi likely stayed with Robb during the westerlands campaign or possibly deserted to plunder. Martin also noted that the Tyroshi outlaw Greenbeard of the Brotherhood Without Banners in ASOS may be the same man (wiki:Tyroshi_sellsword, Behind the Scenes). Tier 2 (inference): the Greenbeard connection is speculation by the author, not confirmed in text.
+During the [Battle of the Camps](wiki:Battle_of_the_Camps), the Tyroshi sellsword and the [freeriders](wiki:Freerider) under his command in the camp south of the [Red Fork](wiki:Red_Fork) dip their banners and defect to the army of [northmen](wiki:Northmen) and [rivermen](wiki:Rivermen) led by [Robb Stark](wiki:Robb_Stark) when they see that the other two camps have been overrun. Ser [Forley Prester](wiki:Forley_Prester) leads the safe retreat of four thousand loyal men.(wiki:Tyroshi_sellsword.cite_ref-Ragot69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
 ## Edges
 

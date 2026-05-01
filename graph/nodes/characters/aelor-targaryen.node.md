@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aelor_Targaryen"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -16,21 +16,25 @@ first_available:
   pov: "Brienne I"
 ---
 
-## Identity
-
-Prince Aelor Targaryen was the son of Prince Rhaegel Targaryen and Lady Alys Arryn. He had a twin sister, Aelora, to whom he was married, and a younger sister, Daenora (wiki:Aelor_Targaryen).
-
 ## Origins
 
-Born between 195 and 209 AC (track_b: Born). Son of Rhaegel Targaryen and Alys Arryn (track_b: Father, Mother). Died in 217 AC (track_b: Died).
+When [Dunk](wiki:Duncan_the_Tall) first encounters Aelor's cousin, Prince [Aerion Targaryen](wiki:Aerion_Targaryen), at [Ashford Meadow](wiki:Ashford_Meadow), he initially wonders if Aerion might be Prince [Valarr](wiki:Valarr_Targaryen), [Matarys](wiki:Matarys_Targaryen), or one of their cousins, as he was aware that three of King [Daeron II Targaryen](wiki:Daeron_II_Targaryen)'s sons had sons of their own who were youths around his own age.(wiki:Aelor_Targaryen.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) Aelor, the only son of Daeron's third son Prince [Rhaegel Targaryen](wiki:Rhaegel_Targaryen), was one of these sons.(wiki:Aelor_Targaryen.cite_ref-Rtwoiaf101.7B.7B.7B4.7D.7D.7D_3-1)
 
-## Allegiances
+During the reign of King [Aerys I Targaryen](wiki:Aerys_I_Targaryen), some in the realm suspected the [King's Hand](wiki:King's_Hand) [Brynden "Bloodraven" Rivers](wiki:Brynden_Rivers) held the true power. [Septon](wiki:Septon) [Sefton](wiki:Sefton_Staunton) at [Coldmoat](wiki:Coldmoat) lamented that none in [House Targaryen](wiki:House_Targaryen) could stand against him, including Aelor, who was only a child at the time.(wiki:Aelor_Targaryen.cite_ref-Rtss.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) [Ser](wiki:Ser) [Kyle the Cat](wiki:Kyle_the_Cat) too distrusted Bloodraven and believed Aerys' eventual death would result in war between Bloodraven and Prince [Maekar Targaryen](wiki:Maekar_I_Targaryen), who he mistook as heir. Ser [Maynard Plumm](wiki:Maynard_Plumm) reminded him that Rhaegel and his children came before Maekar in the line of succession. Ser Kyle dismissed all three, claiming that Aelor and his twin Aelora were as good as dead, doomed to fall victim to Bloodraven or Maekar. Aelor's cousin, Prince [Aegon Targaryen](wiki:Aegon_V_Targaryen), fiercely insisted that his father would never harm Rhaegel or any of his children.(wiki:Aelor_Targaryen.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
 
-`SWORN_TO` House Targaryen (track_b: Allegiance). `HOLDS_TITLE` Prince, Prince of Dragonstone (track_b: Titles).
+After the death of Aelor's father in [215 AC](wiki:Years_after_Aegon's_Conquest), Aelor was named [Prince of Dragonstone](wiki:Prince_of_Dragonstone) and heir to the throne by his uncle, King [Aerys I Targaryen](wiki:Aerys_I_Targaryen). Aelor was married to his twin sister, Princess [Aelora](wiki:Aelora_Targaryen). He died in [217 AC](wiki:Years_after_Aegon's_Conquest) at the hand of his sister-wife through a freak accident, which left her mad with grief.(wiki:Aelor_Targaryen.cite_ref-Rtwoiaf413.7B.7B.7B4.7D.7D.7D_2-2)
 
 ## Narrative Arc
 
-When Aelor's father Prince Rhaegel died in 215 AC, Aelor was named Prince of Dragonstone and heir to his grandfather King Aerys I Targaryen. He encountered his cousin Aerion Targaryen at Ashford Meadow. Aelor died in 217 AC (wiki:Aelor_Targaryen).
+### A Feast for Crows
+
+Discussing both their fathers' objections to them becoming maesters, Maester Aemon tells [Samwell Tarly](wiki:Samwell_Tarly) that his grandfather sent him to the [Citadel](wiki:Citadel) because too many dragons were as dangerous as too few. He mentions that King Daeron had four sons, three of whom had sons of their own.(wiki:Aelor_Targaryen.cite_ref-Raffc5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) Aelor was one of the sons of the king's sons(wiki:Aelor_Targaryen.cite_ref-Rtwoiaf101.7B.7B.7B4.7D.7D.7D_3-2) alluded to by Aemon.(wiki:Aelor_Targaryen.cite_ref-Raffc5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
+
+## Quotes
+
+> [Rhaegel](wiki:Rhaegel_Targaryen) is feeble-minded. Why, I bear him no ill will, but the man is good as dead, and those twins of his as well, though whether they will die of [Maekar's](wiki:Maekar_I_Targaryen) mace or [Bloodraven's](wiki:Brynden_Rivers) [spells](wiki:Magic)…(wiki:Aelor_Targaryen.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+>
+> —[Kyle the Cat](wiki:Kyle_the_Cat)
 
 ## Edges
 

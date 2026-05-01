@@ -8,21 +8,13 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Alton_Greyjoy
 bucket_id: characters-house-greyjoy-a-g
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 ---
 
-## Identity
+## Origins
 
-Alton Greyjoy, known as the Holy Fool, was a Lord of the Iron Islands and head of House Greyjoy (wiki:Alton_Greyjoy.cite_ref-Rtwoiaf1).
-
-## Allegiances
-
-`SWORN_TO` House Greyjoy (track_b: Allegiance). `CULTURE_OF` ironborn (track_b: Culture).
-
-## Narrative Arc
-
-According to Archmaester Haereg's *History of the Ironborn*, Alton wanted to conquer new lands beyond the Lonely Light, seeking to cross the Sunset Sea (wiki:Alton_Greyjoy.cite_ref-Rtwoiaf1). The venture presumably failed, as no one has successfully crossed the Sunset Sea.
+According to Archmaester [Haereg](wiki:Haereg)'s *[History of the Ironborn](wiki:History_of_the_Ironborn)*, Alton wanted to conquer new lands beyond the [Lonely Light](wiki:Lonely_Light),(wiki:Alton_Greyjoy.cite_ref-Rtwoiafthe_iron_islands:_the_old_way_and_the_new.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) but no one has ever successfully crossed the [Sunset Sea](wiki:Sunset_Sea),(wiki:Alton_Greyjoy.cite_ref-2) with the possible exception of [Elissa Farman](wiki:Elissa_Farman).(wiki:Alton_Greyjoy.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 
 ## Edges
 

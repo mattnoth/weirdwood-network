@@ -7,21 +7,15 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Kennet_(maester)
 bucket_id: characters-house-stark-h-p
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 ---
 
-## Identity
+## Origins
 
-Kennet was a maester who served Lord Cregan Stark at Winterfell (wiki:Kennet_(maester)).
+Maester Kennet investigated the [barrow](wiki:Barrow) fields, graves, and tombs on the [north](wiki:North).(wiki:Kennet_(maester).cite_ref-Rtwoiafancient_history:_the_dawn_age.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) He studied a [giant](wiki:Giant)'s barrow near [Long Lake](wiki:Long_Lake) which included [obsidian](wiki:Obsidian) arrowheads possibly used by [children of the forest](wiki:Children_of_the_forest).(wiki:Kennet_(maester).cite_ref-Rtwoiafancient_history:_the_dawn_age.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) In *[Passages of the Dead](wiki:Passages_of_the_Dead)* he recorded the legend of a curse placed on the [Great Barrow](wiki:Great_Barrow) to prevent any man from rivaling the [First King](wiki:First_King).(wiki:Kennet_(maester).cite_ref-Rtwoiafthe_north.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
 
-## Allegiances
-
-`SWORN_TO` Citadel (track_b: Allegiances). `SWORN_TO` House Stark (track_b: Allegiances). `HOLDS_TITLE` Maester at Winterfell (track_b: Title).
-
-## Narrative Arc
-
-Maester Kennet gathered information about the north and wrote *Passages of the Dead*, a study of northern burial methods (wiki:Kennet_(maester)). He investigated barrow fields, graves, and tombs across the north, including a giant's barrow near Long Lake containing obsidian arrowheads possibly used by the children of the forest (wiki:Kennet_(maester)). He recorded the legend of a curse placed on the Great Barrow to prevent any man from rivaling the First King (wiki:Kennet_(maester)). Kennet also determined that the First Keep of Winterfell was raised after the arrival of the Andals (wiki:Kennet_(maester)).
+Kennet also determined that the [First Keep](wiki:First_Keep) of [Winterfell](wiki:Winterfell) was raised after the arrival of the [coming of the Andals](wiki:Coming_of_the_Andals).(wiki:Kennet_(maester).cite_ref-Rtwoiafthe_north:_winterfell.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 
 ## Edges
 

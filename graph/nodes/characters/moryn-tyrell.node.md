@@ -7,21 +7,15 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Moryn_Tyrell
 bucket_id: characters-house-tyrell-l-w
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 ---
 
-## Identity
-
-Ser Moryn Tyrell is a knight of House Tyrell and the uncle of Lord Mace Tyrell. He serves as Lord Commander of the City Watch of Oldtown (wiki:Moryn_Tyrell).
-
-## Allegiances
-
-`SWORN_TO` House Tyrell (track_b: Allegiances). `SWORN_TO` City Watch of Oldtown (track_b: Allegiances). `CULTURE_OF` the Reach (track_b: Culture).
-
 ## Narrative Arc
 
-In AFFC, Pate considers attacking Moryn's son, Leo the Lazy, but stops because of Leo's family connections (wiki:Moryn_Tyrell).
+### A Feast for Crows
+
+[Pate](wiki:Pate_(novice)) considers attacking Moryn's son, [Leo the Lazy](wiki:Leo_Tyrell_(son_of_Moryn)), but stops because of Leo's family connections.(wiki:Moryn_Tyrell.cite_ref-Raffc0.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 
 ## Edges
 

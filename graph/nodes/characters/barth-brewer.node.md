@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Barth_(brewer)"
 bucket_id: characters-house-stark-a-b
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: AGOT
@@ -16,17 +16,15 @@ first_available:
   pov: "Bran II"
 ---
 
-## Identity
+## Origins
 
-Barth is the brewer at Winterfell (wiki:Barth_(brewer)).
-
-## Allegiances
-
-`SWORN_TO` House Stark (track_b: Allegiance). `CULTURE_OF` Northmen (track_b: Culture).
+Barth's wife took [Theon Greyjoy](wiki:Theon_Greyjoy)'s [virginity](wiki:Virgin).(wiki:Barth_(brewer).cite_ref-Racok50.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
 
 ## Narrative Arc
 
-Barth's wife took Theon Greyjoy's virginity (wiki:Barth_(brewer).cite_ref-Racok50). Tyrion Lannister enjoys a strong black beer while having breakfast at the Guest House of Winterfell (wiki:Barth_(brewer).cite_ref-Ragot9).
+### A Game of Thrones
+
+[Tyrion Lannister](wiki:Tyrion_Lannister) enjoys a strong black [beer](wiki:Beer) while having breakfast at the [Guest House](wiki:Guest_House) of [Winterfell](wiki:Winterfell).(wiki:Barth_(brewer).cite_ref-Ragot9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
 
 ## Edges
 

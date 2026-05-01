@@ -7,26 +7,16 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Hubert_Arryn"
 bucket_id: characters-house-arryn
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Hubert Arryn was Lord of the Eyrie and head of House Arryn during the reign of King Aenys I Targaryen (wiki:Hubert_Arryn).
-
 ## Origins
 
-Born 20 AC (track_b: Born). Died approximately 37–54 AC (track_b: Died). A cousin of Lord Ronnel Arryn and his brother Jonos (wiki:Hubert_Arryn).
+After the death of Lord [Ronnel Arryn](wiki:Ronnel_Arryn_(king)) at the hands of his younger brother, [Jonos](wiki:Jonos_Arryn), and the subsequent death of Jonos and surrender of Jonos's supporters, Hubert was named the new [Lord of the Eyrie](wiki:Lord_of_the_Eyrie).(wiki:Hubert_Arryn.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
 
-## Allegiances
-
-`SWORN_TO` House Arryn (track_b: Allegiance). `CULTURE_OF` Valemen (track_b: Culture). `HOLDS_TITLE` Lord of the Eyrie, Defender of the Vale, Warden of the East (track_b: Titles).
-
-## Narrative Arc
-
-After Jonos Arryn killed his brother Lord Ronnel by throwing him through the Moon Door, and Jonos's own forces surrendered him to Prince Maegor atop Balerion, Hubert was named the new Lord of the Eyrie. The main line of House Arryn continued through him and his six sons (wiki:Hubert_Arryn).
+The main line of [House Arryn](wiki:House_Arryn) continued through him and his six sons.(wiki:Hubert_Arryn.cite_ref-Rtwoiafthe_vale:_house_arryn.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 
 ## Edges
 

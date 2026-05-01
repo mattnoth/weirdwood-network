@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Donnis"
 bucket_id: characters-house-stark-b-h
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: AGOT
@@ -16,17 +16,11 @@ first_available:
   pov: "Catelyn II"
 ---
 
-## Identity
-
-Donnis is a member of the household at Winterfell, sworn to House Stark (track_b: Allegiance).
-
-## Allegiances
-
-Donnis is `SWORN_TO` House Stark (track_b: Allegiance) and belongs to `CULTURE_OF` Northmen (track_b: Culture).
-
 ## Narrative Arc
 
-Donnis assists in the training yard at Winterfell, helping boys out of their armor alongside Lew when called by Ser Rodrik Cassel (agot-arya-01).
+### A Game of Thrones
+
+After practicing in the yard, [Tommen Baratheon](wiki:Tommen_Baratheon) and [Bran Stark](wiki:Bran_Stark) are helped out of their armor by [Lew](wiki:Lew_(guard)) and Donnis.(wiki:Donnis.cite_ref-Ragot7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
 ## Edges
 

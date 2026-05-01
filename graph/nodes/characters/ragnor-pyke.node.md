@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Ragnor_Pyke
 bucket_id: characters-house-greyjoy-g-r
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -16,21 +16,15 @@ first_available:
   pov: "Cersei VI"
 ---
 
-## Identity
-
-Ragnor Pyke is an ironborn bastard serving in the crew of Victarion Greyjoy (wiki:Ragnor_Pyke). The surname "Pyke" marks him as a bastard born in the Iron Islands.
-
-## Allegiances
-
-He is `SWORN_TO` House Greyjoy (track_b: Allegiance). He is `CULTURE_OF` the ironborn (track_b: Culture). He `HOLDS_TITLE` Captain (track_b: Title).
-
 ## Appearances & Description
 
-Ragnor wears rusted mail (wiki:Ragnor_Pyke).
+Ragnor wears rusted mail.(wiki:Ragnor_Pyke.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
 ## Narrative Arc
 
-Ragnor serves aboard the *Iron Victory* under Victarion Greyjoy. After the ironborn take the Shield Islands, Ragnor is given command of a captured Serry ship as a prize for his service in the battle (wiki:Ragnor_Pyke.cite_ref-Raffc29).
+### A Feast for Crows
+
+Ragnor is one of the first of the crew to follow Lord Captain [Victarion Greyjoy](wiki:Victarion_Greyjoy) onto the [Serry](wiki:House_Serry) ship, and he cuts down on of the enemy sailors. Once the ship is captured, Ragnor is given command of it by Victarion.(wiki:Ragnor_Pyke.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 
 ## Edges
 

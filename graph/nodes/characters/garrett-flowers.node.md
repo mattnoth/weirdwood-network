@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Garrett_Flowers
 bucket_id: characters-house-tyrell-a-l
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -16,17 +16,11 @@ first_available:
   pov: "Arya I"
 ---
 
-## Identity
-
-Garrett Flowers is a bastard of House Tyrell and the first cousin to Mace Tyrell, the current Lord of Highgarden. He is the youngest son of Garth Tyrell and has an older brother, Garse Flowers (wiki:Garrett_Flowers.cite_ref-1).
-
-## Allegiances
-
-`SWORN_TO` House Tyrell (track_b: Allegiance).
-
 ## Narrative Arc
 
-When his father Garth Tyrell traveled to Oldtown to take ship to King's Landing to serve as the new master of coin, Garrett and his brother Garse accompanied him, as Lord Tywin Lannister had promised to find them places. Mace Tyrell suggested they be named to the City Watch of King's Landing. However, Cersei prevented the appointment by quickly naming Lord Gyles Rosby as master of coin instead (wiki:Garrett_Flowers.cite_ref-Raffc7).
+### A Feast for Crows
+
+When Garrett's father, [Garth Tyrell](wiki:Garth_Tyrell), travels to [Oldtown](wiki:Oldtown) to take ship to [King's Landing](wiki:King's_Landing) to serve on the [small council](wiki:Small_council) as the new [master of coin](wiki:Master_of_coin), Garrett and his brother [Garse](wiki:Garse_Flowers) accompany him, as Lord [Tywin Lannister](wiki:Tywin_Lannister) had promised to find a place for them. When informing Queen Regent [Cersei Lannister](wiki:Cersei_Lannister) about this, Lord [Mace Tyrell](wiki:Mace_Tyrell) suggests Garrett and Garse be named to the [City Watch of King's Landing](wiki:City_Watch_of_King's_Landing). However, Cersei, wishing to prevent the presence of another Tyrell on the small council, prevents Garth's promotion by quickly naming Lord [Gyles Rosby](wiki:Gyles_Rosby) as the new master of coin.(wiki:Garrett_Flowers.cite_ref-Raffc7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
 
 ## Edges
 

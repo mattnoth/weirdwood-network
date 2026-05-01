@@ -7,26 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Alester_Tyrell
 bucket_id: characters-house-tyrell-a-l
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Ser Alester Tyrell was an Andal knight and adventurer who founded House Tyrell (wiki:Alester_Tyrell.cite_ref-Rtwoiaf1).
-
 ## Origins
 
-Alester was of Andal origin (track_b: Race). He founded House Tyrell as a knightly house in service to the Gardener kings (wiki:Alester_Tyrell.cite_ref-Rtwoiaf1).
-
-## Allegiances
-
-`SWORN_TO` House Tyrell (track_b: Allegiances). `SWORN_TO` House Gardener — served as sworn shield to King Gwayne V Gardener, the last of the Three Sage Kings (track_b: Allegiances, wiki:Alester_Tyrell.cite_ref-Rtwoiaf1).
-
-## Narrative Arc
-
-Alester was among many Andal knights taken into Gardener service. He became the sworn shield of King Gwayne V Gardener. His eldest son became a notable knight but died in a tourney. His second son, Gareth, was more bookish and served as a royal steward, founding the Tyrell stewardship line (wiki:Alester_Tyrell.cite_ref-Rtwoiaf1).
+Alester was among the many knights taken by [House Gardener](wiki:House_Gardener) into their service. He became the [sworn shield](wiki:Sworn_shield) of King [Gwayne V Gardener](wiki:Gwayne_V_Gardener), the last of the [Three Sage Kings](wiki:Three_Sage_Kings). His eldest son became a notable knight, only to die in a [tourney](wiki:Tourney). His second son, [Gareth](wiki:Gareth_Tyrell), was more bookish and never achieved knighthood, choosing to serve as a royal steward instead.(wiki:Alester_Tyrell.cite_ref-Rtwoiafthe_reach:_house_tyrell.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
 ## Edges
 

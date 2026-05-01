@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Harry_Merrell
 bucket_id: characters-house-lannister-b-j
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -17,17 +17,11 @@ first_available:
   pov: "Tyrion X"
 ---
 
-## Identity
-
-Harry Merrell, known as Hot Harry Merrell, is one of Ser Jaime Lannister's men during his campaign to bring the riverlands back to the authority of the Iron Throne (wiki:Harry_Merrell).
-
-## Allegiances
-
-`SWORN_TO` House Lannister (track_b: Allegiance).
-
 ## Narrative Arc
 
-After Jaime's column reaches Pennytree, Harry finds a nanny goat in a vegetable garden (wiki:Harry_Merrell, cite_ref-Radwd48).
+### A Dance with Dragons
+
+After Jaime's [column](wiki:Column) reaches [Pennytree](wiki:Pennytree), Harry finds a nanny goat in a vegetable garden.(wiki:Harry_Merrell.cite_ref-Radwd48.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 
 ## Edges
 

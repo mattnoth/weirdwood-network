@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Tregar"
 bucket_id: characters-house-lannister-r-w
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: AGOT
@@ -16,21 +16,19 @@ first_available:
   pov: "Catelyn VI"
 ---
 
-## Identity
-
-Captain Tregar is the captain of the guards sworn to House Lannister in King's Landing. Not to be confused with Tregar Ormollen, the Lysene merchant prince (wiki:Tregar).
-
-## Allegiances
-
-Tregar `HOLDS_TITLE` Captain of the guards (track_b: Title). He is `SWORN_TO` House Lannister (track_b: Allegiance). His culture is Westermen (track_b: Culture).
-
 ## Appearances & Description
 
-Tregar owns a helm with a lion crest (wiki:Tregar.cite_ref-Ragot35).
+Tregar owns a helm with a [lion](wiki:Lion) crest.(wiki:Tregar.cite_ref-Ragot35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
 
 ## Narrative Arc
 
-Tregar is the captain of the Lannister guards accompanying Ser Jaime Lannister when Jaime confronts Lord Eddard Stark in the streets of King's Landing (wiki:Tregar.cite_ref-Ragot35). Eddard severely injures Tregar in the fight, and he dies five days later (wiki:Tregar.cite_ref-Ragot39). Vylarr succeeds Tregar as captain of the red cloaks in the capital (wiki:Tregar.cite_ref-Racok-appendix).
+### A Game of Thrones
+
+Tregar is the captain of the [Lannister guards](wiki:House_Lannister_guards) that are with Ser [Jaime Lannister](wiki:Jaime_Lannister) when Jaime confronts Lord [Eddard Stark](wiki:Eddard_Stark) in the streets of [King's Landing](wiki:King's_Landing).(wiki:Tregar.cite_ref-Ragot35.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) Eddard severely injures Tregar in the ensuing fight, and he dies five days after the fight.(wiki:Tregar.cite_ref-Ragot39.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+
+### A Clash of Kings
+
+[Vylarr](wiki:Vylarr) has succeeded Tregar as captain of the red cloaks in the capital.(wiki:Tregar.cite_ref-Racokappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 
 ## Edges
 

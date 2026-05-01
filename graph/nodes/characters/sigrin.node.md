@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Sigrin
 bucket_id: characters-house-greyjoy-s-w
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -17,25 +17,19 @@ first_available:
   pov: "Jon III"
 ---
 
-## Identity
-
-Sigrin, known as Sigrin the Shipwright, is an ironborn shipwright based in Lordsport on Pyke, sworn to House Greyjoy. (wiki:Sigrin)
-
 ## Origins
 
-His mother is Esgred. (track_b: Mother)
-
-## Allegiances
-
-Sigrin is `SWORN_TO` House Greyjoy. (track_b: Allegiance) He is of `CULTURE_OF` ironborn culture. (track_b: Culture)
+The first ship Sigrin built was called *[Esgred](wiki:Esgred_(ship))*, named after [his mother](wiki:Esgred). He also built *[Sea Bitch](wiki:Sea_Bitch).*(wiki:Sigrin.cite_ref-Racok24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 
 ## Appearances & Description
 
-Sigrin is thick-bodied with flaxen hair and a receding hairline. (wiki:Sigrin) He is a skilled shipwright who built the longship Sea Bitch for Theon Greyjoy. (wiki:Sigrin.cite_ref-Racok24)
+Sigrin is a thick-bodied man with flaxen hair. He has a receding hairline with a pimpled brow.(wiki:Sigrin.cite_ref-Racok24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
 ## Narrative Arc
 
-Sigrin built the longship Esgred, named after his mother. When Theon Greyjoy returned to Pyke, he had Sigrin build a new ship, the Sea Bitch, which Theon captained during the harrying of the Stony Shore. (wiki:Sigrin.cite_ref-Racok24)
+### A Clash of Kings
+
+Calling herself Esgred, [Asha Greyjoy](wiki:Asha_Greyjoy) claims to be Sigrin's wife when she first encounters her brother, [Theon Greyjoy](wiki:Theon_Greyjoy), at [Lordsport](wiki:Lordsport).(wiki:Sigrin.cite_ref-Racok24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 
 ## Edges
 

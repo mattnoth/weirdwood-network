@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Ronnel_Arryn_(son_of_Jasper)"
 bucket_id: characters-house-arryn
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -16,21 +16,9 @@ first_available:
   pov: "Brienne II"
 ---
 
-## Identity
-
-Ronnel Arryn was a knight of House Arryn and the younger brother of Lord Jon Arryn (wiki:Ronnel_Arryn_(son_of_Jasper)).
-
 ## Origins
 
-Born approximately 220 AC (track_b: Born). Son of Jasper Arryn (track_b: Father).
-
-## Allegiances
-
-`SWORN_TO` House Arryn (track_b: Allegiance). `CULTURE_OF` Valemen (track_b: Culture). `HOLDS_TITLE` Ser, Keeper of the Gates of the Moon (track_b: Titles).
-
-## Narrative Arc
-
-Jon Arryn named his brother Ronnel as Keeper of the Gates of the Moon after ascending to the lordship. Ronnel married a noblewoman of House Belmore and had one son, Elbert. Ronnel died of a bad belly at roughly the same time Elbert was born (wiki:Ronnel_Arryn_(son_of_Jasper)).
+After [Jon](wiki:Jon_Arryn) ascended to the lordship he named Ronnel as the [Keeper](wiki:Keeper_of_the_Gates_of_the_Moon) of the [Gates of the Moon](wiki:Gates_of_the_Moon).(wiki:Ronnel_Arryn_(son_of_Jasper).cite_ref-Raffc10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) Ronnel died of a bad belly at roughly the same time as his son [Elbert](wiki:Elbert_Arryn) was born.(wiki:Ronnel_Arryn_(son_of_Jasper).cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 
 ## Edges
 

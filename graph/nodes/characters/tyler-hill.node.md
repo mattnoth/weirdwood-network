@@ -7,32 +7,20 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Tyler_Hill"
 bucket_id: characters-house-lannister-r-w
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Ser Tyler Hill was a knight in the service of House Lannister and a bastard son of Lord Lyman Lannister of Casterly Rock. Not to be confused with Emory Hill from the Dance of the Dragons (wiki:Tyler_Hill).
-
 ## Origins
 
-Born in or before 28 AC (track_b: Born). Bastard son of Lyman Lannister (track_b: Father). Died in or after 50 AC (track_b: Died).
+So as to support Prince [Aegon Targaryen](wiki:Aegon_Targaryen_(son_of_Aenys_I)) in his [fight](wiki:Aegon_the_Uncrowned's_rebellion) against King [Maegor I Targaryen](wiki:Maegor_I_Targaryen) without openly declaring [House Lannister](wiki:House_Lannister) for either side, Lord [Lyman Lannister](wiki:Lyman_Lannister) provided Aegon with five hundred [Lannisport](wiki:Lannisport) men led by Tyler.(wiki:Tyler_Hill.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) Unlike Aegon, the [bastard](wiki:Bastard) survived the [Battle Beneath the Gods Eye](wiki:Battle_Beneath_the_Gods_Eye) but received scars during the fighting.(wiki:Tyler_Hill.cite_ref-Rfaba_surfeit_of_rulers.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
 
-## Allegiances
-
-Tyler `HOLDS_TITLE` Ser (track_b: Title). He is `SWORN_TO` House Lannister (track_b: Allegiance). His culture is Westermen (track_b: Culture).
+The widowed Queen [Rhaena Targaryen](wiki:Rhaena_Targaryen_(daughter_of_Aenys_I)) and her third husband, [Androw Farman](wiki:Androw_Farman), briefly stayed at [Casterly Rock](wiki:Casterly_Rock) with the Lannisters after being forced to leave [Faircastle](wiki:Faircastle) by Lord [Franklyn Farman](wiki:Franklyn_Farman). Tyler attempted to woo Rhaena and was hostile toward Androw.(wiki:Tyler_Hill.cite_ref-Rfaba_surfeit_of_rulers.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
 
 ## Appearances & Description
 
-Tyler was an attractive man (wiki:Tyler_Hill.cite_ref-FB-Surfeit).
-
-## Narrative Arc
-
-Lord Lyman Lannister provided Prince Aegon Targaryen with five hundred Lannisport men led by Tyler to support Aegon's fight against King Maegor I without openly declaring House Lannister for either side (wiki:Tyler_Hill.cite_ref-FB-Sons). Tyler survived the Battle Beneath the Gods Eye, though Aegon did not, and received scars during the fighting (wiki:Tyler_Hill.cite_ref-FB-Surfeit).
-
-The widowed Queen Rhaena Targaryen and her third husband Androw Farman briefly stayed at Casterly Rock. Tyler attempted to woo Rhaena and was hostile toward Androw (wiki:Tyler_Hill.cite_ref-FB-Surfeit).
+Tyler was an attractive man.(wiki:Tyler_Hill.cite_ref-Rfaba_surfeit_of_rulers.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 
 ## Edges
 

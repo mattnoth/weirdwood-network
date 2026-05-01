@@ -7,26 +7,14 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Benjen_Stark_(lord)"
 bucket_id: characters-house-stark-a-b
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Benjen Stark was the Lord of Winterfell and head of House Stark during the reign of King Viserys I Targaryen (wiki:Benjen_Stark_(lord)).
-
 ## Origins
 
-Born 84 AC. Died between 101 and 121 AC. Succeeded Lord Ellard Stark as Lord of Winterfell (wiki:Benjen_Stark_(lord)).
-
-## Allegiances
-
-`SWORN_TO` House Stark (track_b: Allegiance). `CULTURE_OF` Northmen (track_b: Culture).
-
-## Narrative Arc
-
-Benjen succeeded Lord Ellard Stark as Lord of Winterfell and Warden of the North and was in turn succeeded by his eldest son Rickon (wiki:Benjen_Stark_(lord)).
+Benjen succeeded Lord [Ellard Stark](wiki:Ellard_Stark) as the [Lord of Winterfell](wiki:Lord_of_Winterfell) and [Warden of the North](wiki:Warden_of_the_North) and was in turned succeeded by his eldest son, [Rickon](wiki:Rickon_Stark_(son_of_Benjen)).(wiki:Benjen_Stark_(lord).cite_ref-Rtwoiafappendix:_stark_lineage.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 
 ## Edges
 

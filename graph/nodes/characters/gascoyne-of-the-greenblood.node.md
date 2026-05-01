@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Gascoyne_of_the_Greenblood
 bucket_id: characters-house-martell-a-m
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -17,13 +17,11 @@ first_available:
   pov: "Cersei III"
 ---
 
-## Identity
+## Narrative Arc
 
-Ser Gascoyne of the Greenblood is a Dornish knight in the service of House Martell (wiki:Gascoyne_of_the_Greenblood). He `HOLDS_TITLE` Ser (track_b: Title).
+### A Feast for Crows
 
-## Allegiances
-
-`SWORN_TO` House Martell (track_b: Allegiance). `CULTURE_OF` Dornishmen (track_b: Culture).
+Ser Gascoyne stands guard while Prince Trystane and Princess [Myrcella Baratheon](wiki:Myrcella_Baratheon) play *[cyvasse](wiki:Cyvasse)*.(wiki:Gascoyne_of_the_Greenblood.cite_ref-Raffc13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
 ## Edges
 

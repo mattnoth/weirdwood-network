@@ -7,32 +7,30 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Visenya_Targaryen_(daughter_of_Daemon)
 bucket_id: characters-house-targaryen-t-y
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Princess Visenya Targaryen was the daughter of Princess Rhaenyra Targaryen and Prince Daemon Targaryen (wiki:Visenya_Targaryen_(daughter_of_Daemon), cite: Fire & Blood).
-
 ## Origins
 
-Born (stillborn) in 129 AC at Sea Dragon Tower on Dragonstone. Rhaenyra labored for three days, one month premature. The labor began when she heard news that her father King Viserys I had died and her half-brother Aegon had claimed the throne (wiki:Visenya_Targaryen_(daughter_of_Daemon)).
+Princess [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen) labored for three days in her apartments in the [Sea Dragon Tower](wiki:Sea_Dragon_Tower) of [Dragonstone](wiki:Dragonstone). One month premature, Visenya was a stillborn. The labour had begun when Princess Rhaenyra heard the news from [King's Landing](wiki:King's_Landing), that her father, King [Viserys I Targaryen](wiki:Viserys_I_Targaryen), had died, and that her half-brother, Prince [Aegon](wiki:Aegon_II_Targaryen), had claimed the [throne](wiki:Iron_Throne) and had been crowned King, despite Rhaenyra having been Viserys' heir.(wiki:Visenya_Targaryen_(daughter_of_Daemon).cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
-## Allegiances
+According to [Mushroom](wiki:Mushroom), Princess Rhaenyra had cursed Visenya while giving birth, calling her a monster. He also claims that Visenya had [dragon](wiki:Dragon)-like birth defects, describing her as having been twisted and malformed, with a hole in her chest where her heart should have been and a stubby, scaled tail.(wiki:Visenya_Targaryen_(daughter_of_Daemon).cite_ref-Rtwoiafthe_targaryen_kings:_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
 
-`SWORN_TO` House Targaryen (track_b: Allegiance). `CULTURE_OF` Crownlands (track_b: Culture).
-
-## Narrative Arc
-
-According to Mushroom, Rhaenyra cursed Visenya while giving birth, calling her a monster. Mushroom also claims Visenya had dragon-like birth defects: twisted and malformed, with a hole in her chest where her heart should have been and a stubby, scaled tail. Mushroom claims he brought Visenya to the yard of Dragonstone for burning (wiki:Visenya_Targaryen_(daughter_of_Daemon), cite: Fire & Blood).
+Mushroom also claims that it had been he who brought Visenya to the yard of Dragonstone for [burning](wiki:Dragonflame).(wiki:Visenya_Targaryen_(daughter_of_Daemon).cite_ref-Rtwoiafthe_targaryen_kings:_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 
 ## Quotes
 
-> Monster, monster, get out, get out, GET OUT! — Rhaenyra Targaryen (wiki:Visenya_Targaryen_(daughter_of_Daemon), cite: Fire & Blood)
+### Quotes about Visenya
 
-> She was my only daughter, and they killed her. They stole my crown and murdered my daughter. — Rhaenyra Targaryen (wiki:Visenya_Targaryen_(daughter_of_Daemon), cite: Fire & Blood)
+> Monster, monster, get out, get out, GET OUT!(wiki:Visenya_Targaryen_(daughter_of_Daemon).cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+>
+> —[Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen)
+
+> She was my only daughter, and [they](wiki:Greens) killed her. [They](wiki:Green_council) stole my crown and murdered my daughter, and they shall answer for it.(wiki:Visenya_Targaryen_(daughter_of_Daemon).cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+>
+> —Rhaenyra Targaryen
 
 ## Edges
 

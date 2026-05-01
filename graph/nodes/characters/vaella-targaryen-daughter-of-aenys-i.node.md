@@ -7,26 +7,16 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Vaella_Targaryen_(daughter_of_Aenys_I)
 bucket_id: characters-house-targaryen-t-y
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Princess Vaella Targaryen was the youngest child of King Aenys I Targaryen and Queen Alyssa Velaryon. She died in the cradle (wiki:Vaella_Targaryen_(daughter_of_Aenys_I), cite: Fire & Blood).
-
 ## Origins
 
-Born in 39 AC to King Aenys I Targaryen and Queen Alyssa Velaryon. She died not long after her birth (wiki:Vaella_Targaryen_(daughter_of_Aenys_I)).
+Vaella was born in [39 AC](wiki:39_AC) to King [Aenys I Targaryen](wiki:Aenys_I_Targaryen) and Queen [Alyssa Velaryon](wiki:Alyssa_Velaryon). She died not long after her birth.(wiki:Vaella_Targaryen_(daughter_of_Aenys_I).cite_ref-Rtwoiaf42.7B.7B.7B4.7D.7D.7D_2-1)
 
-## Allegiances
-
-`SWORN_TO` House Targaryen (track_b: Allegiance). `CULTURE_OF` Crownlands (track_b: Culture).
-
-## Narrative Arc
-
-When Alyssa was pregnant for the first time by her second husband Lord Rogar Baratheon, she recalled Vaella's death, claiming she could not suffer another child to die during infancy (wiki:Vaella_Targaryen_(daughter_of_Aenys_I)).
+When she was pregnant the first time by her second husband, Lord [Rogar Baratheon](wiki:Rogar_Baratheon), Alyssa recalled Vaella's death, claiming that she could not suffer another child to die during infancy as it would rip her heart apart. Alyssa gave birth to a son, [Boremund Baratheon](wiki:Boremund_Baratheon).(wiki:Vaella_Targaryen_(daughter_of_Aenys_I).cite_ref-Rfab9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 
 ## Edges
 

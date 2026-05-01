@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Tal_Toraq
 bucket_id: characters-house-targaryen-t-y
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -16,21 +16,25 @@ first_available:
   pov: "Jon III"
 ---
 
-## Identity
-
-Tal Toraq is a former slave, originally of the Summer Isles, who was freed by Daenerys Targaryen (wiki:Tal_Toraq).
-
 ## Appearances & Description
 
-Tal is black-skinned (wiki:Tal_Toraq, cite: ADWD The Queen's Hand).
-
-## Allegiances
-
-`SWORN_TO` House Targaryen (track_b: Allegiances). `MEMBER_OF` Stalwart Shields (track_b: Allegiances). `CULTURE_OF` Summer Isles (track_b: Culture).
+Tal is black-skinned.(wiki:Tal_Toraq.cite_ref-Radwd70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
 
 ## Narrative Arc
 
-Tal Toraq was freed by Daenerys Targaryen during her efforts to end slavery in Slaver's Bay. He joined the Stalwart Shields, a company of fighting freedmen formed by Queen Daenerys in Meereen (wiki:Tal_Toraq, cite: ADWD Daenerys II). When the Stalwart Shields' commander Mollono Yos Dob died from the pale mare epidemic, Tal Toraq was named their new commander (wiki:Tal_Toraq, cite: ADWD The Queen's Hand). He was present at the council when Ser Barristan Selmy prepared for war against the Yunkai'i besieging Meereen, suggesting a force be sent to besiege the undefended city of Yunkai itself (wiki:Tal_Toraq, cite: ADWD The Queen's Hand).
+### A Storm of Swords
+
+Tal Toraq is freed by [Daenerys Targaryen](wiki:Daenerys_Targaryen) during her efforts to end slavery in [Slaver's Bay](wiki:Slaver's_Bay).
+
+### A Dance with Dragons
+
+Tal Toraq joins a company of fighting [freedmen](wiki:Freedmen), the [Stalwart Shields](wiki:Stalwart_Shields), when it is formed by Queen Daenerys in [Meereen](wiki:Meereen).(wiki:Tal_Toraq.cite_ref-Radwd11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+
+The Stalwart Shields' commander, [Mollono Yos Dob](wiki:Mollono_Yos_Dob), dies from the [pale mare](wiki:Pale_mare) epidemic, and Tal Toraq is named their new commander.(wiki:Tal_Toraq.cite_ref-Radwd70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) He is present at the [council](wiki:Ruling_council_of_Meereen) when Ser [Barristan Selmy](wiki:Barristan_Selmy) prepares for war the [Yunkai](wiki:Yunkai), who are [besieging Meereen](wiki:Second_siege_of_Meereen). Tal Toraq suggests breaking through the enemy ranks and sending a force to besiege the city of Yunkai itself, currently undefended, thereby forcing the besieging forces to leave to defend their own city.(wiki:Tal_Toraq.cite_ref-Radwd70.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+
+### The Winds of Winter
+
+Ser Barristan resolves to deal with the Yunkish threat by riding out and meeting the enemy on the field, and assigns the various forces of Meereen to different roles. Tal Toraq and his Stalwart Shields gather by the [eastern gate](wiki:Eastern_gate) of Meereen.(wiki:Tal_Toraq.cite_ref-BarristanI_3-0)
 
 ## Edges
 

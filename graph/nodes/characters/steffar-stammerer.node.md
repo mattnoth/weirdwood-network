@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Steffar_Stammerer
 bucket_id: characters-house-greyjoy-s-w
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -17,17 +17,15 @@ first_available:
   pov: "The Sacrifice"
 ---
 
-## Identity
+## Appearances & Description
 
-Steffar Stammerer is an ironborn man in the crew of Victarion Greyjoy, known for his stutter. (wiki:Steffar_Stammerer)
-
-## Allegiances
-
-Steffar is `SWORN_TO` House Greyjoy. (track_b: Allegiance) He is of `CULTURE_OF` ironborn culture. (track_b: Culture)
+Steffar talks with a stutter.(wiki:Steffar_Stammerer.cite_ref-Radwd63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
 
 ## Narrative Arc
 
-Steffar served aboard the Iron Victory during Victarion Greyjoy's voyage to Slaver's Bay. He coined the name "Black Flame" for the red priest Moqorro after the priest was rescued from the sea. (wiki:Steffar_Stammerer.cite_ref-Radwd63)
+### A Dance with Dragons
+
+Steffar Stammerer accompanies [Victarion Greyjoy](wiki:Victarion_Greyjoy) when the [Iron Fleet](wiki:Iron_Fleet) sails to [Slaver's Bay](wiki:Slaver's_Bay). He gives [Moqorro](wiki:Moqorro) the alias "Black Flame" as Steffar cannot pronounce the [red priest](wiki:Red_priest)'s name properly.(wiki:Steffar_Stammerer.cite_ref-Radwd63.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 
 ## Edges
 

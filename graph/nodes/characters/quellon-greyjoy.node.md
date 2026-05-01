@@ -7,26 +7,50 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Quellon_Greyjoy
 bucket_id: characters-house-greyjoy-g-r
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: "always available"
 ---
 
-## Identity
-
-Quellon Greyjoy was the Lord of the Iron Islands and Lord Reaper of Pyke, father of nine sons including Balon, Euron, Victarion, and Aeron Greyjoy (wiki:Quellon_Greyjoy, track_b: Titles, Issue).
-
 ## Origins
 
-Son of Dagon Greyjoy (track_b: Father). Died in 283 AC at the mouth of the Mander during Robert's Rebellion (track_b: Died).
+Quellon was the grandson of Lord [Dagon Greyjoy](wiki:Dagon_Greyjoy).(wiki:Quellon_Greyjoy.cite_ref-Radwd26.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0) As a youth, he fought [corsairs](wiki:Corsair) and [slavers](wiki:Slaver) in the [Summer Sea](wiki:Summer_Sea).(wiki:Quellon_Greyjoy.cite_ref-Rtwoiafthe_iron_islands:_the_old_way_and_the_new.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 
-## Allegiances
+Years later, Quellon commanded a hundred longships during the [War of the Ninepenny Kings](wiki:War_of_the_Ninepenny_Kings), playing a crucial part in the fighting around the [Stepstones](wiki:Stepstones).(wiki:Quellon_Greyjoy.cite_ref-Rtwoiafthe_iron_islands:_the_old_way_and_the_new.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 
-He is `SWORN_TO` House Greyjoy (track_b: Allegiance). He is `CULTURE_OF` the ironborn (track_b: Culture). He `HOLDS_TITLE` Lord of the Iron Islands and Lord Reaper of Pyke (track_b: Titles).
+As a lord, Quellon preferred a peaceful coexistence with the rest of the realm. Quellon tried to reform the ancient, insular traditions of the ironborn and integrate them with the rest of the [Seven Kingdoms](wiki:Seven_Kingdoms), hoping to forge stronger bonds between his own domains and the mainland. Quellon brought on reform by freeing the remaining [thralls](wiki:Thrall) on the islands and outlawing the practice of thralldom, though he was not wholly successful. He forbade most reaving except by his own leave, and discouraged the taking of [salt wives](wiki:Salt_wives), taxing heavily for the privilege. He brought scores of [maesters](wiki:Maesters) to the Iron Islands, employing them as healers and tutors, while their [ravens](wiki:Raven) tied the islands even closer to the mainland.(wiki:Quellon_Greyjoy.cite_ref-Rtwoiafthe_iron_islands:_the_old_way_and_the_new.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+
+For some time in his elder years, Quellon was troubled with stomach pains that were so excruciating that he required [milk of the poppy](wiki:Milk_of_the_poppy) to sleep every night. Quellon's health and strength were failing when [Robert's Rebellion](wiki:Robert's_Rebellion) broke out, and the cautious lord resolved to take no part in the war. It was only after the [Battle of the Trident](wiki:Battle_of_the_Trident) and the death of Prince [Rhaegar Targaryen](wiki:Rhaegar_Targaryen) that he was convinced by his eldest sons to join the war against [House Targaryen](wiki:House_Targaryen), least the Greyjoys lose any hope in sharing in the spoils of victory. Quellon led fifty longships against the [Reach](wiki:Reach), keeping most of the ironmen home to guard against [House Lannister](wiki:House_Lannister). Quellon died at sea(wiki:Quellon_Greyjoy.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) in a [battle at the Mander](wiki:Battle_at_the_Mander)'s mouth against the [Shield Islands](wiki:Shield_Islands), and the ironmen's contribution to the war turned out to be minimal.(wiki:Quellon_Greyjoy.cite_ref-Rtwoiafthe_iron_islands:_the_old_way_and_the_new.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+
+With Quellon's death, the title of head of [House Greyjoy](wiki:House_Greyjoy) and [Lord of the Iron Islands](wiki:Lord_of_the_Iron_Islands) passed to [Balon Greyjoy](wiki:Balon_Greyjoy), his eldest surviving son. Lord Balon rejected most of his father's reforms, and his desire to return to the [Old Way](wiki:Old_Way) led to [Greyjoy's Rebellion](wiki:Greyjoy's_Rebellion) against the rule of King [Robert I Baratheon](wiki:Robert_I_Baratheon).(wiki:Quellon_Greyjoy.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+
+## Appearances & Description
+
+Quellon was a renowned warrior in his youth. [Maester](wiki:Maester) [Yandel](wiki:Yandel) considered Quellon to be the wisest Greyjoy to sit the [Seastone Chair](wiki:Seastone_Chair) since Lord [Vickon Greyjoy](wiki:Vickon_Greyjoy). Quellon was a leal servant to the [Iron Throne](wiki:Iron_Throne), and an able and strong [lord](wiki:Lord). He was a strong proponent of reform across the [Iron Islands](wiki:Iron_Islands). Few dared to speak openly against him, for Quellon was strong-willed, stubborn, and fearsome when wroth. As he aged, the careful Quellon grew increasingly cautious.(wiki:Quellon_Greyjoy.cite_ref-Rtwoiafthe_iron_islands:_the_old_way_and_the_new.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
+
+A huge man, Quellon stood six and a half feet tall, and was said to be as strong as an ox and as quick as a [cat](wiki:Cat).(wiki:Quellon_Greyjoy.cite_ref-Rtwoiafthe_iron_islands:_the_old_way_and_the_new.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
 ## Narrative Arc
 
-Quellon was a progressive lord who tried to reform the ironborn, banning reaving, encouraging trade with the mainland, and outlawing thralldom on some islands. He married three times: first to a woman of House Stonetree (who bore Harlon, Quenton, and Donel), then to a Sunderly woman (who bore Balon, Euron, Victarion, Urrigon, and Aeron), and finally to Lady Piper of the riverlands (who bore Robin). He entered Robert's Rebellion late on the rebel side but was slain at the mouth of the Mander in a sea battle. His death allowed Balon to reverse all his reforms and return the ironborn to the Old Way (wiki:Quellon_Greyjoy).
+### A Feast for Crows
+
+After the death of [Balon Greyjoy](wiki:Balon_Greyjoy), [King of the Isles and the North](wiki:King_of_the_Isles_and_the_North), his brother [Euron Crow's Eye](wiki:Euron_Greyjoy) claims the [Seastone Chair](wiki:Seastone_Chair).(wiki:Quellon_Greyjoy.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1) Their younger brothers, [Victarion](wiki:Victarion_Greyjoy) and [Aeron Damphair](wiki:Aeron_Greyjoy), think the blood of their parents went bad in Euron.(wiki:Quellon_Greyjoy.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) Victarion desires to claim his father's crown,(wiki:Quellon_Greyjoy.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1) but Euron is instead chosen in the [kingsmoot](wiki:Kingsmoot).(wiki:Quellon_Greyjoy.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
+
+## Quotes
+
+> Nine sons had been born from the loins of Quellon Greyjoy, but only four had lived to manhood. That was the way of this cold world, where men fished the sea and dug in the ground and died, whilst women brought forth short-lived children from beds of blood and pain.(wiki:Quellon_Greyjoy.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5)
+>
+> —thoughts of [Aeron Greyjoy](wiki:Aeron_Greyjoy)
+
+> Lord Quellon never returned from his last voyage; the [Drowned God](wiki:Drowned_God) in his goodness granted him a [death at sea](wiki:Battle_at_the_Mander). It was Lord [Balon](wiki:Balon_Greyjoy) who came back, with his brothers [Euron](wiki:Euron_Greyjoy) and [Victarion](wiki:Victarion_Greyjoy).(wiki:Quellon_Greyjoy.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-6)
+>
+> —thoughts of [Aeron Greyjoy](wiki:Aeron_Greyjoy)
+
+> **Aeron**: Do you mean to claim our father's crown?
+>
+> **Victarion**: If the [Drowned God](wiki:Drowned_God) wills it.
+>
+> —[Aeron Greyjoy](wiki:Aeron_Greyjoy) and [Victarion Greyjoy](wiki:Victarion_Greyjoy)
 
 ## Edges
 

@@ -7,26 +7,18 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Rodwell_Stark
 bucket_id: characters-house-stark-q-w
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: ACOK 69 Jon VIII
 ---
 
-## Identity
-
-Rodwell Stark was a Lord of Winterfell and Warden of the North (track_b: Titles). Born between 152 and 195 AC, he died between 184 and 212 AC (track_b: Born, Died). He is buried in the Crypt of Winterfell (track_b: Buried).
-
 ## Origins
 
-Son of Brandon Stark and Alys Karstark (track_b: Father, Mother).
+Rodwell was the eldest son of Lord [Brandon Stark](wiki:Brandon_Stark_(son_of_Cregan)) and his lady wife, [Alys Karstark](wiki:Alys_Karstark_(wife_of_Brandon)), and he had two younger siblings, [Beron](wiki:Beron_Stark) and [Arsa](wiki:Arsa_Stark), as well as an older [bastard](wiki:Bastard) half-brother, [Lonnel Snow](wiki:Lonnel_Snow).(wiki:Rodwell_Stark.cite_ref-Rtwoiafappendix:_stark_lineage.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)(wiki:Rodwell_Stark.cite_ref-4)
 
-## Allegiances
+Lord Rodwell married Lady [Myriame Manderly](wiki:Myriame_Manderly), but had no issue. His brother Beron followed him as [Lord of Winterfell](wiki:Lord_of_Winterfell).(wiki:Rodwell_Stark.cite_ref-Rtwoiafappendix:_stark_lineage.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
 
-`SWORN_TO` House Stark (track_b: Allegiance). `CULTURE_OF` Northmen (track_b: Culture). `HOLDS_TITLE` Lord of Winterfell, Warden of the North (track_b: Titles).
-
-## Narrative Arc
-
-Rodwell Stark was Lord of Winterfell during the post-Dance period. He married Myriame Manderly (track_b: Spouse).
+Rodwell is buried in the [crypts of Winterfell](wiki:Crypts_of_Winterfell).(wiki:Rodwell_Stark.cite_ref-Racok69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 
 ## Edges
 

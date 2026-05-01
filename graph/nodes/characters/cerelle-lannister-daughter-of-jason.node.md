@@ -7,26 +7,16 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Cerelle_Lannister_(daughter_of_Jason)
 bucket_id: characters-house-lannister-b-j
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Cerelle Lannister was a member of House Lannister during the reign of King Aegon III Targaryen. She was the daughter of Lord Jason Lannister and his wife, Lady Johanna Westerling (wiki:Cerelle_Lannister_(daughter_of_Jason)).
-
 ## Origins
 
-Born between 103 and 130 AC (track_b: Born). Daughter of Jason Lannister and Johanna Westerling (track_b: Father, Mother).
+Cerelle was the daughter of Lord [Jason Lannister](wiki:Jason_Lannister) and his wife, Lady [Johanna Westerling](wiki:Johanna_Lannister).(wiki:Cerelle_Lannister_(daughter_of_Jason).cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) She had four sisters, including [Tyshara](wiki:Tyshara_Lannister),(wiki:Cerelle_Lannister_(daughter_of_Jason).cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2) and one brother, Lord [Loreon](wiki:Loreon_Lannister_(son_of_Jason)).(wiki:Cerelle_Lannister_(daughter_of_Jason).cite_ref-Rfabaftermath_-_the_hour_of_the_wolf.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 
-## Allegiances
-
-`SWORN_TO` House Lannister (track_b: Allegiance). `CULTURE_OF` Westermen (track_b: Culture).
-
-## Narrative Arc
-
-Cerelle had four sisters, including Tyshara, and one brother, Lord Loreon. After the death of Queen Jaehaera Targaryen in 133 AC, Lady Johanna set aside her war with the ironmen long enough to write the Hand that her daughters Cerelle and Tyshara were maidens of noble birth and marriageable age (wiki:Cerelle_Lannister_(daughter_of_Jason)).
+After the death of Queen [Jaehaera Targaryen](wiki:Jaehaera_Targaryen) in [133 AC](wiki:133_AC), Lady Johanna set aside her war with the [ironmen](wiki:Ironmen) long enough to write [the Hand](wiki:Unwin_Peake) that her daughters Cerelle and Tyshara were [maidens](wiki:Maiden) of noble birth and marriageable age.(wiki:Cerelle_Lannister_(daughter_of_Jason).cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
 
 ## Edges
 

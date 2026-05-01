@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Ormund_Baratheon"
 bucket_id: characters-house-baratheon
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -16,21 +16,13 @@ first_available:
   pov: "Arya III"
 ---
 
-## Identity
-
-Ormund Baratheon was the Lord of Storm's End and head of House Baratheon during the reigns of Aegon V and Jaehaerys II Targaryen. He served as Hand of the King for Jaehaerys II (wiki:Ormund_Baratheon).
-
 ## Origins
 
-Born 234 AC, the heir of Lyonel Baratheon (track_b: Born, wiki:Ormund_Baratheon).
+Ormund was the heir of [Lyonel Baratheon](wiki:Lyonel_Baratheon), [Lord of Storm's End](wiki:Lord_of_Storm's_End). [Duncan Targaryen](wiki:Duncan_Targaryen), [Prince of Dragonstone](wiki:Prince_of_Dragonstone), was betrothed to Lyonel's daughter, but in [239 AC](wiki:Years_after_Aegon's_Conquest), he spurned her to elope with a [smallfolk](wiki:Smallfolk) woman named [Jenny of Oldstones](wiki:Jenny_of_Oldstones). Though Duncan's father, King Aegon V Targaryen, did all he could to have the marriage undone, Duncan stubbornly refused to give up Jenny, and instead abdicated his claim to the throne in favor of [his younger brother](wiki:Jaehaerys_II_Targaryen). Still, this did not restore the peace — Lyonel, infuriated at the insult to his daughter and himself, rebelled against the [Iron Throne](wiki:Iron_Throne) and crowned himself as a new [Storm King](wiki:Storm_King). The short and bloody rebellion was eventually settled when [the king's champion](wiki:Duncan_the_Tall) defeated Lyonel in single combat, and King Aegon V promised that his youngest daughter, Princess [Rhaelle Targaryen](wiki:Rhaelle_Targaryen), would marry Lord Lyonel's heir, Ormund.(wiki:Ormund_Baratheon.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_v.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)(wiki:Ormund_Baratheon.cite_ref-Rtwoiafthe_stormlands:_house_baratheon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)(wiki:Ormund_Baratheon.cite_ref-6)
 
-## Allegiances
+To confirm the promise, Princess Rhaelle was sent to live at [Storm's End](wiki:Storm's_End) as Lyonel's [cupbearer](wiki:Cupbearer) and [companion](wiki:Lady-in-waiting) to his lady wife.(wiki:Ormund_Baratheon.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_v.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2) In [245 AC](wiki:Years_after_Aegon's_Conquest), Rhaelle and Ormund were married, and their son, and only known child, [Steffon](wiki:Steffon_Baratheon), was born a year later.(wiki:Ormund_Baratheon.cite_ref-Rtwoiafthe_stormlands:_house_baratheon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
 
-`SWORN_TO` House Baratheon (track_b: Allegiance). `CULTURE_OF` Stormlander (track_b: Culture).
-
-## Narrative Arc
-
-When Prince Duncan Targaryen spurned Lyonel Baratheon's daughter for Jenny of Oldstones, Lyonel rebelled. Peace was restored when King Aegon V promised his youngest daughter Princess Rhaelle Targaryen would marry Ormund. Rhaelle was sent to Storm's End as Lyonel's cupbearer. They married in 245 AC, and their son Steffon was born a year later. Ormund became Hand of the King to Jaehaerys II and commanded the Westerosi expedition in the War of the Ninepenny Kings in the Stepstones. He was struck down by Maelys I Blackfyre and died in his son Steffon's arms in 260 AC (wiki:Ormund_Baratheon).
+Ormund had inherited [Storm's End](wiki:Storm's_End) already prior to his marriage.(wiki:Ormund_Baratheon.cite_ref-Rtwoiafthe_stormlands:_house_baratheon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-5) He became [Hand of the King](wiki:Hand_of_the_King) to his brother-in-law, King [Jaehaerys II Targaryen](wiki:Jaehaerys_II_Targaryen), following the [tragedy at Summerhall](wiki:Tragedy_at_Summerhall). When Jaehaerys decided to [intervene militarily](wiki:War_of_the_Ninepenny_Kings) in the [Stepstones](wiki:Stepstones) to defeat the [Band of Nine](wiki:Band_of_Nine), Ormund was made commander of the expedition. He was one of the first to be killed, struck down by [Maelys I Blackfyre](wiki:Maelys_I_Blackfyre), and died in the arms of his son and heir, Steffon. Command of the expedition passed to Ser [Gerold Hightower](wiki:Gerold_Hightower), the [Lord Commander](wiki:Lord_Commander_of_the_Kingsguard) of the [Kingsguard](wiki:Kingsguard), and Ormund was succeeded as Hand by [Edgar Sloane](wiki:Edgar_Sloane).(wiki:Ormund_Baratheon.cite_ref-Rtwoiafthe_targaryen_kings:_jaehaerys_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 
 ## Edges
 

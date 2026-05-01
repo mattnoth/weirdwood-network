@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Donnor_Stark"
 bucket_id: characters-house-stark-b-h
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -16,17 +16,13 @@ first_available:
   pov: "Jon VIII"
 ---
 
-## Identity
-
-Donnor Stark was the Lord of Winterfell and Warden of the North (track_b: Titles). He was the son of Beron Stark and Lorra Royce (track_b: Father, Mother).
-
 ## Origins
 
-Born between 184–213 AC, died between 212–226 AC (track_b: Born, Died). Son of Beron Stark and Lorra Royce (track_b: Father, Mother). Buried in the Crypt of Winterfell (track_b: Buried).
+According to a semi-canon source, Donnor's father, Lord [Beron](wiki:Beron_Stark), was mortally wounded by [ironborn](wiki:Ironborn), and [House Stark](wiki:House_Stark) faced a crisis of succession as his wife and four other recent Stark widows made claim for their own children.(wiki:Donnor_Stark.cite_ref-3)(wiki:Donnor_Stark.cite_ref-4) In the end, Donnor succeeded his father as [Lord of Winterfell](wiki:Lord_of_Winterfell).(wiki:Donnor_Stark.cite_ref-Rtwoiafappendix:_stark_lineage.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
 
-## Allegiances
+As Donnor died without issue, his brother [Willam](wiki:Willam_Stark) inherited [Winterfell](wiki:Winterfell) after Donnor's death.(wiki:Donnor_Stark.cite_ref-Rtwoiafappendix:_stark_lineage.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
 
-Donnor was `SWORN_TO` House Stark (track_b: Allegiance) and `HOLDS_TITLE` Lord of Winterfell and Warden of the North (track_b: Titles). He belonged to `CULTURE_OF` Northmen (track_b: Culture).
+Donnor is buried in the [crypts of Winterfell](wiki:Crypts_of_Winterfell).(wiki:Donnor_Stark.cite_ref-Racok69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
 
 ## Edges
 

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Ricasso"
 bucket_id: characters-house-martell-m-t
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: "AFFC"
@@ -16,21 +16,21 @@ first_available:
   pov: "The Prophet"
 ---
 
-## Identity
-
-Ricasso is Prince Doran Martell's seneschal at Sunspear (wiki:Ricasso).
-
 ## Appearances & Description
 
-Old and blind (wiki:Ricasso, affc-the-captain-of-guards).
-
-## Allegiances
-
-`SWORN_TO` House Martell (track_b: Allegiance). `CULTURE_OF` Dornishmen (track_b: Culture). `HOLDS_TITLE` Seneschal of Sunspear (track_b: Title).
+Ricasso is old and blind.(wiki:Ricasso.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
 
 ## Narrative Arc
 
-Ricasso welcomes Prince Doran when he returns from the Water Gardens alongside Arianne and Ser Manfrey. After Arianne's failed plot to crown Myrcella, Arianne is handed into the custody of Ricasso and Manfrey. In ADWD, Ricasso raises a toast to King Tommen at the feast for Ser Balon Swann (wiki:Ricasso).
+### A Feast for Crows
+
+Ricasso is alongside Princess [Arianne Martell](wiki:Arianne_Martell), [castellan](wiki:Castellan) Ser [Manfrey Martell](wiki:Manfrey_Martell), and the rest of the court of [Sunspear](wiki:Sunspear) to welcome Prince [Doran Martell](wiki:Doran_Martell) when he returns from the [Water Gardens](wiki:Water_Gardens).(wiki:Ricasso.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+When Princess Arianne is brought back to Sunspear after her failed plot to crown Princess [Myrcella Baratheon](wiki:Myrcella_Baratheon) as queen, she is handed over into the custody of Ricasso and Ser Manfrey Martell.(wiki:Ricasso.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+
+### A Dance with Dragons
+
+Ricasso is present at the feast when Ser [Balon Swann](wiki:Balon_Swann) of the [Kingsguard](wiki:Kingsguard) arrives in Sunspear to deliver the [skull](wiki:Mountain's_skull) of Ser [Gregor Clegane](wiki:Gregor_Clegane). Prince Doran Martell has Ricasso raise a toast to King [Tommen I Baratheon](wiki:Tommen_Baratheon).(wiki:Ricasso.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 
 ## Edges
 

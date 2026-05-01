@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Elbert_Arryn"
 bucket_id: characters-house-arryn
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -16,21 +16,11 @@ first_available:
   pov: "The Princess in the Tower"
 ---
 
-## Identity
-
-Elbert Arryn was a member of House Arryn and nephew of Lord Jon Arryn. He was the heir to the Vale at the time of his death (wiki:Elbert_Arryn).
-
 ## Origins
 
-Born approximately 235 AC (track_b: Born). Died 282 AC in King's Landing (track_b: Died). Son of Ronnel Arryn (track_b: Father) and a woman of House Belmore (track_b: Mother).
+Elbert was born at roughly the same time his father Ser [Ronnel Arryn](wiki:Ronnel_Arryn_(son_of_Jasper)) was dying. After the death of his father, Elbert became Lord [Jon Arryn](wiki:Jon_Arryn)'s heir.(wiki:Elbert_Arryn.cite_ref-Raffc41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 
-## Allegiances
-
-`SWORN_TO` House Arryn (track_b: Allegiance). `CULTURE_OF` Valemen (track_b: Culture).
-
-## Narrative Arc
-
-Elbert was born around the time his father Ser Ronnel was dying. He became Jon Arryn's heir since Jon had no children. When Brandon Stark learned of Lyanna's abduction by Rhaegar Targaryen, Brandon rode to King's Landing with companions including Elbert. They demanded Rhaegar's head; Aerys II had them arrested, summoned their fathers, and had all killed except Ethan Glover (wiki:Elbert_Arryn).
+When [Brandon Stark](wiki:Brandon_Stark) learned that his sister [Lyanna](wiki:Lyanna_Stark) had been abducted by Prince [Rhaegar Targaryen](wiki:Rhaegar_Targaryen), Brandon raced off to [King's Landing](wiki:King's_Landing) accompanied by a party that included Elbert. The party rode into the [Red Keep](wiki:Red_Keep) and demanded Rhaegar's head. King [Aerys II Targaryen](wiki:Aerys_II_Targaryen) had them all arrested and summoned their fathers to King's Landing to answer for their sons' crimes. Aerys had all the men killed except for [Ethan Glover](wiki:Ethan_Glover).(wiki:Elbert_Arryn.cite_ref-Racok55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
 
 ## Edges
 

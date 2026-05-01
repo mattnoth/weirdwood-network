@@ -8,21 +8,23 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Boy_(thrall)
 bucket_id: characters-house-greyjoy-a-g
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 ---
 
-## Identity
+## Origins
 
-The boy is an unnamed ironborn thrall in the service of House Greyjoy (wiki:Boy_(thrall)).
+He has been rowing in the [Iron Fleet](wiki:Iron_Fleet) for less than a year.(wiki:Boy_(thrall).cite_ref-VictarionI_1-2)
 
-## Allegiances
+## Appearances & Description
 
-`SWORN_TO` House Greyjoy (track_b: Allegiance). `CULTURE_OF` ironborn (track_b: Culture).
+He is big. Victarion estimates him to be twenty years old.(wiki:Boy_(thrall).cite_ref-VictarionI_1-1)
 
 ## Narrative Arc
 
-The boy is a young thrall aboard Victarion Greyjoy's ship. In the TWOW sample chapters, he is recruited as one of those who will blow Dragonbinder, the dragon horn claimed by Euron Greyjoy (wiki:Boy_(thrall)).
+### The Winds of Winter
+
+The boy is a thrall forced to serve as an oarsman in the Iron Fleet, serving in the *[Lamentation](wiki:Lamentation_(ship))*. He's one of the three thralls that Victarion recruits to blow [Dragonbinder](wiki:Dragonbinder). He's promised to be made free and get a wife, land, a ship and thralls of his own if he survives.(wiki:Boy_(thrall).cite_ref-VictarionI_1-3)
 
 ## Edges
 

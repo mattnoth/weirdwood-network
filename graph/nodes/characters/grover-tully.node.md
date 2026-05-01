@@ -7,30 +7,22 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Grover_Tully"
 bucket_id: characters-house-tully
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Grover Tully was the Lord of Riverrun, Lord Paramount of the Trident, and head of House Tully during the late reign of Jaehaerys I, the reign of Viserys I, and the Dance of the Dragons (wiki:Grover_Tully).
-
 ## Origins
 
-Born approximately 76 AC (track_b: Born). Father of sons including Elmo Tully's father (track_b: Issue).
+Lord Grover supported Prince [Viserys Targaryen](wiki:Viserys_I_Targaryen) instead of [Laenor Velaryon](wiki:Laenor_Velaryon) at the [Great Council](wiki:Great_Council) in [101 AC](wiki:101_AC), favoring the rights of the male claimant.(wiki:Grover_Tully.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)(wiki:Grover_Tully.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) When Princess [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen) visited the [Trident](wiki:Trident) in [112 AC](wiki:Years_after_Aegon's_Conquest), a son of Lord Tully attempted to court the young princess, vying for her favor.(wiki:Grover_Tully.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
 
-## Allegiances
-
-`SWORN_TO` House Tully (track_b: Allegiances). `SWORN_TO` Greens (track_b: Allegiances) — favored Aegon II during the Dance. `CULTURE_OF` Rivermen (track_b: Culture). `HOLDS_TITLE` Lord of Riverrun, Lord Paramount of the Trident (track_b: Titles).
+When the [Dance of the Dragons](wiki:Dance_of_the_Dragons) broke out in [129 AC](wiki:129_AC), Grover wanted to support King [Aegon II Targaryen](wiki:Aegon_II_Targaryen) and the [greens](wiki:Greens), but he was bedridden and too aged to act. His grandson and heir, Ser [Elmo Tully](wiki:Elmo_Tully), who preferred the claim of Princess [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen), kept the Tully banners at [Riverrun](wiki:Riverrun) at the start of the war.(wiki:Grover_Tully.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-2) Grover passed away soon after the [Second Battle of Tumbleton](wiki:Second_Battle_of_Tumbleton) and he was succeeded by Elmo.(wiki:Grover_Tully.cite_ref-Rtwoiafthe_riverlands:_house_tully.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6) According to [Mushroom](wiki:Mushroom), Grover died of apoplexy at his grandson's actions.(wiki:Grover_Tully.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
 
 ## Appearances & Description
 
-An old man in 101 AC, Grover was bedridden and failing by 130 AC. He remained stubborn and committed to his principles (wiki:Grover_Tully).
+An old man in [101 AC](wiki:101_AC), Grover was bedridden and failing by [130 AC](wiki:130_AC). However, he remained a stubborn man committed to his principles.(wiki:Grover_Tully.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
 
-## Narrative Arc
-
-Lord Grover supported Prince Viserys Targaryen over Laenor Velaryon at the Great Council of 101 AC, favoring the male claimant. When the Dance of the Dragons began, Grover wanted to support King Aegon II and the greens, but was too old and bedridden to act — no word of support left Riverrun, as his grandson Elmo effectively controlled the house. Grover died shortly after the Second Battle of Tumbleton (wiki:Grover_Tully). Archmaester Gyldayn wrote that Grover's character only exacerbated the undistinguished history of House Tully (wiki:Grover_Tully).
+[Archmaester](wiki:Archmaester) [Gyldayn](wiki:Gyldayn) wrote that the undistinguished history of [House Tully](wiki:House_Tully) was only exacerbated by the character of Lord Grover.(wiki:Grover_Tully.cite_ref-Rfabaftermath_-_the_hour_of_the_wolf.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
 
 ## Edges
 

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Harbert"
 bucket_id: characters-house-baratheon
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -16,17 +16,15 @@ first_available:
   pov: "Arya III"
 ---
 
-## Identity
+## Origins
 
-Ser Harbert was a knight and castellan of Storm's End for Lord Steffon Baratheon. He was the great-uncle of Robert, Stannis, and Renly Baratheon (wiki:Harbert).
+During his time as castellan, Ser Harbert counseled [Maester](wiki:Maester) [Cressen](wiki:Cressen) to kill [Patchface](wiki:Patchface) because he thought that the [fool](wiki:Fool) was suffering due to his deteriorated mental state. Cressen disagreed and won the argument.(wiki:Harbert.cite_ref-Racokprologue.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) [Stannis Baratheon](wiki:Stannis_Baratheon) once found a wounded [goshawk](wiki:Hawk), which he named [Proudwing](wiki:Proudwing), and nursed it back to health. He tried to teach the bird to hunt but had no success. Harbert persuaded Stannis to abandon the goshawk.(wiki:Harbert.cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 
-## Allegiances
+Since Ser [Cortnay Penrose](wiki:Cortnay_Penrose) was castellan when Renly was made [master of laws](wiki:Master_of_laws), it is clear that Harbert had died by the time Renly left for [King's Landing](wiki:King's_Landing).(wiki:Harbert.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)(wiki:Harbert.cite_ref-Racokappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
 
-`SWORN_TO` House Baratheon (track_b: Allegiance). `CULTURE_OF` Stormlander (track_b: Culture).
+## Appearances & Description
 
-## Narrative Arc
-
-Already old in 278 AC, Harbert served as castellan of Storm's End. He counseled Maester Cressen to give Patchface the "gift of mercy" with milk of the poppy after the fool's mental deterioration, but Cressen disagreed and won the argument. Harbert also persuaded young Stannis to abandon his wounded goshawk Proudwing, which Stannis had nursed back to health but could not teach to hunt. Harbert had died by the time Renly left for King's Landing, as Ser Cortnay Penrose was castellan by then (wiki:Harbert).
+Already old in [278 AC](wiki:Years_after_Aegon's_Conquest), Harbert was the great-uncle of [Robert](wiki:Robert_Baratheon), [Stannis](wiki:Stannis_Baratheon) and [Renly Baratheon](wiki:Renly_Baratheon).(wiki:Harbert.cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)(wiki:Harbert.cite_ref-3)
 
 ## Edges
 

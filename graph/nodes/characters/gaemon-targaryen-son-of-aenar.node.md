@@ -8,26 +8,16 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Gaemon_Targaryen_(son_of_Aenar)
 bucket_id: characters-house-targaryen-d-j
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Gaemon Targaryen, called "Gaemon the Glorious," was Lord of Dragonstone and son of Aenar Targaryen (track_b: Title, Father).
-
 ## Origins
 
-Born in 114 BC in Valyria (track_b: Born). Of Valyrian race and culture (track_b: Race, Culture).
+Gaemon was the son of Lord [Aenar Targaryen](wiki:Aenar_Targaryen) and had at least one sister, [Daenys Targaryen](wiki:Daenys_Targaryen). He came to Dragonstone along his family in [114 BC](wiki:Years_before_Aegon's_Conquest).(wiki:Gaemon_Targaryen_(son_of_Aenar).cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)(wiki:Gaemon_Targaryen_(son_of_Aenar).cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
 
-## Allegiances
-
-`SWORN_TO` House Targaryen (track_b: Allegiance).
-
-## Narrative Arc
-
-Gaemon succeeded his father Aenar as Lord of Dragonstone after the Targaryens' flight from the Doom of Valyria. He married his sister Daenys Targaryen (track_b: Spouse) and fathered Aegon Targaryen and Elaena Targaryen (track_b: Issue). He died in 101 BC on Dragonstone (track_b: Died).
+Gaemon was married to Daenys and together they had several children, [Aegon](wiki:Aegon_Targaryen_(son_of_Gaemon)), [Elaena](wiki:Elaena_Targaryen_(daughter_of_Gaemon)),(wiki:Gaemon_Targaryen_(son_of_Aenar).cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)(wiki:Gaemon_Targaryen_(son_of_Aenar).cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1) and at least one younger daughter.(wiki:Gaemon_Targaryen_(son_of_Aenar).cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) Aegon and Elaena eventually inherited the rule of Dragonstone from Gaemon.(wiki:Gaemon_Targaryen_(son_of_Aenar).cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)(wiki:Gaemon_Targaryen_(son_of_Aenar).cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2)
 
 ## Edges
 

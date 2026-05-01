@@ -7,22 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Erwin_Lannister
 bucket_id: characters-house-lannister-b-j
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
+## Origins
 
-Ser Erwin Lannister was a knight from House Lannister during the reign of King Aegon III Targaryen (wiki:Erwin_Lannister).
-
-## Allegiances
-
-`SWORN_TO` House Lannister (track_b: Allegiance). `HOLDS_TITLE` Ser (track_b: Title). `CULTURE_OF` Westermen (track_b: Culture).
-
-## Narrative Arc
-
-During Lady Johanna Lannister's war against the ironborn, she hoped to retake Fair Isle from the Red Kraken. Ser Erwin was given command of a ragtag fleet of fishing boats and cogs at Feastfires, along with Lord Tarbeck and Lord Prester. A hundred knights and three thousand men-at-arms were at their command, but someone had betrayed them and the longships were waiting. Ser Erwin's head was sent back to Casterly Rock afterward, with Lord Greyjoy calling it "payment for his uncle" (wiki:Erwin_Lannister).
+During Lady [Johanna Lannister](wiki:Johanna_Lannister)'s war against the [ironborn](wiki:Ironborn), she hoped to retake [Fair Isle](wiki:Fair_Isle) from the [Red Kraken](wiki:Dalton_Greyjoy), and Ser Erwin was given command of a ragtag fleet of fishing boats and cogs at [Feastfires](wiki:Feastfires), along with Lord [Tarbeck](wiki:House_Tarbeck) and Lord [Prester](wiki:House_Prester). A hundred knights and three thousand men-at-arms were at their command, but someone had betrayed them, and the [longships were waiting](wiki:Ambush_at_Fair_Isle). Ser Erwin's head was sent back to [Casterly Rock](wiki:Casterly_Rock) afterward, with Lord Greyjoy calling it "payment for his uncle."(wiki:Erwin_Lannister.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
 ## Edges
 

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Nysterica
 bucket_id: characters-house-tyrell-l-w
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ASOS
@@ -16,21 +16,19 @@ first_available:
   pov: "Davos I"
 ---
 
-## Identity
-
-Septa Nysterica is a septa assigned to House Tyrell (wiki:Nysterica).
-
-## Allegiances
-
-`SWORN_TO` Faith of the Seven (track_b: Allegiances). `SWORN_TO` House Tyrell (track_b: Allegiances). `CULTURE_OF` Westerosi (track_b: Culture).
-
 ## Appearances & Description
 
-Nysterica is homely, with a pox-scarred face, but seems happy (wiki:Nysterica.cite_ref-Rasos6).
+Nysterica is homely, and has a [pox](wiki:Pox)-scarred face, but seems happy.(wiki:Nysterica.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
 
 ## Narrative Arc
 
-Septa Nysterica accompanies Lady Margaery Tyrell to King's Landing for her wedding to King Joffrey. Sansa Stark meets her along with Margaery's other ladies at a supper in the Maidenvault (wiki:Nysterica.cite_ref-Rasos6). In AFFC, after Ser Osney Kettleblack claims he slept with Margaery, Nysterica is one of four septas who examine Margaery's maidenhead and find it not intact. She is confined to a penitent's cell for failure to do her duty (wiki:Nysterica.cite_ref-Raffc43).
+### A Storm of Swords
+
+Septa Nysterica accompanies Lady [Margaery Tyrell](wiki:Margaery_Tyrell) to [King's Landing](wiki:King's_Landing) for her wedding to King [Joffrey I Baratheon](wiki:Joffrey_Baratheon). [Sansa Stark](wiki:Sansa_Stark) meets Septa Nysterica, along with Margaery's other [ladies](wiki:Ladies-in-waiting), when she is invited to a supper at the [Maidenvault](wiki:Maidenvault).(wiki:Nysterica.cite_ref-Rasos6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+### A Feast for Crows
+
+After Ser [Osney Kettleblack](wiki:Osney_Kettleblack) comes forward with claims that he slept with Margaery, Nysterica is one of four septas to examine her [maidenhead](wiki:Maiden). The four septas find the maidenhead not intact, which becomes the grounds for Margaery's arrest. Nysterica is confined to a penitent's cell for failure to do her duty.(wiki:Nysterica.cite_ref-Raffc43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
 
 ## Edges
 

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Mina_Tyrell
 bucket_id: characters-house-tyrell-l-w
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ASOS
@@ -16,21 +16,13 @@ first_available:
   pov: "Samwell I"
 ---
 
-## Identity
-
-Mina Tyrell is a noblewoman of House Tyrell, the eldest daughter of Lord Luthor Tyrell and Lady Olenna Redwyne. She has two siblings: Mace Tyrell and a younger sister, Janna Tyrell (wiki:Mina_Tyrell).
-
 ## Origins
 
-Born between 246–270 AC (track_b: Born). Daughter of Luthor Tyrell and Olenna Redwyne (track_b: Father, Mother).
+Mina married her first cousin, Lord [Paxter Redwyne](wiki:Paxter_Redwyne) of the [Arbor](wiki:Arbor). Together, they have three children, Ser [Horas](wiki:Horas_Redwyne), Ser [Hobber](wiki:Hobber_Redwyne), and [Desmera Redwyne](wiki:Desmera_Redwyne).(wiki:Mina_Tyrell.cite_ref-Rasosappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
 
-## Allegiances
+## Appearances & Description
 
-`SWORN_TO` House Tyrell (track_b: Allegiances). `SWORN_TO` House Redwyne (track_b: Allegiances). `CULTURE_OF` the Reach (track_b: Culture).
-
-## Narrative Arc
-
-Mina married her first cousin, Lord Paxter Redwyne of the Arbor. Together they have three children: Ser Horas, Ser Hobber, and Desmera Redwyne. She is younger than her husband (wiki:Mina_Tyrell).
+Mina is younger than her husband.(wiki:Mina_Tyrell.cite_ref-Rasos19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
 
 ## Edges
 

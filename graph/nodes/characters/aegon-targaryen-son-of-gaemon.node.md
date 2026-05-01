@@ -7,26 +7,16 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aegon_Targaryen_(son_of_Gaemon)"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Lord Aegon Targaryen was a member of House Targaryen during the Century of Blood, the son of Lord Gaemon and Lady Daenys Targaryen of Dragonstone (wiki:Aegon_Targaryen_(son_of_Gaemon)).
-
 ## Origins
 
-Born between 114 and 80 BC at Dragonstone (track_b: Born). Son of Gaemon Targaryen and Daenys Targaryen (track_b: Father, Mother).
+Aegon married his sister, [Elaena](wiki:Elaena_Targaryen_(daughter_of_Gaemon)), and together they had two sons: [Maegon](wiki:Maegon_Targaryen) and [Aerys Targaryen](wiki:Aerys_Targaryen_(son_of_Aegon)).(wiki:Aegon_Targaryen_(son_of_Gaemon).cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) Aegon and Elaena also had a younger sister who married a petty [lord](wiki:Lord).(wiki:Aegon_Targaryen_(son_of_Gaemon).cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
 
-## Allegiances
-
-`SWORN_TO` House Targaryen (track_b: Allegiance). `HOLDS_TITLE` Lord of Dragonstone (track_b: Title).
-
-## Narrative Arc
-
-Aegon married his sister Elaena and together they continued the Targaryen line on Dragonstone during the Century of Blood that followed the Doom of Valyria (wiki:Aegon_Targaryen_(son_of_Gaemon)).
+Aegon and Elaena inherited the lordship of Dragonstone from their father and mother, they jointly ruled Dragonstone and were succeeded by Maegon.(wiki:Aegon_Targaryen_(son_of_Gaemon).cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
 
 ## Edges
 

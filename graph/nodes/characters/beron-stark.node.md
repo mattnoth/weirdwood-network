@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Beron_Stark"
 bucket_id: characters-house-stark-a-b
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -16,21 +16,13 @@ first_available:
   pov: "Tyrion IX"
 ---
 
-## Identity
-
-Beron Stark was the Lord of Winterfell and head of House Stark during the reign of King Aerys I Targaryen. A younger grandson of Cregan Stark (wiki:Beron_Stark).
-
 ## Origins
 
-Born between 172 and 196 AC. Died between 212 and 226 AC. Middle child of Lord Brandon Stark and Lady Alys Karstark (track_b: Father, track_b: Mother). Had an older brother Rodwell and a younger sister Arsa, as well as an older bastard half-brother Lonnel Snow (wiki:Beron_Stark).
+Beron became [Lord of Winterfell](wiki:Lord_of_Winterfell) after his older brother, [Rodwell](wiki:Rodwell_Stark), died without issue.(wiki:Beron_Stark.cite_ref-Rtwoiafappendix:_stark_lineage.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-8)
 
-## Allegiances
+Lord Beron gathered swords to throw Lord [Dagon Greyjoy](wiki:Dagon_Greyjoy)'s [ironmen](wiki:Ironmen) back into the sea and made common cause with the Lord of [Casterly Rock](wiki:Casterly_Rock) for it.(wiki:Beron_Stark.cite_ref-Radwd41.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)(wiki:Beron_Stark.cite_ref-Rtmk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1) According to a semi-canon source, he was mortally wounded in the ensuing clash, however, and [House Stark](wiki:House_Stark) faced a crisis of succession involving several Stark widows and possibly their children.(wiki:Beron_Stark.cite_ref-Rssm1408.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)(wiki:Beron_Stark.cite_ref-Rssm1409.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0) Despite the crisis, Beron's eldest son, [Donnor](wiki:Donnor_Stark), succeeded him as Lord of Winterfell and Warden of the North.(wiki:Beron_Stark.cite_ref-Rtwoiafappendix:_stark_lineage.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-9)
 
-`SWORN_TO` House Stark (track_b: Allegiance). `CULTURE_OF` Northmen (track_b: Culture).
-
-## Narrative Arc
-
-Beron became Lord of Winterfell after his older brother Rodwell died without issue. Lord Beron gathered swords to throw Lord Dagon Greyjoy's ironmen back into the sea and made common cause with the Lord of Casterly Rock. According to a semi-canon source, he was mortally wounded in the ensuing clash (Tier 2 — semi-canon source, wiki hedges with "according to"). House Stark faced a succession crisis afterward, but Beron's eldest son Donnor succeeded him (wiki:Beron_Stark). Beron is buried in the crypts of Winterfell (wiki:Beron_Stark.cite_ref-Racok69).
+Beron is buried in the [crypts of Winterfell](wiki:Crypts_of_Winterfell).(wiki:Beron_Stark.cite_ref-Racok69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 
 ## Edges
 

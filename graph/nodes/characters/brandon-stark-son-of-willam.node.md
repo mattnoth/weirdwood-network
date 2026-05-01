@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Brandon_Stark_(son_of_Willam)"
 bucket_id: characters-house-stark-b-h
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: AGOT
@@ -16,17 +16,9 @@ first_available:
   pov: "Daenerys III"
 ---
 
-## Identity
-
-Brandon Stark was a member of House Stark, the elder brother of Lord Eddard Stark's grandfather Edwyle Stark. He was the son of Willam Stark and Lyanne Glover (track_b: Father, Mother). Born between 197–223 AC at Winterfell, he died between 200–226 AC at Winterfell (track_b: Born, Died).
-
 ## Origins
 
-Son of Willam Stark and Lyanne Glover (track_b: Father, Mother). Born at Winterfell (track_b: Born).
-
-## Allegiances
-
-Brandon was `SWORN_TO` House Stark (track_b: Allegiance) and belonged to `CULTURE_OF` Northmen (track_b: Culture).
+Brandon's mother died in childbirth, so [Nan](wiki:Old_Nan) came to [Winterfell](wiki:Winterfell) to be his [wet nurse](wiki:Wet_nurse). He died at age three of a summer chill.(wiki:Brandon_Stark_(son_of_Willam).cite_ref-Ragot24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
 
 ## Edges
 

@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Frynne
 bucket_id: characters-house-martell-a-m
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -16,17 +16,13 @@ first_available:
   pov: "Cersei IX"
 ---
 
-## Identity
-
-Frynne is a minor Dornish character associated with House Martell, mentioned in AFFC (wiki:Frynne).
-
 ## Origins
 
-Her father was a smith (track_b: Father). Of Dornish culture (track_b: Culture).
+Frynne played in the pools at the [Water Gardens](wiki:Water_Gardens) when Princess [Arianne Martell](wiki:Arianne_Martell) spent time there. They would often team up in the pools, with Arianne [riding](wiki:Shoulder-riding_game) Frynne's shoulders.(wiki:Frynne.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
-## Allegiances
+## Appearances & Description
 
-`SWORN_TO` House Martell (track_b: Allegiance). `CULTURE_OF` Dornishmen (track_b: Culture).
+Frynne has brown hair.(wiki:Frynne.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
 
 ## Edges
 

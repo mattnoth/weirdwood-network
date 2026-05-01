@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Hero
 bucket_id: characters-house-targaryen-d-j
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -16,21 +16,11 @@ first_available:
   pov: Jon X
 ---
 
-## Identity
-
-Hero is an Unsullied soldier sworn to Daenerys Targaryen (track_b: Title, Allegiances).
-
-## Origins
-
-Born in Essos (track_b: Born). Of Essos culture (track_b: Culture).
-
-## Allegiances
-
-`SWORN_TO` Unsullied (track_b: Allegiances). `SWORN_TO` House Targaryen (track_b: Allegiances).
-
 ## Narrative Arc
 
-Hero serves among the Unsullied in Meereen. He is noted in the context of Daenerys's military forces during the conflicts in Slaver's Bay.
+### A Dance with Dragons
+
+Hero, along with six other of Daenerys's court [Daario Naharis](wiki:Daario_Naharis), [Jhogo](wiki:Jhogo), [Groleo](wiki:Groleo) and three of the kin of [Hizdahr zo Loraq](wiki:Hizdahr_zo_Loraq), are given over to the [Yunkai](wiki:Yunkai)'i as a guarantee of safe conduct to the seven Yunkish commanders who would enter [Meereen](wiki:Meereen).(wiki:Hero.cite_ref-Radwd50.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) Though the kin of Hizdahr are eventually released, Groleo is murdered by [Bloodbeard](wiki:Bloodbeard) and Jhogo, Daario and Hero remain prisoners of the Yunkai'i.(wiki:Hero.cite_ref-Radwd59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
 
 ## Edges
 

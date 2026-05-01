@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Nute_the_Barber
 bucket_id: characters-house-greyjoy-g-r
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: AFFC
@@ -17,25 +17,63 @@ first_available:
   pov: "Cersei IV"
 ---
 
-## Identity
-
-Nute, known as "the Barber," is an ironborn warrior and raider who rises to prominence during the War of the Five Kings (wiki:Nute_the_Barber).
-
 ## Origins
 
-Born in the Iron Islands (track_b: Born).
-
-## Allegiances
-
-He is `SWORN_TO` House Greyjoy (track_b: Allegiance). He is `CULTURE_OF` the ironborn (track_b: Culture). He `HOLDS_TITLE` Lord of Oakenshield (track_b: Title).
+Nute earned his nickname of "the Barber" due to his ability in his youth to throw an axe so well that it was said he could shave you with it.(wiki:Nute_the_Barber.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
 
 ## Appearances & Description
 
-Nute is thickset and bandy-legged, skilled with throwing axes. Victarion Greyjoy considers him the best man on the *Iron Victory* (wiki:Nute_the_Barber).
+> *See also: [Images of Nute](wiki:Category:Images_of_Nute)*
+
+Nute the Barber is a thickset man with bandy legs and long arms. His eyes are growing weak.(wiki:Nute_the_Barber.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+
+Nute is a noted warrior(wiki:Nute_the_Barber.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) who wields throwing axes.(wiki:Nute_the_Barber.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
 ## Narrative Arc
 
-Nute earned his nickname for his skill with a razor-sharp axe, using it to "shave" enemies in battle. He served aboard the *Iron Victory* under Victarion Greyjoy. After the kingsmoot chose Euron, Nute supported the new king and was rewarded with the lordship of Oakenshield, one of the Shield Islands, after the ironborn conquered them. Despite the grand title, the appointment was something of a poisoned gift — the Shield Islands were vulnerable to Reach counterattack (wiki:Nute_the_Barber.cite_ref-Raffc18, wiki:Nute_the_Barber.cite_ref-Raffc29).
+### A Feast for Crows
+
+Nute the Barber accompanies [Victarion Greyjoy](wiki:Victarion_Greyjoy) to [Nagga's Cradle](wiki:Nagga's_Cradle), and he squints to identify the [ironborn](wiki:Ironborn) ships already in the bay. When the [Lord Captain of the Iron Fleet](wiki:Lord_Captain_of_the_Iron_Fleet) departs *[Iron Victory](wiki:Iron_Victory)* for the shore, he charges Nute with guarding their chests of treasure.(wiki:Nute_the_Barber.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2) During the feast that night, [Asha Greyjoy](wiki:Asha_Greyjoy) drinks Nute's wine after he passes out drunk.(wiki:Nute_the_Barber.cite_ref-Raffc18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-3)
+
+Nute is one of Victarion's champions during the [kingsmoot on Old Wyk](wiki:Kingsmoot_on_Old_Wyk), and he displays the Lord Captain's steel axe to the ironborn. Nute tries to stop Asha from climbing up the steps to present her own candidacy, but she wrenches free.(wiki:Nute_the_Barber.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) [Euron Greyjoy](wiki:Euron_Greyjoy), Victarion's older brother, is eventually chosen as the new [King of the Isles and the North](wiki:King_of_the_Isles_and_the_North).(wiki:Nute_the_Barber.cite_ref-Raffc19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
+
+Nute is among Victarion's crew that boards the [Serry](wiki:House_Serry) ship during the [taking of the Shields](wiki:Taking_of_the_Shields), and he kills a man with a throwing axe. Victarion then gives the deck of *Iron Victory* to Nute before going to his cabin to sleep with the [dusky woman](wiki:Dusky_woman).(wiki:Nute_the_Barber.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3) Victarion disapproves when he learns that Euron intends for widows and orphans from [Lord Hewett's Town](wiki:Lord_Hewett's_Town) to be sold as [slaves](wiki:Slave) instead of taken back to the [Iron Islands](wiki:Iron_Islands) as [thralls](wiki:Thrall), but Nute is more accepting of the decision.(wiki:Nute_the_Barber.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4) Lord [Rodrik Harlaw](wiki:Rodrik_Harlaw) worries about the vengeance of [Highgarden](wiki:Highgarden), but Nute mocks him for being a coward.(wiki:Nute_the_Barber.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+
+During the feast in [Lord Hewett's castle](wiki:Lord_Hewett's_castle), Nute is named [Lord of Oakenshield](wiki:Lord_of_Oakenshield) by King Euron. Victarion suspects this was done to "steal" Nute from him. He tells Nute to refuse, but Nute, pointing out that Victarion cannot offer him the same, accepts the [lordship](wiki:Lord) from Euron.(wiki:Nute_the_Barber.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+
+### A Dance with Dragons
+
+Sailing toward [Meereen](wiki:Meereen), Victarion misses Nute on *Iron Victory*, as [Wulfe One-Ear](wiki:Wulfe_One-Ear) is not as competent a sailor.(wiki:Nute_the_Barber.cite_ref-Radwd56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+
+## Quotes
+
+### Quotes by Nute
+
+> The strong have always taken from the weak. [Thralls](wiki:Thrall) or [slaves](wiki:Slave), it makes no matter. Their men could not defend them, so now they are ours, to do with as we will.(wiki:Nute_the_Barber.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+>
+> —Nute to [Victarion Greyjoy](wiki:Victarion_Greyjoy)
+
+> **Nute**: The [Crow's Eye](wiki:Euron_Greyjoy) sends us forth to face the longships, whilst his own men [take the castles and the villages](wiki:Taking_of_the_Shields) and grab all the loot and women. What has he left for us?
+>
+> **Victarion**: We have the glory.
+>
+> —Nute and [Victarion Greyjoy](wiki:Victarion_Greyjoy)
+
+> **Euron**: And rise, Nute the Barber, [Lord of Oakenshield](wiki:Lord_of_Oakenshield).
+>
+> **Nute**: A [lord](wiki:Lord)? **Victarion**: Refuse him!
+>
+> —[Euron Greyjoy](wiki:Euron_Greyjoy), Nute, and [Victarion Greyjoy](wiki:Victarion_Greyjoy)
+
+### Quotes about Nute
+
+> Nute the Barber can shave a man with a thrown axe from twenty yards away.(wiki:Nute_the_Barber.cite_ref-Raffc29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10)
+>
+> —thoughts of [Victarion Greyjoy](wiki:Victarion_Greyjoy)
+
+> By raising him to [Lord of Oakenshield](wiki:Lord_of_Oakenshield), [his brother](wiki:Euron_Greyjoy) made Victarion's best man his own.(wiki:Nute_the_Barber.cite_ref-Radwd56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+>
+> —thoughts of [Victarion Greyjoy](wiki:Victarion_Greyjoy)
 
 ## Edges
 

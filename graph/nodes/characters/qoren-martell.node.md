@@ -7,30 +7,24 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Qoren_Martell"
 bucket_id: characters-house-martell-m-t
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Qoren Nymeros Martell was the ruling Prince of Dorne, Lord of Sunspear, and head of House Martell during the reign of King Viserys I Targaryen and during the Dance of the Dragons (wiki:Qoren_Martell).
-
 ## Origins
 
-Born in or before 103 AC. Died 129–132 AC (track_b: Born, Died).
+In [110 AC](wiki:Years_after_Aegon's_Conquest), Prince Qoren Martell joined the [War for the Stepstones](wiki:War_for_the_Stepstones) in support of the [Triarchy](wiki:Kingdom_of_the_Three_Daughters) when they warred against Prince [Daemon Targaryen](wiki:Daemon_Targaryen) and Lord [Corlys Velaryon](wiki:Corlys_Velaryon), leading the [Dornishmen](wiki:Dornishmen) in battle over the [Stepstones](wiki:Stepstones).(wiki:Qoren_Martell.cite_ref-Rtwoiafdorne:_dorne_against_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)(wiki:Qoren_Martell.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) King [Viserys I Targaryen](wiki:Viserys_I_Targaryen) considered wedding his daughter [Rhaenyra](wiki:Rhaenyra_Targaryen) to Prince Qoren, as a way of bringing Dorne into the realm.(wiki:Qoren_Martell.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
 
-## Allegiances
+During the [Dance of the Dragons](wiki:Dance_of_the_Dragons), both the [greens](wiki:Greens) and the [blacks](wiki:Blacks) courted Dorne's support, but Qoren refused to take part.(wiki:Qoren_Martell.cite_ref-Rtwoiafdorne:_dorne_against_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7) When Ser [Otto Hightower](wiki:Otto_Hightower) reached out to the Prince of Dorne, Qoren spurned his offer as he refused to partake in a war with [dragons](wiki:Dragon), recalling the [First Dornish War](wiki:First_Dornish_War).(wiki:Qoren_Martell.cite_ref-Rtwoiafdorne:_dorne_against_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8)(wiki:Qoren_Martell.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
 
-`SWORN_TO` House Martell (track_b: Allegiance). `CULTURE_OF` Dornishmen (track_b: Culture). `HOLDS_TITLE` Prince of Dorne, Lord of Sunspear (track_b: Titles).
-
-## Narrative Arc
-
-In 110 AC, Qoren joined the War for the Stepstones supporting the Triarchy against Daemon Targaryen and Corlys Velaryon. Viserys I considered wedding Rhaenyra to Qoren to bring Dorne into the realm. During the Dance of the Dragons, both greens and blacks courted Dorne's support, but Qoren refused, spurning Ser Otto Hightower's offer. He died by 132 AC and was succeeded by his eldest child, Princess Aliandra (wiki:Qoren_Martell).
+By [132 AC](wiki:132_AC), Qoren had passed away and was succeeded by his eldest child, Princess [Aliandra](wiki:Aliandra_Martell).(wiki:Qoren_Martell.cite_ref-Rtwoiafdorne:_dorne_against_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)(wiki:Qoren_Martell.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
 
 ## Quotes
 
-> Dorne has danced with dragons before. I would sooner sleep with scorpions. (wiki:Qoren_Martell — in response to Otto Hightower)
+> Dorne has danced with dragons before. I would sooner sleep with scorpions.(wiki:Qoren_Martell.cite_ref-Rtwoiaf_dorne:_dorne_against_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+>
+> —in response to a letter from Ser [Otto Hightower](wiki:Otto_Hightower), asking for support during the Dance of the Dragons
 
 ## Edges
 

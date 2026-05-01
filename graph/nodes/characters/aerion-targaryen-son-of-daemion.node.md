@@ -7,26 +7,16 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aerion_Targaryen_(son_of_Daemion)"
 bucket_id: characters-house-targaryen-a
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
-
-Lord Aerion Targaryen was a member of House Targaryen during the Century of Blood. He was the Lord of Dragonstone and father of the three conqueror-siblings: Visenya, Aegon I, and Rhaenys Targaryen (wiki:Aerion_Targaryen_(son_of_Daemion)).
-
 ## Origins
 
-Born between 75 and 41 BC at Dragonstone (track_b: Born). Son of Daemion Targaryen (track_b: Father). Died between 27 and 2 BC at Dragonstone (track_b: Died).
+Aerion inherited the lordship of Dragonstone from his father and was himself succeeded by his son, [Aegon Targaryen](wiki:Aegon_I_Targaryen).(wiki:Aerion_Targaryen_(son_of_Daemion).cite_ref-Rtwoiafthe_reign_of_the_dragons:_the_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)(wiki:Aerion_Targaryen_(son_of_Daemion).cite_ref-Rfabaegon.27s_conquest.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
 
-## Allegiances
-
-`SWORN_TO` House Targaryen (track_b: Allegiance). `HOLDS_TITLE` Lord of Dragonstone (track_b: Title).
-
-## Narrative Arc
-
-Aerion married Valaena Velaryon and fathered the three siblings who would conquer Westeros: Visenya, Aegon (the Conqueror), and Rhaenys. He is also rumored to have been the father of Orys Baratheon (wiki:Aerion_Targaryen_(son_of_Daemion)).
+Lord Aerion kept a [maester](wiki:Maester) on Dragonstone.(wiki:Aerion_Targaryen_(son_of_Daemion).cite_ref-Rfabthree_heads_had_the_dragon_-_governance_under_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
 
 ## Edges
 

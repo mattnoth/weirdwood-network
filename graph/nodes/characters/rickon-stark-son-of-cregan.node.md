@@ -7,25 +7,21 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Rickon_Stark_(son_of_Cregan)
 bucket_id: characters-house-stark-q-w
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 ---
 
-## Identity
-
-Rickon Stark is the eldest son of Lord Cregan Stark and his first wife Arra Norrey (track_b: Father, Mother). Born in 128 AC, he died between 157 and 161 AC at Sunspear (track_b: Born, Died).
-
 ## Origins
 
-Son of Cregan Stark and Arra Norrey (track_b: Father, Mother).
+### Early life
 
-## Allegiances
+Rickon Stark was born in [128 AC](wiki:128_AC), the firstborn son of Lord [Cregan Stark](wiki:Cregan_Stark) and Lady [Arra Norrey](wiki:Arra_Norrey), who died giving birth to him. Cregan [named](wiki:Named_after) his son after his father, Lord [Rickon Stark](wiki:Rickon_Stark_(son_of_Benjen)). When the [Dance of the Dragons](wiki:Dance_of_the_Dragons) begun in [129 AC](wiki:129_AC), Prince [Jacaerys Velaryon](wiki:Jacaerys_Velaryon) gained Lord Cregan's support in the war with the [Pact of Ice and Fire](wiki:Pact_of_Ice_and_Fire), to be sealed with a [marriage](wiki:Marriage). Under the terms of the pact, the first daughter Jacaerys sired would be sent north at the age of seven, to be [fostered](wiki:Fostered) at [Winterfell](wiki:Winterfell) until she was of age to marry young Rickon.(wiki:Rickon_Stark_(son_of_Cregan).cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) However, Jacaerys died childless at the [Battle of the Gullet](wiki:Battle_of_the_Gullet) in early [130 AC](wiki:130_AC).(wiki:Rickon_Stark_(son_of_Cregan).cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
 
-`SWORN_TO` House Stark (track_b: Allegiance). `CULTURE_OF` Northmen (track_b: Culture).
+In [132 AC](wiki:132_AC), after Lord Cregan remarried to Lady [Alysanne Blackwood](wiki:Alysanne_Blackwood), the young Rickon sang a song for his new stepmother at the feast that followed the wedding.(wiki:Rickon_Stark_(son_of_Cregan).cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
 
-## Narrative Arc
+### Conquest of Dorne
 
-Rickon Stark was Cregan's heir through his first wife. He married Jeyne Manderly and fathered two daughters, Sansa and Serena Stark. He died at Sunspear (track_b: Died).
+Rickon fought beneath the [Targaryen](wiki:House_Targaryen) banner when the Young Dragon, King [Daeron I Targaryen](wiki:Daeron_I_Targaryen), sought to [conquer Dorne](wiki:Conquest_of_Dorne). He fought bravely, his deeds sometimes reported by Daeron in his *[Conquest of Dorne](wiki:Conquest_of_Dorne_(book))*. Rickon's death outside of [Sunspear](wiki:Sunspear) in one of the final battles was lamented in the [north](wiki:North) for years to come because of the troubles that dogged the reigns of his half-brothers.(wiki:Rickon_Stark_(son_of_Cregan).cite_ref-Rtwoiafthe_north:_the_lords_of_winterfell.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 
 ## Edges
 

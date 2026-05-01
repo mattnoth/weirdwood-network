@@ -7,29 +7,19 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Archon's_daughter_(Jaehaerys_I)"
 bucket_id: characters-house-baratheon
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 ---
 
-## Identity
-
-The Archon's daughter was the unnamed daughter of the Archon of Tyrosh during the reign of King Jaehaerys I Targaryen. She became the wife of Ser Orryn Baratheon (wiki:Archon's_daughter_(Jaehaerys_I)).
-
 ## Origins
 
-Born in or around 34 AC, she was of Tyroshi origin (track_b: Born, Culture). Her father was the Archon of Tyrosh (track_b: Allegiances).
+In [49 AC](wiki:49_AC), the [maiden](wiki:Maiden) came to [King's Landing](wiki:King's_Landing) at the age of fifteen with her father, the [Archon of Tyrosh](wiki:Archon_of_Tyrosh), to attend the [Golden Wedding](wiki:Golden_Wedding). After the wedding, Lord [Rogar Baratheon](wiki:Rogar_Baratheon) proposed to the other members of King [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen)'s [small council](wiki:Small_council) that she wed the young king, in order to forge an alliance with [Tyrosh](wiki:Tyrosh) and extend the power of the [Iron Throne](wiki:Iron_Throne) to [Essos](wiki:Essos). However, [Queen Regent](wiki:Queen_Regent) [Alyssa Velaryon](wiki:Alyssa_Velaryon) argued that the [smallfolk](wiki:Smallfolk) of [Westeros](wiki:Westeros) would never accept a foreign woman with dyed hair as their queen. She felt a Tyroshi, who kept foreign [gods](wiki:Gods), would also be strongly opposed by those pious to the [Faith of the Seven](wiki:Faith_of_the_Seven). She had her own ideal candidates for Jaehaerys's bride, which other council members opposed, proposing their own suggestions as they argued for a month without reaching a consensus.(wiki:Archon's_daughter_(Jaehaerys_I).cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
 
-## Allegiances
-
-`SWORN_TO` Archon of Tyrosh (track_b: Allegiances). `SWORN_TO` House Baratheon through marriage (track_b: Allegiances). `CULTURE_OF` Tyroshi (track_b: Culture).
+In [50 AC](wiki:50_AC), King Jaehaerys sentenced Ser [Orryn Baratheon](wiki:Orryn_Baratheon) to a ten-year exile for attempting to kidnap Princess [Rhaella Targaryen](wiki:Rhaella_Targaryen_(daughter_of_Aegon)). Orryn entered the service of the Archon in Tyrosh, and the following year he married the Archon's daughter. She soon gave birth to a girl, although some doubted that Orryn was the father.(wiki:Archon's_daughter_(Jaehaerys_I).cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
 
 ## Appearances & Description
 
-She was comely and buxom, with blue-green dyed hair worn in long tresses. She was witty, liked to flirt, and had a "delightful accent" when speaking the Common Tongue (wiki:Archon's_daughter_(Jaehaerys_I)).
-
-## Narrative Arc
-
-In 49 AC, at age fifteen, she came to King's Landing with her father for the Golden Wedding. Lord Rogar Baratheon proposed she wed King Jaehaerys I to forge an alliance with Tyrosh, but Queen Regent Alyssa Velaryon opposed the match, arguing the smallfolk would never accept a foreign queen with dyed hair and foreign gods. After Ser Orryn Baratheon was exiled for ten years in 50 AC for attempting to kidnap Princess Rhaella Targaryen, he entered the Archon's service in Tyrosh and married the Archon's daughter within a year. They had one daughter together (wiki:Archon's_daughter_(Jaehaerys_I)).
+The Archon's daughter was comely and buxom. She [dyed](wiki:Hair_dye) her hair blue-green and wore it in long tresses. She was witty and liked to flirt, and had a "[delightful accent](wiki:Tyroshi_language)" when speaking the [Common Tongue](wiki:Common_Tongue).(wiki:Archon's_daughter_(Jaehaerys_I).cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 
 ## Edges
 

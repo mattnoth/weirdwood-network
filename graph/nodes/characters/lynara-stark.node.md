@@ -7,25 +7,13 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Lynara_Stark
 bucket_id: characters-house-stark-h-p
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 ---
 
-## Identity
-
-Lynara Stark was a noblewoman of House Stark and the third wife of Lord Cregan Stark of Winterfell (wiki:Lynara_Stark).
-
 ## Origins
 
-Born 167 AC (track_b: Born). Died 140 AC (track_b: Died). A descendant of a younger son of Lord Brandon "the Boisterous" Stark (wiki:Lynara_Stark).
-
-## Allegiances
-
-`SWORN_TO` House Stark (track_b: Allegiance). `CULTURE_OF` Northmen (track_b: Culture).
-
-## Narrative Arc
-
-Lynara married her distant cousin Cregan Stark, becoming his third wife. They had five children: Jonnel, Edric, Lyanna, Barthogan, and Brandon Stark. The main line of House Stark's lineage descends from her (wiki:Lynara_Stark).
+Lynara was a descendant of a younger son of Lord [Brandon "the Boisterous" Stark](wiki:Brandon_Stark_(the_Boisterous)).(wiki:Lynara_Stark.cite_ref-3) Lynara married her distant cousin, [Cregan Stark](wiki:Cregan_Stark), [Lord of Winterfell](wiki:Lord_of_Winterfell) and [Warden of the North](wiki:Warden_of_the_North), becoming his third wife. They had five children together; [Jonnel](wiki:Jonnel_Stark), [Edric](wiki:Edric_Stark_(son_of_Cregan)), [Lyanna](wiki:Lyanna_Stark_(daughter_of_Cregan)), [Barthogan](wiki:Barthogan_Stark) and [Brandon Stark](wiki:Brandon_Stark_(son_of_Cregan)). The main line of House Stark's lineage descends from her.(wiki:Lynara_Stark.cite_ref-Rtwoiafappendix:_stark_lineage.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7)
 
 ## Edges
 

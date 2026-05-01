@@ -8,7 +8,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Artos_Stark"
 bucket_id: characters-house-stark-a-b
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ADWD
@@ -17,25 +17,15 @@ first_available:
   pov: "The Merchant's Man"
 ---
 
-## Identity
-
-Artos Stark, also known as Artos the Implacable, was a member of House Stark during the reign of King Maekar I Targaryen. Third son of Lord Beron Stark and Lady Lorra Royce (wiki:Artos_Stark).
-
 ## Origins
 
-Born between 186 and 210 AC. Died 226 AC. Son of Beron Stark and Lorra Royce (track_b: Father, track_b: Mother).
+When [King-Beyond-the-Wall](wiki:King-Beyond-the-Wall) [Raymun Redbeard](wiki:Raymun_Redbeard) went over the [Wall](wiki:Wall) in [226 AC](wiki:Years_after_Aegon's_Conquest), Lord [Willam Stark](wiki:Willam_Stark) called his [banners](wiki:Bannerman) and marched north. Artos was among those who went with him. During the [battle at Long Lake](wiki:Battle_at_Long_Lake), Willam was killed. Artos slew Raymun during the battle, ending the [wildling](wiki:Free_folk) threat. The [Night's Watch](wiki:Night's_Watch) arrived too late to take part in the battle and for their tardiness, Artos ordered them to dispose of the dead.(wiki:Artos_Stark.cite_ref-Radwd7.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 
-## Allegiances
-
-`SWORN_TO` House Stark (track_b: Allegiance). `CULTURE_OF` Northmen (track_b: Culture).
+Although he was never [Lord of Winterfell](wiki:Lord_of_Winterfell), he has a statue in the [crypts beneath Winterfell](wiki:Crypts_beneath_Winterfell).(wiki:Artos_Stark.cite_ref-Racok69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
 ## Appearances & Description
 
-It was said of Artos that he was the most fearsome warrior of his age (wiki:Artos_Stark).
-
-## Narrative Arc
-
-When King-Beyond-the-Wall Raymun Redbeard went over the Wall in 226 AC, Lord Willam Stark called his banners and marched north. Artos joined him. During the battle at Long Lake, Willam was killed. Artos slew Raymun during the battle, ending the wildling threat. The Night's Watch arrived too late, and Artos ordered them to dispose of the dead (wiki:Artos_Stark.cite_ref-Racok69). Although never Lord of Winterfell, Artos has a statue in the crypts beneath Winterfell (wiki:Artos_Stark.cite_ref-Radwd7).
+It was said of Artos that he was the most fearsome warrior of his age.(wiki:Artos_Stark.cite_ref-Rtwoiafthe_wall_and_beyond:_the_wildlings.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
 
 ## Edges
 

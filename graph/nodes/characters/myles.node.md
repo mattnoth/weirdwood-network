@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Myles"
 bucket_id: characters-house-martell-m-t
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: "AFFC"
@@ -16,21 +16,19 @@ first_available:
   pov: "The Prophet"
 ---
 
-## Identity
-
-Myles is a maester in service to House Martell, along with the older Caleotte (wiki:Myles).
-
-## Allegiances
-
-`SWORN_TO` the Citadel and House Martell (track_b: Allegiances). `CULTURE_OF` Westerosi (track_b: Culture). `HOLDS_TITLE` Maester at Sunspear (track_b: Title).
-
 ## Appearances & Description
 
-Young, with a silky, perfumed beard and a servile smile. Wears the grey robes of a maester (wiki:Myles, affc-the-captain-of-guards).
+The young Myles has a silky, perfumed beard(wiki:Myles.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) and a servile smile.(wiki:Myles.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) Myles wears the grey robes of a [maester](wiki:Maester).(wiki:Myles.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
 
 ## Narrative Arc
 
-While Maester Caleotte is with Doran Martell at the Water Gardens, Myles remains at Sunspear dealing with letters not requiring Doran's attention. He greets the prince when he returns from the Water Gardens. In ADWD, Myles is present when Ser Balon Swann arrives to deliver the Mountain's skull, and prepares a wine laced with poppy juice to ease Doran's joint pain (wiki:Myles).
+### A Feast for Crows
+
+While Maester [Caleotte](wiki:Caleotte) is with [Doran Martell](wiki:Doran_Martell), [Prince of Dorne](wiki:Prince_of_Dorne), at the [Water Gardens](wiki:Water_Gardens), Maester Myles remains at [Sunspear](wiki:Sunspear)(wiki:Myles.cite_ref-Raffcappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) to deal with letters not requiring Doran's attention.(wiki:Myles.cite_ref-Raffc13.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) Myles and the rest of the court greet the prince when he returns from the Water Gardens.(wiki:Myles.cite_ref-Raffc2.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+
+### A Dance with Dragons
+
+Myles is present when Ser [Balon Swann](wiki:Balon_Swann) arrives in [Sunspear](wiki:Sunspear) to deliver the [Mountain's skull](wiki:Mountain's_skull). For the feast welcoming Balon, Myles prepares a [wine](wiki:Wine) laced with [poppy juice](wiki:Milk_of_the_poppy) to alleviate the pain in Doran's joints.(wiki:Myles.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
 
 ## Edges
 

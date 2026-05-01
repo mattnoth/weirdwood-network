@@ -7,26 +7,20 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Ummet
 bucket_id: characters-house-targaryen-t-y
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
+## Origins
 
-Ummet was the food taster for King Aegon II Targaryen (wiki:Ummet).
+The same day King [Aegon II](wiki:Aegon_II_Targaryen) died, Ummet was murdered by men acting on Ser [Perkin the Flea](wiki:Perkin_the_Flea)'s orders. [Mushroom](wiki:Mushroom) claims to have seen Ummet's murder and was forced to hide in a barrel of flour to avoid sharing the same fate. [Archmaester](wiki:Archmaester) [Gyldayn](wiki:Gyldayn) considers this only one of the fool's many untrusworthy stories.(wiki:Ummet.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)(wiki:Ummet.cite_ref-Rfabaftermath_-_the_hour_of_the_wolf.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+
+After the king's death, several names were brought up as the person who put the [poison](wiki:Poison) in the king's [wine](wiki:Wine). Ummet as Aegon's own food taster was considered a likely candidate. Whilst the hand that poisoned Aegon's [Arbor red](wiki:Wine) will never be known, there is no doubt that it was done at the behest of [Larys Strong](wiki:Larys_Strong).(wiki:Ummet.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)(wiki:Ummet.cite_ref-Rfabaftermath_-_the_hour_of_the_wolf.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
 
 ## Appearances & Description
 
-Ummet was a grossly fat man (wiki:Ummet, cite: Fire & Blood, The Dying of the Dragons - The Short, Sad Reign of Aegon II).
-
-## Allegiances
-
-`SWORN_TO` House Targaryen (track_b: Allegiance). `CULTURE_OF` Crownlands (track_b: Culture).
-
-## Narrative Arc
-
-The same day King Aegon II died, Ummet was murdered by men acting on Ser Perkin the Flea's orders. Mushroom claims to have seen the murder and was forced to hide in a barrel of flour. As Aegon's food taster, Ummet was considered a likely candidate for having poisoned the king's wine, though Archmaester Gyldayn concluded the poisoning was done at the behest of Larys Strong (wiki:Ummet, cite: Fire & Blood, The Dying of the Dragons - The Short, Sad Reign of Aegon II; Fire & Blood, Aftermath - The Hour of the Wolf).
+Ummet was a grossly fat man.(wiki:Ummet.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
 
 ## Edges
 

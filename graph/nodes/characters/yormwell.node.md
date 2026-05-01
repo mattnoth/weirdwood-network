@@ -7,22 +7,14 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Yormwell
 bucket_id: characters-house-targaryen-t-y
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available: null
 ---
 
-## Identity
+## Origins
 
-Maester Yormwell was a maester in service of Prince Baelor Targaryen (wiki:Yormwell).
-
-## Allegiances
-
-`SWORN_TO` House Targaryen (track_b: Allegiances). `MEMBER_OF` the Citadel (track_b: Allegiances).
-
-## Narrative Arc
-
-After Ser Humfrey Hardyng's leg was broken when Prince Aerion Targaryen killed his horse during a tilt at the tourney at Ashford Meadow, Prince Baelor sent Yormwell to tend to him. Yormwell also treated Prince Maekar Targaryen after the trial of seven. Prince Baelor intended to send Yormwell to treat Ser Duncan the Tall's injuries but died before he could (wiki:Yormwell).
+After [Ser](wiki:Knight) [Humfrey Hardyng](wiki:Humfrey_Hardyng)'s leg was broken when Prince [Aerion Targaryen](wiki:Aerion_Targaryen) killed his horse during a tilt at the [tourney at Ashford Meadow](wiki:Tourney_at_Ashford_Meadow), Prince Baelor sent his own maester to tend to him. Yormwell treated Prince [Maekar Targaryen](wiki:Maekar_I_Targaryen) after the [trial of seven](wiki:Trial_of_seven). Prince Baelor intended to send Yormwell to treat Ser [Duncan the Tall](wiki:Duncan_the_Tall)'s injuries when he finished with his younger brother but died before he could.(wiki:Yormwell.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
 
 ## Edges
 

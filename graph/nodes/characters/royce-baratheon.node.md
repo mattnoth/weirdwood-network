@@ -7,25 +7,15 @@ confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Royce_Baratheon"
 bucket_id: characters-house-baratheon
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 ---
 
-## Identity
-
-Royce Baratheon was the Lord of Storm's End and head of House Baratheon during the reign of King Aegon III Targaryen. He was the posthumous son of Lord Borros Baratheon (wiki:Royce_Baratheon).
-
 ## Origins
 
-Born 131 AC at Storm's End, seven days after his father Borros died at the Battle of the Kingsroad. Son of Borros Baratheon and Elenda Caron (track_b: Born, Father, Mother).
+Royce was the posthumous son of Lord [Borros Baratheon](wiki:Borros_Baratheon) of [Storm's End](wiki:Storm's_End) by his wife, Lady [Elenda Caron](wiki:Elenda_Caron). Born seven days after his father died at the [Battle of the Kingsroad](wiki:Battle_of_the_Kingsroad), Royce succeeded him as the [Lord of Storm's End](wiki:Lord_of_Storm's_End) and [Lord Paramount of the Stormlands](wiki:Lord_Paramount_of_the_Stormlands) at birth. If a boy, Lord Borros had instructed Elenda to name their child Aegon, after King [Aegon II Targaryen](wiki:Aegon_II_Targaryen). However, she instead named him after her father, Lord [Royce Caron](wiki:Royce_Caron) of [Nightsong](wiki:Nightsong).(wiki:Royce_Baratheon.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)(wiki:Royce_Baratheon.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
 
-## Allegiances
-
-`SWORN_TO` House Baratheon (track_b: Allegiance). `CULTURE_OF` Stormlander (track_b: Culture).
-
-## Narrative Arc
-
-Borros had instructed his wife Elenda to name the child Aegon if a boy, after King Aegon II Targaryen. However, Elenda named him Royce after her own father, Lord Royce Caron of Nightsong. He succeeded his father as Lord of Storm's End at birth. During his infancy, his mother Elenda ruled as regent. With the death of Aegon II and the ascension of Aegon III, Lady Elenda chose not to renew the war, fearing for her son's safety as the future of House Baratheon (wiki:Royce_Baratheon).
+During Royce's infancy, his mother Elenda ruled as [regent](wiki:Regent). With the death of Aegon II and the ascension of King [Aegon III Targaryen](wiki:Aegon_III_Targaryen), Lady Elenda decided to not renew the war, fearing for her son's safety, for he was the future of House Baratheon.(wiki:Royce_Baratheon.cite_ref-Rfabaftermath_-_the_hour_of_the_wolf.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
 
 ## Edges
 

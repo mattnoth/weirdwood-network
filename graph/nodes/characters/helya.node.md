@@ -7,7 +7,7 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Helya
 bucket_id: characters-house-greyjoy-g-r
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 first_available:
   book: ACOK
@@ -16,21 +16,17 @@ first_available:
   pov: "Davos I"
 ---
 
-## Identity
-
-Helya is the steward of Pyke, the seat of House Greyjoy (wiki:Helya). She succeeded Sylas Sourmouth in the position.
-
-## Allegiances
-
-She `HOLDS_TITLE` steward of Pyke (track_b: Title). She is `SWORN_TO` House Greyjoy (track_b: Allegiance). She is `CULTURE_OF` the ironborn (track_b: Culture).
-
 ## Appearances & Description
 
-Helya is described as a bent-backed old woman with a pinched face (wiki:Helya).
+Helya is a bentback old woman.(wiki:Helya.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
 
 ## Narrative Arc
 
-Helya serves as steward of Pyke when Theon Greyjoy returns to the Iron Islands. She greets Theon upon his arrival and prepares a chamber for him in the Bloody Keep. She scolds him for his mainland manners when he tries to tip her for carrying his things (wiki:Helya.cite_ref-Racok11, wiki:Helya.cite_ref-Racok24).
+### A Clash of Kings
+
+Helya greets [Theon Greyjoy](wiki:Theon_Greyjoy) upon his arrival at [Pyke](wiki:Pyke). She informs him of the death of the old steward [Sylas](wiki:Sylas) and her position in the household.(wiki:Helya.cite_ref-Racok11.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+When Theon entertains the idea of taking "Esgred" (in reality [Asha Greyjoy](wiki:Asha_Greyjoy)) to Pyke with him, he tells her Helya will arrange a place for her in the castle at his request.(wiki:Helya.cite_ref-Racok24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
 
 ## Edges
 

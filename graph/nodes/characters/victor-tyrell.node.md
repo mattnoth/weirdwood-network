@@ -7,17 +7,13 @@ confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Victor_Tyrell
 bucket_id: characters-house-tyrell-l-w
 prompt_version: v1
-node_version: 1
+node_version: 2
 pass_origin: pass2-wiki
 ---
 
-## Identity
+## Origins
 
-Ser Victor Tyrell was a knight of House Tyrell. He was born in 262 AC and died in 281 AC (wiki:Victor_Tyrell).
-
-## Allegiances
-
-`SWORN_TO` House Tyrell (track_b: Allegiance). `CULTURE_OF` the Reach (track_b: Culture).
+Victor was slain by the [Smiling Knight](wiki:Smiling_Knight) of the [Kingswood Brotherhood](wiki:Kingswood_Brotherhood).(wiki:Victor_Tyrell.cite_ref-Rasosappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
 
 ## Edges
 
