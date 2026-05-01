@@ -1,0 +1,3 @@
+## Origins
+
+According to the tales told by the priestly scribes of [Yin](wiki:Yin), he was the only begotten son of the [Maiden-Made-of-Light](wiki:Maiden-Made-of-Light) and the [Lion of Night](wiki:Lion_of_Night), and traveled about his domains in a [palanquin](wiki:Palanquin) carved from a single [pearl](wiki:Pearl) and carried by a hundred queens, his wives. He ruled for ten thousand years, in which the empire flourished, until at last he ascended to the stars to join his forebears. He was succeeded by his eldest son, the [Pearl Emperor](wiki:Pearl_Emperor).(wiki:God-on-Earth.cite_ref-Rtwoiafthe_bones_and_beyond:_yi_ti.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

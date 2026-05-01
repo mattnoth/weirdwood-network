@@ -85,12 +85,16 @@ Entity
 | `concept.magic` | Concept | Magical system, ability, or phenomenon | rules, practitioners, costs, limitations | Warging, greensight, shadowbinding, glass candles |
 | `concept.prophecy` | Concept | Prophetic statement or vision | prophet, text, candidates, status | Azor Ahai, Maggy the Frog, House of the Undying |
 | `concept.theory` | Concept | Interpretive framework (community or textual) | evidence_for, evidence_against, confidence_tier | R+L=J, Grand Northern Conspiracy |
+| `concept.language` | Concept | Spoken or written in-world language | speakers, regions, script, status | Common Tongue, High Valyrian, Old Tongue, Dothraki, Skroth |
+| `concept.medical` | Concept | Disease, poison, treatment, or medical condition | effects, regions, treatment, mortality | Greyscale, the bloody flux, the strangler, milk of the poppy |
+| `concept.custom` | Concept | Cultural practice, tradition, or ceremony (NOT ethnic group — that's concept.culture) | regions, cultures, status_in_law | Bedding, Guest right, Fosterage, Heraldry, Dowry, Kingsmoot |
 | `object.artifact` | Object | Object of narrative significance | material, current_holder, history | Ice, Dragonbinder, Dawn, glass candles |
 | `object.text` | Object | In-world book, document, or song | author, subject, location | The Jade Compendium, The Rains of Castamere |
 | `object.food` | Object | In-world food or drink (hospitality/feast/guest-right artifacts) | regions, ingredients, culture | Bowl of brown, lemon cakes, Arbor gold, dreamwine |
+| `object.material` | Object | Raw material, mineral, or substance (NOT a named artifact — that's object.artifact) | composition, regions, uses, rarity | Dragonglass, dragonbone, Valyrian steel (as substance), gold, salt |
 | `event.battle` | Event | Single engagement or plot event | location, date, participants, outcome | Red Wedding, Battle of the Blackwater |
 | `event.war` | Event | Multi-battle named conflict | belligerents, causes, phases, battles, outcome | Robert's Rebellion, War of the Five Kings |
-| `species` | Entity | Non-human biological type — sentient species, magical creatures, AND in-world flora kinds (NOT named individuals — those are characters) | habitat, abilities, known_specimens | Dragons (species), Others, Children of the Forest, Giants, weirwood, ironwood |
+| `species` | Entity | Non-human biological type — sentient species, magical creatures, in-world flora kinds, AND in-world fauna kinds (NOT named individuals — those are characters) | habitat, abilities, known_specimens | Dragons (species), Others, Children of the Forest, Giants, weirwood, ironwood, direwolves, aurochs |
 | `title` | Entity | Formal office or hereditary title | holders, succession, powers, created_by | Hand of the King, Lord Commander, High Septon |
 
 ### Hierarchy Query Rules

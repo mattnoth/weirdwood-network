@@ -1,0 +1,19 @@
+---
+name: "Man-at-arms"
+type: title
+slug: man-at-arms
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Man-at-arms"
+bucket_id: tier3-pathb-longtail
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Man-at-arms is a title from the AWOIAF wiki.
+
+## Edges
+

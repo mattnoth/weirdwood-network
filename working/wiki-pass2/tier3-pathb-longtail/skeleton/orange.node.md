@@ -1,6 +1,6 @@
 ---
 name: "Orange"
-type: species
+type: object.food
 slug: orange
 aliases: []
 confidence: tier-2
@@ -13,7 +13,7 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Orange is a species from the AWOIAF wiki.
+Orange is a food or drink from the AWOIAF wiki.
 
 ## Edges
 

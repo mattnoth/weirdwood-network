@@ -1,0 +1,21 @@
+---
+name: "Barefoot lambs"
+type: event.war
+slug: barefoot-lambs
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Barefoot_lambs"
+bucket_id: tier3-pathb-events
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Barefoot lambs is a war from the AWOIAF wiki.
+
+## Edges
+
+- REGION_OF: Westeros (track_b: Region)
+- SWORN_TO: Shepherd (track_b: Allegiance)

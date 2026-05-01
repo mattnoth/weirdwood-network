@@ -1,0 +1,19 @@
+---
+name: "Grey plague"
+type: concept.medical
+slug: grey-plague
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Grey_plague"
+bucket_id: tier3-pathb-longtail
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Grey plague is a species from the AWOIAF wiki.
+
+## Edges
+

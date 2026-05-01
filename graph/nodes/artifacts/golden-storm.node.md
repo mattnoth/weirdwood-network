@@ -1,0 +1,24 @@
+---
+name: "Golden Storm"
+type: object.artifact
+slug: golden-storm
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Golden_Storm"
+bucket_id: tier3-pathb-artifacts
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Golden Storm is an artifact (named weapon, ship, or object) from the AWOIAF wiki.
+
+## Edges
+
+
+## Origins
+
+The Golden Storm was [Aeron Greyjoy](wiki:Aeron_Greyjoy)'s newly-made longship. Aeron, who in his early years was a jolly drunk, claimed the [Drowned God](wiki:Drowned_God) gifted him with the ability to piss longer or farther than any man. Upon receiving his longship, he wagered it against a herd of goats that he would be able to put out a hearthfire by pissing on it. Aeron won the bet giving the ship its name the Golden Storm, though his brother [Balon](wiki:Balon_Greyjoy), [Lord of the Iron Islands](wiki:Lord_of_the_Iron_Islands), threatened to hang him from her mast when he heard what sort of ram his brother intended to mount upon her prow to serve as graphic monument to Aeron's accomplishment.(wiki:Golden_Storm.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
+During [Greyjoy's Rebellion](wiki:Greyjoy's_Rebellion) Aeron sailed with his brother [Victarion](wiki:Victarion_Greyjoy), [Lord Captain of the Iron Fleet](wiki:Lord_Captain_of_the_Iron_Fleet), against [Stannis Baratheon](wiki:Stannis_Baratheon), the [master of ships](wiki:Master_of_ships) for King [Robert I Baratheon](wiki:Robert_I_Baratheon). When Stannis trapped the [Iron Fleet](wiki:Iron_Fleet) in the [sea battle off Fair Isle](wiki:Sea_battle_off_Fair_Isle), the Golden Storm was sunk by Stannis's great warship, [Fury](wiki:Fury), and Aeron was captured by [House Lannister](wiki:House_Lannister).(wiki:Golden_Storm.cite_ref-Raffc1.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)

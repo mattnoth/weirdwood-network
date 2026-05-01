@@ -42,17 +42,25 @@ GRAPH_FACTIONS_DIR = PROJECT_ROOT / "graph" / "nodes" / "factions"
 GRAPH_SPECIES_DIR = PROJECT_ROOT / "graph" / "nodes" / "species"
 GRAPH_THEORIES_DIR = PROJECT_ROOT / "graph" / "nodes" / "theories"
 GRAPH_FOODS_DIR = PROJECT_ROOT / "graph" / "nodes" / "foods"
+GRAPH_MATERIALS_DIR = PROJECT_ROOT / "graph" / "nodes" / "materials"
+GRAPH_LANGUAGES_DIR = PROJECT_ROOT / "graph" / "nodes" / "languages"
+GRAPH_MEDICAL_DIR = PROJECT_ROOT / "graph" / "nodes" / "medical"
+GRAPH_CUSTOMS_DIR = PROJECT_ROOT / "graph" / "nodes" / "customs"
 
 # concept.culture routes to factions/ per Pass B precedent (existing
 # culture nodes: first-men, ironborn, free-folk, dornishmen, etc.).
 # A future migration can split if a cultures/ directory is adopted.
 TYPE_TO_DIR = {
-    "title":           GRAPH_TITLES_DIR,
-    "concept.magic":   GRAPH_CONCEPTS_DIR,
-    "concept.culture": GRAPH_FACTIONS_DIR,
-    "concept.theory":  GRAPH_THEORIES_DIR,
-    "species":         GRAPH_SPECIES_DIR,
-    "object.food":     GRAPH_FOODS_DIR,
+    "title":            GRAPH_TITLES_DIR,
+    "concept.magic":    GRAPH_CONCEPTS_DIR,
+    "concept.culture":  GRAPH_FACTIONS_DIR,
+    "concept.theory":   GRAPH_THEORIES_DIR,
+    "concept.language": GRAPH_LANGUAGES_DIR,
+    "concept.medical":  GRAPH_MEDICAL_DIR,
+    "concept.custom":   GRAPH_CUSTOMS_DIR,
+    "species":          GRAPH_SPECIES_DIR,
+    "object.food":      GRAPH_FOODS_DIR,
+    "object.material":  GRAPH_MATERIALS_DIR,
 }
 CONFLICTS_DIR = PROJECT_ROOT / "graph" / "nodes" / "_conflicts"
 BUCKET_DIR = PROJECT_ROOT / "working" / "wiki-pass2" / "tier3-pathb-longtail"
@@ -63,11 +71,10 @@ BUCKET_ID = "tier3-pathb-longtail"
 NODE_TYPE_DEFAULT = "title"
 TARGET_TYPES = set(TYPE_TO_DIR.keys())
 
-# No glossary skip pages for locations — leave the set empty so the
-# pipeline shape stays identical to artifacts.
-# Dragon page is categorized as Magic but is the species page; should be
-# species/Dragon. Skip from this batch — will need a parser-level override.
-GLOSSARY_SKIP_PAGES: set[str] = {"Dragon"}
+# No glossary skip pages for the longtail batch — Dragon's misclassification
+# was fixed at parser level 2026-05-02 via ENTITY_TYPE_OVERRIDES (Dragon →
+# species). Leave the set empty; the parser handles routing.
+GLOSSARY_SKIP_PAGES: set[str] = set()
 
 
 def page_to_slug(page_name: str) -> str:

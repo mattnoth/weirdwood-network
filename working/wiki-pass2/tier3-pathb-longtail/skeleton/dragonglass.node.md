@@ -1,6 +1,6 @@
 ---
 name: "Dragonglass"
-type: concept.magic
+type: object.material
 slug: dragonglass
 aliases: []
 confidence: tier-2
@@ -13,7 +13,7 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Dragonglass is a magical concept/practice from the AWOIAF wiki.
+Dragonglass is a species from the AWOIAF wiki.
 
 ## Edges
 

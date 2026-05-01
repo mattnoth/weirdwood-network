@@ -1,0 +1,51 @@
+## Culture
+
+The ancient city of Yeen is built of massive blocks of oily [black stone](wiki:Black_stone), so heavy that a dozen elephants would be needed to move them.(wiki:Elephant.cite_ref-Rtwoiaf834_4-1)
+[Ivory](wiki:Ivory), a prized material for jewelry and decoration, can come from the tusks of elephants. According to [Corlys Velaryon](wiki:Corlys_Velaryon), the [shan](wiki:Shan) of the Isle of Elephants has an ivory palace.(wiki:Elephant.cite_ref-Rtwoiaf843_5-0)
+The streets of Old [Volantis](wiki:Volantis) are overrun with white [dwarf elephants](wiki:Dwarf_elephant), which are used as a mode of transport. A single dwarf elephant pulls an ornate [cart](wiki:Cart) called a [hathay](wiki:Hathay), which is similar to a [Westerosi](wiki:Westeros) oxcart, but far more decorative.(wiki:Elephant.cite_ref-Radwd6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) Big grey elephants are also commonly seen in the city, carrying its [triarch](wiki:Triarch) master in a castle on its back.(wiki:Elephant.cite_ref-Radwd27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+In Volantis, dung carts come out in the evening, attended by half naked slaves whose task it is to shovel up the steaming piles of dung from both the great and small elephants. Swarms of flies follow the carts, so the dung slaves have flies [tattooed](wiki:Tattoo) upon their cheeks to mark them for what they are.(wiki:Elephant.cite_ref-Rtwoiaf826_7-0)
+The [Elephants](wiki:Elephants_(Volantis)) is the name for the party of the merchants and moneylenders in Volantis.(wiki:Elephant.cite_ref-Radwd14.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+During the [Volantene](wiki:Volantene) elections, elephants have the names of would-be [triarchs](wiki:Triarch_of_Volantis) painted on their sides.(wiki:Elephant.cite_ref-Radwd27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+The outermost of the [triple walls](wiki:Triple_walls_of_Qarth) of [Qarth](wiki:Qarth) is made of red sandstone, thirty feet high and decorated with animals: [snakes](wiki:Snake) slithering, kites flying, fish swimming, intermingled with [wolves](wiki:Wolves) of the [red waste](wiki:Red_waste), striped [zorses](wiki:Zorse), and monstrous elephants.(wiki:Elephant.cite_ref-Racok27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)
+Elephants are a common sight in the city of [Astapor](wiki:Astapor), lumbering about with latticework litters on their backs.(wiki:Elephant.cite_ref-Rasos23.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)
+There are no elephants in the city of [Asshai](wiki:Asshai), as any animal brought there soon dies.(wiki:Elephant.cite_ref-Rtwoiaf844_11-0)
+Elephants are a game piece in [cyvasse](wiki:Cyvasse).(wiki:Elephant.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0)
+There is [Lyseni](wiki:Lys) [pirate](wiki:Pirate) [ship](wiki:Ship) named [Elephant](wiki:Elephant_(ship)).(wiki:Elephant.cite_ref-Radwd45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0)
+
+## Origins
+
+At [Volon Therys](wiki:Volon_Therys) in the [Second Spice War](wiki:Second_Spice_War) between the [Rhoynar](wiki:Rhoynar) and the [Valyrian Freehold](wiki:Valyrian_Freehold), the Rhoynar prince [Garin the Great](wiki:Garin_the_Great) faced a hundred thousand men, a hundred war elephants, and three [dragonlords](wiki:Dragonlords), but prevailed, though at great cost.(wiki:Elephant.cite_ref-Rtwoiaf28.7B.7B.7B4.7D.7D.7D_14-0)
+During the [Century of Blood](wiki:Century_of_Blood), the Volantene hero Triarch [Horonno](wiki:Horonno) named himself triarch for life, but was overthrown and put to death by being tied between two elephants and torn in half.(wiki:Elephant.cite_ref-Radwd22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_15-0)
+On the last of the nine voyages of the [Sea Snake](wiki:Sea_Snake), [Corlys Velaryon](wiki:Corlys_Velaryon) filled the ship's hold with [gold](wiki:Gold), and bought twenty more ships at [Qarth](wiki:Qarth), loading them with [spices](wiki:Spices), elephants, and the finest [silk](wiki:Silk). Some of the ships were lost, and the elephants died at sea, but the wealth that remained on Corlys's return to Westeros made [House Velaryon](wiki:House_Velaryon) the richest in the realm.(wiki:Elephant.cite_ref-Rtwoiaf44.7B.7B.7B4.7D.7D.7D_16-0)
+During [Lord Alyn's attack](wiki:Lord_Alyn's_attack) in the [Daughters' War](wiki:Daughters'_War) in [133 AC](wiki:133_AC), House Velaryon captured an elephant that had been meant for the [Sealord's menagerie](wiki:Sealord's_menagerie). On Lord [Alyn Velaryon](wiki:Alyn_Velaryon)'s return to [King's Landing](wiki:King's_Landing), he rode the elephant through the [River Gate](wiki:River_Gate) up to the [Red Keep](wiki:Red_Keep) while thousands of people lined the streets hoping to see their new hero. Alyn gifted the elephant to King [Aegon III Targaryen](wiki:Aegon_III_Targaryen), but Lord [Manfryd Mooton](wiki:Manfryd_Mooton) returned the elephant to the [Sealord of Braavos](wiki:Sealord_of_Braavos) as part of his diplomatic efforts to prevent war.(wiki:Elephant.cite_ref-Rfab21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0)
+When [Tyrion Lannister](wiki:Tyrion_Lannister) was a boy, there was an elephant in the [menagerie](wiki:Menagerie) at [Lannisport](wiki:Lannisport), but she died when he was seven.(wiki:Elephant.cite_ref-Radwd27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+Someone once made off with [Harry Strickland](wiki:Harry_Strickland)'s favorite elephant.(wiki:Elephant.cite_ref-Rtwow.5B.5Barianne_ii_.28the_winds_of_winter.29.7Carianne_ii.5D.5D.7B.7B.7B4.7D.7D.7D_18-0)
+
+## Narrative Arc
+
+### A Game of Thrones[ ]
+
+[Daenerys Targaryen](wiki:Daenerys_Targaryen) sees immense grey elephants at the Eastern Market of [Vaes Dothrak](wiki:Vaes_Dothrak).(wiki:Elephant.cite_ref-Ragot54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-0)
+
+### A Storm of Swords[ ]
+
+[Tyrion Lannister](wiki:Tyrion_Lannister) tries to read [Beldecar](wiki:Beldecar)'s [History of the Rhoynish Wars](wiki:History_of_the_Rhoynish_Wars), but is too distracted to imagine the elephants.(wiki:Elephant.cite_ref-Rasos12.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-0)
+
+### A Dance with Dragons[ ]
+
+[Quentyn Martell](wiki:Quentyn_Martell) travels in an ornate [cart](wiki:Cart) called a [hathay](wiki:Hathay), pulled by a single [dwarf elephant](wiki:Dwarf_elephant).(wiki:Elephant.cite_ref-Radwd6.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)
+The [Golden Company](wiki:Golden_Company) has a number of elephants. When [Jon Connington](wiki:Jon_Connington) reaches the Golden Company's camp, he sees two dozen grey elephants grazing beside the water, pulling up reeds with their trunks.(wiki:Elephant.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-0)
+The first time [Tyrion Lannister](wiki:Tyrion_Lannister) passes an elephant in Old [Volantis](wiki:Volantis), he cannot help but stare, as it is twice the size of the elephant he recalls from his childhood.(wiki:Elephant.cite_ref-Radwd27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+While held captive by Ser [Jorah Mormont](wiki:Jorah_Mormont), Tyrion Lannister sees an elephant lumber past with a dozen naked [slave](wiki:Slave) girls waving from the castle on its back, teasing passersby with glimpses of their breasts and crying, “[Malaquo](wiki:Malaquo_Maegyr), Malaquo”. They make such an entrancing sight, that Tyrion almost walks right into a steaming pile of elephant dung.(wiki:Elephant.cite_ref-Radwd27.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+Four legions out of [New Ghis](wiki:New_Ghis) have a hundred elephants, armoured and towered.(wiki:Elephant.cite_ref-Radwd36.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_22-0)
+Queen [Daenerys Targaryen](wiki:Daenerys_Targaryen) has acquired three elephants along with the [Great Pyramid](wiki:Great_Pyramid) of [Meereen](wiki:Meereen). They remind her of hairless grey [mammoths](wiki:Mammoth), though their tusks have been bobbed and [gilded](wiki:Gold), and she feels that their eyes are sad. The elephants are stabled in the eastern walls of the pyramid. When Dany, [Quentyn Martell](wiki:Quentyn_Martell), Ser [Barristan Selmy](wiki:Barristan_Selmy), and her guards make their way down the pyramid to the [makeshift dragon pit](wiki:Dragon_pit_(Great_Pyramid)) where her [dragons](wiki:Dragon) [Viserion](wiki:Viserion) and [Rhaegal](wiki:Rhaegal) are kept, one of the elephants trumpets at them, and a dragon gives an answering roar.(wiki:Elephant.cite_ref-Radwd43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_23-0)
+[Arya Stark](wiki:Arya_Stark), blinded in the [House of Black and White](wiki:House_of_Black_and_White), learns to tell one [coin](wiki:Coin) from another by touch. Some of the coins she handles have elephants stamped on their sides.(wiki:Elephant.cite_ref-Radwd45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-1)
+Tyrion tries to teach [Penny](wiki:Penny) how to play [cyvasse](wiki:Cyvasse), but has to frequently explain that the dragon flies, not the elephants.(wiki:Elephant.cite_ref-Radwd47.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_24-0)
+Daenerys Targaryen watches an elephant make short work of a pack of six [red wolves](wiki:Red_wolf) in [Daznak's Pit](wiki:Daznak's_Pit).(wiki:Elephant.cite_ref-Radwd52.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_25-0)
+Ser Barristan Selmy travels to a secret meeting with [Skahaz mo Kandaq](wiki:Skahaz_mo_Kandaq) in the stables of the Great Pyramid, and passes the elephants and the queen's [silver mare](wiki:Silver_mare).(wiki:Elephant.cite_ref-Radwd55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_26-0)
+Great [cogs](wiki:Cog) carry the Golden Company's elephants to Westerosi shores. A storm scatters half the fleet, but some of the elephants had last been seen at [Lys](wiki:Lys). As Prince [Aegon Targaryen](wiki:Aegon_Targaryen_(Young_Griff)) arrives to join Jon Connington at [Griffin's Roost](wiki:Griffin's_Roost), he rides at the head of a [column](wiki:Column) of three hundred horses, with three elephants lumbering in the rear.(wiki:Elephant.cite_ref-Radwd61.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_27-0)
+
+## Quotes
+
+Unwin: You have given us a war. Alyn: And an elephant. Pray, do not forget the elephant, my lord.(wiki:Elephant.cite_ref-Rfab21.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-1)
+There is not a [warhorse](wiki:Warhorse) in all of [Westeros](wiki:Westeros) that will stand against them.(wiki:Elephant.cite_ref-Radwd24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_21-1)

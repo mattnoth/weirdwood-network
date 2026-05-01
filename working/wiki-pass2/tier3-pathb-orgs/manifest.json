@@ -3,261 +3,41 @@
   "tier": "secondary",
   "tier_default": "tier-2",
   "prompt_version": "v1-python",
-  "created_at": "2026-05-01T14:49:54.503196+00:00",
+  "created_at": "2026-05-01T16:21:23.943547+00:00",
   "status": "pending",
   "started_at": null,
   "completed_at": null,
   "validation_report": null,
   "pages": [
     {
-      "page": "Balerion (god)",
-      "slug": "balerion-god",
+      "page": "Elenei",
+      "slug": "elenei",
       "type": "organization.religion"
     },
     {
-      "page": "Black Ears",
-      "slug": "black-ears",
+      "page": "Fingers (guards)",
+      "slug": "fingers-guards",
       "type": "organization.faction"
     },
     {
-      "page": "Brotherhood of Bones",
-      "slug": "brotherhood-of-bones",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Burned Men",
-      "slug": "burned-men",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Conclave",
-      "slug": "conclave",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Council of magisters (Lorath)",
-      "slug": "council-of-magisters-lorath",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Council of magisters (Norvos)",
-      "slug": "council-of-magisters-norvos",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Council of magisters (Pentos)",
-      "slug": "council-of-magisters-pentos",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Dosh khaleen",
-      "slug": "dosh-khaleen",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Elephants (Volantis)",
-      "slug": "elephants-volantis",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Father (the Seven)",
-      "slug": "father-the-seven",
+      "page": "Garth Greenhand",
+      "slug": "garth-greenhand",
       "type": "organization.religion"
     },
     {
-      "page": "Fiery Hand",
-      "slug": "fiery-hand",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Great Other",
-      "slug": "great-other",
+      "page": "God-on-Earth",
+      "slug": "god-on-earth",
       "type": "organization.religion"
     },
     {
-      "page": "High Council of the Triarchy",
-      "slug": "high-council-of-the-triarchy",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Holy Brotherhood of the Andals",
-      "slug": "holy-brotherhood-of-the-andals",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Holy guard",
-      "slug": "holy-guard",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Howlers",
-      "slug": "howlers",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Iron Fleet",
-      "slug": "iron-fleet",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Lady of the Waves",
-      "slug": "lady-of-the-waves",
+      "page": "Goddess of the wind",
+      "slug": "goddess-of-the-wind",
       "type": "organization.religion"
     },
     {
-      "page": "Lord of the Skies",
-      "slug": "lord-of-the-skies",
+      "page": "Sea god",
+      "slug": "sea-god",
       "type": "organization.religion"
-    },
-    {
-      "page": "Lords Declarant",
-      "slug": "lords-declarant",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Lowlander",
-      "slug": "lowlander",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Maiden (the Seven)",
-      "slug": "maiden-the-seven",
-      "type": "organization.religion"
-    },
-    {
-      "page": "Meraxes (god)",
-      "slug": "meraxes-god",
-      "type": "organization.religion"
-    },
-    {
-      "page": "Milk Snakes",
-      "slug": "milk-snakes",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Moon Brothers",
-      "slug": "moon-brothers",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Moon Mother",
-      "slug": "moon-mother",
-      "type": "organization.religion"
-    },
-    {
-      "page": "Mother's Men",
-      "slug": "mothers-men",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Mother (the Seven)",
-      "slug": "mother-the-seven",
-      "type": "organization.religion"
-    },
-    {
-      "page": "Old Man of the River",
-      "slug": "old-man-of-the-river",
-      "type": "organization.religion"
-    },
-    {
-      "page": "Painted Dogs",
-      "slug": "painted-dogs",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Pureborn",
-      "slug": "pureborn",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Rain god",
-      "slug": "rain-god",
-      "type": "organization.religion"
-    },
-    {
-      "page": "Redsmiths",
-      "slug": "redsmiths",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Ruling council of Astapor",
-      "slug": "ruling-council-of-astapor",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Shadow Council",
-      "slug": "shadow-council",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Shavepates",
-      "slug": "shavepates",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Smith (the Seven)",
-      "slug": "smith-the-seven",
-      "type": "organization.religion"
-    },
-    {
-      "page": "Sons of the Mist",
-      "slug": "sons-of-the-mist",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Sons of the Tree",
-      "slug": "sons-of-the-tree",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Stalwart Shields",
-      "slug": "stalwart-shields",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Stone Crows",
-      "slug": "stone-crows",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Stranger (the Seven)",
-      "slug": "stranger-the-seven",
-      "type": "organization.religion"
-    },
-    {
-      "page": "Syrax (goddess)",
-      "slug": "syrax-goddess",
-      "type": "organization.religion"
-    },
-    {
-      "page": "Thousand",
-      "slug": "thousand",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Tigers (Volantis)",
-      "slug": "tigers-volantis",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Undying Ones",
-      "slug": "undying-ones",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Vhagar (god)",
-      "slug": "vhagar-god",
-      "type": "organization.religion"
-    },
-    {
-      "page": "Weirwood Alliance",
-      "slug": "weirwood-alliance",
-      "type": "organization.faction"
-    },
-    {
-      "page": "Wild Hares",
-      "slug": "wild-hares",
-      "type": "organization.faction"
     }
   ]
 }

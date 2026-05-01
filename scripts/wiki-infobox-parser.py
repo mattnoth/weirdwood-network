@@ -585,6 +585,11 @@ def classify_entity_type(fields_lower):
 # (organization.order vs organization.guild vs organization.company etc.) is
 # DEFERRED to the future edge-polish / entity-polish review phase, where agent
 # reasoning will decide the right sub-taxonomy. Don't expand here.
+#
+# Sentinel for pages that should be dropped from promotion entirely
+# (mirrors CATEGORY_TYPE_MAP's SKIP_CATEGORY — defined together so overrides
+# can return SKIP for wiki-synthesis pages without forward references).
+SKIP_CATEGORY = "__SKIP__"
 ENTITY_TYPE_OVERRIDES = {
     # Sworn brotherhoods / military orders
     "Night's Watch":                "organization.faction",
@@ -627,33 +632,92 @@ ENTITY_TYPE_OVERRIDES = {
     # R+L=J pillar). Wiki tags it as "Mystery knights" + "Terms" so
     # neither categorizer nor name-pattern catches it. Override.
     "Knight of the Laughing Tree":  "character.human",
+    # Wiki synthesis page covering two real battles already in graph
+    # (`attack-on-castle-black`, `battle-beneath-the-wall`). Wiki itself
+    # calls it "a fan-given name" for the combined struggle. Skip — the
+    # canonical battles are the entity nodes; a third synthesis node adds
+    # nothing.
+    "Battle of Castle Black":       SKIP_CATEGORY,
+    # Dragon-as-species page (distinct from the named character.dragon
+    # individuals — Drogon, Rhaegal, Viserion, Balerion, Vhagar, etc.).
+    # Wiki tags Dragon with [Animals, Dragons, Magic, Transport, Valyria]
+    # which would resolve to concept.magic first via the CATEGORY_TYPE_MAP
+    # ordering; the species classification needs an explicit override.
+    "Dragon":                       "species",
+    # Wildfire — alchemical green flame, pivotal to multiple battles
+    # (Battle of the Blackwater, Aerys II, the cache below King's
+    # Landing). Tagged Substances → would classify as object.material;
+    # override to object.artifact since it's a narratively-significant
+    # named substance like Ice or Dawn (Matt's call 2026-05-02).
+    "Wildfire":                     "object.artifact",
+    # Fiddle — Culture+Musical-instruments page; would route to
+    # concept.custom via the Culture-singular pattern. Skip — not a
+    # narrative entity (Matt's call 2026-05-02).
+    "Fiddle":                       SKIP_CATEGORY,
 }
 
+# Anti-patterns evaluated BEFORE PAGE_NAME_TYPE_PATTERNS. If any matches,
+# classify_by_page_name returns None (no name-based hint) and the page
+# falls through to category/infobox classification. Catches structural
+# false positives where war/conquest/etc. words appear in the page name
+# but the page is NOT a war/event (books ABOUT wars, chronology entries,
+# parenthetically-qualified sub-pages).
+#
+# Session 28 logged these false positives that motivated this filter:
+#   "Lance (war galley)", "Conquest of Dorne (book)",
+#   "Account of the War of the Ninepenny Kings", "Engines of War",
+#   "Years after Aegon's Conquest" (+ 6 variants),
+#   "Years before Aegon's Conquest"
+PAGE_NAME_EXCLUSION_PATTERNS = [
+    # Chronology / year pages: "Years after/before X"
+    re.compile(r"^Years\s+(after|before)\b", re.IGNORECASE),
+    # Texts ABOUT something — "Account of the War", "Engines of War",
+    # "A History of X", "Tales of X". Optional leading "A " article.
+    re.compile(r"^(A\s+)?(Account|Engines|Tales|History|Memoir|Chronicle|Story|Saga|Treatise|Life)\b", re.IGNORECASE),
+    # Parenthetical type qualifiers — "(book)", "(TV)", "(war galley)",
+    # "(game)", "(video game)", "(TV series)". These flag the page as a
+    # specific sub-form (book/TV/etc.) of an entity also named without
+    # the qualifier. v1 skips name-pattern classification for them.
+    re.compile(r"\s\((book|tv|game|war\s+galley|tv\s+series|video\s+game|comic|graphic\s+novel|disambiguation)\)\s*$", re.IGNORECASE),
+]
+
+
 # Regex patterns for page-name-based classification, evaluated AFTER the explicit
-# ENTITY_TYPE_OVERRIDES dict. First match wins. Added 2026-04-30 (bug fix) to
-# prevent wars and war-like conflicts from falling back to place.location.
+# ENTITY_TYPE_OVERRIDES dict. First match wins.
+#
+# 2026-05-02 tightening: war / conquest / rebellion / invasion patterns
+# moved from broad `\bwar\b`-style matches to anchored end-of-name or
+# preposition-bounded matches, with PAGE_NAME_EXCLUSION_PATTERNS handling
+# the structural false-positives.
 #
 # Pattern guidelines:
 #   - Patterns are matched case-insensitively against the full page_name.
-#   - Use ^ and $ anchors where possible to avoid accidental matches.
+#   - Use $ end-anchor or preposition boundary (of/on/for/against) to scope
+#     the war-word to the page subject, not a fragment within a book title.
 #   - Add a comment explaining what class of pages each pattern targets.
 PAGE_NAME_TYPE_PATTERNS = [
-    # Wars: "Spice War", "Salt War", "Second Turtle War", "War of Three Princes",
-    # "War on Dagger Lake", "War for the Dawn", "Robert's Rebellion", etc.
-    # Matches page names that end in " War" or start with "War " or contain " War ".
-    (re.compile(r'\bwar\b', re.IGNORECASE), "event.war"),
-    # "Rebellion" patterns: Robert's Rebellion, Blackfyre Rebellion, etc.
-    (re.compile(r'\brebellion\b', re.IGNORECASE), "event.war"),
-    # "Conquest" patterns: Aegon's Conquest, etc. (multi-battle campaigns)
-    (re.compile(r'\bconquest\b', re.IGNORECASE), "event.war"),
-    # "Invasion" patterns: Andal Invasion, etc.
-    (re.compile(r'\binvasion\b', re.IGNORECASE), "event.war"),
-    # "Tourney" patterns: Ashford Tourney, Tourney at Harrenhal, etc.
-    # Catches pages without categories (Ashford Tourney has empty categories).
-    (re.compile(r'\btourney\b', re.IGNORECASE), "event.tournament"),
+    # Wars — page name ends in "War"/"Wars" OR contains "War of/on/for/against".
+    # Matches: "Lyseni War", "First Dornish War", "First Blackfyre War",
+    #          "War of the Five Kings", "War of Conquest", "War for the Dawn",
+    #          "War on Dagger Lake".
+    # Misses (intentional, post-tightening): "Engines of War" (book — caught
+    # by ^Engines exclusion), "Account of the War" (caught by ^Account
+    # exclusion), "Lance (war galley)" (caught by parens exclusion).
+    (re.compile(r'\b(Wars?$|War\s+(of|on|for|against)\s)', re.IGNORECASE), "event.war"),
+    # Rebellion — end-anchored. "Robert's Rebellion", "Blackfyre Rebellion".
+    (re.compile(r'\bRebellions?$', re.IGNORECASE), "event.war"),
+    # Conquest — end-anchored OR "Conquest of X". "Aegon's Conquest",
+    # "First Conquest", "Conquest of Dorne".
+    # Pre-filter excludes "Years after Aegon's Conquest" (^Years) and
+    # "Conquest of Dorne (book)" (parens qualifier).
+    (re.compile(r'\b(Conquests?$|Conquest\s+of\s)', re.IGNORECASE), "event.war"),
+    # Invasion — end-anchored. "Andal Invasion", "Doom Invasion".
+    (re.compile(r'\bInvasions?$', re.IGNORECASE), "event.war"),
+    # Tourney — end-anchored or "Tourney at/of/for X". Catches pages
+    # without categories (Ashford Tourney has empty categories).
+    (re.compile(r'\b(Tourneys?$|Tourney\s+(at|of|for|on)\s)', re.IGNORECASE), "event.tournament"),
     # Guards pages: "House Bolton guards", "House Stark guards", etc.
-    # These are house-guard contingents, not standalone houses — classify as
-    # organization.faction. Added 2026-04-30 (Bug 3 fix, session 27 audit).
+    # House-guard contingents, classified as organization.faction.
     (re.compile(r'\bguards$', re.IGNORECASE), "organization.faction"),
 ]
 
@@ -663,15 +727,22 @@ def classify_by_page_name(page_name):
 
     Resolution order (first match wins):
     1. ENTITY_TYPE_OVERRIDES — explicit per-page-name override dict
-    2. PAGE_NAME_TYPE_PATTERNS — regex patterns evaluated BEFORE the "House "
+    2. PAGE_NAME_EXCLUSION_PATTERNS — if any matches, return None (page-name
+       classification is suppressed; falls through to categories/infobox).
+       Catches structural false positives like "Years after Aegon's Conquest"
+       (chronology) or "Engines of War" (book ABOUT a war).
+    3. PAGE_NAME_TYPE_PATTERNS — regex patterns evaluated BEFORE the "House "
        prefix check, so that sub-pages like "House Bolton guards" are correctly
        classified as organization.faction rather than organization.house.
-    3. "House " prefix → organization.house (catches genuine house pages after
+    4. "House " prefix → organization.house (catches genuine house pages after
        any more-specific patterns have had their chance to match).
-    4. None (caller falls through to category-based, then infobox-based)
+    5. None (caller falls through to category-based, then infobox-based)
     """
     if page_name in ENTITY_TYPE_OVERRIDES:
         return ENTITY_TYPE_OVERRIDES[page_name]
+    for excl_pattern in PAGE_NAME_EXCLUSION_PATTERNS:
+        if excl_pattern.search(page_name):
+            return None
     for pattern, entity_type in PAGE_NAME_TYPE_PATTERNS:
         if pattern.search(page_name):
             return entity_type
@@ -703,7 +774,8 @@ def classify_by_page_name(page_name):
 #   - Use anchors (^/$) to avoid accidental cross-matches.
 #   - Skip-categories (Redirect, Disambiguation, TV-only) return SKIP_CATEGORY
 #     so the caller can drop these from promotion entirely.
-SKIP_CATEGORY = "__SKIP__"
+# (SKIP_CATEGORY sentinel defined alongside ENTITY_TYPE_OVERRIDES above so
+#  page-name overrides can return SKIP without forward references.)
 
 CATEGORY_TYPE_MAP = [
     # --- Skip categories (caller filters these out of promotion) ---
@@ -721,6 +793,24 @@ CATEGORY_TYPE_MAP = [
     (re.compile(r"^Episodes$", re.IGNORECASE), SKIP_CATEGORY),
     (re.compile(r"^House of the Dragon", re.IGNORECASE), SKIP_CATEGORY),
     (re.compile(r"^Game of Thrones", re.IGNORECASE), SKIP_CATEGORY),
+    # Wiki-meta categories — pages that exist solely as wiki editorial
+    # tooling (Feature-of-the-week pages, intro blurbs, errata, appendices).
+    # Each verified to never co-occur with a type-defining category, so SKIP
+    # is safe. NOT in this list (verified to layer on real entities, must
+    # NOT skip): Pages using hatnote template directly, Articles that are
+    # Stubs, Articles with unsourced statements, Articles with conjectural
+    # titles, Portal.
+    (re.compile(r"^Feature quotes?$", re.IGNORECASE), SKIP_CATEGORY),
+    (re.compile(r"^Feature articles?$", re.IGNORECASE), SKIP_CATEGORY),
+    (re.compile(r"^Did you know$", re.IGNORECASE), SKIP_CATEGORY),
+    (re.compile(r"^A Song of Ice and Fire Errata$", re.IGNORECASE), SKIP_CATEGORY),
+    (re.compile(r"^Appendices$", re.IGNORECASE), SKIP_CATEGORY),
+    # Year / chronology pages — "130 AC", "Years after Aegon's Conquest",
+    # etc. Deferred to Tier 3 chronology-extractor agent which reads year
+    # pages directly from the wiki cache. Skip from primary entity-type
+    # classification so they don't false-positive into event.battle via
+    # their "Events" / "History" co-tags.
+    (re.compile(r"^Years$", re.IGNORECASE), SKIP_CATEGORY),
 
     # --- Specific high-confidence type categories ---
     # Artifacts (swords, weapons, ships, dragon eggs, named objects)
@@ -759,25 +849,51 @@ CATEGORY_TYPE_MAP = [
     (re.compile(r"^Houses (with|without|from|of) ", re.IGNORECASE), "organization.house"),
     (re.compile(r"^(Knightly orders|Sworn brotherhoods|Sellsword companies|Mercenary companies|Guilds|Orders|Brotherhoods|Sisterhoods|Cults|Crews)$", re.IGNORECASE), "organization.faction"),
     (re.compile(r"^Mountain clans of ", re.IGNORECASE), "organization.faction"),
-    (re.compile(r"^Organizations$", re.IGNORECASE), "organization.faction"),
+    # Religions checked BEFORE generic Organizations because pages like
+    # Faith of the Seven are tagged BOTH ['Organizations', 'Religions'].
+    # Religion is the more-specific signal and should win.
     (re.compile(r"^(Religions|Religious orders|Faiths|Pantheons|Deities|Gods|Goddesses)$", re.IGNORECASE), "organization.religion"),
+    (re.compile(r"^Organizations$", re.IGNORECASE), "organization.faction"),
     (re.compile(r"^Cultures$", re.IGNORECASE), "concept.culture"),
+
+    # Food + drinks (object.food — narrative hospitality / D&E food culture).
+    # Food precedes Species/Trees/Animals because in ASOIAF "anything that
+    # is eaten" is first-class food, regardless of also being a plant or
+    # animal. Apple, Aurochs, Boar, Chicken, Berry, Lemon are all dual-
+    # tagged Food + (Plants|Animals|Birds|Trees) and should classify as
+    # object.food (Matt's call 2026-05-02). Pure-Plant/Animal/Bird pages
+    # (no Food tag) still fall through to species below.
+    (re.compile(r"^(Food|Foods|Drinks|Drink|Beverages)$", re.IGNORECASE), "object.food"),
 
     # Species (biological types — NOT individuals)
     # Trees go here too; weirwoods are first-class narrative entities,
     # and the species/ dir scope broadens to in-world flora/fauna kinds.
-    # Trees take precedence over Food when both categories are present
-    # (Apple, Lemon, Orange, Chestnut tree are dual-tagged).
     (re.compile(r"^(Species|Magical creatures|Magical races|Sentient species)$", re.IGNORECASE), "species"),
     (re.compile(r"^Trees$", re.IGNORECASE), "species"),
+    # Fauna + flora kinds — Animals/Birds/Apes/Mythical creatures/Plants.
+    # Architecture broadens species/ scope to in-world fauna kinds (auroch,
+    # direwolves-as-kind, sand steed) alongside flora and sentient races.
+    (re.compile(r"^(Animals|Birds|Apes|Mythical creatures|Plants)$", re.IGNORECASE), "species"),
 
-    # Food + drinks (object.food — narrative hospitality / D&E food culture).
-    (re.compile(r"^(Food|Foods|Drinks|Drink|Beverages)$", re.IGNORECASE), "object.food"),
+    # Materials — raw substances, minerals, metals, gemstones, rocks.
+    # Distinct from object.artifact (which is named items like Ice, Dawn).
+    (re.compile(r"^(Gemstones|Metals|Rocks|Substances)$", re.IGNORECASE), "object.material"),
 
     # Concepts
     (re.compile(r"^(Magic|Magical phenomena|Magical abilities|Magical objects)$", re.IGNORECASE), "concept.magic"),
     (re.compile(r"^(Prophecies|Prophetic dreams|Visions)$", re.IGNORECASE), "concept.prophecy"),
     (re.compile(r"^(Theories|Theory)$", re.IGNORECASE), "concept.theory"),
+    # Languages — Common Tongue, High Valyrian, Old Tongue, Dothraki, etc.
+    # "Valyrian languages" tags the Valyrian-family pages (Astapori, Meereenese).
+    (re.compile(r"^(Languages|Valyrian languages)$", re.IGNORECASE), "concept.language"),
+    # Medical — diseases, poisons, medicine. Pages cover both substances
+    # (the strangler, milk of the poppy) and conditions (greyscale, the
+    # bloody flux); v1 folds them into a single concept.medical type.
+    (re.compile(r"^(Diseases|Poisons|Medicine)$", re.IGNORECASE), "concept.medical"),
+    # Customs — cultural practices and ceremonies. Distinct from
+    # concept.culture (ethnic groups). Caught off the singular "Culture"
+    # tag (architecture's concept.culture matches plural "Cultures").
+    (re.compile(r"^Culture$", re.IGNORECASE), "concept.custom"),
 
     # Catch-all for named objects (catches "Objects" + "Merchant ships" etc.
     # that escaped the more specific Ships/Crowns/etc. patterns above)
@@ -786,6 +902,10 @@ CATEGORY_TYPE_MAP = [
 
     # Titles
     (re.compile(r"^Titles$", re.IGNORECASE), "title"),
+    # Occupations — bailiff, castellan, captain, etc. Most are formal roles
+    # (= title). Magic-adjacent occupations (Aeromancer, Bloodmage) hit
+    # concept.magic above first, leaving Occupations to catch the rest.
+    (re.compile(r"^Occupations$", re.IGNORECASE), "title"),
 
     # --- Lower-confidence / character-default patterns (fall last) ---
     # Specific character categories
@@ -1304,11 +1424,13 @@ def process_page(page_name, html_str, chapter_map, verbose=False):
 
     # Skip-category check: if categories say this is a Redirect / Disambiguation /
     # TV-only page, mark the page as such so callers can drop it from promotion.
-    if cat_hint == SKIP_CATEGORY:
+    # Also honor explicit per-page SKIP overrides (e.g. wiki-synthesis pages
+    # whose canonical sub-pages are already nodes).
+    if name_hint == SKIP_CATEGORY or cat_hint == SKIP_CATEGORY:
         # Surface skip status via index_record.skip_reason (not a real entity type).
         # Don't return early — still emit the page-index record so the skip is
         # visible in audits.
-        skip_reason = "category-skip"
+        skip_reason = "name-skip" if name_hint == SKIP_CATEGORY else "category-skip"
         entity_type_guess = "skip"
     elif not has_infobox:
         # Without infobox, prefer name_hint > cat_hint > unknown

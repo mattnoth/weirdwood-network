@@ -1,6 +1,6 @@
 ---
 name: "Chestnut tree"
-type: species
+type: object.food
 slug: chestnut-tree
 aliases: []
 confidence: tier-2
@@ -13,7 +13,7 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Chestnut tree is a species from the AWOIAF wiki.
+Chestnut tree is a food or drink from the AWOIAF wiki.
 
 ## Edges
 

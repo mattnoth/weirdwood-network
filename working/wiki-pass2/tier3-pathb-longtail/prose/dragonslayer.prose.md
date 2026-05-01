@@ -1,0 +1,11 @@
+## Origins
+
+According to tales, some [Warrior's Sons](wiki:Warrior's_Sons) were dragonslayers.(wiki:Dragonslayer.cite_ref-Raffc28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
+In [10 AC](wiki:10_AC) at the [Hellholt](wiki:Hellholt), an [iron](wiki:Iron) bolt from a scorpion was shot through [Meraxes](wiki:Meraxes)'s eye. The dragon fell from the sky with her rider, Queen [Rhaenys Targaryen](wiki:Rhaenys_Targaryen), destroying half the castle.(wiki:Dragonslayer.cite_ref-Rfabreign_of_the_dragon_-_the_wars_of_king_aegon_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+In [130 AC](wiki:130_AC), several dragons were slain during the [storming of the Dragonpit](wiki:Storming_of_the_Dragonpit), some of them by the [Shepherd](wiki:Shepherd)'s "[lambs](wiki:Barefoot_lambs)".(wiki:Dragonslayer.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) Following the [Second Battle of Tumbleton](wiki:Second_Battle_of_Tumbleton), [Tessarion](wiki:Tessarion) was greatly wounded from her fight with other dragons. Lord [Benjicot Blackwood](wiki:Benjicot_Blackwood) ordered his best archer, [Billy Burley](wiki:Billy_Burley), to [mercy kill](wiki:Gift_of_mercy) the dragon, and Billy fired three shafts through her eye.(wiki:Dragonslayer.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)(wiki:Dragonslayer.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+In [135 AC](wiki:135_AC), the cradle [egg](wiki:Dragon_egg) of the infant [Laena Velaryon](wiki:Laena_Velaryon_(daughter_of_Alyn)) hatched into a blind, wingless [wyrm](wiki:Wyrm) that immediately attacked her, and was in return killed by her father, Lord [Alyn Velaryon](wiki:Alyn_Velaryon).(wiki:Dragonslayer.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
+
+## Quotes
+
+It is no easy thing to slay a dragon, but it can be done.(wiki:Dragonslayer.cite_ref-Rasos8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0)
+Who do you think killed all the dragons the last time around? Gallant dragonslayers armed with swords?(wiki:Dragonslayer.cite_ref-Raffc45.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0)

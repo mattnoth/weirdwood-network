@@ -1,6 +1,6 @@
 ---
 name: "Lemon"
-type: species
+type: object.food
 slug: lemon
 aliases: []
 confidence: tier-2
@@ -13,7 +13,7 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Lemon is a species from the AWOIAF wiki.
+Lemon is a food or drink from the AWOIAF wiki.
 
 ## Edges
 

@@ -1,6 +1,6 @@
 ---
 name: "Apple"
-type: species
+type: object.food
 slug: apple
 aliases: []
 confidence: tier-2
@@ -13,7 +13,7 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Apple is a species from the AWOIAF wiki.
+Apple is a food or drink from the AWOIAF wiki.
 
 ## Edges
 

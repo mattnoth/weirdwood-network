@@ -93,6 +93,7 @@ TYPE_DIR_MAP: dict[str, str] = {
     "object.artifact": "artifacts",
     "object.text": "texts",
     "object.food": "foods",
+    "object.material": "materials",
     # Event leaves
     "event.battle": "events",
     "event.tournament": "events",
@@ -107,6 +108,9 @@ TYPE_DIR_MAP: dict[str, str] = {
     "concept.magic": "concepts",
     "concept.prophecy": "prophecies",
     "concept.theory": "theories",
+    "concept.language": "languages",
+    "concept.medical": "medical",
+    "concept.custom": "customs",
     # Top-level
     "species": "species",
     "title": "titles",
