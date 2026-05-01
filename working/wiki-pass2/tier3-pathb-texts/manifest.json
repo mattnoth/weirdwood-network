@@ -1,0 +1,613 @@
+{
+  "bucket_id": "tier3-pathb-texts",
+  "tier": "secondary",
+  "tier_default": "tier-2",
+  "prompt_version": "v1-python",
+  "created_at": "2026-05-01T05:15:56.078077+00:00",
+  "status": "pending",
+  "started_at": null,
+  "completed_at": null,
+  "validation_report": null,
+  "pages": [
+    {
+      "page": "A Cask of Ale",
+      "slug": "a-cask-of-ale"
+    },
+    {
+      "page": "A Caution for Young Girls",
+      "slug": "a-caution-for-young-girls"
+    },
+    {
+      "page": "A Consideration of History",
+      "slug": "a-consideration-of-history"
+    },
+    {
+      "page": "A Rose of Gold",
+      "slug": "a-rose-of-gold"
+    },
+    {
+      "page": "A Thousand Eyes, and One",
+      "slug": "a-thousand-eyes-and-one"
+    },
+    {
+      "page": "Against the Unnatural",
+      "slug": "against-the-unnatural"
+    },
+    {
+      "page": "Alysanne (song)",
+      "slug": "alysanne-song"
+    },
+    {
+      "page": "Annals of the Black Centaur",
+      "slug": "annals-of-the-black-centaur"
+    },
+    {
+      "page": "Annals of the Rivers",
+      "slug": "annals-of-the-rivers"
+    },
+    {
+      "page": "Autumn of My Day",
+      "slug": "autumn-of-my-day"
+    },
+    {
+      "page": "Bastard Born",
+      "slug": "bastard-born"
+    },
+    {
+      "page": "Battle of Bitter River",
+      "slug": "battle-of-bitter-river"
+    },
+    {
+      "page": "Battles and Sieges of the Century of Blood",
+      "slug": "battles-and-sieges-of-the-century-of-blood"
+    },
+    {
+      "page": "Before the Dragons",
+      "slug": "before-the-dragons"
+    },
+    {
+      "page": "Bessa the Barmaid",
+      "slug": "bessa-the-barmaid"
+    },
+    {
+      "page": "Black Pines",
+      "slug": "black-pines"
+    },
+    {
+      "page": "Black Wings, Swift Words",
+      "slug": "black-wings-swift-words"
+    },
+    {
+      "page": "Blood and Fire",
+      "slug": "blood-and-fire"
+    },
+    {
+      "page": "Books of Law",
+      "slug": "books-of-law"
+    },
+    {
+      "page": "Brave Danny Flint",
+      "slug": "brave-danny-flint"
+    },
+    {
+      "page": "Children of Summer",
+      "slug": "children-of-summer"
+    },
+    {
+      "page": "Chronicles of Maidenpool",
+      "slug": "chronicles-of-maidenpool"
+    },
+    {
+      "page": "Conjectures",
+      "slug": "conjectures"
+    },
+    {
+      "page": "Deremond",
+      "slug": "deremond"
+    },
+    {
+      "page": "Dragonkin, Being a History of House Targaryen from Exile to Apotheosis, with a Consideration of the Life and Death of Dragons",
+      "slug": "dragonkin-being-a-history-of-house-targaryen-from-exile-to-apotheosis-with-a-consideration-of-the-life-and-death-of-dragons"
+    },
+    {
+      "page": "Dragons, Wyrms, and Wyverns: Their Unnatural History",
+      "slug": "dragons-wyrms-and-wyverns-their-unnatural-history"
+    },
+    {
+      "page": "Etched in Stone",
+      "slug": "etched-in-stone"
+    },
+    {
+      "page": "Fair Maids of Summer",
+      "slug": "fair-maids-of-summer"
+    },
+    {
+      "page": "Fallen Leaves",
+      "slug": "fallen-leaves"
+    },
+    {
+      "page": "Farewell, My Brother",
+      "slug": "farewell-my-brother"
+    },
+    {
+      "page": "Fifty-Four Tuns",
+      "slug": "fifty-four-tuns"
+    },
+    {
+      "page": "Fire & Blood, Being a History of the Targaryen Kings of Westeros",
+      "slug": "fire-blood-being-a-history-of-the-targaryen-kings-of-westeros"
+    },
+    {
+      "page": "Fire Upon the Grass",
+      "slug": "fire-upon-the-grass"
+    },
+    {
+      "page": "Flowers of Spring",
+      "slug": "flowers-of-spring"
+    },
+    {
+      "page": "For hands of gold are always cold, but a woman's hands are warm",
+      "slug": "for-hands-of-gold-are-always-cold-but-a-womans-hands-are-warm"
+    },
+    {
+      "page": "Hard as Oak",
+      "slug": "hard-as-oak"
+    },
+    {
+      "page": "Hardhome: An Account of Three Years Spent Beyond-the-Wall among Savages, Raiders, and Woods-witches",
+      "slug": "hardhome-an-account-of-three-years-spent-beyond-the-wall-among-savages-raiders-and-woods-witches"
+    },
+    {
+      "page": "Her Little Flower",
+      "slug": "her-little-flower"
+    },
+    {
+      "page": "History of the Ironborn",
+      "slug": "history-of-the-ironborn"
+    },
+    {
+      "page": "History of the Kings-Beyond-the-Wall",
+      "slug": "history-of-the-kings-beyond-the-wall"
+    },
+    {
+      "page": "History of the Rhoynish Wars",
+      "slug": "history-of-the-rhoynish-wars"
+    },
+    {
+      "page": "Horse Tribes, Being a Study of the Nomads of the Eastern Plains of Essos",
+      "slug": "horse-tribes-being-a-study-of-the-nomads-of-the-eastern-plains-of-essos"
+    },
+    {
+      "page": "Inventories",
+      "slug": "inventories"
+    },
+    {
+      "page": "Iron Chronicle",
+      "slug": "iron-chronicle"
+    },
+    {
+      "page": "Iron Lances",
+      "slug": "iron-lances"
+    },
+    {
+      "page": "Jade Compendium",
+      "slug": "jade-compendium"
+    },
+    {
+      "page": "Jenny's song",
+      "slug": "jennys-song"
+    },
+    {
+      "page": "Journals",
+      "slug": "journals"
+    },
+    {
+      "page": "Justice and Injustice in the North: Judgments of Three Stark Lords",
+      "slug": "justice-and-injustice-in-the-north-judgments-of-three-stark-lords"
+    },
+    {
+      "page": "Kin of the Stag",
+      "slug": "kin-of-the-stag"
+    },
+    {
+      "page": "Kingdoms of the Sky",
+      "slug": "kingdoms-of-the-sky"
+    },
+    {
+      "page": "Let Me Drink Your Beauty",
+      "slug": "let-me-drink-your-beauty"
+    },
+    {
+      "page": "Lies of the Ancients",
+      "slug": "lies-of-the-ancients"
+    },
+    {
+      "page": "Life of the Grand Maester Aethelmure",
+      "slug": "life-of-the-grand-maester-aethelmure"
+    },
+    {
+      "page": "Lives of Four Kings",
+      "slug": "lives-of-four-kings"
+    },
+    {
+      "page": "Lives of the High Septons",
+      "slug": "lives-of-the-high-septons"
+    },
+    {
+      "page": "Lord Harte Rode Out on a Rainy Day",
+      "slug": "lord-harte-rode-out-on-a-rainy-day"
+    },
+    {
+      "page": "Lord Renly's Ride",
+      "slug": "lord-renlys-ride"
+    },
+    {
+      "page": "Lun the Last",
+      "slug": "lun-the-last"
+    },
+    {
+      "page": "Maiden, Mother, and Crone",
+      "slug": "maiden-mother-and-crone"
+    },
+    {
+      "page": "Marcher ballads",
+      "slug": "marcher-ballads"
+    },
+    {
+      "page": "Meggett Was a Merry Maid, a Merry Maid Was She",
+      "slug": "meggett-was-a-merry-maid-a-merry-maid-was-she"
+    },
+    {
+      "page": "Milady's Supper",
+      "slug": "miladys-supper"
+    },
+    {
+      "page": "Mountain and Vale",
+      "slug": "mountain-and-vale"
+    },
+    {
+      "page": "My Lady Wife",
+      "slug": "my-lady-wife"
+    },
+    {
+      "page": "Observations Upon the Recent Blood-Letting on the Stepstones",
+      "slug": "observations-upon-the-recent-blood-letting-on-the-stepstones"
+    },
+    {
+      "page": "Off to Gulltown",
+      "slug": "off-to-gulltown"
+    },
+    {
+      "page": "Oh, Lay My Sweet Lass Down in the Grass",
+      "slug": "oh-lay-my-sweet-lass-down-in-the-grass"
+    },
+    {
+      "page": "Old Places of the Trident",
+      "slug": "old-places-of-the-trident"
+    },
+    {
+      "page": "On Miasmas",
+      "slug": "on-miasmas"
+    },
+    {
+      "page": "On a Misty Morn",
+      "slug": "on-a-misty-morn"
+    },
+    {
+      "page": "Passages of the Dead",
+      "slug": "passages-of-the-dead"
+    },
+    {
+      "page": "Questions",
+      "slug": "questions"
+    },
+    {
+      "page": "Red Book",
+      "slug": "red-book"
+    },
+    {
+      "page": "Red Sands",
+      "slug": "red-sands"
+    },
+    {
+      "page": "Remnants of the Dragonlords",
+      "slug": "remnants-of-the-dragonlords"
+    },
+    {
+      "page": "Ride of the Seven",
+      "slug": "ride-of-the-seven"
+    },
+    {
+      "page": "Rubies and Iron",
+      "slug": "rubies-and-iron"
+    },
+    {
+      "page": "Ruined Cities, Stolen Gods",
+      "slug": "ruined-cities-stolen-gods"
+    },
+    {
+      "page": "Sea Demons: A History of the Children of the Drowned God of the Isles",
+      "slug": "sea-demons-a-history-of-the-children-of-the-drowned-god-of-the-isles"
+    },
+    {
+      "page": "Seven Swords for Seven Sons",
+      "slug": "seven-swords-for-seven-sons"
+    },
+    {
+      "page": "Signs and Portents",
+      "slug": "signs-and-portents"
+    },
+    {
+      "page": "Six Maids in a Pool",
+      "slug": "six-maids-in-a-pool"
+    },
+    {
+      "page": "Six Sorrows",
+      "slug": "six-sorrows"
+    },
+    {
+      "page": "Six Times to Sea: Being an Account of the Great Voyages of Alyn Oakenfist",
+      "slug": "six-times-to-sea-being-an-account-of-the-great-voyages-of-alyn-oakenfist"
+    },
+    {
+      "page": "Song of the Sea: How the Lands Were Severed",
+      "slug": "song-of-the-sea-how-the-lands-were-severed"
+    },
+    {
+      "page": "Songs the Drowned Men Sing",
+      "slug": "songs-the-drowned-men-sing"
+    },
+    {
+      "page": "Steel Rain",
+      "slug": "steel-rain"
+    },
+    {
+      "page": "Strange Stone",
+      "slug": "strange-stone"
+    },
+    {
+      "page": "Summer and Winter Annals",
+      "slug": "summer-and-winter-annals"
+    },
+    {
+      "page": "Ten Thousand Ships",
+      "slug": "ten-thousand-ships"
+    },
+    {
+      "page": "The Bear and the Maiden Fair",
+      "slug": "the-bear-and-the-maiden-fair"
+    },
+    {
+      "page": "The Bloody Cup",
+      "slug": "the-bloody-cup"
+    },
+    {
+      "page": "The Book of Holy Prayer",
+      "slug": "the-book-of-holy-prayer"
+    },
+    {
+      "page": "The Book of Lost Books",
+      "slug": "the-book-of-lost-books"
+    },
+    {
+      "page": "The Burning of the Ships",
+      "slug": "the-burning-of-the-ships"
+    },
+    {
+      "page": "The Chronicles of Longsister",
+      "slug": "the-chronicles-of-longsister"
+    },
+    {
+      "page": "The Dance of the Dragons, A True Telling",
+      "slug": "the-dance-of-the-dragons-a-true-telling"
+    },
+    {
+      "page": "The Dance of the Dragons",
+      "slug": "the-dance-of-the-dragons"
+    },
+    {
+      "page": "The Day They Hanged Black Robin",
+      "slug": "the-day-they-hanged-black-robin"
+    },
+    {
+      "page": "The Dornishman's Wife",
+      "slug": "the-dornishmans-wife"
+    },
+    {
+      "page": "The Edge of the World",
+      "slug": "the-edge-of-the-world"
+    },
+    {
+      "page": "The End of the Tall Men",
+      "slug": "the-end-of-the-tall-men"
+    },
+    {
+      "page": "The False and the Fair",
+      "slug": "the-false-and-the-fair"
+    },
+    {
+      "page": "The Fires of the Freehold",
+      "slug": "the-fires-of-the-freehold"
+    },
+    {
+      "page": "The Glory of Volantis",
+      "slug": "the-glory-of-volantis"
+    },
+    {
+      "page": "The King Without Courage",
+      "slug": "the-king-without-courage"
+    },
+    {
+      "page": "The Last of the Giants",
+      "slug": "the-last-of-the-giants"
+    },
+    {
+      "page": "The Life of the Triarch Belicho",
+      "slug": "the-life-of-the-triarch-belicho"
+    },
+    {
+      "page": "The Lineages and Histories of the Great Houses of the Seven Kingdoms",
+      "slug": "the-lineages-and-histories-of-the-great-houses-of-the-seven-kingdoms"
+    },
+    {
+      "page": "The Loves of Queen Nymeria",
+      "slug": "the-loves-of-queen-nymeria"
+    },
+    {
+      "page": "The Lusty Lad",
+      "slug": "the-lusty-lad"
+    },
+    {
+      "page": "The Measure of the Days",
+      "slug": "the-measure-of-the-days"
+    },
+    {
+      "page": "The Mermaid's Lament",
+      "slug": "the-mermaids-lament"
+    },
+    {
+      "page": "The Mother's Tears",
+      "slug": "the-mothers-tears"
+    },
+    {
+      "page": "The Name Day Boy",
+      "slug": "the-name-day-boy"
+    },
+    {
+      "page": "The Night That Ended",
+      "slug": "the-night-that-ended"
+    },
+    {
+      "page": "The Nine Voyages",
+      "slug": "the-nine-voyages"
+    },
+    {
+      "page": "The Origins of the Iron Bank and Braavos",
+      "slug": "the-origins-of-the-iron-bank-and-braavos"
+    },
+    {
+      "page": "The Queen Took Off Her Sandal, the King Took Off His Crown",
+      "slug": "the-queen-took-off-her-sandal-the-king-took-off-his-crown"
+    },
+    {
+      "page": "The Rains of Castamere",
+      "slug": "the-rains-of-castamere"
+    },
+    {
+      "page": "The Reckoning of Time",
+      "slug": "the-reckoning-of-time"
+    },
+    {
+      "page": "The Red Dragon and the Black",
+      "slug": "the-red-dragon-and-the-black"
+    },
+    {
+      "page": "The Reign of King Viserys, First of His Name, and the Dance of the Dragons That Came After",
+      "slug": "the-reign-of-king-viserys-first-of-his-name-and-the-dance-of-the-dragons-that-came-after"
+    },
+    {
+      "page": "The Roadside Rose",
+      "slug": "the-roadside-rose"
+    },
+    {
+      "page": "The Rogue Prince, or, A King's Brother",
+      "slug": "the-rogue-prince-or-a-kings-brother"
+    },
+    {
+      "page": "The Seasons of My Love",
+      "slug": "the-seasons-of-my-love"
+    },
+    {
+      "page": "The Seven-Pointed Star",
+      "slug": "the-seven-pointed-star"
+    },
+    {
+      "page": "The Song of the Seven",
+      "slug": "the-song-of-the-seven"
+    },
+    {
+      "page": "The Sons of the Dragon (Gyldayn)",
+      "slug": "the-sons-of-the-dragon-gyldayn"
+    },
+    {
+      "page": "The Testimony of Mushroom",
+      "slug": "the-testimony-of-mushroom"
+    },
+    {
+      "page": "The Vow Unspoken",
+      "slug": "the-vow-unspoken"
+    },
+    {
+      "page": "The Winter Maid",
+      "slug": "the-winter-maid"
+    },
+    {
+      "page": "The World of Ice & Fire (Yandel)",
+      "slug": "the-world-of-ice-fire-yandel"
+    },
+    {
+      "page": "The hammer and the anvil",
+      "slug": "the-hammer-and-the-anvil"
+    },
+    {
+      "page": "Triumphs and Defeats",
+      "slug": "triumphs-and-defeats"
+    },
+    {
+      "page": "True Account of Addam of Duskendale's Journeys",
+      "slug": "true-account-of-addam-of-duskendales-journeys"
+    },
+    {
+      "page": "True History",
+      "slug": "true-history"
+    },
+    {
+      "page": "Truth (book)",
+      "slug": "truth-book"
+    },
+    {
+      "page": "Tyrion Lannister's dragonlore",
+      "slug": "tyrion-lannisters-dragonlore"
+    },
+    {
+      "page": "Watchers on the Wall",
+      "slug": "watchers-on-the-wall"
+    },
+    {
+      "page": "Wed to the Sea, Being an Account of the History of White Harbor from Its Earliest Days",
+      "slug": "wed-to-the-sea-being-an-account-of-the-history-of-white-harbor-from-its-earliest-days"
+    },
+    {
+      "page": "When Willum's Wife Was Wet",
+      "slug": "when-willums-wife-was-wet"
+    },
+    {
+      "page": "When Women Ruled: Ladies of the Aftermath",
+      "slug": "when-women-ruled-ladies-of-the-aftermath"
+    },
+    {
+      "page": "White Book",
+      "slug": "white-book"
+    },
+    {
+      "page": "Winter's Kings, or the Legends and Lineages of the Starks of Winterfell",
+      "slug": "winters-kings-or-the-legends-and-lineages-of-the-starks-of-winterfell"
+    },
+    {
+      "page": "Wolf in the Night",
+      "slug": "wolf-in-the-night"
+    },
+    {
+      "page": "Wolves in the Hills",
+      "slug": "wolves-in-the-hills"
+    },
+    {
+      "page": "Wonders",
+      "slug": "wonders"
+    },
+    {
+      "page": "Wonders Made by Man",
+      "slug": "wonders-made-by-man"
+    }
+  ]
+}

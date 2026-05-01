@@ -1,0 +1,19 @@
+---
+name: "The Edge of the World"
+type: object.text
+slug: the-edge-of-the-world
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/The_Edge_of_the_World"
+bucket_id: tier3-pathb-texts
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+The Edge of the World is a text/book/song from the AWOIAF wiki.
+
+## Edges
+

@@ -1,0 +1,45 @@
+---
+name: "The Seven-Pointed Star"
+type: object.text
+slug: the-seven-pointed-star
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/The_Seven-Pointed_Star"
+bucket_id: tier3-pathb-texts
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+The Seven-Pointed Star is a text/book/song from the AWOIAF wiki.
+
+## Edges
+
+
+## Origins
+
+During the [Faith Militant uprising](wiki:Faith_Militant_uprising), Septon [Moon](wiki:Moon_(septon)) proudly boasted The Seven-Pointed Star was the only book he ever read, whilst [Lorcas the Learned](wiki:Lorcas_the_Learned) claimed he committed the holy book to memory.(wiki:The_Seven-Pointed_Star.cite_ref-Rfabprince_to_king_-_the_ascension_of_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_12-0)
+The [Wise Women](wiki:Wise_Women) cited from The Seven-Pointed Star to Princess [Alysanne Targaryen](wiki:Alysanne_Targaryen) to dissuade her from marrying her brother, Prince [Jaehaerys Targaryen](wiki:Jaehaerys_Targaryen).(wiki:The_Seven-Pointed_Star.cite_ref-Rfaba_surfeit_of_rulers.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_13-0)
+King [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen) looked to The Seven-Pointed Star for guidance.(wiki:The_Seven-Pointed_Star.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1) With the help of Septons [Barth](wiki:Barth) and [Oswyck](wiki:Oswyck), he pushed the idea of the [Targaryens](wiki:House_Targaryen) being [different](wiki:Doctrine_of_Exceptionalism) than the people they rule over.(wiki:The_Seven-Pointed_Star.cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-1) The [Seven Speakers](wiki:Seven_Speakers) were sent throughout [Westeros](wiki:Westeros) to win the [smallfolk](wiki:Smallfolk) over, sometimes using passages of The Seven-Pointed Star in their advocacy.(wiki:The_Seven-Pointed_Star.cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-2)
+In her youth, Princess [Maegelle Targaryen](wiki:Maegelle_Targaryen) read from The Seven-Pointed Star every night before sleep.(wiki:The_Seven-Pointed_Star.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)
+Princess [Daella Targaryen](wiki:Daella_Targaryen) was so shy that she cried when her [septa](wiki:Septa) asked her to read aloud from The Seven-Pointed Star.(wiki:The_Seven-Pointed_Star.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-2)
+At the beginning of the [Dance of the Dragons](wiki:Dance_of_the_Dragons), Queen [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen) refused to send her sons, Princes [Jacaerys](wiki:Jacaerys_Velaryon) and [Lucerys Velaryon](wiki:Lucerys_Velaryon), as envoys, but later accepted when they both swore a solemn oath upon a copy of The Seven-Pointed Star to take no part in any fighting.(wiki:The_Seven-Pointed_Star.cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_14-0)
+Queen [Naerys Targaryen](wiki:Naerys_Targaryen) was devout in her faith, and often found solace in the pages of The Seven-Pointed Star.(wiki:The_Seven-Pointed_Star.cite_ref-15)
+When [Tyene Sand](wiki:Tyene_Sand) was an infant, her mother, a septa, read to her from The Seven-Pointed Star.(wiki:The_Seven-Pointed_Star.cite_ref-Radwd38.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_16-0)
+
+## Narrative Arc
+
+### A Feast for Crows[ ]
+
+Septon [Meribald](wiki:Meribald) cannot read or write, but he knows The Seven-Pointed Star by memory.(wiki:The_Seven-Pointed_Star.cite_ref-Raffc25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+Brother [Narbert](wiki:Narbert) and another [proctor](wiki:Proctor) take turns reading from The Seven-Pointed Star whilst supper is served for the other residents of the [septry](wiki:Septry) on the [Quiet Isle](wiki:Quiet_Isle).(wiki:The_Seven-Pointed_Star.cite_ref-Raffc31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_17-0)
+During her imprisonment in the [Spear Tower](wiki:Spear_Tower), Princess [Arianne Martell](wiki:Arianne_Martell) tears a page of The Seven-Pointed Star to smuggle a letter out with the help of her servant [Cedra](wiki:Cedra).(wiki:The_Seven-Pointed_Star.cite_ref-Raffc40.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_18-0)
+A copy of The Seven-Pointed Star is given to Queen [Margaery Tyrell](wiki:Margaery_Tyrell) during her imprisonment in one of the tower cells of the [Great Sept of Baelor](wiki:Great_Sept_of_Baelor).(wiki:The_Seven-Pointed_Star.cite_ref-Raffc43.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-1)
+
+### A Dance with Dragons[ ]
+
+[Tyrion Lannister](wiki:Tyrion_Lannister) recalls passages from The Seven-Pointed Star during his travel to [Ghoyan Drohe](wiki:Ghoyan_Drohe) with Magister [Illyrio Mopatis](wiki:Illyrio_Mopatis).(wiki:The_Seven-Pointed_Star.cite_ref-Radwd5.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+[Therry](wiki:Therry) gives Ser [Davos Seaworth](wiki:Davos_Seaworth) a copy of The Seven-Pointed Star when he asks for a book to read during his imprisonment in the [Wolf's Den](wiki:Wolf's_Den).(wiki:The_Seven-Pointed_Star.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_19-0)
+Septa [Scolera](wiki:Scolera) sometimes reads from The Seven-Pointed Star to [Cersei Lannister](wiki:Cersei_Lannister) during her imprisonment in the Great Sept of Baelor.(wiki:The_Seven-Pointed_Star.cite_ref-Radwd54.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_20-0)

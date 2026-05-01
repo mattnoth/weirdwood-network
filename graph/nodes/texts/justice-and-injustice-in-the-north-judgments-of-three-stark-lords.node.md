@@ -1,0 +1,19 @@
+---
+name: "Justice and Injustice in the North: Judgments of Three Stark Lords"
+type: object.text
+slug: justice-and-injustice-in-the-north-judgments-of-three-stark-lords
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Justice_and_Injustice_in_the_North:_Judgments_of_Three_Stark_Lords"
+bucket_id: tier3-pathb-texts
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Justice and Injustice in the North: Judgments of Three Stark Lords is a text/book/song from the AWOIAF wiki.
+
+## Edges
+
