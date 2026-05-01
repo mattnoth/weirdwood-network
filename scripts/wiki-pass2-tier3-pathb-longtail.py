@@ -47,9 +47,12 @@ GRAPH_LANGUAGES_DIR = PROJECT_ROOT / "graph" / "nodes" / "languages"
 GRAPH_MEDICAL_DIR = PROJECT_ROOT / "graph" / "nodes" / "medical"
 GRAPH_CUSTOMS_DIR = PROJECT_ROOT / "graph" / "nodes" / "customs"
 
-# concept.culture routes to factions/ per Pass B precedent (existing
-# culture nodes: first-men, ironborn, free-folk, dornishmen, etc.).
-# A future migration can split if a cultures/ directory is adopted.
+# concept.culture routes to factions/ — formalized 2026-05-02. Pass B
+# precedent: first-men, ironborn, free-folk, dornishmen, dothraki, etc.
+# already live there. Schema-drift audit (2026-05-02) flagged this as a
+# MED finding; Matt's call: keep factions/ as canonical home. Queries
+# filter by `type: concept.culture` regardless of directory; the dir is
+# filesystem convention only.
 TYPE_TO_DIR = {
     "title":            GRAPH_TITLES_DIR,
     "concept.magic":    GRAPH_CONCEPTS_DIR,
