@@ -1,0 +1,19 @@
+---
+name: "Vhagar (god)"
+type: organization.religion
+slug: vhagar-god
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Vhagar_(god)"
+bucket_id: tier3-pathb-orgs
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Vhagar (god) is a religion/faith from the AWOIAF wiki.
+
+## Edges
+

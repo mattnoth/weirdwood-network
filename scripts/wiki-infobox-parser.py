@@ -623,6 +623,10 @@ ENTITY_TYPE_OVERRIDES = {
     # Named artifacts without infoboxes
     "Iron Throne":                  "object.artifact",
     "Dragon egg":                   "object.artifact",
+    # Mystery-knight character (Lyanna Stark's secret identity at Harrenhal —
+    # R+L=J pillar). Wiki tags it as "Mystery knights" + "Terms" so
+    # neither categorizer nor name-pattern catches it. Override.
+    "Knight of the Laughing Tree":  "character.human",
 }
 
 # Regex patterns for page-name-based classification, evaluated AFTER the explicit
@@ -644,6 +648,9 @@ PAGE_NAME_TYPE_PATTERNS = [
     (re.compile(r'\bconquest\b', re.IGNORECASE), "event.war"),
     # "Invasion" patterns: Andal Invasion, etc.
     (re.compile(r'\binvasion\b', re.IGNORECASE), "event.war"),
+    # "Tourney" patterns: Ashford Tourney, Tourney at Harrenhal, etc.
+    # Catches pages without categories (Ashford Tourney has empty categories).
+    (re.compile(r'\btourney\b', re.IGNORECASE), "event.tournament"),
     # Guards pages: "House Bolton guards", "House Stark guards", etc.
     # These are house-guard contingents, not standalone houses — classify as
     # organization.faction. Added 2026-04-30 (Bug 3 fix, session 27 audit).
@@ -729,7 +736,9 @@ CATEGORY_TYPE_MAP = [
     (re.compile(r"^(Battles|Sieges|Skirmishes)$", re.IGNORECASE), "event.battle"),
     (re.compile(r"^(Wars|Rebellions|Conquests|Invasions|Campaigns|Conflicts|Crusades)$", re.IGNORECASE), "event.war"),
     (re.compile(r"^(Rhoynish Wars|Wars of Conquest|Dance of the Dragons)", re.IGNORECASE), "event.war"),
-    (re.compile(r"^Tournaments$", re.IGNORECASE), "event.battle"),  # tournaments are single-event-shaped
+    (re.compile(r"^(Tournaments|Tourneys)$", re.IGNORECASE), "event.tournament"),
+    (re.compile(r"^(Weddings|Assassinations|Massacres|Coronations|Funerals)$", re.IGNORECASE), "event.battle"),
+    (re.compile(r"^Events$", re.IGNORECASE), "event.battle"),
 
     # Places
     (re.compile(r"^(Castles|Keeps|Holdfasts|Towers|Strongholds|Fortresses|Forts|Watchtowers)", re.IGNORECASE), "place.location"),
@@ -740,13 +749,18 @@ CATEGORY_TYPE_MAP = [
     (re.compile(r"^(Islands|Mountains|Rivers|Seas|Bays|Forests|Lakes|Marshes|Plains|Hills|Valleys|Caves|Tunnels|Roads|Crossings|Fords|Passes|Ruins)$", re.IGNORECASE), "place.location"),
     (re.compile(r"^(Regions|Realms|Kingdoms|Continents|Territories)$", re.IGNORECASE), "place.region"),
     (re.compile(r"^Places (in|of) ", re.IGNORECASE), "place.location"),
+    # Streets, gates, halls, rooms — interior/exterior places
+    (re.compile(r"^Streets in ", re.IGNORECASE), "place.location"),
+    (re.compile(r"^(Halls|Gates|Squares|Plazas|Markets|Bridges|Wells|Gardens)$", re.IGNORECASE), "place.location"),
 
     # Organizations
     (re.compile(r"^Noble houses$", re.IGNORECASE), "organization.house"),
     (re.compile(r"^Houses ", re.IGNORECASE), "organization.house"),
     (re.compile(r"^Houses (with|without|from|of) ", re.IGNORECASE), "organization.house"),
     (re.compile(r"^(Knightly orders|Sworn brotherhoods|Sellsword companies|Mercenary companies|Guilds|Orders|Brotherhoods|Sisterhoods|Cults|Crews)$", re.IGNORECASE), "organization.faction"),
-    (re.compile(r"^(Religions|Religious orders|Faiths|Pantheons)$", re.IGNORECASE), "organization.religion"),
+    (re.compile(r"^Mountain clans of ", re.IGNORECASE), "organization.faction"),
+    (re.compile(r"^Organizations$", re.IGNORECASE), "organization.faction"),
+    (re.compile(r"^(Religions|Religious orders|Faiths|Pantheons|Deities|Gods|Goddesses)$", re.IGNORECASE), "organization.religion"),
     (re.compile(r"^Cultures$", re.IGNORECASE), "concept.culture"),
 
     # Species (biological types — NOT individuals)
@@ -755,6 +769,12 @@ CATEGORY_TYPE_MAP = [
     # Concepts
     (re.compile(r"^(Magic|Magical phenomena|Magical abilities|Magical objects)$", re.IGNORECASE), "concept.magic"),
     (re.compile(r"^(Prophecies|Prophetic dreams|Visions)$", re.IGNORECASE), "concept.prophecy"),
+    (re.compile(r"^(Theories|Theory)$", re.IGNORECASE), "concept.theory"),
+
+    # Catch-all for named objects (catches "Objects" + "Merchant ships" etc.
+    # that escaped the more specific Ships/Crowns/etc. patterns above)
+    (re.compile(r"^Objects$", re.IGNORECASE), "object.artifact"),
+    (re.compile(r"^Merchant ships$", re.IGNORECASE), "object.artifact"),
 
     # Titles
     (re.compile(r"^Titles$", re.IGNORECASE), "title"),

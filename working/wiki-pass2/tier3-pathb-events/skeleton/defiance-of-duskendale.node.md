@@ -1,0 +1,19 @@
+---
+name: "Defiance of Duskendale"
+type: event.battle
+slug: defiance-of-duskendale
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Defiance_of_Duskendale"
+bucket_id: tier3-pathb-events
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Defiance of Duskendale is a battle/event from the AWOIAF wiki.
+
+## Edges
+

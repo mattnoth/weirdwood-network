@@ -1,0 +1,45 @@
+---
+name: "Merman's Court"
+type: place.location
+slug: mermans-court
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Merman's_Court"
+bucket_id: tier3-pathb-locations
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Merman's Court is a location from the AWOIAF wiki.
+
+## Edges
+
+
+## Appearances & Description
+
+The walls, floor, and ceiling of the Merman's Court are made of wooden planks notched cunningly together and decorated with all the creatures of the sea. At one end is the entrance, and at the other is a dais with a large cushioned throne for [Wyman Manderly](wiki:Wyman_Manderly), [Lord of White Harbor](wiki:Lord_of_White_Harbor).(wiki:Merman's_Court.cite_ref-Radwd15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)
+The floor has painted [crabs](wiki:Crab) and clams and starfish, half-hidden amongst twisting black fronds of seaweed and the bones of drowned sailors. On the walls are pale [sharks](wiki:Shark) prowling painted blue-green depths, whilst [eels](wiki:Eel) and [octopods](wiki:Octopod) slither amongst rocks and sunken ships. Shoals of [herring](wiki:Herring) and great [codfish](wiki:Cod) swim between the tall, arched windows. Higher up, near where the old fishing nets droop down from the rafters, the surface of the sea is depicted. To the right a war galley rests serenely against the rising sun; to the left, a battered old cog races before a storm, her sails in rags. Behind the dais a [kraken](wiki:Kraken) and a grey [leviathan](wiki:Leviathan) are locked in battle beneath the painted waves.(wiki:Merman's_Court.cite_ref-Radwd15.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+## Origins
+
+In [58 AC](wiki:Years_after_Aegon's_Conquest), Queen [Alysanne Targaryen](wiki:Alysanne_Targaryen) made a [royal progress](wiki:Royal_progress) in the [north](wiki:North). She flew on her [dragon](wiki:Dragon), [Silverwing](wiki:Silverwing) to [White Harbor](wiki:White_Harbor) where she was hosted by Lord [Theomore Manderly](wiki:Theomore_Manderly). Theomore organised a feast in her honor in the Merman's Court. Days later, Alysanne held one of her [women's courts](wiki:Women's_courts) in Theomore's own hall.(wiki:Merman's_Court.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+At the start of the [Dance of the Dragons](wiki:Dance_of_the_Dragons), the [black council](wiki:Black_council) of Princess [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen) sent Prince [Jacaerys Velaryon](wiki:Jacaerys_Velaryon) on his dragon, [Vermax](wiki:Vermax), to the [Vale of Arryn](wiki:Vale_of_Arryn) and the north to sway its [lords](wiki:Lord) to [Rhaenyra's side](wiki:Blacks) in the war. On his way to [Winterfell](wiki:Winterfell), Jacaerys stopped at White Harbor and was received at the Merman's Court by Lord [Desmond Manderly](wiki:Desmond_Manderly).(wiki:Merman's_Court.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+In [136 AC](wiki:136_AC), Lord [Torrhen Manderly](wiki:Torrhen_Manderly) returned home after being dismissed from his position of [Hand of the King](wiki:Hand_of_the_King) by King [Aegon III Targaryen](wiki:Aegon_III_Targaryen). Before leaving the capital, he offered the [court fool](wiki:Court_fool), [Mushroom](wiki:Mushroom), to become a fool at his own court, which the [dwarf](wiki:Dwarf) accepted.(wiki:Merman's_Court.cite_ref-Rfabthe_lysene_spring_and_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+
+## Narrative Arc
+
+### A Game of Thrones[ ]
+
+Lady [Catelyn Stark](wiki:Catelyn_Stark) is received by Lord [Wyman Manderly](wiki:Wyman_Manderly) when she arrives at White Harbor during her return from the [Vale of Arryn](wiki:Vale_of_Arryn). Wyman sends his two sons, Ser [Wylis](wiki:Wylis_Manderly) and Ser [Wendel Manderly](wiki:Wendel_Manderly), as well as near fifteen hundred men to escort her to the encampment of her son, [Robb Stark](wiki:Robb_Stark), at [Moat Cailin](wiki:Moat_Cailin).(wiki:Merman's_Court.cite_ref-Ragot55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
+
+### A Dance with Dragons[ ]
+
+Lord [Davos Seaworth](wiki:Davos_Seaworth) arrives in White Harbor to treat with Lord Wyman on behalf of [Stannis Baratheon](wiki:Stannis_Baratheon). He is brought before Wyman in the Merman's Court where a large audience is present, including Ser [Jared](wiki:Jared_Frey), [Symond](wiki:Symond_Frey), and [Rhaegar Frey](wiki:Rhaegar_Frey), three envoys from the [Twins](wiki:Twins). After Wyman hears Davos's plea to join Stannis's cause, he orders his cousin, Ser [Marlon Manderly](wiki:Marlon_Manderly), to have Davos executed in the [Wolf's Den](wiki:Wolf's_Den).(wiki:Merman's_Court.cite_ref-Radwd19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) Davos is secretly imprisoned, however, and another prisoner is executed instead.(wiki:Merman's_Court.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+When Wyman's heir, Ser [Wylis Manderly](wiki:Wylis_Manderly), safely returns to White Harbor, a feast is held in celebration in the Merman's Court. [Lamprey](wiki:Lamprey) pie, venison with roasted chestnuts, and [wine](wiki:Wine) are served. Fiddlers and pipers provide music, and [Wynafryd Manderly](wiki:Wynafryd_Manderly) dances with Rhaegar Frey. Lord Wyman excuses himself from the feast, but instead of going to the privy he secretly meets with [Robett Glover](wiki:Robett_Glover) and the freed Davos in another room of the [New Castle](wiki:New_Castle).(wiki:Merman's_Court.cite_ref-Radwd29.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
+
+## Quotes
+
+You stand before [Wyman Manderly](wiki:Wyman_Manderly), [Lord of White Harbor](wiki:Lord_of_White_Harbor) and [Warden of the White Knife](wiki:Warden_of_the_White_Knife), [Shield of the Faith](wiki:Shield_of_the_Faith), [Defender of the Dispossessed](wiki:Defender_of_the_Dispossessed), [Lord Marshal of the Mander](wiki:Lord_Marshal_of_the_Mander), a Knight of the [Order of the Green Hand](wiki:Order_of_the_Green_Hand). In the Merman's Court, it is customary for vassals and petitioners to kneel.(wiki:Merman's_Court.cite_ref-Radwd19.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-1)

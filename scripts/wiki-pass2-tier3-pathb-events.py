@@ -44,7 +44,7 @@ BUCKET_ID = "tier3-pathb-events"
 # Default node type written into skeletons; the per-page type from
 # page-index.jsonl overrides this (place.location vs place.region).
 NODE_TYPE_DEFAULT = "event.battle"
-TARGET_TYPES = {"event.battle", "event.war"}
+TARGET_TYPES = {"event.battle", "event.war", "event.tournament"}
 DEST_DIR = GRAPH_EVENTS_DIR
 
 # False positives from the parser's \bwar\b / \bconquest\b name patterns.
@@ -177,6 +177,8 @@ def render_skeleton(
 
     if entity_type == "event.war":
         identity_line = f"{page_name} is a war from the AWOIAF wiki."
+    elif entity_type == "event.tournament":
+        identity_line = f"{page_name} is a tournament/tourney from the AWOIAF wiki."
     else:
         identity_line = f"{page_name} is a battle/event from the AWOIAF wiki."
 

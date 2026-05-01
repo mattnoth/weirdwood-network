@@ -3,606 +3,236 @@
   "tier": "secondary",
   "tier_default": "tier-2",
   "prompt_version": "v1-python",
-  "created_at": "2026-05-01T14:37:46.363556+00:00",
+  "created_at": "2026-05-01T14:49:54.878822+00:00",
   "status": "pending",
   "started_at": null,
   "completed_at": null,
   "validation_report": null,
   "pages": [
     {
-      "page": "Acolyte (Alchemists' Guild)",
-      "slug": "acolyte-alchemists-guild",
-      "type": "title"
+      "page": "Aegon Targaryen (son of Rhaegar)/Theories",
+      "slug": "aegon-targaryen-son-of-rhaegar-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Aeromancer",
-      "slug": "aeromancer",
-      "type": "concept.magic"
+      "page": "Alleras/Theories",
+      "slug": "alleras-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Alchemy",
-      "slug": "alchemy",
-      "type": "concept.magic"
+      "page": "Azor Ahai/Theories",
+      "slug": "azor-ahai-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Archon",
-      "slug": "archon",
-      "type": "title"
+      "page": "Balon Greyjoy/Theories",
+      "slug": "balon-greyjoy-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Bloodmage",
-      "slug": "bloodmage",
-      "type": "concept.magic"
+      "page": "Bastard Letter/Theories",
+      "slug": "bastard-letter-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Bloodmagic",
-      "slug": "bloodmagic",
-      "type": "concept.magic"
+      "page": "Ben Plumm/Theories",
+      "slug": "ben-plumm-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Breaking",
-      "slug": "breaking",
-      "type": "concept.magic"
+      "page": "Brienne of Tarth/Theories",
+      "slug": "brienne-of-tarth-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Cave dwellers",
-      "slug": "cave-dwellers",
-      "type": "concept.culture"
+      "page": "Brotherhood without banners/Theories",
+      "slug": "brotherhood-without-banners-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Centaurs",
-      "slug": "centaurs",
-      "type": "species"
+      "page": "Coldhands/Theories",
+      "slug": "coldhands-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Chief Gaoler (Red Keep)",
-      "slug": "chief-gaoler-red-keep",
-      "type": "title"
+      "page": "Death of Laenor Velaryon and Harwin Strong/Theories",
+      "slug": "death-of-laenor-velaryon-and-harwin-strong-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Court singer",
-      "slug": "court-singer",
-      "type": "title"
+      "page": "Donnel Hill/Theories",
+      "slug": "donnel-hill-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Crownlands men",
-      "slug": "crownlands-men",
-      "type": "concept.culture"
+      "page": "Dragon egg/Theories",
+      "slug": "dragon-egg-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Deep Ones",
-      "slug": "deep-ones",
-      "type": "species"
+      "page": "Frey Pies/Theories",
+      "slug": "frey-pies-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Demonhunter",
-      "slug": "demonhunter",
-      "type": "concept.magic"
+      "page": "Gravedigger/Theories",
+      "slug": "gravedigger-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Demons",
-      "slug": "demons",
-      "type": "species"
+      "page": "Great Council of 101 AC/Theories",
+      "slug": "great-council-of-101-ac-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Dragon dreams",
-      "slug": "dragon-dreams",
-      "type": "concept.magic"
+      "page": "Harpy/Theories",
+      "slug": "harpy-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Dragonglass",
-      "slug": "dragonglass",
-      "type": "concept.magic"
+      "page": "Hodor/Theories",
+      "slug": "hodor-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Dreams and prophecies",
-      "slug": "dreams-and-prophecies",
-      "type": "concept.magic"
+      "page": "Hooded man/Theories",
+      "slug": "hooded-man-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Empress of Leng",
-      "slug": "empress-of-leng",
-      "type": "title"
+      "page": "Horn of Winter/Theories",
+      "slug": "horn-of-winter-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "First Servant of the Lord of Light",
-      "slug": "first-servant-of-the-lord-of-light",
-      "type": "title"
+      "page": "Jaqen H'ghar/Theories",
+      "slug": "jaqen-hghar-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Fisher Queens",
-      "slug": "fisher-queens",
-      "type": "title"
+      "page": "Jon Snow/Theories",
+      "slug": "jon-snow-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Flame of Truth",
-      "slug": "flame-of-truth",
-      "type": "title"
+      "page": "Knight of the Laughing Tree/Theories",
+      "slug": "knight-of-the-laughing-tree-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Garin's Curse",
-      "slug": "garins-curse",
-      "type": "concept.magic"
+      "page": "Lemore/Theories",
+      "slug": "lemore-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Gipps",
-      "slug": "gipps",
-      "type": "concept.culture"
+      "page": "Lightbringer/Theories",
+      "slug": "lightbringer-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Glamor",
-      "slug": "glamor",
-      "type": "concept.magic"
+      "page": "Loras Tyrell/Theories",
+      "slug": "loras-tyrell-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Glass candle",
-      "slug": "glass-candle",
-      "type": "concept.magic"
+      "page": "Mandon Moore/Theories",
+      "slug": "mandon-moore-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "God-King of Ib",
-      "slug": "god-king-of-ib",
-      "type": "title"
+      "page": "Marei/Theories",
+      "slug": "marei-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Good Masters",
-      "slug": "good-masters",
-      "type": "title"
+      "page": "Maynard Plumm/Theories",
+      "slug": "maynard-plumm-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Great Fathers",
-      "slug": "great-fathers",
-      "type": "title"
+      "page": "Nettles/Theories",
+      "slug": "nettles-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Great Masters",
-      "slug": "great-masters",
-      "type": "title"
+      "page": "Night's King/Theories",
+      "slug": "nights-king-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Greenseer",
-      "slug": "greenseer",
-      "type": "concept.magic"
+      "page": "Olyvar Frey/Theories",
+      "slug": "olyvar-frey-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Greensight",
-      "slug": "greensight",
-      "type": "concept.magic"
+      "page": "Patchface/Theories",
+      "slug": "patchface-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Grumkin",
-      "slug": "grumkin",
-      "type": "species"
+      "page": "Perfumed seneschal",
+      "slug": "perfumed-seneschal",
+      "type": "concept.theory"
     },
     {
-      "page": "Hairy Men",
-      "slug": "hairy-men",
-      "type": "concept.culture"
+      "page": "Robert Strong/Theories",
+      "slug": "robert-strong-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Harpies",
-      "slug": "harpies",
-      "type": "species"
+      "page": "Roose Bolton/Theories",
+      "slug": "roose-bolton-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Herald",
-      "slug": "herald",
-      "type": "title"
+      "page": "Sailor's Wife/Theories",
+      "slug": "sailors-wife-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "High King of Sarnor",
-      "slug": "high-king-of-sarnor",
-      "type": "title"
+      "page": "Sansa Stark/Theories",
+      "slug": "sansa-stark-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Hornfoots",
-      "slug": "hornfoots",
-      "type": "concept.culture"
+      "page": "The prince that was promised/Theories",
+      "slug": "the-prince-that-was-promised-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Ice-river clans",
-      "slug": "ice-river-clans",
-      "type": "concept.culture"
+      "page": "Theories",
+      "slug": "theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Ice giants",
-      "slug": "ice-giants",
-      "type": "species"
+      "page": "Tywin Lannister/Theories",
+      "slug": "tywin-lannister-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Ifequevron",
-      "slug": "ifequevron",
-      "type": "species"
+      "page": "Urrathon Night-Walker/Theories",
+      "slug": "urrathon-night-walker-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Jhat",
-      "slug": "jhat",
-      "type": "title"
+      "page": "Valonqar/Theories",
+      "slug": "valonqar-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Jhogwin",
-      "slug": "jhogwin",
-      "type": "species"
+      "page": "Walder Frey (son of Jammos)/Theories",
+      "slug": "walder-frey-son-of-jammos-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Keeper of the Keys",
-      "slug": "keeper-of-the-keys",
-      "type": "title"
+      "page": "Walder Frey (son of Ryman)/Theories",
+      "slug": "walder-frey-son-of-ryman-theories",
+      "type": "concept.theory"
     },
     {
-      "page": "Keeper of the Long List",
-      "slug": "keeper-of-the-long-list",
-      "type": "title"
-    },
-    {
-      "page": "Keyholders",
-      "slug": "keyholders",
-      "type": "title"
-    },
-    {
-      "page": "Khal",
-      "slug": "khal",
-      "type": "title"
-    },
-    {
-      "page": "Khaleesi of the Great Grass Sea",
-      "slug": "khaleesi-of-the-great-grass-sea",
-      "type": "title"
-    },
-    {
-      "page": "King's Counter",
-      "slug": "kings-counter",
-      "type": "title"
-    },
-    {
-      "page": "King's Justice (title)",
-      "slug": "kings-justice-title",
-      "type": "title"
-    },
-    {
-      "page": "King's Scales",
-      "slug": "kings-scales",
-      "type": "title"
-    },
-    {
-      "page": "King of Qarth",
-      "slug": "king-of-qarth",
-      "type": "title"
-    },
-    {
-      "page": "King of the First Men",
-      "slug": "king-of-the-first-men",
-      "type": "title"
-    },
-    {
-      "page": "King of the Giants",
-      "slug": "king-of-the-giants",
-      "type": "title"
-    },
-    {
-      "page": "Kings on the Three Sisters",
-      "slug": "kings-on-the-three-sisters",
-      "type": "title"
-    },
-    {
-      "page": "Knight of Oldstones",
-      "slug": "knight-of-oldstones",
-      "type": "title"
-    },
-    {
-      "page": "Last kiss",
-      "slug": "last-kiss",
-      "type": "concept.magic"
-    },
-    {
-      "page": "Light of Wisdom",
-      "slug": "light-of-wisdom",
-      "type": "title"
-    },
-    {
-      "page": "Light of the West",
-      "slug": "light-of-the-west",
-      "type": "title"
-    },
-    {
-      "page": "Lord Protector",
-      "slug": "lord-protector",
-      "type": "title"
-    },
-    {
-      "page": "Lord of Ashford",
-      "slug": "lord-of-ashford",
-      "type": "title"
-    },
-    {
-      "page": "Lord of Tumbleton",
-      "slug": "lord-of-tumbleton",
-      "type": "title"
-    },
-    {
-      "page": "Lord of the Wells",
-      "slug": "lord-of-the-wells",
-      "type": "title"
-    },
-    {
-      "page": "Maegi",
-      "slug": "maegi",
-      "type": "concept.magic"
-    },
-    {
-      "page": "Magic",
-      "slug": "magic",
-      "type": "concept.magic"
-    },
-    {
-      "page": "Magnar",
-      "slug": "magnar",
-      "type": "title"
-    },
-    {
-      "page": "Maid of the fields",
-      "slug": "maid-of-the-fields",
-      "type": "title"
-    },
-    {
-      "page": "Maid of the seas",
-      "slug": "maid-of-the-seas",
-      "type": "title"
-    },
-    {
-      "page": "Marcher lords",
-      "slug": "marcher-lords",
-      "type": "title"
-    },
-    {
-      "page": "Marsh King",
-      "slug": "marsh-king",
-      "type": "title"
-    },
-    {
-      "page": "Master of revels",
-      "slug": "master-of-revels",
-      "type": "title"
-    },
-    {
-      "page": "Master of the Skahazadhan",
-      "slug": "master-of-the-skahazadhan",
-      "type": "title"
-    },
-    {
-      "page": "Mazemakers",
-      "slug": "mazemakers",
-      "type": "concept.culture"
-    },
-    {
-      "page": "Melisandre's ruby",
-      "slug": "melisandres-ruby",
-      "type": "concept.magic"
-    },
-    {
-      "page": "Men of the Frozen Shore",
-      "slug": "men-of-the-frozen-shore",
-      "type": "concept.culture"
-    },
-    {
-      "page": "Men of the Reach",
-      "slug": "men-of-the-reach",
-      "type": "concept.culture"
-    },
-    {
-      "page": "Merlings",
-      "slug": "merlings",
-      "type": "species"
-    },
-    {
-      "page": "Necromancy",
-      "slug": "necromancy",
-      "type": "concept.magic"
-    },
-    {
-      "page": "Nightfire",
-      "slug": "nightfire",
-      "type": "concept.magic"
-    },
-    {
-      "page": "Nightrunners",
-      "slug": "nightrunners",
-      "type": "concept.culture"
-    },
-    {
-      "page": "Octarch of the Old Empire",
-      "slug": "octarch-of-the-old-empire",
-      "type": "title"
-    },
-    {
-      "page": "Opener of the Door",
-      "slug": "opener-of-the-door",
-      "type": "title"
-    },
-    {
-      "page": "Others",
-      "slug": "others",
-      "type": "species"
-    },
-    {
-      "page": "Patriarchs of Hyrkoon",
-      "slug": "patriarchs-of-hyrkoon",
-      "type": "title"
-    },
-    {
-      "page": "Princes of Lorath",
-      "slug": "princes-of-lorath",
-      "type": "title"
-    },
-    {
-      "page": "Pyromancer",
-      "slug": "pyromancer",
-      "type": "concept.magic"
-    },
-    {
-      "page": "Qaathi",
-      "slug": "qaathi",
-      "type": "concept.culture"
-    },
-    {
-      "page": "Rector",
-      "slug": "rector",
-      "type": "title"
-    },
-    {
-      "page": "Red hand",
-      "slug": "red-hand",
-      "type": "title"
-    },
-    {
-      "page": "Rhoynar",
-      "slug": "rhoynar",
-      "type": "concept.culture"
-    },
-    {
-      "page": "Rock goblins",
-      "slug": "rock-goblins",
-      "type": "species"
-    },
-    {
-      "page": "Scion of Ghis",
-      "slug": "scion-of-ghis",
-      "type": "title"
-    },
-    {
-      "page": "Selkies",
-      "slug": "selkies",
-      "type": "species"
-    },
-    {
-      "page": "Shadow Men",
-      "slug": "shadow-men",
-      "type": "concept.culture"
-    },
-    {
-      "page": "Shadow child",
-      "slug": "shadow-child",
-      "type": "concept.magic"
-    },
-    {
-      "page": "Shadowbinder",
-      "slug": "shadowbinder",
-      "type": "concept.magic"
-    },
-    {
-      "page": "Shan",
-      "slug": "shan",
-      "type": "title"
-    },
-    {
-      "page": "Shapechanger",
-      "slug": "shapechanger",
-      "type": "concept.magic"
-    },
-    {
-      "page": "Shariff",
-      "slug": "shariff",
-      "type": "title"
-    },
-    {
-      "page": "Shrykes",
-      "slug": "shrykes",
-      "type": "species"
-    },
-    {
-      "page": "Skinchanger",
-      "slug": "skinchanger",
-      "type": "concept.magic"
-    },
-    {
-      "page": "Snarks",
-      "slug": "snarks",
-      "type": "species"
-    },
-    {
-      "page": "Sothoryi",
-      "slug": "sothoryi",
-      "type": "concept.culture"
-    },
-    {
-      "page": "Spellsinger",
-      "slug": "spellsinger",
-      "type": "concept.magic"
-    },
-    {
-      "page": "Sphinx",
-      "slug": "sphinx",
-      "type": "species"
-    },
-    {
-      "page": "Squishers",
-      "slug": "squishers",
-      "type": "species"
-    },
-    {
-      "page": "Steward",
-      "slug": "steward",
-      "type": "title"
-    },
-    {
-      "page": "Stormsinger",
-      "slug": "stormsinger",
-      "type": "concept.magic"
-    },
-    {
-      "page": "Tiger-men",
-      "slug": "tiger-men",
-      "type": "species"
-    },
-    {
-      "page": "Valyrians",
-      "slug": "valyrians",
-      "type": "concept.culture"
-    },
-    {
-      "page": "Walrus-men",
-      "slug": "walrus-men",
-      "type": "species"
-    },
-    {
-      "page": "Warden",
-      "slug": "warden",
-      "type": "title"
-    },
-    {
-      "page": "Warden of the King's Mint",
-      "slug": "warden-of-the-kings-mint",
-      "type": "title"
-    },
-    {
-      "page": "Warden of the River",
-      "slug": "warden-of-the-river",
-      "type": "title"
-    },
-    {
-      "page": "Warlocks",
-      "slug": "warlocks",
-      "type": "concept.magic"
-    },
-    {
-      "page": "Water magic",
-      "slug": "water-magic",
-      "type": "concept.magic"
-    },
-    {
-      "page": "Wights",
-      "slug": "wights",
-      "type": "concept.magic"
-    },
-    {
-      "page": "Wise Masters",
-      "slug": "wise-masters",
-      "type": "title"
-    },
-    {
-      "page": "Wizard",
-      "slug": "wizard",
-      "type": "concept.magic"
+      "page": "Yoren/Theories",
+      "slug": "yoren-theories",
+      "type": "concept.theory"
     }
   ]
 }

@@ -1,0 +1,46 @@
+---
+name: "Tourney on Prince Joffrey's name day"
+type: event.tournament
+slug: tourney-on-prince-joffreys-name-day
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Tourney_on_Prince_Joffrey's_name_day"
+bucket_id: tier3-pathb-events
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Tourney on Prince Joffrey's name day is a tournament/tourney from the AWOIAF wiki.
+
+## Edges
+
+
+## Origins
+
+Bringing to [King's Landing](wiki:King's_Landing) a retinue from the [westerlands](wiki:Westerlands), Lord [Tywin Lannister](wiki:Tywin_Lannister) hoped his son, Ser [Jaime](wiki:Jaime_Lannister) of the [Kingsguard](wiki:Kingsguard), would be the tourney's champion.(wiki:Tourney_on_Prince_Joffrey's_name_day.cite_ref-Ragot25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1) Half the court bet on Jaime, but he was unhorsed by Ser [Loras Tyrell](wiki:Loras_Tyrell). Jaime lost a hundred [golden dragons](wiki:Currency), and his sister, Queen [Cersei Lannister](wiki:Cersei_Lannister), lost an [emerald](wiki:Emerald) pendant which was later returned.(wiki:Tourney_on_Prince_Joffrey's_name_day.cite_ref-Ragot18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) While the singer [Marillion](wiki:Marillion) had won silver earlier in the tourney, he lost it all by betting on the Kingslayer.(wiki:Tourney_on_Prince_Joffrey's_name_day.cite_ref-Ragot28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0) King [Robert I Baratheon](wiki:Robert_I_Baratheon) won a [Valyrian steel dagger](wiki:Littlefinger's_blade),(wiki:Tourney_on_Prince_Joffrey's_name_day.cite_ref-Racok55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1) which according to a semi-canon source had belonged to Lord [Petyr Baelish](wiki:Petyr_Baelish).(wiki:Tourney_on_Prince_Joffrey's_name_day.cite_ref-Rawoiafpetyr_baelish.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+Lord [Walder Frey](wiki:Walder_Frey) went to [King's Landing](wiki:King's_Landing) to see his sons ride in the tourney, but he was disappointed in the results. Walder also spoke with Lord [Jon Arryn](wiki:Jon_Arryn) and his wife, [Lysa](wiki:Lysa_Arryn), and proposed that they foster two of Walder's grandsons at court, while Walder would take their own son, [Robert Arryn](wiki:Robert_Arryn), to ward at the [Twins](wiki:Twins). Jon refused Walder, however, and told him that Robert was going to be fostered at [Dragonstone](wiki:Dragonstone) by Lord [Stannis Baratheon](wiki:Stannis_Baratheon). Upon learning this fact, Lysa stormed off without a word.(wiki:Tourney_on_Prince_Joffrey's_name_day.cite_ref-Ragot59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-4)
+When Tywin returned to [Casterly Rock](wiki:Casterly_Rock) after the tourney, he was accompanied by his daughter, Cersei, and her children, [Joffrey](wiki:Joffrey_Baratheon), [Myrcella](wiki:Myrcella_Baratheon), and [Tommen Baratheon](wiki:Tommen_Baratheon). Lord Arryn died while the queen was away from court.(wiki:Tourney_on_Prince_Joffrey's_name_day.cite_ref-Ragot25.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+
+## Narrative Arc
+
+### A Game of Thrones[ ]
+
+Lord [Petyr Baelish](wiki:Petyr_Baelish) tells [Catelyn Stark](wiki:Catelyn_Stark) that by betting on Ser [Jaime Lannister](wiki:Jaime_Lannister) he lost a [Valyrian steel dagger](wiki:Valyrian_steel_dagger) with a [dragonbone](wiki:Dragonbone) hilt to [Tyrion Lannister](wiki:Tyrion_Lannister), who had bet on Ser [Loras Tyrell](wiki:Loras_Tyrell) instead of his brother, Jaime.(wiki:Tourney_on_Prince_Joffrey's_name_day.cite_ref-Ragot18.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3) Tyrion later denies Petyr's story, insisting he would never bet against his family.(wiki:Tourney_on_Prince_Joffrey's_name_day.cite_ref-Ragot31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+Lord [Walder Frey](wiki:Walder_Frey) tells Catelyn that [Lysa Arryn](wiki:Lysa_Arryn) was angry at Lord [Jon Arryn](wiki:Jon_Arryn)'s intention to foster their son, [Robert](wiki:Robert_Arryn), with [Stannis Baratheon](wiki:Stannis_Baratheon).(wiki:Tourney_on_Prince_Joffrey's_name_day.cite_ref-Ragot59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-5)
+
+### A Clash of Kings[ ]
+
+Drinking in an inn on [Dragonstone](wiki:Dragonstone_(island)), Ser [Davos Seaworth](wiki:Davos_Seaworth) recalls having attended the tourney with Stannis.(wiki:Tourney_on_Prince_Joffrey's_name_day.cite_ref-Racok10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
+Jaime, imprisoned during the [War of the Five Kings](wiki:War_of_the_Five_Kings), insists to Catelyn that Tyrion has always backed him in the lists.(wiki:Tourney_on_Prince_Joffrey's_name_day.cite_ref-Racok55.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+
+### A Storm of Swords[ ]
+
+Jaime determines that [Joffrey Baratheon](wiki:Joffrey_Baratheon) stole the [Valyrian steel dagger](wiki:Valyrian_steel_dagger) won by King [Robert I Baratheon](wiki:Robert_I_Baratheon) during the tourney. Joffrey then gave it to the [catspaw](wiki:Catspaw) who tried to assassinate [Bran Stark](wiki:Bran_Stark).(wiki:Tourney_on_Prince_Joffrey's_name_day.cite_ref-Rasos72.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)(wiki:Tourney_on_Prince_Joffrey's_name_day.cite_ref-Rasos76.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_10-0)
+[Sansa Stark](wiki:Sansa_Stark) learns that within a fortnight after the tourney, Lysa poisoned her husband, Jon Arryn, with the [tears of Lys](wiki:Tears_of_Lys), a poison that leaves no traces, in an attempt to keep her son Robert by her side. Lysa was convinced to do this by Petyr, her childhood friend and lover, who seized the opportunity to get Jon out of the way.(wiki:Tourney_on_Prince_Joffrey's_name_day.cite_ref-Rasos80.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_11-0)
+
+## Quotes
+
+As I was saying before we were so rudely interrupted, there is a serious flaw in [Littlefinger's](wiki:Petyr_Baelish) fable. Whatever you may believe of me, Lady Stark, I promise you this — I never bet against [my family](wiki:House_Lannister).(wiki:Tourney_on_Prince_Joffrey's_name_day.cite_ref-Ragot31.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-1)

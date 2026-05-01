@@ -1,0 +1,13 @@
+## Origins
+
+[Walder Frey](wiki:Walder_Frey), seven times a widower and the head of [House Frey](wiki:House_Frey), agrees to marry one of his vassals, [Joyeuse Erenford](wiki:Joyeuse_Erenford). Walder hopes that [Hoster Tully](wiki:Hoster_Tully), his liege lord, will attend the festivities,(wiki:Wedding_of_Walder_Frey_and_Joyeuse_Erenford.cite_ref-Ragot28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0) as the [Lord Paramount of the Trident](wiki:Lord_Paramount_of_the_Trident) did not attend when Walder married his seventh wife, [Annara Farring](wiki:Annara_Farring).(wiki:Wedding_of_Walder_Frey_and_Joyeuse_Erenford.cite_ref-Ragot59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+
+## Aftermath
+
+[Catelyn Stark](wiki:Catelyn_Stark) negotiates with Lord Walder at the [Twins](wiki:Twins) as an envoy of her son, [Robb Stark](wiki:Robb_Stark), as the [War of the Five Kings](wiki:War_of_the_Five_Kings) begins. Lord Frey informs Catelyn he was insulted by her father, Lord Tully, not attending his wedding.(wiki:Wedding_of_Walder_Frey_and_Joyeuse_Erenford.cite_ref-Ragot59.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+
+## Quotes
+
+Catelyn: I know your sigil as well: the twin towers of [Frey](wiki:House_Frey). How fares your good lord, sers? Captain: Lord [Walder](wiki:Walder_Frey) is well, my lady. He plans to take [a new wife](wiki:Joyeuse_Erenford) on his ninetieth [name day](wiki:Name_day), and has asked [your lord father](wiki:Hoster_Tully) to honor the wedding with his presence.(wiki:Wedding_of_Walder_Frey_and_Joyeuse_Erenford.cite_ref-Ragot28.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+Walder: Save your sweet words, my lady. Sweet words I get from [my wife](wiki:Joyeuse_Erenford). Did you see her? Sixteen she is, a little flower, and her honey's only for me. I wager she gives me a son by this time next year. Perhaps I'll make him heir, wouldn't that boil the rest of them?
+Catelyn: I'm certain she will give you many sons.

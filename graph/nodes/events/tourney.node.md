@@ -1,0 +1,31 @@
+---
+name: "Tourney"
+type: event.tournament
+slug: tourney
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Tourney"
+bucket_id: tier3-pathb-events
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Tourney is a tournament/tourney from the AWOIAF wiki.
+
+## Edges
+
+
+## Quotes
+
+In the days before [the Conquest](wiki:Aegon's_Conquest), the [Kings of the Reach](wiki:Kings_of_the_Reach) and their queens presided over tourneys of love and beauty, where the greatest [knights](wiki:Knight) of the [Reach](wiki:Reach) competed for the love of the fairest maids not only with feats of arms, but with song, poetry, and demonstrations of virtue, piety, and chaste devotion. The greatest champions, men as pure and honorable and virtuous as they were skilled at arms, were honored with invitations to join the [Order of the Green Hand](wiki:Order_of_the_Green_Hand).(wiki:Tourney.cite_ref-Rtwoiafthe_reach:_highgarden.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+You are aware, that those vanquished in tourney forfeit their arms, armor, and horse to the victors, and must needs ransom them back?(wiki:Tourney.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+There were a dozen different forms a tourney might follow, according to the whim of the [lord](wiki:Lord) who hosted it. Some were mock battles between teams of [knights](wiki:Knight), others wild melees where the glory went to the last fighter left standing. Where individual combats were the rule, pairings were sometimes determined by lot, and sometimes by the [master of the games](wiki:Master_of_the_games).(wiki:Tourney.cite_ref-Rthk.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)
+War should not be a game.(wiki:Tourney.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
+These are tourney lances. They make them to splinter on impact, so no one is hurt.(wiki:Tourney.cite_ref-Ragot30.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1)
+King [Robb](wiki:Robb_Stark) is warring, my lord, not [playing at tourney](wiki:Melee_at_Bitterbridge).(wiki:Tourney.cite_ref-Racok22.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
+Jorah: Swords win battles. And Prince [Rhaegar](wiki:Rhaegar_Targaryen) knew how to use one. Arstan: He did, ser, but ... I have seen a hundred tournaments and more wars than I would wish, and however strong or fast or skilled a [knight](wiki:Knight) may be, there are others who can match him. A man will win one tourney, and fall quickly in the next. A slick spot in the grass may mean defeat, or what you ate for supper the night before. A change in the wind may bring the gift of victory. Or a lady's favor knotted round an arm.(wiki:Tourney.cite_ref-Rasos8.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+[Mystery knights](wiki:Mystery_knight) would oft appear at tourneys, with helms concealing their faces, and shields that were either blank or bore some strange device. Sometimes they were famous champions in disguise.(wiki:Tourney.cite_ref-Rasos24.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_8-0)
+Tis true, I am no tourney knight. I save my valor for the battlefield, woman.(wiki:Tourney.cite_ref-Raffc4.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_9-0)

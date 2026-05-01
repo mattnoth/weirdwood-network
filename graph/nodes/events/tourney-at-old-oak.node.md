@@ -1,0 +1,23 @@
+---
+name: "Tourney at Old Oak"
+type: event.tournament
+slug: tourney-at-old-oak
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Tourney_at_Old_Oak"
+bucket_id: tier3-pathb-events
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Tourney at Old Oak is a tournament/tourney from the AWOIAF wiki.
+
+## Edges
+
+
+## Origins
+
+The [tourney](wiki:Tourney) was held at [Old Oak](wiki:Old_Oak) by Lord [Oakheart](wiki:House_Oakheart), who was celebrating the birth of a young son with seven days of jousting. A [mystery knight](wiki:Mystery_knight) known as the Silver Fool took part in the tourney, accounting himself well before falling to Ser [Rickard Redwyne](wiki:Rickard_Redwyne). Rickard helped the mystery knight to his feet and unmasked him, revealing the Silver Fool to be none other than Prince [Baelon Targaryen](wiki:Baelon_Targaryen_(son_of_Jaehaerys_I)). Rickard bade Baelon to kneel, and knighted the prince on the spot. A feast was held after the conclusion of the jousting to make the tourney's end.(wiki:Tourney_at_Old_Oak.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
