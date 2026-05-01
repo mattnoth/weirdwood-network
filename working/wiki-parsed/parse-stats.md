@@ -9,13 +9,13 @@ Generated: 2026-04-30
 | Pages with infoboxes | 5,279 |
 | Pages with cite_refs | 5,280 |
 | Parse failures | 0 |
-| Elapsed time | 13.6s |
+| Elapsed time | 13.7s |
 
 ## Entity Type Distribution
 
 | Entity Type | Count |
 |------------|-------|
-| `skip` | 8,205 |
+| `skip` | 8,236 |
 | `character.human` | 3,779 |
 | `unknown` | 2,487 |
 | `place.location` | 967 |
@@ -23,7 +23,7 @@ Generated: 2026-04-30
 | `event.battle` | 528 |
 | `title` | 391 |
 | `object.artifact` | 233 |
-| `object.text` | 185 |
+| `object.text` | 154 |
 | `event.war` | 108 |
 | `organization.faction` | 54 |
 | `concept.culture` | 42 |
@@ -38,36 +38,36 @@ Generated: 2026-04-30
 
 | Field | Count |
 |-------|-------|
-| `culture` | 6,063 |
-| `allegiance` | 4,143 |
-| `title` | 3,635 |
-| `allegiances` | 2,871 |
-| `titles` | 2,747 |
-| `issue` | 2,396 |
-| `born` | 2,260 |
-| `died` | 2,086 |
-| `books` | 1,945 |
-| `father` | 1,855 |
-| `book` | 1,666 |
-| `aliases` | 1,239 |
-| `region` | 1,139 |
-| `spouse` | 1,059 |
+| `culture` | 6,057 |
+| `allegiance` | 4,135 |
+| `title` | 3,606 |
+| `allegiances` | 2,870 |
+| `titles` | 2,757 |
+| `issue` | 2,390 |
+| `born` | 2,253 |
+| `died` | 2,083 |
+| `books` | 1,948 |
+| `father` | 1,853 |
+| `book` | 1,656 |
+| `aliases` | 1,233 |
+| `region` | 1,142 |
+| `spouse` | 1,056 |
 | `mother` | 990 |
 | `head` | 925 |
-| `alias` | 680 |
-| `page` ⚠ (unmapped) | 678 |
-| `overlord` | 653 |
-| `seat` | 568 |
-| `race` | 550 |
-| `result` | 542 |
-| `place` | 511 |
+| `page` ⚠ (unmapped) | 684 |
+| `alias` | 674 |
+| `overlord` | 652 |
+| `seat` | 565 |
+| `race` | 558 |
+| `result` | 550 |
+| `place` | 516 |
 | `tv series` | 449 |
-| `played by` | 413 |
-| `coat of arms` | 343 |
-| `pov` ⚠ (unmapped) | 334 |
-| `conflict` | 331 |
-| `overlords` | 330 |
-| `heir` | 309 |
+| `played by` | 414 |
+| `coat of arms` | 344 |
+| `pov` ⚠ (unmapped) | 337 |
+| `conflict` | 333 |
+| `overlords` | 333 |
+| `heir` | 314 |
 
 ## Unmapped Infobox Fields (schema signals)
 
@@ -76,43 +76,43 @@ High-count entries may indicate missing edge types.
 
 | Field | Count |
 |-------|-------|
-| `book` | 1,666 |
-| `page` | 678 |
-| `pov` | 334 |
-| `dynasty` | 224 |
-| `full name` | 194 |
-| `founded` | 161 |
-| `original air date` | 90 |
-| `running time` | 90 |
-| `directed by` | 90 |
+| `book` | 1,656 |
+| `page` | 684 |
+| `pov` | 337 |
+| `dynasty` | 222 |
+| `full name` | 192 |
+| `founded` | 158 |
+| `original air date` | 86 |
+| `running time` | 86 |
+| `directed by` | 86 |
 | `personal arms` | 76 |
 | `reign` | 49 |
-| `queen` | 34 |
-| `genre(s)` | 34 |
-| `country` | 27 |
-| `released` | 27 |
-| `named for` | 24 |
-| `died out` | 24 |
-| `series` | 22 |
-| `created` | 17 |
-| `current leader` | 17 |
-| `dvd release` | 16 |
-| `destroyed` | 16 |
-| `organizations` | 14 |
-| `network` | 14 |
-| `followed&#160;by` | 14 |
-| `preceded&#160;by` | 13 |
-| `country of origin` | 12 |
-| `original run` | 12 |
-| `disbanded` | 11 |
-| `cadet branch` | 11 |
+| `queen` | 35 |
+| `genre(s)` | 31 |
+| `country` | 26 |
+| `released` | 24 |
+| `died out` | 23 |
+| `series` | 21 |
+| `named for` | 21 |
+| `created` | 18 |
+| `destroyed` | 18 |
+| `current leader` | 15 |
+| `dvd release` | 14 |
+| `followed&#160;by` | 13 |
+| `network` | 13 |
+| `disbanded` | 13 |
+| `preceded&#160;by` | 12 |
+| `organizations` | 12 |
 | `coronation` | 11 |
-| `no. of episodes` | 10 |
+| `cadet branch` | 11 |
+| `country of origin` | 11 |
+| `original run` | 11 |
 | `vassal` | 9 |
-| `hatched` | 8 |
+| `no. of episodes` | 9 |
 | `vassals` | 8 |
+| `size` | 8 |
 | `symbol` | 8 |
+| `hatched` | 8 |
 | `colors` | 7 |
-| `size` | 7 |
-| `rider` | 5 |
-| `defunct` | 5 |
+| `queens` | 6 |
+| `perpetrator` | 5 |

@@ -781,6 +781,14 @@ def classify_by_categories(categories):
     if not categories:
         return None
 
+    # Real-world publication filter: pages categorized only as "Books"
+    # (without the in-world "Books and scrolls" companion category) are
+    # real-world publications — the ASOIAF novels, novellas, comics,
+    # companion books, parodies. Skip them from the in-world graph.
+    cat_set = {c.lower() for c in categories}
+    if "books" in cat_set and "books and scrolls" not in cat_set:
+        return SKIP_CATEGORY
+
     # First pass: skip-categories take priority (Redirect, Disambiguation, TV)
     for cat in categories:
         for pattern, etype in CATEGORY_TYPE_MAP:
