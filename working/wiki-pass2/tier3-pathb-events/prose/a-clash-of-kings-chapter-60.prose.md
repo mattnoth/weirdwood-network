@@ -1,3 +1,0 @@
-## Narrative Arc
-
-[Cersei](wiki:Cersei_Lannister) continues to receive word on the progress of [the battle](wiki:Battle_of_the_Blackwater) from one of the [Kettleblacks](wiki:House_Kettleblack). Slightly drunk, the Queen tells [Sansa](wiki:Sansa_Stark) that there would be no hope of her charming [Stannis Baratheon](wiki:Stannis_Baratheon) should [the city](wiki:King's_Landing) fall, and explains that women have another weapon beside tears. The Queen commands [her son](wiki:Joffrey_Baratheon) be brought back to [Maegor's Holdfast](wiki:Red_Keep) as the battle seems to be going in Stannis’s favor. As Sansa begins to cry, Cersei finally reveals that Ser [Ilyn](wiki:Ilyn_Payne) is there for them, for she will not permit Stannis to take them alive…
