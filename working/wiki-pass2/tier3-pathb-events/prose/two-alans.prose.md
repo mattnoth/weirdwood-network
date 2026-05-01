@@ -1,0 +1,3 @@
+## Origins
+
+The two Alans supported Queen [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen) and the [blacks](wiki:Blacks) during the [Dance of the Dragons](wiki:Dance_of_the_Dragons). Together with Lord [Owen Costayne](wiki:Owen_Costayne) of [Three Towers](wiki:Three_Towers), they harrassed the host of Lord [Ormund Hightower](wiki:Ormund_Hightower) of the [greens](wiki:Greens) on his march north. Their actions culmulated in the [Battle of the Honeywine](wiki:Battle_of_the_Honeywine) where the two Alans were captured.(wiki:Two_Alans.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

@@ -1,0 +1,76 @@
+## Narrative Arc
+
+[Ned](wiki:Eddard_Stark) is dreaming of walking through [the crypts](wiki:Crypt_of_Winterfell) beneath [Winterfell](wiki:Winterfell). The [Kings of Winter](wiki:King_in_the_North) watch him with eyes of ice and the [direwolves](wiki:Direwolf) at their feet snarl. Finally, he comes to the tomb where [his father](wiki:Rickard_Stark) sleeps with [Lyanna](wiki:Lyanna_Stark) and [Brandon](wiki:Brandon_Stark) beside him. Lyanna's statue whispers, "Promise me, Ned," and her eyes weep blood. Ned jerks awake with someone pounding at his door.
+The king's steward tells Ned that King [Robert](wiki:Robert_I_Baratheon) demands his presence at once. When Ned reaches [Maegor's Holdfast](wiki:Maegor's_Holdfast), he finds the [Kingsguard](wiki:Kingsguard) guarding the bridge, the steps, and the royal apartments. Ned only has to look at Ser [Barristan Selmy](wiki:Barristan_Selmy), who is waiting outside the king’s bedchamber, to know something is terribly wrong.
+Inside the bedchamber, he finds Robert in bed with Grand Maester [Pycelle](wiki:Pycelle), Lord [Renly Baratheon](wiki:Renly_Baratheon), and Queen [Cersei Lannister](wiki:Cersei_Lannister) gathered around him. The room smells of smoke, blood, and death. Tattered and blood-stained clothes litter the floor. Ned can see that his friend is dying. Renly explains that it was a [boar](wiki:Boar), and Robert curses himself for drinking too much wine and missing his thrust. When Ned asks where the rest of them were, Renly explains that Robert had called everyone off to try to take the boar himself. Ned lifts the blanket and verifies that they have done what they can to close the rip from groin to nipple, but it is not nearly enough. The smell of death is horrible and overpowering; Robert declares that even he can smell it, but still takes pride in having killed the boar, which he wants served at his funeral feast.
+Robert then orders everyone but Ned to leave. Pycelle tries to give Robert the [milk of the poppy](wiki:Milk_of_the_poppy) before leaving, but Robert refuses. Once they are gone, Ned damns Robert for being so headstrong. Robert damns Ned right back, declaring that he killed the boar and should have done the same to Ned for not leaving him to hunt in peace. He then admits that Ned was right about [Daenerys Targaryen](wiki:Daenerys_Targaryen) and asserts the boar was sent by the gods to punish him. Robert then expresses gratitude and admiration that Ned was the only one to tell him that he was wrong.
+Robert tells Ned to write his final testament, in which he names Ned as [Lord Regent](wiki:Regent) and [Protector of the Realm](wiki:Protector_of_the_Realm) until his son comes of age. Ned cannot bring himself to tell Robert that [Joffrey](wiki:Joffrey_Baratheon) is not his son, so instead he clandestinely changes the words to "my heir," feeling soiled as he does so. Ned tells Robert that he cannot die because the realm needs him, but Robert replies that the realm knows what a wretched king he was: as bad as [Aerys](wiki:Aerys_II_Targaryen). Ned insists that Robert was not as bad as Aerys and Robert declares that at least this one thing he did right: he has declared Ned as Regent and Ned will do it well. Robert signs the document and tells Ned that they are to serve the boar at his funeral feast. He then asks that Ned rescind the death warrant on Daenerys and also to help his son be better than he has been. Before Ned leaves, the king mumbles that he ought to laugh at being killed by a pig, but it hurts too much.
+The queen has left, but the rest come back in. The king has Renly and Pycelle bear witness to his placing the seal on the letter. Then the king asks for and drinks the milk of the poppy. As he fades off to sleep, he asks Ned if he will dream and Ned assures him he will. Then Robert declares that he will give Ned's love to [Lyanna](wiki:Lyanna_Stark). Last of all, Robert requests that Ned guard his children. Unable to tell the truth and unable to lie, all that Ned can think of is Robert’s bastards when he tells him that he will.
+Pycelle tells Ned that he has done all that he can, but the wound has already mortified because it took two days to get Robert back. When Ned asks how long, he is told that by rights the king should be dead already. Renly adds that Robert was always strong, though perhaps not wise, recounting that Robert slew the boar even with his guts hanging out. Ned replies admiringly that Robert was never one to leave the battle with an enemy standing.
+Ser Barristan is still standing outside and Ned tells him that the king is not to be disturbed. Barristan laments that he has failed his sacred trust. Ned reassures the old knight that no one can defend a man against himself and even the king blamed the wine. The knight admits that Robert was reeling drunk. [Varys](wiki:Varys), who has just appeared, asks who gave Robert all the wine, and Barristan tells them it was the king's elder squire, [Lancel Lannister](wiki:Lancel_Lannister). Varys states that he hopes the lad does not blame himself. Ned informs Varys that the king wants the assassination of Daenerys canceled. Varys tells him that those birds have flown but he will do what he can.
+[Tomard](wiki:Tomard) and [Cayn](wiki:Cayn) are helping Ned across the bridge when Renly catches up and asks for a private word. Renly asks if Robert's will makes him regent and, knowing his answer, tells Ned that he has a hundred swords to offer him. Renly declares that if they strike now, they can take the [Red Keep](wiki:Red_Keep) and seize the royal children. Ned refuses, stating that while Robert is still alive he will not shed blood in the castle. Renly insists that every moment Ned delays gives Cersei more time to prepare. Ned declares that they should pray for Robert's recovery; sometimes the gods are merciful. Renly answers that the [Lannisters](wiki:House_Lannister) are not.
+By the time he returns to the [Tower of the Hand](wiki:Tower_of_the_Hand), Ned is wondering if he should have accepted Renly's offer; if the queen fights he will need every sword he can get. He has no taste for these intrigues. Ned first asks Cayn to bring [Littlefinger](wiki:Petyr_Baelish) to him and then commands Tomard to take twenty men to escort his daughters to [the ship](wiki:Wind_Witch) to take them to Winterfell. He then tells Tomard to stop at [Dragonstone](wiki:Dragonstone) on the way and deliver a letter for to Lord [Stannis](wiki:Stannis_Baratheon), for his eyes only. After Tomard leaves, Ned sits in grief for his friend Robert and thinks how some will say that he had betrayed his king's friendship and disinherited his sons. He hopes the gods will know better and that Robert will learn the truth in the land beyond the grave. He then composes a letter to Stannis, telling him of Robert's death and offering him the throne as the rightful heir. As he seals the letter, Ned reflects that his regency will be short and then he can return to Winterfell.
+Littlefinger arrives and congratulates Ned for being named Protector of the Realm. When asked how he knows, Littlefinger states that Varys told him and that Ned has just confirmed it. Ned damns Varys and his birds and states that he does not trust him. Littlefinger declares that Ned is learning. Ned says he knows the secret that [Jon Arryn](wiki:Jon_Arryn) was murdered for. Littlefinger's lack of reaction to the truth shows that he obviously knew the secret all along.
+Ned declares his intention to offer the throne to Stannis, but Littlefinger says he would be wise to bow to [Joffrey](wiki:Joffrey_Baratheon). Stannis is not a friend of Ned or Littlefinger; even his brothers cannot stand him because he is hard and unyielding. Stannis will appoint his own [Hand of the King](wiki:Hand_of_the_King) and [small council](wiki:Small_council), and his ascension will mean war for the realm. Stannis will seek the heads of Cersei and the children to secure his position on the [Iron Throne](wiki:Iron_Throne) (an act that will incite [Tywin Lannister](wiki:Tywin_Lannister) and the houses sworn to [Casterly Rock](wiki:Casterly_Rock) to an uprising), those of Lords [Tyrell](wiki:Mace_Tyrell) and [Redwyne](wiki:Paxter_Redwyne) as revenge for the [siege of Storm's End](wiki:Siege_of_Storm's_End), and even Lord [Balon Greyjoy](wiki:Balon_Greyjoy) for [his rebellion](wiki:Greyjoy's_Rebellion). According to Littlefinger, anyone who stood by the [Targaryens](wiki:House_Targaryen) during [Robert's Rebellion](wiki:Robert's_Rebellion) or rose with the Greyjoys will have cause to fear Stannis's ascent to the throne.
+Littlefinger proposes another course of action: that Ned make his peace with the Lannisters, wed [Sansa](wiki:Sansa_Stark) to Joffrey, [Robb](wiki:Robb_Stark) to [Myrcella](wiki:Myrcella_Baratheon), and [Arya](wiki:Arya_Stark) to [Tommen](wiki:Tommen_Baratheon) and rule as Hand of the King and Protector of the Realm until Joffrey comes of age in four years' time. This should be sufficient time to deal with Stannis and, should Joffrey prove unsuitable, they can reveal the truth of his parentage and place Renly on the throne. Ned declares that what Littlefinger is proposing is treason. Littlefinger replies that it will only be treason if they lose. Ned tells him that he forgets Jon Arryn, [Jory Cassel](wiki:Jory_Cassel), and the attempt to kill [Bran](wiki:Bran_Stark). Littlefinger states that the only thing he forgot was that he was talking to a [Stark](wiki:House_Stark).
+Ned declares that he is going to call on the aid Littlefinger promised [Catelyn](wiki:Catelyn_Stark). Cersei has a dozen knights and a hundred men-at-arms, enough to overwhelm [his household guard](wiki:House_Stark_guards). Littlefinger then points out there are lords that have no love for the [Lannisters](wiki:House_Lannister) that have guards. Ned states they are not enough—he needs Littlefinger to secure him the [City Watch of King's Landing](wiki:City_Watch_of_King's_Landing). Littlefinger insists that when the Hand proclaims one king and the queen another, the gold cloaks will side with the one who pays better. With that in mind, Littlefinger states that he will meet with [Janos Slynt](wiki:Janos_Slynt), [Commander of the City Watch](wiki:Commander_of_the_City_Watch), with a bribe of six thousand [gold dragons](wiki:Currency).
+
+## Appearances & Description
+
+Appearing:
+[Petyr Baelish](wiki:Petyr_Baelish)
+[Renly Baratheon](wiki:Renly_Baratheon)
+[Robert I Baratheon](wiki:Robert_I_Baratheon)
+[Boros Blount](wiki:Boros_Blount)
+[Cayn](wiki:Cayn)
+[Desmond](wiki:Desmond)
+[Preston Greenfield](wiki:Preston_Greenfield)
+[Cersei Lannister](wiki:Cersei_Lannister)
+[Pycelle](wiki:Pycelle)
+[Barristan Selmy](wiki:Barristan_Selmy)
+[Eddard Stark](wiki:Eddard_Stark)
+[Tomard](wiki:Tomard)
+[Varys](wiki:Varys)
+Mentioned:
+[Jon Arryn](wiki:Jon_Arryn)
+[Joffrey Baratheon](wiki:Joffrey_Baratheon)
+[Myrcella Baratheon](wiki:Myrcella_Baratheon)
+[Stannis Baratheon](wiki:Stannis_Baratheon)
+[Tommen Baratheon](wiki:Tommen_Baratheon)
+[Barra](wiki:Barra)
+[Jory Cassel](wiki:Jory_Cassel)
+[Catspaw](wiki:Catspaw)
+[Gregor Clegane](wiki:Gregor_Clegane)
+[Sandor Clegane](wiki:Sandor_Clegane)
+[Selyse Florent](wiki:Selyse_Florent)
+[Gendry](wiki:Gendry)
+[Balon Greyjoy](wiki:Balon_Greyjoy)
+[Jaime Lannister](wiki:Jaime_Lannister)
+[Kevan Lannister](wiki:Kevan_Lannister)
+[Lancel Lannister](wiki:Lancel_Lannister)
+[Tyrek Lannister](wiki:Tyrek_Lannister)
+[Tyrion Lannister](wiki:Tyrion_Lannister)
+[Tywin Lannister](wiki:Tywin_Lannister)
+[Porther](wiki:Porther)
+[Qos](wiki:Qos)
+[Hobber Redwyne](wiki:Hobber_Redwyne)
+[Horas Redwyne](wiki:Horas_Redwyne)
+[Paxter Redwyne](wiki:Paxter_Redwyne)
+[Robar Royce](wiki:Robar_Royce)
+[Yohn Royce](wiki:Yohn_Royce)
+[Janos Slynt](wiki:Janos_Slynt)
+[Bran Stark](wiki:Bran_Stark)
+[Brandon Stark](wiki:Brandon_Stark)
+[Catelyn Stark](wiki:Catelyn_Stark)
+[Lyanna Stark](wiki:Lyanna_Stark)
+[Rickard Stark](wiki:Rickard_Stark)
+[Rickon Stark](wiki:Rickon_Stark)
+[Robb Stark](wiki:Robb_Stark)
+[Sansa Stark](wiki:Sansa_Stark)
+[Tanda Stokeworth](wiki:Tanda_Stokeworth)
+[Mya Stone](wiki:Mya_Stone)
+[Balon Swann](wiki:Balon_Swann)
+[Aerys II Targaryen](wiki:Aerys_II_Targaryen)
+[Daenerys Targaryen](wiki:Daenerys_Targaryen)
+[Loras Tyrell](wiki:Loras_Tyrell)
+[Mace Tyrell](wiki:Mace_Tyrell)

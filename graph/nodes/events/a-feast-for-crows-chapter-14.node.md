@@ -1,0 +1,26 @@
+---
+name: "A Feast for Crows-Chapter 14"
+type: event.battle
+slug: a-feast-for-crows-chapter-14
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Feast_for_Crows-Chapter_14"
+bucket_id: tier3-pathb-events
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+A Feast for Crows-Chapter 14 is a battle/event from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+Drawing near [Maidenpool](wiki:Maidenpool), [Pod Payne](wiki:Podrick_Payne) can't seem to remember if [Brienne](wiki:Brienne_of_Tarth) is a knight or a lady, frequently calling her "My Lady. Ser." Brienne has taken up his training, abandoned since [Aron Santagar](wiki:Aron_Santagar) was killed by the mob in [King's Landing](wiki:King's_Landing). They soon come upon a farmer, his wife and their [cart](wiki:Cart) of eggs bound for Maidenpool. As they ride together, the farmer tells Brienne that the town has been mostly rebuilt, thanks to the hard hand of [Randyll Tarly](wiki:Randyll_Tarly). The Maid of Tarth hopes she can slip through town without encountering the Lord of [Horn Hill](wiki:Horn_Hill), as she owes him a debt but bears no liking for the man. At the gates of Maidenpool, the captain informs the farmer that he will take his eggs and wife, forcing Brienne to draw her sword. Outnumbered by the gate guards, she is spared fighting by the appearance of [Hyle Hunt](wiki:Hyle_Hunt), a knight highly placed in Lord Tarly's army and a man whom Brienne despises.
+Hunt begins to mock her and Brienne warns him that she will sort him out in a melee some day, just as she did Red [Ronnet Connington](wiki:Ronnet_Connington) during the melee at [Ashford](wiki:Ashford). She asks him the location of the [Stinking Goose](wiki:Stinking_Goose), but Ser Hyle takes her to see Lord Randyll first. The commander of [Mace Tyrell](wiki:Mace_Tyrell)'s vanguard is dispensing his harsh brand of justice when they come upon him. When she is brought before him, Lord Tarly asks her if she killed [Renly](wiki:Renly_Baratheon), and then states he should ship her back to [Tarth](wiki:Tarth). But Brienne reveals the King's document that [Jaime](wiki:Jaime_Lannister) has given her, and she informs Tarly that she is seeking Sansa. He responds that Sansa is not in Maidenpool, nor would she be in [the Vale](wiki:The_Vale), as Brienne has also assumed, since [Lysa Arryn](wiki:Lysa_Arryn) is dead.
+Brienne is shocked to learn that Sansa's aunt is dead. She heads off to the tavern, sending Ser Hyle off when he attempts to apologize for his actions at [Highgarden](wiki:Highgarden). Later, awaiting the arrival of [Nimble Dick](wiki:Dick_Crabb) at the Stinking Goose, she recalls the hurtful game Hyle and his friends played at her expense. Brienne had gone to Highgarden to answer Renly Baratheon's call to banners, expecting to be ridiculed. But unbelievably, many of the young knights she met ([Big Ben Bushy](wiki:Ben_Bushy), [Edmund Ambrose](wiki:Edmund_Ambrose), [Hyle Hunt](wiki:Hyle_Hunt), [Red Ronnet Connington](wiki:Ronnet_Connington), [Hugh Beesbury](wiki:Hugh_Beesbury), [Richard Farrow](wiki:Richard_Farrow), [Owen Inchfield](wiki:Owen_Inchfield), and [Mark Mullendore](wiki:Mark_Mullendore)) were exceedingly kind to her, going above and beyond the others to win her favor. Wary of their intentions, Brienne was still vulnerable thanks to hope, but she soon learned the truth. Randyll Tarly called her before him to reveal what he had learned of their game through his son [Dickon](wiki:Dickon_Tarly). The knights involved had a burgeoning wager on who could claim her maidenhead. Tarly ended their game, but told her the fault lay with herself, claiming her being here encouraged them and that a war host is no place for a maiden.
+When Dick Crabb finally arrives, Brienne offers to buy him drinks. Nimble Dick soon launches into his story, egged on by a steady bribe from Brienne. He explains how he offered to help a frightened fool(wiki:A_Feast_for_Crows-Chapter_14.cite_ref-1) make it across the [Narrow Sea](wiki:Narrow_Sea). The fool claimed he had two girls with him, but couldn't chance the ports in Maidenpool. So Dick took his coin and took him and the girls along the shore to an old, now-unused smuggler's cove, up past [Crackclaw Point](wiki:Crackclaw_Point). Nimble Dick agrees to take her there for a large sum of coin, pointing out that he is from the area, and warns Brienne of the [Whispers](wiki:Whispers), a keep built by a mythical ancestor of his, Ser [Clarence Crabb](wiki:Clarence_Crabb).

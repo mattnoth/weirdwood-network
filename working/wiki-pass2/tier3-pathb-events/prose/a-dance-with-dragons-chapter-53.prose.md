@@ -1,0 +1,63 @@
+## Narrative Arc
+
+[Jon](wiki:Jon_Snow) treats with [Tormund Giantsbane](wiki:Tormund_Giantsbane). His four thousand [wildlings](wiki:Wildlings) will be allowed past the wall, including mammoths and giants. They must leave one hundred boys as hostages at [Castle Black](wiki:Castle_Black), and yield all valuables to pay for food. The mammoths are to go the long way around through [Eastwatch](wiki:Eastwatch-by-the-Sea) while the rest are allowed to go through the gates.
+Jon accompanies [Val](wiki:Val) to go see [Queen Selyse](wiki:Selyse_Florent) to tell her of the bargain. The queen is excited and tells him that her husband will be proud, all the wildlings have to do is swear fealty to the king and convert to [R'hllor](wiki:R'hllor). This is when Jon tells her that this was not part of the bargain, and Val adds that the free folk do no kneel. Selyse is quite upset about this. Val notices [Shireen](wiki:Shireen_Baratheon)'s facial disfigurements, noting that it is [grey death](wiki:Greyscale). Jon tells her that it is not always fatal, but she is adamant that it is death, and that the baby "monster" must be taken out of that tower at once and closer to her own person. She insists that Shireen is dead and that the queen and apparently Jon cannot see it.
+He then goes to the top of the wall, wondering what has happened to [Mance Rayder](wiki:Mance_Rayder) and if he has found his sister [Arya](wiki:Arya_Stark). Up here he meets [Torghen Flint](wiki:Torghen_Flint) of the [first Flints](wiki:House_Flint_of_the_mountains) and [Brandon Norrey](wiki:Brandon_Norrey), the [Norrey clan](wiki:House_Norrey) chief. Jon tells them that the wildlings are coming through, though they are not happy about it because of past conflicts. He tells them that they must forgive crimes of the past if they are to live together. They are worried about their lands, but Jon tells them the wildlings are to remain on the wall in the abandoned castles.
+[Bowen Marsh](wiki:Bowen_Marsh) sees this agreement as a betrayal of Jon's vows to the [Night's Watch](wiki:Night's_Watch). However, Jon says that he is sworn to defend the realms of men and asks him whether the people beyond the wall don't count as men. Thus it is his intent to use all available resources to defend the realm of men against [The Others](wiki:The_Others).
+
+## Appearances & Description
+
+[Tormund Giantsbane](wiki:Tormund)
+[Mance Rayder](wiki:Mance_Rayder)
+[Jon Snow](wiki:Jon_Snow)
+[Dormund](wiki:Dormund)
+[Stannis Baratheon](wiki:Stannis_Baratheon)
+[Richard Horpe](wiki:Richard_Horpe)
+[Torwynd](wiki:Torwynd)
+[Munda](wiki:Munda)
+[Longspear Ryk](wiki:Ryk)
+[Aerys II Targaryen](wiki:Aerys_II_Targaryen)
+[Tall Toregg](wiki:Toregg)
+[Leathers](wiki:Leathers)
+[Hareth](wiki:Hareth_(Mole's_Town)), the "Horse"
+[Ghost](wiki:Ghost)
+[Jeor Mormont](wiki:Jeor_Mormont)
+[Val](wiki:Val)
+[Axell Florent](wiki:Axell_Florent)
+[Mully](wiki:Mully)
+"[Little monster](wiki:The_abomination)"
+[Selyse Florent](wiki:Selyse_Florent)
+[Wun Weg Wun Dar Wun](wiki:Wun_Weg_Wun_Dar_Wun)
+[Dalla](wiki:Dalla)
+[Mother Mole](wiki:Mother_Mole)
+[Cotter Pyke](wiki:Cotter_Pyke)
+[Melisandre](wiki:Melisandre)
+[Ulmer](wiki:Ulmer)
+[Satin](wiki:Satin)
+[Bowen Marsh](wiki:Bowen_Marsh)
+[Othell Yarwyck](wiki:Othell_Yarwyck)
+[Cellador](wiki:Cellador)
+[Clydas](wiki:Clydas)
+[Samwell Tarly](wiki:Samwell_Tarly)
+[Three-Finger Hobb](wiki:Hobb)
+[Patrek of King's Mountain](wiki:Patrek_of_King's_Mountain)
+[Patchface](wiki:Patchface)
+[Shireen Baratheon](wiki:Shireen_Baratheon)
+[Wildling prince](wiki:Wildling_prince)
+[Edric Storm](wiki:Edric_Storm)
+[Robert Baratheon](wiki:Robert_Baratheon)
+[Ty](wiki:Ty)
+[Owen](wiki:Owen_the_Oaf)
+[Eddard Stark](wiki:Eddard_Stark)
+[Robb Stark](wiki:Robb_Stark)
+[Arya Stark](wiki:Arya_Stark)
+[Mikken](wiki:Mikken)
+[Ramsay Bolton](wiki:Ramsay_Bolton)
+[Brandon Norrey](wiki:Brandon_Norrey)
+[Torghen Flint](wiki:Torghen_Flint)
+[Denys Mallister](wiki:Denys_Mallister)
+[Weeper](wiki:Weeper)
+[Black Jack Bulwer](wiki:Black_Jack_Bulwer)
+[Hairy Hal](wiki:Hairy_Hal)
+[Garth Greyfeather](wiki:Garth_Greyfeather)
+[Janos Slynt](wiki:Janos_Slynt)

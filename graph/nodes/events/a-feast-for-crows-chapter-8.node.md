@@ -1,0 +1,24 @@
+---
+name: "A Feast for Crows-Chapter 8"
+type: event.battle
+slug: a-feast-for-crows-chapter-8
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Feast_for_Crows-Chapter_8"
+bucket_id: tier3-pathb-events
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+A Feast for Crows-Chapter 8 is a battle/event from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+Standing a planned seven day vigil over [his father](wiki:Tywin_Lannister)'s funeral bier, [Jaime](wiki:Jaime_Lannister) finds himself with a lot of time for thinking. He feels that he is as much to blame for his father's death as [Tyrion](wiki:Tyrion_Lannister) or [Varys](wiki:Varys). He also finds himself wondering what happened to the eunuch. His thoughts then turn to the day that Prince [Rhaegar](wiki:Rhaegar_Targaryen) rode for the [Trident](wiki:Battle_of_the_Trident). Jaime had begged not to be left behind to guard the king, but Rhaegar told him that [Aerys](wiki:Aerys_II_Targaryen) feared Lord Tywin more than he did [Robert](wiki:Robert_Baratheon), and meant to keep Jaime at his side as insurance. Mounting up, Rhaegar's last words to Jaime were, "When this battle's done I mean to call a council. Changes will be made. I meant to do it long ago, but...well, it does no good to speak of roads not taken." Finally, Jaime recalls his recent questioning of the [chief undergaoler](wiki:Rennifer_Longwaters), which was a complete farce as Jaime knew far more than the man did, since he was the perpetrator.
+When Jaime learned that the two gaolers who were put to sleep were killed by [Boros Blount](wiki:Boros_Blount) and [Osmund Kettleblack](wiki:Osmund_Kettleblack), he reprimanded them, warning them never to act on [his sister](wiki:Cersei_Lannister)'s orders to kill anyone without consulting him first. Some time in the middle of the night, Cersei visits him with news of [Kevan](wiki:Kevan_Lannister)'s refusal to become her [Hand](wiki:Hand_of_the_King), as well as remarking that Kevan knows about their relationship. She implores Jaime to reconsider being Hand, but Jaime rejects her again. She departs with, "Very well. If it is battlefields you want, battlefields I shall give you." The next morning, the mourners arrive anew, but the smell is so nauseating that [Tommen](wiki:Tommen_Baratheon) gets sick. Jaime takes him outside to console him, advising him to "go away inside", something Tommen understands from when [Joffrey](wiki:Joffrey_Baratheon) would torment him. Cersei then joins them, as does [Mace Tyrell](wiki:Mace_Tyrell), and Jaime asks the Lord of [Highgarden](wiki:Highgarden) to have dinner with his sister. When Mace departs, Jaime tells Cersei to get the wedding over with, and then send Lord Mace to besiege [Storm's End](wiki:Storm's_End) once again. Cersei likes the idea, hoping Tyrell might lose his life this time.

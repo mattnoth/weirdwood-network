@@ -1,0 +1,80 @@
+---
+name: "A Dance with Dragons-Chapter 49"
+type: event.battle
+slug: a-dance-with-dragons-chapter-49
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons-Chapter_49"
+bucket_id: tier3-pathb-events
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+A Dance with Dragons-Chapter 49 is a battle/event from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+[Melisandre](wiki:Melisandre) is conducting the marriage ceremony between [Alys Karstark](wiki:Alys_Karstark) and [Sigorn](wiki:Sigorn), the new [Magnar](wiki:Magnar) of [Thenn](wiki:Thenn_(valley)). Only a few brothers of the [Night's Watch](wiki:Night's_Watch) attend, along with Queen [Selyse](wiki:Selyse_Florent), her [queen's men](wiki:Queen's_men), and a few king's men that [Stannis Baratheon](wiki:Stannis_Baratheon) left behind. Meanwhile, [Jon Snow](wiki:Jon_Snow) has ordered [Clydas](wiki:Clydas) to dispatch a raven to [Deepwood Motte](wiki:Deepwood_Motte) in order to warn Stannis of [Arnolf Karstark](wiki:Arnolf_Karstark)'s treachery.(wiki:A_Dance_with_Dragons-Chapter_49.cite_ref-1)
+[Cregan Karstark](wiki:Cregan_Karstark) followed his niece Alys to [Castle Black](wiki:Castle_Black) a day after her arrival. Jon met him before he could reach the fortress and imprisoned Cregan and his men in the ice cells at the [Wall](wiki:Wall). Knowing that Stannis will execute Cregan when he learns of the betrayal, Jon tries to get Cregan to take the black and accept Alys's claim to [Karhold](wiki:Karhold). Cregan will not hear about it, but Jon thinks time spent in the ice cell might change his mind.
+At Alys and Sigorn's wedding feast, a raven brings message that the relief fleet for [Hardhome](wiki:Hardhome), delayed due to the bad weather, has now left [Eastwatch-by-the-Sea](wiki:Eastwatch-by-the-Sea). [Cotter Pyke](wiki:Cotter_Pyke) is commanding the fleet and he left behind [Glendon Hewett](wiki:Glendon_Hewett) in charge of Eastwatch. Jon is unsure of Glendon's loyalty due to his association with [Janos Slynt](wiki:Janos_Slynt) and [Alliser Thorne](wiki:Alliser_Thorne). [Axell Florent](wiki:Axell_Florent) once again presses Jon to release the whereabouts of [Val](wiki:Val), as he intends to marry her, but Jon scoffs at the idea. The wedding feast comes to an abrupt end when a horn is sounded twice, announcing [wildlings](wiki:Wildlings). Jon knows that Val has succeeded in her mission, and that [Tormund Giantsbane](wiki:Tormund_Giantsbane) has come at last.(wiki:A_Dance_with_Dragons-Chapter_49.cite_ref-2)
+
+## Appearances & Description
+
+[Jon Stark](wiki:Jon_Stark)
+[Melisandre](wiki:Melisandre)
+[Old Nan](wiki:Old_Nan)
+[Ghost](wiki:Ghost)
+[Alys Karstark](wiki:Alys_Karstark)
+[Selyse Florent](wiki:Selyse_Florent)
+[Stannis Baratheon](wiki:Stannis_Baratheon)
+[Brus Buckler](wiki:Brus_Buckler)
+[Malegorn of Redpool](wiki:Malegorn_of_Redpool)
+[Narbert Grandison](wiki:Narbert_Grandison)
+[Patrek of King's Mountain](wiki:Patrek_of_King's_Mountain)
+[Axell Florent](wiki:Axell_Florent)
+[Lambert Whitewater](wiki:Lambert_Whitewater)
+[Shireen Baratheon](wiki:Shireen_Baratheon)
+[Patchface](wiki:Patchface)
+[Othell Yarwyck](wiki:Othell_Yarwyck)
+[Bowen Marsh](wiki:Bowen_Marsh)
+[Chayle](wiki:Chayle)
+[Satin](wiki:Satin)
+[Sigorn](wiki:Sigorn)
+[Cregan Karstark](wiki:Cregan_Karstark)
+[Ty](wiki:Ty)
+[Mully](wiki:Mully)
+[Hobb](wiki:Hobb)
+[Owen the Oaf](wiki:Owen_the_Oaf)
+[Clydas](wiki:Clydas)
+[Arnolf Karstark](wiki:Arnolf_Karstark)
+[Azor Ahai](wiki:Azor_Ahai)
+[Mance Rayder](wiki:Mance_Rayder)
+[Harrion Karstark](wiki:Harrion_Karstark)
+[Ramsay Snow](wiki:Ramsay_Snow)
+[Eddard Stark](wiki:Eddard_Stark)
+[Benjen Stark](wiki:Benjen_Stark)
+[Old Flint](wiki:Torghen_Flint)
+[The Norrey](wiki:Brandon_Norrey)
+[Val](wiki:Val)
+[Ulmer](wiki:Ulmer)
+[Simon Toyne](wiki:Simon_Toyne)
+[Big Belly Ben](wiki:Big_Belly_Ben)
+[Wenda the White Fawn](wiki:Wenda_the_White_Fawn)
+[Ygritte](wiki:Ygritte)
+[Styr](wiki:Styr)
+[Robb Stark](wiki:Robb_Stark)
+[Leathers](wiki:Leathers)
+[Wun Wun](wiki:Wun_Wun)
+[Harmune](wiki:Harmune)
+[Cotter Pyke](wiki:Cotter_Pyke)
+[Glendon Hewett](wiki:Glendon_Hewett)
+[Alliser Thorne](wiki:Alliser_Thorne)
+[Janos Slynt](wiki:Janos_Slynt)
+[Roose Bolton](wiki:Roose_Bolton)
+[Tormund Giantsbane](wiki:Tormund_Giantsbane)

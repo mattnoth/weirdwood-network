@@ -1,0 +1,30 @@
+---
+name: "Sowing"
+type: event.war
+slug: sowing
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Sowing"
+bucket_id: tier3-pathb-events
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Sowing is a war from the AWOIAF wiki.
+
+## Edges
+
+
+## Origins
+
+Queen [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen) had been broken by childbirth, betrayal, and the death of her son [Lucerys Velaryon](wiki:Lucerys_Velaryon). Following the death of Princess [Rhaenys Targaryen](wiki:Rhaenys_Targaryen_(daughter_of_Aemon)) and her [dragon](wiki:Dragon) [Meleys](wiki:Meleys) at [Rook's Rest](wiki:Rook's_Rest), Rhaenyra received the blame from Rhaenys's husband, Lord [Corlys Velaryon](wiki:Corlys_Velaryon). Her eldest son, [Jacaerys Velaryon](wiki:Jacaerys_Velaryon), stepped forth and took charge, sending most of his siblings to safety, with only his half-sister and betrothed [Baela](wiki:Baela_Targaryen) remaining on [Dragonstone](wiki:Dragonstone). Jacaerys next named Lord Corlys as Rhaenyra's [Hand of the Queen](wiki:Hand_of_the_Queen), and together with him began to plan an assault on [King's Landing](wiki:King's_Landing).(wiki:Sowing.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)(wiki:Sowing.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+At King's Landing, only [Vhagar](wiki:Vhagar) and [Dreamfyre](wiki:Dreamfyre) remained to defend the city, and Dreamfyre's rider, Queen [Helaena Targaryen](wiki:Helaena_Targaryen), had sunken into madness and was unable to fly her. Although none of the dragons on Rhaenyra's side could match Vhagar, Jacaerys expressed belief that [Vermax](wiki:Vermax), [Syrax](wiki:Syrax), and [Caraxes](wiki:Caraxes) combined should be able to defeat the older dragon.(wiki:Sowing.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)(wiki:Sowing.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+Regardless, a call was made out to all "[dragonseeds](wiki:Dragonseeds)", [Targaryen](wiki:House_Targaryen) [bastards](wiki:Bastard) or their descendants. Prince Jacaerys promised [knighthood](wiki:Knight), lands and wealth to anyone who could [master](wiki:Dragonrider) a dragon.(wiki:Sowing.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)(wiki:Sowing.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+
+## Aftermath
+
+Lord [Corlys Velaryon](wiki:Corlys_Velaryon) asked Rhaenyra to remove the taint of [bastardy](wiki:Bastardy) from [Addam](wiki:Addam_Velaryon) and his brother [Alyn](wiki:Alyn_Velaryon), making them true [Velaryons](wiki:House_Velaryon), and he named Addam heir to [Driftmark](wiki:Driftmark).(wiki:Sowing.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)(wiki:Sowing.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
+Prince [Jacaerys Velaryon](wiki:Jacaerys_Velaryon) planned to fly together with the new-found [dragonriders](wiki:Dragonriders) on [King's Landing](wiki:King's_Landing) on the first full moon of [130 AC](wiki:130_AC). Yet as the year drew to a close, news reached [Dragonstone](wiki:Dragonstone) of the attack on the [Gay Abandon](wiki:Gay_Abandon), which had been escorting Jacaerys's half-brothers [Aegon](wiki:Aegon_III_Targaryen) and [Viserys](wiki:Viserys_II_Targaryen), and its escorts by ships from the [Triarchy](wiki:Triarchy). Instead of an attack on King's Landing, Jacaerys and his fellow dragonriders flew against the Triachy's fleet and fought them in the [Battle of the Gullet](wiki:Battle_of_the_Gullet). Jacaerys and his dragon [Vermax](wiki:Vermax) died during the battle.(wiki:Sowing.cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)(wiki:Sowing.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-7)

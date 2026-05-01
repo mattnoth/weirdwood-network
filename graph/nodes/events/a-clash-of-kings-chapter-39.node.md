@@ -1,0 +1,26 @@
+---
+name: "A Clash of Kings-Chapter 39"
+type: event.battle
+slug: a-clash-of-kings-chapter-39
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Clash_of_Kings-Chapter_39"
+bucket_id: tier3-pathb-events
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+A Clash of Kings-Chapter 39 is a battle/event from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+[Catelyn](wiki:Catelyn_Tully) and her escort are nearing [Riverrun](wiki:Riverrun) and are met by [Martyn Rivers](wiki:Martyn_Rivers) and his outriders. She learns that [Robb](wiki:Robb_Stark) has crushed Ser [Stafford Lannister](wiki:Stafford_Lannister)’s levies, and that the [Greatjon](wiki:Jon_Umber) has seized three of the [Lannisters](wiki:House_Lannister)' gold mines. Robb reached [Oxcross](wiki:Battle_of_Oxcross) by following a trail [Grey Wind](wiki:Grey_Wind) had discovered around the [Golden Tooth](wiki:Golden_Tooth). However, Martyn tells her that Lord [Tywin](wiki:Tywin_Lannister) is marching on Riverrun as they speak. Catelyn makes all haste back to her father [Hoster's](wiki:Hoster_Tully) castle, but first takes [Brienne](wiki:Brienne_of_Tarth) as her sworn sword, to prevent the girl from doing anything foolish. Catelyn is fearful of her brother [Edmure's](wiki:Edmure_Tully) chances in battle against Lord Tywin, and outside Riverrun discovers [Lannister men](wiki:House_Lannister_guards) hanging from the walls. Edmure informs her that four men from Ser [Cleos's](wiki:Cleos_Frey) party attempted to free Ser [Jaime](wiki:Jaime_Lannister), and nearly succeeded. They were hanged for their deeds, and the Kingslayer was placed in the deep dungeons and chained to the wall. Her father's steward, [Utherydes Wayn](wiki:Utherydes_Wayn), asks Catelyn if there is no hope of aid from the south, hoping that [Stannis Baratheon](wiki:Stannis_Baratheon) will be forced to make common cause with them, but Catelyn gives no answer, since 'Stannis has made common cause with '[a power greater and darker](wiki:R'hllor)'.
+Edmure also explains that birds have arrived from [Storm's End](wiki:Storm's_End), with messages from Ser [Cortnay Penrose](wiki:Cortnay_Penrose) seeking help. Cortnay claimed he feared for the boy [Edric Storm](wiki:Edric_Storm), [Robert's](wiki:Robert_I_Baratheon) only known high-born bastard. Catelyn makes known her dissent in Edmure giving Lord Tywin battle. Her brother has commanded [Roose Bolton](wiki:Roose_Bolton) to take [Harrenhal](wiki:Harrenhal), and has also called the levies from the [Twins](wiki:Twins), those under the command of Ser [Helman Tallhart](wiki:Helman_Tallhart). Catelyn argues that Robb left those men to make certain Lord [Walder](wiki:Walder_Frey) kept faith. She learns that Roose wed [one of Lord Walder's daughters](wiki:Walda_Frey_(daughter_of_Merrett)).
+Catelyn then visits her father, but Lord Hoster mistakes her for [Lysa](wiki:Lysa_Arryn), and mumbles several strange, disjointed lines, "[Jon](wiki:Jon_Arryn)’s a good man…strong, kind…you’ll wed when Catelyn does…That stripling…wretched boy…not speak that name to me, your duty…". Catelyn is then led by Utherydes to the [silent sisters](wiki:Silent_sisters) who possess Lord [Eddard's](wiki:Eddard_Stark) bones. When she states that she must thank [Cersei](wiki:Cersei_Lannister) for even this much, her father's steward tells her to thank the [Imp](wiki:Tyrion_Lannister), since it was his doing. Catelyn thinks to herself "One day I will thank them all".
+Catelyn commands the silent sisters to lay Ned's bones to rest in the [crypts of Winterfell](wiki:Crypts_of_Winterfell), and then asks to be left alone with her husband's body, musing that she envies the silent sisters for their supposed ability to speak to the dead.

@@ -1,0 +1,25 @@
+---
+name: "Gutter knights"
+type: event.war
+slug: gutter-knights
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Gutter_knights"
+bucket_id: tier3-pathb-events
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+---
+
+## Identity
+
+Gutter knights is a war from the AWOIAF wiki.
+
+## Edges
+
+
+## Origins
+
+During the [Dance of the Dragons](wiki:Dance_of_the_Dragons), violent [riots](wiki:Riot_of_King's_Landing_(Dance_of_the_Dragons)) occurred in the capital. Ser [Perkin the Flea](wiki:Perkin_the_Flea)'s gutter knights fought Ser [Torrhen Manderly](wiki:Torrhen_Manderly)'s [northmen](wiki:Northmen) at [Fishmonger's Square](wiki:Fishmonger's_Square). The gutter knights managed to kill a quarter of Manderly's men, as the latter fought their way back to the [Red Keep](wiki:Red_Keep).(wiki:Gutter_knights.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)(wiki:Gutter_knights.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+During the [Moon of the Three Kings](wiki:Moon_of_the_Three_Kings), King Trystane raised threescore of gutter knights to nobility.(wiki:Gutter_knights.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+At the end of [130 AC](wiki:130_AC), Ser Perkin and his gutter knights agreed to [turn their cloaks](wiki:Turncloak) and abandon Trystane's cause in exchange of pardons from King [Aegon II Targaryen](wiki:Aegon_II_Targaryen). Subsequently, they helped Lord [Borros Baratheon](wiki:Borros_Baratheon) to regain control of the city for King Aegon.(wiki:Gutter_knights.cite_ref-Rfabthe_dying_of_the_dragons_-_the_short.2C_sad_reign_of_aegon_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

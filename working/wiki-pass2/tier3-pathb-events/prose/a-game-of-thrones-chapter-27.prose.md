@@ -1,0 +1,58 @@
+## Narrative Arc
+
+[Ned](wiki:Eddard_Stark) and the [small council](wiki:Small_council) hear the report of [Janos Slynt](wiki:Janos_Slynt), Commander of the [City Watch of King's Landing](wiki:City_Watch_of_King's_Landing), about the significant increase in crime caused by the influx of people arriving for the upcoming tourney. Slynt requests more men. Ned agrees to hire fifty new watchmen, setting [Littlefinger](wiki:Petyr_Baelish) to arrange the monetary details. When Littlefinger objects, Ned insists that since he found 40,000 [gold dragons](wiki:Currency) for the champion’s purse, he should be able to scrape together a few coppers to keep the King’s Peace. Ned also loans Slynt twenty of his own household guard.
+Ned complains again about the tourney, still irritated that it is to be called "the [Hand's tourney](wiki:Hand's_tourney)" despite his distaste. Moreover, King [Robert](wiki:Robert_I_Baratheon) still insists that Ned should feel honored. Grand Maester [Pycelle](wiki:Pycelle) points out that a tourney is good for the realm because it brings the great an opportunity for glory and the lowly a respite from their woes. Littlefinger adds that it brings in lots of money, emphasizing full inns and whores walking bowlegged. Lord [Renly](wiki:Renly_Baratheon) laughs, telling how his brother [Stannis](wiki:Stannis_Baratheon) once proposed outlawing brothels, prompting Robert to ask if he wanted to outlaw eating, shitting, and breathing as well. Renly goes on to wonder how Stannis ever fathered [his daughter](wiki:Shireen_Baratheon) when he goes to his marriage bed like he is marching to a battlefield to do his duty. Everyone laughs except Ned, who is preoccupied by thoughts of when Stannis will return and assume his [duties](wiki:Master_of_Ships) on the council.
+After the council adjourns, Ned returns to the [Tower of the Hand](wiki:Tower_of_the_Hand) and summons [Jory Cassel](wiki:Jory_Cassel). As he waits for his horse to be saddled, Ned peruses the book that [Jon Arryn](wiki:Jon_Arryn) had been reading prior to his death: [Lineages of the Great Houses](wiki:The_Lineages_and_Histories_of_the_Great_Houses_of_the_Seven_Kingdoms,_With_Descriptions_of_Many_High_Lords_and_Noble_Ladies_and_Their_Children) by Grand Maester [Malleon](wiki:Malleon). Its reading has proven extremely tedious, just as Pycelle warned, and scarcely a man now alive had been born when it was written, but Ned is sure Jon Arryn had a reason for reading it. As he browses the section on [House Lannister](wiki:House_Lannister), Ned muses on their long history and the myths of their ancestor [Lann the Clever](wiki:Lann_the_Clever), who stole gold from the sun to brighten his curly hair.
+Jory arrives and briefs Ned on his interview with one of Jon Arryn's stableboys, the last of the four leads provided by Littlefinger. Ser [Hugh](wiki:Hugh) proved brusque, arrogant, and uninformative. The serving girl could only say that Jon Arryn had been reading too much, concerned about [his son's](wiki:Robert_Arryn) frailty, and gruff with [his wife](wiki:Lysa_Arryn). Meanwhile, the pot boy was only able to provide lots of kitchen gossip, including that Lord Stannis had accompanied Lord Arryn to meet an [armorer](wiki:Tobho_Mott) about elaborate new armor. The stableboy proves just as informative. He swears that Lord Arryn was as strong as a man half his age and often went riding with Lord Stannis. This Ned finds strange; as far as he knew, Jon and Stannis were never friendly. Jory says that the stableboy also claims that Stannis and Jon Arryn visited a brothel together. Unfortunately, the boy did not know which brothel; only the guards that escorted them would know, and they were taken back to the [Eyrie](wiki:Eyrie) with Lady [Lysa](wiki:Lysa_Arryn).
+That Stannis would visit a brothel is very strange because he is so stern and humorless. That Stannis’ name keeps coming up and that he has left the city with no word about when he will return also vexes Ned. He wonders why Stannis would leave and decides that something must have frightened him, yet Ned cannot imagine what could have frightened Stannis, who withstood the year-long [siege of Storm's End](wiki:Siege_of_Storm's_End) by surviving on rats and boot leather. Both Ned and Jory find it frustrating that everyone that might know the truth is a thousand leagues away. When Jory asks if he will call Stannis back from [Dragonstone](wiki:Dragonstone), Ned says not yet.
+Ned plans to visit the armorer himself and decides to wear his doublet with the direwolf sigil so the armorer will know who he is. As Jory dresses him, Ned wonders why Renly was not invited on the rides. Ned does not know what to make of Renly with his friendly ways and easy smiles. A few days back, Renly showed him a locket with a picture of [Margaery Tyrell](wiki:Margaery_Tyrell). He asked Ned if she resembled [Lyanna](wiki:Lyanna_Stark) and seemed disappointed when Ned shrugged. Ned finds it queer that Renly, who looks so much like Robert, would be obsessed with a lady that he thought looked like Lyanna.
+Ned tells Jory that it would be good if Stannis returned for the tourney, but Jory’s response makes Ned more certain that Stannis will not. He also wonders why Lord Arryn would be interested in showy armor when he had always considered armor something for protection, not ornament. Ned then tells Jory that he better start visiting brothels, which Jory jokingly calls a “hard duty.”
+The streets of [King’s Landing](wiki:King’s_Landing) are crowded, but Ned and his guardsmen [Varly](wiki:Varly) and [Jacks](wiki:Jacks) make it through the crowd to the [Mud Gate](wiki:Mud_Gate) where Lord [Beric Dondarrion](wiki:Beric_Dondarrion) is arriving with his retinue to participate in the Hand's tourney. [At the top](wiki:Visenya's_Hill) of the [Street of Steel](wiki:Street_of_Steel) they find the [huge house](wiki:Shop_of_Tobho_Mott) of the armorer [Tobho Mott](wiki:Tobho_Mott). After shouldering his way in, a serving girl notices Ned's sigil and badge of office and Tobho quickly appears, offering [wine](wiki:Wine). Mott immediately tells Ned that his prices are not cheap but his craftsmanship in unequaled in the [Seven Kingdoms](wiki:Seven_Kingdoms). He adds proudly that the [Knight of Flowers](wiki:Loras_Tyrell) buys all his armor from him and that he can work [Valyrian steel](wiki:Valyrian_steel).
+Ned lets the armorer go on for a while before he asks if Jon Arryn bought a falcon helm from him. Mott says that Lord Arryn bought nothing, only wanting to see the apprentice boy named [Gendry](wiki:Gendry). Any hint of friendliness leaves Mott when Ned asks to see the boy as well. In the hot stone barn that contains the forges, the armorer introduces Gendry and shows Ned a helmet that the boy has crafted. Ned notes that the unfinished helm is expertly shaped and offers to buy it. Gendry immediately grabs the helmet back, insisting it is not for sale. Mott rushes to offer apologies for Gendry's behavior, but Ned states there is nothing to forgive.
+Ned asks Gendry what he and Jon Arryn talked about. Gendry explains that Lord Arryn asked about his age, if he was well treated, and about his mother. Ned asks about the boy’s mother as well, and is told that she is dead, but that she was an alehouse wench with blonde hair. Ned examines Gendry and notices a remarkable resemblance to a younger King Robert, especially his black hair and blue eyes.
+Ned asks Mott who paid the boy’s apprentice fee. Mott claims he took the boy on for free since he was so strong. Ned does not believe this for a moment. Mott admits that an unknown lord had paid twice the normal apprentice fee for Gendry and said the extra money was for his silence. Ned decides he likes Tobho. Before he leaves, Ned tells the armorer to send Gendry to him if the day comes that he wants to wield a sword instead of forge one. Ned also quips that if he ever wants a helm to frighten children, this will be the first place he visits.
+As he rejoins his guards outside, Ned still does not understand what Jon Arryn wanted with a king's [bastard](wiki:Bastard), nor why it led to his death.
+
+## Appearances & Description
+
+Appearing:
+[Petyr Baelish](wiki:Petyr_Baelish)
+[Robert I Baratheon](wiki:Robert_I_Baratheon)
+[Harwin](wiki:Harwin)
+[Renly Baratheon](wiki:Renly_Baratheon)
+[Jory Cassel](wiki:Jory_Cassel)
+[Beric Dondarrion](wiki:Beric_Dondarrion)
+[Gendry](wiki:Gendry)
+[Jacks](wiki:Jacks)
+[Tobho Mott](wiki:Tobho_Mott)
+[Pycelle](wiki:Pycelle)
+[Janos Slynt](wiki:Janos_Slynt)
+[Eddard Stark](wiki:Eddard_Stark)
+[Varly](wiki:Varly)
+[Varys](wiki:Varys)
+Mentioned:
+[Alyn](wiki:Alyn)
+[Jon Arryn](wiki:Jon_Arryn)
+[Lysa Arryn](wiki:Lysa_Arryn)
+[Robert Arryn](wiki:Robert_Arryn)
+[Shireen Baratheon](wiki:Shireen_Baratheon)
+[Stannis Baratheon](wiki:Stannis_Baratheon)
+[Bran the Builder](wiki:Bran_the_Builder)
+[Colemon](wiki:Colemon)
+[Desmond](wiki:Desmond)
+[Hugh](wiki:Hugh)
+[Hullen](wiki:Hullen)
+[Lann the Clever](wiki:Lann_the_Clever)
+[Malleon](wiki:Malleon)
+[Porther](wiki:Porther)
+[Paxter Redwyne](wiki:Paxter_Redwyne)
+[Jon Snow](wiki:Jon_Snow)
+[Bran Stark](wiki:Bran_Stark)
+[Catelyn Stark](wiki:Catelyn_Stark)
+[Lyanna Stark](wiki:Lyanna_Stark)
+[Robb Stark](wiki:Robb_Stark)
+[Aegon I Targaryen](wiki:Aegon_I_Targaryen)
+[Tomard](wiki:Tomard)
+[Loras Tyrell](wiki:Loras_Tyrell)
+[Mace Tyrell](wiki:Mace_Tyrell)
+[Margaery Tyrell](wiki:Margaery_Tyrell)
