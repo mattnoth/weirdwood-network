@@ -73,6 +73,7 @@ This is your project memory. When you come back after a break, read Current Stat
 - [x] Wiki Pass 2 Stage 3 — secondary (Session 26; FULL pipeline rebuilt as Python-only after design review showed the Stage 3b agent was inertia-driven. 472 buckets / 3,315 candidate pages → 3,314 nodes promoted. Cumulative graph: 855→4,169 then →4,239 after Tier-1+Tier-2 recovery. Cost $0. Wall-clock ~30 sec total. 0 conflicts.) Canonical pipeline: `working/runbooks/wiki-pass2-pipeline.md` (rewritten as v3).
 - [x] Wiki Pass 2 Stage 3c — audit cleanup (Session 27; 4 audits run, 6 parser bugs fixed, 484 nodes re-emitted across multiple targeted runs. Tier 3 promotion campaign Passes A-D + E Phase 1 added 769 new nodes. Cat 1 orphan edges 7,784→2,955 (62% drop). Stale religion-bleed 0. Edge vocabulary lock holds.)
 - [x] Wiki Pass 2 Path B — categorizer extension + promotion campaign (Session 28; bounded MediaWiki categories backfill + parser CATEGORY_TYPE_MAP. `unknown` 12,434 (70.4%) → 2,118 (12.0%). +2,240 graph nodes (5,008 → 7,248). Cat 1 orphan edges 2,955 → 1,973. 5 new dirs bootstrapped: `texts/`, `theories/`, `concepts/`, `species/`, `foods/`. New entity type `object.food`.)
+- [x] Wiki Pass 2 Path B promotion completion + schema-drift audit (Session 29; 4 new entity types added: `object.material`, `concept.language`, `concept.medical`, `concept.custom`. 4 new dirs: `materials/`, `languages/`, `medical/`, `customs/`. `unknown` 2,098 → 1,257. Net +315 graph nodes (7,248 → 7,563). 130 stale-dir mismatches cleaned. Full schema-drift audit on opus: 0 HIGH / 4 MED / 4 LOW. Cat 1 orphan edges 1,973 → 1,963. Edge vocabulary lock holds. Chronology data extracted from 74 year pages: 2,245 events in `working/wiki-parsed/chronology-events.jsonl` (awaits v2 temporal-edges schema; not graph edges yet).)
 - [x] Wiki Pass 2 Stage 0 foundation — alias-resolver built + run (Session 26). 707 broken refs reclaimed via slug-mismatch fix. Empirical signal validates that most remaining "broken" refs are genuinely missing concept entities (concept-pages decision: defer).
 - [ ] Wiki Pass 2 Stage 4 — prose-derived edge discovery (Stage 0 prep complete + cross-references index built; Stage 4 hybrid plan documented in `working/fleet-orchestration-plan.md`. Need to build: edge-candidate-generator script, then prose-edge-classifier agent runs (full prompt ready), then peer review, then promote. Skeleton: `2026-04-27-wiki-pass2-stage4-edge-discovery.md`)
 - [ ] Pass 3 voice/perception agent prompt written
@@ -175,6 +176,29 @@ This is your project memory. When you come back after a break, read Current Stat
 ## Session Log
 
 > Newest first. One entry per work session.
+
+### Session 29 — Promotion completion + schema-drift audit + chronology extraction (2026-05-01)
+**Detail:** `working/session-details/session-029.md`
+
+**Changes made:**
+- `scripts/wiki-infobox-parser.py` — UPDATED: 4 new entity types (`object.material`, `concept.language`, `concept.medical`, `concept.custom`) + Animals/Birds/Apes/Mythical creatures/Plants → species + Occupations → title. Wiki-meta SKIP additions (Feature quotes, Feature articles, Did you know, A Song of Ice and Fire Errata, Appendices, Years). Religions reordered before Organizations (Faith of the Seven mistype fix). 5 new ENTITY_TYPE_OVERRIDES (Battle of Castle Black → SKIP, Dragon → species, Wildfire → object.artifact, Fiddle → SKIP, Battle of the Blackwater (song) → object.text). PAGE_NAME_EXCLUSION_PATTERNS added (chronology / "Account of" / parenthetical-qualifier filters). War/conquest/rebellion/invasion/tourney patterns end-anchored. `author`/`authors` → WRITTEN_BY in FIELD_EDGE_MAP.
+- `reference/architecture.md` — 4 new Type Reference rows (`object.material`, `concept.language`, `concept.medical`, `concept.custom`). `species` description broadened to fauna kinds.
+- `scripts/wiki-pass2-promote.py` — TYPE_DIR_MAP +4 (materials, languages, medical, customs).
+- `scripts/wiki-pass2-tier3-pathb-longtail.py` — TYPE_TO_DIR +4. concept.culture → factions/ formalized.
+- 2 NEW scripts: `scripts/wiki-pass2-stale-dir-cleanup.py` (with Stage-1 v1 carve-out protection), `scripts/wiki-pass2-extract-chronology.py`.
+- `graph/nodes/` — 7,248 → 7,563 (+315 net). 4 new dirs: `materials/` (54), `languages/` (26), `medical/` (34), `customs/` (37). Migrations: 130 stale-dir cleanup (44 titles→locations, 36 titles→artifacts, 7 titles→factions, 5 chars→religions, etc.). 4 tree-foods migrated species/→foods/. Wildfire promoted to artifacts/. Battle of the Blackwater (song) migrated _unclassified/→texts/. _stage3-preview/ removed.
+- `working/audits/` — NEW: `schema-drift-2026-05-02.md` (full-corpus opus audit, $50, 0 HIGH / 4 MED / 4 LOW), `orphan-edges-2026-05-02-pathb-final.md`, cat1-full TSV.
+- `working/wiki-parsed/chronology-events.jsonl` — NEW. 2,245 chronology rows from 74 year pages (1 AC - 300 AC). NOT graph edges; awaits v2 temporal-edges schema.
+- 3 commits: `896c5a3d` (promotion completion + cleanup), `e6e206fd` (Step 6 audit + cleanups + WRITTEN_BY parser fix), `d6362f74` (chronology + culture decision).
+
+**Decisions (compressed):** Schema additions per Matt's "do not defer" — 4 new types over 1 session. Food precedes species in CATEGORY_TYPE_MAP for dual-tagged dishes/eaten-things ("anything that is eaten should be in object.food"). Religions before Organizations (Faith of the Seven mistype). War regex tightened with PAGE_NAME_EXCLUSION_PATTERNS — false positives caught structurally rather than via per-batch GLOSSARY_SKIP_PAGES. Wildfire = artifact (narrative weight, like Ice/Dawn). Fiddle = SKIP (not narrative). Dragon = species (distinct from named character.dragon individuals). 130 stale-dir mismatches surfaced + cleaned via new cleanup script with Stage-1 carve-out (the carve-out specifically protects `prompt_version: v1` agent prose, NOT `v1-python` Stage-3 deterministic emits). concept.culture canonical home = factions/ (Pass B precedent; Matt-decision 2026-05-02). WRITTEN_BY edges deferred to Stage 4 — wiki structurally lacks in-world authorship infoboxes (0/156 in-world texts have Author field). Chronology from year pages → JSONL data file, NOT graph edges (locked vocabulary doesn't include OCCURRED_IN_YEAR; v2 temporal-edges design uses structured per-edge fields).
+
+**Counts:** unknown 2,098 → 1,257 (-841). skip 8,592 → 9,167 (+575). Cat 1 orphan edges 1,973 → 1,963. Edge vocabulary violations 0 → 0 (lock holds). Schema-drift HIGH 0. Total nodes 7,563.
+
+**What's next:**
+- Stage 4 v1 — prose-edge-classifier + cross-identity detection + AGOT contradiction sweep. Continue prompt: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md` (NEW, detailed). Cost ~$50-100, 3-5 hrs wall-clock. AGOT-only Pass-1 dependency (rest of books not blocking).
+- Pass 1 mechanical extraction on remaining 4 books (271 chapters; in parallel via `weirwood`).
+- v2 temporal-edges schema design — uses chronology-events.jsonl as input.
 
 ### Session 28 — Path B Promotion Campaign + Parser Iteration (2026-04-30 → 2026-05-01)
 **Detail:** `working/session-details/session-028.md`
