@@ -1,0 +1,68 @@
+---
+name: A Game of Thrones-Chapter 48
+proposed_type: unknown
+wiki_url: https://awoiaf.westeros.org/index.php/A_Game_of_Thrones-Chapter_48
+first_available: ''  # to be filled by extraction agent
+scraped_date: 2026-04-13
+note: "Does not fit current node types. Candidate for review."
+---
+
+## Summary
+
+Jon is disgusted to learn that he will be a steward, not a ranger. Sam convinces Jon that being the Lord Commander’s steward is actually an honor meant to groom him for command. Jon and Sam are taken  beyond the Wall to a weirwood grove to say their vows before the old gods. After they have taken their vows, Ghost returns with a human hand in his jaws.
+
+## Infobox Data
+
+**Jon VI:** A Game of Thrones chapter  
+**POV:** Jon Snow  
+**Place:** Castle Black - weirwood grove  
+**Page:** 430 US HC (Other versions)  
+**Chapter chronology (All):** Jon V ↑  
+
+## Article Sections
+
+- Synopsis
+- Character List
+- Places and Terms Mentioned
+- External links
+- References and Notes
+
+## Full Text
+
+Jon is disgusted to learn that he will be a steward, not a ranger. Sam convinces Jon that being the Lord Commander’s steward is actually an honor meant to groom him for command. Jon and Sam are taken  beyond the Wall to a weirwood grove to say their vows before the old gods. After they have taken their vows, Ghost returns with a human hand in his jaws.
+
+Synopsis[ ]
+
+Jon is eating breakfast when Sam excitedly tells that he has been passed out of training with Jon and the rest. Jon feigns surprise and Sam explains that he will be working for Maester Aemon, who needs somebody who can read and write to work in the library and with the birds. Sam is concerned about getting to the sept in time, otherwise the officers may change their minds. When they arrive at the sept the other recruits are genuinely shocked to see Sam, but no one dares to say a word.
+
+All the officers arrive together. Jeor Mormont, Lord Commander of the Night's Watch, makes his customary speech about taking vows and being a member of the Night's Watch. Jeor asks if any wish to leave before taking their vows, but no one does. Then Mormont asks if any of them follow the old gods and Jon speaks up. The recruits whisper that there is no godswood at the Wall. Mormont confirms that Castle Black has no need of a godswood since the haunted forest beyond the Wall stands as it did in the Dawn Age and there is a weirwood grove half a league from the castle. It is then that Sam speaks up that he also wants to swear his vows before the heart tree, despite being born into the Faith of the Seven. When Ser Jaremy Rykker questions why Sam would forsake the gods of his House, Sam declares that the Night’s Watch is his House now and the Seven have never answered his prayers.
+
+At the end of the ceremony, the Lord Commander announces the assignments: Halder and Albett to the builders; Grenn, Pypar, Todder, and Matthar to the rangers; Samwell, Dareon, and Jon to the stewards. Jon is flabbergasted and believes there must be a mistake, but when he sees Ser Alliser Thorne's black eyes studying him he knows it is an intentional snub. The Lord Commander pronounces his last words and leaves. The Firsts call the recruits from each of the groups.
+
+After the rest are gone, Lord Steward Bowen Marsh states that Sam will work in the library and rookery with Maester Aemon, since Chett has been reassigned to the kennels. Dareon will be sent to Eastwatch to work with the merchants. Jon will be personal steward to the Lord Commander at Mormont's own request. Jon sarcastically suggests a number of menial duties for himself and is told "certainly" and given several more duties. When Jon asks if they take him for a servant, Maester Aemon answers that they took him for a man of the Night’s Watch, though perhaps they were wrong.
+
+  
+
+Jon Snow swears his vows - by Thrumugnyr©
+
+Outside in the yard, Jon rants about the unfairness of his appointment, since he is a better swordsman and rider. Dareon is angered by Jon's tantrum, since he claims he had unfairly been sent to the Wall for a false accusation by Mathis Rowan's daughter. Sam quiets Jon by telling him the Lord Commander probably intends to groom him for command. Sam explains that his father once insisted that he be at his side for all important events but once he fell out of favor his father no longer cared. Suddenly Jon is ashamed; Sam has accepted his situation like a man, while he has been playing the boy. Jon admits that Sam is right and agrees to take his vows.
+
+Late that afternoon, they proceed through the cold tunnel under the Wall and through three gates that Bowen Marsh must unlock. When they are finally outside again, Sam worries about the wildlings but is told they have never come this close to the Wall. Never-the-less, they are joined by an escort of rangers. Jon whistles and Ghost lopes out of the tunnel and then into the woods. The haunted forest is much like the wolfswood around Winterfell, but its feel is much more ominous. It is dusk when they finally arrive at a clearing with nine weirwoods, a number unheard of south of the Wall. Sam looks at the faces on each of the trees and says that he can feel the old gods watching.
+
+As night falls, Jon and Sam kneel and say their vows together:
+
+ Night gathers, and now my watch begins. It shall not end until my death. I shall take no wife, hold no lands, father no children. I shall wear no crowns and win no glory. I shall live and die at my post. I am the sword in the darkness. I am the watcher on the walls. I am the fire that burns against the cold, the light that brings the dawn, the horn that wakes the sleepers, the shield that guards the realms of men. I pledge my life and honor to the Night's Watch, for this night and all nights to come.
+
+When they are finished, Bowen Marsh declares that they knelt as boys and now rise as men of the Night's Watch. The gnarled forester Dywen says they should be getting back because there is something in the night he dislikes. Then Ghost returns, his red eyes and white face eerily like the faces carved in the weirwoods. In his jaws is a human hand.
+
+Character List[ ]
+
+Places and Terms Mentioned[ ]
+
+External links[ ]
+
+Summary and analyses of the chapter by Leigh Butler.
+
+Summary of the chapter on Tower of the Hand.
+
+References and Notes[ ]

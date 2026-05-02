@@ -1,0 +1,14 @@
+---
+name: The Winds of Winter-Barristan II
+proposed_type: unknown
+wiki_url: https://awoiaf.westeros.org/index.php/The_Winds_of_Winter-Barristan_II
+first_available: ''  # to be filled by extraction agent
+scraped_date: 2026-04-13
+note: "Does not fit current node types. Candidate for review."
+---
+
+## Full Text
+
+Redirect to:
+
+Barristan II (The Winds of Winter)

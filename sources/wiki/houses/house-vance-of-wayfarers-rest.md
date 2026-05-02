@@ -1,0 +1,248 @@
+---
+name: House Vance of Wayfarer's Rest
+type: houses
+wiki_url: https://awoiaf.westeros.org/index.php/House_Vance_of_Wayfarer's_Rest
+first_available: ''  # to be filled by extraction agent
+scraped_date: 2026-04-13
+---
+
+## Summary
+
+House Vance of Wayfarer's Rest is one of the two great branches of House Vance in the riverlands, the other being House Vance of Atranta.
+
+## Infobox Data
+
+**Coat of arms:** Quartered: a black dragon on white, two golden eyes in a golden ring on black [N 1] (Quarterly clockwise, 1st and 3rd argent, a dragon sable, 2nd and 4th sable, a two orbs or within an annulet of the last)  
+**Seat:** Wayfarer's Rest  
+**Head:** Lord Karyl Vance  
+**Region:** Riverlands  
+**Title:** Lord of Wayfarer's Rest  
+**Heir:** Liane Vance  
+**Overlords:** House Tully (AGOT)House Baelish (ADWD)  
+**Founder:** Armistead Vance  
+**Founded:** Coming of the Andals  
+
+## Article Sections
+
+- History
+- Recent Events
+- A Game of Thrones
+- A Clash of Kings
+- A Storm of Swords
+- A Feast for Crows
+- House Vance of Wayfarer's Rest at the end of the third century
+- Historical Members
+- Sworn Houses
+- Behind the Scenes
+- Notes
+- References
+
+## Full Text
+
+House Vance of Wayfarer's Rest is one of the two great branches of House Vance in the riverlands, the other being House Vance of Atranta. 
+
+Neither their arms or their motto appear in the books. According to semi-canon sources they blazon their arms as quartered, a black dragon on white, two golden eyes in a golden ring on black. They supported the blacks during the Dance of the Dragons, but it is not known whether the black dragon on their sigil is supposed to indicate this choice, as the arms were created before George R. R. Martin decided they supported the blacks.
+
+House Vance rules over wider domains and can field a much larger army than their liege lords, House Tully. House Smallwood is sworn to one of the Vance families.
+
+Contents
+
+1 History
+
+2 Recent Events
+
+2.1 A Game of Thrones
+
+2.2 A Clash of Kings
+
+2.3 A Storm of Swords
+
+2.4 A Feast for Crows
+
+3 House Vance of Wayfarer's Rest at the end of the third century
+
+4 Historical Members
+
+5 Sworn Houses
+
+6 Behind the Scenes
+
+7 Notes
+
+8 References
+
+History[ ]
+
+Armistead Vance was the mightiest of the Andal conquerors who defeated Tristifer IV Mudd, King of the Rivers and the Hills, during the coming of the Andals to the riverlands.
+
+In the century after the downfall of House Justman, the Vances were among the petty kings who disputed the riverlands. The earliest reference to different branches of House Vance is simply that "both" Lords Vance died in the Battle of Six Kings around 400 years before the Targaryen Conquest, when the Storm Kings from House Durrandon extended their rule over the riverlands. It is still unclear if the Vances of Atranta or Wayfarer's Rest are the younger branch, or if they are both younger branches of an older line that died out.
+
+The Vances joined the rebellion of river lords against Harren Hoare, King of the Isles and the Rivers, during Aegon's Conquest.
+
+The Vances supported Prince Aegon Targaryen against King Maegor I Targaryen, but Lord Ronnel Vance and Aegon the Uncrowned were slain in the Battle Beneath the Gods Eye.
+
+Lord Vance of Wayfarer's Rest attended the Golden Wedding and observed King Jaehaerys I Targaryen. Queen Rhaena Targaryen and her dragon, Dreamfyre, briefly stayed with the Vances of Wayfarer's Rest. Vances were among the handmaidens of Jaehaerys's wife, Queen Alysanne Targaryen, at Dragonstone when she was pregnant with Aemon Targaryen.
+
+House Vance of Wayfarer's Rest supported the blacks of Rhaenyra Targaryen during the Dance of the Dragons, while House Vance of Atranta declared for the greens of Aegon II Targaryen. Lord Tristan Vance was slain by Ser Adrian Tarbeck during the Battle of the Red Fork. Black Trombo was a Myrish sellsword captain in the service of Lord Vance. Young Lord Hugo Vance supported Ser Addam Velaryon in the Second Battle of Tumbleton, and he then joined the host of Elmo Tully, Lord of Riverrun.
+
+Recent Events[ ]
+
+A Game of Thrones[ ]
+
+When the Lannisters start massing men at the Golden Tooth, Ser Edmure Tully commands Lord Clement Piper and Lord Vance of Wayfarer's Rest to guard the pass. Ser Karyl Vance is with his father at the pass below the Golden Tooth when Ser Gregor Clegane and the Mountain's men started ravaging holdfasts in the riverlands. Karyl is sent with Ser Marq Piper and Ser Raymun Darry to report to the Iron Throne.
+
+Lord Vance is slain when the Lannisters attack from the Golden Tooth. Karyl, the new Lord of Wayfarer's Rest, and Marq raid the Lannister army in the riverlands. Karyl is among the river lords at Riverrun when Robb Stark is crowned King in the North.
+
+A Clash of Kings[ ]
+
+Robb allows the rivermen to return to their homes, so Karyl leaves Riverrun to defend Wayfarer's Rest.
+
+At the Battle of the Fords, Lord Karyl is commanded with the defense of the fords north of Riverrun.
+
+A Storm of Swords[ ]
+
+Ser Lymond Vikary is held captive at Wayfarer's Rest.
+
+Karyl is among the seven nobles who launch the funeral boat of Lord Hoster Tully.
+
+An unnamed Vance is killed at the Red Wedding by Black Walder Frey. King Tommen I Baratheon later signs the pardon of Lord Vance. It is unknown if it is for Karyl or Lord Norbert of Atranta, but afterwards both have been welcomed to the King's Peace.
+
+A Feast for Crows[ ]
+
+Both branches of House Vance are present at the siege of Riverrun, and their lords take part in the war councils. After finishing the siege, Lord Karyl recommends to Ser Jaime Lannister he go to the siege of Raventree, since Lord Tytos Blackwood will never surrender to Lord Jonos Bracken.
+
+House Vance of Wayfarer's Rest at the end of the third century[ ]
+
+The known Vances of Wayfarer's Rest during the timespan of the events described in A Song of Ice and Fire are:
+
+{Lord Vance}, Lord of Wayfarer's Rest. He was slain below the Golden Tooth.
+
+Lord Karyl Vance, his son and new Lord of Wayfarer's Rest.
+
+Liane Vance, his eldest daughter and heir.
+
+Rhialta Vance, his second daughter.
+
+Emphyria Vance, his third daughter.
+
+With unspecified familiar relationship to the main branch there are also:
+
+Ser Dafyn Vance. He is married to Maegelle Frey, daughter of Stevron Frey, and is father to three children.
+
+Marianne Vance, his daughter and eldest child.
+
+Walder Vance, his eldest son.
+
+Patrek Vance, his second son.
+
+Unnamed Vance, slain by Black Walder Frey at the Red Wedding.
+
+Historical Members[ ]
+
+Armistead Vance, the mightiest of the Andal conquerors.
+
+Lord Vance, ruling during the reign of King Humfrey I Teague. He was slain in one of the battles of the rebellion started by Lord Roderick Blackwood.
+
+Lord Robert Vance, a would-be river king during the rule of the Storm Kings. It is unknown which branch he was from.
+
+Lord Ronnel Vance, a supporter of Prince Aegon Targaryen. It is unknown which branch he was from.
+
+Lord Vance, ruling in 49 AC. He attended the Golden Wedding at King's Landing and spoke with King Jaehaerys I Targaryen.
+
+Lord Vance, ruling in 55 AC.
+
+His sister or daughter, one of the dozen young maidens chosen to become a companion to Queen Alysanne Targaryen.
+
+Lord Tristan Vance, slain by Ser Adrian Tarbeck in the Battle of the Red Fork.
+
+Lord Hugo Vance, one of the blacks during the Dance of the Dragons.
+
+Sworn Houses[ ]
+
+ House Smallwood of Acorn Hall (possibly)
+
+Behind the Scenes[ ]
+
+House Vance is a reference by George R. R. Martin to the author Jack Vance, who was one of Martin's favorite authors. The dragons in their sigil refer to Vance's The Dragon Masters, and the eyes within a ring and the name Wayfarer's Rest refer to Vance's Liane the Wayfarer.
+
+Notes[ ]
+
+↑ In Westerosi heraldry, the quarters are listed clockwise rather than the traditional 1-2/3-4 order.
+
+References[ ]
+
+↑ The Winds of Winter, Alayne I
+
+↑ The Mystery Knight.
+
+↑ The Mystery Knight: The Graphic Novel
+
+↑   A Storm of Swords, Appendix.
+
+↑   A Feast for Crows, Appendix.
+
+↑    The World of Ice & Fire, The Riverlands: House Tully.
+
+↑ The Citadel. Heraldry: Houses in the Riverlands
+
+↑   Fire & Blood, The Dying of the Dragons - A Son for a Son.
+
+↑ asoiaf.westeros.org: The branches of House Vance - November 27, 2018
+
+↑ Fire & Blood, Aftermath - The Hour of the Wolf.
+
+↑   A Storm of Swords, Chapter 22, Arya IV.
+
+↑ The World of Ice & Fire, The Riverlands.
+
+↑ The World of Ice & Fire, The Reign of the Dragons: The Conquest.
+
+↑   Fire & Blood, The Sons of the Dragon.
+
+↑   Fire & Blood, The Year of the Three Brides - 49 AC.
+
+↑ Fire & Blood, A Time of Testing - The Realm Remade.
+
+↑    Fire & Blood, Jaehaerys and Alysanne - Their Triumphs and Tragedies.
+
+↑   Fire & Blood, The Dying of the Dragons - The Red Dragon and the Gold.
+
+↑ Fire & Blood, The Dying of the Dragons - Rhaenyra Triumphant.
+
+↑   Fire & Blood, The Dying of the Dragons - Rhaenyra Overthrown.
+
+↑ Fire & Blood, The Dying of the Dragons - The Short, Sad Reign of Aegon II.
+
+↑ A Game of Thrones, Chapter 40, Catelyn VII.
+
+↑ A Game of Thrones, Chapter 43, Eddard XI.
+
+↑ A Game of Thrones, Chapter 55, Catelyn VIII.
+
+↑ A Game of Thrones, Chapter 56, Tyrion VII.
+
+↑ A Game of Thrones, Chapter 71, Catelyn XI.
+
+↑ A Clash of Kings, Chapter 7, Catelyn I.
+
+↑ A Clash of Kings, Chapter 45, Catelyn VI.
+
+↑ A Storm of Swords, Chapter 35, Catelyn IV.
+
+↑   A Storm of Swords, Chapter 51, Catelyn VII.
+
+↑ A Storm of Swords, Chapter 72, Jaime IX.
+
+↑   A Feast for Crows, Chapter 33, Jaime V.
+
+↑ A Feast for Crows, Chapter 38, Jaime VI.
+
+↑ A Feast for Crows, Chapter 44, Jaime VII.
+
+↑     A Clash of Kings, Appendix.
+
+↑ The World of Ice & Fire, The Riverlands: House Tully.
+
+↑   The World of Ice & Fire, The Riverlands.
+
+↑ So Spake Martin: Vance, King, and Anime and Manga, April 20, 2008

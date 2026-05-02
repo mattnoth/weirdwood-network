@@ -9,11 +9,3 @@ __pycache__/
 sources/raw/
 sources/chapters/
 full-txt-files/
-epubs/
-
-# Reference layer (TWOIAF OCR, etc.) — large, regenerable
-sources/reference/
-
-# Wiki scraper output — large, regenerable from MediaWiki API
-# Graph nodes (graph/nodes/) are the canonical artifact and ARE committed
-sources/wiki/

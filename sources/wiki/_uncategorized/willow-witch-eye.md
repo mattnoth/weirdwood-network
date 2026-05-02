@@ -1,0 +1,67 @@
+---
+name: Willow Witch-eye
+proposed_type: unknown
+wiki_url: https://awoiaf.westeros.org/index.php/Willow_Witch-eye
+aliases: [Willow Witch-eye]
+first_available: ''  # to be filled by extraction agent
+scraped_date: 2026-04-13
+note: "Does not fit current node types. Candidate for review."
+---
+
+## Summary
+
+Willow, better known as Willow Witch-eye is a wildling spearwife.
+
+## Infobox Data
+
+**Willow Witch-Eye:** Willow Witch-eye by Amuelia ©  
+**Alias:** Willow Witch-eye  
+**Allegiance:** Mance Rayder  
+**Culture:** Free folk  
+**Died:** 300 AC Winterfell  
+**Book:** A Dance with Dragons (appears)  
+
+## Article Sections
+
+- Appearance
+- Recent Events
+- A Dance with Dragons
+- References
+
+## Full Text
+
+Willow, better known as Willow Witch-eye is a wildling spearwife.
+
+Contents
+
+1 Appearance
+
+2 Recent Events
+
+2.1 A Dance with Dragons
+
+3 References
+
+Appearance[ ]
+
+Willow has a long black braid.
+
+Recent Events[ ]
+
+A Dance with Dragons[ ]
+
+Willow accompanies Mance Rayder along with five other spearwives to Winterfell on a mission to free "Arya Stark" (the girl is actually Jeyne Poole) who is to wed Ramsay Snow. Mance disguises himself as "Abel", a singer, and the six spearwives pretend to be his mother, wife, two daughters, and two sisters, who perform the instruments with him. Abel and the spearwives play at the wedding feast.
+
+After several men-at-arms and squires are found dead at Winterfell, Theon Greyjoy disbelieves the spearwives' claims of innocence. The spearwives enlist the help of a reluctant and fearful Theon in freeing Jeyne. The six spearwives, disguised as maids and accompanied by Theon, walk into Jeyne's room under the pretext of bringing hot water so Jeyne can have a bath.  As they fight their way out of the castle, Willow and the other spearwives are taken down one by one by the Bolton men.
+
+According to a letter received by Jon Snow at Castle Black, Ramsay has captured Mance and has him wearing as a cloak made from the skins of the six women who accompanied him to Winterfell.
+
+References[ ]
+
+↑     A Dance with Dragons, Chapter 51, Theon I.
+
+↑ A Dance with Dragons, Chapter 37, The Prince of Winterfell.
+
+↑   A Dance with Dragons, Chapter 46, A Ghost in Winterfell.
+
+↑ A Dance with Dragons, Chapter 69, Jon XIII.

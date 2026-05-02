@@ -1,0 +1,61 @@
+---
+name: A Game of Thrones-Chapter 7
+proposed_type: unknown
+wiki_url: https://awoiaf.westeros.org/index.php/A_Game_of_Thrones-Chapter_7
+first_available: ''  # to be filled by extraction agent
+scraped_date: 2026-04-13
+note: "Does not fit current node types. Candidate for review."
+---
+
+## Summary
+
+Arya runs out on her needlework session to watch the boys practice with swords in the yard.
+
+## Infobox Data
+
+**Arya I:** A Game of Thrones chapter  
+**POV:** Arya Stark  
+**Place:** Winterfell  
+**Page:** 57 US HC (Other versions)  
+**Chapter chronology (All):** Catelyn II  
+
+## Article Sections
+
+- Synopsis
+- Character list
+- Mentions
+- External links
+
+## Full Text
+
+Arya runs out on her needlework session to watch the boys practice with swords in the yard.
+
+Synopsis[ ]
+
+Arya is dismayed at her crooked stitches; she can't match her sister Sansa's needlework. Their governess, Septa Mordane, coos over Princess Myrcella's needlework, which Arya thinks is also crooked. Sansa is whispering with Jeyne Poole and Beth Cassel. When Arya asks what they are whispering about she is told it is about how handsome Prince Joffrey is, and that he has complimented Sansa and is going to marry her. Arya points out that Jon Snow thinks Joffrey looks like a girl. Sansa laments that Jon gets jealous because he is a bastard but Arya defends him, drawing the septa's attention to her. 
+
+Septa Mordane inspects Arya's stitches and pronounces her dissatisfaction. Humiliated, Arya bolts for the door, stopping only long enough to be forced to bow to Princess Myrcella. Arya wishes she had some of her sister's skill and beauty. She has her father’s looks, not the beauty of their mother like Sansa. Jeyne used to call her "Horseface", which was all the more hurtful because the only thing that Arya could do better than Sansa was ride. That and manage a household since Sansa has no head for figures. 
+
+Arya finds her direwolf pup Nymeria waiting for her and together they go to watch the boys sparring in the practice yard, not daring to go back to her room where she would be found and punished. On the covered bridge overlooking the yard, Arya comes across Jon Snow seated on a sill with Ghost, watching the fighting below. She sits down beside him and they watch together.
+
+In the yard below, heavily-padded Bran and Prince Tommen are fighting each other with wooden swords under the watchful eye of Ser Rodrik Cassel, the master-at-arms.  The group of spectators includes Robb and Theon. Jon comments that swords are a bit more exhausting than needlework, but Arya responds that they are also more fun. Arya remembers thinking when she was little that she was a bastard like Jon because they were the only children to take after their father. When Arya asks why Jon is not down in the yard with the others, Jon explains that bastards are not allowed to damage princes, only trueborn swords can do that. Arya says she could fight as well as Bran who is only seven while she is nine, but Jon says she doesn't have enough strength for a longsword. 
+
+  
+
+Prince Joffrey with his parents' sigils, by John Matson © Fantasy Flight Games
+
+Jon points out that the newly-arrived Prince Joffrey is wearing a sigil that has both the stag and lion on it, giving his mother’s Lannister sigil equality to the royal Baratheon sigil. Jon suggests that Arya should wear a combination sigil for the Starks and Tullys, but Arya jokes that a wolf with a trout in its mouth would look silly. She questions why a girl would need a sigil if she is not allowed to fight. Jon shrugs that girls get the sigils but not the swords, while bastards get the swords but not the sigils.
+
+Below, Bran has knocked Tommen down and Ser Rodrik calls Robb and Joffrey for a bout. Joffrey acts as if it is beneath his dignity to fight Starks with practice swords. He suggests real swords and Robb readily accepts. Jon comments to Arya that Joffrey truly is a "little shit". Ser Rodrik states that he will only allow blunted tourney swords. Joffrey's scarred bodyguard Sandor Clegane remarks that he killed a man with a real sword when he was only twelve. Joffrey makes a few more condescending remarks that enrage Robb, then feigns a yawn and leaves with Tommen. Jon encourages Arya to go to her room and face her punishment. Arya insists it is not fair, but Jon says that nothing is fair as he walks away with Ghost. Arya returns to her room to find not only Septa Mordane, but also her mother.
+
+Character list[ ]
+
+Mentions[ ]
+
+External links[ ]
+
+Humorous review of the chapter
+
+Summary and analyses of the chapter by Leigh Butler.
+
+Summary of the chapter on Tower of the Hand.

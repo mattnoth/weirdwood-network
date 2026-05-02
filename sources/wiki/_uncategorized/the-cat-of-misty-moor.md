@@ -1,0 +1,14 @@
+---
+name: The Cat of Misty Moor
+proposed_type: unknown
+wiki_url: https://awoiaf.westeros.org/index.php/The_Cat_of_Misty_Moor
+first_available: ''  # to be filled by extraction agent
+scraped_date: 2026-04-13
+note: "Does not fit current node types. Candidate for review."
+---
+
+## Full Text
+
+Redirect to:
+
+Kyle the Cat

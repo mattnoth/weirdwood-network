@@ -1,0 +1,65 @@
+---
+name: A Game of Thrones-Chapter 1
+proposed_type: unknown
+wiki_url: https://awoiaf.westeros.org/index.php/A_Game_of_Thrones-Chapter_1
+first_available: ''  # to be filled by extraction agent
+scraped_date: 2026-04-13
+note: "Does not fit current node types. Candidate for review."
+---
+
+## Summary
+
+Lord Eddard Stark dispenses justice to a Night's Watch deserter. When they are on their way back to Winterfell, Jon Snow and Robb Stark find six orphaned direwolf pups.
+
+## Infobox Data
+
+**Bran I:** A Game of Thrones chapter  
+**POV:** Bran Stark  
+**Place:** Hills north of Winterfell  
+**Page:** 11 US HC (Other versions)  
+**Chapter chronology (All):** Prologue  
+
+## Article Sections
+
+- Synopsis
+- Character list
+- Mentions
+- External links
+
+## Full Text
+
+Lord Eddard Stark dispenses justice to a Night's Watch deserter. When they are on their way back to Winterfell, Jon Snow and Robb Stark find six orphaned direwolf pups.
+
+Synopsis[ ]
+
+  
+
+Ned's justice, by Abe Papakhian ©
+
+It is the ninth year of summer. Seven-year-old Bran Stark is traveling with a party of twenty men, including his father, Lord Eddard Stark, to see the king's justice done at a holdfast in the hills. This is the first time that he is allowed to join. Bran's older brother, Robb, thinks the man to be executed must be a wildling sworn to Mance Rayder, the King-Beyond-the-Wall, which makes Bran think of the tales Old Nan has told him about wildlings. 
+
+The offender turns out to be an old man dressed in the ragged blacks of the Night's Watch who has lost his ears and a finger to frostbite. Lord Eddard questions the man briefly. Then two guardsmen drag the man to the stump of an ironwood and Theon Greyjoy, Eddard's ward, brings Eddard his Valyrian steel sword, Ice. Eddard sentences the man to death for desertion from the Night's Watch and raises the blade. Jon Snow, Bran's bastard brother, reminds Bran not look away, so Bran watches as his father strikes off the man's head with a single stroke. The head lands near Theon, who laughs and kicks it away. Jon calls Theon an ass under his breath and compliments Bran on his poise during the execution.
+
+On the way back to Winterfell, Robb and Jon argue about whether or not the deserter died bravely before racing their horses to the bridge, leaving Bran and his pony behind. Eddard rides up and asks if Bran knows why he executed the man himself. Bran replies that the man was a wildling. Eddard corrects that the man was a deserter, then explains that the First Men—from whom the Starks descend—believed that the man who passes the sentence should perform the execution himself, lest he become too comfortable with ordering deaths; the Starks still hold to that principle.
+
+  
+
+Jon Snow and Robb Stark find the corpse of a direwolf, by Mark Evans © Fantasy Flight Games
+
+Jon calls from up ahead for them to come see what he and Robb have found. They find Robb holding something in his arms next to the corpse of a wolf larger than Bran's pony. Jon correctly identifies the corpse as a direwolf. Theon comments that direwolves have not been seen south of the Wall for two hundred years. Bran then notices that Robb is cradling a small pup, and gives it a stroke after Robb reassures him. Then Jon gives him another pup. 
+
+When they inspect the mother's corpse, they find a large piece of shattered antler lodged in her throat. The soldiers in the company feel this to be a bad omen. Theon offers to kill the pups but Bran protests. Eddard initially states killing them would be best but changes his mind when Jon points out that there are five pups, one for each of Eddard's legitimate children; since the direwolf is the sigil of House Stark, they must be meant to have the wolves. Bran immediately realizes, along with everyone else, that the comparison only works because Jon is not claiming a pup for himself.
+
+Robb and Bran both declare that they are willing to nurse their pups by hand themselves. Eddard stresses that the children must feed and raise the pups themselves, not pass them off to the servants, and must treat them well lest they become dangerous. Both Robb and Bran state they will not allow the pups to die. As they begin to ride away, Jon hears a noise and goes back to discover a sixth pup, an albino with red eyes, that had crawled away from its mother. Bran finds it curious that it is the only pup that has opened its eyes. Theon claims that the albino will die quicker than the others, but Jon disagrees, claiming it for himself.
+
+Character list[ ]
+
+Mentions[ ]
+
+External links[ ]
+
+Humorous review of the chapter
+
+Summary and analyses of the chapter by Leigh Butler.
+
+Summary of the chapter on Tower of the Hand.

@@ -1,0 +1,71 @@
+---
+name: A Clash of Kings-Chapter 19
+proposed_type: unknown
+wiki_url: https://awoiaf.westeros.org/index.php/A_Clash_of_Kings-Chapter_19
+first_available: ''  # to be filled by extraction agent
+scraped_date: 2026-04-13
+note: "Does not fit current node types. Candidate for review."
+---
+
+## Summary
+
+On their way to scout a village, Gendry unmasks Arya as a girl, forcing her to reveal her true identity. The village turns out to be occupied by Ser Gregor Clegane and his men, and Gendry is captured. During a rescue attempt, Hot Pie panics, leading to Arya's capture as well. Later, a spearman kills Lommy rather than carry him.
+
+## Infobox Data
+
+**Arya V:** A Clash of Kings chapter  
+**POV:** Arya Stark  
+**Place:** Village west of the Gods Eye  
+**Page:** 212 UK HC (Other versions)  
+**Chapter chronology (All):** Arya IV ↑  
+
+## Article Sections
+
+- Synopsis
+- References and Notes
+
+## Full Text
+
+On their way to scout a village, Gendry unmasks Arya as a girl, forcing her to reveal her true identity. The village turns out to be occupied by Ser Gregor Clegane and his men, and Gendry is captured. During a rescue attempt, Hot Pie panics, leading to Arya's capture as well. Later, a spearman kills Lommy rather than carry him.
+
+Synopsis[ ]
+
+From high in a tree, Arya can see a fishing village with some smoking chimneys. It is the first sign of life since they fled the holdfast; the Lannisters have burned or killed everything. The houses promise warmth and shelter, unless it is Ser Amory Lorch there. Arya watches for a long time, trying to be sure, but it is too far to see for certain.
+
+Arya and the others waited until the next night to return to the burnt village. Hot Pie and Lommy were still afraid, but Lorch and his men were long gone. The holdfast was strewn with corpses from both sides, and scavengers had been at them. One look was enough for Gendry, but Arya insisted they find Yoren, telling herself he could not be dead. They found his body next to four Lannister men-at-arms, and Arya wondered how many men it took to bring the black brother down. There were too many bodies to bury everyone, but Arya insisted Yoren must have a grave, and as they dug part of her wanted to cry and part of her wanted to kick Yoren.
+
+The only other survivors were Cutjack, Kurz, and Tarber, who had been on look-out in the towerhouse. They came under attack as well, but the stone tower was inflammable and inaccessible with the ladder pulled up, so Lorch's men left them. When Kurz decided they would do better continuing north, Arya clung to the hope of still reaching Winterfell, but Kurz took an arrow in the shoulder pulling up the towerhouse ladder and, despite Tarber treating it with mud and moss, the wound festered and killed him. Soon after, Tarber and Cutjack had taken the dead poacher's weapons and hunting horn when they abandoned them. Afterward, wanting no part of any roads, Arya and the others made their way up the muddy shore of the Gods Eye, taking turns carrying Lommy on a makeshift litter, since the spear wound in his calf is now so bad he cannot walk.
+
+From her tree, Arya sees that the air over the village is full of crows, but thirty yards from shore three black swans glide serenely over the water, oblivious to the war. Part of Arya wants to be one of them, but the other part wants to eat one. She and the others have been living mostly on an awful-tasting acorn paste Kurz taught them to make, though Arya and Weasel (their new name for the crying girl) have also been eating bugs and worms. Arya even tried catching fish with her hands as Koss once did, but without success.
+
+Beneath Arya's tree, Hot Pie barks like a dog to signal her, an old poacher's trick Kurz taught them. With the nimbleness of a water dancer, Arya returns to the ground to report her findings. Hot Pie opines that they should go to the village and ask for food, convinced they will not be killed if they yield. Gendry accuses him of sounding like Lommy, who has talked of little else since they escaped from the holdfast. Lommy and Hot Pie insist Lorch would have left them alone if Yoren had yielded, but Gendry points out that knights and lordlings only take each other captive and do not care about the lower classes. 
+
+Hot Pie and Lommy start talking about searching for dead fish, cooking crows, and even hunting boars (which Arya knows they cannot do without boar spears, horses, and men) until Gendry proposes they steal food from the village after he scouts it out. Arya argues that she should go instead because she is stealthier, but Gendry only agrees that she can come with him. Hot Pie and Lommy worry about being left for the wolves, and Lommy whines that they should yield to whomever they find because he needs some potion for his wounded leg. Gendry reminds them that Lommy has a spear for the wolves and promises to bring back any leg potion they find, then dons his bull helm and walks off.
+
+During their walk, Gendry stops and says he thinks Lommy is going to die. Arya is not surprised since she has felt Lommy's warm skin and smelled the stink off his leg. She suggests finding a maester, but Gendry dismisses it as unlikely. He suggests they should abandon Lommy, since Lommy would do the same and he is sick of Lommy's talk of yielding, adding that Arya is the only one who's good for anything, even if she is a girl. Arya panics and insists she is not a girl, but Gendry insists he is not stupid and to prove him wrong she will have to pull out her cock. Desperate to escape the subject, Arya brings up the gold cloaks at the inn and says Gendry is also hiding something. Gendry insists he does not know why they wanted him and turns the question back on Arya, asking why she thought they were after her. 
+
+Realizing her pretense is done, Arya decides she must kill Gendry or trust him and, after pleading that Lommy and Hot Pie cannot know, she admits she is Arya of House Stark. Gendry is so shocked by the revelation that Arya is a highborn lady that he becomes unsure how to act around her and begins calling her "m'lady" and begging her pardon for talking about cocks and for pissing in front of her. Unsure if he is mocking her, Arya orders him to stop it, since even Hot Pie will notice if he starts calling her that. When Gendry responds by calling her "m'lady" again, Arya slams into his chest and he falls down, laughing. Then she gives him a kick in the side (which only makes him laugh harder) and sets off for the village, leaving Gendry to hurry after.
+
+As they approach the village, they smell rotting flesh. Gendry decides to circle around to the west while Arya continues up the shore, slipping from bush to bush and stopping every few yards to listen. The smell gets worse as she gets closer and she begins to hear horses and men. Squirming through a gap in a bramble thicket on the edge of the village, Arya discovers a long gibbet full of corpses so decayed they hardly look like people. Arya forces herself to look at each one in turn, telling herself she is hard as a stone. Beyond the gibbet, two spearmen guard the doors of the slate-roofed warehouse by the water. Arya cannot make out the two limp banners nearby, but she knows the dead men must mean Lannisters.
+
+  
+
+Ser Gregor Clegane and his men - by Nordheimer©
+
+The two guards turn toward a shout from a third man, who appears shoving along a prisoner Arya recognizes as Gendry by his bull helm. One of the guards snatches Gendry's helm and, after beating him around a little, they shove him through the heavy doors of the storehouse. From inside Arya hears sobbing and a loud shriek of pain. Then the wind flutters the banners and she makes out Lannister lion and three black dogs on a yellow field that she feels she should remember.
+
+Arya watches for hours as the armored men come and go, as dinner is prepared, and as night falls, but she does not see an opportunity to free Gendry. Late at night she returns to the others to insist Hot Pie help her free Gendry. Hot Pie insists they cannot fight twenty soldiers, but Arya argues they will only have to kill the two guards at the storehouse. Lommy suggests they should yield or just leave Gendry, but Arya points out they need his to help carry Lommy. When Arya insists she is going back to try, Hot Pie reluctantly agrees to come along. 
+
+As they are crawling along under the gibbet, a crow lands on Hot Pie's back and the guards hear his gasp. Hot Pie immediately leaps up and shouts out that he yields. By the time Arya bounces up and draws Needle, they are surrounded. She slashes at the nearest man, but he blocks her with a steel-clad arm and someone else knocks her to the ground. A third man wrenches Needle away and punches her with a armored fist when she tries to bite him. Disoriented, Arya lies hurting and shamed by the loss of Needle, which Jon Snow gave her and Syrio Forel taught her to use.
+
+When she is yanked to her knees, Arya finds herself facing the biggest man she has ever seen, and suddenly she remembers the banner with the three dogs: at the Hand's tourney, Sansa told her it was the banner of the Hound's brother, Ser Gregor Clegane, the Mountain that Rides, who is even bigger than Hodor. After Hot Pie yields some more and tells him about Lommy and Weasel, Ser Gregor orders them to lead his men there and walks off. As they walk back to where Lommy and Weasel are hiding, Hot Pie promises to make pies and tarts for the four soldiers if they do not hurt him. 
+
+When they arrive, Lommy immediately yields and explains that Weasel ran off when she heard them coming. The soldiers ask Lommy where they can find Beric Dondarrion, but Lommy has never heard the name. One of the guards declares it a waste of time, since Arya's group do not know any more than the villagers. A spearman drifts over to Lommy and asks if he can walk. When Lommy says they will have to carry him, the spearman replies "Think so?" and casually drives his spear through Lommy's soft throat.
+
+References and Notes[ ]
+
+Analyses and summary of the chapter in the course of a 10th reread by Slynt.
+
+Humorous review and summary of the chapter by Jason.
+
+Review and summary by Leigh Butler.

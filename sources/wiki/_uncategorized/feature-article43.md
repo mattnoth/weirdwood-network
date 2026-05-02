@@ -1,0 +1,18 @@
+---
+name: Feature article/43
+proposed_type: unknown
+wiki_url: https://awoiaf.westeros.org/index.php/Feature_article/43
+first_available: ''  # to be filled by extraction agent
+scraped_date: 2026-04-13
+note: "Does not fit current node types. Candidate for review."
+---
+
+## Summary
+
+King Robert I Baratheon is the first king of the Seven Kingdoms from the Baratheon dynasty. As the heir to Storm's End, Robert was sent to the Vale to be fostered by Lord Jon Arryn. There, he grew close to his foster brother, Eddard Stark, and came to regard Arryn as his second father. Robert inherited Storm's End in 278 AC, after his parents drowned in Shipbreaker Bay. He arranged a betrothal to Eddard's sister, Lyanna Stark, having fallen in love with her beauty. During the tourney at Harrenhal in 281 AC, Robert felt insulted when his cousin, Prince Rhaegar Targaryen, crowned Lyanna as his queen of love and beauty after winning the joust, passing over his own wife to do so. Matters grew worse a year later, when Rhaegar apparently kidnapped Lyanna. King Aerys II Targaryen ordered the heads of Robert and Eddard, following the brutal executions of Eddard's older brother and father. The two young men were in the Vale, where Jon Arryn refused to give them up, rising in rebellion instead. Robert became one of the figureheads in the war that followed, and towards its end proclaimed his intent to claim the Iron Throne. Following Aerys's death during the sack of King's Landing, Lord Robert Baratheon of Storm's End ascended the throne as King Robert I Baratheon.
+
+## Full Text
+
+King Robert I Baratheon is the first king of the Seven Kingdoms from the Baratheon dynasty. As the heir to Storm's End, Robert was sent to the Vale to be fostered by Lord Jon Arryn. There, he grew close to his foster brother, Eddard Stark, and came to regard Arryn as his second father. Robert inherited Storm's End in 278 AC, after his parents drowned in Shipbreaker Bay. He arranged a betrothal to Eddard's sister, Lyanna Stark, having fallen in love with her beauty. During the tourney at Harrenhal in 281 AC, Robert felt insulted when his cousin, Prince Rhaegar Targaryen, crowned Lyanna as his queen of love and beauty after winning the joust, passing over his own wife to do so. Matters grew worse a year later, when Rhaegar apparently kidnapped Lyanna. King Aerys II Targaryen ordered the heads of Robert and Eddard, following the brutal executions of Eddard's older brother and father. The two young men were in the Vale, where Jon Arryn refused to give them up, rising in rebellion instead. Robert became one of the figureheads in the war that followed, and towards its end proclaimed his intent to claim the Iron Throne. Following Aerys's death during the sack of King's Landing, Lord Robert Baratheon of Storm's End ascended the throne as King Robert I Baratheon.
+
+Following Lyanna's death in the aftermath of the war, Robert married Cersei Lannister, ensuring the future support of House Lannister. Their marriage was not a happy one, however. Robert remained in love with Lyanna, even years after her death, and insulted his wife by whispering "Lyanna" to her during their wedding night, setting the tone for their further marriage. Over the course of his reign, the young, handsome, powerful, muscled warrior changed into a fat, red-faced drunk with dark circles underneath his eyes. Leaving the task of ruling his kingdom mostly to his small council, Robert spend his time hunting, hawking, feasting, drinking, and whoring. He already had fathered two bastards before he became king, but his frequent whoring resulted in the births of many more. Read more...

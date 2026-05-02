@@ -1,0 +1,107 @@
+---
+name: A Clash of Kings-Chapter 7
+proposed_type: unknown
+wiki_url: https://awoiaf.westeros.org/index.php/A_Clash_of_Kings-Chapter_7
+first_available: ''  # to be filled by extraction agent
+scraped_date: 2026-04-13
+note: "Does not fit current node types. Candidate for review."
+---
+
+## Summary
+
+Catelyn Stark watches as her son King Robb Stark presents his peace terms to his envoy Ser Cleos Frey. Afterward, Catelyn argues with Robb over his refusal to exchange Jaime Lannister and his plan to send Theon Greyjoy back to the Iron Islands. Later, Catelyn discusses the war with Brynden Tully and they plan an alliance with King Renly Baratheon.
+
+## Infobox Data
+
+**Catelyn I:** A Clash of Kings chapter  
+**POV:** Catelyn Tully  
+**Place:** Riverrun  
+**Page:** 79 UK HC (Other versions)  
+**Chapter chronology (All):** Catelyn XI A Game of Thrones ↑  
+
+## Article Sections
+
+- Synopsis
+- References and Notes
+
+## Full Text
+
+Catelyn Stark watches as her son King Robb Stark presents his peace terms to his envoy Ser Cleos Frey. Afterward, Catelyn argues with Robb over his refusal to exchange Jaime Lannister and his plan to send Theon Greyjoy back to the Iron Islands. Later, Catelyn discusses the war with Brynden Tully and they plan an alliance with King Renly Baratheon.
+
+Synopsis[ ]
+
+  
+
+Catelyn Stark née Tully — by Amok ©
+
+As they wait in Riverrun's Great Hall, Catelyn watches her son Robb restlessly adjust his new-forged crown several times, and remarks to herself that a crown is not easy to wear, especially for a boy of fifteen years. 
+
+The ancient crown of the Kings of Winter was lost three centuries ago when Torrhen Stark submitted to Aegon the Conqueror, but the smiths have done well to match the descriptions: an open circlet of hammered bronze surmounted by nine black iron spikes in the shape of longswords. There is no gold, or silver, or gems; bronze and iron are the metals of winter, dark and strong.
+
+As the guards bring in the captive, Robb lays his sword across his knees in the customary gesture of hostility. As Ser Cleos Frey is forced to his knees, Catelyn reflects that he does not look like a Lannister. Although his mother Lady Genna is sister to Lord Tywin Lannister, Ser Cleos has inherited the stringy brown locks, weak chin, and thin face of his father, Ser Emmon Frey.
+
+Robb's sword glimmers faintly as he bids Ser Cleos to rise, but it is Grey Wind who frightens the knight. As big as any elkhound, Robb's direwolf sniffs at Ser Cleos, who was captured in the Whispering Wood where Grey Wind killed half a dozen men. Ser Cleos scrambles to his feet and away from the direwolf so quickly that it provokes laughter from the audience. Ser Cleos thanks Robb, calling him “my lord,” but Greatjon Umber corrects that a king is styled “Your Grace.” Ser Cleos accepts the correction, and Catelyn notes that he truly is more Frey than Lannister; they would never have gotten such an honorific out of Jaime Lannister.
+
+Robb wishes Ser Cleos to be his envoy to Queen Cersei in King's Landing. Robb reminds Ser Cleos that he considers him a Lannister, not a Frey, since he sided with the Lannisters in the Whispering Wood. He therefore expects Ser Cleos to return with the queen's reply and resume his captivity. Ser Cleos vows on his knighthood to do so, and asks what the message is. Robb offers to make peace if his if his terms are met. At the back of the hall, Lord Rickard Karstark shoves through a rank of guards and out the door, but Robb pays no attention. Exchanging his sword for a parchment, Robb reads his terms:
+
+  
+
+King Robb Stark – by Riavel ©
+
+First, the queen must release my sisters and provide them with transport by sea from King's Landing to White Harbor. It is to be understood that Sansa's betrothal to Joffrey Baratheon is at an end. When I receive word from my castellan that my sisters have returned unharmed to Winterfell, I will release the queen's cousins, the squire Willem Lannister and your brother Tion Frey, and give them safe escort to Casterly Rock or wheresoever she desires them delivered.
+
+ 
+
+Secondly, my lord father's bones will be returned to us, so he may rest beside his brother and sister in the crypts beneath Winterfell, as he would have wished. The remains of the men of his household guard who died in his service at King's Landing must also be returned.
+
+Third, my father's greatsword Ice will be delivered to my hand, here at Riverrun.
+
+Fourth, the queen will command her father Lord Tywin to release those knights and lords bannermen of mine that he took captive in the battle on the Green Fork of the Trident. Once he does so, I shall release my own captives taken in the Whispering Wood and the Battle of the Camps, save Jaime Lannister alone, who will remain my hostage for his father's good behavior.
+
+Lastly, King Joffrey and the Queen Regent must renounce all claims to dominion over the north. Henceforth we are no part of their realm, but a free and independent kingdom, as of old. Our domain shall include all the Stark lands north of the Neck, and in addition the lands watered by the River Trident and its vassal streams, bounded by the Golden Tooth to the west and the Mountains of the Moon in the east.
+
+After a cheer from the Greatjon, Robb states he will provide a map of the new borders. He declares that Lord Tywin must cease his raids and withdraw, King Joffrey must rescind all claims to Robb's lands and subjects, and the Lannisters must deliver ten highborn hostages as a pledge of peace. Robb promises to release two hostages every year so long as the pact is honored, but if it is not he will give Queen Cersei another Whispering Wood. To emphasize his point, Robb whistles and Grey Wind comes forward and snarls. The Greatjon raises another cheer and Grey Wind howls. When Ser Cleos agrees, Robb orders him to depart with Ser Robin Ryger at first light and dismisses the assembly.
+
+Out in the gallery, Catelyn compliments her son's performance, but notes that the theatrics with Grey Wind befit a boy more than a king. Robb only smiles and asks if she saw Ser Cleos' face. Catelyn replies that what she saw was Rickard Karstark storming out. Robb admits he saw it as well. Catelyn's brother Edmure Tully comments that others may agree with Lord Rickard, and asks how they can talk of peace while the Lannisters are still pillaging the Riverlands. He urges Robb to march on Lord Tywin at Harrenhal, but Robb insists he does not have the strength. Edmure points out that they only grow weaker sitting here.
+
+Catelyn snaps that it was Edmure's idea to permit the river lords to depart for their own lands. Edmure argues that he cannot command his lords to remain idle while their crops are burnt and their people killed, but it would be an ill thing if a northman like Lord Rickard left them. Robb agrees to speak with Lord Rickard, but he cannot blame the man for loathing peace with his sons' killers. Catelyn points out that more bloodshed will not bring back the dead. She suggests a wiser man might have offered sweeter terms, but Robb declares that sweeter terms would have gagged him. Catelyn realizes that her son wants vengeance as much as Lord Rickard.
+
+  
+
+Riverrun — by Feliche ©
+
+Catelyn points out that Cersei will never trade Sansa and Arya for a pair of cousins when what she wants is her brother Jaime. Robb explains that his bannermen will never allow him to release the Kingslayer, even if he wanted to. Catelyn says the lords made Robb their king, but Robb replies that they can unmake him just as easy. Catelyn argues that the safe return of the girls is worth Robb's crown, fearing for her daughters if something bad should befall Jaime in their custody. Robb assures her that no one sees Jaime without his warrant. 
+
+Catelyn asks if Robb is afraid to face Jaime in the field again. Edmure sides with Robb, but accidentally refers to him as "the boy." Robb roars at Edmure not to call him a boy and declares he can defeat Jaime again if he must. He admits he would have traded Jaime for his father, but looks hurt when Catelyn presses him to say whether the girls are important enough. Catelyn realizes that Robb is doing his best, yet she cannot bear the thought of losing her daughters as well as her husband. Robb promises that if Cersei refuses peace he will do all he can for his sisters by making her rue the decision. 
+
+Catelyn can sense Robb is tired of the subject. He asks her to go to the Twins to meet Lord Walder Frey's daughters and help choose his future bride. Catelyn sees this as an excuse to send her away for saying things Robb does not want to hear, so she tells Robb he is old enough to choose for himself. Next, Robb urges her to accompany Theon Greyjoy and the Mallisters to Seagard, and return by ship to Winterfell to be with Bran and Rickon. Catelyn insists that until her father dies her place is at Riverrun. 
+
+Robb mentions that he could command her to go, but Catelyn counters by asking Robb to reconsider sending Theon as his envoy to Pyke. Robb asks who would be better to negotiate with Lord Balon Greyjoy than his son. Catelyn insists that anyone would be better. Robb argues that Theon fought bravely for them and they have need of his father's longships. Catelyn replies that they will get the ships sooner if Theon remains a hostage. She also insists Balon is not trustworthy and may aspire to wear a crown again himself. Robb declares he will gladly give Balon a crown if it helps defeat the Lannisters. Before Catelyn can reply, Robb walks off and Catelyn can only watch him go, remembering back at Moat Cailin when she urged him to command as he does now.
+
+Catelyn asks Edmure to join her in father's sickroom, but he begs off to speak with some new recruits. On her way to the central keep, Catelyn shortcuts through the godswood, where the leaves still rustle on the trees, ignorant of the white raven that has proclaimed the arrival of autumn. Catelyn is thankful that the weather is holding, since autumn is a fearful time when even the wisest never know if the next harvest will be the last.
+
+She finds Lord Hoster Tully sleeping in his solar, made frail by the death growing within him. Beside the bed sits her uncle, Ser Bynden the Blackfish. When Catelyn asks if Robb knows of his return, the Blackfish says he did not interrupt the court because Robb will want to hear his news in private first. When her uncle asks about her father, Catelyn confesses that he grows weaker every day, and sometimes his mind is unclear. The Blackfish admits that he always wonders if his brother will be dead upon his return. Catelyn comforts him that at least he made his peace with her father.
+
+  
+
+Ser Brynden “Blackfish” Tully - by M.Luisa Giliberti ©
+
+They sit silently for a long time before Catelyn asks for the Blackfish's tidings. To avoid waking her father, they adjourn to the balcony. Her uncle comments that the red comet is now visible by day, and says his men call it the “Red Messenger,” though he wonders what the message is. Catelyn says the Greatjon claims it is a red flag of vengeance for her husband, while Edmure claims it is a victory omen: a fish in Tully colors, red against blue. Catelyn only sees the crimson of House Lannister, but her uncle points out that the comet is neither Lannister crimson nor Tully red, but a smear of blood across the sky. Catelyn asks whose blood, but the Blackfish asks if there was ever a war where only one side bled.
+
+The Blackfish explains that the war has spread south to the Blackwater Rush and north nearly to the Twins. Marq Piper and Karyl Vance have won small victories, and Beric Dondarrion is harassing Lord Tywin's raiders and foragers. Ser Burton Crakehall boasted of killing Dondarrion until Dondarrion killed him in an ambush. Catelyn remembers that some of her husband's household guard rode with Dondarrion from King's Landing and blesses their actions. 
+
+The Blackfish comments that Dondarrion and Thoros of Myr are clever enough to play hit and run, but Robb should never have permitted the river lords return to their own lands. Jonos Bracken was wounded and lost his heir Hendry reclaiming Stone Hedge, Tytos Blackwood is left with only Raventree Hall, and young Lyman Darry was killed by Gregor Clegane less than a fortnight after reclaiming Castle Darry. The Blackfish declares that Clegane's head would make a noble gift for all the people of the realm.
+
+Talk of heads reminds Catelyn that her husband's remains mounted on spike above the Red Keep. She reminds her uncle that Gregor Clegane is only a servant of Lord Tywin, whom Catelyn believes is the true danger. The Blackfish agrees, noting Tywin's wisdom in sitting safe in Harrenhal and living off their harvests and burning what he does not take. In addition to Clegane, Ser Amory Lorch and a Qohorik sellsword are also abroad, raping, burning, and butchering. Catelyn knows Edmure will rage at the news. She also admits Robb is restless and may listen if Edmure and the Greatjon will urge him to march on Harrenhal. The Blackfish declares that is exactly what Lord Tywin wishes, and the first rule of war is to never give the enemy his wish.
+
+Catelyn recalls the tales of the vast fortress of Harrenhal by the waters of the Gods Eye. King Harren the Black beggared the Riverlands and the Iron Islands alike to realize his dream of the highest hall and tallest towers in Westeros, but thick walls and high towers proved small use against Aegon the Conqueror's dragons. Harren and all his line perished in the fires that engulfed the fortress. Strong the castle might be, but also cursed, for every House that has held Harrenhal since has come to misfortune.
+
+Catelyn decides they must dissuade Robb from fighting at Harrenhal. Her uncle then tells her the worst part: Ser Stafford Lannister is gathering a new host at Casterly Rock, though it will be made of sellswords and new recruits who require training. However, Lord Tywin is in no hurry and will wait patiently for his reinforcements. Then Catelyn gets an idea: if they confront Lord Tywin with a new threat he might be forced leave Harrenhal. Her uncle names Lord Renly, but Catelyn insist that they must call him King Renly if they are to ask his help. The Blackfish smiles, but points out that Renly will want something in return. Catelyn replies that he will want what kings always want: homage.
+
+References and Notes[ ]
+
+Review of the chapter in the course of a tenth reread by Slynt.
+
+Humorous review and summary of the chapter by Jason. 
+
+Review and summary by Leigh Butler.

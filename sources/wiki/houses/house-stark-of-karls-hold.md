@@ -1,0 +1,13 @@
+---
+name: House Stark of Karl's Hold
+type: houses
+wiki_url: https://awoiaf.westeros.org/index.php/House_Stark_of_Karl's_Hold
+first_available: ''  # to be filled by extraction agent
+scraped_date: 2026-04-13
+---
+
+## Full Text
+
+Redirect to:
+
+House Karstark

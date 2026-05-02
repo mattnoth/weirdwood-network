@@ -1,0 +1,14 @@
+---
+name: King of the Iron Islands and the North
+proposed_type: unknown
+wiki_url: https://awoiaf.westeros.org/index.php/King_of_the_Iron_Islands_and_the_North
+first_available: ''  # to be filled by extraction agent
+scraped_date: 2026-04-13
+note: "Does not fit current node types. Candidate for review."
+---
+
+## Full Text
+
+Redirect to:
+
+King of the Isles and the North

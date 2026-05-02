@@ -1,0 +1,80 @@
+---
+name: A Feast for Crows-Chapter 3
+proposed_type: unknown
+wiki_url: https://awoiaf.westeros.org/index.php/A_Feast_for_Crows-Chapter_3
+first_available: ''  # to be filled by extraction agent
+scraped_date: 2026-04-13
+note: "Does not fit current node types. Candidate for review."
+---
+
+## Summary
+
+Cersei has a nightmare that features Tyrion mocking her. She is woken to be informed of Lord Tywin's murder. She gives order to make sure that Tyrion is safely in his cell and reflects on who could be behind the murder, settling for Stannis and the Tyrells as suspects. In a rush of desire for her brother, Cersei asks Jaime to take the position of Hand, but is rejected and settles for Ser Kevan. Information arrives that Tyrion has escaped.
+
+## Infobox Data
+
+**Cersei I:** A Feast for Crows chapter  
+**POV:** Cersei Lannister  
+**Place:** King's Landing  
+**Page:** 46 UK HC (Other versions)  
+**Chapter chronology (All):** The Captain of the Guards  
+
+## Article Sections
+
+- Synopsis
+- Character list
+- Places mentioned
+- References
+- External links
+
+## Full Text
+
+Cersei has a nightmare that features Tyrion mocking her. She is woken to be informed of Lord Tywin's murder. She gives order to make sure that Tyrion is safely in his cell and reflects on who could be behind the murder, settling for Stannis and the Tyrells as suspects. In a rush of desire for her brother, Cersei asks Jaime to take the position of Hand, but is rejected and settles for Ser Kevan. Information arrives that Tyrion has escaped.
+
+Contents
+
+1 Synopsis
+
+2 Character list
+
+3 Places mentioned
+
+4 References
+
+5 External links
+
+Synopsis[ ]
+
+Cersei dreams that she rules from the Iron Throne and courtiers are paying her tribute. But the pleasant dream turns into a nightmare when Tyrion appears and ridicules her, making the great lords, proud ladies and young knights snigger at her as well. She notices she is naked and tries to cover up. Hasty moves make her wound herself on the spikes and blades of the Iron Throne and soon she is engulfed in a mortal combat with the throne that is trying to rip the flesh off her.
+
+She is woken up by her frightened maid Senelle, accompanied by armed men who have arrived to deliver the news of Lord Tywin's murder. Cersei is still drowsy and believes this to be part of her nightmare. For a moment, she mistakes the Kingsguard knight who has been sent by the Lord Commander for Jaime himself and expects Tyrion to crawl from under her bed to laugh at her, although she knows that he is safely in his black cell and his execution will take place the same day. She drank too much wine last night, she thinks. She now recognizes Jocelyn Swyft, Ser Osmund Kettleblack and Ser Boros Blount and notices Lannister guards, while she is being handed lemon water to waken her up. She wonders whether the news can be true, insisting that her father is surrounded by guards day and night. Ser Osmund tells her the guards were on their post, but a secret passage has been found behind a hearth in the Hand's Tower and Jaime has gone in to inspect it. Cersei is worried about Jaime's safety as well as of Tommen's, but she is told that guards supervised by Ser Loras Tyrell have been assigned to watch over the King. This stirs up her resentment against the Tyrells and she wonders whether the murder was their doing, yet does not dare to speak this aloud. She commands Ser Osmund to escort her to the Tower of the Hand and Ser Boros to make certain that Tyrion is still in his cell. She doesn't believe Tyrion would dare to raise a hand against their father, but needs to be certain.
+
+Outside, the sun is beginning to rise while the stars can still be seen, making Cersei think that the great star of the west has fallen. Ser Osmund tells her that Lum, one of the guards, found the body in the privy. She already feels the hole left by Lord Tywin and decides to act swiftly as she suspects there will be attempts to push her aside, as always. She wonders whether Stannis Baratheon is behind the murder. She enters the tower, thinking that not crying makes her the only true son her father ever had. Climbing the many stairs to the Hand's chambers prompts her to think about tearing the tower down. As she enters the hall, she finds the room full of guards and servants, whispering among themselves. Cersei resents their presence as well as the fact that she was not called first. She orders Ser Meryn Trant to show the people out and is informed that her father's body has been brought to his bed. When she enters the bedchamber, guards are present again as well as her distraught uncle Kevan, kneeling by the bed and trying to pray for his brother. She notices how small the door to the secret passage behind the hearth is, making her think of Tyrion again, then settling for Stannis or the Tyrells as more likely suspects. She knows about the rumors of secret passages in the Red Keep and that Maegor the Cruel supposedly killed the builders of the castle to keep them secret. She thinks of other, yet undiscovered, secret passages to other bedchambers and has a vision of Tyrion using one to get to Tommen.
+
+Cersei has a look at her father's half-naked body. While reflecting on how he looks much older and smaller than when he was alive, she already notices a smell emanating from the corpse. She is furious that the quarrel that killed Lord Tywin has been left in his stomach and orders it to be removed. Cersei wonders whether she should act desperate and claw her own face, as she heard Catelyn Stark did when her son Robb was killed before her eyes, and wonders how Lord Tywin once received news of his own father's death. She commands that the bells must toll for her father just as they did for King Robert. She asks for Pycelle and wants him to prepare the body, but is told that the Grand Maester has already been there and left again. This angers her more because of Pycelle's uselessness in old age and she calls for Maesters Ballabar and Frenken instead. Cersei asks about Jaime and is again told he's down in the secret passage, inspecting the depth of a shaft found there. She is worried about his safety, thinking of his lost hand and how the murderer might await him in the dark.
+
+Qyburn is shown in, offering his service as maester. He informs her that he treated Jaime's hand and she remembers that he came down from Harrenhal with her brother. She notices that he doesn't have a maester's chain, receiving the answer that it has been taken away by the Citadel while his knowledge is still there. She orders him to remove the quarrel and prepare her father's body for the silent sisters. Qyburn asks her what he should do with the girl. Cersei has not noticed the second body in the bed before and takes a look at her naked body, observing the golden chain around her neck and that her face is as black as Joffrey's was when he died. She is furious and demands to know what the girl is doing there, receiving the unsatisfying answer that she has been found where she is and that she was Tyrion's whore. She thinks that Lord Tywin never used whores and defensively tells a guard how he treated his own father's mistress after his death, parading her naked through the streets of Lannisport. Qyburn suggests that Lord Tywin might have been questioning the girl about her mistress Sansa Stark's disappearance. Cersei eagerly seizes on this notion but has a vision of Tyrion mocking it. She can't stand staying in the room with the girl any longer and goes back to the hall.
+
+She finds Ser Osmund accompanied by his brothers Osney and Osfryd and orders them to make certain that nobody will ever hear about the dead girl in her father's bed. Her body is to be disposed of no matter how and everyone who talks about this matter will have their tongues torn out. She watches as the Kettleblacks put the girl's body in a blanket, remembering that the girl's name was Shae and that she came to her the night before Tyrion's trial by combat, asking that promises made to her by Tyrion and, allegedly, Cersei be kept, including a manse in the city and a knight to marry. Cersei made it clear that she would get nothing until she told them the whereabouts of Sansa Stark, making her leave in tears. She orders the Kettleblacks to carry Shae's body out through the secret passage, but wants to have the chain around her neck delivered to herself.
+
+As Ser Osfryd is about to step into the tunnel, Jaime emerges from it. She rushes towards him, asking whether he has found the killers, but is told that the shaft ends in a chamber where half a dozen tunnels meet, some of them closed with locked iron gates, and Jaime needs to find keys first. He suggests that the killers could still be hiding in the maze he just left. Cersei again envisions Tyrion climbing through the walls like some monstrous rat, then reassures herself with the thought that he is in his cell. She says she wants the murderers to be found and that the whole tower will be demolished if need be. Jaime hugs her to console her and she has a rush of desire for him. She whispers in his ear, asking him to take over as Hand of the King to complete their father's work. But he pushes her away, declines the offer, makes a joke about a Hand without a hand and says that she shouldn't ask him to rule.
+
+Cersei feels the rejection like a slap, realizing that it has been noticed by everyone present and that the whole castle will know soon. She angrily says that she didn't ask him to rule, as she is going to do that herself as the Queen Regent until Tommen comes of age. Jaime replies that he doesn't know whom to feel worse for, Tommen or the Seven Kingdoms. She slaps him. They are both admonished by Ser Kevan to take their indecent behavior out of the room where their father's body lies. Jaime apologizes for his sister, pointing out that she is forgetting herself while grief-stricken. This makes Cersei want to slap him again and regret her impulse to ask him. She wonders whether the position of Hand should be abolished altogether, remembering how Jon Arryn and Eddard Stark meddled in her affairs, the latter forcing her to get rid of King Robert before she could deal with his brothers, and how Tyrion sold Myrcella to Dorne, made Tommen a hostage and killed Joffrey.
+
+Cersei settles on her uncle Kevan as the next Hand, as she considers him loyal and prudent while unambitious to challenge her as the real power behind the Iron Throne. She thinks that she needs men supporting her and that the current small council will not do, with Grand Maester Pycelle too old and Lord Mace Tyrell and his bannermen Lord Paxter Redwyne and Lord Mathis Rowan not to be trusted; she also can't rely on Jaime, who has lost his courage with his hand. She again considers the possibility of the Tyrells being involved in the murder, as Lord Mace must have known he can never rule the Seven Kingdoms as long as Tywin Lannister is alive. However, she realizes she has to proceed carefully against the Tyrells, with the city full of their men and Loras Tyrell now knight of the Kingsguard. The thought of the engagement of Tommen and Margaery Tyrell still makes her furious and she questions Margaery's virginity. Cersei intends to use Varys to find out more on this front.
+
+The thought of Varys makes Cersei aware that the eunuch isn't present, while he is usually around when something important happens in the Red Keep. The only explanation for his absence is that he was involved in the plot, preempting his own downfall as Lord Tywin never had any love for him. She thinks that Varys might have known about the secret passage and acted on behalf of Stannis. She orders Ser Meryn to find the Master of Whisperers and bring him to her. 
+
+Ser Boros returns red-faced and puffing, announcing that Tyrion is gone, his cell open, with no sign of him anywhere. Cersei is appalled, thinking her nightmares are coming true. She points out her orders to keep the Imp under guard day and night. Ser Boros says that a goaler called Rugen has gone missing while two others were found asleep. She orders for them to be killed. Cersei's paranoia about Tyrion breaks out fully and reflects that he has already killed her mother, her father and her eldest son and will try to murder her too, remembering the prophecy she once received about her little brother killing her. She gets queasy and Ser Boros tries to sustain her, but she recoils from his touch, thinking that the knight of the Kingsguard might be one of Tyrion's creatures, too. He offers her a cup of water, but all she wants is Tyrion's blood. She envisions Tyrion grinning at her, feeling his hands closing in around her neck the very moment she thought she was rid of him.
+
+Character list[ ]
+
+Places mentioned[ ]
+
+References[ ]
+
+The original version of the synopsis was copied from Aol member vbkorik27 previously at
+
+External links[ ]
+
+A Read of Ice and Fire: A Feast for Crows, Part 3. Analyses and summary of the chapter by Leigh Butler.
