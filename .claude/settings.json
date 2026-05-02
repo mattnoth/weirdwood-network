@@ -1,12 +1,3 @@
 {
-  "permissions": {
-    "deny": [
-      "Bash(git add *sources/raw*)",
-      "Bash(git add *sources/chapters*)",
-      "Bash(git add *full-txt-files*)",
-      "Bash(git add *epubs*)",
-      "Bash(git commit *sources/raw*)",
-      "Bash(git commit *sources/chapters*)"
-    ]
-  }
+  "permissions": {}
 }

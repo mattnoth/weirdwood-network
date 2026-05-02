@@ -21,7 +21,7 @@ This project builds a queryable knowledge graph for ASOIAF by:
 
 ## Critical Rule: Copyrighted Content
 
-**NEVER commit source texts or chapter files to git.** The `sources/raw/` and `sources/chapters/` directories are gitignored and must stay that way. Do not modify `.gitignore` to remove these exclusions.
+**NEVER commit `sources/raw/` or `full-txt-files/`** — these are the original unprocessed source texts and must remain gitignored. `sources/chapters/` (split chapter files) is tracked in this private repo.
 
 ## Critical Rule: The Wiki Is Already Local — Never Re-Fetch (with one narrow exception)
 

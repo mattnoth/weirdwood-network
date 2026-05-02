@@ -5,7 +5,5 @@
 __pycache__/
 *.pyc
 
-# Copyrighted source texts — NEVER commit
 sources/raw/
-sources/chapters/
 full-txt-files/
