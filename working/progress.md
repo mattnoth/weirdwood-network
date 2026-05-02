@@ -28,3 +28,4 @@
 - **AFFC Wave 6** (2026-05-01 15:36) — affc-jaime-03,affc-jaime-04,affc-jaime-05,affc-jaime-06,affc-jaime-07 (5/5 ok) [32m 43s, 984179 tokens, $4.1319]
 - **ASOS Wave 1** (2026-05-01 19:38) — asos-arya-01,asos-arya-02,asos-arya-03,asos-arya-04,asos-arya-05 (5/5 ok) [4m 21s, 132197 tokens, $2.0660]
 - **ASOS Wave 1** (2026-05-01 20:05) — asos-arya-01,asos-arya-02,asos-arya-03,asos-arya-04,asos-arya-05 (5/5 ok) [23m 0s, 656676 tokens, $5.0085]
+- **ASOS Wave 2** (2026-05-01 21:12) — asos-arya-06,asos-arya-07,asos-arya-08,asos-arya-09,asos-arya-10 (5/5 ok) [34m 42s, 751258 tokens, $3.9502]
