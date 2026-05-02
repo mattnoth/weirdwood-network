@@ -26,3 +26,5 @@
 - **AFFC Wave 9** (2026-05-01 15:34) — affc-the-krakens-daughter-01,affc-the-princess-in-the-tower-01,affc-the-prophet-01,affc-the-queenmaker-01,affc-the-reaver-01 (5/5 ok) [31m 43s, 821291 tokens, $3.9456]
 - **AFFC Wave 3** (2026-05-01 15:36) — affc-brienne-07,affc-brienne-08,affc-cat-of-the-canals-01,affc-cersei-01,affc-cersei-02 (5/5 ok) [30m 38s, 854426 tokens, $3.7836]
 - **AFFC Wave 6** (2026-05-01 15:36) — affc-jaime-03,affc-jaime-04,affc-jaime-05,affc-jaime-06,affc-jaime-07 (5/5 ok) [32m 43s, 984179 tokens, $4.1319]
+- **ASOS Wave 1** (2026-05-01 19:38) — asos-arya-01,asos-arya-02,asos-arya-03,asos-arya-04,asos-arya-05 (5/5 ok) [4m 21s, 132197 tokens, $2.0660]
+- **ASOS Wave 1** (2026-05-01 20:05) — asos-arya-01,asos-arya-02,asos-arya-03,asos-arya-04,asos-arya-05 (5/5 ok) [23m 0s, 656676 tokens, $5.0085]
