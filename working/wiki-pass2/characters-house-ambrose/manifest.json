@@ -22,8 +22,8 @@
     "edmund-ambrose.node.md",
     "marq-ambrose.node.md"
   ],
-  "status": "pending",
-  "started_at": null,
+  "status": "fail",
+  "started_at": "2026-05-02T01:44:45Z",
   "completed_at": null,
   "validation_report": null,
   "priority": {

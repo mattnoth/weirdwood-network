@@ -46,9 +46,9 @@ for d in extractions/mechanical/*/; do
 done
 # Expected at start of this work:
 #   agot:  73/73   (done)
-#   acok:   0/70
+#   acok:  70/70   (done BUT 50 chapters are v2 schema — need re-run of waves 1-10)
 #   asos:   0/82
-#   affc:   0/46
+#   affc:  46/46   (done)
 #   adwd:   0/73
 
 # Verify weirwood is sourced + sees the books
@@ -63,7 +63,7 @@ ls sources/chapters/affc | head -3
 ls -la /tmp/extraction-stop 2>/dev/null && echo "STOP FILE EXISTS — clear before launching"
 ```
 
-If any of the above is unexpected (e.g. ACOK shows partial extractions from an earlier v2 run), STOP and surface to Matt before launching. The v2 ACOK run was archived to `extractions/archives/acok-v2/` in Session 16-ish — `extractions/mechanical/acok/` should be empty.
+**ACOK state (updated Session 30):** `extractions/mechanical/acok/` has 70 files but chapters 1-50 (arya/bran/catelyn/daenerys/davos/jon/prologue/sansa/theon-01) are v2 schema (4-category Raw Entity List). Chapters 51-70 (theon-02 through tyrion-15) are v3. Re-run waves 1-10 first: `weirwood-mechanical --chain acok 4 1` then stop after wave 10. Confirm with Matt before launching.
 
 ---
 

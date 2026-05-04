@@ -1,0 +1,154 @@
+{
+  "bucket_id": "characters-house-blackberry",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Jate Blackberry",
+      "raw_html_path": "sources/wiki/_raw/Jate_Blackberry.json",
+      "track_b_row": {
+        "page": "Jate Blackberry",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 10,
+          "source": "cite_ref",
+          "pov": "Bran I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Dragonstone",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Blackberry",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Baratheon of Dragonstone",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westerosi",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            10
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Jate Blackberry",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Crownlands",
+          "Characters without images",
+          "Gate captains",
+          "House Baratheon retainers",
+          "House Blackberry",
+          "Nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 7035
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Omer Blackberry",
+      "raw_html_path": "sources/wiki/_raw/Omer_Blackberry.json",
+      "track_b_row": {
+        "page": "Omer Blackberry",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 63,
+          "source": "cite_ref",
+          "pov": "Jaime VII"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiances",
+            "target": "House Blackberry",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Baratheon of Dragonstone",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "King's men",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westerosi",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            63
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Omer Blackberry",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from Westeros",
+          "Characters without images",
+          "House Baratheon retainers",
+          "House Blackberry",
+          "Members of the king's men",
+          "Nobles",
+          "Sworn swords"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 8441
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

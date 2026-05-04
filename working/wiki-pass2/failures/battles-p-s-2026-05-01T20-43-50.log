@@ -1,0 +1,13 @@
+I'll start by reading my agent definition and the bucket input file.
+Now let me read the architecture reference for entity types and edge types.
+I have 30 battle/war pages to process. Let me create the output directory and start reading the wiki cache files in batches.
+Now let me read the wiki cache files. I'll start with the smaller pages first.
+Let me continue reading more wiki cache files in parallel.
+I have enough data to start writing node files. Let me begin with the smaller pages I've already read, and continue reading the remaining ones in parallel. I'll write nodes in batches.
+5 nodes written. Let me continue with more nodes and read remaining HTML files.
+10 nodes written. Let me read more HTML files for the remaining pages and continue writing.
+Now let me read the last HTML file and get the track_b data for these 5 pages.
+Writing 5 node files for the pages whose HTML I've now re-read.
+15 of 30 done. Reading the next batch of 5 smaller pages.
+Three read, two too large. Writing the three I have and re-reading the two with limits.
+You've hit your limit · resets 12:40am (America/Chicago)

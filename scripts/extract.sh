@@ -36,6 +36,24 @@ format_duration() {
   else printf "%ds" "$s"; fi
 }
 
+# Convert human-readable duration (2h, 30m, 120s) to seconds
+parse_duration_to_seconds() {
+  local dur="$1"
+  local secs=0
+  # Match: <number>h, <number>m, <number>s
+  if [[ "$dur" =~ ^([0-9]+)h$ ]]; then
+    secs=$(( ${BASH_REMATCH[1]} * 3600 ))
+  elif [[ "$dur" =~ ^([0-9]+)m$ ]]; then
+    secs=$(( ${BASH_REMATCH[1]} * 60 ))
+  elif [[ "$dur" =~ ^([0-9]+)s$ ]]; then
+    secs=${BASH_REMATCH[1]}
+  else
+    echo "ERROR: Invalid duration format '$dur' (use: 2h, 30m, 120s)" >&2
+    return 1
+  fi
+  echo "$secs"
+}
+
 format_number() { printf "%'d" "$1" 2>/dev/null || echo "$1"; }
 
 # Update worklog.md checklist line for a book's Pass 1 progress
@@ -588,14 +606,16 @@ print(f'{total:.4f}')
 # ── CMD: launch ───────────────────────────────────────────────────────────────
 
 cmd_launch() {
-  local book="" terminals="" waves_per="" model="$DEFAULT_MODEL"
+  local book="" terminals="" waves_per="" model="$DEFAULT_MODEL" delay="" chain=false
 
   while [[ $# -gt 0 ]]; do
     case "$1" in
       --terminals|-t) terminals="$2"; shift 2 ;;
       --waves|-w)     waves_per="$2"; shift 2 ;;
       --model|-m)     model="$2";     shift 2 ;;
-      --help|-h)      echo "Usage: extract.sh launch <book> -t <terminals> -w <waves_per_terminal> [-m model]"; return 0 ;;
+      --delay|-d)     delay="$2";     shift 2 ;;
+      --chain|-c)     chain=true;     shift   ;;
+      --help|-h)      echo "Usage: extract.sh launch <book> -t <terminals> -w <waves_per_terminal> [-m model] [--delay <duration>] [--chain]"; return 0 ;;
       -*)             echo "Unknown option: $1" >&2; return 1 ;;
       *)              book="$1";      shift   ;;
     esac
@@ -664,6 +684,15 @@ cmd_launch() {
       cmd+="if [[ -f /tmp/extraction-stop ]]; then echo 'Stop file detected — halting before wave '\$w; break; fi; "
       cmd+="./scripts/extract.sh run ${book} --wave \$w --model ${model}; "
       cmd+="done"
+    fi
+
+    # If --chain is set, auto-advance to next batch after delay
+    if [[ "$chain" == "true" && -n "$delay" ]]; then
+      cmd+="; "
+      cmd+="echo ''; "
+      cmd+="echo 'Waiting ${delay} before next batch...'; "
+      cmd+="sleep $(parse_duration_to_seconds '$delay'); "
+      cmd+="./scripts/extract.sh launch ${book} -t ${terminals} -w ${waves_per} -m ${model} --delay '${delay}' --chain"
     fi
 
     # Open iTerm2 tab

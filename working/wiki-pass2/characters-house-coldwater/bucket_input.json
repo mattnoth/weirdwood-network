@@ -1,0 +1,121 @@
+{
+  "bucket_id": "characters-house-coldwater",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Ben Coldwater",
+      "raw_html_path": "sources/wiki/_raw/Ben_Coldwater.json",
+      "track_b_row": {
+        "page": "Ben Coldwater",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Coldwater",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Valemen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Ben Coldwater",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Vale",
+          "Characters without images",
+          "House Coldwater",
+          "Knights",
+          "Nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 8083
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Royce Coldwater",
+      "raw_html_path": "sources/wiki/_raw/Royce_Coldwater.json",
+      "track_b_row": {
+        "page": "Royce Coldwater",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lord of Coldwater Burn",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Coldwater",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Valemen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Royce Coldwater",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Vale",
+          "Characters without images",
+          "House Coldwater",
+          "Lords of Coldwater Burn",
+          "Nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 4801
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

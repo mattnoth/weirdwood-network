@@ -1,0 +1,815 @@
+{
+  "bucket_id": "characters-house-brax",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Andros Brax",
+      "raw_html_path": "sources/wiki/_raw/Andros_Brax.json",
+      "track_b_row": {
+        "page": "Andros Brax",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 45,
+          "source": "cite_ref",
+          "pov": "Tyrion X"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lord of Hornvale",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Brax",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Riverrun",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "299 AC"
+          },
+          {
+            "field": "Issue",
+            "target": "Tytos Brax",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Robert Brax",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Flement Brax",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            45
+          ],
+          "agot": [
+            69
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Andros Brax",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "299 AC deaths",
+          "3rd century AC births",
+          "Casualties of the War of the Five Kings",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Westerlands",
+          "Characters without images",
+          "Deaths by drowning",
+          "House Brax",
+          "Lords of Hornvale",
+          "Nobles",
+          "Supporters of Joffrey Baratheon in the War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 1,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 29091
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Cerissa Brax",
+      "raw_html_path": "sources/wiki/_raw/Cerissa_Brax.json",
+      "track_b_row": {
+        "page": "Cerissa Brax",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Casterly Rock",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Brax",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Lannister",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouse",
+            "target": "Damon Lannister",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Tybolt Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Gerold Lannister",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Cerissa Brax",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "2nd century AC deaths",
+          "Character pages in alphabetical order",
+          "Character pages with 2 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the Westerlands",
+          "Characters without images",
+          "House Brax",
+          "House Lannister",
+          "Noblewomen"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 39976
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Flement Brax",
+      "raw_html_path": "sources/wiki/_raw/Flement_Brax.json",
+      "track_b_row": {
+        "page": "Flement Brax",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 27,
+          "source": "cite_ref",
+          "pov": "Samwell III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Brax",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Andros Brax",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Morya Frey",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Robert Brax",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Walder Brax",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Jon Brax",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            56,
+            62,
+            69
+          ],
+          "acok": [
+            45
+          ],
+          "asos": [
+            38,
+            66
+          ],
+          "affc": [
+            27
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Flement Brax",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Westerlands",
+          "House Brax",
+          "Knights",
+          "Nobles",
+          "Pages using deprecated image syntax",
+          "Supporters of Joffrey Baratheon in the War of the Five Kings",
+          "Supporters of Tommen Baratheon in the War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 3,
+          "acok": 1,
+          "asos": 2,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 42554
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "affc-jaime-03",
+          "line": 39,
+          "context": "| Ser Steffon Swyft | Baggage train commander | Yes (uncertain \u2014 verify) | Part of the force outside the city |\n| Ser Flement Brax | Knight in Jaime's column | Yes (uncertain \u2014 verify) | Recipient of "
+        },
+        {
+          "chapter": "affc-jaime-03",
+          "line": 206,
+          "context": "6. **The column rides through King's Landing** \u2014 Sparse reception compared to Mace Tyrell's cheering departure. Whores call out, a meat pie man cries his wares. In Cobbler's Square, two sparrows haran"
+        },
+        {
+          "chapter": "affc-jaime-03",
+          "line": 209,
+          "context": "9. **First night's camp at Hayford Castle** \u2014 Hundred tents below the hill. Jaime sets sentries himself, recalling his uncle Stafford's death at Oxcross.\n10. **Supper at Hayford** \u2014 Jaime wears the go"
+        },
+        {
+          "chapter": "affc-jaime-03",
+          "line": 354,
+          "context": "### Characters\nJaime Lannister, Cersei Lannister, Ser Ilyn Payne, Ser Addam Marbrand, Josmyn Peckledon (Peck), Little Lew Piper, Ser Kennos of Kayce, Strongboar (Ser Lyle Crakehall), Red Ronnet Connin"
+        },
+        {
+          "chapter": "agot-tyrion-07",
+          "line": 36,
+          "context": "| Kevan Lannister | Tyrion's uncle | No | Sharing ale with Tywin; provides war updates |\n| Ser Flement Brax | Knight, guards the perimeter | No (uncertain \u2014 verify) | Wears silver armor with amethysts"
+        },
+        {
+          "chapter": "agot-tyrion-07",
+          "line": 45,
+          "context": "| Kevan Lannister | Balding | | Portly | | | | Close-cropped yellow beard following the line of his massive jaw | |\n| Ser Flement Brax | | | | | Silver armor inlaid with amethysts; striped purple-and-"
+        },
+        {
+          "chapter": "agot-tyrion-07",
+          "line": 109,
+          "context": "|----------|---------|-------------------|------------------------|\n| Unicorn shield and spiral-horn horsehead helm | Ser Flement Brax's identifying heraldry | Yes (uncertain \u2014 verify) | Ser Flement B"
+        },
+        {
+          "chapter": "agot-tyrion-07",
+          "line": 132,
+          "context": "5. **Passage through war-torn lands** \u2014 They ride past blackened fields, burned holdfasts, and signs of recent fighting (ravens, carrion crows, no visible bodies).\n6. **Arrival at the Lannister camp p"
+        },
+        {
+          "chapter": "agot-tyrion-07",
+          "line": 160,
+          "context": "| Advance | Party | Past blackened fields, burned holdfasts | Toward Green Fork of the Trident | War-torn landscape |\n| Arrival | Party | Reach barricade of sharpened stakes | Half a league from cross"
+        },
+        {
+          "chapter": "agot-tyrion-07",
+          "line": 256,
+          "context": "### Characters\nTyrion Lannister, Bronn, Chella daughter of Cheyk, Shagga son of Dolf, Conn son of Coratt, Ulf son of Umar, Timett son of Timett, Tywin Lannister, Kevan Lannister, Ser Flement Brax, Jai"
+        },
+        {
+          "chapter": "agot-tyrion-07",
+          "line": 274,
+          "context": "### Artifacts & Objects\nSer Flement Brax's unicorn shield and spiral-horn horsehead helm, silver armor inlaid with amethysts, lion-crested helms of Lannister house guards, crimson cloaks"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 34,
+          "context": "| Ser Addam Marbrand | Bannerman | No | Advocates aggressive military response; assigned to screen movements with outriders |\n| Ser Flement Brax | Bannerman, son of Lord Brax | Yes (uncertain \u2014 verify"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 45,
+          "context": "| Ser Kevan Lannister | | | | | | | Deep furrows in brow when frowning | |\n| Ser Flement Brax | | | | | Silver-and-purple tabard | | Look of a man who cannot comprehend what he has heard | |\n| Tyrion "
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 249,
+          "context": "### Characters\nTyrion Lannister, Tywin Lannister, Ser Kevan Lannister, Jaime Lannister, Crakehall messenger (unnamed), Ser Harys Swyft, Ser Gregor Clegane (the Mountain), Ser Addam Marbrand, Ser Fleme"
+        }
+      ]
+    },
+    {
+      "page": "Jon Brax",
+      "raw_html_path": "sources/wiki/_raw/Jon_Brax.json",
+      "track_b_row": {
+        "page": "Jon Brax",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Brax",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Flement Brax",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Morya Frey",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Jon Brax",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "296 AC births",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Westerlands",
+          "Characters without images",
+          "House Brax",
+          "Nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 21848
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Robert Brax",
+      "raw_html_path": "sources/wiki/_raw/Robert_Brax.json",
+      "track_b_row": {
+        "page": "Robert Brax",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Brax",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Red Fork",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "299 AC"
+          },
+          {
+            "field": "Father",
+            "target": "Andros Brax",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Robert Brax",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Casualties of the War of the Five Kings",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Westerlands",
+          "Characters without images",
+          "House Brax",
+          "Knights",
+          "Nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 24201
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Robert Brax (son of Flement)",
+      "raw_html_path": "sources/wiki/_raw/Robert_Brax_(son_of_Flement).json",
+      "track_b_row": {
+        "page": "Robert Brax (son of Flement)",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiances",
+            "target": "House Brax",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Lannister",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Flement Brax",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Morya Frey",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Robert Brax (son of Flement)",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "290 AC births",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Westerlands",
+          "Characters without images",
+          "House Brax",
+          "House Lannister retainers",
+          "House Lannister wards",
+          "Nobles",
+          "Pages"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 23596
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Rupert Brax",
+      "raw_html_path": "sources/wiki/_raw/Rupert_Brax.json",
+      "track_b_row": {
+        "page": "Rupert Brax",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 32,
+          "source": "cite_ref",
+          "pov": "Catelyn III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Brax",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Oxcross",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "299 AC"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            32
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Rupert Brax",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Casualties of the War of the Five Kings",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Westerlands",
+          "Characters without images",
+          "House Brax",
+          "Knights",
+          "Nobles",
+          "Supporters of Joffrey Baratheon in the War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 24447
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Tytos Brax",
+      "raw_html_path": "sources/wiki/_raw/Tytos_Brax.json",
+      "track_b_row": {
+        "page": "Tytos Brax",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 16,
+          "source": "cite_ref",
+          "pov": "Samwell II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of Hornvale",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Brax",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Andros Brax",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            16
+          ],
+          "agot": [
+            63,
+            69
+          ],
+          "acok": [
+            65
+          ],
+          "asos": [
+            38
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Tytos Brax",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Westerlands",
+          "Characters without images",
+          "Hostages of House Frey in the War of the Five Kings",
+          "Hostages of House Stark in the War of the Five Kings",
+          "House Brax",
+          "Knights",
+          "Lords of Hornvale",
+          "Nobles",
+          "Supporters of Joffrey Baratheon in the War of the Five Kings",
+          "Supporters of Tommen Baratheon in the War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 2,
+          "acok": 1,
+          "asos": 1,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 32289
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-catelyn-10",
+          "line": 71,
+          "context": "| Lord Estren | Captured in the battle | Theon |\n| Ser Tytos Brax | Captured in the battle | Theon |\n| Mallor the Dornishman | Captured in the battle | Theon |"
+        },
+        {
+          "chapter": "agot-catelyn-10",
+          "line": 161,
+          "context": "| Approximately 100 knights and a dozen lords bannermen captured | Theon Greyjoy's report | Catelyn, Robb, Theon | No |\n| Named captives: Lord Westerling, Lord Banefort, Ser Garth Greenfield, Lord Est"
+        },
+        {
+          "chapter": "agot-catelyn-10",
+          "line": 232,
+          "context": "### Characters\nCatelyn Stark, Robb Stark, Grey Wind, Hallis Mollen, Olyvar Frey, Jaime Lannister, Theon Greyjoy, Greatjon (Jon Umber), Galbart Glover, Maege Mormont, Dacey Mormont, Torrhen Karstark, E"
+        }
+      ]
+    },
+    {
+      "page": "Walder Brax",
+      "raw_html_path": "sources/wiki/_raw/Walder_Brax.json",
+      "track_b_row": {
+        "page": "Walder Brax",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Brax",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Flement Brax",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Morya Frey",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Walder Brax",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "293 AC births",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Westerlands",
+          "Characters without images",
+          "House Brax",
+          "Nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 20604
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

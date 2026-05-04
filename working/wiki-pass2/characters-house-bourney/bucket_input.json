@@ -1,0 +1,90 @@
+{
+  "bucket_id": "characters-house-bourney",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Owain Bourney",
+      "raw_html_path": "sources/wiki/_raw/Owain_Bourney.json",
+      "track_b_row": {
+        "page": "Owain Bourney",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lord",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Bourney",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Blacks",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Greens",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westeros",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Tumbleton",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "130 AC"
+          }
+        ],
+        "aliases": [
+          "Lord Owain the Betrayer"
+        ],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Owain Bourney",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Blacks",
+          "Casualties of the Dance of the Dragons",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from Westeros",
+          "Characters without images",
+          "Deaths by stabbing",
+          "Greens",
+          "House Bourney",
+          "Nobles",
+          "Turncloaks in the Dance of the Dragons"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 11520
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

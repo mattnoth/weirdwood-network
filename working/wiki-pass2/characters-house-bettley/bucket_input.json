@@ -1,0 +1,157 @@
+{
+  "bucket_id": "characters-house-bettley",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Jon Bettley",
+      "raw_html_path": "sources/wiki/_raw/Jon_Bettley.json",
+      "track_b_row": {
+        "page": "Jon Bettley",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 16,
+          "source": "cite_ref",
+          "pov": "Samwell II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Bettley",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Westerlands",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouse",
+            "target": "Unknown",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [
+          "Beardless Jon"
+        ],
+        "cite_refs": {
+          "affc": [
+            16,
+            44
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Jon Bettley",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Westerlands",
+          "Characters without images",
+          "House Bettley",
+          "Knights",
+          "Nobles",
+          "Supporters of Joffrey Baratheon in the War of the Five Kings",
+          "Supporters of Tommen Baratheon in the War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 2,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 9539
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "affc-jaime-05",
+          "line": 41,
+          "context": "| Ser Dermot | Knight | Yes (uncertain \u2014 verify) | Leads Jaime's crossing with Tommen's banner |\n| Beardless Jon Bettley | Knight | Yes (uncertain \u2014 verify) | Sent to bear peace banner and message to "
+        },
+        {
+          "chapter": "affc-jaime-05",
+          "line": 207,
+          "context": "15. **Camp ordered** \u2014 Jaime directs tent placement, baggage, horse lines, latrines; orders Addam Marbrand to inspect the perimeter.\n16. **Peace banner dispatched** \u2014 Jaime sends Beardless Jon Bettley"
+        },
+        {
+          "chapter": "affc-jaime-05",
+          "line": 232,
+          "context": "| Assembly | Jaime, Peck, Addam Marbrand | Setting up camp on a rise near Daven's position | Between the rivers | Jaime directs placement with golden hand |\n| Departure | Beardless Jon Bettley | Beari"
+        },
+        {
+          "chapter": "affc-jaime-05",
+          "line": 294,
+          "context": "- **Primary preoccupation:** How to break the siege of Riverrun quickly so he can return to King's Landing; balancing his promise to Catelyn Stark against his duty.\n- **Key decisions made:** Plans to "
+        },
+        {
+          "chapter": "affc-jaime-05",
+          "line": 325,
+          "context": "|----------|-----------|---------|\n| Will the Blackfish accept Jaime's offer to parley? | Jaime's dispatching of peace banner | Beardless Jon Bettley sent with message; Genna and Daven doubt words wil"
+        },
+        {
+          "chapter": "affc-jaime-05",
+          "line": 339,
+          "context": "### Characters\nJaime Lannister, Josmyn Peckledon (Peck), Ser Daven Lannister, Lewys Piper (Little Lew), Pia, Garrett Paege, Ser Ilyn Payne, Genna Lannister, Emmon Frey, Raff the Sweetling, Ser Addam M"
+        },
+        {
+          "chapter": "affc-jaime-02",
+          "line": 45,
+          "context": "| Lambert Turnberry | Background | No | At quintain; struck only a glancing blow |\n| Beardless Jon Bettley | Background | No | At quintain; scored solid hit |\n| Humfrey Swyft | Background | No | At qu"
+        },
+        {
+          "chapter": "affc-jaime-02",
+          "line": 321,
+          "context": "### Characters\nJaime Lannister, Cersei Lannister, Ser Kevan Lannister, Lancel Lannister, Tommen Baratheon, Lord Tywin Lannister, Tyrion Lannister, Lady Taena Merryweather, Grand Maester Pycelle, Ser L"
+        },
+        {
+          "chapter": "affc-jaime-07",
+          "line": 46,
+          "context": "| Strongboar | Knight departing to hunt outlaws | No | Wants to fight the Hound or Beric Dondarrion |\n| Beardless Jon Bettley | Departs with Strongboar | No | Prefers hunting outlaws to returning to h"
+        },
+        {
+          "chapter": "affc-jaime-07",
+          "line": 206,
+          "context": "24. **Riverlords depart** \u2014 Lord Piper asks about his son Marq; Lord Karyl Vance advises Jaime to go to Raventree personally\n25. **Strongboar departs to hunt outlaws** \u2014 wants the Hound's head or Beri"
+        },
+        {
+          "chapter": "affc-jaime-07",
+          "line": 334,
+          "context": "### Characters\nJaime Lannister, Edmure Tully, Emmon Frey, Genna Lannister, Brynden Tully (the Blackfish), Jeyne Westerling, Lady Sybell Westerling, Lord Gawen Westerling, Ser Forley Prester, Edwyn Fre"
+        },
+        {
+          "chapter": "affc-jaime-03",
+          "line": 41,
+          "context": "| Maester Gulian | Maester with ravens | Yes (uncertain \u2014 verify) | Consults map; to remain at Harrenhal |\n| Beardless Jon Bettley | Knight in Jaime's force | Yes (uncertain \u2014 verify) | Tosses a spear"
+        },
+        {
+          "chapter": "affc-jaime-03",
+          "line": 354,
+          "context": "### Characters\nJaime Lannister, Cersei Lannister, Ser Ilyn Payne, Ser Addam Marbrand, Josmyn Peckledon (Peck), Little Lew Piper, Ser Kennos of Kayce, Strongboar (Ser Lyle Crakehall), Red Ronnet Connin"
+        }
+      ]
+    }
+  ]
+}

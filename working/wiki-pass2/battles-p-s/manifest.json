@@ -70,8 +70,8 @@
     "seizure-of-westerlands-gold-mines.node.md",
     "shadow-war.node.md"
   ],
-  "status": "pending",
-  "started_at": null,
+  "status": "fail",
+  "started_at": "2026-05-02T01:35:48Z",
   "completed_at": null,
   "validation_report": null,
   "priority": {

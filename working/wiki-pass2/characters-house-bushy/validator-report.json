@@ -1,0 +1,8 @@
+{
+  "bucket_id": "characters-house-bushy",
+  "passed": true,
+  "checked_at": "2026-05-02T01:07:54Z",
+  "node_count_expected": 1,
+  "node_count_actual": 1,
+  "failures": []
+}

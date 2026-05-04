@@ -26,3 +26,7 @@
 - **AFFC Wave 9** (2026-05-01 15:34) — affc-the-krakens-daughter-01,affc-the-princess-in-the-tower-01,affc-the-prophet-01,affc-the-queenmaker-01,affc-the-reaver-01 (5/5 ok) [31m 43s, 821291 tokens, $3.9456]
 - **AFFC Wave 3** (2026-05-01 15:36) — affc-brienne-07,affc-brienne-08,affc-cat-of-the-canals-01,affc-cersei-01,affc-cersei-02 (5/5 ok) [30m 38s, 854426 tokens, $3.7836]
 - **AFFC Wave 6** (2026-05-01 15:36) — affc-jaime-03,affc-jaime-04,affc-jaime-05,affc-jaime-06,affc-jaime-07 (5/5 ok) [32m 43s, 984179 tokens, $4.1319]
+- **ACOK Wave 11** (2026-05-02 12:00) — acok-theon-02,acok-theon-03,acok-theon-04,acok-theon-05,acok-theon-06 ✅ (5/5) [1323s, 827128 tokens]
+- **ACOK Wave 14** (2026-05-02 12:02) — acok-tyrion-11,acok-tyrion-12,acok-tyrion-13,acok-tyrion-14,acok-tyrion-15 ✅ (5/5) [1457s, 698483 tokens]
+- **ACOK Wave 12** (2026-05-02 12:06) — acok-tyrion-01,acok-tyrion-02,acok-tyrion-03,acok-tyrion-04,acok-tyrion-05 ✅ (5/5) [1665s, 792919 tokens]
+- **ACOK Wave 13** (2026-05-02 12:08) — acok-tyrion-06,acok-tyrion-07,acok-tyrion-08,acok-tyrion-09,acok-tyrion-10 ✅ (5/5) [1827s, 800565 tokens]

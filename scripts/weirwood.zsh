@@ -133,15 +133,17 @@ weirwood() {
       echo "  weirwood                          This help + all-books overview"
       echo "  weirwood check                    Verify source files & prerequisites"
       echo "  weirwood <book>                   Detailed status (wave table, costs)"
-      echo "  weirwood <book> <terms> <waves>   Launch iTerm tabs to extract"
-      echo "  weirwood <book> <t> <w> <model>   Launch with a specific model"
+      echo "  weirwood <book> <t> <w>           Launch iTerm tabs to extract"
+      echo "  weirwood <book> <t> <w> <model>   With a specific model"
+      echo "  weirwood <book> <t> <w> --delay 2h --chain  Auto-advance with 2h waits"
       echo "  weirwood stop                     Soft stop (see below)"
       echo "  weirwood wiki <subcommand>        Wiki Pass 2 — see 'weirwood wiki --help'"
       echo ""
       echo "Examples:"
       echo "  weirwood acok                     What's left in ACOK?"
-      echo "  weirwood acok 2 3                 2 terminals, 3 waves each"
-      echo "  weirwood acok 2 3 claude-sonnet-4-6"
+      echo "  weirwood acok 2 1                 2 terminals, 1 wave each"
+      echo "  weirwood acok 2 1 --delay 2h --chain  Auto-advance every 2 hours"
+      echo "  weirwood acok 2 3 claude-opus-4-7"
       echo "  weirwood stop"
       echo "  weirwood wiki triage --accept     Commit wiki triage manifests"
       echo "  weirwood wiki core 2 3            Launch wiki core tier (2 tabs, 3 waves)"
@@ -196,11 +198,24 @@ weirwood() {
         "$script" status "$book"
       else
         local terminals="$2"
-        local waves="${3:?Usage: weirwood <book> <terminals> <waves>}"
+        local waves="${3:?Usage: weirwood <book> <terminals> <waves> [model] [--delay 2h] [--chain]}"
         local model="${4:-}"
+        shift 4
+        local extra_args=()
+        # Pass through remaining args: model (if not yet seen), --delay, --chain
+        while [[ $# -gt 0 ]]; do
+          case "$1" in
+            --delay|-d|--chain|-c) extra_args+=("$1" "$2"); shift 2 ;;
+            --chain|-c) extra_args+=("$1"); shift ;;
+            -*)         extra_args+=("$1"); shift ;;
+            *)          # Assume it's the model if not yet set
+                        [[ -z "$model" ]] && model="$1"
+                        shift ;;
+          esac
+        done
         local model_args=()
         [[ -n "$model" ]] && model_args=(--model "$model")
-        "$script" launch "$book" -t "$terminals" -w "$waves" "${model_args[@]}"
+        "$script" launch "$book" -t "$terminals" -w "$waves" "${model_args[@]}" "${extra_args[@]}"
       fi
       ;;
   esac

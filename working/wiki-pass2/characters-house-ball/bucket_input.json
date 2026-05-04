@@ -1,0 +1,187 @@
+{
+  "bucket_id": "characters-house-ball",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Quentyn Ball",
+      "raw_html_path": "sources/wiki/_raw/Quentyn_Ball.json",
+      "track_b_row": {
+        "page": "Quentyn Ball",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Master-at-arms",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Red Keep",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Ball",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Blackfyre",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Reach",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Redgrass Field",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "196 AC"
+          },
+          {
+            "field": "Spouse",
+            "target": "Unknown",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Glendon Flowers",
+            "edge_type": "PARENT_OF",
+            "direction": "forward",
+            "qualifier": "disputed"
+          }
+        ],
+        "aliases": [
+          "Fireball"
+        ],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Quentyn Ball",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "196 AC deaths",
+          "Casualties of the First Blackfyre Rebellion",
+          "Character pages in alphabetical order",
+          "Character pages with 2 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the Reach",
+          "Characters with red hair",
+          "House Ball",
+          "House Targaryen retainers",
+          "Knights",
+          "Masters-at-arms",
+          "Members of Aegon IV Targaryen's court",
+          "Members of Daeron II Targaryen's court",
+          "Nobles",
+          "Pages using deprecated image syntax",
+          "Pages with the coat-of-arms parameter",
+          "Rebels of the First Blackfyre Rebellion"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 26620
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Rosamund Ball",
+      "raw_html_path": "sources/wiki/_raw/Rosamund_Ball.json",
+      "track_b_row": {
+        "page": "Rosamund Ball",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Ball",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Maidenpool",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "51 AC"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Rosamund Ball",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "51 AC deaths",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Reach",
+          "Characters without images",
+          "Companions and ladies-in-waiting of Alysanne Targaryen",
+          "Deaths by stabbing",
+          "House Ball",
+          "House Targaryen retainers",
+          "Members of Jaehaerys I Targaryen's court",
+          "Noblewomen"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 6387
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

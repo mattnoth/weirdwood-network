@@ -1,0 +1,8 @@
+{
+  "bucket_id": "characters-house-ashford",
+  "passed": true,
+  "checked_at": "2026-05-02T00:46:46Z",
+  "node_count_expected": 4,
+  "node_count_actual": 4,
+  "failures": []
+}

@@ -85,9 +85,14 @@ weirwood acok 2 3
 
 # Launch with a specific model (default: claude-opus-4-6)
 weirwood acok 2 3 claude-sonnet-4-6
+
+# Auto-advance mode: 2 terminals, 1 wave each, auto-launch next batch after 2h wait
+weirwood acok 2 1 --delay 2h --chain
 ```
 
-That's it. The script finds incomplete waves, opens iTerm tabs, and each tab runs its assigned waves. When you come back later, run the same command — it picks up where it left off.
+The script finds incomplete waves, opens iTerm tabs, and each tab runs its assigned waves. When you come back later, run the same command — it picks up where it left off.
+
+**Auto-advance mode** (`--delay` + `--chain`): Useful for long multi-batch runs across API usage windows. After each batch completes, waits for the specified delay, then automatically launches the next batch. Spreads token usage across multiple sessions without manual re-launching.
 
 ## How Extraction Works
 
@@ -134,9 +139,17 @@ Every extraction logs to `working/extraction-stats/` with per-chapter timing, to
 | `weirwood` | Help + overview across all books |
 | `weirwood check` | Verify source files, chapters, and prerequisites |
 | `weirwood <book>` | Detailed status: wave table, costs, suggested next command |
-| `weirwood <book> <terminals> <waves>` | Launch iTerm tabs to run extractions |
+| `weirwood <book> <t> <w>` | Launch iTerm tabs to run extractions |
 | `weirwood <book> <t> <w> <model>` | Launch with a specific Claude model |
+| `weirwood <book> <t> <w> --delay 2h --chain` | Auto-advance mode: wait 2h between batches, re-launch automatically |
 | `weirwood stop` | Soft stop — halt after current wave finishes |
+
+### Flags
+
+| Flag | Use |
+|------|-----|
+| `--delay <duration>` | Wait time between batches (e.g., `2h`, `30m`, `120s`). Only meaningful with `--chain`. |
+| `--chain` or `-c` | Auto-advance mode: after each batch completes, wait for `--delay`, then launch next batch. Requires `--delay`. |
 
 ### Books
 

@@ -1,0 +1,80 @@
+{
+  "bucket_id": "characters-house-bigglestone",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Lord Bigglestone",
+      "raw_html_path": "sources/wiki/_raw/Lord_Bigglestone.json",
+      "track_b_row": {
+        "page": "Lord Bigglestone",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lord",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Bigglestone",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Blacks",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Gods Eye",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "130 AC"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Lord Bigglestone",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Blacks",
+          "Casualties of the Dance of the Dragons",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "Characters without images",
+          "House Bigglestone",
+          "Nobles",
+          "Unnamed characters"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 9574
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

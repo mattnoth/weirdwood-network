@@ -1,0 +1,8 @@
+{
+  "bucket_id": "characters-house-baelish",
+  "passed": true,
+  "checked_at": "2026-05-02T00:52:23Z",
+  "node_count_expected": 10,
+  "node_count_actual": 10,
+  "failures": []
+}

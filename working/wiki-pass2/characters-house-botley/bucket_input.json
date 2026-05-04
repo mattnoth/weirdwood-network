@@ -1,0 +1,1196 @@
+{
+  "bucket_id": "characters-house-botley",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Balon Botley",
+      "raw_html_path": "sources/wiki/_raw/Balon_Botley.json",
+      "track_b_row": {
+        "page": "Balon Botley",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Botley",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Germund Botley",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Balon Botley",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Iron Islands",
+          "Characters without images",
+          "House Botley",
+          "Nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 33195
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Bennarion Botley",
+      "raw_html_path": "sources/wiki/_raw/Bennarion_Botley.json",
+      "track_b_row": {
+        "page": "Bennarion Botley",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Botley",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Sawane Botley",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Bennarion Botley",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Iron Islands",
+          "Characters without images",
+          "House Botley",
+          "Nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 33157
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Germund Botley",
+      "raw_html_path": "sources/wiki/_raw/Germund_Botley.json",
+      "track_b_row": {
+        "page": "Germund Botley",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 11,
+          "source": "cite_ref",
+          "pov": "Sansa"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lord of Lordsport",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Botley",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Balon Botley",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Quellon Botley",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            11,
+            18
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Germund Botley",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Iron Islands",
+          "Characters without images",
+          "Crew and followers of Euron Greyjoy",
+          "House Botley",
+          "Lords of Lordsport",
+          "Nobles",
+          "Supporters of Euron Greyjoy in the War of the Five Kings",
+          "Veterans of Greyjoy's Rebellion"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 2,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 37155
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "affc-the-reaver-01",
+          "line": 39,
+          "context": "| Quellon Humble | Ironborn captain | Yes | Wears tapestry as cloak; shouts against sailing near Valyria; whispered to Victarion about Euron's wizards |\n| Germund Botley | Ironborn | Yes | Wears rope "
+        },
+        {
+          "chapter": "affc-the-reaver-01",
+          "line": 63,
+          "context": "| Andrik the Unsmiling | | | Enormous (\"like a mountain rising sudden from the sea\") | | | | Rings on every finger; never smiles | |\n| Germund Botley | | | | | Gilded Lannister breastplate; rope of pe"
+        },
+        {
+          "chapter": "affc-the-reaver-01",
+          "line": 167,
+          "context": "| Nightflyer | Baelor Blacktyde's ship; seized when he tried to sail home | Yes | Ironborn (seized) |\n| Gilded Lannister breastplate | Plundered armor worn by Germund Botley | Yes | Germund Botley |\n|"
+        },
+        {
+          "chapter": "affc-the-reaver-01",
+          "line": 357,
+          "context": "### Characters\nVictarion Greyjoy, Euron Greyjoy (Crow's Eye), Aeron Greyjoy (Damphair), Balon Greyjoy, Asha Greyjoy, Ser Talbert Serry, Lord Serry, Nute the Barber, Ragnor Pyke, Wulfe One-Ear, Rodrik "
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 68,
+          "context": "| Lord Wynch | First to bend knee and call Euron king; given half the Botley lands | Tristifer |\n| Germund Botley | Tris's uncle; calls himself Lord Botley; rules in Lordsport as Euron's man | Tristif"
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 107,
+          "context": "| Blacktyde | Baelor Blacktyde's island; where Tris was sent as ward | No (uncertain \u2014 verify) |\n| Lordsport | Where Germund Botley rules as Euron's man | No (uncertain \u2014 verify) |\n| Moat Cailin | Whe"
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 190,
+          "context": "25. **Tristifer Botley approaches Asha in the yard** \u2014 Steps from behind the well in a sealskin cloak; she reaches for her dirk until she recognizes him.\n26. **Tris reports on Euron's consolidation of"
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 224,
+          "context": "| Euron gave half of Botley lands to Iron Holt / Lord Wynch | Tristifer tells Asha | Tristifer, Asha | No |\n| Germund Botley rules Lordsport as Euron's man | Tristifer tells Asha | Tristifer, Asha | N"
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 284,
+          "context": "| Euron Greyjoy | Murdered (alleged) | Balon Greyjoy | Returned the day after Balon's death; Lady Alannys believes Balon was murdered |\n| Euron Greyjoy | Buying loyalty | Various lords and captains | "
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 305,
+          "context": "### Characters\nAsha Greyjoy, Lord Rodrik Harlaw (the Reader), Three-Tooth, Tristifer Botley, Qarl the Maid, Balon Greyjoy, Euron Greyjoy (Crow's Eye), Victarion Greyjoy, Aeron Greyjoy (Damphair), Lady"
+        },
+        {
+          "chapter": "affc-the-iron-captain-01",
+          "line": 37,
+          "context": "| Left-Hand Lucas Codd | Euron's follower | uncertain \u2014 verify | Announces he is unwed; mocked by Asha |\n| Germund Botley | Euron's follower | uncertain \u2014 verify | Wears gilded breastplate taken from "
+        },
+        {
+          "chapter": "affc-the-iron-captain-01",
+          "line": 65,
+          "context": "| Torwold Browntooth | | | | | | | Brown teeth | |\n| Germund Botley | | | | | Gilded breastplate (taken from Lannister captain) | | Arms crossed against breastplate | |\n| Red Oarsman | Fiery hair in b"
+        },
+        {
+          "chapter": "affc-the-iron-captain-01",
+          "line": 134,
+          "context": "| The chests | Unspecified contents; \"much depended on the chests\"; under Nute's guard | Yes (uncertain \u2014 verify) | Iron Victory, guarded by Nute |\n| Germund Botley's gilded breastplate | Taken from a"
+        },
+        {
+          "chapter": "affc-the-iron-captain-01",
+          "line": 272,
+          "context": "| Aeron | Hostile to | Euron | \"In him our father's blood went bad\"; confronts him publicly |\n| Euron | Commands/leads | Pinchface Jon Myre, Torwold, Lucas Codd, Germund Botley, Orkwood, Stonehand, Qu"
+        },
+        {
+          "chapter": "affc-the-iron-captain-01",
+          "line": 301,
+          "context": "### Characters\nVictarion Greyjoy, Nute the Barber, Aeron Damphair (Aeron Greyjoy), Asha Greyjoy, Euron Greyjoy (Crow's Eye), Balon Greyjoy, Lord Quellon Greyjoy, Baelor Blacktyde, Hotho Harlaw, Rodrik"
+        },
+        {
+          "chapter": "affc-the-iron-captain-01",
+          "line": 319,
+          "context": "### Artifacts & Objects\nIron Victory (ship), Silence (ship), Black Wind (ship), Grief (ship), Iron Vengeance (ship), Hardhand (ship), Iron Wind (ship), Grey Ghost (ship), Lord Quellon (ship), Lord Vic"
+        }
+      ]
+    },
+    {
+      "page": "Harlon Botley",
+      "raw_html_path": "sources/wiki/_raw/Harlon_Botley.json",
+      "track_b_row": {
+        "page": "Harlon Botley",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Botley",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Sawane Botley",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Harlon Botley",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Iron Islands",
+          "Characters without images",
+          "House Botley",
+          "Nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 33176
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Harren Botley",
+      "raw_html_path": "sources/wiki/_raw/Harren_Botley.json",
+      "track_b_row": {
+        "page": "Harren Botley",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 11,
+          "source": "cite_ref",
+          "pov": "Sansa"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Botley",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Moat Cailin",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "299 AC"
+          },
+          {
+            "field": "Father",
+            "target": "Sawane Botley",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            11
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Harren Botley",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Casualties of the War of the Five Kings",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Iron Islands",
+          "Characters without images",
+          "Deaths by poison",
+          "House Botley",
+          "Nobles",
+          "Supporters of Balon Greyjoy in the War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 34244
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 55,
+          "context": "| Sawane Botley | Tris's father; drowned by Euron for denying his claim to the Seastone Chair | Asha, Three-Tooth, Tristifer |\n| Harren Botley | Tris's elder brother; died at Moat Cailin, shot by a po"
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 108,
+          "context": "| Lordsport | Where Germund Botley rules as Euron's man | No (uncertain \u2014 verify) |\n| Moat Cailin | Where Harren Botley died | No |\n| Iron Holt | Wynch seat; given half of Botley lands | Yes (uncertai"
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 222,
+          "context": "| Euron drowned Sawane Botley for denying his claim | Tristifer tells Asha | Tristifer, Asha | No |\n| Harren Botley died at Moat Cailin from a poisoned arrow | Tristifer tells Asha | Tristifer, Asha |"
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 299,
+          "context": "| What is Asha's \"third course\" \u2014 her political plan for the ironborn? | Asha | She promises to reveal it at her \"queensmoot\" but does not share it with Rodrik |\n| What happened to Harren Botley's eld"
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 305,
+          "context": "### Characters\nAsha Greyjoy, Lord Rodrik Harlaw (the Reader), Three-Tooth, Tristifer Botley, Qarl the Maid, Balon Greyjoy, Euron Greyjoy (Crow's Eye), Victarion Greyjoy, Aeron Greyjoy (Damphair), Lady"
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 332,
+          "context": "### Wars & Conflicts\nBalon Greyjoy's first rebellion (referenced \u2014 Gwynesse's husband and Rodrik's sons died), War of the Five Kings (implied \u2014 Stannis and Tywin contending), Battle/siege at Moat Cail"
+        }
+      ]
+    },
+    {
+      "page": "Lucimore Botley",
+      "raw_html_path": "sources/wiki/_raw/Lucimore_Botley.json",
+      "track_b_row": {
+        "page": "Lucimore Botley",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Botley",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Lucimore Botley",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Iron Islands",
+          "Characters without images",
+          "House Botley",
+          "Nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 31176
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Maron Botley",
+      "raw_html_path": "sources/wiki/_raw/Maron_Botley.json",
+      "track_b_row": {
+        "page": "Maron Botley",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 37,
+          "source": "cite_ref",
+          "pov": "Tyrion VIII"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Botley",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Winterfell",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "299 AC"
+          },
+          {
+            "field": "Issue",
+            "target": "Three sons",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Fishwhiskers"
+        ],
+        "cite_refs": {
+          "acok": [
+            37,
+            66
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Maron Botley",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Iron Islands",
+          "Crew of the Sea Bitch",
+          "House Botley",
+          "Nobles",
+          "Supporters of Balon Greyjoy in the War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 2,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 10273
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Quellon Botley",
+      "raw_html_path": "sources/wiki/_raw/Quellon_Botley.json",
+      "track_b_row": {
+        "page": "Quellon Botley",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Botley",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Germund Botley",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Quellon Botley",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Iron Islands",
+          "Characters without images",
+          "House Botley",
+          "Nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 33060
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Sargon Botley",
+      "raw_html_path": "sources/wiki/_raw/Sargon_Botley.json",
+      "track_b_row": {
+        "page": "Sargon Botley",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Botley",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Wex Pyke",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Sargon Botley",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Iron Islands",
+          "Characters without images",
+          "House Botley",
+          "Nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 31351
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Sawane Botley",
+      "raw_html_path": "sources/wiki/_raw/Sawane_Botley.json",
+      "track_b_row": {
+        "page": "Sawane Botley",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 1,
+          "source": "cite_ref",
+          "pov": "Prologue"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord of Lordsport",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Swiftfin",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Botley",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Pyke",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "299 AC"
+          },
+          {
+            "field": "Issue",
+            "target": "Harren Botley",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Tristifer Botley",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Symond Botley",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Harlon Botley",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Vickon Botley",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Bennarion Botley",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            1,
+            11,
+            18
+          ],
+          "acok": [
+            11,
+            24
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Sawane Botley",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Casualties of the War of the Five Kings",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Iron Islands",
+          "Characters killed by Euron Greyjoy",
+          "Characters without images",
+          "Deaths by drowning",
+          "Executions",
+          "House Botley",
+          "Lords of Lordsport",
+          "Nobles",
+          "Ship captains",
+          "Supporters of Balon Greyjoy in the War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 2,
+          "asos": 0,
+          "affc": 3,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 42504
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "affc-the-prophet-01",
+          "line": 56,
+          "context": "| Balon Greyjoy | Dead king; fell from a bridge at Pyke during a storm; Aeron's eldest brother; had gone half-white of hair with a stoop in his shoulders; favored Asha as successor | Gormond, the Spar"
+        },
+        {
+          "chapter": "affc-the-prophet-01",
+          "line": 72,
+          "context": "| Stannis Baratheon | Caught Victarion in his trap at Fair Isle; smashed the Iron Fleet with war galley Fury | Aeron (internal) |\n| Sawane Botley | Drowned by Euron for saying the Seastone Chair belon"
+        },
+        {
+          "chapter": "affc-the-prophet-01",
+          "line": 162,
+          "context": "11. **Succession debate** \u2014 Maester Murenmure argues Theon is rightful heir (or Asha if Theon is dead) by law. Aeron dismisses \"green land law,\" declares no godless man or woman may rule the ironborn."
+        },
+        {
+          "chapter": "affc-the-prophet-01",
+          "line": 207,
+          "context": "| Euron had been banished by Balon two years ago on pain of death | Aeron's internal knowledge | Aeron | Yes (internal thought) |\n| Euron had Sawane Botley drowned for supporting Theon's claim | Gorol"
+        },
+        {
+          "chapter": "affc-the-prophet-01",
+          "line": 231,
+          "context": "| Aeron | Maester Murenmure | \"Green land law. What is that to us? We are ironborn, the sons of the sea, chosen of the Drowned God. No woman may rule over us, nor any godless man.\" | Rejecting maester"
+        },
+        {
+          "chapter": "affc-the-prophet-01",
+          "line": 269,
+          "context": "| Euron Greyjoy | Claimed | Seastone Chair | \"claimed the castle and the crown as Balon's eldest brother\" |\n| Euron Greyjoy | Killed (by drowning) | Sawane Botley | \"He had Sawane Botley drowned\" |\n| "
+        },
+        {
+          "chapter": "affc-the-prophet-01",
+          "line": 335,
+          "context": "- Stannis Baratheon\n- Sawane Botley\n- The Reader (Lord of Harlaw)"
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 54,
+          "context": "| Maron Greyjoy | Asha's dead brother; one of the \"knives\" in Lady Alannys's heart | Asha (recalled) |\n| Sawane Botley | Tris's father; drowned by Euron for denying his claim to the Seastone Chair | A"
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 169,
+          "context": "4. **Asha speaks with Three-Tooth** \u2014 Learns Rodrik is in his library with Botley, and Lady Alannys is abed in the Widow's Tower.\n5. **Asha learns Tristifer Botley is the new Lord Botley** \u2014 Three-Too"
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 221,
+          "context": "| Silence was claimed to be at sea when Balon died | Rodrik reports | Rodrik, Asha | No |\n| Euron drowned Sawane Botley for denying his claim | Tristifer tells Asha | Tristifer, Asha | No |\n| Harren B"
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 281,
+          "context": "| Tristifer Botley | Devoted / unrequited love | Asha Greyjoy | Has ached for her; proposes marriage; claims to be her man forever; has never touched another woman |\n| Tristifer Botley | Son; grieving"
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 305,
+          "context": "### Characters\nAsha Greyjoy, Lord Rodrik Harlaw (the Reader), Three-Tooth, Tristifer Botley, Qarl the Maid, Balon Greyjoy, Euron Greyjoy (Crow's Eye), Victarion Greyjoy, Aeron Greyjoy (Damphair), Lady"
+        },
+        {
+          "chapter": "affc-the-iron-captain-01",
+          "line": 78,
+          "context": "| Dunstan Drumm | His ship Thunderer spotted; means to make a claim | Victarion, Asha |\n| Sawane Botley | Drowned by the Crow's Eye; had an heir who died at Moat Cailin, plus brothers and other sons |"
+        },
+        {
+          "chapter": "affc-the-iron-captain-01",
+          "line": 211,
+          "context": "| Balon's sons are dead | Red Ralf Stonehouse states (recalled) | Victarion, his captains | No |\n| Euron drowned Sawane Botley | Victarion's narration (\"Victarion had heard\") | Victarion, apparently c"
+        },
+        {
+          "chapter": "affc-the-iron-captain-01",
+          "line": 281,
+          "context": "| Euron | Claimed to have killed | Balon | Asha's accusation; suspicious timing of return |\n| Euron | Drowned | Sawane Botley | \"The Crow's Eye had drowned Lord Botley\" |\n| Victarion | Respects tradit"
+        },
+        {
+          "chapter": "affc-the-iron-captain-01",
+          "line": 301,
+          "context": "### Characters\nVictarion Greyjoy, Nute the Barber, Aeron Damphair (Aeron Greyjoy), Asha Greyjoy, Euron Greyjoy (Crow's Eye), Balon Greyjoy, Lord Quellon Greyjoy, Baelor Blacktyde, Hotho Harlaw, Rodrik"
+        }
+      ]
+    },
+    {
+      "page": "Symond Botley",
+      "raw_html_path": "sources/wiki/_raw/Symond_Botley.json",
+      "track_b_row": {
+        "page": "Symond Botley",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Botley",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Sawane Botley",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Symond Botley",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Iron Islands",
+          "Characters without images",
+          "House Botley",
+          "Nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 33414
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Tristifer Botley",
+      "raw_html_path": "sources/wiki/_raw/Tristifer_Botley.json",
+      "track_b_row": {
+        "page": "Tristifer Botley",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 11,
+          "source": "cite_ref",
+          "pov": "Sansa"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lord of Lordsport",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "Germund"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Botley",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Lordsport",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "274"
+          },
+          {
+            "field": "Father",
+            "target": "Sawane Botley",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Lover",
+            "target": "Asha Greyjoy",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [
+          "Tris"
+        ],
+        "cite_refs": {
+          "affc": [
+            11,
+            19
+          ],
+          "adwd": [
+            26,
+            35,
+            42,
+            62
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Tristifer Botley",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Iron Islands",
+          "Characters with brown hair",
+          "Followers of Asha Greyjoy",
+          "House Blacktyde wards",
+          "House Botley",
+          "House Greyjoy wards",
+          "House Harlaw wards",
+          "Lords of Lordsport",
+          "Nobles",
+          "Pages using deprecated image syntax",
+          "Sailors",
+          "Supporters of Balon Greyjoy in the War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 2,
+          "adwd": 4
+        },
+        "has_infobox": true,
+        "byte_size": 56349
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "affc-the-drowned-man-01",
+          "line": 43,
+          "context": "| Qarl the Maid | Champion for Asha | Yes (uncertain \u2014 verify) | Pink-cheeked; heckles Euron |\n| Tristifer Botley | Champion for Asha | Yes (uncertain \u2014 verify) | Shouts for Asha |\n| Ser Harras Harlaw"
+        },
+        {
+          "chapter": "affc-the-drowned-man-01",
+          "line": 173,
+          "context": "16. **Asha interrupts Victarion's momentum** \u2014 She whistles sharply, snatches a golden collar, and pushes past Victarion's champions. She mocks Victarion (counting on fingers, boots, wives dying), arg"
+        },
+        {
+          "chapter": "affc-the-drowned-man-01",
+          "line": 195,
+          "context": "| Confrontation | Asha | Snatches golden collar, bounds up the steps past Victarion's champions | Pushes past Nute and Red Ralf | Nute grabs her arm; she wrenches free; says something to Red Ralf to m"
+        },
+        {
+          "chapter": "affc-the-drowned-man-01",
+          "line": 273,
+          "context": "| Qarl the Maid | Champion of | Asha Greyjoy | Stands for Asha; heckles Euron |\n| Tristifer Botley | Champion of / supporter of | Asha Greyjoy | Stands as her champion; shouts for her |\n| Ser Harras H"
+        },
+        {
+          "chapter": "affc-the-drowned-man-01",
+          "line": 307,
+          "context": "### Characters\nAeron Greyjoy (Damphair, the Drowned Man), Rus, Gylbert Farwynd, Erik Ironmaker (Erik Anvil-Breaker, Erik the Just), Thormor, Asha Greyjoy, Victarion Greyjoy, Euron Greyjoy (Crow's Eye)"
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 13,
+          "context": "- **time_markers:** Night (\"Dark, so soon?\"); moonlit sea and yard; feast already concluded (only bones and greasy platters remain); Asha's crew still unloading Black Wind; Rodrik says \"We looked for "
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 30,
+          "context": "| Three-Tooth | Minor character | Yes (uncertain \u2014 verify) | Ancient steward of Ten Towers; formerly known as Twelve-Tooth |\n| Tristifer Botley | Major character | No (uncertain \u2014 verify) | Now Lord B"
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 38,
+          "context": "| Asha Greyjoy | | | Long legs | | Studded belt about her hips | Dirk in sheath | | |\n| Tristifer Botley | Unruly hair | Large and trusting, like a seal's | Filled out since last seen | | Sealskin clo"
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 169,
+          "context": "4. **Asha speaks with Three-Tooth** \u2014 Learns Rodrik is in his library with Botley, and Lady Alannys is abed in the Widow's Tower.\n5. **Asha learns Tristifer Botley is the new Lord Botley** \u2014 Three-Too"
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 189,
+          "context": "24. **Asha considers her political situation** \u2014 She needs Harlaw cousins, Volmarks, and Stonetrees. Her crew of Black Wind will support her; half love her as a daughter, half want to bed her, but all"
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 209,
+          "context": "| Departure | Asha | Shoulders through door at bottom of steps into moonlit yard | Book Tower exit to yard | |\n| Confrontation | Tristifer Botley | Steps from behind the well | Moonlit yard | Wearing "
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 273,
+          "context": "| Asha Greyjoy | Captor, shows care | Lady Glover and children | Insists captives have warm beds, hot meal, tower not dungeon; concerned about sick babe |\n| Asha Greyjoy | Former youthful lover; no cu"
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 280,
+          "context": "| Lord Rodrik Harlaw | Designated successor | Ser Harras Harlaw (the Knight) | Says the Knight will be Lord of Harlaw after him |\n| Tristifer Botley | Devoted / unrequited love | Asha Greyjoy | Has ac"
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 281,
+          "context": "| Tristifer Botley | Devoted / unrequited love | Asha Greyjoy | Has ached for her; proposes marriage; claims to be her man forever; has never touched another woman |\n| Tristifer Botley | Son; grieving"
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 282,
+          "context": "| Tristifer Botley | Son; grieving | Sawane Botley | Father drowned by Euron |\n| Tristifer Botley | Dispossessed lord | Euron Greyjoy | Euron drowned his father, stripped his lands, installed his uncl"
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 287,
+          "context": "| Lady Gwynesse | Sister; claims inheritance | Lord Rodrik Harlaw | Believes Ten Towers should be hers as she is seven years his elder |\n| Baelor Blacktyde | Former guardian | Tristifer Botley | Tris "
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 305,
+          "context": "### Characters\nAsha Greyjoy, Lord Rodrik Harlaw (the Reader), Three-Tooth, Tristifer Botley, Qarl the Maid, Balon Greyjoy, Euron Greyjoy (Crow's Eye), Victarion Greyjoy, Aeron Greyjoy (Damphair), Lady"
+        }
+      ]
+    },
+    {
+      "page": "Vickon Botley",
+      "raw_html_path": "sources/wiki/_raw/Vickon_Botley.json",
+      "track_b_row": {
+        "page": "Vickon Botley",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Botley",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Sawane Botley",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Vickon Botley",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Iron Islands",
+          "Characters without images",
+          "House Botley",
+          "Nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 33142
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Wex Pyke",
+      "raw_html_path": "sources/wiki/_raw/Wex_Pyke.json",
+      "track_b_row": {
+        "page": "Wex Pyke",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 11,
+          "source": "cite_ref",
+          "pov": "Davos I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiances",
+            "target": "House Botley",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Iron Islands",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "286 AC"
+          },
+          {
+            "field": "Father",
+            "target": "Sargon Botley",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            29
+          ],
+          "acok": [
+            11,
+            24,
+            37,
+            50,
+            56,
+            66
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Wex Pyke",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "286 AC births",
+          "Bastards",
+          "Character pages in alphabetical order",
+          "Character pages with 0 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the Iron Islands",
+          "Characters with brown hair",
+          "House Botley",
+          "House Greyjoy retainers",
+          "Mutes",
+          "Squires"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 6,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 51419
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

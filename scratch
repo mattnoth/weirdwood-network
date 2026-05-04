@@ -1,0 +1,26 @@
+                                                                                                 
+      M working/wiki-pass2/conflicts.jsonl                     
+     … +17 lines (ctrl+o to expand)                                                                                                  
+                                                                                                                                     
+⏺ sources/raw/ is gitignored; sources/chapters/ is now tracked by design (commit bbf365ea added them and removed the old gitignore
+  rule). No raw .txt source files showing as untracked.                                                                              
+                                                                                                                                     
+  The untracked extractions/mechanical/acok/ (70 files) and graph/nodes/_conflicts/ entries are ready to commit when you're ready.   
+                                                                                                                                     
+  ---                                                                                                                                
+  Session 30 — done.                                              
+                                                                                                                                     
+  ACOK is 70/70 in extractions/mechanical/acok/, but chapters 1-50 are v2 schema (4-category Raw Entity List). Those 50 need a v3
+  re-run. The continue prompt has been updated with the correct state and the re-run command.                                        
+                                                                  
+  ━━━ HANDOFF FOR NEXT AGENT ━━━                                                                                                     
+  /continue 2026-05-02-pass1-mechanical-remaining-books                                                                              
+                                                                                                                                     
+  Context:                                                                                                                           
+  - Active work track: Pass 1 mechanical extraction — remaining books                                                                
+  - Last session: 30 — ACOK 70/70 complete but chapters 1-50 are v2 schema (4-cat entity list, not 12-cat); need re-run of waves 1-10
+  - Re-run command: weirwood-mechanical --chain acok 4 1  (stop after wave 10 to avoid re-running the 20 good chapters)              
+  - After ACOK fix: ASOS (0/82) then ADWD (0/73), single-pass v3 each                                                                
+  - Open questions for Matt: confirm budget is open before launching anything                                                        
+  - DO NOT: auto-launch any extraction runs without Matt confirming first; do not run /endsession without explicit permission        
+  ━━━    

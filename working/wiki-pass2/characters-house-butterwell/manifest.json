@@ -28,10 +28,10 @@
     "lothar.node.md",
     "tommard-heddle.node.md"
   ],
-  "status": "pending",
-  "started_at": null,
-  "completed_at": null,
-  "validation_report": null,
+  "status": "complete",
+  "started_at": "2026-05-02T01:07:54Z",
+  "completed_at": "2026-05-02T01:12:06Z",
+  "validation_report": "working/wiki-pass2/characters-house-butterwell/validator-report.json",
   "priority": {
     "version": "v1",
     "computed_at": "2026-04-28T01:11:55Z",
@@ -58,5 +58,6 @@
   "stage3_promoted_at": "2026-04-28T04:57:23.695403+00:00",
   "stage3_promoted_count": 9,
   "stage3_skipped_count": 0,
-  "stage3_conflicted_count": 0
+  "stage3_conflicted_count": 0,
+  "nodes_promoted": 0
 }

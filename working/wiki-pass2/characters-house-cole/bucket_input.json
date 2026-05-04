@@ -1,0 +1,258 @@
+{
+  "bucket_id": "characters-house-cole",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Criston Cole",
+      "raw_html_path": "sources/wiki/_raw/Criston_Cole.json",
+      "track_b_row": {
+        "page": "Criston Cole",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 13,
+          "source": "cite_ref",
+          "pov": "Cersei III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord Commander of the Kingsguard",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Hand of the King",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Cole",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Rhaenyra Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward",
+            "qualifier": "formerly"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Kingsguard",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Greens",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Marcher",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Blackhaven",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "82 AC"
+          },
+          {
+            "field": "Died",
+            "target": "Gods Eye",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "130 AC"
+          },
+          {
+            "field": "Lover",
+            "target": "Rhaenyra Targaryen",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric",
+            "qualifier": "rumored"
+          }
+        ],
+        "aliases": [
+          "Criston the Kingmaker",
+          "Kingmaker"
+        ],
+        "cite_refs": {
+          "affc": [
+            13,
+            16
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Criston Cole",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "130 AC deaths",
+          "82 AC births",
+          "Casualties of the Dance of the Dragons",
+          "Character pages in alphabetical order",
+          "Character pages with 2 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the Stormlands",
+          "Characters with black hair",
+          "Characters with green eyes",
+          "Deaths by shooting",
+          "Greens",
+          "Hands of the King",
+          "House Cole",
+          "Knights",
+          "Lords Commander of the Kingsguard",
+          "Members of Aegon II Targaryen's court",
+          "Members of Viserys I Targaryen's court",
+          "Members of the Kingsguard",
+          "Nobles",
+          "Sworn shields"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 2,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 106546
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "affc-the-soiled-knight-01",
+          "line": 71,
+          "context": "| Princess Rhaenyra Targaryen | Eldest daughter of Viserys I; denied the throne when Lord Commander of Kingsguard chose otherwise | Arianne, Arys |\n| Ser Criston Cole (the Kingmaker) | Lord Commander "
+        },
+        {
+          "chapter": "affc-the-soiled-knight-01",
+          "line": 72,
+          "context": "| Ser Criston Cole (the Kingmaker) | Lord Commander of the Kingsguard who set brother against sister; may have acted from ambition, custom, or spurned love; some whispered he was Rhaenyra's lover befo"
+        },
+        {
+          "chapter": "affc-the-soiled-knight-01",
+          "line": 94,
+          "context": "| Quentyn Martell | Arianne's brother; fostered by Lord Yronwood; served as page, squire, knighted by Yronwood; supposedly with Yronwood's host in the Boneway; Arianne claims he has secretly crossed t"
+        },
+        {
+          "chapter": "affc-the-soiled-knight-01",
+          "line": 189,
+          "context": "15. **Discussion of Joffrey, Tommen, and Myrcella** \u2014 Arys admits Joffrey's cruelty (including commanding him to strike the Stark girl); they discuss Robert's legacy; Arys reflects that Myrcella is br"
+        },
+        {
+          "chapter": "affc-the-soiled-knight-01",
+          "line": 194,
+          "context": "20. **Arianne reveals the Golden Company has broken its contract** \u2014 She notes the Golden Company has broken its contract with Myr, unprecedented given their reputation; she links this to Quentyn's mi"
+        },
+        {
+          "chapter": "affc-the-soiled-knight-01",
+          "line": 251,
+          "context": "| Arianne | Arys | \"I am my father's heir. Should I give up my rights to my brothers?\" | Arguing Dornish succession law; drawing parallel to Myrcella |\n| Arianne | Arys | \"Perhaps the Seven sent you h"
+        },
+        {
+          "chapter": "affc-the-soiled-knight-01",
+          "line": 254,
+          "context": "| Arianne | Arys | \"Our word is good as gold has been their boast since the days of Bittersteel.\" | About the Golden Company's unprecedented broken contract |\n| Arianne | Arys | \"Anders Yronwood is Cr"
+        },
+        {
+          "chapter": "affc-the-soiled-knight-01",
+          "line": 278,
+          "context": "| Quentyn Martell | Fostered by | Lord Anders Yronwood | Page, squire, then knighted by Yronwood |\n| Arianne Martell | Distrusts | Anders Yronwood | Calls him \"Criston Cole reborn\" whispering against "
+        },
+        {
+          "chapter": "affc-the-soiled-knight-01",
+          "line": 299,
+          "context": "| Is the tale of Prince Aemon the Dragonknight and Queen Naerys true? | Debate between Arys and Arianne | Arys insists it was Aegon the Unworthy's lie; Arianne presents it as fact |\n| Is Arianne corre"
+        },
+        {
+          "chapter": "affc-the-soiled-knight-01",
+          "line": 304,
+          "context": "### Characters\nSer Arys Oakheart, Princess Arianne Martell, Princess Myrcella Baratheon, Prince Trystane Martell, Prince Doran Martell, Prince Oberyn Martell (the Red Viper), Areo Hotah, Septa Eglanti"
+        },
+        {
+          "chapter": "affc-the-soiled-knight-01",
+          "line": 319,
+          "context": "### Cultures & Peoples\nDornish, men of the Reach, Norvoshi (Hotah's origin), orphans of the Greenblood, Andals (Andal custom referenced by Criston Cole defenders), First Men (implied by contrast with "
+        },
+        {
+          "chapter": "affc-the-soiled-knight-01",
+          "line": 334,
+          "context": "### Titles & Offices\nKingsguard / Knight of the Kingsguard, Lord Commander of the Kingsguard, Prince of Dorne, Princess of Dorne, castellan (Ser Manfrey), seneschal (Ricasso), treasurer (Alyse Ladybri"
+        },
+        {
+          "chapter": "affc-jaime-02",
+          "line": 13,
+          "context": "- **time_markers:** The procession departs in daytime; \"Evenfall found him sitting alone\" marks the transition to the final scene; autumn sunlight referenced; Lancel described as looking older; Aurane"
+        },
+        {
+          "chapter": "affc-jaime-02",
+          "line": 130,
+          "context": "| Rolland Darklyn | Youngest Kingsguard ever until Jaime; given cloak on battlefield; died within an hour | Jaime |\n| Criston Cole | Kingmaker; served first Viserys and second Aegon; ten black pellets"
+        },
+        {
+          "chapter": "affc-jaime-02",
+          "line": 131,
+          "context": "| Criston Cole | Kingmaker; served first Viserys and second Aegon; ten black pellets on scarlet field | Jaime |\n| Viserys I Targaryen | Criston Cole served him | Jaime |\n| Aegon II Targaryen | Criston"
+        },
+        {
+          "chapter": "affc-jaime-02",
+          "line": 132,
+          "context": "| Viserys I Targaryen | Criston Cole served him | Jaime |\n| Aegon II Targaryen | Criston Cole served him | Jaime |\n| Baelor the Blessed | Tommen's current lesson subject with Pycelle | Tommen |"
+        },
+        {
+          "chapter": "affc-jaime-02",
+          "line": 214,
+          "context": "18. **Jaime reads the White Book at evenfall** \u2014 Sitting alone in White Sword Tower, turning pages with his stump.\n19. **Jaime and Loras discuss Kingsguard history** \u2014 Loras names only the famous hero"
+        },
+        {
+          "chapter": "affc-jaime-02",
+          "line": 256,
+          "context": "| Queen Rhaella looked savaged when she departed for Dragonstone \u2014 \"as if some beast had savaged her\" | Jaime overheard maids whispering | Jaime, Rhaella's maids | Yes (internal memory) |\n| Criston Co"
+        },
+        {
+          "chapter": "affc-jaime-02",
+          "line": 273,
+          "context": "| Loras | Jaime | \"The heroes will always be remembered. The best.\" | Dismissing the forgotten Kingsguard members |\n| Jaime | Loras | \"The best and the worst. So one of us is like to live in song.\" | "
+        },
+        {
+          "chapter": "affc-jaime-02",
+          "line": 315,
+          "context": "| What exactly happened to Queen Rhaella at Aerys's hands? | Jaime's memory of maid whispers | \"As if some beast had savaged her, clawing at her thighs and chewing on her breasts\" |\n| Why does Jaime s"
+        },
+        {
+          "chapter": "affc-jaime-02",
+          "line": 321,
+          "context": "### Characters\nJaime Lannister, Cersei Lannister, Ser Kevan Lannister, Lancel Lannister, Tommen Baratheon, Lord Tywin Lannister, Tyrion Lannister, Lady Taena Merryweather, Grand Maester Pycelle, Ser L"
+        },
+        {
+          "chapter": "affc-jaime-02",
+          "line": 348,
+          "context": "### Wars & Conflicts\nWar of the Five Kings (ongoing \u2014 sieges at Riverrun and Storm's End, raiding at Saltpans, ironmen at Moat Cailin, Stannis at the Wall), Dance of the Dragons (implied \u2014 Criston Col"
+        },
+        {
+          "chapter": "affc-jaime-02",
+          "line": 351,
+          "context": "### Titles & Offices\nLord Commander of the Kingsguard (Jaime), King's Hand / Hand of the King (Kevan refuses; Cersei considers replacements; Owen Merryweather was one; Lord Chelsted was one), Warden o"
+        }
+      ]
+    }
+  ]
+}

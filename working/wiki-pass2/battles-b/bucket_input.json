@@ -1,0 +1,1621 @@
+{
+  "bucket_id": "battles-b",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Battle of Three Armies",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_Three_Armies.json",
+      "track_b_row": {
+        "page": "Battle of Three Armies",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Result",
+            "target": "Gardener",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Battle of Three Armies",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "House Durrandon battles",
+          "House Gardener battles",
+          "House Lannister battles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 8485
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of the Bells",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_Bells.json",
+      "track_b_row": {
+        "page": "Battle of the Bells",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 2,
+          "source": "cite_ref",
+          "pov": "Jaime I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Robert's Rebellion",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            2,
+            29,
+            37,
+            78
+          ],
+          "adwd": [
+            24,
+            61
+          ],
+          "affc": [
+            27,
+            41
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Battle of the Bells",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "House Arryn battles",
+          "House Baratheon battles",
+          "House Connington battles",
+          "House Mooton battles",
+          "House Stark battles",
+          "House Targaryen battles",
+          "House Tully battles",
+          "Robert's Rebellion",
+          "Stoney Sept"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 4,
+          "affc": 2,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 46192
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "affc-alayne-02",
+          "line": 97,
+          "context": "| Boy Jasper (Jasper Waynwood) | Son of Elys and Alys; kicked in head by horse at age three | Petyr |\n| Ser Denys Arryn | Married eldest Waynwood girl; died at Battle of the Bells | Petyr |\n| King Aer"
+        },
+        {
+          "chapter": "affc-alayne-02",
+          "line": 342,
+          "context": "### Wars & Conflicts\nWar of the Five Kings (referenced via aftermath \u2014 Riverrun yielded, Stannis holds Dragonstone/Storm's End), Robert's Rebellion (Ser Denys died at Battle of the Bells; Mad King kil"
+        },
+        {
+          "chapter": "affc-jaime-03",
+          "line": 113,
+          "context": "| Thoros of Myr | \"This Myrish priest who runs with him\"; spreads \"false faith\" | Ser Bonifer |\n| Jon Connington (Lord) | Red Ronnet's cousin; Prince Rhaegar's friend; made Hand after Merryweather's f"
+        },
+        {
+          "chapter": "affc-jaime-03",
+          "line": 267,
+          "context": "| Ronnet visited Tarth, mocked Brienne, gave her a rose as dismissal | Ronnet's account | Jaime, Ronnet | No |\n| Jon Connington was Rhaegar's friend, made Hand, lost Battle of the Bells, exiled, drank"
+        },
+        {
+          "chapter": "affc-jaime-03",
+          "line": 381,
+          "context": "### Wars & Conflicts\nWar of the Five Kings (ongoing; siege of Riverrun; Harrenhal changing hands), Robert's Rebellion (Jon Connington made Hand; Battle of the Bells; Connington exiled; Merryweather's "
+        }
+      ]
+    },
+    {
+      "page": "Battle of the Bitter River",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_Bitter_River.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "Battle of the Bitter River",
+        "entity_type_guess": "unknown",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": false,
+        "byte_size": 952
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of the Blackwater",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_Blackwater.json",
+      "track_b_row": {
+        "page": "Battle of the Blackwater",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 3,
+          "source": "cite_ref",
+          "pov": "Sansa I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "War of the Five Kings",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "See below",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            4,
+            10,
+            14,
+            16,
+            19,
+            25,
+            32,
+            36,
+            38,
+            45,
+            54,
+            60,
+            65,
+            67
+          ],
+          "acok": [
+            0,
+            3,
+            8,
+            15,
+            17,
+            22,
+            25,
+            30,
+            31,
+            33,
+            36,
+            38,
+            39,
+            41,
+            42,
+            44,
+            45,
+            49,
+            52,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            65,
+            67
+          ],
+          "affc": [
+            4,
+            9,
+            14,
+            16,
+            17,
+            27
+          ],
+          "adwd": [
+            9,
+            66
+          ],
+          "agot": [
+            56,
+            59
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Battle of the Blackwater",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "Blackwater Rush",
+          "Crownlands",
+          "House Baelish battles",
+          "House Bar Emmon battles",
+          "House Baratheon battles",
+          "House Brax battles",
+          "House Caron battles",
+          "House Celtigar battles",
+          "House Chyttering battles",
+          "House Connington battles",
+          "House Crakehall battles",
+          "House Errol battles",
+          "House Estermont battles",
+          "House Florent battles",
+          "House Foote battles",
+          "House Fossoway of Cider Hall battles",
+          "House Fossoway of New Barrel battles",
+          "House Hasty battles",
+          "House Horpe battles",
+          "House Lannister battles",
+          "House Lydden battles",
+          "House Marbrand battles",
+          "House Massey battles",
+          "House Morrigen battles",
+          "House Mullendore battles",
+          "House Oakheart battles",
+          "House Redwyne battles",
+          "House Rosby battles",
+          "House Rowan battles",
+          "House Seaworth battles",
+          "House Staedmon battles",
+          "House Stokeworth battles",
+          "House Tarly battles",
+          "House Tyrell battles",
+          "House Varner battles",
+          "House Velaryon battles",
+          "King's Landing",
+          "War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 2,
+          "acok": 27,
+          "asos": 14,
+          "affc": 6,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 287520
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "affc-brienne-03",
+          "line": 351,
+          "context": "### Wars & Conflicts\nGreyjoy Rebellion (Podrick's father died in it), Battle of the Blackwater (Ben Bushy, Farrow, Will the Stork died; Mullendore wounded; Podrick survived), War of the Five Kings (on"
+        },
+        {
+          "chapter": "affc-prologue",
+          "line": 11,
+          "context": "- **location_secondary:** The Citadel (referenced), the Hightower (seen from distance), Battle Island (seen from distance)\n- **approximate_timeline:** During the War of the Five Kings, after the Battl"
+        },
+        {
+          "chapter": "affc-prologue",
+          "line": 406,
+          "context": "- War of the Five Kings (ongoing; Archmaester Benedict disputes the name)\n- Battle of the Blackwater (Tywin smashed Stannis; Mollander's father died there)"
+        },
+        {
+          "chapter": "affc-jaime-01",
+          "line": 328,
+          "context": "### Wars & Conflicts\nRobert's Rebellion (Rhaegar riding to the Trident; battle referenced), Battle of the Trident (Rhaegar died there), Battle at the pass below the Golden Tooth (Jaime's victory, earl"
+        },
+        {
+          "chapter": "affc-jaime-05",
+          "line": 366,
+          "context": "### Wars & Conflicts\nWar of the Five Kings (ongoing), Siege of Riverrun (current, central to chapter), Battle of the Blackwater (referenced \u2014 Peck's heroism), Red Wedding (referenced extensively), Whi"
+        },
+        {
+          "chapter": "affc-cersei-04",
+          "line": 257,
+          "context": "| Littlefinger seems unconcerned and requests old tapestries of Robert's | His letter to Cersei | Cersei | No |\n| Fewer than a dozen royal ships survived the Battle of the Blackwater | Aurane Waters s"
+        },
+        {
+          "chapter": "affc-cersei-04",
+          "line": 396,
+          "context": "### Wars & Conflicts\nWar of the Five Kings (ongoing \u2014 referenced through military situation reports: Storm's End, Riverrun, Dragonstone, the Wall), Battle of the Blackwater (referenced \u2014 fewer than a "
+        },
+        {
+          "chapter": "affc-cersei-06",
+          "line": 354,
+          "context": "### Wars & Conflicts\nWar of the Five Kings (ongoing context), Battle of the Blackwater (referenced \u2014 Mark Mullendore lost his arm), Maegor's war against the Faith Militant (historical \u2014 led to banning"
+        },
+        {
+          "chapter": "affc-alayne-02",
+          "line": 166,
+          "context": "2. **Alayne coaxes Robert out of bed** \u2014 He is petulant, complains of headache, demands stories of the Winged Knight, refuses to leave; she promises lemon cakes and tales, appeals to his vanity about "
+        },
+        {
+          "chapter": "affc-cersei-02",
+          "line": 373,
+          "context": "### Wars & Conflicts\nBattle of the Blackwater (mentioned \u2014 Lancel made lord after it), Mob riot that killed the previous High Septon (day Myrcella sailed for Dorne), War of the Five Kings (implied \u2014 \""
+        },
+        {
+          "chapter": "affc-jaime-03",
+          "line": 381,
+          "context": "### Wars & Conflicts\nWar of the Five Kings (ongoing; siege of Riverrun; Harrenhal changing hands), Robert's Rebellion (Jon Connington made Hand; Battle of the Bells; Connington exiled; Merryweather's "
+        },
+        {
+          "chapter": "affc-cersei-05",
+          "line": 402,
+          "context": "### Wars & Conflicts\nWar of the Five Kings (ongoing \u2014 Stannis's rebellion, siege of Storm's End), Greyjoy Rebellion (tourney at Lannisport held after it), Battle of the Blackwater (referenced \u2014 dromon"
+        },
+        {
+          "chapter": "affc-samwell-01",
+          "line": 356,
+          "context": "### Wars & Conflicts\nWar of the Five Kings (implicit \u2014 current conflict referenced throughout), Battle of the Blackwater (explicitly referenced), the Long Night (referenced in Sam's research)"
+        },
+        {
+          "chapter": "affc-brienne-01",
+          "line": 371,
+          "context": "### Wars & Conflicts\n- Battle of the Blackwater (Ser Creighton and Ser Shadrich both fought there; Ser Shadrich on the losing side)\n- War of the Five Kings (background to all events; roads perilous, o"
+        }
+      ]
+    },
+    {
+      "page": "Battle of the Blackwater (song)",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_Blackwater_(song).json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "Battle of the Blackwater (song)",
+        "entity_type_guess": "object.text",
+        "categories": [
+          "Songs"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": false,
+        "byte_size": 8087
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of the Borderland",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_Borderland.json",
+      "track_b_row": {
+        "page": "Battle of the Borderland",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Result",
+            "target": "Triarchy",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Battle of the Borderland",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "Lys",
+          "Myr",
+          "Tyrosh",
+          "Volantis"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 9182
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of the Bridge of Skulls",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_Bridge_of_Skulls.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "Battle of the Bridge of Skulls",
+        "entity_type_guess": "skip",
+        "categories": [
+          "Redirect"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": false,
+        "byte_size": 973,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of the Burning Mill",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_Burning_Mill.json",
+      "track_b_row": {
+        "page": "Battle of the Burning Mill",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Dance of the Dragons",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Battle of the Burning Mill",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "Dance of the Dragons",
+          "House Blackwood battles",
+          "House Bracken battles",
+          "House Targaryen battles",
+          "Riverlands"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 20657
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of the Camps",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_Camps.json",
+      "track_b_row": {
+        "page": "Battle of the Camps",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 7,
+          "source": "cite_ref",
+          "pov": "Jon I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "War of the Five Kings",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Robb Stark",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "King in the North",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "King of the Trident",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            55,
+            56,
+            63,
+            69,
+            71
+          ],
+          "asos": [
+            19,
+            20
+          ],
+          "acok": [
+            7
+          ],
+          "adwd": [
+            46
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Battle of the Camps",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "House Blackwood battles",
+          "House Brax battles",
+          "House Crakehall battles",
+          "House Glover battles",
+          "House Karstark battles",
+          "House Lannister battles",
+          "House Mallister battles",
+          "House Mormont battles",
+          "House Prester battles",
+          "House Stark battles",
+          "House Tully battles",
+          "House Umber battles",
+          "Riverrun",
+          "Sieges",
+          "War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 5,
+          "acok": 1,
+          "asos": 2,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 57728
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 11,
+          "context": "- **location_secondary:** Whispering Wood (referenced), Harrenhal (referenced), the Twins (referenced), Stone Hedge (referenced), the Eyrie (referenced), Winterfell (referenced), Casterly Rock (refere"
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 303,
+          "context": "### Wars & Conflicts\nWar of the Five Kings (ongoing \u2014 the central conflict debated at council), Battle of the Whispering Wood (referenced \u2014 recent victory), Battle of the Camps / Siege of Riverrun (ju"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 11,
+          "context": "- **location_secondary:** Riverrun (discussed), Whispering Wood (discussed), King's Landing (discussed), Harrenhal (discussed), Casterly Rock (mentioned), Dragonstone (mentioned), Highgarden (mentione"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 51,
+          "context": "|-----------|---------------------|---------------|\n| Jaime Lannister | Captured at the Battle of the Camps; split his forces into three camps besieging Riverrun | Messenger, multiple lords, Tywin, Ty"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 276,
+          "context": "### Wars & Conflicts\nBattle of the Whispering Wood, Battle of the Camps (siege of Riverrun broken), Battle of the Green Fork, War of the Five Kings (ongoing \u2014 multiple fronts described)"
+        }
+      ]
+    },
+    {
+      "page": "Battle of the Crag",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_Crag.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "Battle of the Crag",
+        "entity_type_guess": "unknown",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": false,
+        "byte_size": 946
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of the Fist of the First Men",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_Fist_of_the_First_Men.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "Battle of the Fist of the First Men",
+        "entity_type_guess": "skip",
+        "categories": [
+          "Redirect"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": false,
+        "byte_size": 937,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of the Fords",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_Fords.json",
+      "track_b_row": {
+        "page": "Battle of the Fords",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 2,
+          "source": "cite_ref",
+          "pov": "Jaime I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "War of the Five Kings",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Tully",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            30,
+            31,
+            35,
+            38,
+            39,
+            45,
+            55,
+            62,
+            64,
+            65
+          ],
+          "asos": [
+            2,
+            14,
+            35,
+            62,
+            68
+          ],
+          "agot": [
+            71
+          ],
+          "affc": [
+            16
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Battle of the Fords",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "House Blackwood battles",
+          "House Bracken battles",
+          "House Brax battles",
+          "House Clegane battles",
+          "House Crakehall battles",
+          "House Darry battles",
+          "House Frey battles",
+          "House Lannister battles",
+          "House Lefford battles",
+          "House Mallister battles",
+          "House Marbrand battles",
+          "House Paege battles",
+          "House Piper battles",
+          "House Tully battles",
+          "House Vance of Wayfarer's Rest battles",
+          "Riverrun",
+          "War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 10,
+          "asos": 5,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 73448
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of the Golden Tooth",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_Golden_Tooth.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "Battle of the Golden Tooth",
+        "entity_type_guess": "skip",
+        "categories": [
+          "Redirect"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": false,
+        "byte_size": 1012,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of the Green Fork",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_Green_Fork.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "Battle of the Green Fork",
+        "entity_type_guess": "skip",
+        "categories": [
+          "Redirect"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": false,
+        "byte_size": 958,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-tyrion-08",
+          "line": 11,
+          "context": "- **location_secondary:** Battlefield (Green Fork)\n- **approximate_timeline:** Shortly before and during the Battle of the Green Fork; Robb Stark's host has moved south from the Twins\n- **time_markers"
+        },
+        {
+          "chapter": "agot-tyrion-08",
+          "line": 27,
+          "context": "|-----------|----------------|-------------------|-------|\n| Tyrion Lannister | POV character; leads clansmen in battle | No | Assigned to vanguard, fights in Battle of the Green Fork |\n| Tywin Lannis"
+        },
+        {
+          "chapter": "agot-tyrion-08",
+          "line": 270,
+          "context": "### Wars & Conflicts\nBattle of the Green Fork (this chapter), War of the Five Kings (implied \u2014 Stark vs. Lannister conflict)"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 11,
+          "context": "- **location_secondary:** Riverrun (discussed), Whispering Wood (discussed), King's Landing (discussed), Harrenhal (discussed), Casterly Rock (mentioned), Dragonstone (mentioned), Highgarden (mentione"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 276,
+          "context": "### Wars & Conflicts\nBattle of the Whispering Wood, Battle of the Camps (siege of Riverrun broken), Battle of the Green Fork, War of the Five Kings (ongoing \u2014 multiple fronts described)"
+        }
+      ]
+    },
+    {
+      "page": "Battle of the Gullet",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_Gullet.json",
+      "track_b_row": {
+        "page": "Battle of the Gullet",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Dance of the Dragons",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Driftmark",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Triarchy",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Battle of the Gullet",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "Crownlands",
+          "Dance of the Dragons",
+          "House Targaryen battles",
+          "House Velaryon battles",
+          "Lys",
+          "Myr",
+          "Tyrosh"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 43042
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of the Honeywine",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_Honeywine.json",
+      "track_b_row": {
+        "page": "Battle of the Honeywine",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Dance of the Dragons",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Battle of the Honeywine",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "Dance of the Dragons",
+          "House Beesbury battles",
+          "House Caswell battles",
+          "House Costayne battles",
+          "House Hightower battles",
+          "House Rowan battles",
+          "House Roxton battles",
+          "House Targaryen battles",
+          "House Tarly battles",
+          "The Reach"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 48095
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of the Kingsroad",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_Kingsroad.json",
+      "track_b_row": {
+        "page": "Battle of the Kingsroad",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Dance of the Dragons",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Black",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Battle of the Kingsroad",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "Dance of the Dragons",
+          "House Baratheon battles",
+          "House Blackwood battles",
+          "House Bracken battles",
+          "House Darklyn battles",
+          "House Darry battles",
+          "House Frey battles",
+          "House Hayford battles",
+          "House Mallister battles",
+          "House Rosby battles",
+          "House Stokeworth battles",
+          "House Tully battles",
+          "House Vance of Wayfarer's Rest battles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 41687
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of the Last Storm",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_Last_Storm.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "Battle of the Last Storm",
+        "entity_type_guess": "skip",
+        "categories": [
+          "Redirect"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": false,
+        "byte_size": 916,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of the Mummer's Ford",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_Mummer's_Ford.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "Battle of the Mummer's Ford",
+        "entity_type_guess": "skip",
+        "categories": [
+          "Redirect"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": false,
+        "byte_size": 974,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of the Red Fork",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_Red_Fork.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "Battle of the Red Fork",
+        "entity_type_guess": "skip",
+        "categories": [
+          "Redirect"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": false,
+        "byte_size": 952,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of the Redgrass Field",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_Redgrass_Field.json",
+      "track_b_row": {
+        "page": "Battle of the Redgrass Field",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "First Blackfyre Rebellion",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Loyalist victory",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Battle of the Redgrass Field",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "Blackfyre Rebellions",
+          "House Arryn battles",
+          "House Blackfyre battles",
+          "House Bulwer battles",
+          "House Butterwell battles",
+          "House Costayne battles",
+          "House Hayford battles",
+          "House Osgrey battles",
+          "House Peake battles",
+          "House Shawney battles",
+          "House Targaryen battles",
+          "House Templeton battles",
+          "House Waynwood battles",
+          "House Webber battles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 42711
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of the Reeds",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_Reeds.json",
+      "track_b_row": {
+        "page": "Battle of the Reeds",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Aegon's Conquest",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Targaryen",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Battle of the Reeds",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Aegon's Conquest",
+          "Battles",
+          "Gods Eye",
+          "House Hoare battles",
+          "House Targaryen battles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 10347
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of the Ruby Ford",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_Ruby_Ford.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "Battle of the Ruby Ford",
+        "entity_type_guess": "skip",
+        "categories": [
+          "Redirect"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": false,
+        "byte_size": 994,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of the Seven Stars",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_Seven_Stars.json",
+      "track_b_row": {
+        "page": "Battle of the Seven Stars",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Andal invasion",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Andal",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Artys Arryn",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "King of Mountain and Vale",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Battle of the Seven Stars",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Andal invasion",
+          "Battles",
+          "House Arryn battles",
+          "House Belmore battles",
+          "House Coldwater battles",
+          "House Corbray battles",
+          "House Grafton battles",
+          "House Hunter battles",
+          "House Redfort battles",
+          "House Royce battles",
+          "House Ruthermont battles",
+          "House Shett battles",
+          "House Templeton battles",
+          "House Upcliff battles",
+          "Vale of Arryn"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 22723
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of the Shield Islands",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_Shield_Islands.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "Battle of the Shield Islands",
+        "entity_type_guess": "skip",
+        "categories": [
+          "Redirect"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": false,
+        "byte_size": 949,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of the Stony Shore",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_Stony_Shore.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "Battle of the Stony Shore",
+        "entity_type_guess": "unknown",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": false,
+        "byte_size": 967
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of the Trident",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_Trident.json",
+      "track_b_row": {
+        "page": "Battle of the Trident",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 3,
+          "source": "cite_ref",
+          "pov": "Catelyn I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Robert's Rebellion",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Decisive rebel victory",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            3,
+            4,
+            12,
+            15,
+            19,
+            27,
+            28,
+            29,
+            30,
+            33,
+            36,
+            39
+          ],
+          "asos": [
+            19,
+            20,
+            23,
+            27,
+            36,
+            37,
+            39,
+            43,
+            45,
+            57,
+            67,
+            74
+          ],
+          "adwd": [
+            9,
+            17,
+            24,
+            29,
+            61
+          ],
+          "affc": [
+            20,
+            23,
+            24,
+            31,
+            32
+          ],
+          "acok": [
+            27,
+            39,
+            48
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Battle of the Trident",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "House Arryn battles",
+          "House Baratheon battles",
+          "House Boggs battles",
+          "House Bolton battles",
+          "House Brune of Brownhollow battles",
+          "House Brune of the Dyre Den battles",
+          "House Corbray battles",
+          "House Crabb battles",
+          "House Darry battles",
+          "House Grandison battles",
+          "House Karstark battles",
+          "House Mallister battles",
+          "House Manderly battles",
+          "House Martell battles",
+          "House Mooton battles",
+          "House Mormont battles",
+          "House Ryger battles",
+          "House Stark battles",
+          "House Targaryen battles",
+          "House Tully battles",
+          "House Umber battles",
+          "Riverlands",
+          "Robert's Rebellion",
+          "Trident"
+        ],
+        "cite_ref_books": {
+          "agot": 12,
+          "acok": 3,
+          "asos": 12,
+          "affc": 5,
+          "adwd": 5
+        },
+        "has_infobox": true,
+        "byte_size": 97799
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "affc-brienne-04",
+          "line": 455,
+          "context": "- Aegon's Conquest (Visenya's campaign to take Crackclaw Point)\n- Robert's Rebellion / Battle of the Trident (Crabbs, Brunes, Boggses fought with Rhaegar)\n- War of the Five Kings (ongoing; Lord Brune'"
+        },
+        {
+          "chapter": "affc-jaime-01",
+          "line": 328,
+          "context": "### Wars & Conflicts\nRobert's Rebellion (Rhaegar riding to the Trident; battle referenced), Battle of the Trident (Rhaegar died there), Battle at the pass below the Golden Tooth (Jaime's victory, earl"
+        },
+        {
+          "chapter": "affc-brienne-06",
+          "line": 59,
+          "context": "| Masha Heddle | Former keeper of the crossroads inn; hanged by \"the lions\" | Elder Brother |\n| Prince Rhaegar | Fought at the Battle of the Trident; Elder Brother fought for him; rubies from his armo"
+        },
+        {
+          "chapter": "affc-brienne-06",
+          "line": 180,
+          "context": "25. **Driftwood identified as Stranger** \u2014 The Elder Brother reveals the stallion is Sandor's warhorse Stranger, renamed Driftwood as he was found beside the river. The horse retains \"his former maste"
+        },
+        {
+          "chapter": "affc-brienne-06",
+          "line": 222,
+          "context": "| Driftwood is actually Stranger, the Hound's warhorse | Elder Brother tells Brienne | Brienne, Elder Brother | No |\n| Elder Brother was once a knight; he fought for Rhaegar at the Battle of the Tride"
+        },
+        {
+          "chapter": "affc-brienne-06",
+          "line": 244,
+          "context": "| Elder Brother | Brienne | \"It was hate that drove him... the hope of seeing his brother's blood upon his blade was all this sad and angry creature lived for... and even that was taken from him, when"
+        },
+        {
+          "chapter": "affc-brienne-06",
+          "line": 423,
+          "context": "### Wars & Conflicts\n- The Battle of the Trident (Elder Brother fought and \"died\" there; Rhaegar vs. Robert; rubies from Rhaegar's armor)\n- Robert's Rebellion (implied \u2014 the Battle of the Trident is p"
+        },
+        {
+          "chapter": "affc-brienne-06",
+          "line": 424,
+          "context": "- The Battle of the Trident (Elder Brother fought and \"died\" there; Rhaegar vs. Robert; rubies from Rhaegar's armor)\n- Robert's Rebellion (implied \u2014 the Battle of the Trident is part of it; \"the drago"
+        },
+        {
+          "chapter": "agot-eddard-03",
+          "line": 227,
+          "context": "### Wars & Conflicts\nBattle of the Trident (referenced \u2014 Darry family fought for Rhaegar; three Darry brothers died there)"
+        },
+        {
+          "chapter": "agot-jon-03",
+          "line": 279,
+          "context": "### Wars & Conflicts\nSiege of Storm's End (where Noye lost his arm), Battle of the Trident (where Robert killed Rhaegar \u2014 referenced via the warhammer)"
+        },
+        {
+          "chapter": "agot-sansa-02",
+          "line": 311,
+          "context": "### Wars & Conflicts\nBattle of the Trident (referenced \u2014 Mallister cutting down Rhaegar's bannermen), Siege of Pyke (referenced \u2014 Thoros scaling walls with flaming sword), Hand's tourney (current even"
+        },
+        {
+          "chapter": "agot-catelyn-05",
+          "line": 158,
+          "context": "| Catelyn accuses Tyrion of conspiring to murder Bran | Catelyn's public proclamation | Everyone in the common room | No |\n| Lord Frey arrived late to the Battle of the Trident, with ambiguous loyalty"
+        },
+        {
+          "chapter": "agot-catelyn-05",
+          "line": 250,
+          "context": "### Wars & Conflicts\nBattle of the Trident (Robert's Rebellion implied \u2014 river lords fought with Rhaegar on the Trident), Hand's tourney (upcoming tournament in King's Landing)"
+        },
+        {
+          "chapter": "agot-sansa-01",
+          "line": 268,
+          "context": "### Wars & Conflicts\nRobert's Rebellion (referenced via the Battle of the Trident \u2014 Robert killing Rhaegar, Jaime killing Aerys)"
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 262,
+          "context": "### Wars & Conflicts\nRobert's Rebellion (referenced \u2014 \"what did we rise against Aerys Targaryen for\"), Battle of the Trident (referenced \u2014 Ser Barristan's defeat and sparing)"
+        },
+        {
+          "chapter": "agot-daenerys-03",
+          "line": 303,
+          "context": "### Wars & Conflicts\n- Battle of the Trident (referenced \u2014 where Rhaegar died)"
+        },
+        {
+          "chapter": "agot-eddard-01",
+          "line": 257,
+          "context": "### Wars & Conflicts\nRobert's Rebellion (referenced \u2014 \"when they had ridden forth to win a throne\"; Battle of the Trident), Greyjoy's Rebellion (nine years prior \u2014 Robert and Ned stood together at Gre"
+        },
+        {
+          "chapter": "agot-daenerys-04",
+          "line": 265,
+          "context": "### Wars & Conflicts\nBattle of the Trident (Rhaegar's defeat referenced), Robert's Rebellion (implied \u2014 Robert as \"Usurper,\" Aerys murdered, Barristan went over to Robert)"
+        }
+      ]
+    },
+    {
+      "page": "Battle of the Weeping Water",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_Weeping_Water.json",
+      "track_b_row": {
+        "page": "Battle of the Weeping Water",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Andal invasion",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Northern",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Battle of the Weeping Water",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Andal invasion",
+          "Battles",
+          "House Bolton battles",
+          "House Stark battles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 6013
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of the Whispering Wood",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_Whispering_Wood.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "Battle of the Whispering Wood",
+        "entity_type_guess": "skip",
+        "categories": [
+          "Redirect"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": false,
+        "byte_size": 973,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "affc-jaime-03",
+          "line": 381,
+          "context": "### Wars & Conflicts\nWar of the Five Kings (ongoing; siege of Riverrun; Harrenhal changing hands), Robert's Rebellion (Jon Connington made Hand; Battle of the Bells; Connington exiled; Merryweather's "
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 303,
+          "context": "### Wars & Conflicts\nWar of the Five Kings (ongoing \u2014 the central conflict debated at council), Battle of the Whispering Wood (referenced \u2014 recent victory), Battle of the Camps / Siege of Riverrun (ju"
+        },
+        {
+          "chapter": "agot-catelyn-10",
+          "line": 259,
+          "context": "### Wars & Conflicts\nBattle of the Whispering Wood (this chapter's battle), War of the Five Kings (ongoing conflict, unnamed here), the Field of Fire (referenced by Theon as comparison), siege of Rive"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 276,
+          "context": "### Wars & Conflicts\nBattle of the Whispering Wood, Battle of the Camps (siege of Riverrun broken), Battle of the Green Fork, War of the Five Kings (ongoing \u2014 multiple fronts described)"
+        }
+      ]
+    },
+    {
+      "page": "Battle of the fords of the Trident",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_the_fords_of_the_Trident.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "Battle of the fords of the Trident",
+        "entity_type_guess": "unknown",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": false,
+        "byte_size": 994
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

@@ -1,0 +1,1324 @@
+{
+  "bucket_id": "battles-a",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "A Storm of Swords-Chapter 71",
+      "raw_html_path": "sources/wiki/_raw/A_Storm_of_Swords-Chapter_71.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "A Storm of Swords-Chapter 71",
+        "entity_type_guess": "skip",
+        "categories": [
+          "A Song of Ice And Fire chapters",
+          "A Song of Ice And Fire chapters--POV Daenerys Targaryen",
+          "Chapters which take place in Meereen"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 17761,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "A Storm of Swords-Chapter 72",
+      "raw_html_path": "sources/wiki/_raw/A_Storm_of_Swords-Chapter_72.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "A Storm of Swords-Chapter 72",
+        "entity_type_guess": "skip",
+        "categories": [
+          "A Song of Ice And Fire chapters",
+          "A Song of Ice And Fire chapters--POV Jaime Lannister",
+          "Chapters which take place at the Red Keep"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 18970,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "A Storm of Swords-Chapter 73",
+      "raw_html_path": "sources/wiki/_raw/A_Storm_of_Swords-Chapter_73.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "A Storm of Swords-Chapter 73",
+        "entity_type_guess": "skip",
+        "categories": [
+          "A Song of Ice And Fire chapters",
+          "A Song of Ice And Fire chapters--POV Jon Snow",
+          "Chapters which take place Beyond the Wall",
+          "Chapters which take place in Castle Black"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 11863,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "A Storm of Swords-Chapter 74",
+      "raw_html_path": "sources/wiki/_raw/A_Storm_of_Swords-Chapter_74.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "A Storm of Swords-Chapter 74",
+        "entity_type_guess": "skip",
+        "categories": [
+          "A Song of Ice And Fire chapters",
+          "A Song of Ice And Fire chapters--POV Arya Stark",
+          "Chapters which take place at the Crossroads Inn",
+          "Chapters which take place by the Trident"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 14538,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "A Storm of Swords-Chapter 75",
+      "raw_html_path": "sources/wiki/_raw/A_Storm_of_Swords-Chapter_75.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "A Storm of Swords-Chapter 75",
+        "entity_type_guess": "skip",
+        "categories": [
+          "A Song of Ice And Fire chapters",
+          "A Song of Ice And Fire chapters--POV Samwell Tarly",
+          "Chapters which take place in Castle Black"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 12173,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "A Storm of Swords-Chapter 76",
+      "raw_html_path": "sources/wiki/_raw/A_Storm_of_Swords-Chapter_76.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "A Storm of Swords-Chapter 76",
+        "entity_type_guess": "skip",
+        "categories": [
+          "A Song of Ice And Fire chapters",
+          "A Song of Ice And Fire chapters--POV Jon Snow",
+          "Chapters which take place in Castle Black"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 10420,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "A Storm of Swords-Chapter 77",
+      "raw_html_path": "sources/wiki/_raw/A_Storm_of_Swords-Chapter_77.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "A Storm of Swords-Chapter 77",
+        "entity_type_guess": "skip",
+        "categories": [
+          "A Song of Ice And Fire chapters",
+          "A Song of Ice And Fire chapters--POV Tyrion Lannister",
+          "Chapters which take place at the Red Keep"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 12984,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "A Storm of Swords-Chapter 78",
+      "raw_html_path": "sources/wiki/_raw/A_Storm_of_Swords-Chapter_78.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "A Storm of Swords-Chapter 78",
+        "entity_type_guess": "skip",
+        "categories": [
+          "A Song of Ice And Fire chapters",
+          "A Song of Ice And Fire chapters--POV Samwell Tarly",
+          "Chapters which take place in Castle Black"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 11352,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "A Storm of Swords-Chapter 79",
+      "raw_html_path": "sources/wiki/_raw/A_Storm_of_Swords-Chapter_79.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "A Storm of Swords-Chapter 79",
+        "entity_type_guess": "skip",
+        "categories": [
+          "A Song of Ice And Fire chapters",
+          "A Song of Ice And Fire chapters--POV Jon Snow",
+          "Chapters which take place in Castle Black"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 11456,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "A Storm of Swords-Chapter 8",
+      "raw_html_path": "sources/wiki/_raw/A_Storm_of_Swords-Chapter_8.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "A Storm of Swords-Chapter 8",
+        "entity_type_guess": "skip",
+        "categories": [
+          "A Song of Ice And Fire chapters",
+          "A Song of Ice And Fire chapters--POV Daenerys Targaryen",
+          "Chapters which take place on the Summer Sea"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 11565,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "A Storm of Swords-Chapter 80",
+      "raw_html_path": "sources/wiki/_raw/A_Storm_of_Swords-Chapter_80.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "A Storm of Swords-Chapter 80",
+        "entity_type_guess": "skip",
+        "categories": [
+          "A Song of Ice And Fire chapters",
+          "A Song of Ice And Fire chapters--POV Sansa Stark",
+          "Chapters which take place in the Eyrie"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 11370,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "A Storm of Swords-Chapter 9",
+      "raw_html_path": "sources/wiki/_raw/A_Storm_of_Swords-Chapter_9.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "A Storm of Swords-Chapter 9",
+        "entity_type_guess": "skip",
+        "categories": [
+          "A Song of Ice And Fire chapters",
+          "A Song of Ice And Fire chapters--POV Bran Stark",
+          "Chapters which take place in Tumbledown Tower",
+          "Chapters which take place in the Wolfswood"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 8768,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "A Storm of Swords-Epilogue",
+      "raw_html_path": "sources/wiki/_raw/A_Storm_of_Swords-Epilogue.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "A Storm of Swords-Epilogue",
+        "entity_type_guess": "skip",
+        "categories": [
+          "A Song of Ice And Fire chapters",
+          "Chapters which take place in the Riverlands",
+          "Chapters with the POV of Merrett Frey",
+          "Prologues and epilogues"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 12272,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "A Storm of Swords-Prologue",
+      "raw_html_path": "sources/wiki/_raw/A_Storm_of_Swords-Prologue.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "A Storm of Swords-Prologue",
+        "entity_type_guess": "skip",
+        "categories": [
+          "A Song of Ice And Fire chapters",
+          "Chapters which take place in the Fist of the First Men",
+          "Chapters with the POV of Chett the steward",
+          "Prologues and epilogues"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 10929,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Aegon the Uncrowned's rebellion",
+      "raw_html_path": "sources/wiki/_raw/Aegon_the_Uncrowned's_rebellion.json",
+      "track_b_row": {
+        "page": "Aegon the Uncrowned's rebellion",
+        "entity_type": "event.war",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Battles",
+            "target": "Battle Beneath the Gods Eye",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Iron Throne",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Aegon Targaryen",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Aegon the Uncrowned's rebellion",
+        "entity_type_guess": "event.war",
+        "categories": [
+          "Articles with conjectural titles",
+          "House Caswell wars",
+          "House Charlton wars",
+          "House Connington wars",
+          "House Corbray wars",
+          "House Dustin wars",
+          "House Frey wars",
+          "House Harroway wars",
+          "House Merryweather wars",
+          "House Paege wars",
+          "House Parren wars",
+          "House Peake wars",
+          "House Piper wars",
+          "House Roote wars",
+          "House Tarbeck wars",
+          "House Targaryen wars",
+          "House Tully wars",
+          "House Vance wars",
+          "House Westerling wars",
+          "Rebellions"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 53240
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Aegon's Conquest",
+      "raw_html_path": "sources/wiki/_raw/Aegon's_Conquest.json",
+      "track_b_row": {
+        "page": "Aegon's Conquest",
+        "entity_type": "event.war",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 11,
+          "source": "cite_ref",
+          "pov": "Sansa"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Battles",
+            "target": "Aegon's first test",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Battles",
+            "target": "Battle in the waters off Gulltown",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Battles",
+            "target": "Battle of the Reeds",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Battles",
+            "target": "Wailing Willows",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Battles",
+            "target": "Burning of Harrenhal",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Battles",
+            "target": "Last Storm",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Battles",
+            "target": "Field of Fire",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Daemon Velaryon",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            11,
+            19,
+            20
+          ],
+          "asos": [
+            14,
+            36,
+            54
+          ],
+          "agot": [
+            60
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Aegon's Conquest",
+        "entity_type_guess": "event.war",
+        "categories": [
+          "Aegon's Conquest",
+          "House Arryn wars",
+          "House Baratheon wars",
+          "House Blackwood wars",
+          "House Bracken wars",
+          "House Buckler wars",
+          "House Darklyn wars",
+          "House Dondarrion wars",
+          "House Durrandon wars",
+          "House Errol wars",
+          "House Florent wars",
+          "House Frey wars",
+          "House Gardener wars",
+          "House Hoare wars",
+          "House Lannister wars",
+          "House Mallister wars",
+          "House Martell wars",
+          "House Mooton wars",
+          "House Morrigen wars",
+          "House Oakheart wars",
+          "House Peake wars",
+          "House Piper wars",
+          "House Redwyne wars",
+          "House Rosby wars",
+          "House Rowan wars",
+          "House Stark wars",
+          "House Stokeworth wars",
+          "House Strong wars",
+          "House Targaryen wars",
+          "House Tully wars",
+          "House Vance of Atranta wars",
+          "House Vance of Wayfarer's Rest wars",
+          "House Velaryon wars",
+          "Wars",
+          "Wars of Conquest",
+          "Westeros"
+        ],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 0,
+          "asos": 3,
+          "affc": 3,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 96093
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "affc-brienne-04",
+          "line": 54,
+          "context": "| Ser Clarence Crabb | Legendary hero of Crackclaw Point; fought the squisher king; had heads on shelves at the Whispers; Dick's ancestor | Nimble Dick |\n| Old Crackbones | Legendary Crabb hero who ti"
+        },
+        {
+          "chapter": "affc-brienne-04",
+          "line": 454,
+          "context": "### Wars & Conflicts\n- Aegon's Conquest (Visenya's campaign to take Crackclaw Point)\n- Robert's Rebellion / Battle of the Trident (Crabbs, Brunes, Boggses fought with Rhaegar)"
+        },
+        {
+          "chapter": "affc-the-drowned-man-01",
+          "line": 334,
+          "context": "### Wars & Conflicts\nBalon's first rebellion (Greyjoy Rebellion \u2014 Victarion sailed into Lannisport; Robert came to the Iron Islands afterward); Balon's second crowning / War of the Five Kings (Victari"
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 89,
+          "context": "| Black Harren (Harren the Black) | The Old Way died with him and his sons | Asha, Rodrik |\n| Aegon (the Conqueror) | Aegon's Conquest ended the Old Way | Rodrik |\n| Maegor the Cruel | Subject of a se"
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 332,
+          "context": "### Wars & Conflicts\nBalon Greyjoy's first rebellion (referenced \u2014 Gwynesse's husband and Rodrik's sons died), War of the Five Kings (implied \u2014 Stannis and Tywin contending), Battle/siege at Moat Cail"
+        },
+        {
+          "chapter": "affc-cersei-06",
+          "line": 354,
+          "context": "### Wars & Conflicts\nWar of the Five Kings (ongoing context), Battle of the Blackwater (referenced \u2014 Mark Mullendore lost his arm), Maegor's war against the Faith Militant (historical \u2014 led to banning"
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 303,
+          "context": "### Wars & Conflicts\nWar of the Five Kings (ongoing \u2014 the central conflict debated at council), Battle of the Whispering Wood (referenced \u2014 recent victory), Battle of the Camps / Siege of Riverrun (ju"
+        },
+        {
+          "chapter": "agot-jon-08",
+          "line": 276,
+          "context": "### Wars & Conflicts\nRobb Stark's war / fighting in the riverlands, Aegon's Conquest (referenced \u2014 Aegon slew Black Harren), the wars of the Seven Kingdoms era (referenced in Aemon's speech)"
+        }
+      ]
+    },
+    {
+      "page": "Aegon's first test",
+      "raw_html_path": "sources/wiki/_raw/Aegon's_first_test.json",
+      "track_b_row": {
+        "page": "Aegon's first test",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Aegon's Conquest",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Targaryen",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Duskendale",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Maidenpool",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Aegon's first test",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Aegon's Conquest",
+          "Crownlands",
+          "House Darklyn battles",
+          "House Mooton battles",
+          "House Targaryen battles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 18311
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Aemond's march on Harrenhal",
+      "raw_html_path": "sources/wiki/_raw/Aemond's_march_on_Harrenhal.json",
+      "track_b_row": {
+        "page": "Aemond's march on Harrenhal",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Dance of the Dragons",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Aemond's march on Harrenhal",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "Dance of the Dragons",
+          "Harrenhal",
+          "House Targaryen battles",
+          "Riverlands"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 31886
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Alayne I (The Winds of Winter)",
+      "raw_html_path": "sources/wiki/_raw/Alayne_I_(The_Winds_of_Winter).json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "Alayne I (The Winds of Winter)",
+        "entity_type_guess": "skip",
+        "categories": [
+          "A Song of Ice And Fire chapters",
+          "A Song of Ice And Fire chapters--POV Sansa Stark",
+          "Articles that are Stubs",
+          "Chapters which take place in the Vale of Arryn"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 11969,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Ambush at Fair Isle",
+      "raw_html_path": "sources/wiki/_raw/Ambush_at_Fair_Isle.json",
+      "track_b_row": {
+        "page": "Ambush at Fair Isle",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Dance of the Dragons",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Ironborn victory",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Ambush at Fair Isle",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Articles with conjectural titles",
+          "Fair Isle",
+          "House Greyjoy battles",
+          "House Lannister battles",
+          "House Prester battles",
+          "House Tarbeck battles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 18155
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Ambush on the Wendwater",
+      "raw_html_path": "sources/wiki/_raw/Ambush_on_the_Wendwater.json",
+      "track_b_row": {
+        "page": "Ambush on the Wendwater",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Aegon's Conquest",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Inconclusive",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Ambush on the Wendwater",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Aegon's Conquest",
+          "Battles",
+          "House Buckler battles",
+          "House Errol battles",
+          "House Fell battles",
+          "House Targaryen battles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 15572
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Anarchy in the Reach",
+      "raw_html_path": "sources/wiki/_raw/Anarchy_in_the_Reach.json",
+      "track_b_row": {
+        "page": "Anarchy in the Reach",
+        "entity_type": "event.war",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Result",
+            "target": "Storm King",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "King of the Rock",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Garth X Gardener",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Oakenseat",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Highgarden",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Mern VI Gardener",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "King of the Reach",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Anarchy in the Reach",
+        "entity_type_guess": "event.war",
+        "categories": [
+          "Articles with conjectural titles",
+          "Explicitly unknown coat of arms",
+          "House Durrandon wars",
+          "House Gardener wars",
+          "House Hightower wars",
+          "House Lannister wars",
+          "House Manderly wars",
+          "House Peake wars",
+          "House Tyrell wars",
+          "The Reach",
+          "Wars"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 23305
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Arianne I (The Winds of Winter)",
+      "raw_html_path": "sources/wiki/_raw/Arianne_I_(The_Winds_of_Winter).json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "Arianne I (The Winds of Winter)",
+        "entity_type_guess": "skip",
+        "categories": [
+          "A Song of Ice And Fire chapters",
+          "A Song of Ice And Fire chapters--POV Arianne Martell",
+          "Chapters which take place in Dorne"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 25242,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Arianne II (The Winds of Winter)",
+      "raw_html_path": "sources/wiki/_raw/Arianne_II_(The_Winds_of_Winter).json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "Arianne II (The Winds of Winter)",
+        "entity_type_guess": "skip",
+        "categories": [
+          "A Song of Ice And Fire chapters",
+          "A Song of Ice And Fire chapters--POV Arianne Martell",
+          "Chapters which take place in the Stormlands"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 16797,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Arrest of Eddard Stark",
+      "raw_html_path": "sources/wiki/_raw/Arrest_of_Eddard_Stark.json",
+      "track_b_row": {
+        "page": "Arrest of Eddard Stark",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 3,
+          "source": "cite_ref",
+          "pov": "Sansa I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "War of the Five Kings",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "House Lannister",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Joffrey Baratheon",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            4,
+            12,
+            27,
+            35,
+            45,
+            47,
+            49,
+            50,
+            51,
+            53,
+            55,
+            56,
+            57,
+            58
+          ],
+          "acok": [
+            3,
+            8
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Arrest of Eddard Stark",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Articles with conjectural titles",
+          "City Watch (King's Landing)",
+          "Events",
+          "House Lannister",
+          "House Stark",
+          "Red Keep",
+          "War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 14,
+          "acok": 2,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 57282
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Assassination of Tywin Lannister",
+      "raw_html_path": "sources/wiki/_raw/Assassination_of_Tywin_Lannister.json",
+      "track_b_row": {
+        "page": "Assassination of Tywin Lannister",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "War of the Five Kings",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Tywin Lannister",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Tyrion Lannister",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Assassination of Tywin Lannister",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Articles that are Stubs",
+          "Articles with conjectural titles",
+          "Assassinations",
+          "Events",
+          "House Lannister",
+          "War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 17901
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Assassinations of Pycelle and Kevan Lannister",
+      "raw_html_path": "sources/wiki/_raw/Assassinations_of_Pycelle_and_Kevan_Lannister.json",
+      "track_b_row": {
+        "page": "Assassinations of Pycelle and Kevan Lannister",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "War of the Five Kings",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Pycelle",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Kevan Lannister",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Assassinations of Pycelle and Kevan Lannister",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Articles that are Stubs",
+          "Articles with conjectural titles",
+          "Assassinations",
+          "Events",
+          "House Lannister",
+          "House Targaryen",
+          "War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 21019
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Assault on Dragonstone",
+      "raw_html_path": "sources/wiki/_raw/Assault_on_Dragonstone.json",
+      "track_b_row": {
+        "page": "Assault on Dragonstone",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 3,
+          "source": "cite_ref",
+          "pov": "Catelyn I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Robert's Rebellion",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Baratheon",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            25,
+            58
+          ],
+          "affc": [
+            16
+          ],
+          "asos": [
+            37
+          ],
+          "agot": [
+            3,
+            27,
+            32
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Assault on Dragonstone",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "Dragonstone",
+          "House Baratheon battles",
+          "House Targaryen battles",
+          "Robert's Rebellion"
+        ],
+        "cite_ref_books": {
+          "agot": 3,
+          "acok": 2,
+          "asos": 1,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 27818
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Assault on Harrenhal",
+      "raw_html_path": "sources/wiki/_raw/Assault_on_Harrenhal.json",
+      "track_b_row": {
+        "page": "Assault on Harrenhal",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Dance of the Dragons",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Assault on Harrenhal",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "Dance of the Dragons",
+          "Harrenhal",
+          "House Strong battles",
+          "House Targaryen battles",
+          "Riverlands"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 26805
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Attack on Castle Black",
+      "raw_html_path": "sources/wiki/_raw/Attack_on_Castle_Black.json",
+      "track_b_row": {
+        "page": "Attack on Castle Black",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 26,
+          "source": "cite_ref",
+          "pov": "Davos III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Conflict beyond the Wall",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Castle Black",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            26,
+            30,
+            41,
+            48,
+            55,
+            64,
+            73
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Attack on Castle Black",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "Beyond the Wall",
+          "Castle Black",
+          "Conflict beyond the Wall",
+          "Free folk battles",
+          "Night's Watch battles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 7,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 32860
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

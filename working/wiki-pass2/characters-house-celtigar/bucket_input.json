@@ -1,0 +1,683 @@
+{
+  "bucket_id": "characters-house-celtigar",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Alton Celtigar",
+      "raw_html_path": "sources/wiki/_raw/Alton_Celtigar.json",
+      "track_b_row": {
+        "page": "Alton Celtigar",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord of Claw Isle",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Hand of the King",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Celtigar",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Alton Celtigar",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Crownlands",
+          "Characters without images",
+          "Deaths by natural causes",
+          "Hands of the King",
+          "House Celtigar",
+          "Lords of Claw Isle",
+          "Members of Aegon I Targaryen's court",
+          "Nobles",
+          "Pages with the race parameter"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 25939
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Ardrian Celtigar",
+      "raw_html_path": "sources/wiki/_raw/Ardrian_Celtigar.json",
+      "track_b_row": {
+        "page": "Ardrian Celtigar",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 10,
+          "source": "cite_ref",
+          "pov": "Arya III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lord of Claw Isle",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Celtigar",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Claw Isle",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "229 AC"
+          }
+        ],
+        "aliases": [
+          "The Red Crab"
+        ],
+        "cite_refs": {
+          "acok": [
+            0,
+            10,
+            42,
+            65
+          ],
+          "asos": [
+            25,
+            36,
+            54,
+            66
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Ardrian Celtigar",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Crownlands",
+          "House Celtigar",
+          "Lords of Claw Isle",
+          "Members of Joffrey I Baratheon's court",
+          "Members of Tommen I Baratheon's court",
+          "Nobles",
+          "Pages using deprecated image syntax",
+          "Pages with the race parameter",
+          "Supporters of Joffrey Baratheon in the War of the Five Kings",
+          "Supporters of Stannis Baratheon in the War of the Five Kings",
+          "Supporters of Tommen Baratheon in the War of the Five Kings",
+          "Turncloaks in the War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 4,
+          "asos": 4,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 28748
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Arthor Celtigar",
+      "raw_html_path": "sources/wiki/_raw/Arthor_Celtigar.json",
+      "track_b_row": {
+        "page": "Arthor Celtigar",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiances",
+            "target": "House Celtigar",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Blacks",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "King's Landing",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "130 AC"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Arthor Celtigar",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "115 AC births",
+          "130 AC deaths",
+          "Blacks",
+          "Casualties of the Dance of the Dragons",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Crownlands",
+          "Characters without images",
+          "Deaths by stabbing",
+          "House Celtigar",
+          "Nobles",
+          "Pages with the race parameter"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 11612
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Clement Celtigar",
+      "raw_html_path": "sources/wiki/_raw/Clement_Celtigar.json",
+      "track_b_row": {
+        "page": "Clement Celtigar",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lord of Claw Isle",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Celtigar",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Blacks",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Bartimos Celtigar",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Clement Celtigar",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Blacks",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Crownlands",
+          "Characters without images",
+          "House Celtigar",
+          "Lords of Claw Isle",
+          "Nobles",
+          "Pages with the race parameter"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 12141
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Crispian Celtigar",
+      "raw_html_path": "sources/wiki/_raw/Crispian_Celtigar.json",
+      "track_b_row": {
+        "page": "Crispian Celtigar",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord of Claw Isle",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "possibly"
+          },
+          {
+            "field": "Titles",
+            "target": "Master of coin",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Celtigar",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Crispian Celtigar",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Crownlands",
+          "Characters without images",
+          "House Celtigar",
+          "Masters of coin",
+          "Members of Aegon I Targaryen's court",
+          "Nobles",
+          "Pages with the race parameter"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 19762
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Edwell Celtigar",
+      "raw_html_path": "sources/wiki/_raw/Edwell_Celtigar.json",
+      "track_b_row": {
+        "page": "Edwell Celtigar",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord of Claw Isle",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Hand of the King",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Master of coin",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord treasurer",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Celtigar",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Claw Isle",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "59 AC"
+          },
+          {
+            "field": "Issue",
+            "target": "Prunella Celtigar",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Prudence Celtigar",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Edwell Celtigar",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "59 AC deaths",
+          "Casualties of the Shivers",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Crownlands",
+          "Characters without images",
+          "Hands of the King",
+          "House Celtigar",
+          "Lords of Claw Isle",
+          "Lords treasurer",
+          "Masters of coin",
+          "Members of Alyssa Velaryon's court",
+          "Members of Jaehaerys I Targaryen's court",
+          "Members of Maegor I Targaryen's court",
+          "Nobles",
+          "Pages with the race parameter"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 55221
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Prudence Celtigar",
+      "raw_html_path": "sources/wiki/_raw/Prudence_Celtigar.json",
+      "track_b_row": {
+        "page": "Prudence Celtigar",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Gulltown",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Celtigar",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Grafton",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Edwell Celtigar",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Grafton",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Prudence Celtigar",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 2 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the Crownlands",
+          "Companions and ladies-in-waiting of Alysanne Targaryen",
+          "House Celtigar",
+          "House Grafton",
+          "Members of Jaehaerys I Targaryen's court",
+          "Noblewomen",
+          "Pages with the race parameter"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 26063
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Prunella Celtigar",
+      "raw_html_path": "sources/wiki/_raw/Prunella_Celtigar.json",
+      "track_b_row": {
+        "page": "Prunella Celtigar",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Starpike",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Dunstonbury",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Whitegrove",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Celtigar",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Peake",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Edwell Celtigar",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Uther Peake",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Prunella Celtigar",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 2 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the Crownlands",
+          "Companions and ladies-in-waiting of Alysanne Targaryen",
+          "House Celtigar",
+          "House Peake",
+          "Members of Jaehaerys I Targaryen's court",
+          "Noblewomen",
+          "Pages using deprecated image syntax",
+          "Pages with the race parameter"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 25952
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

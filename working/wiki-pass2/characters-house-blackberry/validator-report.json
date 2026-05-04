@@ -1,0 +1,8 @@
+{
+  "bucket_id": "characters-house-blackberry",
+  "passed": true,
+  "checked_at": "2026-05-02T00:47:04Z",
+  "node_count_expected": 2,
+  "node_count_actual": 2,
+  "failures": []
+}

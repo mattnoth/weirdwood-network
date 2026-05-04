@@ -1,0 +1,184 @@
+{
+  "bucket_id": "characters-house-bolton-of-the-dreadfort",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Ramsay Snow",
+      "raw_html_path": "sources/wiki/_raw/Ramsay_Snow.json",
+      "track_b_row": {
+        "page": "Ramsay Snow",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 12,
+          "source": "cite_ref",
+          "pov": "Daenerys II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord of the Hornwood",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of Winterfell",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Castellan",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Dreadfort",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Bolton of the Dreadfort",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Greyjoy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward",
+            "qualifier": "feigned"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Bolton of Winterfell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Northmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "North",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "282 AC"
+          },
+          {
+            "field": "Father",
+            "target": "Roose Bolton",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouses",
+            "target": "Donella Hornwood",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Spouses",
+            "target": "Arya Stark",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [
+          "The Bastard of Bolton",
+          "Reek (II)",
+          "The Bastard of the Dreadfort",
+          "Red Helm",
+          "Ramsay Bolton"
+        ],
+        "cite_refs": {
+          "acok": [
+            16,
+            28,
+            35,
+            45,
+            46,
+            50,
+            55,
+            56,
+            66,
+            69
+          ],
+          "adwd": [
+            12,
+            19,
+            20,
+            26,
+            28,
+            29,
+            31,
+            32,
+            37,
+            41,
+            42,
+            46,
+            49,
+            51,
+            62,
+            69
+          ],
+          "asos": [
+            24,
+            35,
+            49,
+            51,
+            53,
+            72
+          ],
+          "affc": [
+            17
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Ramsay Snow",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Bastards",
+          "Castellans",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the North",
+          "Characters with dark hair",
+          "Characters with grey eyes",
+          "Characters with pink skin",
+          "House Bolton",
+          "House Greyjoy retainers",
+          "House founders",
+          "Kinslayers",
+          "Legitimized bastards",
+          "Lords of Winterfell",
+          "Lords of the Hornwood",
+          "Nobles",
+          "Serial killers"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 10,
+          "asos": 6,
+          "affc": 1,
+          "adwd": 16
+        },
+        "has_infobox": true,
+        "byte_size": 125314
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

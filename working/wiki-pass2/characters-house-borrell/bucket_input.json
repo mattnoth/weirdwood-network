@@ -1,0 +1,271 @@
+{
+  "bucket_id": "characters-house-borrell",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Gella",
+      "raw_html_path": "sources/wiki/_raw/Gella.json",
+      "track_b_row": {
+        "page": "Gella",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 9,
+          "source": "cite_ref",
+          "pov": "Tyrion III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Borrell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Sistermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Mother",
+            "target": "Godric Borrell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            9
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Gella",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Vale",
+          "Cooks",
+          "House Borrell",
+          "Noblewomen",
+          "Sistermen"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 19364
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Godric Borrell",
+      "raw_html_path": "sources/wiki/_raw/Godric_Borrell.json",
+      "track_b_row": {
+        "page": "Godric Borrell",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 9,
+          "source": "cite_ref",
+          "pov": "Tyrion III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord of Sweetsister",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Shield of Sisterton",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Master of Breakwater Castle",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Keeper of the Night Lamp",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Borrell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Sistermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Sweetsister",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Borrell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Issue",
+            "target": "At least two daughters",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            9,
+            15
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Godric Borrell",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Bald characters",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Vale",
+          "Characters with black eyes",
+          "Characters with grey hair",
+          "Characters with white hair",
+          "House Borrell",
+          "Lords of Sweetsister",
+          "Nobles",
+          "Sistermen"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 37083
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Lord Borrell (father of Godric)",
+      "raw_html_path": "sources/wiki/_raw/Lord_Borrell_(father_of_Godric).json",
+      "track_b_row": {
+        "page": "Lord Borrell (father of Godric)",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 9,
+          "source": "cite_ref",
+          "pov": "Tyrion III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord of Sweetsister",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Shield of Sisterton",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Master of Breakwater Castle",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Keeper of the Night Lamp",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Borrell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Sistermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Godric Borrell",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            9
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Lord Borrell (father of Godric)",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Vale",
+          "Characters without images",
+          "House Borrell",
+          "Lords of Sweetsister",
+          "Nobles",
+          "Sistermen",
+          "Unnamed characters"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 20643
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

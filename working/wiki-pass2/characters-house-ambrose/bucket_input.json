@@ -1,0 +1,480 @@
+{
+  "bucket_id": "characters-house-ambrose",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Aegon Ambrose",
+      "raw_html_path": "sources/wiki/_raw/Aegon_Ambrose.json",
+      "track_b_row": {
+        "page": "Aegon Ambrose",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Ambrose",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Faith of the Seven",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Warrior's Sons",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "King's Landing",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "42 AC"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Aegon Ambrose",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "42 AC deaths",
+          "Casualties of the Faith Militant uprising",
+          "Character pages in alphabetical order",
+          "Character pages with 2 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the Reach",
+          "House Ambrose",
+          "Knights",
+          "Members of the Warrior's Sons",
+          "Nobles",
+          "Pages using deprecated image syntax"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 7578
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Alyn Ambrose",
+      "raw_html_path": "sources/wiki/_raw/Alyn_Ambrose.json",
+      "track_b_row": {
+        "page": "Alyn Ambrose",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 16,
+          "source": "cite_ref",
+          "pov": "Jon II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Ambrose",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Arthur Ambrose",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Alysanne Hightower",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            16,
+            28
+          ],
+          "affc": [
+            28
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Alyn Ambrose",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Reach",
+          "House Ambrose",
+          "Nobles",
+          "Pages using deprecated image syntax",
+          "Squires",
+          "Supporters of Joffrey Baratheon in the War of the Five Kings",
+          "Supporters of Tommen Baratheon in the War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 2,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 18249
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "affc-cersei-06",
+          "line": 39,
+          "context": "| Ser Loras Tyrell | Kingsguard; Knight of Flowers | No | Escorting Margaery's party |\n| Elinor Tyrell | Margaery's cousin | No | Riding with Alyn Ambrose |\n| Alla Tyrell | Margaery's cousin | No | Ri"
+        },
+        {
+          "chapter": "affc-cersei-06",
+          "line": 42,
+          "context": "| Megga Tyrell | Margaery's cousin | No | Riding with Mark Mullendore, plump and laughing |\n| Alyn Ambrose | Squire; Elinor's betrothed | No | Gangly; riding with Elinor |\n| Ser Tallad | Knight; Marga"
+        },
+        {
+          "chapter": "affc-cersei-06",
+          "line": 67,
+          "context": "| Mark Mullendore | | | | Missing one arm | | | One-armed; lost arm on the Blackwater | |\n| Alyn Ambrose | | | Gangly | | | | Squire | |\n| Jalabhar Xho | | | | | Feathered cloak | | Skin as black as i"
+        },
+        {
+          "chapter": "affc-cersei-06",
+          "line": 305,
+          "context": "| High Septon | Protective of | Sparrows | Feeds, coddles, and blesses them; champions their cause |\n| Elinor Tyrell | Betrothed to | Alyn Ambrose | Riding together; Taena reports the betrothal |\n| Me"
+        },
+        {
+          "chapter": "affc-cersei-06",
+          "line": 327,
+          "context": "### Characters\nCersei Lannister, Taena Merryweather (Lady Merryweather), Ser Osmund Kettleblack, Ser Meryn Trant, Ser Osfryd Kettleblack, the High Septon (High Sparrow), Septon Raynard, Septon Torbert"
+        }
+      ]
+    },
+    {
+      "page": "Arthur Ambrose",
+      "raw_html_path": "sources/wiki/_raw/Arthur_Ambrose.json",
+      "track_b_row": {
+        "page": "Arthur Ambrose",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lord",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Ambrose",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouse",
+            "target": "Alysanne Hightower",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Alyn Ambrose",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Arthur Ambrose",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Reach",
+          "Characters without images",
+          "House Ambrose",
+          "Nobles",
+          "Supporters of Joffrey Baratheon in the War of the Five Kings",
+          "Supporters of Renly Baratheon in the War of the Five Kings",
+          "Supporters of Tommen Baratheon in the War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 9509
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Aubrey Ambrose",
+      "raw_html_path": "sources/wiki/_raw/Aubrey_Ambrose.json",
+      "track_b_row": {
+        "page": "Aubrey Ambrose",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Ambrose",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Westeros",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Aubrey Ambrose",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Reach",
+          "Characters without images",
+          "Combatants of the First Blackfyre Rebellion",
+          "House Ambrose",
+          "Knights",
+          "Nobles",
+          "Rebels of the First Blackfyre Rebellion"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 6488
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Edmund Ambrose",
+      "raw_html_path": "sources/wiki/_raw/Edmund_Ambrose.json",
+      "track_b_row": {
+        "page": "Edmund Ambrose",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 14,
+          "source": "cite_ref",
+          "pov": "The Soiled Knight"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Ambrose",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            14,
+            20
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Edmund Ambrose",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Reach",
+          "Characters without images",
+          "House Ambrose",
+          "Knights",
+          "Nobles",
+          "Supporters of Joffrey Baratheon in the War of the Five Kings",
+          "Supporters of Renly Baratheon in the War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 2,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 7088
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "affc-brienne-03",
+          "line": 90,
+          "context": "| Big Ben Bushy | One of the wager initiators at Highgarden; overtopped Brienne; gave her silver drinking horn; died at the Blackwater | Brienne (memory), Hyle Hunt |\n| Ser Edmund Ambrose | Wager init"
+        },
+        {
+          "chapter": "affc-brienne-03",
+          "line": 324,
+          "context": "### Characters\nBrienne of Tarth (Brienne the Beauty, Maid of Tarth), Podrick Payne, Ser Hyle Hunt, Lord Randyll Tarly, Lord Mooton, Dick Crabb (Nimble Dick), Ser Jaime Lannister, Cleos Frey, Sansa Sta"
+        }
+      ]
+    },
+    {
+      "page": "Marq Ambrose",
+      "raw_html_path": "sources/wiki/_raw/Marq_Ambrose.json",
+      "track_b_row": {
+        "page": "Marq Ambrose",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lord",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Ambrose",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Greens",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Caltrops",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Tumbleton",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "130 AC"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Marq Ambrose",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Caltrops",
+          "Casualties of the Dance of the Dragons",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Reach",
+          "Characters without images",
+          "Greens",
+          "House Ambrose",
+          "Nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 11860
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

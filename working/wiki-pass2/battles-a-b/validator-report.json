@@ -1,0 +1,15 @@
+{
+  "bucket_id": "battles-a-b",
+  "passed": false,
+  "checked_at": "2026-05-02T01:01:39Z",
+  "node_count_expected": 30,
+  "node_count_actual": 28,
+  "failures": [
+    {
+      "node": "(bucket)",
+      "check": "node-count",
+      "field": "pages",
+      "detail": "missing: expected 30, got 28"
+    }
+  ]
+}

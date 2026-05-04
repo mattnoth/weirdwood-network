@@ -1,0 +1,129 @@
+{
+  "bucket_id": "characters-house-blackbar",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Elwood Blackbar",
+      "raw_html_path": "sources/wiki/_raw/Elwood_Blackbar.json",
+      "track_b_row": {
+        "page": "Elwood Blackbar",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Blackbar",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Elwood Blackbar",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Reach",
+          "Characters without images",
+          "House Blackbar",
+          "Knights",
+          "Nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 5319
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Leo Blackbar",
+      "raw_html_path": "sources/wiki/_raw/Leo_Blackbar.json",
+      "track_b_row": {
+        "page": "Leo Blackbar",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Blackbar",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouse",
+            "target": "Olene Tyrell",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Leo Blackbar",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "3rd century AC births",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Reach",
+          "Characters without images",
+          "House Blackbar",
+          "Knights",
+          "Nobles",
+          "Supporters of Renly Baratheon in the War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 5402
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

@@ -1,0 +1,708 @@
+{
+  "bucket_id": "characters-house-butterwell",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Alton Butterwell",
+      "raw_html_path": "sources/wiki/_raw/Alton_Butterwell.json",
+      "track_b_row": {
+        "page": "Alton Butterwell",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord Harroway's Town",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Master of coin",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Butterwell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Alton Butterwell",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "Characters without images",
+          "House Butterwell",
+          "Masters of coin",
+          "Members of Maegor I Targaryen's court",
+          "Nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 19227
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Ambrose Butterwell",
+      "raw_html_path": "sources/wiki/_raw/Ambrose_Butterwell.json",
+      "track_b_row": {
+        "page": "Ambrose Butterwell",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 54,
+          "source": "cite_ref",
+          "pov": "Tyrion VI"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord of Whitewalls",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Master of coin",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Hand of the King",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Butterwell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Targaryen",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Blackfyre",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouses",
+            "target": "Lady Butterwell",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Three sons",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Three daughters",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Old Milkblood",
+          "The lord of cows",
+          "Lord Butterbutt"
+        ],
+        "cite_refs": {
+          "asos": [
+            54
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Ambrose Butterwell",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "Characters with blond hair",
+          "Conspirators of the Second Blackfyre Rebellion",
+          "Hands of the King",
+          "House Butterwell",
+          "Lords of Whitewalls",
+          "Masters of coin",
+          "Members of Aegon IV Targaryen's court",
+          "Members of Daeron II Targaryen's court",
+          "Nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 69977
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Argrave the Defiant",
+      "raw_html_path": "sources/wiki/_raw/Argrave_the_Defiant.json",
+      "track_b_row": {
+        "page": "Argrave the Defiant",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Butterwell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Nunny",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Argrave the Defiant",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 0 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the Reach",
+          "House Butterwell retainers",
+          "Household knights",
+          "Knights",
+          "Lowborn nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 5361
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Beatrice Butterwell",
+      "raw_html_path": "sources/wiki/_raw/Beatrice_Butterwell.json",
+      "track_b_row": {
+        "page": "Beatrice Butterwell",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Butterwell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Beatrice Butterwell",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "Characters without images",
+          "House Butterwell",
+          "Members of Jaehaerys I Targaryen's court",
+          "Noblewomen"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 7192
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Cosgrove",
+      "raw_html_path": "sources/wiki/_raw/Cosgrove.json",
+      "track_b_row": {
+        "page": "Cosgrove",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Whitewalls",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Master of the games",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Butterwell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Cosgrove",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 0 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "Characters without images",
+          "House Butterwell retainers",
+          "Masters of the games",
+          "Smallfolk",
+          "Stewards"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 7189
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Lord Butterwell (Dance)",
+      "raw_html_path": "sources/wiki/_raw/Lord_Butterwell_(Dance).json",
+      "track_b_row": {
+        "page": "Lord Butterwell (Dance)",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lord",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Butterwell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Blacks",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Greens",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Lord Butterwell (Dance)",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Blacks",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "Characters without images",
+          "Greens",
+          "House Butterwell",
+          "Members of Aegon II Targaryen's court",
+          "Members of Viserys I Targaryen's court",
+          "Nobles",
+          "Turncloaks in the Dance of the Dragons",
+          "Unnamed characters"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 8911
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Lord Butterwell (grandfather of Ambrose)",
+      "raw_html_path": "sources/wiki/_raw/Lord_Butterwell_(grandfather_of_Ambrose).json",
+      "track_b_row": {
+        "page": "Lord Butterwell (grandfather of Ambrose)",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 54,
+          "source": "cite_ref",
+          "pov": "Tyrion VI"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord of Whitewalls",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Hand of the King",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Butterwell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Son",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Three daughters",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            54
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Lord Butterwell (grandfather of Ambrose)",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Builders",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "Characters without images",
+          "Hands of the King",
+          "House Butterwell",
+          "Lords of Whitewalls",
+          "Members of Aegon IV Targaryen's court",
+          "Nobles",
+          "Unnamed characters"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 51551
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Lothar",
+      "raw_html_path": "sources/wiki/_raw/Lothar.json",
+      "track_b_row": {
+        "page": "Lothar",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Maester",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Whitewalls",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Citadel",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Butterwell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Westeros",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Lothar",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from Westeros",
+          "House Butterwell retainers",
+          "Maesters"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 8988
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-eddard-11",
+          "line": 42,
+          "context": "| Ser Gladden | Named to the mission force | Yes | Called forward by Ned |\n| Lord Lothar | Named to the mission force | Yes | Called forward by Ned |\n| Ser Robar Royce | Messenger to the king | Yes (u"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 156,
+          "context": "| Assembly | Ser Loras Tyrell | Strides forth from west side of hall | Before the throne | Volunteers boldly |\n| Assembly | Lord Beric, Thoros, Ser Gladden, Lord Lothar | Step forward from the crowd |"
+        },
+        {
+          "chapter": "agot-eddard-11",
+          "line": 238,
+          "context": "### Characters\nEddard Stark, Varys, Grand Maester Pycelle, Petyr Baelish (Littlefinger), Ser Raymun Darry, Ser Karyl Vance, Ser Marq Piper, Joss (alehouse keeper), Ser Arys Oakheart, Septa Mordane, Sa"
+        }
+      ]
+    },
+    {
+      "page": "Tommard Heddle",
+      "raw_html_path": "sources/wiki/_raw/Tommard_Heddle.json",
+      "track_b_row": {
+        "page": "Tommard Heddle",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Commander of the garrison",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Whitewalls",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Heddle family",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Butterwell",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Blackfyre",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Whitewalls",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "212 AC"
+          },
+          {
+            "field": "Spouse",
+            "target": "Ambrose Butterwell",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [
+          "Black Tom Heddle"
+        ],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Tommard Heddle",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "212 AC deaths",
+          "2nd century AC births",
+          "Bald characters",
+          "Captains of the guards",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "Characters killed by Duncan the Tall",
+          "Characters with black hair",
+          "Conspirators of the Second Blackfyre Rebellion",
+          "Heddle family",
+          "House Butterwell retainers",
+          "Knights",
+          "Lowborn nobles",
+          "Pages with the coat-of-arms parameter"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 21297
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

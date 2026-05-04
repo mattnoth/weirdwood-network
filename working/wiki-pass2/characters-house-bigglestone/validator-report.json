@@ -1,0 +1,8 @@
+{
+  "bucket_id": "characters-house-bigglestone",
+  "passed": true,
+  "checked_at": "2026-05-02T00:45:15Z",
+  "node_count_expected": 1,
+  "node_count_actual": 1,
+  "failures": []
+}

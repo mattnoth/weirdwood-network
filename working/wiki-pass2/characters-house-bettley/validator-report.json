@@ -1,0 +1,8 @@
+{
+  "bucket_id": "characters-house-bettley",
+  "passed": true,
+  "checked_at": "2026-05-02T00:58:17Z",
+  "node_count_expected": 1,
+  "node_count_actual": 1,
+  "failures": []
+}

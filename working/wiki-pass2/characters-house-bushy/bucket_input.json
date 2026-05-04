@@ -1,0 +1,122 @@
+{
+  "bucket_id": "characters-house-bushy",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Ben Bushy",
+      "raw_html_path": "sources/wiki/_raw/Ben_Bushy.json",
+      "track_b_row": {
+        "page": "Ben Bushy",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 14,
+          "source": "cite_ref",
+          "pov": "The Soiled Knight"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Bushy",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Blackwater Rush",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "299 AC"
+          }
+        ],
+        "aliases": [
+          "Big Ben Bushy"
+        ],
+        "cite_refs": {
+          "affc": [
+            14,
+            20
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Ben Bushy",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Casualties of the War of the Five Kings",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Reach",
+          "Characters without images",
+          "House Bushy",
+          "Knights",
+          "Nobles",
+          "Supporters of Renly Baratheon in the War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 2,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 11562
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "affc-brienne-03",
+          "line": 89,
+          "context": "| Arya Stark | Brienne wonders if one of the two girls with the fool could be Arya | Brienne (thought) |\n| Big Ben Bushy | One of the wager initiators at Highgarden; overtopped Brienne; gave her silve"
+        },
+        {
+          "chapter": "affc-brienne-03",
+          "line": 163,
+          "context": "| Illuminated book of knightly valor | Gift from Hyle Hunt at Highgarden (flashback); a hundred tales | No | Brienne (presumed) |\n| Silver drinking horn | Gift from Big Ben Bushy at Highgarden (flashb"
+        },
+        {
+          "chapter": "affc-brienne-03",
+          "line": 210,
+          "context": "20. **Ser Hyle reports deaths at the Blackwater** \u2014 Mentions Ben, Farrow, and Will the Stork died; Mullendore lost half his arm. Says the wager \"was only a game.\"\n21. **Brienne recalls the wager at Hi"
+        },
+        {
+          "chapter": "affc-brienne-03",
+          "line": 247,
+          "context": "| Hyle Hunt, Ambrose, and Bushy started a wager at Highgarden on who could take Brienne's maidenhead | Brienne's memory; Tarly told her at the time | Brienne, Tarly, the wagerers | No |\n| Ben Bushy, R"
+        },
+        {
+          "chapter": "affc-brienne-03",
+          "line": 324,
+          "context": "### Characters\nBrienne of Tarth (Brienne the Beauty, Maid of Tarth), Podrick Payne, Ser Hyle Hunt, Lord Randyll Tarly, Lord Mooton, Dick Crabb (Nimble Dick), Ser Jaime Lannister, Cleos Frey, Sansa Sta"
+        },
+        {
+          "chapter": "affc-brienne-03",
+          "line": 342,
+          "context": "### Artifacts & Objects\nHeartsbane (Tarly's Valyrian steel greatsword), Brienne's sword, Brienne's royal letter/parchment, Podrick's longsword, silver stag coins, golden dragon coin, copper star coin,"
+        },
+        {
+          "chapter": "affc-brienne-03",
+          "line": 351,
+          "context": "### Wars & Conflicts\nGreyjoy Rebellion (Podrick's father died in it), Battle of the Blackwater (Ben Bushy, Farrow, Will the Stork died; Mullendore wounded; Podrick survived), War of the Five Kings (on"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "bucket_id": "characters-house-arryn-of-gulltown",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Isembard Arryn",
+      "raw_html_path": "sources/wiki/_raw/Isembard_Arryn.json",
+      "track_b_row": {
+        "page": "Isembard Arryn",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord of the Eyrie",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "claimant"
+          },
+          {
+            "field": "Titles",
+            "target": "Defender of the Vale",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "claimant"
+          },
+          {
+            "field": "Titles",
+            "target": "Warden of the East",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "claimant"
+          },
+          {
+            "field": "Titles",
+            "target": "Master of coin",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Arryn of Gulltown",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Valemen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Sons",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "The Gilded Falcon"
+        ],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Isembard Arryn",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 2 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the Vale",
+          "Characters without images",
+          "House Arryn of Gulltown",
+          "Masters of coin",
+          "Members of Aegon III Targaryen's court",
+          "Nobles",
+          "Pages with the coat-of-arms parameter"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 66785
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

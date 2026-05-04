@@ -1,0 +1,104 @@
+{
+  "bucket_id": "characters-house-cockshaw",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Alyn Cockshaw",
+      "raw_html_path": "sources/wiki/_raw/Alyn_Cockshaw.json",
+      "track_b_row": {
+        "page": "Alyn Cockshaw",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Cockshaw",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Blackfyre",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Reach",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Westeros",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "189 AC"
+          },
+          {
+            "field": "Died",
+            "target": "Whitewalls",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "212 AC"
+          },
+          {
+            "field": "Lover",
+            "target": "Daemon II Blackfyre",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Alyn Cockshaw",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "212 AC deaths",
+          "2nd century AC births",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Reach",
+          "Characters killed by Duncan the Tall",
+          "Characters with blond hair",
+          "Conspirators of the Second Blackfyre Rebellion",
+          "Deaths by drowning",
+          "House Cockshaw",
+          "Knights",
+          "LGBT+ characters",
+          "Nobles",
+          "Pages using deprecated image syntax"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 18758
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

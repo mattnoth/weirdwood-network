@@ -1,0 +1,1695 @@
+{
+  "bucket_id": "battles-a-b",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Attack on Old Wyk",
+      "raw_html_path": "sources/wiki/_raw/Attack_on_Old_Wyk.json",
+      "track_b_row": {
+        "page": "Attack on Old Wyk",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 67,
+          "source": "cite_ref",
+          "pov": "Tyrion IX"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Greyjoy's Rebellion",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Royal victory",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            67
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Attack on Old Wyk",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Articles with conjectural titles",
+          "Battles",
+          "Greyjoy's Rebellion"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 9697
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Barristan I (The Winds of Winter)",
+      "raw_html_path": "sources/wiki/_raw/Barristan_I_(The_Winds_of_Winter).json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "Barristan I (The Winds of Winter)",
+        "entity_type_guess": "skip",
+        "categories": [
+          "A Song of Ice And Fire chapters",
+          "A Song of Ice And Fire chapters--POV Barristan Selmy",
+          "Chapters which take place in Meereen"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 19300,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Barristan II (The Winds of Winter)",
+      "raw_html_path": "sources/wiki/_raw/Barristan_II_(The_Winds_of_Winter).json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "Barristan II (The Winds of Winter)",
+        "entity_type_guess": "skip",
+        "categories": [
+          "A Song of Ice And Fire chapters",
+          "A Song of Ice And Fire chapters--POV Barristan Selmy",
+          "Chapters which take place in Meereen"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 18451,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle Above the Gods Eye",
+      "raw_html_path": "sources/wiki/_raw/Battle_Above_the_Gods_Eye.json",
+      "track_b_row": {
+        "page": "Battle Above the Gods Eye",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Dance of the Dragons",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Death of all combatants",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Battle Above the Gods Eye",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "Dance of the Dragons",
+          "Gods Eye",
+          "Harrenhal",
+          "House Targaryen battles",
+          "Riverlands"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 22730
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle Beneath the Gods Eye",
+      "raw_html_path": "sources/wiki/_raw/Battle_Beneath_the_Gods_Eye.json",
+      "track_b_row": {
+        "page": "Battle Beneath the Gods Eye",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Aegon the Uncrowned's rebellion",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Prince Aegon is slain",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Battle Beneath the Gods Eye",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "Gods Eye",
+          "House Caswell battles",
+          "House Charlton battles",
+          "House Connington battles",
+          "House Corbray battles",
+          "House Dustin battles",
+          "House Frey battles",
+          "House Harroway battles",
+          "House Merryweather battles",
+          "House Paege battles",
+          "House Parren battles",
+          "House Peake battles",
+          "House Piper battles",
+          "House Roote battles",
+          "House Tarbeck battles",
+          "House Targaryen battles",
+          "House Tully battles",
+          "House Vance battles",
+          "House Westerling battles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 42251
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle at Acorn Hall",
+      "raw_html_path": "sources/wiki/_raw/Battle_at_Acorn_Hall.json",
+      "track_b_row": {
+        "page": "Battle at Acorn Hall",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Dance of the Dragons",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Battle at Acorn Hall",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Acorn Hall",
+          "Battles",
+          "Dance of the Dragons",
+          "House Crakehall battles",
+          "House Lannister battles",
+          "House Lefford battles",
+          "House Piper battles",
+          "House Reyne battles",
+          "House Smallwood battles",
+          "House Swyft battles",
+          "House Tarbeck battles",
+          "Riverlands"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 22265
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle at Black Bog",
+      "raw_html_path": "sources/wiki/_raw/Battle_at_Black_Bog.json",
+      "track_b_row": {
+        "page": "Battle at Black Bog",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Coming of the Andals",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Weirwood Alliance",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Battle at Black Bog",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Andal invasion",
+          "Battles",
+          "House Durrandon battles",
+          "Stormlands"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 6312
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle at Duskendale",
+      "raw_html_path": "sources/wiki/_raw/Battle_at_Duskendale.json",
+      "track_b_row": {
+        "page": "Battle at Duskendale",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 4,
+          "source": "cite_ref",
+          "pov": "Arya I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "War of the Five Kings",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Iron Throne",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            4,
+            19,
+            35,
+            37,
+            45,
+            49,
+            51,
+            66
+          ],
+          "acok": [
+            64
+          ],
+          "affc": [
+            9
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Battle at Duskendale",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "Duskendale",
+          "House Ambrose battles",
+          "House Cerwyn battles",
+          "House Clegane battles",
+          "House Fossoway of Cider Hall battles",
+          "House Fossoway of New Barrel battles",
+          "House Glover battles",
+          "House Hornwood battles",
+          "House Karstark battles",
+          "House Leygood battles",
+          "House Tallhart battles",
+          "House Tarly battles",
+          "War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 8,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 50133
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle at Fairmarket",
+      "raw_html_path": "sources/wiki/_raw/Battle_at_Fairmarket.json",
+      "track_b_row": {
+        "page": "Battle at Fairmarket",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Result",
+            "target": "Hoare",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Battle at Fairmarket",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "Fairmarket",
+          "House Bracken battles",
+          "House Charlton battles",
+          "House Durrandon battles",
+          "House Goodbrook battles",
+          "House Hoare battles",
+          "House Paege battles",
+          "House Vypren battles",
+          "Riverlands"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 14785
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle at Kayce",
+      "raw_html_path": "sources/wiki/_raw/Battle_at_Kayce.json",
+      "track_b_row": {
+        "page": "Battle at Kayce",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Dance of the Dragons",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Westermen victory",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Battle at Kayce",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Articles with conjectural titles",
+          "Battles",
+          "House Greyjoy battles",
+          "House Lannister battles",
+          "Kayce"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 15658
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle at Long Lake",
+      "raw_html_path": "sources/wiki/_raw/Battle_at_Long_Lake.json",
+      "track_b_row": {
+        "page": "Battle at Long Lake",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 7,
+          "source": "cite_ref",
+          "pov": "The Merchant's Man"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Result",
+            "target": "Northern victory",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            7,
+            69
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Battle at Long Lake",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Articles with conjectural titles",
+          "Battles",
+          "Free folk battles",
+          "House Stark battles",
+          "House Umber battles",
+          "The North"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 13801
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle at Lordsport",
+      "raw_html_path": "sources/wiki/_raw/Battle_at_Lordsport.json",
+      "track_b_row": {
+        "page": "Battle at Lordsport",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 11,
+          "source": "cite_ref",
+          "pov": "Davos I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Greyjoy's Rebellion",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Iron Throne",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            11,
+            12,
+            63
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Battle at Lordsport",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Articles with conjectural titles",
+          "Battles",
+          "Greyjoy's Rebellion",
+          "House Baratheon battles",
+          "House Botley battles",
+          "Lordsport"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 3,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 18417
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle at Pyke",
+      "raw_html_path": "sources/wiki/_raw/Battle_at_Pyke.json",
+      "track_b_row": {
+        "page": "Battle at Pyke",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 1,
+          "source": "cite_ref",
+          "pov": "Prologue"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Greyjoy's Rebellion",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Iron Throne",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            8,
+            11,
+            12,
+            46,
+            56,
+            63
+          ],
+          "affc": [
+            1,
+            11,
+            18,
+            19
+          ],
+          "adwd": [
+            26
+          ],
+          "asos": [
+            67
+          ],
+          "agot": [
+            4,
+            24,
+            27
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Battle at Pyke",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Articles with conjectural titles",
+          "Battles",
+          "Greyjoy's Rebellion",
+          "House Baratheon battles",
+          "House Botley battles",
+          "House Bywater battles",
+          "House Greyjoy battles",
+          "House Mormont battles",
+          "House Stark battles",
+          "Pyke",
+          "Sieges"
+        ],
+        "cite_ref_books": {
+          "agot": 3,
+          "acok": 6,
+          "asos": 1,
+          "affc": 4,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 42958
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle at Rook's Rest",
+      "raw_html_path": "sources/wiki/_raw/Battle_at_Rook's_Rest.json",
+      "track_b_row": {
+        "page": "Battle at Rook's Rest",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Dance of the Dragons",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Battle at Rook's Rest",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Articles with conjectural titles",
+          "Battles",
+          "Dance of the Dragons",
+          "House Staunton battles",
+          "House Targaryen battles",
+          "Rook's Rest"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 41005
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle at Stonebridge",
+      "raw_html_path": "sources/wiki/_raw/Battle_at_Stonebridge.json",
+      "track_b_row": {
+        "page": "Battle at Stonebridge",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Faith Militant uprising",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Wat the Hewer",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Battle at Stonebridge",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "Bitterbridge",
+          "Faith Militant battles",
+          "Faith Militant uprising",
+          "House Meadows battles",
+          "House Smallwood battles",
+          "House Targaryen battles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 15254
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle at the Great Fork",
+      "raw_html_path": "sources/wiki/_raw/Battle_at_the_Great_Fork.json",
+      "track_b_row": {
+        "page": "Battle at the Great Fork",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Faith Militant uprising",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Iron Throne",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Battle at the Great Fork",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "Faith Militant battles",
+          "Faith Militant uprising",
+          "House Falwell battles",
+          "House Hogg battles",
+          "House Lorch battles",
+          "House Lychester battles",
+          "House Mooton battles",
+          "House Targaryen battles",
+          "House Wayn battles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 19210
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle at the Horns of Hazzat",
+      "raw_html_path": "sources/wiki/_raw/Battle_at_the_Horns_of_Hazzat.json",
+      "track_b_row": {
+        "page": "Battle at the Horns of Hazzat",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 2,
+          "source": "cite_ref",
+          "pov": "Tyrion I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Targaryen campaign in Slaver's Bay",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Yunkish victory",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            71
+          ],
+          "adwd": [
+            2,
+            16,
+            23,
+            25,
+            30
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Battle at the Horns of Hazzat",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Astapor",
+          "Battles",
+          "Targaryen campaign in Slaver's Bay",
+          "Yunkai"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 5
+        },
+        "has_infobox": true,
+        "byte_size": 16875
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle at the Mummer's Ford",
+      "raw_html_path": "sources/wiki/_raw/Battle_at_the_Mummer's_Ford.json",
+      "track_b_row": {
+        "page": "Battle at the Mummer's Ford",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 17,
+          "source": "cite_ref",
+          "pov": "Sansa II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "War of the Five Kings",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Lannister",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            17,
+            34,
+            39,
+            43
+          ],
+          "agot": [
+            43,
+            55,
+            69
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Battle at the Mummer's Ford",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Articles with conjectural titles",
+          "Battles",
+          "House Clegane battles",
+          "House Darry battles",
+          "House Dayne battles",
+          "House Dondarrion battles",
+          "House Lannister battles",
+          "House Stark battles",
+          "Riverlands",
+          "War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 3,
+          "acok": 0,
+          "asos": 4,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 44200
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle at the Red Fork",
+      "raw_html_path": "sources/wiki/_raw/Battle_at_the_Red_Fork.json",
+      "track_b_row": {
+        "page": "Battle at the Red Fork",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Dance of the Dragons",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Battle at the Red Fork",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "Dance of the Dragons",
+          "House Crakehall battles",
+          "House Lannister battles",
+          "House Lefford battles",
+          "House Piper battles",
+          "House Reyne battles",
+          "House Swyft battles",
+          "House Tarbeck battles",
+          "House Vance of Wayfarer's Rest battles",
+          "Riverlands"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 31958
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle at the burning septry",
+      "raw_html_path": "sources/wiki/_raw/Battle_at_the_burning_septry.json",
+      "track_b_row": {
+        "page": "Battle at the burning septry",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 39,
+          "source": "cite_ref",
+          "pov": "Tyrion V"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "War of the Five Kings",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Brotherhood",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            39
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Battle at the burning septry",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Articles with conjectural titles",
+          "Battles",
+          "Brave Companions battles",
+          "Brotherhood without banners battles",
+          "Riverlands",
+          "War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 28354
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle beneath the Wall",
+      "raw_html_path": "sources/wiki/_raw/Battle_beneath_the_Wall.json",
+      "track_b_row": {
+        "page": "Battle beneath the Wall",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 3,
+          "source": "cite_ref",
+          "pov": "Daenerys I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Conflict beyond the Wall",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Conflict",
+            "target": "War of the Five Kings",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Night's Watch",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "House Baratheon of Dragonstone",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            15,
+            26,
+            30,
+            36,
+            41,
+            48,
+            55,
+            64,
+            69,
+            73,
+            75,
+            76,
+            78,
+            79
+          ],
+          "adwd": [
+            3,
+            9,
+            10,
+            17,
+            31,
+            39,
+            42,
+            53,
+            54,
+            58,
+            62
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Battle beneath the Wall",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "Beyond the Wall",
+          "Castle Black",
+          "Conflict beyond the Wall",
+          "Free folk battles",
+          "House Bar Emmon battles",
+          "House Baratheon battles",
+          "House Caron battles",
+          "House Cobb battles",
+          "House Estermont battles",
+          "House Farring battles",
+          "House Fell battles",
+          "House Florent battles",
+          "House Horpe battles",
+          "House Massey battles",
+          "House Morrigen battles",
+          "House Peasebury battles",
+          "House Velaryon battles",
+          "House Wensington battles",
+          "House Wylde battles",
+          "Night's Watch battles",
+          "War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 14,
+          "affc": 0,
+          "adwd": 11
+        },
+        "has_infobox": true,
+        "byte_size": 91274
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle by the Bloody Pool",
+      "raw_html_path": "sources/wiki/_raw/Battle_by_the_Bloody_Pool.json",
+      "track_b_row": {
+        "page": "Battle by the Bloody Pool",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Result",
+            "target": "Durrandon",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Battle by the Bloody Pool",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "House Durrandon battles",
+          "House Wyl battles",
+          "House Yronwood battles",
+          "Stormlands"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 7040
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle by the Lakeshore",
+      "raw_html_path": "sources/wiki/_raw/Battle_by_the_Lakeshore.json",
+      "track_b_row": {
+        "page": "Battle by the Lakeshore",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Dance of the Dragons",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Battle by the Lakeshore",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "Dance of the Dragons",
+          "Gods Eye",
+          "House Bigglestone battles",
+          "House Blackwood battles",
+          "House Chambers battles",
+          "House Charlton battles",
+          "House Crakehall battles",
+          "House Dustin battles",
+          "House Frey battles",
+          "House Grey battles",
+          "House Lannister battles",
+          "House Lefford battles",
+          "House Perryn battles",
+          "House Reyne battles",
+          "House Swyft battles",
+          "Riverlands"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 48265
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle for the Dawn",
+      "raw_html_path": "sources/wiki/_raw/Battle_for_the_Dawn.json",
+      "track_b_row": {
+        "page": "Battle for the Dawn",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 21,
+          "source": "cite_ref",
+          "pov": "Tyrion V"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "The Long Night",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Others",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Long Night",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            24
+          ],
+          "asos": [
+            33
+          ],
+          "acok": [
+            21
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Battle for the Dawn",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "Long Night",
+          "Night's Watch battles",
+          "Pages using hatnote template directly"
+        ],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 1,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 9986
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle in the Whispering Wood",
+      "raw_html_path": "sources/wiki/_raw/Battle_in_the_Whispering_Wood.json",
+      "track_b_row": {
+        "page": "Battle in the Whispering Wood",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 3,
+          "source": "cite_ref",
+          "pov": "Sansa I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "War of the Five Kings",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Stark",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            55,
+            56,
+            59,
+            63,
+            67,
+            69,
+            71
+          ],
+          "acok": [
+            3,
+            7,
+            24,
+            39
+          ],
+          "affc": [
+            27,
+            33,
+            38
+          ],
+          "adwd": [
+            46
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Battle in the Whispering Wood",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "House Banefort battles",
+          "House Brax battles",
+          "House Estren battles",
+          "House Flint of Widow's Watch battles",
+          "House Frey battles",
+          "House Greenfield battles",
+          "House Hornwood battles",
+          "House Karstark battles",
+          "House Lannister battles",
+          "House Mallister battles",
+          "House Manderly battles",
+          "House Mollen battles",
+          "House Mormont battles",
+          "House Stark battles",
+          "House Tully battles",
+          "House Umber battles",
+          "House Westerling battles",
+          "Riverlands",
+          "War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 7,
+          "acok": 4,
+          "asos": 0,
+          "affc": 3,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 70387
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle in the hills below the Golden Tooth",
+      "raw_html_path": "sources/wiki/_raw/Battle_in_the_hills_below_the_Golden_Tooth.json",
+      "track_b_row": {
+        "page": "Battle in the hills below the Golden Tooth",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 8,
+          "source": "cite_ref",
+          "pov": "Cersei II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "War of the Five Kings",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Lannister",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            40,
+            43,
+            55,
+            56,
+            59
+          ],
+          "affc": [
+            8
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Battle in the hills below the Golden Tooth",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "House Lannister battles",
+          "House Lefford battles",
+          "House Piper battles",
+          "House Vance of Wayfarer's Rest battles",
+          "War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 5,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 36034
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle in the ice",
+      "raw_html_path": "sources/wiki/_raw/Battle_in_the_ice.json",
+      "track_b_row": {
+        "page": "Battle in the ice",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 3,
+          "source": "cite_ref",
+          "pov": "Daenerys I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "War of the Five Kings",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            3,
+            15,
+            17,
+            20,
+            26,
+            31,
+            32,
+            35,
+            37,
+            42,
+            44,
+            46,
+            49,
+            51,
+            62,
+            69
+          ],
+          "affc": [
+            16
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Battle in the ice",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "Explicitly unknown coat of arms",
+          "House Baratheon battles",
+          "House Bolton battles",
+          "House Frey battles",
+          "House Manderly battles",
+          "House Umber battles",
+          "War of the Five Kings",
+          "Winterfell"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 16
+        },
+        "has_infobox": true,
+        "byte_size": 85150
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle in the waters off Gulltown",
+      "raw_html_path": "sources/wiki/_raw/Battle_in_the_waters_off_Gulltown.json",
+      "track_b_row": {
+        "page": "Battle in the waters off Gulltown",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Aegon's Conquest",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Targaryen",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Vale",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Battle in the waters off Gulltown",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Aegon's Conquest",
+          "Battles",
+          "Gulltown",
+          "House Arryn battles",
+          "House Targaryen battles",
+          "House Velaryon battles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 18081
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle near Yunkai",
+      "raw_html_path": "sources/wiki/_raw/Battle_near_Yunkai.json",
+      "track_b_row": {
+        "page": "Battle near Yunkai",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 16,
+          "source": "cite_ref",
+          "pov": "Davos II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Targaryen campaign in Slaver's Bay",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Yunkai",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            42,
+            57
+          ],
+          "adwd": [
+            16,
+            63
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Battle near Yunkai",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Articles with conjectural titles",
+          "Battles",
+          "House Targaryen battles",
+          "Targaryen campaign in Slaver's Bay",
+          "Yunkai"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 2,
+          "affc": 0,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 29321
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of Ashemark",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_Ashemark.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "Battle of Ashemark",
+        "entity_type_guess": "unknown",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": false,
+        "byte_size": 940
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "bucket_id": "characters-house-bywater",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Jacelyn Bywater",
+      "raw_html_path": "sources/wiki/_raw/Jacelyn_Bywater.json",
+      "track_b_row": {
+        "page": "Jacelyn Bywater",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 4,
+          "source": "cite_ref",
+          "pov": "Arya I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Mud Gate",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Commander of the City Watch",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Bywater",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "City Watch of King's Landing",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Tyrion Lannister",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Crownlands",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "King's Landing",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "299 AC"
+          }
+        ],
+        "aliases": [
+          "Ironhand"
+        ],
+        "cite_refs": {
+          "acok": [
+            8,
+            20,
+            29,
+            41,
+            49,
+            59
+          ],
+          "asos": [
+            4,
+            19,
+            67
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Jacelyn Bywater",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Casualties of the War of the Five Kings",
+          "Character pages in alphabetical order",
+          "Character pages with 2 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the Crownlands",
+          "Characters with black hair",
+          "Characters with grey hair",
+          "Commanders of the City Watch (King's Landing)",
+          "Followers and collaborators of Tyrion Lannister",
+          "Gate captains",
+          "House Bywater",
+          "Knights",
+          "Lords without lands",
+          "Maimed characters",
+          "Members of the City Watch (King's Landing)",
+          "Nobles",
+          "Veterans of Greyjoy's Rebellion"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 6,
+          "asos": 3,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 30964
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "affc-jaime-03",
+          "line": 91,
+          "context": "| Tyrek Lannister | Vanished during King's Landing riots; served Robert as squire alongside Lancel; would be fourteen now; married to Lady Ermesande | Hayford castellan, Marbrand, Strongboar, Jaime |\n"
+        },
+        {
+          "chapter": "affc-jaime-03",
+          "line": 354,
+          "context": "### Characters\nJaime Lannister, Cersei Lannister, Ser Ilyn Payne, Ser Addam Marbrand, Josmyn Peckledon (Peck), Little Lew Piper, Ser Kennos of Kayce, Strongboar (Ser Lyle Crakehall), Red Ronnet Connin"
+        }
+      ]
+    }
+  ]
+}

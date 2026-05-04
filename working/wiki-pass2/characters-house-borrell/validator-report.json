@@ -1,0 +1,8 @@
+{
+  "bucket_id": "characters-house-borrell",
+  "passed": true,
+  "checked_at": "2026-05-02T00:56:35Z",
+  "node_count_expected": 3,
+  "node_count_actual": 3,
+  "failures": []
+}

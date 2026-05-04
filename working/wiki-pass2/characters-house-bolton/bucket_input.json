@@ -1,0 +1,1734 @@
+{
+  "bucket_id": "characters-house-bolton",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Barba Bolton",
+      "raw_html_path": "sources/wiki/_raw/Barba_Bolton.json",
+      "track_b_row": {
+        "page": "Barba Bolton",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Bolton",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Northmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Barba Bolton",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the North",
+          "House Bolton",
+          "Maidens attending the Maiden's Day Ball",
+          "Noblewomen",
+          "Pages using deprecated image syntax"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 8740
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Belthasar Bolton",
+      "raw_html_path": "sources/wiki/_raw/Belthasar_Bolton.json",
+      "track_b_row": {
+        "page": "Belthasar Bolton",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Bolton",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Northmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Belthasar Bolton",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the North",
+          "Characters without images",
+          "House Bolton",
+          "Nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 5557
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Ben Bones",
+      "raw_html_path": "sources/wiki/_raw/Ben_Bones.json",
+      "track_b_row": {
+        "page": "Ben Bones",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 12,
+          "source": "cite_ref",
+          "pov": "Daenerys II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Bolton",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Northmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "North",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Ben Bones"
+        ],
+        "cite_refs": {
+          "adwd": [
+            12,
+            32,
+            51
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Ben Bones",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 0 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the North",
+          "House Bolton retainers",
+          "Kennelmasters",
+          "Pages using deprecated image syntax",
+          "Smallfolk",
+          "Spies"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 3
+        },
+        "has_infobox": true,
+        "byte_size": 10993
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Domeric Bolton",
+      "raw_html_path": "sources/wiki/_raw/Domeric_Bolton.json",
+      "track_b_row": {
+        "page": "Domeric Bolton",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 16,
+          "source": "cite_ref",
+          "pov": "Tyrion III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Bolton",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Northmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Dreadfort",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "273"
+          },
+          {
+            "field": "Died",
+            "target": "Dreadfort",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "297 AC"
+          },
+          {
+            "field": "Father",
+            "target": "Roose Bolton",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Bethany Ryswell",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            32
+          ],
+          "acok": [
+            16,
+            64
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Domeric Bolton",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "297 AC deaths",
+          "3rd century AC births",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the North",
+          "Characters killed by Ramsay Snow",
+          "House Bolton",
+          "House Dustin wards",
+          "House Redfort wards",
+          "Musicians",
+          "Nobles",
+          "Pages",
+          "Pages using deprecated image syntax",
+          "Squires"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 2,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 39655
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Grunt",
+      "raw_html_path": "sources/wiki/_raw/Grunt.json",
+      "track_b_row": {
+        "page": "Grunt",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 12,
+          "source": "cite_ref",
+          "pov": "Daenerys II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiances",
+            "target": "House Bolton",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Bastard's Boys",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Northmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "North",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            12,
+            46,
+            51
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Grunt",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 0 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the North",
+          "Characters without images",
+          "House Bolton retainers",
+          "Men-at-arms",
+          "Smallfolk",
+          "Spies",
+          "Tongueless characters"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 3
+        },
+        "has_infobox": true,
+        "byte_size": 10704
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Jez (serving girl)",
+      "raw_html_path": "sources/wiki/_raw/Jez_(serving_girl).json",
+      "track_b_row": {
+        "page": "Jez (serving girl)",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 51,
+          "source": "cite_ref",
+          "pov": "Daenerys VIII"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Bolton",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Northmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            51
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Jez (serving girl)",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 0 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the North",
+          "Characters without images",
+          "House Bolton retainers",
+          "Smallfolk",
+          "Wenches"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 4705
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Luton",
+      "raw_html_path": "sources/wiki/_raw/Luton.json",
+      "track_b_row": {
+        "page": "Luton",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 37,
+          "source": "cite_ref",
+          "pov": "Daenerys VI"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Bolton",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Northmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "North",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Winterfell",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "300 AC"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            37,
+            46,
+            51
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Luton",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Casualties of the War of the Five Kings",
+          "Character pages in alphabetical order",
+          "Character pages with 0 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the North",
+          "Characters without images",
+          "House Bolton retainers",
+          "Men-at-arms",
+          "Smallfolk",
+          "Spies"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 3
+        },
+        "has_infobox": true,
+        "byte_size": 7085
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Maisie",
+      "raw_html_path": "sources/wiki/_raw/Maisie.json",
+      "track_b_row": {
+        "page": "Maisie",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 51,
+          "source": "cite_ref",
+          "pov": "Daenerys VIII"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Bolton",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Northmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            51
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Maisie",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 0 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the North",
+          "Characters without images",
+          "House Bolton retainers",
+          "Smallfolk",
+          "Wenches"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 4699
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Miller's wife",
+      "raw_html_path": "sources/wiki/_raw/Miller's_wife.json",
+      "track_b_row": {
+        "page": "Miller's wife",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 16,
+          "source": "cite_ref",
+          "pov": "Tyrion III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Bolton",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Northmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "North",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouse",
+            "target": "Weeping Water",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Ramsay Snow",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            32
+          ],
+          "acok": [
+            16
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Miller's wife",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 0 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the North",
+          "Pages using deprecated image syntax",
+          "Smallfolk",
+          "Unnamed characters"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 14666
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Nage",
+      "raw_html_path": "sources/wiki/_raw/Nage.json",
+      "track_b_row": {
+        "page": "Nage",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 44,
+          "source": "cite_ref",
+          "pov": "Arya VIII"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Bolton",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Northmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "North",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            44,
+            72
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Nage",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 0 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the North",
+          "Characters without images",
+          "House Bolton guards",
+          "Smallfolk"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 2,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 7865
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Reek",
+      "raw_html_path": "sources/wiki/_raw/Reek.json",
+      "track_b_row": {
+        "page": "Reek",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 12,
+          "source": "cite_ref",
+          "pov": "Daenerys II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Bolton",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Northmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "North",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "North",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "299 AC"
+          }
+        ],
+        "aliases": [
+          "Reek (I)"
+        ],
+        "cite_refs": {
+          "acok": [
+            16,
+            35,
+            46,
+            50,
+            56,
+            66
+          ],
+          "adwd": [
+            12,
+            32,
+            51,
+            69
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Reek",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Casualties of the War of the Five Kings",
+          "Character pages in alphabetical order",
+          "Character pages with 0 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the North",
+          "House Bolton retainers",
+          "Men-at-arms",
+          "Pages using deprecated image syntax",
+          "Smallfolk"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 6,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 4
+        },
+        "has_infobox": true,
+        "byte_size": 27426
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-eddard-15",
+          "line": 37,
+          "context": "| Gaoler (rat-faced) | Frayed beard | | Scarecrow of a man (thin/gaunt) | | Mail shirt and leather half cape | | Rat's face | |\n| Varys (disguised) | Dark stubble of beard (false) | | Stouter, shorter"
+        }
+      ]
+    },
+    {
+      "page": "Roose Bolton",
+      "raw_html_path": "sources/wiki/_raw/Roose_Bolton.json",
+      "track_b_row": {
+        "page": "Roose Bolton",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 3,
+          "source": "cite_ref",
+          "pov": "Catelyn I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord of the Dreadfort",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Warden of the North",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Bolton",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Northmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Dreadfort",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "260 AC"
+          },
+          {
+            "field": "Spouses",
+            "target": "Bethany Ryswell",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Spouses",
+            "target": "\"Fat\" Walda Frey",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Domeric Bolton",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Ramsay Snow",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Lord Leech",
+          "The Leech Lord",
+          "Lord of leeches"
+        ],
+        "cite_refs": {
+          "acok": [
+            16,
+            30,
+            39,
+            47,
+            50,
+            64,
+            66
+          ],
+          "asos": [
+            3,
+            11,
+            14,
+            31,
+            34,
+            37,
+            44,
+            48,
+            49,
+            50,
+            51,
+            72
+          ],
+          "adwd": [
+            12,
+            19,
+            20,
+            29,
+            32,
+            35,
+            37,
+            44,
+            46,
+            51
+          ],
+          "agot": [
+            33,
+            53,
+            55,
+            59,
+            62,
+            71
+          ],
+          "affc": [
+            16
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Roose Bolton",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "3rd century AC births",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the North",
+          "Characters with fair skin",
+          "Characters with grey eyes",
+          "House Bolton",
+          "Lords of the Dreadfort",
+          "Nobles",
+          "Pages using hatnote template directly",
+          "Rebels of Robert's Rebellion",
+          "Supporters of Joffrey Baratheon in the War of the Five Kings",
+          "Supporters of Robb Stark in the War of the Five Kings",
+          "Supporters of Tommen Baratheon in the War of the Five Kings",
+          "Turncloaks in the War of the Five Kings",
+          "Veterans of Greyjoy's Rebellion",
+          "Veterans of Robert's Rebellion",
+          "Wardens of the North"
+        ],
+        "cite_ref_books": {
+          "agot": 6,
+          "acok": 7,
+          "asos": 12,
+          "affc": 1,
+          "adwd": 10
+        },
+        "has_infobox": true,
+        "byte_size": 115212
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "affc-arya-02",
+          "line": 82,
+          "context": "| The Tickler | Asking after gold at the village by the God's Eye | Arya (internal, memory) |\n| Roose Bolton | Arya served as his cupbearer at Harrenhal; would flay you for spilling wine | Arya (inter"
+        },
+        {
+          "chapter": "affc-arya-02",
+          "line": 265,
+          "context": "| Arya | Memory/respect toward | Syrio Forel | Remembers his teachings (\"silent as a shadow,\" \"just so,\" stillness, water dance); he \"died for her\" |\n| Arya | Memory of servitude under | Weese, Roose "
+        },
+        {
+          "chapter": "affc-arya-02",
+          "line": 290,
+          "context": "### Characters\nArya Stark, the kindly man, the waif, Umma, the blind acolyte, the eldest acolyte, two younger acolytes, old serving man (bent back), red-faced serving man, the fat fellow, the stern fa"
+        },
+        {
+          "chapter": "affc-arya-02",
+          "line": 296,
+          "context": "### Houses\nHouse Stark, House Frey (the Freys of the Crossing), House Bolton (Roose Bolton reference), House Lannister (implied via Cersei, Gregor, etc.)"
+        },
+        {
+          "chapter": "affc-cersei-04",
+          "line": 98,
+          "context": "| \"Arya Stark\" (false) | With Lord Bolton; to be wed to Ramsay Bolton; actually a steward's whelp tricked up by Littlefinger | Cersei |\n| Roose Bolton | Promised the north by Tywin; to return after Mo"
+        },
+        {
+          "chapter": "affc-cersei-04",
+          "line": 369,
+          "context": "### Characters\nCersei Lannister, Qyburn, Tyrion Lannister, Jaime Lannister, Dorcas, Jocelyn (Lady Jocelyn), Ser Meryn Trant, Ser Osmund Kettleblack, Ser Osney Kettleblack, Osfryd Kettleblack, Ser Boro"
+        },
+        {
+          "chapter": "affc-jaime-02",
+          "line": 82,
+          "context": "| Damion Lannister | Cersei says he and Daven will serve better than Kevan | Cersei |\n| Roose Bolton | Warden of the North; trapped below the Neck | Cersei |\n| Bolton's bastard son | Will remove the i"
+        },
+        {
+          "chapter": "affc-jaime-02",
+          "line": 250,
+          "context": "| Cersei plans to make Aurane Waters master of ships | Cersei tells Jaime | Cersei, Jaime | No |\n| Roose Bolton has two thousand Freys under Hosteen and Aenys coming to augment his strength | Cersei t"
+        },
+        {
+          "chapter": "affc-jaime-02",
+          "line": 321,
+          "context": "### Characters\nJaime Lannister, Cersei Lannister, Ser Kevan Lannister, Lancel Lannister, Tommen Baratheon, Lord Tywin Lannister, Tyrion Lannister, Lady Taena Merryweather, Grand Maester Pycelle, Ser L"
+        },
+        {
+          "chapter": "affc-jaime-02",
+          "line": 351,
+          "context": "### Titles & Offices\nLord Commander of the Kingsguard (Jaime), King's Hand / Hand of the King (Kevan refuses; Cersei considers replacements; Owen Merryweather was one; Lord Chelsted was one), Warden o"
+        },
+        {
+          "chapter": "affc-jaime-07",
+          "line": 96,
+          "context": "| Joffrey | Referenced as Tommen's lost brother; also referenced near the crossroads wolf-mauling | Jaime (thought) |\n| Roose Bolton | Jaime thinks he may destroy Stannis | Jaime (thought) |\n| Stannis"
+        },
+        {
+          "chapter": "affc-jaime-07",
+          "line": 334,
+          "context": "### Characters\nJaime Lannister, Edmure Tully, Emmon Frey, Genna Lannister, Brynden Tully (the Blackfish), Jeyne Westerling, Lady Sybell Westerling, Lord Gawen Westerling, Ser Forley Prester, Edwyn Fre"
+        },
+        {
+          "chapter": "affc-jaime-03",
+          "line": 105,
+          "context": "| Stannis Baratheon | Antler Men conspired to give the throne to him | Jaime (narration) |\n| Roose Bolton | Held Harrenhal before; mentioned alongside Hoat and Clegane as scourges of the riverlands | "
+        },
+        {
+          "chapter": "affc-jaime-03",
+          "line": 354,
+          "context": "### Characters\nJaime Lannister, Cersei Lannister, Ser Ilyn Payne, Ser Addam Marbrand, Josmyn Peckledon (Peck), Little Lew Piper, Ser Kennos of Kayce, Strongboar (Ser Lyle Crakehall), Red Ronnet Connin"
+        },
+        {
+          "chapter": "affc-cersei-05",
+          "line": 76,
+          "context": "| Freys (unnamed) | Confirm seeing Davos's head at White Harbor | Pycelle |\n| Roose Bolton | Closing in on Moat Cailin from the south | Cersei (internal) |\n| Ramsay Bolton | \"His bastard son,\" closing"
+        },
+        {
+          "chapter": "affc-cersei-05",
+          "line": 262,
+          "context": "| Wyman Manderly has reportedly executed Davos Seaworth | Pycelle's report; head and hands mounted at White Harbor, Freys confirm | Cersei, Pycelle | No |\n| Roose Bolton and his bastard closing on Moa"
+        },
+        {
+          "chapter": "affc-cersei-05",
+          "line": 375,
+          "context": "### Characters\nCersei Lannister, Tommen Baratheon, Jaime Lannister, Margaery Tyrell, Loras Tyrell, Ser Osmund Kettleblack, Osney Kettleblack, Ser Meryn Trant, Grand Maester Pycelle, Lord Qyburn, Auran"
+        },
+        {
+          "chapter": "affc-brienne-01",
+          "line": 63,
+          "context": "| King Tommen (Tommen Baratheon) | Signed parchment in childish hand commanding subjects to assist Brienne | Brienne (possesses the document) |\n| Roose Bolton | His bastard was married to a false Arya"
+        },
+        {
+          "chapter": "affc-brienne-01",
+          "line": 64,
+          "context": "| Roose Bolton | His bastard was married to a false Arya | Brienne (recalled from Jaime) |\n| Roose Bolton's bastard (Ramsay) | Married to a false Arya sent north by the Lannisters | Brienne (recalled "
+        },
+        {
+          "chapter": "affc-brienne-01",
+          "line": 198,
+          "context": "| Ser Dontos was formerly of Duskendale | Ser Shadrich states this | Ser Shadrich, Brienne | No |\n| The \"Arya Stark\" sent north to marry Roose Bolton's bastard is a fraud | Brienne recalls Jaime claim"
+        },
+        {
+          "chapter": "affc-brienne-01",
+          "line": 289,
+          "context": "- King Tommen / Tommen Baratheon (referenced)\n- Roose Bolton (referenced)\n- Roose Bolton's bastard (referenced)"
+        },
+        {
+          "chapter": "affc-brienne-01",
+          "line": 290,
+          "context": "- Roose Bolton (referenced)\n- Roose Bolton's bastard (referenced)\n- Arya Stark (referenced)"
+        },
+        {
+          "chapter": "agot-tyrion-08",
+          "line": 72,
+          "context": "| Lord Hornwood | Dead in the battle | Ser Addam |\n| Roose Bolton | Escaped capture | Ser Addam |\n| Four Freys | Captured in the battle | Ser Addam |"
+        },
+        {
+          "chapter": "agot-tyrion-08",
+          "line": 151,
+          "context": "28. **Tywin confirms the plan** \u2014 He placed the least disciplined men on the left expecting them to break, hoping to lure Robb into the gap, then flank him with Kevan's pikes and the reserve.\n29. **Se"
+        },
+        {
+          "chapter": "agot-tyrion-08",
+          "line": 178,
+          "context": "| Robb Stark was not with this army; he crossed at the Twins with his cavalry heading for Riverrun | Ser Addam reports after battle | Ser Addam, Tywin, Tyrion | No |\n| Captured: Lord Cerwyn, Ser Wylis"
+        },
+        {
+          "chapter": "agot-tyrion-08",
+          "line": 243,
+          "context": "### Characters\nTyrion Lannister, Tywin Lannister, Kevan Lannister, Jaime Lannister (referenced), Bronn, Shae, Podrick Payne, Ser Ilyn Payne (referenced), Gregor Clegane (the Mountain), Ser Addam Marbr"
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 13,
+          "context": "- **time_markers:** \"Less than a fortnight past\" (battle at Golden Tooth); Robb is fifteen, will be sixteen \"soon enough\"; Edmure grew his first whiskers at sixteen; a year ago Robb was fighting with "
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 33,
+          "context": "| Grey Wind | Robb's direwolf | No | Lying near the fire; golden eyes; alerts room to Catelyn's presence |\n| Roose Bolton | Lord bannerman | No | Lord of the Dreadfort; small voice, pale eyes; advises"
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 49,
+          "context": "| Grey Wind | | Golden eyes | Bigger than a wolf ought to be; great grey beast | | | | | |\n| Roose Bolton | | Curiously pale eyes, almost without color | | | | | Disturbing look | |"
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 59,
+          "context": "| Cersei Lannister | Behind Sansa's letter; wise enough to know she needs hostages for peace | Catelyn |\n| Tyrion Lannister | Catelyn held him captive but no longer; freed with help from Lysa | Roose "
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 148,
+          "context": "9. **Catelyn explains Ser Rodrik's assignment** \u2014 She has named him castellan of Winterfell.\n10. **Roose Bolton asks about Tyrion** \u2014 Catelyn admits she no longer holds the Imp; blames Lysa for helpin"
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 158,
+          "context": "19. **Catelyn advises on command selection** \u2014 She steers Robb away from giving the Greatjon command of the diversionary force, pointing out that the role needs \"cold cunning, not courage.\"\n20. **Robb"
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 168,
+          "context": "| Arrival | Catelyn, Ser Brynden, Ser Wendel | Enter Gatehouse Tower hall | Robb's command post | Grey Wind notices Catelyn first |\n| Assembly | Robb, Roose Bolton, Greatjon, other lords | Seated arou"
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 191,
+          "context": "| Robb's battle plan: split host at the Neck, foot south on kingsroad, horse cross at the Twins | Robb tells Catelyn | Robb, Catelyn | No |\n| Robb will command the horse; Roose Bolton will command the"
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 201,
+          "context": "| Greatjon Umber | Catelyn | \"Winterfell is safe. We'll shove our swords up Tywin Lannister's bunghole soon enough, begging your pardons, and then it's on to the Red Keep to free Ned.\" | Boisterous co"
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 208,
+          "context": "| Robb | Catelyn | \"Then I will not lose.\" | Resolving his fear into determination |\n| Catelyn | Robb | \"Be certain, or go home and take up that wooden sword again. You cannot afford to seem indecisiv"
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 210,
+          "context": "| Catelyn | Robb | \"You want cold cunning, I should think, not courage.\" | Steering him toward Bolton over the Greatjon |\n| Robb | Catelyn | \"Roose Bolton. That man scares me.\" | Choosing his diversio"
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 237,
+          "context": "| Catelyn | Distrusts | Lord Frey | \"My father has never trusted him. Nor should you.\" |\n| Roose Bolton | Serves under | Robb | Advises at war council; selected to command diversionary force |\n| Catel"
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 238,
+          "context": "| Roose Bolton | Serves under | Robb | Advises at war council; selected to command diversionary force |\n| Catelyn | Unsettled by | Roose Bolton | Notes his pale eyes, small voice, disturbing look |\n| "
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 239,
+          "context": "| Catelyn | Unsettled by | Roose Bolton | Notes his pale eyes, small voice, disturbing look |\n| Robb | Fears (respects) | Roose Bolton | \"That man scares me\" |\n| Greatjon Umber | Loyal to | House Star"
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 263,
+          "context": "### Characters\nCatelyn Stark, Robb Stark, Grey Wind, Ser Brynden Tully (the Blackfish), Ser Wylis Manderly, Ser Wendel Manderly, Lord Wyman Manderly, Roose Bolton, Greatjon Umber, Ser Helman Tallhart,"
+        },
+        {
+          "chapter": "agot-catelyn-08",
+          "line": 293,
+          "context": "### Titles & Offices\nLord of the Dreadfort (Roose Bolton), castellan of Winterfell (Ser Rodrik, newly appointed), the Kingslayer (Jaime Lannister), the Blackfish (Ser Brynden Tully), liege lord (Robb "
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 76,
+          "context": "| Tywin Lannister | His army crossed the Trident, making for Harrenhal; lords debate whether to march against him | Multiple lords |\n| Roose Bolton | Re-formed remnants of the other host at the mouth "
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 195,
+          "context": "| Renly Baratheon has claimed Robert's crown | Robb tells Catelyn; discussed at council | All council attendees | No |\n| Roose Bolton has re-formed the remnants of their host at the mouth of the cause"
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 276,
+          "context": "### Characters\nCatelyn Stark, Robb Stark, Grey Wind, Theon Greyjoy, Brynden Tully (the Blackfish), Edmure Tully, Hoster Tully, Tytos Blackwood, Jon Umber (the Greatjon), Rickard Karstark, Maege Mormon"
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 56,
+          "context": "| Jon Arryn | Renly says Robert listened to Jon Arryn's counsel of mercy; Ned reflects on Jon Arryn's murder | Renly, Ned (internal) |\n| Roose Bolton | Urged cutting Barristan's throat after the Tride"
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 114,
+          "context": "2. **Ned opposes the assassination** \u2014 He argues it is dishonorable to murder a fourteen-year-old girl and her unborn child, invoking the memory of why they rebelled against Aerys.\n3. **Ned recounts B"
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 163,
+          "context": "| Littlefinger knows what brothel Jory has been searching for | Littlefinger states it | Ned, Littlefinger | No |\n| At the Trident, Roose Bolton urged cutting Ser Barristan's throat; Robert refused | "
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 205,
+          "context": "| Robert | Previously showed mercy to | Ser Barristan | Spared him after the Trident; sent his own maester to heal him |\n| Roose Bolton | Urged killing of | Ser Barristan | \"Roose Bolton urged us to c"
+        },
+        {
+          "chapter": "agot-eddard-08",
+          "line": 235,
+          "context": "### Characters\nEddard Stark (Ned), Robert Baratheon, Varys, Renly Baratheon, Ser Barristan Selmy, Grand Maester Pycelle, Petyr Baelish (Littlefinger), Ser Boros Blount, Vayon Poole, Tomard (Tom), Daen"
+        },
+        {
+          "chapter": "agot-bran-06",
+          "line": 41,
+          "context": "| Greatjon Umber | Bannerman | Yes (uncertain \u2014 verify) | Confronts Robb; becomes his staunchest champion after Grey Wind bites his fingers |\n| Roose Bolton | Bannerman | No | Demands battle command; "
+        },
+        {
+          "chapter": "agot-bran-06",
+          "line": 117,
+          "context": "| King's Landing / Red Keep | Where Father's guardsmen's heads rot on spikes; where Sansa writes from | No |\n| The Dreadfort | Roose Bolton's seat; room where Boltons hang skins of enemies | No |\n| Dr"
+        },
+        {
+          "chapter": "agot-bran-06",
+          "line": 168,
+          "context": "8. **Greatjon Umber confrontation** \u2014 The Greatjon threatens to take his forces home over march order; he flings ale, knocks down Hallis Mollen, overturns a table, and draws his greatsword. Grey Wind "
+        },
+        {
+          "chapter": "agot-bran-06",
+          "line": 208,
+          "context": "| Giants still live beyond the Wall | Osha tells Bran (Luwin dismisses it) | Bran, Osha | No |\n| Robb was terrified during the Greatjon confrontation and is unsettled by Roose Bolton | Robb confesses "
+        },
+        {
+          "chapter": "agot-bran-06",
+          "line": 261,
+          "context": "| Greatjon Umber | initially hostile, then fiercely loyal to | Robb | Threatens to leave; draws sword; after Grey Wind bites his fingers, becomes Robb's staunchest champion |\n| Roose Bolton | unsettli"
+        },
+        {
+          "chapter": "agot-bran-06",
+          "line": 292,
+          "context": "### Characters\nBran Stark, Robb Stark, Rickon Stark, Eddard Stark (Father), Catelyn Stark (Mother), Sansa Stark, Arya Stark, Brandon Stark (Ned's brother), Lord Rickard Stark (grandfather), Hodor, Mae"
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 13,
+          "context": "- **time_markers:** Camp made at night on the southern edge of the bogs; next morning Ser Brynden rides back; near midday the vanguard comes in sight of the Twins; Catelyn required to return by evenfa"
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 36,
+          "context": "| Lord Rickard Karstark | Lord bannerman | No | Glowers in silence at the Twins |\n| Roose Bolton | Lord bannerman, given command of foot | No | Declares the castle cannot be assaulted; commands the ea"
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 147,
+          "context": "13. **Robb accepts the terms** \u2014 Robb consents to the marriage pact, particularly the betrothal to a Frey daughter.\n14. **Army splits and crosses** \u2014 Cavalry (nine-tenths of the horse) crosses west un"
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 161,
+          "context": "| Advance | Cavalry (Robb's force) | Crosses through the eastern twin, over the bridge, out the western twin | East bank to west bank of the Green Fork | Takes hours; like a great steel snake |\n| Open"
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 190,
+          "context": "| Catelyn | Robb | \"Find a way across. Whatever it took.\" | Invoking Ned's pragmatism |\n| Roose Bolton | Northern lords | \"That cannot be assaulted, my lords.\" | Military assessment of the Twins |\n| C"
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 226,
+          "context": "| Ser Stevron Frey | heir to, waits on | Walder Frey | Has waited forty years; rebuked by his father for speaking out of turn |\n| Roose Bolton | commands eastern foot force for | Robb | Given command "
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 230,
+          "context": "| Arya Stark | betrothed to | Elmar Frey | Terms of the crossing agreement |\n| Northern lords | distrust | Walder Frey | Galbart Glover, Roose Bolton, the Greatjon all warn against entering the Twins "
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 237,
+          "context": "| Will Lord Walder Frey keep faith with the terms? | Catelyn | She advises Robb to leave 400 men and a trusted commander to help Lord Walder \"keep faith\" |\n| What will happen when Roose Bolton's force"
+        },
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 244,
+          "context": "### Characters\nCatelyn Stark, Robb Stark, Grey Wind, Ser Brynden Tully (the Blackfish), Theon Greyjoy, Robett Glover, Galbart Glover, Greatjon Umber, Rickard Karstark, Roose Bolton, Helman Tallhart, S"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 68,
+          "context": "| Eddard Stark | Executed; his head placed on the Red Keep; his death has made peace impossible | Tyrion, Lefford |\n| Roose Bolton | North of Tywin's position with remnants of his host; described as w"
+        },
+        {
+          "chapter": "agot-tyrion-09",
+          "line": 249,
+          "context": "### Characters\nTyrion Lannister, Tywin Lannister, Ser Kevan Lannister, Jaime Lannister, Crakehall messenger (unnamed), Ser Harys Swyft, Ser Gregor Clegane (the Mountain), Ser Addam Marbrand, Ser Fleme"
+        }
+      ]
+    },
+    {
+      "page": "Skinner",
+      "raw_html_path": "sources/wiki/_raw/Skinner.json",
+      "track_b_row": {
+        "page": "Skinner",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 12,
+          "source": "cite_ref",
+          "pov": "Daenerys II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiances",
+            "target": "House Bolton",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Bastard's Boys",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Northmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "North",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            12,
+            20,
+            32,
+            37,
+            46,
+            51
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Skinner",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 0 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the North",
+          "Characters without images",
+          "House Bolton retainers",
+          "Men-at-arms",
+          "Smallfolk",
+          "Spies"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 6
+        },
+        "has_infobox": true,
+        "byte_size": 13093
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Sour Alyn",
+      "raw_html_path": "sources/wiki/_raw/Sour_Alyn.json",
+      "track_b_row": {
+        "page": "Sour Alyn",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 12,
+          "source": "cite_ref",
+          "pov": "Daenerys II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiances",
+            "target": "House Bolton",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Bastard's Boys",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Northmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "North",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Sour Alyn"
+        ],
+        "cite_refs": {
+          "adwd": [
+            12,
+            32,
+            41,
+            46,
+            51
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Sour Alyn",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 0 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the North",
+          "House Bolton retainers",
+          "Men-at-arms",
+          "Pages using deprecated image syntax",
+          "Smallfolk",
+          "Spies"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 5
+        },
+        "has_infobox": true,
+        "byte_size": 13107
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Steelshanks Walton",
+      "raw_html_path": "sources/wiki/_raw/Steelshanks_Walton.json",
+      "track_b_row": {
+        "page": "Steelshanks Walton",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 3,
+          "source": "cite_ref",
+          "pov": "Catelyn I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Captain of the guards",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Dreadfort",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Bolton",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Northmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "North",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Steelshanks Walton",
+          "Steelshanks"
+        ],
+        "cite_refs": {
+          "acok": [
+            64
+          ],
+          "asos": [
+            3,
+            37,
+            44,
+            62,
+            72
+          ],
+          "adwd": [
+            32,
+            46,
+            51
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Steelshanks Walton",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Captains of the guards",
+          "Character pages in alphabetical order",
+          "Character pages with 0 coats of arms",
+          "Character pages with custom nametemplate",
+          "Character pages with new syntax name",
+          "Characters from the North",
+          "House Bolton guards",
+          "Pages using deprecated image syntax",
+          "Smallfolk"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 5,
+          "affc": 0,
+          "adwd": 3
+        },
+        "has_infobox": true,
+        "byte_size": 26838
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Tybald",
+      "raw_html_path": "sources/wiki/_raw/Tybald.json",
+      "track_b_row": {
+        "page": "Tybald",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Maester",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Dreadfort",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Citadel",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Bolton",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Tybald",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from Westeros",
+          "Characters with red hair",
+          "Characters without images",
+          "House Bolton retainers",
+          "Maesters"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 8518
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Uthor",
+      "raw_html_path": "sources/wiki/_raw/Uthor.json",
+      "track_b_row": {
+        "page": "Uthor",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 32,
+          "source": "cite_ref",
+          "pov": "Melisandre"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Maester",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Dreadfort",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Citadel",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Bolton",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            32
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Uthor",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from Westeros",
+          "Characters without images",
+          "House Bolton retainers",
+          "Maesters"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 7401
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Yellow Dick",
+      "raw_html_path": "sources/wiki/_raw/Yellow_Dick.json",
+      "track_b_row": {
+        "page": "Yellow Dick",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 12,
+          "source": "cite_ref",
+          "pov": "Daenerys II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Bolton",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Northmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "North",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Winterfell",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "300 AC"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            12,
+            20,
+            37,
+            41,
+            46,
+            51
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Yellow Dick",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Casualties of the War of the Five Kings",
+          "Character pages in alphabetical order",
+          "Character pages with 0 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the North",
+          "Eunuchs",
+          "House Bolton retainers",
+          "Men-at-arms",
+          "Smallfolk",
+          "Spies"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 6
+        },
+        "has_infobox": true,
+        "byte_size": 15486
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

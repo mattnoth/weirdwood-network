@@ -1,0 +1,8 @@
+{
+  "bucket_id": "characters-house-brax",
+  "passed": true,
+  "checked_at": "2026-05-02T01:05:26Z",
+  "node_count_expected": 9,
+  "node_count_actual": 9,
+  "failures": []
+}

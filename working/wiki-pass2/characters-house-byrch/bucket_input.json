@@ -1,0 +1,262 @@
+{
+  "bucket_id": "characters-house-byrch",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Balman Byrch",
+      "raw_html_path": "sources/wiki/_raw/Balman_Byrch.json",
+      "track_b_row": {
+        "page": "Balman Byrch",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 7,
+          "source": "cite_ref",
+          "pov": "Arya I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Byrch",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Stokeworth",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Crownlands",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Stokeworth",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "300 AC"
+          },
+          {
+            "field": "Spouse",
+            "target": "Falyse Stokeworth",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            7,
+            24,
+            32
+          ],
+          "asos": [
+            66
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Balman Byrch",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "300 AC deaths",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Crownlands",
+          "Characters killed by Bronn",
+          "Characters with blond hair",
+          "Followers and collaborators of Cersei Lannister",
+          "House Byrch",
+          "House Stokeworth",
+          "Knights",
+          "Nobles",
+          "Pages using deprecated image syntax"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 3,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 20300
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "affc-cersei-07",
+          "line": 75,
+          "context": "| Bronn | Killed Ser Balman in a duel; drove lance through Balman's horse; put dagger in Balman's eye; claimed Stokeworth; took Falyse's clothes; threatened to pass Falyse around the garrison | Falyse"
+        },
+        {
+          "chapter": "affc-cersei-07",
+          "line": 310,
+          "context": "### Characters\nCersei Lannister, Margaery Tyrell, Loras Tyrell, Ser Harys Swyft, Orton Merryweather, Aurane Waters, Qyburn, Grand Maester Pycelle, Boros Blount, Meryn Trant, Osmund Kettleblack, Taena "
+        },
+        {
+          "chapter": "affc-cersei-02",
+          "line": 48,
+          "context": "| Lady Falyse Stokeworth | Lady Tanda's daughter | No | Asks to name Lollys's child Tywin; Cersei rejects harshly |\n| Ser Balman Byrch | Falyse's husband | No | Smooths over Cersei's rejection |\n| Lad"
+        },
+        {
+          "chapter": "affc-cersei-02",
+          "line": 72,
+          "context": "| Taena Merryweather | Thick black hair, always looks just come from bed | Huge dark eyes | Long-legged, full-breasted | | | | Smooth olive skin; ripe lips; Myrish; sultry tones; \"smells of sin, like "
+        },
+        {
+          "chapter": "affc-cersei-02",
+          "line": 190,
+          "context": "11. **Hall of Lamps: mourners offer condolences** \u2014 Redwyne twins kiss Cersei's hand, their father kisses her cheeks; Hallyne promises a flaming hand in the sky; Lord Gyles announces a statue at the L"
+        },
+        {
+          "chapter": "affc-cersei-02",
+          "line": 322,
+          "context": "| Falyse | Daughter of | Lady Tanda | Delivers Tanda's request and regrets |\n| Falyse | Wife of | Ser Balman Byrch | Appear together; he smooths over the awkwardness |\n| Tywin (memory) | Intimidated |"
+        },
+        {
+          "chapter": "affc-cersei-02",
+          "line": 346,
+          "context": "### Characters\nCersei Lannister, Tommen Baratheon, Jaime Lannister, Lord Tywin Lannister (corpse), Ser Kevan Lannister, Lancel Lannister, Joffrey Baratheon (deceased, recalled), Robert Baratheon (dece"
+        },
+        {
+          "chapter": "affc-cersei-05",
+          "line": 13,
+          "context": "- **time_markers:** \"the rest of the morning\" with Lord Gyles; \"midday meal\" with merchants; \"that afternoon\" the Braavosi envoy arrives; Cersei had put off Noho Dimittis \"for a fortnight\"; \"outside, "
+        },
+        {
+          "chapter": "affc-cersei-05",
+          "line": 48,
+          "context": "| Lady Falyse Stokeworth | Supporting | No | Cersei's supper guest; manipulated into Bronn plot |\n| Ser Balman Byrch | Supporting | No | Falyse's husband; agrees to arrange Bronn's death |"
+        },
+        {
+          "chapter": "affc-cersei-05",
+          "line": 57,
+          "context": "| Loras Tyrell | Brown locks, a brown curl falling across forehead | | | | White cloak with jade and gold rose clasp at shoulder | | Wind riffles artfully through his hair | |\n| Ser Balman Byrch | Wav"
+        },
+        {
+          "chapter": "affc-cersei-05",
+          "line": 337,
+          "context": "| Cersei | Manipulates | Falyse Stokeworth | Flattery, feigned sisterhood, tears, to arrange Bronn's murder |\n| Cersei | Manipulates | Balman Byrch | Flattery about his jousting, kisses, to arrange Br"
+        },
+        {
+          "chapter": "affc-cersei-05",
+          "line": 375,
+          "context": "### Characters\nCersei Lannister, Tommen Baratheon, Jaime Lannister, Margaery Tyrell, Loras Tyrell, Ser Osmund Kettleblack, Osney Kettleblack, Ser Meryn Trant, Grand Maester Pycelle, Lord Qyburn, Auran"
+        }
+      ]
+    },
+    {
+      "page": "Balon Byrch",
+      "raw_html_path": "sources/wiki/_raw/Balon_Byrch.json",
+      "track_b_row": {
+        "page": "Balon Byrch",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Old Gate",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Commander of the City Watch",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Byrch",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "City Watch of King's Landing",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Blacks",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Duskendale",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "130 AC"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Balon Byrch",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "130 AC deaths",
+          "Blacks",
+          "Casualties of the Dance of the Dragons",
+          "Character pages in alphabetical order",
+          "Character pages with 2 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the Crownlands",
+          "Characters without images",
+          "Commanders of the City Watch (King's Landing)",
+          "Gate captains",
+          "House Byrch",
+          "Members of the City Watch (King's Landing)",
+          "Nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 14234
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

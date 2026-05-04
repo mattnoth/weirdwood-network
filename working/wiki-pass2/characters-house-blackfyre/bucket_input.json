@@ -1,0 +1,1171 @@
+{
+  "bucket_id": "characters-house-blackfyre",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Aegon Blackfyre",
+      "raw_html_path": "sources/wiki/_raw/Aegon_Blackfyre.json",
+      "track_b_row": {
+        "page": "Aegon Blackfyre",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Blackfyre",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Westeros",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "184 AC"
+          },
+          {
+            "field": "Died",
+            "target": "Redgrass Field",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "196 AC"
+          },
+          {
+            "field": "Father",
+            "target": "Daemon I Blackfyre",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Rohanne of Tyrosh",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Aegon Blackfyre",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "184 AC births",
+          "196 AC deaths",
+          "Casualties of the First Blackfyre Rebellion",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Crownlands",
+          "Characters killed by Brynden Rivers",
+          "Deaths by shooting",
+          "House Blackfyre",
+          "Nobles",
+          "Rebels of the First Blackfyre Rebellion",
+          "Squires",
+          "Twins"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 57470
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Aemon Blackfyre",
+      "raw_html_path": "sources/wiki/_raw/Aemon_Blackfyre.json",
+      "track_b_row": {
+        "page": "Aemon Blackfyre",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Blackfyre",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Westeros",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "184 AC"
+          },
+          {
+            "field": "Died",
+            "target": "Redgrass Field",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "196 AC"
+          },
+          {
+            "field": "Father",
+            "target": "Daemon I Blackfyre",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Rohanne of Tyrosh",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Aemon Blackfyre",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "184 AC births",
+          "196 AC deaths",
+          "Casualties of the First Blackfyre Rebellion",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Crownlands",
+          "Characters killed by Brynden Rivers",
+          "Deaths by shooting",
+          "House Blackfyre",
+          "Nobles",
+          "Pages with the race parameter",
+          "Rebels of the First Blackfyre Rebellion",
+          "Squires",
+          "Twins",
+          "Wielders of Blackfyre"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 57520
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Aenys Blackfyre",
+      "raw_html_path": "sources/wiki/_raw/Aenys_Blackfyre.json",
+      "track_b_row": {
+        "page": "Aenys Blackfyre",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Blackfyre",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "King's Landing",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "233 AC"
+          },
+          {
+            "field": "Father",
+            "target": "Daemon I Blackfyre",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Rohanne of Tyrosh",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Aenys Blackfyre",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "190s AC births",
+          "233 AC deaths",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Crownlands",
+          "Characters killed by Brynden Rivers",
+          "Claimants at the Great Council of 233 AC",
+          "Executions",
+          "Exiles",
+          "House Blackfyre",
+          "Nobles",
+          "Pages using deprecated image syntax",
+          "Pages with the race parameter"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 48165
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Calla Blackfyre",
+      "raw_html_path": "sources/wiki/_raw/Calla_Blackfyre.json",
+      "track_b_row": {
+        "page": "Calla Blackfyre",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Blackfyre",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Daemon I Blackfyre",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Rohanne of Tyrosh",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Aegor Rivers",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric",
+            "qualifier": "promised"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Calla Blackfyre",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 2 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the Crownlands",
+          "Exiles",
+          "House Blackfyre",
+          "Noblewomen",
+          "Pages using deprecated image syntax",
+          "Pages with the race parameter"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 45206
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Daemon Blackfyre (cousin of Maelys I)",
+      "raw_html_path": "sources/wiki/_raw/Daemon_Blackfyre_(cousin_of_Maelys_I).json",
+      "track_b_row": {
+        "page": "Daemon Blackfyre (cousin of Maelys I)",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Captain-general",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Blackfyre",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Golden Company",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Free Cities",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Daemon Blackfyre (cousin of Maelys I)",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "3rd century AC births",
+          "3rd century AC deaths",
+          "Captain-generals of the Golden Company",
+          "Character pages in alphabetical order",
+          "Character pages with 2 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the Free Cities",
+          "Characters killed by Maelys Blackfyre",
+          "Exiles",
+          "House Blackfyre",
+          "Mercenaries",
+          "Nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 45538
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Daemon I Blackfyre",
+      "raw_html_path": "sources/wiki/_raw/Daemon_I_Blackfyre.json",
+      "track_b_row": {
+        "page": "Daemon I Blackfyre",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 5,
+          "source": "cite_ref",
+          "pov": "Bran I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Prince",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "King of the Andals, the Rhoynar, and the First Men",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "claimant"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of the Seven Kingdoms",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "claimant"
+          },
+          {
+            "field": "Titles",
+            "target": "Protector of the Realm",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "claimant"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Blackfyre",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "King's Landing",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "170 AC"
+          },
+          {
+            "field": "Died",
+            "target": "Redgrass Field",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "196 AC"
+          },
+          {
+            "field": "Father",
+            "target": "Aegon IV Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Daena Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Rohanne of Tyrosh",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Aegon Blackfyre",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Aemon Blackfyre",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Daemon II Blackfyre",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Haegon I Blackfyre",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Aenys Blackfyre",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Calla Blackfyre",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Daemon Waters",
+          "The Black Dragon",
+          "The King Who Bore the Sword",
+          "Daemon the Pretender"
+        ],
+        "cite_refs": {
+          "adwd": [
+            5,
+            67
+          ],
+          "asos": [
+            36
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Daemon I Blackfyre",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "170 AC births",
+          "196 AC deaths",
+          "Bastards",
+          "Casualties of the First Blackfyre Rebellion",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Crownlands",
+          "Characters killed by Brynden Rivers",
+          "Characters with purple eyes",
+          "Characters with silver hair",
+          "Claimants to the Iron Throne",
+          "Deaths by shooting",
+          "Great Bastards",
+          "House Blackfyre",
+          "House Targaryen",
+          "House founders",
+          "Knights",
+          "Landed knights",
+          "Legitimized bastards",
+          "Members of Aegon IV Targaryen's court",
+          "Members of Baelor I Targaryen's court",
+          "Members of Viserys II Targaryen's court",
+          "Nobles",
+          "Pages using invalid self-closed HTML tags",
+          "Pages with the coat-of-arms parameter",
+          "Pages with the race parameter",
+          "Rebels of the First Blackfyre Rebellion",
+          "Wielders of Blackfyre"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 123119
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Daemon II Blackfyre",
+      "raw_html_path": "sources/wiki/_raw/Daemon_II_Blackfyre.json",
+      "track_b_row": {
+        "page": "Daemon II Blackfyre",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Prince",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "King of the Andals and the Rhoynar and the First Men",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "claimant"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of the Seven Kingdoms",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "claimant"
+          },
+          {
+            "field": "Titles",
+            "target": "Protector of the Realm",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "claimant"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Blackfyre",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Predecessor",
+            "target": "Daemon I Blackfyre",
+            "edge_type": "SUCCEEDS",
+            "direction": "reverse",
+            "qualifier": "Blackfyre Pretender"
+          },
+          {
+            "field": "Successor",
+            "target": "Haegon I Blackfyre",
+            "edge_type": "SUCCEEDS",
+            "direction": "forward",
+            "qualifier": "Blackfyre Pretender"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Westeros",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "189 AC"
+          },
+          {
+            "field": "Father",
+            "target": "Daemon I Blackfyre",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Rohanne of Tyrosh",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Lover",
+            "target": "Alyn Cockshaw",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [
+          "Daemon the Younger",
+          "Young Daemon",
+          "Ser John the Fiddler",
+          "The Brown Dragon"
+        ],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Daemon II Blackfyre",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "189 AC births",
+          "210s AC deaths",
+          "Character pages in alphabetical order",
+          "Character pages with 2 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the Crownlands",
+          "Characters with dyed hair",
+          "Characters with purple eyes",
+          "Characters with silver hair",
+          "Claimants to the Iron Throne",
+          "Conspirators of the Second Blackfyre Rebellion",
+          "Dreamers",
+          "Exiles",
+          "Hedge knights",
+          "House Blackfyre",
+          "Knights",
+          "LGBT+ characters",
+          "Musicians",
+          "Nobles",
+          "Pages using invalid self-closed HTML tags",
+          "Pages with the coat-of-arms parameter"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 104488
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Daemon III Blackfyre",
+      "raw_html_path": "sources/wiki/_raw/Daemon_III_Blackfyre.json",
+      "track_b_row": {
+        "page": "Daemon III Blackfyre",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "King of the Andals, the Rhoynar, and the First Men",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "claimant"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Blackfyre",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Free Cities",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Wendwater",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "236 AC"
+          },
+          {
+            "field": "Father",
+            "target": "Haegon I Blackfyre",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Daemon III Blackfyre",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "236 AC deaths",
+          "3rd century AC births",
+          "Casualties of the Fourth Blackfyre Rebellion",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Free Cities",
+          "Characters killed by Duncan the Tall",
+          "Claimants to the Iron Throne",
+          "Exiles",
+          "House Blackfyre",
+          "Nobles",
+          "Pages using deprecated image syntax",
+          "Pages using hatnote template directly",
+          "Pages using invalid self-closed HTML tags",
+          "Pages with the race parameter"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 64783
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Haegon I Blackfyre",
+      "raw_html_path": "sources/wiki/_raw/Haegon_I_Blackfyre.json",
+      "track_b_row": {
+        "page": "Haegon I Blackfyre",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Blackfyre",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Crownlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Daemon I Blackfyre",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Rohanne of Tyrosh",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Unknown",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Daemon III Blackfyre",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Haegon I Blackfyre",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "190s AC births",
+          "219 AC deaths",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Crownlands",
+          "Claimants to the Iron Throne",
+          "Exiles",
+          "House Blackfyre",
+          "Nobles",
+          "Pages using invalid self-closed HTML tags"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 61421
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Maelys I Blackfyre",
+      "raw_html_path": "sources/wiki/_raw/Maelys_I_Blackfyre.json",
+      "track_b_row": {
+        "page": "Maelys I Blackfyre",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 5,
+          "source": "cite_ref",
+          "pov": "Bran I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Captain-general",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "King of the Andals, the Rhoynar, and the First Men",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "claimant"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of the Seven Kingdoms",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "claimant"
+          },
+          {
+            "field": "Titles",
+            "target": "Protector of the Realm",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "claimant"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Blackfyre",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Golden Company",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Band of Nine",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Stepstones",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "260 AC"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Free Cities",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Maelys the Monstrous"
+        ],
+        "cite_refs": {
+          "asos": [
+            67
+          ],
+          "adwd": [
+            5,
+            8,
+            14,
+            24,
+            55
+          ],
+          "affc": [
+            33
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Maelys I Blackfyre",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "260 AC deaths",
+          "3rd century AC births",
+          "Band of Nine",
+          "Captain-generals of the Golden Company",
+          "Casualties of the War of the Ninepenny Kings",
+          "Character pages in alphabetical order",
+          "Character pages with 2 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the Free Cities",
+          "Characters killed by Barristan Selmy",
+          "Claimants to the Iron Throne",
+          "Exiles",
+          "House Blackfyre",
+          "Kinslayers",
+          "Mercenaries",
+          "Nobles",
+          "Pages using invalid self-closed HTML tags",
+          "Pages with the race parameter",
+          "Twins",
+          "Two-headed characters"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 1,
+          "adwd": 5
+        },
+        "has_infobox": true,
+        "byte_size": 88705
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Quickfinger",
+      "raw_html_path": "sources/wiki/_raw/Quickfinger.json",
+      "track_b_row": {
+        "page": "Quickfinger",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Blackfyre",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Quickfinger",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 0 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from Westeros",
+          "Characters without images",
+          "Rebels of the First Blackfyre Rebellion",
+          "Thieves",
+          "Unnamed characters"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 4038
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Rohanne of Tyrosh",
+      "raw_html_path": "sources/wiki/_raw/Rohanne_of_Tyrosh.json",
+      "track_b_row": {
+        "page": "Rohanne of Tyrosh",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Blackfyre",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Tyroshi",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "~141\u2013172 AC",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "141"
+          },
+          {
+            "field": "Spouse",
+            "target": "Daemon I Blackfyre",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Aegon Blackfyre",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Aemon Blackfyre",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Daemon II Blackfyre",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Haegon I Blackfyre",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Aenys Blackfyre",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Calla Blackfyre",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Rohanne of Tyrosh",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 2 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from Tyrosh",
+          "House Blackfyre",
+          "Noblewomen"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 50625
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

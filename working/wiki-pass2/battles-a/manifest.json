@@ -70,10 +70,10 @@
     "assault-on-harrenhal.node.md",
     "attack-on-castle-black.node.md"
   ],
-  "status": "pending",
-  "started_at": null,
+  "status": "validation-failed",
+  "started_at": "2026-05-02T01:01:39Z",
   "completed_at": null,
-  "validation_report": null,
+  "validation_report": "working/wiki-pass2/battles-a/validator-report.json",
   "priority": {
     "version": "v1",
     "computed_at": "2026-04-28T01:11:55Z",

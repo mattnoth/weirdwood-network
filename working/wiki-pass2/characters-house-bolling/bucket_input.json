@@ -1,0 +1,166 @@
+{
+  "bucket_id": "characters-house-bolling",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Herbert Bolling",
+      "raw_html_path": "sources/wiki/_raw/Herbert_Bolling.json",
+      "track_b_row": {
+        "page": "Herbert Bolling",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 4,
+          "source": "cite_ref",
+          "pov": "Cersei I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Bolling",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Stormlands",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Mouth of the Blackwater Rush",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "299 AC"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            4
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Herbert Bolling",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Casualties of the War of the Five Kings",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Stormlands",
+          "Characters without images",
+          "House Bolling",
+          "Knights",
+          "Nobles",
+          "Supporters of Stannis Baratheon in the War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 6214
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "affc-brienne-01",
+          "line": 69,
+          "context": "| Brella | One of Sansa's maids in King's Landing; told Brienne about Ser Dontos and Sansa | Brienne (recalled) |\n| Ser Herbert Bolling | Killed by Ser Creighton at the Blackwater (claimed) | Ser Crei"
+        },
+        {
+          "chapter": "affc-brienne-01",
+          "line": 295,
+          "context": "- Brella (referenced)\n- Ser Herbert Bolling (referenced)\n- Lord Lucas Lothston / the Pander (referenced)"
+        }
+      ]
+    },
+    {
+      "page": "Theo Bolling",
+      "raw_html_path": "sources/wiki/_raw/Theo_Bolling.json",
+      "track_b_row": {
+        "page": "Theo Bolling",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Bolling",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Stormlander",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouse",
+            "target": "Elinor Costayne",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Three sons",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Theo Bolling",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "47 AC deaths",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Stormlands",
+          "Characters without images",
+          "Deaths by beheading",
+          "Executions",
+          "House Bolling",
+          "Knights",
+          "Landed knights",
+          "Nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 21256
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

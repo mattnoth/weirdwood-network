@@ -1,0 +1,8 @@
+{
+  "bucket_id": "characters-house-cerwyn",
+  "passed": true,
+  "checked_at": "2026-05-02T01:14:07Z",
+  "node_count_expected": 5,
+  "node_count_actual": 5,
+  "failures": []
+}

@@ -1,0 +1,8 @@
+{
+  "bucket_id": "characters-house-blackbar",
+  "passed": true,
+  "checked_at": "2026-05-02T00:46:04Z",
+  "node_count_expected": 2,
+  "node_count_actual": 2,
+  "failures": []
+}

@@ -1,0 +1,2107 @@
+{
+  "bucket_id": "characters-house-bracken",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Aegor Rivers",
+      "raw_html_path": "sources/wiki/_raw/Aegor_Rivers.json",
+      "track_b_row": {
+        "page": "Aegor Rivers",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 5,
+          "source": "cite_ref",
+          "pov": "Bran I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Captain-general",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Bracken",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Blackfyre",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Second Sons",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Golden Company",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Race",
+            "target": "Valyrian",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "King's Landing",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "172 AC"
+          },
+          {
+            "field": "Died",
+            "target": "Disputed Lands",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "241 AC"
+          },
+          {
+            "field": "Father",
+            "target": "Aegon IV Targaryen",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Barba Bracken",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Spouse",
+            "target": "Calla Blackfyre",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric",
+            "qualifier": "promised"
+          }
+        ],
+        "aliases": [
+          "Bittersteel"
+        ],
+        "cite_refs": {
+          "adwd": [
+            5,
+            24,
+            61,
+            66,
+            67
+          ],
+          "affc": [
+            13,
+            21
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Aegor Rivers",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "172 AC births",
+          "241 AC deaths",
+          "Bastards",
+          "Captain-generals of the Golden Company",
+          "Character pages in alphabetical order",
+          "Character pages with 3 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "Characters with black hair",
+          "Characters with purple eyes",
+          "Exiles",
+          "Great Bastards",
+          "House Bracken",
+          "House Targaryen",
+          "Knights",
+          "Legitimized bastards",
+          "Members of Aegon IV Targaryen's court",
+          "Mercenaries",
+          "Nobles",
+          "Pages with the coat-of-arms parameter",
+          "Pages with the race parameter",
+          "Rebels of the First Blackfyre Rebellion",
+          "Second Sons",
+          "Veterans of the First Blackfyre Rebellion",
+          "Veterans of the Fourth Blackfyre Rebellion",
+          "Veterans of the Third Blackfyre Rebellion",
+          "Wielders of Blackfyre"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 2,
+          "adwd": 5
+        },
+        "has_infobox": true,
+        "byte_size": 108673
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Alysanne Bracken",
+      "raw_html_path": "sources/wiki/_raw/Alysanne_Bracken.json",
+      "track_b_row": {
+        "page": "Alysanne Bracken",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 48,
+          "source": "cite_ref",
+          "pov": "Tyrion X"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Bracken",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Jonos Bracken",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Bracken",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            48
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Alysanne Bracken",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "Characters without images",
+          "House Bracken",
+          "Noblewomen"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 32937
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Barba Bracken",
+      "raw_html_path": "sources/wiki/_raw/Barba_Bracken.json",
+      "track_b_row": {
+        "page": "Barba Bracken",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 48,
+          "source": "cite_ref",
+          "pov": "Tyrion X"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lady",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Bracken",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Bracken",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Lover",
+            "target": "Aegon IV Targaryen",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Aegor Rivers",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            48
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Barba Bracken",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "155 AC births",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "Characters with dark hair",
+          "Handmaids",
+          "House Bracken",
+          "Members of Aegon IV Targaryen's court",
+          "Members of Baelor I Targaryen's court",
+          "Members of Viserys II Targaryen's court",
+          "Mistresses of Aegon IV Targaryen",
+          "Noblewomen"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 34351
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Barbara Bracken",
+      "raw_html_path": "sources/wiki/_raw/Barbara_Bracken.json",
+      "track_b_row": {
+        "page": "Barbara Bracken",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 48,
+          "source": "cite_ref",
+          "pov": "Tyrion X"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Bracken",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Jonos Bracken",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Jonos's first wife",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            48
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Barbara Bracken",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "House Bracken",
+          "Noblewomen",
+          "Pages using deprecated image syntax"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 33385
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Bess Bracken",
+      "raw_html_path": "sources/wiki/_raw/Bess_Bracken.json",
+      "track_b_row": {
+        "page": "Bess Bracken",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 48,
+          "source": "cite_ref",
+          "pov": "Tyrion X"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Bracken",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Jonos Bracken",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Bracken",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            48
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Bess Bracken",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "Characters without images",
+          "House Bracken",
+          "Noblewomen"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 32919
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Bethany Bracken",
+      "raw_html_path": "sources/wiki/_raw/Bethany_Bracken.json",
+      "track_b_row": {
+        "page": "Bethany Bracken",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 13,
+          "source": "cite_ref",
+          "pov": "Cersei III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Bracken",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "156 AC or later",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "156 AC"
+          },
+          {
+            "field": "Father",
+            "target": "Bracken",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Lover",
+            "target": "Aegon IV Targaryen",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            24
+          ],
+          "asos": [
+            16
+          ],
+          "affc": [
+            13,
+            16,
+            17
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Bethany Bracken",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "178 AC deaths",
+          "2nd century AC births",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "Executions",
+          "House Bracken",
+          "Members of Aegon IV Targaryen's court",
+          "Mistresses of Aegon IV Targaryen",
+          "Noblewomen"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 3,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 29416
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Catelyn Bracken",
+      "raw_html_path": "sources/wiki/_raw/Catelyn_Bracken.json",
+      "track_b_row": {
+        "page": "Catelyn Bracken",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 48,
+          "source": "cite_ref",
+          "pov": "Tyrion X"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Bracken",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Jonos Bracken",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Bracken",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            48
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Catelyn Bracken",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "Characters without images",
+          "House Bracken",
+          "Noblewomen"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 32932
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Harry Rivers",
+      "raw_html_path": "sources/wiki/_raw/Harry_Rivers.json",
+      "track_b_row": {
+        "page": "Harry Rivers",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 34,
+          "source": "cite_ref",
+          "pov": "Samwell II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Bracken",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Riverlands",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "299 AC"
+          },
+          {
+            "field": "Father",
+            "target": "Jonos Bracken",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            34
+          ],
+          "adwd": [
+            48
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Harry Rivers",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Bastards",
+          "Casualties of the War of the Five Kings",
+          "Character pages in alphabetical order",
+          "Character pages with 0 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "Characters with blond hair",
+          "House Bracken",
+          "Pages using deprecated image syntax",
+          "Supporters of Robb Stark in the War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 34655
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Hendry Bracken",
+      "raw_html_path": "sources/wiki/_raw/Hendry_Bracken.json",
+      "track_b_row": {
+        "page": "Hendry Bracken",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 7,
+          "source": "cite_ref",
+          "pov": "Jon I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Bracken",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Stone Hedge",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "299 AC"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            7
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Hendry Bracken",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Casualties of the War of the Five Kings",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "Characters without images",
+          "House Bracken",
+          "Nobles",
+          "Supporters of Robb Stark in the War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 32085
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Jayne Bracken",
+      "raw_html_path": "sources/wiki/_raw/Jayne_Bracken.json",
+      "track_b_row": {
+        "page": "Jayne Bracken",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 48,
+          "source": "cite_ref",
+          "pov": "Tyrion X"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Bracken",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Jonos Bracken",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          },
+          {
+            "field": "Mother",
+            "target": "Jonos's first wife",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            48
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Jayne Bracken",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "Characters without images",
+          "House Bracken",
+          "Noblewomen"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 32797
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Jonos Bracken",
+      "raw_html_path": "sources/wiki/_raw/Jonos_Bracken.json",
+      "track_b_row": {
+        "page": "Jonos Bracken",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 7,
+          "source": "cite_ref",
+          "pov": "Jon I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lord of the Stone Hedge",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Bracken",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Stone Hedge",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouses",
+            "target": "Lady Bracken",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Lover",
+            "target": "Hildy",
+            "edge_type": "LOVER_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Harry Rivers",
+            "edge_type": "PARENT_OF",
+            "direction": "forward",
+            "qualifier": "disputed"
+          },
+          {
+            "field": "Issue",
+            "target": "Barbara Bracken",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Jayne Bracken",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Catelyn Bracken",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Bess Bracken",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Alysanne Bracken",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            48
+          ],
+          "agot": [
+            28,
+            57,
+            71
+          ],
+          "acok": [
+            7,
+            39
+          ],
+          "asos": [
+            14,
+            34,
+            35,
+            53,
+            72
+          ],
+          "affc": [
+            44
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Jonos Bracken",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "3rd century AC births",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "Characters with brown eyes",
+          "Characters with brown hair",
+          "House Bracken",
+          "Lords of Stone Hedge",
+          "Nobles",
+          "Supporters of Robb Stark in the War of the Five Kings",
+          "Supporters of Tommen Baratheon in the War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 3,
+          "acok": 2,
+          "asos": 5,
+          "affc": 1,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 66705
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "affc-jaime-07",
+          "line": 112,
+          "context": "| Lord Karyl Vance | Advises Jaime to go to Raventree personally; says Tytos will yield for Jaime but not for Jonos | Jaime |\n| Lord Tytos Blackwood | At Raventree; will not yield to Jonos Bracken | L"
+        },
+        {
+          "chapter": "affc-jaime-07",
+          "line": 113,
+          "context": "| Lord Tytos Blackwood | At Raventree; will not yield to Jonos Bracken | Lord Karyl Vance |\n| Jonos Bracken | At Tytos Blackwood's gates besieging Raventree | Lord Karyl Vance |\n| Joanna Lannister | A"
+        },
+        {
+          "chapter": "affc-jaime-07",
+          "line": 131,
+          "context": "| Storm's End | Will fall soon | No |\n| Raventree | Besieged by Jonos Bracken; Jaime plans to deal with Tytos Blackwood there | No |\n| Darry | Where Strongboar wants to return | No |"
+        },
+        {
+          "chapter": "affc-jaime-07",
+          "line": 334,
+          "context": "### Characters\nJaime Lannister, Edmure Tully, Emmon Frey, Genna Lannister, Brynden Tully (the Blackfish), Jeyne Westerling, Lady Sybell Westerling, Lord Gawen Westerling, Ser Forley Prester, Edwyn Fre"
+        },
+        {
+          "chapter": "agot-catelyn-05",
+          "line": 65,
+          "context": "| Lord Walder Frey | Irascible lord who has outlived seven wives; filled twin castles with descendants and bastards; called \"the Late Lord Frey\" by Hoster Tully; planning to take a new wife on his nin"
+        },
+        {
+          "chapter": "agot-catelyn-05",
+          "line": 200,
+          "context": "| Lady Whent | bannerman to | Hoster Tully | \"Is Lady Whent a true and honest friend to my father?\" \u2014 confirmed |\n| Jonos Bracken | bannerman to | Hoster Tully | \"My father counts Jonos Bracken among "
+        },
+        {
+          "chapter": "agot-catelyn-05",
+          "line": 223,
+          "context": "### Characters\nCatelyn Stark (Catelyn Tully), Ser Rodrik Cassel, Lord Jason Mallister, Patrek Mallister, Masha Heddle, Marillion, Tyrion Lannister, Yoren, Hoster Tully, Lysa Arryn (Lysa Tully), Petyr "
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 41,
+          "context": "| Karyl Vance | Minor | No (uncertain \u2014 verify) | Arrives at Riverrun, now a lord after his father's death |\n| Jonos Bracken | Supporting | No (uncertain \u2014 verify) | Arrives from ruined Stone Hedge; u"
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 78,
+          "context": "| Helman Tallhart | Holds the Twins with Walder Frey | Narration |\n| Gregor Clegane | Laid waste to Bracken's fields, slaughtered smallfolk, left Stone Hedge a ruin | Jonos Bracken |\n| Daryn Hornwood "
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 164,
+          "context": "13. **Robb calls for a war council** \u2014 Renly Baratheon has claimed Robert's crown. Catelyn is shocked, expecting Stannis.\n14. **War council convenes** \u2014 Lords from both north and riverlands attend. Fu"
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 200,
+          "context": "| Karyl Vance's father died at the Golden Tooth; Karyl is now lord | Narration | Council attendees | No |\n| Stone Hedge is a smoking ruin \u2014 Gregor Clegane laid waste to Bracken's lands | Jonos Bracken"
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 254,
+          "context": "| Tytos Blackwood | rescued | Edmure Tully | Led the sortie that plucked Edmure from the Lannister camp |\n| Jonos Bracken | hostile toward | Tytos Blackwood | Sits as far from Blackwood as possible; o"
+        },
+        {
+          "chapter": "agot-catelyn-11",
+          "line": 276,
+          "context": "### Characters\nCatelyn Stark, Robb Stark, Grey Wind, Theon Greyjoy, Brynden Tully (the Blackfish), Edmure Tully, Hoster Tully, Tytos Blackwood, Jon Umber (the Greatjon), Rickard Karstark, Maege Mormon"
+        },
+        {
+          "chapter": "agot-sansa-05",
+          "line": 87,
+          "context": "| Lord Karyl Vance | Named in traitor decree | Pycelle (decree) |\n| Lord Jonos Bracken | Named in traitor decree | Pycelle (decree) |\n| Lady Shella Whent | Named in traitor decree | Pycelle (decree) |"
+        },
+        {
+          "chapter": "agot-sansa-05",
+          "line": 291,
+          "context": "### Characters\nSansa Stark, Joffrey Baratheon, Cersei Lannister, Grand Maester Pycelle, Lord Varys, Petyr Baelish (Littlefinger), Ser Barristan Selmy, Sandor Clegane (the Hound), Janos Slynt, Ser Mand"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 66,
+          "context": "| Lady Whent | Ser Willis Wode is her man | Narration |\n| Lord Jonos Bracken | Kurleket is in his service | Narration |\n| The Knight of Flowers | Unhorsed Jaime at the tourney on Prince Joffrey's name"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 217,
+          "context": "| Ser Willis Wode | loyal to | Lady Whent / Catelyn Stark | First to rise to Catelyn's aid; leads the party after battle |\n| Kurleket | serves | Lord Jonos Bracken | Man-at-arms in Bracken's service |"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 243,
+          "context": "### Characters\nTyrion Lannister, Catelyn Stark, Bronn, Chiggen, Ser Rodrik Cassel, Kurleket, Mohor, Lharys, Marillion, Ser Willis Wode, Jyck, Morrec, Yoren, Jaime Lannister (referenced), Lord Tywin La"
+        }
+      ]
+    },
+    {
+      "page": "Kurleket",
+      "raw_html_path": "sources/wiki/_raw/Kurleket.json",
+      "track_b_row": {
+        "page": "Kurleket",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 31,
+          "source": "cite_ref",
+          "pov": "Eddard VII"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Bracken",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Mountains of the Moon",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "298 AC"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            31
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Kurleket",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "298 AC deaths",
+          "3rd century AC births",
+          "Character pages in alphabetical order",
+          "Character pages with 0 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "Homages",
+          "House Bracken retainers",
+          "Men-at-arms",
+          "Pages using deprecated image syntax",
+          "Smallfolk"
+        ],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 8209
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 22,
+          "context": "- **Smells:** Stink of blood from the butchered horse (risks drawing shadowcats); scent of blood during battle (\"heavy with the scent of blood\")\n- **Notable sensory details:** Steam rising from inside"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 32,
+          "context": "| Ser Rodrik Cassel | Knight, Catelyn's protector | No | Wounded in the fight (arm gash, spear graze at neck) |\n| Kurleket | Man-at-arms (Bracken), guard | No (uncertain \u2014 verify) | Killed in battle; "
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 46,
+          "context": "| Chiggen | | | Squat | | | Skinning knife | Yellow teeth | |\n| Tyrion Lannister | | | Small, not strong; limps | | Stolen halfhelm (taken from dead clansman, fits too snugly) | Double-bladed axe (bor"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 47,
+          "context": "| Tyrion Lannister | | | Small, not strong; limps | | Stolen halfhelm (taken from dead clansman, fits too snugly) | Double-bladed axe (borrowed), dirk (taken from Kurleket's corpse) | Deformed | Twent"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 66,
+          "context": "| Lady Whent | Ser Willis Wode is her man | Narration |\n| Lord Jonos Bracken | Kurleket is in his service | Narration |\n| The Knight of Flowers | Unhorsed Jaime at the tourney on Prince Joffrey's name"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 97,
+          "context": "| Tyrion's double-bladed axe | Given to him by Bronn for the battle; short haft, heavy head, nasty spike on top; Tyrion keeps it after | No (uncertain \u2014 verify) | Tyrion Lannister |\n| Kurleket's dirk "
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 126,
+          "context": "8. **Rest stop argument about the dagger** \u2014 Tyrion argued for slowing down, insisted on his innocence regarding Bran's assassination attempt, and challenged Littlefinger's story about the dagger wage"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 133,
+          "context": "15. **Tyrion saves Catelyn Stark** \u2014 Three clansmen trap Catelyn against the mountainside. Tyrion attacks from behind, splitting one man's knee. Catelyn cuts a second man's throat. The third flees.\n16"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 210,
+          "context": "| Tyrion | contempt for | Petyr Baelish | \"Lying comes as easily as breathing to a man like Littlefinger\" |\n| Tyrion | planning revenge against | Kurleket, Lharys, Mohor, Ser Willis Wode, Bronn, Chigg"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 217,
+          "context": "| Ser Willis Wode | loyal to | Lady Whent / Catelyn Stark | First to rise to Catelyn's aid; leads the party after battle |\n| Kurleket | serves | Lord Jonos Bracken | Man-at-arms in Bracken's service |"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 218,
+          "context": "| Kurleket | serves | Lord Jonos Bracken | Man-at-arms in Bracken's service |\n| Kurleket | hostile toward | Tyrion | Threatens to cut out his tongue; grabs him by the hair |\n| Marillion | accompanies "
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 243,
+          "context": "### Characters\nTyrion Lannister, Catelyn Stark, Bronn, Chiggen, Ser Rodrik Cassel, Kurleket, Mohor, Lharys, Marillion, Ser Willis Wode, Jyck, Morrec, Yoren, Jaime Lannister (referenced), Lord Tywin La"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 261,
+          "context": "### Artifacts & Objects\nThe Valyrian steel dagger (referenced \u2014 central to the accusation), double-bladed axe (Tyrion's battle weapon), Kurleket's dirk (black iron), Marillion's woodharp (broken), sha"
+        }
+      ]
+    },
+    {
+      "page": "Lady Bracken",
+      "raw_html_path": "sources/wiki/_raw/Lady_Bracken.json",
+      "track_b_row": {
+        "page": "Lady Bracken",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 48,
+          "source": "cite_ref",
+          "pov": "Tyrion X"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Stone Hedge",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Bracken",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouse",
+            "target": "Jonos Bracken",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Catelyn Bracken",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Bess Bracken",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Alysanne Bracken",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            48
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Lady Bracken",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 2 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "Characters without images",
+          "House Bracken",
+          "Noblewomen",
+          "Unnamed characters"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 34705
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Lharys",
+      "raw_html_path": "sources/wiki/_raw/Lharys.json",
+      "track_b_row": {
+        "page": "Lharys",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 31,
+          "source": "cite_ref",
+          "pov": "Eddard VII"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Bracken",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Mountains of the Moon",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "298 AC"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            31,
+            34
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Lharys",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "298 AC deaths",
+          "3rd century AC births",
+          "Character pages in alphabetical order",
+          "Character pages with 0 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "Characters with red hair",
+          "Homages",
+          "House Bracken retainers",
+          "Men-at-arms",
+          "Pages using deprecated image syntax",
+          "Smallfolk"
+        ],
+        "cite_ref_books": {
+          "agot": 2,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 9077
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 22,
+          "context": "- **Smells:** Stink of blood from the butchered horse (risks drawing shadowcats); scent of blood during battle (\"heavy with the scent of blood\")\n- **Notable sensory details:** Steam rising from inside"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 34,
+          "context": "| Mohor | Man-at-arms (Bracken), guard | No (uncertain \u2014 verify) | Guards prisoners with spear; killed in battle |\n| Lharys | Man-at-arms (Bracken), scout | No (uncertain \u2014 verify) | Serves as lookout"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 50,
+          "context": "| Ser Rodrik Cassel | | | | Wounded: deep gash in left arm, spear thrust grazing neck | | Longsword | Shorn of his whiskers; gruff voice | Sounds his age (old) |\n| Lharys | Wild tufts of rust-colored "
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 128,
+          "context": "10. **Tyrion begins to undermine Littlefinger's story** \u2014 He asks how Littlefinger said the dagger was won and confirms it was supposedly during the tourney when Jaime was unhorsed by the Knight of Fl"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 135,
+          "context": "17. **Debate over burial** \u2014 Catelyn wants to bury the dead under cairns. Bronn refuses. Ser Rodrik advises against lingering. Catelyn relents.\n18. **Tyrion keeps his weapons** \u2014 Lharys demands the di"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 147,
+          "context": "| Assembly | Party | Clustered around a stream | High road rest stop | Horses drinking and grazing; Jyck and Morrec huddled together |\n| Scout | Lharys | Scrambled up wind-carved ridge to watch the ro"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 210,
+          "context": "| Tyrion | contempt for | Petyr Baelish | \"Lying comes as easily as breathing to a man like Littlefinger\" |\n| Tyrion | planning revenge against | Kurleket, Lharys, Mohor, Ser Willis Wode, Bronn, Chigg"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 243,
+          "context": "### Characters\nTyrion Lannister, Catelyn Stark, Bronn, Chiggen, Ser Rodrik Cassel, Kurleket, Mohor, Lharys, Marillion, Ser Willis Wode, Jyck, Morrec, Yoren, Jaime Lannister (referenced), Lord Tywin La"
+        }
+      ]
+    },
+    {
+      "page": "Lord Bracken (Aerys II)",
+      "raw_html_path": "sources/wiki/_raw/Lord_Bracken_(Aerys_II).json",
+      "track_b_row": {
+        "page": "Lord Bracken (Aerys II)",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 71,
+          "source": "cite_ref",
+          "pov": "Jon IX"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lord of the Stone Hedge",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Bracken",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Daughter",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            71
+          ],
+          "asos": [
+            80
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Lord Bracken (Aerys II)",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "3rd century AC births",
+          "3rd century AC deaths",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "Characters without images",
+          "House Bracken",
+          "Lords of Stone Hedge",
+          "Nobles",
+          "Unnamed characters"
+        ],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 0,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 11054
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Lord Bracken (Hand of the King)",
+      "raw_html_path": "sources/wiki/_raw/Lord_Bracken_(Hand_of_the_King).json",
+      "track_b_row": {
+        "page": "Lord Bracken (Hand of the King)",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Lord of the Stone Hedge",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Hand of the King",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Bracken",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Barba Bracken",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Bethany Bracken",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Lord Bracken (Hand of the King)",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "178 AC deaths",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "Characters without images",
+          "Executions",
+          "Hands of the King",
+          "House Bracken",
+          "Lords of Stone Hedge",
+          "Members of Aegon IV Targaryen's court",
+          "Nobles",
+          "Unnamed characters"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 38991
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Lord Bracken (father of Otho)",
+      "raw_html_path": "sources/wiki/_raw/Lord_Bracken_(father_of_Otho).json",
+      "track_b_row": {
+        "page": "Lord Bracken (father of Otho)",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lord of the Stone Hedge",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Bracken",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Trident",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "211 AC"
+          },
+          {
+            "field": "Issue",
+            "target": "Otho Bracken",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Lord Bracken (father of Otho)",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "210s AC deaths",
+          "2nd century AC births",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "Characters without images",
+          "House Bracken",
+          "Lords of Stone Hedge",
+          "Nobles",
+          "Unnamed characters",
+          "Veterans of the First Blackfyre Rebellion"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 22812
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Lothar Bracken",
+      "raw_html_path": "sources/wiki/_raw/Lothar_Bracken.json",
+      "track_b_row": {
+        "page": "Lothar Bracken",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lord of the Stone Hedge",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Bracken",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Lothar Bracken",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "Characters without images",
+          "Deaths by starvation",
+          "Executions",
+          "House Bracken",
+          "Lords of Stone Hedge",
+          "Nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 7394
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Lyle Bracken",
+      "raw_html_path": "sources/wiki/_raw/Lyle_Bracken.json",
+      "track_b_row": {
+        "page": "Lyle Bracken",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Bracken",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Faith of the Seven",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Warrior's Sons",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "King's Landing",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "42 AC"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Lyle Bracken",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "42 AC deaths",
+          "Casualties of the Faith Militant uprising",
+          "Character pages in alphabetical order",
+          "Character pages with 3 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "House Bracken",
+          "Knights",
+          "Members of the Warrior's Sons",
+          "Nobles",
+          "Pages using deprecated image syntax"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 7863
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Mohor",
+      "raw_html_path": "sources/wiki/_raw/Mohor.json",
+      "track_b_row": {
+        "page": "Mohor",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 31,
+          "source": "cite_ref",
+          "pov": "Eddard VII"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Bracken",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westeros",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Mountains of the Moon",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "298 AC"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            31
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Mohor",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "298 AC deaths",
+          "3rd century AC births",
+          "Character pages in alphabetical order",
+          "Character pages with 0 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "Homages",
+          "House Bracken retainers",
+          "Men-at-arms",
+          "Pages using deprecated image syntax",
+          "Smallfolk"
+        ],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 7542
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 33,
+          "context": "| Kurleket | Man-at-arms (Bracken), guard | No (uncertain \u2014 verify) | Killed in battle; pig-faced, threatens Tyrion |\n| Mohor | Man-at-arms (Bracken), guard | No (uncertain \u2014 verify) | Guards prisoner"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 51,
+          "context": "| Lharys | Wild tufts of rust-colored hair | | Ungainly-looking | | Conical steel cap | Bow | | |\n| Mohor | | | | | Rounded iron cap (looks like a bowl on his head) | Iron-tipped spear, dagger (betwee"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 133,
+          "context": "15. **Tyrion saves Catelyn Stark** \u2014 Three clansmen trap Catelyn against the mountainside. Tyrion attacks from behind, splitting one man's knee. Catelyn cuts a second man's throat. The third flees.\n16"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 210,
+          "context": "| Tyrion | contempt for | Petyr Baelish | \"Lying comes as easily as breathing to a man like Littlefinger\" |\n| Tyrion | planning revenge against | Kurleket, Lharys, Mohor, Ser Willis Wode, Bronn, Chigg"
+        },
+        {
+          "chapter": "agot-tyrion-04",
+          "line": 243,
+          "context": "### Characters\nTyrion Lannister, Catelyn Stark, Bronn, Chiggen, Ser Rodrik Cassel, Kurleket, Mohor, Lharys, Marillion, Ser Willis Wode, Jyck, Morrec, Yoren, Jaime Lannister (referenced), Lord Tywin La"
+        }
+      ]
+    },
+    {
+      "page": "Olyver Bracken",
+      "raw_html_path": "sources/wiki/_raw/Olyver_Bracken.json",
+      "track_b_row": {
+        "page": "Olyver Bracken",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Commander",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Rimegate",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Bracken",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Kingsguard",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Night's Watch",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Rimegate",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "50 AC"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Olyver Bracken",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "50 AC deaths",
+          "Character pages in alphabetical order",
+          "Character pages with 3 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "Characters killed with Ice",
+          "Characters without images",
+          "Commanders of the Night's Watch",
+          "Deaths by beheading",
+          "Executions",
+          "House Bracken",
+          "Knights",
+          "Members of Maegor I Targaryen's court",
+          "Members of the Kingsguard",
+          "Members of the Night's Watch",
+          "Nobles",
+          "Rebels"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 12479
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Otho Bracken",
+      "raw_html_path": "sources/wiki/_raw/Otho_Bracken.json",
+      "track_b_row": {
+        "page": "Otho Bracken",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Lord of the Stone Hedge",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Bracken",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Stone Hedge",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Bracken",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [
+          "The Brute of Bracken"
+        ],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Otho Bracken",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "2nd century AC births",
+          "3rd century AC deaths",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "House Bracken",
+          "Knights",
+          "Lords of Stone Hedge",
+          "Nobles",
+          "Pages using deprecated image syntax"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 28833
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Raylon Rivers",
+      "raw_html_path": "sources/wiki/_raw/Raylon_Rivers.json",
+      "track_b_row": {
+        "page": "Raylon Rivers",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Bracken",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Greens",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Rivermen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Father",
+            "target": "Humfrey Bracken",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Raylon Rivers",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Bastards",
+          "Character pages in alphabetical order",
+          "Character pages with 0 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from the Riverlands",
+          "Characters without images",
+          "Combatants of the Dance of the Dragons",
+          "Greens",
+          "House Bracken",
+          "Knights",
+          "Lowborn nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 12462
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

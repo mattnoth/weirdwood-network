@@ -61,7 +61,7 @@ This is your project memory. When you come back after a break, read Current Stat
 - [x] Pass 1 v2 run on ACOK (50/70, archived to `extractions/archives/acok-v2/` — 4-category Raw Entity List)
 - [x] Pass 1 v3 prompt update: expanded Raw Entity List to 12 categories (10 + Other catch-all), added strict formatting rules (all headers required, no merging/renaming, "None" for empty categories)
 - [x] Pass 1 v3 run on AGOT (73/73 — complete)
-- [ ] Pass 1 v3 run on ACOK (0/70)
+- [x] Pass 1 mechanical run on ACOK (70/70 — complete; canonical at `extractions/mechanical/acok/`. **Schema mix:** chapters 1–50 from acok-v2 archive use 4-category Raw Entity List; chapters 51–70 use 12-category v3 schema. Future books will be single-pass v3.)
 - [ ] Pass 1 v3 run on ASOS (0/82)
 - [x] Pass 1 v3 run on AFFC (46/46 — complete)
 - [ ] Pass 1 v3 run on ADWD (0/73)
@@ -179,6 +179,19 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session.
 
+### Session 31 — Pass 1 launch prep: auto-advance feature + schema cleanup (2026-05-04)
+
+**Changes made:**
+- Memory system updated: `project_pass1_schema_versions.md` — NEW. Documents v3 as canonical, v1/v2 archived for reference. Clarifies that ACOK v2 chapters in archive ≠ incomplete work. Added to `MEMORY.md` index.
+- `extractions/archives/acok-v2-original-2026-05-04/` — NEW archive folder. All 50 v2 ACOK chapters (prologue through theon-01) moved here for preservation. v3 chapters (theon-02 through tyrion-15) restored to canonical `extractions/mechanical/acok/` (20 files).
+- `scripts/extract.sh` — UPDATED. Added `--delay <duration>` and `--chain` parameters to cmd_launch. New helper: `parse_duration_to_seconds()`. Auto-advance logic: after launching initial batch, waits for specified delay, then re-launches next batch of incomplete waves. Enables hands-off multi-batch runs (e.g., `2h` waits between batches to spread token usage across session windows).
+- `scripts/weirwood.zsh` — UPDATED. Passes `--delay` and `--chain` flags through to launch command. Help text updated with new examples: `weirwood acok 2 1 --delay 2h --chain`.
+- Schema version clarity locked in: v3 is main prompt; previous versions archived; no future confusion.
+
+**Decisions:** 2-hour delays between ACOK batches to spread token usage across API windows. Auto-advance feature (`--chain`) handles re-launching without manual intervention. Quality consistency enforced — all books extracted with v3 schema (Opus). Archive structure prevents confusion. Next session: smoke-test 1-2 waves to verify v3 schema before committing to full re-run.
+
+**What's next:** Session 32 — ACOK re-run with smoke test. Command: `weirwood acok 2 1 --delay 2h --chain`. Verify waves 1-2 quality before auto-advancing. Full run: 10 waves / 50 chapters / ~10 hrs wall-clock with 2h delays. Continue prompt: `progress/continue-prompts/2026-05-04-acok-waves1-10-rerun.md`.
+
 ### Session 30 — Pass-1-first sequencing decision + Stage 4 v1 prompt amended (2026-05-01)
 
 **Changes made:**
@@ -191,6 +204,22 @@ This is your project memory. When you come back after a break, read Current Stat
 **No code changes; no agent runs; no commits this session.** Planning + prompt-amendment only.
 
 **What's next:** Launch Pass 1 per the new continue prompt. Open questions deferred to launch-time (in iTerm session): manual-batched vs `--chain`, 4 terminals vs 2, who launches, per-book vs end-commit cadence. Stage 4 v1 follows once 344/344 extractions exist.
+
+### Session 30 — ACOK Pass 1 completion + schema-mix discovery (2026-05-02)
+**Detail:** `working/session-details/session-030.md`
+
+**Changes made:**
+- `extractions/mechanical/acok/` — promoted 50 files from `extractions/archives/acok-v2/`; ran waves 11-14 (20 new v3 chapters: theon-02 through tyrion-15); re-ran tyrion-10 (silent drop during wave 13). Now 70/70.
+- `worklog.md` — ACOK pipeline line updated to reflect 70/70 complete with schema-mix note.
+- `progress/continue-prompts/2026-05-02-pass1-mechanical-remaining-books.md` — state check updated: ACOK now 70/70, v2/v3 schema split documented, re-run instruction added.
+- `working/session-details/session-030.md` — NEW.
+
+**Decisions:** ACOK 70/70 complete at `extractions/mechanical/acok/` but is a schema mix: chapters 1-50 (archived v2 run from the night before Session 30, before v3 existed) have 4-category Raw Entity List; chapters 51-70 have v3 12-category. Re-run waves 1-10 when usage budget allows (`weirwood-mechanical --chain acok 4 1`, stop after wave 10). Future books (ASOS, ADWD) will be single-pass v3. Friend running ASOS confirmed: no prompt update needed, v3 is current.
+
+**What's next:**
+- Re-run ACOK waves 1-10 to fix v2/v3 schema mix (50 chapters)
+- Then ASOS (0/82) and ADWD (0/73) — single-pass v3 each
+- Continue prompt: `progress/continue-prompts/2026-05-02-pass1-mechanical-remaining-books.md`
 
 ### Session 29 — Promotion completion + schema-drift audit + chronology extraction (2026-05-01)
 **Detail:** `working/session-details/session-029.md`

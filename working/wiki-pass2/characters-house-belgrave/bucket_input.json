@@ -1,0 +1,155 @@
+{
+  "bucket_id": "characters-house-belgrave",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Gyles Belgrave",
+      "raw_html_path": "sources/wiki/_raw/Gyles_Belgrave.json",
+      "track_b_row": {
+        "page": "Gyles Belgrave",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Belgrave",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Kingsguard",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Greens",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westerosi",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "King's Landing",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "131 AC"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Gyles Belgrave",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "131 AC deaths",
+          "Character pages in alphabetical order",
+          "Character pages with 2 coats of arms",
+          "Character pages with new syntax name",
+          "Characters from Westeros",
+          "Characters killed with Ice",
+          "Deaths by beheading",
+          "Greens",
+          "House Belgrave",
+          "Knights",
+          "Members of Aegon II Targaryen's court",
+          "Members of the Kingsguard",
+          "Nobles",
+          "Pages using deprecated image syntax",
+          "Pages using hatnote template directly"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 19034
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Lord Belgrave",
+      "raw_html_path": "sources/wiki/_raw/Lord_Belgrave.json",
+      "track_b_row": {
+        "page": "Lord Belgrave",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 36,
+          "source": "cite_ref",
+          "pov": "Catelyn IV"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lord",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Belgrave",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westerosi",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            36
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Lord Belgrave",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from Westeros",
+          "House Belgrave",
+          "Nobles",
+          "Unnamed characters"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 5350
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

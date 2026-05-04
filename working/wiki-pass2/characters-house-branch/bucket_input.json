@@ -1,0 +1,68 @@
+{
+  "bucket_id": "characters-house-branch",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Benjicot Branch",
+      "raw_html_path": "sources/wiki/_raw/Benjicot_Branch.json",
+      "track_b_row": {
+        "page": "Benjicot Branch",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 42,
+          "source": "cite_ref",
+          "pov": "The Turncloak"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Branch",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Northmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            42,
+            62
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Benjicot Branch",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the North",
+          "Characters without images",
+          "House Branch",
+          "Nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 6979
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

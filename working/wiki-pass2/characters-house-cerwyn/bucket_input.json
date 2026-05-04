@@ -1,0 +1,439 @@
+{
+  "bucket_id": "characters-house-cerwyn",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Cley Cerwyn",
+      "raw_html_path": "sources/wiki/_raw/Cley_Cerwyn.json",
+      "track_b_row": {
+        "page": "Cley Cerwyn",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 16,
+          "source": "cite_ref",
+          "pov": "Tyrion III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lord of Cerwyn",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Cerwyn",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Northmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Cerwyn",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "284 AC"
+          },
+          {
+            "field": "Died",
+            "target": "Winterfell",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "299 AC"
+          },
+          {
+            "field": "Father",
+            "target": "Medger Cerwyn",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            16,
+            21,
+            30,
+            46,
+            66
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Cley Cerwyn",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Casualties of the War of the Five Kings",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the North",
+          "House Cerwyn",
+          "Lords of Cerwyn",
+          "Nobles",
+          "Pages using deprecated image syntax",
+          "Supporters of Robb Stark in the War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 5,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 20891
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Jonelle Cerwyn",
+      "raw_html_path": "sources/wiki/_raw/Jonelle_Cerwyn.json",
+      "track_b_row": {
+        "page": "Jonelle Cerwyn",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 26,
+          "source": "cite_ref",
+          "pov": "The Windblown"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lady of Cerwyn",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Cerwyn",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Northmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Cerwyn",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "267 AC"
+          },
+          {
+            "field": "Father",
+            "target": "Medger Cerwyn",
+            "edge_type": "PARENT_OF",
+            "direction": "reverse"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            53
+          ],
+          "acok": [
+            30,
+            66
+          ],
+          "adwd": [
+            26,
+            28,
+            37,
+            41,
+            46
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Jonelle Cerwyn",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "267 AC births",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the North",
+          "House Cerwyn",
+          "Lords of Cerwyn",
+          "Noblewomen",
+          "Pages using deprecated image syntax",
+          "Ruling ladies",
+          "Supporters of Robb Stark in the War of the Five Kings",
+          "Supporters of Tommen Baratheon in the War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 2,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 5
+        },
+        "has_infobox": true,
+        "byte_size": 23809
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Medger Cerwyn",
+      "raw_html_path": "sources/wiki/_raw/Medger_Cerwyn.json",
+      "track_b_row": {
+        "page": "Medger Cerwyn",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 25,
+          "source": "cite_ref",
+          "pov": "Theon II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lord of Cerwyn",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Cerwyn",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Northmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Cerwyn",
+            "edge_type": "BORN_AT",
+            "direction": "forward",
+            "qualifier": "255 AC"
+          },
+          {
+            "field": "Died",
+            "target": "Harrenhal",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "299 AC"
+          },
+          {
+            "field": "Issue",
+            "target": "Jonelle Cerwyn",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Issue",
+            "target": "Cley Cerwyn",
+            "edge_type": "PARENT_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            25,
+            30
+          ],
+          "agot": [
+            53,
+            62
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Medger Cerwyn",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Casualties of the War of the Five Kings",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the North",
+          "Hostages of House Lannister in the War of the Five Kings",
+          "House Cerwyn",
+          "Lords of Cerwyn",
+          "Nobles",
+          "Pages using deprecated image syntax",
+          "Supporters of Robb Stark in the War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 2,
+          "acok": 2,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 27932
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Rhodry",
+      "raw_html_path": "sources/wiki/_raw/Rhodry.json",
+      "track_b_row": {
+        "page": "Rhodry",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 37,
+          "source": "cite_ref",
+          "pov": "Daenerys VI"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Maester",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Title",
+            "target": "Castle Cerwyn",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Citadel",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Cerwyn",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Westerosi",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            37,
+            51
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Rhodry",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from Westeros",
+          "Characters without images",
+          "House Bolton retainers",
+          "House Cerwyn retainers",
+          "Maesters"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 6609
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Robard Cerwyn",
+      "raw_html_path": "sources/wiki/_raw/Robard_Cerwyn.json",
+      "track_b_row": {
+        "page": "Robard Cerwyn",
+        "entity_type": "character.human",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lord of Cerwyn",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Cerwyn",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Northmen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          },
+          {
+            "field": "Spouse",
+            "target": "Argelle Stark",
+            "edge_type": "SPOUSE_OF",
+            "direction": "symmetric"
+          },
+          {
+            "field": "Issue",
+            "target": "Child",
+            "edge_type": "PARENT_OF",
+            "direction": "forward",
+            "qualifier": "ren"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Robard Cerwyn",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the North",
+          "Characters without images",
+          "House Cerwyn",
+          "Lords of Cerwyn",
+          "Nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 9161
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

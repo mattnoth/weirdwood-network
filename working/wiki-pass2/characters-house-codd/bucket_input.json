@@ -1,0 +1,396 @@
+{
+  "bucket_id": "characters-house-codd",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Dagon Codd",
+      "raw_html_path": "sources/wiki/_raw/Dagon_Codd.json",
+      "track_b_row": {
+        "page": "Dagon Codd",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 20,
+          "source": "cite_ref",
+          "pov": "Davos III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Codd",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Died",
+            "target": "Moat Cailin",
+            "edge_type": "DIED_AT",
+            "direction": "forward",
+            "qualifier": "300 AC"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            20
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Dagon Codd",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "300 AC deaths",
+          "Casualties of the War of the Five Kings",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Iron Islands",
+          "Characters without images",
+          "Followers of Victarion Greyjoy",
+          "House Codd",
+          "Nobles",
+          "Supporters of Balon Greyjoy in the War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 10874
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Eldred Codd",
+      "raw_html_path": "sources/wiki/_raw/Eldred_Codd.json",
+      "track_b_row": {
+        "page": "Eldred Codd",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 18,
+          "source": "cite_ref",
+          "pov": "Cersei IV"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Allegiance",
+            "target": "House Codd",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Ironborn",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            18
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Eldred Codd",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Iron Islands",
+          "Characters without images",
+          "House Codd",
+          "Maimed characters",
+          "Nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 5899
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "affc-the-iron-captain-01",
+          "line": 45,
+          "context": "| Qarl the Thrall | Euron's follower | uncertain \u2014 verify | Enters with Euron's retinue |\n| Qarl the Maid | Ironborn captain | uncertain \u2014 verify | Dances the finger dance with Eldred Codd; Asha whisp"
+        },
+        {
+          "chapter": "affc-the-iron-captain-01",
+          "line": 46,
+          "context": "| Qarl the Maid | Ironborn captain | uncertain \u2014 verify | Dances the finger dance with Eldred Codd; Asha whispers to him |\n| Eldred Codd | Ironborn captain | uncertain \u2014 verify | Dances finger dance; "
+        },
+        {
+          "chapter": "affc-the-iron-captain-01",
+          "line": 173,
+          "context": "13. **Baelor Blacktyde argues for peace** \u2014 Calls Balon mad, Aeron madder, Euron maddest; asks if Victarion will end the war; departs unsatisfied.\n14. **Entertainment at the feast** \u2014 Gorold Goodbroth"
+        },
+        {
+          "chapter": "affc-the-iron-captain-01",
+          "line": 203,
+          "context": "| Departure | Euron + followers | Leave the feast tent | Exit after Victarion orders them out | Others follow \"like mongrel dogs\" |\n| Departure | Various guests | Slip out of feast tent | After Euron "
+        },
+        {
+          "chapter": "affc-the-iron-captain-01",
+          "line": 301,
+          "context": "### Characters\nVictarion Greyjoy, Nute the Barber, Aeron Damphair (Aeron Greyjoy), Asha Greyjoy, Euron Greyjoy (Crow's Eye), Balon Greyjoy, Lord Quellon Greyjoy, Baelor Blacktyde, Hotho Harlaw, Rodrik"
+        }
+      ]
+    },
+    {
+      "page": "Lucas Codd",
+      "raw_html_path": "sources/wiki/_raw/Lucas_Codd.json",
+      "track_b_row": {
+        "page": "Lucas Codd",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 11,
+          "source": "cite_ref",
+          "pov": "Sansa"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Captain",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Codd",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Born",
+            "target": "Iron Islands",
+            "edge_type": "BORN_AT",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Left-Hand Lucas"
+        ],
+        "cite_refs": {
+          "affc": [
+            11,
+            18,
+            19,
+            29
+          ],
+          "adwd": [
+            26
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Lucas Codd",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Iron Islands",
+          "Characters without images",
+          "Crew and followers of Euron Greyjoy",
+          "House Codd",
+          "Nobles",
+          "Ship captains",
+          "Supporters of Euron Greyjoy in the War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 4,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 15646
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "affc-the-reaver-01",
+          "line": 37,
+          "context": "| Hotho Harlaw (Hotho the Humpback) | Ironborn | Yes | Self-declares as Reader's heir now that the Knight has Greyshield |\n| Left-Hand Lucas Codd | Ironborn captain; Euron's man | Yes | Wears tapestry"
+        },
+        {
+          "chapter": "affc-the-reaver-01",
+          "line": 64,
+          "context": "| Germund Botley | | | | | Gilded Lannister breastplate; rope of pearls and garnets | | | |\n| Left-Hand Lucas Codd | | | | | Tapestry torn from wall as cloak | | | |\n| Quellon Humble | | | | | Tapestr"
+        },
+        {
+          "chapter": "affc-the-reaver-01",
+          "line": 186,
+          "context": "| Falia Flowers' elevation | feast_given | Euron | Ironborn captains | Euron holds a feast of plunder in Lord Hewett's own hall; Falia, the bastard daughter previously made to eat with servants, now s"
+        },
+        {
+          "chapter": "affc-the-reaver-01",
+          "line": 213,
+          "context": "24. **Captains call for the Arbor instead** \u2014 Ralf the Limper, Quellon Humble, Fralegg the Strong, Alvyn Sharp, and Red Ralf Stonehouse advocate raiding the Reach. Euron calls them cravens and leaves "
+        },
+        {
+          "chapter": "affc-the-reaver-01",
+          "line": 336,
+          "context": "| Maron Volmark | Descendant through mother | Black Harren | Has Black Harren's blood through his mother |\n| Left-Hand Lucas Codd | Rapist | Lord Hewett's daughter | Takes her on a table |\n| Euron | C"
+        },
+        {
+          "chapter": "affc-the-reaver-01",
+          "line": 357,
+          "context": "### Characters\nVictarion Greyjoy, Euron Greyjoy (Crow's Eye), Aeron Greyjoy (Damphair), Balon Greyjoy, Asha Greyjoy, Ser Talbert Serry, Lord Serry, Nute the Barber, Ragnor Pyke, Wulfe One-Ear, Rodrik "
+        },
+        {
+          "chapter": "affc-the-drowned-man-01",
+          "line": 47,
+          "context": "| Rodrik the Reader | Supporter of Asha | Yes (uncertain \u2014 verify) | First to shout \"Victory, and Asha!\" |\n| Left-Hand Lucas Codd | Supporter of Euron; asks Asha about knitting | Yes (uncertain \u2014 veri"
+        },
+        {
+          "chapter": "affc-the-drowned-man-01",
+          "line": 176,
+          "context": "19. **Euron makes his claim** \u2014 He climbs the steps slowly, claims to have sailed farther than any Greyjoy, to have visited Asshai and walked the ruins of Valyria. He promises to conquer all of Wester"
+        },
+        {
+          "chapter": "affc-the-drowned-man-01",
+          "line": 196,
+          "context": "| Confrontation | Asha's champions | Push past Victarion's three to stand below her | Two steps below Asha | Qarl the Maid, Tristifer Botley, Ser Harras Harlaw |\n| Confrontation | The hornblower | Sou"
+        },
+        {
+          "chapter": "affc-the-drowned-man-01",
+          "line": 242,
+          "context": "| Drumm | The kingsmoot | \"Where is it written that our king must be a kraken? What right has Pyke to rule us?\" | Arguing against Greyjoy primacy |\n| Lucas Codd | Asha | \"What will you give us? Knitti"
+        },
+        {
+          "chapter": "affc-the-drowned-man-01",
+          "line": 243,
+          "context": "| Lucas Codd | Asha | \"What will you give us? Knitting?\" | Mocking Asha's gender |\n| Asha | Lucas Codd | \"Aye, Lucas. I'll knit us a kingdom.\" | Defiant reply |"
+        },
+        {
+          "chapter": "affc-the-drowned-man-01",
+          "line": 278,
+          "context": "| Lord Merlyn | Supporter of | Asha Greyjoy | Red-faced, shouts for Asha |\n| Left-Hand Lucas Codd | Supporter of | Euron Greyjoy | First to shout \"EURON!\" after the horn |\n| The Red Oarsman | Supporte"
+        },
+        {
+          "chapter": "affc-the-drowned-man-01",
+          "line": 307,
+          "context": "### Characters\nAeron Greyjoy (Damphair, the Drowned Man), Rus, Gylbert Farwynd, Erik Ironmaker (Erik Anvil-Breaker, Erik the Just), Thormor, Asha Greyjoy, Victarion Greyjoy, Euron Greyjoy (Crow's Eye)"
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 71,
+          "context": "| Pinchface Jon Myre | Brought Euron a dozen longships | Tristifer |\n| Left-Hand Lucas Codd | With Euron | Tristifer |\n| Harren Half-Hoare | With Euron | Tristifer |"
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 191,
+          "context": "26. **Tris reports on Euron's consolidation of power** \u2014 Harren died at Moat Cailin from a poisoned arrow; Euron drowned Sawane for defiance and gave half the Botley lands to Iron Holt; Lord Wynch was"
+        },
+        {
+          "chapter": "affc-the-krakens-daughter-01",
+          "line": 305,
+          "context": "### Characters\nAsha Greyjoy, Lord Rodrik Harlaw (the Reader), Three-Tooth, Tristifer Botley, Qarl the Maid, Balon Greyjoy, Euron Greyjoy (Crow's Eye), Victarion Greyjoy, Aeron Greyjoy (Damphair), Lady"
+        },
+        {
+          "chapter": "affc-the-iron-captain-01",
+          "line": 36,
+          "context": "| Torwold Browntooth | Euron's follower | uncertain \u2014 verify | Enters with Euron; brown teeth |\n| Left-Hand Lucas Codd | Euron's follower | uncertain \u2014 verify | Announces he is unwed; mocked by Asha |"
+        },
+        {
+          "chapter": "affc-the-iron-captain-01",
+          "line": 179,
+          "context": "19. **Euron taunts Victarion and Asha** \u2014 Asks after their mother; Asha accuses him of Balon's murder; Euron denies with his mutes as alibi.\n20. **Asha and Euron's followers exchange insults** \u2014 Asha "
+        },
+        {
+          "chapter": "affc-the-iron-captain-01",
+          "line": 272,
+          "context": "| Aeron | Hostile to | Euron | \"In him our father's blood went bad\"; confronts him publicly |\n| Euron | Commands/leads | Pinchface Jon Myre, Torwold, Lucas Codd, Germund Botley, Orkwood, Stonehand, Qu"
+        },
+        {
+          "chapter": "affc-the-iron-captain-01",
+          "line": 301,
+          "context": "### Characters\nVictarion Greyjoy, Nute the Barber, Aeron Damphair (Aeron Greyjoy), Asha Greyjoy, Euron Greyjoy (Crow's Eye), Balon Greyjoy, Lord Quellon Greyjoy, Baelor Blacktyde, Hotho Harlaw, Rodrik"
+        }
+      ]
+    },
+    {
+      "page": "Tom Codd",
+      "raw_html_path": "sources/wiki/_raw/Tom_Codd.json",
+      "track_b_row": {
+        "page": "Tom Codd",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 56,
+          "source": "cite_ref",
+          "pov": "The Queensguard"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lamentation",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiance",
+            "target": "House Codd",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Bloodless Tom"
+        ],
+        "cite_refs": {
+          "adwd": [
+            56
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Tom Codd",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Iron Islands",
+          "Characters without images",
+          "Followers of Victarion Greyjoy",
+          "House Codd",
+          "Nobles",
+          "Ship captains",
+          "Supporters of Euron Greyjoy in the War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 6352
+      },
+      "pass1_mentions": []
+    }
+  ]
+}

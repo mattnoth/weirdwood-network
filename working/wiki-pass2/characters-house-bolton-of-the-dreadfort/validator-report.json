@@ -1,0 +1,8 @@
+{
+  "bucket_id": "characters-house-bolton-of-the-dreadfort",
+  "passed": true,
+  "checked_at": "2026-05-02T01:05:28Z",
+  "node_count_expected": 1,
+  "node_count_actual": 1,
+  "failures": []
+}

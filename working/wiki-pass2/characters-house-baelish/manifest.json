@@ -30,10 +30,10 @@
     "petyr-baelish.node.md",
     "umfred.node.md"
   ],
-  "status": "pending",
-  "started_at": null,
-  "completed_at": null,
-  "validation_report": null,
+  "status": "complete",
+  "started_at": "2026-05-02T00:46:46Z",
+  "completed_at": "2026-05-02T00:52:24Z",
+  "validation_report": "working/wiki-pass2/characters-house-baelish/validator-report.json",
   "priority": {
     "version": "v1",
     "computed_at": "2026-04-28T01:11:55Z",
@@ -62,5 +62,6 @@
   "stage3_promoted_at": "2026-04-28T04:57:23.641860+00:00",
   "stage3_promoted_count": 10,
   "stage3_skipped_count": 0,
-  "stage3_conflicted_count": 0
+  "stage3_conflicted_count": 0,
+  "nodes_promoted": 0
 }

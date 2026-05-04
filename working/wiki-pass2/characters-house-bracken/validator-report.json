@@ -1,0 +1,8 @@
+{
+  "bucket_id": "characters-house-bracken",
+  "passed": true,
+  "checked_at": "2026-05-02T01:01:06Z",
+  "node_count_expected": 23,
+  "node_count_actual": 23,
+  "failures": []
+}

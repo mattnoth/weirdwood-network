@@ -1,0 +1,8 @@
+{
+  "bucket_id": "characters-house-belgrave",
+  "passed": true,
+  "checked_at": "2026-05-02T00:55:44Z",
+  "node_count_expected": 2,
+  "node_count_actual": 2,
+  "failures": []
+}

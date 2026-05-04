@@ -1,0 +1,8 @@
+{
+  "bucket_id": "characters-house-blackmont",
+  "passed": true,
+  "checked_at": "2026-05-02T00:59:24Z",
+  "node_count_expected": 3,
+  "node_count_actual": 3,
+  "failures": []
+}

@@ -1,0 +1,1907 @@
+{
+  "bucket_id": "battles-b-d",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Battle of Torrhen's Square",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_Torrhen's_Square.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "Battle of Torrhen's Square",
+        "entity_type_guess": "skip",
+        "categories": [
+          "Redirect"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": false,
+        "byte_size": 968,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of Tumbleton",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_Tumbleton.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "Battle of Tumbleton",
+        "entity_type_guess": "unknown",
+        "categories": [],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": false,
+        "byte_size": 961
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of Wendwater Bridge",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_Wendwater_Bridge.json",
+      "track_b_row": {
+        "page": "Battle of Wendwater Bridge",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Fourth Blackfyre Rebellion",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "House Targaryen",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Battle of Wendwater Bridge",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "Blackfyre Rebellions",
+          "Crownlands",
+          "Golden Company battles",
+          "House Blackfyre battles",
+          "House Lannister battles",
+          "House Targaryen battles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 8085
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of Whispering Wood",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_Whispering_Wood.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "Battle of Whispering Wood",
+        "entity_type_guess": "skip",
+        "categories": [
+          "Redirect"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": false,
+        "byte_size": 973,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of Winterfell",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_Winterfell.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "Battle of Winterfell",
+        "entity_type_guess": "skip",
+        "categories": [
+          "Redirect"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": false,
+        "byte_size": 988,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle of Yunkai",
+      "raw_html_path": "sources/wiki/_raw/Battle_of_Yunkai.json",
+      "track_b_row": {},
+      "page_index_row": {
+        "page": "Battle of Yunkai",
+        "entity_type_guess": "skip",
+        "categories": [
+          "Redirect"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": false,
+        "byte_size": 940,
+        "skip_reason": "category-skip"
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle on Whispering Sound",
+      "raw_html_path": "sources/wiki/_raw/Battle_on_Whispering_Sound.json",
+      "track_b_row": {
+        "page": "Battle on Whispering Sound",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 32,
+          "source": "cite_ref",
+          "pov": "Brienne VI"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "War of the Five Kings",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Unknown",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Villages and fields along Whispering Sound are burnt",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            32,
+            36,
+            45
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Battle on Whispering Sound",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Articles with conjectural titles",
+          "Battles",
+          "House Bulwer battles",
+          "House Costayne battles",
+          "House Greyjoy battles",
+          "House Hightower battles",
+          "War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 3,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 27999
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle on the Green Fork",
+      "raw_html_path": "sources/wiki/_raw/Battle_on_the_Green_Fork.json",
+      "track_b_row": {
+        "page": "Battle on the Green Fork",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 7,
+          "source": "cite_ref",
+          "pov": "Jon I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "War of the Five Kings",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Lannister",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            49,
+            53,
+            55,
+            56,
+            59,
+            62,
+            63,
+            69,
+            71
+          ],
+          "acok": [
+            7,
+            16,
+            25,
+            30,
+            38
+          ],
+          "asos": [
+            49,
+            58,
+            62
+          ],
+          "affc": [
+            16
+          ],
+          "adwd": [
+            46
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Battle on the Green Fork",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "House Bolton battles",
+          "House Cerwyn battles",
+          "House Clegane battles",
+          "House Crakehall battles",
+          "House Frey battles",
+          "House Glover battles",
+          "House Hornwood battles",
+          "House Karstark battles",
+          "House Lannister battles",
+          "House Lefford battles",
+          "House Locke battles",
+          "House Lydden battles",
+          "House Manderly battles",
+          "House Marbrand battles",
+          "House Serrett battles",
+          "House Stark battles",
+          "House Swyft battles",
+          "Riverlands",
+          "War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 9,
+          "acok": 5,
+          "asos": 3,
+          "affc": 1,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 96330
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle on the river Slayne",
+      "raw_html_path": "sources/wiki/_raw/Battle_on_the_river_Slayne.json",
+      "track_b_row": {
+        "page": "Battle on the river Slayne",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Coming of the Andals",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Durrandon",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Battle on the river Slayne",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Andal invasion",
+          "Battles",
+          "House Durrandon battles",
+          "Stormlands"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 6141
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle outside the gates of Winterfell",
+      "raw_html_path": "sources/wiki/_raw/Battle_outside_the_gates_of_Winterfell.json",
+      "track_b_row": {
+        "page": "Battle outside the gates of Winterfell",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "ADWD",
+          "chapter": 29,
+          "source": "cite_ref",
+          "pov": "Jon VI"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "War of the Five Kings",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Bolton",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            35,
+            37,
+            46,
+            50,
+            55,
+            56,
+            66,
+            69
+          ],
+          "adwd": [
+            29,
+            35
+          ],
+          "asos": [
+            49
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Battle outside the gates of Winterfell",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "House Bolton battles",
+          "House Cerwyn battles",
+          "House Hornwood battles",
+          "House Karstark battles",
+          "House Manderly battles",
+          "House Stark battles",
+          "House Tallhart battles",
+          "War of the Five Kings",
+          "Winterfell"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 8,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 56867
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Battle under the walls of Riverrun",
+      "raw_html_path": "sources/wiki/_raw/Battle_under_the_walls_of_Riverrun.json",
+      "track_b_row": {
+        "page": "Battle under the walls of Riverrun",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 55,
+          "source": "cite_ref",
+          "pov": "Daenerys VI"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "War of the Five Kings",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Lannister",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            55,
+            56,
+            59,
+            63
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Battle under the walls of Riverrun",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "House Blackwood battles",
+          "House Lannister battles",
+          "House Tully battles",
+          "Riverrun",
+          "War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 4,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 33006
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "agot-catelyn-09",
+          "line": 271,
+          "context": "### Wars & Conflicts\nWar of the Five Kings (ongoing, unnamed in this chapter \u2014 Lannister-Stark conflict), Battle under the walls of Riverrun (Kingslayer defeats Edmure's host)"
+        }
+      ]
+    },
+    {
+      "page": "Battles at Summerhall",
+      "raw_html_path": "sources/wiki/_raw/Battles_at_Summerhall.json",
+      "track_b_row": {
+        "page": "Battles at Summerhall",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 36,
+          "source": "cite_ref",
+          "pov": "Catelyn IV"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Robert's Rebellion",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Rebel victory - Robert wins three battles in a single day.",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            36,
+            54
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Battles at Summerhall",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "House Baratheon battles",
+          "House Cafferen battles",
+          "House Fell battles",
+          "House Grandison battles",
+          "Robert's Rebellion",
+          "Stormlands"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 2,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 16034
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Burning of Harrenhal",
+      "raw_html_path": "sources/wiki/_raw/Burning_of_Harrenhal.json",
+      "track_b_row": {
+        "page": "Burning of Harrenhal",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 30,
+          "source": "cite_ref",
+          "pov": "Tyrion VII"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Aegon's Conquest",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Targaryen",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "House Hoare",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            30
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Burning of Harrenhal",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Aegon's Conquest",
+          "Battles",
+          "Harrenhal",
+          "House Blackwood battles",
+          "House Bracken battles",
+          "House Frey battles",
+          "House Hoare battles",
+          "House Mallister battles",
+          "House Piper battles",
+          "House Strong battles",
+          "House Targaryen battles",
+          "House Tully battles",
+          "House Vance of Atranta battles",
+          "House Vance of Wayfarer's Rest battles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 1,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 35672
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Burning of Jeyne Poore",
+      "raw_html_path": "sources/wiki/_raw/Burning_of_Jeyne_Poore.json",
+      "track_b_row": {
+        "page": "Burning of Jeyne Poore",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Faith Militant uprising",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Iron Throne",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Burning of Jeyne Poore",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "Faith Militant battles",
+          "Faith Militant uprising",
+          "House Targaryen battles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 10976
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Burning of Pinkmaiden Castle",
+      "raw_html_path": "sources/wiki/_raw/Burning_of_Pinkmaiden_Castle.json",
+      "track_b_row": {
+        "page": "Burning of Pinkmaiden Castle",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 7,
+          "source": "cite_ref",
+          "pov": "Jon I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "War of the Five Kings",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Westermen victory",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            56
+          ],
+          "acok": [
+            7
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Burning of Pinkmaiden Castle",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Articles with conjectural titles",
+          "Battles",
+          "House Clegane battles",
+          "House Piper battles",
+          "Riverlands",
+          "War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 1,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 24272
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Burning of Sow's Horn",
+      "raw_html_path": "sources/wiki/_raw/Burning_of_Sow's_Horn.json",
+      "track_b_row": {
+        "page": "Burning of Sow's Horn",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 27,
+          "source": "cite_ref",
+          "pov": "Samwell III"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "War of the Five Kings",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Hogg victory",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            27
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Burning of Sow's Horn",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Articles with conjectural titles",
+          "Battles",
+          "House Hogg battles",
+          "House Lorch battles",
+          "War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 25897
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Burning of Stone Hedge",
+      "raw_html_path": "sources/wiki/_raw/Burning_of_Stone_Hedge.json",
+      "track_b_row": {
+        "page": "Burning of Stone Hedge",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 1,
+          "source": "cite_ref",
+          "pov": "Prologue"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "War of the Five Kings",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Lannister",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Stone Hedge",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            56,
+            71
+          ],
+          "adwd": [
+            48
+          ],
+          "asos": [
+            1,
+            34
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Burning of Stone Hedge",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Articles with conjectural titles",
+          "Battles",
+          "House Bracken battles",
+          "House Clegane battles",
+          "Stone Hedge",
+          "War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 2,
+          "acok": 0,
+          "asos": 2,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 31057
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Burning of the Lannister fleet",
+      "raw_html_path": "sources/wiki/_raw/Burning_of_the_Lannister_fleet.json",
+      "track_b_row": {
+        "page": "Burning of the Lannister fleet",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 18,
+          "source": "cite_ref",
+          "pov": "Cersei IV"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Greyjoy's Rebellion",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Greyjoy victory",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            56,
+            63
+          ],
+          "affc": [
+            18
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Burning of the Lannister fleet",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "Greyjoy's Rebellion",
+          "House Greyjoy battles",
+          "House Lannister battles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 19410
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Burning of the Sept of Remembrance",
+      "raw_html_path": "sources/wiki/_raw/Burning_of_the_Sept_of_Remembrance.json",
+      "track_b_row": {
+        "page": "Burning of the Sept of Remembrance",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Faith Militant uprising",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Iron Throne victory",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Burning of the Sept of Remembrance",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Articles with conjectural titles",
+          "Events",
+          "Faith Militant battles",
+          "Faith Militant uprising",
+          "House Targaryen battles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 14088
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Burning of the seats of the pious lords",
+      "raw_html_path": "sources/wiki/_raw/Burning_of_the_seats_of_the_pious_lords.json",
+      "track_b_row": {
+        "page": "Burning of the seats of the pious lords",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Faith Militant uprising",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Destruction of the seats of several pious lords",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Burning of the seats of the pious lords",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Articles with conjectural titles",
+          "Faith Militant uprising",
+          "House Blanetree battles",
+          "House Broome battles",
+          "House Deddings battles",
+          "House Doggett battles",
+          "House Falwell battles",
+          "House Lorch battles",
+          "House Lychester battles",
+          "House Targaryen battles",
+          "House Terrick battles",
+          "House Wayn battles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 25944
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Butcher's Ball",
+      "raw_html_path": "sources/wiki/_raw/Butcher's_Ball.json",
+      "track_b_row": {
+        "page": "Butcher's Ball",
+        "entity_type": "event.battle",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Dance of the Dragons",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Butcher's Ball",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "Dance of the Dragons",
+          "House Dustin battles",
+          "House Targaryen battles",
+          "Riverlands"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 28962
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Caltrops",
+      "raw_html_path": "sources/wiki/_raw/Caltrops.json",
+      "track_b_row": {
+        "page": "Caltrops",
+        "entity_type": "event.war",
+        "first_available": null,
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Dance of the Dragons",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Hugh is killed by Jon Roxton",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Ulf is poisoned by Hobert Hightower",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {}
+      },
+      "page_index_row": {
+        "page": "Caltrops",
+        "entity_type_guess": "event.war",
+        "categories": [
+          "Dance of the Dragons",
+          "Greens",
+          "Organizations",
+          "Pages using deprecated image syntax",
+          "The Reach"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 28437
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Capture of Darry",
+      "raw_html_path": "sources/wiki/_raw/Capture_of_Darry.json",
+      "track_b_row": {
+        "page": "Capture of Darry",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 7,
+          "source": "cite_ref",
+          "pov": "Jon I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "War of the Five Kings",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Lannister",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            56
+          ],
+          "acok": [
+            7
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Capture of Darry",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Articles with conjectural titles",
+          "Battles",
+          "Darry",
+          "House Darry battles",
+          "House Lannister battles",
+          "War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 1,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 25791
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Capture of Harrenhal",
+      "raw_html_path": "sources/wiki/_raw/Capture_of_Harrenhal.json",
+      "track_b_row": {
+        "page": "Capture of Harrenhal",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 20,
+          "source": "cite_ref",
+          "pov": "The Drowned Man"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "War of the Five Kings",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Lannister",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            44,
+            49,
+            53,
+            60,
+            62,
+            74
+          ],
+          "affc": [
+            20,
+            27
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Capture of Harrenhal",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Articles with conjectural titles",
+          "Brave Companions battles",
+          "Harrenhal",
+          "House Clegane battles",
+          "House Lannister battles",
+          "Massacres",
+          "War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 6,
+          "affc": 2,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 35558
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Capture of Torrhen's Square",
+      "raw_html_path": "sources/wiki/_raw/Capture_of_Torrhen's_Square.json",
+      "track_b_row": {
+        "page": "Capture of Torrhen's Square",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "ACOK",
+          "chapter": 46,
+          "source": "cite_ref",
+          "pov": "Catelyn VI"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "War of the Five Kings",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "House Greyjoy",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            46,
+            56,
+            66
+          ],
+          "asos": [
+            76
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Capture of Torrhen's Square",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "House Greyjoy battles",
+          "House Tallhart battles",
+          "War of the Five Kings"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 3,
+          "asos": 1,
+          "affc": 0,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 26362
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Capture of Winterfell",
+      "raw_html_path": "sources/wiki/_raw/Capture_of_Winterfell.json",
+      "track_b_row": {
+        "page": "Capture of Winterfell",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "ASOS",
+          "chapter": 2,
+          "source": "cite_ref",
+          "pov": "Jaime I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "War of the Five Kings",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Greyjoy",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "acok": [
+            35,
+            37,
+            46,
+            49,
+            50,
+            55,
+            56,
+            66
+          ],
+          "affc": [
+            19
+          ],
+          "asos": [
+            2,
+            14,
+            35,
+            45
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Capture of Winterfell",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Battles",
+          "House Botley battles",
+          "House Greyjoy battles",
+          "House Harlaw battles",
+          "House Sharp battles",
+          "House Stark battles",
+          "War of the Five Kings",
+          "Winterfell"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 8,
+          "asos": 4,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 47940
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Combat at the tower of joy",
+      "raw_html_path": "sources/wiki/_raw/Combat_at_the_tower_of_joy.json",
+      "track_b_row": {
+        "page": "Combat at the tower of joy",
+        "entity_type": "event.battle",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 4,
+          "source": "cite_ref",
+          "pov": "Daenerys I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Conflict",
+            "target": "Robert's Rebellion",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Stark",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            4,
+            6,
+            12,
+            35,
+            39,
+            45,
+            66
+          ],
+          "acok": [
+            21
+          ],
+          "adwd": [
+            41
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Combat at the tower of joy",
+        "entity_type_guess": "event.battle",
+        "categories": [
+          "Articles with conjectural titles",
+          "Battles",
+          "Dorne",
+          "House Cassel battles",
+          "House Dayne battles",
+          "House Dustin battles",
+          "House Glover battles",
+          "House Hightower battles",
+          "House Reed battles",
+          "House Ryswell battles",
+          "House Stark battles",
+          "House Targaryen battles",
+          "House Whent battles",
+          "House Wull battles",
+          "Kingsguard",
+          "Robert's Rebellion"
+        ],
+        "cite_ref_books": {
+          "agot": 7,
+          "acok": 1,
+          "asos": 0,
+          "affc": 0,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 36126
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Coming of the Andals",
+      "raw_html_path": "sources/wiki/_raw/Coming_of_the_Andals.json",
+      "track_b_row": {
+        "page": "Coming of the Andals",
+        "entity_type": "event.war",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 20,
+          "source": "cite_ref",
+          "pov": "The Drowned Man"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Result",
+            "target": "Neck",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "First Men",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Pact",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "asos": [
+            45,
+            56,
+            68,
+            70
+          ],
+          "agot": [
+            40,
+            60,
+            66
+          ],
+          "adwd": [
+            48
+          ],
+          "affc": [
+            20
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Coming of the Andals",
+        "entity_type_guess": "event.war",
+        "categories": [
+          "Andal invasion",
+          "Andals",
+          "First Men",
+          "House Allyrion wars",
+          "House Arryn wars",
+          "House Belmore wars",
+          "House Blackwood wars",
+          "House Bolton wars",
+          "House Bracken wars",
+          "House Brightstone wars",
+          "House Coldwater wars",
+          "House Corbray wars",
+          "House Crakehall wars",
+          "House Darry wars",
+          "House Drumm wars",
+          "House Durrandon wars",
+          "House Grafton wars",
+          "House Greyiron wars",
+          "House Greyjoy wars",
+          "House Hoare wars",
+          "House Hunter wars",
+          "House Jordayne wars",
+          "House Lannister wars",
+          "House Martell wars",
+          "House Mooton wars",
+          "House Mudd wars",
+          "House Orkwood wars",
+          "House Qorgyle wars",
+          "House Redfort wars",
+          "House Royce wars",
+          "House Ruthermont wars",
+          "House Santagar wars",
+          "House Shell (Dorne) wars",
+          "House Shell wars",
+          "House Shett wars",
+          "House Stark wars",
+          "House Templeton wars",
+          "House Tollett wars",
+          "House Uller wars",
+          "House Upcliff wars",
+          "House Vaith wars",
+          "House Vance of Atranta wars",
+          "House Vance of Wayfarer's Rest wars",
+          "House Vypren wars",
+          "House Wade wars",
+          "Terms",
+          "Wars",
+          "Westeros"
+        ],
+        "cite_ref_books": {
+          "agot": 3,
+          "acok": 0,
+          "asos": 4,
+          "affc": 1,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 92738
+      },
+      "pass1_mentions": []
+    },
+    {
+      "page": "Conquest of Dorne",
+      "raw_html_path": "sources/wiki/_raw/Conquest_of_Dorne.json",
+      "track_b_row": {
+        "page": "Conquest of Dorne",
+        "entity_type": "event.war",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 5,
+          "source": "cite_ref",
+          "pov": "Eddard I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Battles",
+            "target": "Submission of Sunspear",
+            "edge_type": "FIGHTS_IN",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Short-lasting conquest of Dorne, followed by a Dornish rebellion",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "agot": [
+            5
+          ],
+          "adwd": [
+            17
+          ],
+          "asos": [
+            54,
+            59,
+            66
+          ],
+          "affc": [
+            13,
+            21,
+            40
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Conquest of Dorne",
+        "entity_type_guess": "event.war",
+        "categories": [
+          "Conquest of Dorne",
+          "Dorne",
+          "House Martell wars",
+          "House Oakheart wars",
+          "House Qorgyle wars",
+          "House Stark wars",
+          "House Targaryen wars",
+          "House Tyrell wars",
+          "House Vaith wars",
+          "House Velaryon wars",
+          "Wars"
+        ],
+        "cite_ref_books": {
+          "agot": 1,
+          "acok": 0,
+          "asos": 3,
+          "affc": 3,
+          "adwd": 1
+        },
+        "has_infobox": true,
+        "byte_size": 62078
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "affc-the-queenmaker-01",
+          "line": 77,
+          "context": "| Lord Uller | Lord of Hellholt; Ellaria Sand's father; four Sand Snakes are his granddaughters | Arianne (thoughts) |\n| Daeron I Targaryen (the Young Dragon) | Author of Conquest of Dorne; wrote abou"
+        },
+        {
+          "chapter": "affc-the-queenmaker-01",
+          "line": 139,
+          "context": "| Garin's golden tooth | Replacement tooth bought by Arianne for one she broke | Yes | Garin |\n| Conquest of Dorne (book) | Written by the Young Dragon (Daeron I); quoted: \"The arms of House Martell d"
+        },
+        {
+          "chapter": "affc-the-queenmaker-01",
+          "line": 419,
+          "context": "### In-world Texts & Songs\n- Conquest of Dorne (by Daeron I / the Young Dragon)\n- \"Beneath the gold the bitter steel\" (the Golden Company's motto/cry)"
+        }
+      ]
+    },
+    {
+      "page": "Dance of the Dragons",
+      "raw_html_path": "sources/wiki/_raw/Dance_of_the_Dragons.json",
+      "track_b_row": {
+        "page": "Dance of the Dragons",
+        "entity_type": "event.war",
+        "first_available": {
+          "book": "AGOT",
+          "chapter": 8,
+          "source": "cite_ref",
+          "pov": "Arya I"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Result",
+            "target": "Aegon II",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Rhaenyra",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Aegon III",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          },
+          {
+            "field": "Result",
+            "target": "Wedding of Aegon III Targaryen and Jaehaera Targaryen",
+            "edge_type": "DEFEATS",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "adwd": [
+            8,
+            11
+          ],
+          "agot": [
+            8,
+            30
+          ],
+          "asos": [
+            36,
+            60,
+            67
+          ],
+          "affc": [
+            10,
+            13,
+            16
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Dance of the Dragons",
+        "entity_type_guess": "event.war",
+        "categories": [
+          "Dance of the Dragons",
+          "House Ambrose wars",
+          "House Arryn wars",
+          "House Bar Emmon wars",
+          "House Baratheon wars",
+          "House Beesbury wars",
+          "House Bigglestone wars",
+          "House Blackwood wars",
+          "House Borrell wars",
+          "House Bourney wars",
+          "House Bracken wars",
+          "House Brune of Brownhollow wars",
+          "House Brune of the Dyre Den wars",
+          "House Buckler wars",
+          "House Butterwell wars",
+          "House Byrch wars",
+          "House Caswell wars",
+          "House Celtigar wars",
+          "House Cerwyn wars",
+          "House Chambers wars",
+          "House Charlton wars",
+          "House Corbray wars",
+          "House Costayne wars",
+          "House Crabb wars",
+          "House Crakehall wars",
+          "House Darklyn wars",
+          "House Darry wars",
+          "House Deddings wars",
+          "House Dustin wars",
+          "House Fell wars",
+          "House Flint of Flint's Finger wars",
+          "House Footly wars",
+          "House Fossoway of Cider Hall wars",
+          "House Frey wars",
+          "House Graceford wars",
+          "House Grey wars",
+          "House Greyjoy wars",
+          "House Grimm wars",
+          "House Harte wars",
+          "House Hayford wars",
+          "House Hightower wars",
+          "House Hornwood wars",
+          "House Lannister wars",
+          "House Lefford wars",
+          "House Leygood wars",
+          "House Mallister wars",
+          "House Manderly wars",
+          "House Massey wars",
+          "House Merryweather wars",
+          "House Mooton wars",
+          "House Mullendore wars",
+          "House Norcross wars",
+          "House Peake wars",
+          "House Perryn wars",
+          "House Piper wars",
+          "House Redwyne wars",
+          "House Reyne wars",
+          "House Risley wars",
+          "House Rodden wars",
+          "House Roote wars",
+          "House Rosby wars",
+          "House Rowan wars",
+          "House Roxton wars",
+          "House Royce wars",
+          "House Smallwood wars",
+          "House Stark wars",
+          "House Staunton wars",
+          "House Stokeworth wars",
+          "House Strong wars",
+          "House Sunderland wars",
+          "House Swann wars",
+          "House Swyft wars",
+          "House Tarbeck wars",
+          "House Targaryen wars",
+          "House Tarly wars",
+          "House Thorne wars",
+          "House Tully wars",
+          "House Vance of Atranta wars",
+          "House Vance of Wayfarer's Rest wars",
+          "House Velaryon wars",
+          "House Vypren wars",
+          "House Wode wars",
+          "House Wylde wars",
+          "Wars",
+          "Westeros"
+        ],
+        "cite_ref_books": {
+          "agot": 2,
+          "acok": 0,
+          "asos": 3,
+          "affc": 3,
+          "adwd": 2
+        },
+        "has_infobox": true,
+        "byte_size": 338954
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "affc-the-soiled-knight-01",
+          "line": 331,
+          "context": "### Wars & Conflicts\nDance of the Dragons, Blackfyre Rebellions (three mentioned \u2014 Yronwood forebears rode with Bittersteel), Robert's Rebellion (implied: Robert climbed throne over corpses of childre"
+        },
+        {
+          "chapter": "affc-jaime-02",
+          "line": 348,
+          "context": "### Wars & Conflicts\nWar of the Five Kings (ongoing \u2014 sieges at Riverrun and Storm's End, raiding at Saltpans, ironmen at Moat Cailin, Stannis at the Wall), Dance of the Dragons (implied \u2014 Criston Col"
+        },
+        {
+          "chapter": "affc-sansa-01",
+          "line": 142,
+          "context": "1. **Sansa recalls childhood memory** \u2014 A wandering singer stayed at Winterfell for half a year; she begged Eddard not to let him leave; she prayed for a new singer but none came for a year or more.\n2"
+        },
+        {
+          "chapter": "affc-sansa-01",
+          "line": 394,
+          "context": "- \"On a Misty Morn\" (a mother searching among the dead for her only son)\n- Songs of the Dance of the Dragons (unspecified)\n- Song of fair Jonquil and her fool"
+        },
+        {
+          "chapter": "affc-sansa-01",
+          "line": 403,
+          "context": "### Wars & Conflicts\n- The Dance of the Dragons (referenced via Marillion's songs)\n- War of the Five Kings (implicit \u2014 the political situation throughout)"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 181,
+          "context": "14. **Thoros of Myr wins the melee** \u2014 Three-hour melee with near forty men; Thoros wins with his flaming sword. Three broken limbs, a shattered collarbone, a dozen smashed fingers, two horses put dow"
+        },
+        {
+          "chapter": "agot-eddard-07",
+          "line": 325,
+          "context": "### In-world Texts & Songs\n\"Dance of the Dragons\" (complex round of interwoven ballads performed by singers at the feast)"
+        },
+        {
+          "chapter": "agot-bran-02",
+          "line": 66,
+          "context": "| Prince Aemon the Dragonknight | Famous Kingsguard member | Bran (narration) |\n| Ser Erryk | Famous Kingsguard; died on his twin's sword during the Dance of the Dragons | Bran (narration) |\n| Ser Arr"
+        },
+        {
+          "chapter": "agot-bran-02",
+          "line": 67,
+          "context": "| Ser Erryk | Famous Kingsguard; died on his twin's sword during the Dance of the Dragons | Bran (narration) |\n| Ser Arryk | Famous Kingsguard; died on his twin's sword during the Dance of the Dragons"
+        },
+        {
+          "chapter": "agot-bran-02",
+          "line": 295,
+          "context": "### In-world Texts & Songs\nOld Nan's story about the boy who climbed too high (struck by lightning, eyes pecked by crows), songs about the Dance of the Dragons, songs about \"some old witch queen\" (Nym"
+        },
+        {
+          "chapter": "agot-bran-02",
+          "line": 301,
+          "context": "### Wars & Conflicts\nDance of the Dragons (the war where brother fought sister; Ser Erryk and Ser Arryk died on each other's swords)"
+        }
+      ]
+    }
+  ]
+}

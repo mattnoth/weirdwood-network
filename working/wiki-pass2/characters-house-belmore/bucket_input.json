@@ -1,0 +1,247 @@
+{
+  "bucket_id": "characters-house-belmore",
+  "tier": "secondary",
+  "tier_default": "tier-1",
+  "prompt_version": "v1",
+  "chunk_strategy": "single-pass",
+  "pages": [
+    {
+      "page": "Benedar Belmore",
+      "raw_html_path": "sources/wiki/_raw/Benedar_Belmore.json",
+      "track_b_row": {
+        "page": "Benedar Belmore",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 23,
+          "source": "cite_ref",
+          "pov": "Arya II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Title",
+            "target": "Lord of Strongsong",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Belmore",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "Lords Declarant",
+            "edge_type": "SWORN_TO",
+            "direction": "forward",
+            "qualifier": "formerly"
+          },
+          {
+            "field": "Culture",
+            "target": "Valemen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [],
+        "cite_refs": {
+          "affc": [
+            23,
+            41
+          ],
+          "asos": [
+            80
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Benedar Belmore",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Vale",
+          "House Belmore",
+          "Lords Declarant",
+          "Lords of Strongsong",
+          "Nobles",
+          "Pages using deprecated image syntax"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 1,
+          "affc": 2,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 18969
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "affc-alayne-01",
+          "line": 35,
+          "context": "| Maddy | Servant | Yes (uncertain \u2014 verify) | Lays the fire in the solar |\n| Benedar Belmore | Lord of Strongsong; Lord Declarant | Yes (uncertain \u2014 verify) | Pear-bellied; puffs climbing stairs; dem"
+        },
+        {
+          "chapter": "affc-alayne-01",
+          "line": 52,
+          "context": "| Anya Waynwood | Greying | | | | Deep green mantle with broken wheel of Waynwood in beads of jet | | Crow's-feet around eyes; loose skin beneath chin; air of nobility | Old/elderly |\n| Benedar Belmor"
+        },
+        {
+          "chapter": "affc-alayne-01",
+          "line": 302,
+          "context": "| Petyr Baelish | Manipulates | Lords Declarant | Uses Corbray's staged outburst to flip the negotiation |\n| Petyr Baelish | Plans to corrupt / buy | Benedar Belmore | \"Belmore is corrupt and can be b"
+        },
+        {
+          "chapter": "affc-alayne-01",
+          "line": 330,
+          "context": "### Characters\nAlayne (Sansa Stark), Gretchel, Robert Arryn, Petyr Baelish (Littlefinger), Maester Colemon, Mela, Maddy, Lothor Brune, Benedar Belmore, Symond Templeton, Horton Redfort, Anya Waynwood,"
+        },
+        {
+          "chapter": "affc-alayne-01",
+          "line": 360,
+          "context": "### Titles & Offices\nLord Protector of the Vale (Petyr Baelish), Lord of the Eyrie (Robert Arryn), Defender of the Vale (Robert Arryn), Knight of Ninestars (Symond Templeton), Keeper of the Gates of t"
+        }
+      ]
+    },
+    {
+      "page": "Marwyn Belmore",
+      "raw_html_path": "sources/wiki/_raw/Marwyn_Belmore.json",
+      "track_b_row": {
+        "page": "Marwyn Belmore",
+        "entity_type": "character.human",
+        "first_available": {
+          "book": "AFFC",
+          "chapter": 10,
+          "source": "cite_ref",
+          "pov": "Brienne II"
+        },
+        "books": [],
+        "relationships": [
+          {
+            "field": "Titles",
+            "target": "Ser",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Titles",
+            "target": "Captain of the guards",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "formerly"
+          },
+          {
+            "field": "Titles",
+            "target": "Eyrie",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward",
+            "qualifier": "formerly"
+          },
+          {
+            "field": "Titles",
+            "target": "Gates of the Moon",
+            "edge_type": "HOLDS_TITLE",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Belmore",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Arryn",
+            "edge_type": "SWORN_TO",
+            "direction": "forward",
+            "qualifier": "formerly"
+          },
+          {
+            "field": "Allegiances",
+            "target": "House Royce of the Gates of the Moon",
+            "edge_type": "SWORN_TO",
+            "direction": "forward"
+          },
+          {
+            "field": "Culture",
+            "target": "Valemen",
+            "edge_type": "CULTURE_OF",
+            "direction": "forward"
+          }
+        ],
+        "aliases": [
+          "Ser Ding-Dong"
+        ],
+        "cite_refs": {
+          "affc": [
+            10
+          ]
+        }
+      },
+      "page_index_row": {
+        "page": "Marwyn Belmore",
+        "entity_type_guess": "character.human",
+        "categories": [
+          "Captains of the guards",
+          "Character pages in alphabetical order",
+          "Character pages with 1 coat of arms",
+          "Character pages with new syntax name",
+          "Characters from the Vale",
+          "Characters with red hair",
+          "Characters without images",
+          "House Arryn guards",
+          "House Belmore",
+          "House Royce retainers",
+          "Knights",
+          "Nobles"
+        ],
+        "cite_ref_books": {
+          "agot": 0,
+          "acok": 0,
+          "asos": 0,
+          "affc": 1,
+          "adwd": 0
+        },
+        "has_infobox": true,
+        "byte_size": 13467
+      },
+      "pass1_mentions": [
+        {
+          "chapter": "affc-sansa-01",
+          "line": 32,
+          "context": "| Ser Albar Royce | Visitor \u2014 Lord Nestor's son | Uncertain \u2014 verify | Accompanies his father |\n| Ser Marwyn Belmore | Visitor \u2014 former captain of Lysa's guards | Uncertain \u2014 verify | Replaced by Ser "
+        },
+        {
+          "chapter": "affc-sansa-01",
+          "line": 153,
+          "context": "12. **Robert tells the assembled lords that Marillion killed his mother** \u2014 \"Marillion hurt my mother. He threw her out the Moon Door.\"\n13. **Ser Marwyn Belmore asks if Robert saw it happen** \u2014 Robert"
+        },
+        {
+          "chapter": "affc-sansa-01",
+          "line": 223,
+          "context": "| Robert Arryn | Sansa | \"Marillion hurt my mother. He threw her out the Moon Door.\" | Repeating the lie to Lord Nestor in the High Hall |\n| Ser Marwyn Belmore | Robert | \"Did your lordship see this h"
+        },
+        {
+          "chapter": "affc-sansa-01",
+          "line": 260,
+          "context": "| Ser Lyn Corbray | Hostile toward | Petyr Baelish | \"Mislikes me, for some reason\" |\n| Ser Marwyn Belmore | Resented | Marillion | Marillion mocked him as \"Ser Ding-Dong\" |\n| Ser Albar Royce | Resent"
+        },
+        {
+          "chapter": "affc-sansa-01",
+          "line": 288,
+          "context": "- Ser Albar Royce\n- Ser Marwyn Belmore\n- Maester Colemon"
+        },
+        {
+          "chapter": "affc-sansa-01",
+          "line": 414,
+          "context": "- Hand of the King (Jon Arryn, referenced as having held this office)\n- Captain of Guards (formerly Ser Marwyn Belmore, now Ser Lothor Brune)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "bucket_id": "characters-house-blackfyre",
+  "passed": true,
+  "checked_at": "2026-05-02T00:53:50Z",
+  "node_count_expected": 12,
+  "node_count_actual": 12,
+  "failures": []
+}

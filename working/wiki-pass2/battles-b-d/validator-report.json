@@ -1,0 +1,8 @@
+{
+  "bucket_id": "battles-b-d",
+  "passed": true,
+  "checked_at": "2026-05-02T01:22:19Z",
+  "node_count_expected": 30,
+  "node_count_actual": 30,
+  "failures": []
+}

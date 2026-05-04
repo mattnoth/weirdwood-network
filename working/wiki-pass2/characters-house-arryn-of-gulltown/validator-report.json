@@ -1,0 +1,8 @@
+{
+  "bucket_id": "characters-house-arryn-of-gulltown",
+  "passed": true,
+  "checked_at": "2026-05-02T00:45:33Z",
+  "node_count_expected": 1,
+  "node_count_actual": 1,
+  "failures": []
+}
