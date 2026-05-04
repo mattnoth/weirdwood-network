@@ -61,7 +61,7 @@ This is your project memory. When you come back after a break, read Current Stat
 - [x] Pass 1 v2 run on ACOK (50/70, archived to `extractions/archives/acok-v2/` — 4-category Raw Entity List)
 - [x] Pass 1 v3 prompt update: expanded Raw Entity List to 12 categories (10 + Other catch-all), added strict formatting rules (all headers required, no merging/renaming, "None" for empty categories)
 - [x] Pass 1 v3 run on AGOT (73/73 — complete)
-- [x] Pass 1 mechanical run on ACOK (70/70 — complete; canonical at `extractions/mechanical/acok/`. **Schema mix:** chapters 1–50 from acok-v2 archive use 4-category Raw Entity List; chapters 51–70 use 12-category v3 schema. Future books will be single-pass v3.)
+- [x] Pass 1 mechanical run on ACOK (70/70 — 20 final with v3, 50 archived in `acok-v2-original-2026-05-04/` pending v3 re-extraction. **Ready for waves 1-10 re-run:** `weirwood acok 2 1 claude-opus-4-6 --delay 2h --chain`)
 - [ ] Pass 1 v3 run on ASOS (0/82)
 - [x] Pass 1 v3 run on AFFC (46/46 — complete)
 - [ ] Pass 1 v3 run on ADWD (0/73)
@@ -178,6 +178,21 @@ This is your project memory. When you come back after a break, read Current Stat
 ## Session Log
 
 > Newest first. One entry per work session.
+
+### Session 32 — ACOK v3 confirmation + ready for auto-advance launch (2026-05-04)
+
+**Context:** Session 31 built auto-advance feature. Smoke test attempted to verify v3 quality on ACOK waves 1-2, but Opus model running slower than expected. Session 32 verified prompt status and prepared handoff.
+
+**Changes made:**
+- `mechanical-extractor` agent prompt (`.claude/agents/mechanical-extractor.md`) — CONFIRMED using v3 canonical schema: 12-category Raw Entity List (Characters, Locations, Houses, Factions & Organizations, Religions & Faiths, Cultures & Peoples, Artifacts & Objects, In-world Texts & Songs, Magic & Phenomena, Wars & Conflicts, Titles & Offices, Other). Plus all v3 sections: Physical Environment, Character Appearances, Food & Drink, Hospitality & Guest Right, POV Character's Internal State, etc. Model set to Opus.
+- `progress/continue-prompts/2026-05-04-acok-waves1-10-rerun.md` — UPDATED: clarified state (20 ACOK chapters FINAL with v3, 50 in archive `acok-v2-original-2026-05-04/`), removed smoke-test section (v3 already proven on AGOT + confirmed on 20 ACOK chapters), added "Launch Full Auto-Advance Run (Session 33+)" with single command ready to execute.
+
+**Decisions:** No smoke test needed — v3 is canonical and proven. Opus model confirmed; do not substitute Sonnet/Haiku for consistency with AGOT v3. Handoff complete. Next session: fresh iTerm session, run `weirwood acok 2 1 claude-opus-4-6 --delay 2h --chain` immediately. No pre-flight checks — state already verified.
+
+**What's next:**
+- **Session 33+:** Fresh session → `weirwood acok 2 1 claude-opus-4-6 --delay 2h --chain` (50 chapters, 10 waves, ~10 hrs wall-clock with 2h delays)
+- After ACOK 70/70 complete: ASOS (82 chapters, single-pass v3) and ADWD (73 chapters, single-pass v3) per continue prompt `progress/continue-prompts/2026-05-02-pass1-mechanical-remaining-books.md`
+- Once 344/344 complete: Stage 4 v1 prose-edge-classifier per continue prompt `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`
 
 ### Session 31 — Pass 1 launch prep: auto-advance feature + schema cleanup (2026-05-04)
 

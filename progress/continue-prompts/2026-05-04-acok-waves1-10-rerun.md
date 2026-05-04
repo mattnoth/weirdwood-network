@@ -24,94 +24,43 @@ The v3 prompt hasn't been tested on a full fresh ACOK extraction (AGOT v3 proved
 
 ---
 
-## Current State — Verify Before Proceeding
+## Current State — Status Confirmed ✅
 
-```bash
-# Check ACOK extraction status
-weirwood acok
+**ACOK Extraction Status (confirmed in Session 32):**
+- **20/70 chapters FINAL:** Waves 11-14 (chapters 51-70) already extracted with v3 schema — locked, do not re-extract
+- **50/70 chapters archived:** Waves 1-10 (chapters 1-50) in `extractions/archives/acok-v2-original-2026-05-04/` — need re-extraction with v3 schema
+- **Mechanical-extractor agent confirmed using v3 (12-category) prompt** — no schema drift, canonical format
 
-# Expected output:
-#   ACOK: 20/70 chapters extracted
-#   Completed waves: (none, or maybe a few if old v3 runs landed)
-#   Missing waves: 1, 2, 3, ... 10 (50 chapters total)
-#
-# If you see 70/70, the v2 chapters are still in canonical location — 
-# something went wrong in Session 31. Contact Matt before proceeding.
-
-# Verify the archive exists
-ls extractions/archives/acok-v2-original-2026-05-04/ | wc -l
-# Should show 50
-```
+No pre-flight checks needed. Ready to launch.
 
 ---
 
-## Smoke Test: Waves 1-2 (10 chapters)
+## No Smoke Test — Ready for Full Run ✅
 
-**Goal:** Extract first 10 chapters with v3 prompt, verify schema quality, then proceed.
-
-```bash
-# Launch JUST waves 1-2 (no delay, no chain — single batch)
-weirwood acok 2 1
-```
-
-This opens 2 iTerm tabs. Terminal 1 runs wave 1, Terminal 2 runs wave 2, in parallel (~30 min total).
-
-### After waves 1-2 complete:
-
-1. **Check completion:**
-   ```bash
-   weirwood acok
-   # Should now show: 20/70 → 30/70 (20 existing v3 + 10 new from waves 1-2)
-   ```
-
-2. **Spot-check 2-3 random extractions:**
-   ```bash
-   # Pick random chapters from waves 1-2 output, e.g., acok-arya-01, acok-bran-03, acok-catelyn-02
-   cat extractions/mechanical/acok/acok-arya-01.extraction.md | head -100
-   
-   # Verify:
-   #  - All 12 Raw Entity List headers present (Characters, Locations, Houses, etc.)
-   #  - "None" for empty categories (not omitted)
-   #  - Physical descriptions captured in "## Character Appearances"
-   #  - Food & Drink section populated (ACOK has feast scenes)
-   #  - POV Character's Internal State filled
-   #  - No schema drift vs. AGOT v3 extractions
-   ```
-
-3. **Check stats:**
-   ```bash
-   cat working/extraction-stats/extraction-stats-acok-pass1-v3.csv | tail -15
-   # Should show ~5 chapters per wave, cost tracking, no failures
-   ```
+**Why skip the smoke test?**
+- v3 prompt is confirmed canonical and working (AGOT proved it, 20 ACOK chapters confirmed it)
+- Schema verified: 12 categories, all required sections (Food & Drink, Hospitality, Physical Environment, etc.)
+- Matt confirmed: "as long as we are using the 12 cat, we are good to just start it"
+- Session 32 attempted smoke test but Opus model is slow (one wave taking 20+ min) — better to use auto-advance for full run
 
 ---
 
-## Smoke Test Decision
+## Launch Full Auto-Advance Run (Session 33+)
 
-### If quality looks good ✅
-Proceed to full auto-advance run.
-
-### If issues found ❌
-- Flag which category/section has problems
-- Do NOT proceed to full run — investigate with Matt first
-- The v3 prompt may need tweaking before scaling to all 50 chapters
-
----
-
-## Full Auto-Advance Run (after smoke test approval)
-
-**Command:**
+**Single command to run (fresh session):**
 ```bash
-weirwood acok 2 1 --delay 2h --chain
+weirwood acok 2 1 claude-opus-4-6 --delay 2h --chain
 ```
+
+**Opus is required.** AGOT v3 used Opus for consistency and quality. ACOK must match. Do not substitute Sonnet or Haiku.
 
 **What this does:**
-- Waves 1-2 run in parallel (2 terminals)
+- Waves 1-2 run in parallel (2 terminals, Opus model)
 - When done, waits 2 hours
 - Auto-launches waves 3-4
 - Waits 2 hours, then 5-6
 - Continues: 7-8, wait 2h, 9-10
-- **Total:** ~10 hours wall-clock across ~5 batches, 50 chapters, v3 schema
+- **Total:** ~10 hours wall-clock across ~5 batches, 50 chapters, v3 schema, Opus quality
 
 **Soft stop anytime:**
 ```bash
