@@ -11,6 +11,11 @@
 #   weirwood <book> <t> <w> <model>  Launch with a specific Claude model
 #   weirwood stop                    Soft stop — halt after current wave finishes
 #
+# Race protection:
+#   Multiple terminals on the same book are safe — each chapter is claimed
+#   atomically before extraction starts. A second terminal skips chapters
+#   already claimed or completed by another.
+#
 # Examples:
 #   weirwood                         # show help + all-books overview
 #   weirwood acok                    # what's left in ACOK?
@@ -135,14 +140,12 @@ weirwood() {
       echo "  weirwood <book>                   Detailed status (wave table, costs)"
       echo "  weirwood <book> <t> <w>           Launch iTerm tabs to extract"
       echo "  weirwood <book> <t> <w> <model>   With a specific model"
-      echo "  weirwood <book> <t> <w> --delay 2h --chain  Auto-advance with 2h waits"
       echo "  weirwood stop                     Soft stop (see below)"
       echo "  weirwood wiki <subcommand>        Wiki Pass 2 — see 'weirwood wiki --help'"
       echo ""
       echo "Examples:"
       echo "  weirwood acok                     What's left in ACOK?"
       echo "  weirwood acok 2 1                 2 terminals, 1 wave each"
-      echo "  weirwood acok 2 1 --delay 2h --chain  Auto-advance every 2 hours"
       echo "  weirwood acok 2 3 claude-opus-4-7"
       echo "  weirwood stop"
       echo "  weirwood wiki triage --accept     Commit wiki triage manifests"
@@ -198,15 +201,14 @@ weirwood() {
         "$script" status "$book"
       else
         local terminals="$2"
-        local waves="${3:?Usage: weirwood <book> <terminals> <waves> [model] [--delay 2h] [--chain]}"
+        local waves="${3:?Usage: weirwood <book> <terminals> <waves> [model]}"
         local model="${4:-}"
         shift 4
         local extra_args=()
-        # Pass through remaining args: model (if not yet seen), --delay, --chain
+        # Pass through remaining args (model, unknown flags)
         while [[ $# -gt 0 ]]; do
           case "$1" in
-            --delay|-d) extra_args+=("$1" "$2"); shift 2 ;;
-            --chain|-c) extra_args+=("$1"); shift ;;
+            --chain|--delay) echo "ERROR: --chain and --delay were removed. Launch separate runs instead." >&2; return 1 ;;
             -*)         extra_args+=("$1"); shift ;;
             *)          # Assume it's the model if not yet set
                         [[ -z "$model" ]] && model="$1"

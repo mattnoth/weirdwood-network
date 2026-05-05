@@ -20,6 +20,7 @@ WAVE_SIZE=5
 DEFAULT_MODEL="claude-opus-4-6"
 PASS="pass1"
 VERSION="v3"
+TERMINAL_ID="${HOSTNAME}-$$"
 
 # Per-book stats file: working/extraction-stats/extraction-stats-{book}-{pass}-{version}.csv
 stats_file_for() {
@@ -36,32 +37,61 @@ format_duration() {
   else printf "%ds" "$s"; fi
 }
 
-# Convert human-readable duration (2h, 30m, 120s) to seconds
-parse_duration_to_seconds() {
-  local dur="$1"
-  local secs=0
-  # Match: <number>h, <number>m, <number>s
-  if [[ "$dur" =~ ^([0-9]+)h$ ]]; then
-    secs=$(( ${BASH_REMATCH[1]} * 3600 ))
-  elif [[ "$dur" =~ ^([0-9]+)m$ ]]; then
-    secs=$(( ${BASH_REMATCH[1]} * 60 ))
-  elif [[ "$dur" =~ ^([0-9]+)s$ ]]; then
-    secs=${BASH_REMATCH[1]}
-  else
-    echo "ERROR: Invalid duration format '$dur' (use: 2h, 30m, 120s)" >&2
-    return 1
-  fi
-  echo "$secs"
-}
-
 format_number() { printf "%'d" "$1" 2>/dev/null || echo "$1"; }
 
-# Update worklog.md checklist line for a book's Pass 1 progress
+now_iso() { date -u '+%Y-%m-%dT%H:%M:%SZ'; }
+
+# ── CSV locking (mkdir is POSIX-atomic, zero brew dependencies) ───────────────
+#
+# Uses ${STATS_FILE}.lockdir as the lock primitive.
+# STATS_FILE is set as a local in cmd_run; bash's dynamic scoping makes it
+# accessible from these helpers when called within cmd_run's call stack.
+
+acquire_stats_lock() {
+  local lockdir="${STATS_FILE}.lockdir"
+  local tries=0
+  while ! mkdir "$lockdir" 2>/dev/null; do
+    tries=$(( tries + 1 ))
+    if (( tries > 40 )); then
+      echo "ERROR: CSV lock timeout (${lockdir})" >&2
+      return 1
+    fi
+    sleep 0.5
+  done
+}
+
+release_stats_lock() {
+  rmdir "${STATS_FILE}.lockdir" 2>/dev/null || true
+}
+
+# ── Atomic chapter claim (Bug B fix) ─────────────────────────────────────────
+#
+# Acquires the CSV lock, delegates to claim-chapter.py (which reads/modifies
+# the CSV atomically), releases the lock. Prints the claim result.
+#
+# Outputs one of:
+#   claim              — chapter was free; started row appended
+#   claim-after-stale  — stale claim cleared; started row appended
+#   skip-already-done  — latest row is done/skipped-done
+#   skip-claimed:<tid> — another terminal holds an active claim
+
+claim_chapter() {
+  local ch="$1" wave_num="$2" now
+  now=$(now_iso)
+  acquire_stats_lock || { echo "skip-claimed:lock-error"; return 1; }
+  local result
+  result=$(python3 scripts/claim-chapter.py \
+    "$STATS_FILE" "$ch" "$wave_num" "$now" "$TERMINAL_ID" "$book" 2>/dev/null) || result="claim"
+  release_stats_lock
+  echo "$result"
+}
+
+# ── Update worklog.md checklist ───────────────────────────────────────────────
+
 update_worklog() {
   local book=$1
   local extract_dir="extractions/mechanical/${book}"
 
-  # Count completed extractions
   local done=0 total=0
   local chapter_dir="sources/chapters/${book}"
   for f in "$chapter_dir"/*.md; do
@@ -73,12 +103,10 @@ update_worklog() {
     fi
   done
 
-  # Build the replacement text
   local new_line
   if (( done == total )); then
     new_line="- [x] Pass 1 ${VERSION} run on ${book^^} (${done}/${total} — complete)"
   else
-    # Find which waves are done for context
     local completed_waves=""
     discover_chapters "$book"
     for (( w=1; w<=TOTAL_WAVES; w++ )); do
@@ -102,8 +130,6 @@ update_worklog() {
     fi
   fi
 
-  # Match the existing checklist line for this book's Pass 1 v3
-  # Pattern: "- [ ] Pass 1 v3 run on AGOT ..." or "- [x] Pass 1 v3 run on AGOT ..."
   local book_upper="${book^^}"
   if grep -q "Pass 1 ${VERSION} run on ${book_upper}" "$WORKLOG_FILE" 2>/dev/null; then
     sed -i '' "s|^- \[.\] Pass 1 ${VERSION} run on ${book_upper}.*|${new_line}|" "$WORKLOG_FILE"
@@ -113,7 +139,8 @@ update_worklog() {
   fi
 }
 
-# Check if an extraction is complete (has required sections + minimum length)
+# ── is_complete / discover_chapters / find_incomplete_waves ───────────────────
+
 is_complete() {
   local outfile=$1
   [[ ! -f "$outfile" ]] && return 1
@@ -126,7 +153,6 @@ is_complete() {
   return 0
 }
 
-# Discover chapters for a book, populate CHAPTERS array
 discover_chapters() {
   local book=$1
   local chapter_dir="sources/chapters/${book}"
@@ -145,7 +171,6 @@ discover_chapters() {
   TOTAL_WAVES=$(( (${#CHAPTERS[@]} + WAVE_SIZE - 1) / WAVE_SIZE ))
 }
 
-# Find incomplete waves, populate INCOMPLETE_WAVES array
 find_incomplete_waves() {
   local book=$1
   local extract_dir="extractions/mechanical/${book}"
@@ -175,10 +200,10 @@ usage() {
 extract.sh — Unified extraction for the Weirwood Network
 
 Subcommands:
-  extract.sh check                                  Verify source files & prerequisites
-  extract.sh status <book>                          Show progress (wave table, costs)
-  extract.sh launch <book> -t <N> -w <N> [-m model] Open iTerm tabs to run waves
-  extract.sh run <book> --wave <N> [-m model]       Run a single wave (used by iTerm tabs)
+  extract.sh check                                   Verify source files & prerequisites
+  extract.sh status <book>                           Show progress (wave table)
+  extract.sh launch <book> -t <N> -w <N> [-m model]  Open iTerm tabs to run waves
+  extract.sh run <book> --wave <N> [-m model]        Run a single wave (used by iTerm tabs)
 
 Shortcut (via shell function — use this instead):
   weirwood                 # help + all-books overview
@@ -187,10 +212,11 @@ Shortcut (via shell function — use this instead):
   weirwood acok 2 3 claude-sonnet-4-6  # launch with specific model
   weirwood stop            # soft stop — halt after current wave
 
-How it works:
-  Chapters are grouped into waves of 5. 'launch' finds incomplete waves,
-  distributes them across iTerm tabs, and each tab runs its waves sequentially.
-  Run the same command again later — it picks up where it left off.
+Race protection:
+  Each chapter is claimed atomically via a CSV-based lock before extraction
+  starts. A second terminal starting the same wave will see the claim and
+  skip already-claimed chapters. Stale claims (from crashed terminals) are
+  automatically cleared on startup via extract-status-sweep.py.
 
 Soft stop:
   'weirwood stop' (or 'touch /tmp/extraction-stop') creates a marker file.
@@ -234,7 +260,7 @@ total_cost = 0.0; total_input = 0; total_output = 0; chapters_tracked = 0
 with open('$STATS_FILE') as f:
     reader = csv.DictReader(f)
     for row in reader:
-        if row.get('status') != 'ok': continue
+        if row.get('status') not in ('done', 'ok'): continue
         cost = row.get('cost_usd', '0')
         try:
             c = float(cost)
@@ -270,7 +296,6 @@ elif total_output > 0:
     return 0
   fi
 
-  # Build wave -> missing chapters mapping
   declare -A wave_missing
   local -a wave_order
   for (( i=0; i<${#CHAPTERS[@]}; i++ )); do
@@ -286,7 +311,6 @@ elif total_output > 0:
     fi
   done
 
-  # Show completed waves
   local -a done_waves=()
   for (( w=1; w<=TOTAL_WAVES; w++ )); do
     [[ -z "${wave_missing[$w]:-}" ]] && done_waves+=("$w")
@@ -296,7 +320,6 @@ elif total_output > 0:
     echo ""
   fi
 
-  # Wave table
   local wcol=5 ccol=10
   for w in "${wave_order[@]}"; do
     (( ${#wave_missing[$w]} > ccol )) && ccol=${#wave_missing[$w]}
@@ -355,8 +378,17 @@ cmd_run() {
   mkdir -p "$STATS_DIR"
   local STATS_FILE
   STATS_FILE=$(stats_file_for "$book")
+
+  # Migrate old-schema CSV to new schema (idempotent)
+  python3 scripts/migrate-stats-csv.py "$STATS_FILE" 2>/dev/null || true
+
+  # Sweep stale started/working rows from crashed terminals
+  python3 scripts/extract-status-sweep.py "$STATS_FILE" \
+    --heartbeat-max-age 90 --row-max-age 1800 2>/dev/null || true
+
+  # Create CSV with new header if it doesn't exist yet
   if [[ ! -f "$STATS_FILE" ]]; then
-    echo "chapter,book,wave,status,start_time,end_time,duration_s,input_tokens,cache_creation_tokens,cache_read_tokens,output_tokens,total_tokens,cost_usd" > "$STATS_FILE"
+    echo "chapter,book,wave,status,start_time,end_time,duration_s,input_tokens,cache_creation_tokens,cache_read_tokens,output_tokens,total_tokens,cost_usd,last_heartbeat,terminal_id,retry_at" > "$STATS_FILE"
   fi
 
   # Slice chapters for this wave
@@ -380,6 +412,17 @@ cmd_run() {
   local -a failed_list
   wave_start=$(date +%s)
 
+  # Heartbeat PID (set/cleared per chapter; accessible from _cleanup via dynamic scope)
+  local _HEARTBEAT_PID=""
+
+  # Cleanup trap: kill heartbeat and release any held lock on exit/interrupt
+  _cleanup() {
+    [[ -n "$_HEARTBEAT_PID" ]] && kill "$_HEARTBEAT_PID" 2>/dev/null || true
+    _HEARTBEAT_PID=""
+    release_stats_lock 2>/dev/null || true
+  }
+  trap _cleanup INT TERM EXIT
+
   for ch in "${wave_chapters[@]}"; do
     local src="${chapter_dir}/${ch}.md"
     local out="${extract_dir}/${ch}.extraction.md"
@@ -388,22 +431,39 @@ cmd_run() {
       echo "⏭️  SKIP: $src not found"
       failures=$((failures + 1))
       failed_list+=("$ch (source missing)")
-      echo "$ch,$book,$wave,skip-no-source,,,,,,,,," >> "$STATS_FILE"
+      echo "$ch,$book,$wave,skipped-no-source,,,,,,,,,,,," >> "$STATS_FILE"
       continue
     fi
 
-    # Check if already complete
-    if [[ "$force" == false ]] && is_complete "$out"; then
-      local lc
-      lc=$(wc -l < "$out" | tr -d ' ')
-      echo "⏭️  SKIP: $ch already extracted (${lc} lines)"
-      echo "$ch,$book,$wave,skip-done,,,,,,,,," >> "$STATS_FILE"
-      successes=$((successes + 1))
-      continue
+    # ── Atomic claim (Bug B fix) ──────────────────────────────────────────────
+    # --force bypasses the done-check but still respects active claims.
+    local claim_result
+    if [[ "$force" == true ]]; then
+      # For --force: treat skip-already-done as claimable; still block on active claims
+      claim_result=$(claim_chapter "$ch" "$wave")
+      [[ "$claim_result" == "skip-already-done" ]] && claim_result="claim"
+    else
+      claim_result=$(claim_chapter "$ch" "$wave")
     fi
 
-    # Check if partially done (tarnished)
-    if [[ -f "$out" && "$force" == false ]]; then
+    case "$claim_result" in
+      skip-already-done)
+        local lc; lc=$(wc -l < "$out" 2>/dev/null | tr -d ' ') || lc="?"
+        echo "⏭️  SKIP: $ch already done (${lc} lines)"
+        successes=$((successes + 1))
+        continue ;;
+      skip-claimed:*)
+        local claimant="${claim_result#skip-claimed:}"
+        echo "⏭️  SKIP: $ch claimed by ${claimant}"
+        continue ;;
+      claim-after-stale)
+        echo "🔄 Re-claiming: $ch (stale claim cleared)" ;;
+      *)
+        ;; # claim — proceed normally
+    esac
+
+    # Informational: warn if the output file already exists but is incomplete
+    if [[ -f "$out" ]]; then
       local reason="" lc
       lc=$(wc -l < "$out" | tr -d ' ')
       (( lc < 100 )) && reason="only ${lc} lines"
@@ -412,7 +472,7 @@ cmd_run() {
         grep -q "$section" "$out" || missing_sections+="${section#### }, "
       done
       [[ -n "$missing_sections" ]] && reason="${reason:+$reason, }missing: ${missing_sections%, }"
-      echo "🔄 RE-EXTRACTING: $ch (incomplete: $reason)"
+      [[ -n "$reason" ]] && echo "🔄 RE-EXTRACTING: $ch (incomplete: $reason)"
     fi
 
     local logfile="/tmp/extraction-${ch}.log"
@@ -433,6 +493,16 @@ Produce the extraction and write it to: ${out}
 
 Follow the schema exactly. Overwrite any existing file. Do not reference other chapters — treat this chapter in complete isolation."
 
+    # Heartbeat: append a 'working' row every 30s so the sweep can detect live terminals
+    local _ch_hb="$ch" _wave_hb="$wave"
+    (
+      while sleep 30; do
+        local hb_now; hb_now=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
+        echo "${_ch_hb},${book},${_wave_hb},working,,,,,,,,,,${hb_now},${TERMINAL_ID}," >> "$STATS_FILE"
+      done
+    ) &
+    _HEARTBEAT_PID=$!
+
     local status
     if claude -p --dangerously-skip-permissions --model "$model" --verbose \
          --output-format stream-json "$prompt" > "$jsonfile" 2>&1; then
@@ -441,12 +511,15 @@ Follow the schema exactly. Overwrite any existing file. Do not reference other c
       status="fail"
     fi
 
+    kill "$_HEARTBEAT_PID" 2>/dev/null || true
+    _HEARTBEAT_PID=""
+
     local ch_end ch_end_fmt elapsed
     ch_end=$(date +%s)
     ch_end_fmt=$(date '+%Y-%m-%d %H:%M:%S')
     elapsed=$(( ch_end - ch_start ))
 
-    # Extract token usage from result event
+    # Extract token usage from the stream-json result event
     local INPUT_TOKENS=0 CACHE_CREATION=0 CACHE_READ=0 OUTPUT_TOKENS=0 COST_USD=0
     eval $(python3 -c "
 import json
@@ -471,7 +544,7 @@ if not found:
 " 2>/dev/null)
     local total_tokens=$(( INPUT_TOKENS + CACHE_CREATION + CACHE_READ + OUTPUT_TOKENS ))
 
-    # Extract readable text for log
+    # Extract readable text for the log file
     python3 -c "
 import json
 for line in open('$jsonfile'):
@@ -485,16 +558,17 @@ for line in open('$jsonfile'):
     except: pass
 " > "$logfile" 2>/dev/null || true
 
-    # Check for rate limit rejection in JSON output
+    # Check for rate limit rejection
     local rate_limited=false
     if grep -q '"status":"rejected"' "$jsonfile" 2>/dev/null && \
        grep -q '"rateLimitType"' "$jsonfile" 2>/dev/null; then
       rate_limited=true
     fi
 
+    local final_status retry_at=""
     if [[ "$status" == "ok" ]]; then
+      final_status="done"
       echo "  ✅ $ch (${elapsed}s | in:${INPUT_TOKENS} cache_create:${CACHE_CREATION} cache_read:${CACHE_READ} out:${OUTPUT_TOKENS} | \$${COST_USD})"
-      # Show extraction summary from the output file
       if [[ -f "$out" ]]; then
         local n_chars n_events n_locs n_rels n_lines
         n_lines=$(wc -l < "$out" | tr -d ' ')
@@ -507,15 +581,16 @@ for line in open('$jsonfile'):
       successes=$((successes + 1))
       wave_input=$(( wave_input + INPUT_TOKENS + CACHE_CREATION + CACHE_READ ))
       wave_output=$(( wave_output + OUTPUT_TOKENS ))
+      echo "$ch,$book,$wave,${final_status},${ch_start_fmt},${ch_end_fmt},${elapsed},${INPUT_TOKENS},${CACHE_CREATION},${CACHE_READ},${OUTPUT_TOKENS},${total_tokens},${COST_USD},,${TERMINAL_ID}," >> "$STATS_FILE"
     else
       echo "  ❌ $ch (${elapsed}s)"
       failures=$((failures + 1))
       failed_list+=("$ch")
 
       if [[ "$rate_limited" == true ]]; then
-        # Extract reset time from the JSON if available
-        local reset_info=""
-        reset_info=$(python3 -c "
+        final_status="failed-rate"
+        local reset_info="" resets_at_ts=""
+        eval $(python3 -c "
 import json
 for line in open('$jsonfile'):
     line = line.strip()
@@ -529,37 +604,45 @@ for line in open('$jsonfile'):
                 rtype = info.get('rateLimitType', 'unknown')
                 if ts > 0:
                     import datetime
-                    reset_dt = datetime.datetime.fromtimestamp(ts)
-                    print(f'{rtype} limit — resets at {reset_dt.strftime(\"%H:%M %Z\")}')
+                    reset_dt = datetime.datetime.fromtimestamp(ts, tz=datetime.timezone.utc)
+                    print(f'reset_info=\"{rtype} limit — resets at {reset_dt.strftime(\"%H:%M UTC\")}\"')
+                    print(f'resets_at_ts={ts}')
                 else:
-                    print(f'{rtype} limit hit')
+                    print(f'reset_info=\"{rtype} limit hit\"')
                 break
     except: pass
-" 2>/dev/null || echo "rate limit hit")
+" 2>/dev/null || true)
+        [[ -z "${reset_info:-}" ]] && reset_info="rate limit hit"
+        if [[ -n "${resets_at_ts:-}" ]]; then
+          retry_at=$(python3 -c "import datetime; print(datetime.datetime.fromtimestamp(${resets_at_ts}, tz=datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ'))" 2>/dev/null || echo "")
+        fi
         echo ""
         echo "  🚫 RATE LIMIT: ${reset_info}"
         echo "     Halting wave — remaining chapters would all fail immediately."
         echo ""
-        # Mark remaining chapters as skipped in stats
+        echo "$ch,$book,$wave,${final_status},${ch_start_fmt},${ch_end_fmt},${elapsed},${INPUT_TOKENS},${CACHE_CREATION},${CACHE_READ},${OUTPUT_TOKENS},${total_tokens},${COST_USD},,${TERMINAL_ID},${retry_at}" >> "$STATS_FILE"
         local hit_limit=false
         for remaining_ch in "${wave_chapters[@]}"; do
           if [[ "$hit_limit" == true ]]; then
-            echo "$remaining_ch,$book,$wave,skip-rate-limit,,,,,,,,," >> "$STATS_FILE"
+            echo "$remaining_ch,$book,$wave,failed-rate,,,,,,,,,,,," >> "$STATS_FILE"
           fi
           [[ "$remaining_ch" == "$ch" ]] && hit_limit=true
         done
         break
+      else
+        final_status="failed-error"
+        echo "$ch,$book,$wave,${final_status},${ch_start_fmt},${ch_end_fmt},${elapsed},${INPUT_TOKENS},${CACHE_CREATION},${CACHE_READ},${OUTPUT_TOKENS},${total_tokens},${COST_USD},,${TERMINAL_ID}," >> "$STATS_FILE"
       fi
     fi
-
-    echo "$ch,$book,$wave,$status,$ch_start_fmt,$ch_end_fmt,$elapsed,$INPUT_TOKENS,$CACHE_CREATION,$CACHE_READ,$OUTPUT_TOKENS,$total_tokens,$COST_USD" >> "$STATS_FILE"
   done
+
+  # Disable the cleanup trap before normal exit
+  trap - INT TERM EXIT
 
   local wave_elapsed wave_total_tokens
   wave_elapsed=$(( $(date +%s) - wave_start ))
   wave_total_tokens=$(( wave_input + wave_output ))
 
-  # Wave cost
   local wave_cost
   wave_cost=$(python3 -c "
 import csv
@@ -567,8 +650,9 @@ total = 0.0
 with open('$STATS_FILE') as f:
     for row in csv.DictReader(f):
         if row.get('wave') == '$wave' and row.get('book') == '$book':
-            try: total += float(row.get('cost_usd', 0))
-            except: pass
+            if row.get('status') in ('done', 'ok'):
+                try: total += float(row.get('cost_usd', 0))
+                except: pass
 print(f'{total:.4f}')
 " 2>/dev/null || echo "0")
 
@@ -587,7 +671,6 @@ print(f'{total:.4f}')
     echo "Failed chapters: ${failed_list[*]}"
   fi
 
-  # Append to progress log
   local timestamp chapter_list
   timestamp=$(date '+%Y-%m-%d %H:%M')
   chapter_list=$(IFS=', '; echo "${wave_chapters[*]}")
@@ -599,23 +682,21 @@ print(f'{total:.4f}')
     echo "- **${book^^} Wave $wave** ($timestamp) — $chapter_list ($successes/${#wave_chapters[@]} ok, failed: $fail_str) [$(format_duration "$wave_elapsed"), ${wave_total_tokens} tokens, \$${wave_cost}]" >> "$PROGRESS_FILE"
   fi
 
-  # Update worklog.md checklist with current progress
   update_worklog "$book"
 }
 
 # ── CMD: launch ───────────────────────────────────────────────────────────────
 
 cmd_launch() {
-  local book="" terminals="" waves_per="" model="$DEFAULT_MODEL" delay="" chain=false
+  local book="" terminals="" waves_per="" model="$DEFAULT_MODEL"
 
   while [[ $# -gt 0 ]]; do
     case "$1" in
       --terminals|-t) terminals="$2"; shift 2 ;;
       --waves|-w)     waves_per="$2"; shift 2 ;;
       --model|-m)     model="$2";     shift 2 ;;
-      --delay|-d)     delay="$2";     shift 2 ;;
-      --chain|-c)     chain=true;     shift   ;;
-      --help|-h)      echo "Usage: extract.sh launch <book> -t <terminals> -w <waves_per_terminal> [-m model] [--delay <duration>] [--chain]"; return 0 ;;
+      --help|-h)      echo "Usage: extract.sh launch <book> -t <terminals> -w <waves_per_terminal> [-m model]"; return 0 ;;
+      --chain|--delay) echo "ERROR: --chain and --delay were removed. Launch separate runs instead." >&2; return 1 ;;
       -*)             echo "Unknown option: $1" >&2; return 1 ;;
       *)              book="$1";      shift   ;;
     esac
@@ -638,10 +719,8 @@ cmd_launch() {
     return 0
   fi
 
-  # Cap to what's available
   if (( total_needed > available )); then
     echo "Note: only $available incomplete waves remain (requested $total_needed)"
-    # Rebalance: reduce waves_per or terminals
     if (( available <= terminals )); then
       terminals=$available
       waves_per=1
@@ -675,7 +754,6 @@ cmd_launch() {
     wave_display=$(IFS=', '; echo "${term_waves[*]}")
     echo "Terminal $((t+1)): waves [${wave_display}]"
 
-    # Build the command — run waves sequentially with stop-file check
     local cmd=""
     if (( ${#term_waves[@]} == 1 )); then
       cmd="./scripts/extract.sh run ${book} --wave ${term_waves[0]} --model ${model}"
@@ -686,16 +764,6 @@ cmd_launch() {
       cmd+="done"
     fi
 
-    # If --chain is set, auto-advance to next batch after delay
-    if [[ "$chain" == "true" && -n "$delay" ]]; then
-      cmd+="; "
-      cmd+="echo ''; "
-      cmd+="echo 'Waiting ${delay} before next batch...'; "
-      cmd+="sleep $(parse_duration_to_seconds "$delay"); "
-      cmd+="./scripts/extract.sh launch ${book} -t ${terminals} -w ${waves_per} -m ${model} --delay '${delay}' --chain"
-    fi
-
-    # Open iTerm2 tab
     osascript <<EOF
 tell application "iTerm2"
   activate
@@ -725,7 +793,6 @@ cmd_check() {
   echo "🔍 Checking source files and prerequisites..."
   echo ""
 
-  # Check raw source files
   local -A RAW_FILES=(
     [agot]="GoT.txt"
     [acok]="ACOK.txt"
@@ -769,7 +836,7 @@ cmd_check() {
       if (( count == expected )); then
         echo "  ✅ ${book^^}: ${count}/${expected} chapters"
       elif (( count > 0 )); then
-        echo "  ⚠️  ${book^^}: ${count}/${expected} chapters (${expected - count} missing)"
+        echo "  ⚠️  ${book^^}: ${count}/${expected} chapters"
         all_ok=false
       else
         echo "  ❌ ${book^^}: no chapter files"
@@ -839,8 +906,6 @@ cmd_check() {
     echo "  python3 scripts/chapter-splitter.py sources/raw/ASOS.txt asos"
     echo "  python3 scripts/chapter-splitter.py sources/raw/AFFC.txt affc"
     echo "  python3 scripts/chapter-splitter.py sources/raw/ADWD.txt adwd"
-    echo ""
-    echo "Or tell Claude Code where your source files are and it can place them."
   fi
   echo ""
 }
