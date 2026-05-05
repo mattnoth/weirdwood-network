@@ -39,3 +39,5 @@
 - **ACOK Wave 4** (2026-05-04 19:25) — acok-bran-06,acok-bran-07,acok-catelyn-01,acok-catelyn-02,acok-catelyn-03 (5/5 ok) [28m 50s, 1152958 tokens, $6.6924]
 
 > Session 33 incident: rows above show duplicate runs (Wave 1 16:55, Wave 3 19:16, Wave 4 19:18+19:25) caused by `--chain` terminal explosion + race condition. Outputs are valid v3 (last-writer-wins), but some chapters extracted twice. ~$19 wasted. See `working/session-details/session-033.md`.
+- **ACOK Wave 6** (2026-05-04 21:33) — acok-daenerys-02,acok-daenerys-03,acok-daenerys-04,acok-daenerys-05,acok-davos-01 (0/5 ok, failed: acok-daenerys-02,acok-daenerys-03,acok-daenerys-04,acok-daenerys-05,acok-davos-01) [5s, 0 tokens, $0.0000]
+- **ACOK Wave 5** (2026-05-04 21:33) — acok-catelyn-04,acok-catelyn-05,acok-catelyn-06,acok-catelyn-07,acok-daenerys-01 (0/5 ok, failed: acok-catelyn-04,acok-catelyn-05,acok-catelyn-06,acok-catelyn-07,acok-daenerys-01) [6s, 0 tokens, $0.0000]

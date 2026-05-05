@@ -7,6 +7,16 @@
 
 ---
 
+## Execution sequencing (READ FIRST)
+
+Two decisions locked in before you touch code:
+
+1. **Locking primitive: `mkdir` on a `.claim` directory. NOT `flock`.** `mkdir` is atomic on every POSIX filesystem and needs zero brew dependencies. macOS doesn't ship `flock` by default and `brew install flock` is a footgun for anyone else who clones this repo. Wherever the design below says `flock -x 9 ... 9>"${STATS_FILE}.lock"`, replace with a `mkdir "${STATS_FILE}.lockdir" 2>/dev/null` acquire + `rmdir "${STATS_FILE}.lockdir"` release pattern, with retry-on-fail loop and a trap to release on SIGINT/SIGTERM/EXIT. Same atomicity guarantee, no dependency.
+
+2. **Mid-session checkpoint — DO NOT skip.** After items 1 (drop `--chain`/`--delay`), 2 (claim system), 3 (sweep), and 7 (migration) are wired, RUN smoke tests 1 (race) and 2 (stale recovery) BEFORE starting items 4 (live status table), 5 (output banners), or 6 (streaming). If the claim system is broken, banners and streaming are wasted work. Commit the bug-fix items first, validate them, then layer the UX cleanup on top in a second commit.
+
+---
+
 ## Why this exists
 
 Session 33 launched `weirwood acok 2 1 claude-opus-4-6 --delay 2h --chain` and discovered two distinct bugs that compounded into a terminal-explosion event. Five iTerm tabs ended up running simultaneously, racing on the same waves, overwriting each other's extraction outputs. Wasted ~$19 in duplicated extractions plus uncounted in-flight calls killed during cleanup. See `working/session-details/session-033.md` for the full incident timeline.

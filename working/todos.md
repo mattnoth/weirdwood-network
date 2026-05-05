@@ -41,6 +41,10 @@ Apply this lens when reviewing existing prompts (mechanical-extractor, wiki-inge
 - [ ] **mechanical-extractor: verbose extraction rules** — Still open. The original spec had richer fact-vs-interpretation explanations (e.g., "Ned thinks about a promise" = fact vs. "Ned is thinking about Lyanna's deathbed promise about Jon" = interpretation). Deferred pending full-book output review.
 - [x] **script-builder: verify POV table completeness** — Done. Found 6 missing headings (THE REAVER, THE BLIND GIRL, A GHOST IN WINTERFELL, THE IRON SUITOR, THE KINGBREAKER, THE QUEEN'S HAND). All added to reference file and splitter.
 
+## Extraction Infrastructure
+
+- [ ] **Hands-off pacing v2 — single-coordinator design** — `--chain`/`--delay` were removed in the Session 33 fix because every-terminal-relaunches is combinatorially unsafe. If hands-off pacing is wanted later, design ONE coordinator process that owns the schedule and dispatches waves at intervals — never spawning new terminals that themselves re-launch. Coordinator reads the stats CSV (already a single source of truth post-fix), claims the next batch of waves, sleeps, dispatches, repeats. Single point of control = no chain explosion possible. Deferred — not currently blocking any work.
+
 ## Timeline & Chronology
 
 - [ ] **Timeline reconstruction pass or script** — Once all books have Pass 1 extractions with `time_markers` fields, build a dedicated pass (or Python script) that attempts fan-community-style relative timeline reconstruction from the captured markers across all chapters. Cross-reference with known travel times, moon-turn references, and seasonal indicators.

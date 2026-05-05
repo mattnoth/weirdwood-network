@@ -249,34 +249,25 @@ cmd_status() {
     fi
   done
 
-  # Cost summary from stats CSV
+  # Token summary from stats CSV
   local STATS_FILE
   STATS_FILE=$(stats_file_for "$book")
   local cost_summary=""
   if [[ -f "$STATS_FILE" ]]; then
     cost_summary=$(python3 -c "
 import csv
-total_cost = 0.0; total_input = 0; total_output = 0; chapters_tracked = 0
+total_input = 0; total_output = 0; chapters_tracked = 0
 with open('$STATS_FILE') as f:
     reader = csv.DictReader(f)
     for row in reader:
         if row.get('status') not in ('done', 'ok'): continue
-        cost = row.get('cost_usd', '0')
-        try:
-            c = float(cost)
-            if c > 0: total_cost += c; chapters_tracked += 1
-        except: pass
+        chapters_tracked += 1
         try: total_input += int(row.get('cache_read_tokens', 0)) + int(row.get('cache_creation_tokens', 0)) + int(row.get('input_tokens', 0))
         except: pass
         try: total_output += int(row.get('output_tokens', 0))
         except: pass
 if chapters_tracked > 0:
-    avg = total_cost / chapters_tracked
-    est = avg * $missing_count
-    print(f'Cost so far: \${total_cost:.2f} across {chapters_tracked} chapters (avg \${avg:.2f}/chapter)')
-    print(f'Estimated remaining: ~\${est:.0f} for $missing_count chapters')
-elif total_output > 0:
-    print(f'Token stats: {total_input:,} input, {total_output:,} output')
+    print(f'Tokens so far: {total_input:,} in / {total_output:,} out across {chapters_tracked} chapters')
 " 2>/dev/null || echo "")
   fi
 
@@ -403,12 +394,14 @@ cmd_run() {
 
   local -a wave_chapters=("${CHAPTERS[@]:$start:$((end - start))}")
 
-  echo "=== ${book^^} Wave ${wave}/${TOTAL_WAVES}: chapters $((start+1))-${end} of ${#CHAPTERS[@]} ==="
+  echo "═════════════════════════════════════════════════════════════════"
+  echo "${book^^} Wave ${wave}/${TOTAL_WAVES} — chapters $((start+1))–${end} of ${#CHAPTERS[@]}"
   echo "Model: $model"
-  echo "Chapters: ${wave_chapters[*]}"
+  echo "═════════════════════════════════════════════════════════════════"
   echo ""
 
   local wave_start successes=0 failures=0 wave_input=0 wave_output=0
+  local ch_idx=0
   local -a failed_list
   wave_start=$(date +%s)
 
@@ -475,13 +468,25 @@ cmd_run() {
       [[ -n "$reason" ]] && echo "🔄 RE-EXTRACTING: $ch (incomplete: $reason)"
     fi
 
+    ch_idx=$(( ch_idx + 1 ))
+
     local logfile="/tmp/extraction-${ch}.log"
     local jsonfile="/tmp/extraction-${ch}.json"
     local ch_start ch_start_fmt
     ch_start=$(date +%s)
     ch_start_fmt=$(date '+%Y-%m-%d %H:%M:%S')
-    echo "--- Extracting: $ch ---"
-    echo "    Started at $ch_start_fmt"
+
+    echo "─────────────────────────────────────────────────────────────────"
+    echo "Chapter ${ch_idx} of ${#wave_chapters[@]}: ${ch}"
+    echo "─────────────────────────────────────────────────────────────────"
+    echo ""
+    echo "[1/3] Preparing"
+    echo "  Source:   ${src}"
+    echo "  Output:   ${out}"
+    echo "  Model:    ${model}"
+    echo "  Started:  ${ch_start_fmt}"
+    echo ""
+    echo "[2/3] Extracting (claude -p running)"
 
     local prompt="You are a mechanical extraction agent for the Weirwood Network project.
 
@@ -503,9 +508,13 @@ Follow the schema exactly. Overwrite any existing file. Do not reference other c
     ) &
     _HEARTBEAT_PID=$!
 
-    local status
-    if claude -p --dangerously-skip-permissions --model "$model" --verbose \
-         --output-format stream-json "$prompt" > "$jsonfile" 2>&1; then
+    local status claude_exit
+    claude -p --dangerously-skip-permissions --model "$model" --verbose \
+      --output-format stream-json "$prompt" 2>&1 \
+      | tee "$jsonfile" \
+      | python3 scripts/stream-claude-output.py
+    claude_exit=${PIPESTATUS[0]}
+    if [[ $claude_exit -eq 0 ]]; then
       status="ok"
     else
       status="fail"
@@ -568,16 +577,14 @@ for line in open('$jsonfile'):
     local final_status retry_at=""
     if [[ "$status" == "ok" ]]; then
       final_status="done"
-      echo "  ✅ $ch (${elapsed}s | in:${INPUT_TOKENS} cache_create:${CACHE_CREATION} cache_read:${CACHE_READ} out:${OUTPUT_TOKENS} | \$${COST_USD})"
-      if [[ -f "$out" ]]; then
-        local n_chars n_events n_locs n_rels n_lines
-        n_lines=$(wc -l < "$out" | tr -d ' ')
-        n_chars=$(grep -c "^|" "$out" 2>/dev/null | head -1 || echo 0)
-        n_events=$(grep -c "^\*\*.*\*\*" "$out" 2>/dev/null || echo 0)
-        n_locs=$(awk '/^## Locations$/,/^## /' "$out" 2>/dev/null | grep -c "^|" || echo 0)
-        n_rels=$(awk '/^## Relationships Observed$/,/^## /' "$out" 2>/dev/null | grep -c "^|" || echo 0)
-        echo "    📋 ${n_lines} lines | ${n_chars} table rows | ${n_events} events | ${n_rels} relationships"
-      fi
+      local n_lines=0
+      [[ -f "$out" ]] && n_lines=$(wc -l < "$out" | tr -d ' ')
+      echo ""
+      echo "[3/3] Complete"
+      echo "  Duration: ${elapsed}s"
+      echo "  Tokens:   in:${INPUT_TOKENS}  cache_create:${CACHE_CREATION}  cache_read:${CACHE_READ}  out:${OUTPUT_TOKENS}"
+      echo "  Output:   ${n_lines} lines"
+      echo ""
       successes=$((successes + 1))
       wave_input=$(( wave_input + INPUT_TOKENS + CACHE_CREATION + CACHE_READ ))
       wave_output=$(( wave_output + OUTPUT_TOKENS ))
@@ -643,43 +650,33 @@ for line in open('$jsonfile'):
   wave_elapsed=$(( $(date +%s) - wave_start ))
   wave_total_tokens=$(( wave_input + wave_output ))
 
-  local wave_cost
-  wave_cost=$(python3 -c "
-import csv
-total = 0.0
-with open('$STATS_FILE') as f:
-    for row in csv.DictReader(f):
-        if row.get('wave') == '$wave' and row.get('book') == '$book':
-            if row.get('status') in ('done', 'ok'):
-                try: total += float(row.get('cost_usd', 0))
-                except: pass
-print(f'{total:.4f}')
-" 2>/dev/null || echo "0")
-
   echo ""
+  echo "═════════════════════════════════════════════════════════════════"
   if (( failures == 0 )); then
-    echo "✅ === ${book^^} Wave ${wave}/${TOTAL_WAVES} complete ==="
+    echo "✅ ${book^^} Wave ${wave}/${TOTAL_WAVES} complete"
   else
-    echo "⚠️  === ${book^^} Wave ${wave}/${TOTAL_WAVES} complete (with failures) ==="
+    echo "⚠️  ${book^^} Wave ${wave}/${TOTAL_WAVES} complete (with failures)"
   fi
-  echo "Succeeded: $successes / ${#wave_chapters[@]}"
-  echo "Failed: $failures"
-  echo "Wall time: $(format_duration "$wave_elapsed")"
-  echo "Tokens: input=$wave_input output=$wave_output total=$wave_total_tokens"
-  echo "Cost: \$${wave_cost}"
+  echo "═════════════════════════════════════════════════════════════════"
+  echo "  Succeeded:  ${successes} / ${#wave_chapters[@]}"
+  echo "  Failed:     ${failures}"
+  echo "  Wall time:  $(format_duration "$wave_elapsed")"
+  printf "  Tokens:     %s in  /  %s out\n" \
+    "$(printf "%'d" "$wave_input")" "$(printf "%'d" "$wave_output")"
   if (( failures > 0 )); then
-    echo "Failed chapters: ${failed_list[*]}"
+    echo "  Failed:     ${failed_list[*]}"
   fi
+  echo ""
 
   local timestamp chapter_list
   timestamp=$(date '+%Y-%m-%d %H:%M')
   chapter_list=$(IFS=', '; echo "${wave_chapters[*]}")
   if (( failures == 0 )); then
-    echo "- **${book^^} Wave $wave** ($timestamp) — $chapter_list (${#wave_chapters[@]}/${#wave_chapters[@]} ok) [$(format_duration "$wave_elapsed"), ${wave_total_tokens} tokens, \$${wave_cost}]" >> "$PROGRESS_FILE"
+    echo "- **${book^^} Wave $wave** ($timestamp) — $chapter_list (${#wave_chapters[@]}/${#wave_chapters[@]} ok) [$(format_duration "$wave_elapsed"), ${wave_total_tokens} tokens]" >> "$PROGRESS_FILE"
   else
     local fail_str
     fail_str=$(IFS=', '; echo "${failed_list[*]}")
-    echo "- **${book^^} Wave $wave** ($timestamp) — $chapter_list ($successes/${#wave_chapters[@]} ok, failed: $fail_str) [$(format_duration "$wave_elapsed"), ${wave_total_tokens} tokens, \$${wave_cost}]" >> "$PROGRESS_FILE"
+    echo "- **${book^^} Wave $wave** ($timestamp) — $chapter_list ($successes/${#wave_chapters[@]} ok, failed: $fail_str) [$(format_duration "$wave_elapsed"), ${wave_total_tokens} tokens]" >> "$PROGRESS_FILE"
   fi
 
   update_worklog "$book"
