@@ -4,6 +4,31 @@
 
 ---
 
+## URGENT — Blockers
+
+- [ ] **`scripts/extract.sh` chain explosion + race condition fix (Session 33 incident)** — Two bugs surfaced: (A) `--chain` causes every spawned terminal to re-launch `extract.sh launch -t N`, doubling tab count each cycle (terminal explosion); (B) `is_complete()` only detects finished files, so two parallel terminals both decide "missing" and both extract the same chapter (last-writer-wins, file overwrite). **Fix decided (Session 33 endsession):** (a) drop `--chain` and `--delay` entirely from extract.sh + weirwood.zsh; (b) extend stats CSV with per-chapter status enum (`not_started`/`started`/`working`/`done`/`failed-rate`/`failed-error`/`failed-stale`/`skipped-done`/`skipped-claimed`) + `last_heartbeat` + `terminal_id` columns; (c) atomic claim via `flock` on the CSV; (d) startup stale-sweep (>30min `started`/`working` rows → `failed-stale`); (e) `weirwood <book>` shows live per-chapter status. Sonnet-class work — DO NOT use Opus. **Blocks all further extraction launches.** Full design in `progress/continue-prompts/2026-05-04-urgent-fix-chain-and-race-bug.md`. Detail in `working/session-details/session-033.md`.
+  → continue: `2026-05-04-urgent-fix-chain-and-race-bug.md`
+
+---
+
+## Model-fit Policy (standing rule, 2026-05-04)
+
+> **Default to the cheapest model that can do the job.** Opus only when reasoning depth genuinely requires it.
+
+- **Bash/Python script edits, simple agent loops:** Sonnet 4.6 or Haiku 4.5.
+- **Mechanical extraction (Pass 1):** Currently Opus (AGOT/AFFC/ACOK precedent). **Open question:** would Sonnet 4.6 produce equivalent v3 output? Smoke-test before committing Opus to ASOS (82 ch) + ADWD (73 ch). See todo below.
+- **Schema audits, full-corpus reviews:** Opus is justified (Session 29 paid $50 for an audit that mattered).
+- **Orchestration / coordination:** Sonnet.
+- **Wiki Pass 2 stages 3+:** mostly Python now; agent prompts (review, etc.) → Sonnet default.
+- **When writing new agent prompts:** include a `model:` field in the prompt frontmatter; pick the cheapest tier that meets the task. Document the rationale in the prompt header so future sessions don't blindly upgrade.
+
+Apply this lens when reviewing existing prompts (mechanical-extractor, wiki-ingester, voice-analyzer, etc.) — if Opus was chosen by default rather than necessity, downgrade with a smoke-test gate.
+
+- [ ] **Pass 1 model-fit smoke test (Opus → Sonnet 4.6) — DEFERRED until one book remains** — Matt wants at least one full Opus pass on every book before considering Sonnet for Pass 1. ASOS currently being run on Opus by Matt's friend (shared Max account). After ASOS lands and ADWD is the only book remaining, revisit: pick 2 ADWD chapters (1 dialogue-heavy, 1 action-heavy), run with Sonnet 4.6, side-by-side compare against an Opus baseline for 12 Raw Entity List headers, Food & Drink / Hospitality / Physical Environment sections, character appearances, confidence-tier markers. If ≥90% parity, switch default for ADWD. **Do not include in any current continue prompt.**
+- [ ] **Audit existing agent prompts for model-fit drift** — Sweep `.claude/agents/*.md` for hardcoded Opus usage. Where the task is mechanical (parsing, classification, structured emission), drop to Sonnet/Haiku with a smoke-test gate. Where the task requires deep reasoning (cross-corpus contradiction surfacing, schema-drift audit), keep Opus. Document each decision in a comment block at the top of the prompt.
+
+---
+
 ## Agent Improvements
 
 - [x] **mechanical-extractor: test variations** — Done 2026-04-22. Smoke test on 3 AGOT chapters (prologue, bran-01, catelyn-01) surfaced three issues: cross-chapter dramatic-irony leak, no confidence tier convention, missing `first_available` field in metadata. All addressed via prompt patches (see below).

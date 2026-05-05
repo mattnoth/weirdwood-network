@@ -691,7 +691,7 @@ cmd_launch() {
       cmd+="; "
       cmd+="echo ''; "
       cmd+="echo 'Waiting ${delay} before next batch...'; "
-      cmd+="sleep $(parse_duration_to_seconds '$delay'); "
+      cmd+="sleep $(parse_duration_to_seconds "$delay"); "
       cmd+="./scripts/extract.sh launch ${book} -t ${terminals} -w ${waves_per} -m ${model} --delay '${delay}' --chain"
     fi
 

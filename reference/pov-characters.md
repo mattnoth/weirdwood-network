@@ -1,3 +1,4 @@
+
 # POV Character Lookup Table
 
 > **Purpose:** Canonical mapping of chapter heading text → normalized character name for the chapter splitter script. Used by the script-builder agent when constructing `scripts/chapter-splitter.py`.

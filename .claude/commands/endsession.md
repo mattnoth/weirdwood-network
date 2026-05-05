@@ -26,6 +26,11 @@ Run the end-of-session checklist for the Weirwood Network project. Do each step 
 
 7. **Verify .gitignore** — Confirm sources/raw/ and sources/chapters/ are still in .gitignore. Run `git status` and flag if any copyrighted content is showing as untracked.
 
+7b. **Verify extraction archive rules** — If extractions ran this session:
+   - **Check:** Do old archives (v1, v2, etc. in `extractions/archives/`) still exist? They should NOT be deleted.
+   - **Check:** Did new extractions land in canonical `extractions/mechanical/{book}/`? They should NOT be in archive folders.
+   - **If violated:** Flag the issue before committing. Archives are permanent; new output is canonical-only.
+
 8. **Show session summary** — Print a brief summary of what was accomplished and what the next session should pick up.
 
 9. **Output copy/paste handoff block** — At the very end, print a clearly-delimited code block that Matt can paste into a fresh agent conversation as-is. Format:

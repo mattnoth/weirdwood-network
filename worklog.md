@@ -61,7 +61,7 @@ This is your project memory. When you come back after a break, read Current Stat
 - [x] Pass 1 v2 run on ACOK (50/70, archived to `extractions/archives/acok-v2/` — 4-category Raw Entity List)
 - [x] Pass 1 v3 prompt update: expanded Raw Entity List to 12 categories (10 + Other catch-all), added strict formatting rules (all headers required, no merging/renaming, "None" for empty categories)
 - [x] Pass 1 v3 run on AGOT (73/73 — complete)
-- [x] Pass 1 mechanical run on ACOK (70/70 — 20 final with v3, 50 archived in `acok-v2-original-2026-05-04/` pending v3 re-extraction. **Ready for waves 1-10 re-run:** `weirwood acok 2 1 claude-opus-4-6 --delay 2h --chain`)
+- [ ] Pass 1 v3 run on ACOK (40/70 — waves 1-4 + 11-14 v3; waves 5-10 still v2 in archive. **BLOCKED on chain/race bug fix:** `progress/continue-prompts/2026-05-04-urgent-fix-chain-and-race-bug.md`)
 - [ ] Pass 1 v3 run on ASOS (0/82)
 - [x] Pass 1 v3 run on AFFC (46/46 — complete)
 - [ ] Pass 1 v3 run on ADWD (0/73)
@@ -178,6 +178,25 @@ This is your project memory. When you come back after a break, read Current Stat
 ## Session Log
 
 > Newest first. One entry per work session.
+
+### Session 33 — ACOK chain-launch terminal explosion + race-condition bug discovery (2026-05-04)
+**Detail:** `working/session-details/session-033.md`
+
+**Changes made:**
+- `extractions/mechanical/acok/` — waves 1-4 re-extracted to v3 (acok-arya-01..10, acok-bran-01..07, acok-catelyn-01..03). Some chapters were extracted twice in parallel due to bug below; second-finishing version won. All landed valid v3.
+- `progress/continue-prompts/2026-05-04-urgent-fix-chain-and-race-bug.md` — NEW (BLOCKER continue prompt).
+- `progress/continue-prompts/2026-05-04-acok-waves1-10-rerun.md` — UPDATED: marked BLOCKED on the urgent fix, status reflects 40/70 v3 with waves 5-10 still v2.
+- `working/session-details/session-033.md` — NEW.
+- `working/todos.md` — added BLOCKER row for chain/race fix; added model-fit smoke-test todo for Pass 1 (Sonnet vs Opus); flagged model-fit-rule as standing principle.
+- `worklog.md` — ACOK pipeline line updated to 40/70 + BLOCKED. This entry.
+
+**Decisions:** Two distinct bugs in `scripts/extract.sh` discovered. **Bug A (extract.sh:689-695):** `--chain` causes terminal explosion — every spawned terminal independently re-launches `extract.sh launch -t N --chain`, doubling the tab count each cycle (2→4→8). **Bug B (extract.sh:117-127 + cmd_run loop):** `is_complete()` only detects finished files, not in-progress claims. Two parallel terminals can both decide "missing" and both extract the same chapter, last-writer-wins. Bug B fires whenever Bug A spawns overlapping waves, OR on any accidental double-launch. My `pkill` cleanup made things WORSE because the terminal command lines use `;` chaining, so killing each step advanced the chain to the next step (which spawned MORE tabs). Correct stop is `weirwood stop` or closing iTerm tabs. **Fix decided + iterated to a six-item patch:** (1) drop `--chain`/`--delay` entirely; (2) per-chapter status enum in the stats CSV (`not_started`/`started`/`working`/`done`/`failed-rate`/`failed-error`/`failed-stale`/`skipped-*`) + new columns (`last_heartbeat`, `terminal_id`, `retry_at`) + atomic claim via `flock`; (3) startup stale-sweep (heartbeat >90s primary + row age >30min fallback → `failed-stale`); (4) `weirwood <book>` live status table only when started/working rows exist (otherwise existing static summary); (5) terminal log cleanup — drop all dollar amounts, delete broken `0\n0 events | 0\n0 relationships` counters, restructure into `[1/3] Preparing / [2/3] Extracting / [3/3] Complete` phases with `═` wave banners; (6) stream `claude -p`'s assistant output to terminal via tee → `scripts/stream-claude-output.py` → stderr with `│ ` prefix (full text + tool_use, no flag — terminal output doesn't enter context). Plus one-time auto-migration of existing CSVs with `.bak` backup. Sonnet-class work, do not use Opus. **Model-fit policy** added per Matt's request: default to cheapest model that can do the job; Opus only when reasoning depth genuinely requires it. **Sonnet smoke-test for Pass 1 explicitly OUT of urgent-fix scope** — Matt wants at least one full Opus pass on every book first (friend is running ASOS on Opus from shared Max); revisit once one book remains. ~$19 wasted on duplicate extractions; in-flight Claude calls also wasted to pkill.
+
+**What's next:**
+- **URGENT first:** `progress/continue-prompts/2026-05-04-urgent-fix-chain-and-race-bug.md` — fix both bugs in extract.sh, smoke-test, commit.
+- **Then:** `progress/continue-prompts/2026-05-04-acok-waves1-10-rerun.md` — re-run 30 remaining v2 chapters (waves 5-10) with the fixed launcher. NO `--chain` even after fix.
+- ASOS / ADWD via `progress/continue-prompts/2026-05-02-pass1-mechanical-remaining-books.md`. Open: Sonnet vs Opus smoke-test before committing Opus to 155 more chapters.
+- Stage 4 v1 — `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md` — gated on 344/344 Pass 1 complete.
 
 ### Session 32 — ACOK v3 confirmation + ready for auto-advance launch (2026-05-04)
 

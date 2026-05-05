@@ -205,7 +205,7 @@ weirwood() {
         # Pass through remaining args: model (if not yet seen), --delay, --chain
         while [[ $# -gt 0 ]]; do
           case "$1" in
-            --delay|-d|--chain|-c) extra_args+=("$1" "$2"); shift 2 ;;
+            --delay|-d) extra_args+=("$1" "$2"); shift 2 ;;
             --chain|-c) extra_args+=("$1"); shift ;;
             -*)         extra_args+=("$1"); shift ;;
             *)          # Assume it's the model if not yet set
