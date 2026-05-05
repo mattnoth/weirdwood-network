@@ -61,7 +61,7 @@ This is your project memory. When you come back after a break, read Current Stat
 - [x] Pass 1 v2 run on ACOK (50/70, archived to `extractions/archives/acok-v2/` — 4-category Raw Entity List)
 - [x] Pass 1 v3 prompt update: expanded Raw Entity List to 12 categories (10 + Other catch-all), added strict formatting rules (all headers required, no merging/renaming, "None" for empty categories)
 - [x] Pass 1 v3 run on AGOT (73/73 — complete)
-- [ ] Pass 1 v3 run on ACOK (40/70 — waves 1, 2, 3, 4, 11, 12, 13, 14 complete)
+- [x] Pass 1 v3 run on ACOK (70/70 — complete)
 - [ ] Pass 1 v3 run on ASOS (0/82)
 - [x] Pass 1 v3 run on AFFC (46/46 — complete)
 - [ ] Pass 1 v3 run on ADWD (0/73)
