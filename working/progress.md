@@ -29,3 +29,7 @@
 - **ASOS Wave 1** (2026-05-01 19:38) — asos-arya-01,asos-arya-02,asos-arya-03,asos-arya-04,asos-arya-05 (5/5 ok) [4m 21s, 132197 tokens, $2.0660]
 - **ASOS Wave 1** (2026-05-01 20:05) — asos-arya-01,asos-arya-02,asos-arya-03,asos-arya-04,asos-arya-05 (5/5 ok) [23m 0s, 656676 tokens, $5.0085]
 - **ASOS Wave 2** (2026-05-01 21:12) — asos-arya-06,asos-arya-07,asos-arya-08,asos-arya-09,asos-arya-10 (5/5 ok) [34m 42s, 751258 tokens, $3.9502]
+- **ASOS Wave 3** (2026-05-02 14:27) — asos-arya-11,asos-arya-12,asos-arya-13,asos-bran-01,asos-bran-02 (5/5 ok) [26m 40s, 744833 tokens, $3.4347]
+- **ASOS Wave 3** (2026-05-02 16:43) — asos-arya-11,asos-arya-12,asos-arya-13,asos-bran-01,asos-bran-02 (5/5 ok) [0s, 0 tokens, $3.4347]
+- **ASOS Wave 4** (2026-05-02 17:05) — asos-bran-03,asos-bran-04,asos-catelyn-01,asos-catelyn-02,asos-catelyn-03 (5/5 ok) [22m 19s, 861410 tokens, $3.2831]
+- **ASOS Wave 5** (2026-05-03 17:48) — asos-catelyn-04,asos-catelyn-05,asos-catelyn-06,asos-catelyn-07,asos-daenerys-01 (5/5 ok) [29m 25s, 903263 tokens, $3.8711]
