@@ -202,15 +202,16 @@ weirwood() {
       else
         local terminals="$2"
         local waves="${3:?Usage: weirwood <book> <terminals> <waves> [model]}"
-        local model="${4:-}"
-        shift 4
+        shift 3
+        local model=""
         local extra_args=()
         # Pass through remaining args (model, unknown flags)
         while [[ $# -gt 0 ]]; do
           case "$1" in
             --chain|--delay) echo "ERROR: --chain and --delay were removed. Launch separate runs instead." >&2; return 1 ;;
+            --model|-m) model="$2"; shift 2 ;;
             -*)         extra_args+=("$1"); shift ;;
-            *)          # Assume it's the model if not yet set
+            *)          # Positional model arg (legacy: weirwood <book> <t> <w> <model>)
                         [[ -z "$model" ]] && model="$1"
                         shift ;;
           esac

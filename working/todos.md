@@ -4,13 +4,6 @@
 
 ---
 
-## URGENT — Blockers
-
-- [ ] **`scripts/extract.sh` chain explosion + race condition fix (Session 33 incident)** — Two bugs surfaced: (A) `--chain` causes every spawned terminal to re-launch `extract.sh launch -t N`, doubling tab count each cycle (terminal explosion); (B) `is_complete()` only detects finished files, so two parallel terminals both decide "missing" and both extract the same chapter (last-writer-wins, file overwrite). **Fix decided (Session 33 endsession):** (a) drop `--chain` and `--delay` entirely from extract.sh + weirwood.zsh; (b) extend stats CSV with per-chapter status enum (`not_started`/`started`/`working`/`done`/`failed-rate`/`failed-error`/`failed-stale`/`skipped-done`/`skipped-claimed`) + `last_heartbeat` + `terminal_id` columns; (c) atomic claim via `flock` on the CSV; (d) startup stale-sweep (>30min `started`/`working` rows → `failed-stale`); (e) `weirwood <book>` shows live per-chapter status. Sonnet-class work — DO NOT use Opus. **Blocks all further extraction launches.** Full design in `progress/continue-prompts/2026-05-04-urgent-fix-chain-and-race-bug.md`. Detail in `working/session-details/session-033.md`.
-  → continue: `2026-05-04-urgent-fix-chain-and-race-bug.md`
-
----
-
 ## Model-fit Policy (standing rule, 2026-05-04)
 
 > **Default to the cheapest model that can do the job.** Opus only when reasoning depth genuinely requires it.

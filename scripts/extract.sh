@@ -410,7 +410,7 @@ cmd_run() {
 
   # Cleanup trap: kill heartbeat and release any held lock on exit/interrupt
   _cleanup() {
-    [[ -n "$_HEARTBEAT_PID" ]] && kill "$_HEARTBEAT_PID" 2>/dev/null || true
+    [[ -n "${_HEARTBEAT_PID:-}" ]] && kill "$_HEARTBEAT_PID" 2>/dev/null || true
     _HEARTBEAT_PID=""
     release_stats_lock 2>/dev/null || true
   }
@@ -863,7 +863,7 @@ cmd_check() {
     if (( done == total )); then
       echo "  ✅ ${book^^}: ${done}/${total} complete"
     elif (( done > 0 )); then
-      echo "  🔶 ${book^^}: ${done}/${total} (${total - done} remaining)"
+      echo "  🔶 ${book^^}: ${done}/${total} ($((total - done)) remaining)"
     else
       echo "  ⬜ ${book^^}: 0/${total} (not started)"
     fi

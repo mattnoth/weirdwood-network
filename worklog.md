@@ -64,10 +64,10 @@ This is your project memory. When you come back after a break, read Current Stat
 - [x] Pass 1 v3 run on ACOK (70/70 — complete)
 - [ ] Pass 1 v3 run on ASOS (0/82)
 - [x] Pass 1 v3 run on AFFC (46/46 — complete)
-- [ ] Pass 1 v3 run on ADWD (0/73)
+- [x] Pass 1 v3 run on ADWD (73/73 — complete)
 - [x] Wiki infobox parser script (Track B) — `scripts/wiki-infobox-parser.py` produces `working/wiki-parsed/{infobox-data.jsonl (5,279), page-index.jsonl (17,657), parse-stats.md}`. `first_available` populated 2,888/5,279 (54.7%). **Three open issues:** (1) `categories[]` empty across all pages (parse API strips catlinks footer) — blocker for runbook §1.2.1 unless deferred to `entity_type_guess`, (2) `books` field parsed only 37 times vs 1,953 raw occurrences (parser bug), (3) unmapped infobox fields worth edge-taxonomy review (`dynasty`, `written by`, `hatched`, `fathers`, `vassal`, `cadet branch`).
 - [ ] AGOT/ACOK supplementary entity index: script to scan existing extractions and categorize candidate entity types from narrative sections
-- [ ] Pass 1 run on remaining books (ASOS, AFFC, ADWD) — blocked on prompt update + wiki parser groundwork
+- [ ] Pass 1 v3 run on ASOS (0/82) — Okey running Opus pass on shared Max account; will push up when complete
 - [ ] Pass 2 wiki ingestion agent prompt written
 - [ ] Pass 2 wiki ingestion complete
 - [x] Wiki Pass 2 v1 — core (37/37 buckets complete; 855 nodes; cost $95.33; per-node $0.111 healthy per Stage-2 cold review)
@@ -178,6 +178,27 @@ This is your project memory. When you come back after a break, read Current Stat
 ## Session Log
 
 > Newest first. One entry per work session.
+
+### Session 34 — ADWD complete + bug-fix landing + cleanup (2026-05-05)
+
+**Changes made:**
+- `extractions/mechanical/adwd/` — 73/73 v3 chapters complete (15 waves, 2026-05-05). Some duplicate wave entries from Bug A residue before fix landed; last-writer-wins, all valid v3. Was untracked — committed this session.
+- `working/extraction-stats/extraction-stats-ADWD-pass1-v3.csv` — NEW. Was untracked — committed.
+- `scripts/extract.sh` + `scripts/weirwood.zsh` — chain/race fix landed across commits `5f9b808f`, `f3cd92ba`, `dea679af` (Bug A `--chain` explosion + Bug B parallel-extraction race + UX cleanup with phase banners and streamed Claude assistant output). Two small follow-ups committed this session: `${_HEARTBEAT_PID:-}` guard (cmd_run trap) and arithmetic expansion fix in cmd_check.
+- `progress/continue-prompts/archive/` — moved `2026-05-04-urgent-fix-chain-and-race-bug.md` + `2026-05-04-acok-waves1-10-rerun.md` (work complete).
+- `working/todos.md` — URGENT BLOCKER block removed.
+- `worklog.md` — Current State updated: ADWD 73/73, ACOK 70/70, ASOS line clarified (Okey running Opus on shared Max). This entry.
+- `working/progress.md` — 22 ADWD wave rows appended (some duplicates from Bug A residue).
+
+**State:** Pass 1 v3 4/5 books complete (AGOT 73 + ACOK 70 + AFFC 46 + ADWD 73 = 262/344). ASOS 0/82 pending Okey's push.
+
+**Decisions:** None this session — execution + cleanup only. Design discussion on next-pass direction (dialogue extraction → Pass 3 voice-analyzer anchor) deferred to next session for prompt drafting + smoke test.
+
+**What's next:**
+- Wait on Okey's ASOS push to land (no Claude work needed until then).
+- Design + smoke-test dialogue pass (Pass 3 anchor) on AGOT — Python-orchestrated speaker/audience attribution leveraging Pass 1 Characters Present + Spatial Layout + wiki node aliases; Sonnet 4.6 for residue rows. Use case: per-character voice profiles + quote retrieval + "talk to Jaime" RAG. Pure Python where possible per Matt's standing rule.
+- Per-chapter mention index (pure Python over Pass 1 + chapter source) — closes the chapter↔node back-reference gap surfaced in Matt's scratch (no path from a node fact back to the scene/quote/food).
+- Stage 4 v1 prose-edge-classifier remains queued for once 5/5 Pass 1 books land.
 
 ### Session 33 — ACOK chain-launch terminal explosion + race-condition bug discovery (2026-05-04)
 **Detail:** `working/session-details/session-033.md`
