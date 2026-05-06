@@ -1,6 +1,6 @@
 Run the end-of-session checklist for the Weirwood Network project. Do each step in order:
 
-1. **Write session detail file** — Create `working/session-details/session-NNN.md` (use the next session number from worklog.md). This is the **human-facing** full narrative: everything that happened, what was explored, what was tried, what was rejected, coverage numbers, reasoning behind decisions, the full conversation arc. Write this for a person documenting the process, not for an agent. **Scale depth to the session type:** Design sessions, architecture decisions, and novel problem-solving deserve full narrative. Execution-heavy sessions (running extraction waves, batch operations) should focus on what was *decided* and what *surprised* — not narrate every repetitive operation. A session that ran 50 mechanical extractions needs a paragraph on the results and any anomalies, not a play-by-play.
+1. **Write session detail file (only if warranted)** — Session-details files are **as-needed**, not every session. Write `working/session-details/session-NNN.md` ONLY IF the session contains: design discussion, architecture decisions, novel problem-solving, an incident worth a postmortem, or substantial reasoning that doesn't fit in a worklog entry. Pure-execution sessions (extraction waves, batch operations, hygiene/cleanup) skip this step — the worklog entry is sufficient. When you do write one, it's the **human-facing** full narrative: what was explored, what was tried, what was rejected, coverage numbers, reasoning. Not for agents.
 
 2. **Update worklog.md** — Add a **concise** session log entry (~20-30 lines max) to the Session Log section. This is **agent-facing** — future sessions load this file, so keep it tight. Format:
 
@@ -18,11 +18,13 @@ Run the end-of-session checklist for the Weirwood Network project. Do each step 
    - **Create** new ones if work tracks are mid-flight. Write to `progress/continue-prompts/{date}-{short-description}.md` with enough context for a fresh agent to pick up the work. Reference the path from the worklog entry's "What's next" section. **Also link it from todos.md** — add a `→ continue:` line under the relevant todo item so `/continue` can find it by priority.
    - **Delete** any continue prompts that were completed this session. Also remove the `→ continue:` line from the corresponding todo in todos.md (and check the todo item itself if the work is fully done).
 
-4. **Update progress/** — If scratch notes accumulated, add them to `progress/scratch-notes.md` tagged with source. If extraction waves ran, update the relevant `progress/pass1-{book}.md` file.
+4. **Triage scratch + progress** —
+   (a) Check for a top-level scratch file (`scratch`, `scratch.md`, or `scratch.txt` at repo root). If non-empty, surface each entry to Matt and prompt where it should land: actionable → `working/todos.md`, decision → `worklog.md` Active Decisions, resumable work track → `progress/continue-prompts/`, or discard (already covered elsewhere / no longer relevant). Empty or absent = nothing to do.
+   (b) If extraction waves ran, update the relevant `progress/pass1-{book}.md` file.
 
 5. **Update working/todos.md** — If new TODOs surfaced during the session, add them to the appropriate section.
 
-6. **Archive if needed** — If the Session Log section of worklog.md exceeds ~150 lines, archive older sessions to `working/worklog-archives/archiveNNN.md`. The worklog keeps Current State, Active Decisions, Ideas & Backlog, Principles, and only the most recent 1-2 session entries.
+6. **Archive worklog if > 5 entries** — Count session entries in worklog.md Session Log. If more than 5, move the oldest entries to `working/worklog-archives/archiveNNN.md` until exactly 5 remain. Each archive file holds exactly 5 entries; if the current `archiveNNN.md` is already full, start a new one (`archive(NNN+1).md`). The worklog keeps Current State, Active Decisions, Ideas & Backlog, Principles, and the 5 most recent session entries.
 
 7. **Verify .gitignore** — Confirm sources/raw/ and sources/chapters/ are still in .gitignore. Run `git status` and flag if any copyrighted content is showing as untracked.
 

@@ -108,7 +108,6 @@ asoiaf-chat/
 ├── index/
 ├── curation/
 ├── progress/                         # Progress tracking and resumption context
-│   ├── scratch-notes.md              # Observations not yet triaged
 │   └── continue-prompts/             # Self-contained prompts for resuming specific work tracks
 ├── reference/
 │   ├── agents.md                     # Agent inventory & status
@@ -143,7 +142,10 @@ asoiaf-chat/
 `progress/` tracks extraction progress and resumption context:
 - **`progress/pass1-agot.md`** — Wave-by-wave log for AGOT Pass 1. Create new files per book/pass (e.g., `pass1-acok.md`, `pass2-wiki.md`).
 - **`progress/continue-prompts/`** — Self-contained prompts for resuming specific work tracks. Use `/continue` to list or run them.
-- **`progress/scratch-notes.md`** — Interesting observations not yet triaged.
+
+## Top-Level `scratch` File — Ignore It
+
+A file named `scratch` (or `scratch.md` / `scratch.txt`) at the repo root is **Matt's private notes**, not project state. It is gitignored. **Do not read it, surface it, or act on its contents during normal sessions.** The single exception is `/endsession` step 4(a), which is the designated triage moment — that step reads scratch and prompts Matt where each entry should land. Outside `/endsession`, treat scratch as if it doesn't exist.
 
 ## Orchestration Rules
 
@@ -153,8 +155,8 @@ asoiaf-chat/
 4. Update worklog.md before ending any session — use `/endsession` for the full checklist
 5. If a step fails, log the failure in worklog.md and move to the next unblocked task
 6. When modifying an agent prompt's schema, update `reference/architecture.md` to match — these two must stay in sync
-7. **Two-tier session documentation:**
+7. **Session documentation:**
    - **worklog.md session entries** (~20-30 lines): agent-facing, concise. What changed, what was decided, what's next. This file is loaded every session — keep it lean.
-   - **working/session-details/session-NNN.md**: human-facing, full narrative. The complete exploration, reasoning, and process. Agents never load these. Matt reads them for process documentation and context recovery.
+   - **working/session-details/session-NNN.md**: optional, *as-needed*. Write one when the session contains design discussion, an incident worth a postmortem, or novel decisions worth a long-form narrative. Pure-execution sessions don't need one — the worklog entry is sufficient. Existing detail files are inconsistently applied (the prior rule was "every session"); audit/backfill is an auxiliary project-story todo, not blocking.
    - **Continue prompts** (`progress/continue-prompts/`): self-contained resumption context for specific work tracks. A fresh agent should be able to pick up the work from the continue prompt alone, without reading session history.
-8. When the worklog exceeds ~150 lines in the Session Log, archive older sessions to `working/worklog-archives/archiveNNN.md`. The worklog keeps Current State, Active Decisions, Ideas & Backlog, Principles, and only the most recent 1-2 session entries.
+8. **Worklog Session Log holds at most 5 entries.** When a 6th session lands, archive the oldest to `working/worklog-archives/archiveNNN.md`. Each archive file holds exactly 5 entries (start a new `archiveNNN.md` when the current one is full). The worklog itself keeps Current State, Active Decisions, Ideas & Backlog, Principles, and the 5 most recent session entries.

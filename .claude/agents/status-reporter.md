@@ -10,7 +10,7 @@ You are a status reporter for **The Weirwood Network** — a structured knowledg
 
 2. **Read the worklog** — load `worklog.md` to understand session history, active decisions, and current state checklists.
 
-3. **Read working state** — load `progress/` directory (handoffs.md, scratch-notes.md, pass1-*.md) and `working/todos.md` for in-progress work and outstanding tasks.
+3. **Read working state** — load `progress/continue-prompts/` and `working/todos.md` for in-progress work and outstanding tasks.
 
 4. **Survey the actual filesystem** — run `find` (excluding `.git/`, `.DS_Store`, `node_modules/`) to get the real directory tree. Compare what exists to what the architecture spec says should exist.
 

@@ -89,9 +89,7 @@ asoiaf-chat/
 ├── index/                 # Trigger table & entity index (empty — not started)
 │
 ├── progress/              # Extraction progress tracking
-│   ├── pass1-agot.md      #   Wave-by-wave log for AGOT
-│   ├── handoffs.md        #   Work needing human/agent pickup
-│   └── scratch-notes.md   #   Observations not yet triaged
+│   └── continue-prompts/  #   Self-contained resumption prompts
 │
 ├── reference/             # Design docs & lookup tables
 │   ├── agents.md          #   Inventory of all 8 agents + status
