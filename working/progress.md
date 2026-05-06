@@ -47,3 +47,4 @@
 - **ASOS Wave 17** (2026-05-05 23:17) — asos-tyrion-10,asos-tyrion-11 (2/2 ok) [11m 19s, 295807 tokens, $1.4389]
 - **ASOS Wave 14** (2026-05-05 23:31) — asos-sansa-02,asos-sansa-03,asos-sansa-04,asos-sansa-05,asos-sansa-06 (5/5 ok) [26m 45s, 715529 tokens, $3.4102]
 - **ASOS Wave 15** (2026-05-05 23:44) — asos-sansa-07,asos-tyrion-01,asos-tyrion-02,asos-tyrion-03,asos-tyrion-04 (2/5 ok, failed: asos-tyrion-02) [12m 28s, 342470 tokens, $1.5364]
+- **ASOS Wave 15** (2026-05-06 07:13) — asos-sansa-07,asos-tyrion-01,asos-tyrion-02,asos-tyrion-03,asos-tyrion-04 (5/5 ok) [18m 28s, 456554 tokens, $3.9482]

@@ -62,7 +62,7 @@ This is your project memory. When you come back after a break, read Current Stat
 - [x] Pass 1 v3 prompt update: expanded Raw Entity List to 12 categories (10 + Other catch-all), added strict formatting rules (all headers required, no merging/renaming, "None" for empty categories)
 - [x] Pass 1 v3 run on AGOT (73/73 — complete)
 - [ ] Pass 1 v3 run on ACOK (0/70)
-- [ ] Pass 1 v3 run on ASOS (79/82 — waves 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 16, 17 complete)
+- [x] Pass 1 v3 run on ASOS (82/82 — complete)
 - [x] Pass 1 v3 run on AFFC (46/46 — complete)
 - [ ] Pass 1 v3 run on ADWD (0/73)
 - [x] Wiki infobox parser script (Track B) — `scripts/wiki-infobox-parser.py` produces `working/wiki-parsed/{infobox-data.jsonl (5,279), page-index.jsonl (17,657), parse-stats.md}`. `first_available` populated 2,888/5,279 (54.7%). **Three open issues:** (1) `categories[]` empty across all pages (parse API strips catlinks footer) — blocker for runbook §1.2.1 unless deferred to `entity_type_guess`, (2) `books` field parsed only 37 times vs 1,953 raw occurrences (parser bug), (3) unmapped infobox fields worth edge-taxonomy review (`dynasty`, `written by`, `hatched`, `fathers`, `vassal`, `cadet branch`).
