@@ -69,3 +69,4 @@
 - **ADWD Wave 13** (2026-05-05 16:55) — adwd-tyrion-01,adwd-tyrion-02,adwd-tyrion-03,adwd-tyrion-04,adwd-tyrion-05 (5/5 ok) [27m 41s, 902507 tokens]
 - **ADWD Wave 12** (2026-05-05 16:57) — adwd-the-ugly-little-girl-01,adwd-the-watcher-01,adwd-the-wayward-bride-01,adwd-the-windblown-01,adwd-theon-01 (5/5 ok) [30m 2s, 888244 tokens]
 - **ADWD Wave 15** (2026-05-05 17:18) — adwd-tyrion-11,adwd-tyrion-12,adwd-victarion-01 (3/3 ok) [13m 52s, 540249 tokens]
+- **ASOS Pass 1 v3** (Okey, parallel run on `pass1-asos-extraction`, 2026-05-01 → 2026-05-06) — 82/82 complete, ~$54.85; per-wave detail in `working/extraction-stats/extraction-stats-asos-pass1-v3.csv` on that branch.

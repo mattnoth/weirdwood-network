@@ -62,12 +62,11 @@ This is your project memory. When you come back after a break, read Current Stat
 - [x] Pass 1 v3 prompt update: expanded Raw Entity List to 12 categories (10 + Other catch-all), added strict formatting rules (all headers required, no merging/renaming, "None" for empty categories)
 - [x] Pass 1 v3 run on AGOT (73/73 — complete)
 - [x] Pass 1 v3 run on ACOK (70/70 — complete)
-- [ ] Pass 1 v3 run on ASOS (0/82)
+- [x] Pass 1 v3 run on ASOS (82/82 — complete; Okey ran in parallel on shared Max account, branch `pass1-asos-extraction`)
 - [x] Pass 1 v3 run on AFFC (46/46 — complete)
 - [x] Pass 1 v3 run on ADWD (73/73 — complete)
 - [x] Wiki infobox parser script (Track B) — `scripts/wiki-infobox-parser.py` produces `working/wiki-parsed/{infobox-data.jsonl (5,279), page-index.jsonl (17,657), parse-stats.md}`. `first_available` populated 2,888/5,279 (54.7%). **Three open issues:** (1) `categories[]` empty across all pages (parse API strips catlinks footer) — blocker for runbook §1.2.1 unless deferred to `entity_type_guess`, (2) `books` field parsed only 37 times vs 1,953 raw occurrences (parser bug), (3) unmapped infobox fields worth edge-taxonomy review (`dynasty`, `written by`, `hatched`, `fathers`, `vassal`, `cadet branch`).
 - [ ] AGOT/ACOK supplementary entity index: script to scan existing extractions and categorize candidate entity types from narrative sections
-- [ ] Pass 1 v3 run on ASOS (0/82) — Okey running Opus pass on shared Max account; will push up when complete
 - [ ] Pass 2 wiki ingestion agent prompt written
 - [ ] Pass 2 wiki ingestion complete
 - [x] Wiki Pass 2 v1 — core (37/37 buckets complete; 855 nodes; cost $95.33; per-node $0.111 healthy per Stage-2 cold review)
@@ -179,6 +178,22 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session.
 
+### Session 35 — ASOS Pass 1 complete via Okey's parallel run (2026-05-06)
+
+**Changes made:**
+- `extractions/mechanical/asos/` — 82/82 v3 chapters pushed by Okey on branch `origin/pass1-asos-extraction` (parallel Opus pass on shared Max account, ran 2026-05-01 → 2026-05-06, ~$54.85). All 12 POVs covered (13 Arya / 4 Bran / 7 Catelyn / 6 Daenerys / 6 Davos / 9 Jaime / 12 Jon / 5 Samwell / 7 Sansa / 11 Tyrion + Prologue + Epilogue). Spot-checked early/mid/late waves — full v3 schema, healthy. Branch not yet merged to main.
+- `worklog.md` — Current State updated: ASOS now 82/82 ✓ (Pass 1 5/5 books complete, 344/344). This entry.
+- `working/progress.md` — single pointer line appended; per-wave detail lives in `working/extraction-stats/extraction-stats-asos-pass1-v3.csv` on Okey's branch.
+
+**State:** Pass 1 v3 ALL 5 books complete (AGOT 73 + ACOK 70 + ASOS 82 + AFFC 46 + ADWD 73 = 344/344). Stage 4 prose-edge-classifier and the dialogue/meals/mention-index design are the unblocked next moves.
+
+**Decisions:** None — verification + worklog hygiene only. Okey's branch left unmerged for now (merge when ready; minor `worklog.md` + `working/progress.md` conflicts expected, no extraction-file collisions).
+
+**What's next:**
+- Merge `origin/pass1-asos-extraction` into main when ready (resolve worklog/progress conflicts in favor of main's clean entry).
+- Resume primary handoff: `progress/continue-prompts/2026-05-05-dialogue-meals-mention-index-design.md` — 7 Open Questions to resolve, then build mention index, then smoke dialogue on Ned + Robert.
+- Stage 4 v1 prose-edge-classifier now unblocked: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`.
+
 ### Session 34 — ADWD complete + bug-fix landing + cleanup (2026-05-05)
 
 **Changes made:**
@@ -195,10 +210,9 @@ This is your project memory. When you come back after a break, read Current Stat
 **Decisions:** None this session — execution + cleanup only. Design discussion on next-pass direction (dialogue extraction → Pass 3 voice-analyzer anchor) deferred to next session for prompt drafting + smoke test.
 
 **What's next:**
-- Wait on Okey's ASOS push to land (no Claude work needed until then).
-- Design + smoke-test dialogue pass (Pass 3 anchor) on AGOT — Python-orchestrated speaker/audience attribution leveraging Pass 1 Characters Present + Spatial Layout + wiki node aliases; Sonnet 4.6 for residue rows. Use case: per-character voice profiles + quote retrieval + "talk to Jaime" RAG. Pure Python where possible per Matt's standing rule.
-- Per-chapter mention index (pure Python over Pass 1 + chapter source) — closes the chapter↔node back-reference gap surfaced in Matt's scratch (no path from a node fact back to the scene/quote/food).
-- Stage 4 v1 prose-edge-classifier remains queued for once 5/5 Pass 1 books land.
+- **PRIMARY HANDOFF:** `progress/continue-prompts/2026-05-05-dialogue-meals-mention-index-design.md` — three new passes designed (dialogue, meals & feasts, per-chapter mention index) + Opus-as-sampling-oracle validation strategy + file organization proposal. Self-contained design doc; next session reads it end-to-end, resolves 7 Open Questions with Matt, then builds the mention index first as the free Python unblocker, then smokes dialogue on Ned (POV-rich) followed by Robert Baratheon (POV-less stress test for non-POV quote attribution + cross-POV perception capture).
+- Wait on Okey's ASOS push to land (no Claude work needed until then; design + smoke can proceed on AGOT regardless).
+- Stage 4 v1 prose-edge-classifier remains queued for once 5/5 Pass 1 books land (`2026-05-02-stage4-v1-prose-edge-classifier.md`).
 
 ### Session 33 — ACOK chain-launch terminal explosion + race-condition bug discovery (2026-05-04)
 **Detail:** `working/session-details/session-033.md`
