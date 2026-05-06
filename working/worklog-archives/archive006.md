@@ -1,3 +1,68 @@
+### Session 29 — Promotion completion + schema-drift audit + chronology extraction (2026-05-01)
+**Detail:** `working/session-details/session-029.md`
+
+**Changes made:**
+- `scripts/wiki-infobox-parser.py` — UPDATED: 4 new entity types (`object.material`, `concept.language`, `concept.medical`, `concept.custom`) + Animals/Birds/Apes/Mythical creatures/Plants → species + Occupations → title. Wiki-meta SKIP additions (Feature quotes, Feature articles, Did you know, A Song of Ice and Fire Errata, Appendices, Years). Religions reordered before Organizations (Faith of the Seven mistype fix). 5 new ENTITY_TYPE_OVERRIDES (Battle of Castle Black → SKIP, Dragon → species, Wildfire → object.artifact, Fiddle → SKIP, Battle of the Blackwater (song) → object.text). PAGE_NAME_EXCLUSION_PATTERNS added (chronology / "Account of" / parenthetical-qualifier filters). War/conquest/rebellion/invasion/tourney patterns end-anchored. `author`/`authors` → WRITTEN_BY in FIELD_EDGE_MAP.
+- `reference/architecture.md` — 4 new Type Reference rows (`object.material`, `concept.language`, `concept.medical`, `concept.custom`). `species` description broadened to fauna kinds.
+- `scripts/wiki-pass2-promote.py` — TYPE_DIR_MAP +4 (materials, languages, medical, customs).
+- `scripts/wiki-pass2-tier3-pathb-longtail.py` — TYPE_TO_DIR +4. concept.culture → factions/ formalized.
+- 2 NEW scripts: `scripts/wiki-pass2-stale-dir-cleanup.py` (with Stage-1 v1 carve-out protection), `scripts/wiki-pass2-extract-chronology.py`.
+- `graph/nodes/` — 7,248 → 7,563 (+315 net). 4 new dirs: `materials/` (54), `languages/` (26), `medical/` (34), `customs/` (37). Migrations: 130 stale-dir cleanup (44 titles→locations, 36 titles→artifacts, 7 titles→factions, 5 chars→religions, etc.). 4 tree-foods migrated species/→foods/. Wildfire promoted to artifacts/. Battle of the Blackwater (song) migrated _unclassified/→texts/. _stage3-preview/ removed.
+- `working/audits/` — NEW: `schema-drift-2026-05-02.md` (full-corpus opus audit, $50, 0 HIGH / 4 MED / 4 LOW), `orphan-edges-2026-05-02-pathb-final.md`, cat1-full TSV.
+- `working/wiki-parsed/chronology-events.jsonl` — NEW. 2,245 chronology rows from 74 year pages (1 AC - 300 AC). NOT graph edges; awaits v2 temporal-edges schema.
+- 3 commits: `896c5a3d` (promotion completion + cleanup), `e6e206fd` (Step 6 audit + cleanups + WRITTEN_BY parser fix), `d6362f74` (chronology + culture decision).
+
+**Decisions (compressed):** Schema additions per Matt's "do not defer" — 4 new types over 1 session. Food precedes species in CATEGORY_TYPE_MAP for dual-tagged dishes/eaten-things ("anything that is eaten should be in object.food"). Religions before Organizations (Faith of the Seven mistype). War regex tightened with PAGE_NAME_EXCLUSION_PATTERNS — false positives caught structurally rather than via per-batch GLOSSARY_SKIP_PAGES. Wildfire = artifact (narrative weight, like Ice/Dawn). Fiddle = SKIP (not narrative). Dragon = species (distinct from named character.dragon individuals). 130 stale-dir mismatches surfaced + cleaned via new cleanup script with Stage-1 carve-out (the carve-out specifically protects `prompt_version: v1` agent prose, NOT `v1-python` Stage-3 deterministic emits). concept.culture canonical home = factions/ (Pass B precedent; Matt-decision 2026-05-02). WRITTEN_BY edges deferred to Stage 4 — wiki structurally lacks in-world authorship infoboxes (0/156 in-world texts have Author field). Chronology from year pages → JSONL data file, NOT graph edges (locked vocabulary doesn't include OCCURRED_IN_YEAR; v2 temporal-edges design uses structured per-edge fields).
+
+**Counts:** unknown 2,098 → 1,257 (-841). skip 8,592 → 9,167 (+575). Cat 1 orphan edges 1,973 → 1,963. Edge vocabulary violations 0 → 0 (lock holds). Schema-drift HIGH 0. Total nodes 7,563.
+
+**What's next:**
+- **Pass 1 mechanical extraction on remaining 4 books FIRST** (271 chapters; AFFC→ACOK→ASOS→ADWD; via `weirwood` in iTerm). Order decision made Session 30. Continue prompt: `progress/continue-prompts/2026-05-02-pass1-mechanical-remaining-books.md`.
+- THEN Stage 4 v1 — prose-edge-classifier + cross-identity detection + full-5-book contradiction sweep (AGOT-only carve-out dropped). Continue prompt: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`. ~$50-100, 3-5 hrs.
+- v2 temporal-edges schema design — uses chronology-events.jsonl as input.
+
+### Session 28 — Path B Promotion Campaign + Parser Iteration (2026-04-30 → 2026-05-01)
+**Detail:** `working/session-details/session-028.md`
+
+**Changes made:**
+- `scripts/wiki-fetch-categories.py` — NEW (bounded one-time exception fetch via `cloudscraper`; populated `working/wiki-parsed/page-categories.jsonl` with MediaWiki categories for all 17,657 pages).
+- `scripts/wiki-infobox-parser.py` — UPDATED across 3 iterations: (a) CATEGORY_TYPE_MAP added (resolution order ENTITY_TYPE_OVERRIDES → PAGE_NAME_TYPE_PATTERNS → categories → species → infobox-fields → unknown); (b) skip rules for real-world publications (`Books`-without-`Books and scrolls`) and chapter-summary pages (`A Song of Ice And Fire chapters`); (c) expanded category mappings (Tourneys/Tournaments→`event.tournament`, Weddings/Assassinations/Massacres/Coronations→`event.battle`, Theories→`concept.theory`, Streets/Halls/Gates/Squares→`place.location`, Mountain clans→`organization.faction`, Deities/Gods/Goddesses→`organization.religion`, Objects/Merchant ships→`object.artifact`, Trees→`species`, Food/Drinks→`object.food`); (d) `\btourney\b` page-name pattern; (e) ENTITY_TYPE_OVERRIDES additions: Iron Throne→artifact, Dragon egg→artifact, Knight of the Laughing Tree→character.
+- 6 NEW promotion scripts: `scripts/wiki-pass2-tier3-pathb-{texts,artifacts,locations,events,orgs,characters,longtail}.py`. Per-type routing via TYPE_TO_DIR map for orgs/longtail.
+- `scripts/wiki-pass2-promote.py` — TYPE_DIR_MAP gained `object.food` → `foods`.
+- `reference/architecture.md` — `object.food` row added (in-world food/drink); `species` description broadened (now covers in-world flora kinds — weirwood, ironwood).
+- `CLAUDE.md` — narrow re-fetch exception clause (the bounded MediaWiki categories backfill, audit-logged 2026-04-30).
+- `graph/nodes/` — 5,008 → 7,248 (+2,240 net). 5 new dirs bootstrapped: `texts/` (150), `theories/` (45), `concepts/` (31), `species/` (38), `foods/` (69). All other dirs grew (locations 168→1,010, characters 3,557→3,938, houses 313→556, artifacts 1→230).
+- `working/wiki-parsed/{page-categories,page-index,infobox-data,parse-stats}.*` — regenerated by parser re-runs.
+- `working/wiki-pass2/tier3-pathb-*` — 7 new bucket dirs with skeleton/prose artifacts preserved.
+
+**Decisions (compressed):** Real-world publications filtered via `Books`-without-`Books and scrolls` parser rule (zero false negatives across 31 pages). Weapon-type glossary (Arakh, Bastard sword, etc.) filtered via in-script set, NOT parser, because `Terms` category is too broad for global skip. Chapter-summary pages were a 338-node disaster (events Sub-task 3 reverted, then category-skip rule added, then re-run cleanly with in-script GLOSSARY_SKIP_PAGES filtering 26 more `\bwar\b`/`\bconquest\b` false positives). New `object.food` entity type per Matt's design-values priority (food/hospitality is first-class). Trees route to `species/` (broadens species dir to flora/fauna kinds; weirwood is first-class). Trees-before-Food in CATEGORY_TYPE_MAP for dual-tagged pages (Apple, Lemon, Orange, Chestnut tree). Cultures route to `factions/` per Pass B precedent. Knight of the Laughing Tree promoted as separate node from Lyanna (cross-identity SAME_AS edge is Stage 4 territory). Animals/Birds/Fish/Plants (~219 unknown pages) DEFERRED per Matt's "don't have to get into species right now". `\bwar\b` page-name regex too greedy — needs in-script skip list per batch (lesson). `--plan` sampling before `--apply` is mandatory going forward. 14 commits this session including 1 revert; net +2,240 nodes, Cat 1 −982.
+
+**What's next:**
+- Promotion completion + schema-drift continue prompt: `progress/continue-prompts/2026-05-02-promotion-completion-then-schema-drift.md` — keep promoting nodes (audit the 836 pages with NO categories, decide on Animals/Birds/Plants schema, sweep `\bwar\b` false positives, audit `Dragon` page reclassification) THEN run the full schema-drift audit on opus (~$50 prior approval). Matt's framing: "wouldn't it be better to get this part done well? we missed several important nodes, red wedding, ashford tourney, etc."
+- Stage 4 prose-edge-classifier remains queued: `progress/continue-prompts/2026-04-27-wiki-pass2-stage4-edge-discovery.md`
+
+### Session 27 — Stage 3c audit cleanup + Tier 3 promotion campaign + Option C (2026-04-30)
+**Detail:** `working/session-details/session-027.md`
+
+**Changes made:**
+- `scripts/wiki-infobox-parser.py` — UPDATED. 6 parser bug fixes: `PAGE_NAME_TYPE_PATTERNS` regex (war/rebellion/conquest/invasion/guards), expanded `ENTITY_TYPE_OVERRIDES` (Iron Throne→artifact, Triarchy + sellsword companies→faction), `<small>`-aware qualifier handling for religion-bleed, `_DATE_TEXT_RE` extensions for date-bleed, `classify_by_species()` for dragon detection, HEIR/Heirs date-link filter.
+- `scripts/wiki-pass2-build-alias-resolver.py` — UPDATED. `TITLE_WORD_SLUGS` filter + `BARE_DISAMBIGUATION_THRESHOLD=3` filter. Removed `ser → gregor-clegane` and `aegon-targaryen → pisswater-prince` bad mappings.
+- New scripts: `graph-query.py` (read-only investigation CLI), `orphan-edges-audit.py`, `wiki-pass2-duplicate-detector.py`, `stage3-preview-emit.py`, `wiki-pass2-fix-date-bleed-remaining.py`, `wiki-pass2-stage3-house-location-reemit.py`, `wiki-pass2-repromote-targeted.py`, `wiki-pass2-repromote-targeted-2.py`, `wiki-pass2-pass-e-phase1.py`, `wiki-pass2-tier3-pass-{a-titles,b-cultures,c-religions,d-characters}.py`, `wiki-pass2-option-c-prose-merge.py`.
+- 5 audit reports added: `working/audits/{schema-drift-sample,schema-drift-sample-characters,citation-issues,orphan-edges-2026-04-30,2026-04-30b/c/d/e/f,2026-05-01}.md`.
+- 6 buckets: `working/wiki-pass2/tier3-{titles,cultures,religions,characters}/`.
+- `graph/nodes/` — 769 new nodes net (5,008 total). Title 91→546, faction 37→97, religion 4→20, character 3,373→3,557. Plus deletions: 3 sub-page nodes (telltale ×2, theories ×1) + 6 culture variant duplicates merged. 484 nodes re-emitted across multiple targeted re-promotion runs. 544 Stage-1 character nodes had prose-only re-emission (Option C — preserves edges).
+- `working/runbooks/wiki-pass2-pipeline.md` — added Stage 3a/3b/3c framing (corrective vs additive).
+- `working/tier3-promotion-plan.md` — NEW. Multi-pass promotion strategy.
+- `reference/architecture.md` — `graph-query.py` discovery note added.
+- `working/todos.md` — Session 27 audit findings persisted; Stage 3c framing pointer; new sub-task entries for parser bugs + Tier 3 progress.
+- `progress/continue-prompts/2026-05-01-tier3-pass-e-phase-2.md` — NEW. Phase 2 continue prompt with critical-first-step framing (books + named weapons + WRITTEN_BY gap).
+
+**Decisions (compressed):** Stage 3a/3b/3c framing memorialized — corrective (Stage 3c) vs additive (Stage 4) cleanup boundary. Sample-based audits over full-corpus runs (8x cost reduction). Stage 1 character full re-emission deferred until Stage 4 prose-edge-classifier ships (preserves agent-derived narrative edges); Option C as hybrid (prose-only enrichment) approved instead. Variant culture duplicates accepted in Pass B then merged in Phase 1 with aliases on canonicals. `*-telltale` and `*-theories` sub-pages deleted per documented exclusion policy. `*-guards` retyped as `organization.faction` per Matt's call. Bare ambiguous aliases (`ser`, `aegon-targaryen`) filtered from resolver. The big architectural finding: 70.4% of wiki pages classify as `unknown` because the parser doesn't recognize their infobox templates (or they have NO infobox at all — verified Longclaw HTML has no `class="infobox"`). The Playwright scraper got everything; the parser is the bottleneck. ENTITY_TYPE_OVERRIDES is the cheapest fix path, mirroring the Session 27 Iron Throne pattern.
+
+**Counts:** Cat 1 orphan edges 7,784 → 2,955 (62% drop). Cat 2 alias-mismatch 784 → 268. Stale religion-bleed 24 → 0. Date-bleed 199 → 41 (parser-floor). Edge vocabulary violations 0 → 0 (lock holds). Slug-format violations 0 → 0. 8 commits.
+
+**What's next:** Phase 2 of Tier 3 — `progress/continue-prompts/2026-05-01-tier3-pass-e-phase-2.md`. Critical first step: books + named weapons + WRITTEN_BY edge gap (`graph/nodes/artifacts/` near-empty; ~30 books and ~20 named valyrian steel swords confirmed in wiki cache but classify as `unknown`; need ENTITY_TYPE_OVERRIDES + Stage 3 promotion). Then locations/events/factions completeness (~400-600 nodes), concept-page decision (lean defer), final full audits. Acceptance criteria: Cat 1 drops to <500 edges / <100 slugs.
+
 ### Session 26 — Stage 3 Completion + Tier-Recovery + Fleet Architecture + Chat UI Design (2026-04-27 → 2026-04-28)
 **Detail:** `working/session-details/session-026.md`
 
@@ -54,4 +119,4 @@
 - `/continue 2026-04-27-wiki-pass2-stage3-finish` — fresh agent runs full Stage 3a `--apply`, mid-stage review, wiki-ingester v2 prose-only rewrite, validator edge byte-equality update. THEN STOPS for Matt's go-ahead before Stage 3b.
 - Stage 4 (`2026-04-27-wiki-pass2-stage4-edge-discovery.md`) skeleton remains — flesh out only after Stage 3 finishes.
 
-> Archived from worklog.md at end of Session 28 (2026-05-01).
+> Archived from worklog.md across sessions 28 (initial Sessions 25-26 archive on 2026-05-01) and 36 (topped to 5 entries on 2026-05-06 under new strict-5-entry rule).
