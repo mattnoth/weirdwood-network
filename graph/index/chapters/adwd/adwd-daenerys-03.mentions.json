@@ -1,0 +1,763 @@
+{
+  "chapter_id": "adwd-daenerys-03",
+  "book": "adwd",
+  "pov_character": "daenerys",
+  "generated_at": "2026-05-07T02:06:34.491186+00:00",
+  "extraction_path": "extractions/mechanical/adwd/adwd-daenerys-03.extraction.md",
+  "stats": {
+    "total_mentions": 83,
+    "resolved_to_node": 68,
+    "direct": 65,
+    "alias": 3,
+    "unresolved": 15
+  },
+  "mentions": [
+    {
+      "raw_name": "Daenerys Targaryen",
+      "slug": "daenerys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Xaro Xhoan Daxos",
+      "slug": "xaro-xhoan-daxos",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/xaro-xhoan-daxos.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Reznak mo Reznak",
+      "slug": "reznak-mo-reznak",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/reznak-mo-reznak.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Hizdahr zo Loraq",
+      "slug": "hizdahr-zo-loraq",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hizdahr-zo-loraq.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Skahaz mo Kandaq (the Shavepate)",
+      "slug": "skahaz-mo-kandaq",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/skahaz-mo-kandaq.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Barristan Selmy",
+      "slug": "barristan-selmy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/barristan-selmy.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Irri",
+      "slug": "irri",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/irri.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Jhiqui",
+      "slug": "jhiqui",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jhiqui.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Strong Belwas",
+      "slug": "belwas",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/belwas.node.md",
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Grey Worm",
+      "slug": "grey-worm",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/grey-worm.node.md",
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "Groleo",
+      "slug": "groleo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/groleo.node.md",
+      "section": "Characters Present",
+      "line": 37
+    },
+    {
+      "raw_name": "Lord Ghael",
+      "slug": "ghael",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ghael.node.md",
+      "section": "Characters Present",
+      "line": 38
+    },
+    {
+      "raw_name": "Rommo",
+      "slug": "rommo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rommo.node.md",
+      "section": "Characters Present",
+      "line": 39
+    },
+    {
+      "raw_name": "Mollono Yos Dob",
+      "slug": "mollono-yos-dob",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mollono-yos-dob.node.md",
+      "section": "Characters Present",
+      "line": 40
+    },
+    {
+      "raw_name": "Symon Stripeback",
+      "slug": "symon-stripeback",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/symon-stripeback.node.md",
+      "section": "Characters Present",
+      "line": 41
+    },
+    {
+      "raw_name": "Marselen",
+      "slug": "marselen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/marselen.node.md",
+      "section": "Characters Present",
+      "line": 42
+    },
+    {
+      "raw_name": "Mezzara",
+      "slug": "mezzara",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 43
+    },
+    {
+      "raw_name": "Dancers (unnamed)",
+      "slug": "dancers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 44
+    },
+    {
+      "raw_name": "Qartheen messenger",
+      "slug": "qartheen-messenger",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 45
+    },
+    {
+      "raw_name": "Daenerys Targaryen",
+      "slug": "daenerys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
+      "section": "Character Appearances",
+      "line": 50
+    },
+    {
+      "raw_name": "Xaro Xhoan Daxos",
+      "slug": "xaro-xhoan-daxos",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/xaro-xhoan-daxos.node.md",
+      "section": "Character Appearances",
+      "line": 51
+    },
+    {
+      "raw_name": "Reznak mo Reznak",
+      "slug": "reznak-mo-reznak",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/reznak-mo-reznak.node.md",
+      "section": "Character Appearances",
+      "line": 52
+    },
+    {
+      "raw_name": "Skahaz mo Kandaq",
+      "slug": "skahaz-mo-kandaq",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/skahaz-mo-kandaq.node.md",
+      "section": "Character Appearances",
+      "line": 53
+    },
+    {
+      "raw_name": "Male dancers (3)",
+      "slug": "male-dancers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 54
+    },
+    {
+      "raw_name": "Female dancers",
+      "slug": "female-dancers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 55
+    },
+    {
+      "raw_name": "Barristan Selmy",
+      "slug": "barristan-selmy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/barristan-selmy.node.md",
+      "section": "Character Appearances",
+      "line": 56
+    },
+    {
+      "raw_name": "Groleo",
+      "slug": "groleo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/groleo.node.md",
+      "section": "Character Appearances",
+      "line": 57
+    },
+    {
+      "raw_name": "Symon Stripeback",
+      "slug": "symon-stripeback",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/symon-stripeback.node.md",
+      "section": "Character Appearances",
+      "line": 58
+    },
+    {
+      "raw_name": "Mollono Yos Dob",
+      "slug": "mollono-yos-dob",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mollono-yos-dob.node.md",
+      "section": "Character Appearances",
+      "line": 59
+    },
+    {
+      "raw_name": "Rommo",
+      "slug": "rommo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rommo.node.md",
+      "section": "Character Appearances",
+      "line": 60
+    },
+    {
+      "raw_name": "Mezzara",
+      "slug": "mezzara",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 61
+    },
+    {
+      "raw_name": "Unsullied",
+      "slug": "unsullied",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 62
+    },
+    {
+      "raw_name": "Daario Naharis",
+      "slug": "daario-naharis",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/daario-naharis.node.md",
+      "section": "Characters Referenced",
+      "line": 67
+    },
+    {
+      "raw_name": "Aggo",
+      "slug": "aggo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aggo.node.md",
+      "section": "Characters Referenced",
+      "line": 68
+    },
+    {
+      "raw_name": "Jhogo",
+      "slug": "jhogo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jhogo.node.md",
+      "section": "Characters Referenced",
+      "line": 69
+    },
+    {
+      "raw_name": "Rakharo",
+      "slug": "rakharo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rakharo.node.md",
+      "section": "Characters Referenced",
+      "line": 70
+    },
+    {
+      "raw_name": "Jorah Mormont",
+      "slug": "jorah-mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jorah-mormont.node.md",
+      "section": "Characters Referenced",
+      "line": 71
+    },
+    {
+      "raw_name": "Viserys Targaryen",
+      "slug": "viserys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/viserys-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 72
+    },
+    {
+      "raw_name": "Pyat Pree",
+      "slug": "pyat-pree",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/pyat-pree.node.md",
+      "section": "Characters Referenced",
+      "line": 73
+    },
+    {
+      "raw_name": "Drogon",
+      "slug": "drogon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/drogon.node.md",
+      "section": "Characters Referenced",
+      "line": 74
+    },
+    {
+      "raw_name": "Hazzea",
+      "slug": "hazzea",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hazzea.node.md",
+      "section": "Characters Referenced",
+      "line": 75
+    },
+    {
+      "raw_name": "Missandei",
+      "slug": "missandei",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/missandei.node.md",
+      "section": "Characters Referenced",
+      "line": 76
+    },
+    {
+      "raw_name": "Cleon (the Butcher King)",
+      "slug": "cleon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cleon.node.md",
+      "section": "Characters Referenced",
+      "line": 77
+    },
+    {
+      "raw_name": "Brown Ben Plumm",
+      "slug": "ben-plumm",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ben-plumm.node.md",
+      "section": "Characters Referenced",
+      "line": 78
+    },
+    {
+      "raw_name": "Galazza Galare",
+      "slug": "galazza-galare",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/galazza-galare.node.md",
+      "section": "Characters Referenced",
+      "line": 79
+    },
+    {
+      "raw_name": "Egon Emeros the Exquisite",
+      "slug": "egon-emeros",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/egon-emeros.node.md",
+      "section": "Characters Referenced",
+      "line": 80
+    },
+    {
+      "raw_name": "Rhaegar Targaryen",
+      "slug": "rhaegar-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rhaegar-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 81
+    },
+    {
+      "raw_name": "Pureborn (as group)",
+      "slug": "pureborn",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/pureborn.node.md",
+      "section": "Characters Referenced",
+      "line": 82
+    },
+    {
+      "raw_name": "Meereen",
+      "slug": "meereen",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/meereen.node.md",
+      "section": "Locations",
+      "line": 87
+    },
+    {
+      "raw_name": "Great Pyramid of Meereen",
+      "slug": "great-pyramid-of-meereen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 88
+    },
+    {
+      "raw_name": "Slaver's Bay",
+      "slug": "slavers-bay",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/slavers-bay.node.md",
+      "section": "Locations",
+      "line": 89
+    },
+    {
+      "raw_name": "Qarth",
+      "slug": "qarth",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/qarth.node.md",
+      "section": "Locations",
+      "line": 90
+    },
+    {
+      "raw_name": "Lhazar",
+      "slug": "lhazar",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lhazar.node.md",
+      "section": "Locations",
+      "line": 91
+    },
+    {
+      "raw_name": "Yunkai (the Yellow City)",
+      "slug": "yunkai",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/yunkai.node.md",
+      "section": "Locations",
+      "line": 92
+    },
+    {
+      "raw_name": "Astapor",
+      "slug": "astapor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/astapor.node.md",
+      "section": "Locations",
+      "line": 93
+    },
+    {
+      "raw_name": "Khyzai Pass",
+      "slug": "khyzai-pass",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/khyzai-pass.node.md",
+      "section": "Locations",
+      "line": 94
+    },
+    {
+      "raw_name": "Westeros",
+      "slug": "westeros",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/westeros.node.md",
+      "section": "Locations",
+      "line": 95
+    },
+    {
+      "raw_name": "Pentos",
+      "slug": "pentos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pentos.node.md",
+      "section": "Locations",
+      "line": 96
+    },
+    {
+      "raw_name": "Braavos",
+      "slug": "braavos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/braavos.node.md",
+      "section": "Locations",
+      "line": 97
+    },
+    {
+      "raw_name": "Tolos",
+      "slug": "tolos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/tolos.node.md",
+      "section": "Locations",
+      "line": 98
+    },
+    {
+      "raw_name": "Mantarys",
+      "slug": "mantarys",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/mantarys.node.md",
+      "section": "Locations",
+      "line": 99
+    },
+    {
+      "raw_name": "Horns of Hazzat",
+      "slug": "horns-of-hazzat",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/horns-of-hazzat.node.md",
+      "section": "Locations",
+      "line": 100
+    },
+    {
+      "raw_name": "Bhorash (ruins)",
+      "slug": "bhorash",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bhorash.node.md",
+      "section": "Locations",
+      "line": 101
+    },
+    {
+      "raw_name": "Isle of Cedars",
+      "slug": "isle-of-cedars",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/isle-of-cedars.node.md",
+      "section": "Locations",
+      "line": 102
+    },
+    {
+      "raw_name": "Valyria",
+      "slug": "valyria",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/valyria.node.md",
+      "section": "Locations",
+      "line": 103
+    },
+    {
+      "raw_name": "New Ghis",
+      "slug": "new-ghis",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/new-ghis.node.md",
+      "section": "Locations",
+      "line": 104
+    },
+    {
+      "raw_name": "Myr",
+      "slug": "myr",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/myr.node.md",
+      "section": "Locations",
+      "line": 105
+    },
+    {
+      "raw_name": "Volantis",
+      "slug": "volantis",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/volantis.node.md",
+      "section": "Locations",
+      "line": 106
+    },
+    {
+      "raw_name": "Basilisk Isles",
+      "slug": "basilisk-isles",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/basilisk-isles.node.md",
+      "section": "Locations",
+      "line": 107
+    },
+    {
+      "raw_name": "Ghiscari hills",
+      "slug": "ghiscari-hills",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 108
+    },
+    {
+      "raw_name": "Temple of the Graces",
+      "slug": "temple-of-the-graces",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/temple-of-the-graces.node.md",
+      "section": "Locations",
+      "line": 109
+    },
+    {
+      "raw_name": "Hall of a Thousand Thrones",
+      "slug": "hall-of-a-thousand-thrones",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/hall-of-a-thousand-thrones.node.md",
+      "section": "Locations",
+      "line": 110
+    },
+    {
+      "raw_name": "Pyramid of Merreq",
+      "slug": "pyramid-of-merreq",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pyramid-of-merreq.node.md",
+      "section": "Locations",
+      "line": 111
+    },
+    {
+      "raw_name": "Great Pyramid of Meereen",
+      "slug": "great-pyramid-of-meereen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 116
+    },
+    {
+      "raw_name": "Slaver's Bay coast (historical)",
+      "slug": "slavers-bay-coast",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 117
+    },
+    {
+      "raw_name": "Thirteen Qartheen galleys",
+      "slug": "thirteen-qartheen-galleys",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 122
+    },
+    {
+      "raw_name": "Silken Cloud (galleas)",
+      "slug": "silken-cloud",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/silken-cloud.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 123
+    },
+    {
+      "raw_name": "Ancient tapestry/map",
+      "slug": "ancient-tapestry-map",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 124
+    },
+    {
+      "raw_name": "Bloodstained glove on black satin pillow",
+      "slug": "bloodstained-glove-on-black-satin-pillow",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 125
+    },
+    {
+      "raw_name": "Long red streamers",
+      "slug": "long-red-streamers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 126
+    },
+    {
+      "raw_name": "Pureborn Princess (ship)",
+      "slug": "pureborn-princess",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/pureborn-princess.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 127
+    },
+    {
+      "raw_name": "Narraqqa (ship)",
+      "slug": "narraqqa",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/narraqqa.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 128
+    },
+    {
+      "raw_name": "Banded Lizard (ship)",
+      "slug": "banded-lizard",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/banded-lizard.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 129
+    }
+  ]
+}

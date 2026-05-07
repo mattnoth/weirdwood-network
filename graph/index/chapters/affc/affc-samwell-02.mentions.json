@@ -1,0 +1,1546 @@
+{
+  "chapter_id": "affc-samwell-02",
+  "book": "affc",
+  "pov_character": "samwell",
+  "generated_at": "2026-05-07T02:06:34.471316+00:00",
+  "extraction_path": "extractions/mechanical/affc/affc-samwell-02.extraction.md",
+  "stats": {
+    "total_mentions": 170,
+    "resolved_to_node": 100,
+    "direct": 96,
+    "alias": 4,
+    "unresolved": 70
+  },
+  "mentions": [
+    {
+      "raw_name": "Samwell Tarly",
+      "slug": "samwell-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Gilly",
+      "slug": "gilly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gilly.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Gilly's babe (unnamed)",
+      "slug": "gillys-babe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Dareon",
+      "slug": "dareon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dareon.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Maester Aemon",
+      "slug": "maester-aemon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Old Tattersalt",
+      "slug": "old-tattersalt",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/old-tattersalt.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Old Tattersalt's mate",
+      "slug": "old-tattersalts-mate",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Samwell Tarly",
+      "slug": "samwell-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
+      "section": "Character Appearances",
+      "line": 38
+    },
+    {
+      "raw_name": "Dareon",
+      "slug": "dareon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dareon.node.md",
+      "section": "Character Appearances",
+      "line": 39
+    },
+    {
+      "raw_name": "Gilly",
+      "slug": "gilly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gilly.node.md",
+      "section": "Character Appearances",
+      "line": 40
+    },
+    {
+      "raw_name": "Maester Aemon",
+      "slug": "maester-aemon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 41
+    },
+    {
+      "raw_name": "Old Tattersalt",
+      "slug": "old-tattersalt",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/old-tattersalt.node.md",
+      "section": "Character Appearances",
+      "line": 42
+    },
+    {
+      "raw_name": "Randyll Tarly (Sam's father)",
+      "slug": "randyll-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/randyll-tarly.node.md",
+      "section": "Characters Referenced",
+      "line": 47
+    },
+    {
+      "raw_name": "Ser Hyle",
+      "slug": "ser-hyle",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 48
+    },
+    {
+      "raw_name": "Cotter Pyke",
+      "slug": "cotter-pyke",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cotter-pyke.node.md",
+      "section": "Characters Referenced",
+      "line": 49
+    },
+    {
+      "raw_name": "Jon Snow / Lord Snow",
+      "slug": "jon-snow-lord-snow",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 50
+    },
+    {
+      "raw_name": "Yoren",
+      "slug": "yoren",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/yoren.node.md",
+      "section": "Characters Referenced",
+      "line": 51
+    },
+    {
+      "raw_name": "Horas Redwyne",
+      "slug": "horas-redwyne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/horas-redwyne.node.md",
+      "section": "Characters Referenced",
+      "line": 52
+    },
+    {
+      "raw_name": "Hobber Redwyne",
+      "slug": "hobber-redwyne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hobber-redwyne.node.md",
+      "section": "Characters Referenced",
+      "line": 53
+    },
+    {
+      "raw_name": "Lord Paxter Redwyne",
+      "slug": "paxter-redwyne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/paxter-redwyne.node.md",
+      "section": "Characters Referenced",
+      "line": 54
+    },
+    {
+      "raw_name": "Sam's mother (Lady Tarly)",
+      "slug": "sams-mother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 55
+    },
+    {
+      "raw_name": "Dickon",
+      "slug": "dickon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 56
+    },
+    {
+      "raw_name": "Sam's sisters",
+      "slug": "sams-sisters",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "Egg / King Aegon",
+      "slug": "egg-king-aegon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "Ser Duncan",
+      "slug": "ser-duncan",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "Brynden Rivers / Bloodraven",
+      "slug": "brynden-rivers-bloodraven",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "Nymeria",
+      "slug": "nymeria",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/nymeria.node.md",
+      "section": "Characters Referenced",
+      "line": 61
+    },
+    {
+      "raw_name": "Lady Melisandre",
+      "slug": "melisandre",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/melisandre.node.md",
+      "section": "Characters Referenced",
+      "line": 62
+    },
+    {
+      "raw_name": "Dalla",
+      "slug": "dalla",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dalla.node.md",
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "Craster",
+      "slug": "craster",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/craster.node.md",
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "Alliser Thorne",
+      "slug": "alliser-thorne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alliser-thorne.node.md",
+      "section": "Characters Referenced",
+      "line": 65
+    },
+    {
+      "raw_name": "The Old Bear",
+      "slug": "jeor-mormont",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jeor-mormont.node.md",
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "Coldhands",
+      "slug": "coldhands",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/coldhands.node.md",
+      "section": "Characters Referenced",
+      "line": 67
+    },
+    {
+      "raw_name": "Lord Redwyne's fool",
+      "slug": "lord-redwynes-fool",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 68
+    },
+    {
+      "raw_name": "Kitchen girl at the Arbor",
+      "slug": "kitchen-girl-at-the-arbor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 69
+    },
+    {
+      "raw_name": "Mance Rayder",
+      "slug": "mance-rayder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mance-rayder.node.md",
+      "section": "Characters Referenced",
+      "line": 70
+    },
+    {
+      "raw_name": "Blackbird (ship)",
+      "slug": "blackbird",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/blackbird.node.md",
+      "section": "Locations",
+      "line": 75
+    },
+    {
+      "raw_name": "Eastwatch-by-the-Sea",
+      "slug": "eastwatch-by-the-sea",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/eastwatch-by-the-sea.node.md",
+      "section": "Locations",
+      "line": 76
+    },
+    {
+      "raw_name": "Bay of Seals",
+      "slug": "bay-of-seals",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bay-of-seals.node.md",
+      "section": "Locations",
+      "line": 77
+    },
+    {
+      "raw_name": "Skagos",
+      "slug": "skagos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/skagos.node.md",
+      "section": "Locations",
+      "line": 78
+    },
+    {
+      "raw_name": "Horn Hill",
+      "slug": "horn-hill",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/horn-hill.node.md",
+      "section": "Locations",
+      "line": 79
+    },
+    {
+      "raw_name": "Oldtown",
+      "slug": "oldtown",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/oldtown.node.md",
+      "section": "Locations",
+      "line": 80
+    },
+    {
+      "raw_name": "Braavos",
+      "slug": "braavos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/braavos.node.md",
+      "section": "Locations",
+      "line": 81
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Locations",
+      "line": 82
+    },
+    {
+      "raw_name": "Craster's Keep",
+      "slug": "crasters-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crasters-keep.node.md",
+      "section": "Locations",
+      "line": 83
+    },
+    {
+      "raw_name": "The Arbor",
+      "slug": "arbor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/arbor.node.md",
+      "section": "Locations",
+      "line": 84
+    },
+    {
+      "raw_name": "Skane",
+      "slug": "skane",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/skane.node.md",
+      "section": "Locations",
+      "line": 85
+    },
+    {
+      "raw_name": "Narrow sea",
+      "slug": "narrow-sea",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 86
+    },
+    {
+      "raw_name": "Whitetree",
+      "slug": "whitetree",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/whitetree.node.md",
+      "section": "Locations",
+      "line": 87
+    },
+    {
+      "raw_name": "Black Gate",
+      "slug": "black-gate",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/black-gate.node.md",
+      "section": "Locations",
+      "line": 88
+    },
+    {
+      "raw_name": "Blackbird (ship)",
+      "slug": "blackbird",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/blackbird.node.md",
+      "section": "Location Descriptions",
+      "line": 93
+    },
+    {
+      "raw_name": "Skagos",
+      "slug": "skagos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/skagos.node.md",
+      "section": "Location Descriptions",
+      "line": 94
+    },
+    {
+      "raw_name": "Bay of Seals",
+      "slug": "bay-of-seals",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bay-of-seals.node.md",
+      "section": "Location Descriptions",
+      "line": 95
+    },
+    {
+      "raw_name": "Horn Hill",
+      "slug": "horn-hill",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/horn-hill.node.md",
+      "section": "Location Descriptions",
+      "line": 96
+    },
+    {
+      "raw_name": "Braavos",
+      "slug": "braavos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/braavos.node.md",
+      "section": "Location Descriptions",
+      "line": 97
+    },
+    {
+      "raw_name": "Arbor Queen (ship)",
+      "slug": "arbor-queen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 98
+    },
+    {
+      "raw_name": "Blackbird",
+      "slug": "blackbird",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/blackbird.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 103
+    },
+    {
+      "raw_name": "Storm Crow",
+      "slug": "storm-crow",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/storm-crow.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 104
+    },
+    {
+      "raw_name": "Talon",
+      "slug": "talon",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/talon.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 105
+    },
+    {
+      "raw_name": "Golden Dragon",
+      "slug": "golden-dragon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 106
+    },
+    {
+      "raw_name": "Arbor Queen",
+      "slug": "arbor-queen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 107
+    },
+    {
+      "raw_name": "Sam's knife",
+      "slug": "sams-knife",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 108
+    },
+    {
+      "raw_name": "Dareon's lute",
+      "slug": "dareons-lute",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 109
+    },
+    {
+      "raw_name": "Dareon's woodharp",
+      "slug": "dareons-woodharp",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 110
+    },
+    {
+      "raw_name": "Dareon's fiddle",
+      "slug": "dareons-fiddle",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 111
+    },
+    {
+      "raw_name": "Sam's black cloak",
+      "slug": "sams-black-cloak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 112
+    },
+    {
+      "raw_name": "Cask of firewine",
+      "slug": "cask-of-firewine",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 113
+    },
+    {
+      "raw_name": "Samwell Tarly (Sam, Slayer, Sam the Slayer)",
+      "slug": "samwell-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 268
+    },
+    {
+      "raw_name": "Gilly",
+      "slug": "gilly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gilly.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 269
+    },
+    {
+      "raw_name": "Gilly's babe (unnamed; revealed as Dalla's son)",
+      "slug": "gillys-babe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 270
+    },
+    {
+      "raw_name": "Dareon",
+      "slug": "dareon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dareon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 271
+    },
+    {
+      "raw_name": "Maester Aemon",
+      "slug": "maester-aemon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 272
+    },
+    {
+      "raw_name": "Old Tattersalt (captain of Blackbird)",
+      "slug": "old-tattersalt",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/old-tattersalt.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 273
+    },
+    {
+      "raw_name": "Old Tattersalt's mate (unnamed)",
+      "slug": "old-tattersalts-mate",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 274
+    },
+    {
+      "raw_name": "Randyll Tarly (Sam's father, \"lord father\")",
+      "slug": "randyll-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/randyll-tarly.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 275
+    },
+    {
+      "raw_name": "Ser Hyle",
+      "slug": "ser-hyle",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 276
+    },
+    {
+      "raw_name": "Cotter Pyke",
+      "slug": "cotter-pyke",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cotter-pyke.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 277
+    },
+    {
+      "raw_name": "Jon Snow (Lord Snow, Lord Commander, Jon)",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 278
+    },
+    {
+      "raw_name": "Yoren",
+      "slug": "yoren",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/yoren.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 279
+    },
+    {
+      "raw_name": "Horas Redwyne",
+      "slug": "horas-redwyne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/horas-redwyne.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 280
+    },
+    {
+      "raw_name": "Hobber Redwyne",
+      "slug": "hobber-redwyne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hobber-redwyne.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 281
+    },
+    {
+      "raw_name": "Lord Paxter Redwyne",
+      "slug": "paxter-redwyne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/paxter-redwyne.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 282
+    },
+    {
+      "raw_name": "Sam's mother (Lady Tarly, unnamed)",
+      "slug": "sams-mother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 283
+    },
+    {
+      "raw_name": "Dickon (Sam's brother)",
+      "slug": "dickon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 284
+    },
+    {
+      "raw_name": "Sam's sisters (unnamed)",
+      "slug": "sams-sisters",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 285
+    },
+    {
+      "raw_name": "Egg / King Aegon (Aemon's brother)",
+      "slug": "egg-king-aegon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 286
+    },
+    {
+      "raw_name": "Ser Duncan",
+      "slug": "ser-duncan",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 287
+    },
+    {
+      "raw_name": "Brynden Rivers (Bloodraven)",
+      "slug": "brynden-rivers",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brynden-rivers.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 288
+    },
+    {
+      "raw_name": "Nymeria (historical queen)",
+      "slug": "nymeria",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/nymeria.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 289
+    },
+    {
+      "raw_name": "Lady Melisandre",
+      "slug": "melisandre",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/melisandre.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 290
+    },
+    {
+      "raw_name": "Dalla",
+      "slug": "dalla",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dalla.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 291
+    },
+    {
+      "raw_name": "Craster",
+      "slug": "craster",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/craster.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 292
+    },
+    {
+      "raw_name": "Alliser Thorne",
+      "slug": "alliser-thorne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alliser-thorne.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 293
+    },
+    {
+      "raw_name": "The Old Bear (Jeor Mormont, implied)",
+      "slug": "jeor-mormont",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jeor-mormont.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 294
+    },
+    {
+      "raw_name": "Coldhands",
+      "slug": "coldhands",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/coldhands.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 295
+    },
+    {
+      "raw_name": "Lord Redwyne's fool (unnamed)",
+      "slug": "lord-redwynes-fool",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 296
+    },
+    {
+      "raw_name": "Kitchen girl at the Arbor (unnamed)",
+      "slug": "kitchen-girl-at-the-arbor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 297
+    },
+    {
+      "raw_name": "Mance Rayder (implied as \"King-beyond-the-Wall\")",
+      "slug": "mance-rayder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mance-rayder.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 298
+    },
+    {
+      "raw_name": "Lord Redwyne's daughter (unnamed; mentioned as potential betrothal)",
+      "slug": "lord-redwynes-daughter",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 299
+    },
+    {
+      "raw_name": "Blackbird (ship)",
+      "slug": "blackbird",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/blackbird.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 302
+    },
+    {
+      "raw_name": "Eastwatch-by-the-Sea",
+      "slug": "eastwatch-by-the-sea",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/eastwatch-by-the-sea.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 303
+    },
+    {
+      "raw_name": "Bay of Seals",
+      "slug": "bay-of-seals",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bay-of-seals.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 304
+    },
+    {
+      "raw_name": "Skagos",
+      "slug": "skagos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/skagos.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 305
+    },
+    {
+      "raw_name": "Horn Hill",
+      "slug": "horn-hill",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/horn-hill.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 306
+    },
+    {
+      "raw_name": "Oldtown",
+      "slug": "oldtown",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/oldtown.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 307
+    },
+    {
+      "raw_name": "Braavos",
+      "slug": "braavos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/braavos.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 308
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 309
+    },
+    {
+      "raw_name": "Craster's Keep",
+      "slug": "crasters-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crasters-keep.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 310
+    },
+    {
+      "raw_name": "The Arbor",
+      "slug": "arbor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/arbor.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 311
+    },
+    {
+      "raw_name": "Skane",
+      "slug": "skane",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/skane.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 312
+    },
+    {
+      "raw_name": "Narrow sea",
+      "slug": "narrow-sea",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 313
+    },
+    {
+      "raw_name": "Whitetree",
+      "slug": "whitetree",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/whitetree.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 314
+    },
+    {
+      "raw_name": "Black Gate (beneath the Wall)",
+      "slug": "black-gate",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/black-gate.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 315
+    },
+    {
+      "raw_name": "Redwyne Straits",
+      "slug": "redwyne-straits",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/redwyne-straits.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 316
+    },
+    {
+      "raw_name": "Winterfell (mentioned in context of Skagos rebellion)",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 317
+    },
+    {
+      "raw_name": "The haunted forest",
+      "slug": "the-haunted-forest",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 318
+    },
+    {
+      "raw_name": "House Tarly (Sam's family; Horn Hill)",
+      "slug": "house-tarly",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-tarly.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 321
+    },
+    {
+      "raw_name": "House Redwyne (Lord Paxter Redwyne; the Arbor)",
+      "slug": "house-redwyne",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-redwyne.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 322
+    },
+    {
+      "raw_name": "House Targaryen (Egg/Aegon, Aemon, implied)",
+      "slug": "house-targaryen",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-targaryen.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 323
+    },
+    {
+      "raw_name": "Night's Watch",
+      "slug": "nights-watch",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/nights-watch.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 326
+    },
+    {
+      "raw_name": "Blackbird's crew / oarsmen",
+      "slug": "blackbirds-crew-oarsmen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 327
+    },
+    {
+      "raw_name": "The Mother Above (Aemon invokes \"not even the Mother Above\")",
+      "slug": "the-mother-above",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 330
+    },
+    {
+      "raw_name": "R'hllor / the red god (Melisandre's god; context of burning sacrifices)",
+      "slug": "rhllor-the-red-god",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 331
+    },
+    {
+      "raw_name": "Unnamed gods (\"Gods be good\" invoked by Gilly and Dareon)",
+      "slug": "unnamed-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 332
+    },
+    {
+      "raw_name": "Skagosi / Skaggs / the stoneborn (cave-dwelling, unicorn-riding, rumored cannibals)",
+      "slug": "skagosi-skaggs-the-stoneborn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 335
+    },
+    {
+      "raw_name": "Wildlings / free folk (Gilly's people; Dareon's comment about wildling bravery)",
+      "slug": "wildlings-free-folk",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 336
+    },
+    {
+      "raw_name": "Northmen (distinguished from Skagosi — \"their fellow northmen called them Skaggs\")",
+      "slug": "northmen",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/northmen.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 337
+    },
+    {
+      "raw_name": "Braavosi (mummers, boat culture, lagoon city — described by Sam)",
+      "slug": "braavosi",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/braavosi.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 338
+    },
+    {
+      "raw_name": "Blackbird (Night's Watch galley)",
+      "slug": "blackbird",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/blackbird.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 341
+    },
+    {
+      "raw_name": "Storm Crow (Night's Watch ship)",
+      "slug": "storm-crow",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/storm-crow.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 342
+    },
+    {
+      "raw_name": "Talon (Night's Watch ship)",
+      "slug": "talon",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/talon.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 343
+    },
+    {
+      "raw_name": "Golden Dragon (ship that carried Aemon to the Wall)",
+      "slug": "golden-dragon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 344
+    },
+    {
+      "raw_name": "Arbor Queen (Lord Redwyne's galleas)",
+      "slug": "arbor-queen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 345
+    },
+    {
+      "raw_name": "Sam's knife",
+      "slug": "sams-knife",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 346
+    },
+    {
+      "raw_name": "Dareon's lute",
+      "slug": "dareons-lute",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 347
+    },
+    {
+      "raw_name": "Dareon's woodharp",
+      "slug": "dareons-woodharp",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 348
+    },
+    {
+      "raw_name": "Dareon's fiddle",
+      "slug": "dareons-fiddle",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 349
+    },
+    {
+      "raw_name": "Sam's black cloak (given to Gilly)",
+      "slug": "sams-black-cloak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 350
+    },
+    {
+      "raw_name": "Cask of firewine",
+      "slug": "cask-of-firewine",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 351
+    },
+    {
+      "raw_name": "Tallow candles",
+      "slug": "tallow-candles",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 352
+    },
+    {
+      "raw_name": "Furs (used to warm Aemon and the babe)",
+      "slug": "furs",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 353
+    },
+    {
+      "raw_name": "Wooden sword (used by kitchen girl to beat young Sam)",
+      "slug": "wooden-sword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 354
+    },
+    {
+      "raw_name": "Lord Redwyne's fool's rattle",
+      "slug": "lord-redwynes-fools-rattle",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 355
+    },
+    {
+      "raw_name": "\"The Day They Hanged Black Robin\" (sad song)",
+      "slug": "the-day-they-hanged-black-robin",
+      "resolved_via": "direct",
+      "node_type": "object.text",
+      "node_path": "graph/nodes/texts/the-day-they-hanged-black-robin.node.md",
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 358
+    },
+    {
+      "raw_name": "\"The Mermaid's Lament\" (sad song)",
+      "slug": "the-mermaids-lament",
+      "resolved_via": "direct",
+      "node_type": "object.text",
+      "node_path": "graph/nodes/texts/the-mermaids-lament.node.md",
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 359
+    },
+    {
+      "raw_name": "\"Autumn of My Day\" (sad song)",
+      "slug": "autumn-of-my-day",
+      "resolved_via": "direct",
+      "node_type": "object.text",
+      "node_path": "graph/nodes/texts/autumn-of-my-day.node.md",
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 360
+    },
+    {
+      "raw_name": "\"Iron Lances\" (rousing song)",
+      "slug": "iron-lances",
+      "resolved_via": "direct",
+      "node_type": "object.text",
+      "node_path": "graph/nodes/texts/iron-lances.node.md",
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 361
+    },
+    {
+      "raw_name": "\"Seven Swords for Seven Sons\" (rousing song)",
+      "slug": "seven-swords-for-seven-sons",
+      "resolved_via": "direct",
+      "node_type": "object.text",
+      "node_path": "graph/nodes/texts/seven-swords-for-seven-sons.node.md",
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 362
+    },
+    {
+      "raw_name": "\"Milady's Supper\" (bawdy song)",
+      "slug": "miladys-supper",
+      "resolved_via": "direct",
+      "node_type": "object.text",
+      "node_path": "graph/nodes/texts/miladys-supper.node.md",
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 363
+    },
+    {
+      "raw_name": "\"Her Little Flower\" (bawdy song)",
+      "slug": "her-little-flower",
+      "resolved_via": "direct",
+      "node_type": "object.text",
+      "node_path": "graph/nodes/texts/her-little-flower.node.md",
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 364
+    },
+    {
+      "raw_name": "\"Meggett Was a Merry Maid, a Merry Maid Was She\" (bawdy song)",
+      "slug": "meggett-was-a-merry-maid-a-merry-maid-was-she",
+      "resolved_via": "direct",
+      "node_type": "object.text",
+      "node_path": "graph/nodes/texts/meggett-was-a-merry-maid-a-merry-maid-was-she.node.md",
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 365
+    },
+    {
+      "raw_name": "\"The Bear and the Maiden Fair\" (all oarsmen join in)",
+      "slug": "the-bear-and-the-maiden-fair",
+      "resolved_via": "direct",
+      "node_type": "object.text",
+      "node_path": "graph/nodes/texts/the-bear-and-the-maiden-fair.node.md",
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 366
+    },
+    {
+      "raw_name": "\"A Thousand Eyes, and One\" (song about Bloodraven; Dareon knows it)",
+      "slug": "a-thousand-eyes-and-one",
+      "resolved_via": "direct",
+      "node_type": "object.text",
+      "node_path": "graph/nodes/texts/a-thousand-eyes-and-one.node.md",
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 367
+    },
+    {
+      "raw_name": "Sam's childhood book about Braavos (unnamed)",
+      "slug": "sams-childhood-book-about-braavos",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 368
+    },
+    {
+      "raw_name": "Dareon's own compositions (Sam does not think them very good)",
+      "slug": "dareons-own-compositions",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 369
+    },
+    {
+      "raw_name": "Greensickness / seasickness (recurring throughout)",
+      "slug": "greensickness-seasickness",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 372
+    },
+    {
+      "raw_name": "The red wanderer / the Thief (star/celestial body; free folk name)",
+      "slug": "the-red-wanderer-the-thief",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 373
+    },
+    {
+      "raw_name": "Baby switch (to protect from blood magic / king's blood sacrifice)",
+      "slug": "baby-switch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 374
+    },
+    {
+      "raw_name": "Skagos rebellion (~100 years ago; claimed the life of the Lord of Winterfell)",
+      "slug": "skagos-rebellion",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 377
+    },
+    {
+      "raw_name": "Skagosi raid on Skane (ancient; depopulated the island)",
+      "slug": "skagosi-raid-on-skane",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 378
+    },
+    {
+      "raw_name": "Lord Commander (of the Night's Watch; Jon Snow holds this title)",
+      "slug": "lord-commander",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 381
+    },
+    {
+      "raw_name": "Maester (Aemon's title; what Sam is being sent to become)",
+      "slug": "maester",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/maester.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 382
+    },
+    {
+      "raw_name": "Recruiter (Dareon's new role, replacing Yoren)",
+      "slug": "recruiter",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 383
+    },
+    {
+      "raw_name": "Slayer (Sam's nickname/informal title)",
+      "slug": "slayer",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 384
+    },
+    {
+      "raw_name": "Lord of Winterfell (unnamed; killed in Skagos rebellion)",
+      "slug": "lord-of-winterfell",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord-of-winterfell.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 385
+    },
+    {
+      "raw_name": "King-beyond-the-Wall (Mance Rayder, implied)",
+      "slug": "king-beyond-the-wall",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/king-beyond-the-wall.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 386
+    },
+    {
+      "raw_name": "Unicorns (Skagosi reportedly ride them to war)",
+      "slug": "unicorns",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 389
+    },
+    {
+      "raw_name": "Rooks and crabs (feeding on dead sailors on Skagos shore)",
+      "slug": "rooks-and-crabs",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 390
+    },
+    {
+      "raw_name": "Grey gulls (Aemon remembers seeing them fly in the ship's wake)",
+      "slug": "grey-gulls",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 391
+    },
+    {
+      "raw_name": "Mermaids (Dareon jokes about looking for them)",
+      "slug": "mermaids",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 392
+    }
+  ]
+}

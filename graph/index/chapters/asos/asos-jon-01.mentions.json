@@ -1,0 +1,790 @@
+{
+  "chapter_id": "asos-jon-01",
+  "book": "asos",
+  "pov_character": "jon",
+  "generated_at": "2026-05-07T02:06:34.421117+00:00",
+  "extraction_path": "extractions/mechanical/asos/asos-jon-01.extraction.md",
+  "stats": {
+    "total_mentions": 86,
+    "resolved_to_node": 58,
+    "direct": 51,
+    "alias": 7,
+    "unresolved": 28
+  },
+  "mentions": [
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Ghost",
+      "slug": "ghost",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ghost.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Rattleshirt (Lord of Bones)",
+      "slug": "lord-of-bones",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lord-of-bones.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Ygritte",
+      "slug": "ygritte",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ygritte.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Longspear Ryk",
+      "slug": "ryk",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ryk.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Ragwyle",
+      "slug": "ragwyle",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ragwyle.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Lenyl",
+      "slug": "lenyl",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lenyl.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "The Weeper",
+      "slug": "weeper",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/weeper.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Mance Rayder",
+      "slug": "mance-rayder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mance-rayder.node.md",
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Styr (Magnar of Thenn)",
+      "slug": "styr",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/styr.node.md",
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "Tormund Giantsbane",
+      "slug": "tormund-giantsbane",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 37
+    },
+    {
+      "raw_name": "Dalla",
+      "slug": "dalla",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dalla.node.md",
+      "section": "Characters Present",
+      "line": 38
+    },
+    {
+      "raw_name": "Val",
+      "slug": "val",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/val.node.md",
+      "section": "Characters Present",
+      "line": 39
+    },
+    {
+      "raw_name": "Jarl",
+      "slug": "jarl",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jarl.node.md",
+      "section": "Characters Present",
+      "line": 40
+    },
+    {
+      "raw_name": "Ghost",
+      "slug": "ghost",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ghost.node.md",
+      "section": "Character Appearances",
+      "line": 45
+    },
+    {
+      "raw_name": "Rattleshirt",
+      "slug": "lord-of-bones",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lord-of-bones.node.md",
+      "section": "Character Appearances",
+      "line": 46
+    },
+    {
+      "raw_name": "The Weeper",
+      "slug": "weeper",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/weeper.node.md",
+      "section": "Character Appearances",
+      "line": 47
+    },
+    {
+      "raw_name": "Styr (Magnar of Thenn)",
+      "slug": "styr",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/styr.node.md",
+      "section": "Character Appearances",
+      "line": 48
+    },
+    {
+      "raw_name": "Tormund Giantsbane",
+      "slug": "tormund-giantsbane",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 49
+    },
+    {
+      "raw_name": "Mance Rayder",
+      "slug": "mance-rayder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mance-rayder.node.md",
+      "section": "Character Appearances",
+      "line": 50
+    },
+    {
+      "raw_name": "Ygritte",
+      "slug": "ygritte",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ygritte.node.md",
+      "section": "Character Appearances",
+      "line": 51
+    },
+    {
+      "raw_name": "Val",
+      "slug": "val",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/val.node.md",
+      "section": "Character Appearances",
+      "line": 52
+    },
+    {
+      "raw_name": "Jarl",
+      "slug": "jarl",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jarl.node.md",
+      "section": "Character Appearances",
+      "line": 53
+    },
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Character Appearances",
+      "line": 54
+    },
+    {
+      "raw_name": "Dalla",
+      "slug": "dalla",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dalla.node.md",
+      "section": "Character Appearances",
+      "line": 55
+    },
+    {
+      "raw_name": "Qhorin Halfhand",
+      "slug": "qhorin-halfhand",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qhorin-halfhand.node.md",
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "Ebben",
+      "slug": "ebben",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ebben.node.md",
+      "section": "Characters Referenced",
+      "line": 61
+    },
+    {
+      "raw_name": "Orell",
+      "slug": "orell",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/orell.node.md",
+      "section": "Characters Referenced",
+      "line": 62
+    },
+    {
+      "raw_name": "Mance Rayder (before meeting)",
+      "slug": "mance-rayder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mance-rayder.node.md",
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "Harma Dogshead",
+      "slug": "harma-dogshead",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/harma-dogshead.node.md",
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "Alfyn Crowkiller",
+      "slug": "alfyn-crowkiller",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alfyn-crowkiller.node.md",
+      "section": "Characters Referenced",
+      "line": 65
+    },
+    {
+      "raw_name": "Lord Commander Qorgyle",
+      "slug": "lord-commander-qorgyle",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lord-commander-qorgyle.node.md",
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "Robb Stark",
+      "slug": "robb-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 67
+    },
+    {
+      "raw_name": "Fat Tom",
+      "slug": "tomard",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tomard.node.md",
+      "section": "Characters Referenced",
+      "line": 68
+    },
+    {
+      "raw_name": "King Robert Baratheon",
+      "slug": "robert-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robert-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 69
+    },
+    {
+      "raw_name": "Eddard Stark (Ned)",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 70
+    },
+    {
+      "raw_name": "Benjen Stark",
+      "slug": "benjen-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/benjen-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 71
+    },
+    {
+      "raw_name": "Joffrey",
+      "slug": "joffrey",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 72
+    },
+    {
+      "raw_name": "Tommen",
+      "slug": "tommen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 73
+    },
+    {
+      "raw_name": "Myrcella",
+      "slug": "myrcella",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 74
+    },
+    {
+      "raw_name": "Bran Stark",
+      "slug": "bran-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bran-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 75
+    },
+    {
+      "raw_name": "Rickon Stark",
+      "slug": "rickon-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rickon-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 76
+    },
+    {
+      "raw_name": "Arya Stark",
+      "slug": "arya-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/arya-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 77
+    },
+    {
+      "raw_name": "Sansa Stark",
+      "slug": "sansa-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sansa-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 78
+    },
+    {
+      "raw_name": "Orland of Oldtown",
+      "slug": "orland-of-oldtown",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/orland-of-oldtown.node.md",
+      "section": "Characters Referenced",
+      "line": 79
+    },
+    {
+      "raw_name": "The Kingslayer (Jaime Lannister)",
+      "slug": "jaime-lannister",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaime-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 80
+    },
+    {
+      "raw_name": "The Imp (Tyrion Lannister)",
+      "slug": "tyrion-lannister",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tyrion-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 81
+    },
+    {
+      "raw_name": "Ser Denys Mallister",
+      "slug": "denys-mallister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/denys-mallister.node.md",
+      "section": "Characters Referenced",
+      "line": 82
+    },
+    {
+      "raw_name": "Maester Mullin",
+      "slug": "mullin",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mullin.node.md",
+      "section": "Characters Referenced",
+      "line": 83
+    },
+    {
+      "raw_name": "Bael the Bard",
+      "slug": "bael-the-bard",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bael-the-bard.node.md",
+      "section": "Characters Referenced",
+      "line": 84
+    },
+    {
+      "raw_name": "Craster",
+      "slug": "craster",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/craster.node.md",
+      "section": "Characters Referenced",
+      "line": 85
+    },
+    {
+      "raw_name": "The Old Bear (Jeor Mormont)",
+      "slug": "jeor-mormont",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jeor-mormont.node.md",
+      "section": "Characters Referenced",
+      "line": 86
+    },
+    {
+      "raw_name": "Milkwater river valley",
+      "slug": "milkwater-river-valley",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 91
+    },
+    {
+      "raw_name": "Mance Rayder's tent",
+      "slug": "mance-rayders-tent",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 92
+    },
+    {
+      "raw_name": "Nameless mountain (stone bowl camp)",
+      "slug": "nameless-mountain",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 93
+    },
+    {
+      "raw_name": "The Skirling Pass",
+      "slug": "skirling-pass",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/skirling-pass.node.md",
+      "section": "Locations",
+      "line": 94
+    },
+    {
+      "raw_name": "The Frostfangs",
+      "slug": "frostfangs",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/frostfangs.node.md",
+      "section": "Locations",
+      "line": 95
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Locations",
+      "line": 96
+    },
+    {
+      "raw_name": "Castle Black",
+      "slug": "castle-black",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/castle-black.node.md",
+      "section": "Locations",
+      "line": 97
+    },
+    {
+      "raw_name": "Shadow Tower",
+      "slug": "shadow-tower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/shadow-tower.node.md",
+      "section": "Locations",
+      "line": 98
+    },
+    {
+      "raw_name": "Long Barrow",
+      "slug": "long-barrow",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/long-barrow.node.md",
+      "section": "Locations",
+      "line": 99
+    },
+    {
+      "raw_name": "The New Gift",
+      "slug": "the-new-gift",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 100
+    },
+    {
+      "raw_name": "The Frozen Shore",
+      "slug": "the-frozen-shore",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 101
+    },
+    {
+      "raw_name": "Deepwood Motte",
+      "slug": "deepwood-motte",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/deepwood-motte.node.md",
+      "section": "Locations",
+      "line": 102
+    },
+    {
+      "raw_name": "The Last Hearth",
+      "slug": "last-hearth",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/last-hearth.node.md",
+      "section": "Locations",
+      "line": 103
+    },
+    {
+      "raw_name": "Ruddy Hall",
+      "slug": "ruddy-hall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ruddy-hall.node.md",
+      "section": "Locations",
+      "line": 104
+    },
+    {
+      "raw_name": "Dorne",
+      "slug": "dorne",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dorne.node.md",
+      "section": "Locations",
+      "line": 105
+    },
+    {
+      "raw_name": "Asshai",
+      "slug": "asshai",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/asshai.node.md",
+      "section": "Locations",
+      "line": 106
+    },
+    {
+      "raw_name": "Milkwater river valley (wildling camp)",
+      "slug": "milkwater-river-valley",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 111
+    },
+    {
+      "raw_name": "Mance Rayder's tent",
+      "slug": "mance-rayders-tent",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 112
+    },
+    {
+      "raw_name": "Qhorin Halfhand's cloak",
+      "slug": "qhorin-halfhands-cloak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 117
+    },
+    {
+      "raw_name": "Qhorin Halfhand's hauberk",
+      "slug": "qhorin-halfhands-hauberk",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 118
+    },
+    {
+      "raw_name": "Qhorin Halfhand's gloves",
+      "slug": "qhorin-halfhands-gloves",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 119
+    },
+    {
+      "raw_name": "Qhorin Halfhand's helm",
+      "slug": "qhorin-halfhands-helm",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 120
+    },
+    {
+      "raw_name": "Qhorin Halfhand's bones",
+      "slug": "qhorin-halfhands-bones",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 121
+    },
+    {
+      "raw_name": "Ebben's severed head",
+      "slug": "ebbens-severed-head",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 122
+    },
+    {
+      "raw_name": "Rattleshirt's bone armor",
+      "slug": "rattleshirts-bone-armor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 123
+    },
+    {
+      "raw_name": "Giant's skull helm",
+      "slug": "giants-skull-helm",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 124
+    },
+    {
+      "raw_name": "Mance's black cloak patched with red silk",
+      "slug": "mances-black-cloak-patched-with-red-silk",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 125
+    },
+    {
+      "raw_name": "Mance's lute",
+      "slug": "mances-lute",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 126
+    },
+    {
+      "raw_name": "Tormund's gold arm-bands",
+      "slug": "tormunds-gold-arm-bands",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 127
+    },
+    {
+      "raw_name": "Tormund's black ringmail shirt",
+      "slug": "tormunds-black-ringmail-shirt",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 128
+    },
+    {
+      "raw_name": "Styr's bronze-scale leather shirt",
+      "slug": "styrs-bronze-scale-leather-shirt",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 129
+    },
+    {
+      "raw_name": "Styr's two-handed greatsword",
+      "slug": "styrs-two-handed-greatsword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 130
+    },
+    {
+      "raw_name": "The Weeper's curved scythe",
+      "slug": "the-weepers-curved-scythe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 131
+    },
+    {
+      "raw_name": "Giant elk antlers",
+      "slug": "giant-elk-antlers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 132
+    }
+  ]
+}

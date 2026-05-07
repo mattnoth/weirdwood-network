@@ -1,0 +1,736 @@
+{
+  "chapter_id": "acok-tyrion-14",
+  "book": "acok",
+  "pov_character": "tyrion",
+  "generated_at": "2026-05-07T02:06:34.386082+00:00",
+  "extraction_path": "extractions/mechanical/acok/acok-tyrion-14.extraction.md",
+  "stats": {
+    "total_mentions": 80,
+    "resolved_to_node": 48,
+    "direct": 48,
+    "alias": 0,
+    "unresolved": 32
+  },
+  "mentions": [
+    {
+      "raw_name": "Tyrion Lannister",
+      "slug": "tyrion-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tyrion-lannister.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Ser Mandon Moore",
+      "slug": "mandon-moore",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mandon-moore.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Podrick Payne",
+      "slug": "podrick-payne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/podrick-payne.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Ser Balon Swann",
+      "slug": "balon-swann",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/balon-swann.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Tyrion Lannister",
+      "slug": "tyrion-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tyrion-lannister.node.md",
+      "section": "Character Appearances",
+      "line": 35
+    },
+    {
+      "raw_name": "Ser Mandon Moore",
+      "slug": "mandon-moore",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mandon-moore.node.md",
+      "section": "Character Appearances",
+      "line": 36
+    },
+    {
+      "raw_name": "Podrick Payne",
+      "slug": "podrick-payne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/podrick-payne.node.md",
+      "section": "Character Appearances",
+      "line": 37
+    },
+    {
+      "raw_name": "Ser Balon Swann",
+      "slug": "balon-swann",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/balon-swann.node.md",
+      "section": "Character Appearances",
+      "line": 38
+    },
+    {
+      "raw_name": "Joffrey Baratheon",
+      "slug": "joffrey-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/joffrey-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 43
+    },
+    {
+      "raw_name": "Shagga",
+      "slug": "shagga",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/shagga.node.md",
+      "section": "Characters Referenced",
+      "line": 44
+    },
+    {
+      "raw_name": "Sandor Clegane (the Hound)",
+      "slug": "sandor-clegane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sandor-clegane.node.md",
+      "section": "Characters Referenced",
+      "line": 45
+    },
+    {
+      "raw_name": "Jaime Lannister",
+      "slug": "jaime-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaime-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 46
+    },
+    {
+      "raw_name": "Stannis Baratheon",
+      "slug": "stannis-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stannis-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 47
+    },
+    {
+      "raw_name": "Lancel",
+      "slug": "lancel",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 48
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Locations",
+      "line": 53
+    },
+    {
+      "raw_name": "Blackwater Rush (river)",
+      "slug": "blackwater-rush",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/blackwater-rush.node.md",
+      "section": "Locations",
+      "line": 54
+    },
+    {
+      "raw_name": "Sally port",
+      "slug": "sally-port",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 55
+    },
+    {
+      "raw_name": "Tourney grounds",
+      "slug": "tourney-grounds",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 56
+    },
+    {
+      "raw_name": "King's Gate",
+      "slug": "kings-gate",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-gate.node.md",
+      "section": "Locations",
+      "line": 57
+    },
+    {
+      "raw_name": "Mud Gate",
+      "slug": "mud-gate",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/mud-gate.node.md",
+      "section": "Locations",
+      "line": 58
+    },
+    {
+      "raw_name": "Red Keep",
+      "slug": "red-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-keep.node.md",
+      "section": "Locations",
+      "line": 59
+    },
+    {
+      "raw_name": "Bridge of wrecked ships",
+      "slug": "bridge-of-wrecked-ships",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 60
+    },
+    {
+      "raw_name": "Stone quay",
+      "slug": "stone-quay",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 61
+    },
+    {
+      "raw_name": "King's Gate",
+      "slug": "kings-gate",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-gate.node.md",
+      "section": "Location Descriptions",
+      "line": 66
+    },
+    {
+      "raw_name": "Bridge of wrecked ships",
+      "slug": "bridge-of-wrecked-ships",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 67
+    },
+    {
+      "raw_name": "Tourney grounds",
+      "slug": "tourney-grounds",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 68
+    },
+    {
+      "raw_name": "Red Keep",
+      "slug": "red-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-keep.node.md",
+      "section": "Location Descriptions",
+      "line": 69
+    },
+    {
+      "raw_name": "Battering ram",
+      "slug": "battering-ram",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 74
+    },
+    {
+      "raw_name": "Joffrey's royal standard",
+      "slug": "joffreys-royal-standard",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 75
+    },
+    {
+      "raw_name": "Tyrion's axe",
+      "slug": "tyrions-axe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 76
+    },
+    {
+      "raw_name": "Wildfire",
+      "slug": "wildfire",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/wildfire.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 77
+    },
+    {
+      "raw_name": "Stannis's fiery heart banner",
+      "slug": "stanniss-fiery-heart-banner",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 78
+    },
+    {
+      "raw_name": "Lobstered gauntlet (with severed hand)",
+      "slug": "lobstered-gauntlet",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 79
+    },
+    {
+      "raw_name": "Dragonsbane (galley)",
+      "slug": "dragonsbane",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/dragonsbane.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 80
+    },
+    {
+      "raw_name": "Swordfish-crested helm",
+      "slug": "swordfish-crested-helm",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 81
+    },
+    {
+      "raw_name": "Catapult",
+      "slug": "catapult",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 82
+    },
+    {
+      "raw_name": "Tyrion Lannister (POV)",
+      "slug": "tyrion-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tyrion-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 206
+    },
+    {
+      "raw_name": "Ser Mandon Moore",
+      "slug": "mandon-moore",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mandon-moore.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 207
+    },
+    {
+      "raw_name": "Podrick Payne",
+      "slug": "podrick-payne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/podrick-payne.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 208
+    },
+    {
+      "raw_name": "Ser Balon Swann",
+      "slug": "balon-swann",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/balon-swann.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 209
+    },
+    {
+      "raw_name": "Joffrey Baratheon (referenced — his standard and badge)",
+      "slug": "joffrey-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/joffrey-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 210
+    },
+    {
+      "raw_name": "Shagga (referenced)",
+      "slug": "shagga",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/shagga.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 211
+    },
+    {
+      "raw_name": "Sandor Clegane / the Hound (referenced)",
+      "slug": "sandor-clegane-the-hound",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 212
+    },
+    {
+      "raw_name": "Jaime Lannister (referenced)",
+      "slug": "jaime-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaime-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 213
+    },
+    {
+      "raw_name": "Stannis Baratheon (referenced)",
+      "slug": "stannis-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stannis-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 214
+    },
+    {
+      "raw_name": "Lancel (referenced — his men fighting along the riverfront)",
+      "slug": "lancel",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 215
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 218
+    },
+    {
+      "raw_name": "Blackwater Rush (river)",
+      "slug": "blackwater-rush",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/blackwater-rush.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 219
+    },
+    {
+      "raw_name": "Sally port",
+      "slug": "sally-port",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 220
+    },
+    {
+      "raw_name": "Tourney grounds",
+      "slug": "tourney-grounds",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 221
+    },
+    {
+      "raw_name": "King's Gate",
+      "slug": "kings-gate",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-gate.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 222
+    },
+    {
+      "raw_name": "Mud Gate",
+      "slug": "mud-gate",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/mud-gate.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 223
+    },
+    {
+      "raw_name": "Red Keep",
+      "slug": "red-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-keep.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 224
+    },
+    {
+      "raw_name": "Stone quay",
+      "slug": "stone-quay",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 225
+    },
+    {
+      "raw_name": "Bridge of wrecked ships (improvised crossing)",
+      "slug": "bridge-of-wrecked-ships",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 226
+    },
+    {
+      "raw_name": "House Lannister (Tyrion, battle cry \"Lannister!\")",
+      "slug": "house-lannister",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-lannister.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 229
+    },
+    {
+      "raw_name": "House Baratheon (Stannis's forces; Joffrey's stag-and-lion standard)",
+      "slug": "house-baratheon",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-baratheon.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 230
+    },
+    {
+      "raw_name": "House Florent (knight in fox-through-ring-of-flowers surcoat, killed by Tyrion)",
+      "slug": "house-florent",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-florent.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 231
+    },
+    {
+      "raw_name": "House Celtigar (spearman with red crab badge, kills Ser Balon's horse)",
+      "slug": "house-celtigar",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-celtigar.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 232
+    },
+    {
+      "raw_name": "House Velaryon (spearmen fighting on the bridge)",
+      "slug": "house-velaryon",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-velaryon.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 233
+    },
+    {
+      "raw_name": "House Swann (Ser Balon's battling black-and-white swan trappings)",
+      "slug": "house-swann",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-swann.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 234
+    },
+    {
+      "raw_name": "House Moore (Ser Mandon)",
+      "slug": "house-moore",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-moore.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 235
+    },
+    {
+      "raw_name": "House Payne (Podrick)",
+      "slug": "house-payne",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-payne.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 236
+    },
+    {
+      "raw_name": "Kingsguard (Ser Mandon Moore and Ser Balon Swann both serve; white armor, white shields)",
+      "slug": "kingsguard",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/kingsguard.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 239
+    },
+    {
+      "raw_name": "Gods (Tyrion thinks \"Gods be good\" and \"Gods give me strength to reach the deck\")",
+      "slug": "gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 242
+    },
+    {
+      "raw_name": "Battering ram (black oak shaft, iron head)",
+      "slug": "battering-ram",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 248
+    },
+    {
+      "raw_name": "Joffrey's royal standard (crimson and gold, stag and lion)",
+      "slug": "joffreys-royal-standard",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 249
+    },
+    {
+      "raw_name": "Tyrion's axe",
+      "slug": "tyrions-axe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 250
+    },
+    {
+      "raw_name": "Tyrion's dagger",
+      "slug": "tyrions-dagger",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 251
+    },
+    {
+      "raw_name": "Broken spear (Tyrion's improvised weapon)",
+      "slug": "broken-spear",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 252
+    },
+    {
+      "raw_name": "Stannis's fiery heart banner",
+      "slug": "stanniss-fiery-heart-banner",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 253
+    },
+    {
+      "raw_name": "Lobstered gauntlet (containing severed hand)",
+      "slug": "lobstered-gauntlet",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 254
+    },
+    {
+      "raw_name": "Catapult (on the fourth galley)",
+      "slug": "catapult",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 255
+    },
+    {
+      "raw_name": "Barrels of burning pitch",
+      "slug": "barrels-of-burning-pitch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 256
+    },
+    {
+      "raw_name": "Swordfish-crested helm (worn by unnamed fighter)",
+      "slug": "swordfish-crested-helm",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 257
+    },
+    {
+      "raw_name": "Dragonsbane (enemy galley)",
+      "slug": "dragonsbane",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/dragonsbane.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 258
+    },
+    {
+      "raw_name": "Wildfire (green fire burning on the river, pots bursting overhead, green plumes twenty feet high; balls of green and orange flame crackling between the stars)",
+      "slug": "wildfire",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/wildfire.node.md",
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 264
+    },
+    {
+      "raw_name": "Battle fever (psychological phenomenon — Tyrion experiences it and recalls Jaime's description of time blurring, fear and thought fleeing)",
+      "slug": "battle-fever",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 265
+    },
+    {
+      "raw_name": "Battle of the Blackwater (the engagement depicted in this chapter)",
+      "slug": "battle-of-the-blackwater",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/battle-of-the-blackwater.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 268
+    },
+    {
+      "raw_name": "Kingsguard (Ser Mandon Moore and Ser Balon Swann serve)",
+      "slug": "kingsguard",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/kingsguard.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 271
+    }
+  ]
+}

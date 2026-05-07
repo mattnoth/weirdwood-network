@@ -1,0 +1,1087 @@
+{
+  "chapter_id": "agot-catelyn-01",
+  "book": "agot",
+  "pov_character": "catelyn",
+  "generated_at": "2026-05-07T02:06:34.300188+00:00",
+  "extraction_path": "extractions/mechanical/agot/agot-catelyn-01.extraction.md",
+  "stats": {
+    "total_mentions": 119,
+    "resolved_to_node": 83,
+    "direct": 80,
+    "alias": 3,
+    "unresolved": 36
+  },
+  "mentions": [
+    {
+      "raw_name": "Catelyn Stark",
+      "slug": "catelyn-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/catelyn-stark.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Eddard (Ned) Stark",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Eddard Stark",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Character Appearances",
+      "line": 33
+    },
+    {
+      "raw_name": "Catelyn Stark",
+      "slug": "catelyn-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/catelyn-stark.node.md",
+      "section": "Character Appearances",
+      "line": 34
+    },
+    {
+      "raw_name": "Arya Stark",
+      "slug": "arya-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/arya-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 39
+    },
+    {
+      "raw_name": "Sansa Stark",
+      "slug": "sansa-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sansa-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 40
+    },
+    {
+      "raw_name": "Rickon Stark",
+      "slug": "rickon-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rickon-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 41
+    },
+    {
+      "raw_name": "Bran Stark",
+      "slug": "bran-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bran-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 42
+    },
+    {
+      "raw_name": "Benjen (Ben) Stark",
+      "slug": "benjen-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/benjen-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 43
+    },
+    {
+      "raw_name": "Jon Arryn",
+      "slug": "jon-arryn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-arryn.node.md",
+      "section": "Characters Referenced",
+      "line": 44
+    },
+    {
+      "raw_name": "Robert Baratheon",
+      "slug": "robert-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robert-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 45
+    },
+    {
+      "raw_name": "Lysa Arryn (née Tully)",
+      "slug": "lysa-arryn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lysa-arryn.node.md",
+      "section": "Characters Referenced",
+      "line": 46
+    },
+    {
+      "raw_name": "Jon Arryn's son (Robert Arryn)",
+      "slug": "jon-arryns-son",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 47
+    },
+    {
+      "raw_name": "Cersei (Lannister/Baratheon)",
+      "slug": "cersei",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 48
+    },
+    {
+      "raw_name": "The queen's brothers (Lannisters)",
+      "slug": "the-queens-brothers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 49
+    },
+    {
+      "raw_name": "Prince Tommen",
+      "slug": "prince-tommen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 50
+    },
+    {
+      "raw_name": "Mance Rayder",
+      "slug": "mance-rayder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mance-rayder.node.md",
+      "section": "Characters Referenced",
+      "line": 51
+    },
+    {
+      "raw_name": "Old Nan",
+      "slug": "old-nan",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/old-nan.node.md",
+      "section": "Characters Referenced",
+      "line": 52
+    },
+    {
+      "raw_name": "Maester Luwin",
+      "slug": "luwin",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/luwin.node.md",
+      "section": "Characters Referenced",
+      "line": 53
+    },
+    {
+      "raw_name": "Maester Pycelle",
+      "slug": "pycelle",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/pycelle.node.md",
+      "section": "Characters Referenced",
+      "line": 54
+    },
+    {
+      "raw_name": "Hoster Tully",
+      "slug": "hoster-tully",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hoster-tully.node.md",
+      "section": "Characters Referenced",
+      "line": 55
+    },
+    {
+      "raw_name": "Brynden (Tully)",
+      "slug": "brynden",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 56
+    },
+    {
+      "raw_name": "Aerys II Targaryen",
+      "slug": "aerys-ii-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aerys-ii-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "Jory",
+      "slug": "jorelle-mormont",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jorelle-mormont.node.md",
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "The executed deserter",
+      "slug": "the-executed-deserter",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "Winterfell godswood",
+      "slug": "winterfell-godswood",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 64
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Locations",
+      "line": 65
+    },
+    {
+      "raw_name": "Riverrun",
+      "slug": "riverrun",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/riverrun.node.md",
+      "section": "Locations",
+      "line": 66
+    },
+    {
+      "raw_name": "The Eyrie",
+      "slug": "eyrie",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/eyrie.node.md",
+      "section": "Locations",
+      "line": 67
+    },
+    {
+      "raw_name": "The Vale",
+      "slug": "the-vale",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 68
+    },
+    {
+      "raw_name": "Casterly Rock",
+      "slug": "casterly-rock",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/casterly-rock.node.md",
+      "section": "Locations",
+      "line": 69
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Locations",
+      "line": 70
+    },
+    {
+      "raw_name": "Isle of Faces",
+      "slug": "isle-of-faces",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/isle-of-faces.node.md",
+      "section": "Locations",
+      "line": 71
+    },
+    {
+      "raw_name": "The kingsroad",
+      "slug": "kingsroad",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kingsroad.node.md",
+      "section": "Locations",
+      "line": 72
+    },
+    {
+      "raw_name": "Winterfell godswood",
+      "slug": "winterfell-godswood",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 77
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Location Descriptions",
+      "line": 78
+    },
+    {
+      "raw_name": "Riverrun godswood",
+      "slug": "riverrun-godswood",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 79
+    },
+    {
+      "raw_name": "Riverrun",
+      "slug": "riverrun",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/riverrun.node.md",
+      "section": "Location Descriptions",
+      "line": 80
+    },
+    {
+      "raw_name": "The Eyrie",
+      "slug": "eyrie",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/eyrie.node.md",
+      "section": "Location Descriptions",
+      "line": 81
+    },
+    {
+      "raw_name": "Ice",
+      "slug": "ice",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/ice.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 86
+    },
+    {
+      "raw_name": "Robert's letter",
+      "slug": "roberts-letter",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 87
+    },
+    {
+      "raw_name": "Seven-sided crystal",
+      "slug": "seven-sided-crystal",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 88
+    },
+    {
+      "raw_name": "Milk of the poppy",
+      "slug": "milk-of-the-poppy",
+      "resolved_via": "direct",
+      "node_type": "object.food",
+      "node_path": "graph/nodes/foods/milk-of-the-poppy.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 89
+    },
+    {
+      "raw_name": "Catelyn Stark (née Tully)",
+      "slug": "catelyn-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/catelyn-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 196
+    },
+    {
+      "raw_name": "Eddard (Ned) Stark",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 197
+    },
+    {
+      "raw_name": "Arya Stark (referenced)",
+      "slug": "arya-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/arya-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 198
+    },
+    {
+      "raw_name": "Sansa Stark (referenced)",
+      "slug": "sansa-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sansa-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 199
+    },
+    {
+      "raw_name": "Rickon Stark (referenced)",
+      "slug": "rickon-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rickon-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 200
+    },
+    {
+      "raw_name": "Bran Stark (referenced)",
+      "slug": "bran-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bran-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 201
+    },
+    {
+      "raw_name": "Benjen (Ben) Stark (referenced)",
+      "slug": "benjen-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/benjen-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 202
+    },
+    {
+      "raw_name": "Jon Arryn (referenced, deceased)",
+      "slug": "jon-arryn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-arryn.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 203
+    },
+    {
+      "raw_name": "Robert Baratheon (referenced)",
+      "slug": "robert-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robert-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 204
+    },
+    {
+      "raw_name": "Lysa Arryn (née Tully) (referenced)",
+      "slug": "lysa-arryn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lysa-arryn.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 205
+    },
+    {
+      "raw_name": "Robert Arryn / Jon Arryn's son (referenced)",
+      "slug": "robert-arryn-jon-arryns-son",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 206
+    },
+    {
+      "raw_name": "Cersei Lannister (referenced)",
+      "slug": "cersei-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cersei-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 207
+    },
+    {
+      "raw_name": "Prince Tommen Baratheon (referenced)",
+      "slug": "tommen-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tommen-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 208
+    },
+    {
+      "raw_name": "Mance Rayder (referenced)",
+      "slug": "mance-rayder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mance-rayder.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 209
+    },
+    {
+      "raw_name": "Old Nan (referenced)",
+      "slug": "old-nan",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/old-nan.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 210
+    },
+    {
+      "raw_name": "Maester Luwin (referenced)",
+      "slug": "luwin",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/luwin.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 211
+    },
+    {
+      "raw_name": "Maester Pycelle (referenced)",
+      "slug": "pycelle",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/pycelle.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 212
+    },
+    {
+      "raw_name": "Hoster Tully (referenced)",
+      "slug": "hoster-tully",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hoster-tully.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 213
+    },
+    {
+      "raw_name": "Brynden Tully (referenced)",
+      "slug": "brynden-tully",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brynden-tully.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 214
+    },
+    {
+      "raw_name": "Aerys II Targaryen / the Mad King (referenced)",
+      "slug": "aerys-ii-targaryen-the-mad-king",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 215
+    },
+    {
+      "raw_name": "Jory (referenced)",
+      "slug": "jorelle-mormont",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jorelle-mormont.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 216
+    },
+    {
+      "raw_name": "Brandon the Builder (referenced in legend)",
+      "slug": "brandon-the-builder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brandon-the-builder.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 217
+    },
+    {
+      "raw_name": "The executed deserter (unnamed, referenced)",
+      "slug": "the-executed-deserter",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 218
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 221
+    },
+    {
+      "raw_name": "Winterfell godswood",
+      "slug": "winterfell-godswood",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 222
+    },
+    {
+      "raw_name": "Winterfell sept (built by Ned for Catelyn)",
+      "slug": "winterfell-sept",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 223
+    },
+    {
+      "raw_name": "Riverrun",
+      "slug": "riverrun",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/riverrun.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 224
+    },
+    {
+      "raw_name": "Riverrun godswood",
+      "slug": "riverrun-godswood",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 225
+    },
+    {
+      "raw_name": "Riverrun sept",
+      "slug": "riverrun-sept",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 226
+    },
+    {
+      "raw_name": "The Eyrie",
+      "slug": "eyrie",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/eyrie.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 227
+    },
+    {
+      "raw_name": "The Vale",
+      "slug": "the-vale",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 228
+    },
+    {
+      "raw_name": "Casterly Rock",
+      "slug": "casterly-rock",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/casterly-rock.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 229
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 230
+    },
+    {
+      "raw_name": "The Red Fork of the Trident",
+      "slug": "the-red-fork-of-the-trident",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 231
+    },
+    {
+      "raw_name": "The narrow sea",
+      "slug": "the-narrow-sea",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 232
+    },
+    {
+      "raw_name": "Isle of Faces",
+      "slug": "isle-of-faces",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/isle-of-faces.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 233
+    },
+    {
+      "raw_name": "The kingsroad",
+      "slug": "kingsroad",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kingsroad.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 234
+    },
+    {
+      "raw_name": "Valyria / the old Freehold",
+      "slug": "valyria-the-old-freehold",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 235
+    },
+    {
+      "raw_name": "Beyond the Wall",
+      "slug": "beyond-the-wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/beyond-the-wall.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 236
+    },
+    {
+      "raw_name": "House Stark",
+      "slug": "house-stark",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-stark.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 239
+    },
+    {
+      "raw_name": "House Tully",
+      "slug": "house-tully",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-tully.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 240
+    },
+    {
+      "raw_name": "House Arryn",
+      "slug": "house-arryn",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-arryn.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 241
+    },
+    {
+      "raw_name": "House Baratheon",
+      "slug": "house-baratheon",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-baratheon.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 242
+    },
+    {
+      "raw_name": "House Lannister",
+      "slug": "house-lannister",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-lannister.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 243
+    },
+    {
+      "raw_name": "House Targaryen",
+      "slug": "house-targaryen",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-targaryen.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 244
+    },
+    {
+      "raw_name": "Night's Watch",
+      "slug": "nights-watch",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/nights-watch.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 247
+    },
+    {
+      "raw_name": "The Faith of the Seven (Catelyn's faith; seven oils, sept, septon, censer, incense, seven-sided crystal, rainbow of light, seven faces of god)",
+      "slug": "faith-of-the-seven",
+      "resolved_via": "direct",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/faith-of-the-seven.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 250
+    },
+    {
+      "raw_name": "The Old Gods (Ned's faith; nameless, faceless gods of the greenwood; worshipped at heart trees in godswoods)",
+      "slug": "the-old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 251
+    },
+    {
+      "raw_name": "The First Men (their blood flows in the Starks' veins; built the first structures of Winterfell per legend)",
+      "slug": "first-men",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/first-men.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 254
+    },
+    {
+      "raw_name": "The children of the forest (said to have carved faces in the weirwoods; Ned says they are \"gone eight thousand years\")",
+      "slug": "children-of-the-forest",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/children-of-the-forest.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 255
+    },
+    {
+      "raw_name": "The green men (keep their silent watch on the Isle of Faces)",
+      "slug": "the-green-men",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 256
+    },
+    {
+      "raw_name": "Wildlings (threats beyond the Wall)",
+      "slug": "free-folk",
+      "resolved_via": "alias",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/free-folk.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 257
+    },
+    {
+      "raw_name": "Northerners (\"what a strange people these northerners were\" — Catelyn's thought)",
+      "slug": "northerners",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 258
+    },
+    {
+      "raw_name": "Freeriders (in the royal party)",
+      "slug": "freeriders",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 259
+    },
+    {
+      "raw_name": "Ice (Valyrian steel greatsword of House Stark)",
+      "slug": "ice",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/ice.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 262
+    },
+    {
+      "raw_name": "Robert's letter (bearing the king's seal, in Robert's own hand)",
+      "slug": "roberts-letter",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 263
+    },
+    {
+      "raw_name": "Seven-sided crystal (Faith of the Seven worship)",
+      "slug": "seven-sided-crystal",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 264
+    },
+    {
+      "raw_name": "Milk of the poppy (given to Jon Arryn by Maester Pycelle)",
+      "slug": "milk-of-the-poppy",
+      "resolved_via": "direct",
+      "node_type": "object.food",
+      "node_path": "graph/nodes/foods/milk-of-the-poppy.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 265
+    },
+    {
+      "raw_name": "Oiled leather swatch (Ned uses to polish Ice)",
+      "slug": "oiled-leather-swatch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 266
+    },
+    {
+      "raw_name": "Moon-and-falcon banners (Jon Arryn's / House Arryn's)",
+      "slug": "moon-and-falcon-banners",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 267
+    },
+    {
+      "raw_name": "Old Nan's stories (about the Others; referenced by Ned)",
+      "slug": "old-nans-stories",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 270
+    },
+    {
+      "raw_name": "The Others (discussed — Ned says they are dead and gone; Catelyn raises them as a threat)",
+      "slug": "others",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/others.node.md",
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 273
+    },
+    {
+      "raw_name": "The weirwood face (deep-cut eyes red with dried sap, \"strangely watchful\"; said to have been carved by children of the forest \"during the dawn centuries\")",
+      "slug": "the-weirwood-face",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 274
+    },
+    {
+      "raw_name": "Heart trees (weirwoods with carved faces; every northern castle has one in its godswood)",
+      "slug": "heart-trees",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 275
+    },
+    {
+      "raw_name": "Robert's Rebellion (referenced: the Mad King demanded Ned's and Robert's heads; Jon Arryn raised his banners; the Lannisters came late to Robert's cause \"when victory was all but certain\")",
+      "slug": "roberts-rebellion",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/roberts-rebellion.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 278
+    },
+    {
+      "raw_name": "King (Robert Baratheon)",
+      "slug": "king",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/king.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 281
+    },
+    {
+      "raw_name": "Queen (Cersei Lannister)",
+      "slug": "queen",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/queen.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 282
+    },
+    {
+      "raw_name": "Lord of the Eyrie (Jon Arryn, deceased)",
+      "slug": "lord-of-the-eyrie",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord-of-the-eyrie.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 283
+    },
+    {
+      "raw_name": "Knight of the Gate (Brynden Tully, appointed by Jon Arryn)",
+      "slug": "knight-of-the-gate",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/knight-of-the-gate.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 284
+    },
+    {
+      "raw_name": "King-beyond-the-Wall (Mance Rayder)",
+      "slug": "king-beyond-the-wall",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/king-beyond-the-wall.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 285
+    },
+    {
+      "raw_name": "Kings in the North (historical Stark title, from the age of heroes)",
+      "slug": "kings-in-the-north",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 286
+    },
+    {
+      "raw_name": "Maester (Luwin at Winterfell, Pycelle at court)",
+      "slug": "maester",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/maester.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 287
+    },
+    {
+      "raw_name": "Septon (referenced in context of Faith worship)",
+      "slug": "septon",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/septon.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 288
+    },
+    {
+      "raw_name": "Prince (Tommen Baratheon)",
+      "slug": "prince",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/prince.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 289
+    },
+    {
+      "raw_name": "The Doom of Valyria (referenced: Ice was forged \"before the Doom had come to the old Freehold\")",
+      "slug": "doom-of-valyria",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/doom-of-valyria.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 292
+    },
+    {
+      "raw_name": "Direwolf sigil / broken antler omen (a dead direwolf with a broken antler in its throat — Catelyn heard talk of it in the yards)",
+      "slug": "direwolf-sigil-broken-antler-omen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 293
+    }
+  ]
+}

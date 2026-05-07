@@ -1,0 +1,871 @@
+{
+  "chapter_id": "asos-davos-04",
+  "book": "asos",
+  "pov_character": "davos",
+  "generated_at": "2026-05-07T02:06:34.412634+00:00",
+  "extraction_path": "extractions/mechanical/asos/asos-davos-04.extraction.md",
+  "stats": {
+    "total_mentions": 95,
+    "resolved_to_node": 70,
+    "direct": 65,
+    "alias": 5,
+    "unresolved": 25
+  },
+  "mentions": [
+    {
+      "raw_name": "Davos Seaworth",
+      "slug": "davos-seaworth",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/davos-seaworth.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Lord Alester Florent",
+      "slug": "alester-florent",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alester-florent.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Lamprey",
+      "slug": "lamprey",
+      "resolved_via": "direct",
+      "node_type": "object.food",
+      "node_path": "graph/nodes/foods/lamprey.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Ser Axell Florent",
+      "slug": "axell-florent",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/axell-florent.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Stannis Baratheon",
+      "slug": "stannis-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stannis-baratheon.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Melisandre",
+      "slug": "melisandre",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/melisandre.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Four guardsmen",
+      "slug": "four-guardsmen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Ser Axell Florent",
+      "slug": "axell-florent",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/axell-florent.node.md",
+      "section": "Character Appearances",
+      "line": 38
+    },
+    {
+      "raw_name": "Stannis Baratheon",
+      "slug": "stannis-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stannis-baratheon.node.md",
+      "section": "Character Appearances",
+      "line": 39
+    },
+    {
+      "raw_name": "Stannis Baratheon (crown)",
+      "slug": "stannis-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stannis-baratheon.node.md",
+      "section": "Character Appearances",
+      "line": 40
+    },
+    {
+      "raw_name": "Melisandre",
+      "slug": "melisandre",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/melisandre.node.md",
+      "section": "Character Appearances",
+      "line": 41
+    },
+    {
+      "raw_name": "Davos Seaworth",
+      "slug": "davos-seaworth",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/davos-seaworth.node.md",
+      "section": "Character Appearances",
+      "line": 42
+    },
+    {
+      "raw_name": "Queen Selyse",
+      "slug": "queen-selyse",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 47
+    },
+    {
+      "raw_name": "Porridge",
+      "slug": "porridge",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/porridge.node.md",
+      "section": "Characters Referenced",
+      "line": 48
+    },
+    {
+      "raw_name": "Salladhor Saan",
+      "slug": "salladhor-saan",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/salladhor-saan.node.md",
+      "section": "Characters Referenced",
+      "line": 49
+    },
+    {
+      "raw_name": "Lord Ardrian Celtigar",
+      "slug": "ardrian-celtigar",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ardrian-celtigar.node.md",
+      "section": "Characters Referenced",
+      "line": 50
+    },
+    {
+      "raw_name": "Joffrey Baratheon",
+      "slug": "joffrey-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/joffrey-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 51
+    },
+    {
+      "raw_name": "Robert Baratheon",
+      "slug": "robert-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robert-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 52
+    },
+    {
+      "raw_name": "Renly Baratheon",
+      "slug": "renly-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/renly-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 53
+    },
+    {
+      "raw_name": "Aegon the Conqueror",
+      "slug": "aegon-i-targaryen",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aegon-i-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 54
+    },
+    {
+      "raw_name": "Daemon Blackfyre",
+      "slug": "daemon-blackfyre",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 55
+    },
+    {
+      "raw_name": "The brothers Toyne",
+      "slug": "brothers-toyne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brothers-toyne.node.md",
+      "section": "Characters Referenced",
+      "line": 56
+    },
+    {
+      "raw_name": "The Vulture King",
+      "slug": "vulture-king",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/vulture-king.node.md",
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "Grand Maester Hareth",
+      "slug": "grand-maester-hareth",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "Rhaenyra Targaryen",
+      "slug": "rhaenyra-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rhaenyra-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "Lord Grandison",
+      "slug": "lord-grandison",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lord-grandison.node.md",
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "Lord Cafferen",
+      "slug": "lord-cafferen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lord-cafferen.node.md",
+      "section": "Characters Referenced",
+      "line": 61
+    },
+    {
+      "raw_name": "Randyll Tarly",
+      "slug": "randyll-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/randyll-tarly.node.md",
+      "section": "Characters Referenced",
+      "line": 62
+    },
+    {
+      "raw_name": "Aerys (the Mad King / King Aerys)",
+      "slug": "aerys",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "Lord Estermont",
+      "slug": "lord-estermont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lord-estermont.node.md",
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "Shireen Baratheon",
+      "slug": "shireen-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/shireen-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 65
+    },
+    {
+      "raw_name": "Edric Storm",
+      "slug": "edric-storm",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/edric-storm.node.md",
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "Devan Seaworth",
+      "slug": "devan-seaworth",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/devan-seaworth.node.md",
+      "section": "Characters Referenced",
+      "line": 67
+    },
+    {
+      "raw_name": "Cersei Lannister",
+      "slug": "cersei-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cersei-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 68
+    },
+    {
+      "raw_name": "Jon Arryn",
+      "slug": "jon-arryn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-arryn.node.md",
+      "section": "Characters Referenced",
+      "line": 69
+    },
+    {
+      "raw_name": "Ned Stark (Lord Stark)",
+      "slug": "ned-stark",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 70
+    },
+    {
+      "raw_name": "Varys",
+      "slug": "varys",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/varys.node.md",
+      "section": "Characters Referenced",
+      "line": 71
+    },
+    {
+      "raw_name": "Jaime Lannister (the Kingslayer)",
+      "slug": "jaime-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaime-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 72
+    },
+    {
+      "raw_name": "Ser Barristan (Selmy)",
+      "slug": "ser-barristan",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 73
+    },
+    {
+      "raw_name": "Lord Tywin (Lannister)",
+      "slug": "lord-tywin",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/lord-tywin.node.md",
+      "section": "Characters Referenced",
+      "line": 74
+    },
+    {
+      "raw_name": "Maester Pylos",
+      "slug": "pylos",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/pylos.node.md",
+      "section": "Characters Referenced",
+      "line": 75
+    },
+    {
+      "raw_name": "Maester Cressen",
+      "slug": "cressen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cressen.node.md",
+      "section": "Characters Referenced",
+      "line": 76
+    },
+    {
+      "raw_name": "Ser Cortnay Penrose",
+      "slug": "cortnay-penrose",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cortnay-penrose.node.md",
+      "section": "Characters Referenced",
+      "line": 77
+    },
+    {
+      "raw_name": "Patchface",
+      "slug": "patchface",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/patchface.node.md",
+      "section": "Characters Referenced",
+      "line": 78
+    },
+    {
+      "raw_name": "Lord Belgrave",
+      "slug": "lord-belgrave",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lord-belgrave.node.md",
+      "section": "Characters Referenced",
+      "line": 79
+    },
+    {
+      "raw_name": "King Baelor the Blessed",
+      "slug": "baelor-i-targaryen",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/baelor-i-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 80
+    },
+    {
+      "raw_name": "Maegor the Cruel",
+      "slug": "maegor-i-targaryen",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/maegor-i-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 81
+    },
+    {
+      "raw_name": "Bar Emmon",
+      "slug": "bar-emmon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 82
+    },
+    {
+      "raw_name": "Lord Velaryon (new)",
+      "slug": "velaryon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/velaryon.node.md",
+      "section": "Characters Referenced",
+      "line": 83
+    },
+    {
+      "raw_name": "Lord Sunglass (brother of new)",
+      "slug": "lord-sunglass",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lord-sunglass.node.md",
+      "section": "Characters Referenced",
+      "line": 84
+    },
+    {
+      "raw_name": "Ser Gilbert Farring",
+      "slug": "gilbert-farring",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gilbert-farring.node.md",
+      "section": "Characters Referenced",
+      "line": 85
+    },
+    {
+      "raw_name": "Lord Morrigen",
+      "slug": "lord-morrigen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 86
+    },
+    {
+      "raw_name": "The Bastard of Nightsong",
+      "slug": "rolland-storm",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rolland-storm.node.md",
+      "section": "Characters Referenced",
+      "line": 87
+    },
+    {
+      "raw_name": "Young Chyttering",
+      "slug": "young-chyttering",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 88
+    },
+    {
+      "raw_name": "Cousin Andrew",
+      "slug": "cousin-andrew",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 89
+    },
+    {
+      "raw_name": "Lord Redwyne",
+      "slug": "lord-redwyne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lord-redwyne.node.md",
+      "section": "Characters Referenced",
+      "line": 90
+    },
+    {
+      "raw_name": "Robb Stark",
+      "slug": "robb-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 91
+    },
+    {
+      "raw_name": "Balon Greyjoy",
+      "slug": "balon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/balon-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 92
+    },
+    {
+      "raw_name": "Davos's four sons",
+      "slug": "davoss-four-sons",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 93
+    },
+    {
+      "raw_name": "The Imp (Tyrion Lannister)",
+      "slug": "tyrion-lannister",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tyrion-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 94
+    },
+    {
+      "raw_name": "Dragonstone (dungeons)",
+      "slug": "dragonstone",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dragonstone.node.md",
+      "section": "Locations",
+      "line": 99
+    },
+    {
+      "raw_name": "Dragonstone (turnpike stair)",
+      "slug": "dragonstone",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dragonstone.node.md",
+      "section": "Locations",
+      "line": 100
+    },
+    {
+      "raw_name": "Dragonstone (stone bridge)",
+      "slug": "dragonstone",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dragonstone.node.md",
+      "section": "Locations",
+      "line": 101
+    },
+    {
+      "raw_name": "Dragonstone (yard)",
+      "slug": "dragonstone",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dragonstone.node.md",
+      "section": "Locations",
+      "line": 102
+    },
+    {
+      "raw_name": "Stone Drum",
+      "slug": "stone-drum",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/stone-drum.node.md",
+      "section": "Locations",
+      "line": 103
+    },
+    {
+      "raw_name": "Chamber of the Painted Table",
+      "slug": "chamber-of-the-painted-table",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 104
+    },
+    {
+      "raw_name": "Claw Isle",
+      "slug": "claw-isle",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/claw-isle.node.md",
+      "section": "Locations",
+      "line": 105
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Locations",
+      "line": 106
+    },
+    {
+      "raw_name": "Storm's End",
+      "slug": "storms-end",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/storms-end.node.md",
+      "section": "Locations",
+      "line": 107
+    },
+    {
+      "raw_name": "The Blackwater",
+      "slug": "the-blackwater",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 108
+    },
+    {
+      "raw_name": "The Iron Throne",
+      "slug": "iron-throne",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/iron-throne.node.md",
+      "section": "Locations",
+      "line": 109
+    },
+    {
+      "raw_name": "The Arbor",
+      "slug": "arbor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/arbor.node.md",
+      "section": "Locations",
+      "line": 110
+    },
+    {
+      "raw_name": "Volantis",
+      "slug": "volantis",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/volantis.node.md",
+      "section": "Locations",
+      "line": 111
+    },
+    {
+      "raw_name": "Aegon's Garden",
+      "slug": "aegons-garden",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/aegons-garden.node.md",
+      "section": "Locations",
+      "line": 112
+    },
+    {
+      "raw_name": "The Rainwood",
+      "slug": "rainwood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/rainwood.node.md",
+      "section": "Locations",
+      "line": 113
+    },
+    {
+      "raw_name": "Ashford Castle",
+      "slug": "ashford-castle",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 114
+    },
+    {
+      "raw_name": "The Trident",
+      "slug": "trident",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/trident.node.md",
+      "section": "Locations",
+      "line": 115
+    },
+    {
+      "raw_name": "Summerhall",
+      "slug": "summerhall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/summerhall.node.md",
+      "section": "Locations",
+      "line": 116
+    },
+    {
+      "raw_name": "The Red Keep",
+      "slug": "red-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-keep.node.md",
+      "section": "Locations",
+      "line": 117
+    },
+    {
+      "raw_name": "Dragonstone (dungeons/stairway)",
+      "slug": "dragonstone",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dragonstone.node.md",
+      "section": "Location Descriptions",
+      "line": 122
+    },
+    {
+      "raw_name": "Dragonstone (stone bridge)",
+      "slug": "dragonstone",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dragonstone.node.md",
+      "section": "Location Descriptions",
+      "line": 123
+    },
+    {
+      "raw_name": "Chamber of the Painted Table",
+      "slug": "chamber-of-the-painted-table",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 124
+    },
+    {
+      "raw_name": "The Iron Throne",
+      "slug": "iron-throne",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/iron-throne.node.md",
+      "section": "Location Descriptions",
+      "line": 125
+    },
+    {
+      "raw_name": "Claw Isle",
+      "slug": "claw-isle",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/claw-isle.node.md",
+      "section": "Location Descriptions",
+      "line": 126
+    },
+    {
+      "raw_name": "The Painted Table",
+      "slug": "painted-table",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/painted-table.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 131
+    },
+    {
+      "raw_name": "Lightbringer",
+      "slug": "lightbringer",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/lightbringer.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 132
+    },
+    {
+      "raw_name": "Davos's finger bones (luck)",
+      "slug": "davoss-finger-bones",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 133
+    },
+    {
+      "raw_name": "Ring of keys",
+      "slug": "ring-of-keys",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 134
+    },
+    {
+      "raw_name": "Three black leeches",
+      "slug": "three-black-leeches",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 135
+    },
+    {
+      "raw_name": "Covered silver dish",
+      "slug": "covered-silver-dish",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 136
+    },
+    {
+      "raw_name": "Iron brazier",
+      "slug": "iron-brazier",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 137
+    },
+    {
+      "raw_name": "Valyrian steel axe (Celtigar's)",
+      "slug": "valyrian-steel-axe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 138
+    },
+    {
+      "raw_name": "Horn that summons monsters from the deep (Celtigar's)",
+      "slug": "horn-that-summons-monsters-from-the-deep",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 139
+    },
+    {
+      "raw_name": "Red-gold crown with flame-shaped points",
+      "slug": "red-gold-crown-with-flame-shaped-points",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 140
+    },
+    {
+      "raw_name": "Melisandre's great ruby",
+      "slug": "melisandres-great-ruby",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 141
+    }
+  ]
+}

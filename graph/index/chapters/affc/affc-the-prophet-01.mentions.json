@@ -1,0 +1,1834 @@
+{
+  "chapter_id": "affc-the-prophet-01",
+  "book": "affc",
+  "pov_character": "the-prophet",
+  "generated_at": "2026-05-07T02:06:34.480850+00:00",
+  "extraction_path": "extractions/mechanical/affc/affc-the-prophet-01.extraction.md",
+  "stats": {
+    "total_mentions": 202,
+    "resolved_to_node": 150,
+    "direct": 138,
+    "alias": 12,
+    "unresolved": 52
+  },
+  "mentions": [
+    {
+      "raw_name": "Aeron Greyjoy (The Prophet / Damphair)",
+      "slug": "aeron-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aeron-greyjoy.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Emmond",
+      "slug": "emmond",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/emmond.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "The Sparr",
+      "slug": "the-sparr",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/the-sparr.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Steffarion Sparr",
+      "slug": "steffarion-sparr",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/steffarion-sparr.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Gormond Goodbrother",
+      "slug": "gormond-goodbrother",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gormond-goodbrother.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Norjen",
+      "slug": "norjen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/norjen.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Rus",
+      "slug": "rus",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rus.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Gran Goodbrother",
+      "slug": "gran-goodbrother",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gran-goodbrother.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Gorold Goodbrother",
+      "slug": "gorold-goodbrother",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gorold-goodbrother.node.md",
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Maester Murenmure",
+      "slug": "murenmure",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/murenmure.node.md",
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "Gysella",
+      "slug": "gysella",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 37
+    },
+    {
+      "raw_name": "Gwin",
+      "slug": "gwin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 38
+    },
+    {
+      "raw_name": "Greydon Goodbrother",
+      "slug": "greydon-goodbrother",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/greydon-goodbrother.node.md",
+      "section": "Characters Present",
+      "line": 39
+    },
+    {
+      "raw_name": "The Merlyn (Lord Meldred)",
+      "slug": "meldred-merlyn",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meldred-merlyn.node.md",
+      "section": "Characters Present",
+      "line": 40
+    },
+    {
+      "raw_name": "Aeron Greyjoy",
+      "slug": "aeron-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aeron-greyjoy.node.md",
+      "section": "Character Appearances",
+      "line": 45
+    },
+    {
+      "raw_name": "The Sparr",
+      "slug": "the-sparr",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/the-sparr.node.md",
+      "section": "Character Appearances",
+      "line": 46
+    },
+    {
+      "raw_name": "Gormond Goodbrother",
+      "slug": "gormond-goodbrother",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gormond-goodbrother.node.md",
+      "section": "Character Appearances",
+      "line": 47
+    },
+    {
+      "raw_name": "Gran Goodbrother",
+      "slug": "gran-goodbrother",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gran-goodbrother.node.md",
+      "section": "Character Appearances",
+      "line": 48
+    },
+    {
+      "raw_name": "Maester Murenmure",
+      "slug": "murenmure",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/murenmure.node.md",
+      "section": "Character Appearances",
+      "line": 49
+    },
+    {
+      "raw_name": "The Merlyn (Lord Meldred)",
+      "slug": "meldred-merlyn",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meldred-merlyn.node.md",
+      "section": "Character Appearances",
+      "line": 50
+    },
+    {
+      "raw_name": "Balon Greyjoy",
+      "slug": "balon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/balon-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 55
+    },
+    {
+      "raw_name": "Euron Greyjoy (Crow's Eye)",
+      "slug": "euron-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/euron-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 56
+    },
+    {
+      "raw_name": "Victarion Greyjoy",
+      "slug": "victarion-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/victarion-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "Theon Greyjoy",
+      "slug": "theon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/theon-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "Asha Greyjoy",
+      "slug": "asha-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/asha-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "Quellon Greyjoy",
+      "slug": "quellon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/quellon-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "Harlon Greyjoy",
+      "slug": "harlon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/harlon-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 61
+    },
+    {
+      "raw_name": "Quenton Greyjoy",
+      "slug": "quenton-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/quenton-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 62
+    },
+    {
+      "raw_name": "Donel Greyjoy",
+      "slug": "donel-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/donel-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "Urrigon (Urri) Greyjoy",
+      "slug": "urrigon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/urrigon-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "Robin Greyjoy",
+      "slug": "robin-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robin-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 65
+    },
+    {
+      "raw_name": "Quellon's first wife",
+      "slug": "quellons-first-wife",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "Quellon's second wife",
+      "slug": "quellons-second-wife",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 67
+    },
+    {
+      "raw_name": "Quellon's third wife",
+      "slug": "quellons-third-wife",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 68
+    },
+    {
+      "raw_name": "Tarle the Thrice-Drowned",
+      "slug": "tarle-the-thrice-drowned",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tarle-the-thrice-drowned.node.md",
+      "section": "Characters Referenced",
+      "line": 69
+    },
+    {
+      "raw_name": "Dagmer Cleftjaw",
+      "slug": "dagmer",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dagmer.node.md",
+      "section": "Characters Referenced",
+      "line": 70
+    },
+    {
+      "raw_name": "Stannis Baratheon",
+      "slug": "stannis-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stannis-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 71
+    },
+    {
+      "raw_name": "Sawane Botley",
+      "slug": "sawane-botley",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sawane-botley.node.md",
+      "section": "Characters Referenced",
+      "line": 72
+    },
+    {
+      "raw_name": "The Reader (Lord of Harlaw)",
+      "slug": "rodrik-harlaw",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rodrik-harlaw.node.md",
+      "section": "Characters Referenced",
+      "line": 73
+    },
+    {
+      "raw_name": "The green-land maester (at Pyke, under Quellon)",
+      "slug": "the-green-land-maester",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 74
+    },
+    {
+      "raw_name": "Urras Ironfoot",
+      "slug": "urras-greyiron",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/urras-greyiron.node.md",
+      "section": "Characters Referenced",
+      "line": 75
+    },
+    {
+      "raw_name": "Sylas Flatnose",
+      "slug": "sylas-flatnose",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sylas-flatnose.node.md",
+      "section": "Characters Referenced",
+      "line": 76
+    },
+    {
+      "raw_name": "Harrag Hoare",
+      "slug": "harrag-hoare",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/harrag-hoare.node.md",
+      "section": "Characters Referenced",
+      "line": 77
+    },
+    {
+      "raw_name": "The Old Kraken",
+      "slug": "loron-greyjoy",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/loron-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 78
+    },
+    {
+      "raw_name": "The Grey King",
+      "slug": "grey-king",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/grey-king.node.md",
+      "section": "Characters Referenced",
+      "line": 79
+    },
+    {
+      "raw_name": "The Blind Lord",
+      "slug": "blind-lord",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/blind-lord.node.md",
+      "section": "Characters Referenced",
+      "line": 80
+    },
+    {
+      "raw_name": "Great Wyk",
+      "slug": "great-wyk",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/great-wyk.node.md",
+      "section": "Locations",
+      "line": 85
+    },
+    {
+      "raw_name": "Shore of Great Wyk (pebbled shore)",
+      "slug": "shore-of-great-wyk",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 86
+    },
+    {
+      "raw_name": "Hammerhorn",
+      "slug": "hammerhorn",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/hammerhorn.node.md",
+      "section": "Locations",
+      "line": 87
+    },
+    {
+      "raw_name": "Hardstone Hills",
+      "slug": "hardstone-hills",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/hardstone-hills.node.md",
+      "section": "Locations",
+      "line": 88
+    },
+    {
+      "raw_name": "Pebbleton",
+      "slug": "pebbleton",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pebbleton.node.md",
+      "section": "Locations",
+      "line": 89
+    },
+    {
+      "raw_name": "Pyke",
+      "slug": "pyke",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pyke.node.md",
+      "section": "Locations",
+      "line": 90
+    },
+    {
+      "raw_name": "Lordsport",
+      "slug": "lordsport",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lordsport.node.md",
+      "section": "Locations",
+      "line": 91
+    },
+    {
+      "raw_name": "Sea Tower",
+      "slug": "sea-tower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sea-tower.node.md",
+      "section": "Locations",
+      "line": 92
+    },
+    {
+      "raw_name": "Iron Islands",
+      "slug": "iron-islands",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/iron-islands.node.md",
+      "section": "Locations",
+      "line": 93
+    },
+    {
+      "raw_name": "Seastone Chair",
+      "slug": "seastone-chair",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 94
+    },
+    {
+      "raw_name": "Ten Towers",
+      "slug": "ten-towers",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ten-towers.node.md",
+      "section": "Locations",
+      "line": 95
+    },
+    {
+      "raw_name": "Old Wyk",
+      "slug": "old-wyk",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/old-wyk.node.md",
+      "section": "Locations",
+      "line": 96
+    },
+    {
+      "raw_name": "Nagga's hill",
+      "slug": "naggas-hill",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 97
+    },
+    {
+      "raw_name": "Stony Shore",
+      "slug": "stony-shore",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/stony-shore.node.md",
+      "section": "Locations",
+      "line": 98
+    },
+    {
+      "raw_name": "Fair Isle",
+      "slug": "fair-isle",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/fair-isle.node.md",
+      "section": "Locations",
+      "line": 99
+    },
+    {
+      "raw_name": "Lannisport",
+      "slug": "lannisport",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lannisport.node.md",
+      "section": "Locations",
+      "line": 100
+    },
+    {
+      "raw_name": "Casterly Rock",
+      "slug": "casterly-rock",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/casterly-rock.node.md",
+      "section": "Locations",
+      "line": 101
+    },
+    {
+      "raw_name": "Stepstones",
+      "slug": "stepstones",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/stepstones.node.md",
+      "section": "Locations",
+      "line": 102
+    },
+    {
+      "raw_name": "Saltcliffe",
+      "slug": "saltcliffe",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/saltcliffe.node.md",
+      "section": "Locations",
+      "line": 103
+    },
+    {
+      "raw_name": "Pinkmaiden Castle",
+      "slug": "pinkmaiden-castle",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pinkmaiden-castle.node.md",
+      "section": "Locations",
+      "line": 104
+    },
+    {
+      "raw_name": "Downdelving",
+      "slug": "downdelving",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/downdelving.node.md",
+      "section": "Locations",
+      "line": 105
+    },
+    {
+      "raw_name": "Crow Spike Keep",
+      "slug": "crow-spike-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crow-spike-keep.node.md",
+      "section": "Locations",
+      "line": 106
+    },
+    {
+      "raw_name": "Corpse Lake",
+      "slug": "corpse-lake",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/corpse-lake.node.md",
+      "section": "Locations",
+      "line": 107
+    },
+    {
+      "raw_name": "Flint Cliffs",
+      "slug": "flint-cliffs",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/flint-cliffs.node.md",
+      "section": "Locations",
+      "line": 108
+    },
+    {
+      "raw_name": "Blind Lord's haunted tower",
+      "slug": "blind-lords-haunted-tower",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 109
+    },
+    {
+      "raw_name": "Drowned God's watery halls",
+      "slug": "drowned-gods-watery-halls",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 110
+    },
+    {
+      "raw_name": "Great Wyk",
+      "slug": "great-wyk",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/great-wyk.node.md",
+      "section": "Location Descriptions",
+      "line": 115
+    },
+    {
+      "raw_name": "Hammerhorn",
+      "slug": "hammerhorn",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/hammerhorn.node.md",
+      "section": "Location Descriptions",
+      "line": 116
+    },
+    {
+      "raw_name": "Pyke",
+      "slug": "pyke",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pyke.node.md",
+      "section": "Location Descriptions",
+      "line": 117
+    },
+    {
+      "raw_name": "Pebbleton",
+      "slug": "pebbleton",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pebbleton.node.md",
+      "section": "Location Descriptions",
+      "line": 118
+    },
+    {
+      "raw_name": "Aeron's shelter (Pebbleton beach)",
+      "slug": "aerons-shelter",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 119
+    },
+    {
+      "raw_name": "Seastone Chair",
+      "slug": "seastone-chair",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 124
+    },
+    {
+      "raw_name": "Driftwood cudgels",
+      "slug": "driftwood-cudgels",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 125
+    },
+    {
+      "raw_name": "Goodbrother warhorn brooch",
+      "slug": "goodbrother-warhorn-brooch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 126
+    },
+    {
+      "raw_name": "Leather waterskin (seawater)",
+      "slug": "leather-waterskin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 127
+    },
+    {
+      "raw_name": "Roughspun robe (mottled greens, blues, greys)",
+      "slug": "roughspun-robe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 128
+    },
+    {
+      "raw_name": "Sealskin clout",
+      "slug": "sealskin-clout",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 129
+    },
+    {
+      "raw_name": "Golden Storm",
+      "slug": "golden-storm",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/golden-storm.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 130
+    },
+    {
+      "raw_name": "Fury",
+      "slug": "fury",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/fury.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 131
+    },
+    {
+      "raw_name": "Driftwood crown",
+      "slug": "driftwood-crown",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 132
+    },
+    {
+      "raw_name": "Aeron Greyjoy (The Prophet, Damphair)",
+      "slug": "aeron-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aeron-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 304
+    },
+    {
+      "raw_name": "Emmond",
+      "slug": "emmond",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/emmond.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 305
+    },
+    {
+      "raw_name": "The Sparr",
+      "slug": "the-sparr",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/the-sparr.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 306
+    },
+    {
+      "raw_name": "Steffarion Sparr",
+      "slug": "steffarion-sparr",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/steffarion-sparr.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 307
+    },
+    {
+      "raw_name": "Gormond Goodbrother",
+      "slug": "gormond-goodbrother",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gormond-goodbrother.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 308
+    },
+    {
+      "raw_name": "Norjen",
+      "slug": "norjen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/norjen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 309
+    },
+    {
+      "raw_name": "Rus",
+      "slug": "rus",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rus.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 310
+    },
+    {
+      "raw_name": "Gran Goodbrother",
+      "slug": "gran-goodbrother",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gran-goodbrother.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 311
+    },
+    {
+      "raw_name": "Gorold Goodbrother",
+      "slug": "gorold-goodbrother",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gorold-goodbrother.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 312
+    },
+    {
+      "raw_name": "Maester Murenmure",
+      "slug": "murenmure",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/murenmure.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 313
+    },
+    {
+      "raw_name": "Gysella (Gorold's daughter)",
+      "slug": "gysella",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 314
+    },
+    {
+      "raw_name": "Gwin (Gorold's daughter)",
+      "slug": "gwin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 315
+    },
+    {
+      "raw_name": "Greydon Goodbrother",
+      "slug": "greydon-goodbrother",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/greydon-goodbrother.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 316
+    },
+    {
+      "raw_name": "The Merlyn (Lord Meldred Merlyn)",
+      "slug": "meldred-merlyn",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meldred-merlyn.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 317
+    },
+    {
+      "raw_name": "Balon Greyjoy",
+      "slug": "balon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/balon-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 318
+    },
+    {
+      "raw_name": "Euron Greyjoy (Crow's Eye)",
+      "slug": "euron-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/euron-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 319
+    },
+    {
+      "raw_name": "Victarion Greyjoy",
+      "slug": "victarion-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/victarion-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 320
+    },
+    {
+      "raw_name": "Theon Greyjoy",
+      "slug": "theon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/theon-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 321
+    },
+    {
+      "raw_name": "Asha Greyjoy (The Princess Asha)",
+      "slug": "asha-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/asha-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 322
+    },
+    {
+      "raw_name": "Quellon Greyjoy",
+      "slug": "quellon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/quellon-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 323
+    },
+    {
+      "raw_name": "Harlon Greyjoy",
+      "slug": "harlon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/harlon-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 324
+    },
+    {
+      "raw_name": "Quenton Greyjoy",
+      "slug": "quenton-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/quenton-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 325
+    },
+    {
+      "raw_name": "Donel Greyjoy",
+      "slug": "donel-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/donel-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 326
+    },
+    {
+      "raw_name": "Urrigon (Urri) Greyjoy",
+      "slug": "urrigon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/urrigon-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 327
+    },
+    {
+      "raw_name": "Robin Greyjoy",
+      "slug": "robin-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robin-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 328
+    },
+    {
+      "raw_name": "Quellon's first wife (a Stonetree woman)",
+      "slug": "quellons-first-wife",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 329
+    },
+    {
+      "raw_name": "Quellon's second wife (a Sunderly of Saltcliffe)",
+      "slug": "quellons-second-wife",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 330
+    },
+    {
+      "raw_name": "Quellon's third wife (a Piper of Pinkmaiden Castle)",
+      "slug": "quellons-third-wife",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 331
+    },
+    {
+      "raw_name": "Tarle the Thrice-Drowned",
+      "slug": "tarle-the-thrice-drowned",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tarle-the-thrice-drowned.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 332
+    },
+    {
+      "raw_name": "Dagmer Cleftjaw",
+      "slug": "dagmer",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dagmer.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 333
+    },
+    {
+      "raw_name": "Stannis Baratheon",
+      "slug": "stannis-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stannis-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 334
+    },
+    {
+      "raw_name": "Sawane Botley",
+      "slug": "sawane-botley",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sawane-botley.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 335
+    },
+    {
+      "raw_name": "The Reader (Lord of Harlaw)",
+      "slug": "rodrik-harlaw",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rodrik-harlaw.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 336
+    },
+    {
+      "raw_name": "The green-land maester (unnamed, at Pyke under Quellon)",
+      "slug": "the-green-land-maester",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 337
+    },
+    {
+      "raw_name": "Urras Ironfoot (historical)",
+      "slug": "urras-greyiron",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/urras-greyiron.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 338
+    },
+    {
+      "raw_name": "Sylas Flatnose (historical)",
+      "slug": "sylas-flatnose",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sylas-flatnose.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 339
+    },
+    {
+      "raw_name": "Harrag Hoare (historical)",
+      "slug": "harrag-hoare",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/harrag-hoare.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 340
+    },
+    {
+      "raw_name": "The Old Kraken (historical)",
+      "slug": "loron-greyjoy",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/loron-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 341
+    },
+    {
+      "raw_name": "The Grey King (mythical/historical)",
+      "slug": "grey-king",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/grey-king.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 342
+    },
+    {
+      "raw_name": "The Blind Lord (historical)",
+      "slug": "blind-lord",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/blind-lord.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 343
+    },
+    {
+      "raw_name": "Great Wyk",
+      "slug": "great-wyk",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/great-wyk.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 346
+    },
+    {
+      "raw_name": "Hammerhorn",
+      "slug": "hammerhorn",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/hammerhorn.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 347
+    },
+    {
+      "raw_name": "Hardstone Hills",
+      "slug": "hardstone-hills",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/hardstone-hills.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 348
+    },
+    {
+      "raw_name": "Pebbleton",
+      "slug": "pebbleton",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pebbleton.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 349
+    },
+    {
+      "raw_name": "Pyke",
+      "slug": "pyke",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pyke.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 350
+    },
+    {
+      "raw_name": "Lordsport",
+      "slug": "lordsport",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lordsport.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 351
+    },
+    {
+      "raw_name": "Sea Tower (at Pyke)",
+      "slug": "sea-tower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sea-tower.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 352
+    },
+    {
+      "raw_name": "Iron Islands",
+      "slug": "iron-islands",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/iron-islands.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 353
+    },
+    {
+      "raw_name": "Ten Towers (seat of Lord of Harlaw)",
+      "slug": "ten-towers",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ten-towers.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 354
+    },
+    {
+      "raw_name": "Old Wyk",
+      "slug": "old-wyk",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/old-wyk.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 355
+    },
+    {
+      "raw_name": "Nagga's hill (on Old Wyk)",
+      "slug": "naggas-hill",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 356
+    },
+    {
+      "raw_name": "Grey King's Hall (bones on Nagga's hill)",
+      "slug": "grey-kings-hall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/grey-kings-hall.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 357
+    },
+    {
+      "raw_name": "Stony Shore",
+      "slug": "stony-shore",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/stony-shore.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 358
+    },
+    {
+      "raw_name": "Fair Isle",
+      "slug": "fair-isle",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/fair-isle.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 359
+    },
+    {
+      "raw_name": "Lannisport",
+      "slug": "lannisport",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lannisport.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 360
+    },
+    {
+      "raw_name": "Casterly Rock",
+      "slug": "casterly-rock",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/casterly-rock.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 361
+    },
+    {
+      "raw_name": "Stepstones",
+      "slug": "stepstones",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/stepstones.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 362
+    },
+    {
+      "raw_name": "Saltcliffe",
+      "slug": "saltcliffe",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/saltcliffe.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 363
+    },
+    {
+      "raw_name": "Pinkmaiden Castle",
+      "slug": "pinkmaiden-castle",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pinkmaiden-castle.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 364
+    },
+    {
+      "raw_name": "Downdelving",
+      "slug": "downdelving",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/downdelving.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 365
+    },
+    {
+      "raw_name": "Crow Spike Keep",
+      "slug": "crow-spike-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crow-spike-keep.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 366
+    },
+    {
+      "raw_name": "Corpse Lake",
+      "slug": "corpse-lake",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/corpse-lake.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 367
+    },
+    {
+      "raw_name": "Flint Cliffs",
+      "slug": "flint-cliffs",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/flint-cliffs.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 368
+    },
+    {
+      "raw_name": "Blind Lord's haunted tower",
+      "slug": "blind-lords-haunted-tower",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 369
+    },
+    {
+      "raw_name": "Drowned God's watery halls (mythical afterlife)",
+      "slug": "drowned-gods-watery-halls",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 370
+    },
+    {
+      "raw_name": "Harlaw (island)",
+      "slug": "harlaw",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/harlaw.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 371
+    },
+    {
+      "raw_name": "Westeros",
+      "slug": "westeros",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/westeros.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 372
+    },
+    {
+      "raw_name": "House Greyjoy",
+      "slug": "house-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-greyjoy.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 375
+    },
+    {
+      "raw_name": "House Goodbrother",
+      "slug": "house-goodbrother",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-goodbrother.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 376
+    },
+    {
+      "raw_name": "House Sparr",
+      "slug": "house-sparr",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-sparr.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 377
+    },
+    {
+      "raw_name": "House Merlyn",
+      "slug": "house-merlyn",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-merlyn.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 378
+    },
+    {
+      "raw_name": "House Stonetree",
+      "slug": "house-stonetree",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-stonetree.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 379
+    },
+    {
+      "raw_name": "House Sunderly",
+      "slug": "house-sunderly",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-sunderly.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 380
+    },
+    {
+      "raw_name": "House Piper",
+      "slug": "house-piper",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-piper.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 381
+    },
+    {
+      "raw_name": "House Botley",
+      "slug": "house-botley",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-botley.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 382
+    },
+    {
+      "raw_name": "House Wynch",
+      "slug": "house-wynch",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-wynch.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 383
+    },
+    {
+      "raw_name": "House Harlaw",
+      "slug": "house-harlaw",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-harlaw.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 384
+    },
+    {
+      "raw_name": "House Hoare (historical)",
+      "slug": "house-hoare",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-hoare.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 385
+    },
+    {
+      "raw_name": "House Baratheon",
+      "slug": "house-baratheon",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-baratheon.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 386
+    },
+    {
+      "raw_name": "Drowned men (Aeron's followers/brotherhood)",
+      "slug": "drowned-men",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 389
+    },
+    {
+      "raw_name": "The Citadel (maesters' order, referenced via Murenmure's chain)",
+      "slug": "citadel",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/citadel.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 390
+    },
+    {
+      "raw_name": "Drowned God — deity of the ironborn; \"drowned for us\"; watery halls; blesses with salt, stone, steel; \"what is dead may never die, but rises again, harder and stronger\"; drowning/revival as baptism; seawater as holy water; priests called \"drowned men\"",
+      "slug": "drowned-god",
+      "resolved_via": "direct",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/drowned-god.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 393
+    },
+    {
+      "raw_name": "Storm God — enemy of the Drowned God; associated with storms, woe, grief; his creatures include ravens; \"sea and sky had been at war\" for a thousand thousand years; cast Balon down",
+      "slug": "storm-god",
+      "resolved_via": "direct",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/storm-god.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 394
+    },
+    {
+      "raw_name": "Faith of the Maesters (implicit) — Aeron's contempt for maesters as \"chain-neck thralls\" who follow green-land ways",
+      "slug": "faith-of-the-maesters",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 395
+    },
+    {
+      "raw_name": "Ironborn — sea-faring culture; \"sons of the sea\"; the Old Way; salt wives; finger dance; reaving; longships; driftwood crowns; kingsmoots; \"we came from the sea\"; contempt for \"green lands\" and their customs",
+      "slug": "ironborn",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/ironborn.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 398
+    },
+    {
+      "raw_name": "Green-landers — mainland Westerosi as seen by the ironborn; associated with maesters, soft customs, different laws of succession",
+      "slug": "green-landers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 399
+    },
+    {
+      "raw_name": "Seastone Chair",
+      "slug": "seastone-chair",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 402
+    },
+    {
+      "raw_name": "Driftwood cudgels",
+      "slug": "driftwood-cudgels",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 403
+    },
+    {
+      "raw_name": "Goodbrother warhorn brooch (black-and-gold)",
+      "slug": "goodbrother-warhorn-brooch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 404
+    },
+    {
+      "raw_name": "Seawater skin (leather)",
+      "slug": "seawater-skin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 405
+    },
+    {
+      "raw_name": "Roughspun robes (mottled green, blue, grey)",
+      "slug": "roughspun-robes",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 406
+    },
+    {
+      "raw_name": "Sealskin clout",
+      "slug": "sealskin-clout",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 407
+    },
+    {
+      "raw_name": "Golden Storm (longship, destroyed)",
+      "slug": "golden-storm",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/golden-storm.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 408
+    },
+    {
+      "raw_name": "Fury (war galley)",
+      "slug": "fury",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/fury.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 409
+    },
+    {
+      "raw_name": "Driftwood crown (historical)",
+      "slug": "driftwood-crown",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 410
+    },
+    {
+      "raw_name": "Cook's cleaver (used by Balon on the maester)",
+      "slug": "cooks-cleaver",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 411
+    },
+    {
+      "raw_name": "Sealskin tents",
+      "slug": "sealskin-tents",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 412
+    },
+    {
+      "raw_name": "Drowning and revival ritual — men drowned in the sea and revived through chest compressions and mouth-to-mouth (\"kiss of life\"); theological framework of dying and being reborn; Aeron never loses a man",
+      "slug": "drowning-and-revival-ritual",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 418
+    },
+    {
+      "raw_name": "\"Dark wings, dark words\" — proverbial association of ravens with bad news",
+      "slug": "dark-wings-dark-words",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 419
+    },
+    {
+      "raw_name": "Greyscale — referenced as what killed Harlon, turning tongue and lips to stone",
+      "slug": "greyscale",
+      "resolved_via": "direct",
+      "node_type": "concept.medical",
+      "node_path": "graph/nodes/medical/greyscale.node.md",
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 420
+    },
+    {
+      "raw_name": "Balon's first rebellion (Greyjoy Rebellion) — Battle at Fair Isle; Stannis caught Victarion in a trap; Iron Fleet smashed; Golden Storm sunk; Aeron captured, imprisoned at Casterly Rock",
+      "slug": "balons-first-rebellion",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 423
+    },
+    {
+      "raw_name": "Balon's recent campaign — harrying the Stony Shore (referenced as recent activity)",
+      "slug": "balons-recent-campaign",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 424
+    },
+    {
+      "raw_name": "Ironborn succession crisis — Euron's seizure of the Seastone Chair; rival claims from Asha, Theon (legal), Victarion; Aeron's kingsmoot call",
+      "slug": "ironborn-succession-crisis",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 425
+    },
+    {
+      "raw_name": "King of the Iron Islands",
+      "slug": "king-of-the-iron-islands",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/king-of-the-iron-islands.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 428
+    },
+    {
+      "raw_name": "Damphair (priestly title/epithet for Aeron)",
+      "slug": "damphair",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 429
+    },
+    {
+      "raw_name": "The Prophet (Aeron's self-conception / chapter title)",
+      "slug": "prophet",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/prophet.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 430
+    },
+    {
+      "raw_name": "Lord (used by the Sparr, Gorold Goodbrother, the Merlyn)",
+      "slug": "lord",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 431
+    },
+    {
+      "raw_name": "High King (historical title; Urras Ironfoot)",
+      "slug": "high-king",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 432
+    },
+    {
+      "raw_name": "Maester",
+      "slug": "maester",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/maester.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 433
+    },
+    {
+      "raw_name": "Princess (used for Asha)",
+      "slug": "princess",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/princess.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 434
+    },
+    {
+      "raw_name": "The Reader (title/epithet for Lord of Harlaw)",
+      "slug": "rodrik-harlaw",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rodrik-harlaw.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 435
+    },
+    {
+      "raw_name": "Finger dance — ironborn game/contest involving throwing axes; dangerous; Urri lost his hand to it; Aeron \"never again\" danced it after",
+      "slug": "finger-dance",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 438
+    },
+    {
+      "raw_name": "Kingsmoot — ancient ironborn custom of choosing a king by assembly; not held in a very long time; Aeron calls for one at Old Wyk",
+      "slug": "kingsmoot",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 439
+    },
+    {
+      "raw_name": "Salt wives — women taken as prizes in raiding; Balon took his first two at the Stepstones",
+      "slug": "salt-wives",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 440
+    },
+    {
+      "raw_name": "The Old Way — ironborn traditionalist philosophy; reaving, paying the iron price, choosing kings by kingsmoot",
+      "slug": "the-old-way",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 441
+    },
+    {
+      "raw_name": "\"What is dead may never die, but rises again, harder and stronger\" — central creed of the Drowned God faith",
+      "slug": "what-is-dead-may-never-die-but-rises-again-harder-and-stronger",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 442
+    }
+  ]
+}

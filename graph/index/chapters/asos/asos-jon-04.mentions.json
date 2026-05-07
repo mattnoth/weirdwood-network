@@ -1,0 +1,808 @@
+{
+  "chapter_id": "asos-jon-04",
+  "book": "asos",
+  "pov_character": "jon",
+  "generated_at": "2026-05-07T02:06:34.423988+00:00",
+  "extraction_path": "extractions/mechanical/asos/asos-jon-04.extraction.md",
+  "stats": {
+    "total_mentions": 88,
+    "resolved_to_node": 56,
+    "direct": 53,
+    "alias": 3,
+    "unresolved": 32
+  },
+  "mentions": [
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Ygritte",
+      "slug": "ygritte",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ygritte.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Ghost",
+      "slug": "ghost",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ghost.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Jarl",
+      "slug": "jarl",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jarl.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Styr (the Magnar)",
+      "slug": "styr",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/styr.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Grigg the Goat",
+      "slug": "grigg-the-goat",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/grigg-the-goat.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Errok",
+      "slug": "errok",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/errok.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Jarl",
+      "slug": "jarl",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jarl.node.md",
+      "section": "Character Appearances",
+      "line": 38
+    },
+    {
+      "raw_name": "Grigg the Goat",
+      "slug": "grigg-the-goat",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/grigg-the-goat.node.md",
+      "section": "Character Appearances",
+      "line": 39
+    },
+    {
+      "raw_name": "Errok",
+      "slug": "errok",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/errok.node.md",
+      "section": "Character Appearances",
+      "line": 40
+    },
+    {
+      "raw_name": "Jarl's raiders (general)",
+      "slug": "jarls-raiders",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 41
+    },
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Character Appearances",
+      "line": 42
+    },
+    {
+      "raw_name": "Benjen Stark",
+      "slug": "benjen-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/benjen-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 47
+    },
+    {
+      "raw_name": "Brandon the Builder",
+      "slug": "brandon-the-builder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brandon-the-builder.node.md",
+      "section": "Characters Referenced",
+      "line": 48
+    },
+    {
+      "raw_name": "Mance Rayder",
+      "slug": "mance-rayder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mance-rayder.node.md",
+      "section": "Characters Referenced",
+      "line": 49
+    },
+    {
+      "raw_name": "Stonesnake",
+      "slug": "stonesnake",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stonesnake.node.md",
+      "section": "Characters Referenced",
+      "line": 50
+    },
+    {
+      "raw_name": "The Halfhand (Qhorin)",
+      "slug": "qhorin-halfhand",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qhorin-halfhand.node.md",
+      "section": "Characters Referenced",
+      "line": 51
+    },
+    {
+      "raw_name": "Rattleshirt",
+      "slug": "lord-of-bones",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lord-of-bones.node.md",
+      "section": "Characters Referenced",
+      "line": 52
+    },
+    {
+      "raw_name": "Ned Stark",
+      "slug": "ned-stark",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 53
+    },
+    {
+      "raw_name": "Gendel",
+      "slug": "gendel",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gendel.node.md",
+      "section": "Characters Referenced",
+      "line": 54
+    },
+    {
+      "raw_name": "The Wall (western section, granite ridge)",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Locations",
+      "line": 59
+    },
+    {
+      "raw_name": "Castle Black",
+      "slug": "castle-black",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/castle-black.node.md",
+      "section": "Locations",
+      "line": 60
+    },
+    {
+      "raw_name": "The Skirling Pass",
+      "slug": "skirling-pass",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/skirling-pass.node.md",
+      "section": "Locations",
+      "line": 61
+    },
+    {
+      "raw_name": "The Fist of the First Men",
+      "slug": "fist-of-the-first-men",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/fist-of-the-first-men.node.md",
+      "section": "Locations",
+      "line": 62
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Locations",
+      "line": 63
+    },
+    {
+      "raw_name": "The Bay of Seals",
+      "slug": "bay-of-seals",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bay-of-seals.node.md",
+      "section": "Locations",
+      "line": 64
+    },
+    {
+      "raw_name": "The Gorge",
+      "slug": "gorge",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/gorge.node.md",
+      "section": "Locations",
+      "line": 65
+    },
+    {
+      "raw_name": "The Shadow Tower",
+      "slug": "shadow-tower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/shadow-tower.node.md",
+      "section": "Locations",
+      "line": 66
+    },
+    {
+      "raw_name": "The Wall (western section)",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Location Descriptions",
+      "line": 71
+    },
+    {
+      "raw_name": "The ridge below the Wall",
+      "slug": "the-ridge-below-the-wall",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 72
+    },
+    {
+      "raw_name": "Horn of Joramun (Horn of Winter)",
+      "slug": "horn-of-joramun",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 77
+    },
+    {
+      "raw_name": "Bronze-banded warhorns",
+      "slug": "bronze-banded-warhorns",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 78
+    },
+    {
+      "raw_name": "Hemp rope ladders (five total)",
+      "slug": "hemp-rope-ladders",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 79
+    },
+    {
+      "raw_name": "Climbing equipment (general)",
+      "slug": "climbing-equipment",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 80
+    },
+    {
+      "raw_name": "Southron swords of castle-forged steel",
+      "slug": "southron-swords-of-castle-forged-steel",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 81
+    },
+    {
+      "raw_name": "Stone mace",
+      "slug": "stone-mace",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 82
+    },
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 196
+    },
+    {
+      "raw_name": "Ghost (direwolf)",
+      "slug": "ghost",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ghost.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 197
+    },
+    {
+      "raw_name": "Ygritte",
+      "slug": "ygritte",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ygritte.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 198
+    },
+    {
+      "raw_name": "Jarl",
+      "slug": "jarl",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jarl.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 199
+    },
+    {
+      "raw_name": "Styr (the Magnar)",
+      "slug": "styr",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/styr.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 200
+    },
+    {
+      "raw_name": "Grigg the Goat",
+      "slug": "grigg-the-goat",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/grigg-the-goat.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 201
+    },
+    {
+      "raw_name": "Errok",
+      "slug": "errok",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/errok.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 202
+    },
+    {
+      "raw_name": "Mance Rayder",
+      "slug": "mance-rayder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mance-rayder.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 203
+    },
+    {
+      "raw_name": "Benjen Stark",
+      "slug": "benjen-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/benjen-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 204
+    },
+    {
+      "raw_name": "Ned Stark (Eddard Stark)",
+      "slug": "ned-stark",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 205
+    },
+    {
+      "raw_name": "Stonesnake",
+      "slug": "stonesnake",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stonesnake.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 206
+    },
+    {
+      "raw_name": "Qhorin Halfhand (the Halfhand)",
+      "slug": "qhorin-halfhand",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qhorin-halfhand.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 207
+    },
+    {
+      "raw_name": "Rattleshirt",
+      "slug": "lord-of-bones",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lord-of-bones.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 208
+    },
+    {
+      "raw_name": "Brandon the Builder",
+      "slug": "brandon-the-builder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brandon-the-builder.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 209
+    },
+    {
+      "raw_name": "Gendel",
+      "slug": "gendel",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gendel.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 210
+    },
+    {
+      "raw_name": "The Wall (western section, granite ridge)",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 213
+    },
+    {
+      "raw_name": "Castle Black",
+      "slug": "castle-black",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/castle-black.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 214
+    },
+    {
+      "raw_name": "The Skirling Pass",
+      "slug": "skirling-pass",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/skirling-pass.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 215
+    },
+    {
+      "raw_name": "The Fist of the First Men",
+      "slug": "fist-of-the-first-men",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/fist-of-the-first-men.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 216
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 217
+    },
+    {
+      "raw_name": "The Bay of Seals",
+      "slug": "bay-of-seals",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bay-of-seals.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 218
+    },
+    {
+      "raw_name": "The Gorge",
+      "slug": "gorge",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/gorge.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 219
+    },
+    {
+      "raw_name": "The Shadow Tower",
+      "slug": "shadow-tower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/shadow-tower.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 220
+    },
+    {
+      "raw_name": "The Seven Kingdoms",
+      "slug": "seven-kingdoms",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/seven-kingdoms.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 221
+    },
+    {
+      "raw_name": "None explicitly named as houses",
+      "slug": "none-explicitly-named-as-houses",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Houses",
+      "line": 224
+    },
+    {
+      "raw_name": "Night's Watch (the Watch, brothers in black, crows)",
+      "slug": "nights-watch",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/nights-watch.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 227
+    },
+    {
+      "raw_name": "Thenns",
+      "slug": "thenns",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/thenns.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 228
+    },
+    {
+      "raw_name": "Wildlings / Free Folk",
+      "slug": "wildlings-free-folk",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 229
+    },
+    {
+      "raw_name": "The gods (Jon thinks \"if the gods are good\")",
+      "slug": "the-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 232
+    },
+    {
+      "raw_name": "The Others (invoked as an oath: \"the Others take the hindmost\")",
+      "slug": "others",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/others.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 233
+    },
+    {
+      "raw_name": "Wildlings / Free Folk",
+      "slug": "wildlings-free-folk",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 236
+    },
+    {
+      "raw_name": "Thenns (distinct cultural group with the Magnar as ruler)",
+      "slug": "thenns",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/thenns.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 237
+    },
+    {
+      "raw_name": "Southrons (referenced as source of castle-forged swords)",
+      "slug": "southrons",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 238
+    },
+    {
+      "raw_name": "Horn of Joramun (Horn of Winter)",
+      "slug": "horn-of-joramun",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 241
+    },
+    {
+      "raw_name": "Bronze-banded warhorns (Thenn)",
+      "slug": "bronze-banded-warhorns",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 242
+    },
+    {
+      "raw_name": "Hemp rope ladders (five)",
+      "slug": "hemp-rope-ladders",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 243
+    },
+    {
+      "raw_name": "Doeskin spiked climbing boots (iron, bronze, or bone spikes)",
+      "slug": "doeskin-spiked-climbing-boots",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 244
+    },
+    {
+      "raw_name": "Stone-headed climbing hammers",
+      "slug": "stone-headed-climbing-hammers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 245
+    },
+    {
+      "raw_name": "Ice axes (antler with sharpened tines, bound to wooden hafts)",
+      "slug": "ice-axes",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 246
+    },
+    {
+      "raw_name": "Iron stakes, horn stakes, bone stakes",
+      "slug": "iron-stakes-horn-stakes-bone-stakes",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 247
+    },
+    {
+      "raw_name": "Hempen rope (climbing)",
+      "slug": "hempen-rope",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 248
+    },
+    {
+      "raw_name": "Stone mace (Thenn)",
+      "slug": "stone-mace",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 249
+    },
+    {
+      "raw_name": "Southron swords of castle-forged steel (promised reward)",
+      "slug": "southron-swords-of-castle-forged-steel",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 250
+    },
+    {
+      "raw_name": "The Sword of the Morning (star/constellation visible at dawn)",
+      "slug": "sword-of-the-morning",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/sword-of-the-morning.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 251
+    },
+    {
+      "raw_name": "The song Mance will make of the first team to reach the top (referenced as future composition)",
+      "slug": "the-song-mance-will-make-of-the-first-team-to-reach-the-top",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 254
+    },
+    {
+      "raw_name": "Shades released from graves (Ygritte's claim about opening graves)",
+      "slug": "shades-released-from-graves",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 257
+    },
+    {
+      "raw_name": "The Wall \"defending itself\" (Jon's perception of the ice collapse)",
+      "slug": "the-wall-defending-itself",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 258
+    },
+    {
+      "raw_name": "The Wall \"trying to shake\" Ygritte off (her perception)",
+      "slug": "the-wall-trying-to-shake-ygritte-off",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 259
+    },
+    {
+      "raw_name": "None named explicitly (the broader wildling assault on the Wall is in progress)",
+      "slug": "none-named-explicitly",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 262
+    },
+    {
+      "raw_name": "The Magnar (title of Thenn ruler)",
+      "slug": "magnar",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/magnar.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 265
+    },
+    {
+      "raw_name": "Lord Commander (implied by Night's Watch references)",
+      "slug": "lord-commander",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 266
+    },
+    {
+      "raw_name": "Gendel's children (legendary people said to live beneath the Wall)",
+      "slug": "gendels-children",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 269
+    }
+  ]
+}

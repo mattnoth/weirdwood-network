@@ -6,7 +6,7 @@
 
 ## Source signal
 
-- `working/audits/orphan-edges-2026-04-30.md` — full sweep summary
+- `working/audits/orphan-edges-2026-04-30/execution/orphan-edges-2026-04-30.md` — full sweep summary
 - `working/audits/orphan-edges-2026-04-30-cat1-full.tsv` — every (source_node, edge_type, target_text, target_slug) row
 - 7,219 dangling edges across 2,221 unique target slugs
 

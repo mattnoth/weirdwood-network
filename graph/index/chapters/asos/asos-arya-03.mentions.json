@@ -1,0 +1,628 @@
+{
+  "chapter_id": "asos-arya-03",
+  "book": "asos",
+  "pov_character": "arya",
+  "generated_at": "2026-05-07T02:06:34.389606+00:00",
+  "extraction_path": "extractions/mechanical/asos/asos-arya-03.extraction.md",
+  "stats": {
+    "total_mentions": 68,
+    "resolved_to_node": 55,
+    "direct": 49,
+    "alias": 6,
+    "unresolved": 13
+  },
+  "mentions": [
+    {
+      "raw_name": "Arya Stark",
+      "slug": "arya-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/arya-stark.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Gendry",
+      "slug": "gendry",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gendry.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Harwin",
+      "slug": "harwin",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/harwin.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Lem Lemoncloak",
+      "slug": "lem",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lem.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Tom Sevenstrings / Tom o' Sevens",
+      "slug": "tom-sevenstrings-tom-o-sevens",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Jack-Be-Lucky",
+      "slug": "jack-be-lucky",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jack-be-lucky.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Anguy",
+      "slug": "anguy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/anguy.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Greenbeard (Pello of Tyrosh)",
+      "slug": "greenbeard",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/greenbeard.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Hot Pie",
+      "slug": "hot-pie",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hot-pie.node.md",
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Gendry",
+      "slug": "gendry",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gendry.node.md",
+      "section": "Character Appearances",
+      "line": 40
+    },
+    {
+      "raw_name": "Lem Lemoncloak",
+      "slug": "lem",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lem.node.md",
+      "section": "Character Appearances",
+      "line": 41
+    },
+    {
+      "raw_name": "Jack-Be-Lucky",
+      "slug": "jack-be-lucky",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jack-be-lucky.node.md",
+      "section": "Character Appearances",
+      "line": 42
+    },
+    {
+      "raw_name": "Greenbeard",
+      "slug": "greenbeard",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/greenbeard.node.md",
+      "section": "Character Appearances",
+      "line": 43
+    },
+    {
+      "raw_name": "Sharna",
+      "slug": "sharna",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sharna.node.md",
+      "section": "Characters Referenced",
+      "line": 48
+    },
+    {
+      "raw_name": "Hullen",
+      "slug": "hullen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hullen.node.md",
+      "section": "Characters Referenced",
+      "line": 49
+    },
+    {
+      "raw_name": "Yoren",
+      "slug": "yoren",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/yoren.node.md",
+      "section": "Characters Referenced",
+      "line": 50
+    },
+    {
+      "raw_name": "Jaqen H'ghar",
+      "slug": "jaqen-hghar",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaqen-hghar.node.md",
+      "section": "Characters Referenced",
+      "line": 51
+    },
+    {
+      "raw_name": "Nymeria",
+      "slug": "nymeria",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/nymeria.node.md",
+      "section": "Characters Referenced",
+      "line": 52
+    },
+    {
+      "raw_name": "Beric Dondarrion",
+      "slug": "beric-dondarrion",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/beric-dondarrion.node.md",
+      "section": "Characters Referenced",
+      "line": 53
+    },
+    {
+      "raw_name": "Jaime Lannister (the Kingslayer)",
+      "slug": "jaime-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaime-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 54
+    },
+    {
+      "raw_name": "Gregor Clegane (the Mountain That Rides)",
+      "slug": "gregor-clegane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gregor-clegane.node.md",
+      "section": "Characters Referenced",
+      "line": 55
+    },
+    {
+      "raw_name": "Eddard Stark (Lord Eddard)",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 56
+    },
+    {
+      "raw_name": "Tywin Lannister (Lord Tywin)",
+      "slug": "tywin-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tywin-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "Tyrion Lannister (the Imp)",
+      "slug": "tyrion-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tyrion-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "Robert Baratheon (King Robert)",
+      "slug": "robert-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robert-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "Cersei Lannister (Queen Cersei)",
+      "slug": "cersei-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cersei-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "Joffrey Baratheon (King Joffrey)",
+      "slug": "joffrey-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/joffrey-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 61
+    },
+    {
+      "raw_name": "Thoros",
+      "slug": "thoros",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/thoros.node.md",
+      "section": "Characters Referenced",
+      "line": 62
+    },
+    {
+      "raw_name": "Raymun Darry (Ser Raymun Darry)",
+      "slug": "raymun-darry",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/raymun-darry.node.md",
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "Gladden Wylde (Ser Gladden Wylde)",
+      "slug": "gladden-wylde",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gladden-wylde.node.md",
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "Lothar Mallery (Lord Mallery)",
+      "slug": "lothar-mallery",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lothar-mallery.node.md",
+      "section": "Characters Referenced",
+      "line": 65
+    },
+    {
+      "raw_name": "Alyn",
+      "slug": "alyn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alyn.node.md",
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "Jory (Jory Cassel)",
+      "slug": "jorelle-mormont",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jorelle-mormont.node.md",
+      "section": "Characters Referenced",
+      "line": 67
+    },
+    {
+      "raw_name": "Ser Ilyn (Ser Ilyn Payne)",
+      "slug": "ser-ilyn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 68
+    },
+    {
+      "raw_name": "Ser Meryn (Ser Meryn Trant)",
+      "slug": "ser-meryn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 69
+    },
+    {
+      "raw_name": "Ser Gregor",
+      "slug": "ser-gregor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 70
+    },
+    {
+      "raw_name": "Dunsen",
+      "slug": "dunsen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dunsen.node.md",
+      "section": "Characters Referenced",
+      "line": 71
+    },
+    {
+      "raw_name": "Polliver",
+      "slug": "polliver",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/polliver.node.md",
+      "section": "Characters Referenced",
+      "line": 72
+    },
+    {
+      "raw_name": "Raff the Sweetling",
+      "slug": "rafford",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rafford.node.md",
+      "section": "Characters Referenced",
+      "line": 73
+    },
+    {
+      "raw_name": "The Tickler",
+      "slug": "tickler",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tickler.node.md",
+      "section": "Characters Referenced",
+      "line": 74
+    },
+    {
+      "raw_name": "The Hound (Sandor Clegane)",
+      "slug": "sandor-clegane",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sandor-clegane.node.md",
+      "section": "Characters Referenced",
+      "line": 75
+    },
+    {
+      "raw_name": "Vargo Hoat",
+      "slug": "vargo-hoat",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/vargo-hoat.node.md",
+      "section": "Characters Referenced",
+      "line": 76
+    },
+    {
+      "raw_name": "Ser Amory Lorch",
+      "slug": "amory-lorch",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/amory-lorch.node.md",
+      "section": "Characters Referenced",
+      "line": 77
+    },
+    {
+      "raw_name": "Roose Bolton",
+      "slug": "roose-bolton",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/roose-bolton.node.md",
+      "section": "Characters Referenced",
+      "line": 78
+    },
+    {
+      "raw_name": "Catelyn Stark (lady mother)",
+      "slug": "catelyn-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/catelyn-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 79
+    },
+    {
+      "raw_name": "Robb Stark",
+      "slug": "robb-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 80
+    },
+    {
+      "raw_name": "Lyanna Stark",
+      "slug": "lyanna-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lyanna-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 81
+    },
+    {
+      "raw_name": "The riverlands (road heading south)",
+      "slug": "riverlands",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/riverlands.node.md",
+      "section": "Locations",
+      "line": 86
+    },
+    {
+      "raw_name": "Burned/abandoned village",
+      "slug": "burned-abandoned-village",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 87
+    },
+    {
+      "raw_name": "Riverrun",
+      "slug": "riverrun",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/riverrun.node.md",
+      "section": "Locations",
+      "line": 88
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Locations",
+      "line": 89
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Locations",
+      "line": 90
+    },
+    {
+      "raw_name": "Red Keep",
+      "slug": "red-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-keep.node.md",
+      "section": "Locations",
+      "line": 91
+    },
+    {
+      "raw_name": "Harrenhal",
+      "slug": "harrenhal",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/harrenhal.node.md",
+      "section": "Locations",
+      "line": 92
+    },
+    {
+      "raw_name": "Mummer's Ford",
+      "slug": "mummers-ford",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/mummers-ford.node.md",
+      "section": "Locations",
+      "line": 93
+    },
+    {
+      "raw_name": "Red Fork",
+      "slug": "red-fork",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-fork.node.md",
+      "section": "Locations",
+      "line": 94
+    },
+    {
+      "raw_name": "The Trident",
+      "slug": "trident",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/trident.node.md",
+      "section": "Locations",
+      "line": 95
+    },
+    {
+      "raw_name": "Inn (where Hot Pie stayed)",
+      "slug": "inn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 96
+    },
+    {
+      "raw_name": "Kingswood",
+      "slug": "kingswood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kingswood.node.md",
+      "section": "Locations",
+      "line": 97
+    },
+    {
+      "raw_name": "Burned village",
+      "slug": "burned-village",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 102
+    },
+    {
+      "raw_name": "Winterfell (dream)",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Location Descriptions",
+      "line": 103
+    },
+    {
+      "raw_name": "Fields and woods (chase)",
+      "slug": "fields-and-woods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 104
+    },
+    {
+      "raw_name": "Iron coin (from Jaqen H'ghar)",
+      "slug": "iron-coin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 109
+    },
+    {
+      "raw_name": "Needle (sword)",
+      "slug": "needle",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/needle.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 110
+    },
+    {
+      "raw_name": "Arya's map",
+      "slug": "aryas-map",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 111
+    },
+    {
+      "raw_name": "Jack-Be-Lucky's hunting horn",
+      "slug": "jack-be-luckys-hunting-horn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 112
+    },
+    {
+      "raw_name": "Tom's woodharp",
+      "slug": "toms-woodharp",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 113
+    },
+    {
+      "raw_name": "Lem's yellow cloak",
+      "slug": "lems-yellow-cloak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 114
+    }
+  ]
+}

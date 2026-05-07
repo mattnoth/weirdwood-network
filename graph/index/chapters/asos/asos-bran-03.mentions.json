@@ -1,0 +1,862 @@
+{
+  "chapter_id": "asos-bran-03",
+  "book": "asos",
+  "pov_character": "bran",
+  "generated_at": "2026-05-07T02:06:34.401079+00:00",
+  "extraction_path": "extractions/mechanical/asos/asos-bran-03.extraction.md",
+  "stats": {
+    "total_mentions": 94,
+    "resolved_to_node": 61,
+    "direct": 54,
+    "alias": 7,
+    "unresolved": 33
+  },
+  "mentions": [
+    {
+      "raw_name": "Bran Stark",
+      "slug": "bran-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bran-stark.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Meera Reed",
+      "slug": "meera-reed",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meera-reed.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Jojen Reed",
+      "slug": "jojen-reed",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jojen-reed.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Hodor",
+      "slug": "hodor",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hodor.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Summer",
+      "slug": "summer",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/summer.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Hodor",
+      "slug": "hodor",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hodor.node.md",
+      "section": "Character Appearances",
+      "line": 36
+    },
+    {
+      "raw_name": "Meera Reed",
+      "slug": "meera-reed",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meera-reed.node.md",
+      "section": "Character Appearances",
+      "line": 37
+    },
+    {
+      "raw_name": "Old Nan",
+      "slug": "old-nan",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/old-nan.node.md",
+      "section": "Characters Referenced",
+      "line": 42
+    },
+    {
+      "raw_name": "Maester Luwin",
+      "slug": "luwin",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/luwin.node.md",
+      "section": "Characters Referenced",
+      "line": 43
+    },
+    {
+      "raw_name": "Brandon the Builder",
+      "slug": "brandon-the-builder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brandon-the-builder.node.md",
+      "section": "Characters Referenced",
+      "line": 44
+    },
+    {
+      "raw_name": "Queen Alysanne",
+      "slug": "queen-alysanne",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/queen-alysanne.node.md",
+      "section": "Characters Referenced",
+      "line": 45
+    },
+    {
+      "raw_name": "The Old King (Jaehaerys I)",
+      "slug": "jaehaerys-i-targaryen",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaehaerys-i-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 46
+    },
+    {
+      "raw_name": "Silverwing",
+      "slug": "silverwing",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/silverwing.node.md",
+      "section": "Characters Referenced",
+      "line": 47
+    },
+    {
+      "raw_name": "Benjen Stark",
+      "slug": "benjen-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/benjen-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 48
+    },
+    {
+      "raw_name": "King Robert",
+      "slug": "king-robert",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 49
+    },
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Characters Referenced",
+      "line": 50
+    },
+    {
+      "raw_name": "Eddard Stark",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 51
+    },
+    {
+      "raw_name": "Rickon",
+      "slug": "rickon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 52
+    },
+    {
+      "raw_name": "Brandon the Shipwright",
+      "slug": "brandon-stark-shipwright",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brandon-stark-shipwright.node.md",
+      "section": "Characters Referenced",
+      "line": 53
+    },
+    {
+      "raw_name": "The Bastard of Bolton",
+      "slug": "ramsay-snow",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ramsay-snow.node.md",
+      "section": "Characters Referenced",
+      "line": 54
+    },
+    {
+      "raw_name": "Abandoned village (in the New Gift)",
+      "slug": "abandoned-village",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 59
+    },
+    {
+      "raw_name": "Lake (surrounding the holdfast)",
+      "slug": "lake",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 60
+    },
+    {
+      "raw_name": "Queenscrown (holdfast tower)",
+      "slug": "queenscrown",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/queenscrown.node.md",
+      "section": "Locations",
+      "line": 61
+    },
+    {
+      "raw_name": "The New Gift",
+      "slug": "the-new-gift",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 62
+    },
+    {
+      "raw_name": "Brandon's Gift",
+      "slug": "brandons-gift",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 63
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Locations",
+      "line": 64
+    },
+    {
+      "raw_name": "Castle Black",
+      "slug": "castle-black",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/castle-black.node.md",
+      "section": "Locations",
+      "line": 65
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Locations",
+      "line": 66
+    },
+    {
+      "raw_name": "The Neck",
+      "slug": "neck",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/neck.node.md",
+      "section": "Locations",
+      "line": 67
+    },
+    {
+      "raw_name": "The Sunset Sea",
+      "slug": "sunset-sea",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sunset-sea.node.md",
+      "section": "Locations",
+      "line": 68
+    },
+    {
+      "raw_name": "Abandoned village",
+      "slug": "abandoned-village",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 73
+    },
+    {
+      "raw_name": "Queenscrown (holdfast tower)",
+      "slug": "queenscrown",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/queenscrown.node.md",
+      "section": "Location Descriptions",
+      "line": 74
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Location Descriptions",
+      "line": 75
+    },
+    {
+      "raw_name": "Meera's frog spear",
+      "slug": "meeras-frog-spear",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 80
+    },
+    {
+      "raw_name": "Meera's net",
+      "slug": "meeras-net",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 81
+    },
+    {
+      "raw_name": "Hodor's longsword",
+      "slug": "hodors-longsword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 82
+    },
+    {
+      "raw_name": "Hidden stone causeway",
+      "slug": "hidden-stone-causeway",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 83
+    },
+    {
+      "raw_name": "Bran Stark (POV)",
+      "slug": "bran-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bran-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 201
+    },
+    {
+      "raw_name": "Meera Reed",
+      "slug": "meera-reed",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meera-reed.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 202
+    },
+    {
+      "raw_name": "Jojen Reed",
+      "slug": "jojen-reed",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jojen-reed.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 203
+    },
+    {
+      "raw_name": "Hodor",
+      "slug": "hodor",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hodor.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 204
+    },
+    {
+      "raw_name": "Summer (direwolf)",
+      "slug": "summer",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/summer.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 205
+    },
+    {
+      "raw_name": "Old Nan (referenced)",
+      "slug": "old-nan",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/old-nan.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 206
+    },
+    {
+      "raw_name": "Maester Luwin (referenced)",
+      "slug": "luwin",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/luwin.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 207
+    },
+    {
+      "raw_name": "Benjen Stark (referenced)",
+      "slug": "benjen-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/benjen-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 208
+    },
+    {
+      "raw_name": "Jon Snow (referenced)",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 209
+    },
+    {
+      "raw_name": "Eddard Stark (referenced)",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 210
+    },
+    {
+      "raw_name": "Rickon Stark (referenced)",
+      "slug": "rickon-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rickon-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 211
+    },
+    {
+      "raw_name": "King Robert Baratheon (referenced)",
+      "slug": "robert-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robert-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 212
+    },
+    {
+      "raw_name": "Brandon the Builder (referenced, historical)",
+      "slug": "brandon-the-builder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brandon-the-builder.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 213
+    },
+    {
+      "raw_name": "Queen Alysanne (referenced, historical)",
+      "slug": "queen-alysanne",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/queen-alysanne.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 214
+    },
+    {
+      "raw_name": "Brandon the Shipwright (referenced, historical)",
+      "slug": "brandon-stark-shipwright",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brandon-stark-shipwright.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 215
+    },
+    {
+      "raw_name": "Silverwing (dragon, referenced, historical)",
+      "slug": "silverwing",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/silverwing.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 216
+    },
+    {
+      "raw_name": "The Bastard of Bolton (referenced)",
+      "slug": "ramsay-snow",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ramsay-snow.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 217
+    },
+    {
+      "raw_name": "The lone rider (unnamed, observed)",
+      "slug": "the-lone-rider",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 218
+    },
+    {
+      "raw_name": "Abandoned village in the New Gift",
+      "slug": "abandoned-village-in-the-new-gift",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 221
+    },
+    {
+      "raw_name": "Lake surrounding the holdfast",
+      "slug": "lake-surrounding-the-holdfast",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 222
+    },
+    {
+      "raw_name": "Queenscrown holdfast (tower on an island)",
+      "slug": "queenscrown-holdfast",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 223
+    },
+    {
+      "raw_name": "The ruined inn",
+      "slug": "the-ruined-inn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 224
+    },
+    {
+      "raw_name": "The New Gift",
+      "slug": "the-new-gift",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 225
+    },
+    {
+      "raw_name": "Brandon's Gift",
+      "slug": "brandons-gift",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 226
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 227
+    },
+    {
+      "raw_name": "Castle Black",
+      "slug": "castle-black",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/castle-black.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 228
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 229
+    },
+    {
+      "raw_name": "Winterfell's kennels",
+      "slug": "winterfells-kennels",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 230
+    },
+    {
+      "raw_name": "The Neck",
+      "slug": "neck",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/neck.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 231
+    },
+    {
+      "raw_name": "The Sunset Sea",
+      "slug": "sunset-sea",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sunset-sea.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 232
+    },
+    {
+      "raw_name": "The kingsroad (referenced)",
+      "slug": "kingsroad",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kingsroad.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 233
+    },
+    {
+      "raw_name": "The ghost castles (abandoned forts along the Wall)",
+      "slug": "the-ghost-castles",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 234
+    },
+    {
+      "raw_name": "House Stark",
+      "slug": "house-stark",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-stark.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 237
+    },
+    {
+      "raw_name": "House Bolton (referenced — \"the Bastard of Bolton\")",
+      "slug": "house-bolton",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-bolton.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 238
+    },
+    {
+      "raw_name": "House Umber (referenced — \"the Greatjon's people,\" \"some Umbers\")",
+      "slug": "house-umber",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-umber.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 239
+    },
+    {
+      "raw_name": "House Knott (referenced)",
+      "slug": "house-knott",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-knott.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 240
+    },
+    {
+      "raw_name": "House Norrey (referenced)",
+      "slug": "house-norrey",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-norrey.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 241
+    },
+    {
+      "raw_name": "House Flint (referenced — \"Flints come down from the mountains\")",
+      "slug": "house-flint",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Houses",
+      "line": 242
+    },
+    {
+      "raw_name": "Night's Watch",
+      "slug": "nights-watch",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/nights-watch.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 245
+    },
+    {
+      "raw_name": "Wildlings / Free Folk (referenced as raiders)",
+      "slug": "wildlings-free-folk",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 246
+    },
+    {
+      "raw_name": "Smallfolk of the Gift (referenced — moved south due to wildling raids)",
+      "slug": "smallfolk-of-the-gift",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 252
+    },
+    {
+      "raw_name": "First Men (implied — Brandon the Builder)",
+      "slug": "first-men",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/first-men.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 253
+    },
+    {
+      "raw_name": "Crannogmen (Meera and Jojen referred to as \"the crannogmen\")",
+      "slug": "crannogmen",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/crannogmen.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 254
+    },
+    {
+      "raw_name": "Meera's frog spear",
+      "slug": "meeras-frog-spear",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 257
+    },
+    {
+      "raw_name": "Meera's net",
+      "slug": "meeras-net",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 258
+    },
+    {
+      "raw_name": "Hodor's longsword",
+      "slug": "hodors-longsword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 259
+    },
+    {
+      "raw_name": "Hidden stone causeway to the holdfast",
+      "slug": "hidden-stone-causeway-to-the-holdfast",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 260
+    },
+    {
+      "raw_name": "Iron grates (in the holdfast)",
+      "slug": "iron-grates",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 261
+    },
+    {
+      "raw_name": "Murder hole grate (pulled free by Bran)",
+      "slug": "murder-hole-grate",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 262
+    },
+    {
+      "raw_name": "The story of Brandon the Shipwright (Bran tells it to the group — he sailed beyond the Sunset Sea)",
+      "slug": "the-story-of-brandon-the-shipwright",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 265
+    },
+    {
+      "raw_name": "Warging (Bran warges into Hodor for the first time; Bran warges into Summer at chapter's end)",
+      "slug": "warging",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 268
+    },
+    {
+      "raw_name": "Greensight / prophetic sensing (Jojen predicts the storm — \"listening to music only he could hear\")",
+      "slug": "greensight-prophetic-sensing",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 269
+    },
+    {
+      "raw_name": "The three-eyed crow (referenced as the destination of their journey)",
+      "slug": "brynden-rivers",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brynden-rivers.node.md",
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 270
+    },
+    {
+      "raw_name": "First Ranger (Benjen Stark)",
+      "slug": "first-ranger",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/first-ranger.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 276
+    },
+    {
+      "raw_name": "Lord Commander (of the Night's Watch, referenced generically)",
+      "slug": "lord-commander",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 277
+    },
+    {
+      "raw_name": "Prince of Winterfell (Bran thinks of himself as this)",
+      "slug": "prince-of-winterfell",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/prince-of-winterfell.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 278
+    },
+    {
+      "raw_name": "The Old King (Jaehaerys I Targaryen, referenced by title)",
+      "slug": "jaehaerys-i-targaryen",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaehaerys-i-targaryen.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 279
+    }
+  ]
+}

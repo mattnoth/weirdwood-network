@@ -1,0 +1,835 @@
+{
+  "chapter_id": "adwd-the-prince-of-winterfell-01",
+  "book": "adwd",
+  "pov_character": "the-prince-of-winterfell",
+  "generated_at": "2026-05-07T02:06:34.522297+00:00",
+  "extraction_path": "extractions/mechanical/adwd/adwd-the-prince-of-winterfell-01.extraction.md",
+  "stats": {
+    "total_mentions": 91,
+    "resolved_to_node": 60,
+    "direct": 57,
+    "alias": 3,
+    "unresolved": 31
+  },
+  "mentions": [
+    {
+      "raw_name": "Theon Greyjoy / Reek",
+      "slug": "theon-greyjoy-reek",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Jeyne Poole (as \"Arya Stark\")",
+      "slug": "jeyne-poole",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jeyne-poole.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Ramsay Bolton",
+      "slug": "ramsay-snow",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ramsay-snow.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Roose Bolton",
+      "slug": "roose-bolton",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/roose-bolton.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Fat Walda Frey Bolton",
+      "slug": "fat-walda-frey-bolton",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Lady Barbrey Dustin",
+      "slug": "barbrey-dustin",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/barbrey-dustin.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Abel",
+      "slug": "mance-rayder",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mance-rayder.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Abel's women (six)",
+      "slug": "abels-women",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Lord Wyman Manderly",
+      "slug": "wyman-manderly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/wyman-manderly.node.md",
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Lord Stout",
+      "slug": "lord-stout",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "Lord Locke",
+      "slug": "lord-locke",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 37
+    },
+    {
+      "raw_name": "Hother \"Whoresbane\" Umber",
+      "slug": "hother-whoresbane-umber",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 38
+    },
+    {
+      "raw_name": "Big Walder Frey",
+      "slug": "big-walder-frey",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 39
+    },
+    {
+      "raw_name": "Little Walder Frey",
+      "slug": "little-walder-frey",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 40
+    },
+    {
+      "raw_name": "Ser Hosteen Frey",
+      "slug": "hosteen-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hosteen-frey.node.md",
+      "section": "Characters Present",
+      "line": 41
+    },
+    {
+      "raw_name": "Ser Aenys Frey",
+      "slug": "aenys-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aenys-frey.node.md",
+      "section": "Characters Present",
+      "line": 42
+    },
+    {
+      "raw_name": "Maester Medrick",
+      "slug": "medrick",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/medrick.node.md",
+      "section": "Characters Present",
+      "line": 43
+    },
+    {
+      "raw_name": "Maester Rhodry",
+      "slug": "rhodry",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rhodry.node.md",
+      "section": "Characters Present",
+      "line": 44
+    },
+    {
+      "raw_name": "Maester Henly",
+      "slug": "maester-henly",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 45
+    },
+    {
+      "raw_name": "Sour Alyn",
+      "slug": "sour-alyn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sour-alyn.node.md",
+      "section": "Characters Present",
+      "line": 46
+    },
+    {
+      "raw_name": "Yellow Dick",
+      "slug": "yellow-dick",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/yellow-dick.node.md",
+      "section": "Characters Present",
+      "line": 47
+    },
+    {
+      "raw_name": "Damon Dance-for-Me",
+      "slug": "damon-dance-for-me",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 48
+    },
+    {
+      "raw_name": "Skinner",
+      "slug": "skinner",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/skinner.node.md",
+      "section": "Characters Present",
+      "line": 49
+    },
+    {
+      "raw_name": "Theon Greyjoy",
+      "slug": "theon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/theon-greyjoy.node.md",
+      "section": "Character Appearances",
+      "line": 54
+    },
+    {
+      "raw_name": "Jeyne Poole (\"Arya\")",
+      "slug": "jeyne-poole",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jeyne-poole.node.md",
+      "section": "Character Appearances",
+      "line": 55
+    },
+    {
+      "raw_name": "Ramsay Bolton",
+      "slug": "ramsay-snow",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ramsay-snow.node.md",
+      "section": "Character Appearances",
+      "line": 56
+    },
+    {
+      "raw_name": "Roose Bolton",
+      "slug": "roose-bolton",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/roose-bolton.node.md",
+      "section": "Character Appearances",
+      "line": 57
+    },
+    {
+      "raw_name": "Lady Barbrey Dustin",
+      "slug": "barbrey-dustin",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/barbrey-dustin.node.md",
+      "section": "Character Appearances",
+      "line": 58
+    },
+    {
+      "raw_name": "Lord Wyman Manderly",
+      "slug": "wyman-manderly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/wyman-manderly.node.md",
+      "section": "Character Appearances",
+      "line": 59
+    },
+    {
+      "raw_name": "Arya Stark (real)",
+      "slug": "arya-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/arya-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "Sansa Stark",
+      "slug": "sansa-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sansa-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 65
+    },
+    {
+      "raw_name": "Eddard Stark / Ned",
+      "slug": "eddard-stark-ned",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Characters Referenced",
+      "line": 67
+    },
+    {
+      "raw_name": "Bran Stark",
+      "slug": "bran-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bran-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 68
+    },
+    {
+      "raw_name": "Rickon Stark",
+      "slug": "rickon-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rickon-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 69
+    },
+    {
+      "raw_name": "Robb Stark",
+      "slug": "robb-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 70
+    },
+    {
+      "raw_name": "Maester Luwin",
+      "slug": "luwin",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/luwin.node.md",
+      "section": "Characters Referenced",
+      "line": 71
+    },
+    {
+      "raw_name": "Ser Rodrik Cassel",
+      "slug": "rodrik-cassel",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rodrik-cassel.node.md",
+      "section": "Characters Referenced",
+      "line": 72
+    },
+    {
+      "raw_name": "Jory Cassel",
+      "slug": "jory-cassel",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jory-cassel.node.md",
+      "section": "Characters Referenced",
+      "line": 73
+    },
+    {
+      "raw_name": "Stannis Baratheon",
+      "slug": "stannis-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stannis-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 74
+    },
+    {
+      "raw_name": "Tywin Lannister",
+      "slug": "tywin-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tywin-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 75
+    },
+    {
+      "raw_name": "Jaime Lannister",
+      "slug": "jaime-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaime-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 76
+    },
+    {
+      "raw_name": "Tyrion Lannister",
+      "slug": "tyrion-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tyrion-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 77
+    },
+    {
+      "raw_name": "Walder Frey",
+      "slug": "walder-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/walder-frey.node.md",
+      "section": "Characters Referenced",
+      "line": 78
+    },
+    {
+      "raw_name": "Lord Rickard Stark",
+      "slug": "rickard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rickard-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 79
+    },
+    {
+      "raw_name": "Maester Walys / Walys Flowers",
+      "slug": "maester-walys-walys-flowers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 80
+    },
+    {
+      "raw_name": "Crowfood Umber (Mors Umber)",
+      "slug": "crowfood-umber",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 81
+    },
+    {
+      "raw_name": "Arnolf Karstark",
+      "slug": "arnolf-karstark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/arnolf-karstark.node.md",
+      "section": "Characters Referenced",
+      "line": 82
+    },
+    {
+      "raw_name": "King Tommen Baratheon",
+      "slug": "tommen-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tommen-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 83
+    },
+    {
+      "raw_name": "Kyra",
+      "slug": "kyra",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/kyra.node.md",
+      "section": "Characters Referenced",
+      "line": 84
+    },
+    {
+      "raw_name": "Smiler",
+      "slug": "smiler",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/smiler.node.md",
+      "section": "Characters Referenced",
+      "line": 85
+    },
+    {
+      "raw_name": "Danny Flint",
+      "slug": "danny-flint",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/danny-flint.node.md",
+      "section": "Characters Referenced",
+      "line": 86
+    },
+    {
+      "raw_name": "The Rat Cook",
+      "slug": "rat-cook",
+      "resolved_via": "direct",
+      "node_type": "object.text",
+      "node_path": "graph/nodes/texts/rat-cook.node.md",
+      "section": "Characters Referenced",
+      "line": 87
+    },
+    {
+      "raw_name": "Lord Hornwood",
+      "slug": "hornwood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/hornwood.node.md",
+      "section": "Characters Referenced",
+      "line": 88
+    },
+    {
+      "raw_name": "Lord Cerwyn",
+      "slug": "lord-cerwyn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 89
+    },
+    {
+      "raw_name": "Lord Slate",
+      "slug": "lord-slate",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lord-slate.node.md",
+      "section": "Characters Referenced",
+      "line": 90
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Locations",
+      "line": 95
+    },
+    {
+      "raw_name": "Godswood of Winterfell",
+      "slug": "godswood-of-winterfell",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 96
+    },
+    {
+      "raw_name": "Heart tree / weirwood",
+      "slug": "heart-tree-weirwood",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 97
+    },
+    {
+      "raw_name": "Great Hall of Winterfell",
+      "slug": "great-hall-of-winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/great-hall-of-winterfell.node.md",
+      "section": "Locations",
+      "line": 98
+    },
+    {
+      "raw_name": "Great Keep of Winterfell",
+      "slug": "great-keep-of-winterfell",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 99
+    },
+    {
+      "raw_name": "Glass Gardens",
+      "slug": "glass-gardens",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/glass-gardens.node.md",
+      "section": "Locations",
+      "line": 100
+    },
+    {
+      "raw_name": "Maester's tower",
+      "slug": "maesters-tower",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 101
+    },
+    {
+      "raw_name": "Barrowton",
+      "slug": "barrowton",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/barrowton.node.md",
+      "section": "Locations",
+      "line": 102
+    },
+    {
+      "raw_name": "White Harbor",
+      "slug": "white-harbor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/white-harbor.node.md",
+      "section": "Locations",
+      "line": 103
+    },
+    {
+      "raw_name": "Deepwood Motte",
+      "slug": "deepwood-motte",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/deepwood-motte.node.md",
+      "section": "Locations",
+      "line": 104
+    },
+    {
+      "raw_name": "The Dreadfort",
+      "slug": "dreadfort",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dreadfort.node.md",
+      "section": "Locations",
+      "line": 105
+    },
+    {
+      "raw_name": "Moat Cailin",
+      "slug": "moat-cailin",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/moat-cailin.node.md",
+      "section": "Locations",
+      "line": 106
+    },
+    {
+      "raw_name": "The Twins",
+      "slug": "twins",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/twins.node.md",
+      "section": "Locations",
+      "line": 107
+    },
+    {
+      "raw_name": "The Citadel",
+      "slug": "citadel",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/citadel.node.md",
+      "section": "Locations",
+      "line": 108
+    },
+    {
+      "raw_name": "Oldtown",
+      "slug": "oldtown",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/oldtown.node.md",
+      "section": "Locations",
+      "line": 109
+    },
+    {
+      "raw_name": "Pyke",
+      "slug": "pyke",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pyke.node.md",
+      "section": "Locations",
+      "line": 110
+    },
+    {
+      "raw_name": "The kingsroad",
+      "slug": "kingsroad",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kingsroad.node.md",
+      "section": "Locations",
+      "line": 111
+    },
+    {
+      "raw_name": "The wolfswood",
+      "slug": "wolfswood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wolfswood.node.md",
+      "section": "Locations",
+      "line": 112
+    },
+    {
+      "raw_name": "Flint's Finger",
+      "slug": "flints-finger",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/flints-finger.node.md",
+      "section": "Locations",
+      "line": 113
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Location Descriptions",
+      "line": 118
+    },
+    {
+      "raw_name": "Godswood of Winterfell",
+      "slug": "godswood-of-winterfell",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 119
+    },
+    {
+      "raw_name": "Heart tree (weirwood)",
+      "slug": "heart-tree",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/heart-tree.node.md",
+      "section": "Location Descriptions",
+      "line": 120
+    },
+    {
+      "raw_name": "Great Hall of Winterfell",
+      "slug": "great-hall-of-winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/great-hall-of-winterfell.node.md",
+      "section": "Location Descriptions",
+      "line": 121
+    },
+    {
+      "raw_name": "Great Keep — Ramsay's bedchamber",
+      "slug": "great-keep",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 122
+    },
+    {
+      "raw_name": "Crude iron kraken brooch",
+      "slug": "crude-iron-kraken-brooch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 127
+    },
+    {
+      "raw_name": "Stark direwolf cloak (white wool, grey fur border)",
+      "slug": "stark-direwolf-cloak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 128
+    },
+    {
+      "raw_name": "Bolton flayed man cloak (pink, red garnets, flayed man in stiff red leather)",
+      "slug": "bolton-flayed-man-cloak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 129
+    },
+    {
+      "raw_name": "Ramsay's falchion",
+      "slug": "ramsays-falchion",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 130
+    },
+    {
+      "raw_name": "Theon's dagger",
+      "slug": "theons-dagger",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 131
+    },
+    {
+      "raw_name": "Silver goblet",
+      "slug": "silver-goblet",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 132
+    },
+    {
+      "raw_name": "King Tommen's banner (stag and lion)",
+      "slug": "king-tommens-banner",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 133
+    },
+    {
+      "raw_name": "Flayed man banner of the Dreadfort",
+      "slug": "flayed-man-banner-of-the-dreadfort",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 134
+    },
+    {
+      "raw_name": "Stark direwolf banner",
+      "slug": "stark-direwolf-banner",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 135
+    },
+    {
+      "raw_name": "Various house banners in the Great Hall",
+      "slug": "various-house-banners-in-the-great-hall",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 136
+    },
+    {
+      "raw_name": "Bride's gown (white lambswool, lace, freshwater pearls, doeskin slippers)",
+      "slug": "brides-gown",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 137
+    }
+  ]
+}

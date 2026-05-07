@@ -261,7 +261,7 @@ Pass-1 mechanical extractions for AGOT live at `extractions/mechanical/agot/agot
 
 ## Reference
 
-- Session 29 detail: `working/session-details/session-029.md`
+- Session 29 detail: `history/session-details/session-029.md`
 - Stage 3 pipeline runbook: `working/runbooks/wiki-pass2-pipeline.md` (canonical reference for Stage 3 conventions Stage 4 should follow)
 - Architecture (locked vocabulary): `reference/architecture.md` § "Edge Types"
 - Cross-references index: `scripts/wiki-pass2-build-cross-refs.py` + outputs under `working/wiki-parsed/`
@@ -269,7 +269,7 @@ Pass-1 mechanical extractions for AGOT live at `extractions/mechanical/agot/agot
 - Chronology data: `working/wiki-parsed/chronology-events.jsonl` (Session 29; 2,245 events, awaits v2 temporal-edge schema)
 - Original Stage 4 design draft (Session 24): `progress/continue-prompts/2026-04-27-wiki-pass2-stage4-edge-discovery.md` (DELETE this file once Stage 4 v1 ships — it's superseded by this prompt)
 - AGOT extractions: `extractions/mechanical/agot/agot-{pov}-{NN}.extraction.md` (73 files; only book complete)
-- Schema-drift audit baseline: `working/audits/schema-drift-2026-05-02.md` (the audit Stage 4 must not break)
+- Schema-drift audit baseline: `working/audits/schema-drift-2026-05-02/execution/schema-drift-2026-05-02.md` (the audit Stage 4 must not break)
 
 ---
 

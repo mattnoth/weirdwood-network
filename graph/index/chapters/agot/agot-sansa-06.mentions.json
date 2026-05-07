@@ -1,0 +1,1024 @@
+{
+  "chapter_id": "agot-sansa-06",
+  "book": "agot",
+  "pov_character": "sansa",
+  "generated_at": "2026-05-07T02:06:34.328619+00:00",
+  "extraction_path": "extractions/mechanical/agot/agot-sansa-06.extraction.md",
+  "stats": {
+    "total_mentions": 112,
+    "resolved_to_node": 81,
+    "direct": 81,
+    "alias": 0,
+    "unresolved": 31
+  },
+  "mentions": [
+    {
+      "raw_name": "Sansa Stark",
+      "slug": "sansa-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sansa-stark.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Joffrey Baratheon",
+      "slug": "joffrey-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/joffrey-baratheon.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Sandor Clegane (the Hound)",
+      "slug": "sandor-clegane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sandor-clegane.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Ser Meryn Trant",
+      "slug": "meryn-trant",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meryn-trant.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Ser Arys Oakheart",
+      "slug": "arys-oakheart",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/arys-oakheart.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Grand Maester Pycelle",
+      "slug": "pycelle",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/pycelle.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Janos Slynt",
+      "slug": "janos-slynt",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/janos-slynt.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Cersei Lannister",
+      "slug": "cersei-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cersei-lannister.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Lord Petyr Baelish (Littlefinger)",
+      "slug": "petyr-baelish",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/petyr-baelish.node.md",
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Ser Ilyn Payne",
+      "slug": "ilyn-payne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ilyn-payne.node.md",
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "Unnamed tavern singer",
+      "slug": "unnamed-tavern-singer",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 37
+    },
+    {
+      "raw_name": "Sansa Stark",
+      "slug": "sansa-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sansa-stark.node.md",
+      "section": "Character Appearances",
+      "line": 42
+    },
+    {
+      "raw_name": "Joffrey Baratheon",
+      "slug": "joffrey-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/joffrey-baratheon.node.md",
+      "section": "Character Appearances",
+      "line": 43
+    },
+    {
+      "raw_name": "Sandor Clegane",
+      "slug": "sandor-clegane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sandor-clegane.node.md",
+      "section": "Character Appearances",
+      "line": 44
+    },
+    {
+      "raw_name": "Ser Meryn Trant",
+      "slug": "meryn-trant",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meryn-trant.node.md",
+      "section": "Character Appearances",
+      "line": 45
+    },
+    {
+      "raw_name": "Janos Slynt",
+      "slug": "janos-slynt",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/janos-slynt.node.md",
+      "section": "Character Appearances",
+      "line": 46
+    },
+    {
+      "raw_name": "Ser Ilyn Payne",
+      "slug": "ilyn-payne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ilyn-payne.node.md",
+      "section": "Character Appearances",
+      "line": 47
+    },
+    {
+      "raw_name": "Eddard Stark (Father)",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 52
+    },
+    {
+      "raw_name": "Septa Mordane",
+      "slug": "mordane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mordane.node.md",
+      "section": "Characters Referenced",
+      "line": 53
+    },
+    {
+      "raw_name": "Robert Baratheon",
+      "slug": "robert-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robert-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 54
+    },
+    {
+      "raw_name": "Stannis Baratheon",
+      "slug": "stannis-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stannis-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 55
+    },
+    {
+      "raw_name": "Renly Baratheon",
+      "slug": "renly-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/renly-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 56
+    },
+    {
+      "raw_name": "Robb Stark",
+      "slug": "robb-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "Jaime Lannister",
+      "slug": "jaime-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaime-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "Cersei Lannister",
+      "slug": "cersei-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cersei-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "The gold cloaks",
+      "slug": "the-gold-cloaks",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "Maegor's Holdfast (tower room)",
+      "slug": "maegors-holdfast",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/maegors-holdfast.node.md",
+      "section": "Locations",
+      "line": 65
+    },
+    {
+      "raw_name": "Red Keep",
+      "slug": "red-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-keep.node.md",
+      "section": "Locations",
+      "line": 66
+    },
+    {
+      "raw_name": "Throne room",
+      "slug": "throne-room",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 67
+    },
+    {
+      "raw_name": "Iron Throne",
+      "slug": "iron-throne",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/iron-throne.node.md",
+      "section": "Locations",
+      "line": 68
+    },
+    {
+      "raw_name": "Balcony (throne room)",
+      "slug": "balcony",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 69
+    },
+    {
+      "raw_name": "Practice yard",
+      "slug": "practice-yard",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 70
+    },
+    {
+      "raw_name": "Gatehouse",
+      "slug": "gatehouse",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 71
+    },
+    {
+      "raw_name": "Battlements/wallwalk",
+      "slug": "battlements-wallwalk",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 72
+    },
+    {
+      "raw_name": "Great Sept of Baelor",
+      "slug": "great-sept-of-baelor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/great-sept-of-baelor.node.md",
+      "section": "Locations",
+      "line": 73
+    },
+    {
+      "raw_name": "Dragonpit",
+      "slug": "dragonpit",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dragonpit.node.md",
+      "section": "Locations",
+      "line": 74
+    },
+    {
+      "raw_name": "Gate of the Gods",
+      "slug": "gate-of-the-gods",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/gate-of-the-gods.node.md",
+      "section": "Locations",
+      "line": 75
+    },
+    {
+      "raw_name": "Street of the Sisters",
+      "slug": "street-of-the-sisters",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/street-of-the-sisters.node.md",
+      "section": "Locations",
+      "line": 76
+    },
+    {
+      "raw_name": "Blackwater Rush",
+      "slug": "blackwater-rush",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/blackwater-rush.node.md",
+      "section": "Locations",
+      "line": 77
+    },
+    {
+      "raw_name": "Fish market and docks",
+      "slug": "fish-market-and-docks",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 78
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Locations",
+      "line": 79
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Locations",
+      "line": 80
+    },
+    {
+      "raw_name": "Sansa's tower room (Maegor's Holdfast)",
+      "slug": "sansas-tower-room",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 85
+    },
+    {
+      "raw_name": "Battlements/wallwalk",
+      "slug": "battlements-wallwalk",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 86
+    },
+    {
+      "raw_name": "Great Sept of Baelor",
+      "slug": "great-sept-of-baelor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/great-sept-of-baelor.node.md",
+      "section": "Location Descriptions",
+      "line": 87
+    },
+    {
+      "raw_name": "Dragonpit",
+      "slug": "dragonpit",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dragonpit.node.md",
+      "section": "Location Descriptions",
+      "line": 88
+    },
+    {
+      "raw_name": "Red Keep",
+      "slug": "red-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-keep.node.md",
+      "section": "Location Descriptions",
+      "line": 89
+    },
+    {
+      "raw_name": "Ice",
+      "slug": "ice",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/ice.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 94
+    },
+    {
+      "raw_name": "Iron Throne",
+      "slug": "iron-throne",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/iron-throne.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 95
+    },
+    {
+      "raw_name": "Tarred heads on iron spikes",
+      "slug": "tarred-heads-on-iron-spikes",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 96
+    },
+    {
+      "raw_name": "Woodharp",
+      "slug": "woodharp",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 97
+    },
+    {
+      "raw_name": "Sansa Stark",
+      "slug": "sansa-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sansa-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 230
+    },
+    {
+      "raw_name": "Joffrey Baratheon",
+      "slug": "joffrey-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/joffrey-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 231
+    },
+    {
+      "raw_name": "Sandor Clegane (the Hound)",
+      "slug": "sandor-clegane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sandor-clegane.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 232
+    },
+    {
+      "raw_name": "Ser Meryn Trant",
+      "slug": "meryn-trant",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meryn-trant.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 233
+    },
+    {
+      "raw_name": "Ser Arys Oakheart",
+      "slug": "arys-oakheart",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/arys-oakheart.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 234
+    },
+    {
+      "raw_name": "Ser Ilyn Payne",
+      "slug": "ilyn-payne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ilyn-payne.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 235
+    },
+    {
+      "raw_name": "Grand Maester Pycelle",
+      "slug": "pycelle",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/pycelle.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 236
+    },
+    {
+      "raw_name": "Cersei Lannister",
+      "slug": "cersei-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cersei-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 237
+    },
+    {
+      "raw_name": "Janos Slynt",
+      "slug": "janos-slynt",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/janos-slynt.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 238
+    },
+    {
+      "raw_name": "Lord Petyr Baelish (Littlefinger)",
+      "slug": "petyr-baelish",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/petyr-baelish.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 239
+    },
+    {
+      "raw_name": "Eddard Stark",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 240
+    },
+    {
+      "raw_name": "Septa Mordane",
+      "slug": "mordane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mordane.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 241
+    },
+    {
+      "raw_name": "Robert Baratheon",
+      "slug": "robert-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robert-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 242
+    },
+    {
+      "raw_name": "Robb Stark",
+      "slug": "robb-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 243
+    },
+    {
+      "raw_name": "Jaime Lannister",
+      "slug": "jaime-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaime-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 244
+    },
+    {
+      "raw_name": "Stannis Baratheon",
+      "slug": "stannis-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stannis-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 245
+    },
+    {
+      "raw_name": "Renly Baratheon",
+      "slug": "renly-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/renly-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 246
+    },
+    {
+      "raw_name": "Unnamed tavern singer",
+      "slug": "unnamed-tavern-singer",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 247
+    },
+    {
+      "raw_name": "Unnamed thief (hand chopped off)",
+      "slug": "unnamed-thief",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 248
+    },
+    {
+      "raw_name": "Unnamed woman (sent to dungeons for loving a traitor)",
+      "slug": "unnamed-woman",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 249
+    },
+    {
+      "raw_name": "Two unnamed knights (land dispute)",
+      "slug": "two-unnamed-knights",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 250
+    },
+    {
+      "raw_name": "Red Keep",
+      "slug": "red-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-keep.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 253
+    },
+    {
+      "raw_name": "Maegor's Holdfast (tower room / Sansa's bedchamber)",
+      "slug": "maegors-holdfast",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/maegors-holdfast.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 254
+    },
+    {
+      "raw_name": "Throne room",
+      "slug": "throne-room",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 255
+    },
+    {
+      "raw_name": "Iron Throne (seat)",
+      "slug": "iron-throne",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/iron-throne.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 256
+    },
+    {
+      "raw_name": "Balcony (overlooking throne room)",
+      "slug": "balcony",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 257
+    },
+    {
+      "raw_name": "Practice yard",
+      "slug": "practice-yard",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 258
+    },
+    {
+      "raw_name": "Gatehouse",
+      "slug": "gatehouse",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 259
+    },
+    {
+      "raw_name": "Battlements / wallwalk",
+      "slug": "battlements-wallwalk",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 260
+    },
+    {
+      "raw_name": "Great Sept of Baelor",
+      "slug": "great-sept-of-baelor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/great-sept-of-baelor.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 261
+    },
+    {
+      "raw_name": "Visenya's Hill",
+      "slug": "visenyas-hill",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/visenyas-hill.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 262
+    },
+    {
+      "raw_name": "Dragonpit",
+      "slug": "dragonpit",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dragonpit.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 263
+    },
+    {
+      "raw_name": "Gate of the Gods",
+      "slug": "gate-of-the-gods",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/gate-of-the-gods.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 264
+    },
+    {
+      "raw_name": "Street of the Sisters",
+      "slug": "street-of-the-sisters",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/street-of-the-sisters.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 265
+    },
+    {
+      "raw_name": "Blackwater Rush",
+      "slug": "blackwater-rush",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/blackwater-rush.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 266
+    },
+    {
+      "raw_name": "Fish market and docks",
+      "slug": "fish-market-and-docks",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 267
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 268
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 269
+    },
+    {
+      "raw_name": "Dungeons (gold cloaks drag woman there)",
+      "slug": "dungeons",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 270
+    },
+    {
+      "raw_name": "House Baratheon (Joffrey as king)",
+      "slug": "house-baratheon",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-baratheon.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 273
+    },
+    {
+      "raw_name": "House Stark (Sansa, Eddard, Robb)",
+      "slug": "house-stark",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-stark.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 274
+    },
+    {
+      "raw_name": "House Lannister (Cersei, Jaime, Joffrey's doublet patterned with lions)",
+      "slug": "house-lannister",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-lannister.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 275
+    },
+    {
+      "raw_name": "House Clegane (Sandor)",
+      "slug": "house-clegane",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-clegane.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 276
+    },
+    {
+      "raw_name": "Kingsguard (Ser Meryn Trant, Ser Arys Oakheart; white satin cloaks, white armor)",
+      "slug": "kingsguard",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/kingsguard.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 279
+    },
+    {
+      "raw_name": "Gold cloaks (city watch; recalled flinging Eddard down; drag woman to dungeons)",
+      "slug": "gold-cloaks",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 280
+    },
+    {
+      "raw_name": "The court / small council (Baelish, Pycelle, Cersei resolving cases)",
+      "slug": "the-court-small-council",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 281
+    },
+    {
+      "raw_name": "Faith of the Seven (Septa Mordane described as \"god-sworn\"; Great Sept of Baelor)",
+      "slug": "faith-of-the-seven",
+      "resolved_via": "direct",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/faith-of-the-seven.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 284
+    },
+    {
+      "raw_name": "Ice (Stark greatsword, used by Ser Ilyn)",
+      "slug": "ice",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/ice.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 290
+    },
+    {
+      "raw_name": "Iron Throne",
+      "slug": "iron-throne",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/iron-throne.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 291
+    },
+    {
+      "raw_name": "Tarred heads on iron spikes (including Eddard Stark's and Septa Mordane's)",
+      "slug": "tarred-heads-on-iron-spikes",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 292
+    },
+    {
+      "raw_name": "Woodharp (tavern singer's instrument)",
+      "slug": "woodharp",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 293
+    },
+    {
+      "raw_name": "Sleeping potion (honeywater and herbs, from Pycelle)",
+      "slug": "sleeping-potion",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 294
+    },
+    {
+      "raw_name": "The tavern singer's song about Robert fighting with a pig (mocking song about King Robert and the boar; some verses sound like they could be about the queen)",
+      "slug": "the-tavern-singers-song-about-robert-fighting-with-a-pig",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 297
+    },
+    {
+      "raw_name": "War of the Five Kings (implied — Robb's defeat of Jaime, Stannis and Renly as threats, Cersei's concern about attacks on King's Landing)",
+      "slug": "war-of-the-five-kings",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/war-of-the-five-kings.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 303
+    },
+    {
+      "raw_name": "King (Joffrey insists on the title; corrects \"my lord\" / \"my prince\" to \"Your Grace\")",
+      "slug": "king",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/king.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 306
+    },
+    {
+      "raw_name": "Queen / Queen Mother (Cersei)",
+      "slug": "queen-queen-mother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 307
+    },
+    {
+      "raw_name": "King's Justice (Ser Ilyn Payne)",
+      "slug": "kings-justice",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/kings-justice.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 308
+    },
+    {
+      "raw_name": "Grand Maester (Pycelle)",
+      "slug": "grand-maester",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/grand-maester.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 309
+    },
+    {
+      "raw_name": "Kingsguard knight (Ser Meryn, Ser Arys)",
+      "slug": "kingsguard-knight",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 310
+    },
+    {
+      "raw_name": "Lord (Janos Slynt — recently elevated)",
+      "slug": "lord",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 311
+    },
+    {
+      "raw_name": "Hand of the King (not explicitly mentioned but Baelish and Pycelle on council)",
+      "slug": "hand-of-the-king",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/hand-of-the-king.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 312
+    }
+  ]
+}

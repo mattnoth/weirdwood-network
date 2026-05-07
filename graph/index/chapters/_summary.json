@@ -1,0 +1,103 @@
+{
+  "generated_at": "2026-05-07T02:06:34.543310+00:00",
+  "books_processed": [
+    "agot",
+    "acok",
+    "asos",
+    "affc",
+    "adwd"
+  ],
+  "dry_run": false,
+  "chapters_processed": 344,
+  "total_mentions": 37222,
+  "resolved": 26064,
+  "direct": 24783,
+  "alias": 1281,
+  "unresolved": 11158,
+  "resolution_rate_pct": 70.0,
+  "direct_pct": 66.6,
+  "alias_pct": 3.4,
+  "unresolved_pct": 30.0,
+  "top_unresolved": [
+    {
+      "slug": "maester-aemon",
+      "count": 57
+    },
+    {
+      "slug": "joffrey",
+      "count": 47
+    },
+    {
+      "slug": "ned-stark",
+      "count": 42
+    },
+    {
+      "slug": "the-narrow-sea",
+      "count": 40
+    },
+    {
+      "slug": "godswood",
+      "count": 36
+    },
+    {
+      "slug": "the-vale",
+      "count": 33
+    },
+    {
+      "slug": "flea-bottom",
+      "count": 31
+    },
+    {
+      "slug": "prince-aemon-the-dragonknight",
+      "count": 29
+    },
+    {
+      "slug": "thoros-of-myr",
+      "count": 28
+    },
+    {
+      "slug": "aegon",
+      "count": 27
+    },
+    {
+      "slug": "brienne",
+      "count": 27
+    },
+    {
+      "slug": "the-haunted-forest",
+      "count": 24
+    },
+    {
+      "slug": "great-pyramid-of-meereen",
+      "count": 24
+    },
+    {
+      "slug": "eastwatch",
+      "count": 23
+    },
+    {
+      "slug": "the-blackwater",
+      "count": 23
+    },
+    {
+      "slug": "old-gods",
+      "count": 22
+    },
+    {
+      "slug": "lady-tanda",
+      "count": 22
+    },
+    {
+      "slug": "little-walder-frey",
+      "count": 22
+    },
+    {
+      "slug": "dothraki-sea",
+      "count": 21
+    },
+    {
+      "slug": "tormund-giantsbane",
+      "count": 21
+    }
+  ]
+}

@@ -1,0 +1,736 @@
+{
+  "chapter_id": "agot-jon-07",
+  "book": "agot",
+  "pov_character": "jon",
+  "generated_at": "2026-05-07T02:06:34.323664+00:00",
+  "extraction_path": "extractions/mechanical/agot/agot-jon-07.extraction.md",
+  "stats": {
+    "total_mentions": 80,
+    "resolved_to_node": 56,
+    "direct": 54,
+    "alias": 2,
+    "unresolved": 24
+  },
+  "mentions": [
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Ghost",
+      "slug": "ghost",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ghost.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Jeor Mormont (the Old Bear)",
+      "slug": "jeor-mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jeor-mormont.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Samwell Tarly",
+      "slug": "samwell-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Ser Jaremy Rykker",
+      "slug": "jaremy-rykker",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaremy-rykker.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Dywen",
+      "slug": "dywen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dywen.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Chett",
+      "slug": "chett",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/chett.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Ser Alliser Thorne",
+      "slug": "alliser-thorne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alliser-thorne.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Pyp",
+      "slug": "pypar",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/pypar.node.md",
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Grenn",
+      "slug": "grenn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/grenn.node.md",
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "Sam (duplicate with Samwell Tarly above)",
+      "slug": "sam",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 37
+    },
+    {
+      "raw_name": "Bowen Marsh",
+      "slug": "bowen-marsh",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bowen-marsh.node.md",
+      "section": "Characters Present",
+      "line": 38
+    },
+    {
+      "raw_name": "Hake",
+      "slug": "hake",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hake.node.md",
+      "section": "Characters Present",
+      "line": 39
+    },
+    {
+      "raw_name": "Donal Noye",
+      "slug": "donal-noye",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/donal-noye.node.md",
+      "section": "Characters Present",
+      "line": 40
+    },
+    {
+      "raw_name": "Matthar",
+      "slug": "matthar",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/matthar.node.md",
+      "section": "Characters Present",
+      "line": 41
+    },
+    {
+      "raw_name": "Toad (Todder)",
+      "slug": "todder",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/todder.node.md",
+      "section": "Characters Present",
+      "line": 42
+    },
+    {
+      "raw_name": "Hobb",
+      "slug": "hobb",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 43
+    },
+    {
+      "raw_name": "Mormont's raven",
+      "slug": "mormonts-raven",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mormonts-raven.node.md",
+      "section": "Characters Present",
+      "line": 44
+    },
+    {
+      "raw_name": "Ketter",
+      "slug": "ketter",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ketter.node.md",
+      "section": "Characters Present",
+      "line": 45
+    },
+    {
+      "raw_name": "Bass",
+      "slug": "bass",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bass.node.md",
+      "section": "Characters Present",
+      "line": 46
+    },
+    {
+      "raw_name": "Samwell Tarly",
+      "slug": "samwell-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
+      "section": "Character Appearances",
+      "line": 51
+    },
+    {
+      "raw_name": "Jeor Mormont",
+      "slug": "jeor-mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jeor-mormont.node.md",
+      "section": "Character Appearances",
+      "line": 52
+    },
+    {
+      "raw_name": "Othor (corpse)",
+      "slug": "othor",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/othor.node.md",
+      "section": "Character Appearances",
+      "line": 53
+    },
+    {
+      "raw_name": "Jafer Flowers (corpse)",
+      "slug": "jafer-flowers",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jafer-flowers.node.md",
+      "section": "Character Appearances",
+      "line": 54
+    },
+    {
+      "raw_name": "Ghost",
+      "slug": "ghost",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ghost.node.md",
+      "section": "Character Appearances",
+      "line": 55
+    },
+    {
+      "raw_name": "Ser Alliser Thorne",
+      "slug": "alliser-thorne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alliser-thorne.node.md",
+      "section": "Character Appearances",
+      "line": 56
+    },
+    {
+      "raw_name": "Donal Noye",
+      "slug": "donal-noye",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/donal-noye.node.md",
+      "section": "Character Appearances",
+      "line": 57
+    },
+    {
+      "raw_name": "Othor (wight)",
+      "slug": "othor",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/othor.node.md",
+      "section": "Character Appearances",
+      "line": 58
+    },
+    {
+      "raw_name": "Benjen Stark",
+      "slug": "benjen-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/benjen-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "Maester Aemon",
+      "slug": "maester-aemon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "Mance Rayder",
+      "slug": "mance-rayder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mance-rayder.node.md",
+      "section": "Characters Referenced",
+      "line": 65
+    },
+    {
+      "raw_name": "Old Nan",
+      "slug": "old-nan",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/old-nan.node.md",
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "Bran Stark",
+      "slug": "bran-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bran-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 67
+    },
+    {
+      "raw_name": "Robb Stark",
+      "slug": "robb-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 68
+    },
+    {
+      "raw_name": "Arya Stark",
+      "slug": "arya-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/arya-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 69
+    },
+    {
+      "raw_name": "Sansa Stark",
+      "slug": "sansa-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sansa-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 70
+    },
+    {
+      "raw_name": "Robert Baratheon",
+      "slug": "robert-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robert-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 71
+    },
+    {
+      "raw_name": "Joffrey (Baratheon)",
+      "slug": "joffrey",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 72
+    },
+    {
+      "raw_name": "Lord Eddard Stark",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 73
+    },
+    {
+      "raw_name": "Tyrion Lannister",
+      "slug": "tyrion-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tyrion-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 74
+    },
+    {
+      "raw_name": "Catelyn Stark (Lady Stark)",
+      "slug": "catelyn-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/catelyn-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 75
+    },
+    {
+      "raw_name": "Jon's mother",
+      "slug": "jons-mother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 76
+    },
+    {
+      "raw_name": "Rickon Stark",
+      "slug": "rickon-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rickon-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 77
+    },
+    {
+      "raw_name": "Lady (direwolf)",
+      "slug": "lady",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lady.node.md",
+      "section": "Characters Referenced",
+      "line": 78
+    },
+    {
+      "raw_name": "Nymeria (direwolf)",
+      "slug": "nymeria",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/nymeria.node.md",
+      "section": "Characters Referenced",
+      "line": 79
+    },
+    {
+      "raw_name": "Ser Rodrik Cassel",
+      "slug": "rodrik-cassel",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rodrik-cassel.node.md",
+      "section": "Characters Referenced",
+      "line": 80
+    },
+    {
+      "raw_name": "Grand Maester Pycelle",
+      "slug": "pycelle",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/pycelle.node.md",
+      "section": "Characters Referenced",
+      "line": 81
+    },
+    {
+      "raw_name": "Lord Stannis Baratheon",
+      "slug": "stannis-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stannis-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 82
+    },
+    {
+      "raw_name": "Ser Barristan Selmy",
+      "slug": "barristan-selmy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/barristan-selmy.node.md",
+      "section": "Characters Referenced",
+      "line": 83
+    },
+    {
+      "raw_name": "Jorah Mormont",
+      "slug": "jorah-mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jorah-mormont.node.md",
+      "section": "Characters Referenced",
+      "line": 84
+    },
+    {
+      "raw_name": "Clydas",
+      "slug": "clydas",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/clydas.node.md",
+      "section": "Characters Referenced",
+      "line": 85
+    },
+    {
+      "raw_name": "Lord Randyll Tarly",
+      "slug": "randyll-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/randyll-tarly.node.md",
+      "section": "Characters Referenced",
+      "line": 86
+    },
+    {
+      "raw_name": "The Others",
+      "slug": "others",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/others.node.md",
+      "section": "Characters Referenced",
+      "line": 87
+    },
+    {
+      "raw_name": "The queen (Cersei Lannister)",
+      "slug": "queen",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/queen.node.md",
+      "section": "Characters Referenced",
+      "line": 88
+    },
+    {
+      "raw_name": "The haunted forest (woods beyond the Wall)",
+      "slug": "the-haunted-forest",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 93
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Locations",
+      "line": 94
+    },
+    {
+      "raw_name": "Castle Black",
+      "slug": "castle-black",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/castle-black.node.md",
+      "section": "Locations",
+      "line": 95
+    },
+    {
+      "raw_name": "Lord Commander's Tower / Mormont's solar",
+      "slug": "lord-commanders-tower-mormonts-solar",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 96
+    },
+    {
+      "raw_name": "Common hall",
+      "slug": "common-hall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/common-hall.node.md",
+      "section": "Locations",
+      "line": 97
+    },
+    {
+      "raw_name": "Stables",
+      "slug": "stables",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 98
+    },
+    {
+      "raw_name": "Storeroom at base of the Wall",
+      "slug": "storeroom-at-base-of-the-wall",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 99
+    },
+    {
+      "raw_name": "Jon's sleeping cell",
+      "slug": "jons-sleeping-cell",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 100
+    },
+    {
+      "raw_name": "Maester Aemon's tower",
+      "slug": "maester-aemons-tower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/maester-aemons-tower.node.md",
+      "section": "Locations",
+      "line": 101
+    },
+    {
+      "raw_name": "The armory",
+      "slug": "the-armory",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 102
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Locations",
+      "line": 103
+    },
+    {
+      "raw_name": "Winterfell crypts",
+      "slug": "winterfell-crypts",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 104
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Locations",
+      "line": 105
+    },
+    {
+      "raw_name": "The weirwoods (beyond the Wall)",
+      "slug": "the-weirwoods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 106
+    },
+    {
+      "raw_name": "The haunted forest",
+      "slug": "the-haunted-forest",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 111
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Location Descriptions",
+      "line": 112
+    },
+    {
+      "raw_name": "Storeroom at base of the Wall",
+      "slug": "storeroom-at-base-of-the-wall",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 113
+    },
+    {
+      "raw_name": "Lord Commander's solar",
+      "slug": "lord-commanders-solar",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 114
+    },
+    {
+      "raw_name": "Jon's sleeping cell",
+      "slug": "jons-sleeping-cell",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 115
+    },
+    {
+      "raw_name": "Severed hand of Jafer Flowers",
+      "slug": "severed-hand-of-jafer-flowers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 120
+    },
+    {
+      "raw_name": "Othor's hunting horn",
+      "slug": "othors-hunting-horn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 121
+    },
+    {
+      "raw_name": "The letter (raven message)",
+      "slug": "the-letter",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 122
+    },
+    {
+      "raw_name": "Jon's dagger",
+      "slug": "jons-dagger",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 123
+    },
+    {
+      "raw_name": "The guard's sword (longsword)",
+      "slug": "the-guards-sword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 124
+    },
+    {
+      "raw_name": "Oil lamp",
+      "slug": "oil-lamp",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 125
+    },
+    {
+      "raw_name": "Watchman's great horn",
+      "slug": "watchmans-great-horn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 126
+    }
+  ]
+}

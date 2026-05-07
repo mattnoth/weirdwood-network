@@ -1,0 +1,952 @@
+{
+  "chapter_id": "asos-tyrion-07",
+  "book": "asos",
+  "pov_character": "tyrion",
+  "generated_at": "2026-05-07T02:06:34.441607+00:00",
+  "extraction_path": "extractions/mechanical/asos/asos-tyrion-07.extraction.md",
+  "stats": {
+    "total_mentions": 104,
+    "resolved_to_node": 76,
+    "direct": 75,
+    "alias": 1,
+    "unresolved": 28
+  },
+  "mentions": [
+    {
+      "raw_name": "Tyrion Lannister",
+      "slug": "tyrion-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tyrion-lannister.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Sansa Stark",
+      "slug": "sansa-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sansa-stark.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Shae",
+      "slug": "shae",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/shae.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Brella",
+      "slug": "brella",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brella.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Tyrion Lannister",
+      "slug": "tyrion-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tyrion-lannister.node.md",
+      "section": "Character Appearances",
+      "line": 35
+    },
+    {
+      "raw_name": "Shae",
+      "slug": "shae",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/shae.node.md",
+      "section": "Character Appearances",
+      "line": 36
+    },
+    {
+      "raw_name": "Robb Stark",
+      "slug": "robb-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 41
+    },
+    {
+      "raw_name": "Catelyn Stark",
+      "slug": "catelyn-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/catelyn-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 42
+    },
+    {
+      "raw_name": "Grey Wind",
+      "slug": "grey-wind",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/grey-wind.node.md",
+      "section": "Characters Referenced",
+      "line": 43
+    },
+    {
+      "raw_name": "Tywin Lannister",
+      "slug": "tywin-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tywin-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 44
+    },
+    {
+      "raw_name": "Cersei Lannister",
+      "slug": "cersei-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cersei-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 45
+    },
+    {
+      "raw_name": "Joffrey Baratheon",
+      "slug": "joffrey-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/joffrey-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 46
+    },
+    {
+      "raw_name": "Varys",
+      "slug": "varys",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/varys.node.md",
+      "section": "Characters Referenced",
+      "line": 47
+    },
+    {
+      "raw_name": "Lord Gyles",
+      "slug": "lord-gyles",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 48
+    },
+    {
+      "raw_name": "Podrick Payne (Pod)",
+      "slug": "podrick-payne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/podrick-payne.node.md",
+      "section": "Characters Referenced",
+      "line": 49
+    },
+    {
+      "raw_name": "Bronn",
+      "slug": "bronn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bronn.node.md",
+      "section": "Characters Referenced",
+      "line": 50
+    },
+    {
+      "raw_name": "Ser Tallad",
+      "slug": "tallad",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tallad.node.md",
+      "section": "Characters Referenced",
+      "line": 51
+    },
+    {
+      "raw_name": "Lady Tanda",
+      "slug": "lady-tanda",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 52
+    },
+    {
+      "raw_name": "Lollys",
+      "slug": "lollys",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 53
+    },
+    {
+      "raw_name": "Pycelle",
+      "slug": "pycelle",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/pycelle.node.md",
+      "section": "Characters Referenced",
+      "line": 54
+    },
+    {
+      "raw_name": "Petyr Baelish (Littlefinger)",
+      "slug": "petyr-baelish",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/petyr-baelish.node.md",
+      "section": "Characters Referenced",
+      "line": 55
+    },
+    {
+      "raw_name": "Oberyn Martell (The Red Viper of Dorne)",
+      "slug": "oberyn-martell",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/oberyn-martell.node.md",
+      "section": "Characters Referenced",
+      "line": 56
+    },
+    {
+      "raw_name": "The Tyrells",
+      "slug": "the-tyrells",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "Eddard Stark",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "Chataya",
+      "slug": "chataya",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/chataya.node.md",
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "Renly Baratheon",
+      "slug": "renly-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/renly-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 61
+    },
+    {
+      "raw_name": "The Freys",
+      "slug": "the-freys",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 62
+    },
+    {
+      "raw_name": "Kitchen Keep",
+      "slug": "kitchen-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kitchen-keep.node.md",
+      "section": "Locations",
+      "line": 67
+    },
+    {
+      "raw_name": "Dragon skull cellar",
+      "slug": "dragon-skull-cellar",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 68
+    },
+    {
+      "raw_name": "Maegor's Holdfast",
+      "slug": "maegors-holdfast",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/maegors-holdfast.node.md",
+      "section": "Locations",
+      "line": 69
+    },
+    {
+      "raw_name": "Godswood (Red Keep)",
+      "slug": "godswood",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 70
+    },
+    {
+      "raw_name": "Red Keep",
+      "slug": "red-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-keep.node.md",
+      "section": "Locations",
+      "line": 71
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Locations",
+      "line": 72
+    },
+    {
+      "raw_name": "The Twins",
+      "slug": "twins",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/twins.node.md",
+      "section": "Locations",
+      "line": 73
+    },
+    {
+      "raw_name": "Green Fork",
+      "slug": "green-fork",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/green-fork.node.md",
+      "section": "Locations",
+      "line": 74
+    },
+    {
+      "raw_name": "Chataya's brothel",
+      "slug": "chatayas-brothel",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 75
+    },
+    {
+      "raw_name": "Kitchen Keep (apartments)",
+      "slug": "kitchen-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kitchen-keep.node.md",
+      "section": "Location Descriptions",
+      "line": 80
+    },
+    {
+      "raw_name": "Dragon skull cellar",
+      "slug": "dragon-skull-cellar",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 81
+    },
+    {
+      "raw_name": "Underground passages",
+      "slug": "underground-passages",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 82
+    },
+    {
+      "raw_name": "Dragon skulls (Targaryen)",
+      "slug": "dragon-skulls",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 87
+    },
+    {
+      "raw_name": "Lion's head brooch",
+      "slug": "lions-head-brooch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 88
+    },
+    {
+      "raw_name": "Tyrion's marriage cloak",
+      "slug": "tyrions-marriage-cloak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 89
+    },
+    {
+      "raw_name": "Tyrion Lannister",
+      "slug": "tyrion-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tyrion-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 212
+    },
+    {
+      "raw_name": "Sansa Stark",
+      "slug": "sansa-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sansa-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 213
+    },
+    {
+      "raw_name": "Shae",
+      "slug": "shae",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/shae.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 214
+    },
+    {
+      "raw_name": "Brella",
+      "slug": "brella",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brella.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 215
+    },
+    {
+      "raw_name": "Robb Stark",
+      "slug": "robb-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 216
+    },
+    {
+      "raw_name": "Catelyn Stark",
+      "slug": "catelyn-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/catelyn-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 217
+    },
+    {
+      "raw_name": "Grey Wind",
+      "slug": "grey-wind",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/grey-wind.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 218
+    },
+    {
+      "raw_name": "Tywin Lannister",
+      "slug": "tywin-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tywin-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 219
+    },
+    {
+      "raw_name": "Cersei Lannister",
+      "slug": "cersei-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cersei-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 220
+    },
+    {
+      "raw_name": "Joffrey Baratheon",
+      "slug": "joffrey-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/joffrey-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 221
+    },
+    {
+      "raw_name": "Varys",
+      "slug": "varys",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/varys.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 222
+    },
+    {
+      "raw_name": "Lord Gyles (Rosby)",
+      "slug": "lord-gyles",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 223
+    },
+    {
+      "raw_name": "Podrick Payne (Pod)",
+      "slug": "podrick-payne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/podrick-payne.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 224
+    },
+    {
+      "raw_name": "Bronn",
+      "slug": "bronn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bronn.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 225
+    },
+    {
+      "raw_name": "Ser Tallad",
+      "slug": "tallad",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tallad.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 226
+    },
+    {
+      "raw_name": "Lady Tanda",
+      "slug": "lady-tanda",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 227
+    },
+    {
+      "raw_name": "Lollys",
+      "slug": "lollys",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 228
+    },
+    {
+      "raw_name": "Pycelle",
+      "slug": "pycelle",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/pycelle.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 229
+    },
+    {
+      "raw_name": "Petyr Baelish (Littlefinger)",
+      "slug": "petyr-baelish",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/petyr-baelish.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 230
+    },
+    {
+      "raw_name": "Oberyn Martell (the Red Viper of Dorne)",
+      "slug": "oberyn-martell",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/oberyn-martell.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 231
+    },
+    {
+      "raw_name": "Eddard Stark",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 232
+    },
+    {
+      "raw_name": "Jon Snow (implied — \"bastard brother\" not named)",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 233
+    },
+    {
+      "raw_name": "Chataya",
+      "slug": "chataya",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/chataya.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 234
+    },
+    {
+      "raw_name": "Renly Baratheon",
+      "slug": "renly-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/renly-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 235
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 238
+    },
+    {
+      "raw_name": "Red Keep",
+      "slug": "red-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-keep.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 239
+    },
+    {
+      "raw_name": "Kitchen Keep",
+      "slug": "kitchen-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kitchen-keep.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 240
+    },
+    {
+      "raw_name": "Dragon skull cellar (underground, beneath the Red Keep)",
+      "slug": "dragon-skull-cellar",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 241
+    },
+    {
+      "raw_name": "Maegor's Holdfast",
+      "slug": "maegors-holdfast",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/maegors-holdfast.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 242
+    },
+    {
+      "raw_name": "Godswood (Red Keep)",
+      "slug": "godswood",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 243
+    },
+    {
+      "raw_name": "The Twins",
+      "slug": "twins",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/twins.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 244
+    },
+    {
+      "raw_name": "Green Fork",
+      "slug": "green-fork",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/green-fork.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 245
+    },
+    {
+      "raw_name": "Chataya's brothel",
+      "slug": "chatayas-brothel",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 246
+    },
+    {
+      "raw_name": "House Lannister",
+      "slug": "house-lannister",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-lannister.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 249
+    },
+    {
+      "raw_name": "House Stark",
+      "slug": "house-stark",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-stark.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 250
+    },
+    {
+      "raw_name": "House Tully (funeral customs referenced)",
+      "slug": "house-tully",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-tully.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 251
+    },
+    {
+      "raw_name": "House Frey",
+      "slug": "house-frey",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-frey.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 252
+    },
+    {
+      "raw_name": "House Targaryen (dragon skulls)",
+      "slug": "house-targaryen",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-targaryen.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 253
+    },
+    {
+      "raw_name": "House Baratheon (Renly's household referenced)",
+      "slug": "house-baratheon",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-baratheon.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 254
+    },
+    {
+      "raw_name": "The Tyrells (referenced as a political concern)",
+      "slug": "the-tyrells",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 257
+    },
+    {
+      "raw_name": "Old Gods (Sansa prays nightly in the godswood)",
+      "slug": "old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 260
+    },
+    {
+      "raw_name": "Dragon skulls (Targaryen; Balerion and Vhagar named as possible identifications)",
+      "slug": "dragon-skulls",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 266
+    },
+    {
+      "raw_name": "Lion's head brooch (Tyrion's cloak fastener)",
+      "slug": "lions-head-brooch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 267
+    },
+    {
+      "raw_name": "Tyrion's marriage cloak (wrapped around Sansa's shoulders)",
+      "slug": "tyrions-marriage-cloak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 268
+    },
+    {
+      "raw_name": "Dreamwine (mentioned as drug/sleeping aid)",
+      "slug": "dreamwine",
+      "resolved_via": "direct",
+      "node_type": "object.food",
+      "node_path": "graph/nodes/foods/dreamwine.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 269
+    },
+    {
+      "raw_name": "Taper (candle)",
+      "slug": "taper",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 270
+    },
+    {
+      "raw_name": "Crown placed on Robb's corpse (referenced)",
+      "slug": "crown-placed-on-robbs-corpse",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 271
+    },
+    {
+      "raw_name": "The Red Wedding (aftermath — details of desecration described)",
+      "slug": "red-wedding",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/red-wedding.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 280
+    },
+    {
+      "raw_name": "Battle of the Green Fork (referenced — where Tyrion acquired Shae)",
+      "slug": "battle-of-the-green-fork",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/battle-of-the-green-fork.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 281
+    },
+    {
+      "raw_name": "Battle of the Blackwater (referenced — Tyrion survived it)",
+      "slug": "battle-of-the-blackwater",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/battle-of-the-blackwater.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 282
+    },
+    {
+      "raw_name": "War of the Five Kings (implied context)",
+      "slug": "war-of-the-five-kings",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/war-of-the-five-kings.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 283
+    },
+    {
+      "raw_name": "King (Joffrey)",
+      "slug": "king",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/king.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 286
+    },
+    {
+      "raw_name": "Lord (Lord Gyles)",
+      "slug": "lord",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 287
+    },
+    {
+      "raw_name": "Ser (Ser Tallad)",
+      "slug": "ser",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/ser.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 288
+    },
+    {
+      "raw_name": "Knight (Bronn is now a knight)",
+      "slug": "knight",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/knight.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 289
+    },
+    {
+      "raw_name": "Lady (Lady Tanda)",
+      "slug": "lady",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lady.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 290
+    },
+    {
+      "raw_name": "Queen (Cersei referred to as \"the queen\" by Varys)",
+      "slug": "queen",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/queen.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 291
+    },
+    {
+      "raw_name": "Master of Whisperers (Varys, implied — \"the Spider,\" \"little birds\")",
+      "slug": "master-of-whisperers",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/master-of-whisperers.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 292
+    },
+    {
+      "raw_name": "\"Monsters and maidens\" — a children's game referenced by Shae",
+      "slug": "monsters-and-maidens",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 295
+    },
+    {
+      "raw_name": "\"The Spider\" — Varys's epithet",
+      "slug": "varys",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/varys.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 296
+    },
+    {
+      "raw_name": "Varys's \"little birds\" — his network of informants",
+      "slug": "varyss-little-birds",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 297
+    }
+  ]
+}

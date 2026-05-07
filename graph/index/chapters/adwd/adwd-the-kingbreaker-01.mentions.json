@@ -1,0 +1,961 @@
+{
+  "chapter_id": "adwd-the-kingbreaker-01",
+  "book": "adwd",
+  "pov_character": "the-kingbreaker",
+  "generated_at": "2026-05-07T02:06:34.519192+00:00",
+  "extraction_path": "extractions/mechanical/adwd/adwd-the-kingbreaker-01.extraction.md",
+  "stats": {
+    "total_mentions": 105,
+    "resolved_to_node": 72,
+    "direct": 67,
+    "alias": 5,
+    "unresolved": 33
+  },
+  "mentions": [
+    {
+      "raw_name": "Barristan Selmy",
+      "slug": "barristan-selmy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/barristan-selmy.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Skahaz mo Kandaq (the Shavepate)",
+      "slug": "skahaz-mo-kandaq",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/skahaz-mo-kandaq.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Hizdahr zo Loraq",
+      "slug": "hizdahr-zo-loraq",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hizdahr-zo-loraq.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Khrazz",
+      "slug": "khrazz",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/khrazz.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Steelskin",
+      "slug": "steelskin",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/steelskin.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Qezza",
+      "slug": "qezza",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Draqaz",
+      "slug": "draqaz",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/draqaz.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Miklaz",
+      "slug": "miklaz",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/miklaz.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Jezhene",
+      "slug": "jezhene",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jezhene.node.md",
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Missandei",
+      "slug": "missandei",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/missandei.node.md",
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "Tumco Lho",
+      "slug": "tumco-lho",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tumco-lho.node.md",
+      "section": "Characters Present",
+      "line": 37
+    },
+    {
+      "raw_name": "Larraq (the Lash)",
+      "slug": "larraq",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/larraq.node.md",
+      "section": "Characters Present",
+      "line": 38
+    },
+    {
+      "raw_name": "Red Lamb",
+      "slug": "red-lamb",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/red-lamb.node.md",
+      "section": "Characters Present",
+      "line": 39
+    },
+    {
+      "raw_name": "Unnamed woman",
+      "slug": "unnamed-woman",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 40
+    },
+    {
+      "raw_name": "Six Brazen Beasts (locusts)",
+      "slug": "six-brazen-beasts",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 41
+    },
+    {
+      "raw_name": "Two Brazen Beasts (rat and bull)",
+      "slug": "two-brazen-beasts",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 42
+    },
+    {
+      "raw_name": "Barristan Selmy",
+      "slug": "barristan-selmy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/barristan-selmy.node.md",
+      "section": "Character Appearances",
+      "line": 47
+    },
+    {
+      "raw_name": "Skahaz mo Kandaq",
+      "slug": "skahaz-mo-kandaq",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/skahaz-mo-kandaq.node.md",
+      "section": "Character Appearances",
+      "line": 48
+    },
+    {
+      "raw_name": "Khrazz",
+      "slug": "khrazz",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/khrazz.node.md",
+      "section": "Character Appearances",
+      "line": 49
+    },
+    {
+      "raw_name": "Steelskin",
+      "slug": "steelskin",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/steelskin.node.md",
+      "section": "Character Appearances",
+      "line": 50
+    },
+    {
+      "raw_name": "Hizdahr zo Loraq",
+      "slug": "hizdahr-zo-loraq",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hizdahr-zo-loraq.node.md",
+      "section": "Character Appearances",
+      "line": 51
+    },
+    {
+      "raw_name": "Tumco Lho",
+      "slug": "tumco-lho",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tumco-lho.node.md",
+      "section": "Character Appearances",
+      "line": 52
+    },
+    {
+      "raw_name": "Ashara Dayne (in memory)",
+      "slug": "ashara-dayne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ashara-dayne.node.md",
+      "section": "Character Appearances",
+      "line": 53
+    },
+    {
+      "raw_name": "Unnamed woman",
+      "slug": "unnamed-woman",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 54
+    },
+    {
+      "raw_name": "Groleo",
+      "slug": "groleo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/groleo.node.md",
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "Daenerys Targaryen",
+      "slug": "daenerys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "Daario Naharis",
+      "slug": "daario-naharis",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/daario-naharis.node.md",
+      "section": "Characters Referenced",
+      "line": 61
+    },
+    {
+      "raw_name": "Hero",
+      "slug": "hero",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hero.node.md",
+      "section": "Characters Referenced",
+      "line": 62
+    },
+    {
+      "raw_name": "Jhogo",
+      "slug": "jhogo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jhogo.node.md",
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "Grey Worm",
+      "slug": "grey-worm",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/grey-worm.node.md",
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "Marghaz zo Loraq",
+      "slug": "marghaz-zo-loraq",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/marghaz-zo-loraq.node.md",
+      "section": "Characters Referenced",
+      "line": 65
+    },
+    {
+      "raw_name": "Reznak mo Reznak",
+      "slug": "reznak-mo-reznak",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/reznak-mo-reznak.node.md",
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "Galazza Galare (the Green Grace)",
+      "slug": "galazza-galare",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/galazza-galare.node.md",
+      "section": "Characters Referenced",
+      "line": 67
+    },
+    {
+      "raw_name": "Symon Stripeback",
+      "slug": "symon-stripeback",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/symon-stripeback.node.md",
+      "section": "Characters Referenced",
+      "line": 68
+    },
+    {
+      "raw_name": "Mollono Yos Dob",
+      "slug": "mollono-yos-dob",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mollono-yos-dob.node.md",
+      "section": "Characters Referenced",
+      "line": 69
+    },
+    {
+      "raw_name": "Marselen",
+      "slug": "marselen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/marselen.node.md",
+      "section": "Characters Referenced",
+      "line": 70
+    },
+    {
+      "raw_name": "Bloodbeard",
+      "slug": "bloodbeard",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bloodbeard.node.md",
+      "section": "Characters Referenced",
+      "line": 71
+    },
+    {
+      "raw_name": "Yurkhaz zo Yunzak",
+      "slug": "yurkhaz-zo-yunzak",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/yurkhaz-zo-yunzak.node.md",
+      "section": "Characters Referenced",
+      "line": 72
+    },
+    {
+      "raw_name": "Tywin Lannister",
+      "slug": "tywin-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tywin-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 73
+    },
+    {
+      "raw_name": "Aerys II Targaryen",
+      "slug": "aerys-ii-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aerys-ii-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 74
+    },
+    {
+      "raw_name": "Rhaegar Targaryen",
+      "slug": "rhaegar-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rhaegar-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 75
+    },
+    {
+      "raw_name": "Lyanna Stark",
+      "slug": "lyanna-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lyanna-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 76
+    },
+    {
+      "raw_name": "Ashara Dayne",
+      "slug": "ashara-dayne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ashara-dayne.node.md",
+      "section": "Characters Referenced",
+      "line": 77
+    },
+    {
+      "raw_name": "Arthur Dayne",
+      "slug": "arthur-dayne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/arthur-dayne.node.md",
+      "section": "Characters Referenced",
+      "line": 78
+    },
+    {
+      "raw_name": "Elia of Dorne",
+      "slug": "elia-martell",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/elia-martell.node.md",
+      "section": "Characters Referenced",
+      "line": 79
+    },
+    {
+      "raw_name": "Oswell Whent",
+      "slug": "oswell-whent",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/oswell-whent.node.md",
+      "section": "Characters Referenced",
+      "line": 80
+    },
+    {
+      "raw_name": "Lord Whent",
+      "slug": "whent",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/whent.node.md",
+      "section": "Characters Referenced",
+      "line": 81
+    },
+    {
+      "raw_name": "Varys",
+      "slug": "varys",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/varys.node.md",
+      "section": "Characters Referenced",
+      "line": 82
+    },
+    {
+      "raw_name": "Robert Baratheon",
+      "slug": "robert-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robert-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 83
+    },
+    {
+      "raw_name": "Daemon Blackfyre",
+      "slug": "daemon-blackfyre",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 84
+    },
+    {
+      "raw_name": "Bittersteel",
+      "slug": "aegor-rivers",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aegor-rivers.node.md",
+      "section": "Characters Referenced",
+      "line": 85
+    },
+    {
+      "raw_name": "Bloodraven",
+      "slug": "brynden-rivers",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brynden-rivers.node.md",
+      "section": "Characters Referenced",
+      "line": 86
+    },
+    {
+      "raw_name": "Shiera Seastar",
+      "slug": "shiera-seastar",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/shiera-seastar.node.md",
+      "section": "Characters Referenced",
+      "line": 87
+    },
+    {
+      "raw_name": "Prince of Dragonflies",
+      "slug": "duncan-targaryen",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/duncan-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 88
+    },
+    {
+      "raw_name": "Jenny of Oldstones",
+      "slug": "jenny-of-oldstones",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jenny-of-oldstones.node.md",
+      "section": "Characters Referenced",
+      "line": 89
+    },
+    {
+      "raw_name": "Aegon V Targaryen",
+      "slug": "aegon-v-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aegon-v-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 90
+    },
+    {
+      "raw_name": "Rhaenys Targaryen (daughter of Rhaegar)",
+      "slug": "rhaenys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rhaenys-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 91
+    },
+    {
+      "raw_name": "Aegon Targaryen (son of Rhaegar)",
+      "slug": "aegon-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aegon-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 92
+    },
+    {
+      "raw_name": "Jaime Lannister",
+      "slug": "jaime-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaime-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 93
+    },
+    {
+      "raw_name": "Quentyn Martell",
+      "slug": "quentyn-martell",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/quentyn-martell.node.md",
+      "section": "Characters Referenced",
+      "line": 94
+    },
+    {
+      "raw_name": "Barsena",
+      "slug": "barsena",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 95
+    },
+    {
+      "raw_name": "Drogon",
+      "slug": "drogon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/drogon.node.md",
+      "section": "Characters Referenced",
+      "line": 96
+    },
+    {
+      "raw_name": "Lomas Longstrider",
+      "slug": "lomas-longstrider",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lomas-longstrider.node.md",
+      "section": "Characters Referenced",
+      "line": 97
+    },
+    {
+      "raw_name": "Grazdar / Grazhar",
+      "slug": "grazdar-grazhar",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 98
+    },
+    {
+      "raw_name": "Mezzara",
+      "slug": "mezzara",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 99
+    },
+    {
+      "raw_name": "Kezmya",
+      "slug": "kezmya",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 100
+    },
+    {
+      "raw_name": "Azzak",
+      "slug": "azzak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 101
+    },
+    {
+      "raw_name": "Bhakaz",
+      "slug": "bhakaz",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 102
+    },
+    {
+      "raw_name": "Dhazzar",
+      "slug": "dhazzar",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dhazzar.node.md",
+      "section": "Characters Referenced",
+      "line": 103
+    },
+    {
+      "raw_name": "Zhak, Quazzar, Uhlez, Hazkar, Dhazak, Yherizan",
+      "slug": "zhak-quazzar-uhlez-hazkar-dhazak-yherizan",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 104
+    },
+    {
+      "raw_name": "\"The first Daenerys\"",
+      "slug": "daenerys-targaryen-daughter-of-aegon-iv",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/daenerys-targaryen-daughter-of-aegon-iv.node.md",
+      "section": "Characters Referenced",
+      "line": 105
+    },
+    {
+      "raw_name": "Great Pyramid of Meereen",
+      "slug": "great-pyramid-of-meereen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 110
+    },
+    {
+      "raw_name": "Meereen",
+      "slug": "meereen",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/meereen.node.md",
+      "section": "Locations",
+      "line": 111
+    },
+    {
+      "raw_name": "Slaver's Bay",
+      "slug": "slavers-bay",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/slavers-bay.node.md",
+      "section": "Locations",
+      "line": 112
+    },
+    {
+      "raw_name": "Duskendale",
+      "slug": "duskendale",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/duskendale.node.md",
+      "section": "Locations",
+      "line": 113
+    },
+    {
+      "raw_name": "Harrenhal",
+      "slug": "harrenhal",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/harrenhal.node.md",
+      "section": "Locations",
+      "line": 114
+    },
+    {
+      "raw_name": "Red Keep",
+      "slug": "red-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-keep.node.md",
+      "section": "Locations",
+      "line": 115
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Locations",
+      "line": 116
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Locations",
+      "line": 117
+    },
+    {
+      "raw_name": "Summerhall",
+      "slug": "summerhall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/summerhall.node.md",
+      "section": "Locations",
+      "line": 118
+    },
+    {
+      "raw_name": "Great Pyramid of Ghis",
+      "slug": "great-pyramid-of-ghis",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/great-pyramid-of-ghis.node.md",
+      "section": "Locations",
+      "line": 119
+    },
+    {
+      "raw_name": "Basilisk Isles",
+      "slug": "basilisk-isles",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/basilisk-isles.node.md",
+      "section": "Locations",
+      "line": 120
+    },
+    {
+      "raw_name": "Qarth",
+      "slug": "qarth",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/qarth.node.md",
+      "section": "Locations",
+      "line": 121
+    },
+    {
+      "raw_name": "Red Waste",
+      "slug": "red-waste",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 122
+    },
+    {
+      "raw_name": "Dragonstone",
+      "slug": "dragonstone",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dragonstone.node.md",
+      "section": "Locations",
+      "line": 123
+    },
+    {
+      "raw_name": "Great Pyramid of Meereen",
+      "slug": "great-pyramid-of-meereen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 128
+    },
+    {
+      "raw_name": "Armory (2nd level of Great Pyramid)",
+      "slug": "armory",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 129
+    },
+    {
+      "raw_name": "Great Pyramid of Ghis",
+      "slug": "great-pyramid-of-ghis",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/great-pyramid-of-ghis.node.md",
+      "section": "Location Descriptions",
+      "line": 130
+    },
+    {
+      "raw_name": "Barristan's gilded armor",
+      "slug": "barristans-gilded-armor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 135
+    },
+    {
+      "raw_name": "Barristan's longsword",
+      "slug": "barristans-longsword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 136
+    },
+    {
+      "raw_name": "Barristan's white cloak",
+      "slug": "barristans-white-cloak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 137
+    },
+    {
+      "raw_name": "Barristan's helm with dragon wings",
+      "slug": "barristans-helm-with-dragon-wings",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 138
+    },
+    {
+      "raw_name": "Barristan's dagger",
+      "slug": "barristans-dagger",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 139
+    },
+    {
+      "raw_name": "Khrazz's Dothraki arakh",
+      "slug": "khrazzs-dothraki-arakh",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 140
+    },
+    {
+      "raw_name": "Steelskin's longaxe",
+      "slug": "steelskins-longaxe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 141
+    },
+    {
+      "raw_name": "Blood bat brass mask",
+      "slug": "blood-bat-brass-mask",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 142
+    },
+    {
+      "raw_name": "Locust masks (×6)",
+      "slug": "locust-masks",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 143
+    },
+    {
+      "raw_name": "Rat and bull masks",
+      "slug": "rat-and-bull-masks",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 144
+    },
+    {
+      "raw_name": "Sandalwood lovers",
+      "slug": "sandalwood-lovers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 145
+    },
+    {
+      "raw_name": "Iron brazier",
+      "slug": "iron-brazier",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 146
+    },
+    {
+      "raw_name": "Tapestries of Old Empire of Ghis",
+      "slug": "tapestries-of-old-empire-of-ghis",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 147
+    },
+    {
+      "raw_name": "Silk carpets from Qarth",
+      "slug": "silk-carpets-from-qarth",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 148
+    },
+    {
+      "raw_name": "Poisoned locusts",
+      "slug": "poisoned-locusts",
+      "resolved_via": "direct",
+      "node_type": "object.food",
+      "node_path": "graph/nodes/foods/poisoned-locusts.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 149
+    },
+    {
+      "raw_name": "Groleo's head",
+      "slug": "groleos-head",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 150
+    },
+    {
+      "raw_name": "White leather belt with golden buckles",
+      "slug": "white-leather-belt-with-golden-buckles",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 151
+    }
+  ]
+}

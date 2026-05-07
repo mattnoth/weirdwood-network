@@ -87,7 +87,7 @@ touch /tmp/extraction-stop
 If a terminal dies mid-wave or you hit a usage limit:
 
 1. Note which waves finished (each terminal prints its wave number)
-2. Check progress: `tail -20 working/progress.md`
+2. Check progress: `tail -20 history/worklog-archives/extraction-progress.md`
 3. Re-launch from where you left off:
 
 ```bash
@@ -107,7 +107,7 @@ ls extractions/mechanical/agot/ | wc -l
 cat working/extraction-stats.csv
 
 # Look at progress notes
-tail -20 working/progress.md
+tail -20 history/worklog-archives/extraction-progress.md
 ```
 
 ## Book Order

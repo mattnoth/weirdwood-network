@@ -1,0 +1,2131 @@
+{
+  "chapter_id": "acok-daenerys-01",
+  "book": "acok",
+  "pov_character": "daenerys",
+  "generated_at": "2026-05-07T02:06:34.351940+00:00",
+  "extraction_path": "extractions/mechanical/acok/acok-daenerys-01.extraction.md",
+  "stats": {
+    "total_mentions": 235,
+    "resolved_to_node": 168,
+    "direct": 162,
+    "alias": 6,
+    "unresolved": 67
+  },
+  "mentions": [
+    {
+      "raw_name": "Daenerys Targaryen",
+      "slug": "daenerys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Ser Jorah Mormont",
+      "slug": "jorah-mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jorah-mormont.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Doreah",
+      "slug": "doreah",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/doreah.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Irri",
+      "slug": "irri",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/irri.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Jhiqui",
+      "slug": "jhiqui",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jhiqui.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Rakharo",
+      "slug": "rakharo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rakharo.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Aggo",
+      "slug": "aggo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aggo.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Jhogo",
+      "slug": "jhogo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jhogo.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Drogon",
+      "slug": "drogon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/drogon.node.md",
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Rhaegal",
+      "slug": "rhaegal",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rhaegal.node.md",
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "Viserion",
+      "slug": "viserion",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/viserion.node.md",
+      "section": "Characters Present",
+      "line": 37
+    },
+    {
+      "raw_name": "Pyat Pree",
+      "slug": "pyat-pree",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/pyat-pree.node.md",
+      "section": "Characters Present",
+      "line": 38
+    },
+    {
+      "raw_name": "Xaro Xhoan Daxos",
+      "slug": "xaro-xhoan-daxos",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/xaro-xhoan-daxos.node.md",
+      "section": "Characters Present",
+      "line": 39
+    },
+    {
+      "raw_name": "Quaithe",
+      "slug": "quaithe",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/quaithe.node.md",
+      "section": "Characters Present",
+      "line": 40
+    },
+    {
+      "raw_name": "Daenerys Targaryen",
+      "slug": "daenerys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
+      "section": "Character Appearances",
+      "line": 45
+    },
+    {
+      "raw_name": "Doreah",
+      "slug": "doreah",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/doreah.node.md",
+      "section": "Character Appearances",
+      "line": 46
+    },
+    {
+      "raw_name": "Ser Jorah Mormont",
+      "slug": "jorah-mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jorah-mormont.node.md",
+      "section": "Character Appearances",
+      "line": 47
+    },
+    {
+      "raw_name": "Drogon",
+      "slug": "drogon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/drogon.node.md",
+      "section": "Character Appearances",
+      "line": 48
+    },
+    {
+      "raw_name": "Rhaegal",
+      "slug": "rhaegal",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rhaegal.node.md",
+      "section": "Character Appearances",
+      "line": 49
+    },
+    {
+      "raw_name": "Viserion",
+      "slug": "viserion",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/viserion.node.md",
+      "section": "Character Appearances",
+      "line": 50
+    },
+    {
+      "raw_name": "Pyat Pree",
+      "slug": "pyat-pree",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/pyat-pree.node.md",
+      "section": "Character Appearances",
+      "line": 51
+    },
+    {
+      "raw_name": "Xaro Xhoan Daxos",
+      "slug": "xaro-xhoan-daxos",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/xaro-xhoan-daxos.node.md",
+      "section": "Character Appearances",
+      "line": 52
+    },
+    {
+      "raw_name": "Quaithe",
+      "slug": "quaithe",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/quaithe.node.md",
+      "section": "Character Appearances",
+      "line": 53
+    },
+    {
+      "raw_name": "Dragons (general)",
+      "slug": "dragons",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 54
+    },
+    {
+      "raw_name": "Khal Drogo",
+      "slug": "drogo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/drogo.node.md",
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "Rhaego",
+      "slug": "rhaego",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rhaego.node.md",
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "Mirri Maz Duur",
+      "slug": "mirri-maz-duur",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mirri-maz-duur.node.md",
+      "section": "Characters Referenced",
+      "line": 61
+    },
+    {
+      "raw_name": "Khal Pono",
+      "slug": "pono",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/pono.node.md",
+      "section": "Characters Referenced",
+      "line": 62
+    },
+    {
+      "raw_name": "Khal Jhaqo",
+      "slug": "khal-jhaqo",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/khal-jhaqo.node.md",
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "Viserys Targaryen",
+      "slug": "viserys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/viserys-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "Rhaegar Targaryen",
+      "slug": "rhaegar-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rhaegar-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 65
+    },
+    {
+      "raw_name": "Dany's father (Aerys II)",
+      "slug": "danys-father",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "Dany's mother",
+      "slug": "danys-mother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 67
+    },
+    {
+      "raw_name": "Ser Willem Darry",
+      "slug": "willem-darry",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/willem-darry.node.md",
+      "section": "Characters Referenced",
+      "line": 68
+    },
+    {
+      "raw_name": "Aegon the Conqueror",
+      "slug": "aegon-i-targaryen",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aegon-i-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 69
+    },
+    {
+      "raw_name": "Visenya Targaryen",
+      "slug": "visenya-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/visenya-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 70
+    },
+    {
+      "raw_name": "Rhaenys Targaryen",
+      "slug": "rhaenys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rhaenys-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 71
+    },
+    {
+      "raw_name": "Balerion the Black Dread",
+      "slug": "balerion-the-black-dread",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 72
+    },
+    {
+      "raw_name": "Vhagar",
+      "slug": "vhagar",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/vhagar.node.md",
+      "section": "Characters Referenced",
+      "line": 73
+    },
+    {
+      "raw_name": "Meraxes",
+      "slug": "meraxes",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meraxes.node.md",
+      "section": "Characters Referenced",
+      "line": 74
+    },
+    {
+      "raw_name": "Lynesse Hightower",
+      "slug": "lynesse-hightower",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lynesse-hightower.node.md",
+      "section": "Characters Referenced",
+      "line": 75
+    },
+    {
+      "raw_name": "Lord Leyton Hightower",
+      "slug": "leyton-hightower",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/leyton-hightower.node.md",
+      "section": "Characters Referenced",
+      "line": 76
+    },
+    {
+      "raw_name": "The White Bull (Gerold Hightower)",
+      "slug": "gerold-hightower",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gerold-hightower.node.md",
+      "section": "Characters Referenced",
+      "line": 77
+    },
+    {
+      "raw_name": "Lord Balon Greyjoy",
+      "slug": "balon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/balon-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 78
+    },
+    {
+      "raw_name": "Eddard Stark",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 79
+    },
+    {
+      "raw_name": "Robert Baratheon",
+      "slug": "robert-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robert-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 80
+    },
+    {
+      "raw_name": "Lord Jason Mallister",
+      "slug": "jason-mallister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jason-mallister.node.md",
+      "section": "Characters Referenced",
+      "line": 81
+    },
+    {
+      "raw_name": "Bronze Yohn Royce",
+      "slug": "bronze-yohn-royce",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 82
+    },
+    {
+      "raw_name": "Ser Ryman Frey",
+      "slug": "ryman-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ryman-frey.node.md",
+      "section": "Characters Referenced",
+      "line": 83
+    },
+    {
+      "raw_name": "Ser Hosteen Frey",
+      "slug": "hosteen-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hosteen-frey.node.md",
+      "section": "Characters Referenced",
+      "line": 84
+    },
+    {
+      "raw_name": "Lord Whent",
+      "slug": "whent",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/whent.node.md",
+      "section": "Characters Referenced",
+      "line": 85
+    },
+    {
+      "raw_name": "Strongboar",
+      "slug": "lyle-crakehall",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lyle-crakehall.node.md",
+      "section": "Characters Referenced",
+      "line": 86
+    },
+    {
+      "raw_name": "Ser Boros Blount",
+      "slug": "boros-blount",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/boros-blount.node.md",
+      "section": "Characters Referenced",
+      "line": 87
+    },
+    {
+      "raw_name": "Jaime Lannister",
+      "slug": "jaime-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaime-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 88
+    },
+    {
+      "raw_name": "Tregar Ormollen",
+      "slug": "tregar-ormollen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tregar-ormollen.node.md",
+      "section": "Characters Referenced",
+      "line": 89
+    },
+    {
+      "raw_name": "Magister Illyrio",
+      "slug": "magister-illyrio",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 90
+    },
+    {
+      "raw_name": "Jorah's first wife",
+      "slug": "jorahs-first-wife",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 91
+    },
+    {
+      "raw_name": "Jorah's father",
+      "slug": "jorahs-father",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 92
+    },
+    {
+      "raw_name": "A priest from Myr",
+      "slug": "a-priest-from-myr",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 93
+    },
+    {
+      "raw_name": "The red waste (the red lands)",
+      "slug": "the-red-waste",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 98
+    },
+    {
+      "raw_name": "Vaes Tolorro (city of bones)",
+      "slug": "vaes-tolorro",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vaes-tolorro.node.md",
+      "section": "Locations",
+      "line": 99
+    },
+    {
+      "raw_name": "Dothraki sea",
+      "slug": "dothraki-sea",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 100
+    },
+    {
+      "raw_name": "Lhazareen lands (Lamb Men lands)",
+      "slug": "lhazareen-lands",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 101
+    },
+    {
+      "raw_name": "Meereen",
+      "slug": "meereen",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/meereen.node.md",
+      "section": "Locations",
+      "line": 102
+    },
+    {
+      "raw_name": "Yunkai",
+      "slug": "yunkai",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/yunkai.node.md",
+      "section": "Locations",
+      "line": 103
+    },
+    {
+      "raw_name": "Astapor",
+      "slug": "astapor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/astapor.node.md",
+      "section": "Locations",
+      "line": 104
+    },
+    {
+      "raw_name": "Slaver's Bay",
+      "slug": "slavers-bay",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/slavers-bay.node.md",
+      "section": "Locations",
+      "line": 105
+    },
+    {
+      "raw_name": "Yi Ti",
+      "slug": "yi-ti",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/yi-ti.node.md",
+      "section": "Locations",
+      "line": 106
+    },
+    {
+      "raw_name": "Qarth",
+      "slug": "qarth",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/qarth.node.md",
+      "section": "Locations",
+      "line": 107
+    },
+    {
+      "raw_name": "Asshai by the Shadow",
+      "slug": "asshai-by-the-shadow",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 108
+    },
+    {
+      "raw_name": "Vaes Dothrak",
+      "slug": "vaes-dothrak",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vaes-dothrak.node.md",
+      "section": "Locations",
+      "line": 109
+    },
+    {
+      "raw_name": "Bear Island",
+      "slug": "bear-island",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bear-island.node.md",
+      "section": "Locations",
+      "line": 110
+    },
+    {
+      "raw_name": "Lannisport",
+      "slug": "lannisport",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lannisport.node.md",
+      "section": "Locations",
+      "line": 111
+    },
+    {
+      "raw_name": "Oldtown",
+      "slug": "oldtown",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/oldtown.node.md",
+      "section": "Locations",
+      "line": 112
+    },
+    {
+      "raw_name": "Braavos",
+      "slug": "braavos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/braavos.node.md",
+      "section": "Locations",
+      "line": 113
+    },
+    {
+      "raw_name": "Lys",
+      "slug": "lys",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lys.node.md",
+      "section": "Locations",
+      "line": 114
+    },
+    {
+      "raw_name": "Pentos",
+      "slug": "pentos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pentos.node.md",
+      "section": "Locations",
+      "line": 115
+    },
+    {
+      "raw_name": "Deepwood Motte",
+      "slug": "deepwood-motte",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/deepwood-motte.node.md",
+      "section": "Locations",
+      "line": 116
+    },
+    {
+      "raw_name": "Pyke",
+      "slug": "pyke",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pyke.node.md",
+      "section": "Locations",
+      "line": 117
+    },
+    {
+      "raw_name": "The Rhoyne",
+      "slug": "rhoyne",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/rhoyne.node.md",
+      "section": "Locations",
+      "line": 118
+    },
+    {
+      "raw_name": "The Trident",
+      "slug": "trident",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/trident.node.md",
+      "section": "Locations",
+      "line": 119
+    },
+    {
+      "raw_name": "Night lands",
+      "slug": "night-lands",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 120
+    },
+    {
+      "raw_name": "The red waste",
+      "slug": "the-red-waste",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 125
+    },
+    {
+      "raw_name": "Vaes Tolorro",
+      "slug": "vaes-tolorro",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vaes-tolorro.node.md",
+      "section": "Location Descriptions",
+      "line": 126
+    },
+    {
+      "raw_name": "Bear Island",
+      "slug": "bear-island",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bear-island.node.md",
+      "section": "Location Descriptions",
+      "line": 127
+    },
+    {
+      "raw_name": "The comet (shierak qiya / the Bleeding Star)",
+      "slug": "the-comet",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 132
+    },
+    {
+      "raw_name": "Hrakkar skin (white lion pelt)",
+      "slug": "hrakkar-skin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 133
+    },
+    {
+      "raw_name": "Silver mare",
+      "slug": "silver-mare",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/silver-mare.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 134
+    },
+    {
+      "raw_name": "Rakharo's arakh",
+      "slug": "rakharos-arakh",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 135
+    },
+    {
+      "raw_name": "Iron bracelet with uncut fire opal",
+      "slug": "iron-bracelet-with-uncut-fire-opal",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 136
+    },
+    {
+      "raw_name": "Scrolls",
+      "slug": "scrolls",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 137
+    },
+    {
+      "raw_name": "Old bronze coins",
+      "slug": "old-bronze-coins",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 138
+    },
+    {
+      "raw_name": "Purple glass bits",
+      "slug": "purple-glass-bits",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 139
+    },
+    {
+      "raw_name": "Stone flagons with snake-shaped handles",
+      "slug": "stone-flagons-with-snake-shaped-handles",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 140
+    },
+    {
+      "raw_name": "Ring of skulls on rusted iron spears",
+      "slug": "ring-of-skulls-on-rusted-iron-spears",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 141
+    },
+    {
+      "raw_name": "Woven wood cage",
+      "slug": "woven-wood-cage",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 142
+    },
+    {
+      "raw_name": "Dragon eggs (referenced)",
+      "slug": "dragon-eggs",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 143
+    },
+    {
+      "raw_name": "Daenerys Targaryen (the Unburnt, Mother of Dragons, Khaleesi)",
+      "slug": "daenerys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 330
+    },
+    {
+      "raw_name": "Ser Jorah Mormont",
+      "slug": "jorah-mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jorah-mormont.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 331
+    },
+    {
+      "raw_name": "Doreah",
+      "slug": "doreah",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/doreah.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 332
+    },
+    {
+      "raw_name": "Irri",
+      "slug": "irri",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/irri.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 333
+    },
+    {
+      "raw_name": "Jhiqui",
+      "slug": "jhiqui",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jhiqui.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 334
+    },
+    {
+      "raw_name": "Rakharo",
+      "slug": "rakharo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rakharo.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 335
+    },
+    {
+      "raw_name": "Aggo",
+      "slug": "aggo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aggo.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 336
+    },
+    {
+      "raw_name": "Jhogo",
+      "slug": "jhogo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jhogo.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 337
+    },
+    {
+      "raw_name": "Drogon",
+      "slug": "drogon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/drogon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 338
+    },
+    {
+      "raw_name": "Rhaegal",
+      "slug": "rhaegal",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rhaegal.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 339
+    },
+    {
+      "raw_name": "Viserion",
+      "slug": "viserion",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/viserion.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 340
+    },
+    {
+      "raw_name": "Pyat Pree",
+      "slug": "pyat-pree",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/pyat-pree.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 341
+    },
+    {
+      "raw_name": "Xaro Xhoan Daxos",
+      "slug": "xaro-xhoan-daxos",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/xaro-xhoan-daxos.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 342
+    },
+    {
+      "raw_name": "Quaithe (of the Shadow)",
+      "slug": "quaithe",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/quaithe.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 343
+    },
+    {
+      "raw_name": "Khal Drogo (referenced, dead)",
+      "slug": "drogo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/drogo.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 344
+    },
+    {
+      "raw_name": "Viserys Targaryen (referenced, dead)",
+      "slug": "viserys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/viserys-targaryen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 345
+    },
+    {
+      "raw_name": "Rhaegar Targaryen (referenced, dead)",
+      "slug": "rhaegar-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rhaegar-targaryen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 346
+    },
+    {
+      "raw_name": "Aerys II Targaryen (referenced as Dany's father, dead)",
+      "slug": "aerys-ii-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aerys-ii-targaryen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 347
+    },
+    {
+      "raw_name": "Dany's mother (referenced, unnamed, dead)",
+      "slug": "danys-mother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 348
+    },
+    {
+      "raw_name": "Rhaego (referenced, unborn son, dead)",
+      "slug": "rhaego",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rhaego.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 349
+    },
+    {
+      "raw_name": "Mirri Maz Duur (referenced, dead)",
+      "slug": "mirri-maz-duur",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mirri-maz-duur.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 350
+    },
+    {
+      "raw_name": "Khal Pono (referenced)",
+      "slug": "pono",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/pono.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 351
+    },
+    {
+      "raw_name": "Khal Jhaqo (referenced)",
+      "slug": "khal-jhaqo",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/khal-jhaqo.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 352
+    },
+    {
+      "raw_name": "Ser Willem Darry (referenced, dead)",
+      "slug": "willem-darry",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/willem-darry.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 353
+    },
+    {
+      "raw_name": "Lynesse Hightower (referenced)",
+      "slug": "lynesse-hightower",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lynesse-hightower.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 354
+    },
+    {
+      "raw_name": "Lord Leyton Hightower (referenced)",
+      "slug": "leyton-hightower",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/leyton-hightower.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 355
+    },
+    {
+      "raw_name": "The White Bull / Gerold Hightower (referenced)",
+      "slug": "the-white-bull-gerold-hightower",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 356
+    },
+    {
+      "raw_name": "Lord Balon Greyjoy (referenced)",
+      "slug": "balon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/balon-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 357
+    },
+    {
+      "raw_name": "Eddard Stark (referenced)",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 358
+    },
+    {
+      "raw_name": "Robert Baratheon (referenced)",
+      "slug": "robert-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robert-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 359
+    },
+    {
+      "raw_name": "Jaime Lannister (referenced)",
+      "slug": "jaime-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaime-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 360
+    },
+    {
+      "raw_name": "Lord Jason Mallister (referenced)",
+      "slug": "jason-mallister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jason-mallister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 361
+    },
+    {
+      "raw_name": "Bronze Yohn Royce (referenced)",
+      "slug": "bronze-yohn-royce",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 362
+    },
+    {
+      "raw_name": "Ser Ryman Frey (referenced)",
+      "slug": "ryman-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ryman-frey.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 363
+    },
+    {
+      "raw_name": "Ser Hosteen Frey (referenced)",
+      "slug": "hosteen-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hosteen-frey.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 364
+    },
+    {
+      "raw_name": "Lord Whent (referenced)",
+      "slug": "whent",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/whent.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 365
+    },
+    {
+      "raw_name": "Strongboar (referenced)",
+      "slug": "lyle-crakehall",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lyle-crakehall.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 366
+    },
+    {
+      "raw_name": "Ser Boros Blount (referenced)",
+      "slug": "boros-blount",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/boros-blount.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 367
+    },
+    {
+      "raw_name": "Tregar Ormollen (referenced)",
+      "slug": "tregar-ormollen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tregar-ormollen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 368
+    },
+    {
+      "raw_name": "Magister Illyrio (referenced)",
+      "slug": "magister-illyrio",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 369
+    },
+    {
+      "raw_name": "Jorah's first wife (a Glover of Deepwood Motte, referenced, unnamed, dead)",
+      "slug": "jorahs-first-wife",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 370
+    },
+    {
+      "raw_name": "Jorah's father (referenced, took the black)",
+      "slug": "jorahs-father",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 371
+    },
+    {
+      "raw_name": "A priest from Myr (referenced, unnamed)",
+      "slug": "a-priest-from-myr",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 372
+    },
+    {
+      "raw_name": "Aegon the Conqueror (referenced)",
+      "slug": "aegon-i-targaryen",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aegon-i-targaryen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 373
+    },
+    {
+      "raw_name": "Visenya Targaryen (referenced)",
+      "slug": "visenya-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/visenya-targaryen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 374
+    },
+    {
+      "raw_name": "Rhaenys Targaryen (referenced)",
+      "slug": "rhaenys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rhaenys-targaryen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 375
+    },
+    {
+      "raw_name": "Balerion the Black Dread (referenced, historical dragon)",
+      "slug": "balerion-the-black-dread",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 376
+    },
+    {
+      "raw_name": "Vhagar (referenced, historical dragon)",
+      "slug": "vhagar",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/vhagar.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 377
+    },
+    {
+      "raw_name": "Meraxes (referenced, historical dragon)",
+      "slug": "meraxes",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meraxes.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 378
+    },
+    {
+      "raw_name": "The red waste (the red lands)",
+      "slug": "the-red-waste",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 381
+    },
+    {
+      "raw_name": "Vaes Tolorro (city of bones)",
+      "slug": "vaes-tolorro",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vaes-tolorro.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 382
+    },
+    {
+      "raw_name": "Dothraki sea",
+      "slug": "dothraki-sea",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 383
+    },
+    {
+      "raw_name": "Lhazareen lands (Lamb Men lands)",
+      "slug": "lhazareen-lands",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 384
+    },
+    {
+      "raw_name": "Meereen",
+      "slug": "meereen",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/meereen.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 385
+    },
+    {
+      "raw_name": "Yunkai",
+      "slug": "yunkai",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/yunkai.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 386
+    },
+    {
+      "raw_name": "Astapor",
+      "slug": "astapor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/astapor.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 387
+    },
+    {
+      "raw_name": "Slaver's Bay",
+      "slug": "slavers-bay",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/slavers-bay.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 388
+    },
+    {
+      "raw_name": "Yi Ti",
+      "slug": "yi-ti",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/yi-ti.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 389
+    },
+    {
+      "raw_name": "Qarth",
+      "slug": "qarth",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/qarth.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 390
+    },
+    {
+      "raw_name": "Asshai by the Shadow",
+      "slug": "asshai-by-the-shadow",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 391
+    },
+    {
+      "raw_name": "Vaes Dothrak",
+      "slug": "vaes-dothrak",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vaes-dothrak.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 392
+    },
+    {
+      "raw_name": "Bear Island",
+      "slug": "bear-island",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bear-island.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 393
+    },
+    {
+      "raw_name": "Lannisport",
+      "slug": "lannisport",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lannisport.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 394
+    },
+    {
+      "raw_name": "Oldtown",
+      "slug": "oldtown",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/oldtown.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 395
+    },
+    {
+      "raw_name": "Braavos",
+      "slug": "braavos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/braavos.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 396
+    },
+    {
+      "raw_name": "Lys",
+      "slug": "lys",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lys.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 397
+    },
+    {
+      "raw_name": "Pentos",
+      "slug": "pentos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pentos.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 398
+    },
+    {
+      "raw_name": "Deepwood Motte",
+      "slug": "deepwood-motte",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/deepwood-motte.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 399
+    },
+    {
+      "raw_name": "Pyke",
+      "slug": "pyke",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pyke.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 400
+    },
+    {
+      "raw_name": "The Rhoyne",
+      "slug": "rhoyne",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/rhoyne.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 401
+    },
+    {
+      "raw_name": "The Trident",
+      "slug": "trident",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/trident.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 402
+    },
+    {
+      "raw_name": "Night lands (Dothraki afterlife)",
+      "slug": "night-lands",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 403
+    },
+    {
+      "raw_name": "Old Valyria (referenced as source of dragon names)",
+      "slug": "old-valyria",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 404
+    },
+    {
+      "raw_name": "House Targaryen",
+      "slug": "house-targaryen",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-targaryen.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 407
+    },
+    {
+      "raw_name": "House Mormont",
+      "slug": "house-mormont",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-mormont.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 408
+    },
+    {
+      "raw_name": "House Hightower",
+      "slug": "house-hightower",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-hightower.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 409
+    },
+    {
+      "raw_name": "House Greyjoy",
+      "slug": "house-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-greyjoy.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 410
+    },
+    {
+      "raw_name": "House Stark",
+      "slug": "house-stark",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-stark.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 411
+    },
+    {
+      "raw_name": "House Lannister (implied via Jaime, Lannisport)",
+      "slug": "house-lannister",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-lannister.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 412
+    },
+    {
+      "raw_name": "House Mallister",
+      "slug": "house-mallister",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-mallister.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 413
+    },
+    {
+      "raw_name": "House Royce",
+      "slug": "house-royce",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-royce.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 414
+    },
+    {
+      "raw_name": "House Frey",
+      "slug": "house-frey",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-frey.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 415
+    },
+    {
+      "raw_name": "House Whent",
+      "slug": "house-whent",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-whent.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 416
+    },
+    {
+      "raw_name": "House Glover",
+      "slug": "house-glover",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-glover.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 417
+    },
+    {
+      "raw_name": "Dany's khalasar",
+      "slug": "danys-khalasar",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 420
+    },
+    {
+      "raw_name": "Queensguard (Dany's, Jorah named first)",
+      "slug": "queensguard",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/queensguard.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 421
+    },
+    {
+      "raw_name": "Kingsguard (referenced — White Bull commanded it, Boros Blount a member)",
+      "slug": "kingsguard",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/kingsguard.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 422
+    },
+    {
+      "raw_name": "Night's Watch (referenced — Jorah's father took the black)",
+      "slug": "nights-watch",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/nights-watch.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 423
+    },
+    {
+      "raw_name": "The Thirteen (Xaro Xhoan Daxos's merchant guild in Qarth)",
+      "slug": "thirteen",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/thirteen.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 424
+    },
+    {
+      "raw_name": "Dothraki beliefs (night lands afterlife, gods, shierak qiya omen, braids and defeat, ghosts)",
+      "slug": "dothraki-beliefs",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 427
+    },
+    {
+      "raw_name": "Old Valyrian gods (Aegon's dragons named for them)",
+      "slug": "old-valyrian-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 428
+    },
+    {
+      "raw_name": "The Maid (of the Seven — Jorah compares Lynesse to \"the Maid herself made flesh\")",
+      "slug": "maid",
+      "resolved_via": "direct",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/maid.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 429
+    },
+    {
+      "raw_name": "Dothraki",
+      "slug": "dothraki",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/dothraki.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 432
+    },
+    {
+      "raw_name": "Lhazareen (Lamb Men)",
+      "slug": "lhazareen",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/lhazareen.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 433
+    },
+    {
+      "raw_name": "Lysene (Doreah described as \"the Lysene girl\")",
+      "slug": "lyseni",
+      "resolved_via": "alias",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/lyseni.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 434
+    },
+    {
+      "raw_name": "Braavosi (Jorah fought them on the Rhoyne)",
+      "slug": "braavosi",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/braavosi.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 435
+    },
+    {
+      "raw_name": "Qartheen (Pyat Pree, Xaro Xhoan Daxos)",
+      "slug": "qartheen",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/qartheen.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 436
+    },
+    {
+      "raw_name": "Valyrian (language of Free Cities spoken by Xaro)",
+      "slug": "valyrian",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/valyrian.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 437
+    },
+    {
+      "raw_name": "The comet (shierak qiya / the Bleeding Star)",
+      "slug": "the-comet",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 440
+    },
+    {
+      "raw_name": "Hrakkar skin (white lion pelt/cloak)",
+      "slug": "hrakkar-skin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 441
+    },
+    {
+      "raw_name": "Silver mare (Dany's horse)",
+      "slug": "silver-mare",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/silver-mare.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 442
+    },
+    {
+      "raw_name": "Rakharo's arakh (curved blade, medallion belt)",
+      "slug": "rakharos-arakh",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 443
+    },
+    {
+      "raw_name": "Iron bracelet with uncut fire opal",
+      "slug": "iron-bracelet-with-uncut-fire-opal",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 444
+    },
+    {
+      "raw_name": "Scrolls (found in ruined city, dry and crumbling)",
+      "slug": "scrolls",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 445
+    },
+    {
+      "raw_name": "Old bronze coins (found in Vaes Tolorro)",
+      "slug": "old-bronze-coins",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 446
+    },
+    {
+      "raw_name": "Purple glass bits (found in Vaes Tolorro)",
+      "slug": "purple-glass-bits",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 447
+    },
+    {
+      "raw_name": "Stone flagons with snake-shaped handles (found in Vaes Tolorro)",
+      "slug": "stone-flagons-with-snake-shaped-handles",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 448
+    },
+    {
+      "raw_name": "Ring of skulls on rusted iron spears",
+      "slug": "ring-of-skulls-on-rusted-iron-spears",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 449
+    },
+    {
+      "raw_name": "Woven wood cage (for dragons)",
+      "slug": "woven-wood-cage",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 450
+    },
+    {
+      "raw_name": "Brazier (in Dany's tent)",
+      "slug": "brazier",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 451
+    },
+    {
+      "raw_name": "Champion's laurel (given by Robert to Jorah)",
+      "slug": "champions-laurel",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 452
+    },
+    {
+      "raw_name": "Humped creatures (camels, ridden by the three strangers)",
+      "slug": "humped-creatures",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 453
+    },
+    {
+      "raw_name": "Empty marble plinth (Vaes Tolorro, statue taken)",
+      "slug": "empty-marble-plinth",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 454
+    },
+    {
+      "raw_name": "The comet (shierak qiya) — interpreted as omen by Dothraki and as divine herald by Dany",
+      "slug": "the-comet",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 460
+    },
+    {
+      "raw_name": "Dragon fire-breathing — dragons hiss, spit, steam rises from nostrils",
+      "slug": "dragon-fire-breathing",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 461
+    },
+    {
+      "raw_name": "Dragon heat — palpable warmth, bodies steam on cold nights",
+      "slug": "dragon-heat",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 462
+    },
+    {
+      "raw_name": "Mirri Maz Duur's curse — Dany recalls the maegi swore she would never bear a living child",
+      "slug": "mirri-maz-duurs-curse",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 463
+    },
+    {
+      "raw_name": "Dany's dream — dreams of riding dragons instead of horses with Drogo",
+      "slug": "danys-dream",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 464
+    },
+    {
+      "raw_name": "Greyjoy Rebellion (Balon Greyjoy's rebellion against Robert; final battle at Pyke)",
+      "slug": "greyjoy-rebellion",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/greyjoy-rebellion.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 467
+    },
+    {
+      "raw_name": "Robert's Rebellion (implied — Aerys' Kingsguard, Robert as \"the Usurper\")",
+      "slug": "roberts-rebellion",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/roberts-rebellion.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 468
+    },
+    {
+      "raw_name": "Khaleesi",
+      "slug": "khaleesi",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/khaleesi.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 471
+    },
+    {
+      "raw_name": "Khal",
+      "slug": "khal",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/khal.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 472
+    },
+    {
+      "raw_name": "Ko",
+      "slug": "ko",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/ko.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 473
+    },
+    {
+      "raw_name": "Bloodrider",
+      "slug": "bloodrider",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/bloodrider.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 474
+    },
+    {
+      "raw_name": "Queensguard",
+      "slug": "queensguard",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/queensguard.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 475
+    },
+    {
+      "raw_name": "Kingsguard",
+      "slug": "kingsguard",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/kingsguard.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 476
+    },
+    {
+      "raw_name": "Lord Commander of the Kingsguard (the White Bull)",
+      "slug": "lord-commander-of-the-kingsguard",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord-commander-of-the-kingsguard.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 477
+    },
+    {
+      "raw_name": "Knight (Ser)",
+      "slug": "knight",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/knight.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 478
+    },
+    {
+      "raw_name": "Lord (of Bear Island, of Oldtown)",
+      "slug": "lord",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 479
+    },
+    {
+      "raw_name": "Queen of love and beauty (tourney title Jorah gave Lynesse)",
+      "slug": "queen-of-love-and-beauty",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 480
+    },
+    {
+      "raw_name": "Merchant prince",
+      "slug": "merchant-prince",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 481
+    },
+    {
+      "raw_name": "Warlock",
+      "slug": "warlock",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/warlock.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 482
+    },
+    {
+      "raw_name": "The Unburnt (title given to Dany)",
+      "slug": "the-unburnt",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 483
+    },
+    {
+      "raw_name": "Mother of Dragons (title given to Dany)",
+      "slug": "mother-of-dragons",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/mother-of-dragons.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 484
+    },
+    {
+      "raw_name": "Devilgrass (tough brown grass growing in red waste and between paving stones)",
+      "slug": "devilgrass",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/devilgrass.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 487
+    },
+    {
+      "raw_name": "Blood flies (swarm about corpses)",
+      "slug": "blood-flies",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 488
+    },
+    {
+      "raw_name": "Red scorpion (stings one woman at Vaes Tolorro)",
+      "slug": "red-scorpion",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 489
+    },
+    {
+      "raw_name": "Hrakkar (white lion of the Dothraki sea)",
+      "slug": "hrakkar",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/hrakkar.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 490
+    }
+  ]
+}

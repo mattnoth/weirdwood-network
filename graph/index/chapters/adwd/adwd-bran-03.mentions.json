@@ -1,0 +1,1321 @@
+{
+  "chapter_id": "adwd-bran-03",
+  "book": "adwd",
+  "pov_character": "bran",
+  "generated_at": "2026-05-07T02:06:34.486708+00:00",
+  "extraction_path": "extractions/mechanical/adwd/adwd-bran-03.extraction.md",
+  "stats": {
+    "total_mentions": 145,
+    "resolved_to_node": 62,
+    "direct": 57,
+    "alias": 5,
+    "unresolved": 83
+  },
+  "mentions": [
+    {
+      "raw_name": "Bran Stark",
+      "slug": "bran-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bran-stark.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Lord Brynden (Three-eyed crow)",
+      "slug": "brynden-rivers",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brynden-rivers.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Meera Reed",
+      "slug": "meera-reed",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meera-reed.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Jojen Reed",
+      "slug": "jojen-reed",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jojen-reed.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Hodor",
+      "slug": "hodor",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hodor.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Summer",
+      "slug": "summer",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/summer.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Leaf",
+      "slug": "leaf",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/leaf.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Snowylocks",
+      "slug": "snowylocks",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/snowylocks.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Eddard Stark",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Lord Brynden",
+      "slug": "brynden-rivers",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brynden-rivers.node.md",
+      "section": "Character Appearances",
+      "line": 40
+    },
+    {
+      "raw_name": "Leaf",
+      "slug": "leaf",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/leaf.node.md",
+      "section": "Character Appearances",
+      "line": 41
+    },
+    {
+      "raw_name": "Children of the forest (general)",
+      "slug": "children-of-the-forest",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/children-of-the-forest.node.md",
+      "section": "Character Appearances",
+      "line": 42
+    },
+    {
+      "raw_name": "Snowylocks",
+      "slug": "snowylocks",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/snowylocks.node.md",
+      "section": "Character Appearances",
+      "line": 43
+    },
+    {
+      "raw_name": "Summer",
+      "slug": "summer",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/summer.node.md",
+      "section": "Character Appearances",
+      "line": 44
+    },
+    {
+      "raw_name": "Jojen Reed",
+      "slug": "jojen-reed",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jojen-reed.node.md",
+      "section": "Character Appearances",
+      "line": 45
+    },
+    {
+      "raw_name": "Eddard Stark (vision 1)",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Character Appearances",
+      "line": 46
+    },
+    {
+      "raw_name": "Eddard Stark (vision 2)",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Character Appearances",
+      "line": 47
+    },
+    {
+      "raw_name": "Old Nan",
+      "slug": "old-nan",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/old-nan.node.md",
+      "section": "Characters Referenced",
+      "line": 52
+    },
+    {
+      "raw_name": "Robb Stark",
+      "slug": "robb-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 53
+    },
+    {
+      "raw_name": "Arya Stark",
+      "slug": "arya-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/arya-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 54
+    },
+    {
+      "raw_name": "Sansa Stark",
+      "slug": "sansa-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sansa-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 55
+    },
+    {
+      "raw_name": "Rickon Stark",
+      "slug": "rickon-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rickon-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 56
+    },
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "Maester Luwin",
+      "slug": "luwin",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/luwin.node.md",
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "Brynden Blackfish (Brynden Tully)",
+      "slug": "brynden-tully",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brynden-tully.node.md",
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "Catelyn Stark (implied)",
+      "slug": "catelyn-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/catelyn-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "Eddard Stark's father (implied)",
+      "slug": "eddard-starks-father",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 61
+    },
+    {
+      "raw_name": "A brother Lord Brynden loved",
+      "slug": "a-brother-lord-brynden-loved",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 62
+    },
+    {
+      "raw_name": "A brother Lord Brynden hated",
+      "slug": "a-brother-lord-brynden-hated",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "A woman Lord Brynden desired",
+      "slug": "a-woman-lord-brynden-desired",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "Cave beneath the hill (beyond the Wall)",
+      "slug": "cave-beneath-the-hill",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 69
+    },
+    {
+      "raw_name": "The great cavern / abyss",
+      "slug": "the-great-cavern-abyss",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 70
+    },
+    {
+      "raw_name": "Underground river",
+      "slug": "underground-river",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 71
+    },
+    {
+      "raw_name": "Winterfell godswood",
+      "slug": "winterfell-godswood",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 72
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Locations",
+      "line": 73
+    },
+    {
+      "raw_name": "Small chamber / snug alcove",
+      "slug": "small-chamber-snug-alcove",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 74
+    },
+    {
+      "raw_name": "Slender stone bridge",
+      "slug": "slender-stone-bridge",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 75
+    },
+    {
+      "raw_name": "Chambers on far side of bridge",
+      "slug": "chambers-on-far-side-of-bridge",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 76
+    },
+    {
+      "raw_name": "Chamber of singers",
+      "slug": "chamber-of-singers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 77
+    },
+    {
+      "raw_name": "Cave beneath the hill",
+      "slug": "cave-beneath-the-hill",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 82
+    },
+    {
+      "raw_name": "Winterfell godswood (vision)",
+      "slug": "winterfell-godswood",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 83
+    },
+    {
+      "raw_name": "Weirwood throne (Bran's)",
+      "slug": "weirwood-throne",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 88
+    },
+    {
+      "raw_name": "Weirwood throne (Lord Brynden's)",
+      "slug": "weirwood-throne",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 89
+    },
+    {
+      "raw_name": "Weirwood bowl",
+      "slug": "weirwood-bowl",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 90
+    },
+    {
+      "raw_name": "Weirwood seed paste",
+      "slug": "weirwood-seed-paste",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 91
+    },
+    {
+      "raw_name": "Ice (greatsword)",
+      "slug": "ice",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/ice.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 92
+    },
+    {
+      "raw_name": "Bronze sickle",
+      "slug": "bronze-sickle",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 93
+    },
+    {
+      "raw_name": "Wooden spoon",
+      "slug": "wooden-spoon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 94
+    },
+    {
+      "raw_name": "Torch(es)",
+      "slug": "torch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 95
+    },
+    {
+      "raw_name": "Sword (Hodor's)",
+      "slug": "sword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 96
+    },
+    {
+      "raw_name": "Bran Stark (Brandon Stark, POV)",
+      "slug": "bran-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bran-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 261
+    },
+    {
+      "raw_name": "Summer (direwolf)",
+      "slug": "summer",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/summer.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 262
+    },
+    {
+      "raw_name": "Meera Reed",
+      "slug": "meera-reed",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meera-reed.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 263
+    },
+    {
+      "raw_name": "Jojen Reed",
+      "slug": "jojen-reed",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jojen-reed.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 264
+    },
+    {
+      "raw_name": "Hodor",
+      "slug": "hodor",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hodor.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 265
+    },
+    {
+      "raw_name": "Lord Brynden (Three-eyed crow, the last greenseer, birth name Brynden)",
+      "slug": "brynden-rivers",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brynden-rivers.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 266
+    },
+    {
+      "raw_name": "Leaf (singer / child of the forest)",
+      "slug": "leaf",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/leaf.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 267
+    },
+    {
+      "raw_name": "Snowylocks (singer, white-haired)",
+      "slug": "snowylocks",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/snowylocks.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 268
+    },
+    {
+      "raw_name": "Ash (singer, named by Bran and Meera)",
+      "slug": "ash",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ash.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 269
+    },
+    {
+      "raw_name": "Scales (singer, named by Bran and Meera)",
+      "slug": "scales",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/scales.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 270
+    },
+    {
+      "raw_name": "Black Knife (singer, named by Bran and Meera)",
+      "slug": "black-knife",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/black-knife.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 271
+    },
+    {
+      "raw_name": "Coals (singer, named by Bran and Meera)",
+      "slug": "coals",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/coals.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 272
+    },
+    {
+      "raw_name": "Eddard Stark (Lord Eddard, seen in weirwood vision)",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 273
+    },
+    {
+      "raw_name": "Robb Stark (referenced in memory)",
+      "slug": "robb-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 274
+    },
+    {
+      "raw_name": "Arya Stark (referenced in memory; girl in vision compared to her)",
+      "slug": "arya-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/arya-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 275
+    },
+    {
+      "raw_name": "Sansa Stark (referenced in memory)",
+      "slug": "sansa-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sansa-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 276
+    },
+    {
+      "raw_name": "Rickon Stark (referenced in memory)",
+      "slug": "rickon-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rickon-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 277
+    },
+    {
+      "raw_name": "Jon Snow (referenced in memory)",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 278
+    },
+    {
+      "raw_name": "Old Nan (referenced in memory)",
+      "slug": "old-nan",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/old-nan.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 279
+    },
+    {
+      "raw_name": "Maester Luwin (referenced in memory)",
+      "slug": "luwin",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/luwin.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 280
+    },
+    {
+      "raw_name": "Brynden Blackfish / Brynden Tully (referenced by name)",
+      "slug": "brynden-blackfish-brynden-tully",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 281
+    },
+    {
+      "raw_name": "Unnamed dead woman singer (spirit inside the raven Bran inhabits)",
+      "slug": "unnamed-dead-woman-singer",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 282
+    },
+    {
+      "raw_name": "Unnamed pregnant woman (weirwood vision)",
+      "slug": "unnamed-pregnant-woman",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 283
+    },
+    {
+      "raw_name": "Unnamed brown-haired girl (weirwood vision)",
+      "slug": "unnamed-brown-haired-girl",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 284
+    },
+    {
+      "raw_name": "Unnamed young knight as tall as Hodor (weirwood vision)",
+      "slug": "unnamed-young-knight-as-tall-as-hodor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 285
+    },
+    {
+      "raw_name": "Unnamed dark-eyed youth, pale and fierce (weirwood vision)",
+      "slug": "unnamed-dark-eyed-youth-pale-and-fierce",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 286
+    },
+    {
+      "raw_name": "Unnamed bearded man (weirwood vision, forces captive down)",
+      "slug": "unnamed-bearded-man",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 287
+    },
+    {
+      "raw_name": "Unnamed white-haired woman with bronze sickle (weirwood vision)",
+      "slug": "unnamed-white-haired-woman-with-bronze-sickle",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 288
+    },
+    {
+      "raw_name": "Unnamed captive sacrificed before the heart tree (weirwood vision)",
+      "slug": "unnamed-captive-sacrificed-before-the-heart-tree",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 289
+    },
+    {
+      "raw_name": "Unnamed girl and boy sparring (weirwood vision)",
+      "slug": "unnamed-girl-and-boy-sparring",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 290
+    },
+    {
+      "raw_name": "Unnamed ancient lords in fur and chain mail (weirwood visions)",
+      "slug": "unnamed-ancient-lords-in-fur-and-chain-mail",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 291
+    },
+    {
+      "raw_name": "Summer's wolf pack (unnamed)",
+      "slug": "summers-wolf-pack",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 292
+    },
+    {
+      "raw_name": "Cave beneath the hill (beyond the Wall)",
+      "slug": "cave-beneath-the-hill",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 295
+    },
+    {
+      "raw_name": "The great cavern / abyss",
+      "slug": "the-great-cavern-abyss",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 296
+    },
+    {
+      "raw_name": "Underground river (swift, black, flows to a sunless sea)",
+      "slug": "underground-river",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 297
+    },
+    {
+      "raw_name": "Small chamber / snug alcove (sleeping quarters)",
+      "slug": "small-chamber-snug-alcove",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 298
+    },
+    {
+      "raw_name": "Slender stone bridge over the abyss",
+      "slug": "slender-stone-bridge-over-the-abyss",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 299
+    },
+    {
+      "raw_name": "Chamber of enthroned singers",
+      "slug": "chamber-of-enthroned-singers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 300
+    },
+    {
+      "raw_name": "Chambers of bones",
+      "slug": "chambers-of-bones",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 301
+    },
+    {
+      "raw_name": "Chamber of gigantic bat skeletons",
+      "slug": "chamber-of-gigantic-bat-skeletons",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 302
+    },
+    {
+      "raw_name": "Winterfell (seen in vision)",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 303
+    },
+    {
+      "raw_name": "Winterfell godswood (seen in vision)",
+      "slug": "winterfell-godswood",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 304
+    },
+    {
+      "raw_name": "The black pool in the godswood (seen in vision)",
+      "slug": "the-black-pool-in-the-godswood",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 305
+    },
+    {
+      "raw_name": "The crypts of Winterfell (faces from the statues referenced)",
+      "slug": "the-crypts-of-winterfell",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 306
+    },
+    {
+      "raw_name": "The wet wild (crannogmen's lands, referenced by Jojen)",
+      "slug": "the-wet-wild",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 307
+    },
+    {
+      "raw_name": "The western hills (great lions referenced by Leaf)",
+      "slug": "the-western-hills",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 308
+    },
+    {
+      "raw_name": "Maester Luwin's rookery (referenced by Bran in imagination)",
+      "slug": "maester-luwins-rookery",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 309
+    },
+    {
+      "raw_name": "House Stark (Bran's house; lords seen in visions from the crypts)",
+      "slug": "house-stark",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-stark.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 312
+    },
+    {
+      "raw_name": "House Tully (Brynden Blackfish referenced)",
+      "slug": "house-tully",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-tully.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 313
+    },
+    {
+      "raw_name": "Children of the forest / singers / \"those who sing the song of earth\"",
+      "slug": "children-of-the-forest-singers-those-who-sing-the-song-of-earth",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 316
+    },
+    {
+      "raw_name": "Summer's wolf pack",
+      "slug": "summers-wolf-pack",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 317
+    },
+    {
+      "raw_name": "Old gods (weirwood worship; heart trees; singers believe weirwoods ARE the old gods; carved faces to awaken the trees; prayers offered before heart tree)",
+      "slug": "old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 320
+    },
+    {
+      "raw_name": "First Men (learned raven-messaging from singers; knew truths now forgotten)",
+      "slug": "first-men",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/first-men.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 323
+    },
+    {
+      "raw_name": "Crannogmen (Jojen says they \"live closer to the green in our bogs and crannogs, and we remember\")",
+      "slug": "crannogmen",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/crannogmen.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 324
+    },
+    {
+      "raw_name": "Children of the forest / singers (described as a people with their own culture and language)",
+      "slug": "children-of-the-forest-singers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 325
+    },
+    {
+      "raw_name": "Weirwood throne (Bran's — white weirwood flecked with red, dead branches woven through living roots, seat of soft grey moss)",
+      "slug": "weirwood-throne",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 328
+    },
+    {
+      "raw_name": "Weirwood throne (Lord Brynden's — throne of roots)",
+      "slug": "weirwood-throne",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 329
+    },
+    {
+      "raw_name": "Weirwood bowl (carved with a dozen faces like heart trees)",
+      "slug": "weirwood-bowl",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 330
+    },
+    {
+      "raw_name": "Weirwood seed paste (white paste with dark red veins of weirwood sap)",
+      "slug": "weirwood-seed-paste",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 331
+    },
+    {
+      "raw_name": "Ice (Valyrian steel greatsword, seen in vision with Eddard)",
+      "slug": "ice",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/ice.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 332
+    },
+    {
+      "raw_name": "Bronze sickle (wielded by white-haired woman in deepest vision)",
+      "slug": "bronze-sickle",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 333
+    },
+    {
+      "raw_name": "Oilcloth (Eddard cleaning Ice)",
+      "slug": "oilcloth",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 334
+    },
+    {
+      "raw_name": "Wooden spoon (for the paste)",
+      "slug": "wooden-spoon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 335
+    },
+    {
+      "raw_name": "Frog spear (Meera's, used to catch blind white fish)",
+      "slug": "frog-spear",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 336
+    },
+    {
+      "raw_name": "Torches",
+      "slug": "torches",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/torches.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 337
+    },
+    {
+      "raw_name": "Rushlight",
+      "slug": "rushlight",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 338
+    },
+    {
+      "raw_name": "Furs (covering Bran; Jojen wrapped in them)",
+      "slug": "furs",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 339
+    },
+    {
+      "raw_name": "Sword (carried by Hodor in the tunnels)",
+      "slug": "sword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 340
+    },
+    {
+      "raw_name": "Broken branches (used as play swords by children in vision)",
+      "slug": "broken-branches",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 341
+    },
+    {
+      "raw_name": "Parchment (referenced — modern raven messages written on it)",
+      "slug": "parchment",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 342
+    },
+    {
+      "raw_name": "Songs of the children of the forest / song of earth (sung in the True Tongue; voices \"as pure as winter air\")",
+      "slug": "songs-of-the-children-of-the-forest-song-of-earth",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 345
+    },
+    {
+      "raw_name": "\"Fighting stories\" and \"kissing stories\" (books Bran and Sansa like, referenced in passing)",
+      "slug": "fighting-stories-and-kissing-stories",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 346
+    },
+    {
+      "raw_name": "Skinchanging / skin-slipping (Bran enters Summer, ravens, and Hodor; described as putting on a pair of breeches; likened to mounting a horse)",
+      "slug": "skinchanging-skin-slipping",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 349
+    },
+    {
+      "raw_name": "Greensight / greenseeing (seeing through weirwood eyes into the past; one in a million gifted; awakened by weirwood paste)",
+      "slug": "greensight-greenseeing",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 350
+    },
+    {
+      "raw_name": "Weirwood visions (shadows of days past seen through heart tree eyes; time flows differently for trees; past present and future are one for weirwoods)",
+      "slug": "weirwood-visions",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 351
+    },
+    {
+      "raw_name": "Greendreams (Jojen's gift; distinct from greensight; \"the gods gave me only greendreams\")",
+      "slug": "greendreams",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 352
+    },
+    {
+      "raw_name": "The ward on the cave mouth (prevents the dead from entering)",
+      "slug": "the-ward-on-the-cave-mouth",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 353
+    },
+    {
+      "raw_name": "Wight reanimation (dead men with black hands and bright blue eyes; snow bear wight; severed arm still moving; dead ravens with ice-crusted wings)",
+      "slug": "wight-reanimation",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 354
+    },
+    {
+      "raw_name": "Residual presence of dead singers in ravens (shadow on the soul)",
+      "slug": "residual-presence-of-dead-singers-in-ravens",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 355
+    },
+    {
+      "raw_name": "Weirwood paste ritual (awakens greenseer gifts; \"weds\" eater to the trees)",
+      "slug": "weirwood-paste-ritual",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 356
+    },
+    {
+      "raw_name": "True Tongue (language of the children of the forest; ravens can speak it; no human can)",
+      "slug": "true-tongue",
+      "resolved_via": "direct",
+      "node_type": "concept.language",
+      "node_path": "graph/nodes/languages/true-tongue.node.md",
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 357
+    },
+    {
+      "raw_name": "Trees remembering (weirwoods hold memories across millennia; past, present, and future are one for them)",
+      "slug": "trees-remembering",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 358
+    },
+    {
+      "raw_name": "A thousand eyes and one (phrase repeated about Brynden; \"a hundred skins, wisdom deep as the roots of ancient trees\")",
+      "slug": "a-thousand-eyes-and-one",
+      "resolved_via": "direct",
+      "node_type": "object.text",
+      "node_path": "graph/nodes/texts/a-thousand-eyes-and-one.node.md",
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 359
+    },
+    {
+      "raw_name": "Possible blood sacrifice to the weirwoods (deepest vision — captive's throat cut before heart tree; Bran tastes blood)",
+      "slug": "possible-blood-sacrifice-to-the-weirwoods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 360
+    },
+    {
+      "raw_name": "Lord (Brynden referred to as \"Lord Brynden\")",
+      "slug": "lord",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 366
+    },
+    {
+      "raw_name": "The last greenseer (what the singers call Brynden)",
+      "slug": "brynden-rivers",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brynden-rivers.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 367
+    },
+    {
+      "raw_name": "Prince (Bran thinks of himself as \"prince of a lost kingdom\")",
+      "slug": "prince",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/prince.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 368
+    },
+    {
+      "raw_name": "Lord (Bran: \"lord of a burned castle\")",
+      "slug": "lord",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 369
+    },
+    {
+      "raw_name": "Heir (Bran: \"heir to ruins\")",
+      "slug": "heir",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 370
+    },
+    {
+      "raw_name": "Knight (Bran wished to be a knight)",
+      "slug": "knight",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/knight.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 371
+    },
+    {
+      "raw_name": "Species referenced by Leaf as dwindling: giants, great lions of the western hills, unicorns, mammoths, direwolves",
+      "slug": "species-referenced-by-leaf-as-dwindling-giants-great-lions-of-the-western-hills-unicorns-mammoths-direwolves",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 374
+    },
+    {
+      "raw_name": "Grumkins (Robb dismisses them in Bran's memory)",
+      "slug": "grumkins",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 375
+    },
+    {
+      "raw_name": "Goats (share the caves with the singers; provide cheese and milk)",
+      "slug": "goats",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 376
+    },
+    {
+      "raw_name": "Blind white fish (in the underground river)",
+      "slug": "blind-white-fish",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 377
+    },
+    {
+      "raw_name": "Gigantic bats (skeletons found in caves)",
+      "slug": "gigantic-bats",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 378
+    }
+  ]
+}

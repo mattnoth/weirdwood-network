@@ -19,10 +19,6 @@ This project builds a queryable knowledge graph for ASOIAF by:
 4. Building an index (trigger table) and graph (typed nodes + edges) from the extractions
 5. Enabling spoiler-gated queries that traverse connections between characters, locations, artifacts, theories, and prophecies
 
-## Critical Rule: Copyrighted Content
-
-**NEVER commit `sources/raw/` or `full-txt-files/`** — these are the original unprocessed source texts and must remain gitignored. `sources/chapters/` (split chapter files) is tracked in this private repo.
-
 ## Critical Rule: The Wiki Is Already Local — Never Re-Fetch (with one narrow exception)
 
 **The entire AWOIAF wiki (17,945 pages, 377 MB) is cached locally at `sources/wiki/_raw/`.** Every Pass 2+ workflow reads from this cache. There is no re-fetching of page bodies. No `WebFetch`, no full re-crawls, no resurrection of the archived Playwright scraper.
@@ -114,12 +110,18 @@ asoiaf-chat/
 │   ├── architecture.md               # Data model: entity types, edge types, confidence tiers
 │   ├── foreshadowing-events.md       # 26 events + 15 Chekhov's guns
 │   └── pov-characters.md             # POV lookup table + expected chapter counts
-└── working/
-    ├── todos.md                      # Actionable TODOs by topic
-    ├── extraction-stats/             # Token/timing stats per book-pass
-    ├── runbooks/                     # How-to procedures
+├── working/                          # Active scratchpad — live work-in-progress only
+│   ├── todos.md                      # Actionable TODOs by topic
+│   ├── agent-fleet-specs/            # Agent + fleet roadmap (operating manual; reads todos.md)
+│   ├── audits/                       # Per-audit folders (each: prompt/, execution/, validation/)
+│   ├── extraction-stats/             # Token/timing stats per book-pass
+│   ├── runbooks/                     # How-to procedures
+│   ├── wiki-parsed/                  # Derived parse outputs (alias-resolver, infobox-data, etc.)
+│   └── wiki-pass2/                   # Per-bucket Pass 2 promotion outputs
+└── history/                          # Frozen records of past work — not active state
     ├── session-details/              # Full session narratives (human-facing, not loaded by agents)
-    └── worklog-archives/             # Archived older worklog sessions
+    ├── worklog-archives/             # Archived older worklog sessions
+    └── archive/                      # Retired sketches, design reviews
 ```
 
 ## Key Conventions
@@ -132,11 +134,16 @@ asoiaf-chat/
 
 ## Working Directory
 
-`working/` is the scratchpad for in-progress work:
+`working/` is the scratchpad for active in-progress work. Frozen historical records (session details, worklog archives, retired sketches) live under top-level `history/`, not here.
+
 - **`working/todos.md`** — Actionable items organized by topic: agent improvements, prompts to write, reference files to create, infrastructure tasks.
+- **`working/agent-fleet-specs/`** — Agent + fleet operating manual (`agent-pipeline-plan.md`, `fleet-orchestration-plan.md`, `fleet-runtime-architecture.md`). The fleet was designed to tackle `working/todos.md` automatically.
+- **`working/audits/`** — Per-audit folders. Each has its own subfolder with `prompt/`, `execution/`, `validation/`, etc.
 - **`working/runbooks/`** — Step-by-step procedures for operational tasks.
 - **`working/extraction-stats/`** — Token usage and timing stats, one file per book-pass (e.g., `extraction-stats-agot-pass1-v2.csv`).
-- **`working/session-details/`** — Full session narratives (human-facing, NOT loaded by agents). One file per session: `session-NNN.md`. Contains the complete record of what was explored, tried, rejected, and decided — for process documentation and Matt's reference.
+- **`history/session-details/`** — Full session narratives (human-facing, NOT loaded by agents). One file per session: `session-NNN.md`. Contains the complete record of what was explored, tried, rejected, and decided — for process documentation and Matt's reference.
+- **`history/worklog-archives/`** — Older worklog session entries, archived in 5-entry blocks per CLAUDE.md rule #8.
+- **`history/archive/`** — Retired sketches and design reviews preserved with stale-tag preambles.
 - **Anything uncertain** — If you encounter something potentially relevant during analysis but aren't sure where it belongs, put it in `working/` rather than discarding it. Tag it clearly. Matt or a later session will triage.
 
 `progress/` tracks extraction progress and resumption context:
@@ -157,6 +164,6 @@ A file named `scratch` (or `scratch.md` / `scratch.txt`) at the repo root is **M
 6. When modifying an agent prompt's schema, update `reference/architecture.md` to match — these two must stay in sync
 7. **Session documentation:**
    - **worklog.md session entries** (~20-30 lines): agent-facing, concise. What changed, what was decided, what's next. This file is loaded every session — keep it lean.
-   - **working/session-details/session-NNN.md**: optional, *as-needed*. Write one when the session contains design discussion, an incident worth a postmortem, or novel decisions worth a long-form narrative. Pure-execution sessions don't need one — the worklog entry is sufficient. Existing detail files are inconsistently applied (the prior rule was "every session"); audit/backfill is an auxiliary project-story todo, not blocking.
+   - **history/session-details/session-NNN.md**: optional, *as-needed*. Write one when the session contains design discussion, an incident worth a postmortem, or novel decisions worth a long-form narrative. Pure-execution sessions don't need one — the worklog entry is sufficient. Existing detail files are inconsistently applied (the prior rule was "every session"); audit/backfill is an auxiliary project-story todo, not blocking.
    - **Continue prompts** (`progress/continue-prompts/`): self-contained resumption context for specific work tracks. A fresh agent should be able to pick up the work from the continue prompt alone, without reading session history.
-8. **Worklog Session Log holds at most 5 entries.** When a 6th session lands, archive the oldest to `working/worklog-archives/archiveNNN.md`. Each archive file holds exactly 5 entries (start a new `archiveNNN.md` when the current one is full). The worklog itself keeps Current State, Active Decisions, Ideas & Backlog, Principles, and the 5 most recent session entries.
+8. **Worklog Session Log holds at most 5 entries.** When a 6th session lands, archive the oldest to `history/worklog-archives/archiveNNN.md`. Each archive file holds exactly 5 entries (start a new `archiveNNN.md` when the current one is full). The worklog itself keeps Current State, Active Decisions, Ideas & Backlog, Principles, and the 5 most recent session entries.

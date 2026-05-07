@@ -224,6 +224,6 @@ If anything in the launcher or scripts looks like it deletes `skeleton/`, `prose
 - `reference/architecture.md` § "Wiki Infobox Fields → Edge Type Mapping" — the locked deterministic edge vocabulary Stage 3a uses
 - `working/runbooks/wiki-pass2-orchestration.md` — orchestration mechanics (Stage 1 launcher, validator, conflicts) — still applies to Stage 1 re-runs
 - `working/runbooks/wiki-pass2-tier-handoff.md` — Stage 1/2 history; Stage 3 description there is superseded
-- `working/scratch-design-review-stage3b.md` — the Session 26 design review that drove the Stage 3b agent → Python redesign
+- `history/archive/stage3b-design-review-2026-04.md` — the Session 26 design review that drove the Stage 3b agent → Python redesign
 - `progress/continue-prompts/2026-04-27-wiki-pass2-stage4-edge-discovery.md` — Stage 4 skeleton (NOT YET DESIGNED — placeholder)
 - `.claude/agents/wiki-ingester.md` — Stage 1 agent prompt (Stage 3 does not use an agent; this prompt is preserved for Stage 1 re-runs only)

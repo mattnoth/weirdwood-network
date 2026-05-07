@@ -1,0 +1,2329 @@
+{
+  "chapter_id": "adwd-davos-04",
+  "book": "adwd",
+  "pov_character": "davos",
+  "generated_at": "2026-05-07T02:06:34.498984+00:00",
+  "extraction_path": "extractions/mechanical/adwd/adwd-davos-04.extraction.md",
+  "stats": {
+    "total_mentions": 257,
+    "resolved_to_node": 165,
+    "direct": 163,
+    "alias": 2,
+    "unresolved": 92
+  },
+  "mentions": [
+    {
+      "raw_name": "Davos Seaworth",
+      "slug": "davos-seaworth",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/davos-seaworth.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Robett Glover",
+      "slug": "robett-glover",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robett-glover.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Wyman Manderly",
+      "slug": "wyman-manderly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/wyman-manderly.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Wex",
+      "slug": "wex",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Garth",
+      "slug": "garth",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Therry",
+      "slug": "therry",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/therry.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Ser Bartimus",
+      "slug": "bartimus",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bartimus.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Robett Glover",
+      "slug": "robett-glover",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robett-glover.node.md",
+      "section": "Character Appearances",
+      "line": 38
+    },
+    {
+      "raw_name": "Wyman Manderly",
+      "slug": "wyman-manderly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/wyman-manderly.node.md",
+      "section": "Character Appearances",
+      "line": 39
+    },
+    {
+      "raw_name": "Ser Bartimus",
+      "slug": "bartimus",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bartimus.node.md",
+      "section": "Character Appearances",
+      "line": 40
+    },
+    {
+      "raw_name": "Garth",
+      "slug": "garth",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 41
+    },
+    {
+      "raw_name": "Wex",
+      "slug": "wex",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 42
+    },
+    {
+      "raw_name": "Therry",
+      "slug": "therry",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/therry.node.md",
+      "section": "Character Appearances",
+      "line": 43
+    },
+    {
+      "raw_name": "Marya Seaworth",
+      "slug": "marya-seaworth",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/marya-seaworth.node.md",
+      "section": "Characters Referenced",
+      "line": 48
+    },
+    {
+      "raw_name": "Devan Seaworth",
+      "slug": "devan-seaworth",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/devan-seaworth.node.md",
+      "section": "Characters Referenced",
+      "line": 49
+    },
+    {
+      "raw_name": "Steffon Seaworth",
+      "slug": "steffon-seaworth",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/steffon-seaworth.node.md",
+      "section": "Characters Referenced",
+      "line": 50
+    },
+    {
+      "raw_name": "Stannis Seaworth (young)",
+      "slug": "stannis-seaworth",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stannis-seaworth.node.md",
+      "section": "Characters Referenced",
+      "line": 51
+    },
+    {
+      "raw_name": "Davos's dead older sons",
+      "slug": "davoss-dead-older-sons",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 52
+    },
+    {
+      "raw_name": "King Stannis Baratheon",
+      "slug": "stannis-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stannis-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 53
+    },
+    {
+      "raw_name": "Wylis Manderly",
+      "slug": "wylis-manderly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/wylis-manderly.node.md",
+      "section": "Characters Referenced",
+      "line": 54
+    },
+    {
+      "raw_name": "Wendel Manderly",
+      "slug": "wendel-manderly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/wendel-manderly.node.md",
+      "section": "Characters Referenced",
+      "line": 55
+    },
+    {
+      "raw_name": "Wynafryd Manderly",
+      "slug": "wynafryd-manderly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/wynafryd-manderly.node.md",
+      "section": "Characters Referenced",
+      "line": 56
+    },
+    {
+      "raw_name": "Wylla Manderly",
+      "slug": "wylla-manderly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/wylla-manderly.node.md",
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "Lady Leona",
+      "slug": "lady-leona",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "Ser Jared Frey",
+      "slug": "jared-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jared-frey.node.md",
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "Rhaegar Frey",
+      "slug": "rhaegar-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rhaegar-frey.node.md",
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "Symond Frey",
+      "slug": "symond-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/symond-frey.node.md",
+      "section": "Characters Referenced",
+      "line": 61
+    },
+    {
+      "raw_name": "Roose Bolton",
+      "slug": "roose-bolton",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/roose-bolton.node.md",
+      "section": "Characters Referenced",
+      "line": 62
+    },
+    {
+      "raw_name": "Ramsay Snow/Bolton",
+      "slug": "ramsay-snow-bolton",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "Theon Greyjoy",
+      "slug": "theon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/theon-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "Robb Stark (the Young Wolf)",
+      "slug": "robb-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 65
+    },
+    {
+      "raw_name": "Eddard Stark (Ned Stark)",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "Ned Stark's younger daughter",
+      "slug": "ned-starks-younger-daughter",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 67
+    },
+    {
+      "raw_name": "Ned Stark's two younger sons",
+      "slug": "ned-starks-two-younger-sons",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 68
+    },
+    {
+      "raw_name": "Tywin Lannister",
+      "slug": "tywin-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tywin-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 69
+    },
+    {
+      "raw_name": "Lord Walder Frey",
+      "slug": "walder-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/walder-frey.node.md",
+      "section": "Characters Referenced",
+      "line": 70
+    },
+    {
+      "raw_name": "Maester Theomore",
+      "slug": "maester-theomore",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 71
+    },
+    {
+      "raw_name": "Galbart Glover",
+      "slug": "galbart-glover",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/galbart-glover.node.md",
+      "section": "Characters Referenced",
+      "line": 72
+    },
+    {
+      "raw_name": "Ser Rodrik Cassel",
+      "slug": "rodrik-cassel",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rodrik-cassel.node.md",
+      "section": "Characters Referenced",
+      "line": 73
+    },
+    {
+      "raw_name": "Salladhor Saan",
+      "slug": "salladhor-saan",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/salladhor-saan.node.md",
+      "section": "Characters Referenced",
+      "line": 74
+    },
+    {
+      "raw_name": "King Jon Stark",
+      "slug": "jon-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 75
+    },
+    {
+      "raw_name": "Edrick Snowbeard",
+      "slug": "edrick-stark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/edrick-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 76
+    },
+    {
+      "raw_name": "Brandon Stark \"Ice Eyes\"",
+      "slug": "brandon-stark-ice-eyes",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brandon-stark-ice-eyes.node.md",
+      "section": "Characters Referenced",
+      "line": 77
+    },
+    {
+      "raw_name": "Osgood Arryn \"the Old Falcon\"",
+      "slug": "osgood-arryn-the-old-falcon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 78
+    },
+    {
+      "raw_name": "Osgood Arryn's son \"the Talon\"",
+      "slug": "osgood-arryns-son-the-talon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 79
+    },
+    {
+      "raw_name": "Lady Hornwood",
+      "slug": "hornwood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/hornwood.node.md",
+      "section": "Characters Referenced",
+      "line": 80
+    },
+    {
+      "raw_name": "Lord Hornwood",
+      "slug": "hornwood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/hornwood.node.md",
+      "section": "Characters Referenced",
+      "line": 81
+    },
+    {
+      "raw_name": "Prince Aemon the Dragonknight",
+      "slug": "prince-aemon-the-dragonknight",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 82
+    },
+    {
+      "raw_name": "Symeon Star-Eyes",
+      "slug": "symeon-star-eyes",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/symeon-star-eyes.node.md",
+      "section": "Characters Referenced",
+      "line": 83
+    },
+    {
+      "raw_name": "\"The iron bitch\"",
+      "slug": "the-iron-bitch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 84
+    },
+    {
+      "raw_name": "Manderly's fool",
+      "slug": "manderlys-fool",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 85
+    },
+    {
+      "raw_name": "Therry's mother",
+      "slug": "therrys-mother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 86
+    },
+    {
+      "raw_name": "Wolf's Den",
+      "slug": "wolfs-den",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wolfs-den.node.md",
+      "section": "Locations",
+      "line": 91
+    },
+    {
+      "raw_name": "White Harbor",
+      "slug": "white-harbor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/white-harbor.node.md",
+      "section": "Locations",
+      "line": 92
+    },
+    {
+      "raw_name": "New Castle",
+      "slug": "new-castle",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/new-castle.node.md",
+      "section": "Locations",
+      "line": 93
+    },
+    {
+      "raw_name": "Merman's Court",
+      "slug": "mermans-court",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/mermans-court.node.md",
+      "section": "Locations",
+      "line": 94
+    },
+    {
+      "raw_name": "Seal Gate",
+      "slug": "seal-gate",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 95
+    },
+    {
+      "raw_name": "Castle Stair",
+      "slug": "castle-stair",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 96
+    },
+    {
+      "raw_name": "White Knife",
+      "slug": "white-knife",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/white-knife.node.md",
+      "section": "Locations",
+      "line": 97
+    },
+    {
+      "raw_name": "Deepwood Motte",
+      "slug": "deepwood-motte",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/deepwood-motte.node.md",
+      "section": "Locations",
+      "line": 98
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Locations",
+      "line": 99
+    },
+    {
+      "raw_name": "The Dreadfort",
+      "slug": "dreadfort",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dreadfort.node.md",
+      "section": "Locations",
+      "line": 100
+    },
+    {
+      "raw_name": "Moat Cailin",
+      "slug": "moat-cailin",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/moat-cailin.node.md",
+      "section": "Locations",
+      "line": 101
+    },
+    {
+      "raw_name": "Barrowton",
+      "slug": "barrowton",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/barrowton.node.md",
+      "section": "Locations",
+      "line": 102
+    },
+    {
+      "raw_name": "The Twins",
+      "slug": "twins",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/twins.node.md",
+      "section": "Locations",
+      "line": 103
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Locations",
+      "line": 104
+    },
+    {
+      "raw_name": "Flea Bottom",
+      "slug": "flea-bottom",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 105
+    },
+    {
+      "raw_name": "The Blackwater",
+      "slug": "the-blackwater",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 106
+    },
+    {
+      "raw_name": "Braavos",
+      "slug": "braavos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/braavos.node.md",
+      "section": "Locations",
+      "line": 107
+    },
+    {
+      "raw_name": "Eastwatch-by-the-Sea",
+      "slug": "eastwatch-by-the-sea",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/eastwatch-by-the-sea.node.md",
+      "section": "Locations",
+      "line": 108
+    },
+    {
+      "raw_name": "Casterly Rock",
+      "slug": "casterly-rock",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/casterly-rock.node.md",
+      "section": "Locations",
+      "line": 109
+    },
+    {
+      "raw_name": "Lannisport",
+      "slug": "lannisport",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lannisport.node.md",
+      "section": "Locations",
+      "line": 110
+    },
+    {
+      "raw_name": "Iron Throne",
+      "slug": "iron-throne",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/iron-throne.node.md",
+      "section": "Locations",
+      "line": 111
+    },
+    {
+      "raw_name": "The Stepstones",
+      "slug": "stepstones",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/stepstones.node.md",
+      "section": "Locations",
+      "line": 112
+    },
+    {
+      "raw_name": "Three Sisters",
+      "slug": "three-sisters",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/three-sisters.node.md",
+      "section": "Locations",
+      "line": 113
+    },
+    {
+      "raw_name": "Widow's Watch",
+      "slug": "widows-watch",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/widows-watch.node.md",
+      "section": "Locations",
+      "line": 114
+    },
+    {
+      "raw_name": "Oldcastle",
+      "slug": "oldcastle",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/oldcastle.node.md",
+      "section": "Locations",
+      "line": 115
+    },
+    {
+      "raw_name": "Ramsgate",
+      "slug": "ramsgate",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ramsgate.node.md",
+      "section": "Locations",
+      "line": 116
+    },
+    {
+      "raw_name": "Sheepshead Hills",
+      "slug": "sheepshead-hills",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sheepshead-hills.node.md",
+      "section": "Locations",
+      "line": 117
+    },
+    {
+      "raw_name": "Broken Branch",
+      "slug": "broken-branch",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/broken-branch.node.md",
+      "section": "Locations",
+      "line": 118
+    },
+    {
+      "raw_name": "The Neck",
+      "slug": "neck",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/neck.node.md",
+      "section": "Locations",
+      "line": 119
+    },
+    {
+      "raw_name": "The Bite",
+      "slug": "bite",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bite.node.md",
+      "section": "Locations",
+      "line": 120
+    },
+    {
+      "raw_name": "The godswood (Wolf's Den)",
+      "slug": "the-godswood",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 121
+    },
+    {
+      "raw_name": "Narrow sea",
+      "slug": "narrow-sea",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 122
+    },
+    {
+      "raw_name": "Wolf's Den (Davos's cell)",
+      "slug": "wolfs-den",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wolfs-den.node.md",
+      "section": "Location Descriptions",
+      "line": 127
+    },
+    {
+      "raw_name": "Wolf's Den (dungeons/cellars)",
+      "slug": "wolfs-den",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wolfs-den.node.md",
+      "section": "Location Descriptions",
+      "line": 128
+    },
+    {
+      "raw_name": "Wolf's Den (true dungeons)",
+      "slug": "wolfs-den",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wolfs-den.node.md",
+      "section": "Location Descriptions",
+      "line": 129
+    },
+    {
+      "raw_name": "Wolf's Den (godswood)",
+      "slug": "wolfs-den",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wolfs-den.node.md",
+      "section": "Location Descriptions",
+      "line": 130
+    },
+    {
+      "raw_name": "Wolf's Den (general/historical)",
+      "slug": "wolfs-den",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wolfs-den.node.md",
+      "section": "Location Descriptions",
+      "line": 131
+    },
+    {
+      "raw_name": "New Castle (meeting room)",
+      "slug": "new-castle",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/new-castle.node.md",
+      "section": "Location Descriptions",
+      "line": 132
+    },
+    {
+      "raw_name": "Lady Lu",
+      "slug": "lady-lu",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/lady-lu.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 137
+    },
+    {
+      "raw_name": "The Whore",
+      "slug": "the-whore",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 138
+    },
+    {
+      "raw_name": "The Seven-Pointed Star",
+      "slug": "the-seven-pointed-star",
+      "resolved_via": "direct",
+      "node_type": "object.text",
+      "node_path": "graph/nodes/texts/the-seven-pointed-star.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 139
+    },
+    {
+      "raw_name": "Davos's letters",
+      "slug": "davoss-letters",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 140
+    },
+    {
+      "raw_name": "Sheepskin map of the north",
+      "slug": "sheepskin-map-of-the-north",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 141
+    },
+    {
+      "raw_name": "Glover's dagger",
+      "slug": "glovers-dagger",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 142
+    },
+    {
+      "raw_name": "Silver brooch (mailed fist)",
+      "slug": "silver-brooch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 143
+    },
+    {
+      "raw_name": "Golden trident pin",
+      "slug": "golden-trident-pin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 144
+    },
+    {
+      "raw_name": "Davos's fingerbones",
+      "slug": "davoss-fingerbones",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 145
+    },
+    {
+      "raw_name": "Manderly's warships",
+      "slug": "manderlys-warships",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 146
+    },
+    {
+      "raw_name": "Iron fetters",
+      "slug": "iron-fetters",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 147
+    },
+    {
+      "raw_name": "Davos Seaworth (the onion knight, the dead man, Lord Seaworth, Hand)",
+      "slug": "davos-seaworth",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/davos-seaworth.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 337
+    },
+    {
+      "raw_name": "Garth (gaoler)",
+      "slug": "garth",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 338
+    },
+    {
+      "raw_name": "Therry (young turnkey)",
+      "slug": "therry",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/therry.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 339
+    },
+    {
+      "raw_name": "Ser Bartimus (chief gaoler)",
+      "slug": "bartimus",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bartimus.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 340
+    },
+    {
+      "raw_name": "Robett Glover",
+      "slug": "robett-glover",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robett-glover.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 341
+    },
+    {
+      "raw_name": "Wyman Manderly (Lord of White Harbor)",
+      "slug": "wyman-manderly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/wyman-manderly.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 342
+    },
+    {
+      "raw_name": "Wex (mute ironborn boy, Theon's former squire)",
+      "slug": "wex",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 343
+    },
+    {
+      "raw_name": "Marya Seaworth (Davos's wife)",
+      "slug": "marya-seaworth",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/marya-seaworth.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 344
+    },
+    {
+      "raw_name": "Devan Seaworth (Davos's eldest surviving son)",
+      "slug": "devan-seaworth",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/devan-seaworth.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 345
+    },
+    {
+      "raw_name": "Steffon Seaworth (Davos's son)",
+      "slug": "steffon-seaworth",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/steffon-seaworth.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 346
+    },
+    {
+      "raw_name": "Stannis Seaworth (Davos's youngest surviving son)",
+      "slug": "stannis-seaworth",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stannis-seaworth.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 347
+    },
+    {
+      "raw_name": "King Stannis Baratheon",
+      "slug": "stannis-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stannis-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 348
+    },
+    {
+      "raw_name": "Wylis Manderly",
+      "slug": "wylis-manderly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/wylis-manderly.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 349
+    },
+    {
+      "raw_name": "Wendel Manderly",
+      "slug": "wendel-manderly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/wendel-manderly.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 350
+    },
+    {
+      "raw_name": "Wynafryd Manderly",
+      "slug": "wynafryd-manderly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/wynafryd-manderly.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 351
+    },
+    {
+      "raw_name": "Wylla Manderly",
+      "slug": "wylla-manderly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/wylla-manderly.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 352
+    },
+    {
+      "raw_name": "Lady Leona (Manderly's good-daughter)",
+      "slug": "lady-leona",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 353
+    },
+    {
+      "raw_name": "Ser Jared Frey",
+      "slug": "jared-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jared-frey.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 354
+    },
+    {
+      "raw_name": "Rhaegar Frey",
+      "slug": "rhaegar-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rhaegar-frey.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 355
+    },
+    {
+      "raw_name": "Symond Frey",
+      "slug": "symond-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/symond-frey.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 356
+    },
+    {
+      "raw_name": "Roose Bolton",
+      "slug": "roose-bolton",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/roose-bolton.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 357
+    },
+    {
+      "raw_name": "Ramsay Snow / Ramsay Bolton (the Bastard of Bolton)",
+      "slug": "ramsay-snow-ramsay-bolton",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 358
+    },
+    {
+      "raw_name": "Theon Greyjoy",
+      "slug": "theon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/theon-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 359
+    },
+    {
+      "raw_name": "Robb Stark (the Young Wolf)",
+      "slug": "robb-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 360
+    },
+    {
+      "raw_name": "Eddard Stark (Ned Stark, Lord Stark)",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 361
+    },
+    {
+      "raw_name": "Ned Stark's younger daughter (named as such by Glover)",
+      "slug": "ned-starks-younger-daughter",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 362
+    },
+    {
+      "raw_name": "Ned Stark's two younger sons (believed dead, actually alive)",
+      "slug": "ned-starks-two-younger-sons",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 363
+    },
+    {
+      "raw_name": "Tywin Lannister",
+      "slug": "tywin-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tywin-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 364
+    },
+    {
+      "raw_name": "Lord Walder Frey",
+      "slug": "walder-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/walder-frey.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 365
+    },
+    {
+      "raw_name": "Maester Theomore",
+      "slug": "maester-theomore",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 366
+    },
+    {
+      "raw_name": "Galbart Glover",
+      "slug": "galbart-glover",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/galbart-glover.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 367
+    },
+    {
+      "raw_name": "Ser Rodrik Cassel",
+      "slug": "rodrik-cassel",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rodrik-cassel.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 368
+    },
+    {
+      "raw_name": "Salladhor Saan",
+      "slug": "salladhor-saan",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/salladhor-saan.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 369
+    },
+    {
+      "raw_name": "Lady Hornwood (Lord Hornwood's widow)",
+      "slug": "hornwood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/hornwood.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 370
+    },
+    {
+      "raw_name": "Lord Hornwood",
+      "slug": "hornwood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/hornwood.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 371
+    },
+    {
+      "raw_name": "King Jon Stark (historical)",
+      "slug": "jon-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 372
+    },
+    {
+      "raw_name": "Edrick Snowbeard (historical king)",
+      "slug": "edrick-stark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/edrick-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 373
+    },
+    {
+      "raw_name": "Brandon Stark \"Ice Eyes\" (historical)",
+      "slug": "brandon-stark-ice-eyes",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brandon-stark-ice-eyes.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 374
+    },
+    {
+      "raw_name": "Osgood Arryn \"the Old Falcon\" (historical)",
+      "slug": "osgood-arryn-the-old-falcon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 375
+    },
+    {
+      "raw_name": "Osgood Arryn's son \"the Talon\" (historical)",
+      "slug": "osgood-arryns-son-the-talon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 376
+    },
+    {
+      "raw_name": "Prince Aemon the Dragonknight (referenced as exemplar)",
+      "slug": "prince-aemon-the-dragonknight",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 377
+    },
+    {
+      "raw_name": "Symeon Star-Eyes (referenced as exemplar)",
+      "slug": "symeon-star-eyes",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/symeon-star-eyes.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 378
+    },
+    {
+      "raw_name": "\"The iron bitch\" (held Deepwood Motte)",
+      "slug": "the-iron-bitch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 379
+    },
+    {
+      "raw_name": "Manderly's fool (bed infiltrated by Frey handmaid)",
+      "slug": "manderlys-fool",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 380
+    },
+    {
+      "raw_name": "Therry's mother (washerwoman, bedding two guardsmen)",
+      "slug": "therrys-mother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 381
+    },
+    {
+      "raw_name": "Symond Frey's wife (her handmaid spies for Symond)",
+      "slug": "symond-freys-wife",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 382
+    },
+    {
+      "raw_name": "Wolf's Den (Davos's prison, ancient castle)",
+      "slug": "wolfs-den",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wolfs-den.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 385
+    },
+    {
+      "raw_name": "White Harbor",
+      "slug": "white-harbor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/white-harbor.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 386
+    },
+    {
+      "raw_name": "New Castle (upper castle in White Harbor)",
+      "slug": "new-castle",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/new-castle.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 387
+    },
+    {
+      "raw_name": "Merman's Court (feast hall)",
+      "slug": "mermans-court",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/mermans-court.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 388
+    },
+    {
+      "raw_name": "Seal Gate (city gate where heads are displayed)",
+      "slug": "seal-gate",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 389
+    },
+    {
+      "raw_name": "Castle Stair (connecting lower and upper White Harbor)",
+      "slug": "castle-stair",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 390
+    },
+    {
+      "raw_name": "White Knife (river)",
+      "slug": "white-knife",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/white-knife.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 391
+    },
+    {
+      "raw_name": "Deepwood Motte (Glover seat)",
+      "slug": "deepwood-motte",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/deepwood-motte.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 392
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 393
+    },
+    {
+      "raw_name": "The Dreadfort",
+      "slug": "dreadfort",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dreadfort.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 394
+    },
+    {
+      "raw_name": "Moat Cailin",
+      "slug": "moat-cailin",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/moat-cailin.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 395
+    },
+    {
+      "raw_name": "Barrowton",
+      "slug": "barrowton",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/barrowton.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 396
+    },
+    {
+      "raw_name": "The Twins",
+      "slug": "twins",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/twins.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 397
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 398
+    },
+    {
+      "raw_name": "Flea Bottom",
+      "slug": "flea-bottom",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 399
+    },
+    {
+      "raw_name": "The Blackwater (river)",
+      "slug": "the-blackwater",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 400
+    },
+    {
+      "raw_name": "Braavos",
+      "slug": "braavos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/braavos.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 401
+    },
+    {
+      "raw_name": "Eastwatch-by-the-Sea",
+      "slug": "eastwatch-by-the-sea",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/eastwatch-by-the-sea.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 402
+    },
+    {
+      "raw_name": "Casterly Rock",
+      "slug": "casterly-rock",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/casterly-rock.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 403
+    },
+    {
+      "raw_name": "Lannisport",
+      "slug": "lannisport",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lannisport.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 404
+    },
+    {
+      "raw_name": "Iron Throne (as seat of power)",
+      "slug": "iron-throne",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/iron-throne.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 405
+    },
+    {
+      "raw_name": "The Stepstones",
+      "slug": "stepstones",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/stepstones.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 406
+    },
+    {
+      "raw_name": "Three Sisters",
+      "slug": "three-sisters",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/three-sisters.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 407
+    },
+    {
+      "raw_name": "Widow's Watch",
+      "slug": "widows-watch",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/widows-watch.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 408
+    },
+    {
+      "raw_name": "Oldcastle",
+      "slug": "oldcastle",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/oldcastle.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 409
+    },
+    {
+      "raw_name": "Ramsgate",
+      "slug": "ramsgate",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ramsgate.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 410
+    },
+    {
+      "raw_name": "Sheepshead Hills",
+      "slug": "sheepshead-hills",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sheepshead-hills.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 411
+    },
+    {
+      "raw_name": "Broken Branch (river headwaters)",
+      "slug": "broken-branch",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/broken-branch.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 412
+    },
+    {
+      "raw_name": "The Neck",
+      "slug": "neck",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/neck.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 413
+    },
+    {
+      "raw_name": "The Bite",
+      "slug": "bite",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bite.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 414
+    },
+    {
+      "raw_name": "The narrow sea",
+      "slug": "the-narrow-sea",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 415
+    },
+    {
+      "raw_name": "The godswood (Wolf's Den)",
+      "slug": "the-godswood",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 416
+    },
+    {
+      "raw_name": "The godswood (Winterfell, in Wex's account)",
+      "slug": "the-godswood",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 417
+    },
+    {
+      "raw_name": "House Seaworth",
+      "slug": "house-seaworth",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-seaworth.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 420
+    },
+    {
+      "raw_name": "House Manderly",
+      "slug": "house-manderly",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-manderly.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 421
+    },
+    {
+      "raw_name": "House Stark",
+      "slug": "house-stark",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-stark.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 422
+    },
+    {
+      "raw_name": "House Glover",
+      "slug": "house-glover",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-glover.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 423
+    },
+    {
+      "raw_name": "House Bolton",
+      "slug": "house-bolton",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-bolton.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 424
+    },
+    {
+      "raw_name": "House Frey",
+      "slug": "house-frey",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-frey.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 425
+    },
+    {
+      "raw_name": "House Lannister",
+      "slug": "house-lannister",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-lannister.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 426
+    },
+    {
+      "raw_name": "House Greyjoy",
+      "slug": "house-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-greyjoy.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 427
+    },
+    {
+      "raw_name": "House Arryn (historical — Osgood Arryn)",
+      "slug": "house-arryn",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-arryn.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 428
+    },
+    {
+      "raw_name": "House Greystark (historical — offshoot of House Stark, held Wolf's Den for five centuries)",
+      "slug": "house-greystark",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-greystark.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 429
+    },
+    {
+      "raw_name": "House Flint (historical — held Wolf's Den for a century)",
+      "slug": "house-flint",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Houses",
+      "line": 430
+    },
+    {
+      "raw_name": "House Locke (historical — held Wolf's Den for almost two centuries)",
+      "slug": "house-locke",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-locke.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 431
+    },
+    {
+      "raw_name": "House Slate (historical — held Wolf's Den)",
+      "slug": "house-slate",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-slate.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 432
+    },
+    {
+      "raw_name": "House Long (historical — held Wolf's Den)",
+      "slug": "house-long",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-long.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 433
+    },
+    {
+      "raw_name": "House Holt (historical — held Wolf's Den)",
+      "slug": "house-holt",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Houses",
+      "line": 434
+    },
+    {
+      "raw_name": "House Ashwood (historical — held Wolf's Den)",
+      "slug": "house-ashwood",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-ashwood.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 435
+    },
+    {
+      "raw_name": "House Hornwood (referenced through Lady Hornwood)",
+      "slug": "house-hornwood",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-hornwood.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 436
+    },
+    {
+      "raw_name": "House Baratheon (Stannis)",
+      "slug": "house-baratheon",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-baratheon.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 437
+    },
+    {
+      "raw_name": "House Reyne (referenced via \"Reynes of Castamere\")",
+      "slug": "house-reyne",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-reyne.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 438
+    },
+    {
+      "raw_name": "Manderly's household/retinue (bannermen, petty lords, hundred landed knights)",
+      "slug": "manderlys-household-retinue",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 441
+    },
+    {
+      "raw_name": "The Freys in White Harbor (Ser Jared, Rhaegar, Symond — functioning as a faction/surveillance unit)",
+      "slug": "the-freys-in-white-harbor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 442
+    },
+    {
+      "raw_name": "Slavers from the Stepstones (historical — captured the Wolf's Den)",
+      "slug": "slavers-from-the-stepstones",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 443
+    },
+    {
+      "raw_name": "Reavers from the Three Sisters (historical — took the Wolf's Den)",
+      "slug": "reavers-from-the-three-sisters",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 444
+    },
+    {
+      "raw_name": "Old Gods (Ser Bartimus's faith; heart trees; blood sacrifice — entrails hung in branches; \"Your Seven don't know winter\")",
+      "slug": "old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 447
+    },
+    {
+      "raw_name": "The Seven / Faith of the Seven (contrasted by Ser Bartimus; The Seven-Pointed Star given to Davos)",
+      "slug": "the-seven-faith-of-the-seven",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 448
+    },
+    {
+      "raw_name": "Northmen / the North (distinct customs, Old Gods worship, blood sacrifice tradition, \"the north remembers\")",
+      "slug": "northmen-the-north",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 451
+    },
+    {
+      "raw_name": "Southrons (Ser Bartimus's term for Davos and others from the south)",
+      "slug": "southrons",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 452
+    },
+    {
+      "raw_name": "Ironborn (Wex's origin; Theon Greyjoy)",
+      "slug": "ironborn",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/ironborn.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 453
+    },
+    {
+      "raw_name": "First Men (implied through Old Gods worship and northern customs)",
+      "slug": "first-men",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/first-men.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 454
+    },
+    {
+      "raw_name": "Myrish (Myrish carpet in meeting room)",
+      "slug": "myrish",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/myrish.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 455
+    },
+    {
+      "raw_name": "Lady Lu (Garth's enormous axe)",
+      "slug": "lady-lu",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/lady-lu.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 458
+    },
+    {
+      "raw_name": "The Whore (Garth's cold black iron torture rod)",
+      "slug": "the-whore",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 459
+    },
+    {
+      "raw_name": "The Seven-Pointed Star (holy book, given to Davos for reading)",
+      "slug": "the-seven-pointed-star",
+      "resolved_via": "direct",
+      "node_type": "object.text",
+      "node_path": "graph/nodes/texts/the-seven-pointed-star.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 460
+    },
+    {
+      "raw_name": "Davos's farewell letters (to wife and three surviving sons)",
+      "slug": "davoss-farewell-letters",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 461
+    },
+    {
+      "raw_name": "Sheepskin map of the north (faded colors, on wall of meeting room)",
+      "slug": "sheepskin-map-of-the-north",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 462
+    },
+    {
+      "raw_name": "Glover's dagger (given to Wex, thrown at map)",
+      "slug": "glovers-dagger",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 463
+    },
+    {
+      "raw_name": "Silver brooch shaped like a mailed fist (Glover's cloak clasp — House Glover sigil)",
+      "slug": "silver-brooch-shaped-like-a-mailed-fist",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 464
+    },
+    {
+      "raw_name": "Golden trident pin (Manderly's mantle clasp — House Manderly sigil)",
+      "slug": "golden-trident-pin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 465
+    },
+    {
+      "raw_name": "Davos's fingerbones (lost; formerly worn at his throat as luck charm)",
+      "slug": "davoss-fingerbones",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 466
+    },
+    {
+      "raw_name": "Iron fetters (four sets, dangling from cell ceiling)",
+      "slug": "iron-fetters",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 467
+    },
+    {
+      "raw_name": "Manderly's warships (fleet built secretly for over a year)",
+      "slug": "manderlys-warships",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 468
+    },
+    {
+      "raw_name": "Black Bessa (Davos's ship, referenced for size comparison)",
+      "slug": "black-bessa",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 469
+    },
+    {
+      "raw_name": "Valyrian (Salladhor Saan's ship, referenced for size comparison)",
+      "slug": "valyrian",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/valyrian.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 470
+    },
+    {
+      "raw_name": "Palfreys (horses Manderly plans to give the Freys as guest gifts)",
+      "slug": "palfreys",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 471
+    },
+    {
+      "raw_name": "Onion (shoved in the dead man's mouth on the spike)",
+      "slug": "onion",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 472
+    },
+    {
+      "raw_name": "Tallow candle (greasy, in Davos's cell)",
+      "slug": "tallow-candle",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 473
+    },
+    {
+      "raw_name": "Beeswax candles (in Manderly's meeting room)",
+      "slug": "beeswax-candles",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 474
+    },
+    {
+      "raw_name": "The Seven-Pointed Star (holy text of the Faith of the Seven; Davos reads it in his cell)",
+      "slug": "the-seven-pointed-star",
+      "resolved_via": "direct",
+      "node_type": "object.text",
+      "node_path": "graph/nodes/texts/the-seven-pointed-star.node.md",
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 477
+    },
+    {
+      "raw_name": "Davos's letters (personal correspondence to Marya, Devan, Steffon, and young Stannis)",
+      "slug": "davoss-letters",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 478
+    },
+    {
+      "raw_name": "Tywin Lannister's letter to Manderly (threatening submission or destruction like the Reynes)",
+      "slug": "tywin-lannisters-letter-to-manderly",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 479
+    },
+    {
+      "raw_name": "Bolton's ravens (summoning lords to Barrowton)",
+      "slug": "boltons-ravens",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 480
+    },
+    {
+      "raw_name": "Stannis's letters (referenced as saying little because Manderly dares not trust his maester)",
+      "slug": "stanniss-letters",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 481
+    },
+    {
+      "raw_name": "Warging / skinchanging (Freys accuse Robb Stark of being a warg who slew Wendel at the Red Wedding)",
+      "slug": "warging-skinchanging",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 484
+    },
+    {
+      "raw_name": "Heart tree faces (carved face on Wolf's Den weirwood described as \"fat and angry\"; Wex drew a tree with a face to indicate how he escaped)",
+      "slug": "heart-tree-faces",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 485
+    },
+    {
+      "raw_name": "Blood sacrifice to heart trees (historical — slavers' entrails hung in branches as offering to the old gods)",
+      "slug": "blood-sacrifice-to-heart-trees",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 486
+    },
+    {
+      "raw_name": "War of the Five Kings (ongoing context for the entire chapter)",
+      "slug": "war-of-the-five-kings",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/war-of-the-five-kings.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 489
+    },
+    {
+      "raw_name": "Red Wedding (Wendel murdered there; Manderly's fury; Frey lies about wargs)",
+      "slug": "red-wedding",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/red-wedding.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 490
+    },
+    {
+      "raw_name": "Battle of the Trident (Ser Bartimus saved Manderly's life there)",
+      "slug": "battle-of-the-trident",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/battle-of-the-trident.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 491
+    },
+    {
+      "raw_name": "Battle of the Blackwater (Davos's sons died there; \"the day the river burned below King's Landing\")",
+      "slug": "battle-of-the-blackwater",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/battle-of-the-blackwater.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 492
+    },
+    {
+      "raw_name": "Fall of Winterfell (Theon's capture, Ramsay's destruction — Wex's testimony)",
+      "slug": "fall-of-winterfell",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 493
+    },
+    {
+      "raw_name": "Siege/battle at Winterfell by Ser Rodrik Cassel (Ramsay murdered Rodrik during parley)",
+      "slug": "siege-battle-at-winterfell-by-ser-rodrik-cassel",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 494
+    },
+    {
+      "raw_name": "Fall of Moat Cailin (recent; Bolton returned north through it)",
+      "slug": "fall-of-moat-cailin",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/fall-of-moat-cailin.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 495
+    },
+    {
+      "raw_name": "Stannis's campaign to retake Deepwood Motte (successful)",
+      "slug": "stanniss-campaign-to-retake-deepwood-motte",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 496
+    },
+    {
+      "raw_name": "Wars between Winterfell and the Vale (historical — Osgood Arryn besieged Wolf's Den)",
+      "slug": "wars-between-winterfell-and-the-vale",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 497
+    },
+    {
+      "raw_name": "Greystark rebellion (historical — joined with the Dreadfort against Winterfell)",
+      "slug": "greystark-rebellion",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 498
+    },
+    {
+      "raw_name": "Destruction of House Reyne (referenced by Tywin's threat — the Reynes of Castamere)",
+      "slug": "destruction-of-house-reyne",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 499
+    },
+    {
+      "raw_name": "Lord of White Harbor (Wyman Manderly)",
+      "slug": "lord-of-white-harbor",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord-of-white-harbor.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 502
+    },
+    {
+      "raw_name": "King's Hand / Hand of the King (Davos's title under Stannis)",
+      "slug": "kings-hand-hand-of-the-king",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 503
+    },
+    {
+      "raw_name": "King in the North (historical — Jon Stark, Edrick Snowbeard; recent — Robb Stark)",
+      "slug": "king-in-the-north",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/king-in-the-north.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 504
+    },
+    {
+      "raw_name": "Warden of the North (Roose Bolton, appointed by Lannisters)",
+      "slug": "warden-of-the-north",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/warden-of-the-north.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 505
+    },
+    {
+      "raw_name": "Squire (Wex was Theon's squire; Devan is Stannis's squire)",
+      "slug": "squire",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/squire.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 506
+    },
+    {
+      "raw_name": "Knight (Ser Bartimus, Ser Rodrik Cassel, Ser Jared Frey)",
+      "slug": "knight",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/knight.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 507
+    },
+    {
+      "raw_name": "Maester (Theomore)",
+      "slug": "maester",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/maester.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 508
+    },
+    {
+      "raw_name": "Lord (various)",
+      "slug": "lord",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 509
+    },
+    {
+      "raw_name": "Cannibalism (implied at the destination where Davos must go — \"men were known to break their fast on human flesh\")",
+      "slug": "cannibalism",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 512
+    },
+    {
+      "raw_name": "Mummer's farce (Manderly's term for his deception of the Freys)",
+      "slug": "mummers-farce",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 513
+    },
+    {
+      "raw_name": "Guest right (central thematic concern — Red Wedding violation, guest gifts, bread and salt)",
+      "slug": "guest-right",
+      "resolved_via": "direct",
+      "node_type": "concept.custom",
+      "node_path": "graph/nodes/customs/guest-right.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 514
+    }
+  ]
+}

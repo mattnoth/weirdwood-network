@@ -90,7 +90,7 @@ Report each violation.
 
 ## Output Contract
 
-Write a single Markdown report to `working/audits/schema-drift-<UTC-DATE>.md`. Structure:
+Write a single Markdown report to `working/audits/schema-drift-<UTC-DATE>/execution/schema-drift.md`. Structure:
 
 ```markdown
 # Schema-Drift Audit — <UTC date>
@@ -147,6 +147,6 @@ If you find a finding that's so unusual it needs human input before reporting (r
 
 You exit successfully when:
 - Every node in `graph/nodes/**/*.node.md` (excluding internal subdirs) has been checked against all 5 categories
-- The audit report is written to `working/audits/schema-drift-<UTC-DATE>.md`
+- The audit report is written to `working/audits/schema-drift-<UTC-DATE>/execution/schema-drift.md`
 - The report includes a severity-bucketed summary and concrete fix recommendations
 - You produced no output outside the audit report

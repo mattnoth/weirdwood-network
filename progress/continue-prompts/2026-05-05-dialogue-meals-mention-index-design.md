@@ -41,7 +41,6 @@ Plus eventually:
   - Never auto-run extractions; always confirm with Matt first
   - Never delete extractions / archives — old versions go to `extractions/archives/<book>-vN-<date>/`
   - Never auto-run `/endsession`
-  - Never commit copyrighted source files (gitignore handles this; `extractions/` is private repo, OK)
 
 ---
 

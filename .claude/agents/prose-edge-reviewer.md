@@ -50,7 +50,7 @@ You are NOT a re-classifier. You don't redo the classifier's work. You don't pro
 
 ## Output Contract
 
-Write a single markdown report to `working/audits/prose-edge-review-<bucket-id>-<UTC-DATE>.md`. Structure:
+Write a single markdown report to `working/audits/prose-edge-review-<bucket-id>-<UTC-DATE>/execution/prose-edge-review-<bucket-id>.md`. Structure:
 
 ```markdown
 # Prose-Edge Review — <bucket-id> — <UTC date>
@@ -103,6 +103,6 @@ One of:
 ## Definition of Done
 
 - The named sample has been reviewed against all 5 categories
-- A markdown report at `working/audits/prose-edge-review-<bucket-id>-<UTC-DATE>.md` exists
+- A markdown report at `working/audits/prose-edge-review-<bucket-id>-<UTC-DATE>/execution/prose-edge-review-<bucket-id>.md` exists
 - Verdict is CLEAN / CONCERNS / SYSTEMATIC with one-paragraph rationale
 - No output anywhere outside the report

@@ -27,7 +27,7 @@ This agent reviews a batch of extractions (typically one full book = 70-82 chapt
 
 ## Output (when implemented)
 
-`working/audits/extraction-quality-<book>-<UTC-DATE>.md` — markdown report:
+`working/audits/extraction-quality-<book>-<UTC-DATE>/execution/extraction-quality-<book>.md` — markdown report:
 - Per-chapter quick-pass (OK / has issues)
 - Cross-chapter consistency findings (e.g., "Theon tagged 14 different ways across the book")
 - "Other" bucket sample (what's actually in there)

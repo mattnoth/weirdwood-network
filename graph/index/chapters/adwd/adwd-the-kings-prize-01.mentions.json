@@ -1,0 +1,781 @@
+{
+  "chapter_id": "adwd-the-kings-prize-01",
+  "book": "adwd",
+  "pov_character": "the-kings-prize",
+  "generated_at": "2026-05-07T02:06:34.519842+00:00",
+  "extraction_path": "extractions/mechanical/adwd/adwd-the-kings-prize-01.extraction.md",
+  "stats": {
+    "total_mentions": 85,
+    "resolved_to_node": 62,
+    "direct": 57,
+    "alias": 5,
+    "unresolved": 23
+  },
+  "mentions": [
+    {
+      "raw_name": "Asha Greyjoy",
+      "slug": "asha-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/asha-greyjoy.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Stannis Baratheon",
+      "slug": "stannis-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stannis-baratheon.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Alysane Mormont (the She-Bear)",
+      "slug": "alysane-mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alysane-mormont.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Ser Justin Massey",
+      "slug": "justin-massey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/justin-massey.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Ser Godry Farring (the Giantslayer)",
+      "slug": "godry-farring",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/godry-farring.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Ser Richard Horpe",
+      "slug": "richard-horpe",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/richard-horpe.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Ser Corliss Penny",
+      "slug": "corliss-penny",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/corliss-penny.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Ser Clayton Suggs",
+      "slug": "clayton-suggs",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/clayton-suggs.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Harwood Fell (Lord Fell)",
+      "slug": "harwood-fell",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/harwood-fell.node.md",
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Lord Peasebury",
+      "slug": "lord-peasebury",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "Morgan Liddle (Middle Liddle)",
+      "slug": "morgan-liddle",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/morgan-liddle.node.md",
+      "section": "Characters Present",
+      "line": 37
+    },
+    {
+      "raw_name": "Big Bucket Wull (Hugo Wull)",
+      "slug": "hugo-wull",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hugo-wull.node.md",
+      "section": "Characters Present",
+      "line": 38
+    },
+    {
+      "raw_name": "Artos Flint",
+      "slug": "artos-flint",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/artos-flint.node.md",
+      "section": "Characters Present",
+      "line": 39
+    },
+    {
+      "raw_name": "Brandon Norrey",
+      "slug": "brandon-norrey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brandon-norrey.node.md",
+      "section": "Characters Present",
+      "line": 40
+    },
+    {
+      "raw_name": "Black Donnel Flint",
+      "slug": "donnel-flint",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/donnel-flint.node.md",
+      "section": "Characters Present",
+      "line": 41
+    },
+    {
+      "raw_name": "Benjicot Branch",
+      "slug": "benjicot-branch",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/benjicot-branch.node.md",
+      "section": "Characters Present",
+      "line": 42
+    },
+    {
+      "raw_name": "Lord Cobb",
+      "slug": "lord-cobb",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 43
+    },
+    {
+      "raw_name": "Lord Foxglove",
+      "slug": "lord-foxglove",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 44
+    },
+    {
+      "raw_name": "Stannis Baratheon",
+      "slug": "stannis-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stannis-baratheon.node.md",
+      "section": "Character Appearances",
+      "line": 49
+    },
+    {
+      "raw_name": "Ser Justin Massey",
+      "slug": "justin-massey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/justin-massey.node.md",
+      "section": "Character Appearances",
+      "line": 50
+    },
+    {
+      "raw_name": "Alysane Mormont",
+      "slug": "alysane-mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alysane-mormont.node.md",
+      "section": "Character Appearances",
+      "line": 51
+    },
+    {
+      "raw_name": "Ser Godry Farring",
+      "slug": "godry-farring",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/godry-farring.node.md",
+      "section": "Character Appearances",
+      "line": 52
+    },
+    {
+      "raw_name": "Ser Richard Horpe",
+      "slug": "richard-horpe",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/richard-horpe.node.md",
+      "section": "Character Appearances",
+      "line": 53
+    },
+    {
+      "raw_name": "Lord Peasebury",
+      "slug": "lord-peasebury",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 54
+    },
+    {
+      "raw_name": "Asha Greyjoy",
+      "slug": "asha-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/asha-greyjoy.node.md",
+      "section": "Character Appearances",
+      "line": 55
+    },
+    {
+      "raw_name": "Robert Baratheon",
+      "slug": "robert-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robert-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "Melisandre",
+      "slug": "melisandre",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/melisandre.node.md",
+      "section": "Characters Referenced",
+      "line": 61
+    },
+    {
+      "raw_name": "Roose Bolton",
+      "slug": "roose-bolton",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/roose-bolton.node.md",
+      "section": "Characters Referenced",
+      "line": 62
+    },
+    {
+      "raw_name": "Ramsay Bolton (\"his bastard\")",
+      "slug": "ramsay-snow",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ramsay-snow.node.md",
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "Theon Greyjoy",
+      "slug": "theon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/theon-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "Balon Greyjoy",
+      "slug": "balon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/balon-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 65
+    },
+    {
+      "raw_name": "Euron Greyjoy (Crow's Eye)",
+      "slug": "euron-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/euron-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "Eric Ironmaker",
+      "slug": "eric-ironmaker",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 67
+    },
+    {
+      "raw_name": "Galbart Glover",
+      "slug": "galbart-glover",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/galbart-glover.node.md",
+      "section": "Characters Referenced",
+      "line": 68
+    },
+    {
+      "raw_name": "Lady Sybelle Glover",
+      "slug": "sybelle-glover",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sybelle-glover.node.md",
+      "section": "Characters Referenced",
+      "line": 69
+    },
+    {
+      "raw_name": "Eddard Stark (the Ned)",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 70
+    },
+    {
+      "raw_name": "\"Ned's girl\"",
+      "slug": "neds-girl",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 71
+    },
+    {
+      "raw_name": "Mance Rayder",
+      "slug": "mance-rayder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mance-rayder.node.md",
+      "section": "Characters Referenced",
+      "line": 72
+    },
+    {
+      "raw_name": "Renly Baratheon",
+      "slug": "renly-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/renly-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 73
+    },
+    {
+      "raw_name": "Aeron Greyjoy (the Damphair)",
+      "slug": "aeron-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aeron-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 74
+    },
+    {
+      "raw_name": "Lady Alannys",
+      "slug": "lady-alannys",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 75
+    },
+    {
+      "raw_name": "Rodrik Greyjoy",
+      "slug": "rodrik-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rodrik-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 76
+    },
+    {
+      "raw_name": "Maron Greyjoy",
+      "slug": "maron-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/maron-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 77
+    },
+    {
+      "raw_name": "Arnolf Karstark",
+      "slug": "arnolf-karstark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/arnolf-karstark.node.md",
+      "section": "Characters Referenced",
+      "line": 78
+    },
+    {
+      "raw_name": "Mors Umber",
+      "slug": "mors-umber",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mors-umber.node.md",
+      "section": "Characters Referenced",
+      "line": 79
+    },
+    {
+      "raw_name": "Qarl the Maid",
+      "slug": "qarl-the-maid",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qarl-the-maid.node.md",
+      "section": "Characters Referenced",
+      "line": 80
+    },
+    {
+      "raw_name": "Tris Botley",
+      "slug": "tris-botley",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 81
+    },
+    {
+      "raw_name": "Cromm",
+      "slug": "cromm",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cromm.node.md",
+      "section": "Characters Referenced",
+      "line": 82
+    },
+    {
+      "raw_name": "Roggon",
+      "slug": "roggon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 83
+    },
+    {
+      "raw_name": "Dagmer Cleftjaw",
+      "slug": "dagmer",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dagmer.node.md",
+      "section": "Characters Referenced",
+      "line": 84
+    },
+    {
+      "raw_name": "Dacey Mormont",
+      "slug": "dacey-mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dacey-mormont.node.md",
+      "section": "Characters Referenced",
+      "line": 85
+    },
+    {
+      "raw_name": "Lyanna Mormont",
+      "slug": "lyanna-mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lyanna-mormont.node.md",
+      "section": "Characters Referenced",
+      "line": 86
+    },
+    {
+      "raw_name": "Lyra Mormont",
+      "slug": "lyra-mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lyra-mormont.node.md",
+      "section": "Characters Referenced",
+      "line": 87
+    },
+    {
+      "raw_name": "Jory Mormont",
+      "slug": "jory-mormont",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 88
+    },
+    {
+      "raw_name": "The Mormont mother (unnamed in text)",
+      "slug": "the-mormont-mother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 89
+    },
+    {
+      "raw_name": "The wildling princess (unnamed)",
+      "slug": "val",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/val.node.md",
+      "section": "Characters Referenced",
+      "line": 90
+    },
+    {
+      "raw_name": "Lord Fell's grandsire (unnamed)",
+      "slug": "lord-fells-grandsire",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 91
+    },
+    {
+      "raw_name": "Alysane's son (unnamed)",
+      "slug": "alysanes-son",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 92
+    },
+    {
+      "raw_name": "Alysane's daughter (unnamed)",
+      "slug": "alysanes-daughter",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 93
+    },
+    {
+      "raw_name": "Deepwood Motte",
+      "slug": "deepwood-motte",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/deepwood-motte.node.md",
+      "section": "Locations",
+      "line": 98
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Locations",
+      "line": 99
+    },
+    {
+      "raw_name": "The wolfswood",
+      "slug": "wolfswood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wolfswood.node.md",
+      "section": "Locations",
+      "line": 100
+    },
+    {
+      "raw_name": "Crofters' village (between two lakes)",
+      "slug": "crofters-village",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crofters-village.node.md",
+      "section": "Locations",
+      "line": 101
+    },
+    {
+      "raw_name": "Iron Islands / Pyke",
+      "slug": "iron-islands-pyke",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 102
+    },
+    {
+      "raw_name": "The Wall / Castle Black",
+      "slug": "the-wall-castle-black",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 103
+    },
+    {
+      "raw_name": "Eastwatch-by-the-Sea",
+      "slug": "eastwatch-by-the-sea",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/eastwatch-by-the-sea.node.md",
+      "section": "Locations",
+      "line": 104
+    },
+    {
+      "raw_name": "Ten Towers, Harlaw",
+      "slug": "ten-towers-harlaw",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 105
+    },
+    {
+      "raw_name": "Torrhen's Square",
+      "slug": "torrhens-square",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/torrhens-square.node.md",
+      "section": "Locations",
+      "line": 106
+    },
+    {
+      "raw_name": "Storm's End",
+      "slug": "storms-end",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/storms-end.node.md",
+      "section": "Locations",
+      "line": 107
+    },
+    {
+      "raw_name": "Bear Island",
+      "slug": "bear-island",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bear-island.node.md",
+      "section": "Locations",
+      "line": 108
+    },
+    {
+      "raw_name": "Summerhall",
+      "slug": "summerhall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/summerhall.node.md",
+      "section": "Locations",
+      "line": 109
+    },
+    {
+      "raw_name": "Fair Isle",
+      "slug": "fair-isle",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/fair-isle.node.md",
+      "section": "Locations",
+      "line": 110
+    },
+    {
+      "raw_name": "Seastone Chair, Pyke",
+      "slug": "seastone-chair-pyke",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 111
+    },
+    {
+      "raw_name": "Glover lands",
+      "slug": "glover-lands",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 112
+    },
+    {
+      "raw_name": "Deepwood Motte",
+      "slug": "deepwood-motte",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/deepwood-motte.node.md",
+      "section": "Location Descriptions",
+      "line": 117
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Location Descriptions",
+      "line": 118
+    },
+    {
+      "raw_name": "The wolfswood",
+      "slug": "wolfswood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wolfswood.node.md",
+      "section": "Location Descriptions",
+      "line": 119
+    },
+    {
+      "raw_name": "King's pavilion",
+      "slug": "kings-pavilion",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 120
+    },
+    {
+      "raw_name": "Crofters' village",
+      "slug": "crofters-village",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crofters-village.node.md",
+      "section": "Location Descriptions",
+      "line": 121
+    },
+    {
+      "raw_name": "Ten Towers, Harlaw",
+      "slug": "ten-towers-harlaw",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 122
+    },
+    {
+      "raw_name": "Lightbringer",
+      "slug": "lightbringer",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/lightbringer.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 127
+    },
+    {
+      "raw_name": "Asha's iron fetters",
+      "slug": "ashas-iron-fetters",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 128
+    },
+    {
+      "raw_name": "Royal standard",
+      "slug": "royal-standard",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 129
+    },
+    {
+      "raw_name": "Bear-paws (snowshoes)",
+      "slug": "bear-paws",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/bear-paws.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 130
+    },
+    {
+      "raw_name": "Robert's warhammer",
+      "slug": "roberts-warhammer",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/roberts-warhammer.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 131
+    }
+  ]
+}

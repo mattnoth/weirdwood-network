@@ -1,0 +1,1195 @@
+{
+  "chapter_id": "acok-tyrion-12",
+  "book": "acok",
+  "pov_character": "tyrion",
+  "generated_at": "2026-05-07T02:06:34.384613+00:00",
+  "extraction_path": "extractions/mechanical/acok/acok-tyrion-12.extraction.md",
+  "stats": {
+    "total_mentions": 131,
+    "resolved_to_node": 100,
+    "direct": 100,
+    "alias": 0,
+    "unresolved": 31
+  },
+  "mentions": [
+    {
+      "raw_name": "Tyrion Lannister",
+      "slug": "tyrion-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tyrion-lannister.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Varys",
+      "slug": "varys",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/varys.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Podrick Payne (Pod)",
+      "slug": "podrick-payne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/podrick-payne.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Cersei Lannister",
+      "slug": "cersei-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cersei-lannister.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Alayaya",
+      "slug": "alayaya",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alayaya.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Osney Kettleblack",
+      "slug": "osney-kettleblack",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/osney-kettleblack.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Osfryd Kettleblack",
+      "slug": "osfryd-kettleblack",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/osfryd-kettleblack.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Shae",
+      "slug": "shae",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/shae.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Tyrion Lannister",
+      "slug": "tyrion-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tyrion-lannister.node.md",
+      "section": "Character Appearances",
+      "line": 39
+    },
+    {
+      "raw_name": "Cersei Lannister",
+      "slug": "cersei-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cersei-lannister.node.md",
+      "section": "Character Appearances",
+      "line": 40
+    },
+    {
+      "raw_name": "Osney Kettleblack",
+      "slug": "osney-kettleblack",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/osney-kettleblack.node.md",
+      "section": "Character Appearances",
+      "line": 41
+    },
+    {
+      "raw_name": "Osfryd Kettleblack",
+      "slug": "osfryd-kettleblack",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/osfryd-kettleblack.node.md",
+      "section": "Character Appearances",
+      "line": 42
+    },
+    {
+      "raw_name": "Alayaya",
+      "slug": "alayaya",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alayaya.node.md",
+      "section": "Character Appearances",
+      "line": 43
+    },
+    {
+      "raw_name": "Shae",
+      "slug": "shae",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/shae.node.md",
+      "section": "Character Appearances",
+      "line": 44
+    },
+    {
+      "raw_name": "Bran Stark",
+      "slug": "bran-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bran-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 49
+    },
+    {
+      "raw_name": "Rickon Stark",
+      "slug": "rickon-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rickon-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 50
+    },
+    {
+      "raw_name": "Jaime Lannister",
+      "slug": "jaime-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaime-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 51
+    },
+    {
+      "raw_name": "Catelyn Stark",
+      "slug": "catelyn-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/catelyn-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 52
+    },
+    {
+      "raw_name": "Joffrey Baratheon",
+      "slug": "joffrey-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/joffrey-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 53
+    },
+    {
+      "raw_name": "Tommen Baratheon",
+      "slug": "tommen-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tommen-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 54
+    },
+    {
+      "raw_name": "Myrcella Baratheon",
+      "slug": "myrcella-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/myrcella-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 55
+    },
+    {
+      "raw_name": "Sansa Stark",
+      "slug": "sansa-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sansa-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 56
+    },
+    {
+      "raw_name": "Stannis Baratheon",
+      "slug": "stannis-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stannis-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "Petyr Baelish (Littlefinger)",
+      "slug": "petyr-baelish",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/petyr-baelish.node.md",
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "Lady Tanda",
+      "slug": "lady-tanda",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "Lord Gyles",
+      "slug": "lord-gyles",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "Ser Boros Blount",
+      "slug": "boros-blount",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/boros-blount.node.md",
+      "section": "Characters Referenced",
+      "line": 61
+    },
+    {
+      "raw_name": "Ser Osmund Kettleblack",
+      "slug": "osmund-kettleblack",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/osmund-kettleblack.node.md",
+      "section": "Characters Referenced",
+      "line": 62
+    },
+    {
+      "raw_name": "Meryn Trant",
+      "slug": "meryn-trant",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meryn-trant.node.md",
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "Balon Swann",
+      "slug": "balon-swann",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/balon-swann.node.md",
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "Sandor Clegane (the Hound)",
+      "slug": "sandor-clegane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sandor-clegane.node.md",
+      "section": "Characters Referenced",
+      "line": 65
+    },
+    {
+      "raw_name": "Lord Jacelyn Bywater",
+      "slug": "jacelyn-bywater",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jacelyn-bywater.node.md",
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "Bronn",
+      "slug": "bronn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bronn.node.md",
+      "section": "Characters Referenced",
+      "line": 67
+    },
+    {
+      "raw_name": "Theon Greyjoy",
+      "slug": "theon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/theon-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 68
+    },
+    {
+      "raw_name": "Robert Baratheon",
+      "slug": "robert-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robert-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 69
+    },
+    {
+      "raw_name": "Tywin Lannister",
+      "slug": "tywin-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tywin-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 70
+    },
+    {
+      "raw_name": "Lollys Stokeworth",
+      "slug": "lollys-stokeworth",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lollys-stokeworth.node.md",
+      "section": "Characters Referenced",
+      "line": 71
+    },
+    {
+      "raw_name": "Chataya",
+      "slug": "chataya",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/chataya.node.md",
+      "section": "Characters Referenced",
+      "line": 72
+    },
+    {
+      "raw_name": "The Antler Men",
+      "slug": "antler-men",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/antler-men.node.md",
+      "section": "Characters Referenced",
+      "line": 73
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Locations",
+      "line": 78
+    },
+    {
+      "raw_name": "The yard (Red Keep)",
+      "slug": "the-yard",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 79
+    },
+    {
+      "raw_name": "Cersei's chambers",
+      "slug": "cerseis-chambers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 80
+    },
+    {
+      "raw_name": "Tower of the Hand",
+      "slug": "tower-of-the-hand",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/tower-of-the-hand.node.md",
+      "section": "Locations",
+      "line": 81
+    },
+    {
+      "raw_name": "Tyrion's bedchamber",
+      "slug": "tyrions-bedchamber",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 82
+    },
+    {
+      "raw_name": "Red Keep",
+      "slug": "red-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-keep.node.md",
+      "section": "Locations",
+      "line": 83
+    },
+    {
+      "raw_name": "Riverrun",
+      "slug": "riverrun",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/riverrun.node.md",
+      "section": "Locations",
+      "line": 84
+    },
+    {
+      "raw_name": "Bitterbridge",
+      "slug": "bitterbridge",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bitterbridge.node.md",
+      "section": "Locations",
+      "line": 85
+    },
+    {
+      "raw_name": "Rosby",
+      "slug": "rosby",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/rosby.node.md",
+      "section": "Locations",
+      "line": 86
+    },
+    {
+      "raw_name": "Stokeworth",
+      "slug": "stokeworth",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/stokeworth.node.md",
+      "section": "Locations",
+      "line": 87
+    },
+    {
+      "raw_name": "The kingswood",
+      "slug": "kingswood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kingswood.node.md",
+      "section": "Locations",
+      "line": 88
+    },
+    {
+      "raw_name": "Casterly Rock",
+      "slug": "casterly-rock",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/casterly-rock.node.md",
+      "section": "Locations",
+      "line": 89
+    },
+    {
+      "raw_name": "The Blackwater",
+      "slug": "the-blackwater",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 90
+    },
+    {
+      "raw_name": "Chataya's establishment",
+      "slug": "chatayas-establishment",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 91
+    },
+    {
+      "raw_name": "Secret passages (Red Keep)",
+      "slug": "secret-passages",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 92
+    },
+    {
+      "raw_name": "Cersei's chambers",
+      "slug": "cerseis-chambers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 97
+    },
+    {
+      "raw_name": "Tyrion's bedchamber",
+      "slug": "tyrions-bedchamber",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 98
+    },
+    {
+      "raw_name": "Secret passages (Red Keep)",
+      "slug": "secret-passages",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 99
+    },
+    {
+      "raw_name": "Chain of office (Hand of the King)",
+      "slug": "chain-of-office",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 104
+    },
+    {
+      "raw_name": "Golden chain of linked hands",
+      "slug": "golden-chain-of-linked-hands",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 105
+    },
+    {
+      "raw_name": "Parchment/letter from the north",
+      "slug": "parchment-letter-from-the-north",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 106
+    },
+    {
+      "raw_name": "Iron gate in secret passage",
+      "slug": "iron-gate-in-secret-passage",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 107
+    },
+    {
+      "raw_name": "Tyrion Lannister (POV)",
+      "slug": "tyrion-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tyrion-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 254
+    },
+    {
+      "raw_name": "Varys",
+      "slug": "varys",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/varys.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 255
+    },
+    {
+      "raw_name": "Podrick Payne (Pod)",
+      "slug": "podrick-payne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/podrick-payne.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 256
+    },
+    {
+      "raw_name": "Cersei Lannister",
+      "slug": "cersei-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cersei-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 257
+    },
+    {
+      "raw_name": "Alayaya",
+      "slug": "alayaya",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alayaya.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 258
+    },
+    {
+      "raw_name": "Osney Kettleblack",
+      "slug": "osney-kettleblack",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/osney-kettleblack.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 259
+    },
+    {
+      "raw_name": "Osfryd Kettleblack",
+      "slug": "osfryd-kettleblack",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/osfryd-kettleblack.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 260
+    },
+    {
+      "raw_name": "Shae",
+      "slug": "shae",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/shae.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 261
+    },
+    {
+      "raw_name": "Jaime Lannister (referenced)",
+      "slug": "jaime-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaime-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 262
+    },
+    {
+      "raw_name": "Bran Stark (referenced)",
+      "slug": "bran-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bran-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 263
+    },
+    {
+      "raw_name": "Rickon Stark (implied — \"Both of them?\")",
+      "slug": "rickon-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rickon-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 264
+    },
+    {
+      "raw_name": "Catelyn Stark (referenced)",
+      "slug": "catelyn-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/catelyn-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 265
+    },
+    {
+      "raw_name": "Joffrey Baratheon (referenced)",
+      "slug": "joffrey-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/joffrey-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 266
+    },
+    {
+      "raw_name": "Tommen Baratheon (referenced)",
+      "slug": "tommen-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tommen-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 267
+    },
+    {
+      "raw_name": "Myrcella Baratheon (referenced)",
+      "slug": "myrcella-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/myrcella-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 268
+    },
+    {
+      "raw_name": "Sansa Stark (referenced)",
+      "slug": "sansa-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sansa-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 269
+    },
+    {
+      "raw_name": "Stannis Baratheon (referenced)",
+      "slug": "stannis-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stannis-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 270
+    },
+    {
+      "raw_name": "Petyr Baelish / Littlefinger (referenced)",
+      "slug": "petyr-baelish-littlefinger",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 271
+    },
+    {
+      "raw_name": "Lady Tanda Stokeworth (referenced)",
+      "slug": "tanda-stokeworth",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tanda-stokeworth.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 272
+    },
+    {
+      "raw_name": "Lord Gyles Rosby (referenced)",
+      "slug": "gyles-rosby",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gyles-rosby.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 273
+    },
+    {
+      "raw_name": "Ser Boros Blount (referenced)",
+      "slug": "boros-blount",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/boros-blount.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 274
+    },
+    {
+      "raw_name": "Ser Osmund Kettleblack (referenced)",
+      "slug": "osmund-kettleblack",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/osmund-kettleblack.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 275
+    },
+    {
+      "raw_name": "Meryn Trant (referenced)",
+      "slug": "meryn-trant",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meryn-trant.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 276
+    },
+    {
+      "raw_name": "Balon Swann (referenced)",
+      "slug": "balon-swann",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/balon-swann.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 277
+    },
+    {
+      "raw_name": "Sandor Clegane / the Hound (referenced)",
+      "slug": "sandor-clegane-the-hound",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 278
+    },
+    {
+      "raw_name": "Lord Jacelyn Bywater (referenced)",
+      "slug": "jacelyn-bywater",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jacelyn-bywater.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 279
+    },
+    {
+      "raw_name": "Bronn (referenced)",
+      "slug": "bronn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bronn.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 280
+    },
+    {
+      "raw_name": "Theon Greyjoy (referenced as \"Greyjoy\")",
+      "slug": "theon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/theon-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 281
+    },
+    {
+      "raw_name": "Robert Baratheon (referenced)",
+      "slug": "robert-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robert-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 282
+    },
+    {
+      "raw_name": "Tywin Lannister (referenced as \"our lord father,\" \"their lord father\")",
+      "slug": "tywin-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tywin-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 283
+    },
+    {
+      "raw_name": "Lollys Stokeworth (referenced)",
+      "slug": "lollys-stokeworth",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lollys-stokeworth.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 284
+    },
+    {
+      "raw_name": "Chataya (referenced)",
+      "slug": "chataya",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/chataya.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 285
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 288
+    },
+    {
+      "raw_name": "Red Keep",
+      "slug": "red-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-keep.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 289
+    },
+    {
+      "raw_name": "The yard (Red Keep)",
+      "slug": "the-yard",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 290
+    },
+    {
+      "raw_name": "Cersei's chambers",
+      "slug": "cerseis-chambers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 291
+    },
+    {
+      "raw_name": "Tower of the Hand",
+      "slug": "tower-of-the-hand",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/tower-of-the-hand.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 292
+    },
+    {
+      "raw_name": "Tyrion's bedchamber",
+      "slug": "tyrions-bedchamber",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 293
+    },
+    {
+      "raw_name": "Secret passages (Red Keep) — dragon mosaic, iron gate, ladders, tunnel",
+      "slug": "secret-passages",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 294
+    },
+    {
+      "raw_name": "Riverrun",
+      "slug": "riverrun",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/riverrun.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 295
+    },
+    {
+      "raw_name": "Bitterbridge",
+      "slug": "bitterbridge",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bitterbridge.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 296
+    },
+    {
+      "raw_name": "Rosby",
+      "slug": "rosby",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/rosby.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 297
+    },
+    {
+      "raw_name": "Stokeworth",
+      "slug": "stokeworth",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/stokeworth.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 298
+    },
+    {
+      "raw_name": "The kingswood",
+      "slug": "kingswood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kingswood.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 299
+    },
+    {
+      "raw_name": "Casterly Rock",
+      "slug": "casterly-rock",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/casterly-rock.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 300
+    },
+    {
+      "raw_name": "The Blackwater (river)",
+      "slug": "the-blackwater",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 301
+    },
+    {
+      "raw_name": "Chataya's establishment",
+      "slug": "chatayas-establishment",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 302
+    },
+    {
+      "raw_name": "The north (source of the letter)",
+      "slug": "north",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/north.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 303
+    },
+    {
+      "raw_name": "House Lannister",
+      "slug": "house-lannister",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-lannister.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 306
+    },
+    {
+      "raw_name": "House Stark",
+      "slug": "house-stark",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-stark.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 307
+    },
+    {
+      "raw_name": "House Baratheon",
+      "slug": "house-baratheon",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-baratheon.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 308
+    },
+    {
+      "raw_name": "House Greyjoy",
+      "slug": "house-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-greyjoy.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 309
+    },
+    {
+      "raw_name": "House Kettleblack",
+      "slug": "house-kettleblack",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-kettleblack.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 310
+    },
+    {
+      "raw_name": "House Stokeworth",
+      "slug": "house-stokeworth",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-stokeworth.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 311
+    },
+    {
+      "raw_name": "The Antler Men (conspiracy to betray King's Landing to Stannis)",
+      "slug": "antler-men",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/antler-men.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 314
+    },
+    {
+      "raw_name": "Gold cloaks (city watch — assigned to protect Joffrey)",
+      "slug": "gold-cloaks",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 315
+    },
+    {
+      "raw_name": "Kingsguard (Ser Osmund, Meryn Trant, Ser Boros, Balon Swann, the Hound mentioned as members/former)",
+      "slug": "kingsguard",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/kingsguard.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 316
+    },
+    {
+      "raw_name": "Bronn's sellswords",
+      "slug": "bronns-sellswords",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 317
+    },
+    {
+      "raw_name": "Chain of office (Hand of the King)",
+      "slug": "chain-of-office",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 326
+    },
+    {
+      "raw_name": "Golden chain of linked golden hands (worn by Shae)",
+      "slug": "golden-chain-of-linked-golden-hands",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 327
+    },
+    {
+      "raw_name": "Parchment/letter from the north",
+      "slug": "parchment-letter-from-the-north",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 328
+    },
+    {
+      "raw_name": "Iron gate in secret passage",
+      "slug": "iron-gate-in-secret-passage",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 329
+    },
+    {
+      "raw_name": "Cersei's dagger (used to eat apple)",
+      "slug": "cerseis-dagger",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 330
+    },
+    {
+      "raw_name": "War of the Five Kings (implicit context — Stannis approaching King's Landing)",
+      "slug": "war-of-the-five-kings",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/war-of-the-five-kings.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 339
+    },
+    {
+      "raw_name": "Battle of the Blackwater (imminent — discussed in military planning)",
+      "slug": "battle-of-the-blackwater",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/battle-of-the-blackwater.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 340
+    },
+    {
+      "raw_name": "Hand of the King (Tyrion holds this; chain of office referenced)",
+      "slug": "hand-of-the-king",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/hand-of-the-king.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 343
+    },
+    {
+      "raw_name": "King (Joffrey)",
+      "slug": "king",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/king.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 344
+    },
+    {
+      "raw_name": "Queen (Cersei)",
+      "slug": "queen",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/queen.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 345
+    },
+    {
+      "raw_name": "Shadowcat (simile — Alayaya scratched Osney \"like a shadowcat\")",
+      "slug": "shadowcat",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/shadowcat.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 348
+    },
+    {
+      "raw_name": "Dragon mosaic (red and black tiles in secret passage floor)",
+      "slug": "dragon-mosaic",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 349
+    }
+  ]
+}

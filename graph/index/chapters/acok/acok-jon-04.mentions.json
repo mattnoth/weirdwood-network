@@ -1,0 +1,844 @@
+{
+  "chapter_id": "acok-jon-04",
+  "book": "acok",
+  "pov_character": "jon",
+  "generated_at": "2026-05-07T02:06:34.362358+00:00",
+  "extraction_path": "extractions/mechanical/acok/acok-jon-04.extraction.md",
+  "stats": {
+    "total_mentions": 92,
+    "resolved_to_node": 72,
+    "direct": 69,
+    "alias": 3,
+    "unresolved": 20
+  },
+  "mentions": [
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Ghost",
+      "slug": "ghost",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ghost.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Lord Commander Mormont",
+      "slug": "mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mormont.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Thoren Smallwood",
+      "slug": "thoren-smallwood",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/thoren-smallwood.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Samwell Tarly",
+      "slug": "samwell-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Jarman Buckwell",
+      "slug": "jarman-buckwell",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jarman-buckwell.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Ser Mallador Locke",
+      "slug": "mallador-locke",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mallador-locke.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Ser Ottyn Wythers",
+      "slug": "ottyn-wythers",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ottyn-wythers.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Dywen",
+      "slug": "dywen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dywen.node.md",
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Grenn",
+      "slug": "grenn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/grenn.node.md",
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "Dolorous Edd",
+      "slug": "eddison-tollett",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddison-tollett.node.md",
+      "section": "Characters Present",
+      "line": 37
+    },
+    {
+      "raw_name": "Hake",
+      "slug": "hake",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hake.node.md",
+      "section": "Characters Present",
+      "line": 38
+    },
+    {
+      "raw_name": "Mormont's raven",
+      "slug": "mormonts-raven",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mormonts-raven.node.md",
+      "section": "Characters Present",
+      "line": 39
+    },
+    {
+      "raw_name": "Ghost",
+      "slug": "ghost",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ghost.node.md",
+      "section": "Character Appearances",
+      "line": 44
+    },
+    {
+      "raw_name": "Lord Commander Mormont",
+      "slug": "mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mormont.node.md",
+      "section": "Character Appearances",
+      "line": 45
+    },
+    {
+      "raw_name": "Thoren Smallwood",
+      "slug": "thoren-smallwood",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/thoren-smallwood.node.md",
+      "section": "Character Appearances",
+      "line": 46
+    },
+    {
+      "raw_name": "Dywen",
+      "slug": "dywen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dywen.node.md",
+      "section": "Character Appearances",
+      "line": 47
+    },
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Character Appearances",
+      "line": 48
+    },
+    {
+      "raw_name": "Qhorin Halfhand",
+      "slug": "qhorin-halfhand",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qhorin-halfhand.node.md",
+      "section": "Characters Referenced",
+      "line": 53
+    },
+    {
+      "raw_name": "Mance Rayder",
+      "slug": "mance-rayder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mance-rayder.node.md",
+      "section": "Characters Referenced",
+      "line": 54
+    },
+    {
+      "raw_name": "Craster",
+      "slug": "craster",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/craster.node.md",
+      "section": "Characters Referenced",
+      "line": 55
+    },
+    {
+      "raw_name": "Benjen Stark",
+      "slug": "benjen-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/benjen-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 56
+    },
+    {
+      "raw_name": "Othor",
+      "slug": "othor",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/othor.node.md",
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "Jafer Flowers",
+      "slug": "jafer-flowers",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jafer-flowers.node.md",
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "Maester Aemon",
+      "slug": "maester-aemon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "The Fist of the First Men",
+      "slug": "fist-of-the-first-men",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/fist-of-the-first-men.node.md",
+      "section": "Locations",
+      "line": 64
+    },
+    {
+      "raw_name": "The Milkwater",
+      "slug": "milkwater",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/milkwater.node.md",
+      "section": "Locations",
+      "line": 65
+    },
+    {
+      "raw_name": "The Frostfangs",
+      "slug": "frostfangs",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/frostfangs.node.md",
+      "section": "Locations",
+      "line": 66
+    },
+    {
+      "raw_name": "The haunted forest",
+      "slug": "the-haunted-forest",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 67
+    },
+    {
+      "raw_name": "The Shadow Tower",
+      "slug": "shadow-tower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/shadow-tower.node.md",
+      "section": "Locations",
+      "line": 68
+    },
+    {
+      "raw_name": "Castle Black",
+      "slug": "castle-black",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/castle-black.node.md",
+      "section": "Locations",
+      "line": 69
+    },
+    {
+      "raw_name": "Craster's Keep",
+      "slug": "crasters-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crasters-keep.node.md",
+      "section": "Locations",
+      "line": 70
+    },
+    {
+      "raw_name": "The Giant's Stair",
+      "slug": "giants-stair",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/giants-stair.node.md",
+      "section": "Locations",
+      "line": 71
+    },
+    {
+      "raw_name": "The Skirling Pass",
+      "slug": "skirling-pass",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/skirling-pass.node.md",
+      "section": "Locations",
+      "line": 72
+    },
+    {
+      "raw_name": "The Fist of the First Men",
+      "slug": "fist-of-the-first-men",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/fist-of-the-first-men.node.md",
+      "section": "Location Descriptions",
+      "line": 77
+    },
+    {
+      "raw_name": "Dragonglass cache (obsidian weapons)",
+      "slug": "dragonglass-cache",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 82
+    },
+    {
+      "raw_name": "Old warhorn",
+      "slug": "old-warhorn",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/old-warhorn.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 83
+    },
+    {
+      "raw_name": "Black cloak of the Night's Watch",
+      "slug": "black-cloak-of-the-nights-watch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 84
+    },
+    {
+      "raw_name": "Sam's map",
+      "slug": "sams-map",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 85
+    },
+    {
+      "raw_name": "Mormont's Torch (comet)",
+      "slug": "mormonts-torch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 86
+    },
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 205
+    },
+    {
+      "raw_name": "Ghost (direwolf)",
+      "slug": "ghost",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ghost.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 206
+    },
+    {
+      "raw_name": "Lord Commander Jeor Mormont (the Old Bear)",
+      "slug": "jeor-mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jeor-mormont.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 207
+    },
+    {
+      "raw_name": "Mormont's raven",
+      "slug": "mormonts-raven",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mormonts-raven.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 208
+    },
+    {
+      "raw_name": "Thoren Smallwood",
+      "slug": "thoren-smallwood",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/thoren-smallwood.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 209
+    },
+    {
+      "raw_name": "Samwell Tarly",
+      "slug": "samwell-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 210
+    },
+    {
+      "raw_name": "Jarman Buckwell",
+      "slug": "jarman-buckwell",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jarman-buckwell.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 211
+    },
+    {
+      "raw_name": "Ser Mallador Locke",
+      "slug": "mallador-locke",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mallador-locke.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 212
+    },
+    {
+      "raw_name": "Ser Ottyn Wythers",
+      "slug": "ottyn-wythers",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ottyn-wythers.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 213
+    },
+    {
+      "raw_name": "Dywen",
+      "slug": "dywen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dywen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 214
+    },
+    {
+      "raw_name": "Grenn",
+      "slug": "grenn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/grenn.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 215
+    },
+    {
+      "raw_name": "Dolorous Edd (Eddison Tollett)",
+      "slug": "eddison-tollett",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddison-tollett.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 216
+    },
+    {
+      "raw_name": "Hake",
+      "slug": "hake",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hake.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 217
+    },
+    {
+      "raw_name": "Qhorin Halfhand (referenced)",
+      "slug": "qhorin-halfhand",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qhorin-halfhand.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 218
+    },
+    {
+      "raw_name": "Mance Rayder (referenced)",
+      "slug": "mance-rayder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mance-rayder.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 219
+    },
+    {
+      "raw_name": "Craster (referenced)",
+      "slug": "craster",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/craster.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 220
+    },
+    {
+      "raw_name": "Benjen Stark (referenced)",
+      "slug": "benjen-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/benjen-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 221
+    },
+    {
+      "raw_name": "Othor (referenced — dead ranger returned as wight)",
+      "slug": "othor",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/othor.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 222
+    },
+    {
+      "raw_name": "Jafer Flowers (referenced — dead ranger returned as wight)",
+      "slug": "jafer-flowers",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jafer-flowers.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 223
+    },
+    {
+      "raw_name": "Maester Aemon (referenced)",
+      "slug": "maester-aemon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 224
+    },
+    {
+      "raw_name": "The Fist of the First Men",
+      "slug": "fist-of-the-first-men",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/fist-of-the-first-men.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 227
+    },
+    {
+      "raw_name": "The Milkwater (river)",
+      "slug": "milkwater",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/milkwater.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 228
+    },
+    {
+      "raw_name": "The Frostfangs (mountain range)",
+      "slug": "frostfangs",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/frostfangs.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 229
+    },
+    {
+      "raw_name": "The haunted forest",
+      "slug": "the-haunted-forest",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 230
+    },
+    {
+      "raw_name": "The Shadow Tower",
+      "slug": "shadow-tower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/shadow-tower.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 231
+    },
+    {
+      "raw_name": "Castle Black",
+      "slug": "castle-black",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/castle-black.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 232
+    },
+    {
+      "raw_name": "Craster's Keep",
+      "slug": "crasters-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crasters-keep.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 233
+    },
+    {
+      "raw_name": "The Giant's Stair",
+      "slug": "giants-stair",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/giants-stair.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 234
+    },
+    {
+      "raw_name": "The Skirling Pass",
+      "slug": "skirling-pass",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/skirling-pass.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 235
+    },
+    {
+      "raw_name": "Night's Watch (the Sworn Brothers; rangers, stewards, builders, foresters all mentioned)",
+      "slug": "nights-watch",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/nights-watch.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 241
+    },
+    {
+      "raw_name": "Wildlings (Free Folk — Mance Rayder's host)",
+      "slug": "free-folk",
+      "resolved_via": "alias",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/free-folk.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 247
+    },
+    {
+      "raw_name": "The First Men (built the ringfort in the Dawn Age)",
+      "slug": "first-men",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/first-men.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 248
+    },
+    {
+      "raw_name": "Children of the forest (referenced as possible original owners of the dragonglass)",
+      "slug": "children-of-the-forest",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/children-of-the-forest.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 249
+    },
+    {
+      "raw_name": "Dragonglass (obsidian) cache: knives, leaf-shaped spearheads, arrowheads, dagger blade",
+      "slug": "dragonglass-cache-knives-leaf-shaped-spearheads-arrowheads-dagger-blade",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 252
+    },
+    {
+      "raw_name": "Old warhorn (auroch's horn, banded in bronze)",
+      "slug": "old-warhorn",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/old-warhorn.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 253
+    },
+    {
+      "raw_name": "Black cloak of the Night's Watch (wrapping the cache)",
+      "slug": "black-cloak-of-the-nights-watch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 254
+    },
+    {
+      "raw_name": "Sam's map (crude, drawn at Craster's Keep)",
+      "slug": "sams-map",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 255
+    },
+    {
+      "raw_name": "Mormont's Torch (the red comet visible in the sky)",
+      "slug": "mormonts-torch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 256
+    },
+    {
+      "raw_name": "Fire-hardened stakes (defensive)",
+      "slug": "fire-hardened-stakes",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 257
+    },
+    {
+      "raw_name": "Caltrops (planned for slopes)",
+      "slug": "caltrops",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/caltrops.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 258
+    },
+    {
+      "raw_name": "Jon's dagger (used to cut rope)",
+      "slug": "jons-dagger",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 259
+    },
+    {
+      "raw_name": "Wights (Othor and Jafer Flowers referenced as dead men who walked)",
+      "slug": "wights",
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/wights.node.md",
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 265
+    },
+    {
+      "raw_name": "Ghost's supernatural awareness (refuses ringfort; senses something; leads Jon to cache)",
+      "slug": "ghosts-supernatural-awareness",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 266
+    },
+    {
+      "raw_name": "The smell of \"cold\" (Dywen detects it; Jon associates it with the wight attack)",
+      "slug": "the-smell-of-cold",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 267
+    },
+    {
+      "raw_name": "Lord Commander of the Night's Watch (Mormont)",
+      "slug": "lord-commander-of-the-nights-watch",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord-commander-of-the-nights-watch.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 273
+    },
+    {
+      "raw_name": "Ranger (Thoren Smallwood's rangers)",
+      "slug": "ranger",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 274
+    },
+    {
+      "raw_name": "Steward (Jon's role)",
+      "slug": "steward",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/steward.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 275
+    },
+    {
+      "raw_name": "Builder (clear brush, dig latrines, set stakes)",
+      "slug": "builder",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 276
+    },
+    {
+      "raw_name": "Forester (cut wood; Dywen identified as one)",
+      "slug": "forester",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 277
+    },
+    {
+      "raw_name": "Maester (Aemon referenced)",
+      "slug": "maester",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/maester.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 278
+    },
+    {
+      "raw_name": "Aurochs (auroch's horn used for warhorn — species referenced)",
+      "slug": "aurochs",
+      "resolved_via": "direct",
+      "node_type": "object.food",
+      "node_path": "graph/nodes/foods/aurochs.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 281
+    },
+    {
+      "raw_name": "Garrons (shaggy horses used by the Watch)",
+      "slug": "garrons",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 282
+    }
+  ]
+}

@@ -1,0 +1,484 @@
+{
+  "chapter_id": "agot-daenerys-10",
+  "book": "agot",
+  "pov_character": "daenerys",
+  "generated_at": "2026-05-07T02:06:34.312547+00:00",
+  "extraction_path": "extractions/mechanical/agot/agot-daenerys-10.extraction.md",
+  "stats": {
+    "total_mentions": 52,
+    "resolved_to_node": 28,
+    "direct": 28,
+    "alias": 0,
+    "unresolved": 24
+  },
+  "mentions": [
+    {
+      "raw_name": "Daenerys Targaryen",
+      "slug": "daenerys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Ser Jorah Mormont",
+      "slug": "jorah-mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jorah-mormont.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Mirri Maz Duur",
+      "slug": "mirri-maz-duur",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mirri-maz-duur.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Jhogo",
+      "slug": "jhogo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jhogo.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Aggo",
+      "slug": "aggo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aggo.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Rakharo",
+      "slug": "rakharo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rakharo.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Khal Drogo",
+      "slug": "drogo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/drogo.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Irri",
+      "slug": "irri",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/irri.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Jhiqui",
+      "slug": "jhiqui",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jhiqui.node.md",
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Doreah",
+      "slug": "doreah",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/doreah.node.md",
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "Drogon",
+      "slug": "drogon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/drogon.node.md",
+      "section": "Characters Present",
+      "line": 37
+    },
+    {
+      "raw_name": "Rhaegal",
+      "slug": "rhaegal",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rhaegal.node.md",
+      "section": "Characters Present",
+      "line": 38
+    },
+    {
+      "raw_name": "Viserion",
+      "slug": "viserion",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/viserion.node.md",
+      "section": "Characters Present",
+      "line": 39
+    },
+    {
+      "raw_name": "Daenerys Targaryen",
+      "slug": "daenerys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
+      "section": "Character Appearances",
+      "line": 44
+    },
+    {
+      "raw_name": "Khal Drogo",
+      "slug": "drogo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/drogo.node.md",
+      "section": "Character Appearances",
+      "line": 45
+    },
+    {
+      "raw_name": "Mirri Maz Duur",
+      "slug": "mirri-maz-duur",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mirri-maz-duur.node.md",
+      "section": "Character Appearances",
+      "line": 46
+    },
+    {
+      "raw_name": "Drogon",
+      "slug": "drogon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/drogon.node.md",
+      "section": "Character Appearances",
+      "line": 47
+    },
+    {
+      "raw_name": "Rhaegal",
+      "slug": "rhaegal",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rhaegal.node.md",
+      "section": "Character Appearances",
+      "line": 48
+    },
+    {
+      "raw_name": "Viserion",
+      "slug": "viserion",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/viserion.node.md",
+      "section": "Character Appearances",
+      "line": 49
+    },
+    {
+      "raw_name": "Viserys Targaryen",
+      "slug": "viserys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/viserys-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 54
+    },
+    {
+      "raw_name": "Aegon (the Conqueror, implied)",
+      "slug": "aegon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 55
+    },
+    {
+      "raw_name": "Khal Ogo",
+      "slug": "ogo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ogo.node.md",
+      "section": "Characters Referenced",
+      "line": 56
+    },
+    {
+      "raw_name": "Khal Ogo's son",
+      "slug": "khal-ogos-son",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "Drogo's father",
+      "slug": "drogos-father",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "Ser Jorah's lady wife",
+      "slug": "ser-jorahs-lady-wife",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "The Dothraki sea (parched borderlands / funeral site)",
+      "slug": "the-dothraki-sea",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 64
+    },
+    {
+      "raw_name": "Vaes Dothrak",
+      "slug": "vaes-dothrak",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vaes-dothrak.node.md",
+      "section": "Locations",
+      "line": 65
+    },
+    {
+      "raw_name": "Mother of Mountains",
+      "slug": "mother-of-mountains",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/mother-of-mountains.node.md",
+      "section": "Locations",
+      "line": 66
+    },
+    {
+      "raw_name": "Night lands",
+      "slug": "night-lands",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 67
+    },
+    {
+      "raw_name": "Yi Ti",
+      "slug": "yi-ti",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/yi-ti.node.md",
+      "section": "Locations",
+      "line": 68
+    },
+    {
+      "raw_name": "Qarth",
+      "slug": "qarth",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/qarth.node.md",
+      "section": "Locations",
+      "line": 69
+    },
+    {
+      "raw_name": "Jade Sea",
+      "slug": "jade-sea",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/jade-sea.node.md",
+      "section": "Locations",
+      "line": 70
+    },
+    {
+      "raw_name": "Asshai by the Shadow",
+      "slug": "asshai-by-the-shadow",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 71
+    },
+    {
+      "raw_name": "Free Cities",
+      "slug": "free-cities",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/free-cities.node.md",
+      "section": "Locations",
+      "line": 72
+    },
+    {
+      "raw_name": "Seven Kingdoms",
+      "slug": "seven-kingdoms",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/seven-kingdoms.node.md",
+      "section": "Locations",
+      "line": 73
+    },
+    {
+      "raw_name": "Funeral site (Dothraki sea borderlands)",
+      "slug": "funeral-site",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 78
+    },
+    {
+      "raw_name": "Dragon eggs (three)",
+      "slug": "dragon-eggs",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 83
+    },
+    {
+      "raw_name": "Silver-handled whip",
+      "slug": "silver-handled-whip",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 84
+    },
+    {
+      "raw_name": "Dragonbone bow",
+      "slug": "dragonbone-bow",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 85
+    },
+    {
+      "raw_name": "Great arakh (gold-chased hilt and blade)",
+      "slug": "great-arakh",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 86
+    },
+    {
+      "raw_name": "Drogo's arakh",
+      "slug": "drogos-arakh",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 87
+    },
+    {
+      "raw_name": "Dragonbone bow (Drogo's)",
+      "slug": "dragonbone-bow",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 88
+    },
+    {
+      "raw_name": "Whip (Drogo's father's gift)",
+      "slug": "whip",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 89
+    },
+    {
+      "raw_name": "Drogo's great tent",
+      "slug": "drogos-great-tent",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 90
+    },
+    {
+      "raw_name": "Drogo's painted vests",
+      "slug": "drogos-painted-vests",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 91
+    },
+    {
+      "raw_name": "Drogo's saddles and harness",
+      "slug": "drogos-saddles-and-harness",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 92
+    },
+    {
+      "raw_name": "Drogo's bells",
+      "slug": "drogos-bells",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 93
+    },
+    {
+      "raw_name": "Drogo's belt",
+      "slug": "drogos-belt",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 94
+    },
+    {
+      "raw_name": "Drogo's silver rings",
+      "slug": "drogos-silver-rings",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 95
+    },
+    {
+      "raw_name": "Ser Jorah's sword",
+      "slug": "ser-jorahs-sword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 96
+    },
+    {
+      "raw_name": "Torch",
+      "slug": "torch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 97
+    },
+    {
+      "raw_name": "Eggshell fragments",
+      "slug": "eggshell-fragments",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 98
+    }
+  ]
+}

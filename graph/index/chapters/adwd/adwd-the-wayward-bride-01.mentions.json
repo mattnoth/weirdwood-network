@@ -1,0 +1,979 @@
+{
+  "chapter_id": "adwd-the-wayward-bride-01",
+  "book": "adwd",
+  "pov_character": "the-wayward-bride",
+  "generated_at": "2026-05-07T02:06:34.528820+00:00",
+  "extraction_path": "extractions/mechanical/adwd/adwd-the-wayward-bride-01.extraction.md",
+  "stats": {
+    "total_mentions": 107,
+    "resolved_to_node": 75,
+    "direct": 69,
+    "alias": 6,
+    "unresolved": 32
+  },
+  "mentions": [
+    {
+      "raw_name": "Asha Greyjoy",
+      "slug": "asha-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/asha-greyjoy.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Qarl the Maid",
+      "slug": "qarl-the-maid",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qarl-the-maid.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Tris Botley (Tristifer Botley)",
+      "slug": "tris-botley",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Cromm",
+      "slug": "cromm",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cromm.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Quenton Greyjoy",
+      "slug": "quenton-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/quenton-greyjoy.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Dagon Greyjoy",
+      "slug": "dagon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dagon-greyjoy.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Galbart Glover's maester",
+      "slug": "galbart-glovers-maester",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/galbart-glovers-maester.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Sybelle Glover (Lady Glover)",
+      "slug": "sybelle-glover",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sybelle-glover.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Lorren Longaxe",
+      "slug": "lorren-longaxe",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lorren-longaxe.node.md",
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Six-Toed Harl",
+      "slug": "six-toed-harl",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/six-toed-harl.node.md",
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "Grimtongue",
+      "slug": "grimtongue",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/grimtongue.node.md",
+      "section": "Characters Present",
+      "line": 37
+    },
+    {
+      "raw_name": "Hagen (Hagen the Horn)",
+      "slug": "hagen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 38
+    },
+    {
+      "raw_name": "Hagen's daughter",
+      "slug": "hagens-daughter",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hagens-daughter.node.md",
+      "section": "Characters Present",
+      "line": 39
+    },
+    {
+      "raw_name": "Rolfe the Dwarf",
+      "slug": "rolfe-the-dwarf",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 40
+    },
+    {
+      "raw_name": "Roggon Rustbeard",
+      "slug": "roggon-rustbeard",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/roggon-rustbeard.node.md",
+      "section": "Characters Present",
+      "line": 41
+    },
+    {
+      "raw_name": "Droop-eye Dale",
+      "slug": "droopeye-dale",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/droopeye-dale.node.md",
+      "section": "Characters Present",
+      "line": 42
+    },
+    {
+      "raw_name": "A Flint (unnamed wounded northman)",
+      "slug": "flint",
+      "resolved_via": "direct",
+      "node_type": "object.material",
+      "node_path": "graph/nodes/materials/flint.node.md",
+      "section": "Characters Present",
+      "line": 43
+    },
+    {
+      "raw_name": "Galbart Glover's steward",
+      "slug": "galbart-glovers-steward",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 44
+    },
+    {
+      "raw_name": "Asha Greyjoy",
+      "slug": "asha-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/asha-greyjoy.node.md",
+      "section": "Character Appearances",
+      "line": 49
+    },
+    {
+      "raw_name": "Qarl the Maid",
+      "slug": "qarl-the-maid",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qarl-the-maid.node.md",
+      "section": "Character Appearances",
+      "line": 50
+    },
+    {
+      "raw_name": "Tris Botley",
+      "slug": "tris-botley",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 51
+    },
+    {
+      "raw_name": "Hagen's daughter",
+      "slug": "hagens-daughter",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hagens-daughter.node.md",
+      "section": "Character Appearances",
+      "line": 52
+    },
+    {
+      "raw_name": "Rolfe the Dwarf",
+      "slug": "rolfe-the-dwarf",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 53
+    },
+    {
+      "raw_name": "Roggon Rustbeard",
+      "slug": "roggon-rustbeard",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/roggon-rustbeard.node.md",
+      "section": "Character Appearances",
+      "line": 54
+    },
+    {
+      "raw_name": "Cromm",
+      "slug": "cromm",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cromm.node.md",
+      "section": "Character Appearances",
+      "line": 55
+    },
+    {
+      "raw_name": "The final northman (bald champion)",
+      "slug": "the-final-northman",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 56
+    },
+    {
+      "raw_name": "Northmen infiltrators",
+      "slug": "northmen-infiltrators",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 57
+    },
+    {
+      "raw_name": "Tris Botley's horse",
+      "slug": "tris-botleys-horse",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 58
+    },
+    {
+      "raw_name": "Ramsay Bolton",
+      "slug": "ramsay-snow",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ramsay-snow.node.md",
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "Lady Dustin",
+      "slug": "lady-dustin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "Lady Cerwyn",
+      "slug": "lady-cerwyn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 65
+    },
+    {
+      "raw_name": "Four Ryswells (unnamed)",
+      "slug": "four-ryswells",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "An Umber (unnamed)",
+      "slug": "an-umber",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 67
+    },
+    {
+      "raw_name": "Theon Greyjoy",
+      "slug": "theon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/theon-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 68
+    },
+    {
+      "raw_name": "Galbart Glover",
+      "slug": "galbart-glover",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/galbart-glover.node.md",
+      "section": "Characters Referenced",
+      "line": 69
+    },
+    {
+      "raw_name": "Robett Glover",
+      "slug": "robett-glover",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robett-glover.node.md",
+      "section": "Characters Referenced",
+      "line": 70
+    },
+    {
+      "raw_name": "Dagmer Cleftjaw",
+      "slug": "dagmer",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dagmer.node.md",
+      "section": "Characters Referenced",
+      "line": 71
+    },
+    {
+      "raw_name": "Balon Greyjoy",
+      "slug": "balon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/balon-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 72
+    },
+    {
+      "raw_name": "Euron Greyjoy (Crow's Eye)",
+      "slug": "euron-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/euron-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 73
+    },
+    {
+      "raw_name": "Victarion Greyjoy",
+      "slug": "victarion-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/victarion-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 74
+    },
+    {
+      "raw_name": "Erik Ironmaker (Anvil-Breaker)",
+      "slug": "erik-ironmaker",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/erik-ironmaker.node.md",
+      "section": "Characters Referenced",
+      "line": 75
+    },
+    {
+      "raw_name": "Rodrik Harlaw (the Reader)",
+      "slug": "rodrik-harlaw",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rodrik-harlaw.node.md",
+      "section": "Characters Referenced",
+      "line": 76
+    },
+    {
+      "raw_name": "Stannis Baratheon",
+      "slug": "stannis-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stannis-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 77
+    },
+    {
+      "raw_name": "Robert Baratheon",
+      "slug": "robert-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robert-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 78
+    },
+    {
+      "raw_name": "Robb Stark (the Young Wolf)",
+      "slug": "robb-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 79
+    },
+    {
+      "raw_name": "Lady Alannys (Asha's mother)",
+      "slug": "lady-alannys",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 80
+    },
+    {
+      "raw_name": "Lady Gwynesse",
+      "slug": "lady-gwynesse",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 81
+    },
+    {
+      "raw_name": "Aeron Greyjoy (Damphair)",
+      "slug": "aeron-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aeron-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 82
+    },
+    {
+      "raw_name": "Torgon the Latecomer (Torgon Greyiron)",
+      "slug": "torgon-greyiron",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/torgon-greyiron.node.md",
+      "section": "Characters Referenced",
+      "line": 83
+    },
+    {
+      "raw_name": "Urragon Goodbrother (Badbrother)",
+      "slug": "urragon-goodbrother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 84
+    },
+    {
+      "raw_name": "Lord Dagon Greyjoy (historical)",
+      "slug": "dagon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dagon-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 85
+    },
+    {
+      "raw_name": "Lord Baelor Blacktyde",
+      "slug": "baelor-blacktyde",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/baelor-blacktyde.node.md",
+      "section": "Characters Referenced",
+      "line": 86
+    },
+    {
+      "raw_name": "Blind Beron Blacktyde",
+      "slug": "beron-blacktyde",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/beron-blacktyde.node.md",
+      "section": "Characters Referenced",
+      "line": 87
+    },
+    {
+      "raw_name": "The Old Grey Gull",
+      "slug": "old-grey-gull",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/old-grey-gull.node.md",
+      "section": "Characters Referenced",
+      "line": 88
+    },
+    {
+      "raw_name": "Left-Hand Lucas Codd",
+      "slug": "left-hand-lucas-codd",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 89
+    },
+    {
+      "raw_name": "The Red Oarsman",
+      "slug": "red-oarsman",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/red-oarsman.node.md",
+      "section": "Characters Referenced",
+      "line": 90
+    },
+    {
+      "raw_name": "Gawen Glover",
+      "slug": "gawen-glover",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gawen-glover.node.md",
+      "section": "Characters Referenced",
+      "line": 91
+    },
+    {
+      "raw_name": "Sybelle Glover's infant daughter",
+      "slug": "sybelle-glovers-infant-daughter",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 92
+    },
+    {
+      "raw_name": "Haereg",
+      "slug": "haereg",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/haereg.node.md",
+      "section": "Characters Referenced",
+      "line": 93
+    },
+    {
+      "raw_name": "Qarl Shepherd",
+      "slug": "qarl-shepherd",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qarl-shepherd.node.md",
+      "section": "Characters Referenced",
+      "line": 94
+    },
+    {
+      "raw_name": "Queer Qarl Kenning",
+      "slug": "qarl-kenning",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qarl-kenning.node.md",
+      "section": "Characters Referenced",
+      "line": 95
+    },
+    {
+      "raw_name": "Qarl Quickaxe",
+      "slug": "qarl-quickaxe",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qarl-quickaxe.node.md",
+      "section": "Characters Referenced",
+      "line": 96
+    },
+    {
+      "raw_name": "Qarl the Thrall",
+      "slug": "qarl-the-thrall",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qarl-the-thrall.node.md",
+      "section": "Characters Referenced",
+      "line": 97
+    },
+    {
+      "raw_name": "Deepwood Motte",
+      "slug": "deepwood-motte",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/deepwood-motte.node.md",
+      "section": "Locations",
+      "line": 102
+    },
+    {
+      "raw_name": "Wolfswood",
+      "slug": "wolfswood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wolfswood.node.md",
+      "section": "Locations",
+      "line": 103
+    },
+    {
+      "raw_name": "Barrowton",
+      "slug": "barrowton",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/barrowton.node.md",
+      "section": "Locations",
+      "line": 104
+    },
+    {
+      "raw_name": "Moat Cailin",
+      "slug": "moat-cailin",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/moat-cailin.node.md",
+      "section": "Locations",
+      "line": 105
+    },
+    {
+      "raw_name": "Torrhen's Square",
+      "slug": "torrhens-square",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/torrhens-square.node.md",
+      "section": "Locations",
+      "line": 106
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Locations",
+      "line": 107
+    },
+    {
+      "raw_name": "Ten Towers",
+      "slug": "ten-towers",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ten-towers.node.md",
+      "section": "Locations",
+      "line": 108
+    },
+    {
+      "raw_name": "Pyke",
+      "slug": "pyke",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pyke.node.md",
+      "section": "Locations",
+      "line": 109
+    },
+    {
+      "raw_name": "Old Wyk",
+      "slug": "old-wyk",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/old-wyk.node.md",
+      "section": "Locations",
+      "line": 110
+    },
+    {
+      "raw_name": "Harlaw",
+      "slug": "harlaw",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/harlaw.node.md",
+      "section": "Locations",
+      "line": 111
+    },
+    {
+      "raw_name": "Sea Dragon Point",
+      "slug": "sea-dragon-point",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sea-dragon-point.node.md",
+      "section": "Locations",
+      "line": 112
+    },
+    {
+      "raw_name": "Great Wyk",
+      "slug": "great-wyk",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/great-wyk.node.md",
+      "section": "Locations",
+      "line": 113
+    },
+    {
+      "raw_name": "Fair Isle",
+      "slug": "fair-isle",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/fair-isle.node.md",
+      "section": "Locations",
+      "line": 114
+    },
+    {
+      "raw_name": "Lannisport",
+      "slug": "lannisport",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lannisport.node.md",
+      "section": "Locations",
+      "line": 115
+    },
+    {
+      "raw_name": "The Arbor",
+      "slug": "arbor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/arbor.node.md",
+      "section": "Locations",
+      "line": 116
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Locations",
+      "line": 117
+    },
+    {
+      "raw_name": "The Dreadfort",
+      "slug": "dreadfort",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dreadfort.node.md",
+      "section": "Locations",
+      "line": 118
+    },
+    {
+      "raw_name": "Nagga's hill",
+      "slug": "naggas-hill",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 119
+    },
+    {
+      "raw_name": "Greyshield",
+      "slug": "greyshield",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/greyshield.node.md",
+      "section": "Locations",
+      "line": 120
+    },
+    {
+      "raw_name": "The Mander",
+      "slug": "mander",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/mander.node.md",
+      "section": "Locations",
+      "line": 121
+    },
+    {
+      "raw_name": "Blacktyde",
+      "slug": "blacktyde",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/blacktyde.node.md",
+      "section": "Locations",
+      "line": 122
+    },
+    {
+      "raw_name": "The Stepstones",
+      "slug": "stepstones",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/stepstones.node.md",
+      "section": "Locations",
+      "line": 123
+    },
+    {
+      "raw_name": "Oldtown",
+      "slug": "oldtown",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/oldtown.node.md",
+      "section": "Locations",
+      "line": 124
+    },
+    {
+      "raw_name": "The Jade Sea",
+      "slug": "jade-sea",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/jade-sea.node.md",
+      "section": "Locations",
+      "line": 125
+    },
+    {
+      "raw_name": "The Free Cities",
+      "slug": "free-cities",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/free-cities.node.md",
+      "section": "Locations",
+      "line": 126
+    },
+    {
+      "raw_name": "The Sunset Sea",
+      "slug": "sunset-sea",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sunset-sea.node.md",
+      "section": "Locations",
+      "line": 127
+    },
+    {
+      "raw_name": "Iron Islands",
+      "slug": "iron-islands",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/iron-islands.node.md",
+      "section": "Locations",
+      "line": 128
+    },
+    {
+      "raw_name": "Deepwood Motte",
+      "slug": "deepwood-motte",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/deepwood-motte.node.md",
+      "section": "Location Descriptions",
+      "line": 133
+    },
+    {
+      "raw_name": "Wolfswood (battle site)",
+      "slug": "wolfswood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wolfswood.node.md",
+      "section": "Location Descriptions",
+      "line": 134
+    },
+    {
+      "raw_name": "Sea Dragon Point",
+      "slug": "sea-dragon-point",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sea-dragon-point.node.md",
+      "section": "Location Descriptions",
+      "line": 135
+    },
+    {
+      "raw_name": "Ramsay Bolton's letter",
+      "slug": "ramsay-boltons-letter",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 140
+    },
+    {
+      "raw_name": "Piece of skin (Theon's)",
+      "slug": "piece-of-skin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 141
+    },
+    {
+      "raw_name": "Black Wind",
+      "slug": "black-wind",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 142
+    },
+    {
+      "raw_name": "Salty Wench",
+      "slug": "salty-wench",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/salty-wench.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 143
+    },
+    {
+      "raw_name": "Asha's throwing axes",
+      "slug": "ashas-throwing-axes",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 144
+    },
+    {
+      "raw_name": "Asha's dirk",
+      "slug": "ashas-dirk",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 145
+    },
+    {
+      "raw_name": "Qarl's dagger",
+      "slug": "qarls-dagger",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 146
+    },
+    {
+      "raw_name": "Qarl's longsword",
+      "slug": "qarls-longsword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 147
+    },
+    {
+      "raw_name": "Grimtongue's spear",
+      "slug": "grimtongues-spear",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 148
+    },
+    {
+      "raw_name": "Lorren's longaxe",
+      "slug": "lorrens-longaxe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 149
+    },
+    {
+      "raw_name": "Warhorn (Hagen's)",
+      "slug": "warhorn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 150
+    },
+    {
+      "raw_name": "Battering ram",
+      "slug": "battering-ram",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 151
+    },
+    {
+      "raw_name": "Rolfe the Dwarf's severed head",
+      "slug": "rolfe-the-dwarfs-severed-head",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 152
+    },
+    {
+      "raw_name": "Euron's hellhorn (dragonhorn)",
+      "slug": "eurons-hellhorn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 153
+    }
+  ]
+}

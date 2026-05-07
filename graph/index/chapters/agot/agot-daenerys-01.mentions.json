@@ -1,0 +1,1726 @@
+{
+  "chapter_id": "agot-daenerys-01",
+  "book": "agot",
+  "pov_character": "daenerys",
+  "generated_at": "2026-05-07T02:06:34.307275+00:00",
+  "extraction_path": "extractions/mechanical/agot/agot-daenerys-01.extraction.md",
+  "stats": {
+    "total_mentions": 190,
+    "resolved_to_node": 117,
+    "direct": 111,
+    "alias": 6,
+    "unresolved": 73
+  },
+  "mentions": [
+    {
+      "raw_name": "Daenerys Targaryen",
+      "slug": "daenerys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Viserys Targaryen",
+      "slug": "viserys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/viserys-targaryen.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Illyrio Mopatis",
+      "slug": "illyrio-mopatis",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/illyrio-mopatis.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Khal Drogo",
+      "slug": "drogo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/drogo.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Slave girl (unnamed)",
+      "slug": "slave-girl",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Old woman slave (unnamed)",
+      "slug": "old-woman-slave",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Khal Moro",
+      "slug": "moro",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/moro.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Rhogoro",
+      "slug": "rhogoro",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rhogoro.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Ser Jorah Mormont",
+      "slug": "jorah-mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jorah-mormont.node.md",
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Unsullied guard (unnamed)",
+      "slug": "unsullied-guard",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "Eunuch announcer (unnamed)",
+      "slug": "eunuch-announcer",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 37
+    },
+    {
+      "raw_name": "Daenerys Targaryen",
+      "slug": "daenerys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
+      "section": "Character Appearances",
+      "line": 42
+    },
+    {
+      "raw_name": "Viserys Targaryen",
+      "slug": "viserys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/viserys-targaryen.node.md",
+      "section": "Character Appearances",
+      "line": 43
+    },
+    {
+      "raw_name": "Illyrio Mopatis",
+      "slug": "illyrio-mopatis",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/illyrio-mopatis.node.md",
+      "section": "Character Appearances",
+      "line": 44
+    },
+    {
+      "raw_name": "Khal Drogo",
+      "slug": "drogo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/drogo.node.md",
+      "section": "Character Appearances",
+      "line": 45
+    },
+    {
+      "raw_name": "Ser Jorah Mormont",
+      "slug": "jorah-mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jorah-mormont.node.md",
+      "section": "Character Appearances",
+      "line": 46
+    },
+    {
+      "raw_name": "Slave girl (unnamed)",
+      "slug": "slave-girl",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 47
+    },
+    {
+      "raw_name": "Old woman slave (unnamed)",
+      "slug": "old-woman-slave",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 48
+    },
+    {
+      "raw_name": "Unsullied guard (unnamed)",
+      "slug": "unsullied-guard",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 49
+    },
+    {
+      "raw_name": "Dothraki horselords (general)",
+      "slug": "dothraki-horselords",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 50
+    },
+    {
+      "raw_name": "Rhaegar Targaryen",
+      "slug": "rhaegar-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rhaegar-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 55
+    },
+    {
+      "raw_name": "The Usurper (Robert Baratheon)",
+      "slug": "robert-i-baratheon",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robert-i-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 56
+    },
+    {
+      "raw_name": "Princess Elia of Dorne",
+      "slug": "elia-martell",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/elia-martell.node.md",
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "Rhaegar's heir (unnamed child)",
+      "slug": "rhaegars-heir",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "The Kingslayer (Jaime Lannister)",
+      "slug": "jaime-lannister",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaime-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "Aerys Targaryen (Father)",
+      "slug": "aerys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aerys-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "Queen Rhaella (Mother)",
+      "slug": "queen-rhaella",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 61
+    },
+    {
+      "raw_name": "Ser Willem Darry",
+      "slug": "willem-darry",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/willem-darry.node.md",
+      "section": "Characters Referenced",
+      "line": 62
+    },
+    {
+      "raw_name": "Dany's wet nurse (unnamed)",
+      "slug": "danys-wet-nurse",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "Lord Lannister",
+      "slug": "lord-lannister",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "Lord Stark",
+      "slug": "stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stark.node.md",
+      "section": "Characters Referenced",
+      "line": 65
+    },
+    {
+      "raw_name": "Aegon the Conqueror",
+      "slug": "aegon-i-targaryen",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aegon-i-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "The Usurper's brother (Stannis Baratheon, unnamed)",
+      "slug": "the-usurpers-brother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 67
+    },
+    {
+      "raw_name": "Drogo's bloodriders (three, unnamed)",
+      "slug": "drogos-bloodriders",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 68
+    },
+    {
+      "raw_name": "The brother of the Archon of Tyrosh (unnamed)",
+      "slug": "the-brother-of-the-archon-of-tyrosh",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 69
+    },
+    {
+      "raw_name": "The High Septon",
+      "slug": "high-septon",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/high-septon.node.md",
+      "section": "Characters Referenced",
+      "line": 70
+    },
+    {
+      "raw_name": "House Tyrell",
+      "slug": "house-tyrell",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-tyrell.node.md",
+      "section": "Characters Referenced",
+      "line": 71
+    },
+    {
+      "raw_name": "House Redwyne",
+      "slug": "house-redwyne",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-redwyne.node.md",
+      "section": "Characters Referenced",
+      "line": 72
+    },
+    {
+      "raw_name": "House Darry",
+      "slug": "house-darry",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-darry.node.md",
+      "section": "Characters Referenced",
+      "line": 73
+    },
+    {
+      "raw_name": "House Greyjoy",
+      "slug": "house-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 74
+    },
+    {
+      "raw_name": "The Dornishmen",
+      "slug": "dornishmen",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/dornishmen.node.md",
+      "section": "Characters Referenced",
+      "line": 75
+    },
+    {
+      "raw_name": "Pentos",
+      "slug": "pentos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pentos.node.md",
+      "section": "Locations",
+      "line": 80
+    },
+    {
+      "raw_name": "Illyrio's estate",
+      "slug": "illyrios-estate",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 81
+    },
+    {
+      "raw_name": "Khal Drogo's manse",
+      "slug": "drogos-manse",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/drogos-manse.node.md",
+      "section": "Locations",
+      "line": 82
+    },
+    {
+      "raw_name": "Dragonstone",
+      "slug": "dragonstone",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dragonstone.node.md",
+      "section": "Locations",
+      "line": 83
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Locations",
+      "line": 84
+    },
+    {
+      "raw_name": "The Trident",
+      "slug": "trident",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/trident.node.md",
+      "section": "Locations",
+      "line": 85
+    },
+    {
+      "raw_name": "Braavos",
+      "slug": "braavos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/braavos.node.md",
+      "section": "Locations",
+      "line": 86
+    },
+    {
+      "raw_name": "Myr",
+      "slug": "myr",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/myr.node.md",
+      "section": "Locations",
+      "line": 87
+    },
+    {
+      "raw_name": "Tyrosh",
+      "slug": "tyrosh",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/tyrosh.node.md",
+      "section": "Locations",
+      "line": 88
+    },
+    {
+      "raw_name": "Qohor",
+      "slug": "qohor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/qohor.node.md",
+      "section": "Locations",
+      "line": 89
+    },
+    {
+      "raw_name": "Volantis",
+      "slug": "volantis",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/volantis.node.md",
+      "section": "Locations",
+      "line": 90
+    },
+    {
+      "raw_name": "Lys",
+      "slug": "lys",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lys.node.md",
+      "section": "Locations",
+      "line": 91
+    },
+    {
+      "raw_name": "Vaes Dothrak",
+      "slug": "vaes-dothrak",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vaes-dothrak.node.md",
+      "section": "Locations",
+      "line": 92
+    },
+    {
+      "raw_name": "Westeros / the Sunset Kingdoms",
+      "slug": "westeros-the-sunset-kingdoms",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 93
+    },
+    {
+      "raw_name": "Casterly Rock",
+      "slug": "casterly-rock",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/casterly-rock.node.md",
+      "section": "Locations",
+      "line": 94
+    },
+    {
+      "raw_name": "The Eyrie",
+      "slug": "eyrie",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/eyrie.node.md",
+      "section": "Locations",
+      "line": 95
+    },
+    {
+      "raw_name": "Highgarden",
+      "slug": "highgarden",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/highgarden.node.md",
+      "section": "Locations",
+      "line": 96
+    },
+    {
+      "raw_name": "The Vale of Arryn",
+      "slug": "vale-of-arryn",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
+      "section": "Locations",
+      "line": 97
+    },
+    {
+      "raw_name": "Dorne",
+      "slug": "dorne",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dorne.node.md",
+      "section": "Locations",
+      "line": 98
+    },
+    {
+      "raw_name": "The Isle of Faces",
+      "slug": "isle-of-faces",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/isle-of-faces.node.md",
+      "section": "Locations",
+      "line": 99
+    },
+    {
+      "raw_name": "The narrow sea",
+      "slug": "the-narrow-sea",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 100
+    },
+    {
+      "raw_name": "Valyria",
+      "slug": "valyria",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/valyria.node.md",
+      "section": "Locations",
+      "line": 101
+    },
+    {
+      "raw_name": "Port of Ibben",
+      "slug": "port-of-ibben",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/port-of-ibben.node.md",
+      "section": "Locations",
+      "line": 102
+    },
+    {
+      "raw_name": "Summer Isles",
+      "slug": "summer-isles",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/summer-isles.node.md",
+      "section": "Locations",
+      "line": 103
+    },
+    {
+      "raw_name": "The Jade Sea",
+      "slug": "jade-sea",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/jade-sea.node.md",
+      "section": "Locations",
+      "line": 104
+    },
+    {
+      "raw_name": "Pentos",
+      "slug": "pentos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pentos.node.md",
+      "section": "Location Descriptions",
+      "line": 109
+    },
+    {
+      "raw_name": "Illyrio's estate",
+      "slug": "illyrios-estate",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 110
+    },
+    {
+      "raw_name": "Khal Drogo's manse",
+      "slug": "drogos-manse",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/drogos-manse.node.md",
+      "section": "Location Descriptions",
+      "line": 111
+    },
+    {
+      "raw_name": "Braavos — the big house with the red door",
+      "slug": "braavos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/braavos.node.md",
+      "section": "Location Descriptions",
+      "line": 112
+    },
+    {
+      "raw_name": "Dragonstone",
+      "slug": "dragonstone",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dragonstone.node.md",
+      "section": "Location Descriptions",
+      "line": 113
+    },
+    {
+      "raw_name": "Deep plum silk gown",
+      "slug": "deep-plum-silk-gown",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 118
+    },
+    {
+      "raw_name": "Golden torc with Valyrian glyphs",
+      "slug": "golden-torc-with-valyrian-glyphs",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 119
+    },
+    {
+      "raw_name": "Golden bracelets crusted with amethysts",
+      "slug": "golden-bracelets-crusted-with-amethysts",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 120
+    },
+    {
+      "raw_name": "Tiara",
+      "slug": "tiara",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 121
+    },
+    {
+      "raw_name": "Dragonbone brooch",
+      "slug": "dragonbone-brooch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 122
+    },
+    {
+      "raw_name": "Borrowed sword",
+      "slug": "borrowed-sword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 123
+    },
+    {
+      "raw_name": "Mother's crown",
+      "slug": "mothers-crown",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 124
+    },
+    {
+      "raw_name": "Polished dragon skulls",
+      "slug": "polished-dragon-skulls",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 125
+    },
+    {
+      "raw_name": "Iron Throne",
+      "slug": "iron-throne",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/iron-throne.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 126
+    },
+    {
+      "raw_name": "Illyrio's palanquin",
+      "slug": "illyrios-palanquin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 127
+    },
+    {
+      "raw_name": "Ornate oil lanterns with pale blue glass panes",
+      "slug": "ornate-oil-lanterns-with-pale-blue-glass-panes",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 128
+    },
+    {
+      "raw_name": "Silvered looking glass",
+      "slug": "silvered-looking-glass",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 129
+    },
+    {
+      "raw_name": "Golden sword (of the Kingslayer)",
+      "slug": "golden-sword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 130
+    },
+    {
+      "raw_name": "Mosaic depicting the Doom of Valyria",
+      "slug": "mosaic-depicting-the-doom-of-valyria",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 131
+    },
+    {
+      "raw_name": "Daenerys Targaryen (Dany, Daenerys Stormborn, Princess of Dragonstone)",
+      "slug": "daenerys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 267
+    },
+    {
+      "raw_name": "Viserys Targaryen (Viserys III, \"the beggar king\")",
+      "slug": "viserys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/viserys-targaryen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 268
+    },
+    {
+      "raw_name": "Illyrio Mopatis (Magister of the Free City of Pentos)",
+      "slug": "illyrio-mopatis",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/illyrio-mopatis.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 269
+    },
+    {
+      "raw_name": "Khal Drogo",
+      "slug": "drogo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/drogo.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 270
+    },
+    {
+      "raw_name": "Ser Jorah Mormont",
+      "slug": "jorah-mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jorah-mormont.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 271
+    },
+    {
+      "raw_name": "Khal Moro",
+      "slug": "moro",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/moro.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 272
+    },
+    {
+      "raw_name": "Rhogoro (son of Khal Moro)",
+      "slug": "rhogoro",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rhogoro.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 273
+    },
+    {
+      "raw_name": "Rhaegar Targaryen (referenced)",
+      "slug": "rhaegar-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rhaegar-targaryen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 274
+    },
+    {
+      "raw_name": "Aerys Targaryen / \"Father\" (referenced)",
+      "slug": "aerys-targaryen-father",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 275
+    },
+    {
+      "raw_name": "Queen Rhaella / \"Mother\" (referenced)",
+      "slug": "queen-rhaella-mother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 276
+    },
+    {
+      "raw_name": "Princess Elia of Dorne (referenced)",
+      "slug": "elia-martell",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/elia-martell.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 277
+    },
+    {
+      "raw_name": "Rhaegar's unnamed heir (referenced)",
+      "slug": "rhaegars-unnamed-heir",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 278
+    },
+    {
+      "raw_name": "The Usurper / Robert Baratheon (referenced, unnamed)",
+      "slug": "the-usurper-robert-baratheon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 279
+    },
+    {
+      "raw_name": "The Usurper's brother / Stannis Baratheon (referenced, unnamed)",
+      "slug": "the-usurpers-brother-stannis-baratheon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 280
+    },
+    {
+      "raw_name": "The Kingslayer / Jaime Lannister (referenced)",
+      "slug": "the-kingslayer-jaime-lannister",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 281
+    },
+    {
+      "raw_name": "Lord Lannister (referenced — sack of King's Landing)",
+      "slug": "lord-lannister",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 282
+    },
+    {
+      "raw_name": "Lord Stark (referenced — sack of King's Landing)",
+      "slug": "stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 283
+    },
+    {
+      "raw_name": "Ser Willem Darry (referenced)",
+      "slug": "willem-darry",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/willem-darry.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 284
+    },
+    {
+      "raw_name": "Aegon the Conqueror (referenced)",
+      "slug": "aegon-i-targaryen",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aegon-i-targaryen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 285
+    },
+    {
+      "raw_name": "The High Septon (referenced)",
+      "slug": "high-septon",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/high-septon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 286
+    },
+    {
+      "raw_name": "The brother of the Archon of Tyrosh (unnamed, present at feast)",
+      "slug": "the-brother-of-the-archon-of-tyrosh",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 287
+    },
+    {
+      "raw_name": "Drogo's three bloodriders (unnamed, present at feast)",
+      "slug": "drogos-three-bloodriders",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 288
+    },
+    {
+      "raw_name": "Unnamed slave girl (fair-haired, blue-eyed, sixteen)",
+      "slug": "unnamed-slave-girl",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 289
+    },
+    {
+      "raw_name": "Unnamed old woman slave (grey, silent)",
+      "slug": "unnamed-old-woman-slave",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 290
+    },
+    {
+      "raw_name": "Unnamed Unsullied guard (copper-skinned)",
+      "slug": "unnamed-unsullied-guard",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 291
+    },
+    {
+      "raw_name": "Unnamed eunuch announcer",
+      "slug": "unnamed-eunuch-announcer",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 292
+    },
+    {
+      "raw_name": "Dany's wet nurse (referenced)",
+      "slug": "danys-wet-nurse",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 293
+    },
+    {
+      "raw_name": "Pentos (Free City)",
+      "slug": "pentos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pentos.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 296
+    },
+    {
+      "raw_name": "Illyrio's estate (Pentos)",
+      "slug": "illyrios-estate",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 297
+    },
+    {
+      "raw_name": "Khal Drogo's manse (Pentos, nine-towered, by the bay)",
+      "slug": "drogos-manse",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/drogos-manse.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 298
+    },
+    {
+      "raw_name": "Westeros / the Sunset Kingdoms / Rhaesh Andahli",
+      "slug": "westeros-the-sunset-kingdoms-rhaesh-andahli",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 299
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 300
+    },
+    {
+      "raw_name": "Dragonstone",
+      "slug": "dragonstone",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dragonstone.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 301
+    },
+    {
+      "raw_name": "The Trident",
+      "slug": "trident",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/trident.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 302
+    },
+    {
+      "raw_name": "Braavos (the big house with the red door)",
+      "slug": "braavos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/braavos.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 303
+    },
+    {
+      "raw_name": "Myr",
+      "slug": "myr",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/myr.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 304
+    },
+    {
+      "raw_name": "Tyrosh",
+      "slug": "tyrosh",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/tyrosh.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 305
+    },
+    {
+      "raw_name": "Qohor",
+      "slug": "qohor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/qohor.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 306
+    },
+    {
+      "raw_name": "Volantis",
+      "slug": "volantis",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/volantis.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 307
+    },
+    {
+      "raw_name": "Lys",
+      "slug": "lys",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lys.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 308
+    },
+    {
+      "raw_name": "Vaes Dothrak",
+      "slug": "vaes-dothrak",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vaes-dothrak.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 309
+    },
+    {
+      "raw_name": "Casterly Rock (referenced)",
+      "slug": "casterly-rock",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/casterly-rock.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 310
+    },
+    {
+      "raw_name": "The Eyrie (referenced)",
+      "slug": "eyrie",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/eyrie.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 311
+    },
+    {
+      "raw_name": "Highgarden (referenced)",
+      "slug": "highgarden",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/highgarden.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 312
+    },
+    {
+      "raw_name": "The Vale of Arryn (referenced)",
+      "slug": "vale-of-arryn",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 313
+    },
+    {
+      "raw_name": "Dorne (referenced)",
+      "slug": "dorne",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dorne.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 314
+    },
+    {
+      "raw_name": "The Isle of Faces (referenced)",
+      "slug": "isle-of-faces",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/isle-of-faces.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 315
+    },
+    {
+      "raw_name": "The narrow sea",
+      "slug": "the-narrow-sea",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 316
+    },
+    {
+      "raw_name": "Valyria (referenced — Doom depicted in mosaic)",
+      "slug": "valyria",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/valyria.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 317
+    },
+    {
+      "raw_name": "The Jade Sea (referenced)",
+      "slug": "jade-sea",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/jade-sea.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 318
+    },
+    {
+      "raw_name": "Port of Ibben (referenced)",
+      "slug": "port-of-ibben",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/port-of-ibben.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 319
+    },
+    {
+      "raw_name": "Summer Isles (referenced)",
+      "slug": "summer-isles",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/summer-isles.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 320
+    },
+    {
+      "raw_name": "The Nine Free Cities (referenced collectively)",
+      "slug": "the-nine-free-cities",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 321
+    },
+    {
+      "raw_name": "House Targaryen",
+      "slug": "house-targaryen",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-targaryen.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 324
+    },
+    {
+      "raw_name": "House Lannister (referenced)",
+      "slug": "house-lannister",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-lannister.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 325
+    },
+    {
+      "raw_name": "House Stark (referenced)",
+      "slug": "house-stark",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-stark.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 326
+    },
+    {
+      "raw_name": "House Tyrell (referenced)",
+      "slug": "house-tyrell",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-tyrell.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 327
+    },
+    {
+      "raw_name": "House Redwyne (referenced)",
+      "slug": "house-redwyne",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-redwyne.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 328
+    },
+    {
+      "raw_name": "House Darry (referenced)",
+      "slug": "house-darry",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-darry.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 329
+    },
+    {
+      "raw_name": "House Greyjoy (referenced)",
+      "slug": "house-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-greyjoy.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 330
+    },
+    {
+      "raw_name": "The Unsullied (guard at the gate wears their spiked bronze cap)",
+      "slug": "the-unsullied",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 333
+    },
+    {
+      "raw_name": "Drogo's khalasar (referenced — one hundred thousand men)",
+      "slug": "drogos-khalasar",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 334
+    },
+    {
+      "raw_name": "The Night's Watch (referenced — Jorah's poachers should have gone there)",
+      "slug": "nights-watch",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/nights-watch.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 335
+    },
+    {
+      "raw_name": "The Lord of Light / R'hllor (Illyrio blesses Dany in his name; red priests sing and light night fires; red priest present at the feast; red priests promise to hold city walls)",
+      "slug": "the-lord-of-light-rhllor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 338
+    },
+    {
+      "raw_name": "The Faith of the Seven (the High Septon anointed Ser Jorah with seven oils — referenced)",
+      "slug": "faith-of-the-seven",
+      "resolved_via": "direct",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/faith-of-the-seven.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 339
+    },
+    {
+      "raw_name": "Dothraki (horselords, braids, bells, copper skin, mustachios, scented oil, mounted warriors, slaves with golden collars, khalasar structure)",
+      "slug": "dothraki",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/dothraki.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 342
+    },
+    {
+      "raw_name": "Valyrians / blood of old Valyria (golden blood, Targaryen heritage, sibling marriage tradition)",
+      "slug": "valyrians-blood-of-old-valyria",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 343
+    },
+    {
+      "raw_name": "Andals (Rhaesh Andahli — what the Dothraki call Westeros)",
+      "slug": "andals",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/andals.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 344
+    },
+    {
+      "raw_name": "First Men (in Viserys's title: King of the Andals and the Rhoynar and the First Men)",
+      "slug": "first-men",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/first-men.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 345
+    },
+    {
+      "raw_name": "Rhoynar (in Viserys's title)",
+      "slug": "rhoynar",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/rhoynar.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 346
+    },
+    {
+      "raw_name": "Pentoshi (magisters, archons, the Free City's laws nominally forbid slavery)",
+      "slug": "pentoshi",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/pentoshi.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 347
+    },
+    {
+      "raw_name": "Braavosi (Braavosian coast referenced)",
+      "slug": "braavosi",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/braavosi.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 348
+    },
+    {
+      "raw_name": "Tyroshi (Tyroshi slaver; sellswords from Tyrosh; brother of the Archon of Tyrosh)",
+      "slug": "tyroshi",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/tyroshi.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 349
+    },
+    {
+      "raw_name": "Myrish (sellswords from Myr)",
+      "slug": "myrish",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/myrish.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 350
+    },
+    {
+      "raw_name": "Ibbenese (hairy men from the Port of Ibben)",
+      "slug": "ibbenese",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/ibbenese.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 351
+    },
+    {
+      "raw_name": "Summer Islanders (lords with skin as black as ebony)",
+      "slug": "summer-islanders",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 352
+    },
+    {
+      "raw_name": "Deep plum silk gown (gift from Illyrio)",
+      "slug": "deep-plum-silk-gown",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 355
+    },
+    {
+      "raw_name": "Golden torc with Valyrian glyphs",
+      "slug": "golden-torc-with-valyrian-glyphs",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 356
+    },
+    {
+      "raw_name": "Golden bracelets crusted with amethysts",
+      "slug": "golden-bracelets-crusted-with-amethysts",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 357
+    },
+    {
+      "raw_name": "Tiara",
+      "slug": "tiara",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 358
+    },
+    {
+      "raw_name": "Dragonbone brooch (Viserys's hair fastener)",
+      "slug": "dragonbone-brooch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 359
+    },
+    {
+      "raw_name": "Borrowed sword (lent by Illyrio to Viserys)",
+      "slug": "borrowed-sword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 360
+    },
+    {
+      "raw_name": "Mother's crown (sold, coin spent)",
+      "slug": "mothers-crown",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 361
+    },
+    {
+      "raw_name": "Iron Throne (referenced)",
+      "slug": "iron-throne",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/iron-throne.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 362
+    },
+    {
+      "raw_name": "Polished dragon skulls (referenced — in the throne room)",
+      "slug": "polished-dragon-skulls",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 363
+    },
+    {
+      "raw_name": "Mosaic of colored glass depicting the Doom of Valyria",
+      "slug": "mosaic-of-colored-glass-depicting-the-doom-of-valyria",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 364
+    },
+    {
+      "raw_name": "Illyrio's palanquin (elaborately carved)",
+      "slug": "illyrios-palanquin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 365
+    },
+    {
+      "raw_name": "Ornate oil lanterns with pale blue glass panes",
+      "slug": "ornate-oil-lanterns-with-pale-blue-glass-panes",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 366
+    },
+    {
+      "raw_name": "Silvered looking glass (mirror)",
+      "slug": "silvered-looking-glass",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 367
+    },
+    {
+      "raw_name": "\"The fire is in our blood\" — Targaryen belief about heat resistance (Dany does not flinch from scalding water)",
+      "slug": "the-fire-is-in-our-blood",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 373
+    },
+    {
+      "raw_name": "\"Waking the dragon\" — Viserys's term for his rage; also evokes dragon imagery of House Targaryen",
+      "slug": "waking-the-dragon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 374
+    },
+    {
+      "raw_name": "Robert's Rebellion / the Usurper's war (referenced — Rhaegar's death at the Trident, sack of King's Landing, flight to Dragonstone, fall of the Targaryen dynasty)",
+      "slug": "roberts-rebellion-the-usurpers-war",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 377
+    },
+    {
+      "raw_name": "King of the Andals and the Rhoynar and the First Men (claimed by Viserys)",
+      "slug": "king-of-the-andals-and-the-rhoynar-and-the-first-men",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/king-of-the-andals-and-the-rhoynar-and-the-first-men.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 380
+    },
+    {
+      "raw_name": "Lord of the Seven Kingdoms (claimed by Viserys)",
+      "slug": "lord-of-the-seven-kingdoms",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord-of-the-seven-kingdoms.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 381
+    },
+    {
+      "raw_name": "Protector of the Realm (claimed by Viserys)",
+      "slug": "protector-of-the-realm",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/protector-of-the-realm.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 382
+    },
+    {
+      "raw_name": "Princess of Dragonstone (Daenerys's title)",
+      "slug": "princess-of-dragonstone",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/princess-of-dragonstone.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 383
+    },
+    {
+      "raw_name": "Khal (Dothraki title — Drogo, Moro)",
+      "slug": "khal",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/khal.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 384
+    },
+    {
+      "raw_name": "Magister (Illyrio's title in Pentos)",
+      "slug": "magister",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/magister.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 385
+    },
+    {
+      "raw_name": "Archon (title in Tyrosh — brother of the Archon present)",
+      "slug": "archon",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/archon.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 386
+    },
+    {
+      "raw_name": "High Septon (referenced — anointed Ser Jorah)",
+      "slug": "high-septon",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/high-septon.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 387
+    },
+    {
+      "raw_name": "Bloodrider (Drogo's three bloodriders)",
+      "slug": "bloodrider",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/bloodrider.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 388
+    },
+    {
+      "raw_name": "Dragonbone (trade good dealt by Illyrio; also material of Viserys's brooch)",
+      "slug": "dragonbone",
+      "resolved_via": "direct",
+      "node_type": "object.material",
+      "node_path": "graph/nodes/materials/dragonbone.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 391
+    },
+    {
+      "raw_name": "Spiceflower perfume of the Dothraki plains",
+      "slug": "spiceflower-perfume-of-the-dothraki-plains",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 392
+    },
+    {
+      "raw_name": "Golden collars (worn by Drogo's slaves)",
+      "slug": "golden-collars",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 393
+    },
+    {
+      "raw_name": "Spiked bronze cap (Unsullied identifier)",
+      "slug": "spiked-bronze-cap",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 394
+    }
+  ]
+}

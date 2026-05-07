@@ -1,0 +1,1987 @@
+{
+  "chapter_id": "affc-prologue",
+  "book": "affc",
+  "pov_character": "affc-prologue",
+  "generated_at": "2026-05-07T02:06:34.469579+00:00",
+  "extraction_path": "extractions/mechanical/affc/affc-prologue.extraction.md",
+  "stats": {
+    "total_mentions": 219,
+    "resolved_to_node": 123,
+    "direct": 116,
+    "alias": 7,
+    "unresolved": 96
+  },
+  "mentions": [
+    {
+      "raw_name": "Pate",
+      "slug": "pate",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Mollander",
+      "slug": "mollander",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mollander.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Alleras the Sphinx",
+      "slug": "alleras-the-sphinx",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Armen the Acolyte",
+      "slug": "armen",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/armen.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Roone",
+      "slug": "roone",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/roone.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Lazy Leo (Leo Tyrell)",
+      "slug": "leo-tyrell-son-of-moryn",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/leo-tyrell-son-of-moryn.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Emma",
+      "slug": "emma",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/emma.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "The alchemist",
+      "slug": "alchemist",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alchemist.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Alleras the Sphinx",
+      "slug": "alleras-the-sphinx",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 39
+    },
+    {
+      "raw_name": "Mollander",
+      "slug": "mollander",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mollander.node.md",
+      "section": "Character Appearances",
+      "line": 40
+    },
+    {
+      "raw_name": "Armen the Acolyte",
+      "slug": "armen",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/armen.node.md",
+      "section": "Character Appearances",
+      "line": 41
+    },
+    {
+      "raw_name": "Roone",
+      "slug": "roone",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/roone.node.md",
+      "section": "Character Appearances",
+      "line": 42
+    },
+    {
+      "raw_name": "Lazy Leo",
+      "slug": "leo-tyrell-son-of-moryn",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/leo-tyrell-son-of-moryn.node.md",
+      "section": "Character Appearances",
+      "line": 43
+    },
+    {
+      "raw_name": "Pate",
+      "slug": "pate",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 44
+    },
+    {
+      "raw_name": "The alchemist",
+      "slug": "alchemist",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alchemist.node.md",
+      "section": "Character Appearances",
+      "line": 45
+    },
+    {
+      "raw_name": "Emma",
+      "slug": "emma",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/emma.node.md",
+      "section": "Character Appearances",
+      "line": 46
+    },
+    {
+      "raw_name": "Rosey",
+      "slug": "rosey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rosey.node.md",
+      "section": "Characters Referenced",
+      "line": 51
+    },
+    {
+      "raw_name": "Archmaester Walgrave",
+      "slug": "archmaester-walgrave",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 52
+    },
+    {
+      "raw_name": "Maester Gormon",
+      "slug": "maester-gormon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 53
+    },
+    {
+      "raw_name": "Archmaester Marwyn (the Mage)",
+      "slug": "archmaester-marwyn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 54
+    },
+    {
+      "raw_name": "Archmaester Vaellyn (Vinegar Vaellyn)",
+      "slug": "archmaester-vaellyn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 55
+    },
+    {
+      "raw_name": "Archmaester Ebrose",
+      "slug": "archmaester-ebrose",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 56
+    },
+    {
+      "raw_name": "Archmaester Perestan",
+      "slug": "archmaester-perestan",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "Archmaester Ryam",
+      "slug": "archmaester-ryam",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "Archmaester Benedict",
+      "slug": "archmaester-benedict",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "Mollander's father",
+      "slug": "mollanders-father",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "Daenerys Targaryen (the Stormborn)",
+      "slug": "daenerys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 61
+    },
+    {
+      "raw_name": "Viserys Targaryen (the Beggar King)",
+      "slug": "viserys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/viserys-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 62
+    },
+    {
+      "raw_name": "Prince Rhaegar",
+      "slug": "prince-rhaegar",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "Aegon (son of Rhaegar)",
+      "slug": "aegon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "King Aegon the Third",
+      "slug": "king-aegon-the-third",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 65
+    },
+    {
+      "raw_name": "Tywin Lannister",
+      "slug": "tywin-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tywin-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "Stannis Baratheon",
+      "slug": "stannis-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stannis-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 67
+    },
+    {
+      "raw_name": "Renly Baratheon",
+      "slug": "renly-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/renly-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 68
+    },
+    {
+      "raw_name": "Balon Greyjoy",
+      "slug": "balon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/balon-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 69
+    },
+    {
+      "raw_name": "Mace Tyrell",
+      "slug": "mace-tyrell",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mace-tyrell.node.md",
+      "section": "Characters Referenced",
+      "line": 70
+    },
+    {
+      "raw_name": "Ser Moryn Tyrell",
+      "slug": "moryn-tyrell",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/moryn-tyrell.node.md",
+      "section": "Characters Referenced",
+      "line": 71
+    },
+    {
+      "raw_name": "Lord Leyton Hightower",
+      "slug": "leyton-hightower",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/leyton-hightower.node.md",
+      "section": "Characters Referenced",
+      "line": 72
+    },
+    {
+      "raw_name": "The Spider (Varys)",
+      "slug": "varys",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/varys.node.md",
+      "section": "Characters Referenced",
+      "line": 73
+    },
+    {
+      "raw_name": "Mollos",
+      "slug": "mollos",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mollos.node.md",
+      "section": "Characters Referenced",
+      "line": 74
+    },
+    {
+      "raw_name": "Cressen",
+      "slug": "cressen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cressen.node.md",
+      "section": "Characters Referenced",
+      "line": 75
+    },
+    {
+      "raw_name": "Spotted Pate the pig boy",
+      "slug": "spotted-pate-the-pig-boy",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 76
+    },
+    {
+      "raw_name": "Pate's mother",
+      "slug": "pates-mother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 77
+    },
+    {
+      "raw_name": "Oldtown",
+      "slug": "oldtown",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/oldtown.node.md",
+      "section": "Locations",
+      "line": 82
+    },
+    {
+      "raw_name": "The Quill and Tankard",
+      "slug": "quill-and-tankard",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/quill-and-tankard.node.md",
+      "section": "Locations",
+      "line": 83
+    },
+    {
+      "raw_name": "The Honeywine",
+      "slug": "honeywine",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/honeywine.node.md",
+      "section": "Locations",
+      "line": 84
+    },
+    {
+      "raw_name": "The Citadel",
+      "slug": "citadel",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/citadel.node.md",
+      "section": "Locations",
+      "line": 85
+    },
+    {
+      "raw_name": "The Hightower",
+      "slug": "hightower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/hightower.node.md",
+      "section": "Locations",
+      "line": 86
+    },
+    {
+      "raw_name": "Battle Island",
+      "slug": "battle-island",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/battle-island.node.md",
+      "section": "Locations",
+      "line": 87
+    },
+    {
+      "raw_name": "Whispering Sound",
+      "slug": "whispering-sound",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/whispering-sound.node.md",
+      "section": "Locations",
+      "line": 88
+    },
+    {
+      "raw_name": "The Starry Sept",
+      "slug": "starry-sept",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/starry-sept.node.md",
+      "section": "Locations",
+      "line": 89
+    },
+    {
+      "raw_name": "The Sailor's Sept",
+      "slug": "sailors-sept",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sailors-sept.node.md",
+      "section": "Locations",
+      "line": 90
+    },
+    {
+      "raw_name": "The Lord's Sept",
+      "slug": "lords-sept",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lords-sept.node.md",
+      "section": "Locations",
+      "line": 91
+    },
+    {
+      "raw_name": "The Seven Shrines",
+      "slug": "seven-shrines",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/seven-shrines.node.md",
+      "section": "Locations",
+      "line": 92
+    },
+    {
+      "raw_name": "R'hllor's wharfside temple",
+      "slug": "rhllors-wharfside-temple",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 93
+    },
+    {
+      "raw_name": "The Guildhalls",
+      "slug": "the-guildhalls",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 94
+    },
+    {
+      "raw_name": "The Checkered Hazard",
+      "slug": "checkered-hazard",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/checkered-hazard.node.md",
+      "section": "Locations",
+      "line": 95
+    },
+    {
+      "raw_name": "Old Thieves Market",
+      "slug": "old-thieves-market",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 96
+    },
+    {
+      "raw_name": "Ragpicker's Wynd",
+      "slug": "ragpickers-wynd",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 97
+    },
+    {
+      "raw_name": "The Library",
+      "slug": "the-library",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 98
+    },
+    {
+      "raw_name": "The locked vaults",
+      "slug": "the-locked-vaults",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 99
+    },
+    {
+      "raw_name": "The undercity",
+      "slug": "the-undercity",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 100
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Locations",
+      "line": 101
+    },
+    {
+      "raw_name": "Dragonstone",
+      "slug": "dragonstone",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dragonstone.node.md",
+      "section": "Locations",
+      "line": 102
+    },
+    {
+      "raw_name": "The Blackwater",
+      "slug": "the-blackwater",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 103
+    },
+    {
+      "raw_name": "Highgarden",
+      "slug": "highgarden",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/highgarden.node.md",
+      "section": "Locations",
+      "line": 104
+    },
+    {
+      "raw_name": "Qarth",
+      "slug": "qarth",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/qarth.node.md",
+      "section": "Locations",
+      "line": 105
+    },
+    {
+      "raw_name": "Asshai",
+      "slug": "asshai",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/asshai.node.md",
+      "section": "Locations",
+      "line": 106
+    },
+    {
+      "raw_name": "Yi Ti",
+      "slug": "yi-ti",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/yi-ti.node.md",
+      "section": "Locations",
+      "line": 107
+    },
+    {
+      "raw_name": "Meereen",
+      "slug": "meereen",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/meereen.node.md",
+      "section": "Locations",
+      "line": 108
+    },
+    {
+      "raw_name": "The Free Cities",
+      "slug": "free-cities",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/free-cities.node.md",
+      "section": "Locations",
+      "line": 109
+    },
+    {
+      "raw_name": "The Summer Isles",
+      "slug": "summer-isles",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/summer-isles.node.md",
+      "section": "Locations",
+      "line": 110
+    },
+    {
+      "raw_name": "The westerlands",
+      "slug": "westerlands",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/westerlands.node.md",
+      "section": "Locations",
+      "line": 111
+    },
+    {
+      "raw_name": "Dorne",
+      "slug": "dorne",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dorne.node.md",
+      "section": "Locations",
+      "line": 112
+    },
+    {
+      "raw_name": "The narrow sea",
+      "slug": "the-narrow-sea",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 113
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Locations",
+      "line": 114
+    },
+    {
+      "raw_name": "The Quill and Tankard",
+      "slug": "quill-and-tankard",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/quill-and-tankard.node.md",
+      "section": "Location Descriptions",
+      "line": 119
+    },
+    {
+      "raw_name": "Oldtown",
+      "slug": "oldtown",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/oldtown.node.md",
+      "section": "Location Descriptions",
+      "line": 120
+    },
+    {
+      "raw_name": "The Hightower",
+      "slug": "hightower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/hightower.node.md",
+      "section": "Location Descriptions",
+      "line": 121
+    },
+    {
+      "raw_name": "The Starry Sept",
+      "slug": "starry-sept",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/starry-sept.node.md",
+      "section": "Location Descriptions",
+      "line": 122
+    },
+    {
+      "raw_name": "The Citadel",
+      "slug": "citadel",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/citadel.node.md",
+      "section": "Location Descriptions",
+      "line": 123
+    },
+    {
+      "raw_name": "Glass candles",
+      "slug": "glass-candles",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 128
+    },
+    {
+      "raw_name": "The black iron key",
+      "slug": "the-black-iron-key",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 129
+    },
+    {
+      "raw_name": "Golden dragon coin",
+      "slug": "golden-dragon-coin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 130
+    },
+    {
+      "raw_name": "Alleras's goldenheart bow",
+      "slug": "allerass-goldenheart-bow",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 131
+    },
+    {
+      "raw_name": "Alleras's arrows",
+      "slug": "allerass-arrows",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 132
+    },
+    {
+      "raw_name": "Armen's maester chain (partial)",
+      "slug": "armens-maester-chain",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 133
+    },
+    {
+      "raw_name": "Leo's jade rose pin",
+      "slug": "leos-jade-rose-pin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 134
+    },
+    {
+      "raw_name": "Walgrave's strongbox",
+      "slug": "walgraves-strongbox",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 135
+    },
+    {
+      "raw_name": "Knight's gauntlet (lobstered steel)",
+      "slug": "knights-gauntlet",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 136
+    },
+    {
+      "raw_name": "Pate's coins",
+      "slug": "pates-coins",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 137
+    },
+    {
+      "raw_name": "Pate (POV, novice at the Citadel)",
+      "slug": "pate",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 275
+    },
+    {
+      "raw_name": "Mollander (novice, knight's son, clubfoot)",
+      "slug": "mollander",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mollander.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 276
+    },
+    {
+      "raw_name": "Alleras the Sphinx (acolyte, Dornish/Summer Islander)",
+      "slug": "alleras-the-sphinx",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 277
+    },
+    {
+      "raw_name": "Armen the Acolyte",
+      "slug": "armen",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/armen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 278
+    },
+    {
+      "raw_name": "Roone (novice, youngest)",
+      "slug": "roone",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/roone.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 279
+    },
+    {
+      "raw_name": "Lazy Leo / Leo Tyrell",
+      "slug": "lazy-leo-leo-tyrell",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 280
+    },
+    {
+      "raw_name": "Emma (serving wench at the Quill and Tankard)",
+      "slug": "emma",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/emma.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 281
+    },
+    {
+      "raw_name": "Rosey (Emma's daughter)",
+      "slug": "rosey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rosey.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 282
+    },
+    {
+      "raw_name": "The alchemist / the stranger",
+      "slug": "the-alchemist-the-stranger",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 283
+    },
+    {
+      "raw_name": "Archmaester Walgrave",
+      "slug": "archmaester-walgrave",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 284
+    },
+    {
+      "raw_name": "Maester Gormon",
+      "slug": "maester-gormon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 285
+    },
+    {
+      "raw_name": "Archmaester Marwyn (the Mage / the Mastiff)",
+      "slug": "archmaester-marwyn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 286
+    },
+    {
+      "raw_name": "Archmaester Vaellyn (Vinegar Vaellyn)",
+      "slug": "archmaester-vaellyn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 287
+    },
+    {
+      "raw_name": "Archmaester Ebrose",
+      "slug": "archmaester-ebrose",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 288
+    },
+    {
+      "raw_name": "Archmaester Perestan",
+      "slug": "archmaester-perestan",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 289
+    },
+    {
+      "raw_name": "Archmaester Ryam",
+      "slug": "archmaester-ryam",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 290
+    },
+    {
+      "raw_name": "Archmaester Benedict",
+      "slug": "archmaester-benedict",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 291
+    },
+    {
+      "raw_name": "Mollander's father (unnamed knight, died at the Blackwater)",
+      "slug": "mollanders-father",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 292
+    },
+    {
+      "raw_name": "Daenerys Targaryen (the Stormborn, the Mad King's daughter)",
+      "slug": "daenerys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 293
+    },
+    {
+      "raw_name": "Viserys Targaryen (the Beggar King)",
+      "slug": "viserys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/viserys-targaryen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 294
+    },
+    {
+      "raw_name": "Prince Rhaegar Targaryen",
+      "slug": "rhaegar-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rhaegar-targaryen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 295
+    },
+    {
+      "raw_name": "Aegon (son of Rhaegar, killed as infant)",
+      "slug": "aegon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 296
+    },
+    {
+      "raw_name": "King Aegon the Third",
+      "slug": "king-aegon-the-third",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 297
+    },
+    {
+      "raw_name": "Tywin Lannister",
+      "slug": "tywin-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tywin-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 298
+    },
+    {
+      "raw_name": "Stannis Baratheon",
+      "slug": "stannis-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stannis-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 299
+    },
+    {
+      "raw_name": "Renly Baratheon",
+      "slug": "renly-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/renly-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 300
+    },
+    {
+      "raw_name": "Balon Greyjoy",
+      "slug": "balon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/balon-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 301
+    },
+    {
+      "raw_name": "Mace Tyrell (Lord of Highgarden)",
+      "slug": "mace-tyrell",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mace-tyrell.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 302
+    },
+    {
+      "raw_name": "Ser Moryn Tyrell (Commander of Oldtown City Watch)",
+      "slug": "moryn-tyrell",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/moryn-tyrell.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 303
+    },
+    {
+      "raw_name": "Lord Leyton Hightower (Old Man of Oldtown)",
+      "slug": "leyton-hightower",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/leyton-hightower.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 304
+    },
+    {
+      "raw_name": "The Spider / Varys",
+      "slug": "the-spider-varys",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 305
+    },
+    {
+      "raw_name": "Mollos (archmaester or scholar)",
+      "slug": "mollos",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mollos.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 306
+    },
+    {
+      "raw_name": "Cressen (name Walgrave calls Pate)",
+      "slug": "cressen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cressen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 307
+    },
+    {
+      "raw_name": "Spotted Pate the pig boy (folk-tale character)",
+      "slug": "spotted-pate-the-pig-boy",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 308
+    },
+    {
+      "raw_name": "Pate's mother (unnamed)",
+      "slug": "pates-mother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 309
+    },
+    {
+      "raw_name": "Aegon the Conqueror (referenced as \"Aegon\" who landed at King's Landing)",
+      "slug": "aegon-i-targaryen",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aegon-i-targaryen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 310
+    },
+    {
+      "raw_name": "Oldtown",
+      "slug": "oldtown",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/oldtown.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 313
+    },
+    {
+      "raw_name": "The Quill and Tankard (inn on island in the Honeywine)",
+      "slug": "quill-and-tankard",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/quill-and-tankard.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 314
+    },
+    {
+      "raw_name": "The Honeywine (river)",
+      "slug": "honeywine",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/honeywine.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 315
+    },
+    {
+      "raw_name": "The Citadel",
+      "slug": "citadel",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/citadel.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 316
+    },
+    {
+      "raw_name": "The Hightower",
+      "slug": "hightower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/hightower.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 317
+    },
+    {
+      "raw_name": "Battle Island",
+      "slug": "battle-island",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/battle-island.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 318
+    },
+    {
+      "raw_name": "Whispering Sound",
+      "slug": "whispering-sound",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/whispering-sound.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 319
+    },
+    {
+      "raw_name": "The Starry Sept",
+      "slug": "starry-sept",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/starry-sept.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 320
+    },
+    {
+      "raw_name": "The Sailor's Sept",
+      "slug": "sailors-sept",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sailors-sept.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 321
+    },
+    {
+      "raw_name": "The Lord's Sept",
+      "slug": "lords-sept",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lords-sept.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 322
+    },
+    {
+      "raw_name": "The Seven Shrines",
+      "slug": "seven-shrines",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/seven-shrines.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 323
+    },
+    {
+      "raw_name": "R'hllor's wharfside temple",
+      "slug": "rhllors-wharfside-temple",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 324
+    },
+    {
+      "raw_name": "The Guildhalls (west bank of the Honeywine)",
+      "slug": "the-guildhalls",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 325
+    },
+    {
+      "raw_name": "The Checkered Hazard",
+      "slug": "checkered-hazard",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/checkered-hazard.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 326
+    },
+    {
+      "raw_name": "Old Thieves Market",
+      "slug": "old-thieves-market",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 327
+    },
+    {
+      "raw_name": "Ragpicker's Wynd",
+      "slug": "ragpickers-wynd",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 328
+    },
+    {
+      "raw_name": "The Library (at the Citadel)",
+      "slug": "the-library",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 329
+    },
+    {
+      "raw_name": "The locked vaults (at the Citadel)",
+      "slug": "the-locked-vaults",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 330
+    },
+    {
+      "raw_name": "The undercity (Oldtown's underworld)",
+      "slug": "the-undercity",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 331
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 332
+    },
+    {
+      "raw_name": "Dragonstone",
+      "slug": "dragonstone",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dragonstone.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 333
+    },
+    {
+      "raw_name": "The Blackwater",
+      "slug": "the-blackwater",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 334
+    },
+    {
+      "raw_name": "Highgarden",
+      "slug": "highgarden",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/highgarden.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 335
+    },
+    {
+      "raw_name": "Qarth",
+      "slug": "qarth",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/qarth.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 336
+    },
+    {
+      "raw_name": "Asshai",
+      "slug": "asshai",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/asshai.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 337
+    },
+    {
+      "raw_name": "Yi Ti",
+      "slug": "yi-ti",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/yi-ti.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 338
+    },
+    {
+      "raw_name": "Meereen",
+      "slug": "meereen",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/meereen.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 339
+    },
+    {
+      "raw_name": "The Free Cities",
+      "slug": "free-cities",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/free-cities.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 340
+    },
+    {
+      "raw_name": "The Summer Isles",
+      "slug": "summer-isles",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/summer-isles.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 341
+    },
+    {
+      "raw_name": "The westerlands",
+      "slug": "westerlands",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/westerlands.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 342
+    },
+    {
+      "raw_name": "Dorne",
+      "slug": "dorne",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dorne.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 343
+    },
+    {
+      "raw_name": "The narrow sea",
+      "slug": "the-narrow-sea",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 344
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 345
+    },
+    {
+      "raw_name": "Westeros",
+      "slug": "westeros",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/westeros.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 346
+    },
+    {
+      "raw_name": "The Iron Throne (referenced as object/seat of power)",
+      "slug": "iron-throne",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/iron-throne.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 347
+    },
+    {
+      "raw_name": "House Tyrell (Leo's house; Mace Tyrell, Lord of Highgarden; Ser Moryn Tyrell)",
+      "slug": "house-tyrell",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-tyrell.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 350
+    },
+    {
+      "raw_name": "House Targaryen (Daenerys, Viserys, Rhaegar, Aegon, Aegon III, the Conqueror)",
+      "slug": "house-targaryen",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-targaryen.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 351
+    },
+    {
+      "raw_name": "House Baratheon (Stannis, Renly)",
+      "slug": "house-baratheon",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-baratheon.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 352
+    },
+    {
+      "raw_name": "House Lannister (Tywin, \"the Lion of Lannister\")",
+      "slug": "house-lannister",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-lannister.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 353
+    },
+    {
+      "raw_name": "House Hightower (Lord Leyton)",
+      "slug": "house-hightower",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-hightower.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 354
+    },
+    {
+      "raw_name": "House Greyjoy (Balon)",
+      "slug": "house-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-greyjoy.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 355
+    },
+    {
+      "raw_name": "The Citadel (maesters' order — archmaesters, maesters, acolytes, novices)",
+      "slug": "citadel",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/citadel.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 358
+    },
+    {
+      "raw_name": "The City Watch of Oldtown (commanded by Ser Moryn Tyrell)",
+      "slug": "city-watch-of-oldtown",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/city-watch-of-oldtown.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 359
+    },
+    {
+      "raw_name": "Faith of the Seven (multiple septs in Oldtown: Starry Sept, Sailor's Sept, Lord's Sept, Seven Shrines; morning bells; septons mentioned)",
+      "slug": "faith-of-the-seven",
+      "resolved_via": "direct",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/faith-of-the-seven.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 362
+    },
+    {
+      "raw_name": "R'hllor (the Lord of Light) (red priests at wharfside temple; \"the night is dark and full of terrors\"; nightfires; Stannis worships him; fiery heart sigil)",
+      "slug": "rhllor",
+      "resolved_via": "direct",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/rhllor.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 363
+    },
+    {
+      "raw_name": "\"Queer gods\" at sailors' temples (Marwyn sacrifices to them)",
+      "slug": "queer-gods-at-sailors-temples",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 364
+    },
+    {
+      "raw_name": "Dornish / Dornishmen (Alleras's father)",
+      "slug": "dornish-dornishmen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 367
+    },
+    {
+      "raw_name": "Summer Islanders (Alleras's mother, black-skinned)",
+      "slug": "summer-islanders",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 368
+    },
+    {
+      "raw_name": "Ibbenese (\"hairy Ibbenese\" that Marwyn speaks with)",
+      "slug": "ibbenese",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/ibbenese.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 369
+    },
+    {
+      "raw_name": "Dothraki (mentioned in context of dragon reports — \"Dothraki dragons\")",
+      "slug": "dothraki",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/dothraki.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 370
+    },
+    {
+      "raw_name": "Smallfolk (referenced multiple times)",
+      "slug": "smallfolk",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/smallfolk.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 371
+    },
+    {
+      "raw_name": "Rivermen, seamen (patrons of the Quill and Tankard)",
+      "slug": "rivermen-seamen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 372
+    },
+    {
+      "raw_name": "Glass candles (obsidian, from Valyria — one green, three black)",
+      "slug": "glass-candles",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 375
+    },
+    {
+      "raw_name": "The black iron key (opens every door at the Citadel)",
+      "slug": "the-black-iron-key",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 376
+    },
+    {
+      "raw_name": "Golden dragon coin (three-headed dragon / dead king)",
+      "slug": "golden-dragon-coin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 377
+    },
+    {
+      "raw_name": "Alleras's goldenheart longbow",
+      "slug": "allerass-goldenheart-longbow",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 378
+    },
+    {
+      "raw_name": "Alleras's arrows (golden wood, scarlet feathers)",
+      "slug": "allerass-arrows",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 379
+    },
+    {
+      "raw_name": "Armen's partial maester chain (pewter, tin, lead, copper links)",
+      "slug": "armens-partial-maester-chain",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 380
+    },
+    {
+      "raw_name": "Leo's jade rose pin",
+      "slug": "leos-jade-rose-pin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 381
+    },
+    {
+      "raw_name": "Walgrave's strongbox (with contents: silver stags, lock of yellow hair, painted miniature, knight's gauntlet of lobstered steel)",
+      "slug": "walgraves-strongbox",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 382
+    },
+    {
+      "raw_name": "Maester's chains / links (pewter, tin, lead, copper, silver, black iron, Valyrian steel, yellow gold mentioned)",
+      "slug": "maesters-chains-links",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 383
+    },
+    {
+      "raw_name": "The iron mask (worn by whoever sits in an archmaester's place — Gormon wears Walgrave's)",
+      "slug": "the-iron-mask",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 384
+    },
+    {
+      "raw_name": "Pate's savings (nine silver stags, pot of copper stars and pennies)",
+      "slug": "pates-savings",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 385
+    },
+    {
+      "raw_name": "Old Valyrian scrolls (in the locked vaults)",
+      "slug": "old-valyrian-scrolls",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 386
+    },
+    {
+      "raw_name": "Leo's bravo's blade and dagger (referenced as weapons he's trained with)",
+      "slug": "leos-bravos-blade-and-dagger",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 387
+    },
+    {
+      "raw_name": "Stannis's banners (fiery heart of R'hllor replacing the crowned stag)",
+      "slug": "stanniss-banners",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 388
+    },
+    {
+      "raw_name": "Stories of Spotted Pate the pig boy (folk tales — \"a thousand ribald stories\")",
+      "slug": "stories-of-spotted-pate-the-pig-boy",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 391
+    },
+    {
+      "raw_name": "Red priests' song/prayer (\"For the night is dark and full of terrors\")",
+      "slug": "red-priests-song-prayer",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 392
+    },
+    {
+      "raw_name": "Valyrian scrolls in the Citadel's locked vaults (said to be only surviving copies in the world)",
+      "slug": "valyrian-scrolls-in-the-citadels-locked-vaults",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 393
+    },
+    {
+      "raw_name": "Glass candles (obsidian candles from Valyria, one is burning in Marwyn's chambers — supposedly impossible to light)",
+      "slug": "glass-candles",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 396
+    },
+    {
+      "raw_name": "Dragonglass / obsidian (\"The smallfolk call it dragonglass.\" \"Somehow that seemed important.\")",
+      "slug": "dragonglass-obsidian",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 397
+    },
+    {
+      "raw_name": "Dragons (three living dragons hatched by Daenerys, reported by sailors)",
+      "slug": "dragons",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 398
+    },
+    {
+      "raw_name": "Warlocks and shadowbinders (Marwyn studied with them in the east)",
+      "slug": "warlocks-and-shadowbinders",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 399
+    },
+    {
+      "raw_name": "\"Higher mysteries\" (what some acolytes study at the Citadel)",
+      "slug": "higher-mysteries",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 400
+    },
+    {
+      "raw_name": "\"Old powers waken. Shadows stir.\" (Leo's claim about what the glass candle signifies)",
+      "slug": "old-powers-waken-shadows-stir",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 401
+    },
+    {
+      "raw_name": "The Doom of Valyria (referenced as temporal marker)",
+      "slug": "doom-of-valyria",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/doom-of-valyria.node.md",
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 402
+    },
+    {
+      "raw_name": "War of the Five Kings (ongoing; Archmaester Benedict disputes the name)",
+      "slug": "war-of-the-five-kings",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/war-of-the-five-kings.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 405
+    },
+    {
+      "raw_name": "Battle of the Blackwater (Tywin smashed Stannis; Mollander's father died there)",
+      "slug": "battle-of-the-blackwater",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/battle-of-the-blackwater.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 406
+    },
+    {
+      "raw_name": "Archmaester (senior rank at the Citadel — Walgrave, Marwyn, Vaellyn, Ebrose, Perestan, Ryam, Benedict)",
+      "slug": "archmaester",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/archmaester.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 409
+    },
+    {
+      "raw_name": "Maester (Gormon)",
+      "slug": "maester",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/maester.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 410
+    },
+    {
+      "raw_name": "Acolyte (Armen, Alleras — students with chain links)",
+      "slug": "acolyte",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/acolyte.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 411
+    },
+    {
+      "raw_name": "Novice (Pate, Mollander, Roone — students without chain links)",
+      "slug": "novice",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/novice.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 412
+    },
+    {
+      "raw_name": "High Septon (former seat at the Starry Sept)",
+      "slug": "high-septon",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/high-septon.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 413
+    },
+    {
+      "raw_name": "Lord of Highgarden (Mace Tyrell)",
+      "slug": "lord-of-highgarden",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord-of-highgarden.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 414
+    },
+    {
+      "raw_name": "Warden of the South (Mace Tyrell)",
+      "slug": "warden-of-the-south",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/warden-of-the-south.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 415
+    },
+    {
+      "raw_name": "Protector of the Citadel (Lord Leyton Hightower)",
+      "slug": "protector-of-the-citadel",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 416
+    },
+    {
+      "raw_name": "Commander of the City Watch of Oldtown (Ser Moryn Tyrell)",
+      "slug": "commander-of-the-city-watch-of-oldtown",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 417
+    },
+    {
+      "raw_name": "King (Aegon III, Aegon the Conqueror, Stannis, Balon, Renly — various claimants)",
+      "slug": "king",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/king.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 418
+    },
+    {
+      "raw_name": "Tiles (a game played at the Checkered Hazard — Leo lost)",
+      "slug": "tiles",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 421
+    },
+    {
+      "raw_name": "The acolyte vigil (Citadel tradition: spending the night in darkness with a glass candle before taking vows)",
+      "slug": "the-acolyte-vigil",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 422
+    },
+    {
+      "raw_name": "White ravens (Walgrave's pride; know Pate's name; mutter \"Pate, Pate, Pate\" — associated with the Citadel and seasonal announcements)",
+      "slug": "white-ravens",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 423
+    },
+    {
+      "raw_name": "Nightingale (singing in the apple tree; Pate hears it trilling \"gold for iron\")",
+      "slug": "nightingale",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/nightingale.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 424
+    }
+  ]
+}

@@ -1,0 +1,1645 @@
+{
+  "chapter_id": "asos-arya-13",
+  "book": "asos",
+  "pov_character": "arya",
+  "generated_at": "2026-05-07T02:06:34.398225+00:00",
+  "extraction_path": "extractions/mechanical/asos/asos-arya-13.extraction.md",
+  "stats": {
+    "total_mentions": 181,
+    "resolved_to_node": 106,
+    "direct": 101,
+    "alias": 5,
+    "unresolved": 75
+  },
+  "mentions": [
+    {
+      "raw_name": "Arya Stark",
+      "slug": "arya-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/arya-stark.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Sandor Clegane (the Hound)",
+      "slug": "sandor-clegane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sandor-clegane.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Polliver",
+      "slug": "polliver",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/polliver.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "The Tickler",
+      "slug": "tickler",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tickler.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Unnamed squire",
+      "slug": "unnamed-squire",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "The innkeep",
+      "slug": "the-innkeep",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Horse trader woman",
+      "slug": "horse-trader-woman",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Captain of the Titan's Daughter",
+      "slug": "captain-of-the-titans-daughter",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Unnamed oarsman",
+      "slug": "unnamed-oarsman",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Unnamed boy at the docks",
+      "slug": "unnamed-boy-at-the-docks",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "Sandor Clegane",
+      "slug": "sandor-clegane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sandor-clegane.node.md",
+      "section": "Character Appearances",
+      "line": 41
+    },
+    {
+      "raw_name": "Polliver",
+      "slug": "polliver",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/polliver.node.md",
+      "section": "Character Appearances",
+      "line": 42
+    },
+    {
+      "raw_name": "The Tickler",
+      "slug": "tickler",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tickler.node.md",
+      "section": "Character Appearances",
+      "line": 43
+    },
+    {
+      "raw_name": "Unnamed squire",
+      "slug": "unnamed-squire",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 44
+    },
+    {
+      "raw_name": "Horse trader woman",
+      "slug": "horse-trader-woman",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 45
+    },
+    {
+      "raw_name": "Captain of Titan's Daughter",
+      "slug": "captain-of-titans-daughter",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 46
+    },
+    {
+      "raw_name": "Sansa Stark",
+      "slug": "sansa-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sansa-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 51
+    },
+    {
+      "raw_name": "Septa Mordane",
+      "slug": "mordane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mordane.node.md",
+      "section": "Characters Referenced",
+      "line": 52
+    },
+    {
+      "raw_name": "Gregor Clegane (the Mountain)",
+      "slug": "gregor-clegane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gregor-clegane.node.md",
+      "section": "Characters Referenced",
+      "line": 53
+    },
+    {
+      "raw_name": "Joffrey Baratheon",
+      "slug": "joffrey-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/joffrey-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 54
+    },
+    {
+      "raw_name": "Tyrion Lannister (the Imp)",
+      "slug": "tyrion-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tyrion-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 55
+    },
+    {
+      "raw_name": "Cersei Lannister (Queen Cersei)",
+      "slug": "cersei-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cersei-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 56
+    },
+    {
+      "raw_name": "Brynden Tully (the Blackfish)",
+      "slug": "brynden-tully",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brynden-tully.node.md",
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "Edmure Tully",
+      "slug": "edmure-tully",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/edmure-tully.node.md",
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "Walder Frey (Old Frey)",
+      "slug": "walder-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/walder-frey.node.md",
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "Randyll Tarly",
+      "slug": "randyll-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/randyll-tarly.node.md",
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "Lord Mooton",
+      "slug": "lord-mooton",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 61
+    },
+    {
+      "raw_name": "Vargo Hoat",
+      "slug": "vargo-hoat",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/vargo-hoat.node.md",
+      "section": "Characters Referenced",
+      "line": 62
+    },
+    {
+      "raw_name": "Robb Stark",
+      "slug": "robb-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "Lysa Arryn (Lady Lysa)",
+      "slug": "lysa-arryn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lysa-arryn.node.md",
+      "section": "Characters Referenced",
+      "line": 65
+    },
+    {
+      "raw_name": "Robert Arryn (little Robert)",
+      "slug": "robert-arryn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robert-arryn.node.md",
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "Mycah (the butcher's boy)",
+      "slug": "mycah",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mycah.node.md",
+      "section": "Characters Referenced",
+      "line": 67
+    },
+    {
+      "raw_name": "Jaqen H'ghar",
+      "slug": "jaqen-hghar",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaqen-hghar.node.md",
+      "section": "Characters Referenced",
+      "line": 68
+    },
+    {
+      "raw_name": "Maester Luwin",
+      "slug": "luwin",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/luwin.node.md",
+      "section": "Characters Referenced",
+      "line": 69
+    },
+    {
+      "raw_name": "Dunsen",
+      "slug": "dunsen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dunsen.node.md",
+      "section": "Characters Referenced",
+      "line": 70
+    },
+    {
+      "raw_name": "Raff the Sweetling",
+      "slug": "rafford",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rafford.node.md",
+      "section": "Characters Referenced",
+      "line": 71
+    },
+    {
+      "raw_name": "Ser Ilyn Payne",
+      "slug": "ilyn-payne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ilyn-payne.node.md",
+      "section": "Characters Referenced",
+      "line": 72
+    },
+    {
+      "raw_name": "Ser Meryn Trant",
+      "slug": "meryn-trant",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meryn-trant.node.md",
+      "section": "Characters Referenced",
+      "line": 73
+    },
+    {
+      "raw_name": "Bolton's bastard",
+      "slug": "boltons-bastard",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 74
+    },
+    {
+      "raw_name": "Blackwoods",
+      "slug": "blackwoods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 75
+    },
+    {
+      "raw_name": "Brackens",
+      "slug": "brackens",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 76
+    },
+    {
+      "raw_name": "The inn (crossroads inn, near the ruby ford)",
+      "slug": "the-inn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 81
+    },
+    {
+      "raw_name": "The ruby ford",
+      "slug": "the-ruby-ford",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 82
+    },
+    {
+      "raw_name": "Harrenhal",
+      "slug": "harrenhal",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/harrenhal.node.md",
+      "section": "Locations",
+      "line": 83
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Locations",
+      "line": 84
+    },
+    {
+      "raw_name": "Riverrun",
+      "slug": "riverrun",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/riverrun.node.md",
+      "section": "Locations",
+      "line": 85
+    },
+    {
+      "raw_name": "Raventree",
+      "slug": "raventree",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 86
+    },
+    {
+      "raw_name": "Maidenpool",
+      "slug": "maidenpool",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/maidenpool.node.md",
+      "section": "Locations",
+      "line": 87
+    },
+    {
+      "raw_name": "Casterly Rock",
+      "slug": "casterly-rock",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/casterly-rock.node.md",
+      "section": "Locations",
+      "line": 88
+    },
+    {
+      "raw_name": "The Trident (river)",
+      "slug": "trident",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/trident.node.md",
+      "section": "Locations",
+      "line": 89
+    },
+    {
+      "raw_name": "Saltpans",
+      "slug": "saltpans",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/saltpans.node.md",
+      "section": "Locations",
+      "line": 90
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Locations",
+      "line": 91
+    },
+    {
+      "raw_name": "Eastwatch (-by-the-Sea)",
+      "slug": "eastwatch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 92
+    },
+    {
+      "raw_name": "Bay of Crabs",
+      "slug": "bay-of-crabs",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bay-of-crabs.node.md",
+      "section": "Locations",
+      "line": 93
+    },
+    {
+      "raw_name": "Crackclaw Point",
+      "slug": "crackclaw-point",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crackclaw-point.node.md",
+      "section": "Locations",
+      "line": 94
+    },
+    {
+      "raw_name": "Braavos (Free City of Braavos)",
+      "slug": "braavos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/braavos.node.md",
+      "section": "Locations",
+      "line": 95
+    },
+    {
+      "raw_name": "The Twins",
+      "slug": "twins",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/twins.node.md",
+      "section": "Locations",
+      "line": 96
+    },
+    {
+      "raw_name": "The Vale",
+      "slug": "the-vale",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 97
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Locations",
+      "line": 98
+    },
+    {
+      "raw_name": "The inn (crossroads inn)",
+      "slug": "the-inn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 103
+    },
+    {
+      "raw_name": "Camp by the Trident",
+      "slug": "camp-by-the-trident",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 104
+    },
+    {
+      "raw_name": "Saltpans",
+      "slug": "saltpans",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/saltpans.node.md",
+      "section": "Location Descriptions",
+      "line": 105
+    },
+    {
+      "raw_name": "Needle",
+      "slug": "needle",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/needle.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 110
+    },
+    {
+      "raw_name": "Iron coin (Jaqen H'ghar's coin)",
+      "slug": "iron-coin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 111
+    },
+    {
+      "raw_name": "The Hound's longsword",
+      "slug": "the-hounds-longsword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 112
+    },
+    {
+      "raw_name": "The Tickler's throwing knife",
+      "slug": "the-ticklers-throwing-knife",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 113
+    },
+    {
+      "raw_name": "Squire's cloak",
+      "slug": "squires-cloak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 114
+    },
+    {
+      "raw_name": "Sandor's helm",
+      "slug": "sandors-helm",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 115
+    },
+    {
+      "raw_name": "Stranger (horse)",
+      "slug": "stranger",
+      "resolved_via": "direct",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/stranger.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 116
+    },
+    {
+      "raw_name": "Craven (horse)",
+      "slug": "craven",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/craven.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 117
+    },
+    {
+      "raw_name": "Titan's Daughter (ship)",
+      "slug": "titans-daughter",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/titans-daughter.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 118
+    },
+    {
+      "raw_name": "Arya Stark",
+      "slug": "arya-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/arya-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 283
+    },
+    {
+      "raw_name": "Sandor Clegane (the Hound)",
+      "slug": "sandor-clegane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sandor-clegane.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 284
+    },
+    {
+      "raw_name": "Polliver",
+      "slug": "polliver",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/polliver.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 285
+    },
+    {
+      "raw_name": "The Tickler",
+      "slug": "tickler",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tickler.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 286
+    },
+    {
+      "raw_name": "Unnamed squire (pimply boy, brown-haired)",
+      "slug": "unnamed-squire",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 287
+    },
+    {
+      "raw_name": "The innkeep (skinny)",
+      "slug": "the-innkeep",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 288
+    },
+    {
+      "raw_name": "Unnamed women/girls at the inn",
+      "slug": "unnamed-women-girls-at-the-inn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 289
+    },
+    {
+      "raw_name": "Unnamed fieldhands at the inn",
+      "slug": "unnamed-fieldhands-at-the-inn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 290
+    },
+    {
+      "raw_name": "Unnamed girl on Polliver's lap",
+      "slug": "unnamed-girl-on-pollivers-lap",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 291
+    },
+    {
+      "raw_name": "Horse trader woman at Saltpans",
+      "slug": "horse-trader-woman-at-saltpans",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 292
+    },
+    {
+      "raw_name": "Captain of the Titan's Daughter",
+      "slug": "captain-of-the-titans-daughter",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 293
+    },
+    {
+      "raw_name": "Unnamed oarsman on the Titan's Daughter",
+      "slug": "unnamed-oarsman-on-the-titans-daughter",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 294
+    },
+    {
+      "raw_name": "Unnamed boy at the Saltpans docks",
+      "slug": "unnamed-boy-at-the-saltpans-docks",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 295
+    },
+    {
+      "raw_name": "Sansa Stark (referenced)",
+      "slug": "sansa-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sansa-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 296
+    },
+    {
+      "raw_name": "Septa Mordane (referenced)",
+      "slug": "mordane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mordane.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 297
+    },
+    {
+      "raw_name": "Gregor Clegane / the Mountain (referenced)",
+      "slug": "gregor-clegane-the-mountain",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 298
+    },
+    {
+      "raw_name": "Joffrey Baratheon (referenced, dead)",
+      "slug": "joffrey-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/joffrey-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 299
+    },
+    {
+      "raw_name": "Tyrion Lannister / the Imp (referenced)",
+      "slug": "tyrion-lannister-the-imp",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 300
+    },
+    {
+      "raw_name": "Cersei Lannister / Queen Cersei (referenced)",
+      "slug": "cersei-lannister-queen-cersei",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 301
+    },
+    {
+      "raw_name": "Brynden Tully / the Blackfish (referenced)",
+      "slug": "brynden-tully-the-blackfish",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 302
+    },
+    {
+      "raw_name": "Edmure Tully (referenced)",
+      "slug": "edmure-tully",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/edmure-tully.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 303
+    },
+    {
+      "raw_name": "Walder Frey / Old Frey (referenced)",
+      "slug": "walder-frey-old-frey",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 304
+    },
+    {
+      "raw_name": "Randyll Tarly (referenced)",
+      "slug": "randyll-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/randyll-tarly.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 305
+    },
+    {
+      "raw_name": "Lord Mooton (referenced)",
+      "slug": "lord-mooton",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 306
+    },
+    {
+      "raw_name": "Vargo Hoat (referenced)",
+      "slug": "vargo-hoat",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/vargo-hoat.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 307
+    },
+    {
+      "raw_name": "Robb Stark (referenced, dead)",
+      "slug": "robb-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 308
+    },
+    {
+      "raw_name": "Jon Snow (referenced)",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 309
+    },
+    {
+      "raw_name": "Lysa Arryn / Lady Lysa (referenced)",
+      "slug": "lysa-arryn-lady-lysa",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 310
+    },
+    {
+      "raw_name": "Robert Arryn / little Robert (referenced)",
+      "slug": "robert-arryn-little-robert",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 311
+    },
+    {
+      "raw_name": "Mycah / the butcher's boy (referenced, dead)",
+      "slug": "mycah-the-butchers-boy",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 312
+    },
+    {
+      "raw_name": "Jaqen H'ghar (referenced)",
+      "slug": "jaqen-hghar",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaqen-hghar.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 313
+    },
+    {
+      "raw_name": "Maester Luwin (referenced)",
+      "slug": "luwin",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/luwin.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 314
+    },
+    {
+      "raw_name": "Dunsen (referenced, on Arya's list)",
+      "slug": "dunsen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dunsen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 315
+    },
+    {
+      "raw_name": "Raff the Sweetling (referenced, on Arya's list)",
+      "slug": "rafford",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rafford.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 316
+    },
+    {
+      "raw_name": "Ser Ilyn Payne (referenced, on Arya's list)",
+      "slug": "ilyn-payne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ilyn-payne.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 317
+    },
+    {
+      "raw_name": "Ser Meryn Trant (referenced, on Arya's list)",
+      "slug": "meryn-trant",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meryn-trant.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 318
+    },
+    {
+      "raw_name": "Bolton's bastard (referenced)",
+      "slug": "boltons-bastard",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 319
+    },
+    {
+      "raw_name": "Lord Beric (referenced, in the Tickler's questions echoed by Arya)",
+      "slug": "lord-beric",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 320
+    },
+    {
+      "raw_name": "The inn (crossroads inn, near the ruby ford)",
+      "slug": "the-inn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 323
+    },
+    {
+      "raw_name": "The ruby ford",
+      "slug": "the-ruby-ford",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 324
+    },
+    {
+      "raw_name": "Harrenhal",
+      "slug": "harrenhal",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/harrenhal.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 325
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 326
+    },
+    {
+      "raw_name": "Riverrun",
+      "slug": "riverrun",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/riverrun.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 327
+    },
+    {
+      "raw_name": "Raventree",
+      "slug": "raventree",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 328
+    },
+    {
+      "raw_name": "Maidenpool",
+      "slug": "maidenpool",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/maidenpool.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 329
+    },
+    {
+      "raw_name": "Casterly Rock",
+      "slug": "casterly-rock",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/casterly-rock.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 330
+    },
+    {
+      "raw_name": "The Trident (river)",
+      "slug": "trident",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/trident.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 331
+    },
+    {
+      "raw_name": "Saltpans",
+      "slug": "saltpans",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/saltpans.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 332
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 333
+    },
+    {
+      "raw_name": "Eastwatch-by-the-Sea",
+      "slug": "eastwatch-by-the-sea",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/eastwatch-by-the-sea.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 334
+    },
+    {
+      "raw_name": "Bay of Crabs",
+      "slug": "bay-of-crabs",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bay-of-crabs.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 335
+    },
+    {
+      "raw_name": "Crackclaw Point",
+      "slug": "crackclaw-point",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crackclaw-point.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 336
+    },
+    {
+      "raw_name": "Braavos (Free City of Braavos)",
+      "slug": "braavos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/braavos.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 337
+    },
+    {
+      "raw_name": "The Twins (referenced)",
+      "slug": "twins",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/twins.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 338
+    },
+    {
+      "raw_name": "The Vale",
+      "slug": "the-vale",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 339
+    },
+    {
+      "raw_name": "Winterfell (referenced)",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 340
+    },
+    {
+      "raw_name": "House Stark (Arya, Sansa, Robb, Jon referenced as Starks)",
+      "slug": "house-stark",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-stark.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 343
+    },
+    {
+      "raw_name": "House Clegane (Sandor, Gregor)",
+      "slug": "house-clegane",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-clegane.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 344
+    },
+    {
+      "raw_name": "House Lannister (Tyrion, Cersei, Joffrey's association; Casterly Rock)",
+      "slug": "house-lannister",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-lannister.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 345
+    },
+    {
+      "raw_name": "House Baratheon (Joffrey as king)",
+      "slug": "house-baratheon",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-baratheon.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 346
+    },
+    {
+      "raw_name": "House Tully (the Blackfish, Edmure)",
+      "slug": "house-tully",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-tully.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 347
+    },
+    {
+      "raw_name": "House Frey (Old Frey)",
+      "slug": "house-frey",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-frey.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 348
+    },
+    {
+      "raw_name": "House Bolton (Bolton's bastard)",
+      "slug": "house-bolton",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-bolton.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 349
+    },
+    {
+      "raw_name": "House Blackwood (fighting around Raventree)",
+      "slug": "house-blackwood",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-blackwood.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 350
+    },
+    {
+      "raw_name": "House Bracken (fighting around Raventree; \"the Brackens are ours now\")",
+      "slug": "house-bracken",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-bracken.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 351
+    },
+    {
+      "raw_name": "House Tarly (Randyll Tarly)",
+      "slug": "house-tarly",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-tarly.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 352
+    },
+    {
+      "raw_name": "House Mooton (Lord Mooton)",
+      "slug": "house-mooton",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-mooton.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 353
+    },
+    {
+      "raw_name": "House Arryn (Lysa, Robert)",
+      "slug": "house-arryn",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-arryn.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 354
+    },
+    {
+      "raw_name": "The Mountain's men (Polliver, the Tickler, the squire serve Gregor)",
+      "slug": "the-mountains-men",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 357
+    },
+    {
+      "raw_name": "The Kingsguard (Sandor references his past white cloak)",
+      "slug": "kingsguard",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/kingsguard.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 358
+    },
+    {
+      "raw_name": "Night's Watch (Arya wants to go to the Wall; \"The Night's Watch has a castle on the sea\")",
+      "slug": "nights-watch",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/nights-watch.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 359
+    },
+    {
+      "raw_name": "Sellswords (fled Harrenhal when Gregor's men came)",
+      "slug": "sellswords",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 360
+    },
+    {
+      "raw_name": "The Mother / Faith of the Seven (squire cries \"Mother have mercy\")",
+      "slug": "the-mother-faith-of-the-seven",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 363
+    },
+    {
+      "raw_name": "Braavosi (the captain and crew of the Titan's Daughter are from the Free City of Braavos)",
+      "slug": "braavosi",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/braavosi.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 366
+    },
+    {
+      "raw_name": "Needle (Arya's sword, recovered from Polliver)",
+      "slug": "needle",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/needle.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 369
+    },
+    {
+      "raw_name": "Iron coin (Jaqen H'ghar's coin, small black iron, worn faceless)",
+      "slug": "iron-coin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 370
+    },
+    {
+      "raw_name": "The Hound's longsword (old, nicked, swapped for in the hills)",
+      "slug": "the-hounds-longsword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 371
+    },
+    {
+      "raw_name": "Polliver's longsword",
+      "slug": "pollivers-longsword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 372
+    },
+    {
+      "raw_name": "The Tickler's shortsword, dagger, and throwing knife",
+      "slug": "the-ticklers-shortsword-dagger-and-throwing-knife",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 373
+    },
+    {
+      "raw_name": "Squire's sword",
+      "slug": "squires-sword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 374
+    },
+    {
+      "raw_name": "Squire's cloak (green, green arrow on white bend)",
+      "slug": "squires-cloak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 375
+    },
+    {
+      "raw_name": "Sandor's helm (dog-faced, used to boil wine)",
+      "slug": "sandors-helm",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 376
+    },
+    {
+      "raw_name": "Stone cups and pewter platter (at the inn)",
+      "slug": "stone-cups-and-pewter-platter",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 377
+    },
+    {
+      "raw_name": "Wine flagon",
+      "slug": "wine-flagon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 378
+    },
+    {
+      "raw_name": "Wineskin",
+      "slug": "wineskin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 379
+    },
+    {
+      "raw_name": "Stranger (Sandor's horse)",
+      "slug": "stranger",
+      "resolved_via": "direct",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/stranger.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 380
+    },
+    {
+      "raw_name": "Craven (Arya's horse, sold at Saltpans)",
+      "slug": "craven",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/craven.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 381
+    },
+    {
+      "raw_name": "Titan's Daughter (Braavosi galley: purple sails, purple hull, gilded prow, two banks of oars, three tall masts)",
+      "slug": "titans-daughter",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/titans-daughter.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 382
+    },
+    {
+      "raw_name": "River galleys (two, at Saltpans)",
+      "slug": "river-galleys",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 383
+    },
+    {
+      "raw_name": "Dagger robbed off a dying archer (thrown by Arya at the Tickler)",
+      "slug": "dagger-robbed-off-a-dying-archer",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 384
+    },
+    {
+      "raw_name": "Coppers (thrown on floor by Sandor for payment)",
+      "slug": "coppers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 385
+    },
+    {
+      "raw_name": "Coins found on the dead: a stag and dozen coppers on Polliver, eight silvers on the squire, couple of pennies on the Tickler, plus a stag in each boot-toe and three golden dragons sewn in Sandor's jerkin lining",
+      "slug": "coins-found-on-the-dead-a-stag-and-dozen-coppers-on-polliver-eight-silvers-on-the-squire-couple-of-pennies-on-the-tickler-plus-a-stag-in-each-boot-toe-and-three-golden-dragons-sewn-in-sandors-jerkin-lining",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 386
+    },
+    {
+      "raw_name": "\"Valar morghulis\" (the phrase; Arya uses it as a ritual invocation with the iron coin)",
+      "slug": "valar-morghulis",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 392
+    },
+    {
+      "raw_name": "\"Valar dohaeris\" (the captain's response)",
+      "slug": "valar-dohaeris",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 393
+    },
+    {
+      "raw_name": "Wolf dream (Arya dreams she is a wolf chasing a riderless horse up a hill with a pack behind her)",
+      "slug": "wolf-dream",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 394
+    },
+    {
+      "raw_name": "Rumors of Sansa using a spell and transforming into a winged wolf (described as popular rumor, not confirmed)",
+      "slug": "rumors-of-sansa-using-a-spell-and-transforming-into-a-winged-wolf",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 395
+    },
+    {
+      "raw_name": "War of the Five Kings (contextual: siege of Riverrun, Joffrey's death, fighting around Raventree, Gregor holding the ford)",
+      "slug": "war-of-the-five-kings",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/war-of-the-five-kings.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 398
+    },
+    {
+      "raw_name": "Ser (used for Gregor Clegane; the innkeep calls Sandor \"ser\" and is corrected)",
+      "slug": "ser",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/ser.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 401
+    },
+    {
+      "raw_name": "King (Joffrey as King Joffrey)",
+      "slug": "king",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/king.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 402
+    },
+    {
+      "raw_name": "Queen (Cersei as queen)",
+      "slug": "queen",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/queen.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 403
+    },
+    {
+      "raw_name": "Lord (Lord Beric, Lord Mooton)",
+      "slug": "lord",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 404
+    },
+    {
+      "raw_name": "Lady (Lady Lysa)",
+      "slug": "lady",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lady.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 405
+    },
+    {
+      "raw_name": "Captain (of the Titan's Daughter)",
+      "slug": "captain",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 406
+    },
+    {
+      "raw_name": "Maester (Maester Luwin referenced; squire asks to be taken to a maester)",
+      "slug": "maester",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/maester.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 407
+    },
+    {
+      "raw_name": "Septa (Septa Mordane referenced)",
+      "slug": "septa",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/septa.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 408
+    },
+    {
+      "raw_name": "\"Fear cuts deeper than swords\" (Arya's internal mantra, recalled during the fight)",
+      "slug": "fear-cuts-deeper-than-swords",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 411
+    },
+    {
+      "raw_name": "\"The gift of mercy\" (concept: mercy killing; Sandor asks for it; Arya refuses)",
+      "slug": "the-gift-of-mercy",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 412
+    },
+    {
+      "raw_name": "Water dancer's stance (Arya takes the stance instinctively when drawing Needle on Sandor)",
+      "slug": "water-dancers-stance",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 413
+    },
+    {
+      "raw_name": "Arya's death list (recited: Ser Gregor the Mountain, Dunsen, Raff the Sweetling, Ser Ilyn, Ser Meryn, Queen Cersei — with Polliver, the Tickler, and Joffrey noted as removed; the Hound added then removed ambiguously)",
+      "slug": "aryas-death-list",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 414
+    }
+  ]
+}

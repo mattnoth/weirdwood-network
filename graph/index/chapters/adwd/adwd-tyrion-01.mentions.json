@@ -1,0 +1,1627 @@
+{
+  "chapter_id": "adwd-tyrion-01",
+  "book": "adwd",
+  "pov_character": "tyrion",
+  "generated_at": "2026-05-07T02:06:34.531453+00:00",
+  "extraction_path": "extractions/mechanical/adwd/adwd-tyrion-01.extraction.md",
+  "stats": {
+    "total_mentions": 179,
+    "resolved_to_node": 103,
+    "direct": 102,
+    "alias": 1,
+    "unresolved": 76
+  },
+  "mentions": [
+    {
+      "raw_name": "Tyrion Lannister",
+      "slug": "tyrion-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tyrion-lannister.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Illyrio Mopatis",
+      "slug": "illyrio-mopatis",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/illyrio-mopatis.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Varys",
+      "slug": "varys",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/varys.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Cabin boy",
+      "slug": "cabin-boy",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Bald sailor",
+      "slug": "bald-sailor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Ship captain",
+      "slug": "ship-captain",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Two fat cooks",
+      "slug": "two-fat-cooks",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Potboy",
+      "slug": "potboy",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Washerwoman",
+      "slug": "washerwoman",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Blond bedwarmer",
+      "slug": "blond-bedwarmer",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "Serving men",
+      "slug": "serving-men",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 37
+    },
+    {
+      "raw_name": "Tyrion Lannister",
+      "slug": "tyrion-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tyrion-lannister.node.md",
+      "section": "Character Appearances",
+      "line": 42
+    },
+    {
+      "raw_name": "Illyrio Mopatis",
+      "slug": "illyrio-mopatis",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/illyrio-mopatis.node.md",
+      "section": "Character Appearances",
+      "line": 43
+    },
+    {
+      "raw_name": "Varys",
+      "slug": "varys",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/varys.node.md",
+      "section": "Character Appearances",
+      "line": 44
+    },
+    {
+      "raw_name": "Cabin boy",
+      "slug": "cabin-boy",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 45
+    },
+    {
+      "raw_name": "Bald sailor",
+      "slug": "bald-sailor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 46
+    },
+    {
+      "raw_name": "Washerwoman",
+      "slug": "washerwoman",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 47
+    },
+    {
+      "raw_name": "Blond bedwarmer",
+      "slug": "blond-bedwarmer",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 48
+    },
+    {
+      "raw_name": "Two fat cooks",
+      "slug": "two-fat-cooks",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 49
+    },
+    {
+      "raw_name": "Lord Tywin Lannister",
+      "slug": "tywin-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tywin-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 54
+    },
+    {
+      "raw_name": "Jaime Lannister",
+      "slug": "jaime-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaime-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 55
+    },
+    {
+      "raw_name": "Cersei Lannister",
+      "slug": "cersei-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cersei-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 56
+    },
+    {
+      "raw_name": "Shae",
+      "slug": "shae",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/shae.node.md",
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "Tysha",
+      "slug": "tysha",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tysha.node.md",
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "Oberyn Martell (the Red Viper)",
+      "slug": "oberyn-martell",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/oberyn-martell.node.md",
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "Doran Martell",
+      "slug": "doran-martell",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/doran-martell.node.md",
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "Myrcella Baratheon",
+      "slug": "myrcella-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/myrcella-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 61
+    },
+    {
+      "raw_name": "Tommen Baratheon",
+      "slug": "tommen-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tommen-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 62
+    },
+    {
+      "raw_name": "Joffrey Baratheon",
+      "slug": "joffrey-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/joffrey-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "Stannis Baratheon",
+      "slug": "stannis-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stannis-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "Jeor Mormont (Old Bear)",
+      "slug": "jeor-mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jeor-mormont.node.md",
+      "section": "Characters Referenced",
+      "line": 65
+    },
+    {
+      "raw_name": "Janos Slynt",
+      "slug": "janos-slynt",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/janos-slynt.node.md",
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "Ser Gregor Clegane",
+      "slug": "gregor-clegane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gregor-clegane.node.md",
+      "section": "Characters Referenced",
+      "line": 67
+    },
+    {
+      "raw_name": "Lord Runceford Redwyne",
+      "slug": "runceford-redwyne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/runceford-redwyne.node.md",
+      "section": "Characters Referenced",
+      "line": 68
+    },
+    {
+      "raw_name": "The present Lord of the Arbor (Paxter Redwyne implied)",
+      "slug": "the-present-lord-of-the-arbor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 69
+    },
+    {
+      "raw_name": "Magister Ordello",
+      "slug": "magister-ordello",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 70
+    },
+    {
+      "raw_name": "The Prince of Pentos",
+      "slug": "prince-of-pentos",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/prince-of-pentos.node.md",
+      "section": "Characters Referenced",
+      "line": 71
+    },
+    {
+      "raw_name": "The narrow sea",
+      "slug": "the-narrow-sea",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 76
+    },
+    {
+      "raw_name": "Ship (unnamed)",
+      "slug": "ship",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 77
+    },
+    {
+      "raw_name": "Pentos",
+      "slug": "pentos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pentos.node.md",
+      "section": "Locations",
+      "line": 78
+    },
+    {
+      "raw_name": "Illyrio's manse",
+      "slug": "illyrios-manse",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/illyrios-manse.node.md",
+      "section": "Locations",
+      "line": 79
+    },
+    {
+      "raw_name": "Wine cellar (in manse)",
+      "slug": "wine-cellar",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 80
+    },
+    {
+      "raw_name": "Illyrio's gardens",
+      "slug": "illyrios-gardens",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 81
+    },
+    {
+      "raw_name": "Marble pool with cherry trees",
+      "slug": "marble-pool-with-cherry-trees",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 82
+    },
+    {
+      "raw_name": "The Blackwater",
+      "slug": "the-blackwater",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 83
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Locations",
+      "line": 84
+    },
+    {
+      "raw_name": "Casterly Rock",
+      "slug": "casterly-rock",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/casterly-rock.node.md",
+      "section": "Locations",
+      "line": 85
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Locations",
+      "line": 86
+    },
+    {
+      "raw_name": "Dorne / Sunspear",
+      "slug": "dorne-sunspear",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 87
+    },
+    {
+      "raw_name": "Eastwatch-by-the-Sea",
+      "slug": "eastwatch-by-the-sea",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/eastwatch-by-the-sea.node.md",
+      "section": "Locations",
+      "line": 88
+    },
+    {
+      "raw_name": "Astapor",
+      "slug": "astapor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/astapor.node.md",
+      "section": "Locations",
+      "line": 89
+    },
+    {
+      "raw_name": "Meereen",
+      "slug": "meereen",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/meereen.node.md",
+      "section": "Locations",
+      "line": 90
+    },
+    {
+      "raw_name": "Slaver's Bay",
+      "slug": "slavers-bay",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/slavers-bay.node.md",
+      "section": "Locations",
+      "line": 91
+    },
+    {
+      "raw_name": "Lys",
+      "slug": "lys",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lys.node.md",
+      "section": "Locations",
+      "line": 92
+    },
+    {
+      "raw_name": "Braavos",
+      "slug": "braavos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/braavos.node.md",
+      "section": "Locations",
+      "line": 93
+    },
+    {
+      "raw_name": "Tyrosh",
+      "slug": "tyrosh",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/tyrosh.node.md",
+      "section": "Locations",
+      "line": 94
+    },
+    {
+      "raw_name": "Myr",
+      "slug": "myr",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/myr.node.md",
+      "section": "Locations",
+      "line": 95
+    },
+    {
+      "raw_name": "Volantis",
+      "slug": "volantis",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/volantis.node.md",
+      "section": "Locations",
+      "line": 96
+    },
+    {
+      "raw_name": "Qarth",
+      "slug": "qarth",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/qarth.node.md",
+      "section": "Locations",
+      "line": 97
+    },
+    {
+      "raw_name": "Yi Ti",
+      "slug": "yi-ti",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/yi-ti.node.md",
+      "section": "Locations",
+      "line": 98
+    },
+    {
+      "raw_name": "Asshai by the Shadow",
+      "slug": "asshai-by-the-shadow",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 99
+    },
+    {
+      "raw_name": "The Reach",
+      "slug": "reach",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/reach.node.md",
+      "section": "Locations",
+      "line": 100
+    },
+    {
+      "raw_name": "The Arbor",
+      "slug": "arbor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/arbor.node.md",
+      "section": "Locations",
+      "line": 101
+    },
+    {
+      "raw_name": "Ship cabin",
+      "slug": "ship-cabin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 106
+    },
+    {
+      "raw_name": "Wine cellar (Illyrio's manse)",
+      "slug": "wine-cellar",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 107
+    },
+    {
+      "raw_name": "Illyrio's manse",
+      "slug": "illyrios-manse",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/illyrios-manse.node.md",
+      "section": "Location Descriptions",
+      "line": 108
+    },
+    {
+      "raw_name": "Marble pool (in manse grounds)",
+      "slug": "marble-pool",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 109
+    },
+    {
+      "raw_name": "Pentos (city view)",
+      "slug": "pentos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pentos.node.md",
+      "section": "Location Descriptions",
+      "line": 110
+    },
+    {
+      "raw_name": "Crossbow (recalled)",
+      "slug": "crossbow",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 115
+    },
+    {
+      "raw_name": "Wine cask (transport)",
+      "slug": "wine-cask",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 116
+    },
+    {
+      "raw_name": "Marble swordsman statue",
+      "slug": "marble-swordsman-statue",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 117
+    },
+    {
+      "raw_name": "Poisonous mushrooms (seven)",
+      "slug": "poisonous-mushrooms",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 118
+    },
+    {
+      "raw_name": "Lord Runceford Redwyne's strongwine",
+      "slug": "lord-runceford-redwynes-strongwine",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 119
+    },
+    {
+      "raw_name": "Illyrio's rings",
+      "slug": "illyrios-rings",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 120
+    },
+    {
+      "raw_name": "Cedar chest",
+      "slug": "cedar-chest",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 121
+    },
+    {
+      "raw_name": "Palanquin of ivory and gold",
+      "slug": "palanquin-of-ivory-and-gold",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 122
+    },
+    {
+      "raw_name": "Golden scales of trade, iron sword of war, silver scourge of justice",
+      "slug": "golden-scales-of-trade-iron-sword-of-war-silver-scourge-of-justice",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 123
+    },
+    {
+      "raw_name": "Iron dragon (recalled)",
+      "slug": "iron-dragon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 124
+    },
+    {
+      "raw_name": "Tyrion Lannister",
+      "slug": "tyrion-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tyrion-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 268
+    },
+    {
+      "raw_name": "Illyrio Mopatis",
+      "slug": "illyrio-mopatis",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/illyrio-mopatis.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 269
+    },
+    {
+      "raw_name": "Varys (the Spider, the eunuch, master of whisperers)",
+      "slug": "varys",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/varys.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 270
+    },
+    {
+      "raw_name": "Lord Tywin Lannister",
+      "slug": "tywin-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tywin-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 271
+    },
+    {
+      "raw_name": "Jaime Lannister",
+      "slug": "jaime-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaime-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 272
+    },
+    {
+      "raw_name": "Cersei Lannister",
+      "slug": "cersei-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cersei-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 273
+    },
+    {
+      "raw_name": "Shae",
+      "slug": "shae",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/shae.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 274
+    },
+    {
+      "raw_name": "Tysha",
+      "slug": "tysha",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tysha.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 275
+    },
+    {
+      "raw_name": "Oberyn Martell (the Red Viper)",
+      "slug": "oberyn-martell",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/oberyn-martell.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 276
+    },
+    {
+      "raw_name": "Doran Martell",
+      "slug": "doran-martell",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/doran-martell.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 277
+    },
+    {
+      "raw_name": "Myrcella Baratheon",
+      "slug": "myrcella-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/myrcella-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 278
+    },
+    {
+      "raw_name": "Tommen Baratheon",
+      "slug": "tommen-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tommen-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 279
+    },
+    {
+      "raw_name": "Joffrey Baratheon",
+      "slug": "joffrey-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/joffrey-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 280
+    },
+    {
+      "raw_name": "Stannis Baratheon",
+      "slug": "stannis-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stannis-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 281
+    },
+    {
+      "raw_name": "Ser Gregor Clegane",
+      "slug": "gregor-clegane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gregor-clegane.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 282
+    },
+    {
+      "raw_name": "Janos Slynt",
+      "slug": "janos-slynt",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/janos-slynt.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 283
+    },
+    {
+      "raw_name": "Jeor Mormont (Old Bear Mormont)",
+      "slug": "jeor-mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jeor-mormont.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 284
+    },
+    {
+      "raw_name": "Lord Runceford Redwyne",
+      "slug": "runceford-redwyne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/runceford-redwyne.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 285
+    },
+    {
+      "raw_name": "Magister Ordello",
+      "slug": "magister-ordello",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 286
+    },
+    {
+      "raw_name": "The Prince of Pentos (unnamed)",
+      "slug": "prince-of-pentos",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/prince-of-pentos.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 287
+    },
+    {
+      "raw_name": "Cabin boy (unnamed)",
+      "slug": "cabin-boy",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 288
+    },
+    {
+      "raw_name": "Bald sailor (unnamed)",
+      "slug": "bald-sailor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 289
+    },
+    {
+      "raw_name": "Ship captain (unnamed)",
+      "slug": "ship-captain",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 290
+    },
+    {
+      "raw_name": "Two fat cooks (unnamed)",
+      "slug": "two-fat-cooks",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 291
+    },
+    {
+      "raw_name": "Potboy (unnamed)",
+      "slug": "potboy",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 292
+    },
+    {
+      "raw_name": "Washerwoman (unnamed, freckled, dull red hair)",
+      "slug": "washerwoman",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 293
+    },
+    {
+      "raw_name": "Blond bedwarmer (unnamed, blue-eyed)",
+      "slug": "blond-bedwarmer",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 294
+    },
+    {
+      "raw_name": "Serving men (unnamed)",
+      "slug": "serving-men",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 295
+    },
+    {
+      "raw_name": "Eunuch guards (unnamed)",
+      "slug": "eunuch-guards",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 296
+    },
+    {
+      "raw_name": "The narrow sea",
+      "slug": "the-narrow-sea",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 299
+    },
+    {
+      "raw_name": "Pentos",
+      "slug": "pentos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pentos.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 300
+    },
+    {
+      "raw_name": "Illyrio's manse",
+      "slug": "illyrios-manse",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/illyrios-manse.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 301
+    },
+    {
+      "raw_name": "Wine cellar (in manse)",
+      "slug": "wine-cellar",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 302
+    },
+    {
+      "raw_name": "Marble pool with cherry trees (in manse grounds)",
+      "slug": "marble-pool-with-cherry-trees",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 303
+    },
+    {
+      "raw_name": "Manse gardens",
+      "slug": "manse-gardens",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 304
+    },
+    {
+      "raw_name": "Tiled courtyard with well",
+      "slug": "tiled-courtyard-with-well",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 305
+    },
+    {
+      "raw_name": "Pillared gallery",
+      "slug": "pillared-gallery",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 306
+    },
+    {
+      "raw_name": "King's Landing",
+      "slug": "kings-landing",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-landing.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 307
+    },
+    {
+      "raw_name": "The Blackwater",
+      "slug": "the-blackwater",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 308
+    },
+    {
+      "raw_name": "Red Keep tunnels (recalled)",
+      "slug": "red-keep-tunnels",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 309
+    },
+    {
+      "raw_name": "Casterly Rock",
+      "slug": "casterly-rock",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/casterly-rock.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 310
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 311
+    },
+    {
+      "raw_name": "Eastwatch-by-the-Sea",
+      "slug": "eastwatch-by-the-sea",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/eastwatch-by-the-sea.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 312
+    },
+    {
+      "raw_name": "Dorne",
+      "slug": "dorne",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dorne.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 313
+    },
+    {
+      "raw_name": "Sunspear",
+      "slug": "sunspear",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sunspear.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 314
+    },
+    {
+      "raw_name": "Slaver's Bay",
+      "slug": "slavers-bay",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/slavers-bay.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 315
+    },
+    {
+      "raw_name": "Astapor",
+      "slug": "astapor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/astapor.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 316
+    },
+    {
+      "raw_name": "Meereen",
+      "slug": "meereen",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/meereen.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 317
+    },
+    {
+      "raw_name": "Braavos",
+      "slug": "braavos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/braavos.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 318
+    },
+    {
+      "raw_name": "Tyrosh",
+      "slug": "tyrosh",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/tyrosh.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 319
+    },
+    {
+      "raw_name": "Myr",
+      "slug": "myr",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/myr.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 320
+    },
+    {
+      "raw_name": "Lys",
+      "slug": "lys",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lys.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 321
+    },
+    {
+      "raw_name": "Volantis",
+      "slug": "volantis",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/volantis.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 322
+    },
+    {
+      "raw_name": "Qarth",
+      "slug": "qarth",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/qarth.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 323
+    },
+    {
+      "raw_name": "Yi Ti",
+      "slug": "yi-ti",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/yi-ti.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 324
+    },
+    {
+      "raw_name": "Asshai by the Shadow",
+      "slug": "asshai-by-the-shadow",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 325
+    },
+    {
+      "raw_name": "The Reach",
+      "slug": "reach",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/reach.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 326
+    },
+    {
+      "raw_name": "The Arbor",
+      "slug": "arbor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/arbor.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 327
+    },
+    {
+      "raw_name": "The Rock (Casterly Rock)",
+      "slug": "the-rock",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 328
+    },
+    {
+      "raw_name": "House Lannister",
+      "slug": "house-lannister",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-lannister.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 331
+    },
+    {
+      "raw_name": "House Baratheon",
+      "slug": "house-baratheon",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-baratheon.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 332
+    },
+    {
+      "raw_name": "House Martell",
+      "slug": "house-martell",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-martell.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 333
+    },
+    {
+      "raw_name": "House Redwyne",
+      "slug": "house-redwyne",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-redwyne.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 334
+    },
+    {
+      "raw_name": "Night's Watch",
+      "slug": "nights-watch",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/nights-watch.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 337
+    },
+    {
+      "raw_name": "Magisters of Pentos (the forty families)",
+      "slug": "magisters-of-pentos",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 338
+    },
+    {
+      "raw_name": "The Seven (referenced: \"the Seven were trying to tell him something\"; \"Has the Father Above made you his Hand?\")",
+      "slug": "the-seven",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 341
+    },
+    {
+      "raw_name": "Ghiscari (Astapor and Meereen described as \"Ghiscari slave cities\")",
+      "slug": "ghiscari",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/ghiscari.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 344
+    },
+    {
+      "raw_name": "Braavosi (imposed treaty on Pentos)",
+      "slug": "braavosi",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/braavosi.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 345
+    },
+    {
+      "raw_name": "Dornish (Dornish law, Dornish food, Dornish speech spiced with flavors of the Rhoyne)",
+      "slug": "dornishmen",
+      "resolved_via": "alias",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/dornishmen.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 346
+    },
+    {
+      "raw_name": "Westerosi (\"You Westerosi are all the same\")",
+      "slug": "westerosi",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/westerosi.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 347
+    },
+    {
+      "raw_name": "Valyrian (High Valyrian language; Free Cities dialects)",
+      "slug": "valyrian",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/valyrian.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 348
+    },
+    {
+      "raw_name": "Rhoynar (implied via \"flavors of the Rhoyne\" in Dornish speech)",
+      "slug": "rhoynar",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/rhoynar.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 349
+    },
+    {
+      "raw_name": "Free Cities peoples (merchant princes, \"spice soldiers and cheese lords\")",
+      "slug": "free-cities-peoples",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 350
+    },
+    {
+      "raw_name": "Crossbow (that killed Tywin)",
+      "slug": "crossbow",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 353
+    },
+    {
+      "raw_name": "Wine cask (transport)",
+      "slug": "wine-cask",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 354
+    },
+    {
+      "raw_name": "Marble swordsman statue (naked boy with bravo's blade)",
+      "slug": "marble-swordsman-statue",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 355
+    },
+    {
+      "raw_name": "Seven poisonous mushrooms (pale white, speckled, red-ribbed undersides)",
+      "slug": "seven-poisonous-mushrooms",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 356
+    },
+    {
+      "raw_name": "Lord Runceford Redwyne's strongwine cask",
+      "slug": "lord-runceford-redwynes-strongwine-cask",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 357
+    },
+    {
+      "raw_name": "Illyrio's jeweled rings",
+      "slug": "illyrios-jeweled-rings",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 358
+    },
+    {
+      "raw_name": "Cedar chest (lapis and mother-of-pearl inlay)",
+      "slug": "cedar-chest",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 359
+    },
+    {
+      "raw_name": "Iron dragon (orange embers in mouth, in tunnels)",
+      "slug": "iron-dragon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 360
+    },
+    {
+      "raw_name": "Palanquin of ivory and gold (Prince of Pentos)",
+      "slug": "palanquin-of-ivory-and-gold",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 361
+    },
+    {
+      "raw_name": "Golden scales of trade, iron sword of war, silver scourge of justice (Prince's heralds)",
+      "slug": "golden-scales-of-trade-iron-sword-of-war-silver-scourge-of-justice",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 362
+    },
+    {
+      "raw_name": "Spiked bronze caps (eunuch guards)",
+      "slug": "spiked-bronze-caps",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 363
+    },
+    {
+      "raw_name": "Volantene coin (crown on one face, death's-head on other)",
+      "slug": "volantene-coin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 364
+    },
+    {
+      "raw_name": "War of the Five Kings (implied — \"There is no peace in Westeros\")",
+      "slug": "war-of-the-five-kings",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/war-of-the-five-kings.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 373
+    },
+    {
+      "raw_name": "Fall of Astapor",
+      "slug": "fall-of-astapor",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/fall-of-astapor.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 374
+    },
+    {
+      "raw_name": "Fall of Meereen",
+      "slug": "fall-of-meereen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 375
+    },
+    {
+      "raw_name": "Lord Commander of the Night's Watch",
+      "slug": "lord-commander-of-the-nights-watch",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord-commander-of-the-nights-watch.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 378
+    },
+    {
+      "raw_name": "Magister (of Pentos)",
+      "slug": "magister",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/magister.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 379
+    },
+    {
+      "raw_name": "Prince of Pentos",
+      "slug": "prince-of-pentos",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/prince-of-pentos.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 380
+    },
+    {
+      "raw_name": "Hand of the King (referenced: \"Has the Father Above made you his Hand?\")",
+      "slug": "hand-of-the-king",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/hand-of-the-king.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 381
+    },
+    {
+      "raw_name": "Master of Whisperers (Varys's title)",
+      "slug": "master-of-whisperers",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/master-of-whisperers.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 382
+    },
+    {
+      "raw_name": "King (unspecified — the bedwarmer was \"bought to please the king\")",
+      "slug": "king",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/king.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 383
+    },
+    {
+      "raw_name": "Lord of the Arbor",
+      "slug": "lord-of-the-arbor",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord-of-the-arbor.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 384
+    },
+    {
+      "raw_name": "Dornish law (eldest child inherits regardless of gender)",
+      "slug": "dornish-law",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 387
+    },
+    {
+      "raw_name": "Common Tongue (language)",
+      "slug": "common-tongue",
+      "resolved_via": "direct",
+      "node_type": "concept.language",
+      "node_path": "graph/nodes/languages/common-tongue.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 388
+    },
+    {
+      "raw_name": "High Valyrian (language)",
+      "slug": "high-valyrian",
+      "resolved_via": "direct",
+      "node_type": "concept.language",
+      "node_path": "graph/nodes/languages/high-valyrian.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 389
+    },
+    {
+      "raw_name": "Nine Free Cities dialects (Braavosi, Myrish, Tyroshi referenced specifically)",
+      "slug": "nine-free-cities-dialects",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 390
+    },
+    {
+      "raw_name": "Pentoshi customs regarding the prince (deflowering maids, throat-cutting)",
+      "slug": "pentoshi-customs-regarding-the-prince",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 391
+    },
+    {
+      "raw_name": "Guest right / hospitality customs (invoked by Tyrion regarding poison)",
+      "slug": "guest-right-hospitality-customs",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 392
+    }
+  ]
+}

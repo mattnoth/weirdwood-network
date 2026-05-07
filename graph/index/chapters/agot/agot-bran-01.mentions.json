@@ -1,0 +1,799 @@
+{
+  "chapter_id": "agot-bran-01",
+  "book": "agot",
+  "pov_character": "bran",
+  "generated_at": "2026-05-07T02:06:34.295988+00:00",
+  "extraction_path": "extractions/mechanical/agot/agot-bran-01.extraction.md",
+  "stats": {
+    "total_mentions": 87,
+    "resolved_to_node": 65,
+    "direct": 65,
+    "alias": 0,
+    "unresolved": 22
+  },
+  "mentions": [
+    {
+      "raw_name": "Bran Stark",
+      "slug": "bran-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bran-stark.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Eddard (Ned) Stark",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Robb Stark",
+      "slug": "robb-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Theon Greyjoy",
+      "slug": "theon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/theon-greyjoy.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Jory Cassel",
+      "slug": "jory-cassel",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jory-cassel.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Hullen",
+      "slug": "hullen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hullen.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Harwin",
+      "slug": "harwin",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/harwin.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Desmond",
+      "slug": "desmond",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/desmond.node.md",
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "The deserter (unnamed)",
+      "slug": "the-deserter",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "Eddard Stark",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Character Appearances",
+      "line": 41
+    },
+    {
+      "raw_name": "Robb Stark",
+      "slug": "robb-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Character Appearances",
+      "line": 42
+    },
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Character Appearances",
+      "line": 43
+    },
+    {
+      "raw_name": "Theon Greyjoy",
+      "slug": "theon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/theon-greyjoy.node.md",
+      "section": "Character Appearances",
+      "line": 44
+    },
+    {
+      "raw_name": "The deserter",
+      "slug": "the-deserter",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 45
+    },
+    {
+      "raw_name": "Bran Stark",
+      "slug": "bran-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bran-stark.node.md",
+      "section": "Character Appearances",
+      "line": 46
+    },
+    {
+      "raw_name": "Old Nan",
+      "slug": "old-nan",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/old-nan.node.md",
+      "section": "Characters Referenced",
+      "line": 51
+    },
+    {
+      "raw_name": "Mance Rayder",
+      "slug": "mance-rayder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mance-rayder.node.md",
+      "section": "Characters Referenced",
+      "line": 52
+    },
+    {
+      "raw_name": "King Robert Baratheon",
+      "slug": "robert-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robert-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 53
+    },
+    {
+      "raw_name": "The Targaryen kings",
+      "slug": "the-targaryen-kings",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 54
+    },
+    {
+      "raw_name": "Ser Rodrik (Cassel, inferred)",
+      "slug": "ser-rodrik",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 55
+    },
+    {
+      "raw_name": "Rickon Stark",
+      "slug": "rickon-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rickon-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 56
+    },
+    {
+      "raw_name": "Sansa and Arya Stark (inferred)",
+      "slug": "sansa-and-arya-stark",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "Holdfast in the hills",
+      "slug": "holdfast-in-the-hills",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/holdfast-in-the-hills.node.md",
+      "section": "Locations",
+      "line": 62
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Locations",
+      "line": 63
+    },
+    {
+      "raw_name": "The bridge (ironwood planks)",
+      "slug": "the-bridge",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 64
+    },
+    {
+      "raw_name": "Riverbank north of the bridge",
+      "slug": "riverbank-north-of-the-bridge",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 65
+    },
+    {
+      "raw_name": "Riverrun",
+      "slug": "riverrun",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/riverrun.node.md",
+      "section": "Locations",
+      "line": 66
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Locations",
+      "line": 67
+    },
+    {
+      "raw_name": "Holdfast in the hills",
+      "slug": "holdfast-in-the-hills",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/holdfast-in-the-hills.node.md",
+      "section": "Location Descriptions",
+      "line": 72
+    },
+    {
+      "raw_name": "The bridge",
+      "slug": "the-bridge",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 73
+    },
+    {
+      "raw_name": "Riverbank",
+      "slug": "riverbank",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 74
+    },
+    {
+      "raw_name": "Ice",
+      "slug": "ice",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/ice.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 79
+    },
+    {
+      "raw_name": "Shattered antler",
+      "slug": "shattered-antler",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 80
+    },
+    {
+      "raw_name": "Stark banner",
+      "slug": "stark-banner",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 81
+    },
+    {
+      "raw_name": "Bran Stark",
+      "slug": "bran-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bran-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 194
+    },
+    {
+      "raw_name": "Eddard (Ned) Stark",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 195
+    },
+    {
+      "raw_name": "Robb Stark",
+      "slug": "robb-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 196
+    },
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 197
+    },
+    {
+      "raw_name": "Theon Greyjoy",
+      "slug": "theon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/theon-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 198
+    },
+    {
+      "raw_name": "Jory Cassel",
+      "slug": "jory-cassel",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jory-cassel.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 199
+    },
+    {
+      "raw_name": "Hullen",
+      "slug": "hullen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hullen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 200
+    },
+    {
+      "raw_name": "Harwin",
+      "slug": "harwin",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/harwin.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 201
+    },
+    {
+      "raw_name": "Desmond",
+      "slug": "desmond",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/desmond.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 202
+    },
+    {
+      "raw_name": "Old Nan",
+      "slug": "old-nan",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/old-nan.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 203
+    },
+    {
+      "raw_name": "The deserter (unnamed Night's Watch deserter)",
+      "slug": "the-deserter",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 204
+    },
+    {
+      "raw_name": "Mance Rayder (referenced)",
+      "slug": "mance-rayder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mance-rayder.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 205
+    },
+    {
+      "raw_name": "King Robert Baratheon (referenced)",
+      "slug": "robert-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robert-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 206
+    },
+    {
+      "raw_name": "Ser Rodrik (referenced, surname inferred as Cassel)",
+      "slug": "ser-rodrik",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 207
+    },
+    {
+      "raw_name": "Rickon Stark (referenced)",
+      "slug": "rickon-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rickon-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 208
+    },
+    {
+      "raw_name": "Sansa Stark (inferred — one of the \"two daughters\")",
+      "slug": "sansa-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sansa-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 209
+    },
+    {
+      "raw_name": "Arya Stark (inferred — one of the \"two daughters\")",
+      "slug": "arya-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/arya-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 210
+    },
+    {
+      "raw_name": "Holdfast in the hills (execution site)",
+      "slug": "holdfast-in-the-hills",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/holdfast-in-the-hills.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 213
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 214
+    },
+    {
+      "raw_name": "The bridge (ironwood planks)",
+      "slug": "the-bridge",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 215
+    },
+    {
+      "raw_name": "Riverbank north of the bridge",
+      "slug": "riverbank-north-of-the-bridge",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 216
+    },
+    {
+      "raw_name": "Riverrun (referenced — seat of the Tullys)",
+      "slug": "riverrun",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/riverrun.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 217
+    },
+    {
+      "raw_name": "The Wall (referenced)",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 218
+    },
+    {
+      "raw_name": "House Stark",
+      "slug": "house-stark",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-stark.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 221
+    },
+    {
+      "raw_name": "House Baratheon (referenced — Robert's formal titles)",
+      "slug": "house-baratheon",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-baratheon.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 222
+    },
+    {
+      "raw_name": "House Tully (referenced — Robb's mother's coloring)",
+      "slug": "house-tully",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-tully.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 223
+    },
+    {
+      "raw_name": "House Greyjoy (Theon)",
+      "slug": "house-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-greyjoy.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 224
+    },
+    {
+      "raw_name": "House Targaryen (referenced — \"the Targaryen kings before him\")",
+      "slug": "house-targaryen",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-targaryen.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 225
+    },
+    {
+      "raw_name": "Night's Watch (the deserter was a brother; referenced as an institution)",
+      "slug": "nights-watch",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/nights-watch.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 228
+    },
+    {
+      "raw_name": "The old gods (implied — \"the older way,\" \"blood of the First Men\")",
+      "slug": "the-old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 231
+    },
+    {
+      "raw_name": "The Seven (Greyjoy exclaims \"Gods!\"; \"seven hells\" used as an oath)",
+      "slug": "the-seven",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 232
+    },
+    {
+      "raw_name": "The First Men (their blood flows in the Starks' veins; \"the older way\")",
+      "slug": "first-men",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/first-men.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 235
+    },
+    {
+      "raw_name": "Wildlings / Free Folk (Old Nan's stories; Robb's initial assumption about the deserter)",
+      "slug": "wildlings-free-folk",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 236
+    },
+    {
+      "raw_name": "The Andals (named in Robert's formal title)",
+      "slug": "andals",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/andals.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 237
+    },
+    {
+      "raw_name": "The Rhoynar (named in Robert's formal title)",
+      "slug": "rhoynar",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/rhoynar.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 238
+    },
+    {
+      "raw_name": "Ice (Valyrian steel greatsword of House Stark)",
+      "slug": "ice",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/ice.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 241
+    },
+    {
+      "raw_name": "Shattered antler (found in the direwolf's throat)",
+      "slug": "shattered-antler",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 242
+    },
+    {
+      "raw_name": "Stark banner (grey direwolf on ice-white field)",
+      "slug": "stark-banner",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 243
+    },
+    {
+      "raw_name": "The Others (referenced in Old Nan's tales; Robb's oath \"The Others take his eyes\")",
+      "slug": "others",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/others.node.md",
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 249
+    },
+    {
+      "raw_name": "The Long Night (referenced in Old Nan's tales)",
+      "slug": "long-night",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/long-night.node.md",
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 250
+    },
+    {
+      "raw_name": "Direwolves (as a species not seen south of the Wall in 200 years — treated as near-mythical)",
+      "slug": "direwolves",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 251
+    },
+    {
+      "raw_name": "Lord of Winterfell (Eddard Stark)",
+      "slug": "lord-of-winterfell",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord-of-winterfell.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 257
+    },
+    {
+      "raw_name": "Warden of the North (Eddard Stark)",
+      "slug": "warden-of-the-north",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/warden-of-the-north.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 258
+    },
+    {
+      "raw_name": "King of the Andals and the Rhoynar and the First Men (Robert Baratheon)",
+      "slug": "king-of-the-andals-and-the-rhoynar-and-the-first-men",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/king-of-the-andals-and-the-rhoynar-and-the-first-men.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 259
+    },
+    {
+      "raw_name": "Lord of the Seven Kingdoms (Robert Baratheon)",
+      "slug": "lord-of-the-seven-kingdoms",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord-of-the-seven-kingdoms.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 260
+    },
+    {
+      "raw_name": "Protector of the Realm (Robert Baratheon)",
+      "slug": "protector-of-the-realm",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/protector-of-the-realm.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 261
+    },
+    {
+      "raw_name": "King-beyond-the-Wall (Mance Rayder)",
+      "slug": "king-beyond-the-wall",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/king-beyond-the-wall.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 262
+    },
+    {
+      "raw_name": "Captain of the household guard (Jory Cassel)",
+      "slug": "captain-of-the-household-guard",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 263
+    },
+    {
+      "raw_name": "Master of horse (Hullen)",
+      "slug": "master-of-horse",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/master-of-horse.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 264
+    },
+    {
+      "raw_name": "The children of the forest (referenced — Ned talks of them by the fire in the evening)",
+      "slug": "children-of-the-forest",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/children-of-the-forest.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 267
+    },
+    {
+      "raw_name": "Giants (referenced in Old Nan's tales — wildlings consorted with them)",
+      "slug": "giants",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/giants.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 268
+    },
+    {
+      "raw_name": "Ghouls (referenced in Old Nan's tales)",
+      "slug": "ghouls",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/ghouls.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 269
+    }
+  ]
+}

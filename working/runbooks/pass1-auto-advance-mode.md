@@ -61,7 +61,7 @@ weirwood <book> <terminals> <waves> --delay <duration> --chain
 ps aux | grep "extract.sh run"
 
 # Check progress so far
-tail -20 working/progress.md
+tail -20 history/worklog-archives/extraction-progress.md
 
 # Check token/cost stats
 tail -10 working/extraction-stats/extraction-stats-<book>-pass1-v3.csv

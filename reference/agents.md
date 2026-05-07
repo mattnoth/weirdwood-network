@@ -1,8 +1,8 @@
 # Agent Inventory
 
-All agent definitions live in `.claude/agents/`. The orchestrator (main Claude Code session) delegates to these — they execute, they don't coordinate. The fleet design philosophy is in `working/design-philosophy.md`; the strategic plan + dependency-driven ordering is in `working/agent-pipeline-plan.md`.
+All agent definitions live in `.claude/agents/`. The orchestrator (main Claude Code session) delegates to these — they execute, they don't coordinate. The fleet design philosophy is in `reference/design-philosophy.md`; the strategic plan + dependency-driven ordering is in `working/agent-fleet-specs/agent-pipeline-plan.md`.
 
-**Hard rules every agent in this fleet honors** (see design-philosophy.md for rationale):
+**Hard rules every agent in this fleet honors** (see `reference/design-philosophy.md` for rationale):
 - One reasoning task per agent.
 - Single-writer-per-file invariant.
 - Text streams (markdown / JSONL) as universal interface.
@@ -10,7 +10,7 @@ All agent definitions live in `.claude/agents/`. The orchestrator (main Claude C
 - No HTTP. No fetching the wiki (it's local).
 - No inventing edge types. The locked vocabulary is in `reference/architecture.md`.
 - No emitting `first_available` (spoiler gating deferred).
-- **Package + global-install policy.** Code-writing agents (script-builder, frontend-developer, backend-developer, deployment-engineer, embedding-refresh-runner, etc.) MUST: never run global installs without explicit user approval; never use suspicious / typosquat / unmaintained packages; always justify dependencies with name + version + alternatives considered; show diffs before applying settings.json changes. Full rules + canonical package choices in `working/design-philosophy.md` § "Package selection and global-install policy".
+- **Package + global-install policy.** Code-writing agents (script-builder, frontend-developer, backend-developer, deployment-engineer, embedding-refresh-runner, etc.) MUST: never run global installs without explicit user approval; never use suspicious / typosquat / unmaintained packages; always justify dependencies with name + version + alternatives considered; show diffs before applying settings.json changes. Full rules + canonical package choices in `reference/package-install-policy.md`.
 
 ---
 
@@ -46,8 +46,8 @@ These don't gate any pipeline step. Run them periodically to catch drift and sur
 
 | Agent | File | Status | Purpose |
 |-------|------|--------|---------|
-| `schema-drift-auditor` | `schema-drift-auditor.md` | **Full prompt (priority)** | Walks graph nodes; finds frontmatter type strings not in TYPE_DIR_MAP, edge labels not in locked vocabulary, frontmatter schema violations, slug-format violations. Read-only. Produces `working/audits/schema-drift-<date>.md`. |
-| `citation-validator` | `citation-validator.md` | **Full prompt (priority)** | Walks graph nodes; verifies every claim has a valid citation and every citation resolves. Distinguishes Pass-1-pending from genuinely broken. Produces `working/audits/citation-issues-<date>.md`. |
+| `schema-drift-auditor` | `schema-drift-auditor.md` | **Full prompt (priority)** | Walks graph nodes; finds frontmatter type strings not in TYPE_DIR_MAP, edge labels not in locked vocabulary, frontmatter schema violations, slug-format violations. Read-only. Produces `working/audits/schema-drift-<date>/execution/schema-drift.md`. |
+| `citation-validator` | `citation-validator.md` | **Full prompt (priority)** | Walks graph nodes; verifies every claim has a valid citation and every citation resolves. Distinguishes Pass-1-pending from genuinely broken. Produces `working/audits/citation-issues-<date>/execution/citation-issues.md`. |
 | `duplicate-detector` | `duplicate-detector.md` | **Full prompt (priority)** | Finds nodes that may be duplicates via slug-similarity, alias-overlap, or shared `wiki_source`. Outputs candidates for `cross-identity-detector` to review. |
 | `orphan-edge-finder` | `orphan-edge-finder.md` | **Full prompt (priority)** | Walks graph edges; identifies edges whose targets resolve to no node (after exhausting alias-resolution). Distinguishes genuinely-missing-target from slug-mismatch noise. |
 | `extraction-quality-auditor` | `extraction-quality-auditor.md` | Stub | Reviews a batch of Pass 1 extractions for cross-chapter consistency. Stub — fill out per book as Pass 1 completes for each. |
@@ -89,7 +89,7 @@ These don't gate any pipeline step. Run them periodically to catch drift and sur
 
 ## Reviewer Agents (orchestrator-invoked, sample-based peer review)
 
-These agents are NOT recursive subagent calls — the orchestrator invokes both the classifier and the reviewer separately, with composition via on-disk JSONL. See `working/fleet-orchestration-plan.md` § "Self-review pattern".
+These agents are NOT recursive subagent calls — the orchestrator invokes both the classifier and the reviewer separately, with composition via on-disk JSONL. See `working/agent-fleet-specs/fleet-orchestration-plan.md` § "Self-review pattern".
 
 | Agent | File | Status | Purpose |
 |-------|------|--------|---------|
@@ -120,7 +120,8 @@ The orchestrator never lets a subagent invoke another subagent. Composition belo
 
 ## Where to learn more
 
-- `working/design-philosophy.md` — Why the fleet looks the way it does (Unix philosophy + worse-is-better + the corollaries)
-- `working/agent-pipeline-plan.md` — Strategic plan: dependency ordering, cost estimates, what's NOT in the fleet (deliberately)
+- `reference/design-philosophy.md` — Why the fleet looks the way it does (Unix philosophy + worse-is-better + the corollaries)
+- `reference/package-install-policy.md` — Operational rules for code-writing agents adding dependencies or changing settings
+- `working/agent-fleet-specs/agent-pipeline-plan.md` — Strategic plan: dependency ordering, cost estimates, what's NOT in the fleet (deliberately)
 - `reference/architecture.md` — Schema (entity types, locked edge vocabulary, frontmatter requirements, artifact format taxonomy)
 - `working/runbooks/wiki-pass2-pipeline.md` — Concrete pipeline example (Stage 3 — the redesign that taught us the fleet philosophy)

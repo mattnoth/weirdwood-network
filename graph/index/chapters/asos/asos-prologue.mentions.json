@@ -1,0 +1,1456 @@
+{
+  "chapter_id": "asos-prologue",
+  "book": "asos",
+  "pov_character": "asos-prologue",
+  "generated_at": "2026-05-07T02:06:34.429889+00:00",
+  "extraction_path": "extractions/mechanical/asos/asos-prologue.extraction.md",
+  "stats": {
+    "total_mentions": 160,
+    "resolved_to_node": 133,
+    "direct": 122,
+    "alias": 11,
+    "unresolved": 27
+  },
+  "mentions": [
+    {
+      "raw_name": "Chett",
+      "slug": "chett",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/chett.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Lark the Sisterman",
+      "slug": "lark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lark.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Small Paul",
+      "slug": "small-paul",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/small-paul.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Samwell Tarly",
+      "slug": "samwell-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Edd Tollett (Dolorous Edd)",
+      "slug": "eddison-tollett",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddison-tollett.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Grenn",
+      "slug": "grenn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/grenn.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Lord Commander Mormont (the Old Bear)",
+      "slug": "mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mormont.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Mormont's raven",
+      "slug": "mormonts-raven",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mormonts-raven.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Kedge Whiteye",
+      "slug": "kedge-whiteye",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/kedge-whiteye.node.md",
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Thoren Smallwood",
+      "slug": "thoren-smallwood",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/thoren-smallwood.node.md",
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "Ser Mallador Locke",
+      "slug": "mallador-locke",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mallador-locke.node.md",
+      "section": "Characters Present",
+      "line": 37
+    },
+    {
+      "raw_name": "Ser Ottyn Wythers",
+      "slug": "ottyn-wythers",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ottyn-wythers.node.md",
+      "section": "Characters Present",
+      "line": 38
+    },
+    {
+      "raw_name": "Hake",
+      "slug": "hake",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hake.node.md",
+      "section": "Characters Present",
+      "line": 39
+    },
+    {
+      "raw_name": "Dywen",
+      "slug": "dywen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dywen.node.md",
+      "section": "Characters Present",
+      "line": 40
+    },
+    {
+      "raw_name": "Dirk",
+      "slug": "dirk",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dirk.node.md",
+      "section": "Characters Present",
+      "line": 41
+    },
+    {
+      "raw_name": "Sweet Donnel Hill",
+      "slug": "donnel-hill",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/donnel-hill.node.md",
+      "section": "Characters Present",
+      "line": 42
+    },
+    {
+      "raw_name": "Maslyn",
+      "slug": "maslyn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/maslyn.node.md",
+      "section": "Characters Present",
+      "line": 43
+    },
+    {
+      "raw_name": "Sawwood",
+      "slug": "sawwood",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sawwood.node.md",
+      "section": "Characters Present",
+      "line": 44
+    },
+    {
+      "raw_name": "Softfoot",
+      "slug": "softfoot",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/softfoot.node.md",
+      "section": "Characters Present",
+      "line": 45
+    },
+    {
+      "raw_name": "Clubfoot Karl",
+      "slug": "clubfoot-karl",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/clubfoot-karl.node.md",
+      "section": "Characters Present",
+      "line": 46
+    },
+    {
+      "raw_name": "Brown Bernarr",
+      "slug": "brown-bernarr",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brown-bernarr.node.md",
+      "section": "Characters Present",
+      "line": 47
+    },
+    {
+      "raw_name": "little Giant",
+      "slug": "little-giant",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 48
+    },
+    {
+      "raw_name": "Blane",
+      "slug": "blane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/blane.node.md",
+      "section": "Characters Present",
+      "line": 49
+    },
+    {
+      "raw_name": "Chett",
+      "slug": "chett",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/chett.node.md",
+      "section": "Character Appearances",
+      "line": 54
+    },
+    {
+      "raw_name": "Lark the Sisterman",
+      "slug": "lark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lark.node.md",
+      "section": "Character Appearances",
+      "line": 55
+    },
+    {
+      "raw_name": "Small Paul",
+      "slug": "small-paul",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/small-paul.node.md",
+      "section": "Character Appearances",
+      "line": 56
+    },
+    {
+      "raw_name": "Samwell Tarly",
+      "slug": "samwell-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
+      "section": "Character Appearances",
+      "line": 57
+    },
+    {
+      "raw_name": "Edd Tollett (Dolorous Edd)",
+      "slug": "eddison-tollett",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddison-tollett.node.md",
+      "section": "Character Appearances",
+      "line": 58
+    },
+    {
+      "raw_name": "Lord Commander Mormont",
+      "slug": "mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mormont.node.md",
+      "section": "Character Appearances",
+      "line": 59
+    },
+    {
+      "raw_name": "Sweet Donnel Hill",
+      "slug": "donnel-hill",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/donnel-hill.node.md",
+      "section": "Character Appearances",
+      "line": 60
+    },
+    {
+      "raw_name": "Maslyn",
+      "slug": "maslyn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/maslyn.node.md",
+      "section": "Character Appearances",
+      "line": 61
+    },
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "Maester Aemon",
+      "slug": "maester-aemon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 67
+    },
+    {
+      "raw_name": "Clydas",
+      "slug": "clydas",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/clydas.node.md",
+      "section": "Characters Referenced",
+      "line": 68
+    },
+    {
+      "raw_name": "Ben Stark (Benjen Stark)",
+      "slug": "benjen-stark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/benjen-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 69
+    },
+    {
+      "raw_name": "Ser Waymar Royce",
+      "slug": "waymar-royce",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/waymar-royce.node.md",
+      "section": "Characters Referenced",
+      "line": 70
+    },
+    {
+      "raw_name": "Mance Rayder",
+      "slug": "mance-rayder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mance-rayder.node.md",
+      "section": "Characters Referenced",
+      "line": 71
+    },
+    {
+      "raw_name": "Harma the Dogshead",
+      "slug": "harma-the-dogshead",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 72
+    },
+    {
+      "raw_name": "Goady",
+      "slug": "goady",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/goady.node.md",
+      "section": "Characters Referenced",
+      "line": 73
+    },
+    {
+      "raw_name": "Tumberjon",
+      "slug": "tumberjon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tumberjon.node.md",
+      "section": "Characters Referenced",
+      "line": 74
+    },
+    {
+      "raw_name": "Qhorin Halfhand",
+      "slug": "qhorin-halfhand",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qhorin-halfhand.node.md",
+      "section": "Characters Referenced",
+      "line": 75
+    },
+    {
+      "raw_name": "Jarman Buckwell",
+      "slug": "jarman-buckwell",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jarman-buckwell.node.md",
+      "section": "Characters Referenced",
+      "line": 76
+    },
+    {
+      "raw_name": "Bannen",
+      "slug": "bannen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bannen.node.md",
+      "section": "Characters Referenced",
+      "line": 77
+    },
+    {
+      "raw_name": "Grubbs",
+      "slug": "grubbs",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/grubbs.node.md",
+      "section": "Characters Referenced",
+      "line": 78
+    },
+    {
+      "raw_name": "Aethan",
+      "slug": "aethan",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aethan.node.md",
+      "section": "Characters Referenced",
+      "line": 79
+    },
+    {
+      "raw_name": "Ollo Lophand",
+      "slug": "ollo-lophand",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ollo-lophand.node.md",
+      "section": "Characters Referenced",
+      "line": 80
+    },
+    {
+      "raw_name": "Craster",
+      "slug": "craster",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/craster.node.md",
+      "section": "Characters Referenced",
+      "line": 81
+    },
+    {
+      "raw_name": "Bessa",
+      "slug": "bessa",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bessa.node.md",
+      "section": "Characters Referenced",
+      "line": 82
+    },
+    {
+      "raw_name": "Lord Walder Frey",
+      "slug": "walder-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/walder-frey.node.md",
+      "section": "Characters Referenced",
+      "line": 83
+    },
+    {
+      "raw_name": "Walder Rivers",
+      "slug": "walder-rivers",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/walder-rivers.node.md",
+      "section": "Characters Referenced",
+      "line": 84
+    },
+    {
+      "raw_name": "Yoren",
+      "slug": "yoren",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/yoren.node.md",
+      "section": "Characters Referenced",
+      "line": 85
+    },
+    {
+      "raw_name": "Ghost",
+      "slug": "ghost",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ghost.node.md",
+      "section": "Characters Referenced",
+      "line": 86
+    },
+    {
+      "raw_name": "Fist of the First Men",
+      "slug": "fist-of-the-first-men",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/fist-of-the-first-men.node.md",
+      "section": "Locations",
+      "line": 91
+    },
+    {
+      "raw_name": "Haunted forest",
+      "slug": "haunted-forest",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 92
+    },
+    {
+      "raw_name": "Milkwater (river)",
+      "slug": "milkwater",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/milkwater.node.md",
+      "section": "Locations",
+      "line": 93
+    },
+    {
+      "raw_name": "Frostfangs",
+      "slug": "frostfangs",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/frostfangs.node.md",
+      "section": "Locations",
+      "line": 94
+    },
+    {
+      "raw_name": "Castle Black",
+      "slug": "castle-black",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/castle-black.node.md",
+      "section": "Locations",
+      "line": 95
+    },
+    {
+      "raw_name": "Shadow Tower",
+      "slug": "shadow-tower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/shadow-tower.node.md",
+      "section": "Locations",
+      "line": 96
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Locations",
+      "line": 97
+    },
+    {
+      "raw_name": "Giant's Stair",
+      "slug": "giants-stair",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/giants-stair.node.md",
+      "section": "Locations",
+      "line": 98
+    },
+    {
+      "raw_name": "Skirling Pass",
+      "slug": "skirling-pass",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/skirling-pass.node.md",
+      "section": "Locations",
+      "line": 99
+    },
+    {
+      "raw_name": "Hag's Mire",
+      "slug": "hags-mire",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/hags-mire.node.md",
+      "section": "Locations",
+      "line": 100
+    },
+    {
+      "raw_name": "Sevenstreams",
+      "slug": "sevenstreams",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sevenstreams.node.md",
+      "section": "Locations",
+      "line": 101
+    },
+    {
+      "raw_name": "Mole's Town",
+      "slug": "moles-town",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/moles-town.node.md",
+      "section": "Locations",
+      "line": 102
+    },
+    {
+      "raw_name": "Craster's Keep",
+      "slug": "crasters-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crasters-keep.node.md",
+      "section": "Locations",
+      "line": 103
+    },
+    {
+      "raw_name": "The Sisters",
+      "slug": "the-sisters",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 104
+    },
+    {
+      "raw_name": "Tyrosh",
+      "slug": "tyrosh",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/tyrosh.node.md",
+      "section": "Locations",
+      "line": 105
+    },
+    {
+      "raw_name": "Seven Kingdoms",
+      "slug": "seven-kingdoms",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/seven-kingdoms.node.md",
+      "section": "Locations",
+      "line": 106
+    },
+    {
+      "raw_name": "Fist of the First Men",
+      "slug": "fist-of-the-first-men",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/fist-of-the-first-men.node.md",
+      "section": "Location Descriptions",
+      "line": 111
+    },
+    {
+      "raw_name": "Milkwater (river)",
+      "slug": "milkwater",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/milkwater.node.md",
+      "section": "Location Descriptions",
+      "line": 112
+    },
+    {
+      "raw_name": "Craster's Keep",
+      "slug": "crasters-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crasters-keep.node.md",
+      "section": "Location Descriptions",
+      "line": 113
+    },
+    {
+      "raw_name": "Mormont's raven",
+      "slug": "mormonts-raven",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mormonts-raven.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 118
+    },
+    {
+      "raw_name": "Night's Watch horn",
+      "slug": "nights-watch-horn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 119
+    },
+    {
+      "raw_name": "Chett's dagger",
+      "slug": "chetts-dagger",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 120
+    },
+    {
+      "raw_name": "Raven cages",
+      "slug": "raven-cages",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 121
+    },
+    {
+      "raw_name": "Chett",
+      "slug": "chett",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/chett.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 255
+    },
+    {
+      "raw_name": "Lark the Sisterman",
+      "slug": "lark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 256
+    },
+    {
+      "raw_name": "Small Paul",
+      "slug": "small-paul",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/small-paul.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 257
+    },
+    {
+      "raw_name": "Samwell Tarly (Ser Piggy, the fat boy)",
+      "slug": "samwell-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 258
+    },
+    {
+      "raw_name": "Edd Tollett (Dolorous Edd)",
+      "slug": "eddison-tollett",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddison-tollett.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 259
+    },
+    {
+      "raw_name": "Grenn",
+      "slug": "grenn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/grenn.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 260
+    },
+    {
+      "raw_name": "Lord Commander Mormont (the Old Bear)",
+      "slug": "mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mormont.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 261
+    },
+    {
+      "raw_name": "Mormont's raven",
+      "slug": "mormonts-raven",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mormonts-raven.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 262
+    },
+    {
+      "raw_name": "Kedge Whiteye",
+      "slug": "kedge-whiteye",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/kedge-whiteye.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 263
+    },
+    {
+      "raw_name": "Thoren Smallwood",
+      "slug": "thoren-smallwood",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/thoren-smallwood.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 264
+    },
+    {
+      "raw_name": "Ser Mallador Locke",
+      "slug": "mallador-locke",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mallador-locke.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 265
+    },
+    {
+      "raw_name": "Ser Ottyn Wythers",
+      "slug": "ottyn-wythers",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ottyn-wythers.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 266
+    },
+    {
+      "raw_name": "Hake (the cook)",
+      "slug": "hake",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hake.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 267
+    },
+    {
+      "raw_name": "Dywen",
+      "slug": "dywen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dywen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 268
+    },
+    {
+      "raw_name": "Dirk",
+      "slug": "dirk",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dirk.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 269
+    },
+    {
+      "raw_name": "Sweet Donnel Hill",
+      "slug": "donnel-hill",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/donnel-hill.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 270
+    },
+    {
+      "raw_name": "Maslyn",
+      "slug": "maslyn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/maslyn.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 271
+    },
+    {
+      "raw_name": "Sawwood",
+      "slug": "sawwood",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sawwood.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 272
+    },
+    {
+      "raw_name": "Softfoot",
+      "slug": "softfoot",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/softfoot.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 273
+    },
+    {
+      "raw_name": "Clubfoot Karl",
+      "slug": "clubfoot-karl",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/clubfoot-karl.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 274
+    },
+    {
+      "raw_name": "Brown Bernarr",
+      "slug": "brown-bernarr",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brown-bernarr.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 275
+    },
+    {
+      "raw_name": "little Giant",
+      "slug": "little-giant",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 276
+    },
+    {
+      "raw_name": "Blane",
+      "slug": "blane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/blane.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 277
+    },
+    {
+      "raw_name": "Jon Snow (Lord Snow, the bastard)",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 278
+    },
+    {
+      "raw_name": "Maester Aemon",
+      "slug": "maester-aemon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 279
+    },
+    {
+      "raw_name": "Clydas",
+      "slug": "clydas",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/clydas.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 280
+    },
+    {
+      "raw_name": "Ben Stark (Benjen Stark)",
+      "slug": "benjen-stark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/benjen-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 281
+    },
+    {
+      "raw_name": "Ser Waymar Royce",
+      "slug": "waymar-royce",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/waymar-royce.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 282
+    },
+    {
+      "raw_name": "Mance Rayder (King-beyond-the-Wall)",
+      "slug": "mance-rayder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mance-rayder.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 283
+    },
+    {
+      "raw_name": "Harma the Dogshead (Harma Dogshead)",
+      "slug": "harma-the-dogshead",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 284
+    },
+    {
+      "raw_name": "Goady",
+      "slug": "goady",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/goady.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 285
+    },
+    {
+      "raw_name": "Tumberjon",
+      "slug": "tumberjon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tumberjon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 286
+    },
+    {
+      "raw_name": "Qhorin Halfhand (the Halfhand)",
+      "slug": "qhorin-halfhand",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qhorin-halfhand.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 287
+    },
+    {
+      "raw_name": "Jarman Buckwell",
+      "slug": "jarman-buckwell",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jarman-buckwell.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 288
+    },
+    {
+      "raw_name": "Bannen",
+      "slug": "bannen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bannen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 289
+    },
+    {
+      "raw_name": "Grubbs",
+      "slug": "grubbs",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/grubbs.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 290
+    },
+    {
+      "raw_name": "Aethan",
+      "slug": "aethan",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aethan.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 291
+    },
+    {
+      "raw_name": "Ollo Lophand",
+      "slug": "ollo-lophand",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ollo-lophand.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 292
+    },
+    {
+      "raw_name": "Craster",
+      "slug": "craster",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/craster.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 293
+    },
+    {
+      "raw_name": "Bessa",
+      "slug": "bessa",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bessa.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 294
+    },
+    {
+      "raw_name": "Lord Walder Frey",
+      "slug": "walder-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/walder-frey.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 295
+    },
+    {
+      "raw_name": "Walder Rivers",
+      "slug": "walder-rivers",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/walder-rivers.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 296
+    },
+    {
+      "raw_name": "Yoren",
+      "slug": "yoren",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/yoren.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 297
+    },
+    {
+      "raw_name": "Ghost (Jon Snow's wolf — referenced)",
+      "slug": "ghost",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ghost.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 298
+    },
+    {
+      "raw_name": "Fist of the First Men",
+      "slug": "fist-of-the-first-men",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/fist-of-the-first-men.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 301
+    },
+    {
+      "raw_name": "Haunted forest",
+      "slug": "haunted-forest",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 302
+    },
+    {
+      "raw_name": "Milkwater (river)",
+      "slug": "milkwater",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/milkwater.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 303
+    },
+    {
+      "raw_name": "Frostfangs",
+      "slug": "frostfangs",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/frostfangs.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 304
+    },
+    {
+      "raw_name": "Castle Black",
+      "slug": "castle-black",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/castle-black.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 305
+    },
+    {
+      "raw_name": "Shadow Tower",
+      "slug": "shadow-tower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/shadow-tower.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 306
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 307
+    },
+    {
+      "raw_name": "Giant's Stair",
+      "slug": "giants-stair",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/giants-stair.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 308
+    },
+    {
+      "raw_name": "Skirling Pass",
+      "slug": "skirling-pass",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/skirling-pass.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 309
+    },
+    {
+      "raw_name": "Hag's Mire",
+      "slug": "hags-mire",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/hags-mire.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 310
+    },
+    {
+      "raw_name": "Sevenstreams",
+      "slug": "sevenstreams",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sevenstreams.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 311
+    },
+    {
+      "raw_name": "Mole's Town",
+      "slug": "moles-town",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/moles-town.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 312
+    },
+    {
+      "raw_name": "Craster's Keep",
+      "slug": "crasters-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crasters-keep.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 313
+    },
+    {
+      "raw_name": "The Sisters",
+      "slug": "the-sisters",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 314
+    },
+    {
+      "raw_name": "Tyrosh",
+      "slug": "tyrosh",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/tyrosh.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 315
+    },
+    {
+      "raw_name": "Seven Kingdoms",
+      "slug": "seven-kingdoms",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/seven-kingdoms.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 316
+    },
+    {
+      "raw_name": "House Frey (Lord Walder Frey, Walder Rivers)",
+      "slug": "house-frey",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-frey.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 319
+    },
+    {
+      "raw_name": "House Lannister (Sweet Donnel Hill claims Lannister bastard parentage)",
+      "slug": "house-lannister",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-lannister.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 320
+    },
+    {
+      "raw_name": "Night's Watch",
+      "slug": "nights-watch",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/nights-watch.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 323
+    },
+    {
+      "raw_name": "Wildlings / Free Folk (Mance Rayder's host)",
+      "slug": "wildlings-free-folk",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 324
+    },
+    {
+      "raw_name": "Faith of the Seven (Chett swears \"Seven hells\"; \"Gods be damned\"; general oaths)",
+      "slug": "faith-of-the-seven",
+      "resolved_via": "direct",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/faith-of-the-seven.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 327
+    },
+    {
+      "raw_name": "Wildlings / Free Folk",
+      "slug": "wildlings-free-folk",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 330
+    },
+    {
+      "raw_name": "Sistermen (Lark the Sisterman)",
+      "slug": "sistermen",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/sistermen.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 331
+    },
+    {
+      "raw_name": "Tyroshi (Ollo Lophand from Tyrosh)",
+      "slug": "tyroshi",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/tyroshi.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 332
+    },
+    {
+      "raw_name": "Mormont's raven (talking bird)",
+      "slug": "mormonts-raven",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mormonts-raven.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 335
+    },
+    {
+      "raw_name": "Night's Watch horn (one/two/three blast signals)",
+      "slug": "nights-watch-horn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 336
+    },
+    {
+      "raw_name": "Chett's dagger",
+      "slug": "chetts-dagger",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 337
+    },
+    {
+      "raw_name": "Raven cages",
+      "slug": "raven-cages",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 338
+    },
+    {
+      "raw_name": "Longbow (Sam's practice bow)",
+      "slug": "longbow",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 339
+    },
+    {
+      "raw_name": "Spear (Small Paul's)",
+      "slug": "spear",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 340
+    },
+    {
+      "raw_name": "Longsword (Ser Mallador Locke's, drawn during oath)",
+      "slug": "longsword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 341
+    },
+    {
+      "raw_name": "Caltrops, spikes, pits (Fist defenses)",
+      "slug": "caltrops-spikes-pits",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 342
+    },
+    {
+      "raw_name": "Dirk's blade (sharpened nightly)",
+      "slug": "dirks-blade",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 343
+    },
+    {
+      "raw_name": "Chainmail hauberk (Sam's)",
+      "slug": "chainmail-hauberk",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 344
+    },
+    {
+      "raw_name": "Night's Watch oath (\"For we are the swords in the darkness, the watchers on the walls... The horn that wakes the sleepers! The shield that guards the realms of men!\")",
+      "slug": "nights-watch-oath",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 347
+    },
+    {
+      "raw_name": "The Others (signaled by three horn blasts at chapter's end)",
+      "slug": "others",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/others.node.md",
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 350
+    },
+    {
+      "raw_name": "Unnatural silence in the haunted forest (no frogs, owls, or wolves — implied supernatural cause)",
+      "slug": "unnatural-silence-in-the-haunted-forest",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 351
+    },
+    {
+      "raw_name": "War of the Five Kings (implied — context for the ranging)",
+      "slug": "war-of-the-five-kings",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/war-of-the-five-kings.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 354
+    },
+    {
+      "raw_name": "The Great Ranging (300 brothers riding north to find missing rangers and discover wildling movements)",
+      "slug": "the-great-ranging",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 355
+    },
+    {
+      "raw_name": "Lord Commander of the Night's Watch (Mormont)",
+      "slug": "lord-commander-of-the-nights-watch",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord-commander-of-the-nights-watch.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 358
+    },
+    {
+      "raw_name": "King-beyond-the-Wall (Mance Rayder)",
+      "slug": "king-beyond-the-wall",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/king-beyond-the-wall.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 359
+    }
+  ]
+}

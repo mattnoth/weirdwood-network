@@ -1,6 +1,6 @@
 Check the status of the Weirwood Network's fleet orchestrator and surface anything that needs your attention.
 
-This command runs in a fresh Claude Code session — the assumption is you don't have project context loaded yet and want a quick read on what's happening with any in-progress orchestration. The fleet orchestrator (when it exists, see `working/fleet-runtime-architecture.md`) writes state to disk continuously; this command reads those state files and synthesizes a one-page report.
+This command runs in a fresh Claude Code session — the assumption is you don't have project context loaded yet and want a quick read on what's happening with any in-progress orchestration. The fleet orchestrator (when it exists, see `working/agent-fleet-specs/fleet-runtime-architecture.md`) writes state to disk continuously; this command reads those state files and synthesizes a one-page report.
 
 **You (Claude) should:**
 
@@ -78,7 +78,7 @@ What next? You can ask me to:
 
 **Today's reality (until the orchestrator exists):**
 
-The fleet orchestrator daemon is not yet implemented (see `working/fleet-runtime-architecture.md` § "Implementation order"). When this command runs today, the state files won't exist. In that case:
+The fleet orchestrator daemon is not yet implemented (see `working/agent-fleet-specs/fleet-runtime-architecture.md` § "Implementation order"). When this command runs today, the state files won't exist. In that case:
 
 1. Render a fallback report based on EXISTING orchestration state:
    - Mechanical extraction stats from `working/extraction-stats/extraction-stats-*.csv`

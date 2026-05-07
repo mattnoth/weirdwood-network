@@ -1,0 +1,1141 @@
+{
+  "chapter_id": "acok-sansa-06",
+  "book": "acok",
+  "pov_character": "sansa",
+  "generated_at": "2026-05-07T02:06:34.371141+00:00",
+  "extraction_path": "extractions/mechanical/acok/acok-sansa-06.extraction.md",
+  "stats": {
+    "total_mentions": 125,
+    "resolved_to_node": 90,
+    "direct": 90,
+    "alias": 0,
+    "unresolved": 35
+  },
+  "mentions": [
+    {
+      "raw_name": "Sansa Stark",
+      "slug": "sansa-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sansa-stark.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Cersei Lannister",
+      "slug": "cersei-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cersei-lannister.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Ser Ilyn Payne",
+      "slug": "ilyn-payne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ilyn-payne.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Osney Kettleblack",
+      "slug": "osney-kettleblack",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/osney-kettleblack.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Osfryd Kettleblack",
+      "slug": "osfryd-kettleblack",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/osfryd-kettleblack.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Ser Osmund Kettleblack",
+      "slug": "osmund-kettleblack",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/osmund-kettleblack.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Lord Gyles Rosby",
+      "slug": "gyles-rosby",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gyles-rosby.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Lollys Stokeworth",
+      "slug": "lollys-stokeworth",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lollys-stokeworth.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Ser Dontos Hollard",
+      "slug": "dontos-hollard",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dontos-hollard.node.md",
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Moon Boy",
+      "slug": "moon-boy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/moon-boy.node.md",
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "Lady Tanda Stokeworth",
+      "slug": "tanda-stokeworth",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tanda-stokeworth.node.md",
+      "section": "Characters Present",
+      "line": 37
+    },
+    {
+      "raw_name": "Maester Frenken",
+      "slug": "frenken",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/frenken.node.md",
+      "section": "Characters Present",
+      "line": 38
+    },
+    {
+      "raw_name": "Cersei Lannister",
+      "slug": "cersei-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cersei-lannister.node.md",
+      "section": "Character Appearances",
+      "line": 43
+    },
+    {
+      "raw_name": "Ser Ilyn Payne",
+      "slug": "ilyn-payne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ilyn-payne.node.md",
+      "section": "Character Appearances",
+      "line": 44
+    },
+    {
+      "raw_name": "Osney Kettleblack",
+      "slug": "osney-kettleblack",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/osney-kettleblack.node.md",
+      "section": "Character Appearances",
+      "line": 45
+    },
+    {
+      "raw_name": "Osfryd Kettleblack",
+      "slug": "osfryd-kettleblack",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/osfryd-kettleblack.node.md",
+      "section": "Character Appearances",
+      "line": 46
+    },
+    {
+      "raw_name": "Joffrey Baratheon",
+      "slug": "joffrey-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/joffrey-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 51
+    },
+    {
+      "raw_name": "Tyrion Lannister (\"the Imp\")",
+      "slug": "tyrion-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tyrion-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 52
+    },
+    {
+      "raw_name": "Sandor Clegane (\"the Hound\")",
+      "slug": "sandor-clegane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sandor-clegane.node.md",
+      "section": "Characters Referenced",
+      "line": 53
+    },
+    {
+      "raw_name": "Stannis Baratheon",
+      "slug": "stannis-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stannis-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 54
+    },
+    {
+      "raw_name": "Jaime Lannister",
+      "slug": "jaime-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaime-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 55
+    },
+    {
+      "raw_name": "Lord Bywater",
+      "slug": "lord-bywater",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 56
+    },
+    {
+      "raw_name": "Tywin Lannister",
+      "slug": "tywin-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tywin-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "Ser Lancel Lannister",
+      "slug": "lancel-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lancel-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "High Septon",
+      "slug": "high-septon",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/high-septon.node.md",
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "Lady Tanda's serving wench",
+      "slug": "lady-tandas-serving-wench",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "Florian",
+      "slug": "florian",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 61
+    },
+    {
+      "raw_name": "Jonquil",
+      "slug": "jonquil",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jonquil.node.md",
+      "section": "Characters Referenced",
+      "line": 62
+    },
+    {
+      "raw_name": "Prince Aemon the Dragonknight",
+      "slug": "prince-aemon-the-dragonknight",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "Nymeria (historical queen)",
+      "slug": "nymeria",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/nymeria.node.md",
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "Eddard Stark",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 65
+    },
+    {
+      "raw_name": "Cersei's mother (Joanna Lannister)",
+      "slug": "cerseis-mother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "Queen's Ballroom",
+      "slug": "queens-ballroom",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/queens-ballroom.node.md",
+      "section": "Locations",
+      "line": 71
+    },
+    {
+      "raw_name": "Maegor's Holdfast",
+      "slug": "maegors-holdfast",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/maegors-holdfast.node.md",
+      "section": "Locations",
+      "line": 72
+    },
+    {
+      "raw_name": "Mud Gate",
+      "slug": "mud-gate",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/mud-gate.node.md",
+      "section": "Locations",
+      "line": 73
+    },
+    {
+      "raw_name": "King's Gate",
+      "slug": "kings-gate",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-gate.node.md",
+      "section": "Locations",
+      "line": 74
+    },
+    {
+      "raw_name": "Blackwater Rush",
+      "slug": "blackwater-rush",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/blackwater-rush.node.md",
+      "section": "Locations",
+      "line": 75
+    },
+    {
+      "raw_name": "Tourney grounds",
+      "slug": "tourney-grounds",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 76
+    },
+    {
+      "raw_name": "Flea Bottom",
+      "slug": "flea-bottom",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 77
+    },
+    {
+      "raw_name": "Baelor's Sept",
+      "slug": "baelors-sept",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 78
+    },
+    {
+      "raw_name": "The Whores (trebuchets)",
+      "slug": "the-whores",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 79
+    },
+    {
+      "raw_name": "Godswood",
+      "slug": "godswood",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 80
+    },
+    {
+      "raw_name": "Casterly Rock",
+      "slug": "casterly-rock",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/casterly-rock.node.md",
+      "section": "Locations",
+      "line": 81
+    },
+    {
+      "raw_name": "Stables",
+      "slug": "stables",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 82
+    },
+    {
+      "raw_name": "Queen's Ballroom",
+      "slug": "queens-ballroom",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/queens-ballroom.node.md",
+      "section": "Location Descriptions",
+      "line": 87
+    },
+    {
+      "raw_name": "Ice (Valyrian steel greatsword)",
+      "slug": "ice",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/ice.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 92
+    },
+    {
+      "raw_name": "Wildfire",
+      "slug": "wildfire",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/wildfire.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 93
+    },
+    {
+      "raw_name": "Chain (across the Blackwater)",
+      "slug": "chain",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/chain.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 94
+    },
+    {
+      "raw_name": "Broomstick horse",
+      "slug": "broomstick-horse",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 95
+    },
+    {
+      "raw_name": "Sansa Stark",
+      "slug": "sansa-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sansa-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 230
+    },
+    {
+      "raw_name": "Cersei Lannister",
+      "slug": "cersei-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cersei-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 231
+    },
+    {
+      "raw_name": "Ser Ilyn Payne",
+      "slug": "ilyn-payne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ilyn-payne.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 232
+    },
+    {
+      "raw_name": "Osney Kettleblack",
+      "slug": "osney-kettleblack",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/osney-kettleblack.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 233
+    },
+    {
+      "raw_name": "Osfryd Kettleblack",
+      "slug": "osfryd-kettleblack",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/osfryd-kettleblack.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 234
+    },
+    {
+      "raw_name": "Ser Osmund Kettleblack",
+      "slug": "osmund-kettleblack",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/osmund-kettleblack.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 235
+    },
+    {
+      "raw_name": "Lord Gyles (Rosby)",
+      "slug": "lord-gyles",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 236
+    },
+    {
+      "raw_name": "Lollys Stokeworth",
+      "slug": "lollys-stokeworth",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lollys-stokeworth.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 237
+    },
+    {
+      "raw_name": "Ser Dontos Hollard",
+      "slug": "dontos-hollard",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dontos-hollard.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 238
+    },
+    {
+      "raw_name": "Moon Boy",
+      "slug": "moon-boy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/moon-boy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 239
+    },
+    {
+      "raw_name": "Lady Tanda (Stokeworth)",
+      "slug": "lady-tanda",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 240
+    },
+    {
+      "raw_name": "Maester Frenken",
+      "slug": "frenken",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/frenken.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 241
+    },
+    {
+      "raw_name": "Joffrey Baratheon",
+      "slug": "joffrey-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/joffrey-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 242
+    },
+    {
+      "raw_name": "Tyrion Lannister (the Imp / the Hand)",
+      "slug": "tyrion-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tyrion-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 243
+    },
+    {
+      "raw_name": "Sandor Clegane (the Hound)",
+      "slug": "sandor-clegane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sandor-clegane.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 244
+    },
+    {
+      "raw_name": "Stannis Baratheon",
+      "slug": "stannis-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stannis-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 245
+    },
+    {
+      "raw_name": "Jaime Lannister",
+      "slug": "jaime-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaime-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 246
+    },
+    {
+      "raw_name": "Lord Bywater",
+      "slug": "lord-bywater",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 247
+    },
+    {
+      "raw_name": "Tywin Lannister (referenced as \"our lord father\")",
+      "slug": "tywin-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tywin-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 248
+    },
+    {
+      "raw_name": "Ser Lancel Lannister (referenced — his knight's bride weeps)",
+      "slug": "lancel-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lancel-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 249
+    },
+    {
+      "raw_name": "High Septon",
+      "slug": "high-septon",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/high-septon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 250
+    },
+    {
+      "raw_name": "Eddard Stark (recalled by Sansa)",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 251
+    },
+    {
+      "raw_name": "Joanna Lannister (Cersei's mother, referenced)",
+      "slug": "joanna-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/joanna-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 252
+    },
+    {
+      "raw_name": "Prince Aemon the Dragonknight (song subject)",
+      "slug": "prince-aemon-the-dragonknight",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 253
+    },
+    {
+      "raw_name": "Nymeria (historical Rhoynish queen, song subject)",
+      "slug": "nymeria",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/nymeria.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 254
+    },
+    {
+      "raw_name": "Jonquil (song subject)",
+      "slug": "jonquil",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jonquil.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 255
+    },
+    {
+      "raw_name": "Florian (song subject / Sansa's name for Dontos)",
+      "slug": "florian",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 256
+    },
+    {
+      "raw_name": "Queen's Ballroom (Red Keep)",
+      "slug": "queens-ballroom",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/queens-ballroom.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 259
+    },
+    {
+      "raw_name": "Maegor's Holdfast",
+      "slug": "maegors-holdfast",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/maegors-holdfast.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 260
+    },
+    {
+      "raw_name": "Mud Gate",
+      "slug": "mud-gate",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/mud-gate.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 261
+    },
+    {
+      "raw_name": "King's Gate",
+      "slug": "kings-gate",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kings-gate.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 262
+    },
+    {
+      "raw_name": "Blackwater Rush (the Blackwater)",
+      "slug": "blackwater-rush",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/blackwater-rush.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 263
+    },
+    {
+      "raw_name": "Tourney grounds",
+      "slug": "tourney-grounds",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 264
+    },
+    {
+      "raw_name": "Flea Bottom",
+      "slug": "flea-bottom",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 265
+    },
+    {
+      "raw_name": "Baelor's Sept",
+      "slug": "baelors-sept",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 266
+    },
+    {
+      "raw_name": "The Whores (trebuchets on the walls)",
+      "slug": "the-whores",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 267
+    },
+    {
+      "raw_name": "Godswood (Red Keep)",
+      "slug": "godswood",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 268
+    },
+    {
+      "raw_name": "Red Keep",
+      "slug": "red-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-keep.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 269
+    },
+    {
+      "raw_name": "Casterly Rock",
+      "slug": "casterly-rock",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/casterly-rock.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 270
+    },
+    {
+      "raw_name": "Stables (Red Keep)",
+      "slug": "stables",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 271
+    },
+    {
+      "raw_name": "The Arbor (wine origin)",
+      "slug": "arbor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/arbor.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 272
+    },
+    {
+      "raw_name": "Seven Kingdoms",
+      "slug": "seven-kingdoms",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/seven-kingdoms.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 273
+    },
+    {
+      "raw_name": "House Lannister",
+      "slug": "house-lannister",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-lannister.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 276
+    },
+    {
+      "raw_name": "House Baratheon (Stannis's force)",
+      "slug": "house-baratheon",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-baratheon.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 277
+    },
+    {
+      "raw_name": "House Stark (referenced by Cersei)",
+      "slug": "house-stark",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-stark.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 278
+    },
+    {
+      "raw_name": "House Stokeworth (Lady Tanda, Lollys)",
+      "slug": "house-stokeworth",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-stokeworth.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 279
+    },
+    {
+      "raw_name": "House Kettleblack",
+      "slug": "house-kettleblack",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-kettleblack.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 280
+    },
+    {
+      "raw_name": "Kingsguard (Ser Osmund named to it)",
+      "slug": "kingsguard",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/kingsguard.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 283
+    },
+    {
+      "raw_name": "Gold cloaks (City Watch, commanded by Lord Bywater)",
+      "slug": "gold-cloaks",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 284
+    },
+    {
+      "raw_name": "Antler Men (being flung from the Whores into the river)",
+      "slug": "antler-men",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/antler-men.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 285
+    },
+    {
+      "raw_name": "Faith of the Seven (Baelor's Sept jammed full; guests leave to pray in sept; High Septon gives blessing)",
+      "slug": "faith-of-the-seven",
+      "resolved_via": "direct",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/faith-of-the-seven.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 288
+    },
+    {
+      "raw_name": "Old Gods (Sansa prays in the godswood; \"your father's gods\" — Cersei's accusation)",
+      "slug": "old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 289
+    },
+    {
+      "raw_name": "Rhoynish (Nymeria's ten thousand ships — song reference)",
+      "slug": "rhoynish",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 292
+    },
+    {
+      "raw_name": "Ice (Valyrian steel greatsword of House Stark; carried by Ser Ilyn Payne)",
+      "slug": "ice",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/ice.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 295
+    },
+    {
+      "raw_name": "Wildfire (ignites the Blackwater; hulks ablaze)",
+      "slug": "wildfire",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/wildfire.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 296
+    },
+    {
+      "raw_name": "Chain (raised across the Blackwater)",
+      "slug": "chain",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/chain.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 297
+    },
+    {
+      "raw_name": "Crossbow (Joffrey gave tips to archers on handling one)",
+      "slug": "crossbow",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 298
+    },
+    {
+      "raw_name": "Ram (battering ram brought to King's Gate)",
+      "slug": "ram",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 299
+    },
+    {
+      "raw_name": "Broomstick horse (Ser Dontos's fool's prop)",
+      "slug": "broomstick-horse",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 300
+    },
+    {
+      "raw_name": "Trebuchets (\"the Whores\")",
+      "slug": "trebuchets",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 301
+    },
+    {
+      "raw_name": "High harp (singer's instrument)",
+      "slug": "high-harp",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 302
+    },
+    {
+      "raw_name": "Stilts (Moon Boy's)",
+      "slug": "stilts",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 303
+    },
+    {
+      "raw_name": "Song of Jonquil and Florian",
+      "slug": "song-of-jonquil-and-florian",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 306
+    },
+    {
+      "raw_name": "Song of Prince Aemon the Dragonknight and his love for his brother's queen",
+      "slug": "song-of-prince-aemon-the-dragonknight-and-his-love-for-his-brothers-queen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 307
+    },
+    {
+      "raw_name": "Song of Nymeria's ten thousand ships",
+      "slug": "song-of-nymerias-ten-thousand-ships",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 308
+    },
+    {
+      "raw_name": "Wildfire (substance — burns green on water; deployed en masse to destroy Stannis's fleet)",
+      "slug": "wildfire",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/wildfire.node.md",
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 311
+    },
+    {
+      "raw_name": "Battle of the Blackwater (in progress throughout this chapter)",
+      "slug": "battle-of-the-blackwater",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/battle-of-the-blackwater.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 314
+    },
+    {
+      "raw_name": "War of the Five Kings (context for the entire battle)",
+      "slug": "war-of-the-five-kings",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/war-of-the-five-kings.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 315
+    },
+    {
+      "raw_name": "Queen (Cersei's title; also discussed in abstract — \"you were queen of all the Seven Kingdoms\")",
+      "slug": "queen",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/queen.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 318
+    },
+    {
+      "raw_name": "Hand of the King (Tyrion — \"the Hand\")",
+      "slug": "hand-of-the-king",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/hand-of-the-king.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 319
+    },
+    {
+      "raw_name": "King (Joffrey)",
+      "slug": "king",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/king.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 320
+    },
+    {
+      "raw_name": "High Septon",
+      "slug": "high-septon",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/high-septon.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 321
+    },
+    {
+      "raw_name": "Kingsguard (order/office)",
+      "slug": "kingsguard",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/kingsguard.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 322
+    },
+    {
+      "raw_name": "Lord (Lord Gyles, Lord Bywater)",
+      "slug": "lord",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 323
+    },
+    {
+      "raw_name": "Maester (Maester Frenken)",
+      "slug": "maester",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/maester.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 324
+    },
+    {
+      "raw_name": "Knight (various)",
+      "slug": "knight",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/knight.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 325
+    }
+  ]
+}

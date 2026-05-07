@@ -217,6 +217,6 @@ The `/endsession` checklist creates new continue prompts for any work that's mid
 
 ### `/endsession`
 
-The `/endsession` slash command runs the end-of-session checklist defined in `.claude/commands/endsession.md`: writes a full narrative to `working/session-details/session-NNN.md`, adds a concise entry to `worklog.md`, manages continue prompts and todos, updates progress logs, archives old worklog entries if needed, and verifies `.gitignore` still protects copyrighted content. Run it at the end of every working session.
+The `/endsession` slash command runs the end-of-session checklist defined in `.claude/commands/endsession.md`: writes a full narrative to `history/session-details/session-NNN.md`, adds a concise entry to `worklog.md`, manages continue prompts and todos, updates progress logs, archives old worklog entries if needed. Run it at the end of every working session.
 
 See `CLAUDE.md` for the complete orchestrator guide, agent definitions, and project conventions.

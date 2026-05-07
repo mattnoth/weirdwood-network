@@ -1,0 +1,1231 @@
+{
+  "chapter_id": "acok-jon-08",
+  "book": "acok",
+  "pov_character": "jon",
+  "generated_at": "2026-05-07T02:06:34.365324+00:00",
+  "extraction_path": "extractions/mechanical/acok/acok-jon-08.extraction.md",
+  "stats": {
+    "total_mentions": 135,
+    "resolved_to_node": 79,
+    "direct": 68,
+    "alias": 11,
+    "unresolved": 56
+  },
+  "mentions": [
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Ghost",
+      "slug": "ghost",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ghost.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Qhorin Halfhand",
+      "slug": "qhorin-halfhand",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qhorin-halfhand.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Rattleshirt (Lord of Bones)",
+      "slug": "lord-of-bones",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lord-of-bones.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Ygritte",
+      "slug": "ygritte",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ygritte.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Ragwyle",
+      "slug": "ragwyle",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ragwyle.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Ebben",
+      "slug": "ebben",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ebben.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Qhorin Halfhand",
+      "slug": "qhorin-halfhand",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qhorin-halfhand.node.md",
+      "section": "Character Appearances",
+      "line": 38
+    },
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Character Appearances",
+      "line": 39
+    },
+    {
+      "raw_name": "Ghost",
+      "slug": "ghost",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ghost.node.md",
+      "section": "Character Appearances",
+      "line": 40
+    },
+    {
+      "raw_name": "Rattleshirt",
+      "slug": "lord-of-bones",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lord-of-bones.node.md",
+      "section": "Character Appearances",
+      "line": 41
+    },
+    {
+      "raw_name": "Ygritte",
+      "slug": "ygritte",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ygritte.node.md",
+      "section": "Character Appearances",
+      "line": 42
+    },
+    {
+      "raw_name": "Ragwyle",
+      "slug": "ragwyle",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ragwyle.node.md",
+      "section": "Character Appearances",
+      "line": 43
+    },
+    {
+      "raw_name": "Rattleshirt's mount",
+      "slug": "rattleshirts-mount",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 44
+    },
+    {
+      "raw_name": "Squire Dalbridge",
+      "slug": "dalbridge",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dalbridge.node.md",
+      "section": "Characters Referenced",
+      "line": 49
+    },
+    {
+      "raw_name": "Stonesnake",
+      "slug": "stonesnake",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stonesnake.node.md",
+      "section": "Characters Referenced",
+      "line": 50
+    },
+    {
+      "raw_name": "Ebben",
+      "slug": "ebben",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ebben.node.md",
+      "section": "Characters Referenced",
+      "line": 51
+    },
+    {
+      "raw_name": "Mance Rayder",
+      "slug": "mance-rayder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mance-rayder.node.md",
+      "section": "Characters Referenced",
+      "line": 52
+    },
+    {
+      "raw_name": "Lord Commander Mormont (the Old Bear)",
+      "slug": "mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mormont.node.md",
+      "section": "Characters Referenced",
+      "line": 53
+    },
+    {
+      "raw_name": "Samwell Tarly",
+      "slug": "samwell-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
+      "section": "Characters Referenced",
+      "line": 54
+    },
+    {
+      "raw_name": "Grenn",
+      "slug": "grenn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/grenn.node.md",
+      "section": "Characters Referenced",
+      "line": 55
+    },
+    {
+      "raw_name": "Dolorous Edd",
+      "slug": "eddison-tollett",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddison-tollett.node.md",
+      "section": "Characters Referenced",
+      "line": 56
+    },
+    {
+      "raw_name": "Pyp",
+      "slug": "pypar",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/pypar.node.md",
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "Toad",
+      "slug": "todder",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/todder.node.md",
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "Bran Stark",
+      "slug": "bran-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bran-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "Rickon Stark",
+      "slug": "rickon-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rickon-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "Robb Stark",
+      "slug": "robb-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 61
+    },
+    {
+      "raw_name": "Eddard Stark",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 62
+    },
+    {
+      "raw_name": "Shaggydog",
+      "slug": "shaggydog",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/shaggydog.node.md",
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "Grey Wind",
+      "slug": "grey-wind",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/grey-wind.node.md",
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "Nymeria",
+      "slug": "nymeria",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/nymeria.node.md",
+      "section": "Characters Referenced",
+      "line": 65
+    },
+    {
+      "raw_name": "\"The wildling girl\" (Ygritte)",
+      "slug": "the-wildling-girl",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "The Frostfangs",
+      "slug": "frostfangs",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/frostfangs.node.md",
+      "section": "Locations",
+      "line": 71
+    },
+    {
+      "raw_name": "Skirling Pass",
+      "slug": "skirling-pass",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/skirling-pass.node.md",
+      "section": "Locations",
+      "line": 72
+    },
+    {
+      "raw_name": "Campfire site",
+      "slug": "campfire-site",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 73
+    },
+    {
+      "raw_name": "Narrow defile",
+      "slug": "narrow-defile",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 74
+    },
+    {
+      "raw_name": "Cave behind waterfall",
+      "slug": "cave-behind-waterfall",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 75
+    },
+    {
+      "raw_name": "Cave mouth (emergence)",
+      "slug": "cave-mouth",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 76
+    },
+    {
+      "raw_name": "Valley of the Milkwater",
+      "slug": "valley-of-the-milkwater",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 77
+    },
+    {
+      "raw_name": "The Fist (of the First Men)",
+      "slug": "the-fist",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 78
+    },
+    {
+      "raw_name": "Castle Black",
+      "slug": "castle-black",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/castle-black.node.md",
+      "section": "Locations",
+      "line": 79
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Locations",
+      "line": 80
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Locations",
+      "line": 81
+    },
+    {
+      "raw_name": "The Milkwater",
+      "slug": "milkwater",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/milkwater.node.md",
+      "section": "Locations",
+      "line": 82
+    },
+    {
+      "raw_name": "Cave behind waterfall",
+      "slug": "cave-behind-waterfall",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 87
+    },
+    {
+      "raw_name": "Narrow defile",
+      "slug": "narrow-defile",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 88
+    },
+    {
+      "raw_name": "Cave mouth (emergence/stand)",
+      "slug": "cave-mouth",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 89
+    },
+    {
+      "raw_name": "Longclaw",
+      "slug": "longclaw",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/longclaw.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 94
+    },
+    {
+      "raw_name": "Qhorin's longsword",
+      "slug": "qhorins-longsword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 95
+    },
+    {
+      "raw_name": "Ebben's battle-axe",
+      "slug": "ebbens-battle-axe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 96
+    },
+    {
+      "raw_name": "Ebben's severed head",
+      "slug": "ebbens-severed-head",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 97
+    },
+    {
+      "raw_name": "Rattleshirt's bone armor",
+      "slug": "rattleshirts-bone-armor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 98
+    },
+    {
+      "raw_name": "Giant's skull helm",
+      "slug": "giants-skull-helm",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 99
+    },
+    {
+      "raw_name": "Qhorin's cloak",
+      "slug": "qhorins-cloak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 100
+    },
+    {
+      "raw_name": "Torches (half-dozen)",
+      "slug": "torches",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/torches.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 101
+    },
+    {
+      "raw_name": "Flint and dagger",
+      "slug": "flint-and-dagger",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 102
+    },
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 239
+    },
+    {
+      "raw_name": "Ghost (direwolf)",
+      "slug": "ghost",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ghost.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 240
+    },
+    {
+      "raw_name": "Qhorin Halfhand",
+      "slug": "qhorin-halfhand",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qhorin-halfhand.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 241
+    },
+    {
+      "raw_name": "Rattleshirt / Lord of Bones",
+      "slug": "rattleshirt-lord-of-bones",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 242
+    },
+    {
+      "raw_name": "Ygritte",
+      "slug": "ygritte",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ygritte.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 243
+    },
+    {
+      "raw_name": "Ragwyle (spearwife)",
+      "slug": "ragwyle",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ragwyle.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 244
+    },
+    {
+      "raw_name": "Ebben (Night's Watch ranger, dead)",
+      "slug": "ebben",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ebben.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 245
+    },
+    {
+      "raw_name": "Stonesnake (Night's Watch ranger)",
+      "slug": "stonesnake",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stonesnake.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 246
+    },
+    {
+      "raw_name": "Squire Dalbridge (Night's Watch ranger, dead)",
+      "slug": "dalbridge",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dalbridge.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 247
+    },
+    {
+      "raw_name": "Mance Rayder",
+      "slug": "mance-rayder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mance-rayder.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 248
+    },
+    {
+      "raw_name": "Lord Commander Mormont (the Old Bear)",
+      "slug": "mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mormont.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 249
+    },
+    {
+      "raw_name": "Samwell Tarly",
+      "slug": "samwell-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 250
+    },
+    {
+      "raw_name": "Grenn",
+      "slug": "grenn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/grenn.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 251
+    },
+    {
+      "raw_name": "Dolorous Edd",
+      "slug": "eddison-tollett",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddison-tollett.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 252
+    },
+    {
+      "raw_name": "Pyp",
+      "slug": "pypar",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/pypar.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 253
+    },
+    {
+      "raw_name": "Toad",
+      "slug": "todder",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/todder.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 254
+    },
+    {
+      "raw_name": "Bran Stark",
+      "slug": "bran-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bran-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 255
+    },
+    {
+      "raw_name": "Rickon Stark",
+      "slug": "rickon-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rickon-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 256
+    },
+    {
+      "raw_name": "Robb Stark",
+      "slug": "robb-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 257
+    },
+    {
+      "raw_name": "Eddard Stark",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 258
+    },
+    {
+      "raw_name": "Shaggydog (direwolf, referenced)",
+      "slug": "shaggydog",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/shaggydog.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 259
+    },
+    {
+      "raw_name": "Grey Wind (direwolf, referenced)",
+      "slug": "grey-wind",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/grey-wind.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 260
+    },
+    {
+      "raw_name": "Nymeria (direwolf, referenced)",
+      "slug": "nymeria",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/nymeria.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 261
+    },
+    {
+      "raw_name": "The eagle (skinchanger's spirit; formerly a man Jon killed)",
+      "slug": "eagle",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/eagle.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 262
+    },
+    {
+      "raw_name": "Unnamed skinny youth wildling (with stone flail)",
+      "slug": "unnamed-skinny-youth-wildling",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 263
+    },
+    {
+      "raw_name": "Unnamed spearwife (bares breast mockingly)",
+      "slug": "unnamed-spearwife",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 264
+    },
+    {
+      "raw_name": "Unnamed short homely man wildling (rust-eaten iron halfhelm)",
+      "slug": "unnamed-short-homely-man-wildling",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 265
+    },
+    {
+      "raw_name": "The Frostfangs",
+      "slug": "frostfangs",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/frostfangs.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 268
+    },
+    {
+      "raw_name": "Skirling Pass",
+      "slug": "skirling-pass",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/skirling-pass.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 269
+    },
+    {
+      "raw_name": "Cave behind waterfall (hidden mountain passage)",
+      "slug": "cave-behind-waterfall",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 270
+    },
+    {
+      "raw_name": "Narrow defile (icy stream between two mountains)",
+      "slug": "narrow-defile",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 271
+    },
+    {
+      "raw_name": "Valley of the Milkwater",
+      "slug": "valley-of-the-milkwater",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 272
+    },
+    {
+      "raw_name": "The Milkwater (river)",
+      "slug": "milkwater",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/milkwater.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 273
+    },
+    {
+      "raw_name": "The Fist (of the First Men)",
+      "slug": "the-fist",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 274
+    },
+    {
+      "raw_name": "Castle Black",
+      "slug": "castle-black",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/castle-black.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 275
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 276
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 277
+    },
+    {
+      "raw_name": "House Stark (Jon identified as \"Eddard Stark's blood, of Winterfell\")",
+      "slug": "house-stark",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-stark.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 280
+    },
+    {
+      "raw_name": "Night's Watch",
+      "slug": "nights-watch",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/nights-watch.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 283
+    },
+    {
+      "raw_name": "Free Folk / Wildlings",
+      "slug": "free-folk-wildlings",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 284
+    },
+    {
+      "raw_name": "Old Gods (Jon prays to \"his father's gods\")",
+      "slug": "old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 287
+    },
+    {
+      "raw_name": "Free Folk / Wildlings (customs: fighting women called spearwives; democratic decision-making; bone armor; round painted shields; no mining/smelting; looted weapons)",
+      "slug": "free-folk-wildlings",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 290
+    },
+    {
+      "raw_name": "First Men (implied through Old Gods worship)",
+      "slug": "first-men",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/first-men.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 291
+    },
+    {
+      "raw_name": "Longclaw (Valyrian steel bastard sword)",
+      "slug": "longclaw",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/longclaw.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 294
+    },
+    {
+      "raw_name": "Qhorin's longsword",
+      "slug": "qhorins-longsword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 295
+    },
+    {
+      "raw_name": "Ebben's battle-axe (good steel, double-bladed; taken by Rattleshirt)",
+      "slug": "ebbens-battle-axe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 296
+    },
+    {
+      "raw_name": "Rattleshirt's bone armor (cow, sheep, goat, aurochs, elk, mammoth, human bones)",
+      "slug": "rattleshirts-bone-armor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 297
+    },
+    {
+      "raw_name": "Giant's skull helm (Rattleshirt's)",
+      "slug": "giants-skull-helm",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 298
+    },
+    {
+      "raw_name": "Bearclaws sewn on boiled leather (Rattleshirt's arm armor)",
+      "slug": "bearclaws-sewn-on-boiled-leather",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 299
+    },
+    {
+      "raw_name": "Wildling shields (large, round, skins stretched over woven wicker, painted with skulls)",
+      "slug": "wildling-shields",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 300
+    },
+    {
+      "raw_name": "Crude helms of wood and boiled leather (wildlings)",
+      "slug": "crude-helms-of-wood-and-boiled-leather",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 301
+    },
+    {
+      "raw_name": "Small wood-and-horn bows (wildling archers)",
+      "slug": "small-wood-and-horn-bows",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 302
+    },
+    {
+      "raw_name": "Stone flail (skinny youth)",
+      "slug": "stone-flail",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 303
+    },
+    {
+      "raw_name": "Chipped stone axe (one wildling)",
+      "slug": "chipped-stone-axe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 304
+    },
+    {
+      "raw_name": "Spears and mauls (wildling weapons)",
+      "slug": "spears-and-mauls",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 305
+    },
+    {
+      "raw_name": "Rust-eaten iron halfhelm (short homely man)",
+      "slug": "rust-eaten-iron-halfhelm",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 306
+    },
+    {
+      "raw_name": "Qhorin's cloak (won by Ygritte)",
+      "slug": "qhorins-cloak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 307
+    },
+    {
+      "raw_name": "Torches (dry moss soaked in oil)",
+      "slug": "torches",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/torches.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 308
+    },
+    {
+      "raw_name": "Flint and dagger (Jon's firestarting tools)",
+      "slug": "flint-and-dagger",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 309
+    },
+    {
+      "raw_name": "Garrons (small hardy horses of the Night's Watch)",
+      "slug": "garrons",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 310
+    },
+    {
+      "raw_name": "Hunting horn (wildling pursuit)",
+      "slug": "hunting-horn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 311
+    },
+    {
+      "raw_name": "Hounds/dogs (eight, grey-brown with wolf blood)",
+      "slug": "hounds-dogs",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 312
+    },
+    {
+      "raw_name": "Night's Watch oath (recited in full)",
+      "slug": "nights-watch-oath",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 315
+    },
+    {
+      "raw_name": "Warging / skinchanging (eagle is a dead skinchanger's spirit; Rattleshirt calls Jon a warg; Ebben muttered of \"wargs and skinchangers\")",
+      "slug": "warging-skinchanging",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 318
+    },
+    {
+      "raw_name": "Eagle as vessel for dead skinchanger (Ygritte: \"He was a man, before you killed him\")",
+      "slug": "eagle-as-vessel-for-dead-skinchanger",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 319
+    },
+    {
+      "raw_name": "Jon's bond with Ghost (senses Ghost's nearness even when apart)",
+      "slug": "jons-bond-with-ghost",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 320
+    },
+    {
+      "raw_name": "Jon's absence of wolf dreams (\"he did not dream; not of wolves, nor his brothers, nor anything\")",
+      "slug": "jons-absence-of-wolf-dreams",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 321
+    },
+    {
+      "raw_name": "\"Old powers waking\" (Qhorin's warning: giants, wargs, trees with eyes)",
+      "slug": "old-powers-waking",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 322
+    },
+    {
+      "raw_name": "Jon's nightmare: burning castles and dead men rising from graves",
+      "slug": "jons-nightmare-burning-castles-and-dead-men-rising-from-graves",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 323
+    },
+    {
+      "raw_name": "Greensight/weirwoods (implied: \"the trees have eyes again\")",
+      "slug": "greensight-weirwoods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 324
+    },
+    {
+      "raw_name": "War of the Five Kings (implicit context of ranging)",
+      "slug": "war-of-the-five-kings",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/war-of-the-five-kings.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 327
+    },
+    {
+      "raw_name": "Wildling march on the Wall (Mance's army marching down the Milkwater)",
+      "slug": "wildling-march-on-the-wall",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 328
+    },
+    {
+      "raw_name": "Lord Commander of the Night's Watch (Mormont)",
+      "slug": "lord-commander-of-the-nights-watch",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord-commander-of-the-nights-watch.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 331
+    },
+    {
+      "raw_name": "Lord of Bones (Rattleshirt's self-styled title)",
+      "slug": "lord-of-bones",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lord-of-bones.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 332
+    },
+    {
+      "raw_name": "Halfhand (Qhorin's epithet)",
+      "slug": "halfhand",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 333
+    },
+    {
+      "raw_name": "The Old Bear (Mormont's epithet)",
+      "slug": "jeor-mormont",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jeor-mormont.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 334
+    },
+    {
+      "raw_name": "Shadowcat (wild predator; startled Stonesnake's mare; gaunt and half-starved)",
+      "slug": "shadowcat",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/shadowcat.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 337
+    },
+    {
+      "raw_name": "Mammoth (bones used in Rattleshirt's armor; implies existence beyond the Wall)",
+      "slug": "mammoth",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/mammoth.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 338
+    },
+    {
+      "raw_name": "Giants (referenced by Qhorin as threat Mormont faces)",
+      "slug": "giants",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/giants.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 339
+    }
+  ]
+}

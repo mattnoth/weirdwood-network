@@ -1,0 +1,745 @@
+{
+  "chapter_id": "acok-jon-07",
+  "book": "acok",
+  "pov_character": "jon",
+  "generated_at": "2026-05-07T02:06:34.364520+00:00",
+  "extraction_path": "extractions/mechanical/acok/acok-jon-07.extraction.md",
+  "stats": {
+    "total_mentions": 81,
+    "resolved_to_node": 52,
+    "direct": 49,
+    "alias": 3,
+    "unresolved": 29
+  },
+  "mentions": [
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Ghost",
+      "slug": "ghost",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ghost.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Qhorin Halfhand",
+      "slug": "qhorin-halfhand",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qhorin-halfhand.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Squire Dalbridge",
+      "slug": "dalbridge",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dalbridge.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Stonesnake",
+      "slug": "stonesnake",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stonesnake.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Ebben",
+      "slug": "ebben",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ebben.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Qhorin Halfhand",
+      "slug": "qhorin-halfhand",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qhorin-halfhand.node.md",
+      "section": "Character Appearances",
+      "line": 37
+    },
+    {
+      "raw_name": "Ghost",
+      "slug": "ghost",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ghost.node.md",
+      "section": "Character Appearances",
+      "line": 38
+    },
+    {
+      "raw_name": "Squire Dalbridge",
+      "slug": "dalbridge",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dalbridge.node.md",
+      "section": "Character Appearances",
+      "line": 39
+    },
+    {
+      "raw_name": "Stonesnake",
+      "slug": "stonesnake",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stonesnake.node.md",
+      "section": "Character Appearances",
+      "line": 40
+    },
+    {
+      "raw_name": "Ygritte",
+      "slug": "ygritte",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ygritte.node.md",
+      "section": "Characters Referenced",
+      "line": 45
+    },
+    {
+      "raw_name": "Mance Rayder",
+      "slug": "mance-rayder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mance-rayder.node.md",
+      "section": "Characters Referenced",
+      "line": 46
+    },
+    {
+      "raw_name": "Bael the Bard",
+      "slug": "bael-the-bard",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bael-the-bard.node.md",
+      "section": "Characters Referenced",
+      "line": 47
+    },
+    {
+      "raw_name": "Thoren Smallwood",
+      "slug": "thoren-smallwood",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/thoren-smallwood.node.md",
+      "section": "Characters Referenced",
+      "line": 48
+    },
+    {
+      "raw_name": "Mormont (Lord Commander)",
+      "slug": "mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mormont.node.md",
+      "section": "Characters Referenced",
+      "line": 49
+    },
+    {
+      "raw_name": "Benjen Stark",
+      "slug": "benjen-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/benjen-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 50
+    },
+    {
+      "raw_name": "Craster",
+      "slug": "craster",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/craster.node.md",
+      "section": "Characters Referenced",
+      "line": 51
+    },
+    {
+      "raw_name": "Old Nan",
+      "slug": "old-nan",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/old-nan.node.md",
+      "section": "Characters Referenced",
+      "line": 52
+    },
+    {
+      "raw_name": "Jon's brother (Bran, implied)",
+      "slug": "jons-brother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 53
+    },
+    {
+      "raw_name": "The Skirling Pass",
+      "slug": "skirling-pass",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/skirling-pass.node.md",
+      "section": "Locations",
+      "line": 58
+    },
+    {
+      "raw_name": "Milkwater valley",
+      "slug": "milkwater-valley",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 59
+    },
+    {
+      "raw_name": "Forktop",
+      "slug": "forktop",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/forktop.node.md",
+      "section": "Locations",
+      "line": 60
+    },
+    {
+      "raw_name": "The great glacier/frozen river",
+      "slug": "the-great-glacier-frozen-river",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 61
+    },
+    {
+      "raw_name": "The great lake",
+      "slug": "the-great-lake",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 62
+    },
+    {
+      "raw_name": "Stone bridge at summit",
+      "slug": "stone-bridge-at-summit",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 63
+    },
+    {
+      "raw_name": "Shadow Tower",
+      "slug": "shadow-tower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/shadow-tower.node.md",
+      "section": "Locations",
+      "line": 64
+    },
+    {
+      "raw_name": "Castle Black",
+      "slug": "castle-black",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/castle-black.node.md",
+      "section": "Locations",
+      "line": 65
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Locations",
+      "line": 66
+    },
+    {
+      "raw_name": "The Skirling Pass",
+      "slug": "skirling-pass",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/skirling-pass.node.md",
+      "section": "Location Descriptions",
+      "line": 71
+    },
+    {
+      "raw_name": "Milkwater valley (dream)",
+      "slug": "milkwater-valley",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 72
+    },
+    {
+      "raw_name": "Longclaw",
+      "slug": "longclaw",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/longclaw.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 77
+    },
+    {
+      "raw_name": "Qhorin's longsword",
+      "slug": "qhorins-longsword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 78
+    },
+    {
+      "raw_name": "Squire Dalbridge's longbow",
+      "slug": "squire-dalbridges-longbow",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 79
+    },
+    {
+      "raw_name": "Wildling horn (taken)",
+      "slug": "wildling-horn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 80
+    },
+    {
+      "raw_name": "Ygritte's knife and axe",
+      "slug": "ygrittes-knife-and-axe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 81
+    },
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 187
+    },
+    {
+      "raw_name": "Ghost (direwolf)",
+      "slug": "ghost",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ghost.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 188
+    },
+    {
+      "raw_name": "Qhorin Halfhand",
+      "slug": "qhorin-halfhand",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qhorin-halfhand.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 189
+    },
+    {
+      "raw_name": "Squire Dalbridge",
+      "slug": "dalbridge",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dalbridge.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 190
+    },
+    {
+      "raw_name": "Stonesnake",
+      "slug": "stonesnake",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stonesnake.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 191
+    },
+    {
+      "raw_name": "Ebben",
+      "slug": "ebben",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ebben.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 192
+    },
+    {
+      "raw_name": "Ygritte (referenced)",
+      "slug": "ygritte",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ygritte.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 193
+    },
+    {
+      "raw_name": "Mance Rayder (referenced)",
+      "slug": "mance-rayder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mance-rayder.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 194
+    },
+    {
+      "raw_name": "Thoren Smallwood (referenced)",
+      "slug": "thoren-smallwood",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/thoren-smallwood.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 195
+    },
+    {
+      "raw_name": "Mormont / the Lord Commander (referenced)",
+      "slug": "mormont-the-lord-commander",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 196
+    },
+    {
+      "raw_name": "Benjen Stark (referenced)",
+      "slug": "benjen-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/benjen-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 197
+    },
+    {
+      "raw_name": "Craster (referenced)",
+      "slug": "craster",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/craster.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 198
+    },
+    {
+      "raw_name": "Old Nan (referenced)",
+      "slug": "old-nan",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/old-nan.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 199
+    },
+    {
+      "raw_name": "Bran Stark (implied — brother with three eyes in dream)",
+      "slug": "bran-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bran-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 200
+    },
+    {
+      "raw_name": "The Skirling Pass",
+      "slug": "skirling-pass",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/skirling-pass.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 203
+    },
+    {
+      "raw_name": "Milkwater (river/valley)",
+      "slug": "milkwater",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/milkwater.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 204
+    },
+    {
+      "raw_name": "Forktop (mountain with twin peaks)",
+      "slug": "forktop",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/forktop.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 205
+    },
+    {
+      "raw_name": "The great glacier (at head of Milkwater valley)",
+      "slug": "the-great-glacier",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 206
+    },
+    {
+      "raw_name": "The great lake (cobalt waters below glacier)",
+      "slug": "the-great-lake",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 207
+    },
+    {
+      "raw_name": "Shadow Tower",
+      "slug": "shadow-tower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/shadow-tower.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 208
+    },
+    {
+      "raw_name": "Castle Black",
+      "slug": "castle-black",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/castle-black.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 209
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 210
+    },
+    {
+      "raw_name": "The Wall (implied)",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 211
+    },
+    {
+      "raw_name": "House Stark (Jon's identity; Benjen Stark; Winterfell)",
+      "slug": "house-stark",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-stark.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 214
+    },
+    {
+      "raw_name": "Night's Watch",
+      "slug": "nights-watch",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/nights-watch.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 217
+    },
+    {
+      "raw_name": "Old Gods (weirwood in the dream with a carved face and red eyes)",
+      "slug": "old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 220
+    },
+    {
+      "raw_name": "Wildlings / Free Folk (\"They name themselves the free folk\")",
+      "slug": "wildlings-free-folk",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 223
+    },
+    {
+      "raw_name": "First Men (implied — weirwood worship, skinchanging traditions)",
+      "slug": "first-men",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/first-men.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 224
+    },
+    {
+      "raw_name": "Longclaw (Jon's Valyrian steel sword)",
+      "slug": "longclaw",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/longclaw.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 227
+    },
+    {
+      "raw_name": "Qhorin's longsword",
+      "slug": "qhorins-longsword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 228
+    },
+    {
+      "raw_name": "Squire Dalbridge's longbow",
+      "slug": "squire-dalbridges-longbow",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 229
+    },
+    {
+      "raw_name": "Wildling horn (taken from the dead watchers; now with Stonesnake)",
+      "slug": "wildling-horn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 230
+    },
+    {
+      "raw_name": "Ygritte's knife and axe (taken)",
+      "slug": "ygrittes-knife-and-axe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 231
+    },
+    {
+      "raw_name": "The song of Bael the Bard and the rose of Winterfell",
+      "slug": "the-song-of-bael-the-bard-and-the-rose-of-winterfell",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 234
+    },
+    {
+      "raw_name": "Warging / wolf dreams (Jon sees through Ghost's eyes)",
+      "slug": "warging-wolf-dreams",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 237
+    },
+    {
+      "raw_name": "Skinchanging (eagle controlled by a skinchanger)",
+      "slug": "skinchanging",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 238
+    },
+    {
+      "raw_name": "Greensight / three-eyed communication (weirwood with brother's face speaks to Jon in the dream; \"Not before the crow\")",
+      "slug": "greensight-three-eyed-communication",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 239
+    },
+    {
+      "raw_name": "Weirwood vision / tree communication",
+      "slug": "weirwood-vision-tree-communication",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 240
+    },
+    {
+      "raw_name": "The wildling gathering / Mance's host assembling (preparation for conflict)",
+      "slug": "the-wildling-gathering-mances-host-assembling",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 243
+    },
+    {
+      "raw_name": "Lord Commander of the Night's Watch (Mormont)",
+      "slug": "lord-commander-of-the-nights-watch",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord-commander-of-the-nights-watch.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 246
+    },
+    {
+      "raw_name": "Ranger (Night's Watch role)",
+      "slug": "ranger",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 247
+    },
+    {
+      "raw_name": "Mammoths (beasts ridden by giants in the dream)",
+      "slug": "mammoths",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 250
+    },
+    {
+      "raw_name": "Giants (seen in dream riding mammoths — \"his shape was wrong, too thick in the leg and hips to be a man\")",
+      "slug": "giants",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/giants.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 251
+    },
+    {
+      "raw_name": "Shadowcats (heard screaming; Jon worries about them)",
+      "slug": "shadowcats",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 252
+    },
+    {
+      "raw_name": "Garrons (mountain horses used by the rangers)",
+      "slug": "garrons",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 253
+    },
+    {
+      "raw_name": "Eagle (skinchanger-controlled bird tracking the rangers)",
+      "slug": "eagle",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/eagle.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 254
+    }
+  ]
+}

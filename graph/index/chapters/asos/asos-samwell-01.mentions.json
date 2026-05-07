@@ -1,0 +1,1114 @@
+{
+  "chapter_id": "asos-samwell-01",
+  "book": "asos",
+  "pov_character": "samwell",
+  "generated_at": "2026-05-07T02:06:34.430644+00:00",
+  "extraction_path": "extractions/mechanical/asos/asos-samwell-01.extraction.md",
+  "stats": {
+    "total_mentions": 122,
+    "resolved_to_node": 84,
+    "direct": 79,
+    "alias": 5,
+    "unresolved": 38
+  },
+  "mentions": [
+    {
+      "raw_name": "Samwell Tarly",
+      "slug": "samwell-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Grenn",
+      "slug": "grenn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/grenn.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Small Paul",
+      "slug": "small-paul",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/small-paul.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Jeor Mormont (the Old Bear)",
+      "slug": "jeor-mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jeor-mormont.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Black Bernarr",
+      "slug": "black-bernarr",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/black-bernarr.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Blane",
+      "slug": "blane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/blane.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Ser Mallador Locke",
+      "slug": "mallador-locke",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mallador-locke.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Thoren Smallwood",
+      "slug": "thoren-smallwood",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/thoren-smallwood.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Ser Ottyn Wythers",
+      "slug": "ottyn-wythers",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ottyn-wythers.node.md",
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Dywen",
+      "slug": "dywen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dywen.node.md",
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "Dolorous Edd (Eddison Tollett)",
+      "slug": "eddison-tollett",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddison-tollett.node.md",
+      "section": "Characters Present",
+      "line": 37
+    },
+    {
+      "raw_name": "Chett",
+      "slug": "chett",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/chett.node.md",
+      "section": "Characters Present",
+      "line": 38
+    },
+    {
+      "raw_name": "Maslyn",
+      "slug": "maslyn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/maslyn.node.md",
+      "section": "Characters Present",
+      "line": 39
+    },
+    {
+      "raw_name": "The Other",
+      "slug": "the-other",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 40
+    },
+    {
+      "raw_name": "Mormont's raven",
+      "slug": "mormonts-raven",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mormonts-raven.node.md",
+      "section": "Characters Present",
+      "line": 41
+    },
+    {
+      "raw_name": "Samwell Tarly",
+      "slug": "samwell-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
+      "section": "Character Appearances",
+      "line": 46
+    },
+    {
+      "raw_name": "Grenn",
+      "slug": "grenn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/grenn.node.md",
+      "section": "Character Appearances",
+      "line": 47
+    },
+    {
+      "raw_name": "Small Paul",
+      "slug": "small-paul",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/small-paul.node.md",
+      "section": "Character Appearances",
+      "line": 48
+    },
+    {
+      "raw_name": "Jeor Mormont",
+      "slug": "jeor-mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jeor-mormont.node.md",
+      "section": "Character Appearances",
+      "line": 49
+    },
+    {
+      "raw_name": "The Other",
+      "slug": "the-other",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 50
+    },
+    {
+      "raw_name": "The undead bear",
+      "slug": "the-undead-bear",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 51
+    },
+    {
+      "raw_name": "Maslyn",
+      "slug": "maslyn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/maslyn.node.md",
+      "section": "Character Appearances",
+      "line": 52
+    },
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "Pyp",
+      "slug": "pypar",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/pypar.node.md",
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "Maester Aemon",
+      "slug": "maester-aemon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "Dickon Tarly",
+      "slug": "dickon-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dickon-tarly.node.md",
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "Lord Randyll Tarly",
+      "slug": "randyll-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/randyll-tarly.node.md",
+      "section": "Characters Referenced",
+      "line": 61
+    },
+    {
+      "raw_name": "Sam's mother",
+      "slug": "sams-mother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 62
+    },
+    {
+      "raw_name": "Talla",
+      "slug": "talla",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "Sam's sisters",
+      "slug": "sams-sisters",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "Alliser Thorne",
+      "slug": "alliser-thorne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alliser-thorne.node.md",
+      "section": "Characters Referenced",
+      "line": 65
+    },
+    {
+      "raw_name": "Rast",
+      "slug": "rast",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rast.node.md",
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "Gilly",
+      "slug": "gilly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gilly.node.md",
+      "section": "Characters Referenced",
+      "line": 67
+    },
+    {
+      "raw_name": "Qhorin Halfhand",
+      "slug": "qhorin-halfhand",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qhorin-halfhand.node.md",
+      "section": "Characters Referenced",
+      "line": 68
+    },
+    {
+      "raw_name": "Lark",
+      "slug": "lark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lark.node.md",
+      "section": "Characters Referenced",
+      "line": 69
+    },
+    {
+      "raw_name": "Mawney",
+      "slug": "mawney",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mawney.node.md",
+      "section": "Characters Referenced",
+      "line": 70
+    },
+    {
+      "raw_name": "Beyond the Wall (haunted forest, retreat path)",
+      "slug": "beyond-the-wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/beyond-the-wall.node.md",
+      "section": "Locations",
+      "line": 75
+    },
+    {
+      "raw_name": "Fist of the First Men",
+      "slug": "fist-of-the-first-men",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/fist-of-the-first-men.node.md",
+      "section": "Locations",
+      "line": 76
+    },
+    {
+      "raw_name": "Castle Black",
+      "slug": "castle-black",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/castle-black.node.md",
+      "section": "Locations",
+      "line": 77
+    },
+    {
+      "raw_name": "Shadow Tower",
+      "slug": "shadow-tower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/shadow-tower.node.md",
+      "section": "Locations",
+      "line": 78
+    },
+    {
+      "raw_name": "Horn Hill",
+      "slug": "horn-hill",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/horn-hill.node.md",
+      "section": "Locations",
+      "line": 79
+    },
+    {
+      "raw_name": "Skirling Pass",
+      "slug": "skirling-pass",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/skirling-pass.node.md",
+      "section": "Locations",
+      "line": 80
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Locations",
+      "line": 81
+    },
+    {
+      "raw_name": "Craster's Keep",
+      "slug": "crasters-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crasters-keep.node.md",
+      "section": "Locations",
+      "line": 82
+    },
+    {
+      "raw_name": "Fist of the First Men",
+      "slug": "fist-of-the-first-men",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/fist-of-the-first-men.node.md",
+      "section": "Location Descriptions",
+      "line": 87
+    },
+    {
+      "raw_name": "Beyond the Wall (retreat path)",
+      "slug": "beyond-the-wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/beyond-the-wall.node.md",
+      "section": "Location Descriptions",
+      "line": 88
+    },
+    {
+      "raw_name": "Dragonglass dagger",
+      "slug": "dragonglass-dagger",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 93
+    },
+    {
+      "raw_name": "Dragonglass arrowheads and spearhead",
+      "slug": "dragonglass-arrowheads-and-spearhead",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 94
+    },
+    {
+      "raw_name": "Old horn",
+      "slug": "old-horn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 95
+    },
+    {
+      "raw_name": "Heartsbane",
+      "slug": "heartsbane",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/heartsbane.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 96
+    },
+    {
+      "raw_name": "The Other's crystal sword",
+      "slug": "the-others-crystal-sword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 97
+    },
+    {
+      "raw_name": "Mormont's raven",
+      "slug": "mormonts-raven",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mormonts-raven.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 98
+    },
+    {
+      "raw_name": "Sam's parchments, inks, and quills",
+      "slug": "sams-parchments-inks-and-quills",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 99
+    },
+    {
+      "raw_name": "Plain black banner",
+      "slug": "plain-black-banner",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 100
+    },
+    {
+      "raw_name": "Samwell Tarly (Sam, \"Ser Piggy\")",
+      "slug": "samwell-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/samwell-tarly.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 235
+    },
+    {
+      "raw_name": "Grenn (\"Aurochs\")",
+      "slug": "grenn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/grenn.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 236
+    },
+    {
+      "raw_name": "Small Paul",
+      "slug": "small-paul",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/small-paul.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 237
+    },
+    {
+      "raw_name": "Jeor Mormont (the Old Bear, the Lord Commander)",
+      "slug": "jeor-mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jeor-mormont.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 238
+    },
+    {
+      "raw_name": "Mormont's raven",
+      "slug": "mormonts-raven",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mormonts-raven.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 239
+    },
+    {
+      "raw_name": "Dolorous Edd (Eddison Tollett)",
+      "slug": "eddison-tollett",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddison-tollett.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 240
+    },
+    {
+      "raw_name": "Black Bernarr",
+      "slug": "black-bernarr",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/black-bernarr.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 241
+    },
+    {
+      "raw_name": "Blane",
+      "slug": "blane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/blane.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 242
+    },
+    {
+      "raw_name": "Ser Mallador Locke",
+      "slug": "mallador-locke",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mallador-locke.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 243
+    },
+    {
+      "raw_name": "Thoren Smallwood",
+      "slug": "thoren-smallwood",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/thoren-smallwood.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 244
+    },
+    {
+      "raw_name": "Ser Ottyn Wythers",
+      "slug": "ottyn-wythers",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ottyn-wythers.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 245
+    },
+    {
+      "raw_name": "Dywen",
+      "slug": "dywen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dywen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 246
+    },
+    {
+      "raw_name": "Chett",
+      "slug": "chett",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/chett.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 247
+    },
+    {
+      "raw_name": "Maslyn",
+      "slug": "maslyn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/maslyn.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 248
+    },
+    {
+      "raw_name": "Jon Snow (\"Lord Snow\")",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 249
+    },
+    {
+      "raw_name": "Pyp",
+      "slug": "pypar",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/pypar.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 250
+    },
+    {
+      "raw_name": "Maester Aemon",
+      "slug": "maester-aemon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 251
+    },
+    {
+      "raw_name": "Dickon Tarly",
+      "slug": "dickon-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dickon-tarly.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 252
+    },
+    {
+      "raw_name": "Lord Randyll Tarly",
+      "slug": "randyll-tarly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/randyll-tarly.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 253
+    },
+    {
+      "raw_name": "Sam's mother (unnamed)",
+      "slug": "sams-mother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 254
+    },
+    {
+      "raw_name": "Talla (Sam's sister)",
+      "slug": "talla",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 255
+    },
+    {
+      "raw_name": "Sam's sisters (unnamed, multiple)",
+      "slug": "sams-sisters",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 256
+    },
+    {
+      "raw_name": "Alliser Thorne",
+      "slug": "alliser-thorne",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alliser-thorne.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 257
+    },
+    {
+      "raw_name": "Rast",
+      "slug": "rast",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rast.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 258
+    },
+    {
+      "raw_name": "Gilly",
+      "slug": "gilly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gilly.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 259
+    },
+    {
+      "raw_name": "Qhorin Halfhand",
+      "slug": "qhorin-halfhand",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qhorin-halfhand.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 260
+    },
+    {
+      "raw_name": "Lark",
+      "slug": "lark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 261
+    },
+    {
+      "raw_name": "Mawney (referenced — his horse)",
+      "slug": "mawney",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mawney.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 262
+    },
+    {
+      "raw_name": "The Other (White Walker)",
+      "slug": "the-other",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 263
+    },
+    {
+      "raw_name": "Beyond the Wall (haunted forest, retreat path)",
+      "slug": "beyond-the-wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/beyond-the-wall.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 266
+    },
+    {
+      "raw_name": "Fist of the First Men",
+      "slug": "fist-of-the-first-men",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/fist-of-the-first-men.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 267
+    },
+    {
+      "raw_name": "Castle Black",
+      "slug": "castle-black",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/castle-black.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 268
+    },
+    {
+      "raw_name": "Shadow Tower",
+      "slug": "shadow-tower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/shadow-tower.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 269
+    },
+    {
+      "raw_name": "Horn Hill",
+      "slug": "horn-hill",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/horn-hill.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 270
+    },
+    {
+      "raw_name": "Skirling Pass",
+      "slug": "skirling-pass",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/skirling-pass.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 271
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 272
+    },
+    {
+      "raw_name": "Craster's Keep",
+      "slug": "crasters-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crasters-keep.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 273
+    },
+    {
+      "raw_name": "House Tarly (Sam, Dickon, Randyll, Sam's mother, Talla, Sam's sisters; seat at Horn Hill; ancestral sword Heartsbane)",
+      "slug": "house-tarly",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-tarly.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 276
+    },
+    {
+      "raw_name": "Night's Watch (the Watch, the black brothers, brothers of the Night's Watch)",
+      "slug": "nights-watch",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/nights-watch.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 279
+    },
+    {
+      "raw_name": "Shadow Tower men (under Blane's command at the Fist)",
+      "slug": "shadow-tower-men",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 280
+    },
+    {
+      "raw_name": "Faith of the Seven (the Mother, the Father — Sam prays \"Mother have mercy,\" \"Father protect me\"; septons mentioned)",
+      "slug": "faith-of-the-seven",
+      "resolved_via": "direct",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/faith-of-the-seven.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 283
+    },
+    {
+      "raw_name": "Old Gods (the nameless gods of the trees and wolves and snows; said to rule beyond the Wall)",
+      "slug": "old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 284
+    },
+    {
+      "raw_name": "Wildlings (dead wildlings reanimated as wights; mentioned in Mormont's warning about \"a thousand wildlings\")",
+      "slug": "free-folk",
+      "resolved_via": "alias",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/free-folk.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 287
+    },
+    {
+      "raw_name": "Dragonglass dagger (obsidian; Jon's gift to Sam; kills the Other)",
+      "slug": "dragonglass-dagger",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 290
+    },
+    {
+      "raw_name": "Dragonglass arrowheads (Jon's gift; in Sam's pack)",
+      "slug": "dragonglass-arrowheads",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 291
+    },
+    {
+      "raw_name": "Dragonglass spearhead (Jon's gift; in Sam's pack)",
+      "slug": "dragonglass-spearhead",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 292
+    },
+    {
+      "raw_name": "Old horn (in Sam's pack)",
+      "slug": "old-horn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 293
+    },
+    {
+      "raw_name": "Heartsbane (Tarly ancestral greatsword; at Horn Hill)",
+      "slug": "heartsbane",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/heartsbane.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 294
+    },
+    {
+      "raw_name": "The Other's crystal sword (ice blue blade, faint blue glow)",
+      "slug": "the-others-crystal-sword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 295
+    },
+    {
+      "raw_name": "Sam's parchments, inks, and quills",
+      "slug": "sams-parchments-inks-and-quills",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 296
+    },
+    {
+      "raw_name": "Raven cages (Castle Black cage and Shadow Tower cage)",
+      "slug": "raven-cages",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 297
+    },
+    {
+      "raw_name": "Plain black banner (carried by Dolorous Edd on a spear)",
+      "slug": "plain-black-banner",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 298
+    },
+    {
+      "raw_name": "Warhorns (used for signals)",
+      "slug": "warhorns",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 299
+    },
+    {
+      "raw_name": "Torches (ring of fire around the column)",
+      "slug": "torches",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/torches.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 300
+    },
+    {
+      "raw_name": "Sam's steel meat knife",
+      "slug": "sams-steel-meat-knife",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 301
+    },
+    {
+      "raw_name": "Small Paul's long-hafted axe",
+      "slug": "small-pauls-long-hafted-axe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 302
+    },
+    {
+      "raw_name": "Rock-hard garlic sausage",
+      "slug": "rock-hard-garlic-sausage",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 303
+    },
+    {
+      "raw_name": "\"The Bear and the Maiden Fair\" (song — Grenn starts singing it; Sam stops him)",
+      "slug": "the-bear-and-the-maiden-fair",
+      "resolved_via": "direct",
+      "node_type": "object.text",
+      "node_path": "graph/nodes/texts/the-bear-and-the-maiden-fair.node.md",
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 306
+    },
+    {
+      "raw_name": "Sam's battle messages (written during the Fist; never sent — \"Attacked amidst snow and cold...\" through \"the battle's lost. We're all lost.\")",
+      "slug": "sams-battle-messages",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 307
+    },
+    {
+      "raw_name": "The Others (White Walkers — pale as ice, sword-slim, milky white, armor that ripples and shifts, crystal swords with blue glow, feet don't break snow, move with lightning speed and grace)",
+      "slug": "others",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/others.node.md",
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 310
+    },
+    {
+      "raw_name": "Wights (reanimated dead — blue eyes, some in ringmail, some nearly naked; killed wildlings and Night's Watch brothers reanimated; slow and clumsy; can be burned)",
+      "slug": "wights",
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/wights.node.md",
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 311
+    },
+    {
+      "raw_name": "Dragonglass/obsidian (destroys Others on contact — causes them to dissolve; cracks like breaking ice; produces piercing screech; intensely cold afterward)",
+      "slug": "dragonglass-obsidian",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 312
+    },
+    {
+      "raw_name": "The Other's dissolution (flesh becomes fine white mist; bones like milkglass beneath; both melt away; pale blue blood hisses and steams)",
+      "slug": "the-others-dissolution",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 313
+    },
+    {
+      "raw_name": "Undead bear (huge pale rotting bear with blue eyes; reanimated; survived near-decapitation)",
+      "slug": "undead-bear",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 314
+    },
+    {
+      "raw_name": "Battle at the Fist of the First Men (wights and Others vs. Night's Watch; Watch routed; dead include Thoren Smallwood, Maslyn, Ser Ottyn Wythers (likely), and many others)",
+      "slug": "battle-at-the-fist-of-the-first-men-and-many-others",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 317
+    },
+    {
+      "raw_name": "Lord Commander of the Night's Watch (held by Jeor Mormont)",
+      "slug": "lord-commander-of-the-nights-watch",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord-commander-of-the-nights-watch.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 320
+    },
+    {
+      "raw_name": "Ranger (Blane described as a ranger)",
+      "slug": "ranger",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 321
+    },
+    {
+      "raw_name": "Steward (Chett described as Maester Aemon's steward; Sam is also a steward who tends ravens)",
+      "slug": "steward",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/steward.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 322
+    }
+  ]
+}

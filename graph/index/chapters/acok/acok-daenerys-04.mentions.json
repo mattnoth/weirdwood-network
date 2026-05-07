@@ -1,0 +1,1510 @@
+{
+  "chapter_id": "acok-daenerys-04",
+  "book": "acok",
+  "pov_character": "daenerys",
+  "generated_at": "2026-05-07T02:06:34.355012+00:00",
+  "extraction_path": "extractions/mechanical/acok/acok-daenerys-04.extraction.md",
+  "stats": {
+    "total_mentions": 166,
+    "resolved_to_node": 45,
+    "direct": 45,
+    "alias": 0,
+    "unresolved": 121
+  },
+  "mentions": [
+    {
+      "raw_name": "Daenerys Targaryen",
+      "slug": "daenerys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Drogon",
+      "slug": "drogon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/drogon.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Pyat Pree",
+      "slug": "pyat-pree",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/pyat-pree.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Ser Jorah Mormont",
+      "slug": "jorah-mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jorah-mormont.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Xaro Xhoan Daxos",
+      "slug": "xaro-xhoan-daxos",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/xaro-xhoan-daxos.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Jhogo",
+      "slug": "jhogo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jhogo.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Aggo",
+      "slug": "aggo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aggo.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Rakharo",
+      "slug": "rakharo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rakharo.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Dwarf servitor",
+      "slug": "dwarf-servitor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "The Undying Ones",
+      "slug": "undying-ones",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/undying-ones.node.md",
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "Drogon",
+      "slug": "drogon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/drogon.node.md",
+      "section": "Character Appearances",
+      "line": 41
+    },
+    {
+      "raw_name": "Pyat Pree",
+      "slug": "pyat-pree",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/pyat-pree.node.md",
+      "section": "Character Appearances",
+      "line": 42
+    },
+    {
+      "raw_name": "Dwarf servitor",
+      "slug": "dwarf-servitor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 43
+    },
+    {
+      "raw_name": "Undying One (male, to Dany's right)",
+      "slug": "undying-one",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 44
+    },
+    {
+      "raw_name": "Undying One (female, opposite)",
+      "slug": "undying-one",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 45
+    },
+    {
+      "raw_name": "Vision: man on barbed throne",
+      "slug": "vision-man-on-barbed-throne",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 46
+    },
+    {
+      "raw_name": "Vision: man with harp",
+      "slug": "vision-man-with-harp",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 47
+    },
+    {
+      "raw_name": "Vision: tall lord under fiery stallion banner",
+      "slug": "vision-tall-lord-under-fiery-stallion-banner",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 48
+    },
+    {
+      "raw_name": "Vision: dead man with wolf head",
+      "slug": "vision-dead-man-with-wolf-head",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 49
+    },
+    {
+      "raw_name": "Vision: corpse at ship prow",
+      "slug": "vision-corpse-at-ship-prow",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 50
+    },
+    {
+      "raw_name": "Mirri Maz Duur",
+      "slug": "mirri-maz-duur",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mirri-maz-duur.node.md",
+      "section": "Characters Referenced",
+      "line": 55
+    },
+    {
+      "raw_name": "Drogo",
+      "slug": "drogo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/drogo.node.md",
+      "section": "Characters Referenced",
+      "line": 56
+    },
+    {
+      "raw_name": "Viserys",
+      "slug": "viserys",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "Ser Willem Darry",
+      "slug": "willem-darry",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/willem-darry.node.md",
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "Aegon (baby)",
+      "slug": "aegon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "Woman nursing Aegon",
+      "slug": "woman-nursing-aegon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "Dying prince with rubies",
+      "slug": "dying-prince-with-rubies",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 61
+    },
+    {
+      "raw_name": "Qarth",
+      "slug": "qarth",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/qarth.node.md",
+      "section": "Locations",
+      "line": 66
+    },
+    {
+      "raw_name": "House of the Undying Ones / Palace of Dust",
+      "slug": "house-of-the-undying-ones-palace-of-dust",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 67
+    },
+    {
+      "raw_name": "Grove of black-barked trees",
+      "slug": "grove-of-black-barked-trees",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 68
+    },
+    {
+      "raw_name": "Stone anteroom(s)",
+      "slug": "stone-anteroom",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 69
+    },
+    {
+      "raw_name": "Oval room with six passages",
+      "slug": "oval-room-with-six-passages",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 70
+    },
+    {
+      "raw_name": "Long torchlit hall",
+      "slug": "long-torchlit-hall",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 71
+    },
+    {
+      "raw_name": "Audience chamber of the Undying",
+      "slug": "audience-chamber-of-the-undying",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 72
+    },
+    {
+      "raw_name": "Illusory hall of wizards",
+      "slug": "illusory-hall-of-wizards",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 73
+    },
+    {
+      "raw_name": "House with the red door (Braavos)",
+      "slug": "house-with-the-red-door",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-with-the-red-door.node.md",
+      "section": "Locations",
+      "line": 74
+    },
+    {
+      "raw_name": "Cavernous stone hall with dragon skulls",
+      "slug": "cavernous-stone-hall-with-dragon-skulls",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 75
+    },
+    {
+      "raw_name": "Room with wooden bed",
+      "slug": "room-with-wooden-bed",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 76
+    },
+    {
+      "raw_name": "Mother of Mountains",
+      "slug": "mother-of-mountains",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/mother-of-mountains.node.md",
+      "section": "Locations",
+      "line": 77
+    },
+    {
+      "raw_name": "Wall of ice",
+      "slug": "wall-of-ice",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 78
+    },
+    {
+      "raw_name": "House of the Undying / Palace of Dust",
+      "slug": "house-of-the-undying-palace-of-dust",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 83
+    },
+    {
+      "raw_name": "Grove of black-barked trees",
+      "slug": "grove-of-black-barked-trees",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 84
+    },
+    {
+      "raw_name": "House with the red door (vision)",
+      "slug": "house-with-the-red-door",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-with-the-red-door.node.md",
+      "section": "Location Descriptions",
+      "line": 85
+    },
+    {
+      "raw_name": "Cavernous stone hall with dragon skulls (vision)",
+      "slug": "cavernous-stone-hall-with-dragon-skulls",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 86
+    },
+    {
+      "raw_name": "Shade of the evening",
+      "slug": "shade-of-the-evening",
+      "resolved_via": "direct",
+      "node_type": "object.food",
+      "node_path": "graph/nodes/foods/shade-of-the-evening.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 91
+    },
+    {
+      "raw_name": "Silver tray and crystal glass",
+      "slug": "silver-tray-and-crystal-glass",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 92
+    },
+    {
+      "raw_name": "Ebony and weirwood doors",
+      "slug": "ebony-and-weirwood-doors",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 93
+    },
+    {
+      "raw_name": "Floating corrupted heart",
+      "slug": "floating-corrupted-heart",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 94
+    },
+    {
+      "raw_name": "Palanquin",
+      "slug": "palanquin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 95
+    },
+    {
+      "raw_name": "Jhogo's whip",
+      "slug": "jhogos-whip",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 96
+    },
+    {
+      "raw_name": "Aggo's arakh",
+      "slug": "aggos-arakh",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 97
+    },
+    {
+      "raw_name": "Pyat Pree's knife",
+      "slug": "pyat-prees-knife",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 98
+    },
+    {
+      "raw_name": "Vision: Iron crown",
+      "slug": "vision-iron-crown",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 99
+    },
+    {
+      "raw_name": "Vision: Harp with silvery strings",
+      "slug": "vision-harp-with-silvery-strings",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 100
+    },
+    {
+      "raw_name": "Vision: Red sword",
+      "slug": "vision-red-sword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 101
+    },
+    {
+      "raw_name": "Vision: Cloth dragon on poles",
+      "slug": "vision-cloth-dragon-on-poles",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 102
+    },
+    {
+      "raw_name": "Daenerys Targaryen (Daenerys Stormborn, Dany, Khaleesi, Queen Daenerys)",
+      "slug": "daenerys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 268
+    },
+    {
+      "raw_name": "Drogon",
+      "slug": "drogon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/drogon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 269
+    },
+    {
+      "raw_name": "Pyat Pree",
+      "slug": "pyat-pree",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/pyat-pree.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 270
+    },
+    {
+      "raw_name": "Ser Jorah Mormont",
+      "slug": "jorah-mormont",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jorah-mormont.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 271
+    },
+    {
+      "raw_name": "Xaro Xhoan Daxos",
+      "slug": "xaro-xhoan-daxos",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/xaro-xhoan-daxos.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 272
+    },
+    {
+      "raw_name": "Jhogo",
+      "slug": "jhogo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jhogo.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 273
+    },
+    {
+      "raw_name": "Aggo",
+      "slug": "aggo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aggo.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 274
+    },
+    {
+      "raw_name": "Rakharo",
+      "slug": "rakharo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rakharo.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 275
+    },
+    {
+      "raw_name": "Dwarf servitor (unnamed)",
+      "slug": "dwarf-servitor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 276
+    },
+    {
+      "raw_name": "The Undying Ones (multiple, unnamed)",
+      "slug": "undying-ones",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/undying-ones.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 277
+    },
+    {
+      "raw_name": "Illusory wizard king (unnamed)",
+      "slug": "illusory-wizard-king",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 278
+    },
+    {
+      "raw_name": "Illusory woman in rose and silver (unnamed)",
+      "slug": "illusory-woman-in-rose-and-silver",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 279
+    },
+    {
+      "raw_name": "Illusory warrior in emerald armor (unnamed)",
+      "slug": "illusory-warrior-in-emerald-armor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 280
+    },
+    {
+      "raw_name": "Illusory handsome young man (unnamed)",
+      "slug": "illusory-handsome-young-man",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 281
+    },
+    {
+      "raw_name": "Vision: Viserys",
+      "slug": "vision-viserys",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 282
+    },
+    {
+      "raw_name": "Vision: Ser Willem Darry (\"the sweet old bear\")",
+      "slug": "vision-ser-willem-darry",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 283
+    },
+    {
+      "raw_name": "Vision: Old man on barbed throne (dark eyes, silver-grey hair)",
+      "slug": "vision-old-man-on-barbed-throne",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 284
+    },
+    {
+      "raw_name": "Vision: Man with indigo eyes and silver-gold hair (names baby Aegon, plays harp)",
+      "slug": "vision-man-with-indigo-eyes-and-silver-gold-hair",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 285
+    },
+    {
+      "raw_name": "Vision: Woman nursing baby Aegon (unnamed)",
+      "slug": "vision-woman-nursing-baby-aegon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 286
+    },
+    {
+      "raw_name": "Vision: Baby Aegon",
+      "slug": "vision-baby-aegon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 287
+    },
+    {
+      "raw_name": "Vision: Tall lord with copper skin and silver-gold hair",
+      "slug": "vision-tall-lord-with-copper-skin-and-silver-gold-hair",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 288
+    },
+    {
+      "raw_name": "Vision: Dying prince with rubies",
+      "slug": "vision-dying-prince-with-rubies",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 289
+    },
+    {
+      "raw_name": "Vision: Blue-eyed king with red sword, no shadow",
+      "slug": "vision-blue-eyed-king-with-red-sword-no-shadow",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 290
+    },
+    {
+      "raw_name": "Vision: Corpse at ship's prow (bright eyes, grey lips)",
+      "slug": "vision-corpse-at-ships-prow",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 291
+    },
+    {
+      "raw_name": "Vision: Mirri Maz Duur",
+      "slug": "vision-mirri-maz-duur",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 292
+    },
+    {
+      "raw_name": "Vision: Naked crones from lake beneath Mother of Mountains",
+      "slug": "vision-naked-crones-from-lake-beneath-mother-of-mountains",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 293
+    },
+    {
+      "raw_name": "Vision: Little girl running to house with red door",
+      "slug": "vision-little-girl-running-to-house-with-red-door",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 294
+    },
+    {
+      "raw_name": "Vision: Beautiful naked woman (in room with dwarf-creatures)",
+      "slug": "vision-beautiful-naked-woman",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 295
+    },
+    {
+      "raw_name": "Drogo (referenced — taste of \"Drogo's seed\"; silver horse in visions)",
+      "slug": "drogo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/drogo.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 296
+    },
+    {
+      "raw_name": "Qarth",
+      "slug": "qarth",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/qarth.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 299
+    },
+    {
+      "raw_name": "House of the Undying Ones / Palace of Dust",
+      "slug": "house-of-the-undying-ones-palace-of-dust",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 300
+    },
+    {
+      "raw_name": "Grove of black-barked trees (outside the House)",
+      "slug": "grove-of-black-barked-trees",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 301
+    },
+    {
+      "raw_name": "Antechambers (repeating rooms with four doors)",
+      "slug": "antechambers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 302
+    },
+    {
+      "raw_name": "Oval room with six passages (worm-eaten wood)",
+      "slug": "oval-room-with-six-passages",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 303
+    },
+    {
+      "raw_name": "Long torchlit hall",
+      "slug": "long-torchlit-hall",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 304
+    },
+    {
+      "raw_name": "Audience chamber of the Undying",
+      "slug": "audience-chamber-of-the-undying",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 305
+    },
+    {
+      "raw_name": "Illusory hall of wizards",
+      "slug": "illusory-hall-of-wizards",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 306
+    },
+    {
+      "raw_name": "Stairwell",
+      "slug": "stairwell",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 307
+    },
+    {
+      "raw_name": "House with the red door (Braavos — vision)",
+      "slug": "house-with-the-red-door",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-with-the-red-door.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 308
+    },
+    {
+      "raw_name": "Cavernous hall with dragon skulls and barbed throne (vision)",
+      "slug": "cavernous-hall-with-dragon-skulls-and-barbed-throne",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 309
+    },
+    {
+      "raw_name": "Room with great wooden bed (vision — man names Aegon)",
+      "slug": "room-with-great-wooden-bed",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 310
+    },
+    {
+      "raw_name": "Burning city (vision — behind the tall lord)",
+      "slug": "burning-city",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 311
+    },
+    {
+      "raw_name": "Mother of Mountains (vision)",
+      "slug": "mother-of-mountains",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/mother-of-mountains.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 312
+    },
+    {
+      "raw_name": "Wall of ice (vision)",
+      "slug": "wall-of-ice",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 313
+    },
+    {
+      "raw_name": "Darkling stream beneath a sea of stars (vision)",
+      "slug": "darkling-stream-beneath-a-sea-of-stars",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 314
+    },
+    {
+      "raw_name": "Smoking tower (vision)",
+      "slug": "smoking-tower",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 315
+    },
+    {
+      "raw_name": "Tent with dancing shadows (vision)",
+      "slug": "tent-with-dancing-shadows",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 316
+    },
+    {
+      "raw_name": "Braavos (referenced — house with the red door)",
+      "slug": "braavos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/braavos.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 317
+    },
+    {
+      "raw_name": "House Targaryen (Daenerys introduces herself as \"Daenerys Stormborn of House Targaryen\")",
+      "slug": "house-targaryen",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-targaryen.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 320
+    },
+    {
+      "raw_name": "The Undying Ones / Undying of Qarth (warlocks of Qarth)",
+      "slug": "the-undying-ones-undying-of-qarth",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 323
+    },
+    {
+      "raw_name": "Bloodriders (Jhogo, Aggo, Rakharo — sworn to Dany)",
+      "slug": "bloodriders",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 324
+    },
+    {
+      "raw_name": "The Warrior (Dany prays to the Warrior for courage before the ebony-and-weirwood doors)",
+      "slug": "the-warrior",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 327
+    },
+    {
+      "raw_name": "Dothraki horse god (Dany prays for strength)",
+      "slug": "dothraki-horse-god",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 328
+    },
+    {
+      "raw_name": "Dothraki (Jhogo speaks in Dothraki; Dothraki customs referenced)",
+      "slug": "dothraki",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/dothraki.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 331
+    },
+    {
+      "raw_name": "Qartheen (Qartheen fashion of baring one breast; Qartheen name for shade of the evening)",
+      "slug": "qartheen",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/qartheen.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 332
+    },
+    {
+      "raw_name": "Shade of the evening (blue sorcerous drink / wine of warlocks)",
+      "slug": "shade-of-the-evening",
+      "resolved_via": "direct",
+      "node_type": "object.food",
+      "node_path": "graph/nodes/foods/shade-of-the-evening.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 335
+    },
+    {
+      "raw_name": "Crystal glass / flute (for shade of the evening)",
+      "slug": "crystal-glass-flute",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 336
+    },
+    {
+      "raw_name": "Silver tray (held by dwarf servitor)",
+      "slug": "silver-tray",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 337
+    },
+    {
+      "raw_name": "Palanquin (Dany arrives in it; Xaro lounges inside)",
+      "slug": "palanquin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 338
+    },
+    {
+      "raw_name": "Arakh (Aggo's weapon)",
+      "slug": "arakh",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 339
+    },
+    {
+      "raw_name": "Jhogo's whip",
+      "slug": "jhogos-whip",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 340
+    },
+    {
+      "raw_name": "Pyat Pree's knife",
+      "slug": "pyat-prees-knife",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 341
+    },
+    {
+      "raw_name": "Ebony and weirwood doors (black and white grains in interwoven patterns)",
+      "slug": "ebony-and-weirwood-doors",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 342
+    },
+    {
+      "raw_name": "Floating corrupted heart (blue, swollen, beating — sustains the Undying)",
+      "slug": "floating-corrupted-heart",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 343
+    },
+    {
+      "raw_name": "Mold-eaten carpet (faded with remnants of gold whorls)",
+      "slug": "mold-eaten-carpet",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 344
+    },
+    {
+      "raw_name": "Black roof tiles",
+      "slug": "black-roof-tiles",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 345
+    },
+    {
+      "raw_name": "Vision: Iron crown (worn by dead wolf-headed man)",
+      "slug": "vision-iron-crown",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 346
+    },
+    {
+      "raw_name": "Vision: Leg of lamb (held as scepter)",
+      "slug": "vision-leg-of-lamb",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 347
+    },
+    {
+      "raw_name": "Vision: Harp with silvery strings",
+      "slug": "vision-harp-with-silvery-strings",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 348
+    },
+    {
+      "raw_name": "Vision: Red sword (glowing like sunset)",
+      "slug": "vision-red-sword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 349
+    },
+    {
+      "raw_name": "Vision: Cloth dragon on poles",
+      "slug": "vision-cloth-dragon-on-poles",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 350
+    },
+    {
+      "raw_name": "Vision: Banner of a fiery stallion",
+      "slug": "vision-banner-of-a-fiery-stallion",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 351
+    },
+    {
+      "raw_name": "Vision: Rubies (flying from dying prince's chest)",
+      "slug": "vision-rubies",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 352
+    },
+    {
+      "raw_name": "Vision: Blue flower (growing from wall of ice)",
+      "slug": "vision-blue-flower",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 353
+    },
+    {
+      "raw_name": "Vision: Silver horse (Dany's silver)",
+      "slug": "vision-silver-horse",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 354
+    },
+    {
+      "raw_name": "Vision: Ship (with corpse at prow)",
+      "slug": "vision-ship",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 355
+    },
+    {
+      "raw_name": "\"The song of ice and fire\" (referenced by the man with indigo eyes — \"his is the song of ice and fire\")",
+      "slug": "the-song-of-ice-and-fire",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 358
+    },
+    {
+      "raw_name": "Sweet sadness / music from the harp (the man plays silvery strings as the vision fades)",
+      "slug": "sweet-sadness-music-from-the-harp",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 359
+    },
+    {
+      "raw_name": "Shade of the evening (sorcerous drink; transforms taste; opens perception)",
+      "slug": "shade-of-the-evening",
+      "resolved_via": "direct",
+      "node_type": "object.food",
+      "node_path": "graph/nodes/foods/shade-of-the-evening.node.md",
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 362
+    },
+    {
+      "raw_name": "House of the Undying's spatial distortion (no towers from outside but contains stairwells; repeating rooms; endless hall)",
+      "slug": "house-of-the-undyings-spatial-distortion",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 363
+    },
+    {
+      "raw_name": "Visions in the House of the Undying (past, present, future, and \"days that never were\")",
+      "slug": "visions-in-the-house-of-the-undying",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 364
+    },
+    {
+      "raw_name": "The corrupted heart (floating, beating, pulsing indigo light; sustains the Undying)",
+      "slug": "the-corrupted-heart",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 365
+    },
+    {
+      "raw_name": "The Undying's whispered communication (speaking without moving lips or breathing)",
+      "slug": "the-undyings-whispered-communication",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 366
+    },
+    {
+      "raw_name": "Illusory Pyat Pree (face crumbles into \"something pale and wormlike\")",
+      "slug": "illusory-pyat-pree",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 367
+    },
+    {
+      "raw_name": "Illusory hall of wizards (false Undying)",
+      "slug": "illusory-hall-of-wizards",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 368
+    },
+    {
+      "raw_name": "Dragonfire (Drogon breathes fire to destroy the heart and burn the Undying)",
+      "slug": "dragonfire",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 369
+    },
+    {
+      "raw_name": "The floor writhing underfoot during escape",
+      "slug": "the-floor-writhing-underfoot-during-escape",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 370
+    },
+    {
+      "raw_name": "Torches extinguishing progressively in the long hall",
+      "slug": "torches-extinguishing-progressively-in-the-long-hall",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 371
+    },
+    {
+      "raw_name": "Pursuit entity (shuffling, dragging along the carpet)",
+      "slug": "pursuit-entity",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 372
+    },
+    {
+      "raw_name": "Prophecy of the three fires, three mounts, three treasons",
+      "slug": "prophecy-of-the-three-fires-three-mounts-three-treasons",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 373
+    },
+    {
+      "raw_name": "\"The prince that was promised\"",
+      "slug": "the-prince-that-was-promised",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 374
+    },
+    {
+      "raw_name": "\"The dragon has three heads\"",
+      "slug": "the-dragon-has-three-heads",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 375
+    },
+    {
+      "raw_name": "\"Mother of dragons, daughter of death / slayer of lies / bride of fire\"",
+      "slug": "mother-of-dragons-daughter-of-death-slayer-of-lies-bride-of-fire",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 376
+    },
+    {
+      "raw_name": "\"Drink from the cup of ice, drink from the cup of fire\"",
+      "slug": "drink-from-the-cup-of-ice-drink-from-the-cup-of-fire",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 377
+    },
+    {
+      "raw_name": "The comet (illusory wizards claim the Undying sent it)",
+      "slug": "the-comet",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 378
+    },
+    {
+      "raw_name": "Shadows whirling in a tent (vision — \"boneless and terrible\")",
+      "slug": "shadows-whirling-in-a-tent",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 379
+    },
+    {
+      "raw_name": "Dragon bursting from Mirri Maz Duur's brow (vision)",
+      "slug": "dragon-bursting-from-mirri-maz-duurs-brow",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 380
+    },
+    {
+      "raw_name": "Stone beast breathing shadow fire (vision)",
+      "slug": "stone-beast-breathing-shadow-fire",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 381
+    },
+    {
+      "raw_name": "Khaleesi (used by Aggo addressing Dany)",
+      "slug": "khaleesi",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/khaleesi.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 387
+    },
+    {
+      "raw_name": "Queen (Pyat Pree calls her \"my queen\"; Xaro calls her \"most stubborn of queens\"; Dany calls herself \"Queen of the Seven Kingdoms of Westeros\")",
+      "slug": "queen",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/queen.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 388
+    },
+    {
+      "raw_name": "King (vision — old man on barbed throne; man names baby Aegon \"what better name for a king\"; \"king of ashes\")",
+      "slug": "king",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/king.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 389
+    },
+    {
+      "raw_name": "Prince (vision — \"the prince that was promised\"; dying prince with rubies)",
+      "slug": "prince",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/prince.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 390
+    },
+    {
+      "raw_name": "Khal (Dany references: \"some places even a khal must walk alone\")",
+      "slug": "khal",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/khal.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 391
+    },
+    {
+      "raw_name": "Ser (Jorah's title)",
+      "slug": "ser",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/ser.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 392
+    },
+    {
+      "raw_name": "Maegi (Dany refers to Mirri Maz Duur as \"only a maegi\")",
+      "slug": "maegi",
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/maegi.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 393
+    },
+    {
+      "raw_name": "Blood of my blood (Jhogo's address to Dany)",
+      "slug": "blood-of-my-blood",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 394
+    },
+    {
+      "raw_name": "\"Food of forever\" (offered by illusory Undying — unclear if literal or metaphorical)",
+      "slug": "food-of-forever",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 397
+    },
+    {
+      "raw_name": "Lemon tree (outside window in the house with the red door vision)",
+      "slug": "lemon-tree",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 398
+    },
+    {
+      "raw_name": "White lion (vision — running through tall grass)",
+      "slug": "white-lion",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 399
+    },
+    {
+      "raw_name": "Ten thousand slaves (vision — crying \"Mother!\")",
+      "slug": "ten-thousand-slaves",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 400
+    }
+  ]
+}

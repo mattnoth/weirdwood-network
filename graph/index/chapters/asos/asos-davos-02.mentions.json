@@ -1,0 +1,628 @@
+{
+  "chapter_id": "asos-davos-02",
+  "book": "asos",
+  "pov_character": "davos",
+  "generated_at": "2026-05-07T02:06:34.411543+00:00",
+  "extraction_path": "extractions/mechanical/asos/asos-davos-02.extraction.md",
+  "stats": {
+    "total_mentions": 68,
+    "resolved_to_node": 54,
+    "direct": 54,
+    "alias": 0,
+    "unresolved": 14
+  },
+  "mentions": [
+    {
+      "raw_name": "Davos Seaworth",
+      "slug": "davos-seaworth",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/davos-seaworth.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Khorane Sathmantes",
+      "slug": "khorane-sathmantes",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/khorane-sathmantes.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Salladhor Saan",
+      "slug": "salladhor-saan",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/salladhor-saan.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Meizo Mahr",
+      "slug": "meizo-mahr",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meizo-mahr.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Edric Storm",
+      "slug": "edric-storm",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/edric-storm.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Shireen Baratheon",
+      "slug": "shireen-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/shireen-baratheon.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Patchface",
+      "slug": "patchface",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/patchface.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Ser Axell Florent",
+      "slug": "axell-florent",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/axell-florent.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Unnamed crossbowman",
+      "slug": "unnamed-crossbowman",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Two unnamed eunuchs",
+      "slug": "two-unnamed-eunuchs",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "Davos Seaworth",
+      "slug": "davos-seaworth",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/davos-seaworth.node.md",
+      "section": "Character Appearances",
+      "line": 41
+    },
+    {
+      "raw_name": "Khorane Sathmantes",
+      "slug": "khorane-sathmantes",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/khorane-sathmantes.node.md",
+      "section": "Character Appearances",
+      "line": 42
+    },
+    {
+      "raw_name": "Salladhor Saan",
+      "slug": "salladhor-saan",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/salladhor-saan.node.md",
+      "section": "Character Appearances",
+      "line": 43
+    },
+    {
+      "raw_name": "Edric Storm",
+      "slug": "edric-storm",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/edric-storm.node.md",
+      "section": "Character Appearances",
+      "line": 44
+    },
+    {
+      "raw_name": "Ser Axell Florent",
+      "slug": "axell-florent",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/axell-florent.node.md",
+      "section": "Character Appearances",
+      "line": 45
+    },
+    {
+      "raw_name": "Patchface",
+      "slug": "patchface",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/patchface.node.md",
+      "section": "Character Appearances",
+      "line": 46
+    },
+    {
+      "raw_name": "Melisandre",
+      "slug": "melisandre",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/melisandre.node.md",
+      "section": "Characters Referenced",
+      "line": 51
+    },
+    {
+      "raw_name": "Stannis Baratheon",
+      "slug": "stannis-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stannis-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 52
+    },
+    {
+      "raw_name": "Queen Selyse",
+      "slug": "queen-selyse",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 53
+    },
+    {
+      "raw_name": "Lord Alester Florent",
+      "slug": "alester-florent",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alester-florent.node.md",
+      "section": "Characters Referenced",
+      "line": 54
+    },
+    {
+      "raw_name": "Dale Seaworth",
+      "slug": "dale-seaworth",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dale-seaworth.node.md",
+      "section": "Characters Referenced",
+      "line": 55
+    },
+    {
+      "raw_name": "Allard Seaworth",
+      "slug": "allard-seaworth",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/allard-seaworth.node.md",
+      "section": "Characters Referenced",
+      "line": 56
+    },
+    {
+      "raw_name": "Devan Seaworth",
+      "slug": "devan-seaworth",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/devan-seaworth.node.md",
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "Renly Baratheon",
+      "slug": "renly-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/renly-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "Robert Baratheon",
+      "slug": "robert-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robert-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "Lord Sunglass",
+      "slug": "lord-sunglass",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lord-sunglass.node.md",
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "Hubard Rambton's sons",
+      "slug": "hubard-rambtons-sons",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 61
+    },
+    {
+      "raw_name": "Maester Cressen",
+      "slug": "cressen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cressen.node.md",
+      "section": "Characters Referenced",
+      "line": 62
+    },
+    {
+      "raw_name": "Cortnay Penrose",
+      "slug": "cortnay-penrose",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cortnay-penrose.node.md",
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "Ser Tristimun",
+      "slug": "tristimun",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tristimun.node.md",
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "Aerys Targaryen",
+      "slug": "aerys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aerys-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 65
+    },
+    {
+      "raw_name": "Lord Tyrell",
+      "slug": "lord-tyrell",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "Illyrio Mopatis",
+      "slug": "illyrio-mopatis",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/illyrio-mopatis.node.md",
+      "section": "Characters Referenced",
+      "line": 67
+    },
+    {
+      "raw_name": "Jate Blackberry",
+      "slug": "jate-blackberry",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jate-blackberry.node.md",
+      "section": "Characters Referenced",
+      "line": 68
+    },
+    {
+      "raw_name": "Lord Chyttering",
+      "slug": "lord-chyttering",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 69
+    },
+    {
+      "raw_name": "Hookface Will",
+      "slug": "hookface-will",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hookface-will.node.md",
+      "section": "Characters Referenced",
+      "line": 70
+    },
+    {
+      "raw_name": "Hal the Hog",
+      "slug": "hal-the-hog",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hal-the-hog.node.md",
+      "section": "Characters Referenced",
+      "line": 71
+    },
+    {
+      "raw_name": "Davos's wife",
+      "slug": "davoss-wife",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 72
+    },
+    {
+      "raw_name": "The Mother (deity)",
+      "slug": "mother",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/mother.node.md",
+      "section": "Characters Referenced",
+      "line": 73
+    },
+    {
+      "raw_name": "Dragonstone (island/castle)",
+      "slug": "dragonstone",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dragonstone.node.md",
+      "section": "Locations",
+      "line": 78
+    },
+    {
+      "raw_name": "Blackwater Bay",
+      "slug": "blackwater-bay",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/blackwater-bay.node.md",
+      "section": "Locations",
+      "line": 79
+    },
+    {
+      "raw_name": "The Gullet",
+      "slug": "gullet",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/gullet.node.md",
+      "section": "Locations",
+      "line": 80
+    },
+    {
+      "raw_name": "Driftmark",
+      "slug": "driftmark",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/driftmark.node.md",
+      "section": "Locations",
+      "line": 81
+    },
+    {
+      "raw_name": "Sharp Point",
+      "slug": "sharp-point",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sharp-point.node.md",
+      "section": "Locations",
+      "line": 82
+    },
+    {
+      "raw_name": "Massey's Hook",
+      "slug": "masseys-hook",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/masseys-hook.node.md",
+      "section": "Locations",
+      "line": 83
+    },
+    {
+      "raw_name": "Dragonstone harbor",
+      "slug": "dragonstone-harbor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 84
+    },
+    {
+      "raw_name": "Bountiful Harvest (ship)",
+      "slug": "bountiful-harvest",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/bountiful-harvest.node.md",
+      "section": "Locations",
+      "line": 85
+    },
+    {
+      "raw_name": "Shayala's Dance (ship)",
+      "slug": "shayalas-dance",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/shayalas-dance.node.md",
+      "section": "Locations",
+      "line": 86
+    },
+    {
+      "raw_name": "Valyrian (ship)",
+      "slug": "valyrian",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/valyrian.node.md",
+      "section": "Locations",
+      "line": 87
+    },
+    {
+      "raw_name": "Aegon's Garden",
+      "slug": "aegons-garden",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/aegons-garden.node.md",
+      "section": "Locations",
+      "line": 88
+    },
+    {
+      "raw_name": "Stone Drum",
+      "slug": "stone-drum",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/stone-drum.node.md",
+      "section": "Locations",
+      "line": 89
+    },
+    {
+      "raw_name": "The Dragon's Tail",
+      "slug": "the-dragons-tail",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 90
+    },
+    {
+      "raw_name": "Storm's End",
+      "slug": "storms-end",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/storms-end.node.md",
+      "section": "Locations",
+      "line": 91
+    },
+    {
+      "raw_name": "Cape Wrath",
+      "slug": "cape-wrath",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/cape-wrath.node.md",
+      "section": "Locations",
+      "line": 92
+    },
+    {
+      "raw_name": "Pentos",
+      "slug": "pentos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pentos.node.md",
+      "section": "Locations",
+      "line": 93
+    },
+    {
+      "raw_name": "Braavos",
+      "slug": "braavos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/braavos.node.md",
+      "section": "Locations",
+      "line": 94
+    },
+    {
+      "raw_name": "Myr",
+      "slug": "myr",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/myr.node.md",
+      "section": "Locations",
+      "line": 95
+    },
+    {
+      "raw_name": "Volantis",
+      "slug": "volantis",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/volantis.node.md",
+      "section": "Locations",
+      "line": 96
+    },
+    {
+      "raw_name": "Lys",
+      "slug": "lys",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lys.node.md",
+      "section": "Locations",
+      "line": 97
+    },
+    {
+      "raw_name": "Dragonstone (island/castle)",
+      "slug": "dragonstone",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dragonstone.node.md",
+      "section": "Location Descriptions",
+      "line": 102
+    },
+    {
+      "raw_name": "Dragonstone harbor",
+      "slug": "dragonstone-harbor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 103
+    },
+    {
+      "raw_name": "Aegon's Garden",
+      "slug": "aegons-garden",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/aegons-garden.node.md",
+      "section": "Location Descriptions",
+      "line": 104
+    },
+    {
+      "raw_name": "Bountiful Harvest (ship/cabin)",
+      "slug": "bountiful-harvest",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/bountiful-harvest.node.md",
+      "section": "Location Descriptions",
+      "line": 105
+    },
+    {
+      "raw_name": "Lysene dirk",
+      "slug": "lysene-dirk",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 110
+    },
+    {
+      "raw_name": "Davos's bag of fingerbones",
+      "slug": "davoss-bag-of-fingerbones",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 111
+    },
+    {
+      "raw_name": "Parchment from Lord Alester Florent",
+      "slug": "parchment-from-lord-alester-florent",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 112
+    },
+    {
+      "raw_name": "Robert's warhammer (small)",
+      "slug": "roberts-warhammer",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/roberts-warhammer.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 113
+    },
+    {
+      "raw_name": "Patchface's antlered tin helmet",
+      "slug": "patchfaces-antlered-tin-helmet",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 114
+    }
+  ]
+}

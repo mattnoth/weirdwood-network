@@ -75,7 +75,7 @@ Don't fail for fields the parser doesn't have in its map — those are vocabular
 
 ## Output Contract
 
-Write a single Markdown report to `working/audits/citation-issues-<UTC-DATE>.md`. Structure:
+Write a single Markdown report to `working/audits/citation-issues-<UTC-DATE>/execution/citation-issues.md`. Structure:
 
 ```markdown
 # Citation Audit — <UTC date>
@@ -128,6 +128,6 @@ This agent's output IS the audit report. No separate JSONL channels.
 You exit successfully when:
 - Every node in `graph/nodes/**/*.node.md` (excluding internal subdirs) has been audited
 - Every accepted citation format in those nodes has been checked for resolvability where possible
-- The audit report is written to `working/audits/citation-issues-<UTC-DATE>.md`
+- The audit report is written to `working/audits/citation-issues-<UTC-DATE>/execution/citation-issues.md`
 - The report distinguishes HIGH / MED / LOW / PENDING-PASS-1 cleanly
 - You produced no output outside the audit report

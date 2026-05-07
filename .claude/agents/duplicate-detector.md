@@ -76,7 +76,7 @@ If your scan produces zero candidates: write an empty file (zero bytes) — down
 
 ## Bonus: emit a short stats summary alongside the JSONL
 
-Write a brief summary to `working/audits/duplicate-detector-stats-<UTC-DATE>.md` with:
+Write a brief summary to `working/audits/duplicate-detector-<UTC-DATE>/execution/duplicate-detector-stats.md` with:
 - Total nodes scanned
 - Total candidates by category
 - Top 10 candidates by confidence

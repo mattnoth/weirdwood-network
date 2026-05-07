@@ -1,0 +1,1213 @@
+{
+  "chapter_id": "adwd-prologue",
+  "book": "adwd",
+  "pov_character": "adwd-prologue",
+  "generated_at": "2026-05-07T02:06:34.511039+00:00",
+  "extraction_path": "extractions/mechanical/adwd/adwd-prologue.extraction.md",
+  "stats": {
+    "total_mentions": 133,
+    "resolved_to_node": 64,
+    "direct": 61,
+    "alias": 3,
+    "unresolved": 69
+  },
+  "mentions": [
+    {
+      "raw_name": "Varamyr Sixskins",
+      "slug": "varamyr",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/varamyr.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Thistle",
+      "slug": "thistle",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/thistle.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "One Eye",
+      "slug": "one-eye",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/one-eye.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Stalker",
+      "slug": "stalker",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stalker.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Sly",
+      "slug": "sly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sly.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Haggon",
+      "slug": "haggon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/haggon.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Varamyr's father",
+      "slug": "varamyrs-father",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Varamyr's mother",
+      "slug": "varamyrs-mother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Bump",
+      "slug": "bump",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bump.node.md",
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Meha",
+      "slug": "meha",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meha.node.md",
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "Varamyr Sixskins",
+      "slug": "varamyr",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/varamyr.node.md",
+      "section": "Character Appearances",
+      "line": 41
+    },
+    {
+      "raw_name": "Thistle",
+      "slug": "thistle",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/thistle.node.md",
+      "section": "Character Appearances",
+      "line": 42
+    },
+    {
+      "raw_name": "One Eye",
+      "slug": "one-eye",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/one-eye.node.md",
+      "section": "Character Appearances",
+      "line": 43
+    },
+    {
+      "raw_name": "Haggon",
+      "slug": "haggon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/haggon.node.md",
+      "section": "Character Appearances",
+      "line": 44
+    },
+    {
+      "raw_name": "Wight-Thistle",
+      "slug": "wight-thistle",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 45
+    },
+    {
+      "raw_name": "Mance Rayder",
+      "slug": "mance-rayder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mance-rayder.node.md",
+      "section": "Characters Referenced",
+      "line": 50
+    },
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Characters Referenced",
+      "line": 51
+    },
+    {
+      "raw_name": "Orell",
+      "slug": "orell",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/orell.node.md",
+      "section": "Characters Referenced",
+      "line": 52
+    },
+    {
+      "raw_name": "Harma",
+      "slug": "harma",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 53
+    },
+    {
+      "raw_name": "Tormund",
+      "slug": "tormund",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tormund.node.md",
+      "section": "Characters Referenced",
+      "line": 54
+    },
+    {
+      "raw_name": "The Weeper",
+      "slug": "weeper",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/weeper.node.md",
+      "section": "Characters Referenced",
+      "line": 55
+    },
+    {
+      "raw_name": "Mother Mole",
+      "slug": "mother-mole",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mother-mole.node.md",
+      "section": "Characters Referenced",
+      "line": 56
+    },
+    {
+      "raw_name": "Borroq",
+      "slug": "borroq",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/borroq.node.md",
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "Briar",
+      "slug": "briar",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/briar.node.md",
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "Grisella",
+      "slug": "grisella",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/grisella.node.md",
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "The twins",
+      "slug": "twins",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/twins.node.md",
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "The big man with the scarred face",
+      "slug": "the-big-man-with-the-scarred-face",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 61
+    },
+    {
+      "raw_name": "The youth with the red hair",
+      "slug": "the-youth-with-the-red-hair",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 62
+    },
+    {
+      "raw_name": "A rider on a gaunt white horse",
+      "slug": "a-rider-on-a-gaunt-white-horse",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "A dour warrior in fur and amber",
+      "slug": "a-dour-warrior-in-fur-and-amber",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "Abandoned wildling village beyond the Wall",
+      "slug": "abandoned-wildling-village-beyond-the-wall",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 69
+    },
+    {
+      "raw_name": "Varamyr's one-room hut",
+      "slug": "varamyrs-one-room-hut",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 70
+    },
+    {
+      "raw_name": "The forest beyond the Wall",
+      "slug": "the-forest-beyond-the-wall",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 71
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Locations",
+      "line": 72
+    },
+    {
+      "raw_name": "Milkwater",
+      "slug": "milkwater",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/milkwater.node.md",
+      "section": "Locations",
+      "line": 73
+    },
+    {
+      "raw_name": "Hardhome",
+      "slug": "hardhome",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/hardhome.node.md",
+      "section": "Locations",
+      "line": 74
+    },
+    {
+      "raw_name": "Shadow Tower",
+      "slug": "shadow-tower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/shadow-tower.node.md",
+      "section": "Locations",
+      "line": 75
+    },
+    {
+      "raw_name": "Bridge of Skulls",
+      "slug": "bridge-of-skulls",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bridge-of-skulls.node.md",
+      "section": "Locations",
+      "line": 76
+    },
+    {
+      "raw_name": "Valley of the Thenns",
+      "slug": "valley-of-the-thenns",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 77
+    },
+    {
+      "raw_name": "Eastwatch-by-the-Sea",
+      "slug": "eastwatch-by-the-sea",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/eastwatch-by-the-sea.node.md",
+      "section": "Locations",
+      "line": 78
+    },
+    {
+      "raw_name": "Castle Black",
+      "slug": "castle-black",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/castle-black.node.md",
+      "section": "Locations",
+      "line": 79
+    },
+    {
+      "raw_name": "Haggon's hall",
+      "slug": "haggons-hall",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 80
+    },
+    {
+      "raw_name": "A hovel by the sea",
+      "slug": "a-hovel-by-the-sea",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 81
+    },
+    {
+      "raw_name": "Varamyr's hut",
+      "slug": "varamyrs-hut",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 86
+    },
+    {
+      "raw_name": "Abandoned village",
+      "slug": "abandoned-village",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 87
+    },
+    {
+      "raw_name": "Haggon's hall (Varamyr's lordship)",
+      "slug": "haggons-hall",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 88
+    },
+    {
+      "raw_name": "Bone knife (long)",
+      "slug": "bone-knife",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 93
+    },
+    {
+      "raw_name": "Varamyr's golden arm rings",
+      "slug": "varamyrs-golden-arm-rings",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 94
+    },
+    {
+      "raw_name": "Squirrel-skin cloak",
+      "slug": "squirrel-skin-cloak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 95
+    },
+    {
+      "raw_name": "Bone needle",
+      "slug": "bone-needle",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 96
+    },
+    {
+      "raw_name": "Haggon's axe (Varamyr's father's axe)",
+      "slug": "haggons-axe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 97
+    },
+    {
+      "raw_name": "Weirwood tree (village)",
+      "slug": "weirwood-tree",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 98
+    },
+    {
+      "raw_name": "Varamyr Sixskins (also: Varamyr, Varamyr Threeskins, Lump, \"Haggon\" as alias)",
+      "slug": "varamyr",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/varamyr.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 228
+    },
+    {
+      "raw_name": "Thistle",
+      "slug": "thistle",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/thistle.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 229
+    },
+    {
+      "raw_name": "One Eye (wolf)",
+      "slug": "one-eye",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/one-eye.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 230
+    },
+    {
+      "raw_name": "Stalker (wolf)",
+      "slug": "stalker",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stalker.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 231
+    },
+    {
+      "raw_name": "Sly (wolf)",
+      "slug": "sly",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sly.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 232
+    },
+    {
+      "raw_name": "Haggon",
+      "slug": "haggon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/haggon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 233
+    },
+    {
+      "raw_name": "Bump (Varamyr's brother, dead)",
+      "slug": "bump",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bump.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 234
+    },
+    {
+      "raw_name": "Meha (Varamyr's sister)",
+      "slug": "meha",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meha.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 235
+    },
+    {
+      "raw_name": "Varamyr's father (unnamed)",
+      "slug": "varamyrs-father",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 236
+    },
+    {
+      "raw_name": "Varamyr's mother (unnamed)",
+      "slug": "varamyrs-mother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 237
+    },
+    {
+      "raw_name": "Mance Rayder",
+      "slug": "mance-rayder",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mance-rayder.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 238
+    },
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 239
+    },
+    {
+      "raw_name": "Orell",
+      "slug": "orell",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/orell.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 240
+    },
+    {
+      "raw_name": "Harma (dead)",
+      "slug": "harma",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 241
+    },
+    {
+      "raw_name": "Tormund",
+      "slug": "tormund",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tormund.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 242
+    },
+    {
+      "raw_name": "The Weeper",
+      "slug": "weeper",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/weeper.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 243
+    },
+    {
+      "raw_name": "Mother Mole",
+      "slug": "mother-mole",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mother-mole.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 244
+    },
+    {
+      "raw_name": "Borroq",
+      "slug": "borroq",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/borroq.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 245
+    },
+    {
+      "raw_name": "Briar",
+      "slug": "briar",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/briar.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 246
+    },
+    {
+      "raw_name": "Grisella (the goat woman)",
+      "slug": "grisella",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/grisella.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 247
+    },
+    {
+      "raw_name": "Greyskin (Haggon's wolf, dead)",
+      "slug": "greyskin",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/greyskin.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 248
+    },
+    {
+      "raw_name": "Loptail (dog, dead)",
+      "slug": "loptail",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/loptail.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 249
+    },
+    {
+      "raw_name": "Sniff (dog, dead)",
+      "slug": "sniff",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sniff.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 250
+    },
+    {
+      "raw_name": "The Growler (dog, dead)",
+      "slug": "growler",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/growler.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 251
+    },
+    {
+      "raw_name": "The unnamed sleeping direwolf (glimpsed during spirit passage)",
+      "slug": "the-unnamed-sleeping-direwolf",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 252
+    },
+    {
+      "raw_name": "Varamyr's shadowcat (fled)",
+      "slug": "varamyrs-shadowcat",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 253
+    },
+    {
+      "raw_name": "Varamyr's snow bear (dead)",
+      "slug": "varamyrs-snow-bear",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 254
+    },
+    {
+      "raw_name": "Varamyr's eagle (Orell's eagle, dead)",
+      "slug": "varamyrs-eagle",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 255
+    },
+    {
+      "raw_name": "The boy who stabbed Varamyr (unnamed)",
+      "slug": "the-boy-who-stabbed-varamyr",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 256
+    },
+    {
+      "raw_name": "The rider on the gaunt white horse (unnamed)",
+      "slug": "the-rider-on-the-gaunt-white-horse",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 257
+    },
+    {
+      "raw_name": "The dour warrior in fur and amber (unnamed)",
+      "slug": "the-dour-warrior-in-fur-and-amber",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 258
+    },
+    {
+      "raw_name": "The woods witch (at Lump's village, told his mother about Bump)",
+      "slug": "woods-witch",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/woods-witch.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 259
+    },
+    {
+      "raw_name": "Abandoned wildling village (beyond the Wall)",
+      "slug": "abandoned-wildling-village",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 262
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 263
+    },
+    {
+      "raw_name": "Milkwater",
+      "slug": "milkwater",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/milkwater.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 264
+    },
+    {
+      "raw_name": "Hardhome",
+      "slug": "hardhome",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/hardhome.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 265
+    },
+    {
+      "raw_name": "Shadow Tower",
+      "slug": "shadow-tower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/shadow-tower.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 266
+    },
+    {
+      "raw_name": "Bridge of Skulls",
+      "slug": "bridge-of-skulls",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bridge-of-skulls.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 267
+    },
+    {
+      "raw_name": "Valley of the Thenns",
+      "slug": "valley-of-the-thenns",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 268
+    },
+    {
+      "raw_name": "Eastwatch-by-the-Sea",
+      "slug": "eastwatch-by-the-sea",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/eastwatch-by-the-sea.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 269
+    },
+    {
+      "raw_name": "Castle Black",
+      "slug": "castle-black",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/castle-black.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 270
+    },
+    {
+      "raw_name": "Haggon's hall (moss, mud, hewn logs)",
+      "slug": "haggons-hall",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 271
+    },
+    {
+      "raw_name": "The hovel by the sea (Varamyr's childhood home)",
+      "slug": "the-hovel-by-the-sea",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 272
+    },
+    {
+      "raw_name": "The warm lands south of the Wall (referenced in song/longing)",
+      "slug": "the-warm-lands-south-of-the-wall",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 273
+    },
+    {
+      "raw_name": "Night's Watch (\"black-cloaked crows,\" \"the crows\")",
+      "slug": "nights-watch",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/nights-watch.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 279
+    },
+    {
+      "raw_name": "Free folk / wildlings (the collective people beyond the Wall)",
+      "slug": "free-folk-wildlings",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 280
+    },
+    {
+      "raw_name": "Hornfoot men (mentioned as savages who killed the woman)",
+      "slug": "hornfoot-men",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 281
+    },
+    {
+      "raw_name": "The nameless gods of wood and hill and field (Varamyr prays to them)",
+      "slug": "the-nameless-gods-of-wood-and-hill-and-field",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 284
+    },
+    {
+      "raw_name": "The Old Gods (implied — weirwood with carved red eyes; \"the gods are all around us, in the rocks and streams, in the birds and beasts\")",
+      "slug": "the-old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 285
+    },
+    {
+      "raw_name": "Free folk / wildlings",
+      "slug": "free-folk-wildlings",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 288
+    },
+    {
+      "raw_name": "Thenns",
+      "slug": "thenns",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/thenns.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 289
+    },
+    {
+      "raw_name": "Hornfoot men (with savage reputation)",
+      "slug": "hornfoot-men",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 290
+    },
+    {
+      "raw_name": "Cave-dwellers (with filed teeth)",
+      "slug": "cave-dwellers",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/cave-dwellers.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 291
+    },
+    {
+      "raw_name": "Men of the western shore (with chariots of bone)",
+      "slug": "men-of-the-western-shore",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 292
+    },
+    {
+      "raw_name": "Giants (referenced: \"The Thenns, giants, and the Hornfoot men\")",
+      "slug": "giants",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/giants.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 293
+    },
+    {
+      "raw_name": "Kneelers (southerners, referenced by Haggon)",
+      "slug": "kneelers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 294
+    },
+    {
+      "raw_name": "Bone knife (long, used by the boy)",
+      "slug": "bone-knife",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 297
+    },
+    {
+      "raw_name": "Bone needle (Thistle's)",
+      "slug": "bone-needle",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 298
+    },
+    {
+      "raw_name": "Golden arm rings (Mance's gift to Varamyr, lost)",
+      "slug": "golden-arm-rings",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 299
+    },
+    {
+      "raw_name": "Squirrel-skin cloak (fought over)",
+      "slug": "squirrel-skin-cloak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 300
+    },
+    {
+      "raw_name": "Copper kettle (traded at Eastwatch)",
+      "slug": "copper-kettle",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 301
+    },
+    {
+      "raw_name": "Strings of amber (Haggon's trade goods)",
+      "slug": "strings-of-amber",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 302
+    },
+    {
+      "raw_name": "A sled piled high with pelts (Haggon's trade goods)",
+      "slug": "a-sled-piled-high-with-pelts",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 303
+    },
+    {
+      "raw_name": "Block of salt (traded at Eastwatch)",
+      "slug": "block-of-salt",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 304
+    },
+    {
+      "raw_name": "Six skins of wine (traded at Eastwatch)",
+      "slug": "six-skins-of-wine",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 305
+    },
+    {
+      "raw_name": "Weirwood branch (used as crutch)",
+      "slug": "weirwood-branch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 306
+    },
+    {
+      "raw_name": "Spear (killed the snow bear)",
+      "slug": "spear",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 307
+    },
+    {
+      "raw_name": "Hanks of hair (Varamyr's trophies from women)",
+      "slug": "hanks-of-hair",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 308
+    },
+    {
+      "raw_name": "Warging / skinchanging (central to the chapter; detailed rules and lore)",
+      "slug": "warging-skinchanging",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 314
+    },
+    {
+      "raw_name": "The three abominations: eating human flesh, mating as wolf with wolf, seizing another human's body",
+      "slug": "the-three-abominations-eating-human-flesh-mating-as-wolf-with-wolf-seizing-another-humans-body",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 315
+    },
+    {
+      "raw_name": "The second life (spirit entering bonded beast at death; memory fades over time)",
+      "slug": "the-second-life",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 316
+    },
+    {
+      "raw_name": "One skinchanger sensing another",
+      "slug": "one-skinchanger-sensing-another",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 317
+    },
+    {
+      "raw_name": "Spirit dissolution at death (passing through weirwood, into nature — owl, hare, trees, earthworms, ravens, elk, direwolf)",
+      "slug": "spirit-dissolution-at-death",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 318
+    },
+    {
+      "raw_name": "Wights / reanimation by the Others (blue-eyed dead rising)",
+      "slug": "wights-reanimation-by-the-others",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 319
+    },
+    {
+      "raw_name": "The Others (implied — \"the enemy was coming\"; blue-eyed wights are their creation)",
+      "slug": "others",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/others.node.md",
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 320
+    },
+    {
+      "raw_name": "Greensight/weirwood vision (Varamyr briefly sees through the weirwood's carved eyes)",
+      "slug": "greensight-weirwood-vision",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 321
+    },
+    {
+      "raw_name": "Mother Mole's prophetic vision (fleet of ships)",
+      "slug": "mother-moles-prophetic-vision",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 322
+    },
+    {
+      "raw_name": "Battle at the Wall (Mance Rayder's assault, defeated by knights in grey steel)",
+      "slug": "battle-at-the-wall",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 325
+    },
+    {
+      "raw_name": "The broader conflict between free folk and Night's Watch",
+      "slug": "the-broader-conflict-between-free-folk-and-nights-watch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 326
+    },
+    {
+      "raw_name": "King-Beyond-the-Wall (Mance Rayder's title; young Lump dreamed of holding it)",
+      "slug": "king-beyond-the-wall",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/king-beyond-the-wall.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 329
+    },
+    {
+      "raw_name": "The Others / White Walkers (implied as \"the enemy\"; creators of the wights; not directly named but their blue-eyed dead are shown)",
+      "slug": "the-others-white-walkers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 332
+    }
+  ]
+}

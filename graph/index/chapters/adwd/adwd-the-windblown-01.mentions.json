@@ -1,0 +1,1474 @@
+{
+  "chapter_id": "adwd-the-windblown-01",
+  "book": "adwd",
+  "pov_character": "the-windblown",
+  "generated_at": "2026-05-07T02:06:34.529712+00:00",
+  "extraction_path": "extractions/mechanical/adwd/adwd-the-windblown-01.extraction.md",
+  "stats": {
+    "total_mentions": 162,
+    "resolved_to_node": 116,
+    "direct": 101,
+    "alias": 15,
+    "unresolved": 46
+  },
+  "mentions": [
+    {
+      "raw_name": "Quentyn Martell (Frog)",
+      "slug": "quentyn-martell",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/quentyn-martell.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Gerris Drinkwater (Dornish Gerrold / Drink)",
+      "slug": "gerris-drinkwater",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gerris-drinkwater.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Archibald Yronwood (Greenguts / the big man)",
+      "slug": "archibald-yronwood",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/archibald-yronwood.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "The Tattered Prince",
+      "slug": "tattered-prince",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tattered-prince.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Baqq (Beans)",
+      "slug": "baqq",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Books",
+      "slug": "books",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/books.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Dick Straw",
+      "slug": "dick-straw",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dick-straw.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Old Bill Bone",
+      "slug": "old-bill-bone",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/old-bill-bone.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Hugh Hungerford",
+      "slug": "hugh-hungerford",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hugh-hungerford.node.md",
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Pretty Meris",
+      "slug": "pretty-meris",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "Caggo (Corpsekiller)",
+      "slug": "caggo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/caggo.node.md",
+      "section": "Characters Present",
+      "line": 37
+    },
+    {
+      "raw_name": "Denzo D'han",
+      "slug": "denzo-dhan",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/denzo-dhan.node.md",
+      "section": "Characters Present",
+      "line": 38
+    },
+    {
+      "raw_name": "Lewis Lanster",
+      "slug": "lewis-lanster",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lewis-lanster.node.md",
+      "section": "Characters Present",
+      "line": 39
+    },
+    {
+      "raw_name": "Ser Orson Stone",
+      "slug": "orson-stone",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/orson-stone.node.md",
+      "section": "Characters Present",
+      "line": 40
+    },
+    {
+      "raw_name": "Lucifer Long",
+      "slug": "lucifer-long",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lucifer-long.node.md",
+      "section": "Characters Present",
+      "line": 41
+    },
+    {
+      "raw_name": "Will of the Woods",
+      "slug": "will-of-the-woods",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/will-of-the-woods.node.md",
+      "section": "Characters Present",
+      "line": 42
+    },
+    {
+      "raw_name": "Webber",
+      "slug": "webber",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/webber.node.md",
+      "section": "Characters Present",
+      "line": 43
+    },
+    {
+      "raw_name": "The Tattered Prince",
+      "slug": "tattered-prince",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tattered-prince.node.md",
+      "section": "Character Appearances",
+      "line": 48
+    },
+    {
+      "raw_name": "Archibald Yronwood (Greenguts)",
+      "slug": "archibald-yronwood",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/archibald-yronwood.node.md",
+      "section": "Character Appearances",
+      "line": 49
+    },
+    {
+      "raw_name": "Pretty Meris",
+      "slug": "pretty-meris",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 50
+    },
+    {
+      "raw_name": "Hugh Hungerford",
+      "slug": "hugh-hungerford",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hugh-hungerford.node.md",
+      "section": "Character Appearances",
+      "line": 51
+    },
+    {
+      "raw_name": "Caggo",
+      "slug": "caggo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/caggo.node.md",
+      "section": "Character Appearances",
+      "line": 52
+    },
+    {
+      "raw_name": "Baqq (Beans)",
+      "slug": "baqq",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 53
+    },
+    {
+      "raw_name": "Lewis Lanster",
+      "slug": "lewis-lanster",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lewis-lanster.node.md",
+      "section": "Character Appearances",
+      "line": 54
+    },
+    {
+      "raw_name": "The Yellow Whale",
+      "slug": "yezzan-zo-qaggaz",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/yezzan-zo-qaggaz.node.md",
+      "section": "Character Appearances",
+      "line": 55
+    },
+    {
+      "raw_name": "The Girl General",
+      "slug": "malazza",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/malazza.node.md",
+      "section": "Character Appearances",
+      "line": 56
+    },
+    {
+      "raw_name": "The Little Pigeon",
+      "slug": "paezhar-zo-myraq",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/paezhar-zo-myraq.node.md",
+      "section": "Character Appearances",
+      "line": 57
+    },
+    {
+      "raw_name": "The Tattered Prince's warhorse",
+      "slug": "the-tattered-princes-warhorse",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 58
+    },
+    {
+      "raw_name": "Daenerys Targaryen",
+      "slug": "daenerys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "Myrio Myrakis",
+      "slug": "myrio-myrakis",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/myrio-myrakis.node.md",
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "Cleon the Great (the Butcher King)",
+      "slug": "cleon",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cleon.node.md",
+      "section": "Characters Referenced",
+      "line": 65
+    },
+    {
+      "raw_name": "King Aerys II (the Mad King)",
+      "slug": "king-aerys-ii",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "Cletus",
+      "slug": "cletus",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 67
+    },
+    {
+      "raw_name": "Gerrold Redback",
+      "slug": "gerrold-redback",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gerrold-redback.node.md",
+      "section": "Characters Referenced",
+      "line": 68
+    },
+    {
+      "raw_name": "Black Gerrold",
+      "slug": "black-gerrold",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/black-gerrold.node.md",
+      "section": "Characters Referenced",
+      "line": 69
+    },
+    {
+      "raw_name": "Bloodbeard",
+      "slug": "bloodbeard",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bloodbeard.node.md",
+      "section": "Characters Referenced",
+      "line": 70
+    },
+    {
+      "raw_name": "Yurkhaz zo Yunzak",
+      "slug": "yurkhaz-zo-yunzak",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/yurkhaz-zo-yunzak.node.md",
+      "section": "Characters Referenced",
+      "line": 71
+    },
+    {
+      "raw_name": "Prince Doran",
+      "slug": "prince-doran",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 72
+    },
+    {
+      "raw_name": "Second King Cleon",
+      "slug": "second-king-cleon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 73
+    },
+    {
+      "raw_name": "The Stormcrows",
+      "slug": "stormcrows",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/stormcrows.node.md",
+      "section": "Characters Referenced",
+      "line": 74
+    },
+    {
+      "raw_name": "The Second Sons",
+      "slug": "second-sons",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/second-sons.node.md",
+      "section": "Characters Referenced",
+      "line": 75
+    },
+    {
+      "raw_name": "Astapor",
+      "slug": "astapor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/astapor.node.md",
+      "section": "Locations",
+      "line": 80
+    },
+    {
+      "raw_name": "Yunkai (the Yellow City)",
+      "slug": "yunkai",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/yunkai.node.md",
+      "section": "Locations",
+      "line": 81
+    },
+    {
+      "raw_name": "Meereen",
+      "slug": "meereen",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/meereen.node.md",
+      "section": "Locations",
+      "line": 82
+    },
+    {
+      "raw_name": "Slaver's Bay",
+      "slug": "slavers-bay",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/slavers-bay.node.md",
+      "section": "Locations",
+      "line": 83
+    },
+    {
+      "raw_name": "The coast road (old Ghiscari coast road)",
+      "slug": "the-coast-road",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 84
+    },
+    {
+      "raw_name": "Volantis",
+      "slug": "volantis",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/volantis.node.md",
+      "section": "Locations",
+      "line": 85
+    },
+    {
+      "raw_name": "Dorne",
+      "slug": "dorne",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dorne.node.md",
+      "section": "Locations",
+      "line": 86
+    },
+    {
+      "raw_name": "Pentos",
+      "slug": "pentos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pentos.node.md",
+      "section": "Locations",
+      "line": 87
+    },
+    {
+      "raw_name": "The Disputed Lands",
+      "slug": "disputed-lands",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/disputed-lands.node.md",
+      "section": "Locations",
+      "line": 88
+    },
+    {
+      "raw_name": "Mantarys",
+      "slug": "mantarys",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/mantarys.node.md",
+      "section": "Locations",
+      "line": 89
+    },
+    {
+      "raw_name": "Old Ghis",
+      "slug": "old-ghis",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/old-ghis.node.md",
+      "section": "Locations",
+      "line": 90
+    },
+    {
+      "raw_name": "The Sorrows",
+      "slug": "sorrows",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sorrows.node.md",
+      "section": "Locations",
+      "line": 91
+    },
+    {
+      "raw_name": "The Merchant's House",
+      "slug": "merchants-house",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/merchants-house.node.md",
+      "section": "Locations",
+      "line": 92
+    },
+    {
+      "raw_name": "Astapor",
+      "slug": "astapor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/astapor.node.md",
+      "section": "Location Descriptions",
+      "line": 97
+    },
+    {
+      "raw_name": "Tattered Prince's command tent",
+      "slug": "tattered-princes-command-tent",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 98
+    },
+    {
+      "raw_name": "Caggo's Valyrian arakh",
+      "slug": "caggos-valyrian-arakh",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 103
+    },
+    {
+      "raw_name": "The Tattered Prince's cloak",
+      "slug": "the-tattered-princes-cloak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 104
+    },
+    {
+      "raw_name": "Windblown banners",
+      "slug": "windblown-banners",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 105
+    },
+    {
+      "raw_name": "Company steel (armor)",
+      "slug": "company-steel",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 106
+    },
+    {
+      "raw_name": "Dead Cleon's copper scale armor",
+      "slug": "dead-cleons-copper-scale-armor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 107
+    },
+    {
+      "raw_name": "Quentyn Martell (Frog)",
+      "slug": "quentyn-martell",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/quentyn-martell.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 225
+    },
+    {
+      "raw_name": "Gerris Drinkwater (Dornish Gerrold, Drink)",
+      "slug": "gerris-drinkwater",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gerris-drinkwater.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 226
+    },
+    {
+      "raw_name": "Archibald Yronwood (Greenguts, the big man)",
+      "slug": "archibald-yronwood",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/archibald-yronwood.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 227
+    },
+    {
+      "raw_name": "The Tattered Prince",
+      "slug": "tattered-prince",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tattered-prince.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 228
+    },
+    {
+      "raw_name": "Baqq (Beans)",
+      "slug": "baqq",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 229
+    },
+    {
+      "raw_name": "Books",
+      "slug": "books",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/books.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 230
+    },
+    {
+      "raw_name": "Dick Straw",
+      "slug": "dick-straw",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dick-straw.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 231
+    },
+    {
+      "raw_name": "Old Bill Bone",
+      "slug": "old-bill-bone",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/old-bill-bone.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 232
+    },
+    {
+      "raw_name": "Hugh Hungerford",
+      "slug": "hugh-hungerford",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hugh-hungerford.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 233
+    },
+    {
+      "raw_name": "Pretty Meris",
+      "slug": "pretty-meris",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 234
+    },
+    {
+      "raw_name": "Caggo (Corpsekiller)",
+      "slug": "caggo",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/caggo.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 235
+    },
+    {
+      "raw_name": "Denzo D'han",
+      "slug": "denzo-dhan",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/denzo-dhan.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 236
+    },
+    {
+      "raw_name": "Lewis Lanster",
+      "slug": "lewis-lanster",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lewis-lanster.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 237
+    },
+    {
+      "raw_name": "Ser Orson Stone",
+      "slug": "orson-stone",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/orson-stone.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 238
+    },
+    {
+      "raw_name": "Lucifer Long",
+      "slug": "lucifer-long",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lucifer-long.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 239
+    },
+    {
+      "raw_name": "Will of the Woods",
+      "slug": "will-of-the-woods",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/will-of-the-woods.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 240
+    },
+    {
+      "raw_name": "Webber",
+      "slug": "webber",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/webber.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 241
+    },
+    {
+      "raw_name": "Myrio Myrakis",
+      "slug": "myrio-myrakis",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/myrio-myrakis.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 242
+    },
+    {
+      "raw_name": "Yurkhaz zo Yunzak",
+      "slug": "yurkhaz-zo-yunzak",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/yurkhaz-zo-yunzak.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 243
+    },
+    {
+      "raw_name": "The Yellow Whale",
+      "slug": "yezzan-zo-qaggaz",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/yezzan-zo-qaggaz.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 244
+    },
+    {
+      "raw_name": "The Girl General",
+      "slug": "malazza",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/malazza.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 245
+    },
+    {
+      "raw_name": "The Little Pigeon",
+      "slug": "paezhar-zo-myraq",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/paezhar-zo-myraq.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 246
+    },
+    {
+      "raw_name": "The Clanker Lords (brothers)",
+      "slug": "clanker-lords",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/clanker-lords.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 247
+    },
+    {
+      "raw_name": "Lord Wobblecheeks",
+      "slug": "ghazdor-zo-ahlaq",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ghazdor-zo-ahlaq.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 248
+    },
+    {
+      "raw_name": "The Drunken Conqueror",
+      "slug": "morghaz-zo-zherzyn",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/morghaz-zo-zherzyn.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 249
+    },
+    {
+      "raw_name": "The Beastmaster",
+      "slug": "beastmaster",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/beastmaster.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 250
+    },
+    {
+      "raw_name": "Pudding Face",
+      "slug": "gorzhak-zo-eraz",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gorzhak-zo-eraz.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 251
+    },
+    {
+      "raw_name": "The Rabbit",
+      "slug": "faezhar-zo-faez",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/faezhar-zo-faez.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 252
+    },
+    {
+      "raw_name": "The Charioteer",
+      "slug": "charioteer",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/charioteer.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 253
+    },
+    {
+      "raw_name": "The Perfumed Hero",
+      "slug": "perfumed-hero",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/perfumed-hero.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 254
+    },
+    {
+      "raw_name": "Bloodbeard",
+      "slug": "bloodbeard",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bloodbeard.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 255
+    },
+    {
+      "raw_name": "Daenerys Targaryen",
+      "slug": "daenerys-targaryen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 256
+    },
+    {
+      "raw_name": "Prince Doran",
+      "slug": "prince-doran",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 257
+    },
+    {
+      "raw_name": "King Aerys II (the Mad King)",
+      "slug": "king-aerys-ii",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 258
+    },
+    {
+      "raw_name": "Cleon the Great (the Butcher King, Dead Cleon)",
+      "slug": "cleon",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/cleon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 259
+    },
+    {
+      "raw_name": "Second King Cleon",
+      "slug": "second-king-cleon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 260
+    },
+    {
+      "raw_name": "Cletus",
+      "slug": "cletus",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 261
+    },
+    {
+      "raw_name": "Gerrold Redback",
+      "slug": "gerrold-redback",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gerrold-redback.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 262
+    },
+    {
+      "raw_name": "Black Gerrold",
+      "slug": "black-gerrold",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/black-gerrold.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 263
+    },
+    {
+      "raw_name": "Astapor (the Red City)",
+      "slug": "astapor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/astapor.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 266
+    },
+    {
+      "raw_name": "Yunkai (the Yellow City)",
+      "slug": "yunkai",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/yunkai.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 267
+    },
+    {
+      "raw_name": "Meereen",
+      "slug": "meereen",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/meereen.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 268
+    },
+    {
+      "raw_name": "Slaver's Bay",
+      "slug": "slavers-bay",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/slavers-bay.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 269
+    },
+    {
+      "raw_name": "The old Ghiscari coast road",
+      "slug": "the-old-ghiscari-coast-road",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 270
+    },
+    {
+      "raw_name": "Volantis",
+      "slug": "volantis",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/volantis.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 271
+    },
+    {
+      "raw_name": "Dorne",
+      "slug": "dorne",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dorne.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 272
+    },
+    {
+      "raw_name": "Pentos",
+      "slug": "pentos",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pentos.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 273
+    },
+    {
+      "raw_name": "The Disputed Lands",
+      "slug": "disputed-lands",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/disputed-lands.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 274
+    },
+    {
+      "raw_name": "Mantarys",
+      "slug": "mantarys",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/mantarys.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 275
+    },
+    {
+      "raw_name": "Old Ghis",
+      "slug": "old-ghis",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/old-ghis.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 276
+    },
+    {
+      "raw_name": "The Sorrows",
+      "slug": "sorrows",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sorrows.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 277
+    },
+    {
+      "raw_name": "The Merchant's House (in Volantis)",
+      "slug": "merchants-house",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/merchants-house.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 278
+    },
+    {
+      "raw_name": "Westeros",
+      "slug": "westeros",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/westeros.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 279
+    },
+    {
+      "raw_name": "The Seven Kingdoms",
+      "slug": "seven-kingdoms",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/seven-kingdoms.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 280
+    },
+    {
+      "raw_name": "House Martell (Quentyn is a prince of Dorne)",
+      "slug": "house-martell",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-martell.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 283
+    },
+    {
+      "raw_name": "The Windblown (free company)",
+      "slug": "windblown",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/windblown.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 286
+    },
+    {
+      "raw_name": "The Company of the Cat (Cats)",
+      "slug": "company-of-the-cat",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/company-of-the-cat.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 287
+    },
+    {
+      "raw_name": "The Second Sons",
+      "slug": "second-sons",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/second-sons.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 288
+    },
+    {
+      "raw_name": "The Stormcrows",
+      "slug": "stormcrows",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/stormcrows.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 289
+    },
+    {
+      "raw_name": "The Iron Shields",
+      "slug": "iron-shields",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/iron-shields.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 290
+    },
+    {
+      "raw_name": "The Maiden's Men",
+      "slug": "maidens-men",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/maidens-men.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 291
+    },
+    {
+      "raw_name": "The Long Lances",
+      "slug": "long-lances",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/long-lances.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 292
+    },
+    {
+      "raw_name": "Legion(s) from New Ghis / Old Ghis",
+      "slug": "legion-from-new-ghis-old-ghis",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 293
+    },
+    {
+      "raw_name": "The Unsullied (Daenerys's and Astapor's new Unsullied distinguished)",
+      "slug": "the-unsullied",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 294
+    },
+    {
+      "raw_name": "The Herons (Little Pigeon's slave soldiers)",
+      "slug": "the-herons",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 295
+    },
+    {
+      "raw_name": "The Seven (the Warrior invoked: \"Warrior, make me brave\"; \"Seven save us\")",
+      "slug": "the-seven",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 298
+    },
+    {
+      "raw_name": "Dornish/Dornishmen",
+      "slug": "dornish-dornishmen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 301
+    },
+    {
+      "raw_name": "Myrish (Beans)",
+      "slug": "myrish",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/myrish.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 302
+    },
+    {
+      "raw_name": "Pentoshi (Tattered Prince, Myrio Myrakis)",
+      "slug": "pentoshi",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/pentoshi.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 303
+    },
+    {
+      "raw_name": "Volantene (Books)",
+      "slug": "volantene",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/volantene.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 304
+    },
+    {
+      "raw_name": "Westerosi",
+      "slug": "westerosi",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/westerosi.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 305
+    },
+    {
+      "raw_name": "Ghiscari",
+      "slug": "ghiscari",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/ghiscari.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 306
+    },
+    {
+      "raw_name": "Yunkai'i (Yunkish)",
+      "slug": "yunkaii",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 307
+    },
+    {
+      "raw_name": "Astapori",
+      "slug": "astapori",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/astapori.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 308
+    },
+    {
+      "raw_name": "Dothraki (referenced re: Daenerys)",
+      "slug": "dothraki",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/dothraki.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 309
+    },
+    {
+      "raw_name": "Caggo's curved Valyrian arakh (black)",
+      "slug": "caggos-curved-valyrian-arakh",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 312
+    },
+    {
+      "raw_name": "The Tattered Prince's many-colored cloak (made of strips from slain enemies' surcoats)",
+      "slug": "the-tattered-princes-many-colored-cloak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 313
+    },
+    {
+      "raw_name": "Windblown banners (fork-tailed blue-and-white)",
+      "slug": "windblown-banners",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 314
+    },
+    {
+      "raw_name": "Pale blue silk streamers (on lances)",
+      "slug": "pale-blue-silk-streamers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 315
+    },
+    {
+      "raw_name": "Dead Cleon's copper scale armor",
+      "slug": "dead-cleons-copper-scale-armor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 316
+    },
+    {
+      "raw_name": "Company steel (mismatched, patched armor issued to recruits)",
+      "slug": "company-steel",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 317
+    },
+    {
+      "raw_name": "Spiked bronze helmets (Astapori Unsullied)",
+      "slug": "spiked-bronze-helmets",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 318
+    },
+    {
+      "raw_name": "Pink-enameled scale armor with pointed steel-beaked helms and pink feather crests (the Herons)",
+      "slug": "pink-enameled-scale-armor-with-pointed-steel-beaked-helms-and-pink-feather-crests",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 319
+    },
+    {
+      "raw_name": "Bronze shields with erotic inlays (Girl General's slave soldiers)",
+      "slug": "bronze-shields-with-erotic-inlays",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 320
+    },
+    {
+      "raw_name": "Yurkhaz zo Yunzak's palanquin (requires forty slaves to carry)",
+      "slug": "yurkhaz-zo-yunzaks-palanquin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 321
+    },
+    {
+      "raw_name": "Crumbly scrolls (Books always reading)",
+      "slug": "crumbly-scrolls",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 324
+    },
+    {
+      "raw_name": "The bloody flux (disease spreading among Astapori refugees)",
+      "slug": "bloody-flux",
+      "resolved_via": "direct",
+      "node_type": "concept.medical",
+      "node_path": "graph/nodes/medical/bloody-flux.node.md",
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 327
+    },
+    {
+      "raw_name": "Dragons (Daenerys's; referenced as threat throughout)",
+      "slug": "dragons",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 328
+    },
+    {
+      "raw_name": "Battle of Astapor (the recent engagement against Dead Cleon's forces)",
+      "slug": "battle-of-astapor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 331
+    },
+    {
+      "raw_name": "The Doom of Valyria (referenced as the origin point for free companies)",
+      "slug": "doom-of-valyria",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/doom-of-valyria.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 332
+    },
+    {
+      "raw_name": "The current war: Yunkai'i coalition vs. Daenerys Targaryen / Meereen",
+      "slug": "the-current-war-yunkaii-coalition-vs-daenerys-targaryen-meereen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 333
+    },
+    {
+      "raw_name": "Previous engagement in the Disputed Lands (Windblown vs. Company of the Cat, one year prior)",
+      "slug": "previous-engagement-in-the-disputed-lands",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 334
+    },
+    {
+      "raw_name": "Prince of Pentos (offered to and refused by the Tattered Prince)",
+      "slug": "prince-of-pentos",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/prince-of-pentos.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 337
+    },
+    {
+      "raw_name": "Prince of Dorne (Quentyn's father, Prince Doran)",
+      "slug": "prince-of-dorne",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/prince-of-dorne.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 338
+    },
+    {
+      "raw_name": "Wise Masters (Yunkai'i rulers)",
+      "slug": "wise-masters",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/wise-masters.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 339
+    },
+    {
+      "raw_name": "Khaleesi (title attributed to Daenerys)",
+      "slug": "khaleesi",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/khaleesi.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 340
+    },
+    {
+      "raw_name": "Serjeant (Hugh Hungerford's current rank)",
+      "slug": "serjeant",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/serjeant.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 341
+    },
+    {
+      "raw_name": "Captain (Caggo, Denzo D'han)",
+      "slug": "captain",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 342
+    },
+    {
+      "raw_name": "Paymaster (Hungerford's former role)",
+      "slug": "paymaster",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/paymaster.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 343
+    },
+    {
+      "raw_name": "The century of blood (post-Doom era when free companies formed)",
+      "slug": "century-of-blood",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/century-of-blood.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 346
+    },
+    {
+      "raw_name": "Grotesques/human oddities (the Yellow Whale's slave collection: boy with goat legs and hooves, bearded woman, two-headed monster, hermaphrodite)",
+      "slug": "grotesques-human-oddities",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 347
+    }
+  ]
+}

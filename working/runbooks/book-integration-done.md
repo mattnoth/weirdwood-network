@@ -318,7 +318,6 @@ Print a concise summary:
 - D&E chapter counts (3 novellas, N total chapters)
 - TWOIAF OCR outcome (word count, disk footprint, quality verdict)
 - Any follow-ups flagged for Matt
-- Confirmation that no copyrighted content is staged for git
 
 That's it. Stop. Do not start Pass 1. Do not commit.
 

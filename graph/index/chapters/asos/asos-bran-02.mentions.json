@@ -1,0 +1,1771 @@
+{
+  "chapter_id": "asos-bran-02",
+  "book": "asos",
+  "pov_character": "bran",
+  "generated_at": "2026-05-07T02:06:34.400389+00:00",
+  "extraction_path": "extractions/mechanical/asos/asos-bran-02.extraction.md",
+  "stats": {
+    "total_mentions": 195,
+    "resolved_to_node": 105,
+    "direct": 81,
+    "alias": 24,
+    "unresolved": 90
+  },
+  "mentions": [
+    {
+      "raw_name": "Bran Stark",
+      "slug": "bran-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bran-stark.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Hodor (Walder)",
+      "slug": "hodor",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hodor.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Meera Reed",
+      "slug": "meera-reed",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meera-reed.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Jojen Reed",
+      "slug": "jojen-reed",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jojen-reed.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Summer",
+      "slug": "summer",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/summer.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "The Liddle (unnamed)",
+      "slug": "the-liddle",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/the-liddle.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "The Liddle",
+      "slug": "the-liddle",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/the-liddle.node.md",
+      "section": "Character Appearances",
+      "line": 37
+    },
+    {
+      "raw_name": "Meera Reed",
+      "slug": "meera-reed",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meera-reed.node.md",
+      "section": "Character Appearances",
+      "line": 38
+    },
+    {
+      "raw_name": "Jojen Reed",
+      "slug": "jojen-reed",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jojen-reed.node.md",
+      "section": "Character Appearances",
+      "line": 39
+    },
+    {
+      "raw_name": "Osha",
+      "slug": "osha",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/osha.node.md",
+      "section": "Characters Referenced",
+      "line": 44
+    },
+    {
+      "raw_name": "Rickon Stark",
+      "slug": "rickon-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rickon-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 45
+    },
+    {
+      "raw_name": "Shaggydog",
+      "slug": "shaggydog",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/shaggydog.node.md",
+      "section": "Characters Referenced",
+      "line": 46
+    },
+    {
+      "raw_name": "Lord Manderly",
+      "slug": "lord-manderly",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 47
+    },
+    {
+      "raw_name": "The Greatjon (Jon Umber)",
+      "slug": "jon-umber",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-umber.node.md",
+      "section": "Characters Referenced",
+      "line": 48
+    },
+    {
+      "raw_name": "Bran's father (Eddard Stark)",
+      "slug": "brans-father",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 49
+    },
+    {
+      "raw_name": "Bran's father's mother's mother",
+      "slug": "brans-fathers-mothers-mother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 50
+    },
+    {
+      "raw_name": "Old Nan",
+      "slug": "old-nan",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/old-nan.node.md",
+      "section": "Characters Referenced",
+      "line": 51
+    },
+    {
+      "raw_name": "Theon Greyjoy",
+      "slug": "theon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/theon-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 52
+    },
+    {
+      "raw_name": "Lord Wull",
+      "slug": "lord-wull",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 53
+    },
+    {
+      "raw_name": "Theo Wull (\"Buckets\")",
+      "slug": "theo-wull",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/theo-wull.node.md",
+      "section": "Characters Referenced",
+      "line": 54
+    },
+    {
+      "raw_name": "Little Walder Frey",
+      "slug": "little-walder-frey",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 55
+    },
+    {
+      "raw_name": "The Dragonknight",
+      "slug": "aemon-targaryen-son-of-viserys-ii",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-viserys-ii.node.md",
+      "section": "Characters Referenced",
+      "line": 56
+    },
+    {
+      "raw_name": "Barristan the Bold",
+      "slug": "barristan-selmy",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/barristan-selmy.node.md",
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "The curious lad / little crannogman (in Meera's story)",
+      "slug": "the-curious-lad-little-crannogman",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "The she-wolf (in Meera's story)",
+      "slug": "lyanna-stark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lyanna-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "The wild wolf (in Meera's story)",
+      "slug": "brandon-stark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brandon-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "The quiet wolf (in Meera's story)",
+      "slug": "the-quiet-wolf",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 61
+    },
+    {
+      "raw_name": "The pup (in Meera's story)",
+      "slug": "robb-stark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 62
+    },
+    {
+      "raw_name": "The dragon prince (in Meera's story)",
+      "slug": "rhaegar-targaryen",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rhaegar-targaryen.node.md",
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "The wife of the dragon prince (in Meera's story)",
+      "slug": "the-wife-of-the-dragon-prince",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "The king (in Meera's story)",
+      "slug": "king",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/king.node.md",
+      "section": "Characters Referenced",
+      "line": 65
+    },
+    {
+      "raw_name": "The storm lord (in Meera's story)",
+      "slug": "robert-i-baratheon",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robert-i-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "The rose lord (in Meera's story)",
+      "slug": "the-rose-lord",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 67
+    },
+    {
+      "raw_name": "The great lion of the rock (in Meera's story)",
+      "slug": "tywin-lannister",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tywin-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 68
+    },
+    {
+      "raw_name": "The daughter of the great castle (in Meera's story)",
+      "slug": "the-daughter-of-the-great-castle",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 69
+    },
+    {
+      "raw_name": "Her four brothers of Harrenhal (in Meera's story)",
+      "slug": "her-four-brothers-of-harrenhal",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 70
+    },
+    {
+      "raw_name": "Her famous uncle, a white knight of the Kingsguard (in Meera's story)",
+      "slug": "her-famous-uncle-a-white-knight-of-the-kingsguard",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 71
+    },
+    {
+      "raw_name": "The knight of skulls and kisses (in Meera's story)",
+      "slug": "richard-lonmouth",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/richard-lonmouth.node.md",
+      "section": "Characters Referenced",
+      "line": 72
+    },
+    {
+      "raw_name": "A maid with laughing purple eyes (in Meera's story)",
+      "slug": "a-maid-with-laughing-purple-eyes",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 73
+    },
+    {
+      "raw_name": "A red snake (in Meera's story)",
+      "slug": "oberyn-martell",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/oberyn-martell.node.md",
+      "section": "Characters Referenced",
+      "line": 74
+    },
+    {
+      "raw_name": "The lord of griffins (in Meera's story)",
+      "slug": "jon-connington",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-connington.node.md",
+      "section": "Characters Referenced",
+      "line": 75
+    },
+    {
+      "raw_name": "A white sword (dancer) (in Meera's story)",
+      "slug": "a-white-sword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 76
+    },
+    {
+      "raw_name": "A black brother (in Meera's story)",
+      "slug": "a-black-brother",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 77
+    },
+    {
+      "raw_name": "The porcupine knight (in Meera's story)",
+      "slug": "the-porcupine-knight",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 78
+    },
+    {
+      "raw_name": "The pitchfork knight (in Meera's story)",
+      "slug": "the-pitchfork-knight",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 79
+    },
+    {
+      "raw_name": "The knight of the two towers (in Meera's story)",
+      "slug": "the-knight-of-the-two-towers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 80
+    },
+    {
+      "raw_name": "The Knight of the Laughing Tree (in Meera's story)",
+      "slug": "knight-of-the-laughing-tree",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/knight-of-the-laughing-tree.node.md",
+      "section": "Characters Referenced",
+      "line": 81
+    },
+    {
+      "raw_name": "The green men (in Meera's story and Bran's thoughts)",
+      "slug": "the-green-men",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 82
+    },
+    {
+      "raw_name": "Mountain valleys north of the wolfswood",
+      "slug": "mountain-valleys-north-of-the-wolfswood",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 87
+    },
+    {
+      "raw_name": "Wolfswood",
+      "slug": "wolfswood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wolfswood.node.md",
+      "section": "Locations",
+      "line": 88
+    },
+    {
+      "raw_name": "Old flint hills",
+      "slug": "old-flint-hills",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 89
+    },
+    {
+      "raw_name": "Shallow cave behind a sentinel tree",
+      "slug": "shallow-cave-behind-a-sentinel-tree",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 90
+    },
+    {
+      "raw_name": "The kingsroad",
+      "slug": "kingsroad",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kingsroad.node.md",
+      "section": "Locations",
+      "line": 91
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Locations",
+      "line": 92
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Locations",
+      "line": 93
+    },
+    {
+      "raw_name": "White Harbor",
+      "slug": "white-harbor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/white-harbor.node.md",
+      "section": "Locations",
+      "line": 94
+    },
+    {
+      "raw_name": "Last Hearth",
+      "slug": "last-hearth",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/last-hearth.node.md",
+      "section": "Locations",
+      "line": 95
+    },
+    {
+      "raw_name": "Bay of Ice",
+      "slug": "bay-of-ice",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bay-of-ice.node.md",
+      "section": "Locations",
+      "line": 96
+    },
+    {
+      "raw_name": "The Neck",
+      "slug": "neck",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/neck.node.md",
+      "section": "Locations",
+      "line": 97
+    },
+    {
+      "raw_name": "Greywater Watch",
+      "slug": "greywater-watch",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/greywater-watch.node.md",
+      "section": "Locations",
+      "line": 98
+    },
+    {
+      "raw_name": "Isle of Faces",
+      "slug": "isle-of-faces",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/isle-of-faces.node.md",
+      "section": "Locations",
+      "line": 99
+    },
+    {
+      "raw_name": "The Twins",
+      "slug": "twins",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/twins.node.md",
+      "section": "Locations",
+      "line": 100
+    },
+    {
+      "raw_name": "Green Fork",
+      "slug": "green-fork",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/green-fork.node.md",
+      "section": "Locations",
+      "line": 101
+    },
+    {
+      "raw_name": "The Trident",
+      "slug": "trident",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/trident.node.md",
+      "section": "Locations",
+      "line": 102
+    },
+    {
+      "raw_name": "Gods Eye",
+      "slug": "gods-eye",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/gods-eye.node.md",
+      "section": "Locations",
+      "line": 103
+    },
+    {
+      "raw_name": "Harrenhal",
+      "slug": "harrenhal",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/harrenhal.node.md",
+      "section": "Locations",
+      "line": 104
+    },
+    {
+      "raw_name": "The haunted woods (haunted forest)",
+      "slug": "the-haunted-woods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 105
+    },
+    {
+      "raw_name": "Mountain valleys north of the wolfswood",
+      "slug": "mountain-valleys-north-of-the-wolfswood",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 110
+    },
+    {
+      "raw_name": "Shallow cave behind sentinel tree",
+      "slug": "shallow-cave-behind-sentinel-tree",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 111
+    },
+    {
+      "raw_name": "Harrenhal (in Meera's story)",
+      "slug": "harrenhal",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/harrenhal.node.md",
+      "section": "Location Descriptions",
+      "line": 112
+    },
+    {
+      "raw_name": "The Neck (in Meera's story/discussion)",
+      "slug": "neck",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/neck.node.md",
+      "section": "Location Descriptions",
+      "line": 113
+    },
+    {
+      "raw_name": "Bran's riding basket",
+      "slug": "brans-riding-basket",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 118
+    },
+    {
+      "raw_name": "Meera's three-pronged frog spear",
+      "slug": "meeras-three-pronged-frog-spear",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 119
+    },
+    {
+      "raw_name": "Meera's leathern shield",
+      "slug": "meeras-leathern-shield",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 120
+    },
+    {
+      "raw_name": "The Liddle's squirrelskin cloak",
+      "slug": "the-liddles-squirrelskin-cloak",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 121
+    },
+    {
+      "raw_name": "The Liddle's ale skin",
+      "slug": "the-liddles-ale-skin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 122
+    },
+    {
+      "raw_name": "Green and white cloth",
+      "slug": "green-and-white-cloth",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 123
+    },
+    {
+      "raw_name": "The mystery knight's painted shield (in Meera's story)",
+      "slug": "the-mystery-knights-painted-shield",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 124
+    },
+    {
+      "raw_name": "Meera's bronze scale shirt",
+      "slug": "meeras-bronze-scale-shirt",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 125
+    },
+    {
+      "raw_name": "The Ice Dragon constellation",
+      "slug": "the-ice-dragon-constellation",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 126
+    },
+    {
+      "raw_name": "Bran Stark (POV)",
+      "slug": "bran-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bran-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 295
+    },
+    {
+      "raw_name": "Hodor (Walder)",
+      "slug": "hodor",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hodor.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 296
+    },
+    {
+      "raw_name": "Meera Reed",
+      "slug": "meera-reed",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meera-reed.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 297
+    },
+    {
+      "raw_name": "Jojen Reed",
+      "slug": "jojen-reed",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jojen-reed.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 298
+    },
+    {
+      "raw_name": "Summer (direwolf)",
+      "slug": "summer",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/summer.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 299
+    },
+    {
+      "raw_name": "The Liddle (unnamed mountain man)",
+      "slug": "the-liddle",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/the-liddle.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 300
+    },
+    {
+      "raw_name": "Osha (referenced)",
+      "slug": "osha",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/osha.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 301
+    },
+    {
+      "raw_name": "Rickon Stark (referenced)",
+      "slug": "rickon-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rickon-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 302
+    },
+    {
+      "raw_name": "Shaggydog (direwolf, referenced)",
+      "slug": "shaggydog",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/shaggydog.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 303
+    },
+    {
+      "raw_name": "Lord Manderly (referenced)",
+      "slug": "lord-manderly",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 304
+    },
+    {
+      "raw_name": "The Greatjon / Jon Umber (referenced)",
+      "slug": "the-greatjon-jon-umber",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 305
+    },
+    {
+      "raw_name": "Old Nan (referenced)",
+      "slug": "old-nan",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/old-nan.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 306
+    },
+    {
+      "raw_name": "Theon Greyjoy (referenced)",
+      "slug": "theon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/theon-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 307
+    },
+    {
+      "raw_name": "Lord Wull (referenced)",
+      "slug": "lord-wull",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 308
+    },
+    {
+      "raw_name": "Theo Wull / \"Buckets\" (referenced)",
+      "slug": "theo-wull-buckets",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 309
+    },
+    {
+      "raw_name": "Bran's father / Eddard Stark (referenced)",
+      "slug": "brans-father-eddard-stark",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 310
+    },
+    {
+      "raw_name": "Bran's father's mother's mother / a Flint of the mountains (referenced)",
+      "slug": "brans-fathers-mothers-mother-a-flint-of-the-mountains",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 311
+    },
+    {
+      "raw_name": "Little Walder Frey (referenced in passing thought)",
+      "slug": "little-walder-frey",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 312
+    },
+    {
+      "raw_name": "The Dragonknight (historical, referenced)",
+      "slug": "aemon-targaryen-son-of-viserys-ii",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-viserys-ii.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 313
+    },
+    {
+      "raw_name": "Barristan the Bold (historical, referenced)",
+      "slug": "barristan-selmy",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/barristan-selmy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 314
+    },
+    {
+      "raw_name": "The curious lad / little crannogman (in Meera's story)",
+      "slug": "the-curious-lad-little-crannogman",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 315
+    },
+    {
+      "raw_name": "The she-wolf (in Meera's story)",
+      "slug": "lyanna-stark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/lyanna-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 316
+    },
+    {
+      "raw_name": "The wild wolf (in Meera's story)",
+      "slug": "brandon-stark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brandon-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 317
+    },
+    {
+      "raw_name": "The quiet wolf (in Meera's story)",
+      "slug": "the-quiet-wolf",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 318
+    },
+    {
+      "raw_name": "The pup (in Meera's story)",
+      "slug": "robb-stark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 319
+    },
+    {
+      "raw_name": "The dragon prince (in Meera's story)",
+      "slug": "rhaegar-targaryen",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rhaegar-targaryen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 320
+    },
+    {
+      "raw_name": "The wife of the dragon prince (in Meera's story)",
+      "slug": "the-wife-of-the-dragon-prince",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 321
+    },
+    {
+      "raw_name": "The king (in Meera's story)",
+      "slug": "king",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/king.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 322
+    },
+    {
+      "raw_name": "The storm lord (in Meera's story)",
+      "slug": "robert-i-baratheon",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robert-i-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 323
+    },
+    {
+      "raw_name": "The rose lord (in Meera's story)",
+      "slug": "the-rose-lord",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 324
+    },
+    {
+      "raw_name": "The great lion of the rock (in Meera's story)",
+      "slug": "tywin-lannister",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tywin-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 325
+    },
+    {
+      "raw_name": "The daughter of the great castle (in Meera's story)",
+      "slug": "the-daughter-of-the-great-castle",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 326
+    },
+    {
+      "raw_name": "Her four brothers of Harrenhal (in Meera's story)",
+      "slug": "her-four-brothers-of-harrenhal",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 327
+    },
+    {
+      "raw_name": "Her famous uncle, a white knight of the Kingsguard (in Meera's story)",
+      "slug": "her-famous-uncle-a-white-knight-of-the-kingsguard",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 328
+    },
+    {
+      "raw_name": "The knight of skulls and kisses (in Meera's story)",
+      "slug": "richard-lonmouth",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/richard-lonmouth.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 329
+    },
+    {
+      "raw_name": "A maid with laughing purple eyes (in Meera's story)",
+      "slug": "a-maid-with-laughing-purple-eyes",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 330
+    },
+    {
+      "raw_name": "A white sword who danced (in Meera's story)",
+      "slug": "a-white-sword-who-danced",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 331
+    },
+    {
+      "raw_name": "A red snake (in Meera's story)",
+      "slug": "oberyn-martell",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/oberyn-martell.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 332
+    },
+    {
+      "raw_name": "The lord of griffins (in Meera's story)",
+      "slug": "jon-connington",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-connington.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 333
+    },
+    {
+      "raw_name": "A black brother / Night's Watch recruiter (in Meera's story)",
+      "slug": "a-black-brother-nights-watch-recruiter",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 334
+    },
+    {
+      "raw_name": "The porcupine knight (in Meera's story)",
+      "slug": "the-porcupine-knight",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 335
+    },
+    {
+      "raw_name": "The pitchfork knight (in Meera's story)",
+      "slug": "the-pitchfork-knight",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 336
+    },
+    {
+      "raw_name": "The knight of the two towers (in Meera's story)",
+      "slug": "the-knight-of-the-two-towers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 337
+    },
+    {
+      "raw_name": "The Knight of the Laughing Tree / mystery knight (in Meera's story)",
+      "slug": "the-knight-of-the-laughing-tree-mystery-knight",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 338
+    },
+    {
+      "raw_name": "Mountain valleys north of the wolfswood (primary setting)",
+      "slug": "mountain-valleys-north-of-the-wolfswood",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 341
+    },
+    {
+      "raw_name": "Wolfswood",
+      "slug": "wolfswood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wolfswood.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 342
+    },
+    {
+      "raw_name": "Old flint hills",
+      "slug": "old-flint-hills",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 343
+    },
+    {
+      "raw_name": "Shallow cave behind sentinel tree",
+      "slug": "shallow-cave-behind-sentinel-tree",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 344
+    },
+    {
+      "raw_name": "The kingsroad",
+      "slug": "kingsroad",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kingsroad.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 345
+    },
+    {
+      "raw_name": "The Wall",
+      "slug": "wall",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wall.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 346
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 347
+    },
+    {
+      "raw_name": "White Harbor",
+      "slug": "white-harbor",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/white-harbor.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 348
+    },
+    {
+      "raw_name": "Last Hearth",
+      "slug": "last-hearth",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/last-hearth.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 349
+    },
+    {
+      "raw_name": "Bay of Ice",
+      "slug": "bay-of-ice",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bay-of-ice.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 350
+    },
+    {
+      "raw_name": "The Neck",
+      "slug": "neck",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/neck.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 351
+    },
+    {
+      "raw_name": "Greywater Watch (indirectly referenced — \"not one of them could find it\")",
+      "slug": "greywater-watch",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/greywater-watch.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 352
+    },
+    {
+      "raw_name": "Isle of Faces",
+      "slug": "isle-of-faces",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/isle-of-faces.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 353
+    },
+    {
+      "raw_name": "The Twins",
+      "slug": "twins",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/twins.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 354
+    },
+    {
+      "raw_name": "Green Fork",
+      "slug": "green-fork",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/green-fork.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 355
+    },
+    {
+      "raw_name": "The Trident",
+      "slug": "trident",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/trident.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 356
+    },
+    {
+      "raw_name": "Gods Eye (lake)",
+      "slug": "gods-eye",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/gods-eye.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 357
+    },
+    {
+      "raw_name": "Harrenhal",
+      "slug": "harrenhal",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/harrenhal.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 358
+    },
+    {
+      "raw_name": "The haunted woods / haunted forest",
+      "slug": "the-haunted-woods-haunted-forest",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 359
+    },
+    {
+      "raw_name": "House Stark",
+      "slug": "house-stark",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-stark.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 362
+    },
+    {
+      "raw_name": "House Umber",
+      "slug": "house-umber",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-umber.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 363
+    },
+    {
+      "raw_name": "House Wull",
+      "slug": "house-wull",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-wull.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 364
+    },
+    {
+      "raw_name": "House Harclay",
+      "slug": "house-harclay",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-harclay.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 365
+    },
+    {
+      "raw_name": "House Knott",
+      "slug": "house-knott",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-knott.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 366
+    },
+    {
+      "raw_name": "House Liddle",
+      "slug": "house-liddle",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-liddle.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 367
+    },
+    {
+      "raw_name": "House Norrey",
+      "slug": "house-norrey",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-norrey.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 368
+    },
+    {
+      "raw_name": "House Flint (of the mountains)",
+      "slug": "house-flint",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Houses",
+      "line": 369
+    },
+    {
+      "raw_name": "House Reed",
+      "slug": "house-reed",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-reed.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 370
+    },
+    {
+      "raw_name": "House Frey",
+      "slug": "house-frey",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-frey.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 371
+    },
+    {
+      "raw_name": "House Bolton",
+      "slug": "house-bolton",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-bolton.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 372
+    },
+    {
+      "raw_name": "House Manderly",
+      "slug": "house-manderly",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-manderly.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 373
+    },
+    {
+      "raw_name": "House Whent (implied — \"Harrenhal\" and \"daughter of the great castle\")",
+      "slug": "house-whent",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-whent.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 374
+    },
+    {
+      "raw_name": "Night's Watch (the Old Bear led them into the haunted woods; a black brother recruits at Harrenhal feast in story)",
+      "slug": "nights-watch",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/nights-watch.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 377
+    },
+    {
+      "raw_name": "Kingsguard / White Swords (in Meera's story — welcoming a new brother; the famous uncle is one)",
+      "slug": "kingsguard-white-swords",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 378
+    },
+    {
+      "raw_name": "Ironmen / ironborn (squids in the wolfswood; ironmen dead at Winterfell)",
+      "slug": "ironmen-ironborn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 379
+    },
+    {
+      "raw_name": "Bolton's bastard's men / flayed men (ride the kingsroad)",
+      "slug": "boltons-bastards-men-flayed-men",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 380
+    },
+    {
+      "raw_name": "The old gods (the crannogman prays to them on the lakeshore; the mystery knight's shield bears a heart tree; \"the old gods of north and Neck\")",
+      "slug": "the-old-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 383
+    },
+    {
+      "raw_name": "The green men (guardians of the Isle of Faces; dark green skin, leaves for hair, sometimes antlers per Old Nan's stories)",
+      "slug": "the-green-men",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 384
+    },
+    {
+      "raw_name": "Mountain clans of the North (Wulls, Harclays, Knotts, Liddles, Norreys, Flints)",
+      "slug": "mountain-clans-of-the-north",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 387
+    },
+    {
+      "raw_name": "Crannogmen (the Reeds' people; small folk, queer ways, seldom travel far, sit boats more than horses, hands made for oars not lances)",
+      "slug": "crannogmen",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/crannogmen.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 388
+    },
+    {
+      "raw_name": "Andals (referenced as invaders who drowned in the Neck)",
+      "slug": "andals",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/andals.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 389
+    },
+    {
+      "raw_name": "First Men (implied through old gods worship and mountain clan culture)",
+      "slug": "first-men",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/first-men.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 390
+    },
+    {
+      "raw_name": "Bran's riding basket",
+      "slug": "brans-riding-basket",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 393
+    },
+    {
+      "raw_name": "Meera's three-pronged frog spear",
+      "slug": "meeras-three-pronged-frog-spear",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 394
+    },
+    {
+      "raw_name": "Meera's leathern shield",
+      "slug": "meeras-leathern-shield",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 395
+    },
+    {
+      "raw_name": "Meera's bronze scale shirt",
+      "slug": "meeras-bronze-scale-shirt",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 396
+    },
+    {
+      "raw_name": "The Liddle's squirrelskin cloak with gold and bronze pinecone clasp",
+      "slug": "the-liddles-squirrelskin-cloak-with-gold-and-bronze-pinecone-clasp",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 397
+    },
+    {
+      "raw_name": "The Liddle's knife",
+      "slug": "the-liddles-knife",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 398
+    },
+    {
+      "raw_name": "Ale skin",
+      "slug": "ale-skin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 399
+    },
+    {
+      "raw_name": "Green and white cloth (Liddle's gift wrapping)",
+      "slug": "green-and-white-cloth",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 400
+    },
+    {
+      "raw_name": "The mystery knight's painted shield (white weirwood with laughing red face)",
+      "slug": "the-mystery-knights-painted-shield",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 401
+    },
+    {
+      "raw_name": "Tourney sword (used by the she-wolf in the story)",
+      "slug": "tourney-sword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 402
+    },
+    {
+      "raw_name": "The dragon prince's sad song at the Harrenhal feast (unnamed; \"so sad it made the wolf maid sniffle\")",
+      "slug": "the-dragon-princes-sad-song-at-the-harrenhal-feast",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 405
+    },
+    {
+      "raw_name": "Old Nan's stories (referenced as a body of oral tradition)",
+      "slug": "old-nans-stories",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 406
+    },
+    {
+      "raw_name": "\"Dark wings, dark words\" (the Liddle's mother's saying)",
+      "slug": "dark-wings-dark-words",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 407
+    },
+    {
+      "raw_name": "\"Old stories are like old friends. You have to visit them from time to time.\" (Old Nan's saying, quoted by Bran)",
+      "slug": "old-stories-are-like-old-friends-you-have-to-visit-them-from-time-to-time",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 408
+    },
+    {
+      "raw_name": "Warging (Bran wargs into Summer; sees through Summer's eyes to detect watchers; tries and fails to warg into an eagle)",
+      "slug": "warging",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 411
+    },
+    {
+      "raw_name": "Greensight / green dreams (Jojen has green dreams — \"I dreamed it\"; the greenseers could enter birds, Bran believes)",
+      "slug": "greensight-green-dreams",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 412
+    },
+    {
+      "raw_name": "Crannogman magic (in Meera's story — \"breathe mud and run on leaves, change earth to water and water to earth with a whispered word, talk to trees and weave words and make castles appear and disappear\")",
+      "slug": "crannogman-magic",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 413
+    },
+    {
+      "raw_name": "The green men's powers (strange magic; Bran hopes they could help him walk again)",
+      "slug": "the-green-mens-powers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 414
+    },
+    {
+      "raw_name": "The Ice Dragon constellation (blue star in the dragon's eye points north)",
+      "slug": "the-ice-dragon-constellation",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 415
+    },
+    {
+      "raw_name": "Wolf dreams (Bran gives himself to the wolf dream — experiences midnight through Summer's senses)",
+      "slug": "wolf-dreams",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 416
+    },
+    {
+      "raw_name": "\"The war\" (Theo Wull rode with Howland Reed during it; unnamed in this chapter)",
+      "slug": "the-war",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 419
+    },
+    {
+      "raw_name": "War of the Five Kings (implied — Bolton's bastard alive, flayed men on kingsroad, squids in wolfswood, Stark authority collapsed)",
+      "slug": "war-of-the-five-kings",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/war-of-the-five-kings.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 420
+    },
+    {
+      "raw_name": "The tourney at Harrenhal (in Meera's story — in \"the year of the false spring\"; a great tourney with jousting, mêlée, archery, axe-throwing, horse race, tourney of singers)",
+      "slug": "tourney-at-harrenhal",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/tourney-at-harrenhal.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 421
+    },
+    {
+      "raw_name": "Prince (Bran is called \"Prince Bran\" by the Reeds)",
+      "slug": "prince",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/prince.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 424
+    },
+    {
+      "raw_name": "Lord (Lord Wull, Lord Manderly, though the Wull is \"no true lord\")",
+      "slug": "lord",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 425
+    },
+    {
+      "raw_name": "The Wull, the Knott, the Norrey, the Liddle (mountain clan chief titles — \"their own folk\" use these rather than \"lord\")",
+      "slug": "the-wull-the-knott-the-norrey-the-liddle",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 426
+    },
+    {
+      "raw_name": "The Old Bear (title/nickname for the Lord Commander of the Night's Watch)",
+      "slug": "jeor-mormont",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jeor-mormont.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 427
+    },
+    {
+      "raw_name": "Queen of love and beauty (tourney title in Meera's story)",
+      "slug": "queen-of-love-and-beauty",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 428
+    },
+    {
+      "raw_name": "Kingsguard / White Swords (order title in Meera's story)",
+      "slug": "kingsguard-white-swords",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 429
+    }
+  ]
+}

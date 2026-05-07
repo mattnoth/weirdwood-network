@@ -1,0 +1,1834 @@
+{
+  "chapter_id": "adwd-reek-02",
+  "book": "adwd",
+  "pov_character": "reek",
+  "generated_at": "2026-05-07T02:06:34.512859+00:00",
+  "extraction_path": "extractions/mechanical/adwd/adwd-reek-02.extraction.md",
+  "stats": {
+    "total_mentions": 202,
+    "resolved_to_node": 126,
+    "direct": 116,
+    "alias": 10,
+    "unresolved": 76
+  },
+  "mentions": [
+    {
+      "raw_name": "Reek (Theon Greyjoy)",
+      "slug": "reek",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/reek.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Damon Dance-for-Me",
+      "slug": "damon-dance-for-me",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Yellow Dick",
+      "slug": "yellow-dick",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/yellow-dick.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Grunt",
+      "slug": "grunt",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/grunt.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Ralf Kenning",
+      "slug": "ralf-kenning",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ralf-kenning.node.md",
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Gate guard (unnamed)",
+      "slug": "gate-guard",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Dagon Codd",
+      "slug": "dagon-codd",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dagon-codd.node.md",
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Adrack Humble",
+      "slug": "adrack-humble",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/adrack-humble.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Ramsay Bolton",
+      "slug": "ramsay-snow",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ramsay-snow.node.md",
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Roose Bolton",
+      "slug": "roose-bolton",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/roose-bolton.node.md",
+      "section": "Characters Present",
+      "line": 36
+    },
+    {
+      "raw_name": "Lady Walda (Fat Walda Frey)",
+      "slug": "lady-walda",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 37
+    },
+    {
+      "raw_name": "Jeyne Poole (\"Arya Stark\")",
+      "slug": "jeyne-poole",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jeyne-poole.node.md",
+      "section": "Characters Present",
+      "line": 38
+    },
+    {
+      "raw_name": "Skinner",
+      "slug": "skinner",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/skinner.node.md",
+      "section": "Characters Present",
+      "line": 39
+    },
+    {
+      "raw_name": "Sour Alyn",
+      "slug": "sour-alyn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sour-alyn.node.md",
+      "section": "Characters Present",
+      "line": 40
+    },
+    {
+      "raw_name": "Whoresbane (Hother Umber)",
+      "slug": "hother-umber",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hother-umber.node.md",
+      "section": "Characters Present",
+      "line": 41
+    },
+    {
+      "raw_name": "Big Walder (Frey)",
+      "slug": "walder-frey-son-of-jammos",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/walder-frey-son-of-jammos.node.md",
+      "section": "Characters Present",
+      "line": 42
+    },
+    {
+      "raw_name": "Little Walder (Frey)",
+      "slug": "walder-frey-son-of-merrett",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/walder-frey-son-of-merrett.node.md",
+      "section": "Characters Present",
+      "line": 43
+    },
+    {
+      "raw_name": "Ben Bones",
+      "slug": "ben-bones",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ben-bones.node.md",
+      "section": "Characters Present",
+      "line": 44
+    },
+    {
+      "raw_name": "Roger or Rickard Ryswell",
+      "slug": "roger-or-rickard-ryswell",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 45
+    },
+    {
+      "raw_name": "Hosteen Frey",
+      "slug": "hosteen-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hosteen-frey.node.md",
+      "section": "Characters Present",
+      "line": 46
+    },
+    {
+      "raw_name": "Aenys Frey",
+      "slug": "aenys-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aenys-frey.node.md",
+      "section": "Characters Present",
+      "line": 47
+    },
+    {
+      "raw_name": "Decoy rider (unnamed)",
+      "slug": "decoy-rider",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 48
+    },
+    {
+      "raw_name": "Various Codds",
+      "slug": "various-codds",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 49
+    },
+    {
+      "raw_name": "Reek (Theon Greyjoy)",
+      "slug": "reek",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/reek.node.md",
+      "section": "Character Appearances",
+      "line": 54
+    },
+    {
+      "raw_name": "Gate guard (unnamed)",
+      "slug": "gate-guard",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 55
+    },
+    {
+      "raw_name": "Ralf Kenning",
+      "slug": "ralf-kenning",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ralf-kenning.node.md",
+      "section": "Character Appearances",
+      "line": 56
+    },
+    {
+      "raw_name": "Dagon Codd",
+      "slug": "dagon-codd",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dagon-codd.node.md",
+      "section": "Character Appearances",
+      "line": 57
+    },
+    {
+      "raw_name": "Adrack Humble",
+      "slug": "adrack-humble",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/adrack-humble.node.md",
+      "section": "Character Appearances",
+      "line": 58
+    },
+    {
+      "raw_name": "Ramsay Bolton",
+      "slug": "ramsay-snow",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ramsay-snow.node.md",
+      "section": "Character Appearances",
+      "line": 59
+    },
+    {
+      "raw_name": "Roose Bolton",
+      "slug": "roose-bolton",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/roose-bolton.node.md",
+      "section": "Character Appearances",
+      "line": 60
+    },
+    {
+      "raw_name": "Lady Walda (Fat Walda)",
+      "slug": "lady-walda",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 61
+    },
+    {
+      "raw_name": "Jeyne Poole (\"Arya Stark\")",
+      "slug": "jeyne-poole",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jeyne-poole.node.md",
+      "section": "Character Appearances",
+      "line": 62
+    },
+    {
+      "raw_name": "Hosteen Frey",
+      "slug": "hosteen-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hosteen-frey.node.md",
+      "section": "Character Appearances",
+      "line": 63
+    },
+    {
+      "raw_name": "Aenys Frey",
+      "slug": "aenys-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aenys-frey.node.md",
+      "section": "Character Appearances",
+      "line": 64
+    },
+    {
+      "raw_name": "Decoy rider",
+      "slug": "decoy-rider",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 65
+    },
+    {
+      "raw_name": "Roger/Rickard Ryswell",
+      "slug": "roger-rickard-ryswell",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 66
+    },
+    {
+      "raw_name": "Codds (several)",
+      "slug": "codds",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 67
+    },
+    {
+      "raw_name": "Lord Balon Greyjoy",
+      "slug": "balon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/balon-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 72
+    },
+    {
+      "raw_name": "Robb Stark",
+      "slug": "robb-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 73
+    },
+    {
+      "raw_name": "The Greatjon (Umber)",
+      "slug": "jon-umber",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-umber.node.md",
+      "section": "Characters Referenced",
+      "line": 74
+    },
+    {
+      "raw_name": "Roose Bolton",
+      "slug": "roose-bolton",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/roose-bolton.node.md",
+      "section": "Characters Referenced",
+      "line": 75
+    },
+    {
+      "raw_name": "The Glovers",
+      "slug": "the-glovers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 76
+    },
+    {
+      "raw_name": "Helman Tallhart",
+      "slug": "helman-tallhart",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/helman-tallhart.node.md",
+      "section": "Characters Referenced",
+      "line": 77
+    },
+    {
+      "raw_name": "Karstark and his sons",
+      "slug": "karstark-and-his-sons",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 78
+    },
+    {
+      "raw_name": "Victarion Greyjoy",
+      "slug": "victarion-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/victarion-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 79
+    },
+    {
+      "raw_name": "Euron Greyjoy (Crow's Eye)",
+      "slug": "euron-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/euron-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 80
+    },
+    {
+      "raw_name": "Lord Walder Frey",
+      "slug": "walder-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/walder-frey.node.md",
+      "section": "Characters Referenced",
+      "line": 81
+    },
+    {
+      "raw_name": "Lord Eddard Stark",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 82
+    },
+    {
+      "raw_name": "Arya Stark (real)",
+      "slug": "arya-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/arya-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 83
+    },
+    {
+      "raw_name": "Sansa Stark",
+      "slug": "sansa-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sansa-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 84
+    },
+    {
+      "raw_name": "Robert Baratheon",
+      "slug": "robert-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robert-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 85
+    },
+    {
+      "raw_name": "Lord Ryswell",
+      "slug": "ryswell",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ryswell.node.md",
+      "section": "Characters Referenced",
+      "line": 86
+    },
+    {
+      "raw_name": "Smiler",
+      "slug": "smiler",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/smiler.node.md",
+      "section": "Characters Referenced",
+      "line": 87
+    },
+    {
+      "raw_name": "Moat Cailin",
+      "slug": "moat-cailin",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/moat-cailin.node.md",
+      "section": "Locations",
+      "line": 92
+    },
+    {
+      "raw_name": "Gatehouse Tower",
+      "slug": "gatehouse-tower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/gatehouse-tower.node.md",
+      "section": "Locations",
+      "line": 93
+    },
+    {
+      "raw_name": "Children's Tower",
+      "slug": "childrens-tower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/childrens-tower.node.md",
+      "section": "Locations",
+      "line": 94
+    },
+    {
+      "raw_name": "Drunkard's Tower",
+      "slug": "drunkards-tower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/drunkards-tower.node.md",
+      "section": "Locations",
+      "line": 95
+    },
+    {
+      "raw_name": "The causeway",
+      "slug": "causeway",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/causeway.node.md",
+      "section": "Locations",
+      "line": 96
+    },
+    {
+      "raw_name": "The Neck",
+      "slug": "neck",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/neck.node.md",
+      "section": "Locations",
+      "line": 97
+    },
+    {
+      "raw_name": "Bolton camp (north of Moat Cailin)",
+      "slug": "bolton-camp",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 98
+    },
+    {
+      "raw_name": "The Dreadfort",
+      "slug": "dreadfort",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dreadfort.node.md",
+      "section": "Locations",
+      "line": 99
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Locations",
+      "line": 100
+    },
+    {
+      "raw_name": "Barrowton",
+      "slug": "barrowton",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/barrowton.node.md",
+      "section": "Locations",
+      "line": 101
+    },
+    {
+      "raw_name": "The Rills",
+      "slug": "rills",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/rills.node.md",
+      "section": "Locations",
+      "line": 102
+    },
+    {
+      "raw_name": "Stony Shore",
+      "slug": "stony-shore",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/stony-shore.node.md",
+      "section": "Locations",
+      "line": 103
+    },
+    {
+      "raw_name": "Great Wyk",
+      "slug": "great-wyk",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/great-wyk.node.md",
+      "section": "Locations",
+      "line": 104
+    },
+    {
+      "raw_name": "Pyke",
+      "slug": "pyke",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pyke.node.md",
+      "section": "Locations",
+      "line": 105
+    },
+    {
+      "raw_name": "Iron Islands",
+      "slug": "iron-islands",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/iron-islands.node.md",
+      "section": "Locations",
+      "line": 106
+    },
+    {
+      "raw_name": "Hornwood",
+      "slug": "hornwood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/hornwood.node.md",
+      "section": "Locations",
+      "line": 107
+    },
+    {
+      "raw_name": "Moat Cailin",
+      "slug": "moat-cailin",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/moat-cailin.node.md",
+      "section": "Location Descriptions",
+      "line": 112
+    },
+    {
+      "raw_name": "Gatehouse Tower",
+      "slug": "gatehouse-tower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/gatehouse-tower.node.md",
+      "section": "Location Descriptions",
+      "line": 113
+    },
+    {
+      "raw_name": "Gatehouse Tower hall",
+      "slug": "gatehouse-tower-hall",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 114
+    },
+    {
+      "raw_name": "The Neck (surrounding terrain)",
+      "slug": "neck",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/neck.node.md",
+      "section": "Location Descriptions",
+      "line": 115
+    },
+    {
+      "raw_name": "Peace banner on pinewood staff",
+      "slug": "peace-banner-on-pinewood-staff",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 120
+    },
+    {
+      "raw_name": "Ramsay's letter/parchment (pink wax seal)",
+      "slug": "ramsays-letter-parchment",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 121
+    },
+    {
+      "raw_name": "Ralf Kenning's shield",
+      "slug": "ralf-kennings-shield",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 122
+    },
+    {
+      "raw_name": "Ralf Kenning's sword",
+      "slug": "ralf-kennings-sword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 123
+    },
+    {
+      "raw_name": "Adrack Humble's throwing axes",
+      "slug": "adrack-humbles-throwing-axes",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 124
+    },
+    {
+      "raw_name": "Reek's black leather gloves",
+      "slug": "reeks-black-leather-gloves",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 125
+    },
+    {
+      "raw_name": "Kraken banner (golden kraken on black field)",
+      "slug": "kraken-banner",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 126
+    },
+    {
+      "raw_name": "Bolton banner (flayed man)",
+      "slug": "bolton-banner",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 127
+    },
+    {
+      "raw_name": "Reek's collar and chain",
+      "slug": "reeks-collar-and-chain",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 128
+    },
+    {
+      "raw_name": "Enclosed wagon (dark blue velvet curtains)",
+      "slug": "enclosed-wagon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 129
+    },
+    {
+      "raw_name": "Ermine cloak with silver wolf's head clasp",
+      "slug": "ermine-cloak-with-silver-wolfs-head-clasp",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 130
+    },
+    {
+      "raw_name": "Decoy armor",
+      "slug": "decoy-armor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 131
+    },
+    {
+      "raw_name": "Silver codfish brooches",
+      "slug": "silver-codfish-brooches",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 132
+    },
+    {
+      "raw_name": "Reek (Theon Greyjoy)",
+      "slug": "reek",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/reek.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 291
+    },
+    {
+      "raw_name": "Ramsay Bolton",
+      "slug": "ramsay-snow",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ramsay-snow.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 292
+    },
+    {
+      "raw_name": "Roose Bolton",
+      "slug": "roose-bolton",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/roose-bolton.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 293
+    },
+    {
+      "raw_name": "Damon Dance-for-Me",
+      "slug": "damon-dance-for-me",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 294
+    },
+    {
+      "raw_name": "Yellow Dick",
+      "slug": "yellow-dick",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/yellow-dick.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 295
+    },
+    {
+      "raw_name": "Grunt",
+      "slug": "grunt",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/grunt.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 296
+    },
+    {
+      "raw_name": "Skinner",
+      "slug": "skinner",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/skinner.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 297
+    },
+    {
+      "raw_name": "Sour Alyn",
+      "slug": "sour-alyn",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sour-alyn.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 298
+    },
+    {
+      "raw_name": "Big Walder (Frey)",
+      "slug": "walder-frey-son-of-jammos",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/walder-frey-son-of-jammos.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 299
+    },
+    {
+      "raw_name": "Little Walder (Frey)",
+      "slug": "walder-frey-son-of-merrett",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/walder-frey-son-of-merrett.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 300
+    },
+    {
+      "raw_name": "Whoresbane (Hother Umber)",
+      "slug": "hother-umber",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hother-umber.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 301
+    },
+    {
+      "raw_name": "Ben Bones",
+      "slug": "ben-bones",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ben-bones.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 302
+    },
+    {
+      "raw_name": "Ralf Kenning",
+      "slug": "ralf-kenning",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ralf-kenning.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 303
+    },
+    {
+      "raw_name": "Dagon Codd",
+      "slug": "dagon-codd",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dagon-codd.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 304
+    },
+    {
+      "raw_name": "Adrack Humble",
+      "slug": "adrack-humble",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/adrack-humble.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 305
+    },
+    {
+      "raw_name": "Lady Walda (Fat Walda Frey)",
+      "slug": "lady-walda",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 306
+    },
+    {
+      "raw_name": "Jeyne Poole (\"Arya Stark\")",
+      "slug": "jeyne-poole",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jeyne-poole.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 307
+    },
+    {
+      "raw_name": "Hosteen Frey",
+      "slug": "hosteen-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hosteen-frey.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 308
+    },
+    {
+      "raw_name": "Aenys Frey",
+      "slug": "aenys-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aenys-frey.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 309
+    },
+    {
+      "raw_name": "Roger or Rickard Ryswell",
+      "slug": "roger-or-rickard-ryswell",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 310
+    },
+    {
+      "raw_name": "Gate guard (unnamed)",
+      "slug": "gate-guard",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 311
+    },
+    {
+      "raw_name": "Decoy rider (unnamed)",
+      "slug": "decoy-rider",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 312
+    },
+    {
+      "raw_name": "Various Codds (unnamed)",
+      "slug": "various-codds",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 313
+    },
+    {
+      "raw_name": "Robb Stark (referenced)",
+      "slug": "robb-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 314
+    },
+    {
+      "raw_name": "The Greatjon / Jon Umber (referenced)",
+      "slug": "the-greatjon-jon-umber",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 315
+    },
+    {
+      "raw_name": "The Glovers (referenced)",
+      "slug": "the-glovers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 316
+    },
+    {
+      "raw_name": "Helman Tallhart (referenced)",
+      "slug": "helman-tallhart",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/helman-tallhart.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 317
+    },
+    {
+      "raw_name": "Karstark and his sons (referenced)",
+      "slug": "karstark-and-his-sons",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 318
+    },
+    {
+      "raw_name": "Lord Balon Greyjoy (referenced)",
+      "slug": "balon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/balon-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 319
+    },
+    {
+      "raw_name": "Victarion Greyjoy (referenced)",
+      "slug": "victarion-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/victarion-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 320
+    },
+    {
+      "raw_name": "Euron Greyjoy / Crow's Eye (referenced)",
+      "slug": "euron-greyjoy-crows-eye",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 321
+    },
+    {
+      "raw_name": "Lord Walder Frey (referenced)",
+      "slug": "walder-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/walder-frey.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 322
+    },
+    {
+      "raw_name": "Lord Eddard Stark (referenced)",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 323
+    },
+    {
+      "raw_name": "Arya Stark (the real one, referenced)",
+      "slug": "arya-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/arya-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 324
+    },
+    {
+      "raw_name": "Sansa Stark (referenced)",
+      "slug": "sansa-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sansa-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 325
+    },
+    {
+      "raw_name": "Robert Baratheon (referenced)",
+      "slug": "robert-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robert-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 326
+    },
+    {
+      "raw_name": "Lord Ryswell (referenced)",
+      "slug": "ryswell",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ryswell.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 327
+    },
+    {
+      "raw_name": "Alison (Ramsay's hound)",
+      "slug": "alison",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alison.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 328
+    },
+    {
+      "raw_name": "Smiler (Theon's horse, referenced in memory)",
+      "slug": "smiler",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/smiler.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 329
+    },
+    {
+      "raw_name": "Moat Cailin",
+      "slug": "moat-cailin",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/moat-cailin.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 332
+    },
+    {
+      "raw_name": "Gatehouse Tower",
+      "slug": "gatehouse-tower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/gatehouse-tower.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 333
+    },
+    {
+      "raw_name": "Children's Tower",
+      "slug": "childrens-tower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/childrens-tower.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 334
+    },
+    {
+      "raw_name": "Drunkard's Tower",
+      "slug": "drunkards-tower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/drunkards-tower.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 335
+    },
+    {
+      "raw_name": "The causeway",
+      "slug": "causeway",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/causeway.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 336
+    },
+    {
+      "raw_name": "The Neck",
+      "slug": "neck",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/neck.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 337
+    },
+    {
+      "raw_name": "Bolton camp (north of Moat Cailin)",
+      "slug": "bolton-camp",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 338
+    },
+    {
+      "raw_name": "The Dreadfort",
+      "slug": "dreadfort",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dreadfort.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 339
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 340
+    },
+    {
+      "raw_name": "Barrowton",
+      "slug": "barrowton",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/barrowton.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 341
+    },
+    {
+      "raw_name": "The Rills",
+      "slug": "rills",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/rills.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 342
+    },
+    {
+      "raw_name": "Stony Shore",
+      "slug": "stony-shore",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/stony-shore.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 343
+    },
+    {
+      "raw_name": "Great Wyk",
+      "slug": "great-wyk",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/great-wyk.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 344
+    },
+    {
+      "raw_name": "Pyke",
+      "slug": "pyke",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pyke.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 345
+    },
+    {
+      "raw_name": "Iron Islands",
+      "slug": "iron-islands",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/iron-islands.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 346
+    },
+    {
+      "raw_name": "Hornwood",
+      "slug": "hornwood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/hornwood.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 347
+    },
+    {
+      "raw_name": "The cold salt sea (eastern shore)",
+      "slug": "the-cold-salt-sea",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 348
+    },
+    {
+      "raw_name": "House Bolton",
+      "slug": "house-bolton",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-bolton.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 351
+    },
+    {
+      "raw_name": "House Greyjoy",
+      "slug": "house-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-greyjoy.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 352
+    },
+    {
+      "raw_name": "House Stark",
+      "slug": "house-stark",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-stark.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 353
+    },
+    {
+      "raw_name": "House Frey",
+      "slug": "house-frey",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-frey.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 354
+    },
+    {
+      "raw_name": "House Ryswell",
+      "slug": "house-ryswell",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-ryswell.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 355
+    },
+    {
+      "raw_name": "House Codd",
+      "slug": "house-codd",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-codd.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 356
+    },
+    {
+      "raw_name": "House Karstark",
+      "slug": "house-karstark",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-karstark.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 357
+    },
+    {
+      "raw_name": "House Umber",
+      "slug": "house-umber",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-umber.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 358
+    },
+    {
+      "raw_name": "House Glover",
+      "slug": "house-glover",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-glover.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 359
+    },
+    {
+      "raw_name": "House Tallhart",
+      "slug": "house-tallhart",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-tallhart.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 360
+    },
+    {
+      "raw_name": "House Humble",
+      "slug": "house-humble",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-humble.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 361
+    },
+    {
+      "raw_name": "Ironborn garrison of Moat Cailin",
+      "slug": "ironborn-garrison-of-moat-cailin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 364
+    },
+    {
+      "raw_name": "Ramsay's men / Bastard's Boys (Damon Dance-for-Me, Skinner, Sour Alyn, Yellow Dick, Grunt)",
+      "slug": "ramsays-men-bastards-boys",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 365
+    },
+    {
+      "raw_name": "Dreadfort men",
+      "slug": "dreadfort-men",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 366
+    },
+    {
+      "raw_name": "Barrowton host",
+      "slug": "barrowton-host",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 367
+    },
+    {
+      "raw_name": "Iron Fleet (referenced — Victarion's fleet)",
+      "slug": "iron-fleet",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/iron-fleet.node.md",
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 368
+    },
+    {
+      "raw_name": "Crannogmen / bog devils (Fenn, Reed, Peat, Boggs, Cray, Quagg, Greengood, Blackmyre)",
+      "slug": "crannogmen-bog-devils",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 369
+    },
+    {
+      "raw_name": "The Drowned God (referenced — Reek suggests giving the dead to the Drowned God)",
+      "slug": "drowned-god",
+      "resolved_via": "direct",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/drowned-god.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 372
+    },
+    {
+      "raw_name": "The storm god (depicted on Ralf Kenning's shield)",
+      "slug": "storm-god",
+      "resolved_via": "direct",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/storm-god.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 373
+    },
+    {
+      "raw_name": "Unnamed gods (\"The gods are laughing\" — Ramsay)",
+      "slug": "unnamed-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 374
+    },
+    {
+      "raw_name": "The Faith of the Seven (implied — \"Seven is a sacred number\")",
+      "slug": "faith-of-the-seven",
+      "resolved_via": "direct",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/faith-of-the-seven.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 375
+    },
+    {
+      "raw_name": "Ironborn",
+      "slug": "ironborn",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/ironborn.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 378
+    },
+    {
+      "raw_name": "Northmen",
+      "slug": "northmen",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/northmen.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 379
+    },
+    {
+      "raw_name": "Crannogmen / bog devils / swamp-dwellers / frog-eaters / mud-men",
+      "slug": "crannogmen-bog-devils-swamp-dwellers-frog-eaters-mud-men",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 380
+    },
+    {
+      "raw_name": "Freys (as a military-cultural bloc)",
+      "slug": "freys",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 381
+    },
+    {
+      "raw_name": "Peace banner on pinewood staff",
+      "slug": "peace-banner-on-pinewood-staff",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 384
+    },
+    {
+      "raw_name": "Ramsay's letter/parchment with pink wax seal (safe conduct)",
+      "slug": "ramsays-letter-parchment-with-pink-wax-seal",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 385
+    },
+    {
+      "raw_name": "Ralf Kenning's sword",
+      "slug": "ralf-kennings-sword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 386
+    },
+    {
+      "raw_name": "Ralf Kenning's axe",
+      "slug": "ralf-kennings-axe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 387
+    },
+    {
+      "raw_name": "Ralf Kenning's mail hauberk",
+      "slug": "ralf-kennings-mail-hauberk",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 388
+    },
+    {
+      "raw_name": "Ralf Kenning's iron warhelm",
+      "slug": "ralf-kennings-iron-warhelm",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 389
+    },
+    {
+      "raw_name": "Ralf Kenning's shield (storm god's cloudy hand with lightning)",
+      "slug": "ralf-kennings-shield",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 390
+    },
+    {
+      "raw_name": "Adrack Humble's throwing axes",
+      "slug": "adrack-humbles-throwing-axes",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 391
+    },
+    {
+      "raw_name": "Reek's black leather gloves (stuffed with wool)",
+      "slug": "reeks-black-leather-gloves",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 392
+    },
+    {
+      "raw_name": "Golden kraken banner",
+      "slug": "golden-kraken-banner",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 393
+    },
+    {
+      "raw_name": "Bolton flayed man banner",
+      "slug": "bolton-flayed-man-banner",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 394
+    },
+    {
+      "raw_name": "Reek's collar and chain",
+      "slug": "reeks-collar-and-chain",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 395
+    },
+    {
+      "raw_name": "Enclosed wagon with dark blue velvet curtains",
+      "slug": "enclosed-wagon-with-dark-blue-velvet-curtains",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 396
+    },
+    {
+      "raw_name": "Ermine cloak with silver wolf's head clasp",
+      "slug": "ermine-cloak-with-silver-wolfs-head-clasp",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 397
+    },
+    {
+      "raw_name": "Decoy armor (dark grey plate, blood-red leather tunic, screaming-head rondels, pink cloak with blood droplets, closed helm with red silk streamers)",
+      "slug": "decoy-armor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 398
+    },
+    {
+      "raw_name": "Silver codfish brooches (Codd men)",
+      "slug": "silver-codfish-brooches",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 399
+    },
+    {
+      "raw_name": "Blood-bloom flowers (pale petals growing from corpses)",
+      "slug": "blood-bloom-flowers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 400
+    },
+    {
+      "raw_name": "Crude litters (for wounded ironborn)",
+      "slug": "crude-litters",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 401
+    },
+    {
+      "raw_name": "Poisoned arrows of the crannogmen (shafts smeared with shit and worse; caused Ralf Kenning's fatal infection despite treatment with boiling wine)",
+      "slug": "poisoned-arrows-of-the-crannogmen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 407
+    },
+    {
+      "raw_name": "Blood-bloom flowers (pale flowers growing from corpses' wounds)",
+      "slug": "blood-bloom-flowers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 408
+    },
+    {
+      "raw_name": "The hammer of the waters (legend referenced — children of the forest called it down at the Children's Tower to break the lands of Westeros in two)",
+      "slug": "the-hammer-of-the-waters",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 409
+    },
+    {
+      "raw_name": "War of the Five Kings (implicit — Robb's campaign south, the current military situation)",
+      "slug": "war-of-the-five-kings",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/war-of-the-five-kings.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 412
+    },
+    {
+      "raw_name": "Greyjoy's Rebellion (referenced — \"Lord Balon bent the knee when Robert broke his wall\")",
+      "slug": "greyjoys-rebellion",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/greyjoys-rebellion.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 413
+    },
+    {
+      "raw_name": "The kingsmoot (referenced — crowned Euron over Victarion)",
+      "slug": "the-kingsmoot",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 414
+    },
+    {
+      "raw_name": "Siege/defense of Moat Cailin (the ironborn garrison's prolonged holding action)",
+      "slug": "siege-defense-of-moat-cailin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 415
+    },
+    {
+      "raw_name": "Lord of the Hornwood (Ramsay Bolton's title)",
+      "slug": "lord-of-the-hornwood",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord-of-the-hornwood.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 418
+    },
+    {
+      "raw_name": "Heir to the Dreadfort (Ramsay Bolton)",
+      "slug": "heir-to-the-dreadfort",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 419
+    },
+    {
+      "raw_name": "Lord of the Dreadfort (Roose Bolton)",
+      "slug": "lord-of-the-dreadfort",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord-of-the-dreadfort.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 420
+    },
+    {
+      "raw_name": "Prince (Theon's claimed rank among the ironborn)",
+      "slug": "prince",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/prince.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 421
+    },
+    {
+      "raw_name": "Captain (unnamed — the one who put Kenning in command)",
+      "slug": "captain",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 422
+    },
+    {
+      "raw_name": "Children of the forest (referenced in legend — called down the hammer of the waters at Moat Cailin)",
+      "slug": "children-of-the-forest",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/children-of-the-forest.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 425
+    },
+    {
+      "raw_name": "Lizard lions (fauna of the Neck — teeth like daggers)",
+      "slug": "lizard-lions",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 426
+    },
+    {
+      "raw_name": "Ghostskin (white slimy streamers on Moat Cailin's walls)",
+      "slug": "ghostskin",
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/ghostskin.node.md",
+      "section": "Raw Entity List > Other",
+      "line": 427
+    },
+    {
+      "raw_name": "Rock wife / salt wives (ironborn marriage customs — Adrack Humble has one rock wife and three salt wives)",
+      "slug": "rock-wife-salt-wives",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 428
+    },
+    {
+      "raw_name": "Kingsmoot (ironborn custom for choosing a king)",
+      "slug": "kingsmoot",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 429
+    }
+  ]
+}

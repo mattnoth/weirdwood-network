@@ -1,0 +1,1798 @@
+{
+  "chapter_id": "acok-theon-01",
+  "book": "acok",
+  "pov_character": "theon",
+  "generated_at": "2026-05-07T02:06:34.373501+00:00",
+  "extraction_path": "extractions/mechanical/acok/acok-theon-01.extraction.md",
+  "stats": {
+    "total_mentions": 198,
+    "resolved_to_node": 141,
+    "direct": 133,
+    "alias": 8,
+    "unresolved": 57
+  },
+  "mentions": [
+    {
+      "raw_name": "Theon Greyjoy",
+      "slug": "theon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/theon-greyjoy.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Captain's daughter (unnamed)",
+      "slug": "captains-daughter",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/captains-daughter.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Captain of the Myraham (unnamed)",
+      "slug": "captain-of-the-myraham",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/captain-of-the-myraham.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Aeron Greyjoy (Damphair)",
+      "slug": "aeron-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aeron-greyjoy.node.md",
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Innkeeper at Lordsport (unnamed)",
+      "slug": "innkeeper-at-lordsport",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Helya",
+      "slug": "helya",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/helya.node.md",
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Guard at Sea Tower (unnamed)",
+      "slug": "guard-at-sea-tower",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 33
+    },
+    {
+      "raw_name": "Balon Greyjoy",
+      "slug": "balon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/balon-greyjoy.node.md",
+      "section": "Characters Present",
+      "line": 34
+    },
+    {
+      "raw_name": "Stableman (unnamed)",
+      "slug": "stableman",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 35
+    },
+    {
+      "raw_name": "Theon Greyjoy",
+      "slug": "theon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/theon-greyjoy.node.md",
+      "section": "Character Appearances",
+      "line": 40
+    },
+    {
+      "raw_name": "Captain's daughter",
+      "slug": "captains-daughter",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/captains-daughter.node.md",
+      "section": "Character Appearances",
+      "line": 41
+    },
+    {
+      "raw_name": "Captain of the Myraham",
+      "slug": "captain-of-the-myraham",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/captain-of-the-myraham.node.md",
+      "section": "Character Appearances",
+      "line": 42
+    },
+    {
+      "raw_name": "Aeron Greyjoy",
+      "slug": "aeron-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aeron-greyjoy.node.md",
+      "section": "Character Appearances",
+      "line": 43
+    },
+    {
+      "raw_name": "Balon Greyjoy",
+      "slug": "balon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/balon-greyjoy.node.md",
+      "section": "Character Appearances",
+      "line": 44
+    },
+    {
+      "raw_name": "Helya",
+      "slug": "helya",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/helya.node.md",
+      "section": "Character Appearances",
+      "line": 45
+    },
+    {
+      "raw_name": "Eddard Stark (Ned Stark)",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 50
+    },
+    {
+      "raw_name": "Robert Baratheon",
+      "slug": "robert-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robert-baratheon.node.md",
+      "section": "Characters Referenced",
+      "line": 51
+    },
+    {
+      "raw_name": "Robb Stark",
+      "slug": "robb-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 52
+    },
+    {
+      "raw_name": "Rodrik Greyjoy",
+      "slug": "rodrik-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rodrik-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 53
+    },
+    {
+      "raw_name": "Maron Greyjoy",
+      "slug": "maron-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/maron-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 54
+    },
+    {
+      "raw_name": "Euron Greyjoy",
+      "slug": "euron-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/euron-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 55
+    },
+    {
+      "raw_name": "Victarion Greyjoy",
+      "slug": "victarion-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/victarion-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 56
+    },
+    {
+      "raw_name": "Asha Greyjoy",
+      "slug": "asha-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/asha-greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 57
+    },
+    {
+      "raw_name": "Lady Greyjoy (Theon's mother)",
+      "slug": "greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/greyjoy.node.md",
+      "section": "Characters Referenced",
+      "line": 58
+    },
+    {
+      "raw_name": "Dagmer Cleftjaw",
+      "slug": "dagmer",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dagmer.node.md",
+      "section": "Characters Referenced",
+      "line": 59
+    },
+    {
+      "raw_name": "Sylas Sourmouth",
+      "slug": "sylas-sourmouth",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sylas-sourmouth.node.md",
+      "section": "Characters Referenced",
+      "line": 60
+    },
+    {
+      "raw_name": "Maester Qalen",
+      "slug": "qalen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qalen.node.md",
+      "section": "Characters Referenced",
+      "line": 61
+    },
+    {
+      "raw_name": "Wendamyr",
+      "slug": "wendamyr",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/wendamyr.node.md",
+      "section": "Characters Referenced",
+      "line": 62
+    },
+    {
+      "raw_name": "Lord Sawane Botley",
+      "slug": "sawane-botley",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sawane-botley.node.md",
+      "section": "Characters Referenced",
+      "line": 63
+    },
+    {
+      "raw_name": "Jason Mallister",
+      "slug": "jason-mallister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jason-mallister.node.md",
+      "section": "Characters Referenced",
+      "line": 64
+    },
+    {
+      "raw_name": "Patrek Mallister",
+      "slug": "patrek-mallister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/patrek-mallister.node.md",
+      "section": "Characters Referenced",
+      "line": 65
+    },
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Characters Referenced",
+      "line": 66
+    },
+    {
+      "raw_name": "Catelyn Stark (Lady Stark)",
+      "slug": "catelyn-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/catelyn-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 67
+    },
+    {
+      "raw_name": "Aegon the Dragon / Aegon the Conqueror",
+      "slug": "aegon-the-dragon-aegon-the-conqueror",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 68
+    },
+    {
+      "raw_name": "Black Harren (Harren the Black)",
+      "slug": "black-harren",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 69
+    },
+    {
+      "raw_name": "Urron Redhand",
+      "slug": "urron-greyiron",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/urron-greyiron.node.md",
+      "section": "Characters Referenced",
+      "line": 70
+    },
+    {
+      "raw_name": "Stafford Lannister (Ser)",
+      "slug": "stafford-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stafford-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 71
+    },
+    {
+      "raw_name": "Tywin Lannister (Lord)",
+      "slug": "tywin-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tywin-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 72
+    },
+    {
+      "raw_name": "Jaime Lannister (The Kingslayer)",
+      "slug": "jaime-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaime-lannister.node.md",
+      "section": "Characters Referenced",
+      "line": 73
+    },
+    {
+      "raw_name": "Brynden Blackfish",
+      "slug": "brynden-tully",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brynden-tully.node.md",
+      "section": "Characters Referenced",
+      "line": 74
+    },
+    {
+      "raw_name": "Greatjon Umber",
+      "slug": "jon-umber",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-umber.node.md",
+      "section": "Characters Referenced",
+      "line": 75
+    },
+    {
+      "raw_name": "Sons of the River King",
+      "slug": "sons-of-the-river-king",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 76
+    },
+    {
+      "raw_name": "Pyke (castle)",
+      "slug": "pyke",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pyke.node.md",
+      "section": "Locations",
+      "line": 81
+    },
+    {
+      "raw_name": "Sea Tower",
+      "slug": "sea-tower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sea-tower.node.md",
+      "section": "Locations",
+      "line": 82
+    },
+    {
+      "raw_name": "Great Keep",
+      "slug": "great-keep",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 83
+    },
+    {
+      "raw_name": "Kitchen Keep",
+      "slug": "kitchen-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kitchen-keep.node.md",
+      "section": "Locations",
+      "line": 84
+    },
+    {
+      "raw_name": "Bloody Keep",
+      "slug": "bloody-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bloody-keep.node.md",
+      "section": "Locations",
+      "line": 85
+    },
+    {
+      "raw_name": "Lordsport",
+      "slug": "lordsport",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lordsport.node.md",
+      "section": "Locations",
+      "line": 86
+    },
+    {
+      "raw_name": "The Myraham",
+      "slug": "myraham",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/myraham.node.md",
+      "section": "Locations",
+      "line": 87
+    },
+    {
+      "raw_name": "Botley castle",
+      "slug": "botley-castle",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 88
+    },
+    {
+      "raw_name": "Iron Islands",
+      "slug": "iron-islands",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/iron-islands.node.md",
+      "section": "Locations",
+      "line": 89
+    },
+    {
+      "raw_name": "Seagard",
+      "slug": "seagard",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/seagard.node.md",
+      "section": "Locations",
+      "line": 90
+    },
+    {
+      "raw_name": "Riverrun",
+      "slug": "riverrun",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/riverrun.node.md",
+      "section": "Locations",
+      "line": 91
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Locations",
+      "line": 92
+    },
+    {
+      "raw_name": "Great Wyk",
+      "slug": "great-wyk",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/great-wyk.node.md",
+      "section": "Locations",
+      "line": 93
+    },
+    {
+      "raw_name": "Old Wyk",
+      "slug": "old-wyk",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/old-wyk.node.md",
+      "section": "Locations",
+      "line": 94
+    },
+    {
+      "raw_name": "Harlaw",
+      "slug": "harlaw",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/harlaw.node.md",
+      "section": "Locations",
+      "line": 95
+    },
+    {
+      "raw_name": "Oldtown",
+      "slug": "oldtown",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/oldtown.node.md",
+      "section": "Locations",
+      "line": 96
+    },
+    {
+      "raw_name": "Harrenhal",
+      "slug": "harrenhal",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/harrenhal.node.md",
+      "section": "Locations",
+      "line": 97
+    },
+    {
+      "raw_name": "Golden Tooth",
+      "slug": "golden-tooth",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/golden-tooth.node.md",
+      "section": "Locations",
+      "line": 98
+    },
+    {
+      "raw_name": "Lannisport",
+      "slug": "lannisport",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lannisport.node.md",
+      "section": "Locations",
+      "line": 99
+    },
+    {
+      "raw_name": "Casterly Rock",
+      "slug": "casterly-rock",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/casterly-rock.node.md",
+      "section": "Locations",
+      "line": 100
+    },
+    {
+      "raw_name": "Pyke (castle)",
+      "slug": "pyke",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pyke.node.md",
+      "section": "Location Descriptions",
+      "line": 105
+    },
+    {
+      "raw_name": "Sea Tower",
+      "slug": "sea-tower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sea-tower.node.md",
+      "section": "Location Descriptions",
+      "line": 106
+    },
+    {
+      "raw_name": "Bloody Keep",
+      "slug": "bloody-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bloody-keep.node.md",
+      "section": "Location Descriptions",
+      "line": 107
+    },
+    {
+      "raw_name": "Great Keep",
+      "slug": "great-keep",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 108
+    },
+    {
+      "raw_name": "Lordsport",
+      "slug": "lordsport",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lordsport.node.md",
+      "section": "Location Descriptions",
+      "line": 109
+    },
+    {
+      "raw_name": "The Myraham",
+      "slug": "myraham",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/myraham.node.md",
+      "section": "Location Descriptions",
+      "line": 110
+    },
+    {
+      "raw_name": "Seagard",
+      "slug": "seagard",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/seagard.node.md",
+      "section": "Location Descriptions",
+      "line": 111
+    },
+    {
+      "raw_name": "Botley castle",
+      "slug": "botley-castle",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 112
+    },
+    {
+      "raw_name": "Robb Stark's letter",
+      "slug": "robb-starks-letter",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 117
+    },
+    {
+      "raw_name": "Gold chain/necklace",
+      "slug": "gold-chain-necklace",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 118
+    },
+    {
+      "raw_name": "Theon's yew bow and quiver of arrows",
+      "slug": "theons-yew-bow-and-quiver-of-arrows",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 119
+    },
+    {
+      "raw_name": "Greyjoy banner",
+      "slug": "greyjoy-banner",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 120
+    },
+    {
+      "raw_name": "Great Kraken (ship)",
+      "slug": "great-kraken",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/great-kraken.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 121
+    },
+    {
+      "raw_name": "Silence (ship)",
+      "slug": "silence",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/silence.node.md",
+      "section": "Artifacts & Objects of Significance",
+      "line": 122
+    },
+    {
+      "raw_name": "Black Wind (ship)",
+      "slug": "black-wind",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 123
+    },
+    {
+      "raw_name": "The red comet",
+      "slug": "the-red-comet",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 124
+    },
+    {
+      "raw_name": "Oilskin pouch",
+      "slug": "oilskin-pouch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 125
+    },
+    {
+      "raw_name": "Silver clasp",
+      "slug": "silver-clasp",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 126
+    },
+    {
+      "raw_name": "Dirk and longsword",
+      "slug": "dirk-and-longsword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 127
+    },
+    {
+      "raw_name": "Aeron's waterskin",
+      "slug": "aerons-waterskin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 128
+    },
+    {
+      "raw_name": "Bronze bell of Seagard (Booming Tower)",
+      "slug": "bronze-bell-of-seagard",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 129
+    },
+    {
+      "raw_name": "Theon Greyjoy",
+      "slug": "theon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/theon-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 288
+    },
+    {
+      "raw_name": "Balon Greyjoy",
+      "slug": "balon-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/balon-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 289
+    },
+    {
+      "raw_name": "Aeron Greyjoy (Damphair)",
+      "slug": "aeron-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aeron-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 290
+    },
+    {
+      "raw_name": "Asha Greyjoy",
+      "slug": "asha-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/asha-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 291
+    },
+    {
+      "raw_name": "Euron Greyjoy",
+      "slug": "euron-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/euron-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 292
+    },
+    {
+      "raw_name": "Victarion Greyjoy",
+      "slug": "victarion-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/victarion-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 293
+    },
+    {
+      "raw_name": "Lady Greyjoy (Theon's mother, unnamed)",
+      "slug": "greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 294
+    },
+    {
+      "raw_name": "Rodrik Greyjoy (dead)",
+      "slug": "rodrik-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rodrik-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 295
+    },
+    {
+      "raw_name": "Maron Greyjoy (dead)",
+      "slug": "maron-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/maron-greyjoy.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 296
+    },
+    {
+      "raw_name": "Captain's daughter (unnamed)",
+      "slug": "captains-daughter",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/captains-daughter.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 297
+    },
+    {
+      "raw_name": "Captain of the Myraham (unnamed)",
+      "slug": "captain-of-the-myraham",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/captain-of-the-myraham.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 298
+    },
+    {
+      "raw_name": "Helya",
+      "slug": "helya",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/helya.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 299
+    },
+    {
+      "raw_name": "Wendamyr (maester)",
+      "slug": "wendamyr",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/wendamyr.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 300
+    },
+    {
+      "raw_name": "Sylas Sourmouth (dead)",
+      "slug": "sylas-sourmouth",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sylas-sourmouth.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 301
+    },
+    {
+      "raw_name": "Maester Qalen (dead)",
+      "slug": "qalen",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qalen.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 302
+    },
+    {
+      "raw_name": "Dagmer Cleftjaw",
+      "slug": "dagmer",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/dagmer.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 303
+    },
+    {
+      "raw_name": "Eddard Stark (Ned Stark, dead)",
+      "slug": "eddard-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 304
+    },
+    {
+      "raw_name": "Robb Stark",
+      "slug": "robb-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 305
+    },
+    {
+      "raw_name": "Jon Snow",
+      "slug": "jon-snow",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-snow.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 306
+    },
+    {
+      "raw_name": "Catelyn Stark (Lady Stark)",
+      "slug": "catelyn-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/catelyn-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 307
+    },
+    {
+      "raw_name": "Robert Baratheon (dead)",
+      "slug": "robert-baratheon",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robert-baratheon.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 308
+    },
+    {
+      "raw_name": "Jason Mallister",
+      "slug": "jason-mallister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jason-mallister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 309
+    },
+    {
+      "raw_name": "Patrek Mallister",
+      "slug": "patrek-mallister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/patrek-mallister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 310
+    },
+    {
+      "raw_name": "Brynden Blackfish",
+      "slug": "brynden-tully",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brynden-tully.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 311
+    },
+    {
+      "raw_name": "Greatjon Umber",
+      "slug": "jon-umber",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jon-umber.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 312
+    },
+    {
+      "raw_name": "Tywin Lannister",
+      "slug": "tywin-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tywin-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 313
+    },
+    {
+      "raw_name": "Jaime Lannister (The Kingslayer)",
+      "slug": "jaime-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jaime-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 314
+    },
+    {
+      "raw_name": "Stafford Lannister",
+      "slug": "stafford-lannister",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/stafford-lannister.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 315
+    },
+    {
+      "raw_name": "Lord Sawane Botley",
+      "slug": "sawane-botley",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sawane-botley.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 316
+    },
+    {
+      "raw_name": "Aegon the Conqueror / Aegon the Dragon (historical)",
+      "slug": "aegon-the-conqueror-aegon-the-dragon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 317
+    },
+    {
+      "raw_name": "Harren the Black / Black Harren (historical)",
+      "slug": "harren-the-black-black-harren",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 318
+    },
+    {
+      "raw_name": "Urron Redhand (historical)",
+      "slug": "urron-greyiron",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/urron-greyiron.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 319
+    },
+    {
+      "raw_name": "Sons of the River King (historical, unnamed)",
+      "slug": "sons-of-the-river-king",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 320
+    },
+    {
+      "raw_name": "Guard at Sea Tower door (unnamed)",
+      "slug": "guard-at-sea-tower-door",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 321
+    },
+    {
+      "raw_name": "Innkeeper at Lordsport (unnamed)",
+      "slug": "innkeeper-at-lordsport",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 322
+    },
+    {
+      "raw_name": "Stableman at Pyke (unnamed)",
+      "slug": "stableman-at-pyke",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 323
+    },
+    {
+      "raw_name": "Slattern at the inn window (unnamed)",
+      "slug": "slattern-at-the-inn-window",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 324
+    },
+    {
+      "raw_name": "Priest of the Drowned God leading horses (this is Aeron before identified)",
+      "slug": "priest-of-the-drowned-god-leading-horses",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 325
+    },
+    {
+      "raw_name": "Pyke (castle)",
+      "slug": "pyke",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/pyke.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 328
+    },
+    {
+      "raw_name": "Sea Tower",
+      "slug": "sea-tower",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sea-tower.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 329
+    },
+    {
+      "raw_name": "Great Keep",
+      "slug": "great-keep",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 330
+    },
+    {
+      "raw_name": "Kitchen Keep",
+      "slug": "kitchen-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/kitchen-keep.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 331
+    },
+    {
+      "raw_name": "Bloody Keep",
+      "slug": "bloody-keep",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bloody-keep.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 332
+    },
+    {
+      "raw_name": "Lordsport",
+      "slug": "lordsport",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lordsport.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 333
+    },
+    {
+      "raw_name": "Lordsport inn",
+      "slug": "lordsport-inn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 334
+    },
+    {
+      "raw_name": "Lordsport harbor",
+      "slug": "lordsport-harbor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 335
+    },
+    {
+      "raw_name": "Botley castle",
+      "slug": "botley-castle",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 336
+    },
+    {
+      "raw_name": "Iron Islands",
+      "slug": "iron-islands",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/iron-islands.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 337
+    },
+    {
+      "raw_name": "Seagard",
+      "slug": "seagard",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/seagard.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 338
+    },
+    {
+      "raw_name": "Booming Tower (at Seagard)",
+      "slug": "booming-tower",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 339
+    },
+    {
+      "raw_name": "Riverrun",
+      "slug": "riverrun",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/riverrun.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 340
+    },
+    {
+      "raw_name": "Winterfell",
+      "slug": "winterfell",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/winterfell.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 341
+    },
+    {
+      "raw_name": "Great Wyk",
+      "slug": "great-wyk",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/great-wyk.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 342
+    },
+    {
+      "raw_name": "Old Wyk",
+      "slug": "old-wyk",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/old-wyk.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 343
+    },
+    {
+      "raw_name": "Harlaw",
+      "slug": "harlaw",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/harlaw.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 344
+    },
+    {
+      "raw_name": "Oldtown",
+      "slug": "oldtown",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/oldtown.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 345
+    },
+    {
+      "raw_name": "Harrenhal",
+      "slug": "harrenhal",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/harrenhal.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 346
+    },
+    {
+      "raw_name": "Golden Tooth",
+      "slug": "golden-tooth",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/golden-tooth.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 347
+    },
+    {
+      "raw_name": "Lannisport",
+      "slug": "lannisport",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lannisport.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 348
+    },
+    {
+      "raw_name": "Casterly Rock",
+      "slug": "casterly-rock",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/casterly-rock.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 349
+    },
+    {
+      "raw_name": "The Myraham (ship)",
+      "slug": "myraham",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/myraham.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 350
+    },
+    {
+      "raw_name": "Summer Isles (referenced as source of feathers)",
+      "slug": "summer-isles",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/summer-isles.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 351
+    },
+    {
+      "raw_name": "Myr (referenced — Myrish lace)",
+      "slug": "myr",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/myr.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 352
+    },
+    {
+      "raw_name": "Tyrosh (referenced — Tyroshi trading galley)",
+      "slug": "tyrosh",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/tyrosh.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 353
+    },
+    {
+      "raw_name": "Ibben (referenced — Ibbenese cog)",
+      "slug": "ibben",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ibben.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 354
+    },
+    {
+      "raw_name": "House Greyjoy",
+      "slug": "house-greyjoy",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-greyjoy.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 357
+    },
+    {
+      "raw_name": "House Stark",
+      "slug": "house-stark",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-stark.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 358
+    },
+    {
+      "raw_name": "House Baratheon",
+      "slug": "house-baratheon",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-baratheon.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 359
+    },
+    {
+      "raw_name": "House Mallister",
+      "slug": "house-mallister",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-mallister.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 360
+    },
+    {
+      "raw_name": "House Lannister",
+      "slug": "house-lannister",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-lannister.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 361
+    },
+    {
+      "raw_name": "House Botley",
+      "slug": "house-botley",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-botley.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 362
+    },
+    {
+      "raw_name": "House Wynch",
+      "slug": "house-wynch",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-wynch.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 363
+    },
+    {
+      "raw_name": "House Goodbrother",
+      "slug": "house-goodbrother",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-goodbrother.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 364
+    },
+    {
+      "raw_name": "House Harlaw",
+      "slug": "house-harlaw",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-harlaw.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 365
+    },
+    {
+      "raw_name": "House Stonehouse",
+      "slug": "house-stonehouse",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-stonehouse.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 366
+    },
+    {
+      "raw_name": "House Drumm",
+      "slug": "house-drumm",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-drumm.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 367
+    },
+    {
+      "raw_name": "Drowned God (ironborn faith; Aeron is priest; seawater blessing ritual; \"What is dead may never die, but rises again, harder and stronger\"; seaweed in hair; the Drowned God \"brought flame from the sea\")",
+      "slug": "drowned-god",
+      "resolved_via": "direct",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/drowned-god.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 373
+    },
+    {
+      "raw_name": "The Faith of the Seven (sept at Lordsport destroyed and never rebuilt; \"the new gods\" whose taste was soured by Robert's fury)",
+      "slug": "faith-of-the-seven",
+      "resolved_via": "direct",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/faith-of-the-seven.node.md",
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 374
+    },
+    {
+      "raw_name": "Old Gods / wolf gods (Aeron asks if Theon prays to \"wolf gods\"; Ned Stark \"prayed to a tree\")",
+      "slug": "old-gods-wolf-gods",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 375
+    },
+    {
+      "raw_name": "Ironborn / Ironmen (extensively described: the Old Way, salt wives, rock wives, reaving, iron price vs. gold price, mining, fishing, farming; \"hard places breed hard men\")",
+      "slug": "ironborn-ironmen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 378
+    },
+    {
+      "raw_name": "Rivermen / weakling rivermen (Aegon gave Harren's kingdom to them)",
+      "slug": "rivermen-weakling-rivermen",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 379
+    },
+    {
+      "raw_name": "Tyroshi (trading galley at Lordsport)",
+      "slug": "tyroshi",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/tyroshi.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 380
+    },
+    {
+      "raw_name": "Ibbenese (cog with black-tarred hull)",
+      "slug": "ibbenese",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/ibbenese.node.md",
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 381
+    },
+    {
+      "raw_name": "Southron/Southerners (captain described as \"fat-bellied southron merchanter\")",
+      "slug": "southron-southerners",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Cultures & Peoples",
+      "line": 382
+    },
+    {
+      "raw_name": "Robb Stark's letter (burned)",
+      "slug": "robb-starks-letter",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 385
+    },
+    {
+      "raw_name": "Gold chain/necklace (broken, burned)",
+      "slug": "gold-chain-necklace",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 386
+    },
+    {
+      "raw_name": "Theon's yew bow and quiver",
+      "slug": "theons-yew-bow-and-quiver",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 387
+    },
+    {
+      "raw_name": "Oilskin pouch",
+      "slug": "oilskin-pouch",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 388
+    },
+    {
+      "raw_name": "Silver clasp",
+      "slug": "silver-clasp",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 389
+    },
+    {
+      "raw_name": "Dirk and longsword (black-and-gold scabbards)",
+      "slug": "dirk-and-longsword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 390
+    },
+    {
+      "raw_name": "Aeron's waterskin",
+      "slug": "aerons-waterskin",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 391
+    },
+    {
+      "raw_name": "Greyjoy banner (golden kraken on black field)",
+      "slug": "greyjoy-banner",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 392
+    },
+    {
+      "raw_name": "Great Kraken (Balon's ship, grey iron ram bow)",
+      "slug": "great-kraken",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/great-kraken.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 393
+    },
+    {
+      "raw_name": "Silence (Euron's red ship — absent)",
+      "slug": "silence",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/silence.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 394
+    },
+    {
+      "raw_name": "Black Wind (Asha's longship — absent)",
+      "slug": "black-wind",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 395
+    },
+    {
+      "raw_name": "Bronze bell of Seagard (Booming Tower)",
+      "slug": "bronze-bell-of-seagard",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 396
+    },
+    {
+      "raw_name": "Musty sealskins robe (Balon's)",
+      "slug": "musty-sealskins-robe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 397
+    },
+    {
+      "raw_name": "Iron mast (atop Sea Tower)",
+      "slug": "iron-mast",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 398
+    },
+    {
+      "raw_name": "Whetstone (Theon's)",
+      "slug": "whetstone",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 399
+    },
+    {
+      "raw_name": "Black iron breastplate and pothelm (guard's armor)",
+      "slug": "black-iron-breastplate-and-pothelm",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 400
+    },
+    {
+      "raw_name": "Robb Stark's letter/parchment (alliance proposal — burned)",
+      "slug": "robb-starks-letter-parchment",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 403
+    },
+    {
+      "raw_name": "Lord Balon's rare curt letters to Theon (mentioned)",
+      "slug": "lord-balons-rare-curt-letters-to-theon",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 404
+    },
+    {
+      "raw_name": "Old reaving songs (Aeron used to sing them standing on tables)",
+      "slug": "old-reaving-songs",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 405
+    },
+    {
+      "raw_name": "Old red tales (told around driftwood fires and smoky hearths)",
+      "slug": "old-red-tales",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 406
+    },
+    {
+      "raw_name": "The red comet (visible in sky; interpreted variously: Mallisters argue its meaning; Theon claims it as his; Aeron says it is a burning brand from the Drowned God proclaiming a rising tide)",
+      "slug": "the-red-comet",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 409
+    },
+    {
+      "raw_name": "Greyjoy Rebellion (Balon's rebellion — referenced extensively: Robert besieged Pyke, Ned Stark at his side; Rodrik killed at Seagard; Maron crushed; south tower collapsed; Theon taken as hostage)",
+      "slug": "greyjoy-rebellion",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/greyjoy-rebellion.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 412
+    },
+    {
+      "raw_name": "War of the Five Kings (current: Robb crowned King in the North, broken with Iron Throne, marching west; Kingslayer captive; Tywin at Harrenhal)",
+      "slug": "war-of-the-five-kings",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/war-of-the-five-kings.node.md",
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 413
+    },
+    {
+      "raw_name": "Lord Reaper of Pyke (Balon's title)",
+      "slug": "lord-reaper-of-pyke",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord-reaper-of-pyke.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 416
+    },
+    {
+      "raw_name": "King of Salt and Rock (Balon claims)",
+      "slug": "king-of-salt-and-rock",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/king-of-salt-and-rock.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 417
+    },
+    {
+      "raw_name": "Son of the Sea Wind (Balon claims)",
+      "slug": "son-of-the-sea-wind",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/son-of-the-sea-wind.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 418
+    },
+    {
+      "raw_name": "Lord of the Iron Islands (Balon)",
+      "slug": "lord-of-the-iron-islands",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord-of-the-iron-islands.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 419
+    },
+    {
+      "raw_name": "King in the North (Robb Stark)",
+      "slug": "king-in-the-north",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/king-in-the-north.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 420
+    },
+    {
+      "raw_name": "Lord of Winterfell (Robb Stark, implied)",
+      "slug": "lord-of-winterfell",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord-of-winterfell.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 421
+    },
+    {
+      "raw_name": "Lord of Seagard (Jason Mallister)",
+      "slug": "lord-of-seagard",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord-of-seagard.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 422
+    },
+    {
+      "raw_name": "Hand of the King (not explicitly named but implied in political structure)",
+      "slug": "hand-of-the-king",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/hand-of-the-king.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 423
+    }
+  ]
+}

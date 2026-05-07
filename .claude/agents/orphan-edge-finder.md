@@ -68,7 +68,7 @@ Report each with the redirect chain.
 
 ## Output Contract
 
-Markdown report at `working/audits/orphan-edges-<UTC-DATE>.md`. Structure:
+Markdown report at `working/audits/orphan-edges-<UTC-DATE>/execution/orphan-edges.md`. Structure:
 
 ```markdown
 # Orphan Edges Audit — <UTC date>
@@ -131,6 +131,6 @@ If you find a node whose `## Edges` section is malformed (e.g., bullet lines tha
 
 You exit successfully when:
 - Every edge bullet in every node has been classified (resolves / orphan-cat-1 / orphan-cat-2 / orphan-cat-3)
-- The audit report is written to `working/audits/orphan-edges-<UTC-DATE>.md`
+- The audit report is written to `working/audits/orphan-edges-<UTC-DATE>/execution/orphan-edges.md`
 - Categories are populated with concrete examples and recommendations
 - You produced no output outside the audit report

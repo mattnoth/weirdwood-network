@@ -1,0 +1,718 @@
+{
+  "chapter_id": "asos-arya-11",
+  "book": "asos",
+  "pov_character": "arya",
+  "generated_at": "2026-05-07T02:06:34.396198+00:00",
+  "extraction_path": "extractions/mechanical/asos/asos-arya-11.extraction.md",
+  "stats": {
+    "total_mentions": 78,
+    "resolved_to_node": 33,
+    "direct": 32,
+    "alias": 1,
+    "unresolved": 45
+  },
+  "mentions": [
+    {
+      "raw_name": "Arya Stark",
+      "slug": "arya-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/arya-stark.node.md",
+      "section": "Characters Present",
+      "line": 27
+    },
+    {
+      "raw_name": "Sandor Clegane (the Hound)",
+      "slug": "sandor-clegane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sandor-clegane.node.md",
+      "section": "Characters Present",
+      "line": 28
+    },
+    {
+      "raw_name": "Stranger (horse)",
+      "slug": "stranger",
+      "resolved_via": "direct",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/stranger.node.md",
+      "section": "Characters Present",
+      "line": 29
+    },
+    {
+      "raw_name": "Frey rider 1",
+      "slug": "frey-rider-1",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 30
+    },
+    {
+      "raw_name": "Frey rider 2",
+      "slug": "frey-rider-2",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 31
+    },
+    {
+      "raw_name": "Frey rider 3",
+      "slug": "frey-rider-3",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Present",
+      "line": 32
+    },
+    {
+      "raw_name": "Sandor Clegane",
+      "slug": "sandor-clegane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sandor-clegane.node.md",
+      "section": "Character Appearances",
+      "line": 37
+    },
+    {
+      "raw_name": "Frey rider 3",
+      "slug": "frey-rider-3",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 38
+    },
+    {
+      "raw_name": "Frey riders (general)",
+      "slug": "frey-riders",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Character Appearances",
+      "line": 39
+    },
+    {
+      "raw_name": "Robb Stark",
+      "slug": "robb-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 44
+    },
+    {
+      "raw_name": "Catelyn Stark",
+      "slug": "catelyn-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/catelyn-stark.node.md",
+      "section": "Characters Referenced",
+      "line": 45
+    },
+    {
+      "raw_name": "Syrio Forel",
+      "slug": "syrio-forel",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/syrio-forel.node.md",
+      "section": "Characters Referenced",
+      "line": 46
+    },
+    {
+      "raw_name": "Mycah",
+      "slug": "mycah",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mycah.node.md",
+      "section": "Characters Referenced",
+      "line": 47
+    },
+    {
+      "raw_name": "Tom o' Sevens (Tom of Sevenstreams)",
+      "slug": "tom-of-sevenstreams",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tom-of-sevenstreams.node.md",
+      "section": "Characters Referenced",
+      "line": 48
+    },
+    {
+      "raw_name": "Gendry",
+      "slug": "gendry",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gendry.node.md",
+      "section": "Characters Referenced",
+      "line": 49
+    },
+    {
+      "raw_name": "Lord Walder Frey",
+      "slug": "walder-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/walder-frey.node.md",
+      "section": "Characters Referenced",
+      "line": 50
+    },
+    {
+      "raw_name": "Edmure Tully (inferred)",
+      "slug": "edmure-tully",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/edmure-tully.node.md",
+      "section": "Characters Referenced",
+      "line": 51
+    },
+    {
+      "raw_name": "The sergeant",
+      "slug": "the-sergeant",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 52
+    },
+    {
+      "raw_name": "The brothers (at the brewhouse)",
+      "slug": "the-brothers",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Characters Referenced",
+      "line": 53
+    },
+    {
+      "raw_name": "The Twins (castle complex)",
+      "slug": "twins",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/twins.node.md",
+      "section": "Locations",
+      "line": 58
+    },
+    {
+      "raw_name": "Castle gatehouse",
+      "slug": "castle-gatehouse",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 59
+    },
+    {
+      "raw_name": "Dark stone bridge",
+      "slug": "dark-stone-bridge",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 60
+    },
+    {
+      "raw_name": "The drawbridge",
+      "slug": "the-drawbridge",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 61
+    },
+    {
+      "raw_name": "The feast tents (camp)",
+      "slug": "the-feast-tents",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 62
+    },
+    {
+      "raw_name": "The river",
+      "slug": "the-river",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Locations",
+      "line": 63
+    },
+    {
+      "raw_name": "The Twins",
+      "slug": "twins",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/twins.node.md",
+      "section": "Location Descriptions",
+      "line": 68
+    },
+    {
+      "raw_name": "Feast tents / camp",
+      "slug": "feast-tents-camp",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Location Descriptions",
+      "line": 69
+    },
+    {
+      "raw_name": "The Hound's dog helm",
+      "slug": "the-hounds-dog-helm",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 74
+    },
+    {
+      "raw_name": "Swordbelt (hidden under wayn seat)",
+      "slug": "swordbelt",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 75
+    },
+    {
+      "raw_name": "The wayn",
+      "slug": "the-wayn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 76
+    },
+    {
+      "raw_name": "Longaxe (taken from Frey rider)",
+      "slug": "longaxe",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 77
+    },
+    {
+      "raw_name": "Rock",
+      "slug": "rock",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Artifacts & Objects of Significance",
+      "line": 78
+    },
+    {
+      "raw_name": "Arya Stark",
+      "slug": "arya-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/arya-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 189
+    },
+    {
+      "raw_name": "Sandor Clegane (the Hound)",
+      "slug": "sandor-clegane",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/sandor-clegane.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 190
+    },
+    {
+      "raw_name": "Stranger (the Hound's courser)",
+      "slug": "stranger",
+      "resolved_via": "direct",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/stranger.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 191
+    },
+    {
+      "raw_name": "Robb Stark (referenced)",
+      "slug": "robb-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/robb-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 192
+    },
+    {
+      "raw_name": "Catelyn Stark (referenced)",
+      "slug": "catelyn-stark",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/catelyn-stark.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 193
+    },
+    {
+      "raw_name": "Syrio Forel (referenced)",
+      "slug": "syrio-forel",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/syrio-forel.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 194
+    },
+    {
+      "raw_name": "Mycah (referenced — the butcher's boy)",
+      "slug": "mycah",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mycah.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 195
+    },
+    {
+      "raw_name": "Tom o' Sevens / Tom of Sevenstreams (referenced)",
+      "slug": "tom-o-sevens-tom-of-sevenstreams",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 196
+    },
+    {
+      "raw_name": "Gendry (referenced)",
+      "slug": "gendry",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gendry.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 197
+    },
+    {
+      "raw_name": "Lord Walder Frey (referenced)",
+      "slug": "walder-frey",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/walder-frey.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 198
+    },
+    {
+      "raw_name": "Edmure Tully (referenced as \"her uncle\" — inferred)",
+      "slug": "edmure-tully",
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/edmure-tully.node.md",
+      "section": "Raw Entity List > Characters",
+      "line": 199
+    },
+    {
+      "raw_name": "The sergeant (unnamed, referenced)",
+      "slug": "the-sergeant",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 200
+    },
+    {
+      "raw_name": "Three unnamed Frey riders (present, killed)",
+      "slug": "three-unnamed-frey-riders",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Characters",
+      "line": 201
+    },
+    {
+      "raw_name": "The Twins (both castles)",
+      "slug": "twins",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/twins.node.md",
+      "section": "Raw Entity List > Locations",
+      "line": 204
+    },
+    {
+      "raw_name": "Castle gatehouse",
+      "slug": "castle-gatehouse",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 205
+    },
+    {
+      "raw_name": "Dark stone bridge connecting the Twins",
+      "slug": "dark-stone-bridge-connecting-the-twins",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 206
+    },
+    {
+      "raw_name": "Drawbridge",
+      "slug": "drawbridge",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 207
+    },
+    {
+      "raw_name": "Moat (swollen)",
+      "slug": "moat",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 208
+    },
+    {
+      "raw_name": "Feast tents / camp",
+      "slug": "feast-tents-camp",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 209
+    },
+    {
+      "raw_name": "The river",
+      "slug": "the-river",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 210
+    },
+    {
+      "raw_name": "The brewhouse (referenced — where Tom sang the song)",
+      "slug": "the-brewhouse",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Locations",
+      "line": 211
+    },
+    {
+      "raw_name": "House Frey (the two towers sigil on surcoat; Lord Frey's guardsmen; Frey riders)",
+      "slug": "house-frey",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-frey.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 214
+    },
+    {
+      "raw_name": "House Stark (implied — Arya, Robb, \"she-wolf\")",
+      "slug": "house-stark",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-stark.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 215
+    },
+    {
+      "raw_name": "House Lannister (implied — \"The Rains of Castamere\" is their song; \"a coat of gold or a coat of red\")",
+      "slug": "house-lannister",
+      "resolved_via": "direct",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-lannister.node.md",
+      "section": "Raw Entity List > Houses",
+      "line": 216
+    },
+    {
+      "raw_name": "The outlaws (referenced — Arya sheltered with them at the brewhouse)",
+      "slug": "the-outlaws",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Factions & Organizations",
+      "line": 219
+    },
+    {
+      "raw_name": "The Seven (the Hound's oath: \"Seven bloody buggering hells\")",
+      "slug": "the-seven",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Religions & Faiths",
+      "line": 222
+    },
+    {
+      "raw_name": "The Hound's dog-shaped helm (steel dog, snarling, teeth shining in firelight)",
+      "slug": "the-hounds-dog-shaped-helm",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 228
+    },
+    {
+      "raw_name": "Swordbelt (hidden under wayn seat)",
+      "slug": "swordbelt",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 229
+    },
+    {
+      "raw_name": "Sword (the Hound's — used to cut Stranger loose; breaks in the fight)",
+      "slug": "sword",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 230
+    },
+    {
+      "raw_name": "Longaxes (Frey weapons — spiked heads, heavy blades; the Hound takes one)",
+      "slug": "longaxes",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 231
+    },
+    {
+      "raw_name": "The wayn (cart)",
+      "slug": "the-wayn",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 232
+    },
+    {
+      "raw_name": "Plate armor (on Frey riders and their mounts)",
+      "slug": "plate-armor",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 233
+    },
+    {
+      "raw_name": "Fire arrows",
+      "slug": "fire-arrows",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 234
+    },
+    {
+      "raw_name": "Catapult (castle flinging oil or pitch)",
+      "slug": "catapult",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 235
+    },
+    {
+      "raw_name": "Torches",
+      "slug": "torches",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/torches.node.md",
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 236
+    },
+    {
+      "raw_name": "Rock (Arya's improvised weapon)",
+      "slug": "rock",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 237
+    },
+    {
+      "raw_name": "Sack of dried apples",
+      "slug": "sack-of-dried-apples",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 238
+    },
+    {
+      "raw_name": "Pickled pigs' feet",
+      "slug": "pickled-pigs-feet",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Artifacts & Objects",
+      "line": 239
+    },
+    {
+      "raw_name": "\"The Rains of Castamere\" (played from both castles; lyrics quoted: \"And who are you, the proud lord said, that I must bow so low?\"; \"Only a cat of a different coat, that's all the truth I know\"; \"In a coat of gold or a coat of red, a lion still has claws. And mine are long and sharp, my lord, as long and sharp as yours\"; \"And now the rains weep o'er his hall, with not a soul to hear\")",
+      "slug": "the-rains-of-castamere",
+      "resolved_via": "direct",
+      "node_type": "object.text",
+      "node_path": "graph/nodes/texts/the-rains-of-castamere.node.md",
+      "section": "Raw Entity List > In-world Texts & Songs",
+      "line": 242
+    },
+    {
+      "raw_name": "Possible warging / wolf-sense connection (Arya hears a wolf howl and thinks \"maybe it wasn't her ears that heard it\"; the sound shivered through her \"like a knife, sharp with rage and grief\")",
+      "slug": "possible-warging-wolf-sense-connection",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Magic & Phenomena",
+      "line": 245
+    },
+    {
+      "raw_name": "The Red Wedding / massacre at the Twins (the central event witnessed in this chapter)",
+      "slug": "the-red-wedding-massacre-at-the-twins",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Wars & Conflicts",
+      "line": 248
+    },
+    {
+      "raw_name": "Lord (Lord Frey)",
+      "slug": "lord",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/lord.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 251
+    },
+    {
+      "raw_name": "Ser / knight (knights among the Frey column; \"two knights ride down a running man\")",
+      "slug": "knight",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/knight.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 252
+    },
+    {
+      "raw_name": "Squire (squires in the Frey column)",
+      "slug": "squire",
+      "resolved_via": "direct",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/squire.node.md",
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 253
+    },
+    {
+      "raw_name": "Freerider (freeriders in the Frey column)",
+      "slug": "freerider",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Titles & Offices",
+      "line": 254
+    },
+    {
+      "raw_name": "\"Fear cuts deeper than swords\" (Arya's personal mantra, recalled from Syrio Forel's teaching)",
+      "slug": "fear-cuts-deeper-than-swords",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
+      "section": "Raw Entity List > Other",
+      "line": 257
+    }
+  ]
+}

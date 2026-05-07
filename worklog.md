@@ -32,7 +32,6 @@ This is your project memory. When you come back after a break, read Current Stat
 - [x] Repository initialized
 - [x] project-context.md in place (master architecture spec)
 - [x] CLAUDE.md in place (orchestration guide)
-- [x] .gitignore protecting copyrighted content (sources/raw/, sources/chapters/, full-txt-files/, epubs/)
 - [x] Directory structure created (sources/, extractions/, graph/, index/, curation/, reference/, scripts/)
 - [x] Source .txt files moved to sources/raw/
 - [x] Subagent definitions in .claude/agents/ (2 full: mechanical-extractor, script-builder; 5 stubs: wiki-ingester, voice-analyzer, foreshadowing-scanner, theory-extractor, discovery-agent)
@@ -65,6 +64,7 @@ This is your project memory. When you come back after a break, read Current Stat
 - [x] Pass 1 v3 run on ASOS (82/82 — complete; Okey ran in parallel on shared Max account, branch `pass1-asos-extraction`)
 - [x] Pass 1 v3 run on AFFC (46/46 — complete)
 - [x] Pass 1 v3 run on ADWD (73/73 — complete)
+- [ ] Pass 1 on Tales of Dunk and Egg (THK, TSS, TMK) — **deferred (enrichment pass for main-arc nodes)**. D&E content will eventually enrich existing main-arc Targaryen-prehistory nodes (Bloodraven, Egg/Aegon V, etc.) but is not on the active critical path. Not dropped, not urgent. Decision 2026-05-06 (Session 37 Q11=b).
 - [x] Wiki infobox parser script (Track B) — `scripts/wiki-infobox-parser.py` produces `working/wiki-parsed/{infobox-data.jsonl (5,279), page-index.jsonl (17,657), parse-stats.md}`. `first_available` populated 2,888/5,279 (54.7%). **Three open issues:** (1) `categories[]` empty across all pages (parse API strips catlinks footer) — blocker for runbook §1.2.1 unless deferred to `entity_type_guess`, (2) `books` field parsed only 37 times vs 1,953 raw occurrences (parser bug), (3) unmapped infobox fields worth edge-taxonomy review (`dynasty`, `written by`, `hatched`, `fathers`, `vassal`, `cadet branch`).
 - [x] AGOT/ACOK supplementary entity index — OBSOLETED 2026-04-25. v3 prompt captures all 12 categories directly; backfill index no longer needed. See `working/todos.md` line ~245.
 - [ ] Pass 2 wiki ingestion agent prompt written
@@ -76,7 +76,7 @@ This is your project memory. When you come back after a break, read Current Stat
 - [x] Wiki Pass 2 Path B — categorizer extension + promotion campaign (Session 28; bounded MediaWiki categories backfill + parser CATEGORY_TYPE_MAP. `unknown` 12,434 (70.4%) → 2,118 (12.0%). +2,240 graph nodes (5,008 → 7,248). Cat 1 orphan edges 2,955 → 1,973. 5 new dirs bootstrapped: `texts/`, `theories/`, `concepts/`, `species/`, `foods/`. New entity type `object.food`.)
 - [x] Wiki Pass 2 Path B promotion completion + schema-drift audit (Session 29; 4 new entity types added: `object.material`, `concept.language`, `concept.medical`, `concept.custom`. 4 new dirs: `materials/`, `languages/`, `medical/`, `customs/`. `unknown` 2,098 → 1,257. Net +315 graph nodes (7,248 → 7,563). 130 stale-dir mismatches cleaned. Full schema-drift audit on opus: 0 HIGH / 4 MED / 4 LOW. Cat 1 orphan edges 1,973 → 1,963. Edge vocabulary lock holds. Chronology data extracted from 74 year pages: 2,245 events in `working/wiki-parsed/chronology-events.jsonl` (awaits v2 temporal-edges schema; not graph edges yet).)
 - [x] Wiki Pass 2 Stage 0 foundation — alias-resolver built + run (Session 26). 707 broken refs reclaimed via slug-mismatch fix. Empirical signal validates that most remaining "broken" refs are genuinely missing concept entities (concept-pages decision: defer).
-- [ ] Wiki Pass 2 Stage 4 — prose-derived edge discovery (Stage 0 prep complete + cross-references index built; Stage 4 hybrid plan documented in `working/fleet-orchestration-plan.md`. Pass 1 dependency now met (344/344 across 5 books). Need to build: edge-candidate-generator script, then prose-edge-classifier agent runs (full prompt ready in `.claude/agents/prose-edge-classifier.md`), then peer review, then promote. Continue prompt: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`)
+- [ ] Wiki Pass 2 Stage 4 — prose-derived edge discovery (Stage 0 prep complete + cross-references index built; Stage 4 hybrid plan documented in `working/agent-fleet-specs/fleet-orchestration-plan.md`. Pass 1 dependency now met (344/344 across 5 books). Need to build: edge-candidate-generator script, then prose-edge-classifier agent runs (full prompt ready in `.claude/agents/prose-edge-classifier.md`), then peer review, then promote. Continue prompt: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`)
 - [ ] Pass 3 voice/perception agent prompt written
 - [ ] Pass 4 foreshadowing agent prompt written
 - [ ] Pass 5 theory-informed agent prompt written
@@ -176,13 +176,54 @@ This is your project memory. When you come back after a break, read Current Stat
 
 ## Session Log
 
-> Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `working/worklog-archives/archiveNNN.md`.
+> Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
-### Session 36 — Hygiene pass + soft-convention hardening (2026-05-06)
-**Detail:** `working/session-details/session-036.md`
+### Session 38 — Mention-index built (graph-traversal infrastructure) (2026-05-06)
 
 **Changes made:**
-- 3 stale Pass 1 continue prompts → `progress/continue-prompts/archive/`. `progress/SESSION-32-HANDOFF.md` → `working/worklog-archives/session-32-handoff.md`.
+- `scripts/build-mention-index.py` — NEW. Pure-Python script that walks all 344 Pass 1 v3 extractions, parses structured `## Section` blocks (Characters Present, Characters Referenced, Locations, Artifacts, Food & Drink, Raw Entity List 12 categories), slugifies via `to_kebab` (reused from `wiki-pass2-build-alias-resolver.py`), resolves through `alias-resolver.json` plus an honorific-prefix-stripping pass (Ser-, Maester-, Khal-, Lord-, etc.), tags each row with section/line/node-type/node-path. CLI: `--book <slug>`, `--all`, `--dry-run`. Idempotent — overwrites in place.
+- `graph/index/chapters/` — NEW directory tree. 344 mention files written (agot 73, acok 70, asos 82, affc 46, adwd 73). 37,222 total mentions. **70.0% resolve to graph nodes** (66.6% direct + 3.4% alias). 30.0% unresolved are diagnosable patterns, not parser bugs. Plus `_summary.json` rollup.
+- `working/todos.md` — alias-backfill todo added under § Wiki / Pass 2 Prep, sourced from the top-20 unresolved list.
+
+**Decisions:** Re-framed `progress/continue-prompts/2026-05-05-dialogue-meals-mention-index-design.md` under graph-for-agents lens. Matt confirmed dialogue + meals were agent-invented scope (Matt never asked for them in prior sessions). **Mention-index is the only piece that survives the reframe** — it's graph-traversal infrastructure that closes "from a node fact, find the scene." Dialogue + meals + voice scope deferred entirely; built only the free Python piece. **One spec divergence:** added honorific-prefix stripping beyond original spec (`Ser-`, `Maester-`, `Grand-Maester-`, `Khal-`, `Lord-`, `The-`) — Pass 1 captures titled forms ("Ser Rodrik Cassel", "Khal Drogo") that wiki nodes don't. This single addition lifted AGOT resolution 57% → 72%.
+
+**Top-20 unresolved patterns (signal):**
+- **Missing alias entries** (clean backfill candidates): `ned-stark`/42 → eddard-stark, `tormund-giantsbane`/21 → tormund, `eastwatch`/23 → eastwatch-by-the-sea, `the-blackwater`/23 → blackwater-rush, `brienne`/27 → brienne-tarth, `thoros-of-myr`/28 → thoros.
+- **Ambiguous short names**: `joffrey`/47, `aegon`/27, `maester-aemon`/57.
+- **Genuinely missing nodes**: `godswood`/36, `flea-bottom`/31, `the-narrow-sea`/40, `great-pyramid-of-meereen`/24, `little-walder-frey`/22, `old-gods`/22.
+
+**What's next:**
+- **Apply alias-backfill** from top-20 unresolved (todos.md alias-backfill todo). Cheap edit to `alias-resolver.json` + re-run mention-index → expect resolution to climb past 75%.
+- **Per-character index roll-up** (`graph/index/characters/<slug>.index.json`) is the natural next step — combines mention-index + Pass 1 POV chapter data + node prose into a single agent-retrieval entry point. Pure Python.
+- **Dialogue + meals + voice remain deferred** until Matt asks for them.
+- **Stage 4 prose-edge-classifier** queued continue prompt (`2026-05-02-stage4-v1-prose-edge-classifier.md`) is the other live track.
+- **Per Matt's standing rule, no `/endsession` auto-run.**
+
+### Session 37 — Cleanup scrubs + model-fit audit (2026-05-06)
+
+**Changes made:**
+- **Scrub A (D&D framing retired):** moved `working/chat-ui-architecture.md` and `working/diagrams.md` → `history/archive/sketches/` with stale-sketch preambles. Deleted 2 chat-UI/D&D-framed bullets in `working/todos.md` (Q5(a) two-repo split + Q6 unrelated chat-UI-scope bullet). Q6 spoiler-gate bullet kept (defer; rides on existing first_available deferral).
+- **Scrub B (copyright rule deleted entirely):** removed the textual rule from CLAUDE.md, README.md (line 220 surgical), worklog.md Current State, .claude/commands/endsession.md (step 7 deleted, renumbered), dialogue-meals continue prompt, runbooks/book-integration-done.md, scratch-design-review-stage3b.md, memory MEMORY.md + memory feedback_never_commit_books.md (deleted), memory project_real_goal_graph_for_agents.md (two-repo line deleted per Q5=a). `STATUS.md` retired entirely (Q3=b). Mechanical protection (.gitignore + .claude/settings.json permission denials) is now the only line of defense.
+- **Citation-validator full-corpus re-run** at `working/audits/citation-corpus-rerun-2026-05-06/execution/citation-issues.md`: PENDING-PASS-1 bucket from 2026-04-30 audit fully closed, zero broken chapter-file references, zero new HIGH findings. Several Stage-1 cite-format issues from prior audit have been re-emitted away in interim node-rebuild work.
+- **Model-fit audit** at `working/audits/agent-model-fit-2026-05-06/execution/agent-model-fit-report.md`: 27 agents audited. 6 Opus → Sonnet (mechanical-extractor, wiki-ingester, citation-validator, orphan-edge-finder, prose-edge-classifier [smoke-test gated], schema-drift-auditor). 2 → Haiku (status-reporter, duplicate-detector). 2 keep Opus (cross-identity-detector + reviewer — high-stakes, low-volume SAME_AS decisions). 13 STUBs deferred. Fleet-plan near-term spend (Stages 1-3) drops from $100-200 to $25-65 if classifier smoke passes — 60-75% reduction.
+- **D&E Pass 1 reframed in Current State:** "deferred (enrichment pass for main-arc nodes)" per Q11=(b). Not dropped, not urgent, not on active critical path.
+- **Audit folder layout adopted (Q10):** new audits land at `working/audits/<slug>-YYYY-MM-DD/{prompt-planning,prompt,execution,validation}/`. Existing flat-path audits not migrated; new layout for new audits only.
+
+**Decisions:** **Two cleanup scrubs landed.** D&D-group / shared-password / friend-group-only chat-UI framing retired across docs, todos, and one memory file; the *concept* of a chat UI is preserved as "ask-questions interface on top of the graph" (per the handoff's reframe), but as a NEW future todo, not a salvage of the retired bullets. **Copyright textual rule deleted entirely** — Matt's call: gitignore + permission denials suffice, the textual reminder created drift not safety. **Per-audit folder layout adopted (Q10)** to make audit + validation pairs first-class. **Model-fit recommendations queued for Matt's review** before any agent prompt frontmatter changes; smoke-test gates explicit. **Hooks follow-up captured** — two PreToolUse hooks (block edits to historical archives + block edits under sources/) added to todos.md as separate items, not freelanced this session.
+
+**Unexpected surface:** `validate-2026-05-06-handoff-cleanup-and-direction.md` at repo root (untracked) — sibling validation prompt for this scrub work. Contains 11 "copyright" + ~7 "chat-ui/D&D" anchor strings as part of describing what to check. Not in scope per § 3 of the handoff. Flagged for Matt to triage at /endsession (move to `working/audits/<slug>/validation/` per Q10, archive next to the handoff, or run it).
+
+**What's next:**
+- **Strategic question deferred (Q12=b):** Stage-4-vs-mention-index choice — re-read both queued continue prompts under graph-for-agents lens — left for a separate fresh session.
+- **Two new READY-TO-DO follow-ups in `working/todos.md`:** (a) review fleet plan against model-fit recommendations, (b) two PreToolUse hooks (block edits to historical archives, block writes under sources/).
+- **Continue prompts active (3):** `2026-05-02-stage4-v1-prose-edge-classifier.md`, `2026-05-05-dialogue-meals-mention-index-design.md`, plus this handoff (will be archived at /endsession).
+- **Per Matt's standing rule, /endsession is NOT auto-run** — handoff prompt awaits Matt's invocation.
+
+### Session 36 — Hygiene pass + soft-convention hardening (2026-05-06)
+**Detail:** `history/session-details/session-036.md`
+
+**Changes made:**
+- 3 stale Pass 1 continue prompts → `progress/continue-prompts/archive/`. `progress/SESSION-32-HANDOFF.md` → `history/worklog-archives/session-32-handoff.md`.
 - `progress/scratch-notes.md` deleted; three referenced long-form entries folded into `working/todos.md` lines that referenced them. Rest dropped (stale or redundant).
 - Cleaned scratch-notes/handoffs.md refs in `CLAUDE.md`, `README.md`, `STATUS.md`, `.claude/agents/status-reporter.md`, `.claude/commands/endsession.md`.
 - `CLAUDE.md` orchestration rules #7 and #8 rewritten: session-details now explicitly as-needed (not every-session); worklog Session Log strict 5-entry max with archives holding exactly 5 entries each.
@@ -237,48 +278,15 @@ This is your project memory. When you come back after a break, read Current Stat
 - Wait on Okey's ASOS push to land (no Claude work needed until then; design + smoke can proceed on AGOT regardless).
 - Stage 4 v1 prose-edge-classifier remains queued for once 5/5 Pass 1 books land (`2026-05-02-stage4-v1-prose-edge-classifier.md`).
 
-### Session 33 — ACOK chain-launch terminal explosion + race-condition bug discovery (2026-05-04)
-**Detail:** `working/session-details/session-033.md`
+> Session 33 archived to `history/worklog-archives/archive007.md` at end of Session 38 (archive007.md now full at 5 entries; next archive cycle creates `archive008.md`)
+> Sessions 30–32 also in `history/worklog-archives/archive007.md`
+> Sessions 25–29 archived to `history/worklog-archives/archive006.md`
+> Sessions 22–24 archived to `history/worklog-archives/archive005.md`
+> Sessions 16-21 archived to `history/worklog-archives/archive004.md`
 
-**Changes made:**
-- `extractions/mechanical/acok/` — waves 1-4 re-extracted to v3 (acok-arya-01..10, acok-bran-01..07, acok-catelyn-01..03). Some chapters were extracted twice in parallel due to bug below; second-finishing version won. All landed valid v3.
-- `progress/continue-prompts/2026-05-04-urgent-fix-chain-and-race-bug.md` — NEW (BLOCKER continue prompt).
-- `progress/continue-prompts/2026-05-04-acok-waves1-10-rerun.md` — UPDATED: marked BLOCKED on the urgent fix, status reflects 40/70 v3 with waves 5-10 still v2.
-- `working/session-details/session-033.md` — NEW.
-- `working/todos.md` — added BLOCKER row for chain/race fix; added model-fit smoke-test todo for Pass 1 (Sonnet vs Opus); flagged model-fit-rule as standing principle.
-- `worklog.md` — ACOK pipeline line updated to 40/70 + BLOCKED. This entry.
-
-**Decisions:** Two distinct bugs in `scripts/extract.sh` discovered. **Bug A (extract.sh:689-695):** `--chain` causes terminal explosion — every spawned terminal independently re-launches `extract.sh launch -t N --chain`, doubling the tab count each cycle (2→4→8). **Bug B (extract.sh:117-127 + cmd_run loop):** `is_complete()` only detects finished files, not in-progress claims. Two parallel terminals can both decide "missing" and both extract the same chapter, last-writer-wins. Bug B fires whenever Bug A spawns overlapping waves, OR on any accidental double-launch. My `pkill` cleanup made things WORSE because the terminal command lines use `;` chaining, so killing each step advanced the chain to the next step (which spawned MORE tabs). Correct stop is `weirwood stop` or closing iTerm tabs. **Fix decided + iterated to a six-item patch:** (1) drop `--chain`/`--delay` entirely; (2) per-chapter status enum in the stats CSV (`not_started`/`started`/`working`/`done`/`failed-rate`/`failed-error`/`failed-stale`/`skipped-*`) + new columns (`last_heartbeat`, `terminal_id`, `retry_at`) + atomic claim via `flock`; (3) startup stale-sweep (heartbeat >90s primary + row age >30min fallback → `failed-stale`); (4) `weirwood <book>` live status table only when started/working rows exist (otherwise existing static summary); (5) terminal log cleanup — drop all dollar amounts, delete broken `0\n0 events | 0\n0 relationships` counters, restructure into `[1/3] Preparing / [2/3] Extracting / [3/3] Complete` phases with `═` wave banners; (6) stream `claude -p`'s assistant output to terminal via tee → `scripts/stream-claude-output.py` → stderr with `│ ` prefix (full text + tool_use, no flag — terminal output doesn't enter context). Plus one-time auto-migration of existing CSVs with `.bak` backup. Sonnet-class work, do not use Opus. **Model-fit policy** added per Matt's request: default to cheapest model that can do the job; Opus only when reasoning depth genuinely requires it. **Sonnet smoke-test for Pass 1 explicitly OUT of urgent-fix scope** — Matt wants at least one full Opus pass on every book first (friend is running ASOS on Opus from shared Max); revisit once one book remains. ~$19 wasted on duplicate extractions; in-flight Claude calls also wasted to pkill.
-
-**What's next:**
-- **URGENT first:** `progress/continue-prompts/2026-05-04-urgent-fix-chain-and-race-bug.md` — fix both bugs in extract.sh, smoke-test, commit.
-- **Then:** `progress/continue-prompts/2026-05-04-acok-waves1-10-rerun.md` — re-run 30 remaining v2 chapters (waves 5-10) with the fixed launcher. NO `--chain` even after fix.
-- ASOS / ADWD via `progress/continue-prompts/2026-05-02-pass1-mechanical-remaining-books.md`. Open: Sonnet vs Opus smoke-test before committing Opus to 155 more chapters.
-- Stage 4 v1 — `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md` — gated on 344/344 Pass 1 complete.
-
-### Session 32 — ACOK v3 confirmation + ready for auto-advance launch (2026-05-04)
-
-**Context:** Session 31 built auto-advance feature. Smoke test attempted to verify v3 quality on ACOK waves 1-2, but Opus model running slower than expected. Session 32 verified prompt status and prepared handoff.
-
-**Changes made:**
-- `mechanical-extractor` agent prompt (`.claude/agents/mechanical-extractor.md`) — CONFIRMED using v3 canonical schema: 12-category Raw Entity List (Characters, Locations, Houses, Factions & Organizations, Religions & Faiths, Cultures & Peoples, Artifacts & Objects, In-world Texts & Songs, Magic & Phenomena, Wars & Conflicts, Titles & Offices, Other). Plus all v3 sections: Physical Environment, Character Appearances, Food & Drink, Hospitality & Guest Right, POV Character's Internal State, etc. Model set to Opus.
-- `progress/continue-prompts/2026-05-04-acok-waves1-10-rerun.md` — UPDATED: clarified state (20 ACOK chapters FINAL with v3, 50 in archive `acok-v2-original-2026-05-04/`), removed smoke-test section (v3 already proven on AGOT + confirmed on 20 ACOK chapters), added "Launch Full Auto-Advance Run (Session 33+)" with single command ready to execute.
-
-**Decisions:** No smoke test needed — v3 is canonical and proven. Opus model confirmed; do not substitute Sonnet/Haiku for consistency with AGOT v3. Handoff complete. Next session: fresh iTerm session, run `weirwood acok 2 1 claude-opus-4-6 --delay 2h --chain` immediately. No pre-flight checks — state already verified.
-
-**What's next:**
-- **Session 33+:** Fresh session → `weirwood acok 2 1 claude-opus-4-6 --delay 2h --chain` (50 chapters, 10 waves, ~10 hrs wall-clock with 2h delays)
-- After ACOK 70/70 complete: ASOS (82 chapters, single-pass v3) and ADWD (73 chapters, single-pass v3) per continue prompt `progress/continue-prompts/2026-05-02-pass1-mechanical-remaining-books.md`
-- Once 344/344 complete: Stage 4 v1 prose-edge-classifier per continue prompt `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`
-
-> Sessions 30–31 archived to `working/worklog-archives/archive007.md` (currently 3 entries; fills to 5 over future cycles per new strict rule)
-> Sessions 25–29 archived to `working/worklog-archives/archive006.md`
-> Sessions 22–24 archived to `working/worklog-archives/archive005.md`
-> Sessions 16-21 archived to `working/worklog-archives/archive004.md`
-
-> Sessions 8–15 archived to `working/worklog-archives/archive003.md`
-> Sessions 5–7 archived to `working/worklog-archives/archive002.md`
-> Sessions 0–4 archived to `working/worklog-archives/archive001.md`
+> Sessions 8–15 archived to `history/worklog-archives/archive003.md`
+> Sessions 5–7 archived to `history/worklog-archives/archive002.md`
+> Sessions 0–4 archived to `history/worklog-archives/archive001.md`
 
 ---
 

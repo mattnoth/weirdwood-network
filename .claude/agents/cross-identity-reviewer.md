@@ -44,7 +44,7 @@ The proposal is genuinely ambiguous. The two nodes might be the same entity unde
 
 ## Output Contract
 
-Write to `working/audits/cross-identity-review-<UTC-DATE>.md`:
+Write to `working/audits/cross-identity-review-<UTC-DATE>/execution/cross-identity-review.md`:
 
 ```markdown
 # Cross-Identity Review — <UTC date>
