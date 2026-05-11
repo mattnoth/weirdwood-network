@@ -3,23 +3,30 @@ name: "Battle of the Blackwater (song)"
 type: object.text
 slug: battle-of-the-blackwater-song
 aliases: []
-confidence: tier-2
+confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Battle_of_the_Blackwater_(song)"
-bucket_id: tier3-pathb-texts
-prompt_version: v1-python
+bucket_id: battles-b
+prompt_version: v1
 node_version: 1
-pass_origin: pass2-wiki-deterministic
+pass_origin: pass2-wiki
 ---
 
 ## Identity
 
-Battle of the Blackwater (song) is a text/book/song from the AWOIAF wiki.
-
-## Edges
-
+An unnamed song about the Battle of the Blackwater, written and performed by Galyeon of Cuy. The song has seventy-seven verses and describes the valor of King Joffrey I Baratheon and Queen Regent Cersei Lannister (wiki:Battle_of_the_Blackwater_(song)).
 
 ## Narrative Arc
 
-### A Storm of Swords[ ]
+Galyeon of Cuy performed the song at the wedding of King Joffrey I Baratheon and Lady Margaery Tyrell, competing for the golden lute. He was accompanied by six musicians. Tyrion Lannister felt the song lasted so long it seemed to have a thousand verses. Sansa Stark was offended by the song's depiction of Cersei's valor, insisting Cersei never did the things described. Tyrion warned her not to believe anything in a song (wiki:Battle_of_the_Blackwater_(song), cite: ASOS Chapter 60, Tyrion VIII).
 
-To compete for the golden [lute](wiki:Lute), [Galyeon of Cuy](wiki:Galyeon_of_Cuy) sings the song at the [wedding](wiki:Purple_Wedding) of King [Joffrey I Baratheon](wiki:Joffrey_Baratheon) and Lady [Margaery Tyrell](wiki:Margaery_Tyrell). In his performance, he is accompanied by six musicians. [Tyrion Lannister](wiki:Tyrion_Lannister) believes that the song lasts so long that it feels like the song has a thousand verses. [Sansa Stark](wiki:Sansa_Stark) is offended when Galyeon sings about Queen Regent [Cersei Lannister](wiki:Cersei_Lannister)'s valor, insisting that Cersei never the things Galeyon sings about. Tyrion warns her not to believe anything she hears in a song, and proceeds to drink his way through the final twenty verses.(wiki:Battle_of_the_Blackwater_(song).cite_ref-Rasos60.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+## Quotes
+
+- "The dark lord brooded high in his tower, in a castle as black as the night." — opening verse, referring to Stannis Baratheon (wiki:Battle_of_the_Blackwater_(song), cite: ASOS Chapter 60)
+
+## Edges
+
+- WRITTEN_BY: Galyeon of Cuy (wiki:Battle_of_the_Blackwater_(song))
+
+## Notes
+
+The song is propaganda favoring the Lannister-Baratheon regime. Source: *A Storm of Swords*, Appendix and Chapter 60 (Tyrion VIII).

@@ -13,7 +13,15 @@ pass_origin: pass2-wiki-deterministic
 
 ## Identity
 
-Battle of the Blackwater is a event.battle from the AWOIAF wiki.
+The Battle of the Blackwater was the largest battle in the War of the Five Kings, fought in 299 AC at the mouth of the Blackwater Rush and King's Landing. It ended in a decisive victory for House Baratheon of King's Landing (wiki:Battle_of_the_Blackwater).
+
+## Allegiances
+
+Defenders: King's Landing garrison (Tyrion Lannister commanding gold cloaks, sellswords, Vale mountain clansmen, Sandor Clegane; Kingsguard), relief force (Tywin Lannister, Mace Tyrell, Randyll Tarly, Garlan Tyrell with westermen and Reach forces). Attackers: Stannis Baratheon (Ser Imry Florent commanding fleet, Ser Guyard Morrigen commanding van; stormlanders, crownlanders, Florents, Fossoways, Salladhor Saan's Lysene pirates, Myrish sellsails) (track_b: Conflict).
+
+## Narrative Arc
+
+After assassinating Renly and taking Storm's End, Stannis advanced on King's Landing with ~200 ships and forces from the Stormlands, Crownlands, and defected Reach houses. Tyrion Lannister prepared the defense: a chain boom across the Blackwater Rush, massive stores of wildfire, and tripled gold cloaks. Stannis's fleet entered the river under Ser Imry Florent. Tyrion's wildfire trap — hulks filled with wildfire pots — was ignited, creating a wall of green flame that consumed much of both fleets. The chain was raised behind Stannis's ships, trapping them. Survivors came ashore and assaulted the city gates. Sandor Clegane led three sorties but the wildfire robbed him of his courage. Tyrion led a sortie himself at the King's Gate. When Joffrey was taken back to the Red Keep on Cersei's orders, defender morale collapsed. Tyrion was wounded — slashed across the face by Ser Mandon Moore of the Kingsguard, who was killed by Podrick Payne. At dusk, the Lannister-Tyrell relief force arrived, taking Stannis's forces in the rear. Tywin led the right, Tarly the center, Mace Tyrell the left. The vanguard under Ser Garlan Tyrell, wearing Renly's distinctive green armor, shattered Stannis's lines — former Renly supporters, believing their lord had returned, abandoned Stannis. Ser Guyard Morrigen was slain. Stannis escaped with several hundred men on Salladhor Saan's ships; thousands were left behind (wiki:Battle_of_the_Blackwater, cite: ACOK Ch. 58, 59, 61, 62; ASOS Ch. 4, 60).
 
 ## Edges
 
