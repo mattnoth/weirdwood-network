@@ -1,0 +1,29 @@
+{
+  "slug": "jeffory-mallister",
+  "name": "Jeffory Mallister",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/jeffory-mallister.node.md",
+  "generated_at": "2026-05-11T22:33:53.473915+00:00",
+  "stats": {
+    "appearances_total": 1,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 1,
+    "out_edge_count": 3,
+    "in_edge_count": 3
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "acok-catelyn-07",
+        "book": "acok",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

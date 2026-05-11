@@ -1,0 +1,98 @@
+{
+  "slug": "gerris-drinkwater",
+  "name": "Gerris Drinkwater",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/gerris-drinkwater.node.md",
+  "generated_at": "2026-05-11T22:33:53.509116+00:00",
+  "stats": {
+    "appearances_total": 16,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 7,
+    "out_edge_count": 7,
+    "in_edge_count": 27
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "adwd-daenerys-07",
+        "book": "adwd",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 2,
+        "sections": [
+          "Character Appearances",
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "adwd-the-discarded-knight-01",
+        "book": "adwd",
+        "pov_character_slug": "barristan-selmy",
+        "mention_count": 2,
+        "sections": [
+          "Character Appearances",
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "adwd-the-dragontamer-01",
+        "book": "adwd",
+        "pov_character_slug": "quentyn-martell",
+        "mention_count": 3,
+        "sections": [
+          "Character Appearances",
+          "Characters Present",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "adwd-the-merchants-man-01",
+        "book": "adwd",
+        "pov_character_slug": "quentyn-martell",
+        "mention_count": 3,
+        "sections": [
+          "Character Appearances",
+          "Characters Present",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "adwd-the-queens-hand-01",
+        "book": "adwd",
+        "pov_character_slug": "barristan-selmy",
+        "mention_count": 2,
+        "sections": [
+          "Character Appearances",
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "adwd-the-spurned-suitor-01",
+        "book": "adwd",
+        "pov_character_slug": "quentyn-martell",
+        "mention_count": 2,
+        "sections": [
+          "Character Appearances",
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "adwd-the-windblown-01",
+        "book": "adwd",
+        "pov_character_slug": "quentyn-martell",
+        "mention_count": 2,
+        "sections": [
+          "Characters Present",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "slug": "brandon-stark-shipwright",
+  "name": "Brandon Stark (Shipwright)",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/brandon-stark-shipwright.node.md",
+  "generated_at": "2026-05-11T22:33:53.541979+00:00",
+  "stats": {
+    "appearances_total": 8,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 5,
+    "out_edge_count": 5,
+    "in_edge_count": 4
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "agot-bran-07",
+        "book": "agot",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "acok-bran-07",
+        "book": "acok",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "acok-jon-06",
+        "book": "acok",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "asos-bran-03",
+        "book": "asos",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-the-turncloak-01",
+        "book": "adwd",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      }
+    ]
+  }
+}

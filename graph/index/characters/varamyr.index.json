@@ -1,0 +1,67 @@
+{
+  "slug": "varamyr",
+  "name": "Varamyr",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/varamyr.node.md",
+  "generated_at": "2026-05-11T22:33:53.169836+00:00",
+  "stats": {
+    "appearances_total": 8,
+    "chapters_pov": 1,
+    "chapters_mentioned_in": 4,
+    "out_edge_count": 3,
+    "in_edge_count": 12
+  },
+  "chapters": {
+    "pov": [
+      {
+        "chapter_id": "adwd-prologue",
+        "book": "adwd"
+      }
+    ],
+    "mentioned_in": [
+      {
+        "chapter_id": "asos-jon-02",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 3,
+        "sections": [
+          "Character Appearances",
+          "Characters Present",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "asos-jon-09",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "asos-jon-10",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 2,
+        "sections": [
+          "Character Appearances",
+          "Characters Present"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-jon-12",
+        "book": "adwd",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      }
+    ]
+  }
+}

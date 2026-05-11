@@ -1,0 +1,29 @@
+{
+  "slug": "kyleg-of-the-wooden-ear",
+  "name": "Kyleg of the Wooden Ear",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/kyleg-of-the-wooden-ear.node.md",
+  "generated_at": "2026-05-11T22:33:53.105533+00:00",
+  "stats": {
+    "appearances_total": 1,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 1,
+    "out_edge_count": 3,
+    "in_edge_count": 0
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "adwd-jon-12",
+        "book": "adwd",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

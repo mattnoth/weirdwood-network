@@ -1,0 +1,328 @@
+{
+  "slug": "ramsay-snow",
+  "name": "Ramsay Snow",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/ramsay-snow.node.md",
+  "generated_at": "2026-05-11T22:33:53.358313+00:00",
+  "stats": {
+    "appearances_total": 39,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 30,
+    "out_edge_count": 12,
+    "in_edge_count": 192
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "acok-bran-02",
+        "book": "acok",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "acok-bran-05",
+        "book": "acok",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "acok-bran-06",
+        "book": "acok",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "acok-bran-07",
+        "book": "acok",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "acok-catelyn-06",
+        "book": "acok",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "asos-bran-01",
+        "book": "asos",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "asos-bran-03",
+        "book": "asos",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "asos-catelyn-04",
+        "book": "asos",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-catelyn-06",
+        "book": "asos",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "asos-jaime-09",
+        "book": "asos",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "asos-tyrion-06",
+        "book": "asos",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "affc-cersei-04",
+        "book": "affc",
+        "pov_character_slug": "cersei-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "affc-cersei-05",
+        "book": "affc",
+        "pov_character_slug": "cersei-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-a-ghost-in-winterfell-01",
+        "book": "adwd",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-davos-02",
+        "book": "adwd",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-jon-02",
+        "book": "adwd",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-jon-04",
+        "book": "adwd",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-jon-06",
+        "book": "adwd",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-jon-07",
+        "book": "adwd",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "adwd-jon-10",
+        "book": "adwd",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "adwd-jon-11",
+        "book": "adwd",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "adwd-jon-13",
+        "book": "adwd",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-reek-01",
+        "book": "adwd",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 3,
+        "sections": [
+          "Character Appearances",
+          "Characters Present",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-reek-02",
+        "book": "adwd",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 3,
+        "sections": [
+          "Character Appearances",
+          "Characters Present",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-reek-03",
+        "book": "adwd",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 2,
+        "sections": [
+          "Character Appearances",
+          "Characters Present"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-the-kings-prize-01",
+        "book": "adwd",
+        "pov_character_slug": "asha-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-the-prince-of-winterfell-01",
+        "book": "adwd",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 2,
+        "sections": [
+          "Character Appearances",
+          "Characters Present"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-the-turncloak-01",
+        "book": "adwd",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-the-wayward-bride-01",
+        "book": "adwd",
+        "pov_character_slug": "asha-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-theon-01",
+        "book": "adwd",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "alias"
+      }
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "slug": "black-walder-frey",
+  "name": "Black Walder Frey",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/black-walder-frey.node.md",
+  "generated_at": "2026-05-11T22:33:53.297129+00:00",
+  "stats": {
+    "appearances_total": 13,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 10,
+    "out_edge_count": 0,
+    "in_edge_count": 0
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "acok-bran-01",
+        "book": "acok",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "acok-bran-05",
+        "book": "acok",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "acok-catelyn-05",
+        "book": "acok",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-catelyn-02",
+        "book": "asos",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-catelyn-06",
+        "book": "asos",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 2,
+        "sections": [
+          "Character Appearances",
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-catelyn-07",
+        "book": "asos",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-epilogue",
+        "book": "asos",
+        "pov_character_slug": "merrett-frey",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-tyrion-08",
+        "book": "asos",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "affc-jaime-05",
+        "book": "affc",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "affc-jaime-06",
+        "book": "affc",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "slug": "mollander",
+  "name": "Mollander",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/mollander.node.md",
+  "generated_at": "2026-05-11T22:33:53.281202+00:00",
+  "stats": {
+    "appearances_total": 3,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 1,
+    "out_edge_count": 4,
+    "in_edge_count": 11
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "affc-prologue",
+        "book": "affc",
+        "pov_character_slug": null,
+        "mention_count": 3,
+        "sections": [
+          "Character Appearances",
+          "Characters Present",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

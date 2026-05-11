@@ -1,0 +1,70 @@
+{
+  "slug": "lucas-blackwood",
+  "name": "Lucas Blackwood",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/lucas-blackwood.node.md",
+  "generated_at": "2026-05-11T22:33:53.448070+00:00",
+  "stats": {
+    "appearances_total": 6,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 5,
+    "out_edge_count": 4,
+    "in_edge_count": 6
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "acok-catelyn-02",
+        "book": "acok",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "acok-catelyn-03",
+        "book": "acok",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 2,
+        "sections": [
+          "Characters Present",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "acok-catelyn-05",
+        "book": "acok",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-catelyn-07",
+        "book": "asos",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "adwd-jaime-01",
+        "book": "adwd",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

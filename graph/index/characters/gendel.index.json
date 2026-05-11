@@ -1,0 +1,62 @@
+{
+  "slug": "gendel",
+  "name": "Gendel",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/gendel.node.md",
+  "generated_at": "2026-05-11T22:33:53.152863+00:00",
+  "stats": {
+    "appearances_total": 7,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 4,
+    "out_edge_count": 2,
+    "in_edge_count": 5
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "acok-jon-03",
+        "book": "acok",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-jon-03",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-jon-04",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "adwd-bran-02",
+        "book": "adwd",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

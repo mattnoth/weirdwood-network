@@ -1,0 +1,142 @@
+{
+  "slug": "tytos-blackwood",
+  "name": "Tytos Blackwood",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/tytos-blackwood.node.md",
+  "generated_at": "2026-05-11T22:33:53.392082+00:00",
+  "stats": {
+    "appearances_total": 15,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 12,
+    "out_edge_count": 11,
+    "in_edge_count": 36
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "agot-catelyn-11",
+        "book": "agot",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 2,
+        "sections": [
+          "Character Appearances",
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "agot-sansa-05",
+        "book": "agot",
+        "pov_character_slug": "sansa-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "agot-tyrion-09",
+        "book": "agot",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "acok-catelyn-01",
+        "book": "acok",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "acok-catelyn-05",
+        "book": "acok",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-catelyn-02",
+        "book": "asos",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 2,
+        "sections": [
+          "Character Appearances",
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-catelyn-04",
+        "book": "asos",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-tyrion-06",
+        "book": "asos",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "affc-jaime-05",
+        "book": "affc",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "affc-jaime-06",
+        "book": "affc",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "affc-jaime-07",
+        "book": "affc",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "adwd-jaime-01",
+        "book": "adwd",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 2,
+        "sections": [
+          "Character Appearances",
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

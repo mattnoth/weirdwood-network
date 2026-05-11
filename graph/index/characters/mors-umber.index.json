@@ -1,0 +1,60 @@
+{
+  "slug": "mors-umber",
+  "name": "Mors Umber",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/mors-umber.node.md",
+  "generated_at": "2026-05-11T22:33:53.364852+00:00",
+  "stats": {
+    "appearances_total": 5,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 4,
+    "out_edge_count": 9,
+    "in_edge_count": 28
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "acok-bran-02",
+        "book": "acok",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 1,
+        "sections": [
+          "Character Appearances"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "acok-bran-03",
+        "book": "acok",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "adwd-the-kings-prize-01",
+        "book": "adwd",
+        "pov_character_slug": "asha-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "adwd-the-sacrifice-01",
+        "book": "adwd",
+        "pov_character_slug": "asha-greyjoy",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "slug": "dermot-of-the-rainwood",
+  "name": "Dermot of the Rainwood",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/dermot-of-the-rainwood.node.md",
+  "generated_at": "2026-05-11T22:33:53.136684+00:00",
+  "stats": {
+    "appearances_total": 4,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 4,
+    "out_edge_count": 4,
+    "in_edge_count": 0
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "acok-sansa-08",
+        "book": "acok",
+        "pov_character_slug": "sansa-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "affc-jaime-02",
+        "book": "affc",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "affc-jaime-03",
+        "book": "affc",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "affc-jaime-07",
+        "book": "affc",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

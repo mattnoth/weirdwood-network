@@ -1,0 +1,49 @@
+{
+  "slug": "daeron-ii-targaryen",
+  "name": "Daeron II Targaryen",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/daeron-ii-targaryen.node.md",
+  "generated_at": "2026-05-11T22:33:53.231436+00:00",
+  "stats": {
+    "appearances_total": 3,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 3,
+    "out_edge_count": 17,
+    "in_edge_count": 80
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "asos-sansa-04",
+        "book": "asos",
+        "pov_character_slug": "sansa-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-daenerys-08",
+        "book": "adwd",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-the-watcher-01",
+        "book": "adwd",
+        "pov_character_slug": "areo-hotah",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      }
+    ]
+  }
+}

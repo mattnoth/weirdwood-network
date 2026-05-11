@@ -1,0 +1,49 @@
+{
+  "slug": "rymund-the-rhymer",
+  "name": "Rymund the Rhymer",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/rymund-the-rhymer.node.md",
+  "generated_at": "2026-05-11T22:33:53.287401+00:00",
+  "stats": {
+    "appearances_total": 3,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 3,
+    "out_edge_count": 0,
+    "in_edge_count": 3
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "acok-catelyn-05",
+        "book": "acok",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "acok-catelyn-06",
+        "book": "acok",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-catelyn-02",
+        "book": "asos",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

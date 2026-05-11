@@ -1,0 +1,30 @@
+{
+  "slug": "bryen",
+  "name": "Bryen",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/bryen.node.md",
+  "generated_at": "2026-05-11T22:33:53.498864+00:00",
+  "stats": {
+    "appearances_total": 2,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 1,
+    "out_edge_count": 3,
+    "in_edge_count": 1
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "asos-sansa-06",
+        "book": "asos",
+        "pov_character_slug": "sansa-stark",
+        "mention_count": 2,
+        "sections": [
+          "Character Appearances",
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

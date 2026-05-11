@@ -1,0 +1,286 @@
+{
+  "slug": "lady",
+  "name": "Lady",
+  "type": "character.direwolf",
+  "node_path": "graph/nodes/characters/lady.node.md",
+  "generated_at": "2026-05-11T22:33:53.409471+00:00",
+  "stats": {
+    "appearances_total": 33,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 26,
+    "out_edge_count": 3,
+    "in_edge_count": 2
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "agot-arya-01",
+        "book": "agot",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "agot-arya-02",
+        "book": "agot",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "agot-bran-02",
+        "book": "agot",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "agot-bran-06",
+        "book": "agot",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "agot-eddard-03",
+        "book": "agot",
+        "pov_character_slug": "eddard-stark",
+        "mention_count": 2,
+        "sections": [
+          "Character Appearances",
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "agot-jon-07",
+        "book": "agot",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "agot-sansa-01",
+        "book": "agot",
+        "pov_character_slug": "sansa-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "agot-sansa-02",
+        "book": "agot",
+        "pov_character_slug": "sansa-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "agot-sansa-03",
+        "book": "agot",
+        "pov_character_slug": "sansa-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "agot-tyrion-01",
+        "book": "agot",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Titles & Offices"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "acok-arya-06",
+        "book": "acok",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "acok-bran-01",
+        "book": "acok",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "acok-sansa-02",
+        "book": "acok",
+        "pov_character_slug": "sansa-stark",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "acok-sansa-03",
+        "book": "acok",
+        "pov_character_slug": "sansa-stark",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "acok-sansa-07",
+        "book": "acok",
+        "pov_character_slug": "sansa-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-arya-10",
+        "book": "asos",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Titles & Offices"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-arya-12",
+        "book": "asos",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Titles & Offices"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-arya-13",
+        "book": "asos",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Titles & Offices"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-bran-01",
+        "book": "asos",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-jaime-01",
+        "book": "asos",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Titles & Offices"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-sansa-04",
+        "book": "asos",
+        "pov_character_slug": "sansa-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-tyrion-07",
+        "book": "asos",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Titles & Offices"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "affc-brienne-06",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Titles & Offices"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "adwd-bran-01",
+        "book": "adwd",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "adwd-jon-13",
+        "book": "adwd",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "adwd-reek-01",
+        "book": "adwd",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Titles & Offices"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

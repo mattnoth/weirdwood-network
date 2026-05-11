@@ -1,0 +1,30 @@
+{
+  "slug": "aemond-targaryen",
+  "name": "Aemond Targaryen",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/aemond-targaryen.node.md",
+  "generated_at": "2026-05-11T22:33:53.201662+00:00",
+  "stats": {
+    "appearances_total": 2,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 1,
+    "out_edge_count": 10,
+    "in_edge_count": 76
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "adwd-tyrion-03",
+        "book": "adwd",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

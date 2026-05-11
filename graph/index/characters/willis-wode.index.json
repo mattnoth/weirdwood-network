@@ -1,0 +1,50 @@
+{
+  "slug": "willis-wode",
+  "name": "Willis Wode",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/willis-wode.node.md",
+  "generated_at": "2026-05-11T22:33:53.141672+00:00",
+  "stats": {
+    "appearances_total": 4,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 3,
+    "out_edge_count": 5,
+    "in_edge_count": 3
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "agot-catelyn-06",
+        "book": "agot",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "agot-tyrion-04",
+        "book": "agot",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 2,
+        "sections": [
+          "Character Appearances",
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "agot-tyrion-05",
+        "book": "agot",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "brandon-stark-son-of-cregan",
+  "name": "Brandon Stark (son of Cregan)",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/brandon-stark-son-of-cregan.node.md",
+  "generated_at": "2026-05-11T22:33:53.296514+00:00",
+  "stats": {
+    "appearances_total": 0,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 0,
+    "out_edge_count": 12,
+    "in_edge_count": 2
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": []
+  }
+}

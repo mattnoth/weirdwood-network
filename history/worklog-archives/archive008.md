@@ -41,3 +41,26 @@
 - Merge `origin/pass1-asos-extraction` into main when ready (resolve worklog/progress conflicts in favor of main's clean entry).
 - Resume primary handoff: `progress/continue-prompts/2026-05-05-dialogue-meals-mention-index-design.md` — 7 Open Questions to resolve, then build mention index, then smoke dialogue on Ned + Robert.
 - Stage 4 v1 prose-edge-classifier now unblocked: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`.
+
+### Session 36 — Hygiene pass + soft-convention hardening (2026-05-06)
+**Detail:** `history/session-details/session-036.md`
+
+**Changes made:**
+- 3 stale Pass 1 continue prompts → `progress/continue-prompts/archive/`. `progress/SESSION-32-HANDOFF.md` → `history/worklog-archives/session-32-handoff.md`.
+- `progress/scratch-notes.md` deleted; three referenced long-form entries folded into `working/todos.md` lines that referenced them. Rest dropped (stale or redundant).
+- Cleaned scratch-notes/handoffs.md refs in `CLAUDE.md`, `README.md`, `STATUS.md`, `.claude/agents/status-reporter.md`, `.claude/commands/endsession.md`.
+- `CLAUDE.md` orchestration rules #7 and #8 rewritten: session-details now explicitly as-needed (not every-session); worklog Session Log strict 5-entry max with archives holding exactly 5 entries each.
+- `CLAUDE.md` new section "Top-Level `scratch` File — Ignore It" before Orchestration Rules. Tells agents to ignore scratch outside `/endsession` step 4(a). `.gitignore` updated; root `scratch` file untracked.
+- `.claude/commands/endsession.md` step 4 expanded with scratch-triage subroutine; step 6 rewritten to strict 5-entry rule.
+- `working/todos.md` staleness sweep: Pass 1 model-fit smoke test obsoleted, Stage 4 prereq-met, agent-stub vs full-prompt status corrected, citation-validator queued for verify, spoiler-gating prereq-met, model-fit policy phrasing updated. New "Project Story / Auxiliary" category with session-details audit todo. `READY TO DO` flag added on model-fit-audit todo.
+- `worklog.md` two staleness fixes (entity-index todo obsoleted; Stage 4 skeleton ref refreshed).
+- Archive operation under new rule: Sessions 27, 28, 29 appended to `archive006.md` (now 5 entries); Sessions 30 (×2 numbered entries) and 31 created `archive007.md` (3 entries, will fill over future cycles).
+- Single commit `240fe565` "Hygiene pass: archive stale prompts, retire scratch-notes, harden conventions" — 15 files, +407/−214. Pushed to `origin/main`.
+
+**Decisions:** **Five rule changes locked.** (1) Worklog Session Log strict 5-entry max, archive in 5-entry blocks; ambiguous "~150 lines" replaced with concrete count. (2) Session-details files are as-needed, not every-session — write only for design/incident/novel-decision sessions; pure-execution skips. (3) Top-level `scratch` is Matt's private space (gitignored, agents don't read outside /endsession). (4) `/endsession` step 4(a) triages scratch contents at end of every session. (5) `progress/scratch-notes.md` retired; replaced by the gitignored top-level scratch + designated triage moment. **Soft-conventions framing surfaced as a project pattern:** rules in prose without enforcement drift over time; rules in /endsession do better but conditional steps still slip; hooks add real enforcement when the action must not be skipped (none built this session — all current cases are well-served by strict /endsession steps). **Hooks vs rules clarified:** rule = read; hook = executed; both together is "double cost" only when redundant; rules in /endsession alone are sufficient when /endsession is reliably invoked. **`working/todos.md` reorganization deferred** — proposed structure exists in conversation but not executed; Matt paused before approving.
+
+**What's next:**
+- **PRIMARY HANDOFF unchanged:** `progress/continue-prompts/2026-05-05-dialogue-meals-mention-index-design.md` — design pass for dialogue/meals/mention-index passes, awaiting Matt's review of 7 Open Questions.
+- **`working/todos.md` reorganization** — proposed 12-section structure + parallel `working/todos-archive.md`; restart this in next session.
+- **`READY TO DO` next** (per todos.md): model-fit audit across `.claude/agents/*.md` (resource-conservation pass). And: re-run `citation-validator` on full 5-book corpus now that Pass 1 is 344/344.
+- Stage 4 v1 still queued: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`.

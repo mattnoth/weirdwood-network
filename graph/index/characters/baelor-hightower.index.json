@@ -1,0 +1,40 @@
+{
+  "slug": "baelor-hightower",
+  "name": "Baelor Hightower",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/baelor-hightower.node.md",
+  "generated_at": "2026-05-11T22:33:53.241057+00:00",
+  "stats": {
+    "appearances_total": 3,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 2,
+    "out_edge_count": 6,
+    "in_edge_count": 1
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "asos-tyrion-10",
+        "book": "asos",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "affc-samwell-05",
+        "book": "affc",
+        "pov_character_slug": "samwell-tarly",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

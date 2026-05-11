@@ -1,0 +1,29 @@
+{
+  "slug": "targaryen",
+  "name": "Targaryen",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/targaryen.node.md",
+  "generated_at": "2026-05-11T22:33:53.343657+00:00",
+  "stats": {
+    "appearances_total": 1,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 1,
+    "out_edge_count": 0,
+    "in_edge_count": 1
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "agot-tyrion-01",
+        "book": "agot",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Cultures & Peoples"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

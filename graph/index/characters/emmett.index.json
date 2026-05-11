@@ -1,0 +1,102 @@
+{
+  "slug": "emmett",
+  "name": "Emmett",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/emmett.node.md",
+  "generated_at": "2026-05-11T22:33:53.482619+00:00",
+  "stats": {
+    "appearances_total": 11,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 8,
+    "out_edge_count": 8,
+    "in_edge_count": 6
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "asos-jon-12",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 2,
+        "sections": [
+          "Character Appearances",
+          "Characters Present"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-jon-01",
+        "book": "adwd",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-jon-02",
+        "book": "adwd",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-jon-05",
+        "book": "adwd",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-jon-06",
+        "book": "adwd",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 2,
+        "sections": [
+          "Characters Present",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-jon-07",
+        "book": "adwd",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 2,
+        "sections": [
+          "Character Appearances",
+          "Characters Present"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-jon-08",
+        "book": "adwd",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      },
+      {
+        "chapter_id": "adwd-jon-12",
+        "book": "adwd",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "alias"
+      }
+    ]
+  }
+}

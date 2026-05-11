@@ -1,0 +1,49 @@
+{
+  "slug": "smiling-knight",
+  "name": "Smiling Knight",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/smiling-knight.node.md",
+  "generated_at": "2026-05-11T22:33:53.270696+00:00",
+  "stats": {
+    "appearances_total": 3,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 3,
+    "out_edge_count": 2,
+    "in_edge_count": 8
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "asos-jaime-08",
+        "book": "asos",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-samwell-02",
+        "book": "asos",
+        "pov_character_slug": "samwell-tarly",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "affc-jaime-04",
+        "book": "affc",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

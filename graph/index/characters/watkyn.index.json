@@ -1,0 +1,29 @@
+{
+  "slug": "watkyn",
+  "name": "Watkyn",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/watkyn.node.md",
+  "generated_at": "2026-05-11T22:33:53.515175+00:00",
+  "stats": {
+    "appearances_total": 1,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 1,
+    "out_edge_count": 2,
+    "in_edge_count": 1
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "adwd-the-lost-lord-01",
+        "book": "adwd",
+        "pov_character_slug": "jon-connington",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

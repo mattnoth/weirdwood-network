@@ -1,0 +1,71 @@
+{
+  "slug": "tyene-sand",
+  "name": "Tyene Sand",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/tyene-sand.node.md",
+  "generated_at": "2026-05-11T22:33:53.279230+00:00",
+  "stats": {
+    "appearances_total": 7,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 5,
+    "out_edge_count": 7,
+    "in_edge_count": 14
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "affc-the-captain-of-guards-01",
+        "book": "affc",
+        "pov_character_slug": "areo-hotah",
+        "mention_count": 2,
+        "sections": [
+          "Character Appearances",
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "affc-the-princess-in-the-tower-01",
+        "book": "affc",
+        "pov_character_slug": "arianne-martell",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "affc-the-queenmaker-01",
+        "book": "affc",
+        "pov_character_slug": "arianne-martell",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "affc-the-soiled-knight-01",
+        "book": "affc",
+        "pov_character_slug": "arys-oakheart",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "adwd-the-watcher-01",
+        "book": "adwd",
+        "pov_character_slug": "areo-hotah",
+        "mention_count": 2,
+        "sections": [
+          "Character Appearances",
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

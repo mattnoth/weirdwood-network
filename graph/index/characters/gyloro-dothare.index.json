@@ -1,0 +1,29 @@
+{
+  "slug": "gyloro-dothare",
+  "name": "Gyloro Dothare",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/gyloro-dothare.node.md",
+  "generated_at": "2026-05-11T22:33:53.147100+00:00",
+  "stats": {
+    "appearances_total": 1,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 1,
+    "out_edge_count": 1,
+    "in_edge_count": 0
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "affc-cat-of-the-canals-01",
+        "book": "affc",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

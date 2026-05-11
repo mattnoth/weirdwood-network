@@ -1,0 +1,30 @@
+{
+  "slug": "leo-tyrell-son-of-moryn",
+  "name": "Leo Tyrell (son of Moryn)",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/leo-tyrell-son-of-moryn.node.md",
+  "generated_at": "2026-05-11T22:33:53.492320+00:00",
+  "stats": {
+    "appearances_total": 2,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 1,
+    "out_edge_count": 6,
+    "in_edge_count": 14
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "affc-prologue",
+        "book": "affc",
+        "pov_character_slug": null,
+        "mention_count": 2,
+        "sections": [
+          "Character Appearances",
+          "Characters Present"
+        ],
+        "resolved_via": "alias"
+      }
+    ]
+  }
+}

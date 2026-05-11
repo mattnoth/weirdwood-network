@@ -1,0 +1,31 @@
+{
+  "slug": "the-liddle",
+  "name": "The Liddle",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/the-liddle.node.md",
+  "generated_at": "2026-05-11T22:33:53.405176+00:00",
+  "stats": {
+    "appearances_total": 3,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 1,
+    "out_edge_count": 2,
+    "in_edge_count": 5
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "asos-bran-02",
+        "book": "asos",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 3,
+        "sections": [
+          "Character Appearances",
+          "Characters Present",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

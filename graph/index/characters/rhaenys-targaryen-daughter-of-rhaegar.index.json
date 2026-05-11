@@ -1,0 +1,18 @@
+{
+  "slug": "rhaenys-targaryen-daughter-of-rhaegar",
+  "name": "Rhaenys Targaryen (daughter of Rhaegar)",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/rhaenys-targaryen-daughter-of-rhaegar.node.md",
+  "generated_at": "2026-05-11T22:33:53.356985+00:00",
+  "stats": {
+    "appearances_total": 0,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 0,
+    "out_edge_count": 10,
+    "in_edge_count": 27
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": []
+  }
+}

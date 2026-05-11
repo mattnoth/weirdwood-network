@@ -1,0 +1,29 @@
+{
+  "slug": "qarlton-chelsted",
+  "name": "Qarlton Chelsted",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/qarlton-chelsted.node.md",
+  "generated_at": "2026-05-11T22:33:53.328128+00:00",
+  "stats": {
+    "appearances_total": 1,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 1,
+    "out_edge_count": 6,
+    "in_edge_count": 13
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "affc-cersei-03",
+        "book": "affc",
+        "pov_character_slug": "cersei-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "slug": "dirk",
+  "name": "Dirk",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/dirk.node.md",
+  "generated_at": "2026-05-11T22:33:53.321533+00:00",
+  "stats": {
+    "appearances_total": 6,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 5,
+    "out_edge_count": 3,
+    "in_edge_count": 8
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "agot-catelyn-06",
+        "book": "agot",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "acok-jon-06",
+        "book": "acok",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Artifacts & Objects"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-jon-06",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-prologue",
+        "book": "asos",
+        "pov_character_slug": "chett",
+        "mention_count": 2,
+        "sections": [
+          "Characters Present",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-samwell-02",
+        "book": "asos",
+        "pov_character_slug": "samwell-tarly",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "slug": "harras-harlaw",
+  "name": "Harras Harlaw",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/harras-harlaw.node.md",
+  "generated_at": "2026-05-11T22:33:53.308445+00:00",
+  "stats": {
+    "appearances_total": 4,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 3,
+    "out_edge_count": 7,
+    "in_edge_count": 7
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "affc-the-drowned-man-01",
+        "book": "affc",
+        "pov_character_slug": "aeron-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "affc-the-krakens-daughter-01",
+        "book": "affc",
+        "pov_character_slug": "asha-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "affc-the-reaver-01",
+        "book": "affc",
+        "pov_character_slug": "victarion-greyjoy",
+        "mention_count": 2,
+        "sections": [
+          "Character Appearances",
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

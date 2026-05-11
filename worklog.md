@@ -178,6 +178,23 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 41 — Per-character index roll-up + POV canonical resolution (2026-05-11)
+
+**Changes made:**
+- `scripts/build-character-indexes.py` — NEW. Pure-Python (no LLM, no HTTP) script that walks 3,910 `character.*` graph nodes, parses each frontmatter for slug/name/type, joins against the per-chapter mention index (inverse maps for POV + mentioned-in), reads node-body `## Edges` section for out_edge_count, looks up `working/wiki/data/backlink-counts.json` for in_edge_count, and emits one `graph/index/characters/<slug>.index.json` per character + a `_summary.json` rollup. CLI: `--character <slug>` (test mode), `--all` (default), `--dry-run`. Idempotent. Runs in ~1.0s.
+- `graph/index/characters/` — NEW directory. 3,910 character-index JSON files + `_summary.json`. Stats per file: `appearances_total`, `chapters_pov`, `chapters_mentioned_in`, `out_edge_count`, `in_edge_count`. Lists: `chapters.pov` and `chapters.mentioned_in` (each mention record carries chapter_id, book, pov_character_slug, mention_count, sections, resolved_via). POV chapters excluded from mentioned_in to avoid double-counting.
+- **POV canonical resolution (Matt-requested expansion):** instead of guessing POV from the filename stem (which left Alayne/Reek/descriptive-title chapters with the wrong POV), the script now parses each Pass 1 extraction's `pov_character:` frontmatter field. Pass 1 already encodes truename canonicalization there: `Alayne (Sansa Stark)`, `Reek (Theon Greyjoy)`, `Theon Greyjoy (as "The Turncloak" / "Reek")`. A small parser handles both `(truename)` and `(as "alias")` idioms + disguise wording (`Arya Stark (disguised as "Arry")`). Slug resolution chain: kebab → direct → alias-resolver → honorific-strip (`Maester Cressen` → `cressen`) → unique-prefix-match → mention-disambiguated prefix-match (`Catelyn` → catelyn-stark beats catelyn-bracken because catelyn-stark appears in chapter's Characters Present). All but 1 of 344 chapter POVs now resolve (the remaining 1: AFFC prologue's Pate the Novice — wiki page exists at `Pate_(Novice).json` but was never promoted to graph, real missing-node case).
+- `working/todos.md` — marked Per-character Index Roll-up DONE; added new Year-page Type Bug todo (10 wiki year-pages slipped through as `character.human`; faithfully emitted but flagged in `_summary.json.year_pages_emitted_as_characters`).
+
+**Decisions:** Followed the continue-prompt's 4 leans verbatim: (a) include all `character.*` types — 3876 human + 28 dragon + 6 direwolf; (b) `in_edge_count` from `backlink-counts.json` (the existing prose cross-ref count); (c) POV chapters in separate list from mentioned_in (no double-counting); (d) alias resolution inherits from mention-index — no extra work. **Year-page handling: emit faithfully + log** (option a from the 3 choices), with a todo entry capturing the underlying type-classification bug for separate fix. **POV canonicalization done at the index layer, not the graph layer.** Alayne and Reek remain distinct graph nodes (POV=0 each, mentioned_in retained). The character INDEX treats them as Sansa/Theon for retrieval (correct narrative model). The graph-level SAME_AS merge is Stage 4 work — but the index doesn't need to wait for it. **POV roster grew 18 → 30** after this work: gained Quentyn (4), Barristan (4), Victarion (4), Asha (4), Aeron (2), Areo (2), Jon Connington (2), Arianne (2), Cressen, Will, Chett, Varamyr, Arys Oakheart, Melisandre, Kevan, Merrett Frey. Top-9 POV counts match canon: Tyrion 47 ✓, Jon 42 ✓, Arya 33 ✓ (was 31 — pre-fix missed Cat of the Canals + Blind Girl + Ugly Little Girl), Daenerys 31 ✓, Catelyn 25 ✓ (was 24 — pre-fix missed agot-catelyn-06 where pov_character was just "Catelyn" with no surname), Sansa 24 ✓ (was 21 — +Alayne ×2 + Sansa I), Bran 21 ✓, Jaime 17 ✓, Eddard 15 ✓, Theon 13 (was 7 — +Reek ×3 + 3 descriptive titles). Continue-prompt's smoke-test estimate of "30-50 chapters mentioned in" for Eddard was wrong — actual is 185 (referenced post-death throughout AFFC/ADWD).
+
+**What's next:**
+- **Stage 4 component (b) — chapter-evidence backfill** is now unblocked. The character index per slug provides the prerequisite "for character X, here are the chapters that reference them" lookup. Continue prompt for the larger Stage 4 work: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`.
+- **Year-page type fix** queued in todos.md (10 nodes; bundles naturally with Stage 4 temporal-edges work, since year pages are the natural `OCCURRED_IN_YEAR` anchors).
+- **Pate-the-Novice missing node** — wiki page `Pate_(Novice).json` cached locally but never promoted. Single node, AFFC prologue POV. Would unblock the last 1 of 344 chapter POV resolutions. Tiny follow-up.
+- **Per-LOCATION + per-ARTIFACT index roll-ups** are the natural next iteration of this work (continue prompt scoped to characters only). Pattern is reusable — same script structure with different node-type filter. Not yet a todo; flag if/when Stage 4 needs them.
+- **Per Matt's standing rule, /endsession is NOT auto-run.**
+
 ### Session 40 — Catch-up synthesis, surgical merges, alias backfill (2026-05-11)
 **Detail:** `history/session-details/session-040.md`
 
@@ -265,30 +282,7 @@ This is your project memory. When you come back after a break, read Current Stat
 - **Continue prompts active (3):** `2026-05-02-stage4-v1-prose-edge-classifier.md`, `2026-05-05-dialogue-meals-mention-index-design.md`, plus this handoff (will be archived at /endsession).
 - **Per Matt's standing rule, /endsession is NOT auto-run** — handoff prompt awaits Matt's invocation.
 
-### Session 36 — Hygiene pass + soft-convention hardening (2026-05-06)
-**Detail:** `history/session-details/session-036.md`
-
-**Changes made:**
-- 3 stale Pass 1 continue prompts → `progress/continue-prompts/archive/`. `progress/SESSION-32-HANDOFF.md` → `history/worklog-archives/session-32-handoff.md`.
-- `progress/scratch-notes.md` deleted; three referenced long-form entries folded into `working/todos.md` lines that referenced them. Rest dropped (stale or redundant).
-- Cleaned scratch-notes/handoffs.md refs in `CLAUDE.md`, `README.md`, `STATUS.md`, `.claude/agents/status-reporter.md`, `.claude/commands/endsession.md`.
-- `CLAUDE.md` orchestration rules #7 and #8 rewritten: session-details now explicitly as-needed (not every-session); worklog Session Log strict 5-entry max with archives holding exactly 5 entries each.
-- `CLAUDE.md` new section "Top-Level `scratch` File — Ignore It" before Orchestration Rules. Tells agents to ignore scratch outside `/endsession` step 4(a). `.gitignore` updated; root `scratch` file untracked.
-- `.claude/commands/endsession.md` step 4 expanded with scratch-triage subroutine; step 6 rewritten to strict 5-entry rule.
-- `working/todos.md` staleness sweep: Pass 1 model-fit smoke test obsoleted, Stage 4 prereq-met, agent-stub vs full-prompt status corrected, citation-validator queued for verify, spoiler-gating prereq-met, model-fit policy phrasing updated. New "Project Story / Auxiliary" category with session-details audit todo. `READY TO DO` flag added on model-fit-audit todo.
-- `worklog.md` two staleness fixes (entity-index todo obsoleted; Stage 4 skeleton ref refreshed).
-- Archive operation under new rule: Sessions 27, 28, 29 appended to `archive006.md` (now 5 entries); Sessions 30 (×2 numbered entries) and 31 created `archive007.md` (3 entries, will fill over future cycles).
-- Single commit `240fe565` "Hygiene pass: archive stale prompts, retire scratch-notes, harden conventions" — 15 files, +407/−214. Pushed to `origin/main`.
-
-**Decisions:** **Five rule changes locked.** (1) Worklog Session Log strict 5-entry max, archive in 5-entry blocks; ambiguous "~150 lines" replaced with concrete count. (2) Session-details files are as-needed, not every-session — write only for design/incident/novel-decision sessions; pure-execution skips. (3) Top-level `scratch` is Matt's private space (gitignored, agents don't read outside /endsession). (4) `/endsession` step 4(a) triages scratch contents at end of every session. (5) `progress/scratch-notes.md` retired; replaced by the gitignored top-level scratch + designated triage moment. **Soft-conventions framing surfaced as a project pattern:** rules in prose without enforcement drift over time; rules in /endsession do better but conditional steps still slip; hooks add real enforcement when the action must not be skipped (none built this session — all current cases are well-served by strict /endsession steps). **Hooks vs rules clarified:** rule = read; hook = executed; both together is "double cost" only when redundant; rules in /endsession alone are sufficient when /endsession is reliably invoked. **`working/todos.md` reorganization deferred** — proposed structure exists in conversation but not executed; Matt paused before approving.
-
-**What's next:**
-- **PRIMARY HANDOFF unchanged:** `progress/continue-prompts/2026-05-05-dialogue-meals-mention-index-design.md` — design pass for dialogue/meals/mention-index passes, awaiting Matt's review of 7 Open Questions.
-- **`working/todos.md` reorganization** — proposed 12-section structure + parallel `working/todos-archive.md`; restart this in next session.
-- **`READY TO DO` next** (per todos.md): model-fit audit across `.claude/agents/*.md` (resource-conservation pass). And: re-run `citation-validator` on full 5-book corpus now that Pass 1 is 344/344.
-- Stage 4 v1 still queued: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`.
-
-> Session 34 + Session 35 archived to `history/worklog-archives/archive008.md` (archive008.md has 2 entries; will fill over future cycles)
+> Sessions 34, 35, 36 archived to `history/worklog-archives/archive008.md` (archive008.md has 3 entries; will fill over future cycles)
 > Sessions 30–33 in `history/worklog-archives/archive007.md` (full at 5 entries)
 > Sessions 25–29 archived to `history/worklog-archives/archive006.md`
 > Sessions 22–24 archived to `history/worklog-archives/archive005.md`

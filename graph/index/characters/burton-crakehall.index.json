@@ -1,0 +1,39 @@
+{
+  "slug": "burton-crakehall",
+  "name": "Burton Crakehall",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/burton-crakehall.node.md",
+  "generated_at": "2026-05-11T22:33:53.434979+00:00",
+  "stats": {
+    "appearances_total": 2,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 2,
+    "out_edge_count": 3,
+    "in_edge_count": 1
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "acok-catelyn-01",
+        "book": "acok",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-arya-07",
+        "book": "asos",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

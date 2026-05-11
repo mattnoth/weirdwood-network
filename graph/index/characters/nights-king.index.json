@@ -1,0 +1,39 @@
+{
+  "slug": "nights-king",
+  "name": "Night's King",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/nights-king.node.md",
+  "generated_at": "2026-05-11T22:33:53.220191+00:00",
+  "stats": {
+    "appearances_total": 2,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 2,
+    "out_edge_count": 5,
+    "in_edge_count": 10
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "asos-bran-04",
+        "book": "asos",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "affc-samwell-01",
+        "book": "affc",
+        "pov_character_slug": "samwell-tarly",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

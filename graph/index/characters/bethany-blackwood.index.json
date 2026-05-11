@@ -1,0 +1,29 @@
+{
+  "slug": "bethany-blackwood",
+  "name": "Bethany Blackwood",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/bethany-blackwood.node.md",
+  "generated_at": "2026-05-11T22:33:53.113515+00:00",
+  "stats": {
+    "appearances_total": 1,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 1,
+    "out_edge_count": 4,
+    "in_edge_count": 4
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "adwd-jaime-01",
+        "book": "adwd",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

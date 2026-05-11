@@ -1,0 +1,31 @@
+{
+  "slug": "willam-wells",
+  "name": "Willam Wells",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/willam-wells.node.md",
+  "generated_at": "2026-05-11T22:33:53.126472+00:00",
+  "stats": {
+    "appearances_total": 3,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 1,
+    "out_edge_count": 4,
+    "in_edge_count": 5
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "adwd-the-merchants-man-01",
+        "book": "adwd",
+        "pov_character_slug": "quentyn-martell",
+        "mention_count": 3,
+        "sections": [
+          "Character Appearances",
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

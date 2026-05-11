@@ -1,0 +1,30 @@
+{
+  "slug": "kurleket",
+  "name": "Kurleket",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/kurleket.node.md",
+  "generated_at": "2026-05-11T22:33:53.288330+00:00",
+  "stats": {
+    "appearances_total": 2,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 1,
+    "out_edge_count": 2,
+    "in_edge_count": 3
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "agot-tyrion-04",
+        "book": "agot",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 2,
+        "sections": [
+          "Character Appearances",
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

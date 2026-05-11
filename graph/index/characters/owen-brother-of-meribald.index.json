@@ -1,0 +1,18 @@
+{
+  "slug": "owen-brother-of-meribald",
+  "name": "Owen (brother of Meribald)",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/owen-brother-of-meribald.node.md",
+  "generated_at": "2026-05-11T22:33:53.285858+00:00",
+  "stats": {
+    "appearances_total": 0,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 0,
+    "out_edge_count": 2,
+    "in_edge_count": 3
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": []
+  }
+}

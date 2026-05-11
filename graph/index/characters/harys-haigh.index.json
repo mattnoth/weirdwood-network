@@ -1,0 +1,59 @@
+{
+  "slug": "harys-haigh",
+  "name": "Harys Haigh",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/harys-haigh.node.md",
+  "generated_at": "2026-05-11T22:33:53.261980+00:00",
+  "stats": {
+    "appearances_total": 4,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 4,
+    "out_edge_count": 8,
+    "in_edge_count": 6
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "acok-arya-10",
+        "book": "acok",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-catelyn-06",
+        "book": "asos",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-catelyn-07",
+        "book": "asos",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "affc-jaime-04",
+        "book": "affc",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

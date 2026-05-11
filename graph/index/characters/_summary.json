@@ -1,0 +1,721 @@
+{
+  "generated_at": "2026-05-11T22:33:53.542916+00:00",
+  "dry_run": false,
+  "character_count": 3910,
+  "type_counts": {
+    "character.human": 3876,
+    "character.dragon": 28,
+    "character.direwolf": 6
+  },
+  "pov_characters_count": 30,
+  "characters_with_zero_mentions": 2176,
+  "year_pages_emitted_as_characters": 10,
+  "pov_inverse_slugs": 30,
+  "mention_inverse_slugs": 9487,
+  "top_by_appearances": [
+    {
+      "slug": "eddard-stark",
+      "name": "Eddard Stark",
+      "type": "character.human",
+      "chapters_pov": 15,
+      "chapters_mentioned_in": 185,
+      "appearances_total": 264,
+      "in_edge_count": 493,
+      "out_edge_count": 22
+    },
+    {
+      "slug": "robb-stark",
+      "name": "Robb Stark",
+      "type": "character.human",
+      "chapters_pov": 0,
+      "chapters_mentioned_in": 175,
+      "appearances_total": 240,
+      "in_edge_count": 474,
+      "out_edge_count": 10
+    },
+    {
+      "slug": "robert-baratheon",
+      "name": "Robert Baratheon",
+      "type": "character.human",
+      "chapters_pov": 0,
+      "chapters_mentioned_in": 166,
+      "appearances_total": 213,
+      "in_edge_count": 28,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "tywin-lannister",
+      "name": "Tywin Lannister",
+      "type": "character.human",
+      "chapters_pov": 0,
+      "chapters_mentioned_in": 157,
+      "appearances_total": 210,
+      "in_edge_count": 524,
+      "out_edge_count": 22
+    },
+    {
+      "slug": "jaime-lannister",
+      "name": "Jaime Lannister",
+      "type": "character.human",
+      "chapters_pov": 17,
+      "chapters_mentioned_in": 134,
+      "appearances_total": 198,
+      "in_edge_count": 767,
+      "out_edge_count": 25
+    },
+    {
+      "slug": "cersei-lannister",
+      "name": "Cersei Lannister",
+      "type": "character.human",
+      "chapters_pov": 12,
+      "chapters_mentioned_in": 122,
+      "appearances_total": 194,
+      "in_edge_count": 586,
+      "out_edge_count": 27
+    },
+    {
+      "slug": "stannis-baratheon",
+      "name": "Stannis Baratheon",
+      "type": "character.human",
+      "chapters_pov": 0,
+      "chapters_mentioned_in": 136,
+      "appearances_total": 183,
+      "in_edge_count": 631,
+      "out_edge_count": 17
+    },
+    {
+      "slug": "tyrion-lannister",
+      "name": "Tyrion Lannister",
+      "type": "character.human",
+      "chapters_pov": 47,
+      "chapters_mentioned_in": 101,
+      "appearances_total": 173,
+      "in_edge_count": 763,
+      "out_edge_count": 16
+    },
+    {
+      "slug": "sansa-stark",
+      "name": "Sansa Stark",
+      "type": "character.human",
+      "chapters_pov": 24,
+      "chapters_mentioned_in": 112,
+      "appearances_total": 172,
+      "in_edge_count": 434,
+      "out_edge_count": 13
+    },
+    {
+      "slug": "arya-stark",
+      "name": "Arya Stark",
+      "type": "character.human",
+      "chapters_pov": 33,
+      "chapters_mentioned_in": 92,
+      "appearances_total": 158,
+      "in_edge_count": 490,
+      "out_edge_count": 14
+    },
+    {
+      "slug": "joffrey-baratheon",
+      "name": "Joffrey Baratheon",
+      "type": "character.human",
+      "chapters_pov": 0,
+      "chapters_mentioned_in": 110,
+      "appearances_total": 157,
+      "in_edge_count": 329,
+      "out_edge_count": 13
+    },
+    {
+      "slug": "catelyn-stark",
+      "name": "Catelyn Stark",
+      "type": "character.human",
+      "chapters_pov": 25,
+      "chapters_mentioned_in": 98,
+      "appearances_total": 156,
+      "in_edge_count": 457,
+      "out_edge_count": 19
+    },
+    {
+      "slug": "jon-snow",
+      "name": "Jon Snow",
+      "type": "character.human",
+      "chapters_pov": 42,
+      "chapters_mentioned_in": 75,
+      "appearances_total": 154,
+      "in_edge_count": 666,
+      "out_edge_count": 8
+    },
+    {
+      "slug": "sandor-clegane",
+      "name": "Sandor Clegane",
+      "type": "character.human",
+      "chapters_pov": 0,
+      "chapters_mentioned_in": 88,
+      "appearances_total": 135,
+      "in_edge_count": 180,
+      "out_edge_count": 6
+    },
+    {
+      "slug": "bran-stark",
+      "name": "Bran Stark",
+      "type": "character.human",
+      "chapters_pov": 21,
+      "chapters_mentioned_in": 89,
+      "appearances_total": 131,
+      "in_edge_count": 229,
+      "out_edge_count": 13
+    },
+    {
+      "slug": "renly-baratheon",
+      "name": "Renly Baratheon",
+      "type": "character.human",
+      "chapters_pov": 0,
+      "chapters_mentioned_in": 93,
+      "appearances_total": 118,
+      "in_edge_count": 226,
+      "out_edge_count": 12
+    },
+    {
+      "slug": "varys",
+      "name": "Varys",
+      "type": "character.human",
+      "chapters_pov": 0,
+      "chapters_mentioned_in": 78,
+      "appearances_total": 114,
+      "in_edge_count": 163,
+      "out_edge_count": 11
+    },
+    {
+      "slug": "ghost",
+      "name": "Ghost",
+      "type": "character.direwolf",
+      "chapters_pov": 0,
+      "chapters_mentioned_in": 56,
+      "appearances_total": 105,
+      "in_edge_count": 34,
+      "out_edge_count": 1
+    },
+    {
+      "slug": "petyr-baelish",
+      "name": "Petyr Baelish",
+      "type": "character.human",
+      "chapters_pov": 0,
+      "chapters_mentioned_in": 72,
+      "appearances_total": 101,
+      "in_edge_count": 242,
+      "out_edge_count": 12
+    },
+    {
+      "slug": "rickon-stark",
+      "name": "Rickon Stark",
+      "type": "character.human",
+      "chapters_pov": 0,
+      "chapters_mentioned_in": 70,
+      "appearances_total": 96,
+      "in_edge_count": 49,
+      "out_edge_count": 6
+    }
+  ],
+  "top_by_in_edges": [
+    {
+      "slug": "jaime-lannister",
+      "name": "Jaime Lannister",
+      "type": "character.human",
+      "chapters_pov": 17,
+      "chapters_mentioned_in": 134,
+      "appearances_total": 198,
+      "in_edge_count": 767,
+      "out_edge_count": 25
+    },
+    {
+      "slug": "tyrion-lannister",
+      "name": "Tyrion Lannister",
+      "type": "character.human",
+      "chapters_pov": 47,
+      "chapters_mentioned_in": 101,
+      "appearances_total": 173,
+      "in_edge_count": 763,
+      "out_edge_count": 16
+    },
+    {
+      "slug": "jon-snow",
+      "name": "Jon Snow",
+      "type": "character.human",
+      "chapters_pov": 42,
+      "chapters_mentioned_in": 75,
+      "appearances_total": 154,
+      "in_edge_count": 666,
+      "out_edge_count": 8
+    },
+    {
+      "slug": "stannis-baratheon",
+      "name": "Stannis Baratheon",
+      "type": "character.human",
+      "chapters_pov": 0,
+      "chapters_mentioned_in": 136,
+      "appearances_total": 183,
+      "in_edge_count": 631,
+      "out_edge_count": 17
+    },
+    {
+      "slug": "cersei-lannister",
+      "name": "Cersei Lannister",
+      "type": "character.human",
+      "chapters_pov": 12,
+      "chapters_mentioned_in": 122,
+      "appearances_total": 194,
+      "in_edge_count": 586,
+      "out_edge_count": 27
+    },
+    {
+      "slug": "tywin-lannister",
+      "name": "Tywin Lannister",
+      "type": "character.human",
+      "chapters_pov": 0,
+      "chapters_mentioned_in": 157,
+      "appearances_total": 210,
+      "in_edge_count": 524,
+      "out_edge_count": 22
+    },
+    {
+      "slug": "daenerys-targaryen",
+      "name": "Daenerys Targaryen",
+      "type": "character.human",
+      "chapters_pov": 31,
+      "chapters_mentioned_in": 31,
+      "appearances_total": 76,
+      "in_edge_count": 515,
+      "out_edge_count": 19
+    },
+    {
+      "slug": "eddard-stark",
+      "name": "Eddard Stark",
+      "type": "character.human",
+      "chapters_pov": 15,
+      "chapters_mentioned_in": 185,
+      "appearances_total": 264,
+      "in_edge_count": 493,
+      "out_edge_count": 22
+    },
+    {
+      "slug": "arya-stark",
+      "name": "Arya Stark",
+      "type": "character.human",
+      "chapters_pov": 33,
+      "chapters_mentioned_in": 92,
+      "appearances_total": 158,
+      "in_edge_count": 490,
+      "out_edge_count": 14
+    },
+    {
+      "slug": "robb-stark",
+      "name": "Robb Stark",
+      "type": "character.human",
+      "chapters_pov": 0,
+      "chapters_mentioned_in": 175,
+      "appearances_total": 240,
+      "in_edge_count": 474,
+      "out_edge_count": 10
+    },
+    {
+      "slug": "robert-i-baratheon",
+      "name": "Robert I Baratheon",
+      "type": "character.human",
+      "chapters_pov": 0,
+      "chapters_mentioned_in": 7,
+      "appearances_total": 9,
+      "in_edge_count": 458,
+      "out_edge_count": 30
+    },
+    {
+      "slug": "catelyn-stark",
+      "name": "Catelyn Stark",
+      "type": "character.human",
+      "chapters_pov": 25,
+      "chapters_mentioned_in": 98,
+      "appearances_total": 156,
+      "in_edge_count": 457,
+      "out_edge_count": 19
+    },
+    {
+      "slug": "sansa-stark",
+      "name": "Sansa Stark",
+      "type": "character.human",
+      "chapters_pov": 24,
+      "chapters_mentioned_in": 112,
+      "appearances_total": 172,
+      "in_edge_count": 434,
+      "out_edge_count": 13
+    },
+    {
+      "slug": "theon-greyjoy",
+      "name": "Theon Greyjoy",
+      "type": "character.human",
+      "chapters_pov": 13,
+      "chapters_mentioned_in": 50,
+      "appearances_total": 81,
+      "in_edge_count": 345,
+      "out_edge_count": 12
+    },
+    {
+      "slug": "joffrey-baratheon",
+      "name": "Joffrey Baratheon",
+      "type": "character.human",
+      "chapters_pov": 0,
+      "chapters_mentioned_in": 110,
+      "appearances_total": 157,
+      "in_edge_count": 329,
+      "out_edge_count": 13
+    },
+    {
+      "slug": "davos-seaworth",
+      "name": "Davos Seaworth",
+      "type": "character.human",
+      "chapters_pov": 13,
+      "chapters_mentioned_in": 9,
+      "appearances_total": 25,
+      "in_edge_count": 282,
+      "out_edge_count": 16
+    },
+    {
+      "slug": "barristan-selmy",
+      "name": "Barristan Selmy",
+      "type": "character.human",
+      "chapters_pov": 4,
+      "chapters_mentioned_in": 57,
+      "appearances_total": 89,
+      "in_edge_count": 247,
+      "out_edge_count": 12
+    },
+    {
+      "slug": "petyr-baelish",
+      "name": "Petyr Baelish",
+      "type": "character.human",
+      "chapters_pov": 0,
+      "chapters_mentioned_in": 72,
+      "appearances_total": 101,
+      "in_edge_count": 242,
+      "out_edge_count": 12
+    },
+    {
+      "slug": "roose-bolton",
+      "name": "Roose Bolton",
+      "type": "character.human",
+      "chapters_pov": 0,
+      "chapters_mentioned_in": 65,
+      "appearances_total": 95,
+      "in_edge_count": 240,
+      "out_edge_count": 9
+    },
+    {
+      "slug": "aegon-i-targaryen",
+      "name": "Aegon I Targaryen",
+      "type": "character.human",
+      "chapters_pov": 0,
+      "chapters_mentioned_in": 47,
+      "appearances_total": 61,
+      "in_edge_count": 234,
+      "out_edge_count": 18
+    }
+  ],
+  "pov_characters": [
+    {
+      "slug": "tyrion-lannister",
+      "name": "Tyrion Lannister",
+      "type": "character.human",
+      "chapters_pov": 47,
+      "chapters_mentioned_in": 101,
+      "appearances_total": 173,
+      "in_edge_count": 763,
+      "out_edge_count": 16
+    },
+    {
+      "slug": "jon-snow",
+      "name": "Jon Snow",
+      "type": "character.human",
+      "chapters_pov": 42,
+      "chapters_mentioned_in": 75,
+      "appearances_total": 154,
+      "in_edge_count": 666,
+      "out_edge_count": 8
+    },
+    {
+      "slug": "arya-stark",
+      "name": "Arya Stark",
+      "type": "character.human",
+      "chapters_pov": 33,
+      "chapters_mentioned_in": 92,
+      "appearances_total": 158,
+      "in_edge_count": 490,
+      "out_edge_count": 14
+    },
+    {
+      "slug": "daenerys-targaryen",
+      "name": "Daenerys Targaryen",
+      "type": "character.human",
+      "chapters_pov": 31,
+      "chapters_mentioned_in": 31,
+      "appearances_total": 76,
+      "in_edge_count": 515,
+      "out_edge_count": 19
+    },
+    {
+      "slug": "catelyn-stark",
+      "name": "Catelyn Stark",
+      "type": "character.human",
+      "chapters_pov": 25,
+      "chapters_mentioned_in": 98,
+      "appearances_total": 156,
+      "in_edge_count": 457,
+      "out_edge_count": 19
+    },
+    {
+      "slug": "sansa-stark",
+      "name": "Sansa Stark",
+      "type": "character.human",
+      "chapters_pov": 24,
+      "chapters_mentioned_in": 112,
+      "appearances_total": 172,
+      "in_edge_count": 434,
+      "out_edge_count": 13
+    },
+    {
+      "slug": "bran-stark",
+      "name": "Bran Stark",
+      "type": "character.human",
+      "chapters_pov": 21,
+      "chapters_mentioned_in": 89,
+      "appearances_total": 131,
+      "in_edge_count": 229,
+      "out_edge_count": 13
+    },
+    {
+      "slug": "jaime-lannister",
+      "name": "Jaime Lannister",
+      "type": "character.human",
+      "chapters_pov": 17,
+      "chapters_mentioned_in": 134,
+      "appearances_total": 198,
+      "in_edge_count": 767,
+      "out_edge_count": 25
+    },
+    {
+      "slug": "eddard-stark",
+      "name": "Eddard Stark",
+      "type": "character.human",
+      "chapters_pov": 15,
+      "chapters_mentioned_in": 185,
+      "appearances_total": 264,
+      "in_edge_count": 493,
+      "out_edge_count": 22
+    },
+    {
+      "slug": "davos-seaworth",
+      "name": "Davos Seaworth",
+      "type": "character.human",
+      "chapters_pov": 13,
+      "chapters_mentioned_in": 9,
+      "appearances_total": 25,
+      "in_edge_count": 282,
+      "out_edge_count": 16
+    },
+    {
+      "slug": "theon-greyjoy",
+      "name": "Theon Greyjoy",
+      "type": "character.human",
+      "chapters_pov": 13,
+      "chapters_mentioned_in": 50,
+      "appearances_total": 81,
+      "in_edge_count": 345,
+      "out_edge_count": 12
+    },
+    {
+      "slug": "cersei-lannister",
+      "name": "Cersei Lannister",
+      "type": "character.human",
+      "chapters_pov": 12,
+      "chapters_mentioned_in": 122,
+      "appearances_total": 194,
+      "in_edge_count": 586,
+      "out_edge_count": 27
+    },
+    {
+      "slug": "samwell-tarly",
+      "name": "Samwell Tarly",
+      "type": "character.human",
+      "chapters_pov": 10,
+      "chapters_mentioned_in": 24,
+      "appearances_total": 53,
+      "in_edge_count": 221,
+      "out_edge_count": 9
+    },
+    {
+      "slug": "brienne-tarth",
+      "name": "Brienne Tarth",
+      "type": "character.human",
+      "chapters_pov": 8,
+      "chapters_mentioned_in": 26,
+      "appearances_total": 55,
+      "in_edge_count": 87,
+      "out_edge_count": 10
+    },
+    {
+      "slug": "quentyn-martell",
+      "name": "Quentyn Martell",
+      "type": "character.human",
+      "chapters_pov": 4,
+      "chapters_mentioned_in": 11,
+      "appearances_total": 20,
+      "in_edge_count": 97,
+      "out_edge_count": 12
+    },
+    {
+      "slug": "barristan-selmy",
+      "name": "Barristan Selmy",
+      "type": "character.human",
+      "chapters_pov": 4,
+      "chapters_mentioned_in": 57,
+      "appearances_total": 89,
+      "in_edge_count": 247,
+      "out_edge_count": 12
+    },
+    {
+      "slug": "victarion-greyjoy",
+      "name": "Victarion Greyjoy",
+      "type": "character.human",
+      "chapters_pov": 4,
+      "chapters_mentioned_in": 8,
+      "appearances_total": 16,
+      "in_edge_count": 127,
+      "out_edge_count": 8
+    },
+    {
+      "slug": "asha-greyjoy",
+      "name": "Asha Greyjoy",
+      "type": "character.human",
+      "chapters_pov": 4,
+      "chapters_mentioned_in": 10,
+      "appearances_total": 20,
+      "in_edge_count": 196,
+      "out_edge_count": 11
+    },
+    {
+      "slug": "aeron-greyjoy",
+      "name": "Aeron Greyjoy",
+      "type": "character.human",
+      "chapters_pov": 2,
+      "chapters_mentioned_in": 10,
+      "appearances_total": 17,
+      "in_edge_count": 93,
+      "out_edge_count": 7
+    },
+    {
+      "slug": "areo-hotah",
+      "name": "Areo Hotah",
+      "type": "character.human",
+      "chapters_pov": 2,
+      "chapters_mentioned_in": 3,
+      "appearances_total": 9,
+      "in_edge_count": 21,
+      "out_edge_count": 7
+    },
+    {
+      "slug": "jon-connington",
+      "name": "Jon Connington",
+      "type": "character.human",
+      "chapters_pov": 2,
+      "chapters_mentioned_in": 16,
+      "appearances_total": 29,
+      "in_edge_count": 128,
+      "out_edge_count": 10
+    },
+    {
+      "slug": "arianne-martell",
+      "name": "Arianne Martell",
+      "type": "character.human",
+      "chapters_pov": 2,
+      "chapters_mentioned_in": 7,
+      "appearances_total": 12,
+      "in_edge_count": 139,
+      "out_edge_count": 9
+    },
+    {
+      "slug": "kevan-lannister",
+      "name": "Kevan Lannister",
+      "type": "character.human",
+      "chapters_pov": 1,
+      "chapters_mentioned_in": 36,
+      "appearances_total": 47,
+      "in_edge_count": 167,
+      "out_edge_count": 18
+    },
+    {
+      "slug": "varamyr",
+      "name": "Varamyr",
+      "type": "character.human",
+      "chapters_pov": 1,
+      "chapters_mentioned_in": 4,
+      "appearances_total": 8,
+      "in_edge_count": 12,
+      "out_edge_count": 3
+    },
+    {
+      "slug": "chett",
+      "name": "Chett",
+      "type": "character.human",
+      "chapters_pov": 1,
+      "chapters_mentioned_in": 9,
+      "appearances_total": 19,
+      "in_edge_count": 25,
+      "out_edge_count": 5
+    },
+    {
+      "slug": "melisandre",
+      "name": "Melisandre",
+      "type": "character.human",
+      "chapters_pov": 1,
+      "chapters_mentioned_in": 33,
+      "appearances_total": 60,
+      "in_edge_count": 171,
+      "out_edge_count": 3
+    },
+    {
+      "slug": "arys-oakheart",
+      "name": "Arys Oakheart",
+      "type": "character.human",
+      "chapters_pov": 1,
+      "chapters_mentioned_in": 16,
+      "appearances_total": 24,
+      "in_edge_count": 54,
+      "out_edge_count": 8
+    },
+    {
+      "slug": "will",
+      "name": "Will",
+      "type": "character.human",
+      "chapters_pov": 1,
+      "chapters_mentioned_in": 5,
+      "appearances_total": 7,
+      "in_edge_count": 13,
+      "out_edge_count": 2
+    },
+    {
+      "slug": "cressen",
+      "name": "Cressen",
+      "type": "character.human",
+      "chapters_pov": 1,
+      "chapters_mentioned_in": 9,
+      "appearances_total": 14,
+      "in_edge_count": 44,
+      "out_edge_count": 6
+    },
+    {
+      "slug": "merrett-frey",
+      "name": "Merrett Frey",
+      "type": "character.human",
+      "chapters_pov": 1,
+      "chapters_mentioned_in": 6,
+      "appearances_total": 8,
+      "in_edge_count": 79,
+      "out_edge_count": 11
+    }
+  ]
+}

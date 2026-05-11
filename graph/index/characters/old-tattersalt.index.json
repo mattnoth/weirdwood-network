@@ -1,0 +1,31 @@
+{
+  "slug": "old-tattersalt",
+  "name": "Old Tattersalt",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/old-tattersalt.node.md",
+  "generated_at": "2026-05-11T22:33:53.427893+00:00",
+  "stats": {
+    "appearances_total": 3,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 1,
+    "out_edge_count": 4,
+    "in_edge_count": 0
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "affc-samwell-02",
+        "book": "affc",
+        "pov_character_slug": "samwell-tarly",
+        "mention_count": 3,
+        "sections": [
+          "Character Appearances",
+          "Characters Present",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

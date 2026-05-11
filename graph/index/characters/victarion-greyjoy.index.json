@@ -1,0 +1,120 @@
+{
+  "slug": "victarion-greyjoy",
+  "name": "Victarion Greyjoy",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/victarion-greyjoy.node.md",
+  "generated_at": "2026-05-11T22:33:53.535486+00:00",
+  "stats": {
+    "appearances_total": 16,
+    "chapters_pov": 4,
+    "chapters_mentioned_in": 8,
+    "out_edge_count": 8,
+    "in_edge_count": 127
+  },
+  "chapters": {
+    "pov": [
+      {
+        "chapter_id": "affc-the-iron-captain-01",
+        "book": "affc"
+      },
+      {
+        "chapter_id": "affc-the-reaver-01",
+        "book": "affc"
+      },
+      {
+        "chapter_id": "adwd-the-iron-suitor-01",
+        "book": "adwd"
+      },
+      {
+        "chapter_id": "adwd-victarion-01",
+        "book": "adwd"
+      }
+    ],
+    "mentioned_in": [
+      {
+        "chapter_id": "acok-theon-01",
+        "book": "acok",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "acok-theon-02",
+        "book": "acok",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "asos-catelyn-05",
+        "book": "asos",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "affc-the-drowned-man-01",
+        "book": "affc",
+        "pov_character_slug": "aeron-greyjoy",
+        "mention_count": 2,
+        "sections": [
+          "Character Appearances",
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "affc-the-krakens-daughter-01",
+        "book": "affc",
+        "pov_character_slug": "asha-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "affc-the-prophet-01",
+        "book": "affc",
+        "pov_character_slug": "aeron-greyjoy",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "adwd-reek-02",
+        "book": "adwd",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      },
+      {
+        "chapter_id": "adwd-the-wayward-bride-01",
+        "book": "adwd",
+        "pov_character_slug": "asha-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

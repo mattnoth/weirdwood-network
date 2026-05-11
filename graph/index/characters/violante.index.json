@@ -1,0 +1,18 @@
+{
+  "slug": "violante",
+  "name": "Violante",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/violante.node.md",
+  "generated_at": "2026-05-11T22:33:53.236329+00:00",
+  "stats": {
+    "appearances_total": 0,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 0,
+    "out_edge_count": 5,
+    "in_edge_count": 0
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": []
+  }
+}

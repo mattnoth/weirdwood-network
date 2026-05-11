@@ -1,0 +1,29 @@
+{
+  "slug": "jezhene",
+  "name": "Jezhene",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/jezhene.node.md",
+  "generated_at": "2026-05-11T22:33:53.381995+00:00",
+  "stats": {
+    "appearances_total": 1,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 1,
+    "out_edge_count": 3,
+    "in_edge_count": 2
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "adwd-the-kingbreaker-01",
+        "book": "adwd",
+        "pov_character_slug": "barristan-selmy",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

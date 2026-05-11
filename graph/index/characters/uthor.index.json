@@ -1,0 +1,29 @@
+{
+  "slug": "uthor",
+  "name": "Uthor",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/uthor.node.md",
+  "generated_at": "2026-05-11T22:33:53.193184+00:00",
+  "stats": {
+    "appearances_total": 1,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 1,
+    "out_edge_count": 4,
+    "in_edge_count": 6
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "adwd-reek-03",
+        "book": "adwd",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Characters Referenced"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}

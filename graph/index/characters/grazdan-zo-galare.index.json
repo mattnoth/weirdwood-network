@@ -1,0 +1,30 @@
+{
+  "slug": "grazdan-zo-galare",
+  "name": "Grazdan zo Galare",
+  "type": "character.human",
+  "node_path": "graph/nodes/characters/grazdan-zo-galare.node.md",
+  "generated_at": "2026-05-11T22:33:53.136961+00:00",
+  "stats": {
+    "appearances_total": 2,
+    "chapters_pov": 0,
+    "chapters_mentioned_in": 1,
+    "out_edge_count": 3,
+    "in_edge_count": 3
+  },
+  "chapters": {
+    "pov": [],
+    "mentioned_in": [
+      {
+        "chapter_id": "adwd-daenerys-01",
+        "book": "adwd",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 2,
+        "sections": [
+          "Characters Present",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct"
+      }
+    ]
+  }
+}
