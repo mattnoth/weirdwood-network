@@ -2,13 +2,13 @@
   "chapter_id": "asos-jon-07",
   "book": "asos",
   "pov_character": "jon",
-  "generated_at": "2026-05-07T02:06:34.425824+00:00",
+  "generated_at": "2026-05-11T21:56:29.692306+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jon-07.extraction.md",
   "stats": {
     "total_mentions": 83,
     "resolved_to_node": 73,
-    "direct": 70,
-    "alias": 3,
+    "direct": 69,
+    "alias": 4,
     "unresolved": 10
   },
   "mentions": [
@@ -222,7 +222,7 @@
     {
       "raw_name": "Lady Meliana",
       "slug": "meliana",
-      "resolved_via": "direct",
+      "resolved_via": "alias",
       "node_type": "character",
       "node_path": "graph/nodes/characters/meliana.node.md",
       "section": "Characters Present",

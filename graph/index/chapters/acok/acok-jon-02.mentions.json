@@ -2,14 +2,14 @@
   "chapter_id": "acok-jon-02",
   "book": "acok",
   "pov_character": "jon",
-  "generated_at": "2026-05-07T02:06:34.361209+00:00",
+  "generated_at": "2026-05-11T21:56:29.619331+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-jon-02.extraction.md",
   "stats": {
     "total_mentions": 95,
-    "resolved_to_node": 63,
+    "resolved_to_node": 65,
     "direct": 63,
-    "alias": 0,
-    "unresolved": 32
+    "alias": 2,
+    "unresolved": 30
   },
   "mentions": [
     {
@@ -194,10 +194,10 @@
     },
     {
       "raw_name": "Ned Stark (Jon's father)",
-      "slug": "ned-stark",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "eddard-stark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
       "section": "Characters Referenced",
       "line": 55
     },
@@ -518,10 +518,10 @@
     },
     {
       "raw_name": "Ned Stark (Jon's father, referenced)",
-      "slug": "ned-stark",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "eddard-stark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
       "section": "Raw Entity List > Characters",
       "line": 213
     },

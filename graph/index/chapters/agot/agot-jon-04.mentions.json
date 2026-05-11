@@ -2,14 +2,14 @@
   "chapter_id": "agot-jon-04",
   "book": "agot",
   "pov_character": "jon",
-  "generated_at": "2026-05-07T02:06:34.322076+00:00",
+  "generated_at": "2026-05-11T21:56:29.567482+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-jon-04.extraction.md",
   "stats": {
     "total_mentions": 62,
-    "resolved_to_node": 52,
+    "resolved_to_node": 53,
     "direct": 48,
-    "alias": 4,
-    "unresolved": 10
+    "alias": 5,
+    "unresolved": 9
   },
   "mentions": [
     {
@@ -266,10 +266,10 @@
     },
     {
       "raw_name": "Ned Stark (Eddard)",
-      "slug": "ned-stark",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "eddard-stark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
       "section": "Characters Referenced",
       "line": 63
     },

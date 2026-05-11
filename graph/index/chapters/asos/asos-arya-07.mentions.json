@@ -2,14 +2,14 @@
   "chapter_id": "asos-arya-07",
   "book": "asos",
   "pov_character": "arya",
-  "generated_at": "2026-05-07T02:06:34.392808+00:00",
+  "generated_at": "2026-05-11T21:56:29.653767+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-arya-07.extraction.md",
   "stats": {
     "total_mentions": 107,
-    "resolved_to_node": 63,
+    "resolved_to_node": 66,
     "direct": 54,
-    "alias": 9,
-    "unresolved": 44
+    "alias": 12,
+    "unresolved": 41
   },
   "mentions": [
     {
@@ -32,10 +32,10 @@
     },
     {
       "raw_name": "Thoros of Myr",
-      "slug": "thoros-of-myr",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "thoros",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/thoros.node.md",
       "section": "Characters Present",
       "line": 29
     },
@@ -230,10 +230,10 @@
     },
     {
       "raw_name": "Thoros of Myr",
-      "slug": "thoros-of-myr",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "thoros",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/thoros.node.md",
       "section": "Character Appearances",
       "line": 55
     },
@@ -293,10 +293,10 @@
     },
     {
       "raw_name": "Shagwell the Fool",
-      "slug": "shagwell-the-fool",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "shagwell",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/shagwell.node.md",
       "section": "Characters Referenced",
       "line": 66
     },

@@ -2,7 +2,7 @@
 name: "Thoros"
 type: character.human
 slug: thoros
-aliases: ["The red wizard", "The Ember", "Pink priest"]
+aliases: ["Thoros of Myr", "The red wizard", "The Ember", "Pink priest"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Thoros"
 bucket_id: characters-other-t

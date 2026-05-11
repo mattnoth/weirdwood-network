@@ -2,14 +2,14 @@
   "chapter_id": "adwd-tyrion-07",
   "book": "adwd",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-07T02:06:34.537758+00:00",
+  "generated_at": "2026-05-11T21:56:29.824942+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-tyrion-07.extraction.md",
   "stats": {
     "total_mentions": 80,
-    "resolved_to_node": 56,
+    "resolved_to_node": 57,
     "direct": 51,
-    "alias": 5,
-    "unresolved": 24
+    "alias": 6,
+    "unresolved": 23
   },
   "mentions": [
     {
@@ -230,10 +230,10 @@
     },
     {
       "raw_name": "Ned Stark",
-      "slug": "ned-stark",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "eddard-stark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
       "section": "Characters Referenced",
       "line": 59
     },

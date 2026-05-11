@@ -2,14 +2,14 @@
   "chapter_id": "agot-tyrion-03",
   "book": "agot",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-07T02:06:34.330540+00:00",
+  "generated_at": "2026-05-11T21:56:29.576840+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-tyrion-03.extraction.md",
   "stats": {
     "total_mentions": 55,
-    "resolved_to_node": 45,
+    "resolved_to_node": 46,
     "direct": 45,
-    "alias": 0,
-    "unresolved": 10
+    "alias": 1,
+    "unresolved": 9
   },
   "mentions": [
     {
@@ -383,10 +383,10 @@
     },
     {
       "raw_name": "Eastwatch (Eastwatch-by-the-Sea)",
-      "slug": "eastwatch",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "eastwatch-by-the-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/eastwatch-by-the-sea.node.md",
       "section": "Locations",
       "line": 80
     },

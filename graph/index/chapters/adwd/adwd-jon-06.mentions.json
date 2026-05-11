@@ -2,14 +2,14 @@
   "chapter_id": "adwd-jon-06",
   "book": "adwd",
   "pov_character": "jon",
-  "generated_at": "2026-05-07T02:06:34.504684+00:00",
+  "generated_at": "2026-05-11T21:56:29.786938+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-jon-06.extraction.md",
   "stats": {
     "total_mentions": 180,
-    "resolved_to_node": 134,
+    "resolved_to_node": 136,
     "direct": 121,
-    "alias": 13,
-    "unresolved": 46
+    "alias": 15,
+    "unresolved": 44
   },
   "mentions": [
     {
@@ -518,10 +518,10 @@
     },
     {
       "raw_name": "Eastwatch",
-      "slug": "eastwatch",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "eastwatch-by-the-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/eastwatch-by-the-sea.node.md",
       "section": "Locations",
       "line": 95
     },
@@ -1139,10 +1139,10 @@
     },
     {
       "raw_name": "Eastwatch (Eastwatch-by-the-Sea)",
-      "slug": "eastwatch",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "eastwatch-by-the-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/eastwatch-by-the-sea.node.md",
       "section": "Raw Entity List > Locations",
       "line": 316
     },

@@ -2,14 +2,14 @@
   "chapter_id": "asos-arya-13",
   "book": "asos",
   "pov_character": "arya",
-  "generated_at": "2026-05-07T02:06:34.398225+00:00",
+  "generated_at": "2026-05-11T21:56:29.659840+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-arya-13.extraction.md",
   "stats": {
     "total_mentions": 181,
-    "resolved_to_node": 106,
+    "resolved_to_node": 107,
     "direct": 101,
-    "alias": 5,
-    "unresolved": 75
+    "alias": 6,
+    "unresolved": 74
   },
   "mentions": [
     {
@@ -491,10 +491,10 @@
     },
     {
       "raw_name": "Eastwatch (-by-the-Sea)",
-      "slug": "eastwatch",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "eastwatch-by-the-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/eastwatch-by-the-sea.node.md",
       "section": "Locations",
       "line": 92
     },

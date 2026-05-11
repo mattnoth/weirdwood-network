@@ -2,7 +2,7 @@
 name: "Brienne Tarth"
 type: character.human
 slug: brienne-tarth
-aliases: ["Brienne of Tarth", "Brienne the Beauty", "Brienne the Blue", "Wench", "The Maid of Tarth"]
+aliases: ["Brienne", "Brienne of Tarth", "Brienne the Beauty", "Brienne the Blue", "Wench", "The Maid of Tarth"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Brienne_Tarth"
 bucket_id: characters-house-tarth

@@ -2,14 +2,14 @@
   "chapter_id": "acok-arya-07",
   "book": "acok",
   "pov_character": "arya",
-  "generated_at": "2026-05-07T02:06:34.338625+00:00",
+  "generated_at": "2026-05-11T21:56:29.590294+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-arya-07.extraction.md",
   "stats": {
     "total_mentions": 100,
-    "resolved_to_node": 80,
+    "resolved_to_node": 81,
     "direct": 76,
-    "alias": 4,
-    "unresolved": 20
+    "alias": 5,
+    "unresolved": 19
   },
   "mentions": [
     {
@@ -284,10 +284,10 @@
     },
     {
       "raw_name": "Harren the Black",
-      "slug": "harren-the-black",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "harren-hoare",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/harren-hoare.node.md",
       "section": "Characters Referenced",
       "line": 65
     },

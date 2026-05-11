@@ -3,6 +3,7 @@ name: Eddard Stark
 type: character.human
 slug: eddard-stark
 aliases:
+  - "Ned Stark"
   - Ned
   - "The quiet wolf"
   - "The Ned"

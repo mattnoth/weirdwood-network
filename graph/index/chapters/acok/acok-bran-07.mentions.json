@@ -2,14 +2,14 @@
   "chapter_id": "acok-bran-07",
   "book": "acok",
   "pov_character": "bran",
-  "generated_at": "2026-05-07T02:06:34.345849+00:00",
+  "generated_at": "2026-05-11T21:56:29.601220+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-bran-07.extraction.md",
   "stats": {
     "total_mentions": 100,
-    "resolved_to_node": 72,
+    "resolved_to_node": 74,
     "direct": 64,
-    "alias": 8,
-    "unresolved": 28
+    "alias": 10,
+    "unresolved": 26
   },
   "mentions": [
     {
@@ -374,19 +374,19 @@
     },
     {
       "raw_name": "Benjen the Sweet",
-      "slug": "benjen-the-sweet",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "benjen-stark-sweet",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/benjen-stark-sweet.node.md",
       "section": "Characters Referenced",
       "line": 75
     },
     {
       "raw_name": "Benjen the Bitter",
-      "slug": "benjen-the-bitter",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "benjen-stark-bitter",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/benjen-stark-bitter.node.md",
       "section": "Characters Referenced",
       "line": 76
     },

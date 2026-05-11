@@ -2,14 +2,14 @@
   "chapter_id": "asos-jon-02",
   "book": "asos",
   "pov_character": "jon",
-  "generated_at": "2026-05-07T02:06:34.422040+00:00",
+  "generated_at": "2026-05-11T21:56:29.688501+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jon-02.extraction.md",
   "stats": {
     "total_mentions": 180,
-    "resolved_to_node": 126,
+    "resolved_to_node": 129,
     "direct": 117,
-    "alias": 9,
-    "unresolved": 54
+    "alias": 12,
+    "unresolved": 51
   },
   "mentions": [
     {
@@ -32,10 +32,10 @@
     },
     {
       "raw_name": "Tormund Giantsbane",
-      "slug": "tormund-giantsbane",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "tormund",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tormund.node.md",
       "section": "Characters Present",
       "line": 29
     },
@@ -158,10 +158,10 @@
     },
     {
       "raw_name": "Tormund Giantsbane",
-      "slug": "tormund-giantsbane",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "tormund",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tormund.node.md",
       "section": "Character Appearances",
       "line": 47
     },
@@ -725,10 +725,10 @@
     },
     {
       "raw_name": "Tormund Giantsbane (Tormund Thunderfist, Tall-talker, Horn-Blower, Breaker of Ice, Tormund Giantsbabe, Husband to Bears, Mead-king of Ruddy Hall, Speaker to Gods, Father of Hosts)",
-      "slug": "tormund-giantsbane",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "tormund",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tormund.node.md",
       "section": "Raw Entity List > Characters",
       "line": 275
     },

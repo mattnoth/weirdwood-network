@@ -2,14 +2,14 @@
   "chapter_id": "asos-jaime-05",
   "book": "asos",
   "pov_character": "jaime",
-  "generated_at": "2026-05-07T02:06:34.417870+00:00",
+  "generated_at": "2026-05-11T21:56:29.683687+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jaime-05.extraction.md",
   "stats": {
     "total_mentions": 85,
-    "resolved_to_node": 65,
+    "resolved_to_node": 66,
     "direct": 60,
-    "alias": 5,
-    "unresolved": 20
+    "alias": 6,
+    "unresolved": 19
   },
   "mentions": [
     {
@@ -167,10 +167,10 @@
     },
     {
       "raw_name": "Ned Stark (Lord of Winterfell)",
-      "slug": "ned-stark",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "eddard-stark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
       "section": "Characters Referenced",
       "line": 52
     },

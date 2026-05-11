@@ -2,14 +2,14 @@
   "chapter_id": "asos-tyrion-06",
   "book": "asos",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-07T02:06:34.441007+00:00",
+  "generated_at": "2026-05-11T21:56:29.709495+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-tyrion-06.extraction.md",
   "stats": {
     "total_mentions": 78,
-    "resolved_to_node": 67,
+    "resolved_to_node": 68,
     "direct": 66,
-    "alias": 1,
-    "unresolved": 11
+    "alias": 2,
+    "unresolved": 10
   },
   "mentions": [
     {
@@ -455,10 +455,10 @@
     },
     {
       "raw_name": "Ned Stark",
-      "slug": "ned-stark",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "eddard-stark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
       "section": "Characters Referenced",
       "line": 84
     },

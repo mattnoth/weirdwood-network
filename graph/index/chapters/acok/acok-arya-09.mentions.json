@@ -2,14 +2,14 @@
   "chapter_id": "acok-arya-09",
   "book": "acok",
   "pov_character": "arya",
-  "generated_at": "2026-05-07T02:06:34.340150+00:00",
+  "generated_at": "2026-05-11T21:56:29.592552+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-arya-09.extraction.md",
   "stats": {
     "total_mentions": 194,
-    "resolved_to_node": 115,
+    "resolved_to_node": 117,
     "direct": 112,
-    "alias": 3,
-    "unresolved": 79
+    "alias": 5,
+    "unresolved": 77
   },
   "mentions": [
     {
@@ -104,10 +104,10 @@
     },
     {
       "raw_name": "Pinkeye (Mebble)",
-      "slug": "pinkeye",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "mebble",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mebble.node.md",
       "section": "Characters Present",
       "line": 37
     },
@@ -833,10 +833,10 @@
     },
     {
       "raw_name": "Pinkeye (Mebble)",
-      "slug": "pinkeye",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "mebble",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mebble.node.md",
       "section": "Raw Entity List > Characters",
       "line": 297
     },

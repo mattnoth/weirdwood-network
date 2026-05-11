@@ -2,14 +2,14 @@
   "chapter_id": "asos-arya-06",
   "book": "asos",
   "pov_character": "arya",
-  "generated_at": "2026-05-07T02:06:34.392002+00:00",
+  "generated_at": "2026-05-11T21:56:29.652872+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-arya-06.extraction.md",
   "stats": {
     "total_mentions": 98,
-    "resolved_to_node": 70,
+    "resolved_to_node": 72,
     "direct": 64,
-    "alias": 6,
-    "unresolved": 28
+    "alias": 8,
+    "unresolved": 26
   },
   "mentions": [
     {
@@ -68,10 +68,10 @@
     },
     {
       "raw_name": "Thoros of Myr",
-      "slug": "thoros-of-myr",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "thoros",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/thoros.node.md",
       "section": "Characters Present",
       "line": 33
     },
@@ -185,10 +185,10 @@
     },
     {
       "raw_name": "Thoros of Myr",
-      "slug": "thoros-of-myr",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "thoros",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/thoros.node.md",
       "section": "Character Appearances",
       "line": 50
     },

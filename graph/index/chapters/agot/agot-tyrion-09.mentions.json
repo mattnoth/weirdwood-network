@@ -2,14 +2,14 @@
   "chapter_id": "agot-tyrion-09",
   "book": "agot",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-07T02:06:34.333507+00:00",
+  "generated_at": "2026-05-11T21:56:29.580352+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-tyrion-09.extraction.md",
   "stats": {
     "total_mentions": 74,
-    "resolved_to_node": 61,
+    "resolved_to_node": 62,
     "direct": 58,
-    "alias": 3,
-    "unresolved": 13
+    "alias": 4,
+    "unresolved": 12
   },
   "mentions": [
     {
@@ -374,10 +374,10 @@
     },
     {
       "raw_name": "Thoros of Myr",
-      "slug": "thoros-of-myr",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "thoros",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/thoros.node.md",
       "section": "Characters Referenced",
       "line": 75
     },

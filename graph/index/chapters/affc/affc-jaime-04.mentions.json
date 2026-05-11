@@ -2,14 +2,14 @@
   "chapter_id": "affc-jaime-04",
   "book": "affc",
   "pov_character": "jaime",
-  "generated_at": "2026-05-07T02:06:34.466197+00:00",
+  "generated_at": "2026-05-11T21:56:29.740850+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-jaime-04.extraction.md",
   "stats": {
     "total_mentions": 106,
-    "resolved_to_node": 67,
+    "resolved_to_node": 69,
     "direct": 61,
-    "alias": 6,
-    "unresolved": 39
+    "alias": 8,
+    "unresolved": 37
   },
   "mentions": [
     {
@@ -455,10 +455,10 @@
     },
     {
       "raw_name": "Brienne",
-      "slug": "brienne",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "brienne-tarth",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brienne-tarth.node.md",
       "section": "Characters Referenced",
       "line": 84
     },
@@ -473,10 +473,10 @@
     },
     {
       "raw_name": "Ned Stark",
-      "slug": "ned-stark",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "eddard-stark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
       "section": "Characters Referenced",
       "line": 86
     },

@@ -2,14 +2,14 @@
   "chapter_id": "agot-jon-08",
   "book": "agot",
   "pov_character": "jon",
-  "generated_at": "2026-05-07T02:06:34.324203+00:00",
+  "generated_at": "2026-05-11T21:56:29.569711+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-jon-08.extraction.md",
   "stats": {
     "total_mentions": 75,
-    "resolved_to_node": 51,
+    "resolved_to_node": 53,
     "direct": 48,
-    "alias": 3,
-    "unresolved": 24
+    "alias": 5,
+    "unresolved": 22
   },
   "mentions": [
     {
@@ -86,10 +86,10 @@
     },
     {
       "raw_name": "Matt",
-      "slug": "matt",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "matthar",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/matthar.node.md",
       "section": "Characters Present",
       "line": 35
     },
@@ -428,10 +428,10 @@
     },
     {
       "raw_name": "Black Harren (Harren the Black)",
-      "slug": "black-harren",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "harren-hoare",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/harren-hoare.node.md",
       "section": "Characters Referenced",
       "line": 81
     },

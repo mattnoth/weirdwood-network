@@ -2,14 +2,14 @@
   "chapter_id": "asos-prologue",
   "book": "asos",
   "pov_character": "asos-prologue",
-  "generated_at": "2026-05-07T02:06:34.429889+00:00",
+  "generated_at": "2026-05-11T21:56:29.696840+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-prologue.extraction.md",
   "stats": {
     "total_mentions": 160,
-    "resolved_to_node": 133,
+    "resolved_to_node": 135,
     "direct": 122,
-    "alias": 11,
-    "unresolved": 27
+    "alias": 13,
+    "unresolved": 25
   },
   "mentions": [
     {
@@ -347,10 +347,10 @@
     },
     {
       "raw_name": "Harma the Dogshead",
-      "slug": "harma-the-dogshead",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "harma-dogshead",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/harma-dogshead.node.md",
       "section": "Characters Referenced",
       "line": 72
     },
@@ -950,10 +950,10 @@
     },
     {
       "raw_name": "Harma the Dogshead (Harma Dogshead)",
-      "slug": "harma-the-dogshead",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "harma-dogshead",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/harma-dogshead.node.md",
       "section": "Raw Entity List > Characters",
       "line": 284
     },

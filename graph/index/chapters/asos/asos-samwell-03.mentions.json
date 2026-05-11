@@ -2,14 +2,14 @@
   "chapter_id": "asos-samwell-03",
   "book": "asos",
   "pov_character": "samwell",
-  "generated_at": "2026-05-07T02:06:34.431937+00:00",
+  "generated_at": "2026-05-11T21:56:29.699294+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-samwell-03.extraction.md",
   "stats": {
     "total_mentions": 120,
-    "resolved_to_node": 71,
+    "resolved_to_node": 73,
     "direct": 65,
-    "alias": 6,
-    "unresolved": 49
+    "alias": 8,
+    "unresolved": 47
   },
   "mentions": [
     {
@@ -392,10 +392,10 @@
     },
     {
       "raw_name": "Eastwatch",
-      "slug": "eastwatch",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "eastwatch-by-the-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/eastwatch-by-the-sea.node.md",
       "section": "Locations",
       "line": 81
     },
@@ -833,10 +833,10 @@
     },
     {
       "raw_name": "Eastwatch (Eastwatch-by-the-Sea)",
-      "slug": "eastwatch",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "eastwatch-by-the-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/eastwatch-by-the-sea.node.md",
       "section": "Raw Entity List > Locations",
       "line": 272
     },

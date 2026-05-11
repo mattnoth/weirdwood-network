@@ -2,14 +2,14 @@
   "chapter_id": "affc-jaime-03",
   "book": "affc",
   "pov_character": "jaime",
-  "generated_at": "2026-05-07T02:06:34.465434+00:00",
+  "generated_at": "2026-05-11T21:56:29.739903+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-jaime-03.extraction.md",
   "stats": {
     "total_mentions": 130,
-    "resolved_to_node": 105,
+    "resolved_to_node": 107,
     "direct": 99,
-    "alias": 6,
-    "unresolved": 25
+    "alias": 8,
+    "unresolved": 23
   },
   "mentions": [
     {
@@ -707,10 +707,10 @@
     },
     {
       "raw_name": "Thoros of Myr",
-      "slug": "thoros-of-myr",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "thoros",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/thoros.node.md",
       "section": "Characters Referenced",
       "line": 112
     },
@@ -770,10 +770,10 @@
     },
     {
       "raw_name": "Harren the Black",
-      "slug": "harren-the-black",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "harren-hoare",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/harren-hoare.node.md",
       "section": "Characters Referenced",
       "line": 119
     },

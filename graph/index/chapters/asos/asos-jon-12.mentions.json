@@ -2,7 +2,7 @@
   "chapter_id": "asos-jon-12",
   "book": "asos",
   "pov_character": "jon",
-  "generated_at": "2026-05-07T02:06:34.429012+00:00",
+  "generated_at": "2026-05-11T21:56:29.695793+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jon-12.extraction.md",
   "stats": {
     "total_mentions": 97,
@@ -230,10 +230,10 @@
     },
     {
       "raw_name": "Giant",
-      "slug": "bedwyck",
-      "resolved_via": "alias",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/bedwyck.node.md",
+      "slug": "giant",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Present",
       "line": 51
     },
@@ -707,10 +707,10 @@
     },
     {
       "raw_name": "Eastwatch",
-      "slug": "eastwatch",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "eastwatch-by-the-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/eastwatch-by-the-sea.node.md",
       "section": "Locations",
       "line": 116
     },

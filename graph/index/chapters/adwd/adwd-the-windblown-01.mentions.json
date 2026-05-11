@@ -2,14 +2,14 @@
   "chapter_id": "adwd-the-windblown-01",
   "book": "adwd",
   "pov_character": "the-windblown",
-  "generated_at": "2026-05-07T02:06:34.529712+00:00",
+  "generated_at": "2026-05-11T21:56:29.816537+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-the-windblown-01.extraction.md",
   "stats": {
     "total_mentions": 162,
-    "resolved_to_node": 116,
+    "resolved_to_node": 119,
     "direct": 101,
-    "alias": 15,
-    "unresolved": 46
+    "alias": 18,
+    "unresolved": 43
   },
   "mentions": [
     {
@@ -95,10 +95,10 @@
     },
     {
       "raw_name": "Pretty Meris",
-      "slug": "pretty-meris",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "meris",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meris.node.md",
       "section": "Characters Present",
       "line": 36
     },
@@ -185,10 +185,10 @@
     },
     {
       "raw_name": "Pretty Meris",
-      "slug": "pretty-meris",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "meris",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meris.node.md",
       "section": "Character Appearances",
       "line": 50
     },
@@ -644,10 +644,10 @@
     },
     {
       "raw_name": "Pretty Meris",
-      "slug": "pretty-meris",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "meris",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meris.node.md",
       "section": "Raw Entity List > Characters",
       "line": 234
     },

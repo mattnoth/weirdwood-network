@@ -2,14 +2,14 @@
   "chapter_id": "acok-sansa-08",
   "book": "acok",
   "pov_character": "sansa",
-  "generated_at": "2026-05-07T02:06:34.372402+00:00",
+  "generated_at": "2026-05-11T21:56:29.632129+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-sansa-08.extraction.md",
   "stats": {
     "total_mentions": 121,
-    "resolved_to_node": 94,
+    "resolved_to_node": 95,
     "direct": 92,
-    "alias": 2,
-    "unresolved": 27
+    "alias": 3,
+    "unresolved": 26
   },
   "mentions": [
     {
@@ -419,10 +419,10 @@
     },
     {
       "raw_name": "Hallyne the Pyromancer",
-      "slug": "hallyne-the-pyromancer",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "hallyne",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hallyne.node.md",
       "section": "Characters Present",
       "line": 72
     },

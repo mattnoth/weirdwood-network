@@ -2,14 +2,14 @@
   "chapter_id": "adwd-jon-11",
   "book": "adwd",
   "pov_character": "jon",
-  "generated_at": "2026-05-07T02:06:34.507815+00:00",
+  "generated_at": "2026-05-11T21:56:29.791852+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-jon-11.extraction.md",
   "stats": {
     "total_mentions": 90,
-    "resolved_to_node": 76,
+    "resolved_to_node": 78,
     "direct": 72,
-    "alias": 4,
-    "unresolved": 14
+    "alias": 6,
+    "unresolved": 12
   },
   "mentions": [
     {
@@ -23,10 +23,10 @@
     },
     {
       "raw_name": "Tormund Giantsbane",
-      "slug": "tormund-giantsbane",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "tormund",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tormund.node.md",
       "section": "Characters Present",
       "line": 28
     },
@@ -194,10 +194,10 @@
     },
     {
       "raw_name": "Tormund Giantsbane",
-      "slug": "tormund-giantsbane",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "tormund",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tormund.node.md",
       "section": "Character Appearances",
       "line": 51
     },

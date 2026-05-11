@@ -2,14 +2,14 @@
   "chapter_id": "adwd-davos-03",
   "book": "adwd",
   "pov_character": "davos",
-  "generated_at": "2026-05-07T02:06:34.497681+00:00",
+  "generated_at": "2026-05-11T21:56:29.778552+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-davos-03.extraction.md",
   "stats": {
     "total_mentions": 77,
-    "resolved_to_node": 53,
+    "resolved_to_node": 54,
     "direct": 52,
-    "alias": 1,
-    "unresolved": 24
+    "alias": 2,
+    "unresolved": 23
   },
   "mentions": [
     {
@@ -563,10 +563,10 @@
     },
     {
       "raw_name": "The Blackwater",
-      "slug": "the-blackwater",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "blackwater-rush",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/blackwater-rush.node.md",
       "section": "Locations",
       "line": 100
     },

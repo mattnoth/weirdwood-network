@@ -2,7 +2,7 @@
   "chapter_id": "acok-jon-03",
   "book": "acok",
   "pov_character": "jon",
-  "generated_at": "2026-05-07T02:06:34.361775+00:00",
+  "generated_at": "2026-05-11T21:56:29.619898+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-jon-03.extraction.md",
   "stats": {
     "total_mentions": 76,
@@ -149,10 +149,10 @@
     },
     {
       "raw_name": "Giant",
-      "slug": "bedwyck",
-      "resolved_via": "alias",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/bedwyck.node.md",
+      "slug": "giant",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Present",
       "line": 42
     },
@@ -428,10 +428,10 @@
     },
     {
       "raw_name": "Ned Stark (Lord of Winterfell)",
-      "slug": "ned-stark",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "eddard-stark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
       "section": "Characters Referenced",
       "line": 81
     },

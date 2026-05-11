@@ -2,14 +2,14 @@
   "chapter_id": "affc-the-krakens-daughter-01",
   "book": "affc",
   "pov_character": "the-krakens-daughter",
-  "generated_at": "2026-05-07T02:06:34.479102+00:00",
+  "generated_at": "2026-05-11T21:56:29.756831+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-the-krakens-daughter-01.extraction.md",
   "stats": {
     "total_mentions": 102,
-    "resolved_to_node": 78,
+    "resolved_to_node": 80,
     "direct": 71,
-    "alias": 7,
-    "unresolved": 24
+    "alias": 9,
+    "unresolved": 22
   },
   "mentions": [
     {
@@ -410,10 +410,10 @@
     },
     {
       "raw_name": "Ned Stark",
-      "slug": "ned-stark",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "eddard-stark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
       "section": "Characters Referenced",
       "line": 79
     },
@@ -491,10 +491,10 @@
     },
     {
       "raw_name": "Black Harren (Harren the Black)",
-      "slug": "black-harren",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "harren-hoare",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/harren-hoare.node.md",
       "section": "Characters Referenced",
       "line": 88
     },

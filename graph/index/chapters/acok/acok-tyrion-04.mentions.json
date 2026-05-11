@@ -2,14 +2,14 @@
   "chapter_id": "acok-tyrion-04",
   "book": "acok",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-07T02:06:34.379463+00:00",
+  "generated_at": "2026-05-11T21:56:29.639528+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-tyrion-04.extraction.md",
   "stats": {
     "total_mentions": 247,
-    "resolved_to_node": 183,
+    "resolved_to_node": 185,
     "direct": 180,
-    "alias": 3,
-    "unresolved": 64
+    "alias": 5,
+    "unresolved": 62
   },
   "mentions": [
     {
@@ -95,10 +95,10 @@
     },
     {
       "raw_name": "Hallyne the Pyromancer",
-      "slug": "hallyne-the-pyromancer",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "hallyne",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hallyne.node.md",
       "section": "Characters Present",
       "line": 36
     },
@@ -1067,10 +1067,10 @@
     },
     {
       "raw_name": "Hallyne the Pyromancer",
-      "slug": "hallyne-the-pyromancer",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "hallyne",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hallyne.node.md",
       "section": "Raw Entity List > Characters",
       "line": 333
     },

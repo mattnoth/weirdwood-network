@@ -2,14 +2,14 @@
   "chapter_id": "acok-theon-06",
   "book": "acok",
   "pov_character": "theon",
-  "generated_at": "2026-05-07T02:06:34.376110+00:00",
+  "generated_at": "2026-05-11T21:56:29.636115+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-theon-06.extraction.md",
   "stats": {
     "total_mentions": 69,
-    "resolved_to_node": 50,
+    "resolved_to_node": 51,
     "direct": 49,
-    "alias": 1,
-    "unresolved": 19
+    "alias": 2,
+    "unresolved": 18
   },
   "mentions": [
     {
@@ -491,10 +491,10 @@
     },
     {
       "raw_name": "Eastwatch",
-      "slug": "eastwatch",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "eastwatch-by-the-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/eastwatch-by-the-sea.node.md",
       "section": "Locations",
       "line": 92
     },

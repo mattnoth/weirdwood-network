@@ -2,14 +2,14 @@
   "chapter_id": "adwd-jon-03",
   "book": "adwd",
   "pov_character": "jon",
-  "generated_at": "2026-05-07T02:06:34.502717+00:00",
+  "generated_at": "2026-05-11T21:56:29.784522+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-jon-03.extraction.md",
   "stats": {
     "total_mentions": 100,
-    "resolved_to_node": 74,
+    "resolved_to_node": 76,
     "direct": 69,
-    "alias": 5,
-    "unresolved": 26
+    "alias": 7,
+    "unresolved": 24
   },
   "mentions": [
     {
@@ -347,10 +347,10 @@
     },
     {
       "raw_name": "Tormund Giantsbane",
-      "slug": "tormund-giantsbane",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "tormund",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tormund.node.md",
       "section": "Characters Referenced",
       "line": 72
     },
@@ -878,10 +878,10 @@
     },
     {
       "raw_name": "The Old Bear's raven",
-      "slug": "the-old-bears-raven",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "mormonts-raven",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mormonts-raven.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 143
     },

@@ -2,14 +2,14 @@
   "chapter_id": "affc-brienne-01",
   "book": "affc",
   "pov_character": "brienne",
-  "generated_at": "2026-05-07T02:06:34.449006+00:00",
+  "generated_at": "2026-05-11T21:56:29.718643+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-brienne-01.extraction.md",
   "stats": {
     "total_mentions": 169,
-    "resolved_to_node": 98,
+    "resolved_to_node": 99,
     "direct": 94,
-    "alias": 4,
-    "unresolved": 71
+    "alias": 5,
+    "unresolved": 70
   },
   "mentions": [
     {
@@ -1148,10 +1148,10 @@
     },
     {
       "raw_name": "The Blackwater (battlefield)",
-      "slug": "the-blackwater",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "blackwater-rush",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/blackwater-rush.node.md",
       "section": "Raw Entity List > Locations",
       "line": 319
     },

@@ -2,14 +2,14 @@
   "chapter_id": "asos-jaime-02",
   "book": "asos",
   "pov_character": "jaime",
-  "generated_at": "2026-05-07T02:06:34.415815+00:00",
+  "generated_at": "2026-05-11T21:56:29.681466+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jaime-02.extraction.md",
   "stats": {
     "total_mentions": 74,
-    "resolved_to_node": 55,
-    "direct": 47,
-    "alias": 8,
-    "unresolved": 19
+    "resolved_to_node": 56,
+    "direct": 49,
+    "alias": 7,
+    "unresolved": 18
   },
   "mentions": [
     {
@@ -50,10 +50,10 @@
     },
     {
       "raw_name": "The boy",
-      "slug": "boy-thrall",
-      "resolved_via": "alias",
+      "slug": "boy",
+      "resolved_via": "direct",
       "node_type": "character",
-      "node_path": "graph/nodes/characters/boy-thrall.node.md",
+      "node_path": "graph/nodes/characters/boy.node.md",
       "section": "Characters Present",
       "line": 31
     },
@@ -86,10 +86,10 @@
     },
     {
       "raw_name": "The boy",
-      "slug": "boy-thrall",
-      "resolved_via": "alias",
+      "slug": "boy",
+      "resolved_via": "direct",
       "node_type": "character",
-      "node_path": "graph/nodes/characters/boy-thrall.node.md",
+      "node_path": "graph/nodes/characters/boy.node.md",
       "section": "Character Appearances",
       "line": 39
     },
@@ -140,10 +140,10 @@
     },
     {
       "raw_name": "Thoros of Myr",
-      "slug": "thoros-of-myr",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "thoros",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/thoros.node.md",
       "section": "Characters Referenced",
       "line": 49
     },

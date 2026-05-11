@@ -2,14 +2,14 @@
   "chapter_id": "adwd-tyrion-12",
   "book": "adwd",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-07T02:06:34.541834+00:00",
+  "generated_at": "2026-05-11T21:56:29.829244+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-tyrion-12.extraction.md",
   "stats": {
     "total_mentions": 151,
-    "resolved_to_node": 82,
+    "resolved_to_node": 84,
     "direct": 74,
-    "alias": 8,
-    "unresolved": 69
+    "alias": 10,
+    "unresolved": 67
   },
   "mentions": [
     {
@@ -419,10 +419,10 @@
     },
     {
       "raw_name": "The Blackwater",
-      "slug": "the-blackwater",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "blackwater-rush",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/blackwater-rush.node.md",
       "section": "Locations",
       "line": 84
     },
@@ -914,10 +914,10 @@
     },
     {
       "raw_name": "The Blackwater (battle site)",
-      "slug": "the-blackwater",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "blackwater-rush",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/blackwater-rush.node.md",
       "section": "Raw Entity List > Locations",
       "line": 294
     },

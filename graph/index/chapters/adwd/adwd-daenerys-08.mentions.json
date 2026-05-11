@@ -2,14 +2,14 @@
   "chapter_id": "adwd-daenerys-08",
   "book": "adwd",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-07T02:06:34.494306+00:00",
+  "generated_at": "2026-05-11T21:56:29.774503+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-daenerys-08.extraction.md",
   "stats": {
     "total_mentions": 79,
-    "resolved_to_node": 65,
+    "resolved_to_node": 66,
     "direct": 57,
-    "alias": 8,
-    "unresolved": 14
+    "alias": 9,
+    "unresolved": 13
   },
   "mentions": [
     {
@@ -419,10 +419,10 @@
     },
     {
       "raw_name": "Pretty Meris",
-      "slug": "pretty-meris",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "meris",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meris.node.md",
       "section": "Characters Referenced",
       "line": 81
     },

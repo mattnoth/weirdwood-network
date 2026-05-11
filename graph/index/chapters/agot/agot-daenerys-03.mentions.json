@@ -2,13 +2,13 @@
   "chapter_id": "agot-daenerys-03",
   "book": "agot",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-07T02:06:34.308824+00:00",
+  "generated_at": "2026-05-11T21:56:29.551127+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-daenerys-03.extraction.md",
   "stats": {
     "total_mentions": 110,
     "resolved_to_node": 66,
-    "direct": 63,
-    "alias": 3,
+    "direct": 60,
+    "alias": 6,
     "unresolved": 44
   },
   "mentions": [
@@ -401,10 +401,10 @@
     },
     {
       "raw_name": "The silver (Dany's horse)",
-      "slug": "silver",
-      "resolved_via": "direct",
-      "node_type": "object.material",
-      "node_path": "graph/nodes/materials/silver.node.md",
+      "slug": "silver-mare",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/silver-mare.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 90
     },
@@ -545,10 +545,10 @@
     },
     {
       "raw_name": "The silver (Dany's horse)",
-      "slug": "silver",
-      "resolved_via": "direct",
-      "node_type": "object.material",
-      "node_path": "graph/nodes/materials/silver.node.md",
+      "slug": "silver-mare",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/silver-mare.node.md",
       "section": "Raw Entity List > Characters",
       "line": 241
     },
@@ -797,10 +797,10 @@
     },
     {
       "raw_name": "The silver (Dany's horse/filly)",
-      "slug": "silver",
-      "resolved_via": "direct",
-      "node_type": "object.material",
-      "node_path": "graph/nodes/materials/silver.node.md",
+      "slug": "silver-mare",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/silver-mare.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 282
     },

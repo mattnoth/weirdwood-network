@@ -2,14 +2,14 @@
   "chapter_id": "adwd-bran-03",
   "book": "adwd",
   "pov_character": "bran",
-  "generated_at": "2026-05-07T02:06:34.486708+00:00",
+  "generated_at": "2026-05-11T21:56:29.765859+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-bran-03.extraction.md",
   "stats": {
     "total_mentions": 145,
-    "resolved_to_node": 62,
+    "resolved_to_node": 58,
     "direct": 57,
-    "alias": 5,
-    "unresolved": 83
+    "alias": 1,
+    "unresolved": 87
   },
   "mentions": [
     {
@@ -23,10 +23,10 @@
     },
     {
       "raw_name": "Lord Brynden (Three-eyed crow)",
-      "slug": "brynden-rivers",
-      "resolved_via": "alias",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/brynden-rivers.node.md",
+      "slug": "lord-brynden",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Characters Present",
       "line": 28
     },
@@ -95,10 +95,10 @@
     },
     {
       "raw_name": "Lord Brynden",
-      "slug": "brynden-rivers",
-      "resolved_via": "alias",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/brynden-rivers.node.md",
+      "slug": "lord-brynden",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Character Appearances",
       "line": 40
     },
@@ -509,10 +509,10 @@
     },
     {
       "raw_name": "Lord Brynden (Three-eyed crow, the last greenseer, birth name Brynden)",
-      "slug": "brynden-rivers",
-      "resolved_via": "alias",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/brynden-rivers.node.md",
+      "slug": "lord-brynden",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Characters",
       "line": 266
     },
@@ -1229,10 +1229,10 @@
     },
     {
       "raw_name": "The last greenseer (what the singers call Brynden)",
-      "slug": "brynden-rivers",
-      "resolved_via": "alias",
-      "node_type": "character",
-      "node_path": "graph/nodes/characters/brynden-rivers.node.md",
+      "slug": "the-last-greenseer",
+      "resolved_via": "unresolved",
+      "node_type": null,
+      "node_path": null,
       "section": "Raw Entity List > Titles & Offices",
       "line": 367
     },

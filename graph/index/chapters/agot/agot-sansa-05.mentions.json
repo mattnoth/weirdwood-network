@@ -2,14 +2,14 @@
   "chapter_id": "agot-sansa-05",
   "book": "agot",
   "pov_character": "sansa",
-  "generated_at": "2026-05-07T02:06:34.327908+00:00",
+  "generated_at": "2026-05-11T21:56:29.573714+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-sansa-05.extraction.md",
   "stats": {
     "total_mentions": 92,
-    "resolved_to_node": 76,
+    "resolved_to_node": 77,
     "direct": 74,
-    "alias": 2,
-    "unresolved": 16
+    "alias": 3,
+    "unresolved": 15
   },
   "mentions": [
     {
@@ -365,10 +365,10 @@
     },
     {
       "raw_name": "Thoros of Myr",
-      "slug": "thoros-of-myr",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "thoros",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/thoros.node.md",
       "section": "Characters Referenced",
       "line": 74
     },

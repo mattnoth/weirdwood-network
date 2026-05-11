@@ -2,14 +2,14 @@
   "chapter_id": "acok-catelyn-06",
   "book": "acok",
   "pov_character": "catelyn",
-  "generated_at": "2026-05-07T02:06:34.350310+00:00",
+  "generated_at": "2026-05-11T21:56:29.606747+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-catelyn-06.extraction.md",
   "stats": {
     "total_mentions": 79,
-    "resolved_to_node": 55,
+    "resolved_to_node": 58,
     "direct": 53,
-    "alias": 2,
-    "unresolved": 24
+    "alias": 5,
+    "unresolved": 21
   },
   "mentions": [
     {
@@ -32,10 +32,10 @@
     },
     {
       "raw_name": "Brienne",
-      "slug": "brienne",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "brienne-tarth",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brienne-tarth.node.md",
       "section": "Characters Present",
       "line": 29
     },
@@ -122,10 +122,10 @@
     },
     {
       "raw_name": "Brienne",
-      "slug": "brienne",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "brienne-tarth",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brienne-tarth.node.md",
       "section": "Character Appearances",
       "line": 43
     },
@@ -329,10 +329,10 @@
     },
     {
       "raw_name": "Ned Stark",
-      "slug": "ned-stark",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "eddard-stark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
       "section": "Characters Referenced",
       "line": 70
     },

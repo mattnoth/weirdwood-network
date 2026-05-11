@@ -2,14 +2,14 @@
   "chapter_id": "adwd-the-spurned-suitor-01",
   "book": "adwd",
   "pov_character": "the-spurned-suitor",
-  "generated_at": "2026-05-07T02:06:34.525458+00:00",
+  "generated_at": "2026-05-11T21:56:29.811871+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-the-spurned-suitor-01.extraction.md",
   "stats": {
     "total_mentions": 71,
-    "resolved_to_node": 52,
+    "resolved_to_node": 54,
     "direct": 45,
-    "alias": 7,
-    "unresolved": 19
+    "alias": 9,
+    "unresolved": 17
   },
   "mentions": [
     {
@@ -59,10 +59,10 @@
     },
     {
       "raw_name": "Pretty Meris",
-      "slug": "pretty-meris",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "meris",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meris.node.md",
       "section": "Characters Present",
       "line": 32
     },
@@ -122,10 +122,10 @@
     },
     {
       "raw_name": "Pretty Meris",
-      "slug": "pretty-meris",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "meris",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/meris.node.md",
       "section": "Character Appearances",
       "line": 43
     },

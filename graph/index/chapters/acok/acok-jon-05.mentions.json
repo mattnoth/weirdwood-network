@@ -2,14 +2,14 @@
   "chapter_id": "acok-jon-05",
   "book": "acok",
   "pov_character": "jon",
-  "generated_at": "2026-05-07T02:06:34.363109+00:00",
+  "generated_at": "2026-05-11T21:56:29.621376+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-jon-05.extraction.md",
   "stats": {
     "total_mentions": 125,
-    "resolved_to_node": 95,
+    "resolved_to_node": 99,
     "direct": 87,
-    "alias": 8,
-    "unresolved": 30
+    "alias": 12,
+    "unresolved": 26
   },
   "mentions": [
     {
@@ -203,10 +203,10 @@
     },
     {
       "raw_name": "Harma the Dogshead",
-      "slug": "harma-the-dogshead",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "harma-dogshead",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/harma-dogshead.node.md",
       "section": "Characters Referenced",
       "line": 56
     },
@@ -419,10 +419,10 @@
     },
     {
       "raw_name": "Eastwatch",
-      "slug": "eastwatch",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "eastwatch-by-the-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/eastwatch-by-the-sea.node.md",
       "section": "Locations",
       "line": 84
     },
@@ -698,10 +698,10 @@
     },
     {
       "raw_name": "Harma the Dogshead",
-      "slug": "harma-the-dogshead",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "harma-dogshead",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/harma-dogshead.node.md",
       "section": "Raw Entity List > Characters",
       "line": 253
     },
@@ -914,10 +914,10 @@
     },
     {
       "raw_name": "Eastwatch",
-      "slug": "eastwatch",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "eastwatch-by-the-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/eastwatch-by-the-sea.node.md",
       "section": "Raw Entity List > Locations",
       "line": 279
     },

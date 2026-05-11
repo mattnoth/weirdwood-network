@@ -2,7 +2,7 @@
 name: "Blackwater Rush"
 type: place.location
 slug: blackwater-rush
-aliases: []
+aliases: ["The Blackwater"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Blackwater_Rush"
 bucket_id: houses-major-recovery

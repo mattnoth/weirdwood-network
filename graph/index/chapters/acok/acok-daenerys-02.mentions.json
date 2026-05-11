@@ -2,14 +2,14 @@
   "chapter_id": "acok-daenerys-02",
   "book": "acok",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-07T02:06:34.352850+00:00",
+  "generated_at": "2026-05-11T21:56:29.610012+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-daenerys-02.extraction.md",
   "stats": {
     "total_mentions": 154,
-    "resolved_to_node": 105,
+    "resolved_to_node": 107,
     "direct": 104,
-    "alias": 1,
-    "unresolved": 49
+    "alias": 3,
+    "unresolved": 47
   },
   "mentions": [
     {
@@ -581,10 +581,10 @@
     },
     {
       "raw_name": "Dany's silver (horse)",
-      "slug": "danys-silver",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "silver-mare",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/silver-mare.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 110
     },
@@ -1157,10 +1157,10 @@
     },
     {
       "raw_name": "Dany's silver (her horse)",
-      "slug": "danys-silver",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "silver-mare",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/silver-mare.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 336
     },

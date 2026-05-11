@@ -2,13 +2,13 @@
   "chapter_id": "adwd-prologue",
   "book": "adwd",
   "pov_character": "adwd-prologue",
-  "generated_at": "2026-05-07T02:06:34.511039+00:00",
+  "generated_at": "2026-05-11T21:56:29.795514+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-prologue.extraction.md",
   "stats": {
     "total_mentions": 133,
     "resolved_to_node": 64,
-    "direct": 61,
-    "alias": 3,
+    "direct": 60,
+    "alias": 4,
     "unresolved": 69
   },
   "mentions": [
@@ -761,10 +761,10 @@
     },
     {
       "raw_name": "The woods witch (at Lump's village, told his mother about Bump)",
-      "slug": "woods-witch",
-      "resolved_via": "direct",
-      "node_type": "title",
-      "node_path": "graph/nodes/titles/woods-witch.node.md",
+      "slug": "ghost-of-high-heart",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ghost-of-high-heart.node.md",
       "section": "Raw Entity List > Characters",
       "line": 259
     },

@@ -2,14 +2,14 @@
   "chapter_id": "asos-samwell-05",
   "book": "asos",
   "pov_character": "samwell",
-  "generated_at": "2026-05-07T02:06:34.433045+00:00",
+  "generated_at": "2026-05-11T21:56:29.700540+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-samwell-05.extraction.md",
   "stats": {
     "total_mentions": 60,
-    "resolved_to_node": 47,
+    "resolved_to_node": 48,
     "direct": 46,
-    "alias": 1,
-    "unresolved": 13
+    "alias": 2,
+    "unresolved": 12
   },
   "mentions": [
     {
@@ -392,10 +392,10 @@
     },
     {
       "raw_name": "Eastwatch",
-      "slug": "eastwatch",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "eastwatch-by-the-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/eastwatch-by-the-sea.node.md",
       "section": "Locations",
       "line": 81
     },

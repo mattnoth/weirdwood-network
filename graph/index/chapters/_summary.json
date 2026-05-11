@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-07T02:06:34.543310+00:00",
+  "generated_at": "2026-05-11T21:56:29.851308+00:00",
   "books_processed": [
     "agot",
     "acok",
@@ -10,14 +10,14 @@
   "dry_run": false,
   "chapters_processed": 344,
   "total_mentions": 37222,
-  "resolved": 26064,
-  "direct": 24783,
-  "alias": 1281,
-  "unresolved": 11158,
-  "resolution_rate_pct": 70.0,
+  "resolved": 26273,
+  "direct": 24780,
+  "alias": 1493,
+  "unresolved": 10949,
+  "resolution_rate_pct": 70.6,
   "direct_pct": 66.6,
-  "alias_pct": 3.4,
-  "unresolved_pct": 30.0,
+  "alias_pct": 4.0,
+  "unresolved_pct": 29.4,
   "top_unresolved": [
     {
       "slug": "maester-aemon",
@@ -26,10 +26,6 @@
     {
       "slug": "joffrey",
       "count": 47
-    },
-    {
-      "slug": "ned-stark",
-      "count": 42
     },
     {
       "slug": "the-narrow-sea",
@@ -52,15 +48,7 @@
       "count": 29
     },
     {
-      "slug": "thoros-of-myr",
-      "count": 28
-    },
-    {
       "slug": "aegon",
-      "count": 27
-    },
-    {
-      "slug": "brienne",
       "count": 27
     },
     {
@@ -70,14 +58,6 @@
     {
       "slug": "great-pyramid-of-meereen",
       "count": 24
-    },
-    {
-      "slug": "eastwatch",
-      "count": 23
-    },
-    {
-      "slug": "the-blackwater",
-      "count": 23
     },
     {
       "slug": "old-gods",
@@ -96,8 +76,28 @@
       "count": 21
     },
     {
-      "slug": "tormund-giantsbane",
-      "count": 21
+      "slug": "winterfell-crypts",
+      "count": 20
+    },
+    {
+      "slug": "wildlings-free-folk",
+      "count": 20
+    },
+    {
+      "slug": "queen-selyse",
+      "count": 20
+    },
+    {
+      "slug": "big-walder-frey",
+      "count": 19
+    },
+    {
+      "slug": "gold-cloaks",
+      "count": 18
+    },
+    {
+      "slug": "winterfell-godswood",
+      "count": 18
     }
   ]
 }

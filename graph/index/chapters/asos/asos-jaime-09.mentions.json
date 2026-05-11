@@ -2,14 +2,14 @@
   "chapter_id": "asos-jaime-09",
   "book": "asos",
   "pov_character": "jaime",
-  "generated_at": "2026-05-07T02:06:34.420525+00:00",
+  "generated_at": "2026-05-11T21:56:29.686639+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jaime-09.extraction.md",
   "stats": {
     "total_mentions": 90,
-    "resolved_to_node": 80,
+    "resolved_to_node": 81,
     "direct": 74,
-    "alias": 6,
-    "unresolved": 10
+    "alias": 7,
+    "unresolved": 9
   },
   "mentions": [
     {
@@ -419,10 +419,10 @@
     },
     {
       "raw_name": "Ned Stark",
-      "slug": "ned-stark",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "eddard-stark",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eddard-stark.node.md",
       "section": "Characters Referenced",
       "line": 80
     },

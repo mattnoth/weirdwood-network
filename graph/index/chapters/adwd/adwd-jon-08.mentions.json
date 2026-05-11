@@ -2,14 +2,14 @@
   "chapter_id": "adwd-jon-08",
   "book": "adwd",
   "pov_character": "jon",
-  "generated_at": "2026-05-07T02:06:34.505806+00:00",
+  "generated_at": "2026-05-11T21:56:29.789618+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-jon-08.extraction.md",
   "stats": {
     "total_mentions": 58,
-    "resolved_to_node": 47,
+    "resolved_to_node": 48,
     "direct": 44,
-    "alias": 3,
-    "unresolved": 11
+    "alias": 4,
+    "unresolved": 10
   },
   "mentions": [
     {
@@ -149,10 +149,10 @@
     },
     {
       "raw_name": "Tormund Giantsbane",
-      "slug": "tormund-giantsbane",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "tormund",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/tormund.node.md",
       "section": "Characters Referenced",
       "line": 50
     },

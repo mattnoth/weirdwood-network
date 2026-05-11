@@ -2,7 +2,7 @@
 name: "Eastwatch-by-the-Sea"
 type: place.location
 slug: eastwatch-by-the-sea
-aliases: []
+aliases: ["Eastwatch"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Eastwatch-by-the-Sea"
 bucket_id: houses-major-recovery

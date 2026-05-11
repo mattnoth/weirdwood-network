@@ -2,14 +2,14 @@
   "chapter_id": "agot-jon-06",
   "book": "agot",
   "pov_character": "jon",
-  "generated_at": "2026-05-07T02:06:34.323047+00:00",
+  "generated_at": "2026-05-11T21:56:29.568470+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-jon-06.extraction.md",
   "stats": {
     "total_mentions": 57,
-    "resolved_to_node": 40,
+    "resolved_to_node": 41,
     "direct": 35,
-    "alias": 5,
-    "unresolved": 17
+    "alias": 6,
+    "unresolved": 16
   },
   "mentions": [
     {
@@ -419,10 +419,10 @@
     },
     {
       "raw_name": "Eastwatch (-by-the-Sea)",
-      "slug": "eastwatch",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "eastwatch-by-the-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/eastwatch-by-the-sea.node.md",
       "section": "Locations",
       "line": 84
     },

@@ -2,7 +2,7 @@
 name: "Tormund"
 type: character.human
 slug: tormund
-aliases: ["Tormund Thunderfist", "Tormund Giantsbabe", "Tormund Giantsbutt", "Tormund Giantstink", "The Giantsbane"]
+aliases: ["Tormund Giantsbane", "Tormund Thunderfist", "Tormund Giantsbabe", "Tormund Giantsbutt", "Tormund Giantstink", "The Giantsbane"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Tormund"
 bucket_id: characters-other-t-u

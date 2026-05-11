@@ -2,14 +2,14 @@
   "chapter_id": "affc-arya-01",
   "book": "affc",
   "pov_character": "arya",
-  "generated_at": "2026-05-07T02:06:34.447270+00:00",
+  "generated_at": "2026-05-11T21:56:29.716640+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-arya-01.extraction.md",
   "stats": {
     "total_mentions": 197,
-    "resolved_to_node": 135,
+    "resolved_to_node": 137,
     "direct": 125,
-    "alias": 10,
-    "unresolved": 62
+    "alias": 12,
+    "unresolved": 60
   },
   "mentions": [
     {
@@ -374,10 +374,10 @@
     },
     {
       "raw_name": "Thoros of Myr",
-      "slug": "thoros-of-myr",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "thoros",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/thoros.node.md",
       "section": "Characters Referenced",
       "line": 75
     },
@@ -1139,10 +1139,10 @@
     },
     {
       "raw_name": "Thoros of Myr",
-      "slug": "thoros-of-myr",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "thoros",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/thoros.node.md",
       "section": "Raw Entity List > Characters",
       "line": 326
     },

@@ -2,14 +2,14 @@
   "chapter_id": "acok-catelyn-04",
   "book": "acok",
   "pov_character": "catelyn",
-  "generated_at": "2026-05-07T02:06:34.349157+00:00",
+  "generated_at": "2026-05-11T21:56:29.605362+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-catelyn-04.extraction.md",
   "stats": {
     "total_mentions": 65,
-    "resolved_to_node": 44,
+    "resolved_to_node": 46,
     "direct": 44,
-    "alias": 0,
-    "unresolved": 21
+    "alias": 2,
+    "unresolved": 19
   },
   "mentions": [
     {
@@ -50,10 +50,10 @@
     },
     {
       "raw_name": "Brienne",
-      "slug": "brienne",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "brienne-tarth",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brienne-tarth.node.md",
       "section": "Characters Present",
       "line": 31
     },
@@ -140,10 +140,10 @@
     },
     {
       "raw_name": "Brienne",
-      "slug": "brienne",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "brienne-tarth",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/brienne-tarth.node.md",
       "section": "Character Appearances",
       "line": 45
     },

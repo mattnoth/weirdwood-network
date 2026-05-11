@@ -2,14 +2,14 @@
   "chapter_id": "asos-arya-12",
   "book": "asos",
   "pov_character": "arya",
-  "generated_at": "2026-05-07T02:06:34.397159+00:00",
+  "generated_at": "2026-05-11T21:56:29.658651+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-arya-12.extraction.md",
   "stats": {
     "total_mentions": 157,
-    "resolved_to_node": 98,
+    "resolved_to_node": 100,
     "direct": 96,
-    "alias": 2,
-    "unresolved": 59
+    "alias": 4,
+    "unresolved": 57
   },
   "mentions": [
     {
@@ -212,10 +212,10 @@
     },
     {
       "raw_name": "Pinkeye",
-      "slug": "pinkeye",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "mebble",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mebble.node.md",
       "section": "Characters Referenced",
       "line": 57
     },
@@ -725,10 +725,10 @@
     },
     {
       "raw_name": "Pinkeye (referenced)",
-      "slug": "pinkeye",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "mebble",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/mebble.node.md",
       "section": "Raw Entity List > Characters",
       "line": 279
     },
