@@ -178,6 +178,29 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 40 — Catch-up synthesis, surgical merges, alias backfill (2026-05-11)
+**Detail:** `history/session-details/session-040.md`
+
+**Changes made:**
+- `reference/architecture.md` — added `event.tournament` row to Type Reference Table + hierarchy diagram (was missing from spec despite 35 nodes using it); removed dead reference to `working/taxonomy-candidates.md` (file lost in Session 39 reorg).
+- `working/todos.md` — marked religion type-drift todo OBSOLETE (architecture.md updated since the original Session 26 entry; current spec matches all 63 religion nodes); marked alias-backfill todo DONE; added Stage 4 richest-form 3-component expansion under existing Stage 4 entry; added Per-character Index Roll-up as READY-TO-DO with new continue-prompt link; added 3 tiny follow-up todos surfaced this session.
+- `graph/nodes/events/battle-of-the-blackwater.node.md` — surgical merge: kept Python-extracted Origins/Aftermath/Quotes (110-line wiki body), replaced stub Identity with agent's rich version, inserted Allegiances + Narrative Arc sections from `_conflicts/`. Deleted `_conflicts/battle-of-the-blackwater-battles-b-2026-05-01T20-34-52.node.md`.
+- `graph/nodes/texts/battle-of-the-blackwater-song.node.md` — replaced Python stub with agent-rich version via `git mv` from `artifacts/`. Preserves `WRITTEN_BY: Galyeon of Cuy` edge that Python had no way to infer (no infobox on songs). Deleted `artifacts/battle-of-the-blackwater-song.node.md`.
+- `graph/nodes/factions/caltrops.node.md` — agent's `organization.faction` type was correct (the wiki entry is a 13-noble conspiracy from the Dance of the Dragons, not a battle); replaced 1-paragraph Narrative Arc with Python's richer 4-paragraph wiki extraction, added Quotes section. Deleted `graph/nodes/events/caltrops.node.md`.
+- 6 character/location nodes — added missing aliases: `eddard-stark` ← "Ned Stark", `tormund` ← "Tormund Giantsbane", `eastwatch-by-the-sea` ← "Eastwatch", `blackwater-rush` ← "The Blackwater" (river), `brienne-tarth` ← "Brienne", `thoros` ← "Thoros of Myr". Durable path (frontmatter, not just JSON).
+- `working/wiki/data/alias-resolver.json` — regenerated via `scripts/wiki-pass2-build-alias-resolver.py --apply`. 1,199 → 1,205 alias_to_canonical entries.
+- `graph/index/chapters/{book}/*.mentions.json` — all 344 files regenerated via `scripts/build-mention-index.py --all`. Resolution rate **70.0% → 70.6%** (+209 newly resolved).
+- `scratch` — triaged + emptied. Both items addressed by this session's discussion (Item 1 = Stage 4 component-b; Item 2 = superseded by existing Stage 4 continue prompt).
+- Memory: added `project_team_is_solo.md` (team = Matt only; Okey was one-off), `project_stage4_richest_form.md` (3-component expansion of Stage 4 scope). MEMORY.md index updated.
+
+**Decisions:** **Stage 4 reframed to 3 components, not 1.** Original scope was prose-edge-classifier alone (cross-references.jsonl → typed edges). Catch-up synthesis surfaced that accumulated raw material (Pass 1 across 5 books, mention-index at 70.6%, cross-refs.jsonl, Python prose on 6,968 nodes) makes a richer scope economical: (a) prose-inferred edges, (b) chapter-evidence backfill, (c) rich Identity rewrites for top-N high-traffic nodes. Each independently shippable. **Stage 1 was paused mid-stride** for cost reasons (Session 24 pivot from agent to Python-deterministic for secondary buckets; saved ~$1,200). The 855 agent-rich Stage-1 nodes are the only ones with synthesized rich Identity + prose-inferred edges. **The 247 remaining `_conflicts/` files are NOT being regenerated** (idempotent script, all dated Apr 26-May 1); deferred to bundled Stage 4 work per existing line 101. **The agent was correct on caltrops type-classification disagreement** (Python trusted bucket assignment as `event.battle`; agent read prose and correctly typed as `organization.faction` with explicit Notes explaining override).
+
+**What's next:**
+- **READY TO DO — Per-character index roll-up** — pure Python, $0, ~30-60 min. Continue prompt: `progress/continue-prompts/2026-05-11-per-character-index-rollup.md`. Unblocks Stage 4 component (b).
+- **Stage 4 launch** — still queued at `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`. Alias-backfill prerequisite NOW MET as of this session.
+- **3 tiny follow-ups** in `working/todos.md` under "Tiny Follow-ups (Session 40 surface)": architecture.md typo fix, second round of alias-backfill, conflicts cleanup (covered).
+- **Per Matt's standing rule, /endsession was invoked explicitly** — handoff prompt below.
+
 ### Session 39 — Status check + working/wiki/ subtree reorg (2026-05-07)
 **Detail:** `history/session-details/session-039.md`
 
@@ -265,23 +288,7 @@ This is your project memory. When you come back after a break, read Current Stat
 - **`READY TO DO` next** (per todos.md): model-fit audit across `.claude/agents/*.md` (resource-conservation pass). And: re-run `citation-validator` on full 5-book corpus now that Pass 1 is 344/344.
 - Stage 4 v1 still queued: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`.
 
-### Session 35 — ASOS Pass 1 complete via Okey's parallel run (2026-05-06)
-
-**Changes made:**
-- `extractions/mechanical/asos/` — 82/82 v3 chapters pushed by Okey on branch `origin/pass1-asos-extraction` (parallel Opus pass on shared Max account, ran 2026-05-01 → 2026-05-06, ~$54.85). All 12 POVs covered (13 Arya / 4 Bran / 7 Catelyn / 6 Daenerys / 6 Davos / 9 Jaime / 12 Jon / 5 Samwell / 7 Sansa / 11 Tyrion + Prologue + Epilogue). Spot-checked early/mid/late waves — full v3 schema, healthy. **Merged to main in commit `2eaf5c71` ("Merge ASOS Pass 1 v3 from Okey's parallel run") — verified 2026-05-07.**
-- `worklog.md` — Current State updated: ASOS now 82/82 ✓ (Pass 1 5/5 books complete, 344/344). This entry.
-- `working/progress.md` — single pointer line appended; per-wave detail lives in `working/extraction-stats/extraction-stats-asos-pass1-v3.csv` on Okey's branch.
-
-**State:** Pass 1 v3 ALL 5 books complete (AGOT 73 + ACOK 70 + ASOS 82 + AFFC 46 + ADWD 73 = 344/344). Stage 4 prose-edge-classifier and the dialogue/meals/mention-index design are the unblocked next moves.
-
-**Decisions:** None — verification + worklog hygiene only. Okey's branch left unmerged for now (merge when ready; minor `worklog.md` + `working/progress.md` conflicts expected, no extraction-file collisions).
-
-**What's next:**
-- Merge `origin/pass1-asos-extraction` into main when ready (resolve worklog/progress conflicts in favor of main's clean entry).
-- Resume primary handoff: `progress/continue-prompts/2026-05-05-dialogue-meals-mention-index-design.md` — 7 Open Questions to resolve, then build mention index, then smoke dialogue on Ned + Robert.
-- Stage 4 v1 prose-edge-classifier now unblocked: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`.
-
-> Session 34 archived to `history/worklog-archives/archive008.md` at end of Session 39 (archive008.md has 1 entry; will fill over future cycles)
+> Session 34 + Session 35 archived to `history/worklog-archives/archive008.md` (archive008.md has 2 entries; will fill over future cycles)
 > Sessions 30–33 in `history/worklog-archives/archive007.md` (full at 5 entries)
 > Sessions 25–29 archived to `history/worklog-archives/archive006.md`
 > Sessions 22–24 archived to `history/worklog-archives/archive005.md`
