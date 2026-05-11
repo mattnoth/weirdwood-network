@@ -178,7 +178,8 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
-### Session 41 — Per-character index roll-up + POV canonical resolution (2026-05-11)
+### Session 41 — Per-character index roll-up + POV canonicalization + missing-nodes audit (2026-05-11)
+**Detail:** `history/session-details/session-041.md`
 
 **Changes made:**
 - `scripts/build-character-indexes.py` — NEW. Pure-Python (no LLM, no HTTP) script that walks 3,910 `character.*` graph nodes, parses each frontmatter for slug/name/type, joins against the per-chapter mention index (inverse maps for POV + mentioned-in), reads node-body `## Edges` section for out_edge_count, looks up `working/wiki/data/backlink-counts.json` for in_edge_count, and emits one `graph/index/characters/<slug>.index.json` per character + a `_summary.json` rollup. CLI: `--character <slug>` (test mode), `--all` (default), `--dry-run`. Idempotent. Runs in ~1.0s.
