@@ -3,7 +3,7 @@
   "name": "Daenerys Targaryen",
   "type": "character.human",
   "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
-  "generated_at": "2026-05-11T22:33:53.150821+00:00",
+  "generated_at": "2026-05-11T22:49:53.785299+00:00",
   "stats": {
     "appearances_total": 76,
     "chapters_pov": 31,
@@ -182,7 +182,7 @@
       {
         "chapter_id": "affc-prologue",
         "book": "affc",
-        "pov_character_slug": null,
+        "pov_character_slug": "pate-novice",
         "mention_count": 2,
         "sections": [
           "Characters Referenced",

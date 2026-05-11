@@ -1,0 +1,4419 @@
+{
+  "generated_at": "2026-05-11T22:51:24.947288+00:00",
+  "totals": {
+    "wiki_pages_indexed": 17657,
+    "graph_nodes": 7583,
+    "unpromoted": 1170,
+    "bucket_a": 138,
+    "bucket_b": 83,
+    "bucket_c": 949,
+    "case_collisions": 125
+  },
+  "case_collisions": [
+    [
+      "House_Words.json",
+      "House words"
+    ],
+    [
+      "High_Road.json",
+      "High road"
+    ],
+    [
+      "Red_Priest.json",
+      "Red priest"
+    ],
+    [
+      "Trade_Talk.json",
+      "Trade talk"
+    ],
+    [
+      "Rosby_Road.json",
+      "Rosby road"
+    ],
+    [
+      "Children_of_the_Forest.json",
+      "Children of the forest"
+    ],
+    [
+      "Lyman_(Archmaester).json",
+      "Lyman (archmaester)"
+    ],
+    [
+      "Free_Folk.json",
+      "Free folk"
+    ],
+    [
+      "Known_World.json",
+      "Known world"
+    ],
+    [
+      "Rock_King.json",
+      "Rock king"
+    ],
+    [
+      "Valar_Morghulis.json",
+      "Valar morghulis"
+    ],
+    [
+      "Beyond_the_Wall_(Book).json",
+      "Beyond the Wall (book)"
+    ],
+    [
+      "POV_Character.json",
+      "POV character"
+    ],
+    [
+      "Dake_(Guard).json",
+      "Dake (guard)"
+    ],
+    [
+      "Damon_Dance-For-Me.json",
+      "Damon Dance-for-Me"
+    ],
+    [
+      "Roland_Crakehall_(Lord).json",
+      "Roland Crakehall (lord)"
+    ],
+    [
+      "All-For-Joffrey.json",
+      "All-for-Joffrey"
+    ],
+    [
+      "Landed_Knight.json",
+      "Landed knight"
+    ],
+    [
+      "Red_Comet.json",
+      "Red comet"
+    ],
+    [
+      "Lymond_(Disambiguation).json",
+      "Lymond (disambiguation)"
+    ],
+    [
+      "Ice_Dragon.json",
+      "Ice dragon"
+    ],
+    [
+      "Red_Raven_(Free_Folk).json",
+      "Red Raven (free folk)"
+    ],
+    [
+      "Chief_Undergaoler.json",
+      "Chief undergaoler"
+    ],
+    [
+      "Old_Gods.json",
+      "Old gods"
+    ],
+    [
+      "Roone_(Maester).json",
+      "Roone (maester)"
+    ],
+    [
+      "The_Princess_and_The_Queen,_or,_The_Blacks_and_The_Greens.json",
+      "The Princess and the Queen, or, the Blacks and the Greens"
+    ],
+    [
+      "Harmune_(Archmaester).json",
+      "Harmune (archmaester)"
+    ],
+    [
+      "Two_Hearts_That_Beat_As_One.json",
+      "Two Hearts That Beat as One"
+    ],
+    [
+      "Helicent_(Hound).json",
+      "Helicent (hound)"
+    ],
+    [
+      "King_In_The_North.json",
+      "King in the North"
+    ],
+    [
+      "Finger_Dance.json",
+      "Finger dance"
+    ],
+    [
+      "Pate_(Novice).json",
+      "Pate (novice)"
+    ],
+    [
+      "Willow_(Hound).json",
+      "Willow (hound)"
+    ],
+    [
+      "Starved_Man.json",
+      "Starved man"
+    ],
+    [
+      "Drowned_Men.json",
+      "Drowned men"
+    ],
+    [
+      "Great_Voyages.json",
+      "Great voyages"
+    ],
+    [
+      "Grand_Master.json",
+      "Grand master"
+    ],
+    [
+      "Hammer_of_the_Waters.json",
+      "Hammer of the waters"
+    ],
+    [
+      "Seventy-nine_Sentinels.json",
+      "Seventy-nine sentinels"
+    ],
+    [
+      "Gerold_(Archmaester).json",
+      "Gerold (archmaester)"
+    ],
+    [
+      "House_Lake_(North).json",
+      "House Lake (north)"
+    ],
+    [
+      "Queen_of_Love_and_Beauty.json",
+      "Queen of love and beauty"
+    ],
+    [
+      "Narrow_Sea.json",
+      "Narrow sea"
+    ],
+    [
+      "Stallion_Who_Mounts_the_World.json",
+      "Stallion who mounts the world"
+    ],
+    [
+      "Trial_of_Seven.json",
+      "Trial of seven"
+    ],
+    [
+      "Dothraki_Sea.json",
+      "Dothraki sea"
+    ],
+    [
+      "Erryk_(Guard).json",
+      "Erryk (guard)"
+    ],
+    [
+      "First_Night.json",
+      "First night"
+    ],
+    [
+      "River_Road.json",
+      "River road"
+    ],
+    [
+      "Master_of_Whisperers.json",
+      "Master of whisperers"
+    ],
+    [
+      "Horse_God.json",
+      "Horse god"
+    ],
+    [
+      "House_Holt_(North).json",
+      "House Holt (north)"
+    ],
+    [
+      "Brotherhood_Without_Banners.json",
+      "Brotherhood without banners"
+    ],
+    [
+      "Garin_(Orphan).json",
+      "Garin (orphan)"
+    ],
+    [
+      "Come-Into-My-Castle.json",
+      "Come-into-my-castle"
+    ],
+    [
+      "Ronnel_Arryn_(King).json",
+      "Ronnel Arryn (king)"
+    ],
+    [
+      "War_of_the_First_Men_and_the_Children_of_the_Forest.json",
+      "War of the First Men and the children of the forest"
+    ],
+    [
+      "Bethany_Fair-Fingers.json",
+      "Bethany Fair-fingers"
+    ],
+    [
+      "Hedge_Knight.json",
+      "Hedge knight"
+    ],
+    [
+      "Ghost_Grass.json",
+      "Ghost grass"
+    ],
+    [
+      "Gender_and_Sexuality.json",
+      "Gender and sexuality"
+    ],
+    [
+      "Arryk_(Guard).json",
+      "Arryk (guard)"
+    ],
+    [
+      "Lucerys_Velaryon_(Master_of_Ships).json",
+      "Lucerys Velaryon (master of ships)"
+    ],
+    [
+      "Stern_Face.json",
+      "Stern face"
+    ],
+    [
+      "Rickard_Stark_(King).json",
+      "Rickard Stark (king)"
+    ],
+    [
+      "Demon_Road.json",
+      "Demon road"
+    ],
+    [
+      "Small_Council.json",
+      "Small council"
+    ],
+    [
+      "Grazdan_Mo_Ullhor.json",
+      "Grazdan mo Ullhor"
+    ],
+    [
+      "Spears_of_the_Merling_King.json",
+      "Spears of the merling king"
+    ],
+    [
+      "Lyman_(Disambiguation).json",
+      "Lyman (disambiguation)"
+    ],
+    [
+      "Wine_of_Courage.json",
+      "Wine of courage"
+    ],
+    [
+      "Handsome_Man.json",
+      "Handsome man"
+    ],
+    [
+      "Rolfe_The_Dwarf.json",
+      "Rolfe the Dwarf"
+    ],
+    [
+      "Arryn_Succession_Conflict_(134_AC).json",
+      "Arryn succession conflict (134 AC)"
+    ],
+    [
+      "The_Princess_and_The_Queen.json",
+      "The Princess and the Queen"
+    ],
+    [
+      "Tiger_Cloaks.json",
+      "Tiger cloaks"
+    ],
+    [
+      "Across_the_Narrow_Sea.json",
+      "Across the narrow sea"
+    ],
+    [
+      "Green_Men.json",
+      "Green men"
+    ],
+    [
+      "Inn_at_the_Crossroads.json",
+      "Inn at the crossroads"
+    ],
+    [
+      "Red_Waste.json",
+      "Red waste"
+    ],
+    [
+      "Lord_Admiral.json",
+      "Lord admiral"
+    ],
+    [
+      "Master_of_Coin.json",
+      "Master of coin"
+    ],
+    [
+      "Widow_of_the_Waterfront.json",
+      "Widow of the waterfront"
+    ],
+    [
+      "Master_of_Ships.json",
+      "Master of ships"
+    ],
+    [
+      "Rule_of_Thumb.json",
+      "Rule of thumb"
+    ],
+    [
+      "Haunted_Forest.json",
+      "Haunted forest"
+    ],
+    [
+      "Fat_Fellow.json",
+      "Fat fellow"
+    ],
+    [
+      "Great_Ranging.json",
+      "Great ranging"
+    ],
+    [
+      "Damon_Lannister_(Lord).json",
+      "Damon Lannister (lord)"
+    ],
+    [
+      "Luceon_(Disambiguation).json",
+      "Luceon (disambiguation)"
+    ],
+    [
+      "Tower_of_Joy.json",
+      "Tower of joy"
+    ],
+    [
+      "Pit_Fighters.json",
+      "Pit fighters"
+    ],
+    [
+      "Broken_Tower.json",
+      "Broken tower"
+    ],
+    [
+      "Conflict_Beyond_the_Wall.json",
+      "Conflict beyond the Wall"
+    ],
+    [
+      "Timeline_of_Major_Events.json",
+      "Timeline of major events"
+    ],
+    [
+      "Master_of_Laws.json",
+      "Master of laws"
+    ],
+    [
+      "List_of_Rivers.json",
+      "List of rivers"
+    ],
+    [
+      "Fowler_Twins.json",
+      "Fowler twins"
+    ],
+    [
+      "Dragon_Horn.json",
+      "Dragon horn"
+    ],
+    [
+      "A_Feast_For_Crows.json",
+      "A Feast for Crows"
+    ],
+    [
+      "Valyrian_Peninsula.json",
+      "Valyrian peninsula"
+    ],
+    [
+      "Pate_(Ranger).json",
+      "Pate (ranger)"
+    ],
+    [
+      "Warden_of_The_North.json",
+      "Warden of the North"
+    ],
+    [
+      "God-Emperor.json",
+      "God-emperor"
+    ],
+    [
+      "List_of_Characters.json",
+      "List of characters"
+    ],
+    [
+      "Second_Siege_of_Meereen.json",
+      "Second siege of Meereen"
+    ],
+    [
+      "Henly_(Maester).json",
+      "Henly (maester)"
+    ],
+    [
+      "Ghiscari_Wars.json",
+      "Ghiscari wars"
+    ],
+    [
+      "Bellegere_Otherys_(Courtesan).json",
+      "Bellegere Otherys (courtesan)"
+    ],
+    [
+      "House_Brownhill_(Stormlands).json",
+      "House Brownhill (stormlands)"
+    ],
+    [
+      "King-Beyond-The-Wall.json",
+      "King-Beyond-the-Wall"
+    ],
+    [
+      "Ruby_Ford.json",
+      "Ruby ford"
+    ],
+    [
+      "The_Maids_That_Bloom_in_Spring.json",
+      "The Maids that Bloom in Spring"
+    ],
+    [
+      "Great_Houses.json",
+      "Great houses"
+    ],
+    [
+      "High_King.json",
+      "High king"
+    ],
+    [
+      "Lyonel_Tyrell_(Lord).json",
+      "Lyonel Tyrell (lord)"
+    ],
+    [
+      "Robert_Brax_(Disambiguation).json",
+      "Robert Brax (disambiguation)"
+    ],
+    [
+      "Salt_King.json",
+      "Salt king"
+    ],
+    [
+      "Kindly_Man.json",
+      "Kindly man"
+    ],
+    [
+      "Kyra_(Hound).json",
+      "Kyra (hound)"
+    ],
+    [
+      "High_Septon_(Fat_One).json",
+      "High Septon (fat one)"
+    ],
+    [
+      "Silent_Sisters.json",
+      "Silent sisters"
+    ],
+    [
+      "House_Towers_(North).json",
+      "House Towers (north)"
+    ],
+    [
+      "Knights_Inquisitor.json",
+      "Knights inquisitor"
+    ],
+    [
+      "The_Song_of_Ice_and_Fire.json",
+      "The song of ice and fire"
+    ]
+  ],
+  "bucket_a": [
+    {
+      "page": "Godswood",
+      "slug": "godswood",
+      "byte_size": 36366,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Godswoods",
+        "Old gods",
+        "Terms",
+        "Westeros"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 36,
+      "wiki_in_count": 31
+    },
+    {
+      "page": "Flea Bottom",
+      "slug": "flea-bottom",
+      "byte_size": 51403,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "King's Landing"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 31,
+      "wiki_in_count": 30
+    },
+    {
+      "page": "Old Gods",
+      "slug": "old-gods",
+      "byte_size": 910,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 22,
+      "wiki_in_count": 61
+    },
+    {
+      "page": "Seastone Chair",
+      "slug": "seastone-chair",
+      "byte_size": 27123,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "House Greyjoy",
+        "Ironborn culture",
+        "Thrones"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 14,
+      "wiki_in_count": 37
+    },
+    {
+      "page": "Chataya's brothel",
+      "slug": "chatayas-brothel",
+      "byte_size": 32278,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Brothels in King's Landing",
+        "Chataya's brothel"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 12,
+      "wiki_in_count": 11
+    },
+    {
+      "page": "Black cells",
+      "slug": "black-cells",
+      "byte_size": 37174,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Prisons",
+        "Red Keep",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 11,
+      "wiki_in_count": 46
+    },
+    {
+      "page": "Queen's Men",
+      "slug": "queens-men",
+      "byte_size": 926,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 9,
+      "wiki_in_count": 43
+    },
+    {
+      "page": "Unsullied",
+      "slug": "unsullied",
+      "byte_size": 55403,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Astapor",
+        "Eunuchs",
+        "Slave soldiers",
+        "Slaves and freedmen",
+        "Unsullied"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 9,
+      "wiki_in_count": 68
+    },
+    {
+      "page": "Cinnamon Wind",
+      "slug": "cinnamon-wind",
+      "byte_size": 12416,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Swan ships"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 8,
+      "wiki_in_count": 19
+    },
+    {
+      "page": "Valyrian steel dagger",
+      "slug": "valyrian-steel-dagger",
+      "byte_size": 953,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 8,
+      "wiki_in_count": 4
+    },
+    {
+      "page": "Black Wind",
+      "slug": "black-wind",
+      "byte_size": 19936,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Crew of the Black Wind",
+        "House Greyjoy ships",
+        "Ironborn longships"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 7,
+      "wiki_in_count": 2
+    },
+    {
+      "page": "Hobb",
+      "slug": "hobb",
+      "byte_size": 937,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 7,
+      "wiki_in_count": 3
+    },
+    {
+      "page": "Maidenvault",
+      "slug": "maidenvault",
+      "byte_size": 15247,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Buildings",
+        "Red Keep"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 7,
+      "wiki_in_count": 16
+    },
+    {
+      "page": "Malaquo",
+      "slug": "malaquo",
+      "byte_size": 927,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 7,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Nyessos",
+      "slug": "nyessos",
+      "byte_size": 930,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 7,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Gunthor son of Gurn",
+      "slug": "gunthor-son-of-gurn",
+      "byte_size": 907,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 6,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Harma",
+      "slug": "harma",
+      "byte_size": 928,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 6,
+      "wiki_in_count": 8
+    },
+    {
+      "page": "Iron Victory",
+      "slug": "iron-victory",
+      "byte_size": 18398,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Crew of the Iron Victory",
+        "House Greyjoy ships",
+        "Ironborn longships",
+        "Ships of the Iron Fleet"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 6,
+      "wiki_in_count": 3
+    },
+    {
+      "page": "Qezza",
+      "slug": "qezza",
+      "byte_size": 922,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 6,
+      "wiki_in_count": 3
+    },
+    {
+      "page": "Valar Morghulis",
+      "slug": "valar-morghulis",
+      "byte_size": 931,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 6,
+      "wiki_in_count": 8
+    },
+    {
+      "page": "Crossroads Inn",
+      "slug": "crossroads-inn",
+      "byte_size": 949,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 5,
+      "wiki_in_count": 39
+    },
+    {
+      "page": "Doniphos",
+      "slug": "doniphos",
+      "byte_size": 939,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 5,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Pretty Pig",
+      "slug": "pretty-pig",
+      "byte_size": 4323,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Pigs"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 5,
+      "wiki_in_count": 6
+    },
+    {
+      "page": "Rookery",
+      "slug": "rookery",
+      "byte_size": 37574,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Order of the maesters",
+        "Ravens",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 5,
+      "wiki_in_count": 15
+    },
+    {
+      "page": "The Ship",
+      "slug": "the-ship",
+      "byte_size": 934,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 5,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Ulmer",
+      "slug": "ulmer",
+      "byte_size": 952,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 5,
+      "wiki_in_count": 4
+    },
+    {
+      "page": "Castle Stair",
+      "slug": "castle-stair",
+      "byte_size": 6449,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Stairs",
+        "Streets",
+        "White Harbor"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 4,
+      "wiki_in_count": 4
+    },
+    {
+      "page": "Daenerys Stormborn",
+      "slug": "daenerys-stormborn",
+      "byte_size": 940,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 4,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Frozen Shore",
+      "slug": "frozen-shore",
+      "byte_size": 23142,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Places beyond the Wall"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 4,
+      "wiki_in_count": 8
+    },
+    {
+      "page": "King Maegor",
+      "slug": "king-maegor",
+      "byte_size": 940,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 4,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Longsword",
+      "slug": "longsword",
+      "byte_size": 4319,
+      "entity_type_guess": "object.artifact",
+      "categories": [
+        "Swords",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 4,
+      "wiki_in_count": 27
+    },
+    {
+      "page": "Red Waste",
+      "slug": "red-waste",
+      "byte_size": 913,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 4,
+      "wiki_in_count": 16
+    },
+    {
+      "page": "Red temple",
+      "slug": "red-temple",
+      "byte_size": 15353,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "R'hllor",
+        "Red temples",
+        "Religious buildings"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 4,
+      "wiki_in_count": 8
+    },
+    {
+      "page": "Sky Cells",
+      "slug": "sky-cells",
+      "byte_size": 951,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 4,
+      "wiki_in_count": 6
+    },
+    {
+      "page": "Three Whores",
+      "slug": "three-whores",
+      "byte_size": 4775,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "King's Landing",
+        "Pages using hatnote template directly",
+        "Trebuchets"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 4,
+      "wiki_in_count": 6
+    },
+    {
+      "page": "Valar dohaeris",
+      "slug": "valar-dohaeris",
+      "byte_size": 930,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 4,
+      "wiki_in_count": 4
+    },
+    {
+      "page": "Weirwood grove",
+      "slug": "weirwood-grove",
+      "byte_size": 24397,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Godswoods",
+        "Places beyond the Wall"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 4,
+      "wiki_in_count": 2
+    },
+    {
+      "page": "Arbor Queen",
+      "slug": "arbor-queen",
+      "byte_size": 4417,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Galleases",
+        "Redwyne fleet"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 3,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Golden Dragon",
+      "slug": "golden-dragon",
+      "byte_size": 5532,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "House Targaryen ships",
+        "Pages using hatnote template directly"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 3,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Kingsmoot",
+      "slug": "kingsmoot",
+      "byte_size": 21937,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Ironborn culture",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 3,
+      "wiki_in_count": 75
+    },
+    {
+      "page": "Nagga's Hill",
+      "slug": "naggas-hill",
+      "byte_size": 929,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 3,
+      "wiki_in_count": 5
+    },
+    {
+      "page": "Night lands",
+      "slug": "night-lands",
+      "byte_size": 4114,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Dothraki culture"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 3,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Queen of Love and Beauty",
+      "slug": "queen-of-love-and-beauty",
+      "byte_size": 958,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 3,
+      "wiki_in_count": 22
+    },
+    {
+      "page": "Roggon",
+      "slug": "roggon",
+      "byte_size": 934,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 3,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Ruby Ford",
+      "slug": "ruby-ford",
+      "byte_size": 913,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 3,
+      "wiki_in_count": 29
+    },
+    {
+      "page": "Scribe's Hearth",
+      "slug": "scribes-hearth",
+      "byte_size": 9241,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Citadel"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 3,
+      "wiki_in_count": 3
+    },
+    {
+      "page": "Sothoros",
+      "slug": "sothoros",
+      "byte_size": 913,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 3,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Spears of the Merling King",
+      "slug": "spears-of-the-merling-king",
+      "byte_size": 964,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 3,
+      "wiki_in_count": 2
+    },
+    {
+      "page": "The Whore",
+      "slug": "the-whore",
+      "byte_size": 928,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 3,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "All-For-Joffrey",
+      "slug": "all-for-joffrey",
+      "byte_size": 930,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Bastard sword",
+      "slug": "bastard-sword",
+      "byte_size": 9478,
+      "entity_type_guess": "object.artifact",
+      "categories": [
+        "Swords",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 2
+    },
+    {
+      "page": "Bhakaz",
+      "slug": "bhakaz",
+      "byte_size": 930,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Blue Graces",
+      "slug": "blue-graces",
+      "byte_size": 11620,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Graces",
+        "Healers",
+        "Meereen"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 3
+    },
+    {
+      "page": "Bravos",
+      "slug": "bravos",
+      "byte_size": 901,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 2
+    },
+    {
+      "page": "Cyvasse",
+      "slug": "cyvasse",
+      "byte_size": 48711,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Games"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 8
+    },
+    {
+      "page": "Drogo's khalasar",
+      "slug": "drogos-khalasar",
+      "byte_size": 9229,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Articles that are Stubs",
+        "Khalasars"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Freys",
+      "slug": "freys",
+      "byte_size": 916,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Godswood of Winterfell",
+      "slug": "godswood-of-winterfell",
+      "byte_size": 50185,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Godswoods",
+        "Winterfell"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 21
+    },
+    {
+      "page": "Godswood of the Red Keep",
+      "slug": "godswood-of-the-red-keep",
+      "byte_size": 33418,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Godswoods",
+        "Red Keep"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 5
+    },
+    {
+      "page": "Gorghan of Old Ghis",
+      "slug": "gorghan-of-old-ghis",
+      "byte_size": 907,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Griffin Seat",
+      "slug": "griffin-seat",
+      "byte_size": 5523,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "House Connington",
+        "Thrones"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Grumkins",
+      "slug": "grumkins",
+      "byte_size": 907,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Kyle",
+      "slug": "kyle",
+      "byte_size": 922,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Lancel",
+      "slug": "lancel",
+      "byte_size": 934,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Lorren",
+      "slug": "lorren",
+      "byte_size": 922,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Myrish lace",
+      "slug": "myrish-lace",
+      "byte_size": 31704,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Clothing"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Palanquin",
+      "slug": "palanquin",
+      "byte_size": 35345,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Transport"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 9
+    },
+    {
+      "page": "Qhorin",
+      "slug": "qhorin",
+      "byte_size": 931,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Ragpicker's Wynd",
+      "slug": "ragpickers-wynd",
+      "byte_size": 3489,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Oldtown",
+        "Streets"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Rolfe The Dwarf",
+      "slug": "rolfe-the-dwarf",
+      "byte_size": 931,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Satin Palace",
+      "slug": "satin-palace",
+      "byte_size": 6032,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Brothels in Braavos"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Sealord",
+      "slug": "sealord",
+      "byte_size": 938,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 4
+    },
+    {
+      "page": "Septry",
+      "slug": "septry",
+      "byte_size": 15081,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Faith of the Seven",
+        "Religious buildings",
+        "Septries",
+        "Westeros"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 4
+    },
+    {
+      "page": "Shadowcats",
+      "slug": "shadowcats",
+      "byte_size": 913,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Spearwife",
+      "slug": "spearwife",
+      "byte_size": 19292,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Spearwives",
+        "Terms",
+        "Warrior Women"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 24
+    },
+    {
+      "page": "Summer Islands",
+      "slug": "summer-islands",
+      "byte_size": 922,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 4
+    },
+    {
+      "page": "Sunset Kingdoms",
+      "slug": "sunset-kingdoms",
+      "byte_size": 2326,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Terms",
+        "Westeros"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Swordfish",
+      "slug": "swordfish",
+      "byte_size": 20427,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Fish"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Tallhart",
+      "slug": "tallhart",
+      "byte_size": 928,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Targaryens",
+      "slug": "targaryens",
+      "byte_size": 931,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "The Song of Ice and Fire",
+      "slug": "the-song-of-ice-and-fire",
+      "byte_size": 958,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "The prince that was promised",
+      "slug": "the-prince-that-was-promised",
+      "byte_size": 39357,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Prophecy"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 8
+    },
+    {
+      "page": "Tokar",
+      "slug": "tokar",
+      "byte_size": 58274,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Clothing",
+        "Ghiscari culture",
+        "Slaver's Bay"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 14
+    },
+    {
+      "page": "Unicorns",
+      "slug": "unicorns",
+      "byte_size": 906,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Urrax",
+      "slug": "urrax",
+      "byte_size": 11368,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Legendary dragons"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Walls of Qarth",
+      "slug": "walls-of-qarth",
+      "byte_size": 16467,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Qarth",
+        "Walls",
+        "Wonders Made by Man"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 3
+    },
+    {
+      "page": "Wayn",
+      "slug": "wayn",
+      "byte_size": 25398,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Pages using hatnote template directly",
+        "Transport"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "White Graces",
+      "slug": "white-graces",
+      "byte_size": 6146,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Graces",
+        "Meereen"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 2
+    },
+    {
+      "page": "Wine merchant",
+      "slug": "wine-merchant",
+      "byte_size": 916,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Wormways",
+      "slug": "wormways",
+      "byte_size": 13887,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Castle Black"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 2,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Alios",
+      "slug": "alios",
+      "byte_size": 924,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Arakh",
+      "slug": "arakh",
+      "byte_size": 27127,
+      "entity_type_guess": "object.artifact",
+      "categories": [
+        "Dothraki culture",
+        "Swords",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 13
+    },
+    {
+      "page": "Barsena",
+      "slug": "barsena",
+      "byte_size": 937,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 2
+    },
+    {
+      "page": "Battle fever",
+      "slug": "battle-fever",
+      "byte_size": 5865,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Bethany Fair-Fingers",
+      "slug": "bethany-fair-fingers",
+      "byte_size": 946,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Bone flute",
+      "slug": "bone-flute",
+      "byte_size": 7711,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Musical instruments"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Book of Lost Books",
+      "slug": "book-of-lost-books",
+      "byte_size": 952,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 3
+    },
+    {
+      "page": "Builder",
+      "slug": "builder",
+      "byte_size": 910,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Cannibalism",
+      "slug": "cannibalism",
+      "byte_size": 31886,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Cannibalism",
+        "Pages using hatnote template directly",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 19
+    },
+    {
+      "page": "Drowned Men",
+      "slug": "drowned-men",
+      "byte_size": 919,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 5
+    },
+    {
+      "page": "Elenya Westerling",
+      "slug": "elenya-westerling",
+      "byte_size": 937,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Fiery fingers",
+      "slug": "fiery-fingers",
+      "byte_size": 916,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Goghor",
+      "slug": "goghor",
+      "byte_size": 934,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Goodwife Maerie",
+      "slug": "goodwife-maerie",
+      "byte_size": 937,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Hagen",
+      "slug": "hagen",
+      "byte_size": 928,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Hair shirts",
+      "slug": "hair-shirts",
+      "byte_size": 916,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Hathay",
+      "slug": "hathay",
+      "byte_size": 14529,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Terms",
+        "Transport"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "High King",
+      "slug": "high-king",
+      "byte_size": 913,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Higher mysteries",
+      "slug": "higher-mysteries",
+      "byte_size": 901,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 2
+    },
+    {
+      "page": "Hugh",
+      "slug": "hugh",
+      "byte_size": 934,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 3
+    },
+    {
+      "page": "Kneelers",
+      "slug": "kneelers",
+      "byte_size": 12198,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Society",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 3
+    },
+    {
+      "page": "Kos",
+      "slug": "kos",
+      "byte_size": 892,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Land of Always Winter",
+      "slug": "land-of-always-winter",
+      "byte_size": 17646,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Places beyond the Wall"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Long Stone Quay",
+      "slug": "long-stone-quay",
+      "byte_size": 6114,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Harbors",
+        "Ten Towers"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Lorn Point",
+      "slug": "lorn-point",
+      "byte_size": 7737,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Places beyond the Wall"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 3
+    },
+    {
+      "page": "Monsters-and-maidens",
+      "slug": "monsters-and-maidens",
+      "byte_size": 14942,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Games"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 2
+    },
+    {
+      "page": "Night's King's corpse queen",
+      "slug": "nights-kings-corpse-queen",
+      "byte_size": 922,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Old Palace",
+      "slug": "old-palace",
+      "byte_size": 19203,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "House Martell",
+        "Palaces",
+        "Sunspear"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 3
+    },
+    {
+      "page": "Parquello",
+      "slug": "parquello",
+      "byte_size": 939,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Petyr",
+      "slug": "petyr",
+      "byte_size": 925,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Qartheen gown",
+      "slug": "qartheen-gown",
+      "byte_size": 19305,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Clothing",
+        "Qarth"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 2
+    },
+    {
+      "page": "Rymund",
+      "slug": "rymund",
+      "byte_size": 937,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Secret marriage pact",
+      "slug": "secret-marriage-pact",
+      "byte_size": 29844,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Braavos",
+        "House Martell",
+        "House Targaryen",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 13
+    },
+    {
+      "page": "Shark",
+      "slug": "shark",
+      "byte_size": 23492,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Fish"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Shields",
+      "slug": "shields",
+      "byte_size": 928,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Shortsword",
+      "slug": "shortsword",
+      "byte_size": 6243,
+      "entity_type_guess": "object.artifact",
+      "categories": [
+        "Swords",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Southron",
+      "slug": "southron",
+      "byte_size": 22852,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Terms",
+        "Westeros"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 19
+    },
+    {
+      "page": "Sworn Brother",
+      "slug": "sworn-brother",
+      "byte_size": 3150,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Kingsguard",
+        "Night's Watch",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 7
+    },
+    {
+      "page": "The gift of mercy",
+      "slug": "the-gift-of-mercy",
+      "byte_size": 924,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Thormor",
+      "slug": "thormor",
+      "byte_size": 937,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Tiles",
+      "slug": "tiles",
+      "byte_size": 21909,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 2
+    },
+    {
+      "page": "Trebuchet",
+      "slug": "trebuchet",
+      "byte_size": 3899,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Trebuchets"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 10
+    },
+    {
+      "page": "Urragon Goodbrother",
+      "slug": "urragon-goodbrother",
+      "byte_size": 955,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Usurper",
+      "slug": "usurper",
+      "byte_size": 34704,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "House Baratheon",
+        "Robert's Rebellion",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 12
+    },
+    {
+      "page": "Valyrian glyphs",
+      "slug": "valyrian-glyphs",
+      "byte_size": 925,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "White Ravens",
+      "slug": "white-ravens",
+      "byte_size": 918,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Willem",
+      "slug": "willem",
+      "byte_size": 943,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Wolf blood",
+      "slug": "wolf-blood",
+      "byte_size": 22644,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "House Stark",
+        "Terms",
+        "Wolves"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 1,
+      "wiki_in_count": 1
+    }
+  ],
+  "bucket_b": [
+    {
+      "page": "Blacks",
+      "slug": "blacks",
+      "byte_size": 79944,
+      "entity_type_guess": "event.war",
+      "categories": [
+        "Blacks",
+        "Dance of the Dragons",
+        "Organizations"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 138
+    },
+    {
+      "page": "Greens",
+      "slug": "greens",
+      "byte_size": 56982,
+      "entity_type_guess": "event.war",
+      "categories": [
+        "Dance of the Dragons",
+        "Greens",
+        "Organizations",
+        "Pages using hatnote template directly"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 127
+    },
+    {
+      "page": "Maiden",
+      "slug": "maiden",
+      "byte_size": 23488,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 77
+    },
+    {
+      "page": "Fool",
+      "slug": "fool",
+      "byte_size": 61927,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Jesters"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 70
+    },
+    {
+      "page": "Mountain's men",
+      "slug": "mountains-men",
+      "byte_size": 60021,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "House Clegane retainers"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 65
+    },
+    {
+      "page": "Khalasar",
+      "slug": "khalasar",
+      "byte_size": 6932,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Dothraki culture",
+        "Khalasars",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 63
+    },
+    {
+      "page": "Dragonflame",
+      "slug": "dragonflame",
+      "byte_size": 62637,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Dragons"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 61
+    },
+    {
+      "page": "Slavery",
+      "slug": "slavery",
+      "byte_size": 95436,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Slavery"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 56
+    },
+    {
+      "page": "Hound",
+      "slug": "hound",
+      "byte_size": 32204,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Brave Companions",
+        "Brotherhood Without Banners",
+        "Collective nicknames",
+        "House Clegane",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 45
+    },
+    {
+      "page": "Royal progress",
+      "slug": "royal-progress",
+      "byte_size": 61464,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "House Targaryen",
+        "Monarchs",
+        "Terms",
+        "Westeros"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 45
+    },
+    {
+      "page": "Age of Heroes",
+      "slug": "age-of-heroes",
+      "byte_size": 29473,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "History",
+        "Terms",
+        "Westeros"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 43
+    },
+    {
+      "page": "Thoros of Myr",
+      "slug": "thoros-of-myr",
+      "byte_size": 904,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 43
+    },
+    {
+      "page": "March on Winterfell",
+      "slug": "march-on-winterfell",
+      "byte_size": 43694,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "House Baratheon of Dragonstone",
+        "House Bolton battles",
+        "House Frey battles",
+        "House Manderly battles",
+        "War of the Five Kings",
+        "Winterfell"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 42
+    },
+    {
+      "page": "Eunuch",
+      "slug": "eunuch",
+      "byte_size": 53002,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Eunuchs"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 39
+    },
+    {
+      "page": "Silk",
+      "slug": "silk",
+      "byte_size": 143457,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Clothing"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 37
+    },
+    {
+      "page": "Dwarf",
+      "slug": "dwarf",
+      "byte_size": 35749,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Articles with unsourced statements",
+        "Dwarfs",
+        "Pages using hatnote template directly"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 36
+    },
+    {
+      "page": "Rattleshirt",
+      "slug": "rattleshirt",
+      "byte_size": 924,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 36
+    },
+    {
+      "page": "Andal",
+      "slug": "andal",
+      "byte_size": 904,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 35
+    },
+    {
+      "page": "Trial of Seven",
+      "slug": "trial-of-seven",
+      "byte_size": 928,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 35
+    },
+    {
+      "page": "Named after",
+      "slug": "named-after",
+      "byte_size": 910,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 31
+    },
+    {
+      "page": "Purple eyes",
+      "slug": "purple-eyes",
+      "byte_size": 59918,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Characters with purple eyes",
+        "House Blackfyre",
+        "House Dayne",
+        "House Rogare",
+        "House Targaryen",
+        "House Velaryon",
+        "Valyrians"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 31
+    },
+    {
+      "page": "Redwyne fleet",
+      "slug": "redwyne-fleet",
+      "byte_size": 33056,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Fleets",
+        "House Redwyne",
+        "Redwyne fleet"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 31
+    },
+    {
+      "page": "Crypt of Winterfell",
+      "slug": "crypt-of-winterfell",
+      "byte_size": 52320,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "House Stark",
+        "Winterfell"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 29
+    },
+    {
+      "page": "Lackwit",
+      "slug": "lackwit",
+      "byte_size": 13270,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Lackwits",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 25
+    },
+    {
+      "page": "Armament",
+      "slug": "armament",
+      "byte_size": 174018,
+      "entity_type_guess": "object.artifact",
+      "categories": [
+        "Science and technology",
+        "Weapons"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 24
+    },
+    {
+      "page": "Blackfyre Pretenders",
+      "slug": "blackfyre-pretenders",
+      "byte_size": 90453,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Blackfyre Rebellions",
+        "House Blackfyre"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 24
+    },
+    {
+      "page": "Outlaws",
+      "slug": "outlaws",
+      "byte_size": 20630,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Articles that are Stubs",
+        "Outlaws"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 24
+    },
+    {
+      "page": "The Bloody Hand",
+      "slug": "the-bloody-hand",
+      "byte_size": 10879,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Plays"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 24
+    },
+    {
+      "page": "Velaryon fleet",
+      "slug": "velaryon-fleet",
+      "byte_size": 50184,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Fleets",
+        "House Velaryon",
+        "House Velaryon ships"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 24
+    },
+    {
+      "page": "Battle at Winterfell",
+      "slug": "battle-at-winterfell",
+      "byte_size": 1000,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 23
+    },
+    {
+      "page": "Rogare Bank",
+      "slug": "rogare-bank",
+      "byte_size": 8209,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Banks",
+        "House Rogare",
+        "Lys"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 23
+    },
+    {
+      "page": "Ronnel Arryn (King)",
+      "slug": "ronnel-arryn-king",
+      "byte_size": 943,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 22
+    },
+    {
+      "page": "Handmaid",
+      "slug": "handmaid",
+      "byte_size": 36113,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Articles that are Stubs",
+        "Handmaids",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 21
+    },
+    {
+      "page": "Two Betrayers",
+      "slug": "two-betrayers",
+      "byte_size": 3667,
+      "entity_type_guess": "event.war",
+      "categories": [
+        "Bastards",
+        "Characters from the Crownlands",
+        "Collective nicknames",
+        "Dance of the Dragons",
+        "Dragonriders",
+        "Dragonseeds",
+        "Lowborn nobles",
+        "Smallfolk"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 21
+    },
+    {
+      "page": "Ale",
+      "slug": "ale",
+      "byte_size": 898,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 20
+    },
+    {
+      "page": "Dragonrider",
+      "slug": "dragonrider",
+      "byte_size": 72692,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Dragonriders",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 20
+    },
+    {
+      "page": "Flaying",
+      "slug": "flaying",
+      "byte_size": 38447,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "House Bolton",
+        "Torture"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 20
+    },
+    {
+      "page": "Column",
+      "slug": "column",
+      "byte_size": 43545,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Articles that are Stubs",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 19
+    },
+    {
+      "page": "Red Comet",
+      "slug": "red-comet",
+      "byte_size": 913,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 19
+    },
+    {
+      "page": "Broken men",
+      "slug": "broken-men",
+      "byte_size": 10659,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Outlaws",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 16
+    },
+    {
+      "page": "Cupbearers of Daenerys Targaryen",
+      "slug": "cupbearers-of-daenerys-targaryen",
+      "byte_size": 12555,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Courtiers and followers of Daenerys Targaryen",
+        "Cupbearers",
+        "Meereen"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 16
+    },
+    {
+      "page": "High Road",
+      "slug": "high-road",
+      "byte_size": 913,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 16
+    },
+    {
+      "page": "Highborn",
+      "slug": "highborn",
+      "byte_size": 947,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 16
+    },
+    {
+      "page": "Jonquil's Pool",
+      "slug": "jonquils-pool",
+      "byte_size": 19287,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Faith of the Seven",
+        "Maidenpool",
+        "Religious buildings"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 16
+    },
+    {
+      "page": "Lads",
+      "slug": "lads",
+      "byte_size": 11566,
+      "entity_type_guess": "event.war",
+      "categories": [
+        "Blacks",
+        "Characters from the Riverlands",
+        "Collective nicknames",
+        "Dance of the Dragons",
+        "House Blackwood",
+        "House Tully"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 16
+    },
+    {
+      "page": "Moon of the Three Kings",
+      "slug": "moon-of-the-three-kings",
+      "byte_size": 25884,
+      "entity_type_guess": "event.war",
+      "categories": [
+        "Dance of the Dragons",
+        "Events",
+        "King's Landing"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 16
+    },
+    {
+      "page": "Prostitution",
+      "slug": "prostitution",
+      "byte_size": 54871,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Pages using hatnote template directly",
+        "Prostitution"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 16
+    },
+    {
+      "page": "First Night",
+      "slug": "first-night",
+      "byte_size": 919,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 15
+    },
+    {
+      "page": "Freedmen",
+      "slug": "freedmen",
+      "byte_size": 17252,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Slaver's Bay",
+        "Slavery",
+        "Slaves and freedmen",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 15
+    },
+    {
+      "page": "Gift of mercy",
+      "slug": "gift-of-mercy",
+      "byte_size": 7399,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 15
+    },
+    {
+      "page": "Maerie (Goodwife)",
+      "slug": "maerie-goodwife",
+      "byte_size": 973,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 15
+    },
+    {
+      "page": "Targaryen madness",
+      "slug": "targaryen-madness",
+      "byte_size": 25571,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Articles that are Stubs",
+        "House Targaryen"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 15
+    },
+    {
+      "page": "Bannerman",
+      "slug": "bannerman",
+      "byte_size": 26992,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Society",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 14
+    },
+    {
+      "page": "King's Peace",
+      "slug": "kings-peace",
+      "byte_size": 19753,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Laws",
+        "Terms",
+        "Westeros"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 14
+    },
+    {
+      "page": "Moon",
+      "slug": "moon",
+      "byte_size": 47210,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Astronomy",
+        "Pages using hatnote template directly"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 14
+    },
+    {
+      "page": "Seal",
+      "slug": "seal",
+      "byte_size": 44457,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Seals"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 14
+    },
+    {
+      "page": "Dawn Age",
+      "slug": "dawn-age",
+      "byte_size": 11157,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "History",
+        "Westeros"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 13
+    },
+    {
+      "page": "Dice",
+      "slug": "dice",
+      "byte_size": 33405,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Games"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 13
+    },
+    {
+      "page": "Food",
+      "slug": "food",
+      "byte_size": 943,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 13
+    },
+    {
+      "page": "Great Houses",
+      "slug": "great-houses",
+      "byte_size": 922,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 13
+    },
+    {
+      "page": "Harp",
+      "slug": "harp",
+      "byte_size": 36781,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Musical instruments"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 13
+    },
+    {
+      "page": "Stallion Who Mounts the World",
+      "slug": "stallion-who-mounts-the-world",
+      "byte_size": 973,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 13
+    },
+    {
+      "page": "Becca (baker)",
+      "slug": "becca-baker",
+      "byte_size": 931,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 12
+    },
+    {
+      "page": "Black Brides",
+      "slug": "black-brides",
+      "byte_size": 10540,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Collective nicknames",
+        "House Costayne",
+        "House Targaryen",
+        "House Westerling",
+        "Royal consorts",
+        "Wives of Maegor I Targaryen"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 12
+    },
+    {
+      "page": "Maiden's Day curse",
+      "slug": "maidens-day-curse",
+      "byte_size": 8435,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 12
+    },
+    {
+      "page": "Raven's Teeth",
+      "slug": "ravens-teeth",
+      "byte_size": 15114,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Guards",
+        "House Targaryen guards",
+        "House Targaryen retainers"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 12
+    },
+    {
+      "page": "Slaver Cities",
+      "slug": "slaver-cities",
+      "byte_size": 18744,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Astapor",
+        "Meereen",
+        "Slaver's Bay",
+        "Terms",
+        "Yunkai"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 12
+    },
+    {
+      "page": "Wandering crow",
+      "slug": "wandering-crow",
+      "byte_size": 9734,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Night's Watch",
+        "Terms",
+        "Wandering crows"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 12
+    },
+    {
+      "page": "Winter Wolves",
+      "slug": "winter-wolves",
+      "byte_size": 18064,
+      "entity_type_guess": "event.war",
+      "categories": [
+        "Blacks",
+        "Dance of the Dragons",
+        "House Dustin",
+        "Organizations",
+        "The North"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 12
+    },
+    {
+      "page": "A Song of Ice and Fire",
+      "slug": "a-song-of-ice-and-fire",
+      "byte_size": 159270,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Content"
+      ],
+      "has_infobox": true,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 11
+    },
+    {
+      "page": "Courtesan",
+      "slug": "courtesan",
+      "byte_size": 37118,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Courtesans",
+        "Prostitutes",
+        "Prostitution"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 11
+    },
+    {
+      "page": "Doctrine of Exceptionalism",
+      "slug": "doctrine-of-exceptionalism",
+      "byte_size": 29453,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Faith of the Seven",
+        "House Targaryen",
+        "Seven Speakers"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 11
+    },
+    {
+      "page": "Fighting pits",
+      "slug": "fighting-pits",
+      "byte_size": 11117,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Astapor",
+        "Fighting pits",
+        "Ghiscari culture",
+        "Meereen",
+        "Terms",
+        "Yunkai"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 11
+    },
+    {
+      "page": "Runes",
+      "slug": "runes",
+      "byte_size": 32808,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "First Men culture",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 11
+    },
+    {
+      "page": "Ships",
+      "slug": "ships",
+      "byte_size": 916,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 11
+    },
+    {
+      "page": "Flowering",
+      "slug": "flowering",
+      "byte_size": 6650,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 10
+    },
+    {
+      "page": "Garin (Orphan)",
+      "slug": "garin-orphan",
+      "byte_size": 928,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 10
+    },
+    {
+      "page": "Happy Port",
+      "slug": "happy-port",
+      "byte_size": 10863,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Brothels in Braavos"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 10
+    },
+    {
+      "page": "King's Men",
+      "slug": "kings-men",
+      "byte_size": 1048,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 10
+    },
+    {
+      "page": "Nobility",
+      "slug": "nobility",
+      "byte_size": 931,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 10
+    },
+    {
+      "page": "Old Way",
+      "slug": "old-way",
+      "byte_size": 34074,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Ironborn culture",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 10
+    },
+    {
+      "page": "The Twins",
+      "slug": "the-twins",
+      "byte_size": 901,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 10
+    },
+    {
+      "page": "Turncloak",
+      "slug": "turncloak",
+      "byte_size": 26869,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Articles that are Stubs",
+        "Terms",
+        "Turncloaks"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 10
+    }
+  ],
+  "bucket_c_top_100": [
+    {
+      "page": "Years after Aegon's Conquest/Calculations Ages",
+      "slug": "years-after-aegons-conquest-calculations-ages",
+      "byte_size": 840491,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Calculations",
+        "Pages using hatnote template directly"
+      ],
+      "has_infobox": true,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Years after Aegon's Conquest/Calculations Ages (Continued3)",
+      "slug": "years-after-aegons-conquest-calculations-ages-continued3",
+      "byte_size": 736967,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Calculations",
+        "Pages using hatnote template directly"
+      ],
+      "has_infobox": true,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Years after Aegon's Conquest/Calculations Ages (Continued2)",
+      "slug": "years-after-aegons-conquest-calculations-ages-continued2",
+      "byte_size": 680243,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Calculations",
+        "Pages using hatnote template directly"
+      ],
+      "has_infobox": true,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Years after Aegon's Conquest/Calculations Ages (Continued)",
+      "slug": "years-after-aegons-conquest-calculations-ages-continued",
+      "byte_size": 630906,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Calculations",
+        "Pages using hatnote template directly"
+      ],
+      "has_infobox": true,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Names of houses in other languages",
+      "slug": "names-of-houses-in-other-languages",
+      "byte_size": 379019,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Houses"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Feature quote",
+      "slug": "feature-quote",
+      "byte_size": 318604,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Portal"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Years after Aegon's Conquest/Calculations Events",
+      "slug": "years-after-aegons-conquest-calculations-events",
+      "byte_size": 218715,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Calculations"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Military strength",
+      "slug": "military-strength",
+      "byte_size": 206794,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Society"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 3
+    },
+    {
+      "page": "Themes in A Song of Ice and Fire",
+      "slug": "themes-in-a-song-of-ice-and-fire",
+      "byte_size": 170110,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Houses of Westeros",
+      "slug": "houses-of-westeros",
+      "byte_size": 152117,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Houses",
+        "Portal"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Portal:Images",
+      "slug": "portal-images",
+      "byte_size": 141586,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Images",
+        "Portal"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Age of the Hundred Kingdoms",
+      "slug": "age-of-the-hundred-kingdoms",
+      "byte_size": 76974,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "History",
+        "Terms",
+        "Westeros"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 2
+    },
+    {
+      "page": "A Game of Thrones (card game)",
+      "slug": "a-game-of-thrones-card-game",
+      "byte_size": 70324,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Products"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Silent five",
+      "slug": "silent-five",
+      "byte_size": 70307,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Collective nicknames",
+        "Greens",
+        "House Velaryon",
+        "Tongueless characters"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 6
+    },
+    {
+      "page": "Regions of Westeros",
+      "slug": "regions-of-westeros",
+      "byte_size": 67944,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Westeros"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "A Song of Ice and Fire Calendar",
+      "slug": "a-song-of-ice-and-fire-calendar",
+      "byte_size": 60513,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Products"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Derived works",
+      "slug": "derived-works",
+      "byte_size": 59727,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Products"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Measurement",
+      "slug": "measurement",
+      "byte_size": 59601,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Science and technology",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Wedding of Aegon III Targaryen and Jaehaera Targaryen",
+      "slug": "wedding-of-aegon-iii-targaryen-and-jaehaera-targaryen",
+      "byte_size": 57954,
+      "entity_type_guess": "event.war",
+      "categories": [
+        "Articles with conjectural titles",
+        "Coronations",
+        "Dance of the Dragons",
+        "House Targaryen",
+        "King's Landing",
+        "Weddings"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 6
+    },
+    {
+      "page": "List of known betrothals",
+      "slug": "list-of-known-betrothals",
+      "byte_size": 57505,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "List of personal arms",
+      "slug": "list-of-personal-arms",
+      "byte_size": 51701,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Heraldry"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Fire wight",
+      "slug": "fire-wight",
+      "byte_size": 51040,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Articles with conjectural titles",
+        "R'hllor",
+        "Undead"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Feudalism",
+      "slug": "feudalism",
+      "byte_size": 47168,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Society",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 5
+    },
+    {
+      "page": "Wagon",
+      "slug": "wagon",
+      "byte_size": 41956,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Transport"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 8
+    },
+    {
+      "page": "Warrior women",
+      "slug": "warrior-women",
+      "byte_size": 40956,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Terms",
+        "Warrior Women"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "A Knight of the Seven Kingdoms - Season 1",
+      "slug": "a-knight-of-the-seven-kingdoms-season-1",
+      "byte_size": 40827,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "A Knight of the Seven Kingdoms (TV series)",
+        "Articles that are Stubs"
+      ],
+      "has_infobox": true,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "The Sworn Sword-Summary",
+      "slug": "the-sworn-sword-summary",
+      "byte_size": 40743,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Dunk and Egg chapters"
+      ],
+      "has_infobox": true,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Harbor of King's Landing",
+      "slug": "harbor-of-kings-landing",
+      "byte_size": 39296,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Harbors",
+        "King's Landing"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 2
+    },
+    {
+      "page": "Robb Stark's battle guard",
+      "slug": "robb-starks-battle-guard",
+      "byte_size": 37853,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Guards",
+        "House Stark",
+        "Members of Robb Stark's guard"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 6
+    },
+    {
+      "page": "Wench",
+      "slug": "wench",
+      "byte_size": 36349,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Terms",
+        "Wenches"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 2
+    },
+    {
+      "page": "Dragonseed",
+      "slug": "dragonseed",
+      "byte_size": 35643,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Dragonseeds",
+        "House Targaryen",
+        "House Velaryon",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 8
+    },
+    {
+      "page": "Little birds",
+      "slug": "little-birds",
+      "byte_size": 34811,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Pages using hatnote template directly",
+        "Spies",
+        "Terms",
+        "Tongueless characters"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 8
+    },
+    {
+      "page": "Translations",
+      "slug": "translations",
+      "byte_size": 34765,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Game of Thrones (2012 video game)",
+      "slug": "game-of-thrones-2012-video-game",
+      "byte_size": 34426,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Articles with unsourced statements",
+        "Pages using hatnote template directly",
+        "Products"
+      ],
+      "has_infobox": true,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Fungi",
+      "slug": "fungi",
+      "byte_size": 33474,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Creatures"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Kingslaying",
+      "slug": "kingslaying",
+      "byte_size": 33023,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Illyrio's plans",
+      "slug": "illyrios-plans",
+      "byte_size": 32839,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Illyrio Mopatis",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Portal:Characters",
+      "slug": "portal-characters",
+      "byte_size": 31670,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Portal"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Trumpet",
+      "slug": "trumpet",
+      "byte_size": 30880,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Musical instruments"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 4
+    },
+    {
+      "page": "Arbor gold",
+      "slug": "arbor-gold",
+      "byte_size": 30581,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Arbor",
+        "Wines"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Reed pipes",
+      "slug": "reed-pipes",
+      "byte_size": 30574,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Musical instruments"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Volantene fleet",
+      "slug": "volantene-fleet",
+      "byte_size": 30508,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Fleets",
+        "Volantis"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 2
+    },
+    {
+      "page": "Sun",
+      "slug": "sun",
+      "byte_size": 30499,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Astronomy"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 2
+    },
+    {
+      "page": "Military strength in prior historical eras",
+      "slug": "military-strength-in-prior-historical-eras",
+      "byte_size": 30074,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Articles with unsourced statements",
+        "Society"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Manse",
+      "slug": "manse",
+      "byte_size": 29818,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Manses"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 8
+    },
+    {
+      "page": "Iron price",
+      "slug": "iron-price",
+      "byte_size": 29772,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Ironborn culture",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 8
+    },
+    {
+      "page": "A Game of Thrones (board game)",
+      "slug": "a-game-of-thrones-board-game",
+      "byte_size": 29707,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Products"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "League",
+      "slug": "league",
+      "byte_size": 29613,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Wheelhouse",
+      "slug": "wheelhouse",
+      "byte_size": 29581,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Transport"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 5
+    },
+    {
+      "page": "Whipping",
+      "slug": "whipping",
+      "byte_size": 29375,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Torture"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 6
+    },
+    {
+      "page": "King's justice (concept)",
+      "slug": "kings-justice-concept",
+      "byte_size": 28597,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Laws",
+        "Terms",
+        "Westeros"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 2
+    },
+    {
+      "page": "List of actors of A Knight of the Seven Kingdoms",
+      "slug": "list-of-actors-of-a-knight-of-the-seven-kingdoms",
+      "byte_size": 28452,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "A Knight of the Seven Kingdoms (TV series)"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Coronation of Rhaenyra Targaryen",
+      "slug": "coronation-of-rhaenyra-targaryen",
+      "byte_size": 28103,
+      "entity_type_guess": "event.war",
+      "categories": [
+        "Coronations",
+        "Dance of the Dragons",
+        "Dragonstone",
+        "House Targaryen"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 3
+    },
+    {
+      "page": "Black Pearl",
+      "slug": "black-pearl",
+      "byte_size": 26803,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Black Pearls of Braavos",
+        "Braavos",
+        "Courtesans"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 2
+    },
+    {
+      "page": "Lickspittle",
+      "slug": "lickspittle",
+      "byte_size": 26584,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Lickspittles",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Strongwine",
+      "slug": "strongwine",
+      "byte_size": 26472,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Wines"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 5
+    },
+    {
+      "page": "Hair shirt",
+      "slug": "hair-shirt",
+      "byte_size": 26429,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Clothing"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 5
+    },
+    {
+      "page": "A Game of Thrones: Genesis",
+      "slug": "a-game-of-thrones-genesis",
+      "byte_size": 26111,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Pages using hatnote template directly",
+        "Products"
+      ],
+      "has_infobox": true,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Sowing",
+      "slug": "sowing",
+      "byte_size": 26000,
+      "entity_type_guess": "event.war",
+      "categories": [
+        "Articles that are Stubs",
+        "Dance of the Dragons",
+        "Events"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 4
+    },
+    {
+      "page": "Drum",
+      "slug": "drum",
+      "byte_size": 25915,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Musical instruments"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 4
+    },
+    {
+      "page": "The Hedge Knight-Summary",
+      "slug": "the-hedge-knight-summary",
+      "byte_size": 25643,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Dunk and Egg chapters"
+      ],
+      "has_infobox": true,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "A Song of Ice and Fire Roleplaying",
+      "slug": "a-song-of-ice-and-fire-roleplaying",
+      "byte_size": 25531,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Products"
+      ],
+      "has_infobox": true,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Attainder",
+      "slug": "attainder",
+      "byte_size": 25440,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Laws",
+        "Terms",
+        "Westeros"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 1
+    },
+    {
+      "page": "Dragon lair",
+      "slug": "dragon-lair",
+      "byte_size": 25404,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Dragons"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Cart",
+      "slug": "cart",
+      "byte_size": 25054,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Transport"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 3
+    },
+    {
+      "page": "Coronation of Aegon II Targaryen",
+      "slug": "coronation-of-aegon-ii-targaryen",
+      "byte_size": 24977,
+      "entity_type_guess": "event.war",
+      "categories": [
+        "Coronations",
+        "Dance of the Dragons",
+        "House Targaryen",
+        "King's Landing"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 2
+    },
+    {
+      "page": "Portal:Geography",
+      "slug": "portal-geography",
+      "byte_size": 24838,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Portal"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Commander (Night's Watch)",
+      "slug": "commander-nights-watch",
+      "byte_size": 24777,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Commanders of the Night's Watch",
+        "Night's Watch"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 4
+    },
+    {
+      "page": "Lute",
+      "slug": "lute",
+      "byte_size": 24449,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Musical instruments"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 6
+    },
+    {
+      "page": "Apex of the Great Pyramid",
+      "slug": "apex-of-the-great-pyramid",
+      "byte_size": 24264,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Great Pyramid (Meereen)"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Dornish red",
+      "slug": "dornish-red",
+      "byte_size": 24210,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Dorne",
+        "Wines"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 2
+    },
+    {
+      "page": "Ruling council of Meereen",
+      "slug": "ruling-council-of-meereen",
+      "byte_size": 23310,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Ruling council of Meereen"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 5
+    },
+    {
+      "page": "Godswood of Harrenhal",
+      "slug": "godswood-of-harrenhal",
+      "byte_size": 23301,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Godswoods",
+        "Harrenhal"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 7
+    },
+    {
+      "page": "Stone dragon",
+      "slug": "stone-dragon",
+      "byte_size": 23185,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Dragons",
+        "Prophecy",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 4
+    },
+    {
+      "page": "Vaults of Castle Black",
+      "slug": "vaults-of-castle-black",
+      "byte_size": 23093,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Castle Black",
+        "Libraries"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 4
+    },
+    {
+      "page": "Main Page",
+      "slug": "main-page",
+      "byte_size": 22351,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Main"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Nagga",
+      "slug": "nagga",
+      "byte_size": 21980,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Ironborn culture",
+        "Legendary dragons"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 4
+    },
+    {
+      "page": "Sled",
+      "slug": "sled",
+      "byte_size": 21909,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Transport"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Arbor red",
+      "slug": "arbor-red",
+      "byte_size": 21793,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Arbor",
+        "Wines"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 6
+    },
+    {
+      "page": "Shoulder-riding game",
+      "slug": "shoulder-riding-game",
+      "byte_size": 21657,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Articles with conjectural titles",
+        "Games"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 5
+    },
+    {
+      "page": "Main Page/Test 1",
+      "slug": "main-page-test-1",
+      "byte_size": 21571,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Editing Resources"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Main Page/sandbox",
+      "slug": "main-page-sandbox",
+      "byte_size": 20670,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Main"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Main Page/sandbox2",
+      "slug": "main-page-sandbox2",
+      "byte_size": 20443,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Night soil",
+      "slug": "night-soil",
+      "byte_size": 20415,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 2
+    },
+    {
+      "page": "Ghiscari legions",
+      "slug": "ghiscari-legions",
+      "byte_size": 20371,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Ghis",
+        "Ghiscari culture",
+        "New Ghis"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 3
+    },
+    {
+      "page": "The Mystery Knight-Summary",
+      "slug": "the-mystery-knight-summary",
+      "byte_size": 20199,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Dunk and Egg chapters"
+      ],
+      "has_infobox": true,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Chariot",
+      "slug": "chariot",
+      "byte_size": 19940,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Transport"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 7
+    },
+    {
+      "page": "Game of Thrones: The Mad King",
+      "slug": "game-of-thrones-the-mad-king",
+      "byte_size": 19822,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Products"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Game of Thrones: Seven Kingdoms",
+      "slug": "game-of-thrones-seven-kingdoms",
+      "byte_size": 19712,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Products"
+      ],
+      "has_infobox": true,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Seven hells",
+      "slug": "seven-hells",
+      "byte_size": 19465,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Faith of the Seven"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 7
+    },
+    {
+      "page": "Golden Empire of Yi Ti",
+      "slug": "golden-empire-of-yi-ti",
+      "byte_size": 18835,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Nations",
+        "Yi Ti"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 2
+    },
+    {
+      "page": "Lannister fleet",
+      "slug": "lannister-fleet",
+      "byte_size": 18835,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Fleets",
+        "House Lannister ships"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 7
+    },
+    {
+      "page": "Manse near the Iron Gate",
+      "slug": "manse-near-the-iron-gate",
+      "byte_size": 18325,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "King's Landing",
+        "Manses"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 3
+    },
+    {
+      "page": "Blood of Dragons",
+      "slug": "blood-of-dragons",
+      "byte_size": 18039,
+      "entity_type_guess": "unknown",
+      "categories": [],
+      "has_infobox": true,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "A Game of Thrones (game)",
+      "slug": "a-game-of-thrones-game",
+      "byte_size": 17935,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Products"
+      ],
+      "has_infobox": true,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Portal:Culture",
+      "slug": "portal-culture",
+      "byte_size": 17927,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Portal"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Water dance",
+      "slug": "water-dance",
+      "byte_size": 17925,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Braavos",
+        "Terms"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 5
+    },
+    {
+      "page": "Pit (Great Pyramid)",
+      "slug": "pit-great-pyramid",
+      "byte_size": 17820,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Great Pyramid (Meereen)",
+        "Prisons"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "A World of Ice and Fire",
+      "slug": "a-world-of-ice-and-fire",
+      "byte_size": 17792,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Products"
+      ],
+      "has_infobox": false,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    },
+    {
+      "page": "Game of Thrones: Ascent",
+      "slug": "game-of-thrones-ascent",
+      "byte_size": 17714,
+      "entity_type_guess": "unknown",
+      "categories": [
+        "Products"
+      ],
+      "has_infobox": true,
+      "pass1_mention_count": 0,
+      "wiki_in_count": 0
+    }
+  ]
+}

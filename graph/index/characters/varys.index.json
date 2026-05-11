@@ -3,7 +3,7 @@
   "name": "Varys",
   "type": "character.human",
   "node_path": "graph/nodes/characters/varys.node.md",
-  "generated_at": "2026-05-11T22:33:53.417128+00:00",
+  "generated_at": "2026-05-11T22:49:54.029396+00:00",
   "stats": {
     "appearances_total": 114,
     "chapters_pov": 0,
@@ -686,7 +686,7 @@
       {
         "chapter_id": "affc-prologue",
         "book": "affc",
-        "pov_character_slug": null,
+        "pov_character_slug": "pate-novice",
         "mention_count": 1,
         "sections": [
           "Characters Referenced"

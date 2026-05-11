@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-05-11T22:33:53.542916+00:00",
+  "generated_at": "2026-05-11T22:49:54.153707+00:00",
   "dry_run": false,
-  "character_count": 3910,
+  "character_count": 3911,
   "type_counts": {
-    "character.human": 3876,
+    "character.human": 3877,
     "character.dragon": 28,
     "character.direwolf": 6
   },
-  "pov_characters_count": 30,
+  "pov_characters_count": 31,
   "characters_with_zero_mentions": 2176,
   "year_pages_emitted_as_characters": 10,
-  "pov_inverse_slugs": 30,
+  "pov_inverse_slugs": 31,
   "mention_inverse_slugs": 9487,
   "top_by_appearances": [
     {
@@ -636,6 +636,16 @@
       "appearances_total": 12,
       "in_edge_count": 139,
       "out_edge_count": 9
+    },
+    {
+      "slug": "pate-novice",
+      "name": "Pate (novice)",
+      "type": "character.human",
+      "chapters_pov": 1,
+      "chapters_mentioned_in": 0,
+      "appearances_total": 1,
+      "in_edge_count": 26,
+      "out_edge_count": 8
     },
     {
       "slug": "kevan-lannister",

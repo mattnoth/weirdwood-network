@@ -158,6 +158,7 @@ def resolve_pov_slug_for_chapter(
     chapter_mentions: list[dict],
     character_slugs: set[str],
     alias_map: dict[str, str],
+    raw_name_to_slugs: dict[str, set[str]] | None = None,
 ) -> str | None:
     """Resolve a parsed POV canonical name to a character-graph slug.
 
@@ -192,6 +193,17 @@ def resolve_pov_slug_for_chapter(
         if len(prefix_matches) == 1:
             return prefix_matches[0]
         if len(prefix_matches) > 1:
+            # Tiebreaker 1: intersect with nodes that explicitly claim
+            # `raw_name` as their `name:` or in their `aliases:` list.
+            # Handles cases like POV "Pate" where the alias-resolver's
+            # bare-disambiguation filter rightly refuses to pin "Pate" globally
+            # but pate-novice is the unique node that explicitly claims it.
+            if raw_name_to_slugs is not None:
+                explicit = raw_name_to_slugs.get(raw_name, set())
+                claimed = [s for s in prefix_matches if s in explicit]
+                if len(claimed) == 1:
+                    return claimed[0]
+            # Tiebreaker 2: appears in this chapter's Characters Present.
             cp_slugs = {
                 m.get("slug")
                 for m in chapter_mentions
@@ -202,6 +214,7 @@ def resolve_pov_slug_for_chapter(
             cp_candidates = [s for s in prefix_matches if s in cp_slugs]
             if len(cp_candidates) == 1:
                 return cp_candidates[0]
+            # Tiebreaker 3: appears anywhere in chapter mentions.
             any_slugs = {m.get("slug") for m in chapter_mentions}
             any_candidates = [s for s in prefix_matches if s in any_slugs]
             if len(any_candidates) == 1:
@@ -216,9 +229,22 @@ def load_alias_resolver() -> dict[str, str]:
     return data.get("alias_to_canonical", {})
 
 
-def load_node_slug_index() -> set[str]:
-    """Set of all character.* slugs in the graph (for POV resolution validation)."""
-    out: set[str] = set()
+def load_node_slug_index() -> tuple[set[str], dict[str, set[str]]]:
+    """For every character.* node, return:
+      (character_slugs, raw_name_to_slugs)
+
+    `raw_name_to_slugs[name]` is the set of slugs that explicitly claim `name`
+    in either their `name:` frontmatter field or their `aliases:` list. This
+    is the tiebreaker when prefix-match has multiple candidates (e.g., POV
+    "Pate" → 12 pate-* slugs, but only pate-novice declares "Pate" as alias).
+    """
+    character_slugs: set[str] = set()
+    raw_name_to_slugs: dict[str, set[str]] = defaultdict(set)
+
+    # Match a top-level YAML list of strings on one line: aliases: ["a", "b"]
+    _INLINE_LIST_RE = re.compile(r'^\s*aliases:\s*\[(.+)\]\s*$')
+    _STRING_ITEM_RE = re.compile(r'"([^"]+)"|\'([^\']+)\'')
+
     for node_file in GRAPH_NODES_DIR.rglob("*.node.md"):
         try:
             rel = node_file.relative_to(GRAPH_NODES_DIR)
@@ -226,15 +252,27 @@ def load_node_slug_index() -> set[str]:
             continue
         if rel.parts[0] in EXCLUDED_NODE_DIRS:
             continue
-        # Cheap pre-filter: char dir or unknown? Read frontmatter type to confirm.
         text = node_file.read_text(encoding="utf-8")
         fm, _ = parse_frontmatter(text)
         node_type = fm.get("type", "")
         if not node_type.startswith("character"):
             continue
         slug = fm.get("slug") or node_file.name.removesuffix(".node.md")
-        out.add(slug)
-    return out
+        character_slugs.add(slug)
+
+        name = fm.get("name")
+        if name:
+            raw_name_to_slugs[name].add(slug)
+        # Re-parse the aliases line — parse_frontmatter doesn't handle lists.
+        for line in text.split("---", 2)[1].splitlines() if text.startswith("---") else []:
+            m = _INLINE_LIST_RE.match(line)
+            if m:
+                for sm in _STRING_ITEM_RE.finditer(m.group(1)):
+                    alias = sm.group(1) or sm.group(2)
+                    if alias:
+                        raw_name_to_slugs[alias].add(slug)
+                break
+    return character_slugs, raw_name_to_slugs
 
 
 # ---------------------------------------------------------------------------
@@ -336,6 +374,7 @@ def load_mention_inverse(
     chapter_pov_raw_names: dict[str, str],
     character_slugs: set[str],
     alias_map: dict[str, str],
+    raw_name_to_slugs: dict[str, set[str]],
     unresolved_log: list[tuple[str, str]] | None = None,
 ) -> tuple[dict, dict]:
     """Walk all mention-index JSON files and build inverse maps.
@@ -397,6 +436,7 @@ def load_mention_inverse(
                 data.get("mentions", []),
                 character_slugs,
                 alias_map,
+                raw_name_to_slugs,
             )
             if pov_slug is None and unresolved_log is not None:
                 unresolved_log.append((chapter_id, raw_pov_name))
@@ -497,9 +537,12 @@ def build_one(
 # ---------------------------------------------------------------------------
 
 def run(only_slug: str | None, dry_run: bool) -> None:
-    print("Building character-slug index for POV canonicalization...", flush=True)
-    character_slugs = load_node_slug_index()
-    print(f"  {len(character_slugs):,} character.* slugs in graph.")
+    print("Building character-slug index + raw-name reverse map...", flush=True)
+    character_slugs, raw_name_to_slugs = load_node_slug_index()
+    print(
+        f"  {len(character_slugs):,} character.* slugs in graph; "
+        f"{len(raw_name_to_slugs):,} unique raw names/aliases mapped."
+    )
 
     print("Loading alias-resolver...", flush=True)
     alias_map = load_alias_resolver()
@@ -512,7 +555,8 @@ def run(only_slug: str | None, dry_run: bool) -> None:
     print("Loading per-chapter mention index + resolving POVs to graph slugs...", flush=True)
     unresolved_pov_log: list[tuple[str, str]] = []
     pov_inverse, mention_inverse = load_mention_inverse(
-        chapter_pov_raw_names, character_slugs, alias_map, unresolved_pov_log,
+        chapter_pov_raw_names, character_slugs, alias_map,
+        raw_name_to_slugs, unresolved_pov_log,
     )
     if unresolved_pov_log:
         print(f"  WARN: {len(unresolved_pov_log)} chapters have a pov_character that didn't resolve to a graph slug:")

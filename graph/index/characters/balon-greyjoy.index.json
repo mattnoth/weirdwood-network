@@ -3,7 +3,7 @@
   "name": "Balon Greyjoy",
   "type": "character.human",
   "node_path": "graph/nodes/characters/balon-greyjoy.node.md",
-  "generated_at": "2026-05-11T22:33:53.456286+00:00",
+  "generated_at": "2026-05-11T22:49:54.066269+00:00",
   "stats": {
     "appearances_total": 53,
     "chapters_pov": 0,
@@ -323,7 +323,7 @@
       {
         "chapter_id": "affc-prologue",
         "book": "affc",
-        "pov_character_slug": null,
+        "pov_character_slug": "pate-novice",
         "mention_count": 2,
         "sections": [
           "Characters Referenced",

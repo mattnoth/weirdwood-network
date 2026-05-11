@@ -1,15 +1,15 @@
 {
   "version": "v1",
-  "computed_at": "2026-05-11T21:56:21Z",
+  "computed_at": "2026-05-11T22:47:27Z",
   "stats": {
-    "nodes_scanned": 7582,
-    "total_aliases": 1581,
-    "alias_to_canonical_count": 1314,
+    "nodes_scanned": 7583,
+    "total_aliases": 1583,
+    "alias_to_canonical_count": 1315,
     "alias_collisions": 23,
     "alias_is_self": 152,
     "alias_already_canonical": 50,
     "filtered_title_words": 0,
-    "filtered_bare_disambiguation": 13
+    "filtered_bare_disambiguation": 14
   },
   "alias_to_canonical": {
     "a-poisoner": "wineseller",
@@ -680,6 +680,7 @@
     "parmen-the-purple": "parmen-crane",
     "patches": "patchface",
     "pate-of-sevenstreams": "pate-of-the-blue-fork",
+    "pate-the-novice": "pate-novice",
     "peck": "josmyn-peckledon",
     "peddlers-daughter": "lady-corbray",
     "pennylover": "alesander-staedmon",
