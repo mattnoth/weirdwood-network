@@ -22,3 +22,9 @@ Walton Towers is a character.human from the AWOIAF wiki.
 - SWORN_TO: House Towers (track_b: Allegiance)
 - CULTURE_OF: Rivermen (track_b: Culture)
 - PARENT_OF: Jordan Towers (track_b: Issue)
+
+## Origins
+
+After King [Maegor I Targaryen](wiki:Maegor_I_Targaryen) wiped out [House Harroway](wiki:House_Harroway) in [44 AC](wiki:44_AC), he grew weary of the ambitious king's men entreating him for the lordship of [Harrenhal](wiki:Harrenhal). Instead, Maegor decreed that the strongest of his [household knights](wiki:Household_knight) would have Harrenhal. Ser Walton was one of twenty-three knights of the king's household who fought in the blood-soaked streets of [Lord Harroway's Town](wiki:Lord_Harroway's_Town) for the prize. Though gravely wounded in the melee, Walton emerged victorious and was named [Lord of Harrenhal](wiki:Lord_of_Harrenhal), though its domains were much diminished as the Harroway holdings held separately from Harrenhal were granted to Lord [Alton Butterwell](wiki:Alton_Butterwell) and Lord [Darnold Darry](wiki:Darnold_Darry). Walton did not live long enough to enjoy his lordship, as he died within a fortnight from the wounds he had taken in gaining his prize, and Harrenhal subsequently passed to Walton's eldest son, [Jordan Towers](wiki:Jordan_Towers).(wiki:Walton_Towers.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)(wiki:Walton_Towers.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+
+House Towers was the fourth house to rule Harrenhal, but Walton's line faltered after only two generations and died with [his grandson](wiki:Maegor_Towers) in [61 AC](wiki:61_AC).(wiki:Walton_Towers.cite_ref-Rtwoiafthe_riverlands:_house_tully.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)

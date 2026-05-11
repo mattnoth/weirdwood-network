@@ -24,3 +24,7 @@ Symon Hollard is a character.human from the AWOIAF wiki.
 - SWORN_TO: House Darklyn (track_b: Allegiances)
 - CULTURE_OF: Crownlands (track_b: Culture)
 - DIED_AT: Duskendale (track_b: Died) [277 AC]
+
+## Origins
+
+When Lord [Denys Darklyn](wiki:Denys_Darklyn) defied King [Aerys II Targaryen](wiki:Aerys_II_Targaryen) and captured him, imprisoning him within the Dun Fort, Ser Symon slew Ser [Gwayne Gaunt](wiki:Gwayne_Gaunt) of the [Kingsguard](wiki:Kingsguard) during the taking of the King. When Ser [Barristan Selmy](wiki:Barristan_Selmy), another knight of the Kingsguard, entered the [Dun Fort](wiki:Dun_Fort) and escaped with the King, he avenged his sworn brother by killing Ser Symon.(wiki:Symon_Hollard.cite_ref-Raffc9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)(wiki:Symon_Hollard.cite_ref-Rtwoiafthe_targaryen_kings:_aerys_ii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

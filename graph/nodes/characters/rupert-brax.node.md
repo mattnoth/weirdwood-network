@@ -21,3 +21,9 @@ Rupert Brax is a character.human from the AWOIAF wiki.
 - SWORN_TO: House Brax (track_b: Allegiance)
 - CULTURE_OF: Westermen (track_b: Culture)
 - DIED_AT: Oxcross (track_b: Died) [299 AC]
+
+## Narrative Arc
+
+### A Clash of Kings
+
+Ser Rupert is killed at the [Battle of Oxcross](wiki:Battle_of_Oxcross).(wiki:Rupert_Brax.cite_ref-Racok32.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)(wiki:Rupert_Brax.cite_ref-Rasosappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)

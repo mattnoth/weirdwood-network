@@ -22,3 +22,9 @@ Lord Chyttering (father of Lucos) is a character.human from the AWOIAF wiki.
 - CULTURE_OF: Crownlands (track_b: Culture)
 - DIED_AT: Blackwater Rush (track_b: Died) [299 AC]
 - PARENT_OF: Lucos Chyttering (track_b: Issue)
+
+## Narrative Arc
+
+### A Storm of Swords
+
+Lord Chyttering burns during the [Battle of the Blackwater](wiki:Battle_of_the_Blackwater).(wiki:Lord_Chyttering_(father_of_Lucos).cite_ref-Rasos10.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)

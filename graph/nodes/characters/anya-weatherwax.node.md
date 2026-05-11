@@ -19,3 +19,7 @@ Anya Weatherwax is a character.human from the AWOIAF wiki.
 
 - SWORN_TO: House Weatherwax (track_b: Allegiance)
 - CULTURE_OF: Westerosi (track_b: Culture)
+
+## Origins
+
+In [133 AC](wiki:133_AC), the [Maiden's Day Ball](wiki:Maiden's_Day_Ball) was held at the [Red Keep](wiki:Red_Keep) to find a second wife and new queen for King [Aegon III Targaryen](wiki:Aegon_III_Targaryen). Many [maidens](wiki:Maiden) across [Westeros](wiki:Westeros) came to [King's Landing](wiki:King's_Landing) in hopes of marrying the young king. However, the event was not a true ball, but merely a procession of maidens, each woman curtsying before the king while a [herald](wiki:Herald) announced her name and lineage. Anya, only seven years old, was one of these maidens. She informed King Aegon that her [horse](wiki:Horse) was named Twinklehoof, and that she loved him very much. When Anya asked the king if he had a good horse, Lord [Unwin Peake](wiki:Unwin_Peake) grew impatient with her, and told her that "His Grace has a hundred horses".(wiki:Anya_Weatherwax.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)

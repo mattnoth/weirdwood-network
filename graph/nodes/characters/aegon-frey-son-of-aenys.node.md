@@ -21,3 +21,7 @@ Aegon Frey (son of Aenys) is a character.human from the AWOIAF wiki.
 - CULTURE_OF: Rivermen (track_b: Culture)
 - PARENT_OF (reverse): Aenys Frey (track_b: Father)
 - PARENT_OF (reverse): Tyana Wylde (track_b: Mother)
+
+## Appearances & Description
+
+Aegon is an [outlaw](wiki:Outlaw).(wiki:Aegon_Frey_(son_of_Aenys).cite_ref-Racokappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)

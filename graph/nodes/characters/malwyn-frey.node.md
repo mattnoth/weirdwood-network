@@ -21,3 +21,7 @@ Malwyn Frey is a character.human from the AWOIAF wiki.
 - CULTURE_OF: Rivermen (track_b: Culture)
 - PARENT_OF (reverse): Raymund Frey (track_b: Father)
 - PARENT_OF (reverse): Beony Beesbury (track_b: Mother)
+
+## Appearances & Description
+
+Malwyn is an apprentice to an [alchemist](wiki:Alchemists_of_Lys) in [Lys](wiki:Lys).(wiki:Malwyn_Frey.cite_ref-Racokappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)

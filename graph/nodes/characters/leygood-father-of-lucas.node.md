@@ -25,3 +25,11 @@ Leygood (father of Lucas) is a character.human from the AWOIAF wiki.
 - CULTURE_OF: Reach (track_b: Culture)
 - DIED_AT: Tumbleton (track_b: Died) [130 AC]
 - PARENT_OF: Lucas Leygood (track_b: Issue)
+
+## Origins
+
+At the start of the [Dance of the Dragons](wiki:Dance_of_the_Dragons), Leygood declared for King [Aegon II Targaryen](wiki:Aegon_II_Targaryen) and the [greens](wiki:Greens). Like the rest of the [lords](wiki:Lord) of the [Reach](wiki:Reach) who supported the greens, he joined the host of Lord [Ormund Hightower](wiki:Ormund_Hightower) on his march to [King's Landing](wiki:King's_Landing).(wiki:Leygood_(father_of_Lucas).cite_ref-Rfabthe_dying_of_the_dragons_-_the_red_dragon_and_the_gold.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+
+After the [First Battle of Tumbleton](wiki:First_Battle_of_Tumbleton) and the death of Lord Ormund, the army was paralyzed in the [city](wiki:Tumbleton) without a clear commander and without knowing with certainty the intentions of the [Two Betrayers](wiki:Two_Betrayers), [Hugh Hammer](wiki:Hugh_Hammer) and [Ulf White](wiki:Ulf_White). One night, Leygood and twelve other lords and [landed knights](wiki:Landed_knight) of the Reach assembled at an inn, the [Bloody Caltrops](wiki:Bloody_Caltrops), to conspire against Hugh and Ulf. The [Second Battle of Tumbleton](wiki:Second_Battle_of_Tumbleton) broke out before the [Caltrops](wiki:Caltrops) could carry out their plans, however.(wiki:Leygood_(father_of_Lucas).cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_overthrown.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) Leygood and most of his companions died during the battle.(wiki:Leygood_(father_of_Lucas).cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)
+
+Years later, during the [regency](wiki:Regency_of_Aegon_III) of King [Aegon III Targaryen](wiki:Aegon_III_Targaryen), Lord [Unwin Peake](wiki:Unwin_Peake), a fellow Caltrops, assumed the position of [Hand of the King](wiki:Hand_of_the_King) and appointed Leygood's son, Ser [Lucas](wiki:Lucas_Leygood), as the new [Commander of the City Watch](wiki:Commander_of_the_City_Watch) of King's Landing.(wiki:Leygood_(father_of_Lucas).cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)

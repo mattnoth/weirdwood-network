@@ -23,3 +23,17 @@ Lucinda Tully is a character.human from the AWOIAF wiki.
 - CULTURE_OF: Westermen (track_b: Culture)
 - DIED_AT: Riverrun (track_b: Died) [59 AC]
 - SPOUSE_OF: Prentys Tully (track_b: Spouse)
+
+## Origins
+
+Lucinda's husband, Lord [Prentys Tully](wiki:Prentys_Tully) of [Riverrun](wiki:Riverrun), was one of the first great lords to abandon King [Maegor I Targaryen](wiki:Maegor_I_Targaryen).(wiki:Lucinda_Tully.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) Although the [Faith Militant](wiki:Faith_Militant) had been outlawed by the [Iron Throne](wiki:Iron_Throne), Ser [Joffrey Doggett](wiki:Joffrey_Doggett) roamed the [riverlands](wiki:Riverlands) and the [westerlands](wiki:Westerlands) with the support of the pious Lucinda. After the death of Maegor the Cruel, King [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen) refused the request of Lucinda and Joffrey to reinstate the Faith Militant.(wiki:Lucinda_Tully.cite_ref-Rfabprince_into_king_-_the_ascension_of_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)
+
+When Prentys was called to serve as the [master of laws](wiki:Master_of_laws) and [lord justiciar](wiki:Lord_justiciar) for Jaehaerys in [49 AC](wiki:49_AC), Lucinda accompanied her husband to [King's Landing](wiki:King's_Landing).(wiki:Lucinda_Tully.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) Lord Tully suggested that the king wed his wife's younger sister, [Ella Broome](wiki:Ella_Broome), but Jaehaerys instead married his own sister, [Alysanne Targaryen](wiki:Alysanne_Targaryen).(wiki:Lucinda_Tully.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3) Dowager Queen [Alyssa Velaryon](wiki:Alyssa_Velaryon) sent Lucinda to take charge of Alysanne's household at [Dragonstone](wiki:Dragonstone). [Rogar Baratheon](wiki:Rogar_Baratheon), [Lord of Storm's End](wiki:Lord_of_Storm's_End), wanted Lucinda, one of the so-called [Wise Women](wiki:Wise_Women), to report to him about the royal couple's behavior.(wiki:Lucinda_Tully.cite_ref-Rfaba_surfeit_of_rulers.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0)
+
+When Jaehaerys reached his majority in [50 AC](wiki:50_AC), he dismissed Prentys from the [small council](wiki:Small_council), so Lucinda and Prentys returned to Riverrun.(wiki:Lucinda_Tully.cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0) After the resignation of Lord [Daemon Velaryon](wiki:Daemon_Velaryon_(son_of_Aethan)) as [Hand of the King](wiki:Hand_of_the_King) in [54 AC](wiki:54_AC), Lucinda and Prentys supported his replacement by [Myles Smallwood](wiki:Myles_Smallwood), Lord of [Acorn Hall](wiki:Acorn_Hall).(wiki:Lucinda_Tully.cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
+
+Lucinda and her husband died from the [Shivers](wiki:Shivers) a day apart from each other at Riverrun in [59 AC](wiki:59_AC).(wiki:Lucinda_Tully.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne_-_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
+
+## Appearances & Description
+
+The redoubtable Lucinda was famous for her piety to the [Faith of the Seven](wiki:Faith_of_the_Seven).(wiki:Lucinda_Tully.cite_ref-Rfabthe_year_of_the_three_brides_-_49_ac.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0)

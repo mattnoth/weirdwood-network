@@ -178,6 +178,26 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 42 — Wiki prose extraction backfill (Track 1) (2026-05-12)
+**Detail:** `history/session-details/session-042.md`
+
+**Changes made:**
+- `scripts/audit-prose-coverage.py` — NEW. Read-only audit. For each graph node (excluding `_conflicts/_unclassified/`), emits one JSON row to `working/audits/wiki-prose-coverage-2026-05-12/execution/coverage.jsonl` with: slug, type, pass_origin, is_stub (body matches stub-only regex AND lacks `## Origins`/`## Narrative Arc`/`## Appearances`/`## Culture`/`## Organization`/`## Quotes`/`## Aftermath` section headers), has_prose_file, prose_byte_size, prose_bucket, has_wiki_cache, wiki_cache_redirect_only (small redirect-only HTML payload — the Session 41 case-collision losers). Plus `summary.md` with counts by pass_origin and promotion outlook. Stub regex: `is an? <type>(\.<sub>)? from the AWOIAF wiki\.`.
+- `scripts/wiki-pass2-attach-prose.py` — NEW. Reads `coverage.jsonl`, filters to `pass_origin: pass2-wiki-deterministic` + `is_stub: true` + `has_prose_file: true`, then for each candidate appends `\n + prose_bytes` to the existing graph node body (preserving frontmatter + late-stage parser-fix Identity/Edges from Stage 3c re-emissions). Idempotent: re-running skips nodes whose current body already contains any prose section header. Atomic-rename writes. CLI: `--apply`, `--limit N`, `--slug X`, `-v`. Writes `working/audits/wiki-prose-coverage-2026-05-12/execution/attach-prose-summary.json` on full-run --apply.
+- **990 graph nodes attached** with prose: 947 `characters/`, 10 `titles/`, 9 `locations/`, 7 `events/`, 7 `species/`, 3 `customs/`, 3 `languages/`, 2 `factions/`, 1 `artifacts/`, 1 `medical/`. (Filtered out: 874 Stage 1 agent-rich `pass_origin: pass2-wiki` nodes — never touched per continue-prompt hard skip rule.)
+- Smoke test: `walgrave` 519 bytes → 4,688 bytes with full Origins / Appearances & Description / Narrative Arc (with `### A Feast for Crows` sub) / Quotes sections, all cite_refs preserved as `(wiki:Walgrave.cite_ref-X)`. 5 randomly-sampled character nodes (`myles-mooton`, `urswyck`, `torgold-tollett`, `robert-ashford`, `archons-green-haired-daughter`) all show clean section structure with book-boundary `### A Clash of Kings` / `### A Storm of Swords` / etc. subheadings + per-character `### Quotes by X` / `### Quotes about X` blocks.
+- `working/todos.md` — marked the HIGH "Wiki prose extraction never completed for 5,975 graph nodes" todo DONE with the actual delta + the over-count explanation.
+
+**Diagnosis (15-min investigation step from continue prompt):** Continue-prompt premise was "5,975 stub-only nodes" but that was based on a loose stub detector. Tightened detector (requires absence of any prose section header, not just the H2 `## Origins`) yielded actual stub-only count of **2,030** nodes (all `pass_origin: pass2-wiki-deterministic`; Stage 1 agent-rich nodes were never stub-only). Of those 2,030: **1,011 had non-empty prose files** already extracted in `working/wiki/pass2-buckets/*/prose/<slug>.prose.md` but never concatenated into the graph node. Root cause traced to the date-bleed fixer (Session 27) re-emitting skeletons for date-bleed-affected nodes but the prose-concat step apparently not landing on disk for ~1,000 nodes — could not reproduce the exact failure mode this session, but the fix is mechanical (attach prose to current body) and the outcome is the same as a clean re-promote. The remaining 1,019 stub-only nodes are genuinely empty-prose wiki pages (short titles like `Paymaster`, disambiguation pages like `Leo Tyrell`, brief location entries like `Misty Moor`) OR case-collision redirect-only caches (206 of them, separate todo). Audit's leftover 67 "false-positive" candidates were `## Culture`/`## Quotes` nodes the audit regex didn't recognize as prose-present — non-blocking; audit regex updated post-fact to recognize the full set of prose-section headers.
+
+**Decisions:** **In-place overwrite** strategy per continue-prompt lean #1 (faster, deterministic, git rollback via `git checkout --`). **Append-to-current-body** rather than rebuild-from-bucket-skeleton, because the current graph node carries late-stage parser-fix Edges (e.g., walgrave's `BORN_AT: After 198 AC (track_b: Born) [198 AC]` — the bucket skeleton still has the pre-fix `BORN_AT: 198 AC` form). Stage 1 agent-rich nodes (`pass_origin: pass2-wiki`) hard-skipped per continue prompt. The 1,019 remaining stub+no-prose nodes are LEFT AS STUBS — they're empty-prose-wiki-page cases, not gaps. **Dependent index rebuilds (mention-index + character-index) yielded only timestamp churn** — no content changes — because prose attachment didn't touch ## Edges blocks, didn't introduce new frontmatter aliases, didn't change Pass 1 extractions. Reverted the timestamp-only diff to keep this session's commit focused.
+
+**What's next:**
+- **Stage 4 prose-edge-classifier becomes substantially more accurate** — 990 more nodes now carry real prose for cross-reference extraction. Continue prompt unchanged: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`.
+- **Tracks 2 & 3 (next.md) — continue prompts written this session**: Track 2 = 138 Bucket A missing-node backfill; Track 3 = per-LOCATION + per-ARTIFACT index roll-ups. Both independent of each other and of any future Track-1 follow-up.
+- **Quotes-as-evidence (Matt's mid-session observation)** added to ideas — `## Quotes` sections on attached nodes carry chapter cite_refs and could surface as evidence in any future query UI.
+- **Per Matt's standing rule, /endsession is NOT auto-run.**
+
 ### Session 41 — Per-character index roll-up + POV canonicalization + missing-nodes audit (2026-05-11)
 **Detail:** `history/session-details/session-041.md`
 
@@ -276,27 +296,7 @@ This is your project memory. When you come back after a break, read Current Stat
 - **Stage 4 prose-edge-classifier** queued continue prompt (`2026-05-02-stage4-v1-prose-edge-classifier.md`) is the other live track.
 - **Per Matt's standing rule, no `/endsession` auto-run.**
 
-### Session 37 — Cleanup scrubs + model-fit audit (2026-05-06)
-
-**Changes made:**
-- **Scrub A (D&D framing retired):** moved `working/chat-ui-architecture.md` and `working/diagrams.md` → `history/archive/sketches/` with stale-sketch preambles. Deleted 2 chat-UI/D&D-framed bullets in `working/todos.md` (Q5(a) two-repo split + Q6 unrelated chat-UI-scope bullet). Q6 spoiler-gate bullet kept (defer; rides on existing first_available deferral).
-- **Scrub B (copyright rule deleted entirely):** removed the textual rule from CLAUDE.md, README.md (line 220 surgical), worklog.md Current State, .claude/commands/endsession.md (step 7 deleted, renumbered), dialogue-meals continue prompt, runbooks/book-integration-done.md, scratch-design-review-stage3b.md, memory MEMORY.md + memory feedback_never_commit_books.md (deleted), memory project_real_goal_graph_for_agents.md (two-repo line deleted per Q5=a). `STATUS.md` retired entirely (Q3=b). Mechanical protection (.gitignore + .claude/settings.json permission denials) is now the only line of defense.
-- **Citation-validator full-corpus re-run** at `working/audits/citation-corpus-rerun-2026-05-06/execution/citation-issues.md`: PENDING-PASS-1 bucket from 2026-04-30 audit fully closed, zero broken chapter-file references, zero new HIGH findings. Several Stage-1 cite-format issues from prior audit have been re-emitted away in interim node-rebuild work.
-- **Model-fit audit** at `working/audits/agent-model-fit-2026-05-06/execution/agent-model-fit-report.md`: 27 agents audited. 6 Opus → Sonnet (mechanical-extractor, wiki-ingester, citation-validator, orphan-edge-finder, prose-edge-classifier [smoke-test gated], schema-drift-auditor). 2 → Haiku (status-reporter, duplicate-detector). 2 keep Opus (cross-identity-detector + reviewer — high-stakes, low-volume SAME_AS decisions). 13 STUBs deferred. Fleet-plan near-term spend (Stages 1-3) drops from $100-200 to $25-65 if classifier smoke passes — 60-75% reduction.
-- **D&E Pass 1 reframed in Current State:** "deferred (enrichment pass for main-arc nodes)" per Q11=(b). Not dropped, not urgent, not on active critical path.
-- **Audit folder layout adopted (Q10):** new audits land at `working/audits/<slug>-YYYY-MM-DD/{prompt-planning,prompt,execution,validation}/`. Existing flat-path audits not migrated; new layout for new audits only.
-
-**Decisions:** **Two cleanup scrubs landed.** D&D-group / shared-password / friend-group-only chat-UI framing retired across docs, todos, and one memory file; the *concept* of a chat UI is preserved as "ask-questions interface on top of the graph" (per the handoff's reframe), but as a NEW future todo, not a salvage of the retired bullets. **Copyright textual rule deleted entirely** — Matt's call: gitignore + permission denials suffice, the textual reminder created drift not safety. **Per-audit folder layout adopted (Q10)** to make audit + validation pairs first-class. **Model-fit recommendations queued for Matt's review** before any agent prompt frontmatter changes; smoke-test gates explicit. **Hooks follow-up captured** — two PreToolUse hooks (block edits to historical archives + block edits under sources/) added to todos.md as separate items, not freelanced this session.
-
-**Unexpected surface:** `validate-2026-05-06-handoff-cleanup-and-direction.md` at repo root (untracked) — sibling validation prompt for this scrub work. Contains 11 "copyright" + ~7 "chat-ui/D&D" anchor strings as part of describing what to check. Not in scope per § 3 of the handoff. Flagged for Matt to triage at /endsession (move to `working/audits/<slug>/validation/` per Q10, archive next to the handoff, or run it).
-
-**What's next:**
-- **Strategic question deferred (Q12=b):** Stage-4-vs-mention-index choice — re-read both queued continue prompts under graph-for-agents lens — left for a separate fresh session.
-- **Two new READY-TO-DO follow-ups in `working/todos.md`:** (a) review fleet plan against model-fit recommendations, (b) two PreToolUse hooks (block edits to historical archives, block writes under sources/).
-- **Continue prompts active (3):** `2026-05-02-stage4-v1-prose-edge-classifier.md`, `2026-05-05-dialogue-meals-mention-index-design.md`, plus this handoff (will be archived at /endsession).
-- **Per Matt's standing rule, /endsession is NOT auto-run** — handoff prompt awaits Matt's invocation.
-
-> Sessions 34, 35, 36 archived to `history/worklog-archives/archive008.md` (archive008.md has 3 entries; will fill over future cycles)
+> Sessions 34, 35, 36, 37 archived to `history/worklog-archives/archive008.md` (archive008.md has 4 entries; one slot remaining)
 > Sessions 30–33 in `history/worklog-archives/archive007.md` (full at 5 entries)
 > Sessions 25–29 archived to `history/worklog-archives/archive006.md`
 > Sessions 22–24 archived to `history/worklog-archives/archive005.md`

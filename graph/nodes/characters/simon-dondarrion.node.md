@@ -22,3 +22,13 @@ Simon Dondarrion is a character.human from the AWOIAF wiki.
 - SWORN_TO: House Dondarrion (track_b: Allegiance)
 - CULTURE_OF: Marcher (track_b: Culture)
 - PARENT_OF (reverse): Dondarrion (track_b: Father)
+
+## Origins
+
+When his father [Lord Dondarrion](wiki:Lord_Dondarrion_(father_of_Simon)) hosted King [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen) and Queen [Alysanne Targaryen](wiki:Alysanne_Targaryen) at [Blackhaven](wiki:Blackhaven) in [54 AC](wiki:54_AC), Simon charmed the royal couple with sad songs of star-crossed lovers and fallen kings. The queen was so taken with Simon that the royal party lingered at Blackhaven longer than they intended.(wiki:Simon_Dondarrion.cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1) Simon was the victor at the [tourney](wiki:Tourney) celebrating the completion of the [Dragonpit](wiki:Dragonpit) in [55 AC](wiki:Years_after_Aegon's_Conquest). He won the love of the commons and queen alike when he crowned Princess [Daenerys Targaryen](wiki:Daenerys_Targaryen_(daughter_of_Jaehaerys_I)) as his [queen of love and beauty](wiki:Queen_of_love_and_beauty).(wiki:Simon_Dondarrion.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4) He was defeated by Ser [Ryam Redwyne](wiki:Ryam_Redwyne) at the tourney celebrating the tenth year of Jaehaerys's coronation in late [58 AC](wiki:Years_after_Aegon's_Conquest), however.(wiki:Simon_Dondarrion.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+
+During the [Third Dornish War](wiki:Third_Dornish_War) in [61 AC](wiki:61_AC), Lord Simon led a small force of [marcher](wiki:Dornish_Marches) knights into the western [Red Mountains](wiki:Red_Mountains) of [Dorne](wiki:Dorne) to cut off any means of escape for the [Vulture King's](wiki:Vulture_King_(Jaehaerys_I)) men, while King Jaehaerys and Lord [Rogar Baratheon](wiki:Rogar_Baratheon) pursued the outlaws from the east.(wiki:Simon_Dondarrion.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne_-_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)
+
+## Appearances & Description
+
+Simon was gallant and handsome.(wiki:Simon_Dondarrion.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3) He was an accomplished singer. According to Archmaester [Gyldayn](wiki:Gyldayn), Simon was as skilled with the [high harp](wiki:Harp) as he was at jousting.(wiki:Simon_Dondarrion.cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)

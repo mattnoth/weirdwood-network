@@ -23,3 +23,7 @@ Arra Norrey is a character.human from the AWOIAF wiki.
 - CULTURE_OF: Northern mountain clans (track_b: Culture)
 - SPOUSE_OF: Cregan Stark (track_b: Spouse)
 - PARENT_OF: Rickon Stark (track_b: Issue)
+
+## Origins
+
+Arra was a childhood friend of [Cregan Stark](wiki:Cregan_Stark).(wiki:Arra_Norrey.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2) Shortly after Cregan overthrew his regent uncle, [Bennard Stark](wiki:Bennard_Stark), and took control of the [north](wiki:North) in [126 AC](wiki:Years_after_Aegon's_Conquest), she married him. In [128 AC](wiki:128_AC), Arra died while giving birth(wiki:Arra_Norrey.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3) to their only son together, [Rickon Stark](wiki:Rickon_Stark_(son_of_Cregan)).(wiki:Arra_Norrey.cite_ref-Rtwoiaf_appendix:_stark_lineage.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)

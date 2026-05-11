@@ -22,3 +22,11 @@ Bambarro Bazanne is a character.human from the AWOIAF wiki.
 - DIED_AT: Disputed Lands (track_b: Died) [132 AC]
 - SPOUSE_OF: Unknown (track_b: Spouse)
 - PARENT_OF: Children (track_b: Issue)
+
+## Origins
+
+After [Sharako Lohar](wiki:Sharako_Lohar) captured Prince Viserys after the [Battle in the Gullet](wiki:Battle_in_the_Gullet), he sold him to Bambarro Bazanne in exchange for the prince's weight in gold and a promise of support. With Lohar soon murdered and the [Triarchy](wiki:Triarchy) beginning to collapse, Magister Bambarro thought it prudent to keep his prize hidden away.(wiki:Bambarro_Bazanne.cite_ref-Rfabunder_the_regents_-_the_voyage_of_alyn_oakenfist.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+
+Magister Bambarro forbade Viserys from leaving his [manse](wiki:Manse), though he gave the prince his own suite, had the prince sup with him and his family, and had a tutor instruct him in many skills. It is believed that Bambarro's intent was to wait out the [Dance of the Dragons](wiki:Dance_of_the_Dragons) and either ransom him to his mother [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen) or sell his head to his uncle, King [Aegon II Targaryen](wiki:Aegon_II_Targaryen), depending who emerged as the victor.(wiki:Bambarro_Bazanne.cite_ref-Rfabunder_the_regents_-_the_voyage_of_alyn_oakenfist.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+
+As Lys suffered defeats as the [Daughters' War](wiki:Daughters'_War) ensued, Bambarro died in [132 AC](wiki:132_AC) when the [sellsword](wiki:Sellsword) company he led against [Tyrosh](wiki:Tyrosh) turned against him over a matter of back pay. Upon his death, it was discovered he was enormously in debt. His creditors seized his manse, sold his wife and children into [slavery](wiki:Slavery), and all his possessions (including Prince Viserys) passed to [Lysandro Rogare](wiki:Lysandro_Rogare).(wiki:Bambarro_Bazanne.cite_ref-Rfabunder_the_regents_-_the_voyage_of_alyn_oakenfist.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)

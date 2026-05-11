@@ -23,3 +23,15 @@ Owain Bourney is a character.human from the AWOIAF wiki.
 - SWORN_TO: Greens (track_b: Allegiances)
 - CULTURE_OF: Westeros (track_b: Culture)
 - DIED_AT: Tumbleton (track_b: Died) [130 AC]
+
+## Origins
+
+When the host of [blacks](wiki:Blacks) led by Ser [Garibald Grey](wiki:Garibald_Grey) and Lord [Roderick Dustin](wiki:Roderick_Dustin) marched south from the [riverlands](wiki:Riverlands) to [Tumbleton](wiki:Tumbleton), they were joined by men from the [Blackwater Rush](wiki:Blackwater_Rush), including Lord Bourney and Ser [Roger Corne](wiki:Roger_Corne). Owain was secretly a supporter of King [Aegon II Targaryen](wiki:Aegon_II_Targaryen), however. When the [Two Betrayers](wiki:Two_Betrayers) began attacking the blacks during the [First Battle of Tumbleton](wiki:First_Battle_of_Tumbleton), Roger ordered his men to open Tumbleton's gates to the [greens](wiki:Greens), while Owain did the same at the town's castle. Owain killed Ser [Merrell the Bold](wiki:Merrell_the_Bold) with his spear. Lord Bourney later claimed responsibility for the greens' victory.(wiki:Owain_Bourney.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+
+The greens' commanders regrouped in Tumbleton and planned what to do next. Owain desired to take command of the host, but he was opposed by Ser [Hobert Hightower](wiki:Hobert_Hightower), Lord [Unwin Peake](wiki:Unwin_Peake), and Ser [Jon Roxton](wiki:Jon_Roxton). Unwin eventually stabbed Owain in the eye during a war council.(wiki:Owain_Bourney.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-3)
+
+## Quotes
+
+> Once a [turncloak](wiki:Turncloak), ever a turncloak.(wiki:Owain_Bourney.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)
+>
+> —[Unwin Peake](wiki:Unwin_Peake) to Owain

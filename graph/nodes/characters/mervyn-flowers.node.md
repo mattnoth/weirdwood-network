@@ -24,3 +24,17 @@ Mervyn Flowers is a character.human from the AWOIAF wiki.
 - BORN_AT: Reach (track_b: Born)
 - DIED_AT: King's Landing (track_b: Died) [135 AC]
 - PARENT_OF (reverse): Peake (track_b: Father)
+
+## Origins
+
+During the [regency of Aegon III](wiki:Regency_of_Aegon_III) in [133 AC](wiki:133_AC), Ser [Willis Fell](wiki:Willis_Fell), the [Lord Commander of the Kingsguard](wiki:Lord_Commander_of_the_Kingsguard), died of the [Winter Fever](wiki:Winter_Fever) alongside two of his sworn brothers. In their stead, [Aegon](wiki:Aegon_III_Targaryen) appointed Ser [Robin Massey](wiki:Robin_Massey) as Lord Commander and Ser [Robert Darklyn](wiki:Robert_Darklyn) to the white cloaks. With the support of [Grand Maester](wiki:Grand_Maester) [Munkun](wiki:Munkun), Lord [Unwin Peake](wiki:Unwin_Peake), the [Hand of the King](wiki:Hand_of_the_King), dismissed all the appointments and arrangements of the twelve-year-old king, who had not consulted with his [regents](wiki:Regent). His [Kingsguard](wiki:Kingsguard) appointments were reversed, with Ser [Marston Waters](wiki:Marston_Waters) being elevated to Lord Commander while Lord Peake's nephew, Ser [Amaury Peake](wiki:Amaury_Peake), and [bastard](wiki:Bastard)-half brother, Ser Mervyn, were made [knights](wiki:Knight) of the Kingsguard.(wiki:Mervyn_Flowers.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-3)
+
+Mervyn was standing guard at the door to Queen [Jaehaera Targaryen](wiki:Jaehaera_Targaryen)'s chambers on the occurrence of her death.(wiki:Mervyn_Flowers.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-4)
+
+In [135 AC](wiki:135_AC) after the [secret siege](wiki:Secret_siege) ended, the real conspirators were gathered up. Mervyn killed his own sworn brother and Lord Commander, Ser Marston Waters, who had tried to arrest Mervyn in the stables, by plunging his dagger into his belly. Mervyn tried to escape, but he was found saddling his horse by a drunk man-at-arms and two stableboys. Mervyn slew them, but the commotion alerted others who overwhelmed and beat him to death, still wearing the white cloak that he had dishonored.(wiki:Mervyn_Flowers.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_iii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)(wiki:Mervyn_Flowers.cite_ref-Rfabthe_lysene_spring_and_the_end_of_regency.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)
+
+## Appearances & Description
+
+Mervyn was regarded by most as a dutiful and leal man who did as he was told. A seasoned soldier, he wielded a [longsword](wiki:Longsword). Like many bastards, he was hot of blood and quick to anger, seeing slights where none had been intended.(wiki:Mervyn_Flowers.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1)
+
+According to [Mushroom](wiki:Mushroom), Mervyn was fond of [wine](wiki:Wine). Mervyn did not remain chaste after being named into the white cloaks. In fact, he was known for using his rough charm on washerwomen and serving girls, and slept with them in his cell at the [White Sword Tower](wiki:White_Sword_Tower).(wiki:Mervyn_Flowers.cite_ref-Rfabunder_the_regents_-_war_and_peace_and_cattle_shows.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-2)

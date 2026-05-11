@@ -1,0 +1,23 @@
+{
+  "ran_at": "2026-05-11T23:13:32+00:00",
+  "apply": true,
+  "candidates_total": 1011,
+  "attached": 989,
+  "skipped_no_prose_file": 0,
+  "skipped_already_has_prose": 22,
+  "skipped_other": 0,
+  "by_type": {
+    "object.artifact": 1,
+    "concept.custom": 3,
+    "species": 7,
+    "concept.language": 3,
+    "title": 10,
+    "place.location": 8,
+    "place.region": 1,
+    "concept.medical": 1,
+    "organization.faction": 2,
+    "event.battle": 7,
+    "character.human": 944,
+    "event.war": 2
+  }
+}

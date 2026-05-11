@@ -22,3 +22,19 @@ Reynard Reyne is a character.human from the AWOIAF wiki.
 - CULTURE_OF: Westermen (track_b: Culture)
 - DIED_AT: Castamere (track_b: Died) [261 AC]
 - PARENT_OF (reverse): Robert Reyne (track_b: Father)
+
+## Origins
+
+Reynard and his elder brother, Lord [Roger](wiki:Roger_Reyne), were often at [Casterly Rock](wiki:Casterly_Rock) once their sister [Ellyn](wiki:Ellyn_Reyne) married [Tion Lannister](wiki:Tion_Lannister), the son of Lord [Gerold Lannister](wiki:Gerold_Lannister) and heir to the Rock. The brothers returned to [Castamere](wiki:Castamere) after Tion's death, however, as Gerold began to groom [Tytos Lannister](wiki:Tytos_Lannister) for leadership. Ellyn was later rewed to [Walderan Tarbeck](wiki:Walderan_Tarbeck), Lord of [Tarbeck Hall](wiki:Tarbeck_Hall).(wiki:Reynard_Reyne.cite_ref-Rtwoiafthe_westerlands:_house_lannister_under_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-5)
+
+Ca. [255 AC](wiki:Years_after_Aegon's_Conquest), [House Tarbeck](wiki:House_Tarbeck) angered King [Aegon V Targaryen](wiki:Aegon_V_Targaryen) through their territorial demands, according to a semi-canon source.(wiki:Reynard_Reyne.cite_ref-sample_2-0) Lord Tytos sent Lord [Denys Marbrand](wiki:Denys_Marbrand) to capture the Tarbecks, but Roger came to his sister's aid and his soldiers slew the [Marbrand](wiki:House_Marbrand) men in the night before they reached Tarbeck Hall. Reynard convinced Tytos that the attack was a misunderstanding, claiming that Roger was unaware of Denys's identity and thought he was attacking [outlaws](wiki:Outlaw). After Reynard offered apologies and a blood price to [House Marbrand](wiki:House_Marbrand), Tytos pardoned Roger Reyne, and Lord and Lady Tarbeck as well.(wiki:Reynard_Reyne.cite_ref-sample_2-1)
+
+After the [War of the Ninepenny Kings](wiki:War_of_the_Ninepenny_Kings), Tytos's heir, Ser [Tywin Lannister](wiki:Tywin_Lannister), attempted to bring order to the [westerlands](wiki:Westerlands). During the ensuing crisis, Reynard oversaw the safe exchange of hostages held by the [Lannisters](wiki:House_Lannister) and the Tarbecks at Roger's seat, [Castamere](wiki:Castamere).(wiki:Reynard_Reyne.cite_ref-Rtwoiafthe_westerlands:_house_lannister_under_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-6)
+
+During the [Reyne-Tarbeck rebellion](wiki:Reyne-Tarbeck_rebellion), Tywin extinguished the Tarbecks by killing Lord Walderan in the field and burning Tarbeck Hall. The outnumbered army of [House Reyne](wiki:House_Reyne) then attacked Tywin's host, but were forced to flee after the Lannisters withstood the charge. Reynard took command of the Reynes since Roger became feverish after a crossbow wound and was no longer capable of leading.
+
+Reynard abandoned the surface fortifications of [Castamere](wiki:Castamere) and led the survivors into the mines of the Reynes. According to a semi-canon source,(wiki:Reynard_Reyne.cite_ref-sample_2-2) Reynard sent terms to Tywin offering peace if Tytos's other sons were sent into subterranean Castamere as hostages. Tywin disregarded the offer and instead ordered his miners to block Castamere's entrances with stone. The Lannisters then diverted a local stream into an entrance, flooding Castamere and drowning all within.(wiki:Reynard_Reyne.cite_ref-Rtwoiafthe_westerlands:_house_lannister_under_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+
+## Appearances & Description
+
+Reynard was charming, cunning, and less headstrong than his older brother, [Roger the Red Lion](wiki:Roger_Reyne).(wiki:Reynard_Reyne.cite_ref-Rtwoiafthe_westerlands:_house_lannister_under_the_dragons.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-4)

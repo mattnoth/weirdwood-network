@@ -20,3 +20,7 @@ Light of the North is a title from the AWOIAF wiki.
 ## Quotes
 
 To King Stannis and his wife, Queen Selyse, Light of the North!
+
+## Quotes
+
+To King Stannis and his wife, Queen Selyse, Light of the North!

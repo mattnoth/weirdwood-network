@@ -22,3 +22,9 @@ Davos Darklyn is a character.human from the AWOIAF wiki.
 - SWORN_TO: Kingsguard (track_b: Allegiances)
 - CULTURE_OF: Crownlands (track_b: Culture)
 - DIED_AT: Gods Eye (track_b: Died) [43 AC]
+
+## Origins
+
+Ser Davos was a knight of the [Kingsguard](wiki:Kingsguard) during the reign of King [Maegor I Targaryen](wiki:Maegor_I_Targaryen). In [43 AC](wiki:43_AC), Davos marshalled five thousand swords in [King's Landing](wiki:King's_Landing) for his king and struck out west to meet the rebels under the command of Maegor's nephew, Prince [Aegon Targaryen](wiki:Aegon_Targaryen_(son_of_Aenys_I)). As Prince Aegon marched towards King's Landing from the [Gods Eye](wiki:Gods_Eye), he found Davos' Kingslanders blocking his path, sitting on high ground behind a wall of spearmen. Hoping to break through Davos' host before other royalist armies fell upon his flanks, Prince Aegon commanded a charge. In the resulting [Battle Beneath the Gods Eye](wiki:Battle_Beneath_the_Gods_Eye), Prince Aegon was killed by Maegor in an aerial dragon battle, while Davos was slain by Lord [Qarl Corbray](wiki:Qarl_Corbray) of [Heart's Home](wiki:Heart's_Home) with the [Valyrian steel](wiki:Valyrian_steel) [longsword](wiki:Longsword) [Lady Forlorn](wiki:Lady_Forlorn), the only notable casualty among the loyalists.(wiki:Davos_Darklyn.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)
+
+The following year, Davos' aged father was slain by the [Warrior's Sons](wiki:Warrior's_Son) who remained loyal to Ser [Joffrey Doggett](wiki:Joffrey_Doggett) after the order was [outlawed](wiki:Outlaws) by Maegor.(wiki:Davos_Darklyn.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-2)

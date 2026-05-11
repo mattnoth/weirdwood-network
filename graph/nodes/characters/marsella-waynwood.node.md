@@ -22,3 +22,7 @@ Marsella Waynwood is a character.human from the AWOIAF wiki.
 - CULTURE_OF: Valemen (track_b: Culture)
 - SPOUSE_OF: Stevron Frey (track_b: Spouse)
 - PARENT_OF: Walton Frey (track_b: Issue)
+
+## Origins
+
+Marsella died in childbed.(wiki:Marsella_Waynwood.cite_ref-Racokappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)

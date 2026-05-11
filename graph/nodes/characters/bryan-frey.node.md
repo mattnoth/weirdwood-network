@@ -21,3 +21,7 @@ Bryan Frey is a character.human from the AWOIAF wiki.
 - CULTURE_OF: Rivermen (track_b: Culture)
 - PARENT_OF (reverse): Walton Frey (track_b: Father)
 - PARENT_OF (reverse): Deana Hardyng (track_b: Mother)
+
+## Appearances & Description
+
+Bryan is a squire.(wiki:Bryan_Frey.cite_ref-Racokappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-1)

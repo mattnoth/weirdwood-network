@@ -30,3 +30,21 @@ Desmond Manderly is a character.human from the AWOIAF wiki.
 - DIED_AT: White Harbor (track_b: Died) [132 AC]
 - PARENT_OF: Medrick Manderly (track_b: Issue)
 - PARENT_OF: Torrhen Manderly (track_b: Issue)
+
+## Origins
+
+In [101 AC](wiki:101_AC), the ruling [Lord of White Harbor](wiki:Lord_of_White_Harbor) spoke for the succession rights of Princess [Rhaenys Targaryen](wiki:Rhaenys_Targaryen_(daughter_of_Aemon)) and [Laenor Velaryon](wiki:Laenor_Velaryon) over Prince [Viserys](wiki:Viserys_I_Targaryen) during the [Great Council](wiki:Great_Council).(wiki:Desmond_Manderly.cite_ref-Rfabheirs_of_the_dragon_-_a_question_of_succession.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-0) As such, Ser [Otto Hightower](wiki:Otto_Hightower) feared that Lord Desmond would side with Princess [Rhaenyra Targaryen](wiki:Rhaenyra_Targaryen) and the [blacks](wiki:Blacks).(wiki:Desmond_Manderly.cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)(wiki:Desmond_Manderly.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0)
+
+At the start of the [Dance of the Dragons](wiki:Dance_of_the_Dragons), Lord Desmond hosted [Jacaerys Velaryon](wiki:Jacaerys_Velaryon) when the prince came to [White Harbor](wiki:White_Harbor).(wiki:Desmond_Manderly.cite_ref-Rfabthe_dying_of_the_dragons_-_the_blacks_and_the_greens.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)(wiki:Desmond_Manderly.cite_ref-Rtpatq.7B.7B.7B2.7D.7D.7D.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-1) Desmond cited that the [Old King](wiki:Jaehaerys_I_Targaryen) had promised to redress the usurpation and exile of the Manderlys' ancient lands and promised House Manderly the hand of Princess [Viserra](wiki:Viserra_Targaryen). In return for his youngest daughter being betrothed to Jacaerys' brother, Prince [Joffrey Velaryon](wiki:Joffrey_Velaryon), Desmond agreed to support Rhaenyra Targaryen against King [Aegon II Targaryen](wiki:Aegon_II_Targaryen) and his [greens](wiki:Greens).(wiki:Desmond_Manderly.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-5) Desmond's sons, Ser [Medrick](wiki:Medrick_Manderly) and Ser [Torrhen](wiki:Torrhen_Manderly), led White Harbor's soldiers during the war.(wiki:Desmond_Manderly.cite_ref-Rfabthe_dying_of_the_dragons_-_rhaenyra_triumphant.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
+
+After the Dance, Torrhen served in [King's Landing](wiki:King's_Landing) as a [regent](wiki:Regent) during the [minority](wiki:Regency_of_Aegon_III) of King [Aegon III Targaryen](wiki:Aegon_III_Targaryen). When the [Winter Fever](wiki:Winter_Fever) spread past the [Bite](wiki:Bite) to White Harbor in [132 AC](wiki:132_AC), Desmond was among the thousands that died. He was succeeded as Lord of White Harbor by his eldest son Medrick, only for him to succumb from the same ailment four days later. Torrhen returned to White Harbor to take his father's and brother's place as Lord of White Harbor.(wiki:Desmond_Manderly.cite_ref-Rfabunder_the_regents_-_the_hooded_hand.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1)(wiki:Desmond_Manderly.cite_ref-Rtwoiafthe_targaryen_kings:_aegon_iii.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+
+## Appearances & Description
+
+Desmond was a shrewd negotiator.(wiki:Desmond_Manderly.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-4)
+
+## Quotes
+
+> Mine own [forebears](wiki:House_Manderly) were despoiled of their [birthright](wiki:Dunstonbury) when [our enemies](wiki:House_Peake) drove us into exile on these cold [northern shores](wiki:White_Knife). When the [Old King](wiki:Jaehaerys_I_Targaryen) [visited](wiki:Royal_progress) us so long ago, he spoke of the wrong that had been done to us and promised to make redress. In pledge of that, His Grace offered the hand of his daughter Princess [Viserra](wiki:Viserra_Targaryen) to my [great-grandsire](wiki:Theomore_Manderly), that our two houses might be made as one, but the girl died and the promise was forgotten.(wiki:Desmond_Manderly.cite_ref-Rfabthe_dying_of_the_dragons_-_a_son_for_a_son.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-6)
+>
+> —Desmond to [Jacaerys Velaryon](wiki:Jacaerys_Velaryon)

@@ -25,3 +25,7 @@ Jon Hollard is a character.human from the AWOIAF wiki.
 - DIED_AT: Duskendale (track_b: Died) [277 AC]
 - SPOUSE_OF: Denys Darklyn (track_b: Spouse)
 - PARENT_OF: Son (track_b: Issue)
+
+## Origins
+
+In the aftermath of the [Defiance of Duskendale](wiki:Defiance_of_Duskendale), Ser Jon was executed along with his wife and his son.(wiki:Jon_Hollard.cite_ref-Raffc9.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)

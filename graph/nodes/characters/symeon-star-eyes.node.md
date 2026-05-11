@@ -19,3 +19,7 @@ Symeon Star-Eyes is a character.human from the AWOIAF wiki.
 
 - HOLDS_TITLE: Ser (track_b: Title) [in the songs]
 - CULTURE_OF: First Men (track_b: Culture)
+
+## Origins
+
+According to legend, Symeon was a knight who lost both of his eyes. He replaced them by putting star [sapphires](wiki:Sapphire) in the empty sockets, or so the singers claim.(wiki:Symeon_Star-Eyes.cite_ref-Ragot66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0) He fought with a long staff with blades at both ends and would spin it in his hands to chop down two men at once.(wiki:Symeon_Star-Eyes.cite_ref-Ragot66.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-1) He once visited the [Nightfort](wiki:Nightfort) where he saw [hellhounds](wiki:Hellhounds) fighting.(wiki:Symeon_Star-Eyes.cite_ref-Rasos56.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

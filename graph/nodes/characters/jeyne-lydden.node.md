@@ -23,3 +23,7 @@ Jeyne Lydden is a character.human from the AWOIAF wiki.
 - SPOUSE_OF: Stevron Frey (track_b: Spouse)
 - PARENT_OF: Aegon Frey (track_b: Issue)
 - PARENT_OF: Maegelle Frey (track_b: Issue)
+
+## Origins
+
+Jeyne died of a fall from a [horse](wiki:Horse).(wiki:Jeyne_Lydden.cite_ref-Racokappendix.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)

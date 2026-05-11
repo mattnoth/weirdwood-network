@@ -21,3 +21,9 @@ Aladale Wynch is a character.human from the AWOIAF wiki.
 - SWORN_TO: House Wynch (track_b: Allegiances)
 - SWORN_TO: Night's Watch (track_b: Allegiances)
 - DIED_AT: Bridge of Skulls (track_b: Died) [299 AC]
+
+## Narrative Arc
+
+### A Storm of Swords
+
+Aladale is slain during the [fight at the Bridge of Skulls](wiki:Fight_at_the_Bridge_of_Skulls), where [Bowen Marsh](wiki:Bowen_Marsh) forces [wildlings](wiki:Wildlings), led by the [Weeper](wiki:Weeper), to retreat.(wiki:Aladale_Wynch.cite_ref-Rasos69.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-0)

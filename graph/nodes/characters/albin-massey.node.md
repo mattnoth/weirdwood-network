@@ -25,3 +25,33 @@ Albin Massey is a character.human from the AWOIAF wiki.
 - CULTURE_OF: Crownlands (track_b: Culture)
 - DIED_AT: King's Landing (track_b: Died) [59 AC]
 - PARENT_OF (reverse): Massey (track_b: Father)
+
+## Origins
+
+Albin Massey was the third son of the [Lord of Stonedance](wiki:Lord_of_Stonedance). Born with a limp, Albin had been sent to the [Citadel](wiki:Citadel) to forge a chain and become a [maester](wiki:Maester). However, in [47 AC](wiki:47_AC) a fever killed Albin's older brothers and lord father, making him the new Lord of Stonedance.(wiki:Albin_Massey.cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-9)
+
+In [48 AC](wiki:48_AC), Prince [Jaehaerys](wiki:Jaehaerys_I_Targaryen) [pressed his claim to the throne](wiki:Jaehaerys_Targaryen's_uprising) against his [usurping](wiki:Usurper) uncle, King [Maegor I Targaryen](wiki:Maegor_I_Targaryen), and high [lords](wiki:Lord) of the realm flocked to his cause. Maegor commanded a score of lesser lords, including Albin, to gather at [King's Landing](wiki:King's_Landing), but their numbers were few and many soon lost heart. Shortly afterwards, Maegor was found dead upon the [Iron Throne](wiki:Iron_Throne), and the prince ascended as King Jaehaerys I Targaryen.(wiki:Albin_Massey.cite_ref-Rfabthe_sons_of_the_dragon.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_3-1) In the chaos that followed Maegor's death, Albin fled back to Stonedance.(wiki:Albin_Massey.cite_ref-Rfabprince_into_king_-_the_ascension_of_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_5-0) During Jaehaerys' minority, Albin was the first lord to visit the young king at [Dragonstone](wiki:Dragonstone), with other noblemen following his lead.(wiki:Albin_Massey.cite_ref-Rfaba_surfeit_of_rulers.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_6-0)
+
+In [50 AC](wiki:50_AC), King Jaehaerys [came of age](wiki:Age_of_majority), and gave Lord Albin a seat on the [small council](wiki:Small_council), naming him [lord justiciar](wiki:Lord_justiciar) and [master of laws](wiki:Master_of_laws). After Jaehaerys dismissed [Septon](wiki:Septon) [Mattheus](wiki:Mattheus) from court, Albin was rumored to have remarked that the king required three persons to replace the corpulent prelate.(wiki:Albin_Massey.cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-10) After Mattheus was feared to become the [High Septon](wiki:High_Septon), Albin suggested silencing the septon with a sudden, mysterious death. Jaehaerys quickly dismissed this suggestion.(wiki:Albin_Massey.cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-1)
+
+After Lord [Daemon Velaryon](wiki:Daemon_Velaryon_(son_of_Aethan)) resigned as [Hand of the King](wiki:Hand_of_the_King), Jaehaerys considered Albin for the office, but found him to be unsuitable. Albin himself counseled the king that he served him better from the shadows, for his twisted appearance would strike the ignorant as somehow sinister.(wiki:Albin_Massey.cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-2) In [55 AC](wiki:Years_after_Aegon's_Conquest), Albin assisted King Jaehaerys in codifying, reorganizing, and reforming the [kingdom's laws](wiki:Laws_and_justice_of_the_Seven_Kingdoms), creating a single book of law for the [Seven Kingdoms](wiki:Seven_Kingdoms). He initially justified the right of the [first night](wiki:First_night) by noting that the practice originated from the [Age of Heroes](wiki:Age_of_Heroes) when it was considered a blessing for an ancient warrior to sleep with a [maiden](wiki:Maiden) on her wedding night.(wiki:Albin_Massey.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-0)
+
+Lord Albin perished during the harsh winter of [59 AC](wiki:59_AC) from the [Shivers](wiki:Shivers). Jaehaerys did not find it easy to replace him as master of laws, but Albin was ultimately succeeded in the office by Lord [Rodrik Arryn](wiki:Rodrik_Arryn).(wiki:Albin_Massey.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-3)
+
+## Appearances & Description
+
+Albin Massey was born with a twisted spine and a bent back that condemned him to walk with a limp.(wiki:Albin_Massey.cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-7)
+
+He was known for his sharp mind and did not lack for wits.(wiki:Albin_Massey.cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-8) During his tenure as [master of laws](wiki:Master_of_laws), he proved to be a man of great skills and an able councilor, earning the trust and gratitude of [Jaehaerys I Targaryen](wiki:Jaehaerys_I_Targaryen).(wiki:Albin_Massey.cite_ref-Rfabthe_long_reign_-_jaehaerys_and_alysanne:_policy.2C_progeny.2C_and_pain.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_2-2)(wiki:Albin_Massey.cite_ref-Rfabbirth.2C_death.2C_and_betrayal_under_king_jaehaerys_i.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_4-0)
+
+## Quotes
+
+### Quotes by Albin
+
+> I do not limp when I read, nor when I write.(wiki:Albin_Massey.cite_ref-Rfaba_time_of_testing_-_the_realm_remade.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-11)
+>
+> —Albin
+
+> There is more to the [first night](wiki:First_night) than lust, [Your Grace](wiki:Alysanne_Targaryen). The practice is an ancient one, older than the [Andals](wiki:Andal), older than the [Faith](wiki:Faith_of_the_Seven). It goes back to the [Dawn Age](wiki:Dawn_Age), I do not doubt. The [First Men](wiki:First_Men) were a savage race, and like the [wildings](wiki:Free_folk) beyond the [Wall](wiki:Wall), they followed only strength. Their [lords](wiki:Lord) and [kings](wiki:King) were warriors, mighty men and heroes, and they wanted their sons to be the same. If a warlord chose to bestow his seed upon some [maid](wiki:Maid) on her [wedding](wiki:Wedding) night, it was seen as … a sort of blessing. And if a child should come of the coupling, so much the better. The husband could then claim the honor of raising a hero's son as his own.(wiki:Albin_Massey.cite_ref-Rfabjaehaerys_and_alysanne_-_their_triumphs_and_tragedies.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_7-1)
+>
+> —Albin to [Alysanne Targaryen](wiki:Alysanne_Targaryen)
