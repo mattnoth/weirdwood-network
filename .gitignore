@@ -12,3 +12,6 @@ full-txt-files/
 /scratch
 /scratch.md
 /scratch.txt
+
+# Matt's top-level personal roadmap — same rule as scratch (gitignored, agents don't read)
+/next.md
