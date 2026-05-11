@@ -17,7 +17,7 @@ You are read-only on the graph. You produce a single JSONL output that becomes i
    - **alias index** — every alias (lowercased + kebab-cased) → list of slugs that have that alias
    - **wiki_source index** — every `wiki_source` URL → list of slugs with that URL
 3. Walk all three indexes for collisions and near-collisions.
-4. Emit candidates to `working/wiki-pass2/duplicate-candidates.jsonl`.
+4. Emit candidates to `working/wiki/pass2-buckets/duplicate-candidates.jsonl`.
 
 ## Your role — three categories of candidate
 
@@ -58,7 +58,7 @@ If `type_a != type_b` (one is `character.human`, other is `place.location`), dro
 
 ## Output Contract
 
-Single JSONL file at `working/wiki-pass2/duplicate-candidates.jsonl`. One candidate per line. Sort by confidence (high first), then by category (shared-wiki-source > alias-bridge > slug-similarity).
+Single JSONL file at `working/wiki/pass2-buckets/duplicate-candidates.jsonl`. One candidate per line. Sort by confidence (high first), then by category (shared-wiki-source > alias-bridge > slug-similarity).
 
 The file is then consumed by:
 1. The `cross-identity-detector` agent (which reasons about each candidate to decide `SAME_AS` vs distinct)
@@ -84,7 +84,7 @@ Write a brief summary to `working/audits/duplicate-detector-<UTC-DATE>/execution
 
 ## Conflict / Question / Contradiction Protocol
 
-If you encounter a node file that's malformed (no frontmatter, duplicate keys, etc.), file a question to `working/wiki-pass2/questions-for-matt.jsonl` of type `node-malformed` — but continue processing other nodes. Don't abort.
+If you encounter a node file that's malformed (no frontmatter, duplicate keys, etc.), file a question to `working/wiki/pass2-buckets/questions-for-matt.jsonl` of type `node-malformed` — but continue processing other nodes. Don't abort.
 
 ## Definition of Done
 

@@ -13,7 +13,7 @@ wiki-infobox-parser.py::classify_by_categories).
 Pipeline:
   1. Read all pages with entity_type_guess == 'object.text' from
      page-index.jsonl. Filter out slugs already in graph/nodes/<any>/.
-  2. Build manifest at working/wiki-pass2/tier3-pathb-texts/manifest.json.
+  2. Build manifest at working/wiki/pass2-buckets/tier3-pathb-texts/manifest.json.
   3. Emit skeletons with type: object.text.
   4. Extract prose from sources/wiki/_raw/<Page_Name>.json.
   5. Promote: skeleton + prose -> graph/nodes/texts/<slug>.node.md.
@@ -44,13 +44,13 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 
-PAGE_INDEX_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "page-index.jsonl"
-INFOBOX_DATA_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "infobox-data.jsonl"
+PAGE_INDEX_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "page-index.jsonl"
+INFOBOX_DATA_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "infobox-data.jsonl"
 WIKI_RAW_DIR = PROJECT_ROOT / "sources" / "wiki" / "_raw"
 GRAPH_NODES_DIR = PROJECT_ROOT / "graph" / "nodes"
 GRAPH_TEXTS_DIR = PROJECT_ROOT / "graph" / "nodes" / "texts"
 CONFLICTS_DIR = PROJECT_ROOT / "graph" / "nodes" / "_conflicts"
-BUCKET_DIR = PROJECT_ROOT / "working" / "wiki-pass2" / "tier3-pathb-texts"
+BUCKET_DIR = PROJECT_ROOT / "working" / "wiki" / "pass2-buckets" / "tier3-pathb-texts"
 BUCKET_ID = "tier3-pathb-texts"
 
 NODE_TYPE = "object.text"

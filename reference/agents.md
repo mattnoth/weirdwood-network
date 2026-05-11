@@ -112,7 +112,7 @@ These agents are NOT recursive subagent calls — the orchestrator invokes both 
 
 Pipeline agents (Pass 1-6) are invoked by shell scripts in `scripts/` or directly by the orchestrator via the Agent tool. Each invocation is a fresh Claude session with no shared context — the agent reads the project files it needs from disk.
 
-Stage 4 agents (Wiki Pass 2 prose-derived edge discovery) are invoked by `wiki-pass2.sh` or directly by the orchestrator, one bucket at a time. They write to per-bucket `working/wiki-pass2/<bucket>/<artifact-dir>/` paths and never touch `graph/nodes/` directly — Python promoters handle that.
+Stage 4 agents (Wiki Pass 2 prose-derived edge discovery) are invoked by `wiki-pass2.sh` or directly by the orchestrator, one bucket at a time. They write to per-bucket `working/wiki/pass2-buckets/<bucket>/<artifact-dir>/` paths and never touch `graph/nodes/` directly — Python promoters handle that.
 
 Quality/Cleanup agents are invoked ad-hoc by the orchestrator. Their output is markdown audit reports in `working/audits/`. Read-only on the graph.
 

@@ -342,7 +342,7 @@ If smoke passes, scale to AGOT-wide (73 chapters), then run Opus validation Patt
 - **Stage 4 (queued for after 5/5 Pass 1):** `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`
 - **Pass 1 v3 prompt:** `.claude/agents/mechanical-extractor.md`
 - **Wiki alias resolver script:** `scripts/wiki-pass2-build-alias-resolver.py`
-- **Cross-references index (already built):** `working/wiki-parsed/cross-references.jsonl`
+- **Cross-references index (already built):** `working/wiki/data/cross-references.jsonl`
 - **Standing rules (memory):** `~/.claude/projects/-Users-mnoth-source-asoiaf-chat/memory/MEMORY.md`
 
 ---

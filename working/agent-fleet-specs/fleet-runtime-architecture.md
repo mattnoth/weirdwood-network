@@ -102,7 +102,7 @@ The orchestrator writes its full state to disk continuously. A fresh Claude Code
 | `stage-<N>-<name>.csv` | Per-agent invocation stats (matches the fleet-orchestration-plan.md schema) | Layer 1 (after each worker exits) |
 | `stage-<N>-summary-<run-id>.md` | Synthesized stage report (written by `fleet-stats-reviewer`) | fleet-stats-reviewer |
 | `wave-<N>-<wave-id>.json` | Per-wave manifest (which agents in this wave, their target inputs, their status) | Layer 1 |
-| `blocking-questions.jsonl` | Filtered view of `working/wiki-pass2/questions-for-matt.jsonl` showing only `blocking: true` rows | Layer 1 (computed periodically) |
+| `blocking-questions.jsonl` | Filtered view of `working/wiki/pass2-buckets/questions-for-matt.jsonl` showing only `blocking: true` rows | Layer 1 (computed periodically) |
 | `last-checkpoint.json` | Resume point if orchestrator crashes | Layer 1 (every wave boundary) |
 
 **`orchestrator-state.json` shape:**
@@ -198,7 +198,7 @@ BLOCKING QUESTIONS: 2 ⚠
 
 ORCHESTRATOR PAUSED stage-2 wave 49 pending these answers.
 
-To answer: edit working/wiki-pass2/questions-for-matt.jsonl, set
+To answer: edit working/wiki/pass2-buckets/questions-for-matt.jsonl, set
 `resolution` field; orchestrator will detect and resume.
 ```
 
@@ -500,7 +500,7 @@ Each stage has a shell script Matt runs by hand from iTerm. The script opens N i
 - Same stats CSV schema in `working/fleet-stats/stage-<N>-<name>.csv`
 - Same per-stage scripts under `scripts/fleet/`
 - Same `/check-fleet` slash command (works against the stats files regardless of which mode wrote them)
-- Same blocking-question protocol via `working/wiki-pass2/questions-for-matt.jsonl`
+- Same blocking-question protocol via `working/wiki/pass2-buckets/questions-for-matt.jsonl`
 - Same artifact format on disk (skeleton/, prose/, prose-edges/, etc.)
 
 The DAEMON is just "run the iTerm-scripts in sequence, automatically, with auto-respawn + auto-retry baked in." The iTerm-scripts are the floor; the daemon is an optimization on top of them.

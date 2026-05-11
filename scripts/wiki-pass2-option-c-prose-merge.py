@@ -18,7 +18,7 @@ NEVER modifies the ## Edges section. Frontmatter is unchanged except
 node_version: 1 → 2 to mark hybrid-origin nodes.
 
 Nodes where the wiki page has no extractable prose are skipped and logged
-to working/wiki-pass2/option-c-skipped-no-prose.jsonl.
+to working/wiki/pass2-buckets/option-c-skipped-no-prose.jsonl.
 
 Nodes where ## Notes appears BEFORE ## Edges (4 known edge cases) are
 logged as warnings — their Notes content will be dropped when the prose
@@ -52,8 +52,8 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 WIKI_RAW_DIR = PROJECT_ROOT / "sources" / "wiki" / "_raw"
 GRAPH_CHARS_DIR = PROJECT_ROOT / "graph" / "nodes" / "characters"
-SKIP_LOG_PATH = PROJECT_ROOT / "working" / "wiki-pass2" / "option-c-skipped-no-prose.jsonl"
-SUMMARY_PATH = PROJECT_ROOT / "working" / "wiki-pass2" / "option-c-summary.json"
+SKIP_LOG_PATH = PROJECT_ROOT / "working" / "wiki" / "pass2-buckets" / "option-c-skipped-no-prose.jsonl"
+SUMMARY_PATH = PROJECT_ROOT / "working" / "wiki" / "pass2-buckets" / "option-c-summary.json"
 
 # Cargyll twin slugs — manually fixed YAML aliases, must not be touched
 CARGYLL_PROTECTED = frozenset(["arryk-cargyll", "erryk-cargyll"])

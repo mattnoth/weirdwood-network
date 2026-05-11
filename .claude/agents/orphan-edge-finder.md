@@ -15,7 +15,7 @@ You are read-only.
 
 1. Build three indexes:
    - **slug index** — every slug in `graph/nodes/**/*.node.md` (excluding `_conflicts/` and `_unclassified/`)
-   - **alias index** — every alias (kebab-cased) → canonical slug. Built by walking each node's frontmatter `aliases` field. If `working/wiki-parsed/alias-resolver.json` exists, prefer that (it's the canonical resolver).
+   - **alias index** — every alias (kebab-cased) → canonical slug. Built by walking each node's frontmatter `aliases` field. If `working/wiki/data/alias-resolver.json` exists, prefer that (it's the canonical resolver).
    - **redirect index** — wiki redirect chain. Built from `sources/wiki/_raw/*.json` files where `html` indicates a redirect (e.g., page is just `<div class="redirectMsg">...redirect to...</div>`). Optional but valuable: catches `Brienne_of_Tarth` → `Brienne_Tarth` cases where the wiki itself redirects.
 2. Walk every node; parse `## Edges` section bullets.
 3. For each edge bullet (e.g., `- SPOUSE_OF: Lysa Tully [third wife] (track_b: Spouse)`), extract the **target text** — the part between the colon and the bracket/cite. Convert to kebab-case: `lysa-tully`.
@@ -32,7 +32,7 @@ Examples (from Session 26 cross-refs leaderboard):
 - `aegon-i-targaryen` (until Tier 1 recovery): genuinely missing
 - Future: anything in the long tail not yet ingested
 
-Report each with: source node, edge type, target text, target slug attempted, in-count from `working/wiki-parsed/backlink-counts.json` (so we can prioritize fixing high-impact gaps).
+Report each with: source node, edge type, target text, target slug attempted, in-count from `working/wiki/data/backlink-counts.json` (so we can prioritize fixing high-impact gaps).
 
 ### Category 2: alias-mismatch (would resolve via alias-resolver)
 
@@ -61,7 +61,7 @@ Report each with the redirect chain.
 
 ## Bucket Isolation — Critical
 
-- **Read only:** `graph/nodes/**/*.node.md`, `working/wiki-parsed/alias-resolver.json` (if exists), a sample of `sources/wiki/_raw/*.json` files (only the ones that look like redirects, NOT the full 17,945-page corpus — sample by node-target-name, just the missing targets).
+- **Read only:** `graph/nodes/**/*.node.md`, `working/wiki/data/alias-resolver.json` (if exists), a sample of `sources/wiki/_raw/*.json` files (only the ones that look like redirects, NOT the full 17,945-page corpus — sample by node-target-name, just the missing targets).
 - **No HTTP calls.**
 - **Don't modify ANY file in `graph/nodes/`.**
 - **Don't read full wiki HTML for non-redirect pages.** Only check redirect status — that's a tiny portion of the bytes.
@@ -125,7 +125,7 @@ Sorted by in_count desc (highest-impact gaps first).
 
 If you encounter an edge whose `edge_type` isn't in the locked vocabulary, that's a schema-drift-auditor concern, not yours. Skip such edges (they'll be flagged in the schema audit) and continue.
 
-If you find a node whose `## Edges` section is malformed (e.g., bullet lines that don't follow the `- TYPE: target` pattern), file a question of type `malformed-edges-section` to `working/wiki-pass2/questions-for-matt.jsonl` and continue.
+If you find a node whose `## Edges` section is malformed (e.g., bullet lines that don't follow the `- TYPE: target` pattern), file a question of type `malformed-edges-section` to `working/wiki/pass2-buckets/questions-for-matt.jsonl` and continue.
 
 ## Definition of Done
 

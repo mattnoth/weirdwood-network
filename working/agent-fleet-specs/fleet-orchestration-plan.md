@@ -133,9 +133,9 @@ Three scripts, run sequentially:
 
 | Script | Purpose | Output |
 |--------|---------|--------|
-| `wiki-pass2-build-alias-resolver.py` | Walk all `graph/nodes/**/*.node.md` frontmatter `aliases`; build canonical wiki-form-slug → canonical-slug map | `working/wiki-parsed/alias-resolver.json` |
+| `wiki-pass2-build-alias-resolver.py` | Walk all `graph/nodes/**/*.node.md` frontmatter `aliases`; build canonical wiki-form-slug → canonical-slug map | `working/wiki/data/alias-resolver.json` |
 | `wiki-pass2-build-cross-refs.py --apply` (re-run with alias resolution) | Re-extract cross-refs using alias-resolver to drop slug-mismatch noise | Updates `cross-references.jsonl`, `backlink-counts.json`, `cross-refs-summary.md`. Expect broken-link rate to drop ~50% (slug-mismatch noise → real gaps). |
-| `wiki-pass2-build-edge-candidates.py` | For each bucket, walk prose, extract `[anchor](wiki:Page)` cross-references, filter against existing edges, emit per-source-slug candidate JSONL | `working/wiki-pass2/<bucket>/prose-edge-candidates/<slug>.candidates.jsonl` |
+| `wiki-pass2-build-edge-candidates.py` | For each bucket, walk prose, extract `[anchor](wiki:Page)` cross-references, filter against existing edges, emit per-source-slug candidate JSONL | `working/wiki/pass2-buckets/<bucket>/prose-edge-candidates/<slug>.candidates.jsonl` |
 
 **Total cost:** $0
 **Total wall-clock:** <2 minutes
@@ -150,7 +150,7 @@ Run all four read-only audit agents simultaneously. Each produces a markdown rep
 |-------|-----------|-------|--------|
 | `schema-drift-auditor` | 1 (single global pass) | full graph | `working/audits/schema-drift-<date>/execution/schema-drift.md` |
 | `citation-validator` | 1 | full graph | `working/audits/citation-issues-<date>/execution/citation-issues.md` |
-| `duplicate-detector` | 1 | full graph | `working/wiki-pass2/duplicate-candidates.jsonl` + `working/audits/duplicate-detector-<date>/execution/duplicate-detector-stats.md` |
+| `duplicate-detector` | 1 | full graph | `working/wiki/pass2-buckets/duplicate-candidates.jsonl` + `working/audits/duplicate-detector-<date>/execution/duplicate-detector-stats.md` |
 | `orphan-edge-finder` | 1 | full graph | `working/audits/orphan-edges-<date>/execution/orphan-edges.md` |
 
 **Concurrency:** All 4 launched in parallel via 4 Agent tool calls in a single message. They're read-only — no file conflicts.
@@ -167,7 +167,7 @@ Three agents, different shapes:
 
 - One invocation per bucket with prose-edge-candidates files (typically 472 secondary buckets + recovery buckets)
 - Wave size: 5 buckets at a time (concurrency cap to respect rate limits)
-- Each invocation reads `working/wiki-pass2/<bucket>/prose-edge-candidates/*.candidates.jsonl`, emits `working/wiki-pass2/<bucket>/prose-edges/*.edges.jsonl`
+- Each invocation reads `working/wiki/pass2-buckets/<bucket>/prose-edge-candidates/*.candidates.jsonl`, emits `working/wiki/pass2-buckets/<bucket>/prose-edges/*.edges.jsonl`
 - Resume-able: orchestrator checks bucket manifest for `stage4_classified_at` field; skips done buckets
 
 **Estimated cost:** ~$50-100 across all buckets
@@ -178,7 +178,7 @@ Three agents, different shapes:
 
 - One invocation reading the full duplicate-candidates.jsonl + alias-resolver.json + redirect graph
 - Wave size: 1 (global, not parallel)
-- Output: `working/wiki-pass2/cross-identity-decisions.jsonl`
+- Output: `working/wiki/pass2-buckets/cross-identity-decisions.jsonl`
 
 **Estimated cost:** ~$10-20
 **Wall-clock:** ~1 hour
@@ -256,7 +256,7 @@ After each book completes Pass 1:
 |-------|---------|--------|
 | `extraction-quality-auditor` | Book complete | `working/audits/extraction-quality-<book>-<date>.md` |
 | `cross-book-entity-reconciler` | ≥2 books complete | `working/curation/alias-additions.jsonl` |
-| `contradiction-surfacer` | ≥2 books complete | Append to `working/wiki-pass2/pass1-contradictions.jsonl` |
+| `contradiction-surfacer` | ≥2 books complete | Append to `working/wiki/pass2-buckets/pass1-contradictions.jsonl` |
 
 ### Stage 7-9: Pass 3-6, Tier 3, Post-release backfill
 

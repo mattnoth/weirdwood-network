@@ -18,13 +18,13 @@ Output: `PRECEDES`/`FOLLOWS` edges between event nodes that didn't get them from
 
 ## Inputs (when implemented)
 
-- `working/wiki-parsed/chronology-edges.jsonl` (chronology-extractor output)
+- `working/wiki/data/chronology-edges.jsonl` (chronology-extractor output)
 - All `graph/nodes/events/*.node.md`
 - All `extractions/mechanical/<book>/*.md` for chapter-level temporal cite hints
 
 ## Output (when implemented)
 
-`working/wiki-parsed/event-ordering-edges.jsonl` — `PRECEDES`/`FOLLOWS` edges between events.
+`working/wiki/data/event-ordering-edges.jsonl` — `PRECEDES`/`FOLLOWS` edges between events.
 
 ## Hard constraints (when implemented)
 

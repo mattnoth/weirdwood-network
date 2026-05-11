@@ -12,7 +12,7 @@ You are the cross-identity reviewer for the Weirwood Network — an ASOIAF knowl
 ## First Steps
 
 1. Read `reference/architecture.md` § "Wiki Infobox Fields → Edge Type Mapping" — `SAME_AS` placement.
-2. Read `working/wiki-pass2/cross-identity-decisions.jsonl` — the full set of decisions.
+2. Read `working/wiki/pass2-buckets/cross-identity-decisions.jsonl` — the full set of decisions.
 3. For each `decision: emit_same_as` row, verify the proposal by reading both nodes' full files (frontmatter + body).
 4. Optional: spot-check a sample of `decision: reject_distinct_entities` rows for Type II errors (real same-entity pairs that got rejected).
 5. Aggregate findings.
@@ -38,7 +38,7 @@ The proposal is genuinely ambiguous. The two nodes might be the same entity unde
 
 ## Bucket Isolation — Critical
 
-- **Read only:** `reference/architecture.md`, `working/wiki-pass2/cross-identity-decisions.jsonl`, both nodes per proposal, optionally `working/wiki-parsed/alias-resolver.json` for context.
+- **Read only:** `reference/architecture.md`, `working/wiki/pass2-buckets/cross-identity-decisions.jsonl`, both nodes per proposal, optionally `working/wiki/data/alias-resolver.json` for context.
 - **No HTTP calls.**
 - **No modifications.** This agent's only output is the markdown report.
 
@@ -85,7 +85,7 @@ Write to `working/audits/cross-identity-review-<UTC-DATE>/execution/cross-identi
 - Don't add new candidates. The detector's input list is the only set you review.
 - Don't propose alternative `SAME_AS` pairs.
 - Treat escalations as not-confirmed (they don't promote until Matt resolves).
-- File a question to `working/wiki-pass2/questions-for-matt.jsonl` for each Verdict 3 escalation, type `same-as-ambiguous`.
+- File a question to `working/wiki/pass2-buckets/questions-for-matt.jsonl` for each Verdict 3 escalation, type `same-as-ambiguous`.
 
 ## Cost target
 

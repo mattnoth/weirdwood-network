@@ -14,7 +14,7 @@
 - **Don't invent edge types.** The vocabulary is locked at `scripts/wiki-infobox-parser.py::FIELD_EDGE_MAP`. New edge types flow through `reference/architecture.md` § "Wiki Infobox Fields → Edge Type Mapping" FIRST, then the parser.
 - **Don't emit `first_available`.** Spoiler gating is owned by a post-release backfill script.
 - **Don't modify outputs from prior pipeline stages.** Each agent has a single write path; existing artifacts are read-only inputs.
-- **Single-writer-per-file invariant.** Agents write to their own dedicated path under `working/wiki-pass2/<bucket>/<agent-output-dir>/` (Stage 4 work) or `working/<purpose>/<filename>` (cleanup work). They never write to `graph/nodes/`.
+- **Single-writer-per-file invariant.** Agents write to their own dedicated path under `working/wiki/pass2-buckets/<bucket>/<agent-output-dir>/` (Stage 4 work) or `working/<purpose>/<filename>` (cleanup work). They never write to `graph/nodes/`.
 - **Structured output channels for surfacing issues.** Append-only JSONL: `questions-for-matt.jsonl` (when human needed), `conflicts.jsonl` (cross-source disagreements), `pass1-contradictions.jsonl` (wiki vs chapter). Never overwrite; always append.
 - **Disambiguation pages never become graph nodes.** Each named individual already has a unique-slugged node. The "which Aegon does this prose mean?" problem is a `disambiguation-resolver` concern at edge-discovery time, not a node-creation concern.
 

@@ -15,7 +15,7 @@ Scope A — Stage-1 houses (prompt_version: v1):
   Safety check: if the fresh skeleton has FEWER edges than current by >3,
   skip that house (heuristic: unusual edge-count drop may indicate the
   infobox-data is missing fields). Skipped houses are logged to
-  working/wiki-pass2/stage3-house-reemit-skipped.jsonl.
+  working/wiki/pass2-buckets/stage3-house-reemit-skipped.jsonl.
 
 Scope B — Religion-bleed location nodes (24/25 nodes):
   Location and faction nodes that were emitted before the Session 27
@@ -45,12 +45,12 @@ from pathlib import Path
 # ---------------------------------------------------------------------------
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
-INFOBOX_DATA_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "infobox-data.jsonl"
-PAGE_INDEX_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "page-index.jsonl"
-WIKI_PASS2_DIR = PROJECT_ROOT / "working" / "wiki-pass2"
+INFOBOX_DATA_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "infobox-data.jsonl"
+PAGE_INDEX_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "page-index.jsonl"
+WIKI_PASS2_DIR = PROJECT_ROOT / "working" / "wiki" / "pass2-buckets"
 GRAPH_NODES_DIR = PROJECT_ROOT / "graph" / "nodes"
-SKIP_LOG = PROJECT_ROOT / "working" / "wiki-pass2" / "stage3-house-reemit-skipped.jsonl"
-SUMMARY_LOG = PROJECT_ROOT / "working" / "wiki-pass2" / "stage3-reemit-summary.json"
+SKIP_LOG = PROJECT_ROOT / "working" / "wiki" / "pass2-buckets" / "stage3-house-reemit-skipped.jsonl"
+SUMMARY_LOG = PROJECT_ROOT / "working" / "wiki" / "pass2-buckets" / "stage3-reemit-summary.json"
 
 # ---------------------------------------------------------------------------
 # Religion-bleed location/faction slugs (Scope B)

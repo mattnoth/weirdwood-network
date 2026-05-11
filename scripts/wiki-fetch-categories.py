@@ -10,7 +10,7 @@ categorizer in that scraper depended on category data and could only run for
 This script fills that one specific gap: fetches MediaWiki categories for all
 17,657 cached pages via `action=query&prop=categories&titles=...&cllimit=max`,
 50 titles per batch. Writes one JSONL row per page to
-`working/wiki-parsed/page-categories.jsonl`.
+`working/wiki/data/page-categories.jsonl`.
 
 Per CLAUDE.md "Approved exception fetches" — this is a single bounded fetch,
 approved 2026-04-30, targeting one specific data field, written to working/ only.
@@ -45,8 +45,8 @@ import cloudscraper
 # ---------------------------------------------------------------------------
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
-DEFAULT_INPUT = PROJECT_ROOT / "working" / "wiki-parsed" / "page-index.jsonl"
-DEFAULT_OUTPUT = PROJECT_ROOT / "working" / "wiki-parsed" / "page-categories.jsonl"
+DEFAULT_INPUT = PROJECT_ROOT / "working" / "wiki" / "data" / "page-index.jsonl"
+DEFAULT_OUTPUT = PROJECT_ROOT / "working" / "wiki" / "data" / "page-categories.jsonl"
 
 # ---------------------------------------------------------------------------
 # Constants

@@ -14,8 +14,8 @@
 
 Each pass is one-shot, deterministic, ~$0 via the Stage 3 pipeline (`emit-deterministic.py` + `extract-prose.py` + `promote.py`). No LLM agent. Each pass:
 1. Filters cat1-full.tsv for the pass's target subset.
-2. Looks up each target slug in `working/wiki-parsed/page-index.jsonl` to confirm a wiki page exists.
-3. Builds a one-off bucket (`working/wiki-pass2/tier3-<pass-name>/manifest.json`).
+2. Looks up each target slug in `working/wiki/data/page-index.jsonl` to confirm a wiki page exists.
+3. Builds a one-off bucket (`working/wiki/pass2-buckets/tier3-<pass-name>/manifest.json`).
 4. Runs the standard pipeline: emit → extract-prose → promote.
 
 ## Pass A — Title nodes (HIGHEST IMPACT)

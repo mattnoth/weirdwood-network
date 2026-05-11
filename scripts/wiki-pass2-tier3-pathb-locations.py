@@ -32,13 +32,13 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 
-PAGE_INDEX_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "page-index.jsonl"
-INFOBOX_DATA_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "infobox-data.jsonl"
+PAGE_INDEX_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "page-index.jsonl"
+INFOBOX_DATA_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "infobox-data.jsonl"
 WIKI_RAW_DIR = PROJECT_ROOT / "sources" / "wiki" / "_raw"
 GRAPH_NODES_DIR = PROJECT_ROOT / "graph" / "nodes"
 GRAPH_LOCATIONS_DIR = PROJECT_ROOT / "graph" / "nodes" / "locations"
 CONFLICTS_DIR = PROJECT_ROOT / "graph" / "nodes" / "_conflicts"
-BUCKET_DIR = PROJECT_ROOT / "working" / "wiki-pass2" / "tier3-pathb-locations"
+BUCKET_DIR = PROJECT_ROOT / "working" / "wiki" / "pass2-buckets" / "tier3-pathb-locations"
 BUCKET_ID = "tier3-pathb-locations"
 
 # Default node type written into skeletons; the per-page type from

@@ -6,7 +6,7 @@ no HTTP calls, read-only on graph/nodes/.
 
 Scans all node files in graph/nodes/**/*.node.md (excluding _conflicts/ and
 _unclassified/), extracts frontmatter fields (slug, name, aliases), and builds
-an alias-to-canonical slug map. Output: working/wiki-parsed/alias-resolver.json.
+an alias-to-canonical slug map. Output: working/wiki/data/alias-resolver.json.
 
 Usage:
     python3 scripts/wiki-pass2-build-alias-resolver.py          # dry-run; print stats
@@ -28,7 +28,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 GRAPH_NODES_DIR = REPO_ROOT / "graph" / "nodes"
-OUTPUT_PATH = REPO_ROOT / "working" / "wiki-parsed" / "alias-resolver.json"
+OUTPUT_PATH = REPO_ROOT / "working" / "wiki" / "data" / "alias-resolver.json"
 
 # Directories to exclude (relative to GRAPH_NODES_DIR)
 EXCLUDED_DIRS = {"_conflicts", "_unclassified"}
@@ -398,7 +398,7 @@ def main():
     parser.add_argument(
         "--apply",
         action="store_true",
-        help="Write the output JSON to working/wiki-parsed/alias-resolver.json",
+        help="Write the output JSON to working/wiki/data/alias-resolver.json",
     )
     args = parser.parse_args()
 
@@ -412,7 +412,7 @@ def main():
     stats = result["stats"]
 
     # Cross-ref impact estimate
-    cross_refs_path = REPO_ROOT / "working" / "wiki-parsed" / "cross-references.jsonl"
+    cross_refs_path = REPO_ROOT / "working" / "wiki" / "data" / "cross-references.jsonl"
     impact = estimate_broken_link_recovery(alias_to_canonical, cross_refs_path)
 
     # --- Print report ---

@@ -10,7 +10,7 @@
 
 Stage 4 v1 discovers the edges that infobox extraction couldn't see — prose-derived single-page edges, cross-page edges, and cross-identity merges (Reek=Theon, Alayne=Sansa). It is the highest-leverage unblocked work in the project once Pass 1 corpus completion lands.
 
-**Readiness:** Stage 3 promotion stable (Session 28+29). Schema-drift audit clean (0 HIGH). Cross-references index built (Session 26: `working/wiki-parsed/cross-references.jsonl`). Alias resolver built (Session 26: `working/wiki-parsed/alias-resolver.json`). Locked 22-type edge vocabulary in `reference/architecture.md`. 7,563+ graph nodes across 19 type directories.
+**Readiness:** Stage 3 promotion stable (Session 28+29). Schema-drift audit clean (0 HIGH). Cross-references index built (Session 26: `working/wiki/data/cross-references.jsonl`). Alias resolver built (Session 26: `working/wiki/data/alias-resolver.json`). Locked 22-type edge vocabulary in `reference/architecture.md`. 7,563+ graph nodes across 19 type directories.
 
 **Pass 1 dependency** — corpus-complete before this work starts (per Session 30 sequencing decision; see `progress/continue-prompts/2026-05-02-pass1-mechanical-remaining-books.md`). All 5 books contribute to the contradiction sweep — no AGOT-only carve-out. **Hard pre-flight:** verify `extractions/mechanical/{agot,acok,asos,affc,adwd}/` extraction counts match `sources/chapters/{agot,acok,asos,affc,adwd}/` chapter counts (344/344 across all books). If short, this work is blocked — finish Pass 1 first.
 
@@ -45,15 +45,15 @@ for d in graph/nodes/*/; do echo "  $(basename $d): $(ls $d 2>/dev/null | wc -l 
 # Expected total: 7,563 (with _conflicts/_unclassified/_stage3-preview)
 
 # Verify cross-references index exists
-ls -la working/wiki-parsed/cross-references.jsonl
+ls -la working/wiki/data/cross-references.jsonl
 # Expected: 81,090 lines, ~25 MB
 
 # Verify alias resolver exists
-ls -la working/wiki-parsed/alias-resolver.json
+ls -la working/wiki/data/alias-resolver.json
 # Expected: thousands of aliases mapped
 
 # Verify chronology data exists (Session 29 deliverable)
-ls -la working/wiki-parsed/chronology-events.jsonl
+ls -la working/wiki/data/chronology-events.jsonl
 # Expected: 2,245 lines
 
 # Verify locked edge vocabulary
@@ -74,9 +74,9 @@ python3 scripts/wiki-pass2-build-cross-refs.py
 ```
 
 Output:
-- `working/wiki-parsed/cross-references.jsonl` — 81,090 rows of `{source_slug, target_slug, anchor_text, section, snippet}`
-- `working/wiki-parsed/backlink-counts.json` — inverted index `{target_slug: {in_count, out_count, ratio, sample_sources}}`
-- `working/wiki-parsed/cross-refs-summary.md`
+- `working/wiki/data/cross-references.jsonl` — 81,090 rows of `{source_slug, target_slug, anchor_text, section, snippet}`
+- `working/wiki/data/backlink-counts.json` — inverted index `{target_slug: {in_count, out_count, ratio, sample_sources}}`
+- `working/wiki/data/cross-refs-summary.md`
 
 **Inspect** before Step 2: examine backlink-count distribution. Centrality is empirical — let the data drive the candidate-filter threshold (Step 2).
 
@@ -93,7 +93,7 @@ Output:
 4. If no → emit candidate row `{source_slug, target_slug, anchor_text, section, snippet, backlink_count: target.in_count}`.
 5. Filter targets not in graph after alias-resolution → drop, log to summary as broken-link.
 6. Filter low-confidence: `target.in_count < 2` AND `source.section in {Quotes, Notes}` → drop (probably trivia mention).
-7. **Sort/group output by source_slug** — emit one JSONL file per source: `working/wiki-pass2/<source_bucket>/prose-edge-candidates/<source_slug>.candidates.jsonl`.
+7. **Sort/group output by source_slug** — emit one JSONL file per source: `working/wiki/pass2-buckets/<source_bucket>/prose-edge-candidates/<source_slug>.candidates.jsonl`.
 
 **Survivor set estimate:** 5K-15K candidates after filtering vs ~30K naïve pass.
 
@@ -121,13 +121,13 @@ python3 scripts/wiki-pass2-stage4-candidate-generator.py --apply
   - `reject` as just-a-mention (anchor text in prose without relational meaning)
   - `escalate-cross-identity` — flag as `SAME_AS` candidate (e.g., Reek prose mentions Theon in same sentence with identity-equating phrasing)
   - `escalate-questions-for-matt` — ambiguous case
-- Emits ONE output file: `working/wiki-pass2/<bucket>/prose-edges/<source_slug>.edges.jsonl`
+- Emits ONE output file: `working/wiki/pass2-buckets/<bucket>/prose-edges/<source_slug>.edges.jsonl`
 - Single-writer-per-file: agent NEVER touches existing nodes, never modifies skeleton/, never modifies prose/.
 - Forbidden: emit edge types not in the locked vocabulary.
 
 **Agent prompt should reference:**
 - `reference/architecture.md` for the 22-type locked vocabulary
-- The source slug's prose file at `working/wiki-pass2/<bucket>/prose/<slug>.prose.md`
+- The source slug's prose file at `working/wiki/pass2-buckets/<bucket>/prose/<slug>.prose.md`
 - Each target's frontmatter from `graph/nodes/<type>/<slug>.node.md` (first 20 lines only — for type/aliases lookup)
 
 **Run shape (3-5 parallel tabs in iTerm via weirwood-style launcher):**
@@ -162,7 +162,7 @@ When the prose-edge-classifier flags `escalate-cross-identity`, those candidates
 
 Decides: emit `SAME_AS` edge OR reject as coincidence.
 
-For Stage 4 v1: route cross-identity flags to a queue file `working/wiki-pass2/cross-identity-queue.jsonl`. Decide later whether to run cross-identity-detector inline (during Step 3) or as a follow-on Step 3.5. Current lean: follow-on, smaller batch, lower volume → easier to review.
+For Stage 4 v1: route cross-identity flags to a queue file `working/wiki/pass2-buckets/cross-identity-queue.jsonl`. Decide later whether to run cross-identity-detector inline (during Step 3) or as a follow-on Step 3.5. Current lean: follow-on, smaller batch, lower volume → easier to review.
 
 **Known cross-identity targets** (high-confidence):
 - Reek = Theon Greyjoy
@@ -205,14 +205,14 @@ Pass-1 mechanical extractions for AGOT live at `extractions/mechanical/agot/agot
 - Possibly: `.claude/agents/contradiction-surfacer.md` — new agent for AGOT contradiction sweep
 
 **New artifact directories** (will be created by candidate generator):
-- `working/wiki-pass2/<bucket>/prose-edge-candidates/`
-- `working/wiki-pass2/<bucket>/prose-edges/`
-- `working/wiki-pass2/cross-identity-queue.jsonl`
+- `working/wiki/pass2-buckets/<bucket>/prose-edge-candidates/`
+- `working/wiki/pass2-buckets/<bucket>/prose-edges/`
+- `working/wiki/pass2-buckets/cross-identity-queue.jsonl`
 
 **Existing files to leave UNTOUCHED:**
 - `graph/nodes/*/` — until Step 4 (promotion)
-- `working/wiki-pass2/<bucket>/skeleton/` — IMMUTABLE
-- `working/wiki-pass2/<bucket>/prose/` — IMMUTABLE
+- `working/wiki/pass2-buckets/<bucket>/skeleton/` — IMMUTABLE
+- `working/wiki/pass2-buckets/<bucket>/prose/` — IMMUTABLE
 - `reference/architecture.md` § "Edge Types" — locked vocabulary
 
 ---
@@ -264,9 +264,9 @@ Pass-1 mechanical extractions for AGOT live at `extractions/mechanical/agot/agot
 - Session 29 detail: `history/session-details/session-029.md`
 - Stage 3 pipeline runbook: `working/runbooks/wiki-pass2-pipeline.md` (canonical reference for Stage 3 conventions Stage 4 should follow)
 - Architecture (locked vocabulary): `reference/architecture.md` § "Edge Types"
-- Cross-references index: `scripts/wiki-pass2-build-cross-refs.py` + outputs under `working/wiki-parsed/`
-- Alias resolver: `scripts/wiki-pass2-build-alias-resolver.py` + `working/wiki-parsed/alias-resolver.json`
-- Chronology data: `working/wiki-parsed/chronology-events.jsonl` (Session 29; 2,245 events, awaits v2 temporal-edge schema)
+- Cross-references index: `scripts/wiki-pass2-build-cross-refs.py` + outputs under `working/wiki/data/`
+- Alias resolver: `scripts/wiki-pass2-build-alias-resolver.py` + `working/wiki/data/alias-resolver.json`
+- Chronology data: `working/wiki/data/chronology-events.jsonl` (Session 29; 2,245 events, awaits v2 temporal-edge schema)
 - Original Stage 4 design draft (Session 24): `progress/continue-prompts/2026-04-27-wiki-pass2-stage4-edge-discovery.md` (DELETE this file once Stage 4 v1 ships — it's superseded by this prompt)
 - AGOT extractions: `extractions/mechanical/agot/agot-{pov}-{NN}.extraction.md` (73 files; only book complete)
 - Schema-drift audit baseline: `working/audits/schema-drift-2026-05-02/execution/schema-drift-2026-05-02.md` (the audit Stage 4 must not break)

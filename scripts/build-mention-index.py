@@ -13,7 +13,7 @@ Resolution algorithm:
   1. Strip parenthetical asides, role suffixes, trailing notes.
   2. Compute slug via to_kebab().
   3. Direct lookup in graph/nodes slug index.
-  4. Alias lookup via working/wiki-parsed/alias-resolver.json.
+  4. Alias lookup via working/wiki/data/alias-resolver.json.
   5. Emit as unresolved if both fail — still recorded.
 
 Sections parsed:
@@ -47,7 +47,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 EXTRACTIONS_DIR = REPO_ROOT / "extractions" / "mechanical"
 GRAPH_NODES_DIR = REPO_ROOT / "graph" / "nodes"
-ALIAS_RESOLVER_PATH = REPO_ROOT / "working" / "wiki-parsed" / "alias-resolver.json"
+ALIAS_RESOLVER_PATH = REPO_ROOT / "working" / "wiki" / "data" / "alias-resolver.json"
 INDEX_DIR = REPO_ROOT / "graph" / "index" / "chapters"
 DEFAULT_LOG_PATH = REPO_ROOT / "working" / "mention-index-build-log.txt"
 
@@ -192,7 +192,7 @@ def build_node_index() -> dict[str, tuple[str, str]]:
 # ---------------------------------------------------------------------------
 
 def load_alias_resolver() -> dict[str, str]:
-    """Load alias_to_canonical from working/wiki-parsed/alias-resolver.json."""
+    """Load alias_to_canonical from working/wiki/data/alias-resolver.json."""
     if not ALIAS_RESOLVER_PATH.exists():
         warnings.warn(f"alias-resolver.json not found at {ALIAS_RESOLVER_PATH}")
         return {}

@@ -27,7 +27,7 @@ cd "$REPO_ROOT"
 STATS_DIR="working/extraction-stats"
 WORKLOG_FILE="worklog.md"
 WIKI_STATE_DIR="working/wiki-pass2"
-TRIAGE_MANIFEST="working/wiki-parsed/triage-manifest.jsonl"
+TRIAGE_MANIFEST="working/wiki/pass2-staging/triage-manifest.jsonl"
 STOP_FILE="/tmp/wiki-pass2-stop"
 WAVE_SIZE=4          # 3-5 buckets per wave (default 4)
 VERSION="v1"
@@ -330,7 +330,7 @@ input_pages = manifest.get("input_pages", [])
 
 # Load Track B data if available
 infobox_data = {}
-infobox_path = os.path.join(repo_root, "working/wiki-parsed/infobox-data.jsonl")
+infobox_path = os.path.join(repo_root, "working/wiki/data/infobox-data.jsonl")
 if os.path.exists(infobox_path):
     with open(infobox_path) as f:
         for line in f:
@@ -347,7 +347,7 @@ if os.path.exists(infobox_path):
 
 # Load page-index data if available
 page_index = {}
-page_index_path = os.path.join(repo_root, "working/wiki-parsed/page-index.jsonl")
+page_index_path = os.path.join(repo_root, "working/wiki/data/page-index.jsonl")
 if os.path.exists(page_index_path):
     with open(page_index_path) as f:
         for line in f:
@@ -1588,7 +1588,7 @@ wiki-pass2.sh — Wiki Pass 2 launcher for the Weirwood Network
 Subcommands:
   triage [--accept]
       Draft bucket assignments from triage manifest.
-      --accept writes per-bucket manifests to working/wiki-pass2/<bucket>/manifest.json
+      --accept writes per-bucket manifests to working/wiki/pass2-buckets/<bucket>/manifest.json
 
   run <tier> [--wave N] [--bucket <id>] [--orphan-threshold-min N]
       Process pending buckets in a tier. Atomic: validates before promoting
@@ -1617,7 +1617,7 @@ Subcommands:
       Refuses if tmp/ has files newer than started_at unless --force.
 
   questions [--unresolved|--bucket <id>|--type <type>]
-      Query working/wiki-pass2/questions-for-matt.jsonl.
+      Query working/wiki/pass2-buckets/questions-for-matt.jsonl.
       Types: disambiguation | tier | promotion | other
 
   stop

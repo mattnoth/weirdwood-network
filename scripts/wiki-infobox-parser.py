@@ -2,7 +2,7 @@
 """Parse cached AWOIAF wiki JSON files and emit structured data for Pass 2.
 
 Reads every JSON file in sources/wiki/_raw/ and produces three outputs in
-working/wiki-parsed/:
+working/wiki/data/:
 
   infobox-data.jsonl  — one object per page that has an infobox: entity type,
                         first_available, books, relationships, aliases, cite_refs
@@ -22,7 +22,7 @@ Usage:
   python scripts/wiki-infobox-parser.py --page Eddard_Stark  # single page debug
 
 Output directories:
-  working/wiki-parsed/
+  working/wiki/data/
 
 Source data:
   sources/wiki/_raw/*.json   — cached wiki pages with {page, html, fetched} keys
@@ -50,7 +50,7 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 RAW_DIR = PROJECT_ROOT / "sources" / "wiki" / "_raw"
 CHAPTERS_BASE = PROJECT_ROOT / "sources" / "chapters"
-OUTPUT_DIR = PROJECT_ROOT / "working" / "wiki-parsed"
+OUTPUT_DIR = PROJECT_ROOT / "working" / "wiki" / "data"
 
 INFOBOX_DATA_FILE = OUTPUT_DIR / "infobox-data.jsonl"
 PAGE_INDEX_FILE = OUTPUT_DIR / "page-index.jsonl"
@@ -77,7 +77,7 @@ CITE_REF_RE = re.compile(
 #
 # THIS DICT IS THE EDGE VOCABULARY LOCK FOR THE PROJECT.
 #
-# Every edge in every Pass 2 node (working/wiki-pass2/*/tmp/*.node.md and
+# Every edge in every Pass 2 node (working/wiki/pass2-buckets/*/tmp/*.node.md and
 # graph/nodes/**/*.node.md) traces back to a row here. Downstream scripts
 # (wiki-pass2-emit-deterministic.py) and downstream agents (wiki-ingester
 # in Stage 3b prose-only mode) emit edges as a faithful pass-through of
@@ -767,7 +767,7 @@ def classify_by_page_name(page_name):
 # footers, leaving 70.4% of pages classified as `unknown` because the
 # infobox-only path doesn't recognize swords / books / songs / castles / etc.
 # The exception-fetch script `scripts/wiki-fetch-categories.py` populated
-# `working/wiki-parsed/page-categories.jsonl` with MediaWiki categories for
+# `working/wiki/data/page-categories.jsonl` with MediaWiki categories for
 # all 17,657 pages. This table maps those categories to project entity types.
 #
 # Order of precedence in process_page():
@@ -976,7 +976,7 @@ _PAGE_CATEGORIES: dict[str, list[str]] = {}
 
 
 def load_page_categories():
-    """Load working/wiki-parsed/page-categories.jsonl into _PAGE_CATEGORIES dict.
+    """Load working/wiki/data/page-categories.jsonl into _PAGE_CATEGORIES dict.
 
     Called once from main() before processing pages. Returns count loaded.
     Returns 0 if the file doesn't exist (parser still works in legacy mode).
@@ -1409,7 +1409,7 @@ def process_page(page_name, html_str, chapter_map, verbose=False):
     total_cite_refs = sum(cr_counts.values())
 
     # --- Categories ---
-    # Primary source: working/wiki-parsed/page-categories.jsonl, populated by
+    # Primary source: working/wiki/data/page-categories.jsonl, populated by
     # scripts/wiki-fetch-categories.py (Path B exception fetch, 2026-04-30).
     # The original wiki crawl stripped catlinks footers, so the inline href
     # extraction below is a fallback only.

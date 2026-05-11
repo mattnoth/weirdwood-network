@@ -22,12 +22,12 @@ For each known multi-type entity (initial list: Citadel, Faith of the Seven; exp
 ## Inputs (when implemented)
 
 - `graph/nodes/<type>/<slug>.node.md` for each candidate multi-type entity
-- All `working/wiki-pass2/<bucket>/prose-edges/*.edges.jsonl` referencing the entity as target
+- All `working/wiki/pass2-buckets/<bucket>/prose-edges/*.edges.jsonl` referencing the entity as target
 - `reference/architecture.md` § "Type Reference Table" + Multi-type entity policy
 
 ## Output (when implemented)
 
-- `working/wiki-pass2/multi-type-decisions.jsonl` — one row per resolved entity with the chosen outcome and rationale
+- `working/wiki/pass2-buckets/multi-type-decisions.jsonl` — one row per resolved entity with the chosen outcome and rationale
 - `working/curation/schema-split-proposals.md` — accumulated (b) outcomes for batch review
 
 ## Hard constraints (when implemented)

@@ -27,16 +27,16 @@ Page-kind labels (Tier C only, first match wins)
 
 Inputs
 ------
-- working/wiki-parsed/page-index.jsonl       (17,657 rows)
-- working/wiki-parsed/infobox-data.jsonl     (5,279 rows)
+- working/wiki/data/page-index.jsonl       (17,657 rows)
+- working/wiki/data/infobox-data.jsonl     (5,279 rows)
 - extractions/mechanical/agot/*.extraction.md (73 files)
 - sources/wiki/_raw/<Page_Name>.json          (Tier C redirect detection only)
-- working/wiki-pass2/*/manifest.json          (only secondary-tier manifests modified)
+- working/wiki/pass2-buckets/*/manifest.json          (only secondary-tier manifests modified)
 
 Outputs (--apply only)
 -------
 - Writes `priority` field into each secondary manifest (additive, no existing fields touched)
-- Writes working/wiki-parsed/priority-summary.json
+- Writes working/wiki/pass2-staging/priority-summary.json
 
 Usage
 -----
@@ -63,12 +63,12 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 
-PAGE_INDEX_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "page-index.jsonl"
-INFOBOX_DATA_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "infobox-data.jsonl"
+PAGE_INDEX_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "page-index.jsonl"
+INFOBOX_DATA_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "infobox-data.jsonl"
 AGOT_EXTRACTIONS_DIR = PROJECT_ROOT / "extractions" / "mechanical" / "agot"
 WIKI_RAW_DIR = PROJECT_ROOT / "sources" / "wiki" / "_raw"
-WIKI_PASS2_DIR = PROJECT_ROOT / "working" / "wiki-pass2"
-PRIORITY_SUMMARY_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "priority-summary.json"
+WIKI_PASS2_DIR = PROJECT_ROOT / "working" / "wiki" / "pass2-buckets"
+PRIORITY_SUMMARY_FILE = PROJECT_ROOT / "working" / "wiki" / "pass2-staging" / "priority-summary.json"
 
 # Threshold for cite_ref_books sum to qualify for Tier A
 CITE_REF_THRESHOLD = 5

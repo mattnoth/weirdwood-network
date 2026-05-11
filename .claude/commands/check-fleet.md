@@ -12,7 +12,7 @@ This command runs in a fresh Claude Code session — the assumption is you don't
 
 4. **Read recent stage activity.** Glob `working/fleet-stats/stage-*-summary-*.md` and read the most recent. Surface its topline + verdict.
 
-5. **Check blocking questions.** Read `working/wiki-pass2/questions-for-matt.jsonl` (the canonical channel) and filter to rows with `blocking: true` AND `resolved_at: null`. List each with full text. These are the things waiting on Matt.
+5. **Check blocking questions.** Read `working/wiki/pass2-buckets/questions-for-matt.jsonl` (the canonical channel) and filter to rows with `blocking: true` AND `resolved_at: null`. List each with full text. These are the things waiting on Matt.
 
 6. **Tail the log.** Read the last 50 lines of `working/fleet-stats/orchestrator.log` if it exists.
 
@@ -72,7 +72,7 @@ What next? You can ask me to:
 
 **Do NOT** use the orchestrator-state file as the only source of truth — cross-check against actual on-disk state. If the state file says "stage-2 wave-47 in progress" but no stage-2 process is running (heartbeat stale + no recent log activity), the daemon may have crashed.
 
-**Do NOT** modify any state files except `working/wiki-pass2/questions-for-matt.jsonl` (when the user asks you to record an answer). Even then, append-only edit semantics: only set the `resolved_at` and `resolution` fields on existing rows; don't touch other fields, don't reorder, don't delete.
+**Do NOT** modify any state files except `working/wiki/pass2-buckets/questions-for-matt.jsonl` (when the user asks you to record an answer). Even then, append-only edit semantics: only set the `resolved_at` and `resolution` fields on existing rows; don't touch other fields, don't reorder, don't delete.
 
 **Do NOT** restart the orchestrator daemon yourself. Restarts go through `weirwood fleet start/resume/stop`. If the user asks for a restart, give them the exact shell command.
 
@@ -82,8 +82,8 @@ The fleet orchestrator daemon is not yet implemented (see `working/agent-fleet-s
 
 1. Render a fallback report based on EXISTING orchestration state:
    - Mechanical extraction stats from `working/extraction-stats/extraction-stats-*.csv`
-   - Wiki Pass 2 manifests from `working/wiki-pass2/*/manifest.json`
-   - Questions in `working/wiki-pass2/questions-for-matt.jsonl`
+   - Wiki Pass 2 manifests from `working/wiki/pass2-buckets/*/manifest.json`
+   - Questions in `working/wiki/pass2-buckets/questions-for-matt.jsonl`
 2. State explicitly that the fleet daemon isn't running and what existing-orchestration state you're reporting on instead.
 3. Don't pretend the daemon exists.
 

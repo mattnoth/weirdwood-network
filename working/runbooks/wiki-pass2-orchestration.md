@@ -18,7 +18,7 @@ Two layers, distinct concerns:
 
 | Layer | Mechanism | Output | Volume |
 |-------|-----------|--------|--------|
-| Track B (deterministic) | One Python script, no agent | `working/wiki-parsed/infobox-data.jsonl` (one row per page) + per-page cite_ref tables | All ~17,657 pages — single batch |
+| Track B (deterministic) | One Python script, no agent | `working/wiki/data/infobox-data.jsonl` (one row per page) + per-page cite_ref tables | All ~17,657 pages — single batch |
 | Pass 2 (agentic) | Claude agents over Track B output + raw HTML + Pass 1 extractions | `graph/nodes/{type}/<entity>.node.md` files | A curated subset — see §1 triage |
 
 This runbook is about Pass 2. Track B is its prerequisite and its primary input.
@@ -36,7 +36,7 @@ This runbook is about Pass 2. Track B is its prerequisite and its primary input.
 - Aliases from infobox.
 - Entity-type *suggestion* from infobox-field signature (Father+Mother+Spouse → `character.human`, Sigil+Seat+Words → `organization.house`, etc.).
 - Triage signals: page length, infobox richness, cite_ref count, wiki category set.
-- **L1 page-index (mandatory deliverable)** — Track B emits `working/wiki-parsed/page-index.jsonl`, one row per page with `{page, entity_type_guess, categories[], cite_ref_books[], has_infobox, byte_size}`. This is the queryable index that triage (L2), per-bucket manifests (L3), and any later review-tier query build on. Re-querying any tier greps this file rather than re-parsing 17k HTML blobs. Without L1, every later layer re-derives categories from raw HTML — non-starter at this scale.
+- **L1 page-index (mandatory deliverable)** — Track B emits `working/wiki/data/page-index.jsonl`, one row per page with `{page, entity_type_guess, categories[], cite_ref_books[], has_infobox, byte_size}`. This is the queryable index that triage (L2), per-bucket manifests (L3), and any later review-tier query build on. Re-querying any tier greps this file rather than re-parsing 17k HTML blobs. Without L1, every later layer re-derives categories from raw HTML — non-starter at this scale.
 
 **Agentic (Claude, Pass 2):**
 - **Promote/skip decision** when triage is ambiguous.
@@ -59,7 +59,7 @@ Track B output → Triage → Pass 2 buckets
 Triage answers: *which pages get the agent treatment, and in what bucket?* Inputs are deterministic signals (length, infobox, cite_refs, categories, overlap with Pass 1 raw entity lists). Output is a manifest:
 
 ```
-working/wiki-parsed/triage-manifest.jsonl
+working/wiki/pass2-staging/triage-manifest.jsonl
 {
   "page": "Eddard_Stark",
   "tier": "core",        # core | secondary | reference-only | skip
@@ -129,9 +129,9 @@ Auto-derive a draft from the L1 page-index, then hand-edit before launch. The v1
 - **Pages with no usable categories** fall into a `singletons-<entity-type-guess>` bucket and stay there until reviewed.
 - **Multi-category pages** are assigned per the disjointness tiebreakers in §1.2.
 
-Output: `working/wiki-pass2/draft-buckets.jsonl`, one row per bucket with `{bucket_id, source_categories[], pages[], total_bytes, page_count, tier_default, oversized}`. The user reviews the draft (diff with prior run if re-running), then re-invokes triage with `--accept` to commit per-bucket manifests at `working/wiki-pass2/<bucket>/manifest.json`.
+Output: `working/wiki/pass2-buckets/draft-buckets.jsonl`, one row per bucket with `{bucket_id, source_categories[], pages[], total_bytes, page_count, tier_default, oversized}`. The user reviews the draft (diff with prior run if re-running), then re-invokes triage with `--accept` to commit per-bucket manifests at `working/wiki/pass2-buckets/<bucket>/manifest.json`.
 
-Re-running triage **without** `--accept` regenerates the draft only; nothing in `working/wiki-pass2/<bucket>/manifest.json` mutates. This makes triage iteration safe — Matt can re-run as many drafts as he likes before committing.
+Re-running triage **without** `--accept` regenerates the draft only; nothing in `working/wiki/pass2-buckets/<bucket>/manifest.json` mutates. This makes triage iteration safe — Matt can re-run as many drafts as he likes before committing.
 
 Refine the v1 rule after the first scaled run if seam quality is poor. Until then, the rule lives in `scripts/wiki-pass2-triage.py` as constants at the top of the file.
 
@@ -185,7 +185,7 @@ Mapping:
 | Book (`agot`, `acok`, …)    | Tier (`core`, `secondary`)     |
 | Chapter file (`agot-bran-01`) | Bucket (`stark-bannermen`)   |
 | Wave (5 chapters)           | Wave (3-5 buckets)             |
-| `extractions/mechanical/<book>/` | `graph/nodes/` + `working/wiki-pass2/<bucket>/manifest.json` |
+| `extractions/mechanical/<book>/` | `graph/nodes/` + `working/wiki/pass2-buckets/<bucket>/manifest.json` |
 | `extraction-stats-{book}-pass1-v3.csv` | `wiki-pass2-stats-{tier}-v1.csv` |
 
 Wave size of 3-5 *buckets* (not pages) is smaller than Pass 1's 5-chapter waves because each bucket is a multi-page agentic call. Buckets are the chapter-equivalent.
@@ -198,7 +198,7 @@ Rationale: tier order encodes priority; alphabetical order within tier makes wav
 
 #### 2.1.1 Agent input contract
 
-The agent receives a single file: `working/wiki-pass2/<bucket>/bucket_input.json`, composed by the launcher before it invokes `claude -p`. The agent never reads the raw cache, the Track B JSONL, or Pass 1 extractions directly — everything it needs is pre-staged.
+The agent receives a single file: `working/wiki/pass2-buckets/<bucket>/bucket_input.json`, composed by the launcher before it invokes `claude -p`. The agent never reads the raw cache, the Track B JSONL, or Pass 1 extractions directly — everything it needs is pre-staged.
 
 Schema:
 
@@ -270,7 +270,7 @@ Bucket fails validation → wave continues but bucket is logged `status=validati
 
 ### 3.2 Spot-check sampling
 
-Every Nth bucket (configurable, default 10), the runbook mandates a manual spot-check: pick 3 random emitted nodes, diff against the source wiki page, log discrepancies in `working/wiki-pass2/spot-checks.md`. Three consecutive bad spot-checks → halt the run, flag for prompt review.
+Every Nth bucket (configurable, default 10), the runbook mandates a manual spot-check: pick 3 random emitted nodes, diff against the source wiki page, log discrepancies in `working/wiki/pass2-buckets/spot-checks.md`. Three consecutive bad spot-checks → halt the run, flag for prompt review.
 
 **Why required, not optional:** Pass 1 had a manual schema review at the end of AGOT v3 that surfaced the 4-vs-12 category gap. Pass 2 is too long-running to defer review to the end; the in-line spot-check forces continuous calibration.
 
@@ -327,7 +327,7 @@ Mirror extract.sh:
 
 ### 4.3 Per-bucket transcript log
 
-Same pattern as `/tmp/extraction-{ch}.log`: every bucket's full agent output kept in `/tmp/wiki-pass2-{bucket}.log` for the duration of the run. Successful bucket logs are purged on next launch; failed bucket logs are copied to `working/wiki-pass2/failures/<bucket>-<timestamp>.log` for post-mortem.
+Same pattern as `/tmp/extraction-{ch}.log`: every bucket's full agent output kept in `/tmp/wiki-pass2-{bucket}.log` for the duration of the run. Successful bucket logs are purged on next launch; failed bucket logs are copied to `working/wiki/pass2-buckets/failures/<bucket>-<timestamp>.log` for post-mortem.
 
 ### 4.3.1 Status output
 
@@ -349,9 +349,9 @@ Roll-up footer (always shown, even when filtered to a single tier):
 core:        14/47 buckets ok, 2 failed, 31 pending
 secondary:    0/120 buckets ok, 0 failed, 120 pending
 total cost so far:     $42.18
-conflicts:             3   (working/wiki-pass2/conflicts.jsonl)
-contradictions:        7   (working/wiki-pass2/pass1-contradictions.jsonl)
-unresolved questions: 12   (working/wiki-pass2/questions-for-matt.jsonl)
+conflicts:             3   (working/wiki/pass2-buckets/conflicts.jsonl)
+contradictions:        7   (working/wiki/pass2-buckets/pass1-contradictions.jsonl)
+unresolved questions: 12   (working/wiki/pass2-buckets/questions-for-matt.jsonl)
 ```
 
 Without `[tier]`, both tiers print. Without any state on disk yet (first ever invocation), the command prints "no triage manifest found — run `weirwood wiki triage` first" and exits 0.
@@ -362,14 +362,14 @@ Without `[tier]`, both tiers print. Without any state on disk yet (first ever in
 
 ### 5.0 Bucket discovery — two-tier truth
 
-On launch, the launcher discovers buckets from `working/wiki-pass2/*/manifest.json` first (canonical state). The triage manifest at `working/wiki-parsed/triage-manifest.jsonl` is consulted only for buckets without on-disk manifests; missing manifests are generated before the wave starts.
+On launch, the launcher discovers buckets from `working/wiki/pass2-buckets/*/manifest.json` first (canonical state). The triage manifest at `working/wiki/pass2-staging/triage-manifest.jsonl` is consulted only for buckets without on-disk manifests; missing manifests are generated before the wave starts.
 
 **Two-tier truth model:**
 
 | Source | What it owns | Mutated by |
 |--------|--------------|------------|
-| `working/wiki-parsed/triage-manifest.jsonl` | **Membership** — which pages belong to which bucket, the tier assignment, the tiebreaker reason | `scripts/wiki-pass2-triage.py --accept` only |
-| `working/wiki-pass2/<bucket>/manifest.json` | **Status** — where in the lifecycle the bucket is (`pending|in-progress|complete|failed|partial`) | The launcher only |
+| `working/wiki/pass2-staging/triage-manifest.jsonl` | **Membership** — which pages belong to which bucket, the tier assignment, the tiebreaker reason | `scripts/wiki-pass2-triage.py --accept` only |
+| `working/wiki/pass2-buckets/<bucket>/manifest.json` | **Status** — where in the lifecycle the bucket is (`pending|in-progress|complete|failed|partial`) | The launcher only |
 
 A re-run of triage adds or updates membership but never overwrites a bucket's status manifest. Status changes flow only through the launcher. If membership and status disagree (a re-triage adds a page to a `complete` bucket), the launcher downgrades that manifest to `partial` per §5.1.1 and queues the new pages.
 
@@ -377,7 +377,7 @@ A re-run of triage adds or updates membership but never overwrites a bucket's st
 
 A bucket is **complete** iff:
 1. `graph/nodes/<type>/<entity>.node.md` exists for every promoted entity in the bucket's manifest, AND
-2. `working/wiki-pass2/<bucket>/manifest.json` has `status: complete` and matching fingerprint.
+2. `working/wiki/pass2-buckets/<bucket>/manifest.json` has `status: complete` and matching fingerprint.
 
 The launcher discovers incomplete buckets the same way `extract.sh::find_incomplete_waves` discovers incomplete waves: scan filesystem, derive state, no DB.
 
@@ -426,12 +426,12 @@ Reconciliation never mutates `graph/nodes/`. Only manifest JSON is rewritten. Th
 }
 ```
 
-Manifests are generated up-front from triage output and live in `working/wiki-pass2/<bucket>/manifest.json`. The launcher mutates them; agents do not.
+Manifests are generated up-front from triage output and live in `working/wiki/pass2-buckets/<bucket>/manifest.json`. The launcher mutates them; agents do not.
 
 #### Per-bucket on-disk layout
 
 ```
-working/wiki-pass2/<bucket>/
+working/wiki/pass2-buckets/<bucket>/
 ├── manifest.json              # bucket lifecycle state (canonical schema above)
 ├── bucket_input.json          # agent input bundle (composed by launcher; see §2.1.1)
 ├── tmp/                       # in-flight node output, awaiting the validator gate
@@ -439,7 +439,7 @@ working/wiki-pass2/<bucket>/
 └── validator-report.json      # last validator run output (overwritten each run)
 ```
 
-Failure logs go to `working/wiki-pass2/failures/<bucket>-<timestamp>.log` (per §4.3) — outside the per-bucket directory, so a `reset` of one bucket's state does not drop its prior failure logs.
+Failure logs go to `working/wiki/pass2-buckets/failures/<bucket>-<timestamp>.log` (per §4.3) — outside the per-bucket directory, so a `reset` of one bucket's state does not drop its prior failure logs.
 
 #### `update_worklog()` target line shape
 
@@ -495,7 +495,7 @@ Behavior:
 
 - Identifies every `*.node.md` under `graph/nodes/` whose frontmatter `prompt_version` matches `v1`. Moves them to `graph/archives/wiki-pass2-v1-<timestamp>/` (or the user-supplied `--archive-dir`), preserving the parent-type subdirectory layout.
 - Identifies every bucket whose `manifest.json` has `prompt_version: v1`. Moves the per-bucket directory (`manifest.json`, `bucket_input.json`, `tmp/`, `validator-report.json`) into the same archive directory under `wiki-pass2-state/`.
-- Leaves untouched: `working/wiki-parsed/` (Track B output is still valid input), `working/wiki-pass2/conflicts.jsonl`, `working/wiki-pass2/pass1-contradictions.jsonl`, `working/wiki-pass2/questions-for-matt.jsonl`, `working/wiki-pass2/failures/` (audit trail must survive resets), `graph/nodes/_conflicts/` (same reason).
+- Leaves untouched: `working/wiki/data/` (Track B output is still valid input), `working/wiki/pass2-buckets/conflicts.jsonl`, `working/wiki/pass2-buckets/pass1-contradictions.jsonl`, `working/wiki/pass2-buckets/questions-for-matt.jsonl`, `working/wiki/pass2-buckets/failures/` (audit trail must survive resets), `graph/nodes/_conflicts/` (same reason).
 - Prints a summary: files moved, bucket count, archive path, what was preserved.
 - Refuses to run without `--version`; refuses if the archive directory already exists (caller must rename / move it first to avoid silent merging).
 - `--dry-run` prints the same summary without moving anything.
@@ -534,7 +534,7 @@ Pass 2 is meant to run unattended for long stretches. The orchestration must gua
 
 **Hard rules — implementation must enforce all of these:**
 
-- **No overwrite of existing node files.** Every agent write goes to `working/wiki-pass2/<bucket>/tmp/`. Promotion to `graph/nodes/` is atomic-rename, and only if (a) the destination does not exist OR (b) the manifest fingerprint matches and the new content is byte-equivalent. Mismatched fingerprint with existing node → write to `graph/nodes/_conflicts/<entity>-<bucket>-<timestamp>.node.md` and append a row to `working/wiki-pass2/conflicts.jsonl`. Never silently replace.
+- **No overwrite of existing node files.** Every agent write goes to `working/wiki/pass2-buckets/<bucket>/tmp/`. Promotion to `graph/nodes/` is atomic-rename, and only if (a) the destination does not exist OR (b) the manifest fingerprint matches and the new content is byte-equivalent. Mismatched fingerprint with existing node → write to `graph/nodes/_conflicts/<entity>-<bucket>-<timestamp>.node.md` and append a row to `working/wiki/pass2-buckets/conflicts.jsonl`. Never silently replace.
 - **No destructive re-run.** A re-launch never deletes prior nodes, prior manifests, prior stats, or prior failure logs. "Reset" is an explicit, separate command — never the default of any launcher subcommand.
 - **No partial output on disk.** The validator gate from §3.1 is the only path from `tmp/` to `graph/nodes/`. A killed process leaves files in `tmp/` (recoverable) but never half-validated nodes in the graph proper.
 - **All decisions traced.** Every node carries `wiki_source`, `bucket_id`, and `prompt_version` in frontmatter. A user reading any node six months later can reproduce its lineage.
@@ -542,7 +542,7 @@ Pass 2 is meant to run unattended for long stretches. The orchestration must gua
 
 **Question queue for async sessions:**
 
-When a bucket or wave surfaces a question that needs Matt's input but isn't blocking, the agent appends a JSONL row to `working/wiki-pass2/questions-for-matt.jsonl`. The run does not stop. Matt drains the queue at his pace; resolved questions migrate to the curation queue or back into prompt updates. This converts stop-start interruptions into batched async review.
+When a bucket or wave surfaces a question that needs Matt's input but isn't blocking, the agent appends a JSONL row to `working/wiki/pass2-buckets/questions-for-matt.jsonl`. The run does not stop. Matt drains the queue at his pace; resolved questions migrate to the curation queue or back into prompt updates. This converts stop-start interruptions into batched async review.
 
 Schema (one JSON object per line):
 
@@ -564,7 +564,7 @@ Schema (one JSON object per line):
 
 **`_conflicts/` consumer — the conflicts log:**
 
-Every conflict-write under the "no overwrite" rule appends a row to `working/wiki-pass2/conflicts.jsonl`:
+Every conflict-write under the "no overwrite" rule appends a row to `working/wiki/pass2-buckets/conflicts.jsonl`:
 
 ```json
 {
@@ -590,7 +590,7 @@ Pass 1 is not complete on 4/5 books. The graph nodes Pass 2 produces are explici
 - Edge tuples carry `pass_origin: pass2-wiki` so a later pass building edges from chapter text can supersede them without ambiguity.
 - The validator does *not* enforce that a node's claims appear in any chapter extraction — Pass 1 is incomplete, so absence is not evidence of error. Cross-check with Pass 1 is a *signal* (logged), not a *gate*.
 
-The contradiction signal is logged to `working/wiki-pass2/pass1-contradictions.jsonl`, one row per detected contradiction:
+The contradiction signal is logged to `working/wiki/pass2-buckets/pass1-contradictions.jsonl`, one row per detected contradiction:
 
 ```json
 {
@@ -631,7 +631,7 @@ The continue prompt asks: do Pass 2's actual access patterns demand a DB?
 | Access pattern | Markdown+JSONL handling | Painful? |
 |----------------|------------------------|----------|
 | "Find all nodes referencing House Stark" | Grep `graph/nodes/` | No — fast at this scale |
-| "Resolve `Eddard_Stark` → node file" | Slug map: `working/wiki-parsed/slug-to-node.json` | No |
+| "Resolve `Eddard_Stark` → node file" | Slug map: `working/wiki/data/slug-to-node.json` | No |
 | "Find first appearance of entity X" | Read its node frontmatter | No |
 | "All edges of type SWORN_TO involving House X" | Grep on edges JSONL | No at our edge count |
 | "All characters serving House X across multiple hops" | **Painful** — needs traversal | **Yes — but Pass 2 doesn't need this.** This is a Pass 3+ / query-time concern |
@@ -662,7 +662,7 @@ These need resolution **before** implementation but not in this runbook:
 4. **Promotion threshold** — what triage signal score promotes a page from `secondary` to `core` or `reference-only` to `secondary`? Implementation will need a concrete formula, not a hand-wave.
 5. **Node body length budget** — too-short nodes lose canon, too-long nodes bloat the graph. Pick a target (e.g., 200-500 words) and enforce in validator.
 6. **Curation queue surface** — where does Matt's review queue live? Likely `curation/candidates.md` already used by Pass 1, but Pass 2 could overwhelm it. May need a per-pass curation file.
-7. **Wiki-cache snapshotting** — if the wiki is recrawled, Track B's output changes. Should `working/wiki-parsed/` be checkpointed under a date stamp so Pass 2 runs are reproducible?
+7. **Wiki-cache snapshotting** — if the wiki is recrawled, Track B's output changes. Should `working/wiki/data/` be checkpointed under a date stamp so Pass 2 runs are reproducible?
 
 ---
 
@@ -670,7 +670,7 @@ These need resolution **before** implementation but not in this runbook:
 
 When this runbook becomes code, the sequence is **build → review → prompt → commence → scale**, with explicit session boundaries:
 
-1. **Track B** — Land the deterministic parser per `progress/continue-prompts/2026-04-24-track-b-wiki-infobox-parser.md`. L1 page-index (`working/wiki-parsed/page-index.jsonl`) is mandatory.
+1. **Track B** — Land the deterministic parser per `progress/continue-prompts/2026-04-24-track-b-wiki-infobox-parser.md`. L1 page-index (`working/wiki/data/page-index.jsonl`) is mandatory.
 2. **Build session — scripts only, no agent runs.** Per `progress/continue-prompts/2026-04-25-implement-wiki-pass2-orchestration.md`:
    - `scripts/wiki-pass2-triage.py` (produces `draft-buckets.jsonl`, then per-bucket manifests on `--accept`)
    - `scripts/wiki-pass2-validator.py`
@@ -703,7 +703,7 @@ The shell entry point stays `weirwood`. Wiki Pass 2 is a subcommand on the same 
 | `extract.sh status agot` | `wiki-pass2.sh status core` |
 | `extract.sh run agot --wave 4` | `wiki-pass2.sh run core --wave 4` |
 | `is_complete()` (line count + section grep) | `is_bucket_complete()` (manifest fingerprint + node files exist + validator pass) |
-| `extractions/mechanical/{book}/` | `graph/nodes/` (output) + `working/wiki-pass2/{bucket}/` (state) |
+| `extractions/mechanical/{book}/` | `graph/nodes/` (output) + `working/wiki/pass2-buckets/{bucket}/` (state) |
 | `working/extraction-stats/extraction-stats-{book}-pass1-v3.csv` | `working/extraction-stats/wiki-pass2-stats-{tier}-v1.csv` |
 
 **README** must be updated when the wiki launcher lands: add a "Wiki Pass 2" section parallel to the existing extraction section, document `weirwood wiki ...`, the question-queue file, and the walk-away-safe behaviors.

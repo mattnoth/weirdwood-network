@@ -93,11 +93,11 @@ The original Stage 4 plan conflated two different kinds of work: (a) fixing what
 **Script:** `scripts/wiki-pass2-emit-deterministic.py` (to be built)
 
 **Inputs:**
-- `working/wiki-parsed/infobox-data.jsonl` (5,279 rows)
-- `working/wiki-parsed/page-index.jsonl` (17,657 rows)
+- `working/wiki/data/infobox-data.jsonl` (5,279 rows)
+- `working/wiki/data/page-index.jsonl` (17,657 rows)
 - Per-bucket `manifest.json` (with `priority_tier` field set by priority script)
 
-**Output per page:** `working/wiki-pass2/<bucket_id>/tmp/<slug>.node.md`
+**Output per page:** `working/wiki/pass2-buckets/<bucket_id>/tmp/<slug>.node.md`
 
 **Frontmatter (deterministic):**
 - `name` — wiki page name
@@ -138,7 +138,7 @@ That's it for Tier B. Tier A nodes get the same skeleton then go to Stage 3b for
 - Per-bucket `manifest.json` — uses `priority.tier_a[]` + `priority.tier_b[]` to enumerate pages
 - Per-bucket `skeleton/<slug>.node.md` (Stage 3a output) — used to pin the slug for prose filename matching
 
-**Output per page:** `working/wiki-pass2/<bucket_id>/prose/<slug>.prose.md` (omitted if zero mapped sections)
+**Output per page:** `working/wiki/pass2-buckets/<bucket_id>/prose/<slug>.prose.md` (omitted if zero mapped sections)
 
 **H2 → schema heading mapping (deterministic, case-insensitive):**
 
@@ -164,7 +164,7 @@ That's it for Tier B. Tier A nodes get the same skeleton then go to Stage 3b for
 - HTML entities decoded; whitespace normalized
 - Tables, images, infoboxes stripped (already captured in skeleton)
 
-**Stats summary:** `working/wiki-parsed/stage3b-extraction-summary.json`. Latest run (Session 26): 2,988 prose files emitted from 3,315 candidate pages (90.1% hit rate); 327 pages had zero mappable sections (Tier-B redirects, infobox-only stubs, member-list-only pages); mean word count 294, median 105. Top remaining unmapped sections (long tail): `Legacy` (20), structured-list variants (~36 across `Character List` / `Places and terms mentioned` / `Household`).
+**Stats summary:** `working/wiki/pass2-staging/stage3b-extraction-summary.json`. Latest run (Session 26): 2,988 prose files emitted from 3,315 candidate pages (90.1% hit rate); 327 pages had zero mappable sections (Tier-B redirects, infobox-only stubs, member-list-only pages); mean word count 294, median 105. Top remaining unmapped sections (long tail): `Legacy` (20), structured-list variants (~36 across `Character List` / `Places and terms mentioned` / `Household`).
 
 ---
 
@@ -173,8 +173,8 @@ That's it for Tier B. Tier A nodes get the same skeleton then go to Stage 3b for
 **Script:** `scripts/wiki-pass2-promote.py`
 
 **Inputs per page:**
-- `working/wiki-pass2/<bucket_id>/skeleton/<slug>.node.md` (required)
-- `working/wiki-pass2/<bucket_id>/prose/<slug>.prose.md` (optional — concat if exists, else skeleton-only)
+- `working/wiki/pass2-buckets/<bucket_id>/skeleton/<slug>.node.md` (required)
+- `working/wiki/pass2-buckets/<bucket_id>/prose/<slug>.prose.md` (optional — concat if exists, else skeleton-only)
 
 **Concatenation:** `final_bytes = skeleton_bytes + b"\n" + prose_bytes` (when prose exists), else `skeleton_bytes` verbatim. The single `\n` produces one blank line between `## Edges` (end of skeleton) and `## Origins` (start of prose).
 
@@ -183,9 +183,9 @@ That's it for Tier B. Tier A nodes get the same skeleton then go to Stage 3b for
 **Conflict detection per page:**
 1. If destination doesn't exist → atomic-rename from staging tmp.
 2. If destination exists and bytes match → skip silently (idempotent re-run).
-3. If destination exists and bytes differ → write to `graph/nodes/_conflicts/<slug>-<bucket_id>-<timestamp>.node.md`, append to `working/wiki-pass2/conflicts.jsonl`.
+3. If destination exists and bytes differ → write to `graph/nodes/_conflicts/<slug>-<bucket_id>-<timestamp>.node.md`, append to `working/wiki/pass2-buckets/conflicts.jsonl`.
 
-**Stats summary:** `working/wiki-parsed/stage3-promote-summary.json`. Latest run (Session 26): 472 secondary buckets processed, 3,314 new nodes promoted, 0 conflicts, 1 unclassified (`battle-of-the-blackwater-song` — `type='unknown'`). Wall-clock: 0.84 seconds.
+**Stats summary:** `working/wiki/pass2-staging/stage3-promote-summary.json`. Latest run (Session 26): 472 secondary buckets processed, 3,314 new nodes promoted, 0 conflicts, 1 unclassified (`battle-of-the-blackwater-song` — `type='unknown'`). Wall-clock: 0.84 seconds.
 
 **Final graph state after Session 26:** 4,169 nodes total (855 from Stage 1 agent path + 3,314 from Stage 3 Python path) across `characters/` (3,361), `houses/` (315), `events/` (242), `locations/` (151), `titles/` (79), `factions/` (21).
 
@@ -194,12 +194,12 @@ That's it for Tier B. Tier A nodes get the same skeleton then go to Stage 3b for
 ## Bucket preservation — hard rule
 
 After every stage, preserve:
-- `working/wiki-pass2/<bucket_id>/bucket_input.json` (Stage 1 buckets only — Stage 3 buckets don't have these)
-- `working/wiki-pass2/<bucket_id>/manifest.json`
-- `working/wiki-pass2/<bucket_id>/skeleton/<slug>.node.md` files (Stage 3a output)
-- `working/wiki-pass2/<bucket_id>/prose/<slug>.prose.md` files (Stage 3b output)
-- `working/wiki-pass2/<bucket_id>/tmp/<slug>.node.md` files (Stage 1 only — empty for Stage 3 buckets)
-- `working/wiki-pass2/<bucket_id>/validator-report.json` (Stage 1 only)
+- `working/wiki/pass2-buckets/<bucket_id>/bucket_input.json` (Stage 1 buckets only — Stage 3 buckets don't have these)
+- `working/wiki/pass2-buckets/<bucket_id>/manifest.json`
+- `working/wiki/pass2-buckets/<bucket_id>/skeleton/<slug>.node.md` files (Stage 3a output)
+- `working/wiki/pass2-buckets/<bucket_id>/prose/<slug>.prose.md` files (Stage 3b output)
+- `working/wiki/pass2-buckets/<bucket_id>/tmp/<slug>.node.md` files (Stage 1 only — empty for Stage 3 buckets)
+- `working/wiki/pass2-buckets/<bucket_id>/validator-report.json` (Stage 1 only)
 
 **Reasons:**
 - Stage 4 (edge discovery) reads skeleton + prose to find prose-derived edges.

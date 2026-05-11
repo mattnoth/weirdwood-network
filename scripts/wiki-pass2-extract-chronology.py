@@ -12,7 +12,7 @@ plans structured per-edge `start_year` / `end_year` / `precision`
 fields rather than a dedicated edge type. This extractor produces the
 input data for that future backfill — does NOT modify graph nodes.
 
-Output: working/wiki-parsed/chronology-events.jsonl
+Output: working/wiki/data/chronology-events.jsonl
 Row shape: {
   "year_page": "298 AC",
   "year_value": 298,
@@ -41,10 +41,10 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 
-PAGE_CATEGORIES_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "page-categories.jsonl"
-PAGE_INDEX_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "page-index.jsonl"
+PAGE_CATEGORIES_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "page-categories.jsonl"
+PAGE_INDEX_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "page-index.jsonl"
 WIKI_RAW_DIR = PROJECT_ROOT / "sources" / "wiki" / "_raw"
-OUTPUT_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "chronology-events.jsonl"
+OUTPUT_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "chronology-events.jsonl"
 
 YEAR_RE = re.compile(r"^(\d{1,4})\s+(AC|BC)$", re.IGNORECASE)
 

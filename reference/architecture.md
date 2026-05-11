@@ -416,7 +416,7 @@ All agents working in this project should:
 
 > **Principle:** Markdown for things that become node content. Structured (JSONL/JSON) for things consumed by code. Don't force one format across all artifact types.
 >
-> Wiki Pass 2 produces a per-page family of intermediate artifacts at `working/wiki-pass2/<bucket_id>/<artifact-dir>/<slug>.<ext>`. Each artifact has exactly one writer (single-writer-per-file invariant). The launcher's promotion step is the only process that combines them into the final node.
+> Wiki Pass 2 produces a per-page family of intermediate artifacts at `working/wiki/pass2-buckets/<bucket_id>/<artifact-dir>/<slug>.<ext>`. Each artifact has exactly one writer (single-writer-per-file invariant). The launcher's promotion step is the only process that combines them into the final node.
 
 | Artifact | Format | Producer | Format choice why |
 |----------|--------|----------|-------------------|
@@ -427,7 +427,7 @@ All agents working in this project should:
 
 **Promotion rule:** the launcher concatenates `skeleton/<slug>.node.md + "\n" + prose/<slug>.prose.md` (when prose exists) and atomic-renames into `graph/nodes/<type>/<slug>.node.md`. Tier-B pages with no prose file get the skeleton verbatim. Stage 4 + entity-index artifacts attach later via separate promotion steps.
 
-**Investigation tooling:** `scripts/graph-query.py <slug>` — read-only CLI that prints a node's frontmatter, outbound edges (with target-resolution status: OK / ALIAS→ / ORPHAN), and top inbound references from `working/wiki-parsed/cross-references.jsonl`. Use this before grepping raw markdown when investigating any single node. Modes: default full, `--edges-only`, `--inbound-only`, `--json`.
+**Investigation tooling:** `scripts/graph-query.py <slug>` — read-only CLI that prints a node's frontmatter, outbound edges (with target-resolution status: OK / ALIAS→ / ORPHAN), and top inbound references from `working/wiki/data/cross-references.jsonl`. Use this before grepping raw markdown when investigating any single node. Modes: default full, `--edges-only`, `--inbound-only`, `--json`.
 
 **Why single-writer-per-file matters:** if two processes (e.g., Python skeleton emitter + LLM prose-fill agent) both wrote to the same file, the LLM's tendency to paraphrase or normalize would corrupt the deterministic prefix. Separating artifacts by writer makes that class of failure structurally impossible. A validator never has to enforce byte-equality; the concatenation is the only path that produces the final node.
 
@@ -437,7 +437,7 @@ All agents working in this project should:
 
 > **Vocabulary lock — read this before adding or renaming any edge type.**
 >
-> This table is the single source of truth for the wiki-derived edge vocabulary. The parser at `scripts/wiki-infobox-parser.py` (`FIELD_EDGE_MAP` dict) implements it; everything downstream — `working/wiki-parsed/infobox-data.jsonl`, `scripts/wiki-pass2-emit-deterministic.py`, the `## Edges` section in every Pass-2 node — is a faithful pass-through of what the parser produces. **No script invents edge types.** No agent should propose a new edge type without it landing here first.
+> This table is the single source of truth for the wiki-derived edge vocabulary. The parser at `scripts/wiki-infobox-parser.py` (`FIELD_EDGE_MAP` dict) implements it; everything downstream — `working/wiki/data/infobox-data.jsonl`, `scripts/wiki-pass2-emit-deterministic.py`, the `## Edges` section in every Pass-2 node — is a faithful pass-through of what the parser produces. **No script invents edge types.** No agent should propose a new edge type without it landing here first.
 >
 > **Why locked:** the graph's value comes from being able to traverse `SPOUSE_OF` everywhere consistently. If one source emits `SPOUSE_OF` and another emits `MARRIED_TO`, traversal breaks. The 22 edge types currently in the corpus were chosen deliberately; expanding the set requires the same deliberation.
 >

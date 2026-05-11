@@ -6,7 +6,7 @@ Per runbook §3.3, verifies three invariants across all emitted node files:
 
   1. Edge targets exist: for every edge target referenced in a node's body or
      frontmatter, the target node file exists in graph/nodes/ OR appears in
-     a deferred queue (working/wiki-pass2/deferred.jsonl if present).
+     a deferred queue (working/wiki/pass2-buckets/deferred.jsonl if present).
 
   2. Allegiance resolves uniquely: every 'allegiance: House X' field in a node
      frontmatter resolves to exactly one house-*.node.md in graph/nodes/houses/.
@@ -14,7 +14,7 @@ Per runbook §3.3, verifies three invariants across all emitted node files:
   3. No duplicate names: no two nodes claim the same 'name:' frontmatter field
      unless one carries 'same_as:' pointing to the other (SAME_AS relationship).
 
-Failures are appended to working/wiki-pass2/coherence-issues.jsonl, one JSON
+Failures are appended to working/wiki/pass2-buckets/coherence-issues.jsonl, one JSON
 object per issue. This script NEVER auto-fixes anything.
 
 Exit code: always 0 (informational). Issue count is printed on exit.
@@ -35,7 +35,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).parent.parent.resolve()
 GRAPH_NODES = REPO_ROOT / "graph" / "nodes"
-WIKI_PASS2 = REPO_ROOT / "working" / "wiki-pass2"
+WIKI_PASS2 = REPO_ROOT / "working" / "wiki" / "pass2-buckets"
 ISSUES_FILE = WIKI_PASS2 / "coherence-issues.jsonl"
 DEFERRED_FILE = WIKI_PASS2 / "deferred.jsonl"
 

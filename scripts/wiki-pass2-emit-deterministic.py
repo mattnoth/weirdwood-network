@@ -3,7 +3,7 @@
 
 Reads every secondary-tier bucket manifest, extracts Tier A and Tier B pages
 (skips Tier C entirely), and emits a skeleton .node.md file for each page into
-working/wiki-pass2/<bucket_id>/skeleton/<slug>.node.md.
+working/wiki/pass2-buckets/<bucket_id>/skeleton/<slug>.node.md.
 
 The `skeleton/` directory is the immutable Python record of what the parser
 produced. `tmp/` is reserved for the agent's working augmentation in Stage 3b
@@ -13,8 +13,8 @@ diffs `tmp/` against `skeleton/` on Python-owned frontmatter fields and the
 deterministic data.
 
 Node content is derived entirely from:
-  - working/wiki-parsed/infobox-data.jsonl  (entity_type, aliases, relationships)
-  - working/wiki-parsed/page-index.jsonl    (entity_type_guess fallback)
+  - working/wiki/data/infobox-data.jsonl  (entity_type, aliases, relationships)
+  - working/wiki/data/page-index.jsonl    (entity_type_guess fallback)
   - Per-bucket manifest.json                (tier_default, bucket_id)
 
 No agent involvement. No HTTP calls. No writes outside tmp/ directories.
@@ -53,10 +53,10 @@ from pathlib import Path
 # ---------------------------------------------------------------------------
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
-INFOBOX_DATA_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "infobox-data.jsonl"
-PAGE_INDEX_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "page-index.jsonl"
-WIKI_PASS2_DIR = PROJECT_ROOT / "working" / "wiki-pass2"
-STAGE3A_SUMMARY_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "stage3a-emission-summary.json"
+INFOBOX_DATA_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "infobox-data.jsonl"
+PAGE_INDEX_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "page-index.jsonl"
+WIKI_PASS2_DIR = PROJECT_ROOT / "working" / "wiki" / "pass2-buckets"
+STAGE3A_SUMMARY_FILE = PROJECT_ROOT / "working" / "wiki" / "pass2-staging" / "stage3a-emission-summary.json"
 
 # Core bucket patterns — these are already processed and must be skipped
 _SPLIT_SUFFIX = r"(-[a-z]([0-9]+)?(-[a-z]([0-9]+)?)?)?$"

@@ -5,17 +5,17 @@ Builds and runs the Stage 3 pipeline for WORSHIPS orphan slugs that have
 corresponding wiki pages but no existing node in graph/nodes/religions/.
 
 Also adds alias mappings (e.g., old-gods → old-gods-of-the-forest) to
-working/wiki-parsed/alias-resolver.json for short-form variants that should
+working/wiki/data/alias-resolver.json for short-form variants that should
 resolve to an existing canonical node.
 
 Pipeline:
   1. Build the Pass C target list from WORSHIPS orphan slugs in cat1-full.tsv,
      supplemented by the curated instruction list of religion/god slugs.
-  2. Cross-reference with working/wiki-parsed/page-index.jsonl.
+  2. Cross-reference with working/wiki/data/page-index.jsonl.
      Split into: promotable (wiki page exists) vs no-wiki.
   3. Filter out slugs already in graph/nodes/religions/.
-  4. Write no-wiki list to working/wiki-pass2/tier3-pass-c-no-wiki.jsonl.
-  5. Build manifest at working/wiki-pass2/tier3-religions/manifest.json.
+  4. Write no-wiki list to working/wiki/pass2-buckets/tier3-pass-c-no-wiki.jsonl.
+  5. Build manifest at working/wiki/pass2-buckets/tier3-religions/manifest.json.
   6. Emit skeletons with type: organization.religion.
   7. Extract prose from sources/wiki/_raw/<Page_Name>.json.
   8. Promote: skeleton + prose → graph/nodes/religions/<slug>.node.md
@@ -50,14 +50,14 @@ PROJECT_ROOT = SCRIPT_DIR.parent
 
 # Use the post-Pass-A TSV (b suffix)
 CAT1_TSV = PROJECT_ROOT / "working" / "audits" / "orphan-edges-2026-04-30b-cat1-full.tsv"
-PAGE_INDEX_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "page-index.jsonl"
-INFOBOX_DATA_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "infobox-data.jsonl"
+PAGE_INDEX_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "page-index.jsonl"
+INFOBOX_DATA_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "infobox-data.jsonl"
 WIKI_RAW_DIR = PROJECT_ROOT / "sources" / "wiki" / "_raw"
 GRAPH_RELIGIONS_DIR = PROJECT_ROOT / "graph" / "nodes" / "religions"
 CONFLICTS_DIR = PROJECT_ROOT / "graph" / "nodes" / "_conflicts"
-PASS_C_BUCKET_DIR = PROJECT_ROOT / "working" / "wiki-pass2" / "tier3-religions"
-NO_WIKI_FILE = PROJECT_ROOT / "working" / "wiki-pass2" / "tier3-pass-c-no-wiki.jsonl"
-ALIAS_RESOLVER_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "alias-resolver.json"
+PASS_C_BUCKET_DIR = PROJECT_ROOT / "working" / "wiki" / "pass2-buckets" / "tier3-religions"
+NO_WIKI_FILE = PROJECT_ROOT / "working" / "wiki" / "pass2-buckets" / "tier3-pass-c-no-wiki.jsonl"
+ALIAS_RESOLVER_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "alias-resolver.json"
 BUCKET_ID = "tier3-religions"
 
 # ---------------------------------------------------------------------------

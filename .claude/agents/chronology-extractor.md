@@ -32,12 +32,12 @@ The orchestrator should run a schema-extension session before this agent runs.
 
 - `sources/wiki/_raw/<N>_AC.json` for every year page
 - `graph/nodes/events/*.node.md` for membership check (which events are in the graph)
-- `working/wiki-parsed/page-index.jsonl` (which year pages exist)
+- `working/wiki/data/page-index.jsonl` (which year pages exist)
 
 ## Output (when implemented)
 
-- `working/wiki-parsed/chronology-edges.jsonl` — one row per edge with source / edge_type / target / citation
-- `working/wiki-parsed/chronology-summary.md` — narrative summary: how many years covered, how many events placed, gaps in coverage
+- `working/wiki/data/chronology-edges.jsonl` — one row per edge with source / edge_type / target / citation
+- `working/wiki/data/chronology-summary.md` — narrative summary: how many years covered, how many events placed, gaps in coverage
 
 ## Hard constraints (when implemented)
 

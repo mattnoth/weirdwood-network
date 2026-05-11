@@ -11,7 +11,7 @@ For the broader design framing this policy sits inside, see `reference/design-ph
 ## Rules
 
 **1. No global installs without explicit user approval.**
-Never run any of: `npm install -g`, `yarn global add`, `pip install --user`, `pip install --break-system-packages`, `pipx install` outside a documented project tool, `brew install`, `gem install` system-wide, `cargo install` to system path, or any equivalent that modifies the host's global package state. If a global tool is genuinely needed, file a question to `working/wiki-pass2/questions-for-matt.jsonl` of type `package-global-install-request` with: tool name, why needed, the exact command proposed, what alternatives were considered. User approves explicitly before the command runs.
+Never run any of: `npm install -g`, `yarn global add`, `pip install --user`, `pip install --break-system-packages`, `pipx install` outside a documented project tool, `brew install`, `gem install` system-wide, `cargo install` to system path, or any equivalent that modifies the host's global package state. If a global tool is genuinely needed, file a question to `working/wiki/pass2-buckets/questions-for-matt.jsonl` of type `package-global-install-request` with: tool name, why needed, the exact command proposed, what alternatives were considered. User approves explicitly before the command runs.
 
 **2. Project-local installs only.**
 - Python: always inside a virtual environment (`python3 -m venv venv`, then `source venv/bin/activate`). Pin in `requirements.txt` or `pyproject.toml`.

@@ -58,7 +58,7 @@ Open these files cold. **Skip session-detail files** for the Stage-1 sessions â€
 python3 -c "
 import json, glob, collections
 status = collections.Counter()
-for f in sorted(glob.glob('working/wiki-pass2/*/manifest.json')):
+for f in sorted(glob.glob('working/wiki/pass2-buckets/*/manifest.json')):
     d=json.load(open(f))
     if d['tier']=='core': status[d['status']] += 1
 print(dict(status))"
@@ -67,11 +67,11 @@ print(dict(status))"
 cat working/extraction-stats/wiki-pass2-stats-core-v1.csv
 
 # Question queue â€” should all be resolved
-cat working/wiki-pass2/questions-for-matt.jsonl
+cat working/wiki/pass2-buckets/questions-for-matt.jsonl
 
 # Conflict + contradiction queues
-cat working/wiki-pass2/conflicts.jsonl
-cat working/wiki-pass2/pass1-contradictions.jsonl
+cat working/wiki/pass2-buckets/conflicts.jsonl
+cat working/wiki/pass2-buckets/pass1-contradictions.jsonl
 
 # Node count by directory
 find graph/nodes/ -name '*.node.md' | awk -F/ '{print $3}' | sort | uniq -c

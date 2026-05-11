@@ -3,13 +3,13 @@
 
 Reads every secondary-tier bucket manifest, extracts Tier A and Tier B pages
 (skips Tier C entirely), and writes one prose file per page to:
-  working/wiki-pass2/<bucket_id>/prose/<slug>.prose.md
+  working/wiki/pass2-buckets/<bucket_id>/prose/<slug>.prose.md
 
 Prose is extracted from the locally cached wiki HTML at:
   sources/wiki/_raw/<Page_Name>.json
 
 The slug is determined by reading the matching skeleton filename from
-  working/wiki-pass2/<bucket_id>/skeleton/
+  working/wiki/pass2-buckets/<bucket_id>/skeleton/
 to guarantee byte-perfect slug consistency with Stage 3a.
 
 No HTTP calls. No agent involvement. No writes outside the prose/ directory.
@@ -67,9 +67,9 @@ from bs4 import BeautifulSoup, NavigableString, Tag
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 WIKI_RAW_DIR = PROJECT_ROOT / "sources" / "wiki" / "_raw"
-WIKI_PASS2_DIR = PROJECT_ROOT / "working" / "wiki-pass2"
+WIKI_PASS2_DIR = PROJECT_ROOT / "working" / "wiki" / "pass2-buckets"
 STAGE3B_SUMMARY_FILE = (
-    PROJECT_ROOT / "working" / "wiki-parsed" / "stage3b-extraction-summary.json"
+    PROJECT_ROOT / "working" / "wiki" / "pass2-staging" / "stage3b-extraction-summary.json"
 )
 
 # ---------------------------------------------------------------------------

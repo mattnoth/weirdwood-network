@@ -25,8 +25,8 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 NODES_ROOT = ROOT / "graph/nodes"
-ALIAS_RESOLVER = ROOT / "working/wiki-parsed/alias-resolver.json"
-BACKLINKS = ROOT / "working/wiki-parsed/backlink-counts.json"
+ALIAS_RESOLVER = ROOT / "working/wiki/data/alias-resolver.json"
+BACKLINKS = ROOT / "working/wiki/data/backlink-counts.json"
 
 UTC_DATE = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 # Override with explicit date if argv[1] supplied (deterministic for re-runs)
@@ -469,7 +469,7 @@ P(f"Of {total_edges} edges across {total_nodes} nodes, {edges_resolved} resolve 
   f"Religion-bleed leftovers: {total_stale}. Title-like targets are a structural gap: "
   f"{total_title_unique} title slugs referenced by {total_title_edges} edges with no node. "
   f"Cat 2 alias-mismatches ({total_cat2_edges} edges) are not gaps — they're handled the "
-  f"moment the graph layer consults `working/wiki-parsed/alias-resolver.json` after a "
+  f"moment the graph layer consults `working/wiki/data/alias-resolver.json` after a "
   f"direct-slug miss.\n")
 
 # --- Recommendations ---

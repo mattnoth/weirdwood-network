@@ -56,8 +56,8 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 GRAPH_NODES_DIR = PROJECT_ROOT / "graph" / "nodes"
-INFOBOX_DATA_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "infobox-data.jsonl"
-WIKI_PASS2_DIR = PROJECT_ROOT / "working" / "wiki-pass2"
+INFOBOX_DATA_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "infobox-data.jsonl"
+WIKI_PASS2_DIR = PROJECT_ROOT / "working" / "wiki" / "pass2-buckets"
 PARSER_SCRIPT = SCRIPT_DIR / "wiki-infobox-parser.py"
 
 # ---------------------------------------------------------------------------

@@ -9,7 +9,7 @@ already-in-graph pages: castles formerly typed as `title` now classify as
 classify as `organization.religion`; etc.
 
 This script:
-  1. Reads working/wiki-parsed/page-index.jsonl + the canonical TYPE_DIR_MAP.
+  1. Reads working/wiki/data/page-index.jsonl + the canonical TYPE_DIR_MAP.
   2. For each existing graph/nodes/<dir>/<slug>.node.md, checks whether
      <dir> matches the expected dir from page-index.jsonl[entity_type_guess].
   3. Reports mismatches in --plan mode; deletes stale files in --apply mode
@@ -34,7 +34,7 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 
-PAGE_INDEX_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "page-index.jsonl"
+PAGE_INDEX_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "page-index.jsonl"
 GRAPH_NODES_DIR = PROJECT_ROOT / "graph" / "nodes"
 
 # Mirror scripts/wiki-pass2-promote.py TYPE_DIR_MAP

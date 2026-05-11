@@ -7,12 +7,12 @@ performs the atomic rename from tmp/ into graph/nodes/.
 
 Invocation (by wiki-pass2.sh::cmd_run):
     python3 scripts/wiki-pass2-validator.py \
-        --bucket-dir working/wiki-pass2/<bucket_id> \
-        --output working/wiki-pass2/<bucket_id>/validator-report.json
+        --bucket-dir working/wiki/pass2-buckets/<bucket_id> \
+        --output working/wiki/pass2-buckets/<bucket_id>/validator-report.json
 
     Optional overrides (defer to bucket-dir layout if omitted):
-        --bundle   working/wiki-pass2/<bucket_id>/bucket_input.json
-        --manifest working/wiki-pass2/<bucket_id>/manifest.json
+        --bundle   working/wiki/pass2-buckets/<bucket_id>/bucket_input.json
+        --manifest working/wiki/pass2-buckets/<bucket_id>/manifest.json
 
 Exit codes:
     0 — all checks passed; launcher may promote tmp/ → graph/nodes/
@@ -241,7 +241,7 @@ def main() -> int:
         description="Validate Wiki Pass 2 bucket tmp/ output before promotion to graph/nodes/."
     )
     parser.add_argument("--bucket-dir", required=True,
-                        help="Path to the bucket directory (e.g. working/wiki-pass2/direwolves)")
+                        help="Path to the bucket directory (e.g. working/wiki/pass2-buckets/direwolves)")
     parser.add_argument("--output", required=False,
                         help="Path to write the JSON validation report (overwritten each run). "
                              "Optional — if omitted, report is only written to stdout on failure.")

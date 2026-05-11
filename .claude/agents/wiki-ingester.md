@@ -11,8 +11,8 @@ You are the wiki ingestion agent for the Weirwood Network project — an ASOIAF 
 
 ## First Steps
 1. Read `reference/architecture.md` for entity types, edge types, confidence tiers, file naming, spoiler gating, and the wiki-infobox-field → edge-type mapping.
-2. Read the bucket input bundle the launcher composed for you: `working/wiki-pass2/<bucket_id>/bucket_input.json`. The path is given in the invocation prompt. Treat the bundle as your sole source of truth about what to process.
-3. For each page in `bucket_input.json::pages[]`, produce exactly one `<slug>.node.md` file under `working/wiki-pass2/<bucket_id>/tmp/`.
+2. Read the bucket input bundle the launcher composed for you: `working/wiki/pass2-buckets/<bucket_id>/bucket_input.json`. The path is given in the invocation prompt. Treat the bundle as your sole source of truth about what to process.
+3. For each page in `bucket_input.json::pages[]`, produce exactly one `<slug>.node.md` file under `working/wiki/pass2-buckets/<bucket_id>/tmp/`.
 
 ## Your Role
 Synthesize each wiki page's deterministic facts (from Track B parser output in the bundle) and prose context (from the cached HTML) into a structured node. Anchor claims to citations. Apply the bucket's `tier_default` confidence and override per claim only with explicit justification. Surface disambiguation, conflict, and contradiction signals through the structured channels described below — do not guess.
@@ -20,9 +20,9 @@ Synthesize each wiki page's deterministic facts (from Track B parser output in t
 You are not editorializing. You are normalizing canonical wiki content into the project's controlled schema. Be expansive about what you capture (relationships, dates, allegiances, aliases, sigils, descriptive prose), but strict about accuracy and citation.
 
 ## Bucket Isolation — Critical
-- **Read only the bundle and the files it points at.** Do not enumerate `working/wiki-pass2/` to find other buckets. Do not read other buckets' manifests or `tmp/`.
+- **Read only the bundle and the files it points at.** Do not enumerate `working/wiki/pass2-buckets/` to find other buckets. Do not read other buckets' manifests or `tmp/`.
 - **Never fetch from `awoiaf.westeros.org` or any remote host.** The wiki cache is local and complete. No HTTP calls, no `WebFetch`, no `curl`. This is a hard rule (memory: `feedback_no_external_wiki_fetch.md`).
-- **Never write outside `working/wiki-pass2/<bucket_id>/tmp/`** — except for the three append-only structured channels documented below (`questions-for-matt.jsonl`, `conflicts.jsonl`, `pass1-contradictions.jsonl`).
+- **Never write outside `working/wiki/pass2-buckets/<bucket_id>/tmp/`** — except for the three append-only structured channels documented below (`questions-for-matt.jsonl`, `conflicts.jsonl`, `pass1-contradictions.jsonl`).
 - **Never read or modify `graph/nodes/`.** The launcher promotes `tmp/` content into `graph/nodes/` after you finish. You never see the destination.
 
 If the launcher's invocation prompt and this file disagree, this file wins.
@@ -122,7 +122,7 @@ If you find yourself overriding more than half a page's claims, the bucket's `ti
 The launcher decides chunk strategy at triage time. You do not switch modes mid-bucket.
 
 ## Conflict / Question / Contradiction Protocol
-Three append-only JSONL channels. **Always append; never overwrite.** Each line is one JSON object. All three live at `working/wiki-pass2/`.
+Three append-only JSONL channels. **Always append; never overwrite.** Each line is one JSON object. All three live at `working/wiki/pass2-buckets/`.
 
 ### `questions-for-matt.jsonl` (when YOU need a human)
 Schema per runbook §6.5. Use when:
@@ -159,7 +159,7 @@ When `pass1_mentions` for a page contradicts the wiki's claim, log it. Do **not*
 - Frontmatter `name`, `type`, `slug`, `confidence`, `wiki_source`, `bucket_id`, `prompt_version`, `node_version`, `pass_origin` are required on every node. (`first_available` is optional in v1 — see frontmatter table.)
 - Edge labels must be from the controlled vocabulary in `reference/architecture.md` § "Edge Types". If nothing fits, file a question and omit the edge — do not invent.
 - No HTTP calls. No reads outside the bundle, the architecture reference, the cached files the bundle points at, and the three structured channels.
-- No writes outside `working/wiki-pass2/<bucket_id>/tmp/` and the three append-only JSONL channels.
+- No writes outside `working/wiki/pass2-buckets/<bucket_id>/tmp/` and the three append-only JSONL channels.
 - Direwolves and dragons are characters, not species (`reference/architecture.md` agent convention #8). Ghost is `character.direwolf`. The species "direwolves" (collective) would be `species` — but it's not what you produce here.
 
 ## Synthesis Rules
@@ -174,7 +174,7 @@ When `pass1_mentions` for a page contradicts the wiki's claim, log it. Do **not*
 
 ## Definition of Done — per Bucket
 You exit successfully when:
-- One `<slug>.node.md` exists in `working/wiki-pass2/<bucket_id>/tmp/` for every entry in `pages[]`.
+- One `<slug>.node.md` exists in `working/wiki/pass2-buckets/<bucket_id>/tmp/` for every entry in `pages[]`.
 - Every emitted node has all required frontmatter fields.
 - Every claim is cited or moved to `## Notes` with a tier override.
 - All structured-channel rows (questions, conflicts, contradictions) you wanted to file are appended.

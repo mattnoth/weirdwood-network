@@ -5,7 +5,7 @@ Scans graph/nodes/**/*.node.md (excluding _conflicts/, _unclassified/) and surfa
 candidate duplicates in three categories: shared-wiki-source, alias-bridge, slug-similarity.
 
 Outputs:
-  - working/wiki-pass2/duplicate-candidates.jsonl  (one candidate per line, sorted by confidence)
+  - working/wiki/pass2-buckets/duplicate-candidates.jsonl  (one candidate per line, sorted by confidence)
   - working/audits/duplicate-detector-stats-<UTC-DATE>.md  (summary)
 
 Read-only on the graph. The downstream cross-identity-detector agent decides SAME_AS vs distinct.
@@ -22,10 +22,10 @@ from datetime import datetime, timezone
 
 ROOT = Path(__file__).resolve().parent.parent
 NODES_DIR = ROOT / "graph" / "nodes"
-OUT_JSONL = ROOT / "working" / "wiki-pass2" / "duplicate-candidates.jsonl"
+OUT_JSONL = ROOT / "working" / "wiki" / "pass2-buckets" / "duplicate-candidates.jsonl"
 TODAY_UTC = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 STATS_MD = ROOT / "working" / "audits" / f"duplicate-detector-stats-{TODAY_UTC}.md"
-QUESTIONS_JSONL = ROOT / "working" / "wiki-pass2" / "questions-for-matt.jsonl"
+QUESTIONS_JSONL = ROOT / "working" / "wiki" / "pass2-buckets" / "questions-for-matt.jsonl"
 
 EXCLUDED_DIRS = {"_conflicts", "_unclassified"}
 
@@ -447,7 +447,7 @@ def write_stats(*, nodes_count, cat_counts, top10, cross_identity_present_pairs,
     lines.append(f"# Duplicate Detector Stats - {TODAY_UTC}")
     lines.append("")
     lines.append("Read-only audit of `graph/nodes/**/*.node.md` (excluding `_conflicts/`, `_unclassified/`).")
-    lines.append("Output JSONL: `working/wiki-pass2/duplicate-candidates.jsonl`.")
+    lines.append("Output JSONL: `working/wiki/pass2-buckets/duplicate-candidates.jsonl`.")
     lines.append("")
     lines.append("## Scan summary")
     lines.append("")

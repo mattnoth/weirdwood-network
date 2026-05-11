@@ -7,18 +7,18 @@ Two stages:
   Stage 2 — bucket-level grouping + manifest emission
 
 Reads from:
-  working/wiki-parsed/infobox-data.jsonl   — 5,279 pages with infobox signals
-  working/wiki-parsed/page-index.jsonl     — 17,657 pages (all)
+  working/wiki/data/infobox-data.jsonl   — 5,279 pages with infobox signals
+  working/wiki/data/page-index.jsonl     — 17,657 pages (all)
   sources/wiki/houses/<slug>.md            — 633 pre-classified house pages
   sources/wiki/_uncategorized/<slug>.md    — 16,943 pages with derived frontmatter
 
 Writes to:
-  working/wiki-parsed/triage-bucket-assignments.jsonl  — page-level row (17,657 rows)
-  working/wiki-parsed/triage-manifest.jsonl  — bucket membership (canonical)
-  working/wiki-parsed/draft-buckets.jsonl    — bucket summary (review view)
+  working/wiki/pass2-staging/triage-bucket-assignments.jsonl  — page-level row (17,657 rows)
+  working/wiki/pass2-staging/triage-manifest.jsonl  — bucket membership (canonical)
+  working/wiki/pass2-staging/draft-buckets.jsonl    — bucket summary (review view)
 
 With --accept (Stage 3), additionally writes:
-  working/wiki-pass2/<bucket>/manifest.json  — per-bucket lifecycle manifest
+  working/wiki/pass2-buckets/<bucket>/manifest.json  — per-bucket lifecycle manifest
 
 Bucket inference rules (v1, deterministic):
   - character.human + allegiance to House X  -> characters-<house-slug>
@@ -62,14 +62,14 @@ from pathlib import Path
 # ---------------------------------------------------------------------------
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
-INFOBOX_DATA_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "infobox-data.jsonl"
-PAGE_INDEX_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "page-index.jsonl"
+INFOBOX_DATA_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "infobox-data.jsonl"
+PAGE_INDEX_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "page-index.jsonl"
 HOUSES_DIR = PROJECT_ROOT / "sources" / "wiki" / "houses"
 UNCATEGORIZED_DIR = PROJECT_ROOT / "sources" / "wiki" / "_uncategorized"
-OUTPUT_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "triage-bucket-assignments.jsonl"
-TRIAGE_MANIFEST_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "triage-manifest.jsonl"
-DRAFT_BUCKETS_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "draft-buckets.jsonl"
-WIKI_PASS2_DIR = PROJECT_ROOT / "working" / "wiki-pass2"
+OUTPUT_FILE = PROJECT_ROOT / "working" / "wiki" / "pass2-staging" / "triage-bucket-assignments.jsonl"
+TRIAGE_MANIFEST_FILE = PROJECT_ROOT / "working" / "wiki" / "pass2-staging" / "triage-manifest.jsonl"
+DRAFT_BUCKETS_FILE = PROJECT_ROOT / "working" / "wiki" / "pass2-staging" / "draft-buckets.jsonl"
+WIKI_PASS2_DIR = PROJECT_ROOT / "working" / "wiki" / "pass2-buckets"
 
 # Bucket-size policy (runbook §1.3)
 BUCKET_SPLIT_THRESHOLD = 30          # split buckets larger than this alphabetically
@@ -1061,7 +1061,7 @@ def main():
         "--accept",
         action="store_true",
         default=False,
-        help="Commit per-bucket manifest.json files at working/wiki-pass2/<bucket>/. "
+        help="Commit per-bucket manifest.json files at working/wiki/pass2-buckets/<bucket>/. "
              "Without --accept, only the draft (page-categories + triage-manifest + "
              "draft-buckets) is regenerated.",
     )

@@ -24,7 +24,7 @@ The agent does NOT decide who's correct. It surfaces the contradiction for human
 
 ## Output (when implemented)
 
-Append-only `working/wiki-pass2/pass1-contradictions.jsonl`:
+Append-only `working/wiki/pass2-buckets/pass1-contradictions.jsonl`:
 ```json
 {"node": "<slug>", "claim": "<one sentence>", "wiki_evidence": "<source>", "pass1_evidence": "<chapter>:<line>", "severity": "high|medium|low", "detected_at": "<UTC ISO8601>", "resolved_at": null, "resolution": null}
 ```

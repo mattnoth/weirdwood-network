@@ -29,8 +29,8 @@ from pathlib import Path
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 NODES_DIR = PROJECT_ROOT / "graph" / "nodes"
-CROSS_REFS_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "cross-references.jsonl"
-ALIAS_RESOLVER_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "alias-resolver.json"
+CROSS_REFS_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "cross-references.jsonl"
+ALIAS_RESOLVER_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "alias-resolver.json"
 
 # ---------------------------------------------------------------------------
 # Slug generation — must match wiki-pass2-emit-deterministic.py exactly

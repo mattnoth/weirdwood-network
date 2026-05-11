@@ -6,11 +6,11 @@ corresponding wiki pages but no existing node in graph/nodes/titles/.
 
 Pipeline:
   1. Read HOLDS_TITLE orphan slugs from cat1-full.tsv.
-  2. Cross-reference with working/wiki-parsed/page-index.jsonl (slug→page_name
+  2. Cross-reference with working/wiki/data/page-index.jsonl (slug→page_name
      reverse lookup). Split into: promotable (wiki page exists) vs no-wiki.
   3. Filter out slugs already in graph/nodes/titles/.
-  4. Write no-wiki list to working/wiki-pass2/tier3-pass-a-no-wiki.jsonl.
-  5. Build manifest at working/wiki-pass2/tier3-titles/manifest.json.
+  4. Write no-wiki list to working/wiki/pass2-buckets/tier3-pass-a-no-wiki.jsonl.
+  5. Build manifest at working/wiki/pass2-buckets/tier3-titles/manifest.json.
   6. Emit skeletons with type: title (overrides default entity_type_guess).
   7. Extract prose from sources/wiki/_raw/<Page_Name>.json.
   8. Promote: concatenate skeleton + prose → graph/nodes/titles/<slug>.node.md
@@ -43,13 +43,13 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 
 CAT1_TSV = PROJECT_ROOT / "working" / "audits" / "orphan-edges-2026-04-30-cat1-full.tsv"
-PAGE_INDEX_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "page-index.jsonl"
-INFOBOX_DATA_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "infobox-data.jsonl"
+PAGE_INDEX_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "page-index.jsonl"
+INFOBOX_DATA_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "infobox-data.jsonl"
 WIKI_RAW_DIR = PROJECT_ROOT / "sources" / "wiki" / "_raw"
 GRAPH_TITLES_DIR = PROJECT_ROOT / "graph" / "nodes" / "titles"
 CONFLICTS_DIR = PROJECT_ROOT / "graph" / "nodes" / "_conflicts"
-PASS_A_BUCKET_DIR = PROJECT_ROOT / "working" / "wiki-pass2" / "tier3-titles"
-NO_WIKI_FILE = PROJECT_ROOT / "working" / "wiki-pass2" / "tier3-pass-a-no-wiki.jsonl"
+PASS_A_BUCKET_DIR = PROJECT_ROOT / "working" / "wiki" / "pass2-buckets" / "tier3-titles"
+NO_WIKI_FILE = PROJECT_ROOT / "working" / "wiki" / "pass2-buckets" / "tier3-pass-a-no-wiki.jsonl"
 BUCKET_ID = "tier3-titles"
 
 

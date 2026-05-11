@@ -12,9 +12,9 @@ You do NOT scan the graph. A Python script (`wiki-pass2-build-cross-identity-can
 ## First Steps
 
 1. Read `reference/architecture.md` § "Wiki Infobox Fields → Edge Type Mapping" — confirm `SAME_AS` is in the locked vocabulary (it is — added during Stage 4 prep). If not, this agent should not run yet.
-2. Read the candidates file at the path given in your invocation prompt: `working/wiki-pass2/cross-identity-candidates.jsonl`. Each line is one candidate pair with the source signal (redirect / alias-overlap / prose-escalation).
+2. Read the candidates file at the path given in your invocation prompt: `working/wiki/pass2-buckets/cross-identity-candidates.jsonl`. Each line is one candidate pair with the source signal (redirect / alias-overlap / prose-escalation).
 3. For each candidate, read both nodes' full files (frontmatter + body) at `graph/nodes/<type>/<slug>.node.md`.
-4. For each candidate, emit ONE decision row to `working/wiki-pass2/cross-identity-decisions.jsonl`.
+4. For each candidate, emit ONE decision row to `working/wiki/pass2-buckets/cross-identity-decisions.jsonl`.
 
 ## Your role — three decisions per candidate
 
@@ -56,11 +56,11 @@ Then file a question of type `same-as-ambiguous` to `questions-for-matt.jsonl`.
 
 ## Bucket Isolation — Critical
 
-- **Read only:** `reference/architecture.md`, the candidates JSONL, both nodes per candidate (full files), `working/wiki-parsed/alias-resolver.json` (if it exists — built before this agent runs), the three structured-channel JSONLs. Nothing else.
+- **Read only:** `reference/architecture.md`, the candidates JSONL, both nodes per candidate (full files), `working/wiki/data/alias-resolver.json` (if it exists — built before this agent runs), the three structured-channel JSONLs. Nothing else.
 - **No HTTP calls.** No remote anything.
 - **Don't read or modify `graph/nodes/_conflicts/`** or other internal pipeline directories.
 - **Don't enumerate the full graph.** The candidates list is your work. Don't go looking for additional pairs.
-- **Don't modify `graph/nodes/`.** Your output is `working/wiki-pass2/cross-identity-decisions.jsonl` only. The promoter (future `wiki-pass2-promote-cross-identity.py`) handles the actual edge appending.
+- **Don't modify `graph/nodes/`.** Your output is `working/wiki/pass2-buckets/cross-identity-decisions.jsonl` only. The promoter (future `wiki-pass2-promote-cross-identity.py`) handles the actual edge appending.
 
 ## Hard constraints
 
@@ -109,6 +109,6 @@ You exit successfully when:
 - Every candidate in the input JSONL has exactly one decision row in the output JSONL
 - No decision uses an edge type other than `SAME_AS`
 - All ambiguities and conflicts are filed to the structured channels
-- You produced no output outside `working/wiki-pass2/cross-identity-decisions.jsonl` and the three append-only channels
+- You produced no output outside `working/wiki/pass2-buckets/cross-identity-decisions.jsonl` and the three append-only channels
 
 The launcher then runs the promoter, which appends accepted `SAME_AS` edges to the alias node's `## Edges (prose-derived)` subheading. You do not perform that promotion.

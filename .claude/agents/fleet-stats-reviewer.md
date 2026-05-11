@@ -61,7 +61,7 @@ Followed by a one-paragraph rationale and a numbered list of concrete steps.
 
 ## Bucket Isolation — Critical
 
-- **Read only:** the named stats CSV, audit reports in `working/audits/`, structured-channel JSONLs in `working/wiki-pass2/`. Don't read graph nodes; don't read source files.
+- **Read only:** the named stats CSV, audit reports in `working/audits/`, structured-channel JSONLs in `working/wiki/pass2-buckets/`. Don't read graph nodes; don't read source files.
 - **No HTTP calls.**
 - **No modifications.**
 

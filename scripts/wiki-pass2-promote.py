@@ -16,7 +16,7 @@ Conflict detection (per-page):
   1. If dest doesn't exist → atomic write.
   2. If dest exists and bytes match → skip silently (idempotent re-run).
   3. If dest exists and bytes differ → write to graph/nodes/_conflicts/, log to
-     working/wiki-pass2/conflicts.jsonl.
+     working/wiki/pass2-buckets/conflicts.jsonl.
 
 Only secondary-tier buckets are processed. Core buckets (already promoted via
 Stage 1 / the agent path in wiki-pass2.sh) are skipped.
@@ -48,10 +48,10 @@ from pathlib import Path
 # ---------------------------------------------------------------------------
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
-WIKI_PASS2_DIR = PROJECT_ROOT / "working" / "wiki-pass2"
+WIKI_PASS2_DIR = PROJECT_ROOT / "working" / "wiki" / "pass2-buckets"
 GRAPH_NODES_DIR = PROJECT_ROOT / "graph" / "nodes"
 CONFLICTS_JSONL = WIKI_PASS2_DIR / "conflicts.jsonl"
-SUMMARY_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "stage3-promote-summary.json"
+SUMMARY_FILE = PROJECT_ROOT / "working" / "wiki" / "pass2-staging" / "stage3-promote-summary.json"
 
 # ---------------------------------------------------------------------------
 # Type → directory mapping
@@ -217,7 +217,7 @@ def log_conflict(
     conflict_path: Path,
     existing_node_path: Path,
 ) -> None:
-    """Append one conflict record to working/wiki-pass2/conflicts.jsonl."""
+    """Append one conflict record to working/wiki/pass2-buckets/conflicts.jsonl."""
     row = {
         "page": slug,
         "bucket_id": bucket_id,

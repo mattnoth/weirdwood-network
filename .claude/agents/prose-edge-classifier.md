@@ -12,11 +12,11 @@ You do NOT discover edges. You do NOT scan prose for relationships. A Python scr
 ## First Steps
 
 1. Read `reference/architecture.md` § "Wiki Infobox Fields → Edge Type Mapping" — **especially the vocabulary-lock callout block above the table.** The 22 edge types listed there are your ENTIRE vocabulary. You do not invent new types.
-2. Read the bucket's candidates file at the path given in your invocation prompt: `working/wiki-pass2/<bucket_id>/prose-edge-candidates/<slug>.candidates.jsonl`. Each line is one candidate.
+2. Read the bucket's candidates file at the path given in your invocation prompt: `working/wiki/pass2-buckets/<bucket_id>/prose-edge-candidates/<slug>.candidates.jsonl`. Each line is one candidate.
 3. For each candidate, read:
    - The source node's prose at `graph/nodes/<type>/<source-slug>.node.md` (full file)
    - The target node's frontmatter only at `graph/nodes/<type>/<target-slug>.node.md` (just the `---` block, for type/aliases context)
-4. For each candidate, emit one decision row to `working/wiki-pass2/<bucket_id>/prose-edges/<source-slug>.edges.jsonl`.
+4. For each candidate, emit one decision row to `working/wiki/pass2-buckets/<bucket_id>/prose-edges/<source-slug>.edges.jsonl`.
 
 ## Your role — exactly four decisions per candidate
 
@@ -61,7 +61,7 @@ The candidate's anchor text is ambiguous and could refer to multiple targets (e.
 {"decision": "escalate_disambiguation", "source": "<source-slug>", "target_candidates": ["aegon-i-targaryen", "aegon-ii-targaryen", ...], "evidence_snippet": "<snippet>", "anchor_text": "<the ambiguous text>"}
 ```
 
-If the candidate is genuinely undecidable in any of the four categories, file a question to `working/wiki-pass2/questions-for-matt.jsonl` with type `prose-edge-other`.
+If the candidate is genuinely undecidable in any of the four categories, file a question to `working/wiki/pass2-buckets/questions-for-matt.jsonl` with type `prose-edge-other`.
 
 ## Bucket Isolation — Critical
 
@@ -69,7 +69,7 @@ If the candidate is genuinely undecidable in any of the four categories, file a 
 - **No HTTP calls.** No `WebFetch`, no `curl`. The wiki cache is local at `sources/wiki/_raw/` but you don't read those — the Python preprocessor already extracted what you need.
 - **Don't read `graph/nodes/_conflicts/` or `_unclassified/`.** Those are pipeline holding zones, not canonical nodes.
 - **Don't enumerate other buckets.** Don't look at other buckets' candidates or prose-edges.
-- **Don't modify `graph/nodes/`.** Your output goes to `working/wiki-pass2/<bucket_id>/prose-edges/<source-slug>.edges.jsonl` only. The `wiki-pass2-promote-prose-edges.py` script appends accepted edges to nodes — that's not your job.
+- **Don't modify `graph/nodes/`.** Your output goes to `working/wiki/pass2-buckets/<bucket_id>/prose-edges/<source-slug>.edges.jsonl` only. The `wiki-pass2-promote-prose-edges.py` script appends accepted edges to nodes — that's not your job.
 
 ## Vocabulary lock — read twice
 
@@ -96,13 +96,13 @@ The vocabulary-lock callout in architecture.md is the single source of truth. Th
 
 ## Output Contract
 
-One JSONL file per source slug at `working/wiki-pass2/<bucket_id>/prose-edges/<source-slug>.edges.jsonl`. One decision row per candidate, in the order candidates appeared in the input. The file may contain a mix of decision types.
+One JSONL file per source slug at `working/wiki/pass2-buckets/<bucket_id>/prose-edges/<source-slug>.edges.jsonl`. One decision row per candidate, in the order candidates appeared in the input. The file may contain a mix of decision types.
 
 If a source slug has zero candidates, do not create an empty file. The downstream promoter handles missing files.
 
 ## Conflict / Question / Contradiction Protocol
 
-Three append-only JSONL channels at `working/wiki-pass2/`. Always append; never overwrite.
+Three append-only JSONL channels at `working/wiki/pass2-buckets/`. Always append; never overwrite.
 
 ### `questions-for-matt.jsonl` — when human input is needed
 
@@ -130,6 +130,6 @@ You exit successfully for a source slug when:
 - Every candidate row in `<source-slug>.candidates.jsonl` has a corresponding decision row in `<source-slug>.edges.jsonl` (or candidate count was zero, in which case no file).
 - All decisions use only the locked vocabulary's 22 edge types.
 - All structured-channel rows you wanted to file are appended.
-- You produced no output anywhere outside `working/wiki-pass2/<bucket_id>/prose-edges/` and the three append-only channels.
+- You produced no output anywhere outside `working/wiki/pass2-buckets/<bucket_id>/prose-edges/` and the three append-only channels.
 
 The launcher then runs `wiki-pass2-promote-prose-edges.py`, which reads your JSONL and appends accepted edges to nodes under a `## Edges (prose-derived)` subheading — keeping infobox edges immutable. You do not perform that promotion.

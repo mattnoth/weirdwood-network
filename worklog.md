@@ -65,7 +65,7 @@ This is your project memory. When you come back after a break, read Current Stat
 - [x] Pass 1 v3 run on AFFC (46/46 — complete)
 - [x] Pass 1 v3 run on ADWD (73/73 — complete)
 - [ ] Pass 1 on Tales of Dunk and Egg (THK, TSS, TMK) — **deferred (enrichment pass for main-arc nodes)**. D&E content will eventually enrich existing main-arc Targaryen-prehistory nodes (Bloodraven, Egg/Aegon V, etc.) but is not on the active critical path. Not dropped, not urgent. Decision 2026-05-06 (Session 37 Q11=b).
-- [x] Wiki infobox parser script (Track B) — `scripts/wiki-infobox-parser.py` produces `working/wiki-parsed/{infobox-data.jsonl (5,279), page-index.jsonl (17,657), parse-stats.md}`. `first_available` populated 2,888/5,279 (54.7%). **Three open issues:** (1) `categories[]` empty across all pages (parse API strips catlinks footer) — blocker for runbook §1.2.1 unless deferred to `entity_type_guess`, (2) `books` field parsed only 37 times vs 1,953 raw occurrences (parser bug), (3) unmapped infobox fields worth edge-taxonomy review (`dynasty`, `written by`, `hatched`, `fathers`, `vassal`, `cadet branch`).
+- [x] Wiki infobox parser script (Track B) — `scripts/wiki-infobox-parser.py` produces `working/wiki/data/{infobox-data.jsonl (5,279), page-index.jsonl (17,657), parse-stats.md}`. `first_available` populated 2,888/5,279 (54.7%). **Three open issues:** (1) `categories[]` empty across all pages (parse API strips catlinks footer) — blocker for runbook §1.2.1 unless deferred to `entity_type_guess`, (2) `books` field parsed only 37 times vs 1,953 raw occurrences (parser bug), (3) unmapped infobox fields worth edge-taxonomy review (`dynasty`, `written by`, `hatched`, `fathers`, `vassal`, `cadet branch`).
 - [x] AGOT/ACOK supplementary entity index — OBSOLETED 2026-04-25. v3 prompt captures all 12 categories directly; backfill index no longer needed. See `working/todos.md` line ~245.
 - [ ] Pass 2 wiki ingestion agent prompt written
 - [ ] Pass 2 wiki ingestion complete
@@ -74,7 +74,7 @@ This is your project memory. When you come back after a break, read Current Stat
 - [x] Wiki Pass 2 Stage 3 — secondary (Session 26; FULL pipeline rebuilt as Python-only after design review showed the Stage 3b agent was inertia-driven. 472 buckets / 3,315 candidate pages → 3,314 nodes promoted. Cumulative graph: 855→4,169 then →4,239 after Tier-1+Tier-2 recovery. Cost $0. Wall-clock ~30 sec total. 0 conflicts.) Canonical pipeline: `working/runbooks/wiki-pass2-pipeline.md` (rewritten as v3).
 - [x] Wiki Pass 2 Stage 3c — audit cleanup (Session 27; 4 audits run, 6 parser bugs fixed, 484 nodes re-emitted across multiple targeted runs. Tier 3 promotion campaign Passes A-D + E Phase 1 added 769 new nodes. Cat 1 orphan edges 7,784→2,955 (62% drop). Stale religion-bleed 0. Edge vocabulary lock holds.)
 - [x] Wiki Pass 2 Path B — categorizer extension + promotion campaign (Session 28; bounded MediaWiki categories backfill + parser CATEGORY_TYPE_MAP. `unknown` 12,434 (70.4%) → 2,118 (12.0%). +2,240 graph nodes (5,008 → 7,248). Cat 1 orphan edges 2,955 → 1,973. 5 new dirs bootstrapped: `texts/`, `theories/`, `concepts/`, `species/`, `foods/`. New entity type `object.food`.)
-- [x] Wiki Pass 2 Path B promotion completion + schema-drift audit (Session 29; 4 new entity types added: `object.material`, `concept.language`, `concept.medical`, `concept.custom`. 4 new dirs: `materials/`, `languages/`, `medical/`, `customs/`. `unknown` 2,098 → 1,257. Net +315 graph nodes (7,248 → 7,563). 130 stale-dir mismatches cleaned. Full schema-drift audit on opus: 0 HIGH / 4 MED / 4 LOW. Cat 1 orphan edges 1,973 → 1,963. Edge vocabulary lock holds. Chronology data extracted from 74 year pages: 2,245 events in `working/wiki-parsed/chronology-events.jsonl` (awaits v2 temporal-edges schema; not graph edges yet).)
+- [x] Wiki Pass 2 Path B promotion completion + schema-drift audit (Session 29; 4 new entity types added: `object.material`, `concept.language`, `concept.medical`, `concept.custom`. 4 new dirs: `materials/`, `languages/`, `medical/`, `customs/`. `unknown` 2,098 → 1,257. Net +315 graph nodes (7,248 → 7,563). 130 stale-dir mismatches cleaned. Full schema-drift audit on opus: 0 HIGH / 4 MED / 4 LOW. Cat 1 orphan edges 1,973 → 1,963. Edge vocabulary lock holds. Chronology data extracted from 74 year pages: 2,245 events in `working/wiki/data/chronology-events.jsonl` (awaits v2 temporal-edges schema; not graph edges yet).)
 - [x] Wiki Pass 2 Stage 0 foundation — alias-resolver built + run (Session 26). 707 broken refs reclaimed via slug-mismatch fix. Empirical signal validates that most remaining "broken" refs are genuinely missing concept entities (concept-pages decision: defer).
 - [ ] Wiki Pass 2 Stage 4 — prose-derived edge discovery (Stage 0 prep complete + cross-references index built; Stage 4 hybrid plan documented in `working/agent-fleet-specs/fleet-orchestration-plan.md`. Pass 1 dependency now met (344/344 across 5 books). Need to build: edge-candidate-generator script, then prose-edge-classifier agent runs (full prompt ready in `.claude/agents/prose-edge-classifier.md`), then peer review, then promote. Continue prompt: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`)
 - [ ] Pass 3 voice/perception agent prompt written
@@ -178,6 +178,29 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 39 — Status check + working/wiki/ subtree reorg (2026-05-07)
+**Detail:** `history/session-details/session-039.md`
+
+**Changes made:**
+- **Reorg:** `working/wiki-parsed/` split into `working/wiki/data/` (9 permanent reference files: alias-resolver, infobox-data, page-index, page-categories, cross-references, chronology-events, backlink-counts, parse-stats.md, cross-refs-summary.md) and `working/wiki/pass2-staging/` (7 run-specific staging files: triage-bucket-assignments, triage-manifest, draft-buckets, priority-summary, stage3-promote-summary, stage3a-emission-summary, stage3b-extraction-summary). `working/wiki-pass2/` → `working/wiki/pass2-buckets/` (all 536 buckets, 14,141 files via `git mv`). `working/wiki-parsed/` directory removed.
+- `working/wiki/README.md` — NEW. Explains data/staging/buckets split. Notes that historical session details, archived continue prompts, and audit execution logs reference old paths and were intentionally not rewritten.
+- 65 live files updated via three-step targeted sed (~32 scripts/, 14 .claude/agents/*.md, 4 reference/*.md, 3 working/runbooks/, 3 working/agent-fleet-specs/, 2 .claude/commands/, 2 active continue prompts, CLAUDE.md, worklog.md, working/todos.md, working/tier3-promotion-plan.md). Sed key trick: only match the **quoted** `"wiki-parsed"` and `"wiki-pass2"` to avoid breaking script filenames like `wiki-pass2-triage.py`.
+- `CLAUDE.md` Directory Structure diagram updated (lines 119-120 now show `wiki/` parent with `data/`, `pass2-buckets/`, `pass2-staging/` children).
+- `worklog.md` Session 35 corrected: ASOS Okey branch IS merged (commit `2eaf5c71`, verified via `git log`). Prior entry's "Branch not yet merged" was correct at Session 35 but stale by Session 39.
+- Smoke verification: `python3 scripts/build-mention-index.py --book agot --dry-run` runs cleanly against new paths; final grep confirms only remaining `wiki-pass2` refs in live files are correct script filenames.
+
+**Decisions:** **Naming reorg adopted as Option D** (Matt's instinct, beating my original A/B/C menu). `working/wiki/` as parent domain; pass-numbers as children of the domain rather than top-level siblings. Future passes (Stage 4 prose-edge, etc.) get a natural home. Frozen records (`history/**`, `working/audits/**`, `progress/continue-prompts/archive/**`, `working/runbooks/archive/**`, `scripts/archive/**`) **left untouched** — they describe what was true at the time. **`graph/index/chapters/` not renamed** — the path already says "chapters"; "mention" is fine as a concept once explained. README todo added. **Food/dialogue cost design discussion** (no execution): Python pre-pass makes the LLM pass substantially cheaper — targeting + tighter scopes + scene-level chunking + sampling-oracle pattern → ~$10-25/book on Sonnet vs ~$50/book for blind Pass 1. Reasoning still required for scene-level structure.
+
+**What didn't get done:**
+- **No commit.** Reorg sits in working tree as 14,141 renames + 65 modifications + 1 new README. Awaits explicit authorization.
+- `graph/index/chapters/README.md` agreed but not written (added to todos).
+
+**What's next:**
+- **Commit the reorg** (single commit, suggested: `Reorg: working/wiki-{parsed,pass2}/ → working/wiki/{data,pass2-buckets,pass2-staging}/`).
+- **Smallest unit-of-work next:** alias-backfill from Session 38 mention-index top-20 unresolved patterns; cheap edit to `working/wiki/data/alias-resolver.json` + re-run mention-index → expected resolution >75%.
+- Other live tracks unchanged: Stage 4 prose-edge-classifier (`progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`); dialogue/meals/mention-index design (`progress/continue-prompts/2026-05-05-dialogue-meals-mention-index-design.md`); model-fit recommendations awaiting Matt's review; two PreToolUse hooks queued.
+- **Per Matt's standing rule, no `/endsession` auto-run.**
+
 ### Session 38 — Mention-index built (graph-traversal infrastructure) (2026-05-06)
 
 **Changes made:**
@@ -245,7 +268,7 @@ This is your project memory. When you come back after a break, read Current Stat
 ### Session 35 — ASOS Pass 1 complete via Okey's parallel run (2026-05-06)
 
 **Changes made:**
-- `extractions/mechanical/asos/` — 82/82 v3 chapters pushed by Okey on branch `origin/pass1-asos-extraction` (parallel Opus pass on shared Max account, ran 2026-05-01 → 2026-05-06, ~$54.85). All 12 POVs covered (13 Arya / 4 Bran / 7 Catelyn / 6 Daenerys / 6 Davos / 9 Jaime / 12 Jon / 5 Samwell / 7 Sansa / 11 Tyrion + Prologue + Epilogue). Spot-checked early/mid/late waves — full v3 schema, healthy. Branch not yet merged to main.
+- `extractions/mechanical/asos/` — 82/82 v3 chapters pushed by Okey on branch `origin/pass1-asos-extraction` (parallel Opus pass on shared Max account, ran 2026-05-01 → 2026-05-06, ~$54.85). All 12 POVs covered (13 Arya / 4 Bran / 7 Catelyn / 6 Daenerys / 6 Davos / 9 Jaime / 12 Jon / 5 Samwell / 7 Sansa / 11 Tyrion + Prologue + Epilogue). Spot-checked early/mid/late waves — full v3 schema, healthy. **Merged to main in commit `2eaf5c71` ("Merge ASOS Pass 1 v3 from Okey's parallel run") — verified 2026-05-07.**
 - `worklog.md` — Current State updated: ASOS now 82/82 ✓ (Pass 1 5/5 books complete, 344/344). This entry.
 - `working/progress.md` — single pointer line appended; per-wave detail lives in `working/extraction-stats/extraction-stats-asos-pass1-v3.csv` on Okey's branch.
 
@@ -258,28 +281,8 @@ This is your project memory. When you come back after a break, read Current Stat
 - Resume primary handoff: `progress/continue-prompts/2026-05-05-dialogue-meals-mention-index-design.md` — 7 Open Questions to resolve, then build mention index, then smoke dialogue on Ned + Robert.
 - Stage 4 v1 prose-edge-classifier now unblocked: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`.
 
-### Session 34 — ADWD complete + bug-fix landing + cleanup (2026-05-05)
-
-**Changes made:**
-- `extractions/mechanical/adwd/` — 73/73 v3 chapters complete (15 waves, 2026-05-05). Some duplicate wave entries from Bug A residue before fix landed; last-writer-wins, all valid v3. Was untracked — committed this session.
-- `working/extraction-stats/extraction-stats-ADWD-pass1-v3.csv` — NEW. Was untracked — committed.
-- `scripts/extract.sh` + `scripts/weirwood.zsh` — chain/race fix landed across commits `5f9b808f`, `f3cd92ba`, `dea679af` (Bug A `--chain` explosion + Bug B parallel-extraction race + UX cleanup with phase banners and streamed Claude assistant output). Two small follow-ups committed this session: `${_HEARTBEAT_PID:-}` guard (cmd_run trap) and arithmetic expansion fix in cmd_check.
-- `progress/continue-prompts/archive/` — moved `2026-05-04-urgent-fix-chain-and-race-bug.md` + `2026-05-04-acok-waves1-10-rerun.md` (work complete).
-- `working/todos.md` — URGENT BLOCKER block removed.
-- `worklog.md` — Current State updated: ADWD 73/73, ACOK 70/70, ASOS line clarified (Okey running Opus on shared Max). This entry.
-- `working/progress.md` — 22 ADWD wave rows appended (some duplicates from Bug A residue).
-
-**State:** Pass 1 v3 4/5 books complete (AGOT 73 + ACOK 70 + AFFC 46 + ADWD 73 = 262/344). ASOS 0/82 pending Okey's push.
-
-**Decisions:** None this session — execution + cleanup only. Design discussion on next-pass direction (dialogue extraction → Pass 3 voice-analyzer anchor) deferred to next session for prompt drafting + smoke test.
-
-**What's next:**
-- **PRIMARY HANDOFF:** `progress/continue-prompts/2026-05-05-dialogue-meals-mention-index-design.md` — three new passes designed (dialogue, meals & feasts, per-chapter mention index) + Opus-as-sampling-oracle validation strategy + file organization proposal. Self-contained design doc; next session reads it end-to-end, resolves 7 Open Questions with Matt, then builds the mention index first as the free Python unblocker, then smokes dialogue on Ned (POV-rich) followed by Robert Baratheon (POV-less stress test for non-POV quote attribution + cross-POV perception capture).
-- Wait on Okey's ASOS push to land (no Claude work needed until then; design + smoke can proceed on AGOT regardless).
-- Stage 4 v1 prose-edge-classifier remains queued for once 5/5 Pass 1 books land (`2026-05-02-stage4-v1-prose-edge-classifier.md`).
-
-> Session 33 archived to `history/worklog-archives/archive007.md` at end of Session 38 (archive007.md now full at 5 entries; next archive cycle creates `archive008.md`)
-> Sessions 30–32 also in `history/worklog-archives/archive007.md`
+> Session 34 archived to `history/worklog-archives/archive008.md` at end of Session 39 (archive008.md has 1 entry; will fill over future cycles)
+> Sessions 30–33 in `history/worklog-archives/archive007.md` (full at 5 entries)
 > Sessions 25–29 archived to `history/worklog-archives/archive006.md`
 > Sessions 22–24 archived to `history/worklog-archives/archive005.md`
 > Sessions 16-21 archived to `history/worklog-archives/archive004.md`

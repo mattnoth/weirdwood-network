@@ -9,10 +9,10 @@ Pipeline:
   1. Read character-edge orphan slugs from post-Pass-C cat1-full.tsv.
   2. Drop slugs that resolve via alias-resolver (already Cat 2).
   3. Drop slugs already present in graph/nodes/characters/.
-  4. Cross-reference with working/wiki-parsed/page-index.jsonl.
+  4. Cross-reference with working/wiki/data/page-index.jsonl.
      Split into: promotable (wiki page exists) vs no-wiki.
-  5. Write no-wiki list to working/wiki-pass2/tier3-pass-d-no-wiki.jsonl.
-  6. Build manifest at working/wiki-pass2/tier3-characters/manifest.json.
+  5. Write no-wiki list to working/wiki/pass2-buckets/tier3-pass-d-no-wiki.jsonl.
+  6. Build manifest at working/wiki/pass2-buckets/tier3-characters/manifest.json.
   7. Emit skeletons — type from infobox (character.human / character.dragon /
      character.direwolf); falls back to character.human.
   8. Extract prose from sources/wiki/_raw/<Page_Name>.json.
@@ -47,14 +47,14 @@ PROJECT_ROOT = SCRIPT_DIR.parent
 
 # Use the post-Pass-C TSV
 CAT1_TSV = PROJECT_ROOT / "working" / "audits" / "orphan-edges-2026-04-30c-cat1-full.tsv"
-PAGE_INDEX_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "page-index.jsonl"
-INFOBOX_DATA_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "infobox-data.jsonl"
-ALIAS_RESOLVER_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "alias-resolver.json"
+PAGE_INDEX_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "page-index.jsonl"
+INFOBOX_DATA_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "infobox-data.jsonl"
+ALIAS_RESOLVER_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "alias-resolver.json"
 WIKI_RAW_DIR = PROJECT_ROOT / "sources" / "wiki" / "_raw"
 GRAPH_CHARS_DIR = PROJECT_ROOT / "graph" / "nodes" / "characters"
 CONFLICTS_DIR = PROJECT_ROOT / "graph" / "nodes" / "_conflicts"
-PASS_D_BUCKET_DIR = PROJECT_ROOT / "working" / "wiki-pass2" / "tier3-characters"
-NO_WIKI_FILE = PROJECT_ROOT / "working" / "wiki-pass2" / "tier3-pass-d-no-wiki.jsonl"
+PASS_D_BUCKET_DIR = PROJECT_ROOT / "working" / "wiki" / "pass2-buckets" / "tier3-characters"
+NO_WIKI_FILE = PROJECT_ROOT / "working" / "wiki" / "pass2-buckets" / "tier3-pass-d-no-wiki.jsonl"
 BUCKET_ID = "tier3-characters"
 
 # Edge types that target characters

@@ -13,13 +13,13 @@ When the `prose-edge-classifier` flags a reference as ambiguous (e.g., "Aegon" c
 
 ## Inputs (when implemented)
 
-- `working/wiki-pass2/<bucket>/prose-edges/<slug>.edges.jsonl` rows with `decision: escalate_disambiguation`
+- `working/wiki/pass2-buckets/<bucket>/prose-edges/<slug>.edges.jsonl` rows with `decision: escalate_disambiguation`
 - The source node's full prose
 - Each candidate's frontmatter (just type + aliases + first_appearance hints from cite_refs)
 
 ## Output (when implemented)
 
-`working/wiki-pass2/disambiguation-decisions.jsonl` — one row per resolved ambiguity. Schema:
+`working/wiki/pass2-buckets/disambiguation-decisions.jsonl` — one row per resolved ambiguity. Schema:
 ```json
 {"source": "<slug>", "ambiguous_anchor": "...", "candidates": ["...", "..."], "chosen": "<slug>", "rationale": "<one paragraph>", "confidence": "tier-1|tier-2|tier-3"}
 ```

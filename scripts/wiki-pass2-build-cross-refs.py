@@ -2,13 +2,13 @@
 """
 wiki-pass2-build-cross-refs.py — Stage 4 prep: cross-reference index builder
 
-Walks all prose files in working/wiki-pass2/<bucket_id>/prose/<slug>.prose.md,
+Walks all prose files in working/wiki/pass2-buckets/<bucket_id>/prose/<slug>.prose.md,
 extracts every [anchor text](wiki:Page_Name) markdown link, and produces three
 corpus-wide artifacts:
 
-  working/wiki-parsed/cross-references.jsonl  — one row per link found
-  working/wiki-parsed/backlink-counts.json    — inverted index + stats
-  working/wiki-parsed/cross-refs-summary.md   — human-readable leaderboard
+  working/wiki/data/cross-references.jsonl  — one row per link found
+  working/wiki/data/backlink-counts.json    — inverted index + stats
+  working/wiki/data/cross-refs-summary.md   — human-readable leaderboard
 
 Usage:
   python3 scripts/wiki-pass2-build-cross-refs.py           # dry-run (no files written)
@@ -28,9 +28,9 @@ from pathlib import Path
 # Paths
 # ---------------------------------------------------------------------------
 REPO_ROOT = Path(__file__).parent.parent
-WIKI_PASS2_DIR = REPO_ROOT / "working" / "wiki-pass2"
+WIKI_PASS2_DIR = REPO_ROOT / "working" / "wiki" / "pass2-buckets"
 GRAPH_NODES_DIR = REPO_ROOT / "graph" / "nodes"
-WIKI_PARSED_DIR = REPO_ROOT / "working" / "wiki-parsed"
+WIKI_PARSED_DIR = REPO_ROOT / "working" / "wiki" / "data"
 
 OUT_XREFS = WIKI_PARSED_DIR / "cross-references.jsonl"
 OUT_BACKLINKS = WIKI_PARSED_DIR / "backlink-counts.json"

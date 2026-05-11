@@ -23,14 +23,14 @@ This project builds a queryable knowledge graph for ASOIAF by:
 
 **The entire AWOIAF wiki (17,945 pages, 377 MB) is cached locally at `sources/wiki/_raw/`.** Every Pass 2+ workflow reads from this cache. There is no re-fetching of page bodies. No `WebFetch`, no full re-crawls, no resurrection of the archived Playwright scraper.
 
-**Narrow exception — completion-of-original-crawl operations.** A single bounded fetch is permitted ONLY to fill specific metadata gaps the original crawl missed (e.g., MediaWiki categories, which the `action=parse` API stripped from the HTML footer). Each exception requires explicit per-use approval, must target one specific data field, must NOT write to `sources/`, and must hit the MediaWiki API endpoint via a lightweight client (`cloudscraper` for Cloudflare bypass — verified 2026-04-30). The Playwright-based scraper at `scripts/archive/wiki-scraper.py.archive` remains archived and should NOT be restored — exception fetches use the lighter `cloudscraper` path. New exception-fetch scripts are short, single-purpose, throttled, and write to `working/wiki-parsed/`.
+**Narrow exception — completion-of-original-crawl operations.** A single bounded fetch is permitted ONLY to fill specific metadata gaps the original crawl missed (e.g., MediaWiki categories, which the `action=parse` API stripped from the HTML footer). Each exception requires explicit per-use approval, must target one specific data field, must NOT write to `sources/`, and must hit the MediaWiki API endpoint via a lightweight client (`cloudscraper` for Cloudflare bypass — verified 2026-04-30). The Playwright-based scraper at `scripts/archive/wiki-scraper.py.archive` remains archived and should NOT be restored — exception fetches use the lighter `cloudscraper` path. New exception-fetch scripts are short, single-purpose, throttled, and write to `working/wiki/data/`.
 
 If you think you need to fetch a page's body content, you don't — read it from `sources/wiki/_raw/<Page_Name>.json` instead.
 
 **Approved exception fetches (audit log):**
-- `2026-04-30` — MediaWiki categories backfill (`scripts/wiki-fetch-categories.py` → `working/wiki-parsed/page-categories.jsonl`). Reason: original crawl used `action=parse` which strips catlinks footer; the entity categorizer in the archived scraper depended on category data and never ran for `characters/`, `locations/`, `events/`, `artifacts/` (~17k pages misclassified as `unknown`).
+- `2026-04-30` — MediaWiki categories backfill (`scripts/wiki-fetch-categories.py` → `working/wiki/data/page-categories.jsonl`). Reason: original crawl used `action=parse` which strips catlinks footer; the entity categorizer in the archived scraper depended on category data and never ran for `characters/`, `locations/`, `events/`, `artifacts/` (~17k pages misclassified as `unknown`).
 
-**Never drop anything from `sources/`.** Stub pages, redirect pages, list articles, year articles, disambiguation pages — all stay. Tier them, label them, defer them, but never delete them. Source data is read-only and additive-only. **Exception fetches must NOT write to `sources/`** — outputs land in `working/wiki-parsed/` or `graph/`.
+**Never drop anything from `sources/`.** Stub pages, redirect pages, list articles, year articles, disambiguation pages — all stay. Tier them, label them, defer them, but never delete them. Source data is read-only and additive-only. **Exception fetches must NOT write to `sources/`** — outputs land in `working/wiki/data/` or `graph/`.
 
 ## Pipeline Sequence
 
@@ -116,8 +116,10 @@ asoiaf-chat/
 │   ├── audits/                       # Per-audit folders (each: prompt/, execution/, validation/)
 │   ├── extraction-stats/             # Token/timing stats per book-pass
 │   ├── runbooks/                     # How-to procedures
-│   ├── wiki-parsed/                  # Derived parse outputs (alias-resolver, infobox-data, etc.)
-│   └── wiki-pass2/                   # Per-bucket Pass 2 promotion outputs
+│   └── wiki/                         # Wiki pipeline workspace (see working/wiki/README.md)
+│       ├── data/                     # Permanent reference products (alias-resolver, infobox-data, page-index, etc.)
+│       ├── pass2-buckets/            # 536 per-bucket workspaces from Pass 2 promotion run
+│       └── pass2-staging/            # Run-specific Pass 2 staging artifacts (triage, draft-buckets, summaries)
 └── history/                          # Frozen records of past work — not active state
     ├── session-details/              # Full session narratives (human-facing, not loaded by agents)
     ├── worklog-archives/             # Archived older worklog sessions

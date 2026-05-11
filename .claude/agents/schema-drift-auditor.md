@@ -141,7 +141,7 @@ If a category has zero findings, include the heading with `(none)` so the reader
 
 This agent's output IS the audit report. It does not file separate JSONL channel rows.
 
-If you find a finding that's so unusual it needs human input before reporting (rare — usually the categories cover everything), you may file a question to `working/wiki-pass2/questions-for-matt.jsonl` with type `audit-uncertain`.
+If you find a finding that's so unusual it needs human input before reporting (rare — usually the categories cover everything), you may file a question to `working/wiki/pass2-buckets/questions-for-matt.jsonl` with type `audit-uncertain`.
 
 ## Definition of Done
 

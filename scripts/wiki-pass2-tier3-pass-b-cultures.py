@@ -15,11 +15,11 @@ Type decision: organization.faction → factions/
 
 Pipeline:
   1. Read CULTURE_OF orphan slugs from cat1-full.tsv (post-Pass-A audit b).
-  2. Cross-reference with working/wiki-parsed/page-index.jsonl. Split into:
+  2. Cross-reference with working/wiki/data/page-index.jsonl. Split into:
      promotable (wiki page exists) vs no-wiki.
   3. Filter out slugs already in graph/nodes/ anywhere (all subdirs).
-  4. Write no-wiki list to working/wiki-pass2/tier3-pass-b-no-wiki.jsonl.
-  5. Build manifest at working/wiki-pass2/tier3-cultures/manifest.json.
+  4. Write no-wiki list to working/wiki/pass2-buckets/tier3-pass-b-no-wiki.jsonl.
+  5. Build manifest at working/wiki/pass2-buckets/tier3-cultures/manifest.json.
   6. Emit skeletons with type: organization.faction.
   7. Extract prose from sources/wiki/_raw/<Page_Name>.json.
   8. Promote: concatenate skeleton + prose → graph/nodes/factions/<slug>.node.md
@@ -52,14 +52,14 @@ SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SCRIPT_DIR.parent
 
 CAT1_TSV = PROJECT_ROOT / "working" / "audits" / "orphan-edges-2026-04-30b-cat1-full.tsv"
-PAGE_INDEX_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "page-index.jsonl"
-INFOBOX_DATA_FILE = PROJECT_ROOT / "working" / "wiki-parsed" / "infobox-data.jsonl"
+PAGE_INDEX_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "page-index.jsonl"
+INFOBOX_DATA_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "infobox-data.jsonl"
 WIKI_RAW_DIR = PROJECT_ROOT / "sources" / "wiki" / "_raw"
 GRAPH_NODES_DIR = PROJECT_ROOT / "graph" / "nodes"
 GRAPH_FACTIONS_DIR = PROJECT_ROOT / "graph" / "nodes" / "factions"
 CONFLICTS_DIR = PROJECT_ROOT / "graph" / "nodes" / "_conflicts"
-BUCKET_DIR = PROJECT_ROOT / "working" / "wiki-pass2" / "tier3-cultures"
-NO_WIKI_FILE = PROJECT_ROOT / "working" / "wiki-pass2" / "tier3-pass-b-no-wiki.jsonl"
+BUCKET_DIR = PROJECT_ROOT / "working" / "wiki" / "pass2-buckets" / "tier3-cultures"
+NO_WIKI_FILE = PROJECT_ROOT / "working" / "wiki" / "pass2-buckets" / "tier3-pass-b-no-wiki.jsonl"
 BUCKET_ID = "tier3-cultures"
 
 # Node type and destination directory
