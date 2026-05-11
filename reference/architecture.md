@@ -39,7 +39,7 @@ Same name as source chapter with `.extraction.md` suffix:
 
 Every node in the graph belongs to a type in this hierarchy. Child types inherit from their parent — a query for "organizations" returns houses, factions, and religions. A query for "events" returns both wars and individual battles.
 
-This hierarchy is **extensible**. New leaf types can be added without restructuring; new intermediate types should be rare and require design review. See `working/taxonomy-candidates.md` for proposed additions under evaluation.
+This hierarchy is **extensible**. New leaf types can be added without restructuring; new intermediate types should be rare and require design review.
 
 ```
 Entity
@@ -53,7 +53,7 @@ Entity
 ├── Organization
 │   ├── House             (sigil, words, seat, bloodline: House Stark, House Frey)
 │   ├── Faction           (Night's Watch, Faceless Men, Golden Company, Brotherhood Without Banners)
-│   └── Religion          (deities, clergy, rituals, sacred sites: Faith of the Seven, R'hllor, Old Gods)
+│   └── Religion          (deities, clergy, rituals,  cred sites: Faith of the Seven, R'hllor, Old Gods)
 ├── Concept
 │   ├── Culture           (customs, language, appearance norms: Dothraki, Ironborn, Free Folk)
 │   ├── Magic             (rules, practitioners, costs: warging, greensight, shadowbinding, wildfire)
@@ -64,7 +64,8 @@ Entity
 │   └── Text              (in-world books, letters, songs: The Jade Compendium, The Rains of Castamere)
 ├── Event
 │   ├── Battle            (single engagement: Red Wedding, Battle of the Blackwater)
-│   └── War               (multi-battle conflict: Robert's Rebellion, War of the Five Kings)
+│   ├── War               (multi-battle conflict: Robert's Rebellion, War of the Five Kings)
+│   └── Tournament        (formal tourney: Tourney at Harrenhal, Hand's Tourney, Ashford Tourney)
 ├── Species               (biological type, NOT individual: dragons-as-species, Others, Children of the Forest)
 └── Title                 (formal office: Hand of the King, Lord Commander, High Septon)
 ```
@@ -94,6 +95,7 @@ Entity
 | `object.material` | Object | Raw material, mineral, or substance (NOT a named artifact — that's object.artifact) | composition, regions, uses, rarity | Dragonglass, dragonbone, Valyrian steel (as substance), gold, salt |
 | `event.battle` | Event | Single engagement or plot event | location, date, participants, outcome | Red Wedding, Battle of the Blackwater |
 | `event.war` | Event | Multi-battle named conflict | belligerents, causes, phases, battles, outcome | Robert's Rebellion, War of the Five Kings |
+| `event.tournament` | Event | Formal tourney or melee with named participants | location, date, host, champions, participants | Tourney at Harrenhal, Hand's Tourney, Ashford Tourney |
 | `species` | Entity | Non-human biological type — sentient species, magical creatures, in-world flora kinds, AND in-world fauna kinds (NOT named individuals — those are characters) | habitat, abilities, known_specimens | Dragons (species), Others, Children of the Forest, Giants, weirwood, ironwood, direwolves, aurochs |
 | `title` | Entity | Formal office or hereditary title | holders, succession, powers, created_by | Hand of the King, Lord Commander, High Septon |
 
