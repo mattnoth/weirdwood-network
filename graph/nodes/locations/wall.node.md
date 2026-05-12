@@ -2,7 +2,7 @@
 name: "Wall"
 type: place.location
 slug: wall
-aliases: []
+aliases: ["The Wall", "the-wall"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Wall"
 bucket_id: houses-major-recovery

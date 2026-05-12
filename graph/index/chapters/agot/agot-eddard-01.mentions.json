@@ -2,14 +2,14 @@
   "chapter_id": "agot-eddard-01",
   "book": "agot",
   "pov_character": "eddard",
-  "generated_at": "2026-05-12T18:30:44.823808+00:00",
+  "generated_at": "2026-05-12T21:45:31.430487+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-eddard-01.extraction.md",
   "stats": {
     "total_mentions": 57,
-    "resolved_to_node": 48,
+    "resolved_to_node": 50,
     "direct": 47,
-    "alias": 1,
-    "unresolved": 9
+    "alias": 3,
+    "unresolved": 7
   },
   "mentions": [
     {
@@ -329,10 +329,10 @@
     },
     {
       "raw_name": "Winterfell crypts",
-      "slug": "winterfell-crypts",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "crypt-of-winterfell",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crypt-of-winterfell.node.md",
       "section": "Locations",
       "line": 74
     },
@@ -446,10 +446,10 @@
     },
     {
       "raw_name": "Winterfell crypts",
-      "slug": "winterfell-crypts",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "crypt-of-winterfell",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crypt-of-winterfell.node.md",
       "section": "Location Descriptions",
       "line": 91
     },

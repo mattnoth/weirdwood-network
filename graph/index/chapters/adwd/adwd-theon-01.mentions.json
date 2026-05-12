@@ -2,14 +2,14 @@
   "chapter_id": "adwd-theon-01",
   "book": "adwd",
   "pov_character": "theon",
-  "generated_at": "2026-05-12T18:30:45.074974+00:00",
+  "generated_at": "2026-05-12T21:45:31.674047+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-theon-01.extraction.md",
   "stats": {
     "total_mentions": 100,
-    "resolved_to_node": 74,
-    "direct": 66,
+    "resolved_to_node": 75,
+    "direct": 67,
     "alias": 8,
-    "unresolved": 26
+    "unresolved": 25
   },
   "mentions": [
     {
@@ -438,9 +438,9 @@
     {
       "raw_name": "Damon Dance-for-Me",
       "slug": "damon-dance-for-me",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/damon-dance-for-me.node.md",
       "section": "Characters Referenced",
       "line": 82
     },

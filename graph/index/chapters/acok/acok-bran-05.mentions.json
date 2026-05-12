@@ -2,14 +2,14 @@
   "chapter_id": "acok-bran-05",
   "book": "acok",
   "pov_character": "bran",
-  "generated_at": "2026-05-12T18:30:44.860262+00:00",
+  "generated_at": "2026-05-12T21:45:31.469411+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-bran-05.extraction.md",
   "stats": {
     "total_mentions": 135,
-    "resolved_to_node": 106,
-    "direct": 101,
+    "resolved_to_node": 107,
+    "direct": 102,
     "alias": 5,
-    "unresolved": 29
+    "unresolved": 28
   },
   "mentions": [
     {
@@ -1194,9 +1194,9 @@
     {
       "raw_name": "Ice Dragon (constellation — used for navigation north)",
       "slug": "ice-dragon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/ice-dragon.node.md",
       "section": "Raw Entity List > Other",
       "line": 335
     },

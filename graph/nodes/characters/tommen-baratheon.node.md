@@ -2,7 +2,7 @@
 name: "Tommen Baratheon"
 type: character.human
 slug: tommen-baratheon
-aliases: ["The Boy King", "Tommen-called-Baratheon"]
+aliases: ["The Boy King", "Tommen-called-Baratheon", "Tommen I Baratheon", "tommen-i-baratheon"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Tommen_Baratheon"
 bucket_id: characters-other-t

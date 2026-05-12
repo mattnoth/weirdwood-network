@@ -2,7 +2,7 @@
 name: "Vale of Arryn"
 type: place.region
 slug: vale-of-arryn
-aliases: ["The Vale"]
+aliases: ["The Vale", "Vale", "vale"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Vale_of_Arryn"
 bucket_id: houses-major-recovery

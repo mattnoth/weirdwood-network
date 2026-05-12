@@ -2,14 +2,14 @@
   "chapter_id": "asos-jon-08",
   "book": "asos",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T18:30:44.951580+00:00",
+  "generated_at": "2026-05-12T21:45:31.563409+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jon-08.extraction.md",
   "stats": {
     "total_mentions": 57,
-    "resolved_to_node": 47,
+    "resolved_to_node": 49,
     "direct": 41,
-    "alias": 6,
-    "unresolved": 10
+    "alias": 8,
+    "unresolved": 8
   },
   "mentions": [
     {
@@ -392,10 +392,10 @@
     },
     {
       "raw_name": "Winterfell crypts",
-      "slug": "winterfell-crypts",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "crypt-of-winterfell",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crypt-of-winterfell.node.md",
       "section": "Locations",
       "line": 81
     },
@@ -464,10 +464,10 @@
     },
     {
       "raw_name": "Winterfell crypts (dream)",
-      "slug": "winterfell-crypts",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "crypt-of-winterfell",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crypt-of-winterfell.node.md",
       "section": "Location Descriptions",
       "line": 93
     },

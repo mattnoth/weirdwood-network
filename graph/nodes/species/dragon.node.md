@@ -2,7 +2,7 @@
 name: "Dragon"
 type: species
 slug: dragon
-aliases: []
+aliases: ["dragons"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Dragon"
 bucket_id: tier3-pathb-longtail

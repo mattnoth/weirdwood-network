@@ -2,14 +2,14 @@
   "chapter_id": "adwd-the-watcher-01",
   "book": "adwd",
   "pov_character": "the-watcher",
-  "generated_at": "2026-05-12T18:30:45.072400+00:00",
+  "generated_at": "2026-05-12T21:45:31.671877+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-the-watcher-01.extraction.md",
   "stats": {
     "total_mentions": 92,
-    "resolved_to_node": 70,
+    "resolved_to_node": 71,
     "direct": 68,
-    "alias": 2,
-    "unresolved": 22
+    "alias": 3,
+    "unresolved": 21
   },
   "mentions": [
     {
@@ -131,10 +131,10 @@
     },
     {
       "raw_name": "The Fowler twins",
-      "slug": "the-fowler-twins",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "jeyne-fowler",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/jeyne-fowler.node.md",
       "section": "Characters Present",
       "line": 40
     },

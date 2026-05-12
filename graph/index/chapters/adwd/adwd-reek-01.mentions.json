@@ -2,14 +2,14 @@
   "chapter_id": "adwd-reek-01",
   "book": "adwd",
   "pov_character": "reek",
-  "generated_at": "2026-05-12T18:30:45.053735+00:00",
+  "generated_at": "2026-05-12T21:45:31.655753+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-reek-01.extraction.md",
   "stats": {
     "total_mentions": 88,
-    "resolved_to_node": 47,
-    "direct": 44,
-    "alias": 3,
-    "unresolved": 41
+    "resolved_to_node": 51,
+    "direct": 47,
+    "alias": 4,
+    "unresolved": 37
   },
   "mentions": [
     {
@@ -78,9 +78,9 @@
     {
       "raw_name": "Damon Dance-for-Me",
       "slug": "damon-dance-for-me",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/damon-dance-for-me.node.md",
       "section": "Characters Present",
       "line": 34
     },
@@ -177,9 +177,9 @@
     {
       "raw_name": "Damon Dance-for-Me",
       "slug": "damon-dance-for-me",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/damon-dance-for-me.node.md",
       "section": "Character Appearances",
       "line": 49
     },
@@ -456,9 +456,9 @@
     {
       "raw_name": "Damon Dance-for-Me (Damon)",
       "slug": "damon-dance-for-me",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/damon-dance-for-me.node.md",
       "section": "Raw Entity List > Characters",
       "line": 221
     },
@@ -671,10 +671,10 @@
     },
     {
       "raw_name": "The Bastard's Boys (Ramsay's personal retainers: Ben Bones, Damon Dance-for-Me, Grunt, Sour Alyn, Skinner, Yellow Dick)",
-      "slug": "the-bastards-boys",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "bastards-boys",
+      "resolved_via": "alias",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/bastards-boys.node.md",
       "section": "Raw Entity List > Factions & Organizations",
       "line": 251
     },

@@ -2,14 +2,14 @@
   "chapter_id": "asos-bran-01",
   "book": "asos",
   "pov_character": "bran",
-  "generated_at": "2026-05-12T18:30:44.919645+00:00",
+  "generated_at": "2026-05-12T21:45:31.528136+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-bran-01.extraction.md",
   "stats": {
     "total_mentions": 139,
-    "resolved_to_node": 104,
+    "resolved_to_node": 106,
     "direct": 94,
-    "alias": 10,
-    "unresolved": 35
+    "alias": 12,
+    "unresolved": 33
   },
   "mentions": [
     {
@@ -455,10 +455,10 @@
     },
     {
       "raw_name": "The crypts of Winterfell",
-      "slug": "the-crypts-of-winterfell",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "crypt-of-winterfell",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crypt-of-winterfell.node.md",
       "section": "Locations",
       "line": 88
     },
@@ -851,10 +851,10 @@
     },
     {
       "raw_name": "The crypts of Winterfell",
-      "slug": "the-crypts-of-winterfell",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "crypt-of-winterfell",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crypt-of-winterfell.node.md",
       "section": "Raw Entity List > Locations",
       "line": 279
     },

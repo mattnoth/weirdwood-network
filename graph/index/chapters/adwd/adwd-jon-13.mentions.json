@@ -2,14 +2,14 @@
   "chapter_id": "adwd-jon-13",
   "book": "adwd",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T18:30:45.051123+00:00",
+  "generated_at": "2026-05-12T21:45:31.653325+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-jon-13.extraction.md",
   "stats": {
     "total_mentions": 108,
-    "resolved_to_node": 90,
+    "resolved_to_node": 91,
     "direct": 81,
-    "alias": 9,
-    "unresolved": 18
+    "alias": 10,
+    "unresolved": 17
   },
   "mentions": [
     {
@@ -662,10 +662,10 @@
     },
     {
       "raw_name": "The Red Raven (Raymun's younger brother)",
-      "slug": "the-red-raven",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "red-raven-free-folk",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/red-raven-free-folk.node.md",
       "section": "Characters Referenced",
       "line": 107
     },

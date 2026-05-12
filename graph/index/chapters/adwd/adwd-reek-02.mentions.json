@@ -2,14 +2,14 @@
   "chapter_id": "adwd-reek-02",
   "book": "adwd",
   "pov_character": "reek",
-  "generated_at": "2026-05-12T18:30:45.054862+00:00",
+  "generated_at": "2026-05-12T21:45:31.656848+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-reek-02.extraction.md",
   "stats": {
     "total_mentions": 202,
-    "resolved_to_node": 130,
-    "direct": 119,
+    "resolved_to_node": 132,
+    "direct": 121,
     "alias": 11,
-    "unresolved": 72
+    "unresolved": 70
   },
   "mentions": [
     {
@@ -24,9 +24,9 @@
     {
       "raw_name": "Damon Dance-for-Me",
       "slug": "damon-dance-for-me",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/damon-dance-for-me.node.md",
       "section": "Characters Present",
       "line": 28
     },
@@ -816,9 +816,9 @@
     {
       "raw_name": "Damon Dance-for-Me",
       "slug": "damon-dance-for-me",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/damon-dance-for-me.node.md",
       "section": "Raw Entity List > Characters",
       "line": 294
     },

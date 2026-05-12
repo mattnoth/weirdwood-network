@@ -1,0 +1,823 @@
+rank	target_slug	edge_count	in_count	is_title	is_date	example_source	example_edge_type	example_target_text
+1	blacks	124	138	0	0	addam-velaryon	SWORN_TO	Blacks
+2	greens	75	127	0	0	adrian-tarbeck	SWORN_TO	Greens
+3	age-of-heroes	1	43	0	0	battle-of-crookwater	FIGHTS_IN	Age of Heroes
+4	crossroads-inn	2	39	0	0	masha-heddle	DIED_AT	Crossroads inn (track_b: Died)
+5	dragons	1	32	0	0	dance-of-the-dragons	DEFEATS	dragons
+6	crypt-of-winterfell	14	29	0	0	barthogan-stark	BURIED_AT	Crypt of Winterfell
+7	ship	2	26	0	0	allaquo	SWORN_TO	Ship
+8	299-ac	1	24	0	1	house-bolton	OVERLORD_OF	299 AC (track_b: Overlords)
+9	betrothal	1	24	0	0	lyonel-baratheons-rebellion	DEFEATS	Betrothal
+10	joffrey-i-baratheon	2	22	0	0	robert-i-baratheon	SUCCEEDS	Joffrey I Baratheon
+11	vale	5	21	0	0	battle-in-the-waters-off-gulltown	DEFEATS	Vale
+12	two-betrayers	2	21	0	0	hugh-hammer	SWORN_TO	Two Betrayers
+13	andal-invasion	3	17	0	0	battle-of-the-seven-stars	FIGHTS_IN	Andal invasion
+14	lads	3	16	0	0	alysanne-blackwood	SWORN_TO	Lads
+15	282-ac	1	16	0	1	house-baratheon	OVERLORD_OF	282 AC (track_b: Overlords)
+16	moon-of-the-three-kings	1	16	0	0	riot-of-kings-landing-dance-of-the-dragons	DEFEATS	Moon of the Three Kings
+17	300-ac	1	15	0	1	house-bolton	OVERLORD_OF	300 AC (track_b: Overlords)
+18	giant	1	14	0	0	wun-weg-wun-dar-wun	CULTURE_OF	Giant
+19	winter-wolves	1	12	0	0	roderick-dustin	SWORN_TO	Winter Wolves
+20	happy-port	6	10	0	0	assadora	SWORN_TO	Happy Port
+21	kings-men	5	10	0	0	andrew-estermont	SWORN_TO	King's men
+22	the-wall	1	10	0	0	harma-dogshead	DIED_AT	The Wall (track_b: Died)
+23	dornish	15	9	0	0	alleras	CULTURE_OF	Dornish (track_b: Race)
+24	king-s-landing	1	9	0	0	bramm-of-blackhull	DIED_AT	King’s Landing (track_b: Died)
+25	kings-of-the-reach	1	9	0	0	order-of-the-green-hand	SWORN_TO	Kings of the Reach
+26	tommen-i-baratheon	7	8	0	0	boots	OWNS	Tommen I Baratheon
+27	storm-kings	1	8	0	0	battle-of-six-kings	DEFEATS	Storm Kings
+28	the-gate	1	8	0	0	izembaro	SWORN_TO	The Gate
+29	house-flint	3	7	0	0	byam-flint	SWORN_TO	House Flint
+30	iron-bank	1	7	0	0	bessaro-reyaan	SWORN_TO	Iron Bank
+31	lady-of-coldmoat	1	7	1	0	rohanne-webber	HOLDS_TITLE	Lady of Coldmoat
+32	lord-paramount-of-the-mander	8	6	1	0	bertrand-tyrell	HOLDS_TITLE	Lord Paramount of the Mander
+33	bastards-boys	3	6	0	0	grunt	SWORN_TO	Bastard's Boys
+34	house-fossoway	3	6	0	0	derrick-fossoway	SWORN_TO	House Fossoway
+35	wedding-of-aegon-iii-targaryen-and-jaehaera-targaryen	1	6	0	0	dance-of-the-dragons	DEFEATS	Wedding of Aegon III Targaryen and Jaehaera Targaryen
+36	yunkish	1	6	0	0	crunch	DIED_AT	Yunkish (track_b: Died)
+37	battle-of-stonebridge	1	5	0	0	faith-militant-uprising	FIGHTS_IN	Battle of Stonebridge
+38	lady-of-the-eyrie	1	5	1	0	jeyne-arryn	HOLDS_TITLE	Lady of the Eyrie
+39	motherhouse-of-maris	1	5	0	0	jeyne-arryn	DIED_AT	Motherhouse of Maris (track_b: Died)
+40	elephants	3	4	0	0	doniphos-paenymion	SWORN_TO	Elephants
+41	last-greenseer	3	4	0	0	ash	SWORN_TO	last greenseer
+42	battle-at-the-mander	1	4	0	0	roberts-rebellion	FIGHTS_IN	Battle at the Mander
+43	pyntos	1	4	0	0	pynto	SWORN_TO	Pynto's
+44	free-company	1	3	0	0	howard-bullock	SWORN_TO	Free Company
+45	conflict-beyond-the-wall	6	2	0	0	attack-on-castle-black	FIGHTS_IN	Conflict beyond the Wall
+46	great-hall	3	2	0	0	aerys-ii-targaryen	DIED_AT	Great Hall (track_b: Died)
+47	daemon-blackfyre	1	2	0	0	house-blackfyre	FOUNDED	Daemon Blackfyre
+48	kingdom-of-the-three-daughters	1	2	0	0	racallio-ryndoon	SWORN_TO	Kingdom of the Three Daughters
+49	sarnori	1	2	0	0	mazor-alexi	CULTURE_OF	Sarnori
+50	lannister	15	1	0	0	battle-at-the-mummers-ford	DEFEATS	Lannister
+51	cerelle-lannister	6	1	0	0	gerold-lannister	SUCCEEDS	Cerelle Lannister
+52	2-bc	3	1	0	1	house-baratheon	OVERLORD_OF	2 BC (track_b: Overlords)
+53	thenn	3	1	0	0	sigorn	BORN_AT	Thenn
+54	aegon-ii	1	1	0	0	dance-of-the-dragons	DEFEATS	Aegon II
+55	aegon-iii	1	1	0	0	dance-of-the-dragons	DEFEATS	Aegon III
+56	aegon-vi-targaryen	1	1	0	0	varys	SWORN_TO	Aegon VI Targaryen
+57	blackfyre-rebellions	1	1	0	0	second-blackfyre-rebellion	FIGHTS_IN	Blackfyre Rebellions
+58	house-farwynd	1	1	0	0	triston-farwynd	SWORN_TO	House Farwynd
+59	joffrey-lydden	1	1	0	0	gerold-iii-lannister	SUCCEEDS	Joffrey Lydden
+60	lord-caswell	1	1	0	0	lady-caswell	SPOUSE_OF	Lord Caswell
+61	lord-commander	1	1	0	0	mutiny-at-castle-black	DEFEATS	Lord Commander
+62	rhaenyra	1	1	0	0	dance-of-the-dragons	DEFEATS	Rhaenyra
+63	sea-watch	1	1	0	0	tristimun	MEMBER_OF	Sea watch
+64	unknown	321	0	0	0	addam-hightower	SPOUSE_OF	Unknown
+65	the-citadel	83	0	0	0	abelon	SWORN_TO	The Citadel
+66	extinct	37	0	0	0	house-amber	RULES	Extinct
+67	son	31	0	0	0	alyn-tarbeck	PARENT_OF	Son
+68	none	29	0	0	0	aerys-i-targaryen	PARENT_OF	None
+69	sons	27	0	0	0	antario-jast	PARENT_OF	Sons
+70	daughter	26	0	0	0	alysane-mormont	PARENT_OF	Daughter
+71	captain	20	0	1	0	alvyn-sharp	HOLDS_TITLE	Captain
+72	commander	13	0	0	0	bedwyck	HOLDS_TITLE	Commander
+73	daughters	8	0	0	0	choq-choq	PARENT_OF	Daughters
+74	two-daughters	8	0	0	0	corwyn-corbray	PARENT_OF	Two daughters
+75	unborn-child	8	0	0	0	alyce-graceford	PARENT_OF	Unborn child
+76	gate	7	0	0	0	big-brusco	SWORN_TO	Gate
+77	deceased-husband	6	0	0	0	anya-waynwood	SPOUSE_OF	Deceased husband
+78	deceased-wife	6	0	0	0	mors-umber	SPOUSE_OF	Deceased wife
+79	golden-company-victory	6	0	0	0	fall-of-mistwood	DEFEATS	Golden Company victory
+80	lord-marshal-of-the-mander	6	0	0	0	desmond-manderly	HOLDS_TITLE	Lord Marshal of the Mander
+81	red-keep-kings-landing	6	0	0	0	aemon-targaryen-son-of-viserys-ii	BORN_AT	Red Keep, King's Landing
+82	the-reach	6	0	0	0	house-ambrose	REGION_OF	The Reach
+83	a-son	5	0	0	0	davos-dayne	PARENT_OF	A son
+84	at-least-one-son	5	0	0	0	arlan-i-durrandon	PARENT_OF	At least one son
+85	brother	5	0	0	0	clement	HOLDS_TITLE	Brother
+86	father-is-oberyn-martell	5	0	0	0	nymeria-sand	PARENT_OF	(reverse) Father is Oberyn Martell
+87	iron-throne-victory	5	0	0	0	burning-of-the-sept-of-remembrance	DEFEATS	Iron Throne victory
+88	three-sons	5	0	0	0	ambrose-butterwell	PARENT_OF	Three sons
+89	three-wives	5	0	0	0	horton-redfort	SPOUSE_OF	Three wives
+90	1-unknown	4	0	0	0	cregan-karstark	SPOUSE_OF	1: Unknown
+91	durrandon	4	0	0	0	battle-by-the-bloody-pool	DEFEATS	Durrandon
+92	goodman	4	0	0	0	beck	HOLDS_TITLE	Goodman
+93	khal-drogos-khalasar	4	0	0	0	doreah	SWORN_TO	Khal Drogo's khalasar
+94	2-unknown	3	0	0	0	cregan-karstark	SPOUSE_OF	2: Unknown
+95	300-ac-meereen	3	0	0	0	loyal-spear	DIED_AT	300 AC, Meereen
+96	a-daughter	3	0	0	0	gerold-iii-lannister	HEIR_TO	A daughter
+97	admiral	3	0	0	0	alyn-velaryon	HOLDS_TITLE	Admiral
+98	at-least-four-sons	3	0	0	0	agnes-blackwood	PARENT_OF	At least four sons
+99	balon-ix-greyjoy	3	0	0	0	euron-greyjoy	SUCCEEDS	Balon IX Greyjoy
+100	bolton	3	0	0	0	battle-outside-the-gates-of-winterfell	DEFEATS	Bolton
+101	cerwyn	3	0	0	0	cley-cerwyn	BORN_AT	Cerwyn (track_b: Born)
+102	euron-iii-greyjoy	3	0	0	0	balon-greyjoy	SUCCEEDS	Euron III Greyjoy (track_b: Successor)
+103	four-wives	3	0	0	0	jasper-wylde	SPOUSE_OF	Four wives
+104	healing	3	0	0	0	ebrose	HOLDS_TITLE	healing
+105	house-baratheon-of-storms-end	3	0	0	0	holy-hundred	SWORN_TO	House Baratheon of Storm's End (track_b: Allegiance)
+106	house-tyrell-of-highgarden	3	0	0	0	garlan-tyrell	SWORN_TO	House Tyrell of Highgarden
+107	issue	3	0	0	0	garth-the-gardener	PARENT_OF	Issue
+108	lady-stonetree	3	0	0	0	harlon-greyjoy	PARENT_OF	Lady Stonetree
+109	meereen-300-ac	3	0	0	0	eladon-goldenhair	DIED_AT	Meereen, 300 AC
+110	northern-victory	3	0	0	0	battle-at-long-lake	DEFEATS	Northern victory
+111	partial-destruction-of-town	3	0	0	0	first-sack-of-maidenpool	DEFEATS	partial destruction of town
+112	royal-victory	3	0	0	0	attack-on-old-wyk	DEFEATS	Royal victory
+113	two-sons	3	0	0	0	quenton-qoherys	PARENT_OF	Two sons
+114	winterfell-299-ac	3	0	0	0	squint	DIED_AT	Winterfell, 299 AC
+115	3-sons	2	0	0	0	boremund-harlaw	PARENT_OF	3 sons
+116	a-woods-witch	2	0	0	0	harlon-the-hunter	SPOUSE_OF	A woods witch
+117	at-least-one-child	2	0	0	0	fern	PARENT_OF	At least one child
+118	at-least-one-son-or-daughter	2	0	0	0	duncan-the-tall	PARENT_OF	At least one son or daughter
+119	baratheon	2	0	0	0	assault-on-dragonstone	DEFEATS	Baratheon
+120	bastard-son	2	0	0	0	hizdahr-zo-loraq	PARENT_OF	Bastard son
+121	child	2	0	0	0	osric-umber	PARENT_OF	Child (track_b: Issue)
+122	commander-of-the-stalwart-shields	2	0	0	0	mollono-yos-dob	HOLDS_TITLE	Commander of the Stalwart Shields
+123	deceased	2	0	0	0	albar-royce	PARENT_OF	Deceased
+124	eldest-daughter	2	0	0	0	gerrick-kingsblood	PARENT_OF	Eldest daughter
+125	faith-of-rhllor	2	0	0	0	melisandre	SWORN_TO	Faith of R'hllor
+126	father-is-doran-martell	2	0	0	0	quentyn-martell	PARENT_OF	(reverse) Father is Doran Martell
+127	four-daughters	2	0	0	0	mors-martell	PARENT_OF	Four daughters
+128	four-sons	2	0	0	0	shella-whent	PARENT_OF	Four sons
+129	greyjoy-victory	2	0	0	0	burning-of-the-lannister-fleet	DEFEATS	Greyjoy victory
+130	gwayne-gardener	2	0	0	0	perceon-iii-gardener	SUCCEEDS	Gwayne Gardener
+131	hogg-victory	2	0	0	0	burning-of-sows-horn	DEFEATS	Hogg victory
+132	house-bolton-of-the-dreadfort	2	0	0	0	ramsay-snow	SWORN_TO	House Bolton of the Dreadfort
+133	house-lannister-of-casterly-rock	2	0	0	0	lancel-lannister	SWORN_TO	House Lannister of Casterly Rock
+134	house-pendaerys	2	0	0	0	pereno-pendaerys	SWORN_TO	House Pendaerys
+135	in-or-before-281-ac	2	0	0	0	armond-connington	DIED_AT	In or before 281 AC (track_b: Died)
+136	ironrath	2	0	0	0	house-forrester-telltale	SEAT_OF	Ironrath
+137	jhaqos-khalasar	2	0	0	0	jhaqo	SWORN_TO	Jhaqo's khalasar
+138	jonoss-first-wife	2	0	0	0	barbara-bracken	PARENT_OF	Jonos's first wife
+139	kevan-lannister-martyn-lannister	2	0	0	0	kevan-lannister	PARENT_OF	Kevan Lannister → Martyn Lannister
+140	khal-ogos-khalasar	2	0	0	0	fogo	SWORN_TO	Khal Ogo's khalasar
+141	kings-landing-73-ac	2	0	0	0	gaemon-targaryen-son-of-jaehaerys-i	BORN_AT	King's Landing, 73 AC
+142	lady-piper	2	0	0	0	quellon-greyjoy	SPOUSE_OF	Lady Piper
+143	lady-regent	2	0	0	0	elenda-baratheon	HOLDS_TITLE	Lady Regent
+144	lord-darry	2	0	0	0	raymun-darry	PARENT_OF	Lord Darry
+145	lord-of-wyl	2	0	1	0	walter-wyl	HOLDS_TITLE	Lord of Wyl
+146	loyalist-victory	2	0	0	0	battle-of-the-redgrass-field	DEFEATS	Loyalist victory
+147	maester-at-sunspear	2	0	0	0	caleotte	HOLDS_TITLE	Maester at Sunspear
+148	mother-is-mellario-of-norvos	2	0	0	0	quentyn-martell	PARENT_OF	(reverse) Mother is Mellario of Norvos
+149	mother-was-the-princess-of-dorne	2	0	0	0	mors-martell-brother-of-doran	PARENT_OF	(reverse) Mother was the Princess of Dorne
+150	northern	2	0	0	0	battle-of-the-weeping-water	DEFEATS	Northern
+151	one-daughter	2	0	0	0	bethany-redwyne	PARENT_OF	One daughter
+152	queen-consort	2	0	0	0	aelinor-penrose	HOLDS_TITLE	Queen consort
+153	rebel-victory	2	0	0	0	battle-of-the-bells	DEFEATS	rebel victory
+154	rickon-stark-sansa-stark	2	0	0	0	rickon-stark-son-of-cregan	PARENT_OF	Rickon Stark → Sansa Stark
+155	rickon-stark-serena-stark	2	0	0	0	rickon-stark-son-of-cregan	PARENT_OF	Rickon Stark → Serena Stark
+156	see-below	2	0	0	0	battle-of-the-blackwater	DEFEATS	See below
+157	ser-drinkwater	2	0	0	0	drinkwater-twins	PARENT_OF	Ser Drinkwater
+158	serena-stark-torrhen-stark	2	0	0	0	serena-stark	PARENT_OF	Serena Stark → Torrhen Stark
+159	six-daughters	2	0	0	0	garmund-hightower	PARENT_OF	Six daughters
+160	six-sons	2	0	0	0	hubert-arryn	PARENT_OF	Six sons
+161	sixteen-children	2	0	0	0	lucamore-strong	PARENT_OF	Sixteen children
+162	sovereign	2	0	0	0	house-greyjoy	OVERLORD_OF	sovereign (track_b: Overlord)
+163	stillborn-daughter	2	0	0	0	jeyne-royce	PARENT_OF	Stillborn daughter
+164	tomard-tomtoo	2	0	0	0	tomard	PARENT_OF	Tomard → TomToo
+165	twelve-children	2	0	0	0	gareth-clifton	PARENT_OF	Twelve children
+166	uncertain	2	0	0	0	hugh-hammer	CULTURE_OF	Uncertain (track_b: Race)
+167	understeward	2	0	0	0	mebble	HOLDS_TITLE	Understeward
+168	unknown-wife	2	0	0	0	quort	SPOUSE_OF	Unknown wife
+169	unnamed-wife	2	0	0	0	mathos-mallarawan	SPOUSE_OF	Unnamed wife
+170	westermen-victory	2	0	0	0	battle-at-kayce	DEFEATS	Westermen victory
+171	willam-stark-brandon-stark	2	0	0	0	brandon-stark-son-of-willam	PARENT_OF	Willam Stark → Brandon Stark
+172	willam-stark-edwyle-stark	2	0	0	0	edwyle-stark	PARENT_OF	Willam Stark → Edwyle Stark
+173	wives	2	0	0	0	salladhor-saan	SPOUSE_OF	Wives
+174	1-son-of-disputed-paternity	1	0	0	0	sharis-footly	PARENT_OF	1 son of disputed paternity
+175	101-ac-102-ac-or-103-ac	1	0	0	0	yorbert-royce	DIED_AT	101 AC, 102 AC or 103 AC (track_b: Died)
+176	102-68-bc-dragonstone	1	0	0	0	maegon-targaryen	BORN_AT	102-68 BC, Dragonstone
+177	12-ac-kings-landing	1	0	0	0	lyonce	DIED_AT	12 AC, King's Landing
+178	127-ac-kings-landing	1	0	0	0	maelor-targaryen	BORN_AT	127 AC, King's Landing
+179	130-ac-bitterbridge	1	0	0	0	maelor-targaryen	DIED_AT	130 AC, Bitterbridge
+180	138-ac-kings-landing	1	0	0	0	naerys-targaryen	BORN_AT	138 AC, King's Landing
+181	14-other-wives	1	0	0	0	craster	SPOUSE_OF	14 other wives
+182	156-ac-or-later	1	0	0	0	bethany-bracken	BORN_AT	156 AC or later (track_b: Born)
+183	175-ac-176-ac-or-177-ac	1	0	0	0	kaeth	BORN_AT	175 AC, 176 AC or 177 AC (track_b: Born)
+184	179-184-ac-kings-landing	1	0	0	0	naerys-targaryen	DIED_AT	179-184 AC, King's Landing
+185	183-209-ac-westeros	1	0	0	0	matarys-targaryen	BORN_AT	183-209 AC, Westeros
+186	2-a-daughter-of-king-osgood	1	0	0	0	gerold-grafton-king	SPOUSE_OF	2: A daughter of King Osgood
+187	2-sons	1	0	0	0	ynys-yronwood	PARENT_OF	2 sons
+188	209-ac-kings-landing	1	0	0	0	matarys-targaryen	DIED_AT	209 AC, King's Landing
+189	22-wives	1	0	0	0	ronard-storm	SPOUSE_OF	22 wives
+190	259-ac-westeros	1	0	0	0	lemore	BORN_AT	~259 AC, Westeros
+191	281-283-ac-dothraki-sea	1	0	0	0	jhogo	BORN_AT	281-283 AC, Dothraki sea
+192	281-ac-282-ac-or-283-ac	1	0	0	0	penny	BORN_AT	281 AC, 282 AC or 283 AC (track_b: Born)
+193	282-ac-283-ac-or-284-ac	1	0	0	0	bethany-rosby	DIED_AT	282 AC, 283 AC or 284 AC (track_b: Died)
+194	282-ac-ashford	1	0	0	0	quentin-tyrell	DIED_AT	282 AC, Ashford
+195	282-ac-highgarden	1	0	0	0	loras-tyrell	BORN_AT	282 AC, Highgarden
+196	283	1	0	0	1	house-baratheon	OVERLORD_OF	283 (track_b: Overlords)
+197	284-ac-dothraki-sea	1	0	0	0	jhiqui	BORN_AT	284 AC, Dothraki Sea
+198	288-289-ac-naath	1	0	0	0	missandei	BORN_AT	288-289 AC, Naath
+199	3-unknown	1	0	0	0	lyonel-strong	SPOUSE_OF	3: Unknown
+200	41-ac-kings-landing	1	0	0	0	murmison	DIED_AT	41 AC, King's Landing
+201	42-ac-kings-landing	1	0	0	0	myros	DIED_AT	42 AC, King's Landing
+202	5-ac-dornish-desert-east-of-the-hellholt	1	0	0	0	harlan-tyrell	DIED_AT	5 AC, Dornish desert east of the Hellholt
+203	5-unknown-number-of-new-unsullied	1	0	0	0	targaryen-campaign-in-slavers-bay	DEFEATS	5. Unknown number of new Unsullied
+204	54-ac-dragonstone	1	0	0	0	maryam	DIED_AT	54 AC, Dragonstone
+205	59-ac-near-highgarden	1	0	0	0	bertrand-tyrell	DIED_AT	59 AC, near Highgarden
+206	6-children	1	0	0	0	lyonel-hightower	PARENT_OF	6 children
+207	7-day-of-the-7-moon-of-74-ac	1	0	0	0	rhaenys-targaryen-daughter-of-aemon	BORN_AT	7 day of the 7 moon of 74 AC (track_b: Born)
+208	99-sons	1	0	0	0	ronard-storm	PARENT_OF	99 sons
+209	a-baker	1	0	0	0	hot-pie	PARENT_OF	A baker
+210	a-butcher	1	0	0	0	mycah	PARENT_OF	A butcher
+211	a-carpenter	1	0	0	0	marya-seaworth	PARENT_OF	A carpenter
+212	a-child	1	0	0	0	gerold-grafton-king	PARENT_OF	A child
+213	a-great-grandson	1	0	0	0	garth-vii-gardener	SUCCEEDS	A great-grandson
+214	a-hedge-knight	1	0	0	0	house-baelish	FOUNDED	A hedge knight
+215	a-hundred-sons	1	0	0	0	grey-king	PARENT_OF	A hundred sons
+216	a-merchants-daughter	1	0	0	0	lyonel-corbray	SPOUSE_OF	A merchant's daughter
+217	a-shipwright	1	0	0	0	marilda-of-hull	PARENT_OF	A shipwright
+218	a-single-daughter	1	0	0	0	gerold-iii-lannister	PARENT_OF	A single daughter
+219	a-wisewoman	1	0	0	0	wisewomans-daughter	PARENT_OF	A wisewoman
+220	acting-lady-of-the-gates-of-the-moon	1	0	0	0	myranda-royce	HOLDS_TITLE	Acting Lady of the Gates of the Moon
+221	aegon-i-targaryen-as-hand-of-the-king	1	0	0	0	edmyn-tully	SERVES	Aegon I Targaryen (wiki:Edmyn_Tully) — as Hand of the King
+222	aegon-ii-targaryen-is-parent	1	0	0	0	maelor-targaryen	PARENT_OF	Aegon II Targaryen is parent
+223	aegon-targaryen-is-parent	1	0	0	0	maegon-targaryen	PARENT_OF	Aegon Targaryen is parent
+224	aenar-targaryen-is-parent	1	0	0	0	gaemon-targaryen-son-of-aenar	PARENT_OF	Aenar Targaryen is parent
+225	aenys-i-targaryen-vaella	1	0	0	0	vaella-targaryen-daughter-of-aenys-i	PARENT_OF	Aenys I Targaryen → Vaella
+226	aenys-i-targaryen-viserys	1	0	0	0	viserys-targaryen-son-of-aenys-i	PARENT_OF	Aenys I Targaryen → Viserys
+227	aerion-targaryen-visenya	1	0	0	0	visenya-targaryen	PARENT_OF	Aerion Targaryen → Visenya
+228	aerys-ii-targaryen-viserys	1	0	0	0	viserys-targaryen	PARENT_OF	Aerys II Targaryen → Viserys
+229	after-198-ac	1	0	0	0	walgrave	BORN_AT	After 198 AC (track_b: Born)
+230	alannys-harlaw-asha-greyjoy	1	0	0	0	asha-greyjoy	PARENT_OF	Alannys Harlaw → Asha Greyjoy
+231	alannys-harlaw-is-parent-of-theon	1	0	0	0	theon-greyjoy	PARENT_OF	Alannys Harlaw is parent of Theon
+232	alaric-stark-edric-stark	1	0	0	0	edric-stark	PARENT_OF	Alaric Stark → Edric Stark
+233	alayne-stone-sansa-stark	1	0	0	0	sansa-stark	ALIAS_OF	Alayne Stone → Sansa Stark
+234	aliandra-martell-coryanne-martell	1	0	0	0	qyle-martell	SIBLING_OF	Aliandra Martell, Coryanne Martell
+235	alyn-velaryon-qualifier-rumored	1	0	0	0	aliandra-martell	LOVER_OF	Alyn Velaryon (cite: track_b: Lover) — qualifier: rumored
+236	alys-karstark-rodwell-stark	1	0	0	0	rodwell-stark	PARENT_OF	Alys Karstark → Rodwell Stark
+237	alys-stackspear-damon-reverse	1	0	0	0	damon-lannister-son-of-jason	PARENT_OF	Alys Stackspear → Damon (cite: track_b: Mother) — reverse
+238	alysanne-blackwood-raya-stark	1	0	0	0	raya-stark	PARENT_OF	Alysanne Blackwood → Raya Stark
+239	alysanne-blackwood-sarra-stark	1	0	0	0	sarra-stark	PARENT_OF	Alysanne Blackwood → Sarra Stark
+240	alysanne-targaryen-is-parent	1	0	0	0	gaemon-targaryen-son-of-jaehaerys-i	PARENT_OF	Alysanne Targaryen is parent
+241	alysanne-targaryen-vaegon	1	0	0	0	vaegon-targaryen	PARENT_OF	Alysanne Targaryen → Vaegon
+242	alysanne-targaryen-valerion	1	0	0	0	valerion-targaryen	PARENT_OF	Alysanne Targaryen → Valerion
+243	alysanne-targaryen-viserra	1	0	0	0	viserra-targaryen	PARENT_OF	Alysanne Targaryen → Viserra
+244	alyssa-velaryon-vaella	1	0	0	0	vaella-targaryen-daughter-of-aenys-i	PARENT_OF	Alyssa Velaryon → Vaella
+245	alyssa-velaryon-viserys	1	0	0	0	viserys-targaryen-son-of-aenys-i	PARENT_OF	Alyssa Velaryon → Viserys
+246	ambush-at-the-wendwater	1	0	0	0	faith-militant-uprising	FIGHTS_IN	Ambush at the Wendwater
+247	an-unknown-date	1	0	0	0	qhored-i-hoare	DIED_AT	an unknown date (track_b: Died)
+248	and-the-trident	1	0	0	0	warden-of-the-southern-marches	REGION_OF	and the Trident
+249	annihilation-of-entire-lorathi-andal-population	1	0	0	0	scouring-of-lorath	DEFEATS	Annihilation of entire Lorathi Andal population
+250	archons	1	0	0	0	valyrian-freehold	RULES	Archons
+251	arianne-martell-quentyn-martell	1	0	0	0	trystane-martell	SIBLING_OF	Arianne Martell, Quentyn Martell
+252	arianne-martell-trystane-martell	1	0	0	0	quentyn-martell	SIBLING_OF	Arianne Martell, Trystane Martell
+253	arlan-of-pennytree-described-as-a-hedge-knight-who-trained-duncan-died-on-the-road-to-ashford-in-209-ac	1	0	0	0	hedge-knight	HOLDS_TITLE	Arlan of Pennytree — described as a hedge knight who trained Duncan; died on the road to Ashford in 209 AC (source: `graph/nodes/characters/duncan-the-tall.node.md`)
+254	arra-norrey-rickon-stark	1	0	0	0	rickon-stark-son-of-cregan	PARENT_OF	Arra Norrey → Rickon Stark
+255	arryn	1	0	0	0	jeyne-arryn	PARENT_OF	Arryn
+256	arya-stark-nymeria-infobox-owner	1	0	0	0	nymeria-direwolf	OWNS	Arya Stark → Nymeria (wiki:Nymeria_(direwolf) infobox: Owner)
+257	asher-forrester	1	0	0	0	house-forrester-telltale	RULES	Asher Forrester
+258	astapor-sacked-and-burned	1	0	0	0	siege-of-astapor	DEFEATS	Astapor sacked and burned
+259	at-least-a-daughter	1	0	0	0	jon-brightstone	PARENT_OF	At least a daughter
+260	at-least-five-sons	1	0	0	0	loreon-i-lannister	PARENT_OF	At least five sons
+261	at-least-four-wives	1	0	0	0	cleon	SPOUSE_OF	At least four wives
+262	at-least-one-more-child	1	0	0	0	theomore-harlaw	PARENT_OF	At least one more child
+263	at-least-three-sons	1	0	0	0	artys-i-arryn	PARENT_OF	At least three sons
+264	at-least-two-daughters	1	0	0	0	godric-borrell	PARENT_OF	At least two daughters
+265	baelish-petyr-baelishs-grandfather-founded-house-baelish	1	0	0	0	hedge-knight	HOLDS_TITLE	Baelish (hedge knight) — Petyr Baelish's grandfather; founded House Baelish (source: `graph/nodes/characters/petyr-baelish.node.md`, `graph/nodes/characters/baelish-hedge-knight.node.md`)
+266	baelon-targaryen-aemma-arryn	1	0	0	0	baelon-targaryen-son-of-viserys-i	PARENT_OF	Baelon Targaryen ← Aemma Arryn
+267	baelon-targaryen-aerys-targaryen	1	0	0	0	baelon-targaryen-son-of-aerys	PARENT_OF	Baelon Targaryen ← Aerys Targaryen
+268	baelon-targaryen-alysanne-targaryen	1	0	0	0	baelon-targaryen-son-of-jaehaerys-i	PARENT_OF	Baelon Targaryen ← Alysanne Targaryen
+269	baelon-targaryen-jaehaerys-i-targaryen	1	0	0	0	baelon-targaryen-son-of-jaehaerys-i	PARENT_OF	Baelon Targaryen ← Jaehaerys I Targaryen
+270	baelon-targaryen-viserys-i-targaryen	1	0	0	0	baelon-targaryen-son-of-viserys-i	PARENT_OF	Baelon Targaryen ← Viserys I Targaryen
+271	baelor-i-targaryen-dissolved	1	0	0	0	daena-targaryen	SPOUSE_OF	Baelor I Targaryen (track_b: Spouse) — dissolved
+272	baelor-targaryen-daeron-ii-targaryen	1	0	0	0	baelor-targaryen-son-of-daeron-ii	PARENT_OF	Baelor Targaryen ← Daeron II Targaryen
+273	baelor-targaryen-is-parent	1	0	0	0	matarys-targaryen	PARENT_OF	Baelor Targaryen is parent
+274	baelor-targaryen-myriah-martell	1	0	0	0	baelor-targaryen-son-of-daeron-ii	PARENT_OF	Baelor Targaryen ← Myriah Martell
+275	baelor-targaryen-valarr	1	0	0	0	valarr-targaryen	PARENT_OF	Baelor Targaryen → Valarr
+276	balon-greyjoy-asha-greyjoy	1	0	0	0	asha-greyjoy	PARENT_OF	Balon Greyjoy → Asha Greyjoy
+277	balon-greyjoy-is-parent-of-theon	1	0	0	0	theon-greyjoy	PARENT_OF	Balon Greyjoy is parent of Theon
+278	baratheon-dynasty	1	0	0	0	roberts-rebellion	DEFEATS	Baratheon dynasty
+279	baratheon-of-kings-landing	1	0	0	0	greyjoys-rebellion	DEFEATS	Baratheon of King's Landing
+280	bastard-daughter	1	0	0	0	hizdahr-zo-loraq	PARENT_OF	Bastard daughter
+281	bastard-in-kings-landing	1	0	0	0	braxton-beesbury	PARENT_OF	Bastard in King's Landing
+282	bastard-in-the-reach	1	0	0	0	braxton-beesbury	PARENT_OF	Bastard in the Reach
+283	battle-at-stonehelm	1	0	0	0	second-dornish-war	FIGHTS_IN	Battle at Stonehelm
+284	battle-of-oxcross-aftermath	1	0	0	0	daven-lannister	FIGHTS_IN	Battle of Oxcross (cite: wiki:Daven_Lannister) — aftermath
+285	bayonne-new-jersey	1	0	0	0	george-r-r-martin	BORN_AT	Bayonne, New Jersey
+286	belaerys-family	1	0	0	0	jaenara-belaerys	SWORN_TO	Belaerys family
+287	bennard-stark-elric-stark	1	0	0	0	elric-stark	PARENT_OF	Bennard Stark → Elric Stark
+288	beron-stark-donnor-stark	1	0	0	0	donnor-stark	PARENT_OF	Beron Stark → Donnor Stark
+289	beron-stark-errold-stark	1	0	0	0	errold-stark	PARENT_OF	Beron Stark → Errold Stark
+290	beron-stark-rodrik-stark	1	0	0	0	rodrik-stark-son-of-beron	PARENT_OF	Beron Stark → Rodrik Stark
+291	beron-stark-willam-stark	1	0	0	0	willam-stark	PARENT_OF	Beron Stark → Willam Stark
+292	black	1	0	0	0	battle-of-the-kingsroad	DEFEATS	Black
+293	blue-grace	1	0	0	0	ezzara	HOLDS_TITLE	Blue Grace
+294	bolton-victory	1	0	0	0	siege-of-moat-cailin	DEFEATS	Bolton victory
+295	borros-baratheon-at-the-battle-of-the-kingsroad	1	0	0	0	kermit-tully	KILLS	Borros Baratheon (wiki:Kermit_Tully) — at the Battle of the Kingsroad
+296	bran-stark-attempted-murder	1	0	0	0	jaime-lannister	CAPTURES	Bran Stark (cite: agot-bran-02) — attempted murder
+297	brandon-stark-betrothal-ended-by-brandons-death	1	0	0	0	catelyn-stark	BETROTHED_TO	Brandon Stark (wiki:Catelyn_Stark) — betrothal ended by Brandon's death
+298	brandon-stark-rodwell-stark	1	0	0	0	rodwell-stark	PARENT_OF	Brandon Stark → Rodwell Stark
+299	brandon-stark-walton-stark	1	0	0	0	walton-stark-son-of-brandon	PARENT_OF	Brandon Stark → Walton Stark
+300	brandon-the-builder-brandon-stark	1	0	0	0	brandon-stark-son-of-bran-the-builder	PARENT_OF	Brandon the Builder → Brandon Stark
+301	brave-companions-formerly	1	0	0	0	qyburn	SWORN_TO	Brave Companions, formerly
+302	briony-joy-hill	1	0	0	0	joy-hill	PARENT_OF	Briony → Joy Hill
+303	brotherhood	1	0	0	0	battle-at-the-burning-septry	DEFEATS	Brotherhood
+304	brotherhood-without-banners-as-lady-stoneheart	1	0	0	0	catelyn-stark	MEMBER_OF	Brotherhood without banners (wiki:Catelyn_Stark) — as Lady Stoneheart
+305	brynden-rivers-aegon-iv-targaryen	1	0	0	0	brynden-rivers	PARENT_OF	Brynden Rivers ← Aegon IV Targaryen
+306	brynden-rivers-melissa-blackwood	1	0	0	0	brynden-rivers	PARENT_OF	Brynden Rivers ← Melissa Blackwood
+307	burning-of-town	1	0	0	0	raid-on-saltpans	DEFEATS	burning of town
+308	byam-flint-great-ranging	1	0	0	0	great-ranging	FIGHTS_IN	Byam Flint → Great Ranging (ranger, wounded at Fist; source: byam-flint.node.md)
+309	byron-the-beautiful-hired-by-petyr-baelish	1	0	0	0	hedge-knight	HOLDS_TITLE	Byron the Beautiful — hired by Petyr Baelish (source: `graph/nodes/characters/petyr-baelish.node.md`)
+310	cape-wrath-83-ac	1	0	0	0	morion-martell	DIED_AT	Cape Wrath, 83 AC
+311	captain-of-black-wind	1	0	1	0	asha-greyjoy	HOLDS_TITLE	Captain of Black Wind
+312	captain-of-foamdrinker	1	0	1	0	dagmer	HOLDS_TITLE	Captain of Foamdrinker
+313	captain-of-the-guards-at-sunspear	1	0	1	0	areo-hotah	HOLDS_TITLE	Captain of the guards at Sunspear
+314	captain-of-the-salty-wench	1	0	1	0	quenton-greyjoy-cousin	HOLDS_TITLE	Captain of the Salty Wench
+315	captain-of-the-sea-bitch	1	0	1	0	theon-greyjoy	HOLDS_TITLE	Captain of the Sea Bitch
+316	captain-of-the-unsullied	1	0	1	0	dogkiller	HOLDS_TITLE	Captain of the Unsullied
+317	capture-of-the-castle	1	0	0	0	storming-of-starpike	DEFEATS	capture of the castle
+318	captured-by-robb-starks-forces	1	0	0	0	mallor-the-dornishman	CAPTURES	captured by Robb Stark's forces
+319	castellan-of-casterly-rock	1	0	0	0	damion-lannister	HOLDS_TITLE	Castellan of Casterly Rock
+320	castellan-of-storms-end	1	0	0	0	harbert	HOLDS_TITLE	Castellan of Storm's End
+321	castellan-of-sunspear	1	0	0	0	manfrey-martell	HOLDS_TITLE	Castellan of Sunspear
+322	castellan-of-sunspear-formerly	1	0	0	0	doran-martell	HOLDS_TITLE	Castellan of Sunspear (cite: track_b: Titles) — formerly
+323	castellan-of-winterfell	1	0	0	0	black-lorren	HOLDS_TITLE	Castellan of Winterfell
+324	casterly-rock-the-westerlands	1	0	0	0	joanna-lannister	DIED_AT	Casterly Rock, the westerlands (track_b: Died)
+325	catelyn-stark-sansa-stark	1	0	0	0	sansa-stark	PARENT_OF	Catelyn Stark → Sansa Stark
+326	catelyn-tully-rickon-stark	1	0	0	0	rickon-stark	PARENT_OF	Catelyn Tully → Rickon Stark
+327	cayn-calon	1	0	0	0	calon	PARENT_OF	Cayn → Calon
+328	cerissa-brax-gerold-reverse	1	0	0	0	gerold-lannister	PARENT_OF	Cerissa Brax → Gerold (cite: track_b: Mother) — reverse
+329	cersei-lannister-twin	1	0	0	0	jaime-lannister	SIBLING_OF	Cersei Lannister (cite: wiki:Jaime_Lannister) — twin
+330	cerwyns	1	0	0	0	fight-by-deepwood-motte	DEFEATS	Cerwyns
+331	clayton-suggs-upjumped-hedge-knight-of-lowborn-flea-bottom-origin	1	0	0	0	hedge-knight	HOLDS_TITLE	Clayton Suggs — "upjumped hedge knight" of lowborn Flea Bottom origin (source: `graph/nodes/characters/clayton-suggs.node.md`)
+332	commander-of-the-mothers-men	1	0	0	0	marselen	HOLDS_TITLE	Commander of the Mother's Men
+333	commander-of-the-sea-watch	1	0	0	0	tristimun	HOLDS_TITLE	Commander of the sea watch
+334	commander-of-the-unsullied	1	0	0	0	grey-worm	HOLDS_TITLE	Commander of the Unsullied
+335	conquest-of-the-city	1	0	0	0	fall-of-astapor	DEFEATS	Conquest of the city
+336	corlys-velaryon-master-of-ships-jaehaerys-i-era-later-aegon-ii	1	0	0	0	small-council	MEMBER_OF	corlys-velaryon — master of ships, Jaehaerys I era; later Aegon II (source: reverse-lookup, narrative evidence)
+337	court-fool-at-casterly-rock	1	0	0	0	rodrik-greyjoy-son-of-dalton	HOLDS_TITLE	Court fool at Casterly Rock
+338	cousin-to-the-prince-of-pentos	1	0	0	0	illyrio-mopatis	SPOUSE_OF	cousin to the Prince of Pentos
+339	cregan-stark-brandon-stark	1	0	0	0	brandon-stark-son-of-cregan	PARENT_OF	Cregan Stark → Brandon Stark
+340	cregan-stark-during-the-hour-of-the-wolf	1	0	0	0	kermit-tully	OPPOSES	Cregan Stark (wiki:Kermit_Tully) — during the Hour of the Wolf
+341	cregan-stark-edric-stark	1	0	0	0	edric-stark-son-of-cregan	PARENT_OF	Cregan Stark → Edric Stark
+342	cregan-stark-raya-stark	1	0	0	0	raya-stark	PARENT_OF	Cregan Stark → Raya Stark
+343	cregan-stark-rickon-stark	1	0	0	0	rickon-stark-son-of-cregan	PARENT_OF	Cregan Stark → Rickon Stark
+344	cregan-stark-sarra-stark	1	0	0	0	sarra-stark	PARENT_OF	Cregan Stark → Sarra Stark
+345	curfew-under-penalty-of-death-ordered	1	0	0	0	riots-in-kings-landing	DEFEATS	Curfew under penalty of death ordered
+346	daella-targaryen-alysanne-targaryen	1	0	0	0	daella-targaryen-daughter-of-jaehaerys-i	PARENT_OF	Daella Targaryen ← Alysanne Targaryen
+347	daella-targaryen-dyanna-dayne	1	0	0	0	daella-targaryen-daughter-of-maekar-i	PARENT_OF	Daella Targaryen ← Dyanna Dayne
+348	daella-targaryen-jaehaerys-i-targaryen	1	0	0	0	daella-targaryen-daughter-of-jaehaerys-i	PARENT_OF	Daella Targaryen ← Jaehaerys I Targaryen
+349	daella-targaryen-maekar-i-targaryen	1	0	0	0	daella-targaryen-daughter-of-maekar-i	PARENT_OF	Daella Targaryen ← Maekar I Targaryen
+350	daemion-targaryen-aerys-targaryen	1	0	0	0	daemion-targaryen	PARENT_OF	Daemion Targaryen ← Aerys Targaryen
+351	daemon-forms-his-kingdom-and-later-abandons-it	1	0	0	0	war-for-the-stepstones	DEFEATS	Daemon forms his kingdom and later abandons it
+352	daemon-targaryen-master-of-coin-103-104-ac-master-of-laws-briefly	1	0	0	0	small-council	MEMBER_OF	daemon-targaryen — master of coin 103–104 AC, master of laws briefly (source: reverse-lookup, narrative evidence)
+353	daemon-targaryen-visenya	1	0	0	0	visenya-targaryen-daughter-of-daemon	PARENT_OF	Daemon Targaryen → Visenya
+354	daena-targaryen-aegon-iii-targaryen	1	0	0	0	daena-targaryen	PARENT_OF	Daena Targaryen ← Aegon III Targaryen
+355	daena-targaryen-daenaera-velaryon	1	0	0	0	daena-targaryen	PARENT_OF	Daena Targaryen ← Daenaera Velaryon
+356	daenerys	1	0	0	0	siege-of-meereen	DEFEATS	Daenerys
+357	daenerys-targaryen-aegon-iv-targaryen	1	0	0	0	daenerys-targaryen-daughter-of-aegon-iv	PARENT_OF	Daenerys Targaryen ← Aegon IV Targaryen
+358	daenerys-targaryen-alysanne-targaryen	1	0	0	0	daenerys-targaryen-daughter-of-jaehaerys-i	PARENT_OF	Daenerys Targaryen ← Alysanne Targaryen
+359	daenerys-targaryen-jaehaerys-i-targaryen	1	0	0	0	daenerys-targaryen-daughter-of-jaehaerys-i	PARENT_OF	Daenerys Targaryen ← Jaehaerys I Targaryen
+360	daenerys-targaryen-maron-martells-son	1	0	0	0	maron-martells-son	PARENT_OF	Daenerys Targaryen → Maron Martell's son
+361	daenerys-targaryen-naerys-targaryen	1	0	0	0	daenerys-targaryen-daughter-of-aegon-iv	PARENT_OF	Daenerys Targaryen ← Naerys Targaryen
+362	daenora-targaryen-alys-arryn	1	0	0	0	daenora-targaryen	PARENT_OF	Daenora Targaryen ← Alys Arryn
+363	daenora-targaryen-rhaegel-targaryen	1	0	0	0	daenora-targaryen	PARENT_OF	Daenora Targaryen ← Rhaegel Targaryen
+364	daenys-targaryen-aenar-targaryen	1	0	0	0	daenys-targaryen	PARENT_OF	Daenys Targaryen ← Aenar Targaryen
+365	daenys-targaryen-is-parent	1	0	0	0	elaena-targaryen-daughter-of-gaemon	PARENT_OF	Daenys Targaryen is parent
+366	daeron-targaryen-aegon-v-targaryen	1	0	0	0	daeron-targaryen-son-of-aegon-v	PARENT_OF	Daeron Targaryen ← Aegon V Targaryen
+367	daeron-targaryen-aerion-targaryen-aemon-targaryen-aegon-v-targaryen-daella-targaryen	1	0	0	0	rhae-targaryen	SIBLING_OF	Daeron Targaryen, Aerion Targaryen, Aemon Targaryen, Aegon V Targaryen, Daella Targaryen
+368	daeron-targaryen-aerys-ii-targaryen	1	0	0	0	daeron-targaryen-son-of-aerys-ii	PARENT_OF	Daeron Targaryen ← Aerys II Targaryen
+369	daeron-targaryen-betha-blackwood	1	0	0	0	daeron-targaryen-son-of-aegon-v	PARENT_OF	Daeron Targaryen ← Betha Blackwood
+370	daeron-targaryen-dyanna-dayne	1	0	0	0	daeron-targaryen-son-of-maekar-i	PARENT_OF	Daeron Targaryen ← Dyanna Dayne
+371	daeron-targaryen-maekar-i-targaryen	1	0	0	0	daeron-targaryen-son-of-maekar-i	PARENT_OF	Daeron Targaryen ← Maekar I Targaryen
+372	daeron-targaryen-rhaella-targaryen	1	0	0	0	daeron-targaryen-son-of-aerys-ii	PARENT_OF	Daeron Targaryen ← Rhaella Targaryen
+373	daeron-targaryen-vaella	1	0	0	0	vaella-targaryen-daughter-of-daeron	PARENT_OF	Daeron Targaryen → Vaella
+374	damion-lannister-lanna-lannister	1	0	0	0	lanna-lannister	PARENT_OF	Damion Lannister → Lanna Lannister
+375	damion-lannister-lucion-lannister	1	0	0	0	lucion-lannister	PARENT_OF	Damion Lannister → Lucion Lannister
+376	damon-lannister-damion-reverse	1	0	0	0	damion-lannister	PARENT_OF	Damon Lannister → Damion (cite: track_b: Father) — reverse
+377	damon-lannister-gerold-reverse	1	0	0	0	gerold-lannister	PARENT_OF	Damon Lannister → Gerold (cite: track_b: Father) — reverse
+378	daughter-of-the-archon-of-tyrosh	1	0	0	0	orryn-baratheon	SPOUSE_OF	Daughter of the Archon of Tyrosh
+379	death-of-all-combatants	1	0	0	0	battle-above-the-gods-eye	DEFEATS	Death of all combatants
+380	death-of-five-dragons	1	0	0	0	storming-of-the-dragonpit	DEFEATS	Death of five dragons
+381	death-of-prince-mors-martell	1	0	0	0	third-battle-of-the-boneway	DEFEATS	Death of Prince Mors Martell
+382	deceased-sons	1	0	0	0	mors-umber	PARENT_OF	Deceased sons
+383	decisive-dothraki-victory	1	0	0	0	field-of-crows	DEFEATS	Decisive Dothraki victory
+384	decisive-rebel-victory	1	0	0	0	battle-of-the-trident	DEFEATS	Decisive rebel victory
+385	decisive-royal-victory	1	0	0	0	sea-battle-off-fair-isle	DEFEATS	Decisive royal victory
+386	desmond-grell-as-squire	1	0	0	0	myles-squire	SERVES	Desmond Grell (wiki:Myles_(squire)) — as squire
+387	destruction-of-the-seats-of-several-pious-lords	1	0	0	0	burning-of-the-seats-of-the-pious-lords	DEFEATS	Destruction of the seats of several pious lords
+388	doran-martell-arianne-martell	1	0	0	0	arianne-martell	PARENT_OF	Doran Martell → Arianne Martell
+389	doran-martell-elia-martell	1	0	0	0	oberyn-martell	SIBLING_OF	Doran Martell, Elia Martell
+390	doran-martell-mors-martell-elia-martell-oberyn-martell	1	0	0	0	olyvar-martell	SIBLING_OF	Doran Martell, Mors Martell (brother of Doran), Elia Martell, Oberyn Martell
+391	doran-martell-olyvar-martell-elia-martell-oberyn-martell	1	0	0	0	mors-martell-brother-of-doran	SIBLING_OF	Doran Martell, Olyvar Martell, Elia Martell, Oberyn Martell (cite: wiki:Mors_Martell_(brother_of_Doran))
+392	doran-nymeros-martell	1	0	0	0	sunspear	RULES	Doran Nymeros Martell
+393	dorna-swyft-janei-reverse	1	0	0	0	janei-lannister	PARENT_OF	Dorna Swyft → Janei (cite: track_b: Mother) — reverse
+394	dorna-swyft-martyn-lannister	1	0	0	0	martyn-lannister	PARENT_OF	Dorna Swyft → Martyn Lannister
+395	dornish-victory	1	0	0	0	defenestration-of-sunspear	DEFEATS	Dornish victory
+396	dothraki-sea-283-284-ac	1	0	0	0	irri	BORN_AT	Dothraki Sea, 283–284 AC
+397	dothraki-sea-essos	1	0	0	0	drogo	DIED_AT	Dothraki sea, Essos (track_b: Died)
+398	dozen-wives	1	0	0	0	racallio-ryndoon	SPOUSE_OF	Dozen wives
+399	dragonpit-dragonkeepers	1	0	0	0	dragonkeepers	SEAT_OF	Dragonpit → Dragonkeepers
+400	dragonstone-101-bc	1	0	0	0	gaemon-targaryen-son-of-aenar	DIED_AT	Dragonstone, 101 BC
+401	dragonstone-130-ac	1	0	0	0	gerardys	DIED_AT	Dragonstone, 130 AC
+402	dragonstone-42-ac	1	0	0	0	gawen	DIED_AT	Dragonstone, 42 AC
+403	dragonstone-circa-114-80-bc	1	0	0	0	elaena-targaryen-daughter-of-gaemon	BORN_AT	Dragonstone, circa 114–80 BC
+404	dragonstone-dragonkeepers	1	0	0	0	dragonkeepers	SEAT_OF	Dragonstone → Dragonkeepers
+405	duncan-the-tall-explicitly-described-as-a-hedge-knight-throughout-the-d-e-novellas-chose-to-remain-one-after-ashford	1	0	0	0	hedge-knight	HOLDS_TITLE	Duncan the Tall — explicitly described as a hedge knight throughout the D&E novellas; chose to remain one after Ashford (source: `graph/nodes/characters/duncan-the-tall.node.md`)
+406	east-barracks	1	0	0	0	city-watch-of-kings-landing	SEAT_OF	East Barracks
+407	eddard-stark-rickon-stark	1	0	0	0	rickon-stark	PARENT_OF	Eddard Stark → Rickon Stark
+408	eddard-stark-sansa-stark	1	0	0	0	sansa-stark	PARENT_OF	Eddard Stark → Sansa Stark
+409	edmure-tully-is-parent-of-axel-tully	1	0	0	0	axel-tully	PARENT_OF	Edmure Tully (father of Axel) is parent of Axel Tully
+410	edric-stark-torrhen-stark	1	0	0	0	torrhen-stark-son-of-edric	PARENT_OF	Edric Stark → Torrhen Stark
+411	edwyle-stark-rickard-stark	1	0	0	0	rickard-stark	PARENT_OF	Edwyle Stark → Rickard Stark
+412	eighteen-wives	1	0	0	0	ygon-oldfather	SPOUSE_OF	Eighteen wives
+413	either-ludd-or-torrhen	1	0	0	0	house-whitehill-telltale	RULES	Either Ludd or Torrhen (track_b: Head)
+414	either-torrhen-or-gryff	1	0	0	0	house-whitehill-telltale	HEIR_TO	Either Torrhen or Gryff (track_b: Heir)
+415	elaena-targaryen-is-parent	1	0	0	0	maegon-targaryen	PARENT_OF	Elaena Targaryen is parent
+416	ella-lannister-damion-reverse	1	0	0	0	damion-lannister	PARENT_OF	Ella Lannister → Damion (cite: track_b: Mother) — reverse
+417	ellaria-sand-dorea-sand	1	0	0	0	dorea-sand	PARENT_OF	Ellaria Sand → Dorea Sand
+418	ellaria-sand-elia-sand	1	0	0	0	elia-sand	PARENT_OF	Ellaria Sand → Elia Sand
+419	ellaria-sand-loreza-sand	1	0	0	0	loreza-sand	PARENT_OF	Ellaria Sand → Loreza Sand
+420	elmo-tully-is-parent-of-kermit-tully	1	0	0	0	kermit-tully	PARENT_OF	Elmo Tully is parent of Kermit Tully
+421	empress	1	0	0	0	bathi-ma-lo	HOLDS_TITLE	Empress
+422	esgred-is-parent-of-sigrin	1	0	0	0	sigrin	PARENT_OF	Esgred is parent of Sigrin
+423	estermont-cousin	1	0	0	0	robert-i-baratheon	LOVER_OF	Estermont cousin
+424	faircastle-sunset-sea-133-ac	1	0	0	0	tess	DIED_AT	Faircastle / Sunset Sea, 133 AC
+425	father-is-qoren-martell	1	0	0	0	qyle-martell	PARENT_OF	(reverse) Father is Qoren Martell
+426	father-was-previous-prince-martell	1	0	0	0	morion-martell	PARENT_OF	(reverse) Father was previous Prince Martell
+427	first-flints	1	0	0	0	torghen-flint	SWORN_TO	First Flints
+428	first-mistress	1	0	0	0	tytos-lannister	LOVER_OF	First mistress
+429	fleet-at-feastfires	1	0	0	0	erwin-lannister	COMMANDS	Fleet at Feastfires
+430	frey	1	0	0	0	siege-of-seagard	DEFEATS	Frey
+431	gaemon-targaryen-is-parent	1	0	0	0	elaena-targaryen-daughter-of-gaemon	PARENT_OF	Gaemon Targaryen is parent
+432	gage-turnip	1	0	0	0	turnip	PARENT_OF	Gage → Turnip
+433	gardener	1	0	0	0	battle-of-three-armies	DEFEATS	Gardener
+434	gardener-princess	1	0	0	0	lorent-tyrell-steward	PARENT_OF	Gardener princess
+435	gerhard-forrester	1	0	0	0	house-forrester-telltale	FOUNDED	Gerhard Forrester
+436	gerion-lannister-joy-hill	1	0	0	0	joy-hill	PARENT_OF	Gerion Lannister → Joy Hill
+437	gerold-lannister-jason-reverse	1	0	0	0	jason-lannister-son-of-gerold	PARENT_OF	Gerold Lannister → Jason (cite: track_b: Father) — reverse
+438	gerricks-son	1	0	0	0	house-redbeard	HEIR_TO	Gerrick's son
+439	giantess	1	0	0	0	john-the-oak	PARENT_OF	giantess
+440	gipp	1	0	0	0	huzhor-amai	SPOUSE_OF	Gipp
+441	grandson-of-nymeria	1	0	0	0	mors-ii-martell	ANCESTOR_OF	(reverse) Grandson of Nymeria
+442	great-fork-of-the-blackwater	1	0	0	0	rupert-falwell	DIED_AT	Great Fork of the Blackwater (track_b: Died)
+443	great-ranging-crasters-keep	1	0	0	0	great-ranging	LOCATED_AT	Great Ranging → Crasters Keep (staging stop outbound and retreat destination; source: samwell-tarly.node.md, mutiny-at-crasters-keep.node.md)
+444	great-ranging-fight-at-the-fist	1	0	0	0	great-ranging	CAUSES	Great Ranging → Fight at the Fist (expedition's advance leads directly to the Fist engagement; source: fight-at-the-fist.node.md)
+445	great-ranging-fist-of-the-first-men	1	0	0	0	great-ranging	LOCATED_AT	Great Ranging → Fist of the First Men (primary base of operations; source: fight-at-the-fist.node.md, grenn.node.md)
+446	great-ranging-mutiny-at-crasters-keep	1	0	0	0	great-ranging	CAUSES	Great Ranging → Mutiny at Crasters Keep (survivors' retreat to Craster's Keep precipitates the mutiny; source: mutiny-at-crasters-keep.node.md)
+447	grenn-great-ranging	1	0	0	0	great-ranging	FIGHTS_IN	Grenn → Great Ranging (ranger/outrider; source: grenn.node.md)
+448	grover-tully-is-grandparent	1	0	0	0	elmo-tully	PARENT_OF	Grover Tully is grandparent
+449	hand-of-the-true-king	1	0	0	0	jon-connington	HOLDS_TITLE	Hand of the True King
+450	harlaws-of-grey-garden	1	0	0	0	house-harlaw	CADET_BRANCH_OF	Harlaws of Grey Garden
+451	harlaws-of-harlaw-hall	1	0	0	0	house-harlaw	CADET_BRANCH_OF	Harlaws of Harlaw Hall
+452	harlaws-of-harridan-hill	1	0	0	0	house-harlaw	CADET_BRANCH_OF	Harlaws of Harridan Hill
+453	harlaws-of-the-tower-of-glimmering	1	0	0	0	house-harlaw	CADET_BRANCH_OF	Harlaws of the Tower of Glimmering
+454	harrion-karstarks-captor-captured-harrion-at-the-battle-of-the-green-fork-for-ransom	1	0	0	0	hedge-knight	HOLDS_TITLE	Harrion Karstark's captor (unnamed hedge knight) — captured Harrion at the Battle of the Green Fork for ransom (source: `graph/nodes/characters/harrion-karstark.node.md`)
+455	harwyn-hoares-invasion-of-the-riverlands	1	0	0	0	samwell-rivers	FIGHTS_IN	Harwyn Hoare's invasion of the riverlands
+456	helaena-targaryen-is-parent	1	0	0	0	maelor-targaryen	PARENT_OF	Helaena Targaryen is parent
+457	henly	1	0	0	0	sweetfoot	OWNS	Henly
+458	hewetts-castle	1	0	0	0	humfrey-hewett	DIED_AT	Hewett's castle (track_b: Died)
+459	highpoint	1	0	0	0	house-whitehill-telltale	SEAT_OF	Highpoint
+460	his-eldest-son	1	0	0	0	artys-i-arryn	SUCCEEDS	His eldest son
+461	hoare	1	0	0	0	battle-at-fairmarket	DEFEATS	Hoare
+462	holy-guard-formerly	1	0	0	0	areo-hotah	SWORN_TO	Holy guard (cite: track_b: Allegiances) — formerly
+463	hornwoods	1	0	0	0	fight-by-deepwood-motte	DEFEATS	Hornwoods
+464	hoster-tully-is-parent-of-catelyn	1	0	0	0	catelyn-stark	PARENT_OF	Hoster Tully is parent of Catelyn
+465	hoster-tully-is-parent-of-edmure	1	0	0	0	edmure-tully	PARENT_OF	Hoster Tully is parent of Edmure
+466	hoster-tully-is-parent-of-lysa	1	0	0	0	lysa-arryn	PARENT_OF	Hoster Tully is parent of Lysa
+467	house-holt	1	0	0	0	maynard-holt	SWORN_TO	House Holt
+468	house-lannister-claimed	1	0	0	0	donnel-hill	SWORN_TO	House Lannister (cite: track_b: Allegiances) — claimed
+469	house-manderly-captures-hornwood-but-later-withdraws-resulting-in-a-bolton-victory	1	0	0	0	fighting-in-the-hornwood	DEFEATS	House Manderly captures Hornwood but later withdraws, resulting in a Bolton victory
+470	house-martell-becomes-house-nymeros-martell	1	0	0	0	nymerias-war	DEFEATS	House Martell becomes House Nymeros Martell
+471	house-martell-unifies-dorne-under-their-rule-as-princes-of-dorne	1	0	0	0	nymerias-war	DEFEATS	House Martell unifies Dorne under their rule as Princes of Dorne
+472	house-moraqos	1	0	0	0	tigaro-moraqos	SWORN_TO	House Moraqos
+473	house-nymeros-martell	1	0	0	0	nymeria	FOUNDED	House Nymeros Martell
+474	house-orthys	1	0	0	0	matteno-orthys	SWORN_TO	House Orthys
+475	house-osgrey-of-standfast	1	0	0	0	house-osgrey-of-leafy-lake	OVERLORD_OF	House Osgrey of Standfast
+476	house-pranelis	1	0	0	0	pranelis	SWORN_TO	House Pranelis
+477	house-stark-of-karls-hold	1	0	0	0	karlon-stark	SWORN_TO	House Stark of Karl's Hold
+478	house-stark-of-winterfell	1	0	0	0	karlon-stark	SWORN_TO	House Stark of Winterfell
+479	house-torone	1	0	0	0	torone	SWORN_TO	House Torone
+480	house-tully-as-castle-maester	1	0	0	0	vyman	SERVES	House Tully (wiki:Vyman) — as castle maester
+481	house-tully-as-castle-maester-at-riverrun	1	0	0	0	kym	SERVES	House Tully (wiki:Kym) — as castle maester at Riverrun
+482	hundred-sons	1	0	0	0	gormond-drumm	PARENT_OF	Hundred sons
+483	in-299-ac-winterfell	1	0	0	0	dancer	DIED_AT	In 299 AC, Winterfell (track_b: Died)
+484	in-before-72-ac	1	0	0	0	caraxes	BORN_AT	In before 72 AC (track_b: Born)
+485	in-before-75-ac	1	0	0	0	meleys	BORN_AT	In before 75 AC (track_b: Born)
+486	in-or-after-101-ac	1	0	0	0	saera-targaryen	DIED_AT	In or after 101 AC (track_b: Died)
+487	in-or-after-150-ac	1	0	0	0	daenaera-velaryon	DIED_AT	In or after 150 AC (track_b: Died)
+488	in-or-after-202-ac	1	0	0	0	daemon-iii-blackfyre	BORN_AT	In or after 202 AC (track_b: Born)
+489	in-or-after-80-ac	1	0	0	0	lyra	DIED_AT	In or after 80 AC (track_b: Died)
+490	in-or-around-161-ac	1	0	0	0	lem-standfast	BORN_AT	In or around 161 AC (track_b: Born)
+491	in-or-before-10-bc	1	0	0	0	manfred-hightower-son-of-addam	BORN_AT	In or before 10 BC (track_b: Born)
+492	in-or-before-120-ac	1	0	0	0	tessarion	BORN_AT	In or before 120 AC (track_b: Born)
+493	in-or-before-22-bc	1	0	0	0	addam-hightower	BORN_AT	In or before 22 BC (track_b: Born)
+494	in-or-before-249-ac	1	0	0	0	armond-connington	BORN_AT	In or before 249 AC (track_b: Born)
+495	in-or-before-258-ac	1	0	0	0	martyn-cassel	BORN_AT	In or before 258 AC (track_b: Born)
+496	in-or-before-27-ac	1	0	0	0	martyn-hightower	BORN_AT	In or before 27 AC (track_b: Born)
+497	in-or-before-278-ac	1	0	0	0	antario-jast	BORN_AT	In or before 278 AC (track_b: Born)
+498	in-or-before-28-ac	1	0	0	0	morgan-hightower	BORN_AT	In or before 28 AC (track_b: Born)
+499	in-or-before-287-ac	1	0	0	0	ynys-yronwood	BORN_AT	In or before 287 AC (track_b: Born)
+500	in-or-before-42-ac	1	0	0	0	loren-i-lannister	DIED_AT	In or before 42 AC (track_b: Died)
+501	in-or-shortly-before-32-ac	1	0	0	0	dreamfyre	BORN_AT	In or shortly before 32 AC (track_b: Born)
+502	inconclusive	1	0	0	0	ambush-on-the-wendwater	DEFEATS	Inconclusive
+503	ironborn-victory	1	0	0	0	ambush-at-fair-isle	DEFEATS	Ironborn victory
+504	jacaerys-velaryon-possibly-disputed	1	0	0	0	sara-snow	SPOUSE_OF	Jacaerys Velaryon (cite: track_b: Spouse) — possibly; disputed
+505	jaehaerys-i-targaryen-dragonkeepers	1	0	0	0	dragonkeepers	FOUNDED	Jaehaerys I Targaryen → Dragonkeepers
+506	jaehaerys-i-targaryen-is-parent	1	0	0	0	gaemon-targaryen-son-of-jaehaerys-i	PARENT_OF	Jaehaerys I Targaryen is parent
+507	jaehaerys-i-targaryen-vaegon	1	0	0	0	vaegon-targaryen	PARENT_OF	Jaehaerys I Targaryen → Vaegon
+508	jaehaerys-i-targaryen-valerion	1	0	0	0	valerion-targaryen	PARENT_OF	Jaehaerys I Targaryen → Valerion
+509	jaehaerys-i-targaryen-viserra	1	0	0	0	viserra-targaryen	PARENT_OF	Jaehaerys I Targaryen → Viserra
+510	jaehaerys-targaryen-betrothal-broken	1	0	0	0	celia-tully	BETROTHED_TO	Jaehaerys Targaryen (wiki:Celia_Tully) — betrothal broken
+511	jaime-lannister-twin	1	0	0	0	cersei-lannister	SIBLING_OF	Jaime Lannister (cite: wiki:Cersei_Lannister) — twin
+512	janos-slynt-elevated-after-eddard-starks-arrest-agot	1	0	0	0	small-council	MEMBER_OF	janos-slynt — elevated after Eddard Stark's arrest, AGOT (source: reverse-lookup, narrative evidence)
+513	jarman-buckwell-great-ranging	1	0	0	0	great-ranging	FIGHTS_IN	Jarman Buckwell → Great Ranging (leader of Giant's Stair scouting party; source: jarman-buckwell.node.md)
+514	jason-lannister-cerelle-reverse	1	0	0	0	cerelle-lannister-daughter-of-jason	PARENT_OF	Jason Lannister → Cerelle (cite: track_b: Father) — reverse
+515	jason-lannister-damon-reverse	1	0	0	0	damon-lannister-son-of-jason	PARENT_OF	Jason Lannister → Damon (cite: track_b: Father) — reverse
+516	jason-lannister-lynora-hill	1	0	0	0	lynora-hill	PARENT_OF	Jason Lannister → Lynora Hill
+517	jena-dondarrion-is-parent	1	0	0	0	matarys-targaryen	PARENT_OF	Jena Dondarrion is parent
+518	jena-dondarrion-valarr	1	0	0	0	valarr-targaryen	PARENT_OF	Jena Dondarrion → Valarr
+519	jeor-mormont-great-ranging	1	0	0	0	great-ranging	COMMANDS_IN	Jeor Mormont → Great Ranging (Lord Commander, leader of expedition; source: jeor-mormont.node.md, fight-at-the-fist.node.md)
+520	jeyne-manderly-sansa-stark	1	0	0	0	sansa-stark-daughter-of-rickon	PARENT_OF	Jeyne Manderly → Sansa Stark
+521	jeyne-manderly-serena-stark	1	0	0	0	serena-stark	PARENT_OF	Jeyne Manderly → Serena Stark
+522	jeyne-marbrand-genna-reverse	1	0	0	0	genna-lannister	PARENT_OF	Jeyne Marbrand → Genna (cite: track_b: Mother) — reverse
+523	jeyne-marbrand-gerion-reverse	1	0	0	0	gerion-lannister	PARENT_OF	Jeyne Marbrand → Gerion (cite: track_b: Mother) — reverse
+524	jeyne-marbrand-kevan-lannister	1	0	0	0	kevan-lannister	PARENT_OF	Jeyne Marbrand → Kevan Lannister
+525	joanna-lannister-cersei-reverse	1	0	0	0	cersei-lannister	PARENT_OF	Joanna Lannister → Cersei (cite: track_b: Mother) — reverse
+526	joanna-lannister-jaime-reverse	1	0	0	0	jaime-lannister	PARENT_OF	Joanna Lannister → Jaime (cite: track_b: Mother) — reverse
+527	johanna-westerling-cerelle-reverse	1	0	0	0	cerelle-lannister-daughter-of-jason	PARENT_OF	Johanna Westerling → Cerelle (cite: track_b: Mother) — reverse
+528	jon-arryn-as-ruler-of-the-vale	1	0	0	0	lysa-arryn	SUCCEEDS	Jon Arryn (track_b: Successor) — as ruler of the Vale
+529	jon-arryn-by-poison-at-petyr-baelishs-urging	1	0	0	0	lysa-arryn	KILLS	Jon Arryn (wiki:Lysa_Arryn) — by poison at Petyr Baelish's urging
+530	jon-greatjon-umber	1	0	0	0	house-umber	RULES	Jon "Greatjon" Umber
+531	joseth-shyra	1	0	0	0	shyra	PARENT_OF	Joseth → Shyra
+532	keeper	1	0	0	0	gates-of-the-moon	RULES	keeper (track_b: Ruler)
+533	kevan-lannister-janei-lannister	1	0	0	0	kevan-lannister	PARENT_OF	Kevan Lannister → Janei Lannister
+534	kevan-lannister-janei-reverse	1	0	0	0	janei-lannister	PARENT_OF	Kevan Lannister → Janei (cite: track_b: Father) — reverse
+535	kevan-lannister-lancel-lannister	1	0	0	0	kevan-lannister	PARENT_OF	Kevan Lannister → Lancel Lannister
+536	kevan-lannister-willem-lannister	1	0	0	0	kevan-lannister	PARENT_OF	Kevan Lannister → Willem Lannister
+537	khal-drogo-viserys	1	0	0	0	viserys-targaryen	KILLS	Khal Drogo → Viserys
+538	khal-mothos-khalasar	1	0	0	0	motho	SWORN_TO	Khal Motho's khalasar
+539	khal-zekkos-khalasar	1	0	0	0	zekko	SWORN_TO	Khal Zekko's khalasar
+540	kiera-of-tyrosh-vaella	1	0	0	0	vaella-targaryen-daughter-of-daeron	PARENT_OF	Kiera of Tyrosh → Vaella
+541	killed-by-gregor-clegane	1	0	0	0	oberyn-martell	KILLS	(reverse) Killed by Gregor Clegane
+542	killed-by-yorick-v-yronwood	1	0	0	0	mors-martell	KILLS	(reverse) Killed by Yorick V Yronwood
+543	king-of-winter-king-in-the-north	1	0	1	0	house-stark	HOLDS_TITLE	King of Winter/King in the North (track_b: Titles)
+544	kingdom-of-the-narrow-sea	1	0	0	0	racallio-ryndoon	SWORN_TO	Kingdom of the Narrow Sea
+545	kingdom-of-the-north	1	0	0	0	warden-of-the-southern-marches	REGION_OF	Kingdom of the North
+546	kings-landing-300-ac	1	0	0	0	oberyn-martell	DIED_AT	King's Landing, 300 AC
+547	kings-landing-42-ac	1	0	0	0	dick-bean	DIED_AT	King's Landing, 42 AC
+548	kings-landing-dragonkeepers	1	0	0	0	dragonkeepers	SEAT_OF	King's Landing → Dragonkeepers
+549	kings-landing-red-keep-black-cells	1	0	0	0	senelle	DIED_AT	King's Landing, Red Keep, black cells
+550	kyle-the-cat-hedge-knight-at-the-whitewalls-tourney	1	0	0	0	hedge-knight	HOLDS_TITLE	Kyle the Cat — hedge knight at the Whitewalls tourney (source: `graph/nodes/characters/kyle-the-cat.node.md`)
+551	lady-greyjoy	1	0	0	0	alannys-harlaw	HOLDS_TITLE	Lady Greyjoy
+552	lady-of-felwood	1	0	1	0	lady-fell	HOLDS_TITLE	Lady of Felwood
+553	lady-of-runestone	1	0	1	0	rhea-royce	HOLDS_TITLE	Lady of Runestone
+554	lady-of-torrhens-square	1	0	1	0	eddara-tallhart	HOLDS_TITLE	Lady of Torrhen's Square
+555	lady-regent-of-the-vale-of-arryn	1	0	0	0	lysa-arryn	HOLDS_TITLE	Lady Regent of the Vale of Arryn
+556	lady-stonetree-donel-greyjoy	1	0	0	0	donel-greyjoy	PARENT_OF	Lady Stonetree → Donel Greyjoy
+557	lady-sunderly	1	0	0	0	quellon-greyjoy	SPOUSE_OF	Lady Sunderly
+558	lady-sunderly-aeron-greyjoy	1	0	0	0	aeron-greyjoy	PARENT_OF	Lady Sunderly → Aeron Greyjoy
+559	lady-sunderly-is-parent-of-urrigon	1	0	0	0	urrigon-greyjoy	PARENT_OF	Lady Sunderly is parent of Urrigon
+560	lady-sunderly-is-parent-of-victarion	1	0	0	0	victarion-greyjoy	PARENT_OF	Lady Sunderly is parent of Victarion
+561	lannister-of-lannisport	1	0	0	0	dalton-greyjoy	SPOUSE_OF	Lannister of Lannisport
+562	larra-rogare-is-parent	1	0	0	0	naerys-targaryen	PARENT_OF	Larra Rogare is parent
+563	lelia-lannister-hagon-hoare	1	0	0	0	lelia-lannister	PARENT_OF	Lelia Lannister → Hagon Hoare
+564	lelia-lannister-harmund-iii-hoare	1	0	0	0	lelia-lannister	PARENT_OF	Lelia Lannister → Harmund III Hoare
+565	lengii-consort	1	0	0	0	khiara-the-great	SPOUSE_OF	Lengii consort
+566	lieutenant	1	0	0	0	urswyck	HOLDS_TITLE	Lieutenant
+567	long-before-299-ac	1	0	0	0	osmynd	DIED_AT	Long before 299 AC (track_b: Died)
+568	lord-burley	1	0	0	0	house-burley	HOLDS_TITLE	Lord Burley
+569	lord-chyttering	1	0	0	0	lucos-chyttering	PARENT_OF	Lord Chyttering
+570	lord-commander-of-the-rainbow-guard	1	0	1	0	loras-tyrell	HOLDS_TITLE	Lord Commander of the Rainbow Guard
+571	lord-dayne	1	0	0	0	edric-dayne	PARENT_OF	Lord Dayne
+572	lord-farman	1	0	0	0	marq-farman	PARENT_OF	Lord Farman
+573	lord-flint	1	0	0	0	house-flint-of-the-mountains	HOLDS_TITLE	Lord Flint
+574	lord-harclay	1	0	0	0	house-harclay	HOLDS_TITLE	Lord Harclay
+575	lord-knott	1	0	0	0	house-knott	HOLDS_TITLE	Lord Knott
+576	lord-lannister	1	0	0	0	tymond-lannister	PARENT_OF	Lord Lannister
+577	lord-liddle	1	0	0	0	house-liddle	HOLDS_TITLE	Lord Liddle
+578	lord-mallister	1	0	0	0	denys-mallister	PARENT_OF	Lord Mallister
+579	lord-norrey	1	0	0	0	house-norrey	HOLDS_TITLE	Lord Norrey
+580	lord-of-darkdell	1	0	1	0	lord-vyrwel	HOLDS_TITLE	Lord of Darkdell
+581	lord-of-highpoint	1	0	1	0	house-whitehill-telltale	HOLDS_TITLE	Lord of Highpoint
+582	lord-stackspear	1	0	0	0	alys-stackspear	PARENT_OF	Lord Stackspear
+583	lord-stonehouse	1	0	0	0	the-stonehouse	HOLDS_TITLE	Lord Stonehouse
+584	lord-tully-is-parent-of-brynden	1	0	0	0	brynden-tully	PARENT_OF	Lord Tully (father of Hoster) is parent of Brynden
+585	lord-tully-is-parent-of-celia-tully	1	0	0	0	celia-tully	PARENT_OF	Lord Tully is parent of Celia Tully
+586	lord-tully-is-parent-of-hoster	1	0	0	0	hoster-tully	PARENT_OF	Lord Tully (father of Hoster) is parent of Hoster
+587	lord-uller	1	0	0	0	nymeria	SPOUSE_OF	Lord Uller
+588	lord-vaith	1	0	0	0	cassella-vaith	PARENT_OF	Lord Vaith
+589	lord-whent	1	0	0	0	danelle-lothston	SUCCEEDS	Lord Whent
+590	lord-wull	1	0	0	0	house-wull	HOLDS_TITLE	Lord Wull
+591	loren-i-lannister-lyman-lannister	1	0	0	0	lyman-lannister	PARENT_OF	Loren I Lannister → Lyman Lannister
+592	lorra-royce-donnor-stark	1	0	0	0	donnor-stark	PARENT_OF	Lorra Royce → Donnor Stark
+593	lorra-royce-errold-stark	1	0	0	0	errold-stark	PARENT_OF	Lorra Royce → Errold Stark
+594	lorra-royce-rodrik-stark	1	0	0	0	rodrik-stark-son-of-beron	PARENT_OF	Lorra Royce → Rodrik Stark
+595	lorra-royce-willam-stark	1	0	0	0	willam-stark	PARENT_OF	Lorra Royce → Willam Stark
+596	lyanne-glover-brandon-stark	1	0	0	0	brandon-stark-son-of-willam	PARENT_OF	Lyanne Glover → Brandon Stark
+597	lyman-lannister-tyler-hill	1	0	0	0	lyman-lannister	PARENT_OF	Lyman Lannister → Tyler Hill
+598	lynara-stark-brandon-stark	1	0	0	0	brandon-stark-son-of-cregan	PARENT_OF	Lynara Stark → Brandon Stark
+599	lynara-stark-edric-stark	1	0	0	0	edric-stark-son-of-cregan	PARENT_OF	Lynara Stark → Edric Stark
+600	lys-278-279-ac	1	0	0	0	doreah	BORN_AT	Lys, 278–279 AC
+601	maegor-i-targaryen-viserys	1	0	0	0	viserys-targaryen-son-of-aenys-i	KILLS	Maegor I Targaryen → Viserys (cite: wiki:Viserys_Targaryen_(son_of_Aenys_I))
+602	maegors-holdfast-kings-landing-283-ac	1	0	0	0	elia-martell	DIED_AT	Maegor's Holdfast, King's Landing, 283 AC
+603	maester-at-casterly-rock	1	0	0	0	beldon	HOLDS_TITLE	Maester at Casterly Rock
+604	maester-formerly	1	0	0	0	qyburn	HOLDS_TITLE	Maester, formerly
+605	many-children	1	0	0	0	kella	PARENT_OF	Many children
+606	many-supposed-husbands	1	0	0	0	bellegere-otherys	SPOUSE_OF	Many supposed husbands
+607	margaret-karstark-elric-stark	1	0	0	0	elric-stark	PARENT_OF	Margaret Karstark → Elric Stark
+608	marna-locke-rickard-stark	1	0	0	0	rickard-stark	PARENT_OF	Marna Locke → Rickard Stark
+609	maron-martell-maron-martells-son	1	0	0	0	maron-martells-son	PARENT_OF	Maron Martell → Maron Martell's son
+610	martell-maron-martell	1	0	0	0	maron-martell	PARENT_OF	Martell → Maron Martell
+611	master-at-arms-of-pyke	1	0	0	0	dagmer	HOLDS_TITLE	Master-at-arms of Pyke
+612	mead-king	1	0	0	0	tormund	HOLDS_TITLE	Mead-king
+613	melantha-blackwood-edwyle-stark	1	0	0	0	edwyle-stark	PARENT_OF	Melantha Blackwood → Edwyle Stark
+614	mellario-arianne-martell	1	0	0	0	arianne-martell	PARENT_OF	Mellario → Arianne Martell
+615	merchant-captain	1	0	0	0	byan-votyris	HOLDS_TITLE	Merchant Captain
+616	migration-of-survivors	1	0	0	0	siege-of-astapor	DEFEATS	Migration of survivors
+617	minisa-whent-is-parent-of-catelyn	1	0	0	0	catelyn-stark	PARENT_OF	Minisa Whent is parent of Catelyn
+618	minisa-whent-is-parent-of-edmure	1	0	0	0	edmure-tully	PARENT_OF	Minisa Whent is parent of Edmure
+619	minisa-whent-is-parent-of-lysa	1	0	0	0	lysa-arryn	PARENT_OF	Minisa Whent is parent of Lysa
+620	mistress-of-the-queens-household	1	0	0	0	clarice-osgrey	HOLDS_TITLE	Mistress of the Queen's household
+621	mixed	1	0	0	0	ben-plumm	CULTURE_OF	Mixed
+622	mob-victory	1	0	0	0	storming-of-the-dragonpit	DEFEATS	Mob victory
+623	morgarth-the-merry-hired-by-petyr-baelish	1	0	0	0	hedge-knight	HOLDS_TITLE	Morgarth the Merry — hired by Petyr Baelish (source: `graph/nodes/characters/petyr-baelish.node.md`)
+624	mors-westford	1	0	0	0	house-westford	RULES	Mors Westford (track_b: Head)
+625	mother-is-a-septa-from-the-reach	1	0	0	0	tyene-sand	PARENT_OF	(reverse) Mother is a septa from the Reach
+626	mother-is-a-summer-islander-captain	1	0	0	0	sarella-sand	PARENT_OF	(reverse) Mother is a Summer Islander captain
+627	mother-is-a-volantene-noblewoman	1	0	0	0	nymeria-sand	PARENT_OF	(reverse) Mother is a Volantene noblewoman
+628	mother-is-an-oldtown-whore	1	0	0	0	obara-sand	PARENT_OF	(reverse) Mother is an Oldtown whore
+629	mother-is-ellaria-sand	1	0	0	0	obella-sand	PARENT_OF	(reverse) Mother is Ellaria Sand
+630	mother-was-nymerias-eldest-daughter	1	0	0	0	mors-ii-martell	PARENT_OF	(reverse) Mother was Nymeria's eldest daughter
+631	mother-was-princess-of-dorne	1	0	0	0	oberyn-martell	PARENT_OF	(reverse) Mother was Princess of Dorne
+632	mouth-of-the-blackwater-rush	1	0	0	0	herbert-bolling	DIED_AT	Mouth of the Blackwater Rush (track_b: Died)
+633	mouth-of-the-mander	1	0	0	0	quellon-greyjoy	DIED_AT	mouth of the Mander
+634	mutineer-victory-loyalist-retreat	1	0	0	0	mutiny-at-crasters-keep	DEFEATS	mutineer victory, loyalist retreat
+635	myranda-lefford-cerenna-reverse	1	0	0	0	cerenna-lannister	PARENT_OF	Myranda Lefford → Cerenna (cite: track_b: Mother) — reverse
+636	myranda-lefford-daven-reverse	1	0	0	0	daven-lannister	PARENT_OF	Myranda Lefford → Daven (cite: track_b: Mother) — reverse
+637	myranda-lefford-myrielle-lannister	1	0	0	0	myrielle-lannister	PARENT_OF	Myranda Lefford → Myrielle Lannister
+638	myrhish	1	0	0	0	qos	CULTURE_OF	Myrhish
+639	none-dynasty-ended	1	0	0	0	lo-bu	SUCCEEDS	None, dynasty ended
+640	nymeria-sand-tyene-sand-sarella-sand-elia-sand-obella-sand-dorea-sand-loreza-sand	1	0	0	0	obara-sand	SIBLING_OF	Nymeria Sand, Tyene Sand, Sarella Sand, Elia Sand, Obella Sand, Dorea Sand, Loreza Sand
+641	nymeria-the-north-298-ac-infobox-born	1	0	0	0	nymeria-direwolf	BORN_AT	Nymeria → the north, 298 AC (wiki:Nymeria_(direwolf) infobox: Born)
+642	nymor-martell-deria-martell	1	0	0	0	deria-martell	PARENT_OF	Nymor Martell → Deria Martell
+643	obara-sand-nymeria-sand-sarella-sand-elia-sand-obella-sand-dorea-sand-loreza-sand	1	0	0	0	tyene-sand	SIBLING_OF	Obara Sand, Nymeria Sand, Sarella Sand, Elia Sand, Obella Sand, Dorea Sand, Loreza Sand
+644	obara-sand-nymeria-sand-tyene-sand-elia-sand-obella-sand-dorea-sand-loreza-sand	1	0	0	0	sarella-sand	SIBLING_OF	Obara Sand, Nymeria Sand, Tyene Sand, Elia Sand, Obella Sand, Dorea Sand, Loreza Sand
+645	obara-sand-nymeria-sand-tyene-sand-sarella-sand-elia-sand-dorea-sand-loreza-sand	1	0	0	0	obella-sand	SIBLING_OF	Obara Sand, Nymeria Sand, Tyene Sand, Sarella Sand, Elia Sand, Dorea Sand, Loreza Sand
+646	obara-sand-tyene-sand-sarella-sand-elia-sand-obella-sand-dorea-sand-loreza-sand	1	0	0	0	nymeria-sand	SIBLING_OF	Obara Sand, Tyene Sand, Sarella Sand, Elia Sand, Obella Sand, Dorea Sand, Loreza Sand
+647	oberyn-martell-dorea-sand	1	0	0	0	dorea-sand	PARENT_OF	Oberyn Martell → Dorea Sand
+648	oberyn-martell-elia-sand	1	0	0	0	elia-sand	PARENT_OF	Oberyn Martell → Elia Sand
+649	oberyn-martell-loreza-sand	1	0	0	0	loreza-sand	PARENT_OF	Oberyn Martell → Loreza Sand
+650	octarch	1	0	0	0	hizdahr-zo-loraq	HOLDS_TITLE	Octarch
+651	one-child	1	0	0	0	quort	PARENT_OF	One child
+652	one-posthumous-son	1	0	0	0	lord-footly	PARENT_OF	One posthumous son (track_b: Issue)
+653	one-son	1	0	0	0	lord-darry-dance	PARENT_OF	One son
+654	osfryd-kettleblack-alleged	1	0	0	0	cersei-lannister	LOVER_OF	Osfryd Kettleblack (cite: track_b: Lovers) — alleged
+655	osmund-kettleblack-alleged	1	0	0	0	cersei-lannister	LOVER_OF	Osmund Kettleblack (cite: track_b: Lovers) — alleged
+656	other-child	1	0	0	0	maggy-the-frog	PARENT_OF	Other child (track_b: Issue)
+657	other-children	1	0	0	0	lord-darry-dance	PARENT_OF	Other children
+658	pate-of-the-blue-fork-described-as-pate-the-hedge-knight	1	0	0	0	hedge-knight	HOLDS_TITLE	Pate of the Blue Fork — described as "Pate the hedge knight" (source: `graph/nodes/characters/pate-of-the-blue-fork.node.md`)
+659	petyr-baelish-master-of-coin-agot-asos	1	0	0	0	small-council	MEMBER_OF	petyr-baelish — master of coin, AGOT–ASOS (source: reverse-lookup, narrative evidence)
+660	petyr-baelish-was-ward-of-hoster-tully	1	0	0	0	hoster-tully	WARD_OF	Petyr Baelish was ward of Hoster Tully
+661	ponos-khalasar	1	0	0	0	pono	SWORN_TO	Pono's khalasar
+662	presumed-extinct	1	0	0	0	house-clegane	RULES	Presumed extinct
+663	pretenders-claims-proven-false	1	0	0	0	pretenders-claiming-to-be-prince-daeron-the-daring	DEFEATS	Pretenders' claims proven false
+664	prince-admiral	1	0	0	0	craghas-drahar	HOLDS_TITLE	Prince-admiral
+665	prince-aegon-is-slain	1	0	0	0	battle-beneath-the-gods-eye	DEFEATS	Prince Aegon is slain
+666	prince-regent	1	0	0	0	aemond-targaryen	HOLDS_TITLE	Prince Regent
+667	princess-consort-of-dorne-formerly	1	0	0	0	mellario	HOLDS_TITLE	Princess Consort of Dorne (cite: track_b: Titles) — formerly
+668	princess-martell-doran-martell	1	0	0	0	doran-martell	PARENT_OF	Princess Martell → Doran Martell
+669	princess-martell-elia-martell	1	0	0	0	elia-martell	PARENT_OF	Princess Martell → Elia Martell
+670	princess-of-winterfell	1	0	1	0	arya-stark	HOLDS_TITLE	Princess of Winterfell
+671	pyke-257-269-ac	1	0	0	0	victarion-greyjoy	BORN_AT	Pyke, 257–269 AC
+672	pyke-268-270-ac	1	0	0	0	urrigon-greyjoy	BORN_AT	Pyke, 268–270 AC
+673	pyke-283-284-ac	1	0	0	0	urrigon-greyjoy	DIED_AT	Pyke, 283–284 AC
+674	pyke-iron-islands-278-279-ac	1	0	0	0	theon-greyjoy	BORN_AT	Pyke, Iron Islands, 278–279 AC
+675	pyke-the-iron-islands	1	0	0	0	balon-greyjoy	DIED_AT	Pyke, the Iron Islands (track_b: Died)
+676	pyrrhic-iron-throne-victory	1	0	0	0	siege-of-dragonstone	DEFEATS	Pyrrhic Iron Throne victory
+677	qohorik-victory	1	0	0	0	three-thousand-of-qohor	DEFEATS	Qohorik victory
+678	qoren-martell-aliandra-martell	1	0	0	0	aliandra-martell	PARENT_OF	Qoren Martell → Aliandra Martell
+679	qoren-martell-coryanne-martell	1	0	0	0	coryanne-martell	PARENT_OF	Qoren Martell → Coryanne Martell
+680	quarryman	1	0	0	0	halder	PARENT_OF	Quarryman
+681	queen-of-the-high-tower	1	0	1	0	maris-the-maid	HOLDS_TITLE	Queen of the High Tower
+682	queen-of-the-rivers-and-the-hills	1	0	1	0	jeyne-nutt	HOLDS_TITLE	Queen of the Rivers and the Hills
+683	queensguards	1	0	0	0	flight-to-dragonstone	DEFEATS	Queensguards
+684	quellon-greyjoy-aeron-greyjoy	1	0	0	0	aeron-greyjoy	PARENT_OF	Quellon Greyjoy → Aeron Greyjoy
+685	quellon-greyjoy-donel-greyjoy	1	0	0	0	donel-greyjoy	PARENT_OF	Quellon Greyjoy → Donel Greyjoy
+686	quellon-greyjoy-is-parent-of-urrigon	1	0	0	0	urrigon-greyjoy	PARENT_OF	Quellon Greyjoy is parent of Urrigon
+687	quellon-greyjoy-is-parent-of-victarion	1	0	0	0	victarion-greyjoy	PARENT_OF	Quellon Greyjoy is parent of Victarion
+688	quellon-greyjoys-father	1	0	0	0	dagon-greyjoy	PARENT_OF	Quellon Greyjoy's father
+689	quincys-eldest-son	1	0	0	0	house-cox	HEIR_TO	Quincy's eldest son
+690	ramsay-snow-believed-dead-after-intervention-of-winterfell	1	0	0	0	fighting-in-the-hornwood	DEFEATS	Ramsay Snow believed dead after intervention of Winterfell
+691	rebel-victory-robert-wins-three-battles-in-a-single-day	1	0	0	0	battles-at-summerhall	DEFEATS	Rebel victory - Robert wins three battles in a single day.
+692	red-fork-of-the-trident	1	0	0	0	leo-lefford	DIED_AT	Red Fork of the Trident (track_b: Died)
+693	red-keep-barracks	1	0	0	0	city-watch-of-kings-landing	SEAT_OF	Red Keep Barracks
+694	red-waste-299-ac	1	0	0	0	doreah	DIED_AT	red waste, 299 AC
+695	reyne	1	0	0	0	reyne-tarbeck-revolt	DEFEATS	Reyne
+696	rhaella-targaryen-viserys	1	0	0	0	viserys-targaryen	PARENT_OF	Rhaella Targaryen → Viserys
+697	rhaenyra-targaryen-visenya	1	0	0	0	visenya-targaryen-daughter-of-daemon	PARENT_OF	Rhaenyra Targaryen → Visenya
+698	rickard-stark-benjen-stark	1	0	0	0	rickard-stark	PARENT_OF	Rickard Stark → Benjen Stark
+699	rickard-stark-brandon-stark	1	0	0	0	rickard-stark	PARENT_OF	Rickard Stark → Brandon Stark
+700	rickard-stark-eddard-stark	1	0	0	0	rickard-stark	PARENT_OF	Rickard Stark → Eddard Stark
+701	rickard-stark-lyanna-stark	1	0	0	0	rickard-stark	PARENT_OF	Rickard Stark → Lyanna Stark
+702	rickon-stark-sara-snow	1	0	0	0	sara-snow	PARENT_OF	Rickon Stark → Sara Snow
+703	river-queen	1	0	0	0	jeyne-nutt	HOLDS_TITLE	River queen
+704	robb-starks-outriders	1	0	0	0	brynden-tully	COMMANDS	Robb Stark's outriders
+705	robert-i-baratheon-via-lancel-and-wine	1	0	0	0	cersei-lannister	KILLS	Robert I Baratheon (cite: agot-eddard-15) — via Lancel and wine
+706	rodrik	1	0	0	0	greyjoys-rebellion	DEFEATS	Rodrik
+707	rodrik-forrester	1	0	0	0	house-forrester-telltale	RULES	Rodrik Forrester
+708	rodrik-stark-branda-stark	1	0	0	0	rodrik-stark-son-of-beron	PARENT_OF	Rodrik Stark → Branda Stark
+709	rodrik-stark-lyarra-stark	1	0	0	0	rodrik-stark-son-of-beron	PARENT_OF	Rodrik Stark → Lyarra Stark
+710	rohanne-webber-jason-reverse	1	0	0	0	jason-lannister-son-of-gerold	PARENT_OF	Rohanne Webber → Jason (cite: track_b: Mother) — reverse
+711	ronnel-harclay-great-ranging	1	0	0	0	great-ranging	FIGHTS_IN	Ronnel Harclay → Great Ranging (ranger, survived Fist, acting First Ranger after Smallwood's death; source: ronnel-harclay.node.md)
+712	royalist-victory	1	0	0	0	battle-of-ashford	DEFEATS	Royalist victory
+713	ryon-forrester	1	0	0	0	house-forrester-telltale	HEIR_TO	Ryon Forrester
+714	samwell-tarly-great-ranging	1	0	0	0	great-ranging	FIGHTS_IN	Samwell Tarly → Great Ranging (steward/aide, present throughout; source: samwell-tarly.node.md)
+715	scion	1	0	0	0	hizdahr-zo-loraq	HOLDS_TITLE	Scion
+716	second-daughter	1	0	0	0	gerrick-kingsblood	PARENT_OF	Second daughter
+717	second-mistress	1	0	0	0	tytos-lannister	LOVER_OF	Second mistress
+718	seneschal-of-sunspear	1	0	0	0	ricasso	HOLDS_TITLE	Seneschal of Sunspear
+719	september-20	1	0	0	0	george-r-r-martin	BORN_AT	September 20 (track_b: Born)
+720	septon-pater	1	0	0	0	submission-of-oldtown	DEFEATS	Septon Pater
+721	ser-baelish	1	0	0	0	baelish-sellsword	PARENT_OF	Ser Baelish
+722	serena-stark-argelle-stark	1	0	0	0	serena-stark	PARENT_OF	Serena Stark → Argelle Stark
+723	serena-stark-arrana-stark	1	0	0	0	serena-stark	PARENT_OF	Serena Stark → Arrana Stark
+724	serena-stark-cregard-stark	1	0	0	0	serena-stark	PARENT_OF	Serena Stark → Cregard Stark
+725	seven-sons	1	0	0	0	triston-sunderland	PARENT_OF	Seven sons
+726	shadrich-of-the-shady-glen-hired-by-petyr-baelish-secretly-hunting-sansa	1	0	0	0	hedge-knight	HOLDS_TITLE	Shadrich of the Shady Glen — hired by Petyr Baelish; secretly hunting Sansa (source: `graph/nodes/characters/petyr-baelish.node.md`)
+727	shiera-crakehall-lanna-lannister	1	0	0	0	lanna-lannister	PARENT_OF	Shiera Crakehall → Lanna Lannister
+728	shiera-crakehall-lucion-lannister	1	0	0	0	lucion-lannister	PARENT_OF	Shiera Crakehall → Lucion Lannister
+729	short-lasting-conquest-of-dorne-followed-by-a-dornish-rebellion	1	0	0	0	conquest-of-dorne	DEFEATS	Short-lasting conquest of Dorne, followed by a Dornish rebellion
+730	sickly-babe	1	0	0	0	lyonel-corbray	PARENT_OF	Sickly babe
+731	siege-of-nightsong	1	0	0	0	second-dornish-war	FIGHTS_IN	Siege of Nightsong
+732	six-children	1	0	0	0	samantha-tarly	PARENT_OF	Six children
+733	six-wives	1	0	0	0	theomore-harlaw	SPOUSE_OF	Six wives
+734	son-by-aemond	1	0	0	0	alys-rivers	PARENT_OF	Son by Aemond
+735	southern	1	0	0	0	house-foxglove	REGION_OF	Southern
+736	sparr	1	0	0	0	house-sparr	RULES	Sparr
+737	stafford-lannister-cerenna-reverse	1	0	0	0	cerenna-lannister	PARENT_OF	Stafford Lannister → Cerenna (cite: track_b: Father) — reverse
+738	stafford-lannister-daven-reverse	1	0	0	0	daven-lannister	PARENT_OF	Stafford Lannister → Daven (cite: track_b: Father) — reverse
+739	stafford-lannister-myrielle-lannister	1	0	0	0	myrielle-lannister	PARENT_OF	Stafford Lannister → Myrielle Lannister
+740	stannis-baratheon-master-of-ships-under-robert-i	1	0	0	0	small-council	MEMBER_OF	stannis-baratheon — master of ships under Robert I (source: reverse-lookup, narrative evidence)
+741	stannis-i-baratheon	1	0	0	0	house-baratheon-of-dragonstone	RULES	Stannis I Baratheon
+742	steward-of-pyke	1	0	0	0	helya	HOLDS_TITLE	Steward of Pyke
+743	stillborn-son-by-king-maegor	1	0	0	0	elinor-costayne	PARENT_OF	Stillborn son by King Maegor
+744	stonehouse	1	0	0	0	house-stonehouse	RULES	Stonehouse
+745	stonetree	1	0	0	0	house-stonetree	RULES	Stonetree
+746	sunflower-hall	1	0	0	0	emmon-cuy	BORN_AT	Sunflower Hall
+747	sunglass	1	0	0	0	house-sunglass	RULES	Sunglass (track_b: Head)
+748	sunspear-287-ac	1	0	0	0	trystane-martell	BORN_AT	Sunspear, 287 AC
+749	sunspear-dorne-281-ac	1	0	0	0	quentyn-martell	BORN_AT	Sunspear, Dorne, 281 AC
+750	tallharts	1	0	0	0	fight-by-deepwood-motte	DEFEATS	Tallharts
+751	tarbeck	1	0	0	0	reyne-tarbeck-revolt	DEFEATS	Tarbeck
+752	targaryen-dynasty	1	0	0	0	roberts-rebellion	DEFEATS	Targaryen dynasty
+753	tarly	1	0	0	0	taking-of-maidenpool	DEFEATS	Tarly
+754	temporarily-halted-now-resumed	1	0	0	0	shadow-war	DEFEATS	Temporarily halted, now resumed
+755	teora-kyndall-cerelle-reverse	1	0	0	0	cerelle-lannister-daughter-of-tybolt	PARENT_OF	Teora Kyndall → Cerelle (cite: track_b: Mother) — reverse
+756	the-boneway	1	0	0	0	mors-martell	DIED_AT	the Boneway
+757	the-burley	1	0	0	0	house-burley	HOLDS_TITLE	The Burley
+758	the-citadel-formerly	1	0	0	0	qyburn	SWORN_TO	The Citadel, formerly
+759	the-flint	1	0	0	0	house-flint-of-the-mountains	HOLDS_TITLE	The Flint
+760	the-harclay	1	0	0	0	house-harclay	HOLDS_TITLE	The Harclay
+761	the-knott	1	0	0	0	house-knott	HOLDS_TITLE	The Knott
+762	the-long-night	1	0	0	0	battle-for-the-dawn	FIGHTS_IN	The Long Night
+763	the-shadow-city-of-sunspear	1	0	0	0	brude	BORN_AT	the shadow city of Sunspear
+764	the-trident-283-ac	1	0	0	0	lewyn-martell	DIED_AT	the Trident, 283 AC
+765	the-westerlands	1	0	0	0	house-hetherspoon	REGION_OF	The Westerlands
+766	third-sword-of-braavos	1	0	0	0	third-sword	HOLDS_TITLE	Third Sword of Braavos
+767	three-grooms	1	0	0	0	amerei-frey	LOVER_OF	Three grooms
+768	three-husbands	1	0	0	0	florys-the-fox	SPOUSE_OF	Three husbands
+769	three-sons-by-ser-theo	1	0	0	0	elinor-costayne	PARENT_OF	Three sons by Ser Theo
+770	three-unknown-wives	1	0	0	0	gregor-clegane	SPOUSE_OF	Three unknown wives
+771	tommen-tully-is-parent-of-samwell-rivers	1	0	0	0	samwell-rivers	PARENT_OF	Tommen Tully is parent of Samwell Rivers
+772	tower-of-joy-dorne	1	0	0	0	lyanna-stark	DIED_AT	Tower of Joy, Dorne
+773	tower-of-the-hand-kings-landing	1	0	0	0	tywin-lannister	DIED_AT	Tower of the Hand, King's Landing
+774	tradesman-captain	1	0	0	0	moredo-prestayn	HOLDS_TITLE	Tradesman-Captain
+775	truth	1	0	0	0	house-rogare	ANCESTRAL_WEAPON_OF	Truth
+776	tully	1	0	0	0	battle-of-the-fords	DEFEATS	Tully
+777	twenty-nine-children	1	0	0	0	jasper-wylde	PARENT_OF	Twenty-nine children
+778	two-deceased-sons	1	0	0	0	rodrik-harlaw	PARENT_OF	Two deceased sons
+779	two-other-children	1	0	0	0	bethany-redwyne	PARENT_OF	Two other children
+780	tybolt-lannister-cerelle-reverse	1	0	0	0	cerelle-lannister-daughter-of-tybolt	PARENT_OF	Tybolt Lannister → Cerelle (cite: track_b: Father) — reverse
+781	tytos-lannister-genna-reverse	1	0	0	0	genna-lannister	PARENT_OF	Tytos Lannister → Genna (cite: track_b: Father) — reverse
+782	tytos-lannister-gerion-reverse	1	0	0	0	gerion-lannister	PARENT_OF	Tytos Lannister → Gerion (cite: track_b: Father) — reverse
+783	tytos-lannister-kevan-lannister	1	0	0	0	kevan-lannister	PARENT_OF	Tytos Lannister → Kevan Lannister
+784	tywin-lannister-as-warden-of-the-west	1	0	0	0	daven-lannister	SUCCEEDS	Tywin Lannister (cite: wiki:Daven_Lannister) — as Warden of the West
+785	tywin-lannister-cersei-reverse	1	0	0	0	cersei-lannister	PARENT_OF	Tywin Lannister → Cersei (cite: track_b: Father) — reverse
+786	tywin-lannister-jaime-reverse	1	0	0	0	jaime-lannister	PARENT_OF	Tywin Lannister → Jaime (cite: track_b: Father) — reverse
+787	unborn-bastard	1	0	0	0	saffron	PARENT_OF	Unborn bastard
+788	unidentified-god	1	0	0	0	bearded-priests	SWORN_TO	Unidentified god
+789	unknown-butcher	1	0	0	0	janos-slynt	PARENT_OF	Unknown butcher
+790	unknown-children	1	0	0	0	rhae-targaryen	PARENT_OF	Unknown children
+791	unknown-husband	1	0	0	0	darke-seven-swords	SPOUSE_OF	Unknown husband
+792	unknown-mistress	1	0	0	0	torreo-haen	LOVER_OF	Unknown mistress
+793	unknown-number-of-wives	1	0	0	0	brass-seller	SPOUSE_OF	Unknown number of wives
+794	unknown-wives	1	0	0	0	dhako	SPOUSE_OF	Unknown wives
+795	unnamed-fortress-temple	1	0	0	0	bearded-priests	SEAT_OF	Unnamed fortress-temple
+796	unnamed-hedge-knight-unhorsed-danwell-frey-at-the-tourney-on-prince-joffreys-name-day	1	0	0	0	hedge-knight	HOLDS_TITLE	unnamed hedge knight — unhorsed Danwell Frey at the tourney on Prince Joffrey's name day (source: `graph/nodes/characters/danwell-frey.node.md`)
+797	unnamed-husband	1	0	0	0	drapers-wife	SPOUSE_OF	Unnamed husband
+798	unnamed-messenger	1	0	0	0	house-dondarrion	FOUNDED	Unnamed messenger
+799	unnamed-paramour-qualifier-secret	1	0	0	0	lewyn-martell	LOVER_OF	unnamed paramour (cite: track_b: Lover) — qualifier: secret
+800	unnamed-son	1	0	0	0	maron-martell	PARENT_OF	unnamed son
+801	unnamed-third-wife	1	0	0	0	victarion-greyjoy	SPOUSE_OF	unnamed third wife
+802	unnamed-tower	1	0	0	0	house-baelish	SEAT_OF	Unnamed tower
+803	unnamed-whore	1	0	0	0	barra	PARENT_OF	Unnamed whore
+804	unresolved	1	0	0	0	siege-of-storms-end-300	DEFEATS	Unresolved
+805	uthor-underleaf-hedge-knight-who-preferred-to-call-himself-a-tourney-knight	1	0	0	0	hedge-knight	HOLDS_TITLE	Uthor Underleaf — hedge knight who preferred to call himself a tourney knight (source: `graph/nodes/characters/uthor-underleaf.node.md`)
+806	valaena-velaryon-visenya	1	0	0	0	visenya-targaryen	PARENT_OF	Valaena Velaryon → Visenya
+807	valyria-114-bc	1	0	0	0	gaemon-targaryen-son-of-aenar	BORN_AT	Valyria, 114 BC
+808	varys-kevan-lannister	1	0	0	0	kevan-lannister	KILLS	Varys → Kevan Lannister
+809	vickon-greyjoy-goren-greyjoy	1	0	0	0	goren-greyjoy	PARENT_OF	Vickon Greyjoy → Goren Greyjoy
+810	villages-and-fields-along-whispering-sound-are-burnt	1	0	0	0	battle-on-whispering-sound	DEFEATS	Villages and fields along Whispering Sound are burnt
+811	viserys-ii-targaryen-is-parent	1	0	0	0	naerys-targaryen	PARENT_OF	Viserys II Targaryen is parent
+812	warden-of-the-east-formerly	1	0	1	0	jaime-lannister	HOLDS_TITLE	Warden of the East (cite: track_b: Titles) — formerly
+813	west-barracks	1	0	0	0	city-watch-of-kings-landing	SEAT_OF	West Barracks
+814	westeros-276-277-ac	1	0	0	0	tyene-sand	BORN_AT	Westeros, 276–277 AC
+815	wife	1	0	0	0	dywen-shell	SPOUSE_OF	Wife
+816	wife-of-manfrey-martell	1	0	0	0	obella-sand	SERVES	Wife of Manfrey Martell
+817	willam-stark-jocelyn-stark	1	0	0	0	willam-stark	PARENT_OF	Willam Stark → Jocelyn Stark
+818	yitish-consort	1	0	0	0	khiara-the-great	SPOUSE_OF	YiTish consort
+819	young-griff-aegon-targaryen	1	0	0	0	haldon	TEACHES	Young Griff / Aegon Targaryen
+820	youngest-daughter	1	0	0	0	gerrick-kingsblood	PARENT_OF	Youngest daughter
+821	youngest-son	1	0	0	0	lord-ryswell-nights-watch	PARENT_OF	Youngest son
+822	yunkish-victory	1	0	0	0	battle-at-the-horns-of-hazzat	DEFEATS	Yunkish victory

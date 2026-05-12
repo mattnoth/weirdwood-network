@@ -2,7 +2,7 @@
 name: "Giants"
 type: species
 slug: giants
-aliases: []
+aliases: ["Giant", "giant"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Giants"
 bucket_id: tier3-pathb-longtail

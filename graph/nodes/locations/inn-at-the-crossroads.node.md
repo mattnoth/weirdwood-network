@@ -2,7 +2,7 @@
 name: "Inn At The Crossroads"
 type: place.location
 slug: inn-at-the-crossroads
-aliases: ["Inn at the crossroads", "inn at the crossroads", "Inn at the Crossroads", "crossroads inn", "Crossroads inn", "Two Crowns"]
+aliases: ["Inn at the crossroads", "inn at the crossroads", "Inn at the Crossroads", "crossroads inn", "Crossroads inn", "Two Crowns", "crossroads-inn"]
 confidence: tier-2
 pass_origin: pass2-wiki-reconstruction-mission-batch-2
 ---

@@ -2,14 +2,14 @@
   "chapter_id": "asos-samwell-03",
   "book": "asos",
   "pov_character": "samwell",
-  "generated_at": "2026-05-12T18:30:44.958201+00:00",
+  "generated_at": "2026-05-12T21:45:31.570037+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-samwell-03.extraction.md",
   "stats": {
     "total_mentions": 120,
-    "resolved_to_node": 76,
-    "direct": 65,
+    "resolved_to_node": 77,
+    "direct": 66,
     "alias": 11,
-    "unresolved": 44
+    "unresolved": 43
   },
   "mentions": [
     {
@@ -1086,9 +1086,9 @@
     {
       "raw_name": "Ice Dragon (constellation — Sam uses its tail for navigation south on clear nights)",
       "slug": "ice-dragon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/ice-dragon.node.md",
       "section": "Raw Entity List > Other",
       "line": 321
     }

@@ -2,7 +2,7 @@
 name: "Joffrey Baratheon"
 type: character.human
 slug: joffrey-baratheon
-aliases: ["Joff", "Joffrey the Illborn", "The King on the Iron Throne", "Robert the Second", "Aerys the Third", "Joffy", "The Young Usurper", "Joffrey-called-Baratheon", "The boy king"]
+aliases: ["Joff", "Joffrey the Illborn", "The King on the Iron Throne", "Robert the Second", "Aerys the Third", "Joffy", "The Young Usurper", "Joffrey-called-Baratheon", "The boy king", "Joffrey I Baratheon", "joffrey-i-baratheon"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Joffrey_Baratheon"
 bucket_id: characters-other-i-j

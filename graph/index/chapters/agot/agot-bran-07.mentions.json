@@ -2,14 +2,14 @@
   "chapter_id": "agot-bran-07",
   "book": "agot",
   "pov_character": "bran",
-  "generated_at": "2026-05-12T18:30:44.806358+00:00",
+  "generated_at": "2026-05-12T21:45:31.415569+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-bran-07.extraction.md",
   "stats": {
     "total_mentions": 152,
-    "resolved_to_node": 109,
+    "resolved_to_node": 113,
     "direct": 95,
-    "alias": 14,
-    "unresolved": 43
+    "alias": 18,
+    "unresolved": 39
   },
   "mentions": [
     {
@@ -392,10 +392,10 @@
     },
     {
       "raw_name": "Winterfell crypts",
-      "slug": "winterfell-crypts",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "crypt-of-winterfell",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crypt-of-winterfell.node.md",
       "section": "Locations",
       "line": 81
     },
@@ -491,10 +491,10 @@
     },
     {
       "raw_name": "Winterfell crypts",
-      "slug": "winterfell-crypts",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "crypt-of-winterfell",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crypt-of-winterfell.node.md",
       "section": "Location Descriptions",
       "line": 96
     },
@@ -860,10 +860,10 @@
     },
     {
       "raw_name": "Winterfell crypts",
-      "slug": "winterfell-crypts",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "crypt-of-winterfell",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crypt-of-winterfell.node.md",
       "section": "Raw Entity List > Locations",
       "line": 285
     },
@@ -1364,10 +1364,10 @@
     },
     {
       "raw_name": "The Age of Heroes",
-      "slug": "the-age-of-heroes",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "age-of-heroes",
+      "resolved_via": "alias",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/age-of-heroes.node.md",
       "section": "Raw Entity List > Other",
       "line": 361
     },

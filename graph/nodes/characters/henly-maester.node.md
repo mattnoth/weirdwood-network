@@ -15,5 +15,5 @@ Henly is a young maester present at Winterfell during the Bolton occupation. He 
 
 ## Edges
 
-SERVES: ramsay-bolton
+SERVES: ramsay-snow
 LOCATED_AT: winterfell

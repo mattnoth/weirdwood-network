@@ -2,14 +2,14 @@
   "chapter_id": "acok-jon-06",
   "book": "acok",
   "pov_character": "jon",
-  "generated_at": "2026-05-12T18:30:44.882193+00:00",
+  "generated_at": "2026-05-12T21:45:31.488363+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-jon-06.extraction.md",
   "stats": {
     "total_mentions": 112,
-    "resolved_to_node": 77,
+    "resolved_to_node": 79,
     "direct": 69,
-    "alias": 8,
-    "unresolved": 35
+    "alias": 10,
+    "unresolved": 33
   },
   "mentions": [
     {
@@ -374,10 +374,10 @@
     },
     {
       "raw_name": "Winterfell crypts",
-      "slug": "winterfell-crypts",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "crypt-of-winterfell",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crypt-of-winterfell.node.md",
       "section": "Locations",
       "line": 79
     },
@@ -761,10 +761,10 @@
     },
     {
       "raw_name": "Winterfell crypts (implied — \"hiding with the dead beneath the castle\")",
-      "slug": "winterfell-crypts",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "crypt-of-winterfell",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crypt-of-winterfell.node.md",
       "section": "Raw Entity List > Locations",
       "line": 260
     },

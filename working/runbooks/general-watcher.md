@@ -10,9 +10,10 @@ You are a read-only watcher for a running Weirwood Network work session. Answer 
 
 1. Read `worklog.md` — understand current project state.
 2. Run `git status` and `git diff --stat HEAD` to see what's been modified.
-3. Ask Matt (if he hasn't said): what task is the running session working on? Is there a prompt or task description you can read?
-4. If there's a relevant prompt (e.g. `progress/continue-prompts/<name>.md` or a `working/todos.md` entry), read it.
-5. Build a mental picture: expected scope vs. observed changes.
+3. Check `working/session-results/` for any result files dated today. If the running session has one, that's the canonical "what landed" — start there, don't reconstruct from git diff. (See `working/session-results/README.md` for the convention.)
+4. Ask Matt (if he hasn't said): what task is the running session working on? Is there a prompt or task description you can read?
+5. If there's a relevant prompt (e.g. `progress/continue-prompts/<name>.md` or a `working/todos.md` entry), read it.
+6. Build a mental picture: expected scope vs. observed changes.
 
 ## Questions you should be ready to answer
 
@@ -27,8 +28,9 @@ You are a read-only watcher for a running Weirwood Network work session. Answer 
 
 You can't see the running session's conversation — only its disk output:
 
-| Signal | How to read it |
+| Signal | How to read it | 
 |--------|---------------|
+| `working/session-results/<date>-<name>.md` | **Canonical mid/end-of-session result.** If present, read this first. |
 | `git status` | Which files have been touched |
 | `git diff HEAD -- <file>` | Exactly what changed |
 | `ls -lt <dir>` | Most recently modified = current work frontier |
@@ -37,6 +39,7 @@ You can't see the running session's conversation — only its disk output:
 ## Useful commands
 
 ```bash
+ls -lt working/session-results/ | head     # session-result files, newest first — check this FIRST
 git status
 git diff --stat HEAD
 git diff HEAD -- <file>

@@ -2,14 +2,14 @@
   "chapter_id": "adwd-the-ugly-little-girl-01",
   "book": "adwd",
   "pov_character": "the-ugly-little-girl",
-  "generated_at": "2026-05-12T18:30:45.071529+00:00",
+  "generated_at": "2026-05-12T21:45:31.671159+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-the-ugly-little-girl-01.extraction.md",
   "stats": {
     "total_mentions": 210,
-    "resolved_to_node": 98,
+    "resolved_to_node": 100,
     "direct": 87,
-    "alias": 11,
-    "unresolved": 112
+    "alias": 13,
+    "unresolved": 110
   },
   "mentions": [
     {
@@ -68,10 +68,10 @@
     },
     {
       "raw_name": "The handsome man",
-      "slug": "the-handsome-man",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "handsome-man",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/handsome-man.node.md",
       "section": "Characters Present",
       "line": 33
     },
@@ -914,10 +914,10 @@
     },
     {
       "raw_name": "The handsome man",
-      "slug": "the-handsome-man",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "handsome-man",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/handsome-man.node.md",
       "section": "Raw Entity List > Characters",
       "line": 294
     },

@@ -2,14 +2,14 @@
   "chapter_id": "acok-theon-05",
   "book": "acok",
   "pov_character": "theon",
-  "generated_at": "2026-05-12T18:30:44.894992+00:00",
+  "generated_at": "2026-05-12T21:45:31.499445+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-theon-05.extraction.md",
   "stats": {
     "total_mentions": 71,
-    "resolved_to_node": 55,
+    "resolved_to_node": 56,
     "direct": 53,
-    "alias": 2,
-    "unresolved": 16
+    "alias": 3,
+    "unresolved": 15
   },
   "mentions": [
     {
@@ -509,10 +509,10 @@
     },
     {
       "raw_name": "Winterfell's crypts",
-      "slug": "winterfells-crypts",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "crypt-of-winterfell",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crypt-of-winterfell.node.md",
       "section": "Locations",
       "line": 94
     },

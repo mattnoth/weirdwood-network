@@ -15,6 +15,6 @@ Damon Dance-for-Me is one of the Bastard's Boys, a group of brutal men in servic
 
 ## Edges
 
-SERVES: ramsay-bolton
+SERVES: ramsay-snow
 MEMBER_OF: bastards-boys
 LOCATED_AT: winterfell

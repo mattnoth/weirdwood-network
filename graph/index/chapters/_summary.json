@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T18:30:45.109395+00:00",
+  "generated_at": "2026-05-12T21:45:31.686238+00:00",
   "books_processed": [
     "agot",
     "acok",
@@ -10,14 +10,14 @@
   "dry_run": false,
   "chapters_processed": 344,
   "total_mentions": 37222,
-  "resolved": 27118,
-  "direct": 25250,
-  "alias": 1868,
-  "unresolved": 10104,
-  "resolution_rate_pct": 72.9,
-  "direct_pct": 67.8,
-  "alias_pct": 5.0,
-  "unresolved_pct": 27.1,
+  "resolved": 27169,
+  "direct": 25264,
+  "alias": 1905,
+  "unresolved": 10053,
+  "resolution_rate_pct": 73.0,
+  "direct_pct": 67.9,
+  "alias_pct": 5.1,
+  "unresolved_pct": 27.0,
   "top_unresolved": [
     {
       "slug": "joffrey",
@@ -38,10 +38,6 @@
     {
       "slug": "little-walder-frey",
       "count": 22
-    },
-    {
-      "slug": "winterfell-crypts",
-      "count": 20
     },
     {
       "slug": "wildlings-free-folk",
@@ -97,6 +93,10 @@
     },
     {
       "slug": "cersei",
+      "count": 14
+    },
+    {
+      "slug": "summer-islanders",
       "count": 14
     }
   ]

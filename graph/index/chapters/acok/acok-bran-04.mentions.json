@@ -2,14 +2,14 @@
   "chapter_id": "acok-bran-04",
   "book": "acok",
   "pov_character": "bran",
-  "generated_at": "2026-05-12T18:30:44.859369+00:00",
+  "generated_at": "2026-05-12T21:45:31.468674+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-bran-04.extraction.md",
   "stats": {
     "total_mentions": 106,
-    "resolved_to_node": 75,
+    "resolved_to_node": 76,
     "direct": 69,
-    "alias": 6,
-    "unresolved": 31
+    "alias": 7,
+    "unresolved": 30
   },
   "mentions": [
     {
@@ -626,10 +626,10 @@
     },
     {
       "raw_name": "Winterfell crypts (mentioned)",
-      "slug": "winterfell-crypts",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "crypt-of-winterfell",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/crypt-of-winterfell.node.md",
       "section": "Raw Entity List > Locations",
       "line": 256
     },

@@ -1,15 +1,15 @@
 {
   "version": "v1",
-  "computed_at": "2026-05-12T18:30:24Z",
+  "computed_at": "2026-05-12T21:45:29Z",
   "stats": {
-    "nodes_scanned": 7702,
-    "total_aliases": 1801,
-    "alias_to_canonical_count": 1403,
-    "alias_collisions": 26,
-    "alias_is_self": 263,
-    "alias_already_canonical": 59,
+    "nodes_scanned": 7720,
+    "total_aliases": 1850,
+    "alias_to_canonical_count": 1433,
+    "alias_collisions": 30,
+    "alias_is_self": 267,
+    "alias_already_canonical": 60,
     "filtered_title_words": 0,
-    "filtered_bare_disambiguation": 20
+    "filtered_bare_disambiguation": 25
   },
   "alias_to_canonical": {
     "a-poisoner": "wineseller",
@@ -33,6 +33,7 @@
     "aegon-the-usurper": "aegon-ii-targaryen",
     "aegon-the-younger": "aegon-iii-targaryen",
     "aegon-vi": "aegon-targaryen-young-griff",
+    "aegons-faction": "greens",
     "aelinor-targaryen": "aelinor-penrose",
     "aemon-battleborn": "aemon-steelsong",
     "aemond-one-eye": "aemond-targaryen",
@@ -55,6 +56,7 @@
     "alys-westhill": "elissa-farman",
     "ami": "amerei-frey",
     "andal": "andals",
+    "andal-conquest": "andal-invasion",
     "anguy-the-archer": "anguy",
     "apple-counter": "florence-fossoway",
     "arch": "archibald-yronwood",
@@ -62,6 +64,7 @@
     "arlan-the-avenger": "arlan-i-durrandon",
     "armen-the-acolyte": "armen",
     "arry": "arya-stark",
+    "arryk-guard": "arryk-cargyll",
     "arstan-whitebeard": "barristan-selmy",
     "artos-the-implacable": "artos-stark",
     "artys-arryn": "winged-knight",
@@ -95,6 +98,7 @@
     "barron-the-beautiful": "barron-durrandon",
     "barsena": "barsena-blackhair",
     "barth-blacksword": "barthogan-stark",
+    "bastard-boys": "bastards-boys",
     "bastard-of-bitterbridge": "tom-flowers",
     "bastard-of-cider-hall": "franklyn-flowers",
     "bastard-of-cornfield": "addison-hill",
@@ -127,6 +131,7 @@
     "black-aly-blackwood": "alysanne-blackwood",
     "black-byren-flowers": "byren-flowers",
     "black-donnel-flint": "donnel-flint",
+    "black-faction": "blacks",
     "black-flame": "moqorro",
     "black-harren": "harren-hoare",
     "black-jack-bulwer": "jack-bulwer",
@@ -304,6 +309,7 @@
     "erich-the-unready": "erich-vii-durrandon",
     "erik-anvil-breaker": "erik-ironmaker",
     "erik-the-just": "erik-ironmaker",
+    "erryk-guard": "erryk-cargyll",
     "euron-croweye": "euron-greyjoy",
     "euron-crows-eye": "euron-greyjoy",
     "fair-walda": "walda-frey-daughter-of-walton",
@@ -323,6 +329,7 @@
     "fool-frey": "forrest-frey",
     "fool-of-florent": "imry-florent",
     "footpad": "catspaw",
+    "fowler-twins": "jeyne-fowler",
     "freak": "tyrion-lannister",
     "freys": "house-frey",
     "gaemon-the-glorious": "gaemon-targaryen-son-of-aenar",
@@ -363,6 +370,7 @@
     "great-khal": "drogo",
     "great-rider": "drogo",
     "greatjon-umber": "jon-umber",
+    "green-faction": "greens",
     "greenguts": "archibald-yronwood",
     "grey-eyes": "gordan-i-gardener",
     "greybeard-grandison": "hugh-grandison",
@@ -429,6 +437,7 @@
     "hugor-of-the-hill-speculated": "hukko",
     "hukko-speculated": "hugor-of-the-hill",
     "hyrkoon-the-hero": "azor-ahai",
+    "ice-dragons": "ice-dragon",
     "ice-eyes": "brandon-stark-ice-eyes",
     "illy": "illifer-the-penniless",
     "inkpots": "tybero-istarion",
@@ -633,6 +642,7 @@
     "maelys-the-monstrous": "maelys-i-blackfyre",
     "maester-aemon": "aemon-targaryen-son-of-maekar-i",
     "maester-at-darry": "ottomore",
+    "maester-henly": "henly-maester",
     "mag-the-mighty": "mag-mar-tun-doh-weg",
     "maid-margaery": "margaery-tyrell",
     "maidensbane": "joron-i-blacktyde",
@@ -776,6 +786,7 @@
     "rags": "tattered-prince",
     "rags-and-tatters": "tattered-prince",
     "ramsay-bolton": "ramsay-snow",
+    "ramsays-men": "bastards-boys",
     "rattleshirt": "lord-of-bones",
     "ravella-swann": "ravella-smallwood",
     "raven-feeder": "regnar-drumm",
@@ -786,6 +797,7 @@
     "red-jack-crabb": "jack-crabb",
     "red-lester": "lester",
     "red-ralf-stonehouse": "ralf-stonehouse",
+    "red-raven": "red-raven-free-folk",
     "red-robb-rivers": "robb-rivers",
     "red-robert-flowers": "robert-flowers",
     "red-ronnet": "ronnet-connington",
@@ -809,6 +821,7 @@
     "rhaena-corbray": "rhaena-targaryen-daughter-of-daemon",
     "rhaena-of-pentos": "rhaena-targaryen-daughter-of-daemon",
     "rhaenyra-the-pretender": "rhaenyra-targaryen",
+    "rhaenyras-faction": "blacks",
     "right-of-the-first-night": "first-night",
     "rightful-lord-of-the-iron-islands": "theon-greyjoy",
     "robar-the-red": "robar-royce",
@@ -912,13 +925,17 @@
     "tanselle-too-tall": "tanselle",
     "targaryens": "house-targaryen",
     "tatters": "tattered-prince",
+    "team-black": "blacks",
+    "team-green": "greens",
     "tessario-the-thumb": "tessario",
     "tessario-the-tiger": "tessario",
     "that-sarsfield-boy": "pimply-squire",
     "the-abomination": "monster",
     "the-abomination-on-the-iron-throne": "maegor-i-targaryen",
+    "the-age-of-heroes": "age-of-heroes",
     "the-amazing": "huzhor-amai",
     "the-andal": "jorah-mormont",
+    "the-andal-invasion": "andal-invasion",
     "the-angry-brother-with-the-hot-green-eyes": "shaggydog",
     "the-anvil": "maekar-i-targaryen",
     "the-arrow-of-jhahar": "chatana-qo",
@@ -935,6 +952,7 @@
     "the-bastard-of-the-dreadfort": "ramsay-snow",
     "the-bastard-of-the-pussywillows": "glendon-flowers",
     "the-bastard-of-winterfell": "jon-snow",
+    "the-bastards-boys": "bastards-boys",
     "the-beggar-king": "viserys-targaryen",
     "the-big-man": "archibald-yronwood",
     "the-bitch-queen": "rhaenyra-targaryen",
@@ -949,6 +967,7 @@
     "the-black-shepherd": "daegon-shepherd",
     "the-black-singer": "dareon",
     "the-black-swan": "johanna-swann",
+    "the-blacks": "blacks",
     "the-blackwater": "blackwater-rush",
     "the-bleeding-star": "red-comet",
     "the-blind-bastard": "roro-uhoris",
@@ -983,6 +1002,7 @@
     "the-crow-come-over": "jon-snow",
     "the-crows-eye": "euron-greyjoy",
     "the-crying-girl": "weasel",
+    "the-crypts-of-winterfell": "crypt-of-winterfell",
     "the-cunny-king": "gaemon-palehair",
     "the-damphair": "aeron-greyjoy",
     "the-dancer": "dhazzar",
@@ -1020,6 +1040,7 @@
     "the-first-knight": "john-the-oak",
     "the-flower-of-the-mountain": "sharra-arryn",
     "the-ford": "ruby-ford",
+    "the-fowler-twins": "jeyne-fowler",
     "the-frogboy": "jojen-reed",
     "the-gallows-knight": "duncan-the-tall",
     "the-ghost-in-harrenhal": "arya-stark",
@@ -1040,6 +1061,7 @@
     "the-great-lord-snow": "jon-snow",
     "the-greatjon": "jon-umber",
     "the-green-oak": "olyvar-oakheart",
+    "the-greens": "greens",
     "the-grey-brother-who-smelled-of-summer": "summer",
     "the-grey-giant": "argoth-stone-skin",
     "the-greybeard": "hugh-grandison",
@@ -1052,6 +1074,7 @@
     "the-hammer-of-justice": "tristifer-iv-mudd",
     "the-hand-of-the-uncrowned-king": "cregan-stark",
     "the-handsome": "hazrak-zo-loraq",
+    "the-handsome-man": "handsome-man",
     "the-hanged-man": "duncan-the-tall",
     "the-hangwoman": "catelyn-stark",
     "the-hardhand": "harwyn-hoare",
@@ -1205,6 +1228,7 @@
     "the-red-kraken": "dalton-greyjoy",
     "the-red-lion": "roger-reyne",
     "the-red-queen": "meleys",
+    "the-red-raven-free-folk": "red-raven-free-folk",
     "the-red-viper": "oberyn-martell",
     "the-red-waste": "red-waste",
     "the-red-widow": "rohanne-webber",
@@ -1251,6 +1275,8 @@
     "the-squirrel": "geoff",
     "the-starfire": "samwell-dayne",
     "the-stargazer": "vaellyn",
+    "the-starved-man": "starved-man",
+    "the-stern-face": "stern-face",
     "the-storm-lord": "robert-i-baratheon",
     "the-tall": "tallad",
     "the-talon": "oswin-arryn",
@@ -1261,6 +1287,7 @@
     "the-titans-bastard": "mero",
     "the-toothless-lion": "tytos-lannister",
     "the-tower-of-joy": "tower-of-joy",
+    "the-two-betrayers": "two-betrayers",
     "the-tyrant-of-tyrosh": "alequo-adarys",
     "the-ugly-girl": "arya-stark",
     "the-unburnt-king": "mance-rayder",
@@ -1294,6 +1321,7 @@
     "the-winged-shadow": "drogon",
     "the-winged-wolf": "bran-stark",
     "the-winter-child": "gael-targaryen",
+    "the-winter-wolves": "winter-wolves",
     "the-wolf-maid": "lyanna-stark",
     "the-wolf-of-the-north": "cregan-stark",
     "the-wolf-of-winterfell": "cregan-stark",
@@ -1391,6 +1419,8 @@
     "wildlings": "free-folk",
     "will-foxglove": "willam-foxglove",
     "wine-merchant": "wineseller",
+    "winterfell-crypts": "crypt-of-winterfell",
+    "winterfells-crypts": "crypt-of-winterfell",
     "wisp-o-the-wood": "beric-dondarrion",
     "witch-queen": "alys-rivers",
     "wolf-king": "robb-stark",
@@ -1605,6 +1635,20 @@
       "resolution": "ambiguous-do-not-resolve"
     },
     {
+      "alias_kebab": "dragon-horn",
+      "candidates": [
+        "dragonbinder"
+      ],
+      "resolution": "ambiguous-do-not-resolve"
+    },
+    {
+      "alias_kebab": "joffrey-i-baratheon",
+      "candidates": [
+        "joffrey-baratheon"
+      ],
+      "resolution": "ambiguous-do-not-resolve"
+    },
+    {
       "alias_kebab": "red-priestess",
       "candidates": [
         "red-priest"
@@ -1622,6 +1666,20 @@
       "alias_kebab": "the-haunted-forest",
       "candidates": [
         "haunted-forest"
+      ],
+      "resolution": "ambiguous-do-not-resolve"
+    },
+    {
+      "alias_kebab": "the-wall",
+      "candidates": [
+        "wall"
+      ],
+      "resolution": "ambiguous-do-not-resolve"
+    },
+    {
+      "alias_kebab": "tommen-i-baratheon",
+      "candidates": [
+        "tommen-baratheon"
       ],
       "resolution": "ambiguous-do-not-resolve"
     }
