@@ -3,6 +3,10 @@
 > **Continue prompt for a fresh session.** Self-contained — pick this up without prior conversation context.
 >
 > **Drafted:** 2026-05-01 end of Session 29. **Updated 2026-05-01 Session 30:** Pass 1 dependency now resolved up-front — Pass 1 across ACOK/ASOS/AFFC/ADWD is being completed BEFORE this work track per Matt-decision Session 30. The AGOT-only contradiction-sweep carve-out is dropped; this prompt now describes a full-5-book contradiction sweep. Pre-flight check: confirm `extractions/mechanical/{acok,asos,affc,adwd}/` are all populated to chapter-count parity before launching Step 3.
+>
+> **Updated 2026-05-12 (Session 51):** Added Step 13 — write session-results file at end (and at smoke-test→bulk-run transition). See `working/session-results/README.md`. Pass 1 dependency now fully met (344/344 across 5 books, including ASOS).
+>
+> **Recommended model:** **Sonnet 4.6 for the orchestrator session.** For the classifier agent itself: per Session 37 model-fit audit, prose-edge-classifier downgrades Opus → Sonnet 4.6 *gated on smoke test* — run on 3 representative buckets (1 character-heavy, 1 location-heavy, 1 organization-heavy), run `prose-edge-reviewer` against the resulting JSONL; if verdict is CLEAN or CONCERNS-low across all 3, downgrade fleet-wide. If SYSTEMATIC issues anywhere, keep Opus for bulk. Sonnet-on-Opus is ~0.2× per token; on a $50-100 line item that's a $40-80 saving. Update the agent's `model:` frontmatter at `.claude/agents/prose-edge-classifier.md` line 6 only AFTER smoke test passes.
 
 ---
 
@@ -247,6 +251,8 @@ Pass-1 mechanical extractions for AGOT live at `extractions/mechanical/agot/agot
     - All cross-identity escalations resolved or queued
     - All contradiction findings surfaced to `curation/candidates.md`
     - Validator: 0 infobox edges modified, 0 vocabulary violations, 0 conflicts
+
+13. **Write session-results file** (convention introduced Session 51 — see `working/session-results/README.md`). At end of session, write `working/session-results/<date>-stage4-prose-edge-classifier.md` with: status (complete/partial/blocked), headline numbers (candidates generated / classified / accepted / rejected / escalated, infobox-edges-touched = 0), what's next, notes. This is the watcher-handoff signal — write it *before* the worklog entry so any watching session sees the result land in real time. Also: also write a mid-session result file if Step 3 enters bulk-run mode (after smoke-test verdict) — watchers care about that transition.
 
 ---
 

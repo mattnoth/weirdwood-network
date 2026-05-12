@@ -53,3 +53,28 @@
 **Decisions:** First mission ran end-to-end (10/10 returned, 0 fail, avg 0.89 conf, ~6 min wall-clock). Postmortem surfaced 4 lessons: workers wave-sized not slug-sized; task strategies must be in worker template upfront not added mid-mission; schema validation is mandatory (every worker drifted on at least one field); watcher is optional, not required. Mission protocol v1 baked these in. Batch 2 (next 50 slugs) ran subagent-orchestrated in 5 parallel waves, all schema-PASS, ~8 min total. Multi-type entity policy decided (single node + primary type + edges capture other facets, NOT split-into-multiple-nodes). War-vs-battle clarification: `event.war` already exists in architecture.md (worker drift, not missing type). Subagent vs multi-window trigger rule drafted (lands in mission-protocol.md next session).
 
 **What's next (at time of archiving):** Close case-collision, alias-backfill round 2, Stage 4 prose-edge classifier.
+
+---
+
+### Session 47 — Case-Collision Promotion + Type Fixes + Protocol Edits (2026-05-12)
+
+**Changes made:**
+- `scripts/promote-case-collision.py` — NEW. Promotion script for 60 case-collision worker outputs → `graph/nodes/`. Handles CREATE (36 new nodes), UPDATE (21 existing stubs), MOVE+UPD (2 type relocations), SKIP (old-gods, already aliased). Applies locked type corrections inline (event.conflict→event.war, event.military-expedition→event.battle, bare `concept`→per-slug overrides, `titles`→`title`).
+- **36 CREATE** — notable new nodes: `small-council` (factions/), `tower-of-joy` (locations/), `ghiscari-wars` (events/, typed event.war not event.conflict), `dothraki-sea` (locations/), `haunted-forest` (locations/), `hammer-of-the-waters` (concepts/), `first-night` (concepts/), `stallion-who-mounts-the-world` (concepts/, typed concept.prophecy), `children-of-the-forest` moved from factions/ to species/.
+- **21 UPDATE** — stubs replaced with worker Identity: `brotherhood-without-banners`, `hedge-knight`, `king-in-the-north`, `master-of-coin`, `warden-of-the-north`, `king-beyond-the-wall`, `master-of-laws`, `master-of-ships`, `master-of-whisperers`, `red-priest`, `red-waste`, `ruby-ford`, `valar-morghulis`, `war-of-the-first-men-and-the-children-of-the-forest`, and others.
+- **2 MOVE+UPD** — `free-folk`: factions/→concepts/, type organization.faction→concept.culture. `children-of-the-forest`: factions/→species/, type organization.faction→species. Both: old files deleted, new files written with worker Identity.
+- **Pre-work cleanups:** `war-of-the-five-kings.node.md` type-fixed event.battle→event.war; `war-of-five-kings.node.md` deleted (empty duplicate, wrong slug); `red-priest` aliases updated to include `red-priestess` + `Red Priestess`; `crossroads-inn.node.md` stub deleted (merged into `inn-at-the-crossroads` aliases).
+- **`small-council` edges** — uncommented MEMBER_OF edges from worker's narrative-evidence comments (petyr-baelish, stannis-baratheon, janos-slynt, daemon-targaryen, corlys-velaryon) + LOCATED_AT: red-keep. Infobox-data.jsonl had no entries (redirect page); reverse-lookup returned 0 results.
+- `reference/architecture.md` — NEW section "Multi-type entities" under Hierarchy Query Rules. Policy: one node per real-world entity, primary type in `type` field, other facets via edges. Examples: Free Folk → concept.culture (faction-ness via edges), Children of the Forest → species (ancient-people-ness via edges).
+- `working/agent-fleet-specs/mission-protocol.md` — NEW section "Choosing execution mode (subagent vs multi-window)" under Roles. Documents the trigger rule: subagent OK when self-contained + stateless + <10 min; multi-window+watcher when TYPE_DIR_MAP awareness, context loading, or drift-potential is high. Notes case-collision-batch-2 as a cautionary example.
+- `working/todos.md` — case-collision HIGH item (60/125 promoted, 65 remaining) → downgraded to LOW (optional Track B, tail slugs, multi-window mission when wanted).
+- Graph total: 7,915 → 7,949 nodes (+34 net).
+
+**Decisions:** All 60 outputs promoted (36 CREATE + 21 UPDATE + 2 MOVE + 1 SKIP). Type corrections applied inline from locked vocab — no new types invented. Multi-type policy ratified: free-folk as concept.culture (not faction), children-of-the-forest as species (not faction). War-of-the-five-kings canonical slug confirmed; empty duplicate deleted. Red-priestess absorbed as alias, not separate node.
+
+**What's next:**
+- **Case-collision tail (65 slugs, optional)** — LOW priority. Track B: Python filter to classify canonical (~15) vs droppable (~50), then multi-window+watcher mission. → continue: `progress/continue-prompts/2026-05-12-case-collision-close.md` (Track B section)
+- **Alias-backfill round 2** — parallel-safe. → continue: `progress/continue-prompts/2026-05-12-alias-backfill-round-2.md`
+- **Stage 4 prose-edge-classifier** — next major track. → continue: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`
+- **Per Matt's standing rule, /endsession is NOT auto-run.**
+

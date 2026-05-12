@@ -178,6 +178,28 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 51 — Watcher-Day Orchestration + Session-Results Convention (2026-05-12)
+
+**Detail:** `history/session-details/session-051.md`
+
+**Changes made:**
+- Spot-check of 10 Track B nodes; 2 in-place edge fixes: `damon-dance-for-me.node.md` + `henly-maester.node.md` (SERVES: ramsay-bolton → ramsay-snow).
+- `scripts/orphan-edges-audit.py` rerun → `working/audits/orphan-edges-2026-05-12.md` + cat1-full.tsv (baseline before Session 50).
+- `progress/continue-prompts/2026-05-12-orphan-batch-top-nodes.md` — drafted; used by Session 50; deleted at end-of-session.
+- `working/session-results/README.md` — NEW. Convention doc for watcher-handoff result files.
+- `working/session-results/2026-05-12-watcher-day-orchestration.md` — NEW. This session's result file (demo + handoff).
+- `working/runbooks/general-watcher.md` — updated. First-steps checks `working/session-results/`; signal table + commands include it; "check first" guidance added.
+- `working/todos.md` — three new entries: MED Track A spot-check; NEW bake-session-results-into-future-prompts; FUTURE session-state.jsonl upgrade.
+- Three commits: `bc19163e4` (Sessions 43-49b, 2587 files), `c54719d40` (Session 50 + convention, 372 files), `4349a62e6` (worklog rotation, 2 files).
+
+**Decisions:** Session-results convention chosen as minimal unlock for watcher friction (per-session file vs shared log vs worklog). Worklog rejected — written too late and conflict-prone for parallel sessions. Per-file is append-by-different-actors, zero merge surface. Session 47 archived to `history/worklog-archives/archive010.md`.
+
+**What's next:**
+- **Stage 4 prose-edge-classifier** — next major track (sequential per Matt). → continue: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`. Pre-flight TODO: bake session-results write step into that prompt before firing.
+- **MED — Track A 60-node spot-check** — partially absorbed by Session 50 audit improvement; residual remains. See `working/todos.md`.
+
+---
+
 ### Session 50 — Orphan Edges Cat 1 Batch: Top-N Recovery (2026-05-12)
 
 **Changes made:**
@@ -252,29 +274,7 @@ This is your project memory. When you come back after a break, read Current Stat
 - **Stage 4 prose-edge-classifier** — next major track. → continue: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`
 - **Per Matt's standing rule, /endsession is NOT auto-run.**
 
-### Session 47 — Case-Collision Promotion + Type Fixes + Protocol Edits (2026-05-12)
-
-**Changes made:**
-- `scripts/promote-case-collision.py` — NEW. Promotion script for 60 case-collision worker outputs → `graph/nodes/`. Handles CREATE (36 new nodes), UPDATE (21 existing stubs), MOVE+UPD (2 type relocations), SKIP (old-gods, already aliased). Applies locked type corrections inline (event.conflict→event.war, event.military-expedition→event.battle, bare `concept`→per-slug overrides, `titles`→`title`).
-- **36 CREATE** — notable new nodes: `small-council` (factions/), `tower-of-joy` (locations/), `ghiscari-wars` (events/, typed event.war not event.conflict), `dothraki-sea` (locations/), `haunted-forest` (locations/), `hammer-of-the-waters` (concepts/), `first-night` (concepts/), `stallion-who-mounts-the-world` (concepts/, typed concept.prophecy), `children-of-the-forest` moved from factions/ to species/.
-- **21 UPDATE** — stubs replaced with worker Identity: `brotherhood-without-banners`, `hedge-knight`, `king-in-the-north`, `master-of-coin`, `warden-of-the-north`, `king-beyond-the-wall`, `master-of-laws`, `master-of-ships`, `master-of-whisperers`, `red-priest`, `red-waste`, `ruby-ford`, `valar-morghulis`, `war-of-the-first-men-and-the-children-of-the-forest`, and others.
-- **2 MOVE+UPD** — `free-folk`: factions/→concepts/, type organization.faction→concept.culture. `children-of-the-forest`: factions/→species/, type organization.faction→species. Both: old files deleted, new files written with worker Identity.
-- **Pre-work cleanups:** `war-of-the-five-kings.node.md` type-fixed event.battle→event.war; `war-of-five-kings.node.md` deleted (empty duplicate, wrong slug); `red-priest` aliases updated to include `red-priestess` + `Red Priestess`; `crossroads-inn.node.md` stub deleted (merged into `inn-at-the-crossroads` aliases).
-- **`small-council` edges** — uncommented MEMBER_OF edges from worker's narrative-evidence comments (petyr-baelish, stannis-baratheon, janos-slynt, daemon-targaryen, corlys-velaryon) + LOCATED_AT: red-keep. Infobox-data.jsonl had no entries (redirect page); reverse-lookup returned 0 results.
-- `reference/architecture.md` — NEW section "Multi-type entities" under Hierarchy Query Rules. Policy: one node per real-world entity, primary type in `type` field, other facets via edges. Examples: Free Folk → concept.culture (faction-ness via edges), Children of the Forest → species (ancient-people-ness via edges).
-- `working/agent-fleet-specs/mission-protocol.md` — NEW section "Choosing execution mode (subagent vs multi-window)" under Roles. Documents the trigger rule: subagent OK when self-contained + stateless + <10 min; multi-window+watcher when TYPE_DIR_MAP awareness, context loading, or drift-potential is high. Notes case-collision-batch-2 as a cautionary example.
-- `working/todos.md` — case-collision HIGH item (60/125 promoted, 65 remaining) → downgraded to LOW (optional Track B, tail slugs, multi-window mission when wanted).
-- Graph total: 7,915 → 7,949 nodes (+34 net).
-
-**Decisions:** All 60 outputs promoted (36 CREATE + 21 UPDATE + 2 MOVE + 1 SKIP). Type corrections applied inline from locked vocab — no new types invented. Multi-type policy ratified: free-folk as concept.culture (not faction), children-of-the-forest as species (not faction). War-of-the-five-kings canonical slug confirmed; empty duplicate deleted. Red-priestess absorbed as alias, not separate node.
-
-**What's next:**
-- **Case-collision tail (65 slugs, optional)** — LOW priority. Track B: Python filter to classify canonical (~15) vs droppable (~50), then multi-window+watcher mission. → continue: `progress/continue-prompts/2026-05-12-case-collision-close.md` (Track B section)
-- **Alias-backfill round 2** — parallel-safe. → continue: `progress/continue-prompts/2026-05-12-alias-backfill-round-2.md`
-- **Stage 4 prose-edge-classifier** — next major track. → continue: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`
-- **Per Matt's standing rule, /endsession is NOT auto-run.**
-
-> Sessions 44-46 archived to `history/worklog-archives/archive010.md`
+> Sessions 44-47 archived to `history/worklog-archives/archive010.md`
 > Sessions 39–43 archived to `history/worklog-archives/archive009.md` (full at 5 entries)
 > Sessions 34–38 archived to `history/worklog-archives/archive008.md` (full at 5 entries)
 > Sessions 30–33 in `history/worklog-archives/archive007.md` (full at 5 entries)
