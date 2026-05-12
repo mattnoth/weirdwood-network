@@ -1,0 +1,16 @@
+{
+  "worker_id": "case-collision-batch-2-stallion-who-mounts-the-world",
+  "started_at": "2026-05-12T17:08:00Z",
+  "completed_at": "2026-05-12T17:09:30Z",
+  "status": "pass",
+  "confidence": 0.94,
+  "source_count": 5,
+  "source_files_consulted": [
+    "graph/nodes/characters/rhaego.node.md",
+    "graph/nodes/characters/drogo.node.md",
+    "graph/nodes/characters/daenerys-targaryen.node.md",
+    "graph/nodes/characters/fogo.node.md",
+    "graph/nodes/characters/jommo.node.md"
+  ],
+  "notes": "Stallion_Who_Mounts_the_World.json is a redirect stub. Rich content from all 5 source nodes. No infobox entry. Prophecy/concept node — no structural infobox edges derivable."
+}

@@ -2,14 +2,14 @@
   "chapter_id": "asos-jon-08",
   "book": "asos",
   "pov_character": "jon",
-  "generated_at": "2026-05-11T22:47:27.389596+00:00",
+  "generated_at": "2026-05-12T18:30:44.951580+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jon-08.extraction.md",
   "stats": {
     "total_mentions": 57,
-    "resolved_to_node": 45,
-    "direct": 40,
-    "alias": 5,
-    "unresolved": 12
+    "resolved_to_node": 47,
+    "direct": 41,
+    "alias": 6,
+    "unresolved": 10
   },
   "mentions": [
     {
@@ -140,10 +140,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Characters Present",
       "line": 41
     },
@@ -438,9 +438,9 @@
     {
       "raw_name": "Frozen Shore",
       "slug": "frozen-shore",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/frozen-shore.node.md",
       "section": "Locations",
       "line": 86
     },

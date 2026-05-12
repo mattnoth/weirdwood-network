@@ -2,14 +2,14 @@
   "chapter_id": "acok-jon-08",
   "book": "acok",
   "pov_character": "jon",
-  "generated_at": "2026-05-11T22:47:27.328338+00:00",
+  "generated_at": "2026-05-12T18:30:44.883612+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-jon-08.extraction.md",
   "stats": {
     "total_mentions": 135,
-    "resolved_to_node": 79,
+    "resolved_to_node": 80,
     "direct": 68,
-    "alias": 11,
-    "unresolved": 56
+    "alias": 12,
+    "unresolved": 55
   },
   "mentions": [
     {
@@ -878,10 +878,10 @@
     },
     {
       "raw_name": "Old Gods (Jon prays to \"his father's gods\")",
-      "slug": "old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 287
     },

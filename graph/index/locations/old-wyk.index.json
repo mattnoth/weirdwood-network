@@ -1,0 +1,317 @@
+{
+  "slug": "old-wyk",
+  "name": "Old Wyk",
+  "type": "place.location",
+  "node_path": "graph/nodes/locations/old-wyk.node.md",
+  "generated_at": "2026-05-11T23:36:05.606015+00:00",
+  "stats": {
+    "appearances_total": 13,
+    "chapters_referenced_in": 11,
+    "chapters_in_raw_list": 2,
+    "out_edge_count": 0,
+    "in_edge_count": 41,
+    "chapters_in_locations_section": 11
+  },
+  "chapters": {
+    "in_locations_section": [
+      {
+        "chapter_id": "acok-theon-01",
+        "book": "acok",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "acok-theon-02",
+        "book": "acok",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "acok-theon-03",
+        "book": "acok",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-jaime-08",
+        "book": "asos",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-the-drowned-man-01",
+        "book": "affc",
+        "pov_character_slug": "aeron-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-the-iron-captain-01",
+        "book": "affc",
+        "pov_character_slug": "victarion-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-the-krakens-daughter-01",
+        "book": "affc",
+        "pov_character_slug": "asha-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-the-prophet-01",
+        "book": "affc",
+        "pov_character_slug": "aeron-greyjoy",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "affc-the-reaver-01",
+        "book": "affc",
+        "pov_character_slug": "victarion-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "adwd-the-wayward-bride-01",
+        "book": "adwd",
+        "pov_character_slug": "asha-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "adwd-victarion-01",
+        "book": "adwd",
+        "pov_character_slug": "victarion-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      }
+    ],
+    "in_raw_list": [
+      {
+        "chapter_id": "acok-theon-01",
+        "book": "acok",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "affc-the-prophet-01",
+        "book": "affc",
+        "pov_character_slug": "aeron-greyjoy",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      }
+    ],
+    "referenced_in": [
+      {
+        "chapter_id": "acok-theon-01",
+        "book": "acok",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "acok-theon-02",
+        "book": "acok",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "acok-theon-03",
+        "book": "acok",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-jaime-08",
+        "book": "asos",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-the-drowned-man-01",
+        "book": "affc",
+        "pov_character_slug": "aeron-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-the-iron-captain-01",
+        "book": "affc",
+        "pov_character_slug": "victarion-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-the-krakens-daughter-01",
+        "book": "affc",
+        "pov_character_slug": "asha-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-the-prophet-01",
+        "book": "affc",
+        "pov_character_slug": "aeron-greyjoy",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "affc-the-reaver-01",
+        "book": "affc",
+        "pov_character_slug": "victarion-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "adwd-the-wayward-bride-01",
+        "book": "adwd",
+        "pov_character_slug": "asha-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "adwd-victarion-01",
+        "book": "adwd",
+        "pov_character_slug": "victarion-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "worker_id": "case-collision-batch-2-rock-king",
+  "started_at": "2026-05-12T17:03:30Z",
+  "completed_at": "2026-05-12T17:03:50Z",
+  "status": "pass",
+  "confidence": 0.9,
+  "source_count": 6,
+  "source_files_consulted": [
+    "graph/nodes/characters/galon-whitestaff.node.md",
+    "graph/nodes/characters/regnar-drumm.node.md",
+    "graph/nodes/characters/urras-greyiron.node.md",
+    "graph/nodes/characters/urron-greyiron.node.md",
+    "graph/nodes/locations/iron-islands.node.md",
+    "graph/nodes/factions/ironborn.node.md"
+  ],
+  "notes": "All 6 sources matched. Strong evidence. Two infobox reverse hits (Regnar Drumm HOLDS_TITLE Rock king; House Drumm HOLDS_TITLE Rock king historical). Type: title — rock-king is a formal governance office."
+}

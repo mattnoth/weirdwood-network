@@ -1,0 +1,15 @@
+{
+  "worker_id": "case-collision-batch-2-war-of-the-first-men-and-the-children-of-the-forest",
+  "started_at": "2026-05-12T17:04:30Z",
+  "completed_at": "2026-05-12T17:04:55Z",
+  "status": "pass",
+  "confidence": 0.9,
+  "source_count": 4,
+  "source_files_consulted": [
+    "graph/nodes/events/coming-of-the-andals.node.md",
+    "graph/nodes/locations/dorne.node.md",
+    "graph/nodes/locations/stormlands.node.md",
+    "graph/nodes/factions/first-men.node.md"
+  ],
+  "notes": "All 4 sources matched. Strong convergent evidence from multiple nodes. No direct infobox entry. Type: event.war — this is a named multi-generational conflict with distinct belligerents and a formal resolution (the Pact)."
+}

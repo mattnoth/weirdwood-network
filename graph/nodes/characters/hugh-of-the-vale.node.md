@@ -2,7 +2,7 @@
 name: "Hugh of the Vale"
 type: character.human
 slug: hugh-of-the-vale
-aliases: []
+aliases: ["hugh"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Hugh_of_the_Vale"
 bucket_id: characters-house-arryn

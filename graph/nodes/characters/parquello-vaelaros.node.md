@@ -2,7 +2,7 @@
 name: "Parquello Vaelaros"
 type: character.human
 slug: parquello-vaelaros
-aliases: []
+aliases: ["parquello"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Parquello_Vaelaros"
 bucket_id: characters-other-o-p

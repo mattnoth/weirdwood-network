@@ -2,14 +2,14 @@
   "chapter_id": "affc-cersei-02",
   "book": "affc",
   "pov_character": "cersei",
-  "generated_at": "2026-05-11T22:47:27.420597+00:00",
+  "generated_at": "2026-05-12T18:30:44.987043+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-cersei-02.extraction.md",
   "stats": {
     "total_mentions": 116,
-    "resolved_to_node": 80,
-    "direct": 78,
-    "alias": 2,
-    "unresolved": 36
+    "resolved_to_node": 84,
+    "direct": 81,
+    "alias": 3,
+    "unresolved": 32
   },
   "mentions": [
     {
@@ -798,9 +798,9 @@
     {
       "raw_name": "Black cells",
       "slug": "black-cells",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/black-cells.node.md",
       "section": "Locations",
       "line": 126
     },
@@ -851,19 +851,19 @@
     },
     {
       "raw_name": "The Vale",
-      "slug": "the-vale",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "vale-of-arryn",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
       "section": "Locations",
       "line": 132
     },
     {
       "raw_name": "Flea Bottom",
       "slug": "flea-bottom",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/flea-bottom.node.md",
       "section": "Locations",
       "line": 133
     },
@@ -924,9 +924,9 @@
     {
       "raw_name": "Narrow sea",
       "slug": "narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Locations",
       "line": 140
     },

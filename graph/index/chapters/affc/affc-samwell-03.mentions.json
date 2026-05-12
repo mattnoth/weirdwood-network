@@ -2,14 +2,14 @@
   "chapter_id": "affc-samwell-03",
   "book": "affc",
   "pov_character": "samwell",
-  "generated_at": "2026-05-11T22:47:27.436278+00:00",
+  "generated_at": "2026-05-12T18:30:45.007761+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-samwell-03.extraction.md",
   "stats": {
     "total_mentions": 167,
-    "resolved_to_node": 91,
-    "direct": 89,
-    "alias": 2,
-    "unresolved": 76
+    "resolved_to_node": 98,
+    "direct": 90,
+    "alias": 8,
+    "unresolved": 69
   },
   "mentions": [
     {
@@ -32,10 +32,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Characters Present",
       "line": 29
     },
@@ -122,10 +122,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Character Appearances",
       "line": 43
     },
@@ -635,10 +635,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Raw Entity List > Characters",
       "line": 267
     },
@@ -1112,10 +1112,10 @@
     },
     {
       "raw_name": "The narrow sea",
-      "slug": "the-narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "narrow-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Raw Entity List > Locations",
       "line": 322
     },
@@ -1184,10 +1184,10 @@
     },
     {
       "raw_name": "The bravos (sword-fighting culture of Braavos)",
-      "slug": "the-bravos",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "bravo",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bravo.node.md",
       "section": "Raw Entity List > Factions & Organizations",
       "line": 334
     },
@@ -1454,10 +1454,10 @@
     },
     {
       "raw_name": "Sealord (of Braavos — referenced via palace and a statue)",
-      "slug": "sealord",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "sealord-of-braavos",
+      "resolved_via": "alias",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/sealord-of-braavos.node.md",
       "section": "Raw Entity List > Titles & Offices",
       "line": 379
     },
@@ -1500,9 +1500,9 @@
     {
       "raw_name": "Cinnamon Wind (Xhondo's ship)",
       "slug": "cinnamon-wind",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/cinnamon-wind.node.md",
       "section": "Raw Entity List > Other",
       "line": 386
     },

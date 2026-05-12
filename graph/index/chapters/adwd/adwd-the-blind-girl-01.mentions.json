@@ -2,14 +2,14 @@
   "chapter_id": "adwd-the-blind-girl-01",
   "book": "adwd",
   "pov_character": "the-blind-girl",
-  "generated_at": "2026-05-11T22:47:27.478642+00:00",
+  "generated_at": "2026-05-12T18:30:45.057011+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-the-blind-girl-01.extraction.md",
   "stats": {
     "total_mentions": 187,
-    "resolved_to_node": 94,
-    "direct": 90,
-    "alias": 4,
-    "unresolved": 93
+    "resolved_to_node": 103,
+    "direct": 94,
+    "alias": 9,
+    "unresolved": 84
   },
   "mentions": [
     {
@@ -23,10 +23,10 @@
     },
     {
       "raw_name": "The kindly man",
-      "slug": "the-kindly-man",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "kindly-man",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/kindly-man.node.md",
       "section": "Characters Present",
       "line": 28
     },
@@ -95,10 +95,10 @@
     },
     {
       "raw_name": "The kindly man",
-      "slug": "the-kindly-man",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "kindly-man",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/kindly-man.node.md",
       "section": "Character Appearances",
       "line": 40
     },
@@ -158,10 +158,10 @@
     },
     {
       "raw_name": "Bravos (pair)",
-      "slug": "bravos",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "bravo",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/bravo.node.md",
       "section": "Character Appearances",
       "line": 47
     },
@@ -501,9 +501,9 @@
     {
       "raw_name": "Satin Palace",
       "slug": "satin-palace",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/satin-palace.node.md",
       "section": "Locations",
       "line": 93
     },
@@ -554,10 +554,10 @@
     },
     {
       "raw_name": "The red temple (Braavos)",
-      "slug": "the-red-temple",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "red-temple",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-temple.node.md",
       "section": "Locations",
       "line": 99
     },
@@ -734,10 +734,10 @@
     },
     {
       "raw_name": "The kindly man",
-      "slug": "the-kindly-man",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "kindly-man",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/kindly-man.node.md",
       "section": "Raw Entity List > Characters",
       "line": 262
     },
@@ -1122,9 +1122,9 @@
     {
       "raw_name": "Satin Palace",
       "slug": "satin-palace",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/satin-palace.node.md",
       "section": "Raw Entity List > Locations",
       "line": 307
     },
@@ -1175,10 +1175,10 @@
     },
     {
       "raw_name": "The red temple (Braavos)",
-      "slug": "the-red-temple",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "red-temple",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-temple.node.md",
       "section": "Raw Entity List > Locations",
       "line": 313
     },
@@ -1292,10 +1292,10 @@
     },
     {
       "raw_name": "The Ship (mummers' venue)",
-      "slug": "the-ship",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "ship-playhouse",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/ship-playhouse.node.md",
       "section": "Raw Entity List > Locations",
       "line": 326
     },

@@ -2,14 +2,14 @@
   "chapter_id": "agot-daenerys-08",
   "book": "agot",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-11T22:47:27.273980+00:00",
+  "generated_at": "2026-05-12T18:30:44.821898+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-daenerys-08.extraction.md",
   "stats": {
     "total_mentions": 47,
-    "resolved_to_node": 33,
-    "direct": 32,
+    "resolved_to_node": 36,
+    "direct": 35,
     "alias": 1,
-    "unresolved": 14
+    "unresolved": 11
   },
   "mentions": [
     {
@@ -294,9 +294,9 @@
     {
       "raw_name": "Dothraki sea (open grassland)",
       "slug": "dothraki-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dothraki-sea.node.md",
       "section": "Locations",
       "line": 70
     },
@@ -338,10 +338,10 @@
     },
     {
       "raw_name": "The night lands",
-      "slug": "the-night-lands",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "night-lands",
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/night-lands.node.md",
       "section": "Locations",
       "line": 75
     },
@@ -366,9 +366,9 @@
     {
       "raw_name": "Dothraki sea (march route)",
       "slug": "dothraki-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dothraki-sea.node.md",
       "section": "Location Descriptions",
       "line": 82
     },

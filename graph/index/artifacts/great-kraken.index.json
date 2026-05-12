@@ -1,0 +1,110 @@
+{
+  "slug": "great-kraken",
+  "name": "Great Kraken",
+  "type": "object.artifact",
+  "node_path": "graph/nodes/artifacts/great-kraken.node.md",
+  "generated_at": "2026-05-11T23:36:15.796155+00:00",
+  "stats": {
+    "appearances_total": 4,
+    "chapters_referenced_in": 3,
+    "chapters_in_raw_list": 1,
+    "out_edge_count": 0,
+    "in_edge_count": 0,
+    "chapters_in_artifacts_section": 3
+  },
+  "chapters": {
+    "in_artifacts_section": [
+      {
+        "chapter_id": "acok-theon-01",
+        "book": "acok",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 2,
+        "sections": [
+          "Artifacts & Objects of Significance",
+          "Raw Entity List > Artifacts & Objects"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "acok-theon-02",
+        "book": "acok",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-cersei-07",
+        "book": "affc",
+        "pov_character_slug": "cersei-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      }
+    ],
+    "in_raw_list": [
+      {
+        "chapter_id": "acok-theon-01",
+        "book": "acok",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 2,
+        "sections": [
+          "Artifacts & Objects of Significance",
+          "Raw Entity List > Artifacts & Objects"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      }
+    ],
+    "referenced_in": [
+      {
+        "chapter_id": "acok-theon-01",
+        "book": "acok",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 2,
+        "sections": [
+          "Artifacts & Objects of Significance",
+          "Raw Entity List > Artifacts & Objects"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "acok-theon-02",
+        "book": "acok",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-cersei-07",
+        "book": "affc",
+        "pov_character_slug": "cersei-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      }
+    ]
+  }
+}

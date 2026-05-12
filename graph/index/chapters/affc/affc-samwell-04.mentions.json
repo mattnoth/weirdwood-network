@@ -2,14 +2,14 @@
   "chapter_id": "affc-samwell-04",
   "book": "affc",
   "pov_character": "samwell",
-  "generated_at": "2026-05-11T22:47:27.437235+00:00",
+  "generated_at": "2026-05-12T18:30:45.008890+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-samwell-04.extraction.md",
   "stats": {
     "total_mentions": 160,
-    "resolved_to_node": 88,
-    "direct": 80,
-    "alias": 8,
-    "unresolved": 72
+    "resolved_to_node": 98,
+    "direct": 85,
+    "alias": 13,
+    "unresolved": 62
   },
   "mentions": [
     {
@@ -68,10 +68,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Characters Present",
       "line": 33
     },
@@ -113,10 +113,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Character Appearances",
       "line": 42
     },
@@ -303,9 +303,9 @@
     {
       "raw_name": "Cinnamon Wind (ship)",
       "slug": "cinnamon-wind",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/cinnamon-wind.node.md",
       "section": "Locations",
       "line": 71
     },
@@ -483,9 +483,9 @@
     {
       "raw_name": "Cinnamon Wind",
       "slug": "cinnamon-wind",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/cinnamon-wind.node.md",
       "section": "Location Descriptions",
       "line": 95
     },
@@ -617,10 +617,10 @@
     },
     {
       "raw_name": "Maester Aemon (Aemon Targaryen)",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Raw Entity List > Characters",
       "line": 255
     },
@@ -861,9 +861,9 @@
     {
       "raw_name": "Cinnamon Wind (ship)",
       "slug": "cinnamon-wind",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/cinnamon-wind.node.md",
       "section": "Raw Entity List > Locations",
       "line": 284
     },
@@ -1085,10 +1085,10 @@
     },
     {
       "raw_name": "Old Gods (heart tree referenced in context of Sam's vows)",
-      "slug": "old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 315
     },
@@ -1148,10 +1148,10 @@
     },
     {
       "raw_name": "Targaryens (funeral customs — giving their dead to flames)",
-      "slug": "targaryens",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "house-targaryen",
+      "resolved_via": "alias",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-targaryen.node.md",
       "section": "Raw Entity List > Cultures & Peoples",
       "line": 324
     },
@@ -1284,9 +1284,9 @@
     {
       "raw_name": "The prince that was promised (prophecy — Aemon discusses at length)",
       "slug": "the-prince-that-was-promised",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept.prophecy",
+      "node_path": "graph/nodes/prophecies/the-prince-that-was-promised.node.md",
       "section": "Raw Entity List > Magic & Phenomena",
       "line": 345
     },
@@ -1446,9 +1446,9 @@
     {
       "raw_name": "Sworn Brother (of the Night's Watch)",
       "slug": "sworn-brother",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/sworn-brother.node.md",
       "section": "Raw Entity List > Titles & Offices",
       "line": 367
     }

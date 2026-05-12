@@ -2,14 +2,14 @@
   "chapter_id": "adwd-tyrion-07",
   "book": "adwd",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-11T22:47:27.502245+00:00",
+  "generated_at": "2026-05-12T18:30:45.082906+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-tyrion-07.extraction.md",
   "stats": {
     "total_mentions": 80,
-    "resolved_to_node": 57,
+    "resolved_to_node": 62,
     "direct": 51,
-    "alias": 6,
-    "unresolved": 23
+    "alias": 11,
+    "unresolved": 18
   },
   "mentions": [
     {
@@ -329,37 +329,37 @@
     },
     {
       "raw_name": "Malaquo",
-      "slug": "malaquo",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "malaquo-maegyr",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/malaquo-maegyr.node.md",
       "section": "Characters Referenced",
       "line": 70
     },
     {
       "raw_name": "Nyessos",
-      "slug": "nyessos",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "nyessos-vhassar",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/nyessos-vhassar.node.md",
       "section": "Characters Referenced",
       "line": 71
     },
     {
       "raw_name": "Alios",
-      "slug": "alios",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "alios-qhaedar",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/alios-qhaedar.node.md",
       "section": "Characters Referenced",
       "line": 72
     },
     {
       "raw_name": "Parquello",
-      "slug": "parquello",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "parquello-vaelaros",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/parquello-vaelaros.node.md",
       "section": "Characters Referenced",
       "line": 73
     },
@@ -374,10 +374,10 @@
     },
     {
       "raw_name": "Doniphos",
-      "slug": "doniphos",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "doniphos-paenymion",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/doniphos-paenymion.node.md",
       "section": "Characters Referenced",
       "line": 75
     },

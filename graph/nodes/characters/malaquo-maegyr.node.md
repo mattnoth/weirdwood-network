@@ -2,7 +2,7 @@
 name: "Malaquo Maegyr"
 type: character.human
 slug: malaquo-maegyr
-aliases: []
+aliases: ["malaquo"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Malaquo_Maegyr"
 bucket_id: characters-other-l-m

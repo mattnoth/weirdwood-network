@@ -2,14 +2,14 @@
   "chapter_id": "acok-tyrion-07",
   "book": "acok",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-11T22:47:27.343999+00:00",
+  "generated_at": "2026-05-12T18:30:44.900960+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-tyrion-07.extraction.md",
   "stats": {
     "total_mentions": 58,
-    "resolved_to_node": 38,
-    "direct": 36,
+    "resolved_to_node": 41,
+    "direct": 39,
     "alias": 2,
-    "unresolved": 20
+    "unresolved": 17
   },
   "mentions": [
     {
@@ -375,9 +375,9 @@
     {
       "raw_name": "Chataya's brothel",
       "slug": "chatayas-brothel",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/chatayas-brothel.node.md",
       "section": "Locations",
       "line": 79
     },
@@ -402,9 +402,9 @@
     {
       "raw_name": "Black cells",
       "slug": "black-cells",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/black-cells.node.md",
       "section": "Locations",
       "line": 82
     },
@@ -447,9 +447,9 @@
     {
       "raw_name": "Chataya's brothel",
       "slug": "chatayas-brothel",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/chatayas-brothel.node.md",
       "section": "Location Descriptions",
       "line": 91
     },

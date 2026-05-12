@@ -2,14 +2,14 @@
   "chapter_id": "agot-jon-04",
   "book": "agot",
   "pov_character": "jon",
-  "generated_at": "2026-05-11T22:47:27.284261+00:00",
+  "generated_at": "2026-05-12T18:30:44.834767+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-jon-04.extraction.md",
   "stats": {
     "total_mentions": 62,
-    "resolved_to_node": 53,
+    "resolved_to_node": 54,
     "direct": 48,
-    "alias": 5,
-    "unresolved": 9
+    "alias": 6,
+    "unresolved": 8
   },
   "mentions": [
     {
@@ -311,10 +311,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Characters Referenced",
       "line": 68
     },

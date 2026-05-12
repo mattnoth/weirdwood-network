@@ -2,14 +2,14 @@
   "chapter_id": "acok-catelyn-03",
   "book": "acok",
   "pov_character": "catelyn",
-  "generated_at": "2026-05-11T22:47:27.311423+00:00",
+  "generated_at": "2026-05-12T18:30:44.864573+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-catelyn-03.extraction.md",
   "stats": {
     "total_mentions": 227,
-    "resolved_to_node": 158,
+    "resolved_to_node": 163,
     "direct": 151,
-    "alias": 7,
-    "unresolved": 69
+    "alias": 12,
+    "unresolved": 64
   },
   "mentions": [
     {
@@ -644,10 +644,10 @@
     },
     {
       "raw_name": "The Vale",
-      "slug": "the-vale",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "vale-of-arryn",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
       "section": "Locations",
       "line": 109
     },
@@ -662,10 +662,10 @@
     },
     {
       "raw_name": "The narrow sea",
-      "slug": "the-narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "narrow-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Locations",
       "line": 111
     },
@@ -1409,10 +1409,10 @@
     },
     {
       "raw_name": "The narrow sea",
-      "slug": "the-narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "narrow-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Raw Entity List > Locations",
       "line": 355
     },
@@ -1427,10 +1427,10 @@
     },
     {
       "raw_name": "The Vale",
-      "slug": "the-vale",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "vale-of-arryn",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
       "section": "Raw Entity List > Locations",
       "line": 357
     },
@@ -1742,10 +1742,10 @@
     },
     {
       "raw_name": "Old Gods (implied — Catelyn prays to \"gods\")",
-      "slug": "old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 398
     },
@@ -1753,8 +1753,8 @@
       "raw_name": "Children of the forest (legendary — some say they helped Durran build Storm's End)",
       "slug": "children-of-the-forest",
       "resolved_via": "direct",
-      "node_type": "organization.faction",
-      "node_path": "graph/nodes/factions/children-of-the-forest.node.md",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/children-of-the-forest.node.md",
       "section": "Raw Entity List > Cultures & Peoples",
       "line": 401
     },

@@ -5,6 +5,7 @@ slug: aemon-targaryen-son-of-viserys-ii
 aliases:
   - "The Dragonknight"
   - "The Knight of Tears"
+  - "Prince Aemon the Dragonknight"
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aemon_Targaryen_(son_of_Viserys_II)"
 bucket_id: characters-house-targaryen-a

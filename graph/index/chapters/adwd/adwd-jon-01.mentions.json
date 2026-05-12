@@ -2,14 +2,14 @@
   "chapter_id": "adwd-jon-01",
   "book": "adwd",
   "pov_character": "jon",
-  "generated_at": "2026-05-11T22:47:27.464652+00:00",
+  "generated_at": "2026-05-12T18:30:45.041932+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-jon-01.extraction.md",
   "stats": {
     "total_mentions": 107,
-    "resolved_to_node": 85,
-    "direct": 78,
-    "alias": 7,
-    "unresolved": 22
+    "resolved_to_node": 88,
+    "direct": 79,
+    "alias": 9,
+    "unresolved": 19
   },
   "mentions": [
     {
@@ -302,10 +302,10 @@
     },
     {
       "raw_name": "Hobb",
-      "slug": "hobb",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "three-finger-hobb",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/three-finger-hobb.node.md",
       "section": "Characters Referenced",
       "line": 67
     },
@@ -320,10 +320,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Characters Referenced",
       "line": 69
     },
@@ -591,9 +591,9 @@
     {
       "raw_name": "Queen's men (group)",
       "slug": "queens-men",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/queens-men.node.md",
       "section": "Characters Referenced",
       "line": 99
     },

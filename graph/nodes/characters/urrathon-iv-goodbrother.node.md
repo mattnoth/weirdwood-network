@@ -2,7 +2,7 @@
 name: "Urrathon IV Goodbrother"
 type: character.human
 slug: urrathon-iv-goodbrother
-aliases: ["Badbrother"]
+aliases: ["Badbrother", "urragon-goodbrother"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Urrathon_IV_Goodbrother"
 bucket_id: tier3-pathb-characters

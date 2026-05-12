@@ -1,0 +1,15 @@
+{
+  "worker_id": "case-collision-batch-2-pit-fighters",
+  "started_at": "2026-05-12T17:26:30Z",
+  "completed_at": "2026-05-12T17:27:30Z",
+  "status": "pass",
+  "confidence": 0.93,
+  "source_count": 4,
+  "source_files_consulted": [
+    "graph/nodes/characters/hizdahr-zo-loraq.node.md",
+    "graph/nodes/events/barristan-i-the-winds-of-winter.node.md",
+    "graph/nodes/characters/skahaz-mo-kandaq.node.md",
+    "graph/nodes/characters/camarron-of-the-count.node.md"
+  ],
+  "notes": "Both Pit_fighter.json and Pit_Fighters.json are redirect stubs. Daenerys-targaryen node had no direct pit-fighter text to surface. Rich content from 4 source nodes. No infobox entry. Concept (social/occupational class) node — no structural infobox edges derivable."
+}

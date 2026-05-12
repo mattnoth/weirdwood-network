@@ -2,14 +2,14 @@
   "chapter_id": "asos-jon-03",
   "book": "asos",
   "pov_character": "jon",
-  "generated_at": "2026-05-11T22:47:27.386736+00:00",
+  "generated_at": "2026-05-12T18:30:44.948410+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jon-03.extraction.md",
   "stats": {
     "total_mentions": 155,
-    "resolved_to_node": 100,
-    "direct": 94,
-    "alias": 6,
-    "unresolved": 55
+    "resolved_to_node": 105,
+    "direct": 96,
+    "alias": 9,
+    "unresolved": 50
   },
   "mentions": [
     {
@@ -275,10 +275,10 @@
     },
     {
       "raw_name": "Harma",
-      "slug": "harma",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "harma-dogshead",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/harma-dogshead.node.md",
       "section": "Characters Referenced",
       "line": 64
     },
@@ -761,10 +761,10 @@
     },
     {
       "raw_name": "Harma",
-      "slug": "harma",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "harma-dogshead",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/harma-dogshead.node.md",
       "section": "Raw Entity List > Characters",
       "line": 261
     },
@@ -1103,10 +1103,10 @@
     },
     {
       "raw_name": "The weirwood grove (where Jon said his vows — nine great white trees in a circle)",
-      "slug": "the-weirwood-grove",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "weirwood-grove",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/weirwood-grove.node.md",
       "section": "Raw Entity List > Locations",
       "line": 301
     },
@@ -1184,10 +1184,10 @@
     },
     {
       "raw_name": "Old Gods (the weirwood grove where Jon swore his vows; nine great white trees with carved red faces)",
-      "slug": "old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 316
     },
@@ -1347,9 +1347,9 @@
     {
       "raw_name": "Spearwife (Ygritte identifies herself as one)",
       "slug": "spearwife",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/spearwife.node.md",
       "section": "Raw Entity List > Titles & Offices",
       "line": 346
     },

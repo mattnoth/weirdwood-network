@@ -2,14 +2,14 @@
   "chapter_id": "adwd-davos-04",
   "book": "adwd",
   "pov_character": "davos",
-  "generated_at": "2026-05-11T22:47:27.462354+00:00",
+  "generated_at": "2026-05-12T18:30:45.039298+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-davos-04.extraction.md",
   "stats": {
     "total_mentions": 257,
-    "resolved_to_node": 167,
-    "direct": 163,
-    "alias": 4,
-    "unresolved": 90
+    "resolved_to_node": 182,
+    "direct": 172,
+    "alias": 10,
+    "unresolved": 75
   },
   "mentions": [
     {
@@ -437,10 +437,10 @@
     },
     {
       "raw_name": "Prince Aemon the Dragonknight",
-      "slug": "prince-aemon-the-dragonknight",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-viserys-ii",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-viserys-ii.node.md",
       "section": "Characters Referenced",
       "line": 82
     },
@@ -528,9 +528,9 @@
     {
       "raw_name": "Castle Stair",
       "slug": "castle-stair",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/castle-stair.node.md",
       "section": "Locations",
       "line": 96
     },
@@ -609,9 +609,9 @@
     {
       "raw_name": "Flea Bottom",
       "slug": "flea-bottom",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/flea-bottom.node.md",
       "section": "Locations",
       "line": 105
     },
@@ -752,19 +752,19 @@
     },
     {
       "raw_name": "The godswood (Wolf's Den)",
-      "slug": "the-godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "godswood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Locations",
       "line": 121
     },
     {
       "raw_name": "Narrow sea",
       "slug": "narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Locations",
       "line": 122
     },
@@ -833,10 +833,10 @@
     },
     {
       "raw_name": "The Whore",
-      "slug": "the-whore",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "whore-weapon",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/whore-weapon.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 138
     },
@@ -1283,10 +1283,10 @@
     },
     {
       "raw_name": "Prince Aemon the Dragonknight (referenced as exemplar)",
-      "slug": "prince-aemon-the-dragonknight",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-viserys-ii",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-viserys-ii.node.md",
       "section": "Raw Entity List > Characters",
       "line": 377
     },
@@ -1383,9 +1383,9 @@
     {
       "raw_name": "Castle Stair (connecting lower and upper White Harbor)",
       "slug": "castle-stair",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/castle-stair.node.md",
       "section": "Raw Entity List > Locations",
       "line": 390
     },
@@ -1464,9 +1464,9 @@
     {
       "raw_name": "Flea Bottom",
       "slug": "flea-bottom",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/flea-bottom.node.md",
       "section": "Raw Entity List > Locations",
       "line": 399
     },
@@ -1607,28 +1607,28 @@
     },
     {
       "raw_name": "The narrow sea",
-      "slug": "the-narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "narrow-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Raw Entity List > Locations",
       "line": 415
     },
     {
       "raw_name": "The godswood (Wolf's Den)",
-      "slug": "the-godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "godswood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Raw Entity List > Locations",
       "line": 416
     },
     {
       "raw_name": "The godswood (Winterfell, in Wex's account)",
-      "slug": "the-godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "godswood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Raw Entity List > Locations",
       "line": 417
     },
@@ -1841,10 +1841,10 @@
     },
     {
       "raw_name": "Old Gods (Ser Bartimus's faith; heart trees; blood sacrifice — entrails hung in branches; \"Your Seven don't know winter\")",
-      "slug": "old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 447
     },
@@ -1913,10 +1913,10 @@
     },
     {
       "raw_name": "The Whore (Garth's cold black iron torture rod)",
-      "slug": "the-whore",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "whore-weapon",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/whore-weapon.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 459
     },
@@ -2301,9 +2301,9 @@
     {
       "raw_name": "Cannibalism (implied at the destination where Davos must go — \"men were known to break their fast on human flesh\")",
       "slug": "cannibalism",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/cannibalism.node.md",
       "section": "Raw Entity List > Other",
       "line": 512
     },

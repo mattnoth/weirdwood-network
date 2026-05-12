@@ -2,14 +2,14 @@
   "chapter_id": "acok-arya-07",
   "book": "acok",
   "pov_character": "arya",
-  "generated_at": "2026-05-11T22:47:27.301269+00:00",
+  "generated_at": "2026-05-12T18:30:44.853296+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-arya-07.extraction.md",
   "stats": {
     "total_mentions": 100,
-    "resolved_to_node": 81,
-    "direct": 76,
+    "resolved_to_node": 83,
+    "direct": 78,
     "alias": 5,
-    "unresolved": 19
+    "unresolved": 17
   },
   "mentions": [
     {
@@ -177,9 +177,9 @@
     {
       "raw_name": "Silent sisters (three)",
       "slug": "silent-sisters",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/silent-sisters.node.md",
       "section": "Characters Present",
       "line": 45
     },
@@ -708,9 +708,9 @@
     {
       "raw_name": "Godswood (Harrenhal)",
       "slug": "godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Locations",
       "line": 116
     },

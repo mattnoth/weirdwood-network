@@ -2,14 +2,14 @@
   "chapter_id": "acok-davos-03",
   "book": "acok",
   "pov_character": "davos",
-  "generated_at": "2026-05-11T22:47:27.323201+00:00",
+  "generated_at": "2026-05-12T18:30:44.877271+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-davos-03.extraction.md",
   "stats": {
     "total_mentions": 127,
-    "resolved_to_node": 92,
-    "direct": 91,
-    "alias": 1,
-    "unresolved": 35
+    "resolved_to_node": 96,
+    "direct": 94,
+    "alias": 2,
+    "unresolved": 31
   },
   "mentions": [
     {
@@ -357,9 +357,9 @@
     {
       "raw_name": "Flea Bottom",
       "slug": "flea-bottom",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/flea-bottom.node.md",
       "section": "Locations",
       "line": 77
     },
@@ -690,9 +690,9 @@
     {
       "raw_name": "Flea Bottom",
       "slug": "flea-bottom",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/flea-bottom.node.md",
       "section": "Raw Entity List > Locations",
       "line": 235
     },
@@ -770,10 +770,10 @@
     },
     {
       "raw_name": "The Narrow Sea",
-      "slug": "the-narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "narrow-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Raw Entity List > Locations",
       "line": 244
     },
@@ -888,9 +888,9 @@
     {
       "raw_name": "Queen's men (dissented about leaving Melisandre behind)",
       "slug": "queens-men",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/queens-men.node.md",
       "section": "Raw Entity List > Factions & Organizations",
       "line": 261
     },

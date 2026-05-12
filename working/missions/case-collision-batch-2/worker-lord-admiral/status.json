@@ -1,0 +1,16 @@
+{
+  "worker_id": "case-collision-batch-2-lord-admiral",
+  "started_at": "2026-05-12T17:16:00Z",
+  "completed_at": "2026-05-12T17:17:30Z",
+  "status": "pass",
+  "confidence": 0.91,
+  "source_count": 5,
+  "source_files_consulted": [
+    "graph/nodes/characters/paxter-redwyne.node.md",
+    "graph/nodes/characters/arthur-goodbrother.node.md",
+    "graph/nodes/characters/gedmund-peake.node.md",
+    "graph/nodes/characters/manfryd-redwyne.node.md",
+    "graph/nodes/characters/osmund-strong.node.md"
+  ],
+  "notes": "Lord_Admiral.json is a redirect stub. Existing node at graph/nodes/titles/lord-admiral.node.md is a bare stub. Rich HOLDS_TITLE edges found across all 5 source nodes. No formal infobox edges derivable from the title node itself — title nodes don't have infobox fields in the standard mapping."
+}

@@ -2,14 +2,14 @@
   "chapter_id": "acok-arya-06",
   "book": "acok",
   "pov_character": "arya",
-  "generated_at": "2026-05-11T22:47:27.300556+00:00",
+  "generated_at": "2026-05-12T18:30:44.852380+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-arya-06.extraction.md",
   "stats": {
     "total_mentions": 155,
-    "resolved_to_node": 88,
-    "direct": 77,
-    "alias": 11,
-    "unresolved": 67
+    "resolved_to_node": 91,
+    "direct": 79,
+    "alias": 12,
+    "unresolved": 64
   },
   "mentions": [
     {
@@ -132,9 +132,9 @@
     {
       "raw_name": "All-for-Joffrey (unnamed old man)",
       "slug": "all-for-joffrey",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/all-for-joffrey.node.md",
       "section": "Characters Present",
       "line": 40
     },
@@ -771,9 +771,9 @@
     {
       "raw_name": "All-for-Joffrey (unnamed old prisoner)",
       "slug": "all-for-joffrey",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/all-for-joffrey.node.md",
       "section": "Raw Entity List > Characters",
       "line": 263
     },
@@ -1175,10 +1175,10 @@
     },
     {
       "raw_name": "Old Gods (Arya prayed with her father in the godswood)",
-      "slug": "old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 316
     },

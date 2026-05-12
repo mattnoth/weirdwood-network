@@ -2,14 +2,14 @@
   "chapter_id": "adwd-reek-02",
   "book": "adwd",
   "pov_character": "reek",
-  "generated_at": "2026-05-11T22:47:27.476711+00:00",
+  "generated_at": "2026-05-12T18:30:45.054862+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-reek-02.extraction.md",
   "stats": {
     "total_mentions": 202,
-    "resolved_to_node": 126,
-    "direct": 116,
-    "alias": 10,
-    "unresolved": 76
+    "resolved_to_node": 130,
+    "direct": 119,
+    "alias": 11,
+    "unresolved": 72
   },
   "mentions": [
     {
@@ -1508,10 +1508,10 @@
     },
     {
       "raw_name": "Freys (as a military-cultural bloc)",
-      "slug": "freys",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "house-frey",
+      "resolved_via": "alias",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-frey.node.md",
       "section": "Raw Entity List > Cultures & Peoples",
       "line": 381
     },
@@ -1697,10 +1697,10 @@
     },
     {
       "raw_name": "The hammer of the waters (legend referenced — children of the forest called it down at the Children's Tower to break the lands of Westeros in two)",
-      "slug": "the-hammer-of-the-waters",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "hammer-of-the-waters",
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/hammer-of-the-waters.node.md",
       "section": "Raw Entity List > Magic & Phenomena",
       "line": 409
     },
@@ -1724,10 +1724,10 @@
     },
     {
       "raw_name": "The kingsmoot (referenced — crowned Euron over Victarion)",
-      "slug": "the-kingsmoot",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "kingsmoot",
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/kingsmoot.node.md",
       "section": "Raw Entity List > Wars & Conflicts",
       "line": 414
     },
@@ -1789,8 +1789,8 @@
       "raw_name": "Children of the forest (referenced in legend — called down the hammer of the waters at Moat Cailin)",
       "slug": "children-of-the-forest",
       "resolved_via": "direct",
-      "node_type": "organization.faction",
-      "node_path": "graph/nodes/factions/children-of-the-forest.node.md",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/children-of-the-forest.node.md",
       "section": "Raw Entity List > Other",
       "line": 425
     },
@@ -1824,9 +1824,9 @@
     {
       "raw_name": "Kingsmoot (ironborn custom for choosing a king)",
       "slug": "kingsmoot",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/kingsmoot.node.md",
       "section": "Raw Entity List > Other",
       "line": 429
     }

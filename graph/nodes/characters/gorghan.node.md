@@ -2,7 +2,7 @@
 name: "Gorghan"
 type: character.human
 slug: gorghan
-aliases: []
+aliases: ["gorghan-of-old-ghis"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Gorghan"
 bucket_id: characters-other-g

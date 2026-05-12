@@ -2,14 +2,14 @@
   "chapter_id": "adwd-tyrion-01",
   "book": "adwd",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-11T22:47:27.495645+00:00",
+  "generated_at": "2026-05-12T18:30:45.076006+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-tyrion-01.extraction.md",
   "stats": {
     "total_mentions": 179,
-    "resolved_to_node": 104,
+    "resolved_to_node": 106,
     "direct": 102,
-    "alias": 2,
-    "unresolved": 75
+    "alias": 4,
+    "unresolved": 73
   },
   "mentions": [
     {
@@ -347,10 +347,10 @@
     },
     {
       "raw_name": "The narrow sea",
-      "slug": "the-narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "narrow-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Locations",
       "line": 76
     },
@@ -977,10 +977,10 @@
     },
     {
       "raw_name": "The narrow sea",
-      "slug": "the-narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "narrow-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Raw Entity List > Locations",
       "line": 299
     },

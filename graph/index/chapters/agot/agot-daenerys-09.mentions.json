@@ -2,14 +2,14 @@
   "chapter_id": "agot-daenerys-09",
   "book": "agot",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-11T22:47:27.274363+00:00",
+  "generated_at": "2026-05-12T18:30:44.822496+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-daenerys-09.extraction.md",
   "stats": {
     "total_mentions": 46,
-    "resolved_to_node": 31,
-    "direct": 29,
+    "resolved_to_node": 33,
+    "direct": 31,
     "alias": 2,
-    "unresolved": 15
+    "unresolved": 13
   },
   "mentions": [
     {
@@ -303,9 +303,9 @@
     {
       "raw_name": "Dothraki sea (remnant camp)",
       "slug": "dothraki-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dothraki-sea.node.md",
       "section": "Locations",
       "line": 71
     },
@@ -321,9 +321,9 @@
     {
       "raw_name": "Dothraki sea (dream/vision)",
       "slug": "dothraki-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dothraki-sea.node.md",
       "section": "Locations",
       "line": 73
     },

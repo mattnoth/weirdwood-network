@@ -1,0 +1,936 @@
+{
+  "slug": "neck",
+  "name": "Neck",
+  "type": "place.location",
+  "node_path": "graph/nodes/locations/neck.node.md",
+  "generated_at": "2026-05-11T23:36:05.667080+00:00",
+  "stats": {
+    "appearances_total": 45,
+    "chapters_referenced_in": 32,
+    "chapters_in_raw_list": 9,
+    "out_edge_count": 0,
+    "in_edge_count": 50,
+    "chapters_in_locations_section": 32
+  },
+  "chapters": {
+    "in_locations_section": [
+      {
+        "chapter_id": "agot-bran-05",
+        "book": "agot",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "agot-bran-06",
+        "book": "agot",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "agot-bran-07",
+        "book": "agot",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "agot-catelyn-05",
+        "book": "agot",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "agot-catelyn-08",
+        "book": "agot",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "agot-catelyn-09",
+        "book": "agot",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "agot-eddard-01",
+        "book": "agot",
+        "pov_character_slug": "eddard-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "agot-eddard-15",
+        "book": "agot",
+        "pov_character_slug": "eddard-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "agot-sansa-01",
+        "book": "agot",
+        "pov_character_slug": "sansa-stark",
+        "mention_count": 2,
+        "sections": [
+          "Location Descriptions",
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "agot-tyrion-04",
+        "book": "agot",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "acok-arya-10",
+        "book": "acok",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "acok-bran-03",
+        "book": "acok",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 2,
+        "sections": [
+          "Location Descriptions",
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "acok-catelyn-01",
+        "book": "acok",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "acok-catelyn-02",
+        "book": "acok",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "acok-theon-02",
+        "book": "acok",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "acok-theon-06",
+        "book": "acok",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-arya-12",
+        "book": "asos",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-bran-01",
+        "book": "asos",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-bran-02",
+        "book": "asos",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 3,
+        "sections": [
+          "Location Descriptions",
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-bran-03",
+        "book": "asos",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-catelyn-03",
+        "book": "asos",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-catelyn-05",
+        "book": "asos",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-catelyn-07",
+        "book": "asos",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-jon-02",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-tyrion-03",
+        "book": "asos",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-brienne-01",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "affc-brienne-07",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-jaime-02",
+        "book": "affc",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-jaime-04",
+        "book": "affc",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "adwd-davos-04",
+        "book": "adwd",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-reek-02",
+        "book": "adwd",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 3,
+        "sections": [
+          "Location Descriptions",
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-the-turncloak-01",
+        "book": "adwd",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      }
+    ],
+    "in_raw_list": [
+      {
+        "chapter_id": "agot-bran-07",
+        "book": "agot",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-arya-12",
+        "book": "asos",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-bran-01",
+        "book": "asos",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-bran-02",
+        "book": "asos",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 3,
+        "sections": [
+          "Location Descriptions",
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-bran-03",
+        "book": "asos",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-jon-02",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "affc-brienne-01",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-davos-04",
+        "book": "adwd",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-reek-02",
+        "book": "adwd",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 3,
+        "sections": [
+          "Location Descriptions",
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      }
+    ],
+    "referenced_in": [
+      {
+        "chapter_id": "agot-bran-05",
+        "book": "agot",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "agot-bran-06",
+        "book": "agot",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "agot-bran-07",
+        "book": "agot",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "agot-catelyn-05",
+        "book": "agot",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "agot-catelyn-08",
+        "book": "agot",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "agot-catelyn-09",
+        "book": "agot",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "agot-eddard-01",
+        "book": "agot",
+        "pov_character_slug": "eddard-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "agot-eddard-15",
+        "book": "agot",
+        "pov_character_slug": "eddard-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "agot-sansa-01",
+        "book": "agot",
+        "pov_character_slug": "sansa-stark",
+        "mention_count": 2,
+        "sections": [
+          "Location Descriptions",
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "agot-tyrion-04",
+        "book": "agot",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "acok-arya-10",
+        "book": "acok",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "acok-bran-03",
+        "book": "acok",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 2,
+        "sections": [
+          "Location Descriptions",
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "acok-catelyn-01",
+        "book": "acok",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "acok-catelyn-02",
+        "book": "acok",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "acok-theon-02",
+        "book": "acok",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "acok-theon-06",
+        "book": "acok",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-arya-12",
+        "book": "asos",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-bran-01",
+        "book": "asos",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-bran-02",
+        "book": "asos",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 3,
+        "sections": [
+          "Location Descriptions",
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-bran-03",
+        "book": "asos",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-catelyn-03",
+        "book": "asos",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-catelyn-05",
+        "book": "asos",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-catelyn-07",
+        "book": "asos",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-jon-02",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-tyrion-03",
+        "book": "asos",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-brienne-01",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "affc-brienne-07",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-jaime-02",
+        "book": "affc",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-jaime-04",
+        "book": "affc",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "adwd-davos-04",
+        "book": "adwd",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-reek-02",
+        "book": "adwd",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 3,
+        "sections": [
+          "Location Descriptions",
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-the-turncloak-01",
+        "book": "adwd",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      }
+    ]
+  }
+}

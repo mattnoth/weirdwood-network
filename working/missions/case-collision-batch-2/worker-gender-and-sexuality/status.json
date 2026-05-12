@@ -1,0 +1,15 @@
+{
+  "worker_id": "case-collision-batch-2-gender-and-sexuality",
+  "started_at": "2026-05-12T17:05:35Z",
+  "completed_at": "2026-05-12T17:05:55Z",
+  "status": "partial",
+  "confidence": 0.6,
+  "source_count": 4,
+  "source_files_consulted": [
+    "graph/nodes/characters/jon-connington.node.md",
+    "graph/nodes/characters/priscella-hogg.node.md",
+    "graph/nodes/characters/viserys-i-targaryen.node.md",
+    "graph/nodes/factions/dornishmen.node.md"
+  ],
+  "notes": "All 4 sources matched, but the slug is a wiki meta-topic / thematic category rather than a true in-world entity. No direct infobox entry; no reverse infobox hits. Type assigned concept.custom as closest fit. Confidence reduced because this is primarily a tagging mechanism rather than a discrete in-world concept requiring its own node."
+}

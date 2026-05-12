@@ -2,14 +2,14 @@
   "chapter_id": "acok-bran-01",
   "book": "acok",
   "pov_character": "bran",
-  "generated_at": "2026-05-11T22:47:27.304712+00:00",
+  "generated_at": "2026-05-12T18:30:44.857042+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-bran-01.extraction.md",
   "stats": {
     "total_mentions": 191,
-    "resolved_to_node": 129,
-    "direct": 124,
-    "alias": 5,
-    "unresolved": 62
+    "resolved_to_node": 136,
+    "direct": 130,
+    "alias": 6,
+    "unresolved": 55
   },
   "mentions": [
     {
@@ -511,8 +511,8 @@
       "raw_name": "The children of the forest",
       "slug": "children-of-the-forest",
       "resolved_via": "direct",
-      "node_type": "organization.faction",
-      "node_path": "graph/nodes/factions/children-of-the-forest.node.md",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/children-of-the-forest.node.md",
       "section": "Characters Referenced",
       "line": 90
     },
@@ -555,9 +555,9 @@
     {
       "raw_name": "Godswood (Winterfell)",
       "slug": "godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Locations",
       "line": 99
     },
@@ -591,9 +591,9 @@
     {
       "raw_name": "Broken tower",
       "slug": "broken-tower",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/broken-tower.node.md",
       "section": "Locations",
       "line": 103
     },
@@ -726,9 +726,9 @@
     {
       "raw_name": "Godswood (Winterfell)",
       "slug": "godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Location Descriptions",
       "line": 122
     },
@@ -1257,9 +1257,9 @@
     {
       "raw_name": "Godswood (Winterfell)",
       "slug": "godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Raw Entity List > Locations",
       "line": 334
     },
@@ -1293,9 +1293,9 @@
     {
       "raw_name": "Broken tower",
       "slug": "broken-tower",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/broken-tower.node.md",
       "section": "Raw Entity List > Locations",
       "line": 338
     },
@@ -1454,10 +1454,10 @@
     },
     {
       "raw_name": "Old Gods (godswood, heart tree, weirwood)",
-      "slug": "old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 362
     },
@@ -1492,8 +1492,8 @@
       "raw_name": "Children of the forest (mentioned — Bran and Rickon were talking about them)",
       "slug": "children-of-the-forest",
       "resolved_via": "direct",
-      "node_type": "organization.faction",
-      "node_path": "graph/nodes/factions/children-of-the-forest.node.md",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/children-of-the-forest.node.md",
       "section": "Raw Entity List > Cultures & Peoples",
       "line": 368
     },
@@ -1635,9 +1635,9 @@
     {
       "raw_name": "Wolf blood (Old Nan says Starks have it, \"stronger in some than in others\")",
       "slug": "wolf-blood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/wolf-blood.node.md",
       "section": "Raw Entity List > Magic & Phenomena",
       "line": 390
     },

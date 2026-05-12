@@ -2,14 +2,14 @@
   "chapter_id": "adwd-cersei-02",
   "book": "adwd",
   "pov_character": "cersei",
-  "generated_at": "2026-05-11T22:47:27.451760+00:00",
+  "generated_at": "2026-05-12T18:30:45.026787+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-cersei-02.extraction.md",
   "stats": {
     "total_mentions": 174,
-    "resolved_to_node": 118,
-    "direct": 112,
+    "resolved_to_node": 122,
+    "direct": 116,
     "alias": 6,
-    "unresolved": 56
+    "unresolved": 52
   },
   "mentions": [
     {
@@ -546,9 +546,9 @@
     {
       "raw_name": "Flea Bottom",
       "slug": "flea-bottom",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/flea-bottom.node.md",
       "section": "Locations",
       "line": 98
     },
@@ -1149,9 +1149,9 @@
     {
       "raw_name": "Flea Bottom",
       "slug": "flea-bottom",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/flea-bottom.node.md",
       "section": "Raw Entity List > Locations",
       "line": 334
     },
@@ -1311,9 +1311,9 @@
     {
       "raw_name": "Silent sisters",
       "slug": "silent-sisters",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/silent-sisters.node.md",
       "section": "Raw Entity List > Factions & Organizations",
       "line": 356
     },
@@ -1437,9 +1437,9 @@
     {
       "raw_name": "Hair shirts (worn under Warrior's Sons armor)",
       "slug": "hair-shirts",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.material",
+      "node_path": "graph/nodes/materials/hair-shirts.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 376
     },

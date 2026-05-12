@@ -2,7 +2,7 @@
 name: "Shield Islands"
 type: place.location
 slug: shield-islands
-aliases: []
+aliases: ["shields"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Shield_Islands"
 bucket_id: tier3-pathb-locations

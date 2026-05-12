@@ -1,0 +1,13 @@
+{
+  "worker_id": "case-collision-batch-2-river-road",
+  "started_at": "2026-05-12T17:05:22Z",
+  "completed_at": "2026-05-12T17:05:28Z",
+  "status": "pass",
+  "confidence": 0.8,
+  "source_count": 2,
+  "source_files_consulted": [
+    "graph/nodes/events/battle-of-the-trident.node.md",
+    "graph/nodes/houses/house-targaryen.node.md"
+  ],
+  "notes": "No infobox entry. Two sources: house-targaryen confirms Jaehaerys I created the road; battle-of-the-trident confirms its intersection with the Kingsroad near the Ruby Ford. REGION_OF riverlands inferred from river road running through Riverlands; confidence 0.8 as exact full route not documented in sources."
+}

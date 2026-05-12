@@ -2,14 +2,14 @@
   "chapter_id": "acok-tyrion-05",
   "book": "acok",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-11T22:47:27.342825+00:00",
+  "generated_at": "2026-05-12T18:30:44.899743+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-tyrion-05.extraction.md",
   "stats": {
     "total_mentions": 91,
-    "resolved_to_node": 66,
-    "direct": 62,
+    "resolved_to_node": 67,
+    "direct": 63,
     "alias": 4,
-    "unresolved": 25
+    "unresolved": 24
   },
   "mentions": [
     {
@@ -806,10 +806,10 @@
     },
     {
       "raw_name": "The red comet",
-      "slug": "the-red-comet",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "red-comet",
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/red-comet.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 135
     },

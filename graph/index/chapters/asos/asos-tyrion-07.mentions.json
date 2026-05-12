@@ -2,14 +2,14 @@
   "chapter_id": "asos-tyrion-07",
   "book": "asos",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-11T22:47:27.404627+00:00",
+  "generated_at": "2026-05-12T18:30:44.969446+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-tyrion-07.extraction.md",
   "stats": {
     "total_mentions": 104,
-    "resolved_to_node": 76,
-    "direct": 75,
-    "alias": 1,
-    "unresolved": 28
+    "resolved_to_node": 83,
+    "direct": 80,
+    "alias": 3,
+    "unresolved": 21
   },
   "mentions": [
     {
@@ -257,10 +257,10 @@
     },
     {
       "raw_name": "The Freys",
-      "slug": "the-freys",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "house-frey",
+      "resolved_via": "alias",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-frey.node.md",
       "section": "Characters Referenced",
       "line": 62
     },
@@ -294,9 +294,9 @@
     {
       "raw_name": "Godswood (Red Keep)",
       "slug": "godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Locations",
       "line": 70
     },
@@ -339,9 +339,9 @@
     {
       "raw_name": "Chataya's brothel",
       "slug": "chatayas-brothel",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/chatayas-brothel.node.md",
       "section": "Locations",
       "line": 75
     },
@@ -663,9 +663,9 @@
     {
       "raw_name": "Godswood (Red Keep)",
       "slug": "godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Raw Entity List > Locations",
       "line": 243
     },
@@ -690,9 +690,9 @@
     {
       "raw_name": "Chataya's brothel",
       "slug": "chatayas-brothel",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/chatayas-brothel.node.md",
       "section": "Raw Entity List > Locations",
       "line": 246
     },
@@ -761,10 +761,10 @@
     },
     {
       "raw_name": "Old Gods (Sansa prays nightly in the godswood)",
-      "slug": "old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 260
     },
@@ -924,9 +924,9 @@
     {
       "raw_name": "\"Monsters and maidens\" — a children's game referenced by Shae",
       "slug": "monsters-and-maidens",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/monsters-and-maidens.node.md",
       "section": "Raw Entity List > Other",
       "line": 295
     },

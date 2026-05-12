@@ -2,14 +2,14 @@
   "chapter_id": "acok-daenerys-01",
   "book": "acok",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-11T22:47:27.315279+00:00",
+  "generated_at": "2026-05-12T18:30:44.868662+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-daenerys-01.extraction.md",
   "stats": {
     "total_mentions": 235,
-    "resolved_to_node": 168,
-    "direct": 162,
-    "alias": 6,
-    "unresolved": 67
+    "resolved_to_node": 176,
+    "direct": 167,
+    "alias": 9,
+    "unresolved": 59
   },
   "mentions": [
     {
@@ -545,10 +545,10 @@
     },
     {
       "raw_name": "The red waste (the red lands)",
-      "slug": "the-red-waste",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "red-waste",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-waste.node.md",
       "section": "Locations",
       "line": 98
     },
@@ -564,9 +564,9 @@
     {
       "raw_name": "Dothraki sea",
       "slug": "dothraki-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dothraki-sea.node.md",
       "section": "Locations",
       "line": 100
     },
@@ -744,18 +744,18 @@
     {
       "raw_name": "Night lands",
       "slug": "night-lands",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/night-lands.node.md",
       "section": "Locations",
       "line": 120
     },
     {
       "raw_name": "The red waste",
-      "slug": "the-red-waste",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "red-waste",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-waste.node.md",
       "section": "Location Descriptions",
       "line": 125
     },
@@ -1328,10 +1328,10 @@
     },
     {
       "raw_name": "The red waste (the red lands)",
-      "slug": "the-red-waste",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "red-waste",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-waste.node.md",
       "section": "Raw Entity List > Locations",
       "line": 381
     },
@@ -1347,9 +1347,9 @@
     {
       "raw_name": "Dothraki sea",
       "slug": "dothraki-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dothraki-sea.node.md",
       "section": "Raw Entity List > Locations",
       "line": 383
     },
@@ -1527,9 +1527,9 @@
     {
       "raw_name": "Night lands (Dothraki afterlife)",
       "slug": "night-lands",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/night-lands.node.md",
       "section": "Raw Entity List > Locations",
       "line": 403
     },
@@ -2049,9 +2049,9 @@
     {
       "raw_name": "Queen of love and beauty (tourney title Jorah gave Lynesse)",
       "slug": "queen-of-love-and-beauty",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/queen-of-love-and-beauty.node.md",
       "section": "Raw Entity List > Titles & Offices",
       "line": 480
     },

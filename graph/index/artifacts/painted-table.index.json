@@ -1,0 +1,173 @@
+{
+  "slug": "painted-table",
+  "name": "Painted Table",
+  "type": "object.artifact",
+  "node_path": "graph/nodes/artifacts/painted-table.node.md",
+  "generated_at": "2026-05-11T23:36:15.780167+00:00",
+  "stats": {
+    "appearances_total": 7,
+    "chapters_referenced_in": 5,
+    "chapters_in_raw_list": 2,
+    "out_edge_count": 0,
+    "in_edge_count": 10,
+    "chapters_in_artifacts_section": 5
+  },
+  "chapters": {
+    "in_artifacts_section": [
+      {
+        "chapter_id": "acok-davos-01",
+        "book": "acok",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 2,
+        "sections": [
+          "Artifacts & Objects of Significance",
+          "Raw Entity List > Artifacts & Objects"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "acok-prologue",
+        "book": "acok",
+        "pov_character_slug": "cressen",
+        "mention_count": 2,
+        "sections": [
+          "Artifacts & Objects of Significance",
+          "Raw Entity List > Artifacts & Objects"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-davos-04",
+        "book": "asos",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-davos-05",
+        "book": "asos",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-davos-06",
+        "book": "asos",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      }
+    ],
+    "in_raw_list": [
+      {
+        "chapter_id": "acok-davos-01",
+        "book": "acok",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 2,
+        "sections": [
+          "Artifacts & Objects of Significance",
+          "Raw Entity List > Artifacts & Objects"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "acok-prologue",
+        "book": "acok",
+        "pov_character_slug": "cressen",
+        "mention_count": 2,
+        "sections": [
+          "Artifacts & Objects of Significance",
+          "Raw Entity List > Artifacts & Objects"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      }
+    ],
+    "referenced_in": [
+      {
+        "chapter_id": "acok-davos-01",
+        "book": "acok",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 2,
+        "sections": [
+          "Artifacts & Objects of Significance",
+          "Raw Entity List > Artifacts & Objects"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "acok-prologue",
+        "book": "acok",
+        "pov_character_slug": "cressen",
+        "mention_count": 2,
+        "sections": [
+          "Artifacts & Objects of Significance",
+          "Raw Entity List > Artifacts & Objects"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-davos-04",
+        "book": "asos",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-davos-05",
+        "book": "asos",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-davos-06",
+        "book": "asos",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      }
+    ]
+  }
+}

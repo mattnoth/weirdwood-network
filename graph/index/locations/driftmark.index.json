@@ -1,0 +1,182 @@
+{
+  "slug": "driftmark",
+  "name": "Driftmark",
+  "type": "place.location",
+  "node_path": "graph/nodes/locations/driftmark.node.md",
+  "generated_at": "2026-05-11T23:36:05.629137+00:00",
+  "stats": {
+    "appearances_total": 7,
+    "chapters_referenced_in": 6,
+    "chapters_in_raw_list": 2,
+    "out_edge_count": 0,
+    "in_edge_count": 68,
+    "chapters_in_locations_section": 5
+  },
+  "chapters": {
+    "in_locations_section": [
+      {
+        "chapter_id": "acok-davos-01",
+        "book": "acok",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "acok-sansa-08",
+        "book": "acok",
+        "pov_character_slug": "sansa-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-davos-02",
+        "book": "asos",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-cersei-03",
+        "book": "affc",
+        "pov_character_slug": "cersei-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-cersei-04",
+        "book": "affc",
+        "pov_character_slug": "cersei-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      }
+    ],
+    "in_raw_list": [
+      {
+        "chapter_id": "acok-davos-01",
+        "book": "acok",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "acok-davos-03",
+        "book": "acok",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      }
+    ],
+    "referenced_in": [
+      {
+        "chapter_id": "acok-davos-01",
+        "book": "acok",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "acok-davos-03",
+        "book": "acok",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "acok-sansa-08",
+        "book": "acok",
+        "pov_character_slug": "sansa-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-davos-02",
+        "book": "asos",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-cersei-03",
+        "book": "affc",
+        "pov_character_slug": "cersei-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-cersei-04",
+        "book": "affc",
+        "pov_character_slug": "cersei-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      }
+    ]
+  }
+}

@@ -2,14 +2,14 @@
   "chapter_id": "acok-daenerys-02",
   "book": "acok",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-11T22:47:27.316237+00:00",
+  "generated_at": "2026-05-12T18:30:44.869787+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-daenerys-02.extraction.md",
   "stats": {
     "total_mentions": 154,
-    "resolved_to_node": 107,
-    "direct": 104,
-    "alias": 3,
-    "unresolved": 47
+    "resolved_to_node": 116,
+    "direct": 111,
+    "alias": 5,
+    "unresolved": 38
   },
   "mentions": [
     {
@@ -384,9 +384,9 @@
     {
       "raw_name": "Walls of Qarth (three walls)",
       "slug": "walls-of-qarth",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/walls-of-qarth.node.md",
       "section": "Locations",
       "line": 80
     },
@@ -492,9 +492,9 @@
     {
       "raw_name": "Dothraki sea",
       "slug": "dothraki-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dothraki-sea.node.md",
       "section": "Locations",
       "line": 92
     },
@@ -509,10 +509,10 @@
     },
     {
       "raw_name": "The red waste",
-      "slug": "the-red-waste",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "red-waste",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-waste.node.md",
       "section": "Locations",
       "line": 94
     },
@@ -591,9 +591,9 @@
     {
       "raw_name": "Cinnamon Wind (ship)",
       "slug": "cinnamon-wind",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/cinnamon-wind.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 111
     },
@@ -825,9 +825,9 @@
     {
       "raw_name": "Walls of Qarth (three concentric walls)",
       "slug": "walls-of-qarth",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/walls-of-qarth.node.md",
       "section": "Raw Entity List > Locations",
       "line": 288
     },
@@ -942,9 +942,9 @@
     {
       "raw_name": "Dothraki sea",
       "slug": "dothraki-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dothraki-sea.node.md",
       "section": "Raw Entity List > Locations",
       "line": 301
     },
@@ -959,10 +959,10 @@
     },
     {
       "raw_name": "The red waste",
-      "slug": "the-red-waste",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "red-waste",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-waste.node.md",
       "section": "Raw Entity List > Locations",
       "line": 303
     },
@@ -1167,9 +1167,9 @@
     {
       "raw_name": "Cinnamon Wind (Quhuru Mo's ship)",
       "slug": "cinnamon-wind",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/cinnamon-wind.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 337
     },
@@ -1365,9 +1365,9 @@
     {
       "raw_name": "Usurper (Dany's name for Robert)",
       "slug": "usurper",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/usurper.node.md",
       "section": "Raw Entity List > Titles & Offices",
       "line": 368
     },

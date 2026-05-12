@@ -2,14 +2,14 @@
   "chapter_id": "agot-daenerys-07",
   "book": "agot",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-11T22:47:27.273574+00:00",
+  "generated_at": "2026-05-12T18:30:44.821100+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-daenerys-07.extraction.md",
   "stats": {
     "total_mentions": 46,
-    "resolved_to_node": 29,
-    "direct": 29,
+    "resolved_to_node": 30,
+    "direct": 30,
     "alias": 0,
-    "unresolved": 17
+    "unresolved": 16
   },
   "mentions": [
     {
@@ -294,9 +294,9 @@
     {
       "raw_name": "Dothraki sea (grasslands)",
       "slug": "dothraki-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dothraki-sea.node.md",
       "section": "Locations",
       "line": 70
     },

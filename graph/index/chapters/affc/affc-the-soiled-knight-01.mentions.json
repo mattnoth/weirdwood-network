@@ -2,14 +2,14 @@
   "chapter_id": "affc-the-soiled-knight-01",
   "book": "affc",
   "pov_character": "the-soiled-knight",
-  "generated_at": "2026-05-11T22:47:27.447347+00:00",
+  "generated_at": "2026-05-12T18:30:45.020941+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-the-soiled-knight-01.extraction.md",
   "stats": {
     "total_mentions": 110,
-    "resolved_to_node": 78,
+    "resolved_to_node": 80,
     "direct": 70,
-    "alias": 8,
-    "unresolved": 32
+    "alias": 10,
+    "unresolved": 30
   },
   "mentions": [
     {
@@ -293,10 +293,10 @@
     },
     {
       "raw_name": "Prince Aemon the Dragonknight",
-      "slug": "prince-aemon-the-dragonknight",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-viserys-ii",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-viserys-ii.node.md",
       "section": "Characters Referenced",
       "line": 66
     },
@@ -833,10 +833,10 @@
     },
     {
       "raw_name": "The narrow sea",
-      "slug": "the-narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "narrow-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Locations",
       "line": 130
     },

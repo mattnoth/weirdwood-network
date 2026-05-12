@@ -1,0 +1,14 @@
+{
+  "worker_id": "case-collision-batch-2-hammer-of-the-waters",
+  "started_at": "2026-05-12T17:04:55Z",
+  "completed_at": "2026-05-12T17:05:15Z",
+  "status": "pass",
+  "confidence": 0.85,
+  "source_count": 3,
+  "source_files_consulted": [
+    "graph/nodes/locations/moat-cailin.node.md",
+    "graph/nodes/locations/dorne.node.md",
+    "graph/nodes/factions/first-men.node.md"
+  ],
+  "notes": "All 3 sources matched. No direct infobox entry. Type: concept.magic — the hammer of the waters is a specific magical technique attributed to greenseers, not a physical artifact or event in itself."
+}

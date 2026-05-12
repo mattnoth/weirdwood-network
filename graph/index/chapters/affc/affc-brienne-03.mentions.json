@@ -2,14 +2,14 @@
   "chapter_id": "affc-brienne-03",
   "book": "affc",
   "pov_character": "brienne",
-  "generated_at": "2026-05-11T22:47:27.413874+00:00",
+  "generated_at": "2026-05-12T18:30:44.979846+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-brienne-03.extraction.md",
   "stats": {
     "total_mentions": 123,
-    "resolved_to_node": 67,
-    "direct": 61,
-    "alias": 6,
-    "unresolved": 56
+    "resolved_to_node": 72,
+    "direct": 62,
+    "alias": 10,
+    "unresolved": 51
   },
   "mentions": [
     {
@@ -113,10 +113,10 @@
     },
     {
       "raw_name": "The whore",
-      "slug": "the-whore",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "whore-weapon",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/whore-weapon.node.md",
       "section": "Characters Present",
       "line": 38
     },
@@ -159,9 +159,9 @@
     {
       "raw_name": "Three whores",
       "slug": "three-whores",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/three-whores.node.md",
       "section": "Characters Present",
       "line": 43
     },
@@ -806,10 +806,10 @@
     },
     {
       "raw_name": "The Vale",
-      "slug": "the-vale",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "vale-of-arryn",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
       "section": "Locations",
       "line": 127
     },
@@ -914,10 +914,10 @@
     },
     {
       "raw_name": "The narrow sea",
-      "slug": "the-narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "narrow-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Locations",
       "line": 139
     },
@@ -941,10 +941,10 @@
     },
     {
       "raw_name": "Summer Islands",
-      "slug": "summer-islands",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "summer-isles",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/summer-isles.node.md",
       "section": "Locations",
       "line": 142
     },

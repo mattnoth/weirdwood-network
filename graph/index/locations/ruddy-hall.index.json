@@ -1,0 +1,110 @@
+{
+  "slug": "ruddy-hall",
+  "name": "Ruddy Hall",
+  "type": "place.location",
+  "node_path": "graph/nodes/locations/ruddy-hall.node.md",
+  "generated_at": "2026-05-11T23:36:05.614993+00:00",
+  "stats": {
+    "appearances_total": 4,
+    "chapters_referenced_in": 3,
+    "chapters_in_raw_list": 1,
+    "out_edge_count": 0,
+    "in_edge_count": 3,
+    "chapters_in_locations_section": 3
+  },
+  "chapters": {
+    "in_locations_section": [
+      {
+        "chapter_id": "asos-jon-01",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-jon-02",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-jon-11",
+        "book": "adwd",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      }
+    ],
+    "in_raw_list": [
+      {
+        "chapter_id": "asos-jon-02",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      }
+    ],
+    "referenced_in": [
+      {
+        "chapter_id": "asos-jon-01",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-jon-02",
+        "book": "asos",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-jon-11",
+        "book": "adwd",
+        "pov_character_slug": "jon-snow",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      }
+    ]
+  }
+}

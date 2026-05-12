@@ -1,0 +1,33 @@
+{
+  "worker_id": "case-collision-king-in-the-north",
+  "started": "2026-05-12T00:00:00Z",
+  "completed": "2026-05-12T00:05:00Z",
+  "status": "pass",
+  "confidence": 0.92,
+  "source_count": 10,
+  "source_files_consulted": [
+    "graph/nodes/characters/robb-stark.node.md",
+    "graph/nodes/houses/house-stark.node.md",
+    "graph/nodes/characters/walder-frey.node.md",
+    "graph/nodes/houses/house-bolton.node.md",
+    "graph/nodes/locations/seven-kingdoms.node.md",
+    "graph/nodes/events/battle-of-the-fords.node.md",
+    "graph/nodes/characters/ramsay-snow.node.md",
+    "graph/nodes/characters/harrion-karstark.node.md",
+    "graph/nodes/characters/jon-umber.node.md",
+    "graph/nodes/characters/jeyne-westerling.node.md",
+    "graph/nodes/characters/torrhen-stark.node.md",
+    "graph/nodes/characters/theon-stark.node.md",
+    "graph/nodes/locations/north.node.md",
+    "graph/nodes/titles/lord-of-winterfell.node.md",
+    "graph/nodes/titles/king-in-the-north.node.md"
+  ],
+  "notes": [
+    "No direct infobox entry found for 'king-in-the-north' as a page slug in infobox-data.jsonl — the title appears only as a HOLDS_TITLE target in other entities' infoboxes.",
+    "Existing node at graph/nodes/titles/king-in-the-north.node.md was a stub (one-line Identity only); this reconstruction fills the Identity section with cross-reference synthesis.",
+    "aliases 'King of Winter' and 'Kings of Winter' confirmed by multiple sources (house-stark, north, lord-of-winterfell); 'Kings in the North' also attested.",
+    "Edge REGION_OF: North derived from the title's territorial scope; no infobox field directly encodes this, so it is inferred conservatively from prose evidence.",
+    "No other standard 22-type edges apply without inventor/created_by infobox data — the title predates recorded history within canon.",
+    "Confidence docked slightly (0.92 vs 1.0) because the exact scope of the older 'King of Winter' vs 'King in the North' naming shift is not fully pinned in available prose nodes."
+  ]
+}

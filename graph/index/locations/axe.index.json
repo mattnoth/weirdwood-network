@@ -1,0 +1,86 @@
+{
+  "slug": "axe",
+  "name": "Axe",
+  "type": "place.location",
+  "node_path": "graph/nodes/locations/axe.node.md",
+  "generated_at": "2026-05-11T23:36:05.617715+00:00",
+  "stats": {
+    "appearances_total": 4,
+    "chapters_referenced_in": 3,
+    "chapters_in_raw_list": 1,
+    "out_edge_count": 0,
+    "in_edge_count": 4,
+    "chapters_in_locations_section": 1
+  },
+  "chapters": {
+    "in_locations_section": [
+      {
+        "chapter_id": "adwd-tyrion-04",
+        "book": "adwd",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      }
+    ],
+    "in_raw_list": [
+      {
+        "chapter_id": "adwd-tyrion-04",
+        "book": "adwd",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      }
+    ],
+    "referenced_in": [
+      {
+        "chapter_id": "agot-catelyn-06",
+        "book": "agot",
+        "pov_character_slug": null,
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "acok-arya-04",
+        "book": "acok",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "adwd-tyrion-04",
+        "book": "adwd",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      }
+    ]
+  }
+}

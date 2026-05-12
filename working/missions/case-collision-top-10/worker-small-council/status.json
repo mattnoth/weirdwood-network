@@ -1,0 +1,26 @@
+{
+  "worker_id": "case-collision-small-council",
+  "started_at": "2026-05-12T00:00:00Z",
+  "completed_at": "2026-05-12T00:15:00Z",
+  "status": "partial",
+  "confidence": 0.75,
+  "source_count": 8,
+  "source_files_consulted": [
+    "graph/nodes/characters/petyr-baelish.node.md",
+    "graph/nodes/characters/stannis-baratheon.node.md",
+    "graph/nodes/characters/janos-slynt.node.md",
+    "graph/nodes/characters/daemon-targaryen.node.md",
+    "graph/nodes/characters/jaehaerys-i-targaryen.node.md",
+    "graph/nodes/characters/daenerys-targaryen.node.md",
+    "graph/nodes/characters/gregor-clegane.node.md",
+    "graph/nodes/characters/jeyne-poole.node.md",
+    "graph/nodes/houses/house-lannister.node.md",
+    "graph/nodes/events/battle-of-the-blackwater.node.md",
+    "working/wiki/data/backlink-counts.json",
+    "working/wiki/data/infobox-data.jsonl",
+    "working/wiki/data/cross-references.jsonl",
+    "working/wiki/data/page-index.jsonl",
+    "sources/wiki/_raw/Small_Council.json"
+  ],
+  "notes": "Wiki page 'Small Council' is a redirect to 'Small council' (lowercase c) and has no content or infobox — page-index marks it as category-skip/Redirect. No entry found in infobox-data.jsonl. Identity section synthesized entirely from cross-reference text in the top 10 backlink source nodes (all 10 located and mined). Edges section is in commented form only because there is no structured infobox data to derive typed edges from; MEMBER_OF relationships are implied by narrative evidence but not asserted as formal JSONL edges per mission constraint that edge types must come from the locked 22-type vocabulary via infobox. Status is 'partial' because: (1) no formal edge block could be emitted without infobox data; (2) a full roster of members across all eras would require broader mining beyond the top-10 sources. The 'small_council' raw page (lowercase c) does not appear to exist as a separate cached file — only 'Small_Council.json' (the redirect) is present."
+}

@@ -2,14 +2,14 @@
   "chapter_id": "acok-theon-03",
   "book": "acok",
   "pov_character": "theon",
-  "generated_at": "2026-05-11T22:47:27.337504+00:00",
+  "generated_at": "2026-05-12T18:30:44.893842+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-theon-03.extraction.md",
   "stats": {
     "total_mentions": 55,
-    "resolved_to_node": 39,
-    "direct": 35,
+    "resolved_to_node": 40,
+    "direct": 36,
     "alias": 4,
-    "unresolved": 16
+    "unresolved": 15
   },
   "mentions": [
     {
@@ -348,9 +348,9 @@
     {
       "raw_name": "Black Wind",
       "slug": "black-wind",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/black-wind.node.md",
       "section": "Locations",
       "line": 76
     },

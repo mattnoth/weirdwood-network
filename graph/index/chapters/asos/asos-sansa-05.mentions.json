@@ -2,14 +2,14 @@
   "chapter_id": "asos-sansa-05",
   "book": "asos",
   "pov_character": "sansa",
-  "generated_at": "2026-05-11T22:47:27.399109+00:00",
+  "generated_at": "2026-05-12T18:30:44.963015+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-sansa-05.extraction.md",
   "stats": {
     "total_mentions": 52,
-    "resolved_to_node": 26,
+    "resolved_to_node": 27,
     "direct": 26,
-    "alias": 0,
-    "unresolved": 26
+    "alias": 1,
+    "unresolved": 25
   },
   "mentions": [
     {
@@ -347,10 +347,10 @@
     },
     {
       "raw_name": "The Vale",
-      "slug": "the-vale",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "vale-of-arryn",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
       "section": "Locations",
       "line": 76
     },

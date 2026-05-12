@@ -2,14 +2,14 @@
   "chapter_id": "asos-sansa-06",
   "book": "asos",
   "pov_character": "sansa",
-  "generated_at": "2026-05-11T22:47:27.399662+00:00",
+  "generated_at": "2026-05-12T18:30:44.963594+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-sansa-06.extraction.md",
   "stats": {
     "total_mentions": 80,
-    "resolved_to_node": 66,
+    "resolved_to_node": 67,
     "direct": 66,
-    "alias": 0,
-    "unresolved": 14
+    "alias": 1,
+    "unresolved": 13
   },
   "mentions": [
     {
@@ -518,10 +518,10 @@
     },
     {
       "raw_name": "Prince Aemon the Dragonknight",
-      "slug": "prince-aemon-the-dragonknight",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-viserys-ii",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-viserys-ii.node.md",
       "section": "Characters Referenced",
       "line": 91
     },

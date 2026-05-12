@@ -2,7 +2,7 @@
 name: "Whore (weapon)"
 type: object.artifact
 slug: whore-weapon
-aliases: []
+aliases: ["the-whore"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Whore_(weapon)"
 bucket_id: tier3-pathb-artifacts

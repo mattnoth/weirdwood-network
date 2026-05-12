@@ -2,7 +2,7 @@
 name: "Sealord of Braavos"
 type: title
 slug: sealord-of-braavos
-aliases: []
+aliases: ["sealord"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Sealord_of_Braavos"
 bucket_id: titles-l-w

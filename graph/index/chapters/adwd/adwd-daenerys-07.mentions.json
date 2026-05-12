@@ -2,14 +2,14 @@
   "chapter_id": "adwd-daenerys-07",
   "book": "adwd",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-11T22:47:27.456790+00:00",
+  "generated_at": "2026-05-12T18:30:45.032881+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-daenerys-07.extraction.md",
   "stats": {
     "total_mentions": 86,
-    "resolved_to_node": 66,
-    "direct": 61,
+    "resolved_to_node": 67,
+    "direct": 62,
     "alias": 5,
-    "unresolved": 20
+    "unresolved": 19
   },
   "mentions": [
     {
@@ -699,9 +699,9 @@
     {
       "raw_name": "Secret marriage pact (parchment)",
       "slug": "secret-marriage-pact",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.text",
+      "node_path": "graph/nodes/texts/secret-marriage-pact.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 123
     },

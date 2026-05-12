@@ -2,14 +2,14 @@
   "chapter_id": "affc-brienne-05",
   "book": "affc",
   "pov_character": "brienne",
-  "generated_at": "2026-05-11T22:47:27.415602+00:00",
+  "generated_at": "2026-05-12T18:30:44.981828+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-brienne-05.extraction.md",
   "stats": {
     "total_mentions": 68,
-    "resolved_to_node": 52,
+    "resolved_to_node": 53,
     "direct": 48,
-    "alias": 4,
-    "unresolved": 16
+    "alias": 5,
+    "unresolved": 15
   },
   "mentions": [
     {
@@ -518,10 +518,10 @@
     },
     {
       "raw_name": "The Vale (high road)",
-      "slug": "the-vale",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "vale-of-arryn",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
       "section": "Locations",
       "line": 95
     },

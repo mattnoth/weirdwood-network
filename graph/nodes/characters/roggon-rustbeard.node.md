@@ -4,6 +4,7 @@ type: character.human
 slug: roggon-rustbeard
 aliases:
   - Roggon Rustbeard
+  - roggon
 confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Roggon_Rustbeard
 bucket_id: characters-house-greyjoy-g-r

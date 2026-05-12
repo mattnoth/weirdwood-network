@@ -1,0 +1,15 @@
+{
+  "worker_id": "case-collision-batch-2-rosby-road",
+  "started_at": "2026-05-12T17:13:30Z",
+  "completed_at": "2026-05-12T17:14:30Z",
+  "status": "pass",
+  "confidence": 0.9,
+  "source_count": 4,
+  "source_files_consulted": [
+    "graph/nodes/locations/duskendale.node.md",
+    "graph/nodes/characters/jacelyn-bywater.node.md",
+    "graph/nodes/characters/osmund-kettleblack.node.md",
+    "graph/nodes/characters/gyles-rosby.node.md"
+  ],
+  "notes": "Rosby_Road.json is a redirect stub to Rosby road. Good content from 4 source nodes. Boros-blount node had no direct mention. REGION_OF crownlands inferred from context (road from King's Landing to Rosby/Duskendale). No infobox entry found."
+}

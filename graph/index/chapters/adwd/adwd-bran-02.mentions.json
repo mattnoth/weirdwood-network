@@ -2,14 +2,14 @@
   "chapter_id": "adwd-bran-02",
   "book": "adwd",
   "pov_character": "bran",
-  "generated_at": "2026-05-11T22:47:27.449281+00:00",
+  "generated_at": "2026-05-12T18:30:45.023794+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-bran-02.extraction.md",
   "stats": {
     "total_mentions": 78,
-    "resolved_to_node": 34,
+    "resolved_to_node": 35,
     "direct": 33,
-    "alias": 1,
-    "unresolved": 44
+    "alias": 2,
+    "unresolved": 43
   },
   "mentions": [
     {
@@ -529,17 +529,17 @@
       "raw_name": "Children of the Forest (as a people/group, with multiple members implied)",
       "slug": "children-of-the-forest",
       "resolved_via": "direct",
-      "node_type": "organization.faction",
-      "node_path": "graph/nodes/factions/children-of-the-forest.node.md",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/children-of-the-forest.node.md",
       "section": "Raw Entity List > Factions & Organizations",
       "line": 235
     },
     {
       "raw_name": "Old Gods (weirwood trees, heart trees, godswood referenced; the entire cave is permeated with weirwood roots)",
-      "slug": "old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 238
     },

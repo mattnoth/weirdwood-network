@@ -2,14 +2,14 @@
   "chapter_id": "asos-jon-09",
   "book": "asos",
   "pov_character": "jon",
-  "generated_at": "2026-05-11T22:47:27.390143+00:00",
+  "generated_at": "2026-05-12T18:30:44.952264+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jon-09.extraction.md",
   "stats": {
     "total_mentions": 84,
-    "resolved_to_node": 61,
-    "direct": 55,
-    "alias": 6,
-    "unresolved": 23
+    "resolved_to_node": 65,
+    "direct": 57,
+    "alias": 8,
+    "unresolved": 19
   },
   "mentions": [
     {
@@ -104,10 +104,10 @@
     },
     {
       "raw_name": "Hobb",
-      "slug": "hobb",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "three-finger-hobb",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/three-finger-hobb.node.md",
       "section": "Characters Present",
       "line": 37
     },
@@ -167,10 +167,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Characters Present",
       "line": 44
     },
@@ -528,9 +528,9 @@
     {
       "raw_name": "Haunted forest",
       "slug": "haunted-forest",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Locations",
       "line": 96
     },
@@ -717,9 +717,9 @@
     {
       "raw_name": "Trebuchet",
       "slug": "trebuchet",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/trebuchet.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 125
     },

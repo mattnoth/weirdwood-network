@@ -2,14 +2,14 @@
   "chapter_id": "adwd-victarion-01",
   "book": "adwd",
   "pov_character": "victarion",
-  "generated_at": "2026-05-11T22:47:27.507087+00:00",
+  "generated_at": "2026-05-12T18:30:45.088125+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-victarion-01.extraction.md",
   "stats": {
     "total_mentions": 54,
-    "resolved_to_node": 39,
-    "direct": 39,
+    "resolved_to_node": 40,
+    "direct": 40,
     "alias": 0,
-    "unresolved": 15
+    "unresolved": 14
   },
   "mentions": [
     {
@@ -366,9 +366,9 @@
     {
       "raw_name": "Dothraki sea",
       "slug": "dothraki-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dothraki-sea.node.md",
       "section": "Locations",
       "line": 78
     },

@@ -2,14 +2,14 @@
   "chapter_id": "asos-jon-02",
   "book": "asos",
   "pov_character": "jon",
-  "generated_at": "2026-05-11T22:47:27.385594+00:00",
+  "generated_at": "2026-05-12T18:30:44.947316+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jon-02.extraction.md",
   "stats": {
     "total_mentions": 180,
-    "resolved_to_node": 129,
-    "direct": 117,
-    "alias": 12,
-    "unresolved": 51
+    "resolved_to_node": 134,
+    "direct": 121,
+    "alias": 13,
+    "unresolved": 46
   },
   "mentions": [
     {
@@ -509,10 +509,10 @@
     },
     {
       "raw_name": "The haunted forest",
-      "slug": "the-haunted-forest",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "haunted-forest",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Locations",
       "line": 94
     },
@@ -537,9 +537,9 @@
     {
       "raw_name": "Frozen Shore",
       "slug": "frozen-shore",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/frozen-shore.node.md",
       "section": "Locations",
       "line": 97
     },
@@ -1094,10 +1094,10 @@
     },
     {
       "raw_name": "The haunted forest",
-      "slug": "the-haunted-forest",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "haunted-forest",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Raw Entity List > Locations",
       "line": 318
     },
@@ -1122,9 +1122,9 @@
     {
       "raw_name": "Frozen Shore",
       "slug": "frozen-shore",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/frozen-shore.node.md",
       "section": "Raw Entity List > Locations",
       "line": 321
     },
@@ -1274,10 +1274,10 @@
     },
     {
       "raw_name": "The old gods (Jon thinks of \"his father's gods\"; he said his vows before the weirwood)",
-      "slug": "the-old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 344
     },

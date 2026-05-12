@@ -1,0 +1,13 @@
+{
+  "worker_id": "case-collision-batch-2-the-maids-that-bloom-in-spring",
+  "started_at": "2026-05-12T17:05:02Z",
+  "completed_at": "2026-05-12T17:05:08Z",
+  "status": "pass",
+  "confidence": 0.88,
+  "source_count": 2,
+  "source_files_consulted": [
+    "graph/nodes/characters/tom-of-sevenstreams.node.md",
+    "graph/nodes/characters/mance-rayder.node.md"
+  ],
+  "notes": "No infobox entry. Same two sources as two-hearts-that-beat-as-one; both songs appear in same list contexts. Identity brief by design. Type object.text (song). No edges without infobox."
+}

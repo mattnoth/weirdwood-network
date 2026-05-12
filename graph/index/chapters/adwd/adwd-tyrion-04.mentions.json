@@ -2,14 +2,14 @@
   "chapter_id": "adwd-tyrion-04",
   "book": "adwd",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-11T22:47:27.499088+00:00",
+  "generated_at": "2026-05-12T18:30:45.079688+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-tyrion-04.extraction.md",
   "stats": {
     "total_mentions": 207,
-    "resolved_to_node": 146,
-    "direct": 134,
-    "alias": 12,
-    "unresolved": 61
+    "resolved_to_node": 154,
+    "direct": 135,
+    "alias": 19,
+    "unresolved": 53
   },
   "mentions": [
     {
@@ -275,28 +275,28 @@
     },
     {
       "raw_name": "Malaquo",
-      "slug": "malaquo",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "malaquo-maegyr",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/malaquo-maegyr.node.md",
       "section": "Characters Referenced",
       "line": 64
     },
     {
       "raw_name": "Nyessos",
-      "slug": "nyessos",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "nyessos-vhassar",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/nyessos-vhassar.node.md",
       "section": "Characters Referenced",
       "line": 65
     },
     {
       "raw_name": "Doniphos",
-      "slug": "doniphos",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "doniphos-paenymion",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/doniphos-paenymion.node.md",
       "section": "Characters Referenced",
       "line": 66
     },
@@ -968,28 +968,28 @@
     },
     {
       "raw_name": "Malaquo (current Volantene triarch, tiger)",
-      "slug": "malaquo",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "malaquo-maegyr",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/malaquo-maegyr.node.md",
       "section": "Raw Entity List > Characters",
       "line": 300
     },
     {
       "raw_name": "Nyessos (current Volantene triarch, elephant)",
-      "slug": "nyessos",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "nyessos-vhassar",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/nyessos-vhassar.node.md",
       "section": "Raw Entity List > Characters",
       "line": 301
     },
     {
       "raw_name": "Doniphos (current Volantene triarch, elephant)",
-      "slug": "doniphos",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "doniphos-paenymion",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/doniphos-paenymion.node.md",
       "section": "Raw Entity List > Characters",
       "line": 302
     },
@@ -1355,10 +1355,10 @@
     },
     {
       "raw_name": "The narrow sea",
-      "slug": "the-narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "narrow-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Raw Entity List > Locations",
       "line": 345
     },
@@ -1869,9 +1869,9 @@
     {
       "raw_name": "Cyvasse (strategy board game)",
       "slug": "cyvasse",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/cyvasse.node.md",
       "section": "Raw Entity List > Other",
       "line": 422
     }

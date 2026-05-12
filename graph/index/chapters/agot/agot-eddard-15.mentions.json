@@ -2,14 +2,14 @@
   "chapter_id": "agot-eddard-15",
   "book": "agot",
   "pov_character": "eddard",
-  "generated_at": "2026-05-11T22:47:27.282414+00:00",
+  "generated_at": "2026-05-12T18:30:44.832569+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-eddard-15.extraction.md",
   "stats": {
     "total_mentions": 70,
-    "resolved_to_node": 59,
-    "direct": 57,
+    "resolved_to_node": 60,
+    "direct": 58,
     "alias": 2,
-    "unresolved": 11
+    "unresolved": 10
   },
   "mentions": [
     {
@@ -582,9 +582,9 @@
     {
       "raw_name": "Black cells (Red Keep dungeon)",
       "slug": "black-cells",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/black-cells.node.md",
       "section": "Location Descriptions",
       "line": 106
     },

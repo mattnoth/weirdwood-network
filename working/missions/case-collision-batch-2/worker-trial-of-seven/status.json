@@ -1,0 +1,25 @@
+{
+  "worker_id": "case-collision-batch-2-trial-of-seven",
+  "started_at": "2026-05-12T17:08:58.421088Z",
+  "completed_at": "2026-05-12T17:08:58.421219Z",
+  "status": "pass",
+  "confidence": 0.92,
+  "source_count": 9,
+  "source_files_consulted": [
+    "graph/nodes/events/battle-beneath-the-gods-eye.node.md",
+    "graph/nodes/customs/trial-by-combat.node.md",
+    "graph/nodes/customs/treason.node.md",
+    "graph/nodes/customs/kinslaying.node.md",
+    "graph/nodes/artifacts/blackfyre.node.md",
+    "graph/nodes/houses/house-beesbury.node.md",
+    "graph/nodes/houses/house-morrigen.node.md",
+    "graph/nodes/houses/house-ashford.node.md",
+    "graph/nodes/houses/house-crakehall.node.md",
+    "sources/wiki/_raw/Trial_of_Seven.json"
+  ],
+  "notes": [
+    "Wiki page is redirect-only. No infobox. No existing graph node.",
+    "Type assigned concept.custom \u2014 the trial of seven is a cultural/legal practice, not an individual event. Each specific trial is an event.battle; the practice itself is the concept.",
+    "Multi-type flag: the trial-of-seven could also map to concept.custom (legal rite) or event.battle (for specific instances). Treating the slug as the practice-concept is consistent with architecture.md concept.custom definition."
+  ]
+}

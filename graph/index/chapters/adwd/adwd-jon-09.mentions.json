@@ -2,14 +2,14 @@
   "chapter_id": "adwd-jon-09",
   "book": "adwd",
   "pov_character": "jon",
-  "generated_at": "2026-05-11T22:47:27.470120+00:00",
+  "generated_at": "2026-05-12T18:30:45.047921+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-jon-09.extraction.md",
   "stats": {
     "total_mentions": 103,
-    "resolved_to_node": 74,
+    "resolved_to_node": 76,
     "direct": 70,
-    "alias": 4,
-    "unresolved": 29
+    "alias": 6,
+    "unresolved": 27
   },
   "mentions": [
     {
@@ -491,10 +491,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Characters Referenced",
       "line": 88
     },
@@ -572,10 +572,10 @@
     },
     {
       "raw_name": "Hobb",
-      "slug": "hobb",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "three-finger-hobb",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/three-finger-hobb.node.md",
       "section": "Characters Referenced",
       "line": 97
     },

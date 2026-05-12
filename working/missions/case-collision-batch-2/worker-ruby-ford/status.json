@@ -1,0 +1,15 @@
+{
+  "worker_id": "case-collision-batch-2-ruby-ford",
+  "started_at": "2026-05-12T17:05:18.555096Z",
+  "completed_at": "2026-05-12T17:05:18.555221Z",
+  "status": "pass",
+  "confidence": 0.92,
+  "source_count": 2,
+  "source_files_consulted": [
+    "graph/nodes/events/battle-of-the-trident.node.md",
+    "graph/nodes/locations/trident.node.md",
+    "graph/nodes/locations/ruby-ford.node.md",
+    "working/wiki/data/infobox-data.jsonl"
+  ],
+  "notes": "Location stub already existed (pass2-wiki-bucket-a-backfill). Name origin clearly documented in battle-of-the-trident node. Rhaegar DIED_AT ruby-ford from infobox."
+}

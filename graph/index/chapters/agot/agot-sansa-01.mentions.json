@@ -2,14 +2,14 @@
   "chapter_id": "agot-sansa-01",
   "book": "agot",
   "pov_character": "sansa",
-  "generated_at": "2026-05-11T22:47:27.288077+00:00",
+  "generated_at": "2026-05-12T18:30:44.838760+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-sansa-01.extraction.md",
   "stats": {
     "total_mentions": 51,
-    "resolved_to_node": 36,
+    "resolved_to_node": 37,
     "direct": 36,
-    "alias": 0,
-    "unresolved": 15
+    "alias": 1,
+    "unresolved": 14
   },
   "mentions": [
     {
@@ -275,10 +275,10 @@
     },
     {
       "raw_name": "Prince Aemon the Dragonknight",
-      "slug": "prince-aemon-the-dragonknight",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-viserys-ii",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-viserys-ii.node.md",
       "section": "Characters Referenced",
       "line": 64
     },

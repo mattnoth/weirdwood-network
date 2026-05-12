@@ -2,14 +2,14 @@
   "chapter_id": "adwd-theon-01",
   "book": "adwd",
   "pov_character": "theon",
-  "generated_at": "2026-05-11T22:47:27.494687+00:00",
+  "generated_at": "2026-05-12T18:30:45.074974+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-theon-01.extraction.md",
   "stats": {
     "total_mentions": 100,
-    "resolved_to_node": 70,
-    "direct": 63,
-    "alias": 7,
-    "unresolved": 30
+    "resolved_to_node": 74,
+    "direct": 66,
+    "alias": 8,
+    "unresolved": 26
   },
   "mentions": [
     {
@@ -636,9 +636,9 @@
     {
       "raw_name": "Godswood (Winterfell)",
       "slug": "godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Locations",
       "line": 108
     },
@@ -689,10 +689,10 @@
     },
     {
       "raw_name": "Burned Tower (ruins)",
-      "slug": "burned-tower",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "broken-tower",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/broken-tower.node.md",
       "section": "Locations",
       "line": 114
     },
@@ -735,9 +735,9 @@
     {
       "raw_name": "Land of Always Winter",
       "slug": "land-of-always-winter",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/land-of-always-winter.node.md",
       "section": "Locations",
       "line": 119
     },
@@ -771,9 +771,9 @@
     {
       "raw_name": "Godswood",
       "slug": "godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Location Descriptions",
       "line": 127
     },

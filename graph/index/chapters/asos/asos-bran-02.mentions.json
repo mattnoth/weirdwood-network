@@ -2,14 +2,14 @@
   "chapter_id": "asos-bran-02",
   "book": "asos",
   "pov_character": "bran",
-  "generated_at": "2026-05-11T22:47:27.362965+00:00",
+  "generated_at": "2026-05-12T18:30:44.921031+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-bran-02.extraction.md",
   "stats": {
     "total_mentions": 195,
-    "resolved_to_node": 107,
-    "direct": 81,
-    "alias": 26,
-    "unresolved": 88
+    "resolved_to_node": 111,
+    "direct": 84,
+    "alias": 27,
+    "unresolved": 84
   },
   "mentions": [
     {
@@ -437,10 +437,10 @@
     },
     {
       "raw_name": "The green men (in Meera's story and Bran's thoughts)",
-      "slug": "the-green-men",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "green-men",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/green-men.node.md",
       "section": "Characters Referenced",
       "line": 82
     },
@@ -1454,19 +1454,19 @@
     },
     {
       "raw_name": "The old gods (the crannogman prays to them on the lakeshore; the mystery knight's shield bears a heart tree; \"the old gods of north and Neck\")",
-      "slug": "the-old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 383
     },
     {
       "raw_name": "The green men (guardians of the Isle of Faces; dark green skin, leaves for hair, sometimes antlers per Old Nan's stories)",
-      "slug": "the-green-men",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "green-men",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/green-men.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 384
     },
@@ -1752,9 +1752,9 @@
     {
       "raw_name": "Queen of love and beauty (tourney title in Meera's story)",
       "slug": "queen-of-love-and-beauty",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/queen-of-love-and-beauty.node.md",
       "section": "Raw Entity List > Titles & Offices",
       "line": 428
     },

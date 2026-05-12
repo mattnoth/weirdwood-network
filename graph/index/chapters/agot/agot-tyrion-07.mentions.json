@@ -2,14 +2,14 @@
   "chapter_id": "agot-tyrion-07",
   "book": "agot",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-11T22:47:27.294887+00:00",
+  "generated_at": "2026-05-12T18:30:44.845686+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-tyrion-07.extraction.md",
   "stats": {
     "total_mentions": 65,
-    "resolved_to_node": 41,
-    "direct": 41,
-    "alias": 0,
-    "unresolved": 24
+    "resolved_to_node": 43,
+    "direct": 42,
+    "alias": 1,
+    "unresolved": 22
   },
   "mentions": [
     {
@@ -203,10 +203,10 @@
     },
     {
       "raw_name": "Gunthor son of Gurn",
-      "slug": "gunthor-son-of-gurn",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "gunthor",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gunthor.node.md",
       "section": "Characters Referenced",
       "line": 56
     },
@@ -564,9 +564,9 @@
     {
       "raw_name": "Inn at the crossroads",
       "slug": "inn-at-the-crossroads",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/inn-at-the-crossroads.node.md",
       "section": "Location Descriptions",
       "line": 104
     },

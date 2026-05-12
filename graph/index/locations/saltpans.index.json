@@ -1,0 +1,383 @@
+{
+  "slug": "saltpans",
+  "name": "Saltpans",
+  "type": "place.location",
+  "node_path": "graph/nodes/locations/saltpans.node.md",
+  "generated_at": "2026-05-11T23:36:05.668912+00:00",
+  "stats": {
+    "appearances_total": 21,
+    "chapters_referenced_in": 12,
+    "chapters_in_raw_list": 4,
+    "out_edge_count": 0,
+    "in_edge_count": 24,
+    "chapters_in_locations_section": 12
+  },
+  "chapters": {
+    "in_locations_section": [
+      {
+        "chapter_id": "asos-arya-13",
+        "book": "asos",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 3,
+        "sections": [
+          "Location Descriptions",
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "affc-arya-01",
+        "book": "affc",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "affc-arya-02",
+        "book": "affc",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-brienne-04",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "affc-brienne-05",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-brienne-06",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 3,
+        "sections": [
+          "Location Descriptions",
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "affc-brienne-07",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 2,
+        "sections": [
+          "Location Descriptions",
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-brienne-08",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-cersei-03",
+        "book": "affc",
+        "pov_character_slug": "cersei-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-cersei-06",
+        "book": "affc",
+        "pov_character_slug": "cersei-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-jaime-02",
+        "book": "affc",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 2,
+        "sections": [
+          "Location Descriptions",
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-jaime-04",
+        "book": "affc",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 2,
+        "sections": [
+          "Location Descriptions",
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      }
+    ],
+    "in_raw_list": [
+      {
+        "chapter_id": "asos-arya-13",
+        "book": "asos",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 3,
+        "sections": [
+          "Location Descriptions",
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "affc-arya-01",
+        "book": "affc",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "affc-brienne-04",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "affc-brienne-06",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 3,
+        "sections": [
+          "Location Descriptions",
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      }
+    ],
+    "referenced_in": [
+      {
+        "chapter_id": "asos-arya-13",
+        "book": "asos",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 3,
+        "sections": [
+          "Location Descriptions",
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "affc-arya-01",
+        "book": "affc",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "affc-arya-02",
+        "book": "affc",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-brienne-04",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "affc-brienne-05",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-brienne-06",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 3,
+        "sections": [
+          "Location Descriptions",
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "affc-brienne-07",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 2,
+        "sections": [
+          "Location Descriptions",
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-brienne-08",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-cersei-03",
+        "book": "affc",
+        "pov_character_slug": "cersei-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-cersei-06",
+        "book": "affc",
+        "pov_character_slug": "cersei-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-jaime-02",
+        "book": "affc",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 2,
+        "sections": [
+          "Location Descriptions",
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-jaime-04",
+        "book": "affc",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 2,
+        "sections": [
+          "Location Descriptions",
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      }
+    ]
+  }
+}

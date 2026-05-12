@@ -1,0 +1,101 @@
+{
+  "slug": "black-bargeman",
+  "name": "Black Bargeman",
+  "type": "place.location",
+  "node_path": "graph/nodes/locations/black-bargeman.node.md",
+  "generated_at": "2026-05-11T23:36:05.671141+00:00",
+  "stats": {
+    "appearances_total": 4,
+    "chapters_referenced_in": 2,
+    "chapters_in_raw_list": 2,
+    "out_edge_count": 0,
+    "in_edge_count": 2,
+    "chapters_in_locations_section": 2
+  },
+  "chapters": {
+    "in_locations_section": [
+      {
+        "chapter_id": "affc-samwell-03",
+        "book": "affc",
+        "pov_character_slug": "samwell-tarly",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-the-blind-girl-01",
+        "book": "adwd",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      }
+    ],
+    "in_raw_list": [
+      {
+        "chapter_id": "affc-samwell-03",
+        "book": "affc",
+        "pov_character_slug": "samwell-tarly",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-the-blind-girl-01",
+        "book": "adwd",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      }
+    ],
+    "referenced_in": [
+      {
+        "chapter_id": "affc-samwell-03",
+        "book": "affc",
+        "pov_character_slug": "samwell-tarly",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-the-blind-girl-01",
+        "book": "adwd",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      }
+    ]
+  }
+}

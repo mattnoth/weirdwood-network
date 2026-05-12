@@ -2,7 +2,7 @@
 name: "Petyr Baelish"
 type: character.human
 slug: petyr-baelish
-aliases: ["Littlefinger", "Lord Littlefinger"]
+aliases: ["Littlefinger", "Lord Littlefinger", "petyr"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Petyr_Baelish"
 bucket_id: characters-house-baelish

@@ -2,7 +2,7 @@
 name: "Kyle the Cat"
 type: character.human
 slug: kyle-the-cat
-aliases: ["The Cat of Misty Moor", "Kyle the Cat"]
+aliases: ["The Cat of Misty Moor", "Kyle the Cat", "kyle"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Kyle_the_Cat"
 bucket_id: characters-house-caswell

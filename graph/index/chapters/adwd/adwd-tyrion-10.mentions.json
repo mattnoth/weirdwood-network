@@ -2,14 +2,14 @@
   "chapter_id": "adwd-tyrion-10",
   "book": "adwd",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-11T22:47:27.504815+00:00",
+  "generated_at": "2026-05-12T18:30:45.085680+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-tyrion-10.extraction.md",
   "stats": {
     "total_mentions": 152,
-    "resolved_to_node": 87,
-    "direct": 82,
-    "alias": 5,
-    "unresolved": 65
+    "resolved_to_node": 95,
+    "direct": 86,
+    "alias": 9,
+    "unresolved": 57
   },
   "mentions": [
     {
@@ -410,10 +410,10 @@
     },
     {
       "raw_name": "Sothoros",
-      "slug": "sothoros",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "sothoryos",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sothoryos.node.md",
       "section": "Locations",
       "line": 83
     },
@@ -537,9 +537,9 @@
     {
       "raw_name": "Pretty Pig (the sow)",
       "slug": "pretty-pig",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/pretty-pig.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 105
     },
@@ -744,9 +744,9 @@
     {
       "raw_name": "Pretty Pig (Penny's sow)",
       "slug": "pretty-pig",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/pretty-pig.node.md",
       "section": "Raw Entity List > Characters",
       "line": 265
     },
@@ -950,10 +950,10 @@
     },
     {
       "raw_name": "Sothoros",
-      "slug": "sothoros",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "sothoryos",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sothoryos.node.md",
       "section": "Raw Entity List > Locations",
       "line": 290
     },
@@ -1040,10 +1040,10 @@
     },
     {
       "raw_name": "Fiery fingers (three surviving; chattels of the Lord of Light)",
-      "slug": "fiery-fingers",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "fiery-hand",
+      "resolved_via": "alias",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/fiery-hand.node.md",
       "section": "Raw Entity List > Factions & Organizations",
       "line": 304
     },
@@ -1248,9 +1248,9 @@
     {
       "raw_name": "Bone flute (played by Yurkhaz's slave)",
       "slug": "bone-flute",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/bone-flute.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 333
     },
@@ -1329,9 +1329,9 @@
     {
       "raw_name": "Cyvasse (board game — played prominently)",
       "slug": "cyvasse",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/cyvasse.node.md",
       "section": "Raw Entity List > Other",
       "line": 352
     },
@@ -1346,10 +1346,10 @@
     },
     {
       "raw_name": "Valyrian glyphs (script on collars)",
-      "slug": "valyrian-glyphs",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "high-valyrian",
+      "resolved_via": "alias",
+      "node_type": "concept.language",
+      "node_path": "graph/nodes/languages/high-valyrian.node.md",
       "section": "Raw Entity List > Other",
       "line": 354
     },

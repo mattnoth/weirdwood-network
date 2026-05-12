@@ -2,14 +2,14 @@
   "chapter_id": "agot-jon-05",
   "book": "agot",
   "pov_character": "jon",
-  "generated_at": "2026-05-11T22:47:27.284756+00:00",
+  "generated_at": "2026-05-12T18:30:44.835246+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-jon-05.extraction.md",
   "stats": {
     "total_mentions": 64,
-    "resolved_to_node": 47,
-    "direct": 43,
-    "alias": 4,
-    "unresolved": 17
+    "resolved_to_node": 51,
+    "direct": 45,
+    "alias": 6,
+    "unresolved": 13
   },
   "mentions": [
     {
@@ -113,10 +113,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Characters Present",
       "line": 38
     },
@@ -194,10 +194,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Character Appearances",
       "line": 51
     },
@@ -393,9 +393,9 @@
     {
       "raw_name": "Rookery",
       "slug": "rookery",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/rookery.node.md",
       "section": "Locations",
       "line": 81
     },
@@ -528,9 +528,9 @@
     {
       "raw_name": "Haunted forest",
       "slug": "haunted-forest",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Locations",
       "line": 96
     },

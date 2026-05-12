@@ -1,0 +1,580 @@
+{
+  "slug": "vaes-dothrak",
+  "name": "Vaes Dothrak",
+  "type": "place.location",
+  "node_path": "graph/nodes/locations/vaes-dothrak.node.md",
+  "generated_at": "2026-05-11T23:36:05.660499+00:00",
+  "stats": {
+    "appearances_total": 28,
+    "chapters_referenced_in": 18,
+    "chapters_in_raw_list": 9,
+    "out_edge_count": 0,
+    "in_edge_count": 39,
+    "chapters_in_locations_section": 17
+  },
+  "chapters": {
+    "in_locations_section": [
+      {
+        "chapter_id": "agot-bran-03",
+        "book": "agot",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "agot-daenerys-01",
+        "book": "agot",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "agot-daenerys-02",
+        "book": "agot",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "agot-daenerys-03",
+        "book": "agot",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "agot-daenerys-04",
+        "book": "agot",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 2,
+        "sections": [
+          "Location Descriptions",
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "agot-daenerys-05",
+        "book": "agot",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "agot-daenerys-06",
+        "book": "agot",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 3,
+        "sections": [
+          "Location Descriptions",
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "agot-daenerys-07",
+        "book": "agot",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "agot-daenerys-08",
+        "book": "agot",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "agot-daenerys-10",
+        "book": "agot",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "agot-eddard-08",
+        "book": "agot",
+        "pov_character_slug": "eddard-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "acok-daenerys-01",
+        "book": "acok",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-daenerys-01",
+        "book": "asos",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-daenerys-02",
+        "book": "asos",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-daenerys-06",
+        "book": "asos",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "adwd-daenerys-10",
+        "book": "adwd",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "adwd-tyrion-02",
+        "book": "adwd",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      }
+    ],
+    "in_raw_list": [
+      {
+        "chapter_id": "agot-bran-03",
+        "book": "agot",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "agot-daenerys-01",
+        "book": "agot",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "agot-daenerys-02",
+        "book": "agot",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "agot-daenerys-03",
+        "book": "agot",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "agot-daenerys-06",
+        "book": "agot",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 3,
+        "sections": [
+          "Location Descriptions",
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "acok-daenerys-01",
+        "book": "acok",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-daenerys-01",
+        "book": "asos",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-daenerys-01",
+        "book": "adwd",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-tyrion-02",
+        "book": "adwd",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      }
+    ],
+    "referenced_in": [
+      {
+        "chapter_id": "agot-bran-03",
+        "book": "agot",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "agot-daenerys-01",
+        "book": "agot",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "agot-daenerys-02",
+        "book": "agot",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "agot-daenerys-03",
+        "book": "agot",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "agot-daenerys-04",
+        "book": "agot",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 2,
+        "sections": [
+          "Location Descriptions",
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "agot-daenerys-05",
+        "book": "agot",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "agot-daenerys-06",
+        "book": "agot",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 3,
+        "sections": [
+          "Location Descriptions",
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "agot-daenerys-07",
+        "book": "agot",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "agot-daenerys-08",
+        "book": "agot",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "agot-daenerys-10",
+        "book": "agot",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "agot-eddard-08",
+        "book": "agot",
+        "pov_character_slug": "eddard-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "acok-daenerys-01",
+        "book": "acok",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-daenerys-01",
+        "book": "asos",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-daenerys-02",
+        "book": "asos",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-daenerys-06",
+        "book": "asos",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "adwd-daenerys-01",
+        "book": "adwd",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-daenerys-10",
+        "book": "adwd",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "adwd-tyrion-02",
+        "book": "adwd",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      }
+    ]
+  }
+}

@@ -2,14 +2,14 @@
   "chapter_id": "acok-tyrion-08",
   "book": "acok",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-11T22:47:27.344451+00:00",
+  "generated_at": "2026-05-12T18:30:44.901395+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-tyrion-08.extraction.md",
   "stats": {
     "total_mentions": 50,
-    "resolved_to_node": 42,
-    "direct": 42,
+    "resolved_to_node": 43,
+    "direct": 43,
     "alias": 0,
-    "unresolved": 8
+    "unresolved": 7
   },
   "mentions": [
     {
@@ -375,9 +375,9 @@
     {
       "raw_name": "Chataya's brothel",
       "slug": "chatayas-brothel",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/chatayas-brothel.node.md",
       "section": "Locations",
       "line": 79
     },

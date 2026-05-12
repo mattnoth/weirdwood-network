@@ -2,7 +2,7 @@
 name: "Magic"
 type: concept.magic
 slug: magic
-aliases: []
+aliases: ["higher-mysteries"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Magic"
 bucket_id: tier3-pathb-longtail

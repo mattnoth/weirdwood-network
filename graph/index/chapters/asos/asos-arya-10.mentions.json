@@ -2,14 +2,14 @@
   "chapter_id": "asos-arya-10",
   "book": "asos",
   "pov_character": "arya",
-  "generated_at": "2026-05-11T22:47:27.358016+00:00",
+  "generated_at": "2026-05-12T18:30:44.915697+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-arya-10.extraction.md",
   "stats": {
     "total_mentions": 132,
-    "resolved_to_node": 86,
-    "direct": 83,
+    "resolved_to_node": 87,
+    "direct": 84,
     "alias": 3,
-    "unresolved": 46
+    "unresolved": 45
   },
   "mentions": [
     {
@@ -1041,9 +1041,9 @@
     {
       "raw_name": "Wayn (stolen from farmer)",
       "slug": "wayn",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/wayn.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 282
     },

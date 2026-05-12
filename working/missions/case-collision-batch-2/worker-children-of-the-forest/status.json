@@ -1,0 +1,22 @@
+{
+  "worker_id": "case-collision-batch-2-children-of-the-forest",
+  "started_at": "2026-05-12T17:07:25.352032Z",
+  "completed_at": "2026-05-12T17:07:25.352035Z",
+  "status": "pass",
+  "confidence": 0.91,
+  "source_count": 7,
+  "source_files_consulted": [
+    "graph/nodes/factions/first-men.node.md",
+    "graph/nodes/events/coming-of-the-andals.node.md",
+    "graph/nodes/events/battle-for-the-dawn.node.md",
+    "graph/nodes/characters/bran-stark.node.md",
+    "graph/nodes/factions/children-of-the-forest.node.md",
+    "sources/wiki/_raw/Children_of_the_Forest.json",
+    "working/wiki/pass2-buckets/tier3-cultures/prose/children-of-the-forest.prose.md"
+  ],
+  "notes": [
+    "Existing graph node typed as organization.faction but type should be species (non-human biological group, matches architecture.md Species def). Multi-type flag: current node is in factions/ dir with type organization.faction; recommend reclassification to species.",
+    "Wiki page is redirect-only. Prose file in bucket is empty (1 line). No infobox.",
+    "Alias flag: known as \"those who sing the song of the earth\" in First Men node \u2014 confirmed alias."
+  ]
+}

@@ -2,7 +2,7 @@
 name: "Nyessos Vhassar"
 type: character.human
 slug: nyessos-vhassar
-aliases: []
+aliases: ["nyessos"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Nyessos_Vhassar"
 bucket_id: characters-other-n-o

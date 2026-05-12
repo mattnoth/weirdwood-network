@@ -1,0 +1,17 @@
+{
+  "worker_id": "case-collision-batch-2-haunted-forest",
+  "started_at": "2026-05-12T17:07:25.351826Z",
+  "completed_at": "2026-05-12T17:07:25.351830Z",
+  "status": "pass",
+  "confidence": 0.9,
+  "source_count": 6,
+  "source_files_consulted": [
+    "graph/nodes/factions/nights-watch.node.md",
+    "graph/nodes/locations/beyond-the-wall.node.md",
+    "graph/nodes/characters/bran-stark.node.md",
+    "sources/wiki/_raw/Haunted_Forest.json",
+    "sources/wiki/_raw/The_Haunted_Forest.json",
+    "working/wiki/data/backlink-counts.json"
+  ],
+  "notes": "Both wiki pages are redirect-only; no canonical prose page cached. No infobox. Type assigned place.region (large geographic area containing named sub-locations, not a specific discrete location). Edge vocab note: LOCATED_AT used inversely here (sub-locations within the forest) \u2014 semantically cleaner than inventing CONTAINS; flag for review."
+}

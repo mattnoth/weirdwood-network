@@ -2,14 +2,14 @@
   "chapter_id": "acok-prologue",
   "book": "acok",
   "pov_character": "acok-prologue",
-  "generated_at": "2026-05-11T22:47:27.329570+00:00",
+  "generated_at": "2026-05-12T18:30:44.884858+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-prologue.extraction.md",
   "stats": {
     "total_mentions": 226,
-    "resolved_to_node": 173,
-    "direct": 166,
-    "alias": 7,
-    "unresolved": 53
+    "resolved_to_node": 178,
+    "direct": 169,
+    "alias": 9,
+    "unresolved": 48
   },
   "mentions": [
     {
@@ -707,10 +707,10 @@
     },
     {
       "raw_name": "The red comet",
-      "slug": "the-red-comet",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "red-comet",
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/red-comet.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 124
     },
@@ -1355,10 +1355,10 @@
     },
     {
       "raw_name": "The narrow sea",
-      "slug": "the-narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "narrow-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Raw Entity List > Locations",
       "line": 346
     },
@@ -1661,10 +1661,10 @@
     },
     {
       "raw_name": "The Old Gods (referenced — \"old and new\" turning away from)",
-      "slug": "the-old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 386
     },
@@ -1724,10 +1724,10 @@
     },
     {
       "raw_name": "The red comet",
-      "slug": "the-red-comet",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "red-comet",
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/red-comet.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 397
     },
@@ -1868,10 +1868,10 @@
     },
     {
       "raw_name": "The red comet (interpreted as omen/dragonsbreath/divine sign)",
-      "slug": "the-red-comet",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "red-comet",
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/red-comet.node.md",
       "section": "Raw Entity List > Magic & Phenomena",
       "line": 417
     },

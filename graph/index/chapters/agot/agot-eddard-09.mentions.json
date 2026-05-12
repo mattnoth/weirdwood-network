@@ -2,14 +2,14 @@
   "chapter_id": "agot-eddard-09",
   "book": "agot",
   "pov_character": "eddard",
-  "generated_at": "2026-05-11T22:47:27.279201+00:00",
+  "generated_at": "2026-05-12T18:30:44.828818+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-eddard-09.extraction.md",
   "stats": {
     "total_mentions": 51,
-    "resolved_to_node": 37,
-    "direct": 37,
-    "alias": 0,
-    "unresolved": 14
+    "resolved_to_node": 40,
+    "direct": 39,
+    "alias": 1,
+    "unresolved": 11
   },
   "mentions": [
     {
@@ -357,9 +357,9 @@
     {
       "raw_name": "Chataya's brothel",
       "slug": "chatayas-brothel",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/chatayas-brothel.node.md",
       "section": "Locations",
       "line": 77
     },
@@ -419,19 +419,19 @@
     },
     {
       "raw_name": "The Vale",
-      "slug": "the-vale",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "vale-of-arryn",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
       "section": "Locations",
       "line": 84
     },
     {
       "raw_name": "Chataya's brothel",
       "slug": "chatayas-brothel",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/chatayas-brothel.node.md",
       "section": "Location Descriptions",
       "line": 89
     },

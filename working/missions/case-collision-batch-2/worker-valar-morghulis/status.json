@@ -1,0 +1,16 @@
+{
+  "worker_id": "case-collision-batch-2-valar-morghulis",
+  "started_at": "2026-05-12T17:24:00Z",
+  "completed_at": "2026-05-12T17:25:00Z",
+  "status": "pass",
+  "confidence": 0.96,
+  "source_count": 5,
+  "source_files_consulted": [
+    "graph/nodes/characters/jaqen-hghar.node.md",
+    "graph/nodes/events/a-storm-of-swords-chapter-74.node.md",
+    "graph/nodes/events/mercy-the-winds-of-winter.node.md",
+    "graph/nodes/characters/ternesio-terys.node.md",
+    "graph/nodes/factions/faceless-men.node.md"
+  ],
+  "notes": "Valar_Morghulis.json is a redirect stub. Rich content from all 5 source nodes. No infobox entry. Concept (phrase/expression) node — no structural infobox edges derivable. Meaning 'all men must die' confirmed across multiple sources."
+}

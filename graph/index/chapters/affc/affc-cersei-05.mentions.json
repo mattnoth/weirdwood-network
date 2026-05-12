@@ -2,14 +2,14 @@
   "chapter_id": "affc-cersei-05",
   "book": "affc",
   "pov_character": "cersei",
-  "generated_at": "2026-05-11T22:47:27.423043+00:00",
+  "generated_at": "2026-05-12T18:30:44.989912+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-cersei-05.extraction.md",
   "stats": {
     "total_mentions": 144,
-    "resolved_to_node": 110,
-    "direct": 106,
-    "alias": 4,
-    "unresolved": 34
+    "resolved_to_node": 113,
+    "direct": 108,
+    "alias": 5,
+    "unresolved": 31
   },
   "mentions": [
     {
@@ -374,10 +374,10 @@
     },
     {
       "raw_name": "Freys (unnamed)",
-      "slug": "freys",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "house-frey",
+      "resolved_via": "alias",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-frey.node.md",
       "section": "Characters Referenced",
       "line": 75
     },
@@ -879,9 +879,9 @@
     {
       "raw_name": "Maidenvault",
       "slug": "maidenvault",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/maidenvault.node.md",
       "section": "Locations",
       "line": 135
     },
@@ -1095,9 +1095,9 @@
     {
       "raw_name": "Narrow sea",
       "slug": "narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Locations",
       "line": 159
     },

@@ -1,0 +1,17 @@
+{
+  "worker_id": "case-collision-batch-2-great-houses",
+  "started_at": "2026-05-12T17:11:00Z",
+  "completed_at": "2026-05-12T17:12:30Z",
+  "status": "pass",
+  "confidence": 0.85,
+  "source_count": 6,
+  "source_files_consulted": [
+    "graph/nodes/events/landing-of-the-golden-company.node.md",
+    "graph/nodes/events/nights-watch-rebellion-of-50-ac.node.md",
+    "graph/nodes/characters/daeron-ii-targaryen.node.md",
+    "graph/nodes/characters/aegon-ii-targaryen.node.md",
+    "graph/nodes/houses/house-arryn.node.md",
+    "graph/nodes/houses/house-tyrell.node.md"
+  ],
+  "notes": "Both Great_House.json and Great_Houses.json are redirect stubs. Concept node synthesized from usage contexts across multiple source prose nodes. No infobox entry. The specific membership of the Great Houses (which 7 or 9 qualify) not exhaustively derivable from available sources — confidence slightly reduced."
+}

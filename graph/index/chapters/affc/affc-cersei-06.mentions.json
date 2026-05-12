@@ -2,14 +2,14 @@
   "chapter_id": "affc-cersei-06",
   "book": "affc",
   "pov_character": "cersei",
-  "generated_at": "2026-05-11T22:47:27.423860+00:00",
+  "generated_at": "2026-05-12T18:30:44.990914+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-cersei-06.extraction.md",
   "stats": {
     "total_mentions": 116,
-    "resolved_to_node": 94,
-    "direct": 90,
+    "resolved_to_node": 95,
+    "direct": 91,
     "alias": 4,
-    "unresolved": 22
+    "unresolved": 21
   },
   "mentions": [
     {
@@ -879,9 +879,9 @@
     {
       "raw_name": "Rosby road",
       "slug": "rosby-road",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/rosby-road.node.md",
       "section": "Locations",
       "line": 135
     },

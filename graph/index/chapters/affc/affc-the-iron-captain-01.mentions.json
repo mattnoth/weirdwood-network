@@ -2,14 +2,14 @@
   "chapter_id": "affc-the-iron-captain-01",
   "book": "affc",
   "pov_character": "the-iron-captain",
-  "generated_at": "2026-05-11T22:47:27.441984+00:00",
+  "generated_at": "2026-05-12T18:30:45.014377+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-the-iron-captain-01.extraction.md",
   "stats": {
     "total_mentions": 97,
-    "resolved_to_node": 75,
-    "direct": 68,
+    "resolved_to_node": 79,
+    "direct": 72,
     "alias": 7,
-    "unresolved": 22
+    "unresolved": 18
   },
   "mentions": [
     {
@@ -564,9 +564,9 @@
     {
       "raw_name": "Seastone Chair",
       "slug": "seastone-chair",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/seastone-chair.node.md",
       "section": "Locations",
       "line": 100
     },
@@ -726,9 +726,9 @@
     {
       "raw_name": "Iron Victory",
       "slug": "iron-victory",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/iron-victory.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 126
     },
@@ -744,18 +744,18 @@
     {
       "raw_name": "Black Wind",
       "slug": "black-wind",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/black-wind.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 128
     },
     {
       "raw_name": "Seastone Chair",
       "slug": "seastone-chair",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/seastone-chair.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 129
     },

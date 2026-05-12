@@ -2,7 +2,7 @@
 name: "Corpse queen"
 type: character.human
 slug: corpse-queen
-aliases: []
+aliases: ["nights-kings-corpse-queen"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Corpse_queen"
 bucket_id: characters-other-c

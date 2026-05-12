@@ -2,14 +2,14 @@
   "chapter_id": "adwd-reek-03",
   "book": "adwd",
   "pov_character": "reek",
-  "generated_at": "2026-05-11T22:47:27.477578+00:00",
+  "generated_at": "2026-05-12T18:30:45.055793+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-reek-03.extraction.md",
   "stats": {
     "total_mentions": 93,
-    "resolved_to_node": 59,
+    "resolved_to_node": 60,
     "direct": 51,
-    "alias": 8,
-    "unresolved": 34
+    "alias": 9,
+    "unresolved": 33
   },
   "mentions": [
     {
@@ -689,10 +689,10 @@
     },
     {
       "raw_name": "The Vale",
-      "slug": "the-vale",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "vale-of-arryn",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
       "section": "Locations",
       "line": 114
     },

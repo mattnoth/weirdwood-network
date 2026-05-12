@@ -1,0 +1,31 @@
+{
+  "worker_id": "case-collision-master-of-coin",
+  "slug": "master-of-coin",
+  "status": "pass",
+  "confidence": 0.88,
+  "source_count": 10,
+  "source_files_consulted": [
+    "graph/nodes/characters/jaehaerys-i-targaryen.node.md",
+    "graph/nodes/characters/petyr-baelish.node.md",
+    "graph/nodes/characters/otto-hightower.node.md",
+    "graph/nodes/characters/gyles-rosby.node.md",
+    "graph/nodes/characters/maegor-i-targaryen.node.md",
+    "graph/nodes/houses/house-lannister.node.md",
+    "graph/nodes/houses/house-celtigar.node.md",
+    "graph/nodes/locations/braavos.node.md",
+    "graph/nodes/locations/oldtown.node.md",
+    "graph/nodes/events/arrest-of-eddard-stark.node.md",
+    "working/wiki/data/infobox-data.jsonl",
+    "sources/wiki/_raw/Master_of_Coin.json",
+    "sources/wiki/_raw/Small_Council.json"
+  ],
+  "created_at": "2026-05-12T00:00:00Z",
+  "updated_at": "2026-05-12T00:00:00Z",
+  "notes": [
+    "The wiki pages Master_of_Coin.json and Small_Council.json are both redirect stubs with no article body — all substance comes from cross-references in character and house nodes.",
+    "Identity synthesized from 10 top-source node files covering Jaehaerys I, Petyr Baelish, Maegor I, Otto Hightower, Gyles Rosby, House Lannister, House Celtigar, Braavos, Oldtown, and the Arrest of Eddard Stark event.",
+    "18 HOLDS_TITLE reverse edges derived from infobox-data.jsonl; Rego Draz appears in prose sources but not in infobox-data, so noted as implied.",
+    "Alias 'Lord Treasurer' appears in multiple infobox Titles fields alongside 'Master of coin' (Gyles Rosby, Edwell Celtigar, Harys Swyft, Bartimos Celtigar entries).",
+    "Confidence docked from 1.0 because the wiki article itself is a redirect (no direct canonical description available); all prose is reconstructed from secondary references."
+  ]
+}

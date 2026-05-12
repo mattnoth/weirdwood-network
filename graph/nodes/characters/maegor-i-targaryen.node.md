@@ -2,7 +2,7 @@
 name: "Maegor I Targaryen"
 type: character.human
 slug: maegor-i-targaryen
-aliases: ["The Prince of Dragonstone", "Maegor the Cruel", "The Abomination on the Iron Throne"]
+aliases: ["The Prince of Dragonstone", "Maegor the Cruel", "The Abomination on the Iron Throne", "king-maegor"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Maegor_I_Targaryen"
 bucket_id: characters-other-l-m

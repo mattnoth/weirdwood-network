@@ -2,14 +2,14 @@
   "chapter_id": "agot-eddard-13",
   "book": "agot",
   "pov_character": "eddard",
-  "generated_at": "2026-05-11T22:47:27.281310+00:00",
+  "generated_at": "2026-05-12T18:30:44.831459+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-eddard-13.extraction.md",
   "stats": {
     "total_mentions": 85,
-    "resolved_to_node": 63,
-    "direct": 63,
-    "alias": 0,
-    "unresolved": 22
+    "resolved_to_node": 66,
+    "direct": 64,
+    "alias": 2,
+    "unresolved": 19
   },
   "mentions": [
     {
@@ -671,19 +671,19 @@
     },
     {
       "raw_name": "The Vale",
-      "slug": "the-vale",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "vale-of-arryn",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
       "section": "Locations",
       "line": 112
     },
     {
       "raw_name": "The godswood",
-      "slug": "the-godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "godswood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Locations",
       "line": 113
     },
@@ -716,10 +716,10 @@
     },
     {
       "raw_name": "Valyrian steel dagger",
-      "slug": "valyrian-steel-dagger",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "littlefingers-blade",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/littlefingers-blade.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 125
     },

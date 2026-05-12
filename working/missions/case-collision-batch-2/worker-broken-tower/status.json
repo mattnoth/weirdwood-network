@@ -1,0 +1,13 @@
+{
+  "worker_id": "case-collision-batch-2-broken-tower",
+  "started_at": "2026-05-12T17:05:55Z",
+  "completed_at": "2026-05-12T17:06:10Z",
+  "status": "pass",
+  "confidence": 0.9,
+  "source_count": 2,
+  "source_files_consulted": [
+    "graph/nodes/locations/winterfell.node.md",
+    "graph/nodes/characters/frenya.node.md"
+  ],
+  "notes": "Both sources matched. Strong evidence including explicit description of the tower's history and appearance. No direct infobox entry. Type: place.location — the broken tower is a specific named structure within Winterfell."
+}

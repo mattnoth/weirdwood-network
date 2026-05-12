@@ -2,14 +2,14 @@
   "chapter_id": "adwd-bran-03",
   "book": "adwd",
   "pov_character": "bran",
-  "generated_at": "2026-05-11T22:47:27.450203+00:00",
+  "generated_at": "2026-05-12T18:30:45.024924+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-bran-03.extraction.md",
   "stats": {
     "total_mentions": 145,
-    "resolved_to_node": 58,
+    "resolved_to_node": 60,
     "direct": 57,
-    "alias": 1,
-    "unresolved": 87
+    "alias": 3,
+    "unresolved": 85
   },
   "mentions": [
     {
@@ -115,8 +115,8 @@
       "raw_name": "Children of the forest (general)",
       "slug": "children-of-the-forest",
       "resolved_via": "direct",
-      "node_type": "organization.faction",
-      "node_path": "graph/nodes/factions/children-of-the-forest.node.md",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/children-of-the-forest.node.md",
       "section": "Character Appearances",
       "line": 42
     },
@@ -923,10 +923,10 @@
     },
     {
       "raw_name": "Old gods (weirwood worship; heart trees; singers believe weirwoods ARE the old gods; carved faces to awaken the trees; prayers offered before heart tree)",
-      "slug": "old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 320
     },
@@ -1283,10 +1283,10 @@
     },
     {
       "raw_name": "Grumkins (Robb dismisses them in Bran's memory)",
-      "slug": "grumkins",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "grumkin",
+      "resolved_via": "alias",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/grumkin.node.md",
       "section": "Raw Entity List > Other",
       "line": 375
     },

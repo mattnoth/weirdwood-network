@@ -2,14 +2,14 @@
   "chapter_id": "adwd-tyrion-05",
   "book": "adwd",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-11T22:47:27.500020+00:00",
+  "generated_at": "2026-05-12T18:30:45.080708+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-tyrion-05.extraction.md",
   "stats": {
     "total_mentions": 140,
-    "resolved_to_node": 94,
+    "resolved_to_node": 98,
     "direct": 87,
-    "alias": 7,
-    "unresolved": 46
+    "alias": 11,
+    "unresolved": 42
   },
   "mentions": [
     {
@@ -221,19 +221,19 @@
     },
     {
       "raw_name": "Nyessos",
-      "slug": "nyessos",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "nyessos-vhassar",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/nyessos-vhassar.node.md",
       "section": "Characters Referenced",
       "line": 58
     },
     {
       "raw_name": "Malaquo",
-      "slug": "malaquo",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "malaquo-maegyr",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/malaquo-maegyr.node.md",
       "section": "Characters Referenced",
       "line": 59
     },
@@ -653,19 +653,19 @@
     },
     {
       "raw_name": "Nyessos (referenced — Triarch of Volantis)",
-      "slug": "nyessos",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "nyessos-vhassar",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/nyessos-vhassar.node.md",
       "section": "Raw Entity List > Characters",
       "line": 268
     },
     {
       "raw_name": "Malaquo (referenced — Triarch of Volantis)",
-      "slug": "malaquo",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "malaquo-maegyr",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/malaquo-maegyr.node.md",
       "section": "Raw Entity List > Characters",
       "line": 269
     },

@@ -2,7 +2,7 @@
 name: "Lancel Lannister"
 type: character.human
 slug: lancel-lannister
-aliases: []
+aliases: ["lancel"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Lancel_Lannister"
 bucket_id: characters-house-lannister-of-casterly-rock

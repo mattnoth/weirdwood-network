@@ -1,0 +1,92 @@
+{
+  "slug": "house-baelish",
+  "name": "House Baelish",
+  "type": "organization.house",
+  "node_path": "graph/nodes/houses/house-baelish.node.md",
+  "generated_at": "2026-05-11T23:36:16.168464+00:00",
+  "stats": {
+    "appearances_total": 3,
+    "chapters_referenced_in": 3,
+    "chapters_in_raw_list": 3,
+    "out_edge_count": 11,
+    "in_edge_count": 3
+  },
+  "chapters": {
+    "in_raw_list": [
+      {
+        "chapter_id": "agot-catelyn-04",
+        "book": "agot",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "acok-tyrion-04",
+        "book": "acok",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "affc-sansa-01",
+        "book": "affc",
+        "pov_character_slug": "sansa-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      }
+    ],
+    "referenced_in": [
+      {
+        "chapter_id": "agot-catelyn-04",
+        "book": "agot",
+        "pov_character_slug": "catelyn-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "acok-tyrion-04",
+        "book": "acok",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "affc-sansa-01",
+        "book": "affc",
+        "pov_character_slug": "sansa-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      }
+    ]
+  }
+}

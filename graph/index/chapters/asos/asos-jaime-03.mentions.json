@@ -2,14 +2,14 @@
   "chapter_id": "asos-jaime-03",
   "book": "asos",
   "pov_character": "jaime",
-  "generated_at": "2026-05-11T22:47:27.380008+00:00",
+  "generated_at": "2026-05-12T18:30:44.941173+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jaime-03.extraction.md",
   "stats": {
     "total_mentions": 166,
-    "resolved_to_node": 109,
+    "resolved_to_node": 110,
     "direct": 100,
-    "alias": 9,
-    "unresolved": 57
+    "alias": 10,
+    "unresolved": 56
   },
   "mentions": [
     {
@@ -1292,10 +1292,10 @@
     },
     {
       "raw_name": "Targaryens (referenced as marrying siblings historically)",
-      "slug": "targaryens",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "house-targaryen",
+      "resolved_via": "alias",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-targaryen.node.md",
       "section": "Raw Entity List > Cultures & Peoples",
       "line": 340
     },

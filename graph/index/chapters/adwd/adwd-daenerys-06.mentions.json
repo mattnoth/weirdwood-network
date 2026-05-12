@@ -2,14 +2,14 @@
   "chapter_id": "adwd-daenerys-06",
   "book": "adwd",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-11T22:47:27.455987+00:00",
+  "generated_at": "2026-05-12T18:30:45.032063+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-daenerys-06.extraction.md",
   "stats": {
     "total_mentions": 157,
-    "resolved_to_node": 107,
-    "direct": 95,
-    "alias": 12,
-    "unresolved": 50
+    "resolved_to_node": 113,
+    "direct": 99,
+    "alias": 14,
+    "unresolved": 44
   },
   "mentions": [
     {
@@ -167,10 +167,10 @@
     },
     {
       "raw_name": "Qezza",
-      "slug": "qezza",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "qezza-galare",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qezza-galare.node.md",
       "section": "Characters Present",
       "line": 44
     },
@@ -429,9 +429,9 @@
     {
       "raw_name": "Dothraki sea",
       "slug": "dothraki-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dothraki-sea.node.md",
       "section": "Locations",
       "line": 85
     },
@@ -725,10 +725,10 @@
     },
     {
       "raw_name": "Qezza",
-      "slug": "qezza",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "qezza-galare",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qezza-galare.node.md",
       "section": "Raw Entity List > Characters",
       "line": 293
     },
@@ -888,9 +888,9 @@
     {
       "raw_name": "Dothraki sea",
       "slug": "dothraki-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dothraki-sea.node.md",
       "section": "Raw Entity List > Locations",
       "line": 313
     },
@@ -969,9 +969,9 @@
     {
       "raw_name": "Unsullied (Grey Worm's soldiers)",
       "slug": "unsullied",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/unsullied.node.md",
       "section": "Raw Entity List > Factions & Organizations",
       "line": 326
     },
@@ -1041,9 +1041,9 @@
     {
       "raw_name": "Blue Graces (healers sent to the camp)",
       "slug": "blue-graces",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/blue-graces.node.md",
       "section": "Raw Entity List > Factions & Organizations",
       "line": 334
     },

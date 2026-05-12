@@ -2,14 +2,14 @@
   "chapter_id": "acok-jon-02",
   "book": "acok",
   "pov_character": "jon",
-  "generated_at": "2026-05-11T22:47:27.324411+00:00",
+  "generated_at": "2026-05-12T18:30:44.879155+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-jon-02.extraction.md",
   "stats": {
     "total_mentions": 95,
-    "resolved_to_node": 65,
-    "direct": 63,
-    "alias": 2,
-    "unresolved": 30
+    "resolved_to_node": 72,
+    "direct": 65,
+    "alias": 7,
+    "unresolved": 23
   },
   "mentions": [
     {
@@ -239,10 +239,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Characters Referenced",
       "line": 60
     },
@@ -257,10 +257,10 @@
     },
     {
       "raw_name": "Qhorin (Halfhand)",
-      "slug": "qhorin",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "qhorin-halfhand",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qhorin-halfhand.node.md",
       "section": "Characters Referenced",
       "line": 62
     },
@@ -286,8 +286,8 @@
       "raw_name": "Children of the forest",
       "slug": "children-of-the-forest",
       "resolved_via": "direct",
-      "node_type": "organization.faction",
-      "node_path": "graph/nodes/factions/children-of-the-forest.node.md",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/children-of-the-forest.node.md",
       "section": "Characters Referenced",
       "line": 65
     },
@@ -302,10 +302,10 @@
     },
     {
       "raw_name": "The haunted forest",
-      "slug": "the-haunted-forest",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "haunted-forest",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Locations",
       "line": 71
     },
@@ -554,10 +554,10 @@
     },
     {
       "raw_name": "Maester Aemon (referenced)",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Raw Entity List > Characters",
       "line": 217
     },
@@ -572,10 +572,10 @@
     },
     {
       "raw_name": "Qhorin (referenced)",
-      "slug": "qhorin",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "qhorin-halfhand",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qhorin-halfhand.node.md",
       "section": "Raw Entity List > Characters",
       "line": 219
     },
@@ -599,10 +599,10 @@
     },
     {
       "raw_name": "The haunted forest",
-      "slug": "the-haunted-forest",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "haunted-forest",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Raw Entity List > Locations",
       "line": 224
     },
@@ -671,10 +671,10 @@
     },
     {
       "raw_name": "The Old Gods (heart trees, weirwoods — Jon cites his father's belief about truth before heart trees)",
-      "slug": "the-old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 238
     },
@@ -691,8 +691,8 @@
       "raw_name": "Children of the forest (referenced by Mormont as able to speak to the dead)",
       "slug": "children-of-the-forest",
       "resolved_via": "direct",
-      "node_type": "organization.faction",
-      "node_path": "graph/nodes/factions/children-of-the-forest.node.md",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/children-of-the-forest.node.md",
       "section": "Raw Entity List > Cultures & Peoples",
       "line": 242
     },

@@ -2,14 +2,14 @@
   "chapter_id": "acok-arya-10",
   "book": "acok",
   "pov_character": "arya",
-  "generated_at": "2026-05-11T22:47:27.303528+00:00",
+  "generated_at": "2026-05-12T18:30:44.855963+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-arya-10.extraction.md",
   "stats": {
     "total_mentions": 102,
-    "resolved_to_node": 83,
-    "direct": 76,
+    "resolved_to_node": 85,
+    "direct": 78,
     "alias": 7,
-    "unresolved": 19
+    "unresolved": 17
   },
   "mentions": [
     {
@@ -636,9 +636,9 @@
     {
       "raw_name": "Godswood (Harrenhal)",
       "slug": "godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Locations",
       "line": 108
     },
@@ -852,9 +852,9 @@
     {
       "raw_name": "Godswood (Harrenhal)",
       "slug": "godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Location Descriptions",
       "line": 136
     },

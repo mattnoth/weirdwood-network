@@ -2,14 +2,14 @@
   "chapter_id": "acok-sansa-02",
   "book": "acok",
   "pov_character": "sansa",
-  "generated_at": "2026-05-11T22:47:27.331125+00:00",
+  "generated_at": "2026-05-12T18:30:44.886595+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-sansa-02.extraction.md",
   "stats": {
     "total_mentions": 148,
-    "resolved_to_node": 103,
-    "direct": 103,
-    "alias": 0,
-    "unresolved": 45
+    "resolved_to_node": 107,
+    "direct": 106,
+    "alias": 1,
+    "unresolved": 41
   },
   "mentions": [
     {
@@ -401,10 +401,10 @@
     },
     {
       "raw_name": "The godswood (Red Keep)",
-      "slug": "the-godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "godswood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Locations",
       "line": 82
     },
@@ -527,10 +527,10 @@
     },
     {
       "raw_name": "The godswood (Red Keep)",
-      "slug": "the-godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "godswood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Location Descriptions",
       "line": 100
     },
@@ -950,10 +950,10 @@
     },
     {
       "raw_name": "The godswood (Red Keep)",
-      "slug": "the-godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "godswood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Raw Entity List > Locations",
       "line": 302
     },
@@ -1139,10 +1139,10 @@
     },
     {
       "raw_name": "The Old Gods (godswood, heart tree; \"her father's gods\"; Dontos swears by them)",
-      "slug": "the-old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 329
     },

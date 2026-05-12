@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-05-11T22:51:24.947288+00:00",
+  "generated_at": "2026-05-11T23:45:35.330530+00:00",
   "totals": {
     "wiki_pages_indexed": 17657,
-    "graph_nodes": 7583,
-    "unpromoted": 1170,
-    "bucket_a": 138,
+    "graph_nodes": 7668,
+    "unpromoted": 1085,
+    "bucket_a": 53,
     "bucket_b": 83,
     "bucket_c": 949,
     "case_collisions": 125
@@ -513,33 +513,6 @@
   ],
   "bucket_a": [
     {
-      "page": "Godswood",
-      "slug": "godswood",
-      "byte_size": 36366,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Godswoods",
-        "Old gods",
-        "Terms",
-        "Westeros"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 36,
-      "wiki_in_count": 31
-    },
-    {
-      "page": "Flea Bottom",
-      "slug": "flea-bottom",
-      "byte_size": 51403,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "King's Landing"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 31,
-      "wiki_in_count": 30
-    },
-    {
       "page": "Old Gods",
       "slug": "old-gods",
       "byte_size": 910,
@@ -548,85 +521,6 @@
       "has_infobox": false,
       "pass1_mention_count": 22,
       "wiki_in_count": 61
-    },
-    {
-      "page": "Seastone Chair",
-      "slug": "seastone-chair",
-      "byte_size": 27123,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "House Greyjoy",
-        "Ironborn culture",
-        "Thrones"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 14,
-      "wiki_in_count": 37
-    },
-    {
-      "page": "Chataya's brothel",
-      "slug": "chatayas-brothel",
-      "byte_size": 32278,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Brothels in King's Landing",
-        "Chataya's brothel"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 12,
-      "wiki_in_count": 11
-    },
-    {
-      "page": "Black cells",
-      "slug": "black-cells",
-      "byte_size": 37174,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Prisons",
-        "Red Keep",
-        "Terms"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 11,
-      "wiki_in_count": 46
-    },
-    {
-      "page": "Queen's Men",
-      "slug": "queens-men",
-      "byte_size": 926,
-      "entity_type_guess": "unknown",
-      "categories": [],
-      "has_infobox": false,
-      "pass1_mention_count": 9,
-      "wiki_in_count": 43
-    },
-    {
-      "page": "Unsullied",
-      "slug": "unsullied",
-      "byte_size": 55403,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Astapor",
-        "Eunuchs",
-        "Slave soldiers",
-        "Slaves and freedmen",
-        "Unsullied"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 9,
-      "wiki_in_count": 68
-    },
-    {
-      "page": "Cinnamon Wind",
-      "slug": "cinnamon-wind",
-      "byte_size": 12416,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Swan ships"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 8,
-      "wiki_in_count": 19
     },
     {
       "page": "Valyrian steel dagger",
@@ -639,20 +533,6 @@
       "wiki_in_count": 4
     },
     {
-      "page": "Black Wind",
-      "slug": "black-wind",
-      "byte_size": 19936,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Crew of the Black Wind",
-        "House Greyjoy ships",
-        "Ironborn longships"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 7,
-      "wiki_in_count": 2
-    },
-    {
       "page": "Hobb",
       "slug": "hobb",
       "byte_size": 937,
@@ -661,19 +541,6 @@
       "has_infobox": false,
       "pass1_mention_count": 7,
       "wiki_in_count": 3
-    },
-    {
-      "page": "Maidenvault",
-      "slug": "maidenvault",
-      "byte_size": 15247,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Buildings",
-        "Red Keep"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 7,
-      "wiki_in_count": 16
     },
     {
       "page": "Malaquo",
@@ -716,21 +583,6 @@
       "wiki_in_count": 8
     },
     {
-      "page": "Iron Victory",
-      "slug": "iron-victory",
-      "byte_size": 18398,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Crew of the Iron Victory",
-        "House Greyjoy ships",
-        "Ironborn longships",
-        "Ships of the Iron Fleet"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 6,
-      "wiki_in_count": 3
-    },
-    {
       "page": "Qezza",
       "slug": "qezza",
       "byte_size": 922,
@@ -741,26 +593,6 @@
       "wiki_in_count": 3
     },
     {
-      "page": "Valar Morghulis",
-      "slug": "valar-morghulis",
-      "byte_size": 931,
-      "entity_type_guess": "unknown",
-      "categories": [],
-      "has_infobox": false,
-      "pass1_mention_count": 6,
-      "wiki_in_count": 8
-    },
-    {
-      "page": "Crossroads Inn",
-      "slug": "crossroads-inn",
-      "byte_size": 949,
-      "entity_type_guess": "unknown",
-      "categories": [],
-      "has_infobox": false,
-      "pass1_mention_count": 5,
-      "wiki_in_count": 39
-    },
-    {
       "page": "Doniphos",
       "slug": "doniphos",
       "byte_size": 939,
@@ -769,32 +601,6 @@
       "has_infobox": false,
       "pass1_mention_count": 5,
       "wiki_in_count": 0
-    },
-    {
-      "page": "Pretty Pig",
-      "slug": "pretty-pig",
-      "byte_size": 4323,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Pigs"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 5,
-      "wiki_in_count": 6
-    },
-    {
-      "page": "Rookery",
-      "slug": "rookery",
-      "byte_size": 37574,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Order of the maesters",
-        "Ravens",
-        "Terms"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 5,
-      "wiki_in_count": 15
     },
     {
       "page": "The Ship",
@@ -817,20 +623,6 @@
       "wiki_in_count": 4
     },
     {
-      "page": "Castle Stair",
-      "slug": "castle-stair",
-      "byte_size": 6449,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Stairs",
-        "Streets",
-        "White Harbor"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 4,
-      "wiki_in_count": 4
-    },
-    {
       "page": "Daenerys Stormborn",
       "slug": "daenerys-stormborn",
       "byte_size": 940,
@@ -839,18 +631,6 @@
       "has_infobox": false,
       "pass1_mention_count": 4,
       "wiki_in_count": 0
-    },
-    {
-      "page": "Frozen Shore",
-      "slug": "frozen-shore",
-      "byte_size": 23142,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Places beyond the Wall"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 4,
-      "wiki_in_count": 8
     },
     {
       "page": "King Maegor",
@@ -863,161 +643,6 @@
       "wiki_in_count": 0
     },
     {
-      "page": "Longsword",
-      "slug": "longsword",
-      "byte_size": 4319,
-      "entity_type_guess": "object.artifact",
-      "categories": [
-        "Swords",
-        "Terms"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 4,
-      "wiki_in_count": 27
-    },
-    {
-      "page": "Red Waste",
-      "slug": "red-waste",
-      "byte_size": 913,
-      "entity_type_guess": "unknown",
-      "categories": [],
-      "has_infobox": false,
-      "pass1_mention_count": 4,
-      "wiki_in_count": 16
-    },
-    {
-      "page": "Red temple",
-      "slug": "red-temple",
-      "byte_size": 15353,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "R'hllor",
-        "Red temples",
-        "Religious buildings"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 4,
-      "wiki_in_count": 8
-    },
-    {
-      "page": "Sky Cells",
-      "slug": "sky-cells",
-      "byte_size": 951,
-      "entity_type_guess": "unknown",
-      "categories": [],
-      "has_infobox": false,
-      "pass1_mention_count": 4,
-      "wiki_in_count": 6
-    },
-    {
-      "page": "Three Whores",
-      "slug": "three-whores",
-      "byte_size": 4775,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "King's Landing",
-        "Pages using hatnote template directly",
-        "Trebuchets"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 4,
-      "wiki_in_count": 6
-    },
-    {
-      "page": "Valar dohaeris",
-      "slug": "valar-dohaeris",
-      "byte_size": 930,
-      "entity_type_guess": "unknown",
-      "categories": [],
-      "has_infobox": false,
-      "pass1_mention_count": 4,
-      "wiki_in_count": 4
-    },
-    {
-      "page": "Weirwood grove",
-      "slug": "weirwood-grove",
-      "byte_size": 24397,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Godswoods",
-        "Places beyond the Wall"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 4,
-      "wiki_in_count": 2
-    },
-    {
-      "page": "Arbor Queen",
-      "slug": "arbor-queen",
-      "byte_size": 4417,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Galleases",
-        "Redwyne fleet"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 3,
-      "wiki_in_count": 1
-    },
-    {
-      "page": "Golden Dragon",
-      "slug": "golden-dragon",
-      "byte_size": 5532,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "House Targaryen ships",
-        "Pages using hatnote template directly"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 3,
-      "wiki_in_count": 1
-    },
-    {
-      "page": "Kingsmoot",
-      "slug": "kingsmoot",
-      "byte_size": 21937,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Ironborn culture",
-        "Terms"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 3,
-      "wiki_in_count": 75
-    },
-    {
-      "page": "Nagga's Hill",
-      "slug": "naggas-hill",
-      "byte_size": 929,
-      "entity_type_guess": "unknown",
-      "categories": [],
-      "has_infobox": false,
-      "pass1_mention_count": 3,
-      "wiki_in_count": 5
-    },
-    {
-      "page": "Night lands",
-      "slug": "night-lands",
-      "byte_size": 4114,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Dothraki culture"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 3,
-      "wiki_in_count": 1
-    },
-    {
-      "page": "Queen of Love and Beauty",
-      "slug": "queen-of-love-and-beauty",
-      "byte_size": 958,
-      "entity_type_guess": "unknown",
-      "categories": [],
-      "has_infobox": false,
-      "pass1_mention_count": 3,
-      "wiki_in_count": 22
-    },
-    {
       "page": "Roggon",
       "slug": "roggon",
       "byte_size": 934,
@@ -1026,28 +651,6 @@
       "has_infobox": false,
       "pass1_mention_count": 3,
       "wiki_in_count": 0
-    },
-    {
-      "page": "Ruby Ford",
-      "slug": "ruby-ford",
-      "byte_size": 913,
-      "entity_type_guess": "unknown",
-      "categories": [],
-      "has_infobox": false,
-      "pass1_mention_count": 3,
-      "wiki_in_count": 29
-    },
-    {
-      "page": "Scribe's Hearth",
-      "slug": "scribes-hearth",
-      "byte_size": 9241,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Citadel"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 3,
-      "wiki_in_count": 3
     },
     {
       "page": "Sothoros",
@@ -1060,16 +663,6 @@
       "wiki_in_count": 0
     },
     {
-      "page": "Spears of the Merling King",
-      "slug": "spears-of-the-merling-king",
-      "byte_size": 964,
-      "entity_type_guess": "unknown",
-      "categories": [],
-      "has_infobox": false,
-      "pass1_mention_count": 3,
-      "wiki_in_count": 2
-    },
-    {
       "page": "The Whore",
       "slug": "the-whore",
       "byte_size": 928,
@@ -1078,29 +671,6 @@
       "has_infobox": false,
       "pass1_mention_count": 3,
       "wiki_in_count": 0
-    },
-    {
-      "page": "All-For-Joffrey",
-      "slug": "all-for-joffrey",
-      "byte_size": 930,
-      "entity_type_guess": "unknown",
-      "categories": [],
-      "has_infobox": false,
-      "pass1_mention_count": 2,
-      "wiki_in_count": 0
-    },
-    {
-      "page": "Bastard sword",
-      "slug": "bastard-sword",
-      "byte_size": 9478,
-      "entity_type_guess": "object.artifact",
-      "categories": [
-        "Swords",
-        "Terms"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 2,
-      "wiki_in_count": 2
     },
     {
       "page": "Bhakaz",
@@ -1113,20 +683,6 @@
       "wiki_in_count": 0
     },
     {
-      "page": "Blue Graces",
-      "slug": "blue-graces",
-      "byte_size": 11620,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Graces",
-        "Healers",
-        "Meereen"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 2,
-      "wiki_in_count": 3
-    },
-    {
       "page": "Bravos",
       "slug": "bravos",
       "byte_size": 901,
@@ -1135,31 +691,6 @@
       "has_infobox": false,
       "pass1_mention_count": 2,
       "wiki_in_count": 2
-    },
-    {
-      "page": "Cyvasse",
-      "slug": "cyvasse",
-      "byte_size": 48711,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Games"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 2,
-      "wiki_in_count": 8
-    },
-    {
-      "page": "Drogo's khalasar",
-      "slug": "drogos-khalasar",
-      "byte_size": 9229,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Articles that are Stubs",
-        "Khalasars"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 2,
-      "wiki_in_count": 1
     },
     {
       "page": "Freys",
@@ -1172,32 +703,6 @@
       "wiki_in_count": 0
     },
     {
-      "page": "Godswood of Winterfell",
-      "slug": "godswood-of-winterfell",
-      "byte_size": 50185,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Godswoods",
-        "Winterfell"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 2,
-      "wiki_in_count": 21
-    },
-    {
-      "page": "Godswood of the Red Keep",
-      "slug": "godswood-of-the-red-keep",
-      "byte_size": 33418,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Godswoods",
-        "Red Keep"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 2,
-      "wiki_in_count": 5
-    },
-    {
       "page": "Gorghan of Old Ghis",
       "slug": "gorghan-of-old-ghis",
       "byte_size": 907,
@@ -1206,19 +711,6 @@
       "has_infobox": false,
       "pass1_mention_count": 2,
       "wiki_in_count": 0
-    },
-    {
-      "page": "Griffin Seat",
-      "slug": "griffin-seat",
-      "byte_size": 5523,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "House Connington",
-        "Thrones"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 2,
-      "wiki_in_count": 1
     },
     {
       "page": "Grumkins",
@@ -1261,70 +753,11 @@
       "wiki_in_count": 0
     },
     {
-      "page": "Myrish lace",
-      "slug": "myrish-lace",
-      "byte_size": 31704,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Clothing"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 2,
-      "wiki_in_count": 1
-    },
-    {
-      "page": "Palanquin",
-      "slug": "palanquin",
-      "byte_size": 35345,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Transport"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 2,
-      "wiki_in_count": 9
-    },
-    {
       "page": "Qhorin",
       "slug": "qhorin",
       "byte_size": 931,
       "entity_type_guess": "unknown",
       "categories": [],
-      "has_infobox": false,
-      "pass1_mention_count": 2,
-      "wiki_in_count": 1
-    },
-    {
-      "page": "Ragpicker's Wynd",
-      "slug": "ragpickers-wynd",
-      "byte_size": 3489,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Oldtown",
-        "Streets"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 2,
-      "wiki_in_count": 1
-    },
-    {
-      "page": "Rolfe The Dwarf",
-      "slug": "rolfe-the-dwarf",
-      "byte_size": 931,
-      "entity_type_guess": "unknown",
-      "categories": [],
-      "has_infobox": false,
-      "pass1_mention_count": 2,
-      "wiki_in_count": 1
-    },
-    {
-      "page": "Satin Palace",
-      "slug": "satin-palace",
-      "byte_size": 6032,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Brothels in Braavos"
-      ],
       "has_infobox": false,
       "pass1_mention_count": 2,
       "wiki_in_count": 1
@@ -1340,21 +773,6 @@
       "wiki_in_count": 4
     },
     {
-      "page": "Septry",
-      "slug": "septry",
-      "byte_size": 15081,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Faith of the Seven",
-        "Religious buildings",
-        "Septries",
-        "Westeros"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 2,
-      "wiki_in_count": 4
-    },
-    {
       "page": "Shadowcats",
       "slug": "shadowcats",
       "byte_size": 913,
@@ -1365,20 +783,6 @@
       "wiki_in_count": 0
     },
     {
-      "page": "Spearwife",
-      "slug": "spearwife",
-      "byte_size": 19292,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Spearwives",
-        "Terms",
-        "Warrior Women"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 2,
-      "wiki_in_count": 24
-    },
-    {
       "page": "Summer Islands",
       "slug": "summer-islands",
       "byte_size": 922,
@@ -1387,31 +791,6 @@
       "has_infobox": false,
       "pass1_mention_count": 2,
       "wiki_in_count": 4
-    },
-    {
-      "page": "Sunset Kingdoms",
-      "slug": "sunset-kingdoms",
-      "byte_size": 2326,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Terms",
-        "Westeros"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 2,
-      "wiki_in_count": 1
-    },
-    {
-      "page": "Swordfish",
-      "slug": "swordfish",
-      "byte_size": 20427,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Fish"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 2,
-      "wiki_in_count": 0
     },
     {
       "page": "Tallhart",
@@ -1434,42 +813,6 @@
       "wiki_in_count": 0
     },
     {
-      "page": "The Song of Ice and Fire",
-      "slug": "the-song-of-ice-and-fire",
-      "byte_size": 958,
-      "entity_type_guess": "unknown",
-      "categories": [],
-      "has_infobox": false,
-      "pass1_mention_count": 2,
-      "wiki_in_count": 0
-    },
-    {
-      "page": "The prince that was promised",
-      "slug": "the-prince-that-was-promised",
-      "byte_size": 39357,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Prophecy"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 2,
-      "wiki_in_count": 8
-    },
-    {
-      "page": "Tokar",
-      "slug": "tokar",
-      "byte_size": 58274,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Clothing",
-        "Ghiscari culture",
-        "Slaver's Bay"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 2,
-      "wiki_in_count": 14
-    },
-    {
       "page": "Unicorns",
       "slug": "unicorns",
       "byte_size": 906,
@@ -1480,75 +823,11 @@
       "wiki_in_count": 0
     },
     {
-      "page": "Urrax",
-      "slug": "urrax",
-      "byte_size": 11368,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Legendary dragons"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 2,
-      "wiki_in_count": 1
-    },
-    {
-      "page": "Walls of Qarth",
-      "slug": "walls-of-qarth",
-      "byte_size": 16467,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Qarth",
-        "Walls",
-        "Wonders Made by Man"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 2,
-      "wiki_in_count": 3
-    },
-    {
-      "page": "Wayn",
-      "slug": "wayn",
-      "byte_size": 25398,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Pages using hatnote template directly",
-        "Transport"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 2,
-      "wiki_in_count": 1
-    },
-    {
-      "page": "White Graces",
-      "slug": "white-graces",
-      "byte_size": 6146,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Graces",
-        "Meereen"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 2,
-      "wiki_in_count": 2
-    },
-    {
       "page": "Wine merchant",
       "slug": "wine-merchant",
       "byte_size": 916,
       "entity_type_guess": "unknown",
       "categories": [],
-      "has_infobox": false,
-      "pass1_mention_count": 2,
-      "wiki_in_count": 1
-    },
-    {
-      "page": "Wormways",
-      "slug": "wormways",
-      "byte_size": 13887,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Castle Black"
-      ],
       "has_infobox": false,
       "pass1_mention_count": 2,
       "wiki_in_count": 1
@@ -1564,20 +843,6 @@
       "wiki_in_count": 0
     },
     {
-      "page": "Arakh",
-      "slug": "arakh",
-      "byte_size": 27127,
-      "entity_type_guess": "object.artifact",
-      "categories": [
-        "Dothraki culture",
-        "Swords",
-        "Terms"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 1,
-      "wiki_in_count": 13
-    },
-    {
       "page": "Barsena",
       "slug": "barsena",
       "byte_size": 937,
@@ -1586,40 +851,6 @@
       "has_infobox": false,
       "pass1_mention_count": 1,
       "wiki_in_count": 2
-    },
-    {
-      "page": "Battle fever",
-      "slug": "battle-fever",
-      "byte_size": 5865,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Terms"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 1,
-      "wiki_in_count": 0
-    },
-    {
-      "page": "Bethany Fair-Fingers",
-      "slug": "bethany-fair-fingers",
-      "byte_size": 946,
-      "entity_type_guess": "unknown",
-      "categories": [],
-      "has_infobox": false,
-      "pass1_mention_count": 1,
-      "wiki_in_count": 0
-    },
-    {
-      "page": "Bone flute",
-      "slug": "bone-flute",
-      "byte_size": 7711,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Musical instruments"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 1,
-      "wiki_in_count": 1
     },
     {
       "page": "Book of Lost Books",
@@ -1640,30 +871,6 @@
       "has_infobox": false,
       "pass1_mention_count": 1,
       "wiki_in_count": 0
-    },
-    {
-      "page": "Cannibalism",
-      "slug": "cannibalism",
-      "byte_size": 31886,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Cannibalism",
-        "Pages using hatnote template directly",
-        "Terms"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 1,
-      "wiki_in_count": 19
-    },
-    {
-      "page": "Drowned Men",
-      "slug": "drowned-men",
-      "byte_size": 919,
-      "entity_type_guess": "unknown",
-      "categories": [],
-      "has_infobox": false,
-      "pass1_mention_count": 1,
-      "wiki_in_count": 5
     },
     {
       "page": "Elenya Westerling",
@@ -1696,52 +903,9 @@
       "wiki_in_count": 1
     },
     {
-      "page": "Goodwife Maerie",
-      "slug": "goodwife-maerie",
-      "byte_size": 937,
-      "entity_type_guess": "unknown",
-      "categories": [],
-      "has_infobox": false,
-      "pass1_mention_count": 1,
-      "wiki_in_count": 0
-    },
-    {
       "page": "Hagen",
       "slug": "hagen",
       "byte_size": 928,
-      "entity_type_guess": "unknown",
-      "categories": [],
-      "has_infobox": false,
-      "pass1_mention_count": 1,
-      "wiki_in_count": 0
-    },
-    {
-      "page": "Hair shirts",
-      "slug": "hair-shirts",
-      "byte_size": 916,
-      "entity_type_guess": "unknown",
-      "categories": [],
-      "has_infobox": false,
-      "pass1_mention_count": 1,
-      "wiki_in_count": 1
-    },
-    {
-      "page": "Hathay",
-      "slug": "hathay",
-      "byte_size": 14529,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Terms",
-        "Transport"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 1,
-      "wiki_in_count": 0
-    },
-    {
-      "page": "High King",
-      "slug": "high-king",
-      "byte_size": 913,
       "entity_type_guess": "unknown",
       "categories": [],
       "has_infobox": false,
@@ -1769,19 +933,6 @@
       "wiki_in_count": 3
     },
     {
-      "page": "Kneelers",
-      "slug": "kneelers",
-      "byte_size": 12198,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Society",
-        "Terms"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 1,
-      "wiki_in_count": 3
-    },
-    {
       "page": "Kos",
       "slug": "kos",
       "byte_size": 892,
@@ -1792,55 +943,6 @@
       "wiki_in_count": 1
     },
     {
-      "page": "Land of Always Winter",
-      "slug": "land-of-always-winter",
-      "byte_size": 17646,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Places beyond the Wall"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 1,
-      "wiki_in_count": 1
-    },
-    {
-      "page": "Long Stone Quay",
-      "slug": "long-stone-quay",
-      "byte_size": 6114,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Harbors",
-        "Ten Towers"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 1,
-      "wiki_in_count": 1
-    },
-    {
-      "page": "Lorn Point",
-      "slug": "lorn-point",
-      "byte_size": 7737,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Places beyond the Wall"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 1,
-      "wiki_in_count": 3
-    },
-    {
-      "page": "Monsters-and-maidens",
-      "slug": "monsters-and-maidens",
-      "byte_size": 14942,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Games"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 1,
-      "wiki_in_count": 2
-    },
-    {
       "page": "Night's King's corpse queen",
       "slug": "nights-kings-corpse-queen",
       "byte_size": 922,
@@ -1849,20 +951,6 @@
       "has_infobox": false,
       "pass1_mention_count": 1,
       "wiki_in_count": 1
-    },
-    {
-      "page": "Old Palace",
-      "slug": "old-palace",
-      "byte_size": 19203,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "House Martell",
-        "Palaces",
-        "Sunspear"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 1,
-      "wiki_in_count": 3
     },
     {
       "page": "Parquello",
@@ -1885,19 +973,6 @@
       "wiki_in_count": 0
     },
     {
-      "page": "Qartheen gown",
-      "slug": "qartheen-gown",
-      "byte_size": 19305,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Clothing",
-        "Qarth"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 1,
-      "wiki_in_count": 2
-    },
-    {
       "page": "Rymund",
       "slug": "rymund",
       "byte_size": 937,
@@ -1908,86 +983,9 @@
       "wiki_in_count": 0
     },
     {
-      "page": "Secret marriage pact",
-      "slug": "secret-marriage-pact",
-      "byte_size": 29844,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Braavos",
-        "House Martell",
-        "House Targaryen",
-        "Terms"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 1,
-      "wiki_in_count": 13
-    },
-    {
-      "page": "Shark",
-      "slug": "shark",
-      "byte_size": 23492,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Fish"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 1,
-      "wiki_in_count": 1
-    },
-    {
       "page": "Shields",
       "slug": "shields",
       "byte_size": 928,
-      "entity_type_guess": "unknown",
-      "categories": [],
-      "has_infobox": false,
-      "pass1_mention_count": 1,
-      "wiki_in_count": 0
-    },
-    {
-      "page": "Shortsword",
-      "slug": "shortsword",
-      "byte_size": 6243,
-      "entity_type_guess": "object.artifact",
-      "categories": [
-        "Swords",
-        "Terms"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 1,
-      "wiki_in_count": 0
-    },
-    {
-      "page": "Southron",
-      "slug": "southron",
-      "byte_size": 22852,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Terms",
-        "Westeros"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 1,
-      "wiki_in_count": 19
-    },
-    {
-      "page": "Sworn Brother",
-      "slug": "sworn-brother",
-      "byte_size": 3150,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Kingsguard",
-        "Night's Watch",
-        "Terms"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 1,
-      "wiki_in_count": 7
-    },
-    {
-      "page": "The gift of mercy",
-      "slug": "the-gift-of-mercy",
-      "byte_size": 924,
       "entity_type_guess": "unknown",
       "categories": [],
       "has_infobox": false,
@@ -2005,28 +1003,6 @@
       "wiki_in_count": 0
     },
     {
-      "page": "Tiles",
-      "slug": "tiles",
-      "byte_size": 21909,
-      "entity_type_guess": "unknown",
-      "categories": [],
-      "has_infobox": false,
-      "pass1_mention_count": 1,
-      "wiki_in_count": 2
-    },
-    {
-      "page": "Trebuchet",
-      "slug": "trebuchet",
-      "byte_size": 3899,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "Trebuchets"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 1,
-      "wiki_in_count": 10
-    },
-    {
       "page": "Urragon Goodbrother",
       "slug": "urragon-goodbrother",
       "byte_size": 955,
@@ -2035,20 +1011,6 @@
       "has_infobox": false,
       "pass1_mention_count": 1,
       "wiki_in_count": 0
-    },
-    {
-      "page": "Usurper",
-      "slug": "usurper",
-      "byte_size": 34704,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "House Baratheon",
-        "Robert's Rebellion",
-        "Terms"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 1,
-      "wiki_in_count": 12
     },
     {
       "page": "Valyrian glyphs",
@@ -2079,20 +1041,6 @@
       "has_infobox": false,
       "pass1_mention_count": 1,
       "wiki_in_count": 0
-    },
-    {
-      "page": "Wolf blood",
-      "slug": "wolf-blood",
-      "byte_size": 22644,
-      "entity_type_guess": "unknown",
-      "categories": [
-        "House Stark",
-        "Terms",
-        "Wolves"
-      ],
-      "has_infobox": false,
-      "pass1_mention_count": 1,
-      "wiki_in_count": 1
     }
   ],
   "bucket_b": [

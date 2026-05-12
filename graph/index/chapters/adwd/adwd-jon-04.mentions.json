@@ -2,14 +2,14 @@
   "chapter_id": "adwd-jon-04",
   "book": "adwd",
   "pov_character": "jon",
-  "generated_at": "2026-05-11T22:47:27.466984+00:00",
+  "generated_at": "2026-05-12T18:30:45.044331+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-jon-04.extraction.md",
   "stats": {
     "total_mentions": 85,
-    "resolved_to_node": 70,
-    "direct": 62,
-    "alias": 8,
-    "unresolved": 15
+    "resolved_to_node": 73,
+    "direct": 64,
+    "alias": 9,
+    "unresolved": 12
   },
   "mentions": [
     {
@@ -230,10 +230,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Characters Referenced",
       "line": 59
     },
@@ -491,10 +491,10 @@
     },
     {
       "raw_name": "The wormways",
-      "slug": "the-wormways",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "wormways",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wormways.node.md",
       "section": "Locations",
       "line": 92
     },
@@ -689,10 +689,10 @@
     },
     {
       "raw_name": "The wormways",
-      "slug": "the-wormways",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "wormways",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wormways.node.md",
       "section": "Location Descriptions",
       "line": 118
     },

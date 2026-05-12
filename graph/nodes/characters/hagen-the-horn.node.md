@@ -2,7 +2,7 @@
 name: "Hagen the Horn"
 type: character.human
 slug: hagen-the-horn
-aliases: ["Hagen the Horn"]
+aliases: ["Hagen the Horn", "hagen"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Hagen_the_Horn"
 bucket_id: characters-other-g-h

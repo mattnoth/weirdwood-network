@@ -2,7 +2,7 @@
 name: "Unicorn"
 type: species
 slug: unicorn
-aliases: []
+aliases: ["unicorns"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Unicorn"
 bucket_id: tier3-pathb-longtail

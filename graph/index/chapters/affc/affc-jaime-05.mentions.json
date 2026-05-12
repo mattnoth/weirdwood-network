@@ -2,14 +2,14 @@
   "chapter_id": "affc-jaime-05",
   "book": "affc",
   "pov_character": "jaime",
-  "generated_at": "2026-05-11T22:47:27.430787+00:00",
+  "generated_at": "2026-05-12T18:30:45.001243+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-jaime-05.extraction.md",
   "stats": {
     "total_mentions": 127,
-    "resolved_to_node": 96,
+    "resolved_to_node": 97,
     "direct": 89,
-    "alias": 7,
-    "unresolved": 31
+    "alias": 8,
+    "unresolved": 30
   },
   "mentions": [
     {
@@ -860,10 +860,10 @@
     },
     {
       "raw_name": "The ford (upstream of Riverrun)",
-      "slug": "the-ford",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "ruby-ford",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ruby-ford.node.md",
       "section": "Locations",
       "line": 133
     },

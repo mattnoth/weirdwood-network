@@ -2,14 +2,14 @@
   "chapter_id": "agot-tyrion-02",
   "book": "agot",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-11T22:47:27.292433+00:00",
+  "generated_at": "2026-05-12T18:30:44.843204+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-tyrion-02.extraction.md",
   "stats": {
     "total_mentions": 130,
-    "resolved_to_node": 73,
+    "resolved_to_node": 74,
     "direct": 73,
-    "alias": 0,
-    "unresolved": 57
+    "alias": 1,
+    "unresolved": 56
   },
   "mentions": [
     {
@@ -1139,10 +1139,10 @@
     },
     {
       "raw_name": "Grumkins (referenced as mythical creatures; used humorously)",
-      "slug": "grumkins",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "grumkin",
+      "resolved_via": "alias",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/grumkin.node.md",
       "section": "Raw Entity List > Other",
       "line": 326
     },

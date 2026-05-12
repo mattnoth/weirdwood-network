@@ -2,14 +2,14 @@
   "chapter_id": "affc-prologue",
   "book": "affc",
   "pov_character": "affc-prologue",
-  "generated_at": "2026-05-11T22:47:27.433381+00:00",
+  "generated_at": "2026-05-12T18:30:45.004427+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-prologue.extraction.md",
   "stats": {
     "total_mentions": 219,
-    "resolved_to_node": 125,
-    "direct": 116,
-    "alias": 9,
-    "unresolved": 94
+    "resolved_to_node": 132,
+    "direct": 119,
+    "alias": 13,
+    "unresolved": 87
   },
   "mentions": [
     {
@@ -537,9 +537,9 @@
     {
       "raw_name": "Ragpicker's Wynd",
       "slug": "ragpickers-wynd",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ragpickers-wynd.node.md",
       "section": "Locations",
       "line": 97
     },
@@ -680,10 +680,10 @@
     },
     {
       "raw_name": "The narrow sea",
-      "slug": "the-narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "narrow-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Locations",
       "line": 113
     },
@@ -1293,9 +1293,9 @@
     {
       "raw_name": "Ragpicker's Wynd",
       "slug": "ragpickers-wynd",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ragpickers-wynd.node.md",
       "section": "Raw Entity List > Locations",
       "line": 328
     },
@@ -1436,10 +1436,10 @@
     },
     {
       "raw_name": "The narrow sea",
-      "slug": "the-narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "narrow-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Raw Entity List > Locations",
       "line": 344
     },
@@ -1814,10 +1814,10 @@
     },
     {
       "raw_name": "\"Higher mysteries\" (what some acolytes study at the Citadel)",
-      "slug": "higher-mysteries",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "magic",
+      "resolved_via": "alias",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/magic.node.md",
       "section": "Raw Entity List > Magic & Phenomena",
       "line": 400
     },
@@ -1950,9 +1950,9 @@
     {
       "raw_name": "Tiles (a game played at the Checkered Hazard — Leo lost)",
       "slug": "tiles",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/tiles.node.md",
       "section": "Raw Entity List > Other",
       "line": 421
     },
@@ -1967,10 +1967,10 @@
     },
     {
       "raw_name": "White ravens (Walgrave's pride; know Pate's name; mutter \"Pate, Pate, Pate\" — associated with the Citadel and seasonal announcements)",
-      "slug": "white-ravens",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "white-raven",
+      "resolved_via": "alias",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/white-raven.node.md",
       "section": "Raw Entity List > Other",
       "line": 423
     },

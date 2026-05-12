@@ -1,0 +1,16 @@
+{
+  "worker_id": "case-collision-batch-2-high-road",
+  "started_at": "2026-05-12T17:02:25Z",
+  "completed_at": "2026-05-12T17:03:00Z",
+  "status": "pass",
+  "confidence": 0.88,
+  "source_count": 5,
+  "source_files_consulted": [
+    "graph/nodes/locations/eyrie.node.md",
+    "graph/nodes/locations/bloody-gate.node.md",
+    "graph/nodes/characters/sandor-clegane.node.md",
+    "graph/nodes/characters/vardis-egen.node.md",
+    "graph/nodes/characters/benjicot-blackwood.node.md"
+  ],
+  "notes": "Wiki page High_Road.json is a redirect stub. All content synthesized from top-source prose nodes. No infobox entry found for high-road. REGION_OF vale-of-arryn inferred from context; no infobox to derive formal edges."
+}

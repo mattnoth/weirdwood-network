@@ -2,14 +2,14 @@
   "chapter_id": "affc-brienne-06",
   "book": "affc",
   "pov_character": "brienne",
-  "generated_at": "2026-05-11T22:47:27.416622+00:00",
+  "generated_at": "2026-05-12T18:30:44.982980+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-brienne-06.extraction.md",
   "stats": {
     "total_mentions": 198,
-    "resolved_to_node": 125,
+    "resolved_to_node": 127,
     "direct": 117,
-    "alias": 8,
-    "unresolved": 73
+    "alias": 10,
+    "unresolved": 71
   },
   "mentions": [
     {
@@ -419,10 +419,10 @@
     },
     {
       "raw_name": "The silent sisters",
-      "slug": "the-silent-sisters",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "silent-sisters",
+      "resolved_via": "alias",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/silent-sisters.node.md",
       "section": "Characters Referenced",
       "line": 80
     },
@@ -1535,10 +1535,10 @@
     },
     {
       "raw_name": "The silent sisters (referenced by Podrick)",
-      "slug": "the-silent-sisters",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "silent-sisters",
+      "resolved_via": "alias",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/silent-sisters.node.md",
       "section": "Raw Entity List > Factions & Organizations",
       "line": 394
     },

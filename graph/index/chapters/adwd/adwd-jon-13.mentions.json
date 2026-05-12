@@ -2,14 +2,14 @@
   "chapter_id": "adwd-jon-13",
   "book": "adwd",
   "pov_character": "jon",
-  "generated_at": "2026-05-11T22:47:27.472748+00:00",
+  "generated_at": "2026-05-12T18:30:45.051123+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-jon-13.extraction.md",
   "stats": {
     "total_mentions": 108,
-    "resolved_to_node": 88,
+    "resolved_to_node": 90,
     "direct": 81,
-    "alias": 7,
-    "unresolved": 20
+    "alias": 9,
+    "unresolved": 18
   },
   "mentions": [
     {
@@ -527,10 +527,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Characters Referenced",
       "line": 92
     },
@@ -977,10 +977,10 @@
     },
     {
       "raw_name": "Shields (Shieldhall)",
-      "slug": "shields",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "shield-islands",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/shield-islands.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 154
     }

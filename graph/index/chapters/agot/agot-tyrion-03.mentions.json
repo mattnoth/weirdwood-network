@@ -2,14 +2,14 @@
   "chapter_id": "agot-tyrion-03",
   "book": "agot",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-11T22:47:27.292929+00:00",
+  "generated_at": "2026-05-12T18:30:44.843694+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-tyrion-03.extraction.md",
   "stats": {
     "total_mentions": 55,
-    "resolved_to_node": 46,
-    "direct": 45,
-    "alias": 1,
-    "unresolved": 9
+    "resolved_to_node": 50,
+    "direct": 47,
+    "alias": 3,
+    "unresolved": 5
   },
   "mentions": [
     {
@@ -59,10 +59,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Characters Present",
       "line": 32
     },
@@ -113,10 +113,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Character Appearances",
       "line": 42
     },
@@ -446,10 +446,10 @@
     },
     {
       "raw_name": "The haunted forest",
-      "slug": "the-haunted-forest",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "haunted-forest",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Locations",
       "line": 87
     },
@@ -473,10 +473,10 @@
     },
     {
       "raw_name": "The haunted forest",
-      "slug": "the-haunted-forest",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "haunted-forest",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Location Descriptions",
       "line": 94
     },

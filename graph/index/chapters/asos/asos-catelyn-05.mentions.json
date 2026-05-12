@@ -2,14 +2,14 @@
   "chapter_id": "asos-catelyn-05",
   "book": "asos",
   "pov_character": "catelyn",
-  "generated_at": "2026-05-11T22:47:27.367411+00:00",
+  "generated_at": "2026-05-12T18:30:44.926538+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-catelyn-05.extraction.md",
   "stats": {
     "total_mentions": 117,
-    "resolved_to_node": 101,
-    "direct": 98,
+    "resolved_to_node": 104,
+    "direct": 101,
     "alias": 3,
-    "unresolved": 16
+    "unresolved": 13
   },
   "mentions": [
     {
@@ -896,10 +896,10 @@
     },
     {
       "raw_name": "The Frozen Shore",
-      "slug": "the-frozen-shore",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "frozen-shore",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/frozen-shore.node.md",
       "section": "Locations",
       "line": 137
     },
@@ -932,10 +932,10 @@
     },
     {
       "raw_name": "The godswood (Riverrun)",
-      "slug": "the-godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "godswood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Locations",
       "line": 141
     },
@@ -1050,9 +1050,9 @@
     {
       "raw_name": "Seastone Chair",
       "slug": "seastone-chair",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/seastone-chair.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 162
     },

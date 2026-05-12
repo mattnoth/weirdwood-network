@@ -2,14 +2,14 @@
   "chapter_id": "asos-catelyn-06",
   "book": "asos",
   "pov_character": "catelyn",
-  "generated_at": "2026-05-11T22:47:27.368277+00:00",
+  "generated_at": "2026-05-12T18:30:44.927527+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-catelyn-06.extraction.md",
   "stats": {
     "total_mentions": 127,
-    "resolved_to_node": 95,
-    "direct": 88,
-    "alias": 7,
-    "unresolved": 32
+    "resolved_to_node": 98,
+    "direct": 89,
+    "alias": 9,
+    "unresolved": 29
   },
   "mentions": [
     {
@@ -815,10 +815,10 @@
     },
     {
       "raw_name": "Tallhart (forces)",
-      "slug": "tallhart",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "house-tallhart",
+      "resolved_via": "alias",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-tallhart.node.md",
       "section": "Characters Referenced",
       "line": 124
     },
@@ -951,9 +951,9 @@
     {
       "raw_name": "Ruby ford",
       "slug": "ruby-ford",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ruby-ford.node.md",
       "section": "Locations",
       "line": 143
     },
@@ -1031,10 +1031,10 @@
     },
     {
       "raw_name": "The Vale",
-      "slug": "the-vale",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "vale-of-arryn",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
       "section": "Locations",
       "line": 152
     },

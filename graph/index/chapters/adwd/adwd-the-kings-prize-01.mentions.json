@@ -2,14 +2,14 @@
   "chapter_id": "adwd-the-kings-prize-01",
   "book": "adwd",
   "pov_character": "the-kings-prize",
-  "generated_at": "2026-05-11T22:47:27.484041+00:00",
+  "generated_at": "2026-05-12T18:30:45.062912+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-the-kings-prize-01.extraction.md",
   "stats": {
     "total_mentions": 85,
-    "resolved_to_node": 62,
+    "resolved_to_node": 63,
     "direct": 57,
-    "alias": 5,
-    "unresolved": 23
+    "alias": 6,
+    "unresolved": 22
   },
   "mentions": [
     {
@@ -446,10 +446,10 @@
     },
     {
       "raw_name": "Roggon",
-      "slug": "roggon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "roggon-rustbeard",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/roggon-rustbeard.node.md",
       "section": "Characters Referenced",
       "line": 83
     },

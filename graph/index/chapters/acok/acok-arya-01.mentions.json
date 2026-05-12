@@ -2,14 +2,14 @@
   "chapter_id": "acok-arya-01",
   "book": "acok",
   "pov_character": "arya",
-  "generated_at": "2026-05-11T22:47:27.296843+00:00",
+  "generated_at": "2026-05-12T18:30:44.848066+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-arya-01.extraction.md",
   "stats": {
     "total_mentions": 95,
-    "resolved_to_node": 43,
-    "direct": 40,
+    "resolved_to_node": 48,
+    "direct": 45,
     "alias": 3,
-    "unresolved": 52
+    "unresolved": 47
   },
   "mentions": [
     {
@@ -321,9 +321,9 @@
     {
       "raw_name": "Flea Bottom",
       "slug": "flea-bottom",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/flea-bottom.node.md",
       "section": "Locations",
       "line": 73
     },
@@ -383,10 +383,10 @@
     },
     {
       "raw_name": "The red comet",
-      "slug": "the-red-comet",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "red-comet",
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/red-comet.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 88
     },
@@ -663,9 +663,9 @@
     {
       "raw_name": "Flea Bottom",
       "slug": "flea-bottom",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/flea-bottom.node.md",
       "section": "Raw Entity List > Locations",
       "line": 237
     },
@@ -752,10 +752,10 @@
     },
     {
       "raw_name": "The red comet (\"The Red Sword\")",
-      "slug": "the-red-comet",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "red-comet",
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/red-comet.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 259
     },
@@ -824,10 +824,10 @@
     },
     {
       "raw_name": "The red comet (great red comet visible at night; called \"The Red Sword\" by the Bull)",
-      "slug": "the-red-comet",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "red-comet",
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/red-comet.node.md",
       "section": "Raw Entity List > Magic & Phenomena",
       "line": 272
     },

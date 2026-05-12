@@ -2,14 +2,14 @@
   "chapter_id": "acok-daenerys-04",
   "book": "acok",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-11T22:47:27.318370+00:00",
+  "generated_at": "2026-05-12T18:30:44.871964+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-daenerys-04.extraction.md",
   "stats": {
     "total_mentions": 166,
-    "resolved_to_node": 45,
-    "direct": 45,
+    "resolved_to_node": 50,
+    "direct": 50,
     "alias": 0,
-    "unresolved": 121
+    "unresolved": 116
   },
   "mentions": [
     {
@@ -447,9 +447,9 @@
     {
       "raw_name": "Palanquin",
       "slug": "palanquin",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/palanquin.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 95
     },
@@ -1041,18 +1041,18 @@
     {
       "raw_name": "Palanquin (Dany arrives in it; Xaro lounges inside)",
       "slug": "palanquin",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/palanquin.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 338
     },
     {
       "raw_name": "Arakh (Aggo's weapon)",
       "slug": "arakh",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/arakh.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 339
     },
@@ -1203,9 +1203,9 @@
     {
       "raw_name": "\"The song of ice and fire\" (referenced by the man with indigo eyes — \"his is the song of ice and fire\")",
       "slug": "the-song-of-ice-and-fire",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept.prophecy",
+      "node_path": "graph/nodes/prophecies/the-song-of-ice-and-fire.node.md",
       "section": "Raw Entity List > In-world Texts & Songs",
       "line": 358
     },
@@ -1329,9 +1329,9 @@
     {
       "raw_name": "\"The prince that was promised\"",
       "slug": "the-prince-that-was-promised",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept.prophecy",
+      "node_path": "graph/nodes/prophecies/the-prince-that-was-promised.node.md",
       "section": "Raw Entity List > Magic & Phenomena",
       "line": 374
     },

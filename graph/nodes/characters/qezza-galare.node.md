@@ -2,7 +2,7 @@
 name: "Qezza Galare"
 type: character.human
 slug: qezza-galare
-aliases: []
+aliases: ["qezza"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Qezza_Galare"
 bucket_id: characters-house-of-galare

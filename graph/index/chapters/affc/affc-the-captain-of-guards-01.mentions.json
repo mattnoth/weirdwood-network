@@ -2,14 +2,14 @@
   "chapter_id": "affc-the-captain-of-guards-01",
   "book": "affc",
   "pov_character": "the-captain-of-guards",
-  "generated_at": "2026-05-11T22:47:27.440605+00:00",
+  "generated_at": "2026-05-12T18:30:45.012772+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-the-captain-of-guards-01.extraction.md",
   "stats": {
     "total_mentions": 79,
-    "resolved_to_node": 49,
-    "direct": 49,
+    "resolved_to_node": 50,
+    "direct": 50,
     "alias": 0,
-    "unresolved": 30
+    "unresolved": 29
   },
   "mentions": [
     {
@@ -474,9 +474,9 @@
     {
       "raw_name": "Old Palace",
       "slug": "old-palace",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/old-palace.node.md",
       "section": "Locations",
       "line": 90
     },

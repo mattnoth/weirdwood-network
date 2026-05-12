@@ -1,0 +1,140 @@
+{
+  "slug": "house-seaworth",
+  "name": "House Seaworth",
+  "type": "organization.house",
+  "node_path": "graph/nodes/houses/house-seaworth.node.md",
+  "generated_at": "2026-05-11T23:36:16.158745+00:00",
+  "stats": {
+    "appearances_total": 5,
+    "chapters_referenced_in": 5,
+    "chapters_in_raw_list": 5,
+    "out_edge_count": 5,
+    "in_edge_count": 8
+  },
+  "chapters": {
+    "in_raw_list": [
+      {
+        "chapter_id": "acok-davos-01",
+        "book": "acok",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "acok-prologue",
+        "book": "acok",
+        "pov_character_slug": "cressen",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-davos-01",
+        "book": "asos",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-davos-04",
+        "book": "adwd",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-melisandre-01",
+        "book": "adwd",
+        "pov_character_slug": "melisandre",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      }
+    ],
+    "referenced_in": [
+      {
+        "chapter_id": "acok-davos-01",
+        "book": "acok",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "acok-prologue",
+        "book": "acok",
+        "pov_character_slug": "cressen",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-davos-01",
+        "book": "asos",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-davos-04",
+        "book": "adwd",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-melisandre-01",
+        "book": "adwd",
+        "pov_character_slug": "melisandre",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      }
+    ]
+  }
+}

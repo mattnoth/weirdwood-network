@@ -2,14 +2,14 @@
   "chapter_id": "asos-arya-13",
   "book": "asos",
   "pov_character": "arya",
-  "generated_at": "2026-05-11T22:47:27.360675+00:00",
+  "generated_at": "2026-05-12T18:30:44.918593+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-arya-13.extraction.md",
   "stats": {
     "total_mentions": 181,
-    "resolved_to_node": 107,
-    "direct": 101,
-    "alias": 6,
-    "unresolved": 74
+    "resolved_to_node": 114,
+    "direct": 106,
+    "alias": 8,
+    "unresolved": 67
   },
   "mentions": [
     {
@@ -401,10 +401,10 @@
     },
     {
       "raw_name": "The ruby ford",
-      "slug": "the-ruby-ford",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "ruby-ford",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ruby-ford.node.md",
       "section": "Locations",
       "line": 82
     },
@@ -536,10 +536,10 @@
     },
     {
       "raw_name": "The Vale",
-      "slug": "the-vale",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "vale-of-arryn",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
       "section": "Locations",
       "line": 97
     },
@@ -1013,10 +1013,10 @@
     },
     {
       "raw_name": "The ruby ford",
-      "slug": "the-ruby-ford",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "ruby-ford",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ruby-ford.node.md",
       "section": "Raw Entity List > Locations",
       "line": 324
     },
@@ -1148,10 +1148,10 @@
     },
     {
       "raw_name": "The Vale",
-      "slug": "the-vale",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "vale-of-arryn",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
       "section": "Raw Entity List > Locations",
       "line": 339
     },
@@ -1491,18 +1491,18 @@
     {
       "raw_name": "\"Valar morghulis\" (the phrase; Arya uses it as a ritual invocation with the iron coin)",
       "slug": "valar-morghulis",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/valar-morghulis.node.md",
       "section": "Raw Entity List > Magic & Phenomena",
       "line": 392
     },
     {
       "raw_name": "\"Valar dohaeris\" (the captain's response)",
       "slug": "valar-dohaeris",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/valar-dohaeris.node.md",
       "section": "Raw Entity List > Magic & Phenomena",
       "line": 393
     },
@@ -1617,9 +1617,9 @@
     {
       "raw_name": "\"The gift of mercy\" (concept: mercy killing; Sandor asks for it; Arya refuses)",
       "slug": "the-gift-of-mercy",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/the-gift-of-mercy.node.md",
       "section": "Raw Entity List > Other",
       "line": 412
     },

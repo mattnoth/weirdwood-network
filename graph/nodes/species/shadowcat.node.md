@@ -2,7 +2,7 @@
 name: "Shadowcat"
 type: species
 slug: shadowcat
-aliases: []
+aliases: ["shadowcats"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Shadowcat"
 bucket_id: tier3-pathb-longtail

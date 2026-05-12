@@ -2,14 +2,14 @@
   "chapter_id": "asos-jon-12",
   "book": "asos",
   "pov_character": "jon",
-  "generated_at": "2026-05-11T22:47:27.392338+00:00",
+  "generated_at": "2026-05-12T18:30:44.954580+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jon-12.extraction.md",
   "stats": {
     "total_mentions": 97,
-    "resolved_to_node": 67,
-    "direct": 57,
-    "alias": 10,
-    "unresolved": 30
+    "resolved_to_node": 71,
+    "direct": 59,
+    "alias": 12,
+    "unresolved": 26
   },
   "mentions": [
     {
@@ -95,10 +95,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Characters Present",
       "line": 36
     },
@@ -518,10 +518,10 @@
     },
     {
       "raw_name": "Prince Aemon the Dragonknight",
-      "slug": "prince-aemon-the-dragonknight",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-viserys-ii",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-viserys-ii.node.md",
       "section": "Characters Referenced",
       "line": 91
     },
@@ -600,9 +600,9 @@
     {
       "raw_name": "Wormways (underground tunnels)",
       "slug": "wormways",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wormways.node.md",
       "section": "Locations",
       "line": 104
     },
@@ -717,9 +717,9 @@
     {
       "raw_name": "Wormways",
       "slug": "wormways",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/wormways.node.md",
       "section": "Location Descriptions",
       "line": 121
     },

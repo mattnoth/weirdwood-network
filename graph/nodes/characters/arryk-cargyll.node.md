@@ -2,7 +2,7 @@
 name: "Arryk Cargyll"
 type: character.human
 slug: arryk-cargyll
-aliases: ['One of "the celebrated Cargyll twins"']
+aliases: ['One of "the celebrated Cargyll twins"', "Arryk (guard)"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Arryk_Cargyll"
 bucket_id: characters-house-cargyll

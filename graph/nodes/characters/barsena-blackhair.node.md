@@ -2,7 +2,7 @@
 name: "Barsena Blackhair"
 type: character.human
 slug: barsena-blackhair
-aliases: ["Barsena Blackhair"]
+aliases: ["Barsena Blackhair", "barsena"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Barsena_Blackhair"
 bucket_id: characters-other-a-b

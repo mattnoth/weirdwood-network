@@ -2,14 +2,14 @@
   "chapter_id": "asos-samwell-05",
   "book": "asos",
   "pov_character": "samwell",
-  "generated_at": "2026-05-11T22:47:27.396287+00:00",
+  "generated_at": "2026-05-12T18:30:44.959659+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-samwell-05.extraction.md",
   "stats": {
     "total_mentions": 60,
-    "resolved_to_node": 48,
+    "resolved_to_node": 50,
     "direct": 46,
-    "alias": 2,
-    "unresolved": 12
+    "alias": 4,
+    "unresolved": 10
   },
   "mentions": [
     {
@@ -41,10 +41,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Characters Present",
       "line": 30
     },
@@ -149,10 +149,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Character Appearances",
       "line": 46
     },

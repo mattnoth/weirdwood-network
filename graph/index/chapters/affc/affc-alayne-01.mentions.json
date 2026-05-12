@@ -2,14 +2,14 @@
   "chapter_id": "affc-alayne-01",
   "book": "affc",
   "pov_character": "alayne",
-  "generated_at": "2026-05-11T22:47:27.408630+00:00",
+  "generated_at": "2026-05-12T18:30:44.973857+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-alayne-01.extraction.md",
   "stats": {
     "total_mentions": 106,
-    "resolved_to_node": 87,
+    "resolved_to_node": 88,
     "direct": 85,
-    "alias": 2,
-    "unresolved": 19
+    "alias": 3,
+    "unresolved": 18
   },
   "mentions": [
     {
@@ -671,10 +671,10 @@
     },
     {
       "raw_name": "The Vale",
-      "slug": "the-vale",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "vale-of-arryn",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
       "section": "Locations",
       "line": 112
     },

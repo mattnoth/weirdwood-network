@@ -2,14 +2,14 @@
   "chapter_id": "acok-sansa-01",
   "book": "acok",
   "pov_character": "sansa",
-  "generated_at": "2026-05-11T22:47:27.330324+00:00",
+  "generated_at": "2026-05-12T18:30:44.885716+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-sansa-01.extraction.md",
   "stats": {
     "total_mentions": 83,
-    "resolved_to_node": 60,
-    "direct": 59,
+    "resolved_to_node": 61,
+    "direct": 60,
     "alias": 1,
-    "unresolved": 23
+    "unresolved": 22
   },
   "mentions": [
     {
@@ -707,10 +707,10 @@
     },
     {
       "raw_name": "The red comet",
-      "slug": "the-red-comet",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "red-comet",
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/red-comet.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 124
     },

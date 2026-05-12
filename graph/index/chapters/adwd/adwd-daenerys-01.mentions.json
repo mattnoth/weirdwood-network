@@ -2,14 +2,14 @@
   "chapter_id": "adwd-daenerys-01",
   "book": "adwd",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-11T22:47:27.452930+00:00",
+  "generated_at": "2026-05-12T18:30:45.028092+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-daenerys-01.extraction.md",
   "stats": {
     "total_mentions": 193,
-    "resolved_to_node": 131,
-    "direct": 122,
-    "alias": 9,
-    "unresolved": 62
+    "resolved_to_node": 136,
+    "direct": 126,
+    "alias": 10,
+    "unresolved": 57
   },
   "mentions": [
     {
@@ -636,9 +636,9 @@
     {
       "raw_name": "Tokar (white linen, golden tassels)",
       "slug": "tokar",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.material",
+      "node_path": "graph/nodes/materials/tokar.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 116
     },
@@ -1184,10 +1184,10 @@
     },
     {
       "raw_name": "The Dothraki sea (grasslands)",
-      "slug": "the-dothraki-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "dothraki-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dothraki-sea.node.md",
       "section": "Raw Entity List > Locations",
       "line": 304
     },
@@ -1284,9 +1284,9 @@
     {
       "raw_name": "Unsullied",
       "slug": "unsullied",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/unsullied.node.md",
       "section": "Raw Entity List > Factions & Organizations",
       "line": 319
     },
@@ -1356,9 +1356,9 @@
     {
       "raw_name": "Blue Graces",
       "slug": "blue-graces",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/blue-graces.node.md",
       "section": "Raw Entity List > Factions & Organizations",
       "line": 327
     },
@@ -1491,9 +1491,9 @@
     {
       "raw_name": "Tokar (Ghiscari garment)",
       "slug": "tokar",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.material",
+      "node_path": "graph/nodes/materials/tokar.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 348
     },

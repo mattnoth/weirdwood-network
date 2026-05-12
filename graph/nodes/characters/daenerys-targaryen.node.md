@@ -2,7 +2,7 @@
 name: "Daenerys Targaryen"
 type: character.human
 slug: daenerys-targaryen
-aliases: ["Dany", "Silver Lady", "The dragon's daughter", "Dragonmother", "Bride of fire", "Daughter of death", "Slayer of lies", "Child of three", "The whore of Westeros", "Mhysa", "The prince that was promised", "The silver queen", "Breaker of Chains", "Aegon the Conqueror with teats", "Azor Ahai returned", "The dragon queen", "The queen across the waters"]
+aliases: ["Dany", "Silver Lady", "The dragon's daughter", "Dragonmother", "Bride of fire", "Daughter of death", "Slayer of lies", "Child of three", "The whore of Westeros", "Mhysa", "The prince that was promised", "The silver queen", "Breaker of Chains", "Aegon the Conqueror with teats", "Azor Ahai returned", "The dragon queen", "The queen across the waters", "daenerys-stormborn"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Daenerys_Targaryen"
 bucket_id: characters-other-c-d

@@ -2,14 +2,14 @@
   "chapter_id": "asos-tyrion-11",
   "book": "asos",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-11T22:47:27.407651+00:00",
+  "generated_at": "2026-05-12T18:30:44.972807+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-tyrion-11.extraction.md",
   "stats": {
     "total_mentions": 137,
-    "resolved_to_node": 84,
-    "direct": 82,
-    "alias": 2,
-    "unresolved": 53
+    "resolved_to_node": 88,
+    "direct": 85,
+    "alias": 3,
+    "unresolved": 49
   },
   "mentions": [
     {
@@ -258,9 +258,9 @@
     {
       "raw_name": "Black cells (third level dungeon)",
       "slug": "black-cells",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/black-cells.node.md",
       "section": "Locations",
       "line": 66
     },
@@ -402,9 +402,9 @@
     {
       "raw_name": "Black cells (third level)",
       "slug": "black-cells",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/black-cells.node.md",
       "section": "Location Descriptions",
       "line": 86
     },
@@ -762,9 +762,9 @@
     {
       "raw_name": "Black cells (third level dungeon)",
       "slug": "black-cells",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/black-cells.node.md",
       "section": "Raw Entity List > Locations",
       "line": 292
     },
@@ -905,10 +905,10 @@
     },
     {
       "raw_name": "The narrow sea",
-      "slug": "the-narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "narrow-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Raw Entity List > Locations",
       "line": 308
     },

@@ -2,14 +2,14 @@
   "chapter_id": "agot-jon-08",
   "book": "agot",
   "pov_character": "jon",
-  "generated_at": "2026-05-11T22:47:27.286236+00:00",
+  "generated_at": "2026-05-12T18:30:44.837054+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-jon-08.extraction.md",
   "stats": {
     "total_mentions": 75,
-    "resolved_to_node": 53,
-    "direct": 48,
-    "alias": 5,
-    "unresolved": 22
+    "resolved_to_node": 58,
+    "direct": 50,
+    "alias": 8,
+    "unresolved": 17
   },
   "mentions": [
     {
@@ -104,10 +104,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Characters Present",
       "line": 37
     },
@@ -158,10 +158,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Character Appearances",
       "line": 47
     },
@@ -410,10 +410,10 @@
     },
     {
       "raw_name": "Prince Aemon the Dragonknight",
-      "slug": "prince-aemon-the-dragonknight",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-viserys-ii",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-viserys-ii.node.md",
       "section": "Characters Referenced",
       "line": 79
     },
@@ -518,10 +518,10 @@
     },
     {
       "raw_name": "The rookery",
-      "slug": "the-rookery",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "rookery",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/rookery.node.md",
       "section": "Locations",
       "line": 95
     },
@@ -626,10 +626,10 @@
     },
     {
       "raw_name": "The rookery",
-      "slug": "the-rookery",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "rookery",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/rookery.node.md",
       "section": "Location Descriptions",
       "line": 111
     },

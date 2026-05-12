@@ -1,0 +1,35 @@
+{
+  "worker_id": "case-collision-hedge-knight",
+  "slug": "hedge-knight",
+  "started_at": "2026-05-12T00:00:00Z",
+  "completed_at": "2026-05-12T00:05:00Z",
+  "status": "pass",
+  "confidence": 0.92,
+  "source_count": 10,
+  "source_files_consulted": [
+    "working/wiki/data/backlink-counts.json",
+    "working/wiki/data/infobox-data.jsonl",
+    "graph/nodes/characters/petyr-baelish.node.md",
+    "graph/nodes/characters/kyle-the-cat.node.md",
+    "graph/nodes/characters/lucas-inchfield.node.md",
+    "graph/nodes/characters/duncan-the-tall.node.md",
+    "graph/nodes/characters/amerei-frey.node.md",
+    "graph/nodes/characters/danwell-frey.node.md",
+    "graph/nodes/characters/pate-of-the-blue-fork.node.md",
+    "graph/nodes/characters/harrion-karstark.node.md",
+    "graph/nodes/characters/clayton-suggs.node.md",
+    "graph/nodes/characters/uthor-underleaf.node.md",
+    "graph/nodes/characters/baelish-hedge-knight.node.md",
+    "graph/nodes/titles/hedge-knight.node.md",
+    "reference/architecture.md"
+  ],
+  "notes": [
+    "Existing hedge-knight.node.md at graph/nodes/titles/ is a thin stub ('Hedge knight is a title from the AWOIAF wiki') with no Identity or Edges — reconstruction was warranted and substantive.",
+    "No infobox found for hedge-knight in infobox-data.jsonl; Identity synthesized entirely from cross-references in the 10 top-source character nodes.",
+    "All 10 top_sources resolved to graph/nodes/characters/. Every source node contained at least one substantive hedge-knight mention.",
+    "Reverse-lookup HOLDS_TITLE edges listed as candidates; the existing character nodes declare HOLDS_TITLE: Ser (not hedge-knight), so these are backfill candidates rather than confirmed edges already in the graph.",
+    "baelish-hedge-knight.node.md (conflict-file) is a separate character entity for Petyr's grandfather — not a duplicate of the hedge-knight title node; both referenced for completeness.",
+    "Type confirmed as 'title' consistent with existing node placement at graph/nodes/titles/hedge-knight.node.md.",
+    "Confidence docked slightly (0.92 not 1.0) because no wiki infobox or direct wiki page prose was consulted — reconstruction is entirely cross-reference-based, which is the stated mission approach but inherently indirect."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "worker_id": "case-collision-batch-2-red-priest",
+  "started_at": "2026-05-12T17:08:15.892029Z",
+  "completed_at": "2026-05-12T17:08:15.892032Z",
+  "status": "pass",
+  "confidence": 0.91,
+  "source_count": 6,
+  "source_files_consulted": [
+    "graph/nodes/characters/melisandre.node.md",
+    "graph/nodes/religions/rhllor.node.md",
+    "graph/nodes/characters/ezzelyno.node.md",
+    "graph/nodes/titles/red-priest.node.md",
+    "sources/wiki/_raw/Red_Priest.json",
+    "sources/wiki/_raw/Red_priests.json",
+    "working/wiki/pass2-buckets/tier3-titles/skeleton/red-priest.node.md"
+  ],
+  "notes": [
+    "Existing graph node is stub only. Wiki pages Red_Priest.json, Red_priests.json are both redirect-only.",
+    "Alias flag: \"red priestess\" is the feminine form and should be treated as an alias, not a separate entity.",
+    "HOLDS_TITLE reverse grep: only ezzelyno.node.md has explicit HOLDS_TITLE red-priest edge in graph. Melisandre and Thoros are confirmed red priests in prose but may not have the infobox-derived edge yet.",
+    "Edge vocab note: CLERGY_OF is defined in the taxonomy (Cultural & Religious section) and is the correct type for clergy \u2192 religion relationship."
+  ]
+}

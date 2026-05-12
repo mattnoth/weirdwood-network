@@ -1,0 +1,32 @@
+{
+  "worker_id": "case-collision-old-gods",
+  "slug": "old-gods",
+  "started_at": "2026-05-12T00:00:00Z",
+  "completed_at": "2026-05-12T00:05:00Z",
+  "status": "pass",
+  "confidence": 0.9,
+  "source_count": 9,
+  "source_files_consulted": [
+    "graph/nodes/factions/first-men.node.md",
+    "graph/nodes/houses/house-stark.node.md",
+    "graph/nodes/characters/rickard-karstark.node.md",
+    "graph/nodes/characters/corliss-penny.node.md",
+    "graph/nodes/locations/riverlands.node.md",
+    "graph/nodes/events/coming-of-the-andals.node.md",
+    "graph/nodes/events/sack-of-winterfell.node.md",
+    "graph/nodes/characters/melisandre.node.md",
+    "graph/nodes/characters/roderick-blackwood.node.md",
+    "graph/nodes/religions/old-gods-of-the-forest.node.md",
+    "working/wiki/data/infobox-data.jsonl",
+    "working/wiki/data/backlink-counts.json",
+    "reference/architecture.md"
+  ],
+  "notes": [
+    "Slug 'old-gods' maps to Old Gods of the Forest (not Old Gods of Valyria). Existing node at graph/nodes/religions/old-gods-of-the-forest.node.md already lists 'old-gods' as an alias — mapping confirmed correct.",
+    "No infobox found for 'old-gods' directly in infobox-data.jsonl; all edges are reverse-lookup (locations with Religion: Old gods infobox field).",
+    "Architecture §WORSHIPS/RELIGION_OF: for locations, the correct edge type is RELIGION_OF not WORSHIPS. 10 location nodes confirmed.",
+    "The sack-of-winterfell node contained no old gods mentions — it was in the top_sources list but yielded no evidence.",
+    "Identity is rich from first-men.node.md, which has a dedicated Religion subsection with 5+ substantive sentences. Confidence is 0.9 rather than 1.0 because no wiki source raw page was read (per project rules — wiki is local but not consulted for reconstruction missions).",
+    "Recommendation: populate old-gods-of-the-forest.node.md Identity section from sources above; no new node needed."
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "slug": "lion-gate",
+  "name": "Lion Gate",
+  "type": "place.location",
+  "node_path": "graph/nodes/locations/lion-gate.node.md",
+  "generated_at": "2026-05-11T23:36:05.676633+00:00",
+  "stats": {
+    "appearances_total": 3,
+    "chapters_referenced_in": 3,
+    "chapters_in_raw_list": 0,
+    "out_edge_count": 0,
+    "in_edge_count": 5,
+    "chapters_in_locations_section": 3
+  },
+  "chapters": {
+    "in_locations_section": [
+      {
+        "chapter_id": "agot-arya-05",
+        "book": "agot",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-cersei-02",
+        "book": "affc",
+        "pov_character_slug": "cersei-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-jaime-02",
+        "book": "affc",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      }
+    ],
+    "in_raw_list": [],
+    "referenced_in": [
+      {
+        "chapter_id": "agot-arya-05",
+        "book": "agot",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-cersei-02",
+        "book": "affc",
+        "pov_character_slug": "cersei-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "affc-jaime-02",
+        "book": "affc",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      }
+    ]
+  }
+}

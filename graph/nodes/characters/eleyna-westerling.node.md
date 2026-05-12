@@ -2,7 +2,7 @@
 name: "Eleyna Westerling"
 type: character.human
 slug: eleyna-westerling
-aliases: []
+aliases: ["elenya-westerling"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Eleyna_Westerling"
 bucket_id: characters-house-westerling

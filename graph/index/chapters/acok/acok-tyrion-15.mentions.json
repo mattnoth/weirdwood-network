@@ -2,14 +2,14 @@
   "chapter_id": "acok-tyrion-15",
   "book": "acok",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-11T22:47:27.349412+00:00",
+  "generated_at": "2026-05-12T18:30:44.906261+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-tyrion-15.extraction.md",
   "stats": {
     "total_mentions": 117,
-    "resolved_to_node": 78,
-    "direct": 78,
+    "resolved_to_node": 79,
+    "direct": 79,
     "alias": 0,
-    "unresolved": 39
+    "unresolved": 38
   },
   "mentions": [
     {
@@ -816,9 +816,9 @@
     {
       "raw_name": "Silent sisters",
       "slug": "silent-sisters",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/silent-sisters.node.md",
       "section": "Raw Entity List > Factions & Organizations",
       "line": 279
     },

@@ -2,7 +2,7 @@
 name: "Summer Isles"
 type: place.location
 slug: summer-isles
-aliases: []
+aliases: ["summer-islands"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Summer_Isles"
 bucket_id: tier3-pathb-locations

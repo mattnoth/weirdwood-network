@@ -2,14 +2,14 @@
   "chapter_id": "acok-jon-06",
   "book": "acok",
   "pov_character": "jon",
-  "generated_at": "2026-05-11T22:47:27.327028+00:00",
+  "generated_at": "2026-05-12T18:30:44.882193+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-jon-06.extraction.md",
   "stats": {
     "total_mentions": 112,
-    "resolved_to_node": 75,
-    "direct": 67,
+    "resolved_to_node": 77,
+    "direct": 69,
     "alias": 8,
-    "unresolved": 37
+    "unresolved": 35
   },
   "mentions": [
     {
@@ -790,8 +790,8 @@
       "raw_name": "Free folk (wildlings)",
       "slug": "free-folk",
       "resolved_via": "direct",
-      "node_type": "organization.faction",
-      "node_path": "graph/nodes/factions/free-folk.node.md",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/free-folk.node.md",
       "section": "Raw Entity List > Factions & Organizations",
       "line": 267
     },
@@ -915,9 +915,9 @@
     {
       "raw_name": "Shortsword (Stonesnake's weapon)",
       "slug": "shortsword",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/shortsword.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 287
     },
@@ -1014,9 +1014,9 @@
     {
       "raw_name": "Spearwife (wildling term for a woman warrior — Stonesnake identifies Ygritte as one)",
       "slug": "spearwife",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/spearwife.node.md",
       "section": "Raw Entity List > Other",
       "line": 308
     }

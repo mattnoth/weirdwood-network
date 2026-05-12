@@ -2,14 +2,14 @@
   "chapter_id": "affc-brienne-07",
   "book": "affc",
   "pov_character": "brienne",
-  "generated_at": "2026-05-11T22:47:27.417499+00:00",
+  "generated_at": "2026-05-12T18:30:44.983832+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-brienne-07.extraction.md",
   "stats": {
     "total_mentions": 88,
-    "resolved_to_node": 55,
-    "direct": 51,
+    "resolved_to_node": 57,
+    "direct": 53,
     "alias": 4,
-    "unresolved": 33
+    "unresolved": 31
   },
   "mentions": [
     {
@@ -491,19 +491,19 @@
     },
     {
       "raw_name": "The river road",
-      "slug": "the-river-road",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "river-road",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/river-road.node.md",
       "section": "Locations",
       "line": 92
     },
     {
       "raw_name": "The high road",
-      "slug": "the-high-road",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "high-road",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/high-road.node.md",
       "section": "Locations",
       "line": 93
     },

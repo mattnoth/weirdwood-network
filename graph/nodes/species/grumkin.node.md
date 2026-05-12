@@ -2,7 +2,7 @@
 name: "Grumkin"
 type: species
 slug: grumkin
-aliases: []
+aliases: ["grumkins"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Grumkin"
 bucket_id: tier3-pathb-longtail

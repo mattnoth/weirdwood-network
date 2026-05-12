@@ -2,7 +2,7 @@
 name: "Three-Finger Hobb"
 type: character.human
 slug: three-finger-hobb
-aliases: ["Three-Finger Hobb"]
+aliases: ["Three-Finger Hobb", "hobb"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Three-Finger_Hobb"
 bucket_id: characters-other-t

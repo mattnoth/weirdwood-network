@@ -2,14 +2,14 @@
   "chapter_id": "adwd-jon-02",
   "book": "adwd",
   "pov_character": "jon",
-  "generated_at": "2026-05-11T22:47:27.465418+00:00",
+  "generated_at": "2026-05-12T18:30:45.042745+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-jon-02.extraction.md",
   "stats": {
     "total_mentions": 110,
-    "resolved_to_node": 93,
+    "resolved_to_node": 96,
     "direct": 86,
-    "alias": 7,
-    "unresolved": 17
+    "alias": 10,
+    "unresolved": 14
   },
   "mentions": [
     {
@@ -50,10 +50,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Characters Present",
       "line": 31
     },
@@ -284,10 +284,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Character Appearances",
       "line": 61
     },
@@ -545,10 +545,10 @@
     },
     {
       "raw_name": "Ulmer",
-      "slug": "ulmer",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "ulmer-of-the-kingswood",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ulmer-of-the-kingswood.node.md",
       "section": "Characters Referenced",
       "line": 94
     },

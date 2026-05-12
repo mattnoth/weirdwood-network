@@ -2,14 +2,14 @@
   "chapter_id": "adwd-tyrion-09",
   "book": "adwd",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-11T22:47:27.503846+00:00",
+  "generated_at": "2026-05-12T18:30:45.084651+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-tyrion-09.extraction.md",
   "stats": {
     "total_mentions": 45,
-    "resolved_to_node": 34,
-    "direct": 33,
+    "resolved_to_node": 35,
+    "direct": 34,
     "alias": 1,
-    "unresolved": 11
+    "unresolved": 10
   },
   "mentions": [
     {
@@ -51,9 +51,9 @@
     {
       "raw_name": "Pretty Pig (Pretty)",
       "slug": "pretty-pig",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/pretty-pig.node.md",
       "section": "Characters Present",
       "line": 31
     },

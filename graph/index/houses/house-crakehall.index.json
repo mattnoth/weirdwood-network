@@ -1,0 +1,92 @@
+{
+  "slug": "house-crakehall",
+  "name": "House Crakehall",
+  "type": "organization.house",
+  "node_path": "graph/nodes/houses/house-crakehall.node.md",
+  "generated_at": "2026-05-11T23:36:16.162789+00:00",
+  "stats": {
+    "appearances_total": 3,
+    "chapters_referenced_in": 3,
+    "chapters_in_raw_list": 3,
+    "out_edge_count": 7,
+    "in_edge_count": 9
+  },
+  "chapters": {
+    "in_raw_list": [
+      {
+        "chapter_id": "acok-bran-01",
+        "book": "acok",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "acok-sansa-03",
+        "book": "acok",
+        "pov_character_slug": "sansa-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-jaime-03",
+        "book": "asos",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      }
+    ],
+    "referenced_in": [
+      {
+        "chapter_id": "acok-bran-01",
+        "book": "acok",
+        "pov_character_slug": "bran-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "acok-sansa-03",
+        "book": "acok",
+        "pov_character_slug": "sansa-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-jaime-03",
+        "book": "asos",
+        "pov_character_slug": "jaime-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      }
+    ]
+  }
+}

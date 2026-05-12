@@ -2,7 +2,7 @@
 name: "Thormor Ironmaker"
 type: character.human
 slug: thormor-ironmaker
-aliases: []
+aliases: ["thormor"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Thormor_Ironmaker"
 bucket_id: characters-house-ironmaker

@@ -84,3 +84,26 @@
 - **Two new READY-TO-DO follow-ups in `working/todos.md`:** (a) review fleet plan against model-fit recommendations, (b) two PreToolUse hooks (block edits to historical archives, block writes under sources/).
 - **Continue prompts active (3):** `2026-05-02-stage4-v1-prose-edge-classifier.md`, `2026-05-05-dialogue-meals-mention-index-design.md`, plus this handoff (will be archived at /endsession).
 - **Per Matt's standing rule, /endsession is NOT auto-run** — handoff prompt awaits Matt's invocation.
+
+---
+
+### Session 38 — Mention-index built (graph-traversal infrastructure) (2026-05-06)
+
+**Changes made:**
+- `scripts/build-mention-index.py` — NEW. Pure-Python script that walks all 344 Pass 1 v3 extractions, parses structured `## Section` blocks (Characters Present, Characters Referenced, Locations, Artifacts, Food & Drink, Raw Entity List 12 categories), slugifies via `to_kebab` (reused from `wiki-pass2-build-alias-resolver.py`), resolves through `alias-resolver.json` plus an honorific-prefix-stripping pass (Ser-, Maester-, Khal-, Lord-, etc.), tags each row with section/line/node-type/node-path. CLI: `--book <slug>`, `--all`, `--dry-run`. Idempotent — overwrites in place.
+- `graph/index/chapters/` — NEW directory tree. 344 mention files written (agot 73, acok 70, asos 82, affc 46, adwd 73). 37,222 total mentions. **70.0% resolve to graph nodes** (66.6% direct + 3.4% alias). 30.0% unresolved are diagnosable patterns, not parser bugs. Plus `_summary.json` rollup.
+- `working/todos.md` — alias-backfill todo added under § Wiki / Pass 2 Prep, sourced from the top-20 unresolved list.
+
+**Decisions:** Re-framed `progress/continue-prompts/2026-05-05-dialogue-meals-mention-index-design.md` under graph-for-agents lens. Matt confirmed dialogue + meals were agent-invented scope (Matt never asked for them in prior sessions). **Mention-index is the only piece that survives the reframe** — it's graph-traversal infrastructure that closes "from a node fact, find the scene." Dialogue + meals + voice scope deferred entirely; built only the free Python piece. **One spec divergence:** added honorific-prefix stripping beyond original spec (`Ser-`, `Maester-`, `Grand-Maester-`, `Khal-`, `Lord-`, `The-`) — Pass 1 captures titled forms ("Ser Rodrik Cassel", "Khal Drogo") that wiki nodes don't. This single addition lifted AGOT resolution 57% → 72%.
+
+**Top-20 unresolved patterns (signal):**
+- **Missing alias entries** (clean backfill candidates): `ned-stark`/42 → eddard-stark, `tormund-giantsbane`/21 → tormund, `eastwatch`/23 → eastwatch-by-the-sea, `the-blackwater`/23 → blackwater-rush, `brienne`/27 → brienne-tarth, `thoros-of-myr`/28 → thoros.
+- **Ambiguous short names**: `joffrey`/47, `aegon`/27, `maester-aemon`/57.
+- **Genuinely missing nodes**: `godswood`/36, `flea-bottom`/31, `the-narrow-sea`/40, `great-pyramid-of-meereen`/24, `little-walder-frey`/22, `old-gods`/22.
+
+**What's next:**
+- **Apply alias-backfill** from top-20 unresolved (todos.md alias-backfill todo). Cheap edit to `alias-resolver.json` + re-run mention-index → expect resolution to climb past 75%.
+- **Per-character index roll-up** (`graph/index/characters/<slug>.index.json`) is the natural next step — combines mention-index + Pass 1 POV chapter data + node prose into a single agent-retrieval entry point. Pure Python.
+- **Dialogue + meals + voice remain deferred** until Matt asks for them.
+- **Stage 4 prose-edge-classifier** queued continue prompt (`2026-05-02-stage4-v1-prose-edge-classifier.md`) is the other live track.
+- **Per Matt's standing rule, no `/endsession` auto-run.**

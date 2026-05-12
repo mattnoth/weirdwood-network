@@ -2,14 +2,14 @@
   "chapter_id": "acok-arya-09",
   "book": "acok",
   "pov_character": "arya",
-  "generated_at": "2026-05-11T22:47:27.302740+00:00",
+  "generated_at": "2026-05-12T18:30:44.855091+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-arya-09.extraction.md",
   "stats": {
     "total_mentions": 194,
-    "resolved_to_node": 117,
-    "direct": 112,
-    "alias": 5,
-    "unresolved": 77
+    "resolved_to_node": 120,
+    "direct": 113,
+    "alias": 7,
+    "unresolved": 74
   },
   "mentions": [
     {
@@ -1364,10 +1364,10 @@
     },
     {
       "raw_name": "The narrow sea",
-      "slug": "the-narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "narrow-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Raw Entity List > Locations",
       "line": 358
     },
@@ -1472,10 +1472,10 @@
     },
     {
       "raw_name": "The old gods (Arya prays at the heart tree; Jaqen swears by \"the old gods beyond count\")",
-      "slug": "the-old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 376
     },
@@ -1644,9 +1644,9 @@
     {
       "raw_name": "\"Valar morghulis\" (phrase taught by Jaqen)",
       "slug": "valar-morghulis",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/valar-morghulis.node.md",
       "section": "Raw Entity List > In-world Texts & Songs",
       "line": 401
     },

@@ -2,14 +2,14 @@
   "chapter_id": "acok-arya-08",
   "book": "acok",
   "pov_character": "arya",
-  "generated_at": "2026-05-11T22:47:27.301735+00:00",
+  "generated_at": "2026-05-12T18:30:44.853937+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-arya-08.extraction.md",
   "stats": {
     "total_mentions": 63,
-    "resolved_to_node": 46,
-    "direct": 43,
+    "resolved_to_node": 47,
+    "direct": 44,
     "alias": 3,
-    "unresolved": 17
+    "unresolved": 16
   },
   "mentions": [
     {
@@ -528,9 +528,9 @@
     {
       "raw_name": "Longsword (for Ser Lyonel)",
       "slug": "longsword",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/longsword.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 104
     },

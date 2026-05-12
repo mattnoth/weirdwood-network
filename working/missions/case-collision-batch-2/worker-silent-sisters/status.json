@@ -1,0 +1,16 @@
+{
+  "worker_id": "case-collision-batch-2-silent-sisters",
+  "started_at": "2026-05-12T17:05:34.508189Z",
+  "completed_at": "2026-05-12T17:05:34.508301Z",
+  "status": "pass",
+  "confidence": 0.93,
+  "source_count": 4,
+  "source_files_consulted": [
+    "graph/nodes/religions/faith-of-the-seven.node.md",
+    "graph/nodes/characters/medger-cerwyn.node.md",
+    "graph/nodes/characters/hallis-mollen.node.md",
+    "graph/nodes/characters/jory-cassel.node.md",
+    "working/wiki/data/infobox-data.jsonl"
+  ],
+  "notes": "No pre-existing node found. Faith-of-the-seven node has a dedicated Silent Sisters section. 4 infobox SWORN_TO reverse hits. Type classified as organization.faction (religious sub-order within Faith of the Seven)."
+}

@@ -2,14 +2,14 @@
   "chapter_id": "agot-prologue",
   "book": "agot",
   "pov_character": "agot-prologue",
-  "generated_at": "2026-05-11T22:47:27.287326+00:00",
+  "generated_at": "2026-05-12T18:30:44.838277+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-prologue.extraction.md",
   "stats": {
     "total_mentions": 74,
-    "resolved_to_node": 26,
-    "direct": 25,
-    "alias": 1,
-    "unresolved": 48
+    "resolved_to_node": 31,
+    "direct": 28,
+    "alias": 3,
+    "unresolved": 43
   },
   "mentions": [
     {
@@ -113,10 +113,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Characters Referenced",
       "line": 46
     },
@@ -176,10 +176,10 @@
     },
     {
       "raw_name": "The haunted forest (beyond the Wall)",
-      "slug": "the-haunted-forest",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "haunted-forest",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Locations",
       "line": 57
     },
@@ -230,10 +230,10 @@
     },
     {
       "raw_name": "The haunted forest",
-      "slug": "the-haunted-forest",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "haunted-forest",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Location Descriptions",
       "line": 67
     },
@@ -383,10 +383,10 @@
     },
     {
       "raw_name": "Maester Aemon (mentioned — cut away Gared's ears)",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Raw Entity List > Characters",
       "line": 203
     },
@@ -419,10 +419,10 @@
     },
     {
       "raw_name": "The haunted forest (beyond the Wall)",
-      "slug": "the-haunted-forest",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "haunted-forest",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Raw Entity List > Locations",
       "line": 209
     },
@@ -511,8 +511,8 @@
       "raw_name": "Wildlings (the dead raiders being tracked; referenced as a general group)",
       "slug": "free-folk",
       "resolved_via": "alias",
-      "node_type": "organization.faction",
-      "node_path": "graph/nodes/factions/free-folk.node.md",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/free-folk.node.md",
       "section": "Raw Entity List > Cultures & Peoples",
       "line": 227
     },

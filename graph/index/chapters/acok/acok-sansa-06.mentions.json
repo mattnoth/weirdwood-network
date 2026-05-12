@@ -2,14 +2,14 @@
   "chapter_id": "acok-sansa-06",
   "book": "acok",
   "pov_character": "sansa",
-  "generated_at": "2026-05-11T22:47:27.334076+00:00",
+  "generated_at": "2026-05-12T18:30:44.890189+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-sansa-06.extraction.md",
   "stats": {
     "total_mentions": 125,
-    "resolved_to_node": 90,
-    "direct": 90,
-    "alias": 0,
-    "unresolved": 35
+    "resolved_to_node": 97,
+    "direct": 94,
+    "alias": 3,
+    "unresolved": 28
   },
   "mentions": [
     {
@@ -266,10 +266,10 @@
     },
     {
       "raw_name": "Prince Aemon the Dragonknight",
-      "slug": "prince-aemon-the-dragonknight",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-viserys-ii",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-viserys-ii.node.md",
       "section": "Characters Referenced",
       "line": 63
     },
@@ -357,9 +357,9 @@
     {
       "raw_name": "Flea Bottom",
       "slug": "flea-bottom",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/flea-bottom.node.md",
       "section": "Locations",
       "line": 77
     },
@@ -384,9 +384,9 @@
     {
       "raw_name": "Godswood",
       "slug": "godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Locations",
       "line": 80
     },
@@ -662,10 +662,10 @@
     },
     {
       "raw_name": "Prince Aemon the Dragonknight (song subject)",
-      "slug": "prince-aemon-the-dragonknight",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-viserys-ii",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-viserys-ii.node.md",
       "section": "Raw Entity List > Characters",
       "line": 253
     },
@@ -753,9 +753,9 @@
     {
       "raw_name": "Flea Bottom",
       "slug": "flea-bottom",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/flea-bottom.node.md",
       "section": "Raw Entity List > Locations",
       "line": 265
     },
@@ -780,9 +780,9 @@
     {
       "raw_name": "Godswood (Red Keep)",
       "slug": "godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Raw Entity List > Locations",
       "line": 268
     },
@@ -914,10 +914,10 @@
     },
     {
       "raw_name": "Old Gods (Sansa prays in the godswood; \"your father's gods\" — Cersei's accusation)",
-      "slug": "old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 289
     },

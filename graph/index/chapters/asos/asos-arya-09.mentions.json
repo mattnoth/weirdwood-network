@@ -2,14 +2,14 @@
   "chapter_id": "asos-arya-09",
   "book": "asos",
   "pov_character": "arya",
-  "generated_at": "2026-05-11T22:47:27.357039+00:00",
+  "generated_at": "2026-05-12T18:30:44.914795+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-arya-09.extraction.md",
   "stats": {
     "total_mentions": 135,
-    "resolved_to_node": 86,
-    "direct": 78,
+    "resolved_to_node": 87,
+    "direct": 79,
     "alias": 8,
-    "unresolved": 49
+    "unresolved": 48
   },
   "mentions": [
     {
@@ -1185,9 +1185,9 @@
     {
       "raw_name": "Valar morghulis (High Valyrian phrase — Arya's death mantra, recited internally)",
       "slug": "valar-morghulis",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/valar-morghulis.node.md",
       "section": "Raw Entity List > Other",
       "line": 341
     },

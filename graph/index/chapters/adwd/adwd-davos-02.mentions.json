@@ -2,14 +2,14 @@
   "chapter_id": "adwd-davos-02",
   "book": "adwd",
   "pov_character": "davos",
-  "generated_at": "2026-05-11T22:47:27.460294+00:00",
+  "generated_at": "2026-05-12T18:30:45.036977+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-davos-02.extraction.md",
   "stats": {
     "total_mentions": 94,
-    "resolved_to_node": 69,
-    "direct": 66,
-    "alias": 3,
-    "unresolved": 25
+    "resolved_to_node": 72,
+    "direct": 68,
+    "alias": 4,
+    "unresolved": 22
   },
   "mentions": [
     {
@@ -546,9 +546,9 @@
     {
       "raw_name": "Castle Stair",
       "slug": "castle-stair",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/castle-stair.node.md",
       "section": "Locations",
       "line": 98
     },
@@ -725,10 +725,10 @@
     },
     {
       "raw_name": "The Vale",
-      "slug": "the-vale",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "vale-of-arryn",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
       "section": "Locations",
       "line": 118
     },
@@ -807,9 +807,9 @@
     {
       "raw_name": "Castle Stair",
       "slug": "castle-stair",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/castle-stair.node.md",
       "section": "Location Descriptions",
       "line": 131
     },

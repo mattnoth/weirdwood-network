@@ -1,0 +1,41 @@
+{
+  "worker_id": "case-collision-free-folk",
+  "started": "2026-05-12T00:00:00Z",
+  "completed": "2026-05-12T00:00:00Z",
+  "status": "complete",
+  "confidence": "high",
+  "source_count": 18,
+  "source_files_consulted": [
+    "graph/nodes/characters/mance-rayder.node.md",
+    "graph/nodes/characters/val.node.md",
+    "graph/nodes/events/battle-beneath-the-wall.node.md",
+    "graph/nodes/events/fight-at-the-bridge-of-skulls.node.md",
+    "graph/nodes/characters/brandon-norrey.node.md",
+    "graph/nodes/characters/bael-the-bard.node.md",
+    "graph/nodes/characters/stannis-baratheon.node.md",
+    "graph/nodes/characters/torghen-flint.node.md",
+    "graph/nodes/locations/beyond-the-wall.node.md",
+    "graph/nodes/locations/wall.node.md",
+    "graph/nodes/factions/nights-watch.node.md",
+    "graph/nodes/locations/white-harbor.node.md",
+    "graph/nodes/events/fight-at-the-fist.node.md",
+    "graph/nodes/characters/thoren-smallwood.node.md",
+    "graph/nodes/characters/alliser-thorne.node.md",
+    "graph/nodes/characters/craster.node.md",
+    "graph/nodes/characters/dywen.node.md",
+    "graph/nodes/houses/house-mormont.node.md",
+    "graph/nodes/locations/shadow-tower.node.md",
+    "graph/nodes/factions/free-folk.node.md",
+    "working/wiki/data/backlink-counts.json",
+    "working/wiki/data/infobox-data.jsonl",
+    "reference/architecture.md"
+  ],
+  "notes": [
+    "Existing stub node at graph/nodes/factions/free-folk.node.md has wrong type: organization.faction. Correct type per architecture.md is concept.culture (Free Folk is listed explicitly as an example concept.culture alongside Dothraki and Ironborn).",
+    "No infobox entry found in infobox-data.jsonl for slug 'free-folk' — no Edges derivable from infobox.",
+    "backlink-counts.json shows 141 in-links for 'free-folk' and 96 for 'wildlings' (alias) — high connectivity, well-attested.",
+    "Top 10 sources from free-folk and wildlings backlinks all located and consulted — all 19 node files found.",
+    "Identity synthesized from: cultural values (personal liberty, refusal to kneel), social structure (loose tribes/clans, no single ruler except periodic Kings-Beyond-the-Wall), named subgroups (Thenns, Hornfoots, Nightrunners, Frozen Shore men, ice-river clans), relationship with Night's Watch and Wall, and the immediate-series context (flight from Others, Mance's defeat, Jon Snow's settlement policy).",
+    "Type flag: existing node must be corrected from organization.faction to concept.culture before promotion to graph/nodes/."
+  ]
+}

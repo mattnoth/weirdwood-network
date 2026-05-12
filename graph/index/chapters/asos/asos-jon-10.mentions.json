@@ -2,14 +2,14 @@
   "chapter_id": "asos-jon-10",
   "book": "asos",
   "pov_character": "jon",
-  "generated_at": "2026-05-11T22:47:27.390621+00:00",
+  "generated_at": "2026-05-12T18:30:44.952878+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jon-10.extraction.md",
   "stats": {
     "total_mentions": 67,
-    "resolved_to_node": 53,
+    "resolved_to_node": 54,
     "direct": 46,
-    "alias": 7,
-    "unresolved": 14
+    "alias": 8,
+    "unresolved": 13
   },
   "mentions": [
     {
@@ -176,10 +176,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Characters Referenced",
       "line": 53
     },

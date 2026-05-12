@@ -1,0 +1,19 @@
+---
+name: "Sunset Kingdoms"
+type: place.region
+slug: sunset-kingdoms
+aliases: []
+confidence: tier-2
+wiki_source: "https://awoiaf.westeros.org/index.php/Sunset_Kingdoms"
+bucket_id: bucket-a-backfill
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-bucket-a-backfill
+---
+
+## Identity
+
+Sunset Kingdoms is a region from the AWOIAF wiki.
+
+## Edges
+

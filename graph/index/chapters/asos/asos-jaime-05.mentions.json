@@ -2,14 +2,14 @@
   "chapter_id": "asos-jaime-05",
   "book": "asos",
   "pov_character": "jaime",
-  "generated_at": "2026-05-11T22:47:27.381159+00:00",
+  "generated_at": "2026-05-12T18:30:44.942599+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jaime-05.extraction.md",
   "stats": {
     "total_mentions": 85,
-    "resolved_to_node": 66,
-    "direct": 60,
-    "alias": 6,
-    "unresolved": 19
+    "resolved_to_node": 68,
+    "direct": 61,
+    "alias": 7,
+    "unresolved": 17
   },
   "mentions": [
     {
@@ -500,10 +500,10 @@
     },
     {
       "raw_name": "Tallhart",
-      "slug": "tallhart",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "house-tallhart",
+      "resolved_via": "alias",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-tallhart.node.md",
       "section": "Characters Referenced",
       "line": 89
     },
@@ -627,9 +627,9 @@
     {
       "raw_name": "Flea Bottom",
       "slug": "flea-bottom",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/flea-bottom.node.md",
       "section": "Locations",
       "line": 107
     },

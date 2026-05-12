@@ -2,14 +2,14 @@
   "chapter_id": "adwd-daenerys-02",
   "book": "adwd",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-11T22:47:27.453614+00:00",
+  "generated_at": "2026-05-12T18:30:45.028941+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-daenerys-02.extraction.md",
   "stats": {
     "total_mentions": 93,
-    "resolved_to_node": 74,
-    "direct": 73,
+    "resolved_to_node": 75,
+    "direct": 74,
     "alias": 1,
-    "unresolved": 19
+    "unresolved": 18
   },
   "mentions": [
     {
@@ -735,9 +735,9 @@
     {
       "raw_name": "Dothraki sea",
       "slug": "dothraki-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dothraki-sea.node.md",
       "section": "Locations",
       "line": 119
     },

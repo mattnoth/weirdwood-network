@@ -2,14 +2,14 @@
   "chapter_id": "affc-jaime-01",
   "book": "affc",
   "pov_character": "jaime",
-  "generated_at": "2026-05-11T22:47:27.427354+00:00",
+  "generated_at": "2026-05-12T18:30:44.995098+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-jaime-01.extraction.md",
   "stats": {
     "total_mentions": 84,
-    "resolved_to_node": 63,
-    "direct": 60,
+    "resolved_to_node": 64,
+    "direct": 61,
     "alias": 3,
-    "unresolved": 21
+    "unresolved": 20
   },
   "mentions": [
     {
@@ -609,9 +609,9 @@
     {
       "raw_name": "Maidenvault",
       "slug": "maidenvault",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/maidenvault.node.md",
       "section": "Locations",
       "line": 105
     },

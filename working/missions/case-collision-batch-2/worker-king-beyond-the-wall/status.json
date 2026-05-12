@@ -1,0 +1,22 @@
+{
+  "worker_id": "case-collision-batch-2-king-beyond-the-wall",
+  "started_at": "2026-05-12T17:07:25.351424Z",
+  "completed_at": "2026-05-12T17:07:25.351534Z",
+  "status": "pass",
+  "confidence": 0.93,
+  "source_count": 8,
+  "source_files_consulted": [
+    "graph/nodes/characters/mance-rayder.node.md",
+    "graph/nodes/characters/bael-the-bard.node.md",
+    "graph/nodes/characters/gendel.node.md",
+    "graph/nodes/characters/gorne.node.md",
+    "graph/nodes/characters/joramun.node.md",
+    "graph/nodes/characters/raymun-redbeard.node.md",
+    "graph/nodes/characters/horned-lord.node.md",
+    "graph/nodes/factions/nights-watch.node.md",
+    "graph/nodes/titles/king-beyond-the-wall.node.md",
+    "sources/wiki/_raw/King_beyond_the_Wall.json",
+    "working/wiki/pass2-buckets/tier3-titles/skeleton/king-beyond-the-wall.node.md"
+  ],
+  "notes": "Existing graph node is stub (skeleton only, no prose). Wiki page is redirect-only. HOLDS_TITLE reverse lookup confirms 7 named holders. No infobox on title page itself."
+}

@@ -2,14 +2,14 @@
   "chapter_id": "agot-arya-01",
   "book": "agot",
   "pov_character": "arya",
-  "generated_at": "2026-05-11T22:47:27.253739+00:00",
+  "generated_at": "2026-05-12T18:30:44.796472+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-arya-01.extraction.md",
   "stats": {
     "total_mentions": 106,
-    "resolved_to_node": 63,
-    "direct": 63,
-    "alias": 0,
-    "unresolved": 43
+    "resolved_to_node": 66,
+    "direct": 65,
+    "alias": 1,
+    "unresolved": 40
   },
   "mentions": [
     {
@@ -428,10 +428,10 @@
     },
     {
       "raw_name": "The godswood",
-      "slug": "the-godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "godswood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Locations",
       "line": 85
     },
@@ -788,10 +788,10 @@
     },
     {
       "raw_name": "The godswood (referenced — \"the pool at the heart of the godswood\")",
-      "slug": "the-godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "godswood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Raw Entity List > Locations",
       "line": 256
     },
@@ -806,10 +806,10 @@
     },
     {
       "raw_name": "The narrow sea (referenced)",
-      "slug": "the-narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "narrow-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Raw Entity List > Locations",
       "line": 258
     },

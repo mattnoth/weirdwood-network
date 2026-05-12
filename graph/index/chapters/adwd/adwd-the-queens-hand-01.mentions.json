@@ -2,14 +2,14 @@
   "chapter_id": "adwd-the-queens-hand-01",
   "book": "adwd",
   "pov_character": "the-queens-hand",
-  "generated_at": "2026-05-11T22:47:27.487403+00:00",
+  "generated_at": "2026-05-12T18:30:45.066595+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-the-queens-hand-01.extraction.md",
   "stats": {
     "total_mentions": 95,
-    "resolved_to_node": 74,
-    "direct": 66,
-    "alias": 8,
-    "unresolved": 21
+    "resolved_to_node": 76,
+    "direct": 67,
+    "alias": 9,
+    "unresolved": 19
   },
   "mentions": [
     {
@@ -203,10 +203,10 @@
     },
     {
       "raw_name": "Bhakaz",
-      "slug": "bhakaz",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "bhakaz-zo-loraq",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/bhakaz-zo-loraq.node.md",
       "section": "Characters Present",
       "line": 48
     },
@@ -735,9 +735,9 @@
     {
       "raw_name": "Dothraki sea",
       "slug": "dothraki-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dothraki-sea.node.md",
       "section": "Locations",
       "line": 119
     },

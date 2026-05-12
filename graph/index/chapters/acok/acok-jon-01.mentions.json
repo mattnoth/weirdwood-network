@@ -2,14 +2,14 @@
   "chapter_id": "acok-jon-01",
   "book": "acok",
   "pov_character": "jon",
-  "generated_at": "2026-05-11T22:47:27.323837+00:00",
+  "generated_at": "2026-05-12T18:30:44.878261+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-jon-01.extraction.md",
   "stats": {
     "total_mentions": 88,
-    "resolved_to_node": 59,
-    "direct": 55,
-    "alias": 4,
-    "unresolved": 29
+    "resolved_to_node": 64,
+    "direct": 58,
+    "alias": 6,
+    "unresolved": 24
   },
   "mentions": [
     {
@@ -158,10 +158,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Characters Referenced",
       "line": 51
     },
@@ -401,10 +401,10 @@
     },
     {
       "raw_name": "Prince Aemon the Dragonknight",
-      "slug": "prince-aemon-the-dragonknight",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-viserys-ii",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-viserys-ii.node.md",
       "section": "Characters Referenced",
       "line": 78
     },
@@ -582,18 +582,18 @@
     {
       "raw_name": "Lorn Point",
       "slug": "lorn-point",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/lorn-point.node.md",
       "section": "Locations",
       "line": 102
     },
     {
       "raw_name": "The Frozen Shore",
-      "slug": "the-frozen-shore",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "frozen-shore",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/frozen-shore.node.md",
       "section": "Locations",
       "line": 103
     },
@@ -662,10 +662,10 @@
     },
     {
       "raw_name": "The haunted forest",
-      "slug": "the-haunted-forest",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "haunted-forest",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Locations",
       "line": 111
     },

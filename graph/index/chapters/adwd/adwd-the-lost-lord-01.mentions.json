@@ -2,14 +2,14 @@
   "chapter_id": "adwd-the-lost-lord-01",
   "book": "adwd",
   "pov_character": "the-lost-lord",
-  "generated_at": "2026-05-11T22:47:27.484808+00:00",
+  "generated_at": "2026-05-12T18:30:45.063780+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-the-lost-lord-01.extraction.md",
   "stats": {
     "total_mentions": 100,
-    "resolved_to_node": 63,
-    "direct": 60,
-    "alias": 3,
-    "unresolved": 37
+    "resolved_to_node": 65,
+    "direct": 61,
+    "alias": 4,
+    "unresolved": 35
   },
   "mentions": [
     {
@@ -770,19 +770,19 @@
     },
     {
       "raw_name": "The narrow sea",
-      "slug": "the-narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "narrow-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Locations",
       "line": 123
     },
     {
       "raw_name": "The demon road",
-      "slug": "the-demon-road",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "demon-road",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/demon-road.node.md",
       "section": "Locations",
       "line": 124
     },

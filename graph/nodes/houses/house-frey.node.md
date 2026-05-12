@@ -2,7 +2,7 @@
 name: "House Frey"
 type: organization.house
 slug: house-frey
-aliases: []
+aliases: ["freys"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/House_Frey"
 bucket_id: houses-major-recovery

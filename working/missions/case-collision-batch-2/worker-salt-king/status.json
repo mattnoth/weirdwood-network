@@ -1,0 +1,16 @@
+{
+  "worker_id": "case-collision-batch-2-salt-king",
+  "started_at": "2026-05-12T17:03:10Z",
+  "completed_at": "2026-05-12T17:03:30Z",
+  "status": "pass",
+  "confidence": 0.9,
+  "source_count": 5,
+  "source_files_consulted": [
+    "graph/nodes/characters/urron-greyiron.node.md",
+    "graph/nodes/characters/galon-whitestaff.node.md",
+    "graph/nodes/characters/urras-greyiron.node.md",
+    "graph/nodes/locations/iron-islands.node.md",
+    "graph/nodes/factions/ironborn.node.md"
+  ],
+  "notes": "All 5 sources matched. Strong evidence from multiple independent nodes. Two infobox reverse hits (Urras and Urron both HOLDS_TITLE Salt king). Type: title — salt-king is a formal leadership office."
+}

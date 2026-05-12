@@ -2,14 +2,14 @@
   "chapter_id": "asos-davos-05",
   "book": "asos",
   "pov_character": "davos",
-  "generated_at": "2026-05-11T22:47:27.376542+00:00",
+  "generated_at": "2026-05-12T18:30:44.937197+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-davos-05.extraction.md",
   "stats": {
     "total_mentions": 104,
-    "resolved_to_node": 85,
-    "direct": 75,
+    "resolved_to_node": 86,
+    "direct": 76,
     "alias": 10,
-    "unresolved": 19
+    "unresolved": 18
   },
   "mentions": [
     {
@@ -717,9 +717,9 @@
     {
       "raw_name": "Haunted Forest",
       "slug": "haunted-forest",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Locations",
       "line": 117
     },

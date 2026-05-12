@@ -1,0 +1,14 @@
+{
+  "worker_id": "case-collision-batch-2-drowned-men",
+  "started_at": "2026-05-12T17:04:10Z",
+  "completed_at": "2026-05-12T17:04:30Z",
+  "status": "pass",
+  "confidence": 0.85,
+  "source_count": 3,
+  "source_files_consulted": [
+    "graph/nodes/religions/drowned-god.node.md",
+    "graph/nodes/characters/emmond.node.md",
+    "graph/nodes/houses/house-greyjoy.node.md"
+  ],
+  "notes": "All 3 sources matched. One infobox reverse hit: Emmond SWORN_TO Drowned men. Type: organization.faction — the drowned men are a named order of religious functionaries with distinct membership, initiation rite, and regalia."
+}

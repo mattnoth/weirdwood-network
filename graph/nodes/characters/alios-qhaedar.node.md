@@ -2,7 +2,7 @@
 name: "Alios Qhaedar"
 type: character.human
 slug: alios-qhaedar
-aliases: []
+aliases: ["alios"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Alios_Qhaedar"
 bucket_id: tier3-pathb-characters

@@ -2,14 +2,14 @@
   "chapter_id": "acok-tyrion-14",
   "book": "acok",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-11T22:47:27.348644+00:00",
+  "generated_at": "2026-05-12T18:30:44.905505+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-tyrion-14.extraction.md",
   "stats": {
     "total_mentions": 80,
-    "resolved_to_node": 48,
-    "direct": 48,
+    "resolved_to_node": 49,
+    "direct": 49,
     "alias": 0,
-    "unresolved": 32
+    "unresolved": 31
   },
   "mentions": [
     {
@@ -708,9 +708,9 @@
     {
       "raw_name": "Battle fever (psychological phenomenon — Tyrion experiences it and recalls Jaime's description of time blurring, fear and thought fleeing)",
       "slug": "battle-fever",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/battle-fever.node.md",
       "section": "Raw Entity List > Magic & Phenomena",
       "line": 265
     },

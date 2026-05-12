@@ -2,7 +2,7 @@
 name: "Jeyne Fowler"
 type: character.human
 slug: jeyne-fowler
-aliases: []
+aliases: ["Fowler twins", "the Fowler twins"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Jeyne_Fowler"
 bucket_id: characters-house-fowler

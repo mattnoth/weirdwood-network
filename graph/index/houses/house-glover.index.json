@@ -1,0 +1,164 @@
+{
+  "slug": "house-glover",
+  "name": "House Glover",
+  "type": "organization.house",
+  "node_path": "graph/nodes/houses/house-glover.node.md",
+  "generated_at": "2026-05-11T23:36:16.156399+00:00",
+  "stats": {
+    "appearances_total": 6,
+    "chapters_referenced_in": 6,
+    "chapters_in_raw_list": 6,
+    "out_edge_count": 7,
+    "in_edge_count": 19
+  },
+  "chapters": {
+    "in_raw_list": [
+      {
+        "chapter_id": "acok-arya-09",
+        "book": "acok",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "acok-daenerys-01",
+        "book": "acok",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-arya-10",
+        "book": "asos",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-davos-04",
+        "book": "adwd",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-reek-02",
+        "book": "adwd",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-the-sacrifice-01",
+        "book": "adwd",
+        "pov_character_slug": "asha-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      }
+    ],
+    "referenced_in": [
+      {
+        "chapter_id": "acok-arya-09",
+        "book": "acok",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "acok-daenerys-01",
+        "book": "acok",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-arya-10",
+        "book": "asos",
+        "pov_character_slug": "arya-stark",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-davos-04",
+        "book": "adwd",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-reek-02",
+        "book": "adwd",
+        "pov_character_slug": "theon-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-the-sacrifice-01",
+        "book": "adwd",
+        "pov_character_slug": "asha-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      }
+    ]
+  }
+}

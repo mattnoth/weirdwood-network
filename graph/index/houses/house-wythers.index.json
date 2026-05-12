@@ -1,0 +1,18 @@
+{
+  "slug": "house-wythers",
+  "name": "House Wythers",
+  "type": "organization.house",
+  "node_path": "graph/nodes/houses/house-wythers.node.md",
+  "generated_at": "2026-05-11T23:36:16.209414+00:00",
+  "stats": {
+    "appearances_total": 0,
+    "chapters_referenced_in": 0,
+    "chapters_in_raw_list": 0,
+    "out_edge_count": 3,
+    "in_edge_count": 2
+  },
+  "chapters": {
+    "in_raw_list": [],
+    "referenced_in": []
+  }
+}

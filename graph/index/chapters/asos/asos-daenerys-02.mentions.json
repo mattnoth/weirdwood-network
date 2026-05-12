@@ -2,14 +2,14 @@
   "chapter_id": "asos-daenerys-02",
   "book": "asos",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-11T22:47:27.370768+00:00",
+  "generated_at": "2026-05-12T18:30:44.930295+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-daenerys-02.extraction.md",
   "stats": {
     "total_mentions": 76,
-    "resolved_to_node": 56,
-    "direct": 50,
-    "alias": 6,
-    "unresolved": 20
+    "resolved_to_node": 60,
+    "direct": 52,
+    "alias": 8,
+    "unresolved": 16
   },
   "mentions": [
     {
@@ -195,9 +195,9 @@
     {
       "raw_name": "Unsullied (collectively)",
       "slug": "unsullied",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/unsullied.node.md",
       "section": "Character Appearances",
       "line": 51
     },
@@ -537,27 +537,27 @@
     {
       "raw_name": "Dothraki Sea",
       "slug": "dothraki-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dothraki-sea.node.md",
       "section": "Locations",
       "line": 97
     },
     {
       "raw_name": "The narrow sea",
-      "slug": "the-narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "narrow-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Locations",
       "line": 98
     },
     {
       "raw_name": "The red waste",
-      "slug": "the-red-waste",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "red-waste",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-waste.node.md",
       "section": "Locations",
       "line": 99
     },

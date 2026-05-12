@@ -1,0 +1,13 @@
+{
+  "worker_id": "case-collision-batch-2-spears-of-the-merling-king",
+  "started_at": "2026-05-12T17:05:12Z",
+  "completed_at": "2026-05-12T17:05:18Z",
+  "status": "pass",
+  "confidence": 0.82,
+  "source_count": 2,
+  "source_files_consulted": [
+    "graph/nodes/characters/davos-seaworth.node.md",
+    "graph/nodes/characters/khorane-sathmantes.node.md"
+  ],
+  "notes": "No infobox entry. Two sources confirm it is a navigable (if dangerous) maritime location; clearly rocks/sea stacks given 'stranded on' phrasing and that a ship sailed into them. Exact geographic coordinates not given. No edges without infobox."
+}

@@ -2,14 +2,14 @@
   "chapter_id": "affc-jaime-03",
   "book": "affc",
   "pov_character": "jaime",
-  "generated_at": "2026-05-11T22:47:27.429005+00:00",
+  "generated_at": "2026-05-12T18:30:44.998924+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-jaime-03.extraction.md",
   "stats": {
     "total_mentions": 130,
-    "resolved_to_node": 107,
-    "direct": 99,
+    "resolved_to_node": 108,
+    "direct": 100,
     "alias": 8,
-    "unresolved": 23
+    "unresolved": 22
   },
   "mentions": [
     {
@@ -843,9 +843,9 @@
     {
       "raw_name": "Flea Bottom",
       "slug": "flea-bottom",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/flea-bottom.node.md",
       "section": "Locations",
       "line": 131
     },

@@ -2,7 +2,7 @@
 name: "House Targaryen"
 type: organization.house
 slug: house-targaryen
-aliases: []
+aliases: ["targaryens"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/House_Targaryen"
 bucket_id: houses-other-house-targaryen

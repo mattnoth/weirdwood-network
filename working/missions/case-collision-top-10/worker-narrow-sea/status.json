@@ -1,0 +1,38 @@
+{
+  "worker_id": "case-collision-narrow-sea",
+  "slug": "narrow-sea",
+  "status": "complete",
+  "started_at": "2026-05-12T00:00:00Z",
+  "completed_at": "2026-05-12T00:05:00Z",
+  "confidence": "tier-1",
+  "source_count": 10,
+  "source_files_consulted": [
+    "graph/nodes/locations/pentos.node.md",
+    "graph/nodes/characters/aegor-rivers.node.md",
+    "graph/nodes/houses/house-targaryen.node.md",
+    "graph/nodes/characters/jaqen-hghar.node.md",
+    "graph/nodes/locations/essos.node.md",
+    "graph/nodes/factions/triarchy.node.md",
+    "graph/nodes/locations/valyrian-freehold.node.md",
+    "graph/nodes/events/coming-of-the-andals.node.md",
+    "graph/nodes/characters/alyn-velaryon.node.md",
+    "graph/nodes/characters/drogo.node.md",
+    "working/wiki/pass2-buckets/battles-d-f/prose/daughters-war.prose.md",
+    "working/wiki/pass2-buckets/houses-major-recovery/prose/free-cities.prose.md",
+    "working/wiki/pass2-buckets/houses-major-recovery/prose/stepstones.prose.md",
+    "working/wiki/data/backlink-counts.json",
+    "working/wiki/data/cross-references.jsonl",
+    "working/wiki/data/page-index.jsonl",
+    "sources/wiki/_raw/Narrow_Sea.json",
+    "sources/wiki/_uncategorized/narrow-sea.md"
+  ],
+  "infobox_found": false,
+  "edges_derived": 0,
+  "notes": [
+    "Wiki page 'Narrow Sea' is a redirect to 'Narrow sea'; both wiki pages are redirects with no substantive HTML content and no infobox. This is a case-collision instance — the slug 'narrow-sea' in backlink-counts.json has 120 inbound references but no corresponding graph node because the wiki source is a redirect page only.",
+    "Type assigned as place.region (geographic expanse containing islands and coasts, not a single location).",
+    "Alias 'the black salt water' derived from Drogo's speech in drogo.node.md — an in-universe poetic reference confirmed as referring to the narrow sea.",
+    "Identity synthesized from 10 top-source node files plus 3 prose bucket files and 120 cross-reference snippets. All content paraphrased conservatively from source materials; no invention.",
+    "No infobox data available; Edges section left empty per instructions."
+  ]
+}

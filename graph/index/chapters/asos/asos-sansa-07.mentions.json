@@ -2,14 +2,14 @@
   "chapter_id": "asos-sansa-07",
   "book": "asos",
   "pov_character": "sansa",
-  "generated_at": "2026-05-11T22:47:27.400251+00:00",
+  "generated_at": "2026-05-12T18:30:44.964219+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-sansa-07.extraction.md",
   "stats": {
     "total_mentions": 73,
-    "resolved_to_node": 52,
-    "direct": 51,
+    "resolved_to_node": 53,
+    "direct": 52,
     "alias": 1,
-    "unresolved": 21
+    "unresolved": 20
   },
   "mentions": [
     {
@@ -527,10 +527,10 @@
     },
     {
       "raw_name": "The rookery (Eyrie)",
-      "slug": "the-rookery",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "rookery",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/rookery.node.md",
       "section": "Locations",
       "line": 96
     },

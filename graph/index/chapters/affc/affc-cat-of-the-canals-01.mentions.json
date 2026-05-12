@@ -2,14 +2,14 @@
   "chapter_id": "affc-cat-of-the-canals-01",
   "book": "affc",
   "pov_character": "cat-of-the-canals",
-  "generated_at": "2026-05-11T22:47:27.418922+00:00",
+  "generated_at": "2026-05-12T18:30:44.985326+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-cat-of-the-canals-01.extraction.md",
   "stats": {
     "total_mentions": 119,
-    "resolved_to_node": 81,
+    "resolved_to_node": 85,
     "direct": 79,
-    "alias": 2,
-    "unresolved": 38
+    "alias": 6,
+    "unresolved": 34
   },
   "mentions": [
     {
@@ -59,10 +59,10 @@
     },
     {
       "raw_name": "The kindly man",
-      "slug": "the-kindly-man",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "kindly-man",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/kindly-man.node.md",
       "section": "Characters Present",
       "line": 32
     },
@@ -680,10 +680,10 @@
     },
     {
       "raw_name": "The Ship",
-      "slug": "the-ship",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "ship-playhouse",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/ship-playhouse.node.md",
       "section": "Locations",
       "line": 113
     },
@@ -842,10 +842,10 @@
     },
     {
       "raw_name": "The Vale",
-      "slug": "the-vale",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "vale-of-arryn",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
       "section": "Locations",
       "line": 131
     },
@@ -995,10 +995,10 @@
     },
     {
       "raw_name": "The Ship",
-      "slug": "the-ship",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "ship-playhouse",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/ship-playhouse.node.md",
       "section": "Location Descriptions",
       "line": 152
     },

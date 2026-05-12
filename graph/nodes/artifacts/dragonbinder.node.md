@@ -2,7 +2,7 @@
 name: "Dragonbinder"
 type: object.artifact
 slug: dragonbinder
-aliases: []
+aliases: ["dragon horn", "Dragon Horn"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Dragonbinder"
 bucket_id: tier3-pathb-artifacts

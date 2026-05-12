@@ -1,0 +1,33 @@
+{
+  "slug": "iron-bank-of-braavos",
+  "name": "Iron Bank of Braavos",
+  "type": "place.location",
+  "node_path": "graph/nodes/locations/iron-bank-of-braavos.node.md",
+  "generated_at": "2026-05-11T23:36:05.590396+00:00",
+  "stats": {
+    "appearances_total": 1,
+    "chapters_referenced_in": 1,
+    "chapters_in_raw_list": 0,
+    "out_edge_count": 0,
+    "in_edge_count": 46,
+    "chapters_in_locations_section": 0
+  },
+  "chapters": {
+    "in_locations_section": [],
+    "in_raw_list": [],
+    "referenced_in": [
+      {
+        "chapter_id": "adwd-the-sacrifice-01",
+        "book": "adwd",
+        "pov_character_slug": "asha-greyjoy",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Factions & Organizations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": false
+      }
+    ]
+  }
+}

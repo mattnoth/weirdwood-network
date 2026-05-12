@@ -2,14 +2,14 @@
   "chapter_id": "affc-samwell-05",
   "book": "affc",
   "pov_character": "samwell",
-  "generated_at": "2026-05-11T22:47:27.438711+00:00",
+  "generated_at": "2026-05-12T18:30:45.010506+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-samwell-05.extraction.md",
   "stats": {
     "total_mentions": 275,
-    "resolved_to_node": 172,
-    "direct": 163,
-    "alias": 9,
-    "unresolved": 103
+    "resolved_to_node": 182,
+    "direct": 169,
+    "alias": 13,
+    "unresolved": 93
   },
   "mentions": [
     {
@@ -293,10 +293,10 @@
     },
     {
       "raw_name": "Maester Aemon (Aemon Targaryen)",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Characters Referenced",
       "line": 66
     },
@@ -473,10 +473,10 @@
     },
     {
       "raw_name": "Gorghan of Old Ghis",
-      "slug": "gorghan-of-old-ghis",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "gorghan",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gorghan.node.md",
       "section": "Characters Referenced",
       "line": 86
     },
@@ -618,9 +618,9 @@
     {
       "raw_name": "Scribe's Hearth",
       "slug": "scribes-hearth",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/scribes-hearth.node.md",
       "section": "Locations",
       "line": 106
     },
@@ -924,9 +924,9 @@
     {
       "raw_name": "Scribe's Hearth",
       "slug": "scribes-hearth",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/scribes-hearth.node.md",
       "section": "Location Descriptions",
       "line": 144
     },
@@ -1041,9 +1041,9 @@
     {
       "raw_name": "Cinnamon Wind",
       "slug": "cinnamon-wind",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/cinnamon-wind.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 161
     },
@@ -1247,10 +1247,10 @@
     },
     {
       "raw_name": "Maester Aemon (Aemon Targaryen)",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Raw Entity List > Characters",
       "line": 378
     },
@@ -1427,10 +1427,10 @@
     },
     {
       "raw_name": "Gorghan of Old Ghis",
-      "slug": "gorghan-of-old-ghis",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "gorghan",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/gorghan.node.md",
       "section": "Raw Entity List > Characters",
       "line": 398
     },
@@ -1581,9 +1581,9 @@
     {
       "raw_name": "Scribe's Hearth",
       "slug": "scribes-hearth",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/scribes-hearth.node.md",
       "section": "Raw Entity List > Locations",
       "line": 417
     },
@@ -1949,10 +1949,10 @@
     },
     {
       "raw_name": "The septry (novices hurrying toward it at the Citadel)",
-      "slug": "the-septry",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "septry",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/septry.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 464
     },
@@ -2014,8 +2014,8 @@
       "raw_name": "Wildlings (Mance Rayder's people; Gilly is a wildling girl)",
       "slug": "free-folk",
       "resolved_via": "alias",
-      "node_type": "organization.faction",
-      "node_path": "graph/nodes/factions/free-folk.node.md",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/free-folk.node.md",
       "section": "Raw Entity List > Cultures & Peoples",
       "line": 473
     },
@@ -2094,9 +2094,9 @@
     {
       "raw_name": "Cinnamon Wind (Summer Islander swan ship)",
       "slug": "cinnamon-wind",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/cinnamon-wind.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 484
     },

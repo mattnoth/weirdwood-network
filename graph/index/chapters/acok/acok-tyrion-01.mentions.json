@@ -2,14 +2,14 @@
   "chapter_id": "acok-tyrion-01",
   "book": "acok",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-11T22:47:27.339838+00:00",
+  "generated_at": "2026-05-12T18:30:44.896547+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-tyrion-01.extraction.md",
   "stats": {
     "total_mentions": 178,
-    "resolved_to_node": 140,
-    "direct": 138,
-    "alias": 2,
-    "unresolved": 38
+    "resolved_to_node": 144,
+    "direct": 140,
+    "alias": 4,
+    "unresolved": 34
   },
   "mentions": [
     {
@@ -401,10 +401,10 @@
     },
     {
       "raw_name": "Prince Aemon the Dragonknight",
-      "slug": "prince-aemon-the-dragonknight",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-viserys-ii",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-viserys-ii.node.md",
       "section": "Characters Referenced",
       "line": 78
     },
@@ -1031,10 +1031,10 @@
     },
     {
       "raw_name": "Prince Aemon the Dragonknight (referenced)",
-      "slug": "prince-aemon-the-dragonknight",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-viserys-ii",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-viserys-ii.node.md",
       "section": "Raw Entity List > Characters",
       "line": 307
     },
@@ -1302,9 +1302,9 @@
     {
       "raw_name": "Small council",
       "slug": "small-council",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/small-council.node.md",
       "section": "Raw Entity List > Factions & Organizations",
       "line": 343
     },
@@ -1365,9 +1365,9 @@
     {
       "raw_name": "Silent sisters",
       "slug": "silent-sisters",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/silent-sisters.node.md",
       "section": "Raw Entity List > Factions & Organizations",
       "line": 350
     },

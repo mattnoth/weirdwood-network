@@ -2,14 +2,14 @@
   "chapter_id": "asos-samwell-02",
   "book": "asos",
   "pov_character": "samwell",
-  "generated_at": "2026-05-11T22:47:27.394534+00:00",
+  "generated_at": "2026-05-12T18:30:44.957347+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-samwell-02.extraction.md",
   "stats": {
     "total_mentions": 74,
-    "resolved_to_node": 58,
+    "resolved_to_node": 61,
     "direct": 54,
-    "alias": 4,
-    "unresolved": 16
+    "alias": 7,
+    "unresolved": 13
   },
   "mentions": [
     {
@@ -95,10 +95,10 @@
     },
     {
       "raw_name": "Ulmer",
-      "slug": "ulmer",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "ulmer-of-the-kingswood",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ulmer-of-the-kingswood.node.md",
       "section": "Characters Present",
       "line": 36
     },
@@ -275,10 +275,10 @@
     },
     {
       "raw_name": "Ulmer",
-      "slug": "ulmer",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "ulmer-of-the-kingswood",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ulmer-of-the-kingswood.node.md",
       "section": "Character Appearances",
       "line": 60
     },
@@ -365,10 +365,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Characters Referenced",
       "line": 74
     },

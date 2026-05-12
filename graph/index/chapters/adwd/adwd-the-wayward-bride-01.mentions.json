@@ -2,14 +2,14 @@
   "chapter_id": "adwd-the-wayward-bride-01",
   "book": "adwd",
   "pov_character": "the-wayward-bride",
-  "generated_at": "2026-05-11T22:47:27.493099+00:00",
+  "generated_at": "2026-05-12T18:30:45.073299+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-the-wayward-bride-01.extraction.md",
   "stats": {
     "total_mentions": 107,
-    "resolved_to_node": 75,
-    "direct": 69,
-    "alias": 6,
-    "unresolved": 32
+    "resolved_to_node": 81,
+    "direct": 73,
+    "alias": 8,
+    "unresolved": 26
   },
   "mentions": [
     {
@@ -113,10 +113,10 @@
     },
     {
       "raw_name": "Hagen (Hagen the Horn)",
-      "slug": "hagen",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "hagen-the-horn",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/hagen-the-horn.node.md",
       "section": "Characters Present",
       "line": 38
     },
@@ -132,9 +132,9 @@
     {
       "raw_name": "Rolfe the Dwarf",
       "slug": "rolfe-the-dwarf",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rolfe-the-dwarf.node.md",
       "section": "Characters Present",
       "line": 40
     },
@@ -213,9 +213,9 @@
     {
       "raw_name": "Rolfe the Dwarf",
       "slug": "rolfe-the-dwarf",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/rolfe-the-dwarf.node.md",
       "section": "Character Appearances",
       "line": 53
     },
@@ -455,10 +455,10 @@
     },
     {
       "raw_name": "Urragon Goodbrother (Badbrother)",
-      "slug": "urragon-goodbrother",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "urrathon-iv-goodbrother",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/urrathon-iv-goodbrother.node.md",
       "section": "Characters Referenced",
       "line": 84
     },
@@ -735,9 +735,9 @@
     {
       "raw_name": "Nagga's hill",
       "slug": "naggas-hill",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/naggas-hill.node.md",
       "section": "Locations",
       "line": 119
     },
@@ -870,9 +870,9 @@
     {
       "raw_name": "Black Wind",
       "slug": "black-wind",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/black-wind.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 142
     },

@@ -1,0 +1,32 @@
+{
+  "worker_id": "case-collision-great-ranging",
+  "started_at": "2026-05-12T00:00:00Z",
+  "completed_at": "2026-05-12T00:05:00Z",
+  "status": "pass",
+  "confidence": 0.92,
+  "source_count": 10,
+  "source_files_consulted": [
+    "graph/nodes/characters/samwell-tarly.node.md",
+    "graph/nodes/characters/grenn.node.md",
+    "graph/nodes/characters/gilly.node.md",
+    "graph/nodes/factions/builders.node.md",
+    "graph/nodes/events/fight-at-the-fist.node.md",
+    "graph/nodes/events/mutiny-at-crasters-keep.node.md",
+    "graph/nodes/characters/jarman-buckwell.node.md",
+    "graph/nodes/characters/byam-flint.node.md",
+    "graph/nodes/characters/ronnel-harclay.node.md",
+    "graph/nodes/characters/the-liddle.node.md",
+    "graph/nodes/characters/jeor-mormont.node.md",
+    "working/wiki/data/backlink-counts.json",
+    "working/wiki/data/infobox-data.jsonl",
+    "reference/architecture.md"
+  ],
+  "notes": [
+    "No infobox entry found in infobox-data.jsonl for great-ranging; edges derived by reverse-lookup from top-source nodes.",
+    "64 total backlinks in graph — all top 10 sources found and consulted; Jeor Mormont node also consulted as primary commander.",
+    "Type assigned as event.military-expedition (no wiki infobox to confirm subtype); analogous to fight-at-the-fist (event.battle) and mutiny-at-crasters-keep (event.battle).",
+    "Edges use the 22-type locked vocabulary only: COMMANDS_IN, FIGHTS_IN, CAUSES, LOCATED_AT.",
+    "Gilly and the-liddle nodes mention great-ranging incidentally (Gilly: Night's Watch stops at Craster's during ranging; the-liddle: mentions the ranging in conversation with Bran) — both corroborate the event but add no additional structural edges.",
+    "Three scouting party leaders named in sources: Qhorin Halfhand, Jarman Buckwell, Thoren Smallwood — only Buckwell had a dedicated node consulted; Halfhand and Smallwood referenced in prose but their nodes were not in top-10 sources."
+  ]
+}

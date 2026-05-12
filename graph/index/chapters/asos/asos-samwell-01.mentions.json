@@ -2,14 +2,14 @@
   "chapter_id": "asos-samwell-01",
   "book": "asos",
   "pov_character": "samwell",
-  "generated_at": "2026-05-11T22:47:27.393916+00:00",
+  "generated_at": "2026-05-12T18:30:44.956548+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-samwell-01.extraction.md",
   "stats": {
     "total_mentions": 122,
-    "resolved_to_node": 84,
+    "resolved_to_node": 87,
     "direct": 79,
-    "alias": 5,
-    "unresolved": 38
+    "alias": 8,
+    "unresolved": 35
   },
   "mentions": [
     {
@@ -230,10 +230,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Characters Referenced",
       "line": 59
     },
@@ -644,10 +644,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Raw Entity List > Characters",
       "line": 251
     },
@@ -869,10 +869,10 @@
     },
     {
       "raw_name": "Old Gods (the nameless gods of the trees and wolves and snows; said to rule beyond the Wall)",
-      "slug": "old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 284
     },
@@ -880,8 +880,8 @@
       "raw_name": "Wildlings (dead wildlings reanimated as wights; mentioned in Mormont's warning about \"a thousand wildlings\")",
       "slug": "free-folk",
       "resolved_via": "alias",
-      "node_type": "organization.faction",
-      "node_path": "graph/nodes/factions/free-folk.node.md",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/free-folk.node.md",
       "section": "Raw Entity List > Cultures & Peoples",
       "line": 287
     },

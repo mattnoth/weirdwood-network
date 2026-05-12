@@ -2,14 +2,14 @@
   "chapter_id": "asos-tyrion-09",
   "book": "asos",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-11T22:47:27.406185+00:00",
+  "generated_at": "2026-05-12T18:30:44.971121+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-tyrion-09.extraction.md",
   "stats": {
     "total_mentions": 98,
-    "resolved_to_node": 78,
-    "direct": 72,
+    "resolved_to_node": 79,
+    "direct": 73,
     "alias": 6,
-    "unresolved": 20
+    "unresolved": 19
   },
   "mentions": [
     {
@@ -789,9 +789,9 @@
     {
       "raw_name": "Chataya's brothel",
       "slug": "chatayas-brothel",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/chatayas-brothel.node.md",
       "section": "Locations",
       "line": 125
     },

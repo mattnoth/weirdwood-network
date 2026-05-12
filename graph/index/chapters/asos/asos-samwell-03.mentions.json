@@ -2,14 +2,14 @@
   "chapter_id": "asos-samwell-03",
   "book": "asos",
   "pov_character": "samwell",
-  "generated_at": "2026-05-11T22:47:27.395221+00:00",
+  "generated_at": "2026-05-12T18:30:44.958201+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-samwell-03.extraction.md",
   "stats": {
     "total_mentions": 120,
-    "resolved_to_node": 73,
+    "resolved_to_node": 76,
     "direct": 65,
-    "alias": 8,
-    "unresolved": 47
+    "alias": 11,
+    "unresolved": 44
   },
   "mentions": [
     {
@@ -284,10 +284,10 @@
     },
     {
       "raw_name": "Hobb",
-      "slug": "hobb",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "three-finger-hobb",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/three-finger-hobb.node.md",
       "section": "Characters Referenced",
       "line": 65
     },
@@ -671,10 +671,10 @@
     },
     {
       "raw_name": "Hobb (cook)",
-      "slug": "hobb",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "three-finger-hobb",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/three-finger-hobb.node.md",
       "section": "Raw Entity List > Characters",
       "line": 252
     },
@@ -878,10 +878,10 @@
     },
     {
       "raw_name": "The Old Gods (Sam prays to them before the weirwood)",
-      "slug": "the-old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 283
     },

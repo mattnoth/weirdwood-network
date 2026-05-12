@@ -1,0 +1,375 @@
+{
+  "generated_at": "2026-05-11T23:36:16.216088+00:00",
+  "entity_type": "houses",
+  "dry_run": false,
+  "entity_count": 556,
+  "type_counts": {
+    "organization.house": 556
+  },
+  "entities_with_zero_mentions": 395,
+  "mention_inverse_slugs": 161,
+  "top_by_appearances": [
+    {
+      "slug": "house-stark",
+      "name": "House Stark",
+      "type": "organization.house",
+      "appearances_total": 77,
+      "chapters_referenced_in": 77,
+      "in_edge_count": 193,
+      "out_edge_count": 19
+    },
+    {
+      "slug": "house-lannister",
+      "name": "House Lannister",
+      "type": "organization.house",
+      "appearances_total": 71,
+      "chapters_referenced_in": 70,
+      "in_edge_count": 429,
+      "out_edge_count": 14
+    },
+    {
+      "slug": "house-baratheon",
+      "name": "House Baratheon",
+      "type": "organization.house",
+      "appearances_total": 52,
+      "chapters_referenced_in": 52,
+      "in_edge_count": 54,
+      "out_edge_count": 15
+    },
+    {
+      "slug": "house-targaryen",
+      "name": "House Targaryen",
+      "type": "organization.house",
+      "appearances_total": 43,
+      "chapters_referenced_in": 43,
+      "in_edge_count": 285,
+      "out_edge_count": 18
+    },
+    {
+      "slug": "house-frey",
+      "name": "House Frey",
+      "type": "organization.house",
+      "appearances_total": 25,
+      "chapters_referenced_in": 25,
+      "in_edge_count": 198,
+      "out_edge_count": 7
+    },
+    {
+      "slug": "house-bolton",
+      "name": "House Bolton",
+      "type": "organization.house",
+      "appearances_total": 22,
+      "chapters_referenced_in": 22,
+      "in_edge_count": 129,
+      "out_edge_count": 11
+    },
+    {
+      "slug": "house-tully",
+      "name": "House Tully",
+      "type": "organization.house",
+      "appearances_total": 21,
+      "chapters_referenced_in": 21,
+      "in_edge_count": 76,
+      "out_edge_count": 9
+    },
+    {
+      "slug": "house-tyrell",
+      "name": "House Tyrell",
+      "type": "organization.house",
+      "appearances_total": 19,
+      "chapters_referenced_in": 18,
+      "in_edge_count": 109,
+      "out_edge_count": 12
+    },
+    {
+      "slug": "house-greyjoy",
+      "name": "House Greyjoy",
+      "type": "organization.house",
+      "appearances_total": 17,
+      "chapters_referenced_in": 16,
+      "in_edge_count": 55,
+      "out_edge_count": 13
+    },
+    {
+      "slug": "house-arryn",
+      "name": "House Arryn",
+      "type": "organization.house",
+      "appearances_total": 16,
+      "chapters_referenced_in": 16,
+      "in_edge_count": 60,
+      "out_edge_count": 13
+    },
+    {
+      "slug": "house-redwyne",
+      "name": "House Redwyne",
+      "type": "organization.house",
+      "appearances_total": 13,
+      "chapters_referenced_in": 12,
+      "in_edge_count": 16,
+      "out_edge_count": 8
+    },
+    {
+      "slug": "house-of-black-and-white",
+      "name": "House of Black and White",
+      "type": "organization.house",
+      "appearances_total": 13,
+      "chapters_referenced_in": 5,
+      "in_edge_count": 24,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "house-tarly",
+      "name": "House Tarly",
+      "type": "organization.house",
+      "appearances_total": 11,
+      "chapters_referenced_in": 11,
+      "in_edge_count": 21,
+      "out_edge_count": 9
+    },
+    {
+      "slug": "house-clegane",
+      "name": "House Clegane",
+      "type": "organization.house",
+      "appearances_total": 11,
+      "chapters_referenced_in": 11,
+      "in_edge_count": 6,
+      "out_edge_count": 5
+    },
+    {
+      "slug": "house-martell",
+      "name": "House Martell",
+      "type": "organization.house",
+      "appearances_total": 9,
+      "chapters_referenced_in": 9,
+      "in_edge_count": 44,
+      "out_edge_count": 25
+    },
+    {
+      "slug": "house-umber",
+      "name": "House Umber",
+      "type": "organization.house",
+      "appearances_total": 9,
+      "chapters_referenced_in": 8,
+      "in_edge_count": 23,
+      "out_edge_count": 6
+    },
+    {
+      "slug": "house-manderly",
+      "name": "House Manderly",
+      "type": "organization.house",
+      "appearances_total": 8,
+      "chapters_referenced_in": 8,
+      "in_edge_count": 61,
+      "out_edge_count": 18
+    },
+    {
+      "slug": "house-florent",
+      "name": "House Florent",
+      "type": "organization.house",
+      "appearances_total": 7,
+      "chapters_referenced_in": 7,
+      "in_edge_count": 33,
+      "out_edge_count": 8
+    },
+    {
+      "slug": "house-mormont",
+      "name": "House Mormont",
+      "type": "organization.house",
+      "appearances_total": 7,
+      "chapters_referenced_in": 7,
+      "in_edge_count": 14,
+      "out_edge_count": 9
+    },
+    {
+      "slug": "house-glover",
+      "name": "House Glover",
+      "type": "organization.house",
+      "appearances_total": 6,
+      "chapters_referenced_in": 6,
+      "in_edge_count": 19,
+      "out_edge_count": 7
+    }
+  ],
+  "top_by_in_edges": [
+    {
+      "slug": "house-lannister",
+      "name": "House Lannister",
+      "type": "organization.house",
+      "appearances_total": 71,
+      "chapters_referenced_in": 70,
+      "in_edge_count": 429,
+      "out_edge_count": 14
+    },
+    {
+      "slug": "house-targaryen",
+      "name": "House Targaryen",
+      "type": "organization.house",
+      "appearances_total": 43,
+      "chapters_referenced_in": 43,
+      "in_edge_count": 285,
+      "out_edge_count": 18
+    },
+    {
+      "slug": "house-frey",
+      "name": "House Frey",
+      "type": "organization.house",
+      "appearances_total": 25,
+      "chapters_referenced_in": 25,
+      "in_edge_count": 198,
+      "out_edge_count": 7
+    },
+    {
+      "slug": "house-stark",
+      "name": "House Stark",
+      "type": "organization.house",
+      "appearances_total": 77,
+      "chapters_referenced_in": 77,
+      "in_edge_count": 193,
+      "out_edge_count": 19
+    },
+    {
+      "slug": "house-bolton",
+      "name": "House Bolton",
+      "type": "organization.house",
+      "appearances_total": 22,
+      "chapters_referenced_in": 22,
+      "in_edge_count": 129,
+      "out_edge_count": 11
+    },
+    {
+      "slug": "house-tyrell",
+      "name": "House Tyrell",
+      "type": "organization.house",
+      "appearances_total": 19,
+      "chapters_referenced_in": 18,
+      "in_edge_count": 109,
+      "out_edge_count": 12
+    },
+    {
+      "slug": "house-tully",
+      "name": "House Tully",
+      "type": "organization.house",
+      "appearances_total": 21,
+      "chapters_referenced_in": 21,
+      "in_edge_count": 76,
+      "out_edge_count": 9
+    },
+    {
+      "slug": "house-manderly",
+      "name": "House Manderly",
+      "type": "organization.house",
+      "appearances_total": 8,
+      "chapters_referenced_in": 8,
+      "in_edge_count": 61,
+      "out_edge_count": 18
+    },
+    {
+      "slug": "house-arryn",
+      "name": "House Arryn",
+      "type": "organization.house",
+      "appearances_total": 16,
+      "chapters_referenced_in": 16,
+      "in_edge_count": 60,
+      "out_edge_count": 13
+    },
+    {
+      "slug": "house-greyjoy",
+      "name": "House Greyjoy",
+      "type": "organization.house",
+      "appearances_total": 17,
+      "chapters_referenced_in": 16,
+      "in_edge_count": 55,
+      "out_edge_count": 13
+    },
+    {
+      "slug": "house-hightower",
+      "name": "House Hightower",
+      "type": "organization.house",
+      "appearances_total": 6,
+      "chapters_referenced_in": 6,
+      "in_edge_count": 55,
+      "out_edge_count": 16
+    },
+    {
+      "slug": "house-baratheon",
+      "name": "House Baratheon",
+      "type": "organization.house",
+      "appearances_total": 52,
+      "chapters_referenced_in": 52,
+      "in_edge_count": 54,
+      "out_edge_count": 15
+    },
+    {
+      "slug": "house-velaryon",
+      "name": "House Velaryon",
+      "type": "organization.house",
+      "appearances_total": 5,
+      "chapters_referenced_in": 5,
+      "in_edge_count": 51,
+      "out_edge_count": 8
+    },
+    {
+      "slug": "house-blackwood",
+      "name": "House Blackwood",
+      "type": "organization.house",
+      "appearances_total": 3,
+      "chapters_referenced_in": 3,
+      "in_edge_count": 46,
+      "out_edge_count": 15
+    },
+    {
+      "slug": "house-bracken",
+      "name": "House Bracken",
+      "type": "organization.house",
+      "appearances_total": 3,
+      "chapters_referenced_in": 3,
+      "in_edge_count": 45,
+      "out_edge_count": 13
+    },
+    {
+      "slug": "house-martell",
+      "name": "House Martell",
+      "type": "organization.house",
+      "appearances_total": 9,
+      "chapters_referenced_in": 9,
+      "in_edge_count": 44,
+      "out_edge_count": 25
+    },
+    {
+      "slug": "house-blackfyre",
+      "name": "House Blackfyre",
+      "type": "organization.house",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 42,
+      "out_edge_count": 8
+    },
+    {
+      "slug": "house-hoare",
+      "name": "House Hoare",
+      "type": "organization.house",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 40,
+      "out_edge_count": 10
+    },
+    {
+      "slug": "house-karstark",
+      "name": "House Karstark",
+      "type": "organization.house",
+      "appearances_total": 6,
+      "chapters_referenced_in": 6,
+      "in_edge_count": 37,
+      "out_edge_count": 7
+    },
+    {
+      "slug": "house-rogare",
+      "name": "House Rogare",
+      "type": "organization.house",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 35,
+      "out_edge_count": 2
+    }
+  ]
+}

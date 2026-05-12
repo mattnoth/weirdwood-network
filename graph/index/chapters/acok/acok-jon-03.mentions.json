@@ -2,14 +2,14 @@
   "chapter_id": "acok-jon-03",
   "book": "acok",
   "pov_character": "jon",
-  "generated_at": "2026-05-11T22:47:27.324938+00:00",
+  "generated_at": "2026-05-12T18:30:44.879783+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-jon-03.extraction.md",
   "stats": {
     "total_mentions": 76,
-    "resolved_to_node": 66,
-    "direct": 60,
-    "alias": 6,
-    "unresolved": 10
+    "resolved_to_node": 69,
+    "direct": 62,
+    "alias": 7,
+    "unresolved": 7
   },
   "mentions": [
     {
@@ -410,10 +410,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Characters Referenced",
       "line": 79
     },
@@ -537,9 +537,9 @@
     {
       "raw_name": "Haunted forest",
       "slug": "haunted-forest",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Locations",
       "line": 97
     },
@@ -627,9 +627,9 @@
     {
       "raw_name": "Haunted forest (march)",
       "slug": "haunted-forest",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Location Descriptions",
       "line": 111
     },

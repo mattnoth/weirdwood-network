@@ -1,0 +1,15 @@
+{
+  "worker_id": "case-collision-batch-2-master-of-laws",
+  "started_at": "2026-05-12T17:08:25.369734Z",
+  "completed_at": "2026-05-12T17:08:25.369858Z",
+  "status": "pass",
+  "confidence": 0.93,
+  "source_count": 3,
+  "source_files_consulted": [
+    "graph/nodes/characters/randyll-tarly.node.md",
+    "graph/nodes/characters/aerys-ii-targaryen.node.md",
+    "graph/nodes/titles/master-of-laws.node.md",
+    "working/wiki/data/infobox-data.jsonl"
+  ],
+  "notes": "Title stub already existed (pass2-wiki-deterministic). 13 infobox HOLDS_TITLE reverse hits across Targaryen and Baratheon reign periods. Richest reverse-lookup in the batch."
+}

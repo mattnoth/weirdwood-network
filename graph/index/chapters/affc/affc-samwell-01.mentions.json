@@ -2,14 +2,14 @@
   "chapter_id": "affc-samwell-01",
   "book": "affc",
   "pov_character": "samwell",
-  "generated_at": "2026-05-11T22:47:27.434302+00:00",
+  "generated_at": "2026-05-12T18:30:45.005473+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-samwell-01.extraction.md",
   "stats": {
     "total_mentions": 113,
-    "resolved_to_node": 89,
-    "direct": 84,
-    "alias": 5,
-    "unresolved": 24
+    "resolved_to_node": 93,
+    "direct": 85,
+    "alias": 8,
+    "unresolved": 20
   },
   "mentions": [
     {
@@ -68,10 +68,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Characters Present",
       "line": 33
     },
@@ -212,10 +212,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Character Appearances",
       "line": 53
     },
@@ -311,10 +311,10 @@
     },
     {
       "raw_name": "Ulmer",
-      "slug": "ulmer",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "ulmer-of-the-kingswood",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/ulmer-of-the-kingswood.node.md",
       "section": "Characters Referenced",
       "line": 68
     },
@@ -671,10 +671,10 @@
     },
     {
       "raw_name": "The rookery",
-      "slug": "the-rookery",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "rookery",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/rookery.node.md",
       "section": "Locations",
       "line": 112
     },

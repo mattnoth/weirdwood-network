@@ -53,7 +53,7 @@ Entity
 ├── Organization
 │   ├── House             (sigil, words, seat, bloodline: House Stark, House Frey)
 │   ├── Faction           (Night's Watch, Faceless Men, Golden Company, Brotherhood Without Banners)
-│   └── Religion          (deities, clergy, rituals,  cred sites: Faith of the Seven, R'hllor, Old Gods)
+│   └── Religion          (deities, clergy, rituals, sacred sites: Faith of the Seven, R'hllor, Old Gods)
 ├── Concept
 │   ├── Culture           (customs, language, appearance norms: Dothraki, Ironborn, Free Folk)
 │   ├── Magic             (rules, practitioners, costs: warging, greensight, shadowbinding, wildfire)
@@ -105,6 +105,19 @@ Entity
 - **Querying a leaf returns only that type.** "Show me all Houses" → only houses, not factions.
 - **An entity has exactly one type.** The Night's Watch is `organization.faction`, not both faction and religion. If an entity genuinely straddles types, pick the primary and note the secondary in metadata.
 - **Characters are individuals, species are categories.** Drogon is `character.dragon`. "Dragons" as a biological category is `species`. Ghost is `character.direwolf`. "Direwolves" as a species is `species`.
+
+### Multi-type entities
+
+Some real-world entities span multiple of the type categories above. Free Folk are simultaneously a culture (`concept.culture`) and a polity/faction (`organization.faction`). Children of the Forest are simultaneously a species (`species`) and an ancient sentient faction. Wardens are titles, but the *role* of being a warden is also a behavior set.
+
+**Policy: one node per real-world entity. The `type` field captures its primary identity. Other facets emerge through edges, not through a second node.**
+
+- Free Folk → `concept.culture`. Polity-ness emerges via MEMBER_OF (character → free-folk), FIGHTS_IN (war/battle → free-folk), HOLDS_TITLE (king-beyond-the-wall), LOCATED_AT (beyond-the-wall → free-folk).
+- Children of the Forest → `species`. Faction-ness emerges via FIGHTS_IN (war-of-first-men), LOCATED_AT (isle-of-faces), and magic-use edges.
+
+This avoids SAME_AS bookkeeping and ambiguous "which node?" queries. Retrieval naturally unions identity + behaviors via edge traversal.
+
+**The `multi-type-entity-resolver` agent's job** under this policy: pick the right primary type + ensure edges capture the other facets. NOT split into multiple nodes.
 
 ---
 
@@ -173,6 +186,7 @@ When an extraction or wiki field doesn't fit an existing edge type, add a new on
 |-----------|-------------|---------------|-------------|
 | `FIGHTS_IN` | Participates in a battle or war | Person → Event/War | — |
 | `COMMANDS_IN` | Holds command role in a battle or war (note which side) | Person → Event/War | — |
+| `PART_OF` | Battle or sub-event is a component of a larger war | Battle → War | Conflict, Battles |
 | `KILLS` | Directly causes death | Killer → Killed | — |
 | `EXECUTES` | Formal/judicial killing | Executor → Executed | — |
 | `CAPTURES` | Takes prisoner | Captor → Captive | — |
@@ -479,5 +493,6 @@ When Pass 2 (wiki ingestion) processes wiki pages, these infobox fields map to e
 | Region, Regions | `REGION_OF` | |
 | Species | Node type metadata | Not an edge — informs entity type |
 | Conflict, Battles | `FIGHTS_IN` | For battle pages and characters' battle lists |
+| Conflict (on a war page's battle list) | `PART_OF` | Reverse direction — battle → war containment; emit when parsing a war page's list of constituent battles |
 | Result | `DEFEATS` | Extract victor/defeated from result text |
 | Written by | `WRITTEN_BY` | For in-world texts (books, songs, decrees); subject = text, target = author |

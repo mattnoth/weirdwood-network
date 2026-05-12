@@ -2,7 +2,7 @@
 name: "Bhakaz zo Loraq"
 type: character.human
 slug: bhakaz-zo-loraq
-aliases: []
+aliases: ["bhakaz"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Bhakaz_zo_Loraq"
 bucket_id: characters-house-of-loraq

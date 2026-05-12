@@ -2,14 +2,14 @@
   "chapter_id": "asos-arya-07",
   "book": "asos",
   "pov_character": "arya",
-  "generated_at": "2026-05-11T22:47:27.355063+00:00",
+  "generated_at": "2026-05-12T18:30:44.912639+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-arya-07.extraction.md",
   "stats": {
     "total_mentions": 107,
-    "resolved_to_node": 66,
-    "direct": 54,
+    "resolved_to_node": 68,
+    "direct": 56,
     "alias": 12,
-    "unresolved": 41
+    "unresolved": 39
   },
   "mentions": [
     {
@@ -681,9 +681,9 @@
     {
       "raw_name": "Septry (unnamed)",
       "slug": "septry",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/septry.node.md",
       "section": "Locations",
       "line": 113
     },
@@ -816,9 +816,9 @@
     {
       "raw_name": "Septry (unnamed)",
       "slug": "septry",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/septry.node.md",
       "section": "Location Descriptions",
       "line": 132
     },

@@ -1,0 +1,17 @@
+{
+  "worker_id": "case-collision-batch-2-master-of-whisperers",
+  "started_at": "2026-05-12T17:05:04.755731Z",
+  "completed_at": "2026-05-12T17:05:04.755847Z",
+  "status": "pass",
+  "confidence": 0.9,
+  "source_count": 4,
+  "source_files_consulted": [
+    "graph/nodes/characters/jorah-mormont.node.md",
+    "graph/nodes/characters/robert-i-baratheon.node.md",
+    "graph/nodes/characters/aerys-ii-targaryen.node.md",
+    "graph/nodes/events/roberts-rebellion.node.md",
+    "graph/nodes/titles/master-of-whisperers.node.md",
+    "working/wiki/data/infobox-data.jsonl"
+  ],
+  "notes": "Title node already existed as stub (pass2-wiki-deterministic). Reverse infobox lookup found Varys, Brynden Rivers, Larys Strong, Qyburn as holders."
+}

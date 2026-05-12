@@ -2,14 +2,14 @@
   "chapter_id": "acok-sansa-05",
   "book": "acok",
   "pov_character": "sansa",
-  "generated_at": "2026-05-11T22:47:27.333250+00:00",
+  "generated_at": "2026-05-12T18:30:44.889398+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-sansa-05.extraction.md",
   "stats": {
     "total_mentions": 128,
-    "resolved_to_node": 106,
-    "direct": 106,
-    "alias": 0,
-    "unresolved": 22
+    "resolved_to_node": 110,
+    "direct": 108,
+    "alias": 2,
+    "unresolved": 18
   },
   "mentions": [
     {
@@ -365,10 +365,10 @@
     },
     {
       "raw_name": "Prince Aemon the Dragonknight",
-      "slug": "prince-aemon-the-dragonknight",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-viserys-ii",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-viserys-ii.node.md",
       "section": "Characters Referenced",
       "line": 74
     },
@@ -537,9 +537,9 @@
     {
       "raw_name": "Three Whores",
       "slug": "three-whores",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/three-whores.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 105
     },
@@ -833,10 +833,10 @@
     },
     {
       "raw_name": "Prince Aemon the Dragonknight (referenced, legendary)",
-      "slug": "prince-aemon-the-dragonknight",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-viserys-ii",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-viserys-ii.node.md",
       "section": "Raw Entity List > Characters",
       "line": 261
     },
@@ -1076,10 +1076,10 @@
     },
     {
       "raw_name": "The Three Whores (catapults/siege weapons Joffrey will command)",
-      "slug": "the-three-whores",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "three-whores",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/three-whores.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 301
     },

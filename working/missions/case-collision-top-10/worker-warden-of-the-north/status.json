@@ -1,0 +1,34 @@
+{
+  "worker_id": "case-collision-warden-of-the-north",
+  "slug": "warden-of-the-north",
+  "status": "pass",
+  "confidence": 0.9,
+  "source_count": 10,
+  "source_files_consulted": [
+    "graph/nodes/locations/north.node.md",
+    "graph/nodes/characters/roose-bolton.node.md",
+    "graph/nodes/characters/ramsay-snow.node.md",
+    "graph/nodes/characters/wylis-manderly.node.md",
+    "graph/nodes/characters/rodrik-ryswell.node.md",
+    "graph/nodes/characters/stannis-baratheon.node.md",
+    "graph/nodes/houses/house-bolton.node.md",
+    "graph/nodes/houses/house-stark.node.md",
+    "graph/nodes/factions/nights-watch.node.md",
+    "graph/nodes/locations/seven-kingdoms.node.md",
+    "graph/nodes/characters/torrhen-stark.node.md",
+    "sources/wiki/_raw/Warden.json",
+    "sources/wiki/_raw/Warden_of_The_North.json",
+    "working/wiki/data/infobox-data.jsonl",
+    "working/wiki/data/backlink-counts.json"
+  ],
+  "started_at": "2026-05-12T00:00:00Z",
+  "completed_at": "2026-05-12T00:10:00Z",
+  "notes": [
+    "The canonical wiki page Warden_of_The_North.json is a redirect stub — no substantive HTML content.",
+    "No direct infobox entry exists for 'Warden of the North' as a title page in infobox-data.jsonl.",
+    "Substantial content sourced from Warden.json (the parent Warden article) and all 10 top backlink source nodes.",
+    "24 reverse-lookup HOLDS_TITLE edges reconstructed from character and house nodes.",
+    "Identity covers: nature of the title, historical origin (Aegon's Conquest/Torrhen Stark), traditional Stark holders, transfer to Roose Bolton post-Red Wedding, and contested legitimacy in the North.",
+    "Confidence capped at 0.9 (not 1.0) because the title's canonical wiki page had no parseable body; content synthesized from cross-references rather than primary page."
+  ]
+}

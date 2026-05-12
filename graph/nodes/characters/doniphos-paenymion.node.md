@@ -2,7 +2,7 @@
 name: "Doniphos Paenymion"
 type: character.human
 slug: doniphos-paenymion
-aliases: []
+aliases: ["doniphos"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Doniphos_Paenymion"
 bucket_id: characters-other-d

@@ -2,14 +2,14 @@
   "chapter_id": "affc-cersei-09",
   "book": "affc",
   "pov_character": "cersei",
-  "generated_at": "2026-05-11T22:47:27.426006+00:00",
+  "generated_at": "2026-05-12T18:30:44.993379+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-cersei-09.extraction.md",
   "stats": {
     "total_mentions": 84,
-    "resolved_to_node": 69,
-    "direct": 65,
-    "alias": 4,
-    "unresolved": 15
+    "resolved_to_node": 73,
+    "direct": 68,
+    "alias": 5,
+    "unresolved": 11
   },
   "mentions": [
     {
@@ -537,9 +537,9 @@
     {
       "raw_name": "Black cells",
       "slug": "black-cells",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/black-cells.node.md",
       "section": "Locations",
       "line": 97
     },
@@ -564,9 +564,9 @@
     {
       "raw_name": "Maidenvault",
       "slug": "maidenvault",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/maidenvault.node.md",
       "section": "Locations",
       "line": 100
     },
@@ -608,10 +608,10 @@
     },
     {
       "raw_name": "The Vale",
-      "slug": "the-vale",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "vale-of-arryn",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
       "section": "Locations",
       "line": 105
     },
@@ -681,9 +681,9 @@
     {
       "raw_name": "Black cells",
       "slug": "black-cells",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/black-cells.node.md",
       "section": "Location Descriptions",
       "line": 117
     },

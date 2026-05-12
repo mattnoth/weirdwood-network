@@ -2,14 +2,14 @@
   "chapter_id": "adwd-the-griffin-reborn-01",
   "book": "adwd",
   "pov_character": "the-griffin-reborn",
-  "generated_at": "2026-05-11T22:47:27.481508+00:00",
+  "generated_at": "2026-05-12T18:30:45.060147+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-the-griffin-reborn-01.extraction.md",
   "stats": {
     "total_mentions": 226,
-    "resolved_to_node": 170,
-    "direct": 160,
-    "alias": 10,
-    "unresolved": 56
+    "resolved_to_node": 175,
+    "direct": 162,
+    "alias": 13,
+    "unresolved": 51
   },
   "mentions": [
     {
@@ -509,10 +509,10 @@
     },
     {
       "raw_name": "The Freys",
-      "slug": "the-freys",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "house-frey",
+      "resolved_via": "alias",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-frey.node.md",
       "section": "Characters Referenced",
       "line": 90
     },
@@ -743,10 +743,10 @@
     },
     {
       "raw_name": "The Vale",
-      "slug": "the-vale",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "vale-of-arryn",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
       "section": "Locations",
       "line": 120
     },
@@ -789,9 +789,9 @@
     {
       "raw_name": "Griffin Seat",
       "slug": "griffin-seat",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/griffin-seat.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 133
     },
@@ -1553,10 +1553,10 @@
     },
     {
       "raw_name": "The Vale",
-      "slug": "the-vale",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "vale-of-arryn",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
       "section": "Raw Entity List > Locations",
       "line": 402
     },
@@ -1779,9 +1779,9 @@
     {
       "raw_name": "Griffin Seat (carved and gilded)",
       "slug": "griffin-seat",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/griffin-seat.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 437
     },

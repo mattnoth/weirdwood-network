@@ -2,14 +2,14 @@
   "chapter_id": "asos-sansa-01",
   "book": "asos",
   "pov_character": "sansa",
-  "generated_at": "2026-05-11T22:47:27.396959+00:00",
+  "generated_at": "2026-05-12T18:30:44.960584+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-sansa-01.extraction.md",
   "stats": {
     "total_mentions": 102,
-    "resolved_to_node": 73,
-    "direct": 70,
+    "resolved_to_node": 76,
+    "direct": 73,
     "alias": 3,
-    "unresolved": 29
+    "unresolved": 26
   },
   "mentions": [
     {
@@ -645,9 +645,9 @@
     {
       "raw_name": "Maidenvault",
       "slug": "maidenvault",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/maidenvault.node.md",
       "section": "Locations",
       "line": 109
     },
@@ -726,9 +726,9 @@
     {
       "raw_name": "Godswood",
       "slug": "godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Locations",
       "line": 118
     },
@@ -807,9 +807,9 @@
     {
       "raw_name": "Maidenvault",
       "slug": "maidenvault",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/maidenvault.node.md",
       "section": "Location Descriptions",
       "line": 131
     },

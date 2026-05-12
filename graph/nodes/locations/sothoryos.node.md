@@ -2,7 +2,7 @@
 name: "Sothoryos"
 type: place.region
 slug: sothoryos
-aliases: []
+aliases: ["sothoros"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Sothoryos"
 bucket_id: tier3-pathb-locations

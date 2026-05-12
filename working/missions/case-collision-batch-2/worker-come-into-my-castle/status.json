@@ -1,0 +1,14 @@
+{
+  "worker_id": "case-collision-batch-2-come-into-my-castle",
+  "started_at": "2026-05-12T17:04:35Z",
+  "completed_at": "2026-05-12T17:04:40Z",
+  "status": "pass",
+  "confidence": 0.85,
+  "source_count": 3,
+  "source_files_consulted": [
+    "graph/nodes/characters/alysanne-bulwer.node.md",
+    "graph/nodes/characters/walder-frey-son-of-jammos.node.md",
+    "graph/nodes/characters/walder-frey-son-of-merrett.node.md"
+  ],
+  "notes": "No infobox entry. Also corroborated by monsters-and-maidens.node.md (graph/nodes/concepts/monsters-and-maidens.node.md) which cross-references this game. Type concept (children's game), consistent with monsters-and-maidens node. No edges without infobox."
+}

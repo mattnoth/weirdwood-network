@@ -2,7 +2,7 @@
 name: "White raven"
 type: species
 slug: white-raven
-aliases: []
+aliases: ["white-ravens"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/White_raven"
 bucket_id: tier3-pathb-longtail

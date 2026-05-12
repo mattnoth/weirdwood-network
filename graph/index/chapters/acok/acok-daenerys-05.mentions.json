@@ -2,14 +2,14 @@
   "chapter_id": "acok-daenerys-05",
   "book": "acok",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-11T22:47:27.319591+00:00",
+  "generated_at": "2026-05-12T18:30:44.873274+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-daenerys-05.extraction.md",
   "stats": {
     "total_mentions": 219,
-    "resolved_to_node": 119,
-    "direct": 106,
-    "alias": 13,
-    "unresolved": 100
+    "resolved_to_node": 123,
+    "direct": 108,
+    "alias": 15,
+    "unresolved": 96
   },
   "mentions": [
     {
@@ -1229,10 +1229,10 @@
     },
     {
       "raw_name": "The red waste",
-      "slug": "the-red-waste",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "red-waste",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-waste.node.md",
       "section": "Raw Entity List > Locations",
       "line": 359
     },
@@ -1698,18 +1698,18 @@
     {
       "raw_name": "Qartheen gown (ivory samite with seed pearls)",
       "slug": "qartheen-gown",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.material",
+      "node_path": "graph/nodes/materials/qartheen-gown.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 421
     },
     {
       "raw_name": "\"The song of ice and fire\" (referenced by Rhaegar in vision)",
       "slug": "the-song-of-ice-and-fire",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept.prophecy",
+      "node_path": "graph/nodes/prophecies/the-song-of-ice-and-fire.node.md",
       "section": "Raw Entity List > In-world Texts & Songs",
       "line": 424
     },
@@ -1904,10 +1904,10 @@
     },
     {
       "raw_name": "Daenerys Stormborn",
-      "slug": "daenerys-stormborn",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "daenerys-targaryen",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
       "section": "Raw Entity List > Titles & Offices",
       "line": 452
     },

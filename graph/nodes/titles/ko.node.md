@@ -2,7 +2,7 @@
 name: "Ko"
 type: title
 slug: ko
-aliases: []
+aliases: ["kos"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Ko"
 bucket_id: tier3-titles

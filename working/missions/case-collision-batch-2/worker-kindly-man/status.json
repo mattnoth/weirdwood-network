@@ -1,0 +1,15 @@
+{
+  "worker_id": "case-collision-batch-2-kindly-man",
+  "started_at": "2026-05-12T17:07:00.626857Z",
+  "completed_at": "2026-05-12T17:07:00.626993Z",
+  "status": "pass",
+  "confidence": 0.87,
+  "source_count": 4,
+  "source_files_consulted": [
+    "graph/nodes/factions/faceless-men.node.md",
+    "graph/nodes/characters/waif.node.md",
+    "graph/nodes/characters/jaqen-hghar.node.md",
+    "graph/nodes/characters/old-man.node.md"
+  ],
+  "notes": "No pre-existing node. Well documented in faceless-men and waif nodes. Character is unnamed in-universe; 'kindly man' is Arya's descriptor. No infobox reverse hits found. Type is character.human."
+}

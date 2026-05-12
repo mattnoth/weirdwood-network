@@ -2,14 +2,14 @@
   "chapter_id": "acok-catelyn-06",
   "book": "acok",
   "pov_character": "catelyn",
-  "generated_at": "2026-05-11T22:47:27.313598+00:00",
+  "generated_at": "2026-05-12T18:30:44.866689+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-catelyn-06.extraction.md",
   "stats": {
     "total_mentions": 79,
-    "resolved_to_node": 58,
+    "resolved_to_node": 59,
     "direct": 53,
-    "alias": 5,
-    "unresolved": 21
+    "alias": 6,
+    "unresolved": 20
   },
   "mentions": [
     {
@@ -572,10 +572,10 @@
     },
     {
       "raw_name": "The Vale",
-      "slug": "the-vale",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "vale-of-arryn",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
       "section": "Locations",
       "line": 101
     },

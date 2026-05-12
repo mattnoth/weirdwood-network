@@ -1,0 +1,13 @@
+{
+  "worker_id": "case-collision-batch-2-two-hearts-that-beat-as-one",
+  "started_at": "2026-05-12T17:04:45Z",
+  "completed_at": "2026-05-12T17:04:50Z",
+  "status": "pass",
+  "confidence": 0.88,
+  "source_count": 2,
+  "source_files_consulted": [
+    "graph/nodes/characters/tom-of-sevenstreams.node.md",
+    "graph/nodes/characters/mance-rayder.node.md"
+  ],
+  "notes": "No infobox entry. Two sources confirm song title and performers. Type object.text (song), consistent with six-maids-in-a-pool.node.md pattern. Identity brief by design — only performance context available. No edges without infobox."
+}

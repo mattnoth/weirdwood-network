@@ -2,14 +2,14 @@
   "chapter_id": "adwd-the-ugly-little-girl-01",
   "book": "adwd",
   "pov_character": "the-ugly-little-girl",
-  "generated_at": "2026-05-11T22:47:27.491642+00:00",
+  "generated_at": "2026-05-12T18:30:45.071529+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-the-ugly-little-girl-01.extraction.md",
   "stats": {
     "total_mentions": 210,
-    "resolved_to_node": 92,
-    "direct": 85,
-    "alias": 7,
-    "unresolved": 118
+    "resolved_to_node": 98,
+    "direct": 87,
+    "alias": 11,
+    "unresolved": 112
   },
   "mentions": [
     {
@@ -23,10 +23,10 @@
     },
     {
       "raw_name": "The kindly man",
-      "slug": "the-kindly-man",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "kindly-man",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/kindly-man.node.md",
       "section": "Characters Present",
       "line": 28
     },
@@ -617,10 +617,10 @@
     },
     {
       "raw_name": "The Ship",
-      "slug": "the-ship",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "ship-playhouse",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/ship-playhouse.node.md",
       "section": "Locations",
       "line": 106
     },
@@ -869,10 +869,10 @@
     },
     {
       "raw_name": "The kindly man",
-      "slug": "the-kindly-man",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "kindly-man",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/kindly-man.node.md",
       "section": "Raw Entity List > Characters",
       "line": 289
     },
@@ -1499,10 +1499,10 @@
     },
     {
       "raw_name": "The Ship (mummers' venue)",
-      "slug": "the-ship",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "ship-playhouse",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/ship-playhouse.node.md",
       "section": "Raw Entity List > Locations",
       "line": 361
     },
@@ -1878,18 +1878,18 @@
     {
       "raw_name": "Valar morghulis (\"All men must die\" — used as greeting)",
       "slug": "valar-morghulis",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/valar-morghulis.node.md",
       "section": "Raw Entity List > Other",
       "line": 426
     },
     {
       "raw_name": "Valar dohaeris (\"All men must serve\" — used as response/greeting)",
       "slug": "valar-dohaeris",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/valar-dohaeris.node.md",
       "section": "Raw Entity List > Other",
       "line": 427
     },

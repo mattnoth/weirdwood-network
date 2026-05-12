@@ -33,19 +33,69 @@ Run the end-of-session checklist for the Weirwood Network project. Do each step 
 
 8. **Show session summary** — Print a brief summary of what was accomplished and what the next session should pick up.
 
-9. **Output copy/paste handoff block** — At the very end, print a clearly-delimited code block that Matt can paste into a fresh agent conversation as-is. Format:
+9. **Write handoff file(s) AND print the literal copy-paste in chat.** The long-form context (full task description, success criteria, DO-NOTs, slug lists) goes to a file at `progress/continue-prompts/<date>-<short-slug>.md` — that's where the next session's agent reads from. BUT the literal copy-paste commands Matt needs to fire the next session MUST ALSO appear inline in chat at session close, so he doesn't have to open the file to know what command to run.
+
+   **What to print inline (always):** the Shape A or Shape B block below — it contains the literal `/continue <slug>` / `/watcher <substring>` / `/worker <substring> <wave-id>` command(s) plus model recommendation. Short — typically 4-12 lines per block. Multi-line handoff *prose* (long task descriptions, slug lists, success criteria) stays in the file, NOT in chat — those belong to the future agent, not to Matt-at-session-close.
+
+   **What goes only in the file:** task description prose, success criteria, slug lists, DO-NOTs, sub-step instructions, slug-mapping tables, anything > 12 lines. The file is what `/continue` reads when fired.
+
+   Also print one summary line per file written: `Wrote handoff: progress/continue-prompts/<date>-<slug>.md (Shape A | Shape B | session-task)` — gives Matt the path for reference, separate from the copy-paste block.
+
+   **One file per independent work track.** Parallel-safe tracks each get their own file so Matt can pick them up independently. The dependency between them (parallel-safe vs sequential) is noted in each file's prose.
+
+   File shape per track — pick A or B based on what's queued:
+
+   ### Shape A — Mission (watcher + workers)
+   When the next work is a mission (multiple parallel workers + a watcher reading their state), output ONE handoff block per role. Always include model recommendation.
 
    ```
-   ━━━ HANDOFF FOR NEXT AGENT ━━━
-   /continue {prompt-filename-without-.md}
+   ━━━ HANDOFF — WATCHER (window 1) ━━━
+   Model: Opus 4.7
+   In a fresh Claude Code session, type:
+       /watcher <mission-substring>
+   …then paste the kickoff it emits as your first message.
 
-   Context:
-   - Active work track: {one-line description}
-   - Last session: {session number} — {one-line outcome}
-   - Read first: {path to canonical reference, e.g. wiki-pass2-pipeline.md, if relevant}
-   - Open questions for Matt: {bullet list, or "none"}
-   - DO NOT: {one-line list of things the next agent must avoid — e.g., "do not run /endsession without permission, do not auto-launch agent runs"}
+   Mission file: working/agent-fleet-specs/missions/<date>-<slug>.md
+   Open questions for Matt: {bullet list or "none"}
+   DO NOT: dispatch workers (you orchestrate them in separate sessions); modify worker output; auto-run /endsession.
+   ━━━
+
+   ━━━ HANDOFF — WORKERS (windows 2-N) ━━━
+   Model: Sonnet 4.6 (Haiku 4.5 if mission explicitly OKs simpler tasks)
+   For each worker slug in the mission's wave, open a fresh Claude Code session and type:
+       /worker <mission-substring> <worker-slug>
+   …then paste the kickoff it emits as your first message. One worker per session.
+
+   Worker slugs for wave 1: {comma-separated list from mission file}
+   Worker slugs for wave 2 (after wave 1 settles): {comma-separated list}
+   DO NOT: refetch wiki; write to graph/nodes/; touch other workers' scratch dirs; auto-run /endsession.
    ━━━
    ```
 
-   The block must be self-contained — a fresh Claude with no carry-over context should be able to start work from this paste alone. If multiple work tracks are in flight, output one block per track with a clear label. If no follow-up work track exists, say so explicitly rather than emit an empty block.
+   ### Shape B — Single worker / session-task
+   When the next work is a single deterministic task (no watcher needed, no parallel workers), output one block. Always include model recommendation.
+
+   ```
+   ━━━ HANDOFF — SINGLE-SESSION TASK ━━━
+   Model: {Sonnet 4.6 | Haiku 4.5 | Opus 4.7} — {one-line reason}
+   In a fresh Claude Code session, paste:
+   ---
+   {self-contained task description: goal, steps, scripts to run, success criteria, what to write to worklog/todos at the end}
+   ---
+
+   Read first: {path to canonical reference, if relevant}
+   Open questions for Matt: {bullet list or "none"}
+   DO NOT: {one-line list of guardrails — e.g., "do not run /endsession without permission"}
+   ━━━
+   ```
+
+   ### Multiple tracks queued
+   If multiple independent tracks are queued for the next session(s), output one block per track with a clear label. Mark which tracks can run in parallel (different windows) vs which must be sequential.
+
+   ### No follow-up work
+   If nothing is queued, say so explicitly rather than emit an empty block.
+
+   ### Hard rules
+   - The block(s) must be self-contained — a fresh Claude with no carry-over context should be able to start work from this paste alone.
+   - Always include a model recommendation — never leave it implicit.
+   - Prefer slash commands (`/watcher`, `/worker`, `/continue`) over raw kickoff prose where one exists.

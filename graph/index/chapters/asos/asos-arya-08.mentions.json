@@ -2,14 +2,14 @@
   "chapter_id": "asos-arya-08",
   "book": "asos",
   "pov_character": "arya",
-  "generated_at": "2026-05-11T22:47:27.356113+00:00",
+  "generated_at": "2026-05-12T18:30:44.913800+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-arya-08.extraction.md",
   "stats": {
     "total_mentions": 210,
-    "resolved_to_node": 172,
-    "direct": 157,
-    "alias": 15,
-    "unresolved": 38
+    "resolved_to_node": 176,
+    "direct": 158,
+    "alias": 18,
+    "unresolved": 34
   },
   "mentions": [
     {
@@ -707,10 +707,10 @@
     },
     {
       "raw_name": "The Vale",
-      "slug": "the-vale",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "vale-of-arryn",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
       "section": "Locations",
       "line": 116
     },
@@ -1445,10 +1445,10 @@
     },
     {
       "raw_name": "The Vale",
-      "slug": "the-vale",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "vale-of-arryn",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
       "section": "Raw Entity List > Locations",
       "line": 405
     },
@@ -1599,9 +1599,9 @@
     {
       "raw_name": "Red Temple (Thoros's origin)",
       "slug": "red-temple",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-temple.node.md",
       "section": "Raw Entity List > Factions & Organizations",
       "line": 426
     },
@@ -1625,10 +1625,10 @@
     },
     {
       "raw_name": "Old Gods (weirwoods at High Heart; ghost says they \"linger here\"; \"they remember when the First Men came with fire in their fists\")",
-      "slug": "old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 431
     },

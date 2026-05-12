@@ -2,7 +2,7 @@
 name: "Goghor the Giant"
 type: character.human
 slug: goghor-the-giant
-aliases: ["Goghor the Giant"]
+aliases: ["Goghor the Giant", "goghor"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Goghor_the_Giant"
 bucket_id: characters-house-of-loraq

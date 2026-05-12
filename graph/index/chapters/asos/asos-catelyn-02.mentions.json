@@ -2,14 +2,14 @@
   "chapter_id": "asos-catelyn-02",
   "book": "asos",
   "pov_character": "catelyn",
-  "generated_at": "2026-05-11T22:47:27.365410+00:00",
+  "generated_at": "2026-05-12T18:30:44.923937+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-catelyn-02.extraction.md",
   "stats": {
     "total_mentions": 114,
-    "resolved_to_node": 96,
+    "resolved_to_node": 98,
     "direct": 91,
-    "alias": 5,
-    "unresolved": 18
+    "alias": 7,
+    "unresolved": 16
   },
   "mentions": [
     {
@@ -185,10 +185,10 @@
     },
     {
       "raw_name": "Elenya Westerling",
-      "slug": "elenya-westerling",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "eleyna-westerling",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/eleyna-westerling.node.md",
       "section": "Characters Present",
       "line": 46
     },
@@ -680,10 +680,10 @@
     },
     {
       "raw_name": "King Maegor",
-      "slug": "king-maegor",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "maegor-i-targaryen",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/maegor-i-targaryen.node.md",
       "section": "Characters Referenced",
       "line": 109
     },

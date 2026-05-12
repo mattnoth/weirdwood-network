@@ -2,14 +2,14 @@
   "chapter_id": "adwd-prologue",
   "book": "adwd",
   "pov_character": "adwd-prologue",
-  "generated_at": "2026-05-11T22:47:27.474594+00:00",
+  "generated_at": "2026-05-12T18:30:45.052992+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-prologue.extraction.md",
   "stats": {
     "total_mentions": 133,
-    "resolved_to_node": 64,
-    "direct": 60,
-    "alias": 4,
-    "unresolved": 69
+    "resolved_to_node": 68,
+    "direct": 61,
+    "alias": 7,
+    "unresolved": 65
   },
   "mentions": [
     {
@@ -176,10 +176,10 @@
     },
     {
       "raw_name": "Harma",
-      "slug": "harma",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "harma-dogshead",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/harma-dogshead.node.md",
       "section": "Characters Referenced",
       "line": 53
     },
@@ -599,10 +599,10 @@
     },
     {
       "raw_name": "Harma (dead)",
-      "slug": "harma",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "harma-dogshead",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/harma-dogshead.node.md",
       "section": "Raw Entity List > Characters",
       "line": 241
     },
@@ -914,10 +914,10 @@
     },
     {
       "raw_name": "The Old Gods (implied — weirwood with carved red eyes; \"the gods are all around us, in the rocks and streams, in the birds and beasts\")",
-      "slug": "the-old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 285
     },
@@ -978,9 +978,9 @@
     {
       "raw_name": "Kneelers (southerners, referenced by Haggon)",
       "slug": "kneelers",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/kneelers.node.md",
       "section": "Raw Entity List > Cultures & Peoples",
       "line": 294
     },

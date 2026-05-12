@@ -2,14 +2,14 @@
   "chapter_id": "agot-jon-02",
   "book": "agot",
   "pov_character": "jon",
-  "generated_at": "2026-05-11T22:47:27.283275+00:00",
+  "generated_at": "2026-05-12T18:30:44.833695+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-jon-02.extraction.md",
   "stats": {
     "total_mentions": 59,
-    "resolved_to_node": 52,
-    "direct": 50,
+    "resolved_to_node": 53,
+    "direct": 51,
     "alias": 2,
-    "unresolved": 7
+    "unresolved": 6
   },
   "mentions": [
     {
@@ -492,9 +492,9 @@
     {
       "raw_name": "Southron (Septa Mordane's reference to \"a proper southron lady\")",
       "slug": "southron",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/southron.node.md",
       "section": "Raw Entity List > Cultures & Peoples",
       "line": 229
     },

@@ -2,14 +2,14 @@
   "chapter_id": "affc-the-drowned-man-01",
   "book": "affc",
   "pov_character": "the-drowned-man",
-  "generated_at": "2026-05-11T22:47:27.441266+00:00",
+  "generated_at": "2026-05-12T18:30:45.013579+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-the-drowned-man-01.extraction.md",
   "stats": {
     "total_mentions": 96,
-    "resolved_to_node": 76,
-    "direct": 68,
-    "alias": 8,
-    "unresolved": 20
+    "resolved_to_node": 78,
+    "direct": 69,
+    "alias": 9,
+    "unresolved": 18
   },
   "mentions": [
     {
@@ -50,10 +50,10 @@
     },
     {
       "raw_name": "Thormor",
-      "slug": "thormor",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "thormor-ironmaker",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/thormor-ironmaker.node.md",
       "section": "Characters Present",
       "line": 31
     },
@@ -834,9 +834,9 @@
     {
       "raw_name": "Seastone Chair",
       "slug": "seastone-chair",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/seastone-chair.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 139
     },

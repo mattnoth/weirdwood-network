@@ -2,14 +2,14 @@
   "chapter_id": "adwd-daenerys-05",
   "book": "adwd",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-11T22:47:27.455170+00:00",
+  "generated_at": "2026-05-12T18:30:45.031059+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-daenerys-05.extraction.md",
   "stats": {
     "total_mentions": 71,
-    "resolved_to_node": 54,
-    "direct": 51,
-    "alias": 3,
-    "unresolved": 17
+    "resolved_to_node": 56,
+    "direct": 52,
+    "alias": 4,
+    "unresolved": 15
   },
   "mentions": [
     {
@@ -581,10 +581,10 @@
     },
     {
       "raw_name": "Sothoros",
-      "slug": "sothoros",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "sothoryos",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sothoryos.node.md",
       "section": "Locations",
       "line": 102
     },
@@ -600,9 +600,9 @@
     {
       "raw_name": "Dothraki sea",
       "slug": "dothraki-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dothraki-sea.node.md",
       "section": "Locations",
       "line": 104
     },

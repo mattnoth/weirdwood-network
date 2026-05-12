@@ -1,0 +1,33 @@
+{
+  "slug": "house-with-the-red-door",
+  "name": "House with the red door",
+  "type": "organization.house",
+  "node_path": "graph/nodes/houses/house-with-the-red-door.node.md",
+  "generated_at": "2026-05-11T23:36:16.171950+00:00",
+  "stats": {
+    "appearances_total": 3,
+    "chapters_referenced_in": 1,
+    "chapters_in_raw_list": 0,
+    "out_edge_count": 0,
+    "in_edge_count": 8
+  },
+  "chapters": {
+    "in_raw_list": [],
+    "referenced_in": [
+      {
+        "chapter_id": "acok-daenerys-04",
+        "book": "acok",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 3,
+        "sections": [
+          "Location Descriptions",
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": false
+      }
+    ]
+  }
+}

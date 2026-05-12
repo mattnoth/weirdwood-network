@@ -2,7 +2,7 @@
 name: House Tallhart
 type: organization.house
 slug: house-tallhart
-aliases: []
+aliases: ["tallhart"]
 confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/House_Tallhart
 bucket_id: houses-north-h

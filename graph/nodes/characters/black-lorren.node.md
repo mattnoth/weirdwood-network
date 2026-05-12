@@ -4,6 +4,7 @@ type: character.human
 slug: black-lorren
 aliases:
   - Black Lorren
+  - lorren
 confidence: tier-1
 wiki_source: https://awoiaf.westeros.org/index.php/Black_Lorren
 bucket_id: characters-house-greyjoy-a-g

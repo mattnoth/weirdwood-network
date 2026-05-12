@@ -1,0 +1,17 @@
+{
+  "worker_id": "case-collision-batch-2-tower-of-joy",
+  "started_at": "2026-05-12T17:07:55.635855Z",
+  "completed_at": "2026-05-12T17:07:55.635974Z",
+  "status": "pass",
+  "confidence": 0.92,
+  "source_count": 5,
+  "source_files_consulted": [
+    "graph/nodes/characters/arthur-dayne.node.md",
+    "graph/nodes/characters/gerold-hightower.node.md",
+    "graph/nodes/events/roberts-rebellion.node.md",
+    "graph/nodes/characters/martyn-cassel.node.md",
+    "graph/nodes/characters/willam-dustin.node.md",
+    "working/wiki/data/infobox-data.jsonl"
+  ],
+  "notes": "No pre-existing node found. Location well documented across 5 source nodes. One infobox reverse hit (Robert's Rebellion Battles field). Location type is place.location."
+}

@@ -2,14 +2,14 @@
   "chapter_id": "agot-eddard-12",
   "book": "agot",
   "pov_character": "eddard",
-  "generated_at": "2026-05-11T22:47:27.280718+00:00",
+  "generated_at": "2026-05-12T18:30:44.830689+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-eddard-12.extraction.md",
   "stats": {
     "total_mentions": 62,
-    "resolved_to_node": 52,
-    "direct": 52,
+    "resolved_to_node": 54,
+    "direct": 54,
     "alias": 0,
-    "unresolved": 10
+    "unresolved": 8
   },
   "mentions": [
     {
@@ -447,9 +447,9 @@
     {
       "raw_name": "Godswood of the Red Keep",
       "slug": "godswood-of-the-red-keep",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood-of-the-red-keep.node.md",
       "section": "Locations",
       "line": 87
     },
@@ -528,9 +528,9 @@
     {
       "raw_name": "Godswood of the Red Keep",
       "slug": "godswood-of-the-red-keep",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood-of-the-red-keep.node.md",
       "section": "Location Descriptions",
       "line": 100
     },

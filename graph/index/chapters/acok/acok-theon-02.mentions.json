@@ -2,14 +2,14 @@
   "chapter_id": "acok-theon-02",
   "book": "acok",
   "pov_character": "theon",
-  "generated_at": "2026-05-11T22:47:27.337068+00:00",
+  "generated_at": "2026-05-12T18:30:44.893332+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-theon-02.extraction.md",
   "stats": {
     "total_mentions": 82,
-    "resolved_to_node": 59,
-    "direct": 58,
+    "resolved_to_node": 63,
+    "direct": 62,
     "alias": 1,
-    "unresolved": 23
+    "unresolved": 19
   },
   "mentions": [
     {
@@ -600,9 +600,9 @@
     {
       "raw_name": "Seastone Chair",
       "slug": "seastone-chair",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/seastone-chair.node.md",
       "section": "Location Descriptions",
       "line": 108
     },
@@ -663,9 +663,9 @@
     {
       "raw_name": "Black Wind (longship)",
       "slug": "black-wind",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/black-wind.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 119
     },
@@ -681,9 +681,9 @@
     {
       "raw_name": "Iron Victory (longship)",
       "slug": "iron-victory",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/iron-victory.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 121
     },
@@ -708,9 +708,9 @@
     {
       "raw_name": "Seastone Chair",
       "slug": "seastone-chair",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/seastone-chair.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 124
     },

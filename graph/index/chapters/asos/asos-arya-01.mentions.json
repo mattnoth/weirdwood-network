@@ -2,14 +2,14 @@
   "chapter_id": "asos-arya-01",
   "book": "asos",
   "pov_character": "arya",
-  "generated_at": "2026-05-11T22:47:27.350590+00:00",
+  "generated_at": "2026-05-12T18:30:44.907499+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-arya-01.extraction.md",
   "stats": {
     "total_mentions": 149,
-    "resolved_to_node": 105,
-    "direct": 93,
+    "resolved_to_node": 106,
+    "direct": 94,
     "alias": 12,
-    "unresolved": 44
+    "unresolved": 43
   },
   "mentions": [
     {
@@ -1329,9 +1329,9 @@
     {
       "raw_name": "\"Valar morghulis\" — High Valyrian phrase; Jaqen's words; Arya uses it to end her kill list",
       "slug": "valar-morghulis",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/valar-morghulis.node.md",
       "section": "Raw Entity List > Other",
       "line": 364
     },

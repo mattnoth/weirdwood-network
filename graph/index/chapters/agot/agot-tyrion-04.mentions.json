@@ -2,14 +2,14 @@
   "chapter_id": "agot-tyrion-04",
   "book": "agot",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-11T22:47:27.293394+00:00",
+  "generated_at": "2026-05-12T18:30:44.844149+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-tyrion-04.extraction.md",
   "stats": {
     "total_mentions": 55,
-    "resolved_to_node": 40,
-    "direct": 39,
-    "alias": 1,
-    "unresolved": 15
+    "resolved_to_node": 44,
+    "direct": 41,
+    "alias": 3,
+    "unresolved": 11
   },
   "mentions": [
     {
@@ -329,10 +329,10 @@
     },
     {
       "raw_name": "The high road (eastern road)",
-      "slug": "the-high-road",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "high-road",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/high-road.node.md",
       "section": "Locations",
       "line": 74
     },
@@ -383,10 +383,10 @@
     },
     {
       "raw_name": "The Vale (of Arryn)",
-      "slug": "the-vale",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "vale-of-arryn",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
       "section": "Locations",
       "line": 80
     },
@@ -428,10 +428,10 @@
     },
     {
       "raw_name": "The high road",
-      "slug": "the-high-road",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "high-road",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/high-road.node.md",
       "section": "Location Descriptions",
       "line": 89
     },
@@ -446,10 +446,10 @@
     },
     {
       "raw_name": "The Valyrian steel dagger",
-      "slug": "the-valyrian-steel-dagger",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "littlefingers-blade",
+      "resolved_via": "alias",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/littlefingers-blade.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 95
     },

@@ -1,0 +1,88 @@
+{
+  "slug": "long-bridge",
+  "name": "Long Bridge",
+  "type": "place.location",
+  "node_path": "graph/nodes/locations/long-bridge.node.md",
+  "generated_at": "2026-05-11T23:36:05.660914+00:00",
+  "stats": {
+    "appearances_total": 4,
+    "chapters_referenced_in": 2,
+    "chapters_in_raw_list": 1,
+    "out_edge_count": 0,
+    "in_edge_count": 6,
+    "chapters_in_locations_section": 2
+  },
+  "chapters": {
+    "in_locations_section": [
+      {
+        "chapter_id": "adwd-the-merchants-man-01",
+        "book": "adwd",
+        "pov_character_slug": "quentyn-martell",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-tyrion-07",
+        "book": "adwd",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 2,
+        "sections": [
+          "Location Descriptions",
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      }
+    ],
+    "in_raw_list": [
+      {
+        "chapter_id": "adwd-the-merchants-man-01",
+        "book": "adwd",
+        "pov_character_slug": "quentyn-martell",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      }
+    ],
+    "referenced_in": [
+      {
+        "chapter_id": "adwd-the-merchants-man-01",
+        "book": "adwd",
+        "pov_character_slug": "quentyn-martell",
+        "mention_count": 2,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "adwd-tyrion-07",
+        "book": "adwd",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 2,
+        "sections": [
+          "Location Descriptions",
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": true,
+        "in_raw_list": false
+      }
+    ]
+  }
+}

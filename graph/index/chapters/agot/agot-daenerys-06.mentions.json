@@ -2,14 +2,14 @@
   "chapter_id": "agot-daenerys-06",
   "book": "agot",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-11T22:47:27.272758+00:00",
+  "generated_at": "2026-05-12T18:30:44.820412+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-daenerys-06.extraction.md",
   "stats": {
     "total_mentions": 183,
-    "resolved_to_node": 117,
-    "direct": 114,
-    "alias": 3,
-    "unresolved": 66
+    "resolved_to_node": 124,
+    "direct": 116,
+    "alias": 8,
+    "unresolved": 59
   },
   "mentions": [
     {
@@ -104,10 +104,10 @@
     },
     {
       "raw_name": "Wine merchant (poisoner)",
-      "slug": "wine-merchant",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "wineseller",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/wineseller.node.md",
       "section": "Characters Present",
       "line": 37
     },
@@ -158,10 +158,10 @@
     },
     {
       "raw_name": "Wine merchant (poisoner)",
-      "slug": "wine-merchant",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "wineseller",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/wineseller.node.md",
       "section": "Character Appearances",
       "line": 47
     },
@@ -293,10 +293,10 @@
     },
     {
       "raw_name": "The Dothraki sea (plains)",
-      "slug": "the-dothraki-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "dothraki-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dothraki-sea.node.md",
       "section": "Locations",
       "line": 70
     },
@@ -887,10 +887,10 @@
     },
     {
       "raw_name": "The Dothraki sea (plains)",
-      "slug": "the-dothraki-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "dothraki-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dothraki-sea.node.md",
       "section": "Raw Entity List > Locations",
       "line": 261
     },
@@ -1140,9 +1140,9 @@
     {
       "raw_name": "Drogo's khalasar",
       "slug": "drogos-khalasar",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/drogos-khalasar.node.md",
       "section": "Raw Entity List > Factions & Organizations",
       "line": 293
     },
@@ -1446,9 +1446,9 @@
     {
       "raw_name": "Myrish lace",
       "slug": "myrish-lace",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.material",
+      "node_path": "graph/nodes/materials/myrish-lace.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 333
     },
@@ -1544,10 +1544,10 @@
     },
     {
       "raw_name": "Daenerys Stormborn",
-      "slug": "daenerys-stormborn",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "daenerys-targaryen",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
       "section": "Raw Entity List > Titles & Offices",
       "line": 353
     },

@@ -2,14 +2,14 @@
   "chapter_id": "asos-jaime-06",
   "book": "asos",
   "pov_character": "jaime",
-  "generated_at": "2026-05-11T22:47:27.381696+00:00",
+  "generated_at": "2026-05-12T18:30:44.943328+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jaime-06.extraction.md",
   "stats": {
     "total_mentions": 79,
-    "resolved_to_node": 65,
-    "direct": 60,
+    "resolved_to_node": 66,
+    "direct": 61,
     "alias": 5,
-    "unresolved": 14
+    "unresolved": 13
   },
   "mentions": [
     {
@@ -501,9 +501,9 @@
     {
       "raw_name": "Ruby ford",
       "slug": "ruby-ford",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/ruby-ford.node.md",
       "section": "Locations",
       "line": 93
     },

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T22:47:27.508005+00:00",
+  "generated_at": "2026-05-12T18:30:45.109395+00:00",
   "books_processed": [
     "agot",
     "acok",
@@ -10,58 +10,26 @@
   "dry_run": false,
   "chapters_processed": 344,
   "total_mentions": 37222,
-  "resolved": 26273,
-  "direct": 24780,
-  "alias": 1493,
-  "unresolved": 10949,
-  "resolution_rate_pct": 70.6,
-  "direct_pct": 66.6,
-  "alias_pct": 4.0,
-  "unresolved_pct": 29.4,
+  "resolved": 27118,
+  "direct": 25250,
+  "alias": 1868,
+  "unresolved": 10104,
+  "resolution_rate_pct": 72.9,
+  "direct_pct": 67.8,
+  "alias_pct": 5.0,
+  "unresolved_pct": 27.1,
   "top_unresolved": [
-    {
-      "slug": "maester-aemon",
-      "count": 57
-    },
     {
       "slug": "joffrey",
       "count": 47
-    },
-    {
-      "slug": "the-narrow-sea",
-      "count": 40
-    },
-    {
-      "slug": "godswood",
-      "count": 36
-    },
-    {
-      "slug": "the-vale",
-      "count": 33
-    },
-    {
-      "slug": "flea-bottom",
-      "count": 31
-    },
-    {
-      "slug": "prince-aemon-the-dragonknight",
-      "count": 29
     },
     {
       "slug": "aegon",
       "count": 27
     },
     {
-      "slug": "the-haunted-forest",
-      "count": 24
-    },
-    {
       "slug": "great-pyramid-of-meereen",
       "count": 24
-    },
-    {
-      "slug": "old-gods",
-      "count": 22
     },
     {
       "slug": "lady-tanda",
@@ -70,10 +38,6 @@
     {
       "slug": "little-walder-frey",
       "count": 22
-    },
-    {
-      "slug": "dothraki-sea",
-      "count": 21
     },
     {
       "slug": "winterfell-crypts",
@@ -98,6 +62,42 @@
     {
       "slug": "winterfell-godswood",
       "count": 18
+    },
+    {
+      "slug": "crossbow",
+      "count": 18
+    },
+    {
+      "slug": "throne-room",
+      "count": 17
+    },
+    {
+      "slug": "the-inn",
+      "count": 17
+    },
+    {
+      "slug": "stables",
+      "count": 16
+    },
+    {
+      "slug": "lord-commander",
+      "count": 16
+    },
+    {
+      "slug": "king-tommen",
+      "count": 15
+    },
+    {
+      "slug": "king-robert",
+      "count": 14
+    },
+    {
+      "slug": "lord-manderly",
+      "count": 14
+    },
+    {
+      "slug": "cersei",
+      "count": 14
     }
   ]
 }

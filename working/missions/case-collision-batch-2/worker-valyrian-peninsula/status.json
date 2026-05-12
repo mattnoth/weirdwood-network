@@ -1,0 +1,16 @@
+{
+  "worker_id": "case-collision-batch-2-valyrian-peninsula",
+  "started_at": "2026-05-12T17:02:41Z",
+  "completed_at": "2026-05-12T17:03:10Z",
+  "status": "pass",
+  "confidence": 0.85,
+  "source_count": 5,
+  "source_files_consulted": [
+    "graph/nodes/locations/valyrian-freehold.node.md",
+    "graph/nodes/locations/slavers-bay.node.md",
+    "graph/nodes/locations/elyria.node.md",
+    "graph/nodes/locations/qohor.node.md",
+    "graph/nodes/locations/volantis.node.md"
+  ],
+  "notes": "All 5 backlink sources matched. Strong convergent evidence. No direct infobox entry; one reverse infobox hit (Aurion DIED_AT Valyrian peninsula). Type assigned place.region — the peninsula is geographic, not a specific castle or city."
+}

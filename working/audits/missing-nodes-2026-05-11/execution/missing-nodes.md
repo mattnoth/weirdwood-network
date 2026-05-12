@@ -4,9 +4,9 @@
 > Three buckets, sorted by signal strength (Pass 1 chapter mentions > wiki backlinks > nothing).
 
 - **Total wiki pages indexed**: 17,657
-- **Total graph nodes**: 7,583
-- **Unpromoted pages (excluding `skip` category)**: 1,170
-- **Pass-1-referenced unpromoted (bucket A)**: 138
+- **Total graph nodes**: 7,668
+- **Unpromoted pages (excluding `skip` category)**: 1,085
+- **Pass-1-referenced unpromoted (bucket A)**: 53
 - **Highly-backlinked unpromoted (bucket B)**: 83
 - **Tail unpromoted (bucket C)**: 949
 
@@ -68,43 +68,43 @@ The case-insensitive macOS HFS+ filesystem collapsed `<Name>` and `<name>` to on
 | `Master_of_Whisperers.json` | Master of whisperers |
 | ... | _75 more_ |
 
-## Bucket A — Pass 1 references them (138 pages)
+## Bucket A — Pass 1 references them (53 pages)
 
 These wiki pages exist but Pass 1 mentions them across the chapter corpus with NO graph node to resolve to. **Highest backfill priority.**
 
 | Page | Slug | Pass 1 mentions | Wiki in-edges | Bytes | Type guess | Top categories |
 |---|---|---|---|---|---|---|
-| Godswood | `godswood` | 36 | 31 | 36,366 | unknown | Godswoods, Old gods, Terms |
-| Flea Bottom | `flea-bottom` | 31 | 30 | 51,403 | unknown | King's Landing |
 | Old Gods | `old-gods` | 22 | 61 | 910 | unknown | - |
-| Seastone Chair | `seastone-chair` | 14 | 37 | 27,123 | unknown | House Greyjoy, Ironborn culture, Thrones |
-| Chataya's brothel | `chatayas-brothel` | 12 | 11 | 32,278 | unknown | Brothels in King's Landing, Chataya's brothel |
-| Black cells | `black-cells` | 11 | 46 | 37,174 | unknown | Prisons, Red Keep, Terms |
-| Queen's Men | `queens-men` | 9 | 43 | 926 | unknown | - |
-| Unsullied | `unsullied` | 9 | 68 | 55,403 | unknown | Astapor, Eunuchs, Slave soldiers |
-| Cinnamon Wind | `cinnamon-wind` | 8 | 19 | 12,416 | unknown | Swan ships |
 | Valyrian steel dagger | `valyrian-steel-dagger` | 8 | 4 | 953 | unknown | - |
-| Black Wind | `black-wind` | 7 | 2 | 19,936 | unknown | Crew of the Black Wind, House Greyjoy ships, Ironborn longships |
 | Hobb | `hobb` | 7 | 3 | 937 | unknown | - |
-| Maidenvault | `maidenvault` | 7 | 16 | 15,247 | unknown | Buildings, Red Keep |
 | Malaquo | `malaquo` | 7 | 1 | 927 | unknown | - |
 | Nyessos | `nyessos` | 7 | 0 | 930 | unknown | - |
 | Gunthor son of Gurn | `gunthor-son-of-gurn` | 6 | 0 | 907 | unknown | - |
 | Harma | `harma` | 6 | 8 | 928 | unknown | - |
-| Iron Victory | `iron-victory` | 6 | 3 | 18,398 | unknown | Crew of the Iron Victory, House Greyjoy ships, Ironborn longships |
 | Qezza | `qezza` | 6 | 3 | 922 | unknown | - |
-| Valar Morghulis | `valar-morghulis` | 6 | 8 | 931 | unknown | - |
-| Crossroads Inn | `crossroads-inn` | 5 | 39 | 949 | unknown | - |
 | Doniphos | `doniphos` | 5 | 0 | 939 | unknown | - |
-| Pretty Pig | `pretty-pig` | 5 | 6 | 4,323 | unknown | Pigs |
-| Rookery | `rookery` | 5 | 15 | 37,574 | unknown | Order of the maesters, Ravens, Terms |
 | The Ship | `the-ship` | 5 | 1 | 934 | unknown | - |
 | Ulmer | `ulmer` | 5 | 4 | 952 | unknown | - |
-| Castle Stair | `castle-stair` | 4 | 4 | 6,449 | unknown | Stairs, Streets, White Harbor |
 | Daenerys Stormborn | `daenerys-stormborn` | 4 | 0 | 940 | unknown | - |
-| Frozen Shore | `frozen-shore` | 4 | 8 | 23,142 | unknown | Places beyond the Wall |
 | King Maegor | `king-maegor` | 4 | 0 | 940 | unknown | - |
-| _108 more in JSON sidecar_ | | | | | | |
+| Roggon | `roggon` | 3 | 0 | 934 | unknown | - |
+| Sothoros | `sothoros` | 3 | 0 | 913 | unknown | - |
+| The Whore | `the-whore` | 3 | 0 | 928 | unknown | - |
+| Bhakaz | `bhakaz` | 2 | 0 | 930 | unknown | - |
+| Bravos | `bravos` | 2 | 2 | 901 | unknown | - |
+| Freys | `freys` | 2 | 0 | 916 | unknown | - |
+| Gorghan of Old Ghis | `gorghan-of-old-ghis` | 2 | 0 | 907 | unknown | - |
+| Grumkins | `grumkins` | 2 | 1 | 907 | unknown | - |
+| Kyle | `kyle` | 2 | 1 | 922 | unknown | - |
+| Lancel | `lancel` | 2 | 0 | 934 | unknown | - |
+| Lorren | `lorren` | 2 | 0 | 922 | unknown | - |
+| Qhorin | `qhorin` | 2 | 1 | 931 | unknown | - |
+| Sealord | `sealord` | 2 | 4 | 938 | unknown | - |
+| Shadowcats | `shadowcats` | 2 | 0 | 913 | unknown | - |
+| Summer Islands | `summer-islands` | 2 | 4 | 922 | unknown | - |
+| Tallhart | `tallhart` | 2 | 0 | 928 | unknown | - |
+| Targaryens | `targaryens` | 2 | 0 | 931 | unknown | - |
+| _23 more in JSON sidecar_ | | | | | | |
 
 ## Bucket B — Heavily wiki-backlinked but Pass 1 silent (83 pages)
 

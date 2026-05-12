@@ -1,0 +1,34 @@
+{
+  "slug": "lord-renly",
+  "name": "Lord Renly",
+  "type": "object.artifact",
+  "node_path": "graph/nodes/artifacts/lord-renly.node.md",
+  "generated_at": "2026-05-11T23:36:15.784074+00:00",
+  "stats": {
+    "appearances_total": 2,
+    "chapters_referenced_in": 1,
+    "chapters_in_raw_list": 0,
+    "out_edge_count": 0,
+    "in_edge_count": 0,
+    "chapters_in_artifacts_section": 0
+  },
+  "chapters": {
+    "in_artifacts_section": [],
+    "in_raw_list": [],
+    "referenced_in": [
+      {
+        "chapter_id": "affc-brienne-06",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 2,
+        "sections": [
+          "Characters Referenced",
+          "Raw Entity List > Characters"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": false
+      }
+    ]
+  }
+}

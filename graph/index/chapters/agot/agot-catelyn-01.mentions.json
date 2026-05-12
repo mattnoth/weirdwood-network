@@ -2,14 +2,14 @@
   "chapter_id": "agot-catelyn-01",
   "book": "agot",
   "pov_character": "catelyn",
-  "generated_at": "2026-05-11T22:47:27.261642+00:00",
+  "generated_at": "2026-05-12T18:30:44.807315+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-catelyn-01.extraction.md",
   "stats": {
     "total_mentions": 119,
-    "resolved_to_node": 83,
-    "direct": 80,
-    "alias": 3,
-    "unresolved": 36
+    "resolved_to_node": 89,
+    "direct": 81,
+    "alias": 8,
+    "unresolved": 30
   },
   "mentions": [
     {
@@ -275,10 +275,10 @@
     },
     {
       "raw_name": "The Vale",
-      "slug": "the-vale",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "vale-of-arryn",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
       "section": "Locations",
       "line": 68
     },
@@ -671,10 +671,10 @@
     },
     {
       "raw_name": "The Vale",
-      "slug": "the-vale",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "vale-of-arryn",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
       "section": "Raw Entity List > Locations",
       "line": 228
     },
@@ -707,10 +707,10 @@
     },
     {
       "raw_name": "The narrow sea",
-      "slug": "the-narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "narrow-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Raw Entity List > Locations",
       "line": 232
     },
@@ -824,10 +824,10 @@
     },
     {
       "raw_name": "The Old Gods (Ned's faith; nameless, faceless gods of the greenwood; worshipped at heart trees in godswoods)",
-      "slug": "the-old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 251
     },
@@ -844,17 +844,17 @@
       "raw_name": "The children of the forest (said to have carved faces in the weirwoods; Ned says they are \"gone eight thousand years\")",
       "slug": "children-of-the-forest",
       "resolved_via": "direct",
-      "node_type": "organization.faction",
-      "node_path": "graph/nodes/factions/children-of-the-forest.node.md",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/children-of-the-forest.node.md",
       "section": "Raw Entity List > Cultures & Peoples",
       "line": 255
     },
     {
       "raw_name": "The green men (keep their silent watch on the Isle of Faces)",
-      "slug": "the-green-men",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "green-men",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/green-men.node.md",
       "section": "Raw Entity List > Cultures & Peoples",
       "line": 256
     },
@@ -862,8 +862,8 @@
       "raw_name": "Wildlings (threats beyond the Wall)",
       "slug": "free-folk",
       "resolved_via": "alias",
-      "node_type": "organization.faction",
-      "node_path": "graph/nodes/factions/free-folk.node.md",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/free-folk.node.md",
       "section": "Raw Entity List > Cultures & Peoples",
       "line": 257
     },
@@ -1031,10 +1031,10 @@
     },
     {
       "raw_name": "Kings in the North (historical Stark title, from the age of heroes)",
-      "slug": "kings-in-the-north",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "king-in-the-north",
+      "resolved_via": "alias",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/king-in-the-north.node.md",
       "section": "Raw Entity List > Titles & Offices",
       "line": 286
     },

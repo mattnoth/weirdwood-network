@@ -2,14 +2,14 @@
   "chapter_id": "acok-bran-07",
   "book": "acok",
   "pov_character": "bran",
-  "generated_at": "2026-05-11T22:47:27.308771+00:00",
+  "generated_at": "2026-05-12T18:30:44.861766+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-bran-07.extraction.md",
   "stats": {
     "total_mentions": 100,
-    "resolved_to_node": 74,
-    "direct": 64,
+    "resolved_to_node": 77,
+    "direct": 67,
     "alias": 10,
-    "unresolved": 26
+    "unresolved": 23
   },
   "mentions": [
     {
@@ -546,9 +546,9 @@
     {
       "raw_name": "Godswood (Winterfell)",
       "slug": "godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Locations",
       "line": 98
     },
@@ -600,9 +600,9 @@
     {
       "raw_name": "Rookery",
       "slug": "rookery",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/rookery.node.md",
       "section": "Locations",
       "line": 104
     },
@@ -816,9 +816,9 @@
     {
       "raw_name": "Broken tower",
       "slug": "broken-tower",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/broken-tower.node.md",
       "section": "Location Descriptions",
       "line": 132
     },

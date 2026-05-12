@@ -2,14 +2,14 @@
   "chapter_id": "acok-jon-05",
   "book": "acok",
   "pov_character": "jon",
-  "generated_at": "2026-05-11T22:47:27.326339+00:00",
+  "generated_at": "2026-05-12T18:30:44.881309+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-jon-05.extraction.md",
   "stats": {
     "total_mentions": 125,
-    "resolved_to_node": 99,
+    "resolved_to_node": 100,
     "direct": 87,
-    "alias": 12,
-    "unresolved": 26
+    "alias": 13,
+    "unresolved": 25
   },
   "mentions": [
     {
@@ -950,10 +950,10 @@
     },
     {
       "raw_name": "The Old Gods (Qhorin: \"The old gods are still strong beyond the Wall. The gods of the First Men\")",
-      "slug": "the-old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 289
     },

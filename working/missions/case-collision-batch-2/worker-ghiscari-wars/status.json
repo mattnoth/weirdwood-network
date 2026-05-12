@@ -1,0 +1,14 @@
+{
+  "worker_id": "case-collision-batch-2-ghiscari-wars",
+  "started_at": "2026-05-12T17:04:15Z",
+  "completed_at": "2026-05-12T17:04:20Z",
+  "status": "pass",
+  "confidence": 0.9,
+  "source_count": 3,
+  "source_files_consulted": [
+    "graph/nodes/locations/old-empire-of-ghis.node.md",
+    "graph/nodes/locations/old-ghis.node.md",
+    "graph/nodes/locations/valyrian-freehold.node.md"
+  ],
+  "notes": "No infobox entry. Three sources provide rich, consistent account of the five wars. Type event.conflict (series of wars). No edges derivable without infobox; no reverse-lookup hits."
+}

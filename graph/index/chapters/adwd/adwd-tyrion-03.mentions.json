@@ -2,14 +2,14 @@
   "chapter_id": "adwd-tyrion-03",
   "book": "adwd",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-11T22:47:27.497972+00:00",
+  "generated_at": "2026-05-12T18:30:45.078365+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-tyrion-03.extraction.md",
   "stats": {
     "total_mentions": 196,
-    "resolved_to_node": 138,
-    "direct": 131,
+    "resolved_to_node": 143,
+    "direct": 136,
     "alias": 7,
-    "unresolved": 58
+    "unresolved": 53
   },
   "mentions": [
     {
@@ -276,9 +276,9 @@
     {
       "raw_name": "Urrax",
       "slug": "urrax",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/urrax.node.md",
       "section": "Characters Referenced",
       "line": 64
     },
@@ -726,9 +726,9 @@
     {
       "raw_name": "Bastard sword (Duck's)",
       "slug": "bastard-sword",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/bastard-sword.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 126
     },
@@ -987,9 +987,9 @@
     {
       "raw_name": "Urrax (referenced, historical dragon)",
       "slug": "urrax",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/urrax.node.md",
       "section": "Raw Entity List > Characters",
       "line": 311
     },
@@ -1464,9 +1464,9 @@
     {
       "raw_name": "Bastard sword (Duck's)",
       "slug": "bastard-sword",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/bastard-sword.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 376
     },
@@ -1761,9 +1761,9 @@
     {
       "raw_name": "\"Valar dohaeris\" (High Valyrian phrase — \"all men must serve\"; spoken by Tyrion)",
       "slug": "valar-dohaeris",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/valar-dohaeris.node.md",
       "section": "Raw Entity List > Other",
       "line": 419
     },

@@ -1,0 +1,15 @@
+{
+  "worker_id": "case-collision-batch-2-green-men",
+  "started_at": "2026-05-12T17:05:15Z",
+  "completed_at": "2026-05-12T17:05:35Z",
+  "status": "pass",
+  "confidence": 0.8,
+  "source_count": 4,
+  "source_files_consulted": [
+    "graph/nodes/events/coming-of-the-andals.node.md",
+    "graph/nodes/events/second-battle-of-tumbleton.node.md",
+    "graph/nodes/characters/howland-reed.node.md",
+    "graph/nodes/locations/gods-eye.node.md"
+  ],
+  "notes": "All 4 sources matched. No direct infobox entry. Type: organization.faction — the green men are a named protective order with a specific purpose and location, despite their mysterious nature. Confidence slightly reduced because the order's nature is deliberately obscure in-universe."
+}

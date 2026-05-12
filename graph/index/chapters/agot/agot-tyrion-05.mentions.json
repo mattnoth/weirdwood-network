@@ -2,14 +2,14 @@
   "chapter_id": "agot-tyrion-05",
   "book": "agot",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-11T22:47:27.293834+00:00",
+  "generated_at": "2026-05-12T18:30:44.844600+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-tyrion-05.extraction.md",
   "stats": {
     "total_mentions": 56,
-    "resolved_to_node": 45,
-    "direct": 44,
+    "resolved_to_node": 47,
+    "direct": 46,
     "alias": 1,
-    "unresolved": 11
+    "unresolved": 9
   },
   "mentions": [
     {
@@ -330,9 +330,9 @@
     {
       "raw_name": "Sky cells",
       "slug": "sky-cells",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sky-cells.node.md",
       "section": "Locations",
       "line": 74
     },
@@ -429,9 +429,9 @@
     {
       "raw_name": "Sky cells",
       "slug": "sky-cells",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sky-cells.node.md",
       "section": "Location Descriptions",
       "line": 89
     },

@@ -2,7 +2,7 @@
 name: "Rymund the Rhymer"
 type: character.human
 slug: rymund-the-rhymer
-aliases: ["Rymund the Rhymer"]
+aliases: ["Rymund the Rhymer", "rymund"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Rymund_the_Rhymer"
 bucket_id: tier3-pathb-characters

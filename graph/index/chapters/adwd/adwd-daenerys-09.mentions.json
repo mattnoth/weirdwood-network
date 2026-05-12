@@ -2,14 +2,14 @@
   "chapter_id": "adwd-daenerys-09",
   "book": "adwd",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-11T22:47:27.457970+00:00",
+  "generated_at": "2026-05-12T18:30:45.034332+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-daenerys-09.extraction.md",
   "stats": {
     "total_mentions": 74,
-    "resolved_to_node": 51,
+    "resolved_to_node": 52,
     "direct": 46,
-    "alias": 5,
-    "unresolved": 23
+    "alias": 6,
+    "unresolved": 22
   },
   "mentions": [
     {
@@ -446,10 +446,10 @@
     },
     {
       "raw_name": "Goghor",
-      "slug": "goghor",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "goghor-the-giant",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/goghor-the-giant.node.md",
       "section": "Characters Referenced",
       "line": 83
     },

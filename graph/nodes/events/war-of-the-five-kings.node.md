@@ -1,6 +1,6 @@
 ---
 name: "War of the Five Kings"
-type: event.battle
+type: event.war
 slug: war-of-the-five-kings
 aliases: []
 confidence: tier-1

@@ -2,7 +2,7 @@
 name: "Willam the Wanderer"
 type: character.human
 slug: willam-the-wanderer
-aliases: ["Willam the Wanderer"]
+aliases: ["Willam the Wanderer", "willem"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Willam_the_Wanderer"
 bucket_id: characters-other-w-y

@@ -2,14 +2,14 @@
   "chapter_id": "acok-davos-02",
   "book": "acok",
   "pov_character": "davos",
-  "generated_at": "2026-05-11T22:47:27.322357+00:00",
+  "generated_at": "2026-05-12T18:30:44.876327+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-davos-02.extraction.md",
   "stats": {
     "total_mentions": 192,
-    "resolved_to_node": 142,
-    "direct": 138,
+    "resolved_to_node": 143,
+    "direct": 139,
     "alias": 4,
-    "unresolved": 50
+    "unresolved": 49
   },
   "mentions": [
     {
@@ -1446,9 +1446,9 @@
     {
       "raw_name": "Queen's men (Stannis's R'hllor-worshipping faction)",
       "slug": "queens-men",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/queens-men.node.md",
       "section": "Raw Entity List > Factions & Organizations",
       "line": 372
     },

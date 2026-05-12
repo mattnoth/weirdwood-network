@@ -1,0 +1,26 @@
+{
+  "worker_id": "case-collision-batch-2-inn-at-the-crossroads",
+  "started_at": "2026-05-12T17:08:15.892204Z",
+  "completed_at": "2026-05-12T17:08:15.892207Z",
+  "status": "pass",
+  "confidence": 0.94,
+  "source_count": 9,
+  "source_files_consulted": [
+    "graph/nodes/characters/petyr-baelish.node.md",
+    "graph/nodes/characters/jaehaerys-i-targaryen.node.md",
+    "graph/nodes/houses/house-clegane.node.md",
+    "graph/nodes/houses/house-bracken.node.md",
+    "graph/nodes/houses/house-wode.node.md",
+    "graph/nodes/artifacts/needle.node.md",
+    "graph/nodes/artifacts/oathkeeper.node.md",
+    "graph/nodes/customs/guest-right.node.md",
+    "graph/nodes/customs/torture.node.md",
+    "sources/wiki/_raw/Inn_at_the_Crossroads.json"
+  ],
+  "notes": [
+    "Wiki page is redirect-only. No infobox. No existing graph node.",
+    "Alias flag: \"Two Crowns\" is a historical alias from the Jaehaerys era \u2014 include in aliases.",
+    "Alias flag: \"crossroads inn\" and \"Crossroads inn\" are frequent alternate forms in prose text.",
+    "High confidence \u2014 extensively attested across many chapters and source nodes."
+  ]
+}

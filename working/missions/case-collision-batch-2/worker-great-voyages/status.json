@@ -1,0 +1,15 @@
+{
+  "worker_id": "case-collision-batch-2-great-voyages",
+  "started_at": "2026-05-12T17:21:00Z",
+  "completed_at": "2026-05-12T17:22:00Z",
+  "status": "pass",
+  "confidence": 0.93,
+  "source_count": 4,
+  "source_files_consulted": [
+    "graph/nodes/characters/alyn-velaryon.node.md",
+    "graph/nodes/houses/house-velaryon.node.md",
+    "graph/nodes/characters/corlys-velaryon.node.md",
+    "graph/nodes/locations/asshai.node.md"
+  ],
+  "notes": "Great_Voyages.json is a redirect stub. Russell-stillman node had no direct great-voyages mention. Rich content from alyn-velaryon, corlys-velaryon, house-velaryon, and asshai. No infobox entry found. Concept node — no structural edges derivable."
+}

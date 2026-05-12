@@ -2,14 +2,14 @@
   "chapter_id": "adwd-melisandre-01",
   "book": "adwd",
   "pov_character": "melisandre",
-  "generated_at": "2026-05-11T22:47:27.473687+00:00",
+  "generated_at": "2026-05-12T18:30:45.052080+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-melisandre-01.extraction.md",
   "stats": {
     "total_mentions": 163,
-    "resolved_to_node": 102,
-    "direct": 96,
-    "alias": 6,
-    "unresolved": 61
+    "resolved_to_node": 107,
+    "direct": 99,
+    "alias": 8,
+    "unresolved": 56
   },
   "mentions": [
     {
@@ -401,10 +401,10 @@
     },
     {
       "raw_name": "The haunted forest",
-      "slug": "the-haunted-forest",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "haunted-forest",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Locations",
       "line": 82
     },
@@ -932,10 +932,10 @@
     },
     {
       "raw_name": "The haunted forest",
-      "slug": "the-haunted-forest",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "haunted-forest",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Raw Entity List > Locations",
       "line": 330
     },
@@ -1040,10 +1040,10 @@
     },
     {
       "raw_name": "The narrow sea (mentioned — Melisandre's chest brought across it)",
-      "slug": "the-narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "narrow-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Raw Entity List > Locations",
       "line": 342
     },
@@ -1086,9 +1086,9 @@
     {
       "raw_name": "Queen's men (Stannis's followers / R'hllor converts at Castle Black)",
       "slug": "queens-men",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/queens-men.node.md",
       "section": "Raw Entity List > Factions & Organizations",
       "line": 351
     },
@@ -1139,10 +1139,10 @@
     },
     {
       "raw_name": "The Old Gods (referenced as Jon's \"wooden god\" by Melisandre)",
-      "slug": "the-old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 359
     },
@@ -1465,8 +1465,8 @@
       "raw_name": "The children of the forest (referenced — Melisandre compares free folk to them as peoples who vanished)",
       "slug": "children-of-the-forest",
       "resolved_via": "direct",
-      "node_type": "organization.faction",
-      "node_path": "graph/nodes/factions/children-of-the-forest.node.md",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/children-of-the-forest.node.md",
       "section": "Raw Entity List > Other",
       "line": 409
     },

@@ -2,14 +2,14 @@
   "chapter_id": "affc-cersei-03",
   "book": "affc",
   "pov_character": "cersei",
-  "generated_at": "2026-05-11T22:47:27.421312+00:00",
+  "generated_at": "2026-05-12T18:30:44.987964+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-cersei-03.extraction.md",
   "stats": {
     "total_mentions": 111,
-    "resolved_to_node": 86,
-    "direct": 83,
+    "resolved_to_node": 88,
+    "direct": 85,
     "alias": 3,
-    "unresolved": 25
+    "unresolved": 23
   },
   "mentions": [
     {
@@ -816,9 +816,9 @@
     {
       "raw_name": "Maidenvault",
       "slug": "maidenvault",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/maidenvault.node.md",
       "section": "Locations",
       "line": 128
     },
@@ -897,9 +897,9 @@
     {
       "raw_name": "Black cells",
       "slug": "black-cells",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/black-cells.node.md",
       "section": "Locations",
       "line": 137
     },

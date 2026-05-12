@@ -2,7 +2,7 @@
 name: "Wineseller"
 type: character.human
 slug: wineseller
-aliases: ["This seller of poisons", "A poisoner"]
+aliases: ["This seller of poisons", "A poisoner", "wine-merchant"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Wineseller"
 bucket_id: characters-other-w-y

@@ -1,0 +1,44 @@
+{
+  "slug": "house-borrell",
+  "name": "House Borrell",
+  "type": "organization.house",
+  "node_path": "graph/nodes/houses/house-borrell.node.md",
+  "generated_at": "2026-05-11T23:36:16.215042+00:00",
+  "stats": {
+    "appearances_total": 1,
+    "chapters_referenced_in": 1,
+    "chapters_in_raw_list": 1,
+    "out_edge_count": 10,
+    "in_edge_count": 3
+  },
+  "chapters": {
+    "in_raw_list": [
+      {
+        "chapter_id": "adwd-davos-01",
+        "book": "adwd",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      }
+    ],
+    "referenced_in": [
+      {
+        "chapter_id": "adwd-davos-01",
+        "book": "adwd",
+        "pov_character_slug": "davos-seaworth",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Houses"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      }
+    ]
+  }
+}

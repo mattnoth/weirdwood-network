@@ -2,14 +2,14 @@
   "chapter_id": "affc-cersei-08",
   "book": "affc",
   "pov_character": "cersei",
-  "generated_at": "2026-05-11T22:47:27.425350+00:00",
+  "generated_at": "2026-05-12T18:30:44.992631+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-cersei-08.extraction.md",
   "stats": {
     "total_mentions": 115,
-    "resolved_to_node": 85,
-    "direct": 84,
-    "alias": 1,
-    "unresolved": 30
+    "resolved_to_node": 88,
+    "direct": 86,
+    "alias": 2,
+    "unresolved": 27
   },
   "mentions": [
     {
@@ -672,9 +672,9 @@
     {
       "raw_name": "Maidenvault",
       "slug": "maidenvault",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/maidenvault.node.md",
       "section": "Locations",
       "line": 112
     },
@@ -689,10 +689,10 @@
     },
     {
       "raw_name": "The Shields",
-      "slug": "the-shields",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "shield-islands",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/shield-islands.node.md",
       "section": "Locations",
       "line": 114
     },
@@ -870,9 +870,9 @@
     {
       "raw_name": "Black cells",
       "slug": "black-cells",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/black-cells.node.md",
       "section": "Locations",
       "line": 134
     },

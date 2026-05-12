@@ -2,14 +2,14 @@
   "chapter_id": "affc-samwell-02",
   "book": "affc",
   "pov_character": "samwell",
-  "generated_at": "2026-05-11T22:47:27.435280+00:00",
+  "generated_at": "2026-05-12T18:30:45.006610+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-samwell-02.extraction.md",
   "stats": {
     "total_mentions": 170,
-    "resolved_to_node": 100,
-    "direct": 96,
-    "alias": 4,
-    "unresolved": 70
+    "resolved_to_node": 112,
+    "direct": 104,
+    "alias": 8,
+    "unresolved": 58
   },
   "mentions": [
     {
@@ -50,10 +50,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Characters Present",
       "line": 31
     },
@@ -104,10 +104,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Character Appearances",
       "line": 41
     },
@@ -438,9 +438,9 @@
     {
       "raw_name": "Narrow sea",
       "slug": "narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Locations",
       "line": 86
     },
@@ -510,9 +510,9 @@
     {
       "raw_name": "Arbor Queen (ship)",
       "slug": "arbor-queen",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/arbor-queen.node.md",
       "section": "Location Descriptions",
       "line": 98
     },
@@ -546,18 +546,18 @@
     {
       "raw_name": "Golden Dragon",
       "slug": "golden-dragon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/golden-dragon.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 106
     },
     {
       "raw_name": "Arbor Queen",
       "slug": "arbor-queen",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/arbor-queen.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 107
     },
@@ -653,10 +653,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Raw Entity List > Characters",
       "line": 272
     },
@@ -1005,9 +1005,9 @@
     {
       "raw_name": "Narrow sea",
       "slug": "narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Raw Entity List > Locations",
       "line": 313
     },
@@ -1049,10 +1049,10 @@
     },
     {
       "raw_name": "The haunted forest",
-      "slug": "the-haunted-forest",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "haunted-forest",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Raw Entity List > Locations",
       "line": 318
     },
@@ -1194,18 +1194,18 @@
     {
       "raw_name": "Golden Dragon (ship that carried Aemon to the Wall)",
       "slug": "golden-dragon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/golden-dragon.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 344
     },
     {
       "raw_name": "Arbor Queen (Lord Redwyne's galleas)",
       "slug": "arbor-queen",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/arbor-queen.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 345
     },
@@ -1508,10 +1508,10 @@
     },
     {
       "raw_name": "Unicorns (Skagosi reportedly ride them to war)",
-      "slug": "unicorns",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "unicorn",
+      "resolved_via": "alias",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/unicorn.node.md",
       "section": "Raw Entity List > Other",
       "line": 389
     },

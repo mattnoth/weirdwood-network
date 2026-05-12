@@ -2,14 +2,14 @@
   "chapter_id": "acok-bran-05",
   "book": "acok",
   "pov_character": "bran",
-  "generated_at": "2026-05-11T22:47:27.307451+00:00",
+  "generated_at": "2026-05-12T18:30:44.860262+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-bran-05.extraction.md",
   "stats": {
     "total_mentions": 135,
-    "resolved_to_node": 105,
+    "resolved_to_node": 106,
     "direct": 101,
-    "alias": 4,
-    "unresolved": 30
+    "alias": 5,
+    "unresolved": 29
   },
   "mentions": [
     {
@@ -1004,10 +1004,10 @@
     },
     {
       "raw_name": "Old Gods (implied by heart tree reference in forced marriage)",
-      "slug": "old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 299
     },

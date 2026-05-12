@@ -2,14 +2,14 @@
   "chapter_id": "asos-bran-04",
   "book": "asos",
   "pov_character": "bran",
-  "generated_at": "2026-05-11T22:47:27.364284+00:00",
+  "generated_at": "2026-05-12T18:30:44.922518+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-bran-04.extraction.md",
   "stats": {
     "total_mentions": 67,
-    "resolved_to_node": 54,
-    "direct": 51,
-    "alias": 3,
-    "unresolved": 13
+    "resolved_to_node": 57,
+    "direct": 53,
+    "alias": 4,
+    "unresolved": 10
   },
   "mentions": [
     {
@@ -158,10 +158,10 @@
     },
     {
       "raw_name": "Night's King's corpse queen",
-      "slug": "nights-kings-corpse-queen",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "corpse-queen",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/corpse-queen.node.md",
       "section": "Characters Referenced",
       "line": 51
     },
@@ -212,10 +212,10 @@
     },
     {
       "raw_name": "The seventy-nine sentinels",
-      "slug": "the-seventy-nine-sentinels",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "seventy-nine-sentinels",
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/seventy-nine-sentinels.node.md",
       "section": "Characters Referenced",
       "line": 57
     },
@@ -554,10 +554,10 @@
     },
     {
       "raw_name": "The haunted forest (from Wall top)",
-      "slug": "the-haunted-forest",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "haunted-forest",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Location Descriptions",
       "line": 103
     },

@@ -2,14 +2,14 @@
   "chapter_id": "acok-tyrion-10",
   "book": "acok",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-11T22:47:27.345862+00:00",
+  "generated_at": "2026-05-12T18:30:44.902623+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-tyrion-10.extraction.md",
   "stats": {
     "total_mentions": 69,
-    "resolved_to_node": 48,
-    "direct": 45,
+    "resolved_to_node": 50,
+    "direct": 47,
     "alias": 3,
-    "unresolved": 21
+    "unresolved": 19
   },
   "mentions": [
     {
@@ -429,9 +429,9 @@
     {
       "raw_name": "Chataya's brothel",
       "slug": "chatayas-brothel",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/chatayas-brothel.node.md",
       "section": "Locations",
       "line": 85
     },
@@ -555,9 +555,9 @@
     {
       "raw_name": "Rosby road",
       "slug": "rosby-road",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/rosby-road.node.md",
       "section": "Locations",
       "line": 99
     },

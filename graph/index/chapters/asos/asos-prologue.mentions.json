@@ -2,14 +2,14 @@
   "chapter_id": "asos-prologue",
   "book": "asos",
   "pov_character": "asos-prologue",
-  "generated_at": "2026-05-11T22:47:27.393148+00:00",
+  "generated_at": "2026-05-12T18:30:44.955607+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-prologue.extraction.md",
   "stats": {
     "total_mentions": 160,
-    "resolved_to_node": 135,
-    "direct": 122,
-    "alias": 13,
-    "unresolved": 25
+    "resolved_to_node": 141,
+    "direct": 126,
+    "alias": 15,
+    "unresolved": 19
   },
   "mentions": [
     {
@@ -302,10 +302,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Characters Referenced",
       "line": 67
     },
@@ -492,9 +492,9 @@
     {
       "raw_name": "Haunted forest",
       "slug": "haunted-forest",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Locations",
       "line": 92
     },
@@ -905,10 +905,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Raw Entity List > Characters",
       "line": 279
     },
@@ -1095,9 +1095,9 @@
     {
       "raw_name": "Haunted forest",
       "slug": "haunted-forest",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Raw Entity List > Locations",
       "line": 302
     },
@@ -1356,9 +1356,9 @@
     {
       "raw_name": "Longsword (Ser Mallador Locke's, drawn during oath)",
       "slug": "longsword",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/longsword.node.md",
       "section": "Raw Entity List > Artifacts & Objects",
       "line": 341
     },
@@ -1427,10 +1427,10 @@
     },
     {
       "raw_name": "The Great Ranging (300 brothers riding north to find missing rangers and discover wildling movements)",
-      "slug": "the-great-ranging",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "great-ranging",
+      "resolved_via": "direct",
+      "node_type": "event",
+      "node_path": "graph/nodes/events/great-ranging.node.md",
       "section": "Raw Entity List > Wars & Conflicts",
       "line": 355
     },

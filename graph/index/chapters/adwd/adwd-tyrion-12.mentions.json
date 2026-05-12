@@ -2,14 +2,14 @@
   "chapter_id": "adwd-tyrion-12",
   "book": "adwd",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-11T22:47:27.506521+00:00",
+  "generated_at": "2026-05-12T18:30:45.087459+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-tyrion-12.extraction.md",
   "stats": {
     "total_mentions": 151,
-    "resolved_to_node": 84,
-    "direct": 74,
-    "alias": 10,
-    "unresolved": 67
+    "resolved_to_node": 90,
+    "direct": 79,
+    "alias": 11,
+    "unresolved": 61
   },
   "mentions": [
     {
@@ -330,9 +330,9 @@
     {
       "raw_name": "Pretty Pig",
       "slug": "pretty-pig",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/pretty-pig.node.md",
       "section": "Characters Referenced",
       "line": 70
     },
@@ -384,9 +384,9 @@
     {
       "raw_name": "Flea Bottom",
       "slug": "flea-bottom",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/flea-bottom.node.md",
       "section": "Locations",
       "line": 80
     },
@@ -834,9 +834,9 @@
     {
       "raw_name": "Pretty Pig (Penny's pig, mentioned, likely dead)",
       "slug": "pretty-pig",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/pretty-pig.node.md",
       "section": "Raw Entity List > Characters",
       "line": 283
     },
@@ -879,9 +879,9 @@
     {
       "raw_name": "Flea Bottom",
       "slug": "flea-bottom",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/flea-bottom.node.md",
       "section": "Raw Entity List > Locations",
       "line": 290
     },
@@ -950,10 +950,10 @@
     },
     {
       "raw_name": "The narrow sea",
-      "slug": "the-narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "narrow-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Raw Entity List > Locations",
       "line": 298
     },
@@ -996,9 +996,9 @@
     {
       "raw_name": "Unsullied (mentioned — Meereen's infantry)",
       "slug": "unsullied",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/unsullied.node.md",
       "section": "Raw Entity List > Factions & Organizations",
       "line": 307
     },

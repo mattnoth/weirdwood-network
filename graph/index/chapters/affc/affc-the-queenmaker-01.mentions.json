@@ -2,14 +2,14 @@
   "chapter_id": "affc-the-queenmaker-01",
   "book": "affc",
   "pov_character": "the-queenmaker",
-  "generated_at": "2026-05-11T22:47:27.445676+00:00",
+  "generated_at": "2026-05-12T18:30:45.018684+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-the-queenmaker-01.extraction.md",
   "stats": {
     "total_mentions": 231,
-    "resolved_to_node": 168,
+    "resolved_to_node": 170,
     "direct": 166,
-    "alias": 2,
-    "unresolved": 63
+    "alias": 4,
+    "unresolved": 61
   },
   "mentions": [
     {
@@ -626,10 +626,10 @@
     },
     {
       "raw_name": "The narrow sea",
-      "slug": "the-narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "narrow-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Locations",
       "line": 107
     },
@@ -1400,10 +1400,10 @@
     },
     {
       "raw_name": "The narrow sea",
-      "slug": "the-narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "narrow-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Raw Entity List > Locations",
       "line": 355
     },

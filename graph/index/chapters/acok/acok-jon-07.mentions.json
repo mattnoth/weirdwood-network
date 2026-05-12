@@ -2,14 +2,14 @@
   "chapter_id": "acok-jon-07",
   "book": "acok",
   "pov_character": "jon",
-  "generated_at": "2026-05-11T22:47:27.327590+00:00",
+  "generated_at": "2026-05-12T18:30:44.882840+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-jon-07.extraction.md",
   "stats": {
     "total_mentions": 81,
-    "resolved_to_node": 52,
+    "resolved_to_node": 54,
     "direct": 49,
-    "alias": 3,
-    "unresolved": 29
+    "alias": 5,
+    "unresolved": 27
   },
   "mentions": [
     {
@@ -554,10 +554,10 @@
     },
     {
       "raw_name": "Old Gods (weirwood in the dream with a carved face and red eyes)",
-      "slug": "old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 220
     },
@@ -716,10 +716,10 @@
     },
     {
       "raw_name": "Shadowcats (heard screaming; Jon worries about them)",
-      "slug": "shadowcats",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "shadowcat",
+      "resolved_via": "alias",
+      "node_type": "species",
+      "node_path": "graph/nodes/species/shadowcat.node.md",
       "section": "Raw Entity List > Other",
       "line": 252
     },

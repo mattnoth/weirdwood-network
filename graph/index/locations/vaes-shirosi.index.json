@@ -1,0 +1,20 @@
+{
+  "slug": "vaes-shirosi",
+  "name": "Vaes Shirosi",
+  "type": "place.location",
+  "node_path": "graph/nodes/locations/vaes-shirosi.node.md",
+  "generated_at": "2026-05-11T23:36:05.691103+00:00",
+  "stats": {
+    "appearances_total": 0,
+    "chapters_referenced_in": 0,
+    "chapters_in_raw_list": 0,
+    "out_edge_count": 0,
+    "in_edge_count": 2,
+    "chapters_in_locations_section": 0
+  },
+  "chapters": {
+    "in_locations_section": [],
+    "in_raw_list": [],
+    "referenced_in": []
+  }
+}

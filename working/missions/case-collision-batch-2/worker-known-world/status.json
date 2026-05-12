@@ -1,0 +1,20 @@
+{
+  "worker_id": "case-collision-batch-2-known-world",
+  "started_at": "2026-05-12T17:08:15.891660Z",
+  "completed_at": "2026-05-12T17:08:15.891767Z",
+  "status": "pass",
+  "confidence": 0.85,
+  "source_count": 5,
+  "source_files_consulted": [
+    "graph/nodes/characters/euron-greyjoy.node.md",
+    "graph/nodes/characters/lomas-longstrider.node.md",
+    "graph/nodes/locations/vaes-dothrak.node.md",
+    "sources/wiki/_raw/Known_World.json",
+    "working/wiki/data/backlink-counts.json"
+  ],
+  "notes": [
+    "Wiki page is redirect-only. No infobox. No existing graph node.",
+    "Type assigned place.region \u2014 the Known World is a geographic scope concept, not a specific location. Alternative framing as concept.culture is weaker; place.region is the best fit in the current taxonomy.",
+    "Edge vocab gap: REGION_OF is defined as Location \u2192 Region; using it inversely here (sub-regions are REGION_OF the known world) is semantically reversed. No \"CONTAINS\" edge type exists. Flag for review \u2014 no clean mapping available in 22-type vocab."
+  ]
+}

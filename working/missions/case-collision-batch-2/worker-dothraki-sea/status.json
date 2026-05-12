@@ -1,0 +1,21 @@
+{
+  "worker_id": "case-collision-batch-2-dothraki-sea",
+  "started_at": "2026-05-12T17:08:58.421523Z",
+  "completed_at": "2026-05-12T17:08:58.421528Z",
+  "status": "pass",
+  "confidence": 0.92,
+  "source_count": 6,
+  "source_files_consulted": [
+    "graph/nodes/characters/daenerys-targaryen.node.md",
+    "graph/nodes/factions/dothraki.node.md",
+    "graph/nodes/locations/vaes-dothrak.node.md",
+    "graph/nodes/characters/victarion-greyjoy.node.md",
+    "sources/wiki/_raw/Dothraki_Sea.json",
+    "sources/wiki/_raw/The_Dothraki_Sea.json"
+  ],
+  "notes": [
+    "Both wiki pages are redirect-only. No infobox. No existing graph node.",
+    "Alias flag: \"the grass\" is used as an informal reference to the Dothraki sea in some quotes.",
+    "Edge vocab note: CULTURE_OF is defined as Person \u2192 Culture; using it as Region \u2192 Culture (the people associated with a region) is a directional inversion. Flag for review \u2014 semantically useful but technically reversed per architecture.md definition."
+  ]
+}

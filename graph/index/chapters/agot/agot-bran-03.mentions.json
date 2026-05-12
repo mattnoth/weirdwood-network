@@ -2,14 +2,14 @@
   "chapter_id": "agot-bran-03",
   "book": "agot",
   "pov_character": "bran",
-  "generated_at": "2026-05-11T22:47:27.258089+00:00",
+  "generated_at": "2026-05-12T18:30:44.802792+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-bran-03.extraction.md",
   "stats": {
     "total_mentions": 93,
-    "resolved_to_node": 55,
-    "direct": 54,
-    "alias": 1,
-    "unresolved": 38
+    "resolved_to_node": 62,
+    "direct": 57,
+    "alias": 5,
+    "unresolved": 31
   },
   "mentions": [
     {
@@ -230,10 +230,10 @@
     },
     {
       "raw_name": "The narrow sea",
-      "slug": "the-narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "narrow-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Locations",
       "line": 63
     },
@@ -249,9 +249,9 @@
     {
       "raw_name": "Dothraki sea",
       "slug": "dothraki-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dothraki-sea.node.md",
       "section": "Locations",
       "line": 65
     },
@@ -303,9 +303,9 @@
     {
       "raw_name": "Godswood (Winterfell)",
       "slug": "godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Locations",
       "line": 71
     },
@@ -321,9 +321,9 @@
     {
       "raw_name": "Godswood (Winterfell)",
       "slug": "godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Location Descriptions",
       "line": 77
     },
@@ -590,10 +590,10 @@
     },
     {
       "raw_name": "The narrow sea",
-      "slug": "the-narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "narrow-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Raw Entity List > Locations",
       "line": 228
     },
@@ -608,10 +608,10 @@
     },
     {
       "raw_name": "The Dothraki sea",
-      "slug": "the-dothraki-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "dothraki-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dothraki-sea.node.md",
       "section": "Raw Entity List > Locations",
       "line": 230
     },
@@ -671,10 +671,10 @@
     },
     {
       "raw_name": "Old Gods (implied — the weirwood in the godswood, with its face and apparent awareness)",
-      "slug": "old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 244
     },

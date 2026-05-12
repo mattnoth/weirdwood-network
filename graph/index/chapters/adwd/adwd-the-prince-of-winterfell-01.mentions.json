@@ -2,14 +2,14 @@
   "chapter_id": "adwd-the-prince-of-winterfell-01",
   "book": "adwd",
   "pov_character": "the-prince-of-winterfell",
-  "generated_at": "2026-05-11T22:47:27.486614+00:00",
+  "generated_at": "2026-05-12T18:30:45.065887+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-the-prince-of-winterfell-01.extraction.md",
   "stats": {
     "total_mentions": 91,
-    "resolved_to_node": 60,
-    "direct": 57,
+    "resolved_to_node": 62,
+    "direct": 59,
     "alias": 3,
-    "unresolved": 31
+    "unresolved": 29
   },
   "mentions": [
     {
@@ -528,9 +528,9 @@
     {
       "raw_name": "Godswood of Winterfell",
       "slug": "godswood-of-winterfell",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood-of-winterfell.node.md",
       "section": "Locations",
       "line": 96
     },
@@ -699,9 +699,9 @@
     {
       "raw_name": "Godswood of Winterfell",
       "slug": "godswood-of-winterfell",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood-of-winterfell.node.md",
       "section": "Location Descriptions",
       "line": 119
     },

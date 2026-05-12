@@ -2,14 +2,14 @@
   "chapter_id": "adwd-the-watcher-01",
   "book": "adwd",
   "pov_character": "the-watcher",
-  "generated_at": "2026-05-11T22:47:27.492396+00:00",
+  "generated_at": "2026-05-12T18:30:45.072400+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-the-watcher-01.extraction.md",
   "stats": {
     "total_mentions": 92,
-    "resolved_to_node": 69,
+    "resolved_to_node": 70,
     "direct": 68,
-    "alias": 1,
-    "unresolved": 23
+    "alias": 2,
+    "unresolved": 22
   },
   "mentions": [
     {
@@ -608,10 +608,10 @@
     },
     {
       "raw_name": "The Shields",
-      "slug": "the-shields",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "shield-islands",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/shield-islands.node.md",
       "section": "Locations",
       "line": 105
     },

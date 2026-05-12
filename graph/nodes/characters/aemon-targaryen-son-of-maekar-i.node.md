@@ -5,6 +5,7 @@ slug: aemon-targaryen-son-of-maekar-i
 aliases:
   - "Aemon Targaryen"
   - "Uncle Maester"
+  - "Maester Aemon"
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Aemon_Targaryen_(son_of_Maekar_I)"
 bucket_id: characters-house-targaryen-a

@@ -2,14 +2,14 @@
   "chapter_id": "affc-sansa-01",
   "book": "affc",
   "pov_character": "sansa",
-  "generated_at": "2026-05-11T22:47:27.439945+00:00",
+  "generated_at": "2026-05-12T18:30:45.011909+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-sansa-01.extraction.md",
   "stats": {
     "total_mentions": 191,
-    "resolved_to_node": 147,
-    "direct": 139,
-    "alias": 8,
-    "unresolved": 44
+    "resolved_to_node": 152,
+    "direct": 143,
+    "alias": 9,
+    "unresolved": 39
   },
   "mentions": [
     {
@@ -510,9 +510,9 @@
     {
       "raw_name": "Sky cells",
       "slug": "sky-cells",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sky-cells.node.md",
       "section": "Locations",
       "line": 94
     },
@@ -618,9 +618,9 @@
     {
       "raw_name": "Rookery",
       "slug": "rookery",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/rookery.node.md",
       "section": "Locations",
       "line": 106
     },
@@ -1122,9 +1122,9 @@
     {
       "raw_name": "Sky cells",
       "slug": "sky-cells",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sky-cells.node.md",
       "section": "Raw Entity List > Locations",
       "line": 329
     },
@@ -1230,9 +1230,9 @@
     {
       "raw_name": "Rookery",
       "slug": "rookery",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/rookery.node.md",
       "section": "Raw Entity List > Locations",
       "line": 341
     },
@@ -1445,10 +1445,10 @@
     },
     {
       "raw_name": "The Old Gods (Sansa prayed to them at the heart tree as a child)",
-      "slug": "the-old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 371
     },

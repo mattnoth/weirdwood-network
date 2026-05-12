@@ -2,7 +2,7 @@
 name: "Harma Dogshead"
 type: character.human
 slug: harma-dogshead
-aliases: ["Harma the Dogshead", "Harma Dogshead"]
+aliases: ["Harma the Dogshead", "Harma Dogshead", "harma"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Harma_Dogshead"
 bucket_id: tier3-pathb-characters

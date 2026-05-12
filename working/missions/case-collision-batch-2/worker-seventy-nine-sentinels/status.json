@@ -1,0 +1,14 @@
+{
+  "worker_id": "case-collision-batch-2-seventy-nine-sentinels",
+  "started_at": "2026-05-12T17:04:00Z",
+  "completed_at": "2026-05-12T17:04:10Z",
+  "status": "pass",
+  "confidence": 0.82,
+  "source_count": 3,
+  "source_files_consulted": [
+    "graph/nodes/characters/lord-ryswell-nights-watch.node.md",
+    "graph/nodes/characters/lord-ryswells-youngest-son.node.md",
+    "graph/nodes/titles/lord-of-the-rills.node.md"
+  ],
+  "notes": "No infobox entry found. Three sources give consistent, detailed account of the group: deserted from Nightfort, fled to Ryswell lands, captured and sealed in the Wall. Type assigned organization.faction (cohesive named group). No edges inferrable from infobox; no reverse-lookup hits."
+}

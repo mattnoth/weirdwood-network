@@ -2,14 +2,14 @@
   "chapter_id": "adwd-tyrion-06",
   "book": "adwd",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-11T22:47:27.501442+00:00",
+  "generated_at": "2026-05-12T18:30:45.082025+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-tyrion-06.extraction.md",
   "stats": {
     "total_mentions": 248,
-    "resolved_to_node": 149,
-    "direct": 131,
-    "alias": 18,
-    "unresolved": 99
+    "resolved_to_node": 164,
+    "direct": 134,
+    "alias": 30,
+    "unresolved": 84
   },
   "mentions": [
     {
@@ -455,28 +455,28 @@
     },
     {
       "raw_name": "Nyessos",
-      "slug": "nyessos",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "nyessos-vhassar",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/nyessos-vhassar.node.md",
       "section": "Characters Referenced",
       "line": 84
     },
     {
       "raw_name": "Malaquo",
-      "slug": "malaquo",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "malaquo-maegyr",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/malaquo-maegyr.node.md",
       "section": "Characters Referenced",
       "line": 85
     },
     {
       "raw_name": "Doniphos",
-      "slug": "doniphos",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "doniphos-paenymion",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/doniphos-paenymion.node.md",
       "section": "Characters Referenced",
       "line": 86
     },
@@ -509,10 +509,10 @@
     },
     {
       "raw_name": "King Maegor",
-      "slug": "king-maegor",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "maegor-i-targaryen",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/maegor-i-targaryen.node.md",
       "section": "Characters Referenced",
       "line": 90
     },
@@ -618,9 +618,9 @@
     {
       "raw_name": "Red temple (Selhorys)",
       "slug": "red-temple",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-temple.node.md",
       "section": "Locations",
       "line": 106
     },
@@ -788,10 +788,10 @@
     },
     {
       "raw_name": "The narrow sea",
-      "slug": "the-narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "narrow-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Locations",
       "line": 125
     },
@@ -806,10 +806,10 @@
     },
     {
       "raw_name": "The red waste",
-      "slug": "the-red-waste",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "red-waste",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-waste.node.md",
       "section": "Locations",
       "line": 127
     },
@@ -870,9 +870,9 @@
     {
       "raw_name": "Red temple (Selhorys)",
       "slug": "red-temple",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-temple.node.md",
       "section": "Location Descriptions",
       "line": 138
     },
@@ -1175,28 +1175,28 @@
     },
     {
       "raw_name": "Nyessos (triarch; referenced)",
-      "slug": "nyessos",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "nyessos-vhassar",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/nyessos-vhassar.node.md",
       "section": "Raw Entity List > Characters",
       "line": 343
     },
     {
       "raw_name": "Malaquo (triarch; referenced)",
-      "slug": "malaquo",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "malaquo-maegyr",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/malaquo-maegyr.node.md",
       "section": "Raw Entity List > Characters",
       "line": 344
     },
     {
       "raw_name": "Doniphos (triarch; referenced)",
-      "slug": "doniphos",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "doniphos-paenymion",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/doniphos-paenymion.node.md",
       "section": "Raw Entity List > Characters",
       "line": 345
     },
@@ -1238,10 +1238,10 @@
     },
     {
       "raw_name": "King Maegor (referenced, historical)",
-      "slug": "king-maegor",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "maegor-i-targaryen",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/maegor-i-targaryen.node.md",
       "section": "Raw Entity List > Characters",
       "line": 350
     },
@@ -1428,9 +1428,9 @@
     {
       "raw_name": "Red temple (Selhorys)",
       "slug": "red-temple",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-temple.node.md",
       "section": "Raw Entity List > Locations",
       "line": 373
     },
@@ -1607,10 +1607,10 @@
     },
     {
       "raw_name": "The narrow sea",
-      "slug": "the-narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "narrow-sea",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Raw Entity List > Locations",
       "line": 393
     },
@@ -1634,10 +1634,10 @@
     },
     {
       "raw_name": "The red waste",
-      "slug": "the-red-waste",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "red-waste",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/red-waste.node.md",
       "section": "Raw Entity List > Locations",
       "line": 396
     },

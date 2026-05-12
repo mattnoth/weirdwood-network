@@ -2,14 +2,14 @@
   "chapter_id": "agot-jon-06",
   "book": "agot",
   "pov_character": "jon",
-  "generated_at": "2026-05-11T22:47:27.285195+00:00",
+  "generated_at": "2026-05-12T18:30:44.835720+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-jon-06.extraction.md",
   "stats": {
     "total_mentions": 57,
-    "resolved_to_node": 41,
-    "direct": 35,
-    "alias": 6,
-    "unresolved": 16
+    "resolved_to_node": 46,
+    "direct": 39,
+    "alias": 7,
+    "unresolved": 11
   },
   "mentions": [
     {
@@ -59,10 +59,10 @@
     },
     {
       "raw_name": "Maester Aemon",
-      "slug": "maester-aemon",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md",
       "section": "Characters Present",
       "line": 32
     },
@@ -374,19 +374,19 @@
     },
     {
       "raw_name": "The haunted forest",
-      "slug": "the-haunted-forest",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "haunted-forest",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Locations",
       "line": 79
     },
     {
       "raw_name": "Weirwood grove (beyond the Wall)",
       "slug": "weirwood-grove",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/weirwood-grove.node.md",
       "section": "Locations",
       "line": 80
     },
@@ -456,18 +456,18 @@
     {
       "raw_name": "Weirwood grove",
       "slug": "weirwood-grove",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/weirwood-grove.node.md",
       "section": "Location Descriptions",
       "line": 92
     },
     {
       "raw_name": "The haunted forest",
-      "slug": "the-haunted-forest",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "haunted-forest",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Location Descriptions",
       "line": 93
     },

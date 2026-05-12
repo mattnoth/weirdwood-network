@@ -2,14 +2,14 @@
   "chapter_id": "acok-sansa-03",
   "book": "acok",
   "pov_character": "sansa",
-  "generated_at": "2026-05-11T22:47:27.332022+00:00",
+  "generated_at": "2026-05-12T18:30:44.887749+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-sansa-03.extraction.md",
   "stats": {
     "total_mentions": 161,
-    "resolved_to_node": 120,
-    "direct": 120,
-    "alias": 0,
-    "unresolved": 41
+    "resolved_to_node": 123,
+    "direct": 122,
+    "alias": 1,
+    "unresolved": 38
   },
   "mentions": [
     {
@@ -501,9 +501,9 @@
     {
       "raw_name": "Godswood (King's Landing)",
       "slug": "godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Locations",
       "line": 93
     },
@@ -1005,9 +1005,9 @@
     {
       "raw_name": "Godswood (King's Landing)",
       "slug": "godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Raw Entity List > Locations",
       "line": 303
     },
@@ -1184,10 +1184,10 @@
     },
     {
       "raw_name": "Old Gods (Sansa prays in the godswood; wildling woman says \"the gods will hear\")",
-      "slug": "old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 329
     },

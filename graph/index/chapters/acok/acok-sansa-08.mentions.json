@@ -2,14 +2,14 @@
   "chapter_id": "acok-sansa-08",
   "book": "acok",
   "pov_character": "sansa",
-  "generated_at": "2026-05-11T22:47:27.335420+00:00",
+  "generated_at": "2026-05-12T18:30:44.891582+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-sansa-08.extraction.md",
   "stats": {
     "total_mentions": 121,
-    "resolved_to_node": 95,
-    "direct": 92,
+    "resolved_to_node": 97,
+    "direct": 94,
     "alias": 3,
-    "unresolved": 26
+    "unresolved": 24
   },
   "mentions": [
     {
@@ -906,9 +906,9 @@
     {
       "raw_name": "Godswood (Red Keep)",
       "slug": "godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Locations",
       "line": 138
     },
@@ -1041,9 +1041,9 @@
     {
       "raw_name": "Godswood (Red Keep)",
       "slug": "godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Location Descriptions",
       "line": 157
     },

@@ -1,0 +1,17 @@
+{
+  "worker_id": "case-collision-batch-2-finger-dance",
+  "started_at": "2026-05-12T17:03:50Z",
+  "completed_at": "2026-05-12T17:04:10Z",
+  "status": "pass",
+  "confidence": 0.85,
+  "source_count": 6,
+  "source_files_consulted": [
+    "graph/nodes/events/coming-of-the-andals.node.md",
+    "graph/nodes/characters/eldred-codd.node.md",
+    "graph/nodes/characters/lady-piper-wife-of-quellon-greyjoy.node.md",
+    "graph/nodes/characters/balon-greyjoy.node.md",
+    "graph/nodes/characters/rognar-ii-greyiron.node.md",
+    "graph/nodes/characters/rolfe.node.md"
+  ],
+  "notes": "All 6 sources matched. No direct infobox entry. Type: concept.custom — a cultural practice/game specific to ironborn, not a faction or artifact."
+}

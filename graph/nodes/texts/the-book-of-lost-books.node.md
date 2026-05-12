@@ -2,7 +2,7 @@
 name: "The Book of Lost Books"
 type: object.text
 slug: the-book-of-lost-books
-aliases: []
+aliases: ["book-of-lost-books"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/The_Book_of_Lost_Books"
 bucket_id: tier3-pathb-texts

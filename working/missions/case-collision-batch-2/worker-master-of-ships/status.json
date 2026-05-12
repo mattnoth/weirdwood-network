@@ -1,0 +1,19 @@
+{
+  "worker_id": "case-collision-batch-2-master-of-ships",
+  "started_at": "2026-05-12T17:07:25.352213Z",
+  "completed_at": "2026-05-12T17:07:25.352216Z",
+  "status": "pass",
+  "confidence": 0.92,
+  "source_count": 7,
+  "source_files_consulted": [
+    "graph/nodes/houses/house-velaryon.node.md",
+    "graph/nodes/characters/aurane-waters.node.md",
+    "graph/nodes/characters/stannis-baratheon.node.md",
+    "graph/nodes/characters/corlys-velaryon.node.md",
+    "graph/nodes/characters/alyn-velaryon.node.md",
+    "graph/nodes/titles/master-of-ships.node.md",
+    "sources/wiki/_raw/Master_of_Ships.json",
+    "working/wiki/pass2-buckets/tier3-titles/skeleton/master-of-ships.node.md"
+  ],
+  "notes": "Existing graph node is stub only. Wiki page is redirect-only. 12 reverse HOLDS_TITLE hits confirmed in graph/nodes/characters/. No direct infobox on the title page."
+}

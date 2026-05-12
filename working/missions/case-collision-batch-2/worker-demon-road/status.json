@@ -1,0 +1,14 @@
+{
+  "worker_id": "case-collision-batch-2-demon-road",
+  "started_at": "2026-05-12T17:04:25Z",
+  "completed_at": "2026-05-12T17:04:30Z",
+  "status": "pass",
+  "confidence": 0.75,
+  "source_count": 3,
+  "source_files_consulted": [
+    "graph/nodes/characters/archibald-yronwood.node.md",
+    "graph/nodes/characters/cletus-yronwood.node.md",
+    "graph/nodes/characters/franklyn-flowers.node.md"
+  ],
+  "notes": "No infobox entry. Three sources confirm it is a dangerous overland road toward Meereen in Essos. Exact route geography not specified in sources; confidence moderate. No edges derivable without infobox; no reverse-lookup hits."
+}

@@ -1,0 +1,22 @@
+{
+  "worker_id": "case-collision-batch-2-second-siege-of-meereen",
+  "started_at": "2026-05-12T17:06:01.987889Z",
+  "completed_at": "2026-05-12T17:06:01.988021Z",
+  "status": "pass",
+  "confidence": 0.87,
+  "source_count": 10,
+  "source_files_consulted": [
+    "graph/nodes/characters/barristan-selmy.node.md",
+    "graph/nodes/characters/victarion-greyjoy.node.md",
+    "graph/nodes/locations/meereen.node.md",
+    "graph/nodes/locations/skahazadhan.node.md",
+    "graph/nodes/locations/new-ghis.node.md",
+    "graph/nodes/locations/great-pyramid.node.md",
+    "graph/nodes/houses/house-of-yunzak.node.md",
+    "graph/nodes/houses/house-of-eraz.node.md",
+    "graph/nodes/titles/wise-masters.node.md",
+    "graph/nodes/species/harpies.node.md",
+    "sources/wiki/_raw/Second_Siege_of_Meereen.json"
+  ],
+  "notes": "Wiki page is redirect-only (both casings). Identity synthesized from prose references across ~20 graph nodes. No direct infobox. Edge vocab note: no FIGHTS_IN reverse hits in infobox-data; inbound FIGHTS_IN edges must come from individual character nodes. Outcome (Meereenese victory) confirmed only in TWOW sample chapters \u2014 confidence slightly reduced for post-ADWD phase."
+}

@@ -2,14 +2,14 @@
   "chapter_id": "acok-tyrion-11",
   "book": "acok",
   "pov_character": "tyrion",
-  "generated_at": "2026-05-11T22:47:27.346419+00:00",
+  "generated_at": "2026-05-12T18:30:44.903191+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-tyrion-11.extraction.md",
   "stats": {
     "total_mentions": 77,
-    "resolved_to_node": 55,
-    "direct": 53,
+    "resolved_to_node": 57,
+    "direct": 55,
     "alias": 2,
-    "unresolved": 22
+    "unresolved": 20
   },
   "mentions": [
     {
@@ -600,9 +600,9 @@
     {
       "raw_name": "Three Whores (trebuchets)",
       "slug": "three-whores",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/three-whores.node.md",
       "section": "Location Descriptions",
       "line": 108
     },
@@ -635,10 +635,10 @@
     },
     {
       "raw_name": "The Three Whores (trebuchets)",
-      "slug": "the-three-whores",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "three-whores",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/three-whores.node.md",
       "section": "Artifacts & Objects of Significance",
       "line": 116
     },

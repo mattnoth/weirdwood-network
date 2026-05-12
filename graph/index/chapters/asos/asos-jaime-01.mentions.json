@@ -2,14 +2,14 @@
   "chapter_id": "asos-jaime-01",
   "book": "asos",
   "pov_character": "jaime",
-  "generated_at": "2026-05-11T22:47:27.378516+00:00",
+  "generated_at": "2026-05-12T18:30:44.939460+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-jaime-01.extraction.md",
   "stats": {
     "total_mentions": 135,
-    "resolved_to_node": 90,
+    "resolved_to_node": 91,
     "direct": 84,
-    "alias": 6,
-    "unresolved": 45
+    "alias": 7,
+    "unresolved": 44
   },
   "mentions": [
     {
@@ -959,10 +959,10 @@
     },
     {
       "raw_name": "The old gods",
-      "slug": "the-old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 288
     },

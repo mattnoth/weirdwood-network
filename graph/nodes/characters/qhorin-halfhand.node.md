@@ -2,7 +2,7 @@
 name: "Qhorin Halfhand"
 type: character.human
 slug: qhorin-halfhand
-aliases: ["Qhorin Halfhand", "The Halfhand"]
+aliases: ["Qhorin Halfhand", "The Halfhand", "qhorin"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Qhorin_Halfhand"
 bucket_id: characters-other-p-q

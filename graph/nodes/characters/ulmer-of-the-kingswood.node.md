@@ -2,7 +2,7 @@
 name: "Ulmer of the Kingswood"
 type: character.human
 slug: ulmer-of-the-kingswood
-aliases: ["Ulmer of the Kingswood"]
+aliases: ["Ulmer of the Kingswood", "ulmer"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Ulmer_of_the_Kingswood"
 bucket_id: characters-other-u-v

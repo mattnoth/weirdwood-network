@@ -2,14 +2,14 @@
   "chapter_id": "affc-arya-01",
   "book": "affc",
   "pov_character": "arya",
-  "generated_at": "2026-05-11T22:47:27.410341+00:00",
+  "generated_at": "2026-05-12T18:30:44.975809+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-arya-01.extraction.md",
   "stats": {
     "total_mentions": 197,
-    "resolved_to_node": 137,
-    "direct": 125,
-    "alias": 12,
-    "unresolved": 60
+    "resolved_to_node": 145,
+    "direct": 129,
+    "alias": 16,
+    "unresolved": 52
   },
   "mentions": [
     {
@@ -59,10 +59,10 @@
     },
     {
       "raw_name": "The kindly man",
-      "slug": "the-kindly-man",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "kindly-man",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/kindly-man.node.md",
       "section": "Characters Present",
       "line": 32
     },
@@ -122,10 +122,10 @@
     },
     {
       "raw_name": "The kindly man",
-      "slug": "the-kindly-man",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "kindly-man",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/kindly-man.node.md",
       "section": "Character Appearances",
       "line": 43
     },
@@ -429,9 +429,9 @@
     {
       "raw_name": "Narrow sea",
       "slug": "narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Locations",
       "line": 85
     },
@@ -887,10 +887,10 @@
     },
     {
       "raw_name": "The kindly man (priest at House of Black and White)",
-      "slug": "the-kindly-man",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "kindly-man",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/kindly-man.node.md",
       "section": "Raw Entity List > Characters",
       "line": 298
     },
@@ -1185,9 +1185,9 @@
     {
       "raw_name": "Narrow sea",
       "slug": "narrow-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/narrow-sea.node.md",
       "section": "Raw Entity List > Locations",
       "line": 333
     },
@@ -1751,10 +1751,10 @@
     },
     {
       "raw_name": "Sealord (the Sealords of Braavos — statues along the canal; customs officers at Chequy Port)",
-      "slug": "sealord",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "sealord-of-braavos",
+      "resolved_via": "alias",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/sealord-of-braavos.node.md",
       "section": "Raw Entity List > Titles & Offices",
       "line": 416
     },
@@ -1770,18 +1770,18 @@
     {
       "raw_name": "Valar morghulis (\"all men must die\")",
       "slug": "valar-morghulis",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/valar-morghulis.node.md",
       "section": "Raw Entity List > Other",
       "line": 420
     },
     {
       "raw_name": "Valar dohaeris (\"all men must serve\")",
       "slug": "valar-dohaeris",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/valar-dohaeris.node.md",
       "section": "Raw Entity List > Other",
       "line": 421
     }

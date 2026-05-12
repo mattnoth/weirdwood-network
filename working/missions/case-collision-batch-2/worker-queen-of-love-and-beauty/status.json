@@ -1,0 +1,16 @@
+{
+  "worker_id": "case-collision-batch-2-queen-of-love-and-beauty",
+  "started_at": "2026-05-12T17:06:33.428546Z",
+  "completed_at": "2026-05-12T17:06:33.428666Z",
+  "status": "pass",
+  "confidence": 0.9,
+  "source_count": 3,
+  "source_files_consulted": [
+    "graph/nodes/characters/ashara-dayne.node.md",
+    "graph/nodes/events/roberts-rebellion.node.md",
+    "graph/nodes/characters/bonifer-hasty.node.md",
+    "graph/nodes/concepts/queen-of-love-and-beauty.node.md",
+    "working/wiki/data/infobox-data.jsonl"
+  ],
+  "notes": "Stub node existed as 'concept' in pass2-wiki-bucket-a-backfill. Reclassified as concept.custom (tourney tradition). 1 infobox HOLDS_TITLE reverse hit (Lord Ashford's daughter). Lyanna Stark and Ashara Dayne context well documented in source nodes."
+}

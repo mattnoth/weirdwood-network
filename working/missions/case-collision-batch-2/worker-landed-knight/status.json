@@ -1,0 +1,15 @@
+{
+  "worker_id": "case-collision-batch-2-landed-knight",
+  "started_at": "2026-05-12T17:06:07.663233Z",
+  "completed_at": "2026-05-12T17:06:07.663343Z",
+  "status": "pass",
+  "confidence": 0.85,
+  "source_count": 3,
+  "source_files_consulted": [
+    "graph/nodes/characters/ronnet-connington.node.md",
+    "graph/nodes/characters/bonifer-hasty.node.md",
+    "graph/nodes/events/dance-of-the-dragons.node.md",
+    "graph/nodes/characters/jon-connington.node.md"
+  ],
+  "notes": "No pre-existing node found. No infobox entry. Landed knight is a title/rank concept; edges are not derivable from infobox reverse lookup. Type is title (a formal rank/office)."
+}

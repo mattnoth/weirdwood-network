@@ -2,14 +2,14 @@
   "chapter_id": "adwd-daenerys-04",
   "book": "adwd",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-11T22:47:27.454691+00:00",
+  "generated_at": "2026-05-12T18:30:45.030432+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-daenerys-04.extraction.md",
   "stats": {
     "total_mentions": 80,
-    "resolved_to_node": 56,
-    "direct": 53,
-    "alias": 3,
-    "unresolved": 24
+    "resolved_to_node": 62,
+    "direct": 57,
+    "alias": 5,
+    "unresolved": 18
   },
   "mentions": [
     {
@@ -32,10 +32,10 @@
     },
     {
       "raw_name": "Qezza",
-      "slug": "qezza",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "qezza-galare",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qezza-galare.node.md",
       "section": "Characters Present",
       "line": 29
     },
@@ -51,9 +51,9 @@
     {
       "raw_name": "White Graces",
       "slug": "white-graces",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/white-graces.node.md",
       "section": "Characters Present",
       "line": 31
     },
@@ -122,10 +122,10 @@
     },
     {
       "raw_name": "Qezza",
-      "slug": "qezza",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "qezza-galare",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/qezza-galare.node.md",
       "section": "Character Appearances",
       "line": 43
     },
@@ -168,9 +168,9 @@
     {
       "raw_name": "White Graces",
       "slug": "white-graces",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/white-graces.node.md",
       "section": "Character Appearances",
       "line": 48
     },
@@ -573,9 +573,9 @@
     {
       "raw_name": "Dothraki sea",
       "slug": "dothraki-sea",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/dothraki-sea.node.md",
       "section": "Locations",
       "line": 101
     },
@@ -627,9 +627,9 @@
     {
       "raw_name": "Sunset Kingdoms (Westeros)",
       "slug": "sunset-kingdoms",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/sunset-kingdoms.node.md",
       "section": "Locations",
       "line": 107
     },

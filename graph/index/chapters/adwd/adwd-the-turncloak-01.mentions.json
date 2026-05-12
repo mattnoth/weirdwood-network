@@ -2,14 +2,14 @@
   "chapter_id": "adwd-the-turncloak-01",
   "book": "adwd",
   "pov_character": "the-turncloak",
-  "generated_at": "2026-05-11T22:47:27.490409+00:00",
+  "generated_at": "2026-05-12T18:30:45.070224+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-the-turncloak-01.extraction.md",
   "stats": {
     "total_mentions": 104,
-    "resolved_to_node": 66,
+    "resolved_to_node": 67,
     "direct": 56,
-    "alias": 10,
-    "unresolved": 38
+    "alias": 11,
+    "unresolved": 37
   },
   "mentions": [
     {
@@ -653,10 +653,10 @@
     },
     {
       "raw_name": "The Burned Tower",
-      "slug": "the-burned-tower",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "broken-tower",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/broken-tower.node.md",
       "section": "Locations",
       "line": 110
     },

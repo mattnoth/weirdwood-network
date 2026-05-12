@@ -2,14 +2,14 @@
   "chapter_id": "agot-sansa-05",
   "book": "agot",
   "pov_character": "sansa",
-  "generated_at": "2026-05-11T22:47:27.290257+00:00",
+  "generated_at": "2026-05-12T18:30:44.840989+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-sansa-05.extraction.md",
   "stats": {
     "total_mentions": 92,
-    "resolved_to_node": 77,
-    "direct": 74,
+    "resolved_to_node": 78,
+    "direct": 75,
     "alias": 3,
-    "unresolved": 15
+    "unresolved": 14
   },
   "mentions": [
     {
@@ -672,9 +672,9 @@
     {
       "raw_name": "Godswood (Red Keep)",
       "slug": "godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Locations",
       "line": 112
     },

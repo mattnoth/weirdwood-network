@@ -2,14 +2,14 @@
   "chapter_id": "agot-eddard-10",
   "book": "agot",
   "pov_character": "eddard",
-  "generated_at": "2026-05-11T22:47:27.279673+00:00",
+  "generated_at": "2026-05-12T18:30:44.829386+00:00",
   "extraction_path": "extractions/mechanical/agot/agot-eddard-10.extraction.md",
   "stats": {
     "total_mentions": 59,
-    "resolved_to_node": 50,
-    "direct": 50,
-    "alias": 0,
-    "unresolved": 9
+    "resolved_to_node": 53,
+    "direct": 52,
+    "alias": 1,
+    "unresolved": 6
   },
   "mentions": [
     {
@@ -384,9 +384,9 @@
     {
       "raw_name": "Tower of Joy",
       "slug": "tower-of-joy",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/tower-of-joy.node.md",
       "section": "Locations",
       "line": 80
     },
@@ -473,10 +473,10 @@
     },
     {
       "raw_name": "The Vale",
-      "slug": "the-vale",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "vale-of-arryn",
+      "resolved_via": "alias",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/vale-of-arryn.node.md",
       "section": "Locations",
       "line": 90
     },
@@ -501,9 +501,9 @@
     {
       "raw_name": "Tower of Joy (dream)",
       "slug": "tower-of-joy",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/tower-of-joy.node.md",
       "section": "Location Descriptions",
       "line": 97
     },

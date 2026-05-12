@@ -2,14 +2,14 @@
   "chapter_id": "affc-cersei-04",
   "book": "affc",
   "pov_character": "cersei",
-  "generated_at": "2026-05-11T22:47:27.422163+00:00",
+  "generated_at": "2026-05-12T18:30:44.988916+00:00",
   "extraction_path": "extractions/mechanical/affc/affc-cersei-04.extraction.md",
   "stats": {
     "total_mentions": 125,
-    "resolved_to_node": 94,
-    "direct": 89,
+    "resolved_to_node": 95,
+    "direct": 90,
     "alias": 5,
-    "unresolved": 31
+    "unresolved": 30
   },
   "mentions": [
     {
@@ -1031,10 +1031,10 @@
     },
     {
       "raw_name": "The Seastone Chair",
-      "slug": "the-seastone-chair",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "seastone-chair",
+      "resolved_via": "direct",
+      "node_type": "object.artifact",
+      "node_path": "graph/nodes/artifacts/seastone-chair.node.md",
       "section": "Locations",
       "line": 152
     },

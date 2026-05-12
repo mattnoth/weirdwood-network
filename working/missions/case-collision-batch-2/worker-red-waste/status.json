@@ -1,0 +1,17 @@
+{
+  "worker_id": "case-collision-batch-2-red-waste",
+  "started_at": "2026-05-12T17:08:53.336174Z",
+  "completed_at": "2026-05-12T17:08:53.336286Z",
+  "status": "pass",
+  "confidence": 0.9,
+  "source_count": 4,
+  "source_files_consulted": [
+    "graph/nodes/locations/qarth.node.md",
+    "graph/nodes/characters/jorah-mormont.node.md",
+    "graph/nodes/characters/daenerys-targaryen.node.md",
+    "graph/nodes/concepts/dothraki.node.md",
+    "graph/nodes/characters/rhaegal.node.md",
+    "graph/nodes/locations/red-waste.node.md"
+  ],
+  "notes": "Region stub existed (pass2-wiki-bucket-a-backfill). Rich geographic and narrative context from qarth and dothraki nodes. Daenerys khalasar crossing is the primary narrative event."
+}

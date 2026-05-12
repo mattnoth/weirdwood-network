@@ -2,7 +2,7 @@
 name: "Bravo"
 type: place.location
 slug: bravo
-aliases: []
+aliases: ["bravos"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Bravo"
 bucket_id: tier3-pathb-locations

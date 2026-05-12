@@ -1,0 +1,16 @@
+{
+  "worker_id": "case-collision-batch-2-red-comet",
+  "started_at": "2026-05-12T17:07:28.761401Z",
+  "completed_at": "2026-05-12T17:07:28.761504Z",
+  "status": "pass",
+  "confidence": 0.85,
+  "source_count": 5,
+  "source_files_consulted": [
+    "graph/nodes/concepts/azor-ahai.node.md",
+    "graph/nodes/characters/daenerys-targaryen.node.md",
+    "graph/nodes/characters/melisandre.node.md",
+    "graph/nodes/characters/dalla-dragonstone.node.md",
+    "graph/nodes/characters/salladhor-saan.node.md"
+  ],
+  "notes": "No pre-existing node. Type assigned concept.magic (celestial/prophetic phenomenon). No infobox reverse hits. Edges are narrative/prophecy type. Multiple competing interpretations documented."
+}

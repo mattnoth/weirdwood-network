@@ -1,0 +1,36 @@
+{
+  "worker_id": "case-collision-brotherhood-without-banners",
+  "slug": "brotherhood-without-banners",
+  "status": "complete",
+  "confidence": "high",
+  "source_count": 10,
+  "started_at": "2026-05-12T00:00:00Z",
+  "completed_at": "2026-05-12T00:00:00Z",
+  "source_files_consulted": [
+    "working/wiki/data/backlink-counts.json",
+    "working/wiki/data/infobox-data.jsonl",
+    "graph/nodes/events/battle-at-the-mummers-ford.node.md",
+    "graph/nodes/events/red-wedding.node.md",
+    "graph/nodes/events/raid-on-saltpans.node.md",
+    "graph/nodes/characters/sandor-clegane.node.md",
+    "graph/nodes/characters/mariya-darry.node.md",
+    "graph/nodes/characters/ravella-smallwood.node.md",
+    "graph/nodes/characters/lord-deddings.node.md",
+    "graph/nodes/characters/amerei-frey.node.md",
+    "graph/nodes/characters/danwell-frey.node.md",
+    "graph/nodes/locations/seven-kingdoms.node.md",
+    "graph/nodes/factions/brotherhood-without-banners.node.md",
+    "reference/architecture.md"
+  ],
+  "notes": [
+    "Existing node at graph/nodes/factions/brotherhood-without-banners.node.md has stub Identity only — this reconstruction provides a full Identity for that node.",
+    "No infobox entry exists in infobox-data.jsonl for the Brotherhood Without Banners page itself; the page slug does not appear as a 'page' key in infobox-data.jsonl.",
+    "Edges derived from cross-reference evidence: membership inferred from SWORN_TO edges on member character infoboxes (Anguy, Beric Dondarrion, Beardless Dick, Dennet, Boy, Catelyn Stark, Brienne of Tarth); narrative edges inferred from event and character node prose.",
+    "backlink-counts.json uses nested structure: data['backlinks']['brotherhood-without-banners'] — not top-level key as mission prompt assumed.",
+    "141 inbound backlinks (high); all 10 top_sources were located and contained usable Brotherhood mentions.",
+    "Identity is paraphrased from source nodes only; no invention.",
+    "Leadership transition from Beric to Lady Stoneheart is well-documented in multiple sources (red-wedding, raid-on-saltpans, sandor-clegane).",
+    "Aliases: 'the brotherhood', 'Beric's men', 'the outlaws' — all appear in source prose as referring to this group."
+  ],
+  "flags": []
+}

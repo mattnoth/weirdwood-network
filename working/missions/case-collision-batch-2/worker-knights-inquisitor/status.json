@@ -1,0 +1,13 @@
+{
+  "worker_id": "case-collision-batch-2-knights-inquisitor",
+  "started_at": "2026-05-12T17:05:32Z",
+  "completed_at": "2026-05-12T17:05:38Z",
+  "status": "pass",
+  "confidence": 0.78,
+  "source_count": 2,
+  "source_files_consulted": [
+    "graph/nodes/characters/willis-fell.node.md",
+    "graph/nodes/characters/rhaenyra-targaryen.node.md"
+  ],
+  "notes": "No infobox entry. Two sources provide consistent context: sent by Rhaenyra during Dance of the Dragons to pursue Aegon II loyalists. Type set to titles (a role/function assigned to specific knights). Could also be organization.faction, but the word-choice 'knights inquisitor' functions as a title/role rather than a standing organisation. Confidence 0.78 as sources describe the function but not institutional structure."
+}

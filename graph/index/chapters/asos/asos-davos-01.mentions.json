@@ -2,14 +2,14 @@
   "chapter_id": "asos-davos-01",
   "book": "asos",
   "pov_character": "davos",
-  "generated_at": "2026-05-11T22:47:27.374206+00:00",
+  "generated_at": "2026-05-12T18:30:44.934363+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-davos-01.extraction.md",
   "stats": {
     "total_mentions": 106,
-    "resolved_to_node": 70,
-    "direct": 68,
-    "alias": 2,
-    "unresolved": 36
+    "resolved_to_node": 75,
+    "direct": 72,
+    "alias": 3,
+    "unresolved": 31
   },
   "mentions": [
     {
@@ -195,9 +195,9 @@
     {
       "raw_name": "Spears of the merling king",
       "slug": "spears-of-the-merling-king",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/spears-of-the-merling-king.node.md",
       "section": "Locations",
       "line": 59
     },
@@ -276,9 +276,9 @@
     {
       "raw_name": "Spears of the merling king",
       "slug": "spears-of-the-merling-king",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/spears-of-the-merling-king.node.md",
       "section": "Location Descriptions",
       "line": 72
     },
@@ -591,9 +591,9 @@
     {
       "raw_name": "Spears of the merling king (sea monts)",
       "slug": "spears-of-the-merling-king",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/spears-of-the-merling-king.node.md",
       "section": "Raw Entity List > Locations",
       "line": 235
     },
@@ -690,9 +690,9 @@
     {
       "raw_name": "Queen's men (Selyse's followers won over by Melisandre)",
       "slug": "queens-men",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/queens-men.node.md",
       "section": "Raw Entity List > Factions & Organizations",
       "line": 250
     },
@@ -725,10 +725,10 @@
     },
     {
       "raw_name": "Old Gods (implied — the godswood and heart tree at Storm's End burned)",
-      "slug": "old-gods",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "old-gods-of-the-forest",
+      "resolved_via": "alias",
+      "node_type": "organization.religion",
+      "node_path": "graph/nodes/religions/old-gods-of-the-forest.node.md",
       "section": "Raw Entity List > Religions & Faiths",
       "line": 256
     },

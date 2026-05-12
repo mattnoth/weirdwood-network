@@ -1,0 +1,13 @@
+{
+  "worker_id": "case-collision-batch-2-tiger-cloaks",
+  "started_at": "2026-05-12T17:04:52Z",
+  "completed_at": "2026-05-12T17:04:58Z",
+  "status": "pass",
+  "confidence": 0.85,
+  "source_count": 2,
+  "source_files_consulted": [
+    "graph/nodes/characters/tessario.node.md",
+    "graph/nodes/characters/malaquo-maegyr.node.md"
+  ],
+  "notes": "No infobox entry. Two sources confirm role as Volantene city guard with tiger-stripe branding. LOCATED_IN volantis inferred from clear textual context (both sources place them explicitly in Volantis). Type organization.faction consistent with city-watch patterns in factions dir."
+}

@@ -2,14 +2,14 @@
   "chapter_id": "acok-bran-02",
   "book": "acok",
   "pov_character": "bran",
-  "generated_at": "2026-05-11T22:47:27.305482+00:00",
+  "generated_at": "2026-05-12T18:30:44.857930+00:00",
   "extraction_path": "extractions/mechanical/acok/acok-bran-02.extraction.md",
   "stats": {
     "total_mentions": 103,
-    "resolved_to_node": 77,
-    "direct": 74,
-    "alias": 3,
-    "unresolved": 26
+    "resolved_to_node": 80,
+    "direct": 76,
+    "alias": 4,
+    "unresolved": 23
   },
   "mentions": [
     {
@@ -626,10 +626,10 @@
     },
     {
       "raw_name": "The Targaryens",
-      "slug": "the-targaryens",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "house-targaryen",
+      "resolved_via": "alias",
+      "node_type": "organization.house",
+      "node_path": "graph/nodes/houses/house-targaryen.node.md",
       "section": "Characters Referenced",
       "line": 103
     },
@@ -671,10 +671,10 @@
     },
     {
       "raw_name": "The godswood",
-      "slug": "the-godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "godswood",
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Locations",
       "line": 112
     },
@@ -852,9 +852,9 @@
     {
       "raw_name": "Godswood (pool area)",
       "slug": "godswood",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/godswood.node.md",
       "section": "Location Descriptions",
       "line": 136
     },

@@ -2,7 +2,7 @@
 name: "Gunthor"
 type: character.human
 slug: gunthor
-aliases: []
+aliases: ["gunthor-son-of-gurn"]
 confidence: tier-1
 wiki_source: "https://awoiaf.westeros.org/index.php/Gunthor"
 bucket_id: characters-other-g-h

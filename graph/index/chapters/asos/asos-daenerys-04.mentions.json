@@ -2,14 +2,14 @@
   "chapter_id": "asos-daenerys-04",
   "book": "asos",
   "pov_character": "daenerys",
-  "generated_at": "2026-05-11T22:47:27.372266+00:00",
+  "generated_at": "2026-05-12T18:30:44.932110+00:00",
   "extraction_path": "extractions/mechanical/asos/asos-daenerys-04.extraction.md",
   "stats": {
     "total_mentions": 205,
-    "resolved_to_node": 142,
-    "direct": 137,
-    "alias": 5,
-    "unresolved": 63
+    "resolved_to_node": 146,
+    "direct": 139,
+    "alias": 7,
+    "unresolved": 59
   },
   "mentions": [
     {
@@ -1347,9 +1347,9 @@
     {
       "raw_name": "Unsullied",
       "slug": "unsullied",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "organization.faction",
+      "node_path": "graph/nodes/factions/unsullied.node.md",
       "section": "Raw Entity List > Factions & Organizations",
       "line": 394
     },
@@ -1787,19 +1787,19 @@
     },
     {
       "raw_name": "Daenerys Stormborn",
-      "slug": "daenerys-stormborn",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "daenerys-targaryen",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/daenerys-targaryen.node.md",
       "section": "Raw Entity List > Titles & Offices",
       "line": 458
     },
     {
       "raw_name": "Kos (bloodrider rank given to Jhogo, Aggo, Rakharo)",
-      "slug": "kos",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "ko",
+      "resolved_via": "alias",
+      "node_type": "title",
+      "node_path": "graph/nodes/titles/ko.node.md",
       "section": "Raw Entity List > Titles & Offices",
       "line": 459
     },
@@ -1842,9 +1842,9 @@
     {
       "raw_name": "Queen of love and beauty (tourney title Rhaegar gave Lyanna)",
       "slug": "queen-of-love-and-beauty",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "concept",
+      "node_path": "graph/nodes/concepts/queen-of-love-and-beauty.node.md",
       "section": "Raw Entity List > Titles & Offices",
       "line": 464
     },

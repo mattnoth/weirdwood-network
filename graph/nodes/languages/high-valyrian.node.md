@@ -2,7 +2,7 @@
 name: "High Valyrian"
 type: concept.language
 slug: high-valyrian
-aliases: []
+aliases: ["valyrian-glyphs"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/High_Valyrian"
 bucket_id: tier3-pathb-longtail

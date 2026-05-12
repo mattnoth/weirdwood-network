@@ -2,14 +2,14 @@
   "chapter_id": "adwd-jon-07",
   "book": "adwd",
   "pov_character": "jon",
-  "generated_at": "2026-05-11T22:47:27.469050+00:00",
+  "generated_at": "2026-05-12T18:30:45.046728+00:00",
   "extraction_path": "extractions/mechanical/adwd/adwd-jon-07.extraction.md",
   "stats": {
     "total_mentions": 86,
-    "resolved_to_node": 64,
-    "direct": 56,
-    "alias": 8,
-    "unresolved": 22
+    "resolved_to_node": 68,
+    "direct": 59,
+    "alias": 9,
+    "unresolved": 18
   },
   "mentions": [
     {
@@ -347,10 +347,10 @@
     },
     {
       "raw_name": "Harma",
-      "slug": "harma",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "slug": "harma-dogshead",
+      "resolved_via": "alias",
+      "node_type": "character",
+      "node_path": "graph/nodes/characters/harma-dogshead.node.md",
       "section": "Characters Referenced",
       "line": 72
     },
@@ -555,9 +555,9 @@
     {
       "raw_name": "Weirwood grove (beyond the Wall)",
       "slug": "weirwood-grove",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/weirwood-grove.node.md",
       "section": "Locations",
       "line": 99
     },
@@ -717,9 +717,9 @@
     {
       "raw_name": "Weirwood grove",
       "slug": "weirwood-grove",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/weirwood-grove.node.md",
       "section": "Location Descriptions",
       "line": 121
     },
@@ -735,9 +735,9 @@
     {
       "raw_name": "Haunted forest (beyond the Wall)",
       "slug": "haunted-forest",
-      "resolved_via": "unresolved",
-      "node_type": null,
-      "node_path": null,
+      "resolved_via": "direct",
+      "node_type": "place.location",
+      "node_path": "graph/nodes/locations/haunted-forest.node.md",
       "section": "Location Descriptions",
       "line": 123
     },

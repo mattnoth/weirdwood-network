@@ -2,7 +2,7 @@
 name: "Builders"
 type: organization.faction
 slug: builders
-aliases: []
+aliases: ["builder"]
 confidence: tier-2
 wiki_source: "https://awoiaf.westeros.org/index.php/Builders"
 bucket_id: titles-a-l

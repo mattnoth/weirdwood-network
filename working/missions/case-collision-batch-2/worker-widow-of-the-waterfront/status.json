@@ -1,0 +1,16 @@
+{
+  "worker_id": "case-collision-batch-2-widow-of-the-waterfront",
+  "started_at": "2026-05-12T17:18:30Z",
+  "completed_at": "2026-05-12T17:19:30Z",
+  "status": "pass",
+  "confidence": 0.95,
+  "source_count": 5,
+  "source_files_consulted": [
+    "graph/nodes/characters/jorah-mormont.node.md",
+    "graph/nodes/characters/moqorro.node.md",
+    "graph/nodes/characters/penny.node.md",
+    "graph/nodes/characters/trianna.node.md",
+    "graph/nodes/characters/vogarro.node.md"
+  ],
+  "notes": "Widow_of_the_Waterfront.json is a redirect stub. Existing node is a bare stub. Rich content from all 5 sources, especially vogarro. SPOUSE_OF vogarro derived from infobox track_b reference in vogarro node. No direct infobox-data.jsonl entry found for this slug."
+}

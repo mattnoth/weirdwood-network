@@ -1,0 +1,16 @@
+{
+  "worker_id": "case-collision-batch-2-first-night",
+  "started_at": "2026-05-12T17:05:00Z",
+  "completed_at": "2026-05-12T17:06:30Z",
+  "status": "pass",
+  "confidence": 0.92,
+  "source_count": 5,
+  "source_files_consulted": [
+    "graph/nodes/characters/millers-wife.node.md",
+    "graph/nodes/characters/albin-massey.node.md",
+    "graph/nodes/characters/jaehaerys-i-targaryen.node.md",
+    "graph/nodes/factions/first-men.node.md",
+    "graph/nodes/events/harren-the-reds-rebellion.node.md"
+  ],
+  "notes": "Wiki pages First_Night.json and Right_of_the_first_night.json are both redirect stubs pointing to First_night. Rich content from all 5 source prose nodes. No infobox entry found. Concept node — no structural infobox edges available."
+}
