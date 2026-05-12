@@ -33,3 +33,23 @@
 - **Stage 4 component (b) — chapter-evidence backfill — is now fully met** for all primary node types (characters + locations + artifacts + houses). Stage 4 prose-edge-classifier can now ground edge classifications in per-entity chapter context for all primary types. Continue prompt: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`.
 - **Missing-node backfill (Bucket A, 138 pages) — DONE** (Session 43 below).
 - **Per Matt's standing rule, /endsession is NOT auto-run.**
+
+---
+
+### Session 46 — First Mission + Protocol v1 + Batch 2 Reconstruction (2026-05-12)
+**Detail:** `history/session-details/session-046.md`
+
+**Changes made:**
+- `working/agent-fleet-specs/mission-protocol.md` — v0 → v1. Added "Lessons from first mission" section at top (4 findings). Rewrote Worker role: wave-sized default + dual execution modes (multi-window + subagent-orchestrated). Added mandatory schema-validation block to Worker emission contract (locked field types: status enum `{pass,partial,fail}`, numeric confidence 0.0-1.0, ISO 8601 timestamps via `datetime.utcnow().isoformat()+"Z"` with explicit "NOT placeholder" guard). "Next steps for this doc" checked 3 boxes.
+- `working/agent-fleet-specs/missions/done/2026-05-12-case-collision-top-10.md` — mission moved from `missions/` to `missions/done/`; Outcome + Postmortem sections filled in.
+- `working/todos.md` — first-mission todo marked DONE; HIGH case-collision item updated from "125 pages" to "10/125 reconstructed, 115 remaining"; `→ continue:` line added linking to close prompt.
+- `working/missions/case-collision-top-10/worker-<slug>/` — 10 dirs (mission 1 outputs, NOT YET PROMOTED).
+- `working/missions/case-collision-batch-2/worker-<slug>/` — 50 dirs (batch 2 outputs, NOT YET PROMOTED).
+- `working/agent-fleet-specs/worker-snippets/case-collision-template.md` — NEW dir + NEW file. Reusable worker snippet inlining TYPE_DIR_MAP, edge vocab, v1 schema, alias-merge check, reverse-lookup default.
+- `history/session-details/session-046.md` — NEW. Full session narrative.
+- `progress/continue-prompts/2026-05-12-case-collision-mission.md` — DELETED (mission complete).
+- `progress/continue-prompts/2026-05-12-case-collision-close.md` — NEW. Two-track handoff for closing case-collision (promotion mandatory; tail optional, multi-window+watcher).
+
+**Decisions:** First mission ran end-to-end (10/10 returned, 0 fail, avg 0.89 conf, ~6 min wall-clock). Postmortem surfaced 4 lessons: workers wave-sized not slug-sized; task strategies must be in worker template upfront not added mid-mission; schema validation is mandatory (every worker drifted on at least one field); watcher is optional, not required. Mission protocol v1 baked these in. Batch 2 (next 50 slugs) ran subagent-orchestrated in 5 parallel waves, all schema-PASS, ~8 min total. Multi-type entity policy decided (single node + primary type + edges capture other facets, NOT split-into-multiple-nodes). War-vs-battle clarification: `event.war` already exists in architecture.md (worker drift, not missing type). Subagent vs multi-window trigger rule drafted (lands in mission-protocol.md next session).
+
+**What's next (at time of archiving):** Close case-collision, alias-backfill round 2, Stage 4 prose-edge classifier.

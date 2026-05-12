@@ -178,6 +178,26 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 50 — Orphan Edges Cat 1 Batch: Top-N Recovery (2026-05-12)
+
+**Changes made:**
+- **7 ALIAS-FIX** — added missing slug aliases to existing nodes: `crossroads-inn`→inn-at-the-crossroads (already had display-name forms but not the slug); `dragons`→dragon (species); `joffrey-i-baratheon`→joffrey-baratheon; `tommen-i-baratheon`→tommen-baratheon; `vale`→vale-of-arryn; `the-wall`→wall; `giant`→giants.
+- **8 CREATE** — new nodes with `pass_origin: pass2-orphan-batch-2026-05-12`: `factions/blacks` (Rhaenyra's Dance of Dragons faction, tier-1); `factions/greens` (Aegon II's faction, tier-1); `events/age-of-heroes` (legendary era, tier-2); `locations/crypt-of-winterfell` (Winterfell burial vault, tier-1); `factions/two-betrayers` (Hugh Hammer + Ulf the White, tier-1); `events/andal-invasion` (Andal conquest of Westeros, tier-1); `factions/winter-wolves` (Cregan Stark's veterans, tier-1); `factions/bastards-boys` (Ramsay's hunters, tier-1).
+- `working/wiki/data/alias-resolver.json` — rebuilt via `scripts/wiki-pass2-build-alias-resolver.py --apply` (1,433 entries).
+- `graph/index/chapters/` — rebuilt via `scripts/build-mention-index.py --all`.
+- `working/audits/orphan-edges-2026-05-12-post-orphan-batch.md` — post-batch audit snapshot.
+- `working/todos.md` — orphan batch DONE item added; spot-check todo updated noting `bastards-boys` defect resolved.
+
+**Delta:** Cat 1 orphan edges 1896→1673 (−223). Clean-resolving edges 18831→19055 (+224). Graph 7959→7967 nodes (+8).
+
+**Decisions:** All 15 operations (7 alias + 8 create) completed in single window; no multi-window needed (deterministic, no classification ambiguity). Skipped `ship`, `betrothal`, `lads` (ambiguous noise — no single canonical target). Skipped date-pattern slugs per standing rule. Session 46 archived to `history/worklog-archives/archive010.md`.
+
+**What's next:**
+- **Stage 4 prose-edge-classifier** — next major track. → continue: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`
+- **Per Matt's standing rule, /endsession is NOT auto-run.**
+
+---
+
 ### Session 49b — Case-Collision Tail Track B (2026-05-12)
 
 **Changes made:**
@@ -254,31 +274,7 @@ This is your project memory. When you come back after a break, read Current Stat
 - **Stage 4 prose-edge-classifier** — next major track. → continue: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`
 - **Per Matt's standing rule, /endsession is NOT auto-run.**
 
-### Session 46 — First Mission + Protocol v1 + Batch 2 Reconstruction (2026-05-12)
-**Detail:** `history/session-details/session-046.md`
-
-**Changes made:**
-- `working/agent-fleet-specs/mission-protocol.md` — v0 → v1. Added "Lessons from first mission" section at top (4 findings). Rewrote Worker role: wave-sized default + dual execution modes (multi-window + subagent-orchestrated). Added mandatory schema-validation block to Worker emission contract (locked field types: status enum `{pass,partial,fail}`, numeric confidence 0.0-1.0, ISO 8601 timestamps via `datetime.utcnow().isoformat()+"Z"` with explicit "NOT placeholder" guard). "Next steps for this doc" checked 3 boxes.
-- `working/agent-fleet-specs/missions/done/2026-05-12-case-collision-top-10.md` — mission moved from `missions/` to `missions/done/`; Outcome + Postmortem sections filled in.
-- `working/todos.md` — first-mission todo marked DONE; HIGH case-collision item updated from "125 pages" to "10/125 reconstructed, 115 remaining"; `→ continue:` line added linking to close prompt.
-- `working/missions/case-collision-top-10/worker-<slug>/` — 10 dirs (mission 1 outputs, NOT YET PROMOTED).
-- `working/missions/case-collision-batch-2/worker-<slug>/` — 50 dirs (batch 2 outputs, NOT YET PROMOTED).
-- `working/agent-fleet-specs/worker-snippets/case-collision-template.md` — NEW dir + NEW file. Reusable worker snippet inlining TYPE_DIR_MAP, edge vocab, v1 schema, alias-merge check, reverse-lookup default.
-- `history/session-details/session-046.md` — NEW. Full session narrative.
-- `progress/continue-prompts/2026-05-12-case-collision-mission.md` — DELETED (mission complete).
-- `progress/continue-prompts/2026-05-12-case-collision-close.md` — NEW. Two-track handoff for closing case-collision (promotion mandatory; tail optional, multi-window+watcher).
-
-**Decisions:** First mission ran end-to-end (10/10 returned, 0 fail, avg 0.89 conf, ~6 min wall-clock). Postmortem surfaced 4 lessons: workers wave-sized not slug-sized; task strategies must be in worker template upfront not added mid-mission; schema validation is mandatory (every worker drifted on at least one field); watcher is optional, not required. Mission protocol v1 baked these in. Batch 2 (next 50 slugs) ran subagent-orchestrated in 5 parallel waves, all schema-PASS, ~8 min total. Multi-type entity policy decided (single node + primary type + edges capture other facets, NOT split-into-multiple-nodes — ratification edit deferred to next session's promotion). War-vs-battle clarification: `event.war` already exists in architecture.md (worker drift, not missing type). Subagent vs multi-window trigger rule drafted (lands in mission-protocol.md next session). Self-critique: bypassed multi-window+watcher pattern twice this session against the v1 rule I just wrote; the drift errors that surfaced (workers proposing `event.conflict`, framing `object.text` as new) are exactly what the watcher would catch — multi-window per the rule next session.
-
-**What's next:**
-- **Close case-collision gap (next session)** — promote 60 reconstructed outputs to `graph/nodes/`; handle ~15 canonical tail entries via multi-window+watcher mission; architecture.md multi-type-policy edit + mission-protocol.md trigger-rule edit. → continue: `progress/continue-prompts/2026-05-12-case-collision-close.md`
-- **Alias-backfill round 2** — pre-existing parallel-safe track. → continue: `progress/continue-prompts/2026-05-12-alias-backfill-round-2.md`
-- **Stage 4 prose-edge classifier** — pre-existing; dedicated session. → continue: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`
-- **Edge vocab gap** — ✅ RESOLVED Session 47. `PART_OF` added to locked vocabulary (Battle → War containment). architecture.md + worker template updated.
-- **Existing graph bug** — war-of-the-five-kings mistyped `event.battle` + duplicate `war-of-five-kings` node; folded into next session's promotion.
-- **Per Matt's standing rule, /endsession is NOT auto-run.**
-
-> Sessions 44-45 archived to `history/worklog-archives/archive010.md`
+> Sessions 44-46 archived to `history/worklog-archives/archive010.md`
 > Sessions 39–43 archived to `history/worklog-archives/archive009.md` (full at 5 entries)
 > Sessions 34–38 archived to `history/worklog-archives/archive008.md` (full at 5 entries)
 > Sessions 30–33 in `history/worklog-archives/archive007.md` (full at 5 entries)
