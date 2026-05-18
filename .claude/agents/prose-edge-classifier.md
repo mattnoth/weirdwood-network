@@ -17,7 +17,7 @@ Each candidate row carries a `candidate_kind` discriminator as its first field �
 
 ## First Steps
 
-1. Read `reference/architecture.md` § "Edge Types (Relationship Categories)" — **all 15 subsections** (Kinship, Political, Factional, Military, Knowledge, Emotional & Perceptual, Spatial, Possession, Identity, Magic & Supernatural, Cultural, Narrative, Prophecy, Evidentiary, Causal, Hospitality). Also read the vocabulary-lock callout block above the wiki-infobox table further down. The full master vocabulary (~125 edge types across those subsections, after Session 54 added UNCLE_OF, NEPHEW_OF, KILLED_WITH, ATTENDS) is your ENTIRE vocabulary. You do NOT restrict yourself to the wiki-infobox subset — prose lets you emit perception verbs (`FEARS`, `RESENTS`, `MOURNS`, `TRUSTS`), identity verbs (`IMPERSONATES`, `DISGUISED_AS`), magic verbs (`WARGS_INTO`, `BONDED_TO`, `SACRIFICES`, `RESURRECTS`, `CURSES`), narrative verbs (`FORESHADOWS`, `ECHOES`, `PARALLELS`), prophecy verbs (`FULFILLS`, `APPEARS_TO_FULFILL`, `DREAMS_OF`), and more — which the infobox parser cannot reach. You do not invent new types.
+1. Read `reference/architecture.md` § "Edge Types (Relationship Categories)" — **all 15 subsections** (Kinship, Political, Factional, Military, Knowledge, Emotional & Perceptual, Spatial, Possession, Identity, Magic & Supernatural, Cultural, Narrative, Prophecy, Evidentiary, Causal, Hospitality). Also read the vocabulary-lock callout block above the wiki-infobox table further down. The full master vocabulary (~149 edge types across those subsections, locked Session 55 (2026-05-18) — 17 new types added on top of Session 54's UNCLE_OF/NEPHEW_OF/KILLED_WITH/ATTENDS additions) is your ENTIRE vocabulary. You do NOT restrict yourself to the wiki-infobox subset — prose lets you emit perception verbs (`FEARS`, `RESENTS`, `MOURNS`, `TRUSTS`), identity verbs (`IMPERSONATES`, `DISGUISED_AS`), magic verbs (`WARGS_INTO`, `BONDED_TO`, `SACRIFICES`, `RESURRECTS`, `CURSES`), narrative verbs (`FORESHADOWS`, `ECHOES`, `PARALLELS`), prophecy verbs (`FULFILLS`, `APPEARS_TO_FULFILL`, `DREAMS_OF`), and more — which the infobox parser cannot reach. You do not invent new types.
 
 2. Read the bucket's candidates file at the path given in your invocation prompt. The path tells you which shape:
    - `working/wiki/pass2-buckets/<bucket>/prose-edge-candidates/<slug>.candidates.jsonl` → `source_target` candidates
@@ -170,15 +170,14 @@ These three patterns are the leading sources of wrong edges in prior bulk runs. 
 `CONTEMPORARY_WITH` exists **only** for genuine peer-of-the-same-era assertions about historical figures whose lives overlapped in a meaningful chronological sense. It is **NOT** a catch-all for character pairs whose relationship doesn't fit another type.
 
 If you find yourself reaching for CONTEMPORARY_WITH because no canonical type fits a specific character-pair relationship, **STOP**. The correct action is:
-1. `reject_just_mention` with reason `no-fitting-type` (or `no-fitting-type-vocab-gap-filed` if you also file a gap)
-2. **Optionally** file a `vocabulary-gap` question if the relationship is recurrent and there's a clear proposed new edge type
+1. `reject_just_mention` with reason `no-fitting-type-vocab-locked` (the vocab is FINAL as of Session 55 — do NOT file vocabulary-gap questions for remaining batches).
 
 Concrete cases observed in prior batches that are WRONG uses of CONTEMPORARY_WITH:
 - "Hosteen accuses Lord Manderly" → emit `OPPOSES`, not CONTEMPORARY_WITH
-- "Lothar is one of the prime engineers of the Red Wedding... with Roose" → emit `ALLIES_WITH` (or file `CONSPIRES_WITH` gap), not CONTEMPORARY_WITH
+- "Lothar is one of the prime engineers of the Red Wedding... with Roose" → emit `ALLIES_WITH`, not CONTEMPORARY_WITH (CONSPIRES_WITH was considered and rejected — use ALLIES_WITH)
 - "Lothar participates in the funeral of Hoster Tully" → emit `ATTENDS hoster-tullys-funeral` (event), not CONTEMPORARY_WITH hoster-tully (person)
 - "During the Red Wedding, Sandor kills Kyra's brother" → emit `SIBLING_OF` (Kyra → her brother) and `ATTENDS red-wedding`, not CONTEMPORARY_WITH red-wedding
-- "Cersei was presented to Robb Stark as a potential bride" → file gap for `OFFERED_AS_BRIDE` and reject, not CONTEMPORARY_WITH
+- "Cersei was presented to Robb Stark as a potential bride" → emit `PROPOSED_AS_BRIDE` (Session 55 accepted this type)
 - "Lord Frey came to attend the wedding of his daughter to Lord Ambrose" → emit `MARRIES_OFF` daughter-to-ambrose if Frey is the arranger, or `ATTENDS` the wedding event, not CONTEMPORARY_WITH ambrose
 
 ### Pattern 2: FIGHTS_IN targets events, not persons
@@ -207,25 +206,25 @@ If the specific wedding/tourney event doesn't have a graph node (the wedding may
 
 ## Vocabulary lock — read twice
 
-The master edge vocabulary in `reference/architecture.md` § "Edge Types (Relationship Categories)" is your ENTIRE vocabulary: ~125 edge types across 15 subsections (Magic & Supernatural added Session 53, 2026-05-13; UNCLE_OF/NEPHEW_OF/KILLED_WITH/ATTENDS added Session 54, 2026-05-15). The wiki-infobox table further down is a SUBSET (~26 types) used only by the Python infobox parser — you are NOT restricted to it.
+The master edge vocabulary in `reference/architecture.md` § "Edge Types (Relationship Categories)" is your ENTIRE vocabulary: ~149 edge types across 15 subsections (Magic & Supernatural added Session 53, 2026-05-13; UNCLE_OF/NEPHEW_OF/KILLED_WITH/ATTENDS added Session 54, 2026-05-15; 17 new types locked Session 55, 2026-05-18 — vocab is FINAL). The wiki-infobox table further down is a SUBSET (~26 types) used only by the Python infobox parser — you are NOT restricted to it.
 
 Concretely, the categories your prose-derived edges may emit from:
-- **Kinship & Family** — `PARENT_OF`, `SIBLING_OF`, `SPOUSE_OF`, `BETROTHED_TO`, `LOVER_OF`, `WARD_OF` (reverse: `FOSTERED_BY`), `ANCESTOR_OF`, `HEIR_TO`, `CADET_BRANCH_OF`, `MARRIES_OFF`, `UNCLE_OF` (reverse: `NEPHEW_OF`), `COUSIN_OF` (symmetric), `MILK_BROTHER_OF` (symmetric), `NURSED_BY` (reverse: `WET_NURSE_OF`)
+- **Kinship & Family** — `PARENT_OF`, `SIBLING_OF`, `SPOUSE_OF`, `BETROTHED_TO`, `LOVER_OF`, `WARD_OF` (reverse: `FOSTERED_BY`), `ANCESTOR_OF`, `HEIR_TO`, `CADET_BRANCH_OF`, `MARRIES_OFF`, `UNCLE_OF` (reverse: `NEPHEW_OF`), `COUSIN_OF` (symmetric), `MILK_BROTHER_OF` (symmetric), `NURSED_BY` (reverse: `WET_NURSE_OF`), `COURTS`, `PROPOSED_AS_BRIDE`
 - **Political & Authority** — `RULES`, `OVERLORD_OF`, `SWORN_TO`, `COMMANDS`, `SERVES`, `ADVISES`, `HOLDS_TITLE`, `HELD_BY`, `SUCCEEDS`, `CLAIMS`, `APPOINTS`, `DEPOSES`, `VOWS_TO`, `BREAKS_VOW`
-- **Factional & Diplomatic** — `MEMBER_OF`, `FOUNDED`, `ALLIES_WITH`, `OPPOSES`, `MANIPULATES`, `BETRAYS`, `NEGOTIATES_WITH`
-- **Military & Conflict** — `FIGHTS_IN`, `COMMANDS_IN`, `PART_OF`, `KILLS`, `KILLED_BY`, `EXECUTES`, `CAPTURES`, `PRISONER_OF`, `BESIEGES`, `DEFEATS`, `DUELS`, `POISONS`, `RANSOMS`, `IMPRISONS`, `KILLED_WITH` (victim → artifact, combat mirror of EXECUTED_WITH), `KNIGHTED_BY` (reverse: `BESTOWS_KNIGHTHOOD_ON`)
-- **Knowledge & Information** — `KNOWS`, `IGNORANT_OF`, `SEEKS`, `REVEALS_TO`, `DECEIVES`, `DECEIVED_BY`, `HOARDS`, `INVESTIGATES`, `TEACHES`, `TUTORS`, `HEALS`
-- **Emotional & Perceptual** — `PERCEIVED_AS`, `TRUSTS`, `DISTRUSTS`, `RESPECTS`, `FEARS`, `LOVES`, `HATES`, `MOURNS`, `PROTECTS`, `RESENTS`
+- **Factional & Diplomatic** — `MEMBER_OF`, `FOUNDED`, `ALLIES_WITH`, `OPPOSES`, `MANIPULATES`, `BETRAYS`, `NEGOTIATES_WITH`, `CONTRACTED_WITH`
+- **Military & Conflict** — `FIGHTS_IN`, `COMMANDS_IN`, `PART_OF`, `KILLS`, `KILLED_BY`, `EXECUTES`, `CAPTURES`, `PRISONER_OF`, `BESIEGES`, `DEFEATS`, `DUELS`, `POISONS`, `RANSOMS`, `IMPRISONS`, `KILLED_WITH` (victim → artifact, combat mirror of EXECUTED_WITH), `KNIGHTED_BY` (reverse: `BESTOWS_KNIGHTHOOD_ON`), `ATTACKS`, `ASSAULTS`, `PARTICIPATES_IN`
+- **Knowledge & Information** — `KNOWS`, `IGNORANT_OF`, `SEEKS`, `REVEALS_TO`, `DECEIVES`, `DECEIVED_BY`, `HOARDS`, `INVESTIGATES`, `TEACHES`, `TUTORS`, `HEALS`, `AFFLICTED_BY`, `DIED_OF`
+- **Emotional & Perceptual** — `PERCEIVED_AS`, `TRUSTS`, `DISTRUSTS`, `RESPECTS`, `FEARS`, `LOVES`, `HATES`, `MOURNS`, `PROTECTS`, `RESENTS`, `COMPANION_OF`, `REPUTED_AS`
 - **Spatial & Temporal** — `LOCATED_AT`, `SEAT_OF`, `TRAVELS_TO`, `BORN_AT`, `DIED_AT`, `BURIED_AT`, `CONTEMPORARY_WITH`, `REGION_OF`
-- **Possession & Ownership** — `WIELDS` (artifacts only, not animals → OWNS/BONDED_TO), `OWNS`, `ANCESTRAL_WEAPON_OF`, `FORGED_BY` (smith only, not material → MADE_OF), `MADE_OF` (artifact → material), `LOOTED_BY`, `REFORGED_INTO`, `GIFTED_TO`, `INHERITED_BY`, `WIELDED_IN` (artifact → event), `EXECUTED_WITH` (victim → weapon)
+- **Possession & Ownership** — `WIELDS` (artifacts only, not animals → OWNS/BONDED_TO), `OWNS`, `ANCESTRAL_WEAPON_OF`, `FORGED_BY` (smith only, not material → MADE_OF), `MADE_OF` (artifact → material), `LOOTED_BY`, `REFORGED_INTO`, `GIFTED_TO`, `INHERITED_BY`, `WIELDED_IN` (artifact → event), `EXECUTED_WITH` (victim → weapon), `PURCHASED_FROM`, `BUILT`, `CAPTAIN_OF`, `CREW_OF`
 - **Identity & Disguise** — `ALIAS_OF`, `DISGUISED_AS`, `SAME_AS` (but see escalation rule), `IMPERSONATES`
-- **Magic & Supernatural** *(new — prose-only; infobox parser does not emit these)* — `WARGS_INTO`, `BONDED_TO`, `SACRIFICES`, `RESURRECTS`, `CURSES`
-- **Cultural & Religious** — `CULTURE_OF`, `WORSHIPS`, `SACRED_TO`, `CLERGY_OF`
+- **Magic & Supernatural** *(new — prose-only; infobox parser does not emit these)* — `WARGS_INTO`, `BONDED_TO`, `SACRIFICES`, `RESURRECTS`, `CURSES`, `PRACTICES`
+- **Cultural & Religious** — `CULTURE_OF`, `WORSHIPS`, `SACRED_TO`, `CLERGY_OF`, `OFFICIATES`
 - **Narrative & Literary** — `FORESHADOWS`, `PARALLELS`, `SUBVERTS`, `ECHOES`, `CONTRASTS`, `WRITTEN_BY`, `DEPICTED_IN` (character → in-world text/song/ballad)
 - **Prophecy** — `FULFILLS`, `APPEARS_TO_FULFILL`, `SUBVERTS_PROPHECY`, `PROPHESIED_BY`, `SUBJECT_OF_PROPHECY`, `DREAMS_OF`
 - **Evidentiary** — `SUPPORTS`, `CONTRADICTS`, `CITED_BY`
 - **Causal & Plot** — `CAUSES`, `PREVENTS`, `ENABLES`, `MOTIVATES`, `TRIGGERS`
-- **Hospitality & Custom** — `GUEST_OF`, `VIOLATES_GUEST_RIGHT`, `GRANTS_SAFE_CONDUCT`, `ATTENDS` (person → event; non-combatant guest/witness/audience)
+- **Hospitality & Custom** — `GUEST_OF`, `VIOLATES_GUEST_RIGHT`, `GRANTS_SAFE_CONDUCT`, `ATTENDS` (person → event; non-combatant guest/witness/audience), `CROWNS_QUEEN_OF_LOVE_AND_BEAUTY`
 
 Always consult architecture.md for the definitive list — this expansion is for orientation, not the source of truth.
 
@@ -238,35 +237,35 @@ Always consult architecture.md for the definitive list — this expansion is for
 - `IMPRISONS` vs `CAPTURES`: battlefield-taking = `CAPTURES`; institutional confinement of someone already in custody/court = `IMPRISONS`.
 - `DREAMS_OF` vs `FORESHADOWS`: in-world dream relation (Bran dreams of his father in the crypt) = `DREAMS_OF`; reader-facing narrative-craft foreshadowing = `FORESHADOWS`. These can coexist on the same edge target — a dream can both be a `DREAMS_OF` (character-facing) and a `FORESHADOWS` (reader-facing) edge.
 
-**You may not invent edge types.** If a candidate represents a relationship that doesn't fit any of the ~125, **default to filing a `vocabulary-gap` question over silent rejection.** Reject only when the candidate is genuinely non-relational.
+**You may not invent edge types.** **The vocabulary is FINAL as of Session 55 (2026-05-18).** If a candidate represents a relationship that doesn't fit any of the ~149 canonical types, **`reject_just_mention` with reason `no-fitting-type-vocab-locked`. Do NOT file vocabulary-gap questions for the remaining batches.** The bulk run cannot pause for vocab review at this stage; the classifier must work the closed surface.
 
-1. **Default: File a `vocabulary-gap` question** to `working/wiki/pass2-buckets/questions-for-matt.jsonl` with the proposed new edge type and ≥3 example sentences from prose **AND** `reject_just_mention` the candidate row with reason `no-fitting-type-vocab-gap-filed`. The vocab gap is a request for Matt to decide; the rejection prevents wrong-fit fallback edges from polluting the graph in the meantime.
-2. **DO NOT emit a wrong-fit canonical type as a "fallback" when a vocab gap is filed.** Specifically, do not use `CONTEMPORARY_WITH` as a catch-all for character-pair relationships that don't fit any kinship/political/military type — `CONTEMPORARY_WITH` is for genuine peers-of-the-same-era assertions, not a fallback bucket. The graph would rather have a clean reject + vocab gap than a misleading wrong-edge. (Failure mode observed in batch-0014 — 14 CONTEMPORARY_WITH emits that were actually MILK_BROTHER, WET_NURSE_OF, KNIGHTED_BY etc. without canonical type.)
-3. **`reject_just_mention`** with reason `no-fitting-edge-type` — use ONLY when the candidate is clearly non-relational (setting flavor, temporal-only co-occurrence with no power/knowledge/kinship/movement dynamic).
+1. **`reject_just_mention` with reason `no-fitting-type-vocab-locked`** — this is the only correct action for relationships that don't fit the locked vocab. Do NOT fall back on a near-fit type (e.g., `CONTEMPORARY_WITH` on character-pairs, `KNOWS` as generic association, `ATTENDS` on persons, `FIGHTS_IN` on persons) — those produce wrong edges that pollute the graph. The vocab is intentionally closed.
 
 ### Reverse-direction edges — do NOT file as vocab gaps
 
-Many edge types in the vocabulary have an implicit reverse direction that is emitted on the OTHER endpoint's node, NOT as a separate edge type:
+Many edge types in the vocabulary have an implicit reverse direction that is emitted on the OTHER endpoint's node, NOT as a separate edge type. **Do NOT file these reverse names as vocab gaps — the vocab is locked, and these reverses are intentionally absent because the forward type already covers the relationship from the other endpoint.**
+
+One-sided types — when your source is the "wrong" endpoint, redirect to the forward type on the other node (or reject as `reverse-direction-edge-belongs-on-other-node` if the source IS your candidate's source):
 
 - `PARENT_OF` (parent → child) — never emit "CHILD_OF" on the child's node. The PARENT_OF edge is emitted on the parent's node only. If your source slug is the child and the relationship is parent-of, **reject_just_mention** with reason `reverse-direction-edge-belongs-on-parent-node`. Do not file CHILD_OF as a vocab gap.
-- `GUEST_OF` (guest → host) — never emit "HOST_OF" on the host's node. Reject if your source is the host.
-- `RESURRECTS` (resurrector → resurrected) — never emit "RESURRECTED_BY". Reject if your source is the resurrected.
+- `GUEST_OF` (guest → host) — never emit "HOST_OF" or "HOSTED_BY" on the host's node. Reject if your source is the host; the edge belongs on the guest's node as `GUEST_OF`.
+- `RESURRECTS` (resurrector → resurrected) — never emit "RESURRECTED_BY". Reject if your source is the resurrected; the edge belongs on the resurrector's node as `RESURRECTS`.
 - `TUTORS` (tutor → student) — never emit "TUTORED_BY". Reject if your source is the student.
 - `WIELDS` (wielder → artifact) — never emit "WIELDED_BY" on the artifact's node.
 - `OWNS` (owner → thing) — never emit "OWNED_BY".
 - `FORGED_BY` (artifact → smith) — never emit "FORGED" on the smith's node.
+- `SERVES` (server → liege) — never emit "SERVED_BY" or "EMPLOYS" on the liege's node. The edge belongs on the server's node as `SERVES`.
+- `DEFEATS` (victor → defeated) — never emit "DEFEATED_BY". The edge belongs on the victor's node as `DEFEATS`.
+- `WARD_OF` / `FOSTERED_BY` — these two are the permitted reverse pair (see both-sided list below). Never emit "GUARDIAN_OF" — use `FOSTERED_BY` (guardian → ward) instead.
 
 Reverse-direction emission IS intended for a few types where both directions carry independent meaning:
 - `KILLS` (killer → killed) AND `KILLED_BY` (killed → killer) — both emit; victim's node and killer's node both carry their respective edge.
 - `UNCLE_OF` (uncle → nephew) AND `NEPHEW_OF` (nephew → uncle) — both emit; both nodes carry the kinship shortcut.
 - `WARD_OF` (ward → guardian) AND `FOSTERED_BY` (guardian → ward) — explicitly declared in architecture.md as reverse-equivalent.
+- `KNIGHTED_BY` (knight → knighter) AND `BESTOWS_KNIGHTHOOD_ON` (knighter → knight) — both emit; each node records its side of the knighting.
+- `NURSED_BY` (nursling → wet nurse) AND `WET_NURSE_OF` (wet nurse → nursling) — both emit; the nursing relation is recorded on both endpoints.
 
 When in doubt, check architecture.md's "Directionality" column. If the column says e.g. "Parent → Child", then the edge is emitted on the parent's node only, and the candidate from the child's side should be rejected.
-
-Examples of when to FILE A GAP (not reject):
-- "Tywin had Ice melted down and reforged into Widow's Wail" — clear transactional relationship, no fitting type. File gap for `REFORGED_INTO` / `LOOTED_BY`.
-- "Stannis sacrificed Penny's brother in a leech-burning ritual" — fits the existing `SACRIFICES` so emit; this is an example of new-vocab paying off.
-- "The Lord Commander gifted Longclaw to Jon Snow" — clear transactional relationship, no fitting type. File gap for `GIFTED_TO` / `BESTOWED_ON`.
 
 ## Type discipline — read before every emit_edge
 
@@ -375,7 +374,7 @@ Every output row is checked by `scripts/wiki-pass2-validate-edge-jsonl.py` after
 - `evidence_snippet` (for `wiki-entity` / `wiki-chapter-summary`) must be a verbatim prose substring from the source's prose (or evidence_chapter's prose). Length 10-200 chars. **Do NOT use the section header (e.g. "## Appearances") as the snippet** — the section header is metadata, not evidence. The snippet must be the actual sentence(s) supporting the edge.
 - `evidence_quote` (for `book-pass1`) must be a verbatim copy of the candidate's `evidence_quote` field — do NOT paraphrase, do NOT shorten, do NOT clean up Pass 1's quoting marks. The validator compares the emitted quote to the candidate input.
 - `evidence_section` must be a string starting with `## ` (Markdown H2 heading from the source page) for wiki-derived shapes; absent for `book-pass1`.
-- `edge_type` must be one of the ~125 canonical types in `reference/architecture.md` § "Edge Types (Relationship Categories)".
+- `edge_type` must be one of the ~149 canonical types in `reference/architecture.md` § "Edge Types (Relationship Categories)".
 - `decision` must be exactly one of the four enum values; no variants.
 
 **Vocabulary-gap question schema (also validated):**
@@ -414,7 +413,7 @@ If candidate A says edge X→Y is `SPOUSE_OF` and candidate B (different snippet
 You exit successfully for an input candidates file when:
 - Every candidate row in the input has a corresponding decision row in the matching output file (or candidate count was zero, in which case no output file is created).
 - Every decision row carries the `candidate_kind` discriminator (matching the input).
-- All emit_edge decisions use only the locked master vocabulary (~121 edge types in architecture.md § "Edge Types (Relationship Categories)").
+- All emit_edge decisions use only the locked master vocabulary (~149 edge types in architecture.md § "Edge Types (Relationship Categories)").
 - For `comention` emit_edge decisions: a direction was picked (`a_to_b`, `b_to_a`, or `symmetric`).
 - All structured-channel rows you wanted to file are appended.
 - You produced no output anywhere outside the input's matching `prose-edges/` sibling dir and the three append-only channels.

@@ -4,6 +4,28 @@
 
 ---
 
+### Session 51 — Watcher-Day Orchestration + Session-Results Convention (2026-05-12)
+
+**Detail:** `history/session-details/session-051.md`
+
+**Changes made:**
+- Spot-check of 10 Track B nodes; 2 in-place edge fixes: `damon-dance-for-me.node.md` + `henly-maester.node.md` (SERVES: ramsay-bolton → ramsay-snow).
+- `scripts/orphan-edges-audit.py` rerun → `working/audits/orphan-edges-2026-05-12.md` + cat1-full.tsv (baseline before Session 50).
+- `progress/continue-prompts/2026-05-12-orphan-batch-top-nodes.md` — drafted; used by Session 50; deleted at end-of-session.
+- `working/session-results/README.md` — NEW. Convention doc for watcher-handoff result files.
+- `working/session-results/2026-05-12-watcher-day-orchestration.md` — NEW. This session's result file (demo + handoff).
+- `working/runbooks/general-watcher.md` — updated. First-steps checks `working/session-results/`; signal table + commands include it; "check first" guidance added.
+- `working/todos.md` — three new entries: MED Track A spot-check; NEW bake-session-results-into-future-prompts; FUTURE session-state.jsonl upgrade.
+- Three commits: `bc19163e4` (Sessions 43-49b, 2587 files), `c54719d40` (Session 50 + convention, 372 files), `4349a62e6` (worklog rotation, 2 files).
+
+**Decisions:** Session-results convention chosen as minimal unlock for watcher friction (per-session file vs shared log vs worklog). Worklog rejected — written too late and conflict-prone for parallel sessions. Per-file is append-by-different-actors, zero merge surface. Session 47 archived to `history/worklog-archives/archive010.md`.
+
+**What's next:**
+- **Stage 4 prose-edge-classifier** — next major track (sequential per Matt). → continue: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`. Pre-flight TODO: bake session-results write step into that prompt before firing.
+- **MED — Track A 60-node spot-check** — partially absorbed by Session 50 audit improvement; residual remains. See `working/todos.md`.
+
+---
+
 ### Session 50 — Orphan Edges Cat 1 Batch: Top-N Recovery (2026-05-12)
 
 **Changes made:**

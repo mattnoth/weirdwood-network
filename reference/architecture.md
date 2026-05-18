@@ -164,6 +164,8 @@ When an extraction or wiki field doesn't fit an existing edge type, add a new on
 | `MILK_BROTHER_OF` | Symmetric kinship: characters who shared a wet-nurse. Real Westerosi cultural category (Edric Dayne and Jon Snow, Robert Baratheon and Ned Stark per fostering customs). Distinct from SIBLING_OF (no blood) and FOSTERED_BY (institutional). | Symmetric | — |
 | `NURSED_BY` | Child was wet-nursed by this person. Reverse is `WET_NURSE_OF`. Distinct from PARENT_OF; captures the lifelong attachment ASOIAF treats as significant (Wylla nursing Edric, Catelyn re Jon's nurse, etc.). | Child → Nurse | — |
 | `WET_NURSE_OF` | Reverse of NURSED_BY — emitted on the nurse's node pointing to the child she nursed. | Nurse → Child | — |
+| `COURTS` | Active suitor relationship — pre-betrothal pursuit of marriage. Distinct from `BETROTHED_TO` (formal engagement) and `LOVER_OF` (sexual/romantic). Use when prose describes someone as a "suitor" / "sought her hand" / "courted." Common pattern: Lysa Arryn's suitors after Jon Arryn's death; Rohanne Webber's suitors; Sansa pre-marriage. | Suitor → Object-of-courtship | — |
+| `PROPOSED_AS_BRIDE` | A third party proposes a specific woman as a bride for a specific man (or for a Throne-political match). Distinct from `MARRIES_OFF` (the actual arrangement of an executed marriage) and `BETROTHED_TO` (formalized engagement). Captures the diplomatic-offer stage common in Westerosi succession politics. | Proposer → Proposed bride | — |
 
 ### Political & Authority
 
@@ -192,15 +194,16 @@ When an extraction or wiki field doesn't fit an existing edge type, add a new on
 | `FOUNDED` | Created or established an organization, house, or institution | Founder → Founded | Founder, Founded |
 | `ALLIES_WITH` | Alliance (note if temporary, forced, or strategic) | Symmetric | — |
 | `OPPOSES` | Active opposition or enmity | Symmetric | — |
-| `MANIPULATES` | One party unknowingly used by another | Manipulator → Target | — |
+| `MANIPULATES` | One party unknowingly used by another. Note mechanism in `notes` when known (e.g., `via bribe`, `via flattery`, `via false information`). | Manipulator → Target | — |
 | `BETRAYS` | Broke faith, oath, or alliance | Betrayer → Betrayed | — |
 | `NEGOTIATES_WITH` | Diplomatic engagement (may not result in alliance) | Symmetric | — |
+| `CONTRACTED_WITH` | Formal contractual or commissioned engagement — distinct from `ALLIES_WITH` (political alliance), `SERVES` (employer-employee state), `NEGOTIATES_WITH` (diplomatic, may not conclude). Use when a party hires/commissions another for a specific service: hiring the Faceless Men for an assassination, contracting a sellsword company, commissioning a maester for a specific task. | Contractor → Contracted party | — |
 
 ### Military & Conflict
 
 | Edge Type | Description | Directionality | Wiki Source |
 |-----------|-------------|---------------|-------------|
-| `FIGHTS_IN` | Participates in a battle or war | Person → Event/War | — |
+| `FIGHTS_IN` | Participates in a battle, war, or tournament as a combatant. | Person → Event (battle/war/tournament) | — |
 | `COMMANDS_IN` | Holds command role in a battle or war (note which side) | Person → Event/War | — |
 | `PART_OF` | Battle or sub-event is a component of a larger war | Battle → War | Conflict, Battles |
 | `KILLS` | Directly causes death | Killer → Killed | — |
@@ -217,6 +220,9 @@ When an extraction or wiki field doesn't fit an existing edge type, add a new on
 | `KILLED_WITH` | Combat death attributed to a specific named artifact — mirror of `EXECUTED_WITH` for non-judicial battlefield deaths. Use when prose names the weapon as agent of death ("slain by Orphan-Maker", "took an arrow from Ice"). Coexists with `KILLED_BY person` — the person did the killing, the artifact was the instrument. | Victim → Artifact | — |
 | `KNIGHTED_BY` | Granted knighthood by another knight or lord. Distinct from `TUTORS` (skill transfer over time) and `APPOINTS` (political office). Use when prose explicitly describes the dubbing/knighting. | Knight → Dubber | — |
 | `BESTOWS_KNIGHTHOOD_ON` | Reverse of `KNIGHTED_BY` — emitted on the dubber's node. | Dubber → Knight | — |
+| `ATTACKS` | Generic physical violence — combat-style attack, creature attack, or person-on-person aggression that does NOT necessarily result in death (use `KILLS`/`POISONS`/`EXECUTES` if death; `DUELS` if formal mutual combat). Covers creature attacks (eagle on warg, direwolf on attacker), unprovoked violence (Darkstar slashing Myrcella, the Mountain striking Loras's horse), assault in the non-sexual sense. Includes both character→character and creature→character. For sexual violence specifically, use `ASSAULTS`. | Attacker → Target | — |
+| `ASSAULTS` | Sexual violence — rape, attempted rape, or sexual assault. Distinct from `ATTACKS` (physical violence, non-sexual). Use only when prose makes the sexual nature explicit. Examples: Gregor Clegane & the five Bracken sisters during the Burning of the Riverlands; Owen Inchfield + Raymun Fossoway attempting Brienne; the canonical Gregor wartime pattern. | Assailant → Victim | — |
+| `PARTICIPATES_IN` | Active non-combat involvement in a named event — logistical, administrative, organizational, or supportive role. Distinct from `FIGHTS_IN` (combatant), `ATTENDS` (guest/witness/audience), `COMMANDS_IN` (command-tier role). Examples: Medrick Manderly transporting men to the Wall during the Hour of the Wolf; quartermasters in named battles; logistical participants in coronations/kingsmoots/sieges who are not officiants. | Person → Event (`event.*`) | — |
 
 ### Knowledge & Information
 
@@ -233,6 +239,8 @@ When an extraction or wiki field doesn't fit an existing edge type, add a new on
 | `TEACHES` | Transmits knowledge or skill (general/casual instruction) | Teacher → Student | — |
 | `TUTORS` | Sustained formal one-on-one mentorship — narrower than `TEACHES` (Syrio→Arya water-dancing, Cressen→Stannis childhood, Aemon→Sam ravenry, Septa Mordane→Sansa) | Tutor → Student | — |
 | `HEALS` | Medical or maester treatment — restoration of body, not resurrection of the dead (which is `RESURRECTS`). Maester Luwin healing Bran after the fall; Aemon healing Sam; the unnamed septon healing Sandor. **Excludes:** Red Priests reviving the dead (use `RESURRECTS`); Qyburn's reanimation of the Mountain (use `RESURRECTS`) | Healer → Healed | — |
+| `AFFLICTED_BY` | Character suffers from a named disease, condition, or magical affliction (living state). Target is `concept.medical`. Distinct from `KILLED_BY` (target = person), `DIED_AT` (location), `DIED_OF` (cause-of-death; this is the living state). Examples: Jorah Mormont/greyscale, Shireen Baratheon/greyscale, Stannis/burns. | Character → Medical | — |
+| `DIED_OF` | Character's death was caused by a named disease/condition (post-mortem state). Target is `concept.medical`. Distinct from `KILLED_BY` (person-killer), `DIED_AT` (location), `EXECUTED_WITH` (judicial weapon). Mirrors `AFFLICTED_BY` for the post-mortem state. Examples: Hoster Tully/Spring Sickness, Albin Massey/Shivers, Medrick Manderly/Winter Fever, the Old King Jaehaerys/Great Spring Sickness. | Character → Medical | — |
 
 ### Emotional & Perceptual
 
@@ -248,6 +256,8 @@ When an extraction or wiki field doesn't fit an existing edge type, add a new on
 | `MOURNS` | Grieves for (dead person, lost thing) | Mourner → Mourned | — |
 | `PROTECTS` | Acts as guardian or defender | Protector → Protected | — |
 | `RESENTS` | Harbors bitterness toward | Resenter → Resented | — |
+| `COMPANION_OF` | Close personal friendship or camaraderie. Distinct from `ALLIES_WITH` (political alliance), `TRUSTS` (one-direction confidence), `LOVES` (romantic/deep-familial), `RESPECTS` (cold regard). Use when prose explicitly names a friendship ("good friends with", "sworn brothers", "close companion"). Examples: Patrek Mallister & Edmure Tully; Robert & Ned in their youth; Brienne & Pod; Davos & Salladhor Saan. | Symmetric | — |
+| `REPUTED_AS` | Collective reputation or general perception attached to a character without a specific perceiver — distinct from `PERCEIVED_AS` which requires a named POV. Target is `concept.*` (e.g., `concept.magic` for "reputed witch", `concept.craft` for "reputed swordsman", `concept.vice` for "reputed drunkard"). Use when prose narrates a public-domain reputation rather than one character's view of another. | Character → Concept | — |
 
 ### Spatial & Temporal
 
@@ -277,6 +287,10 @@ When an extraction or wiki field doesn't fit an existing edge type, add a new on
 | `INHERITED_BY` | Artifact passed via inheritance from deceased holder to heir. | Artifact → Heir | — |
 | `WIELDED_IN` | Artifact was used in a named event (battle, execution, ritual). Distinct from `WIELDS` (person → artifact possession state). Enables artifact-history queries. | Artifact → Event | — |
 | `EXECUTED_WITH` | A specific person was executed with a specific weapon (poetic-detail edges: Eddard executed with Ice, etc.). May overlap with `WIELDED_IN` + `EXECUTES`; kept distinct for narrative-precision queries. | Victim → Weapon | — |
+| `PURCHASED_FROM` | Transactional acquisition of an artifact (or service) via purchase — distinct from `OWNS` (steady state), `GIFTED_TO` (voluntary transfer), `LOOTED_BY` (taken by force), `INHERITED_BY` (death-succession). Captures the transactional moment + the seller. Examples: Dunk purchasing the dragon-of-Pentos shield from Pate the Old; ship-passage purchases (when concretely named); merchant exchanges that are plot-significant. | Buyer → Seller | — |
+| `BUILT` | Character physically built or oversaw the construction of a named structure (castle, tower, sept, wall, monument). Distinct from `FOUNDED` (scoped to organizations/houses/orders) and `OWNS` (steady state). Use when prose explicitly names the builder of a place. Examples: Brandon-the-Builder/The Wall, Brandon-the-Builder/Storm's End (legend), Lord-Triston-Hightower/Starry-Sept. | Builder → Structure (`place.location`) | — |
+| `CAPTAIN_OF` | Character is captain (master/commander) of a named vessel. Target MUST be `object.artifact` (the vessel). Distinct from `COMMANDS` (military org) and `OWNS` (ownership state — captains may or may not own the vessel). Examples: Davos Seaworth/Black Betha, Victarion Greyjoy/Iron Victory, Asha Greyjoy/Black Wind, Salladhor Saan/Valyrian. | Captain → Vessel (`object.artifact`) | — |
+| `CREW_OF` | Character serves as a crew member (non-captain) of a named vessel — sibling to `CAPTAIN_OF`. Target MUST be `object.artifact` (the vessel). Use when prose explicitly names a non-captain role (oarsman, first mate, ship's cook, sail-master). Captain → use `CAPTAIN_OF`. Generic faction membership → use `MEMBER_OF`. Note specific role in `notes` if known ("first mate"). | Crew member → Vessel (`object.artifact`) | — |
 
 ### Identity & Disguise
 
@@ -298,6 +312,7 @@ When an extraction or wiki field doesn't fit an existing edge type, add a new on
 | `SACRIFICES` | Deliberate ritual or magical killing with supernatural/symbolic purpose — distinct from `KILLS` (combat) and `EXECUTES` (judicial). Mirri Maz Duur sacrificing Drogo's life-essence; Daenerys sacrificing her unborn child to magic the dragon eggs; Stannis (via Melisandre) sacrificing Edric Storm's leech-blood / Mance / Penny's brother / (theory-tier) Shireen; Craster sacrificing his sons to the Others | Sacrificer → Victim | — |
 | `RESURRECTS` | Returns the dead to life via supernatural means — distinct from `HEALS` (medical), distinct from `KILLED_BY` (semantic reverse). Thoros of Myr resurrects Beric Dondarrion (multiple times); Beric resurrects Catelyn → Lady Stoneheart (ASOS Epilogue); Coldhands resurrected by unknown force (Children?); Patchface drowned-and-returned; Qyburn reanimates the Mountain; Red Priests broadly perform this (Thoros, Moqorro) — `HEALS` is for body-restoration, `RESURRECTS` is for death-reversal | Resurrector → Resurrected | — |
 | `CURSES` | A character or magical force lays a curse — Mirri Maz Duur's "when the sun rises in the west" curse on Daenerys; Maggy the Frog's Valonqar prophecy-curse on Cersei; the Curse of Harrenhal (collective); Night's King lore | Curser → Cursed | — |
+| `PRACTICES` | Character actively practices a named magical or ritual discipline. Target is `concept.magic` (or `concept.craft` for non-magical-but-named-discipline cases). Distinct from `WARGS_INTO` (active occupation moment), `BONDED_TO` (static pairing), `WORSHIPS` (religious devotion, not the magical practice itself), `CLERGY_OF` (religious office). Examples: Melisandre/shadow-binding, Mirri Maz Duur/maegi-blood-magic, Bran/greendreams, faceless-men/identity-transfer, Qyburn/necromancy. | Character → Magic discipline | — |
 
 ### Cultural & Religious
 
@@ -307,6 +322,7 @@ When an extraction or wiki field doesn't fit an existing edge type, add a new on
 | `WORSHIPS` | Follows or serves a deity/religion | Person → Religion | Religion |
 | `SACRED_TO` | Location or artifact is holy to a religion | Entity → Religion | — |
 | `CLERGY_OF` | Serves as religious official | Person → Religion | — |
+| `OFFICIATES` | Character performs the ritual / religious / ceremonial role at a named event (weddings, funerals, coronations, kingsmoots, namedays, knighting ceremonies). Distinct from `CLERGY_OF` (general clergy status, target = religion) and `ATTENDS` (guest/witness). Target is `event.*` or specific named ceremony node. Examples: Melisandre/wedding-of-sigorn-and-alys-karstark; the High Septon/coronation-of-tommen-i; Aeron Damphair/kingsmoot-of-299-ac. | Character → Event | — |
 
 ### Narrative & Literary
 
@@ -362,6 +378,7 @@ When an extraction or wiki field doesn't fit an existing edge type, add a new on
 | `VIOLATES_GUEST_RIGHT` | Broke the sacred hospitality compact | Violator → Victim | — |
 | `GRANTS_SAFE_CONDUCT` | Promised safe passage | Grantor → Recipient | — |
 | `ATTENDS` | Person present at a named event as guest, witness, or audience — not as combatant (`FIGHTS_IN`), commander (`COMMANDS_IN`), or organizer. Use for tourney spectators, wedding guests, feast attendees, court hearings. | Person → Event | — |
+| `CROWNS_QUEEN_OF_LOVE_AND_BEAUTY` | Tournament champion crowns a chosen woman with the laurel wreath of Queen of Love and Beauty. Distinct edge because the act carries outsized narrative weight in ASOIAF (Rhaegar/Lyanna at Harrenhal as a war-trigger; Loras/Margaery; etc.) and chains to political consequences. Source = tournament champion; target = recipient. | Champion → Recipient | — |
 
 ---
 
@@ -509,12 +526,12 @@ All agents working in this project should:
 >
 > **There are two related vocabularies in this document, and it matters which one you mean.**
 >
-> 1. **Master edge vocabulary** — the union of all subsections under `## Edge Types (Relationship Categories)` above. Currently **~132 distinct edge types** across 15 categories (kinship, political, factional, military, knowledge, emotional/perceptual, spatial, possession, identity, cultural, narrative, prophecy, evidentiary, causal, hospitality, magic-and-supernatural). For an authoritative live count, run `scripts/build-edge-type-counts.py` — its `canonical_type_count` is derived from this file. Session 54 (2026-05-15) added `UNCLE_OF`, `NEPHEW_OF`, `KILLED_WITH`, `ATTENDS` after Stage 4 batch-0012 vocab-gap audit. Session 55 (2026-05-16) added `COUSIN_OF`, `MILK_BROTHER_OF`, `NURSED_BY`, `WET_NURSE_OF`, `KNIGHTED_BY`, `BESTOWS_KNIGHTHOOD_ON`, `DEPICTED_IN` after Stage 4 batches 0012-0018 surfaced these recurring patterns. Some types (`FEARS`, `MOURNS`, `IMPERSONATES`, `FORESHADOWS`, `DREAMS_OF`, `WARGS_INTO`, `RESURRECTS`, `MADE_OF`, `LOOTED_BY`, `GIFTED_TO`, etc.) are pre-declared for prose-derived passes and currently have zero instances in the graph — that's expected; they're reserved for Stage 4 classification. This vocabulary is the **single source of truth for every emitter** — Python parsers, Pass-1 mechanical extractor, prose-edge-classifier, voice-analyzer, foreshadowing-scanner, every script, every agent.
+> 1. **Master edge vocabulary** — the union of all subsections under `## Edge Types (Relationship Categories)` above. Currently **~149 distinct edge types** across 15 categories (kinship, political, factional, military, knowledge, emotional/perceptual, spatial, possession, identity, cultural, narrative, prophecy, evidentiary, causal, hospitality, magic-and-supernatural). For an authoritative live count, run `scripts/build-edge-type-counts.py` — its `canonical_type_count` is derived from this file. Session 54 (2026-05-15) added `UNCLE_OF`, `NEPHEW_OF`, `KILLED_WITH`, `ATTENDS` after Stage 4 batch-0012 vocab-gap audit. Session 55 first wave (2026-05-16) added `COUSIN_OF`, `MILK_BROTHER_OF`, `NURSED_BY`, `WET_NURSE_OF`, `KNIGHTED_BY`, `BESTOWS_KNIGHTHOOD_ON`, `DEPICTED_IN` after Stage 4 batches 0012-0018 surfaced these recurring patterns. **Session 55 second wave (2026-05-18) — vocab FINAL**: added 17 types (`AFFLICTED_BY`, `DIED_OF`, `COMPANION_OF`, `PARTICIPATES_IN`, `OFFICIATES`, `ATTACKS`, `ASSAULTS`, `COURTS`, `CONTRACTED_WITH`, `PROPOSED_AS_BRIDE`, `CROWNS_QUEEN_OF_LOVE_AND_BEAUTY`, `PRACTICES`, `PURCHASED_FROM`, `BUILT`, `CAPTAIN_OF`, `CREW_OF`, `REPUTED_AS`) + 2 description mods (`FIGHTS_IN` extended to "battle, war, or tournament as a combatant"; `MANIPULATES` qualifier-mechanism note). After this wave the classifier prompt flips its gap-filing default to FINAL — vocab-gap questions are no longer filed for remaining batches; non-fitting candidates reject as `no-fitting-type-vocab-locked`. Some types (`FEARS`, `MOURNS`, `IMPERSONATES`, `FORESHADOWS`, `DREAMS_OF`, `WARGS_INTO`, `RESURRECTS`, `MADE_OF`, `LOOTED_BY`, `GIFTED_TO`, etc.) are pre-declared for prose-derived passes and currently have zero instances in the graph — that's expected; they're reserved for Stage 4 classification. This vocabulary is the **single source of truth for every emitter** — Python parsers, Pass-1 mechanical extractor, prose-edge-classifier, voice-analyzer, foreshadowing-scanner, every script, every agent.
 > 2. **Wiki infobox subset** — the table below, mapping wiki infobox FIELD names to edge types. Currently **26 distinct edge types**, all of which are also in the master vocabulary. The parser at `scripts/wiki-infobox-parser.py` (`FIELD_EDGE_MAP` dict) implements only this subset, because infobox fields are the only signal it sees. Prose-derived edges are NOT restricted to this subset — they may emit any of the master vocabulary types (including the new Magic & Supernatural subsection added Session 53).
 >
 > **Why locked:** the graph's value comes from being able to traverse `SPOUSE_OF` everywhere consistently. If one source emits `SPOUSE_OF` and another emits `MARRIED_TO`, traversal breaks. The master edge types were chosen deliberately (curated from infobox-field frequencies + narrative/perception/prophecy needs for later passes, with Magic & Supernatural added Session 53 ahead of Stage 4); expanding the set requires the same deliberation — propose via `curation/edge-vocabulary-candidates.md`, get approval, then update this file + parser + classifier prompt.
 >
-> **No emitter invents edge types.** Scripts and agents emit ONLY from the master vocabulary. If a prose passage describes a relationship that doesn't fit any of the ~125, the agent files a `vocabulary-gap` question to `working/wiki/pass2-buckets/questions-for-matt.jsonl` with ≥3 example sentences — it does not invent. Matt + orchestrator decide whether to expand.
+> **No emitter invents edge types.** Scripts and agents emit ONLY from the master vocabulary. As of the Session 55 second wave (2026-05-18) the vocabulary is **FINAL** for the Stage 4 bulk run — agents that encounter a non-fitting relationship reject it as `no-fitting-type-vocab-locked` rather than filing new `vocabulary-gap` questions. The gap-filing channel (`working/wiki/pass2-buckets/questions-for-matt.jsonl`) is closed for Stage 4 v1; reopen only if a subsequent corpus expansion (cross-book Pass 1 retro, Pass 3 voice/perception passes, etc.) surfaces a recurring pattern that genuinely cannot be expressed in any of the ~149 canonical types.
 >
 > **Adding a new edge type:** append a row to the appropriate `## Edge Types` subsection FIRST. If the new type comes from a wiki infobox field, also add the field → edge_type mapping to `FIELD_EDGE_MAP` in `scripts/wiki-infobox-parser.py` and add a row to the wiki-infobox subset table below. Then re-run the affected emitter. Don't shortcut the order.
 >

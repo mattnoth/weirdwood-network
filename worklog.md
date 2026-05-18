@@ -178,6 +178,30 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 56 — Stage 4 Vocab Applied + Qualifier Vocab Lock-Down Planned (2026-05-18)
+
+**Detail:** `history/session-details/session-056.md`
+
+**Changes made:**
+- `reference/architecture.md` — 17 new edge-type rows applied across 8 subsections (AFFLICTED_BY, DIED_OF, COMPANION_OF, PARTICIPATES_IN, OFFICIATES, ATTACKS, ASSAULTS, COURTS, CONTRACTED_WITH, PROPOSED_AS_BRIDE, CROWNS_QUEEN_OF_LOVE_AND_BEAUTY, PRACTICES, PURCHASED_FROM, BUILT, CAPTAIN_OF, CREW_OF, REPUTED_AS); 2 description mods (FIGHTS_IN "battle, war, or tournament as a combatant"; MANIPULATES mechanism note); vocab callout 132 → 149; Session-55-second-wave historical note added; gap-filing default rewritten from "file vocabulary-gap question" to "vocab FINAL — reject as `no-fitting-type-vocab-locked`."
+- `.claude/agents/prose-edge-classifier.md` — vocab FINAL flip; 5 `~149` references (lines 20, 210, 241, 378, 417); 17 new types appended to in-prompt category-expansion list; reverse-direction section extended (both-sided list adds KNIGHTED_BY/BESTOWS_KNIGHTHOOD_ON + NURSED_BY/WET_NURSE_OF; one-sided list adds CHILD_OF/HOST_OF/RESURRECTED_BY/SERVED_BY/DEFEATED_BY/GUARDIAN_OF); CONTEMPORARY_WITH STOP-block contradiction fixed (now points at `no-fitting-type-vocab-locked` + PROPOSED_AS_BRIDE example).
+- `scripts/stage4-close-vocab-gaps.py` — NEW. Decision-map for all 68 rows in `working/wiki/pass2-buckets/questions-for-matt.jsonl`. Idempotent atomic rewrite. **63 rows newly closed**, 5 pre-resolved skipped, 0 unresolved. JSONL integrity verified.
+- `working/qualifier-vocab/plan.md` — NEW. 1-screen scannable plan for HAIKU-CUTOVER STEP 1.5. Three-tier framing locked: Tier 1 REQUIRED enum / Tier 2 OPTIONAL enum / Tier 3 freeform notes.
+- `progress/continue-prompts/2026-05-18-stage4-qualifier-vocab-lock.md` — NEW.
+- `progress/continue-prompts/2026-05-18-stage4-vocab-lock-apply.md` — DELETED (this session's continue prompt, completed).
+- `working/todos.md` — HAIKU-CUTOVER STEP 1 marked [x]; new STEP 1.5 inserted; STEP 5 (Haiku smoke) flagged BLOCKED on STEP 1.5; STEP 3 (validator) notes folded qualifier-enum enforcement.
+- `~/.claude/projects/-Users-mnoth-source-asoiaf-chat/memory/feedback_lockdown_before_long_passes.md` — NEW. Companion to drift-detection-mandatory. MEMORY.md index updated.
+- `working/session-results/2026-05-18-stage4-vocab-applied-and-smoke-prepped.md` — NEW.
+
+**Decisions:** **Three-tier qualifier framing locked** (Tier 1 REQUIRED / Tier 2 OPTIONAL / Tier 3 no-enum). **Haiku smoke (STEP 5) BLOCKED on qualifier vocab lock-down** (STEP 1.5) — Haiku is more drift-prone than Sonnet; closing every freestyle surface is the actual lever for making Haiku viable, not stronger prompts. **Lockdown-before-long-passes is now a project memory rule.** Three additional uncovered types resolved during apply without inventing new vocab: COMPETES_IN (rejected, duplicate of post-Session-55 FIGHTS_IN), SOLD_TO (rejected, reverse-of-PURCHASED_FROM), TRANSACTS_WITH (rejected, too-generic); SLAIN_BY_WEAPON/KILLED_WIELDING resolved-pre-adopted under Session-54 KILLED_WITH. Mid-session drift catch: orchestrator was extrapolating "note X in `notes`" from the Session-55 MANIPULATES decision into three other new-type rows; Matt halted and reverted — exact failure pattern that motivated the qualifier-vocab lock-down track.
+
+**What's next:**
+- **Qualifier vocab lock-down** (next major track) → continue: `progress/continue-prompts/2026-05-18-stage4-qualifier-vocab-lock.md` (**Opus 4.7** — corpus-knowledge synthesis at scale: Pass 1 + wiki + 21 batches + series knowledge to verdict ~149 edge types). Produces `working/qualifier-vocab/decisions.md`.
+- After: STEP 1.6 (encode into architecture.md + classifier prompt), STEP 2 ([LINK] sub), STEP 3 (validator — type contracts + qualifier enums folded), STEP 4 (suspicious-edges flagger), THEN STEP 5 (Haiku smoke).
+- **Per Matt's standing rule, /endsession was explicitly authorized this session — not auto-triggered.**
+
+---
+
 ### Session 55 — Stage 4 Vocab Lock Decisions + Pass 1 Staleness Incident (2026-05-18)
 
 **Detail:** `history/session-details/session-055.md`
@@ -267,28 +291,7 @@ This is your project memory. When you come back after a break, read Current Stat
 
 ---
 
-### Session 51 — Watcher-Day Orchestration + Session-Results Convention (2026-05-12)
-
-**Detail:** `history/session-details/session-051.md`
-
-**Changes made:**
-- Spot-check of 10 Track B nodes; 2 in-place edge fixes: `damon-dance-for-me.node.md` + `henly-maester.node.md` (SERVES: ramsay-bolton → ramsay-snow).
-- `scripts/orphan-edges-audit.py` rerun → `working/audits/orphan-edges-2026-05-12.md` + cat1-full.tsv (baseline before Session 50).
-- `progress/continue-prompts/2026-05-12-orphan-batch-top-nodes.md` — drafted; used by Session 50; deleted at end-of-session.
-- `working/session-results/README.md` — NEW. Convention doc for watcher-handoff result files.
-- `working/session-results/2026-05-12-watcher-day-orchestration.md` — NEW. This session's result file (demo + handoff).
-- `working/runbooks/general-watcher.md` — updated. First-steps checks `working/session-results/`; signal table + commands include it; "check first" guidance added.
-- `working/todos.md` — three new entries: MED Track A spot-check; NEW bake-session-results-into-future-prompts; FUTURE session-state.jsonl upgrade.
-- Three commits: `bc19163e4` (Sessions 43-49b, 2587 files), `c54719d40` (Session 50 + convention, 372 files), `4349a62e6` (worklog rotation, 2 files).
-
-**Decisions:** Session-results convention chosen as minimal unlock for watcher friction (per-session file vs shared log vs worklog). Worklog rejected — written too late and conflict-prone for parallel sessions. Per-file is append-by-different-actors, zero merge surface. Session 47 archived to `history/worklog-archives/archive010.md`.
-
-**What's next:**
-- **Stage 4 prose-edge-classifier** — next major track (sequential per Matt). → continue: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`. Pre-flight TODO: bake session-results write step into that prompt before firing.
-- **MED — Track A 60-node spot-check** — partially absorbed by Session 50 audit improvement; residual remains. See `working/todos.md`.
-
----
-
+> Session 51 archived to `history/worklog-archives/archive011.md`
 > Session 50 archived to `history/worklog-archives/archive011.md`
 > Session 49b archived to `history/worklog-archives/archive011.md`
 > Session 49 archived to `history/worklog-archives/archive011.md`
