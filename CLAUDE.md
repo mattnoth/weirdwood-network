@@ -44,7 +44,7 @@ The build follows this order. Each step depends on prior steps completing:
 | 1 | **Chapter Splitter** | ✅ Done | `scripts/chapter-splitter.py` — splits .txt source files into per-chapter markdown with YAML frontmatter |
 | 2 | **Run Splitter** | ✅ Done | All 5 books split (344 chapters) + 3 D&E novellas |
 | 3 | **Wiki Scrape** | ✅ Done | 17,945 pages cached locally in `sources/wiki/` (one-time crawl, scraper archived to `scripts/archive/`). All Pass 2+ work reads local cache only — never re-fetch. |
-| 4 | **Pass 1: Mechanical Extraction** | In progress | v2 schema, AGOT in progress, 4 books remaining |
+| 4 | **Pass 1: Mechanical Extraction** | ✅ Done | v3 schema, all 5 books complete (344/344 as of 2026-05-06) |
 | 5 | **Pass 2: Wiki Ingestion** | Not started | Agent prompt not yet written — will promote wiki cache into `graph/nodes/` |
 | 6 | **Build Index** | Not started | Generate trigger table and entity index from extraction outputs |
 | 7 | **Pass 3+: Analytical Passes** | Not started | Voice analysis, foreshadowing, theory-informed extraction |
@@ -154,7 +154,7 @@ asoiaf-chat/
 
 ## Top-Level `scratch` File — Ignore It
 
-A file named `scratch` (or `scratch.md` / `scratch.txt`) at the repo root is **Matt's private notes**, not project state. It is gitignored. **Do not read it, surface it, or act on its contents during normal sessions.** The single exception is `/endsession` step 4(a), which is the designated triage moment — that step reads scratch and prompts Matt where each entry should land. Outside `/endsession`, treat scratch as if it doesn't exist.
+A file named `scratch` (or `scratch.md` / `scratch.txt`) at the repo root is **Matt's private notes**, not project state. It is gitignored. **Do not read it, surface it, or act on its contents — ever — unless Matt explicitly tells you to in the current turn.** This includes `/endsession`: scratch is NOT triaged as part of any checklist. Treat scratch as if it doesn't exist until Matt says otherwise.
 
 ## Orchestration Rules
 
@@ -169,3 +169,4 @@ A file named `scratch` (or `scratch.md` / `scratch.txt`) at the repo root is **M
    - **history/session-details/session-NNN.md**: optional, *as-needed*. Write one when the session contains design discussion, an incident worth a postmortem, or novel decisions worth a long-form narrative. Pure-execution sessions don't need one — the worklog entry is sufficient. Existing detail files are inconsistently applied (the prior rule was "every session"); audit/backfill is an auxiliary project-story todo, not blocking.
    - **Continue prompts** (`progress/continue-prompts/`): self-contained resumption context for specific work tracks. A fresh agent should be able to pick up the work from the continue prompt alone, without reading session history.
 8. **Worklog Session Log holds at most 5 entries.** When a 6th session lands, archive the oldest to `history/worklog-archives/archiveNNN.md`. Each archive file holds exactly 5 entries (start a new `archiveNNN.md` when the current one is full). The worklog itself keeps Current State, Active Decisions, Ideas & Backlog, Principles, and the 5 most recent session entries.
+9. **When a continue prompt's project-state claims contradict `worklog.md`, trust `worklog.md` and flag the contradiction.** Continue prompts are task-scoped snapshots written at end-of-session under context pressure; they may lag worklog by multiple sessions. `worklog.md` is the authoritative state file, updated every session. If a continue prompt says "X is incomplete" but `worklog.md` says "X is done" (or vice versa), say so explicitly at session start before proceeding: *"The continue prompt states [X claim], but worklog.md says [Y claim]. Trusting worklog.md. The continue prompt may need updating."* Do not silently propagate the stale claim into your session work. The same rule applies to memory entries — they're point-in-time snapshots, not live state. (Root cause precedent: Session 55, 2026-05-18, stale "ACOK 20/70" propagation.)

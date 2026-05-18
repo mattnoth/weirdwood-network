@@ -1,0 +1,4 @@
+{"decision": "emit_edge", "edge_type": "RIVALS", "source_slug": "barba-bracken", "target_slug": "melissa-blackwood", "confidence_tier": "tier-2", "source_section": "## Narrative Arc", "candidate_kind": "source_target", "note": "Melissa Blackwood supplanted Barba as Aegon IV's mistress after Barba and her father were sent away; rivalry implied by succession"}
+{"decision": "reject_just_mention", "source_slug": "barba-bracken", "target_slug": "aegon-iv-targaryen", "source_section": "## Narrative Arc", "candidate_kind": "source_target"}
+{"decision": "reject_just_mention", "source_slug": "barba-bracken", "target_slug": "stone-hedge", "source_section": "## Narrative Arc", "candidate_kind": "source_target"}
+{"decision": "reject_just_mention", "source_slug": "barba-bracken", "target_slug": "aegor-rivers", "source_section": "## Narrative Arc", "candidate_kind": "source_target"}

@@ -22,7 +22,7 @@ After the initial Fight at Torrhen's Square — a feint to draw Winterfell's gar
 ## Edges
 
 - PART_OF: War of the Five Kings (track_b: Conflict)
-- LOCATED_IN: Torrhen's Square (wiki:Capture_of_Torrhen's_Square)
+- LOCATED_AT: Torrhen's Square (wiki:Capture_of_Torrhen's_Square)
 - COMMANDS_IN: Dagmer Cleftjaw (wiki:Capture_of_Torrhen's_Square)
 
 ## Notes

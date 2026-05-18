@@ -1,0 +1,28 @@
+---
+name: "A Storm of Swords-Chapter 2"
+type: meta.chapter
+slug: a-storm-of-swords-chapter-2
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords-Chapter_2"
+bucket_id: meta-chapters-asos
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+book: a-storm-of-swords
+chapter_number: 2
+pov_character: catelyn-tully
+---
+
+## Identity
+
+A Storm of Swords-Chapter 2 is a meta.chapter from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+Ser [Desmond Grell](wiki:Desmond_Grell) is [castellan](wiki:Castellan) of [Riverrun](wiki:Riverrun) while [Edmure](wiki:Edmure_Tully) is off at battle and he has confined [Catelyn](wiki:Catelyn_Tully) to [her father](wiki:Hoster_Tully)’s rooms for releasing [the Kingslayer](wiki:Jaime_Lannister) without the consent of King [Robb](wiki:Robb_Stark) or Edmure. She is aware Grell has dispatched Ser [Robin Ryger](wiki:Robin_Ryger) to bring back Jaime, and hopes that he fails. Her father's room smells of death and it makes Cat think of Ned and her two youngest boys. Lord Hoster is having fever dreams and mumbling, "Forgive me...the blood...oh, please...Tansy..." "Dead." "…you’ll have others…sweet babes, and trueborn…" Catelyn recalls that [Lysa](wiki:Lysa_Arryn) has had five miscarriages since her marriage and deduces that Lysa must have miscarried before marrying as well. She realizes that [Jon Arryn](wiki:Jon_Arryn) had no heir at the time of her and Lysa's twin betrothals. He was older than their father and as a soiled bride, "Lysa was the price Jon Arryn had to pay for the swords of [House Tully](wiki:House_Tully)." She does not know who the father of the original miscarriage might have been. Catelyn writes a letter to Lysa pleading for her to come to Riverrun before their father passes away saying, "He needs your forgiveness," but she realizes Lord Hoster will be gone before the raven even makes it to [The Eyrie](wiki:The_Eyrie). Catelyn goes to the [sept](wiki:Sept) and lights three candles. One for the [Father Above](wiki:Father_(the_Seven)) for her own father. One for the [Crone](wiki:Crone_(the_Seven)) "who let the first raven into the world when she peered through the door of death" and one for the [Mother](wiki:Mother_(the_Seven)) for Lysa and all the children they had both lost.
+
+Later, Edmure returns to Riverrun, informing Catelyn that he turned away the [Lannisters](wiki:House_Lannister), but that [Stannis](wiki:Stannis_Baratheon) lost the [battle](wiki:Battle_of_the_Blackwater) for [King's Landing](wiki:King's_Landing) and that [Highgarden](wiki:Highgarden) and [Dorne](wiki:Dorne) have both declared for [Joffrey](wiki:Joffrey_Baratheon). Edmure scolds Catelyn for freeing Jaime and tells her [Cersei](wiki:Cersei_Lannister) will never free Catelyn's daughters, but Catelyn claims [Tyrion](wiki:Tyrion_Lannister) will be held to the word he spoke in open court and the Kingslayer gave his word as well. Edmure dismisses the Kingslayer's words as worthless and informs Catelyn that Tyrion took an axe to the head and is most likely dead. Edmure has sent three ravens informing [Lord Bolton](wiki:Roose_Bolton) that Jaime has escaped in the hopes of capturing him at [Harrenhal](wiki:Harrenhal). Catelyn despairs because if Jaime is believed to have escaped instead of being released as part of a prisoner swap, the Lannisters have no reason to free Catelyn's daughters.

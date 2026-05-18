@@ -1,0 +1,45 @@
+{
+  "batch_id": "batch-0043",
+  "worker_id": "worker-2026-05-17-779049856438",
+  "completed_at": "2026-05-17T21:15:00Z",
+  "files": [
+    {
+      "candidates_file": "working/wiki/pass2-buckets/characters-house-hornwood/prose-edge-candidates/larence-snow.candidates.jsonl",
+      "edges_file": "working/wiki/pass2-buckets/characters-house-hornwood/prose-edges/larence-snow.edges.jsonl",
+      "rows_emitted": 1,
+      "rows_rejected": 16
+    },
+    {
+      "candidates_file": "working/wiki/pass2-buckets/characters-house-hornwood/prose-edge-candidates/medrick.candidates.jsonl",
+      "edges_file": "working/wiki/pass2-buckets/characters-house-hornwood/prose-edges/medrick.edges.jsonl",
+      "rows_emitted": 3,
+      "rows_rejected": 4
+    },
+    {
+      "candidates_file": "working/wiki/pass2-buckets/characters-house-horpe/prose-edge-candidates/harys-horpe.candidates.jsonl",
+      "edges_file": "working/wiki/pass2-buckets/characters-house-horpe/prose-edges/harys-horpe.edges.jsonl",
+      "rows_emitted": 3,
+      "rows_rejected": 1
+    },
+    {
+      "candidates_file": "working/wiki/pass2-buckets/characters-house-horpe/prose-edge-candidates/richard-horpe.candidates.jsonl",
+      "edges_file": "working/wiki/pass2-buckets/characters-house-horpe/prose-edges/richard-horpe.edges.jsonl",
+      "rows_emitted": 16,
+      "rows_rejected": 40
+    },
+    {
+      "candidates_file": "working/wiki/pass2-buckets/characters-house-humble/prose-edge-candidates/adrack-humble.candidates.jsonl",
+      "edges_file": "working/wiki/pass2-buckets/characters-house-humble/prose-edges/adrack-humble.edges.jsonl",
+      "rows_emitted": 4,
+      "rows_rejected": 2
+    }
+  ],
+  "totals": {
+    "files": 5,
+    "candidates": 83,
+    "rows_emitted": 27,
+    "rows_rejected": 63,
+    "vocab_gaps": 0
+  },
+  "notes": "trial-of-seven rejected as type-contract-violation (concept.custom not event.*); blood-sacrifice same; harvest-feast same; richard-horpe KILLS dormund at tier 3 (uncertain identification by shield device)"
+}

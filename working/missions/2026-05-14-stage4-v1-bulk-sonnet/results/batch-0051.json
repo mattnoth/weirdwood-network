@@ -1,0 +1,37 @@
+{
+  "batch_id": "batch-0051",
+  "worker_id": "worker-20260518-035029098",
+  "started_at": "2026-05-18T03:50:29.098Z",
+  "completed_at": "2026-05-18T04:20:48.356Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-kettleblack/prose-edge-candidates/osney-kettleblack.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-kettleblack/prose-edge-candidates/oswell-kettleblack.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-ladybright/prose-edge-candidates/alyse-ladybright.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-ladybright/prose-edge-candidates/jayne-ladybright.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-langward/prose-edge-candidates/harrold-langward.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 33,
+    "reject_just_mention": 121,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 1
+  },
+  "edge_types_emitted": {
+    "SIBLING_OF": 2,
+    "CAPTURES": 1,
+    "ATTENDS": 1,
+    "SERVES": 6,
+    "REVEALS_TO": 1,
+    "LOCATED_AT": 5,
+    "PRISONER_OF": 1,
+    "KILLS": 2,
+    "DECEIVES": 1,
+    "DUELS": 1,
+    "TRAVELS_TO": 5,
+    "LOVER_OF": 1,
+    "PROTECTS": 1,
+    "KILLED_BY": 1
+  },
+  "vocab_gap_questions_filed": 0,
+  "errors": []
+}

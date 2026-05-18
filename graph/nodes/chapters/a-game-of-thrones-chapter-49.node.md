@@ -1,0 +1,40 @@
+---
+name: "A Game of Thrones-Chapter 49"
+type: meta.chapter
+slug: a-game-of-thrones-chapter-49
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Game_of_Thrones-Chapter_49"
+bucket_id: meta-chapters-agot
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+book: a-game-of-thrones
+chapter_number: 49
+pov_character: eddard-stark
+---
+
+## Identity
+
+A Game of Thrones-Chapter 49 is a meta.chapter from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+[Ned](wiki:Eddard_Stark) wakes to the thunder of [Lannister guardsmen](wiki:House_Lannister_guards) drilling in the yard and curses [Cersei](wiki:Cersei_Lannister) for not fleeing despite his warnings.
+
+At breakfast, [Arya](wiki:Arya_Stark) is given permission for a short lesson with [Syrio Forel](wiki:Syrio_Forel) as long as she is ready to leave by midday. [Sansa](wiki:Sansa_Stark), who is very despondent, asks again to see Prince [Joffrey](wiki:Joffrey_Baratheon) before she leaves. Septa [Mordane](wiki:Mordane) offers to escort Sansa, but Ned insists it is not wise. Sansa complains it is not fair and runs weeping from the solar. Mordane rises to follow but Ned stops her, declaring that he will try to explain when they return to [Winterfell](wiki:Winterfell).
+
+An hour later, Grand Maester [Pycelle](wiki:Pycelle) arrives with news that King [Robert](wiki:Robert_I_Baratheon) is dead. Although he has been expecting the news, Ned is surprised by the emptiness it leaves inside him, as if part of him has died as well. Suppressing his grief, Ned orders Pycelle to convene the [small council](wiki:Small_council) in the [Tower of the Hand](wiki:Tower_of_the_Hand), not trusting the security of the council chamber. The [Grand Maester](wiki:Grand_Maester) objects that they can wait a day, but Ned insists so Pycelle dispatches servants to carry the summons.
+
+Ser [Barristan Selmy](wiki:Barristan_Selmy) arrives first and asks permission to attend King [Joffrey](wiki:Joffrey_Baratheon) instead, but Ned refuses. When [Littlefinger](wiki:Petyr_Baelish) arrives wearing the same clothes as the previous day, he declares that the task Ned set him is done. [Varys](wiki:Varys) arrives next with news that Lord [Renly](wiki:Renly_Baratheon) has left the city along with Ser [Loras Tyrell](wiki:Loras_Tyrell) and fifty retainers, slipping out a postern gate an hour before dawn and riding south for [Storm's End](wiki:Storm's_End) or [Highgarden](wiki:Highgarden). Ned is discomforted by the news, since he had remained hopeful of Renly’s support.
+
+Ned entrusts Barristan to read the writ naming him [Protector of the Realm](wiki:Protector_of_the_Realm) until the heir comes of age. Ned thinks to himself that the [true heir](wiki:Stannis_Baratheon) is already of age, but says nothing; he does not trust Varys or Pycelle and Barristan is honor bound to protect the boy he thinks is his rightful king. The need for deceit bothers him, but Ned knows he must keep Cersei's secret until he is firmly established as regent. There will be plenty of time to deal with the succession when his daughters are safe and Stannis has arrived with his forces. Ned asks the council to proclaim him Protector of the Realm as Robert wished. Before anyone can reply, the meeting is interrupted by [Fat Tom](wiki:Tomard) and the royal steward with news that the king demands the small council's immediate presence in the [throne room](wiki:Throne_room). Ned is unsurprised that Cersei would strike quickly, and orders Tom to assemble an escort.
+
+Escorted by eight men-at-arms and supported by Littlefinger, Ned makes his way across the yard, reassured by the number of [Stark guardsmen](wiki:House_Stark_guards) on the walls. Inside the throne room, Joffrey sits the [Iron Throne](wiki:Iron_Throne) with Cersei and his siblings below, guarded by [Sandor Clegane](wiki:Sandor_Clegane) and all of the [Kingsguard](wiki:Kingsguard) except [Jaime Lannister](wiki:Jaime_Lannister) and Barristan, who has just arrived with Ned. Behind the throne stand twenty Lannister guardsmen armed with swords, and along the walls are a hundred [gold cloaks](wiki:City_Watch_of_King's_Landing) armed with spears, enough to outnumber the Lannisters five to one. At the sight of the gold cloaks, Ned is encouraged that Littlefinger has kept his promise.
+
+Joffrey stands and commands that the council make arrangements for his coronation which he wishes held within the fortnight. The young king then declares that today he will accept oaths of fealty from his loyal councilors. Ned has Varys deliver Robert's will to Cersei. The queen glances at the words then tears it up, questioning if Ned meant a piece of paper to be his shield. The honorable Barristan exclaims that those were the king's words, but Cersei dismissively declares that they have a new king now. Then Cersei advises Ned that if he bends the knee and swears fealty to Joffrey he will be allowed to retire peacefully to Winterfell. Instead, bound by his honor, Ned declares that Joffrey has no right to the throne and that [Stannis Baratheon](wiki:Stannis_Baratheon) is the true heir.
+
+Joffrey bursts out in anger and Cersei orders Barristan to seize Ned as a traitor. The old knight hesitates and is quickly surrounded by Ned's guardsmen. At Cersei’s command, the Hound and the Lannister guardsmen draw their swords to aid in the arrest. Ned responds by ordering [Janos Slynt](wiki:Janos_Slynt) to have his gold cloaks take the queen and her children into custody. As Ned is stating he wants no bloodshed, a gold cloak shoves a spear through Tomard's back. [A brief fight](wiki:Arrest_of_Eddard_Stark) ensues, quickly killing all of Ned's guardsmen. As Ned’s men die around him, Littlefinger slides [Ned's dagger](wiki:Littlefinger's_blade) from its sheath, holds it to his throat, and says, "I did warn you not to trust me, you know."

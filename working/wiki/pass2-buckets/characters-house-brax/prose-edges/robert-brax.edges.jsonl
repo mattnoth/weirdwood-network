@@ -1,0 +1,1 @@
+{"decision": "emit_edge", "candidate_kind": "source_target", "source": "robert-brax", "target": "battle-of-the-fords", "edge_type": "FIGHTS_IN", "evidence_snippet": "Robert is slain at the [LINK].", "evidence_section": "## Narrative Arc / ### A Storm of Swords", "source_bucket": "characters-house-brax", "confidence": "tier-1"}

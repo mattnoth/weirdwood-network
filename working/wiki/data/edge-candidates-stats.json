@@ -1,0 +1,194 @@
+{
+  "generated_at": "2026-05-14T01:35:11+00:00",
+  "counts": {
+    "rows_in": 161060,
+    "drop_source_filter": 0,
+    "drop_broken_target": 12655,
+    "drop_self_edge": 5,
+    "drop_known_edge": 7217,
+    "drop_low_confidence": 116,
+    "survivors": 141067,
+    "distinct_source_nodes": 5686
+  },
+  "top_sources": [
+    {
+      "slug": "house-targaryen",
+      "candidate_count": 634
+    },
+    {
+      "slug": "seven-kingdoms",
+      "candidate_count": 620
+    },
+    {
+      "slug": "house-lannister",
+      "candidate_count": 574
+    },
+    {
+      "slug": "stannis-baratheon",
+      "candidate_count": 505
+    },
+    {
+      "slug": "house-stark",
+      "candidate_count": 502
+    },
+    {
+      "slug": "robert-i-baratheon",
+      "candidate_count": 403
+    },
+    {
+      "slug": "faith-of-the-seven",
+      "candidate_count": 370
+    },
+    {
+      "slug": "daenerys-targaryen",
+      "candidate_count": 365
+    },
+    {
+      "slug": "jaehaerys-i-targaryen",
+      "candidate_count": 365
+    },
+    {
+      "slug": "braavos",
+      "candidate_count": 362
+    },
+    {
+      "slug": "dragon",
+      "candidate_count": 359
+    },
+    {
+      "slug": "aerys-ii-targaryen",
+      "candidate_count": 344
+    },
+    {
+      "slug": "red-keep",
+      "candidate_count": 336
+    },
+    {
+      "slug": "robb-stark",
+      "candidate_count": 334
+    },
+    {
+      "slug": "giants",
+      "candidate_count": 330
+    },
+    {
+      "slug": "nights-watch",
+      "candidate_count": 322
+    },
+    {
+      "slug": "aegon-iii-targaryen",
+      "candidate_count": 308
+    },
+    {
+      "slug": "petyr-baelish",
+      "candidate_count": 302
+    },
+    {
+      "slug": "dreams-and-prophecies",
+      "candidate_count": 297
+    },
+    {
+      "slug": "riverlands",
+      "candidate_count": 294
+    }
+  ],
+  "top_targets": [
+    {
+      "slug": "kings-landing",
+      "inbound_count": 1417
+    },
+    {
+      "slug": "tyrion-lannister",
+      "inbound_count": 1282
+    },
+    {
+      "slug": "jaime-lannister",
+      "inbound_count": 1112
+    },
+    {
+      "slug": "stannis-baratheon",
+      "inbound_count": 1033
+    },
+    {
+      "slug": "jon-snow",
+      "inbound_count": 940
+    },
+    {
+      "slug": "daenerys-targaryen",
+      "inbound_count": 915
+    },
+    {
+      "slug": "cersei-lannister",
+      "inbound_count": 905
+    },
+    {
+      "slug": "arya-stark",
+      "inbound_count": 855
+    },
+    {
+      "slug": "tywin-lannister",
+      "inbound_count": 838
+    },
+    {
+      "slug": "iron-throne",
+      "inbound_count": 804
+    },
+    {
+      "slug": "eddard-stark",
+      "inbound_count": 799
+    },
+    {
+      "slug": "hand-of-the-king",
+      "inbound_count": 797
+    },
+    {
+      "slug": "catelyn-stark",
+      "inbound_count": 743
+    },
+    {
+      "slug": "winterfell",
+      "inbound_count": 722
+    },
+    {
+      "slug": "robb-stark",
+      "inbound_count": 717
+    },
+    {
+      "slug": "robert-i-baratheon",
+      "inbound_count": 715
+    },
+    {
+      "slug": "knight",
+      "inbound_count": 710
+    },
+    {
+      "slug": "sansa-stark",
+      "inbound_count": 705
+    },
+    {
+      "slug": "dragon",
+      "inbound_count": 648
+    },
+    {
+      "slug": "westeros",
+      "inbound_count": 647
+    }
+  ],
+  "backlink_distribution": {
+    "101+": 71339,
+    "26-100": 37345,
+    "11-25": 17258,
+    "6-10": 7512,
+    "2-5": 6633,
+    "1": 980
+  },
+  "section_distribution": {
+    "## Narrative Arc": 61519,
+    "## Origins": 51306,
+    "## Quotes": 17642,
+    "## Appearances & Description": 5310,
+    "## Culture": 2931,
+    "## Aftermath": 2146,
+    "## Organization": 213
+  }
+}

@@ -1,0 +1,7 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "alyssa-blackwood", "target": "guest-right", "reason": "concept-mentioned-in-quote-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "alyssa-blackwood", "target": "jaime-lannister", "reason": "jaime-receiving-info-about-lucas-not-alyssa-jaime-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "alyssa-blackwood", "target": "lucas-blackwood", "reason": "kinship-implied-by-shared-house-not-direct-edge-in-this-snippet"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "alyssa-blackwood", "target": "red-wedding", "reason": "event-context-not-alyssa-participant"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "alyssa-blackwood", "target": "twins", "reason": "walder-frey-seat-implied-by-marriage-not-standalone-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "alyssa-blackwood", "target": "tytos-blackwood", "reason": "tytos-reporting-about-lucas-not-alyssa-tytos-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "alyssa-blackwood", "target": "amarei-crakehall", "reason": "predecessors-death-contextual-not-alyssa-amarei-edge"}

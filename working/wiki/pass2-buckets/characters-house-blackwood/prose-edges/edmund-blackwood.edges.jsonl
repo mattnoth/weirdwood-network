@@ -1,0 +1,8 @@
+{"decision": "emit_edge", "candidate_kind": "source_target", "source": "edmund-blackwood", "target": "bethany-blackwood", "edge_type": "SIBLING_OF", "evidence_snippet": "fearing to lose his only daughter, Bethany, offered his son Edmund instead", "evidence_section": "Narrative Arc / A Dance with Dragons", "confidence": "tier-1"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "edmund-blackwood", "target": "garrett-paege", "reason": "jaimes-squire-context-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "source": "edmund-blackwood", "target": "hoster-blackwood", "edge_type": "SIBLING_OF", "evidence_snippet": "eventually remain at their father's castle, as one of their other brothers, Hoster", "evidence_section": "Narrative Arc / A Dance with Dragons", "confidence": "tier-1"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "edmund-blackwood", "target": "jaime-lannister", "reason": "jaime-external-agent-squire-proposal-not-executed"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "edmund-blackwood", "target": "josmyn-peckledon", "reason": "jaimes-squires-context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "edmund-blackwood", "target": "lewys-piper", "reason": "jaimes-squires-context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "edmund-blackwood", "target": "siege-of-raventree", "reason": "siege-context-not-participant"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "edmund-blackwood", "target": "squire", "reason": "role-concept-not-entity"}

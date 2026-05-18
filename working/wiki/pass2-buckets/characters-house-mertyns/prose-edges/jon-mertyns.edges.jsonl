@@ -1,0 +1,4 @@
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "jon-mertyns", "target_slug": "golden-wedding", "edge_type": "ATTENDS", "evidence_snippet": "Lord Jon attended the Golden Wedding, where the king entertained the lords in the intimacy of his solar", "evidence_section": "## Origins", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jon-mertyns", "target_slug": "lord", "reason": "lord-is-generic-noun-not-a-named-entity-node"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jon-mertyns", "target_slug": "seven-kingdoms", "reason": "realm-referenced-as-topic-of-discussion-at-golden-wedding-contextual"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jon-mertyns", "target_slug": "solar", "reason": "solar-is-setting-detail-no-jon-mertyns-solar-edge"}

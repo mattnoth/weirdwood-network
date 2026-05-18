@@ -1,0 +1,230 @@
+{
+  "generated_at": "2026-05-14T01:35:15+00:00",
+  "counts": {
+    "chapters_scanned": 344,
+    "paragraphs_walked": 2177,
+    "raw_pair_paragraph_occurrences": 35254,
+    "drop_broken_link": 2716,
+    "drop_self_edge": 3,
+    "drop_known_edge": 3209,
+    "drop_low_confidence": 24,
+    "unique_pairs_pre_consolidate": 29259,
+    "survivors": 29259
+  },
+  "top_chapters": [
+    {
+      "chapter_slug": "a-clash-of-kings-chapter-31",
+      "bucket_id": "meta-chapters-acok",
+      "candidate_count": 455
+    },
+    {
+      "chapter_slug": "a-storm-of-swords-chapter-72",
+      "bucket_id": "meta-chapters-asos",
+      "candidate_count": 413
+    },
+    {
+      "chapter_slug": "a-clash-of-kings-chapter-33",
+      "bucket_id": "meta-chapters-acok",
+      "candidate_count": 387
+    },
+    {
+      "chapter_slug": "a-storm-of-swords-chapter-53",
+      "bucket_id": "meta-chapters-asos",
+      "candidate_count": 379
+    },
+    {
+      "chapter_slug": "a-storm-of-swords-chapter-43",
+      "bucket_id": "meta-chapters-asos",
+      "candidate_count": 341
+    },
+    {
+      "chapter_slug": "a-storm-of-swords-chapter-19",
+      "bucket_id": "meta-chapters-asos",
+      "candidate_count": 320
+    },
+    {
+      "chapter_slug": "a-storm-of-swords-chapter-37",
+      "bucket_id": "meta-chapters-asos",
+      "candidate_count": 318
+    },
+    {
+      "chapter_slug": "a-clash-of-kings-chapter-30",
+      "bucket_id": "meta-chapters-acok",
+      "candidate_count": 311
+    },
+    {
+      "chapter_slug": "a-dance-with-dragons-epilogue",
+      "bucket_id": "meta-chapters-adwd",
+      "candidate_count": 301
+    },
+    {
+      "chapter_slug": "a-game-of-thrones-chapter-39",
+      "bucket_id": "meta-chapters-agot",
+      "candidate_count": 292
+    },
+    {
+      "chapter_slug": "a-storm-of-swords-chapter-45",
+      "bucket_id": "meta-chapters-asos",
+      "candidate_count": 275
+    },
+    {
+      "chapter_slug": "a-clash-of-kings-chapter-56",
+      "bucket_id": "meta-chapters-acok",
+      "candidate_count": 265
+    },
+    {
+      "chapter_slug": "a-clash-of-kings-chapter-35",
+      "bucket_id": "meta-chapters-acok",
+      "candidate_count": 250
+    },
+    {
+      "chapter_slug": "a-clash-of-kings-chapter-25",
+      "bucket_id": "meta-chapters-acok",
+      "candidate_count": 246
+    },
+    {
+      "chapter_slug": "a-game-of-thrones-chapter-69",
+      "bucket_id": "meta-chapters-agot",
+      "candidate_count": 236
+    },
+    {
+      "chapter_slug": "a-clash-of-kings-chapter-10",
+      "bucket_id": "meta-chapters-acok",
+      "candidate_count": 230
+    },
+    {
+      "chapter_slug": "a-clash-of-kings-chapter-12",
+      "bucket_id": "meta-chapters-acok",
+      "candidate_count": 228
+    },
+    {
+      "chapter_slug": "a-clash-of-kings-chapter-39",
+      "bucket_id": "meta-chapters-acok",
+      "candidate_count": 223
+    },
+    {
+      "chapter_slug": "a-feast-for-crows-chapter-23",
+      "bucket_id": "meta-chapters-affc",
+      "candidate_count": 215
+    },
+    {
+      "chapter_slug": "a-clash-of-kings-chapter-22",
+      "bucket_id": "meta-chapters-acok",
+      "candidate_count": 207
+    }
+  ],
+  "top_pairs": [
+    {
+      "pair_a": "cersei-lannister",
+      "pair_b": "sansa-stark",
+      "co_chapter_count": 20
+    },
+    {
+      "pair_a": "catelyn-stark",
+      "pair_b": "winterfell",
+      "co_chapter_count": 18
+    },
+    {
+      "pair_a": "robb-stark",
+      "pair_b": "winterfell",
+      "co_chapter_count": 18
+    },
+    {
+      "pair_a": "cersei-lannister",
+      "pair_b": "kings-landing",
+      "co_chapter_count": 17
+    },
+    {
+      "pair_a": "joffrey-baratheon",
+      "pair_b": "tyrion-lannister",
+      "co_chapter_count": 16
+    },
+    {
+      "pair_a": "catelyn-stark",
+      "pair_b": "jaime-lannister",
+      "co_chapter_count": 16
+    },
+    {
+      "pair_a": "jaime-lannister",
+      "pair_b": "riverrun",
+      "co_chapter_count": 16
+    },
+    {
+      "pair_a": "renly-baratheon",
+      "pair_b": "stannis-baratheon",
+      "co_chapter_count": 16
+    },
+    {
+      "pair_a": "eddard-stark",
+      "pair_b": "robert-i-baratheon",
+      "co_chapter_count": 15
+    },
+    {
+      "pair_a": "robb-stark",
+      "pair_b": "tywin-lannister",
+      "co_chapter_count": 15
+    },
+    {
+      "pair_a": "jaime-lannister",
+      "pair_b": "kings-landing",
+      "co_chapter_count": 15
+    },
+    {
+      "pair_a": "jon-snow",
+      "pair_b": "wall",
+      "co_chapter_count": 15
+    },
+    {
+      "pair_a": "melisandre",
+      "pair_b": "stannis-baratheon",
+      "co_chapter_count": 14
+    },
+    {
+      "pair_a": "cersei-lannister",
+      "pair_b": "red-keep",
+      "co_chapter_count": 14
+    },
+    {
+      "pair_a": "joffrey-baratheon",
+      "pair_b": "robb-stark",
+      "co_chapter_count": 14
+    },
+    {
+      "pair_a": "joffrey-baratheon",
+      "pair_b": "stannis-baratheon",
+      "co_chapter_count": 13
+    },
+    {
+      "pair_a": "house-stark",
+      "pair_b": "robb-stark",
+      "co_chapter_count": 13
+    },
+    {
+      "pair_a": "kings-landing",
+      "pair_b": "stannis-baratheon",
+      "co_chapter_count": 13
+    },
+    {
+      "pair_a": "free-folk",
+      "pair_b": "jon-snow",
+      "co_chapter_count": 13
+    },
+    {
+      "pair_a": "daenerys-targaryen",
+      "pair_b": "meereen",
+      "co_chapter_count": 13
+    }
+  ],
+  "backlink_distribution": {
+    "0-1": 482,
+    "101+": 30899,
+    "26-100": 16262,
+    "11-25": 6522,
+    "6-10": 2456,
+    "2-5": 1897
+  },
+  "section_distribution": {
+    "## Narrative Arc": 29295,
+    "## Origins": 7
+  }
+}

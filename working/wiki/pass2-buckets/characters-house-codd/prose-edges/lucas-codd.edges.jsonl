@@ -1,0 +1,2 @@
+{"decision": "emit_edge", "edge_type": "SWEARS_TO", "source_slug": "lucas-codd", "target_slug": "euron-greyjoy", "confidence": "tier-1", "rationale": "Left-Hand Lucas joins with Euron Greyjoy when Euron declares himself King of the Iron Islands"}
+{"decision": "emit_edge", "edge_type": "OWNS", "source_slug": "lucas-codd", "target_slug": "dragonbinder", "confidence": "tier-1", "rationale": "He takes the dragon horn dragonbinder from Cragorn after the horn is blown at the kingsmoot"}

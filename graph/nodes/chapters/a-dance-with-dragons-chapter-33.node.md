@@ -1,0 +1,32 @@
+---
+name: "A Dance with Dragons-Chapter 33"
+type: meta.chapter
+slug: a-dance-with-dragons-chapter-33
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons-Chapter_33"
+bucket_id: meta-chapters-adwd
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+book: a-dance-with-dragons
+chapter_number: 33
+pov_character: tyrion-lannister
+---
+
+## Identity
+
+A Dance with Dragons-Chapter 33 is a meta.chapter from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+[Tyrion](wiki:Tyrion_Lannister) is aboard the *[Selaesori Qhoran](wiki:Selaesori_Qhoran)*,(wiki:A_Dance_with_Dragons-Chapter_33.cite_ref-1) a trading cog on the way to [Qarth](wiki:Qarth). He watches the evening prayer led by [Moqorro](wiki:Moqorro), a [red priest](wiki:R'hllor) from the [Summer Islands](wiki:Summer_Islands) and [Benerro](wiki:Benerro)'s right hand. Tyrion ask Moqorro what he sees in the flames, to which he replies dragons, true and false, with Tyrion in the middle of it all.
+
+Tyrion befriends [Penny](wiki:Penny), uneasily at first. He apologizes for what has happened to her brother [Oppo](wiki:Oppo) and tells her it was not him that killed her brother but rather his sister [Cersei](wiki:Cersei_Lannister). Regardless, she still blames Tyrion and barges off. Later, there is a terrible storm, following which Tyrion spies Penny again. She says that the storm frightened her and she thought she may have died. Penny tells Tyrion that she does not truly blame him for the death of Oppo.
+
+After their talks Penny spends more time up on the deck, whereas earlier she spent much of the time hiding away in her cabin. After that they began to spend more time together, Tyrion's witty playful attitude begins to cheer her up and he hears her laugh and act a lot more like the girl she is.
+
+They then draw close to the coast of [Valyria](wiki:Valyria). Tyrion sees the fires of the [Fourteen Flames](wiki:Fourteen_Flames), he watches them and talks to Moqorro. As they draw closer Tyrion thinks about the prophecies and if they may be confused with multiple [Targaryens](wiki:House_Targaryen). Moqorro says that he has seen in his flames that there are others seeking [Daenerys](wiki:Daenerys_Targaryen). Tyrion asks Moqorro what else he has seen to which he replies that he sees only their shadows, but one most of all. It is a tall and twisted thing, with one black eye, ten arms, sailing on a sea of blood.

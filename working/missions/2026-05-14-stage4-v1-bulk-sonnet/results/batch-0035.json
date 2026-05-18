@@ -1,0 +1,38 @@
+{
+  "batch_id": "batch-0035",
+  "worker_id": "worker-20260517-182150699391",
+  "started_at": "2026-05-17T18:21:50.699391Z",
+  "completed_at": "2026-05-17T18:37:29.720571Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-hightower-j-w/prose-edge-candidates/leyton-hightower.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hightower-j-w/prose-edge-candidates/lymond-hightower.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hightower-j-w/prose-edge-candidates/lynesse-hightower.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hightower-j-w/prose-edge-candidates/lyonel-hightower.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hightower-j-w/prose-edge-candidates/malora-hightower.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 37,
+    "reject_just_mention": 78,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "ALLIES_WITH": 4,
+    "OPPOSES": 3,
+    "LOCATED_AT": 7,
+    "SEEKS": 2,
+    "DUELS": 1,
+    "NEGOTIATES_WITH": 2,
+    "ATTENDS": 3,
+    "FIGHTS_IN": 1,
+    "REVEALS_TO": 1,
+    "TRAVELS_TO": 5,
+    "SIBLING_OF": 4,
+    "KILLS": 1,
+    "SWORN_TO": 1,
+    "DEFEATS": 1,
+    "PARALLELS": 1
+  },
+  "vocab_gap_questions_filed": 0,
+  "errors": []
+}

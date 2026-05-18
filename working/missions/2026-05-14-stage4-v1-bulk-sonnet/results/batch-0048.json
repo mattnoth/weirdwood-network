@@ -1,0 +1,35 @@
+{
+  "batch_id": "batch-0048",
+  "worker_id": "worker-2026-05-17-143000000000",
+  "priority_tier": 1,
+  "bucket": "characters-house-karstark",
+  "files_processed": 5,
+  "total_emitted": 35,
+  "total_rejected": 131,
+  "edge_types_used": {
+    "OPPOSES": 5,
+    "TRAVELS_TO": 9,
+    "COUSIN_OF": 2,
+    "SIBLING_OF": 5,
+    "REVEALS_TO": 1,
+    "ATTENDS": 1,
+    "BETROTHED_TO": 1,
+    "PERCEIVED_AS": 2,
+    "ALLIES_WITH": 3,
+    "BETRAYS": 1,
+    "LOCATED_AT": 1,
+    "FIGHTS_IN": 1,
+    "KILLED_BY": 1,
+    "SERVES": 1,
+    "WINTER_FELL": 0
+  },
+  "vocab_gap_questions": 0,
+  "errors": 0,
+  "files": [
+    {"file": "working/wiki/pass2-buckets/characters-house-karstark/prose-edge-candidates/alys-karstark.candidates.jsonl", "output": "working/wiki/pass2-buckets/characters-house-karstark/prose-edges/alys-karstark.edges.jsonl", "rows_emitted": 15, "rows_rejected": 48},
+    {"file": "working/wiki/pass2-buckets/characters-house-karstark/prose-edge-candidates/arnolf-karstark.candidates.jsonl", "output": "working/wiki/pass2-buckets/characters-house-karstark/prose-edges/arnolf-karstark.edges.jsonl", "rows_emitted": 7, "rows_rejected": 49},
+    {"file": "working/wiki/pass2-buckets/characters-house-karstark/prose-edge-candidates/arthor-karstark.candidates.jsonl", "output": "working/wiki/pass2-buckets/characters-house-karstark/prose-edges/arthor-karstark.edges.jsonl", "rows_emitted": 2, "rows_rejected": 2},
+    {"file": "working/wiki/pass2-buckets/characters-house-karstark/prose-edge-candidates/cregan-karstark.candidates.jsonl", "output": "working/wiki/pass2-buckets/characters-house-karstark/prose-edges/cregan-karstark.edges.jsonl", "rows_emitted": 5, "rows_rejected": 32},
+    {"file": "working/wiki/pass2-buckets/characters-house-karstark/prose-edge-candidates/eddard-karstark.candidates.jsonl", "output": "working/wiki/pass2-buckets/characters-house-karstark/prose-edges/eddard-karstark.edges.jsonl", "rows_emitted": 6, "rows_rejected": 0}
+  ]
+}

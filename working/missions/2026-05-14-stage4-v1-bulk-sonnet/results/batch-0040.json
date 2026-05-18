@@ -1,0 +1,33 @@
+{
+  "batch_id": "batch-0040",
+  "worker_id": "worker-2026-05-17-185910741481",
+  "started_at": "2026-05-17T18:59:10.741481Z",
+  "completed_at": "2026-05-17T19:08:17.026301Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-hoare/prose-edge-candidates/sam-salt.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hogg/prose-edge-candidates/harys-hogg.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hogg/prose-edge-candidates/jon-hogg.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hogg/prose-edge-candidates/priscella-hogg.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hogg/prose-edge-candidates/roger-hogg.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 14,
+    "reject_just_mention": 25,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "CLAIMS": 1,
+    "PERCEIVED_AS": 1,
+    "DUELS": 1,
+    "FIGHTS_IN": 3,
+    "OPPOSES": 3,
+    "SERVES": 1,
+    "DEFEATS": 1,
+    "KILLED_BY": 1,
+    "POISONS": 1,
+    "LOVES": 1
+  },
+  "vocab_gap_questions_filed": 0,
+  "errors": []
+}

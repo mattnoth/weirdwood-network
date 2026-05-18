@@ -1,0 +1,2 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rose-of-red-lake", "target_slug": "crane", "reason": "no-clear-relational-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rose-of-red-lake", "target_slug": "shapechanger", "reason": "no-clear-relational-edge"}

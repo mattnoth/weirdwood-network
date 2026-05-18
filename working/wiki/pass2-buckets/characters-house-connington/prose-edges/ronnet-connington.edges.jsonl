@@ -1,0 +1,5 @@
+{"decision": "emit_edge", "edge_type": "BETROTHED_TO", "source_slug": "ronnet-connington", "target_slug": "brienne-tarth", "confidence": "tier-1", "rationale": "His father betrothed eighteen-year-old Ronnet to Brienne of Tarth; the betrothal was later broken off"}
+{"decision": "emit_edge", "edge_type": "DUELS", "source_slug": "ronnet-connington", "target_slug": "brienne-tarth", "confidence": "tier-1", "rationale": "Defeated by his once-betrothed Brienne of Tarth at the Melee at Bitterbridge"}
+{"decision": "emit_edge", "edge_type": "SERVES", "source_slug": "ronnet-connington", "target_slug": "renly-baratheon", "confidence": "tier-1", "rationale": "Was with King Renly Baratheon's host"}
+{"decision": "emit_edge", "edge_type": "SERVES", "source_slug": "ronnet-connington", "target_slug": "stannis-baratheon", "confidence": "tier-1", "rationale": "Switched sides to King Stannis Baratheon after Renly's death"}
+{"decision": "emit_edge", "edge_type": "SERVES", "source_slug": "ronnet-connington", "target_slug": "joffrey-baratheon", "confidence": "tier-1", "rationale": "Presented to King Joffrey Baratheon in the throne room to swear his allegiance"}

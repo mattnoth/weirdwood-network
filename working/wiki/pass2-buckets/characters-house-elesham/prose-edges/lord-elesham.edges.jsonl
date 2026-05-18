@@ -1,0 +1,2 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-elesham", "target_slug": "alys-arryn", "reason": "Lord Elesham married a daughter of Alys Arryn, not Alys herself; the PARENT_OF edge belongs on Alys's node"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-elesham", "target_slug": "marriage", "reason": "abstract concept reference; not a graph-traversable edge"}

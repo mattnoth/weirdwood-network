@@ -21,7 +21,7 @@ Upon the death of Viserys I, the greens — led by the Hightower faction at cour
 
 ## Edges
 
-- LOCATED_IN: Westeros (wiki:Dance_of_the_Dragons)
+- LOCATED_AT: Westeros (wiki:Dance_of_the_Dragons)
 
 ## Notes
 

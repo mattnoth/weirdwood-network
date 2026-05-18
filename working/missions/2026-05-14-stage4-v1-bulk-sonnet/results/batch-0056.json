@@ -1,0 +1,38 @@
+{
+  "batch_id": "batch-0056",
+  "worker_id": "worker-2026-05-18-1779083007362977",
+  "started_at": "2026-05-18T18:43:30Z",
+  "completed_at": "2026-05-18T18:50:00Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-long/prose-edge-candidates/gareth-long.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-longthorpe/prose-edge-candidates/rolland-longthorpe.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-longwaters/prose-edge-candidates/longwaters.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-longwaters/prose-edge-candidates/rennifer-longwaters.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-lonmouth/prose-edge-candidates/richard-lonmouth.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 21,
+    "reject_just_mention": 31,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "TUTORS": 1,
+    "MANIPULATES": 1,
+    "OPPOSES": 2,
+    "LOCATED_AT": 2,
+    "ATTENDS": 2,
+    "SERVES": 2,
+    "KILLS": 1,
+    "TRAVELS_TO": 1,
+    "SWORN_TO": 2,
+    "ANCESTOR_OF": 1,
+    "REVEALS_TO": 1,
+    "VOWS_TO": 1,
+    "SEEKS": 1,
+    "ALLIES_WITH": 2,
+    "HOLDS_TITLE": 1
+  },
+  "vocab_gap_questions_filed": 0,
+  "errors": []
+}

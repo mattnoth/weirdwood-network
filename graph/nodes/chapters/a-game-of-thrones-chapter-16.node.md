@@ -1,0 +1,38 @@
+---
+name: "A Game of Thrones-Chapter 16"
+type: meta.chapter
+slug: a-game-of-thrones-chapter-16
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Game_of_Thrones-Chapter_16"
+bucket_id: meta-chapters-agot
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+book: a-game-of-thrones
+chapter_number: 16
+pov_character: eddard-stark
+---
+
+## Identity
+
+A Game of Thrones-Chapter 16 is a meta.chapter from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+After four days of searching, [Vayon Poole](wiki:Vayon_Poole) comes to [Ned](wiki:Eddard_Stark) with news that [Arya](wiki:Arya_Stark) has been found unharmed. Ned is relieved that it was [Jory Cassel](wiki:Jory_Cassel) who found her rather than Queen [Cersei](wiki:Cersei_Lannister)'s men. Unfortunately, the [Lannister guards](wiki:House_Lannister_guards) at the gate informed the queen, who had Arya brought directly before King [Robert](wiki:Robert_Baratheon).
+
+Ned rushes to the audience chamber of nearby [Castle Darry](wiki:Castle_Darry), which has been hosting the king's party during the search. He is dismayed to find the chamber full of people, preventing a private and amicable solution. Ned also notes that very few in the crowd are likely to be sympathetic to the Starks; most are either Lannister men or loyal to Ser [Raymun Darry](wiki:Raymun_Darry), a prominent [Targaryen](wiki:House_Targaryen) loyalist who lost family and fortune at the [Trident](wiki:Battle_of_the_Trident). However, Ned is relieved that neither [Jaime Lannister](wiki:Jaime_Lannister) nor [Sandor Clegane](wiki:Sandor_Clegane) are present.
+
+Arya apologizes to Ned profusely as she cries. Ned turns angrily to the king, demanding to know why Arya was not brought to him first. Queen Cersei bristles at his tone but Robert apologizes, explaining that he only wanted to finish the business quickly. Cersei then accuses Arya and [Mycah](wiki:Mycah) of ambushing Joffrey with clubs while setting [Nymeria](wiki:Nymeria_(direwolf)) to tear off his arm. When Joffrey affirms this, Arya calls him a liar. After the king has listened to Arya's side of the story, Lord [Renly](wiki:Renly_Baratheon) begins snickering and asks Joffrey how a skinny nine-year-old girl managed to disarm him with a broom handle. When Joffrey recounts a very different story, King Robert is exasperated.
+
+Ned reminds the king that [Sansa](wiki:Sansa_Stark) was also present and has Sansa brought in to testify. However, Sansa—torn between her family and her love for Joffrey—claims she does not remember. This infuriates Arya, who lunges at Sansa. Cersei uses this as an example of how wild Arya is, and insists she wants Arya punished. King Robert, even more exasperated, orders Ned to discipline Arya while he will discipline Joffrey. Unsatisfied, Cersei demands that Nymeria be killed and offers 100 gold dragons for her pelt. However, since Nymeria has disappeared, Cersei demands the skin of the other direwolf. When Ned protests, Robert only responds that a direwolf is not a pet and that the girl would be happier with a dog.
+
+Sansa finally realizes that they are talking about *her* direwolf, [Lady](wiki:Lady_(direwolf)), and goes crying to Ned. In a final attempt to save Lady, Ned insists that the king execute the wolf himself but Robert only walks away. Ned refuses to let [Ilyn Payne](wiki:Ilyn_Payne) do the task. When Cersei voices suspicion about Ned's intentions, Ned replies that the direwolf is from the [north](wiki:North) and deserves better than a butcher.
+
+With Sansa's cries in his ears, Ned goes to Lady. As he sits beside the wolf waiting for his sword, [Ice](wiki:Ice), Ned considers the names his children chose for their wolves and finds that Sansa chose a good name for her well-behaved wolf. After the deed is done, Ned commands four guardsmen to return Lady's body to [Winterfell](wiki:Winterfell) for burial, insisting that Cersei will never have her skin.
+
+As he is returning, Sandor Clegane and his riders come back from the hunt. Sandor states that while they did not find Arya, they did find her pet and he drops a corpse at Ned's feet. As he bends to uncover the corpse, Ned wonders how he will tell Arya. However, rather than Nymeria, the body turns out to be Arya’s friend Mycah, cut down from horseback. When Ned states that Sandor ran the boy down, the burned man responds, "He ran. But not very fast."

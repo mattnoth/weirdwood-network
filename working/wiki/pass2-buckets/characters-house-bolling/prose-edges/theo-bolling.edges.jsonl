@@ -1,0 +1,11 @@
+{"decision": "emit_edge", "source_slug": "theo-bolling", "target_slug": "alyssa-velaryon", "edge_type": "CONSPIRES_WITH", "confidence_tier": 1, "cite_ref": "", "note": "Theo Bolling was accused of conspiring with Dowager Queen Alyssa Velaryon to place Jaehaerys on the throne"}
+{"decision": "reject_just_mention", "source_slug": "theo-bolling", "target_slug": "eyrie", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "theo-bolling", "target_slug": "faith-militant-uprising", "edge_type": "FIGHTS_IN", "confidence_tier": 1, "cite_ref": "", "note": "Theo participated in Maegor I's campaigns against the Poor Fellows (Faith Militant Uprising)"}
+{"decision": "reject_just_mention", "source_slug": "theo-bolling", "target_slug": "highgarden", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "theo-bolling", "target_slug": "house-arryn", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "theo-bolling", "target_slug": "house-tyrell", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "theo-bolling", "target_slug": "jaehaerys-i-targaryen", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "theo-bolling", "target_slug": "kingsguard", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "theo-bolling", "target_slug": "landed-knight", "reject_reason": "generic-noun-target"}
+{"decision": "emit_edge", "source_slug": "theo-bolling", "target_slug": "maegor-i-targaryen", "edge_type": "SWORN_TO", "confidence_tier": 2, "cite_ref": "", "note": "Theo was a landed knight who served during Maegor I's reign and participated in his campaigns"}
+{"decision": "emit_edge", "source_slug": "theo-bolling", "target_slug": "poor-fellows", "edge_type": "OPPOSES", "confidence_tier": 2, "cite_ref": "", "note": "Theo participated in Maegor's campaigns against the Poor Fellows"}

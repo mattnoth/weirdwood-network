@@ -483,6 +483,9 @@ def task3_reemit_religion_bleed(apply: bool, verbose: bool) -> dict:
         "event": "events",
         "title": "titles",
         "religion": "religions",
+        # Meta (out-of-universe)
+        "meta.chapter": "chapters",
+        "meta": "chapters",
     }
 
     reemitted = []

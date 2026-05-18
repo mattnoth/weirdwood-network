@@ -1,0 +1,194 @@
+{
+  "batch_id": "batch-0014",
+  "status": "done",
+  "completed_at": "2026-05-16T00:00:00Z",
+  "files_processed": 30,
+  "emit_total": 170,
+  "reject_total": 459,
+  "row_total": 629,
+  "validator_result": "CLEAN",
+  "output_files": [
+    "working/wiki/pass2-buckets/characters-house-darry/prose-edges/willem-darry.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-dayne-of-high-hermitage/prose-edges/gerold-dayne.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-dayne/prose-edges/allyria-dayne.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-dayne/prose-edges/arthur-dayne.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-dayne/prose-edges/ashara-dayne.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-dayne/prose-edges/clarisse-dayne.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-dayne/prose-edges/davos-dayne.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-dayne/prose-edges/dyanna-dayne.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-dayne/prose-edges/edric-dayne.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-dayne/prose-edges/joffrey-dayne.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-dayne/prose-edges/lord-dayne-father-of-edric.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-dayne/prose-edges/ulrick-dayne.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-dayne/prose-edges/wylla.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-deddings/prose-edges/darla-deddings.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-deddings/prose-edges/davos-deddings.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-deddings/prose-edges/lady-deddings.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-deddings/prose-edges/lord-deddings.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-deddings/prose-edges/lyonel-deddings.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-doggett/prose-edges/joffrey-doggett.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-dondarrion/prose-edges/bastard-of-blackhaven.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-dondarrion/prose-edges/beric-dondarrion.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-dondarrion/prose-edges/harmon-dondarrion.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-dondarrion/prose-edges/jena-dondarrion.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-dondarrion/prose-edges/lord-dondarrion-father-of-manfred.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-dondarrion/prose-edges/lord-dondarrion-father-of-simon.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-dondarrion/prose-edges/simon-dondarrion.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-drinkwater/prose-edges/drinkwater-twins.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-drinkwater/prose-edges/gerris-drinkwater.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-drumm/prose-edges/andrik-the-unsmiling.edges.jsonl",
+    "working/wiki/pass2-buckets/characters-house-drumm/prose-edges/dale-drumm.edges.jsonl"
+  ],
+  "per_file": [
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-darry/prose-edges/willem-darry.edges.jsonl",
+      "emit": 9,
+      "reject": 34
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-dayne-of-high-hermitage/prose-edges/gerold-dayne.edges.jsonl",
+      "emit": 3,
+      "reject": 38
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-dayne/prose-edges/allyria-dayne.edges.jsonl",
+      "emit": 2,
+      "reject": 3
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-dayne/prose-edges/arthur-dayne.edges.jsonl",
+      "emit": 15,
+      "reject": 64
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-dayne/prose-edges/ashara-dayne.edges.jsonl",
+      "emit": 10,
+      "reject": 47
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-dayne/prose-edges/clarisse-dayne.edges.jsonl",
+      "emit": 0,
+      "reject": 4
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-dayne/prose-edges/davos-dayne.edges.jsonl",
+      "emit": 3,
+      "reject": 7
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-dayne/prose-edges/dyanna-dayne.edges.jsonl",
+      "emit": 0,
+      "reject": 8
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-dayne/prose-edges/edric-dayne.edges.jsonl",
+      "emit": 19,
+      "reject": 34
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-dayne/prose-edges/joffrey-dayne.edges.jsonl",
+      "emit": 5,
+      "reject": 9
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-dayne/prose-edges/lord-dayne-father-of-edric.edges.jsonl",
+      "emit": 4,
+      "reject": 4
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-dayne/prose-edges/ulrick-dayne.edges.jsonl",
+      "emit": 0,
+      "reject": 2
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-dayne/prose-edges/wylla.edges.jsonl",
+      "emit": 2,
+      "reject": 4
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-deddings/prose-edges/darla-deddings.edges.jsonl",
+      "emit": 1,
+      "reject": 0
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-deddings/prose-edges/davos-deddings.edges.jsonl",
+      "emit": 1,
+      "reject": 0
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-deddings/prose-edges/lady-deddings.edges.jsonl",
+      "emit": 1,
+      "reject": 2
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-deddings/prose-edges/lord-deddings.edges.jsonl",
+      "emit": 1,
+      "reject": 4
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-deddings/prose-edges/lyonel-deddings.edges.jsonl",
+      "emit": 5,
+      "reject": 3
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-doggett/prose-edges/joffrey-doggett.edges.jsonl",
+      "emit": 16,
+      "reject": 40
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-dondarrion/prose-edges/bastard-of-blackhaven.edges.jsonl",
+      "emit": 3,
+      "reject": 0
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-dondarrion/prose-edges/beric-dondarrion.edges.jsonl",
+      "emit": 22,
+      "reject": 67
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-dondarrion/prose-edges/harmon-dondarrion.edges.jsonl",
+      "emit": 12,
+      "reject": 6
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-dondarrion/prose-edges/jena-dondarrion.edges.jsonl",
+      "emit": 1,
+      "reject": 2
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-dondarrion/prose-edges/lord-dondarrion-father-of-manfred.edges.jsonl",
+      "emit": 4,
+      "reject": 3
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-dondarrion/prose-edges/lord-dondarrion-father-of-simon.edges.jsonl",
+      "emit": 2,
+      "reject": 5
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-dondarrion/prose-edges/simon-dondarrion.edges.jsonl",
+      "emit": 7,
+      "reject": 9
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-drinkwater/prose-edges/drinkwater-twins.edges.jsonl",
+      "emit": 1,
+      "reject": 11
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-drinkwater/prose-edges/gerris-drinkwater.edges.jsonl",
+      "emit": 12,
+      "reject": 39
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-drumm/prose-edges/andrik-the-unsmiling.edges.jsonl",
+      "emit": 9,
+      "reject": 8
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-drumm/prose-edges/dale-drumm.edges.jsonl",
+      "emit": 0,
+      "reject": 2
+    }
+  ]
+}

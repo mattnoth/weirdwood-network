@@ -1,0 +1,3 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "matrice", "target": "dalla-dragonstone", "reason": "Matrice hears rumors from Dalla; the information-exchange is too casual (gossip/rumors) to constitute a graph-traversable KNOWS or REVEALS_TO edge between these minor characters"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "matrice", "target": "melisandre", "reason": "Matrice hears secondhand rumors about Melisandre; no direct relationship between Matrice and Melisandre"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "matrice", "target": "red-comet", "reason": "The red comet is the subject of rumors Matrice hears; no relationship between Matrice and the comet"}

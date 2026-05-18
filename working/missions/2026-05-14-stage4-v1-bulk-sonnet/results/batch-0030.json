@@ -1,0 +1,35 @@
+{
+  "batch_id": "batch-0030",
+  "worker_id": "worker-20260517T121051Z",
+  "started_at": "2026-05-17T12:10:51.377436Z",
+  "completed_at": "2026-05-17T12:26:00Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-hewett/prose-edge-candidates/glendon-hewett.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hewett/prose-edge-candidates/humfrey-hewett.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hightower-a-j/prose-edge-candidates/addam-hightower.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hightower-a-j/prose-edge-candidates/alerie-hightower.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hightower-a-j/prose-edge-candidates/alfador.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 16,
+    "reject_just_mention": 29,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "TRAVELS_TO": 3,
+    "ALLIES_WITH": 1,
+    "OPPOSES": 2,
+    "PRISONER_OF": 1,
+    "RULES": 1,
+    "FIGHTS_IN": 2,
+    "SIBLING_OF": 1,
+    "SUCCEEDS": 1,
+    "ATTENDS": 3,
+    "SERVES": 1
+  },
+  "vocab_gap_questions_filed": 1,
+  "infrastructure_questions_filed": 1,
+  "notes": "Overwrote two malformed prior outputs from batch-0023 crash worker (missing candidate_kind, wrong edge type ALLIED_WITH, missing evidence_snippet/section/confidence_tier fields). Batch-0030 is a repartition of those files.",
+  "errors": []
+}

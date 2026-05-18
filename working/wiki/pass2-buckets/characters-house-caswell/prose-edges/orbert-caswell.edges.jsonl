@@ -1,0 +1,2 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "orbert-caswell", "target_slug": "annals-of-the-black-centaur", "reasoning": "A book written about Orbert's era; publication context, no person edge from Orbert to the book"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "orbert-caswell", "target_slug": "jorquen", "reasoning": "Septon Jorquen wrote the book about Orbert's era; the author is mentioned but no direct Orbert→Jorquen relationship exists"}

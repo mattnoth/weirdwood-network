@@ -1,0 +1,35 @@
+{
+  "batch_id": "batch-0041",
+  "worker_id": "worker-20260517T192940",
+  "priority_tier": 1,
+  "shape": "source_target",
+  "bucket": "characters-house-hollard",
+  "files_processed": 5,
+  "total_candidates": 115,
+  "emit_count": 17,
+  "reject_count": 98,
+  "escalation_count": 0,
+  "vocab_gap_questions": 0,
+  "errors": [],
+  "edge_types_emitted": {
+    "ATTENDS": 5,
+    "PARALLELS": 3,
+    "OPPOSES": 2,
+    "LOCATED_AT": 1,
+    "DISTRUSTS": 1,
+    "REVEALS_TO": 1,
+    "TRAVELS_TO": 1,
+    "FEARS": 1,
+    "KILLED_BY": 1,
+    "KILLS": 1
+  },
+  "per_file": [
+    {"file": "dontos-hollard", "candidates": 104, "emitted": 12, "rejected": 92},
+    {"file": "jon-hollard", "candidates": 1, "emitted": 0, "rejected": 1},
+    {"file": "robin-hollard", "candidates": 3, "emitted": 2, "rejected": 1},
+    {"file": "steffon-hollard", "candidates": 2, "emitted": 0, "rejected": 2},
+    {"file": "symon-hollard", "candidates": 5, "emitted": 3, "rejected": 2}
+  ],
+  "claimed_at": "2026-05-17T19:29:40Z",
+  "completed_at": "2026-05-17T19:35:04Z"
+}

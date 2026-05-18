@@ -78,3 +78,18 @@
 - **Stage 4 prose-edge-classifier** — next major track. → continue: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`
 - **Per Matt's standing rule, /endsession is NOT auto-run.**
 
+
+---
+
+### Session 48 — General Watcher Prompt (2026-05-12)
+
+**Changes made:**
+- `working/runbooks/general-watcher.md` — NEW. Reusable prompt for watching any running session. Paste into a fresh Claude Code window, tell it what task the running session is on, ask questions. Uses git status + diff + file timestamps as the observation surface. Read-only (no dispatch, no edits). Opus 4.7 recommended. Distinct from `.claude/agents/watcher.md` (mission-specific, requires worker scratch dirs + mission file).
+
+**Decisions:** General watcher lives in `working/runbooks/` (reusable operational prompt), NOT `progress/continue-prompts/` (continue prompts are task-specific, single-use). The "no dispatch" guardrail in the general watcher is appropriate for a catch-all default; mission-specific and dispatcher-watcher variants can relax it per their own spec.
+
+**What's next:**
+- **Alias-backfill round 2** — running in Sonnet. → continue: `progress/continue-prompts/2026-05-12-alias-backfill-round-2.md`
+- **Case-collision tail (65 slugs, optional)** — LOW priority. → continue: `progress/continue-prompts/2026-05-12-case-collision-close.md`
+- **Stage 4 prose-edge-classifier** — next major track. → continue: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`
+- **Per Matt's standing rule, /endsession is NOT auto-run.**

@@ -1,0 +1,2 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "gwin-goodbrother", "target_slug": "aeron-greyjoy", "reason": "Gwin is present when Aeron arrives; incidental presence in the scene, no persistent typed relational edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "gwin-goodbrother", "target_slug": "hammerhorn", "reason": "Hammerhorn is her father's seat where she is present; LOCATED_AT would be inferred residence already on her father's node, not a separate edge from Gwin's node needed"}

@@ -1,0 +1,39 @@
+{
+  "batch_id": "batch-0026",
+  "worker_id": "worker-20260517-050411147",
+  "started_at": "2026-05-17T05:04:11.147Z",
+  "completed_at": "2026-05-17T05:22:00.000Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-harlaw/prose-edge-candidates/gwynesse-harlaw.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-harlaw/prose-edge-candidates/rodrik-harlaw.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-harlaw/prose-edge-candidates/theomore-harlaw.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-harroway/prose-edge-candidates/alys-harroway.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-harroway/prose-edge-candidates/hanna-harroway.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 42,
+    "reject_just_mention": 80,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "SIBLING_OF": 14,
+    "LOCATED_AT": 10,
+    "UNCLE_OF": 3,
+    "CLAIMS": 4,
+    "OPPOSES": 1,
+    "ALLIES_WITH": 3,
+    "ATTENDS": 3,
+    "ADVISES": 1,
+    "DISTRUSTS": 1,
+    "OWNS": 1,
+    "COMMANDS": 1,
+    "RULES": 3,
+    "COUSIN_OF": 1,
+    "TRAVELS_TO": 1,
+    "PRISONER_OF": 1,
+    "KILLED_BY": 1
+  },
+  "vocab_gap_questions_filed": 1,
+  "errors": []
+}

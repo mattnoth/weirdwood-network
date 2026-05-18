@@ -1,0 +1,6 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "corlos", "target_slug": "gold", "reasoning": "Material; the gold vein Corlos discovers is the treasure, not a person edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "corlos", "target_slug": "lannisport", "reasoning": "Location; where Lannisport would eventually stand near Corlos's village"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "corlos", "target_slug": "lion", "reasoning": "Animal; the lion Corlos tracked to its den"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "corlos", "target_slug": "old-gods-of-the-forest", "reasoning": "Abstract supernatural entity; 'the old gods were so pleased' is legendary attribution in a mythic founding story, insufficient for WORSHIPS edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "corlos", "target_slug": "westeros", "reasoning": "Location; Westeros mentioned as the continent"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "corlos", "target_slug": "yandel", "reasoning": "Maester Yandel is the narrator commenting on the legend; no direct Corlos→Yandel edge"}

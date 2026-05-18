@@ -1,0 +1,22 @@
+---
+name: "A Clash of Kings-Chapter 4"
+type: meta.chapter
+slug: a-clash-of-kings-chapter-4
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Clash_of_Kings-Chapter_4"
+bucket_id: meta-chapters-acok
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+book: a-clash-of-kings
+chapter_number: 4
+pov_character: bran-stark
+---
+
+## Identity
+
+A Clash of Kings-Chapter 4 is a meta.chapter from the AWOIAF wiki.
+
+## Edges
+

@@ -1,0 +1,3 @@
+{"edge_type": "OWNS", "source_slug": "bryen", "target_slug": "old-blind-dog", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "LOCATED_AT", "source_slug": "bryen", "target_slug": "fingers", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "SERVES", "source_slug": "bryen", "target_slug": "petyr-baelish", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}

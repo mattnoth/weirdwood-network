@@ -1,0 +1,60 @@
+{
+  "batch_id": "batch-0049",
+  "worker_id": "worker-20260518025357414732",
+  "status": "done",
+  "completed_at": "2026-05-18T03:15:52.561781+00:00",
+  "files_processed": 5,
+  "files": [
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-karstark/prose-edge-candidates/harrion-karstark.candidates.jsonl",
+      "output": "working/wiki/pass2-buckets/characters-house-karstark/prose-edges/harrion-karstark.edges.jsonl",
+      "candidates_total": 87,
+      "rows_emitted": 20,
+      "rows_rejected": 67
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-karstark/prose-edge-candidates/rickard-karstark.candidates.jsonl",
+      "output": "working/wiki/pass2-buckets/characters-house-karstark/prose-edges/rickard-karstark.edges.jsonl",
+      "candidates_total": 82,
+      "rows_emitted": 35,
+      "rows_rejected": 47
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-karstark/prose-edge-candidates/torrhen-karstark.candidates.jsonl",
+      "output": "working/wiki/pass2-buckets/characters-house-karstark/prose-edges/torrhen-karstark.edges.jsonl",
+      "candidates_total": 6,
+      "rows_emitted": 5,
+      "rows_rejected": 1
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-kenning-of-harlaw/prose-edge-candidates/herrock-kenning.candidates.jsonl",
+      "output": "working/wiki/pass2-buckets/characters-house-kenning-of-harlaw/prose-edges/herrock-kenning.edges.jsonl",
+      "candidates_total": 4,
+      "rows_emitted": 3,
+      "rows_rejected": 1
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-kenning-of-harlaw/prose-edge-candidates/lord-kenning.candidates.jsonl",
+      "output": "working/wiki/pass2-buckets/characters-house-kenning-of-harlaw/prose-edges/lord-kenning.edges.jsonl",
+      "candidates_total": 4,
+      "rows_emitted": 1,
+      "rows_rejected": 3
+    }
+  ],
+  "totals": {
+    "candidates_total": 183,
+    "rows_emitted": 64,
+    "rows_rejected": 119,
+    "emit_rate_pct": 35.0
+  },
+  "vocabulary_gap_questions": 1,
+  "vocabulary_gaps": [
+    {
+      "proposed_type": "NAMED_AFTER",
+      "context": "rickard-karstark named after Rickard Stark; no eponym/naming type in vocabulary"
+    }
+  ],
+  "escalations": [],
+  "errors": [],
+  "concerns": []
+}

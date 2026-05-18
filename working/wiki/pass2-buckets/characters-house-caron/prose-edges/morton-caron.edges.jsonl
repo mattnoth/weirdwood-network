@@ -1,0 +1,3 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "morton-caron", "target_slug": "golden-wedding", "reasoning": "Attended the Golden Wedding; event attendance, no structural edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "morton-caron", "target_slug": "jaehaerys-i-targaryen", "reasoning": "Entertained by the king at the Golden Wedding; recipient of royal hospitality, no direct typed edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "morton-caron", "target_slug": "solar", "reasoning": "Location where the meeting occurred; location mention"}

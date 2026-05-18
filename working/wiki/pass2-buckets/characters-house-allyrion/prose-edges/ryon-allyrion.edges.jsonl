@@ -1,0 +1,4 @@
+{"edge_type": "LOCATED_AT", "source_slug": "ryon-allyrion", "target_slug": "dorne", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "LOCATED_AT", "source_slug": "ryon-allyrion", "target_slug": "sunspear", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "TRAVELS_TO", "source_slug": "ryon-allyrion", "target_slug": "kings-landing", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "SERVES", "source_slug": "ryon-allyrion", "target_slug": "oberyn-martell", "confidence_tier": 2, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}

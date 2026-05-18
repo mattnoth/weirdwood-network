@@ -22,7 +22,7 @@ King Maegor I Targaryen rode Balerion to destroy the Sept of Remembrance, which 
 ## Edges
 
 - PART_OF: Faith Militant uprising (track_b: Conflict)
-- LOCATED_IN: Sept of Remembrance (wiki:Burning_of_the_Sept_of_Remembrance)
+- LOCATED_AT: Sept of Remembrance (wiki:Burning_of_the_Sept_of_Remembrance)
 
 ## Notes
 

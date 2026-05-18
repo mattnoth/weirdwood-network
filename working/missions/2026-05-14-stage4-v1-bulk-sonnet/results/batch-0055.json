@@ -1,0 +1,34 @@
+{
+  "batch_id": "batch-0055",
+  "worker_id": "worker-20260518-052322020713",
+  "started_at": "2026-05-18T05:23:29Z",
+  "completed_at": "2026-05-18T05:37:46.887825+00:00",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-lipps/prose-edge-candidates/ossifer-lipps.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-locke/prose-edge-candidates/donnel-locke.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-locke/prose-edge-candidates/mallador-locke.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-locke/prose-edge-candidates/ondrew-locke.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-locke/prose-edge-candidates/sybelle-glover.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 21,
+    "reject_just_mention": 64,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "SEEKS": 2,
+    "TRAVELS_TO": 4,
+    "SERVES": 2,
+    "PRISONER_OF": 3,
+    "ATTENDS": 2,
+    "FIGHTS_IN": 3,
+    "PERCEIVED_AS": 1,
+    "WORSHIPS": 1,
+    "ALLIES_WITH": 1,
+    "NEGOTIATES_WITH": 2,
+    "LOCATED_AT": 1
+  },
+  "vocab_gap_questions_filed": 0,
+  "errors": []
+}

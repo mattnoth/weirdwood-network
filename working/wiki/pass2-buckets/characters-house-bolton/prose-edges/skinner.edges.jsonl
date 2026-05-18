@@ -1,0 +1,15 @@
+{"decision": "reject_just_mention", "source_slug": "skinner", "target_slug": "domeric-bolton", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "skinner", "target_slug": "ramsay-snow", "edge_type": "SERVES", "confidence_tier": 1, "cite_ref": "", "note": "Skinner is one of Ramsay Bolton's Bastard's Boys"}
+{"decision": "reject_just_mention", "source_slug": "skinner", "target_slug": "arnolf-karstark", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "skinner", "target_slug": "arya-stark", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "skinner", "target_slug": "dreadfort", "edge_type": "LOCATED_AT", "confidence_tier": 1, "cite_ref": "", "note": "Skinner is present in the great hall of the Dreadfort; serves there"}
+{"decision": "reject_just_mention", "source_slug": "skinner", "target_slug": "hother-umber", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "skinner", "target_slug": "jeyne-poole", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "skinner", "target_slug": "ramsay-snow", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "skinner", "target_slug": "sour-alyn", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "skinner", "target_slug": "theon-greyjoy", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "skinner", "target_slug": "walder-frey-son-of-jammos", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "skinner", "target_slug": "walder-frey-son-of-merrett", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "skinner", "target_slug": "winterfell", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "skinner", "target_slug": "theon-greyjoy", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "skinner", "target_slug": "theon-greyjoy", "reject_reason": "quote-attribution"}

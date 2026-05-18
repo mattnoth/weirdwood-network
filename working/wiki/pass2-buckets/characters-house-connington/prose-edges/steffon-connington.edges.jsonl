@@ -1,0 +1,2 @@
+{"decision": "emit_edge", "edge_type": "KILLED_BY", "source_slug": "steffon-connington", "target_slug": "wyland-wyl", "confidence": "tier-1", "rationale": "In 133 AC he was slain by Wyland Wyl"}
+{"decision": "emit_edge", "edge_type": "SPOUSE_OF", "source_slug": "steffon-connington", "target_slug": "elenda-caron", "confidence": "tier-1", "rationale": "Lady Elenda Caron married Steffon Connington"}

@@ -1,0 +1,26 @@
+---
+name: "A Feast for Crows-Chapter 25"
+type: meta.chapter
+slug: a-feast-for-crows-chapter-25
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Feast_for_Crows-Chapter_25"
+bucket_id: meta-chapters-affc
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+book: a-feast-for-crows
+chapter_number: 25
+pov_character: brienne-of-tarth
+---
+
+## Identity
+
+A Feast for Crows-Chapter 25 is a meta.chapter from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+Returning to [Maidenpool](wiki:Maidenpool), [Hyle Hunt](wiki:Hyle_Hunt) informs [Randyll Tarly](wiki:Randyll_Tarly) that [Brienne of Tarth](wiki:Brienne_of_Tarth) has killed three of the [Bloody Mummers](wiki:Bloody_Mummers). Tarly again warns her against playing a [knight](wiki:Knight), but Brienne will not give up her mission to find [Sansa Stark](wiki:Sansa_Stark). She and [Podrick](wiki:Podrick_Payne) meet up with Ser Hyle the next morning, and he tells them of his plan for finding [Sandor Clegane](wiki:Sandor_Clegane). He reveals that the [Hound](wiki:Hound) has not joined [Beric Dondarrion](wiki:Beric_Dondarrion), and that the [Lightning Lord's band](wiki:Brotherhood_Without_Banners) had no part in the [raid on Saltpans](wiki:Raid_on_Saltpans). Lord Tarly has created this rumour in the hopes of turning the [smallfolk](wiki:Smallfolk) against Lord Beric. Ser Hyle knows a [septon](wiki:Septon) with great knowledge of the [Riverlands](wiki:Riverlands), and proposes that they accompany the man to [Saltpans](wiki:Saltpans). When Brienne says she has no intention of traveling with Hunt, he tells her that he is no longer in Lord Tarly's service. They soon depart for Saltpans, while Septon [Meribald](wiki:Meribald) talks of the gods, his past and the great bands of [wolves](wiki:Wolves) in the [Riverlands](wiki:Riverlands) led by [a demon of a she-wolf](wiki:Nymeria_(direwolf)). Meribald tells them that they may encounter [broken men](wiki:Broken_men) traumatized by their experiences in war on their way to [Quiet Isle](wiki:Quiet_Isle), and Brienne surmises that the septon himself once had [such an experience](wiki:War_of_the_Ninepenny_Kings) before he discovered his piety.

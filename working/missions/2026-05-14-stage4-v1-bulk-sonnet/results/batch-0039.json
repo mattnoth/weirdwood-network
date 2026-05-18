@@ -1,0 +1,30 @@
+{
+  "batch_id": "batch-0039",
+  "worker_id": "worker-2026-05-17-184525787355",
+  "started_at": "2026-05-17T18:45:25.787355+00:00",
+  "completed_at": "2026-05-17T18:52:24.970323+00:00",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-hoare/prose-edge-candidates/erich-hoare.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hoare/prose-edge-candidates/harlan-hoare.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hoare/prose-edge-candidates/harren-the-red.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hoare/prose-edge-candidates/lord-commander-hoare.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hoare/prose-edge-candidates/ravos-hoare.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 9,
+    "reject_just_mention": 30,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "SIBLING_OF": 2,
+    "OPPOSES": 1,
+    "KILLS": 2,
+    "KILLED_BY": 2,
+    "FIGHTS_IN": 1,
+    "RULES": 1,
+    "LOCATED_AT": 1
+  },
+  "vocab_gap_questions_filed": 0,
+  "errors": []
+}

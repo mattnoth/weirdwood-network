@@ -1,8 +1,8 @@
 {
   "version": "v1",
-  "computed_at": "2026-05-12T21:45:29Z",
+  "computed_at": "2026-05-14T00:25:01Z",
   "stats": {
-    "nodes_scanned": 7720,
+    "nodes_scanned": 8052,
     "total_aliases": 1850,
     "alias_to_canonical_count": 1433,
     "alias_collisions": 30,

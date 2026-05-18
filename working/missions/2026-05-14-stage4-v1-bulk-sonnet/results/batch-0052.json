@@ -1,0 +1,37 @@
+{
+  "batch_id": "batch-0052",
+  "worker_id": "worker-20260518-042637437203",
+  "started_at": "2026-05-18T04:26:37.437336+00:00",
+  "completed_at": "2026-05-18T04:43:50.235559+00:00",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-lannister-of-casterly-rock/prose-edge-candidates/lancel-lannister.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-lannister-of-lannisport/prose-edge-candidates/ella-lannister.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-lannister-of-lannisport/prose-edge-candidates/emory-hill.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-lannister-of-lannisport/prose-edge-candidates/rosamund-lannister.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-lannister-of-lannisport/prose-edge-candidates/theomore-lannister.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 33,
+    "reject_just_mention": 100,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "COUSIN_OF": 4,
+    "FIGHTS_IN": 3,
+    "OPPOSES": 3,
+    "SERVES": 8,
+    "SIBLING_OF": 2,
+    "ATTENDS": 1,
+    "RULES": 1,
+    "WORSHIPS": 1,
+    "NEPHEW_OF": 1,
+    "PROTECTS": 1,
+    "LOCATED_AT": 3,
+    "SWORN_TO": 1,
+    "TRAVELS_TO": 1,
+    "DISGUISED_AS": 1
+  },
+  "vocab_gap_questions_filed": 0,
+  "errors": []
+}

@@ -1,0 +1,30 @@
+---
+name: "A Storm of Swords-Chapter 68"
+type: meta.chapter
+slug: a-storm-of-swords-chapter-68
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords-Chapter_68"
+bucket_id: meta-chapters-asos
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+book: a-storm-of-swords
+chapter_number: 68
+pov_character: sansa-stark
+---
+
+## Identity
+
+A Storm of Swords-Chapter 68 is a meta.chapter from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+[Sansa](wiki:Sansa_Stark) is alarmed to discover that [Littlefinger](wiki:Petyr_Baelish) has no intention of bringing her home; instead she is being taken to [the Vale of Arryn](wiki:The_Vale_of_Arryn). They land at [the tiny tower](wiki:Drearfort) of [House Baelish](wiki:House_Baelish) that Petyr is lord of, and he stresses that Sansa must use a new name, calling her [Alayne Stone](wiki:Alayne_Stone) so that no one will know who she really is.
+
+She learns that [Oswell](wiki:Oswell_Kettleblack) is actually the [Kettleblacks](wiki:House_Kettleblack)' father, and Littlefinger leads her to discern that it was the [Queen of Thorns](wiki:Olenna_Tyrell) who poisoned [Joffrey](wiki:Joffrey_Baratheon) when she took one of the amethysts from Sansa's hair net. All the plans were arranged by Littlefinger, who met Lady Olenna when he brokered the alliance that joined [Highgarden](wiki:Highgarden) and [House Lannister](wiki:House_Lannister).
+
+Soon after, [Lysa Arryn](wiki:Lysa_Arryn) arrives with a small retinue, and she insists that Petyr wed her now at his tower instead of the [Eyrie](wiki:Eyrie). Lysa wants to make another child with Petyr, after [her father](wiki:Hoster_Tully) aborted the first child years ago. A drunken [Marillion](wiki:Marillion) tries to seduce Sansa that night, but [Lothor Brune](wiki:Lothor_Brune) forces him away. The next morning, Petyr tells Alayne that Lysa now knows the girl's identity. Lysa does not like having Sansa around, although she does wish to marry her niece to her son, [Robert](wiki:Robert_Arryn).

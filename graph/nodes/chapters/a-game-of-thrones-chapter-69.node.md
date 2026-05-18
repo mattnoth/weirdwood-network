@@ -1,0 +1,48 @@
+---
+name: "A Game of Thrones-Chapter 69"
+type: meta.chapter
+slug: a-game-of-thrones-chapter-69
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Game_of_Thrones-Chapter_69"
+bucket_id: meta-chapters-agot
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+book: a-game-of-thrones
+chapter_number: 69
+pov_character: tyrion-lannister
+---
+
+## Identity
+
+A Game of Thrones-Chapter 69 is a meta.chapter from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+The army has just returned to the [inn at the crossroads](wiki:Inn_at_the_crossroads) when a messenger arrives with word of Ser [Jaime Lannister](wiki:Jaime_Lannister)’s [capture](wiki:Battle_in_the_Whispering_Wood) and the [defeat](wiki:Battle_of_the_Camps) of his army at [Riverrun](wiki:Riverrun). Lord [Tywin](wiki:Tywin_Lannister) is upset that the [Starks](wiki:House_Stark) have his son. The news makes [Tyrion](wiki:Tyrion_Lannister) think back on their grueling countermarch. After realizing that [Robb Stark](wiki:Robb_Stark) had split his forces, Lord Tywin set a grueling pace back toward the [Trident](wiki:Trident) in an attempt to reach Riverrun before the Starks. They left the bodies of the weak and the wounded in their wake every day and it was all for nothing; Robb Stark has beaten them there by many days.
+
+Ser [Harys Swyft](wiki:Harys_Swyft) bemoans Jaime’s decision to split his army into three camps, but Ser [Kevan Lannister](wiki:Kevan_Lannister) explains calmly that Riverrun’s position at the fork of the [Tumblestone](wiki:Tumblestone) and the [Red Fork](wiki:Red_Fork) forces any besieger to do just that, placing one army north of the Tumblestone, one south of the Red Fork, and one between the two rivers to the west.
+
+Jaime’s army had no warning. Few of their outriders returned and those who did had seen nothing. The blame for their disappearance fell on a small raiding force commanded by [Marq Piper](wiki:Marq_Piper) and Jaime rode out personally to deal with them in the Whispering Wood and did not return. Robb’s force attacked the north camp first during the night. [The Blackfish](wiki:Brynden_Tully) led the attack, cutting down the sentries. When Lord [Andros Brax](wiki:Andros_Brax) saw that the northern camp was under attack, he led the men of the western camp across the Tumblestone in rafts to join the battle. However, the current pushed them downstream into range of the catapults of Riverrun. Many of the rafts were sunk or overturned and Lord Brax was drowned by his heavy plate armor. Those few who reached the far bank found the enemy waiting for them. Ser [Flement Brax](wiki:Flement_Brax), Lord Brax’s son, is disquieted to hear of the death of his father.
+
+The camp between the rivers was overwhelmed as well. While Lord Brax was attempting to cross, two columns of armored horse swept in from the west led by Robb Stark himself with his [direwolf](wiki:Grey_Wind) at his side. A few [Lannister](wiki:House_Lannister) pikemen managed to hold against the first charge, but Lord [Tytos Blackwood](wiki:Tytos_Blackwood) led a sortie from Riverrun to take them from the rear. [Greatjon Umber](wiki:Greatjon_Umber) fired the siege towers and Lord Blackwood liberated the prisoners, including Ser [Edmure Tully](wiki:Edmure_Tully).
+
+The south camp, under the command of Ser [Forley Prester](wiki:Forley_Prester), was able to retreat in good order back toward the [Golden Tooth](wiki:Golden_Tooth) with 2,000 spears and as many bowmen, but the Tyroshi [sellswords](wiki:Mercenary) in his camp struck their banners and went over to the enemy. Kevan curses Jaime for not heeding his warning about mercenaries.
+
+Ser Harys exclaims that all is lost. Jaime’s host is all destroyed or put to flight and the Starks and [Tullys](wiki:House_Tully) now stand astride their supply lines, cutting Lord Tywin’s host off from their supplies and their [homeland](wiki:Westerlands). Robb Stark can even march on [Casterly Rock](wiki:Casterly_Rock) if he wishes. Ser Harys insists that they must sue for peace. At that, Tyrion shatters his wine cup against a wall, declaring that Ser Harys will have better luck drinking from his broken cup than making peace with Robb Stark now that [Joffrey](wiki:Joffrey_Baratheon) has beheaded [Eddard Stark](wiki:Eddard_Stark).
+
+Ser [Addam Marbrand](wiki:Addam_Marbrand) insists that two battles do not make a war, while Lord [Leo Lefford](wiki:Leo_Lefford) suggests a truce and an exchange of prisoners. Tyrion only scoffs that the Starks hold far more prisoners than they do and that Eddard Stark’s head will not get his brother Jaime back; Robb is winning. When Lefford mentions that they hold Robb’s sisters, Marbrand states that only an utter fool would exchange two girls for Jaime. Tyrion also shoots down Lefford’s suggestion of a monetary ransom, declaring that the Starks can melt Jaime’s armor if they need gold. Ser Harys then suggests that they get their friends in the court to join them and to raise a new host at Casterly Rock. Lord Tywin has been even quieter than usual. After reiterating that they have his son, Tywin orders everyone but Tyrion and Kevan out.
+
+Tyrion is going to ask for wine but his father gives him his, untouched. Lord Tywin tells Tyrion that he was right about Eddard Stark: alive, Eddard could have been used to bargain a peace and buy time to deal with [Robert’s](wiki:Robert_Baratheon) brothers. Tywin states the execution was madness and rebuffs Tyrion’s attempt to excuse Joffrey for his youth, though at least Joffrey did not marry a [whore](wiki:Tysha).
+
+Lord Tywin explains that [Varys](wiki:Varys) has heard reports that [Renly Baratheon](wiki:Renly_Baratheon) has wed [Margaery Tyrell](wiki:Margaery_Tyrell) and declared himself king, with all the might of [Highgarden](wiki:Highgarden) and [Storm's End](wiki:Storm's_End) behind him. Lord Tywin also informs them that [Cersei](wiki:Cersei_Lannister) has commanded him to march to defend [King's Landing](wiki:King's_Landing). Tyrion can tell that Tywin is not happy about being commanded. Cersei has not told Joffrey of Renly’s claim, fearing her son will insist on leading the [City Watch](wiki:City_Watch_of_King's_Landing) against Renly and leave the city undefended against [Stannis Baratheon](wiki:Stannis_Baratheon). Lord Tywin admits that, from the beginning, he has considered Stannis the most dangerous, and yet the Lord of [Dragonstone](wiki:Dragonstone) has done nothing; Varys has only heard whisperings that Stannis is building a fleet, hiring sellswords, and seeking the counsel of a [shadowbinder](wiki:Shadowbinder) from [Asshai](wiki:Asshai).
+
+Tywin then details their position on a map. With Jaime’s defeat, they are in a bad situation: [Roose Bolton](wiki:Roose_Bolton)’s remnants are to the north, enemies hold the [Twins](wiki:Twins) and [Moat Cailin](wiki:Moat_Cailin), and Robb Stark is to the west so they cannot retreat to [Lannisport](wiki:Lannisport) without giving battle, while Jaime’s army has ceased to exist and [Beric Dondarrion](wiki:Beric_Dondarrion) and [Thoros of Myr](wiki:Thoros_of_Myr) plague their foraging parties. Then there are Dragonstone, Storm’s End, and Highgarden to the south calling their banners. Tyrion’s jest that at least [Rhaegar Targaryen](wiki:Rhaegar_Targaryen) is still dead goes unappreciated. If they remain where they are they might get caught between three armies. Tywin explains that he plans to go to [Harrenhal](wiki:Harrenhal) to confront Robb Stark. Ser [Addam Marbrand](wiki:Addam_Marbrand) will screen their movements, while [Gregor Clegane](wiki:Gregor_Clegane), [Vargo Hoat](wiki:Vargo_Hoat), and Ser [Amory Lorch](wiki:Amory_Lorch) with 300 men each will set fire to the [riverlands](wiki:Riverlands) south of the Red Fork.
+
+Once Ser Kevan leaves to issue the orders, Lord Tywin offers to let Tyrion’s [clansmen](wiki:Vale_mountain_clans) ride with Vargo Hoat, but Tyrion wishes to keep them close. Lord Tywin insists that Tyrion must learn to control them then, because he will not have King’s Landing pillaged. Tyrion does not understand until his father explains that he is sending him to court to act as [Hand of the King](wiki:Hand_of_the_King) and clean up the mess Cersei and the [small council](wiki:Small_council) have created. Lord Tywin goes on to rant about the raising of [Janos Slynt](wiki:Janos_Slynt), the dishonoring of Ser [Barristan Selmy](wiki:Barristan_Selmy)--who lent honor to any man he served--and the appointment of [the Hound](wiki:Sandor_Clegane) to the [Kingsguard](wiki:Kingsguard). He also tasks Tyrion with bringing Joffrey under control if Cersei continues to fail and gives instructions to execute any councilors who play Tyrion false. When Tyrion asks why ‘‘he’’ is being sent, Tywin states it is because Tyrion is his son; Tyrion, however, thinks it is because Tywin has given up Jaime for lost. As he leaves, Tywin commands that Tyrion is not to take [his whore](wiki:Shae) to court.
+
+Tyrion sits for a long while in the common room before going to his bed with Shae and whispering that he is of a mind to take her to King’s Landing.

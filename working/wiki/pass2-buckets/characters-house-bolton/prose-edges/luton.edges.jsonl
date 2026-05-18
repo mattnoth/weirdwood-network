@@ -1,0 +1,6 @@
+{"decision": "reject_just_mention", "source_slug": "luton", "target_slug": "house-frey", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "luton", "target_slug": "house-manderly", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "luton", "target_slug": "jeyne-poole", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "luton", "target_slug": "knight", "reject_reason": "generic-noun-target"}
+{"decision": "emit_edge", "source_slug": "luton", "target_slug": "ramsay-snow", "edge_type": "SERVES", "confidence_tier": 1, "cite_ref": "", "note": "Luton is one of Ramsay Bolton's men-at-arms at Winterfell"}
+{"decision": "reject_just_mention", "source_slug": "luton", "target_slug": "white-harbor", "reject_reason": "just-mention"}

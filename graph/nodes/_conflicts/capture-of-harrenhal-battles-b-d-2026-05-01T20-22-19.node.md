@@ -26,7 +26,7 @@ After Lord Roose Bolton left Harrenhal to its new lord Vargo Hoat of the Brave C
 ## Edges
 
 - PART_OF: War of the Five Kings (track_b: Conflict)
-- LOCATED_IN: Harrenhal (wiki:Capture_of_Harrenhal)
+- LOCATED_AT: Harrenhal (wiki:Capture_of_Harrenhal)
 - COMMANDS_IN: Gregor Clegane (wiki:Capture_of_Harrenhal)
 - KILLS: Vargo Hoat (wiki:Capture_of_Harrenhal)
 

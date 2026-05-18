@@ -1,0 +1,14 @@
+{"source_slug": "qarl-corbray", "target_slug": "lady-forlorn", "edge_type": "WIELDS", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "qarl-corbray", "target_slug": "aegon-targaryen-son-of-aenys-i", "edge_type": "ALLIES_WITH", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "qarl-corbray", "target_slug": "battle-beneath-the-gods-eye", "edge_type": "FIGHTS_IN", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "qarl-corbray", "target_slug": "davos-darklyn", "edge_type": "KILLS", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "qarl-corbray", "target_slug": "maegor-i-targaryen", "edge_type": "OPPOSES", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "qarl-corbray", "target_slug": "pinkmaiden-castle", "edge_type": "TRAVELS_TO", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "qarl-corbray", "target_slug": "aerea-targaryen", "edge_type": "PROTECTS", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "qarl-corbray", "target_slug": "alyssa-velaryon", "edge_type": "SERVES", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "qarl-corbray", "target_slug": "daemon-velaryon", "edge_type": "ALLIES_WITH", "confidence_tier": 2, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "qarl-corbray", "target_slug": "jaehaerys-i-targaryen", "edge_type": "SERVES", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "qarl-corbray", "target_slug": "mattheus", "edge_type": "OPPOSES", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "qarl-corbray", "target_slug": "rogar-baratheon", "edge_type": "OPPOSES", "confidence_tier": 1, "cite_ref": "## Origins", "decision": "emit_edge"}
+{"source_slug": "qarl-corbray", "target_slug": "ronnal-baratheon", "edge_type": "OPPOSES", "confidence_tier": 2, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "qarl-corbray", "target_slug": "small-council", "edge_type": "MEMBER_OF", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}

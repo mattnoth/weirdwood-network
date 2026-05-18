@@ -1,0 +1,13 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "bethany-blackwood", "target": "cersei-lannister", "reason": "proposed-attendance-not-yet-executed"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "bethany-blackwood", "target": "hoster-blackwood", "reason": "jaime-taking-hoster-not-bethany-hoster-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "bethany-blackwood", "target": "jaime-lannister", "reason": "jaime-is-external-agent-not-direct-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "bethany-blackwood", "target": "jonos-bracken", "reason": "siege-context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "bethany-blackwood", "target": "kings-landing", "reason": "proposed-travel-uncertain"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "bethany-blackwood", "target": "lord-of-the-stone-hedge", "reason": "title-descriptor-not-entity"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "bethany-blackwood", "target": "siege-of-raventree", "reason": "potential-hostage-not-participant"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "bethany-blackwood", "target": "tommen-baratheon", "reason": "context-mention-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "bethany-blackwood", "target": "jaime-lannister", "reason": "quote-attribution-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "bethany-blackwood", "target": "jaime-lannister", "reason": "quote-attribution-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "bethany-blackwood", "target": "jonos-bracken", "reason": "quote-attribution-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "bethany-blackwood", "target": "kings-landing", "reason": "quote-content-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "bethany-blackwood", "target": "tommen-baratheon", "reason": "quote-content-not-relational"}

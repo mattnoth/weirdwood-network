@@ -1,0 +1,36 @@
+{
+  "batch_id": "batch-0033",
+  "worker_id": "worker-20260517172416724085",
+  "started_at": "2026-05-17T17:24:16.724085Z",
+  "completed_at": "2026-05-17T17:56:00.000000Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-hightower-a-j/prose-edge-candidates/garmund-hightower.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hightower-a-j/prose-edge-candidates/garth-hightower.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hightower-a-j/prose-edge-candidates/gerold-hightower.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hightower-a-j/prose-edge-candidates/gunthor-hightower.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hightower-a-j/prose-edge-candidates/high-septon-brother-of-donnel-hightower.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 23,
+    "reject_just_mention": 70,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "LOCATED_AT": 3,
+    "SERVES": 2,
+    "SIBLING_OF": 2,
+    "OPPOSES": 5,
+    "APPOINTS": 3,
+    "SUCCEEDS": 1,
+    "ATTENDS": 1,
+    "COMMANDS_IN": 1,
+    "FIGHTS_IN": 2,
+    "ADVISES": 1,
+    "PROTECTS": 1,
+    "SEEKS": 1,
+    "KNOWS": 1
+  },
+  "vocab_gap_questions_filed": 0,
+  "errors": []
+}

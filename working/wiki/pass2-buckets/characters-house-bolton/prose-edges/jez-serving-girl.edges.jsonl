@@ -1,0 +1,6 @@
+{"decision": "reject_just_mention", "source_slug": "jez-serving-girl", "target_slug": "jeyne-poole", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "jez-serving-girl", "target_slug": "maisie", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "jez-serving-girl", "target_slug": "mance-rayder", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "jez-serving-girl", "target_slug": "ramsay-snow", "edge_type": "SERVES", "confidence_tier": 3, "cite_ref": "", "note": "Jez is one of the usual servants at Winterfell during Ramsay's tenure there"}
+{"decision": "reject_just_mention", "source_slug": "jez-serving-girl", "target_slug": "spearwife", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "jez-serving-girl", "target_slug": "theon-greyjoy", "reject_reason": "just-mention"}

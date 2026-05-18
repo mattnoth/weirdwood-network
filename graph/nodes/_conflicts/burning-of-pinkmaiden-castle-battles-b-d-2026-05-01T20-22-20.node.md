@@ -22,7 +22,7 @@ After the Lannister invasion of the riverlands, Ser Gregor Clegane's raiding par
 ## Edges
 
 - PART_OF: War of the Five Kings (track_b: Conflict)
-- LOCATED_IN: Pinkmaiden Castle (wiki:Burning_of_Pinkmaiden_Castle)
+- LOCATED_AT: Pinkmaiden Castle (wiki:Burning_of_Pinkmaiden_Castle)
 - COMMANDS_IN: Gregor Clegane (wiki:Burning_of_Pinkmaiden_Castle)
 
 ## Notes

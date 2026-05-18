@@ -1,0 +1,4 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jeyne-lothston", "target_slug": "bethany-bracken", "reason": "circumstantial-reference-not-direct-relationship"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jeyne-lothston", "target_slug": "hand-of-the-king", "reason": "target-is-title-concept-not-direct-relationship"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jeyne-lothston", "target_slug": "harrenhal", "reason": "setting-reference-not-direct-spatial-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jeyne-lothston", "target_slug": "lucas-lothston-husband-of-falena", "reason": "reverse-direction-edge-belongs-on-parent-node"}

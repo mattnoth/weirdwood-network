@@ -22,7 +22,7 @@ The attack was devised by Euron Greyjoy, who conceived the plan to strike the La
 ## Edges
 
 - PART_OF: Greyjoy's Rebellion (track_b: Conflict)
-- LOCATED_IN: Lannisport (wiki:Burning_of_the_Lannister_fleet)
+- LOCATED_AT: Lannisport (wiki:Burning_of_the_Lannister_fleet)
 - COMMANDS_IN: Victarion Greyjoy (wiki:Burning_of_the_Lannister_fleet)
 
 ## Notes

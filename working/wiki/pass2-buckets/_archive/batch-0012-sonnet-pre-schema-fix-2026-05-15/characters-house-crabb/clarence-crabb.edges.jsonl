@@ -1,0 +1,3 @@
+{"source_slug": "clarence-crabb", "target_slug": "aurochs", "edge_type": "OWNS", "confidence_tier": 2, "cite_ref": "## Appearances", "decision": "emit_edge", "notes": "legendary mount attributed to Clarence in folk tradition"}
+{"source_slug": "clarence-crabb", "target_slug": "galladon-of-morne", "edge_type": "PARALLELS", "confidence_tier": 2, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "clarence-crabb", "target_slug": "whispers", "edge_type": "RULES", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}

@@ -1,0 +1,2 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "elwood-blackbar", "target": "209-ac", "reason": "Year page — temporal setting of the tourney, not a graph relationship"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "source": "elwood-blackbar", "target": "tourney-at-ashford-meadow", "edge_type": "CONTEMPORARY_WITH", "qualifier": "attended the tourney at Ashford Meadow in 209 AC", "evidence_snippet": "Elwood attended the tourney at Ashford Meadow in 209 AC.", "evidence_section": "## Origins", "confidence": "tier-1"}

@@ -1,0 +1,34 @@
+{
+  "batch_id": "batch-0070",
+  "worker_id": "worker-20260518-143001",
+  "started_at": "2026-05-18T14:30:01Z",
+  "completed_at": "2026-05-18T14:35:30Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-massey/prose-edge-candidates/triston-massey.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-massey/prose-edge-candidates/wallace-massey.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-meadows/prose-edge-candidates/elwood-meadows.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-merlyn/prose-edge-candidates/manfryd-merlyn.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-merlyn/prose-edge-candidates/meldred-merlyn.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 16,
+    "reject_just_mention": 19,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "SERVES": 5,
+    "TRAVELS_TO": 2,
+    "LOCATED_AT": 2,
+    "SWORN_TO": 1,
+    "MEMBER_OF": 1,
+    "HOLDS_TITLE": 1,
+    "FIGHTS_IN": 1,
+    "OWNS": 1,
+    "ALLIES_WITH": 1,
+    "ATTENDS": 1
+  },
+  "vocab_gap_questions_filed": 0,
+  "errors": [],
+  "notes": "file_done event for meldred-merlyn logged rows_emitted=4 in error; correct count is rows_emitted=3, rows_rejected=14 (state.jsonl append-only, correction recorded here only)"
+}

@@ -28,7 +28,7 @@ After the Sack of King's Landing and lifting the siege of Storm's End, Eddard St
 ## Edges
 
 - PART_OF: Robert's Rebellion (track_b: Conflict)
-- LOCATED_IN: Tower of joy (wiki:Combat_at_the_tower_of_joy)
+- LOCATED_AT: Tower of joy (wiki:Combat_at_the_tower_of_joy)
 - COMMANDS_IN: Eddard Stark (wiki:Combat_at_the_tower_of_joy)
 - COMMANDS_IN: Gerold Hightower (wiki:Combat_at_the_tower_of_joy)
 - KILLS: Gerold Hightower (wiki:Combat_at_the_tower_of_joy)

@@ -1,0 +1,14 @@
+{"decision": "reject_just_mention", "source_slug": "samwell-blackwood", "target_slug": "129-ac", "reject_reason": "year-page"}
+{"decision": "emit_edge", "source_slug": "samwell-blackwood", "target_slug": "aegon-ii-targaryen", "edge_type": "OPPOSES", "confidence_tier": 2, "cite_ref": "", "note": "Samwell declared for Rhaenyra against Aegon II and the greens"}
+{"decision": "emit_edge", "source_slug": "samwell-blackwood", "target_slug": "alysanne-blackwood", "edge_type": "SIBLING_OF", "confidence_tier": 1, "cite_ref": "", "note": "Alysanne Blackwood is described as Samwell's young sister"}
+{"decision": "reject_just_mention", "source_slug": "samwell-blackwood", "target_slug": "assault-on-harrenhal", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "samwell-blackwood", "target_slug": "battle-of-the-burning-mill", "edge_type": "FIGHTS_IN", "confidence_tier": 1, "cite_ref": "", "note": "Samwell was cut down and slain by Ser Amos Bracken in the battle"}
+{"decision": "emit_edge", "source_slug": "samwell-blackwood", "target_slug": "dance-of-the-dragons", "edge_type": "FIGHTS_IN", "confidence_tier": 2, "cite_ref": "", "note": "Samwell declared for Queen Rhaenyra at the start of the Dance of the Dragons"}
+{"decision": "emit_edge", "source_slug": "samwell-blackwood", "target_slug": "greens", "edge_type": "OPPOSES", "confidence_tier": 2, "cite_ref": "", "note": "Samwell fought against the greens faction who backed Aegon II"}
+{"decision": "emit_edge", "source_slug": "samwell-blackwood", "target_slug": "house-bracken", "edge_type": "OPPOSES", "confidence_tier": 1, "cite_ref": "", "note": "Samwell sent raiders to attack the lands of House Bracken"}
+{"decision": "emit_edge", "source_slug": "samwell-blackwood", "target_slug": "raventree-hall", "edge_type": "LOCATED_AT", "confidence_tier": 1, "cite_ref": "", "note": "Samwell raised Rhaenyra's banners over Raventree Hall, his seat"}
+{"decision": "reject_just_mention", "source_slug": "samwell-blackwood", "target_slug": "sept", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "samwell-blackwood", "target_slug": "weirwood", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "samwell-blackwood", "target_slug": "amos-bracken", "edge_type": "DUELS", "confidence_tier": 1, "cite_ref": "", "note": "Samwell lost a duel to Ser Amos Bracken in 112 AC at the Trident"}
+{"decision": "emit_edge", "source_slug": "samwell-blackwood", "target_slug": "rhaenyra-targaryen", "edge_type": "SWORN_TO", "confidence_tier": 1, "cite_ref": "", "note": "Samwell declared for Queen Rhaenyra at the start of the Dance"}
+{"decision": "reject_just_mention", "source_slug": "samwell-blackwood", "target_slug": "trident", "reject_reason": "just-mention"}

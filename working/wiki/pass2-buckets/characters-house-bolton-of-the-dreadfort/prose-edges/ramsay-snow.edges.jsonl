@@ -1,0 +1,179 @@
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "bone", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "garnet", "reject_reason": "generic-noun-target"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "house-bolton", "edge_type": "SWORN_TO", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay considers himself a true Bolton and is fiercely loyal to House Bolton"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "house-bolton", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "reek", "edge_type": "SERVED_BY", "confidence_tier": 2, "cite_ref": "", "note": "Reek was Ramsay's serving man who tutored him in martial prowess"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "sable", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "silver", "reject_reason": "generic-noun-target"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "aggar", "edge_type": "KILLS", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay kills Aggar (along with Gelmarr and Gynir) with Theon's approval while posing as Reek"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "balon-greyjoy", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "bran-stark", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "capture-of-winterfell", "edge_type": "FIGHTS_IN", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay was present and active in the capture of Winterfell, posing as Reek"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "cley-cerwyn", "edge_type": "KILLS", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay presents the corpse of Cley Cerwyn to Theon after the sack of Winterfell"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "dagmer", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "daryn-hornwood", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "edmure-tully", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "fall-of-harrenhal", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "farlen", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "fight-at-torrhens-square", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "fighting-in-the-hornwood", "edge_type": "FIGHTS_IN", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay abducted Donella Hornwood and forced her to marry him, triggering the fighting in the Hornwood"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "gelmarr", "edge_type": "KILLS", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay kills Gelmarr while posing as Reek, with Theon's approval"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "halys-hornwood", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "harvest-feast", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "heart-tree", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "hornwood", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "house-bolton", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "house-hornwood", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "house-manderly", "edge_type": "OPPOSES", "confidence_tier": 1, "cite_ref": "", "note": "Fighting breaks out between Manderlys and Boltons due to Ramsay's actions in the Hornwood"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "ironborn", "edge_type": "OPPOSES", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay gathers an army to march against the ironborn-occupied Moat Cailin"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "jojen-reed", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "king-in-the-north", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "kyra", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "leobald-tallhart", "edge_type": "KILLS", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay presents the corpse of Leobald Tallhart to Theon after the sack of Winterfell"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "millers-sons", "edge_type": "KILLS", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay orchestrates the killing of two miller's sons to fake the deaths of Bran and Rickon Stark"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "rickon-stark", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "riverlands", "reject_reason": "generic-noun-target"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "robb-stark", "edge_type": "OPPOSES", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay fights against Robb Stark's forces throughout the War of the Five Kings"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "rodrik-cassel", "edge_type": "KILLS", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay defeats and kills Ser Rodrik Cassel and the Dreadfort garrison march to Winterfell"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "rodrik-cassel", "edge_type": "KILLS", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay defeats and kills Ser Rodrik Cassel and the Dreadfort garrison march to Winterfell"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "sack-of-winterfell", "edge_type": "FIGHTS_IN", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay carries out the great sack of Winterfell, murdering many of its servants"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "septon", "reject_reason": "generic-noun-target"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "theon-greyjoy", "edge_type": "CAPTURES", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay captures Theon Greyjoy after the capture of Winterfell and forces him into the Reek persona"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "walder-frey-son-of-jammos", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "walder-frey-son-of-merrett", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "war-of-the-five-kings", "edge_type": "FIGHTS_IN", "confidence_tier": 2, "cite_ref": "", "note": "Ramsay is active throughout the War of the Five Kings"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "westeros", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "winter-town", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "winterfell", "edge_type": "LOCATED_AT", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay moves to Winterfell and establishes his seat there"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "wolfswood", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "wyman-manderly", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "alysane-mormont", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "arnolf-karstark", "edge_type": "CONSPIRES_WITH", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay plots for Arnolf Karstark to publicly declare for Stannis while secretly supporting Roose Bolton"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "asha-greyjoy", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "barbrey-dustin", "edge_type": "OPPOSES", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay earned the enmity of Lady Barbrey Dustin; she barred him from Barrow Hall"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "barrow-hall", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "barrowton", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "bastard-letter", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "bastards-boys", "edge_type": "COMMANDS", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay commands the Bastard's Boys, his personal band of Dreadfort men"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "castle-black", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "causeway", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "crofters-village", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "currency", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "dagmer", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "deepwood-motte", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "free-folk", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "gilly", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "godswood-of-winterfell", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "goldgrass", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "hother-umber", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "house-bolton", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "house-frey", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "house-frey", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "house-manderly", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "house-stout", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "iron-throne", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "ironborn", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "jared-frey", "edge_type": "KILLS", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay kills the Frey envoys (Jared, Rhaegar, Symond) during his search for them"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "jeyne-poole", "edge_type": "CAPTURES", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay holds Jeyne Poole captive and forces her to impersonate Arya Stark"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "jeyne-poole", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "jon-snow", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "king-beyond-the-wall", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "lightbringer", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "lord-commander-of-the-nights-watch", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "luton", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "mance-rayder", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "melisandre", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "monster", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "mutiny-at-castle-black", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "nights-watch", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "northern-mountain-clans", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "reek", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "rhaegar-frey", "edge_type": "KILLS", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay kills the Frey envoys including Rhaegar Frey"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "selyse-florent", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "shireen-baratheon", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "siege-of-moat-cailin", "edge_type": "FIGHTS_IN", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay resolves the siege of Moat Cailin by sending Theon as an envoy"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "spearwife", "reject_reason": "generic-noun-target"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "stannis-baratheon", "edge_type": "OPPOSES", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay plots against Stannis Baratheon through Arnolf Karstark's deception"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "symond-frey", "edge_type": "KILLS", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay kills the Frey envoys including Symond Frey"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "theon-greyjoy", "edge_type": "CAPTURES", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay captures Theon Greyjoy after the capture of Winterfell and forces him into the Reek persona"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "theon-greyjoy", "edge_type": "CAPTURES", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay captures Theon Greyjoy and forces him to take on the role of Reek"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "torrhens-square", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "val", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "walda-frey-daughter-of-merrett", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "walder-frey-son-of-jammos", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "walder-frey-son-of-merrett", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "warden-of-the-north", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "wedding-of-ramsay-bolton-and-arya-stark", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "winterfell", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "yellow-dick", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "ironborn", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "moat-cailin", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "bastards-boys", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "bastardy", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "bran-stark", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "edmure-tully", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "harrenhal", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "house-baratheon-of-kings-landing", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "house-bolton", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "house-bolton", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "house-lannister", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "jaime-lannister", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "king-in-the-north", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "kingsroad", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "lothar-frey", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "northern-mountains", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "red-wedding", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "rickon-stark", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "riverrun", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "robb-stark", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "roslin-frey", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "the-liddle", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "theon-greyjoy", "edge_type": "CAPTURES", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay captures Theon Greyjoy after the capture of Winterfell and forces him into the Reek persona"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "tommen-baratheon", "edge_type": "SWORN_TO", "confidence_tier": 2, "cite_ref": "", "note": "Ramsay receives a decree of legitimization from King Tommen, becoming Ramsay Bolton"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "twins", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "tywin-lannister", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "walder-frey", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "walder-frey-son-of-jammos", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "walder-frey-son-of-merrett", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "walder-rivers", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "wall", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "warden-of-the-north", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "winterfell", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "stannis-baratheon", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "theon-greyjoy", "edge_type": "CAPTURES", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay captures Theon Greyjoy after the capture of Winterfell and forces him into the Reek persona"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "barbrey-dustin", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "bastards-boys", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "domeric-bolton", "edge_type": "SIBLING_OF", "confidence_tier": 1, "cite_ref": "", "note": "Domeric Bolton was Ramsay's trueborn half-brother who sought him out against Roose's wishes"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "first-night", "reject_reason": "generic-noun-target"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "house-dustin", "edge_type": "OPPOSES", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay earned the enmity of House Dustin through his actions"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "kinslaying", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "lady-of-barrowton", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "lord-of-the-dreadfort", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "luton", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "millers-wife", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "poison", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "reek", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "rickard-stark", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "rodrik-cassel", "edge_type": "KILLS", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay defeats and kills Ser Rodrik Cassel and the Dreadfort garrison march to Winterfell"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "skinner", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "sour-alyn", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "uthor", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "weeping-water", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "bastardy", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "edmure-tully", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "house-bolton", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "house-locke", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "robett-glover", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "stannis-baratheon", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "theon-greyjoy", "edge_type": "CAPTURES", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay captures Theon Greyjoy after the capture of Winterfell and forces him into the Reek persona"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "theon-greyjoy", "edge_type": "CAPTURES", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay captures Theon Greyjoy after the capture of Winterfell and forces him into the Reek persona"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "theon-greyjoy", "edge_type": "CAPTURES", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay captures Theon Greyjoy after the capture of Winterfell and forces him into the Reek persona"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "walda-frey", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "wylla-manderly", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "wyman-manderly", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "house-bolton", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "house-bolton", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "theon-greyjoy", "edge_type": "CAPTURES", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay captures Theon Greyjoy after the capture of Winterfell and forces him into the Reek persona"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "theon-greyjoy", "edge_type": "CAPTURES", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay captures Theon Greyjoy after the capture of Winterfell and forces him into the Reek persona"}
+{"decision": "emit_edge", "source_slug": "ramsay-snow", "target_slug": "theon-greyjoy", "edge_type": "CAPTURES", "confidence_tier": 1, "cite_ref": "", "note": "Ramsay captures Theon Greyjoy after the capture of Winterfell and forces him into the Reek persona"}
+{"decision": "reject_just_mention", "source_slug": "ramsay-snow", "target_slug": "tommen-baratheon", "reject_reason": "duplicate-pair-already-emitted"}

@@ -1,0 +1,3 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rufus-leek", "target_slug": "brienne-tarth", "reason": "brief-single-interaction-no-persistent-edge-type"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rufus-leek", "target_slug": "dontos-hollard", "reason": "dontos-only-subject-of-external-inquiry-not-direct-relation"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rufus-leek", "target_slug": "maester", "reason": "passing-reference-to-unnamed-maester-via-concept-title-no-graph-edge"}

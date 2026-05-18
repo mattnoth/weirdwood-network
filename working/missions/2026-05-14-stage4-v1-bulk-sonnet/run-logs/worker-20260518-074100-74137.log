@@ -1,0 +1,27 @@
+2026-05-18T12:41:00Z  Stage 4 worker starting: worker-20260518-074100-74137
+2026-05-18T12:41:00Z  Mission: 2026-05-14-stage4-v1-bulk-sonnet
+2026-05-18T12:41:00Z  Model: claude-sonnet-4-6
+2026-05-18T12:41:00Z  Worker prompt: /Users/mnoth/source/asoiaf-chat/.claude/commands/worker-stage4.md
+2026-05-18T12:41:01Z  Queued batches remaining: 1024 — starting Claude run
+2026-05-18T12:58:34Z  Batch complete: batch_id=batch-0068 elapsed=1053s input=37 cache_read=3758014 output=62575 cost=$2.668709200000001 exit=0
+2026-05-18T12:58:34Z  Sleeping 270s (≈4 min) before next batch — throttle to share 5h cap
+2026-05-18T13:03:04Z  Queued batches remaining: 1023 — starting Claude run
+2026-05-18T13:20:08Z  Batch complete: batch_id=batch-0069 elapsed=1024s input=33 cache_read=3214323 output=71085 cost=$2.53461865 exit=0
+2026-05-18T13:20:08Z  Sleeping 270s (≈4 min) before next batch — throttle to share 5h cap
+2026-05-18T13:24:39Z  Queued batches remaining: 1022 — starting Claude run
+2026-05-18T13:32:56Z  Batch complete: batch_id=batch-0070 elapsed=496s input=32 cache_read=2528636 output=34818 cost=$1.5786482999999998 exit=0
+2026-05-18T13:32:56Z  Sleeping 270s (≈4 min) before next batch — throttle to share 5h cap
+2026-05-18T13:37:26Z  Queued batches remaining: 1021 — starting Claude run
+2026-05-18T13:51:05Z  Batch complete: batch_id=batch-0071 elapsed=819s input=33 cache_read=3064374 output=56771 cost=$2.1959226999999997 exit=0
+2026-05-18T13:51:05Z  Sleeping 270s (≈4 min) before next batch — throttle to share 5h cap
+2026-05-18T13:55:35Z  Queued batches remaining: 1020 — starting Claude run
+2026-05-18T14:17:00Z  Batch complete: batch_id=batch-0072 elapsed=1285s input=34 cache_read=3397278 output=91702 cost=$2.8992969 exit=0
+2026-05-18T14:17:00Z  Sleeping 270s (≈4 min) before next batch — throttle to share 5h cap
+2026-05-18T14:21:30Z  Queued batches remaining: 1019 — starting Claude run
+2026-05-18T14:42:43Z  Batch complete: batch_id=batch-0072 elapsed=1273s input=36 cache_read=2336029 output=82659 cost=$2.7652516 exit=0
+2026-05-18T14:42:43Z  Sleeping 270s (≈4 min) before next batch — throttle to share 5h cap
+2026-05-18T14:47:13Z  Queued batches remaining: 1018 — starting Claude run
+2026-05-18T14:56:04Z  Batch complete: batch_id=batch-0074 elapsed=531s input=40 cache_read=3072566 output=30166 cost=$1.67077505 exit=0
+2026-05-18T14:56:04Z  Sleeping 270s (≈4 min) before next batch — throttle to share 5h cap
+2026-05-18T15:00:34Z  Stop file detected (/tmp/stage4-stop) — exiting cleanly.
+2026-05-18T15:00:34Z  Worker worker-20260518-074100-74137 exiting.

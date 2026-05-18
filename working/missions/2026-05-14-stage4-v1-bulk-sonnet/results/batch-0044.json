@@ -1,0 +1,40 @@
+{
+  "batch_id": "batch-0044",
+  "worker_id": "worker-20260517-152105847",
+  "completed_at": "2026-05-17T15:51:00.000Z",
+  "input_files_processed": 5,
+  "input_files_in_batch": 5,
+  "candidate_shape": "source_target",
+  "total_candidates": 88,
+  "total_edges_emitted": 30,
+  "total_rejections": 58,
+  "vocab_gap_questions_filed": 0,
+  "escalations": 0,
+  "errors": 0,
+  "redirect_notes": [
+    "quellon-humble→kingsmoot: candidate targeted concept.culture node; redirected to kingsmoot-on-old-wyk (event.battle) per ATTENDS type contract",
+    "will-humble→kingsmoot: same redirect as quellon-humble"
+  ],
+  "per_file_summary": [
+    {
+      "output": "characters-house-humble/prose-edges/burton-humble.edges.jsonl",
+      "emitted_edges": 4
+    },
+    {
+      "output": "characters-house-humble/prose-edges/quellon-humble.edges.jsonl",
+      "emitted_edges": 4
+    },
+    {
+      "output": "characters-house-humble/prose-edges/will-humble.edges.jsonl",
+      "emitted_edges": 2
+    },
+    {
+      "output": "characters-house-hunt/prose-edges/alyn-hunt.edges.jsonl",
+      "emitted_edges": 1
+    },
+    {
+      "output": "characters-house-hunt/prose-edges/hyle-hunt.edges.jsonl",
+      "emitted_edges": 19
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "daven-lannister", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "jet", "reject_reason": "generic-noun-target"}
+{"decision": "emit_edge", "source_slug": "tytos-blackwood", "target_slug": "jonos-bracken", "edge_type": "OPPOSES", "confidence_tier": 1, "cite_ref": "", "note": "Tytos has a long-running feud with Lord Jonos Bracken"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "onyx", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "raven", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "silver", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "weirwood", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "balon-greyjoy", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "tytos-blackwood", "target_slug": "battle-of-the-fords", "edge_type": "FIGHTS_IN", "confidence_tier": 1, "cite_ref": "", "note": "Tytos supported Edmure's plan and fought at the Battle of the Fords"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "catelyn-stark", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "tytos-blackwood", "target_slug": "house-tully", "edge_type": "SWORN_TO", "confidence_tier": 1, "cite_ref": "", "note": "Tytos is a bannerman of House Tully and musters when Edmure gathers the Tully banners"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "jason-mallister", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "tytos-blackwood", "target_slug": "liberation-of-raventree-hall", "edge_type": "FIGHTS_IN", "confidence_tier": 1, "cite_ref": "", "note": "Tytos led the liberation of Raventree Hall"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "lord-of-the-iron-islands", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "red-fork", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "siege-of-storms-end-299", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "stevron-frey", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "theon-greyjoy", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "bastard", "reject_reason": "generic-noun-target"}
+{"decision": "emit_edge", "source_slug": "tytos-blackwood", "target_slug": "blackwood-vale", "edge_type": "LOCATED_AT", "confidence_tier": 1, "cite_ref": "", "note": "Blackwood Vale is the territory of House Blackwood; Jaime arrives there for the siege"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "brynden-tully", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "gold", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "harry-rivers", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "iron-throne", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "tytos-blackwood", "target_slug": "siege-of-raventree", "edge_type": "FIGHTS_IN", "confidence_tier": 1, "cite_ref": "", "note": "Tytos defended Raventree Hall during the siege; refused to surrender"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "silver", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "solar", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "tommen-baratheon", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "weirwood", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "tytos-blackwood", "target_slug": "house-bracken", "edge_type": "OPPOSES", "confidence_tier": 1, "cite_ref": "", "note": "The Brackens attacked Blackwood lands in open war"}
+{"decision": "emit_edge", "source_slug": "tytos-blackwood", "target_slug": "jaime-lannister", "edge_type": "NEGOTIATES_WITH", "confidence_tier": 1, "cite_ref": "", "note": "Tytos negotiated terms of surrender with Jaime Lannister at Raventree"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "karyl-vance", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "lord-commander-of-the-kingsguard", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "siege-of-riverrun", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "tytos-blackwood", "target_slug": "battle-of-the-camps", "edge_type": "FIGHTS_IN", "confidence_tier": 1, "cite_ref": "", "note": "Tytos led a sortie from Riverrun in the Battle of the Camps"}
+{"decision": "emit_edge", "source_slug": "tytos-blackwood", "target_slug": "battle-under-the-walls-of-riverrun", "edge_type": "FIGHTS_IN", "confidence_tier": 1, "cite_ref": "", "note": "Lord Tytos participated in the battle under the walls of Riverrun"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "edmure-tully", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "fall-of-raventree-hall", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "godswood-of-riverrun", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "great-hall-of-riverrun", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "harrenhal", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "house-lannister", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "jaime-lannister", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "jonos-bracken", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "kevan-lannister", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "king-in-the-north", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "tytos-blackwood", "target_slug": "old-gods-of-the-forest", "edge_type": "WORSHIPS", "confidence_tier": 1, "cite_ref": "", "note": "Lord Blackwood follows the old gods; prayed in the godswood with Robb Stark"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "renly-baratheon", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "riverlands", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "riverrun", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "tytos-blackwood", "target_slug": "robb-stark", "edge_type": "SWORN_TO", "confidence_tier": 1, "cite_ref": "", "note": "Tytos declared Robb King in the North and followed his banners"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "roose-bolton", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "tytos-blackwood", "target_slug": "tywin-lannister", "edge_type": "OPPOSES", "confidence_tier": 1, "cite_ref": "", "note": "Tytos fought against Tywin Lannister's forces in multiple battles"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "hosteen-frey", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "tytos-blackwood", "target_slug": "hoster-tully", "edge_type": "MOURNS", "confidence_tier": 1, "cite_ref": "", "note": "Tytos was among the seven nobles who launched Hoster Tully's funeral boat"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "iron-throne", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "king-of-the-trident", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "lord-of-riverrun", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "red-wedding", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "roose-bolton", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "tumblestone", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "westerlands", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "hoster-tully", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "jonos-bracken", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "lord-paramount-of-the-trident", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "riverrun", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "catelyn-stark", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "daven-lannister", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "edmure-tully", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "house-bracken", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "jaime-lannister", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "jaime-lannister", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "jaime-lannister", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "jaime-lannister", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "jonos-bracken", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "jonos-bracken", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "jonos-bracken", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "jonos-bracken", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "karyl-vance", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "beric-dondarrion", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "brynden-tully", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "brynden-tully", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "casterly-rock", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "catelyn-stark", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "edmure-tully", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "jaime-lannister", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "jaime-lannister", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "jaime-lannister", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "roslin-frey", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "ryman-frey", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "sack-of-kings-landing", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "sandor-clegane", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "thoros", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "tommen-baratheon", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "tytos-blackwood", "target_slug": "twins", "reject_reason": "quote-attribution"}

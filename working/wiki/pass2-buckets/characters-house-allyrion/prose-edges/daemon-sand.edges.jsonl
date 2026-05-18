@@ -1,0 +1,15 @@
+{"edge_type": "LOCATED_AT", "source_slug": "daemon-sand", "target_slug": "sunspear", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "OPPOSES", "source_slug": "daemon-sand", "target_slug": "tommen-baratheon", "confidence_tier": 2, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "REVEALS_TO", "source_slug": "daemon-sand", "target_slug": "nymeria-sand", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "PROTECTS", "source_slug": "daemon-sand", "target_slug": "sand-snakes", "confidence_tier": 2, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "TRAVELS_TO", "source_slug": "daemon-sand", "target_slug": "kings-landing", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "DISTRUSTS", "source_slug": "daemon-sand", "target_slug": "aegon-targaryen-young-griff", "confidence_tier": 2, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "TRAVELS_TO", "source_slug": "daemon-sand", "target_slug": "cape-wrath", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "TRAVELS_TO", "source_slug": "daemon-sand", "target_slug": "ghost-hill", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "TRAVELS_TO", "source_slug": "daemon-sand", "target_slug": "griffins-roost", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "KNOWS", "source_slug": "daemon-sand", "target_slug": "jon-connington", "confidence_tier": 2, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "TRAVELS_TO", "source_slug": "daemon-sand", "target_slug": "mistwood", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "TRAVELS_TO", "source_slug": "daemon-sand", "target_slug": "rainwood", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "TRAVELS_TO", "source_slug": "daemon-sand", "target_slug": "stormlands", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "TRAVELS_TO", "source_slug": "daemon-sand", "target_slug": "weeping-town", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "SERVES", "source_slug": "daemon-sand", "target_slug": "doran-martell", "confidence_tier": 2, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}

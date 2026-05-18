@@ -1,0 +1,10 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "hoster-blackwood", "target": "blackwood-vale", "reason": "telling-jaime-about-vale-not-hoster-location-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "hoster-blackwood", "target": "house-bracken", "reason": "historical-feud-context-not-hoster-bracken-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "hoster-blackwood", "target": "iron-throne", "reason": "allegiance-context-already-implied"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "source": "hoster-blackwood", "target": "jaime-lannister", "edge_type": "PRISONER_OF", "evidence_snippet": "Hoster is taken as a hostage to ensure his father's good behavior", "evidence_section": "Narrative Arc / A Dance with Dragons", "confidence": "tier-1", "qualifier": "[hostage]"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "hoster-blackwood", "target": "siege-of-raventree", "reason": "siege-context-not-participant"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "hoster-blackwood", "target": "jaime-lannister", "reason": "quote-attribution-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "hoster-blackwood", "target": "jaime-lannister", "reason": "quote-attribution-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "hoster-blackwood", "target": "jonos-bracken", "reason": "quote-attribution-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "hoster-blackwood", "target": "tyrion-lannister", "reason": "quote-content-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "hoster-blackwood", "target": "jaime-lannister", "reason": "quote-attribution-not-relational"}

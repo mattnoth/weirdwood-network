@@ -1,0 +1,38 @@
+{
+  "batch_id": "batch-0062",
+  "worker_id": "worker-2026-05-18-569195",
+  "started_at": "2026-05-18T08:00:00Z",
+  "completed_at": "2026-05-18T08:54:20.930966Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-mallister/prose-edge-candidates/jason-mallister.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-mallister/prose-edge-candidates/jeffory-mallister.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-mallister/prose-edge-candidates/jorah-mallister.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-mallister/prose-edge-candidates/joseth-mallister.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-mallister/prose-edge-candidates/lymond-mallister.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 45,
+    "reject_just_mention": 52,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "COMMANDS_IN": 1,
+    "DEFEATS": 3,
+    "OPPOSES": 4,
+    "FIGHTS_IN": 14,
+    "PRISONER_OF": 1,
+    "CAPTURES": 1,
+    "TRAVELS_TO": 4,
+    "SERVES": 4,
+    "RESPECTS": 1,
+    "DUELS": 3,
+    "LOCATED_AT": 4,
+    "KILLS": 1,
+    "ATTENDS": 1,
+    "KILLED_BY": 2,
+    "MEMBER_OF": 1
+  },
+  "vocab_gap_questions_filed": 0,
+  "errors": []
+}

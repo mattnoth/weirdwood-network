@@ -1,0 +1,6 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "betha-blackwood", "target": "black-betha", "reason": "ship-named-after-her-not-same-entity"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "betha-blackwood", "target": "davos-seaworth", "reason": "davos-captains-ship-named-for-betha-not-betha-davos-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "betha-blackwood", "target": "iron-throne", "reason": "historical-succession-context-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "source": "betha-blackwood", "target": "raventree-hall", "edge_type": "BORN_AT", "evidence_snippet": "The daughter of Lord Blackwood of Raventree Hall", "evidence_section": "Origins", "confidence": "tier-1"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "betha-blackwood", "target": "tragedy-at-summerhall", "reason": "unknown-attendance-explicitly-uncertain"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "betha-blackwood", "target": "barristan-selmy", "reason": "quote-attribution-not-relational"}

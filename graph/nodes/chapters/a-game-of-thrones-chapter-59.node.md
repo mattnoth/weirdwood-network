@@ -1,0 +1,48 @@
+---
+name: "A Game of Thrones-Chapter 59"
+type: meta.chapter
+slug: a-game-of-thrones-chapter-59
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Game_of_Thrones-Chapter_59"
+bucket_id: meta-chapters-agot
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+book: a-game-of-thrones
+chapter_number: 59
+pov_character: catelyn-tully
+---
+
+## Identity
+
+A Game of Thrones-Chapter 59 is a meta.chapter from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+[Catelyn](wiki:Catelyn_Stark)'s apprehensions grow as [Robb](wiki:Robb_Stark)’s host moves south towards the [Twins](wiki:Twins). She fears for [her father](wiki:Hoster_Tully), [her brother](wiki:Edmure_Tully), [her husband](wiki:Eddard_Stark), her daughters, and her sons in [Winterfell](wiki:Winterfell). However, there is nothing she can do for any of them, so she must save her strength for Robb and for that she must be as fierce and hard as the [north](wiki:North).
+
+As she watches her son's actions, Catelyn realizes that he has learned so much from Ned, but worries about what he has not learned. Ser [Brynden](wiki:Brynden_Tully) leads a hundred outriders to scout and screen their movements. His reports state that Lord [Walder Frey](wiki:Walder_Frey) has gathered four thousand men at the Twins and that Lord [Tywin Lannister](wiki:Tywin_Lannister)'s host is days to the south. Lord Frey should have gone south to join Edmure's host at [Riverrun](wiki:Riverrun). When Catelyn rides forward, Robb is telling [Robett Glover](wiki:Robett_Glover) that Lord Frey must be waiting to join his power to theirs. Catelyn reminds her son that if he expects nothing from Lord Frey he will never be surprised and that Lord Frey was always too friendly with the [Lannisters](wiki:House_Lannister) for a bannerman to [House Tully](wiki:House_Tully).
+
+After they make camp, [Theon Greyjoy](wiki:Theon_Greyjoy) brings another report from Ser Brynden. A dozen Lannister scouts have been killed, and the Lannister force under Ser [Addam Marbrand](wiki:Addam_Marbrand) is retreating south, burning as they go. Theon declares there is no way the Lannisters will know they have split their forces, but Catelyn cautions that Walder Frey may tell them. She encourages them to place archers to kill any ravens leaving the Twins, but Theon says it has already been done.
+
+As she wonders what the Freys have been doing, Catelyn is told that there has been some fighting between the Freys and Marbrand's men, but most of the Frey strength is at the Twins. This gives hope to Robb that Lord Frey will honor his vows, but Catelyn points out that it is one thing to protect one’s land and another to engage in open battle.
+
+The only way across the [Green Fork](wiki:Green_Fork) north of the [ruby ford](wiki:Ruby_ford) is the bridge at the Twins, especially with the river running high and no wood for rafts. Theon suggests that they can storm the Twins if they must (they have five times Lord Frey’s numbers), but Catelyn responds that it would not be easy. There is also no time; while they laid siege to the Twins, Lord Tywin would bring up his host and attack from the rear. Catelyn can see that Robb is unsure as he asks her what his father would do. Catelyn insists that he would find a way across no matter what it takes.
+
+Ser Brynden arrives with the dire news that Edmure's host has been defeated in a [battle under the walls of Riverrun](wiki:Battle_under_the_walls_of_Riverrun) and scattered. Edmure has been wounded and captured, but Lord [Tytos Blackwood](wiki:Tytos_Blackwood) has led survivors to refuge inside Riverrun. Other news is that Lord Frey has withdrawn his strength inside his twin castles. Robb is frustrated, and states that he will pull the walls down around Lord Frey. Catelyn rebukes him, saying he sounds like a sulky boy and that sometimes words are needed. She explains that the Freys have never failed to extract their toll in the six hundred years that they have controlled the crossing. What this toll will be, they have yet to learn but if Robb is unwilling to pay the toll, the only option Catelyn can see is to retreat to [Moat Cailin](wiki:Moat_Cailin) to meet Lord Tywin in battle. She rides away, not wanting to make it seem that she was usurping Robb's authority and asks herself if her husband has taught their son wisdom, or how to kneel.
+
+It is near midday when they arrive at the Twins, two ugly stout castles on either side of the Green Fork with a wide bridge between them. The Freys have gotten rich off the tolls from this bridge. Upon seeing the castles, the northern lords can see it would be nearly impossible to take by storm. A dozen knights led by Ser [Stevron Frey](wiki:Stevron_Frey), heir to Lord Walder, come forward from the sally port. Ser Stevron asks who leads and Robb rides forward to be told that Lord Walder invites him to share meat and mead with him in the castle and explain his purpose. None of Robb's lords like this, fearing that Robb could easily be captured and sold to the Lannisters. Catelyn can tell that Stevron is not pleased by the accusations, and attempts to save the negotiations by volunteering to go herself. There are objections, but she tells them that Lord Walder is her father’s bannerman and will not harm her, hoping it is true. It is agreed and Stevron's brother, Ser [Perwyn Frey](wiki:Perwyn_Frey), remains as a hostage to her fair treatment.
+
+The frail ninety-year-old Lord Walder Frey meets Catelyn in the great hall with all but one (the hostage, Perwyn) of his twenty-one sons, thirty-six grandsons, and countless other descendants. Walder is impolite and direct; even some of his sons point out his impoliteness, but he does not respond well to their criticism. Catelyn knows that she has to be careful with her words and explains that she is there to ask him to open his gates so they can proceed to Riverrun where she would have expected to find him. Lord Walder insists that he was still gathering his strength when her brother lost the battle. Catelyn doubts Lord Walder's version of events, but does not press the issue. She asks that they talk privately, and Lord Walder commands all the others to leave.
+
+Once they are alone, Lord Walder declares that his descendants are all waiting for him to die, then he asks why he should let Robb's host cross. When Catelyn makes a very subtle threat about the size of Robb's army, Lord Walder retorts that her son’s army will be twenty thousand fresh corpses when the Lannisters arrive. When Catelyn reminds Lord Walder of his vows to House Tully, the old man counters that he also swore allegiance to the king, making her and her son nothing but rebels. Lord Walder then takes his turn at threatening: if he had the sense the gods gave a fish he would deny them the crossing and let the Lannisters have them. However, the old man quickly reveals that he does not care for the Lannisters either, with their gold, their lions, and their arrogant pride. Lord Walder goes on to say that if the Lannisters want his help they must *ask*. Catelyn humbly stresses that *she* is asking, as are her father, her brother, her sons, and her husband with her voice.
+
+Walder complains about her father insulting him by not being present for his last few weddings; an insult despite Lord Hoster's failing health. The old man complains about Lord Hoster not marrying Edmure to one of his daughters, then he complains about how his heirs were defeated in a tourney he attended. He also complains that [Jon Arryn](wiki:Jon_Arryn) would not foster two of his grandsons, or let him foster [Robert Arryn](wiki:Robert_Arryn). When Lord Arryn announced that his son was going to be fostered with Lord [Stannis](wiki:Stannis_Baratheon), [Lysa](wiki:Lysa_Tully) stormed off and all the Jon could do was apologize. Catelyn asks if it was not Lord Tywin that Robert Arryn was to be fostered with, but Lord Walder insists that he knows the difference between Stannis and Tywin. Then Lord Walder asks again why he should allow them to cross and the haggling begins.
+
+Catelyn returns to Robb followed by Ser [Jared Frey](wiki:Jared_Frey), Ser [Hosteen Frey](wiki:Hosteen_Frey), Ser [Danwell Frey](wiki:Danwell_Frey), Walder's bastard [Ronel Rivers](wiki:Ronel_Rivers), and a long column of pikemen. She tells Robb that he has been granted the crossing and that all but four hundred of Lord Frey’s forces will join his army. In exchange, two of Lord Walder's grandsons will be fostered by the Starks at [Winterfell](wiki:Winterfell), [Olyvar Frey](wiki:Olyvar_Frey) will become Robb's squire, Arya will marry Walder's youngest son [Elmar](wiki:Elmar_Frey), and Robb himself will marry his choice of Lord Walder's daughters when the fighting is done. Robb, realizing he has no choice if he wants to cross, consents. Catelyn suggests that he should leave four hundred archers and swordsmen at the Twins to ensure Lord Walder keeps faith under a reliable man. Robb suggests Ser [Helman Tallhart](wiki:Helman_Tallhart) and Catelyn agrees.
+
+Robb and his cavalry cross that evening as Lord Walder Frey watches from a litter while [Roose Bolton](wiki:Roose_Bolton) and the infantry stay on the east bank to march south and confront Lord Tywin.

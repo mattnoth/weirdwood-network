@@ -1,0 +1,30 @@
+---
+name: "A Storm of Swords-Chapter 39"
+type: meta.chapter
+slug: a-storm-of-swords-chapter-39
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords-Chapter_39"
+bucket_id: meta-chapters-asos
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+book: a-storm-of-swords
+chapter_number: 39
+pov_character: arya-stark
+---
+
+## Identity
+
+A Storm of Swords-Chapter 39 is a meta.chapter from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+[Arya Stark](wiki:Arya_Stark) watches as Lord [Beric Dondarrion](wiki:Beric_Dondarrion) and [Thoros of Myr](wiki:Thoros_of_Myr) seem to be everywhere at once, both with flaming swords in hand. After [the battle](wiki:Battle_at_the_burning_septry), the [brotherhood](wiki:Brotherhood_without_banners) hang several Mummers, including Septon [Utt](wiki:Utt), for their crimes. Arya is upset that Beric let [Sandor Clegane](wiki:Sandor_Clegane) free after taking all his gold.
+
+That night at the septry's brewhouse, Beric speaks with Arya and asks Thoros, "How many times have you brought me back now?" Thoros claims it is [R'hllor](wiki:R'hllor) who has restored his life six times, but the seventh may be the end of both of them. Beric reveals that he has trouble remembering his past, and would be unable to even find [his ancestral home](wiki:Blackhaven). Thoros believes that the Lord of Light is not done with Beric yet, and that is why the red god has raised him from the dead so many times. The outlaws plan to ransom Arya back to [her mother](wiki:Catelyn_Stark) or [brother](wiki:Robb_Stark).
+
+Later, [Gendry](wiki:Gendry) joins the outlaws as a blacksmith and is [knighted](wiki:Knight) by Lord Beric. Soon after, Sandor returns, claiming he killed the sentries. He demands his gold back, but is rebuffed by Thoros and commanded to leave. The [Hound](wiki:Hound) leaves realizing he cannot do anything, and they then discover that the sentries were only asleep. When some complain that the Hound will follow and murder them in their sleep, Beric states, "Sandor Clegane would kill us all gladly, but not in our sleep."

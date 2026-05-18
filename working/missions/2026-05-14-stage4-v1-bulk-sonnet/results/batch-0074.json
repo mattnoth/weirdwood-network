@@ -1,0 +1,30 @@
+{
+  "batch_id": "batch-0074",
+  "worker_id": "worker-2026-05-18-144740388707",
+  "started_at": "2026-05-18T14:47:40.388707Z",
+  "completed_at": "2026-05-18T15:10:00.000000Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-mooton/prose-edge-candidates/jeyne-mooton.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-mooton/prose-edge-candidates/jirelle-mooton.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-mooton/prose-edge-candidates/jon-mooton.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-mooton/prose-edge-candidates/jonah-mooton.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-mooton/prose-edge-candidates/myles-mooton.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 10,
+    "reject_just_mention": 31,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "TRAVELS_TO": 2,
+    "SERVES": 2,
+    "COMMANDS_IN": 1,
+    "LOVER_OF": 1,
+    "FIGHTS_IN": 2,
+    "KNIGHTED_BY": 1,
+    "KILLED_BY": 1
+  },
+  "vocab_gap_questions_filed": 0,
+  "errors": []
+}

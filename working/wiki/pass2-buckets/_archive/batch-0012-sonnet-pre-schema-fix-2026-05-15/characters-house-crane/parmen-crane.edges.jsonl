@@ -1,0 +1,7 @@
+{"source_slug": "parmen-crane", "target_slug": "bitterbridge", "edge_type": "LOCATED_AT", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "parmen-crane", "target_slug": "erren-florent", "edge_type": "ALLIES_WITH", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "parmen-crane", "target_slug": "renly-baratheon", "edge_type": "SERVES", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "parmen-crane", "target_slug": "siege-of-storms-end", "edge_type": "FIGHTS_IN", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "parmen-crane", "target_slug": "stannis-baratheon", "edge_type": "SERVES", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "parmen-crane", "target_slug": "fighting-at-bitterbridge", "edge_type": "FIGHTS_IN", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "parmen-crane", "target_slug": "highgarden", "edge_type": "LOCATED_AT", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}

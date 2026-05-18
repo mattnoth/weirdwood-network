@@ -1,0 +1,134 @@
+{
+  "batch_id": "batch-0001",
+  "worker_id": "worker-2026-05-14-071130648031",
+  "completed_at": "2026-05-14T07:35:26.741795+00:00",
+  "input_files_processed": 29,
+  "input_files_in_batch": 30,
+  "note": "Slot 30 in batch manifest was a duplicate of dalla-dragonstone; processed as one unique file",
+  "candidate_shape": "source_target",
+  "total_edges_emitted": 144,
+  "vocab_gap_questions_filed": 1,
+  "vocab_gap_summary": [
+    "henly-ashford\u2192duncan-the-tall: no type for commerce/purchase between persons; proposed PURCHASED_FROM"
+  ],
+  "escalations": 0,
+  "errors": 0,
+  "per_file_summary": [
+    {
+      "output": "characters-house-allyrion/prose-edges/daemon-sand.edges.jsonl",
+      "emitted_edges": 15
+    },
+    {
+      "output": "characters-house-allyrion/prose-edges/ryon-allyrion.edges.jsonl",
+      "emitted_edges": 4
+    },
+    {
+      "output": "characters-house-ambrose/prose-edges/aegon-ambrose.edges.jsonl",
+      "emitted_edges": 3
+    },
+    {
+      "output": "characters-house-ambrose/prose-edges/alyn-ambrose.edges.jsonl",
+      "emitted_edges": 3
+    },
+    {
+      "output": "characters-house-ambrose/prose-edges/aubrey-ambrose.edges.jsonl",
+      "emitted_edges": 2
+    },
+    {
+      "output": "characters-house-ambrose/prose-edges/edmund-ambrose.edges.jsonl",
+      "emitted_edges": 3
+    },
+    {
+      "output": "characters-house-ambrose/prose-edges/marq-ambrose.edges.jsonl",
+      "emitted_edges": 3
+    },
+    {
+      "output": "characters-house-antaryon/prose-edges/ferrego-antaryon.edges.jsonl",
+      "emitted_edges": 1
+    },
+    {
+      "output": "characters-house-arryn-of-gulltown/prose-edges/isembard-arryn.edges.jsonl",
+      "emitted_edges": 5
+    },
+    {
+      "output": "characters-house-ashford/prose-edges/alyn-ashford.edges.jsonl",
+      "emitted_edges": 2
+    },
+    {
+      "output": "characters-house-ashford/prose-edges/androw-ashford.edges.jsonl",
+      "emitted_edges": 4
+    },
+    {
+      "output": "characters-house-ashford/prose-edges/henly-ashford.edges.jsonl",
+      "emitted_edges": 1
+    },
+    {
+      "output": "characters-house-ashford/prose-edges/robert-ashford.edges.jsonl",
+      "emitted_edges": 4
+    },
+    {
+      "output": "characters-house-baelish/prose-edges/alayne-baelish.edges.jsonl",
+      "emitted_edges": 0
+    },
+    {
+      "output": "characters-house-baelish/prose-edges/baelish-hedge-knight.edges.jsonl",
+      "emitted_edges": 2
+    },
+    {
+      "output": "characters-house-baelish/prose-edges/bryen.edges.jsonl",
+      "emitted_edges": 3
+    },
+    {
+      "output": "characters-house-baelish/prose-edges/byron-the-beautiful.edges.jsonl",
+      "emitted_edges": 2
+    },
+    {
+      "output": "characters-house-baelish/prose-edges/grisel.edges.jsonl",
+      "emitted_edges": 3
+    },
+    {
+      "output": "characters-house-baelish/prose-edges/kella.edges.jsonl",
+      "emitted_edges": 2
+    },
+    {
+      "output": "characters-house-baelish/prose-edges/lord-baelish-father-of-petyr.edges.jsonl",
+      "emitted_edges": 4
+    },
+    {
+      "output": "characters-house-baelish/prose-edges/morgarth-the-merry.edges.jsonl",
+      "emitted_edges": 2
+    },
+    {
+      "output": "characters-house-baelish/prose-edges/petyr-baelish.edges.jsonl",
+      "emitted_edges": 42
+    },
+    {
+      "output": "characters-house-baelish/prose-edges/umfred.edges.jsonl",
+      "emitted_edges": 2
+    },
+    {
+      "output": "characters-house-ball/prose-edges/quentyn-ball.edges.jsonl",
+      "emitted_edges": 16
+    },
+    {
+      "output": "characters-house-ball/prose-edges/rosamund-ball.edges.jsonl",
+      "emitted_edges": 1
+    },
+    {
+      "output": "characters-house-banefort/prose-edges/quenten-banefort.edges.jsonl",
+      "emitted_edges": 8
+    },
+    {
+      "output": "characters-house-bar-emmon/prose-edges/duram-bar-emmon.edges.jsonl",
+      "emitted_edges": 5
+    },
+    {
+      "output": "characters-house-baratheon-of-dragonstone/prose-edges/canty.edges.jsonl",
+      "emitted_edges": 1
+    },
+    {
+      "output": "characters-house-baratheon-of-dragonstone/prose-edges/dalla-dragonstone.edges.jsonl",
+      "emitted_edges": 1
+    }
+  ]
+}

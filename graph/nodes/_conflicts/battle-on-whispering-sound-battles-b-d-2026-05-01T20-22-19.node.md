@@ -22,7 +22,7 @@ Ironborn forces raided along the coast of the Reach, burning villages and fields
 ## Edges
 
 - PART_OF: War of the Five Kings (track_b: Conflict)
-- LOCATED_IN: Whispering Sound (wiki:Battle_on_Whispering_Sound)
+- LOCATED_AT: Whispering Sound (wiki:Battle_on_Whispering_Sound)
 
 ## Notes
 

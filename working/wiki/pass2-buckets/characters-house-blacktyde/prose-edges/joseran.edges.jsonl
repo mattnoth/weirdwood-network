@@ -1,0 +1,3 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "joseran", "target": "asha-greyjoy", "reason": "refused-to-forward-letters-not-joseran-asha-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "joseran", "target": "blacktyde", "reason": "already-implied-by-holds-title-blacktyde-castle"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "joseran", "target": "tristifer-botley", "reason": "administrative-refusal-not-relational"}

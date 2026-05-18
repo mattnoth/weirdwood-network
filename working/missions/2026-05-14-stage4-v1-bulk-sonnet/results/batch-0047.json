@@ -1,0 +1,29 @@
+{
+  "batch_id": "batch-0047",
+  "worker_id": "worker-2026-05-17-143022",
+  "started_at": "2026-05-17T14:30:22Z",
+  "completed_at": "2026-05-17T14:39:00Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-ironmaker/prose-edge-candidates/erik-ironmaker.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-ironmaker/prose-edge-candidates/thormor-ironmaker.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-ironmaker/prose-edge-candidates/urek-ironmaker.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-jast/prose-edge-candidates/antario-jast.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-jordayne/prose-edge-candidates/myria-jordayne.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 12,
+    "reject_just_mention": 24,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "ANCESTOR_OF": 3,
+    "ALLIES_WITH": 1,
+    "ATTENDS": 1,
+    "SERVES": 4,
+    "LOCATED_AT": 3,
+    "TRAVELS_TO": 1
+  },
+  "vocab_gap_questions_filed": 0,
+  "errors": []
+}

@@ -1,0 +1,33 @@
+{
+  "batch_id": "batch-0063",
+  "worker_id": "worker-20260518-784511",
+  "started_at": "2026-05-18T09:00:00.784511Z",
+  "completed_at": "2026-05-18T09:16:00.000000Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-mallister/prose-edge-candidates/patrek-mallister.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-mallister/prose-edge-candidates/petyr-mallister.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-manderly/prose-edge-candidates/bartimus.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-manderly/prose-edge-candidates/desmond-manderly.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-manderly/prose-edge-candidates/donella-hornwood.candidates.jsonl"
+  ],
+  "decision_totals": {"emit_edge": 26, "reject_just_mention": 103, "escalate_cross_identity": 0, "escalate_disambiguation": 0},
+  "edge_types_emitted": {
+    "PRISONER_OF": 2,
+    "FIGHTS_IN": 3,
+    "TRAVELS_TO": 3,
+    "SERVES": 1,
+    "ATTENDS": 3,
+    "OPPOSES": 5,
+    "RULES": 2,
+    "NEGOTIATES_WITH": 1,
+    "ALLIES_WITH": 1,
+    "KILLED_BY": 1,
+    "WORSHIPS": 1,
+    "PROTECTS": 1,
+    "FEARS": 1,
+    "TRUSTS": 1,
+    "COUSIN_OF": 1
+  },
+  "vocab_gap_questions_filed": 1,
+  "errors": []
+}

@@ -1,0 +1,18 @@
+{"decision": "reject_just_mention", "source_slug": "sour-alyn", "target_slug": "arnolf-karstark", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "sour-alyn", "target_slug": "arya-stark", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "sour-alyn", "target_slug": "dreadfort", "edge_type": "LOCATED_AT", "confidence_tier": 1, "cite_ref": "", "note": "Sour Alyn spent most of his life in service at the Dreadfort"}
+{"decision": "reject_just_mention", "source_slug": "sour-alyn", "target_slug": "grunt", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "sour-alyn", "target_slug": "hother-umber", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "sour-alyn", "target_slug": "jeyne-poole", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "sour-alyn", "target_slug": "ramsay-snow", "edge_type": "SERVES", "confidence_tier": 1, "cite_ref": "", "note": "Sour Alyn is one of Ramsay Bolton's Bastard's Boys"}
+{"decision": "reject_just_mention", "source_slug": "sour-alyn", "target_slug": "skinner", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "sour-alyn", "target_slug": "spearwife", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "sour-alyn", "target_slug": "theon-greyjoy", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "sour-alyn", "target_slug": "walder-frey-son-of-jammos", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "sour-alyn", "target_slug": "walder-frey-son-of-merrett", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "sour-alyn", "target_slug": "winterfell", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "sour-alyn", "target_slug": "dreadfort", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "sour-alyn", "target_slug": "grunt", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "sour-alyn", "target_slug": "ramsay-snow", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "sour-alyn", "target_slug": "theon-greyjoy", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "sour-alyn", "target_slug": "theon-greyjoy", "reject_reason": "quote-attribution"}

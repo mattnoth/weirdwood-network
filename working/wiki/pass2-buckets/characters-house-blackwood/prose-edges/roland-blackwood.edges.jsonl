@@ -1,0 +1,2 @@
+{"decision": "reject_just_mention", "source_slug": "roland-blackwood", "target_slug": "209-ac", "reject_reason": "year-page"}
+{"decision": "emit_edge", "source_slug": "roland-blackwood", "target_slug": "tourney-at-ashford-meadow", "edge_type": "FIGHTS_IN", "confidence_tier": 1, "cite_ref": "", "note": "Roland participated in the tourney at Ashford Meadow in 209 AC"}

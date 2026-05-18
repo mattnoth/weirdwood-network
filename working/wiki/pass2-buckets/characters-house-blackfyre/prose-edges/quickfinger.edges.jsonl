@@ -1,0 +1,5 @@
+{"decision": "emit_edge", "candidate_kind": "source_target", "source": "quickfinger", "target": "daemon-i-blackfyre", "edge_type": "SERVES", "evidence_snippet": "Quickfinger sided with the rebels, supporting Daemon Blackfyre", "evidence_section": "Origins", "confidence": "tier-1"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "quickfinger", "target": "dragon", "reason": "generic-creature-mentioned-as-context"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "quickfinger", "target": "dragon-egg", "reason": "stolen-objects-not-owned-by-source"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "quickfinger", "target": "eustace-osgrey", "reason": "narrator-lamenting-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "source": "quickfinger", "target": "first-blackfyre-rebellion", "edge_type": "FIGHTS_IN", "evidence_snippet": "During the First Blackfyre Rebellion, Quickfinger sided with the rebels", "evidence_section": "Origins", "confidence": "tier-1"}

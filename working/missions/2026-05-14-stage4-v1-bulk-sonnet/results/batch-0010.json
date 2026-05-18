@@ -1,0 +1,51 @@
+{
+  "batch_id": "batch-0010",
+  "worker_id": "worker-2026-05-15-202100000000",
+  "completed_at": "2026-05-15T20:21:00.000000Z",
+  "input_files_processed": 30,
+  "input_files_in_batch": 30,
+  "note": "Context ran across three sessions; all 30 candidate files re-read in session 3 before writing. Gregor-clegane had 182 candidates (largest in batch). 5 files emitted 0 edges (robard-cerwyn, clarence-charlton, eggon, tobbot, agramore-cobb).",
+  "candidate_shape": "source_target",
+  "total_edges_emitted": 85,
+  "vocab_gap_questions_filed": 1,
+  "vocab_gap_summary": [
+    "clarence-charlton→wedding-tourney-at-whitewalls: no type for tournament participation; proposed COMPETES_IN"
+  ],
+  "escalations": 1,
+  "escalation_summary": [
+    "gregor-clegane→robert-strong: SAME_AS cross-identity escalation; Robert Strong is Gregor Clegane reanimated by Qyburn"
+  ],
+  "errors": 0,
+  "per_file_summary": [
+    {"output": "characters-house-cerwyn/prose-edges/jonelle-cerwyn.edges.jsonl", "emitted_edges": 1},
+    {"output": "characters-house-cerwyn/prose-edges/medger-cerwyn.edges.jsonl", "emitted_edges": 3},
+    {"output": "characters-house-cerwyn/prose-edges/rhodry.edges.jsonl", "emitted_edges": 1},
+    {"output": "characters-house-cerwyn/prose-edges/robard-cerwyn.edges.jsonl", "emitted_edges": 0},
+    {"output": "characters-house-chambers/prose-edges/lord-chambers.edges.jsonl", "emitted_edges": 2},
+    {"output": "characters-house-charlton/prose-edges/andrey-charlton.edges.jsonl", "emitted_edges": 1},
+    {"output": "characters-house-charlton/prose-edges/clarence-charlton.edges.jsonl", "emitted_edges": 0},
+    {"output": "characters-house-charlton/prose-edges/jon-charlton.edges.jsonl", "emitted_edges": 1},
+    {"output": "characters-house-charlton/prose-edges/theo-charlton.edges.jsonl", "emitted_edges": 2},
+    {"output": "characters-house-chelsted/prose-edges/qarlton-chelsted.edges.jsonl", "emitted_edges": 1},
+    {"output": "characters-house-chester/prose-edges/kerwin.edges.jsonl", "emitted_edges": 2},
+    {"output": "characters-house-chester/prose-edges/moribald-chester.edges.jsonl", "emitted_edges": 1},
+    {"output": "characters-house-chyttering/prose-edges/lord-chyttering-father-of-lucos.edges.jsonl", "emitted_edges": 1},
+    {"output": "characters-house-chyttering/prose-edges/lucos-chyttering.edges.jsonl", "emitted_edges": 1},
+    {"output": "characters-house-clegane/prose-edges/chiswyck.edges.jsonl", "emitted_edges": 1},
+    {"output": "characters-house-clegane/prose-edges/clegane-father-of-gregor-and-sandor.edges.jsonl", "emitted_edges": 2},
+    {"output": "characters-house-clegane/prose-edges/clegane-founder.edges.jsonl", "emitted_edges": 2},
+    {"output": "characters-house-clegane/prose-edges/dunsen.edges.jsonl", "emitted_edges": 3},
+    {"output": "characters-house-clegane/prose-edges/eggon.edges.jsonl", "emitted_edges": 0},
+    {"output": "characters-house-clegane/prose-edges/gregor-clegane.edges.jsonl", "emitted_edges": 22},
+    {"output": "characters-house-clegane/prose-edges/polliver.edges.jsonl", "emitted_edges": 4},
+    {"output": "characters-house-clegane/prose-edges/rafford.edges.jsonl", "emitted_edges": 5},
+    {"output": "characters-house-clegane/prose-edges/sandor-clegane.edges.jsonl", "emitted_edges": 17},
+    {"output": "characters-house-clegane/prose-edges/shitmouth.edges.jsonl", "emitted_edges": 3},
+    {"output": "characters-house-clegane/prose-edges/tickler.edges.jsonl", "emitted_edges": 4},
+    {"output": "characters-house-clegane/prose-edges/tobbot.edges.jsonl", "emitted_edges": 0},
+    {"output": "characters-house-clifton/prose-edges/hugh-clifton.edges.jsonl", "emitted_edges": 1},
+    {"output": "characters-house-clifton/prose-edges/humfrey-clifton.edges.jsonl", "emitted_edges": 2},
+    {"output": "characters-house-cobb/prose-edges/agramore-cobb.edges.jsonl", "emitted_edges": 0},
+    {"output": "characters-house-cobb/prose-edges/harys-cobb.edges.jsonl", "emitted_edges": 2}
+  ]
+}

@@ -1,0 +1,5 @@
+{"source_slug": "sumner-crakehall", "target_slug": "crakehall", "edge_type": "RULES", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "sumner-crakehall", "target_slug": "jaime-lannister", "edge_type": "TUTORS", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "sumner-crakehall", "target_slug": "kingswood-brotherhood", "edge_type": "OPPOSES", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "sumner-crakehall", "target_slug": "merrett-frey", "edge_type": "TUTORS", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "sumner-crakehall", "target_slug": "wenda-the-white-fawn", "edge_type": "OPPOSES", "confidence_tier": 2, "cite_ref": "## Appearances", "decision": "emit_edge"}

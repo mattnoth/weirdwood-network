@@ -1,0 +1,38 @@
+{
+  "batch_id": "batch-0032",
+  "worker_id": "worker-20260517-154110550082",
+  "started_at": "2026-05-17T15:41:10.550082Z",
+  "completed_at": "2026-05-17T15:53:03.068862Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-hightower-a-j/prose-edge-candidates/damon-hightower.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hightower-a-j/prose-edge-candidates/donnel-hightower.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hightower-a-j/prose-edge-candidates/dorian-hightower.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hightower-a-j/prose-edge-candidates/eustace-hightower.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hightower-a-j/prose-edge-candidates/garmon-hightower.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 24,
+    "reject_just_mention": 36,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "WORSHIPS": 1,
+    "SEEKS": 2,
+    "ANCESTOR_OF": 2,
+    "ATTENDS": 1,
+    "PROTECTS": 3,
+    "SIBLING_OF": 3,
+    "NEGOTIATES_WITH": 1,
+    "TRAVELS_TO": 5,
+    "SUCCEEDS": 1,
+    "OPPOSES": 2,
+    "IMPRISONS": 1,
+    "CONTEMPORARY_WITH": 1,
+    "ALLIES_WITH": 1,
+    "FIGHTS_IN": 2,
+    "KILLED_BY": 1
+  },
+  "vocab_gap_questions_filed": 1,
+  "errors": []
+}

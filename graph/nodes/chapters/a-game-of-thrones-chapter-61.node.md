@@ -1,0 +1,46 @@
+---
+name: "A Game of Thrones-Chapter 61"
+type: meta.chapter
+slug: a-game-of-thrones-chapter-61
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Game_of_Thrones-Chapter_61"
+bucket_id: meta-chapters-agot
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+book: a-game-of-thrones
+chapter_number: 61
+pov_character: daenerys-targaryen
+---
+
+## Identity
+
+A Game of Thrones-Chapter 61 is a meta.chapter from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+[Daenerys](wiki:Daenerys_Targaryen) moves through the trampled fields filled with the dead and wounded around the burning town of the Lamb Men, or [Lhazareen](wiki:Lhazareen). [Khal](wiki:Khal) [Ogo](wiki:Ogo)’s *[khalasar](wiki:Khalasar)* was attacking the town when Khal [Drogo](wiki:Drogo) arrived. Daenerys remembers that Khal Ogo was among those who shared the high bench at the [feast](wiki:A_Game_of_Thrones-Chapter_46) when [Viserys](wiki:Viserys_Targaryen) was crowned. However, this is not [Vaes Dothrak](wiki:Vaes_Dothrak). Daenerys suspects some of the villagers probably mistook them for deliverance, but once Khal Ogo was defeated Drogo’s *khalasar* plundered the town just as badly.
+
+Now the captives from both the village and Ogo’s *khalasar* are being collected for slaves. To an outsider the Lhazareen look similar to the Dothraki, but now Daenerys can plainly see the differences. In addition, the Dothraki captives do not seem to fear slavery, while the villagers stumble about in fear and sorrow.
+
+Ser [Jorah Mormont](wiki:Jorah_Mormont) meets Daenerys at the entrance to the village. The knight brings news that Drogo has killed Khal Ogo and [his son](wiki:Fogo), taking only minor wounds. He also informs her that most of the rival *khalasar* has fled, but there could still be as many as 10,000 captives. Ser Jorah says he has suggested they drive the slaves south to [Meereen](wiki:Meereen) where they will fetch a better price; more than enough gold to hire the ships they need to reach the [Seven Kingdoms](wiki:Seven_Kingdoms). As she watches the carnage around her, Daenerys can only think about the price of the [Iron Throne](wiki:Iron_Throne).
+
+The scenes of rape disturb Daenerys the most. She orders Ser Jorah and her [bodyguards](wiki:Khas) [Jhogo](wiki:Jhogo) and [Quaro](wiki:Quaro) to stop the rape of a [wailing girl](wiki:Eroeh). Ser Jorah tries to explain that this is not wise since she is depriving the riders of their reward for shedding blood for their *khal*. Jhogo and Quaro point out that the Dothraki believe the girl should feel honored and even Daenerys’ handmaid [Irri](wiki:Irri) agrees. Daenerys is not dissuaded and commands Ser Jorah and the others to stop the rape. Ser Jorah declares that she truly is [Rhaegar Targaryen](wiki:Rhaegar_Targaryen)’s sister and obeys.
+
+Stopping the rape requires the death of two of the rapers. When asked what to do with the raped girl, Daenerys commands [Doreah](wiki:Doreah) to tend to her hurts, mainly because the blonde-haired [Lysene](wiki:Lys) girl does not look Dothraki. Daenerys then rides on into the settlement and begins to rescue all of the other rape victims she sees. Ser Jorah tries to explain that she cannot save them all, but Daenerys refuses to believe him.
+
+Daenerys finds Drogo with an arrow through his arm and an *[arakh](wiki:Arakh)* cut that has taken off one of his nipples. Drogo insists that they are only scratches and boasts that he personally slew not only Khal Ogo, but also his son [Fogo](wiki:Fogo), who was *khal* after Ogo. Daenerys praises her husband.
+
+Then a warrior named [Mago](wiki:Mago), who rides with the *[khas](wiki:Khas)* of [Ko](wiki:Ko) [Jhaqo](wiki:Jhaqo), rides up with angry words about Daenerys’ actions. After listening to both sides, Drogo explains to Daenerys that rape is part of the Dothraki way of war. Daenerys insists that the Lhazareen women should be made wives and given a place in the *khalasar*. A [bloodrider](wiki:Bloodrider) named [Qotho](wiki:Qotho) asks haughtily if a horse breeds with sheep, but Daenerys replies that a dragon feeds on both horse and sheep. Drogo laughs at this and proclaims that his son inside her has made Daenerys fierce. The *khal* goes on to tell Mago to find another lamb to mount, as these belong to the *[khaleesi](wiki:Khaleesi)*.
+
+When Drogo reaches out to Daenerys, he winces and Daenerys cries for the healers. She is told that Drogo sent the healers away to tend the more grievously wounded. [Mirri Maz Duur](wiki:Mirri_Maz_Duur), a Lhazareen woman Daenerys rescued, speaks up, saying she can help. [Aggo](wiki:Aggo) is about to cut her throat when Daenerys demands that the woman, who wears the remains of fine clothing, be allowed to speak. Mirri Maz Duur explains that she is a healer and [godswife](wiki:Godswife). Drogo’s [bloodriders](wiki:Bloodrider) mistrust her, naming her a healer of sheep and a *[maegi](wiki:Maegi)*.
+
+Daenerys asks Mirri Maz Duur how she learned to become a healer, and the godswife states that she has learned from many including a [maester](wiki:Maester) named [Marwyn](wiki:Marwyn). Talk of a maester immediately interests Ser Jorah, and he asks for details. Ser Jorah then tells Daenerys that maesters know much of healing. Mirri Maz Duur explains that the [Great Shepherd](wiki:Great_Shepherd) sent her to earth to heal all his lambs. Drogo finally speaks up and permits the godswife to heal him. Mirri Maz Duur suggests that the healing magic will be stronger inside her temple. Drogo rises to walk and falters, but he refuses [Haggo](wiki:Haggo)’s offer to help. Seeing that her husband is weak, Daenerys moves up to help him, telling him that since she is not a man she can help him.
+
+Mirri Maz Duur brings Drogo into the remains of her temple and says it is best if the rest leave, but Daenerys and the bloodriders refuse. Daenerys assures everyone that Mirri Maz Duur will do no harm, feeling she can trust a woman she saved from rape. The godswife says if they insist on remaining they can help hold Drogo down. She pulls out the arrow, pours boiling wine on the wound, then sews the skin back in place. Next, she applies a plaster of leaves to the chest wound and instructs Drogo not to drink wine or [milk of the poppy](wiki:Milk_of_the_poppy) or to remove the poultice for ten days. When told he will have a great scar, Drogo declares, “I sing of my scars.”
+
+Daenerys asks the godswife about an earlier comment about birthing songs and learns she is also a midwife. Therefore, she asks Mirri Maz Duur to attend her when she gives birth. Drogo tells her, “You do not ask a slave, you tell her.” Then Drogo commands that the *khalasar* must ride and leaves. Qotho lingers long enough to remind the godswife, “As the *khal* fares, so shall you.”

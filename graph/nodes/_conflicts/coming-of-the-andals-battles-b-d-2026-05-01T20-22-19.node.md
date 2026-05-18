@@ -21,7 +21,7 @@ The Andals crossed the narrow sea and landed first in the Vale, where they conqu
 
 ## Edges
 
-- LOCATED_IN: Westeros (wiki:Coming_of_the_Andals)
+- LOCATED_AT: Westeros (wiki:Coming_of_the_Andals)
 
 ## Notes
 

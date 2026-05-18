@@ -1,0 +1,50 @@
+{
+  "batch_id": "batch-0004",
+  "worker_id": "worker-2026-05-14-context-resumed",
+  "completed_at": "2026-05-14T07:46:33.860286+00:00",
+  "files_processed": 30,
+  "candidates_total": 351,
+  "decisions": {
+    "emit_edge": 109,
+    "reject_just_mention": 242,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "vocab_gap_questions_filed": 2,
+  "vocab_gap_question_ids": [
+    "q-2026-05-14-batch-0004-vocab-gap-001",
+    "q-2026-05-14-batch-0004-vocab-gap-002"
+  ],
+  "edge_types_emitted": {
+    "FIGHTS_IN": 20,
+    "TRAVELS_TO": 15,
+    "ALLIES_WITH": 13,
+    "OPPOSES": 12,
+    "SERVES": 8,
+    "SIBLING_OF": 6,
+    "KILLED_BY": 4,
+    "KILLS": 4,
+    "LOCATED_AT": 4,
+    "PERCEIVED_AS": 4,
+    "WORSHIPS": 3,
+    "SWORN_TO": 3,
+    "PRISONER_OF": 2,
+    "DEFEATS": 2,
+    "BESIEGES": 1,
+    "NEGOTIATES_WITH": 1,
+    "DECEIVED_BY": 1,
+    "FORESHADOWS": 1,
+    "COMMANDS": 1,
+    "RESPECTS": 1,
+    "BORN_AT": 1,
+    "MEMBER_OF": 1,
+    "GUEST_OF": 1
+  },
+  "buckets_touched": [
+    "characters-house-blackfyre",
+    "characters-house-blackmont",
+    "characters-house-blacktyde",
+    "characters-house-blackwood"
+  ],
+  "notes": "One type-violation fixed post-classification: TRAVELS_TO(benjicot-blackwood\u2192alysanne-blackwood) replaced with reject (target was a person, not a location). ATTENDS and DESCENDED_FROM vocab gaps filed."
+}

@@ -1,0 +1,35 @@
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "walda-frey-daughter-of-merrett", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "domeric-bolton", "target_slug": "barrowton", "edge_type": "LOCATED_AT", "confidence_tier": 1, "cite_ref": "", "note": "Domeric served four years as a page in Barrowton"}
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "theon-greyjoy", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "domeric-bolton", "target_slug": "barbrey-dustin", "edge_type": "SERVES", "confidence_tier": 1, "cite_ref": "", "note": "Domeric served four years as a page to Lady Barbrey Dustin in Barrowton"}
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "barrowton", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "bastard", "reject_reason": "generic-noun-target"}
+{"decision": "emit_edge", "source_slug": "domeric-bolton", "target_slug": "horton-redfort", "edge_type": "SERVES", "confidence_tier": 1, "cite_ref": "", "note": "Domeric squired for three years for Lord Horton Redfort in the Vale of Arryn"}
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "maester", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "poison", "reject_reason": "generic-noun-target"}
+{"decision": "emit_edge", "source_slug": "domeric-bolton", "target_slug": "ramsay-snow", "edge_type": "SIBLING_OF", "confidence_tier": 1, "cite_ref": "", "note": "Domeric heard he had a bastard half-brother Ramsay Snow and sought him out"}
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "squire", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "tourney", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "uthor", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "domeric-bolton", "target_slug": "vale-of-arryn", "edge_type": "LOCATED_AT", "confidence_tier": 1, "cite_ref": "", "note": "Domeric squired for three years in the Vale of Arryn"}
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "barbrey-dustin", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "horse", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "horton-redfort", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "horton-redfort", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "lyanna-stark", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "maester", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "poison", "reject_reason": "generic-noun-target"}
+{"decision": "emit_edge", "source_slug": "domeric-bolton", "target_slug": "ramsay-snow", "edge_type": "KILLED_BY", "confidence_tier": 2, "cite_ref": "", "note": "Roose Bolton believes Ramsay poisoned Domeric; stated explicitly in the Quotes section"}
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "ramsay-snow", "reject_reason": "multi-candidate-duplicate-or-less-specific"}
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "ramsay-snow", "reject_reason": "multi-candidate-duplicate-or-less-specific"}
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "rickard-stark", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "skinner", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "squire", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "theon-greyjoy", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "theon-greyjoy", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "theon-greyjoy", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "tourney", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "uthor", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "vale-of-arryn", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "vale-of-arryn", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "domeric-bolton", "target_slug": "weeping-water", "reject_reason": "quote-attribution"}

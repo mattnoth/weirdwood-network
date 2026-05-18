@@ -1,0 +1,28 @@
+---
+name: "A Storm of Swords-Chapter 12"
+type: meta.chapter
+slug: a-storm-of-swords-chapter-12
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords-Chapter_12"
+bucket_id: meta-chapters-asos
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+book: a-storm-of-swords
+chapter_number: 12
+pov_character: tyrion-lannister
+---
+
+## Identity
+
+A Storm of Swords-Chapter 12 is a meta.chapter from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+[Tyrion](wiki:Tyrion_Lannister) is waiting in [Varys](wiki:Varys)' room when the eunuch walks in. The Spider reveals that [Tywin Lannister](wiki:Tywin_Lannister) means to restore [Pycelle](wiki:Pycelle) as [Grand Maester](wiki:Grand_Maester), since the archmaesters of the [Citadel](wiki:Citadel) claim that “only the conclave can unmake a Grand Maester”. When the conclave meant to send Maester [Gormon](wiki:Gormon_Tyrell), Lord Tywin acted at once, not wishing another [Tyrell](wiki:House_Tyrell) on the [Small Council](wiki:Small_Council).
+
+Tyrion is surprised to learn that Varys has whisperers even in the Citadel, where the conclave always meets in secrecy. He finds out that [Boros Blount](wiki:Boros_Blount) has been restored to the [Kingsguard](wiki:Kingsguard), and that [Mandon Moore](wiki:Mandon_Moore) had been brought to [King's Landing](wiki:King's_Landing) by [Jon Arryn](wiki:Jon_Arryn). Tyrion asks Varys to bring [Shae](wiki:Shae) to the eunuch's chambers so that no one will notice their meeting. He realizes that he cannot trust Varys any further, but hopes to use him this one last time. When he meets Shae, he means to send her away to protect her from his father, but Tyrion once again cannot bear to part with her. He also knows he must deal with the singer [Symon Silver Tongue](wiki:Symon_Silver_Tongue) if he means to keep Shae in King's Landing.

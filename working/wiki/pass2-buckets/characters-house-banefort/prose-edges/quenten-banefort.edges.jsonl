@@ -1,0 +1,8 @@
+{"edge_type": "TRAVELS_TO", "source_slug": "quenten-banefort", "target_slug": "casterly-rock", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "LOCATED_AT", "source_slug": "quenten-banefort", "target_slug": "kings-landing", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "SERVES", "source_slug": "quenten-banefort", "target_slug": "tywin-lannister", "confidence_tier": 2, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "FIGHTS_IN", "source_slug": "quenten-banefort", "target_slug": "battle-of-the-whispering-wood", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "SWORN_TO", "source_slug": "quenten-banefort", "target_slug": "house-lannister", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "BESIEGES", "source_slug": "quenten-banefort", "target_slug": "riverrun", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "PRISONER_OF", "source_slug": "quenten-banefort", "target_slug": "jonos-bracken", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "LOCATED_AT", "source_slug": "quenten-banefort", "target_slug": "stone-hedge", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}

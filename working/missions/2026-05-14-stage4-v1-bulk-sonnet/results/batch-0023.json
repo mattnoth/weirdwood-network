@@ -1,0 +1,37 @@
+{
+  "batch_id": "batch-0023",
+  "worker_id": "worker-20260516234517",
+  "started_at": "2026-05-16T23:45:17Z",
+  "completed_at": "2026-05-17T00:08:00Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-haen/prose-edge-candidates/torreo-haen.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-haigh/prose-edge-candidates/donnel-haigh.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-haigh/prose-edge-candidates/harys-haigh.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-haigh/prose-edge-candidates/leslyn-haigh.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-harclay/prose-edge-candidates/ronnel-harclay.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 21,
+    "reject_just_mention": 27,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "COUSIN_OF": 1,
+    "SIBLING_OF": 1,
+    "INVESTIGATES": 1,
+    "TRAVELS_TO": 1,
+    "DECEIVED_BY": 1,
+    "ATTENDS": 1,
+    "LOCATED_AT": 3,
+    "DUELS": 1,
+    "SERVES": 1,
+    "OPPOSES": 1,
+    "FIGHTS_IN": 5,
+    "ALLIES_WITH": 1,
+    "SEEKS": 2,
+    "SUCCEEDS": 1
+  },
+  "vocab_gap_questions_filed": 0,
+  "errors": []
+}

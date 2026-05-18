@@ -1,0 +1,307 @@
+{
+  "generated_at": "2026-05-14T06:28:59+00:00",
+  "counts": {
+    "extraction_files_walked": 344,
+    "files_no_relationships_section": 0,
+    "total_rows_seen": 7398,
+    "drop_source_unresolved": 3635,
+    "drop_target_unresolved": 1506,
+    "drop_self_edge": 0,
+    "drop_known_edge": 660,
+    "survivors": 1597,
+    "chapters_with_survivors": 272
+  },
+  "book_distribution": {
+    "agot": 355,
+    "acok": 179,
+    "asos": 415,
+    "affc": 205,
+    "adwd": 443
+  },
+  "top_sources": [
+    {
+      "slug": "jon-snow",
+      "survivor_count": 196
+    },
+    {
+      "slug": "petyr-baelish",
+      "survivor_count": 50
+    },
+    {
+      "slug": "eddard-stark",
+      "survivor_count": 46
+    },
+    {
+      "slug": "brienne-tarth",
+      "survivor_count": 45
+    },
+    {
+      "slug": "sandor-clegane",
+      "survivor_count": 39
+    },
+    {
+      "slug": "barristan-selmy",
+      "survivor_count": 29
+    },
+    {
+      "slug": "melisandre",
+      "survivor_count": 25
+    },
+    {
+      "slug": "robert-baratheon",
+      "survivor_count": 24
+    },
+    {
+      "slug": "stannis-baratheon",
+      "survivor_count": 24
+    },
+    {
+      "slug": "sansa-stark",
+      "survivor_count": 23
+    },
+    {
+      "slug": "theon-greyjoy",
+      "survivor_count": 22
+    },
+    {
+      "slug": "varys",
+      "survivor_count": 20
+    },
+    {
+      "slug": "jon-connington",
+      "survivor_count": 20
+    },
+    {
+      "slug": "aeron-greyjoy",
+      "survivor_count": 18
+    },
+    {
+      "slug": "quentyn-martell",
+      "survivor_count": 18
+    },
+    {
+      "slug": "cersei-lannister",
+      "survivor_count": 17
+    },
+    {
+      "slug": "roose-bolton",
+      "survivor_count": 17
+    },
+    {
+      "slug": "catelyn-stark",
+      "survivor_count": 15
+    },
+    {
+      "slug": "bowen-marsh",
+      "survivor_count": 14
+    },
+    {
+      "slug": "asha-greyjoy",
+      "survivor_count": 14
+    }
+  ],
+  "top_targets": [
+    {
+      "slug": "jon-snow",
+      "inbound_count": 146
+    },
+    {
+      "slug": "sansa-stark",
+      "inbound_count": 50
+    },
+    {
+      "slug": "eddard-stark",
+      "inbound_count": 49
+    },
+    {
+      "slug": "robert-baratheon",
+      "inbound_count": 46
+    },
+    {
+      "slug": "catelyn-stark",
+      "inbound_count": 37
+    },
+    {
+      "slug": "stannis-baratheon",
+      "inbound_count": 31
+    },
+    {
+      "slug": "petyr-baelish",
+      "inbound_count": 28
+    },
+    {
+      "slug": "samwell-tarly",
+      "inbound_count": 24
+    },
+    {
+      "slug": "theon-greyjoy",
+      "inbound_count": 21
+    },
+    {
+      "slug": "robb-stark",
+      "inbound_count": 21
+    },
+    {
+      "slug": "brienne-tarth",
+      "inbound_count": 21
+    },
+    {
+      "slug": "benjen-stark",
+      "inbound_count": 20
+    },
+    {
+      "slug": "aemon-targaryen-son-of-maekar-i",
+      "inbound_count": 20
+    },
+    {
+      "slug": "cersei-lannister",
+      "inbound_count": 19
+    },
+    {
+      "slug": "tyrion-lannister",
+      "inbound_count": 18
+    },
+    {
+      "slug": "daenerys-targaryen",
+      "inbound_count": 18
+    },
+    {
+      "slug": "melisandre",
+      "inbound_count": 18
+    },
+    {
+      "slug": "joffrey-baratheon",
+      "inbound_count": 16
+    },
+    {
+      "slug": "roose-bolton",
+      "inbound_count": 16
+    },
+    {
+      "slug": "qhorin-halfhand",
+      "inbound_count": 16
+    }
+  ],
+  "top_unresolved": [
+    {
+      "name": "Tyrion",
+      "drop_count": 493
+    },
+    {
+      "name": "Daenerys",
+      "drop_count": 357
+    },
+    {
+      "name": "Cersei",
+      "drop_count": 323
+    },
+    {
+      "name": "Arya",
+      "drop_count": 320
+    },
+    {
+      "name": "Jaime",
+      "drop_count": 198
+    },
+    {
+      "name": "Catelyn",
+      "drop_count": 169
+    },
+    {
+      "name": "Bran",
+      "drop_count": 135
+    },
+    {
+      "name": "Sansa",
+      "drop_count": 112
+    },
+    {
+      "name": "Sam",
+      "drop_count": 92
+    },
+    {
+      "name": "Robb",
+      "drop_count": 86
+    },
+    {
+      "name": "Davos",
+      "drop_count": 86
+    },
+    {
+      "name": "Stannis",
+      "drop_count": 83
+    },
+    {
+      "name": "Theon",
+      "drop_count": 76
+    },
+    {
+      "name": "Joffrey",
+      "drop_count": 60
+    },
+    {
+      "name": "Tywin",
+      "drop_count": 60
+    },
+    {
+      "name": "Ned",
+      "drop_count": 57
+    },
+    {
+      "name": "Victarion",
+      "drop_count": 50
+    },
+    {
+      "name": "Ser Jorah",
+      "drop_count": 47
+    },
+    {
+      "name": "Renly",
+      "drop_count": 33
+    },
+    {
+      "name": "Maester Luwin",
+      "drop_count": 31
+    },
+    {
+      "name": "Viserys",
+      "drop_count": 26
+    },
+    {
+      "name": "Illyrio",
+      "drop_count": 26
+    },
+    {
+      "name": "Ser Alliser Thorne",
+      "drop_count": 26
+    },
+    {
+      "name": "Ser Barristan Selmy",
+      "drop_count": 23
+    },
+    {
+      "name": "Prince Doran",
+      "drop_count": 22
+    },
+    {
+      "name": "Margaery",
+      "drop_count": 21
+    },
+    {
+      "name": "Lancel",
+      "drop_count": 20
+    },
+    {
+      "name": "Asha",
+      "drop_count": 19
+    },
+    {
+      "name": "Euron",
+      "drop_count": 19
+    },
+    {
+      "name": "Queen Selyse",
+      "drop_count": 18
+    }
+  ]
+}

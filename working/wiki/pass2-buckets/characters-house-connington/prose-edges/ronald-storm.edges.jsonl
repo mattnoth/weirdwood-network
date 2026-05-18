@@ -1,0 +1,2 @@
+{"decision": "emit_edge", "edge_type": "PRISONER_OF", "source_slug": "ronald-storm", "target_slug": "jon-connington", "confidence": "tier-1", "rationale": "Ronald Storm is made a captive when Griffin's Roost is retaken by Jon Connington"}
+{"decision": "emit_edge", "edge_type": "CONTEMPORARY_WITH", "source_slug": "ronald-storm", "target_slug": "ronnet-connington", "confidence": "tier-1", "rationale": "Ronald Storm is the bastard son of Ser Ronnet Connington"}

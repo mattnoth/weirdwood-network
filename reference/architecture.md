@@ -67,8 +67,13 @@ Entity
 │   ├── War               (multi-battle conflict: Robert's Rebellion, War of the Five Kings)
 │   └── Tournament        (formal tourney: Tourney at Harrenhal, Hand's Tourney, Ashford Tourney)
 ├── Species               (biological type, NOT individual: dragons-as-species, Others, Children of the Forest)
-└── Title                 (formal office: Hand of the King, Lord Commander, High Septon)
+├── Title                 (formal office: Hand of the King, Lord Commander, High Septon)
+└── Meta                  (out-of-universe constructs — chapters, novels, publication metadata)
+    ├── Chapter           (a chapter of a published novel: AGOT Chapter 1, ASOS Chapter 71)
+    └── (future)          (Book, PovArc — added when needed)
 ```
+
+**Meta vs in-world** — Meta entities are out-of-universe (they describe the books *about* the world, not things *in* the world). They are categorically distinct from Event entities (Red Wedding, Battle of the Blackwater), which are in-world happenings. A `meta.chapter` node represents the literary container; the in-world events that happen *within* a chapter remain their own `event.battle/war/tournament` nodes. Edges from in-world entities to `meta.chapter` nodes are *citation/provenance* edges (this entity is featured in / discussed in this chapter), not in-world relationships.
 
 ### Type Reference Table
 
@@ -98,6 +103,7 @@ Entity
 | `event.tournament` | Event | Formal tourney or melee with named participants | location, date, host, champions, participants | Tourney at Harrenhal, Hand's Tourney, Ashford Tourney |
 | `species` | Entity | Non-human biological type — sentient species, magical creatures, in-world flora kinds, AND in-world fauna kinds (NOT named individuals — those are characters) | habitat, abilities, known_specimens | Dragons (species), Others, Children of the Forest, Giants, weirwood, ironwood, direwolves, aurochs |
 | `title` | Entity | Formal office or hereditary title | holders, succession, powers, created_by | Hand of the King, Lord Commander, High Septon |
+| `meta.chapter` | Meta | A chapter of a published ASOIAF novel — out-of-universe literary container (NOT an in-world event; the in-world events that occur within the chapter remain their own `event.*` nodes) | book, chapter_number, pov_character, wiki_source | A Game of Thrones-Chapter 1, A Storm of Swords-Chapter 71 |
 
 ### Hierarchy Query Rules
 
@@ -147,10 +153,17 @@ When an extraction or wiki field doesn't fit an existing edge type, add a new on
 | `SPOUSE_OF` | Married to (note if current, former, or annulled) | Symmetric | Spouse, Spouses |
 | `BETROTHED_TO` | Engaged/promised in marriage | Symmetric | — |
 | `LOVER_OF` | Romantic/sexual relationship outside marriage | Symmetric | Lover, Lovers |
-| `WARD_OF` | Fostered by / raised by (not biological parent) | Ward → Guardian | — |
+| `WARD_OF` | Fostered by / raised by (not biological parent). Reverse-direction `FOSTERED_BY` (Guardian → Ward) is permitted and semantically equivalent — same pattern as HELD_BY for HOLDS_TITLE. | Ward → Guardian | — |
 | `ANCESTOR_OF` | Distant lineage (more than one generation) | Ancestor → Descendant | Dynasty |
 | `HEIR_TO` | Designated or expected successor (person → person or person → title) | Heir → Holder | Heir, Heirs |
 | `CADET_BRANCH_OF` | Junior house derived from senior house | Cadet → Parent House | Cadet branches |
+| `MARRIES_OFF` | Parent / overlord / king arranges a marriage for another person — distinct from `SPOUSE_OF` (the marriage itself); captures the arranger's agency as a political instrument | Arranger → Married-off person | — |
+| `UNCLE_OF` | One-generation kinship shortcut: parent's sibling. Captures uncle/aunt without forcing two-hop traversal through the missing/inferred parent. Use when prose explicitly says "his uncle X" / "her aunt Y". | Uncle/Aunt → Nephew/Niece | — |
+| `NEPHEW_OF` | Reverse of `UNCLE_OF` — emitted on the nephew/niece node pointing to the uncle/aunt. Same one-hop kinship shortcut. | Nephew/Niece → Uncle/Aunt | — |
+| `COUSIN_OF` | Symmetric kinship shortcut for cousins (children of siblings). Captures first/second/etc. cousins without traversing two PARENT_OF + one SIBLING_OF. Use when prose explicitly says "his cousin X" / "her cousin Y". Especially common in Frey, Lannister, Tully, Tyrell, Targaryen families. | Symmetric | — |
+| `MILK_BROTHER_OF` | Symmetric kinship: characters who shared a wet-nurse. Real Westerosi cultural category (Edric Dayne and Jon Snow, Robert Baratheon and Ned Stark per fostering customs). Distinct from SIBLING_OF (no blood) and FOSTERED_BY (institutional). | Symmetric | — |
+| `NURSED_BY` | Child was wet-nursed by this person. Reverse is `WET_NURSE_OF`. Distinct from PARENT_OF; captures the lifelong attachment ASOIAF treats as significant (Wylla nursing Edric, Catelyn re Jon's nurse, etc.). | Child → Nurse | — |
+| `WET_NURSE_OF` | Reverse of NURSED_BY — emitted on the nurse's node pointing to the child she nursed. | Nurse → Child | — |
 
 ### Political & Authority
 
@@ -163,10 +176,13 @@ When an extraction or wiki field doesn't fit an existing edge type, add a new on
 | `SERVES` | Service relationship (broader than feudal — includes maesters, squires, servants) | Server → Served | — |
 | `ADVISES` | Counsel relationship (Hand, maester, septa) | Advisor → Advised | — |
 | `HOLDS_TITLE` | Person holds a named office or title | Person → Title | Titles, Title, Office |
+| `HELD_BY` | Reverse of `HOLDS_TITLE` — emitted on title nodes pointing to the people/houses who have held the title | Title → Person/House | — |
 | `SUCCEEDS` | Succeeded someone in a role or position | Successor → Predecessor | Successor, Predecessor |
 | `CLAIMS` | Asserts right to a title, throne, or domain (may be contested) | Claimant → Claimed | — |
 | `APPOINTS` | Grants a position or authority to someone | Appointer → Appointed | — |
 | `DEPOSES` | Removes someone from power | Deposer → Deposed | — |
+| `VOWS_TO` | Personal named oath made to another (distinct from `SWORN_TO`, which is structural feudal allegiance) — e.g., Brienne's vow to Catelyn, Jaime's vow to Catelyn, Arya's prayer list | Vow-maker → Recipient | — |
+| `BREAKS_VOW` | Breaking of a personal vow or sworn oath — paired with `VOWS_TO` / `SWORN_TO` to track oath-keeping arcs (Jaime breaking Kingsguard oath by killing Aerys; Theon breaking foster-bond to Robb; etc.) | Vow-breaker → Vow-recipient | — |
 
 ### Factional & Diplomatic
 
@@ -188,12 +204,19 @@ When an extraction or wiki field doesn't fit an existing edge type, add a new on
 | `COMMANDS_IN` | Holds command role in a battle or war (note which side) | Person → Event/War | — |
 | `PART_OF` | Battle or sub-event is a component of a larger war | Battle → War | Conflict, Battles |
 | `KILLS` | Directly causes death | Killer → Killed | — |
+| `KILLED_BY` | Reverse of `KILLS` — emitted on victim nodes pointing to killer | Killed → Killer | — |
 | `EXECUTES` | Formal/judicial killing | Executor → Executed | — |
 | `CAPTURES` | Takes prisoner | Captor → Captive | — |
 | `PRISONER_OF` | Held captive by | Prisoner → Captor | — |
 | `BESIEGES` | Conducts siege of a location | Besieger → Location | — |
 | `DEFEATS` | Wins against in battle or conflict | Victor → Defeated | Result |
 | `DUELS` | Single combat | Symmetric | — |
+| `POISONS` | Killing or attempted-killing via poison — narrower than `KILLS` because method matters narratively (whodunnit plots, named poisons like the strangler, tears of Lys) | Poisoner → Poisoned | — |
+| `RANSOMS` | Pays or negotiates for a captive's release — distinct from `CAPTURES` (the taking) and `PRISONER_OF` (the state) | Ransomer → Captive | — |
+| `IMPRISONS` | Holds a captive in named confinement (cell, dungeon, tower) — distinct from `CAPTURES` (battlefield event) and `PRISONER_OF` (the captive's state); captures the institutional/judicial act of confinement, e.g., Cersei imprisoning Tyrion in the Red Keep after Joffrey's death (he was already at court, not captured) | Imprisoner → Imprisoned | — |
+| `KILLED_WITH` | Combat death attributed to a specific named artifact — mirror of `EXECUTED_WITH` for non-judicial battlefield deaths. Use when prose names the weapon as agent of death ("slain by Orphan-Maker", "took an arrow from Ice"). Coexists with `KILLED_BY person` — the person did the killing, the artifact was the instrument. | Victim → Artifact | — |
+| `KNIGHTED_BY` | Granted knighthood by another knight or lord. Distinct from `TUTORS` (skill transfer over time) and `APPOINTS` (political office). Use when prose explicitly describes the dubbing/knighting. | Knight → Dubber | — |
+| `BESTOWS_KNIGHTHOOD_ON` | Reverse of `KNIGHTED_BY` — emitted on the dubber's node. | Dubber → Knight | — |
 
 ### Knowledge & Information
 
@@ -204,9 +227,12 @@ When an extraction or wiki field doesn't fit an existing edge type, add a new on
 | `SEEKS` | Pursuing knowledge, artifact, or person | Seeker → Sought | — |
 | `REVEALS_TO` | Discloses information to another | Revealer → Recipient (note what was revealed) | — |
 | `DECEIVES` | Deliberately misleads | Deceiver → Deceived (note the deception) | — |
+| `DECEIVED_BY` | Reverse of `DECEIVES` — emitted on target nodes pointing to deceiver | Deceived → Deceiver | — |
 | `HOARDS` | Institution or person suppresses knowledge | Hoarder → Knowledge | — |
 | `INVESTIGATES` | Actively trying to learn or prove something | Investigator → Subject | — |
-| `TEACHES` | Transmits knowledge or skill | Teacher → Student | — |
+| `TEACHES` | Transmits knowledge or skill (general/casual instruction) | Teacher → Student | — |
+| `TUTORS` | Sustained formal one-on-one mentorship — narrower than `TEACHES` (Syrio→Arya water-dancing, Cressen→Stannis childhood, Aemon→Sam ravenry, Septa Mordane→Sansa) | Tutor → Student | — |
+| `HEALS` | Medical or maester treatment — restoration of body, not resurrection of the dead (which is `RESURRECTS`). Maester Luwin healing Bran after the fall; Aemon healing Sam; the unnamed septon healing Sandor. **Excludes:** Red Priests reviving the dead (use `RESURRECTS`); Qyburn's reanimation of the Mountain (use `RESURRECTS`) | Healer → Healed | — |
 
 ### Emotional & Perceptual
 
@@ -227,7 +253,7 @@ When an extraction or wiki field doesn't fit an existing edge type, add a new on
 
 | Edge Type | Description | Directionality | Wiki Source |
 |-----------|-------------|---------------|-------------|
-| `LOCATED_AT` | Entity at location (with book/chapter timestamp) | Entity → Location | Location, Seat |
+| `LOCATED_AT` | Entity at location (with book/chapter timestamp). Covers both event-at-place (battle location) and person-at-place (witness location). Deprecated synonym `LOCATED_IN` was emitted by an early parser variant; normalize on read. | Entity → Location | Location, Seat |
 | `SEAT_OF` | Primary location of a house or faction | Location → House/Faction | Seat, Seats |
 | `TRAVELS_TO` | Movement from one location to another | Traveler → Destination (note origin) | — |
 | `BORN_AT` | Birthplace | Person → Location | Born |
@@ -240,10 +266,17 @@ When an extraction or wiki field doesn't fit an existing edge type, add a new on
 
 | Edge Type | Description | Directionality | Wiki Source |
 |-----------|-------------|---------------|-------------|
-| `WIELDS` | Currently bears or uses a weapon/artifact | Person → Artifact | — |
+| `WIELDS` | Currently bears or uses a weapon/artifact. **Target MUST be `object.artifact`** — animals (mounts, ravens, dragons) use `OWNS` or `BONDED_TO`, never `WIELDS`. | Person → Artifact | — |
 | `OWNS` | Possesses (broader than wields — castles, ships, animals) | Owner → Owned | Owner, Owners |
 | `ANCESTRAL_WEAPON_OF` | Valyrian steel sword or other hereditary weapon of a house | Weapon → House | Ancestral weapon |
-| `FORGED_BY` | Creator of an artifact | Creator → Artifact | — |
+| `FORGED_BY` | Creator/smith of an artifact (the person/group who made it). **NOT for material composition** — use `MADE_OF` for substance/material relationships. | Creator → Artifact | — |
+| `MADE_OF` | Artifact is composed of a material (Valyrian steel, dragonglass, dragonbone, weirwood, etc.). Distinct from `FORGED_BY` (smith). | Artifact → Material (`object.material`) | — |
+| `LOOTED_BY` | Artifact taken by force or conquest from prior holder. Distinct from `OWNS` (steady state). Captures the transactional moment. | Artifact → New holder | — |
+| `REFORGED_INTO` | Original artifact materially transformed into a new artifact (or multiple). The original ceases to exist; the new artifact(s) inherit material and lineage. | Original artifact → Resulting artifact | — |
+| `GIFTED_TO` | Deliberate voluntary transfer of an artifact from one person to another as gift or honor. Distinct from `OWNS` (state) and `INHERITED_BY` (death-succession). Note giver in qualifier. | Artifact → Recipient | — |
+| `INHERITED_BY` | Artifact passed via inheritance from deceased holder to heir. | Artifact → Heir | — |
+| `WIELDED_IN` | Artifact was used in a named event (battle, execution, ritual). Distinct from `WIELDS` (person → artifact possession state). Enables artifact-history queries. | Artifact → Event | — |
+| `EXECUTED_WITH` | A specific person was executed with a specific weapon (poetic-detail edges: Eddard executed with Ice, etc.). May overlap with `WIELDED_IN` + `EXECUTES`; kept distinct for narrative-precision queries. | Victim → Weapon | — |
 
 ### Identity & Disguise
 
@@ -253,6 +286,18 @@ When an extraction or wiki field doesn't fit an existing edge type, add a new on
 | `DISGUISED_AS` | Actively pretending to be someone/something else | Person → Disguise Identity | — |
 | `SAME_AS` | Two references that resolve to the same entity (for cross-identity matching) | Symmetric | — |
 | `IMPERSONATES` | Pretending to be a specific other person | Impersonator → Impersonated | — |
+
+### Magic & Supernatural
+
+> These edges capture relationships that involve magical, ritual, or supernatural agency — distinct from in-world physical relations. ASOIAF has rich magical systems (warging, R'hllor blood magic, Faceless-Men identity-transfer, weirwood-bonding, dragon-bonding, resurrection, curse-laying) that infobox extraction cannot reach. These types are *prose-derived only* — the wiki-infobox parser does not emit them.
+
+| Edge Type | Description | Directionality | Wiki Source |
+|-----------|-------------|---------------|-------------|
+| `WARGS_INTO` | A warg / skinchanger actively occupies the consciousness of an animal or person — e.g., Bran into Summer / Hodor / the heart tree; Arya into Nymeria (dream-skinchange); Varamyr into his wolf / eagle / shadowcat; Orell into his eagle; Jon (low-key) into Ghost | Warg → Vessel | — |
+| `BONDED_TO` | Static magical bond between two beings — broader and more permanent than `WARGS_INTO` (which is the active occupation moment). Covers dragon-rider bonds (Daenerys ↔ Drogon, etc.), warg-animal lifelong pairing (Bran ↔ Summer when not actively warging), weirwood-bond (Bran ↔ his three-eyed-crow / weirwood network) | Symmetric | — |
+| `SACRIFICES` | Deliberate ritual or magical killing with supernatural/symbolic purpose — distinct from `KILLS` (combat) and `EXECUTES` (judicial). Mirri Maz Duur sacrificing Drogo's life-essence; Daenerys sacrificing her unborn child to magic the dragon eggs; Stannis (via Melisandre) sacrificing Edric Storm's leech-blood / Mance / Penny's brother / (theory-tier) Shireen; Craster sacrificing his sons to the Others | Sacrificer → Victim | — |
+| `RESURRECTS` | Returns the dead to life via supernatural means — distinct from `HEALS` (medical), distinct from `KILLED_BY` (semantic reverse). Thoros of Myr resurrects Beric Dondarrion (multiple times); Beric resurrects Catelyn → Lady Stoneheart (ASOS Epilogue); Coldhands resurrected by unknown force (Children?); Patchface drowned-and-returned; Qyburn reanimates the Mountain; Red Priests broadly perform this (Thoros, Moqorro) — `HEALS` is for body-restoration, `RESURRECTS` is for death-reversal | Resurrector → Resurrected | — |
+| `CURSES` | A character or magical force lays a curse — Mirri Maz Duur's "when the sun rises in the west" curse on Daenerys; Maggy the Frog's Valonqar prophecy-curse on Cersei; the Curse of Harrenhal (collective); Night's King lore | Curser → Cursed | — |
 
 ### Cultural & Religious
 
@@ -267,11 +312,18 @@ When an extraction or wiki field doesn't fit an existing edge type, add a new on
 
 | Edge Type | Description | Directionality | Wiki Source |
 |-----------|-------------|---------------|-------------|
+| `DEPICTED_IN` | Character is the subject of an in-world text/song/ballad/tale (Danny Flint → "Brave Danny Flint" song, Florian → Florian-and-Jonquil tales). Distinct from `WRITTEN_BY` (author → work). Captures the in-universe legacy/folklore layer. | Character → Text | — |
+
+*continued:*
+
+| Edge Type | Description | Directionality | Wiki Source |
+|-----------|-------------|---------------|-------------|
 | `FORESHADOWS` | Detail A is a Chekhov's gun for Event B | Detail → Event | — |
 | `PARALLELS` | Event/character A mirrors Event/character B thematically | Symmetric | — |
 | `SUBVERTS` | Event A inverts the expectation set by B | Subverter → Subverted | — |
 | `ECHOES` | Weaker than PARALLELS — structural or verbal similarity without full thematic mirroring | Echo → Source | — |
 | `CONTRASTS` | Deliberate opposition in characterization, situation, or outcome | Symmetric | — |
+| `WRITTEN_BY` | Authorship of an in-world text (book, song, decree, letter) | Text → Author | Written by |
 
 ### Prophecy
 
@@ -282,6 +334,7 @@ When an extraction or wiki field doesn't fit an existing edge type, add a new on
 | `SUBVERTS_PROPHECY` | Contradicts expected fulfillment | Event → Prophecy | — |
 | `PROPHESIED_BY` | Who made the prophecy | Prophecy → Prophet | — |
 | `SUBJECT_OF_PROPHECY` | Person/event the prophecy is about | Person → Prophecy | — |
+| `DREAMS_OF` | In-world prophetic or significant dream/vision about a person, place, event, or symbol. Distinct from `FORESHADOWS` (which is a reader-facing narrative-craft edge); `DREAMS_OF` is character-facing. Heavily concentrated in Bran (greendreams, three-eyed-crow), Daenerys (HotU visions), Jojen, and the Targaryen line (canonical prophetic-dreaming lineage) | Dreamer → Subject | — |
 
 ### Evidentiary (Theory Support)
 
@@ -308,6 +361,7 @@ When an extraction or wiki field doesn't fit an existing edge type, add a new on
 | `GUEST_OF` | Under someone's roof / protection by custom | Guest → Host | — |
 | `VIOLATES_GUEST_RIGHT` | Broke the sacred hospitality compact | Violator → Victim | — |
 | `GRANTS_SAFE_CONDUCT` | Promised safe passage | Grantor → Recipient | — |
+| `ATTENDS` | Person present at a named event as guest, witness, or audience — not as combatant (`FIGHTS_IN`), commander (`COMMANDS_IN`), or organizer. Use for tourney spectators, wedding guests, feast attendees, court hearings. | Person → Event | — |
 
 ---
 
@@ -453,11 +507,18 @@ All agents working in this project should:
 
 > **Vocabulary lock — read this before adding or renaming any edge type.**
 >
-> This table is the single source of truth for the wiki-derived edge vocabulary. The parser at `scripts/wiki-infobox-parser.py` (`FIELD_EDGE_MAP` dict) implements it; everything downstream — `working/wiki/data/infobox-data.jsonl`, `scripts/wiki-pass2-emit-deterministic.py`, the `## Edges` section in every Pass-2 node — is a faithful pass-through of what the parser produces. **No script invents edge types.** No agent should propose a new edge type without it landing here first.
+> **There are two related vocabularies in this document, and it matters which one you mean.**
 >
-> **Why locked:** the graph's value comes from being able to traverse `SPOUSE_OF` everywhere consistently. If one source emits `SPOUSE_OF` and another emits `MARRIED_TO`, traversal breaks. The 22 edge types currently in the corpus were chosen deliberately; expanding the set requires the same deliberation.
+> 1. **Master edge vocabulary** — the union of all subsections under `## Edge Types (Relationship Categories)` above. Currently **~132 distinct edge types** across 15 categories (kinship, political, factional, military, knowledge, emotional/perceptual, spatial, possession, identity, cultural, narrative, prophecy, evidentiary, causal, hospitality, magic-and-supernatural). For an authoritative live count, run `scripts/build-edge-type-counts.py` — its `canonical_type_count` is derived from this file. Session 54 (2026-05-15) added `UNCLE_OF`, `NEPHEW_OF`, `KILLED_WITH`, `ATTENDS` after Stage 4 batch-0012 vocab-gap audit. Session 55 (2026-05-16) added `COUSIN_OF`, `MILK_BROTHER_OF`, `NURSED_BY`, `WET_NURSE_OF`, `KNIGHTED_BY`, `BESTOWS_KNIGHTHOOD_ON`, `DEPICTED_IN` after Stage 4 batches 0012-0018 surfaced these recurring patterns. Some types (`FEARS`, `MOURNS`, `IMPERSONATES`, `FORESHADOWS`, `DREAMS_OF`, `WARGS_INTO`, `RESURRECTS`, `MADE_OF`, `LOOTED_BY`, `GIFTED_TO`, etc.) are pre-declared for prose-derived passes and currently have zero instances in the graph — that's expected; they're reserved for Stage 4 classification. This vocabulary is the **single source of truth for every emitter** — Python parsers, Pass-1 mechanical extractor, prose-edge-classifier, voice-analyzer, foreshadowing-scanner, every script, every agent.
+> 2. **Wiki infobox subset** — the table below, mapping wiki infobox FIELD names to edge types. Currently **26 distinct edge types**, all of which are also in the master vocabulary. The parser at `scripts/wiki-infobox-parser.py` (`FIELD_EDGE_MAP` dict) implements only this subset, because infobox fields are the only signal it sees. Prose-derived edges are NOT restricted to this subset — they may emit any of the master vocabulary types (including the new Magic & Supernatural subsection added Session 53).
 >
-> **Adding a new edge type:** append a row to this table FIRST, then add the field → edge_type mapping to `FIELD_EDGE_MAP` in the parser, then re-run the parser. Don't shortcut the order.
+> **Why locked:** the graph's value comes from being able to traverse `SPOUSE_OF` everywhere consistently. If one source emits `SPOUSE_OF` and another emits `MARRIED_TO`, traversal breaks. The master edge types were chosen deliberately (curated from infobox-field frequencies + narrative/perception/prophecy needs for later passes, with Magic & Supernatural added Session 53 ahead of Stage 4); expanding the set requires the same deliberation — propose via `curation/edge-vocabulary-candidates.md`, get approval, then update this file + parser + classifier prompt.
+>
+> **No emitter invents edge types.** Scripts and agents emit ONLY from the master vocabulary. If a prose passage describes a relationship that doesn't fit any of the ~125, the agent files a `vocabulary-gap` question to `working/wiki/pass2-buckets/questions-for-matt.jsonl` with ≥3 example sentences — it does not invent. Matt + orchestrator decide whether to expand.
+>
+> **Adding a new edge type:** append a row to the appropriate `## Edge Types` subsection FIRST. If the new type comes from a wiki infobox field, also add the field → edge_type mapping to `FIELD_EDGE_MAP` in `scripts/wiki-infobox-parser.py` and add a row to the wiki-infobox subset table below. Then re-run the affected emitter. Don't shortcut the order.
+>
+> **Reverse-direction emissions** (e.g., `HELD_BY` on a title node pointing back to people who held it, `KILLED_BY` on a victim pointing to killer, `DECEIVED_BY` on a target pointing to deceiver) are permitted and equivalent to the forward edge with directionality swapped. They are not separate types — query layers should treat `HELD_BY(a→b)` as identical to `HOLDS_TITLE(b→a)`. Reverse pairs are documented in their respective subsection notes.
 >
 > **Currently unmapped infobox fields** (deliberately deferred — see `working/todos.md` "Edge taxonomy gaps"): `dynasty` (222 pages), `written by` (168), `hatched` (8), `fathers` plural (21), `vassal` (8), `cadet branch` singular (11). These need taxonomy decisions before mapping.
 >

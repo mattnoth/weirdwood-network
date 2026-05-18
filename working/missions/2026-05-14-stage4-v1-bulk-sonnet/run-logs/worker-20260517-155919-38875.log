@@ -1,0 +1,9 @@
+2026-05-17T20:59:19Z  Stage 4 worker starting: worker-20260517-155919-38875
+2026-05-17T20:59:19Z  Mission: 2026-05-14-stage4-v1-bulk-sonnet
+2026-05-17T20:59:19Z  Model: claude-sonnet-4-6
+2026-05-17T20:59:19Z  Worker prompt: /Users/mnoth/source/asoiaf-chat/.claude/commands/worker-stage4.md
+2026-05-17T20:59:19Z  Queued batches remaining: 1046 — starting Claude run
+2026-05-17T21:18:46Z  Batch complete: batch_id=batch-0044 elapsed=1167s input=80 cache_read=3455900 output=67954 cost=$3.0055548999999995 exit=0
+2026-05-17T21:18:46Z  Sleeping 270s (≈4 min) before next batch — throttle to share 5h cap
+2026-05-17T21:23:16Z  Stop file detected (/tmp/stage4-stop) — exiting cleanly.
+2026-05-17T21:23:16Z  Worker worker-20260517-155919-38875 exiting.

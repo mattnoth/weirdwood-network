@@ -1,0 +1,1 @@
+{"decision": "emit_edge", "candidate_kind": "source_target", "source": "rupert-brax", "target": "battle-of-oxcross", "edge_type": "FIGHTS_IN", "evidence_snippet": "Ser Rupert is killed at the [LINK].", "evidence_section": "## Narrative Arc / ### A Clash of Kings", "source_bucket": "characters-house-brax", "confidence": "tier-1"}

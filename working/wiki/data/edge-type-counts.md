@@ -1,0 +1,299 @@
+# Edge Type Counts — Weirwood Network
+
+Generated: 2026-05-16T04:18:06+00:00
+
+## Summary
+
+| Metric | Value |
+|--------|-------|
+| Node files scanned | 8,052 |
+| Canonical edge types | 125 |
+| Populated types (≥1 instance) | 58 |
+| Unpopulated types (0 instances) | 67 |
+| Drift types (not in canonical) | 0 |
+| Total edge instances | 21,087 |
+| Infobox edges | 21,087 |
+| Prose-derived edges | 0 |
+
+## By Category
+
+### Kinship & Family — 9/12 populated, 4,313 instances
+
+| Edge Type | Instances | Infobox | Prose |
+|-----------|-----------|---------|-------|
+| `PARENT_OF` | 3,095 | 3,095 | 0 |
+| `SPOUSE_OF` | 663 | 663 | 0 |
+| `HEIR_TO` | 206 | 206 | 0 |
+| `LOVER_OF` | 182 | 182 | 0 |
+| `SIBLING_OF` | 121 | 121 | 0 |
+| `CADET_BRANCH_OF` | 30 | 30 | 0 |
+| `BETROTHED_TO` | 9 | 9 | 0 |
+| `WARD_OF` | 5 | 5 | 0 |
+| `ANCESTOR_OF` | 2 | 2 | 0 |
+| `MARRIES_OFF` *(unpopulated)* | 0 | 0 | 0 |
+| `UNCLE_OF` *(unpopulated)* | 0 | 0 | 0 |
+| `NEPHEW_OF` *(unpopulated)* | 0 | 0 | 0 |
+
+### Political & Authority — 10/14 populated, 9,508 instances
+
+| Edge Type | Instances | Infobox | Prose |
+|-----------|-----------|---------|-------|
+| `SWORN_TO` | 4,143 | 4,143 | 0 |
+| `HOLDS_TITLE` | 3,931 | 3,931 | 0 |
+| `OVERLORD_OF` | 582 | 582 | 0 |
+| `RULES` | 562 | 562 | 0 |
+| `SUCCEEDS` | 192 | 192 | 0 |
+| `SERVES` | 66 | 66 | 0 |
+| `HELD_BY` | 24 | 24 | 0 |
+| `CLAIMS` | 4 | 4 | 0 |
+| `COMMANDS` | 3 | 3 | 0 |
+| `ADVISES` | 1 | 1 | 0 |
+| `APPOINTS` *(unpopulated)* | 0 | 0 | 0 |
+| `DEPOSES` *(unpopulated)* | 0 | 0 | 0 |
+| `VOWS_TO` *(unpopulated)* | 0 | 0 | 0 |
+| `BREAKS_VOW` *(unpopulated)* | 0 | 0 | 0 |
+
+### Factional & Diplomatic — 6/7 populated, 128 instances
+
+| Edge Type | Instances | Infobox | Prose |
+|-----------|-----------|---------|-------|
+| `FOUNDED` | 81 | 81 | 0 |
+| `MEMBER_OF` | 31 | 31 | 0 |
+| `OPPOSES` | 8 | 8 | 0 |
+| `ALLIES_WITH` | 3 | 3 | 0 |
+| `MANIPULATES` | 3 | 3 | 0 |
+| `BETRAYS` | 2 | 2 | 0 |
+| `NEGOTIATES_WITH` *(unpopulated)* | 0 | 0 | 0 |
+
+### Military & Conflict — 10/15 populated, 637 instances
+
+| Edge Type | Instances | Infobox | Prose |
+|-----------|-----------|---------|-------|
+| `DEFEATS` | 352 | 352 | 0 |
+| `FIGHTS_IN` | 234 | 234 | 0 |
+| `KILLS` | 31 | 31 | 0 |
+| `PRISONER_OF` | 5 | 5 | 0 |
+| `COMMANDS_IN` | 4 | 4 | 0 |
+| `CAPTURES` | 4 | 4 | 0 |
+| `DUELS` | 3 | 3 | 0 |
+| `KILLED_BY` | 2 | 2 | 0 |
+| `PART_OF` | 1 | 1 | 0 |
+| `EXECUTES` | 1 | 1 | 0 |
+| `BESIEGES` *(unpopulated)* | 0 | 0 | 0 |
+| `POISONS` *(unpopulated)* | 0 | 0 | 0 |
+| `RANSOMS` *(unpopulated)* | 0 | 0 | 0 |
+| `IMPRISONS` *(unpopulated)* | 0 | 0 | 0 |
+| `KILLED_WITH` *(unpopulated)* | 0 | 0 | 0 |
+
+### Knowledge & Information — 3/11 populated, 5 instances
+
+| Edge Type | Instances | Infobox | Prose |
+|-----------|-----------|---------|-------|
+| `TEACHES` | 3 | 3 | 0 |
+| `SEEKS` | 1 | 1 | 0 |
+| `DECEIVED_BY` | 1 | 1 | 0 |
+| `KNOWS` *(unpopulated)* | 0 | 0 | 0 |
+| `IGNORANT_OF` *(unpopulated)* | 0 | 0 | 0 |
+| `REVEALS_TO` *(unpopulated)* | 0 | 0 | 0 |
+| `DECEIVES` *(unpopulated)* | 0 | 0 | 0 |
+| `HOARDS` *(unpopulated)* | 0 | 0 | 0 |
+| `INVESTIGATES` *(unpopulated)* | 0 | 0 | 0 |
+| `TUTORS` *(unpopulated)* | 0 | 0 | 0 |
+| `HEALS` *(unpopulated)* | 0 | 0 | 0 |
+
+### Emotional & Perceptual — 3/10 populated, 6 instances
+
+| Edge Type | Instances | Infobox | Prose |
+|-----------|-----------|---------|-------|
+| `PROTECTS` | 3 | 3 | 0 |
+| `LOVES` | 2 | 2 | 0 |
+| `RESPECTS` | 1 | 1 | 0 |
+| `PERCEIVED_AS` *(unpopulated)* | 0 | 0 | 0 |
+| `TRUSTS` *(unpopulated)* | 0 | 0 | 0 |
+| `DISTRUSTS` *(unpopulated)* | 0 | 0 | 0 |
+| `FEARS` *(unpopulated)* | 0 | 0 | 0 |
+| `HATES` *(unpopulated)* | 0 | 0 | 0 |
+| `MOURNS` *(unpopulated)* | 0 | 0 | 0 |
+| `RESENTS` *(unpopulated)* | 0 | 0 | 0 |
+
+### Spatial & Temporal — 6/8 populated, 2,834 instances
+
+| Edge Type | Instances | Infobox | Prose |
+|-----------|-----------|---------|-------|
+| `DIED_AT` | 924 | 924 | 0 |
+| `BORN_AT` | 881 | 881 | 0 |
+| `REGION_OF` | 615 | 615 | 0 |
+| `SEAT_OF` | 338 | 338 | 0 |
+| `BURIED_AT` | 50 | 50 | 0 |
+| `LOCATED_AT` | 26 | 26 | 0 |
+| `TRAVELS_TO` *(unpopulated)* | 0 | 0 | 0 |
+| `CONTEMPORARY_WITH` *(unpopulated)* | 0 | 0 | 0 |
+
+### Possession & Ownership — 3/11 populated, 108 instances
+
+| Edge Type | Instances | Infobox | Prose |
+|-----------|-----------|---------|-------|
+| `OWNS` | 91 | 91 | 0 |
+| `ANCESTRAL_WEAPON_OF` | 15 | 15 | 0 |
+| `WIELDS` | 2 | 2 | 0 |
+| `FORGED_BY` *(unpopulated)* | 0 | 0 | 0 |
+| `MADE_OF` *(unpopulated)* | 0 | 0 | 0 |
+| `LOOTED_BY` *(unpopulated)* | 0 | 0 | 0 |
+| `REFORGED_INTO` *(unpopulated)* | 0 | 0 | 0 |
+| `GIFTED_TO` *(unpopulated)* | 0 | 0 | 0 |
+| `INHERITED_BY` *(unpopulated)* | 0 | 0 | 0 |
+| `WIELDED_IN` *(unpopulated)* | 0 | 0 | 0 |
+| `EXECUTED_WITH` *(unpopulated)* | 0 | 0 | 0 |
+
+### Identity & Disguise — 3/4 populated, 3 instances
+
+| Edge Type | Instances | Infobox | Prose |
+|-----------|-----------|---------|-------|
+| `ALIAS_OF` | 1 | 1 | 0 |
+| `DISGUISED_AS` | 1 | 1 | 0 |
+| `SAME_AS` | 1 | 1 | 0 |
+| `IMPERSONATES` *(unpopulated)* | 0 | 0 | 0 |
+
+### Magic & Supernatural — 0/5 populated, 0 instances
+
+| Edge Type | Instances | Infobox | Prose |
+|-----------|-----------|---------|-------|
+| `WARGS_INTO` *(unpopulated)* | 0 | 0 | 0 |
+| `BONDED_TO` *(unpopulated)* | 0 | 0 | 0 |
+| `SACRIFICES` *(unpopulated)* | 0 | 0 | 0 |
+| `RESURRECTS` *(unpopulated)* | 0 | 0 | 0 |
+| `CURSES` *(unpopulated)* | 0 | 0 | 0 |
+
+### Cultural & Religious — 3/4 populated, 3,542 instances
+
+| Edge Type | Instances | Infobox | Prose |
+|-----------|-----------|---------|-------|
+| `CULTURE_OF` | 3,447 | 3,447 | 0 |
+| `WORSHIPS` | 92 | 92 | 0 |
+| `CLERGY_OF` | 3 | 3 | 0 |
+| `SACRED_TO` *(unpopulated)* | 0 | 0 | 0 |
+
+### Narrative & Literary — 1/6 populated, 1 instances
+
+| Edge Type | Instances | Infobox | Prose |
+|-----------|-----------|---------|-------|
+| `WRITTEN_BY` | 1 | 1 | 0 |
+| `FORESHADOWS` *(unpopulated)* | 0 | 0 | 0 |
+| `PARALLELS` *(unpopulated)* | 0 | 0 | 0 |
+| `SUBVERTS` *(unpopulated)* | 0 | 0 | 0 |
+| `ECHOES` *(unpopulated)* | 0 | 0 | 0 |
+| `CONTRASTS` *(unpopulated)* | 0 | 0 | 0 |
+
+### Prophecy — 0/6 populated, 0 instances
+
+| Edge Type | Instances | Infobox | Prose |
+|-----------|-----------|---------|-------|
+| `FULFILLS` *(unpopulated)* | 0 | 0 | 0 |
+| `APPEARS_TO_FULFILL` *(unpopulated)* | 0 | 0 | 0 |
+| `SUBVERTS_PROPHECY` *(unpopulated)* | 0 | 0 | 0 |
+| `PROPHESIED_BY` *(unpopulated)* | 0 | 0 | 0 |
+| `SUBJECT_OF_PROPHECY` *(unpopulated)* | 0 | 0 | 0 |
+| `DREAMS_OF` *(unpopulated)* | 0 | 0 | 0 |
+
+### Evidentiary (Theory Support) — 0/3 populated, 0 instances
+
+| Edge Type | Instances | Infobox | Prose |
+|-----------|-----------|---------|-------|
+| `SUPPORTS` *(unpopulated)* | 0 | 0 | 0 |
+| `CONTRADICTS` *(unpopulated)* | 0 | 0 | 0 |
+| `CITED_BY` *(unpopulated)* | 0 | 0 | 0 |
+
+### Causal & Plot — 1/5 populated, 2 instances
+
+| Edge Type | Instances | Infobox | Prose |
+|-----------|-----------|---------|-------|
+| `CAUSES` | 2 | 2 | 0 |
+| `PREVENTS` *(unpopulated)* | 0 | 0 | 0 |
+| `ENABLES` *(unpopulated)* | 0 | 0 | 0 |
+| `MOTIVATES` *(unpopulated)* | 0 | 0 | 0 |
+| `TRIGGERS` *(unpopulated)* | 0 | 0 | 0 |
+
+### Hospitality & Custom — 0/4 populated, 0 instances
+
+| Edge Type | Instances | Infobox | Prose |
+|-----------|-----------|---------|-------|
+| `GUEST_OF` *(unpopulated)* | 0 | 0 | 0 |
+| `VIOLATES_GUEST_RIGHT` *(unpopulated)* | 0 | 0 | 0 |
+| `GRANTS_SAFE_CONDUCT` *(unpopulated)* | 0 | 0 | 0 |
+| `ATTENDS` *(unpopulated)* | 0 | 0 | 0 |
+
+## Unpopulated Types (67 total — Stage 4 targets)
+
+These are the types with zero instances in the current graph.
+They are the primary targets for Stage 4 (prose-edge classification).
+
+- **Kinship & Family:** `MARRIES_OFF`, `NEPHEW_OF`, `UNCLE_OF`
+- **Political & Authority:** `APPOINTS`, `BREAKS_VOW`, `DEPOSES`, `VOWS_TO`
+- **Factional & Diplomatic:** `NEGOTIATES_WITH`
+- **Military & Conflict:** `BESIEGES`, `IMPRISONS`, `KILLED_WITH`, `POISONS`, `RANSOMS`
+- **Knowledge & Information:** `DECEIVES`, `HEALS`, `HOARDS`, `IGNORANT_OF`, `INVESTIGATES`, `KNOWS`, `REVEALS_TO`, `TUTORS`
+- **Emotional & Perceptual:** `DISTRUSTS`, `FEARS`, `HATES`, `MOURNS`, `PERCEIVED_AS`, `RESENTS`, `TRUSTS`
+- **Spatial & Temporal:** `CONTEMPORARY_WITH`, `TRAVELS_TO`
+- **Possession & Ownership:** `EXECUTED_WITH`, `FORGED_BY`, `GIFTED_TO`, `INHERITED_BY`, `LOOTED_BY`, `MADE_OF`, `REFORGED_INTO`, `WIELDED_IN`
+- **Identity & Disguise:** `IMPERSONATES`
+- **Magic & Supernatural:** `BONDED_TO`, `CURSES`, `RESURRECTS`, `SACRIFICES`, `WARGS_INTO`
+- **Cultural & Religious:** `SACRED_TO`
+- **Narrative & Literary:** `CONTRASTS`, `ECHOES`, `FORESHADOWS`, `PARALLELS`, `SUBVERTS`
+- **Prophecy:** `APPEARS_TO_FULFILL`, `DREAMS_OF`, `FULFILLS`, `PROPHESIED_BY`, `SUBJECT_OF_PROPHECY`, `SUBVERTS_PROPHECY`
+- **Evidentiary (Theory Support):** `CITED_BY`, `CONTRADICTS`, `SUPPORTS`
+- **Causal & Plot:** `ENABLES`, `MOTIVATES`, `PREVENTS`, `TRIGGERS`
+- **Hospitality & Custom:** `ATTENDS`, `GRANTS_SAFE_CONDUCT`, `GUEST_OF`, `VIOLATES_GUEST_RIGHT`
+
+## Drift Types
+
+None. All emitted edge types are in the canonical vocabulary.
+
+## Top 20 By Instance Count
+
+| Rank | Edge Type | Category | Instances |
+|------|-----------|----------|-----------|
+| 1 | `SWORN_TO` | Political & Authority | 4,143 |
+| 2 | `HOLDS_TITLE` | Political & Authority | 3,931 |
+| 3 | `CULTURE_OF` | Cultural & Religious | 3,447 |
+| 4 | `PARENT_OF` | Kinship & Family | 3,095 |
+| 5 | `DIED_AT` | Spatial & Temporal | 924 |
+| 6 | `BORN_AT` | Spatial & Temporal | 881 |
+| 7 | `SPOUSE_OF` | Kinship & Family | 663 |
+| 8 | `REGION_OF` | Spatial & Temporal | 615 |
+| 9 | `OVERLORD_OF` | Political & Authority | 582 |
+| 10 | `RULES` | Political & Authority | 562 |
+| 11 | `DEFEATS` | Military & Conflict | 352 |
+| 12 | `SEAT_OF` | Spatial & Temporal | 338 |
+| 13 | `FIGHTS_IN` | Military & Conflict | 234 |
+| 14 | `HEIR_TO` | Kinship & Family | 206 |
+| 15 | `SUCCEEDS` | Political & Authority | 192 |
+| 16 | `LOVER_OF` | Kinship & Family | 182 |
+| 17 | `SIBLING_OF` | Kinship & Family | 121 |
+| 18 | `WORSHIPS` | Cultural & Religious | 92 |
+| 19 | `OWNS` | Possession & Ownership | 91 |
+| 20 | `FOUNDED` | Factional & Diplomatic | 81 |
+
+## Bottom 20 Populated Types (lowest instance count)
+
+| Rank | Edge Type | Category | Instances |
+|------|-----------|----------|-----------|
+| 1 | `WRITTEN_BY` | Narrative & Literary | 1 |
+| 2 | `SEEKS` | Knowledge & Information | 1 |
+| 3 | `SAME_AS` | Identity & Disguise | 1 |
+| 4 | `RESPECTS` | Emotional & Perceptual | 1 |
+| 5 | `PART_OF` | Military & Conflict | 1 |
+| 6 | `EXECUTES` | Military & Conflict | 1 |
+| 7 | `DISGUISED_AS` | Identity & Disguise | 1 |
+| 8 | `DECEIVED_BY` | Knowledge & Information | 1 |
+| 9 | `ALIAS_OF` | Identity & Disguise | 1 |
+| 10 | `ADVISES` | Political & Authority | 1 |
+| 11 | `WIELDS` | Possession & Ownership | 2 |
+| 12 | `LOVES` | Emotional & Perceptual | 2 |
+| 13 | `KILLED_BY` | Military & Conflict | 2 |
+| 14 | `CAUSES` | Causal & Plot | 2 |
+| 15 | `BETRAYS` | Factional & Diplomatic | 2 |
+| 16 | `ANCESTOR_OF` | Kinship & Family | 2 |
+| 17 | `TEACHES` | Knowledge & Information | 3 |
+| 18 | `PROTECTS` | Emotional & Perceptual | 3 |
+| 19 | `MANIPULATES` | Factional & Diplomatic | 3 |
+| 20 | `DUELS` | Military & Conflict | 3 |

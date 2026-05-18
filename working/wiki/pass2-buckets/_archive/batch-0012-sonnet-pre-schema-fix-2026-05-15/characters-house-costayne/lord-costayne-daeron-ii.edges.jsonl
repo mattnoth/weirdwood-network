@@ -1,0 +1,4 @@
+{"source_slug": "lord-costayne-daeron-ii", "target_slug": "battle-of-the-redgrass-field", "edge_type": "FIGHTS_IN", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "lord-costayne-daeron-ii", "target_slug": "daemon-i-blackfyre", "edge_type": "ALLIES_WITH", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "lord-costayne-daeron-ii", "target_slug": "first-blackfyre-rebellion", "edge_type": "FIGHTS_IN", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "lord-costayne-daeron-ii", "target_slug": "lord-costayne-aerys-i", "edge_type": "PARENT_OF", "confidence_tier": 1, "cite_ref": "## Origins", "decision": "emit_edge"}

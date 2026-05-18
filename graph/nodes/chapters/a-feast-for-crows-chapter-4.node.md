@@ -1,0 +1,28 @@
+---
+name: "A Feast for Crows-Chapter 4"
+type: meta.chapter
+slug: a-feast-for-crows-chapter-4
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Feast_for_Crows-Chapter_4"
+bucket_id: meta-chapters-affc
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+book: a-feast-for-crows
+chapter_number: 4
+pov_character: brienne-of-tarth
+---
+
+## Identity
+
+A Feast for Crows-Chapter 4 is a meta.chapter from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+[Brienne](wiki:Brienne_of_Tarth) travels to [Duskendale](wiki:Duskendale), seeking the whereabouts of [Sansa](wiki:Sansa_Stark) as she was charged to do by [Jaime](wiki:Jaime_Lannister). Having found few leads in [King's Landing](wiki:King's_Landing), Brienne asks nearly everyone she can along the roads and villages, but she never mentions Sansa by name. Upon [the road](wiki:Rosby_road) beyond [Rosby](wiki:Rosby), she comes upon a camp with [Illifer the Penniless](wiki:Illifer_the_Penniless) and [Creighton Longbough](wiki:Creighton_Longbough), two [hedge knights](wiki:Hedge_knight) who offer to share their meal. Mistaking her at first for a man, Ser Illifer later remarks on how Brienne bears a shield with the sigil of [House Lothston](wiki:House_Lothston), a disgraced family who once held [Harrenhal](wiki:Harrenhal). Brienne was given the shield by Ser Jaime, who had taken it from Harrenhal. When she tells the two that she lost her own shield, Illifer figures out by her size that she must be Brienne, murderess of King [Renly](wiki:Renly_Baratheon). The Maid of Tarth denies having killed Renly, and the hedge knights agree to travel with her to Duskendale.
+
+After passing a large group of poor fellows (or '[sparrows](wiki:Sparrows)'), lowly holy men bound for King's Landing bearing the bones of septons killed around the [riverlands](wiki:Riverlands), they catch up to a merchant guarded by a couple of men and another hedge knight named Ser [Shadrich](wiki:Shadrich). Joining forces along the dangerous road, Shadrich tells Brienne in private that he knows that the maid she seeks is Sansa Stark, and that he seeks her as well, but for a purse of gold offered by [Varys](wiki:Varys). Brienne is disturbed by the fact that the knight knew whom she was speaking of when she repeated Sansa's description to the merchant's group. When the party stops at an inn, the [Old Stone Bridge](wiki:Old_Stone_Bridge), for the night, Brienne slips off on her own, swearing to herself that she will not fail Jaime, having already failed King Renly and Lady [Catelyn](wiki:Catelyn_Stark).

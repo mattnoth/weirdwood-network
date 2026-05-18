@@ -1,0 +1,18 @@
+{
+  "batch_id": "batch-0046",
+  "worker_id": "worker-20260517-214012-463821",
+  "completed_at": "2026-05-17T21:58:40.000000Z",
+  "files_processed": 5,
+  "total_emitted": 9,
+  "total_rejected": 31,
+  "total_escalated": 0,
+  "vocab_gaps_filed": 1,
+  "file_results": [
+    {"file": "working/wiki/pass2-buckets/characters-house-hunter/prose-edges/janyce-hunter.edges.jsonl", "source_slug": "janyce-hunter", "rows_emitted": 0, "rows_rejected": 3},
+    {"file": "working/wiki/pass2-buckets/characters-house-hunter/prose-edges/teora-hunter.edges.jsonl", "source_slug": "teora-hunter", "rows_emitted": 0, "rows_rejected": 8},
+    {"file": "working/wiki/pass2-buckets/characters-house-inchfield/prose-edges/lucas-inchfield.edges.jsonl", "source_slug": "lucas-inchfield", "rows_emitted": 5, "rows_rejected": 18},
+    {"file": "working/wiki/pass2-buckets/characters-house-inchfield/prose-edges/owen-inchfield.edges.jsonl", "source_slug": "owen-inchfield", "rows_emitted": 2, "rows_rejected": 2},
+    {"file": "working/wiki/pass2-buckets/characters-house-ironmaker/prose-edges/dagon-ironmaker.edges.jsonl", "source_slug": "dagon-ironmaker", "rows_emitted": 2, "rows_rejected": 0}
+  ],
+  "notes": "Vocab gap filed: ASSAULTS edge type (owen-inchfield→brienne-tarth attempted assault; q-2026-05-17-characters-house-inchfield-001). lucas-inchfield was richest source: HATES/DECEIVES/REVEALS_TO/PROTECTS/SERVES all emitted. trial-by-combat correctly rejected as concept.custom (not event.*) — FIGHTS_IN type contract fails."
+}

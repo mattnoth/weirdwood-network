@@ -1,0 +1,3 @@
+{"decision": "emit_edge", "edge_type": "MANIPULATES", "source_slug": "alyn-cockshaw", "target_slug": "uthor-underleaf", "confidence": "tier-1", "rationale": "He arranged for Ser Uthor Underleaf to kill Duncan 'accidentally' in the tourney joust at Whitewalls"}
+{"decision": "emit_edge", "edge_type": "DUELS", "source_slug": "alyn-cockshaw", "target_slug": "glendon-flowers", "confidence": "tier-1", "rationale": "Alyn was unhorsed by Ser Glendon Flowers in the tourney at Whitewalls"}
+{"decision": "emit_edge", "edge_type": "FIGHTS_IN", "source_slug": "alyn-cockshaw", "target_slug": "second-blackfyre-rebellion", "confidence": "tier-1", "rationale": "Part of the conspiracy at the wedding tourney at Whitewalls during the Second Blackfyre Rebellion"}

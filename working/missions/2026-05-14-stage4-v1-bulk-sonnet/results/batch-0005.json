@@ -1,0 +1,12 @@
+{
+  "batch_id": "batch-0005",
+  "worker_id": "worker-20260515003334236990",
+  "completed_at": "2026-05-15T01:11:33.006934Z",
+  "files_processed": 30,
+  "total_candidates": 877,
+  "total_emits": 152,
+  "total_rejects": 725,
+  "emit_rate_pct": 17.3,
+  "vocab_gap_questions": 3,
+  "errors": 0
+}

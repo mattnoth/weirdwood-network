@@ -22,7 +22,7 @@ Lannister forces captured Castle Darry, the seat of House Darry, as part of the 
 ## Edges
 
 - PART_OF: War of the Five Kings (track_b: Conflict)
-- LOCATED_IN: Castle Darry (wiki:Capture_of_Darry)
+- LOCATED_AT: Castle Darry (wiki:Capture_of_Darry)
 
 ## Notes
 

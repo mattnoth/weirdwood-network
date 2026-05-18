@@ -1,0 +1,42 @@
+---
+name: "A Dance with Dragons-Chapter 46"
+type: meta.chapter
+slug: a-dance-with-dragons-chapter-46
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons-Chapter_46"
+bucket_id: meta-chapters-adwd
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+book: a-dance-with-dragons
+chapter_number: 46
+pov_character: theon-greyjoy
+---
+
+## Identity
+
+A Dance with Dragons-Chapter 46 is a meta.chapter from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+One of [Roger Ryswell](wiki:Roger_Ryswell)'s men has been found dead at the inner wall of [Winterfell](wiki:Winterfell). [Theon](wiki:Theon_Greyjoy) hears Lord Roger Ryswell declare that he must've fallen off the wall drunk, but he suspects it might have been murder, as do some others.
+
+[Roose Bolton](wiki:Roose_Bolton) and his host are still stuck inside [Winterfell](wiki:Winterfell)'s walls due to the relentless snow storms. They expect Stannis' forces to attack them, but have no idea how close he may be due to the storms. Tensions rise among the people inside Winterfell, with no one quite certain whether it is a good idea to wait passively for Stannis or instead to pursue him outside. It doesn't help that food is somewhat scarce and distributed quite unevenly.
+
+[Holly](wiki:Holly), one of Abel the Bard's washer women, sits down next to Theon, who is upset that she has touched him. She asks him about the crypts, and a mistrusting Theon comes to the conclusion that she, Abel, and the other women want out of Winterfell. Theon sympathizes, but he fears the wrath of [Ramsay Bolton](wiki:Ramsay_Bolton) and prefers not to get involved.
+
+The next morning [Aenys Frey](wiki:Aenys_Frey)'s squire is found dead and naked outside in the snow. Later on that day another man, a crossbowman sworn to [House Flint](wiki:House_Flint), is found dead with a crushed skull, presumably from a horse kick.
+
+Nevertheless, the suspicions and tensions keep growing to the point that open quarreling happens among the host's Lords inside the Great Hall. Some are tired of waiting for Stannis and want to attack him. A fight nearly breaks out as [Ser Hosteen](wiki:Hosteen_Frey) and [Aenys Frey](wiki:Aenys_Frey) blame [Wyman Manderly](wiki:Wyman_Manderly) for the deaths of their three kin [Rhaegar](wiki:Rhaegar_Frey), [Jared](wiki:Jared_Frey), and [Symond](wiki:Symond_Frey). It almost comes to a duel before [Roger Ryswell](wiki:Roger_Ryswell) and [Barbrey Dustin](wiki:Barbrey_Dustin) calm them down, though Roose does nothing throughout the near altercation and Theon sees something new in Roose's eyes for the first time: a hint of fear.
+
+Soon the newly rebuilt stable collapses, killing two men and twenty-six horses. Roose Bolton gives orders for the surviving horses to be brought inside the walls of Winterfell.
+
+A more suspicious death is discovered, that of [Yellow Dick](wiki:Yellow_Dick). His namesake is stuffed in his mouth so hard that three teeth have been broken. This death is taken more seriously as it cannot be confused with an accident and to boot he is one of Ramsay Bolton's [Bastard Boys](wiki:Bastard_Boys). Theon considers that a [hooded man](wiki:Hooded_man) whom he meets may be responsible for the murder. Theon is later ushered to see Roose by [Steelshanks Walton](wiki:Steelshanks_Walton). Roose says that Theon has been seen where all the murders have occurred. Theon is freed from the suspicions due to his weakened physical and psychological state, as remarked by Lady Dustin and Roger Ryswell. It is now however undeniable that someone has been committing murders, possibly at Stannis' behest. The resulting suspicion flames the tensions between the Freys and the Northmen, who are reminded of their role at the [Red Wedding](wiki:Red_Wedding) and the fact they are surrounded by northern Houses who all lost people at the Red Wedding and have more than good reason to despise and do harm to the Freys.
+
+Suddenly a war horn and drum is sounded, and the men inside the walls begin to believe that Stannis has arrived. Theon goes to pray in the [godswood](wiki:Godswood), seeing hints of [Bran](wiki:Bran_Stark)'s very face in the [weirwood](wiki:Weirwood), hearing it whisper his name.
+
+[Holly](wiki:Holly), [Rowan](wiki:Rowan) and a third washerwoman appear, claiming to have come for him. Theon believes that they are behind the murders and want to kill him now, but they deny his suspicions and insist that there will be no more hurt for him but instead a nice, quick death - but first he must see Abel.

@@ -23,7 +23,7 @@ Ser Rodrik Cassel gathered a host including men from House Cerwyn, Manderly, Tal
 ## Edges
 
 - PART_OF: War of the Five Kings (track_b: Conflict)
-- LOCATED_IN: Winterfell (wiki:Battle_outside_the_gates_of_Winterfell)
+- LOCATED_AT: Winterfell (wiki:Battle_outside_the_gates_of_Winterfell)
 - COMMANDS_IN: Ramsay Snow (wiki:Battle_outside_the_gates_of_Winterfell)
 - COMMANDS_IN: Rodrik Cassel (wiki:Battle_outside_the_gates_of_Winterfell)
 - KILLS: Rodrik Cassel (wiki:Battle_outside_the_gates_of_Winterfell)

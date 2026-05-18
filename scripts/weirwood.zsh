@@ -10,6 +10,8 @@
 #   weirwood <book> <terms> <waves>  Launch extraction across iTerm tabs
 #   weirwood <book> <t> <w> <model>  Launch with a specific Claude model
 #   weirwood stop                    Soft stop — halt after current wave finishes
+#   weirwood wiki <subcommand>       Wiki Pass 2 — see 'weirwood wiki --help'
+#   weirwood stage4 <subcommand>     Stage 4 prose-edge classifier
 #
 # Race protection:
 #   Multiple terminals on the same book are safe — each chapter is claimed
@@ -46,6 +48,7 @@ weirwood() {
   local project_dir="${WEIRWOOD_PROJECT_DIR:-$HOME/source/asoiaf-chat}"
   local script="$project_dir/scripts/extract.sh"
   local wiki_script="$project_dir/scripts/wiki-pass2.sh"
+  local stage4_script="$project_dir/scripts/stage4.sh"
 
   if [[ ! -f "$script" ]]; then
     echo "ERROR: extract.sh not found at $script"
@@ -131,6 +134,57 @@ weirwood() {
       esac
       ;;
 
+    # ── Stage 4 subcommand ─────────────────────────────────────────────────────
+    stage4)
+      if [[ ! -f "$stage4_script" ]]; then
+        echo "ERROR: stage4.sh not found at $stage4_script"
+        return 1
+      fi
+      local s4_sub="${2:-}"
+      case "$s4_sub" in
+        ""|status)
+          bash "$stage4_script" status
+          ;;
+        stop)
+          touch /tmp/stage4-stop
+          echo "Stop file created — workers will halt after their current batch."
+          ;;
+        unstick)
+          local batch_id="${3:-}"
+          if [[ -z "$batch_id" ]]; then
+            echo "Usage: weirwood stage4 unstick <batch_id>"
+            return 1
+          fi
+          bash "$stage4_script" unstick "$batch_id"
+          ;;
+        --help|-h)
+          echo "weirwood stage4 — Stage 4 prose-edge classifier"
+          echo ""
+          echo "Commands:"
+          echo "  weirwood stage4                 Status: progress, tokens, cost, stuck batches"
+          echo "  weirwood stage4 <N>             Launch N concurrent worker tabs"
+          echo "  weirwood stage4 stop            Soft stop after current batch"
+          echo "  weirwood stage4 unstick <id>    Release orphaned batch lock + requeue"
+          echo ""
+          echo "Examples:"
+          echo "  weirwood stage4                 Check progress"
+          echo "  weirwood stage4 5               Launch 5 concurrent workers"
+          echo "  weirwood stage4 stop"
+          echo "  weirwood stage4 unstick batch-0003"
+          ;;
+        *)
+          # If numeric, treat as terminal count
+          if [[ "$s4_sub" =~ ^[0-9]+$ ]]; then
+            bash "$stage4_script" launch -t "$s4_sub"
+          else
+            echo "Unknown stage4 subcommand: $s4_sub"
+            echo "Run 'weirwood stage4 --help' for usage."
+            return 1
+          fi
+          ;;
+      esac
+      ;;
+
     ""|--help|-h)
       echo "weirwood — run Weirwood Network extractions"
       echo ""
@@ -142,6 +196,7 @@ weirwood() {
       echo "  weirwood <book> <t> <w> <model>   With a specific model"
       echo "  weirwood stop                     Soft stop (see below)"
       echo "  weirwood wiki <subcommand>        Wiki Pass 2 — see 'weirwood wiki --help'"
+      echo "  weirwood stage4 <subcommand>      Stage 4 prose-edge classifier"
       echo ""
       echo "Examples:"
       echo "  weirwood acok                     What's left in ACOK?"
@@ -150,6 +205,7 @@ weirwood() {
       echo "  weirwood stop"
       echo "  weirwood wiki triage --accept     Commit wiki triage manifests"
       echo "  weirwood wiki core 2 3            Launch wiki core tier (2 tabs, 3 waves)"
+      echo "  weirwood stage4 5                 Launch 5 Stage 4 worker tabs"
       echo ""
       echo "Books: agot acok asos affc adwd"
       echo ""
@@ -166,7 +222,8 @@ weirwood() {
       echo "  the terminal exits instead of starting the next wave."
       echo "  Run it from any terminal, a third tab, or Claude Code (! weirwood stop)."
       echo "  The stop file is cleared automatically on the next launch."
-      echo "  Note: 'weirwood wiki stop' uses a SEPARATE stop file for wiki tabs."
+      echo "  Note: 'weirwood wiki stop' and 'weirwood stage4 stop' each use SEPARATE"
+      echo "        stop files (/tmp/wiki-pass2-stop, /tmp/stage4-stop)."
       echo ""
       echo "Overview:"
       # Quick status across all books

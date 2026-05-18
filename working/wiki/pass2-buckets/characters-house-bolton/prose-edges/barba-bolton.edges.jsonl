@@ -1,0 +1,7 @@
+{"decision": "reject_just_mention", "source_slug": "barba-bolton", "target_slug": "aegon-iii-targaryen", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "barba-bolton", "target_slug": "herald", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "barba-bolton", "target_slug": "kings-landing", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "barba-bolton", "target_slug": "maidens-day-ball", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "barba-bolton", "target_slug": "north", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "barba-bolton", "target_slug": "red-keep", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "barba-bolton", "target_slug": "westeros", "reject_reason": "generic-noun-target"}

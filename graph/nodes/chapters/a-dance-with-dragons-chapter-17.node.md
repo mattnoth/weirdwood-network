@@ -1,0 +1,32 @@
+---
+name: "A Dance with Dragons-Chapter 17"
+type: meta.chapter
+slug: a-dance-with-dragons-chapter-17
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons-Chapter_17"
+bucket_id: meta-chapters-adwd
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+book: a-dance-with-dragons
+chapter_number: 17
+pov_character: jon-snow
+---
+
+## Identity
+
+A Dance with Dragons-Chapter 17 is a meta.chapter from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+During an inspection of the stores, [Jon](wiki:Jon_Snow) is informed by [Bowen Marsh](wiki:Bowen_Marsh) and some other stewards that there is not enough to feed the [Night's Watch](wiki:Night's_Watch), the [wildlings](wiki:Wildlings), and [Stannis](wiki:Stannis_Baratheon)' men through the winter. He grimly orders a cut in rations, though he knows it will make him unpopular, and tells Marsh they will find a way to feed everyone.
+
+He is then summoned to meet with Stannis. [Rattleshirt](wiki:Rattleshirt) taunts Jon, offering to sing for him and pointing out the red ruby on his iron cuff, and Stannis tells Jon that he is handing the wildling to Jon. Despite his reluctance to be seen as partial to Stannis in the War of Five Kings, he advises him of the ways of the northern lords and offers him advice over how to win them over. He ignores the provocations of the [queen's men](wiki:Queen's_men) as Stannis tells him that he plans to leave the Wall and take on [Ramsay Bolton](wiki:Ramsay_Bolton) at the [Dreadfort](wiki:Dreadfort) unawares. [Arnolf Karstark](wiki:Arnolf_Karstark) has been urging Stannis to attack the Dreadfort claiming that it is lightly garrisoned.
+
+Jon bluntly tells him that his plan will fail, earning more scorn from the queen's men. Stannis silences them and orders Jon to explain his reasons. Jon explains several things; firstly, unless Stannis wins [Mors Umber](wiki:Mors_Umber) (who is offering an alliance in exchange for certain conditions, namely the skull of [Mance Rayder](wiki:Mance_Rayder) and a pardon for his brother [Hother Umber](wiki:Hother_Umber), who is fighting under duress for the Boltons) to his cause, Umber will cut Stannis's host to pieces as it crosses his land. Second, the Dreadfort will learn of Stannis's coming long before his arrival and Jon, having seen the castle's defences, knows that a small garrison could hold the Dreadfort against many times their number. Thirdly, with the imminent fall of [Moat Cailin](wiki:Moat_Cailin) to [House Bolton](wiki:House_Bolton), the combined armies of Ramsay and [Roose Bolton](wiki:Roose_Bolton) will outnumber Stannis 5 to 1, and will easily destroy him as he lays siege to the Dreadfort. In addition, the northern lords Stannis seeks to rally to his cause, who have suffered generations of wildings raiding their holdings, will not be pleased to see his wildling conscripts crossing their lands.
+
+Stannis orders everyone out of the room except Melisandre and Jon. Stannis again offers [Winterfell](wiki:Winterfell) to Jon, but Jon reminds him that Sansa is currently the rightful heir and that he cannot forsake his vows. Stannis says he plans to give Winterfell to [Arnolf Karstark](wiki:Arnolf_Karstark), and Jon rebuts that the Karstarks abandoned his brother [Robb Stark](wiki:Robb_Stark). Robb had personally beheaded Lord [Rickard Karstark](wiki:Rickard_Karstark) after the latter killed two of Stark's prisoners.(wiki:A_Dance_with_Dragons-Chapter_17.cite_ref-Rasos20.7B.7B.7B3.7D.7D.7D.7B.7B.7B4.7D.7D.7D_1-0) Jon promises a source of more men to Stannis, if Stannis will let him keep the wildlings to occupy more of the forts at the Wall. Stannis agrees and Jon tells him of the petty lords of the mountains - [House Flint](wiki:House_Flint_of_the_mountains), [House Wull](wiki:House_Wull), [House Norrey](wiki:House_Norrey), and [House Liddle](wiki:House_Liddle). Jon counsels Stannis to march through the mountains, win the mountain clans to his side, then emerge to attack [Deepwood Motte](wiki:Deepwood_Motte) and defeat the Ironmen to rouse the north to his side. Stannis agrees that it is a plan likely to succeed and impress the northmen. Jon also warns that the clansmen are deeply devout to the [old gods](wiki:Old_gods), warning Melisandre that her presence won't be welcome. Melisandre surprises Jon by telling him she will stay at the Wall. He ruefully reflects on how he has acquired a thousand wildlings whom he cannot feed.

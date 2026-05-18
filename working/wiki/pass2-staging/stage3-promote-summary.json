@@ -1,22 +1,18 @@
 {
   "version": "v1",
-  "ran_at": "2026-04-28T05:39:37.656456+00:00",
+  "ran_at": "2026-05-14T00:24:57.898629+00:00",
   "buckets_processed": 1,
   "core_buckets_skipped": 0,
-  "pages_promoted": 24,
+  "pages_promoted": 73,
   "pages_already_promoted_byte_equal": 0,
   "pages_conflicted": 0,
   "pages_missing_skeleton": 0,
   "pages_unclassified_type": 0,
   "type_distribution": {
-    "title": 12,
-    "organization.faction": 8,
-    "organization.religion": 4
+    "meta.chapter": 73
   },
   "destinations_used": {
-    "factions": 8,
-    "religions": 4,
-    "titles": 12
+    "chapters": 73
   },
   "unclassified": []
 }

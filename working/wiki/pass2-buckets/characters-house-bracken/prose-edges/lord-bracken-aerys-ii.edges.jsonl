@@ -1,0 +1,12 @@
+{"decision": "emit_edge", "edge_type": "SWORN_TO", "source_slug": "lord-bracken-aerys-ii", "target_slug": "hoster-tully", "confidence_tier": "tier-2", "source_section": "## Origins", "candidate_kind": "source_target", "note": "brought his feud with Lord Blackwood before Hoster Tully as liege lord; liege relationship implied by bringing the dispute to Riverrun"}
+{"decision": "reject_just_mention", "source_slug": "lord-bracken-aerys-ii", "target_slug": "aerys-ii-targaryen", "source_section": "## Origins", "candidate_kind": "source_target"}
+{"decision": "reject_just_mention", "source_slug": "lord-bracken-aerys-ii", "target_slug": "brandon-stark", "source_section": "## Origins", "candidate_kind": "source_target"}
+{"decision": "reject_just_mention", "source_slug": "lord-bracken-aerys-ii", "target_slug": "brynden-tully", "source_section": "## Origins", "candidate_kind": "source_target"}
+{"decision": "reject_just_mention", "source_slug": "lord-bracken-aerys-ii", "target_slug": "catelyn-stark", "source_section": "## Origins", "candidate_kind": "source_target"}
+{"decision": "reject_just_mention", "source_slug": "lord-bracken-aerys-ii", "target_slug": "hand-of-the-king", "source_section": "## Origins", "candidate_kind": "source_target"}
+{"decision": "reject_just_mention", "source_slug": "lord-bracken-aerys-ii", "target_slug": "kings-landing", "source_section": "## Origins", "candidate_kind": "source_target"}
+{"decision": "reject_just_mention", "source_slug": "lord-bracken-aerys-ii", "target_slug": "lord-blackwood-aerys-ii", "source_section": "## Origins", "candidate_kind": "source_target"}
+{"decision": "reject_just_mention", "source_slug": "lord-bracken-aerys-ii", "target_slug": "marriage", "source_section": "## Origins", "candidate_kind": "source_target"}
+{"decision": "reject_just_mention", "source_slug": "lord-bracken-aerys-ii", "target_slug": "riverrun", "source_section": "## Origins", "candidate_kind": "source_target"}
+{"decision": "reject_just_mention", "source_slug": "lord-bracken-aerys-ii", "target_slug": "tywin-lannister", "source_section": "## Origins", "candidate_kind": "source_target"}
+{"decision": "reject_just_mention", "source_slug": "lord-bracken-aerys-ii", "target_slug": "winterfell", "source_section": "## Origins", "candidate_kind": "source_target"}

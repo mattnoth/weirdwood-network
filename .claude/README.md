@@ -61,7 +61,7 @@ Agents are listed by pipeline stage / function. See `reference/agents.md` for th
 
 | Agent | Status | Purpose |
 |-------|--------|---------|
-| `prose-edge-classifier` | full | Classify prose-derived edge candidates (locked 22-type vocabulary) or reject as just-a-mention. |
+| `prose-edge-classifier` | full | Classify prose-derived edge candidates (locked master vocabulary ~96 types) or reject as just-a-mention. |
 | `cross-identity-detector` | full | Decide SAME_AS pairs (Reek=Theon, Alayne=Sansa). |
 | `disambiguation-resolver` | stub | Resolve ambiguous references ("King Aegon" → which Aegon). |
 | `multi-type-entity-resolver` | stub | Decide policy for multi-type entities (Citadel = org + place). |

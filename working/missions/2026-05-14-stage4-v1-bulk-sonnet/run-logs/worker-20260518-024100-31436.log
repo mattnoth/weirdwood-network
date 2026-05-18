@@ -1,0 +1,36 @@
+2026-05-18T07:41:00Z  Stage 4 worker starting: worker-20260518-024100-31436
+2026-05-18T07:41:00Z  Mission: 2026-05-14-stage4-v1-bulk-sonnet
+2026-05-18T07:41:00Z  Model: claude-sonnet-4-6
+2026-05-18T07:41:00Z  Worker prompt: /Users/mnoth/source/asoiaf-chat/.claude/commands/worker-stage4.md
+2026-05-18T07:41:00Z  Queued batches remaining: 1033 — starting Claude run
+2026-05-18T07:51:12Z  Batch complete: batch_id=batch-0058 elapsed=611s input=35 cache_read=2865177 output=42539 cost=$1.9588658500000002 exit=0
+2026-05-18T07:51:12Z  Sleeping 270s (≈4 min) before next batch — throttle to share 5h cap
+2026-05-18T07:55:42Z  Queued batches remaining: 1032 — starting Claude run
+2026-05-18T08:04:08Z  Batch complete: batch_id=batch-0059 elapsed=505s input=51 cache_read=4228802 output=32525 cost=$2.07646635 exit=0
+2026-05-18T08:04:08Z  Sleeping 270s (≈4 min) before next batch — throttle to share 5h cap
+2026-05-18T08:08:38Z  Queued batches remaining: 1031 — starting Claude run
+2026-05-18T08:18:23Z  Batch complete: batch_id=batch-0060 elapsed=585s input=58 cache_read=4794368 output=34720 cost=$2.2773684 exit=0
+2026-05-18T08:18:23Z  Sleeping 270s (≈4 min) before next batch — throttle to share 5h cap
+2026-05-18T08:22:53Z  Queued batches remaining: 1030 — starting Claude run
+2026-05-18T08:37:37Z  Batch complete: batch_id=batch-0061 elapsed=884s input=53 cache_read=4878923 output=51626 cost=$2.665113649999999 exit=0
+2026-05-18T08:37:37Z  Sleeping 270s (≈4 min) before next batch — throttle to share 5h cap
+2026-05-18T08:42:07Z  Queued batches remaining: 1029 — starting Claude run
+2026-05-18T08:54:41Z  Batch complete: batch_id=batch-0062 elapsed=754s input=39 cache_read=3521416 output=51880 cost=$2.2223832999999997 exit=0
+2026-05-18T08:54:41Z  Sleeping 270s (≈4 min) before next batch — throttle to share 5h cap
+2026-05-18T08:59:11Z  Queued batches remaining: 1028 — starting Claude run
+2026-05-18T09:34:41Z  Batch complete: batch_id=batch-0063 elapsed=2129s input=46 cache_read=3811576 output=142821 cost=$4.2661623 exit=0
+2026-05-18T09:34:41Z  Sleeping 270s (≈4 min) before next batch — throttle to share 5h cap
+2026-05-18T09:39:11Z  Queued batches remaining: 1027 — starting Claude run
+2026-05-18T09:51:17Z  Batch complete: batch_id=batch-0064 elapsed=725s input=38 cache_read=3222080 output=51369 cost=$2.099238249999999 exit=0
+2026-05-18T09:51:17Z  Sleeping 270s (≈4 min) before next batch — throttle to share 5h cap
+2026-05-18T09:55:47Z  Queued batches remaining: 1026 — starting Claude run
+2026-05-18T10:22:16Z  Batch complete: batch_id=batch-0065 elapsed=1589s input=114 cache_read=3804080 output=85997 cost=$3.407216249999999 exit=0
+2026-05-18T10:22:16Z  Sleeping 270s (≈4 min) before next batch — throttle to share 5h cap
+2026-05-18T10:26:46Z  Queued batches remaining: 1025 — starting Claude run
+2026-05-18T10:55:36Z  Batch complete: batch_id=batch-0066 elapsed=1730s input=46 cache_read=2788581 output=96721 cost=$3.4380248499999997 exit=0
+2026-05-18T10:55:36Z  Sleeping 270s (≈4 min) before next batch — throttle to share 5h cap
+2026-05-18T11:00:06Z  Queued batches remaining: 1024 — starting Claude run
+2026-05-18T11:19:29Z  Batch complete: batch_id=batch-0066 elapsed=1163s input=908 cache_read=2884538 output=57676 cost=$2.5109159500000007 exit=1
+2026-05-18T11:19:29Z  🚫 RATE LIMIT: five_hour limit — resets at 2026-05-18 12:40 UTC — exiting worker cleanly (no retry burn).
+2026-05-18T11:19:29Z  Wrote /Users/mnoth/source/asoiaf-chat/working/missions/2026-05-14-stage4-v1-bulk-sonnet/next-eligible.txt: 1779108000 (epoch seconds, UTC)
+2026-05-18T11:19:29Z  Worker worker-20260518-024100-31436 exiting.

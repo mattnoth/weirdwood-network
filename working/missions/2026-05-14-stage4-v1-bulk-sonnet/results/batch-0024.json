@@ -1,0 +1,37 @@
+{
+  "batch_id": "batch-0024",
+  "worker_id": "worker-2026-05-17-012440",
+  "started_at": "2026-05-17T01:24:40Z",
+  "completed_at": "2026-05-17T01:30:14Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-hardy/prose-edge-candidates/lucifer-hardy.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hardyng/prose-edge-candidates/harrold-hardyng.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-harlaw-of-grey-garden/prose-edge-candidates/harras-harlaw.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-harlaw-of-harlaw-hall/prose-edge-candidates/sigfryd-harlaw.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-harlaw-of-harridan-hill/prose-edge-candidates/boremund-harlaw.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 27,
+    "reject_just_mention": 78,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "RULES": 2,
+    "CLAIMS": 1,
+    "COUSIN_OF": 2,
+    "HEIR_TO": 5,
+    "FIGHTS_IN": 2,
+    "KNIGHTED_BY": 1,
+    "LOCATED_AT": 4,
+    "TRAVELS_TO": 3,
+    "BETROTHED_TO": 1,
+    "WARD_OF": 1,
+    "WIELDS": 1,
+    "SERVES": 1,
+    "TRUSTS": 1,
+    "ALLIES_WITH": 2
+  },
+  "vocab_gap_questions_filed": 1,
+  "errors": []
+}

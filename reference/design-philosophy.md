@@ -88,7 +88,7 @@ Ship the 70% solution in 100 lines rather than the 99% solution in 5,000. Then i
 
 Examples in this project:
 - **Stage 3b prose extractor** is ~770 lines of HTML-walking + a static header-mapping table. Could be smarter (NLP-based section detection, fuzzy matching against schema headings, learned classifiers). Doesn't need to be — the static table hits 90% of pages cleanly, and the misses are concentrated in known categories we map case-by-case.
-- **Edge vocabulary lock.** 22 edge types, manually curated from infobox-field frequencies. Could automate ontology induction with embeddings or graph statistics. Doesn't need to be — manual curation gets us a coherent vocabulary in a weekend; automated induction would take months and produce a wider but less queryable vocabulary.
+- **Edge vocabulary lock.** ~96 edge types, manually curated — ~26 derived from wiki infobox-field frequencies, the rest pre-declared for narrative/perception/prophecy passes. Could automate ontology induction with embeddings or graph statistics. Doesn't need to be — manual curation gets us a coherent vocabulary in a weekend; automated induction would take months and produce a wider but less queryable vocabulary.
 - **Bucket fingerprints** (cold review's C1 finding — track_b_row hashes missing from fingerprint). The fingerprint catches 95% of "needs re-queue" cases. The wiki-re-crawl-touches-only-infobox case is rare and was deferred. Worse-is-better in action.
 - **Agent prompts** — short, focused, no kitchen-sink instructions. A 100-line agent prompt that does one job well beats a 500-line "comprehensive" prompt that does five jobs poorly.
 

@@ -1,0 +1,31 @@
+{
+  "batch_id": "batch-0031",
+  "worker_id": "worker-2026-05-17-135735276518",
+  "started_at": "2026-05-17T13:57:35.276518Z",
+  "completed_at": "2026-05-17T14:09:30.120744Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-hightower-a-j/prose-edge-candidates/baelor-hightower.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hightower-a-j/prose-edge-candidates/barris-hightower.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hightower-a-j/prose-edge-candidates/bethany-hightower.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hightower-a-j/prose-edge-candidates/bryndon-hightower.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hightower-a-j/prose-edge-candidates/ceryse-hightower.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 13,
+    "reject_just_mention": 43,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "OPPOSES": 2,
+    "SIBLING_OF": 3,
+    "LOCATED_AT": 3,
+    "FIGHTS_IN": 2,
+    "COUSIN_OF": 1,
+    "KILLED_BY": 1,
+    "NEPHEW_OF": 1
+  },
+  "vocab_gap_questions_filed": 1,
+  "errors": [],
+  "notes": "bryndon-hightower file_done event in state.jsonl incorrectly logged rows_emitted:5; actual output has 6 emits (6 emit rows in bryndon-hightower.edges.jsonl). Batch-results counts are authoritative."
+}

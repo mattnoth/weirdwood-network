@@ -6,8 +6,8 @@ classified as `skip` by the parser — and extracts internal-link
 references with their surrounding context. Emits a JSONL data file
 (NOT graph edges) for v2 temporal-edge backfill.
 
-The locked 22-type edge vocabulary in architecture.md does not include
-OCCURRED_IN_YEAR, and the v2 temporal-edges design (Session 26 TODO)
+The locked master edge vocabulary (~96 types) in architecture.md does not
+include OCCURRED_IN_YEAR, and the v2 temporal-edges design (Session 26 TODO)
 plans structured per-edge `start_year` / `end_year` / `precision`
 fields rather than a dedicated edge type. This extractor produces the
 input data for that future backfill — does NOT modify graph nodes.

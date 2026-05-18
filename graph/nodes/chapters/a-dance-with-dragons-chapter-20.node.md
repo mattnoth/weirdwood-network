@@ -1,0 +1,36 @@
+---
+name: "A Dance with Dragons-Chapter 20"
+type: meta.chapter
+slug: a-dance-with-dragons-chapter-20
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons-Chapter_20"
+bucket_id: meta-chapters-adwd
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+book: a-dance-with-dragons
+chapter_number: 20
+pov_character: theon-greyjoy
+---
+
+## Identity
+
+A Dance with Dragons-Chapter 20 is a meta.chapter from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+[Theon](wiki:Theon_Greyjoy) travels to the [siege of Moat Cailin](wiki:Siege_of_Moat_Cailin) under a peace banner to present [Ramsay Bolton's](wiki:Ramsay_Snow) terms of rendition to the [ironborn](wiki:Ironborn) garrison guarding its three towers.
+
+The ironborn are in bad shape. They have been long isolated from supplies, apparently forgotten by [Victarion](wiki:Victarion_Greyjoy) who brought them there before leaving for the [kingsmoot on Old Wyk](wiki:Kingsmoot_on_Old_Wyk). [Crannogmen](wiki:Crannogmen) keep them under constant siege and their morale is so low that they no longer bother to even dispose of their dead.
+
+Their nominal leader, [Ralf Kenning](wiki:Ralf_Kenning),(wiki:A_Dance_with_Dragons-Chapter_20.cite_ref-1) is barely alive, suffering a slow, ugly death after being infected by a poisoned arrow. Theon, torn between his conditioning to think of himself as Ramsay's plaything "Reek" and his orders to present himself as Lord [Balon Greyjoy](wiki:Balon_Greyjoy)'s son, has glimpses of his past pride and identity. Theon actually mercy kills Ralf Kenning before making demands of the mostly [Codd](wiki:House_Codd) men that still survive in the garrison.
+
+[Dagon Codd](wiki:Dagon_Codd) attempts to refuse Theon's terms, but [Adrack Humble](wiki:Adrack_Humble) kills him. The ironborn surrender to Ramsay and hear empty promises of food and peace before being mercilessly killed and displayed at stakes along the road.
+
+Ramsay, pleased with Reek’s success, offers him a reward of his choosing. Reek is wary of Ramsay’s offer of "freedom", and instead requests strong wine. Ramsay agrees, and further humiliates Theon by "rewarding" him with a "promotion" to the role of a dog. He meets [Roose Bolton](wiki:Roose_Bolton), [Lord of the Dreadfort](wiki:Lord_of_the_Dreadfort) and new [Warden of the North](wiki:Warden_of_the_North), as his own forces arrive at Moat Cailin. Roose is accompanied by a sizable number of [Frey](wiki:House_Frey) men, including [Hosteen Frey](wiki:Hosteen_Frey) and [Aenys Frey](wiki:Aenys_Frey), both of whom Theon recognizes from his time at their side as part of [Robb Stark](wiki:Robb_Stark)'s war campaign. At this point only about a fifth of the northmen who went south with Robb during the [War of the Five Kings](wiki:War_of_the_Five_Kings) have returned alive.
+
+Theon recognizes the newly-arrived bride of Ramsay as an impostor; she is not [Arya Stark](wiki:Arya_Stark) as claimed, but rather [Sansa](wiki:Sansa_Stark)'s friend [Jeyne Poole](wiki:Jeyne_Poole).(wiki:A_Dance_with_Dragons-Chapter_20.cite_ref-2)

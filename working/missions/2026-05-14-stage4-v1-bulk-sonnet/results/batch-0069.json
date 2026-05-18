@@ -1,0 +1,42 @@
+{
+  "batch_id": "batch-0069",
+  "worker_id": "worker-20260518-130348232693",
+  "started_at": "2026-05-18T13:03:48.232693Z",
+  "completed_at": "2026-05-18T13:19:16.187342+00:00",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-massey/prose-edge-candidates/elinor-massey.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-massey/prose-edge-candidates/justin-massey.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-massey/prose-edge-candidates/lucifer-massey.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-massey/prose-edge-candidates/maldon-massey.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-massey/prose-edge-candidates/robin-massey.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 37,
+    "reject_just_mention": 75,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "ALLIES_WITH": 2,
+    "ATTENDS": 1,
+    "CLAIMS": 2,
+    "COMMANDS": 1,
+    "DECEIVED_BY": 1,
+    "FIGHTS_IN": 2,
+    "KILLED_BY": 2,
+    "LOCATED_AT": 3,
+    "NEGOTIATES_WITH": 1,
+    "OPPOSES": 5,
+    "PROTECTS": 2,
+    "RESPECTS": 1,
+    "RULES": 2,
+    "SEEKS": 2,
+    "SERVES": 4,
+    "TRAVELS_TO": 4,
+    "TRUSTS": 1,
+    "WORSHIPS": 1
+  },
+  "vocab_gap_questions_filed": 0,
+  "infrastructure_questions_filed": 1,
+  "errors": []
+}

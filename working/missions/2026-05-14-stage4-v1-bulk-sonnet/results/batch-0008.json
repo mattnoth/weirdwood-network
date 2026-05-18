@@ -1,0 +1,19 @@
+{
+  "batch_id": "batch-0008",
+  "worker_ids": ["worker-2026-05-14-141623", "worker-2026-05-14-141623-resume"],
+  "completed_at": "2026-05-15T02:30:00.000Z",
+  "status": "done",
+  "files_processed": 30,
+  "candidates_total": 430,
+  "emit_edge": 102,
+  "reject_just_mention": 326,
+  "escalate_cross_identity": 0,
+  "escalate_disambiguation": 0,
+  "vocab_gap_questions_filed": 2,
+  "errors": 0,
+  "notes": "Session resumed after context compaction (twice). Prior session wrote 26 of 30 output files before hitting token limit; this session re-read remaining candidate files and wrote final 4 outputs (clarence-cargyll, erryk-cargyll, bryce-caron, bryen-caron). Two vocab-gaps filed: BRIBES/BRIBED_BY for Uthor-Cosgrove bribery at tourney (q-2026-05-14-batch-0008-vocab-gap-001), BUILT/FOUNDED for Lord Butterwell constructing Whitewalls (q-2026-05-14-batch-0008-vocab-gap-002). Notable edges: Erryk/Arryk Cargyll mutual KILLS (twin fratricide during Dance of the Dragons), Jacelyn Bywater sub-graph (KILLS allar-deem, CAPTURES boros-blount/gyles-rosby/tommen), Ambrose Butterwell conspiracy sub-graph (CONSPIRES_WITH brynden-rivers/daemon-ii-blackfyre/gormon-peake), Tommard Heddle's KILLED_BY Bloodraven (reversed), Jack Bulwer commanding rangers and KILLED_BY Weeper. Emit rate: 23.7%.",
+  "vocab_gap_questions": [
+    "q-2026-05-14-batch-0008-vocab-gap-001",
+    "q-2026-05-14-batch-0008-vocab-gap-002"
+  ]
+}

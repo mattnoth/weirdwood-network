@@ -1,0 +1,23 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "melissa-blackwood", "target": "barba-bracken", "reason": "comparison-in-narrative-not-melissa-barba-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "melissa-blackwood", "target": "bran-stark", "reason": "three-eyed-crow-telling-bran-not-melissa-bran-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "melissa-blackwood", "target": "cave-of-the-three-eyed-crow", "reason": "location-of-other-scene-not-melissa-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "melissa-blackwood", "target": "hoster-blackwood", "reason": "hoster-recounting-story-not-melissa-hoster-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "melissa-blackwood", "target": "jaime-lannister", "reason": "jaime-being-told-about-melissa-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "melissa-blackwood", "target": "teats", "reason": "hills-named-because-of-melissa-no-clear-edge-type"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "melissa-blackwood", "target": "three-eyed-crow", "reason": "three-eyed-crow-mentions-melissa-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "melissa-blackwood", "target": "aegor-rivers", "reason": "aegor-is-barba-son-not-melissa-aegor-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "melissa-blackwood", "target": "aemon-targaryen-son-of-viserys-ii", "reason": "aegons-family-context-not-melissa-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "melissa-blackwood", "target": "barba-bracken", "reason": "predecessor-mistress-sequential-context"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "melissa-blackwood", "target": "bastard", "reason": "concept-not-entity"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "melissa-blackwood", "target": "bethany-bracken", "reason": "successor-mistress-context"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "melissa-blackwood", "target": "daeron-ii-targaryen", "reason": "aegons-legitimate-son-not-melissa-daeron-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "melissa-blackwood", "target": "house-bracken", "reason": "ongoing-resentment-context-not-melissa-edge"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "source": "melissa-blackwood", "target": "kings-landing", "edge_type": "TRAVELS_TO", "evidence_snippet": "caught his eye and returned with him to King's Landing", "evidence_section": "Origins", "confidence": "tier-1"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "source": "melissa-blackwood", "target": "naerys-targaryen", "edge_type": "ALLIES_WITH", "evidence_snippet": "Melissa's kind heart and generosity led her to befriend Aegon's sister-wife Queen Naerys", "evidence_section": "Origins", "confidence": "tier-1"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "melissa-blackwood", "target": "stone-hedge", "reason": "aegon-visited-stone-hedge-not-melissa-location"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "melissa-blackwood", "target": "barba-bracken", "reason": "quote-content-comparison"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "melissa-blackwood", "target": "bran-stark", "reason": "quote-attribution-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "melissa-blackwood", "target": "hoster-blackwood", "reason": "quote-attribution-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "melissa-blackwood", "target": "jaime-lannister", "reason": "quote-attribution-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "melissa-blackwood", "target": "teats", "reason": "quote-content-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "melissa-blackwood", "target": "three-eyed-crow", "reason": "quote-attribution-not-relational"}

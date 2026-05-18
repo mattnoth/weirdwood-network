@@ -22,7 +22,7 @@ The Golden Company, led by pretender Daemon III Blackfyre, invaded the crownland
 ## Edges
 
 - PART_OF: Fourth Blackfyre Rebellion (track_b: Conflict)
-- LOCATED_IN: Wendwater Bridge (wiki:Battle_of_Wendwater_Bridge)
+- LOCATED_AT: Wendwater Bridge (wiki:Battle_of_Wendwater_Bridge)
 
 ## Notes
 

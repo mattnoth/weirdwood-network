@@ -82,6 +82,7 @@ PROMPT_VERSION = "v1"
 TIER_DEFAULT_RULES: list[tuple[re.Pattern, str]] = [
     (re.compile(r"theory|speculation|fan", re.I),                    "tier-4"),
     (re.compile(r"religion|magic|prophecy", re.I),                   "tier-2"),
+    (re.compile(r"meta-chapters",          re.I),                    "tier-1"),
     (re.compile(r"battle|character|house|location|castle|"
                 r"region|city|kingdom|cadet|bastard|order|"
                 r"quote|song|saying", re.I),                         "tier-1"),
@@ -104,6 +105,31 @@ CORE_TIER_RULES: list[re.Pattern] = [
 
 # Buckets to skip entirely (not eligible for Pass 2 ingestion)
 SKIP_BUCKETS = {"singletons-unknown", "tv-only-skip", "disambiguation"}
+
+# ---------------------------------------------------------------------------
+# Chapter page override — must run BEFORE any category/entity-type logic.
+# These pages have entity_type_guess:'skip' or 'event.battle' in old indexes,
+# but they are meta.chapter entities, not battles.
+# ---------------------------------------------------------------------------
+CHAPTER_PAGE_RE = re.compile(
+    r"^A (Game of Thrones|Clash of Kings|Storm of Swords|Feast for Crows|Dance with Dragons)"
+    r"-(Chapter (\d+)|Prologue|Epilogue)$"
+)
+BOOK_SLUG_MAP = {
+    "A Game of Thrones":    "a-game-of-thrones",
+    "A Clash of Kings":     "a-clash-of-kings",
+    "A Storm of Swords":    "a-storm-of-swords",
+    "A Feast for Crows":    "a-feast-for-crows",
+    "A Dance with Dragons": "a-dance-with-dragons",
+}
+BOOK_BUCKET_SUFFIX = {
+    "A Game of Thrones":    "agot",
+    "A Clash of Kings":     "acok",
+    "A Storm of Swords":    "asos",
+    "A Feast for Crows":    "affc",
+    "A Dance with Dragons": "adwd",
+}
+
 
 # ---------------------------------------------------------------------------
 # Constants
@@ -419,6 +445,21 @@ def infer_buckets(
     """
     page_lower = page_name.lower()
 
+    # --- Rule 0: Chapter page override (highest priority) ---
+    # Page title matches "A <Book>-Chapter <N>" — these are meta.chapter entities.
+    # This must run before any category-based or entity-type-based logic because
+    # the page-index assigns entity_type:'skip' or (in stale indexes) 'event.battle'.
+    _chap_m = CHAPTER_PAGE_RE.match(page_name)
+    if _chap_m:
+        _book_title = "A " + _chap_m.group(1)
+        _bucket_suffix = BOOK_BUCKET_SUFFIX[_book_title]
+        _bucket = f"meta-chapters-{_bucket_suffix}"
+        return (
+            [_bucket],
+            _bucket,
+            "chapter-page-pattern-override",
+        )
+
     # --- Rule 1: Disambiguation pages ---
     if "(disambiguation)" in page_lower:
         return (
@@ -590,12 +631,16 @@ def process_page(
     verbose: bool = False,
 ) -> dict:
     """Build a page-categories row for one page."""
-    # --- Entity type: prefer infobox-data over page-index (more precise) ---
-    entity_type = (
-        infobox_rec["entity_type"]
-        if infobox_rec
-        else index_rec.get("entity_type_guess", "unknown")
-    )
+    # --- Rule 0 fast-path: chapter pages bypass all entity-type inference ---
+    if CHAPTER_PAGE_RE.match(page_name):
+        entity_type = "meta.chapter"
+    else:
+        # --- Entity type: prefer infobox-data over page-index (more precise) ---
+        entity_type = (
+            infobox_rec["entity_type"]
+            if infobox_rec
+            else index_rec.get("entity_type_guess", "unknown")
+        )
 
     # --- Cite ref total ---
     cite_ref_books = index_rec.get("cite_ref_books", {})

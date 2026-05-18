@@ -1,0 +1,5 @@
+{"decision": "emit_edge", "source_slug": "royce-blackwood", "target_slug": "old-gods-of-the-forest", "edge_type": "WORSHIPS", "confidence_tier": 1, "cite_ref": "", "note": "Royce followed the old gods"}
+{"decision": "reject_just_mention", "source_slug": "royce-blackwood", "target_slug": "alysanne-targaryen", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "royce-blackwood", "target_slug": "daella-targaryen-daughter-of-jaehaerys-i", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "royce-blackwood", "target_slug": "faith-of-the-seven", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "royce-blackwood", "target_slug": "raventree-hall", "edge_type": "LOCATED_AT", "confidence_tier": 1, "cite_ref": "", "note": "Raventree Hall is the Blackwood seat; Daella was brought there"}

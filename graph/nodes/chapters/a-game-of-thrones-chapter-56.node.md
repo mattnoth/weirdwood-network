@@ -1,0 +1,44 @@
+---
+name: "A Game of Thrones-Chapter 56"
+type: meta.chapter
+slug: a-game-of-thrones-chapter-56
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Game_of_Thrones-Chapter_56"
+bucket_id: meta-chapters-agot
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+book: a-game-of-thrones
+chapter_number: 56
+pov_character: tyrion-lannister
+---
+
+## Identity
+
+A Game of Thrones-Chapter 56 is a meta.chapter from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+[Chella](wiki:Chella) of the [Black Ears](wiki:Black_Ears) is the one who locates [Lord Tywin](wiki:Tywin_Lannister)’s army, which she deduces to be 20,000 men. [Tyrion](wiki:Tyrion_Lannister) has gathered a force of over 300 [mountain clansmen](wiki:Vale_mountain_clans) and [Gunthor](wiki:Gunthor) is collecting more. He wonders what his father will make of his little army, since he is not sure what to make of them himself.
+
+Tyrion wants to meet his father without the clansmen, but [Ulf](wiki:Ulf) expresses distrust and [Shagga](wiki:Shagga) insists that he will go with the “boyman,” and if he lies Tyrion will lose his manhood. Tyrion is forced to quickly give in to the demands of his captor-followers (he’s still not sure which they are) and selects representatives from each clan to accompany him. As a parting jibe, he asks the remaining clansmen to try not to kill each other while he is gone. Tyrion dislikes having to work with the clans because they think everyone’s voice should be heard in council, which causes them to argue endlessly.
+
+When they come to the first strongpoint, which Tyrion approaches alone, the captain recognizes Tyrion and gives them an escort. They travel past burned land and buildings. There are many carrion birds, although there are no bodies. When they arrive at the guarded camp containing hundreds of campfires, they are met by a party led by Ser [Flement Brax](wiki:Flement_Brax), who is surprised to see Tyrion. He tells Tyrion that his father has taken the [inn at the crossroads](wiki:Inn_at_the_crossroads) as his headquarters, which Tyrion finds a fitting full-circle to his [unpleasant abduction](wiki:A_Game_of_Thrones-Chapter_28).
+
+As they pass the many banners, Tyrion guesses that Chella’s count cannnot be far wrong. He also notes that his clansmen are awed, which pleases him; the more impressed they are by the power of [House Lannister](wiki:House_Lannister) the easier they will be to control. When they arrive at the inn, Tyrion is pleased to see the body of the innkeepter [Masha Heddle](wiki:Masha_Heddle) rotting in a gibbet. When the stableboys emerge hesitantly to take their horses, Shagga is suspicious but Tyrion is able to convince him. House guards at the door direct Tyrion to his father in the common room.
+
+Lord Tywin Lannister is sharing ale with his brother, Ser [Kevan Lannister](wiki:Kevan_Lannister). Kevan sees Tyrion first and expresses surprise, but Tywin only remarks that the rumors of his demise were unfounded. Tyrion tells his father that he is sorry to disappoint him, feeling uncomfortable with his deformities under his father’s gaze. He quickly covers his discomfort with a quip that he is thankful they started a war for his sake. His father takes the opportunity to chastise Tyrion for going meekly with [a woman](wiki:Catelyn_Stark); his brother [Jaime](wiki:Jaime_Lannister) would not have gone without a fight. Tyrion replies that Jaime is also taller.
+
+Lord Tywin then explains that Lannister honor demanded they go to war after Tyrion was captured. Tyrion asks them how that [war](wiki:War_of_the_Five_Kings) is going. His father explains that Jaime has been covering himself in glory, [smashing](wiki:Battle_in_the_hills_below_the_Golden_Tooth) the forces of Lords [Piper](wiki:Clement_Piper) and [Vance](wiki:House_Vance_of_Wayfarer's_Rest) at the [Golden Tooth](wiki:Golden_Tooth) and pushing on to [defeat](wiki:Battle_under_the_walls_of_Riverrun) the main [Tully](wiki:House_Tully) forces outside [Riverrun](wiki:Riverrun) and capture [Edmure Tully](wiki:Edmure_Tully). Lord [Blackwood](wiki:Tytos_Blackwood) has fallen back to hold Riverrun against Jaime, but the other [river lords](wiki:Riverlands) have dispersed to their own lands. Many of these lords have now fallen one by one to Lord Tywin’s army, leaving only the [Freys](wiki:House_Frey) and [Mallisters](wiki:House_Mallister) to oppose them. Lord Tywin in not concerned; he knows that [Walder Frey](wiki:Walder_Frey) will not bestir himself until the winner is clear and [Jason Mallister](wiki:Jason_Mallister) lacks the strength to stand alone. The only real threat is that the [Starks](wiki:House_Stark) or [Arryns](wiki:House_Arryn) will interfere.
+
+Tyrion tells them they need not worry about the Arryns, but the Starks are another matter. He is informed of [Eddard Stark](wiki:Eddard_Stark)’s arrest and that [Robb Stark](wiki:Robb_Stark) has called the Stark banners. Tywin remains unperturbed, declaring that Robb is only a child. When Tyrion questions how [Cersei](wiki:Cersei_Lannister) has convinced King [Robert](wiki:Robert_I_Baratheon) to imprison his dear friend Ned, he learns that the king is dead and [Joffrey](wiki:Joffrey_Baratheon) now reigns. Tyrion immediately understands that his sister is the true ruler and knows that things will be very different.
+
+Tyrion is then offered a command in the army: he is to handle [Marq Piper](wiki:Marq_Piper) and [Karyl Vance](wiki:Karyl_Vance), who have been raiding Jaime’s supply trains across the [Red Fork](wiki:Red_Fork), and [Beric Dondarrion](wiki:Beric_Dondarrion), who has been harassing Tywin’s forging parties. Tyrion is not impressed with this command of perhaps 20 men, so he reveals to his father he has a promise to keep: weapons and armor for 3,000 clansmen and wagons to carry them.
+
+Then the door opens with a crash as the Captain of the Guard flies across the room. Shagga stamps in, followed by the other clansmen. Lord Tywin coolly asks who they are and Tyrion explains that they followed him and he wants to keep them. The clansmen insist that free men have the right to sit on war councils. Once Tyrion has introduced the clansmen, he introduces his father, complete with all his titles. Lord Tywin claims that even in the [westerlands](wiki:Westerlands) they have heard of the prowess of the mountain clans, and asks what brings them here. The reply is horses, silk, and steel.
+
+It is then that news arrives that Robb Stark’s host is coming down the [kingsroad](wiki:Kingsroad). Lord Tywin is pleased that he will be given such an easy chance to defeat House Stark so he can turn his attention towards [Stannis Baratheon](wiki:Stannis_Baratheon). He gives orders that Ser [Addam Marbrand](wiki:Addam_Marbrand) fall back to draw the northerners further south, harassing them along the way. After ordering the army assembled, Tywin compliments the clansmen’s fearless reputation and promises that if they fight for him he will provide them with all that Tyrion promised them and more. The clansmen insist that they are being promised what is already owed. Tywin quickly covers by claiming that his words were a courtesy and that his boldest knights fear to face the northerners. [Timett](wiki:Timett) takes the bait and declares that the [Burned Men](wiki:Burned_Men) fear nothing. With the Burned Men agreeing, all the other clans agree, but only if Tyrion accompanies them into battle until the promises he made them are honored.

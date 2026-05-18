@@ -1,0 +1,2 @@
+{"decision": "emit_edge", "source_slug": "herbert-bolling", "target_slug": "battle-of-the-blackwater", "edge_type": "FIGHTS_IN", "confidence_tier": 1, "cite_ref": "", "note": "Ser Herbert Bolling was killed during the Battle of the Blackwater"}
+{"decision": "emit_edge", "source_slug": "herbert-bolling", "target_slug": "creighton-longbough", "edge_type": "KILLED_BY", "confidence_tier": 3, "cite_ref": "", "note": "Creighton Longbough claims to have killed Ser Herbert during the Battle of the Blackwater (unverified claim)"}

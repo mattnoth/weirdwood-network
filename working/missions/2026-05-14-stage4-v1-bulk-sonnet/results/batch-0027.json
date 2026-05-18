@@ -1,0 +1,34 @@
+{
+  "batch_id": "batch-0027",
+  "worker_id": "worker-20260517T065323Z",
+  "started_at": "2026-05-17T06:53:23Z",
+  "completed_at": "2026-05-17T07:15:00Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-harroway/prose-edge-candidates/horas-harroway.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-harroway/prose-edge-candidates/jeyne-harroway.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-harroway/prose-edge-candidates/lucas-harroway.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-harte/prose-edge-candidates/denys-harte.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-harte/prose-edge-candidates/elwood-harte.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 16,
+    "reject_just_mention": 22,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "DIED_AT": 2,
+    "SIBLING_OF": 2,
+    "KILLED_BY": 2,
+    "OPPOSES": 1,
+    "FIGHTS_IN": 2,
+    "TRAVELS_TO": 2,
+    "SUCCEEDS": 1,
+    "RULES": 1,
+    "ALLIES_WITH": 1,
+    "SERVES": 2,
+    "CAPTURES": 1
+  },
+  "vocab_gap_questions_filed": 2,
+  "errors": []
+}

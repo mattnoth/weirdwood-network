@@ -1,0 +1,33 @@
+{
+  "batch_id": "batch-0053",
+  "worker_id": "worker-2026-05-17-140000",
+  "started_at": "2026-05-17T14:00:05Z",
+  "completed_at": "2026-05-18T05:00:16.589641Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-leek/prose-edge-candidates/rufus-leek.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-lefford/prose-edge-candidates/alysanne-lefford.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-lefford/prose-edge-candidates/leo-lefford.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-lefford/prose-edge-candidates/lorimer-the-belly.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-leygood/prose-edge-candidates/leygood-father-of-lucas.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 20,
+    "reject_just_mention": 29,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "SUCCEEDS": 1,
+    "FIGHTS_IN": 6,
+    "LOCATED_AT": 3,
+    "DIED_AT": 1,
+    "SERVES": 2,
+    "COMMANDS": 1,
+    "SWORN_TO": 1,
+    "ALLIES_WITH": 2,
+    "OPPOSES": 3,
+    "TRAVELS_TO": 1
+  },
+  "vocab_gap_questions_filed": 0,
+  "errors": []
+}

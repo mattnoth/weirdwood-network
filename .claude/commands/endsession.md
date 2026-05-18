@@ -18,9 +18,7 @@ Run the end-of-session checklist for the Weirwood Network project. Do each step 
    - **Create** new ones if work tracks are mid-flight. Write to `progress/continue-prompts/{date}-{short-description}.md` with enough context for a fresh agent to pick up the work. Reference the path from the worklog entry's "What's next" section. **Also link it from todos.md** — add a `→ continue:` line under the relevant todo item so `/continue` can find it by priority.
    - **Delete** any continue prompts that were completed this session. Also remove the `→ continue:` line from the corresponding todo in todos.md (and check the todo item itself if the work is fully done).
 
-4. **Triage scratch + progress** —
-   (a) Check for a top-level scratch file (`scratch`, `scratch.md`, or `scratch.txt` at repo root). If non-empty, surface each entry to Matt and prompt where it should land: actionable → `working/todos.md`, decision → `worklog.md` Active Decisions, resumable work track → `progress/continue-prompts/`, or discard (already covered elsewhere / no longer relevant). Empty or absent = nothing to do.
-   (b) If extraction waves ran, update the relevant `progress/pass1-{book}.md` file.
+4. **Update progress files** — If extraction waves ran, update the relevant `progress/pass1-{book}.md` file. (Do NOT read or triage the top-level scratch file — that's Matt's private notes; per CLAUDE.md, only touch it if Matt explicitly asks in the current turn.)
 
 5. **Update working/todos.md** — If new TODOs surfaced during the session, add them to the appropriate section.
 

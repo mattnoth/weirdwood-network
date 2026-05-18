@@ -1,0 +1,3 @@
+{"source_slug": "burton-crakehall", "target_slug": "beric-dondarrion", "edge_type": "KILLS", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge", "notes": "Burton killed Beric; Beric later resurrected by R'hllor"}
+{"source_slug": "burton-crakehall", "target_slug": "brotherhood-without-banners", "edge_type": "KILLED_BY", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "burton-crakehall", "target_slug": "tywin-lannister", "edge_type": "SERVES", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}

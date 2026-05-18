@@ -22,7 +22,7 @@ Ser Amory Lorch and his men attacked Sow's Horn as part of the Lannister raiding
 ## Edges
 
 - PART_OF: War of the Five Kings (track_b: Conflict)
-- LOCATED_IN: Sow's Horn (wiki:Burning_of_Sow's_Horn)
+- LOCATED_AT: Sow's Horn (wiki:Burning_of_Sow's_Horn)
 - COMMANDS_IN: Amory Lorch (wiki:Burning_of_Sow's_Horn)
 
 ## Notes

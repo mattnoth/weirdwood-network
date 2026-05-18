@@ -13,7 +13,8 @@ You are read-only. You do not fix problems; you surface them. The orchestrator (
 
 1. Read `reference/architecture.md` in full — particularly:
    - Type Reference Table (the full TYPE_DIR_MAP)
-   - Wiki Infobox Fields → Edge Type Mapping (the locked vocabulary, 22 types as of Session 26)
+   - `## Edge Types (Relationship Categories)` — the master locked vocabulary (~96 types across 14 subsections). This is the full edge vocabulary every emitter is restricted to. Audit all `## Edges` rows in nodes against this.
+   - `## Wiki Infobox Fields → Edge Type Mapping` — the wiki-infobox subset (~26 types) that the Python parser is allowed to emit from infobox fields. A strict subset of the master.
    - Frontmatter required-fields list
    - Slug naming convention (kebab-case, `[a-z0-9-]+`)
 2. Walk `graph/nodes/**/*.node.md` (excluding `_conflicts/` and `_unclassified/` — those are pipeline holding zones, not canonical).
@@ -46,7 +47,7 @@ Report shape:
 
 ### Category 2: edge-vocabulary drift
 
-A `## Edges` bullet uses a label that isn't in the locked 22-type vocabulary.
+A `## Edges` bullet uses a label that isn't in the locked master vocabulary (~96 types in architecture.md § "Edge Types (Relationship Categories)").
 
 Examples:
 - `MARRIED_TO` (should be `SPOUSE_OF`)

@@ -1,0 +1,30 @@
+---
+name: "A Dance with Dragons-Chapter 16"
+type: meta.chapter
+slug: a-dance-with-dragons-chapter-16
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons-Chapter_16"
+bucket_id: meta-chapters-adwd
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+book: a-dance-with-dragons
+chapter_number: 16
+pov_character: daenerys-targaryen
+---
+
+## Identity
+
+A Dance with Dragons-Chapter 16 is a meta.chapter from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+[Daenerys](wiki:Daenerys_Targaryen) is hosting [Xaro Xhoan Daxos](wiki:Xaro_Xhoan_Daxos), the [Qartheen](wiki:Qarth) merchant. After viewing a dance by his naked male and female slaves, they discuss Dany's situation since she left Qarth. Xaro is aware of the activities of the [Sons of the Harpy](wiki:Sons_of_the_Harpy) and flatteringly tells Daenerys that he fears for her safety. He scoffs at her attempts to abolish slavery in Meereen and tells her that the [Thirteen](wiki:Thirteen) are willing to trade with the city - in slaves. He offers her thirteen galleys if she leaves for [Westeros](wiki:Westeros) immediately. Dany tells him she will have her men inspect the ships, and refuses his feigned advances to her.
+
+She also learns from Xaro Xhoan Daxos that [Pyat Pree](wiki:Pyat_Pree) and three other [warlocks](wiki:Warlocks) sailed for [Pentos](wiki:Pentos) soon after she left for that city.(wiki:A_Dance_with_Dragons-Chapter_16.cite_ref-Radwd16page_211.7B.7B.7B4.7D.7D.7D_1-0)(wiki:A_Dance_with_Dragons-Chapter_16.cite_ref-2)
+
+The next day at court, she refuses the desperate pleas of [Lord Ghael](wiki:Ghael) to defend [Astapor](wiki:Astapor) against [Yunkai](wiki:Yunkai). The envoy spits at her refusal, claiming that Astapor will die without her help, and is thrown out by [Strong Belwas](wiki:Strong_Belwas).(wiki:A_Dance_with_Dragons-Chapter_16.cite_ref-Radwd16pages_213-214.7B.7B.7B4.7D.7D.7D_3-0) After assembling her council to hear the report of Admiral [Groleo](wiki:Groleo), she decides she cannot abandon Meereen to Yunkai'i. When she summons Xaro to tell him, his obsequiousness vanishes. He tells her she will die screaming and that he should have killed her in Qarth. She has him thrown out of the palace, but the next day an emissary gives her a bloody glove - the Qartheen have declared war.

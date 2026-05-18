@@ -1,0 +1,176 @@
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "bastard", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "hippocras", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "leech", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "wine", "reject_reason": "generic-noun-target"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "aenys-frey", "edge_type": "COMMANDS", "confidence_tier": 2, "cite_ref": "", "note": "Northmen led by Robett Glover and Ser Aenys Frey serve under Roose's command at Harrenhal"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "amory-lorch", "edge_type": "OPPOSES", "confidence_tier": 1, "cite_ref": "", "note": "Roose's men take out Ser Amory Lorch's Lannister garrison at Harrenhal"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "arya-stark", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "battle-of-the-blackwater", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "battle-outside-the-gates-of-winterfell", "edge_type": "FIGHTS_IN", "confidence_tier": 1, "cite_ref": "", "note": "Roose has the Dreadfort garrison betray other northmen and burn Winterfell"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "brave-companions", "edge_type": "CONSPIRES_WITH", "confidence_tier": 1, "cite_ref": "", "note": "Roose makes a deal with Vargo Hoat and the Brave Companions to take Harrenhal without weakening his army"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "donella-hornwood", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "duskendale", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "edmure-tully", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "fall-of-harrenhal", "edge_type": "FIGHTS_IN", "confidence_tier": 1, "cite_ref": "", "note": "Roose's men execute the fall of Harrenhal with the aid of Arya and Jaqen H'ghar"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "harrenhal", "edge_type": "LOCATED_AT", "confidence_tier": 1, "cite_ref": "", "note": "Roose Bolton uses Harrenhal as his headquarters during the Riverlands campaign"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "helman-tallhart", "edge_type": "COMMANDS", "confidence_tier": 1, "cite_ref": "", "note": "Roose issues orders to Ser Helman Tallhart to burn Darry and then join Robett Glover"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "helman-tallhart", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "hornwood", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "house-frey", "edge_type": "CONSPIRES_WITH", "confidence_tier": 1, "cite_ref": "", "note": "Roose holds council with Freys to plan the Red Wedding"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "house-lannister", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "ironborn", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "jaqen-hghar", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "leech", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "nymeria-direwolf", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "robett-glover", "edge_type": "COMMANDS", "confidence_tier": 1, "cite_ref": "", "note": "Northmen led by Robett Glover serve under Roose's command"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "rodrik-cassel", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "ruby-ford", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "sack-of-winterfell", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "siege-of-darry", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "solar", "reject_reason": "generic-noun-target"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "stannis-baratheon", "edge_type": "OPPOSES", "confidence_tier": 1, "cite_ref": "", "note": "Roose Bolton's entire strategy in ADWD is directed against Stannis Baratheon"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "theon-greyjoy", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "twins", "edge_type": "LOCATED_AT", "confidence_tier": 1, "cite_ref": "", "note": "Roose marries Walda Frey at the Twins; it is a key location for the Red Wedding"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "tywin-lannister", "edge_type": "OPPOSES", "confidence_tier": 1, "cite_ref": "", "note": "Roose distracts Tywin Lannister so Robb can relieve Riverrun; fought against him at the Green Fork"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "vargo-hoat", "edge_type": "CONSPIRES_WITH", "confidence_tier": 1, "cite_ref": "", "note": "Roose makes a deal with Vargo Hoat to open the gates of Harrenhal"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "walda-frey-daughter-of-merrett", "edge_type": "SPOUSE_OF", "confidence_tier": 1, "cite_ref": "", "note": "Roose Bolton marries Walda Frey (daughter of Merrett) at the Twins"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "walder-frey", "edge_type": "CONSPIRES_WITH", "confidence_tier": 1, "cite_ref": "", "note": "Roose planned the Red Wedding in collaboration with Lord Walder Frey"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "wedding-of-roose-bolton-and-walda-frey", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "westerlands", "reject_reason": "generic-noun-target"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "arnolf-karstark", "edge_type": "CONSPIRES_WITH", "confidence_tier": 1, "cite_ref": "", "note": "Arnolf Karstark publicly declares for Stannis while secretly being in league with Roose Bolton"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "barrowton", "edge_type": "LOCATED_AT", "confidence_tier": 1, "cite_ref": "", "note": "Northern lords assemble in Barrowton to pledge loyalty to Roose Bolton"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "fight-by-deepwood-motte", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "free-folk", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "frey-pies-theories", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "hother-umber", "edge_type": "COMMANDS", "confidence_tier": 1, "cite_ref": "", "note": "The faction of House Umber led by Hother Whoresbane declares for Roose Bolton"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "house-cerwyn", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "house-dustin", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "house-locke", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "house-manderly", "edge_type": "COMMANDS", "confidence_tier": 2, "cite_ref": "", "note": "Roose sends out the Manderlys as part of his forces in Winds of Winter"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "house-ryswell", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "house-umber", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "jeyne-poole", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "jon-umber", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "karhold", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "mance-rayder", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "robett-glover", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "siege-of-moat-cailin", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "stannis-baratheon", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "theon-greyjoy", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "tyrion-lannister", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "walder-frey-son-of-merrett", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "wedding-of-ramsay-bolton-and-arya-stark", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "winterfell", "edge_type": "LOCATED_AT", "confidence_tier": 1, "cite_ref": "", "note": "Roose moves to Winterfell, making it his seat as Warden of the North"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "wyman-manderly", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "wyman-manderly", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "aenys-frey", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "hosteen-frey", "edge_type": "COMMANDS", "confidence_tier": 2, "cite_ref": "", "note": "Two thousand Freys under Ser Aenys Frey and Ser Hosteen Frey augment Roose's forces"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "battle-on-the-green-fork", "edge_type": "FIGHTS_IN", "confidence_tier": 1, "cite_ref": "", "note": "Roose launches a surprise attack but is defeated by Tywin Lannister in the battle on the Green Fork"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "eddard-stark", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "hoster-tully", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "house-frey", "edge_type": "CONSPIRES_WITH", "confidence_tier": 1, "cite_ref": "", "note": "Roose warns Robb against House Frey while secretly conspiring with them"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "house-frey", "edge_type": "COMMANDS", "confidence_tier": 1, "cite_ref": "", "note": "Roose is given command of the northern and Frey foot"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "jon-umber", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "moat-cailin", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "moat-cailin", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "north", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "riverrun", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "robb-stark", "edge_type": "SWORN_TO", "confidence_tier": 1, "cite_ref": "", "note": "Roose answers Robb's call when he summons his banners to Winterfell"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "trident", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "twins", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "tywin-lannister", "edge_type": "OPPOSES", "confidence_tier": 1, "cite_ref": "", "note": "Roose distracts Tywin Lannister so Robb can relieve Riverrun; fought against him at the Green Fork"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "tywin-lannister", "edge_type": "OPPOSES", "confidence_tier": 1, "cite_ref": "", "note": "Roose distracts Tywin Lannister so Robb can relieve Riverrun; fought against him at the Green Fork"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "walder-frey", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "winterfell", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "arya-stark", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "battle-at-duskendale", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "edmure-tully", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "fighting-at-the-fords-of-the-trident", "edge_type": "FIGHTS_IN", "confidence_tier": 2, "cite_ref": "", "note": "Roose deliberately slow-walks his crossing of the Trident; his rearguard is attacked by Gregor Clegane"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "gregor-clegane", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "harrion-karstark", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "helman-tallhart", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "house-lannister", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "house-tyrell", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "ironborn", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "jaime-lannister", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "jeyne-poole", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "jeyne-westerling", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "karhold", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "lothar-frey", "edge_type": "CONSPIRES_WITH", "confidence_tier": 1, "cite_ref": "", "note": "Roose planned the Red Wedding in detail with Lothar Frey, including the choice of Edmure's wedding as the setting"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "moat-cailin", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "north", "reject_reason": "generic-noun-target"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "red-wedding", "edge_type": "FIGHTS_IN", "confidence_tier": 1, "cite_ref": "", "note": "Roose planned and participated in the Red Wedding massacre"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "rickard-karstark", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "rivermen", "reject_reason": "generic-noun-target"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "robb-stark", "edge_type": "SWORN_TO", "confidence_tier": 1, "cite_ref": "", "note": "Roose answers Robb's call when he summons his banners to Winterfell"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "robb-stark", "edge_type": "SWORN_TO", "confidence_tier": 1, "cite_ref": "", "note": "Roose answers Robb's call when he summons his banners to Winterfell"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "robett-glover", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "roslin-frey", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "the-rains-of-castamere", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "theon-greyjoy", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "twins", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "tywin-lannister", "edge_type": "OPPOSES", "confidence_tier": 1, "cite_ref": "", "note": "Roose distracts Tywin Lannister so Robb can relieve Riverrun; fought against him at the Green Fork"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "vargo-hoat", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "walder-frey", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "walder-frey-son-of-jammos", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "walder-frey-son-of-merrett", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "arnolf-karstark", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "house-frey", "edge_type": "CONSPIRES_WITH", "confidence_tier": 1, "cite_ref": "", "note": "Roose holds council with Freys to plan the Red Wedding"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "house-manderly", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "jeyne-poole", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "riverlands", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "theon-greyjoy", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "barbrey-dustin", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "barristan-selmy", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "barrowton", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "bastard", "reject_reason": "generic-noun-target"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "battle-of-the-trident", "edge_type": "FIGHTS_IN", "confidence_tier": 1, "cite_ref": "", "note": "Roose fought at the Battle of the Trident during Robert's Rebellion"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "first-night", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "horton-redfort", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "house-stark", "edge_type": "SWORN_TO", "confidence_tier": 1, "cite_ref": "", "note": "Roose answers Robb's call when he summons his banners; House Bolton is sworn to House Stark"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "kingsguard", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "maester", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "millers-wife", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "poison", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "redfort", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "reek", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "rickard-stark", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "robert-i-baratheon", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "roberts-rebellion", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "uthor", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "weeping-water", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "barbrey-dustin", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "bran-stark", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "catelyn-stark", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "catelyn-stark", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "eddard-stark", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "hawk", "reject_reason": "generic-noun-target"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "house-frey", "edge_type": "CONSPIRES_WITH", "confidence_tier": 1, "cite_ref": "", "note": "Roose holds council with Freys to plan the Red Wedding"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "house-frey", "edge_type": "CONSPIRES_WITH", "confidence_tier": 1, "cite_ref": "", "note": "Roose holds council with Freys to plan the Red Wedding"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "jaime-lannister", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "jon-snow", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "leech", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "leech", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "old-nan", "reject_reason": "quote-attribution"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "robb-stark", "edge_type": "SWORN_TO", "confidence_tier": 1, "cite_ref": "", "note": "Roose answers Robb's call when he summons his banners to Winterfell"}
+{"decision": "emit_edge", "source_slug": "roose-bolton", "target_slug": "robb-stark", "edge_type": "SWORN_TO", "confidence_tier": 1, "cite_ref": "", "note": "Roose answers Robb's call when he summons his banners to Winterfell"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "theon-greyjoy", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "theon-greyjoy", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "theon-greyjoy", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "theon-greyjoy", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "theon-greyjoy", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "vargo-hoat", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "walda-frey-daughter-of-merrett", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "wyman-manderly", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "aenys-frey", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "arya-stark", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "bastard", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "battle-of-the-blackwater", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "harrenhal", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "house-lannister", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "kings-landing", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "leech", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "stannis-baratheon", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "theon-greyjoy", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "theon-greyjoy", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "roose-bolton", "target_slug": "tywin-lannister", "reject_reason": "quote-attribution"}

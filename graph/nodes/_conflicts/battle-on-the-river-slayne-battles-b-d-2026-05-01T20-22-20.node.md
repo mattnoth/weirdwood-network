@@ -22,7 +22,7 @@ A combined host of Durrandon storm kings and Dornish kings fought against the An
 ## Edges
 
 - PART_OF: Coming of the Andals (track_b: Conflict)
-- LOCATED_IN: River Slayne (wiki:Battle_on_the_river_Slayne)
+- LOCATED_AT: River Slayne (wiki:Battle_on_the_river_Slayne)
 
 ## Notes
 

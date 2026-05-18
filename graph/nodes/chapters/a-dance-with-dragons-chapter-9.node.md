@@ -1,0 +1,30 @@
+---
+name: "A Dance with Dragons-Chapter 9"
+type: meta.chapter
+slug: a-dance-with-dragons-chapter-9
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons-Chapter_9"
+bucket_id: meta-chapters-adwd
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+book: a-dance-with-dragons
+chapter_number: 9
+pov_character: davos-seaworth
+---
+
+## Identity
+
+A Dance with Dragons-Chapter 9 is a meta.chapter from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+In the middle of a storm, [Davos](wiki:Davos_Seaworth) is marched before [Godric Borrell](wiki:Godric_Borrell), Lord of [Sweetsister](wiki:Sweetsister), in his castle [Breakwater](wiki:Breakwater) at [Sisterton](wiki:Sisterton). He was captured by Borrell's men while trying to find passage off the island to [White Harbor](wiki:White_Harbor). [Salladhor Saan](wiki:Salladhor_Saan)'s fleet had been smashed by storms since heading south from the [Wall](wiki:Wall), until Saan, frustrated by [Stannis Baratheon](wiki:Stannis_Baratheon)'s continual inability to make good on his promises, abandoned his cause, leaving his old friend Davos on Sweetsister after Davos refused to journey south with him. Davos conceals this fact from Borrell, telling him that Saan has traveled south to raid the Lannisters at Stannis' command. Borell informs Davos that [Lysa Arryn](wiki:Lysa_Arryn) is dead - and [Tywin Lannister](wiki:Tywin_Lannister), at the hand of [his dwarf son](wiki:Tyrion_Lannister). We also learn that a shipload of [Freys](wiki:House_Frey) have reached White Harbor, with its Lord, [Wyman Manderly](wiki:Wyman_Manderly) of White Harbor having pledged his allegiance to [King Tommen](wiki:Tommen_Baratheon). The news dismays Davos, but he hides his reaction and asks Borrell to help him get to White Harbor.
+
+Borrell tells of his meeting with [Eddard Stark](wiki:Eddard_Stark) during [Robert's Rebellion](wiki:Robert's_Rebellion). Ned was attempting to reach [Winterfell](wiki:Winterfell) so he could call his banners and join Robert's Rebellion, while avoiding [Gulltown](wiki:Taking_of_Gulltown), which was loyal to [the Mad King](wiki:Aerys_II_Targaryen). Stark had arrived at the [Three Sisters](wiki:Three_Sisters) after crossing the mountains to the Fingers, where he convinced a fisherman to carry him to White Harbor. The fisherman drowned during passage, but the fisherman's daughter got Ned to The Sisters. Lord Godric asserts that Ned left her with a bag of silver and a bastard son, whom she named [Jon Snow](wiki:Jon_Snow), after Arryn. Borrell's father decided to let Ned go on his way instead of turning him over to the [Targaryens](wiki:House_Targaryen) after telling Ned "If you lose, you were never here".
+
+Borrell decides to let Davos go on his way instead of turning him in, just as his father did to Ned Stark. Davos echos the sentiments expressed by Ned Stark and agrees to deny his presence in Sweetsister if Stannis winds up on the losing side of the conflict.

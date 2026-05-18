@@ -1,0 +1,11 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "rohanne-of-tyrosh", "target": "aegon-iv-targaryen", "reason": "betrothal-arranged-by-others-not-rohanne-to-aegon-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "rohanne-of-tyrosh", "target": "aegor-rivers", "reason": "co-travel-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "rohanne-of-tyrosh", "target": "archon", "reason": "betrothal-context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "rohanne-of-tyrosh", "target": "brynden-rivers", "reason": "reporting-character-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "rohanne-of-tyrosh", "target": "daeron-ii-targaryen", "reason": "historical-dowry-payment-not-rohanne-to-daeron-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "rohanne-of-tyrosh", "target": "dowry", "reason": "concept-not-entity"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "rohanne-of-tyrosh", "target": "first-blackfyre-rebellion", "reason": "event-context-not-rohanne-participant-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "rohanne-of-tyrosh", "target": "second-blackfyre-rebellion", "reason": "event-about-daemon-ii-not-rohanne"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "rohanne-of-tyrosh", "target": "tyrosh", "reason": "archon-context-not-rohanne-location"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "source": "rohanne-of-tyrosh", "target": "tyrosh", "edge_type": "TRAVELS_TO", "evidence_snippet": "Rohanne and her remaining children fled to Tyrosh", "evidence_section": "Origins", "confidence": "tier-1", "qualifier": "[after First Blackfyre Rebellion]"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "rohanne-of-tyrosh", "target": "whitewalls", "reason": "location-of-daemon-ii-capture-not-rohanne"}

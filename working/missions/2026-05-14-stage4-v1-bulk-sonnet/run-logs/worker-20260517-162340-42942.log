@@ -1,0 +1,21 @@
+2026-05-17T21:23:40Z  Stage 4 worker starting: worker-20260517-162340-42942
+2026-05-17T21:23:40Z  Mission: 2026-05-14-stage4-v1-bulk-sonnet
+2026-05-17T21:23:40Z  Model: claude-sonnet-4-6
+2026-05-17T21:23:40Z  Worker prompt: /Users/mnoth/source/asoiaf-chat/.claude/commands/worker-stage4.md
+2026-05-17T21:23:40Z  Queued batches remaining: 1045 — starting Claude run
+2026-05-17T21:34:46Z  Batch complete: batch_id=batch-0045 elapsed=666s input=41 cache_read=3347612 output=44749 cost=$2.2807755999999997 exit=0
+2026-05-17T21:34:46Z  Sleeping 60s (≈1 min) before next batch — throttle to share 5h cap
+2026-05-17T21:35:46Z  Queued batches remaining: 1044 — starting Claude run
+2026-05-17T21:46:35Z  Batch complete: batch_id=batch-0046 elapsed=648s input=49 cache_read=4782201 output=35020 cost=$2.7116336 exit=0
+2026-05-17T21:46:35Z  Sleeping 60s (≈1 min) before next batch — throttle to share 5h cap
+2026-05-17T21:47:35Z  Queued batches remaining: 1043 — starting Claude run
+2026-05-17T21:56:43Z  Batch complete: batch_id=batch-0047 elapsed=548s input=32 cache_read=2318042 output=33317 cost=$1.4663325999999997 exit=0
+2026-05-17T21:56:43Z  Sleeping 60s (≈1 min) before next batch — throttle to share 5h cap
+2026-05-17T21:57:43Z  Queued batches remaining: 1042 — starting Claude run
+2026-05-17T22:31:47Z  Batch complete: batch_id=batch-0048 elapsed=2044s input=44 cache_read=2643474 output=136115 cost=$3.7819111 exit=0
+2026-05-17T22:31:47Z  Sleeping 60s (≈1 min) before next batch — throttle to share 5h cap
+2026-05-17T22:32:47Z  Queued batches remaining: 1041 — starting Claude run
+2026-05-17T22:42:00Z  Batch complete: batch_id=batch-0048 elapsed=553s input=12 cache_read=731312 output=35695 cost=$1.1482636 exit=1
+2026-05-17T22:42:00Z  🚫 RATE LIMIT: five_hour limit — resets at 2026-05-17 23:50 UTC — exiting worker cleanly (no retry burn).
+2026-05-17T22:42:00Z  Wrote /Users/mnoth/source/asoiaf-chat/working/missions/2026-05-14-stage4-v1-bulk-sonnet/next-eligible.txt: 1779061800 (epoch seconds, UTC)
+2026-05-17T22:42:00Z  Worker worker-20260517-162340-42942 exiting.

@@ -1,0 +1,28 @@
+---
+name: "A Feast for Crows-Chapter 26"
+type: meta.chapter
+slug: a-feast-for-crows-chapter-26
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Feast_for_Crows-Chapter_26"
+bucket_id: meta-chapters-affc
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+book: a-feast-for-crows
+chapter_number: 26
+pov_character: samwell-tarly
+---
+
+## Identity
+
+A Feast for Crows-Chapter 26 is a meta.chapter from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+Staying at an inn in [Braavos](wiki:Braavos), [Sam](wiki:Samwell_Tarly) is nearing wits' end. [Dareon](wiki:Dareon) has abandoned them for the brothels, [Gilly](wiki:Gilly) remains inconsolable, and Maester [Aemon](wiki:Aemon_Targaryen_(son_of_Maekar_I))'s health deteriorates daily. To make matters worse, Sam had spent nearly all their coin on their rooms, a healer for Aemon, and passage on a boat, [Lady Ushanora](wiki:Lady_Ushanora), that they wound up unable to board due to the maester's health. Feverish and dying, the maester begs Sam to return to the docks to learn more about this rumor of dragons that Dareon had heard at some winesink. Aemon mumbles to Sam, "Dragons. The grief and glory of [my house](wiki:House_Targaryen)... [My brothers](wiki:Template:Targaryen_tree_Daeron_II) dreamed of dragons too, and the dreams killed them, every one. Sam, we tremble on the cusp of half-remembered prophecies... I should have seen it. Fire consumes, but cold preserves. [The Wall](wiki:The_Wall)..."
+
+Sam departs that night to find Dareon, but gets accosted by two bravos because he is wearing a sword. However, he is saved by [Cat of the Canals](wiki:Arya_Stark), who tells him of another black brother about to wed the [Sailor's Wife](wiki:Sailor's_Wife). Sam finds Dareon at the [Happy Port](wiki:Happy_Port), but his brother from [the Watch](wiki:Night's_Watch) wants nothing more to do with the black, or Gilly and Aemon for that matter. Sam punches him in the face, but gets tossed into the canal by the proprietors of the brothel. He is saved from drowning by [Xhondo](wiki:Xhondo), a huge [Summer Islander](wiki:Summer_Islands), who is a mate aboard the [Cinnamon Wind](wiki:Cinnamon_Wind) and knows of these dragons that Sam had mentioned.

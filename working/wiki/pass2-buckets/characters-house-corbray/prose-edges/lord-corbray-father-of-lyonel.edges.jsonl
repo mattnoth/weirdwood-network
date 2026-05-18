@@ -1,0 +1,2 @@
+{"decision": "emit_edge", "edge_type": "WIELDS", "source_slug": "lord-corbray-father-of-lyonel", "target_slug": "lady-forlorn", "confidence": "tier-1", "rationale": "Wielded the ancestral Valyrian steel longsword of his house, Lady Forlorn"}
+{"decision": "emit_edge", "edge_type": "FIGHTS_IN", "source_slug": "lord-corbray-father-of-lyonel", "target_slug": "battle-of-the-trident", "confidence": "tier-1", "rationale": "Lord Corbray fought for Lord Robert Baratheon during the Battle of the Trident; was wounded there"}

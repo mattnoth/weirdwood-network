@@ -1,0 +1,79 @@
+{
+  "batch_id": "batch-0037",
+  "worker_id": "worker-20260517-612146",
+  "shape": "source_target",
+  "priority_tier": 1,
+  "claimed_at": "2026-05-17T18:33:26.612146Z",
+  "completed_at": "2026-05-17T19:45:30.000000Z",
+  "files_processed": 5,
+  "files": [
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-hightower-j-w/prose-edge-candidates/myles-hightower.candidates.jsonl",
+      "output": "working/wiki/pass2-buckets/characters-house-hightower-j-w/prose-edges/myles-hightower.edges.jsonl",
+      "candidates_in": 6,
+      "rows_emitted": 3,
+      "rows_rejected": 3,
+      "rows_escalated": 0,
+      "vocab_gaps_filed": 0
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-hightower-j-w/prose-edge-candidates/norman-hightower.candidates.jsonl",
+      "output": "working/wiki/pass2-buckets/characters-house-hightower-j-w/prose-edges/norman-hightower.edges.jsonl",
+      "candidates_in": 8,
+      "rows_emitted": 2,
+      "rows_rejected": 6,
+      "rows_escalated": 0,
+      "vocab_gaps_filed": 0
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-hightower-j-w/prose-edge-candidates/otto-hightower.candidates.jsonl",
+      "output": "working/wiki/pass2-buckets/characters-house-hightower-j-w/prose-edges/otto-hightower.edges.jsonl",
+      "candidates_in": 133,
+      "rows_emitted": 28,
+      "rows_rejected": 105,
+      "rows_escalated": 0,
+      "vocab_gaps_filed": 0
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-hightower-j-w/prose-edge-candidates/patrice-hightower.candidates.jsonl",
+      "output": "working/wiki/pass2-buckets/characters-house-hightower-j-w/prose-edges/patrice-hightower.edges.jsonl",
+      "candidates_in": 5,
+      "rows_emitted": 1,
+      "rows_rejected": 4,
+      "rows_escalated": 0,
+      "vocab_gaps_filed": 1
+    },
+    {
+      "file": "working/wiki/pass2-buckets/characters-house-hightower-j-w/prose-edge-candidates/peremore-hightower.candidates.jsonl",
+      "output": "working/wiki/pass2-buckets/characters-house-hightower-j-w/prose-edges/peremore-hightower.edges.jsonl",
+      "candidates_in": 8,
+      "rows_emitted": 2,
+      "rows_rejected": 6,
+      "rows_escalated": 0,
+      "vocab_gaps_filed": 0
+    }
+  ],
+  "totals": {
+    "candidates_in": 160,
+    "rows_emitted": 36,
+    "rows_rejected": 124,
+    "rows_escalated": 0,
+    "vocab_gaps_filed": 1,
+    "emit_rate_pct": 22.5
+  },
+  "notable_decisions": [
+    "otto-hightower: CAUSES(otto→dance-of-the-dragons) — large causal chain well-evidenced",
+    "otto-hightower: ANCESTOR_OF aegon-ii + aemond — correctly uses ANCESTOR_OF not PARENT_OF (grandchildren)",
+    "otto-hightower: SUCCEEDS(otto→baelon) — Hand succession correctly modeled",
+    "patrice-hightower: vocab gap filed for REPUTED_AS (character attributed as witch/magic practitioner)",
+    "peremore-hightower: FOUNDED(peremore→maesters) tier-2 — citadel rejected (type-contract-violation: place not organization)"
+  ],
+  "vocab_gap_questions": [
+    {
+      "question_id": "vgap-patrice-hightower-magic-20260517",
+      "source_slug": "patrice-hightower",
+      "proposed_type": "REPUTED_AS",
+      "rationale": "Character attributed as witch/magic-practitioner by reputation. No type covers character→concept reputation attribution."
+    }
+  ]
+}

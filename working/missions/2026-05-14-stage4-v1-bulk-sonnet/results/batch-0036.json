@@ -1,0 +1,40 @@
+{
+  "batch_id": "batch-0036",
+  "worker_id": "worker-20260517-183139097568",
+  "started_at": "2026-05-17T18:31:39.097568Z",
+  "completed_at": "2026-05-17T18:46:30.000000Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-hightower-j-w/prose-edge-candidates/manfred-hightower-aegons-conquest.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hightower-j-w/prose-edge-candidates/manfred-hightower-son-of-addam.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hightower-j-w/prose-edge-candidates/martyn-hightower-son-of-ormund.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hightower-j-w/prose-edge-candidates/martyn-hightower.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hightower-j-w/prose-edge-candidates/morgan-hightower.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 26,
+    "reject_just_mention": 29,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "WORSHIPS": 1,
+    "TRUSTS": 1,
+    "SWORN_TO": 4,
+    "NEGOTIATES_WITH": 2,
+    "FIGHTS_IN": 2,
+    "RULES": 2,
+    "SIBLING_OF": 5,
+    "OPPOSES": 3,
+    "SERVES": 1,
+    "TRAVELS_TO": 1,
+    "COMMANDS_IN": 1,
+    "PROTECTS": 1,
+    "PRISONER_OF": 1,
+    "LOCATED_AT": 2,
+    "ALLIES_WITH": 1,
+    "OWNS": 1
+  },
+  "vocab_gap_questions_filed": 0,
+  "conflicts_filed": 1,
+  "errors": []
+}

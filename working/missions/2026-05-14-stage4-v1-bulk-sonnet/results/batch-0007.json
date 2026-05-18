@@ -1,0 +1,64 @@
+{
+  "batch_id": "batch-0007",
+  "completed_at": "2026-05-15T01:15:27.813533+00:00",
+  "worker_id": "worker-2026-05-14-163501",
+  "files_processed": 30,
+  "total_candidates": 375,
+  "decisions": {
+    "emit_edge": 141,
+    "reject_just_mention": 234
+  },
+  "edge_type_distribution": {
+    "LOCATED_AT": 33,
+    "SERVES": 21,
+    "FIGHTS_IN": 19,
+    "ALLIES_WITH": 18,
+    "OPPOSES": 14,
+    "RULES": 5,
+    "KILLS": 5,
+    "SIBLING_OF": 5,
+    "KILLED_BY": 4,
+    "CAPTURES": 2,
+    "MEMBER_OF": 2,
+    "TRAVELS_TO": 1,
+    "ANCESTOR_OF": 1,
+    "PRISONER_OF": 1,
+    "CLAIMS": 1,
+    "EXECUTED_WITH": 1,
+    "PARENT_OF": 1,
+    "GUEST_OF": 1,
+    "WORSHIPS": 1,
+    "DEFEATS": 1,
+    "DUELS": 1,
+    "COMMANDS": 1,
+    "BETROTHED_TO": 1,
+    "FEARS": 1
+  },
+  "vocab_gaps_filed": 2,
+  "vocab_gaps": [
+    {
+      "proposed_type": "COUSIN_OF",
+      "source": "eustace-brune",
+      "target": "bennard-brune"
+    },
+    {
+      "proposed_type": "HOST_OF",
+      "source": "ralph-buckler",
+      "target": "oberyn-martell"
+    }
+  ],
+  "buckets_covered": [
+    "characters-house-bracken",
+    "characters-house-branch",
+    "characters-house-brax",
+    "characters-house-breakstone",
+    "characters-house-broome",
+    "characters-house-brownhill",
+    "characters-house-brune-of-brownhollow",
+    "characters-house-brune-of-the-dyre-den",
+    "characters-house-brune",
+    "characters-house-buckler",
+    "characters-house-buckwell",
+    "characters-house-bullock"
+  ]
+}

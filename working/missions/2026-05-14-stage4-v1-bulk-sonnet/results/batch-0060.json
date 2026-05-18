@@ -1,0 +1,31 @@
+{
+  "batch_id": "batch-0060",
+  "worker_id": "worker-2026-05-18-080937057904",
+  "started_at": "2026-05-18T08:09:37.057904Z",
+  "completed_at": "2026-05-18T08:33:00.000000Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-lychester/prose-edge-candidates/lymond-lychester.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-lydden/prose-edge-candidates/jeyne-lydden.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-lydden/prose-edge-candidates/lewys-lydden.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-lynderly/prose-edge-candidates/jon-lynderly.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-lynderly/prose-edge-candidates/lymond-lynderly.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 11,
+    "reject_just_mention": 23,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "KILLS": 1,
+    "ALLIES_WITH": 1,
+    "FIGHTS_IN": 3,
+    "OWNS": 1,
+    "TRAVELS_TO": 1,
+    "SERVES": 2,
+    "ATTENDS": 1,
+    "REVEALS_TO": 1
+  },
+  "vocab_gap_questions_filed": 0,
+  "errors": []
+}

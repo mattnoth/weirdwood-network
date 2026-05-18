@@ -1,0 +1,5 @@
+{"edge_type": "SERVES", "source_slug": "rafford", "target_slug": "gregor-clegane", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "KILLS", "source_slug": "rafford", "target_slug": "lommy-greenhands", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "FIGHTS_IN", "source_slug": "rafford", "target_slug": "battle-of-the-fords", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "PROTECTS", "source_slug": "rafford", "target_slug": "harys-swyft", "confidence_tier": 2, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "FIGHTS_IN", "source_slug": "rafford", "target_slug": "capture-of-harrenhal", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}

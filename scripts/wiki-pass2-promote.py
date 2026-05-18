@@ -117,6 +117,9 @@ TYPE_DIR_MAP: dict[str, str] = {
     "prophecy": "prophecies",
     "theory": "theories",
     "text": "texts",
+    # Meta (out-of-universe)
+    "meta.chapter": "chapters",
+    "meta": "chapters",
 }
 
 

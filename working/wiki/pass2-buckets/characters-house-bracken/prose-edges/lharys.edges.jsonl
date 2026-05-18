@@ -1,0 +1,7 @@
+{"decision": "emit_edge", "edge_type": "KILLED_BY", "source_slug": "lharys", "target_slug": "vale-mountain-clans", "confidence_tier": "tier-1", "source_section": "## Narrative Arc / ### A Game of Thrones", "candidate_kind": "source_target", "note": "slain in the party's second clash with the Vale mountain clans; only Bracken man-at-arms to survive the first attack, killed in the second"}
+{"decision": "reject_just_mention", "source_slug": "lharys", "target_slug": "catelyn-stark", "source_section": "## Narrative Arc / ### A Game of Thrones", "candidate_kind": "source_target"}
+{"decision": "reject_just_mention", "source_slug": "lharys", "target_slug": "horse", "source_section": "## Narrative Arc / ### A Game of Thrones", "candidate_kind": "source_target"}
+{"decision": "reject_just_mention", "source_slug": "lharys", "target_slug": "jyck", "source_section": "## Narrative Arc / ### A Game of Thrones", "candidate_kind": "source_target"}
+{"decision": "reject_just_mention", "source_slug": "lharys", "target_slug": "kurleket", "source_section": "## Narrative Arc / ### A Game of Thrones", "candidate_kind": "source_target"}
+{"decision": "reject_just_mention", "source_slug": "lharys", "target_slug": "mohor", "source_section": "## Narrative Arc / ### A Game of Thrones", "candidate_kind": "source_target"}
+{"decision": "reject_just_mention", "source_slug": "lharys", "target_slug": "tyrion-lannister", "source_section": "## Narrative Arc / ### A Game of Thrones", "candidate_kind": "source_target"}

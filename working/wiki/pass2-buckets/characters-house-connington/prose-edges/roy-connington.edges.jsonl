@@ -1,0 +1,4 @@
+{"decision": "emit_edge", "edge_type": "LOVER_OF", "source_slug": "roy-connington", "target_slug": "saera-targaryen", "confidence": "tier-2", "rationale": "Became one of the three male favorites of Princess Saera Targaryen; implied intimate relationship"}
+{"decision": "emit_edge", "edge_type": "EXILED_TO", "source_slug": "roy-connington", "target_slug": "pentos", "confidence": "tier-1", "rationale": "Roy chose exile, going first to Pentos after his involvement with Princess Saera"}
+{"decision": "emit_edge", "edge_type": "KNOWS", "source_slug": "roy-connington", "target_slug": "jonah-mooton", "confidence": "tier-1", "rationale": "Close companions of Princess Saera; inseparable with Jonah Mooton and Braxton Beesbury"}
+{"decision": "emit_edge", "edge_type": "KNOWS", "source_slug": "roy-connington", "target_slug": "braxton-beesbury", "confidence": "tier-1", "rationale": "Close companions of Princess Saera; inseparable with Jonah Mooton and Braxton Beesbury"}

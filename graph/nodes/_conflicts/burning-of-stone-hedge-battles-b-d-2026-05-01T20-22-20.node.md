@@ -22,7 +22,7 @@ As part of the Lannister invasion of the riverlands, Gregor Clegane's forces bur
 ## Edges
 
 - PART_OF: War of the Five Kings (track_b: Conflict)
-- LOCATED_IN: Stone Hedge (wiki:Burning_of_Stone_Hedge)
+- LOCATED_AT: Stone Hedge (wiki:Burning_of_Stone_Hedge)
 - COMMANDS_IN: Gregor Clegane (wiki:Burning_of_Stone_Hedge)
 - KILLS: Harry Rivers (wiki:Burning_of_Stone_Hedge)
 

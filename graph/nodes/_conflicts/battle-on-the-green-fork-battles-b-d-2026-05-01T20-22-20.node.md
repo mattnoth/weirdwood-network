@@ -22,7 +22,7 @@ The battle was part of Robb Stark's strategy to relieve the siege of Riverrun. R
 ## Edges
 
 - PART_OF: War of the Five Kings (track_b: Conflict)
-- LOCATED_IN: Green Fork (wiki:Battle_on_the_Green_Fork)
+- LOCATED_AT: Green Fork (wiki:Battle_on_the_Green_Fork)
 - COMMANDS_IN: Tywin Lannister (wiki:Battle_on_the_Green_Fork)
 - COMMANDS_IN: Roose Bolton (wiki:Battle_on_the_Green_Fork)
 - FIGHTS_IN: Tyrion Lannister (wiki:Battle_on_the_Green_Fork)

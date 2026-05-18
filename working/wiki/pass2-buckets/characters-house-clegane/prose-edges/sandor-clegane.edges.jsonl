@@ -1,0 +1,17 @@
+{"edge_type": "SIBLING_OF", "source_slug": "sandor-clegane", "target_slug": "gregor-clegane", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "PROTECTS", "source_slug": "sandor-clegane", "target_slug": "joffrey-baratheon", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "PROTECTS", "source_slug": "sandor-clegane", "target_slug": "sansa-stark", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "PROTECTS", "source_slug": "sandor-clegane", "target_slug": "loras-tyrell", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "KILLS", "source_slug": "sandor-clegane", "target_slug": "cayn", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "KILLS", "source_slug": "sandor-clegane", "target_slug": "mycah", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "MEMBER_OF", "source_slug": "sandor-clegane", "target_slug": "kingsguard", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "FIGHTS_IN", "source_slug": "sandor-clegane", "target_slug": "battle-of-the-blackwater", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "DUELS", "source_slug": "sandor-clegane", "target_slug": "beric-dondarrion", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "KILLS", "source_slug": "sandor-clegane", "target_slug": "polliver", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "CAPTURES", "source_slug": "sandor-clegane", "target_slug": "arya-stark", "confidence_tier": 2, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "HATES", "source_slug": "sandor-clegane", "target_slug": "gregor-clegane", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "FIGHTS_IN", "source_slug": "sandor-clegane", "target_slug": "sack-of-kings-landing", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "SERVES", "source_slug": "sandor-clegane", "target_slug": "joffrey-baratheon", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "OWNS", "source_slug": "sandor-clegane", "target_slug": "stranger-horse", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "PRISONER_OF", "source_slug": "sandor-clegane", "target_slug": "brotherhood-without-banners", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "DUELS", "source_slug": "sandor-clegane", "target_slug": "gregor-clegane", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}

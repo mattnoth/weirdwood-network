@@ -1,0 +1,4 @@
+{"edge_type": "PARENT_OF", "source_slug": "baelish-hedge-knight", "target_slug": "lord-baelish-father-of-petyr", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Origins", "decision": "emit_edge"}
+{"edge_type": "ANCESTOR_OF", "source_slug": "baelish-sellsword", "target_slug": "lord-baelish-father-of-petyr", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Origins", "decision": "emit_edge"}
+{"edge_type": "ALLIES_WITH", "source_slug": "lord-baelish-father-of-petyr", "target_slug": "hoster-tully", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Origins", "decision": "emit_edge"}
+{"edge_type": "FIGHTS_IN", "source_slug": "lord-baelish-father-of-petyr", "target_slug": "war-of-the-ninepenny-kings", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Origins", "decision": "emit_edge"}

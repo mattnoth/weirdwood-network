@@ -1,0 +1,33 @@
+{
+  "batch_id": "batch-0045",
+  "worker_id": "worker-20260517-212426-955623",
+  "started_at": "2026-05-17T21:24:30.000000Z",
+  "completed_at": "2026-05-17T21:29:30.000000Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-hunter/prose-edge-candidates/alec-hunter.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hunter/prose-edge-candidates/eon-hunter.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hunter/prose-edge-candidates/eustace-hunter.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hunter/prose-edge-candidates/gilwood-hunter.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hunter/prose-edge-candidates/harlan-hunter.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 22,
+    "reject_just_mention": 32,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "ATTENDS": 3,
+    "PERCEIVED_AS": 3,
+    "TRAVELS_TO": 1,
+    "LOCATED_AT": 4,
+    "OPPOSES": 3,
+    "LOVES": 1,
+    "SIBLING_OF": 6,
+    "BESIEGES": 1,
+    "PROTECTS": 1,
+    "RESENTS": 1
+  },
+  "vocab_gap_questions_filed": 1,
+  "errors": []
+}

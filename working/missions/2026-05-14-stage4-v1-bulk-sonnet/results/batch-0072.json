@@ -1,0 +1,34 @@
+{
+  "batch_id": "batch-0072",
+  "worker_id": "worker-2026-05-18-143521000000",
+  "started_at": "2026-05-18T14:35:21Z",
+  "completed_at": "2026-05-18T15:30:00Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-merryweather/prose-edge-candidates/russell-merryweather.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-merryweather/prose-edge-candidates/taena-merryweather.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-mertyns/prose-edge-candidates/jon-mertyns.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-mertyns/prose-edge-candidates/mary-mertyns.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-mollen/prose-edge-candidates/hallis-mollen.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 22,
+    "reject_just_mention": 148,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "TRAVELS_TO": 6,
+    "ATTENDS": 5,
+    "SERVES": 2,
+    "PROTECTS": 2,
+    "MANIPULATES": 1,
+    "DECEIVES": 1,
+    "FEARS": 1,
+    "COMMANDS_IN": 1,
+    "COMMANDS": 1,
+    "SUCCEEDS": 1,
+    "RULES": 1
+  },
+  "vocab_gap_questions_filed": 0,
+  "errors": []
+}

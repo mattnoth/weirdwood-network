@@ -28,7 +28,7 @@ After Dagmer Cleftjaw besieged Torrhen's Square as a diversion, Ser Rodrik Casse
 ## Edges
 
 - PART_OF: War of the Five Kings (track_b: Conflict)
-- LOCATED_IN: Winterfell (wiki:Capture_of_Winterfell)
+- LOCATED_AT: Winterfell (wiki:Capture_of_Winterfell)
 - COMMANDS_IN: Theon Greyjoy (wiki:Capture_of_Winterfell)
 - COMMANDS_IN: Bran Stark (wiki:Capture_of_Winterfell)
 

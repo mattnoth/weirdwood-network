@@ -1,0 +1,22 @@
+---
+name: "A Storm of Swords-Chapter 54"
+type: meta.chapter
+slug: a-storm-of-swords-chapter-54
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords-Chapter_54"
+bucket_id: meta-chapters-asos
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+book: a-storm-of-swords
+chapter_number: 54
+pov_character: davos-seaworth
+---
+
+## Identity
+
+A Storm of Swords-Chapter 54 is a meta.chapter from the AWOIAF wiki.
+
+## Edges
+

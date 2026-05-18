@@ -1,0 +1,4 @@
+{"decision": "reject_just_mention", "source_slug": "belthasar-bolton", "target_slug": "king-in-the-north", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "belthasar-bolton", "target_slug": "rape-of-the-three-sisters", "edge_type": "FIGHTS_IN", "confidence_tier": 1, "cite_ref": "", "note": "Belthasar Bolton participated in the Rape of the Three Sisters, making a Pink Pavilion from flayed Sistermen skins"}
+{"decision": "reject_just_mention", "source_slug": "belthasar-bolton", "target_slug": "sistermen", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "belthasar-bolton", "target_slug": "the-chronicles-of-longsister", "reject_reason": "generic-noun-target"}

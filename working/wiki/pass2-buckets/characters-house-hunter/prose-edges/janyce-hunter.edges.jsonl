@@ -1,0 +1,3 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "janyce-hunter", "target_slug": "merrett-frey", "reason": "merrett-frey-is-attribution-source-for-gossip-not-a-relational-edge-from-janyce"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "janyce-hunter", "target_slug": "twins", "reason": "twins-is-setting-context-for-gossip-reputation-not-a-located-at-or-travels-to-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "janyce-hunter", "target_slug": "walder-frey-son-of-ryman", "reason": "duplicate-of-infobox-edge-LOVER_OF-already-exists"}

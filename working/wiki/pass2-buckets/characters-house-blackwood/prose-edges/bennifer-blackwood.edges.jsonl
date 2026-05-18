@@ -1,0 +1,2 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "bennifer-blackwood", "target": "209-ac", "reason": "year-reference-no-edge-type"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "source": "bennifer-blackwood", "target": "tourney-at-ashford-meadow", "edge_type": "FIGHTS_IN", "evidence_snippet": "Bennifer participated in the tourney at Ashford Meadow", "evidence_section": "Origins", "confidence": "tier-1"}

@@ -1,0 +1,65 @@
+{
+  "batch_id": "batch-0022",
+  "worker_id": "worker-2026-05-16-215454400",
+  "completed_at": "2026-05-16T22:10:00Z",
+  "files_processed": 5,
+  "candidates_total": 102,
+  "emit_edge": 24,
+  "reject_just_mention": 78,
+  "escalate_cross_identity": 0,
+  "escalate_disambiguation": 0,
+  "vocab_gap_questions_filed": 0,
+  "errors": 0,
+  "files": [
+    {
+      "candidates_file": "working/wiki/pass2-buckets/characters-house-grell/prose-edge-candidates/desmond-grell.candidates.jsonl",
+      "edges_file": "working/wiki/pass2-buckets/characters-house-grell/prose-edges/desmond-grell.edges.jsonl",
+      "candidates": 63,
+      "emit": 9,
+      "reject": 54
+    },
+    {
+      "candidates_file": "working/wiki/pass2-buckets/characters-house-grey/prose-edge-candidates/garibald-grey.candidates.jsonl",
+      "edges_file": "working/wiki/pass2-buckets/characters-house-grey/prose-edges/garibald-grey.edges.jsonl",
+      "candidates": 9,
+      "emit": 6,
+      "reject": 3
+    },
+    {
+      "candidates_file": "working/wiki/pass2-buckets/characters-house-grimm/prose-edge-candidates/guthor-grimm.candidates.jsonl",
+      "edges_file": "working/wiki/pass2-buckets/characters-house-grimm/prose-edges/guthor-grimm.edges.jsonl",
+      "candidates": 5,
+      "emit": 3,
+      "reject": 2
+    },
+    {
+      "candidates_file": "working/wiki/pass2-buckets/characters-house-groves/prose-edge-candidates/regis-groves.candidates.jsonl",
+      "edges_file": "working/wiki/pass2-buckets/characters-house-groves/prose-edges/regis-groves.edges.jsonl",
+      "candidates": 19,
+      "emit": 5,
+      "reject": 14
+    },
+    {
+      "candidates_file": "working/wiki/pass2-buckets/characters-house-haen/prose-edge-candidates/myrmadora-haen.candidates.jsonl",
+      "edges_file": "working/wiki/pass2-buckets/characters-house-haen/prose-edges/myrmadora-haen.edges.jsonl",
+      "candidates": 6,
+      "emit": 1,
+      "reject": 5
+    }
+  ],
+  "edge_types_emitted": [
+    "SERVES",
+    "HOLDS_TITLE",
+    "ATTENDS",
+    "COMMANDS",
+    "FIGHTS_IN",
+    "TRAVELS_TO",
+    "COMMANDS_IN",
+    "OPPOSES",
+    "KILLED_BY",
+    "OWNS",
+    "PRISONER_OF",
+    "ALLIES_WITH"
+  ],
+  "notes": "Batch repartitioned from original batch-0022 (30 files) to 5 files. Prior workers (worker-20260516174539425451, worker-2026-05-16-201048551456) wrote stale output from pre-repartition candidates version; this worker overwrote all 5 files with fresh classifications from current candidates."
+}

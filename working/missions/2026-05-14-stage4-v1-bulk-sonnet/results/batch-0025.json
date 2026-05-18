@@ -1,0 +1,29 @@
+{
+  "batch_id": "batch-0025",
+  "worker_id": "worker-20260517-032034",
+  "started_at": "2026-05-17T03:20:34Z",
+  "completed_at": "2026-05-17T03:20:34Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-harlaw-of-the-tower-of-glimmering/prose-edge-candidates/hotho-harlaw.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-harlaw-of-the-tower-of-glimmering/prose-edge-candidates/hotho-harlaws-daughter.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-harlaw/prose-edge-candidates/dykk-harlaw.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-harlaw/prose-edge-candidates/earl-harlaw.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-harlaw/prose-edge-candidates/gevin-harlaw.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 7,
+    "reject_just_mention": 35,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "ALLIES_WITH": 2,
+    "ATTENDS": 1,
+    "TRAVELS_TO": 1,
+    "NEGOTIATES_WITH": 1,
+    "FIGHTS_IN": 2,
+    "MEMBER_OF": 2
+  },
+  "vocab_gap_questions_filed": 2,
+  "errors": []
+}

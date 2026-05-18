@@ -1,0 +1,3 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "melantha-blackwood", "target": "lord-of-winterfell", "reason": "willam-title-not-entity-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "melantha-blackwood", "target": "lyanne-glover", "reason": "first-wife-predates-melantha-no-direct-relationship"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "melantha-blackwood", "target": "warden-of-the-north", "reason": "willam-title-not-entity-edge"}

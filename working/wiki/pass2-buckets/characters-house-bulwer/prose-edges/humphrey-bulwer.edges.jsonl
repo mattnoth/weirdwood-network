@@ -1,0 +1,2 @@
+{"decision": "reject_just_mention", "source_slug": "humphrey-bulwer", "target_slug": "209-ac", "reason": "Year page — architecture.md specifies year pages are not graph nodes", "candidate_kind": "source_target", "source_section": "## Origins"}
+{"decision": "emit_edge", "edge_type": "FIGHTS_IN", "source_slug": "humphrey-bulwer", "target_slug": "tourney-at-ashford-meadow", "confidence": 0.85, "evidence": "Humphrey attended the tourney at Ashford Meadow in 209 AC", "candidate_kind": "source_target", "source_section": "## Origins"}

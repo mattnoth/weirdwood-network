@@ -1,0 +1,2 @@
+{"source_slug": "tommen-costayne-knight", "target_slug": "tom-costayne", "decision": "escalate_cross_identity", "note": "tommen-costayne-knight and tom-costayne appear to be the same person; mutual wiki cross-references and matching context suggest duplicate nodes under variant name forms"}
+{"source_slug": "tommen-costayne-knight", "target_slug": "tourney-at-ashford-meadow", "edge_type": "FIGHTS_IN", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}

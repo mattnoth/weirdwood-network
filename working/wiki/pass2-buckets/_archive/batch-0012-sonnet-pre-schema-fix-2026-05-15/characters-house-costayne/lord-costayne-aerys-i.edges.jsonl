@@ -1,0 +1,6 @@
+{"source_slug": "lord-costayne-aerys-i", "target_slug": "lord-shawney", "edge_type": "CONTEMPORARY_WITH", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "lord-costayne-aerys-i", "target_slug": "glendon-flowers", "edge_type": "OPPOSES", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "lord-costayne-aerys-i", "target_slug": "gods-eye", "edge_type": "TRAVELS_TO", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "lord-costayne-aerys-i", "target_slug": "lord-shawney", "edge_type": "OPPOSES", "confidence_tier": 1, "cite_ref": "## Origins", "decision": "emit_edge"}
+{"source_slug": "lord-costayne-aerys-i", "target_slug": "wedding-tourney-at-whitewalls", "edge_type": "FIGHTS_IN", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}
+{"source_slug": "lord-costayne-aerys-i", "target_slug": "whitewalls", "edge_type": "TRAVELS_TO", "confidence_tier": 1, "cite_ref": "## Appearances", "decision": "emit_edge"}

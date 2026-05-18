@@ -1,0 +1,38 @@
+{
+  "batch_id": "batch-0065",
+  "worker_id": "worker-2026-05-18-095703207323",
+  "shape": "source_target",
+  "priority_tier": 1,
+  "files_processed": 5,
+  "rows_emitted": 37,
+  "rows_rejected": 172,
+  "edge_types_emitted": {
+    "TRAVELS_TO": 8,
+    "LOCATED_AT": 5,
+    "SERVES": 3,
+    "KILLED_BY": 3,
+    "FIGHTS_IN": 3,
+    "ALLIES_WITH": 2,
+    "SIBLING_OF": 2,
+    "ATTENDS": 2,
+    "NEGOTIATES_WITH": 1,
+    "BETROTHED_TO": 1,
+    "RULES": 1,
+    "DEFEATS": 1,
+    "COMMANDS_IN": 1,
+    "BURIED_AT": 1,
+    "PROTECTS": 1,
+    "GUEST_OF": 1,
+    "DISTRUSTS": 1
+  },
+  "per_file": [
+    {"file": "theomore-manderly.candidates.jsonl", "emitted": 5, "rejected": 19},
+    {"file": "therry.candidates.jsonl", "emitted": 0, "rejected": 2},
+    {"file": "warrick-manderly.candidates.jsonl", "emitted": 7, "rejected": 9},
+    {"file": "wendel-manderly.candidates.jsonl", "emitted": 13, "rejected": 42},
+    {"file": "wylis-manderly.candidates.jsonl", "emitted": 12, "rejected": 100}
+  ],
+  "vocab_gaps": [],
+  "started_at": "2026-05-18T09:57:03.207184Z",
+  "completed_at": "2026-05-18T10:18:00.000000Z"
+}

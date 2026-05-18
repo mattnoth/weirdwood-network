@@ -1,0 +1,2 @@
+{"edge_type": "PRISONER_OF", "source_slug": "kerwin", "target_slug": "victarion-greyjoy", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}
+{"edge_type": "FIGHTS_IN", "source_slug": "kerwin", "target_slug": "taking-of-the-shields", "confidence_tier": 1, "evidence_kind": "wiki_prose", "evidence_section": "## Narrative Arc", "decision": "emit_edge"}

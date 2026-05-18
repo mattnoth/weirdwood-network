@@ -21,7 +21,7 @@ King Daeron I launched an invasion of Dorne with a massive host, achieving initi
 
 ## Edges
 
-- LOCATED_IN: Dorne (wiki:Conquest_of_Dorne)
+- LOCATED_AT: Dorne (wiki:Conquest_of_Dorne)
 - COMMANDS_IN: Daeron I Targaryen (wiki:Conquest_of_Dorne)
 - KILLS: Daeron I Targaryen (wiki:Conquest_of_Dorne)
 

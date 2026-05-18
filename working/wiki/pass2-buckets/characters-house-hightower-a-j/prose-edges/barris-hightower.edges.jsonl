@@ -1,0 +1,1 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "barris-hightower", "target_slug": "high-septon", "reason": "gift-relation-belongs-on-artifact-node; the meaningful edge is crystal-crown GIFTED_TO high-septon on the artifact node, not a direct person-to-person edge from the giver"}

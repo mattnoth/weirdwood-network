@@ -1,0 +1,35 @@
+{
+  "batch_id": "batch-0054",
+  "worker_id": "worker-20260518050622214040",
+  "started_at": "2026-05-18T05:06:22.229Z",
+  "completed_at": "2026-05-18T05:30:00.000Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-leygood/prose-edge-candidates/lucas-leygood.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-leygood/prose-edge-candidates/simon-leygood.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-liddle/prose-edge-candidates/duncan-liddle.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-liddle/prose-edge-candidates/morgan-liddle.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-liddle/prose-edge-candidates/the-liddle.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 14,
+    "reject_just_mention": 48,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "OPPOSES": 2,
+    "IMPRISONS": 1,
+    "ALLIES_WITH": 1,
+    "APPOINTS": 1,
+    "TRAVELS_TO": 2,
+    "SEEKS": 1,
+    "COMMANDS": 1,
+    "REVEALS_TO": 1,
+    "TRUSTS": 1,
+    "MOURNS": 1,
+    "RESPECTS": 1,
+    "DISTRUSTS": 1
+  },
+  "vocab_gap_questions_filed": 0,
+  "errors": []
+}

@@ -1,0 +1,18 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "robb-rivers", "target": "westeros", "reason": "superlative-descriptor-not-robb-westeros-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "robb-rivers", "target": "aemond-targaryen", "reason": "context-blocked-ravens-not-robb-aemond-edge"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "source": "robb-rivers", "target": "battle-by-the-lakeshore", "edge_type": "FIGHTS_IN", "evidence_snippet": "Robb brought three hundred archers to the Battle by the Lakeshore", "evidence_section": "Origins", "confidence": "tier-1"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "source": "robb-rivers", "target": "butchers-ball", "edge_type": "FIGHTS_IN", "evidence_snippet": "Robb and two of his archers later slew Ser Criston Cole during the Butcher's Ball", "evidence_section": "Origins", "confidence": "tier-1"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "source": "robb-rivers", "target": "criston-cole", "edge_type": "KILLS", "evidence_snippet": "Robb and two of his archers later slew Ser Criston Cole", "evidence_section": "Origins", "confidence": "tier-1"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "source": "robb-rivers", "target": "dance-of-the-dragons", "edge_type": "FIGHTS_IN", "evidence_snippet": "during the Dance of Dragons", "evidence_section": "Origins", "confidence": "tier-1"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "source": "robb-rivers", "target": "first-battle-of-tumbleton", "edge_type": "FIGHTS_IN", "evidence_snippet": "Ser Garibald Grey's men as they retreated during the First Battle of Tumbleton", "evidence_section": "Origins", "confidence": "tier-1"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "source": "robb-rivers", "target": "garibald-grey", "edge_type": "ALLIES_WITH", "evidence_snippet": "Robb's bowmen covered Ser Garibald Grey's men as they retreated", "evidence_section": "Origins", "confidence": "tier-1"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "robb-rivers", "target": "greens", "reason": "opposing-faction-context-implied-by-blacks-allegiance"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "robb-rivers", "target": "harrenhal", "reason": "aemond-location-context-not-robb-harrenhal-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "robb-rivers", "target": "humfrey-lefford", "reason": "humfrey-sent-ravens-not-robb-humfrey-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "robb-rivers", "target": "north", "reason": "geographic-army-context"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "robb-rivers", "target": "raven", "reason": "communication-method-not-entity-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "robb-rivers", "target": "riverlands", "reason": "geographic-army-context"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "robb-rivers", "target": "aemond-targaryen", "reason": "quote-content-ravens-not-reached-aemond"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "robb-rivers", "target": "gyldayn", "reason": "quote-attribution-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "robb-rivers", "target": "raven", "reason": "quote-content-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source": "robb-rivers", "target": "westeros", "reason": "quote-superlative-not-relational"}

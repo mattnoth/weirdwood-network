@@ -178,6 +178,95 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 55 — Stage 4 Vocab Lock Decisions + Pass 1 Staleness Incident (2026-05-18)
+
+**Detail:** `history/session-details/session-055.md`
+
+**Changes made:**
+- `scripts/stage4-vocab-gap-analysis.py` — NEW. Normalizer for the 16-distinct-schema `questions-for-matt.jsonl` (68 rows). Outputs `working/agent-fleet-specs/stage4-vocab-gaps-{normalized.jsonl,rollup.md}` — 10 stale-resolved, 37 truly open, 7 untyped.
+- `working/agent-fleet-specs/stage4-vocab-lock-2026-05-18.md` — NEW. Decision doc bucketed A (12 stale rows close) / B (5 accepts) / C (9 rejects: reverse-direction + too-generic) / D (22 borderline → Matt's call). Updated through D verdicts with second-opinion-agent overrides.
+- `working/todos.md` — added "Stage 4 — Haiku Cutover Prep" section with 5 numbered steps (vocab lock / `[LINK]` substitution / validator extension / suspicious-edges worklist / Haiku smoke).
+- 4 staleness fixes applied via dispatched agent: `~/.claude/projects/-Users-mnoth-source-asoiaf-chat/memory/{project_pass1_prompt_v3_canonical.md,MEMORY.md,memory_staleness_policy.md (NEW)}` + `CLAUDE.md` (pipeline table row 4 → "✅ Done"; Orchestration Rule 9 added — worklog wins over continue-prompts when they conflict) + `progress/continue-prompts/2026-05-18-stage4-haiku-cutover.md` ("Status from memory" passage corrected).
+- `history/session-details/session-055.md` — NEW (full narrative).
+- `progress/continue-prompts/2026-05-18-stage4-vocab-lock-apply.md` — NEW (Shape B handoff for apply phase).
+
+**Decisions:** 17 new edge types approved (vocab 132 → 149): `AFFLICTED_BY`, `DIED_OF`, `COMPANION_OF`, `PARTICIPATES_IN`, `OFFICIATES`, `ATTACKS`, `ASSAULTS`, `COURTS`, `CONTRACTED_WITH`, `PROPOSED_AS_BRIDE`, `CROWNS_QUEEN_OF_LOVE_AND_BEAUTY`, `PRACTICES`, `PURCHASED_FROM`, `BUILT`, `CAPTAIN_OF`, `CREW_OF`, `REPUTED_AS`. Plus 2 description mods: `FIGHTS_IN` (add "or tournament"), `MANIPULATES` (qualifier-mechanism note). Rejected: 9 reverse-direction violations (Bucket C), 5 generic/derivable (NAMED_AFTER, extended kinship, BRIBES standalone, USES_AS_SIGIL). **ATTACKS scoped as generic person→person OR creature→person physical violence; ASSAULTS specifically for sexual violence** (Matt's call). **CREW_OF locked at end of session as sibling to CAPTAIN_OF (Path B); both target `object.artifact` vessel.** Subsection placement locked: AFFLICTED_BY/DIED_OF → Knowledge & Information (next to HEALS); CAPTAIN_OF → Possession & Ownership. **Decisions are NOT yet applied** to architecture.md or the classifier prompt — apply work is the next session.
+
+**Incident — stale Pass 1 belief:** Mid-session, orchestrator believed "ACOK/ASOS/ADWD Pass 1 incomplete" based on a 13-day-old memory file + the session's launching continue prompt's "Status from memory" passage. Ground truth: all 5 books complete (344/344) since 2026-05-06. Matt halted, dispatched root-cause investigator. Three stale sources fixed + one new memory rule (`memory_staleness_policy.md`) + CLAUDE.md Rule 9 added: trust worklog over continue prompts when they conflict on state.
+
+**What's next:**
+- **Apply the vocab lock + prepare Haiku smoke-test spec for already-done batches.** → continue: `progress/continue-prompts/2026-05-18-stage4-vocab-lock-apply.md` (**Opus 4.7** — mechanical apply work + smoke-test architecture). Smoke-test candidate batches identified: 0066 (wyman-manderly, 168 cands), 0068 (bowen-marsh), 0072 (taena/hallis multi-page), 0001 (early-batch mix).
+- Then HAIKU-CUTOVER STEPS 2/3/4 ([LINK] sub / validator type contracts / suspicious-edges flagger) — Matt's call whether they happen before the smoke fires or alongside.
+- **Per Matt's standing rule, /endsession was explicitly authorized this session — not auto-triggered.**
+
+---
+
+### Session 54 — Stage 4 Schema Lockdown + 21-Batch Bulk Run (2026-05-15 → 2026-05-16)
+
+**Detail:** `history/session-details/session-054.md`
+
+**Changes made:**
+- `.claude/agents/prose-edge-classifier.md` — major patches: added `## Output Contract → Required fields per decision` table (mechanically validated), `evidence_kind` discriminator field on every emit_edge (`wiki-entity` / `wiki-chapter-summary` / `book-pass1`), `pass1_relationship` candidate-shape documentation (was wired in candidate generator but undocumented in prompt), `## Common failure patterns` top-level section with 3 concrete from-the-data examples (CONTEMPORARY_WITH-fallback / FIGHTS_IN-with-person / ATTENDS-with-person), `Reverse-direction edges` rule (PARENT_OF/GUEST_OF/RESURRECTS/TUTORS/WIELDS/OWNS/FORGED_BY are one-sided; KILLS/UNCLO_OF/WARD_OF are both-sided).
+- `working/agent-fleet-specs/worker-snippets/stage4-classifier-template.md` — validator-runs-before-marking-done step + `Two failure modes to avoid` section.
+- `reference/architecture.md` — 11 new edge types across two passes: Session-54 added UNCLE_OF, NEPHEW_OF, KILLED_WITH, ATTENDS; Session-55 added COUSIN_OF, MILK_BROTHER_OF, NURSED_BY, WET_NURSE_OF, KNIGHTED_BY, BESTOWS_KNIGHTHOOD_ON, DEPICTED_IN. Vocab now ~132 types across 15 subsections.
+- `scripts/wiki-pass2-validate-edge-jsonl.py` — NEW. Mechanical validator. Loads architecture.md vocab via regex (127 types found), checks per-decision required fields, checks shape rules (`confidence_tier` int 1-3, `evidence_snippet` verbatim ≥10 chars not section-header, `evidence_kind` matches `candidate_kind`, edge_type in canonical vocab). Self-tested against archived broken batch-0012 (caught 14/14 violations).
+- `~/.claude/projects/-Users-mnoth-source-asoiaf-chat/memory/feedback_drift_detection_mandatory.md` — NEW memory rule. Every bulk LLM run includes mechanical validator + cross-model audit + verdict-gates-resumption, regardless of model.
+- 6 session-results docs written: `2026-05-15-stage4-batch-0012-quality-check.md`, `2026-05-15-stage4-edge-provenance-explained.md`, `2026-05-15-stage4-haiku-smoke-verdict.md`, `2026-05-16-stage4-bulk-run-checkpoint.md`, `2026-05-16-stage4-current-status-and-open-questions.md`, `history/session-details/session-054.md`.
+- 21 Sonnet batches completed (batch-0012 canonical re-run through batch-0021). Manifest: 12 → 21 done. ~600+ prose-edges JSONL files written under `working/wiki/pass2-buckets/<bucket>/prose-edges/`.
+- 2 failed batch-0012 attempts archived for the comparison record: `_archive/batch-0012-sonnet-pre-schema-fix-2026-05-15/` (schema-broken Sonnet) and `_archive/batch-0012-haiku-failed-2026-05-15/` (Haiku semantic failure).
+
+**Decisions:** Haiku 4.5 rejected for prose-edge classification (smoke test: validator-clean but ~80% semantic failure — SERVES-on-everything, KILLED_BY reversal, type-contract violations wholesale). Sonnet stays the bulk worker. Schema drift is a property of LLM-structured-output, not of any model — defense is mechanical validator + cross-model audit, not stronger prompts alone. **The durable answer to "schema lockdown" is to lock the audit, not the prompt** — build a suspicious-edges worklist (KNOWS without explicit "knew" language, ATTENDS-non-event, FIGHTS_IN-non-event, KILLED_BY-non-person, tier-3, CONTEMPORARY_WITH-on-character-pair) for later Opus review. Soft-fallback whack-a-mole pattern: patched CONTEMPORARY_WITH (Session 55 mid-stream), KNOWS-as-fallback emerged in batch-0020 (~37% of emits). Accept the 5-7% baseline; post-clean via the worklist. Sequential single-terminal bulk firing is safer than parallel (rate-limit failures cleaner, no stale-lock cascades).
+
+**Mission state at session end:** 21/201 batches done, ~$37 cumulative spend, 180 queued. Stop file removed; locks dir empty. Worker not running.
+
+**What's next:**
+- **Resume Stage 4 bulk in one terminal** → continue: `progress/continue-prompts/2026-05-16-stage4-bulk-resume.md` (**Sonnet 4.6** workers via `/loop 20m /worker-stage4`). 180 batches × ~$3.42 ≈ $615 remaining.
+- **BEFORE resuming if possible**: extend `scripts/wiki-pass2-validate-edge-jsonl.py` with the suspicious-edges flagging logic (Matt's idea) — flag schema-clean-but-semantically-suspicious patterns to `working/wiki/data/stage4-suspicious-edges.jsonl` for later Opus review. See continue prompt Step 4.
+- **Vocab gaps pending review:** CROWNS_QUEEN_OF_LOVE_AND_BEAUTY (recommend reject); OFFERED_AS_BRIDE / CONSPIRES_WITH / HOSTAGE_OF may surface again at scale.
+- **Per Matt's standing rule, /endsession was explicitly authorized this session — not auto-triggered.**
+
+---
+
+### Session 53 — Stage 4 1-Tab Smoke + Throttle Calibration (2026-05-15)
+
+**Detail:** `history/session-details/session-053.md`
+
+**Changes made:**
+- `scripts/stage4.sh` — three edits: (1) added `STAGE4_SLEEP_BETWEEN` env var (default 5400s/90 min) replacing prior 30s inter-batch sleep; (2) fixed `set -e` + `pipefail` bug that was silently terminating the worker on non-zero claude exits (the explicit error-handling block was dead code) — pipeline now wrapped in `set +e` / `set -e`; (3) ported rate-limit detection from `extract.sh` — checks tmp_json for `"status":"rejected"` + `"rateLimitType"`, writes `rate-limit-events.jsonl` + `next-eligible.txt`, breaks cleanly. Status command updated to surface rate-limit events + next-eligible countdown. Help text documents the new env var.
+- 6 stale lock files cleaned across two waves (initial 4 + post-2-tab smoke 2).
+
+**Decisions:** Multi-tab parallelism dropped — Max 5h cap saturates faster than wall-clock benefit (2 tabs hit wall ~60 min; 6 tabs ~30 min). 1-tab + 90-min throttle is the working config. Detection blind spot uncovered: Max-plan session walls appear as plain-text `"You've hit your org's monthly usage limit"`, not as stream-json `rate_limit_event` — current grep doesn't catch them. Filed as future polish (extend grep patterns). Empirical surprise: batch-0012 ran at $3.42 / 23.8 min / 1.3M cache_read — **16x lower cache_read** than multi-tab batches, projected 5-7 batches per 5h window with ~50% headroom for Matt's other Claude use. Hypothesis: 1-tab serial keeps Anthropic's prompt cache warm; multi-tab fragments it.
+
+**Mission state at session end:** 12/201 batches done, $50.09 cumulative, 0 stuck, 189 queued. Final worker is in 90-min sleep with `/tmp/stage4-stop` set — will exit cleanly on wake.
+
+**What's next:**
+- **Spot-check batch-0012 quality + Haiku comparison** (NEXT). → continue: `progress/continue-prompts/2026-05-15-stage4-batch-quality-check.md` (**Opus 4.7** — cross-model audit; auditing Sonnet output with Sonnet misses Sonnet-systematic biases; verdict gates ~$700 of bulk-run downstream). Verdict gates bulk resumption.
+- **Resume bulk run** after quality check passes — `weirwood stage4 1` (90-min throttle); stop file auto-clears on launch.
+- **Per Matt's standing rule, /endsession was explicitly authorized this session — not auto-triggered.**
+
+---
+
+### Session 52 — Edge Vocabulary Drift Cleanup (2026-05-13)
+
+**Detail:** `history/session-details/session-052.md`
+
+**Changes made:**
+- `reference/architecture.md` — rewrote vocabulary-lock callout (line 454-465) to distinguish master vocabulary (~96 types across 14 subsections) from wiki-infobox subset (~26 types). Added `WRITTEN_BY` to Narrative & Literary subsection. Added reverse-direction rows: `HELD_BY` (after HOLDS_TITLE), `KILLED_BY` (after KILLS), `DECEIVED_BY` (after DECEIVES). Added deprecation note on `LOCATED_AT` description noting `LOCATED_IN` as deprecated synonym.
+- 21 graph files in `graph/nodes/_conflicts/` — normalized `LOCATED_IN` → `LOCATED_AT`. Final state: 0 LOCATED_IN, 59 LOCATED_AT.
+- `reference/design-philosophy.md` (line 91) — "22 edge types" → "~96 edge types".
+- `.claude/agents/schema-drift-auditor.md` (line 16) — updated to reference both master and subset tables.
+- `.claude/agents/prose-edge-classifier.md` — 3 spots: First Steps (line 14) repointed at master section with explicit perception/narrative/prophecy verb expansion; Vocabulary Lock (line ~74) replaced 22-type hardcoded list with full 14-category expansion (~96 types) referencing architecture.md as source of truth; Definition of Done (line ~131) "22 edge types" → "master vocabulary (~96 edge types)".
+- `next.md` — added top-of-file `★ NEXT RECOMMENDATION` callout for Stage 4 wiki-prose edge classifier. Updated "Where we are today" (date, current node/edge counts, vocab cleanup summary). Expanded Track 5 with "tier-difference not polish" framing + "no book passes required" clarification + Open Question on run shape (single-session vs watcher+workers).
+- `history/session-details/session-052.md` — NEW. Long-form record of discovery + decisions.
+
+**Decisions:** Edge vocabulary is the master `## Edge Types` section in architecture.md (~96 types). Wiki-infobox table is a parser-only subset (~26 types). Prose-edge-classifier emits from the master (it had been incorrectly restricted to the subset — a real bug, not just stale doc). Reverse-direction edges (HELD_BY/KILLED_BY/DECEIVED_BY) are documented as semantic equivalents — query layer treats `HELD_BY(a→b)` as identical to `HOLDS_TITLE(b→a)`. LOCATED_IN normalized to LOCATED_AT (was 21 instances all in _conflicts/). Stage 4 reframed: not "edges incrementally improve graph"; rather, 37 of the 96 master types are entirely unpopulated (perception/identity/prophecy/narrative/causal verbs) and Stage 4 turns "structured feudal wiki" into "graph that knows the story." Tier-difference. Run-shape question (single-session vs watcher+workers) deferred until candidate volume is known.
+
+**What's next:**
+- **Stage 4 wiki-prose edge classifier** (NEXT). Pre-flight: re-run cross-references + edge-candidates scripts (deterministic, free). Then 3-bucket smoke test. → continue: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`
+- Per Matt's standing rule, /endsession was explicitly approved this session — not auto-triggered.
+
+---
+
 ### Session 51 — Watcher-Day Orchestration + Session-Results Convention (2026-05-12)
 
 **Detail:** `history/session-details/session-051.md`
@@ -200,81 +289,10 @@ This is your project memory. When you come back after a break, read Current Stat
 
 ---
 
-### Session 50 — Orphan Edges Cat 1 Batch: Top-N Recovery (2026-05-12)
-
-**Changes made:**
-- **7 ALIAS-FIX** — added missing slug aliases to existing nodes: `crossroads-inn`→inn-at-the-crossroads (already had display-name forms but not the slug); `dragons`→dragon (species); `joffrey-i-baratheon`→joffrey-baratheon; `tommen-i-baratheon`→tommen-baratheon; `vale`→vale-of-arryn; `the-wall`→wall; `giant`→giants.
-- **8 CREATE** — new nodes with `pass_origin: pass2-orphan-batch-2026-05-12`: `factions/blacks` (Rhaenyra's Dance of Dragons faction, tier-1); `factions/greens` (Aegon II's faction, tier-1); `events/age-of-heroes` (legendary era, tier-2); `locations/crypt-of-winterfell` (Winterfell burial vault, tier-1); `factions/two-betrayers` (Hugh Hammer + Ulf the White, tier-1); `events/andal-invasion` (Andal conquest of Westeros, tier-1); `factions/winter-wolves` (Cregan Stark's veterans, tier-1); `factions/bastards-boys` (Ramsay's hunters, tier-1).
-- `working/wiki/data/alias-resolver.json` — rebuilt via `scripts/wiki-pass2-build-alias-resolver.py --apply` (1,433 entries).
-- `graph/index/chapters/` — rebuilt via `scripts/build-mention-index.py --all`.
-- `working/audits/orphan-edges-2026-05-12-post-orphan-batch.md` — post-batch audit snapshot.
-- `working/todos.md` — orphan batch DONE item added; spot-check todo updated noting `bastards-boys` defect resolved.
-
-**Delta:** Cat 1 orphan edges 1896→1673 (−223). Clean-resolving edges 18831→19055 (+224). Graph 7959→7967 nodes (+8).
-
-**Decisions:** All 15 operations (7 alias + 8 create) completed in single window; no multi-window needed (deterministic, no classification ambiguity). Skipped `ship`, `betrothal`, `lads` (ambiguous noise — no single canonical target). Skipped date-pattern slugs per standing rule. Session 46 archived to `history/worklog-archives/archive010.md`.
-
-**What's next:**
-- **Stage 4 prose-edge-classifier** — next major track. → continue: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`
-- **Per Matt's standing rule, /endsession is NOT auto-run.**
-
----
-
-### Session 49b — Case-Collision Tail Track B (2026-05-12)
-
-**Changes made:**
-- `scripts/filter-case-collision-tail.py` — NEW. Classifies all 65 remaining case-collision tail slugs into DROP / ALREADY_EXISTS / CANONICAL. Checks graph/nodes/ for exact and alias matches; applies drop rules (real-world books, disambig pages, list articles, hound names, meta-wiki, zero-source). Outputs `working/missions/case-collision-tail/canonical-slugs.txt` + `uncertain-slugs.txt`.
-- **4 alias updates** to existing nodes: `arryk-cargyll` ← "Arryk (guard)", `erryk-cargyll` ← "Erryk (guard)", `dragonbinder` ← "dragon horn"/"Dragon Horn", `jeyne-fowler` ← "Fowler twins"/"the Fowler twins".
-- **10 new nodes created** from chapter extraction evidence:
-  - characters/: `handsome-man`, `stern-face`, `starved-man` (Faceless Men identifiers, AFFC Arya chapter), `damon-dance-for-me` (Ramsay's man, ADWD), `red-raven-free-folk` (Raymun Redbeard's brother, Free Folk), `henly-maester` (young maester at Bolton-occupied Winterfell), `grazdan-mo-ullhor` (Cleon's former owner in Astapor)
-  - species/: `ice-dragon` (Old Nan's legendary creature), `ghost-grass` (Shadow Lands plant, Dothraki eschatology)
-  - foods/: `wine-of-courage` (Unsullied pain-numbing training potion)
-- `working/missions/case-collision-tail/drop-manifest.md` — NEW. Full record of 28 explicit drops + 27 ALREADY_EXISTS + 10 canonical created. Preserves auditability of the full 65 processed.
-- `reference/architecture.md` — Fixed typo "cred sites" → "sacred sites" (line 56).
-- `working/todos.md` — case-collision tail LOW item → DONE; architecture typo → DONE.
-
-**Decisions:** Track B did NOT use multi-window+watcher as the continue prompt specified. Rationale: after filtering, the canonical list collapsed to 10 nodes (not ~15-20 expected), all with clear types and chapter evidence already in session context. The "drift potential is HIGH" rationale no longer applied. Filter step is the key finding: most "canonical" slugs were redirect-only wiki pages with zero backlinks — the script correctly identified them. 4 slugs classified as ALREADY_EXISTS turned out to need alias updates rather than new nodes (arryk, erryk, dragon-horn, fowler-twins).
-
-**Graph total:** 7,949 → 7,959 nodes (+10).
-
-**What's next:**
-- **Stage 4 prose-edge-classifier** — next major track. → continue: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`
-- **Per Matt's standing rule, /endsession is NOT auto-run.**
-
-### Session 49 — Alias-Backfill Round 2 (2026-05-12)
-
-**Changes made:**
-- `graph/nodes/locations/vale-of-arryn.node.md` — added alias `"The Vale"` to `aliases` field.
-- `graph/nodes/characters/aemon-targaryen-son-of-maekar-i.node.md` — added alias `"Maester Aemon"`.
-- `graph/nodes/characters/aemon-targaryen-son-of-viserys-ii.node.md` — added alias `"Prince Aemon the Dragonknight"`.
-- `working/wiki/data/alias-resolver.json` — rebuilt via `scripts/wiki-pass2-build-alias-resolver.py --apply`. Three new entries in `alias_to_canonical`. Map now 1,403 entries.
-- `graph/index/chapters/` — rebuilt via `scripts/build-mention-index.py --all`. 344 chapters re-indexed.
-
-**Resolution delta:** 70.6% → **72.9%** (+2.3 pp, ~849 newly-resolved mentions). Beats the projected 72-74% range.
-
-**Slug note:** Continue prompt expected canonical slugs `aemon-targaryen-maester` and `aemon-targaryen-dragonknight`; neither exists. The graph uses `son-of-*` naming convention. Aliases were added to the correct existing nodes (`aemon-targaryen-son-of-maekar-i` and `aemon-targaryen-son-of-viserys-ii`). Continue prompt slug expectations were stale.
-
-**Decisions:** Aliases landed on correct existing nodes per the `son-of-*` slug convention — no new nodes created, alias-only operation as specified.
-
-**What's next:**
-- **Stage 4 prose-edge-classifier** — next major track. → continue: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`
-- **Case-collision tail (65 slugs, optional)** — LOW priority. → continue: `progress/continue-prompts/2026-05-12-case-collision-close.md`
-- **Per Matt's standing rule, /endsession is NOT auto-run.**
-
-### Session 48 — General Watcher Prompt (2026-05-12)
-
-**Changes made:**
-- `working/runbooks/general-watcher.md` — NEW. Reusable prompt for watching any running session. Paste into a fresh Claude Code window, tell it what task the running session is on, ask questions. Uses git status + diff + file timestamps as the observation surface. Read-only (no dispatch, no edits). Opus 4.7 recommended. Distinct from `.claude/agents/watcher.md` (mission-specific, requires worker scratch dirs + mission file).
-
-**Decisions:** General watcher lives in `working/runbooks/` (reusable operational prompt), NOT `progress/continue-prompts/` (continue prompts are task-specific, single-use). The "no dispatch" guardrail in the general watcher is appropriate for a catch-all default; mission-specific and dispatcher-watcher variants can relax it per their own spec.
-
-**What's next:**
-- **Alias-backfill round 2** — running in Sonnet. → continue: `progress/continue-prompts/2026-05-12-alias-backfill-round-2.md`
-- **Case-collision tail (65 slugs, optional)** — LOW priority. → continue: `progress/continue-prompts/2026-05-12-case-collision-close.md`
-- **Stage 4 prose-edge-classifier** — next major track. → continue: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`
-- **Per Matt's standing rule, /endsession is NOT auto-run.**
-
-> Sessions 44-47 archived to `history/worklog-archives/archive010.md`
+> Session 50 archived to `history/worklog-archives/archive011.md`
+> Session 49b archived to `history/worklog-archives/archive011.md`
+> Session 49 archived to `history/worklog-archives/archive011.md`
+> Sessions 44-48 archived to `history/worklog-archives/archive010.md` (full at 5 entries)
 > Sessions 39–43 archived to `history/worklog-archives/archive009.md` (full at 5 entries)
 > Sessions 34–38 archived to `history/worklog-archives/archive008.md` (full at 5 entries)
 > Sessions 30–33 in `history/worklog-archives/archive007.md` (full at 5 entries)

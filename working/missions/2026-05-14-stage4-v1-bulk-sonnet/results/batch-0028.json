@@ -1,0 +1,32 @@
+{
+  "batch_id": "batch-0028",
+  "worker_id": "worker-2026-05-17-083602481",
+  "started_at": "2026-05-17T08:36:02.481Z",
+  "completed_at": "2026-05-17T08:52:30.000Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-harte/prose-edge-candidates/hazel-harte.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-harte/prose-edge-candidates/lord-harte.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hastwyck/prose-edge-candidates/morgil-hastwyck.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hasty/prose-edge-candidates/bonifer-hasty.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-hayford/prose-edge-candidates/ermesande-hayford.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 17,
+    "reject_just_mention": 80,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "KILLED_BY": 2,
+    "OPPOSES": 2,
+    "SWORN_TO": 4,
+    "WORSHIPS": 2,
+    "FIGHTS_IN": 2,
+    "TRAVELS_TO": 1,
+    "SERVES": 1,
+    "LOVES": 1,
+    "ATTENDS": 2
+  },
+  "vocab_gap_questions_filed": 0,
+  "errors": []
+}

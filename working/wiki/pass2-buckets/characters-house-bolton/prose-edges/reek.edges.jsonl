@@ -1,0 +1,35 @@
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "bran-stark", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "capture-of-winterfell", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "donella-hornwood", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "reek", "target_slug": "dreadfort", "edge_type": "LOCATED_AT", "confidence_tier": 1, "cite_ref": "", "note": "No one in the Dreadfort could stand to be near Reek due to his stench; he lived and served there"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "harvest-feast", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "hornwood", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "lord-of-the-hornwood", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "luwin", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "reek", "target_slug": "ramsay-snow", "edge_type": "SERVES", "confidence_tier": 1, "cite_ref": "", "note": "Reek was Ramsay's inseparable serving man who tutored him in martial prowess"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "rickon-stark", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "rodrik-cassel", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "sack-of-winterfell", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "theon-greyjoy", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "winterfell", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "arya-stark", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "bastard-letter", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "jeyne-poole", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "jon-snow", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "wall", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "winterfell", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "bethany-bolton", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "dreadfort", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "roose-bolton", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "smallfolk", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "uthor", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "deer", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "donella-hornwood", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "ramsay-snow", "reject_reason": "multi-candidate-duplicate-or-less-specific"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "ramsay-snow", "reject_reason": "multi-candidate-duplicate-or-less-specific"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "rodrik-cassel", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "roose-bolton", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "roose-bolton", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "smallfolk", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "theon-greyjoy", "reject_reason": "quote-attribution"}
+{"decision": "reject_just_mention", "source_slug": "reek", "target_slug": "theon-greyjoy", "reject_reason": "quote-attribution"}

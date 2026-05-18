@@ -1,0 +1,28 @@
+---
+name: "A Storm of Swords-Chapter 3"
+type: meta.chapter
+slug: a-storm-of-swords-chapter-3
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords-Chapter_3"
+bucket_id: meta-chapters-asos
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+book: a-storm-of-swords
+chapter_number: 3
+pov_character: arya-stark
+---
+
+## Identity
+
+A Storm of Swords-Chapter 3 is a meta.chapter from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+[Arya](wiki:Arya_Stark), [Gendry](wiki:Gendry), and [Hot Pie](wiki:Hot_Pie) head north after fleeing [Harrenhal](wiki:Harrenhal), evading [wolves](wiki:Wolves) and passing through a burned village. Using the map Arya stole from [Roose Bolton](wiki:Roose_Bolton), they plan to find the [Trident](wiki:Trident) and follow the [Red Fork](wiki:Red_Fork) to [Riverrun](wiki:Riverrun). They cross two rivers but are unable to identify them from the map.
+
+Fearing pursuit, they ride for long hours and exhaust themselves. While Gendry stands guard, Arya falls asleep and dreams through the eyes of [a wolf](wiki:Nymeria_(direwolf)). In the dream, she sees four members of the [Brave Companions](wiki:Brave_Companions) pursuing in the rain, a pale [Lyseni](wiki:Lys), an [Ibbenese](wiki:Ibbenese) axeman, a [Dornishman](wiki:Dornishmen), and [Iggo](wiki:Iggo). The wolf and her pack ambush and ravage the four sellswords, quickly killing the first three. Iggo's horse kicks one of the wolves, and the [Dothraki](wiki:Dothraki) cuts down another wolf. Arya's wolf, enraged by the deaths of two of her pack, knocks Iggo from his saddle and tears off his arm.

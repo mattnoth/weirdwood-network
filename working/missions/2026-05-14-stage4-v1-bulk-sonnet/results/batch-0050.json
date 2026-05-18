@@ -1,0 +1,56 @@
+{
+  "batch_id": "batch-0050",
+  "worker_id": "worker-20260518-032129086978",
+  "completed_at": "2026-05-18T03:44:12.375778Z",
+  "files_processed": 5,
+  "total_candidates": 233,
+  "emit_count": 49,
+  "reject_count": 184,
+  "escalation_count": 0,
+  "vocab_gap_questions": 0,
+  "errors": 0,
+  "per_file": [
+    {
+      "file": "ralf-kenning.candidates.jsonl",
+      "candidates": 17,
+      "emit": 3,
+      "reject": 14,
+      "escalate": 0
+    },
+    {
+      "file": "kennos-of-kayce.candidates.jsonl",
+      "candidates": 14,
+      "emit": 8,
+      "reject": 6,
+      "escalate": 0
+    },
+    {
+      "file": "terrence-kenning.candidates.jsonl",
+      "candidates": 4,
+      "emit": 3,
+      "reject": 1,
+      "escalate": 0
+    },
+    {
+      "file": "osfryd-kettleblack.candidates.jsonl",
+      "candidates": 75,
+      "emit": 14,
+      "reject": 61,
+      "escalate": 0
+    },
+    {
+      "file": "osmund-kettleblack.candidates.jsonl",
+      "candidates": 123,
+      "emit": 21,
+      "reject": 102,
+      "escalate": 0
+    }
+  ],
+  "emit_rate": 0.21,
+  "notable": [
+    "All 5 files: source_target shape, priority_tier 1 characters",
+    "High quote-section reject rate (expected for source_target shape \u2014 quote attributions and duplicates)",
+    "No vocabulary gaps encountered \u2014 all relationships fit canonical types or were correctly rejected",
+    "COMMANDS_IN, COMMANDS, KNIGHTED_BY, CAPTURES, LOVER_OF, PERCEIVED_AS, ATTENDS, SUCCEEDS used \u2014 mix of new and established types"
+  ]
+}

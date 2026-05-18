@@ -26,7 +26,7 @@ After defeating the Pipers and Vances at the Golden Tooth, Jaime Lannister march
 ## Edges
 
 - PART_OF: War of the Five Kings (track_b: Conflict)
-- LOCATED_IN: Riverrun (wiki:Battle_under_the_walls_of_Riverrun)
+- LOCATED_AT: Riverrun (wiki:Battle_under_the_walls_of_Riverrun)
 - COMMANDS_IN: Jaime Lannister (wiki:Battle_under_the_walls_of_Riverrun)
 - COMMANDS_IN: Edmure Tully (wiki:Battle_under_the_walls_of_Riverrun)
 - COMMANDS_IN: Tytos Blackwood (wiki:Battle_under_the_walls_of_Riverrun)

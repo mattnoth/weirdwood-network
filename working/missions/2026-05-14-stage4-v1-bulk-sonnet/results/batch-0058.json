@@ -1,0 +1,29 @@
+{
+  "batch_id": "batch-0058",
+  "worker_id": "worker-2026-05-18-074159428800",
+  "started_at": "2026-05-18T07:41:59.428Z",
+  "completed_at": "2026-05-18T07:44:10.000Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-lothston/prose-edge-candidates/bastard-of-harrenhal.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-lothston/prose-edge-candidates/ben-blackthumb.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-lothston/prose-edge-candidates/danelle-lothston.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-lothston/prose-edge-candidates/guy-lothston.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-lothston/prose-edge-candidates/jeyne-lothston.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 9,
+    "reject_just_mention": 57,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "TRAVELS_TO": 2,
+    "SERVES": 2,
+    "ALLIES_WITH": 1,
+    "FIGHTS_IN": 1,
+    "LOCATED_AT": 1,
+    "OPPOSES": 2
+  },
+  "vocab_gap_questions_filed": 0,
+  "errors": []
+}

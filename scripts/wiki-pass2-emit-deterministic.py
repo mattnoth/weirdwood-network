@@ -80,6 +80,86 @@ def is_core_bucket(bucket_id: str) -> bool:
 
 
 # ---------------------------------------------------------------------------
+# Chapter page metadata extraction
+# ---------------------------------------------------------------------------
+CHAPTER_PAGE_RE = re.compile(
+    r"^A (Game of Thrones|Clash of Kings|Storm of Swords|Feast for Crows|Dance with Dragons)"
+    r"-(Chapter (\d+)|Prologue|Epilogue)$"
+)
+BOOK_SLUG_MAP = {
+    "A Game of Thrones":    "a-game-of-thrones",
+    "A Clash of Kings":     "a-clash-of-kings",
+    "A Storm of Swords":    "a-storm-of-swords",
+    "A Feast for Crows":    "a-feast-for-crows",
+    "A Dance with Dragons": "a-dance-with-dragons",
+}
+
+# Categories data — lazy-loaded by load_categories_data()
+_CATEGORIES_DATA: dict[str, list[str]] | None = None
+CATEGORIES_DATA_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "page-categories.jsonl"
+
+POV_CATEGORY_RE = re.compile(
+    r"^A Song of Ice And Fire chapters--POV (.+)$",
+    re.IGNORECASE,
+)
+# Prologues and epilogues use a different category format on the wiki:
+# "Chapters with the POV of <Name>" instead of the --POV <Name> subcategory.
+POV_CHAPTER_WITH_RE = re.compile(
+    r"^Chapters with the POV of (.+)$",
+    re.IGNORECASE,
+)
+
+
+def load_categories_data() -> dict[str, list[str]]:
+    """Return {page_name: [category, ...]} from page-categories.jsonl (lazy singleton)."""
+    global _CATEGORIES_DATA
+    if _CATEGORIES_DATA is not None:
+        return _CATEGORIES_DATA
+    _CATEGORIES_DATA = {}
+    if not CATEGORIES_DATA_FILE.exists():
+        return _CATEGORIES_DATA
+    with open(CATEGORIES_DATA_FILE, encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            rec = json.loads(line)
+            _CATEGORIES_DATA[rec["page"]] = rec.get("categories", [])
+    return _CATEGORIES_DATA
+
+
+def slugify(text: str) -> str:
+    """Slugify a display name (e.g. 'Daenerys Targaryen' → 'daenerys-targaryen')."""
+    s = text.lower()
+    s = re.sub(r"['\",]", "", s)
+    s = re.sub(r"[ _]+", "-", s)
+    s = re.sub(r"[^a-z0-9-]", "-", s)
+    s = re.sub(r"-+", "-", s).strip("-")
+    return s
+
+
+def get_chapter_pov(page_name: str) -> str | None:
+    """Return slugified POV character for a chapter page, or None if not found.
+
+    Numbered chapters use the subcategory format:
+      "A Song of Ice And Fire chapters--POV <Name>"
+    Prologues and epilogues use a flat category format:
+      "Chapters with the POV of <Name>"
+    Both are tried in order; first match wins.
+    """
+    categories = load_categories_data().get(page_name, [])
+    for cat in categories:
+        m = POV_CATEGORY_RE.match(cat)
+        if m:
+            return slugify(m.group(1))
+    for cat in categories:
+        m = POV_CHAPTER_WITH_RE.match(cat)
+        if m:
+            return slugify(m.group(1))
+    return None
+
+
+# ---------------------------------------------------------------------------
 # Slug generation — must match wiki-pass2-triage.py exactly
 # ---------------------------------------------------------------------------
 
@@ -175,8 +255,14 @@ def render_node(
     bucket_id: str,
     relationships: list,
     infobox_found: bool,
+    chapter_meta: dict | None = None,
 ) -> str:
-    """Render a complete skeleton node markdown string."""
+    """Render a complete skeleton node markdown string.
+
+    chapter_meta (only set for meta.chapter pages):
+      {"book": "a-storm-of-swords", "chapter_number": 71, "pov_character": "daenerys-targaryen"}
+      pov_character may be None for prologues/epilogues.
+    """
     url = wiki_url(page_name)
 
     # Aliases: YAML inline list
@@ -199,6 +285,19 @@ def render_node(
         "prompt_version: v1-python",
         "node_version: 1",
         "pass_origin: pass2-wiki-deterministic",
+    ]
+
+    # meta.chapter extra fields
+    if chapter_meta is not None:
+        lines.append(f"book: {chapter_meta['book']}")
+        lines.append(f"chapter_number: {chapter_meta['chapter_number']}")
+        pov = chapter_meta.get("pov_character")
+        if pov is not None:
+            lines.append(f"pov_character: {pov}")
+        else:
+            lines.append("pov_character: null")
+
+    lines += [
         "---",
         "",
         "## Identity",
@@ -209,9 +308,11 @@ def render_node(
         "",
     ]
 
-    if relationships and infobox_found:
-        for rel in relationships:
-            lines.append(render_edge_line(rel))
+    # meta.chapter pages have no infobox edges — skip edge emission entirely
+    if entity_type != "meta.chapter":
+        if relationships and infobox_found:
+            for rel in relationships:
+                lines.append(render_edge_line(rel))
     # If no relationships (or no infobox), section is intentionally empty
 
     # Ensure file ends with a newline
@@ -333,6 +434,27 @@ def process_bucket(
         for rel in relationships:
             stats["field_counts"][rel.get("field", "")] += 1
 
+        # Build chapter_meta if this is a meta.chapter page
+        chapter_meta: dict | None = None
+        if entity_type == "meta.chapter":
+            _m = CHAPTER_PAGE_RE.match(page_name)
+            if _m:
+                _book_title = "A " + _m.group(1)
+                _book_slug = BOOK_SLUG_MAP[_book_title]
+                _pov = get_chapter_pov(page_name)
+                # group(3) holds the digit string for "Chapter N"; None for Prologue/Epilogue
+                if _m.group(3) is not None:
+                    _chapter_num = int(_m.group(3))
+                elif _m.group(2) == "Prologue":
+                    _chapter_num = 0
+                else:  # Epilogue
+                    _chapter_num = 999
+                chapter_meta = {
+                    "book": _book_slug,
+                    "chapter_number": _chapter_num,
+                    "pov_character": _pov,
+                }
+
         # Render node content
         node_content = render_node(
             page_name=page_name,
@@ -343,6 +465,7 @@ def process_bucket(
             bucket_id=bucket_id,
             relationships=relationships,
             infobox_found=infobox_found,
+            chapter_meta=chapter_meta,
         )
 
         out_path = skeleton_dir / f"{slug}.node.md"

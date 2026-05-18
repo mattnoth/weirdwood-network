@@ -1,0 +1,10 @@
+{"decision": "reject_just_mention", "source_slug": "mortimer-boggs", "target_slug": "bastard", "reject_reason": "generic-noun-target"}
+{"decision": "emit_edge", "source_slug": "mortimer-boggs", "target_slug": "glendon-flowers", "edge_type": "DUELS", "confidence_tier": 1, "cite_ref": "", "note": "Ser Mortimer Boggs was defeated in the lists by Ser Glendon Flowers at the wedding tourney at Whitewalls"}
+{"decision": "reject_just_mention", "source_slug": "mortimer-boggs", "target_slug": "horse", "reject_reason": "generic-noun-target"}
+{"decision": "emit_edge", "source_slug": "mortimer-boggs", "target_slug": "wedding-tourney-at-whitewalls", "edge_type": "FIGHTS_IN", "confidence_tier": 1, "cite_ref": "", "note": "Ser Mortimer attended and competed in the wedding tourney at Whitewalls in 212 AC"}
+{"decision": "reject_just_mention", "source_slug": "mortimer-boggs", "target_slug": "whitewalls", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "mortimer-boggs", "target_slug": "bastard", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "mortimer-boggs", "target_slug": "duncan-the-tall", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "mortimer-boggs", "target_slug": "glendon-flowers", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "mortimer-boggs", "target_slug": "horse", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "mortimer-boggs", "target_slug": "penny-jenny", "reject_reason": "just-mention"}

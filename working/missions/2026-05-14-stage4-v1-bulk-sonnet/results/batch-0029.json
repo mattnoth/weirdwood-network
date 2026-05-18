@@ -1,0 +1,115 @@
+{
+  "batch_id": "batch-0029",
+  "worker_id": "worker-20260517T092500Z",
+  "shape": "source_target",
+  "priority_tier": 1,
+  "completed_at": "2026-05-17T09:59:00Z",
+  "files_processed": 5,
+  "files": [
+    {
+      "source_slug": "lord-hayford-dance",
+      "candidates_file": "working/wiki/pass2-buckets/characters-house-hayford/prose-edge-candidates/lord-hayford-dance.candidates.jsonl",
+      "output_file": "working/wiki/pass2-buckets/characters-house-hayford/prose-edges/lord-hayford-dance.edges.jsonl",
+      "candidates_total": 5,
+      "emit_count": 4,
+      "reject_count": 1,
+      "escalate_cross_identity": 0,
+      "escalate_disambiguation": 0,
+      "vocab_gap_questions": 0,
+      "edge_types_emitted": [
+        "OPPOSES",
+        "FIGHTS_IN",
+        "SWORN_TO"
+      ]
+    },
+    {
+      "source_slug": "lord-hayford",
+      "candidates_file": "working/wiki/pass2-buckets/characters-house-hayford/prose-edge-candidates/lord-hayford.candidates.jsonl",
+      "output_file": "working/wiki/pass2-buckets/characters-house-hayford/prose-edges/lord-hayford.edges.jsonl",
+      "candidates_total": 9,
+      "emit_count": 5,
+      "reject_count": 4,
+      "escalate_cross_identity": 0,
+      "escalate_disambiguation": 0,
+      "vocab_gap_questions": 0,
+      "edge_types_emitted": [
+        "SUCCEEDS",
+        "COMMANDS",
+        "FIGHTS_IN",
+        "KILLED_BY"
+      ]
+    },
+    {
+      "source_slug": "lyra-hayford",
+      "candidates_file": "working/wiki/pass2-buckets/characters-house-hayford/prose-edge-candidates/lyra-hayford.candidates.jsonl",
+      "output_file": "working/wiki/pass2-buckets/characters-house-hayford/prose-edges/lyra-hayford.edges.jsonl",
+      "candidates_total": 8,
+      "emit_count": 2,
+      "reject_count": 6,
+      "escalate_cross_identity": 0,
+      "escalate_disambiguation": 0,
+      "vocab_gap_questions": 0,
+      "notes": "Vocab gap PROPOSED_AS_BRIDE already filed by batch-0025; lyra-hayford->aegon-iii-targaryen rejected on that basis.",
+      "edge_types_emitted": [
+        "TRAVELS_TO",
+        "ATTENDS"
+      ]
+    },
+    {
+      "source_slug": "melara-hetherspoon",
+      "candidates_file": "working/wiki/pass2-buckets/characters-house-hetherspoon/prose-edge-candidates/melara-hetherspoon.candidates.jsonl",
+      "output_file": "working/wiki/pass2-buckets/characters-house-hetherspoon/prose-edges/melara-hetherspoon.edges.jsonl",
+      "candidates_total": 53,
+      "emit_count": 4,
+      "reject_count": 49,
+      "escalate_cross_identity": 0,
+      "escalate_disambiguation": 0,
+      "vocab_gap_questions": 0,
+      "notes": "High reject rate expected: 32 candidates from Quotes sections (attribution rows, not relationships); 7 from ADWD section describing Cersei's walk-of-atonement hallucination (Melara appears as vision, not agent).",
+      "edge_types_emitted": [
+        "SERVES",
+        "LOVES",
+        "SEEKS",
+        "ATTENDS"
+      ]
+    },
+    {
+      "source_slug": "falia-flowers",
+      "candidates_file": "working/wiki/pass2-buckets/characters-house-hewett/prose-edge-candidates/falia-flowers.candidates.jsonl",
+      "output_file": "working/wiki/pass2-buckets/characters-house-hewett/prose-edges/falia-flowers.edges.jsonl",
+      "candidates_total": 10,
+      "emit_count": 1,
+      "reject_count": 9,
+      "escalate_cross_identity": 0,
+      "escalate_disambiguation": 0,
+      "vocab_gap_questions": 0,
+      "notes": "Silence (ship) rejected: LOCATED_AT type contract requires place.location; Silence is object.artifact.",
+      "edge_types_emitted": [
+        "LOCATED_AT"
+      ]
+    }
+  ],
+  "batch_totals": {
+    "candidates_total": 85,
+    "emit_count": 16,
+    "reject_count": 69,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0,
+    "vocab_gap_questions_filed": 0,
+    "emit_rate_pct": 18.8
+  },
+  "edge_types_emitted_batch": {
+    "OPPOSES": 2,
+    "FIGHTS_IN": 3,
+    "SWORN_TO": 1,
+    "SUCCEEDS": 1,
+    "COMMANDS": 1,
+    "KILLED_BY": 1,
+    "TRAVELS_TO": 1,
+    "ATTENDS": 3,
+    "SERVES": 1,
+    "LOVES": 1,
+    "SEEKS": 1,
+    "LOCATED_AT": 1
+  }
+}

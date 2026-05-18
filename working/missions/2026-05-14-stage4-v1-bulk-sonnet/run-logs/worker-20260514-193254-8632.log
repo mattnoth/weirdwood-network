@@ -1,0 +1,7 @@
+2026-05-15T00:32:54Z  Stage 4 worker starting: worker-20260514-193254-8632
+2026-05-15T00:32:54Z  Mission: 2026-05-14-stage4-v1-bulk-sonnet
+2026-05-15T00:32:54Z  Model: claude-sonnet-4-6
+2026-05-15T00:32:54Z  Worker prompt: /Users/mnoth/source/asoiaf-chat/.claude/commands/worker-stage4.md
+2026-05-15T00:32:54Z  Queued batches remaining: 197 — starting Claude run
+2026-05-15T01:12:08Z  Batch complete: batch_id=batch-0006 elapsed=2354s input=54 cache_read=3409579 output=118587 cost=$4.468538699999999 exit=0
+2026-05-15T01:12:38Z  Queued batches remaining: 195 — starting Claude run

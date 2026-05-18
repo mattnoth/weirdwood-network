@@ -1,0 +1,20 @@
+{
+  "batch_id": "batch-0009",
+  "worker_ids": ["worker-2026-05-14-152300", "worker-2026-05-15-201656649248"],
+  "completed_at": "2026-05-15T21:00:00.000Z",
+  "status": "done",
+  "files_processed": 30,
+  "candidates_total": 638,
+  "emit_edge": 47,
+  "reject_just_mention": 591,
+  "escalate_cross_identity": 0,
+  "escalate_disambiguation": 0,
+  "vocab_gap_questions_filed": 3,
+  "errors": 0,
+  "notes": "Session resumed twice after context compaction. Prior session (worker-2026-05-14-152300) wrote first 7 output files before hitting token limit; this session (worker-2026-05-15-201656649248) re-read all 23 remaining candidate files and wrote their edge outputs. Three vocab-gaps filed: LIAISED_WITH/LOVERS_WITH for mylenda-caron→walder-frey-son-of-ryman (rumored affair relationship, q-2026-05-15-batch-0009-vocab-gap-001), COURTED for cleyton-caswell→rohanne-webber (suitor/courtship, q-2026-05-15-batch-0009-vocab-gap-002), KINSMAN_OF for arthor-celtigar→bartimos-celtigar (RELATED_TO emitted as fallback, q-2026-05-15-batch-0009-vocab-gap-003). Notable edges: Rodrik Cassel TUTORS sub-graph (robb-stark, jon-snow, theon-greyjoy all trained by Rodrik), Rolly Duckfield KNIGHTED_BY jon-connington + TUTORS aegon-targaryen-young-griff, Crispian Celtigar both SWORN_TO and SERVES aegon-i-targaryen (vassal + first master of coin), Prudence/Prunella Celtigar mirrored SERVES alysanne-targaryen + SIBLING_OF each other, Ardrian Celtigar DISTRUSTS davos-seaworth. Emit rate: 7.4%.",
+  "vocab_gap_questions": [
+    "q-2026-05-15-batch-0009-vocab-gap-001",
+    "q-2026-05-15-batch-0009-vocab-gap-002",
+    "q-2026-05-15-batch-0009-vocab-gap-003"
+  ]
+}

@@ -26,7 +26,7 @@ After the rebels' initial call to arms, Lords Grandison, Cafferen, and Fell marc
 ## Edges
 
 - PART_OF: Robert's Rebellion (track_b: Conflict)
-- LOCATED_IN: Summerhall (wiki:Battles_at_Summerhall)
+- LOCATED_AT: Summerhall (wiki:Battles_at_Summerhall)
 - COMMANDS_IN: Robert Baratheon (wiki:Battles_at_Summerhall)
 - KILLS: Lord Fell (wiki:Battles_at_Summerhall)
 

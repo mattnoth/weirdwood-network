@@ -1,0 +1,36 @@
+{
+  "batch_id": "batch-0064",
+  "worker_id": "worker-2026-05-18-093955717605",
+  "started_at": "2026-05-18T09:39:55.717605Z",
+  "completed_at": "2026-05-18T09:48:00.000000Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-manderly/prose-edge-candidates/garth-wolfs-den.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-manderly/prose-edge-candidates/jessamyn-manderly.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-manderly/prose-edge-candidates/mara-manderly.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-manderly/prose-edge-candidates/marlon-manderly.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-manderly/prose-edge-candidates/medrick-manderly.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 24,
+    "reject_just_mention": 28,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "PERCEIVED_AS": 1,
+    "WIELDS": 2,
+    "SERVES": 5,
+    "LOCATED_AT": 5,
+    "WORSHIPS": 1,
+    "IMPRISONS": 3,
+    "COUSIN_OF": 1,
+    "OPPOSES": 2,
+    "DISTRUSTS": 2,
+    "FIGHTS_IN": 2,
+    "PROTECTS": 1,
+    "OWNS": 1,
+    "SIBLING_OF": 1
+  },
+  "vocab_gap_questions_filed": 2,
+  "errors": []
+}

@@ -1,0 +1,39 @@
+{
+  "batch_id": "batch-0068",
+  "worker_id": "worker-20260518-124200682064",
+  "started_at": "2026-05-18T12:42:00.682064Z",
+  "completed_at": "2026-05-18T13:15:00.000000Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-marbrand/prose-edge-candidates/denys-marbrand.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-marbrand/prose-edge-candidates/jeyne-marbrand.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-marsh/prose-edge-candidates/bowen-marsh.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-massey/prose-edge-candidates/alarra-massey.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-massey/prose-edge-candidates/albin-massey.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 28,
+    "reject_just_mention": 86,
+    "escalate_cross_identity": 0,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "FIGHTS_IN": 3,
+    "RESENTS": 1,
+    "REVEALS_TO": 1,
+    "WORSHIPS": 1,
+    "SERVES": 3,
+    "ALLIES_WITH": 2,
+    "COMMANDS_IN": 2,
+    "TRAVELS_TO": 6,
+    "DEFEATS": 1,
+    "APPOINTS": 1,
+    "OPPOSES": 3,
+    "BETRAYS": 1,
+    "DECEIVED_BY": 1,
+    "DISTRUSTS": 1,
+    "ADVISES": 2,
+    "MEMBER_OF": 2
+  },
+  "vocab_gap_questions_filed": 1,
+  "errors": []
+}

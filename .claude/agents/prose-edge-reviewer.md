@@ -21,7 +21,7 @@ You are NOT a re-classifier. You don't redo the classifier's work. You don't pro
 ## Your role — five categories of finding
 
 ### Category 1: vocabulary violations
-- Edge types not in the locked 22-type vocabulary
+- Edge types not in the locked master vocabulary (~96 types in `reference/architecture.md` § "Edge Types (Relationship Categories)")
 - Lowercase or otherwise malformed edge type names
 
 ### Category 2: structural malformation

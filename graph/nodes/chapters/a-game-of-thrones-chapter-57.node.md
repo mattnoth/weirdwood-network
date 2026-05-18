@@ -1,0 +1,46 @@
+---
+name: "A Game of Thrones-Chapter 57"
+type: meta.chapter
+slug: a-game-of-thrones-chapter-57
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Game_of_Thrones-Chapter_57"
+bucket_id: meta-chapters-agot
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+book: a-game-of-thrones
+chapter_number: 57
+pov_character: sansa-stark
+---
+
+## Identity
+
+A Game of Thrones-Chapter 57 is a meta.chapter from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+[Sansa](wiki:Sansa_Stark) attends King [Joffrey](wiki:Joffrey_Baratheon)’s first court session. As a reward for being good and promising not to leave the [Red Keep](wiki:Red_Keep), Sansa has been granted freedom of the castle by Queen [Cersei](wiki:Cersei_Lannister). However, even Sansa realizes that it is an empty honor since she cannot get past the guards in any case, and has nowhere to go if she did. In addition, the queen has attached an “honor guard” to accompany Sansa everywhere.
+
+The throne room has been stripped of all the hunting tapestries that King [Robert](wiki:Robert_Baratheon) loved so well. Sansa also notes that there are no smallfolk and only perhaps twenty of the hundred lords accustomed to wait on King Robert. Sansa wonders where the others have all gone. As she passes among them, many of the men pretend not to know her and none will meet her eyes.
+
+Joffrey and Cersei are announced by a [herald](wiki:Herald) and enter escorted by members of the [Kingsguard](wiki:Kingsguard). Once he is seated on the [Iron Throne](wiki:Iron_Throne), Joffrey declares that it is a king’s duty to punish the disloyal and reward the faithful and asks [Grand Maester](wiki:Grand_Maester) [Pycelle](wiki:Pycelle) to read his royal decrees. The list of those that must present themselves to swear fealty goes on for a long time. Finally, near the end, the names of Sansa’s own [family](wiki:House_Stark) are called, even down to [Arya](wiki:Arya_Stark) and [Rickon](wiki:Rickon_Stark). The naming of Arya suggests to Sansa that her sister must have escaped and be safe in [Winterfell](wiki:Winterfell).
+
+It is then announced that the king’s grandfather, Lord [Tywin Lannister](wiki:Tywin_Lannister) is to take up the office of [Hand of the King](wiki:Hand_of_the_King) in place of the traitor [Eddard Stark](wiki:Eddard_Stark). It is also decreed that Cersei Lannister, as Queen Regent, be seated on the [small council](wiki:Small_council) in place of [Stannis Baratheon](wiki:Stannis_Baratheon) and that [Janos Slynt](wiki:Janos_Slynt), Commander of the [City Watch of King's Landing](wiki:City_Watch_of_King's_Landing), be raised to the rank of Lord and granted the ancient seat of [Harrenhal](wiki:Harrenhal) as well as a seat on the small council. Janos Slynt then enters the hall, displaying his new [lordly sigil](wiki:House_Slynt), to take his seat at the council table. The elevation of Slynt, a butcher’s son, to the lordship of Harrenhal visibly angers many of the knights and lords present. Finally, Pycelle reads a decree that, in these times of turmoil, the council considers the safety of King Joffrey to be of paramount importance.
+
+Queen Cersei stands and calls forth Ser [Barristan Selmy](wiki:Barristan_Selmy). She proceeds to thank the old knight for his many years of service in the Kingsguard, but declares that the time has come for him to set aside his burden. Ser Barristan is confused until the new-made Lord Slynt explains bluntly that he is being relieved as [Lord Commander of the Kingsguard](wiki:Lord_Commander_of_the_Kingsguard). Ser Barristan is plainly stunned and protests that only death may relieve a Kingsguard of his sacred trust. Cersei asks whose death: his or his king’s. Joffrey goes even further, accusing Ser Barristan of letting his father die and declaring him too old to protect anyone.
+
+Ser Barristan reminds them that he has long ago forsaken his [ancestral lands](wiki:House_Selmy) and [keep](wiki:Harvest_Hall) and a wife-to-be in order to serve in the Kingsguard. He goes on to recount his history as a member of the Kingsguard, protecting and serving three kings. [Littlefinger](wiki:Petyr_Baelish) notes that all three of these kings are dead. Then Cersei reiterates that Ser Barristan’s time is done because Joffrey needs young and strong men around him, and that Ser [Jaime Lannister](wiki:Jaime_Lannister) will succeed him as Lord Commander. Ser Barristan is outraged that a man who killed the king he swore to protect should be made the Lord Commander.
+
+[Varys](wiki:Varys) attempts to calm the situation, insisting that they are not ungrateful to Ser Barristan and that Lord Tywin Lannister has agreed to grant Ser Barristan a tract of land in the [Westerlands](wiki:Westerlands) with men and gold sufficient to build a stout keep and servants to see to his every need. Ser Barristan venomously describes such a gift as a hall to die in and men to bury him. He removes his white cloak and armor and drops them on the floor, declaring that he will die a knight. Littlefinger quips “A naked knight, it would seem,” which raises laughs from the entire hall, even the remaining members of the Kingsguard.
+
+The laughter ends abruptly when Ser Barristan draws his sword, but the old knight insists they should have no fear, even though he could still cut down the remaining five Kingsguard with ease. He adds in disgust that any man who would serve under the Kingslayer does not deserve the white cloak. Then he throws his sword at the foot of the Iron Throne, declaring to Joffrey, “Here, boy. Melt it down and add it to the others.” Before he leaves, the old knight suggests that perhaps [Stannis](wiki:Stannis_Baratheon) will depose Joffrey and sit upon the throne. The knight’s footsteps echo through the hall as he takes the long way out.
+
+Joffrey is incensed at Ser Barristan’s talk of Stannis and at being called a boy. He orders Ser Barristan seized and questioned. Finally, Janos Slynt announces that his gold cloaks will see to it. It is then announced that [Sandor Clegane](wiki:Sandor_Clegane) will fill the vacancy created by the departure of Ser Barristan. Joffrey asks the Hound what he thinks, and Clegane declares that he has no lands or wife to forsake, but that he will not take a knight’s vows. Ser [Boros Blount](wiki:Boros_Blount) of the Kingsguard protests that the members of the Kingsguard have always been anointed knights, but is quickly rebuffed.
+
+The time has finally come for Sansa when she hears the herald ask for any further business. She nervously comes forward, thinking that she must be as strong as her [lady mother](wiki:Catelyn_Stark). She calls out and Joffrey, seeing her, tells her to come forward, which emboldens her. She begs mercy for her father. Queen Cersei expresses displeasure, but Varys only claims that she is a child who does not understand what she says. Joffrey tells the others to let her speak.
+
+The small council questions her about her father’s treason, and Sansa knows better than to deny it. Instead she tells them that others must have lied to her father, and that he only claimed Joffrey was not the king because of the pain from his broken leg and the effects of the [milk of the poppy](wiki:Milk_of_the_poppy). Joffrey calls for his mother, who states that if Lord Eddard confesses his crime, then they will know he has repented. Sansa prays that her Joffrey be as kind and noble as she believes he is. Joffrey agrees that if Eddard admits his guilt and swears fealty he will be granted mercy. Sansa assures them that he will.

@@ -1,0 +1,30 @@
+---
+name: "A Storm of Swords-Chapter 21"
+type: meta.chapter
+slug: a-storm-of-swords-chapter-21
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Storm_of_Swords-Chapter_21"
+bucket_id: meta-chapters-asos
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+book: a-storm-of-swords
+chapter_number: 21
+pov_character: jaime-lannister
+---
+
+## Identity
+
+A Storm of Swords-Chapter 21 is a meta.chapter from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+[Brienne](wiki:Brienne_of_Tarth), [Cleos](wiki:Cleos_Frey), and [Jaime](wiki:Jaime_Lannister) are still travelling to [King's Landing](wiki:King's_Landing). They visit [Maidenpool](wiki:Maidenpool), but finding the town deserted, continue on toward [Duskendale](wiki:Duskendale). Jaime has no success in provoking Brienne into a fight. He misses [his twin](wiki:Cersei_Lannister) and thinks back about their childhood. Even as children they were close and they slept together. Once [their mother](wiki:Joanna_Lannister) caught them. She was shocked and moved Jaime's bedchamber far away from Cersei's. Jaime muses that he should marry his sister as the [Targaryens](wiki:House_Targaryen) did.
+
+Suddenly they are attacked by archers. Jaime and Brienne charge at them and the archers run away in the forest. They go back to find that ser Cleos is dead. His horse threw him off but as his feet was stuck in the stirrups he was dragged with his head bouncing against the ground. Jaime takes Cleos's sword and attacks Brienne. Although he is still chained he is confident that he can beat her. They fight for a long time. Jaime is amazed at her skill with the sword and realizes that she is stronger than him. Finally Brienne beats him.
+
+When they look up a number of men surround them. Jaime recognizes them as the [Brave Companions](wiki:Brave_Companions). They quickly inform him that they have gone over to the [Starks](wiki:House_Stark). Jaime and Brienne are severely beaten and taken prisoner. Jaime warns Brienne that she will be raped and advises her not to resist, as this will make it worse. He tries to save her by telling the Brave Companions that [Tarth](wiki:Tarth) is called the Sapphire Isle and that Brienne will be worth a high ransom. He tries to persuade the leader of the Brave Companions, [Vargo Hoat](wiki:Vargo_Hoat) in releasing them for a high ransom. Vargo Hoat replies that he will give [Jaime's father](wiki:Tywin_Lannister) a message. His men grab Jaime and hold him down. [Zollo](wiki:Zollo) raises his sword and brings it down as Jaime screams.

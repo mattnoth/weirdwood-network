@@ -22,7 +22,7 @@ King Harren Hoare had just completed Harrenhal, the largest castle in Westeros, 
 ## Edges
 
 - PART_OF: Aegon's Conquest (track_b: Conflict)
-- LOCATED_IN: Harrenhal (wiki:Burning_of_Harrenhal)
+- LOCATED_AT: Harrenhal (wiki:Burning_of_Harrenhal)
 - KILLS: Harren Hoare (wiki:Burning_of_Harrenhal)
 
 ## Notes

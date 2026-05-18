@@ -1,0 +1,2 @@
+{"decision": "emit_edge", "candidate_kind": "source_target", "source_slug": "armond-caswell", "target_slug": "house-targaryen", "edge_type": "FOUGHT_FOR", "confidence": "tier-1", "reasoning": "Explicit: 'Armond fought for the Targaryens during the First Blackfyre Rebellion' — direct statement of fighting for House Targaryen", "source_section": "## Origins"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "armond-caswell", "target_slug": "first-blackfyre-rebellion", "reasoning": "Event Armond fought in; event mention"}

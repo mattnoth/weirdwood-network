@@ -1,0 +1,30 @@
+{
+  "batch_id": "batch-0059",
+  "worker_id": "worker-2026-05-18-140523000000",
+  "started_at": "2026-05-18T14:05:23.000000Z",
+  "completed_at": "2026-05-18T14:18:00.000000Z",
+  "files_processed": [
+    "working/wiki/pass2-buckets/characters-house-lothston/prose-edge-candidates/lucas-lothston-father-of-manfryd.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-lothston/prose-edge-candidates/lucas-lothston-husband-of-falena.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-lothston/prose-edge-candidates/manfred-lothston.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-lothston/prose-edge-candidates/manfryd-lothston.candidates.jsonl",
+    "working/wiki/pass2-buckets/characters-house-lychester/prose-edge-candidates/jon-lychester.candidates.jsonl"
+  ],
+  "decision_totals": {
+    "emit_edge": 12,
+    "reject_just_mention": 22,
+    "escalate_cross_identity": 1,
+    "escalate_disambiguation": 0
+  },
+  "edge_types_emitted": {
+    "SERVES": 4,
+    "FIGHTS_IN": 2,
+    "BETRAYS": 1,
+    "SUCCEEDS": 1,
+    "RULES": 1,
+    "OPPOSES": 1,
+    "ALLIES_WITH": 2
+  },
+  "vocab_gap_questions_filed": 0,
+  "errors": []
+}

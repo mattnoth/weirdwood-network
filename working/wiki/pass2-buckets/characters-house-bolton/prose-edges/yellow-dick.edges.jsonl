@@ -1,0 +1,26 @@
+{"decision": "reject_just_mention", "source_slug": "yellow-dick", "target_slug": "arnolf-karstark", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "yellow-dick", "target_slug": "arya-stark", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "yellow-dick", "target_slug": "bastards-boys", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "yellow-dick", "target_slug": "currency", "reject_reason": "generic-noun-target"}
+{"decision": "emit_edge", "source_slug": "yellow-dick", "target_slug": "dreadfort", "edge_type": "LOCATED_AT", "confidence_tier": 1, "cite_ref": "", "note": "Yellow Dick is present in the great hall of the Dreadfort"}
+{"decision": "reject_just_mention", "source_slug": "yellow-dick", "target_slug": "holly", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "yellow-dick", "target_slug": "hother-umber", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "yellow-dick", "target_slug": "house-manderly", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "yellow-dick", "target_slug": "jeyne-poole", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "yellow-dick", "target_slug": "knight", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "yellow-dick", "target_slug": "mance-rayder", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "yellow-dick", "target_slug": "ramsay-snow", "edge_type": "SERVES", "confidence_tier": 1, "cite_ref": "", "note": "Yellow Dick is one of Ramsay Bolton's Bastard's Boys"}
+{"decision": "reject_just_mention", "source_slug": "yellow-dick", "target_slug": "roose-bolton", "reject_reason": "just-mention"}
+{"decision": "emit_edge", "source_slug": "yellow-dick", "target_slug": "rowan", "edge_type": "KILLED_BY", "confidence_tier": 2, "cite_ref": "", "note": "Yellow Dick is killed by spearwives (Holly and Rowan) at Winterfell; Rowan is named in Theon's POV"}
+{"decision": "emit_edge", "source_slug": "yellow-dick", "target_slug": "siege-of-moat-cailin", "edge_type": "FIGHTS_IN", "confidence_tier": 1, "cite_ref": "", "note": "The Bastard's Boys accompany Ramsay and Theon to the siege of Moat Cailin"}
+{"decision": "reject_just_mention", "source_slug": "yellow-dick", "target_slug": "spearwife", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "yellow-dick", "target_slug": "squire", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "yellow-dick", "target_slug": "stannis-baratheon", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "yellow-dick", "target_slug": "the-dornishmans-wife", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "yellow-dick", "target_slug": "theon-greyjoy", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "yellow-dick", "target_slug": "walder-frey-son-of-jammos", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "yellow-dick", "target_slug": "walder-frey-son-of-merrett", "reject_reason": "just-mention"}
+{"decision": "reject_just_mention", "source_slug": "yellow-dick", "target_slug": "wine", "reject_reason": "generic-noun-target"}
+{"decision": "reject_just_mention", "source_slug": "yellow-dick", "target_slug": "ramsay-snow", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "yellow-dick", "target_slug": "rowan", "reject_reason": "duplicate-pair-already-emitted"}
+{"decision": "reject_just_mention", "source_slug": "yellow-dick", "target_slug": "theon-greyjoy", "reject_reason": "just-mention"}

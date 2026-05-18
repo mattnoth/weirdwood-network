@@ -1,0 +1,34 @@
+---
+name: "A Dance with Dragons-Chapter 54"
+type: meta.chapter
+slug: a-dance-with-dragons-chapter-54
+aliases: []
+confidence: tier-1
+wiki_source: "https://awoiaf.westeros.org/index.php/A_Dance_with_Dragons-Chapter_54"
+bucket_id: meta-chapters-adwd
+prompt_version: v1-python
+node_version: 1
+pass_origin: pass2-wiki-deterministic
+book: a-dance-with-dragons
+chapter_number: 54
+pov_character: cersei-lannister
+---
+
+## Identity
+
+A Dance with Dragons-Chapter 54 is a meta.chapter from the AWOIAF wiki.
+
+## Edges
+
+
+## Narrative Arc
+
+[Cersei](wiki:Cersei_Lannister) is still a prisoner of [the Faith](wiki:The_Faith). She wonders when [Jaime](wiki:Jaime_Lannister) will be coming for her, in addition to wondering what has happened to [Loras Tyrell](wiki:Loras_Tyrell) as last she heard, he lay dying from his wounds on [Dragonstone](wiki:Dragonstone). She only ever sees three people which are her gaolers [Septa Unella](wiki:Unella), [Septa Moelle](wiki:Moelle), and [Septa Scolera](wiki:Scolera). Her last visitor was [Qyburn](wiki:Qyburn). She hates all three of them as much as those she assumes have betrayed her, blaming [Osney Kettleblack](wiki:Osney_Kettleblack), [Orton Merryweather](wiki:Orton_Merryweather), [Harys Swyft](wiki:Harys_Swyft), [Aurane Waters](wiki:Aurane_Waters) and [Grand Maester Pycelle](wiki:Grand_Maester_Pycelle). She questions whether she should include Jaime in that group but will not believe it. He would not abandon her, she assumes.
+
+She feels helpless and hates that emotion, and she prays endlessly to the [Seven Gods](wiki:Faith_of_the_Seven), since that is what they want, but it helps not. At first she fights with her guards but they are much stronger than she thought, they keep her up endlessly, never letting her sleep. Exhausted, she comes to know that she must confess. She asks to be taken to the [High Septon](wiki:High_Septon) to confess, where she admits to extra-marital affairs. She says she has slept with [Lancel](wiki:Lancel_Lannister) and the [Kettleblack brothers](wiki:House_Kettleblack). She insists she did these things because she was afraid for her children and these were her only means to secure the trust of these men.
+
+The [High Sparrow](wiki:High_Sparrow) still means to accuse her of high treason, incest, regicide, and deicide, all crimes that Osney Kettleblack admitted Cersei had a part in under torture. She manages to talk her way out of the charges of murdering the previous High Septon and [Robert](wiki:Robert_Baratheon) and bearing false witness against the Tyrell girls, and avoids the charges of incest by saying that these are lies that Stannis has made up in order to gain the [Iron Throne](wiki:Iron_Throne), which satisfies the High Septon, since the Faith is eager to condemn Stannis' 'worship of a [red demon](wiki:R'hllor)'. To get the real truth, though, the High Septon means to have her tried by the Faith or a [trial by combat](wiki:Trial_by_combat), where Cersei would be represented by a knight of the [Kingsguard](wiki:Kingsguard). He is unsure of all the crimes she has committed so the only way to pick the truth from the false is to let the gods decide.
+
+She is allowed a visit by her uncle [Kevan](wiki:Kevan_Lannister) who, though angry with her for corrupting Lancel, answers her questions. He tells her that Jaime is missing after his return from [Raventree Hall](wiki:Raventree_Hall), having disappeared with an unknown woman, though they assume it is [Brienne](wiki:Brienne_of_Tarth). There is word of sellswords appearing all over the south. They do not have the strength to deal with them, though [Mace Tyrell](wiki:Mace_Tyrell) does. However, he is unwilling to do so until the matter with his daughter [Margaery Tyrell](wiki:Margaery_Tyrell) is settled. Mace Tyrell is now the [Hand](wiki:Hand_of_the_King), [Paxter Redwyne](wiki:Paxter_Redwyne) is the king's admiral, and [Randyll Tarly](wiki:Randyll_Tarly) is the justiciar. The Tyrells brought up an army when their daughters were seized, although the High Septon has admitted the case against them is weak.
+
+Kevan brings worse news for Cersei. He relays [Balon Swann](wiki:Balon_Swann)'s news of [Myrcella](wiki:Myrcella_Baratheon)'s loss of an ear, and [Arys Oakheart](wiki:Arys_Oakheart)'s death. Though Cersei is insistent that Myrcella's mutilation is [Tyrion](wiki:Tyrion_Lannister)'s doing, she sees a chance in the open position in the Kingsguard, and asks Kevan to approach Qyburn for a replacement.
