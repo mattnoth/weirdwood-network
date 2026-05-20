@@ -414,6 +414,15 @@ def main() -> None:
 
             # -- Survivor: build output row --
             count_survivors += 1
+            anchor = row.get("anchor_text", "")
+            raw_snippet = row.get("snippet")
+            # Substitute [LINK] placeholder with the actual anchor text, wrapped in
+            # angle-quote markers «»  (same convention as stage4-resolve-link-placeholders.py).
+            # This eliminates a mental-substitution step for the prose-edge-classifier.
+            if raw_snippet and "[LINK]" in raw_snippet and anchor:
+                resolved_snippet = raw_snippet.replace("[LINK]", f"«{anchor}»", 1)
+            else:
+                resolved_snippet = raw_snippet
             candidate = {
                 "candidate_kind": "source_target",
                 "source_slug": source_slug,
@@ -421,8 +430,8 @@ def main() -> None:
                 "source_section": row.get("source_section"),
                 "target_slug": resolved_target,
                 "target_page": row.get("target_page", ""),
-                "anchor_text": row.get("anchor_text", ""),
-                "snippet": row.get("snippet"),
+                "anchor_text": anchor,
+                "snippet": resolved_snippet,
                 "backlink_count": target_bl,
             }
             survivors_by_source[source_slug].append(candidate)
