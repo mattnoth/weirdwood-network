@@ -1,0 +1,18 @@
+{
+  "recorded_at": "2026-05-20T14:35:16.766644+00:00",
+  "dry_run": false,
+  "haiku_model": "claude-haiku-4-5",
+  "haiku_prompts": {
+    "classifier_manual": ".claude/agents/prose-edge-classifier.md",
+    "classifier_manual_git_hash": "b829effe4f41bf5cf69a5813b0bbc9b6007215ea",
+    "classify_command": ".claude/commands/stage4-haiku-classify.md",
+    "classify_command_git_hash": "untracked"
+  },
+  "sonnet_control_prompts": {
+    "classifier_manual": ".claude/agents/prose-edge-classifier.md",
+    "classifier_manual_git_hash": "6f37b940c2e3fb57aadc491b2e43504ff8b93077",
+    "worker_command": ".claude/commands/worker-stage4.md",
+    "worker_command_git_hash": "none",
+    "note": "Versions in effect at the start of the 2026-05-14 Sonnet run (last commit before 2026-05-14 per git log --before=2026-05-14)"
+  }
+}
