@@ -1,0 +1,10 @@
+[2026-05-20 02:53:47 CDT] ─────────────────────────────────────────────────────────────
+[2026-05-20 02:53:47 CDT]   stage4-haiku-run-forever (outer resilience wrapper)
+[2026-05-20 02:53:47 CDT]   Start batch:       batch-0001
+[2026-05-20 02:53:47 CDT]   Relaunch sleep:    600s (10min) after crashes
+[2026-05-20 02:53:47 CDT]   Stop file:         /tmp/stage4-haiku-stop
+[2026-05-20 02:53:47 CDT]   Wrapper log:       working/missions/2026-05-19-stage4-haiku/loop-logs/run-forever-20260520T075347Z.log
+[2026-05-20 02:53:47 CDT] ─────────────────────────────────────────────────────────────
+[2026-05-20 02:53:47 CDT] Launching inner loop (attempt 1) from batch-0001...
+[2026-05-20 09:49:21 CDT] Inner loop exited cleanly (all batches done or stop-file).
+[2026-05-20 09:49:21 CDT] stage4-haiku-run-forever complete at 2026-05-20 09:49:21 CDT.

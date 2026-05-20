@@ -1,0 +1,3 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "merlon-crakehall", "target_slug": "dorne", "reason": "target-is-region-not-character-or-event"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "merlon-crakehall", "target_slug": "kings-landing", "edge_type": "LOCATED_AT", "evidence_snippet": "Ser Merlon is among the gathered nobility that welcomes the Dornish party to King's Landing", "evidence_section": "## Narrative Arc / ### A Storm of Swords", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "merlon-crakehall", "target_slug": "oberyn-martell", "reason": "incidental-co-presence-in-courtesy-greeting"}

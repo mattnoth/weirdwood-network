@@ -1,0 +1,6 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walter-brownhill", "target_slug": "aegon-iii-targaryen", "reason": "relationship-described-is-cassandras-crime-not-walters"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "walter-brownhill", "target_slug": "cape-wrath", "edge_type": "RULES", "evidence_snippet": "Ser Walter ruled a few hides of land on Cape Wrath", "evidence_section": "## Origins", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walter-brownhill", "target_slug": "daenaera-velaryon", "reason": "relationship-described-is-cassandras-crime-not-walters"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walter-brownhill", "target_slug": "elenda-baratheon", "reason": "relationship-described-is-elendas-thoughts-not-walters"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walter-brownhill", "target_slug": "lorent-grandison", "reason": "relationship-described-is-arrangement-not-direct-interaction"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walter-brownhill", "target_slug": "poison", "reason": "method-mentioned-for-context-not-relational"}

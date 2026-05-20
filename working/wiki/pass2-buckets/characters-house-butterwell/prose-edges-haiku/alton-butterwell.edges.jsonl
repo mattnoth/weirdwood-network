@@ -1,0 +1,6 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "alton-butterwell", "target_slug": "alys-harroway", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "alton-butterwell", "target_slug": "darnold-darry", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "alton-butterwell", "target_slug": "harrenhal", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "alton-butterwell", "target_slug": "house-harroway", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "alton-butterwell", "target_slug": "house-towers-of-harrenhal", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "alton-butterwell", "target_slug": "tyanna-of-the-tower", "reason": "temporal-cooccurrence-not-relational"}

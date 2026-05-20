@@ -1,0 +1,9 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "kerwin", "target_slug": "victarion-greyjoy", "reason": "reverse-direction-edge-belongs-on-perceiver-node"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "kerwin", "target_slug": "euron-greyjoy", "reason": "reverse-direction-edge-belongs-on-commander-node"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "kerwin", "target_slug": "iron-fleet", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "kerwin", "target_slug": "moqorro", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "kerwin", "target_slug": "poison", "reason": "type-contract-violation"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "kerwin", "target_slug": "slavers-bay", "edge_type": "TRAVELS_TO", "evidence_snippet": "During the Iron Fleet's voyage to Slaver's Bay, Kerwin is raped by four sailors", "evidence_section": "## Narrative Arc / ### A Dance with Dragons", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "kerwin", "target_slug": "taking-of-the-shields", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "kerwin", "target_slug": "thrall", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "kerwin", "target_slug": "victarion-greyjoy", "edge_type": "SERVES", "evidence_snippet": "Kerwin is forced to serve Victarion Greyjoy by his brother, King Euron Greyjoy", "evidence_section": "## Narrative Arc / ### A Dance with Dragons", "confidence_tier": 1}

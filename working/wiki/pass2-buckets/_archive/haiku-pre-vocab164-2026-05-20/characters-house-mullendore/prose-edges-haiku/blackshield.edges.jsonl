@@ -1,0 +1,4 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "blackshield", "target_slug": "barristan-selmy", "reason": "defeated-edge-belongs-on-victor-node"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "blackshield", "target_slug": "bastard", "reason": "concept-category-not-relational-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "blackshield", "target_slug": "kingsguard", "reason": "third-party-organization-context-not-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "blackshield", "target_slug": "oldtown", "reason": "location-of-event-not-primary-edge"}

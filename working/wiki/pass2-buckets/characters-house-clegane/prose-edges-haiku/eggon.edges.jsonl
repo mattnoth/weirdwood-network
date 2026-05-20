@@ -1,0 +1,2 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "eggon", "target_slug": "chiswyck", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "eggon", "target_slug": "layna", "edge_type": "ASSAULTS", "evidence_snippet": "it was Eggon who started it all by attacking the girl first", "evidence_section": "## Narrative Arc / ### A Clash of Kings", "evidence_paragraph_index": 0, "confidence_tier": 1}

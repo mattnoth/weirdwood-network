@@ -1,0 +1,13 @@
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "bethany-blackwood", "target_slug": "hoster-blackwood", "edge_type": "SIBLING_OF", "qualifier": "full", "evidence_snippet": "both Edmund and Bethany eventually remain at their father's castle, as one of their other brothers, [Hoster], is taken as a hostage instead", "evidence_section": "## Narrative Arc / ### A Dance with Dragons", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "bethany-blackwood", "target_slug": "cersei-lannister", "reason": "mentioned-in-context-no-direct-relationship"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "bethany-blackwood", "target_slug": "jaime-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "bethany-blackwood", "target_slug": "jonos-bracken", "reason": "mentioned-as-subject-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "bethany-blackwood", "target_slug": "kings-landing", "reason": "location-setting-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "bethany-blackwood", "target_slug": "lord-of-the-stone-hedge", "reason": "title-reference-to-other-character"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "bethany-blackwood", "target_slug": "siege-of-raventree", "reason": "event-context-mention-not-participation"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "bethany-blackwood", "target_slug": "tommen-baratheon", "reason": "hypothetical-suggestion-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "bethany-blackwood", "target_slug": "jaime-lannister", "reason": "quote-context-co-mention"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "bethany-blackwood", "target_slug": "jaime-lannister", "reason": "quote-context-co-mention"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "bethany-blackwood", "target_slug": "jonos-bracken", "reason": "quote-context-co-mention"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "bethany-blackwood", "target_slug": "kings-landing", "reason": "location-setting-in-dialogue"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "bethany-blackwood", "target_slug": "tommen-baratheon", "reason": "hypothetical-suggestion-in-dialogue"}

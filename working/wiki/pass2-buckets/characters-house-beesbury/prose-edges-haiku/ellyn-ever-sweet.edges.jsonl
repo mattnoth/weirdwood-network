@@ -1,0 +1,3 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ellyn-ever-sweet", "target_slug": "bee", "reason": "target-node-does-not-exist"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ellyn-ever-sweet", "target_slug": "honey", "reason": "target-node-does-not-exist"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ellyn-ever-sweet", "target_slug": "king-of-the-bees", "reason": "target-node-does-not-exist"}

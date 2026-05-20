@@ -1,0 +1,4 @@
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "hugh-beesbury", "target_slug": "brienne-tarth", "edge_type": "ASSAULTS", "evidence_snippet": "Ser Hugh participated in the wager to take Brienne of Tarth's maidenhead beneath the walls of Highgarden", "evidence_section": "## Origins", "evidence_paragraph_index": 0, "confidence_tier": 2}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "hugh-beesbury", "target_slug": "highgarden", "reason": "location-context-not-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "hugh-beesbury", "target_slug": "randyll-tarly", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "hugh-beesbury", "target_slug": "tarth", "reason": "just-mention"}

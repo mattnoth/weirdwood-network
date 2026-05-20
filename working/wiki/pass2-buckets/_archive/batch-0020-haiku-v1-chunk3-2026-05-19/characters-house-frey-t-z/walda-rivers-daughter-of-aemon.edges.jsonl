@@ -1,0 +1,8 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walda-rivers-daughter-of-aemon", "target_slug": "edmure-tully", "reason": "mention-in-wedding-narrative"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walda-rivers-daughter-of-aemon", "target_slug": "jeyne-westerling", "reason": "mention-in-narrative-context"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "walda-rivers-daughter-of-aemon", "target_slug": "red-wedding", "edge_type": "ATTENDS", "evidence_snippet": "Walda sneaks in among the trueborn children and curtsies when Walder asks her name", "evidence_section": "## Narrative Arc / ### A Storm of Swords", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walda-rivers-daughter-of-aemon", "target_slug": "robb-stark", "reason": "mention-in-scene-context"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walda-rivers-daughter-of-aemon", "target_slug": "roslin-frey", "reason": "mention-in-wedding-narrative"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walda-rivers-daughter-of-aemon", "target_slug": "twins", "reason": "temporary-scene-presence-not-residence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walda-rivers-daughter-of-aemon", "target_slug": "walder-frey", "reason": "mention-in-narrative-context"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walda-rivers-daughter-of-aemon", "target_slug": "walder-frey", "reason": "dialogue-attribution-only"}

@@ -1,0 +1,3 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "melantha-blackwood", "target_slug": "lord-of-winterfell", "reason": "title-held-by-spouse-not-by-target"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "melantha-blackwood", "target_slug": "lyanne-glover", "reason": "previous-spouse-mentioned-contextually"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "melantha-blackwood", "target_slug": "warden-of-the-north", "reason": "title-held-by-spouse-not-by-target"}

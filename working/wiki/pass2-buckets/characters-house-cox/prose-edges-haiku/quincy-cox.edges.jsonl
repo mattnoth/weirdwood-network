@@ -1,0 +1,11 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "quincy-cox", "target_slug": "biter", "reason": "attacker-of-victim-not-subject-of-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "quincy-cox", "target_slug": "brave-companions", "reason": "attackers-in-incident-not-subject-of-direct-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "quincy-cox", "target_slug": "raid-on-saltpans", "reason": "inaction-during-event-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "quincy-cox", "target_slug": "rorge", "reason": "co-mention-in-incident-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "quincy-cox", "target_slug": "saltpans", "edge_type": "RULES", "evidence_snippet": "When [LINK] is raided by a group reportedly led by [Sandor Clegane](wiki:Sandor_Clegane), Ser Quincy orders his castle gates shut.", "evidence_section": "## Narrative Arc / ### A Feast for Crows", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "quincy-cox", "target_slug": "sandor-clegane", "reason": "false-attribution-no-actual-relationship"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "quincy-cox", "target_slug": "brienne-tarth", "reason": "quote-attribution-not-graph-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "quincy-cox", "target_slug": "elder-brother-quiet-isle", "reason": "quote-attribution-not-graph-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "quincy-cox", "target_slug": "meribald", "reason": "quote-attribution-not-graph-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "quincy-cox", "target_slug": "saltpans", "reason": "temporal-reference-in-quote-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "quincy-cox", "target_slug": "true-knight", "reason": "concept-used-rhetorically-not-edge"}

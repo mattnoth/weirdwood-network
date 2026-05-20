@@ -1,0 +1,7 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "barba-bolton", "target_slug": "aegon-iii-targaryen", "reason": "co-mention-in-event-context"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "barba-bolton", "target_slug": "herald", "reason": "functional-role-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "barba-bolton", "target_slug": "kings-landing", "reason": "location-context-edge-belongs-on-event"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "barba-bolton", "target_slug": "maidens-day-ball", "edge_type": "ATTENDS", "evidence_snippet": "In 133 AC, the Maiden's Day Ball was held at the Red Keep... Barba was one of these maidens", "evidence_section": "## Origins", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "barba-bolton", "target_slug": "north", "reason": "contextual-reference-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "barba-bolton", "target_slug": "red-keep", "reason": "event-location-not-barba-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "barba-bolton", "target_slug": "westeros", "reason": "geographic-context"}

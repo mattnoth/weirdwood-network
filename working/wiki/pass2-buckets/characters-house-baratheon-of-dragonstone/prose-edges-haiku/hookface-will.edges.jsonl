@@ -1,0 +1,2 @@
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "hookface-will", "target_slug": "davos-seaworth", "edge_type": "KNOWS", "evidence_snippet": "he asks for Hookface Will, who knew him", "evidence_section": "## Narrative Arc / ### A Storm of Swords", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "hookface-will", "target_slug": "dragonstone", "reason": "location-mentioned-as-setting-not-character-location"}

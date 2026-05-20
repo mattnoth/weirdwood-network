@@ -1,0 +1,2 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "calla-blackfyre", "target_slug": "first-blackfyre-rebellion", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "calla-blackfyre", "target_slug": "marriage", "reason": "target-is-generic-concept-not-entity"}

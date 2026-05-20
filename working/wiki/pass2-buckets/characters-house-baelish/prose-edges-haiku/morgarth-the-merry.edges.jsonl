@@ -1,0 +1,5 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "morgarth-the-merry", "target_slug": "byron-the-beautiful", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "morgarth-the-merry", "target_slug": "gates-of-the-moon", "reason": "target-node-missing"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "morgarth-the-merry", "target_slug": "petyr-baelish", "edge_type": "SERVES", "evidence_snippet": "Ser Morgarth enters the service of Lord Petyr Baelish", "evidence_section": "## Narrative Arc / ### A Feast for Crows", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "morgarth-the-merry", "target_slug": "sansa-stark", "reason": "appearance-comment-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "morgarth-the-merry", "target_slug": "shadrich", "reason": "temporal-cooccurrence-not-relational"}

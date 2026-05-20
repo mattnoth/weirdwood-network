@@ -1,0 +1,22 @@
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "clarence-crabb", "target_slug": "aurochs", "edge_type": "OWNS", "evidence_snippet": "He was so heavy that only an aurochs could carry him.", "evidence_section": "## Appearances & Description", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "clarence-crabb", "target_slug": "biter", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "clarence-crabb", "target_slug": "brienne-tarth", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "clarence-crabb", "target_slug": "brotherhood-without-banners", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "clarence-crabb", "target_slug": "dick-crabb", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "clarence-crabb", "target_slug": "galladon-of-morne", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "clarence-crabb", "target_slug": "oathkeeper", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "clarence-crabb", "target_slug": "rorge", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "clarence-crabb", "target_slug": "whispers", "reason": "dream-context-not-literal-event"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "clarence-crabb", "target_slug": "duskendale", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "clarence-crabb", "target_slug": "knight", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "clarence-crabb", "target_slug": "lord", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "clarence-crabb", "target_slug": "magic", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "clarence-crabb", "target_slug": "whispers", "edge_type": "RULES", "evidence_snippet": "Ser Clarence's seat was called the Whispers, so named due to the disembodied heads that he would collect and bring home to his wife.", "evidence_section": "## Origins", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "clarence-crabb", "target_slug": "aurochs", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "clarence-crabb", "target_slug": "brienne-tarth", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "clarence-crabb", "target_slug": "brienne-tarth", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "clarence-crabb", "target_slug": "dick-crabb", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "clarence-crabb", "target_slug": "dick-crabb", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "clarence-crabb", "target_slug": "dragon", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "clarence-crabb", "target_slug": "just-maid", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "clarence-crabb", "target_slug": "whispers", "edge_type": "RULES", "evidence_snippet": "If they'd ever have met, there'd be one more bloody head sitting on the shelf at the Whispers, you ask me.", "evidence_section": "## Quotes", "confidence_tier": 1}

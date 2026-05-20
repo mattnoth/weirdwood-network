@@ -1,0 +1,4 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "gawen-corbray", "target_slug": "knight", "reason": "generic-category-not-specific-entity"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "gawen-corbray", "target_slug": "seven-kingdoms", "reason": "geographic-context-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "gawen-corbray", "target_slug": "maegor-i-targaryen", "edge_type": "TUTORS", "evidence_snippet": "Ser Gawen was chosen by Queen Visenya Targaryen as the first master-at-arms for her son, Prince Maegor Targaryen", "evidence_section": "## Origins", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "gawen-corbray", "target_slug": "visenya-targaryen", "reason": "supporting-character-context"}

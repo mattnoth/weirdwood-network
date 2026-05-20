@@ -1,0 +1,3 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "robin-darklyn", "target_slug": "aegon-i-targaryen", "reason": "no-direct-relationship-target-is-founder-background"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "robin-darklyn", "target_slug": "knight", "reason": "no-node-exists-for-target"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "robin-darklyn", "target_slug": "visenya-targaryen", "edge_type": "KNIGHTED_BY", "evidence_snippet": "Robin was chosen by Queen Visenya Targaryen to be one of the first knights of the Kingsguard", "evidence_section": "## Origins", "evidence_paragraph_index": 0, "confidence_tier": 1}

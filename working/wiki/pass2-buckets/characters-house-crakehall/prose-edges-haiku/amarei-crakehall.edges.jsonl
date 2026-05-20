@@ -1,0 +1,11 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "amarei-crakehall", "target_slug": "298-ac", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "amarei-crakehall", "target_slug": "catelyn-stark", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "amarei-crakehall", "target_slug": "kings-landing", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "amarei-crakehall", "target_slug": "tourney", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "amarei-crakehall", "target_slug": "edmure-tully", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "amarei-crakehall", "target_slug": "roslin-frey", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "amarei-crakehall", "target_slug": "crakehall", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "amarei-crakehall", "target_slug": "cyrenna-swann", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "amarei-crakehall", "target_slug": "squire", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "amarei-crakehall", "target_slug": "sumner-crakehall", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "amarei-crakehall", "target_slug": "catelyn-stark", "reason": "temporal-cooccurrence-not-relational"}

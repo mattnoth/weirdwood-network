@@ -1,0 +1,5 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-borrell-father-of-godric", "target_slug": "aerys-ii-targaryen", "reason": "no-whitelisted-knowledge-verb"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "lord-borrell-father-of-godric", "target_slug": "eddard-stark", "edge_type": "ENCOUNTERS", "evidence_snippet": "Lord Eddard Stark washed up on Sweetsister while trying to sail to the north to raise his banners", "evidence_section": "## Origins", "confidence_tier": 2}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-borrell-father-of-godric", "target_slug": "north", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-borrell-father-of-godric", "target_slug": "roberts-rebellion", "reason": "type-contract-violation"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-borrell-father-of-godric", "target_slug": "sweetsister", "reason": "temporal-cooccurrence-not-relational"}

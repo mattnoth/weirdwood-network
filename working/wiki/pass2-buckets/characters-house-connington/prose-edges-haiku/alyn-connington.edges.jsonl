@@ -1,0 +1,3 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "alyn-connington", "target_slug": "loras-tyrell", "reason": "no-direct-relationship-between-source-and-target"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "alyn-connington", "target_slug": "jaime-lannister", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "alyn-connington", "target_slug": "white-sword-tower", "edge_type": "LOCATED_AT", "evidence_snippet": "the seat of the Lord Commander of the Kingsguard in the Round Room", "evidence_section": "## Narrative Arc / ### A Storm of Swords", "evidence_paragraph_index": 0, "confidence_tier": 2}

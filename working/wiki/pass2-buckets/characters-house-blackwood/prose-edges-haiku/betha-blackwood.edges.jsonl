@@ -1,0 +1,6 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "betha-blackwood", "target_slug": "black-betha", "reason": "reverse-direction-edge-belongs-on-other-node"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "betha-blackwood", "target_slug": "davos-seaworth", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "betha-blackwood", "target_slug": "iron-throne", "reason": "entity-mentioned-in-context-not-subject"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "betha-blackwood", "target_slug": "raventree-hall", "edge_type": "BORN_AT", "evidence_snippet": "The daughter of Lord Blackwood of Raventree Hall, Betha married Prince Aegon Targaryen", "evidence_section": "## Origins", "evidence_paragraph_index": 0, "confidence_tier": 2}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "betha-blackwood", "target_slug": "tragedy-at-summerhall", "reason": "attendance-unknown"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "betha-blackwood", "target_slug": "barristan-selmy", "reason": "quote-attribution-not-edge"}

@@ -1,0 +1,6 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jez-serving-girl", "target_slug": "jeyne-poole", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jez-serving-girl", "target_slug": "maisie", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jez-serving-girl", "target_slug": "mance-rayder", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jez-serving-girl", "target_slug": "ramsay-snow", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jez-serving-girl", "target_slug": "spearwife", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jez-serving-girl", "target_slug": "theon-greyjoy", "reason": "temporal-cooccurrence-not-relational"}

@@ -1,0 +1,29 @@
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "balman-byrch", "target_slug": "cersei-lannister", "edge_type": "PERCEIVED_AS", "evidence_snippet": "Queen Cersei Lannister thinks that Balman is a fool.", "evidence_section": "## Appearances & Description", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "balman-byrch", "target_slug": "hippocras", "reason": "target-is-concept-not-entity"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "balman-byrch", "target_slug": "bastard", "reason": "target-is-concept-not-entity"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "balman-byrch", "target_slug": "bronn", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "balman-byrch", "target_slug": "cersei-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "balman-byrch", "target_slug": "frenken", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "balman-byrch", "target_slug": "gyles-rosby", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "balman-byrch", "target_slug": "kings-landing", "edge_type": "LOCATED_AT", "evidence_snippet": "Ser Balman and his wife, Falyse Stokeworth, attend the funeral of Lord Tywin Lannister in King's Landing", "evidence_section": "## Narrative Arc / ### A Feast for Crows", "confidence_tier": 2}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "balman-byrch", "target_slug": "lollys-stokeworth", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "balman-byrch", "target_slug": "qyburn", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "balman-byrch", "target_slug": "rosby", "reason": "no-relational-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "balman-byrch", "target_slug": "sellsword", "reason": "target-is-concept-not-entity"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "balman-byrch", "target_slug": "sparrows", "reason": "target-is-concept-not-entity"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "balman-byrch", "target_slug": "tanda-stokeworth", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "balman-byrch", "target_slug": "tommen-baratheon", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "balman-byrch", "target_slug": "tyrion-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "balman-byrch", "target_slug": "tyrion-tanner", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "balman-byrch", "target_slug": "tywin-lannister", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "balman-byrch", "target_slug": "ward-of-gyles-rosby", "reason": "target-is-concept-not-entity"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "balman-byrch", "target_slug": "duskendale", "edge_type": "LOCATED_AT", "evidence_snippet": "He jousted in a tourney at Duskendale in 294 AC", "evidence_section": "## Origins", "confidence_tier": 2}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "balman-byrch", "target_slug": "greyjoys-rebellion", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "balman-byrch", "target_slug": "knight", "reason": "target-is-concept-not-entity"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "balman-byrch", "target_slug": "tourney", "reason": "target-is-concept-not-entity"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "balman-byrch", "target_slug": "tourney-at-lannisport", "edge_type": "FIGHTS_IN", "evidence_snippet": "He jousted in the tourney at Lannisport in 289 AC after Greyjoy's Rebellion", "evidence_section": "## Origins", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "balman-byrch", "target_slug": "cersei-lannister", "reason": "duplicate-source-target-pair"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "balman-byrch", "target_slug": "cersei-lannister", "reason": "quote-context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "balman-byrch", "target_slug": "bronn", "reason": "quote-context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "balman-byrch", "target_slug": "cersei-lannister", "reason": "quote-context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "balman-byrch", "target_slug": "true-knight", "reason": "target-is-concept-not-entity"}

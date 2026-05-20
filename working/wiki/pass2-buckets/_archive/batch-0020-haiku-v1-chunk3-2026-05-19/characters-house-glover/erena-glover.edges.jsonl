@@ -1,0 +1,9 @@
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "erena-glover", "target_slug": "gawen-glover", "edge_type": "SIBLING_OF", "evidence_snippet": "Erena is captured, along with her brother, Gawen", "evidence_section": "## Narrative Arc / ### A Clash of Kings", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "erena-glover", "target_slug": "ironborn", "reason": "reverse-direction-edge-belongs-on-ironborn-node"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "erena-glover", "target_slug": "gwynesse-harlaw", "reason": "mention-as-caretaker-not-traversable-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "erena-glover", "target_slug": "iron-islands", "reason": "location-context-not-character-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "erena-glover", "target_slug": "stony-shore", "reason": "location-context-not-character-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "erena-glover", "target_slug": "ten-towers", "reason": "location-context-not-character-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "erena-glover", "target_slug": "wet-nurse", "reason": "unfulfilled-role-search-not-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "erena-glover", "target_slug": "asha-greyjoy", "reason": "reverse-direction-edge-belongs-on-asha-greyjoy-node"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "erena-glover", "target_slug": "deepwood-motte", "reason": "location-context-not-character-edge"}

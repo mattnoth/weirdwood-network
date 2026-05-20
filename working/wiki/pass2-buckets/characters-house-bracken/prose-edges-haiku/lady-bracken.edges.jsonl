@@ -1,0 +1,3 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lady-bracken", "target_slug": "burning-of-stone-hedge", "reason": "temporal-reference-event-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lady-bracken", "target_slug": "jaime-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lady-bracken", "target_slug": "septon", "reason": "target-node-missing"}

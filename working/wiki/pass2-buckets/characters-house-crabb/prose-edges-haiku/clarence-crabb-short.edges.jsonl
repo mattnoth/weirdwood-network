@@ -1,0 +1,2 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "clarence-crabb-short", "target_slug": "clarence-crabb", "reason": "comparison-naming-not-relational-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "clarence-crabb-short", "target_slug": "dick-crabb", "reason": "temporal-cooccurrence-not-relational"}

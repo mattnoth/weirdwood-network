@@ -1,0 +1,18 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "joffrey-caswell", "target_slug": "gold", "reason": "descriptive-attribute-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "joffrey-caswell", "target_slug": "wine", "reason": "descriptive-preference-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "joffrey-caswell", "target_slug": "duncan-the-tall", "reason": "temporal-cooccurrence-at-location-not-staging-verb"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "joffrey-caswell", "target_slug": "hedge-knight", "reason": "generic-type-reference-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "joffrey-caswell", "target_slug": "horse", "reason": "generic-animal-reference-not-specific-owned-entity"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "joffrey-caswell", "target_slug": "knight", "reason": "generic-type-reference-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "joffrey-caswell", "target_slug": "kyle-the-cat", "reason": "snippet-describes-kyles-service-to-armond-not-joffreys-relationship"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "joffrey-caswell", "target_slug": "pine", "reason": "material-substance-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "joffrey-caswell", "target_slug": "second-blackfyre-rebellion", "reason": "location-mention-not-direct-participation"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "joffrey-caswell", "target_slug": "tourney", "reason": "generic-type-reference-not-specific-event"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "joffrey-caswell", "target_slug": "wedding-tourney-at-whitewalls", "edge_type": "ATTENDS", "evidence_snippet": "Lord Joffrey attended the wedding tourney at Whitewalls in 212 AC", "evidence_section": "## Origins", "evidence_paragraph_index": 1, "confidence_tier": 1}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "joffrey-caswell", "target_slug": "whitewalls", "edge_type": "LOCATED_AT", "evidence_snippet": "Lord Joffrey attended the wedding tourney at Whitewalls in 212 AC", "evidence_section": "## Origins", "evidence_paragraph_index": 1, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "joffrey-caswell", "target_slug": "wine", "reason": "descriptive-event-detail-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "joffrey-caswell", "target_slug": "duncan-the-tall", "reason": "quote-attribution-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "joffrey-caswell", "target_slug": "duncan-the-tall", "reason": "quote-attribution-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "joffrey-caswell", "target_slug": "kyle-the-cat", "reason": "quote-attribution-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "joffrey-caswell", "target_slug": "lady-vyrwel", "reason": "temporal-cooccurrence-at-event-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "joffrey-caswell", "target_slug": "wine", "reason": "quote-context-reference-not-relational"}

@@ -1,0 +1,8 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "merrell-bullock", "target_slug": "dragon-egg", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "merrell-bullock", "target_slug": "dreamfyre", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "merrell-bullock", "target_slug": "elissa-farman", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "merrell-bullock", "target_slug": "elyas-scales", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "merrell-bullock", "target_slug": "kingsguard", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "merrell-bullock", "target_slug": "knight", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "merrell-bullock", "target_slug": "master-at-arms", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "merrell-bullock", "target_slug": "rhaena-targaryen-daughter-of-aenys-i", "reason": "temporal-cooccurrence-not-relational"}

@@ -1,0 +1,2 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "clarence-cargyll", "target_slug": "209-ac", "reason": "infrastructure-missing-node"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "clarence-cargyll", "target_slug": "tourney-at-ashford-meadow", "edge_type": "ATTENDS", "evidence_snippet": "Clarence attended the tourney at Ashford Meadow in 209 AC", "evidence_section": "## Origins", "confidence_tier": 1}

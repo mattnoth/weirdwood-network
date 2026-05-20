@@ -1,0 +1,3 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-caswell-father-of-lorent", "target_slug": "golden-company", "reason": "no-direct-relationship"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-caswell-father-of-lorent", "target_slug": "longsword", "reason": "no-relational-edge-implied"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-caswell-father-of-lorent", "target_slug": "rolly-duckfield", "reason": "no-direct-relationship"}

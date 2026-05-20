@@ -1,0 +1,18 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "elenda-baratheon", "target_slug": "aegon-ii-targaryen", "reason": "naming-decision-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "elenda-baratheon", "target_slug": "aegon-iii-targaryen", "reason": "daughters-attended-event-not-source"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "elenda-baratheon", "target_slug": "battle-of-the-kingsroad", "reason": "husband-died-there-not-source-participation"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "elenda-baratheon", "target_slug": "daenaera-velaryon", "reason": "mentioned-as-context-for-daughter-trial"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "elenda-baratheon", "target_slug": "dance-of-the-dragons", "reason": "lived-during-event-not-participant"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "elenda-baratheon", "target_slug": "dornish-marches", "reason": "husband-died-there-not-source"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "elenda-baratheon", "target_slug": "dornishmen", "edge_type": "OPPOSES", "evidence_snippet": "she needed a strong man's hand to keep the peace against the increasingly frequent raids from Dornishmen", "evidence_section": "## Origins", "confidence_tier": 2}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "elenda-baratheon", "target_slug": "jaehaera-targaryen", "reason": "reverse-direction-edge-belongs-on-guest-node"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "elenda-baratheon", "target_slug": "lord-of-griffins-roost", "reason": "title-mentioned-for-context-not-source"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "elenda-baratheon", "target_slug": "lord-of-storms-end", "reason": "refers-to-husbands-title-not-source"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "elenda-baratheon", "target_slug": "mushroom", "reason": "claims-reference-not-source-relationship"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "elenda-baratheon", "target_slug": "nightsong", "reason": "fathers-lordship-not-source-relationship"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "elenda-baratheon", "target_slug": "poison", "reason": "daughters-action-not-source"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "elenda-baratheon", "target_slug": "regent", "edge_type": "HOLDS_TITLE", "qualifier": "former", "evidence_snippet": "Following her husband's death, Elenda ruled as regent for her newborn son.", "evidence_section": "## Origins", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "elenda-baratheon", "target_slug": "silent-sisters", "reason": "daughters-status-not-source"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "elenda-baratheon", "target_slug": "walter-brownhill", "reason": "daughters-marriage-not-source"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "elenda-baratheon", "target_slug": "willis-fell", "reason": "accompanied-daughters-not-source"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "elenda-baratheon", "target_slug": "wyland-wyl", "reason": "killed-husband-not-direct-source-relation"}

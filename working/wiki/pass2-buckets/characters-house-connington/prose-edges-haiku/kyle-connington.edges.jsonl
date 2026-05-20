@@ -1,0 +1,2 @@
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "kyle-connington", "target_slug": "golden-wedding", "edge_type": "ATTENDS", "evidence_snippet": "Lord Kyle attended the Golden Wedding, where the king entertained the lords", "evidence_section": "## Origins", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "kyle-connington", "target_slug": "solar", "reason": "location-setting-descriptor-not-relational"}

@@ -1,0 +1,9 @@
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "ben-bones", "target_slug": "ramsay-snow", "edge_type": "SERVES", "evidence_snippet": "Ben is an old man, tasked with keeping the bastard's girls, Ramsay Bolton's pack of female hunting hounds", "evidence_section": "## Appearances & Description", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ben-bones", "target_slug": "arnolf-karstark", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ben-bones", "target_slug": "hother-umber", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ben-bones", "target_slug": "theon-greyjoy", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ben-bones", "target_slug": "walder-frey-son-of-jammos", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ben-bones", "target_slug": "walder-frey-son-of-merrett", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ben-bones", "target_slug": "mance-rayder", "reason": "entity-mentioned-in-quote-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ben-bones", "target_slug": "ramsay-snow", "reason": "duplicate-reference-same-person"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ben-bones", "target_slug": "theon-greyjoy", "reason": "entity-mentioned-in-quote-not-relational"}

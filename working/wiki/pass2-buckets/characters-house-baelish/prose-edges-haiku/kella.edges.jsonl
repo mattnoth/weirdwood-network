@@ -1,0 +1,5 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "kella", "target_slug": "bastardy", "reason": "topic-reference-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "kella", "target_slug": "bestiary", "reason": "topic-reference-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "kella", "target_slug": "drearfort", "reason": "target-node-missing"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "kella", "target_slug": "petyr-baelish", "edge_type": "SERVES", "evidence_snippet": "Kella is among Lord Petyr Baelish's attendants", "evidence_section": "## Narrative Arc / ### A Storm of Swords", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "kella", "target_slug": "sansa-stark", "reason": "quote-attribution-not-relational"}

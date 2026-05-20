@@ -1,0 +1,7 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "harry-rivers", "target_slug": "house-blackwood", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "harry-rivers", "target_slug": "jaime-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "harry-rivers", "target_slug": "tytos-blackwood", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "harry-rivers", "target_slug": "burning-of-stone-hedge", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "harry-rivers", "target_slug": "house-lannister", "edge_type": "KILLED_BY", "evidence_snippet": "The Bastard of Bracken is killed by the [Lannisters](wiki:House_Lannister) in the [riverlands]", "evidence_section": "## Narrative Arc / ### A Storm of Swords", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "harry-rivers", "target_slug": "liberation-of-stone-hedge", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "harry-rivers", "target_slug": "war-of-the-five-kings", "reason": "temporal-cooccurrence-not-relational"}

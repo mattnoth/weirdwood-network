@@ -1,0 +1,2 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "matthew-mullendore", "target_slug": "209-ac", "reason": "temporal-reference-not-entity-edge"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "matthew-mullendore", "target_slug": "tourney-at-ashford-meadow", "edge_type": "FIGHTS_IN", "evidence_snippet": "Matthew participated in the tourney at Ashford Meadow.", "evidence_section": "## Origins", "evidence_paragraph_index": 0, "confidence_tier": 1}

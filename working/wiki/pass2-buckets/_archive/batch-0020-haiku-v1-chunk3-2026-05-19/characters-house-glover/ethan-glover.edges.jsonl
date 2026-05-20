@@ -1,0 +1,54 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "aerys-ii-targaryen", "reason": "mentioned-as-arrester-not-source-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "brandon-stark", "reason": "mentioned-in-context-of-rebellion-narrative"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "catelyn-stark", "reason": "speaker-attribution-not-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "jaime-lannister", "reason": "speaker-attribution-not-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "eddard-stark", "reason": "mentioned-in-fever-dream-recall-not-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "aerys-ii-targaryen", "reason": "mentioned-as-arrester-not-source-edge"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "ethan-glover", "target_slug": "arthur-dayne", "edge_type": "OPPOSES", "evidence_snippet": "they were confronted by the last three members of Aerys's Kingsguard, Ser Arthur Dayne", "evidence_section": "## Origins", "confidence_tier": 2}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "brandon-stark", "reason": "mentioned-in-narrative-context-not-direct-edge"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "ethan-glover", "target_slug": "combat-at-the-tower-of-joy", "edge_type": "FIGHTS_IN", "evidence_snippet": "All but Eddard and Howland were slain in the ensuing fight", "evidence_section": "## Origins", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "eddard-stark", "reason": "mentioned-in-narrative-context-not-direct-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "elbert-arryn", "reason": "co-mention-of-brandon-companions"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "ethan-glover", "target_slug": "gerold-hightower", "edge_type": "OPPOSES", "evidence_snippet": "Lord Commander Gerold Hightower. All but Eddard and Howland were slain in the ensuing fight", "evidence_section": "## Origins", "confidence_tier": 2}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "howland-reed", "reason": "co-presence-at-tower-of-joy-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "jeffory-mallister", "reason": "co-mention-of-brandon-companions"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "jon-arryn", "reason": "mentioned-as-third-party-not-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "kings-landing", "reason": "location-context-not-character-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "kingsguard", "reason": "organization-mention-not-character-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "kyle-royce", "reason": "co-mention-of-brandon-companions"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "lord-of-barrowton", "reason": "title-reference-not-character-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "lord-of-storms-end", "reason": "title-reference-not-character-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "lord-of-the-eyrie", "reason": "title-reference-not-character-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "lord-of-winterfell", "reason": "title-reference-not-character-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "lyanna-stark", "reason": "mentioned-in-narrative-context-not-direct-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "mark-ryswell", "reason": "co-mention-of-tower-companions"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "martyn-cassel", "reason": "co-mention-of-tower-companions"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "ethan-glover", "target_slug": "oswell-whent", "edge_type": "OPPOSES", "evidence_snippet": "Ser Oswell Whent, and Lord Commander Gerold Hightower. All but Eddard and Howland were slain", "evidence_section": "## Origins", "confidence_tier": 2}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "prince-of-dragonstone", "reason": "title-reference-not-character-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "red-keep", "reason": "location-context-not-character-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "red-mountains", "reason": "location-context-not-character-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "rhaegar-targaryen", "reason": "mentioned-in-narrative-context-not-direct-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "robert-i-baratheon", "reason": "mentioned-as-third-party-not-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "roberts-rebellion", "reason": "event-context-not-character-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "sack-of-kings-landing", "reason": "event-context-not-character-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "siege-of-storms-end", "reason": "event-context-not-character-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "theo-wull", "reason": "co-mention-of-tower-companions"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "tower-of-joy", "reason": "location-context-covered-by-event-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "willam-dustin", "reason": "co-mention-of-tower-companions"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "aerys-ii-targaryen", "reason": "quote-context-not-edge"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "ethan-glover", "target_slug": "brandon-stark", "edge_type": "SERVES", "evidence_snippet": "Ethan Glover, who had been Brandon's squire", "evidence_section": "## Quotes", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "catelyn-stark", "reason": "quote-attribution-not-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "eddard-stark", "reason": "quote-attribution-not-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "horse", "reason": "possession-of-other-character-not-source-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "house-targaryen-guards", "reason": "arrest-context-not-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "howland-reed", "reason": "co-mention-in-dream-passage"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "jaime-lannister", "reason": "quote-attribution-not-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "jory-cassel", "reason": "co-mention-in-dream-passage"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "lord", "reason": "generic-noun-reference-not-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "mark-ryswell", "reason": "co-mention-in-dream-passage"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "martyn-cassel", "reason": "co-mention-in-dream-passage"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "rhaegar-targaryen", "reason": "mentioned-in-arrest-narrative-not-direct-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "squire", "reason": "title-reference-not-character-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "theo-wull", "reason": "co-mention-in-dream-passage"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "willam-dustin", "reason": "co-mention-in-dream-passage"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "horse", "reason": "object-possession-not-character-edge"}

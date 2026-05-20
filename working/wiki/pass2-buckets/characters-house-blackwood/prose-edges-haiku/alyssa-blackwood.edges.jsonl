@@ -1,0 +1,7 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "alyssa-blackwood", "target_slug": "guest-right", "reason": "no-fitting-edge-applies-conceptual-reference"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "alyssa-blackwood", "target_slug": "jaime-lannister", "reason": "edge-belongs-on-different-node-tytos-blackwood"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "alyssa-blackwood", "target_slug": "lucas-blackwood", "reason": "relationship-inferred-but-not-explicit-in-snippet"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "alyssa-blackwood", "target_slug": "red-wedding", "reason": "edge-belongs-on-different-node-lucas-blackwood"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "alyssa-blackwood", "target_slug": "twins", "reason": "edge-belongs-on-different-node-tytos-blackwood"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "alyssa-blackwood", "target_slug": "tytos-blackwood", "reason": "no-fitting-edge-applies-family-connection-unclear"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "alyssa-blackwood", "target_slug": "amarei-crakehall", "edge_type": "SUCCEEDS", "evidence_snippet": "Alyssa married Walder Frey after his third wife, Lady Amarei Crakehall, died", "evidence_section": "## Origins", "evidence_paragraph_index": 0, "confidence_tier": 1}

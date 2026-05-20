@@ -1,0 +1,10 @@
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "jack-musgood", "target_slug": "artos-stark", "edge_type": "SERVES", "evidence_snippet": "The Night's Watch were ordered by Artos Stark to dispose of the dead.", "evidence_section": "## Origins", "evidence_paragraph_index": 0, "confidence_tier": 2}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jack-musgood", "target_slug": "battle-at-long-lake", "reason": "arrived-too-late-not-battle-participant"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jack-musgood", "target_slug": "free-folk", "reason": "mentioned-adversary-context-not-direct-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jack-musgood", "target_slug": "house-stark", "reason": "military-force-mentioned-not-relational-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jack-musgood", "target_slug": "house-umber", "reason": "military-force-mentioned-not-relational-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jack-musgood", "target_slug": "king-beyond-the-wall", "reason": "evasion-narrative-not-relational-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jack-musgood", "target_slug": "long-lake", "reason": "battle-location-not-participant-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jack-musgood", "target_slug": "raymun-redbeard", "reason": "wildling-evasion-not-direct-engagement-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jack-musgood", "target_slug": "wall", "reason": "location-reference-not-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jack-musgood", "target_slug": "willam-stark", "reason": "death-event-actor-not-applicable-to-observer"}

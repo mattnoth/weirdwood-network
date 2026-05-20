@@ -1,0 +1,2 @@
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "orbert-caswell", "target_slug": "annals-of-the-black-centaur", "edge_type": "DEPICTED_IN", "evidence_snippet": "The book *Annals of the Black Centaur* by Septon Jorquen was written about his era.", "evidence_section": "## Origins", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "orbert-caswell", "target_slug": "jorquen", "reason": "no-fitting-type-vocab-locked"}

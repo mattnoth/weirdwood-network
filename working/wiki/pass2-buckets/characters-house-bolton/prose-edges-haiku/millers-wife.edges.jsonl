@@ -1,0 +1,24 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "millers-wife", "target_slug": "roose-bolton", "reason": "descriptive mention without typed relationship"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "millers-wife", "target_slug": "bastard", "reason": "conceptual reference not relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "millers-wife", "target_slug": "roose-bolton", "reason": "dialogue attribution without relational content"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "millers-wife", "target_slug": "theon-greyjoy", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "millers-wife", "target_slug": "bastard", "reason": "conceptual reference not relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "millers-wife", "target_slug": "currency", "reason": "object mention without relational edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "millers-wife", "target_slug": "domeric-bolton", "reason": "narrative context mention without direct relationship"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "millers-wife", "target_slug": "dreadfort", "reason": "location reference to another's seat, not millers-wife's location"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "millers-wife", "target_slug": "first-night", "reason": "cultural practice reference not relational edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "millers-wife", "target_slug": "house-redfort", "reason": "location reference to another's fostering, not millers-wife's relation"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "millers-wife", "target_slug": "marriage", "reason": "temporal context reference"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "millers-wife", "target_slug": "reek", "reason": "mentioned but no direct relational edge from millers-wife to reek"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "millers-wife", "target_slug": "rickard-stark", "reason": "historical reference to liege lord, not millers-wife's relation"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "millers-wife", "target_slug": "roose-bolton", "reason": "narrative identification without relational content"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "millers-wife", "target_slug": "tongue-mutilation", "reason": "concept reference not relational edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "millers-wife", "target_slug": "vale-of-arryn", "reason": "location reference to another's fostering"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "millers-wife", "target_slug": "winterfell", "reason": "location reference to liege's seat"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "millers-wife", "target_slug": "dreadfort", "reason": "location reference in quote"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "millers-wife", "target_slug": "first-night", "reason": "cultural practice reference in quote"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "millers-wife", "target_slug": "horse", "reason": "possession mention in quote"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "millers-wife", "target_slug": "marriage", "reason": "reference to event in quote"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "millers-wife", "target_slug": "roose-bolton", "reason": "quote attribution"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "millers-wife", "target_slug": "roose-bolton", "reason": "quote attribution"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "millers-wife", "target_slug": "theon-greyjoy", "reason": "referenced in quote to different subject"}

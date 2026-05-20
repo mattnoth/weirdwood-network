@@ -1,0 +1,3 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "matrice", "target_slug": "dalla-dragonstone", "reason": "rumor-source-mention-only"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "matrice", "target_slug": "melisandre", "reason": "no-explicit-knowledge-verb"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "matrice", "target_slug": "red-comet", "reason": "just-mention-object-of-discussion"}

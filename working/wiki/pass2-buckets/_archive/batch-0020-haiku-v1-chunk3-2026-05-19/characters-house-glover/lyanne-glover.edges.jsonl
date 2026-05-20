@@ -1,0 +1,4 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lyanne-glover", "target_slug": "brandon-stark-son-of-willam", "reason": "duplicate-of-infobox-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lyanne-glover", "target_slug": "lord-of-winterfell", "reason": "type-contract-violation"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lyanne-glover", "target_slug": "melantha-blackwood", "reason": "historical-context-not-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lyanne-glover", "target_slug": "warden-of-the-north", "reason": "type-contract-violation"}

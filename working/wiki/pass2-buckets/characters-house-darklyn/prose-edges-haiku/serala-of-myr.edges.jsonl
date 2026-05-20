@@ -1,0 +1,5 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "serala-of-myr", "target_slug": "aerys-ii-targaryen", "reason": "indirect-relationship-via-third-party"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "serala-of-myr", "target_slug": "defiance-of-duskendale", "reason": "speculative-causation-no-confirmation"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "serala-of-myr", "target_slug": "house-staunton", "reason": "counterfactual-hypothesis-not-historical"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "serala-of-myr", "target_slug": "house-stokeworth", "reason": "counterfactual-hypothesis-not-historical"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "serala-of-myr", "target_slug": "smallfolk", "reason": "reverse-direction-edge-belongs-on-smallfolk-node"}

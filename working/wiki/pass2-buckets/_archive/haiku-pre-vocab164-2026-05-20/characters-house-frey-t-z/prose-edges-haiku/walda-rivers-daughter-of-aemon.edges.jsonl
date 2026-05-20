@@ -1,0 +1,8 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walda-rivers-daughter-of-aemon", "target_slug": "edmure-tully", "reason": "event-mention-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walda-rivers-daughter-of-aemon", "target_slug": "jeyne-westerling", "reason": "indirect-mention-not-direct-relationship"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walda-rivers-daughter-of-aemon", "target_slug": "red-wedding", "reason": "event-mention-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walda-rivers-daughter-of-aemon", "target_slug": "robb-stark", "reason": "event-mention-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walda-rivers-daughter-of-aemon", "target_slug": "roslin-frey", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walda-rivers-daughter-of-aemon", "target_slug": "twins", "reason": "location-setting-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walda-rivers-daughter-of-aemon", "target_slug": "walder-frey", "reason": "event-mention-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walda-rivers-daughter-of-aemon", "target_slug": "walder-frey", "reason": "quote-attribution-not-relational"}

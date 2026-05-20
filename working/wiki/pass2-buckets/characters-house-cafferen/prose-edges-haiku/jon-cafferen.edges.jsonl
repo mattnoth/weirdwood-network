@@ -1,0 +1,5 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jon-cafferen", "target_slug": "first-dornish-war", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jon-cafferen", "target_slug": "house-oakheart", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jon-cafferen", "target_slug": "myr", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jon-cafferen", "target_slug": "old-oak", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jon-cafferen", "target_slug": "wyl-of-wyl", "reason": "reverse-direction-edge-belongs-on-attacker-node"}

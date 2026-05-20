@@ -1,0 +1,2 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rose-of-red-lake", "target_slug": "crane", "reason": "type-contract-violation"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "rose-of-red-lake", "target_slug": "shapechanger", "edge_type": "PRACTICES", "evidence_snippet": "According to legend, Rose could transform into a crane at will", "evidence_section": "## Origins", "evidence_paragraph_index": 0, "confidence_tier": 2}

@@ -1,0 +1,2 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cedrik-storm", "target_slug": "barristan-selmy", "reason": "reverse-direction-edge-belongs-on-victor-node: DEFEATS edge (Barristan defeats Cedrik) belongs on Barristan's node, not Cedrik's"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cedrik-storm", "target_slug": "white-book", "reason": "White Book is a source document; Cedrik is mentioned within it but no edge to the book itself"}

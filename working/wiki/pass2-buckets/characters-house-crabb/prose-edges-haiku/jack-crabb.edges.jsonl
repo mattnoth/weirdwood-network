@@ -1,0 +1,5 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jack-crabb", "target_slug": "castle-black", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jack-crabb", "target_slug": "greyguard", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jack-crabb", "target_slug": "janos-slynt", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jack-crabb", "target_slug": "jon-snow", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jack-crabb", "target_slug": "lord-commander-of-the-nights-watch", "reason": "generic-descriptor-no-entity"}

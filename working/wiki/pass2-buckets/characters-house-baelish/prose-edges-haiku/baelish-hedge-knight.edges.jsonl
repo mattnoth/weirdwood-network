@@ -1,0 +1,6 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "baelish-hedge-knight", "target_slug": "baelish-sellsword", "reason": "reverse-direction-edge-belongs-on-parent-node"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "baelish-hedge-knight", "target_slug": "braavos", "reason": "edge-attribute-belongs-on-source-entity"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "baelish-hedge-knight", "target_slug": "house-corbray", "reason": "edge-attribute-belongs-on-source-entity"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "baelish-hedge-knight", "target_slug": "knight", "reason": "target-is-concept-not-entity"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "baelish-hedge-knight", "target_slug": "sellsword", "reason": "target-is-concept-not-entity"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "baelish-hedge-knight", "target_slug": "titan-of-braavos", "reason": "edge-attribute-belongs-on-source-entity"}

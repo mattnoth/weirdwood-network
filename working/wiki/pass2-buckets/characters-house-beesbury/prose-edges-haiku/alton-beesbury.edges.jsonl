@@ -1,0 +1,2 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "alton-beesbury", "target_slug": "lord-of-honeyholt", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "alton-beesbury", "target_slug": "warryn-beesbury", "edge_type": "COUSIN_OF", "evidence_snippet": "Upon Ben's death, he was succeeded by Alton's cousin, Warryn Beesbury", "evidence_section": "## Origins", "confidence_tier": 1}

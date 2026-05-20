@@ -1,0 +1,41 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "dontos-hollard", "reason": "reverse-direction-edge-belongs-on-other-node"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "sansa-stark", "reason": "reverse-direction-edge-belongs-on-other-node"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "dontos-hollard", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "faith-of-the-seven", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "joffrey-baratheon", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "knight", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "sansa-stark", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "aurane-waters", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "cersei-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "cerseis-dromonds", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "darry", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "faith-of-the-seven", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "high-septon", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "high-sparrow", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "master-of-ships", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "moon-boy", "target_slug": "tommen-baratheon", "edge_type": "SERVES", "evidence_snippet": "Moon Boy and Butterbumps entertain during the wedding feast of King Tommen I Baratheon", "evidence_section": "## Narrative Arc", "evidence_paragraph_index": 2, "confidence_tier": 2}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "moon-boy", "target_slug": "wedding-of-tommen-i-baratheon-and-margaery-tyrell", "edge_type": "ATTENDS", "evidence_snippet": "Moon Boy and Butterbumps entertain during the wedding feast of King Tommen I Baratheon and Margaery", "evidence_section": "## Narrative Arc", "evidence_paragraph_index": 2, "confidence_tier": 1}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "moon-boy", "target_slug": "mordane", "edge_type": "SERVES", "evidence_snippet": "His song about the High Septon makes Septa Mordane laugh", "evidence_section": "## Narrative Arc", "evidence_paragraph_index": 0, "confidence_tier": 2}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "butterbumps", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "cersei-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "jaime-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "lancel-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "margaery-tyrell", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "osmund-kettleblack", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "tyrion-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "tysha", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "cersei-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "cersei-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "dontos-hollard", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "high-septon-tyrions", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "jaime-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "lancel-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "marriage", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "osmund-kettleblack", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "moon-boy", "target_slug": "robert-i-baratheon", "edge_type": "SERVES", "evidence_snippet": "The king's own fool, the pie-faced simpleton called Moon Boy, danced about on stilts", "evidence_section": "## Quotes", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "sansa-stark", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "sansa-stark", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "sansa-stark", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "tyrion-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "tyrion-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "moon-boy", "target_slug": "tywin-lannister", "reason": "temporal-cooccurrence-not-relational"}

@@ -1,0 +1,4 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jeyne-beesbury", "target_slug": "barrowton", "reason": "about-third-party-not-source"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jeyne-beesbury", "target_slug": "lord-of-white-harbor", "reason": "just-mention"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jeyne-beesbury", "target_slug": "wyman-manderly", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jeyne-beesbury", "target_slug": "wynafryd-manderly", "reason": "temporal-cooccurrence-not-relational"}

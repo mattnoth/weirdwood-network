@@ -1,0 +1,43 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "bastard", "reason": "concept-descriptor-not-relational-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "catelyn-stark", "reason": "others-perception-not-source-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "knight", "reason": "title-descriptor-not-relational-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "lothar-frey", "reason": "descriptive-context-not-relational-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "brotherhood-without-banners", "reason": "contextual-to-other-character"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "walder-rivers", "target_slug": "clement-piper", "edge_type": "DUELS", "evidence_snippet": "Walder challenges Lord Clement Piper after his nephew Edwyn is insulted", "evidence_section": "## Narrative Arc / ### A Feast for Crows", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "edwyn-frey", "reason": "family-context-not-primary-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "fairmarket", "reason": "location-context-not-relational-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "jaime-lannister", "reason": "contextual-intervention-not-source-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "raynald-westerling", "reason": "information-about-other-character"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "ryman-frey", "reason": "family-context-not-primary-edge"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "walder-rivers", "target_slug": "siege-of-riverrun", "edge_type": "FIGHTS_IN", "evidence_snippet": "Walder is present at the siege of Riverrun, where he participates in the heated stalemate", "evidence_section": "## Narrative Arc / ### A Feast for Crows", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "walder-frey-son-of-ryman", "reason": "family-succession-context"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "catelyn-stark", "reason": "scene-cooccurrence-not-relational-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "edmure-tully", "reason": "scene-cooccurrence-not-relational-edge"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "walder-rivers", "target_slug": "lothar-frey", "edge_type": "PROTECTS", "evidence_snippet": "Walder commands the forty-strong escort of Lothar Frey on his trip south", "evidence_section": "## Narrative Arc / ### A Storm of Swords", "confidence_tier": 2}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "walder-rivers", "target_slug": "red-wedding", "edge_type": "FIGHTS_IN", "evidence_snippet": "During the Red Wedding, Bastard Walder commands the attack on the soldiers' camp", "evidence_section": "## Narrative Arc / ### A Storm of Swords", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "riverrun", "reason": "location-context-not-relational-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "robb-stark", "reason": "diplomatic-context-not-direct-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "robb-stark", "reason": "scene-cooccurrence-not-relational-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "twins", "reason": "location-context-not-relational-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "chett", "reason": "historical-context-not-primary-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "horse", "reason": "contextual-to-other-character"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "sevenstreams", "reason": "location-context-not-relational-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "twins", "reason": "location-context-not-relational-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "wall", "reason": "location-context-not-relational-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "yoren", "reason": "contextual-to-other-character"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "bastard", "reason": "concept-descriptor-in-quote"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "catelyn-stark", "reason": "quote-attribution-not-relational-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "daven-lannister", "reason": "quote-attribution-not-relational-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "edwyn-frey", "reason": "list-context-in-quote"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "emmon-frey", "reason": "list-context-in-quote"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "jaime-lannister", "reason": "quote-attribution-not-relational-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "jaime-lannister", "reason": "quote-attribution-not-relational-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "lothar-frey", "reason": "kinship-description-in-quote"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "ryman-frey", "reason": "list-context-in-quote"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "bethany-rosby", "reason": "descriptive-context-about-other"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "clement-piper", "reason": "quote-attribution-not-relational-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "edmure-tully", "reason": "quote-attribution-not-relational-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "edwyn-frey", "reason": "quote-subject-not-relational-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "house-rosby", "reason": "descriptive-context-about-other"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "lothar-frey", "reason": "quote-attribution-not-relational-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walder-rivers", "target_slug": "roslin-frey", "reason": "descriptive-context-about-other"}

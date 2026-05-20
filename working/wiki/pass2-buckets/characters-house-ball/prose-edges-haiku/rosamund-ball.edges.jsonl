@@ -1,0 +1,2 @@
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "rosamund-ball", "target_slug": "alysanne-targaryen", "edge_type": "SERVES", "evidence_snippet": "Rosamund served as a lady and companion for Queen Alysanne Targaryen.", "evidence_section": "## Origins", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rosamund-ball", "target_slug": "kingsguard", "reason": "temporal-cooccurrence-not-relational"}

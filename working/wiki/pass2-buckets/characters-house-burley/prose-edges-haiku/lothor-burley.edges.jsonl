@@ -1,0 +1,13 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lothor-burley", "target_slug": "alaric-stark", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "lothor-burley", "target_slug": "alysanne-targaryen", "edge_type": "ENCOUNTERS", "evidence_snippet": "Lothor hosted Alysanne Targaryen when the queen visited Castle Black in 58 AC", "evidence_section": "## Origins", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lothor-burley", "target_slug": "beer", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lothor-burley", "target_slug": "castle-black", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lothor-burley", "target_slug": "crown", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lothor-burley", "target_slug": "deep-lake", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lothor-burley", "target_slug": "mammoth", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lothor-burley", "target_slug": "mead", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "lothor-burley", "target_slug": "moles-town", "edge_type": "TRAVELS_TO", "evidence_snippet": "The queen also persuaded Burley to escort her to Mole's Town, where she held one of her women's courts", "evidence_section": "## Origins", "evidence_paragraph_index": 1, "confidence_tier": 2}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lothor-burley", "target_slug": "nightfort", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lothor-burley", "target_slug": "wall", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lothor-burley", "target_slug": "winterfell", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lothor-burley", "target_slug": "alysanne-targaryen", "reason": "duplicate-source-target-pair-already-emitted"}

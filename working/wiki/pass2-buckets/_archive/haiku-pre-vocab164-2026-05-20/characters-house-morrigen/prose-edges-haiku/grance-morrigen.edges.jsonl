@@ -1,0 +1,3 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "grance-morrigen", "target_slug": "209-ac", "reason": "temporal-context-only"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "grance-morrigen", "target_slug": "steffon-fossoway", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "grance-morrigen", "target_slug": "tourney-at-ashford-meadow", "edge_type": "FIGHTS_IN", "evidence_snippet": "Grance participated in the tourney at Ashford Meadow in [209 AC](wiki:209_AC).", "evidence_section": "## Origins", "confidence_tier": 1}

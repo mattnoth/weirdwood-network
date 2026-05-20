@@ -1,0 +1,7 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-myre", "target_slug": "asha-greyjoy", "reason": "stance-unknown-no-definitive-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-myre", "target_slug": "euron-greyjoy", "reason": "stance-unknown-no-definitive-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-myre", "target_slug": "jon-myre", "reason": "co-mention-no-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-myre", "target_slug": "pyke", "reason": "jon-myre-relation-not-lord-myre"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-myre", "target_slug": "rodrik-harlaw", "reason": "stance-unknown-no-definitive-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-myre", "target_slug": "seastone-chair", "reason": "asha-claim-not-lord-myre-relation"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-myre", "target_slug": "ten-towers", "reason": "stance-unknown-no-definitive-edge"}

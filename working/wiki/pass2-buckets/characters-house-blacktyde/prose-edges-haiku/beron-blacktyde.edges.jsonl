@@ -1,0 +1,4 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "beron-blacktyde", "target_slug": "aeron-greyjoy", "reason": "aeron-context-for-berons-torture-not-direct-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "beron-blacktyde", "target_slug": "euron-greyjoy", "reason": "reverse-direction-edge-belongs-on-other-node"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "beron-blacktyde", "target_slug": "aeron-greyjoy", "edge_type": "ALLIES_WITH", "evidence_snippet": "Beron joins Aeron Greyjoy in calling for a kingsmoot.", "evidence_section": "## Narrative Arc / ### A Feast for Crows", "evidence_paragraph_index": 0, "confidence_tier": 2}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "beron-blacktyde", "target_slug": "kingsmoot", "reason": "calling-for-event-not-direct-edge"}

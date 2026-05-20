@@ -1,0 +1,6 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lady-bulwers-brother", "target_slug": "cersei-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lady-bulwers-brother", "target_slug": "lady-in-waiting", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lady-bulwers-brother", "target_slug": "margaery-tyrell", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lady-bulwers-brother", "target_slug": "marriage", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "lady-bulwers-brother", "target_slug": "megga-tyrell", "edge_type": "BETROTHED_TO", "evidence_snippet": "Queen Margaery's cousin and lady-in-waiting, marrying Lady Bulwer's brother.", "evidence_section": "## Narrative Arc / ### A Feast for Crows", "evidence_paragraph_index": 0, "confidence_tier": 3}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lady-bulwers-brother", "target_slug": "taena-merryweather", "reason": "temporal-cooccurrence-not-relational"}

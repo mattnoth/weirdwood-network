@@ -1,0 +1,7 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "clarence-charlton", "target_slug": "ambrose-butterwell", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "clarence-charlton", "target_slug": "captain-of-the-guards", "reason": "target-node-unresolvable"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "clarence-charlton", "target_slug": "lady-butterwell", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "clarence-charlton", "target_slug": "lord-frey", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "clarence-charlton", "target_slug": "tommard-heddle", "reason": "reverse-direction-edge-belongs-on-victor-node"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "clarence-charlton", "target_slug": "wedding-tourney-at-whitewalls", "edge_type": "FIGHTS_IN", "evidence_snippet": "In 212 AC, Ser Clarence took part in the tourney held by Lord Ambrose Butterwell", "evidence_section": "## Origins", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "clarence-charlton", "target_slug": "whitewalls", "reason": "target-node-unresolvable"}

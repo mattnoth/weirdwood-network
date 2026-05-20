@@ -1,0 +1,13 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "william-mooton", "target_slug": "salmon", "reason": "decorative-object-not-relational-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "william-mooton", "target_slug": "dog", "reason": "co-presence-in-hunting-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "william-mooton", "target_slug": "gods-eye", "edge_type": "TRAVELS_TO", "evidence_snippet": "he set out with his sons and his dogs to hunt her down around the Gods Eye.", "evidence_section": "## Narrative Arc / ### A Clash of Kings", "confidence_tier": 2}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "william-mooton", "target_slug": "nymeria-direwolf", "reason": "mentioned-as-target-of-hunt-no-direct-relationship"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "william-mooton", "target_slug": "wolf", "reason": "mentioned-as-prey-no-direct-relationship"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "william-mooton", "target_slug": "brienne-tarth", "reason": "brienne-learning-about-william-not-brienne-william-relationship"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "william-mooton", "target_slug": "dickon-tarly", "reason": "marriage-arrangement-belongs-on-eleanor-node-not-william-to-dickon"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "william-mooton", "target_slug": "war-of-the-five-kings", "reason": "william-avoided-participation-just-context"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "william-mooton", "target_slug": "battle-at-duskendale", "reason": "battle-context-william-not-at-battle"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "william-mooton", "target_slug": "randyll-tarly", "reason": "reverse-direction-imprisonment-belongs-on-imprisoner-node"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "william-mooton", "target_slug": "tommen-baratheon", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "william-mooton", "target_slug": "hyle-hunt", "reason": "quote-not-william-speaking-not-relational-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "william-mooton", "target_slug": "randyll-tarly", "reason": "quote-from-randyll-not-william-randyll-relationship"}

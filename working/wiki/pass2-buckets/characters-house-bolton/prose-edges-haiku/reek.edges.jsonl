@@ -1,0 +1,35 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "bran-stark", "reason": "mention-in-reported-speech"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "capture-of-winterfell", "reason": "event-location-mention-not-participation"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "donella-hornwood", "reason": "co-mention-in-reported-speech"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "dreadfort", "reason": "location-mention"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "harvest-feast", "reason": "event-co-mention"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "hornwood", "reason": "location-mention"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "lord-of-the-hornwood", "reason": "title-mention"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "luwin", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "reek", "target_slug": "ramsay-snow", "edge_type": "COMPANION_OF", "evidence_snippet": "Ramsay and Reek became inseparable.", "evidence_section": "## Origins", "evidence_paragraph_index": 1, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "rickon-stark", "reason": "mention-in-reported-context"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "rodrik-cassel", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "escalate_cross_identity", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "sack-of-winterfell", "evidence_snippet": "Reek uncovers his true identity as Ramsay to Theon and orders the sack of Winterfell.", "evidence_section": "## Narrative Arc / ### A Clash of Kings", "rationale": "Reek is Ramsay in disguise; the event belongs on Ramsay's node, not Reek's"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "theon-greyjoy", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "winterfell", "reason": "location-mention"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "arya-stark", "reason": "false-identity-mention"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "bastard-letter", "reason": "indirect-contact-via-letter"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "jeyne-poole", "reason": "identity-confusion-no-direct-relation"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "jon-snow", "reason": "letter-contact-not-direct-meeting"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "wall", "reason": "location-mention"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "winterfell", "reason": "location-mention"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "bethany-bolton", "reason": "indirect-reference-not-direct-relation"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "dreadfort", "reason": "location-mention"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "reek", "target_slug": "roose-bolton", "edge_type": "SWORN_TO", "qualifier": "current", "evidence_snippet": "According to Lord Roose Bolton, Reek always smelled appalling, apparently born with that condition.", "evidence_section": "## Origins", "evidence_paragraph_index": 0, "confidence_tier": 2}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "smallfolk", "reason": "generic-group-mention"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "uthor", "reason": "incidental-examiner-mention"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "deer", "reason": "hunting-target-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "donella-hornwood", "reason": "duplicate-candidate"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "ramsay-snow", "reason": "duplicate-candidate"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "ramsay-snow", "reason": "duplicate-candidate"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "rodrik-cassel", "reason": "quote-context-duplicate"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "roose-bolton", "reason": "duplicate-candidate"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "roose-bolton", "reason": "duplicate-candidate"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "smallfolk", "reason": "duplicate-candidate"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "theon-greyjoy", "reason": "duplicate-candidate"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "reek", "target_slug": "theon-greyjoy", "reason": "duplicate-candidate"}

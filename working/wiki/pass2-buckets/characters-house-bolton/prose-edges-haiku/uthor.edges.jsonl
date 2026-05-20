@@ -1,0 +1,5 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "uthor", "target_slug": "domeric-bolton", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "uthor", "target_slug": "poison", "reason": "type-contract-violation"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "uthor", "target_slug": "ramsay-snow", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "uthor", "target_slug": "reek", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "uthor", "target_slug": "roose-bolton", "reason": "temporal-cooccurrence-not-relational"}

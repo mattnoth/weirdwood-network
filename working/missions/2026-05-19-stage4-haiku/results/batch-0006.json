@@ -1,0 +1,110 @@
+{
+  "batch_id": "batch-0006",
+  "shape": "source_target",
+  "started_at": "2026-05-20T10:10:59.312959+00:00",
+  "completed_at": "2026-05-20T10:18:29.265214+00:00",
+  "files_attempted": 30,
+  "files_done": 30,
+  "files_failed": 0,
+  "failed_outputs": [],
+  "decision_totals": {
+    "reject_just_mention": 375,
+    "emit_edge": 124
+  },
+  "total_cost_usd": 2.879997,
+  "classifier_prompt_git_hash": "b829effe4f41bf5cf69a5813b0bbc9b6007215ea",
+  "chunks_run": 10,
+  "chunk_timings": [
+    {
+      "chunk_id": "batch-0006-chunk-00",
+      "chunk_idx": 0,
+      "duration_s": 164.47,
+      "cost_usd": 0.293002,
+      "files_done": 3,
+      "files_failed": 0,
+      "rate_limited": false
+    },
+    {
+      "chunk_id": "batch-0006-chunk-01",
+      "chunk_idx": 1,
+      "duration_s": 151.33,
+      "cost_usd": 0.327381,
+      "files_done": 3,
+      "files_failed": 0,
+      "rate_limited": false
+    },
+    {
+      "chunk_id": "batch-0006-chunk-02",
+      "chunk_idx": 2,
+      "duration_s": 125.64,
+      "cost_usd": 0.249445,
+      "files_done": 3,
+      "files_failed": 0,
+      "rate_limited": false
+    },
+    {
+      "chunk_id": "batch-0006-chunk-03",
+      "chunk_idx": 3,
+      "duration_s": 181.55,
+      "cost_usd": 0.289757,
+      "files_done": 3,
+      "files_failed": 0,
+      "rate_limited": false
+    },
+    {
+      "chunk_id": "batch-0006-chunk-04",
+      "chunk_idx": 4,
+      "duration_s": 157.31,
+      "cost_usd": 0.279603,
+      "files_done": 3,
+      "files_failed": 0,
+      "rate_limited": false
+    },
+    {
+      "chunk_id": "batch-0006-chunk-05",
+      "chunk_idx": 5,
+      "duration_s": 151.47,
+      "cost_usd": 0.331154,
+      "files_done": 3,
+      "files_failed": 0,
+      "rate_limited": false
+    },
+    {
+      "chunk_id": "batch-0006-chunk-06",
+      "chunk_idx": 6,
+      "duration_s": 154.53,
+      "cost_usd": 0.305448,
+      "files_done": 3,
+      "files_failed": 0,
+      "rate_limited": false
+    },
+    {
+      "chunk_id": "batch-0006-chunk-07",
+      "chunk_idx": 7,
+      "duration_s": 126.17,
+      "cost_usd": 0.239632,
+      "files_done": 3,
+      "files_failed": 0,
+      "rate_limited": false
+    },
+    {
+      "chunk_id": "batch-0006-chunk-08",
+      "chunk_idx": 8,
+      "duration_s": 138.74,
+      "cost_usd": 0.287828,
+      "files_done": 3,
+      "files_failed": 0,
+      "rate_limited": false
+    },
+    {
+      "chunk_id": "batch-0006-chunk-09",
+      "chunk_idx": 9,
+      "duration_s": 147.14,
+      "cost_usd": 0.276747,
+      "files_done": 3,
+      "files_failed": 0,
+      "rate_limited": false
+    }
+  ],
+  "rate_limit_events_count": 0
+}

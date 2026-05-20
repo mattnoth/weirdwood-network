@@ -1,0 +1,40 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "davos-seaworth", "reason": "reverse-direction-edge-belongs-on-other-node"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "guest-right", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "north", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "robber-knight", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "sisters-stew", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "bite", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "bite", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "godric-borrell", "target_slug": "cersei-lannister", "edge_type": "DISTRUSTS", "evidence_snippet": "Godric harbors doubts about Queen Regent Cersei Lannister's ability to rule", "evidence_section": "## Narrative Arc / ### A Dance with Dragons", "confidence_tier": 2}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "godric-borrell", "target_slug": "davos-seaworth", "edge_type": "ENCOUNTERS", "evidence_snippet": "Godric is having supper when Lord Davos Seaworth is brought before him", "evidence_section": "## Narrative Arc / ### A Dance with Dragons", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "eddard-stark", "reason": "no-whitelisted-knowledge-verb"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "house-frey", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "jon-arryn", "reason": "no-whitelisted-knowledge-verb"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "kevan-lannister", "reason": "no-whitelisted-knowledge-verb"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "north", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "rhaegar-frey", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "roberts-rebellion", "reason": "type-contract-violation"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "sloe-eyed-maid", "reason": "reverse-direction-edge-belongs-on-other-node"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "tywin-lannister", "reason": "no-whitelisted-knowledge-verb"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "wendel-manderly", "reason": "no-whitelisted-knowledge-verb"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "white-harbor", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "white-harbor", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "wyman-manderly", "reason": "no-whitelisted-knowledge-verb"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "aerys-ii-targaryen", "reason": "no-whitelisted-knowledge-verb"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "godric-borrell", "target_slug": "eddard-stark", "edge_type": "ENCOUNTERS", "evidence_snippet": "Eddard Stark washed up on Sweetsister while trying to sail to the north to raise his banners", "evidence_section": "## Origins", "confidence_tier": 2}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "gella", "reason": "no-whitelisted-knowledge-verb"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "lord-borrell-father-of-godric", "reason": "reverse-direction-edge-belongs-on-other-node"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "master-of-ships", "reason": "no-whitelisted-knowledge-verb"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "night-lamp", "reason": "no-whitelisted-knowledge-verb"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "north", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "robert-i-baratheon", "reason": "no-whitelisted-knowledge-verb"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "roberts-rebellion", "reason": "type-contract-violation"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "sisterton", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "godric-borrell", "target_slug": "stannis-baratheon", "edge_type": "ENCOUNTERS", "evidence_snippet": "Lord Stannis Baratheon, master of ships for King Robert I Baratheon, once sent a fleet to Sisterton without Godric's leave and made him hang a dozen friends", "evidence_section": "## Origins", "confidence_tier": 2}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "three-sisters", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "davos-seaworth", "reason": "reverse-direction-edge-belongs-on-other-node"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "guest-right", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "three-sisters", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "davos-seaworth", "reason": "reverse-direction-edge-belongs-on-other-node"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "davos-seaworth", "reason": "reverse-direction-edge-belongs-on-other-node"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "godric-borrell", "target_slug": "three-sisters", "reason": "temporal-cooccurrence-not-relational"}

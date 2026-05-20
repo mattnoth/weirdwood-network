@@ -1,0 +1,11 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-baelish-father-of-petyr", "target_slug": "baelish-hedge-knight", "reason": "reverse-direction-edge-belongs-on-parent-node"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-baelish-father-of-petyr", "target_slug": "baelish-sellsword", "reason": "reverse-direction-edge-belongs-on-ancestor-node"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-baelish-father-of-petyr", "target_slug": "baelish-sellsword", "reason": "reverse-direction-edge-belongs-on-ancestor-node"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-baelish-father-of-petyr", "target_slug": "braavos", "reason": "applies-to-ancestor-not-source"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-baelish-father-of-petyr", "target_slug": "hedge-knight", "reason": "target-node-missing"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "lord-baelish-father-of-petyr", "target_slug": "hoster-tully", "edge_type": "COMPANION_OF", "evidence_snippet": "Lord Baelish became friends with Lord Hoster Tully", "evidence_section": "## Origins", "evidence_paragraph_index": 1, "confidence_tier": 2}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-baelish-father-of-petyr", "target_slug": "house-corbray", "reason": "applies-to-ancestor-not-source"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-baelish-father-of-petyr", "target_slug": "knight", "reason": "target-node-missing"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-baelish-father-of-petyr", "target_slug": "riverrun", "reason": "target-node-missing"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-baelish-father-of-petyr", "target_slug": "titan-of-braavos", "reason": "target-node-missing"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-baelish-father-of-petyr", "target_slug": "war-of-the-ninepenny-kings", "reason": "temporal-context-not-relational"}

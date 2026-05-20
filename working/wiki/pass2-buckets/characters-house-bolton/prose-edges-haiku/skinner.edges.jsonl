@@ -1,0 +1,15 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "skinner", "target_slug": "domeric-bolton", "reason": "belief-statement-not-direct-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "skinner", "target_slug": "ramsay-snow", "reason": "object-of-belief-not-direct-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "skinner", "target_slug": "arnolf-karstark", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "skinner", "target_slug": "arya-stark", "reason": "false-identity-mention"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "skinner", "target_slug": "dreadfort", "reason": "location-mention"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "skinner", "target_slug": "hother-umber", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "skinner", "target_slug": "jeyne-poole", "reason": "false-identity-mention"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "skinner", "target_slug": "ramsay-snow", "edge_type": "SERVES", "evidence_snippet": "Skinner flays Theon Greyjoy's fingers for Ramsay Bolton.", "evidence_section": "## Narrative Arc / ### A Dance with Dragons", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "skinner", "target_slug": "sour-alyn", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "skinner", "target_slug": "theon-greyjoy", "edge_type": "TORTURES", "evidence_snippet": "Skinner flays Theon Greyjoy's fingers for Ramsay Bolton.", "evidence_section": "## Narrative Arc / ### A Dance with Dragons", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "skinner", "target_slug": "walder-frey-son-of-jammos", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "skinner", "target_slug": "walder-frey-son-of-merrett", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "skinner", "target_slug": "winterfell", "reason": "location-mention"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "skinner", "target_slug": "theon-greyjoy", "reason": "quote-context-duplicate"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "skinner", "target_slug": "theon-greyjoy", "reason": "quote-context-duplicate"}

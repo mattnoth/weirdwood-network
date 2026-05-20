@@ -1,0 +1,5 @@
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "royce-blackwood", "target_slug": "old-gods-of-the-forest", "edge_type": "WORSHIPS", "evidence_snippet": "He followed the old gods", "evidence_section": "## Appearances & Description", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "royce-blackwood", "target_slug": "alysanne-targaryen", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "royce-blackwood", "target_slug": "daella-targaryen-daughter-of-jaehaerys-i", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "royce-blackwood", "target_slug": "faith-of-the-seven", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "royce-blackwood", "target_slug": "raventree-hall", "reason": "temporal-cooccurrence-not-relational"}

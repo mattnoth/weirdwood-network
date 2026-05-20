@@ -1,0 +1,4 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "tigaro-moraqos", "target_slug": "house-rogare", "reason": "target-is-organization-not-entity"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "tigaro-moraqos", "target_slug": "lys", "edge_type": "LOCATED_AT", "evidence_snippet": "Magister Tigaro was present at the trial for the members of the Rogare family who had not fled the city.", "evidence_section": "## Origins", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "tigaro-moraqos", "target_slug": "lys", "reason": "just-describes-city-state-not-tigaro-relationship"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "tigaro-moraqos", "target_slug": "lysara-rogare", "reason": "trial-interaction-no-clear-relational-edge"}

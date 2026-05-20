@@ -1,0 +1,2 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ferrego-antaryon", "target_slug": "first-sword-of-braavos", "reason": "title-mentioned-for-context-not-direct-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ferrego-antaryon", "target_slug": "qarro-volentin", "reason": "reverse-direction-edge-belongs-on-protector-node"}

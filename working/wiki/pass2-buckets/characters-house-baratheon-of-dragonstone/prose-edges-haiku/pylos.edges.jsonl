@@ -1,0 +1,79 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "bastard", "reason": "concept-mention-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "cersei-lannister", "reason": "temporal-context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "great-hall-dragonstone", "reason": "context-about-other-character"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "incest", "reason": "concept-mention-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "iron-throne", "reason": "concept-mention-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "jaime-lannister", "reason": "temporal-context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "joffrey-baratheon", "reason": "concept-mention-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "lord", "reason": "generic-mention-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "melisandre", "reason": "context-about-other-character"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "poison", "reason": "concept-mention-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "raven", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "robert-i-baratheon", "reason": "context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "rookery", "reason": "context-about-other-character"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "shireen-baratheon", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "stannis-baratheon", "reason": "context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "strangler", "reason": "concept-mention-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "white-raven", "reason": "concept-mention-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "aurane-waters", "reason": "context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "house-lannister", "reason": "context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "knight", "reason": "context-about-other-character"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "loras-tyrell", "reason": "context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "paxter-redwyne", "reason": "context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "regent", "reason": "context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "rolland-storm", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "siege-of-dragonstone", "reason": "context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "taking-of-the-shields", "reason": "context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "wall", "reason": "context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "aemon-targaryen-son-of-maekar-i", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "alester-florent", "reason": "context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "balon-greyjoy", "reason": "context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "bastard", "reason": "concept-mention-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "pylos", "target_slug": "davos-seaworth", "edge_type": "HEALS", "evidence_snippet": "Maester Pylos treats him with hot garlic broth, milk of the poppy, and leechings.", "evidence_section": "## Narrative Arc / ### A Storm of Swords", "confidence_tier": 1}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "pylos", "target_slug": "devan-seaworth", "edge_type": "TEACHES", "evidence_snippet": "Maester Pylos educates the noble children on Dragonstone, Princess Shireen, Edric, and Devan Seaworth.", "evidence_section": "## Narrative Arc / ### A Storm of Swords", "confidence_tier": 1}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "pylos", "target_slug": "edric-storm", "edge_type": "HEALS", "evidence_snippet": "Pylos also leeches the sick Edric Storm, bastard son of the late King Robert.", "evidence_section": "## Narrative Arc / ### A Storm of Swords", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "free-cities", "reason": "context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "hand-of-the-king", "reason": "context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "mad-prendos", "reason": "context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "mance-rayder", "reason": "context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "melisandre", "reason": "context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "milk-of-the-poppy", "reason": "concept-mention-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "nights-watch", "reason": "context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "others", "reason": "concept-mention-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "patchface", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "robb-stark", "reason": "context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "sea-dragon-tower", "reason": "context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "treason", "reason": "concept-mention-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "war-of-the-five-kings", "reason": "context-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "pylos", "target_slug": "298-ac", "edge_type": "LOCATED_AT", "evidence_snippet": "When Maester Cressen became ill in 298 AC, Pylos was sent by the Citadel to Dragonstone.", "evidence_section": "## Origins", "confidence_tier": 1}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "pylos", "target_slug": "cressen", "edge_type": "SUCCEEDS", "evidence_snippet": "When Maester Cressen became ill in 298 AC, Pylos was sent by the Citadel to Dragonstone.", "evidence_section": "## Origins", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "cressen", "reason": "quote-attribution-only"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "cressen", "reason": "quote-attribution-only"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "cressen", "reason": "context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "davos-seaworth", "reason": "quote-attribution-only"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "davos-seaworth", "reason": "quote-attribution-only"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "stannis-baratheon", "reason": "quote-attribution-only"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "ambrose-butterwell", "reason": "historical-reference-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "baelor-targaryen-son-of-daeron-ii", "reason": "historical-reference-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "barth", "reason": "historical-reference-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "davos-seaworth", "reason": "quote-attribution-only"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "davos-seaworth", "reason": "quote-attribution-only"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "davos-seaworth", "reason": "quote-attribution-only"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "pylos", "target_slug": "devan-seaworth", "edge_type": "TEACHES", "evidence_snippet": "I am teaching the art to your son, at the king's command.", "evidence_section": "## Quotes / ### Quotes by Pylos", "confidence_tier": 1}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "pylos", "target_slug": "dragonstone-island", "edge_type": "LOCATED_AT", "evidence_snippet": "No. My place is here on Dragonstone.", "evidence_section": "## Quotes / ### Quotes by Pylos", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "edric-storm", "reason": "quote-attribution-only"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "hand-of-the-king", "reason": "topic-discussion-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "house-targaryen", "reason": "historical-reference-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "jaehaerys-i-targaryen", "reason": "historical-reference-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "knight", "reason": "topic-discussion-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "lord", "reason": "topic-discussion-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "maegor-i-targaryen", "reason": "historical-reference-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "magic", "reason": "concept-mention-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "murmison", "reason": "historical-reference-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "myles-smallwood", "reason": "historical-reference-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "otto-hightower", "reason": "historical-reference-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "red-keep", "reason": "context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "ryam-redwyne", "reason": "historical-reference-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "septon", "reason": "generic-mention-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "seven-kingdoms", "reason": "context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "pylos", "target_slug": "stannis-baratheon", "reason": "topic-attribution-not-relational"}

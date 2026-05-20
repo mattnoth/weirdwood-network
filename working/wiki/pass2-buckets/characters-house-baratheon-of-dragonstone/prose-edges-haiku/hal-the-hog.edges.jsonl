@@ -1,0 +1,2 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "hal-the-hog", "target_slug": "battle-of-the-blackwater", "reason": "temporal-reference-not-participation"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "hal-the-hog", "target_slug": "davos-seaworth", "edge_type": "KNOWS", "evidence_snippet": "he tells the crossbowman at the gate that Hal can identify him", "evidence_section": "## Narrative Arc / ### A Storm of Swords", "confidence_tier": 1}

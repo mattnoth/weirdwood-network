@@ -1,0 +1,6 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ben-beesbury", "target_slug": "arianne-martell", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ben-beesbury", "target_slug": "citadel", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ben-beesbury", "target_slug": "doran-martell", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ben-beesbury", "target_slug": "maester", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ben-beesbury", "target_slug": "prince-of-dorne", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "ben-beesbury", "target_slug": "warryn-beesbury", "edge_type": "UNCLE_OF", "evidence_snippet": "Upon Ben's death, he was succeeded by his nephew, Warryn Beesbury", "evidence_section": "## Origins", "confidence_tier": 1}
