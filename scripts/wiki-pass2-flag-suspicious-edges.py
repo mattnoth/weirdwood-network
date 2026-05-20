@@ -3,27 +3,54 @@
 Stage 4 prose-edge soft-fallback flagger.
 
 Walks all `emit_edge` rows produced by completed Stage 4 batches and tags rows
-matching known soft-fallback patterns (KNOWS-as-default, type-contract
-violations, low-confidence emissions, etc.). Does NOT block or modify them —
-only flags for a later Opus audit pass.
+matching known soft-fallback / semantic-suspicious patterns. Does NOT block or
+modify them — only flags for a later Opus audit pass.
 
-Pattern checks (per session-54 plan):
-  1. KNOWS  with no knowing-prose in snippet (no knew/known/learned/informed/told)
-  2. ATTENDS  with target type not starting with `event.*`
-  3. FIGHTS_IN  with target type not `event.*` or `organization.*`
-  4. TRAVELS_TO / LOCATED_AT / BORN_AT / DIED_AT  with target type not `place.*`
-  5. SPOUSE_OF  with target type not `character.*`
-  6. WIELDS  with target type not `object.artifact`
-  7. confidence_tier == 3  (model self-flagged low)
-  8. CONTEMPORARY_WITH  with target type `character.*` (per patched prompt)
+Pattern classes (per Session 54 plan):
+  1. knows_as_fallback
+       edge_type == KNOWS  AND  evidence_snippet contains no knowing-verb
+       ("knew", "knows", "know", "known", "learning", "informed", "told",
+        "aware of", "told that", "acquainted", etc.)
+  2. attends_non_event
+       edge_type == ATTENDS  AND  target_type is not event.*
+  3. fights_in_non_event
+       edge_type == FIGHTS_IN  AND  target_type is not event.*
+       (classic pattern: FIGHTS_IN aenys-frey → stannis-baratheon)
+  4. killed_by_non_person
+       edge_type == KILLED_BY  AND  source_type is not character.* AND not
+       creature.* AND not object.weapon
+       (e.g., a place listed as the KILLED_BY source)
+  5. tier3_weak_evidence
+       confidence_tier == 3  AND  (evidence_snippet is empty OR
+       len(evidence_snippet.strip()) < 20)
+  6. contemporary_with_char_pair
+       edge_type == CONTEMPORARY_WITH  AND  both source AND target are
+       character.*  (soft-fallback when classifier couldn't pick a more
+       specific edge type)
 
-Outputs:
-  working/wiki/data/stage4-suspicious-edges.jsonl       — full flagged rows
-  working/wiki/data/stage4-suspicious-edges-summary.md  — counts + samples
+Output:
+  working/wiki/data/stage4-suspicious-edges.jsonl   — one row per flagged edge
+
+Row format (flat):
+  {
+    "source_slug": "...",
+    "edge_type": "...",
+    "target_slug": "...",
+    "qualifier": "..." | null,
+    "confidence_tier": N | null,
+    "evidence_snippet": "...",
+    "evidence_kind": "...",
+    "source_batch": "<batch-id>",
+    "source_file": "<path to .edges.jsonl>",
+    "flag_reasons": ["knows_as_fallback", ...]
+  }
+
+Multiple flag_reasons may fire on the same edge row.
 
 Usage:
     python3 scripts/wiki-pass2-flag-suspicious-edges.py
-    python3 scripts/wiki-pass2-flag-suspicious-edges.py --mission <dir>
+    python3 scripts/wiki-pass2-flag-suspicious-edges.py --dry-run
+    python3 scripts/wiki-pass2-flag-suspicious-edges.py --sample 5
     python3 scripts/wiki-pass2-flag-suspicious-edges.py --batch-id batch-0020
 """
 
@@ -31,28 +58,32 @@ from __future__ import annotations
 
 import argparse
 import json
-import os
 import re
 import sys
+import tempfile
+import shutil
 from collections import Counter, defaultdict
 from pathlib import Path
 
 # ---------------------------------------------------------------------------
-# Patterns
+# Knowing-verb regex for pattern 1 (KNOWS as fallback)
 # ---------------------------------------------------------------------------
 
 KNOWS_PROSE_RE = re.compile(
-    r"\b(knew|known|knows|knowing|learned of|learnt of|informed|told|"
-    r"acquainted|familiar with|recognize[sd]?|aware of|met|meets|meeting)\b",
+    r"\b(knew|know|known|knows|knowing|learned of|learnt of|learn(?:ed|s|ing)\b|"
+    r"informed|informs|informing|told|tells|telling|"
+    r"acquainted|familiar with|recogni[sz]e[sd]?|recogni[sz]ing|"
+    r"aware of|met\b|meets|meeting|heard of|hears of|discovers?)\b",
     re.IGNORECASE,
 )
 
-# Map node directory name -> normalized "type family" prefix used in contracts.
-# Directories below `graph/nodes/` whose name maps to a family. Anything not
-# listed is left as the raw dir name (e.g. "concepts", "titles") and will not
-# match the strict family checks below — those rows simply won't be flagged
-# for type-contract violations (they may still be flagged on other patterns).
-DIR_TO_TYPE_FAMILY = {
+# ---------------------------------------------------------------------------
+# Slug → type-family index from graph/nodes/
+# ---------------------------------------------------------------------------
+
+# Map node directory name → type-family prefix for contract checks.
+# "characters" → "character", "events" → "event", etc.
+DIR_TO_TYPE_FAMILY: dict[str, str] = {
     "characters": "character",
     "events":     "event",
     "locations":  "place",
@@ -60,31 +91,27 @@ DIR_TO_TYPE_FAMILY = {
     "factions":   "organization",
     "houses":     "organization",
     "religions":  "organization",
+    "species":    "creature",
+    "titles":     "title",
+    "concepts":   "concept",
+    "texts":      "text",
+    "theories":   "theory",
+    "prophecies": "prophecy",
+    "foods":      "object.food",
+    "materials":  "object.material",
+    "customs":    "concept.custom",
+    "languages":  "concept.language",
+    "medical":    "concept.medical",
+    "chapters":   "chapter",
 }
 
-# edge_type -> required target-type family (or set of acceptable families).
-# Used by the type-contract pattern checks below.
-EDGE_TYPE_TARGET_CONTRACT = {
-    "ATTENDS":          {"event"},
-    "FIGHTS_IN":        {"event", "organization"},
-    "TRAVELS_TO":       {"place"},
-    "LOCATED_AT":       {"place"},
-    "BORN_AT":          {"place"},
-    "DIED_AT":          {"place"},
-    "SPOUSE_OF":        {"character"},
-    "WIELDS":           {"object.artifact"},
-}
-
-
-# ---------------------------------------------------------------------------
-# Slug -> type index (built by walking graph/nodes/)
-# ---------------------------------------------------------------------------
 
 def build_slug_index(nodes_root: Path) -> dict[str, str]:
     """Return {slug: type_family} for every node file under nodes_root.
 
-    Cheap: uses the parent directory name; no frontmatter parsing required for
-    the family check. Slugs are derived from filenames (`<slug>.node.md`).
+    Cheap: uses the parent directory name; no frontmatter parsing needed.
+    Slugs are derived from filenames (<slug>.node.md).
+    First-write wins across directories; collisions are graph-cleanup issues.
     """
     index: dict[str, str] = {}
     if not nodes_root.is_dir():
@@ -93,110 +120,179 @@ def build_slug_index(nodes_root: Path) -> dict[str, str]:
         if not dir_path.is_dir():
             continue
         dir_name = dir_path.name
-        if dir_name.startswith("_"):  # _conflicts, _unclassified — skip
+        if dir_name.startswith("_"):
             continue
         family = DIR_TO_TYPE_FAMILY.get(dir_name, dir_name)
         for node_file in dir_path.glob("*.node.md"):
-            slug = node_file.name[:-len(".node.md")]
-            # First-write wins; collisions across dirs are graph-cleanup issues,
-            # not our concern.
+            slug = node_file.stem  # removes .node.md suffix
+            if slug.endswith(".node"):
+                slug = slug[: -len(".node")]
             index.setdefault(slug, family)
     return index
 
 
 # ---------------------------------------------------------------------------
-# Pattern checks
+# Schema-normalisation helpers (old vs new emit_edge formats coexist)
 # ---------------------------------------------------------------------------
 
-def check_patterns(row: dict, slug_type: dict[str, str]) -> list[str]:
-    """Return list of pattern names this row matches; empty list = clean."""
-    matched: list[str] = []
+def get_source_slug(row: dict) -> str | None:
+    return row.get("source_slug") or row.get("source") or None
 
+
+def get_target_slug(row: dict) -> str | None:
+    return row.get("target_slug") or row.get("target") or None
+
+
+def get_confidence_tier(row: dict) -> int | None:
+    """Normalise confidence_tier to int (1/2/3) or None."""
+    ct = row.get("confidence_tier")
+    if isinstance(ct, int):
+        return ct
+    # Old schema: "tier-1" / "tier-2" / "tier-3"
+    if isinstance(ct, str) and ct.startswith("tier-"):
+        try:
+            return int(ct.split("-")[1])
+        except (IndexError, ValueError):
+            pass
+    # Some old rows use "confidence" instead of "confidence_tier"
+    c = row.get("confidence")
+    if isinstance(c, str) and c.startswith("tier-"):
+        try:
+            return int(c.split("-")[1])
+        except (IndexError, ValueError):
+            pass
+    if isinstance(c, int):
+        return c
+    return None
+
+
+# ---------------------------------------------------------------------------
+# Pattern checks — return list of flag-reason strings
+# ---------------------------------------------------------------------------
+
+def check_patterns(
+    row: dict,
+    slug_type: dict[str, str],
+) -> list[str]:
+    """Return list of flag-reason strings; empty = no flags."""
     if row.get("decision") != "emit_edge":
-        return matched
+        return []
 
-    edge_type = row.get("edge_type")
-    target_slug = row.get("target_slug")
+    edge_type   = row.get("edge_type") or ""
+    source_slug = get_source_slug(row) or ""
+    target_slug = get_target_slug(row) or ""
+    snippet     = row.get("evidence_snippet") or ""
+    confidence  = get_confidence_tier(row)
+
+    source_family = slug_type.get(source_slug) if source_slug else None
     target_family = slug_type.get(target_slug) if target_slug else None
-    snippet = row.get("evidence_snippet", "") or ""
-    confidence_tier = row.get("confidence_tier")
 
-    # Pattern 1: KNOWS soft-fallback
+    flags: list[str] = []
+
+    # --- Pattern 1: KNOWS as fallback ---
     if edge_type == "KNOWS" and not KNOWS_PROSE_RE.search(snippet):
-        matched.append("knows-without-knowing-prose")
+        flags.append("knows_as_fallback")
 
-    # Patterns 2-6 + 8: type-contract violations
-    contract = EDGE_TYPE_TARGET_CONTRACT.get(edge_type)
-    if contract and target_family is not None and target_family not in contract:
-        matched.append(f"target-type-mismatch-{edge_type.lower()}")
+    # --- Pattern 2: ATTENDS with non-event target ---
+    if edge_type == "ATTENDS":
+        if target_family is not None and not target_family.startswith("event"):
+            flags.append("attends_non_event")
+        elif target_family is None and target_slug:
+            # Target slug exists in data but not in slug index — flag it
+            flags.append("attends_non_event")
 
-    # Pattern 8: CONTEMPORARY_WITH with character target
-    if edge_type == "CONTEMPORARY_WITH" and target_family == "character":
-        matched.append("contemporary-with-character-target")
+    # --- Pattern 3: FIGHTS_IN with non-event target ---
+    if edge_type == "FIGHTS_IN":
+        if target_family is not None and not target_family.startswith("event"):
+            flags.append("fights_in_non_event")
+        elif target_family is None and target_slug:
+            flags.append("fights_in_non_event")
 
-    # Pattern 7: model self-flagged low-confidence
-    if isinstance(confidence_tier, int) and confidence_tier == 3:
-        matched.append("confidence-tier-3")
+    # --- Pattern 4: KILLED_BY with non-person source ---
+    if edge_type == "KILLED_BY":
+        if source_family is not None:
+            is_ok = (
+                source_family.startswith("character")
+                or source_family.startswith("creature")
+                or source_family == "object.artifact"  # weapons
+            )
+            if not is_ok:
+                flags.append("killed_by_non_person")
+        elif source_family is None and source_slug:
+            # Source not in index but slug present — flag conservatively
+            flags.append("killed_by_non_person")
 
-    return matched
+    # --- Pattern 5: Tier-3 with weak/absent evidence snippet ---
+    if confidence == 3:
+        stripped = snippet.strip()
+        if len(stripped) < 20:
+            flags.append("tier3_weak_evidence")
+
+    # --- Pattern 6: CONTEMPORARY_WITH on character pair ---
+    if edge_type == "CONTEMPORARY_WITH":
+        if (source_family is not None and source_family.startswith("character")
+                and target_family is not None and target_family.startswith("character")):
+            flags.append("contemporary_with_char_pair")
+
+    return flags
 
 
 # ---------------------------------------------------------------------------
-# Batch + file enumeration (mirrors validator's logic)
+# Batch enumeration via mission manifest
 # ---------------------------------------------------------------------------
 
-def derive_output_paths_from_input(input_paths: list[str]) -> list[str]:
-    out: list[str] = []
-    for p in input_paths:
-        if "/prose-edge-candidates/" in p:
-            out.append(
-                p.replace("/prose-edge-candidates/", "/prose-edges/")
-                 .replace(".candidates.jsonl", ".edges.jsonl")
-            )
-        elif "/comention-candidates/" in p:
-            out.append(
-                p.replace("/comention-candidates/", "/prose-edges/")
-                 .replace(".candidates.jsonl", ".comention-edges.jsonl")
-            )
-        elif "/extractions-pass1/" in p:
-            parts = p.split("/")
-            slug_with_ext = parts[-1]
-            base = "/".join(parts[:-1])
-            out.append(
-                f"{base}/prose-edges/"
-                f"{slug_with_ext.replace('.candidates.jsonl', '.pass1-edges.jsonl')}"
-            )
-        else:
-            out.append(p.replace(".candidates.jsonl", ".edges.jsonl"))
-    return out
+def derive_output_path(input_path: str) -> str:
+    """Convert a candidate input path to the corresponding .edges.jsonl path."""
+    if "/prose-edge-candidates/" in input_path:
+        return (
+            input_path
+            .replace("/prose-edge-candidates/", "/prose-edges/")
+            .replace(".candidates.jsonl", ".edges.jsonl")
+        )
+    if "/comention-candidates/" in input_path:
+        return (
+            input_path
+            .replace("/comention-candidates/", "/prose-edges/")
+            .replace(".candidates.jsonl", ".comention-edges.jsonl")
+        )
+    if "/extractions-pass1/" in input_path:
+        parts = input_path.rsplit("/", 1)
+        base, fname = parts[0], parts[1] if len(parts) > 1 else ""
+        return f"{base}/prose-edges/{fname.replace('.candidates.jsonl', '.pass1-edges.jsonl')}"
+    return input_path.replace(".candidates.jsonl", ".edges.jsonl")
 
 
-def iter_done_batches(mission_dir: Path, batch_id_filter: str | None = None):
-    """Yield (batch_id, [output_file_paths]) for each `done` batch."""
-    manifest = mission_dir / "batch-manifest.jsonl"
-    if not manifest.exists():
-        raise FileNotFoundError(f"No batch-manifest.jsonl at {manifest}")
-    with manifest.open() as f:
+def iter_done_batches(
+    manifest_path: Path,
+    repo_root: Path,
+    batch_id_filter: str | None = None,
+):
+    """Yield (batch_id, [absolute Path to output .edges.jsonl]) for each done batch."""
+    with manifest_path.open() as f:
         for line in f:
             if not line.strip():
                 continue
             r = json.loads(line)
             if r.get("status") != "done":
                 continue
-            bid = r.get("batch_id")
+            bid = r.get("batch_id", "")
             if batch_id_filter and bid != batch_id_filter:
                 continue
-            yield bid, derive_output_paths_from_input(r.get("files", []))
+            out_paths = [
+                repo_root / derive_output_path(fp)
+                for fp in r.get("files", [])
+            ]
+            yield bid, out_paths
 
 
 def load_jsonl(path: Path):
-    """Yield (line_no, parsed_row) for each non-blank line. Skips parse errors."""
-    with path.open() as f:
-        for i, line in enumerate(f, 1):
+    """Yield parsed rows from a JSONL file; skip blank lines and parse errors."""
+    with path.open(encoding="utf-8") as f:
+        for line in f:
             if not line.strip():
                 continue
             try:
-                yield i, json.loads(line)
+                yield json.loads(line)
             except json.JSONDecodeError:
                 continue
 
@@ -206,158 +302,187 @@ def load_jsonl(path: Path):
 # ---------------------------------------------------------------------------
 
 def main() -> int:
-    p = argparse.ArgumentParser(description=__doc__)
-    p.add_argument(
+    ap = argparse.ArgumentParser(
+        description=__doc__,
+        formatter_class=argparse.RawDescriptionHelpFormatter,
+    )
+    ap.add_argument(
         "--mission",
         default="working/missions/2026-05-14-stage4-v1-bulk-sonnet",
         help="Mission directory containing batch-manifest.jsonl",
     )
-    p.add_argument(
-        "--batch-id",
-        help="Process only this batch (default: all done batches)",
+    ap.add_argument(
+        "--repo-root",
+        default=".",
+        help="Repository root (default: current directory)",
     )
-    p.add_argument(
+    ap.add_argument(
+        "--batch-id",
+        help="Process only this single batch (default: all done batches)",
+    )
+    ap.add_argument(
         "--nodes-root",
         default="graph/nodes",
-        help="Root of typed-node directories",
+        help="Root of typed-node directories for slug→type index",
     )
-    p.add_argument(
+    ap.add_argument(
         "--out-dir",
         default="working/wiki/data",
-        help="Output directory for suspicious-edges.jsonl + summary.md",
+        help="Output directory for stage4-suspicious-edges.jsonl",
     )
-    p.add_argument(
-        "--samples-per-pattern",
+    ap.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Scan and report counts but do NOT write output file",
+    )
+    ap.add_argument(
+        "--sample",
         type=int,
-        default=5,
-        help="How many sample rows to include per pattern in the summary",
+        metavar="N",
+        help="Process at most N batches (for quick testing)",
     )
-    p.add_argument("--verbose", "-v", action="store_true")
-    args = p.parse_args()
+    ap.add_argument("--verbose", "-v", action="store_true")
+    args = ap.parse_args()
 
-    mission_dir = Path(args.mission)
-    nodes_root = Path(args.nodes_root)
-    out_dir = Path(args.out_dir)
-    out_dir.mkdir(parents=True, exist_ok=True)
-    out_jsonl = out_dir / "stage4-suspicious-edges.jsonl"
-    out_md = out_dir / "stage4-suspicious-edges-summary.md"
+    repo_root   = Path(args.repo_root).resolve()
+    mission_dir = repo_root / args.mission
+    nodes_root  = repo_root / args.nodes_root
+    out_dir     = repo_root / args.out_dir
+    manifest    = mission_dir / "batch-manifest.jsonl"
 
+    if not manifest.exists():
+        print(f"ERROR: manifest not found at {manifest}", file=sys.stderr)
+        return 1
+
+    # --- Build slug→type index ---
     print(f"Building slug→type index from {nodes_root} ...", file=sys.stderr)
     slug_type = build_slug_index(nodes_root)
     print(f"  {len(slug_type):,} slugs indexed", file=sys.stderr)
 
-    pattern_counts: Counter[str] = Counter()
-    pattern_samples: dict[str, list[dict]] = defaultdict(list)
-    edge_type_by_pattern: dict[str, Counter[str]] = defaultdict(Counter)
-    batches_seen = 0
-    files_seen = 0
+    # --- Counters ---
+    pattern_counts:   Counter[str]              = Counter()
+    bucket_counts:    Counter[str]              = Counter()
+    pattern_samples:  dict[str, list[dict]]     = defaultdict(list)
+    batches_seen  = 0
+    files_seen    = 0
     files_missing = 0
-    rows_seen = 0
+    rows_scanned  = 0
+    emits_scanned = 0
     flagged_count = 0
 
-    with out_jsonl.open("w") as out_f:
-        for batch_id, out_files in iter_done_batches(mission_dir, args.batch_id):
-            batches_seen += 1
-            if args.verbose:
-                print(f"batch={batch_id} files={len(out_files)}", file=sys.stderr)
-            for fp in out_files:
-                path = Path(fp)
-                if not path.exists():
-                    files_missing += 1
-                    continue
-                files_seen += 1
-                for line_no, row in load_jsonl(path):
-                    rows_seen += 1
-                    matched = check_patterns(row, slug_type)
-                    if not matched:
-                        continue
-                    flagged_count += 1
-                    enriched = {
-                        "batch_id": batch_id,
-                        "file": fp,
-                        "line_no": line_no,
-                        "matched_patterns": matched,
-                        "target_type_family": slug_type.get(
-                            row.get("target_slug", ""), None
-                        ),
-                        "row": row,
-                    }
-                    out_f.write(json.dumps(enriched) + "\n")
-                    for pat in matched:
-                        pattern_counts[pat] += 1
-                        edge_type_by_pattern[pat][row.get("edge_type", "?")] += 1
-                        if len(pattern_samples[pat]) < args.samples_per_pattern:
-                            pattern_samples[pat].append(enriched)
-
-    # ---------------- summary markdown ----------------
-    lines: list[str] = []
-    lines.append("# Stage 4 Suspicious Edges — Summary")
-    lines.append("")
-    lines.append(
-        f"Generated by `scripts/wiki-pass2-flag-suspicious-edges.py`. "
-        f"This is a flagger, not a blocker — each row below was emitted by "
-        f"the Stage 4 classifier and stored to the bucket. A later "
-        f"Opus-audit pass will confirm or retract."
+    # --- Write to temp file, then atomically rename ---
+    out_dir.mkdir(parents=True, exist_ok=True)
+    out_path = out_dir / "stage4-suspicious-edges.jsonl"
+    tmp_fd, tmp_path_str = tempfile.mkstemp(
+        dir=out_dir, prefix=".stage4-suspicious-edges.tmp-"
     )
-    lines.append("")
-    lines.append("## Scope")
-    lines.append("")
-    lines.append(f"- Mission: `{mission_dir}`")
-    if args.batch_id:
-        lines.append(f"- Batch filter: `{args.batch_id}`")
-    lines.append(f"- Batches scanned (done): {batches_seen}")
-    lines.append(f"- Output files scanned: {files_seen} (missing: {files_missing})")
-    lines.append(f"- Rows scanned: {rows_seen:,}")
-    lines.append(f"- Rows flagged: {flagged_count:,}")
-    if rows_seen:
-        pct = (flagged_count / rows_seen) * 100
-        lines.append(f"- Flag rate: {pct:.2f}%")
-    lines.append("")
-    lines.append("## Counts by pattern")
-    lines.append("")
-    lines.append("| Pattern | Count | Top edge_types |")
-    lines.append("|---|---:|---|")
+
+    try:
+        with open(tmp_fd, "w", encoding="utf-8") as out_f:
+            for batch_id, out_files in iter_done_batches(manifest, repo_root, args.batch_id):
+                batches_seen += 1
+                if args.sample and batches_seen > args.sample:
+                    break
+                if args.verbose:
+                    print(f"  batch={batch_id}  files={len(out_files)}", file=sys.stderr)
+
+                for fpath in out_files:
+                    if not fpath.exists():
+                        files_missing += 1
+                        continue
+                    files_seen += 1
+
+                    for row in load_jsonl(fpath):
+                        rows_scanned += 1
+                        if row.get("decision") != "emit_edge":
+                            continue
+                        emits_scanned += 1
+
+                        flags = check_patterns(row, slug_type)
+                        if not flags:
+                            continue
+
+                        flagged_count += 1
+                        source_slug = get_source_slug(row) or ""
+                        target_slug = get_target_slug(row) or ""
+
+                        out_row = {
+                            "source_slug":     source_slug,
+                            "edge_type":       row.get("edge_type") or "",
+                            "target_slug":     target_slug,
+                            "qualifier":       row.get("qualifier"),
+                            "confidence_tier": get_confidence_tier(row),
+                            "evidence_snippet": row.get("evidence_snippet") or "",
+                            "evidence_kind":   row.get("evidence_kind") or "",
+                            "source_batch":    batch_id,
+                            "source_file":     str(fpath),
+                            "flag_reasons":    flags,
+                        }
+
+                        for pat in flags:
+                            pattern_counts[pat] += 1
+                            bucket_counts[batch_id] += 1
+                            if len(pattern_samples[pat]) < 5:
+                                pattern_samples[pat].append(out_row)
+
+                        if not args.dry_run:
+                            out_f.write(json.dumps(out_row) + "\n")
+
+        if args.dry_run:
+            Path(tmp_path_str).unlink(missing_ok=True)
+        else:
+            shutil.move(tmp_path_str, out_path)
+
+    except Exception:
+        Path(tmp_path_str).unlink(missing_ok=True)
+        raise
+
+    # --- Stdout summary ---
+    print()
+    print("=" * 60)
+    print("Stage 4 Suspicious-Edges Flagger — Summary")
+    print("=" * 60)
+    print(f"Batches scanned (done):   {batches_seen}")
+    print(f"Output files found:       {files_seen}  (missing: {files_missing})")
+    print(f"Total rows scanned:       {rows_scanned:,}")
+    print(f"  of which emit_edge:     {emits_scanned:,}")
+    print(f"Flagged edges:            {flagged_count:,}", end="")
+    if emits_scanned:
+        print(f"  ({flagged_count / emits_scanned * 100:.1f}% of emits)", end="")
+    print()
+    if args.dry_run:
+        print("[DRY RUN — no output file written]")
+    elif args.sample:
+        print(f"[SAMPLE MODE — processed first {args.sample} batches only]")
+    print()
+
+    print("Per-pattern flag counts:")
     for pat, cnt in pattern_counts.most_common():
-        top = ", ".join(
-            f"`{et}` ({n})"
-            for et, n in edge_type_by_pattern[pat].most_common(5)
-        )
-        lines.append(f"| `{pat}` | {cnt} | {top} |")
-    lines.append("")
-    lines.append("## Sample rows per pattern")
-    lines.append("")
+        print(f"  {pat:<35}  {cnt:>5}")
+
+    if pattern_counts:
+        print()
+        print("Top 5 most-flagged batches:")
+        for bid, cnt in bucket_counts.most_common(5):
+            print(f"  {bid}:  {cnt}")
+
+    print()
+    print("Sample flagged edges per pattern:")
     for pat, _ in pattern_counts.most_common():
-        lines.append(f"### `{pat}`")
-        lines.append("")
-        for sample in pattern_samples[pat]:
-            r = sample["row"]
-            src = r.get("source_slug") or r.get("pair_a") or "?"
-            tgt = r.get("target_slug") or r.get("pair_b") or "?"
-            et = r.get("edge_type", "?")
-            ct = r.get("confidence_tier", "?")
-            tfam = sample.get("target_type_family") or "—"
-            snip = (r.get("evidence_snippet") or "").replace("\n", " ").strip()
-            if len(snip) > 200:
-                snip = snip[:200] + "…"
-            lines.append(
-                f"- **{src} → {tgt}** `{et}` tier={ct} "
-                f"target_family=`{tfam}` (batch `{sample['batch_id']}`)"
+        print(f"\n  [{pat}]")
+        for s in pattern_samples[pat][:3]:
+            print(
+                f"    {s['source_slug']} --{s['edge_type']}--> {s['target_slug']}"
+                f"  tier={s['confidence_tier']}  batch={s['source_batch']}"
             )
+            snip = (s["evidence_snippet"] or "").replace("\n", " ").strip()
             if snip:
-                lines.append(f"  > {snip}")
-        lines.append("")
+                print(f"      snippet: {snip[:100]}")
 
-    out_md.write_text("\n".join(lines))
+    print()
+    if not args.dry_run and not args.sample:
+        print(f"Output: {out_path}")
 
-    # ---------------- console report ----------------
-    print()
-    print(f"Scanned {batches_seen} batches, {files_seen} files, {rows_seen:,} rows")
-    print(f"Flagged {flagged_count:,} rows ({len(pattern_counts)} distinct patterns)")
-    for pat, cnt in pattern_counts.most_common():
-        print(f"  {pat}: {cnt}")
-    print()
-    print(f"Wrote {out_jsonl}")
-    print(f"Wrote {out_md}")
     return 0
 
 
