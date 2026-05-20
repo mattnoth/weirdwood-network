@@ -178,6 +178,105 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 60 — Stage 4 Haiku: Normalizer + No-Silent-Drop Pipeline (2026-05-19)
+
+**Detail:** `history/session-details/session-060.md`
+
+**Changes made:**
+- `scripts/stage4-haiku-normalize-edge-types.py` — NEW. Deterministic edge-type-name normalizer: morphological alias table (6 entries — `TRAVELED_TO`→`TRAVELS_TO`, `DIES_AT`→`DIED_AT`, `ALLIED_WITH`→`ALLIES_WITH`, `ATTENDED`→`ATTENDS`, `LOCATEDOCATED_AT`→`LOCATED_AT`, `LOCATED_IN`→`LOCATED_AT`) + difflib fallback @0.80 + `--dry-run`/`--dump-vocab` modes. Applied 19 morphological rewrites to existing Haiku output (batch-0020 + 8-wave).
+- `scripts/wiki-pass2-validate-edge-jsonl.py` — `load_canonical_vocab()` fixed: was over-counting 161 (scraped `FOSTERED_BY` + `LOCATED_IN` from description prose); now table-row-key regex → correct **159**.
+- `working/missions/2026-05-19-stage4-haiku/unresolved-edges-log.jsonl` — NEW. Persistent multi-stage append log (22 rows; `stage` field lets normalizer/residual-pass/validator all write; dedup-keyed; idempotent).
+- `working/missions/2026-05-19-stage4-haiku/locked-edge-vocab-159.md` — NEW. Printed self-contained 159-vocab reference (name + description + type-contract).
+- `working/missions/2026-05-19-stage4-haiku/normalizer-report-2026-05-19.md` — NEW.
+- Reverted Session-59 Sonnet-mission debris: `working/missions/2026-05-14-stage4-v1-bulk-sonnet/{state.jsonl, locks/batch-0057.lock, locks/batch-0067.lock}` restored via `git checkout`.
+- `progress/continue-prompts/2026-05-19-stage4-haiku-normalize-and-residual.md` — NEW. `2026-05-19-stage4-haiku-run-batches.md` — DELETED (superseded).
+- `history/session-details/session-060.md` — NEW.
+
+**Decisions:** The deterministic normalizer fixes ONLY morphological variants (same word, wrong tense / literal typo) — cross-lemma semantic remaps must NOT be auto-applied (a first build over-reached with a synonym table — `ATTACKED_BY`→`KILLED_BY` etc. — caught and removed; silently laundering semantic errors would destroy the Haiku-vs-Sonnet drift signal we are about to measure). Vocab is **159**, confirmed — the validator parser bug reporting 161 is fixed. **No-silent-drop pipeline locked** (6 stages: prevention → classify → normalizer → 2nd-Haiku residual pass → validator → targeted Opus review); every unresolved edge accumulates in `unresolved-edges-log.jsonl` with a `stage` tag, never dropped. The final Opus review is **self-contained** — reads only the log + the printed 159-vocab, never architecture.md. Sequencing: **prevention first** (inline vocab into the classify prompt) — shrinks the residual across the whole ~1017-batch bulk. The Session-59 Sonnet-mission touch was an abandoned Haiku-as-Sonnet-worker attempt; **no Sonnet output was overwritten**; the current Python orchestrator never touches the Sonnet mission. "harness" retired as project vocabulary.
+
+**What's next:**
+- **STEP 1 prevention → STEP 2 residual pass → STEP 3 targeted Opus review → STEP 4 validator-to-log → then run/compare/harden/scale** → continue: `progress/continue-prompts/2026-05-19-stage4-haiku-normalize-and-residual.md` (**Opus 4.7** conductor).
+- Known flags: `FOSTERED_BY`/`FOSTERED_BY_INVERSE` need direction-aware handling (in the log, not auto-fixed); chunk-size never validly tested (8-wave batches were all 5 files = single chunk); Opus conductor/watcher sessions are the cost driver, not the Haiku batches (~$8.50 Haiku API to date).
+- **/endsession was explicitly authorized this session.**
+
+---
+
+### Session 59 — Stage 4 Haiku Worker Built + Smoke (2026-05-19)
+
+**Detail:** `history/session-details/session-059.md`
+
+**Changes made:**
+- `scripts/stage4-haiku-run.py` — NEW. Haiku Stage 4 orchestrator: batch selection (`--batches`/`--all-done`), `--chunk-size`, `--concurrency` (parallel chunks), rate-limit detection, provenance snapshot, results + `run-summary.json`. Output → `prose-edges-haiku/` (separate from Sonnet's `prose-edges/`).
+- `.claude/commands/stage4-haiku-classify.md` — NEW. Thin classify-only Haiku prompt; hardened with a `## CRITICAL RULES` section (Tier-1 qualifier-enum table, KNOWS STOP, qualifier≠direction, no-invented-types, type contracts).
+- `.claude/agents/prose-edge-classifier.md` — R1/R2/R3 applied (Pattern 5 KNOWS STOP rule + KNOWS type-contract row; co-presence centralized rule; qualifier self-check).
+- `scripts/stage4-haiku-smoke-prep.py` / `-cleanup.py` / `-finish.sh` — NEW (smoke scaffolding).
+- `working/session-results/2026-05-19-batch-0020-opus-audit.md` — NEW (audit re-run; verdict "needs prompt change first" → R1).
+- New Haiku mission dir `working/missions/2026-05-19-stage4-haiku/`; batch-0020 Sonnet control + Haiku-v1 output archived under `working/wiki/pass2-buckets/_archive/`.
+- Memory `project_stage4_haiku_not_sonnet.md` — NEW.
+- Continue prompt `2026-05-19-stage4-haiku-run-batches.md` — NEW. `2026-05-19-stage4-haiku-smoke-fire.md` + `2026-05-19-batch-0020-opus-audit.md` — DELETED (completed).
+
+**Decisions:** Haiku is the Stage 4 bulk worker; **Sonnet is off the table** (cost — ~1017 batches; memory `project_stage4_haiku_not_sonnet`). The Haiku worker is built SEPARATE from the Sonnet worker (own scripts, output dir, mission dir) — never co-mingle. Haiku cannot drive the Sonnet worker harness's batch-bookkeeping (claimed wrong batch, early-exited, asked human mid-task) → a Python orchestrator does all bookkeeping; Haiku only classifies. Prompt hardening works when rules are inlined WITH their data (qualifier-missing 38→0, KNOWS 60→16) — proven twice. Speed-first; imperfect output acceptable (Opus watcher + later mechanical-extraction enrichment backstop). batch-0020 Haiku chunk-10 parallel = $1.86/5.7min vs chunk-3 = $2.99/28.5min — under Sonnet's $3.42. Remaining ~17.5% drift = invented type-name variants + type-contract → next: Python normalizer + inline-vocab + pre-loading re-architecture.
+
+**What's next:**
+- **Opus conductor — optimize Haiku pass speed, run batches, compare vs Sonnet, harden, iterate, scale** → continue: `progress/continue-prompts/2026-05-19-stage4-haiku-run-batches.md` (**Opus 4.7** conductor).
+- 8-batch Haiku wave (queued batches, chunk-15, concurrency-8) completed at session close — next session reads its `run-summary.json` as STEP 0.
+- **/endsession was explicitly authorized this session.**
+
+---
+
+### Session 58 — Stage 4 Lockdown Completion + Vocab Round 2 (2026-05-18 → 2026-05-19)
+
+**Detail:** `history/session-details/session-058.md`
+
+**Changes made:**
+- `reference/edge-qualifier-vocab.md` — NEW. 18 enum-bearing types (8 Tier-1 + 10 Tier-2). IN_LAW_OF added Round 2 with `{by_marriage_of_*}` enum.
+- `reference/architecture.md` — `## Edge Types` intro cross-ref to qualifier-vocab; 10 new edge type rows across 6 subsections (Kinship/Political/Factional/Military/Knowledge/Cultural); vocab callout 149 → 159; Session-58 audit history line added.
+- `.claude/agents/prose-edge-classifier.md` — `notes` field DELETED from emit_edge schema; `qualifier` field added with tier-dependent behavior; qualifier-lookup workflow step (step 4); Pattern 4 prohibition; 5 vocab-count refs bumped 149 → 159; reverse-direction lists extended (STEP_PARENT_OF/STEP_CHILD_OF one-sided pair; IN_LAW_OF/CONSPIRES_WITH symmetric).
+- `scripts/stage4-resolve-link-placeholders.py` — NEW. 4,744 queued candidate files rewritten (121,310 `[LINK]` → `«anchor»` substitutions). Inline patch in `scripts/wiki-pass2-build-edge-candidates.py` for future generations.
+- `scripts/wiki-pass2-validate-edge-jsonl.py` — extended with 3 new check classes (type contracts / qualifier enums / notes-rejection). Self-test on 21 Sonnet control-arm batches surfaces 2,528 new violations (1,757 tier-3 qualifier emission dominant; 380 not-in-enum; 193 notes; 149 missing required; 49 type-contract).
+- `scripts/wiki-pass2-flag-suspicious-edges.py` — extended with 6 pattern classes. Full run across 72 done batches / 4,075 emits: 288 flagged (7.1%). KNOWS-as-fallback dominates at 82.3% of KNOWS emits; batch-0020 alone has 140 of 163.
+- `working/qualifier-vocab/audit-completeness-2026-05-19.md` — NEW. 229-line audit deliverable; 8 STRONG ADOPT edges + 0 sub-qualifiers + 8 MEDIUM DEFER + 11 REJECT + 3 borderlines.
+- `working/qualifier-vocab/decisions.md` — `## Round 2` section appended (Round 1 untouched).
+- `progress/continue-prompts/2026-05-19-batch-0020-opus-audit.md` — NEW (Opus audit running in iTerm2 at session close).
+- `progress/continue-prompts/2026-05-19-stage4-haiku-smoke-fire.md` — NEW.
+- `progress/continue-prompts/2026-05-18-stage4-qualifier-vocab-encode.md` — DELETED (STEP 1.6 completed).
+- `progress/continue-prompts/2026-05-18-stage4-haiku-cutover.md` — DELETED (superseded by smoke-fire prompt).
+- `working/todos.md` — HAIKU-CUTOVER STEPS 1.6/1.7/2/3/4 marked [x]; entity-linking-Pass-1-to-nodes item added under Ideas & Backlog (Matt's session-58 follow-up).
+- `history/session-details/session-058.md` — NEW.
+- `history/worklog-archives/archive012.md` — NEW. Session 53 archived (archive012 holds 1/5 entries).
+
+**Decisions:** **Vocab FINAL at 159 types / 18 enumerable** (8 Tier-1 + 10 Tier-2 + ~141 Tier-3). **Sub-qualifier dimension NOT adopted** — audit confirmed enum value IS the leaf. 10 new edge types adopted from vocab-completeness audit: SPIES_ON, INFORMS, NAMED_AFTER, STEP_PARENT_OF, STEP_CHILD_OF, IN_LAW_OF (Tier-2), RESCUES, BANISHES, TORTURES, CONSPIRES_WITH. **Pass-1 deterministic harvester deferred** — architecture settled (markdown-parse + Haiku closed-vocab + Opus stratified audit), not built; revisit after Haiku smoke. **batch-0020 chosen as canonical Haiku smoke target** (hot zone: 153/437 flagged, KNOWS-fallback concentration). **Haiku smoke fires via watcher pattern** (Matt's call) — watcher Opus 4.7, worker Haiku 4.5, verdict-gating mandatory per drift-detection rule. **Entity-linking via extractions surfaced as follow-up** (Matt's session-close add) — Pass 1 mentions ("Jon Snow", "the bastard of Winterfell") need to resolve to canonical node slugs so extractions can enrich graph-node edges. Deferred to post-smoke. **Mid-session reframe:** Matt's three probing questions — "could you have recorded relationships on that same pass?" → "python might miss what the word means... does that lock in our edges?" → "did we miss anything?" — reshaped the harvester architecture (candidate + verify, not deterministic emit) and triggered the completeness audit that produced Round 2.
+
+**What's next:**
+- **Verify batch-0020 Opus audit completion** (running in fresh iTerm2 separate process at session close; verify `working/session-results/2026-05-19-batch-0020-opus-audit.md` exists before firing smoke).
+- **STEP 5 Haiku smoke fire** → continue: `progress/continue-prompts/2026-05-19-stage4-haiku-smoke-fire.md` (**Opus 4.7 watcher + Haiku 4.5 worker** per mission-protocol). Gated on audit verdict.
+- After smoke: revisit Pass-1 deterministic harvester; decide Stage 4 bulk Haiku resume; begin Pass-1-mention → graph-node entity-linking work (Matt's session-58 add).
+- **Per Matt's standing rule, /endsession was explicitly authorized this session — not auto-triggered.**
+
+---
+
+### Session 57 — Stage 4 Qualifier Vocab Lock-Down (2026-05-18)
+
+**Detail:** `history/session-details/session-057.md`
+
+**Changes made:**
+- `working/qualifier-vocab/decisions.md` — NEW. Full verdict matrix: 17 enumerable types (8 Tier-1 REQUIRED + 9 Tier-2 OPTIONAL) + 132 Tier-3 (no qualifier, no notes). Open questions Q1–Q5 answered. Schema implications for STEP 1.6 + STEP 3 documented.
+- `working/session-results/2026-05-18-stage4-qualifier-vocab-locked.md` — NEW.
+- `progress/continue-prompts/2026-05-18-stage4-qualifier-vocab-encode.md` — NEW. Self-contained STEP 1.6 handoff with all 17 enums verbatim.
+- `progress/continue-prompts/2026-05-18-stage4-qualifier-vocab-lock.md` — DELETED (this session's launching continue prompt, completed).
+- `working/todos.md` — HAIKU-CUTOVER STEP 1.5 marked [x] (17 enums verdicted; notes field deletion decided); new STEP 1.6 (encode) inserted; STEP 3 updated to reference the new vocab file and `notes`-rejection.
+- `history/session-details/session-057.md` — NEW.
+- `history/worklog-archives/archive011.md` — Session 52 archived; archive011 now full at 5 entries.
+
+**Decisions:** **Tier-1 (8):** SIBLING_OF, SPOUSE_OF, PARENT_OF, WARD_OF, HOLDS_TITLE, VOWS_TO, MANIPULATES, SWORN_TO — REQUIRED enum from closed set. **Tier-2 (9):** BETROTHED_TO, LOVER_OF, KILLS, CONTRACTED_WITH, DECEIVES, REVEALS_TO, ATTACKS, KNOWS, GUEST_OF — OPTIONAL enum. **Tier-3 (132):** all others — NO qualifier, NO notes. **`notes` field DELETED ENTIRELY from edge schema across all tiers** (Matt's "zero freeform" call — notes was the open drift surface qualifier-vocab is meant to close). **Encoding strategy: Option C** (new file `reference/edge-qualifier-vocab.md`; architecture.md tables untouched) — decided by fresh-context agent to avoid orchestrator bias. **21 already-emitted Sonnet batches preserved as freeform control arm** for the eventual Haiku enum-locked comparison; no normalizer. Mid-session correction: Matt prompted "is `Relationships Observed` the only Pass 1 table worth noting? there is spatial movement as well" — audit of remaining 16 Pass 1 sections surfaced GUEST_OF as missed Tier-2 candidate via Pass 1's own `## Hospitality & Guest Right` `Type` column (680 rows, top-10 = 88%). 16 enums → 17 enums. Matt's session-close caveat preserved: "I feel like there may be more qualifiers that come up as we are locking this stuff down" — STEP 1.6 should treat the 17 as v1, append rather than re-audit if new ones surface.
+
+**What's next:**
+- **STEP 1.6 — Encode qualifier vocab + delete notes field** → continue: `progress/continue-prompts/2026-05-18-stage4-qualifier-vocab-encode.md` (**Sonnet 4.6** — mechanical translation of decisions.md into runnable artifacts). Writes new `reference/edge-qualifier-vocab.md`, adds one architecture.md cross-ref line, updates prose-edge-classifier prompt schema (delete `notes`, add `qualifier` field + lookup step).
+- STEP 2 ([LINK] sub), STEP 3 (validator — type contracts + qualifier enums + notes-rejection folded), STEP 4 (suspicious-edges flagger) — can run independently / parallel after 1.6. STEP 5 (Haiku smoke) gated on all four.
+- **Per Matt's standing rule, /endsession was explicitly authorized this session — not auto-triggered.**
+
+---
+
 ### Session 56 — Stage 4 Vocab Applied + Qualifier Vocab Lock-Down Planned (2026-05-18)
 
 **Detail:** `history/session-details/session-056.md`
@@ -202,95 +301,10 @@ This is your project memory. When you come back after a break, read Current Stat
 
 ---
 
-### Session 55 — Stage 4 Vocab Lock Decisions + Pass 1 Staleness Incident (2026-05-18)
-
-**Detail:** `history/session-details/session-055.md`
-
-**Changes made:**
-- `scripts/stage4-vocab-gap-analysis.py` — NEW. Normalizer for the 16-distinct-schema `questions-for-matt.jsonl` (68 rows). Outputs `working/agent-fleet-specs/stage4-vocab-gaps-{normalized.jsonl,rollup.md}` — 10 stale-resolved, 37 truly open, 7 untyped.
-- `working/agent-fleet-specs/stage4-vocab-lock-2026-05-18.md` — NEW. Decision doc bucketed A (12 stale rows close) / B (5 accepts) / C (9 rejects: reverse-direction + too-generic) / D (22 borderline → Matt's call). Updated through D verdicts with second-opinion-agent overrides.
-- `working/todos.md` — added "Stage 4 — Haiku Cutover Prep" section with 5 numbered steps (vocab lock / `[LINK]` substitution / validator extension / suspicious-edges worklist / Haiku smoke).
-- 4 staleness fixes applied via dispatched agent: `~/.claude/projects/-Users-mnoth-source-asoiaf-chat/memory/{project_pass1_prompt_v3_canonical.md,MEMORY.md,memory_staleness_policy.md (NEW)}` + `CLAUDE.md` (pipeline table row 4 → "✅ Done"; Orchestration Rule 9 added — worklog wins over continue-prompts when they conflict) + `progress/continue-prompts/2026-05-18-stage4-haiku-cutover.md` ("Status from memory" passage corrected).
-- `history/session-details/session-055.md` — NEW (full narrative).
-- `progress/continue-prompts/2026-05-18-stage4-vocab-lock-apply.md` — NEW (Shape B handoff for apply phase).
-
-**Decisions:** 17 new edge types approved (vocab 132 → 149): `AFFLICTED_BY`, `DIED_OF`, `COMPANION_OF`, `PARTICIPATES_IN`, `OFFICIATES`, `ATTACKS`, `ASSAULTS`, `COURTS`, `CONTRACTED_WITH`, `PROPOSED_AS_BRIDE`, `CROWNS_QUEEN_OF_LOVE_AND_BEAUTY`, `PRACTICES`, `PURCHASED_FROM`, `BUILT`, `CAPTAIN_OF`, `CREW_OF`, `REPUTED_AS`. Plus 2 description mods: `FIGHTS_IN` (add "or tournament"), `MANIPULATES` (qualifier-mechanism note). Rejected: 9 reverse-direction violations (Bucket C), 5 generic/derivable (NAMED_AFTER, extended kinship, BRIBES standalone, USES_AS_SIGIL). **ATTACKS scoped as generic person→person OR creature→person physical violence; ASSAULTS specifically for sexual violence** (Matt's call). **CREW_OF locked at end of session as sibling to CAPTAIN_OF (Path B); both target `object.artifact` vessel.** Subsection placement locked: AFFLICTED_BY/DIED_OF → Knowledge & Information (next to HEALS); CAPTAIN_OF → Possession & Ownership. **Decisions are NOT yet applied** to architecture.md or the classifier prompt — apply work is the next session.
-
-**Incident — stale Pass 1 belief:** Mid-session, orchestrator believed "ACOK/ASOS/ADWD Pass 1 incomplete" based on a 13-day-old memory file + the session's launching continue prompt's "Status from memory" passage. Ground truth: all 5 books complete (344/344) since 2026-05-06. Matt halted, dispatched root-cause investigator. Three stale sources fixed + one new memory rule (`memory_staleness_policy.md`) + CLAUDE.md Rule 9 added: trust worklog over continue prompts when they conflict on state.
-
-**What's next:**
-- **Apply the vocab lock + prepare Haiku smoke-test spec for already-done batches.** → continue: `progress/continue-prompts/2026-05-18-stage4-vocab-lock-apply.md` (**Opus 4.7** — mechanical apply work + smoke-test architecture). Smoke-test candidate batches identified: 0066 (wyman-manderly, 168 cands), 0068 (bowen-marsh), 0072 (taena/hallis multi-page), 0001 (early-batch mix).
-- Then HAIKU-CUTOVER STEPS 2/3/4 ([LINK] sub / validator type contracts / suspicious-edges flagger) — Matt's call whether they happen before the smoke fires or alongside.
-- **Per Matt's standing rule, /endsession was explicitly authorized this session — not auto-triggered.**
-
----
-
-### Session 54 — Stage 4 Schema Lockdown + 21-Batch Bulk Run (2026-05-15 → 2026-05-16)
-
-**Detail:** `history/session-details/session-054.md`
-
-**Changes made:**
-- `.claude/agents/prose-edge-classifier.md` — major patches: added `## Output Contract → Required fields per decision` table (mechanically validated), `evidence_kind` discriminator field on every emit_edge (`wiki-entity` / `wiki-chapter-summary` / `book-pass1`), `pass1_relationship` candidate-shape documentation (was wired in candidate generator but undocumented in prompt), `## Common failure patterns` top-level section with 3 concrete from-the-data examples (CONTEMPORARY_WITH-fallback / FIGHTS_IN-with-person / ATTENDS-with-person), `Reverse-direction edges` rule (PARENT_OF/GUEST_OF/RESURRECTS/TUTORS/WIELDS/OWNS/FORGED_BY are one-sided; KILLS/UNCLO_OF/WARD_OF are both-sided).
-- `working/agent-fleet-specs/worker-snippets/stage4-classifier-template.md` — validator-runs-before-marking-done step + `Two failure modes to avoid` section.
-- `reference/architecture.md` — 11 new edge types across two passes: Session-54 added UNCLE_OF, NEPHEW_OF, KILLED_WITH, ATTENDS; Session-55 added COUSIN_OF, MILK_BROTHER_OF, NURSED_BY, WET_NURSE_OF, KNIGHTED_BY, BESTOWS_KNIGHTHOOD_ON, DEPICTED_IN. Vocab now ~132 types across 15 subsections.
-- `scripts/wiki-pass2-validate-edge-jsonl.py` — NEW. Mechanical validator. Loads architecture.md vocab via regex (127 types found), checks per-decision required fields, checks shape rules (`confidence_tier` int 1-3, `evidence_snippet` verbatim ≥10 chars not section-header, `evidence_kind` matches `candidate_kind`, edge_type in canonical vocab). Self-tested against archived broken batch-0012 (caught 14/14 violations).
-- `~/.claude/projects/-Users-mnoth-source-asoiaf-chat/memory/feedback_drift_detection_mandatory.md` — NEW memory rule. Every bulk LLM run includes mechanical validator + cross-model audit + verdict-gates-resumption, regardless of model.
-- 6 session-results docs written: `2026-05-15-stage4-batch-0012-quality-check.md`, `2026-05-15-stage4-edge-provenance-explained.md`, `2026-05-15-stage4-haiku-smoke-verdict.md`, `2026-05-16-stage4-bulk-run-checkpoint.md`, `2026-05-16-stage4-current-status-and-open-questions.md`, `history/session-details/session-054.md`.
-- 21 Sonnet batches completed (batch-0012 canonical re-run through batch-0021). Manifest: 12 → 21 done. ~600+ prose-edges JSONL files written under `working/wiki/pass2-buckets/<bucket>/prose-edges/`.
-- 2 failed batch-0012 attempts archived for the comparison record: `_archive/batch-0012-sonnet-pre-schema-fix-2026-05-15/` (schema-broken Sonnet) and `_archive/batch-0012-haiku-failed-2026-05-15/` (Haiku semantic failure).
-
-**Decisions:** Haiku 4.5 rejected for prose-edge classification (smoke test: validator-clean but ~80% semantic failure — SERVES-on-everything, KILLED_BY reversal, type-contract violations wholesale). Sonnet stays the bulk worker. Schema drift is a property of LLM-structured-output, not of any model — defense is mechanical validator + cross-model audit, not stronger prompts alone. **The durable answer to "schema lockdown" is to lock the audit, not the prompt** — build a suspicious-edges worklist (KNOWS without explicit "knew" language, ATTENDS-non-event, FIGHTS_IN-non-event, KILLED_BY-non-person, tier-3, CONTEMPORARY_WITH-on-character-pair) for later Opus review. Soft-fallback whack-a-mole pattern: patched CONTEMPORARY_WITH (Session 55 mid-stream), KNOWS-as-fallback emerged in batch-0020 (~37% of emits). Accept the 5-7% baseline; post-clean via the worklist. Sequential single-terminal bulk firing is safer than parallel (rate-limit failures cleaner, no stale-lock cascades).
-
-**Mission state at session end:** 21/201 batches done, ~$37 cumulative spend, 180 queued. Stop file removed; locks dir empty. Worker not running.
-
-**What's next:**
-- **Resume Stage 4 bulk in one terminal** → continue: `progress/continue-prompts/2026-05-16-stage4-bulk-resume.md` (**Sonnet 4.6** workers via `/loop 20m /worker-stage4`). 180 batches × ~$3.42 ≈ $615 remaining.
-- **BEFORE resuming if possible**: extend `scripts/wiki-pass2-validate-edge-jsonl.py` with the suspicious-edges flagging logic (Matt's idea) — flag schema-clean-but-semantically-suspicious patterns to `working/wiki/data/stage4-suspicious-edges.jsonl` for later Opus review. See continue prompt Step 4.
-- **Vocab gaps pending review:** CROWNS_QUEEN_OF_LOVE_AND_BEAUTY (recommend reject); OFFERED_AS_BRIDE / CONSPIRES_WITH / HOSTAGE_OF may surface again at scale.
-- **Per Matt's standing rule, /endsession was explicitly authorized this session — not auto-triggered.**
-
----
-
-### Session 53 — Stage 4 1-Tab Smoke + Throttle Calibration (2026-05-15)
-
-**Detail:** `history/session-details/session-053.md`
-
-**Changes made:**
-- `scripts/stage4.sh` — three edits: (1) added `STAGE4_SLEEP_BETWEEN` env var (default 5400s/90 min) replacing prior 30s inter-batch sleep; (2) fixed `set -e` + `pipefail` bug that was silently terminating the worker on non-zero claude exits (the explicit error-handling block was dead code) — pipeline now wrapped in `set +e` / `set -e`; (3) ported rate-limit detection from `extract.sh` — checks tmp_json for `"status":"rejected"` + `"rateLimitType"`, writes `rate-limit-events.jsonl` + `next-eligible.txt`, breaks cleanly. Status command updated to surface rate-limit events + next-eligible countdown. Help text documents the new env var.
-- 6 stale lock files cleaned across two waves (initial 4 + post-2-tab smoke 2).
-
-**Decisions:** Multi-tab parallelism dropped — Max 5h cap saturates faster than wall-clock benefit (2 tabs hit wall ~60 min; 6 tabs ~30 min). 1-tab + 90-min throttle is the working config. Detection blind spot uncovered: Max-plan session walls appear as plain-text `"You've hit your org's monthly usage limit"`, not as stream-json `rate_limit_event` — current grep doesn't catch them. Filed as future polish (extend grep patterns). Empirical surprise: batch-0012 ran at $3.42 / 23.8 min / 1.3M cache_read — **16x lower cache_read** than multi-tab batches, projected 5-7 batches per 5h window with ~50% headroom for Matt's other Claude use. Hypothesis: 1-tab serial keeps Anthropic's prompt cache warm; multi-tab fragments it.
-
-**Mission state at session end:** 12/201 batches done, $50.09 cumulative, 0 stuck, 189 queued. Final worker is in 90-min sleep with `/tmp/stage4-stop` set — will exit cleanly on wake.
-
-**What's next:**
-- **Spot-check batch-0012 quality + Haiku comparison** (NEXT). → continue: `progress/continue-prompts/2026-05-15-stage4-batch-quality-check.md` (**Opus 4.7** — cross-model audit; auditing Sonnet output with Sonnet misses Sonnet-systematic biases; verdict gates ~$700 of bulk-run downstream). Verdict gates bulk resumption.
-- **Resume bulk run** after quality check passes — `weirwood stage4 1` (90-min throttle); stop file auto-clears on launch.
-- **Per Matt's standing rule, /endsession was explicitly authorized this session — not auto-triggered.**
-
----
-
-### Session 52 — Edge Vocabulary Drift Cleanup (2026-05-13)
-
-**Detail:** `history/session-details/session-052.md`
-
-**Changes made:**
-- `reference/architecture.md` — rewrote vocabulary-lock callout (line 454-465) to distinguish master vocabulary (~96 types across 14 subsections) from wiki-infobox subset (~26 types). Added `WRITTEN_BY` to Narrative & Literary subsection. Added reverse-direction rows: `HELD_BY` (after HOLDS_TITLE), `KILLED_BY` (after KILLS), `DECEIVED_BY` (after DECEIVES). Added deprecation note on `LOCATED_AT` description noting `LOCATED_IN` as deprecated synonym.
-- 21 graph files in `graph/nodes/_conflicts/` — normalized `LOCATED_IN` → `LOCATED_AT`. Final state: 0 LOCATED_IN, 59 LOCATED_AT.
-- `reference/design-philosophy.md` (line 91) — "22 edge types" → "~96 edge types".
-- `.claude/agents/schema-drift-auditor.md` (line 16) — updated to reference both master and subset tables.
-- `.claude/agents/prose-edge-classifier.md` — 3 spots: First Steps (line 14) repointed at master section with explicit perception/narrative/prophecy verb expansion; Vocabulary Lock (line ~74) replaced 22-type hardcoded list with full 14-category expansion (~96 types) referencing architecture.md as source of truth; Definition of Done (line ~131) "22 edge types" → "master vocabulary (~96 edge types)".
-- `next.md` — added top-of-file `★ NEXT RECOMMENDATION` callout for Stage 4 wiki-prose edge classifier. Updated "Where we are today" (date, current node/edge counts, vocab cleanup summary). Expanded Track 5 with "tier-difference not polish" framing + "no book passes required" clarification + Open Question on run shape (single-session vs watcher+workers).
-- `history/session-details/session-052.md` — NEW. Long-form record of discovery + decisions.
-
-**Decisions:** Edge vocabulary is the master `## Edge Types` section in architecture.md (~96 types). Wiki-infobox table is a parser-only subset (~26 types). Prose-edge-classifier emits from the master (it had been incorrectly restricted to the subset — a real bug, not just stale doc). Reverse-direction edges (HELD_BY/KILLED_BY/DECEIVED_BY) are documented as semantic equivalents — query layer treats `HELD_BY(a→b)` as identical to `HOLDS_TITLE(b→a)`. LOCATED_IN normalized to LOCATED_AT (was 21 instances all in _conflicts/). Stage 4 reframed: not "edges incrementally improve graph"; rather, 37 of the 96 master types are entirely unpopulated (perception/identity/prophecy/narrative/causal verbs) and Stage 4 turns "structured feudal wiki" into "graph that knows the story." Tier-difference. Run-shape question (single-session vs watcher+workers) deferred until candidate volume is known.
-
-**What's next:**
-- **Stage 4 wiki-prose edge classifier** (NEXT). Pre-flight: re-run cross-references + edge-candidates scripts (deterministic, free). Then 3-bucket smoke test. → continue: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`
-- Per Matt's standing rule, /endsession was explicitly approved this session — not auto-triggered.
-
----
-
+> Session 55 archived to `history/worklog-archives/archive012.md` (3/5 entries)
+> Session 54 archived to `history/worklog-archives/archive012.md` (2/5 entries)
+> Session 53 archived to `history/worklog-archives/archive012.md` (1/5 entries)
+> Session 52 archived to `history/worklog-archives/archive011.md` (archive011 now full)
 > Session 51 archived to `history/worklog-archives/archive011.md`
 > Session 50 archived to `history/worklog-archives/archive011.md`
 > Session 49b archived to `history/worklog-archives/archive011.md`

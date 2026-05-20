@@ -1,6 +1,27 @@
 # Worklog Archive 011
 
-> Sessions archived from `worklog.md`. Newest first within this file. Each archive holds exactly 5 entries when full. This one is still filling.
+> Sessions archived from `worklog.md`. Newest first within this file. Each archive holds exactly 5 entries when full. This one is now FULL — start `archive012.md` for the next archive.
+
+---
+
+### Session 52 — Edge Vocabulary Drift Cleanup (2026-05-13)
+
+**Detail:** `history/session-details/session-052.md`
+
+**Changes made:**
+- `reference/architecture.md` — rewrote vocabulary-lock callout (line 454-465) to distinguish master vocabulary (~96 types across 14 subsections) from wiki-infobox subset (~26 types). Added `WRITTEN_BY` to Narrative & Literary subsection. Added reverse-direction rows: `HELD_BY` (after HOLDS_TITLE), `KILLED_BY` (after KILLS), `DECEIVED_BY` (after DECEIVES). Added deprecation note on `LOCATED_AT` description noting `LOCATED_IN` as deprecated synonym.
+- 21 graph files in `graph/nodes/_conflicts/` — normalized `LOCATED_IN` → `LOCATED_AT`. Final state: 0 LOCATED_IN, 59 LOCATED_AT.
+- `reference/design-philosophy.md` (line 91) — "22 edge types" → "~96 edge types".
+- `.claude/agents/schema-drift-auditor.md` (line 16) — updated to reference both master and subset tables.
+- `.claude/agents/prose-edge-classifier.md` — 3 spots: First Steps (line 14) repointed at master section with explicit perception/narrative/prophecy verb expansion; Vocabulary Lock (line ~74) replaced 22-type hardcoded list with full 14-category expansion (~96 types) referencing architecture.md as source of truth; Definition of Done (line ~131) "22 edge types" → "master vocabulary (~96 edge types)".
+- `next.md` — added top-of-file `★ NEXT RECOMMENDATION` callout for Stage 4 wiki-prose edge classifier. Updated "Where we are today" (date, current node/edge counts, vocab cleanup summary). Expanded Track 5 with "tier-difference not polish" framing + "no book passes required" clarification + Open Question on run shape (single-session vs watcher+workers).
+- `history/session-details/session-052.md` — NEW. Long-form record of discovery + decisions.
+
+**Decisions:** Edge vocabulary is the master `## Edge Types` section in architecture.md (~96 types). Wiki-infobox table is a parser-only subset (~26 types). Prose-edge-classifier emits from the master (it had been incorrectly restricted to the subset — a real bug, not just stale doc). Reverse-direction edges (HELD_BY/KILLED_BY/DECEIVED_BY) are documented as semantic equivalents — query layer treats `HELD_BY(a→b)` as identical to `HOLDS_TITLE(b→a)`. LOCATED_IN normalized to LOCATED_AT (was 21 instances all in _conflicts/). Stage 4 reframed: not "edges incrementally improve graph"; rather, 37 of the 96 master types are entirely unpopulated (perception/identity/prophecy/narrative/causal verbs) and Stage 4 turns "structured feudal wiki" into "graph that knows the story." Tier-difference. Run-shape question (single-session vs watcher+workers) deferred until candidate volume is known.
+
+**What's next:**
+- **Stage 4 wiki-prose edge classifier** (NEXT). Pre-flight: re-run cross-references + edge-candidates scripts (deterministic, free). Then 3-bucket smoke test. → continue: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`
+- Per Matt's standing rule, /endsession was explicitly approved this session — not auto-triggered.
 
 ---
 
