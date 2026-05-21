@@ -24,7 +24,7 @@
 
 ---
 
-## Tier 2 — OPTIONAL qualifier (10 edge types)
+## Tier 2 — OPTIONAL qualifier (9 edge types)
 
 | Edge Type | Enum Values | Rationale | Data Source |
 |-----------|-------------|-----------|-------------|
@@ -35,7 +35,6 @@
 | `DECEIVES` | `by_lie`, `by_disguise`, `by_omission`, `by_false_witness`, `by_silence`, `unknown` | Method matters. Corpus: lie ×647, disguise ×208, false witness ×5. `by_omission` and `by_silence` are distinct narrative devices (Ned's silence on Jon's parentage). | Pass 1 corpus |
 | `REVEALS_TO` | `voluntary`, `coerced`, `accidental`, `under_torture`, `unknown` | Disclosure conditions matter for trust/credibility scoring. Corpus: voluntarily ×25, under torture ×57, let slip ×10. | Pass 1 corpus |
 | `ATTACKS` | `in_anger`, `unprovoked`, `in_self_defense`, `on_command`, `by_creature`, `unknown` | Motive context. Corpus: in anger ×23, on command ×19, self-defense ×2, unprovoked ×0 (concept exists; word doesn't). `by_creature` for direwolf/eagle/dragon attacks. Weaker empirical signal than other Tier-2 candidates — could drop to Tier-3 if Haiku smoke reveals it's never emitted. | Pass 1 corpus |
-| `KNOWS` | `confirmed`, `suspected`, `told_by`, `witnessed`, `overheard`, `unknown` | Source-of-knowledge basis. Corpus: confirms ×310, suspect ×219, told by ×169, witnessed ×99, overheard ×47. Pairs with `IGNORANT_OF` for knowledge-asymmetry queries (does Sansa know what Cersei knows about Jaime?). | Pass 1 corpus + Information Revealed table `How Revealed` column |
 | `GUEST_OF` | `shelter`, `feast`, `bread_and_salt`, `safe_conduct`, `gift_exchange`, `refused`, `unknown` | Pass 1 explicitly types hospitality events. 680 rows across 344 chapters; top categories: shelter_offered ×235, feast_given ×85, gift_exchange ×46, safe_conduct ×27, bread_and_salt ×10. `bread_and_salt` is the formal compact (sacred); `shelter` is the common case; `refused` covers shelter_denied / refusal_to_host. Violations are captured by the separate `VIOLATES_GUEST_RIGHT` edge — do not fold into GUEST_OF qualifier. Hostage situations are captured by `PRISONER_OF`, not GUEST_OF. | Pass 1 `## Hospitality & Guest Right` table |
 | `IN_LAW_OF` | `by_marriage_of_self`, `by_marriage_of_child`, `by_marriage_of_sibling`, `by_marriage_of_parent`, `unknown` | Marriage-affinity relationship. Symmetric. Sonnet's freeform-qualifier corpus has 97 mentions of "good-mother", "good-father", "good-sister", "good-son", "mother-in-law", "sister-in-law" — mostly in Reach noble-house arcs. Qualifier identifies *which marriage* created the affinity: `by_marriage_of_self` (you married their relative), `by_marriage_of_child` (your child married them or their relative), `by_marriage_of_sibling`, `by_marriage_of_parent`. The graph currently forces a two-hop traversal (SPOUSE_OF + PARENT_OF + invert) and gets nothing for cases where only the in-law link is known; `IN_LAW_OF` closes that gap. | Pass 1 corpus (3 P1 rows) + Sonnet freeform qualifier usage (97 mentions) |
 
@@ -45,7 +44,7 @@
 
 All edge types NOT listed in Tier 1 or Tier 2 above are Tier 3. These edges emit no `qualifier` field and no `notes` field. The edge stands on its own: `source / edge_type / target / confidence_tier / evidence_snippet / evidence_kind`.
 
-**Count check:** Tier 1 (8) + Tier 2 (10) + Tier 3 (~141) = ~159 total (matches architecture.md master vocab count as of Session 58, 2026-05-19).
+**Count check:** Tier 1 (8) + Tier 2 (9) + Tier 3 (~146) = ~163 total (matches architecture.md master vocab count as of Session 63, 2026-05-21 — after KNOWS deprecation).
 
 ---
 

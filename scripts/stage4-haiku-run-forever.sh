@@ -14,9 +14,10 @@
 # Stop:
 #   touch /tmp/stage4-haiku-stop  (will propagate through inner loop)
 #
-# Env (forwarded to inner loop):
+# Env (forwarded to inner loop via bash env inheritance):
 #   STAGE4_HAIKU_SLEEP_BETWEEN, STAGE4_HAIKU_CONCURRENCY,
-#   STAGE4_HAIKU_CHUNK_SIZE, STAGE4_HAIKU_RATE_LIMIT_SLEEP
+#   STAGE4_HAIKU_CHUNK_SIZE, STAGE4_HAIKU_RATE_LIMIT_SLEEP,
+#   STAGE4_HAIKU_BATCH_LIST (path to ordered batch-ID list; overrides manifest order)
 #
 # Env (this wrapper):
 #   STAGE4_HAIKU_RELAUNCH_SLEEP   seconds to wait before re-launching after a crash (default 600 = 10 min)

@@ -22,12 +22,12 @@ class TestLoadCanonicalVocab(unittest.TestCase):
     description prose. The fix was a stricter regex matching only
     table-row keys. These tests freeze that contract."""
 
-    def test_parses_real_architecture_at_164(self):
-        """As of Session 61 (vocab → 164), architecture.md should report 164 canonical types."""
+    def test_parses_real_architecture_at_163(self):
+        """As of Session 63 (KNOWS deprecated, vocab 164 → 163), architecture.md should report 163 canonical types."""
         vocab = validator.load_canonical_vocab(REPO_ROOT / "reference/architecture.md")
-        # Session 61 final count; if vocab grows, update this number.
-        self.assertEqual(len(vocab), 164,
-                         f"Expected 164 canonical edge types, got {len(vocab)}. "
+        # Session 63 final count; if vocab changes again, update this number.
+        self.assertEqual(len(vocab), 163,
+                         f"Expected 163 canonical edge types, got {len(vocab)}. "
                          f"Update this test if vocab has changed.")
 
     def test_excludes_deprecated_synonyms(self):
@@ -35,6 +35,14 @@ class TestLoadCanonicalVocab(unittest.TestCase):
         vocab = validator.load_canonical_vocab(REPO_ROOT / "reference/architecture.md")
         self.assertNotIn("LOCATED_IN", vocab,
                          "LOCATED_IN should be excluded (deprecated synonym in description prose)")
+
+    def test_knows_deprecated_session_63(self):
+        """KNOWS was removed from active vocab in Session 63 (2026-05-21) — 82.3% fallback rate
+        in Stage 4 wiki-prose classification. Must not appear in canonical vocab."""
+        vocab = validator.load_canonical_vocab(REPO_ROOT / "reference/architecture.md")
+        self.assertNotIn("KNOWS", vocab,
+                         "KNOWS should be excluded (deprecated Session 63 — see architecture.md "
+                         "Knowledge & Information section preamble)")
 
     def test_excludes_reverse_direction_labels(self):
         """FOSTERED_BY is mentioned in WARD_OF's description as a permitted reverse — not canonical."""
@@ -77,15 +85,18 @@ class TestLoadQualifierVocab(unittest.TestCase):
 
     def test_parses_real_qualifier_vocab(self):
         result = validator.load_qualifier_vocab(REPO_ROOT / "reference/edge-qualifier-vocab.md")
-        # We expect at least 18 enum-bearing types as of Session 58 (8 Tier-1 + 10 Tier-2)
-        self.assertGreaterEqual(len(result), 18,
-                                f"Expected ≥18 enum-bearing types, got {len(result)}")
+        # Session 63 (KNOWS deprecation): 17 enum-bearing types (8 Tier-1 + 9 Tier-2)
+        self.assertGreaterEqual(len(result), 17,
+                                f"Expected ≥17 enum-bearing types, got {len(result)}")
         # Tier-1 REQUIRED types should be present
         self.assertIn("SIBLING_OF", result)
         self.assertEqual(result["SIBLING_OF"][0], 1, "SIBLING_OF should be Tier 1")
         # Tier-2 OPTIONAL types
         self.assertIn("KILLS", result)
         self.assertEqual(result["KILLS"][0], 2, "KILLS should be Tier 2")
+        # KNOWS deprecated Session 63 — should NOT be in qualifier vocab
+        self.assertNotIn("KNOWS", result,
+                         "KNOWS should be excluded from qualifier vocab (deprecated Session 63)")
 
 
 class TestBuildNodeTypeIndex(unittest.TestCase):

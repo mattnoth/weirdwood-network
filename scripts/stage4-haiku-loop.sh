@@ -41,8 +41,23 @@ log() {
   echo "[$(date '+%Y-%m-%d %H:%M:%S %Z')] $*" | tee -a "$LOOP_LOG"
 }
 
-# Get ordered batch IDs starting at START_BATCH from the Sonnet manifest.
-mapfile -t BATCHES < <(python3 -c "
+# Get ordered batch IDs.
+#
+# If STAGE4_HAIKU_BATCH_LIST is set, read batch IDs from that file (one per line;
+# `# comments` and blank lines ignored; first column is the batch ID, anything
+# after tab/space is ignored). Used for prioritized-scope runs (Option C, etc.)
+# where manifest order is the wrong order.
+#
+# Otherwise, walk the Sonnet manifest from START_BATCH onward (default behavior).
+if [[ -n "${STAGE4_HAIKU_BATCH_LIST:-}" ]]; then
+  if [[ ! -f "$STAGE4_HAIKU_BATCH_LIST" ]]; then
+    log "ERROR: STAGE4_HAIKU_BATCH_LIST=$STAGE4_HAIKU_BATCH_LIST not found"
+    exit 1
+  fi
+  mapfile -t BATCHES < <(awk '/^[[:space:]]*(#|$)/ {next} {print $1}' "$STAGE4_HAIKU_BATCH_LIST")
+  log "Using prioritized batch list: $STAGE4_HAIKU_BATCH_LIST (${#BATCHES[@]} batches)"
+else
+  mapfile -t BATCHES < <(python3 -c "
 import json
 import sys
 start = sys.argv[1]
@@ -59,6 +74,7 @@ with open('$MANIFEST') as f:
         if seen and bid:
             print(bid)
 " "$START_BATCH")
+fi
 
 if (( ${#BATCHES[@]} == 0 )); then
   log "ERROR: No batches found starting at $START_BATCH in $MANIFEST"
