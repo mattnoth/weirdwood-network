@@ -155,6 +155,10 @@ All on origin/main.
 
 2. **KNOWS verb-gate retrofit** — Session 58 audit showed 82.3% of KNOWS emits are fallbacks. Same pattern as ENCOUNTERS. Defer until ENCOUNTERS fix is proven; then apply the same VERB_GATE + Rule pattern to KNOWS.
 
+2b. **Chunk-size sweep** (LEVER 3, ★★ from Session 61 bug list) — current chunk_size=3 means each Haiku call processes 3 files; per-call has fixed overhead (prompt-cache miss on first call, tool auth). Try chunk-5 or chunk-10 on a 30-file batch after Tier-1 baseline, compare wall-clock + quality. Risk: bigger chunks = more context per call = potentially lower precision. Easy A/B via env var: `STAGE4_HAIKU_CHUNK_SIZE=5 bash scripts/stage4-haiku-run-forever.sh batch-NNNN`. Was never validly tested in Sessions 59-61 (8-wave batches were 5 files = single chunk, so chunk_size never bound).
+
+2c. **FOSTERED_BY direction handling** (★ from Session 61 bug list) — already in `unresolved-edges-log.jsonl` with `stage` tag; doesn't block bulk run. Address during the targeted Opus review pass after the bulk run finishes.
+
 3. **74 invented edge types** in the overnight output (~3.1% of emits). Mostly singletons but recurring: PURSUES 6×, KNOWS_OF 3×, HIRES 3×, DEFEATED 3×. Real vocab gaps the bulk run is surfacing. Decision: triage at the end of the full run, decide which (if any) to adopt as vocab 165, 166, ... rather than now.
 
 4. **Test coverage gaps** — current 71 tests cover stage4 Python pipeline only. Future test passes could cover: chapter-splitter, wiki ingester scripts, candidate-builder. Low priority — those scripts haven't been the active fire.
