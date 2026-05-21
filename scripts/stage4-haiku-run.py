@@ -584,19 +584,35 @@ def run_chunk(
 def plan_batch_chunks(
     batch_row: dict,
     chunk_size: int,
+    skip_if_output_exists: bool = False,
 ) -> tuple[list[list[tuple[str, Path]]], list[str]]:
-    """Compute (chunks, warning_messages) for a batch without running anything."""
+    """Compute (chunks, warning_messages) for a batch without running anything.
+
+    When skip_if_output_exists=True, files whose output .edges.jsonl already
+    exists (non-empty) are filtered out — used by the loop's rate-limit
+    re-run path to avoid re-processing files already done in an earlier
+    partial attempt of the same batch.
+    """
     files = batch_row["files"]
     all_pairs: list[tuple[str, Path]] = []
     warnings: list[str] = []
 
+    skipped_count = 0
     for f in files:
         try:
             out = candidate_to_haiku_output(f)
         except ValueError as e:
             warnings.append(f"WARNING: skipping unroutable path: {e}")
             continue
+        if skip_if_output_exists and out.exists() and out.stat().st_size > 0:
+            skipped_count += 1
+            continue
         all_pairs.append((f, out))
+
+    if skipped_count > 0:
+        warnings.append(
+            f"INFO: skipped {skipped_count} file(s) whose output already exists"
+        )
 
     chunks: list[list[tuple[str, Path]]] = []
     for i in range(0, len(all_pairs), chunk_size):
@@ -614,6 +630,7 @@ def run_batch(
     model: str,
     dry_run: bool,
     concurrency: int = 1,
+    skip_if_output_exists: bool = False,
 ) -> dict:
     """Process one batch: chunk its files, invoke Haiku per chunk, verify outputs.
 
@@ -629,7 +646,7 @@ def run_batch(
 
     print(f"\n=== Batch {batch_id} ({len(batch_row['files'])} files, shape={shape}) ===")
 
-    chunks, warnings = plan_batch_chunks(batch_row, chunk_size)
+    chunks, warnings = plan_batch_chunks(batch_row, chunk_size, skip_if_output_exists)
     for w in warnings:
         print(f"  {w}")
 
@@ -772,6 +789,7 @@ def run_all_parallel(
     retries: int,
     model: str,
     concurrency: int,
+    skip_if_output_exists: bool = False,
 ) -> tuple[list[dict], list[dict]]:
     """Run all chunks from all batches in a shared thread pool.
 
@@ -793,7 +811,7 @@ def run_all_parallel(
     for batch_row in target_rows:
         batch_id = batch_row["batch_id"]
         shape = batch_row.get("shape", "unknown")
-        chunks, warnings = plan_batch_chunks(batch_row, chunk_size)
+        chunks, warnings = plan_batch_chunks(batch_row, chunk_size, skip_if_output_exists)
 
         for w in warnings:
             print(f"  [{batch_id}] {w}")
@@ -997,6 +1015,16 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Print chunk plan + rendered prompt for first chunk; invoke nothing",
     )
+    parser.add_argument(
+        "--skip-existing",
+        action="store_true",
+        help=(
+            "Filter out files whose output .edges.jsonl already exists (non-empty) "
+            "before chunking. Used by the loop's rate-limit re-run path to avoid "
+            "re-processing files already done in an earlier partial attempt of "
+            "the same batch."
+        ),
+    )
     return parser.parse_args()
 
 
@@ -1081,6 +1109,7 @@ def main() -> int:
                 model=args.model,
                 dry_run=True,
                 concurrency=args.concurrency,
+                skip_if_output_exists=args.skip_existing,
             )
             all_results.append(result)
 
@@ -1094,6 +1123,7 @@ def main() -> int:
                 model=args.model,
                 dry_run=False,
                 concurrency=1,
+                skip_if_output_exists=args.skip_existing,
             )
             all_results.append(result)
             total_cost += result.get("total_cost_usd", 0.0)
@@ -1137,6 +1167,7 @@ def main() -> int:
             retries=args.retries,
             model=args.model,
             concurrency=args.concurrency,
+            skip_if_output_exists=args.skip_existing,
         )
         for result in all_results:
             total_cost += result.get("total_cost_usd", 0.0)
