@@ -72,4 +72,47 @@
 
 ---
 
-> archive012 — 3/5 entries. Future archived entries (Sessions 56-57 when they age out) will land here.
+### Session 57 — Stage 4 Qualifier Vocab Lock-Down (2026-05-18)
+
+**Detail:** `history/session-details/session-057.md`
+
+**Changes made:**
+- `working/qualifier-vocab/decisions.md` — NEW. Full verdict matrix: 17 enumerable types (8 Tier-1 REQUIRED + 9 Tier-2 OPTIONAL) + 132 Tier-3 (no qualifier, no notes). Open questions Q1–Q5 answered. Schema implications for STEP 1.6 + STEP 3 documented.
+- `working/session-results/2026-05-18-stage4-qualifier-vocab-locked.md` — NEW.
+- `progress/continue-prompts/2026-05-18-stage4-qualifier-vocab-encode.md` — NEW. Self-contained STEP 1.6 handoff with all 17 enums verbatim.
+- `progress/continue-prompts/2026-05-18-stage4-qualifier-vocab-lock.md` — DELETED (this session's launching continue prompt, completed).
+- `working/todos.md` — HAIKU-CUTOVER STEP 1.5 marked [x] (17 enums verdicted; notes field deletion decided); new STEP 1.6 (encode) inserted; STEP 3 updated to reference the new vocab file and `notes`-rejection.
+- `history/session-details/session-057.md` — NEW.
+- `history/worklog-archives/archive011.md` — Session 52 archived; archive011 now full at 5 entries.
+
+**Decisions:** **Tier-1 (8):** SIBLING_OF, SPOUSE_OF, PARENT_OF, WARD_OF, HOLDS_TITLE, VOWS_TO, MANIPULATES, SWORN_TO — REQUIRED enum from closed set. **Tier-2 (9):** BETROTHED_TO, LOVER_OF, KILLS, CONTRACTED_WITH, DECEIVES, REVEALS_TO, ATTACKS, KNOWS, GUEST_OF — OPTIONAL enum. **Tier-3 (132):** all others — NO qualifier, NO notes. **`notes` field DELETED ENTIRELY from edge schema across all tiers** (Matt's "zero freeform" call — notes was the open drift surface qualifier-vocab is meant to close). **Encoding strategy: Option C** (new file `reference/edge-qualifier-vocab.md`; architecture.md tables untouched) — decided by fresh-context agent to avoid orchestrator bias. **21 already-emitted Sonnet batches preserved as freeform control arm** for the eventual Haiku enum-locked comparison; no normalizer.
+
+**What's next:** (queued at session close — completed in Sessions 58-61)
+- STEP 1.6 (encode), STEP 2 ([LINK] sub), STEP 3 (validator), STEP 4 (suspicious-edges flagger), STEP 5 (Haiku smoke).
+- **Per Matt's standing rule, /endsession was explicitly authorized this session.**
+
+---
+
+### Session 56 — Stage 4 Vocab Applied + Qualifier Vocab Lock-Down Planned (2026-05-18)
+
+**Detail:** `history/session-details/session-056.md`
+
+**Changes made:**
+- `reference/architecture.md` — 17 new edge-type rows applied across 8 subsections; 2 description mods; vocab callout 132 → 149; Session-55-second-wave historical note added; gap-filing default rewritten to "vocab FINAL — reject as `no-fitting-type-vocab-locked`."
+- `.claude/agents/prose-edge-classifier.md` — vocab FINAL flip; 5 `~149` references; 17 new types appended to in-prompt category-expansion list; reverse-direction section extended; CONTEMPORARY_WITH STOP-block contradiction fixed.
+- `scripts/stage4-close-vocab-gaps.py` — NEW. Decision-map for all 68 rows in `working/wiki/pass2-buckets/questions-for-matt.jsonl`. 63 rows newly closed, 5 pre-resolved skipped, 0 unresolved.
+- `working/qualifier-vocab/plan.md` — NEW. 1-screen plan for HAIKU-CUTOVER STEP 1.5. Three-tier framing locked: Tier 1 REQUIRED enum / Tier 2 OPTIONAL enum / Tier 3 freeform notes.
+- `progress/continue-prompts/2026-05-18-stage4-qualifier-vocab-lock.md` — NEW.
+- `progress/continue-prompts/2026-05-18-stage4-vocab-lock-apply.md` — DELETED.
+- `working/todos.md` — HAIKU-CUTOVER STEP 1 marked [x]; new STEP 1.5 inserted.
+- New memory: `feedback_lockdown_before_long_passes.md`.
+
+**Decisions:** **Three-tier qualifier framing locked.** **Haiku smoke (STEP 5) BLOCKED on qualifier vocab lock-down (STEP 1.5)** — closing every freestyle surface is the lever for making Haiku viable, not stronger prompts. **Lockdown-before-long-passes is now a project memory rule.** Three additional uncovered types resolved during apply without inventing new vocab: COMPETES_IN (rejected, duplicate of FIGHTS_IN), SOLD_TO (rejected, reverse-of-PURCHASED_FROM), TRANSACTS_WITH (rejected, too-generic).
+
+**What's next:** (queued at session close — completed in Sessions 57-61)
+- Qualifier vocab lock-down → Session 57.
+- **Per Matt's standing rule, /endsession was explicitly authorized this session.**
+
+---
+
+> archive012 — 5/5 entries (FULL). Sessions 53, 54, 55, 56, 57. Next archives go to archive013.md.

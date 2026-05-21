@@ -178,6 +178,50 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 62 — Stage 4 Triage + LEVER 2 + Test Bootstrap (2026-05-21)
+
+**Detail:** `history/session-details/session-062.md`
+
+**Changes made:**
+- Sessions 57-61 backlog committed + pushed: 6 logical commits covering vocab lockdown (Sessions 57-58), [LINK]→«anchor» rewrite (Session 58), Haiku worker (Sessions 59-60), loop infrastructure (Session 61), overnight outputs (Session 61, 363 edge files post-cleanup), worklog/session-details/continue-prompts rotation.
+- **Pre-commit cleanup:** 12 partial batch-0013 .edges.jsonl + 4 result JSONs + 40 run-logs + stale run-summary.json deleted.
+- **LEVER 2 shipped** (`ecd948f0c`): `scripts/stage4-haiku-loop.sh` rate-limit-aware (parses `resets_at_ts` from `rate-limit-events.jsonl`, sleeps until reset+60s, doesn't advance idx on rate-limit, passes `--skip-existing` on retries). `scripts/stage4-haiku-run.py` got `--skip-existing` flag → `plan_batch_chunks(..., skip_if_output_exists=False)` default-preserving param. End-to-end smoke-verified.
+- **Python test suite bootstrap** (`e1da3c5db`): first-ever tests, stdlib `unittest`, hermetic. 71 tests across 4 modules: `test_stage4_haiku_run.py` (21), `test_validate_edge_jsonl.py` (18), `test_normalize_edge_types.py` (11), `test_flag_suspicious_edges.py` (21). Run: `python3 -m unittest discover tests` (~7ms).
+- `working/todos.md` — LEVER 2 task added + completed; design decision recorded.
+- `progress/continue-prompts/2026-05-20-stage4-haiku-throughput-and-resume.md` — DELETED (completed). New continue prompt for next session: `progress/continue-prompts/2026-05-21-stage4-tier1-relaunch.md`.
+
+**Decisions:** **LEVER 2 design = re-run partial batch on resume** (Matt's call) — not skip-ahead. The `--skip-existing` filter ensures token-efficient re-run (e.g., batch-0013 only re-processes the 18 stragglers, not the 12 already-done). Re-architected the bash loop's `for` → `while idx` to enable non-advancing iteration. **Mid-session correction:** I told Matt the orchestrator already skipped existing outputs — wrong; surfaced explicitly, then added the filter test-driven. **Quality verdict:** Haiku v164 (3.96% violation rate) is on par with Sonnet (~4.3%) and ~1.3pp behind its own pre-v164 baseline (smaller sample, no Rule 6 ENCOUNTERS gate to fail). **Biggest open issue:** ENCOUNTERS verb-gate fails 80% of the time (61/76 emissions) — gate IS catching them, but prompt-level prevention isn't working; Rule 6 hardening needed before next bulk run. **Speed math confirmed:** overnight's 12 batches × 28 min = 5.6h ≈ one 5h Claude Code quota window. 70.2% of wall-clock was inter-batch sleep. LEVER 1 (drop sleep to 60s) + LEVER 2 (rate-limit-aware) together = ~3× per-window throughput, cost-neutral. **Tests as first-class artifact:** three regression tests freeze known historical bugs (vocab parser 161→164, normalizer ATTACKED_BY over-reach, notes-field deletion).
+
+**What's next:**
+- **Tier 1 relaunch + ENCOUNTERS hardening + scope-reduction call** → continue: `progress/continue-prompts/2026-05-21-stage4-tier1-relaunch.md` (**Opus 4.7** conductor — sequencing decision + ENCOUNTERS prompt edit; **Sonnet 4.6** for mechanical Rule-6 hardening).
+- LEVER 5 (Batch API + pre-loading) deferred until Tier-1 numbers settle.
+- KNOWS verb-gate retrofit deferred (same pattern as ENCOUNTERS, defer until ENCOUNTERS fix proven).
+- **`/endsession` was explicitly authorized this session.**
+
+---
+
+### Session 61 — Vocab 159→164 + ENCOUNTERS Verb Gate + Loop Infrastructure + Overnight Launch (2026-05-19 → 2026-05-20)
+
+**Detail:** `history/session-details/session-061.md`
+
+**Changes made:**
+- `reference/architecture.md` — vocab 159 → 164: added `IMPRISONED_AT`, `TRAVELS_WITH`, `PRISONER_EXCHANGE_FOR`, `GUARDS`, `ENCOUNTERS`. Vocab callout bumped.
+- `.claude/commands/stage4-haiku-classify.md` — CRITICAL RULE 6 added (ENCOUNTERS verb gate; whitelist `met`/`meets`/`confronted`/etc.; reject without staging verb).
+- `scripts/wiki-pass2-validate-edge-jsonl.py` — `VERB_GATE` dict + `verb-gate-failure` violation kind added. First time the lock-down covers verb gates as schema, not just prompt-text. KNOWS retrofit deferred.
+- `scripts/stage4-haiku-normalize-edge-types.py` — `ACCOMPANIES` → `TRAVELS_WITH` added to `ALIAS_TABLE` (first explicit semantic-synonym entry; previous rule was inflection-only). Removed IMPRISONED_AT/TRAVELS_WITH/ENCOUNTERS/GUARDS from `SEMANTIC_DISTINCT_TYPES` — canonical now.
+- `scripts/stage4-haiku-loop.sh` (NEW), `scripts/stage4-haiku-run-forever.sh` (NEW) — inner loop + outer resilience wrapper for unattended overnight runs. Stop-file controlled, env-tunable.
+- `working/wiki/pass2-buckets/_archive/haiku-pre-vocab164-2026-05-20/` (NEW) — 20 buckets / 70 .edges.jsonl + mission state archived before launch.
+- **Overnight launch at 02:53 CDT** via osascript + `/tmp/run-haiku-forever.sh` wrapper (iTerm cwd workaround).
+
+**Decisions:** **Verb-gate-as-schema is an architectural advancement** — until Session 61, the lock-down was prompt-only; the validator now enforces evidence-text constraints. Bullet-proofing future patterns (KNOWS retrofit, etc.) becomes a small line item. **`/endsession` was NOT authorized at session close** (overnight run in flight; session ended informally when Matt went to bed). Session 62 handled the worklog write-up retrospectively.
+
+**Overnight result (data analyzed in Session 62):** 12 full batches + partial batch-0013 before hitting 5h quota wall at 08:35 CDT. 3 wasted-attempt batches (14/15/16) burned ~14 min before stop file. ~$38 Haiku spend, 363 edge files emitted across 85 buckets.
+
+**What's next:** (queued at session close; Session 62 picked up)
+- Triage uncommitted backlog, quality compare, speed strategy decision before next bulk run.
+
+---
+
 ### Session 60 — Stage 4 Haiku: Normalizer + No-Silent-Drop Pipeline (2026-05-19)
 
 **Detail:** `history/session-details/session-060.md`
@@ -255,55 +299,10 @@ This is your project memory. When you come back after a break, read Current Stat
 
 ---
 
-### Session 57 — Stage 4 Qualifier Vocab Lock-Down (2026-05-18)
-
-**Detail:** `history/session-details/session-057.md`
-
-**Changes made:**
-- `working/qualifier-vocab/decisions.md` — NEW. Full verdict matrix: 17 enumerable types (8 Tier-1 REQUIRED + 9 Tier-2 OPTIONAL) + 132 Tier-3 (no qualifier, no notes). Open questions Q1–Q5 answered. Schema implications for STEP 1.6 + STEP 3 documented.
-- `working/session-results/2026-05-18-stage4-qualifier-vocab-locked.md` — NEW.
-- `progress/continue-prompts/2026-05-18-stage4-qualifier-vocab-encode.md` — NEW. Self-contained STEP 1.6 handoff with all 17 enums verbatim.
-- `progress/continue-prompts/2026-05-18-stage4-qualifier-vocab-lock.md` — DELETED (this session's launching continue prompt, completed).
-- `working/todos.md` — HAIKU-CUTOVER STEP 1.5 marked [x] (17 enums verdicted; notes field deletion decided); new STEP 1.6 (encode) inserted; STEP 3 updated to reference the new vocab file and `notes`-rejection.
-- `history/session-details/session-057.md` — NEW.
-- `history/worklog-archives/archive011.md` — Session 52 archived; archive011 now full at 5 entries.
-
-**Decisions:** **Tier-1 (8):** SIBLING_OF, SPOUSE_OF, PARENT_OF, WARD_OF, HOLDS_TITLE, VOWS_TO, MANIPULATES, SWORN_TO — REQUIRED enum from closed set. **Tier-2 (9):** BETROTHED_TO, LOVER_OF, KILLS, CONTRACTED_WITH, DECEIVES, REVEALS_TO, ATTACKS, KNOWS, GUEST_OF — OPTIONAL enum. **Tier-3 (132):** all others — NO qualifier, NO notes. **`notes` field DELETED ENTIRELY from edge schema across all tiers** (Matt's "zero freeform" call — notes was the open drift surface qualifier-vocab is meant to close). **Encoding strategy: Option C** (new file `reference/edge-qualifier-vocab.md`; architecture.md tables untouched) — decided by fresh-context agent to avoid orchestrator bias. **21 already-emitted Sonnet batches preserved as freeform control arm** for the eventual Haiku enum-locked comparison; no normalizer. Mid-session correction: Matt prompted "is `Relationships Observed` the only Pass 1 table worth noting? there is spatial movement as well" — audit of remaining 16 Pass 1 sections surfaced GUEST_OF as missed Tier-2 candidate via Pass 1's own `## Hospitality & Guest Right` `Type` column (680 rows, top-10 = 88%). 16 enums → 17 enums. Matt's session-close caveat preserved: "I feel like there may be more qualifiers that come up as we are locking this stuff down" — STEP 1.6 should treat the 17 as v1, append rather than re-audit if new ones surface.
-
-**What's next:**
-- **STEP 1.6 — Encode qualifier vocab + delete notes field** → continue: `progress/continue-prompts/2026-05-18-stage4-qualifier-vocab-encode.md` (**Sonnet 4.6** — mechanical translation of decisions.md into runnable artifacts). Writes new `reference/edge-qualifier-vocab.md`, adds one architecture.md cross-ref line, updates prose-edge-classifier prompt schema (delete `notes`, add `qualifier` field + lookup step).
-- STEP 2 ([LINK] sub), STEP 3 (validator — type contracts + qualifier enums + notes-rejection folded), STEP 4 (suspicious-edges flagger) — can run independently / parallel after 1.6. STEP 5 (Haiku smoke) gated on all four.
-- **Per Matt's standing rule, /endsession was explicitly authorized this session — not auto-triggered.**
-
----
-
-### Session 56 — Stage 4 Vocab Applied + Qualifier Vocab Lock-Down Planned (2026-05-18)
-
-**Detail:** `history/session-details/session-056.md`
-
-**Changes made:**
-- `reference/architecture.md` — 17 new edge-type rows applied across 8 subsections (AFFLICTED_BY, DIED_OF, COMPANION_OF, PARTICIPATES_IN, OFFICIATES, ATTACKS, ASSAULTS, COURTS, CONTRACTED_WITH, PROPOSED_AS_BRIDE, CROWNS_QUEEN_OF_LOVE_AND_BEAUTY, PRACTICES, PURCHASED_FROM, BUILT, CAPTAIN_OF, CREW_OF, REPUTED_AS); 2 description mods (FIGHTS_IN "battle, war, or tournament as a combatant"; MANIPULATES mechanism note); vocab callout 132 → 149; Session-55-second-wave historical note added; gap-filing default rewritten from "file vocabulary-gap question" to "vocab FINAL — reject as `no-fitting-type-vocab-locked`."
-- `.claude/agents/prose-edge-classifier.md` — vocab FINAL flip; 5 `~149` references (lines 20, 210, 241, 378, 417); 17 new types appended to in-prompt category-expansion list; reverse-direction section extended (both-sided list adds KNIGHTED_BY/BESTOWS_KNIGHTHOOD_ON + NURSED_BY/WET_NURSE_OF; one-sided list adds CHILD_OF/HOST_OF/RESURRECTED_BY/SERVED_BY/DEFEATED_BY/GUARDIAN_OF); CONTEMPORARY_WITH STOP-block contradiction fixed (now points at `no-fitting-type-vocab-locked` + PROPOSED_AS_BRIDE example).
-- `scripts/stage4-close-vocab-gaps.py` — NEW. Decision-map for all 68 rows in `working/wiki/pass2-buckets/questions-for-matt.jsonl`. Idempotent atomic rewrite. **63 rows newly closed**, 5 pre-resolved skipped, 0 unresolved. JSONL integrity verified.
-- `working/qualifier-vocab/plan.md` — NEW. 1-screen scannable plan for HAIKU-CUTOVER STEP 1.5. Three-tier framing locked: Tier 1 REQUIRED enum / Tier 2 OPTIONAL enum / Tier 3 freeform notes.
-- `progress/continue-prompts/2026-05-18-stage4-qualifier-vocab-lock.md` — NEW.
-- `progress/continue-prompts/2026-05-18-stage4-vocab-lock-apply.md` — DELETED (this session's continue prompt, completed).
-- `working/todos.md` — HAIKU-CUTOVER STEP 1 marked [x]; new STEP 1.5 inserted; STEP 5 (Haiku smoke) flagged BLOCKED on STEP 1.5; STEP 3 (validator) notes folded qualifier-enum enforcement.
-- `~/.claude/projects/-Users-mnoth-source-asoiaf-chat/memory/feedback_lockdown_before_long_passes.md` — NEW. Companion to drift-detection-mandatory. MEMORY.md index updated.
-- `working/session-results/2026-05-18-stage4-vocab-applied-and-smoke-prepped.md` — NEW.
-
-**Decisions:** **Three-tier qualifier framing locked** (Tier 1 REQUIRED / Tier 2 OPTIONAL / Tier 3 no-enum). **Haiku smoke (STEP 5) BLOCKED on qualifier vocab lock-down** (STEP 1.5) — Haiku is more drift-prone than Sonnet; closing every freestyle surface is the actual lever for making Haiku viable, not stronger prompts. **Lockdown-before-long-passes is now a project memory rule.** Three additional uncovered types resolved during apply without inventing new vocab: COMPETES_IN (rejected, duplicate of post-Session-55 FIGHTS_IN), SOLD_TO (rejected, reverse-of-PURCHASED_FROM), TRANSACTS_WITH (rejected, too-generic); SLAIN_BY_WEAPON/KILLED_WIELDING resolved-pre-adopted under Session-54 KILLED_WITH. Mid-session drift catch: orchestrator was extrapolating "note X in `notes`" from the Session-55 MANIPULATES decision into three other new-type rows; Matt halted and reverted — exact failure pattern that motivated the qualifier-vocab lock-down track.
-
-**What's next:**
-- **Qualifier vocab lock-down** (next major track) → continue: `progress/continue-prompts/2026-05-18-stage4-qualifier-vocab-lock.md` (**Opus 4.7** — corpus-knowledge synthesis at scale: Pass 1 + wiki + 21 batches + series knowledge to verdict ~149 edge types). Produces `working/qualifier-vocab/decisions.md`.
-- After: STEP 1.6 (encode into architecture.md + classifier prompt), STEP 2 ([LINK] sub), STEP 3 (validator — type contracts + qualifier enums folded), STEP 4 (suspicious-edges flagger), THEN STEP 5 (Haiku smoke).
-- **Per Matt's standing rule, /endsession was explicitly authorized this session — not auto-triggered.**
-
----
-
-> Session 55 archived to `history/worklog-archives/archive012.md` (3/5 entries)
-> Session 54 archived to `history/worklog-archives/archive012.md` (2/5 entries)
-> Session 53 archived to `history/worklog-archives/archive012.md` (1/5 entries)
+> Sessions 57-56 archived to `history/worklog-archives/archive012.md` (archive012 now full at 5/5 entries)
+> Session 55 archived to `history/worklog-archives/archive012.md`
+> Session 54 archived to `history/worklog-archives/archive012.md`
+> Session 53 archived to `history/worklog-archives/archive012.md`
 > Session 52 archived to `history/worklog-archives/archive011.md` (archive011 now full)
 > Session 51 archived to `history/worklog-archives/archive011.md`
 > Session 50 archived to `history/worklog-archives/archive011.md`
