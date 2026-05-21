@@ -14,13 +14,17 @@ Classify exactly the (input → output) file pairs listed in the **FILE PAIRS** 
 
 For each pair:
 
-**Step 1 — Read the input candidates file** at the given input path.
+**Step 1 — Read the input candidates file** at the given input path. **The candidates have been pre-enriched (Session 63, 2026-05-21)** — every `source_target` row carries the evidence and target-type information you need to decide. **Do NOT read source or target node files.** All context is in the row itself.
 
-**Step 2 — Determine `candidate_kind`** from the first row's `candidate_kind` field. Then read the supporting evidence:
+**Step 2 — Read each candidate row and use the enriched fields directly:**
 
-- If `source_target`: read the source node's full prose at `graph/nodes/<type>/<source-slug>.node.md`. For each candidate row, also read the target's frontmatter (first ~20 lines) at `graph/nodes/<type>/<target-slug>.node.md`.
-- If `comention`: read the evidence chapter's full prose at `graph/nodes/chapters/<evidence_chapter>.node.md`. For each candidate row, read BOTH `pair_a` and `pair_b` frontmatters (first ~20 lines each) at `graph/nodes/<type>/<slug>.node.md`.
-- If `pass1_relationship`: read both `source_slug` and `target_slug` frontmatters (first ~20 lines each). The evidence is already in the candidate row's `asserted_relation` + `evidence_quote` fields — no re-reading of the book chapter is needed. Read the `extraction_file` only if the asserted relation and evidence_quote are genuinely insufficient to pick an edge type.
+- **`target_type`** — the target node's type (e.g., `character.human`, `place.location`, `organization.house`). Use this to instantly check type contracts.
+- **`evidence_paragraph`** — the clean prose paragraph from the source node containing the link to the target. Cite-ref noise has been stripped; other wiki links are normalized to `«anchor»` form. **This is your evidence.** Do not go hunting for more.
+- **`valid_edge_types`** — pre-filtered list of edge types whose target type-contract permits this `target_type`. Pick your `edge_type` from this list, NOT the full 163-vocab. (If you genuinely cannot find a fit in `valid_edge_types`, `reject_just_mention` with reason `no-fitting-type-vocab-locked`.)
+- **`staging_verbs_present`** — list of ENCOUNTERS-staging verbs detected in `evidence_paragraph` by Python regex. If this list is **empty**, ENCOUNTERS is impossible — see Rule 6. If non-empty, you still must verify the verb actually stages source-meets-target.
+- **`_python_prereject`** — if present (e.g., value `target-slug-unresolved` or `evidence-paragraph-not-found`), the row should be `escalate_disambiguation` (unresolved slug) or `reject_just_mention` with reason `evidence-paragraph-not-found` (missing evidence).
+
+**For `comention` and `pass1_relationship` candidate kinds** (which lack the per-row evidence_paragraph): the candidate row already carries the necessary fields per their own schema. `comention` rows carry `evidence_paragraphs` list with `snippet`s; `pass1_relationship` rows carry `evidence_quote` + `asserted_relation`. Use those fields directly. Do not read node files.
 
 **Step 3 — Classify each candidate row** using the 4 decisions from the classification manual:
 - `emit_edge` — a real graph edge; assign `edge_type` from the locked vocabulary, set `evidence_kind`, apply qualifier rules
@@ -36,6 +40,8 @@ For each pair:
 - `confidence_tier` is the integer `1`/`2`/`3`; `evidence_kind` is set deterministically from `candidate_kind`.
 
 If an input file has zero candidates, do not create an output file.
+
+**Note on the `evidence_snippet` field in your output:** the input row now carries `evidence_paragraph` (the full clean paragraph). When you write an `emit_edge` row, copy the relevant span of `evidence_paragraph` into `evidence_snippet` — at minimum, include the verb or phrase that justifies your edge_type choice (e.g., for ENCOUNTERS, include the staging verb). You can copy the entire paragraph into `evidence_snippet` if it's short; for long paragraphs, quote the most relevant sentence(s). The validator checks `evidence_snippet` for verb-gate compliance, so the staging verb must appear there.
 
 **Step 5 — After writing each output file**, print one summary line:
 ```
@@ -87,19 +93,24 @@ If an edge runs the wrong way, fix it by swapping `source_slug` and `target_slug
 
 Emit ONLY edge types from the 163-type `## LOCKED EDGE VOCABULARY` section inlined below in this prompt. If no entry in that list fits, the correct action is `reject_just_mention` with reason `no-fitting-type-vocab-locked`. Never invent a new edge type — including plausible-looking ones like `GRANDCHILD_OF`, `ACCOMPANIES`, `FOSTERED_BY`, `ATTACKED_BY`, or `TRADED_FOR`. If the name is not on the inlined list spelled exactly, it does not exist — reject instead.
 
-### Rule 5: Honor type contracts
+### Rule 5: Honor type contracts (via `valid_edge_types`)
 
-Many edge types are restricted to specific node-type targets. **Before every `emit_edge`, check the target's `type:` field (from its frontmatter) against the `## TYPE CONTRACTS` table inlined below.**
+Type contracts are now PRE-COMPUTED per row. The `valid_edge_types` field lists every edge type whose target type-contract permits this candidate's `target_type`. **Your `edge_type` MUST be in `valid_edge_types`** — anything else is a type-contract violation.
 
-If the target's node type does not match the edge type's contract, do not emit that edge. In order of preference: (1) look for a sibling node that DOES match the contract, (2) pick a different edge type that fits, (3) `reject_just_mention` with reason `type-contract-violation`.
+If no edge type in `valid_edge_types` fits the prose, the correct action is `reject_just_mention` with reason `no-fitting-type-vocab-locked` — do NOT reach for a type outside the valid list.
+
+The `## TYPE CONTRACTS` table below remains as documentation of what each contracted edge type requires. It is no longer the gate — `valid_edge_types` is.
 
 ### Rule 6: ENCOUNTERS requires explicit staging verb — never emit for co-presence
 
 `ENCOUNTERS` records a plot-significant face-to-face meeting between two characters, anchored by **explicit prose staging**. It is NOT a fallback for two entities appearing in the same scene, battle, court, or biography section.
 
-**Do NOT emit `ENCOUNTERS` unless the `evidence_snippet` contains an explicit staging verb:** `met` (past tense), `meets`, `meeting`, `came face to face`, `face-to-face`, `confronted`, `found himself before`, `found herself before`, `stood before`, `appeared before`, `encountered`, or a direct narrative statement that two named characters were brought into face-to-face contact (e.g., "X drew rein when he saw Y across the field").
+**Use the `staging_verbs_present` field** — Python has pre-scanned `evidence_paragraph` for the staging-verb whitelist (`met`, `meets`, `meeting`, `came face to face`, `confronted`, `encountered`, etc.). The field is a list of verbs found.
 
-**The infinitive `to meet` is NOT a staging verb** — it expresses intent or future plan, not a consummated encounter. Same for `going to meet`, `plans to meet`, `traveled to meet`. The actual meeting (if textually documented) would appear elsewhere with `met` or another past-tense staging verb. If only the infinitive appears: reject.
+- **If `staging_verbs_present` is empty: ENCOUNTERS is impossible.** Pick a different edge type or reject. Do not try to argue around the absence.
+- **If `staging_verbs_present` is non-empty:** the verb is THERE, but you must verify it actually stages a meeting between the source and the target. The verb might be staging a meeting between different characters in the same paragraph (e.g., the paragraph mentions "Rodrik meets Aron Santagar" — `meets` is present, but if the candidate is `rodrik → tyrion`, the verb does NOT stage Rodrik meeting Tyrion).
+
+**The infinitive `to meet` is NOT a staging verb** — it expresses intent or future plan, not a consummated encounter. Python's regex does not include `to meet` in the whitelist. If you see it: reject.
 
 This rule is **mechanically enforced** by the validator's verb-gate check on `evidence_snippet` — emitting `ENCOUNTERS` without a whitelisted verb will produce a `verb-gate-failure` violation.
 

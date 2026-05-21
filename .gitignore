@@ -15,3 +15,8 @@ full-txt-files/
 
 # Matt's top-level personal roadmap — same rule as scratch (gitignored, agents don't read)
 /next.md
+
+# Session 63 (2026-05-21): enriched candidate files are derived data — regenerate via
+# `python3 scripts/wiki-pass2-enrich-candidates.py --apply` in ~13s.
+# Excluded to avoid bloating git with ~280MB of computable output.
+working/wiki/pass2-buckets/*/prose-edge-candidates-enriched/

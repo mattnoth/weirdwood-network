@@ -599,15 +599,22 @@ def plan_batch_chunks(
 
     skipped_count = 0
     for f in files:
+        # Session 63: redirect source_target candidates to enriched dir if it exists.
+        # comention/pass1 candidates keep their original paths (no enrichment yet).
+        enriched_f = f.replace("/prose-edge-candidates/", "/prose-edge-candidates-enriched/")
+        if enriched_f != f and Path(enriched_f).exists():
+            f_to_use = enriched_f
+        else:
+            f_to_use = f
         try:
-            out = candidate_to_haiku_output(f)
+            out = candidate_to_haiku_output(f_to_use)
         except ValueError as e:
             warnings.append(f"WARNING: skipping unroutable path: {e}")
             continue
         if skip_if_output_exists and out.exists() and out.stat().st_size > 0:
             skipped_count += 1
             continue
-        all_pairs.append((f, out))
+        all_pairs.append((f_to_use, out))
 
     if skipped_count > 0:
         warnings.append(
