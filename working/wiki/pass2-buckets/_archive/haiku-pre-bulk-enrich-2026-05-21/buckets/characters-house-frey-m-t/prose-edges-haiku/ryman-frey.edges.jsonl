@@ -1,0 +1,90 @@
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "ryman-frey", "target_slug": "catelyn-stark", "edge_type": "PERCEIVED_AS", "evidence_snippet": "according to Lady Catelyn Stark, stupid", "evidence_section": "## Appearances & Description", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "ryman-frey", "target_slug": "merrett-frey", "edge_type": "PERCEIVED_AS", "evidence_snippet": "Merrett Frey thinks Ryman is stubborn and greedy", "evidence_section": "## Appearances & Description", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "ryman-frey", "target_slug": "robb-stark", "edge_type": "PERCEIVED_AS", "evidence_snippet": "Robb Stark considers Ryman dull-witted as a stone", "evidence_section": "## Appearances & Description", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "battle-of-oxcross", "reason": "source-not-in-sentence"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "ryman-frey", "target_slug": "catelyn-stark", "edge_type": "PERCEIVED_AS", "evidence_snippet": "according to Lady Catelyn Stark, stupid", "evidence_section": "## Narrative Arc / ### A Clash of Kings", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "edmure-tully", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "helman-tallhart", "reason": "source-not-in-sentence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "house-stark", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "king-in-the-north", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "king-of-the-trident", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "lord-of-the-crossing", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "luwin", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "maester", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "ryman-frey", "target_slug": "robb-stark", "edge_type": "PERCEIVED_AS", "evidence_snippet": "Robb Stark considers Ryman dull-witted as a stone", "evidence_section": "## Narrative Arc / ### A Clash of Kings", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "roose-bolton", "reason": "source-not-in-sentence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "twins", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "walder-frey-son-of-jammos", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "walder-frey-son-of-merrett", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "westerlands", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "winterfell", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "edmure-tully", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "hoster-blackwood", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "jaime-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "siege-of-raventree", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "tytos-blackwood", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "bronze", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "brotherhood-without-banners", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "brynden-tully", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "crossing", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "crown", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "daven-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "edmure-tully", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "forley-prester", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "genna-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "gold", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "horse", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "house-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "iron", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "jaime-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "knight", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "lord-commander-of-the-kingsguard", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "ryman-frey", "target_slug": "robb-stark", "edge_type": "PERCEIVED_AS", "evidence_snippet": "Robb Stark considers Ryman dull-witted as a stone", "evidence_section": "## Narrative Arc / ### A Feast for Crows", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "siege-of-riverrun", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "siege-of-seagard", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "tom-of-sevenstreams", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "tumblestone", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "twins", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "walder-frey-son-of-ryman", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "warden-of-the-west", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "whitesmile-wat", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "wine", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "aegon-frey-son-of-stevron", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "alesander-frey", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "brotherhood-without-banners", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "crag", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "dacey-mormont", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "daven-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "edmure-tully", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "forley-prester", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "house-bolton", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "jeyne-westerling", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "lemon", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "lord-of-riverrun", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "ryman-frey", "target_slug": "merrett-frey", "edge_type": "PERCEIVED_AS", "evidence_snippet": "Merrett Frey thinks Ryman is stubborn and greedy", "evidence_section": "## Narrative Arc / ### A Storm of Swords", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "olyvar-frey", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "red-wedding", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "roose-bolton", "reason": "source-not-in-sentence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "roslin-frey", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "siege-of-riverrun", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "squire", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "twins", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "walder-frey-son-of-ryman", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "wine", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "greyjoys-rebellion", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "jorah-mormont", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "robert-i-baratheon", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "tourney", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "tourney-at-lannisport", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "brynden-tully", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "daven-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "jaime-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "jaime-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "jaime-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "lord-of-the-crossing", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "siege-of-riverrun", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "walder-frey-son-of-jammos", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "walder-frey-son-of-merrett", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "jaime-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ryman-frey", "target_slug": "red-wedding", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "ryman-frey", "target_slug": "robb-stark", "edge_type": "PERCEIVED_AS", "evidence_snippet": "Robb Stark considers Ryman dull-witted as a stone", "evidence_section": "## Quotes / ### Quotes by Ryman", "evidence_paragraph_index": 0, "confidence_tier": 1}

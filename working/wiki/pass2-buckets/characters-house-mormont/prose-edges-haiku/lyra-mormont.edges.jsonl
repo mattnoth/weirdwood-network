@@ -1,0 +1,2 @@
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "lyra-mormont", "target_slug": "alysane-mormont", "edge_type": "SIBLING_OF", "qualifier": "unknown", "evidence_snippet": "her sister Lyra", "evidence_section": "## Narrative Arc / ### A Dance with Dragons", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lyra-mormont", "target_slug": "asha-greyjoy", "reason": "co-mention-no-direct-relationship"}

@@ -20,3 +20,9 @@ full-txt-files/
 # `python3 scripts/wiki-pass2-enrich-candidates.py --apply` in ~13s.
 # Excluded to avoid bloating git with ~280MB of computable output.
 working/wiki/pass2-buckets/*/prose-edge-candidates-enriched/
+
+# subagent isolation worktrees (runtime, never commit)
+.claude/worktrees/
+
+# Matt's private scratch notes — never commit
+scratch*

@@ -1,0 +1,71 @@
+{
+  "run_completed_at": "2026-05-22T00:34:59.769767+00:00",
+  "model": "claude-haiku-4-5",
+  "concurrency": 4,
+  "chunk_size": 5,
+  "retries": 2,
+  "wall_clock_s": 276.62,
+  "total_cost_usd": 2.730359,
+  "batches_processed": 1,
+  "files_attempted": 30,
+  "files_done": 30,
+  "files_failed": 0,
+  "rate_limit_events_count": 0,
+  "rate_limit_events": [],
+  "chunk_timings": [
+    {
+      "chunk_id": "batch-0019-chunk-00",
+      "chunk_idx": 0,
+      "duration_s": 110.06,
+      "cost_usd": 0.30461,
+      "files_done": 5,
+      "files_failed": 0,
+      "rate_limited": false
+    },
+    {
+      "chunk_id": "batch-0019-chunk-01",
+      "chunk_idx": 1,
+      "duration_s": 219.52,
+      "cost_usd": 0.759369,
+      "files_done": 5,
+      "files_failed": 0,
+      "rate_limited": false
+    },
+    {
+      "chunk_id": "batch-0019-chunk-02",
+      "chunk_idx": 2,
+      "duration_s": 252.37,
+      "cost_usd": 0.64017,
+      "files_done": 5,
+      "files_failed": 0,
+      "rate_limited": false
+    },
+    {
+      "chunk_id": "batch-0019-chunk-03",
+      "chunk_idx": 3,
+      "duration_s": 99.78,
+      "cost_usd": 0.336113,
+      "files_done": 5,
+      "files_failed": 0,
+      "rate_limited": false
+    },
+    {
+      "chunk_id": "batch-0019-chunk-04",
+      "chunk_idx": 4,
+      "duration_s": 103.14,
+      "cost_usd": 0.268865,
+      "files_done": 5,
+      "files_failed": 0,
+      "rate_limited": false
+    },
+    {
+      "chunk_id": "batch-0019-chunk-05",
+      "chunk_idx": 5,
+      "duration_s": 166.54,
+      "cost_usd": 0.421232,
+      "files_done": 5,
+      "files_failed": 0,
+      "rate_limited": false
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "lyanne-glover", "target_slug": "brandon-stark-son-of-willam", "edge_type": "PARENT_OF", "qualifier": "biological", "evidence_snippet": "She gave him a son, «Brandon»), but died during his birth.", "evidence_section": "## Origins", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lyanne-glover", "target_slug": "lord-of-winterfell", "reason": "title-held-by-husband-not-source"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lyanne-glover", "target_slug": "melantha-blackwood", "reason": "husband-remarriage-not-source-relation"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lyanne-glover", "target_slug": "warden-of-the-north", "reason": "title-held-by-husband-not-source"}

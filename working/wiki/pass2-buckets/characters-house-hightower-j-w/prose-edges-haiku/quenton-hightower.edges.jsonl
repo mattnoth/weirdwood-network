@@ -1,0 +1,4 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "quenton-hightower", "target_slug": "grey-plague", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "quenton-hightower", "target_slug": "horse", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "quenton-hightower", "target_slug": "pycelle", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "quenton-hightower", "target_slug": "watercraft", "reason": "no-fitting-type-vocab-locked"}

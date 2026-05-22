@@ -1,0 +1,5 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "sedgekins", "target_slug": "arya-stark", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "sedgekins", "target_slug": "house-bolton-guards", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "sedgekins", "target_slug": "sandor-clegane", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "sedgekins", "target_slug": "twins", "reason": "location-setting-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "sedgekins", "target_slug": "wayn", "reason": "temporal-cooccurrence-not-relational"}

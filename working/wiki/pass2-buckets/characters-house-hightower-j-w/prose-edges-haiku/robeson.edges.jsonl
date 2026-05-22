@@ -1,0 +1,4 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "robeson", "target_slug": "damon-hightower", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "robeson", "target_slug": "lord-of-the-hightower", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "robeson", "target_slug": "starry-sept", "reason": "reverse-direction-edge-belongs-on-other-node"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "robeson", "target_slug": "triston-hightower", "edge_type": "TUTORS", "evidence_snippet": "Triston was raised and trained by Septon «Robeson», who ruled in all but name for twenty years", "evidence_section": "## Origins", "evidence_paragraph_index": 0, "confidence_tier": 1}

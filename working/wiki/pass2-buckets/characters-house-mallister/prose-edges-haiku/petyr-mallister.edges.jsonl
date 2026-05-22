@@ -1,0 +1,3 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "petyr-mallister", "target_slug": "arlan-iii-durrandon", "reason": "encounters-requires-staging-verb"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "petyr-mallister", "target_slug": "riverlands", "reason": "no-fitting-edge-identified"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "petyr-mallister", "target_slug": "storm-king", "reason": "no-fitting-edge-identified"}

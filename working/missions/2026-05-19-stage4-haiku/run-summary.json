@@ -1,0 +1,26 @@
+{
+  "run_completed_at": "2026-05-22T14:27:46.778250+00:00",
+  "model": "claude-haiku-4-5",
+  "concurrency": 4,
+  "chunk_size": 5,
+  "retries": 2,
+  "wall_clock_s": 157.36,
+  "total_cost_usd": 0.452717,
+  "batches_processed": 1,
+  "files_attempted": 5,
+  "files_done": 5,
+  "files_failed": 0,
+  "rate_limit_events_count": 0,
+  "rate_limit_events": [],
+  "chunk_timings": [
+    {
+      "chunk_id": "batch-0164-chunk-00",
+      "chunk_idx": 0,
+      "duration_s": 157.34,
+      "cost_usd": 0.452717,
+      "files_done": 5,
+      "files_failed": 0,
+      "rate_limited": false
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "monterys-velaryon", "target_slug": "battle-of-the-blackwater", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "monterys-velaryon", "target_slug": "davos-seaworth", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "monterys-velaryon", "target_slug": "hand-of-the-king", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "monterys-velaryon", "target_slug": "stannis-baratheon", "reason": "temporal-cooccurrence-not-relational"}

@@ -1,0 +1,24 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rosamund-lannister", "target_slug": "braavos", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rosamund-lannister", "target_slug": "dorne", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rosamund-lannister", "target_slug": "eglantine", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rosamund-lannister", "target_slug": "hair-dye", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rosamund-lannister", "target_slug": "hand-of-the-king", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rosamund-lannister", "target_slug": "myrcella-baratheon", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rosamund-lannister", "target_slug": "seaswift", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rosamund-lannister", "target_slug": "septa", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rosamund-lannister", "target_slug": "stannis-baratheon", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rosamund-lannister", "target_slug": "tyrion-lannister", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rosamund-lannister", "target_slug": "arianne-martell", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rosamund-lannister", "target_slug": "arys-oakheart", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rosamund-lannister", "target_slug": "caleotte", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rosamund-lannister", "target_slug": "cyvasse", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "rosamund-lannister", "target_slug": "kingsguard", "edge_type": "MEMBER_OF", "evidence_snippet": "Rosamund is enlisted by Ser \u00abArys Oakheart\u00bb, Myrcella's \u00abKingsguard\u00bb protector, in Princess \u00abArianne Martell\u00bb's plot to crown Myrcella as queen. Rosamund is to pretend to be Myrcella while the real pr", "evidence_section": "## Narrative Arc / ### A Feast for Crows", "evidence_paragraph_index": 0, "confidence_tier": 2}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rosamund-lannister", "target_slug": "maester", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rosamund-lannister", "target_slug": "redspots", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rosamund-lannister", "target_slug": "sunspear", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rosamund-lannister", "target_slug": "arianne-martell", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rosamund-lannister", "target_slug": "arys-oakheart", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rosamund-lannister", "target_slug": "maester", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rosamund-lannister", "target_slug": "myrcella-baratheon", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rosamund-lannister", "target_slug": "myrcella-baratheon", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rosamund-lannister", "target_slug": "sylva-santagar", "reason": "no-fitting-type-vocab-locked"}

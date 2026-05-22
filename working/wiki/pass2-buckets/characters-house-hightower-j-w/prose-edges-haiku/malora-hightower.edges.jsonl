@@ -1,0 +1,4 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "malora-hightower", "target_slug": "hightower", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "malora-hightower", "target_slug": "huntress", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "malora-hightower", "target_slug": "ironborn", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "malora-hightower", "target_slug": "taking-of-the-shields", "reason": "temporal-cooccurrence-not-relational"}

@@ -1,0 +1,3 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "hoarfrost-umber", "target_slug": "citadel", "reason": "edge-applies-to-son-not-source"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "hoarfrost-umber", "target_slug": "maester", "reason": "edge-applies-to-son-not-source"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "hoarfrost-umber", "target_slug": "oldtown", "reason": "edge-applies-to-son-not-source"}

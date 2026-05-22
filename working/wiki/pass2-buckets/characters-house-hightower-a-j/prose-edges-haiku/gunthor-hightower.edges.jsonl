@@ -1,0 +1,9 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "gunthor-hightower", "target_slug": "silver", "reason": "material-component-not-entity-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "gunthor-hightower", "target_slug": "cinnamon-wind", "reason": "entity-mentioned-in-context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "gunthor-hightower", "target_slug": "huntress", "reason": "entity-mentioned-in-context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "gunthor-hightower", "target_slug": "ironborn", "reason": "temporal-context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "gunthor-hightower", "target_slug": "quhuru-mo", "reason": "no-staging-verb-for-encounter"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "gunthor-hightower", "target_slug": "swan-ship", "reason": "entity-mentioned-in-command-context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "gunthor-hightower", "target_slug": "whispering-sound", "reason": "location-mentioned-in-other-character-context"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "gunthor-hightower", "target_slug": "citadel", "edge_type": "LOCATED_AT", "evidence_snippet": "Ser Gunthor studied at the Citadel for several years.", "evidence_section": "## Origins", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "gunthor-hightower", "target_slug": "summer-tongue", "reason": "no-fitting-type-vocab-locked"}

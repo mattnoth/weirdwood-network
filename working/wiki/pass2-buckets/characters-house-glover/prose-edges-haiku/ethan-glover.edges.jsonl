@@ -1,0 +1,55 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "aerys-ii-targaryen", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "brandon-stark", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "catelyn-stark", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "jaime-lannister", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "eddard-stark", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "aerys-ii-targaryen", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "arthur-dayne", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "brandon-stark", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "combat-at-the-tower-of-joy", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "eddard-stark", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "elbert-arryn", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "gerold-hightower", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "howland-reed", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "jeffory-mallister", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "jon-arryn", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "ethan-glover", "target_slug": "kings-landing", "edge_type": "LOCATED_AT", "evidence_snippet": "When \u00abBrandon Stark\u00bb learned of his sister \u00abLyanna's\u00bb abduction at the hands of \u00abRhaegar Targaryen\u00bb, \u00abPrince of Dragonstone\u00bb, he took off for \u00abKing's ", "evidence_section": "## Origins", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "kingsguard", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "kyle-royce", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "lord-of-barrowton", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "lord-of-storms-end", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "lord-of-the-eyrie", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "lord-of-winterfell", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "lyanna-stark", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "mark-ryswell", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "martyn-cassel", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "oswell-whent", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "prince-of-dragonstone", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "ethan-glover", "target_slug": "red-keep", "edge_type": "LOCATED_AT", "evidence_snippet": "When \u00abBrandon Stark\u00bb learned of his sister \u00abLyanna's\u00bb abduction at the hands of \u00abRhaegar Targaryen\u00bb, \u00abPrince of Dragonstone\u00bb, he took off for \u00abKing's ", "evidence_section": "## Origins", "confidence_tier": 1}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "ethan-glover", "target_slug": "red-mountains", "edge_type": "LOCATED_AT", "evidence_snippet": "After Aerys's death in the \u00abSack of King's Landing\u00bb, Eddard lifted the \u00absiege of Storm's End\u00bb. Lord Stark then rode to the \u00abRed Mountains\u00bb with Ethan,", "evidence_section": "## Origins", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "rhaegar-targaryen", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "robert-i-baratheon", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "roberts-rebellion", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "sack-of-kings-landing", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "siege-of-storms-end", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "theo-wull", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "ethan-glover", "target_slug": "tower-of-joy", "edge_type": "LOCATED_AT", "evidence_snippet": "After Aerys's death in the \u00abSack of King's Landing\u00bb, Eddard lifted the \u00absiege of Storm's End\u00bb. Lord Stark then rode to the \u00abRed Mountains\u00bb with Ethan,", "evidence_section": "## Origins", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "willam-dustin", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "aerys-ii-targaryen", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "brandon-stark", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "brandon-stark", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "catelyn-stark", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "eddard-stark", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "horse", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "house-targaryen-guards", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "howland-reed", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "jaime-lannister", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "jory-cassel", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "lord", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "mark-ryswell", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "martyn-cassel", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "rhaegar-targaryen", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "squire", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "squire", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "theo-wull", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "ethan-glover", "target_slug": "willam-dustin", "reason": "no-fitting-type-vocab-locked"}

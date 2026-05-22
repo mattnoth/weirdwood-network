@@ -1,0 +1,10 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "tywin-frey", "target_slug": "knight", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "tywin-frey", "target_slug": "edmure-tully", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "tywin-frey", "target_slug": "genna-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "tywin-frey", "target_slug": "jaime-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "tywin-frey", "target_slug": "lord-of-riverrun", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "tywin-frey", "target_slug": "riverrun", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "tywin-frey", "target_slug": "roslin-frey", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "tywin-frey", "target_slug": "siege-of-riverrun", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "tywin-frey", "target_slug": "emmon-frey", "edge_type": "HEIR_TO", "evidence_snippet": "After his father, Ser Cleos Frey, is killed by outlaws near Maidenpool, Tywin becomes the heir of his grandfather, Emmon Frey.", "evidence_section": "## Narrative Arc / ### A Storm of Swords", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "tywin-frey", "target_slug": "maidenpool", "reason": "temporal-cooccurrence-not-relational"}

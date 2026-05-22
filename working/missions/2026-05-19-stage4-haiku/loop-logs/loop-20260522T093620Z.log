@@ -1,0 +1,1380 @@
+[2026-05-22 04:36:20 CDT] Using prioritized batch list: working/missions/2026-05-19-stage4-haiku/option-c-batch-order.txt (222 batches)
+[2026-05-22 04:36:20 CDT] ─────────────────────────────────────────────────────────────
+[2026-05-22 04:36:20 CDT]   stage4-haiku-loop
+[2026-05-22 04:36:20 CDT]   Start batch:       batch-0019
+[2026-05-22 04:36:20 CDT]   Total queued:      222 batches
+[2026-05-22 04:36:20 CDT]   Sleep/batch:       60s (1min)
+[2026-05-22 04:36:20 CDT]   Concurrency:       4 chunks in parallel
+[2026-05-22 04:36:20 CDT]   Chunk size:        5 files per Haiku call
+[2026-05-22 04:36:20 CDT]   Rate-limit sleep:  3600s (60min) after failures
+[2026-05-22 04:36:20 CDT]   Stop file:         /tmp/stage4-haiku-stop  (touch to stop cleanly)
+[2026-05-22 04:36:20 CDT]   Loop log:          working/missions/2026-05-19-stage4-haiku/loop-logs/loop-20260522T093620Z.log
+[2026-05-22 04:36:20 CDT] ─────────────────────────────────────────────────────────────
+[2026-05-22 04:36:20 CDT] ═══════════════════════════════════════════════════════════════
+[2026-05-22 04:36:20 CDT]   Batch 1/222  →  batch-0019
+[2026-05-22 04:36:20 CDT] ═══════════════════════════════════════════════════════════════
+Weirwood Network — Stage 4 Haiku Orchestrator
+  Model: claude-haiku-4-5
+  Chunk size: 5
+  Concurrency: 4 (parallel)
+  Retries: 2
+  Dry-run: False
+  Sonnet manifest: working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
+  Haiku mission dir: working/missions/2026-05-19-stage4-haiku
+
+Recording provenance...
+  Provenance written: working/missions/2026-05-19-stage4-haiku/prompts-used/provenance.json
+  Sonnet-era classifier: commit 6f37b940
+
+Sonnet manifest: 1089 rows, 72 done
+Mode: --batches batch-0019 -> 1 batches selected
+
+
+=== Batch batch-0019 (30 files, shape=source_target) ===
+  30 pairs -> 6 chunks of <=5
+
+Dispatching 6 chunks across 4 workers...
+  [batch-0019-chunk-03] complete (1/6) | cost $0.2701 | 5 ok | 83.9s
+  [batch-0019-chunk-00] complete (2/6) | cost $0.3036 | 5 ok | 105.7s
+  [batch-0019-chunk-02] complete (3/6) | cost $0.5435 | 5 ok | 150.3s
+  [batch-0019-chunk-01] Retry 1/2 for 2 missing files...
+  [batch-0019-chunk-04] complete (4/6) | cost $0.4408 | 5 ok | 212.3s
+  [batch-0019-chunk-01] complete (5/6) | cost $1.0130 | 5 ok | 306.7s
+  [batch-0019-chunk-05] complete (6/6) | cost $0.6486 | 5 ok | 298.4s
+  Results written: working/missions/2026-05-19-stage4-haiku/results/batch-0019.json
+  Done: 30/30 files | Decisions: {'emit_edge': 139, 'reject_just_mention': 470} | Cost: $3.2196
+
+============================================================
+FINAL SUMMARY
+============================================================
+  Batches processed: 1
+  Concurrency: 4
+  Chunk size: 5
+  Files attempted: 30
+  Files done: 30
+  Files failed: 0
+  Rate-limit events: 0
+  Total cost: $3.2196
+  Elapsed: 404.1s
+  Output dir: working/missions/2026-05-19-stage4-haiku/results/
+
+  Per-chunk durations (6 chunks):
+    batch-0019-chunk-00: 105.7s | $0.3036 | 5 ok / 0 failed
+    batch-0019-chunk-01: 306.7s | $1.0130 | 5 ok / 0 failed
+    batch-0019-chunk-02: 150.3s | $0.5435 | 5 ok / 0 failed
+    batch-0019-chunk-03: 83.9s | $0.2701 | 5 ok / 0 failed
+    batch-0019-chunk-04: 212.3s | $0.4408 | 5 ok / 0 failed
+    batch-0019-chunk-05: 298.4s | $0.6486 | 5 ok / 0 failed
+
+  Run summary written: working/missions/2026-05-19-stage4-haiku/run-summary.json
+[2026-05-22 04:43:04 CDT] batch-0019 completed in 404s
+[2026-05-22 04:43:04 CDT] Sleeping 60s before next iteration...
+[2026-05-22 04:44:04 CDT] ═══════════════════════════════════════════════════════════════
+[2026-05-22 04:44:04 CDT]   Batch 2/222  →  batch-0020
+[2026-05-22 04:44:04 CDT] ═══════════════════════════════════════════════════════════════
+Weirwood Network — Stage 4 Haiku Orchestrator
+  Model: claude-haiku-4-5
+  Chunk size: 5
+  Concurrency: 4 (parallel)
+  Retries: 2
+  Dry-run: False
+  Sonnet manifest: working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
+  Haiku mission dir: working/missions/2026-05-19-stage4-haiku
+
+Recording provenance...
+  Provenance written: working/missions/2026-05-19-stage4-haiku/prompts-used/provenance.json
+  Sonnet-era classifier: commit 6f37b940
+
+Sonnet manifest: 1089 rows, 72 done
+Mode: --batches batch-0020 -> 1 batches selected
+
+
+=== Batch batch-0020 (30 files, shape=source_target) ===
+  30 pairs -> 6 chunks of <=5
+
+Dispatching 6 chunks across 4 workers...
+  [batch-0020-chunk-03] complete (1/6) | cost $0.2700 | 5 ok | 125.6s
+  [batch-0020-chunk-00] Retry 1/2 for 5 missing files...
+  [batch-0020-chunk-04] complete (2/6) | cost $0.3352 | 5 ok | 99.5s
+  [batch-0020-chunk-01] complete (3/6) | cost $0.6713 | 5 ok | 256.5s
+  [batch-0020-chunk-00] complete (4/6) | cost $0.8407 | 5 ok | 286.4s
+  [batch-0020-chunk-02] complete (5/6) | cost $0.6619 | 5 ok | 302.3s
+  [batch-0020-chunk-05] complete (6/6) | cost $0.4693 | 5 ok | 190.3s
+  Results written: working/missions/2026-05-19-stage4-haiku/results/batch-0020.json
+  Done: 30/30 files | Decisions: {'emit_edge': 268, 'reject_just_mention': 493} | Cost: $3.2484
+
+============================================================
+FINAL SUMMARY
+============================================================
+  Batches processed: 1
+  Concurrency: 4
+  Chunk size: 5
+  Files attempted: 30
+  Files done: 30
+  Files failed: 0
+  Rate-limit events: 0
+  Total cost: $3.2484
+  Elapsed: 415.4s
+  Output dir: working/missions/2026-05-19-stage4-haiku/results/
+
+  Per-chunk durations (6 chunks):
+    batch-0020-chunk-00: 286.4s | $0.8407 | 5 ok / 0 failed
+    batch-0020-chunk-01: 256.5s | $0.6713 | 5 ok / 0 failed
+    batch-0020-chunk-02: 302.3s | $0.6619 | 5 ok / 0 failed
+    batch-0020-chunk-03: 125.6s | $0.2700 | 5 ok / 0 failed
+    batch-0020-chunk-04: 99.5s | $0.3352 | 5 ok / 0 failed
+    batch-0020-chunk-05: 190.3s | $0.4693 | 5 ok / 0 failed
+
+  Run summary written: working/missions/2026-05-19-stage4-haiku/run-summary.json
+[2026-05-22 04:51:00 CDT] batch-0020 completed in 416s
+[2026-05-22 04:51:00 CDT] Sleeping 60s before next iteration...
+[2026-05-22 04:52:00 CDT] ═══════════════════════════════════════════════════════════════
+[2026-05-22 04:52:00 CDT]   Batch 3/222  →  batch-0031
+[2026-05-22 04:52:00 CDT] ═══════════════════════════════════════════════════════════════
+Weirwood Network — Stage 4 Haiku Orchestrator
+  Model: claude-haiku-4-5
+  Chunk size: 5
+  Concurrency: 4 (parallel)
+  Retries: 2
+  Dry-run: False
+  Sonnet manifest: working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
+  Haiku mission dir: working/missions/2026-05-19-stage4-haiku
+
+Recording provenance...
+  Provenance written: working/missions/2026-05-19-stage4-haiku/prompts-used/provenance.json
+  Sonnet-era classifier: commit 6f37b940
+
+Sonnet manifest: 1089 rows, 72 done
+Mode: --batches batch-0031 -> 1 batches selected
+
+
+=== Batch batch-0031 (5 files, shape=source_target) ===
+  5 pairs -> 1 chunks of <=5
+
+Dispatching 1 chunks across 4 workers...
+  [batch-0031-chunk-00] complete (1/1) | cost $0.4694 | 5 ok | 163.7s
+  Results written: working/missions/2026-05-19-stage4-haiku/results/batch-0031.json
+  Done: 5/5 files | Decisions: {'reject_just_mention': 39, 'emit_edge': 17} | Cost: $0.4694
+
+============================================================
+FINAL SUMMARY
+============================================================
+  Batches processed: 1
+  Concurrency: 4
+  Chunk size: 5
+  Files attempted: 5
+  Files done: 5
+  Files failed: 0
+  Rate-limit events: 0
+  Total cost: $0.4694
+  Elapsed: 163.7s
+  Output dir: working/missions/2026-05-19-stage4-haiku/results/
+
+  Per-chunk durations (1 chunks):
+    batch-0031-chunk-00: 163.7s | $0.4694 | 5 ok / 0 failed
+
+  Run summary written: working/missions/2026-05-19-stage4-haiku/run-summary.json
+[2026-05-22 04:54:44 CDT] batch-0031 completed in 164s
+[2026-05-22 04:54:44 CDT] Sleeping 60s before next iteration...
+[2026-05-22 04:55:44 CDT] ═══════════════════════════════════════════════════════════════
+[2026-05-22 04:55:44 CDT]   Batch 4/222  →  batch-0032
+[2026-05-22 04:55:44 CDT] ═══════════════════════════════════════════════════════════════
+Weirwood Network — Stage 4 Haiku Orchestrator
+  Model: claude-haiku-4-5
+  Chunk size: 5
+  Concurrency: 4 (parallel)
+  Retries: 2
+  Dry-run: False
+  Sonnet manifest: working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
+  Haiku mission dir: working/missions/2026-05-19-stage4-haiku
+
+Recording provenance...
+  Provenance written: working/missions/2026-05-19-stage4-haiku/prompts-used/provenance.json
+  Sonnet-era classifier: commit 6f37b940
+
+Sonnet manifest: 1089 rows, 72 done
+Mode: --batches batch-0032 -> 1 batches selected
+
+
+=== Batch batch-0032 (5 files, shape=source_target) ===
+  5 pairs -> 1 chunks of <=5
+
+Dispatching 1 chunks across 4 workers...
+  [batch-0032-chunk-00] WARNING: claude exited non-zero: exit code 1
+  [batch-0032-chunk-00] RATE LIMIT detected — five_hour limit — resets at 2026-05-22 12:10 UTC — stopping retries
+  [batch-0032-chunk-00] RATE LIMIT: five_hour limit — resets at 2026-05-22 12:10 UTC
+  [batch-0032-chunk-00] complete (1/1) | cost $0.3876 | 0 ok | 118.7s
+
+Rate-limit events written: working/missions/2026-05-19-stage4-haiku/rate-limit-events.jsonl (1 events)
+  Results written: working/missions/2026-05-19-stage4-haiku/results/batch-0032.json
+  Done: 0/5 files | Decisions: {} | Cost: $0.3876
+
+============================================================
+FINAL SUMMARY
+============================================================
+  Batches processed: 1
+  Concurrency: 4
+  Chunk size: 5
+  Files attempted: 5
+  Files done: 0
+  Files failed: 5
+  Rate-limit events: 1
+  Total cost: $0.3876
+  Elapsed: 118.7s
+  Output dir: working/missions/2026-05-19-stage4-haiku/results/
+
+  Per-chunk durations (1 chunks):
+    batch-0032-chunk-00: 118.7s | $0.3876 | 0 ok / 5 failed [RATE-LIMITED]
+
+  Run summary written: working/missions/2026-05-19-stage4-haiku/run-summary.json
+[2026-05-22 04:57:43 CDT] batch-0032 hit rate-limit (1 events) after 119s. Sleeping 7997s until reset+60s. Will re-run batch-0032 on resume.
+[2026-05-22 04:57:43 CDT] Sleeping 7997s before next iteration...
+[2026-05-22 07:11:02 CDT] ═══════════════════════════════════════════════════════════════
+[2026-05-22 07:11:02 CDT]   Batch 4/222  →  batch-0032
+[2026-05-22 07:11:02 CDT] ═══════════════════════════════════════════════════════════════
+Weirwood Network — Stage 4 Haiku Orchestrator
+  Model: claude-haiku-4-5
+  Chunk size: 5
+  Concurrency: 4 (parallel)
+  Retries: 2
+  Dry-run: False
+  Sonnet manifest: working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
+  Haiku mission dir: working/missions/2026-05-19-stage4-haiku
+
+Recording provenance...
+  Provenance written: working/missions/2026-05-19-stage4-haiku/prompts-used/provenance.json
+  Sonnet-era classifier: commit 6f37b940
+
+Sonnet manifest: 1089 rows, 72 done
+Mode: --batches batch-0032 -> 1 batches selected
+
+  [batch-0032] INFO: skipped 5 file(s) whose output already exists
+
+=== Batch batch-0032 (5 files, shape=source_target) ===
+  0 pairs -> 0 chunks of <=5
+
+Dispatching 0 chunks across 4 workers...
+  Results written: working/missions/2026-05-19-stage4-haiku/results/batch-0032.json
+  Done: 0/0 files | Decisions: {} | Cost: $0.0000
+
+============================================================
+FINAL SUMMARY
+============================================================
+  Batches processed: 1
+  Concurrency: 4
+  Chunk size: 5
+  Files attempted: 0
+  Files done: 0
+  Files failed: 0
+  Rate-limit events: 0
+  Total cost: $0.0000
+  Elapsed: 0.0s
+  Output dir: working/missions/2026-05-19-stage4-haiku/results/
+
+  Run summary written: working/missions/2026-05-19-stage4-haiku/run-summary.json
+[2026-05-22 07:11:02 CDT] batch-0032 completed in 0s
+[2026-05-22 07:11:02 CDT] Sleeping 60s before next iteration...
+[2026-05-22 07:12:02 CDT] ═══════════════════════════════════════════════════════════════
+[2026-05-22 07:12:02 CDT]   Batch 5/222  →  batch-0033
+[2026-05-22 07:12:02 CDT] ═══════════════════════════════════════════════════════════════
+Weirwood Network — Stage 4 Haiku Orchestrator
+  Model: claude-haiku-4-5
+  Chunk size: 5
+  Concurrency: 4 (parallel)
+  Retries: 2
+  Dry-run: False
+  Sonnet manifest: working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
+  Haiku mission dir: working/missions/2026-05-19-stage4-haiku
+
+Recording provenance...
+  Provenance written: working/missions/2026-05-19-stage4-haiku/prompts-used/provenance.json
+  Sonnet-era classifier: commit 6f37b940
+
+Sonnet manifest: 1089 rows, 72 done
+Mode: --batches batch-0033 -> 1 batches selected
+
+
+=== Batch batch-0033 (5 files, shape=source_target) ===
+  5 pairs -> 1 chunks of <=5
+
+Dispatching 1 chunks across 4 workers...
+  [batch-0033-chunk-00] complete (1/1) | cost $0.5943 | 5 ok | 176.2s
+  Results written: working/missions/2026-05-19-stage4-haiku/results/batch-0033.json
+  Done: 5/5 files | Decisions: {'reject_just_mention': 80, 'emit_edge': 13} | Cost: $0.5943
+
+============================================================
+FINAL SUMMARY
+============================================================
+  Batches processed: 1
+  Concurrency: 4
+  Chunk size: 5
+  Files attempted: 5
+  Files done: 5
+  Files failed: 0
+  Rate-limit events: 0
+  Total cost: $0.5943
+  Elapsed: 176.2s
+  Output dir: working/missions/2026-05-19-stage4-haiku/results/
+
+  Per-chunk durations (1 chunks):
+    batch-0033-chunk-00: 176.2s | $0.5943 | 5 ok / 0 failed
+
+  Run summary written: working/missions/2026-05-19-stage4-haiku/run-summary.json
+[2026-05-22 07:14:58 CDT] batch-0033 completed in 176s
+[2026-05-22 07:14:58 CDT] Sleeping 60s before next iteration...
+[2026-05-22 07:15:58 CDT] ═══════════════════════════════════════════════════════════════
+[2026-05-22 07:15:58 CDT]   Batch 6/222  →  batch-0034
+[2026-05-22 07:15:58 CDT] ═══════════════════════════════════════════════════════════════
+Weirwood Network — Stage 4 Haiku Orchestrator
+  Model: claude-haiku-4-5
+  Chunk size: 5
+  Concurrency: 4 (parallel)
+  Retries: 2
+  Dry-run: False
+  Sonnet manifest: working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
+  Haiku mission dir: working/missions/2026-05-19-stage4-haiku
+
+Recording provenance...
+  Provenance written: working/missions/2026-05-19-stage4-haiku/prompts-used/provenance.json
+  Sonnet-era classifier: commit 6f37b940
+
+Sonnet manifest: 1089 rows, 72 done
+Mode: --batches batch-0034 -> 1 batches selected
+
+
+=== Batch batch-0034 (5 files, shape=source_target) ===
+  5 pairs -> 1 chunks of <=5
+
+Dispatching 1 chunks across 4 workers...
+  [batch-0034-chunk-00] complete (1/1) | cost $0.3017 | 5 ok | 113.5s
+  Results written: working/missions/2026-05-19-stage4-haiku/results/batch-0034.json
+  Done: 5/5 files | Decisions: {'emit_edge': 16, 'reject_just_mention': 25} | Cost: $0.3017
+
+============================================================
+FINAL SUMMARY
+============================================================
+  Batches processed: 1
+  Concurrency: 4
+  Chunk size: 5
+  Files attempted: 5
+  Files done: 5
+  Files failed: 0
+  Rate-limit events: 0
+  Total cost: $0.3017
+  Elapsed: 113.6s
+  Output dir: working/missions/2026-05-19-stage4-haiku/results/
+
+  Per-chunk durations (1 chunks):
+    batch-0034-chunk-00: 113.5s | $0.3017 | 5 ok / 0 failed
+
+  Run summary written: working/missions/2026-05-19-stage4-haiku/run-summary.json
+[2026-05-22 07:17:52 CDT] batch-0034 completed in 114s
+[2026-05-22 07:17:52 CDT] Sleeping 60s before next iteration...
+[2026-05-22 07:18:52 CDT] ═══════════════════════════════════════════════════════════════
+[2026-05-22 07:18:52 CDT]   Batch 7/222  →  batch-0035
+[2026-05-22 07:18:52 CDT] ═══════════════════════════════════════════════════════════════
+Weirwood Network — Stage 4 Haiku Orchestrator
+  Model: claude-haiku-4-5
+  Chunk size: 5
+  Concurrency: 4 (parallel)
+  Retries: 2
+  Dry-run: False
+  Sonnet manifest: working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
+  Haiku mission dir: working/missions/2026-05-19-stage4-haiku
+
+Recording provenance...
+  Provenance written: working/missions/2026-05-19-stage4-haiku/prompts-used/provenance.json
+  Sonnet-era classifier: commit 6f37b940
+
+Sonnet manifest: 1089 rows, 72 done
+Mode: --batches batch-0035 -> 1 batches selected
+
+
+=== Batch batch-0035 (5 files, shape=source_target) ===
+  5 pairs -> 1 chunks of <=5
+
+Dispatching 1 chunks across 4 workers...
+  [batch-0035-chunk-00] complete (1/1) | cost $0.3064 | 5 ok | 104.3s
+  Results written: working/missions/2026-05-19-stage4-haiku/results/batch-0035.json
+  Done: 5/5 files | Decisions: {'emit_edge': 32, 'reject_just_mention': 83} | Cost: $0.3064
+
+============================================================
+FINAL SUMMARY
+============================================================
+  Batches processed: 1
+  Concurrency: 4
+  Chunk size: 5
+  Files attempted: 5
+  Files done: 5
+  Files failed: 0
+  Rate-limit events: 0
+  Total cost: $0.3064
+  Elapsed: 104.3s
+  Output dir: working/missions/2026-05-19-stage4-haiku/results/
+
+  Per-chunk durations (1 chunks):
+    batch-0035-chunk-00: 104.3s | $0.3064 | 5 ok / 0 failed
+
+  Run summary written: working/missions/2026-05-19-stage4-haiku/run-summary.json
+[2026-05-22 07:20:36 CDT] batch-0035 completed in 104s
+[2026-05-22 07:20:36 CDT] Sleeping 60s before next iteration...
+[2026-05-22 07:21:36 CDT] ═══════════════════════════════════════════════════════════════
+[2026-05-22 07:21:36 CDT]   Batch 8/222  →  batch-0036
+[2026-05-22 07:21:36 CDT] ═══════════════════════════════════════════════════════════════
+Weirwood Network — Stage 4 Haiku Orchestrator
+  Model: claude-haiku-4-5
+  Chunk size: 5
+  Concurrency: 4 (parallel)
+  Retries: 2
+  Dry-run: False
+  Sonnet manifest: working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
+  Haiku mission dir: working/missions/2026-05-19-stage4-haiku
+
+Recording provenance...
+  Provenance written: working/missions/2026-05-19-stage4-haiku/prompts-used/provenance.json
+  Sonnet-era classifier: commit 6f37b940
+
+Sonnet manifest: 1089 rows, 72 done
+Mode: --batches batch-0036 -> 1 batches selected
+
+
+=== Batch batch-0036 (5 files, shape=source_target) ===
+  5 pairs -> 1 chunks of <=5
+
+Dispatching 1 chunks across 4 workers...
+  [batch-0036-chunk-00] complete (1/1) | cost $0.3592 | 5 ok | 122.1s
+  Results written: working/missions/2026-05-19-stage4-haiku/results/batch-0036.json
+  Done: 5/5 files | Decisions: {'reject_just_mention': 39, 'emit_edge': 16} | Cost: $0.3592
+
+============================================================
+FINAL SUMMARY
+============================================================
+  Batches processed: 1
+  Concurrency: 4
+  Chunk size: 5
+  Files attempted: 5
+  Files done: 5
+  Files failed: 0
+  Rate-limit events: 0
+  Total cost: $0.3592
+  Elapsed: 122.1s
+  Output dir: working/missions/2026-05-19-stage4-haiku/results/
+
+  Per-chunk durations (1 chunks):
+    batch-0036-chunk-00: 122.1s | $0.3592 | 5 ok / 0 failed
+
+  Run summary written: working/missions/2026-05-19-stage4-haiku/run-summary.json
+[2026-05-22 07:23:39 CDT] batch-0036 completed in 123s
+[2026-05-22 07:23:39 CDT] Sleeping 60s before next iteration...
+[2026-05-22 07:24:39 CDT] ═══════════════════════════════════════════════════════════════
+[2026-05-22 07:24:39 CDT]   Batch 9/222  →  batch-0037
+[2026-05-22 07:24:39 CDT] ═══════════════════════════════════════════════════════════════
+Weirwood Network — Stage 4 Haiku Orchestrator
+  Model: claude-haiku-4-5
+  Chunk size: 5
+  Concurrency: 4 (parallel)
+  Retries: 2
+  Dry-run: False
+  Sonnet manifest: working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
+  Haiku mission dir: working/missions/2026-05-19-stage4-haiku
+
+Recording provenance...
+  Provenance written: working/missions/2026-05-19-stage4-haiku/prompts-used/provenance.json
+  Sonnet-era classifier: commit 6f37b940
+
+Sonnet manifest: 1089 rows, 72 done
+Mode: --batches batch-0037 -> 1 batches selected
+
+
+=== Batch batch-0037 (5 files, shape=source_target) ===
+  5 pairs -> 1 chunks of <=5
+
+Dispatching 1 chunks across 4 workers...
+  [batch-0037-chunk-00] complete (1/1) | cost $0.4985 | 5 ok | 157.5s
+  Results written: working/missions/2026-05-19-stage4-haiku/results/batch-0037.json
+  Done: 5/5 files | Decisions: {'reject_just_mention': 137, 'emit_edge': 21} | Cost: $0.4985
+
+============================================================
+FINAL SUMMARY
+============================================================
+  Batches processed: 1
+  Concurrency: 4
+  Chunk size: 5
+  Files attempted: 5
+  Files done: 5
+  Files failed: 0
+  Rate-limit events: 0
+  Total cost: $0.4985
+  Elapsed: 157.5s
+  Output dir: working/missions/2026-05-19-stage4-haiku/results/
+
+  Per-chunk durations (1 chunks):
+    batch-0037-chunk-00: 157.5s | $0.4985 | 5 ok / 0 failed
+
+  Run summary written: working/missions/2026-05-19-stage4-haiku/run-summary.json
+[2026-05-22 07:27:16 CDT] batch-0037 completed in 157s
+[2026-05-22 07:27:16 CDT] Sleeping 60s before next iteration...
+[2026-05-22 07:28:16 CDT] ═══════════════════════════════════════════════════════════════
+[2026-05-22 07:28:16 CDT]   Batch 10/222  →  batch-0038
+[2026-05-22 07:28:16 CDT] ═══════════════════════════════════════════════════════════════
+Weirwood Network — Stage 4 Haiku Orchestrator
+  Model: claude-haiku-4-5
+  Chunk size: 5
+  Concurrency: 4 (parallel)
+  Retries: 2
+  Dry-run: False
+  Sonnet manifest: working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
+  Haiku mission dir: working/missions/2026-05-19-stage4-haiku
+
+Recording provenance...
+  Provenance written: working/missions/2026-05-19-stage4-haiku/prompts-used/provenance.json
+  Sonnet-era classifier: commit 6f37b940
+
+Sonnet manifest: 1089 rows, 72 done
+Mode: --batches batch-0038 -> 1 batches selected
+
+
+=== Batch batch-0038 (5 files, shape=source_target) ===
+  5 pairs -> 1 chunks of <=5
+
+Dispatching 1 chunks across 4 workers...
+  [batch-0038-chunk-00] complete (1/1) | cost $0.2439 | 5 ok | 99.1s
+  Results written: working/missions/2026-05-19-stage4-haiku/results/batch-0038.json
+  Done: 5/5 files | Decisions: {'reject_just_mention': 15, 'emit_edge': 6} | Cost: $0.2439
+
+============================================================
+FINAL SUMMARY
+============================================================
+  Batches processed: 1
+  Concurrency: 4
+  Chunk size: 5
+  Files attempted: 5
+  Files done: 5
+  Files failed: 0
+  Rate-limit events: 0
+  Total cost: $0.2439
+  Elapsed: 99.1s
+  Output dir: working/missions/2026-05-19-stage4-haiku/results/
+
+  Per-chunk durations (1 chunks):
+    batch-0038-chunk-00: 99.1s | $0.2439 | 5 ok / 0 failed
+
+  Run summary written: working/missions/2026-05-19-stage4-haiku/run-summary.json
+[2026-05-22 07:29:56 CDT] batch-0038 completed in 100s
+[2026-05-22 07:29:56 CDT] Sleeping 60s before next iteration...
+[2026-05-22 07:30:56 CDT] ═══════════════════════════════════════════════════════════════
+[2026-05-22 07:30:56 CDT]   Batch 11/222  →  batch-0048
+[2026-05-22 07:30:56 CDT] ═══════════════════════════════════════════════════════════════
+Weirwood Network — Stage 4 Haiku Orchestrator
+  Model: claude-haiku-4-5
+  Chunk size: 5
+  Concurrency: 4 (parallel)
+  Retries: 2
+  Dry-run: False
+  Sonnet manifest: working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
+  Haiku mission dir: working/missions/2026-05-19-stage4-haiku
+
+Recording provenance...
+  Provenance written: working/missions/2026-05-19-stage4-haiku/prompts-used/provenance.json
+  Sonnet-era classifier: commit 6f37b940
+
+Sonnet manifest: 1089 rows, 72 done
+Mode: --batches batch-0048 -> 1 batches selected
+
+
+=== Batch batch-0048 (5 files, shape=source_target) ===
+  5 pairs -> 1 chunks of <=5
+
+Dispatching 1 chunks across 4 workers...
+  [batch-0048-chunk-00] complete (1/1) | cost $0.4242 | 5 ok | 152.2s
+  Results written: working/missions/2026-05-19-stage4-haiku/results/batch-0048.json
+  Done: 5/5 files | Decisions: {'reject_just_mention': 147, 'emit_edge': 17} | Cost: $0.4242
+
+============================================================
+FINAL SUMMARY
+============================================================
+  Batches processed: 1
+  Concurrency: 4
+  Chunk size: 5
+  Files attempted: 5
+  Files done: 5
+  Files failed: 0
+  Rate-limit events: 0
+  Total cost: $0.4242
+  Elapsed: 152.3s
+  Output dir: working/missions/2026-05-19-stage4-haiku/results/
+
+  Per-chunk durations (1 chunks):
+    batch-0048-chunk-00: 152.2s | $0.4242 | 5 ok / 0 failed
+
+  Run summary written: working/missions/2026-05-19-stage4-haiku/run-summary.json
+[2026-05-22 07:33:28 CDT] batch-0048 completed in 152s
+[2026-05-22 07:33:28 CDT] Sleeping 60s before next iteration...
+[2026-05-22 07:34:28 CDT] ═══════════════════════════════════════════════════════════════
+[2026-05-22 07:34:28 CDT]   Batch 12/222  →  batch-0049
+[2026-05-22 07:34:28 CDT] ═══════════════════════════════════════════════════════════════
+Weirwood Network — Stage 4 Haiku Orchestrator
+  Model: claude-haiku-4-5
+  Chunk size: 5
+  Concurrency: 4 (parallel)
+  Retries: 2
+  Dry-run: False
+  Sonnet manifest: working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
+  Haiku mission dir: working/missions/2026-05-19-stage4-haiku
+
+Recording provenance...
+  Provenance written: working/missions/2026-05-19-stage4-haiku/prompts-used/provenance.json
+  Sonnet-era classifier: commit 6f37b940
+
+Sonnet manifest: 1089 rows, 72 done
+Mode: --batches batch-0049 -> 1 batches selected
+
+
+=== Batch batch-0049 (5 files, shape=source_target) ===
+  5 pairs -> 1 chunks of <=5
+
+Dispatching 1 chunks across 4 workers...
+  [batch-0049-chunk-00] complete (1/1) | cost $0.3244 | 5 ok | 98.9s
+  Results written: working/missions/2026-05-19-stage4-haiku/results/batch-0049.json
+  Done: 5/5 files | Decisions: {'emit_edge': 85, 'reject_just_mention': 98} | Cost: $0.3244
+
+============================================================
+FINAL SUMMARY
+============================================================
+  Batches processed: 1
+  Concurrency: 4
+  Chunk size: 5
+  Files attempted: 5
+  Files done: 5
+  Files failed: 0
+  Rate-limit events: 0
+  Total cost: $0.3244
+  Elapsed: 98.9s
+  Output dir: working/missions/2026-05-19-stage4-haiku/results/
+
+  Per-chunk durations (1 chunks):
+    batch-0049-chunk-00: 98.9s | $0.3244 | 5 ok / 0 failed
+
+  Run summary written: working/missions/2026-05-19-stage4-haiku/run-summary.json
+[2026-05-22 07:36:07 CDT] batch-0049 completed in 99s
+[2026-05-22 07:36:07 CDT] Sleeping 60s before next iteration...
+[2026-05-22 07:37:07 CDT] ═══════════════════════════════════════════════════════════════
+[2026-05-22 07:37:07 CDT]   Batch 13/222  →  batch-0052
+[2026-05-22 07:37:07 CDT] ═══════════════════════════════════════════════════════════════
+Weirwood Network — Stage 4 Haiku Orchestrator
+  Model: claude-haiku-4-5
+  Chunk size: 5
+  Concurrency: 4 (parallel)
+  Retries: 2
+  Dry-run: False
+  Sonnet manifest: working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
+  Haiku mission dir: working/missions/2026-05-19-stage4-haiku
+
+Recording provenance...
+  Provenance written: working/missions/2026-05-19-stage4-haiku/prompts-used/provenance.json
+  Sonnet-era classifier: commit 6f37b940
+
+Sonnet manifest: 1089 rows, 72 done
+Mode: --batches batch-0052 -> 1 batches selected
+
+
+=== Batch batch-0052 (5 files, shape=source_target) ===
+  5 pairs -> 1 chunks of <=5
+
+Dispatching 1 chunks across 4 workers...
+  [batch-0052-chunk-00] complete (1/1) | cost $0.5192 | 5 ok | 178.4s
+  Results written: working/missions/2026-05-19-stage4-haiku/results/batch-0052.json
+  Done: 5/5 files | Decisions: {'emit_edge': 26, 'reject_just_mention': 107} | Cost: $0.5192
+
+============================================================
+FINAL SUMMARY
+============================================================
+  Batches processed: 1
+  Concurrency: 4
+  Chunk size: 5
+  Files attempted: 5
+  Files done: 5
+  Files failed: 0
+  Rate-limit events: 0
+  Total cost: $0.5192
+  Elapsed: 178.4s
+  Output dir: working/missions/2026-05-19-stage4-haiku/results/
+
+  Per-chunk durations (1 chunks):
+    batch-0052-chunk-00: 178.4s | $0.5192 | 5 ok / 0 failed
+
+  Run summary written: working/missions/2026-05-19-stage4-haiku/run-summary.json
+[2026-05-22 07:40:06 CDT] batch-0052 completed in 179s
+[2026-05-22 07:40:06 CDT] Sleeping 60s before next iteration...
+[2026-05-22 07:41:06 CDT] ═══════════════════════════════════════════════════════════════
+[2026-05-22 07:41:06 CDT]   Batch 14/222  →  batch-0062
+[2026-05-22 07:41:06 CDT] ═══════════════════════════════════════════════════════════════
+Weirwood Network — Stage 4 Haiku Orchestrator
+  Model: claude-haiku-4-5
+  Chunk size: 5
+  Concurrency: 4 (parallel)
+  Retries: 2
+  Dry-run: False
+  Sonnet manifest: working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
+  Haiku mission dir: working/missions/2026-05-19-stage4-haiku
+
+Recording provenance...
+  Provenance written: working/missions/2026-05-19-stage4-haiku/prompts-used/provenance.json
+  Sonnet-era classifier: commit 6f37b940
+
+Sonnet manifest: 1089 rows, 72 done
+Mode: --batches batch-0062 -> 1 batches selected
+
+
+=== Batch batch-0062 (5 files, shape=source_target) ===
+  5 pairs -> 1 chunks of <=5
+
+Dispatching 1 chunks across 4 workers...
+  [batch-0062-chunk-00] complete (1/1) | cost $0.3664 | 5 ok | 118.8s
+  Results written: working/missions/2026-05-19-stage4-haiku/results/batch-0062.json
+  Done: 5/5 files | Decisions: {'reject_just_mention': 54, 'emit_edge': 43} | Cost: $0.3664
+
+============================================================
+FINAL SUMMARY
+============================================================
+  Batches processed: 1
+  Concurrency: 4
+  Chunk size: 5
+  Files attempted: 5
+  Files done: 5
+  Files failed: 0
+  Rate-limit events: 0
+  Total cost: $0.3664
+  Elapsed: 118.8s
+  Output dir: working/missions/2026-05-19-stage4-haiku/results/
+
+  Per-chunk durations (1 chunks):
+    batch-0062-chunk-00: 118.8s | $0.3664 | 5 ok / 0 failed
+
+  Run summary written: working/missions/2026-05-19-stage4-haiku/run-summary.json
+[2026-05-22 07:43:05 CDT] batch-0062 completed in 119s
+[2026-05-22 07:43:05 CDT] Sleeping 60s before next iteration...
+[2026-05-22 07:44:05 CDT] ═══════════════════════════════════════════════════════════════
+[2026-05-22 07:44:05 CDT]   Batch 15/222  →  batch-0063
+[2026-05-22 07:44:05 CDT] ═══════════════════════════════════════════════════════════════
+Weirwood Network — Stage 4 Haiku Orchestrator
+  Model: claude-haiku-4-5
+  Chunk size: 5
+  Concurrency: 4 (parallel)
+  Retries: 2
+  Dry-run: False
+  Sonnet manifest: working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
+  Haiku mission dir: working/missions/2026-05-19-stage4-haiku
+
+Recording provenance...
+  Provenance written: working/missions/2026-05-19-stage4-haiku/prompts-used/provenance.json
+  Sonnet-era classifier: commit 6f37b940
+
+Sonnet manifest: 1089 rows, 72 done
+Mode: --batches batch-0063 -> 1 batches selected
+
+
+=== Batch batch-0063 (5 files, shape=source_target) ===
+  5 pairs -> 1 chunks of <=5
+
+Dispatching 1 chunks across 4 workers...
+  [batch-0063-chunk-00] complete (1/1) | cost $0.3830 | 5 ok | 159.3s
+  Results written: working/missions/2026-05-19-stage4-haiku/results/batch-0063.json
+  Done: 5/5 files | Decisions: {'reject_just_mention': 125, 'emit_edge': 4} | Cost: $0.3830
+
+============================================================
+FINAL SUMMARY
+============================================================
+  Batches processed: 1
+  Concurrency: 4
+  Chunk size: 5
+  Files attempted: 5
+  Files done: 5
+  Files failed: 0
+  Rate-limit events: 0
+  Total cost: $0.3830
+  Elapsed: 159.3s
+  Output dir: working/missions/2026-05-19-stage4-haiku/results/
+
+  Per-chunk durations (1 chunks):
+    batch-0063-chunk-00: 159.3s | $0.3830 | 5 ok / 0 failed
+
+  Run summary written: working/missions/2026-05-19-stage4-haiku/run-summary.json
+[2026-05-22 07:46:44 CDT] batch-0063 completed in 159s
+[2026-05-22 07:46:44 CDT] Sleeping 60s before next iteration...
+[2026-05-22 07:47:44 CDT] ═══════════════════════════════════════════════════════════════
+[2026-05-22 07:47:44 CDT]   Batch 16/222  →  batch-0064
+[2026-05-22 07:47:44 CDT] ═══════════════════════════════════════════════════════════════
+Weirwood Network — Stage 4 Haiku Orchestrator
+  Model: claude-haiku-4-5
+  Chunk size: 5
+  Concurrency: 4 (parallel)
+  Retries: 2
+  Dry-run: False
+  Sonnet manifest: working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
+  Haiku mission dir: working/missions/2026-05-19-stage4-haiku
+
+Recording provenance...
+  Provenance written: working/missions/2026-05-19-stage4-haiku/prompts-used/provenance.json
+  Sonnet-era classifier: commit 6f37b940
+
+Sonnet manifest: 1089 rows, 72 done
+Mode: --batches batch-0064 -> 1 batches selected
+
+
+=== Batch batch-0064 (5 files, shape=source_target) ===
+  5 pairs -> 1 chunks of <=5
+
+Dispatching 1 chunks across 4 workers...
+  [batch-0064-chunk-00] complete (1/1) | cost $0.3886 | 5 ok | 121.5s
+  Results written: working/missions/2026-05-19-stage4-haiku/results/batch-0064.json
+  Done: 5/5 files | Decisions: {'emit_edge': 22, 'reject_just_mention': 26} | Cost: $0.3886
+
+============================================================
+FINAL SUMMARY
+============================================================
+  Batches processed: 1
+  Concurrency: 4
+  Chunk size: 5
+  Files attempted: 5
+  Files done: 5
+  Files failed: 0
+  Rate-limit events: 0
+  Total cost: $0.3886
+  Elapsed: 121.5s
+  Output dir: working/missions/2026-05-19-stage4-haiku/results/
+
+  Per-chunk durations (1 chunks):
+    batch-0064-chunk-00: 121.5s | $0.3886 | 5 ok / 0 failed
+
+  Run summary written: working/missions/2026-05-19-stage4-haiku/run-summary.json
+[2026-05-22 07:49:46 CDT] batch-0064 completed in 122s
+[2026-05-22 07:49:46 CDT] Sleeping 60s before next iteration...
+[2026-05-22 07:50:46 CDT] ═══════════════════════════════════════════════════════════════
+[2026-05-22 07:50:46 CDT]   Batch 17/222  →  batch-0065
+[2026-05-22 07:50:46 CDT] ═══════════════════════════════════════════════════════════════
+Weirwood Network — Stage 4 Haiku Orchestrator
+  Model: claude-haiku-4-5
+  Chunk size: 5
+  Concurrency: 4 (parallel)
+  Retries: 2
+  Dry-run: False
+  Sonnet manifest: working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
+  Haiku mission dir: working/missions/2026-05-19-stage4-haiku
+
+Recording provenance...
+  Provenance written: working/missions/2026-05-19-stage4-haiku/prompts-used/provenance.json
+  Sonnet-era classifier: commit 6f37b940
+
+Sonnet manifest: 1089 rows, 72 done
+Mode: --batches batch-0065 -> 1 batches selected
+
+
+=== Batch batch-0065 (5 files, shape=source_target) ===
+  5 pairs -> 1 chunks of <=5
+
+Dispatching 1 chunks across 4 workers...
+  [batch-0065-chunk-00] complete (1/1) | cost $2.8998 | 5 ok | 688.3s
+  Results written: working/missions/2026-05-19-stage4-haiku/results/batch-0065.json
+  Done: 5/5 files | Decisions: {'reject_just_mention': 198, 'emit_edge': 11} | Cost: $2.8998
+
+============================================================
+FINAL SUMMARY
+============================================================
+  Batches processed: 1
+  Concurrency: 4
+  Chunk size: 5
+  Files attempted: 5
+  Files done: 5
+  Files failed: 0
+  Rate-limit events: 0
+  Total cost: $2.8998
+  Elapsed: 688.3s
+  Output dir: working/missions/2026-05-19-stage4-haiku/results/
+
+  Per-chunk durations (1 chunks):
+    batch-0065-chunk-00: 688.3s | $2.8998 | 5 ok / 0 failed
+
+  Run summary written: working/missions/2026-05-19-stage4-haiku/run-summary.json
+[2026-05-22 08:02:15 CDT] batch-0065 completed in 689s
+[2026-05-22 08:02:15 CDT] Sleeping 60s before next iteration...
+[2026-05-22 08:03:15 CDT] ═══════════════════════════════════════════════════════════════
+[2026-05-22 08:03:15 CDT]   Batch 18/222  →  batch-0066
+[2026-05-22 08:03:15 CDT] ═══════════════════════════════════════════════════════════════
+Weirwood Network — Stage 4 Haiku Orchestrator
+  Model: claude-haiku-4-5
+  Chunk size: 5
+  Concurrency: 4 (parallel)
+  Retries: 2
+  Dry-run: False
+  Sonnet manifest: working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
+  Haiku mission dir: working/missions/2026-05-19-stage4-haiku
+
+Recording provenance...
+  Provenance written: working/missions/2026-05-19-stage4-haiku/prompts-used/provenance.json
+  Sonnet-era classifier: commit 6f37b940
+
+Sonnet manifest: 1089 rows, 72 done
+Mode: --batches batch-0066 -> 1 batches selected
+
+
+=== Batch batch-0066 (5 files, shape=source_target) ===
+  5 pairs -> 1 chunks of <=5
+
+Dispatching 1 chunks across 4 workers...
+  [batch-0066-chunk-00] complete (1/1) | cost $0.4861 | 5 ok | 140.2s
+  Results written: working/missions/2026-05-19-stage4-haiku/results/batch-0066.json
+  Done: 5/5 files | Decisions: {'reject_just_mention': 201, 'emit_edge': 41} | Cost: $0.4861
+
+============================================================
+FINAL SUMMARY
+============================================================
+  Batches processed: 1
+  Concurrency: 4
+  Chunk size: 5
+  Files attempted: 5
+  Files done: 5
+  Files failed: 0
+  Rate-limit events: 0
+  Total cost: $0.4861
+  Elapsed: 140.2s
+  Output dir: working/missions/2026-05-19-stage4-haiku/results/
+
+  Per-chunk durations (1 chunks):
+    batch-0066-chunk-00: 140.2s | $0.4861 | 5 ok / 0 failed
+
+  Run summary written: working/missions/2026-05-19-stage4-haiku/run-summary.json
+[2026-05-22 08:05:35 CDT] batch-0066 completed in 140s
+[2026-05-22 08:05:35 CDT] Sleeping 60s before next iteration...
+[2026-05-22 08:06:35 CDT] ═══════════════════════════════════════════════════════════════
+[2026-05-22 08:06:35 CDT]   Batch 19/222  →  batch-0076
+[2026-05-22 08:06:35 CDT] ═══════════════════════════════════════════════════════════════
+Weirwood Network — Stage 4 Haiku Orchestrator
+  Model: claude-haiku-4-5
+  Chunk size: 5
+  Concurrency: 4 (parallel)
+  Retries: 2
+  Dry-run: False
+  Sonnet manifest: working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
+  Haiku mission dir: working/missions/2026-05-19-stage4-haiku
+
+Recording provenance...
+  Provenance written: working/missions/2026-05-19-stage4-haiku/prompts-used/provenance.json
+  Sonnet-era classifier: commit 6f37b940
+
+Sonnet manifest: 1089 rows, 72 done
+Mode: --batches batch-0076 -> 1 batches selected
+
+
+=== Batch batch-0076 (5 files, shape=source_target) ===
+  5 pairs -> 1 chunks of <=5
+
+Dispatching 1 chunks across 4 workers...
+  [batch-0076-chunk-00] complete (1/1) | cost $3.9459 | 5 ok | 1087.1s
+  Results written: working/missions/2026-05-19-stage4-haiku/results/batch-0076.json
+  Done: 5/5 files | Decisions: {'emit_edge': 135, 'reject_just_mention': 270} | Cost: $3.9459
+
+============================================================
+FINAL SUMMARY
+============================================================
+  Batches processed: 1
+  Concurrency: 4
+  Chunk size: 5
+  Files attempted: 5
+  Files done: 5
+  Files failed: 0
+  Rate-limit events: 0
+  Total cost: $3.9459
+  Elapsed: 1087.1s
+  Output dir: working/missions/2026-05-19-stage4-haiku/results/
+
+  Per-chunk durations (1 chunks):
+    batch-0076-chunk-00: 1087.1s | $3.9459 | 5 ok / 0 failed
+
+  Run summary written: working/missions/2026-05-19-stage4-haiku/run-summary.json
+[2026-05-22 08:24:42 CDT] batch-0076 completed in 1087s
+[2026-05-22 08:24:42 CDT] Sleeping 60s before next iteration...
+[2026-05-22 08:25:42 CDT] ═══════════════════════════════════════════════════════════════
+[2026-05-22 08:25:42 CDT]   Batch 20/222  →  batch-0077
+[2026-05-22 08:25:42 CDT] ═══════════════════════════════════════════════════════════════
+Weirwood Network — Stage 4 Haiku Orchestrator
+  Model: claude-haiku-4-5
+  Chunk size: 5
+  Concurrency: 4 (parallel)
+  Retries: 2
+  Dry-run: False
+  Sonnet manifest: working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
+  Haiku mission dir: working/missions/2026-05-19-stage4-haiku
+
+Recording provenance...
+  Provenance written: working/missions/2026-05-19-stage4-haiku/prompts-used/provenance.json
+  Sonnet-era classifier: commit 6f37b940
+
+Sonnet manifest: 1089 rows, 72 done
+Mode: --batches batch-0077 -> 1 batches selected
+
+
+=== Batch batch-0077 (5 files, shape=source_target) ===
+  5 pairs -> 1 chunks of <=5
+
+Dispatching 1 chunks across 4 workers...
+  [batch-0077-chunk-00] complete (1/1) | cost $0.4741 | 5 ok | 161.0s
+  Results written: working/missions/2026-05-19-stage4-haiku/results/batch-0077.json
+  Done: 5/5 files | Decisions: {'emit_edge': 28, 'reject_just_mention': 26} | Cost: $0.4741
+
+============================================================
+FINAL SUMMARY
+============================================================
+  Batches processed: 1
+  Concurrency: 4
+  Chunk size: 5
+  Files attempted: 5
+  Files done: 5
+  Files failed: 0
+  Rate-limit events: 0
+  Total cost: $0.4741
+  Elapsed: 161.1s
+  Output dir: working/missions/2026-05-19-stage4-haiku/results/
+
+  Per-chunk durations (1 chunks):
+    batch-0077-chunk-00: 161.0s | $0.4741 | 5 ok / 0 failed
+
+  Run summary written: working/missions/2026-05-19-stage4-haiku/run-summary.json
+[2026-05-22 08:28:23 CDT] batch-0077 completed in 161s
+[2026-05-22 08:28:23 CDT] Sleeping 60s before next iteration...
+[2026-05-22 08:29:23 CDT] ═══════════════════════════════════════════════════════════════
+[2026-05-22 08:29:23 CDT]   Batch 21/222  →  batch-0100
+[2026-05-22 08:29:23 CDT] ═══════════════════════════════════════════════════════════════
+Weirwood Network — Stage 4 Haiku Orchestrator
+  Model: claude-haiku-4-5
+  Chunk size: 5
+  Concurrency: 4 (parallel)
+  Retries: 2
+  Dry-run: False
+  Sonnet manifest: working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
+  Haiku mission dir: working/missions/2026-05-19-stage4-haiku
+
+Recording provenance...
+  Provenance written: working/missions/2026-05-19-stage4-haiku/prompts-used/provenance.json
+  Sonnet-era classifier: commit 6f37b940
+
+Sonnet manifest: 1089 rows, 72 done
+Mode: --batches batch-0100 -> 1 batches selected
+
+
+=== Batch batch-0100 (5 files, shape=source_target) ===
+  5 pairs -> 1 chunks of <=5
+
+Dispatching 1 chunks across 4 workers...
+  [batch-0100-chunk-00] complete (1/1) | cost $8.2879 | 5 ok | 2202.0s
+  Results written: working/missions/2026-05-19-stage4-haiku/results/batch-0100.json
+  Done: 5/5 files | Decisions: {'reject_just_mention': 142, 'emit_edge': 32} | Cost: $8.2879
+
+============================================================
+FINAL SUMMARY
+============================================================
+  Batches processed: 1
+  Concurrency: 4
+  Chunk size: 5
+  Files attempted: 5
+  Files done: 5
+  Files failed: 0
+  Rate-limit events: 0
+  Total cost: $8.2879
+  Elapsed: 2202.1s
+  Output dir: working/missions/2026-05-19-stage4-haiku/results/
+
+  Per-chunk durations (1 chunks):
+    batch-0100-chunk-00: 2202.0s | $8.2879 | 5 ok / 0 failed
+
+  Run summary written: working/missions/2026-05-19-stage4-haiku/run-summary.json
+[2026-05-22 09:06:06 CDT] batch-0100 completed in 2203s
+[2026-05-22 09:06:06 CDT] Sleeping 60s before next iteration...
+[2026-05-22 09:07:06 CDT] ═══════════════════════════════════════════════════════════════
+[2026-05-22 09:07:06 CDT]   Batch 22/222  →  batch-0115
+[2026-05-22 09:07:06 CDT] ═══════════════════════════════════════════════════════════════
+Weirwood Network — Stage 4 Haiku Orchestrator
+  Model: claude-haiku-4-5
+  Chunk size: 5
+  Concurrency: 4 (parallel)
+  Retries: 2
+  Dry-run: False
+  Sonnet manifest: working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
+  Haiku mission dir: working/missions/2026-05-19-stage4-haiku
+
+Recording provenance...
+  Provenance written: working/missions/2026-05-19-stage4-haiku/prompts-used/provenance.json
+  Sonnet-era classifier: commit 6f37b940
+
+Sonnet manifest: 1089 rows, 72 done
+Mode: --batches batch-0115 -> 1 batches selected
+
+
+=== Batch batch-0115 (5 files, shape=source_target) ===
+  5 pairs -> 1 chunks of <=5
+
+Dispatching 1 chunks across 4 workers...
+  [batch-0115-chunk-00] complete (1/1) | cost $0.2662 | 5 ok | 95.7s
+  Results written: working/missions/2026-05-19-stage4-haiku/results/batch-0115.json
+  Done: 5/5 files | Decisions: {'emit_edge': 164, 'reject_just_mention': 99} | Cost: $0.2662
+
+============================================================
+FINAL SUMMARY
+============================================================
+  Batches processed: 1
+  Concurrency: 4
+  Chunk size: 5
+  Files attempted: 5
+  Files done: 5
+  Files failed: 0
+  Rate-limit events: 0
+  Total cost: $0.2662
+  Elapsed: 95.7s
+  Output dir: working/missions/2026-05-19-stage4-haiku/results/
+
+  Per-chunk durations (1 chunks):
+    batch-0115-chunk-00: 95.7s | $0.2662 | 5 ok / 0 failed
+
+  Run summary written: working/missions/2026-05-19-stage4-haiku/run-summary.json
+[2026-05-22 09:08:42 CDT] batch-0115 completed in 96s
+[2026-05-22 09:08:42 CDT] Sleeping 60s before next iteration...
+[2026-05-22 09:09:42 CDT] ═══════════════════════════════════════════════════════════════
+[2026-05-22 09:09:42 CDT]   Batch 23/222  →  batch-0116
+[2026-05-22 09:09:42 CDT] ═══════════════════════════════════════════════════════════════
+Weirwood Network — Stage 4 Haiku Orchestrator
+  Model: claude-haiku-4-5
+  Chunk size: 5
+  Concurrency: 4 (parallel)
+  Retries: 2
+  Dry-run: False
+  Sonnet manifest: working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
+  Haiku mission dir: working/missions/2026-05-19-stage4-haiku
+
+Recording provenance...
+  Provenance written: working/missions/2026-05-19-stage4-haiku/prompts-used/provenance.json
+  Sonnet-era classifier: commit 6f37b940
+
+Sonnet manifest: 1089 rows, 72 done
+Mode: --batches batch-0116 -> 1 batches selected
+
+
+=== Batch batch-0116 (5 files, shape=source_target) ===
+  5 pairs -> 1 chunks of <=5
+
+Dispatching 1 chunks across 4 workers...
+  [batch-0116-chunk-00] complete (1/1) | cost $0.2654 | 5 ok | 57.8s
+  Results written: working/missions/2026-05-19-stage4-haiku/results/batch-0116.json
+  Done: 5/5 files | Decisions: {'emit_edge': 60, 'reject_just_mention': 81} | Cost: $0.2654
+
+============================================================
+FINAL SUMMARY
+============================================================
+  Batches processed: 1
+  Concurrency: 4
+  Chunk size: 5
+  Files attempted: 5
+  Files done: 5
+  Files failed: 0
+  Rate-limit events: 0
+  Total cost: $0.2654
+  Elapsed: 57.8s
+  Output dir: working/missions/2026-05-19-stage4-haiku/results/
+
+  Per-chunk durations (1 chunks):
+    batch-0116-chunk-00: 57.8s | $0.2654 | 5 ok / 0 failed
+
+  Run summary written: working/missions/2026-05-19-stage4-haiku/run-summary.json
+[2026-05-22 09:10:40 CDT] batch-0116 completed in 58s
+[2026-05-22 09:10:40 CDT] Sleeping 60s before next iteration...
+[2026-05-22 09:11:40 CDT] ═══════════════════════════════════════════════════════════════
+[2026-05-22 09:11:40 CDT]   Batch 24/222  →  batch-0117
+[2026-05-22 09:11:40 CDT] ═══════════════════════════════════════════════════════════════
+Weirwood Network — Stage 4 Haiku Orchestrator
+  Model: claude-haiku-4-5
+  Chunk size: 5
+  Concurrency: 4 (parallel)
+  Retries: 2
+  Dry-run: False
+  Sonnet manifest: working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
+  Haiku mission dir: working/missions/2026-05-19-stage4-haiku
+
+Recording provenance...
+  Provenance written: working/missions/2026-05-19-stage4-haiku/prompts-used/provenance.json
+  Sonnet-era classifier: commit 6f37b940
+
+Sonnet manifest: 1089 rows, 72 done
+Mode: --batches batch-0117 -> 1 batches selected
+
+
+=== Batch batch-0117 (5 files, shape=source_target) ===
+  5 pairs -> 1 chunks of <=5
+
+Dispatching 1 chunks across 4 workers...
+  [batch-0117-chunk-00] complete (1/1) | cost $0.7512 | 5 ok | 290.1s
+  Results written: working/missions/2026-05-19-stage4-haiku/results/batch-0117.json
+  Done: 5/5 files | Decisions: {'reject_just_mention': 286, 'emit_edge': 8} | Cost: $0.7512
+
+============================================================
+FINAL SUMMARY
+============================================================
+  Batches processed: 1
+  Concurrency: 4
+  Chunk size: 5
+  Files attempted: 5
+  Files done: 5
+  Files failed: 0
+  Rate-limit events: 0
+  Total cost: $0.7512
+  Elapsed: 290.1s
+  Output dir: working/missions/2026-05-19-stage4-haiku/results/
+
+  Per-chunk durations (1 chunks):
+    batch-0117-chunk-00: 290.1s | $0.7512 | 5 ok / 0 failed
+
+  Run summary written: working/missions/2026-05-19-stage4-haiku/run-summary.json
+[2026-05-22 09:16:30 CDT] batch-0117 completed in 290s
+[2026-05-22 09:16:30 CDT] Sleeping 60s before next iteration...
+[2026-05-22 09:17:30 CDT] ═══════════════════════════════════════════════════════════════
+[2026-05-22 09:17:30 CDT]   Batch 25/222  →  batch-0162
+[2026-05-22 09:17:30 CDT] ═══════════════════════════════════════════════════════════════
+Weirwood Network — Stage 4 Haiku Orchestrator
+  Model: claude-haiku-4-5
+  Chunk size: 5
+  Concurrency: 4 (parallel)
+  Retries: 2
+  Dry-run: False
+  Sonnet manifest: working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
+  Haiku mission dir: working/missions/2026-05-19-stage4-haiku
+
+Recording provenance...
+  Provenance written: working/missions/2026-05-19-stage4-haiku/prompts-used/provenance.json
+  Sonnet-era classifier: commit 6f37b940
+
+Sonnet manifest: 1089 rows, 72 done
+Mode: --batches batch-0162 -> 1 batches selected
+
+
+=== Batch batch-0162 (5 files, shape=source_target) ===
+  5 pairs -> 1 chunks of <=5
+
+Dispatching 1 chunks across 4 workers...
+  [batch-0162-chunk-00] complete (1/1) | cost $0.5660 | 5 ok | 206.4s
+  Results written: working/missions/2026-05-19-stage4-haiku/results/batch-0162.json
+  Done: 5/5 files | Decisions: {'reject_just_mention': 182, 'emit_edge': 16} | Cost: $0.5660
+
+============================================================
+FINAL SUMMARY
+============================================================
+  Batches processed: 1
+  Concurrency: 4
+  Chunk size: 5
+  Files attempted: 5
+  Files done: 5
+  Files failed: 0
+  Rate-limit events: 0
+  Total cost: $0.5660
+  Elapsed: 206.5s
+  Output dir: working/missions/2026-05-19-stage4-haiku/results/
+
+  Per-chunk durations (1 chunks):
+    batch-0162-chunk-00: 206.4s | $0.5660 | 5 ok / 0 failed
+
+  Run summary written: working/missions/2026-05-19-stage4-haiku/run-summary.json
+[2026-05-22 09:20:56 CDT] batch-0162 completed in 206s
+[2026-05-22 09:20:56 CDT] Sleeping 60s before next iteration...
+[2026-05-22 09:21:57 CDT] ═══════════════════════════════════════════════════════════════
+[2026-05-22 09:21:57 CDT]   Batch 26/222  →  batch-0163
+[2026-05-22 09:21:57 CDT] ═══════════════════════════════════════════════════════════════
+Weirwood Network — Stage 4 Haiku Orchestrator
+  Model: claude-haiku-4-5
+  Chunk size: 5
+  Concurrency: 4 (parallel)
+  Retries: 2
+  Dry-run: False
+  Sonnet manifest: working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
+  Haiku mission dir: working/missions/2026-05-19-stage4-haiku
+
+Recording provenance...
+  Provenance written: working/missions/2026-05-19-stage4-haiku/prompts-used/provenance.json
+  Sonnet-era classifier: commit 6f37b940
+
+Sonnet manifest: 1089 rows, 72 done
+Mode: --batches batch-0163 -> 1 batches selected
+
+
+=== Batch batch-0163 (5 files, shape=source_target) ===
+  5 pairs -> 1 chunks of <=5
+
+Dispatching 1 chunks across 4 workers...
+  [batch-0163-chunk-00] complete (1/1) | cost $0.3286 | 5 ok | 132.1s
+  Results written: working/missions/2026-05-19-stage4-haiku/results/batch-0163.json
+  Done: 5/5 files | Decisions: {'reject_just_mention': 154, 'emit_edge': 105} | Cost: $0.3286
+
+============================================================
+FINAL SUMMARY
+============================================================
+  Batches processed: 1
+  Concurrency: 4
+  Chunk size: 5
+  Files attempted: 5
+  Files done: 5
+  Files failed: 0
+  Rate-limit events: 0
+  Total cost: $0.3286
+  Elapsed: 132.1s
+  Output dir: working/missions/2026-05-19-stage4-haiku/results/
+
+  Per-chunk durations (1 chunks):
+    batch-0163-chunk-00: 132.1s | $0.3286 | 5 ok / 0 failed
+
+  Run summary written: working/missions/2026-05-19-stage4-haiku/run-summary.json
+[2026-05-22 09:24:09 CDT] batch-0163 completed in 132s
+[2026-05-22 09:24:09 CDT] Sleeping 60s before next iteration...
+[2026-05-22 09:25:09 CDT] ═══════════════════════════════════════════════════════════════
+[2026-05-22 09:25:09 CDT]   Batch 27/222  →  batch-0164
+[2026-05-22 09:25:09 CDT] ═══════════════════════════════════════════════════════════════
+Weirwood Network — Stage 4 Haiku Orchestrator
+  Model: claude-haiku-4-5
+  Chunk size: 5
+  Concurrency: 4 (parallel)
+  Retries: 2
+  Dry-run: False
+  Sonnet manifest: working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
+  Haiku mission dir: working/missions/2026-05-19-stage4-haiku
+
+Recording provenance...
+  Provenance written: working/missions/2026-05-19-stage4-haiku/prompts-used/provenance.json
+  Sonnet-era classifier: commit 6f37b940
+
+Sonnet manifest: 1089 rows, 72 done
+Mode: --batches batch-0164 -> 1 batches selected
+
+
+=== Batch batch-0164 (5 files, shape=source_target) ===
+  5 pairs -> 1 chunks of <=5
+
+Dispatching 1 chunks across 4 workers...
+  [batch-0164-chunk-00] complete (1/1) | cost $0.4527 | 5 ok | 157.3s
+  Results written: working/missions/2026-05-19-stage4-haiku/results/batch-0164.json
+  Done: 5/5 files | Decisions: {'reject_just_mention': 106, 'emit_edge': 129} | Cost: $0.4527
+
+============================================================
+FINAL SUMMARY
+============================================================
+  Batches processed: 1
+  Concurrency: 4
+  Chunk size: 5
+  Files attempted: 5
+  Files done: 5
+  Files failed: 0
+  Rate-limit events: 0
+  Total cost: $0.4527
+  Elapsed: 157.4s
+  Output dir: working/missions/2026-05-19-stage4-haiku/results/
+
+  Per-chunk durations (1 chunks):
+    batch-0164-chunk-00: 157.3s | $0.4527 | 5 ok / 0 failed
+
+  Run summary written: working/missions/2026-05-19-stage4-haiku/run-summary.json
+[2026-05-22 09:27:46 CDT] batch-0164 completed in 157s
+[2026-05-22 09:27:46 CDT] Stop file detected before post-batch sleep — exiting.

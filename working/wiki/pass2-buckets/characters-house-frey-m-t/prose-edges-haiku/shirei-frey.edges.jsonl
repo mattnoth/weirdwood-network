@@ -1,0 +1,4 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "shirei-frey", "target_slug": "merrett-frey", "reason": "mentioned-in-comparison-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "shirei-frey", "target_slug": "walder-frey-son-of-ryman", "reason": "mentioned-in-comparison-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "shirei-frey", "target_slug": "edmure-tully", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "shirei-frey", "target_slug": "robb-stark", "reason": "temporal-cooccurrence-not-relational"}

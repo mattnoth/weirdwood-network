@@ -1,0 +1,16 @@
+{
+  "batch_id": "batch-0174",
+  "shape": "source_target",
+  "started_at": "2026-05-22T07:11:01.498245+00:00",
+  "completed_at": "2026-05-22T07:11:01.498313+00:00",
+  "files_attempted": 0,
+  "files_done": 0,
+  "files_failed": 0,
+  "failed_outputs": [],
+  "decision_totals": {},
+  "total_cost_usd": 0.0,
+  "classifier_prompt_git_hash": "743497f48922f3cbb4d68b9357cf1689df13ec39",
+  "chunks_run": 0,
+  "chunk_timings": [],
+  "rate_limit_events_count": 0
+}

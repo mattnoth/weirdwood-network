@@ -1,0 +1,2 @@
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "garth-hightower", "target_slug": "knight", "edge_type": "HOLDS_TITLE", "qualifier": "current", "evidence_snippet": "Garth is a knight of some repute.", "evidence_section": "## Appearances & Description", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "garth-hightower", "target_slug": "ironborn", "reason": "temporal-context-not-relational"}

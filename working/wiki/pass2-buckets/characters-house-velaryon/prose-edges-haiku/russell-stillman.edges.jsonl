@@ -1,0 +1,5 @@
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "russell-stillman", "target_slug": "alyn-velaryon", "edge_type": "KNIGHTED_BY", "evidence_snippet": "During «Oakenfist»'s fifth «voyage», Russell was knighted by Lord Alyn before losing a leg", "evidence_section": "## Origins", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "russell-stillman", "target_slug": "archmaester", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "russell-stillman", "target_slug": "great-voyages", "reason": "no-fitting-type-vocab-locked"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "russell-stillman", "target_slug": "gyldayn", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "russell-stillman", "target_slug": "hard-as-oak", "reason": "reverse-direction-edge-belongs-on-hard-as-oak-node"}

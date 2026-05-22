@@ -1,0 +1,8 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walda-frey-daughter-of-edwyn", "target_slug": "bastard", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walda-frey-daughter-of-edwyn", "target_slug": "brotherhood-without-banners", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walda-frey-daughter-of-edwyn", "target_slug": "lord-of-the-crossing", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walda-frey-daughter-of-edwyn", "target_slug": "merrett-frey", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walda-frey-daughter-of-edwyn", "target_slug": "oldstones", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walda-frey-daughter-of-edwyn", "target_slug": "petyr-frey", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walda-frey-daughter-of-edwyn", "target_slug": "twins", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "walda-frey-daughter-of-edwyn", "target_slug": "walder-frey-son-of-ryman", "reason": "mentioned-in-comparison-not-relational"}

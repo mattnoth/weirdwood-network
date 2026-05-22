@@ -1,0 +1,2 @@
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "jason-hightower", "target_slug": "hightower", "edge_type": "BUILT", "evidence_snippet": "Jason also rebuilt the Hightower a hundred feet taller.", "evidence_section": "## Origins", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jason-hightower", "target_slug": "oldtown", "reason": "no-fitting-type-vocab-locked"}

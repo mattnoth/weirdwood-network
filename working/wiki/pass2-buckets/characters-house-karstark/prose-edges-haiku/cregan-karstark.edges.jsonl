@@ -1,0 +1,37 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "alys-karstark", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "alys-karstark", "reason": "insufficient-relational-evidence"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "cregan-karstark", "target_slug": "castle-black", "edge_type": "LOCATED_AT", "evidence_snippet": "To avoid the marriage all together, Alys flees north to the \u00abWall\u00bb and requests protection from the \u00abNight's Watch\u00bb. Cre", "evidence_section": "## Narrative Arc / ### A Dance with Dragons", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "dog", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "guest-right", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "harrion-karstark", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "house-lannister", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "jon-snow", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "lord-commander-of-the-nights-watch", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "lord-commanders-tower", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "lord-of-karhold", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "magnar-of-thenn", "reason": "insufficient-relational-evidence"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "cregan-karstark", "target_slug": "maidenpool", "edge_type": "LOCATED_AT", "evidence_snippet": "Cregan and his father \u00abArnolf\u00bb, castellan of \u00abKarhold\u00bb, conspire to \u00abmarry\u00bb him to \u00abAlys Karstark\u00bb, the daughter of the ", "evidence_section": "## Narrative Arc / ### A Dance with Dragons", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "marriage", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "nights-watch", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "rickard-karstark", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "sigorn", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "stannis-baratheon", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "wall", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "wedding-of-sigorn-and-alys-karstark", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "alys-karstark", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "alys-karstark", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "jon-snow", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "jon-snow", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "sigorn", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "wedding-of-sigorn-and-alys-karstark", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "alys-karstark", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "alys-karstark", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "eddard-stark", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "guest-right", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "house-stark", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "jon-snow", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "jon-snow", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "sigorn", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "wall", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "wedding-of-sigorn-and-alys-karstark", "reason": "insufficient-relational-evidence"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "cregan-karstark", "target_slug": "wolf", "reason": "insufficient-relational-evidence"}

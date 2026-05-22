@@ -1,0 +1,4 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-kenning", "target_slug": "asha-greyjoy", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "lord-kenning", "target_slug": "rodrik-harlaw", "edge_type": "SWORN_TO", "qualifier": "current", "evidence_snippet": "Lord Kenning does not sail to Ten Towers to answer the summon of his liege lord.", "evidence_section": "## Narrative Arc / ### A Feast For Crows", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-kenning", "target_slug": "seastone-chair", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "lord-kenning", "target_slug": "ten-towers", "reason": "temporal-cooccurrence-not-relational"}

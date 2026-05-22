@@ -1,0 +1,14 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "valaena-velaryon", "target_slug": "aenys-i-targaryen", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "valaena-velaryon", "target_slug": "alyssa-velaryon", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "valaena-velaryon", "target_slug": "marriage", "reason": "type-contract-violation"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "valaena-velaryon", "target_slug": "prince", "reason": "just-mention-not-edge"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "valaena-velaryon", "target_slug": "aerion-targaryen-son-of-daemion", "edge_type": "PARENT_OF", "qualifier": "biological", "evidence_snippet": "the only son, and second child, of Aerion), Lord of Dragonstone, and Lady Valaena of House Velaryon", "evidence_section": "## Quotes", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "valaena-velaryon", "target_slug": "archmaester", "reason": "citation-not-relation"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "valaena-velaryon", "target_slug": "archmaester", "reason": "citation-not-relation"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "valaena-velaryon", "target_slug": "fire-blood-being-a-history-of-the-targaryen-kings-of-westeros", "reason": "cited-work-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "valaena-velaryon", "target_slug": "fire-blood-being-a-history-of-the-targaryen-kings-of-westeros", "reason": "cited-work-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "valaena-velaryon", "target_slug": "gyldayn", "reason": "quote-attribution-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "valaena-velaryon", "target_slug": "gyldayn", "reason": "quote-attribution-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "valaena-velaryon", "target_slug": "kingship", "reason": "historical-context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "valaena-velaryon", "target_slug": "lord-of-dragonstone", "reason": "title-mention-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "valaena-velaryon", "target_slug": "marriage", "reason": "type-contract-violation"}

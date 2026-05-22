@@ -1,0 +1,3 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "serra-frey", "target_slug": "edmure-tully", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "serra-frey", "target_slug": "robb-stark", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "serra-frey", "target_slug": "twins", "reason": "location-setting-not-relational"}

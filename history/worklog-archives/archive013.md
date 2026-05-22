@@ -1,6 +1,29 @@
 # Worklog Archive 013
 
-> Sessions 58 (archived from main worklog). Format identical to live worklog Session Log entries.
+> Sessions 58-59 (archived from main worklog). Format identical to live worklog Session Log entries.
+
+---
+
+### Session 59 — Stage 4 Haiku Worker Built + Smoke (2026-05-19)
+
+**Detail:** `history/session-details/session-059.md`
+
+**Changes made:**
+- `scripts/stage4-haiku-run.py` — NEW. Haiku Stage 4 orchestrator: batch selection (`--batches`/`--all-done`), `--chunk-size`, `--concurrency` (parallel chunks), rate-limit detection, provenance snapshot, results + `run-summary.json`. Output → `prose-edges-haiku/` (separate from Sonnet's `prose-edges/`).
+- `.claude/commands/stage4-haiku-classify.md` — NEW. Thin classify-only Haiku prompt; hardened with a `## CRITICAL RULES` section (Tier-1 qualifier-enum table, KNOWS STOP, qualifier≠direction, no-invented-types, type contracts).
+- `.claude/agents/prose-edge-classifier.md` — R1/R2/R3 applied (Pattern 5 KNOWS STOP rule + KNOWS type-contract row; co-presence centralized rule; qualifier self-check).
+- `scripts/stage4-haiku-smoke-prep.py` / `-cleanup.py` / `-finish.sh` — NEW (smoke scaffolding).
+- `working/session-results/2026-05-19-batch-0020-opus-audit.md` — NEW (audit re-run; verdict "needs prompt change first" → R1).
+- New Haiku mission dir `working/missions/2026-05-19-stage4-haiku/`; batch-0020 Sonnet control + Haiku-v1 output archived under `working/wiki/pass2-buckets/_archive/`.
+- Memory `project_stage4_haiku_not_sonnet.md` — NEW.
+- Continue prompt `2026-05-19-stage4-haiku-run-batches.md` — NEW. `2026-05-19-stage4-haiku-smoke-fire.md` + `2026-05-19-batch-0020-opus-audit.md` — DELETED (completed).
+
+**Decisions:** Haiku is the Stage 4 bulk worker; **Sonnet is off the table** (cost — ~1017 batches; memory `project_stage4_haiku_not_sonnet`). The Haiku worker is built SEPARATE from the Sonnet worker (own scripts, output dir, mission dir) — never co-mingle. Haiku cannot drive the Sonnet worker harness's batch-bookkeeping (claimed wrong batch, early-exited, asked human mid-task) → a Python orchestrator does all bookkeeping; Haiku only classifies. Prompt hardening works when rules are inlined WITH their data (qualifier-missing 38→0, KNOWS 60→16) — proven twice. Speed-first; imperfect output acceptable (Opus watcher + later mechanical-extraction enrichment backstop). batch-0020 Haiku chunk-10 parallel = $1.86/5.7min vs chunk-3 = $2.99/28.5min — under Sonnet's $3.42. Remaining ~17.5% drift = invented type-name variants + type-contract → next: Python normalizer + inline-vocab + pre-loading re-architecture.
+
+**What's next:**
+- **Opus conductor — optimize Haiku pass speed, run batches, compare vs Sonnet, harden, iterate, scale** → continue: `progress/continue-prompts/2026-05-19-stage4-haiku-run-batches.md` (**Opus 4.7** conductor).
+- 8-batch Haiku wave (queued batches, chunk-15, concurrency-8) completed at session close — next session reads its `run-summary.json` as STEP 0.
+- **/endsession was explicitly authorized this session.**
 
 ---
 

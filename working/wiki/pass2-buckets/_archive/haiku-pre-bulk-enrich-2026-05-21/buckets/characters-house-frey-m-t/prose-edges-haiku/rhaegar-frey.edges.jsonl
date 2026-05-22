@@ -1,0 +1,49 @@
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "rhaegar-frey", "target_slug": "prince-of-dragonstone", "edge_type": "NAMED_AFTER", "evidence_snippet": "named after Rhaegar Targaryen, Prince of Dragonstone", "evidence_section": "## Appearances & Description", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "rhaegar-frey", "target_slug": "rhaegar-targaryen", "edge_type": "NAMED_AFTER", "evidence_snippet": "named after Rhaegar Targaryen", "evidence_section": "## Appearances & Description", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "barrowton", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "cersei-lannister", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "davos-seaworth", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "frey-pies-theories", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "harrenhal", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "hosteen-frey", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "house-manderly", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "iron-throne", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "jared-frey", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "jeyne-poole", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "king-in-the-north", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "lionstar", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "maidenpool", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "mance-rayder", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "north", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "ramsay-snow", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "rat-cook", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "red-wedding", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "riverlands", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "robb-stark", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "sisterton", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "stannis-baratheon", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "symond-frey", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "tommen-baratheon", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "walder-frey-son-of-merrett", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "rhaegar-frey", "target_slug": "wedding-of-ramsay-bolton-and-arya-stark", "edge_type": "PARTICIPATES_IN", "evidence_snippet": "At Winterfell after Ramsay's wedding, Wyman presents three huge pies", "evidence_section": "## Narrative Arc / ### A Dance with Dragons", "evidence_paragraph_index": 0, "confidence_tier": 2}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "wendel-manderly", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "white-harbor", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "winterfell", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "wylis-manderly", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "wylla-manderly", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "wyman-manderly", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "wynafryd-manderly", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "davos-seaworth", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "rhaegar-frey", "target_slug": "rhaegar-targaryen", "edge_type": "NAMED_AFTER", "evidence_snippet": "named after Rhaegar Targaryen", "evidence_section": "## Quotes / ### Quotes about Rhaegar", "evidence_paragraph_index": 0, "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "wyman-manderly", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "ironborn", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "jeyne-westerling", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "mermans-court", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "mermans-court", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "north", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "robb-stark", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "robb-stark", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "trident", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "walder-frey", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "wylla-manderly", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "rhaegar-frey", "target_slug": "wynafryd-manderly", "reason": "temporal-cooccurrence-not-relational"}

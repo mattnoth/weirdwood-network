@@ -1,0 +1,3 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "triston-hightower", "target_slug": "high-septon", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "triston-hightower", "target_slug": "robeson", "reason": "reverse-direction-edge-belongs-on-other-node"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "triston-hightower", "target_slug": "starry-sept", "edge_type": "BUILT", "evidence_snippet": "Lord Triston raised the «Starry Sept» in Robeson's honor after his passing", "evidence_section": "## Origins", "evidence_paragraph_index": 1, "confidence_tier": 1}

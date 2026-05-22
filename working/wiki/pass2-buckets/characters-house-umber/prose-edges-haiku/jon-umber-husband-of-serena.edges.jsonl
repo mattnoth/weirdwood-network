@@ -1,0 +1,4 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jon-umber-husband-of-serena", "target_slug": "cregan-stark", "reason": "genealogical-context-not-direct-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jon-umber-husband-of-serena", "target_slug": "edric-stark-son-of-cregan", "reason": "genealogical-context-not-direct-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jon-umber-husband-of-serena", "target_slug": "rickon-stark-son-of-cregan", "reason": "genealogical-context-not-direct-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jon-umber-husband-of-serena", "target_slug": "winterfell", "reason": "genealogical-context-not-direct-edge"}

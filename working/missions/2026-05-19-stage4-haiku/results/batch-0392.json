@@ -1,0 +1,29 @@
+{
+  "batch_id": "batch-0392",
+  "shape": "comention",
+  "started_at": "2026-05-22T08:05:44.247782+00:00",
+  "completed_at": "2026-05-22T08:08:04.944012+00:00",
+  "files_attempted": 5,
+  "files_done": 5,
+  "files_failed": 0,
+  "failed_outputs": [],
+  "decision_totals": {
+    "reject_just_mention": 364,
+    "emit_edge": 5
+  },
+  "total_cost_usd": 0.342183,
+  "classifier_prompt_git_hash": "743497f48922f3cbb4d68b9357cf1689df13ec39",
+  "chunks_run": 1,
+  "chunk_timings": [
+    {
+      "chunk_id": "batch-0392-chunk-00",
+      "chunk_idx": 0,
+      "duration_s": 140.69,
+      "cost_usd": 0.342183,
+      "files_done": 5,
+      "files_failed": 0,
+      "rate_limited": false
+    }
+  ],
+  "rate_limit_events_count": 0
+}

@@ -1,0 +1,74 @@
+{
+  "batch_id": "batch-0020",
+  "shape": "source_target",
+  "started_at": "2026-05-22T09:44:04.878744+00:00",
+  "completed_at": "2026-05-22T09:51:00.311256+00:00",
+  "files_attempted": 30,
+  "files_done": 30,
+  "files_failed": 0,
+  "failed_outputs": [],
+  "decision_totals": {
+    "emit_edge": 268,
+    "reject_just_mention": 493
+  },
+  "total_cost_usd": 3.248434,
+  "classifier_prompt_git_hash": "743497f48922f3cbb4d68b9357cf1689df13ec39",
+  "chunks_run": 6,
+  "chunk_timings": [
+    {
+      "chunk_id": "batch-0020-chunk-00",
+      "chunk_idx": 0,
+      "duration_s": 286.38,
+      "cost_usd": 0.840728,
+      "files_done": 5,
+      "files_failed": 0,
+      "rate_limited": false
+    },
+    {
+      "chunk_id": "batch-0020-chunk-01",
+      "chunk_idx": 1,
+      "duration_s": 256.48,
+      "cost_usd": 0.671295,
+      "files_done": 5,
+      "files_failed": 0,
+      "rate_limited": false
+    },
+    {
+      "chunk_id": "batch-0020-chunk-02",
+      "chunk_idx": 2,
+      "duration_s": 302.29,
+      "cost_usd": 0.661895,
+      "files_done": 5,
+      "files_failed": 0,
+      "rate_limited": false
+    },
+    {
+      "chunk_id": "batch-0020-chunk-03",
+      "chunk_idx": 3,
+      "duration_s": 125.58,
+      "cost_usd": 0.269976,
+      "files_done": 5,
+      "files_failed": 0,
+      "rate_limited": false
+    },
+    {
+      "chunk_id": "batch-0020-chunk-04",
+      "chunk_idx": 4,
+      "duration_s": 99.53,
+      "cost_usd": 0.335198,
+      "files_done": 5,
+      "files_failed": 0,
+      "rate_limited": false
+    },
+    {
+      "chunk_id": "batch-0020-chunk-05",
+      "chunk_idx": 5,
+      "duration_s": 190.29,
+      "cost_usd": 0.469342,
+      "files_done": 5,
+      "files_failed": 0,
+      "rate_limited": false
+    }
+  ],
+  "rate_limit_events_count": 0
+}

@@ -1,0 +1,2 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "therry", "target_slug": "knight", "reason": "title mentioned in narrative context; source does not hold it directly"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "therry", "target_slug": "davos-seaworth", "reason": "character co-present or mentioned in context without clear typed relationship"}

@@ -1,0 +1,2 @@
+{"decision": "reject_just_mention", "reason": "no-fitting-type-vocab-locked", "candidate_kind": "source_target", "source_slug": "samwyle-tarly", "target_slug": "209-ac"}
+{"decision": "emit_edge", "edge_type": "FIGHTS_IN", "confidence_tier": 3, "evidence_kind": "wiki-entity", "evidence_snippet": "samwyle is listed as competing in the \u00abtourney at ashford meadow\u00bb in \u00ab209\u00a0ac\u00bb.", "candidate_kind": "source_target", "source_slug": "samwyle-tarly", "target_slug": "tourney-at-ashford-meadow"}

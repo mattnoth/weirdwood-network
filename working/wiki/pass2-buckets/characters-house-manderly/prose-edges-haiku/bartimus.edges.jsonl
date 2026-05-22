@@ -1,0 +1,7 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "bartimus", "target_slug": "first-men", "reason": "no-fitting-edge-identified"}
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "bartimus", "target_slug": "old-gods-of-the-forest", "edge_type": "WORSHIPS", "evidence_snippet": "Bartimus is a descendant of the \u00abFirst Men\u00bb who lived at the mouth of the \u00abWhite Knife\u00bb before the coming of the \u00abManderlys\u00bb. He is often drunk. He has one leg and one eye. Though he is a knight he worships the \u00abold gods\u00bb.", "evidence_section": "## Appearances & Description", "confidence_tier": 1}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "bartimus", "target_slug": "white-knife", "reason": "no-fitting-edge-identified"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "bartimus", "target_slug": "davos-seaworth", "reason": "encounters-requires-staging-verb"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "bartimus", "target_slug": "battle-of-the-trident", "reason": "no-fitting-edge-identified"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "bartimus", "target_slug": "maesters", "reason": "no-fitting-edge-identified"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "bartimus", "target_slug": "wyman-manderly", "reason": "encounters-requires-staging-verb"}

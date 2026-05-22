@@ -1,0 +1,17 @@
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "manfred-hightower-aegons-conquest", "target_slug": "faith-of-the-seven", "reason": "characterization-not-edge"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "manfred-hightower-aegons-conquest", "target_slug": "cersei-lannister", "reason": "third-party-mention"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "manfred-hightower-aegons-conquest", "target_slug": "great-sept-of-baelor", "reason": "location-of-third-party-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "manfred-hightower-aegons-conquest", "target_slug": "high-septon-aegons-conquest", "reason": "evidence-does-not-match-target"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "manfred-hightower-aegons-conquest", "target_slug": "high-sparrow", "reason": "third-party-mention"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "manfred-hightower-aegons-conquest", "target_slug": "aegon-i-targaryen", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "manfred-hightower-aegons-conquest", "target_slug": "aegon-i-targaryen", "reason": "evidence-paragraph-not-found"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "manfred-hightower-aegons-conquest", "target_slug": "aegons-landing", "reason": "mention-of-event-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "manfred-hightower-aegons-conquest", "target_slug": "crone-the-seven", "reason": "third-party-mention"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "manfred-hightower-aegons-conquest", "target_slug": "faith-of-the-seven", "reason": "third-party-mention"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "manfred-hightower-aegons-conquest", "target_slug": "first-dornish-war", "reason": "co-presence-in-timespan-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "manfred-hightower-aegons-conquest", "target_slug": "high-septon-aegons-conquest", "reason": "evidence-does-not-match-target"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "manfred-hightower-aegons-conquest", "target_slug": "house-targaryen", "reason": "third-party-mention"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "manfred-hightower-aegons-conquest", "target_slug": "oldtown", "reason": "location-context-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "manfred-hightower-aegons-conquest", "target_slug": "rhaenys-targaryen", "reason": "third-party-mention"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "manfred-hightower-aegons-conquest", "target_slug": "starry-sept", "reason": "location-of-third-party-not-relational"}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "manfred-hightower-aegons-conquest", "target_slug": "visenya-targaryen", "reason": "third-party-mention"}

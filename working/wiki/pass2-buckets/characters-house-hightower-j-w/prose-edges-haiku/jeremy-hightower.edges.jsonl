@@ -1,0 +1,2 @@
+{"decision": "emit_edge", "candidate_kind": "source_target", "evidence_kind": "wiki-entity", "source_slug": "jeremy-hightower", "target_slug": "oldtown", "edge_type": "RULES", "evidence_snippet": "Jeremy fostered trade and built ever more ships to protect it, doubling Oldtown's wealth.", "evidence_section": "## Origins", "evidence_paragraph_index": 0, "confidence_tier": 2}
+{"decision": "reject_just_mention", "candidate_kind": "source_target", "source_slug": "jeremy-hightower", "target_slug": "highgarden", "reason": "just-mention-of-location-in-quote"}

@@ -1,25 +1,25 @@
 {
   "batch_id": "batch-0019",
   "shape": "source_target",
-  "started_at": "2026-05-22T00:30:23.160303+00:00",
-  "completed_at": "2026-05-22T00:34:59.769207+00:00",
+  "started_at": "2026-05-22T09:36:20.556442+00:00",
+  "completed_at": "2026-05-22T09:43:04.684552+00:00",
   "files_attempted": 30,
   "files_done": 30,
   "files_failed": 0,
   "failed_outputs": [],
   "decision_totals": {
-    "reject_just_mention": 600,
-    "emit_edge": 115
+    "emit_edge": 139,
+    "reject_just_mention": 470
   },
-  "total_cost_usd": 2.730359,
+  "total_cost_usd": 3.219558,
   "classifier_prompt_git_hash": "743497f48922f3cbb4d68b9357cf1689df13ec39",
   "chunks_run": 6,
   "chunk_timings": [
     {
       "chunk_id": "batch-0019-chunk-00",
       "chunk_idx": 0,
-      "duration_s": 110.06,
-      "cost_usd": 0.30461,
+      "duration_s": 105.71,
+      "cost_usd": 0.303552,
       "files_done": 5,
       "files_failed": 0,
       "rate_limited": false
@@ -27,8 +27,8 @@
     {
       "chunk_id": "batch-0019-chunk-01",
       "chunk_idx": 1,
-      "duration_s": 219.52,
-      "cost_usd": 0.759369,
+      "duration_s": 306.73,
+      "cost_usd": 1.013004,
       "files_done": 5,
       "files_failed": 0,
       "rate_limited": false
@@ -36,8 +36,8 @@
     {
       "chunk_id": "batch-0019-chunk-02",
       "chunk_idx": 2,
-      "duration_s": 252.37,
-      "cost_usd": 0.64017,
+      "duration_s": 150.31,
+      "cost_usd": 0.543546,
       "files_done": 5,
       "files_failed": 0,
       "rate_limited": false
@@ -45,8 +45,8 @@
     {
       "chunk_id": "batch-0019-chunk-03",
       "chunk_idx": 3,
-      "duration_s": 99.78,
-      "cost_usd": 0.336113,
+      "duration_s": 83.93,
+      "cost_usd": 0.270065,
       "files_done": 5,
       "files_failed": 0,
       "rate_limited": false
@@ -54,8 +54,8 @@
     {
       "chunk_id": "batch-0019-chunk-04",
       "chunk_idx": 4,
-      "duration_s": 103.14,
-      "cost_usd": 0.268865,
+      "duration_s": 212.26,
+      "cost_usd": 0.440804,
       "files_done": 5,
       "files_failed": 0,
       "rate_limited": false
@@ -63,8 +63,8 @@
     {
       "chunk_id": "batch-0019-chunk-05",
       "chunk_idx": 5,
-      "duration_s": 166.54,
-      "cost_usd": 0.421232,
+      "duration_s": 298.4,
+      "cost_usd": 0.648587,
       "files_done": 5,
       "files_failed": 0,
       "rate_limited": false
