@@ -101,6 +101,14 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Design questions that need resolution. Tag with status: OPEN, DECIDED, DEFERRED.
 
+### DECIDED: Stage 4 pivots to a Pass-1-derived deterministic edge pipeline (2026-05-22, Session 65)
+- **Decision:** Replace the wiki-chapter-summary **comention** pass with a pipeline built on **our own Pass 1 extractions**. The extractions already contain a `## Relationships Observed` table (pair + evidence) per chapter — use them. Python does parsing + verbatim-locating + common-hint typing; the LLM only **labels** the residual free-text hint with a locked-vocab edge type.
+- **Why:** primary-text source (vs secondary wiki summaries); removes the LLM's hardest job (hunting relationships in prose — the source of the ~5% violations / ENCOUNTERS failures / KNOWS sprawl / type-invention); replaces the single biggest Stage-4 sink (29,259 wiki-summary candidates); adds traceable `file:line` citations; and **collapses LLM/API usage** to a small tail (no more rate-limit walls / heavy bulk runs).
+- **Pipeline:** PARSER (tables→candidates) → LOCATOR (verbatim quote + `file:line`) → TYPER (deterministic phrase→vocab map; Haiku only for the novel tail) → CONFORM inline.
+- **Wiki-comention:** DEPRECATED. 130 done files → stamp **in-data** (`status: superseded`, `superseded_by: pass1-derived`, `do_not_promote: true`) — NOT dir-archiving (archiving has been contention-prone because "archived" lives in folder names; provenance must live in the data — same root cause as the schema-mixing problem).
+- **Design doc:** `working/stage4-pass1-derived-edges-design.md`. **Continue:** `progress/continue-prompts/2026-05-22-stage4-pass1-derived-edges.md`.
+- **Status:** direction DECIDED + Matt-endorsed; build not started. Session-65 findings carried in the continue prompt (24 skipped files from a dual-run, run-summary.json overwrite bug, single-instance guard, provenance stamp).
+
 ### OPEN: Storage Format — Pure Markdown vs. Graph DB
 - **Question:** Does the graph live as pure markdown files with edges represented as YAML/frontmatter references, or do we use a lightweight graph DB (Neo4j, SQLite with graph extensions)?
 - **Leaning:** Start with pure markdown. The context base pattern works well for agentic access. Graph DB can come later if query complexity demands it.
@@ -177,6 +185,25 @@ This is your project memory. When you come back after a break, read Current Stat
 ## Session Log
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
+
+### Session 64 — Stage 4 Tier-1 bulk launch + dual-run incident (2026-05-22)
+
+**Detail:** `history/session-details/session-064.md`
+
+**Changes made:**
+- Launched Stage 4 Tier-1 (Option C, 222 batches) Haiku bulk via `/tmp/launch-stage4-bulk.sh` (SLEEP=60/CHUNK=5/CONC=4). Archived all prior Haiku output → `working/wiki/pass2-buckets/_archive/haiku-pre-bulk-enrich-2026-05-21/` (89 buckets / 393 edge files: 363 v164 + 30 smoke) + prior mission metrics (results/, run-logs/, run-summary.json, rate-limit-events.jsonl), so the run regenerated under current v163-enriched schema.
+- NEW `working/missions/2026-05-19-stage4-haiku/quality-check-batches-1-11-2026-05-21.md` (interim quality verdict).
+- Ran 60/222 distinct batches before stop: **5,723 edge rows / 201 files, $55.66 Haiku.** No commit yet (711 uncommitted working-tree changes from archive move + new edge files).
+
+**Decisions:** **Quality healthy** — 3.89% validation (under 5% threshold; on par with baselines); ENCOUNTERS verb-gate working (1/2237 vs smoke ~2%); the 44 `bad-evidence-section` were one bucket (`hightower-j-w`) Haiku quirk, edges correct, deterministically backfillable (`source_section`→`evidence_section`). **INCIDENT: duplicate `run-forever` chain launched 04:36 (PID 8471) alongside the 22:58 chain (PID 39197)** — source unknown (not me; wrapper never self-spawns a new wrapper). Re-ran ~26 done batches (~$15-20 waste); double quota burn exhausted the 5h window and hung Chain A's batch-0409 worker ~5h. Soft-stopped: stop file cleaned Chain B (won the delete-race), Chain A's hung worker took graceful SIGTERM (`rc=143`), no data loss. **Confirmed single-stop-file delete-race with concurrent loops** (predicted, observed).
+
+**What's next:**
+- **Resume remaining ~162 batches (Option C positions 61-222), single-chain** + analyzer for the 60 done → continue: `progress/continue-prompts/2026-05-22-stage4-bulk-resume-and-guard.md` (**Sonnet 4.6**; Opus only for the analyzer/incident debug).
+- Build **single-instance guard** in `run-forever.sh` (PID/lockfile + fix stop-file delete-race) BEFORE relaunch.
+- Build `evidence_section` deterministic backfill; add `output_files` to Haiku results JSON.
+- **`/endsession` explicitly authorized this session.**
+
+---
 
 ### Session 63 — Heavy ENCOUNTERS + KNOWS deprecation + candidate enrichment pipeline (2026-05-21)
 
@@ -272,30 +299,7 @@ This is your project memory. When you come back after a break, read Current Stat
 
 ---
 
-### Session 59 — Stage 4 Haiku Worker Built + Smoke (2026-05-19)
-
-**Detail:** `history/session-details/session-059.md`
-
-**Changes made:**
-- `scripts/stage4-haiku-run.py` — NEW. Haiku Stage 4 orchestrator: batch selection (`--batches`/`--all-done`), `--chunk-size`, `--concurrency` (parallel chunks), rate-limit detection, provenance snapshot, results + `run-summary.json`. Output → `prose-edges-haiku/` (separate from Sonnet's `prose-edges/`).
-- `.claude/commands/stage4-haiku-classify.md` — NEW. Thin classify-only Haiku prompt; hardened with a `## CRITICAL RULES` section (Tier-1 qualifier-enum table, KNOWS STOP, qualifier≠direction, no-invented-types, type contracts).
-- `.claude/agents/prose-edge-classifier.md` — R1/R2/R3 applied (Pattern 5 KNOWS STOP rule + KNOWS type-contract row; co-presence centralized rule; qualifier self-check).
-- `scripts/stage4-haiku-smoke-prep.py` / `-cleanup.py` / `-finish.sh` — NEW (smoke scaffolding).
-- `working/session-results/2026-05-19-batch-0020-opus-audit.md` — NEW (audit re-run; verdict "needs prompt change first" → R1).
-- New Haiku mission dir `working/missions/2026-05-19-stage4-haiku/`; batch-0020 Sonnet control + Haiku-v1 output archived under `working/wiki/pass2-buckets/_archive/`.
-- Memory `project_stage4_haiku_not_sonnet.md` — NEW.
-- Continue prompt `2026-05-19-stage4-haiku-run-batches.md` — NEW. `2026-05-19-stage4-haiku-smoke-fire.md` + `2026-05-19-batch-0020-opus-audit.md` — DELETED (completed).
-
-**Decisions:** Haiku is the Stage 4 bulk worker; **Sonnet is off the table** (cost — ~1017 batches; memory `project_stage4_haiku_not_sonnet`). The Haiku worker is built SEPARATE from the Sonnet worker (own scripts, output dir, mission dir) — never co-mingle. Haiku cannot drive the Sonnet worker harness's batch-bookkeeping (claimed wrong batch, early-exited, asked human mid-task) → a Python orchestrator does all bookkeeping; Haiku only classifies. Prompt hardening works when rules are inlined WITH their data (qualifier-missing 38→0, KNOWS 60→16) — proven twice. Speed-first; imperfect output acceptable (Opus watcher + later mechanical-extraction enrichment backstop). batch-0020 Haiku chunk-10 parallel = $1.86/5.7min vs chunk-3 = $2.99/28.5min — under Sonnet's $3.42. Remaining ~17.5% drift = invented type-name variants + type-contract → next: Python normalizer + inline-vocab + pre-loading re-architecture.
-
-**What's next:**
-- **Opus conductor — optimize Haiku pass speed, run batches, compare vs Sonnet, harden, iterate, scale** → continue: `progress/continue-prompts/2026-05-19-stage4-haiku-run-batches.md` (**Opus 4.7** conductor).
-- 8-batch Haiku wave (queued batches, chunk-15, concurrency-8) completed at session close — next session reads its `run-summary.json` as STEP 0.
-- **/endsession was explicitly authorized this session.**
-
----
-
-> Session 58 archived to `history/worklog-archives/archive013.md` (archive013 holds 1/5 entries)
+> Sessions 58-59 archived to `history/worklog-archives/archive013.md` (archive013 holds 2/5 entries)
 > Sessions 57-56 archived to `history/worklog-archives/archive012.md` (archive012 full at 5/5 entries)
 > Session 55 archived to `history/worklog-archives/archive012.md`
 > Session 54 archived to `history/worklog-archives/archive012.md`
