@@ -186,6 +186,27 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 65 — Dual-run forensics → Pass-1-derived edge pipeline pivot (2026-05-22)
+
+**Detail:** `history/session-details/session-065.md`
+
+**Changes made:**
+- NEW `scripts/stage4-pass1-hint-inventory.py` (parser + keyword-typer + residue writer); 151 tests green. Outputs `working/stage4-hint-inventory.md` + `working/stage4-hint-residue.md`.
+- NEW design doc `working/stage4-pass1-derived-edges-design.md`; worklog Active Decisions entry (Stage 4 pivot); continue prompt `progress/continue-prompts/2026-05-22-stage4-pass1-derived-edges.md` (rewritten with measured numbers). DELETED superseded `2026-05-22-stage4-bulk-resume-and-guard.md`.
+- `.gitignore` — added `.claude/worktrees/` + `scratch*`.
+- 2 commits pushed: `24dcb812b` (S64 bulk output + archive move, 1,008 data files) + `ac61ff2ee` (S65 design pivot). ~31 throwaway `classify_*` scripts left untracked (flagged for cleanup).
+- Memory: `feedback_verify_dataset_provenance`, `project_stage4_pass1_derived_pivot`.
+
+**Decisions:** **Stage 4 pivots to a Pass-1-derived deterministic edge pipeline** (see Active Decisions). Use Pass 1 `## Relationships Observed` tables (**7,348** relationships = 4.6× the old 1,597 feed) instead of wiki chapter-summary comention (**DEPRECATED**, 29,259 candidates). Python parser + keyword typer covers **50.5%** deterministically (35% exact-phrase + 15pp keyword/regex); LLM tail = **49.5%** (3,638 rows / 2,969 distinct phrases) and is genuinely context-dependent (needs the evidence sentence — the "one-time phrase dictionary / Haiku barely runs" framing was oversold and retracted). A deterministic locator attaches verbatim `file:line` citations. Tail model = **Sonnet** (smoke first); **Opus** only for a validation pass. **Integrity findings:** the S64 dual-run (2nd `run-forever` chain launched 04:36, NOT Matt-started, no scheduler) clobbered **24 files** with real candidates (reported done/failed=0); `run-summary.json` is overwritten per-invocation (shows only the last batch); root cause of recurring schema-mixing + archiving-contention = provenance is implicit (fix: stamp run_id/schema_version in the data, not dir names). Bucket-matched Haiku vs Sonnet: Haiku more conservative (24.6% vs 33.3% emit), KNOWS=0 (deprecation holds).
+
+**What's next:**
+- Build the deterministic spine (candidate generator + locator) → ~50% of book edges + citations at zero LLM cost → continue: `progress/continue-prompts/2026-05-22-stage4-pass1-derived-edges.md` (**Sonnet 4.6**; Opus only for validation).
+- Then the bounded Sonnet LLM tail (needs Matt's OK — it's an extraction) + an Opus validation pass.
+- Carry-overs: regenerate the 24 skipped files via the new pipeline; provenance stamp; `git clean` the ~31 untracked throwaway scripts.
+- **/endsession was explicitly authorized this session.**
+
+---
+
 ### Session 64 — Stage 4 Tier-1 bulk launch + dual-run incident (2026-05-22)
 
 **Detail:** `history/session-details/session-064.md`
@@ -276,30 +297,7 @@ This is your project memory. When you come back after a break, read Current Stat
 
 ---
 
-### Session 60 — Stage 4 Haiku: Normalizer + No-Silent-Drop Pipeline (2026-05-19)
-
-**Detail:** `history/session-details/session-060.md`
-
-**Changes made:**
-- `scripts/stage4-haiku-normalize-edge-types.py` — NEW. Deterministic edge-type-name normalizer: morphological alias table (6 entries — `TRAVELED_TO`→`TRAVELS_TO`, `DIES_AT`→`DIED_AT`, `ALLIED_WITH`→`ALLIES_WITH`, `ATTENDED`→`ATTENDS`, `LOCATEDOCATED_AT`→`LOCATED_AT`, `LOCATED_IN`→`LOCATED_AT`) + difflib fallback @0.80 + `--dry-run`/`--dump-vocab` modes. Applied 19 morphological rewrites to existing Haiku output (batch-0020 + 8-wave).
-- `scripts/wiki-pass2-validate-edge-jsonl.py` — `load_canonical_vocab()` fixed: was over-counting 161 (scraped `FOSTERED_BY` + `LOCATED_IN` from description prose); now table-row-key regex → correct **159**.
-- `working/missions/2026-05-19-stage4-haiku/unresolved-edges-log.jsonl` — NEW. Persistent multi-stage append log (22 rows; `stage` field lets normalizer/residual-pass/validator all write; dedup-keyed; idempotent).
-- `working/missions/2026-05-19-stage4-haiku/locked-edge-vocab-159.md` — NEW. Printed self-contained 159-vocab reference (name + description + type-contract).
-- `working/missions/2026-05-19-stage4-haiku/normalizer-report-2026-05-19.md` — NEW.
-- Reverted Session-59 Sonnet-mission debris: `working/missions/2026-05-14-stage4-v1-bulk-sonnet/{state.jsonl, locks/batch-0057.lock, locks/batch-0067.lock}` restored via `git checkout`.
-- `progress/continue-prompts/2026-05-19-stage4-haiku-normalize-and-residual.md` — NEW. `2026-05-19-stage4-haiku-run-batches.md` — DELETED (superseded).
-- `history/session-details/session-060.md` — NEW.
-
-**Decisions:** The deterministic normalizer fixes ONLY morphological variants (same word, wrong tense / literal typo) — cross-lemma semantic remaps must NOT be auto-applied (a first build over-reached with a synonym table — `ATTACKED_BY`→`KILLED_BY` etc. — caught and removed; silently laundering semantic errors would destroy the Haiku-vs-Sonnet drift signal we are about to measure). Vocab is **159**, confirmed — the validator parser bug reporting 161 is fixed. **No-silent-drop pipeline locked** (6 stages: prevention → classify → normalizer → 2nd-Haiku residual pass → validator → targeted Opus review); every unresolved edge accumulates in `unresolved-edges-log.jsonl` with a `stage` tag, never dropped. The final Opus review is **self-contained** — reads only the log + the printed 159-vocab, never architecture.md. Sequencing: **prevention first** (inline vocab into the classify prompt) — shrinks the residual across the whole ~1017-batch bulk. The Session-59 Sonnet-mission touch was an abandoned Haiku-as-Sonnet-worker attempt; **no Sonnet output was overwritten**; the current Python orchestrator never touches the Sonnet mission. "harness" retired as project vocabulary.
-
-**What's next:**
-- **STEP 1 prevention → STEP 2 residual pass → STEP 3 targeted Opus review → STEP 4 validator-to-log → then run/compare/harden/scale** → continue: `progress/continue-prompts/2026-05-19-stage4-haiku-normalize-and-residual.md` (**Opus 4.7** conductor).
-- Known flags: `FOSTERED_BY`/`FOSTERED_BY_INVERSE` need direction-aware handling (in the log, not auto-fixed); chunk-size never validly tested (8-wave batches were all 5 files = single chunk); Opus conductor/watcher sessions are the cost driver, not the Haiku batches (~$8.50 Haiku API to date).
-- **/endsession was explicitly authorized this session.**
-
----
-
-> Sessions 58-59 archived to `history/worklog-archives/archive013.md` (archive013 holds 2/5 entries)
+> Sessions 58-60 archived to `history/worklog-archives/archive013.md` (archive013 holds 3/5 entries)
 > Sessions 57-56 archived to `history/worklog-archives/archive012.md` (archive012 full at 5/5 entries)
 > Session 55 archived to `history/worklog-archives/archive012.md`
 > Session 54 archived to `history/worklog-archives/archive012.md`
