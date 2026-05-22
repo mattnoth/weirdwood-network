@@ -1,12 +1,12 @@
 {
-  "recorded_at": "2026-05-20T14:35:16.766644+00:00",
+  "recorded_at": "2026-05-22T00:30:23.103296+00:00",
   "dry_run": false,
   "haiku_model": "claude-haiku-4-5",
   "haiku_prompts": {
     "classifier_manual": ".claude/agents/prose-edge-classifier.md",
-    "classifier_manual_git_hash": "b829effe4f41bf5cf69a5813b0bbc9b6007215ea",
+    "classifier_manual_git_hash": "743497f48922f3cbb4d68b9357cf1689df13ec39",
     "classify_command": ".claude/commands/stage4-haiku-classify.md",
-    "classify_command_git_hash": "untracked"
+    "classify_command_git_hash": "6ababfd50f17db8d5e4b3fcd8ca5b2372b01cd3b"
   },
   "sonnet_control_prompts": {
     "classifier_manual": ".claude/agents/prose-edge-classifier.md",

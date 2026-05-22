@@ -4,7 +4,7 @@ You are a Stage 4 prose-edge classifier for the Weirwood Network (ASOIAF knowled
 
 1. **Read the classification manual in full:** `.claude/agents/prose-edge-classifier.md` — the entire file. This is your operating manual. It contains failure Patterns 1–5, the qualifier-lookup workflow, directionality discipline, confidence-tier calibration, and the `## Output Contract` required-fields table. Do not begin classification until you have read it completely.
 
-   **The 164-type locked edge vocabulary and the type-contract table are inlined directly into this prompt** — see `## TYPE CONTRACTS` and `## LOCKED EDGE VOCABULARY` below. Those inlined copies are authoritative: pick every `edge_type` from the inlined vocabulary list. Do not hunt the vocabulary down in the manual — it is in front of you.
+   **The 163-type locked edge vocabulary and the type-contract table are inlined directly into this prompt** — see `## TYPE CONTRACTS` and `## LOCKED EDGE VOCABULARY` below. Those inlined copies are authoritative: pick every `edge_type` from the inlined vocabulary list. Do not hunt the vocabulary down in the manual — it is in front of you.
 
 2. **Do NOT read** `reference/architecture.md`, the batch manifest, any state files, or any lock files. The Python orchestrator owns all bookkeeping. Your only job is classification.
 
@@ -14,13 +14,17 @@ Classify exactly the (input → output) file pairs listed in the **FILE PAIRS** 
 
 For each pair:
 
-**Step 1 — Read the input candidates file** at the given input path.
+**Step 1 — Read the input candidates file** at the given input path. **The candidates have been pre-enriched (Session 63, 2026-05-21)** — every `source_target` row carries the evidence and target-type information you need to decide. **Do NOT read source or target node files.** All context is in the row itself.
 
-**Step 2 — Determine `candidate_kind`** from the first row's `candidate_kind` field. Then read the supporting evidence:
+**Step 2 — Read each candidate row and use the enriched fields directly:**
 
-- If `source_target`: read the source node's full prose at `graph/nodes/<type>/<source-slug>.node.md`. For each candidate row, also read the target's frontmatter (first ~20 lines) at `graph/nodes/<type>/<target-slug>.node.md`.
-- If `comention`: read the evidence chapter's full prose at `graph/nodes/chapters/<evidence_chapter>.node.md`. For each candidate row, read BOTH `pair_a` and `pair_b` frontmatters (first ~20 lines each) at `graph/nodes/<type>/<slug>.node.md`.
-- If `pass1_relationship`: read both `source_slug` and `target_slug` frontmatters (first ~20 lines each). The evidence is already in the candidate row's `asserted_relation` + `evidence_quote` fields — no re-reading of the book chapter is needed. Read the `extraction_file` only if the asserted relation and evidence_quote are genuinely insufficient to pick an edge type.
+- **`target_type`** — the target node's type (e.g., `character.human`, `place.location`, `organization.house`). Use this to instantly check type contracts.
+- **`evidence_paragraph`** — the clean prose paragraph from the source node containing the link to the target. Cite-ref noise has been stripped; other wiki links are normalized to `«anchor»` form. **This is your evidence.** Do not go hunting for more.
+- **`valid_edge_types`** — pre-filtered list of edge types whose target type-contract permits this `target_type`. Pick your `edge_type` from this list, NOT the full 163-vocab. (If you genuinely cannot find a fit in `valid_edge_types`, `reject_just_mention` with reason `no-fitting-type-vocab-locked`.)
+- **`staging_verbs_present`** — list of ENCOUNTERS-staging verbs detected in `evidence_paragraph` by Python regex. If this list is **empty**, ENCOUNTERS is impossible — see Rule 6. If non-empty, you still must verify the verb actually stages source-meets-target.
+- **`_python_prereject`** — if present (e.g., value `target-slug-unresolved` or `evidence-paragraph-not-found`), the row should be `escalate_disambiguation` (unresolved slug) or `reject_just_mention` with reason `evidence-paragraph-not-found` (missing evidence).
+
+**For `comention` and `pass1_relationship` candidate kinds** (which lack the per-row evidence_paragraph): the candidate row already carries the necessary fields per their own schema. `comention` rows carry `evidence_paragraphs` list with `snippet`s; `pass1_relationship` rows carry `evidence_quote` + `asserted_relation`. Use those fields directly. Do not read node files.
 
 **Step 3 — Classify each candidate row** using the 4 decisions from the classification manual:
 - `emit_edge` — a real graph edge; assign `edge_type` from the locked vocabulary, set `evidence_kind`, apply qualifier rules
@@ -36,6 +40,8 @@ For each pair:
 - `confidence_tier` is the integer `1`/`2`/`3`; `evidence_kind` is set deterministically from `candidate_kind`.
 
 If an input file has zero candidates, do not create an output file.
+
+**Note on the `evidence_snippet` field in your output:** the input row now carries `evidence_paragraph` (the full clean paragraph). When you write an `emit_edge` row, copy the relevant span of `evidence_paragraph` into `evidence_snippet` — at minimum, include the verb or phrase that justifies your edge_type choice (e.g., for ENCOUNTERS, include the staging verb). You can copy the entire paragraph into `evidence_snippet` if it's short; for long paragraphs, quote the most relevant sentence(s). The validator checks `evidence_snippet` for verb-gate compliance, so the staging verb must appear there.
 
 **Step 5 — After writing each output file**, print one summary line:
 ```
@@ -69,19 +75,13 @@ Eight edge types are Tier 1. Every `emit_edge` row for any of these types MUST i
 | `MANIPULATES` | `via_bribe`, `via_flattery`, `via_false_information`, `via_threat`, `via_seduction`, `unknown` |
 | `SWORN_TO` | `current`, `former`, `deserted`, `by_marriage`, `claimed`, `unknown` |
 
-### Rule 2: KNOWS STOP — never emit KNOWS for co-presence
+### Rule 2: KNOWS is DEPRECATED — never emit
 
-`KNOWS` records that one person has knowledge of a fact, secret, or another person's situation — sourced from **explicit prose**. It is NOT a fallback for two entities appearing together.
+`KNOWS` was removed from the active vocabulary in Session 63 (2026-05-21) — 82.3% fallback rate in Stage 4 wiki-prose classification. **Do NOT emit `KNOWS` under any circumstance.** Character knowledge of facts, secrets, or persons will be derived from a future Pass-1-based chapter co-occurrence + Information Revealed pass.
 
-**Do NOT emit `KNOWS` unless the evidence_snippet contains an explicit knowledge verb:** `knew`, `knows`, `known to`, `aware of`, `learned that`, `learned of`, `told that`, `told of`, `informed`, `overheard`, `discovered`, `realized`, `suspected`, `confirmed`, `witnessed`, or a direct statement that the source knows a named fact/secret.
+If the prose says one character is aware of, learned of, or was told about another, and no other vocab type fits: `reject_just_mention` with reason `knows-deprecated-defer-to-pass1`.
 
-If two characters merely appear together, attend the same event, or are listed together in a wiki biography with no knowledge verb — that is co-presence. The correct action:
-1. Emit the specific relationship the occasion implies (`SERVES`, `ALLIES_WITH`, `CAPTURES`, `MARRIES_OFF`, etc.) if one fits.
-2. If no specific edge fits: `reject_just_mention` with reason `temporal-cooccurrence-not-relational`.
-
-**Co-presence is a rejection, not a KNOWS.**
-
-`KNOWS` also has a hard type contract: the target MUST be `character.*`. Never emit `KNOWS` toward a place, event, organization, object, or concept.
+Any `KNOWS` emit produces an `edge-type-not-canonical` validator violation.
 
 ### Rule 3: `qualifier` is an enum value only — never a direction marker
 
@@ -91,29 +91,80 @@ If an edge runs the wrong way, fix it by swapping `source_slug` and `target_slug
 
 ### Rule 4: Only canonical edge types — never invent
 
-Emit ONLY edge types from the 164-type `## LOCKED EDGE VOCABULARY` section inlined below in this prompt. If no entry in that list fits, the correct action is `reject_just_mention` with reason `no-fitting-type-vocab-locked`. Never invent a new edge type — including plausible-looking ones like `GRANDCHILD_OF`, `ACCOMPANIES`, `FOSTERED_BY`, `ATTACKED_BY`, or `TRADED_FOR`. If the name is not on the inlined list spelled exactly, it does not exist — reject instead.
+Emit ONLY edge types from the 163-type `## LOCKED EDGE VOCABULARY` section inlined below in this prompt. If no entry in that list fits, the correct action is `reject_just_mention` with reason `no-fitting-type-vocab-locked`. Never invent a new edge type — including plausible-looking ones like `GRANDCHILD_OF`, `ACCOMPANIES`, `FOSTERED_BY`, `ATTACKED_BY`, or `TRADED_FOR`. If the name is not on the inlined list spelled exactly, it does not exist — reject instead.
 
-### Rule 5: Honor type contracts
+### Rule 5: Honor type contracts (via `valid_edge_types`)
 
-Many edge types are restricted to specific node-type targets. **Before every `emit_edge`, check the target's `type:` field (from its frontmatter) against the `## TYPE CONTRACTS` table inlined below.**
+Type contracts are now PRE-COMPUTED per row. The `valid_edge_types` field lists every edge type whose target type-contract permits this candidate's `target_type`. **Your `edge_type` MUST be in `valid_edge_types`** — anything else is a type-contract violation.
 
-If the target's node type does not match the edge type's contract, do not emit that edge. In order of preference: (1) look for a sibling node that DOES match the contract, (2) pick a different edge type that fits, (3) `reject_just_mention` with reason `type-contract-violation`.
+If no edge type in `valid_edge_types` fits the prose, the correct action is `reject_just_mention` with reason `no-fitting-type-vocab-locked` — do NOT reach for a type outside the valid list.
+
+The `## TYPE CONTRACTS` table below remains as documentation of what each contracted edge type requires. It is no longer the gate — `valid_edge_types` is.
 
 ### Rule 6: ENCOUNTERS requires explicit staging verb — never emit for co-presence
 
 `ENCOUNTERS` records a plot-significant face-to-face meeting between two characters, anchored by **explicit prose staging**. It is NOT a fallback for two entities appearing in the same scene, battle, court, or biography section.
 
-**Do NOT emit `ENCOUNTERS` unless the `evidence_snippet` contains an explicit staging verb:** `met`, `meets`, `meeting`, `came face to face`, `face-to-face`, `confronted`, `found himself before`, `found herself before`, `stood before`, `appeared before`, `encountered`, or a direct narrative statement that two named characters were brought into face-to-face contact (e.g., "X drew rein when he saw Y across the field").
+**Use the `staging_verbs_present` field** — Python has pre-scanned `evidence_paragraph` for the staging-verb whitelist (`met`, `meets`, `meeting`, `came face to face`, `confronted`, `encountered`, etc.). The field is a list of verbs found.
 
-If two characters merely appear in the same scene, share a battlefield, attend the same event, or are listed together with no staging verb — that is co-presence. The correct action:
-1. Emit the specific edge the occasion implies (`TRAVELS_WITH`, `FIGHTS_IN`, `ATTENDS`, `NEGOTIATES_WITH`, etc.) if one fits.
-2. If no specific edge fits: `reject_just_mention` with reason `temporal-cooccurrence-not-relational`.
+- **If `staging_verbs_present` is empty: ENCOUNTERS is impossible.** Pick a different edge type or reject. Do not try to argue around the absence.
+- **If `staging_verbs_present` is non-empty:** the verb is THERE, but you must verify it actually stages a meeting between the source and the target. The verb might be staging a meeting between different characters in the same paragraph (e.g., the paragraph mentions "Rodrik meets Aron Santagar" — `meets` is present, but if the candidate is `rodrik → tyrion`, the verb does NOT stage Rodrik meeting Tyrion).
 
-**Co-presence is a rejection, not an ENCOUNTERS.**
+**The infinitive `to meet` is NOT a staging verb** — it expresses intent or future plan, not a consummated encounter. Python's regex does not include `to meet` in the whitelist. If you see it: reject.
+
+This rule is **mechanically enforced** by the validator's verb-gate check on `evidence_snippet` — emitting `ENCOUNTERS` without a whitelisted verb will produce a `verb-gate-failure` violation.
 
 `ENCOUNTERS` also has a type contract: source AND target MUST be `character.*`. Never emit `ENCOUNTERS` toward a place, event, organization, object, or concept.
 
-This rule is **mechanically enforced** by the validator's verb-gate check on `evidence_snippet` — emitting `ENCOUNTERS` without a whitelisted verb will produce a `verb-gate-failure` violation.
+#### When NOT to emit ENCOUNTERS
+
+Each pattern below is a real overnight-run failure. Reject these as `reject_just_mention` with the specified reason — or emit the substitute edge type if the prose supports it.
+
+1. **Intent verb (infinitive "to meet" / "to confront")** — narrating a future or planned meeting, not a staged one.
+   - Bad: *"Daemon travels with Arianne to meet with Lord Jon Connington."* — `to meet` is intent.
+   - Action: `reject_just_mention` reason `intent-verb-not-staging`. If a separate sentence later stages the meeting with `met`, that sentence is the candidate, not this one.
+
+2. **Identification-by-relation (target named only as someone's relative)** — the target is mentioned only to identify another person; not present.
+   - Bad: *"Eddard's wife, Catelyn Stark, had abducted Jaime's brother, Tyrion Lannister."* (in jory-cassel page) — Tyrion is named as Jaime's brother for identification; he is not in any scene with Jory.
+   - Action: `reject_just_mention` reason `mentioned-in-comparison-not-relational`.
+
+3. **Authority-from-afar (decree, order, command, insistence)** — one character acts on the other through institutional power, not face-to-face.
+   - Bad: *"When Queen Cersei Lannister insists that Sansa Stark's direwolf, Lady, be killed instead."* — Cersei makes a decree; she is not face-to-face with the source.
+   - Action: `reject_just_mention` reason `authority-from-afar-not-staged`. If the prose supports it, `MANIPULATES` (with qualifier) or `COMMANDS` may fit.
+
+4. **Co-presence in narrative-summary travel** — characters in the same journey or retinue, but no staged meeting between them specifically.
+   - Bad: *"Jory accompanies Lord Eddard Stark to witness the execution of Gared, a deserter."* (Jory→Gared as ENCOUNTERS)
+   - Action: emit `TRAVELS_WITH` for Jory↔Eddard (the actual relation). For Jory→Gared, the substantive edge is the execution itself (Gared is the victim, not someone Jory met) — `reject_just_mention` reason `temporal-cooccurrence-not-relational` or emit the execution edge if one fits.
+
+5. **Indirect via shared event** — the source isn't even in the scene; the wiki sentence just references the event for plot context.
+   - Bad: *"After the incident at the Trident where Arya Stark's direwolf assaults Prince Joffrey Baratheon, Jory is the first to find Arya."* (Jory→Joffrey as ENCOUNTERS — Jory and Joffrey were not face-to-face at the Trident; Jory arrived after.)
+   - Action: `reject_just_mention` reason `indirect-via-shared-event`.
+
+6. **Helps/assists (action-with, not face-to-face staging)** — two characters cooperate in a scene but the staging verb is absent.
+   - Bad: *"He helps Arya chase away Nymeria by throwing stones at her."* (Jory→Nymeria as ENCOUNTERS)
+   - Action: this is presence-in-scene without staged meeting — emit a more specific edge if one fits (e.g., `ATTACKS` for Jory→Nymeria with stones), or `reject_just_mention` reason `assists-not-stages-encounter`.
+
+7. **Dream / vision / memory** — the "meeting" happens in a character's internal experience, not the physical world.
+   - Bad: *"Following his capture of Winterfell, Theon Greyjoy sees Jory while having a nightmare of a feast."* — sees in a dream.
+   - Action: `reject_just_mention` reason `dream-or-vision-not-physical-encounter`.
+
+8. **Background plot context (source not in the sentence at all)** — the wiki sentence narrates events the source isn't a participant in.
+   - Bad: *"Ned and Ser Barristan Selmy convince the king not to do so."* (on jory-cassel's page — Jory is the source node but not in this sentence). Emitting Jory→Barristan as ENCOUNTERS is wrong; Jory isn't there.
+   - Action: `reject_just_mention` reason `source-not-in-sentence`. The source must be a participant in the staged event for ENCOUNTERS to be valid.
+
+**Decision flow when considering ENCOUNTERS:**
+
+```
+Does evidence_snippet contain a past-tense staging verb from the whitelist?
+  ├─ NO  → reject_just_mention (pick the matching reason from #1-#8 above)
+  └─ YES → Is the source named as an active participant in the staged action?
+            ├─ NO  → reject_just_mention reason `source-not-in-sentence`
+            └─ YES → Is the target a character.* node type?
+                      ├─ NO  → reject_just_mention reason `type-contract-violation`
+                      └─ YES → emit_edge ENCOUNTERS (Tier-3, no qualifier)
+```
+
+**Coverage note (Session 63, 2026-05-21):** wiki biographical-summary register often elides staging verbs even when a meeting happened in-text. Stage 4 ENCOUNTERS coverage is partial-by-design — comprehensive character-meeting coverage will come from a future book-derived pass. Do NOT try to compensate for the wiki's missing staging language by emitting ENCOUNTERS on co-presence prose. Better to under-emit ENCOUNTERS than over-emit.
 
 ---
 
@@ -140,15 +191,15 @@ Each edge type below constrains the node `type:` of its endpoints. Read the targ
 | `HOLDS_TITLE` | `character.*` | `title` |
 | `ANCESTRAL_WEAPON_OF` | `object.artifact` | `organization.house` |
 | `BORN_AT`, `DIED_AT`, `BURIED_AT` | `character.*` | `place.location` |
-| `KNOWS` | `character.*` | `character.*` — **never `place.*`, `event.*`, `organization.*`, `object.*`, `concept.*`** |
 
 `LOCATED_IN` is **deprecated** — always emit `LOCATED_AT`.
+`KNOWS` is **deprecated** (Session 63, 2026-05-21) — never emit; see Rule 2 above.
 
 ---
 
-## LOCKED EDGE VOCABULARY — 164 types — pick every `edge_type` from this list
+## LOCKED EDGE VOCABULARY — 163 types — pick every `edge_type` from this list
 
-This is the complete locked vocabulary. Every `emit_edge` row's `edge_type` MUST be one of these 164 names, spelled exactly. If no entry fits the prose, `reject_just_mention` with reason `no-fitting-type-vocab-locked` — never invent.
+This is the complete locked vocabulary. Every `emit_edge` row's `edge_type` MUST be one of these 163 names, spelled exactly. If no entry fits the prose, `reject_just_mention` with reason `no-fitting-type-vocab-locked` — never invent.
 
 %%LOCKED_VOCAB%%
 
