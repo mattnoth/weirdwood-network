@@ -102,6 +102,9 @@ PASS2_BUCKETS_DIR = REPO_ROOT / "working" / "wiki" / "pass2-buckets"
 CHAPTERS_DIR = REPO_ROOT / "sources" / "chapters"
 
 IN_ALIAS = WIKI_DATA_DIR / "alias-resolver.json"
+# Hand-vetted additive aliases (Track A recovery); merged fill-only on top of
+# IN_ALIAS, never mutates it. Optional — absent file is a no-op.
+IN_SUPP_ALIAS = WIKI_DATA_DIR / "pass1-derived-supplementary-aliases.json"
 IN_BACKLINKS = WIKI_DATA_DIR / "backlink-counts.json"
 ARCH_MD = REPO_ROOT / "reference" / "architecture.md"
 QUAL_VOCAB_MD = REPO_ROOT / "reference" / "edge-qualifier-vocab.md"
@@ -559,6 +562,32 @@ def main() -> None:
         sys.exit(1)
     alias_to_canonical: dict[str, str] = alias_data.get("alias_to_canonical", {})
     print(f"  {len(alias_to_canonical):,} aliases loaded")
+
+    # Supplementary hand-vetted aliases (Track A recovery). ADDITIVE / fill-only:
+    # never overrides an existing alias-resolver.json mapping and never mutates
+    # alias-resolver.json on disk. Stale targets are harmless — the resolver's
+    # rung-b guard requires alias_target ∈ node_set, so an unknown slug just
+    # fails to resolve rather than producing a bad edge.
+    if IN_SUPP_ALIAS.exists():
+        try:
+            supp_data = json.loads(IN_SUPP_ALIAS.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as exc:
+            print(f"  WARNING: cannot load supplementary aliases {IN_SUPP_ALIAS}: {exc}",
+                  file=sys.stderr)
+            supp_data = {}
+        supp_map: dict[str, str] = supp_data.get("alias_to_canonical", {})
+        added = conflicts = 0
+        for k, v in supp_map.items():
+            existing = alias_to_canonical.get(k)
+            if existing is not None and existing != v:
+                print(f"  WARNING: supplementary alias {k!r}->{v!r} conflicts with "
+                      f"existing {existing!r}; keeping existing", file=sys.stderr)
+                conflicts += 1
+                continue
+            if existing is None:
+                alias_to_canonical[k] = v
+                added += 1
+        print(f"  +{added} supplementary aliases merged ({conflicts} conflicts skipped)")
 
     # -----------------------------------------------------------------------
     # Step 2: Build graph index

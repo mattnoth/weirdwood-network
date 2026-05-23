@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-05-23T04:26:39+00:00",
+  "generated_at": "2026-05-23T07:17:41+00:00",
   "total_candidate_files": 344,
-  "total_candidates": 5847,
-  "typed_to_edges": 2818,
-  "untyped_to_tail": 3029,
-  "verbatim_match": 5778,
-  "chapter_level_fallback": 69,
-  "verbatim_pct": 98.82,
+  "total_candidates": 5886,
+  "typed_to_edges": 2834,
+  "untyped_to_tail": 3052,
+  "verbatim_match": 5816,
+  "chapter_level_fallback": 70,
+  "verbatim_pct": 98.81,
   "per_book": {
     "agot": {
       "candidates": 1212,
@@ -16,32 +16,32 @@
       "chapter_level": 15
     },
     "acok": {
-      "candidates": 1161,
-      "typed": 586,
-      "untyped": 575,
-      "verbatim": 1149,
+      "candidates": 1166,
+      "typed": 588,
+      "untyped": 578,
+      "verbatim": 1154,
       "chapter_level": 12
     },
     "asos": {
-      "candidates": 1464,
-      "typed": 698,
-      "untyped": 766,
-      "verbatim": 1447,
+      "candidates": 1473,
+      "typed": 702,
+      "untyped": 771,
+      "verbatim": 1456,
       "chapter_level": 17
     },
     "affc": {
-      "candidates": 774,
+      "candidates": 777,
       "typed": 323,
-      "untyped": 451,
-      "verbatim": 766,
+      "untyped": 454,
+      "verbatim": 769,
       "chapter_level": 8
     },
     "adwd": {
-      "candidates": 1236,
-      "typed": 608,
-      "untyped": 628,
-      "verbatim": 1219,
-      "chapter_level": 17
+      "candidates": 1258,
+      "typed": 618,
+      "untyped": 640,
+      "verbatim": 1240,
+      "chapter_level": 18
     }
   }
 }

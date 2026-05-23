@@ -1,8 +1,8 @@
 # Pass-1-Derived: Needs-Node Report
 
-> Generated: 2026-05-23T04:26:34+00:00  
+> Generated: 2026-05-23T07:17:33+00:00  
 > run_id: pass1-derived-20260523  
-> Total distinct unresolved names: 453  
+> Total distinct unresolved names: 442  
 
 Entities that appeared in Relationships Observed tables but could not be
 resolved to a graph node slug even with the firstname resolver. These are
@@ -10,28 +10,21 @@ candidates for new node files or alias-resolver additions.
 
 | Entity Name (raw) | Count | Example Chapter |
 |-------------------|-------|----------------|
-| Lady Dustin | 12 | adwd-a-ghost-in-winterfell-01 |
 | Cat/Arya | 11 | affc-cat-of-the-canals-01 |
 | Drogon, Rhaegal, Viserion | 5 | agot-daenerys-10 |
 | Bolton | 5 | acok-arya-10 |
-| Lord Manderly | 5 | acok-bran-02 |
-| Hotah | 5 | affc-the-captain-of-guards-01 |
 | Everyone | 4 | agot-bran-02 |
 | Himself | 4 | agot-eddard-13 |
 | (general) | 4 | acok-bran-03 |
 | Dragons | 4 | acok-daenerys-01 |
-| Tris Botley | 4 | affc-the-iron-captain-01 |
 | (self) | 3 | agot-bran-07 |
 | Bran, Rickon | 3 | agot-bran-07 |
 | Wildling host | 3 | acok-jon-05 |
 | — | 3 | asos-arya-01 |
-| Lame Lothar Frey | 3 | asos-catelyn-05 |
 | Translator (slave girl) | 3 | asos-daenerys-02 |
 | Arstan/Barristan | 3 | asos-daenerys-05 |
-| Slynt | 3 | asos-jon-09 |
 | Ser Gregor, Dunsen, Raff the Sweetling, Ser Ilyn, Ser Meryn, Queen Cersei | 3 | affc-arya-01 |
 | Shagwell, Timeon, Pyg | 3 | affc-brienne-04 |
-| Lord Peasebury | 3 | adwd-the-kings-prize-01 |
 | Blond bedwarmer | 3 | adwd-tyrion-01 |
 | Stout man (torchbearer) | 2 | agot-arya-03 |
 | Bran's direwolf (unnamed) | 2 | agot-bran-02 |
@@ -58,7 +51,6 @@ candidates for new node files or alias-resolver additions.
 | Manderly | 2 | adwd-davos-04 |
 | Ramsay's mother | 2 | adwd-reek-03 |
 | Yunkai'i | 2 | adwd-the-kingbreaker-01 |
-| Strickland | 2 | adwd-the-lost-lord-01 |
 | Ship's crew | 2 | adwd-tyrion-08 |
 | Winterfell's steward | 1 | agot-arya-01 |
 | Robb, Sansa, Bran, Rickon | 1 | agot-arya-01 |
@@ -188,7 +180,6 @@ candidates for new node files or alias-resolver additions.
 | Tyrell alliance | 1 | acok-sansa-08 |
 | Lord Botley | 1 | acok-theon-02 |
 | Old Botley (Fishwhiskers) | 1 | acok-theon-03 |
-| Lord Bolton | 1 | acok-theon-04 |
 | Urzen, Kromm | 1 | acok-theon-05 |
 | Bolton (his father) | 1 | acok-theon-06 |
 | Glovers | 1 | acok-theon-06 |
@@ -228,12 +219,10 @@ candidates for new node files or alias-resolver additions.
 | The king (in story) | 1 | asos-bran-02 |
 | Riverrun's military forces | 1 | asos-catelyn-01 |
 | "Tansy" / Lysa (inferred) | 1 | asos-catelyn-01 |
-| Lord Bolton (Roose) | 1 | asos-catelyn-01 |
 | Jeyne's mother | 1 | asos-catelyn-03 |
 | Karstark men | 1 | asos-catelyn-03 |
 | Rollam/Raynald Westerling | 1 | asos-catelyn-04 |
 | Edmure/Catelyn | 1 | asos-catelyn-04 |
-| Greatjon | 1 | asos-catelyn-05 |
 | imprisonment | 1 | asos-catelyn-05 |
 | Bran, Rickon, Arya, Sansa | 1 | asos-catelyn-07 |
 | Smalljon, Robin Flint, Dacey, Patrek Mallister | 1 | asos-catelyn-07 |
@@ -262,11 +251,9 @@ candidates for new node files or alias-resolver additions.
 | Toregg, Dormund, Munda | 1 | asos-jon-02 |
 | Wildling raiders (Del, Bodger, Quort, etc.) | 1 | asos-jon-05 |
 | Bolton's son | 1 | asos-jon-06 |
-| Noye | 1 | asos-jon-06 |
 | An Other | 1 | asos-jon-06 |
 | Some Night's Watch brothers | 1 | asos-jon-07 |
 | Defenders | 1 | asos-jon-09 |
-| Thorne | 1 | asos-jon-09 |
 | Undead bear | 1 | asos-samwell-01 |
 | Grenn, Sam, Jon | 1 | asos-samwell-01 |
 | Dirk/mutineers | 1 | asos-samwell-02 |
@@ -431,10 +418,12 @@ candidates for new node files or alias-resolver additions.
 | Women generally | 1 | adwd-the-kings-prize-01 |
 | "Ned's girl" / Eddard Stark's memory | 1 | adwd-the-kings-prize-01 |
 | Ships | 1 | adwd-the-merchants-man-01 |
+| Boltons and Freys | 1 | adwd-the-prince-of-winterfell-01 |
 | Aerys, Rhaegar, Elia, Aegon (baby), Rhaenys, Robert, Jaehaerys | 1 | adwd-the-queensguard-01 |
 | Daenerys's loyalists | 1 | adwd-the-queensguard-01 |
-| Selmy | 1 | adwd-the-queensguard-01 |
+| Cupbearers (Mezzara, Miklaz, Qezza) | 1 | adwd-the-queensguard-01 |
 | Southerners | 1 | adwd-the-sacrifice-01 |
+| Other lords | 1 | adwd-the-sacrifice-01 |
 | Bolton/Frey coalition | 1 | adwd-the-turncloak-01 |
 | Bolton coalition | 1 | adwd-the-turncloak-01 |
 | Lord Dustin (deceased) | 1 | adwd-the-turncloak-01 |

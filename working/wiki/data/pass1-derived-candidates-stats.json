@@ -1,34 +1,34 @@
 {
-  "generated_at": "2026-05-23T04:26:34+00:00",
+  "generated_at": "2026-05-23T07:17:33+00:00",
   "run_id": "pass1-derived-20260523",
   "schema_version": "pass1-derived-v1",
   "counts": {
     "extraction_files_walked": 344,
     "total_rows_seen": 7398,
-    "drop_source_unresolved": 148,
-    "drop_target_unresolved": 390,
+    "drop_source_unresolved": 114,
+    "drop_target_unresolved": 384,
     "drop_source_generic": 5,
     "drop_target_generic": 13,
     "drop_source_ambiguous": 306,
     "drop_target_ambiguous": 345,
     "ambiguous_queued_rows": 633,
     "drop_self_edge": 10,
-    "resolved": 6199,
-    "needs_qualifier": 352,
-    "main_candidates": 5847,
-    "typed": 2818,
-    "untyped": 3029,
-    "corroborating": 1966,
-    "new": 4233,
+    "resolved": 6239,
+    "needs_qualifier": 353,
+    "main_candidates": 5886,
+    "typed": 2834,
+    "untyped": 3052,
+    "corroborating": 1973,
+    "new": 4266,
     "conform_drift_types": 0,
-    "distinct_unresolved_names": 453
+    "distinct_unresolved_names": 442
   },
   "resolution_status_histogram": {
-    "resolved-context-present": 3039,
-    "resolved-exact": 6613,
-    "resolved-context-prior": 791,
-    "resolved-firstname-unique": 1175,
-    "resolved-alias": 780
+    "resolved-context-present": 3044,
+    "resolved-exact": 6631,
+    "resolved-context-prior": 797,
+    "resolved-firstname-unique": 1182,
+    "resolved-alias": 824
   },
   "per_book": {
     "agot": {
@@ -40,63 +40,63 @@
       "needs_qualifier": 100
     },
     "acok": {
-      "resolved": 1161,
-      "typed": 635,
-      "new": 827,
+      "resolved": 1166,
+      "typed": 637,
+      "new": 832,
       "corroborating": 334,
-      "untyped": 575,
+      "untyped": 578,
       "needs_qualifier": 49
     },
     "asos": {
-      "resolved": 1464,
-      "typed": 764,
-      "new": 1012,
-      "untyped": 766,
-      "corroborating": 452,
-      "needs_qualifier": 66
+      "resolved": 1473,
+      "typed": 769,
+      "new": 1020,
+      "untyped": 771,
+      "corroborating": 453,
+      "needs_qualifier": 67
     },
     "affc": {
-      "resolved": 774,
-      "untyped": 451,
-      "corroborating": 225,
+      "resolved": 777,
+      "untyped": 454,
+      "corroborating": 226,
       "typed": 401,
-      "new": 549,
+      "new": 551,
       "needs_qualifier": 78
     },
     "adwd": {
-      "resolved": 1236,
-      "untyped": 628,
-      "new": 960,
-      "typed": 667,
-      "corroborating": 276,
+      "resolved": 1258,
+      "untyped": 640,
+      "new": 977,
+      "typed": 677,
+      "corroborating": 281,
       "needs_qualifier": 59
     }
   },
   "edge_type_distribution": {
     "SERVES": 273,
     "MOURNS": 253,
-    "OPPOSES": 237,
-    "COMMANDS": 204,
-    "HATES": 195,
-    "DISTRUSTS": 169,
+    "OPPOSES": 241,
+    "COMMANDS": 206,
+    "HATES": 196,
+    "DISTRUSTS": 170,
     "PROTECTS": 158,
     "RESPECTS": 136,
-    "LOVES": 134,
-    "SIBLING_OF": 133,
+    "LOVES": 135,
+    "SIBLING_OF": 134,
     "PARENT_OF": 133,
     "COMPANION_OF": 118,
     "FEARS": 103,
-    "KILLS": 100,
-    "RESENTS": 90,
-    "ALLIES_WITH": 77,
+    "KILLS": 101,
+    "RESENTS": 93,
+    "ALLIES_WITH": 78,
     "ADVISES": 70,
     "TRUSTS": 55,
     "BONDED_TO": 50,
-    "LOVER_OF": 46,
+    "LOVER_OF": 47,
     "BETROTHED_TO": 42,
     "TUTORS": 39,
     "SPOUSE_OF": 33,
-    "SEEKS": 32,
+    "SEEKS": 33,
     "UNCLE_OF": 30,
     "MANIPULATES": 30,
     "COUSIN_OF": 26,
@@ -134,11 +134,6 @@
   },
   "top_unresolved": [
     {
-      "name": "Lady Dustin",
-      "count": 12,
-      "example_chapter": "adwd-a-ghost-in-winterfell-01"
-    },
-    {
       "name": "Cat/Arya",
       "count": 11,
       "example_chapter": "affc-cat-of-the-canals-01"
@@ -152,16 +147,6 @@
       "name": "Bolton",
       "count": 5,
       "example_chapter": "acok-arya-10"
-    },
-    {
-      "name": "Lord Manderly",
-      "count": 5,
-      "example_chapter": "acok-bran-02"
-    },
-    {
-      "name": "Hotah",
-      "count": 5,
-      "example_chapter": "affc-the-captain-of-guards-01"
     },
     {
       "name": "Everyone",
@@ -184,11 +169,6 @@
       "example_chapter": "acok-daenerys-01"
     },
     {
-      "name": "Tris Botley",
-      "count": 4,
-      "example_chapter": "affc-the-iron-captain-01"
-    },
-    {
       "name": "(self)",
       "count": 3,
       "example_chapter": "agot-bran-07"
@@ -209,11 +189,6 @@
       "example_chapter": "asos-arya-01"
     },
     {
-      "name": "Lame Lothar Frey",
-      "count": 3,
-      "example_chapter": "asos-catelyn-05"
-    },
-    {
       "name": "Translator (slave girl)",
       "count": 3,
       "example_chapter": "asos-daenerys-02"
@@ -224,11 +199,6 @@
       "example_chapter": "asos-daenerys-05"
     },
     {
-      "name": "Slynt",
-      "count": 3,
-      "example_chapter": "asos-jon-09"
-    },
-    {
       "name": "Ser Gregor, Dunsen, Raff the Sweetling, Ser Ilyn, Ser Meryn, Queen Cersei",
       "count": 3,
       "example_chapter": "affc-arya-01"
@@ -237,11 +207,6 @@
       "name": "Shagwell, Timeon, Pyg",
       "count": 3,
       "example_chapter": "affc-brienne-04"
-    },
-    {
-      "name": "Lord Peasebury",
-      "count": 3,
-      "example_chapter": "adwd-the-kings-prize-01"
     },
     {
       "name": "Blond bedwarmer",
@@ -374,14 +339,49 @@
       "example_chapter": "adwd-the-kingbreaker-01"
     },
     {
-      "name": "Strickland",
-      "count": 2,
-      "example_chapter": "adwd-the-lost-lord-01"
-    },
-    {
       "name": "Ship's crew",
       "count": 2,
       "example_chapter": "adwd-tyrion-08"
+    },
+    {
+      "name": "Winterfell's steward",
+      "count": 1,
+      "example_chapter": "agot-arya-01"
+    },
+    {
+      "name": "Robb, Sansa, Bran, Rickon",
+      "count": 1,
+      "example_chapter": "agot-arya-01"
+    },
+    {
+      "name": "Robb, Bran, Rickon",
+      "count": 1,
+      "example_chapter": "agot-arya-02"
+    },
+    {
+      "name": "Arya's intelligence report",
+      "count": 1,
+      "example_chapter": "agot-arya-03"
+    },
+    {
+      "name": "Lannisters",
+      "count": 1,
+      "example_chapter": "agot-arya-05"
+    },
+    {
+      "name": "Summer, Grey Wind, Shaggydog",
+      "count": 1,
+      "example_chapter": "agot-bran-04"
+    },
+    {
+      "name": "Robb, Bran",
+      "count": 1,
+      "example_chapter": "agot-bran-04"
+    },
+    {
+      "name": "Guardsmen",
+      "count": 1,
+      "example_chapter": "agot-bran-05"
     }
   ],
   "conform_drift": {}

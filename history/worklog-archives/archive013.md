@@ -1,6 +1,28 @@
 # Worklog Archive 013
 
-> Sessions 58-61 (archived from main worklog). Format identical to live worklog Session Log entries.
+> Sessions 58-62 (archived from main worklog). Format identical to live worklog Session Log entries.
+
+---
+
+### Session 62 — Stage 4 Triage + LEVER 2 + Test Bootstrap (2026-05-21)
+
+**Detail:** `history/session-details/session-062.md`
+
+**Changes made:**
+- Sessions 57-61 backlog committed + pushed: 6 logical commits covering vocab lockdown (Sessions 57-58), [LINK]→«anchor» rewrite (Session 58), Haiku worker (Sessions 59-60), loop infrastructure (Session 61), overnight outputs (Session 61, 363 edge files post-cleanup), worklog/session-details/continue-prompts rotation.
+- **Pre-commit cleanup:** 12 partial batch-0013 .edges.jsonl + 4 result JSONs + 40 run-logs + stale run-summary.json deleted.
+- **LEVER 2 shipped** (`ecd948f0c`): `scripts/stage4-haiku-loop.sh` rate-limit-aware (parses `resets_at_ts` from `rate-limit-events.jsonl`, sleeps until reset+60s, doesn't advance idx on rate-limit, passes `--skip-existing` on retries). `scripts/stage4-haiku-run.py` got `--skip-existing` flag → `plan_batch_chunks(..., skip_if_output_exists=False)` default-preserving param. End-to-end smoke-verified.
+- **Python test suite bootstrap** (`e1da3c5db`): first-ever tests, stdlib `unittest`, hermetic. 71 tests across 4 modules: `test_stage4_haiku_run.py` (21), `test_validate_edge_jsonl.py` (18), `test_normalize_edge_types.py` (11), `test_flag_suspicious_edges.py` (21). Run: `python3 -m unittest discover tests` (~7ms).
+- `working/todos.md` — LEVER 2 task added + completed; design decision recorded.
+- `progress/continue-prompts/2026-05-20-stage4-haiku-throughput-and-resume.md` — DELETED (completed). New continue prompt for next session: `progress/continue-prompts/2026-05-21-stage4-tier1-relaunch.md`.
+
+**Decisions:** **LEVER 2 design = re-run partial batch on resume** (Matt's call) — not skip-ahead. The `--skip-existing` filter ensures token-efficient re-run (e.g., batch-0013 only re-processes the 18 stragglers, not the 12 already-done). Re-architected the bash loop's `for` → `while idx` to enable non-advancing iteration. **Mid-session correction:** I told Matt the orchestrator already skipped existing outputs — wrong; surfaced explicitly, then added the filter test-driven. **Quality verdict:** Haiku v164 (3.96% violation rate) is on par with Sonnet (~4.3%) and ~1.3pp behind its own pre-v164 baseline (smaller sample, no Rule 6 ENCOUNTERS gate to fail). **Biggest open issue:** ENCOUNTERS verb-gate fails 80% of the time (61/76 emissions) — gate IS catching them, but prompt-level prevention isn't working; Rule 6 hardening needed before next bulk run. **Speed math confirmed:** overnight's 12 batches × 28 min = 5.6h ≈ one 5h Claude Code quota window. 70.2% of wall-clock was inter-batch sleep. LEVER 1 (drop sleep to 60s) + LEVER 2 (rate-limit-aware) together = ~3× per-window throughput, cost-neutral. **Tests as first-class artifact:** three regression tests freeze known historical bugs (vocab parser 161→164, normalizer ATTACKED_BY over-reach, notes-field deletion).
+
+**What's next:**
+- **Tier 1 relaunch + ENCOUNTERS hardening + scope-reduction call** → continue: `progress/continue-prompts/2026-05-21-stage4-tier1-relaunch.md` (**Opus 4.7** conductor — sequencing decision + ENCOUNTERS prompt edit; **Sonnet 4.6** for mechanical Rule-6 hardening).
+- LEVER 5 (Batch API + pre-loading) deferred until Tier-1 numbers settle.
+- KNOWS verb-gate retrofit deferred (same pattern as ENCOUNTERS, defer until ENCOUNTERS fix proven).
+- **`/endsession` was explicitly authorized this session.**
 
 ---
 

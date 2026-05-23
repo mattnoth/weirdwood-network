@@ -1,6 +1,6 @@
 # Pass-1-Derived Edge Candidates Summary
 
-> Generated: 2026-05-23T04:26:34+00:00  
+> Generated: 2026-05-23T07:17:33+00:00  
 > run_id: pass1-derived-20260523  
 > schema_version: pass1-derived-v1  
 
@@ -10,23 +10,23 @@
 |-------|-------|
 | Extraction files walked | 344 |
 | Total Relationships rows seen | 7,398 |
-| Drop: source unresolved | 148 |
-| Drop: target unresolved | 390 |
+| Drop: source unresolved | 114 |
+| Drop: target unresolved | 384 |
 | Drop: source generic-term | 5 |
 | Drop: target generic-term | 13 |
 | Drop: source ambiguous-queued | 306 |
 | Drop: target ambiguous-queued | 345 |
 | Ambiguous-queued rows | 633 |
 | Drop: self-edge | 10 |
-| Resolved pairs (total) | 6,199 |
-| → Routed to needs-qualifier tail | 352 |
-| → Main candidates | 5,847 |
-|    of which typed | 2,818 |
-|    of which untyped | 3,029 |
-| Corroborating (wiki-known) | 1,966 |
-| New (not in existing edges) | 4,233 |
+| Resolved pairs (total) | 6,239 |
+| → Routed to needs-qualifier tail | 353 |
+| → Main candidates | 5,886 |
+|    of which typed | 2,834 |
+|    of which untyped | 3,052 |
+| Corroborating (wiki-known) | 1,973 |
+| New (not in existing edges) | 4,266 |
 | Conform drift issues | 0 |
-| Total distinct unresolved names | 453 |
+| Total distinct unresolved names | 442 |
 
 ## Resolution-Status Histogram
 
@@ -34,11 +34,11 @@ Counts are per-endpoint (each edge has two endpoints).
 
 | Status | Endpoint Count |
 |--------|---------------|
-| resolved-exact | 6,613 |
-| resolved-alias | 780 |
-| resolved-firstname-unique | 1,175 |
-| resolved-context-present | 3,039 |
-| resolved-context-prior | 791 |
+| resolved-exact | 6,631 |
+| resolved-alias | 824 |
+| resolved-firstname-unique | 1,182 |
+| resolved-context-present | 3,044 |
+| resolved-context-prior | 797 |
 | unresolved-generic (dropped) | 18 |
 
 ## Per-Book Breakdown
@@ -46,10 +46,10 @@ Counts are per-endpoint (each edge has two endpoints).
 | Book | Resolved | Typed | Untyped | Corroborating | New |
 |------|----------|-------|---------|--------------|-----|
 | AGOT | 1,212 | 703 | 609 | 460 | 752 |
-| ACOK | 1,161 | 635 | 575 | 334 | 827 |
-| ASOS | 1,464 | 764 | 766 | 452 | 1,012 |
-| AFFC | 774 | 401 | 451 | 225 | 549 |
-| ADWD | 1,236 | 667 | 628 | 276 | 960 |
+| ACOK | 1,166 | 637 | 578 | 334 | 832 |
+| ASOS | 1,473 | 769 | 771 | 453 | 1,020 |
+| AFFC | 777 | 401 | 454 | 226 | 551 |
+| ADWD | 1,258 | 677 | 640 | 281 | 977 |
 
 ## Edge Type Distribution
 
@@ -57,28 +57,28 @@ Counts are per-endpoint (each edge has two endpoints).
 |-----------|-------|
 | SERVES | 273 |
 | MOURNS | 253 |
-| OPPOSES | 237 |
-| COMMANDS | 204 |
-| HATES | 195 |
-| DISTRUSTS | 169 |
+| OPPOSES | 241 |
+| COMMANDS | 206 |
+| HATES | 196 |
+| DISTRUSTS | 170 |
 | PROTECTS | 158 |
 | RESPECTS | 136 |
-| LOVES | 134 |
-| SIBLING_OF | 133 |
+| LOVES | 135 |
+| SIBLING_OF | 134 |
 | PARENT_OF | 133 |
 | COMPANION_OF | 118 |
 | FEARS | 103 |
-| KILLS | 100 |
-| RESENTS | 90 |
-| ALLIES_WITH | 77 |
+| KILLS | 101 |
+| RESENTS | 93 |
+| ALLIES_WITH | 78 |
 | ADVISES | 70 |
 | TRUSTS | 55 |
 | BONDED_TO | 50 |
-| LOVER_OF | 46 |
+| LOVER_OF | 47 |
 | BETROTHED_TO | 42 |
 | TUTORS | 39 |
 | SPOUSE_OF | 33 |
-| SEEKS | 32 |
+| SEEKS | 33 |
 | UNCLE_OF | 30 |
 | MANIPULATES | 30 |
 | COUSIN_OF | 26 |
@@ -118,28 +118,21 @@ Counts are per-endpoint (each edge has two endpoints).
 
 | Entity Name (raw) | Count | Example Chapter |
 |-------------------|-------|----------------|
-| Lady Dustin | 12 | adwd-a-ghost-in-winterfell-01 |
 | Cat/Arya | 11 | affc-cat-of-the-canals-01 |
 | Drogon, Rhaegal, Viserion | 5 | agot-daenerys-10 |
 | Bolton | 5 | acok-arya-10 |
-| Lord Manderly | 5 | acok-bran-02 |
-| Hotah | 5 | affc-the-captain-of-guards-01 |
 | Everyone | 4 | agot-bran-02 |
 | Himself | 4 | agot-eddard-13 |
 | (general) | 4 | acok-bran-03 |
 | Dragons | 4 | acok-daenerys-01 |
-| Tris Botley | 4 | affc-the-iron-captain-01 |
 | (self) | 3 | agot-bran-07 |
 | Bran, Rickon | 3 | agot-bran-07 |
 | Wildling host | 3 | acok-jon-05 |
 | — | 3 | asos-arya-01 |
-| Lame Lothar Frey | 3 | asos-catelyn-05 |
 | Translator (slave girl) | 3 | asos-daenerys-02 |
 | Arstan/Barristan | 3 | asos-daenerys-05 |
-| Slynt | 3 | asos-jon-09 |
 | Ser Gregor, Dunsen, Raff the Sweetling, Ser Ilyn, Ser Meryn, Queen Cersei | 3 | affc-arya-01 |
 | Shagwell, Timeon, Pyg | 3 | affc-brienne-04 |
-| Lord Peasebury | 3 | adwd-the-kings-prize-01 |
 | Blond bedwarmer | 3 | adwd-tyrion-01 |
 | Stout man (torchbearer) | 2 | agot-arya-03 |
 | Bran's direwolf (unnamed) | 2 | agot-bran-02 |
@@ -166,5 +159,12 @@ Counts are per-endpoint (each edge has two endpoints).
 | Manderly | 2 | adwd-davos-04 |
 | Ramsay's mother | 2 | adwd-reek-03 |
 | Yunkai'i | 2 | adwd-the-kingbreaker-01 |
-| Strickland | 2 | adwd-the-lost-lord-01 |
 | Ship's crew | 2 | adwd-tyrion-08 |
+| Winterfell's steward | 1 | agot-arya-01 |
+| Robb, Sansa, Bran, Rickon | 1 | agot-arya-01 |
+| Robb, Bran, Rickon | 1 | agot-arya-02 |
+| Arya's intelligence report | 1 | agot-arya-03 |
+| Lannisters | 1 | agot-arya-05 |
+| Summer, Grey Wind, Shaggydog | 1 | agot-bran-04 |
+| Robb, Bran | 1 | agot-bran-04 |
+| Guardsmen | 1 | agot-bran-05 |

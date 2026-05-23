@@ -1,44 +1,44 @@
-{"decision": "emit_edge", "source": "bran-stark", "target": "summer", "direction": "a_to_b", "edge_type": "WARGS_INTO", "evidence_chapter": "a-clash-of-kings-chapter-46", "evidence_paragraphs": [{"section": "## Narrative Arc", "paragraph_index": 0}], "confidence": "tier-2"}
-{"decision": "emit_edge", "source": "summer", "target": "shaggydog", "direction": "symmetric", "edge_type": "SIBLING_OF", "evidence_chapter": "a-clash-of-kings-chapter-46", "evidence_paragraphs": [{"section": "## Narrative Arc", "paragraph_index": 0}], "confidence": "tier-1"}
-{"decision": "emit_edge", "source": "reek", "target": "theon-greyjoy", "direction": "a_to_b", "edge_type": "SERVES", "evidence_chapter": "a-clash-of-kings-chapter-46", "evidence_paragraphs": [{"section": "## Narrative Arc", "paragraph_index": 0}], "confidence": "tier-1"}
-{"decision": "emit_edge", "source": "osha", "target": "theon-greyjoy", "direction": "a_to_b", "edge_type": "SERVES", "evidence_chapter": "a-clash-of-kings-chapter-46", "evidence_paragraphs": [{"section": "## Narrative Arc", "paragraph_index": 0}], "confidence": "tier-1"}
-{"decision": "reject_just_mention", "source": "bran-stark", "target": "capture-of-winterfell", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "bran-stark", "target": "ironmen", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "bran-stark", "target": "jojen-reed", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "bran-stark", "target": "osha", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "bran-stark", "target": "reek", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "bran-stark", "target": "shaggydog", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "bran-stark", "target": "theon-greyjoy", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "capture-of-winterfell", "target": "ironmen", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "capture-of-winterfell", "target": "jojen-reed", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "capture-of-winterfell", "target": "osha", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "capture-of-winterfell", "target": "reek", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "capture-of-winterfell", "target": "shaggydog", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "capture-of-winterfell", "target": "summer", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "capture-of-winterfell", "target": "theon-greyjoy", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "capture-of-winterfell", "target": "winterfell", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "ironmen", "target": "jojen-reed", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "ironmen", "target": "osha", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "ironmen", "target": "reek", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "ironmen", "target": "shaggydog", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "ironmen", "target": "summer", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "ironmen", "target": "winterfell", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "jojen-reed", "target": "osha", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "jojen-reed", "target": "reek", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "jojen-reed", "target": "shaggydog", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "jojen-reed", "target": "summer", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "jojen-reed", "target": "theon-greyjoy", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "jojen-reed", "target": "winterfell", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "osha", "target": "reek", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "osha", "target": "shaggydog", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "osha", "target": "summer", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "osha", "target": "winterfell", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "reek", "target": "shaggydog", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "reek", "target": "summer", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "reek", "target": "winterfell", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "shaggydog", "target": "summer", "reason": "covered-by-reverse-edge"}
-{"decision": "reject_just_mention", "source": "shaggydog", "target": "theon-greyjoy", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "shaggydog", "target": "winterfell", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "summer", "target": "theon-greyjoy", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "summer", "target": "winterfell", "reason": "temporal-cooccurrence-not-relational"}
-{"decision": "reject_just_mention", "source": "theon-greyjoy", "target": "winterfell", "reason": "temporal-cooccurrence-not-relational"}
+{"decision": "emit_edge", "source": "bran-stark", "target": "summer", "direction": "a_to_b", "edge_type": "WARGS_INTO", "evidence_chapter": "a-clash-of-kings-chapter-46", "evidence_paragraphs": [{"section": "## Narrative Arc", "paragraph_index": 0}], "confidence": "tier-2", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "emit_edge", "source": "summer", "target": "shaggydog", "direction": "symmetric", "edge_type": "SIBLING_OF", "evidence_chapter": "a-clash-of-kings-chapter-46", "evidence_paragraphs": [{"section": "## Narrative Arc", "paragraph_index": 0}], "confidence": "tier-1", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "emit_edge", "source": "reek", "target": "theon-greyjoy", "direction": "a_to_b", "edge_type": "SERVES", "evidence_chapter": "a-clash-of-kings-chapter-46", "evidence_paragraphs": [{"section": "## Narrative Arc", "paragraph_index": 0}], "confidence": "tier-1", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "emit_edge", "source": "osha", "target": "theon-greyjoy", "direction": "a_to_b", "edge_type": "SERVES", "evidence_chapter": "a-clash-of-kings-chapter-46", "evidence_paragraphs": [{"section": "## Narrative Arc", "paragraph_index": 0}], "confidence": "tier-1", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "bran-stark", "target": "capture-of-winterfell", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "bran-stark", "target": "ironmen", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "bran-stark", "target": "jojen-reed", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "bran-stark", "target": "osha", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "bran-stark", "target": "reek", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "bran-stark", "target": "shaggydog", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "bran-stark", "target": "theon-greyjoy", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "capture-of-winterfell", "target": "ironmen", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "capture-of-winterfell", "target": "jojen-reed", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "capture-of-winterfell", "target": "osha", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "capture-of-winterfell", "target": "reek", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "capture-of-winterfell", "target": "shaggydog", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "capture-of-winterfell", "target": "summer", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "capture-of-winterfell", "target": "theon-greyjoy", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "capture-of-winterfell", "target": "winterfell", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "ironmen", "target": "jojen-reed", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "ironmen", "target": "osha", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "ironmen", "target": "reek", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "ironmen", "target": "shaggydog", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "ironmen", "target": "summer", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "ironmen", "target": "winterfell", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "jojen-reed", "target": "osha", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "jojen-reed", "target": "reek", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "jojen-reed", "target": "shaggydog", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "jojen-reed", "target": "summer", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "jojen-reed", "target": "theon-greyjoy", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "jojen-reed", "target": "winterfell", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "osha", "target": "reek", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "osha", "target": "shaggydog", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "osha", "target": "summer", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "osha", "target": "winterfell", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "reek", "target": "shaggydog", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "reek", "target": "summer", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "reek", "target": "winterfell", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "shaggydog", "target": "summer", "reason": "covered-by-reverse-edge", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "shaggydog", "target": "theon-greyjoy", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "shaggydog", "target": "winterfell", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "summer", "target": "theon-greyjoy", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "summer", "target": "winterfell", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}
+{"decision": "reject_just_mention", "source": "theon-greyjoy", "target": "winterfell", "reason": "temporal-cooccurrence-not-relational", "status": "superseded", "superseded_by": "pass1-derived", "do_not_promote": true}

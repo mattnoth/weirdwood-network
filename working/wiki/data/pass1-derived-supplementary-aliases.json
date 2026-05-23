@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "source": "manual-curation-stage4-pass1-track-a",
+  "produced_at": "2026-05-23",
+  "note": "Hand-vetted surname/title/epithet aliases for Stage-4 Pass-1 name recovery (Track A of the pass1-tail-and-recovery continue prompt). Merged ADDITIVELY (fill-only) on top of alias-resolver.json by scripts/stage4-pass1-edge-candidates.py; this file is NEVER read by, and NEVER mutates, working/wiki/data/alias-resolver.json. Each key is to_slug(cleaned raw name) exactly as the cell appears in a Pass 1 'Relationships Observed' table; each value is a verified-existing canonical graph node slug. CONSERVATIVE set only: single-referent or title/epithet-disambiguated. Bare ambiguous surnames (bolton, manderly, drumm, serry), multi-name cells, and generic/collective cells are deliberately EXCLUDED and remain queued for Matt. The resolver's rung-b guard (alias_target must be in node_set) means a stale target simply fails to resolve rather than producing a bad edge.",
+  "tiers": {
+    "tier1_unique_or_title_disambiguated": ["hotah", "noye", "lady-dustin", "lord-manderly", "tris-botley", "lame-lothar-frey", "lord-peasebury", "strickland"],
+    "tier2_dominant_referent_namesakes_exist": ["slynt", "thorne", "selmy", "greatjon", "lord-bolton"]
+  },
+  "alias_to_canonical": {
+    "hotah": "areo-hotah",
+    "noye": "donal-noye",
+    "lady-dustin": "barbrey-dustin",
+    "lord-manderly": "wyman-manderly",
+    "tris-botley": "tristifer-botley",
+    "lame-lothar-frey": "lothar-frey",
+    "lord-peasebury": "robin-peasebury",
+    "strickland": "harry-strickland",
+    "slynt": "janos-slynt",
+    "thorne": "alliser-thorne",
+    "selmy": "barristan-selmy",
+    "greatjon": "jon-umber",
+    "lord-bolton": "roose-bolton"
+  }
+}
