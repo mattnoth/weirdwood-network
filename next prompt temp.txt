@@ -1,0 +1,86 @@
+⏺ Done. Continue prompt at:
+
+  progress/continue-prompts/2026-05-20-stage4-haiku-throughput-and-resume.md
+
+  Most important findings for the next session
+
+  1. The 20-min inter-batch sleep is wasted. Throughput is bound by the Claude Code 5h quota wall (total tokens per window), NOT by burst rate. Sleeping just delays hitting the wall — it does NOT raise
+  the wall. Setting STAGE4_HAIKU_SLEEP_BETWEEN=60 is ~3x throughput. No cost increase.
+  2. The loop has a real bug: when rate-limit hits mid-batch, the loop treats the failed chunks as "completed with 0 files" and continues to the next batch — burning 60+ min of wall time across batches
+  14-16 with $0 produced. Fix: detect rate-limit events, parse the reset timestamp, sleep until reset.
+  3. Anthropic Batch API is the structural fix. 50% cost cut + no interactive rate-limit. But requires rewriting stage4-haiku-run.py off claude CLI onto the Anthropic SDK directly. ~1-2 days
+  engineering. Worth evaluating after levers 1+2.
+  4. 375 .edges.jsonl files (85 buckets) emitted overnight. Quality not yet validated — the continue prompt has the validation command at "Step 1."
+  5. Old overnight continue prompt (progress/continue-prompts/2026-05-20-stage4-haiku-overnight-watch.md) is now stale and should be deleted next session — this new one supersedes it.
+
+  Projection at current pace vs LEVER 1
+
+  - As-is: 1089 batches / ~28.8/day = 38 days, ~$3,376
+  - With LEVER 1 (zero sleep): ~66/day = 16.5 days, same cost
+  - With LEVER 5 (Batch API): ~24h, ~$1,688
+
+  The continue prompt is self-contained — fresh session should be able to pick up cold.
+
+✻ Worked for 3m 16s
+
+※ recap: We're building a queryable ASOIAF knowledge graph; overnight Haiku bulk-run only got through 13 of 1089 batches before the 5h quota wall, so throughput strategy needs rethinking. Next: validate
+   the 375 emitted edge files, then decide on speed levers.
+
+❯ Possible step 1 may have changed based on your important findings. are those important findings in continue prompt?                                                                                     
+
+⏺ Yes — all 5 findings are in the continue prompt, but you're right that Step 1 may be wrong given the findings. Let me audit:
+  - As-is: 1089 batches / ~28.8/day = 38 days, ~$3,376
+  - With LEVER 1 (zero sleep): ~66/day = 16.5 days, same cost
+  - With LEVER 5 (Batch API): ~24h, ~$1,688
+
+  The continue prompt is self-contained — fresh session should be able to pick up cold.
+
+✻ Worked for 3m 16s
+
+※ recap: We're building a queryable ASOIAF knowledge graph; overnight Haiku bulk-run only got through 13 of 1089 batches before the 5h quota wall, so throughput strategy needs rethinking. Next: validate
+   the 375 emitted edge files, then decide on speed levers.
+
+❯ Possible step 1 may have changed based on your important findings. are those important findings in continue prompt?                                                                                     
+
+⏺ Yes — all 5 findings are in the continue prompt, but you're right that Step 1 may be wrong given the findings. Let me audit:
+
+  ┌───────────────────────────────────────────────────────┬───────────────┬────────────────────────────────────────────┐
+  │                        Finding                        │  In prompt?   │                   Where                    │
+  ├───────────────────────────────────────────────────────┼───────────────┼────────────────────────────────────────────┤
+  │ Sleep doesn't help throughput                         │ ✅            │ TL;DR #4 + "Throughput analysis" + LEVER 1 │
+  ├───────────────────────────────────────────────────────┼───────────────┼────────────────────────────────────────────┤
+  │ Loop has a real rate-limit bug (wasted batches 14-16) │ ✅ but buried │ LEVER 2 only — not in TL;DR                │
+  ├───────────────────────────────────────────────────────┼───────────────┼────────────────────────────────────────────┤
+  │ Batch API is structural fix                           │ ✅            │ TL;DR #5 + LEVER 5                         │
+  ├───────────────────────────────────────────────────────┼───────────────┼────────────────────────────────────────────┤
+  │ 375 files unvalidated                                 │ ✅            │ TL;DR #6 + Step 1                          │
+  ├───────────────────────────────────────────────────────┼───────────────┼────────────────────────────────────────────┤
+  │ Old continue prompt is stale                          │ ✅            │ "Files modified" section + footer          │
+  └───────────────────────────────────────────────────────┴───────────────┴────────────────────────────────────────────┘
+
+  Where the prompt is wrong: the decision tree puts validation as Step 1, but given the findings, that's not actually the highest-priority next move. Two reasons:
+
+  1. The loop bug isn't a validation problem — it's a correctness problem in our infrastructure. Burning 60+ min on rate-limited batches that produce $0 is wasted spend. That fix has to land before the
+  next run regardless of validation outcomes.
+  2. Validation can run in parallel with the throughput discussion — the 375 files aren't going anywhere. The validator is a single ~30-second command that produces a violation summary. It's not
+  blocking.
+
+  The honest decision tree should probably be:
+
+  - Step 1: Discuss throughput strategy with Matt (LEVER 1+2 minimum, evaluate LEVER 5/6)
+  - Step 2: While that's being decided, run validation in parallel — get the violation summary
+  - Step 3: Fix the loop's rate-limit-reset-awareness bug (LEVER 2) — required for next run
+  - Step 4: Apply LEVER 1 (zero sleep) — env var change, trivial
+  - Step 5: Resume run with new settings
+  - Step 6: Commit Session 61 work + write worklog entry
+
+  Want me to update the prompt's decision tree + bump the loop bug to TL;DR? Quick edit — ~2 min.
+
+✻ Sautéed for 40s
+
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+❯   3. Anthropic Batch API is the structural fix. 50% cost cut + no interactive rate-limit. But requires rewriting stage4-haiku-run.py off claude CLI onto the Anthropic SDK directly. ~1-2 days
+    engineering. Worth evaluating after levers 1+2. -- also we looked at this during mechanical extractions I think but there were definitely issues here or somethings that we were like huh maybe not 
+  worth it.  
+──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  ⏵⏵ bypass permissions on (shift+tab to cycle)                                                                                                                                ⧉ In next prompt temp.txt
