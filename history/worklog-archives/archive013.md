@@ -1,6 +1,28 @@
 # Worklog Archive 013
 
-> Sessions 58-60 (archived from main worklog). Format identical to live worklog Session Log entries.
+> Sessions 58-61 (archived from main worklog). Format identical to live worklog Session Log entries.
+
+---
+
+### Session 61 — Vocab 159→164 + ENCOUNTERS Verb Gate + Loop Infrastructure + Overnight Launch (2026-05-19 → 2026-05-20)
+
+**Detail:** `history/session-details/session-061.md`
+
+**Changes made:**
+- `reference/architecture.md` — vocab 159 → 164: added `IMPRISONED_AT`, `TRAVELS_WITH`, `PRISONER_EXCHANGE_FOR`, `GUARDS`, `ENCOUNTERS`. Vocab callout bumped.
+- `.claude/commands/stage4-haiku-classify.md` — CRITICAL RULE 6 added (ENCOUNTERS verb gate; whitelist `met`/`meets`/`confronted`/etc.; reject without staging verb).
+- `scripts/wiki-pass2-validate-edge-jsonl.py` — `VERB_GATE` dict + `verb-gate-failure` violation kind added. First time the lock-down covers verb gates as schema, not just prompt-text. KNOWS retrofit deferred.
+- `scripts/stage4-haiku-normalize-edge-types.py` — `ACCOMPANIES` → `TRAVELS_WITH` added to `ALIAS_TABLE` (first explicit semantic-synonym entry; previous rule was inflection-only). Removed IMPRISONED_AT/TRAVELS_WITH/ENCOUNTERS/GUARDS from `SEMANTIC_DISTINCT_TYPES` — canonical now.
+- `scripts/stage4-haiku-loop.sh` (NEW), `scripts/stage4-haiku-run-forever.sh` (NEW) — inner loop + outer resilience wrapper for unattended overnight runs. Stop-file controlled, env-tunable.
+- `working/wiki/pass2-buckets/_archive/haiku-pre-vocab164-2026-05-20/` (NEW) — 20 buckets / 70 .edges.jsonl + mission state archived before launch.
+- **Overnight launch at 02:53 CDT** via osascript + `/tmp/run-haiku-forever.sh` wrapper (iTerm cwd workaround).
+
+**Decisions:** **Verb-gate-as-schema is an architectural advancement** — until Session 61, the lock-down was prompt-only; the validator now enforces evidence-text constraints. Bullet-proofing future patterns (KNOWS retrofit, etc.) becomes a small line item. **`/endsession` was NOT authorized at session close** (overnight run in flight; session ended informally when Matt went to bed). Session 62 handled the worklog write-up retrospectively.
+
+**Overnight result (data analyzed in Session 62):** 12 full batches + partial batch-0013 before hitting 5h quota wall at 08:35 CDT. 3 wasted-attempt batches (14/15/16) burned ~14 min before stop file. ~$38 Haiku spend, 363 edge files emitted across 85 buckets.
+
+**What's next:** (queued at session close; Session 62 picked up)
+- Triage uncommitted backlog, quality compare, speed strategy decision before next bulk run.
 
 ---
 

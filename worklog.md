@@ -76,7 +76,7 @@ This is your project memory. When you come back after a break, read Current Stat
 - [x] Wiki Pass 2 Path B — categorizer extension + promotion campaign (Session 28; bounded MediaWiki categories backfill + parser CATEGORY_TYPE_MAP. `unknown` 12,434 (70.4%) → 2,118 (12.0%). +2,240 graph nodes (5,008 → 7,248). Cat 1 orphan edges 2,955 → 1,973. 5 new dirs bootstrapped: `texts/`, `theories/`, `concepts/`, `species/`, `foods/`. New entity type `object.food`.)
 - [x] Wiki Pass 2 Path B promotion completion + schema-drift audit (Session 29; 4 new entity types added: `object.material`, `concept.language`, `concept.medical`, `concept.custom`. 4 new dirs: `materials/`, `languages/`, `medical/`, `customs/`. `unknown` 2,098 → 1,257. Net +315 graph nodes (7,248 → 7,563). 130 stale-dir mismatches cleaned. Full schema-drift audit on opus: 0 HIGH / 4 MED / 4 LOW. Cat 1 orphan edges 1,973 → 1,963. Edge vocabulary lock holds. Chronology data extracted from 74 year pages: 2,245 events in `working/wiki/data/chronology-events.jsonl` (awaits v2 temporal-edges schema; not graph edges yet).)
 - [x] Wiki Pass 2 Stage 0 foundation — alias-resolver built + run (Session 26). 707 broken refs reclaimed via slug-mismatch fix. Empirical signal validates that most remaining "broken" refs are genuinely missing concept entities (concept-pages decision: defer).
-- [ ] Wiki Pass 2 Stage 4 — prose-derived edge discovery (Stage 0 prep complete + cross-references index built; Stage 4 hybrid plan documented in `working/agent-fleet-specs/fleet-orchestration-plan.md`. Pass 1 dependency now met (344/344 across 5 books). Need to build: edge-candidate-generator script, then prose-edge-classifier agent runs (full prompt ready in `.claude/agents/prose-edge-classifier.md`), then peer review, then promote. Continue prompt: `progress/continue-prompts/2026-05-02-stage4-v1-prose-edge-classifier.md`)
+- [~] Wiki Pass 2 Stage 4 — prose-derived edge discovery. **PIVOTED 2026-05-22 (S65) to a Pass-1-derived deterministic pipeline; wiki-chapter-summary comention DEPRECATED.** Deterministic spine BUILT + committed (S66, `047e49b3b`): `scripts/stage4-pass1-edge-candidates.py` + `stage4-pass1-evidence-locator.py` + `stage4_name_resolver.py` → **2,818 typed, ~99%-cited `book-pass1` edges at zero LLM cost** (output gitignored under `working/wiki/pass2-buckets/pass1-derived/`; audit reports under `working/wiki/data/pass1-derived-*`). Remaining: LLM tail (Sonnet, needs OK), recovery backlog (924 ambiguous + 387 unresolved), deprecate-stamp the 130 wiki-comention files. Continue: `progress/continue-prompts/2026-05-23-stage4-pass1-tail-and-recovery.md`. (Older wiki-comention/Haiku-bulk apparatus superseded; `prose-edge-classifier` agent at `.claude/agents/prose-edge-classifier.md` retained for the LLM-tail typing step.)
 - [ ] Pass 3 voice/perception agent prompt written
 - [ ] Pass 4 foreshadowing agent prompt written
 - [ ] Pass 5 theory-informed agent prompt written
@@ -186,6 +186,25 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 66 — Stage 4 Pass-1-derived edge spine BUILT (2026-05-23)
+
+**Detail:** `history/session-details/session-066.md`
+
+**Changes made:**
+- NEW `scripts/stage4-pass1-edge-candidates.py` (parse→resolve→type→corroboration-flag), `scripts/stage4-pass1-evidence-locator.py` (verbatim quote + file:line), `scripts/stage4_name_resolver.py` (5-rung collision-aware resolver: exact/alias/firstname-unique/context-present/context-prior + GENERIC_TERMS stoplist + title-prefix `name_key`). +127 tests (`tests/test_stage4_pass1_edge_pipeline.py`, `tests/test_stage4_name_resolver.py`) → **278 green**.
+- Output (gitignored, regenerable via the two `--apply` scripts): `working/wiki/pass2-buckets/pass1-derived/{book}/*.{edges,candidates}.jsonl` + `_tail/` + `*.needs-qualifier.jsonl`. Tracked: 8 `working/wiki/data/pass1-derived-*` audit reports + `pass1-derived-firstname-aliases.json` (additive, does NOT mutate `alias-resolver.json`).
+- `.gitignore` — added `working/wiki/pass2-buckets/pass1-derived/`. 1 commit `047e49b3b` (not pushed).
+- Memory `project_stage4_pass1_derived_pivot` updated (spine built+committed; tail model = Sonnet, not Haiku).
+
+**Decisions:** **Spine emits 2,818 typed, ~99%-cited `book-pass1` edges at zero LLM cost.** Yield arc 1,035→2,466→2,717→2,818. **Key recalibration: resolution, NOT typing, was the wall** — 5,141/7,398 rows failed name→slug resolution (missing first-name aliases); first-name enrichment + context-disambiguation 2.7×'d the naive yield. Final honest score = 38% of rows → edges (not the design's ~50%). **Already-known pairs KEPT** (Matt's call — wiki ≈ canonical) but made self-describing via `corroborates_known_edge` + `wiki_edge_type` (book-vs-wiki type-disagreement is now a queryable signal, not a blind dupe). **Two systematic misresolution bugs caught by spot-audit, not the green tests** (generic role-words→concept nodes 87; title-first-token→`ser-pounce` the cat 341→0) — reinforces drift-detection discipline. Blind 20-edge sample: 20/20 correct. Validator clean, conform 0 drift.
+
+**What's next:**
+- → continue: `progress/continue-prompts/2026-05-23-stage4-pass1-tail-and-recovery.md` (**Sonnet 4.6** for the LLM tail + deterministic recovery; **Opus 4.7** for a validation pass). Tracks: (a) deterministic recovery backlog (924 ambiguous-queued + 387 unresolved names) — no permission; (b) **LLM tail** (untyped-but-resolved `_tail/` rows, Sonnet, smoke first — needs Matt's OK, it's an extraction); (c) deprecate-stamp wiki-comention (design step 4); (d) first-class book-pass1 validator schema.
+- Throwaway-script cleanup: HOLD (Matt's choice).
+- **`/endsession` explicitly authorized this session** (arg: write continue prompt for LLM tail + what's next).
+
+---
+
 ### Session 65 — Dual-run forensics → Pass-1-derived edge pipeline pivot (2026-05-22)
 
 **Detail:** `history/session-details/session-065.md`
@@ -275,29 +294,7 @@ This is your project memory. When you come back after a break, read Current Stat
 
 ---
 
-### Session 61 — Vocab 159→164 + ENCOUNTERS Verb Gate + Loop Infrastructure + Overnight Launch (2026-05-19 → 2026-05-20)
-
-**Detail:** `history/session-details/session-061.md`
-
-**Changes made:**
-- `reference/architecture.md` — vocab 159 → 164: added `IMPRISONED_AT`, `TRAVELS_WITH`, `PRISONER_EXCHANGE_FOR`, `GUARDS`, `ENCOUNTERS`. Vocab callout bumped.
-- `.claude/commands/stage4-haiku-classify.md` — CRITICAL RULE 6 added (ENCOUNTERS verb gate; whitelist `met`/`meets`/`confronted`/etc.; reject without staging verb).
-- `scripts/wiki-pass2-validate-edge-jsonl.py` — `VERB_GATE` dict + `verb-gate-failure` violation kind added. First time the lock-down covers verb gates as schema, not just prompt-text. KNOWS retrofit deferred.
-- `scripts/stage4-haiku-normalize-edge-types.py` — `ACCOMPANIES` → `TRAVELS_WITH` added to `ALIAS_TABLE` (first explicit semantic-synonym entry; previous rule was inflection-only). Removed IMPRISONED_AT/TRAVELS_WITH/ENCOUNTERS/GUARDS from `SEMANTIC_DISTINCT_TYPES` — canonical now.
-- `scripts/stage4-haiku-loop.sh` (NEW), `scripts/stage4-haiku-run-forever.sh` (NEW) — inner loop + outer resilience wrapper for unattended overnight runs. Stop-file controlled, env-tunable.
-- `working/wiki/pass2-buckets/_archive/haiku-pre-vocab164-2026-05-20/` (NEW) — 20 buckets / 70 .edges.jsonl + mission state archived before launch.
-- **Overnight launch at 02:53 CDT** via osascript + `/tmp/run-haiku-forever.sh` wrapper (iTerm cwd workaround).
-
-**Decisions:** **Verb-gate-as-schema is an architectural advancement** — until Session 61, the lock-down was prompt-only; the validator now enforces evidence-text constraints. Bullet-proofing future patterns (KNOWS retrofit, etc.) becomes a small line item. **`/endsession` was NOT authorized at session close** (overnight run in flight; session ended informally when Matt went to bed). Session 62 handled the worklog write-up retrospectively.
-
-**Overnight result (data analyzed in Session 62):** 12 full batches + partial batch-0013 before hitting 5h quota wall at 08:35 CDT. 3 wasted-attempt batches (14/15/16) burned ~14 min before stop file. ~$38 Haiku spend, 363 edge files emitted across 85 buckets.
-
-**What's next:** (queued at session close; Session 62 picked up)
-- Triage uncommitted backlog, quality compare, speed strategy decision before next bulk run.
-
----
-
-> Sessions 58-60 archived to `history/worklog-archives/archive013.md` (archive013 holds 3/5 entries)
+> Sessions 58-61 archived to `history/worklog-archives/archive013.md` (archive013 holds 4/5 entries)
 > Sessions 57-56 archived to `history/worklog-archives/archive012.md` (archive012 full at 5/5 entries)
 > Session 55 archived to `history/worklog-archives/archive012.md`
 > Session 54 archived to `history/worklog-archives/archive012.md`
