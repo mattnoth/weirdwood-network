@@ -21,6 +21,12 @@ full-txt-files/
 # Excluded to avoid bloating git with ~280MB of computable output.
 working/wiki/pass2-buckets/*/prose-edge-candidates-enriched/
 
+# Session 66 (2026-05-23): Pass-1-derived book edges are derived data — regenerate via
+# `python3 scripts/stage4-pass1-edge-candidates.py --apply` then
+# `python3 scripts/stage4-pass1-evidence-locator.py --apply` in seconds.
+# Audit reports + the firstname-alias map (working/wiki/data/pass1-derived-*) ARE tracked.
+working/wiki/pass2-buckets/pass1-derived/
+
 # subagent isolation worktrees (runtime, never commit)
 .claude/worktrees/
 

@@ -1,0 +1,388 @@
+{
+  "generated_at": "2026-05-23T04:26:34+00:00",
+  "run_id": "pass1-derived-20260523",
+  "schema_version": "pass1-derived-v1",
+  "counts": {
+    "extraction_files_walked": 344,
+    "total_rows_seen": 7398,
+    "drop_source_unresolved": 148,
+    "drop_target_unresolved": 390,
+    "drop_source_generic": 5,
+    "drop_target_generic": 13,
+    "drop_source_ambiguous": 306,
+    "drop_target_ambiguous": 345,
+    "ambiguous_queued_rows": 633,
+    "drop_self_edge": 10,
+    "resolved": 6199,
+    "needs_qualifier": 352,
+    "main_candidates": 5847,
+    "typed": 2818,
+    "untyped": 3029,
+    "corroborating": 1966,
+    "new": 4233,
+    "conform_drift_types": 0,
+    "distinct_unresolved_names": 453
+  },
+  "resolution_status_histogram": {
+    "resolved-context-present": 3039,
+    "resolved-exact": 6613,
+    "resolved-context-prior": 791,
+    "resolved-firstname-unique": 1175,
+    "resolved-alias": 780
+  },
+  "per_book": {
+    "agot": {
+      "resolved": 1212,
+      "untyped": 609,
+      "corroborating": 460,
+      "typed": 703,
+      "new": 752,
+      "needs_qualifier": 100
+    },
+    "acok": {
+      "resolved": 1161,
+      "typed": 635,
+      "new": 827,
+      "corroborating": 334,
+      "untyped": 575,
+      "needs_qualifier": 49
+    },
+    "asos": {
+      "resolved": 1464,
+      "typed": 764,
+      "new": 1012,
+      "untyped": 766,
+      "corroborating": 452,
+      "needs_qualifier": 66
+    },
+    "affc": {
+      "resolved": 774,
+      "untyped": 451,
+      "corroborating": 225,
+      "typed": 401,
+      "new": 549,
+      "needs_qualifier": 78
+    },
+    "adwd": {
+      "resolved": 1236,
+      "untyped": 628,
+      "new": 960,
+      "typed": 667,
+      "corroborating": 276,
+      "needs_qualifier": 59
+    }
+  },
+  "edge_type_distribution": {
+    "SERVES": 273,
+    "MOURNS": 253,
+    "OPPOSES": 237,
+    "COMMANDS": 204,
+    "HATES": 195,
+    "DISTRUSTS": 169,
+    "PROTECTS": 158,
+    "RESPECTS": 136,
+    "LOVES": 134,
+    "SIBLING_OF": 133,
+    "PARENT_OF": 133,
+    "COMPANION_OF": 118,
+    "FEARS": 103,
+    "KILLS": 100,
+    "RESENTS": 90,
+    "ALLIES_WITH": 77,
+    "ADVISES": 70,
+    "TRUSTS": 55,
+    "BONDED_TO": 50,
+    "LOVER_OF": 46,
+    "BETROTHED_TO": 42,
+    "TUTORS": 39,
+    "SPOUSE_OF": 33,
+    "SEEKS": 32,
+    "UNCLE_OF": 30,
+    "MANIPULATES": 30,
+    "COUSIN_OF": 26,
+    "CAPTURES": 21,
+    "WARGS_INTO": 19,
+    "NEPHEW_OF": 18,
+    "PRISONER_OF": 15,
+    "CONSPIRES_WITH": 14,
+    "SWORN_TO": 13,
+    "BETRAYS": 11,
+    "GUARDS": 10,
+    "WARD_OF": 10,
+    "RESCUES": 9,
+    "IN_LAW_OF": 6,
+    "GIFTED_TO": 6,
+    "TEACHES": 6,
+    "EXECUTES": 4,
+    "NEGOTIATES_WITH": 4,
+    "MEMBER_OF": 4,
+    "CONTRACTED_WITH": 3,
+    "ATTACKS": 3,
+    "HEALS": 3,
+    "HEIR_TO": 3,
+    "DISGUISED_AS": 3,
+    "IMPRISONS": 3,
+    "RULES": 3,
+    "DEFEATS": 2,
+    "TRAVELS_WITH": 2,
+    "OWNS": 2,
+    "SPIES_ON": 2,
+    "WORSHIPS": 2,
+    "DREAMS_OF": 1,
+    "DECEIVES": 1,
+    "GUEST_OF": 1
+  },
+  "top_unresolved": [
+    {
+      "name": "Lady Dustin",
+      "count": 12,
+      "example_chapter": "adwd-a-ghost-in-winterfell-01"
+    },
+    {
+      "name": "Cat/Arya",
+      "count": 11,
+      "example_chapter": "affc-cat-of-the-canals-01"
+    },
+    {
+      "name": "Drogon, Rhaegal, Viserion",
+      "count": 5,
+      "example_chapter": "agot-daenerys-10"
+    },
+    {
+      "name": "Bolton",
+      "count": 5,
+      "example_chapter": "acok-arya-10"
+    },
+    {
+      "name": "Lord Manderly",
+      "count": 5,
+      "example_chapter": "acok-bran-02"
+    },
+    {
+      "name": "Hotah",
+      "count": 5,
+      "example_chapter": "affc-the-captain-of-guards-01"
+    },
+    {
+      "name": "Everyone",
+      "count": 4,
+      "example_chapter": "agot-bran-02"
+    },
+    {
+      "name": "Himself",
+      "count": 4,
+      "example_chapter": "agot-eddard-13"
+    },
+    {
+      "name": "(general)",
+      "count": 4,
+      "example_chapter": "acok-bran-03"
+    },
+    {
+      "name": "Dragons",
+      "count": 4,
+      "example_chapter": "acok-daenerys-01"
+    },
+    {
+      "name": "Tris Botley",
+      "count": 4,
+      "example_chapter": "affc-the-iron-captain-01"
+    },
+    {
+      "name": "(self)",
+      "count": 3,
+      "example_chapter": "agot-bran-07"
+    },
+    {
+      "name": "Bran, Rickon",
+      "count": 3,
+      "example_chapter": "agot-bran-07"
+    },
+    {
+      "name": "Wildling host",
+      "count": 3,
+      "example_chapter": "acok-jon-05"
+    },
+    {
+      "name": "—",
+      "count": 3,
+      "example_chapter": "asos-arya-01"
+    },
+    {
+      "name": "Lame Lothar Frey",
+      "count": 3,
+      "example_chapter": "asos-catelyn-05"
+    },
+    {
+      "name": "Translator (slave girl)",
+      "count": 3,
+      "example_chapter": "asos-daenerys-02"
+    },
+    {
+      "name": "Arstan/Barristan",
+      "count": 3,
+      "example_chapter": "asos-daenerys-05"
+    },
+    {
+      "name": "Slynt",
+      "count": 3,
+      "example_chapter": "asos-jon-09"
+    },
+    {
+      "name": "Ser Gregor, Dunsen, Raff the Sweetling, Ser Ilyn, Ser Meryn, Queen Cersei",
+      "count": 3,
+      "example_chapter": "affc-arya-01"
+    },
+    {
+      "name": "Shagwell, Timeon, Pyg",
+      "count": 3,
+      "example_chapter": "affc-brienne-04"
+    },
+    {
+      "name": "Lord Peasebury",
+      "count": 3,
+      "example_chapter": "adwd-the-kings-prize-01"
+    },
+    {
+      "name": "Blond bedwarmer",
+      "count": 3,
+      "example_chapter": "adwd-tyrion-01"
+    },
+    {
+      "name": "Stout man (torchbearer)",
+      "count": 2,
+      "example_chapter": "agot-arya-03"
+    },
+    {
+      "name": "Bran's direwolf (unnamed)",
+      "count": 2,
+      "example_chapter": "agot-bran-02"
+    },
+    {
+      "name": "Bran's direwolf",
+      "count": 2,
+      "example_chapter": "agot-catelyn-03"
+    },
+    {
+      "name": "Irri, Jhiqui, Doreah",
+      "count": 2,
+      "example_chapter": "agot-daenerys-02"
+    },
+    {
+      "name": "Jon's friend group",
+      "count": 2,
+      "example_chapter": "agot-jon-09"
+    },
+    {
+      "name": "Rorge, Biter",
+      "count": 2,
+      "example_chapter": "acok-arya-02"
+    },
+    {
+      "name": "Sansa, Arya",
+      "count": 2,
+      "example_chapter": "acok-catelyn-03"
+    },
+    {
+      "name": "Lord Meadows",
+      "count": 2,
+      "example_chapter": "acok-davos-02"
+    },
+    {
+      "name": "Gendry, Hot Pie",
+      "count": 2,
+      "example_chapter": "asos-arya-01"
+    },
+    {
+      "name": "Caged northmen",
+      "count": 2,
+      "example_chapter": "asos-arya-05"
+    },
+    {
+      "name": "Village elder's daughter",
+      "count": 2,
+      "example_chapter": "asos-arya-12"
+    },
+    {
+      "name": "Unnamed squire",
+      "count": 2,
+      "example_chapter": "asos-arya-13"
+    },
+    {
+      "name": "Jhogo, Aggo, Rakharo",
+      "count": 2,
+      "example_chapter": "asos-daenerys-04"
+    },
+    {
+      "name": "Aggo, Jhogo, Rakharo",
+      "count": 2,
+      "example_chapter": "asos-daenerys-05"
+    },
+    {
+      "name": "Kingslanders",
+      "count": 2,
+      "example_chapter": "asos-tyrion-01"
+    },
+    {
+      "name": "Lord Rykker",
+      "count": 2,
+      "example_chapter": "affc-brienne-02"
+    },
+    {
+      "name": "Lord Mooton",
+      "count": 2,
+      "example_chapter": "affc-brienne-03"
+    },
+    {
+      "name": "Cersei, Jaime",
+      "count": 2,
+      "example_chapter": "affc-cersei-01"
+    },
+    {
+      "name": "Drey / Ser Andrey Dalt",
+      "count": 2,
+      "example_chapter": "affc-the-princess-in-the-tower-01"
+    },
+    {
+      "name": "Darkstar / Ser Gerold Dayne",
+      "count": 2,
+      "example_chapter": "affc-the-princess-in-the-tower-01"
+    },
+    {
+      "name": "Tytos's mistress",
+      "count": 2,
+      "example_chapter": "adwd-cersei-02"
+    },
+    {
+      "name": "Qezza, Grazhar",
+      "count": 2,
+      "example_chapter": "adwd-daenerys-04"
+    },
+    {
+      "name": "Manderly",
+      "count": 2,
+      "example_chapter": "adwd-davos-04"
+    },
+    {
+      "name": "Ramsay's mother",
+      "count": 2,
+      "example_chapter": "adwd-reek-03"
+    },
+    {
+      "name": "Yunkai'i",
+      "count": 2,
+      "example_chapter": "adwd-the-kingbreaker-01"
+    },
+    {
+      "name": "Strickland",
+      "count": 2,
+      "example_chapter": "adwd-the-lost-lord-01"
+    },
+    {
+      "name": "Ship's crew",
+      "count": 2,
+      "example_chapter": "adwd-tyrion-08"
+    }
+  ],
+  "conform_drift": {}
+}
