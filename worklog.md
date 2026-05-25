@@ -76,7 +76,7 @@ This is your project memory. When you come back after a break, read Current Stat
 - [x] Wiki Pass 2 Path B — categorizer extension + promotion campaign (Session 28; bounded MediaWiki categories backfill + parser CATEGORY_TYPE_MAP. `unknown` 12,434 (70.4%) → 2,118 (12.0%). +2,240 graph nodes (5,008 → 7,248). Cat 1 orphan edges 2,955 → 1,973. 5 new dirs bootstrapped: `texts/`, `theories/`, `concepts/`, `species/`, `foods/`. New entity type `object.food`.)
 - [x] Wiki Pass 2 Path B promotion completion + schema-drift audit (Session 29; 4 new entity types added: `object.material`, `concept.language`, `concept.medical`, `concept.custom`. 4 new dirs: `materials/`, `languages/`, `medical/`, `customs/`. `unknown` 2,098 → 1,257. Net +315 graph nodes (7,248 → 7,563). 130 stale-dir mismatches cleaned. Full schema-drift audit on opus: 0 HIGH / 4 MED / 4 LOW. Cat 1 orphan edges 1,973 → 1,963. Edge vocabulary lock holds. Chronology data extracted from 74 year pages: 2,245 events in `working/wiki/data/chronology-events.jsonl` (awaits v2 temporal-edges schema; not graph edges yet).)
 - [x] Wiki Pass 2 Stage 0 foundation — alias-resolver built + run (Session 26). 707 broken refs reclaimed via slug-mismatch fix. Empirical signal validates that most remaining "broken" refs are genuinely missing concept entities (concept-pages decision: defer).
-- [~] Wiki Pass 2 Stage 4 — prose-derived edge discovery. **PIVOTED 2026-05-22 (S65) to a Pass-1-derived deterministic pipeline; wiki-chapter-summary comention DEPRECATED.** Deterministic spine BUILT + committed (S66, `047e49b3b`): `scripts/stage4-pass1-edge-candidates.py` + `stage4-pass1-evidence-locator.py` + `stage4_name_resolver.py` → **2,818 typed, ~99%-cited `book-pass1` edges at zero LLM cost** (output gitignored under `working/wiki/pass2-buckets/pass1-derived/`; audit reports under `working/wiki/data/pass1-derived-*`). S67: alias-recovery applied (spine 2,818→2,834, +16); 133 comention files deprecate-stamped in-data; **LLM tail RAN (Sonnet via `claude -p`): 2,385 typed edges (78%, $20.88) → total book-pass1 = 5,219**. Remaining: tail-violation cleanup (21/2,385, 0.88%) + 2 resolver levers (Matt's call) + tail dedup + `_tail-typed/` merge. Continue: `progress/continue-prompts/2026-05-23-stage4-pass1-finishing.md`. (Older wiki-comention/Haiku-bulk apparatus superseded; `prose-edge-classifier` agent at `.claude/agents/prose-edge-classifier.md` retained for the LLM-tail typing step.)
+- [~] Wiki Pass 2 Stage 4 — prose-derived edge discovery. **PIVOTED 2026-05-22 (S65) to a Pass-1-derived deterministic pipeline; wiki-chapter-summary comention DEPRECATED.** Deterministic spine BUILT + committed (S66, `047e49b3b`): `scripts/stage4-pass1-edge-candidates.py` + `stage4-pass1-evidence-locator.py` + `stage4_name_resolver.py` → **2,818 typed, ~99%-cited `book-pass1` edges at zero LLM cost** (output gitignored under `working/wiki/pass2-buckets/pass1-derived/`; audit reports under `working/wiki/data/pass1-derived-*`). S67: alias-recovery applied (spine 2,818→2,834, +16); 133 comention files deprecate-stamped in-data; **LLM tail RAN (Sonnet via `claude -p`): 2,385 typed edges (78%, $20.88) → total book-pass1 = 5,219**. Remaining: tail-violation cleanup (21/2,385, 0.88%) + 2 resolver levers (Matt's call) + tail dedup + `_tail-typed/` merge. **S68 RECALL EXPANSION:** built `scripts/stage4-pass1-extra-tables.py` (mines the OTHER relational tables; opt-in `--extra-tables`; separate `_extra-tables/` staging, canonical spine untouched) → **+529 deterministic $0 edges from Hospitality (460 GUEST_OF + 69 VIOLATES_GUEST_RIGHT)** + 4,422 Dialogue tail rows (~$30 to type) + Food/Events/Info counted-only. Recall-sample: **A 64% caught now / B 28% table-mineable / C 9% prose-only** — but the high-recall B tables (Events/Info) are prose-shaped (need ~$95+ LLM pass), Hospitality is the deterministic win, Dialogue is lowest-yield. 529 edges NOT yet merged (need endpoint filter; inherit `all-for-joffrey`-class noise). Continue: `progress/continue-prompts/2026-05-24-stage4-recall-expansion.md`. (Older wiki-comention/Haiku-bulk apparatus superseded; `prose-edge-classifier` agent at `.claude/agents/prose-edge-classifier.md` retained for the LLM-tail typing step.)
 - [ ] Pass 3 voice/perception agent prompt written
 - [ ] Pass 4 foreshadowing agent prompt written
 - [ ] Pass 5 theory-informed agent prompt written
@@ -186,6 +186,22 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 68 — Stage 4 recall ceiling: mine all Pass 1 tables + recall-sample (2026-05-24)
+
+**Detail:** `history/session-details/session-068.md`
+
+**Changes made:**
+- Answered Matt's two S67 questions: (a) **wiki comparison** — 1,973/6,239 resolved pairs (32%) corroborate an existing wiki edge, 4,266 (68%) are NEW; vs the deprecated comention path (29,259-candidate sink, 5,723 rows from 60/222 batches @ $55.66), Pass-1-derived = 5,219 edges @ $20.88 primary-source+cited. (b) **line marking** — locator attached verbatim quote + `file:line` to **5,816/5,886 = 98.8%** (70 chapter-level fallbacks); match-rate, not verified-correct.
+- NEW `scripts/stage4-pass1-extra-tables.py` (opt-in `--extra-tables`; separate staging `pass1-derived/_extra-tables/{book}/`; **canonical spine untouched**) + `tests/test_stage4_extra_tables.py` (+81 → **431 green**) + report `working/wiki/data/pass1-derived-extra-tables-report.md`. Yield: **Hospitality → 529 deterministic $0 edges** (460 GUEST_OF + 69 VIOLATES_GUEST_RIGHT; Red Wedding correct); **Dialogue → 4,422 tail rows** (~$30 to type); Food/Events/Info **counted-only** (prose-shaped: 1,263 / 8,384 / 5,654 rows).
+- Recall-sample check (`working/wiki/data/pass1-derived-recall-sample.md`, 7 chapters / 196 rels): **A=64% caught now · B=28% table-mineable · C=9% prose-only** (~3% of C high-value: Gregor/Aegon, Cersei/Maggy, Dany/Viserys).
+- todos.md: added "Stage 4 — Recall Expansion" block. **All S68 work uncommitted** (Matt checkpoints).
+
+**Decisions:** **Key tension found** — recall-sample ranks bucket-B productivity Events & Actions > Information Revealed > Hospitality > Dialogue, but the miner can only emit cheap deterministic edges from **Hospitality (#3)**; the #1/#2 recall tables are **prose-shaped (counted-only)** and need a bounded LLM pass (~14k rows, ~$95+); Dialogue ($30) is the **lowest-yield**. So 1a-as-built = A + Hospitality (~free), NOT the full ~92% the sample implied — the rest is an explicit LLM cost call. Spot-check of the Red Wedding output caught `walder-frey VIOLATES all-for-joffrey` (a toast resolved to a junk node — same index-pollution class as the pending resolver levers; 529 edges inherit it → endpoint filter before merge). **Full prose reading NOT warranted; targeted narrative-aside audit recovers the ~3% high-value C.** Nothing run beyond the deterministic miner.
+
+**What's next:** → continue: `progress/continue-prompts/2026-05-24-stage4-recall-expansion.md` (**Opus 4.7** — decisions + merge coordination; references the finishing prompt for resolver-lever/tail-cleanup detail). Tracks: (1) merge 529 Hospitality/VIOLATES edges after endpoint filter; (2) smoke ~200 Dialogue rows before the $30; (3) **Matt decides** the bounded Events/Info LLM pass (~$95+); plus the S67 finishing work (resolver levers, tail cleanup/dedup, canonical merge) now also covering the 529 edges. #2 (fast narrow wiki layer) logged in todos.
+
+---
+
 ### Session 67 — Stage 4 Pass-1-derived: alias recovery + comention deprecation + LLM tail (2026-05-23)
 
 **Detail:** `history/session-details/session-067.md`
@@ -265,34 +281,8 @@ This is your project memory. When you come back after a break, read Current Stat
 
 ---
 
-### Session 63 — Heavy ENCOUNTERS + KNOWS deprecation + candidate enrichment pipeline (2026-05-21)
-
-**Detail:** `history/session-details/session-063.md`
-
-**Changes made:**
-- 3 commits on origin/main: `bd2d05903` (Heavy ENCOUNTERS + KNOWS dep + Option C scope), `caf8dcc79` (enrichment pipeline), plus this endsession commit.
-- `reference/architecture.md` — KNOWS removed from active vocab (164 → 163); ENCOUNTERS row gained partial-coverage scope note (wiki captures only staged meetings; book-derived pass is the long-term source); SPIES_ON description scrubbed of KNOWS ref; vocab callout updated; Session-63 history line added.
-- `reference/edge-qualifier-vocab.md` — KNOWS Tier-2 row removed (10 → 9); count check 18 → 17.
-- `.claude/commands/stage4-haiku-classify.md` — Rule 2 (KNOWS DEPRECATED never emit), Rule 6 Heavy "When NOT to emit ENCOUNTERS" block with 8 bad-pattern categories + decision flow + concrete failure examples from overnight verb-gate-failure log; Step 2 rewritten to use enriched fields (no source/target file reads); type-contracts KNOWS row removed; vocab refs 164 → 163.
-- `.claude/agents/prose-edge-classifier.md` — Pattern 5 reframed (KNOWS deprecated); KNOWS removed from Knowledge & Information list + type contracts; vocab refs 164 → 163.
-- `scripts/wiki-pass2-enrich-candidates.py` — NEW. Walks 479 buckets, rewrites 5,686 candidate files → `prose-edge-candidates-enriched/` with per-row `target_type` + `evidence_paragraph` (clean prose, anchors normalized to «name») + `valid_edge_types` (pre-filtered by type contract) + `staging_verbs_present` (ENCOUNTERS pre-gate hint) + `_python_prereject` markers. Full corpus: 141,067 rows in 13.5s. 100% target resolution; 99.9% evidence located.
-- `scripts/stage4-haiku-run.py` — `plan_batch_chunks` auto-redirects to enriched path when present. `scripts/stage4-haiku-loop.sh` — added `STAGE4_HAIKU_BATCH_LIST` env-var support for prioritized-scope runs.
-- `working/missions/2026-05-19-stage4-haiku/option-c-batch-order.txt` — NEW, 222 high-value batches (battles + houses + major characters + pass1 + meta-chapters). `locked-edge-vocab-159.md` regenerated to 163 types. `enrichment-design.md` — design doc.
-- `tests/` — +19 tests (1 KNOWS-deprecation regression + 18 enrichment). Total 90 (was 71).
-- `.gitignore` — excludes `prose-edge-candidates-enriched/` (derived, ~280MB, regenerable in 13s).
-- `progress/continue-prompts/2026-05-21-stage4-tier1-relaunch.md` DELETED (completed). `progress/continue-prompts/2026-05-22-stage4-bulk-relaunch.md` NEW.
-
-**Decisions:** **KNOWS deprecated** (82.3% fallback rate; semantic boundary too blurry for wiki-prose classification — defer to future Pass-1-based pass). **ENCOUNTERS partial-coverage acknowledged** (wiki biographical register elides staging verbs; comprehensive coverage waits for book-derived pass). **Option C scope** (222 high-value batches; defer 855 tier3+ minor-house tail). **Enrichment principle locked: make it as easy as possible for Haiku to find ONLY the things relevant to this candidate.** Each candidate row is now a complete decision unit — no file reads from Haiku. Built F1+F2+F3+F5+F7 in one enrichment pass. Explicitly NOT done: F4 (Python semantic classification — risky), F6 (Python pre-rejection — risky), F5 prompt-vocab compression (low ROI, deferred). Smoke (batch-0019, enriched, chunk=5, conc=4): 4.6 min wall-clock, $2.73, 2.80% violation rate — **~5.5× faster than Sonnet original** (~25-28 min/batch), -49% vs Haiku overnight, -29% violation rate. **Bug-call false alarm:** I panicked at "5 of 30 output files missing" — batch-0019 spans 3 buckets and I only checked one; everything wrote correctly. Lesson: validate data before claiming bugs. **Rule violation:** launched smoke via `run_in_background` instead of iTerm; Matt pardoned for this case but rule stands.
-
-**What's next:**
-- **Bulk relaunch FIRST THING (Matt's standing instruction: regardless of time of day)** → continue: `progress/continue-prompts/2026-05-22-stage4-bulk-relaunch.md` (**Sonnet 4.6** for launch + monitor ops; Opus 4.7 only if quality bug surfaces). Command pre-baked with SLEEP=60, CHUNK=5, CONC=4, Option C batch list. Tier 1 (222 batches) ~17h Haiku work / ~24-30h elapsed.
-- F5 (locked-vocab compression) **DEFERRED** — ~$5 savings, not worth 2-4h delay; revisit only if mid-bulk evidence shows it's needed.
-- After Tier 1 completes: Matt decides Option A (full 1077) vs Option B/C-stop based on data + new throughput math.
-- **`/endsession` was explicitly authorized this session.**
-
----
-
 > Session 62 archived to `history/worklog-archives/archive013.md` (archive013 now full at 5/5)
+> Session 63 archived to `history/worklog-archives/archive014.md` (archive014 started — 1/5)
 > Sessions 58-61 archived to `history/worklog-archives/archive013.md`
 > Sessions 57-56 archived to `history/worklog-archives/archive012.md` (archive012 full at 5/5 entries)
 > Session 55 archived to `history/worklog-archives/archive012.md`
