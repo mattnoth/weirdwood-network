@@ -186,6 +186,23 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 70 — graph/edges/ v1 LANDED + Haiku enrichment gate (NO-GO) (2026-05-25)
+
+**Detail:** `working/wiki/data/pass1-derived-enrichment-gate-result.md` + `pass1-derived-smoke2-headtohead-review.md` serve as the detail (no separate session file).
+
+**Changes made:**
+- **graph/edges/ v1 COMMITTED (`c3880e160`)** — `graph/edges/edges.jsonl` (3,842 cited Pass-1-derived edges) + `graph/edges/README.md`. First populated edge layer; graph is now traversable.
+- NEW `scripts/stage4-formalize-edges.py` (+test, 99 green): merge spine(2,834 emit)+S67 tail(2,385 emit)+Hospitality(529)=5,748 → endpoint-gate −109, tail-violation quarantine −10, dedup −1,543 → 4,086 → `--precision-filter` (gated-type −234, CONTEMPORARY_WITH person↔person −10) → **3,842**. Quarantines preserved in `_formalized/` (gitignored).
+- 3 $0 fixes to `stage4-tail-classifier.py` + `stage4-pass1-extra-tables.py` (+tests): vocab gating (5 types)+tier guidance; generator direction-validation + reusable `is_low_quality_endpoint()`; provenance (candidate_kind preserved, typed_by from `--model`). Rule-11 anti-pattern patches (CONTEMPORARY_WITH/COMPANION_OF/CITED_BY/CONTRADICTS/ASSAULTS/NURSED_BY). `--abort-after-consecutive-failures` (exit 42) + `--skip-existing`/`--output-dir` hardening.
+- NEW `scripts/stage4-tail-bulk-forever.sh` (rate-limit-surviving overnight loop). **UNCOMMITTED** (classifier hardening + wrapper; 137 cls tests green) — commit with whichever path Matt picks.
+- NEW reviews: `pass1-derived-smoke2-headtohead-review.md`, `pass1-derived-enrichment-gate-result.md`. Deleted continue prompt `2026-05-25-stage4-smoke-fixes-and-formalize.md` (executed).
+
+**Decisions:** Matt: **deliverable-first** + head-to-head re-smoke (not Sonnet-only). Head-to-head (same 200 rows, post-lockdown): **Haiku 76% / Sonnet 78% strict** — neither cleared 80%; Sonnet's 2pt edge NOT worth 4.4× cost → **Decision C = enrich with Haiku**. Rule-11 patches cleanly eliminated the 2 target biases (CONTEMPORARY_WITH/COMPANION_OF→0) but post-patch precision = **~70%** (new RESPECTS drift + structural candidate-noise: evidence-mis-pairing, direction flips — the same ceiling as the v1 core; prompt can't reach it). **Bulk HELD overnight, $0 spent** — honored the agreed ≥80% gate. The deterministic core (explicit Pass-1 Relationships pairs) is the higher-quality layer; the extra-tables enrichment has a ~70-80% ceiling.
+
+**What's next:** → continue: `progress/continue-prompts/2026-05-25-stage4-enrichment-decision.md` (**Opus 4.7** — A/B/C decision + review; Sonnet for the $0 builds). Options (full detail in `working/wiki/data/pass1-derived-enrichment-gate-result.md`): **A** one iteration (RESPECTS gate + direction reminder + deterministic quote-relevance filter — also cleans v1) then re-smoke; **B** run bulk at ~70% + heavy filters + runtime verify (~$60); **C** ship core-only, defer enrichment. Rec: **A one-shot → fall back to C**; quote-relevance filter is highest-value next build either way. Commit the uncommitted classifier hardening + wrapper with whichever path.
+
+---
+
 ### Session 69 — Stage 4 recall expansion: table-mining smokes + 2 reviews, held at $270 gate (2026-05-24)
 
 **Detail:** `history/session-details/session-069.md`
@@ -259,27 +276,7 @@ This is your project memory. When you come back after a break, read Current Stat
 
 ---
 
-### Session 65 — Dual-run forensics → Pass-1-derived edge pipeline pivot (2026-05-22)
-
-**Detail:** `history/session-details/session-065.md`
-
-**Changes made:**
-- NEW `scripts/stage4-pass1-hint-inventory.py` (parser + keyword-typer + residue writer); 151 tests green. Outputs `working/stage4-hint-inventory.md` + `working/stage4-hint-residue.md`.
-- NEW design doc `working/stage4-pass1-derived-edges-design.md`; worklog Active Decisions entry (Stage 4 pivot); continue prompt `progress/continue-prompts/2026-05-22-stage4-pass1-derived-edges.md` (rewritten with measured numbers). DELETED superseded `2026-05-22-stage4-bulk-resume-and-guard.md`.
-- `.gitignore` — added `.claude/worktrees/` + `scratch*`.
-- 2 commits pushed: `24dcb812b` (S64 bulk output + archive move, 1,008 data files) + `ac61ff2ee` (S65 design pivot). ~31 throwaway `classify_*` scripts left untracked (flagged for cleanup).
-- Memory: `feedback_verify_dataset_provenance`, `project_stage4_pass1_derived_pivot`.
-
-**Decisions:** **Stage 4 pivots to a Pass-1-derived deterministic edge pipeline** (see Active Decisions). Use Pass 1 `## Relationships Observed` tables (**7,348** relationships = 4.6× the old 1,597 feed) instead of wiki chapter-summary comention (**DEPRECATED**, 29,259 candidates). Python parser + keyword typer covers **50.5%** deterministically (35% exact-phrase + 15pp keyword/regex); LLM tail = **49.5%** (3,638 rows / 2,969 distinct phrases) and is genuinely context-dependent (needs the evidence sentence — the "one-time phrase dictionary / Haiku barely runs" framing was oversold and retracted). A deterministic locator attaches verbatim `file:line` citations. Tail model = **Sonnet** (smoke first); **Opus** only for a validation pass. **Integrity findings:** the S64 dual-run (2nd `run-forever` chain launched 04:36, NOT Matt-started, no scheduler) clobbered **24 files** with real candidates (reported done/failed=0); `run-summary.json` is overwritten per-invocation (shows only the last batch); root cause of recurring schema-mixing + archiving-contention = provenance is implicit (fix: stamp run_id/schema_version in the data, not dir names). Bucket-matched Haiku vs Sonnet: Haiku more conservative (24.6% vs 33.3% emit), KNOWS=0 (deprecation holds).
-
-**What's next:**
-- Build the deterministic spine (candidate generator + locator) → ~50% of book edges + citations at zero LLM cost → continue: `progress/continue-prompts/2026-05-22-stage4-pass1-derived-edges.md` (**Sonnet 4.6**; Opus only for validation).
-- Then the bounded Sonnet LLM tail (needs Matt's OK — it's an extraction) + an Opus validation pass.
-- Carry-overs: regenerate the 24 skipped files via the new pipeline; provenance stamp; `git clean` the ~31 untracked throwaway scripts.
-- **/endsession was explicitly authorized this session.**
-
----
-
+> Session 65 archived to `history/worklog-archives/archive014.md` (archive014 now 3/5)
 > Session 64 archived to `history/worklog-archives/archive014.md` (archive014 now 2/5)
 > Session 63 archived to `history/worklog-archives/archive014.md` (archive014 started — 1/5)
 > Session 62 archived to `history/worklog-archives/archive013.md` (archive013 now full at 5/5)

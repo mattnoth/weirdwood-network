@@ -1,7 +1,7 @@
 # Worklog Archive 014
 
 > Archived Session Log entries (oldest-first within this file). Each archive holds 5 entries.
-> Sessions: 63, 64 (more added as later sessions roll off the worklog).
+> Sessions: 63, 64, 65 (more added as later sessions roll off the worklog).
 
 ---
 
@@ -48,3 +48,24 @@
 - Build **single-instance guard** in `run-forever.sh` (PID/lockfile + fix stop-file delete-race) BEFORE relaunch.
 - Build `evidence_section` deterministic backfill; add `output_files` to Haiku results JSON.
 - **`/endsession` explicitly authorized this session.**
+
+---
+
+### Session 65 — Dual-run forensics → Pass-1-derived edge pipeline pivot (2026-05-22)
+
+**Detail:** `history/session-details/session-065.md`
+
+**Changes made:**
+- NEW `scripts/stage4-pass1-hint-inventory.py` (parser + keyword-typer + residue writer); 151 tests green. Outputs `working/stage4-hint-inventory.md` + `working/stage4-hint-residue.md`.
+- NEW design doc `working/stage4-pass1-derived-edges-design.md`; worklog Active Decisions entry (Stage 4 pivot); continue prompt `progress/continue-prompts/2026-05-22-stage4-pass1-derived-edges.md` (rewritten with measured numbers). DELETED superseded `2026-05-22-stage4-bulk-resume-and-guard.md`.
+- `.gitignore` — added `.claude/worktrees/` + `scratch*`.
+- 2 commits pushed: `24dcb812b` (S64 bulk output + archive move, 1,008 data files) + `ac61ff2ee` (S65 design pivot). ~31 throwaway `classify_*` scripts left untracked (flagged for cleanup).
+- Memory: `feedback_verify_dataset_provenance`, `project_stage4_pass1_derived_pivot`.
+
+**Decisions:** **Stage 4 pivots to a Pass-1-derived deterministic edge pipeline** (see Active Decisions). Use Pass 1 `## Relationships Observed` tables (**7,348** relationships = 4.6× the old 1,597 feed) instead of wiki chapter-summary comention (**DEPRECATED**, 29,259 candidates). Python parser + keyword typer covers **50.5%** deterministically (35% exact-phrase + 15pp keyword/regex); LLM tail = **49.5%** (3,638 rows / 2,969 distinct phrases) and is genuinely context-dependent (needs the evidence sentence — the "one-time phrase dictionary / Haiku barely runs" framing was oversold and retracted). A deterministic locator attaches verbatim `file:line` citations. Tail model = **Sonnet** (smoke first); **Opus** only for a validation pass. **Integrity findings:** the S64 dual-run (2nd `run-forever` chain launched 04:36, NOT Matt-started, no scheduler) clobbered **24 files** with real candidates (reported done/failed=0); `run-summary.json` is overwritten per-invocation (shows only the last batch); root cause of recurring schema-mixing + archiving-contention = provenance is implicit (fix: stamp run_id/schema_version in the data, not dir names). Bucket-matched Haiku vs Sonnet: Haiku more conservative (24.6% vs 33.3% emit), KNOWS=0 (deprecation holds).
+
+**What's next:**
+- Build the deterministic spine (candidate generator + locator) → ~50% of book edges + citations at zero LLM cost → continue: `progress/continue-prompts/2026-05-22-stage4-pass1-derived-edges.md` (**Sonnet 4.6**; Opus only for validation).
+- Then the bounded Sonnet LLM tail (needs Matt's OK — it's an extraction) + an Opus validation pass.
+- Carry-overs: regenerate the 24 skipped files via the new pipeline; provenance stamp; `git clean` the ~31 untracked throwaway scripts.
+- **/endsession was explicitly authorized this session.**

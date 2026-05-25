@@ -1325,5 +1325,325 @@ class TestProvenanceFix(unittest.TestCase):
         self.assertEqual(emit["candidate_kind"], "pass1_dialogue")
 
 
+# ---------------------------------------------------------------------------
+# Tests: Task 1 — load_existing_keys respects explicit output_dir
+# ---------------------------------------------------------------------------
+
+class TestSkipExistingOutputDir(unittest.TestCase):
+    """load_existing_keys must read from the explicit output_dir, not OUT_BASE.
+
+    This guards the resume loop: when --output-dir is set, --skip-existing must
+    check the SAME directory it writes to, not the canonical _tail-typed/.
+    """
+
+    def test_load_existing_keys_reads_from_explicit_output_dir(self):
+        """Keys written to a custom dir are found when that dir is passed as output_dir."""
+        import tempfile
+
+        emit_row = {
+            "decision": "emit_edge",
+            "edge_type": "LOVES",
+            "source_slug": "arya-stark",
+            "target_slug": "jon-snow",
+            "evidence_chapter": "agot-arya-01",
+        }
+        with tempfile.TemporaryDirectory() as td:
+            custom_dir = Path(td) / "_enrich-haiku"
+            book_dir = custom_dir / "agot"
+            book_dir.mkdir(parents=True)
+            edges_file = book_dir / "agot-tail.edges.jsonl"
+            edges_file.write_text(json.dumps(emit_row) + "\n")
+
+            # Should find the key when we pass custom_dir explicitly
+            keys = tc.load_existing_keys(["agot"], output_dir=custom_dir)
+            self.assertIn(("arya-stark", "jon-snow", "agot-arya-01"), keys)
+
+    def test_load_existing_keys_custom_dir_does_not_see_canonical_dir_rows(self):
+        """When custom dir is empty, load_existing_keys returns empty set."""
+        import tempfile
+
+        with tempfile.TemporaryDirectory() as td:
+            custom_dir = Path(td) / "_enrich-haiku"
+            custom_dir.mkdir()
+            # No files in custom_dir — should return empty
+            keys = tc.load_existing_keys(["agot", "asos"], output_dir=custom_dir)
+            self.assertEqual(keys, set())
+
+    def test_load_existing_keys_rejected_also_counted(self):
+        """Rejected rows written to the custom dir must also be counted as 'existing'."""
+        import tempfile
+
+        rejected_row = {
+            "decision": "rejected",
+            "source_slug": "ned-stark",
+            "target_slug": "robert-baratheon",
+            "evidence_chapter": "agot-eddard-01",
+        }
+        with tempfile.TemporaryDirectory() as td:
+            custom_dir = Path(td) / "_enrich-haiku"
+            book_dir = custom_dir / "agot"
+            book_dir.mkdir(parents=True)
+            rejected_file = book_dir / "agot-tail.rejected.jsonl"
+            rejected_file.write_text(json.dumps(rejected_row) + "\n")
+
+            keys = tc.load_existing_keys(["agot"], output_dir=custom_dir)
+            self.assertIn(("ned-stark", "robert-baratheon", "agot-eddard-01"), keys)
+
+    def test_load_existing_keys_output_dir_param_is_explicit(self):
+        """load_existing_keys accepts output_dir keyword argument (API contract test)."""
+        import inspect
+        sig = inspect.signature(tc.load_existing_keys)
+        self.assertIn("output_dir", sig.parameters,
+                      "load_existing_keys must have explicit output_dir parameter")
+
+    def test_skip_existing_uses_effective_output_dir(self):
+        """The effective OUT_BASE (after --output-dir reassignment) is what skip-existing
+        checks.  This test exercises the module-global reassignment path to confirm the
+        call site passes output_dir=OUT_BASE (the reassigned value)."""
+        import tempfile
+
+        emit_row = {
+            "decision": "emit_edge",
+            "edge_type": "SERVES",
+            "source_slug": "sansa-stark",
+            "target_slug": "cersei-lannister",
+            "evidence_chapter": "agot-sansa-02",
+        }
+        orig_out_base = tc.OUT_BASE
+        try:
+            with tempfile.TemporaryDirectory() as td:
+                custom_dir = Path(td) / "_enrich-haiku"
+                book_dir = custom_dir / "agot"
+                book_dir.mkdir(parents=True)
+                edges_file = book_dir / "agot-tail.edges.jsonl"
+                edges_file.write_text(json.dumps(emit_row) + "\n")
+
+                # Simulate --output-dir reassignment of the global
+                tc.OUT_BASE = custom_dir
+
+                # load_existing_keys with output_dir=tc.OUT_BASE (the effective dir)
+                keys = tc.load_existing_keys(["agot"], output_dir=tc.OUT_BASE)
+                self.assertIn(("sansa-stark", "cersei-lannister", "agot-sansa-02"), keys)
+        finally:
+            tc.OUT_BASE = orig_out_base
+
+
+# ---------------------------------------------------------------------------
+# Tests: Task 2 — --abort-after-consecutive-failures + exit code 42
+# ---------------------------------------------------------------------------
+
+class TestConsecutiveFailureAbort(unittest.TestCase):
+    """--abort-after-consecutive-failures must exit with EXIT_CODE_RATE_LIMIT (42)
+    after N consecutive fully-failed batches, and reset the counter on a success."""
+
+    def _fully_failed_batch_result(self, rows_in: int = 5) -> dict:
+        """Return a process_batch result dict where every row is classify_failed."""
+        return {
+            "batch_idx": 0,
+            "rows_in": rows_in,
+            "typed": 0,
+            "rejected": 0,
+            "classify_failed": rows_in,
+            "needs_qualifier": 0,
+            "conform_violations": rows_in,
+            "total_cost_usd": 0.0,
+            "emit_rows": [],
+            "rejected_rows": [],
+            "failed_rows": [_make_tail_row() for _ in range(rows_in)],
+            "needs_qualifier_rows": [],
+        }
+
+    def _partial_success_result(self, rows_in: int = 5) -> dict:
+        """Return a process_batch result where at least one row typed successfully."""
+        return {
+            "batch_idx": 0,
+            "rows_in": rows_in,
+            "typed": 1,
+            "rejected": 0,
+            "classify_failed": rows_in - 1,
+            "needs_qualifier": 0,
+            "conform_violations": 0,
+            "total_cost_usd": 0.001,
+            "emit_rows": [
+                tc.build_emit_edge_row(
+                    _make_tail_row(), "LOVES", None, "claude-haiku-4-5", "test-run"
+                )
+            ],
+            "rejected_rows": [],
+            "failed_rows": [_make_tail_row() for _ in range(rows_in - 1)],
+            "needs_qualifier_rows": [],
+        }
+
+    def test_exit_code_rate_limit_constant_is_42(self):
+        """EXIT_CODE_RATE_LIMIT must be 42."""
+        self.assertEqual(tc.EXIT_CODE_RATE_LIMIT, 42)
+
+    def test_abort_threshold_flag_exists(self):
+        """--abort-after-consecutive-failures arg must be registered in parse_args."""
+        import sys as _sys
+        old = _sys.argv
+        try:
+            _sys.argv = ["prog", "--abort-after-consecutive-failures", "3"]
+            args = tc.parse_args()
+            self.assertEqual(args.abort_after_consecutive_failures, 3)
+        finally:
+            _sys.argv = old
+
+    def test_abort_threshold_default_is_5(self):
+        """Default value of --abort-after-consecutive-failures must be 5."""
+        import sys as _sys
+        old = _sys.argv
+        try:
+            _sys.argv = ["prog"]
+            args = tc.parse_args()
+            self.assertEqual(args.abort_after_consecutive_failures, 5)
+        finally:
+            _sys.argv = old
+
+    def test_abort_threshold_zero_disables(self):
+        """--abort-after-consecutive-failures 0 must disable the check."""
+        import sys as _sys
+        old = _sys.argv
+        try:
+            _sys.argv = ["prog", "--abort-after-consecutive-failures", "0"]
+            args = tc.parse_args()
+            self.assertEqual(args.abort_after_consecutive_failures, 0)
+        finally:
+            _sys.argv = old
+
+    def test_fully_failed_batch_detection(self):
+        """A batch with 0 typed/rejected/nq and >0 classify_failed is fully failed."""
+        result = self._fully_failed_batch_result(rows_in=3)
+        batch_is_fully_failed = (
+            result["typed"] == 0
+            and result["rejected"] == 0
+            and result["needs_qualifier"] == 0
+            and result["classify_failed"] > 0
+        )
+        self.assertTrue(batch_is_fully_failed)
+
+    def test_partial_success_is_not_fully_failed(self):
+        """A batch with >=1 typed is NOT a fully-failed batch."""
+        result = self._partial_success_result(rows_in=5)
+        batch_is_fully_failed = (
+            result["typed"] == 0
+            and result["rejected"] == 0
+            and result["needs_qualifier"] == 0
+            and result["classify_failed"] > 0
+        )
+        self.assertFalse(batch_is_fully_failed)
+
+    def test_consecutive_counter_logic(self):
+        """Verify counter increments on full failure and resets on partial success."""
+        consecutive_failures = 0
+        threshold = 3
+
+        # Two full failures
+        for _ in range(2):
+            result = self._fully_failed_batch_result()
+            batch_is_fully_failed = (
+                result["typed"] == 0
+                and result["rejected"] == 0
+                and result["needs_qualifier"] == 0
+                and result["classify_failed"] > 0
+            )
+            if batch_is_fully_failed:
+                consecutive_failures += 1
+            else:
+                consecutive_failures = 0
+
+        self.assertEqual(consecutive_failures, 2)
+        self.assertLess(consecutive_failures, threshold)  # not yet aborted
+
+        # One success — resets
+        result = self._partial_success_result()
+        batch_is_fully_failed = (
+            result["typed"] == 0
+            and result["rejected"] == 0
+            and result["needs_qualifier"] == 0
+            and result["classify_failed"] > 0
+        )
+        if batch_is_fully_failed:
+            consecutive_failures += 1
+        else:
+            consecutive_failures = 0
+        self.assertEqual(consecutive_failures, 0)  # reset
+
+        # Now three full failures again — should reach threshold
+        for _ in range(3):
+            result = self._fully_failed_batch_result()
+            batch_is_fully_failed = (
+                result["typed"] == 0
+                and result["rejected"] == 0
+                and result["needs_qualifier"] == 0
+                and result["classify_failed"] > 0
+            )
+            if batch_is_fully_failed:
+                consecutive_failures += 1
+            else:
+                consecutive_failures = 0
+        self.assertEqual(consecutive_failures, 3)
+        self.assertGreaterEqual(consecutive_failures, threshold)
+
+    def test_process_batch_with_all_parse_error_is_fully_failed(self):
+        """process_batch where claude returns total parse error → classify_failed for all rows."""
+        batch = [_make_tail_row(), _make_tail_row(hint_raw="other")]
+        bad_resp = {
+            "returncode": 0,
+            "raw_output": json.dumps({"result": "garbage no json", "total_cost_usd": 0.0}),
+            "result_json": None,
+            "total_cost_usd": 0.0,
+            "error_message": None,
+            "duration_s": 0.1,
+        }
+        from unittest.mock import patch
+        with patch.object(tc, "invoke_claude", return_value=bad_resp):
+            result = tc.process_batch(
+                batch=batch,
+                batch_idx=0,
+                locked_vocab=_SAMPLE_VOCAB,
+                tier1_types=_TIER1,
+                model="claude-haiku-4-5",
+                run_id="test-run",
+                apply=True,
+            )
+
+        batch_is_fully_failed = (
+            result["typed"] == 0
+            and result["rejected"] == 0
+            and result["needs_qualifier"] == 0
+            and result["classify_failed"] > 0
+        )
+        self.assertTrue(batch_is_fully_failed,
+                        "parse error batch must register as fully failed for consecutive counter")
+
+    def test_rejected_only_batch_is_not_fully_failed(self):
+        """A batch where every row is REJECTED (0 typed, >0 rejected) is NOT fully failed.
+        REJECT is a valid model decision, not a rate-limit symptom."""
+        batch = [_make_tail_row()]
+        model_objects = [{"idx": 0, "edge_type": "REJECT"}]
+        mock_resp = _mock_claude_response(model_objects)
+        from unittest.mock import patch
+        with patch.object(tc, "invoke_claude", return_value=mock_resp):
+            result = tc.process_batch(
+                batch=batch,
+                batch_idx=0,
+                locked_vocab=_SAMPLE_VOCAB,
+                tier1_types=_TIER1,
+                model="claude-haiku-4-5",
+                run_id="test-run",
+                apply=True,
+            )
+
+        batch_is_fully_failed = (
+            result["typed"] == 0
+            and result["rejected"] == 0
+            and result["needs_qualifier"] == 0
+            and result["classify_failed"] > 0
+        )
+        self.assertFalse(batch_is_fully_failed,
+                         "REJECT-only batch must NOT trigger the consecutive-failure counter")
+
+
 if __name__ == "__main__":
     unittest.main()

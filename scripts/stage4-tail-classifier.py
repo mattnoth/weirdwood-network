@@ -81,6 +81,10 @@ BOOKS = ["agot", "acok", "asos", "affc", "adwd"]
 DEFAULT_MODEL = "claude-sonnet-4-6"
 DEFAULT_CHUNK_SIZE = 40
 
+# Exit code used by the forever-loop wrapper to distinguish "rate-limit wall"
+# (sleep and retry) from normal completion (0) or hard failure (1+).
+EXIT_CODE_RATE_LIMIT = 42
+
 # ---------------------------------------------------------------------------
 # Dynamic imports (hyphenated filenames)
 # ---------------------------------------------------------------------------
@@ -855,11 +859,22 @@ def stratified_sample(
 # Load already-typed keys (for --skip-existing)
 # ---------------------------------------------------------------------------
 
-def load_existing_keys(books: list[str]) -> set[tuple[str, str, str]]:
-    """Return the set of (source_slug, target_slug, evidence_chapter) already in _tail-typed/."""
+def load_existing_keys(
+    books: list[str],
+    output_dir: Path | None = None,
+) -> set[tuple[str, str, str]]:
+    """Return the set of (source_slug, target_slug, evidence_chapter) already typed.
+
+    Reads from ``output_dir`` when provided, otherwise falls back to the module-
+    level ``OUT_BASE`` constant.  The caller MUST pass ``output_dir=OUT_BASE``
+    (the effective output dir after ``--output-dir`` reassignment) so that
+    ``--skip-existing`` always checks the same directory it writes to — not the
+    hardcoded canonical ``_tail-typed/``.
+    """
+    base = output_dir if output_dir is not None else OUT_BASE
     existing: set[tuple[str, str, str]] = set()
     for book in books:
-        book_out_dir = OUT_BASE / book
+        book_out_dir = base / book
         if not book_out_dir.exists():
             continue
         for edges_file in book_out_dir.glob("*.edges.jsonl"):
@@ -1179,7 +1194,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--skip-existing",
         action="store_true",
-        help="Skip rows whose (source, target, chapter) is already in _tail-typed/",
+        help=(
+            "Skip rows whose (source, target, chapter) triple is already in the effective "
+            "output dir (--output-dir when set, otherwise the canonical _tail-typed/). "
+            "Both *.edges.jsonl and *.rejected.jsonl are checked. "
+            "classify_failed rows are NOT skipped, so they are retried on the next run."
+        ),
     )
     parser.add_argument(
         "--output-dir",
@@ -1201,6 +1221,20 @@ def parse_args() -> argparse.Namespace:
             "Gated types remain available in the vocabulary (blocklist, NOT narrow allow-list) "
             "but are annotated [GATED] in the prompt to trigger strict usage checks. "
             f"Default: {','.join(DEFAULT_GATED_TYPES)}"
+        ),
+    )
+    parser.add_argument(
+        "--abort-after-consecutive-failures",
+        type=int,
+        default=5,
+        metavar="N",
+        help=(
+            "Exit with code 42 (rate-limit sentinel) if N batches in a row are ALL "
+            "fully failed (0 typed, 0 rejected, 0 needs-qualifier — every row came "
+            "back classify_failed). This prevents a sustained rate-limit wall from "
+            "burning through the remaining queue marking every batch failed. "
+            "The outer forever-loop wrapper treats exit-42 as 'sleep and retry'. "
+            "Set to 0 to disable. Default: 5."
         ),
     )
     return parser.parse_args()
@@ -1295,7 +1329,9 @@ def main() -> int:
     # Skip-existing filter
     if args.skip_existing and all_rows:
         print("Checking for existing output (--skip-existing)...")
-        existing_keys = load_existing_keys(books)
+        # IMPORTANT: pass the EFFECTIVE output dir (OUT_BASE after --output-dir
+        # reassignment) so skip-existing always checks the same dir it writes to.
+        existing_keys = load_existing_keys(books, output_dir=OUT_BASE)
         before = len(all_rows)
         all_rows = [r for r in all_rows if row_skip_key(r) not in existing_keys]
         skipped = before - len(all_rows)
@@ -1349,6 +1385,15 @@ def main() -> int:
     all_failed_rows: list[dict] = []
     all_needs_qualifier_rows: list[dict] = []
 
+    # --abort-after-consecutive-failures: track fully-failed batches in a row.
+    # A batch is "fully failed" when every row came back classify_failed
+    # (0 typed + 0 rejected + 0 needs-qualifier), which is the signature of a
+    # sustained rate-limit wall.  When the counter reaches the threshold, we
+    # flush whatever we have, write partial output, and exit with EXIT_CODE_RATE_LIMIT
+    # (42) so the forever-loop wrapper knows to sleep-and-retry.
+    abort_threshold = args.abort_after_consecutive_failures
+    consecutive_failures = 0
+
     for batch_idx, batch in enumerate(chunks):
         print(f"  Batch {batch_idx + 1}/{len(chunks)} ({len(batch)} rows)...", end=" ", flush=True)
         t0 = time.monotonic()
@@ -1382,6 +1427,36 @@ def main() -> int:
         all_rejected_rows.extend(result["rejected_rows"])
         all_failed_rows.extend(result["failed_rows"])
         all_needs_qualifier_rows.extend(result["needs_qualifier_rows"])
+
+        # Consecutive-failure tracking (rate-limit wall detection)
+        batch_is_fully_failed = (
+            result["typed"] == 0
+            and result["rejected"] == 0
+            and result["needs_qualifier"] == 0
+            and result["classify_failed"] > 0
+        )
+        if batch_is_fully_failed:
+            consecutive_failures += 1
+        else:
+            consecutive_failures = 0
+
+        if abort_threshold > 0 and consecutive_failures >= abort_threshold:
+            print(
+                f"\n  RATE-LIMIT WALL DETECTED: {consecutive_failures} consecutive "
+                f"fully-failed batches (threshold={abort_threshold}). "
+                f"Flushing partial output and exiting with code {EXIT_CODE_RATE_LIMIT} "
+                f"so the wrapper can sleep and retry."
+            )
+            # Flush partial output before exiting (so progress is not lost)
+            print("Writing partial output files...")
+            write_output_rows(
+                all_emit_rows,
+                all_rejected_rows,
+                all_failed_rows,
+                all_needs_qualifier_rows,
+                books,
+            )
+            return EXIT_CODE_RATE_LIMIT
 
     # Write output files
     print()

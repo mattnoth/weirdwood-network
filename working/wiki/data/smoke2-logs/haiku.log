@@ -1,0 +1,47 @@
+  Output dir: /Users/mnoth/source/asoiaf-chat/working/wiki/pass2-buckets/pass1-derived/_smoke2-haiku (redirected from canonical _tail-typed/)
+Weirwood Network — Stage 4 Tail Classifier
+  Model:      claude-haiku-4-5
+  Chunk size: 40
+  Mode:       --apply
+  Sample-N:   200 rows (stratified)
+  Input dir:  working/wiki/pass2-buckets/pass1-derived/_extra-tables
+  Kinds:      pass1_dialogue,pass1_events
+  Gate-vocab: INFORMS, ADVISES, MANIPULATES, SUPPORTS, ALIAS_OF
+
+Loading locked vocab + Tier-1 set...
+  Locked vocab: 163 edge types
+  Tier-1 types: 8: ['HOLDS_TITLE', 'MANIPULATES', 'PARENT_OF', 'SIBLING_OF', 'SPOUSE_OF', 'SWORN_TO', 'VOWS_TO', 'WARD_OF']
+
+Building display name cache from graph/nodes/...
+  8050 slug → display name entries
+
+Loading extra-tables rows from working/wiki/pass2-buckets/pass1-derived/_extra-tables ...
+  20994 untyped rows loaded
+Stratified sampling: 200 rows from 20994 ...
+  200 rows after stratified sample
+
+Batch plan: 200 rows → 5 batches of ≤40
+
+Run ID: tail-llm-20260525T042651
+
+  Batch 1/5 (40 rows)... typed=29 rejected=11 failed=0 nq=0 cost=$0.0867 (107.5s)
+  Batch 2/5 (40 rows)... typed=25 rejected=15 failed=0 nq=0 cost=$0.1189 (146.2s)
+  Batch 3/5 (40 rows)... typed=30 rejected=10 failed=0 nq=0 cost=$0.1193 (171.8s)
+  Batch 4/5 (40 rows)... typed=28 rejected=12 failed=0 nq=0 cost=$0.1321 (186.6s)
+  Batch 5/5 (40 rows)... typed=25 rejected=15 failed=0 nq=0 cost=$0.1316 (192.3s)
+
+Writing output files...
+
+============================================================
+FINAL SUMMARY
+============================================================
+  rows_in:           200
+  typed (emit_edge): 137
+  rejected:          63
+  classify_failed:   0
+  needs_qualifier:   0
+  conform_violations:0
+  total_cost_usd:    $0.5885
+  output dir:        working/wiki/pass2-buckets/pass1-derived/_smoke2-haiku
+  needs-qual dir:    working/wiki/pass2-buckets/pass1-derived/_smoke2-haiku/_needs-qualifier
+  run summary:       working/wiki/pass2-buckets/pass1-derived/_smoke2-haiku/run-summary.json
