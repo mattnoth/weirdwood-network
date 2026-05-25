@@ -696,5 +696,272 @@ class TestBuildVocabBlock(unittest.TestCase):
             self.assertIn(t, block)
 
 
+# ---------------------------------------------------------------------------
+# Tests: Task 3 — Rule 6 in prompt preamble
+# ---------------------------------------------------------------------------
+
+class TestRule6InPrompt(unittest.TestCase):
+    """Rule 6 (ENCOUNTERS staging verb gate) must appear in the classify prompt."""
+
+    def test_rule6_encounters_text_in_preamble(self):
+        """The _PROMPT_PREAMBLE must contain Rule 6 text about ENCOUNTERS."""
+        preamble = tc._PROMPT_PREAMBLE
+        self.assertIn("ENCOUNTERS", preamble)
+        self.assertIn("staging verb", preamble.lower())
+
+    def test_rule6_to_meet_not_staging_in_preamble(self):
+        """The 'to meet is NOT a staging verb' clause must be present."""
+        preamble = tc._PROMPT_PREAMBLE
+        # Look for the "to meet" exclusion in some form
+        lower = preamble.lower()
+        self.assertTrue(
+            "to meet" in lower or '"to meet"' in lower,
+            "Preamble must mention 'to meet' as a non-staging verb",
+        )
+
+    def test_rule6_present_in_rendered_classify_prompt(self):
+        """render_classify_prompt must include Rule 6 content."""
+        rows = [_make_tail_row()]
+        prompt = tc.render_classify_prompt(rows, _SAMPLE_VOCAB)
+        self.assertIn("ENCOUNTERS", prompt)
+        self.assertIn("staging verb", prompt.lower())
+
+    def test_rule6_co_presence_prohibition_in_prompt(self):
+        """The co-presence prohibition should be in the rendered prompt."""
+        rows = [_make_tail_row()]
+        prompt = tc.render_classify_prompt(rows, _SAMPLE_VOCAB)
+        # Should warn against co-presence / scene presence
+        lower = prompt.lower()
+        self.assertTrue(
+            "co-presence" in lower or "same scene" in lower or "never emit for co-presence" in lower,
+            "Prompt must mention co-presence prohibition for ENCOUNTERS",
+        )
+
+    def test_rule_numbering_sequential(self):
+        """The preamble must have at least 7 numbered rules now (added Rule 6)."""
+        preamble = tc._PROMPT_PREAMBLE
+        # Check that rule 6 and rule 7 both exist
+        self.assertIn("6.", preamble)
+        self.assertIn("7.", preamble)
+
+
+# ---------------------------------------------------------------------------
+# Tests: Task 3 — load_extra_tables_rows
+# ---------------------------------------------------------------------------
+
+class TestLoadExtraTablesRows(unittest.TestCase):
+    """load_extra_tables_rows must read untyped candidates from _extra-tables/ layout."""
+
+    def _make_extra_tables_dir(
+        self,
+        rows_by_book: dict[str, list[dict]],
+    ) -> Path:
+        """Write rows to a temp directory mimicking _extra-tables/{book}/ layout."""
+        import tempfile
+        tmpdir = Path(tempfile.mkdtemp())
+        for book, rows in rows_by_book.items():
+            book_dir = tmpdir / book
+            book_dir.mkdir()
+            out_file = book_dir / f"{book}-test-01.extra-tables.jsonl"
+            with out_file.open("w") as fh:
+                for row in rows:
+                    fh.write(json.dumps(row) + "\n")
+        return tmpdir
+
+    def _make_row(self, candidate_kind: str, book: str, edge_type=None) -> dict:
+        return {
+            "candidate_kind": candidate_kind,
+            "evidence_chapter": f"{book}-test-01",
+            "evidence_book": book,
+            "source_slug": "arya-stark",
+            "target_slug": "jon-snow",
+            "edge_type": edge_type,
+            "hint_raw": "test hint",
+        }
+
+    def test_loads_untyped_rows(self):
+        rows = [self._make_row("pass1_dialogue", "agot")]
+        tmpdir = self._make_extra_tables_dir({"agot": rows})
+        loaded = tc.load_extra_tables_rows(tmpdir, ["agot"])
+        self.assertEqual(len(loaded), 1)
+
+    def test_filters_typed_rows(self):
+        """Rows with edge_type != None must be excluded."""
+        rows = [
+            self._make_row("pass1_dialogue", "agot"),  # untyped
+            self._make_row("pass1_hospitality", "agot", edge_type="GUEST_OF"),  # typed
+        ]
+        tmpdir = self._make_extra_tables_dir({"agot": rows})
+        loaded = tc.load_extra_tables_rows(tmpdir, ["agot"])
+        self.assertEqual(len(loaded), 1)
+        self.assertIsNone(loaded[0]["edge_type"])
+
+    def test_candidate_kinds_filter(self):
+        """When candidate_kinds specified, only matching rows returned."""
+        rows = [
+            self._make_row("pass1_dialogue", "agot"),
+            self._make_row("pass1_events", "agot"),
+            self._make_row("pass1_food", "agot"),
+        ]
+        tmpdir = self._make_extra_tables_dir({"agot": rows})
+        loaded = tc.load_extra_tables_rows(tmpdir, ["agot"], candidate_kinds=["pass1_dialogue"])
+        self.assertEqual(len(loaded), 1)
+        self.assertEqual(loaded[0]["candidate_kind"], "pass1_dialogue")
+
+    def test_multi_book_loading(self):
+        """Rows from multiple books are all loaded."""
+        agot_rows = [self._make_row("pass1_dialogue", "agot")]
+        asos_rows = [self._make_row("pass1_events", "asos")]
+        tmpdir = self._make_extra_tables_dir({"agot": agot_rows, "asos": asos_rows})
+        loaded = tc.load_extra_tables_rows(tmpdir, ["agot", "asos"])
+        self.assertEqual(len(loaded), 2)
+
+    def test_tail_book_augmented(self):
+        """Each loaded row must have _tail_book set to its book."""
+        rows = [self._make_row("pass1_dialogue", "agot")]
+        tmpdir = self._make_extra_tables_dir({"agot": rows})
+        loaded = tc.load_extra_tables_rows(tmpdir, ["agot"])
+        self.assertEqual(loaded[0]["_tail_book"], "agot")
+
+    def test_missing_book_dir_ignored(self):
+        """Non-existent book dir is skipped, no crash."""
+        tmpdir = self._make_extra_tables_dir({})
+        loaded = tc.load_extra_tables_rows(tmpdir, ["agot", "asos"])
+        self.assertEqual(loaded, [])
+
+    def test_no_candidate_kinds_loads_all_untyped(self):
+        """Without candidate_kinds filter, all untyped rows are returned."""
+        rows = [
+            self._make_row("pass1_dialogue", "agot"),
+            self._make_row("pass1_events", "agot"),
+        ]
+        tmpdir = self._make_extra_tables_dir({"agot": rows})
+        loaded = tc.load_extra_tables_rows(tmpdir, ["agot"], candidate_kinds=None)
+        self.assertEqual(len(loaded), 2)
+
+
+# ---------------------------------------------------------------------------
+# Tests: Task 3 — stratified_sample
+# ---------------------------------------------------------------------------
+
+class TestStratifiedSample(unittest.TestCase):
+    """stratified_sample must return N rows with proportional strata coverage."""
+
+    def _make_rows(self, count: int, book: str, kind: str) -> list[dict]:
+        return [
+            {
+                "candidate_kind": kind,
+                "_tail_book": book,
+                "source_slug": f"src-{i}",
+                "target_slug": f"tgt-{i}",
+            }
+            for i in range(count)
+        ]
+
+    def test_returns_n_rows_exact(self):
+        """When total > n, result has exactly n rows."""
+        rows = (
+            self._make_rows(50, "agot", "pass1_dialogue") +
+            self._make_rows(50, "asos", "pass1_events")
+        )
+        sampled = tc.stratified_sample(rows, 20)
+        self.assertEqual(len(sampled), 20)
+
+    def test_returns_all_when_total_lte_n(self):
+        """When total <= n, returns all rows (shuffled)."""
+        rows = self._make_rows(5, "agot", "pass1_dialogue")
+        sampled = tc.stratified_sample(rows, 100)
+        self.assertEqual(len(sampled), 5)
+
+    def test_covers_multiple_strata(self):
+        """With multi-strata input, sample should include rows from each stratum."""
+        rows = (
+            self._make_rows(30, "agot", "pass1_dialogue") +
+            self._make_rows(30, "asos", "pass1_events") +
+            self._make_rows(30, "affc", "pass1_food")
+        )
+        sampled = tc.stratified_sample(rows, 30, seed=42)
+        kinds = {r["candidate_kind"] for r in sampled}
+        # With balanced strata (30 each), expect all 3 kinds to appear
+        self.assertGreater(len(kinds), 1, f"Expected multi-kind sample, got: {kinds}")
+
+    def test_deterministic_with_seed(self):
+        """Same seed = same result."""
+        rows = (
+            self._make_rows(20, "agot", "pass1_dialogue") +
+            self._make_rows(20, "asos", "pass1_events")
+        )
+        s1 = tc.stratified_sample(rows, 10, seed=42)
+        s2 = tc.stratified_sample(rows, 10, seed=42)
+        self.assertEqual(
+            [r["source_slug"] for r in s1],
+            [r["source_slug"] for r in s2],
+        )
+
+    def test_different_seeds_differ(self):
+        """Different seeds produce different (usually) orderings."""
+        rows = (
+            self._make_rows(20, "agot", "pass1_dialogue") +
+            self._make_rows(20, "asos", "pass1_events")
+        )
+        s1 = tc.stratified_sample(rows, 10, seed=1)
+        s2 = tc.stratified_sample(rows, 10, seed=99)
+        # Very unlikely to be identical with different seeds and 10 rows from 40
+        srcs1 = [r["source_slug"] for r in s1]
+        srcs2 = [r["source_slug"] for r in s2]
+        self.assertNotEqual(srcs1, srcs2)
+
+    def test_single_stratum_proportional(self):
+        """With a single stratum, all n rows come from it."""
+        rows = self._make_rows(20, "agot", "pass1_dialogue")
+        sampled = tc.stratified_sample(rows, 5)
+        self.assertEqual(len(sampled), 5)
+        for r in sampled:
+            self.assertEqual(r["_tail_book"], "agot")
+            self.assertEqual(r["candidate_kind"], "pass1_dialogue")
+
+    def test_empty_input_returns_empty(self):
+        sampled = tc.stratified_sample([], 10)
+        self.assertEqual(sampled, [])
+
+
+class TestOutputDirRedirect(unittest.TestCase):
+    """--output-dir safety: write_output_rows must land in the redirected dir,
+    never the canonical _tail-typed/.  Guards smoke runs from clobbering the
+    S67 typed tail (which is append-mode written)."""
+
+    def setUp(self):
+        self._orig_out_base = tc.OUT_BASE
+        self._orig_needs_qual = tc.OUT_NEEDS_QUAL_DIR
+
+    def tearDown(self):
+        tc.OUT_BASE = self._orig_out_base
+        tc.OUT_NEEDS_QUAL_DIR = self._orig_needs_qual
+
+    def test_write_output_rows_respects_reassigned_out_base(self):
+        import tempfile
+
+        emit_row = {
+            "decision": "emit_edge",
+            "edge_type": "PARENT_OF",
+            "source_slug": "eddard-stark",
+            "target_slug": "bran-stark",
+            "evidence_chapter": "agot-bran-01",
+        }
+        with tempfile.TemporaryDirectory() as td:
+            tmp = Path(td) / "_smoke"
+            tc.OUT_BASE = tmp
+            tc.OUT_NEEDS_QUAL_DIR = tmp / "_needs-qualifier"
+
+            tc.write_output_rows([emit_row], [], [], [], ["agot"])
+
+            written = tmp / "agot" / "agot-tail.edges.jsonl"
+            self.assertTrue(written.exists(), "edge file must land under --output-dir")
+            self.assertIn("bran-stark", written.read_text())
+            # The write target must be the redirected dir, NOT the canonical one.
+            self.assertTrue(written.is_relative_to(tmp))
+            self.assertFalse(written.is_relative_to(self._orig_out_base))
+
+
 if __name__ == "__main__":
     unittest.main()

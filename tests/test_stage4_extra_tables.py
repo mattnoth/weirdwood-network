@@ -20,11 +20,25 @@ Covers:
     * mixed with parentheticals
 - parse_food_table / parse_info_table / parse_events_section:
     * return non-empty lists on real fixture snippets
+- generate_events_candidates / generate_info_candidates / generate_food_candidates (Task 1):
+    * emit candidate pairs when >=2 entities resolved
+    * drop rows with <2 resolved entities
+    * candidate_kind, edge_type==None, hint_raw populated
+- locate_evidence_for_candidate (Task 2):
+    * verbatim match returns evidence_ref with :LINE suffix
+    * chapter-level fallback when no prose match
+- _anchor_candidate_locator (Task 2):
+    * adds evidence_ref + locate_status to a candidate dict
+    * idempotent (does not overwrite existing evidence_ref)
 
 Run: python3 -m unittest tests.test_stage4_extra_tables -v
 """
 
 import unittest
+from pathlib import Path
+
+import tempfile
+import json
 from pathlib import Path
 
 from tests._helpers import load_script
@@ -42,6 +56,87 @@ _looks_like_group = extra_mod._looks_like_group
 _is_violation_row = extra_mod._is_violation_row
 _is_guest_right_invoked = extra_mod._is_guest_right_invoked
 count_food_multi_named = extra_mod.count_food_multi_named
+
+# Task 1 generators
+generate_events_candidates = extra_mod.generate_events_candidates
+generate_info_candidates = extra_mod.generate_info_candidates
+generate_food_candidates = extra_mod.generate_food_candidates
+
+# Task 2 locator
+locate_evidence_for_candidate = extra_mod.locate_evidence_for_candidate
+_anchor_candidate_locator = extra_mod._anchor_candidate_locator
+
+# ---------------------------------------------------------------------------
+# Minimal resolver stubs for Task 1 generator tests
+# (We don't need a real alias_map / node_set; we use a mock that resolves
+# known test names.)
+# ---------------------------------------------------------------------------
+
+# Build a stub resolver environment: resolve known names to predictable slugs.
+_STUB_NODE_SET = {
+    "arya-stark", "jon-snow", "eddard-stark", "robb-stark",
+    "catelyn-stark", "sansa-stark", "tyrion-lannister",
+    "samwell-tarly", "yoren", "cersei-lannister",
+}
+_STUB_ALIAS_MAP = {
+    "Arya": "arya-stark",
+    "Jon": "jon-snow",
+    "Jon Snow": "jon-snow",
+    "Ned": "eddard-stark",
+    "Eddard": "eddard-stark",
+    "Eddard Stark": "eddard-stark",
+    "Lord Stark": "eddard-stark",
+    "Robb": "robb-stark",
+    "Robb Stark": "robb-stark",
+    "Catelyn": "catelyn-stark",
+    "Catelyn Stark": "catelyn-stark",
+    "Sansa": "sansa-stark",
+    "Sansa Stark": "sansa-stark",
+    "Tyrion": "tyrion-lannister",
+    "Tyrion Lannister": "tyrion-lannister",
+    "Sam": "samwell-tarly",
+    "Samwell": "samwell-tarly",
+    "Samwell Tarly": "samwell-tarly",
+    "Yoren": "yoren",
+    "Cersei": "cersei-lannister",
+}
+# Build a minimal firstname_index: first name → [slug]
+_STUB_FIRSTNAME_INDEX = {
+    "arya": ["arya-stark"],
+    "jon": ["jon-snow"],
+    "ned": ["eddard-stark"],
+    "eddard": ["eddard-stark"],
+    "robb": ["robb-stark"],
+    "catelyn": ["catelyn-stark"],
+    "sansa": ["sansa-stark"],
+    "tyrion": ["tyrion-lannister"],
+    "sam": ["samwell-tarly"],
+    "samwell": ["samwell-tarly"],
+    "yoren": ["yoren"],
+    "cersei": ["cersei-lannister"],
+}
+_STUB_IMPORTANCE_PRIOR: dict = {}
+_STUB_PRESENT_SLUGS: set = set(_STUB_NODE_SET)
+
+
+# Shared kwargs for generator calls
+def _gen_kwargs(chapter_path: Path, chapter_rel: str) -> dict:
+    return dict(
+        chapter_slug="agot-bran-01",
+        book_abbrev="agot",
+        pov_slug="bran-stark",
+        extraction_rel="extractions/mechanical/agot/agot-bran-01.extraction.md",
+        alias_map=_STUB_ALIAS_MAP,
+        node_set=_STUB_NODE_SET,
+        firstname_index=_STUB_FIRSTNAME_INDEX,
+        importance_prior=_STUB_IMPORTANCE_PRIOR,
+        present_slugs=_STUB_PRESENT_SLUGS,
+        chapter_path=chapter_path,
+        chapter_rel=chapter_rel,
+        run_id="test-run",
+        schema_version="pass1-extra-tables-v1",
+        produced_at="2026-05-24T00:00:00+00:00",
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -690,6 +785,437 @@ class TestRedWeddingViolation(unittest.TestCase):
         hosts = [r["host"] for r in violations]
         walder = [h for h in hosts if "Frey" in h or "Walder" in h]
         self.assertTrue(walder, f"Expected Walder Frey as host, got hosts: {hosts}")
+
+
+# ---------------------------------------------------------------------------
+# Tests: generate_events_candidates (Task 1)
+# ---------------------------------------------------------------------------
+
+class TestGenerateEventsCandidates(unittest.TestCase):
+    """generate_events_candidates must emit pairs when >=2 entities resolved."""
+
+    def _make_chapter_file(self, content: str) -> tuple[Path, str]:
+        """Write temp chapter file; return (path, chapter_rel)."""
+        tmpdir = tempfile.mkdtemp()
+        p = Path(tmpdir) / "agot-bran-01.md"
+        p.write_text(content, encoding="utf-8")
+        return p, f"sources/chapters/agot/agot-bran-01.md"
+
+    def test_two_entity_item_emits_pair(self):
+        """An item mentioning Arya and Jon should emit one candidate pair."""
+        items = ["1. **Test** — Arya and Jon Snow spoke together in the yard."]
+        chapter_path, chapter_rel = self._make_chapter_file(
+            "---\nfrontmatter: yes\n---\nArya and Jon Snow spoke together in the yard.\n"
+        )
+        cands, rows_2plus, rows_dropped = generate_events_candidates(
+            event_items=items,
+            **_gen_kwargs(chapter_path, chapter_rel),
+        )
+        self.assertGreaterEqual(len(cands), 1)
+        self.assertEqual(rows_2plus, 1)
+        self.assertEqual(rows_dropped, 0)
+
+    def test_candidate_kind_is_pass1_events(self):
+        items = ["1. **Test** — Robb Stark and Catelyn Stark planned the march."]
+        chapter_path, chapter_rel = self._make_chapter_file(
+            "---\nfoo: bar\n---\nRobb and Catelyn planned.\n"
+        )
+        cands, _, _ = generate_events_candidates(
+            event_items=items,
+            **_gen_kwargs(chapter_path, chapter_rel),
+        )
+        if cands:
+            self.assertEqual(cands[0]["candidate_kind"], "pass1_events")
+
+    def test_edge_type_is_none(self):
+        items = ["1. **Act** — Eddard Stark and Robb Stark rode north."]
+        chapter_path, chapter_rel = self._make_chapter_file(
+            "---\nfoo: bar\n---\nEddard and Robb rode north.\n"
+        )
+        cands, _, _ = generate_events_candidates(
+            event_items=items,
+            **_gen_kwargs(chapter_path, chapter_rel),
+        )
+        for c in cands:
+            self.assertIsNone(c["edge_type"])
+
+    def test_single_entity_item_dropped(self):
+        """Item with only one resolvable entity → dropped, no candidate."""
+        items = ["1. **Monologue** — Some unnamed person walked by."]
+        chapter_path, chapter_rel = self._make_chapter_file(
+            "---\nfoo: bar\n---\nSome unnamed person walked by.\n"
+        )
+        cands, rows_2plus, rows_dropped = generate_events_candidates(
+            event_items=items,
+            **_gen_kwargs(chapter_path, chapter_rel),
+        )
+        self.assertEqual(len(cands), 0)
+        self.assertEqual(rows_2plus, 0)
+        self.assertEqual(rows_dropped, 1)
+
+    def test_hint_raw_populated(self):
+        """hint_raw should contain the item text (minus number prefix)."""
+        items = ["1. **Act** — Arya and Jon Snow sparred in the yard."]
+        chapter_path, chapter_rel = self._make_chapter_file(
+            "---\nfoo: bar\n---\nArya and Jon Snow sparred in the yard.\n"
+        )
+        cands, _, _ = generate_events_candidates(
+            event_items=items,
+            **_gen_kwargs(chapter_path, chapter_rel),
+        )
+        if cands:
+            self.assertIn("Arya", cands[0]["hint_raw"])
+
+    def test_fan_out_first_actor_only(self):
+        """With 3 entities, should fan-out from first → second and first → third."""
+        items = ["1. **Council** — Eddard Stark and Catelyn Stark and Robb Stark met."]
+        chapter_path, chapter_rel = self._make_chapter_file(
+            "---\nfoo: bar\n---\nEddard Stark and Catelyn Stark and Robb Stark met.\n"
+        )
+        cands, _, _ = generate_events_candidates(
+            event_items=items,
+            **_gen_kwargs(chapter_path, chapter_rel),
+        )
+        # All candidates should have same source (first resolved entity)
+        if len(cands) >= 2:
+            sources = {c["source_slug"] for c in cands}
+            self.assertEqual(len(sources), 1, f"Expected single source, got: {sources}")
+
+    def test_evidence_ref_present(self):
+        """Candidates must carry evidence_ref field."""
+        items = ["1. **Act** — Arya and Jon Snow sparred."]
+        chapter_path, chapter_rel = self._make_chapter_file(
+            "---\nfoo: bar\n---\nArya and Jon Snow sparred.\n"
+        )
+        cands, _, _ = generate_events_candidates(
+            event_items=items,
+            **_gen_kwargs(chapter_path, chapter_rel),
+        )
+        for c in cands:
+            self.assertIn("evidence_ref", c)
+            self.assertTrue(c["evidence_ref"], "evidence_ref must be non-empty")
+
+    def test_locate_status_present(self):
+        """Candidates must carry locate_status."""
+        items = ["1. **Act** — Arya and Jon Snow sparred in the yard."]
+        chapter_path, chapter_rel = self._make_chapter_file(
+            "---\nfoo: bar\n---\nArya and Jon Snow sparred in the yard.\n"
+        )
+        cands, _, _ = generate_events_candidates(
+            event_items=items,
+            **_gen_kwargs(chapter_path, chapter_rel),
+        )
+        for c in cands:
+            self.assertIn(c["locate_status"], ("verbatim", "chapter-level"))
+
+
+# ---------------------------------------------------------------------------
+# Tests: generate_info_candidates (Task 1)
+# ---------------------------------------------------------------------------
+
+class TestGenerateInfoCandidates(unittest.TestCase):
+    """generate_info_candidates must emit pairs from Information Revealed rows."""
+
+    def _make_chapter_file(self, content: str) -> tuple[Path, str]:
+        tmpdir = tempfile.mkdtemp()
+        p = Path(tmpdir) / "agot-bran-01.md"
+        p.write_text(content, encoding="utf-8")
+        return p, "sources/chapters/agot/agot-bran-01.md"
+
+    def test_two_entity_row_emits_pair(self):
+        info_rows = [
+            {
+                "information": "Arya is Eddard Stark's daughter",
+                "how revealed": "Narration",
+                "known to (characters)": "Jon Snow",
+                "known to (reader only?)": "No",
+            }
+        ]
+        chapter_path, chapter_rel = self._make_chapter_file(
+            "---\nfoo: bar\n---\nArya is Lord Stark's daughter.\n"
+        )
+        cands, rows_2plus, rows_dropped = generate_info_candidates(
+            info_rows=info_rows,
+            **_gen_kwargs(chapter_path, chapter_rel),
+        )
+        self.assertGreaterEqual(len(cands), 1)
+        self.assertEqual(rows_2plus, 1)
+
+    def test_candidate_kind_is_pass1_info(self):
+        info_rows = [
+            {
+                "information": "Sansa and Tyrion Lannister are wed",
+                "how revealed": "Direct observation",
+                "known to (characters)": "Catelyn Stark",
+                "known to (reader only?)": "No",
+            }
+        ]
+        chapter_path, chapter_rel = self._make_chapter_file(
+            "---\nfoo: bar\n---\nSansa and Tyrion are wed.\n"
+        )
+        cands, _, _ = generate_info_candidates(
+            info_rows=info_rows,
+            **_gen_kwargs(chapter_path, chapter_rel),
+        )
+        if cands:
+            self.assertEqual(cands[0]["candidate_kind"], "pass1_info")
+
+    def test_edge_type_none(self):
+        info_rows = [
+            {"information": "Arya and Jon Snow trained", "how revealed": "Scene", "known to (characters)": "Robb Stark"}
+        ]
+        chapter_path, chapter_rel = self._make_chapter_file(
+            "---\nfoo: bar\n---\nArya and Jon trained.\n"
+        )
+        cands, _, _ = generate_info_candidates(
+            info_rows=info_rows,
+            **_gen_kwargs(chapter_path, chapter_rel),
+        )
+        for c in cands:
+            self.assertIsNone(c["edge_type"])
+
+    def test_single_entity_dropped(self):
+        info_rows = [
+            {"information": "The keep is old", "how revealed": "Description", "known to (characters)": "Everyone"}
+        ]
+        chapter_path, chapter_rel = self._make_chapter_file(
+            "---\nfoo: bar\n---\nThe keep is old.\n"
+        )
+        cands, rows_2plus, rows_dropped = generate_info_candidates(
+            info_rows=info_rows,
+            **_gen_kwargs(chapter_path, chapter_rel),
+        )
+        self.assertEqual(len(cands), 0)
+        self.assertEqual(rows_2plus, 0)
+        self.assertEqual(rows_dropped, 1)
+
+    def test_evidence_ref_present(self):
+        info_rows = [
+            {"information": "Arya and Jon Snow trained", "how revealed": "Scene", "known to (characters)": "Robb Stark"}
+        ]
+        chapter_path, chapter_rel = self._make_chapter_file(
+            "---\nfoo: bar\n---\nArya and Jon trained.\n"
+        )
+        cands, _, _ = generate_info_candidates(
+            info_rows=info_rows,
+            **_gen_kwargs(chapter_path, chapter_rel),
+        )
+        for c in cands:
+            self.assertIn("evidence_ref", c)
+
+
+# ---------------------------------------------------------------------------
+# Tests: generate_food_candidates (Task 1)
+# ---------------------------------------------------------------------------
+
+class TestGenerateFoodCandidates(unittest.TestCase):
+    """generate_food_candidates must emit pairs from Food & Drink rows."""
+
+    def _make_chapter_file(self, content: str) -> tuple[Path, str]:
+        tmpdir = tempfile.mkdtemp()
+        p = Path(tmpdir) / "agot-bran-01.md"
+        p.write_text(content, encoding="utf-8")
+        return p, "sources/chapters/agot/agot-bran-01.md"
+
+    def test_two_diners_emit_pair(self):
+        food_rows = [
+            {
+                "meal/occasion": "Breakfast",
+                "food items described": "Bread",
+                "drink": "Ale",
+                "who is eating/drinking": "Arya, Jon Snow",
+                "where": "Great Hall",
+                "preparation/presentation notes": "",
+            }
+        ]
+        chapter_path, chapter_rel = self._make_chapter_file(
+            "---\nfoo: bar\n---\nArya and Jon Snow ate breakfast.\n"
+        )
+        cands, rows_2plus, rows_dropped = generate_food_candidates(
+            food_rows=food_rows,
+            **_gen_kwargs(chapter_path, chapter_rel),
+        )
+        self.assertGreaterEqual(len(cands), 1)
+        self.assertEqual(rows_2plus, 1)
+        self.assertEqual(rows_dropped, 0)
+
+    def test_candidate_kind_is_pass1_food(self):
+        food_rows = [
+            {"meal/occasion": "Feast", "who is eating/drinking": "Robb Stark and Catelyn Stark"}
+        ]
+        chapter_path, chapter_rel = self._make_chapter_file(
+            "---\nfoo: bar\n---\nRobb and Catelyn feasted.\n"
+        )
+        cands, _, _ = generate_food_candidates(
+            food_rows=food_rows,
+            **_gen_kwargs(chapter_path, chapter_rel),
+        )
+        if cands:
+            self.assertEqual(cands[0]["candidate_kind"], "pass1_food")
+
+    def test_edge_type_none(self):
+        food_rows = [{"meal/occasion": "Supper", "who is eating/drinking": "Arya, Sansa Stark"}]
+        chapter_path, chapter_rel = self._make_chapter_file(
+            "---\nfoo: bar\n---\nArya and Sansa ate supper.\n"
+        )
+        cands, _, _ = generate_food_candidates(
+            food_rows=food_rows,
+            **_gen_kwargs(chapter_path, chapter_rel),
+        )
+        for c in cands:
+            self.assertIsNone(c["edge_type"])
+
+    def test_single_entity_dropped(self):
+        food_rows = [{"meal/occasion": "Snack", "who is eating/drinking": "some unnamed guard"}]
+        chapter_path, chapter_rel = self._make_chapter_file(
+            "---\nfoo: bar\n---\nA guard snacked.\n"
+        )
+        cands, rows_2plus, rows_dropped = generate_food_candidates(
+            food_rows=food_rows,
+            **_gen_kwargs(chapter_path, chapter_rel),
+        )
+        self.assertEqual(len(cands), 0)
+        self.assertEqual(rows_dropped, 1)
+
+    def test_evidence_ref_present(self):
+        food_rows = [{"meal/occasion": "Feast", "who is eating/drinking": "Catelyn Stark, Robb Stark"}]
+        chapter_path, chapter_rel = self._make_chapter_file(
+            "---\nfoo: bar\n---\nCatelyn and Robb feasted.\n"
+        )
+        cands, _, _ = generate_food_candidates(
+            food_rows=food_rows,
+            **_gen_kwargs(chapter_path, chapter_rel),
+        )
+        for c in cands:
+            self.assertIn("evidence_ref", c)
+
+
+# ---------------------------------------------------------------------------
+# Tests: locate_evidence_for_candidate + _anchor_candidate_locator (Task 2)
+# ---------------------------------------------------------------------------
+
+class TestLocateEvidence(unittest.TestCase):
+    """locate_evidence_for_candidate must find verbatim lines or fall back."""
+
+    def _make_chapter_file(self, content: str) -> Path:
+        tmpdir = tempfile.mkdtemp()
+        p = Path(tmpdir) / "agot-bran-01.md"
+        p.write_text(content, encoding="utf-8")
+        return p
+
+    def test_verbatim_match_found(self):
+        """When chapter contains both names + hint word, locate_status=verbatim."""
+        chapter = (
+            "---\nfrontmatter: yes\n---\n"
+            "Arya and Jon Snow sparred together in the yard.\n"
+        )
+        chapter_path = self._make_chapter_file(chapter)
+        result = locate_evidence_for_candidate(
+            source_slug="arya-stark",
+            target_slug="jon-snow",
+            hint_text="sparred yard",
+            chapter_path=chapter_path,
+            chapter_rel="sources/chapters/agot/agot-bran-01.md",
+        )
+        self.assertEqual(result["locate_status"], "verbatim")
+        self.assertIn(":", result["evidence_ref"])  # has :LINE suffix
+        self.assertIn("arya", result["evidence_quote"].lower())
+
+    def test_chapter_level_fallback_when_no_match(self):
+        """When chapter prose doesn't match, locate_status=chapter-level."""
+        chapter = (
+            "---\nfrontmatter: yes\n---\n"
+            "The sun rose over the mountains.\n"
+        )
+        chapter_path = self._make_chapter_file(chapter)
+        result = locate_evidence_for_candidate(
+            source_slug="arya-stark",
+            target_slug="jon-snow",
+            hint_text="completely unrelated stuff zxyzxy",
+            chapter_path=chapter_path,
+            chapter_rel="sources/chapters/agot/agot-bran-01.md",
+        )
+        self.assertEqual(result["locate_status"], "chapter-level")
+        self.assertNotIn(":", result["evidence_ref"])  # no line number
+
+    def test_missing_chapter_file_returns_chapter_level(self):
+        """Missing chapter file → chapter-level fallback, no crash."""
+        result = locate_evidence_for_candidate(
+            source_slug="arya-stark",
+            target_slug="jon-snow",
+            hint_text="some hint",
+            chapter_path=Path("/nonexistent/path/chapter.md"),
+            chapter_rel="sources/chapters/agot/agot-bran-01.md",
+        )
+        self.assertEqual(result["locate_status"], "chapter-level")
+
+    def test_evidence_ref_format(self):
+        """evidence_ref must be 'chapter_rel' or 'chapter_rel:LINENO'."""
+        chapter = (
+            "---\nfrontmatter: yes\n---\n"
+            "Arya and Jon Snow sparred together in the yard.\n"
+        )
+        chapter_path = self._make_chapter_file(chapter)
+        result = locate_evidence_for_candidate(
+            source_slug="arya-stark",
+            target_slug="jon-snow",
+            hint_text="sparred",
+            chapter_path=chapter_path,
+            chapter_rel="sources/chapters/agot/agot-bran-01.md",
+        )
+        ref = result["evidence_ref"]
+        self.assertTrue(
+            ref == "sources/chapters/agot/agot-bran-01.md" or
+            ref.startswith("sources/chapters/agot/agot-bran-01.md:"),
+            f"Unexpected evidence_ref format: {ref!r}",
+        )
+
+
+class TestAnchorCandidateLocator(unittest.TestCase):
+    """_anchor_candidate_locator must attach evidence_ref + locate_status."""
+
+    def _make_chapter_file(self, content: str) -> Path:
+        tmpdir = tempfile.mkdtemp()
+        p = Path(tmpdir) / "agot-bran-01.md"
+        p.write_text(content, encoding="utf-8")
+        return p
+
+    def _base_cand(self) -> dict:
+        return {
+            "candidate_kind": "pass1_dialogue",
+            "source_slug": "arya-stark",
+            "target_slug": "jon-snow",
+            "hint_raw": "sparred yard",
+            "evidence_quote": "",
+            "evidence_context": "",
+        }
+
+    def test_evidence_ref_added(self):
+        chapter_path = self._make_chapter_file(
+            "---\nfoo: bar\n---\nArya and Jon Snow sparred in the yard.\n"
+        )
+        cand = self._base_cand()
+        _anchor_candidate_locator(cand, chapter_path, "sources/chapters/agot/agot-bran-01.md")
+        self.assertIn("evidence_ref", cand)
+        self.assertTrue(cand["evidence_ref"])
+
+    def test_locate_status_added(self):
+        chapter_path = self._make_chapter_file(
+            "---\nfoo: bar\n---\nArya and Jon Snow sparred in the yard.\n"
+        )
+        cand = self._base_cand()
+        _anchor_candidate_locator(cand, chapter_path, "sources/chapters/agot/agot-bran-01.md")
+        self.assertIn(cand["locate_status"], ("verbatim", "chapter-level"))
+
+    def test_idempotent_does_not_overwrite_existing(self):
+        """If evidence_ref already set, _anchor_candidate_locator is a no-op."""
+        chapter_path = self._make_chapter_file(
+            "---\nfoo: bar\n---\nArya and Jon sparred.\n"
+        )
+        cand = self._base_cand()
+        cand["evidence_ref"] = "already/set.md:99"
+        _anchor_candidate_locator(cand, chapter_path, "sources/chapters/agot/agot-bran-01.md")
+        self.assertEqual(cand["evidence_ref"], "already/set.md:99")
 
 
 if __name__ == "__main__":

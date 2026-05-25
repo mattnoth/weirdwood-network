@@ -10,13 +10,17 @@ Tables mined:
      VIOLATES_GUEST_RIGHT (counted; violator/victim emitted where cleanly parseable).
   2. ## Dialogue of Note — emits Speaker→Listener pairs routed to the untyped
      tail (type not deterministic from columns).
-  3. ## Food & Drink — counted only; ~5 example rows in report.
-  4. ## Events & Actions — counted only (prose-shaped).
-  5. ## Information Revealed — counted only (prose-shaped).
+  3. ## Food & Drink — entity-matched candidate pairs (candidate_kind=pass1_food).
+  4. ## Events & Actions — entity-matched candidate pairs (candidate_kind=pass1_events).
+  5. ## Information Revealed — entity-matched candidate pairs (candidate_kind=pass1_info).
 
 All new candidates are written to a separate staging path so they are fully
 separable from the canonical spine outputs:
   working/wiki/pass2-buckets/pass1-derived/_extra-tables/{book}/{chapter}.extra-tables.jsonl
+
+All candidates now carry evidence_ref (sources/chapters/{book}/{chapter}.md:LINE)
++ locate_status (verbatim | chapter-level), anchored via the same locator logic
+as the canonical spine.
 
 The existing canonical outputs are NEVER mutated.
 
@@ -41,6 +45,7 @@ import re
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
+from typing import Optional
 
 # ---------------------------------------------------------------------------
 # Load stage4_name_resolver (dynamic import, filename has underscores OK)
@@ -131,6 +136,7 @@ QUAL_VOCAB_MD = REPO_ROOT / "reference" / "edge-qualifier-vocab.md"
 
 OUT_EXTRA_BASE_DIR = PASS2_BUCKETS_DIR / "pass1-derived" / "_extra-tables"
 OUT_REPORT_MD = WIKI_DATA_DIR / "pass1-derived-extra-tables-report.md"
+CHAPTERS_DIR = REPO_ROOT / "sources" / "chapters"
 
 BOOKS = ["agot", "acok", "asos", "affc", "adwd"]
 
@@ -612,6 +618,593 @@ def _build_present_slugs(
 
 
 # ---------------------------------------------------------------------------
+# Evidence locator helpers (Task 2)
+# Mirrors stage4-pass1-evidence-locator.py's logic; read-only, no imports needed.
+# ---------------------------------------------------------------------------
+_STOPWORDS = frozenset({
+    "a", "an", "the", "and", "or", "but", "in", "on", "at", "to", "for",
+    "of", "with", "by", "from", "as", "is", "was", "are", "were", "be",
+    "been", "being", "have", "has", "had", "do", "does", "did", "will",
+    "would", "could", "should", "may", "might", "must", "shall", "can",
+    "not", "no", "nor", "so", "yet", "both", "either", "neither",
+    "he", "she", "it", "they", "we", "you", "i", "his", "her", "its",
+    "their", "our", "your", "my", "him", "them", "us", "me",
+    "that", "this", "these", "those", "which", "who", "whom", "whose",
+    "what", "when", "where", "why", "how", "all", "each", "every",
+    "any", "some", "more", "most", "other", "then", "than", "too",
+    "just", "up", "out", "about", "after", "before", "while", "also",
+    "into", "through", "during", "between", "against", "over", "under",
+    "again", "there", "here", "even", "down", "only", "very", "still",
+    "back", "now", "always", "never", "once",
+})
+_MIN_SCORE_THRESHOLD = 0.15
+_SENTENCE_SPLIT_RE = re.compile(r'(?<=[.!?])\s+')
+
+
+def _loc_content_words(text: str) -> set[str]:
+    tokens = re.findall(r"\b[a-zA-Z]{3,}\b", text.lower())
+    return {t for t in tokens if t not in _STOPWORDS}
+
+
+def _loc_name_forms(slug: str) -> set[str]:
+    forms: set[str] = set()
+    parts = slug.split("-")
+    forms.add(slug.lower())
+    forms.add(slug.replace("-", " ").lower())
+    for p in parts:
+        if len(p) >= 3:
+            forms.add(p.lower())
+    return forms
+
+
+def _read_chapter_prose(chapter_path: Path) -> list[tuple[int, str]]:
+    """Read chapter file, skip YAML frontmatter, return (lineno, line) pairs."""
+    try:
+        raw_lines = chapter_path.read_text(encoding="utf-8", errors="replace").splitlines()
+    except OSError:
+        return []
+
+    in_frontmatter = False
+    prose_lines: list[tuple[int, str]] = []
+    for lineno, line in enumerate(raw_lines, start=1):
+        stripped = line.strip()
+        if lineno == 1 and stripped == "---":
+            in_frontmatter = True
+            continue
+        if in_frontmatter:
+            if stripped == "---":
+                in_frontmatter = False
+            continue
+        if stripped:
+            prose_lines.append((lineno, line))
+    return prose_lines
+
+
+def _split_into_sentences(prose_lines: list[tuple[int, str]]) -> list[tuple[int, str]]:
+    """Split prose lines into (lineno, sentence) pairs."""
+    sentences: list[tuple[int, str]] = []
+    current_start: Optional[int] = None
+    current_text: list[str] = []
+
+    def _flush():
+        nonlocal current_start, current_text
+        if current_text:
+            para_text = " ".join(current_text)
+            parts = _SENTENCE_SPLIT_RE.split(para_text)
+            for part in parts:
+                part = part.strip()
+                if part:
+                    sentences.append((current_start, part))
+            current_text = []
+            current_start = None
+
+    for lineno, line in prose_lines:
+        text = line.strip()
+        if not text:
+            _flush()
+            continue
+        if current_start is None:
+            current_start = lineno
+        current_text.append(text)
+    _flush()
+    return sentences
+
+
+def locate_evidence_for_candidate(
+    source_slug: str,
+    target_slug: str,
+    hint_text: str,
+    chapter_path: Path,
+    chapter_rel: str,
+) -> dict:
+    """Find best verbatim passage in chapter prose for (source, target, hint).
+
+    Returns dict with keys: evidence_quote, evidence_ref, locate_status.
+    locate_status: 'verbatim' | 'chapter-level'.
+
+    This is the same algorithm as stage4-pass1-evidence-locator.py's
+    locate_evidence(), inlined here to avoid import cross-dependency.
+    """
+    source_forms = _loc_name_forms(source_slug)
+    target_forms = _loc_name_forms(target_slug)
+    hint_content = _loc_content_words(hint_text)
+
+    all_query_terms = source_forms | target_forms | hint_content
+    n_query = max(len(all_query_terms), 1)
+
+    prose_lines = _read_chapter_prose(chapter_path)
+    if not prose_lines:
+        return {
+            "evidence_quote": f"[PARAPHRASE] {hint_text}" if hint_text else "",
+            "evidence_ref": chapter_rel,
+            "locate_status": "chapter-level",
+        }
+
+    sentences = _split_into_sentences(prose_lines)
+    if not sentences:
+        return {
+            "evidence_quote": f"[PARAPHRASE] {hint_text}" if hint_text else "",
+            "evidence_ref": chapter_rel,
+            "locate_status": "chapter-level",
+        }
+
+    best_score = -1.0
+    best_sentence = ""
+    best_lineno = 0
+
+    for lineno, sent_text in sentences:
+        sent_lower = sent_text.lower()
+        sent_tokens = set(re.findall(r"\b[a-zA-Z]{2,}\b", sent_lower))
+
+        name_hits = 0
+        for form in source_forms:
+            if form in sent_lower:
+                name_hits += 1
+                break
+        for form in target_forms:
+            if form in sent_lower:
+                name_hits += 1
+                break
+
+        content_hits = len(hint_content & sent_tokens)
+        score = (name_hits * 2 + content_hits) / n_query
+
+        if score > best_score:
+            best_score = score
+            best_sentence = sent_text.strip()
+            best_lineno = lineno
+
+    if best_score >= _MIN_SCORE_THRESHOLD:
+        return {
+            "evidence_quote": best_sentence,
+            "evidence_ref": f"{chapter_rel}:{best_lineno}",
+            "locate_status": "verbatim",
+        }
+    else:
+        return {
+            "evidence_quote": f"[PARAPHRASE] {hint_text}" if hint_text else "",
+            "evidence_ref": chapter_rel,
+            "locate_status": "chapter-level",
+        }
+
+
+# ---------------------------------------------------------------------------
+# Entity scanner: scan free text for resolved entity slugs.
+# Used by the Events, Info, and Food candidate generators.
+# ---------------------------------------------------------------------------
+
+def _scan_text_for_entities(
+    text: str,
+    alias_map: dict,
+    node_set: set,
+    firstname_index: dict,
+    importance_prior: dict,
+    present_slugs: set,
+) -> list[str]:
+    """Scan text for entity name-forms, return list of resolved slugs in reading order.
+
+    Uses resolve_name with full context. Deduplicates while preserving first-occurrence
+    order. Applies GENERIC_TERMS check via STATUS_UNRESOLVED_GENERIC guard.
+
+    Greedy multi-word matching: tries 3-word → 2-word → 1-word spans for each
+    Title-cased token. A multi-word span is consumed (advances the cursor) ONLY
+    when it resolves via a full-name match (EXACT or ALIAS status). FIRSTNAME_UNIQUE
+    matches are accepted only for single-word spans — this prevents "Jon" from eating
+    "Snow" into an "Arya Jon Snow" ghost span.
+
+    Returns list of unique resolved slugs (AMBIGUOUS and UNRESOLVED excluded).
+    """
+    # Multi-word spans consumed only on these statuses (full-name match):
+    _FULL_MATCH_STATUSES = (STATUS_EXACT, STATUS_ALIAS)
+
+    all_tokens = re.findall(r"\b[A-Z][a-zA-Z'-]+\b", text)
+    seen_slugs: dict[str, int] = {}  # slug → first occurrence position
+    position = 0
+    i = 0
+
+    while i < len(all_tokens):
+        resolved_slug = None
+        advance_extra = 0  # how many extra positions to skip after this token
+
+        # Try 3-word, 2-word, 1-word spans
+        for span_len in (3, 2, 1):
+            if i + span_len > len(all_tokens):
+                continue
+            candidate_name = " ".join(all_tokens[i:i + span_len])
+            slug, status = resolve_name(
+                candidate_name,
+                alias_map=alias_map,
+                node_set=node_set,
+                firstname_index=firstname_index,
+                prior=importance_prior,
+                present_slugs=present_slugs,
+            )
+            if slug and status not in (STATUS_AMBIGUOUS, STATUS_UNRESOLVED, STATUS_UNRESOLVED_GENERIC):
+                # For multi-word spans: only advance cursor on full-name matches.
+                # For single-word spans: accept any non-ambiguous status.
+                if span_len > 1 and status not in _FULL_MATCH_STATUSES:
+                    # Firstname-unique on a multi-word span — fall through to shorter spans.
+                    continue
+                resolved_slug = slug
+                advance_extra = span_len - 1  # outer loop adds 1 more
+                break
+
+        if resolved_slug and resolved_slug not in seen_slugs:
+            seen_slugs[resolved_slug] = position
+            position += 1
+        i += 1 + advance_extra
+
+    # Return in reading order
+    return sorted(seen_slugs, key=lambda s: seen_slugs[s])
+
+
+def _emit_entity_pair_candidates(
+    slugs: list[str],
+    candidate_kind: str,
+    source_section: str,
+    hint_raw: str,
+    evidence_quote: str,
+    evidence_context: str,
+    chapter_slug: str,
+    book_abbrev: str,
+    pov_slug: str,
+    extraction_rel: str,
+    run_id: str,
+    schema_version: str,
+    produced_at: str,
+    chapter_path: Path,
+    chapter_rel: str,
+) -> list[dict]:
+    """Emit candidate pair rows from a resolved slug list.
+
+    Direction heuristic v1: first slug = actor/source, each subsequent = target.
+    Cap at first-actor → others fan-out (no full cartesian product).
+    Requires >=2 distinct slugs to emit anything.
+
+    Attaches evidence_ref + locate_status via the locator.
+    """
+    if len(slugs) < 2:
+        return []
+
+    actor = slugs[0]
+    targets = slugs[1:]  # fan-out from first actor
+
+    rows: list[dict] = []
+    for target in targets:
+        if target == actor:
+            continue
+        # Locate evidence
+        loc = locate_evidence_for_candidate(
+            source_slug=actor,
+            target_slug=target,
+            hint_text=hint_raw,
+            chapter_path=chapter_path,
+            chapter_rel=chapter_rel,
+        )
+        cand = {
+            "candidate_kind": candidate_kind,
+            "source_section": source_section,
+            "evidence_chapter": chapter_slug,
+            "evidence_book": book_abbrev,
+            "evidence_pov": pov_slug,
+            "source_slug": actor,
+            "source_resolution_status": "scan",
+            "target_slug": target,
+            "target_resolution_status": "scan",
+            "edge_type": None,
+            "typed_by": None,
+            "qualifier": None,
+            "hint_raw": hint_raw,
+            "evidence_quote": loc["evidence_quote"],
+            "evidence_context": evidence_context,
+            "evidence_ref": loc["evidence_ref"],
+            "locate_status": loc["locate_status"],
+            "extraction_file": extraction_rel,
+            "run_id": run_id,
+            "schema_version": schema_version,
+            "produced_at": produced_at,
+        }
+        rows.append(cand)
+    return rows
+
+
+# ---------------------------------------------------------------------------
+# Task 1: Events & Actions candidate generator
+# ---------------------------------------------------------------------------
+
+def generate_events_candidates(
+    event_items: list[str],
+    chapter_slug: str,
+    book_abbrev: str,
+    pov_slug: str,
+    extraction_rel: str,
+    alias_map: dict,
+    node_set: set,
+    firstname_index: dict,
+    importance_prior: dict,
+    present_slugs: set,
+    chapter_path: Path,
+    chapter_rel: str,
+    run_id: str,
+    schema_version: str,
+    produced_at: str,
+) -> tuple[list[dict], int, int]:
+    """Generate pass1_events candidate pairs from Events & Actions numbered items.
+
+    Returns (candidates, rows_with_2plus_entities, rows_dropped).
+    """
+    candidates: list[dict] = []
+    rows_with_2plus = 0
+    rows_dropped = 0
+
+    for item_text in event_items:
+        # Strip leading number + bold marker: "1. **Name** — prose"
+        # hint_raw = the full item text (no number prefix)
+        hint_raw = re.sub(r"^\d+\.\s+", "", item_text).strip()
+
+        slugs = _scan_text_for_entities(
+            hint_raw, alias_map, node_set, firstname_index, importance_prior, present_slugs
+        )
+
+        if len(slugs) < 2:
+            rows_dropped += 1
+            continue
+
+        rows_with_2plus += 1
+        pairs = _emit_entity_pair_candidates(
+            slugs=slugs,
+            candidate_kind="pass1_events",
+            source_section="Events & Actions",
+            hint_raw=hint_raw,
+            evidence_quote=hint_raw,
+            evidence_context="",
+            chapter_slug=chapter_slug,
+            book_abbrev=book_abbrev,
+            pov_slug=pov_slug,
+            extraction_rel=extraction_rel,
+            run_id=run_id,
+            schema_version=schema_version,
+            produced_at=produced_at,
+            chapter_path=chapter_path,
+            chapter_rel=chapter_rel,
+        )
+        candidates.extend(pairs)
+
+    return candidates, rows_with_2plus, rows_dropped
+
+
+# ---------------------------------------------------------------------------
+# Task 1: Information Revealed candidate generator
+# ---------------------------------------------------------------------------
+
+def generate_info_candidates(
+    info_rows: list[dict],
+    chapter_slug: str,
+    book_abbrev: str,
+    pov_slug: str,
+    extraction_rel: str,
+    alias_map: dict,
+    node_set: set,
+    firstname_index: dict,
+    importance_prior: dict,
+    present_slugs: set,
+    chapter_path: Path,
+    chapter_rel: str,
+    run_id: str,
+    schema_version: str,
+    produced_at: str,
+) -> tuple[list[dict], int, int]:
+    """Generate pass1_info candidate pairs from Information Revealed table rows.
+
+    Scans: Information column + Known To (Characters) column.
+    How Revealed column → evidence_context.
+    Returns (candidates, rows_with_2plus_entities, rows_dropped).
+    """
+    candidates: list[dict] = []
+    rows_with_2plus = 0
+    rows_dropped = 0
+
+    for row in info_rows:
+        # Identify columns by partial key match (headers may vary slightly)
+        info_text = ""
+        known_to = ""
+        how_revealed = ""
+        for k, v in row.items():
+            kl = k.lower()
+            if "information" in kl and not info_text:
+                info_text = v or ""
+            elif "known to" in kl or ("known" in kl and "character" in kl):
+                known_to = v or ""
+            elif "how" in kl:
+                how_revealed = v or ""
+
+        # Scan: info_text + known_to together for entity names
+        combined_scan = f"{info_text} {known_to}"
+        hint_raw = info_text.strip() if info_text.strip() else combined_scan.strip()
+        evidence_context = how_revealed.strip()
+
+        slugs = _scan_text_for_entities(
+            combined_scan, alias_map, node_set, firstname_index, importance_prior, present_slugs
+        )
+
+        if len(slugs) < 2:
+            rows_dropped += 1
+            continue
+
+        rows_with_2plus += 1
+        pairs = _emit_entity_pair_candidates(
+            slugs=slugs,
+            candidate_kind="pass1_info",
+            source_section="Information Revealed",
+            hint_raw=hint_raw,
+            evidence_quote=info_text,
+            evidence_context=evidence_context,
+            chapter_slug=chapter_slug,
+            book_abbrev=book_abbrev,
+            pov_slug=pov_slug,
+            extraction_rel=extraction_rel,
+            run_id=run_id,
+            schema_version=schema_version,
+            produced_at=produced_at,
+            chapter_path=chapter_path,
+            chapter_rel=chapter_rel,
+        )
+        candidates.extend(pairs)
+
+    return candidates, rows_with_2plus, rows_dropped
+
+
+# ---------------------------------------------------------------------------
+# Task 1: Food & Drink candidate generator
+# ---------------------------------------------------------------------------
+
+def generate_food_candidates(
+    food_rows: list[dict],
+    chapter_slug: str,
+    book_abbrev: str,
+    pov_slug: str,
+    extraction_rel: str,
+    alias_map: dict,
+    node_set: set,
+    firstname_index: dict,
+    importance_prior: dict,
+    present_slugs: set,
+    chapter_path: Path,
+    chapter_rel: str,
+    run_id: str,
+    schema_version: str,
+    produced_at: str,
+) -> tuple[list[dict], int, int]:
+    """Generate pass1_food candidate pairs from Food & Drink table rows.
+
+    Primary source: "Who Is Eating/Drinking" column (most entity-rich).
+    Also scans Meal/Occasion column.
+    Returns (candidates, rows_with_2plus_entities, rows_dropped).
+    """
+    candidates: list[dict] = []
+    rows_with_2plus = 0
+    rows_dropped = 0
+
+    for row in food_rows:
+        # Find "Who Is Eating/Drinking" column
+        who_text = ""
+        meal_text = ""
+        for k, v in row.items():
+            kl = k.lower()
+            if _WHO_EATING_PATTERNS.search(kl):
+                who_text = v or ""
+            elif "meal" in kl or "occasion" in kl:
+                meal_text = v or ""
+
+        # Scan the "who" column primarily; fall back to whole row if who is empty
+        scan_text = who_text if who_text.strip() else " ".join(v for v in row.values() if v)
+        # hint_raw = who column (or meal desc as fallback)
+        hint_raw = who_text.strip() if who_text.strip() else meal_text.strip()
+
+        slugs = _scan_text_for_entities(
+            scan_text, alias_map, node_set, firstname_index, importance_prior, present_slugs
+        )
+
+        if len(slugs) < 2:
+            rows_dropped += 1
+            continue
+
+        rows_with_2plus += 1
+        pairs = _emit_entity_pair_candidates(
+            slugs=slugs,
+            candidate_kind="pass1_food",
+            source_section="Food & Drink",
+            hint_raw=hint_raw,
+            evidence_quote=who_text,
+            evidence_context=meal_text,
+            chapter_slug=chapter_slug,
+            book_abbrev=book_abbrev,
+            pov_slug=pov_slug,
+            extraction_rel=extraction_rel,
+            run_id=run_id,
+            schema_version=schema_version,
+            produced_at=produced_at,
+            chapter_path=chapter_path,
+            chapter_rel=chapter_rel,
+        )
+        candidates.extend(pairs)
+
+    return candidates, rows_with_2plus, rows_dropped
+
+
+# ---------------------------------------------------------------------------
+# Task 2: Locator anchoring for Dialogue + Hospitality rows
+# (Events/Info/Food already anchored inside their generators above.)
+# ---------------------------------------------------------------------------
+
+def _anchor_candidate_locator(
+    cand: dict,
+    chapter_path: Path,
+    chapter_rel: str,
+) -> dict:
+    """Attach evidence_ref + locate_status to an existing candidate dict (in-place).
+
+    Uses hint_raw + evidence_quote as the hint text for content-word matching.
+    Only sets fields if they are not already present.
+    Returns the modified candidate.
+    """
+    if "evidence_ref" in cand and cand["evidence_ref"]:
+        return cand  # already anchored
+
+    hint_text = " ".join(filter(None, [
+        cand.get("hint_raw", ""),
+        cand.get("evidence_quote", ""),
+        cand.get("evidence_context", ""),
+        cand.get("evidence_event", ""),
+        cand.get("evidence_type_raw", ""),
+        cand.get("evidence_details", ""),
+    ]))
+
+    source_slug = cand.get("source_slug", "")
+    target_slug = cand.get("target_slug", "")
+
+    if not chapter_path.exists():
+        cand["evidence_ref"] = chapter_rel
+        cand["locate_status"] = "chapter-level"
+        return cand
+
+    loc = locate_evidence_for_candidate(
+        source_slug=source_slug,
+        target_slug=target_slug,
+        hint_text=hint_text,
+        chapter_path=chapter_path,
+        chapter_rel=chapter_rel,
+    )
+    cand["evidence_ref"] = loc["evidence_ref"]
+    cand["locate_status"] = loc["locate_status"]
+    # Update evidence_quote with the located sentence if we found a verbatim match
+    # and the candidate didn't already have a substantive quote.
+    if loc["locate_status"] == "verbatim" and not cand.get("evidence_quote"):
+        cand["evidence_quote"] = loc["evidence_quote"]
+    return cand
+
+
+# ---------------------------------------------------------------------------
 # Main pipeline
 # ---------------------------------------------------------------------------
 def main() -> None:
@@ -743,14 +1336,35 @@ def main() -> None:
     f_rows_seen = 0
     f_multi_named = 0
     f_examples: list[dict] = []
+    f_rows_with_2plus = 0
+    f_rows_dropped = 0
+    f_candidates_emitted = 0
+    f_verbatim = 0
+    f_chapter_level = 0
 
     # Events counters
     ev_rows_seen = 0
     ev_examples: list[str] = []
+    ev_rows_with_2plus = 0
+    ev_rows_dropped = 0
+    ev_candidates_emitted = 0
+    ev_verbatim = 0
+    ev_chapter_level = 0
 
     # Info counters
     i_rows_seen = 0
     i_examples: list[dict] = []
+    i_rows_with_2plus = 0
+    i_rows_dropped = 0
+    i_candidates_emitted = 0
+    i_verbatim = 0
+    i_chapter_level = 0
+
+    # Locator stats for Dialogue + Hospitality (anchored retroactively)
+    d_verbatim = 0
+    d_chapter_level = 0
+    h_verbatim = 0
+    h_chapter_level = 0
 
     # Per-book stats
     book_stats: dict[str, dict] = {b: collections.Counter() for b in BOOKS}
@@ -781,6 +1395,10 @@ def main() -> None:
             pov_slug = "-".join(parts[1:-1]) if len(parts) >= 3 else ""
 
         extraction_rel = str(extraction_path.relative_to(REPO_ROOT))
+
+        # Chapter prose path (for locator anchoring)
+        chapter_path = CHAPTERS_DIR / book_abbrev / f"{chapter_slug}.md"
+        chapter_rel = f"sources/chapters/{book_abbrev}/{chapter_slug}.md"
 
         hosp_rows = parse_hospitality_table(text)
         diag_rows = parse_dialogue_table(text)
@@ -876,6 +1494,12 @@ def main() -> None:
                                 "schema_version": schema_version,
                                 "produced_at": produced_at,
                             }
+                            # Task 2: anchor locator
+                            _anchor_candidate_locator(cand, chapter_path, chapter_rel)
+                            if cand.get("locate_status") == "verbatim":
+                                h_verbatim += 1
+                            else:
+                                h_chapter_level += 1
                             chapter_rows.append(cand)
                             book_stats[book_abbrev]["violation_emitted"] += 1
                         h_violation_rows_detail.append(detail_entry)
@@ -954,6 +1578,12 @@ def main() -> None:
                         "schema_version": schema_version,
                         "produced_at": produced_at,
                     }
+                    # Task 2: anchor locator
+                    _anchor_candidate_locator(cand, chapter_path, chapter_rel)
+                    if cand.get("locate_status") == "verbatim":
+                        h_verbatim += 1
+                    else:
+                        h_chapter_level += 1
                     chapter_rows.append(cand)
 
         # -----------------------------------------------------------------
@@ -1026,10 +1656,16 @@ def main() -> None:
                 "schema_version": schema_version,
                 "produced_at": produced_at,
             }
+            # Task 2: anchor locator
+            _anchor_candidate_locator(cand, chapter_path, chapter_rel)
+            if cand.get("locate_status") == "verbatim":
+                d_verbatim += 1
+            else:
+                d_chapter_level += 1
             chapter_rows.append(cand)
 
         # -----------------------------------------------------------------
-        # 4c. Food & Drink — count only
+        # 4c. Food & Drink — entity-matched candidate pairs (Task 1)
         # -----------------------------------------------------------------
         f_rows_seen += len(food_rows)
         multi = count_food_multi_named(food_rows)
@@ -1045,8 +1681,36 @@ def main() -> None:
                         break
                 f_examples.append({"chapter": chapter_slug, "row": r, "who": who})
 
+        food_cands, food_2plus, food_dropped = generate_food_candidates(
+            food_rows=food_rows,
+            chapter_slug=chapter_slug,
+            book_abbrev=book_abbrev,
+            pov_slug=pov_slug,
+            extraction_rel=extraction_rel,
+            alias_map=alias_to_canonical,
+            node_set=node_slug_set,
+            firstname_index=firstname_index,
+            importance_prior=importance_prior,
+            present_slugs=present_slugs,
+            chapter_path=chapter_path,
+            chapter_rel=chapter_rel,
+            run_id=run_id,
+            schema_version=schema_version,
+            produced_at=produced_at,
+        )
+        f_rows_with_2plus += food_2plus
+        f_rows_dropped += food_dropped
+        f_candidates_emitted += len(food_cands)
+        for c in food_cands:
+            if c.get("locate_status") == "verbatim":
+                f_verbatim += 1
+            else:
+                f_chapter_level += 1
+        chapter_rows.extend(food_cands)
+        book_stats[book_abbrev]["food_candidates"] += len(food_cands)
+
         # -----------------------------------------------------------------
-        # 4d. Events & Actions — count only
+        # 4d. Events & Actions — entity-matched candidate pairs (Task 1)
         # -----------------------------------------------------------------
         ev_rows_seen += len(event_items)
         if len(ev_examples) < 5:
@@ -1055,8 +1719,36 @@ def main() -> None:
                     break
                 ev_examples.append({"chapter": chapter_slug, "text": item})
 
+        events_cands, ev_2plus, ev_dropped = generate_events_candidates(
+            event_items=event_items,
+            chapter_slug=chapter_slug,
+            book_abbrev=book_abbrev,
+            pov_slug=pov_slug,
+            extraction_rel=extraction_rel,
+            alias_map=alias_to_canonical,
+            node_set=node_slug_set,
+            firstname_index=firstname_index,
+            importance_prior=importance_prior,
+            present_slugs=present_slugs,
+            chapter_path=chapter_path,
+            chapter_rel=chapter_rel,
+            run_id=run_id,
+            schema_version=schema_version,
+            produced_at=produced_at,
+        )
+        ev_rows_with_2plus += ev_2plus
+        ev_rows_dropped += ev_dropped
+        ev_candidates_emitted += len(events_cands)
+        for c in events_cands:
+            if c.get("locate_status") == "verbatim":
+                ev_verbatim += 1
+            else:
+                ev_chapter_level += 1
+        chapter_rows.extend(events_cands)
+        book_stats[book_abbrev]["events_candidates"] += len(events_cands)
+
         # -----------------------------------------------------------------
-        # 4e. Information Revealed — count only
+        # 4e. Information Revealed — entity-matched candidate pairs (Task 1)
         # -----------------------------------------------------------------
         i_rows_seen += len(info_rows)
         if len(i_examples) < 5:
@@ -1064,6 +1756,34 @@ def main() -> None:
                 if len(i_examples) >= 5:
                     break
                 i_examples.append({"chapter": chapter_slug, "row": r})
+
+        info_cands, info_2plus, info_dropped = generate_info_candidates(
+            info_rows=info_rows,
+            chapter_slug=chapter_slug,
+            book_abbrev=book_abbrev,
+            pov_slug=pov_slug,
+            extraction_rel=extraction_rel,
+            alias_map=alias_to_canonical,
+            node_set=node_slug_set,
+            firstname_index=firstname_index,
+            importance_prior=importance_prior,
+            present_slugs=present_slugs,
+            chapter_path=chapter_path,
+            chapter_rel=chapter_rel,
+            run_id=run_id,
+            schema_version=schema_version,
+            produced_at=produced_at,
+        )
+        i_rows_with_2plus += info_2plus
+        i_rows_dropped += info_dropped
+        i_candidates_emitted += len(info_cands)
+        for c in info_cands:
+            if c.get("locate_status") == "verbatim":
+                i_verbatim += 1
+            else:
+                i_chapter_level += 1
+        chapter_rows.extend(info_cands)
+        book_stats[book_abbrev]["info_candidates"] += len(info_cands)
 
         # -----------------------------------------------------------------
         # Collect chapter rows
@@ -1077,9 +1797,13 @@ def main() -> None:
     total_hosp_emitted = h_guest_of_emitted + h_violation_emitted
     total_deterministic = h_guest_of_emitted + h_violation_emitted  # both typed
     total_tail = d_tail_emitted
+    total_untyped_new = d_tail_emitted + ev_candidates_emitted + i_candidates_emitted + f_candidates_emitted
 
     # Dialogue LLM cost estimate at S67 observed rate: $0.0068/row
-    tail_cost_estimate = d_tail_emitted * 0.0068
+    tail_cost_estimate = total_untyped_new * 0.0068
+
+    emitted_violations = [r for r in h_violation_rows_detail if r["emitted"]]
+    unemitted_violations = [r for r in h_violation_rows_detail if not r["emitted"]]
 
     print()
     print("=" * 70)
@@ -1096,14 +1820,15 @@ def main() -> None:
     print(f"  Drop (self-edge):              {h_guest_drop_self:>8,}")
     print(f"  GUEST_OF edges emitted:        {h_guest_of_emitted:>8,}  (deterministic, $0)")
     print(f"    of which qualifier=refused:  {h_refusal_emitted:>8,}")
+    h_total_anchored = h_verbatim + h_chapter_level
+    h_verbatim_pct = 100.0 * h_verbatim / h_total_anchored if h_total_anchored else 0.0
+    print(f"  Locator verbatim:              {h_verbatim:>8,}  ({h_verbatim_pct:.1f}% of anchored)")
     print()
     print("  GUEST_OF qualifier distribution:")
     for qual, cnt in sorted(h_qualifier_dist.items(), key=lambda x: -x[1]):
         print(f"    {cnt:>6,}  {qual}")
     print()
     print("  VIOLATES_GUEST_RIGHT candidates (flagged violations, emitted where resolvable):")
-    emitted_violations = [r for r in h_violation_rows_detail if r["emitted"]]
-    unemitted_violations = [r for r in h_violation_rows_detail if not r["emitted"]]
     print(f"    Emitted: {len(emitted_violations):,}  |  Counted-only (unresolved): {len(unemitted_violations):,}")
     if emitted_violations[:5]:
         print("    Notable emitted violations:")
@@ -1116,24 +1841,44 @@ def main() -> None:
     print(f"  Drop (unresolved endpoint):    {d_drop_unresolved:>8,}")
     print(f"  Drop (self-edge):              {d_drop_self:>8,}")
     print(f"  Tail rows emitted (untyped):   {d_tail_emitted:>8,}")
-    print(f"  LLM cost if typed (S67 rate):  ${tail_cost_estimate:>7.2f}  (~${tail_cost_estimate/1:.2f} at $0.0068/row)")
+    d_total = d_verbatim + d_chapter_level
+    d_vb_pct = 100.0 * d_verbatim / d_total if d_total else 0.0
+    print(f"  Locator verbatim:              {d_verbatim:>8,}  ({d_vb_pct:.1f}% of emitted)")
     print()
-    print("--- Food & Drink (counted only) ---")
+    print("--- Food & Drink (Task 1 — entity-matched pairs) ---")
     print(f"  Rows seen:                     {f_rows_seen:>8,}")
-    print(f"  Rows with >=2 named referents: {f_multi_named:>8,}")
+    print(f"  Rows with >=2 named referents: {f_multi_named:>8,}  (heuristic, pre-resolver)")
+    print(f"  Rows with >=2 resolved slugs:  {f_rows_with_2plus:>8,}")
+    print(f"  Rows dropped (<2 resolved):    {f_rows_dropped:>8,}")
+    print(f"  Candidate pairs emitted:       {f_candidates_emitted:>8,}")
+    f_total = f_verbatim + f_chapter_level
+    f_vb_pct = 100.0 * f_verbatim / f_total if f_total else 0.0
+    print(f"  Locator verbatim:              {f_verbatim:>8,}  ({f_vb_pct:.1f}% of emitted)")
     print("  Examples (first 5 rows):")
     for ex in f_examples[:5]:
         who = ex.get("who", "")[:80]
         print(f"    [{ex['chapter']}] who={who!r}")
     print()
-    print("--- Events & Actions (counted only) ---")
+    print("--- Events & Actions (Task 1 — entity-matched pairs) ---")
     print(f"  Numbered items:                {ev_rows_seen:>8,}")
+    print(f"  Items with >=2 resolved slugs: {ev_rows_with_2plus:>8,}")
+    print(f"  Items dropped (<2 resolved):   {ev_rows_dropped:>8,}")
+    print(f"  Candidate pairs emitted:       {ev_candidates_emitted:>8,}")
+    ev_total = ev_verbatim + ev_chapter_level
+    ev_vb_pct = 100.0 * ev_verbatim / ev_total if ev_total else 0.0
+    print(f"  Locator verbatim:              {ev_verbatim:>8,}  ({ev_vb_pct:.1f}% of emitted)")
     print("  Examples (first 5):")
     for ex in ev_examples[:5]:
         print(f"    [{ex['chapter']}] {ex['text'][:100]}")
     print()
-    print("--- Information Revealed (counted only) ---")
+    print("--- Information Revealed (Task 1 — entity-matched pairs) ---")
     print(f"  Rows seen:                     {i_rows_seen:>8,}")
+    print(f"  Rows with >=2 resolved slugs:  {i_rows_with_2plus:>8,}")
+    print(f"  Rows dropped (<2 resolved):    {i_rows_dropped:>8,}")
+    print(f"  Candidate pairs emitted:       {i_candidates_emitted:>8,}")
+    i_total = i_verbatim + i_chapter_level
+    i_vb_pct = 100.0 * i_verbatim / i_total if i_total else 0.0
+    print(f"  Locator verbatim:              {i_verbatim:>8,}  ({i_vb_pct:.1f}% of emitted)")
     print("  Examples (first 5 'How Revealed' values):")
     for ex in i_examples[:5]:
         how = ""
@@ -1145,11 +1890,19 @@ def main() -> None:
     print()
     print("--- Totals ---")
     print(f"  New DETERMINISTIC edges:       {total_deterministic:>8,}  (GUEST_OF + VIOLATES_GUEST_RIGHT)")
-    print(f"  New TAIL rows:                 {total_tail:>8,}  (Dialogue, untyped)")
-    print(f"  Total extra candidates:        {total_deterministic + total_tail:>8,}")
+    print(f"  New TAIL rows — Dialogue:      {d_tail_emitted:>8,}")
+    print(f"  New TAIL rows — Events:        {ev_candidates_emitted:>8,}")
+    print(f"  New TAIL rows — Info:          {i_candidates_emitted:>8,}")
+    print(f"  New TAIL rows — Food:          {f_candidates_emitted:>8,}")
+    print(f"  Total new untyped tail rows:   {total_untyped_new:>8,}")
+    print(f"  Total extra candidates:        {total_deterministic + total_untyped_new:>8,}")
+    print(f"  LLM cost if typed (S67 rate):  ${tail_cost_estimate:>7.2f}")
     print()
 
-    per_book_header = f"{'Book':<6}  {'GUEST_OF':>10}  {'violation':>10}  {'diag_tail':>10}"
+    per_book_header = (
+        f"{'Book':<6}  {'GUEST_OF':>10}  {'violation':>10}  "
+        f"{'diag_tail':>10}  {'events':>8}  {'info':>8}  {'food':>8}"
+    )
     print("Per-book breakdown:")
     print(f"  {per_book_header}")
     for book in BOOKS:
@@ -1159,7 +1912,10 @@ def main() -> None:
         print(
             f"  {book.upper():<6}  {bs.get('guest_of_emitted', 0):>10,}  "
             f"{bs.get('violation_emitted', 0):>10,}  "
-            f"{bs.get('dialogue_tail', 0):>10,}"
+            f"{bs.get('dialogue_tail', 0):>10,}  "
+            f"{bs.get('events_candidates', 0):>8,}  "
+            f"{bs.get('info_candidates', 0):>8,}  "
+            f"{bs.get('food_candidates', 0):>8,}"
         )
     print()
 
@@ -1250,24 +2006,28 @@ def main() -> None:
         f"| Drop (unresolved endpoint) | {d_drop_unresolved:,} |",
         f"| Drop (self-edge) | {d_drop_self:,} |",
         f"| **Tail rows emitted (untyped, Speaker→Listener)** | **{d_tail_emitted:,}** |",
-        f"| LLM cost if typed (S67 rate ≈ $0.0068/row) | ${tail_cost_estimate:.2f} |",
+        f"| Locator verbatim match | {d_verbatim:,} ({d_vb_pct:.1f}%) |",
+        f"| LLM cost if typed (S67 rate ≈ $0.0068/row) | ${d_tail_emitted * 0.0068:.2f} |",
         "",
         "Edge type is NOT deterministic from the Dialogue table — the quote/context",
-        "is the hint for a future LLM tail step. These are NOT $0 edges.",
+        "is the hint for a future LLM tail step. All rows carry evidence_ref.",
         "",
         "---",
         "",
-        "## 3. Food & Drink (counted only — no edges emitted)",
+        "## 3. Food & Drink (Task 1 — entity-matched pairs)",
         "",
         "| Metric | Count |",
         "|--------|-------|",
         f"| Rows seen | {f_rows_seen:,} |",
-        f"| Rows with >=2 named referents (potential co-dining pairs) | {f_multi_named:,} |",
+        f"| Rows with >=2 named referents (heuristic) | {f_multi_named:,} |",
+        f"| Rows with >=2 resolved slugs | {f_rows_with_2plus:,} |",
+        f"| Rows dropped (<2 resolved) | {f_rows_dropped:,} |",
+        f"| **Candidate pairs emitted** | **{f_candidates_emitted:,}** |",
+        f"| Locator verbatim match | {f_verbatim:,} ({f_vb_pct:.1f}%) |",
         "",
-        "The Food & Drink table is high-noise / low-signal for edges. The 'Who Is",
-        "Eating/Drinking' column is free-text and frequently describes groups rather",
-        "than clean named pairs. Recommend deferred to a bounded LLM tail if food",
-        "hospitality edges become a priority.",
+        "The Food & Drink table is medium-noise for edges. The 'Who Is Eating/Drinking'",
+        "column is the primary entity source; group cells (e.g. 'All guests') are",
+        "filtered by the resolver's GENERIC_TERMS stoplist.",
         "",
         "**5 example rows (Who Is Eating/Drinking cell):**",
         "",
@@ -1280,17 +2040,19 @@ def main() -> None:
         "",
         "---",
         "",
-        "## 4. Events & Actions (counted only — prose-shaped)",
+        "## 4. Events & Actions (Task 1 — entity-matched pairs)",
         "",
         "| Metric | Count |",
         "|--------|-------|",
         f"| Numbered items corpus-wide | {ev_rows_seen:,} |",
+        f"| Items with >=2 resolved slugs | {ev_rows_with_2plus:,} |",
+        f"| Items dropped (<2 resolved) | {ev_rows_dropped:,} |",
+        f"| **Candidate pairs emitted** | **{ev_candidates_emitted:,}** |",
+        f"| Locator verbatim match | {ev_verbatim:,} ({ev_vb_pct:.1f}%) |",
         "",
         "Events & Actions is a numbered prose list with actor/action embedded in",
-        "free text. Building a fragile regex to extract actor→target would be noisy.",
-        "Recommendation: feed to a bounded LLM tail (estimated cost at S67 rate:",
-        f"${ev_rows_seen * 0.0068:,.0f} if every item is an edge candidate, likely",
-        "much lower after filtering to items with ≥2 named entities).",
+        "free text. The >=2-entity filter is the primary noise cut. Direction heuristic:",
+        "first-resolved entity = actor/source; subsequent distinct entities = targets.",
         "",
         "**5 representative examples:**",
         "",
@@ -1302,16 +2064,19 @@ def main() -> None:
         "",
         "---",
         "",
-        "## 5. Information Revealed (counted only — table with free-text How Revealed)",
+        "## 5. Information Revealed (Task 1 — entity-matched pairs)",
         "",
         "| Metric | Count |",
         "|--------|-------|",
         f"| Rows seen | {i_rows_seen:,} |",
+        f"| Rows with >=2 resolved slugs | {i_rows_with_2plus:,} |",
+        f"| Rows dropped (<2 resolved) | {i_rows_dropped:,} |",
+        f"| **Candidate pairs emitted** | **{i_candidates_emitted:,}** |",
+        f"| Locator verbatim match | {i_verbatim:,} ({i_vb_pct:.1f}%) |",
         "",
-        "The 'How Revealed' column is free-text prose. The 'Known To (Characters)'",
-        "column names characters but the relationship is 'knows fact X', not a direct",
-        "binary graph edge. Recommendation: defer or feed to LLM with an INFORMED_OF",
-        "edge type if this layer is needed for the knowledge graph.",
+        "The 'Known To (Characters)' column is the primary entity source, combined",
+        "with the Information column. The edge direction is: first entity in reading",
+        "order → subsequent entities (actor = information holder or revealer).",
         "",
         "**5 representative examples (How Revealed column):**",
         "",
@@ -1322,11 +2087,6 @@ def main() -> None:
             if "how" in k:
                 how = v
                 break
-        info_text = ""
-        for k, v in ex["row"].items():
-            if "information" in k or k == "information":
-                info_text = v
-                break
         report_lines.append(f"- `[{ex['chapter']}]` how=*{how[:80]}*")
 
     report_lines += [
@@ -1335,18 +2095,21 @@ def main() -> None:
         "",
         "## Summary",
         "",
-        "| Table | Rows Seen | Deterministic Edges | Tail Rows | Counted Only |",
-        "|-------|-----------|--------------------:|----------:|-------------|",
+        "| Table | Rows Seen | Deterministic Edges | Tail Rows (untyped) | Verbatim% |",
+        "|-------|-----------|--------------------:|--------------------:|----------:|",
         f"| Hospitality & Guest Right | {h_rows_seen:,} | "
-        f"{h_guest_of_emitted + h_violation_emitted:,} (GUEST_OF + VIOLATES) | — | — |",
-        f"| Dialogue of Note | {d_rows_seen:,} | — | {d_tail_emitted:,} | — |",
-        f"| Food & Drink | {f_rows_seen:,} | — | — | {f_rows_seen:,} |",
-        f"| Events & Actions | {ev_rows_seen:,} | — | — | {ev_rows_seen:,} |",
-        f"| Information Revealed | {i_rows_seen:,} | — | — | {i_rows_seen:,} |",
+        f"{h_guest_of_emitted + h_violation_emitted:,} (GUEST_OF + VIOLATES) | — | {h_verbatim_pct:.1f}% |",
+        f"| Dialogue of Note | {d_rows_seen:,} | — | {d_tail_emitted:,} | {d_vb_pct:.1f}% |",
+        f"| Food & Drink | {f_rows_seen:,} | — | {f_candidates_emitted:,} | {f_vb_pct:.1f}% |",
+        f"| Events & Actions | {ev_rows_seen:,} | — | {ev_candidates_emitted:,} | {ev_vb_pct:.1f}% |",
+        f"| Information Revealed | {i_rows_seen:,} | — | {i_candidates_emitted:,} | {i_vb_pct:.1f}% |",
         "",
-        f"**Total new deterministic edges: {total_deterministic:,}** (all GUEST_OF + VIOLATES_GUEST_RIGHT)",
-        f"**Total new tail rows: {total_tail:,}** (Dialogue Speaker→Listener, untyped)",
+        f"**Total new deterministic edges: {total_deterministic:,}** (GUEST_OF + VIOLATES_GUEST_RIGHT)",
+        f"**Total new untyped tail rows: {total_untyped_new:,}** "
+        f"(Dialogue {d_tail_emitted:,} + Events {ev_candidates_emitted:,} + Info {i_candidates_emitted:,} + Food {f_candidates_emitted:,})",
         f"**Tail LLM cost estimate (S67 rate $0.0068/row): ${tail_cost_estimate:.2f}**",
+        "",
+        "All candidates carry `evidence_ref` (sources/chapters/{book}/{chapter}.md:LINE) + `locate_status`.",
         "",
         "Output path: `working/wiki/pass2-buckets/pass1-derived/_extra-tables/{book}/`",
         "",
@@ -1360,10 +2123,17 @@ def main() -> None:
     print(f"  Written: {OUT_REPORT_MD}")
 
     print()
-    print(f"Done. {total_deterministic:,} deterministic + {total_tail:,} tail rows across {files_written:,} chapter files.")
+    print(
+        f"Done. {total_deterministic:,} deterministic + {total_untyped_new:,} untyped tail rows "
+        f"across {files_written:,} chapter files."
+    )
     print(f"  GUEST_OF:             {h_guest_of_emitted:,}")
     print(f"  VIOLATES_GUEST_RIGHT: {h_violation_emitted:,}")
-    print(f"  Dialogue tail:        {d_tail_emitted:,}  (est. ${tail_cost_estimate:.2f} to type at S67 rate)")
+    print(f"  Dialogue tail:        {d_tail_emitted:,}")
+    print(f"  Events tail:          {ev_candidates_emitted:,}")
+    print(f"  Info tail:            {i_candidates_emitted:,}")
+    print(f"  Food tail:            {f_candidates_emitted:,}")
+    print(f"  LLM cost (all untyped, S67 rate): ${tail_cost_estimate:.2f}")
     print(f"  Report: {OUT_REPORT_MD}")
 
 

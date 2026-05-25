@@ -1,7 +1,7 @@
 # Worklog Archive 014
 
 > Archived Session Log entries (oldest-first within this file). Each archive holds 5 entries.
-> Sessions: 63 (more added as later sessions roll off the worklog).
+> Sessions: 63, 64 (more added as later sessions roll off the worklog).
 
 ---
 
@@ -29,3 +29,22 @@
 - F5 (locked-vocab compression) **DEFERRED** — ~$5 savings, not worth 2-4h delay; revisit only if mid-bulk evidence shows it's needed.
 - After Tier 1 completes: Matt decides Option A (full 1077) vs Option B/C-stop based on data + new throughput math.
 - **`/endsession` was explicitly authorized this session.**
+
+---
+
+### Session 64 — Stage 4 Tier-1 bulk launch + dual-run incident (2026-05-22)
+
+**Detail:** `history/session-details/session-064.md`
+
+**Changes made:**
+- Launched Stage 4 Tier-1 (Option C, 222 batches) Haiku bulk via `/tmp/launch-stage4-bulk.sh` (SLEEP=60/CHUNK=5/CONC=4). Archived all prior Haiku output → `working/wiki/pass2-buckets/_archive/haiku-pre-bulk-enrich-2026-05-21/` (89 buckets / 393 edge files: 363 v164 + 30 smoke) + prior mission metrics (results/, run-logs/, run-summary.json, rate-limit-events.jsonl), so the run regenerated under current v163-enriched schema.
+- NEW `working/missions/2026-05-19-stage4-haiku/quality-check-batches-1-11-2026-05-21.md` (interim quality verdict).
+- Ran 60/222 distinct batches before stop: **5,723 edge rows / 201 files, $55.66 Haiku.** No commit yet (711 uncommitted working-tree changes from archive move + new edge files).
+
+**Decisions:** **Quality healthy** — 3.89% validation (under 5% threshold; on par with baselines); ENCOUNTERS verb-gate working (1/2237 vs smoke ~2%); the 44 `bad-evidence-section` were one bucket (`hightower-j-w`) Haiku quirk, edges correct, deterministically backfillable (`source_section`→`evidence_section`). **INCIDENT: duplicate `run-forever` chain launched 04:36 (PID 8471) alongside the 22:58 chain (PID 39197)** — source unknown (not me; wrapper never self-spawns a new wrapper). Re-ran ~26 done batches (~$15-20 waste); double quota burn exhausted the 5h window and hung Chain A's batch-0409 worker ~5h. Soft-stopped: stop file cleaned Chain B (won the delete-race), Chain A's hung worker took graceful SIGTERM (`rc=143`), no data loss. **Confirmed single-stop-file delete-race with concurrent loops** (predicted, observed).
+
+**What's next:**
+- **Resume remaining ~162 batches (Option C positions 61-222), single-chain** + analyzer for the 60 done → continue: `progress/continue-prompts/2026-05-22-stage4-bulk-resume-and-guard.md` (**Sonnet 4.6**; Opus only for the analyzer/incident debug).
+- Build **single-instance guard** in `run-forever.sh` (PID/lockfile + fix stop-file delete-race) BEFORE relaunch.
+- Build `evidence_section` deterministic backfill; add `output_files` to Haiku results JSON.
+- **`/endsession` explicitly authorized this session.**

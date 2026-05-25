@@ -18,9 +18,14 @@ Architecture:
   - Accepted edges are written in the EXACT same schema as the deterministic
     edges (pass1-derived/{book}/*.edges.jsonl) with typed_by="sonnet".
 
-Input:
+Input (default):
   working/wiki/pass2-buckets/pass1-derived/_tail/{book}/*.tail.jsonl
   (books: agot acok asos affc adwd)
+
+Input (--input-dir):
+  Any directory tree of JSONL files containing candidate rows with edge_type==null.
+  Filtered by --candidate-kinds if specified (comma-separated list of candidate_kind
+  values, e.g. pass1_dialogue,pass1_events,pass1_info,pass1_food).
 
 Output (--apply only):
   working/wiki/pass2-buckets/pass1-derived/_tail-typed/{book}/*.edges.jsonl
@@ -38,6 +43,11 @@ Usage:
   python3 scripts/stage4-tail-classifier.py --apply --skip-existing
   python3 scripts/stage4-tail-classifier.py --apply --model claude-haiku-4-5
   python3 scripts/stage4-tail-classifier.py --dry-run --chunk-size 20
+  # Extra-tables smoke run (stratified 200-row sample):
+  python3 scripts/stage4-tail-classifier.py --dry-run \\
+      --input-dir working/wiki/pass2-buckets/pass1-derived/_extra-tables \\
+      --candidate-kinds pass1_dialogue,pass1_events,pass1_info,pass1_food \\
+      --sample-n 200
 """
 
 from __future__ import annotations
@@ -45,10 +55,12 @@ from __future__ import annotations
 import argparse
 import importlib.util
 import json
+import random
 import re
 import subprocess
 import sys
 import time
+from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Optional
@@ -58,6 +70,7 @@ from typing import Optional
 # ---------------------------------------------------------------------------
 REPO = Path(__file__).resolve().parent.parent
 TAIL_DIR = REPO / "working/wiki/pass2-buckets/pass1-derived/_tail"
+EXTRA_TABLES_DIR = REPO / "working/wiki/pass2-buckets/pass1-derived/_extra-tables"
 OUT_BASE = REPO / "working/wiki/pass2-buckets/pass1-derived/_tail-typed"
 OUT_NEEDS_QUAL_DIR = REPO / "working/wiki/pass2-buckets/pass1-derived/_tail-needs-qualifier"
 ARCH_MD = REPO / "reference/architecture.md"
@@ -197,11 +210,23 @@ RULES:
 3. Use EXACTLY the spelling from the locked vocab list. No variations, no prose.
 4. REJECT if hint+evidence does not clearly support any vocab type.
 5. Direction is FIXED: edge runs source → target (do NOT reverse).
-6. Tier-1 types (REQUIRE qualifier field): SIBLING_OF, SPOUSE_OF, PARENT_OF, WARD_OF,\
+6. Rule 6: ENCOUNTERS requires explicit staging verb — NEVER emit for co-presence.
+   ENCOUNTERS records a plot-significant face-to-face meeting anchored by EXPLICIT PROSE STAGING.
+   It is NOT a fallback for two entities appearing in the same scene, battle, court, or passage.
+   - Use ENCOUNTERS ONLY when the hint or evidence_quote contains a past-tense staging verb
+     from this whitelist: met, meets, meeting, came face to face, confronted, encountered.
+   - The infinitive "to meet" is NOT a staging verb — it expresses intent, not a consummated
+     encounter. If you see only "to meet" or "planned to meet": REJECT or pick another type.
+   - If no whitelisted staging verb is present: ENCOUNTERS is IMPOSSIBLE — pick a different
+     type or REJECT. Do not argue around the absence.
+   - Even if a staging verb is present, verify it actually stages a meeting between the
+     specific source and target in this row (not between two other characters in the passage).
+   - ENCOUNTERS also requires both source AND target to be characters, never places/events/objects.
+7. Tier-1 types (REQUIRE qualifier field): SIBLING_OF, SPOUSE_OF, PARENT_OF, WARD_OF,\
  HOLDS_TITLE, VOWS_TO, MANIPULATES, SWORN_TO
    - For Tier-1, qualifier MUST be from the documented enum (see below).
    - For all other types, omit qualifier entirely.
-7. No prose explanation. JSON array only.
+8. No prose explanation. JSON array only.
 
 TIER-1 QUALIFIER ENUMS (required when using these types):
   SIBLING_OF: full | half | step | milk | unknown
@@ -605,6 +630,119 @@ def load_tail_rows(
 
 
 # ---------------------------------------------------------------------------
+# Load from _extra-tables/ directory (Task 3)
+# ---------------------------------------------------------------------------
+
+def load_extra_tables_rows(
+    input_dir: Path,
+    books: list[str],
+    candidate_kinds: list[str] | None = None,
+) -> list[dict]:
+    """Load untyped candidate rows from an _extra-tables/-style directory.
+
+    Reads all *.extra-tables.jsonl files under input_dir/{book}/.
+    Filters to rows where edge_type is None (untyped candidates).
+    If candidate_kinds is non-empty, further filters to matching candidate_kind values.
+
+    Each row is augmented with '_tail_book' and '_tail_file' for consistency
+    with the existing load_tail_rows() schema.
+
+    Returns list of row dicts.
+    """
+    rows: list[dict] = []
+    kinds_set: set[str] | None = set(candidate_kinds) if candidate_kinds else None
+
+    for book in books:
+        book_dir = input_dir / book
+        if not book_dir.exists():
+            continue
+        for jsonl_file in sorted(book_dir.glob("*.extra-tables.jsonl")):
+            for line in jsonl_file.read_text(encoding="utf-8", errors="replace").splitlines():
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    row = json.loads(line)
+                except json.JSONDecodeError as exc:
+                    print(f"  WARNING: JSON parse error in {jsonl_file}: {exc}", file=sys.stderr)
+                    continue
+                # Only include untyped candidates (edge_type is null/None)
+                if row.get("edge_type") is not None:
+                    continue
+                # Filter by candidate_kinds if specified
+                if kinds_set is not None:
+                    if row.get("candidate_kind") not in kinds_set:
+                        continue
+                row["_tail_book"] = book
+                try:
+                    row["_tail_file"] = str(jsonl_file.relative_to(REPO))
+                except ValueError:
+                    row["_tail_file"] = str(jsonl_file)
+                # Normalize field names for the classifier prompt:
+                # extra-tables rows use evidence_chapter directly (same as tail rows)
+                rows.append(row)
+
+    return rows
+
+
+def stratified_sample(
+    rows: list[dict],
+    n: int,
+    strat_keys: tuple[str, ...] = ("_tail_book", "candidate_kind"),
+    seed: int = 42,
+) -> list[dict]:
+    """Return a stratified random sample of at most n rows.
+
+    Stratification is by the combination of strat_keys (e.g. book + candidate_kind).
+    Allocation is proportional: each stratum gets floor(n * stratum_size / total) rows,
+    with remainders filled by the largest strata until n is reached.
+
+    If total rows <= n, returns all rows (shuffled).
+    """
+    if len(rows) <= n:
+        rng = random.Random(seed)
+        result = list(rows)
+        rng.shuffle(result)
+        return result
+
+    rng = random.Random(seed)
+
+    # Group rows by stratum key
+    strata: dict[tuple, list[dict]] = defaultdict(list)
+    for row in rows:
+        key = tuple(row.get(k, "") for k in strat_keys)
+        strata[key].append(row)
+
+    total = len(rows)
+    # Compute allocation per stratum
+    allocations: dict[tuple, int] = {}
+    remainders: list[tuple[float, tuple]] = []
+    allocated_total = 0
+    for key, stratum_rows in strata.items():
+        exact = n * len(stratum_rows) / total
+        floor_val = int(exact)
+        allocations[key] = floor_val
+        allocated_total += floor_val
+        remainders.append((exact - floor_val, key))
+
+    # Distribute remaining slots to strata with largest fractional parts
+    remainder_needed = n - allocated_total
+    remainders.sort(key=lambda x: -x[0])
+    for i in range(remainder_needed):
+        allocations[remainders[i][1]] += 1
+
+    # Sample from each stratum
+    result: list[dict] = []
+    for key, count in allocations.items():
+        stratum = list(strata[key])
+        rng.shuffle(stratum)
+        result.extend(stratum[:count])
+
+    rng.shuffle(result)
+    return result
+
+
+# ---------------------------------------------------------------------------
 # Load already-typed keys (for --skip-existing)
 # ---------------------------------------------------------------------------
 
@@ -864,7 +1002,39 @@ def parse_args() -> argparse.Namespace:
         type=int,
         default=None,
         metavar="N",
-        help="Process only first N tail rows across all books",
+        help="Process only first N tail rows across all books (sequential, not stratified)",
+    )
+    parser.add_argument(
+        "--sample-n",
+        type=int,
+        default=None,
+        metavar="N",
+        help=(
+            "Select a stratified random sample of N rows (across books AND candidate_kinds) "
+            "before classifying. Use this for smoke runs over --input-dir, e.g. --sample-n 200. "
+            "Mutually exclusive with --smoke in effect (if both given, --sample-n runs first)."
+        ),
+    )
+    parser.add_argument(
+        "--input-dir",
+        default=None,
+        metavar="DIR",
+        help=(
+            "Read candidate rows from this directory tree instead of the default _tail/ dir. "
+            "Expected layout: DIR/{book}/*.jsonl. "
+            "Only rows with edge_type==null are loaded. "
+            f"Default: {TAIL_DIR.relative_to(REPO)}"
+        ),
+    )
+    parser.add_argument(
+        "--candidate-kinds",
+        default=None,
+        metavar="KINDS",
+        help=(
+            "Comma-separated list of candidate_kind values to include when reading from "
+            "--input-dir (e.g. pass1_dialogue,pass1_events,pass1_info,pass1_food). "
+            "If omitted, all untyped rows from --input-dir are included."
+        ),
     )
     parser.add_argument(
         "--model",
@@ -884,6 +1054,17 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Skip rows whose (source, target, chapter) is already in _tail-typed/",
     )
+    parser.add_argument(
+        "--output-dir",
+        default=None,
+        metavar="DIR",
+        help=(
+            "Write typed edges / rejected / classify_failed / run-summary to this dir "
+            "instead of the canonical _tail-typed/. needs-qualifier rows go to "
+            "DIR/_needs-qualifier/. Use this for SMOKE runs so they never touch the "
+            f"canonical typed-tail set. Default: {OUT_BASE.relative_to(REPO)}"
+        ),
+    )
     return parser.parse_args()
 
 
@@ -897,6 +1078,15 @@ def main() -> int:
     # Bare invocation = dry-run
     apply = args.apply
 
+    # --output-dir: redirect ALL writes away from the canonical _tail-typed/.
+    # Reassign module globals; write_output_rows + run-summary + mkdir look these
+    # up at call time, so this covers every write path. Used for smoke runs.
+    global OUT_BASE, OUT_NEEDS_QUAL_DIR
+    if args.output_dir:
+        OUT_BASE = Path(args.output_dir).resolve()
+        OUT_NEEDS_QUAL_DIR = OUT_BASE / "_needs-qualifier"
+        print(f"  Output dir: {OUT_BASE} (redirected from canonical _tail-typed/)")
+
     print("Weirwood Network — Stage 4 Tail Classifier")
     print(f"  Model:      {args.model}")
     print(f"  Chunk size: {args.chunk_size}")
@@ -904,7 +1094,13 @@ def main() -> int:
     if args.book:
         print(f"  Book:       {args.book}")
     if args.smoke is not None:
-        print(f"  Smoke:      {args.smoke} rows")
+        print(f"  Smoke:      {args.smoke} rows (sequential)")
+    if args.sample_n is not None:
+        print(f"  Sample-N:   {args.sample_n} rows (stratified)")
+    if args.input_dir:
+        print(f"  Input dir:  {args.input_dir}")
+    if args.candidate_kinds:
+        print(f"  Kinds:      {args.candidate_kinds}")
     print()
 
     # Load vocab
@@ -922,11 +1118,34 @@ def main() -> int:
     print(f"  {len(_CACHED_DISPLAY_NAMES)} slug → display name entries")
     print()
 
-    # Load tail rows
+    # Load tail rows — from default _tail/ or from --input-dir
     books = [args.book] if args.book else BOOKS
-    print(f"Loading tail rows from {TAIL_DIR} ...")
-    all_rows = load_tail_rows(books, smoke=args.smoke)
-    print(f"  {len(all_rows)} rows loaded")
+
+    if args.input_dir:
+        input_dir = Path(args.input_dir)
+        candidate_kinds = (
+            [k.strip() for k in args.candidate_kinds.split(",") if k.strip()]
+            if args.candidate_kinds
+            else None
+        )
+        print(f"Loading extra-tables rows from {input_dir} ...")
+        all_rows = load_extra_tables_rows(input_dir, books, candidate_kinds=candidate_kinds)
+        print(f"  {len(all_rows)} untyped rows loaded")
+    else:
+        print(f"Loading tail rows from {TAIL_DIR} ...")
+        all_rows = load_tail_rows(books, smoke=args.smoke)
+        print(f"  {len(all_rows)} rows loaded")
+
+    # --sample-n: stratified sample (runs before --smoke sequential truncation)
+    if args.sample_n is not None and len(all_rows) > args.sample_n:
+        print(f"Stratified sampling: {args.sample_n} rows from {len(all_rows)} ...")
+        all_rows = stratified_sample(all_rows, args.sample_n)
+        print(f"  {len(all_rows)} rows after stratified sample")
+
+    # --smoke (sequential truncation, for backward compat with existing usage)
+    if args.smoke is not None and args.input_dir is None:
+        # Already handled by load_tail_rows; no-op here
+        pass
 
     # Skip-existing filter
     if args.skip_existing and all_rows:
@@ -1061,9 +1280,14 @@ def main() -> int:
     print(f"  needs_qualifier:   {total_needs_qualifier}")
     print(f"  conform_violations:{total_conform_violations}")
     print(f"  total_cost_usd:    ${total_cost_usd:.4f}")
-    print(f"  output dir:        {OUT_BASE.relative_to(REPO)}")
-    print(f"  needs-qual dir:    {OUT_NEEDS_QUAL_DIR.relative_to(REPO)}")
-    print(f"  run summary:       {summary_path.relative_to(REPO)}")
+    def _rel(p: Path) -> str:
+        try:
+            return str(p.relative_to(REPO))
+        except ValueError:
+            return str(p)
+    print(f"  output dir:        {_rel(OUT_BASE)}")
+    print(f"  needs-qual dir:    {_rel(OUT_NEEDS_QUAL_DIR)}")
+    print(f"  run summary:       {_rel(summary_path)}")
 
     return 0
 

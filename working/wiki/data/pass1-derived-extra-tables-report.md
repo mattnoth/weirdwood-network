@@ -1,7 +1,7 @@
 # Pass-1-Derived Extra Tables: Recall Headroom Report
 
-> Generated: 2026-05-23T15:48:37+00:00  
-> run_id: pass1-extra-tables-20260523  
+> Generated: 2026-05-25T01:07:31+00:00  
+> run_id: pass1-extra-tables-20260525  
 > schema_version: pass1-extra-tables-v1  
 
 This report answers: **how much recall headroom do the extra Pass 1 tables add**
@@ -123,24 +123,28 @@ Sections: Hospitality & Guest Right | Dialogue of Note | Food & Drink | Events &
 | Drop (unresolved endpoint) | 1,617 |
 | Drop (self-edge) | 0 |
 | **Tail rows emitted (untyped, Speaker→Listener)** | **4,422** |
+| Locator verbatim match | 4,416 (99.9%) |
 | LLM cost if typed (S67 rate ≈ $0.0068/row) | $30.07 |
 
 Edge type is NOT deterministic from the Dialogue table — the quote/context
-is the hint for a future LLM tail step. These are NOT $0 edges.
+is the hint for a future LLM tail step. All rows carry evidence_ref.
 
 ---
 
-## 3. Food & Drink (counted only — no edges emitted)
+## 3. Food & Drink (Task 1 — entity-matched pairs)
 
 | Metric | Count |
 |--------|-------|
 | Rows seen | 1,263 |
-| Rows with >=2 named referents (potential co-dining pairs) | 314 |
+| Rows with >=2 named referents (heuristic) | 314 |
+| Rows with >=2 resolved slugs | 447 |
+| Rows dropped (<2 resolved) | 816 |
+| **Candidate pairs emitted** | **798** |
+| Locator verbatim match | 798 (100.0%) |
 
-The Food & Drink table is high-noise / low-signal for edges. The 'Who Is
-Eating/Drinking' column is free-text and frequently describes groups rather
-than clean named pairs. Recommend deferred to a bounded LLM tail if food
-hospitality edges become a priority.
+The Food & Drink table is medium-noise for edges. The 'Who Is Eating/Drinking'
+column is the primary entity source; group cells (e.g. 'All guests') are
+filtered by the resolver's GENERIC_TERMS stoplist.
 
 **5 example rows (Who Is Eating/Drinking cell):**
 
@@ -152,17 +156,19 @@ hospitality edges become a priority.
 
 ---
 
-## 4. Events & Actions (counted only — prose-shaped)
+## 4. Events & Actions (Task 1 — entity-matched pairs)
 
 | Metric | Count |
 |--------|-------|
 | Numbered items corpus-wide | 8,384 |
+| Items with >=2 resolved slugs | 7,128 |
+| Items dropped (<2 resolved) | 1,256 |
+| **Candidate pairs emitted** | **20,321** |
+| Locator verbatim match | 20,121 (99.0%) |
 
 Events & Actions is a numbered prose list with actor/action embedded in
-free text. Building a fragile regex to extract actor→target would be noisy.
-Recommendation: feed to a bounded LLM tail (estimated cost at S67 rate:
-$57 if every item is an edge candidate, likely
-much lower after filtering to items with ≥2 named entities).
+free text. The >=2-entity filter is the primary noise cut. Direction heuristic:
+first-resolved entity = actor/source; subsequent distinct entities = targets.
 
 **5 representative examples:**
 
@@ -174,16 +180,19 @@ much lower after filtering to items with ≥2 named entities).
 
 ---
 
-## 5. Information Revealed (counted only — table with free-text How Revealed)
+## 5. Information Revealed (Task 1 — entity-matched pairs)
 
 | Metric | Count |
 |--------|-------|
 | Rows seen | 5,654 |
+| Rows with >=2 resolved slugs | 3,701 |
+| Rows dropped (<2 resolved) | 1,953 |
+| **Candidate pairs emitted** | **6,653** |
+| Locator verbatim match | 6,652 (100.0%) |
 
-The 'How Revealed' column is free-text prose. The 'Known To (Characters)'
-column names characters but the relationship is 'knows fact X', not a direct
-binary graph edge. Recommendation: defer or feed to LLM with an INFORMED_OF
-edge type if this layer is needed for the knowledge graph.
+The 'Known To (Characters)' column is the primary entity source, combined
+with the Information column. The edge direction is: first entity in reading
+order → subsequent entities (actor = information holder or revealer).
 
 **5 representative examples (How Revealed column):**
 
@@ -197,20 +206,22 @@ edge type if this layer is needed for the knowledge graph.
 
 ## Summary
 
-| Table | Rows Seen | Deterministic Edges | Tail Rows | Counted Only |
-|-------|-----------|--------------------:|----------:|-------------|
-| Hospitality & Guest Right | 627 | 529 (GUEST_OF + VIOLATES) | — | — |
-| Dialogue of Note | 6,317 | — | 4,422 | — |
-| Food & Drink | 1,263 | — | — | 1,263 |
-| Events & Actions | 8,384 | — | — | 8,384 |
-| Information Revealed | 5,654 | — | — | 5,654 |
+| Table | Rows Seen | Deterministic Edges | Tail Rows (untyped) | Verbatim% |
+|-------|-----------|--------------------:|--------------------:|----------:|
+| Hospitality & Guest Right | 627 | 529 (GUEST_OF + VIOLATES) | — | 99.4% |
+| Dialogue of Note | 6,317 | — | 4,422 | 99.9% |
+| Food & Drink | 1,263 | — | 798 | 100.0% |
+| Events & Actions | 8,384 | — | 20,321 | 99.0% |
+| Information Revealed | 5,654 | — | 6,653 | 100.0% |
 
-**Total new deterministic edges: 529** (all GUEST_OF + VIOLATES_GUEST_RIGHT)
-**Total new tail rows: 4,422** (Dialogue Speaker→Listener, untyped)
-**Tail LLM cost estimate (S67 rate $0.0068/row): $30.07**
+**Total new deterministic edges: 529** (GUEST_OF + VIOLATES_GUEST_RIGHT)
+**Total new untyped tail rows: 32,194** (Dialogue 4,422 + Events 20,321 + Info 6,653 + Food 798)
+**Tail LLM cost estimate (S67 rate $0.0068/row): $218.92**
+
+All candidates carry `evidence_ref` (sources/chapters/{book}/{chapter}.md:LINE) + `locate_status`.
 
 Output path: `working/wiki/pass2-buckets/pass1-derived/_extra-tables/{book}/`
 
 ---
 
-> Generated by `scripts/stage4-pass1-extra-tables.py` on 2026-05-23T15:48:37+00:00
+> Generated by `scripts/stage4-pass1-extra-tables.py` on 2026-05-25T01:07:31+00:00
