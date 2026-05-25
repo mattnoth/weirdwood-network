@@ -86,7 +86,7 @@ This is your project memory. When you come back after a break, read Current Stat
 - [ ] Trigger table v1
 - [ ] Entity index
 - [ ] Chapter index
-- [ ] Graph edges formalized
+- [x] Graph edges formalized — **v1 LANDED** (`graph/edges/edges.jsonl`, 3,842 cited Pass-1-derived edges, ~78% strict precision, all `evidence_ref`-carrying; Session 70, 2026-05-25). Haiku Events+Dialogue enrichment = v2 (in progress). See `graph/edges/README.md`.
 - [ ] Convergence maps
 
 ### Reference Materials

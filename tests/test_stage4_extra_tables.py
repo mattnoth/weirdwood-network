@@ -807,7 +807,7 @@ class TestGenerateEventsCandidates(unittest.TestCase):
         chapter_path, chapter_rel = self._make_chapter_file(
             "---\nfrontmatter: yes\n---\nArya and Jon Snow spoke together in the yard.\n"
         )
-        cands, rows_2plus, rows_dropped = generate_events_candidates(
+        cands, rows_2plus, rows_dropped, rows_escalated, escals = generate_events_candidates(
             event_items=items,
             **_gen_kwargs(chapter_path, chapter_rel),
         )
@@ -820,7 +820,7 @@ class TestGenerateEventsCandidates(unittest.TestCase):
         chapter_path, chapter_rel = self._make_chapter_file(
             "---\nfoo: bar\n---\nRobb and Catelyn planned.\n"
         )
-        cands, _, _ = generate_events_candidates(
+        cands, _, _, _, _ = generate_events_candidates(
             event_items=items,
             **_gen_kwargs(chapter_path, chapter_rel),
         )
@@ -832,7 +832,7 @@ class TestGenerateEventsCandidates(unittest.TestCase):
         chapter_path, chapter_rel = self._make_chapter_file(
             "---\nfoo: bar\n---\nEddard and Robb rode north.\n"
         )
-        cands, _, _ = generate_events_candidates(
+        cands, _, _, _, _ = generate_events_candidates(
             event_items=items,
             **_gen_kwargs(chapter_path, chapter_rel),
         )
@@ -845,7 +845,7 @@ class TestGenerateEventsCandidates(unittest.TestCase):
         chapter_path, chapter_rel = self._make_chapter_file(
             "---\nfoo: bar\n---\nSome unnamed person walked by.\n"
         )
-        cands, rows_2plus, rows_dropped = generate_events_candidates(
+        cands, rows_2plus, rows_dropped, rows_escalated, escals = generate_events_candidates(
             event_items=items,
             **_gen_kwargs(chapter_path, chapter_rel),
         )
@@ -859,7 +859,7 @@ class TestGenerateEventsCandidates(unittest.TestCase):
         chapter_path, chapter_rel = self._make_chapter_file(
             "---\nfoo: bar\n---\nArya and Jon Snow sparred in the yard.\n"
         )
-        cands, _, _ = generate_events_candidates(
+        cands, _, _, _, _ = generate_events_candidates(
             event_items=items,
             **_gen_kwargs(chapter_path, chapter_rel),
         )
@@ -872,7 +872,7 @@ class TestGenerateEventsCandidates(unittest.TestCase):
         chapter_path, chapter_rel = self._make_chapter_file(
             "---\nfoo: bar\n---\nEddard Stark and Catelyn Stark and Robb Stark met.\n"
         )
-        cands, _, _ = generate_events_candidates(
+        cands, _, _, _, _ = generate_events_candidates(
             event_items=items,
             **_gen_kwargs(chapter_path, chapter_rel),
         )
@@ -887,7 +887,7 @@ class TestGenerateEventsCandidates(unittest.TestCase):
         chapter_path, chapter_rel = self._make_chapter_file(
             "---\nfoo: bar\n---\nArya and Jon Snow sparred.\n"
         )
-        cands, _, _ = generate_events_candidates(
+        cands, _, _, _, _ = generate_events_candidates(
             event_items=items,
             **_gen_kwargs(chapter_path, chapter_rel),
         )
@@ -901,7 +901,7 @@ class TestGenerateEventsCandidates(unittest.TestCase):
         chapter_path, chapter_rel = self._make_chapter_file(
             "---\nfoo: bar\n---\nArya and Jon Snow sparred in the yard.\n"
         )
-        cands, _, _ = generate_events_candidates(
+        cands, _, _, _, _ = generate_events_candidates(
             event_items=items,
             **_gen_kwargs(chapter_path, chapter_rel),
         )
@@ -934,7 +934,7 @@ class TestGenerateInfoCandidates(unittest.TestCase):
         chapter_path, chapter_rel = self._make_chapter_file(
             "---\nfoo: bar\n---\nArya is Lord Stark's daughter.\n"
         )
-        cands, rows_2plus, rows_dropped = generate_info_candidates(
+        cands, rows_2plus, rows_dropped, rows_escalated, escals = generate_info_candidates(
             info_rows=info_rows,
             **_gen_kwargs(chapter_path, chapter_rel),
         )
@@ -953,7 +953,7 @@ class TestGenerateInfoCandidates(unittest.TestCase):
         chapter_path, chapter_rel = self._make_chapter_file(
             "---\nfoo: bar\n---\nSansa and Tyrion are wed.\n"
         )
-        cands, _, _ = generate_info_candidates(
+        cands, _, _, _, _ = generate_info_candidates(
             info_rows=info_rows,
             **_gen_kwargs(chapter_path, chapter_rel),
         )
@@ -967,7 +967,7 @@ class TestGenerateInfoCandidates(unittest.TestCase):
         chapter_path, chapter_rel = self._make_chapter_file(
             "---\nfoo: bar\n---\nArya and Jon trained.\n"
         )
-        cands, _, _ = generate_info_candidates(
+        cands, _, _, _, _ = generate_info_candidates(
             info_rows=info_rows,
             **_gen_kwargs(chapter_path, chapter_rel),
         )
@@ -981,7 +981,7 @@ class TestGenerateInfoCandidates(unittest.TestCase):
         chapter_path, chapter_rel = self._make_chapter_file(
             "---\nfoo: bar\n---\nThe keep is old.\n"
         )
-        cands, rows_2plus, rows_dropped = generate_info_candidates(
+        cands, rows_2plus, rows_dropped, rows_escalated, escals = generate_info_candidates(
             info_rows=info_rows,
             **_gen_kwargs(chapter_path, chapter_rel),
         )
@@ -996,7 +996,7 @@ class TestGenerateInfoCandidates(unittest.TestCase):
         chapter_path, chapter_rel = self._make_chapter_file(
             "---\nfoo: bar\n---\nArya and Jon trained.\n"
         )
-        cands, _, _ = generate_info_candidates(
+        cands, _, _, _, _ = generate_info_candidates(
             info_rows=info_rows,
             **_gen_kwargs(chapter_path, chapter_rel),
         )
@@ -1031,7 +1031,7 @@ class TestGenerateFoodCandidates(unittest.TestCase):
         chapter_path, chapter_rel = self._make_chapter_file(
             "---\nfoo: bar\n---\nArya and Jon Snow ate breakfast.\n"
         )
-        cands, rows_2plus, rows_dropped = generate_food_candidates(
+        cands, rows_2plus, rows_dropped, rows_escalated, escals = generate_food_candidates(
             food_rows=food_rows,
             **_gen_kwargs(chapter_path, chapter_rel),
         )
@@ -1046,7 +1046,7 @@ class TestGenerateFoodCandidates(unittest.TestCase):
         chapter_path, chapter_rel = self._make_chapter_file(
             "---\nfoo: bar\n---\nRobb and Catelyn feasted.\n"
         )
-        cands, _, _ = generate_food_candidates(
+        cands, _, _, _, _ = generate_food_candidates(
             food_rows=food_rows,
             **_gen_kwargs(chapter_path, chapter_rel),
         )
@@ -1058,7 +1058,7 @@ class TestGenerateFoodCandidates(unittest.TestCase):
         chapter_path, chapter_rel = self._make_chapter_file(
             "---\nfoo: bar\n---\nArya and Sansa ate supper.\n"
         )
-        cands, _, _ = generate_food_candidates(
+        cands, _, _, _, _ = generate_food_candidates(
             food_rows=food_rows,
             **_gen_kwargs(chapter_path, chapter_rel),
         )
@@ -1070,7 +1070,7 @@ class TestGenerateFoodCandidates(unittest.TestCase):
         chapter_path, chapter_rel = self._make_chapter_file(
             "---\nfoo: bar\n---\nA guard snacked.\n"
         )
-        cands, rows_2plus, rows_dropped = generate_food_candidates(
+        cands, rows_2plus, rows_dropped, rows_escalated, escals = generate_food_candidates(
             food_rows=food_rows,
             **_gen_kwargs(chapter_path, chapter_rel),
         )
@@ -1082,7 +1082,7 @@ class TestGenerateFoodCandidates(unittest.TestCase):
         chapter_path, chapter_rel = self._make_chapter_file(
             "---\nfoo: bar\n---\nCatelyn and Robb feasted.\n"
         )
-        cands, _, _ = generate_food_candidates(
+        cands, _, _, _, _ = generate_food_candidates(
             food_rows=food_rows,
             **_gen_kwargs(chapter_path, chapter_rel),
         )
@@ -1216,6 +1216,307 @@ class TestAnchorCandidateLocator(unittest.TestCase):
         cand["evidence_ref"] = "already/set.md:99"
         _anchor_candidate_locator(cand, chapter_path, "sources/chapters/agot/agot-bran-01.md")
         self.assertEqual(cand["evidence_ref"], "already/set.md:99")
+
+
+# ---------------------------------------------------------------------------
+# Tests: Fix 2 — is_low_quality_endpoint + _has_passive_voice
+# ---------------------------------------------------------------------------
+
+# Import the new functions
+is_low_quality_endpoint = extra_mod.is_low_quality_endpoint
+_has_passive_voice = extra_mod._has_passive_voice
+
+
+class TestIsLowQualityEndpoint(unittest.TestCase):
+    """is_low_quality_endpoint must gate bare titles, aliases, demonyms, toasts."""
+
+    # --- Bare titles ---
+    def test_bare_ser_is_low_quality(self):
+        self.assertTrue(is_low_quality_endpoint("ser"))
+
+    def test_bare_lord_is_low_quality(self):
+        self.assertTrue(is_low_quality_endpoint("lord"))
+
+    def test_bare_king_is_low_quality(self):
+        self.assertTrue(is_low_quality_endpoint("king"))
+
+    def test_bare_maester_is_low_quality(self):
+        self.assertTrue(is_low_quality_endpoint("maester"))
+
+    def test_bare_queen_is_low_quality(self):
+        self.assertTrue(is_low_quality_endpoint("queen"))
+
+    def test_bare_septon_is_low_quality(self):
+        self.assertTrue(is_low_quality_endpoint("septon"))
+
+    def test_bare_septa_is_low_quality(self):
+        self.assertTrue(is_low_quality_endpoint("septa"))
+
+    # --- Real character slugs are NOT low quality ---
+    def test_eddard_stark_not_low_quality(self):
+        self.assertFalse(is_low_quality_endpoint("eddard-stark"))
+
+    def test_tyrion_lannister_not_low_quality(self):
+        self.assertFalse(is_low_quality_endpoint("tyrion-lannister"))
+
+    def test_arya_stark_not_low_quality(self):
+        self.assertFalse(is_low_quality_endpoint("arya-stark"))
+
+    def test_jon_snow_not_low_quality(self):
+        self.assertFalse(is_low_quality_endpoint("jon-snow"))
+
+    # --- Known aliases ---
+    def test_alayne_is_low_quality(self):
+        """alayne (Sansa alias) must route to escalation."""
+        self.assertTrue(is_low_quality_endpoint("alayne"))
+
+    def test_alayne_stone_is_low_quality(self):
+        self.assertTrue(is_low_quality_endpoint("alayne-stone"))
+
+    def test_arry_is_low_quality(self):
+        self.assertTrue(is_low_quality_endpoint("arry"))
+
+    def test_no_one_is_low_quality(self):
+        self.assertTrue(is_low_quality_endpoint("no-one"))
+
+    # --- Demonyms ---
+    def test_dothraki_is_low_quality(self):
+        self.assertTrue(is_low_quality_endpoint("dothraki"))
+
+    def test_wildling_is_low_quality(self):
+        self.assertTrue(is_low_quality_endpoint("wildling"))
+
+    def test_ironborn_is_low_quality(self):
+        self.assertTrue(is_low_quality_endpoint("ironborn"))
+
+    def test_unsullied_is_low_quality(self):
+        self.assertTrue(is_low_quality_endpoint("unsullied"))
+
+    # --- Toast/phrase patterns ---
+    def test_all_for_joffrey_is_low_quality(self):
+        """The 'all-for-joffrey' toast pattern must be gated."""
+        self.assertTrue(is_low_quality_endpoint("all-for-joffrey"))
+
+    def test_all_for_any_name_is_low_quality(self):
+        self.assertTrue(is_low_quality_endpoint("all-for-the-king"))
+
+    # --- Empty string ---
+    def test_empty_slug_is_low_quality(self):
+        self.assertTrue(is_low_quality_endpoint(""))
+
+    # --- Case insensitivity ---
+    def test_case_insensitive_title(self):
+        self.assertTrue(is_low_quality_endpoint("LORD"))
+        self.assertTrue(is_low_quality_endpoint("Lord"))
+
+    def test_case_insensitive_alias(self):
+        self.assertTrue(is_low_quality_endpoint("ALAYNE"))
+
+
+class TestHasPassiveVoice(unittest.TestCase):
+    """_has_passive_voice must detect passive constructions."""
+
+    def test_was_killed_is_passive(self):
+        self.assertTrue(_has_passive_voice("Ned was killed by Ilyn Payne."))
+
+    def test_was_told_is_passive(self):
+        self.assertTrue(_has_passive_voice("Arya was told to stay inside."))
+
+    def test_were_betrayed_is_passive(self):
+        self.assertTrue(_has_passive_voice("They were betrayed at the Red Wedding."))
+
+    def test_is_named_is_passive(self):
+        self.assertTrue(_has_passive_voice("Jon is named Lord Commander."))
+
+    def test_was_sent_is_passive(self):
+        self.assertTrue(_has_passive_voice("The raven was sent to Dragonstone."))
+
+    def test_active_voice_not_passive(self):
+        self.assertFalse(_has_passive_voice("Ned killed the direwolf."))
+
+    def test_simple_declarative_not_passive(self):
+        self.assertFalse(_has_passive_voice("Arya and Jon Snow sparred in the yard."))
+
+    def test_empty_string_not_passive(self):
+        self.assertFalse(_has_passive_voice(""))
+
+    def test_was_revealed_to_is_passive(self):
+        self.assertTrue(_has_passive_voice("The secret was revealed to Sansa."))
+
+
+class TestSlugGateInGenerator(unittest.TestCase):
+    """Escalation routing when slug-quality or passive-voice gate triggers."""
+
+    def _make_chapter_file(self, content: str) -> tuple[Path, str]:
+        import tempfile
+        tmpdir = tempfile.mkdtemp()
+        p = Path(tmpdir) / "agot-bran-01.md"
+        p.write_text(content, encoding="utf-8")
+        return p, "sources/chapters/agot/agot-bran-01.md"
+
+    def test_low_quality_source_slug_routes_to_escalation(self):
+        """An event item where first entity resolves to a bare title slug is escalated."""
+        # We use a stub that resolves "Lord" → "lord" (a low-quality slug)
+        # Rather than testing the full resolver (complex), we test _emit_entity_pair_candidates
+        # directly with a known low-quality slug.
+        from tests._helpers import load_script
+        et = load_script("stage4-pass1-extra-tables.py")
+        chapter_path, chapter_rel = self._make_chapter_file(
+            "---\nfoo: bar\n---\nArya and Jon sparred.\n"
+        )
+        emit_rows, escals = et._emit_entity_pair_candidates(
+            slugs=["lord", "arya-stark"],  # "lord" is low-quality source
+            candidate_kind="pass1_events",
+            source_section="Events & Actions",
+            hint_raw="lord ordered Arya something",
+            evidence_quote="",
+            evidence_context="",
+            chapter_slug="agot-bran-01",
+            book_abbrev="agot",
+            pov_slug="bran-stark",
+            extraction_rel="extractions/mechanical/agot/agot-bran-01.extraction.md",
+            run_id="test",
+            schema_version="v1",
+            produced_at="2026-05-24T00:00:00+00:00",
+            chapter_path=chapter_path,
+            chapter_rel=chapter_rel,
+        )
+        self.assertEqual(len(emit_rows), 0, "Low-quality source slug must not emit a candidate")
+        self.assertEqual(len(escals), 1, "Low-quality source slug must route to escalation")
+        self.assertIn("low-quality", escals[0]["escalation_reason"])
+
+    def test_low_quality_target_slug_routes_to_escalation(self):
+        """An event where target slug is a bare title is escalated."""
+        from tests._helpers import load_script
+        et = load_script("stage4-pass1-extra-tables.py")
+        chapter_path, chapter_rel = self._make_chapter_file(
+            "---\nfoo: bar\n---\nArya and Jon sparred.\n"
+        )
+        emit_rows, escals = et._emit_entity_pair_candidates(
+            slugs=["arya-stark", "ser"],  # "ser" is low-quality target
+            candidate_kind="pass1_events",
+            source_section="Events & Actions",
+            hint_raw="Arya spoke to ser",
+            evidence_quote="",
+            evidence_context="",
+            chapter_slug="agot-bran-01",
+            book_abbrev="agot",
+            pov_slug="bran-stark",
+            extraction_rel="extractions/mechanical/agot/agot-bran-01.extraction.md",
+            run_id="test",
+            schema_version="v1",
+            produced_at="2026-05-24T00:00:00+00:00",
+            chapter_path=chapter_path,
+            chapter_rel=chapter_rel,
+        )
+        self.assertEqual(len(emit_rows), 0, "Low-quality target slug must not emit a candidate")
+        self.assertEqual(len(escals), 1)
+        self.assertIn("low-quality", escals[0]["escalation_reason"])
+
+    def test_passive_voice_routes_to_escalation(self):
+        """A hint with passive voice routes to escalation (direction uncertain)."""
+        from tests._helpers import load_script
+        et = load_script("stage4-pass1-extra-tables.py")
+        chapter_path, chapter_rel = self._make_chapter_file(
+            "---\nfoo: bar\n---\nArya and Jon sparred.\n"
+        )
+        emit_rows, escals = et._emit_entity_pair_candidates(
+            slugs=["arya-stark", "jon-snow"],
+            candidate_kind="pass1_events",
+            source_section="Events & Actions",
+            hint_raw="Jon was told by Arya to stop.",  # passive voice
+            evidence_quote="",
+            evidence_context="",
+            chapter_slug="agot-bran-01",
+            book_abbrev="agot",
+            pov_slug="bran-stark",
+            extraction_rel="extractions/mechanical/agot/agot-bran-01.extraction.md",
+            run_id="test",
+            schema_version="v1",
+            produced_at="2026-05-24T00:00:00+00:00",
+            chapter_path=chapter_path,
+            chapter_rel=chapter_rel,
+        )
+        self.assertEqual(len(emit_rows), 0, "Passive voice must not emit a candidate")
+        self.assertEqual(len(escals), 1)
+        self.assertIn("passive", escals[0]["escalation_reason"])
+
+    def test_clean_active_pair_emits(self):
+        """A clean active-voice pair with good slugs must emit (not escalate)."""
+        from tests._helpers import load_script
+        et = load_script("stage4-pass1-extra-tables.py")
+        chapter_path, chapter_rel = self._make_chapter_file(
+            "---\nfoo: bar\n---\nArya and Jon Snow sparred in the yard.\n"
+        )
+        emit_rows, escals = et._emit_entity_pair_candidates(
+            slugs=["arya-stark", "jon-snow"],
+            candidate_kind="pass1_events",
+            source_section="Events & Actions",
+            hint_raw="Arya and Jon Snow sparred in the yard.",
+            evidence_quote="",
+            evidence_context="",
+            chapter_slug="agot-bran-01",
+            book_abbrev="agot",
+            pov_slug="bran-stark",
+            extraction_rel="extractions/mechanical/agot/agot-bran-01.extraction.md",
+            run_id="test",
+            schema_version="v1",
+            produced_at="2026-05-24T00:00:00+00:00",
+            chapter_path=chapter_path,
+            chapter_rel=chapter_rel,
+        )
+        self.assertGreaterEqual(len(emit_rows), 1, "Clean active pair must emit")
+        self.assertEqual(len(escals), 0, "Clean pair must not escalate")
+
+    def test_escalation_row_has_decision_field(self):
+        """Escalation rows must carry decision='escalate'."""
+        from tests._helpers import load_script
+        et = load_script("stage4-pass1-extra-tables.py")
+        chapter_path, chapter_rel = self._make_chapter_file(
+            "---\nfoo: bar\n---\nSomeone spoke.\n"
+        )
+        _, escals = et._emit_entity_pair_candidates(
+            slugs=["lord", "arya-stark"],
+            candidate_kind="pass1_dialogue",
+            source_section="Dialogue of Note",
+            hint_raw="lord said hello",
+            evidence_quote="",
+            evidence_context="",
+            chapter_slug="agot-bran-01",
+            book_abbrev="agot",
+            pov_slug="bran-stark",
+            extraction_rel="x.md",
+            run_id="test",
+            schema_version="v1",
+            produced_at="2026-05-24T00:00:00+00:00",
+            chapter_path=chapter_path,
+            chapter_rel=chapter_rel,
+        )
+        for escal in escals:
+            self.assertEqual(escal["decision"], "escalate")
+            self.assertIn("escalation_reason", escal)
+
+    def test_is_low_quality_endpoint_importable(self):
+        """is_low_quality_endpoint must be importable from the module (for formalize step)."""
+        self.assertTrue(hasattr(extra_mod, "is_low_quality_endpoint"))
+        self.assertTrue(callable(extra_mod.is_low_quality_endpoint))
+
+    def test_generator_returns_5_tuple(self):
+        """generate_events_candidates must return a 5-tuple (cands, 2plus, dropped, escalated, escal_rows)."""
+        chapter_path, chapter_rel = self._make_chapter_file(
+            "---\nfoo: bar\n---\nArya and Jon Snow sparred in the yard.\n"
+        )
+        result = generate_events_candidates(
+            event_items=["1. **Act** — Arya and Jon Snow sparred in the yard."],
+            **_gen_kwargs(chapter_path, chapter_rel),
+        )
+        self.assertEqual(len(result), 5, "generate_events_candidates must return 5-tuple")
+        cands, rows_2plus, rows_dropped, rows_escalated, escal_rows = result
+        self.assertIsInstance(cands, list)
+        self.assertIsInstance(rows_2plus, int)
+        self.assertIsInstance(rows_dropped, int)
+        self.assertIsInstance(rows_escalated, int)
+        self.assertIsInstance(escal_rows, list)
 
 
 if __name__ == "__main__":

@@ -858,6 +858,120 @@ def _scan_text_for_entities(
     return sorted(seen_slugs, key=lambda s: seen_slugs[s])
 
 
+# ---------------------------------------------------------------------------
+# Slug-quality gate (reusable / importable — also called by formalize step)
+# ---------------------------------------------------------------------------
+
+# Bare titles that should never be standalone endpoints (they are forms of
+# address, not resolvable individuals).
+_BARE_TITLE_SLUGS: frozenset[str] = frozenset({
+    "ser", "lord", "lady", "king", "queen", "prince", "princess",
+    "maester", "grand-maester", "septon", "septa", "high-septon",
+    "father", "mother", "brother", "sister", "uncle", "aunt",
+    "knight", "commander", "captain", "steward", "squire",
+    "lord-commander", "high-septon",
+})
+
+# Known national/regional demonyms that appear as entity slugs but are not
+# specific individuals.
+_DEMONYM_PATTERN = re.compile(
+    r"^(westerosi|dothraki|wildling|free-folk|unsullied|ironborn|"
+    r"northerner|southron|valyrian|andal|first-men|"
+    r"braavosi|lyseni|myrish|pentoshi|volantene|qartheen|"
+    r"dornish|riverlander|stormlander|westerlander|crownlander)s?$",
+    re.IGNORECASE,
+)
+
+# Known aliases that should route to cross-identity path rather than emit edges.
+# These are in-universe identity aliases (not just titles), e.g. Arya's cover
+# names, Sansa's alias identity.
+_KNOWN_ALIAS_SLUGS: frozenset[str] = frozenset({
+    "alayne",           # Sansa Stark alias
+    "alayne-stone",     # Sansa Stark alias
+    "nan",              # Arya Stark alias
+    "arry",             # Arya Stark alias
+    "weasel",           # Arya Stark alias
+    "mercy",            # Arya Stark alias
+    "cat-of-the-canals",  # Arya Stark alias
+    "the-blind-girl",   # Arya Stark alias
+    "reek",             # Theon Greyjoy alias (also a node for the alter-ego)
+    "lord-reaper",      # Balon Greyjoy title-alias
+    "no-one",           # Arya faceless alias
+    "the-kindly-man",   # Faceless Man alias
+    "the-waif",         # Faceless Man alias
+})
+
+# Toasts / phrases that look like names but aren't individuals.
+# Pattern: all-for-X, long-may-X-reign, etc.
+_TOAST_PHRASE_PATTERN = re.compile(
+    r"^(all-for-|long-may-|glory-to-|praise-|for-the-)",
+    re.IGNORECASE,
+)
+
+
+def is_low_quality_endpoint(slug: str) -> bool:
+    """Return True if a slug should be routed to escalation rather than emitting an edge.
+
+    Gates:
+    1. Bare title slugs (ser, lord, king, maester, etc.) — forms of address, not individuals.
+    2. Known aliases (alayne, reek, arry, etc.) — cross-identity paths handle these.
+    3. National/regional demonyms (dothraki, wildling, etc.) — groups, not individuals.
+    4. Toast/phrase patterns (all-for-joffrey, etc.) — not people.
+
+    This function is intentionally importable and reusable for the formalize step
+    that applies the same gate to already-computed edge sets.
+    """
+    if not slug:
+        return True
+    slug_lower = slug.lower().strip()
+
+    # 1. Bare titles
+    if slug_lower in _BARE_TITLE_SLUGS:
+        return True
+
+    # 2. Known aliases
+    if slug_lower in _KNOWN_ALIAS_SLUGS:
+        return True
+
+    # 3. Demonyms
+    if _DEMONYM_PATTERN.match(slug_lower):
+        return True
+
+    # 4. Toast/phrase patterns
+    if _TOAST_PHRASE_PATTERN.match(slug_lower):
+        return True
+
+    return False
+
+
+# ---------------------------------------------------------------------------
+# Passive voice detection (direction-validation)
+# ---------------------------------------------------------------------------
+
+# Passive constructions that indicate the SUBJECT is the receiver, not actor.
+# Used to flag direction-uncertain rows for escalation.
+_PASSIVE_PATTERNS = re.compile(
+    r"\b(was|were|is|are|been|being)\s+"
+    r"(killed|told|informed|warned|threatened|betrayed|"
+    r"manipulated|used|deceived|tricked|threatened|coerced|"
+    r"advised|helped|saved|rescued|captured|arrested|imprisoned|"
+    r"sent|given|shown|brought|taken|led|escorted|guarded|"
+    r"named|called|appointed|crowned|knighted|wed|married|"
+    r"revealed to|known to)\b",
+    re.IGNORECASE,
+)
+
+
+def _has_passive_voice(text: str) -> bool:
+    """Return True if the text contains a passive construction.
+
+    Passive voice indicates the grammatical subject may be the receiver of the
+    action rather than the actor, which means the direction heuristic
+    "first-named entity = actor" is unreliable.
+    """
+    return bool(_PASSIVE_PATTERNS.search(text))
+
+
 def _emit_entity_pair_candidates(
     slugs: list[str],
     candidate_kind: str,
@@ -874,25 +988,64 @@ def _emit_entity_pair_candidates(
     produced_at: str,
     chapter_path: Path,
     chapter_rel: str,
-) -> list[dict]:
+) -> tuple[list[dict], list[dict]]:
     """Emit candidate pair rows from a resolved slug list.
 
     Direction heuristic v1: first slug = actor/source, each subsequent = target.
     Cap at first-actor → others fan-out (no full cartesian product).
     Requires >=2 distinct slugs to emit anything.
 
-    Attaches evidence_ref + locate_status via the locator.
+    Quality gates applied before emission:
+    - is_low_quality_endpoint(): bare titles, known aliases, demonyms, toasts
+      → routed to escalation (not emitted as candidates).
+    - Passive voice in hint_raw → routed to escalation (direction uncertain).
+
+    Returns (emit_rows, escalation_rows).
+    Callers that previously expected only a list[dict] should unpack the tuple.
     """
     if len(slugs) < 2:
-        return []
+        return [], []
 
     actor = slugs[0]
     targets = slugs[1:]  # fan-out from first actor
 
-    rows: list[dict] = []
+    emit_rows: list[dict] = []
+    escalation_rows: list[dict] = []
+
+    # Check for passive voice in the hint — direction unreliable
+    passive_flag = _has_passive_voice(hint_raw) or _has_passive_voice(evidence_quote)
+
     for target in targets:
         if target == actor:
             continue
+
+        # Slug-quality gate
+        low_quality_reason: str | None = None
+        if is_low_quality_endpoint(actor):
+            low_quality_reason = f"low-quality source slug: {actor!r}"
+        elif is_low_quality_endpoint(target):
+            low_quality_reason = f"low-quality target slug: {target!r}"
+        elif passive_flag:
+            low_quality_reason = "passive voice — direction uncertain"
+
+        if low_quality_reason:
+            escalation_rows.append({
+                "decision": "escalate",
+                "escalation_reason": low_quality_reason,
+                "candidate_kind": candidate_kind,
+                "source_section": source_section,
+                "evidence_chapter": chapter_slug,
+                "evidence_book": book_abbrev,
+                "evidence_pov": pov_slug,
+                "source_slug": actor,
+                "target_slug": target,
+                "hint_raw": hint_raw,
+                "run_id": run_id,
+                "schema_version": schema_version,
+                "produced_at": produced_at,
+            })
+            continue
+
         # Locate evidence
         loc = locate_evidence_for_candidate(
             source_slug=actor,
@@ -924,8 +1077,8 @@ def _emit_entity_pair_candidates(
             "schema_version": schema_version,
             "produced_at": produced_at,
         }
-        rows.append(cand)
-    return rows
+        emit_rows.append(cand)
+    return emit_rows, escalation_rows
 
 
 # ---------------------------------------------------------------------------
@@ -948,14 +1101,17 @@ def generate_events_candidates(
     run_id: str,
     schema_version: str,
     produced_at: str,
-) -> tuple[list[dict], int, int]:
+) -> tuple[list[dict], int, int, int, list[dict]]:
     """Generate pass1_events candidate pairs from Events & Actions numbered items.
 
-    Returns (candidates, rows_with_2plus_entities, rows_dropped).
+    Returns (candidates, rows_with_2plus_entities, rows_dropped, rows_escalated,
+             escalation_rows).
     """
     candidates: list[dict] = []
+    escalation_rows: list[dict] = []
     rows_with_2plus = 0
     rows_dropped = 0
+    rows_escalated = 0
 
     for item_text in event_items:
         # Strip leading number + bold marker: "1. **Name** — prose"
@@ -971,7 +1127,7 @@ def generate_events_candidates(
             continue
 
         rows_with_2plus += 1
-        pairs = _emit_entity_pair_candidates(
+        pairs, escals = _emit_entity_pair_candidates(
             slugs=slugs,
             candidate_kind="pass1_events",
             source_section="Events & Actions",
@@ -989,8 +1145,10 @@ def generate_events_candidates(
             chapter_rel=chapter_rel,
         )
         candidates.extend(pairs)
+        escalation_rows.extend(escals)
+        rows_escalated += len(escals)
 
-    return candidates, rows_with_2plus, rows_dropped
+    return candidates, rows_with_2plus, rows_dropped, rows_escalated, escalation_rows
 
 
 # ---------------------------------------------------------------------------
@@ -1013,16 +1171,19 @@ def generate_info_candidates(
     run_id: str,
     schema_version: str,
     produced_at: str,
-) -> tuple[list[dict], int, int]:
+) -> tuple[list[dict], int, int, int, list[dict]]:
     """Generate pass1_info candidate pairs from Information Revealed table rows.
 
     Scans: Information column + Known To (Characters) column.
     How Revealed column → evidence_context.
-    Returns (candidates, rows_with_2plus_entities, rows_dropped).
+    Returns (candidates, rows_with_2plus_entities, rows_dropped, rows_escalated,
+             escalation_rows).
     """
     candidates: list[dict] = []
+    escalation_rows: list[dict] = []
     rows_with_2plus = 0
     rows_dropped = 0
+    rows_escalated = 0
 
     for row in info_rows:
         # Identify columns by partial key match (headers may vary slightly)
@@ -1052,7 +1213,7 @@ def generate_info_candidates(
             continue
 
         rows_with_2plus += 1
-        pairs = _emit_entity_pair_candidates(
+        pairs, escals = _emit_entity_pair_candidates(
             slugs=slugs,
             candidate_kind="pass1_info",
             source_section="Information Revealed",
@@ -1070,8 +1231,10 @@ def generate_info_candidates(
             chapter_rel=chapter_rel,
         )
         candidates.extend(pairs)
+        escalation_rows.extend(escals)
+        rows_escalated += len(escals)
 
-    return candidates, rows_with_2plus, rows_dropped
+    return candidates, rows_with_2plus, rows_dropped, rows_escalated, escalation_rows
 
 
 # ---------------------------------------------------------------------------
@@ -1094,16 +1257,19 @@ def generate_food_candidates(
     run_id: str,
     schema_version: str,
     produced_at: str,
-) -> tuple[list[dict], int, int]:
+) -> tuple[list[dict], int, int, int, list[dict]]:
     """Generate pass1_food candidate pairs from Food & Drink table rows.
 
     Primary source: "Who Is Eating/Drinking" column (most entity-rich).
     Also scans Meal/Occasion column.
-    Returns (candidates, rows_with_2plus_entities, rows_dropped).
+    Returns (candidates, rows_with_2plus_entities, rows_dropped, rows_escalated,
+             escalation_rows).
     """
     candidates: list[dict] = []
+    escalation_rows: list[dict] = []
     rows_with_2plus = 0
     rows_dropped = 0
+    rows_escalated = 0
 
     for row in food_rows:
         # Find "Who Is Eating/Drinking" column
@@ -1130,7 +1296,7 @@ def generate_food_candidates(
             continue
 
         rows_with_2plus += 1
-        pairs = _emit_entity_pair_candidates(
+        pairs, escals = _emit_entity_pair_candidates(
             slugs=slugs,
             candidate_kind="pass1_food",
             source_section="Food & Drink",
@@ -1148,8 +1314,10 @@ def generate_food_candidates(
             chapter_rel=chapter_rel,
         )
         candidates.extend(pairs)
+        escalation_rows.extend(escals)
+        rows_escalated += len(escals)
 
-    return candidates, rows_with_2plus, rows_dropped
+    return candidates, rows_with_2plus, rows_dropped, rows_escalated, escalation_rows
 
 
 # ---------------------------------------------------------------------------
@@ -1369,9 +1537,16 @@ def main() -> None:
     # Per-book stats
     book_stats: dict[str, dict] = {b: collections.Counter() for b in BOOKS}
 
+    # Escalation counters (direction-uncertain + low-quality endpoint rows)
+    f_escalated = 0
+    ev_escalated_total = 0
+    i_escalated_total = 0
+
     # Per-chapter output collections
     # {chapter_slug: (book, [candidate_row_dict, ...])}
     chapter_extra: dict[str, tuple[str, list[dict]]] = {}
+    # {chapter_slug: (book, [escalation_row_dict, ...])}  — written separately
+    chapter_escalations: dict[str, tuple[str, list[dict]]] = {}
 
     # ------------------------------------------------------------------
     # Step 4: Process each extraction file
@@ -1681,7 +1856,7 @@ def main() -> None:
                         break
                 f_examples.append({"chapter": chapter_slug, "row": r, "who": who})
 
-        food_cands, food_2plus, food_dropped = generate_food_candidates(
+        food_cands, food_2plus, food_dropped, food_escalated, food_escals = generate_food_candidates(
             food_rows=food_rows,
             chapter_slug=chapter_slug,
             book_abbrev=book_abbrev,
@@ -1708,6 +1883,11 @@ def main() -> None:
                 f_chapter_level += 1
         chapter_rows.extend(food_cands)
         book_stats[book_abbrev]["food_candidates"] += len(food_cands)
+        book_stats[book_abbrev]["food_escalated"] += food_escalated
+        if food_escals:
+            if chapter_slug not in chapter_escalations:
+                chapter_escalations[chapter_slug] = (book_abbrev, [])
+            chapter_escalations[chapter_slug][1].extend(food_escals)
 
         # -----------------------------------------------------------------
         # 4d. Events & Actions — entity-matched candidate pairs (Task 1)
@@ -1719,7 +1899,7 @@ def main() -> None:
                     break
                 ev_examples.append({"chapter": chapter_slug, "text": item})
 
-        events_cands, ev_2plus, ev_dropped = generate_events_candidates(
+        events_cands, ev_2plus, ev_dropped, ev_escalated, ev_escals = generate_events_candidates(
             event_items=event_items,
             chapter_slug=chapter_slug,
             book_abbrev=book_abbrev,
@@ -1746,6 +1926,11 @@ def main() -> None:
                 ev_chapter_level += 1
         chapter_rows.extend(events_cands)
         book_stats[book_abbrev]["events_candidates"] += len(events_cands)
+        book_stats[book_abbrev]["events_escalated"] += ev_escalated
+        if ev_escals:
+            if chapter_slug not in chapter_escalations:
+                chapter_escalations[chapter_slug] = (book_abbrev, [])
+            chapter_escalations[chapter_slug][1].extend(ev_escals)
 
         # -----------------------------------------------------------------
         # 4e. Information Revealed — entity-matched candidate pairs (Task 1)
@@ -1757,7 +1942,7 @@ def main() -> None:
                     break
                 i_examples.append({"chapter": chapter_slug, "row": r})
 
-        info_cands, info_2plus, info_dropped = generate_info_candidates(
+        info_cands, info_2plus, info_dropped, info_escalated, info_escals = generate_info_candidates(
             info_rows=info_rows,
             chapter_slug=chapter_slug,
             book_abbrev=book_abbrev,
@@ -1784,6 +1969,11 @@ def main() -> None:
                 i_chapter_level += 1
         chapter_rows.extend(info_cands)
         book_stats[book_abbrev]["info_candidates"] += len(info_cands)
+        book_stats[book_abbrev]["info_escalated"] += info_escalated
+        if info_escals:
+            if chapter_slug not in chapter_escalations:
+                chapter_escalations[chapter_slug] = (book_abbrev, [])
+            chapter_escalations[chapter_slug][1].extend(info_escals)
 
         # -----------------------------------------------------------------
         # Collect chapter rows
@@ -1851,6 +2041,8 @@ def main() -> None:
     print(f"  Rows with >=2 resolved slugs:  {f_rows_with_2plus:>8,}")
     print(f"  Rows dropped (<2 resolved):    {f_rows_dropped:>8,}")
     print(f"  Candidate pairs emitted:       {f_candidates_emitted:>8,}")
+    total_f_escalated = sum(bs.get("food_escalated", 0) for bs in book_stats.values())
+    print(f"  Escalated (slug/passive gate): {total_f_escalated:>8,}")
     f_total = f_verbatim + f_chapter_level
     f_vb_pct = 100.0 * f_verbatim / f_total if f_total else 0.0
     print(f"  Locator verbatim:              {f_verbatim:>8,}  ({f_vb_pct:.1f}% of emitted)")
@@ -1864,6 +2056,8 @@ def main() -> None:
     print(f"  Items with >=2 resolved slugs: {ev_rows_with_2plus:>8,}")
     print(f"  Items dropped (<2 resolved):   {ev_rows_dropped:>8,}")
     print(f"  Candidate pairs emitted:       {ev_candidates_emitted:>8,}")
+    total_ev_escalated = sum(bs.get("events_escalated", 0) for bs in book_stats.values())
+    print(f"  Escalated (slug/passive gate): {total_ev_escalated:>8,}")
     ev_total = ev_verbatim + ev_chapter_level
     ev_vb_pct = 100.0 * ev_verbatim / ev_total if ev_total else 0.0
     print(f"  Locator verbatim:              {ev_verbatim:>8,}  ({ev_vb_pct:.1f}% of emitted)")
@@ -1876,6 +2070,8 @@ def main() -> None:
     print(f"  Rows with >=2 resolved slugs:  {i_rows_with_2plus:>8,}")
     print(f"  Rows dropped (<2 resolved):    {i_rows_dropped:>8,}")
     print(f"  Candidate pairs emitted:       {i_candidates_emitted:>8,}")
+    total_i_escalated = sum(bs.get("info_escalated", 0) for bs in book_stats.values())
+    print(f"  Escalated (slug/passive gate): {total_i_escalated:>8,}")
     i_total = i_verbatim + i_chapter_level
     i_vb_pct = 100.0 * i_verbatim / i_total if i_total else 0.0
     print(f"  Locator verbatim:              {i_verbatim:>8,}  ({i_vb_pct:.1f}% of emitted)")
@@ -1941,6 +2137,24 @@ def main() -> None:
         files_written += 1
         rows_written += len(rows)
     print(f"  {files_written:,} extra-tables files, {rows_written:,} rows")
+
+    # 6a-ii. Per-chapter escalation JSONL (low-quality endpoints + passive voice)
+    OUT_ESCALATE_DIR = OUT_EXTRA_BASE_DIR.parent / "_extra-tables-escalated"
+    escal_files_written = 0
+    escal_rows_written = 0
+    for chapter_slug, (book_abbrev, rows) in sorted(chapter_escalations.items()):
+        if not rows:
+            continue
+        out_dir = OUT_ESCALATE_DIR / book_abbrev
+        out_dir.mkdir(parents=True, exist_ok=True)
+        out_file = out_dir / f"{chapter_slug}.escalated.jsonl"
+        with out_file.open("w", encoding="utf-8") as fh:
+            for row in sorted(rows, key=lambda r: (r["source_slug"], r["target_slug"])):
+                fh.write(json.dumps(row, ensure_ascii=False) + "\n")
+        escal_files_written += 1
+        escal_rows_written += len(rows)
+    if escal_rows_written:
+        print(f"  {escal_files_written:,} escalation files, {escal_rows_written:,} escalated rows → {OUT_ESCALATE_DIR.name}/")
 
     # 6b. Report
     report_lines = [

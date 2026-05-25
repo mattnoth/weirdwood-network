@@ -227,6 +227,47 @@ RULES:
    - For Tier-1, qualifier MUST be from the documented enum (see below).
    - For all other types, omit qualifier entirely.
 8. No prose explanation. JSON array only.
+9. GATED TYPES — these five types have narrow, strict definitions. Read carefully before using:
+   - INFORMS: ONLY a spy or agent reporting to a handler in an ONGOING INTELLIGENCE RELATIONSHIP.
+     DO NOT use INFORMS for generic "X told Y something" — use REVEALS_TO for one-time disclosures.
+   - ADVISES: ONLY genuine counsel from an institutional advisor role (maester, Hand, councillor).
+     DO NOT use ADVISES for rebukes, arguments, objections, or casual opinion-giving.
+   - MANIPULATES: The target MUST be UNAWARE they are being used or deceived.
+     DO NOT use MANIPULATES for overt threats, coercion, or open provocation.
+   - SUPPORTS: ONLY evidentiary or theory-layer support (a theory supported by evidence).
+     DO NOT use SUPPORTS for interpersonal backing, political alliances, or emotional support.
+   - ALIAS_OF: ONLY for true identity aliases (alternate names for the same person).
+     DO NOT use ALIAS_OF for titular forms of address such as "King Robert", "Ser X", "Lord Y",
+     "Maester Z" — these are titles, NOT aliases.
+   When in doubt about a gated type, REJECT or pick a clearly-correct alternative type.
+10. TIER ASSIGNMENT — do NOT default every row to Tier-1:
+    - Tier-1: ONLY for explicit prose statements of the relationship ("his uncle X", "Eddard's wife Y",
+      direct speech attributing a clear relationship).
+    - Tier-2: implied-but-clear from context (their behavior, roles, or narrative framing strongly
+      implies the relationship even without an explicit statement).
+    - Tier-3: inferred — the relationship is plausible given the evidence but not directly stated.
+    Emit the confidence_tier field as an integer (1, 2, or 3) in each output object.
+11. ANTI-PATTERN TYPE GATES — these five types have specific misuse patterns that appear frequently.
+    Read before classifying any row involving two characters in the same scene or chapter:
+    - CONTEMPORARY_WITH: CONTEMPORARY_WITH is for two distinct EVENTS that overlap in time — NOT for
+      two characters who merely appear in the same scene or chapter. If two PEOPLE are simply co-present,
+      do not emit CONTEMPORARY_WITH; pick the actual relationship if one is evidenced, otherwise REJECT.
+      Two people being in the same room is not a graph edge.
+    - COMPANION_OF: COMPANION_OF requires prose that EXPLICITLY names a friendship, sworn-brotherhood,
+      or sustained personal bond ('fast friends', 'sworn brothers', 'his closest companion'). Sharing a
+      single scene, meal, journey, or battle does NOT qualify. If there is no explicit friendship/bond
+      language in the evidence, use TRAVELS_WITH (if they travel together) or REJECT. Do not infer
+      companionship from co-presence.
+    - CITED_BY and CONTRADICTS: CITED_BY and CONTRADICTS are THEORY-SUPPORT edges connecting a theory
+      to its evidence or theorist — they are NEVER interpersonal relationships. Do not use CITED_BY for
+      dreams, songs, or one character mentioning another. Do not use CONTRADICTS for interpersonal
+      disagreements, arguments, or reassurances (use OPPOSES or REVEALS_TO if a real relationship is
+      evidenced, else REJECT). A character dreaming of another is DREAMS_OF, not CITED_BY.
+    - ASSAULTS: ASSAULTS is sexual violence specifically. Non-sexual physical violence (grabbing, shoving,
+      striking) is ATTACKS. Threatening to throw someone to their death is ATTACKS or IMPRISONS,
+      not ASSAULTS.
+    - NURSED_BY: NURSED_BY is wet-nursing specifically. A maester giving medicine or treating a patient
+      is HEALS, not NURSED_BY.
 
 TIER-1 QUALIFIER ENUMS (required when using these types):
   SIBLING_OF: full | half | step | milk | unknown
@@ -241,21 +282,50 @@ TIER-1 QUALIFIER ENUMS (required when using these types):
 LOCKED EDGE VOCABULARY (use EXACTLY one of these, or REJECT):
 """
 
+# The five gated types and their anti-pattern descriptions.
+# This list is also used for --gate-vocab CLI default and the prompt injection.
+DEFAULT_GATED_TYPES: tuple[str, ...] = (
+    "INFORMS",
+    "ADVISES",
+    "MANIPULATES",
+    "SUPPORTS",
+    "ALIAS_OF",
+)
 
-def build_vocab_block(locked_vocab: frozenset[str]) -> str:
-    """Return a sorted, newline-separated list of vocab types for the prompt."""
-    return "\n".join(f"  {t}" for t in sorted(locked_vocab))
+
+def build_vocab_block(
+    locked_vocab: frozenset[str],
+    gated_types: tuple[str, ...] | None = None,
+) -> str:
+    """Return a sorted, newline-separated list of vocab types for the prompt.
+
+    Gated types are included in the vocabulary (NOT removed — the blocklist keeps
+    the ~150 other types fully available) but annotated with a [GATED] marker so
+    the model knows to apply the strict anti-pattern checks from Rule 9.
+    """
+    gated_set: frozenset[str] = frozenset(gated_types) if gated_types else frozenset()
+    lines: list[str] = []
+    for t in sorted(locked_vocab):
+        if t in gated_set:
+            lines.append(f"  {t}  [GATED — see Rule 9 before using]")
+        else:
+            lines.append(f"  {t}")
+    return "\n".join(lines)
 
 
 def render_classify_prompt(
     rows: list[dict],
     locked_vocab: frozenset[str],
+    gated_types: tuple[str, ...] | None = None,
 ) -> str:
     """Render the classify prompt for a batch of tail rows.
 
     Each row gets an explicit idx injected.  The model must echo idx in output.
+    gated_types: tuple of edge type strings to annotate as [GATED] in the vocab
+    block (blocklist approach — types remain available but carry strict Rule 9
+    anti-pattern guidance).
     """
-    vocab_block = build_vocab_block(locked_vocab)
+    vocab_block = build_vocab_block(locked_vocab, gated_types=gated_types)
 
     lines = [_PROMPT_PREAMBLE + vocab_block, "", "ROWS TO CLASSIFY:"]
 
@@ -278,7 +348,8 @@ def render_classify_prompt(
     lines.append(
         "\nReturn a JSON array with exactly one object per row above. "
         "Each object must have 'idx' (integer matching the row), 'edge_type' "
-        "(exactly from vocab or REJECT), and 'qualifier' (only for Tier-1 types)."
+        "(exactly from vocab or REJECT), 'qualifier' (only for Tier-1 types), "
+        "and 'confidence_tier' (integer 1, 2, or 3 — see Rule 10)."
     )
 
     return "\n".join(lines)
@@ -471,12 +542,33 @@ def conform_edge_type(
 # Schema: build output rows matching the deterministic edge schema
 # ---------------------------------------------------------------------------
 
+def derive_typed_by(model: str) -> str:
+    """Map a claude model identifier to a short typed_by label.
+
+    Examples:
+      "claude-haiku-4-5"   → "haiku"
+      "claude-sonnet-4-6"  → "sonnet"
+      "claude-opus-4"      → "opus"
+    Falls back to the raw model string if no pattern matches.
+    """
+    m_lower = model.lower()
+    if "haiku" in m_lower:
+        return "haiku"
+    if "sonnet" in m_lower:
+        return "sonnet"
+    if "opus" in m_lower:
+        return "opus"
+    # Unknown model: use model name as-is (truncate for safety)
+    return m_lower[:32]
+
+
 def build_emit_edge_row(
     tail_row: dict,
     edge_type: str,
     qualifier: str | None,
     model: str,
     run_id: str,
+    model_confidence_tier: int | None = None,
 ) -> dict:
     """Build an emit_edge row matching the deterministic edge schema exactly.
 
@@ -491,15 +583,32 @@ def build_emit_edge_row(
     Tail rows lack: source_resolution_status, target_resolution_status,
     evidence_book, asserted_relation, extraction_file, confidence_tier.
     We carry "tail-llm" for resolution_status, derive evidence_book from
-    evidence_chapter, and set confidence_tier=1 (direct chapter evidence).
+    evidence_chapter, and set confidence_tier from the model's emitted tier
+    (or fall back to 1 if the model did not emit a tier).
+
+    candidate_kind is preserved from the INPUT row's actual candidate_kind
+    (e.g. pass1_dialogue, pass1_events, pass1_info, pass1_food,
+    pass1_relationship) rather than being hardcoded.
+
+    typed_by is derived from the --model argument (e.g. "haiku", "sonnet",
+    "opus") rather than being hardcoded, so Haiku runs are labeled correctly.
     """
     chapter = tail_row.get("evidence_chapter", "")
     # Derive evidence_book from chapter slug prefix (e.g. "affc-brienne-03" → "affc")
     evidence_book = chapter.split("-")[0] if chapter else ""
 
+    # Preserve the source row's candidate_kind (varies across table types)
+    candidate_kind = tail_row.get("candidate_kind", "pass1_relationship")
+
+    # Derive typed_by from the actual model used (critical: Haiku ≠ "sonnet")
+    typed_by = derive_typed_by(model)
+
+    # confidence_tier: use the model-emitted tier if provided, else fall back to 1
+    confidence_tier = model_confidence_tier if model_confidence_tier in (1, 2, 3) else 1
+
     row: dict = {
         "decision": "emit_edge",
-        "candidate_kind": "pass1_relationship",
+        "candidate_kind": candidate_kind,
         "edge_type": edge_type,
         "source_slug": tail_row["source_slug"],
         "source_resolution_status": "tail-llm",
@@ -514,8 +623,8 @@ def build_emit_edge_row(
         "asserted_relation": tail_row.get("hint_raw", ""),
         "hint_raw": tail_row.get("hint_raw", ""),
         "extraction_file": f"extractions/mechanical/{evidence_book}/{chapter}.extraction.md" if evidence_book and chapter else "",
-        "confidence_tier": 1,
-        "typed_by": "sonnet",
+        "confidence_tier": confidence_tier,
+        "typed_by": typed_by,
         "corroborates_known_edge": tail_row.get("corroborates_known_edge", False),
         "wiki_edge_type": tail_row.get("wiki_edge_type"),
         "locate_status": tail_row.get("locate_status", "verbatim"),
@@ -798,6 +907,7 @@ def process_batch(
     model: str,
     run_id: str,
     apply: bool,
+    gated_types: tuple[str, ...] | None = None,
 ) -> dict:
     """Classify one batch via claude -p.  Returns a results dict.
 
@@ -806,8 +916,11 @@ def process_batch(
 
     Result keys: typed, rejected, classify_failed, needs_qualifier,
     total_cost_usd, conform_violations, rows_in.
+
+    gated_types: optional tuple of edge types to annotate as [GATED] in the
+    vocab block (Rule 9 anti-pattern gate).
     """
-    prompt = render_classify_prompt(batch, locked_vocab)
+    prompt = render_classify_prompt(batch, locked_vocab, gated_types=gated_types)
     rows_in = len(batch)
 
     if not apply:
@@ -862,6 +975,19 @@ def process_batch(
             if qualifier is not None:
                 qualifier = str(qualifier).strip() or None
 
+            # Extract confidence_tier from model output (Rule 10)
+            raw_tier = obj.get("confidence_tier")
+            model_confidence_tier: int | None = None
+            if isinstance(raw_tier, int) and raw_tier in (1, 2, 3):
+                model_confidence_tier = raw_tier
+            elif isinstance(raw_tier, str):
+                try:
+                    t = int(raw_tier)
+                    if t in (1, 2, 3):
+                        model_confidence_tier = t
+                except ValueError:
+                    pass
+
             decision, conform_error = conform_edge_type(
                 edge_type, locked_vocab, tier1_types, qualifier
             )
@@ -882,7 +1008,8 @@ def process_batch(
 
             else:  # emit_edge
                 emit_rows.append(build_emit_edge_row(
-                    tail_row, edge_type, qualifier, model, run_id
+                    tail_row, edge_type, qualifier, model, run_id,
+                    model_confidence_tier=model_confidence_tier,
                 ))
 
     return {
@@ -1065,6 +1192,17 @@ def parse_args() -> argparse.Namespace:
             f"canonical typed-tail set. Default: {OUT_BASE.relative_to(REPO)}"
         ),
     )
+    parser.add_argument(
+        "--gate-vocab",
+        default=",".join(DEFAULT_GATED_TYPES),
+        metavar="TYPES",
+        help=(
+            "Comma-separated list of edge types to gate with Rule 9 anti-pattern guidance. "
+            "Gated types remain available in the vocabulary (blocklist, NOT narrow allow-list) "
+            "but are annotated [GATED] in the prompt to trigger strict usage checks. "
+            f"Default: {','.join(DEFAULT_GATED_TYPES)}"
+        ),
+    )
     return parser.parse_args()
 
 
@@ -1101,6 +1239,13 @@ def main() -> int:
         print(f"  Input dir:  {args.input_dir}")
     if args.candidate_kinds:
         print(f"  Kinds:      {args.candidate_kinds}")
+
+    # Parse --gate-vocab
+    gated_types: tuple[str, ...] = tuple(
+        t.strip().upper() for t in args.gate_vocab.split(",") if t.strip()
+    ) if args.gate_vocab else ()
+    if gated_types:
+        print(f"  Gate-vocab: {', '.join(gated_types)}")
     print()
 
     # Load vocab
@@ -1177,7 +1322,7 @@ def main() -> int:
         print()
         if chunks:
             print(f"--- First batch prompt ({len(chunks[0])} rows) ---")
-            prompt = render_classify_prompt(chunks[0], locked_vocab)
+            prompt = render_classify_prompt(chunks[0], locked_vocab, gated_types=gated_types)
             print(prompt)
             print("--- End of first batch prompt ---")
         return 0
@@ -1216,6 +1361,7 @@ def main() -> int:
             model=args.model,
             run_id=run_id,
             apply=True,
+            gated_types=gated_types,
         )
 
         elapsed = round(time.monotonic() - t0, 1)

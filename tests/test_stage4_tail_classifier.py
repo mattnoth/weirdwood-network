@@ -738,11 +738,10 @@ class TestRule6InPrompt(unittest.TestCase):
         )
 
     def test_rule_numbering_sequential(self):
-        """The preamble must have at least 7 numbered rules now (added Rule 6)."""
+        """The preamble must have rules 6 through 11 present."""
         preamble = tc._PROMPT_PREAMBLE
-        # Check that rule 6 and rule 7 both exist
-        self.assertIn("6.", preamble)
-        self.assertIn("7.", preamble)
+        for n in range(6, 12):
+            self.assertIn(f"{n}.", preamble, f"Rule {n} must be present in preamble")
 
 
 # ---------------------------------------------------------------------------
@@ -961,6 +960,369 @@ class TestOutputDirRedirect(unittest.TestCase):
             # The write target must be the redirected dir, NOT the canonical one.
             self.assertTrue(written.is_relative_to(tmp))
             self.assertFalse(written.is_relative_to(self._orig_out_base))
+
+
+# ---------------------------------------------------------------------------
+# Tests: Fix 1 — Vocab gating + anti-pattern guidance in preamble
+# ---------------------------------------------------------------------------
+
+class TestVocabGating(unittest.TestCase):
+    """Fix 1: gated types annotated [GATED], Rule 9 anti-patterns in preamble."""
+
+    _FIVE_GATED = ("INFORMS", "ADVISES", "MANIPULATES", "SUPPORTS", "ALIAS_OF")
+
+    def test_default_gated_types_constant_exists(self):
+        """DEFAULT_GATED_TYPES must be a non-empty tuple of strings."""
+        self.assertIsInstance(tc.DEFAULT_GATED_TYPES, tuple)
+        self.assertGreater(len(tc.DEFAULT_GATED_TYPES), 0)
+        for t in tc.DEFAULT_GATED_TYPES:
+            self.assertIsInstance(t, str)
+
+    def test_default_gated_types_contains_five(self):
+        """DEFAULT_GATED_TYPES must contain all five specified types."""
+        for t in self._FIVE_GATED:
+            self.assertIn(t, tc.DEFAULT_GATED_TYPES, f"{t} missing from DEFAULT_GATED_TYPES")
+
+    def test_build_vocab_block_annotates_gated_types(self):
+        """build_vocab_block with gated_types must annotate them with [GATED]."""
+        vocab = frozenset({"SERVES", "LOVES", "INFORMS", "ADVISES"})
+        block = tc.build_vocab_block(vocab, gated_types=("INFORMS", "ADVISES"))
+        self.assertIn("GATED", block)
+        # Gated types annotated, non-gated are clean
+        self.assertIn("INFORMS", block)
+        self.assertIn("ADVISES", block)
+        self.assertIn("SERVES", block)
+        # Non-gated types must NOT be annotated
+        lines = {ln.split()[0]: ln for ln in block.splitlines() if ln.strip()}
+        serves_line = next((ln for ln in block.splitlines() if "SERVES" in ln), "")
+        self.assertNotIn("GATED", serves_line)
+        informs_line = next((ln for ln in block.splitlines() if "INFORMS" in ln), "")
+        self.assertIn("GATED", informs_line)
+
+    def test_build_vocab_block_no_gated_types_no_annotation(self):
+        """Without gated_types, no [GATED] annotation appears."""
+        vocab = frozenset({"SERVES", "LOVES", "INFORMS"})
+        block = tc.build_vocab_block(vocab, gated_types=None)
+        self.assertNotIn("GATED", block)
+
+    def test_build_vocab_block_gated_types_not_removed_from_vocab(self):
+        """Gated types must still appear in the vocab block (blocklist, not allow-list)."""
+        vocab = frozenset({"SERVES", "LOVES", "INFORMS", "ADVISES", "MANIPULATES"})
+        block = tc.build_vocab_block(vocab, gated_types=self._FIVE_GATED)
+        for t in ["SERVES", "LOVES", "INFORMS", "ADVISES", "MANIPULATES"]:
+            self.assertIn(t, block, f"{t} must remain in vocab block even when gated")
+
+    def test_rule9_anti_pattern_text_in_preamble(self):
+        """Rule 9 anti-patterns for all five types must be in _PROMPT_PREAMBLE."""
+        preamble = tc._PROMPT_PREAMBLE
+        self.assertIn("9.", preamble, "Rule 9 must be numbered in preamble")
+        # Each of the five gated types must be mentioned in Rule 9
+        for t in self._FIVE_GATED:
+            self.assertIn(t, preamble, f"{t} anti-pattern must appear in preamble")
+
+    def test_rule9_informs_anti_pattern(self):
+        """INFORMS anti-pattern: must distinguish from generic disclosure."""
+        preamble = tc._PROMPT_PREAMBLE.lower()
+        # Should warn: not generic "X told Y" → REVEALS_TO instead
+        self.assertTrue(
+            "reveals_to" in preamble or "one-time" in preamble or "disclosure" in preamble,
+            "INFORMS anti-pattern must mention REVEALS_TO or one-time disclosure alternative",
+        )
+
+    def test_rule9_alias_of_anti_pattern(self):
+        """ALIAS_OF anti-pattern: must call out titular forms of address."""
+        preamble = tc._PROMPT_PREAMBLE.lower()
+        self.assertTrue(
+            "alias_of" in preamble and ("titular" in preamble or "title" in preamble),
+            "ALIAS_OF anti-pattern must mention titles/titular forms of address",
+        )
+
+    def test_rule10_tier_guidance_in_preamble(self):
+        """Rule 10 tier-assignment guidance must appear in _PROMPT_PREAMBLE."""
+        preamble = tc._PROMPT_PREAMBLE
+        self.assertIn("10.", preamble, "Rule 10 must be numbered in preamble")
+        self.assertIn("Tier-1", preamble)
+        self.assertIn("Tier-2", preamble)
+        self.assertIn("Tier-3", preamble)
+
+    def test_render_classify_prompt_passes_gated_types(self):
+        """render_classify_prompt with gated_types should annotate them in output."""
+        rows = [_make_tail_row()]
+        prompt = tc.render_classify_prompt(rows, _SAMPLE_VOCAB, gated_types=("SERVES",))
+        # SERVES is in _SAMPLE_VOCAB, and we asked to gate it
+        self.assertIn("GATED", prompt)
+
+    def test_render_classify_prompt_no_gated_no_vocab_annotation(self):
+        """render_classify_prompt without gated_types has no [GATED] annotation in vocab lines."""
+        rows = [_make_tail_row()]
+        prompt = tc.render_classify_prompt(rows, _SAMPLE_VOCAB, gated_types=None)
+        # The vocab block must not contain [GATED] annotations on any type line.
+        # (Note: the preamble itself says "GATED TYPES" in Rule 9 — that's fine.
+        # We check that no vocab-list line carries the bracket annotation.)
+        for line in prompt.splitlines():
+            stripped = line.strip()
+            if stripped.startswith("SERVES") or stripped.startswith("LOVES"):
+                self.assertNotIn("[GATED]", line,
+                                  "Vocab list lines must not have [GATED] when gated_types=None")
+
+    def test_confidence_tier_in_closing_instruction(self):
+        """The closing instruction must ask for confidence_tier."""
+        rows = [_make_tail_row()]
+        prompt = tc.render_classify_prompt(rows, _SAMPLE_VOCAB)
+        self.assertIn("confidence_tier", prompt)
+
+    def test_rule10_numbered_in_preamble(self):
+        """Rule 10 must be present and numbered."""
+        preamble = tc._PROMPT_PREAMBLE
+        self.assertIn("10.", preamble)
+
+    def test_rule11_numbered_in_preamble(self):
+        """Rule 11 must be present and numbered."""
+        preamble = tc._PROMPT_PREAMBLE
+        self.assertIn("11.", preamble)
+
+
+# ---------------------------------------------------------------------------
+# Tests: Rule 11 — anti-pattern type gates in preamble
+# ---------------------------------------------------------------------------
+
+class TestRule11InPrompt(unittest.TestCase):
+    """Rule 11 (ANTI-PATTERN TYPE GATES) must appear in _PROMPT_PREAMBLE with
+    all five type-specific instructions present."""
+
+    def test_rule11_contemporary_with_gate(self):
+        """CONTEMPORARY_WITH must be gated to EVENT-overlap, not character co-presence."""
+        preamble = tc._PROMPT_PREAMBLE
+        self.assertIn("CONTEMPORARY_WITH", preamble)
+        lower = preamble.lower()
+        # Must mention events and co-presence prohibition
+        self.assertIn("events", lower, "Rule 11 must reference EVENTS for CONTEMPORARY_WITH")
+        self.assertTrue(
+            "co-present" in lower or "same scene" in lower or "same room" in lower
+            or "co-presence" in lower,
+            "Rule 11 must prohibit character co-presence for CONTEMPORARY_WITH",
+        )
+
+    def test_rule11_companion_of_gate(self):
+        """COMPANION_OF must require explicit bond language, not co-presence."""
+        preamble = tc._PROMPT_PREAMBLE
+        self.assertIn("COMPANION_OF", preamble)
+        lower = preamble.lower()
+        # Must mention requirement for explicit bond language
+        self.assertTrue(
+            "explicit" in lower or "explicitly" in lower,
+            "Rule 11 must require explicit bond language for COMPANION_OF",
+        )
+        # Must mention TRAVELS_WITH as fallback
+        self.assertIn("TRAVELS_WITH", preamble,
+                      "Rule 11 must offer TRAVELS_WITH as fallback for COMPANION_OF")
+
+    def test_rule11_cited_by_theory_only(self):
+        """CITED_BY must be restricted to theory-support edges, not interpersonal use."""
+        preamble = tc._PROMPT_PREAMBLE
+        self.assertIn("CITED_BY", preamble)
+        lower = preamble.lower()
+        self.assertTrue(
+            "theory" in lower,
+            "Rule 11 must restrict CITED_BY to theory-support context",
+        )
+
+    def test_rule11_contradicts_theory_only(self):
+        """CONTRADICTS must be restricted to theory-support, not interpersonal disagreements."""
+        preamble = tc._PROMPT_PREAMBLE
+        self.assertIn("CONTRADICTS", preamble)
+        lower = preamble.lower()
+        # Must warn against interpersonal use
+        self.assertTrue(
+            "disagreement" in lower or "disagreements" in lower or "arguments" in lower,
+            "Rule 11 must prohibit CONTRADICTS for interpersonal disagreements",
+        )
+
+    def test_rule11_dreams_of_as_cited_by_alternative(self):
+        """Rule 11 must name DREAMS_OF as the correct type for dream evidence."""
+        preamble = tc._PROMPT_PREAMBLE
+        self.assertIn("DREAMS_OF", preamble,
+                      "Rule 11 must specify DREAMS_OF as alternative to CITED_BY for dreams")
+
+    def test_rule11_assaults_sexual_violence_only(self):
+        """ASSAULTS must be restricted to sexual violence; non-sexual → ATTACKS."""
+        preamble = tc._PROMPT_PREAMBLE
+        self.assertIn("ASSAULTS", preamble)
+        lower = preamble.lower()
+        self.assertTrue(
+            "sexual" in lower,
+            "Rule 11 must specify ASSAULTS is sexual violence only",
+        )
+        # Must offer ATTACKS as the correct type for non-sexual violence
+        self.assertIn("ATTACKS", preamble,
+                      "Rule 11 must name ATTACKS as fallback for non-sexual violence")
+
+    def test_rule11_nursed_by_wet_nursing_only(self):
+        """NURSED_BY must be restricted to wet-nursing; medical care → HEALS."""
+        preamble = tc._PROMPT_PREAMBLE
+        self.assertIn("NURSED_BY", preamble)
+        lower = preamble.lower()
+        self.assertTrue(
+            "wet-nurs" in lower or "wet nurs" in lower,
+            "Rule 11 must specify NURSED_BY is wet-nursing specifically",
+        )
+        # Must offer HEALS as the correct type for medical treatment
+        self.assertIn("HEALS", preamble,
+                      "Rule 11 must name HEALS as fallback for medical care")
+
+    def test_rule11_present_in_rendered_prompt(self):
+        """render_classify_prompt must include Rule 11 content."""
+        rows = [_make_tail_row()]
+        prompt = tc.render_classify_prompt(rows, _SAMPLE_VOCAB)
+        self.assertIn("11.", prompt)
+        self.assertIn("CONTEMPORARY_WITH", prompt)
+        self.assertIn("COMPANION_OF", prompt)
+        self.assertIn("ASSAULTS", prompt)
+        self.assertIn("NURSED_BY", prompt)
+
+    def test_rule11_appears_after_rule10(self):
+        """Rule 11 must appear after Rule 10 in the preamble."""
+        preamble = tc._PROMPT_PREAMBLE
+        idx_10 = preamble.index("10.")
+        idx_11 = preamble.index("11.")
+        self.assertGreater(idx_11, idx_10,
+                           "Rule 11 must appear after Rule 10 in the preamble")
+
+    def test_rule11_appears_before_tier1_qualifier_enums(self):
+        """Rule 11 must appear before the TIER-1 QUALIFIER ENUMS section."""
+        preamble = tc._PROMPT_PREAMBLE
+        idx_11 = preamble.index("11.")
+        idx_enums = preamble.index("TIER-1 QUALIFIER ENUMS")
+        self.assertLess(idx_11, idx_enums,
+                        "Rule 11 must appear before TIER-1 QUALIFIER ENUMS block")
+
+
+# ---------------------------------------------------------------------------
+# Tests: Fix 3 — derive_typed_by + candidate_kind provenance
+# ---------------------------------------------------------------------------
+
+class TestProvenanceFix(unittest.TestCase):
+    """Fix 3: typed_by derived from model arg; candidate_kind from input row."""
+
+    def test_derive_typed_by_haiku(self):
+        self.assertEqual(tc.derive_typed_by("claude-haiku-4-5"), "haiku")
+
+    def test_derive_typed_by_sonnet(self):
+        self.assertEqual(tc.derive_typed_by("claude-sonnet-4-6"), "sonnet")
+
+    def test_derive_typed_by_opus(self):
+        self.assertEqual(tc.derive_typed_by("claude-opus-4"), "opus")
+
+    def test_derive_typed_by_unknown_model(self):
+        """Unknown model falls back to model name (lowercased, truncated)."""
+        result = tc.derive_typed_by("some-custom-model")
+        self.assertIsInstance(result, str)
+        self.assertGreater(len(result), 0)
+
+    def test_typed_by_haiku_when_model_is_haiku(self):
+        """build_emit_edge_row with haiku model emits typed_by='haiku'."""
+        tail_row = _make_tail_row()
+        row = tc.build_emit_edge_row(tail_row, "LOVES", None, "claude-haiku-4-5", "r1")
+        self.assertEqual(row["typed_by"], "haiku",
+                         "Haiku runs must NOT be mislabeled as 'sonnet'")
+
+    def test_typed_by_sonnet_when_model_is_sonnet(self):
+        tail_row = _make_tail_row()
+        row = tc.build_emit_edge_row(tail_row, "LOVES", None, "claude-sonnet-4-6", "r1")
+        self.assertEqual(row["typed_by"], "sonnet")
+
+    def test_candidate_kind_preserved_from_input_row(self):
+        """candidate_kind in emitted row must come from the input tail row."""
+        for kind in ("pass1_dialogue", "pass1_events", "pass1_info", "pass1_food", "pass1_relationship"):
+            tail_row = _make_tail_row(candidate_kind=kind)
+            row = tc.build_emit_edge_row(tail_row, "LOVES", None, "claude-sonnet-4-6", "r1")
+            self.assertEqual(row["candidate_kind"], kind,
+                             f"candidate_kind must be preserved as {kind!r}")
+
+    def test_candidate_kind_defaults_to_pass1_relationship_when_absent(self):
+        """If input row has no candidate_kind, default to 'pass1_relationship'."""
+        tail_row = _make_tail_row()
+        # Ensure no candidate_kind key
+        tail_row.pop("candidate_kind", None)
+        row = tc.build_emit_edge_row(tail_row, "LOVES", None, "claude-sonnet-4-6", "r1")
+        self.assertEqual(row["candidate_kind"], "pass1_relationship")
+
+    def test_confidence_tier_from_model_output_tier1(self):
+        """model_confidence_tier=1 must be written to emitted row."""
+        tail_row = _make_tail_row()
+        row = tc.build_emit_edge_row(tail_row, "LOVES", None, "claude-sonnet-4-6", "r1",
+                                      model_confidence_tier=1)
+        self.assertEqual(row["confidence_tier"], 1)
+
+    def test_confidence_tier_from_model_output_tier2(self):
+        """model_confidence_tier=2 must be written to emitted row."""
+        tail_row = _make_tail_row()
+        row = tc.build_emit_edge_row(tail_row, "LOVES", None, "claude-sonnet-4-6", "r1",
+                                      model_confidence_tier=2)
+        self.assertEqual(row["confidence_tier"], 2)
+
+    def test_confidence_tier_from_model_output_tier3(self):
+        """model_confidence_tier=3 must be written to emitted row."""
+        tail_row = _make_tail_row()
+        row = tc.build_emit_edge_row(tail_row, "LOVES", None, "claude-sonnet-4-6", "r1",
+                                      model_confidence_tier=3)
+        self.assertEqual(row["confidence_tier"], 3)
+
+    def test_confidence_tier_defaults_to_1_when_none(self):
+        """model_confidence_tier=None falls back to tier-1."""
+        tail_row = _make_tail_row()
+        row = tc.build_emit_edge_row(tail_row, "LOVES", None, "claude-sonnet-4-6", "r1",
+                                      model_confidence_tier=None)
+        self.assertEqual(row["confidence_tier"], 1)
+
+    def test_confidence_tier_defaults_to_1_when_invalid(self):
+        """model_confidence_tier with invalid value (0, 99) falls back to tier-1."""
+        tail_row = _make_tail_row()
+        for invalid in (0, 99, 4, -1):
+            row = tc.build_emit_edge_row(tail_row, "LOVES", None, "claude-sonnet-4-6", "r1",
+                                          model_confidence_tier=invalid)
+            self.assertEqual(row["confidence_tier"], 1,
+                             f"Invalid tier {invalid} should fall back to 1")
+
+    def test_process_batch_extracts_confidence_tier_from_model_output(self):
+        """process_batch must read confidence_tier from model output and pass to build_emit_edge_row."""
+        batch = [_make_tail_row()]
+        model_objects = [{"idx": 0, "edge_type": "LOVES", "confidence_tier": 2}]
+        mock_resp = _mock_claude_response(model_objects)
+        with patch.object(tc, "invoke_claude", return_value=mock_resp):
+            result = tc.process_batch(
+                batch=batch,
+                batch_idx=0,
+                locked_vocab=_SAMPLE_VOCAB,
+                tier1_types=_TIER1,
+                model="claude-haiku-4-5",
+                run_id="test-run",
+                apply=True,
+            )
+        self.assertEqual(result["typed"], 1)
+        emit = result["emit_rows"][0]
+        self.assertEqual(emit["confidence_tier"], 2,
+                         "Tier-2 from model output must appear in emitted row")
+        self.assertEqual(emit["typed_by"], "haiku",
+                         "Haiku model must produce typed_by='haiku'")
+
+    def test_process_batch_candidate_kind_from_input(self):
+        """process_batch must preserve candidate_kind from the input batch row."""
+        batch = [_make_tail_row(candidate_kind="pass1_dialogue")]
+        model_objects = [{"idx": 0, "edge_type": "LOVES", "confidence_tier": 1}]
+        mock_resp = _mock_claude_response(model_objects)
+        with patch.object(tc, "invoke_claude", return_value=mock_resp):
+            result = tc.process_batch(
+                batch=batch,
+                batch_idx=0,
+                locked_vocab=_SAMPLE_VOCAB,
+                tier1_types=_TIER1,
+                model="claude-haiku-4-5",
+                run_id="test-run",
+                apply=True,
+            )
+        emit = result["emit_rows"][0]
+        self.assertEqual(emit["candidate_kind"], "pass1_dialogue")
 
 
 if __name__ == "__main__":
