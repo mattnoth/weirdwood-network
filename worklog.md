@@ -86,7 +86,7 @@ This is your project memory. When you come back after a break, read Current Stat
 - [ ] Trigger table v1
 - [x] Entity index — **REBUILT to all categories (Session 72).** `graph/index/` previously covered only characters/houses/locations/artifacts/chapters; `scripts/build-entity-indexes.py` extended with 14 more `TYPE_CONFIGS` → **1,847 new `*.index.json`** (factions, titles, events, religions, species, texts, concepts, materials, foods, theories, customs, languages, medical, prophecies). This was the real "entities aren't there" gap (the nodes always existed; the index didn't cover them). Mention-stats zero for wiki-sourced entities Pass 1 never tagged (expected).
 - [x] Chapter index (per-chapter `*.mentions.json` under `graph/index/chapters/`)
-- [x] Graph edges formalized — **v1.3 (Session 72)** (`graph/edges/edges.jsonl` = **3,811** cited Pass-1-derived edges; v1 3,842→v1.2 3,825→v1.3 3,811). **v1.2:** type-contract re-validation vs complete node set (−17 wrong, +3 RULES→COMMANDS retype, kept 16 real `COMMANDS→faction`). **v1.3 resolver pass:** title-person disambiguation — 6 ship/artifact/title nodes named after people (`lord-tywin`=Cersei's dromond, `queen-cersei`, `lord-renly`, `princess-myrcella`, `lady-olenna`, `khal-jhaqo`) were capturing person references via exact slug-match; remapped → their characters (−12 dups) + new `CAPTAIN_OF`/`CREW_OF` target-not-character contract dropped 2 mis-typed "captain of the guard" edges. ~78% strict precision; all `evidence_ref`-carrying. Haiku Events+Dialogue enrichment = v2, separately NOT-YET (~62% out-of-sample; `progress/continue-prompts/2026-05-25-stage4-locator-grounding.md`).
+- [x] Graph edges formalized — **v1.3 (Session 72)** (`graph/edges/edges.jsonl` = **3,811** cited Pass-1-derived edges; v1 3,842→v1.2 3,825→v1.3 3,811). **v1.2:** type-contract re-validation vs complete node set (−17 wrong, +3 RULES→COMMANDS retype, kept 16 real `COMMANDS→faction`). **v1.3 resolver pass:** title-person disambiguation — 6 ship/artifact/title nodes named after people (`lord-tywin`=Cersei's dromond, `queen-cersei`, `lord-renly`, `princess-myrcella`, `lady-olenna`, `khal-jhaqo`) were capturing person references via exact slug-match; remapped → their characters (−12 dups) + new `CAPTAIN_OF`/`CREW_OF` target-not-character contract dropped 2 mis-typed "captain of the guard" edges. ~78% strict precision; all `evidence_ref`-carrying. **S74: core SHIPPED — citations re-grounded** (`scripts/stage4-reground-core-citations.py` corrected 3,676/3,811 `evidence_ref` line numbers; quote text + edge set byte-identical; fixed the latent `:11` locator bug — `read_chapter_prose` stripped blanks so all refs pinned to the first prose line). **Graph exercised: 100% of 898 edge endpoints resolve to a node, 0 orphans, fully traversable.** **Haiku Events+Dialogue enrichment = NO-GO, SHELVED** (post-locator-fix out-of-sample smokes 74.5%/62.5%, <75% gate; v5 precision rules authored + kept for any future revisit). Commit `63b8b461a`.
 - [ ] Convergence maps
 
 ### Reference Materials
@@ -100,6 +100,13 @@ This is your project memory. When you come back after a break, read Current Stat
 ## Active Decisions
 
 > Design questions that need resolution. Tag with status: OPEN, DECIDED, DEFERRED.
+
+### DECIDED: Ship the deterministic core; SHELVE Events+Dialogue LLM enrichment (2026-05-26, Session 74)
+- **Decision (Matt):** Ship `graph/edges/edges.jsonl` (3,811 cited deterministic edges, ~78%) as THE edge layer. **Do NOT run the ~$75 Events+Dialogue Haiku enrichment.**
+- **Why:** After fixing the locator's hint↔quote decoupling (the gate-opener), two fresh out-of-sample smokes came in **74.5% / 62.5%** strict — unstable and below the 75% gate. Clear-case precision is 83-89% but the model over-emits borderline inferences. A ~70-74% enrichment layer is *noisier than the spine it sits on*, with no scheduled patcher; per the project value "a wrong cited edge is graph pollution — worse than no edge." The ~78% deterministic core is the better artifact.
+- **What's kept:** the locator fix (hint-anchored grounding + `:11` line-number fix), the `quote_source` passthrough, and the **v5 precision rules** (`v5-precision-rules`) — all harmless improvements retained in case enrichment is ever revisited. The v5 re-smoke was killed mid-flight when the decision landed (~$0 extra).
+- **Citation re-grounding (same session):** verifying the core revealed it carried the SAME latent `:11` bug (3,784/3,811). Re-grounded deterministically (line-numbers-only; quote text + edge set byte-identical) so the shipped core's citations are navigable. The core is **still v1.3** — same edges/types, repaired citations.
+- **Next (deferred levers, NOT enrichment):** conflict-pair audit (precision cleanup), `scripts/graph-query.py`, edge temporal-scoping. See `progress/continue-prompts/2026-05-26-graph-exercise-followups.md`.
 
 ### RESOLVED/CORRECTED: The "unpromoted-node gap" was a FALSE ALARM — node layer is whole (2026-05-25, Session 72)
 - **S71 claimed** ~7,251 staged `.node.md` were never promoted and PAUSED edges until "the node layer is whole." **That was a file count without a slug intersection — and it was wrong.** S72 verified three ways: (1) slug reconciliation — **7,039 of 7,047** unique staged-skeleton slugs are ALREADY in `graph/nodes/`; only **8** truly net-new. (2) `promote.py` dry-run — of ~3,730 promotable Tier-A/B pages: **43 net-new / 2,367 byte-equal / 1,307 byte-different**. (3) promoted (8,299) > staged (7,047). **No backlog. The skeletons are stale intermediate artifacts; promoted nodes are canonical (and in substantive conflicts, RICHER).**
@@ -195,6 +202,22 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 74 — Locator grounding fix, enrichment NO-GO, core citations re-grounded, graph exercised (2026-05-26)
+
+**Model:** Opus 4.7 + script-builder (Sonnet) + prose-edge-reviewer ×2. **Detail:** `history/session-details/session-074.md`. **Commit:** `63b8b461a`.
+
+**Changes made:**
+- `scripts/stage4-pass1-evidence-locator.py` — hint-anchored quote grounding (hint-verbatim→hint-fuzzy→both-named-window) + new `quote_source` field; **fixed `:11` line-number bug** (`read_chapter_prose` stripped blanks → `split_into_sentences` never saw paragraph breaks → all refs pinned to first prose line; fixed via gap-detection).
+- `scripts/stage4-tail-classifier.py` — `quote_source`/`locate_quality` passthrough into all 4 output builders; **v5 precision rules** (`prompt_version=v5-precision-rules`, sha `d31ca56c4768`): R1 direction-lock, R2 evidence-supports-both-endpoints, R3 target-category, R4 state-not-moment, R5 temporal-phase, R6 no-analytical-from-moment.
+- NEW `scripts/stage4-reground-core-citations.py` (+test) — re-grounded the SHIPPED core: **`graph/edges/edges.jsonl` 3,676/3,811 `evidence_ref` line numbers corrected** (quote text + edge set byte-identical, 3,811→3,811, safety-asserted; 9 left honestly unresolved). Edges are still v1.3 — same edges/types, citations now navigable.
+- `.gitignore` — ignore regrounding backup/candidate (report tracked). 883 tests green.
+
+**Decisions:** **Enrichment NO-GO → ship core-only.** Post-locator-fix out-of-sample smokes = **74.5% / 62.5%** strict (unstable, <75% gate; clear-case 83-89% but borderline over-emits sink it). The ~78% deterministic core is the better artifact than a ~70% LLM layer with no scheduled patcher (project value: a wrong cited edge is graph pollution). v5 rules authored + kept for any future revisit; v5 smokes killed mid-flight on Matt's "ship the core" call (~$0 extra). **Then discovered the committed core carried the SAME latent `:11` citation bug** (3,784/3,811) → re-grounded deterministically before declaring shipped.
+
+**Graph exercised (the payoff):** nodes+edges+index **compose; 100% of 898 edge endpoints resolve to a node, 0 orphans, fully traversable.** Cersei/Tyrion query returned rich neighborhoods + 18 direct + 27 two-hop. Surfaced: mis-typed edges now *clickable* via the fixed citations (`cersei LOVES tyrion`=Varys-line; `tyrion LOVES cersei`=sarcasm; `ALLIES_WITH`=grudging submission); structural gap = **no temporal scoping → contradictory edges coexist** (LOVES+HATES same pair). Conflicting-type pairs concentrate the mis-types.
+
+**What's next:** → `progress/continue-prompts/2026-05-26-graph-exercise-followups.md` (**Sonnet 4.6** builds; Opus review). (1) $0 **conflict-pair audit** — flag pairs with incompatible edge types as a precision-cleanup queue (attacks the ~22%). (2) Formalize the ad-hoc traversal into reusable `scripts/graph-query.py`. (3) Deferred: temporal/chapter scoping on edges; SIBLING_OF-class weak-evidence backfill. Spend: ~$2.5.
+
 ### Session 73 — Cleanup-and-reorg triage: worktrees removed, CLAUDE.md #9 finding, scripts KEPT (2026-05-26)
 
 **Model:** Opus 4.7. **Detail:** `history/session-details/session-073.md`. **Commit:** this endsession commit.
@@ -271,25 +294,8 @@ This is your project memory. When you come back after a break, read Current Stat
 
 ---
 
-### Session 69 — Stage 4 recall expansion: table-mining smokes + 2 reviews, held at $270 gate (2026-05-24)
-
-**Detail:** `history/session-details/session-069.md`
-
-**Changes made:**
-- Committed S68 (`304192ffb`) after flagging a CLAUDE.md #9 stale-prompt contradiction (S67 was already committed; only S68 was pending — not "both uncommitted" as the prompt claimed).
-- script-builder (Sonnet) extended `scripts/stage4-pass1-extra-tables.py` with Events/Info/Food candidate generators (entity-match via resolver, ≥2-entity filter, first-actor fan-out) + locator-anchored ALL `_extra-tables` rows to `sources/chapters/{book}/{chapter}.md:line`; smoke-enabled `scripts/stage4-tail-classifier.py` to read `_extra-tables` rows + added ENCOUNTERS Rule-6 verb-gate to the prompt + `--sample-n` stratified smoke. `--apply` wrote **32,194 untyped candidate rows** (Dialogue 4,422 / Events 20,321 / Info 6,653 / Food 798).
-- Added `--output-dir` (+ `.resolve()` + defensive `relative_to`) to the tail-classifier so smokes NEVER append into canonical `_tail-typed/`; + redirect test. 273 tests green.
-- Ran 2 smokes (Sonnet `claude -p`, ~$3.60 total): Dialogue 144 typed/56 rej/$1.68; Events/Info/Food 123 typed/77 rej/$1.89. Measured ~$0.009/row → full run re-baselined to **$270-290** (not ~$100; the Events fan-out) + ~3-4 days wall-clock (needs parallel wrapper).
-- 2 `prose-edge-reviewer` audits — both **SYSTEMATIC**. Strict precision Dialogue ~60% / Events ~66%; reject ~90%; Events direction-error ~7%, fan-out spurious ~18%, bare-slug ~15%.
-- NEW: `STAGE4-SMOKE-REVIEW.md` (repo root, for Matt), `working/wiki/data/pass1-derived-smoke-report.md`, continue prompt `progress/continue-prompts/2026-05-25-stage4-smoke-fixes-and-formalize.md`. Deleted superseded `2026-05-24-stage4-recall-expansion.md`.
-
-**Decisions:** Matt's call: type all 4 tables (Dialogue/Events/Info/Food; fights ∈ Events) before formalizing; **full source-chapter re-read DEFERRED** (table-mining now, enrich later — additive "build then enrich"). **HELD at the $270 spend gate** — the smokes did their job, catching 3 systematic, fixable ($0) problem classes: (1) prompt over-types `INFORMS` (~100% wrong — it's spy→handler)/`ADVISES`/`MANIPULATES`/`SUPPORTS`/`ALIAS_OF` + uniform Tier-1; (2) generator direction-heuristic/fan-out/bare-slug emission = the SAME `all-for-joffrey` endpoint-pollution class as the 529 Hospitality edges (one fix cleans both); (3) `candidate_kind` hardcoded → provenance loss (`stage4-tail-classifier.py:502`). Reject discipline (~90%) + relationship-revealing types (SIBLING_OF/KILLS/VOWS_TO/DUELS/REVEALS_TO/CONSPIRES_WITH/FIGHTS_IN) are solid. Canonical `_tail-typed/` (2,385 edges) untouched all session. Two bugs caught by doing, not by the 273 green tests.
-
-**What's next:** → continue: `progress/continue-prompts/2026-05-25-stage4-smoke-fixes-and-formalize.md` (**Opus 4.7** — decisions A/B/C; Sonnet for the $0 fixes). Track 1: 3 fixes (prompt vocab restriction+anti-patterns; generator direction-validation+slug-quality gate = endpoint filter; candidate_kind provenance). Track 2: re-smoke ~$4 → confirm ≥80% strict precision. Track 3: scoped full run (Events+Dialogue first; defer Info; Food separate-audit) via `run-forever` wrapper, drift-detection mandatory. Track 4: **FORMALIZE into `graph/edges/`** — the milestone; absorbs the still-open S66/S67 merge/dedup/resolver-lever finishing work (`2026-05-23-stage4-pass1-finishing.md`). 3 decisions for Matt: (A) restricted vocab, (B) table scope, (C) full-run approval after re-smoke.
-
----
-
-> Session 68 archived to `history/worklog-archives/archive015.md` (archive015 started — 1/5)
+> Session 69 archived to `history/worklog-archives/archive015.md` (archive015 now 2/5)
+> Session 68 archived to `history/worklog-archives/archive015.md`
 > Session 67 archived to `history/worklog-archives/archive014.md` (archive014 now full at 5/5)
 > Session 66 archived to `history/worklog-archives/archive014.md`
 > Session 65 archived to `history/worklog-archives/archive014.md` (archive014 now 3/5)
