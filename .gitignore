@@ -32,3 +32,10 @@ working/wiki/pass2-buckets/pass1-derived/
 
 # Matt's private scratch notes — never commit
 scratch*
+
+# Session 74 (2026-05-26): core-citation re-grounding intermediates. The corrected
+# graph/edges/edges.jsonl is committed; the pre-fix backup (recoverable from git history)
+# and the candidate (regenerate via `python3 scripts/stage4-reground-core-citations.py`)
+# are derived/redundant. The report IS tracked.
+graph/edges/_regrounding/edges-preregrounding-backup.jsonl
+graph/edges/_regrounding/edges-regrounded-candidate.jsonl

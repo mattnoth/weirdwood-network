@@ -2201,5 +2201,195 @@ class TestPromptProvenance(unittest.TestCase):
         self.assertIn("prompt_sha", row)
 
 
+# ---------------------------------------------------------------------------
+# Tests: v5 precision rules — prompt text assertions
+# ---------------------------------------------------------------------------
+
+class TestV5PrecisionRules(unittest.TestCase):
+    """v5 PRECISION RULES block (V5-R1 through V5-R6) must appear in _PROMPT_PREAMBLE
+    and propagate into the rendered classify prompt.
+    """
+
+    def test_default_prompt_version_is_v5(self):
+        """DEFAULT_PROMPT_VERSION must be 'v5-precision-rules'."""
+        self.assertEqual(
+            tc.DEFAULT_PROMPT_VERSION,
+            "v5-precision-rules",
+            "DEFAULT_PROMPT_VERSION must be bumped to v5-precision-rules",
+        )
+
+    def test_v5_block_header_in_preamble(self):
+        """The 'v5 PRECISION RULES' section header must appear in _PROMPT_PREAMBLE."""
+        self.assertIn("v5 PRECISION RULES", tc._PROMPT_PREAMBLE)
+
+    # ------------------------------------------------------------------
+    # V5-R1 — direction lock on structural edges
+    # ------------------------------------------------------------------
+
+    def test_v5_r1_marker_in_preamble(self):
+        """V5-R1 rule marker must appear in _PROMPT_PREAMBLE."""
+        self.assertIn("V5-R1", tc._PROMPT_PREAMBLE)
+
+    def test_v5_r1_direction_lock_types_in_preamble(self):
+        """V5-R1 must name the structural edge types it gates."""
+        preamble = tc._PROMPT_PREAMBLE
+        for t in ["LOCATED_AT", "TRAVELS_TO", "PARTICIPATES_IN", "IMPRISONED_AT", "GIFTED_TO"]:
+            self.assertIn(t, preamble, f"V5-R1 must mention {t}")
+
+    def test_v5_r1_gifted_to_artifact_source_rule(self):
+        """V5-R1 must state GIFTED_TO requires SOURCE=artifact, TARGET=recipient."""
+        preamble = tc._PROMPT_PREAMBLE.lower()
+        self.assertTrue(
+            "gifted_to" in preamble and "artifact" in preamble,
+            "V5-R1 must mention GIFTED_TO artifact-source requirement",
+        )
+
+    # ------------------------------------------------------------------
+    # V5-R2 — evidence must support both endpoints
+    # ------------------------------------------------------------------
+
+    def test_v5_r2_marker_in_preamble(self):
+        """V5-R2 rule marker must appear in _PROMPT_PREAMBLE."""
+        self.assertIn("V5-R2", tc._PROMPT_PREAMBLE)
+
+    def test_v5_r2_both_endpoints_language(self):
+        """V5-R2 must require evidence for both endpoints."""
+        preamble = tc._PROMPT_PREAMBLE.lower()
+        self.assertTrue(
+            "both endpoint" in preamble or "both source" in preamble or "both ends" in preamble,
+            "V5-R2 must mention requiring evidence for both endpoints",
+        )
+
+    def test_v5_r2_co_occurrence_not_evidence(self):
+        """V5-R2 must reject co-occurrence as evidence."""
+        preamble = tc._PROMPT_PREAMBLE.lower()
+        self.assertIn(
+            "co-occurrence",
+            preamble,
+            "V5-R2 must state co-occurrence is not evidence",
+        )
+
+    # ------------------------------------------------------------------
+    # V5-R3 — target category must match the type
+    # ------------------------------------------------------------------
+
+    def test_v5_r3_marker_in_preamble(self):
+        """V5-R3 rule marker must appear in _PROMPT_PREAMBLE."""
+        self.assertIn("V5-R3", tc._PROMPT_PREAMBLE)
+
+    def test_v5_r3_practices_not_language(self):
+        """V5-R3 must prohibit PRACTICES with a language target."""
+        preamble = tc._PROMPT_PREAMBLE
+        self.assertIn("PRACTICES", preamble)
+        lower = preamble.lower()
+        self.assertIn("language", lower, "V5-R3 must call out language as invalid PRACTICES target")
+
+    def test_v5_r3_claims_target_constraint(self):
+        """V5-R3 must state CLAIMS targets a title/domain/throne, never a person."""
+        preamble = tc._PROMPT_PREAMBLE
+        self.assertIn("CLAIMS", preamble)
+
+    def test_v5_r3_worships_target_constraint(self):
+        """V5-R3 must state WORSHIPS targets a deity/religion."""
+        preamble = tc._PROMPT_PREAMBLE
+        self.assertIn("WORSHIPS", preamble)
+
+    # ------------------------------------------------------------------
+    # V5-R4 — state-not-moment for ATTACKS / COMMANDS / ALLIES_WITH
+    # ------------------------------------------------------------------
+
+    def test_v5_r4_marker_in_preamble(self):
+        """V5-R4 rule marker must appear in _PROMPT_PREAMBLE."""
+        self.assertIn("V5-R4", tc._PROMPT_PREAMBLE)
+
+    def test_v5_r4_attacks_intent_requirement(self):
+        """V5-R4 must state ATTACKS requires violent/combat intent."""
+        preamble = tc._PROMPT_PREAMBLE.lower()
+        self.assertTrue(
+            "attacks" in preamble and ("violent" in preamble or "combat intent" in preamble),
+            "V5-R4 must state ATTACKS requires violent/combat intent",
+        )
+
+    def test_v5_r4_commands_standing_requirement(self):
+        """V5-R4 must state COMMANDS requires a STANDING relationship."""
+        preamble = tc._PROMPT_PREAMBLE.lower()
+        self.assertTrue(
+            "commands" in preamble and "standing" in preamble,
+            "V5-R4 must state COMMANDS requires a standing relationship",
+        )
+
+    def test_v5_r4_allies_with_peer_alliance(self):
+        """V5-R4 must clarify ALLIES_WITH is a peer/political alliance."""
+        preamble = tc._PROMPT_PREAMBLE
+        self.assertIn("ALLIES_WITH", preamble)
+
+    # ------------------------------------------------------------------
+    # V5-R5 — temporal phase
+    # ------------------------------------------------------------------
+
+    def test_v5_r5_marker_in_preamble(self):
+        """V5-R5 rule marker must appear in _PROMPT_PREAMBLE."""
+        self.assertIn("V5-R5", tc._PROMPT_PREAMBLE)
+
+    def test_v5_r5_spouse_over_betrothed(self):
+        """V5-R5 must cite the SPOUSE_OF vs BETROTHED_TO example."""
+        preamble = tc._PROMPT_PREAMBLE
+        self.assertIn("SPOUSE_OF", preamble)
+        self.assertIn("BETROTHED_TO", preamble)
+
+    def test_v5_r5_temporal_phase_language(self):
+        """V5-R5 must mention choosing the phase true at this chapter's point."""
+        preamble = tc._PROMPT_PREAMBLE.lower()
+        self.assertTrue(
+            "phase" in preamble or "timeline" in preamble,
+            "V5-R5 must reference temporal phase / timeline",
+        )
+
+    # ------------------------------------------------------------------
+    # V5-R6 — no analytical types from a single moment
+    # ------------------------------------------------------------------
+
+    def test_v5_r6_marker_in_preamble(self):
+        """V5-R6 rule marker must appear in _PROMPT_PREAMBLE."""
+        self.assertIn("V5-R6", tc._PROMPT_PREAMBLE)
+
+    def test_v5_r6_parallels_requires_multi_scene(self):
+        """V5-R6 must state PARALLELS requires multi-scene evidence."""
+        preamble = tc._PROMPT_PREAMBLE
+        self.assertIn("PARALLELS", preamble)
+        lower = preamble.lower()
+        self.assertTrue(
+            "multi-scene" in lower or "single moment" in lower or "single line" in lower,
+            "V5-R6 must prohibit PARALLELS from a single moment/line",
+        )
+
+    def test_v5_r6_analytical_pass_ownership(self):
+        """V5-R6 must state a later analytical pass owns thematic edges."""
+        preamble = tc._PROMPT_PREAMBLE.lower()
+        self.assertIn(
+            "analytical pass",
+            preamble,
+            "V5-R6 must defer thematic edges to a later analytical pass",
+        )
+
+    # ------------------------------------------------------------------
+    # All 6 V5 markers in rendered prompt
+    # ------------------------------------------------------------------
+
+    def test_all_v5_markers_in_rendered_prompt(self):
+        """All 6 V5-R* markers must propagate into the rendered classify prompt."""
+        rows = [_make_tail_row()]
+        prompt = tc.render_classify_prompt(rows, _SAMPLE_VOCAB)
+        for marker in ["V5-R1", "V5-R2", "V5-R3", "V5-R4", "V5-R5", "V5-R6"]:
+            self.assertIn(marker, prompt, f"{marker} must appear in rendered classify prompt")
+
+    def test_rule_numbering_includes_v5_block(self):
+        """_PROMPT_PREAMBLE must still contain rules 1–14 plus the v5 block."""
+        preamble = tc._PROMPT_PREAMBLE
+        for n in range(1, 15):
+            self.assertIn(f"{n}.", preamble, f"Rule {n} must still be present alongside v5 rules")
+        self.assertIn("v5 PRECISION RULES", preamble)
+
+
 if __name__ == "__main__":
     unittest.main()

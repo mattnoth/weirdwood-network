@@ -10,33 +10,49 @@ The evidence_text cell from the extraction is usually PARAPHRASED (e.g.
 so matching is fuzzy: we score sentences by overlap with entity surface forms
 + distinctive content words from the evidence_text and hint_raw.
 
-IMPROVED QUOTE SELECTION (v2):
-  The locator now PREFERS a quote window that names BOTH the source AND target
-  entity.  It uses the alias-aware token index from stage4-quote-relevance-filter
-  (build_slug_token_index) so that aliases and first-name forms are recognised.
+IMPROVED QUOTE SELECTION (v3):
+  The locator now FIRST tries to use the hint's own quoted/verbatim content
+  before falling back to the content-scoring approach.
 
-  Selection algorithm:
-    1. Score every sentence for: src_named (bool), tgt_named (bool),
-       content_hits (int).
-    2. Prefer any single sentence that names BOTH — take the highest
-       content-hit scorer among those.
-    3. If no single sentence names both, try a sliding window of up to
-       BOTH_NAMED_WINDOW_SENTENCES (default 3) consecutive sentences
-       centred on the best-scoring sentence.  If a window names both,
-       emit it as the quote.
-    4. Fall back to the highest-scoring single sentence (old behaviour) if
-       no both-naming window exists within the bounded search.
-    5. If no sentence meets the minimum score threshold, fall back to
-       chapter-level.
+  Selection algorithm (A → B → C → D):
+    A. hint-verbatim  — Extract quoted fragment(s) from hint_raw (straight and
+       curly quote glyphs).  Normalize whitespace + quote glyphs before
+       comparing.  If a fragment ≥ ~15 chars / 3 words is found in the chapter
+       sentences, use the containing sentence as evidence_quote.
+       quote_source="hint-verbatim".  locate_quality based on whether that
+       sentence names 0/1/2 endpoints — never fabricate a both-named window
+       from elsewhere.
+
+    B. hint-fuzzy  — If no verbatim match: strip markdown lead-ins (**...**)
+       and trailing [annotations], extract action verb + key content tokens
+       from the remaining hint text, and fuzzy-match against sentences.
+       quote_source="hint-fuzzy".  Same honest locate_quality.
+
+    C. both-named-window  — Only if A and B both fail: fall back to the v2
+       content-scoring + both-named-window search (original Steps 1–4).
+       quote_source="both-named-window".
+
+    D. nearest-fallback / chapter-level  — as before.
+       quote_source="nearest-fallback" or "chapter-level".
+
+  Critical rule: if the hint's true location does NOT name both entities, set
+  locate_quality to "hint-anchored-one-named" or "hint-anchored-none" and do
+  NOT fabricate a both-named quote from elsewhere.  A mismatched both-named
+  quote is worse than an honest weak one.
 
   Coreference limit: when a character is referred to only as "she"/"he"/"my
   father" the window expansion CANNOT recover the name.  Those cases land
-  as locate_quality=one-named or nearest-fallback — this is a known, hard
-  limit documented in the design notes.
+  as locate_quality=hint-anchored-one-named/one-named or nearest-fallback —
+  this is a known, hard limit documented in the design notes.
 
-New field emitted: locate_quality ∈ {both-named, one-named,
-nearest-fallback, chapter-level}.  Existing fields (evidence_quote,
-evidence_ref, locate_status) are unchanged.
+New fields emitted:
+  locate_quality ∈ {both-named, one-named, nearest-fallback, chapter-level,
+                    hint-anchored-both-named, hint-anchored-one-named,
+                    hint-anchored-none}
+  quote_source   ∈ {hint-verbatim, hint-fuzzy, both-named-window,
+                    nearest-fallback, chapter-level}
+
+Existing fields (evidence_quote, evidence_ref, locate_status) are unchanged.
 
 For typed candidates → emits to {chapter}.edges.jsonl (the "win" file).
 For untyped candidates → emits to {chapter}.tail.jsonl (staged for future LLM pass).
@@ -201,6 +217,191 @@ def _content_words(text: str) -> set[str]:
 
 
 # ---------------------------------------------------------------------------
+# Quote-glyph normalization (for hint-verbatim matching)
+# ---------------------------------------------------------------------------
+
+# Curly/typographic quote pairs → straight equivalents
+_QUOTE_NORM_TABLE = str.maketrans({
+    "“": '"',  # LEFT DOUBLE QUOTATION MARK
+    "”": '"',  # RIGHT DOUBLE QUOTATION MARK
+    "‘": "'",  # LEFT SINGLE QUOTATION MARK
+    "’": "'",  # RIGHT SINGLE QUOTATION MARK (also apostrophe)
+    "′": "'",  # PRIME
+    "″": '"',  # DOUBLE PRIME
+    "«": '"',  # LEFT-POINTING DOUBLE ANGLE QUOTATION
+    "»": '"',  # RIGHT-POINTING DOUBLE ANGLE QUOTATION
+    "—": "-",  # EM DASH (normalize for comparison)
+    "–": "-",  # EN DASH
+    " ": " ",  # NON-BREAKING SPACE
+})
+
+# Minimum verbatim fragment length to be worth searching
+_VERBATIM_MIN_CHARS = 15
+_VERBATIM_MIN_WORDS = 3
+
+
+def _normalize_for_match(text: str) -> str:
+    """Normalize text for fuzzy-equality comparison.
+
+    - Translate curly/typographic quotes/dashes to ASCII equivalents
+    - Collapse whitespace
+    - Strip leading/trailing whitespace
+    """
+    text = text.translate(_QUOTE_NORM_TABLE)
+    text = re.sub(r"\s+", " ", text)
+    return text.strip()
+
+
+def _extract_hint_verbatim_fragments(hint_raw: str) -> list[str]:
+    """Extract quoted literal fragments from hint_raw for verbatim search.
+
+    Handles:
+    - Text inside double quotes (straight " or curly " ")
+    - Ignores fragments that are too short (< _VERBATIM_MIN_CHARS chars or
+      < _VERBATIM_MIN_WORDS words) — they're not discriminative enough.
+
+    Returns a list of normalized fragment strings (longest first).
+    """
+    # Normalize quote glyphs before extracting
+    norm = _normalize_for_match(hint_raw)
+
+    # Pull text between double-quote pairs
+    fragments: list[str] = re.findall(r'"([^"]{10,})"', norm)
+
+    # Filter to meaningful length
+    result = []
+    for frag in fragments:
+        frag = frag.strip()
+        word_count = len(re.findall(r"\b\w+\b", frag))
+        if len(frag) >= _VERBATIM_MIN_CHARS and word_count >= _VERBATIM_MIN_WORDS:
+            result.append(frag)
+
+    # Return longest first — longer fragments are more precise
+    return sorted(result, key=len, reverse=True)
+
+
+def _find_verbatim_in_sentences(
+    fragments: list[str],
+    scored: list[tuple[float, bool, bool, int, str]],
+) -> Optional[tuple[int, int, str]]:
+    """Search scored sentences for any fragment from hint_raw.
+
+    Returns (sentence_index, lineno, sentence_text) of the first/best sentence
+    (or merged sentence pair) containing any fragment, or None if not found.
+
+    Matching is done after normalizing both fragment and sentence text
+    (quote glyphs + whitespace).
+
+    When a fragment spans two adjacent sentences (split at a period mid-quote),
+    we also try joining sentence[i] + sentence[i+1] and return sentence[i]
+    as the anchor with the merged text as evidence_quote.
+    """
+    for frag in fragments:
+        frag_lower = _normalize_for_match(frag).lower()
+
+        # Pass 1: single-sentence match
+        for idx, (score, src_named, tgt_named, lineno, sent_text) in enumerate(scored):
+            sent_norm = _normalize_for_match(sent_text).lower()
+            if frag_lower in sent_norm:
+                return (idx, lineno, sent_text)
+
+        # Pass 2: adjacent pair (handles sentences split mid-quote on '.')
+        for idx in range(len(scored) - 1):
+            _, _, _, lineno1, sent1 = scored[idx]
+            _, _, _, lineno2, sent2 = scored[idx + 1]
+            merged = sent1.rstrip() + " " + sent2.lstrip()
+            merged_norm = _normalize_for_match(merged).lower()
+            if frag_lower in merged_norm:
+                # Use the merged text as evidence_quote; scored[idx] as the anchor
+                # We need to return a "virtual" sentence — patch the scored tuple in mind.
+                # Return a synthetic tuple: (idx, lineno1, merged_text)
+                return (idx, lineno1, merged)
+
+        # Pass 3: try matching just the first half of the fragment (≥15 chars)
+        # This handles fragments that are partially truncated in extraction.
+        first_half = frag_lower[:max(15, len(frag_lower) // 2)]
+        for idx, (score, src_named, tgt_named, lineno, sent_text) in enumerate(scored):
+            sent_norm = _normalize_for_match(sent_text).lower()
+            if first_half in sent_norm:
+                return (idx, lineno, sent_text)
+
+    return None
+
+
+# Markdown bold/lead-in and trailing annotation patterns for hint cleanup
+_HINT_BOLD_RE = re.compile(r"\*\*[^*]+\*\*\s*[—\-–]+\s*")   # **Bold** — or **Bold** -
+_HINT_ANNOTATION_RE = re.compile(r"\[[^\]]*\]\s*$")             # trailing [annotation]
+_HINT_LEAD_IN_RE = re.compile(r'^[^a-zA-Z"“”]*')      # non-alpha lead-in chars
+
+
+def _extract_hint_content_words(hint_raw: str) -> set[str]:
+    """Extract content words from hint_raw for fuzzy matching, stripping structural markup.
+
+    Removes:
+    - **Bold lead-in** — markup (Pass-1 extraction convention for Events)
+    - Trailing [annotation] brackets
+    - Quoted text already handled by verbatim path
+
+    Returns a set of content words from the remaining text.
+    """
+    text = hint_raw
+
+    # Strip **Bold lead-in** — or **Bold lead-in** -
+    text = _HINT_BOLD_RE.sub("", text)
+
+    # Strip trailing [annotation]
+    text = _HINT_ANNOTATION_RE.sub("", text)
+
+    # Strip leading non-alpha junk
+    text = _HINT_LEAD_IN_RE.sub("", text)
+
+    # Remove any remaining quoted fragments (those go via verbatim path)
+    text = re.sub(r'"[^"]*"', " ", text)
+    text = re.sub(r"“[^”]*”", " ", text)
+
+    words = _content_words(text)
+    return words
+
+
+# Minimum fraction of hint content words that must appear in a sentence to count as fuzzy match
+_FUZZY_MIN_FRACTION = 0.4
+# Minimum absolute number of matching content words (avoids spurious 1/2 matches)
+_FUZZY_MIN_HITS = 2
+
+
+def _find_fuzzy_in_sentences(
+    hint_words: set[str],
+    scored: list[tuple[float, bool, bool, int, str]],
+) -> Optional[tuple[int, int, str]]:
+    """Find the sentence whose content words best overlap with hint content words.
+
+    Returns (sentence_index, lineno, sentence_text) if a match clears the
+    _FUZZY_MIN_FRACTION threshold, else None.
+
+    Among candidates clearing the threshold, returns the one with the highest
+    absolute hit count.
+    """
+    if not hint_words:
+        return None
+
+    best_idx: Optional[int] = None
+    best_hits = 0
+
+    for idx, (score, src_named, tgt_named, lineno, sent_text) in enumerate(scored):
+        sent_tokens = set(re.findall(r"\b[a-zA-Z]{3,}\b", sent_text.lower()))
+        hits = len(hint_words & sent_tokens)
+        fraction = hits / len(hint_words)
+        if hits >= _FUZZY_MIN_HITS and fraction >= _FUZZY_MIN_FRACTION and hits > best_hits:
+            best_hits = hits
+            best_idx = idx
+
+    if best_idx is not None:
+        _, _, _, lineno, sent_text = scored[best_idx]
+        return (best_idx, lineno, sent_text)
+    return None
+
+
+# ---------------------------------------------------------------------------
 # Name surface forms extractor (kept for backward-compat with tests)
 # ---------------------------------------------------------------------------
 def _name_forms(slug: str) -> set[str]:
@@ -279,18 +480,22 @@ def split_into_sentences(prose_lines: list[tuple[int, str]]) -> list[tuple[int, 
     """Split prose lines into sentences, tracking the line number of each sentence's start.
 
     Returns list of (line_number, sentence_text) where line_number is 1-based and
-    refers to the source line where the sentence began.
+    refers to the source file line where the sentence began.
+
+    Paragraph boundaries are detected two ways:
+    1. A blank/empty line in prose_lines (text == "").
+    2. A gap in line numbers > 1 between consecutive prose lines — this catches the
+       common case where read_chapter_prose has filtered out blank lines, leaving
+       a jump (e.g. line 11 → line 13) that signals a paragraph break.
+
+    All sentences within a paragraph inherit the paragraph's START line number,
+    which is the 1-based file line of the paragraph's first text line.
     """
     sentences: list[tuple[int, str]] = []
 
-    # First, join adjacent lines into paragraphs to avoid intra-sentence line breaks
-    # While tracking the start line of each paragraph
-    i = 0
-    lines = prose_lines
-
-    # Approach: work line by line, accumulate text per paragraph
     current_start_line: int | None = None
     current_text: list[str] = []
+    prev_lineno: int | None = None
 
     def flush_paragraph():
         nonlocal current_start_line, current_text
@@ -305,14 +510,20 @@ def split_into_sentences(prose_lines: list[tuple[int, str]]) -> list[tuple[int, 
             current_text = []
             current_start_line = None
 
-    for lineno, line in lines:
+    for lineno, line in prose_lines:
         text = line.strip()
         if not text:
+            # Explicit blank line sentinel → flush current paragraph
             flush_paragraph()
+            prev_lineno = lineno
             continue
+        # Detect paragraph boundary from a line-number gap (blank lines filtered upstream)
+        if prev_lineno is not None and lineno > prev_lineno + 1 and current_text:
+            flush_paragraph()
         if current_start_line is None:
             current_start_line = lineno
         current_text.append(text)
+        prev_lineno = lineno
 
     flush_paragraph()
     return sentences
@@ -390,6 +601,7 @@ def locate_evidence(
             "evidence_ref": chapter_ref_base,
             "locate_status": "chapter-level",
             "locate_quality": "chapter-level",
+            "quote_source": "chapter-level",
         }
 
     sentences = split_into_sentences(prose_lines)
@@ -400,6 +612,7 @@ def locate_evidence(
             "evidence_ref": chapter_ref_base,
             "locate_status": "chapter-level",
             "locate_quality": "chapter-level",
+            "quote_source": "chapter-level",
         }
 
     # -----------------------------------------------------------------------
@@ -447,10 +660,67 @@ def locate_evidence(
             "evidence_ref": chapter_ref_base,
             "locate_status": "chapter-level",
             "locate_quality": "chapter-level",
+            "quote_source": "chapter-level",
         }
 
     # -----------------------------------------------------------------------
-    # Step 2: Find best single sentence naming BOTH
+    # Path A: hint-verbatim — search for quoted fragments from hint_raw
+    # -----------------------------------------------------------------------
+    hint_fragments = _extract_hint_verbatim_fragments(hint_raw)
+    if hint_fragments:
+        found = _find_verbatim_in_sentences(hint_fragments, scored)
+        if found is not None:
+            sent_idx, match_lineno, match_sent = found
+            # Re-evaluate naming from the actual match_sent (may be a merged pair)
+            match_lower = match_sent.lower()
+            sent_src_named = _slug_named_in_text(src_tokens, match_lower) if src_tokens \
+                else any(form in match_lower for form in source_forms)
+            sent_tgt_named = _slug_named_in_text(tgt_tokens, match_lower) if tgt_tokens \
+                else any(form in match_lower for form in target_forms)
+            if sent_src_named and sent_tgt_named:
+                lq = "hint-anchored-both-named"
+            elif sent_src_named or sent_tgt_named:
+                lq = "hint-anchored-one-named"
+            else:
+                lq = "hint-anchored-none"
+            return {
+                "evidence_quote": match_sent.strip(),
+                "evidence_ref": f"{chapter_ref_base}:{match_lineno}",
+                "locate_status": "verbatim",
+                "locate_quality": lq,
+                "quote_source": "hint-verbatim",
+            }
+
+    # -----------------------------------------------------------------------
+    # Path B: hint-fuzzy — strip markdown / annotations, fuzzy-match hint tokens
+    # -----------------------------------------------------------------------
+    hint_content_words = _extract_hint_content_words(hint_raw)
+    if hint_content_words:
+        found = _find_fuzzy_in_sentences(hint_content_words, scored)
+        if found is not None:
+            sent_idx, match_lineno, match_sent = found
+            # Re-evaluate naming from the actual match_sent
+            match_lower = match_sent.lower()
+            sent_src_named = _slug_named_in_text(src_tokens, match_lower) if src_tokens \
+                else any(form in match_lower for form in source_forms)
+            sent_tgt_named = _slug_named_in_text(tgt_tokens, match_lower) if tgt_tokens \
+                else any(form in match_lower for form in target_forms)
+            if sent_src_named and sent_tgt_named:
+                lq = "hint-anchored-both-named"
+            elif sent_src_named or sent_tgt_named:
+                lq = "hint-anchored-one-named"
+            else:
+                lq = "hint-anchored-none"
+            return {
+                "evidence_quote": match_sent.strip(),
+                "evidence_ref": f"{chapter_ref_base}:{match_lineno}",
+                "locate_status": "verbatim",
+                "locate_quality": lq,
+                "quote_source": "hint-fuzzy",
+            }
+
+    # -----------------------------------------------------------------------
+    # Path C / Step 2 (fallback): Find best single sentence naming BOTH
     # -----------------------------------------------------------------------
     both_named_candidates = [
         (score, lineno, sent_text)
@@ -466,6 +736,7 @@ def locate_evidence(
             "evidence_ref": f"{chapter_ref_base}:{best_lineno}",
             "locate_status": "verbatim",
             "locate_quality": "both-named",
+            "quote_source": "both-named-window",
         }
 
     # -----------------------------------------------------------------------
@@ -520,6 +791,7 @@ def locate_evidence(
                 "evidence_ref": f"{chapter_ref_base}:{best_window_lineno}",
                 "locate_status": "verbatim",
                 "locate_quality": "both-named",
+                "quote_source": "both-named-window",
             }
 
         # No window names both — fall back to best single sentence
@@ -533,6 +805,7 @@ def locate_evidence(
             "evidence_ref": f"{chapter_ref_base}:{best_lineno}",
             "locate_status": "verbatim",
             "locate_quality": quality,
+            "quote_source": "nearest-fallback",
         }
 
     else:
@@ -543,6 +816,7 @@ def locate_evidence(
             "evidence_ref": chapter_ref_base,
             "locate_status": "chapter-level",
             "locate_quality": "chapter-level",
+            "quote_source": "chapter-level",
         }
 
 
@@ -620,10 +894,22 @@ def main() -> None:
     count_verbatim = 0
     count_chapter_level = 0
 
-    # locate_quality distribution
+    # locate_quality distribution (extended with hint-anchored variants)
     quality_counts: dict[str, int] = {
         "both-named": 0,
+        "hint-anchored-both-named": 0,
+        "hint-anchored-one-named": 0,
+        "hint-anchored-none": 0,
         "one-named": 0,
+        "nearest-fallback": 0,
+        "chapter-level": 0,
+    }
+
+    # quote_source distribution
+    quote_source_counts: dict[str, int] = {
+        "hint-verbatim": 0,
+        "hint-fuzzy": 0,
+        "both-named-window": 0,
         "nearest-fallback": 0,
         "chapter-level": 0,
     }
@@ -684,6 +970,7 @@ def main() -> None:
                     "evidence_ref": chapter_rel,
                     "locate_status": "chapter-level",
                     "locate_quality": "chapter-level",
+                    "quote_source": "chapter-level",
                 }
 
             # Track stats
@@ -696,6 +983,9 @@ def main() -> None:
 
             lq = loc.get("locate_quality", "chapter-level")
             quality_counts[lq] = quality_counts.get(lq, 0) + 1
+
+            qs = loc.get("quote_source", "chapter-level")
+            quote_source_counts[qs] = quote_source_counts.get(qs, 0) + 1
 
             if is_typed:
                 count_typed += 1
@@ -733,6 +1023,7 @@ def main() -> None:
                     "wiki_edge_type": cand.get("wiki_edge_type"),
                     "locate_status": loc["locate_status"],
                     "locate_quality": loc.get("locate_quality", "chapter-level"),
+                    "quote_source": loc.get("quote_source", "chapter-level"),
                     "run_id": cand.get("run_id", ""),
                     "schema_version": cand.get("schema_version", ""),
                     "produced_at": cand.get("produced_at", produced_at),
@@ -758,6 +1049,7 @@ def main() -> None:
                     "wiki_edge_type": cand.get("wiki_edge_type"),
                     "locate_status": loc["locate_status"],
                     "locate_quality": loc.get("locate_quality", "chapter-level"),
+                    "quote_source": loc.get("quote_source", "chapter-level"),
                     "run_id": cand.get("run_id", ""),
                     "schema_version": cand.get("schema_version", ""),
                     "produced_at": cand.get("produced_at", produced_at),
@@ -788,10 +1080,25 @@ def main() -> None:
     print()
 
     print("locate_quality distribution:")
-    for q in ["both-named", "one-named", "nearest-fallback", "chapter-level"]:
+    all_quality_keys = [
+        "hint-anchored-both-named", "hint-anchored-one-named", "hint-anchored-none",
+        "both-named", "one-named", "nearest-fallback", "chapter-level",
+    ]
+    for q in all_quality_keys:
         n = quality_counts.get(q, 0)
+        if n == 0:
+            continue
         pct = 100.0 * n / count_candidates if count_candidates else 0.0
-        print(f"  {q:<20}  {n:>6,}  ({pct:.1f}%)")
+        print(f"  {q:<28}  {n:>6,}  ({pct:.1f}%)")
+    print()
+
+    print("quote_source distribution:")
+    for qs in ["hint-verbatim", "hint-fuzzy", "both-named-window", "nearest-fallback", "chapter-level"]:
+        n = quote_source_counts.get(qs, 0)
+        if n == 0:
+            continue
+        pct = 100.0 * n / count_candidates if count_candidates else 0.0
+        print(f"  {qs:<22}  {n:>6,}  ({pct:.1f}%)")
     print()
 
     print("Per-book breakdown:")

@@ -30,6 +30,7 @@ from tests._helpers import load_script
 
 candidates_mod = load_script("stage4-pass1-edge-candidates.py")
 locator_mod = load_script("stage4-pass1-evidence-locator.py")
+classifier_mod = load_script("stage4-tail-classifier.py")
 
 
 # ---------------------------------------------------------------------------
@@ -799,7 +800,10 @@ class TestBothNamedPreference(unittest.TestCase):
 
     def test_quality_values_are_valid_enum(self):
         """All returned locate_quality values must be in the documented enum."""
-        valid_quality = {"both-named", "one-named", "nearest-fallback", "chapter-level"}
+        valid_quality = {
+            "both-named", "one-named", "nearest-fallback", "chapter-level",
+            "hint-anchored-both-named", "hint-anchored-one-named", "hint-anchored-none",
+        }
         prose_cases = [
             ("Arya and Yoren ran together.", "arya-stark", "yoren"),
             ("She ran alone.", "arya-stark", "yoren"),
@@ -819,6 +823,254 @@ class TestBothNamedPreference(unittest.TestCase):
             result = locator_mod.locate_evidence(candidate, chapter_path)
             self.assertIn(result["locate_quality"], valid_quality,
                           f"Invalid locate_quality {result['locate_quality']!r} for {prose!r}")
+
+
+# ---------------------------------------------------------------------------
+# Tests: v3 locator — hint-verbatim, hint-fuzzy, no-fabrication rule
+# ---------------------------------------------------------------------------
+
+class TestHintVerbatimPath(unittest.TestCase):
+    """locate_evidence Path A: hint-verbatim takes priority when hint contains a quoted fragment."""
+
+    def setUp(self):
+        self._tmp = tempfile.mkdtemp()
+        self._tmp_path = Path(self._tmp)
+
+    def _write_chapter(self, book: str, chapter_slug: str, prose: str) -> Path:
+        chapter_dir = self._tmp_path / "sources" / "chapters" / book
+        chapter_dir.mkdir(parents=True, exist_ok=True)
+        content = f"---\nbook: TEST\npov_character: Test\n---\n\n{prose}\n"
+        path = chapter_dir / f"{chapter_slug}.md"
+        path.write_text(content, encoding="utf-8")
+        return path
+
+    def test_hint_verbatim_match_timeon_style(self):
+        """When hint_raw contains a quoted fragment, evidence_quote should be that sentence.
+
+        Mirrors the timeon→brienne-tarth failure case: hint has "You did for Vargo..."
+        but old locator attached an unrelated both-named sentence.  The fixed locator
+        should return the sentence containing the verbatim quote.
+        """
+        prose = (
+            "Brienne raised her sword and prepared to strike.\n"
+            "\"You did for Vargo with that bite, you know.\n"
+            "His ear turned black and started leaking pus.\n"
+            "Brienne stabbed him through the throat and Timeon fell.\n"
+        )
+        chapter_path = self._write_chapter("affc", "affc-brienne-test", prose)
+
+        candidate = {
+            "source_slug": "timeon",
+            "target_slug": "brienne-tarth",
+            "hint_raw": '"You did for Vargo with that bite, you know." [Telling Brienne about Hoat\'s fate',
+            "evidence_text": "",
+            "evidence_chapter": "affc-brienne-test",
+            "evidence_book": "affc",
+        }
+        result = locator_mod.locate_evidence(candidate, chapter_path)
+
+        self.assertEqual(result["locate_status"], "verbatim")
+        self.assertEqual(result["quote_source"], "hint-verbatim",
+                         f"Expected hint-verbatim, got {result['quote_source']!r}")
+        # The evidence_quote must contain the verbatim fragment, NOT some other sentence
+        self.assertIn("Vargo", result["evidence_quote"],
+                      f"Quote should contain 'Vargo': {result['evidence_quote']!r}")
+        # Must NOT be the unrelated both-named sentence about Brienne stabbing Timeon
+        self.assertNotIn("stabbed him through the throat", result["evidence_quote"],
+                         "Should not have grabbed the unrelated both-named sentence")
+
+    def test_hint_verbatim_uses_quote_source_field(self):
+        """quote_source must be emitted on every return path."""
+        prose = "Arya watched as Yoren cut her hair carefully.\n"
+        chapter_path = self._write_chapter("acok", "acok-qs-test", prose)
+
+        candidate = {
+            "source_slug": "arya-stark",
+            "target_slug": "yoren",
+            "hint_raw": '"Yoren cut her hair" [while disguising Arya]',
+            "evidence_text": "Yoren disguised her",
+            "evidence_chapter": "acok-qs-test",
+            "evidence_book": "acok",
+        }
+        result = locator_mod.locate_evidence(candidate, chapter_path)
+
+        self.assertIn("quote_source", result, "quote_source field must be present")
+        valid_qs = {"hint-verbatim", "hint-fuzzy", "both-named-window", "nearest-fallback", "chapter-level"}
+        self.assertIn(result["quote_source"], valid_qs,
+                      f"Invalid quote_source: {result['quote_source']!r}")
+
+    def test_hint_verbatim_anchored_both_named_when_both_in_quote(self):
+        """When the hint's verbatim sentence names both endpoints, quality=hint-anchored-both-named."""
+        prose = (
+            "Nothing relevant here at all.\n"
+            '"Arya followed Yoren toward the gate." [Describing their escape]\n'
+            "Then they departed the city entirely.\n"
+        )
+        chapter_path = self._write_chapter("acok", "acok-anchored-both", prose)
+
+        candidate = {
+            "source_slug": "arya-stark",
+            "target_slug": "yoren",
+            "hint_raw": '"Arya followed Yoren toward the gate." [Describing their escape]',
+            "evidence_text": "",
+            "evidence_chapter": "acok-anchored-both",
+            "evidence_book": "acok",
+        }
+        result = locator_mod.locate_evidence(candidate, chapter_path)
+
+        if result["quote_source"] == "hint-verbatim":
+            self.assertEqual(result["locate_quality"], "hint-anchored-both-named",
+                             "Both names in quote sentence → hint-anchored-both-named")
+
+
+class TestHintFuzzyPath(unittest.TestCase):
+    """locate_evidence Path B: hint-fuzzy when no quoted fragment but key tokens match."""
+
+    def setUp(self):
+        self._tmp = tempfile.mkdtemp()
+        self._tmp_path = Path(self._tmp)
+
+    def _write_chapter(self, book: str, chapter_slug: str, prose: str) -> Path:
+        chapter_dir = self._tmp_path / "sources" / "chapters" / book
+        chapter_dir.mkdir(parents=True, exist_ok=True)
+        content = f"---\nbook: TEST\npov_character: Test\n---\n\n{prose}\n"
+        path = chapter_dir / f"{chapter_slug}.md"
+        path.write_text(content, encoding="utf-8")
+        return path
+
+    def test_hint_fuzzy_matches_event_paraphrase(self):
+        """Hint with **Bold** — paraphrase style uses fuzzy matching to find the right sentence."""
+        prose = (
+            "The fire burned low in the hearth.\n"
+            "Bran asked Old Nan about the three-eyed crow appearing in his dreams.\n"
+            "She did not answer immediately and looked away.\n"
+        )
+        chapter_path = self._write_chapter("agot", "agot-bran-fuzzy", prose)
+
+        candidate = {
+            "source_slug": "bran-stark",
+            "target_slug": "old-nan",
+            "hint_raw": "**Bran asks about the crows** — Bran asks Old Nan about the three-eyed crow in his dreams.",
+            "evidence_text": "",
+            "evidence_chapter": "agot-bran-fuzzy",
+            "evidence_book": "agot",
+        }
+        result = locator_mod.locate_evidence(candidate, chapter_path)
+
+        self.assertEqual(result["locate_status"], "verbatim")
+        # Should have found the sentence with crow / Bran / Old Nan
+        if result["quote_source"] == "hint-fuzzy":
+            self.assertIn("crow", result["evidence_quote"].lower(),
+                          "Fuzzy match should point to the crow sentence")
+
+    def test_fall_through_to_both_named_when_hint_has_no_usable_content(self):
+        """When hint has no quoted fragment and no distinctive content words, fall through to C."""
+        # Hint with only stopwords and a single common word — fuzzy threshold won't fire
+        prose = (
+            "Arya walked toward Yoren carefully.\n"
+            "She was afraid but followed him.\n"
+        )
+        chapter_path = self._write_chapter("acok", "acok-fallthrough", prose)
+
+        candidate = {
+            "source_slug": "arya-stark",
+            "target_slug": "yoren",
+            "hint_raw": "follows",  # single word, not enough for fuzzy threshold
+            "evidence_text": "Arya followed Yoren",
+            "evidence_chapter": "acok-fallthrough",
+            "evidence_book": "acok",
+        }
+        result = locator_mod.locate_evidence(candidate, chapter_path)
+
+        # Should still get a verbatim result via path C (both-named-window)
+        self.assertEqual(result["locate_status"], "verbatim")
+        # quote_source may be both-named-window, nearest-fallback, or hint-fuzzy
+        # but NOT hint-verbatim (no quoted fragment)
+        self.assertNotEqual(result["quote_source"], "hint-verbatim",
+                            "No quoted fragment → should not use hint-verbatim path")
+
+
+class TestNoFabricationRule(unittest.TestCase):
+    """Critical rule: hint-anchored quotes never get replaced by a fabricated both-named window.
+
+    If the hint's true sentence names only one (or zero) endpoints, the locator
+    must return that honest quote with a low locate_quality, NOT silently swap in
+    a different both-named sentence from elsewhere in the chapter.
+    """
+
+    def setUp(self):
+        self._tmp = tempfile.mkdtemp()
+        self._tmp_path = Path(self._tmp)
+
+    def _write_chapter(self, book: str, chapter_slug: str, prose: str) -> Path:
+        chapter_dir = self._tmp_path / "sources" / "chapters" / book
+        chapter_dir.mkdir(parents=True, exist_ok=True)
+        content = f"---\nbook: TEST\npov_character: Test\n---\n\n{prose}\n"
+        path = chapter_dir / f"{chapter_slug}.md"
+        path.write_text(content, encoding="utf-8")
+        return path
+
+    def test_no_fabrication_one_named(self):
+        """Hint quote names only source (Timeon-style dialogue) → hint-anchored-one-named.
+
+        Downstream must be able to filter on this, so locate_quality must accurately
+        reflect that the quote is NOT both-named.  The locator must NOT replace it
+        with a both-named sentence from elsewhere.
+        """
+        prose = (
+            '"You did for Vargo with that bite, you know.\n'
+            "His ear turned black and started leaking pus.\n"
+            # Elsewhere in the chapter: a sentence naming both endpoints
+            "Brienne stabbed Timeon through the throat and he fell.\n"
+        )
+        chapter_path = self._write_chapter("affc", "affc-no-fab", prose)
+
+        candidate = {
+            "source_slug": "timeon",
+            "target_slug": "brienne-tarth",
+            "hint_raw": '"You did for Vargo with that bite, you know." [Telling Brienne about Hoat\'s fate',
+            "evidence_text": "",
+            "evidence_chapter": "affc-no-fab",
+            "evidence_book": "affc",
+        }
+        result = locator_mod.locate_evidence(candidate, chapter_path)
+
+        # The quote must be the hint's verbatim sentence (or the adjacent merged pair)
+        # and NOT the fabricated both-named sentence about stabbing
+        self.assertEqual(result["quote_source"], "hint-verbatim",
+                         "Hint has a quoted fragment → must go via hint-verbatim path")
+        self.assertIn("Vargo", result["evidence_quote"],
+                      "Evidence quote must contain the hint's verbatim text")
+        self.assertNotIn("stabbed", result["evidence_quote"],
+                         "Must NOT fabricate the both-named 'stabbed' sentence as the quote")
+        # locate_quality must be honest (NOT both-named)
+        self.assertNotEqual(result["locate_quality"], "both-named",
+                            "locate_quality must NOT be both-named when hint sentence "
+                            "does not contain both names")
+        # Should be one of the hint-anchored variants
+        self.assertIn(result["locate_quality"],
+                      {"hint-anchored-none", "hint-anchored-one-named"},
+                      f"Expected low hint-anchored quality, got {result['locate_quality']!r}")
+
+    def test_quote_source_field_on_chapter_level_fallback(self):
+        """quote_source='chapter-level' must appear even on chapter-level returns."""
+        prose = "Completely unrelated prose about the Wall and winter.\n"
+        chapter_path = self._write_chapter("agot", "agot-cl-qs", prose)
+
+        candidate = {
+            "source_slug": "arya-stark",
+            "target_slug": "cersei-lannister",
+            "hint_raw": "hates",
+            "evidence_text": "Arya despises Cersei",
+            "evidence_chapter": "agot-cl-qs",
+            "evidence_book": "agot",
+        }
+        result = locator_mod.locate_evidence(candidate, chapter_path)
+
+        self.assertIn("quote_source", result)
+        # No match → chapter-level or nearest-fallback
+        self.assertIn(result["quote_source"],
+                      {"chapter-level", "nearest-fallback", "hint-fuzzy", "hint-verbatim"})
 
 
 class TestSlugNamedInText(unittest.TestCase):
@@ -843,6 +1095,417 @@ class TestSlugNamedInText(unittest.TestCase):
     def test_empty_tokens(self):
         tokens = frozenset()
         self.assertFalse(locator_mod._slug_named_in_text(tokens, "arya walked away"))
+
+
+# ---------------------------------------------------------------------------
+# BUG 1 fix: evidence_ref line number must point to the actual file line
+#            containing the start of evidence_quote.
+# ---------------------------------------------------------------------------
+
+class TestEvidenceRefLineNumber(unittest.TestCase):
+    """BUG 1 regression: evidence_ref line suffix must point to the file line
+    where the matched evidence_quote actually begins.
+
+    The fix: split_into_sentences must detect paragraph boundaries from
+    line-number gaps (blank lines filtered by read_chapter_prose), so
+    sentences carry accurate per-paragraph start line numbers rather than
+    all defaulting to the first prose line (line 11 for most chapters).
+
+    Assertion contract: read the file at the line number in evidence_ref and
+    confirm it contains the start of evidence_quote (case-insensitive prefix
+    overlap of at least 10 characters).
+    """
+
+    def setUp(self):
+        self._tmp = tempfile.mkdtemp()
+        self._tmp_path = Path(self._tmp)
+
+    def _write_chapter_multiline(
+        self,
+        book: str,
+        chapter_slug: str,
+        paragraphs: list[str],
+    ) -> Path:
+        """Write a chapter with YAML frontmatter and multiple blank-line-separated paragraphs.
+
+        Returns the Path to the written file.
+        The YAML frontmatter occupies lines 1-5 (3 header lines + 1 blank = 4 actual lines,
+        then line 5 is blank); first paragraph starts at line 6.
+        We use a minimal 3-line frontmatter: '---', 'book: TEST', '---'.
+        With a blank line after it the layout is:
+          1: ---
+          2: book: TEST
+          3: ---
+          4: (blank)
+          5: paragraph 0 text
+          6: (blank)
+          7: paragraph 1 text
+          ...
+        """
+        chapter_dir = self._tmp_path / "sources" / "chapters" / book
+        chapter_dir.mkdir(parents=True, exist_ok=True)
+        lines = ["---", "book: TEST", "---", ""]
+        for i, para in enumerate(paragraphs):
+            lines.append(para)
+            if i < len(paragraphs) - 1:
+                lines.append("")  # blank separator between paragraphs
+        content = "\n".join(lines) + "\n"
+        path = chapter_dir / f"{chapter_slug}.md"
+        path.write_text(content, encoding="utf-8")
+        return path
+
+    def _read_file_line(self, path: Path, lineno: int) -> str:
+        """Return the text of the given 1-based line from the file."""
+        raw_lines = path.read_text(encoding="utf-8").splitlines()
+        if lineno < 1 or lineno > len(raw_lines):
+            return ""
+        return raw_lines[lineno - 1]
+
+    def _extract_line_suffix(self, evidence_ref: str) -> int | None:
+        """Extract the line number from 'path/to/file.md:N', or None if absent."""
+        if ":" not in evidence_ref:
+            return None
+        suffix = evidence_ref.rsplit(":", 1)[-1]
+        try:
+            return int(suffix)
+        except ValueError:
+            return None
+
+    def _assert_ref_points_to_quote(self, result: dict, chapter_path: Path, path_label: str):
+        """Core assertion: file[lineno] contains the start of evidence_quote."""
+        self.assertEqual(result["locate_status"], "verbatim",
+                         f"{path_label}: expected verbatim, got {result['locate_status']!r}")
+        lineno = self._extract_line_suffix(result["evidence_ref"])
+        self.assertIsNotNone(lineno,
+                             f"{path_label}: evidence_ref has no line suffix: {result['evidence_ref']!r}")
+        # The line must NOT be 11 (or any first-prose-line default)
+        # — it must be the actual line in the file
+        file_line = self._read_file_line(chapter_path, lineno)
+        quote_head = result["evidence_quote"][:20].lower().strip()
+        self.assertTrue(
+            quote_head in file_line.lower() or file_line.lower().startswith(quote_head[:10]),
+            f"{path_label}: file line {lineno} does not contain the quote head.\n"
+            f"  evidence_ref:   {result['evidence_ref']!r}\n"
+            f"  evidence_quote: {result['evidence_quote']!r}\n"
+            f"  file line {lineno}: {file_line!r}",
+        )
+
+    def test_hint_verbatim_correct_line_number(self):
+        """hint-verbatim path: evidence_ref line must point to the sentence containing
+        the quoted fragment, NOT to the first prose line.
+
+        Layout (each numbered item is a file line):
+          1: ---
+          2: book: TEST
+          3: ---
+          4: (blank)
+          5: Paragraph one. An early scene in the chapter.
+          6: (blank)
+          7: Paragraph two. Arya woke and thought about the war.
+          8: (blank)
+          9: "It is Catelyn who wants this peace, not the boy." Tyrion read on.
+          10: (blank)
+          11: Paragraph four. The litter rocked like a ship.
+        """
+        paragraphs = [
+            "Paragraph one. An early scene in the chapter.",
+            "Paragraph two. Arya woke and thought about the war.",
+            '"It is Catelyn who wants this peace, not the boy." Tyrion read on.',
+            "Paragraph four. The litter rocked like a ship.",
+        ]
+        chapter_path = self._write_chapter_multiline("acok", "acok-tyrion-bugtest-v", paragraphs)
+
+        candidate = {
+            "source_slug": "cleos-frey",
+            "target_slug": "tyrion-lannister",
+            "hint_raw": '"It is Catelyn who wants this peace, not the boy."',
+            "evidence_text": "",
+            "evidence_chapter": "acok-tyrion-bugtest-v",
+            "evidence_book": "acok",
+        }
+        result = locator_mod.locate_evidence(candidate, chapter_path)
+
+        self.assertEqual(result.get("quote_source"), "hint-verbatim",
+                         f"Expected hint-verbatim path, got {result.get('quote_source')!r}")
+        self._assert_ref_points_to_quote(result, chapter_path, "hint-verbatim")
+        # Confirm it's NOT pointing at line 5 (first prose line)
+        lineno = self._extract_line_suffix(result["evidence_ref"])
+        self.assertNotEqual(lineno, 5,
+                            "hint-verbatim returned first-prose-line number; paragraph boundary detection failed")
+
+    def test_hint_fuzzy_correct_line_number(self):
+        """hint-fuzzy path: evidence_ref line must match the fuzzy-matched sentence, not line 1.
+
+        Layout:
+          5: Paragraph one. The castle stood on a hill.
+          7: Paragraph two. Cersei dismissed her ladies for the evening.
+          9: Bran asked Old Nan about the three-eyed crow appearing in his dreams.
+          11: Paragraph four. The fire burned low in the hearth.
+        """
+        paragraphs = [
+            "The castle stood on a hill.",
+            "Cersei dismissed her ladies for the evening.",
+            "Bran asked Old Nan about the three-eyed crow appearing in his dreams.",
+            "The fire burned low in the hearth.",
+        ]
+        chapter_path = self._write_chapter_multiline("agot", "agot-bran-bugtest-f", paragraphs)
+
+        candidate = {
+            "source_slug": "bran-stark",
+            "target_slug": "old-nan",
+            # hint has no quoted fragment, so verbatim path won't fire → fuzzy path
+            "hint_raw": "**Bran asks about the crows** — Bran asks Old Nan about the three-eyed crow dreams.",
+            "evidence_text": "",
+            "evidence_chapter": "agot-bran-bugtest-f",
+            "evidence_book": "agot",
+        }
+        result = locator_mod.locate_evidence(candidate, chapter_path)
+
+        if result["locate_status"] == "verbatim":
+            self._assert_ref_points_to_quote(result, chapter_path, "hint-fuzzy")
+            lineno = self._extract_line_suffix(result["evidence_ref"])
+            # First prose line is 5; the crow sentence is at line 9
+            self.assertNotEqual(lineno, 5,
+                                "hint-fuzzy returned first-prose-line; paragraph gap detection failed")
+
+    def test_both_named_window_correct_line_number(self):
+        """both-named-window path: evidence_ref line must point into the chapter, not line 1.
+
+        Layout (paragraph 3 names both Arya and Yoren):
+          5: Paragraph one. The road stretched long before them.
+          7: Paragraph two. She was afraid but kept walking.
+          9: Arya followed Yoren toward the city gate.
+          11: Paragraph four. The night air was cold and damp.
+        """
+        paragraphs = [
+            "The road stretched long before them.",
+            "She was afraid but kept walking.",
+            "Arya followed Yoren toward the city gate.",
+            "The night air was cold and damp.",
+        ]
+        chapter_path = self._write_chapter_multiline("acok", "acok-arya-bugtest-w", paragraphs)
+
+        candidate = {
+            "source_slug": "arya-stark",
+            "target_slug": "yoren",
+            "hint_raw": "follows",
+            "evidence_text": "Arya followed Yoren",
+            "evidence_chapter": "acok-arya-bugtest-w",
+            "evidence_book": "acok",
+        }
+        result = locator_mod.locate_evidence(candidate, chapter_path)
+
+        if result["locate_status"] == "verbatim":
+            self._assert_ref_points_to_quote(result, chapter_path, "both-named-window")
+            lineno = self._extract_line_suffix(result["evidence_ref"])
+            # First prose line is 5; the both-named sentence is at line 9
+            self.assertNotEqual(lineno, 5,
+                                "both-named-window returned first-prose-line; paragraph gap detection failed")
+
+
+class TestParagraphBoundaryDetection(unittest.TestCase):
+    """split_into_sentences must flush paragraph on line-number gaps (blank-line-filtered input).
+
+    The fix is in split_into_sentences: when read_chapter_prose strips blank lines,
+    consecutive paragraphs appear as non-consecutive line numbers.  The function must
+    detect this gap and flush the accumulated paragraph before starting a new one.
+    """
+
+    def test_gap_triggers_paragraph_flush(self):
+        """Lines with a gap (e.g. 11, 13) cause a flush between them.
+
+        Without the fix, both lines would be merged into one paragraph with start
+        line = 11, so every sentence gets lineno=11.  With the fix, the second
+        paragraph starts fresh at lineno=13.
+        """
+        # Simulate two paragraphs after blank-line stripping:
+        # Line 11: first paragraph
+        # Line 13: second paragraph (gap = 2 → paragraph boundary)
+        prose_lines = [
+            (11, "Paragraph one begins here."),
+            (13, "Paragraph two begins separately."),
+        ]
+        sents = locator_mod.split_into_sentences(prose_lines)
+        linenos = [ln for ln, _ in sents]
+        # Both sentences should appear
+        self.assertEqual(len(sents), 2)
+        # Crucially, the second sentence must have lineno=13, not 11
+        self.assertEqual(linenos[0], 11, "First sentence should be at line 11")
+        self.assertEqual(linenos[1], 13, "Second sentence should be at line 13 (gap flush)")
+
+    def test_adjacent_lines_merged_into_paragraph(self):
+        """Lines with consecutive numbers (no gap) belong to the same paragraph."""
+        prose_lines = [
+            (11, "Line one of the same paragraph."),
+            (12, "Line two, still the same paragraph."),
+        ]
+        sents = locator_mod.split_into_sentences(prose_lines)
+        # Both lines merged → sentences all have lineno=11
+        linenos = [ln for ln, _ in sents]
+        for ln in linenos:
+            self.assertEqual(ln, 11, f"Sentence from adjacent lines should have lineno=11, got {ln}")
+
+    def test_multi_paragraph_chapter_has_distinct_line_numbers(self):
+        """A multi-paragraph prose excerpt should yield sentences with distinct linenos."""
+        # Simulate a chapter with 5 paragraphs at lines 11, 14, 17, 20, 23
+        # (each separated by 2 blank lines → line-number gap of 3)
+        prose_lines = [
+            (11, "First paragraph. It is the opening."),
+            (14, "Second paragraph. More content here."),
+            (17, "Third paragraph. Characters speak."),
+            (20, "Fourth paragraph. Action happens."),
+            (23, "Fifth paragraph. The chapter ends."),
+        ]
+        sents = locator_mod.split_into_sentences(prose_lines)
+        linenos = [ln for ln, _ in sents]
+        # Each paragraph should produce at least one sentence with its own lineno
+        self.assertIn(11, linenos)
+        self.assertIn(14, linenos)
+        self.assertIn(17, linenos)
+        self.assertIn(20, linenos)
+        self.assertIn(23, linenos)
+
+
+# ---------------------------------------------------------------------------
+# BUG 2 fix: quote_source and locate_quality must survive into ALL classifier
+#            output row types (emitted, rejected, needs-qualifier, classify_failed).
+# ---------------------------------------------------------------------------
+
+class TestClassifierRowPassthrough(unittest.TestCase):
+    """BUG 2 regression: quote_source and locate_quality must be carried through
+    from the input tail_row into every classifier output row type.
+
+    Tests all four builders: build_emit_edge_row, build_rejected_row,
+    build_needs_qualifier_row, build_classify_failed_row.
+    """
+
+    def _make_tail_row(self, quote_source="hint-verbatim", locate_quality="hint-anchored-both-named"):
+        """Return a minimal tail_row dict carrying the two passthrough fields."""
+        return {
+            "source_slug": "arya-stark",
+            "target_slug": "yoren",
+            "hint_raw": '"Yoren cut her hair" [disguise]',
+            "evidence_chapter": "acok-arya-01",
+            "evidence_quote": "Yoren cut her hair carefully.",
+            "evidence_ref": "sources/chapters/acok/acok-arya-01.md:141",
+            "evidence_section": "Relationships Observed",
+            "evidence_kind": "book-pass1",
+            "locate_status": "verbatim",
+            "locate_quality": locate_quality,
+            "quote_source": quote_source,
+            "corroborates_known_edge": False,
+            "wiki_edge_type": None,
+            "candidate_kind": "pass1_relationship",
+        }
+
+    def test_emit_edge_carries_quote_source(self):
+        """build_emit_edge_row must include quote_source from input row."""
+        row = self._make_tail_row(quote_source="hint-verbatim")
+        result = classifier_mod.build_emit_edge_row(
+            tail_row=row,
+            edge_type="PROTECTS",
+            qualifier=None,
+            model="claude-sonnet-4-6",
+            run_id="test-run",
+        )
+        self.assertIn("quote_source", result,
+                      "build_emit_edge_row must include quote_source")
+        self.assertEqual(result["quote_source"], "hint-verbatim")
+
+    def test_emit_edge_carries_locate_quality(self):
+        """build_emit_edge_row must include locate_quality from input row."""
+        row = self._make_tail_row(locate_quality="hint-anchored-both-named")
+        result = classifier_mod.build_emit_edge_row(
+            tail_row=row,
+            edge_type="PROTECTS",
+            qualifier=None,
+            model="claude-sonnet-4-6",
+            run_id="test-run",
+        )
+        self.assertIn("locate_quality", result,
+                      "build_emit_edge_row must include locate_quality")
+        self.assertEqual(result["locate_quality"], "hint-anchored-both-named")
+
+    def test_rejected_row_carries_quote_source(self):
+        """build_rejected_row must include quote_source from input row."""
+        row = self._make_tail_row(quote_source="hint-fuzzy")
+        result = classifier_mod.build_rejected_row(tail_row=row, run_id="test-run")
+        self.assertIn("quote_source", result,
+                      "build_rejected_row must include quote_source")
+        self.assertEqual(result["quote_source"], "hint-fuzzy")
+
+    def test_rejected_row_carries_locate_quality(self):
+        """build_rejected_row must include locate_quality from input row."""
+        row = self._make_tail_row(locate_quality="one-named")
+        result = classifier_mod.build_rejected_row(tail_row=row, run_id="test-run")
+        self.assertIn("locate_quality", result,
+                      "build_rejected_row must include locate_quality")
+        self.assertEqual(result["locate_quality"], "one-named")
+
+    def test_needs_qualifier_row_carries_quote_source(self):
+        """build_needs_qualifier_row must include quote_source from input row."""
+        row = self._make_tail_row(quote_source="both-named-window")
+        result = classifier_mod.build_needs_qualifier_row(
+            tail_row=row, edge_type="PARENT_OF", run_id="test-run"
+        )
+        self.assertIn("quote_source", result,
+                      "build_needs_qualifier_row must include quote_source")
+        self.assertEqual(result["quote_source"], "both-named-window")
+
+    def test_needs_qualifier_row_carries_locate_quality(self):
+        """build_needs_qualifier_row must include locate_quality from input row."""
+        row = self._make_tail_row(locate_quality="both-named")
+        result = classifier_mod.build_needs_qualifier_row(
+            tail_row=row, edge_type="PARENT_OF", run_id="test-run"
+        )
+        self.assertIn("locate_quality", result,
+                      "build_needs_qualifier_row must include locate_quality")
+        self.assertEqual(result["locate_quality"], "both-named")
+
+    def test_classify_failed_row_carries_quote_source(self):
+        """build_classify_failed_row must include quote_source from input row."""
+        row = self._make_tail_row(quote_source="nearest-fallback")
+        result = classifier_mod.build_classify_failed_row(
+            tail_row=row, reason="not in vocab", run_id="test-run"
+        )
+        self.assertIn("quote_source", result,
+                      "build_classify_failed_row must include quote_source")
+        self.assertEqual(result["quote_source"], "nearest-fallback")
+
+    def test_classify_failed_row_carries_locate_quality(self):
+        """build_classify_failed_row must include locate_quality from input row."""
+        row = self._make_tail_row(locate_quality="nearest-fallback")
+        result = classifier_mod.build_classify_failed_row(
+            tail_row=row, reason="not in vocab", run_id="test-run"
+        )
+        self.assertIn("locate_quality", result,
+                      "build_classify_failed_row must include locate_quality")
+        self.assertEqual(result["locate_quality"], "nearest-fallback")
+
+    def test_all_four_builders_have_both_fields(self):
+        """Omnibus: all four builders must carry both quote_source and locate_quality."""
+        row = self._make_tail_row(quote_source="hint-verbatim", locate_quality="hint-anchored-both-named")
+        builders_results = [
+            ("emit_edge", classifier_mod.build_emit_edge_row(
+                tail_row=row, edge_type="PROTECTS", qualifier=None,
+                model="claude-sonnet-4-6", run_id="test-run")),
+            ("rejected", classifier_mod.build_rejected_row(
+                tail_row=row, run_id="test-run")),
+            ("needs_qualifier", classifier_mod.build_needs_qualifier_row(
+                tail_row=row, edge_type="PARENT_OF", run_id="test-run")),
+            ("classify_failed", classifier_mod.build_classify_failed_row(
+                tail_row=row, reason="test", run_id="test-run")),
+        ]
+        for label, result in builders_results:
+            with self.subTest(builder=label):
+                self.assertIn("quote_source", result,
+                              f"{label}: quote_source missing from output row")
+                self.assertIn("locate_quality", result,
+                              f"{label}: locate_quality missing from output row")
+                self.assertEqual(result["quote_source"], "hint-verbatim",
+                                 f"{label}: quote_source value wrong")
+                self.assertEqual(result["locate_quality"], "hint-anchored-both-named",
+                                 f"{label}: locate_quality value wrong")
 
 
 if __name__ == "__main__":

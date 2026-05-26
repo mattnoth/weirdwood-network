@@ -187,7 +187,8 @@ def build_output_row(row: dict, loc: dict) -> dict:
         "wiki_edge_type": row.get("wiki_edge_type"),
         "locate_status": loc["locate_status"],
         "locate_quality": loc.get("locate_quality", "chapter-level"),
-        "run_id": "fresh-relocate-v2",
+        "quote_source": loc.get("quote_source", "chapter-level"),
+        "run_id": "fresh-relocate-v3",
         "schema_version": "pass1-derived-v1",
         "produced_at": PRODUCED_AT,
         "_row_id": make_row_id(row),
@@ -362,25 +363,41 @@ def main() -> None:
     locator._CACHED_STOPLIST = stoplist
 
     # Re-locate each sampled row
-    print("Re-locating rows with locator-v2…")
+    print("Re-locating rows with locator-v3…")
     output_rows: list[dict] = []
     quality_counts: Counter = Counter()
+    quote_source_counts: Counter = Counter()
 
     for row in sample:
         loc = relocate_row(row, slug_token_index, stoplist)
         out_row = build_output_row(row, loc)
         output_rows.append(out_row)
         quality_counts[loc.get("locate_quality", "chapter-level")] += 1
+        quote_source_counts[loc.get("quote_source", "chapter-level")] += 1
 
     print(f"  Done. {len(output_rows)} rows processed.")
 
     # locate_quality distribution
     print("\n--- locate_quality distribution ---")
     total = len(output_rows)
-    for q in ["both-named", "one-named", "nearest-fallback", "chapter-level"]:
+    all_quality_keys = [
+        "hint-anchored-both-named", "hint-anchored-one-named", "hint-anchored-none",
+        "both-named", "one-named", "nearest-fallback", "chapter-level",
+    ]
+    for q in all_quality_keys:
         n = quality_counts.get(q, 0)
+        if n == 0:
+            continue
         pct = 100.0 * n / total if total else 0.0
-        print(f"  {q:<22}  {n:>4}  ({pct:.1f}%)")
+        print(f"  {q:<28}  {n:>4}  ({pct:.1f}%)")
+
+    print("\n--- quote_source distribution ---")
+    for qs in ["hint-verbatim", "hint-fuzzy", "both-named-window", "nearest-fallback", "chapter-level"]:
+        n = quote_source_counts.get(qs, 0)
+        if n == 0:
+            continue
+        pct = 100.0 * n / total if total else 0.0
+        print(f"  {qs:<22}  {n:>4}  ({pct:.1f}%)")
 
     # Write outputs
     if write_output:

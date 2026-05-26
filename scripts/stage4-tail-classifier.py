@@ -81,7 +81,7 @@ GRAPH_NODES_DIR = REPO / "graph/nodes"
 BOOKS = ["agot", "acok", "asos", "affc", "adwd"]
 DEFAULT_MODEL = "claude-sonnet-4-6"
 DEFAULT_CHUNK_SIZE = 40
-DEFAULT_PROMPT_VERSION = "v4-governing-principle"
+DEFAULT_PROMPT_VERSION = "v5-precision-rules"
 
 # Exit code used by the forever-loop wrapper to distinguish "rate-limit wall"
 # (sleep and retry) from normal completion (0) or hard failure (1+).
@@ -360,6 +360,54 @@ RULES:
     for interpersonal relationships between two people.
     If both source and target are characters → REJECT ECHOES and pick the evidenced
     interpersonal type (PARALLELS, PERCEIVED_AS, TRUSTS, etc.) or REJECT.
+
+v5 PRECISION RULES — applied on top of all prior rules; REJECT if any is violated:
+
+V5-R1 — DIRECTION LOCK on structural edges. For LOCATED_AT, TRAVELS_TO, PARTICIPATES_IN,
+    IMPRISONED_AT, GIFTED_TO: the moving/located/participating entity (person/artifact) is
+    the SOURCE; the place/event is the TARGET. GIFTED_TO specifically requires SOURCE=artifact,
+    TARGET=recipient. If the row's source/target occupy the wrong roles for the type, REJECT —
+    you cannot swap them, so reject the mis-oriented row.
+    (e.g. `hardhome LOCATED_AT talon` is backwards — a place is not located at a ship → REJECT;
+    `war-of-the-five-kings PARTICIPATES_IN dick-cole` is backwards → REJECT.)
+
+V5-R2 — EVIDENCE MUST SUPPORT BOTH ENDPOINTS (highest-value rule). Emit a type ONLY if the
+    evidence_quote (with the hint) actually establishes a relationship between THIS source AND
+    THIS target. Co-occurrence in the same chapter is NOT evidence. If the quote describes the
+    source's relationship to a DIFFERENT entity, REJECT. Both endpoints must be supported by the
+    quote — either named OR via a pronoun/reference unambiguously resolvable from the quote itself
+    (a pronoun is fine; an unsupported leap is not).
+    (e.g. `jorah LOVES daenerys` where the quote is Jorah mourning the wife/life he lost to
+    exile → the quote is about his wife, not Daenerys → REJECT.)
+
+V5-R3 — TARGET CATEGORY MUST MATCH THE TYPE. Check the target's category against the type's
+    required target type (per architecture.md). In particular:
+    - PRACTICES targets a magic/ritual/craft discipline ONLY — never a language. There is NO
+      "speaks-a-language" edge; if the candidate is about speaking/using a language, REJECT.
+    - CLAIMS targets a title/domain/throne, never a person.
+    - WORSHIPS targets a deity/religion, never a mortal ancestor or legendary figure.
+    - HOLDS_TITLE targets a real title node — reject bare/garbage slugs like "master".
+    When the target category is wrong for the type, REJECT.
+
+V5-R4 — STATE-NOT-MOMENT for ATTACKS / COMMANDS / ALLIES_WITH (sharpen GATE 1).
+    - ATTACKS requires violent/combat intent — incidental physical contact (gripping someone's
+      chin during a scolding) is NOT ATTACKS → REJECT.
+    - COMMANDS requires a STANDING military/organizational command relationship — a one-off
+      request, or a parent sending a relative on an errand, is not COMMANDS → REJECT.
+    - ALLIES_WITH is a peer/political alliance; a character entering another's service or being
+      hired/sworn is SERVES or CONTRACTED_WITH, NOT ALLIES_WITH.
+    (e.g. `tyrion ALLIES_WITH bronn` from Bronn hiring on → should be SERVES/CONTRACTED_WITH
+    or REJECT, not ALLIES_WITH.)
+
+V5-R5 — TEMPORAL PHASE. For relationship-phase types, choose the phase true AT THIS CHAPTER'S
+    point in the timeline. If the pair is already married by this chapter, emit SPOUSE_OF, not
+    BETROTHED_TO. If unsure of the phase, prefer the weaker claim or REJECT.
+    (e.g. Joffrey & Margaery are married by ASOS — BETROTHED_TO is wrong there.)
+
+V5-R6 — NO ANALYTICAL TYPES FROM A SINGLE MOMENT. Thematic/interpretive types (PARALLELS, and
+    any type asserting thematic mirroring/foreshadowing) require explicit multi-scene or stated
+    thematic evidence — NEVER emit them from a single line of dialogue. When tempted, REJECT
+    (a later analytical pass owns these).
 
 TIER-1 QUALIFIER ENUMS (required when using these types):
   SIBLING_OF: full | half | step | milk | unknown
@@ -751,6 +799,8 @@ def build_emit_edge_row(
         "corroborates_known_edge": tail_row.get("corroborates_known_edge", False),
         "wiki_edge_type": tail_row.get("wiki_edge_type"),
         "locate_status": tail_row.get("locate_status", "verbatim"),
+        "locate_quality": tail_row.get("locate_quality"),
+        "quote_source": tail_row.get("quote_source"),
         "run_id": run_id,
         "prompt_version": prompt_version,
         "prompt_sha": prompt_sha,
@@ -776,6 +826,8 @@ def build_rejected_row(
         "hint_raw": tail_row.get("hint_raw", ""),
         "evidence_chapter": tail_row.get("evidence_chapter", ""),
         "evidence_quote": tail_row.get("evidence_quote", ""),
+        "locate_quality": tail_row.get("locate_quality"),
+        "quote_source": tail_row.get("quote_source"),
         "run_id": run_id,
         "prompt_version": prompt_version,
         "prompt_sha": prompt_sha,
@@ -800,6 +852,8 @@ def build_needs_qualifier_row(
         "hint_raw": tail_row.get("hint_raw", ""),
         "evidence_chapter": tail_row.get("evidence_chapter", ""),
         "evidence_quote": tail_row.get("evidence_quote", ""),
+        "locate_quality": tail_row.get("locate_quality"),
+        "quote_source": tail_row.get("quote_source"),
         "run_id": run_id,
         "prompt_version": prompt_version,
         "prompt_sha": prompt_sha,
@@ -823,6 +877,8 @@ def build_classify_failed_row(
         "hint_raw": tail_row.get("hint_raw", ""),
         "evidence_chapter": tail_row.get("evidence_chapter", ""),
         "reason": reason,
+        "locate_quality": tail_row.get("locate_quality"),
+        "quote_source": tail_row.get("quote_source"),
         "run_id": run_id,
         "prompt_version": prompt_version,
         "prompt_sha": prompt_sha,
