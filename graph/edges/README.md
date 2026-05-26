@@ -1,10 +1,11 @@
-# graph/edges/ — Pass-1-derived edge set (v1.2)
+# graph/edges/ — Pass-1-derived edge set (v1.3)
 
-**Landed:** Session 70, 2026-05-25 (v1, 3,842). **Refined:** Session 72, 2026-05-25 (v1.2, 3,825).
-**Status:** v1.2 — type-contract re-validated against the complete node set.
+**Landed:** Session 70 (v1, 3,842). **Refined:** Session 72 (v1.2, 3,825 — type-contract
+re-validation). **Resolver pass:** Session 72 (v1.3, 3,811 — title-person disambiguation).
+**Status:** v1.3.
 
 `edges.jsonl` is the formalized, deduped, endpoint-gated, precision-filtered set of
-**3,825 typed relationship edges** derived from our own Pass 1 chapter extractions
+**3,811 typed relationship edges** derived from our own Pass 1 chapter extractions
 (`extractions/mechanical/{book}/`). Every edge carries a verbatim source citation
 (`evidence_ref` → `sources/chapters/<book>/<chapter>.md:<line>`), so a runtime LLM can
 re-verify any edge against the surrounding chapter text.
@@ -13,8 +14,8 @@ re-verify any edge against the surrounding chapter text.
 
 | `typed_by` | count | source |
 |---|---|---|
-| `python-map` | 1,970 | deterministic phrase→vocab map of Pass 1 "Relationships Observed" hints (the spine) |
-| `sonnet` | 1,409 | S67 LLM tail — Sonnet typed the residual free-text hints |
+| `python-map` | 1,964 | deterministic phrase→vocab map of Pass 1 "Relationships Observed" hints (the spine) |
+| `sonnet` | 1,401 | S67 LLM tail — Sonnet typed the residual free-text hints |
 | `hospitality-table` | 396 | deterministic Hospitality & Guest Right table (`GUEST_OF`) |
 | `hospitality-table-violation` | 50 | deterministic Hospitality table (`VIOLATES_GUEST_RIGHT`) |
 
@@ -58,9 +59,23 @@ category-based contracts — COMMANDS-unit / CONTRACTED_WITH / MEMBER_OF-flip / 
 1,944 rows) lives in `working/wiki/pass2-buckets/pass1-derived/_v1-refine/` (gitignored); the
 committed layer here keeps the clean schema (advisory `_`-fields stripped).
 
-**Known residual (resolver disambiguation):** `lord-tywin` resolves to the *ship* (a real
-`object.artifact` — Cersei's dromond), not the man, so `lord-tywin→tommen COMMANDS` survives as
-noise. Fixing this belongs in the resolver (name disambiguation), not the type-contract.
+### v1.3 resolver pass — title-person disambiguation (Session 72, 2026-05-26)
+
+```
+v1.2 3,825
+  → remap 6 title-person collision slugs → their characters   = 3,813 (−12 dups)
+       lord-tywin→tywin-lannister, queen-cersei→cersei-lannister, lord-renly→renly-baratheon,
+       princess-myrcella→myrcella-baratheon, lady-olenna→olenna-tyrell, khal-jhaqo→jhaqo
+  → CAPTAIN_OF target-not-character drop                       = 3,811 (−2)
+       hallis-mollen / areo-hotah "CAPTAIN_OF" a person (mis-typed "captain of the guard")
+```
+
+These were ships/artifacts/titles *named after* people (`lord-tywin` = Cersei's dromond) that
+captured person references via exact slug match. The resolver now prefers the character when a
+title-prefixed name exact-matches a non-character node (`scripts/stage4_name_resolver.py`,
+`resolved-title-person` rung, threaded through `stage4-pass1-edge-candidates.py`). The ship
+`lady-marya` (Davos's vessel, `CAPTAIN_OF`) is deliberately **kept** as the artifact; the new
+`CAPTAIN_OF`/`CREW_OF` target-not-character contract backstops the ship-name class on re-runs.
 
 ## Quality — read before trusting blindly
 

@@ -98,12 +98,28 @@ committed `edges.jsonl`. Output = **corrected v1.2 candidate, 3,825 rows** at
   (and it was wrong-direction anyway). No node action. (`lord-tywin→tommen COMMANDS` survives as the
   same-class resolver noise — see below.)
 
+## RESOLVER PASS — DONE (2026-05-26, edges v1.3 = 3,811)
+
+- **Title-person disambiguation implemented** in `stage4_name_resolver.py`: a title-prefixed name
+  (`Lord/Queen/Khal…`) that exact-matches a NON-character node now prefers the character via a
+  character-restricted name ladder (`resolved-title-person` rung), threaded through
+  `stage4-pass1-edge-candidates.py`. `CAPTAIN_OF`/`CREW_OF` target-not-character contract added as
+  the ship-name backstop. 814 tests green.
+- **Applied to `edges.jsonl`:** 3,825 → 3,811. Remapped 6 collision slugs → characters
+  (`lord-tywin→tywin-lannister`, `queen-cersei→cersei-lannister`, `lord-renly→renly-baratheon`,
+  `princess-myrcella→myrcella-baratheon`, `lady-olenna→olenna-tyrell`, `khal-jhaqo→jhaqo`), −12 dups,
+  −2 mis-typed CAPTAIN_OF. Ship `lady-marya` kept as artifact.
+- (Note: `graph/index/` stays decoupled from the edge scripts — they read `graph/nodes/`. The
+  resolver was the real edge-quality lever, confirmed.)
+
 ## STILL OPEN — next sessions
 
-- **Resolver name-disambiguation (the real edge-quality lever — NOT the index).** `graph/index/`
-  is decoupled from the edge scripts (they read `graph/nodes/`), so the index rebuild doesn't change
-  edge results. The genuine lever is the **resolver**: same-name-different-entity disambiguation
-  (the `lord-tywin` ship-vs-man class) + alias completeness. Scoped pass on `stage4_name_resolver.py`.
+- **Folder reorg (its own session):** `working/wiki/` + `scripts/` are dumps (dozens of
+  `stage4-*.py`); leftover worktrees `.claude/worktrees/{mystifying-burnell-*,admiring-benz-*}`.
+- **Scratch untrack:** `git rm --cached scratch-do-not-delete.txt scratch-stage4-considerations-haiku.txt`
+  (tracked despite `.gitignore scratch*`; keep on disk); drop stale `.gitignore` line-11 comment.
+- **Optional deeper resolver work:** alias completeness for the S67 unresolved (~387) / ambiguous
+  (~651) endpoints — a recall lever, distinct from this precision pass.
 - **1,307 skeleton↔node "conflicts" — NO ACTION.** Breakdown: ≤2 bytes 73 (trailing-newline) /
   3–50 bytes 658 / >50 bytes 576. In every substantive sample the **promoted node is richer** than
   the staged skeleton (`aegons-conquest` node 4714 vs staged 2738; `battle-of-the-blackwater` 26363

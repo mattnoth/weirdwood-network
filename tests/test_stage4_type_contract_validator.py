@@ -237,6 +237,28 @@ class TestNonCharTargetContract(unittest.TestCase):
         row = _make_row("eddard-stark", "warden-of-the-north", "HOLDS_TITLE")
         self.assertTrue(_is_keep(row, _CHARS), "Expected keep")
 
+    def test_captain_of_char_target_drop(self):
+        """CAPTAIN_OF: target is a character -> DROP (you captain a vessel, not a person).
+
+        Backstops the ship-named-after-a-person class: if the resolver redirects
+        "Lady Marya" (Davos's ship) to the character marya-seaworth, CAPTAIN_OF->char
+        must not be asserted as fact."""
+        row = _make_row("allard-seaworth", "marya-seaworth", "CAPTAIN_OF")
+        chars = _CHARS | {"allard-seaworth", "marya-seaworth"}
+        self.assertTrue(_is_drop(row, chars))
+        d, reason = _disp(row, chars)
+        self.assertIn("CONTRACT_VIOLATED", reason)
+
+    def test_captain_of_vessel_target_keep(self):
+        """CAPTAIN_OF: target is a vessel (non-char artifact) -> keep."""
+        row = _make_row("allard-seaworth", "lady-marya", "CAPTAIN_OF")
+        self.assertTrue(_is_keep(row, _CHARS | {"allard-seaworth"}), "Expected keep: vessel target")
+
+    def test_crew_of_char_target_drop(self):
+        """CREW_OF: target is a character -> DROP (crew a vessel, not a person)."""
+        row = _make_row("jon-snow", "davos-seaworth", "CREW_OF")
+        self.assertTrue(_is_drop(row, _CHARS | {"davos-seaworth"}))
+
     def test_guest_of_char_target_keep(self):
         """GUEST_OF: target is a character -> keep (host is frequently a person: Guest -> Host)."""
         row = _make_row("tyrion-lannister", "catelyn-stark", "GUEST_OF")

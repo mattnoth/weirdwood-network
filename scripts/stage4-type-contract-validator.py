@@ -233,6 +233,12 @@ _KINSHIP_TYPES: frozenset[str] = frozenset({
 _NON_CHAR_TARGET_TYPES: frozenset[str] = frozenset({
     "HOLDS_TITLE",
     "SEAT_OF",
+    # Vessel captaincy/crew: target MUST be a vessel (object.artifact), never a
+    # person (architecture.md).  Backstops the ship-named-after-a-person class
+    # (e.g. "Lady Marya" the ship) that the resolver's title-person rung may
+    # redirect to the character — you cannot captain/crew a person.
+    "CAPTAIN_OF",
+    "CREW_OF",
 })
 
 # RULES → character RETYPE contract.

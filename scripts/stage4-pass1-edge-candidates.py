@@ -623,6 +623,19 @@ def main() -> None:
     importance_prior = load_importance_prior(IN_BACKLINKS)
     print(f"  {len(importance_prior):,} slug priors loaded")
 
+    # slug → category (immediate graph/nodes/ subdir). Powers the resolver's
+    # title-person disambiguation: a title-prefixed name ("Lord Tywin") that
+    # exact-matches a NON-character node (a ship named after the person) prefers
+    # the character. Skip the _-prefixed meta dirs (_conflicts/_unclassified/…).
+    print("Building slug→category index (title-person disambiguation)...")
+    slug_category: dict[str, str] = {}
+    for cat_dir in sorted(GRAPH_NODES_DIR.iterdir()):
+        if not cat_dir.is_dir() or cat_dir.name.startswith("_") or cat_dir.name in _SKIP_DIRS:
+            continue
+        for nf in cat_dir.glob("*.node.md"):
+            slug_category[nf.name[: -len(".node.md")]] = cat_dir.name
+    print(f"  {len(slug_category):,} slug→category entries")
+
     # -----------------------------------------------------------------------
     # Step 3: Enumerate extraction files
     # -----------------------------------------------------------------------
@@ -752,6 +765,7 @@ def main() -> None:
                 firstname_index=firstname_index,
                 prior=importance_prior,
                 present_slugs=present_slugs,
+                slug_category=slug_category,
             )
 
             # RESOLVE target
@@ -762,6 +776,7 @@ def main() -> None:
                 firstname_index=firstname_index,
                 prior=importance_prior,
                 present_slugs=present_slugs,
+                slug_category=slug_category,
             )
 
             # Track resolution statuses for histogram (only successful endpoints)

@@ -261,6 +261,91 @@ class TestResolveNameExact(unittest.TestCase):
 
 
 # ---------------------------------------------------------------------------
+# Test: resolve_name — Rung A title-person disambiguation
+# ---------------------------------------------------------------------------
+
+class TestResolveNameTitlePerson(unittest.TestCase):
+    """A title-prefixed name ("Lord Tywin") that exact-matches a NON-character node
+    (a ship/artifact/title named after the person) prefers the character via the
+    character-restricted name ladder. Requires slug_category; degrades to plain
+    exact match when slug_category is None (back-compat)."""
+
+    def setUp(self):
+        self.names = {
+            "tywin-lannister": "Tywin Lannister",
+            "tywin-frey": "Tywin Frey",                  # 2nd Tywin → prior decides
+            "cersei-lannister": "Cersei Lannister",
+            "marya-seaworth": "Marya Seaworth",
+            "renly-baratheon": "Renly Baratheon",
+            # non-character nodes (ships/artifacts named after people)
+            "lord-tywin": "Lord Tywin",                  # ship
+            "queen-cersei": "Queen Cersei",              # ship
+            "lady-marya": "Lady Marya",                  # ship
+            "king-roberts-hammer": "King Robert's Hammer",  # ship; remainder not a char
+            "ser-pounce": "Ser Pounce",                  # a (cat) CHARACTER node
+        }
+        self.node_set = set(self.names)
+        self.cat = {
+            "tywin-lannister": "characters", "tywin-frey": "characters",
+            "cersei-lannister": "characters", "marya-seaworth": "characters",
+            "renly-baratheon": "characters", "ser-pounce": "characters",
+            "lord-tywin": "artifacts", "queen-cersei": "artifacts",
+            "lady-marya": "artifacts", "king-roberts-hammer": "artifacts",
+        }
+        self.prior = {"tywin-lannister": 848, "tywin-frey": 2,
+                      "cersei-lannister": 949, "marya-seaworth": 6,
+                      "renly-baratheon": 385}
+        self.idx = build_firstname_index(self.node_set, self.names)
+
+    def _r(self, raw, present=None):
+        return resolve_name(
+            raw, alias_map={}, node_set=self.node_set, firstname_index=self.idx,
+            prior=self.prior, present_slugs=present or set(), slug_category=self.cat,
+        )
+
+    def test_lord_tywin_redirects_via_prior(self):
+        # "tywin" has 2 char candidates; tywin-lannister dominates by backlinks.
+        slug, status = self._r("Lord Tywin")
+        self.assertEqual(slug, "tywin-lannister")
+        self.assertEqual(status, resolver.STATUS_TITLE_PERSON)
+
+    def test_queen_cersei_redirects_firstname_unique(self):
+        slug, status = self._r("Queen Cersei")
+        self.assertEqual(slug, "cersei-lannister")
+        self.assertEqual(status, resolver.STATUS_TITLE_PERSON)
+
+    def test_king_roberts_hammer_stays_ship(self):
+        # remainder "robert's" has no CHARACTER candidate → keep the artifact
+        slug, status = self._r("King Robert's Hammer")
+        self.assertEqual(slug, "king-roberts-hammer")
+        self.assertEqual(status, STATUS_EXACT)
+
+    def test_ser_pounce_character_node_no_redirect(self):
+        # exact match is itself a character → keep it, never redirect
+        slug, status = self._r("Ser Pounce")
+        self.assertEqual(slug, "ser-pounce")
+        self.assertEqual(status, STATUS_EXACT)
+
+    def test_lady_marya_ship_name_redirects(self):
+        # Known ship-name class: "Lady Marya" (Davos's ship) redirects to the only
+        # "Marya" character. This is intentional at the resolver level; the
+        # CAPTAIN_OF type-contract is the backstop that prevents asserting a false
+        # person-edge for vessel captaincy.
+        slug, status = self._r("Lady Marya")
+        self.assertEqual(slug, "marya-seaworth")
+        self.assertEqual(status, resolver.STATUS_TITLE_PERSON)
+
+    def test_no_category_map_back_compat(self):
+        # slug_category omitted → no redirect, plain exact match (old behavior)
+        slug, status = resolve_name(
+            "Lord Tywin", alias_map={}, node_set=self.node_set,
+            firstname_index=self.idx, prior=self.prior, present_slugs=set(),
+        )
+        self.assertEqual(slug, "lord-tywin")
+        self.assertEqual(status, STATUS_EXACT)
+
+
+# ---------------------------------------------------------------------------
 # Test: resolve_name — Rung B (alias)
 # ---------------------------------------------------------------------------
 

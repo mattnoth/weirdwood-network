@@ -343,12 +343,57 @@ def load_importance_prior(backlink_counts_path: Path) -> dict[str, int]:
 # Status strings (used in resolution_status field of candidate rows)
 STATUS_EXACT = "resolved-exact"
 STATUS_ALIAS = "resolved-alias"
+STATUS_TITLE_PERSON = "resolved-title-person"
 STATUS_FIRSTNAME_UNIQUE = "resolved-firstname-unique"
 STATUS_CONTEXT_PRESENT = "resolved-context-present"
 STATUS_CONTEXT_PRIOR = "resolved-context-prior"
 STATUS_AMBIGUOUS = "ambiguous-queued"
 STATUS_UNRESOLVED = "unresolved"
 STATUS_UNRESOLVED_GENERIC = "unresolved-generic"
+
+
+def _resolve_char_restricted(
+    cleaned: str,
+    firstname_index: dict[str, list[str]],
+    slug_category: dict[str, str],
+    prior: dict[str, int],
+    present_slugs: set[str],
+) -> Optional[str]:
+    """Title-person disambiguation helper.
+
+    Resolve a (cleaned) title-prefixed name to a CHARACTER node via the name_key
+    ladder (firstname-unique → context-present → context-prior), considering ONLY
+    character-category candidates.  Used when a title-prefixed name like
+    "Lord Tywin" exact-matched a NON-character node (a ship/artifact/title named
+    after that person) — the intended referent is almost always the person.
+
+    Returns the character slug, or None if no confident character resolution.
+    """
+    first = name_key(cleaned)
+    if first is None:
+        return None
+    cands = [
+        c for c in firstname_index.get(first, [])
+        if c not in GENERIC_TERMS and slug_category.get(c) == "characters"
+    ]
+    if not cands:
+        return None
+    # Unique character first-name match
+    if len(cands) == 1:
+        return cands[0]
+    # Exactly one candidate already present in this chapter
+    present = [c for c in cands if c in present_slugs]
+    if len(present) == 1:
+        return present[0]
+    # Dominant by backlink prior (≥ PRIOR_DOMINANT_RATIO × runner-up)
+    scored = sorted(cands, key=lambda s: prior.get(s, 0), reverse=True)
+    if (
+        len(scored) >= 2
+        and prior.get(scored[0], 0) > 0
+        and prior.get(scored[0], 0) >= PRIOR_DOMINANT_RATIO * max(prior.get(scored[1], 0), 1)
+    ):
+        return scored[0]
+    return None
 
 
 def resolve_name(
@@ -359,6 +404,7 @@ def resolve_name(
     firstname_index: dict[str, list[str]],
     prior: dict[str, int],
     present_slugs: set[str],
+    slug_category: Optional[dict[str, str]] = None,
 ) -> tuple[Optional[str], str]:
     """Resolve a raw relationship-table name to a canonical graph slug.
 
@@ -398,6 +444,23 @@ def resolve_name(
 
     # Rung a: exact match
     if slug_cand in node_set:
+        # Title-person disambiguation: a title-prefixed person reference
+        # ("Lord Tywin", "Queen Cersei", "Khal Jhaqo") can exact-match a
+        # NON-character node named after that person (a ship/artifact/title).
+        # When the character-restricted name ladder resolves confidently, prefer
+        # the person.  Ship names whose remainder isn't a bare character first
+        # name ("King Robert's Hammer" → "robert's" → no char) keep the exact
+        # non-character match.  Requires slug_category (else behaves as before).
+        if (
+            slug_category is not None
+            and _first_token(cleaned) in TITLE_PREFIXES
+            and slug_category.get(slug_cand) not in (None, "characters")
+        ):
+            person = _resolve_char_restricted(
+                cleaned, firstname_index, slug_category, prior, present_slugs
+            )
+            if person is not None and person != slug_cand:
+                return person, STATUS_TITLE_PERSON
         return slug_cand, STATUS_EXACT
 
     # Rung b: alias lookup
