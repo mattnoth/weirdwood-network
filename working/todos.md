@@ -24,16 +24,18 @@ Apply this lens when reviewing existing prompts (mechanical-extractor, wiki-inge
 
 ---
 
-## NODE SCHEMA RECOVERY — BLOCKING (NEW 2026-05-25 — Session 71)
+## NODE/EDGE RECOVERY — RESOLVED (Session 72, 2026-05-25→26)
 
-> **Why this is now top priority:** edge work surfaced that a large slice of the wiki Pass-2 entity schema was **never promoted**. `graph/nodes/` = 8,299 nodes, but **~7,251 staged `.node.md` sit unpromoted** in `working/wiki/pass2-buckets/*/skeleton/`. Edge resolution + type-contracts depend on the node set → **edge formalization is PAUSED** until nodes are whole. Nodes are staged, not lost.
-> → continue: `CONTINUE-node-recovery-and-edges.md` (top-level; **Opus 4.7** "fixer & finder")
+> **Correction (CLAUDE.md #9):** the S71 "~7,251 unpromoted node backlog" was a **FALSE ALARM** — a file count without a slug check. Slug intersection: 7,039/7,047 staged skeletons already promoted; only ~8 net-new (all singular/variant dups of canonical nodes → NOT promoted). The node layer was whole. Detail: `history/session-details/session-072.md`. Memory: `project_s72_node_gap_false_alarm`.
+> → continue (remaining hygiene): `progress/continue-prompts/2026-05-26-cleanup-and-reorg.md` (**Sonnet 4.6**)
 
-- [ ] **Stream 1 — Node accounting + promotion:** reconcile the ~7,251 staged skeletons vs the 8,299 promoted (net-new / dupes / why promotion stopped ~sessions 40s); promote net-new into `graph/nodes/{category}/`; dedupe + alias completeness (`bronze`→yohn-royce, `queen-cersei`→cersei-lannister class). Single Opus session for accounting+plan; fan out subagents for mechanical promotion once rules are clear.
-- [ ] **Stream 2 — Edge re-validation (after Stream 1):** re-resolve + re-type-check existing edge candidates against the complete node set (deterministic, $0 — NOT a re-extract). Fixes the `COMMANDS→faction` false-drops; re-derive v1.1 dispositions. Possible faction/title-target allowances in the type-contract validator.
-- [ ] **Stream 3 — Folder reorg:** `working/wiki/` + `scripts/` are dumps (dozens of `stage4-*.py`); reorganize into themed subdirs. Remove leftover worktree `.claude/worktrees/mystifying-burnell-*/`. Own session(s).
-- [ ] **Stream 4 — scratch-check (0.1):** no project/local/global `settings.json` hook found; the scratch surfacing was an IDE text-selection. Confirm with Matt whether a specific hook is meant.
-- [ ] **Health check to add:** `count(graph/nodes/**/*.node.md)` vs `count(working/wiki/pass2-buckets/**/skeleton/*.node.md)` — would have surfaced this gap; wire into a periodic check.
+- [x] **Node accounting** — no backlog. 1,307 skeleton↔node "conflicts" = stale staging vs canonical (richer) nodes → no action; do not re-promote (would downgrade).
+- [x] **Real "entities missing" gap = the INDEX** — `graph/index/` covered only 5/21 categories; extended `build-entity-indexes.py` + rebuilt (+1,861 `*.index.json`). Edge scripts read `graph/nodes/` (not the index), so the index is traversal/query only — decoupled from edge results.
+- [x] **Edge re-validation** — type-contract fixed (COMMANDS accepts faction/house unit targets); `refine-v1-edges.py` now passes `slug_category_index` (category contracts had never fired). Edges v1→v1.2 (3,842→3,825).
+- [x] **Resolver title-person pass** — ship/artifact/title nodes named after people (`lord-tywin`=Cersei's dromond) remapped to characters via a category-aware exact rung (`resolved-title-person`) + `CAPTAIN_OF`/`CREW_OF` target-not-character guard. Edges v1.2→v1.3 (3,825→3,811). 814 tests green.
+- [ ] **Folder reorg (still open):** `working/wiki/` + `scripts/` dumps + 2 leftover worktrees. → continue: `progress/continue-prompts/2026-05-26-cleanup-and-reorg.md`
+- [ ] **Scratch (0.1, still open):** untrack 2 git-tracked scratch files (`git rm --cached`); no active promotion hook exists (the surfacing was an IDE text-selection).
+- [x] **Health-check lesson** — use a SLUG INTERSECTION (staged-vs-promoted by slug), not a file count; a file count is exactly what produced the false alarm.
 
 ---
 

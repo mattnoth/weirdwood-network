@@ -195,9 +195,9 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
-### Session 72 — CORRECTION: the "unpromoted-node gap" was a false alarm; real gaps (index + validator) FIXED; edges re-validated (2026-05-25)
+### Session 72 — CORRECTION: "unpromoted-node gap" was a false alarm; index + validator + resolver FIXED; edges v1→v1.3 (2026-05-25→26)
 
-**Model:** Opus 4.7 (autonomous — Matt stepped away mid-session with "do all of this"). **Detail:** this entry + `CONTINUE-node-recovery-and-edges.md` (rewritten).
+**Model:** Opus 4.7 (autonomous stretches — Matt stepped away mid-session with "do all of this"). **Detail:** `history/session-details/session-072.md`. **Commits:** `eb3c6b18b`, `4f149f7b6`.
 
 **The correction (CLAUDE.md #9 in action):** S71 handed off "~7,251 staged nodes never promoted → edges PAUSED." **Verified false this session** — it was a file count without a slug check. Slug reconciliation: **7,039/7,047** staged-skeleton slugs ALREADY in `graph/nodes/`; only **8** net-new. `promote.py` dry-run: 43 net-new / 2,367 byte-equal / 1,307 byte-diff. Promoted (8,299) > staged (7,047). **No backlog; node layer whole.** Did NOT mass-promote on the false premise.
 
