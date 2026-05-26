@@ -53,6 +53,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import hashlib
 import importlib.util
 import json
 import random
@@ -80,6 +81,7 @@ GRAPH_NODES_DIR = REPO / "graph/nodes"
 BOOKS = ["agot", "acok", "asos", "affc", "adwd"]
 DEFAULT_MODEL = "claude-sonnet-4-6"
 DEFAULT_CHUNK_SIZE = 40
+DEFAULT_PROMPT_VERSION = "v4-governing-principle"
 
 # Exit code used by the forever-loop wrapper to distinguish "rate-limit wall"
 # (sleep and retry) from normal completion (0) or hard failure (1+).
@@ -208,13 +210,48 @@ _PROMPT_PREAMBLE = """\
 You are a relationship classifier for the Weirwood Network ASOIAF knowledge graph.
 Classify each relationship row as exactly ONE edge type from the LOCKED VOCABULARY below, or REJECT.
 
+GOVERNING PRINCIPLE — WHEN IN DOUBT, REJECT.
+A missing edge is recoverable (a later pass will catch it). A WRONG edge permanently
+pollutes the graph. Therefore REJECT is the correct, safe answer whenever the evidence
+does not CLEANLY and OBVIOUSLY support exactly one type. You are not scored on coverage.
+You are scored on the fraction of your EMITS that are correct. Emitting a plausible-but-
+shaky type is a LOSS, not a partial win.
+
+Before emitting ANY type, pass all three gates. If any gate fails, REJECT:
+  GATE 1 — STATE, not MOMENT: Does the evidence show a STANDING relationship between
+    source and target, or just one momentary action/line of dialogue? A single command,
+    refusal, question, rebuke, threat, or pass is usually a MOMENT. Most relationship
+    edge types (OPPOSES, COURTS, SEEKS, TEACHES, RESPECTS, TRUSTS, DISTRUSTS) assert a
+    STANDING disposition. If you only have one moment, REJECT unless the type explicitly
+    covers single acts (KILLS, RESCUES, REVEALS_TO, ENCOUNTERS).
+  GATE 2 — DIRECT pair: Is the relationship between THIS source and THIS target directly,
+    or is one of them only connected through a THIRD party named in the quote? "A orders B
+    to do X to C" is NOT an A→C edge. If the link is two-hop, REJECT.
+  GATE 3 — FACT, not PLAN: Did the event actually HAPPEN as a completed fact in the prose,
+    or is it planned / attempted / foiled / hypothetical / urged-but-refused? Outcome edges
+    (KILLS, EXECUTES, CAPTURES, DEFEATS, ASSAULTS) require the outcome to have OCCURRED.
+    A foiled plot, a refused demand, or an intended action is NOT the completed edge. REJECT.
+
 RULES:
 1. Return STRICT JSON only — a single JSON array, one object per input row, in idx order.
 2. Each object: {"idx": <integer>, "edge_type": "<TYPE_FROM_VOCAB_OR_REJECT>", "qualifier": "<only if Tier-1 type>"}
 3. Use EXACTLY the spelling from the locked vocab list. No variations, no prose.
-4. REJECT if hint+evidence does not clearly support any vocab type.
+4. REJECT if the evidence_quote does not clearly support any vocab type. The hint is a
+   candidate label only — it is NOT proof. If the evidence_quote is empty or blank, REJECT.
+4a. EVIDENCE-GROUNDING — the edge MUST be stated by the evidence_quote itself.
+    - The `hint` is a candidate label, NOT proof. The `evidence_quote` is the only
+      proof. If the quote does not state the relationship, REJECT — even if the hint
+      asserts it and even if you know it is true from the books.
+    - Do NOT supply a relationship from world-knowledge. If the quote shows a character
+      DENYING or merely DISCUSSING a relationship, that is not evidence FOR it.
+      (Error to avoid: emitting PARENT_OF from a quote where the parent denies paternity.)
+    - PLANNED, ATTEMPTED, FOILED, or HYPOTHETICAL actions are NOT completed facts.
+      A foiled or merely-intended killing is NOT KILLS. A planned meeting is NOT
+      ENCOUNTERS. If the quote frames the action as future, conditional, failed, or
+      hypothetical ("would", "tried to", "if … should", "planned to", "forgot and tried"),
+      REJECT or pick a type that fits the actual (non-completed) state.
 5. Direction is FIXED: edge runs source → target (do NOT reverse).
-6. Rule 6: ENCOUNTERS requires explicit staging verb — NEVER emit for co-presence.
+6. ENCOUNTERS requires explicit staging verb — NEVER emit for co-presence.
    ENCOUNTERS records a plot-significant face-to-face meeting anchored by EXPLICIT PROSE STAGING.
    It is NOT a fallback for two entities appearing in the same scene, battle, court, or passage.
    - Use ENCOUNTERS ONLY when the hint or evidence_quote contains a past-tense staging verb
@@ -231,7 +268,7 @@ RULES:
    - For Tier-1, qualifier MUST be from the documented enum (see below).
    - For all other types, omit qualifier entirely.
 8. No prose explanation. JSON array only.
-9. GATED TYPES — these five types have narrow, strict definitions. Read carefully before using:
+9. GATED TYPES — these types have narrow, strict definitions. Read carefully before using:
    - INFORMS: ONLY a spy or agent reporting to a handler in an ONGOING INTELLIGENCE RELATIONSHIP.
      DO NOT use INFORMS for generic "X told Y something" — use REVEALS_TO for one-time disclosures.
    - ADVISES: ONLY genuine counsel from an institutional advisor role (maester, Hand, councillor).
@@ -243,13 +280,38 @@ RULES:
    - ALIAS_OF: ONLY for true identity aliases (alternate names for the same person).
      DO NOT use ALIAS_OF for titular forms of address such as "King Robert", "Ser X", "Lord Y",
      "Maester Z" — these are titles, NOT aliases.
+   - OPPOSES: sustained active enmity or standing political/personal opposition between two parties
+     (a feud, a war, rival claimants). NOT for a single argument, refusal, rebuke, or moment of
+     friction — especially between allies, kin, or master/servant who are otherwise aligned.
+     If the quote shows only a single clash, REJECT.
+   - MOTIVATES: an EVENT or CONDITION drives an actor's behavior. Direction: Motivation → Actor.
+     The SOURCE must be an event or condition, NEVER a person. Person→person is never MOTIVATES.
+     If the source of this row is a character, REJECT — do not emit MOTIVATES.
+   - COMMANDS: direct military/organizational command; direction: Commander → the COMMANDED person.
+     When the quote is "A orders B to act on/against C", the edge is A→B, NEVER A→C (GATE 2).
+     If this row's target is the object of the order rather than the person commanded, REJECT.
+   - COURTS: formal suitor relationship (pre-betrothal pursuit of marriage). Requires explicit
+     suitor language in the quote ("sought her hand", "courted", "his suitor"). A flirtation,
+     a crude pass, banter, or a single touch is NOT courtship. REJECT.
+   - SEEKS: active, stated pursuit of a person/artifact/knowledge across the narrative. NOT a
+     single question, glance, or errand. If the quote shows only a one-off interaction, REJECT.
+   - TEACHES / TUTORS: transmission of a skill or body of knowledge over time. A single anecdote,
+     story, explanation, or remark is NOT teaching. TUTORS requires sustained one-on-one
+     mentorship explicitly evidenced. If the quote shows one casual exchange, REJECT.
+   - KILLS: target must actually die as a completed fact in the evidence_quote. A foiled plot,
+     a plan, an attempt that failed, or a "tried to kill" is NOT KILLS. See also GATE 3.
+     SOURCE must be the one who PERFORMS the killing. In passive constructions
+     ("Euron had Sawane drowned", "X was killed by Y"), the AGENT/killer is the SOURCE —
+     do not assign the grammatical subject of a passive sentence as the killer.
    When in doubt about a gated type, REJECT or pick a clearly-correct alternative type.
 10. TIER ASSIGNMENT — do NOT default every row to Tier-1:
-    - Tier-1: ONLY for explicit prose statements of the relationship ("his uncle X", "Eddard's wife Y",
-      direct speech attributing a clear relationship).
-    - Tier-2: implied-but-clear from context (their behavior, roles, or narrative framing strongly
-      implies the relationship even without an explicit statement).
-    - Tier-3: inferred — the relationship is plausible given the evidence but not directly stated.
+    - Tier-1: ONLY for relationships the prose STATES OUTRIGHT as standing fact ("his uncle X",
+      "Eddard's wife Y", direct speech attributing a clear relationship). If you hesitated over
+      whether the relationship is stated, it is NOT Tier-1.
+    - Tier-2: implied-but-clear from context (behavior, roles, or narrative framing strongly
+      implies the relationship). Single-moment edges and most prose-derived inferences → Tier-2.
+    - Tier-3: inferred — the relationship is plausible given the evidence but not directly stated;
+      also use Tier-3 for rumor, hearsay, or dream evidence.
     Emit the confidence_tier field as an integer (1, 2, or 3) in each output object.
 11. ANTI-PATTERN TYPE GATES — these five types have specific misuse patterns that appear frequently.
     Read before classifying any row involving two characters in the same scene or chapter:
@@ -272,6 +334,32 @@ RULES:
       not ASSAULTS.
     - NURSED_BY: NURSED_BY is wet-nursing specifically. A maester giving medicine or treating a patient
       is HEALS, not NURSED_BY.
+12. CO-PRESENCE PRINCIPLE (applies to every type, reinforces Rules 6 and 11):
+    Two entities sharing a scene, room, meal, march, battle, council, or passage is NOT, by itself,
+    a typed relationship. An edge requires an ACTION or STANCE directed from the SOURCE to the TARGET,
+    stated in the evidence_quote. Co-presence is the single most common false-positive source.
+    - Same scene → not COMPANION_OF, not TRAVELS_WITH, not ENCOUNTERS, not RESPECTS.
+    - Two people co-present in time → not CONTEMPORARY_WITH (that type is for two EVENTS).
+    - If the only thing the quote establishes is that both were present, REJECT.
+    RESPECTS gate: emit RESPECTS ONLY when the evidence_quote contains EXPLICIT respect/deference
+    language: admires, honors, defers to, bows to, "man of honor", "woman of honor", "held in high
+    regard", "looked up to", "great respect", or equivalently strong praise language.
+    NOT sufficient for RESPECTS: co-presence, a boast, a rebuke, neutral musing, or gratitude for
+    a single service. If none of the explicit respect-language markers appear, REJECT RESPECTS.
+    TRAVELS_WITH carve-out: a genuine shared journey between places ("rode out together", "on the
+    voyage", "they journeyed to X") still qualifies. Standing in the same room, court, or hall is
+    NOT travel — that co-location is COMPANION_OF territory if bonded, else REJECT.
+13. Direction reminder — source is the ACTOR/SUBJECT of the relationship; target is the OBJECT.
+    The edge runs source → target.  Before emitting, verify the direction is correct:
+    - If the evidence shows the REVERSE direction, swap source/target or REJECT.
+    - Example of the error to avoid: emitting HEALS Bran→Luwin when Luwin heals Bran.
+      The correct emit is HEALS Luwin→Bran (source=Luwin, target=Bran).
+    - If you are uncertain which direction the evidence supports, REJECT rather than guess.
+14. ECHOES type-contract — ECHOES must NOT connect two characters.
+    ECHOES is for motif/textual/structural echoes between EVENTS, CONCEPTS, or ARTIFACTS — not
+    for interpersonal relationships between two people.
+    If both source and target are characters → REJECT ECHOES and pick the evidenced
+    interpersonal type (PARALLELS, PERCEIVED_AS, TRUSTS, etc.) or REJECT.
 
 TIER-1 QUALIFIER ENUMS (required when using these types):
   SIBLING_OF: full | half | step | milk | unknown
@@ -286,15 +374,44 @@ TIER-1 QUALIFIER ENUMS (required when using these types):
 LOCKED EDGE VOCABULARY (use EXACTLY one of these, or REJECT):
 """
 
-# The five gated types and their anti-pattern descriptions.
+# The gated types and their anti-pattern descriptions.
 # This list is also used for --gate-vocab CLI default and the prompt injection.
+# Original 5 + 8 new types identified by the prompt audit.
 DEFAULT_GATED_TYPES: tuple[str, ...] = (
     "INFORMS",
     "ADVISES",
     "MANIPULATES",
     "SUPPORTS",
     "ALIAS_OF",
+    "OPPOSES",
+    "MOTIVATES",
+    "COMMANDS",
+    "COURTS",
+    "SEEKS",
+    "TEACHES",
+    "TUTORS",
+    "KILLS",
 )
+
+
+def compute_prompt_sha(
+    locked_vocab: frozenset[str],
+    gated_types: tuple[str, ...] | None = None,
+) -> str:
+    """Return first 12 hex chars of SHA-256 over the STATIC prompt template.
+
+    The static template is the rendered preamble + vocab block — the parts that
+    never change across batches (i.e. everything except the per-batch ROWS TO
+    CLASSIFY section).  This means the sha auto-changes whenever the prompt
+    rules or vocab changes, even if --prompt-version is not bumped.
+
+    Used for tamper-evident provenance stamping on every output row.
+    """
+    vocab_block = build_vocab_block(locked_vocab, gated_types=gated_types)
+    # The static portion of render_classify_prompt: preamble + vocab block
+    # (the rows-specific section is deliberately excluded)
+    static_template = _PROMPT_PREAMBLE + vocab_block
+    return hashlib.sha256(static_template.encode("utf-8")).hexdigest()[:12]
 
 
 def build_vocab_block(
@@ -311,7 +428,7 @@ def build_vocab_block(
     lines: list[str] = []
     for t in sorted(locked_vocab):
         if t in gated_set:
-            lines.append(f"  {t}  [GATED — see Rule 9 before using]")
+            lines.append(f"  {t}  [GATED — see GATED TYPES in Rule 9 before using]")
         else:
             lines.append(f"  {t}")
     return "\n".join(lines)
@@ -573,6 +690,8 @@ def build_emit_edge_row(
     model: str,
     run_id: str,
     model_confidence_tier: int | None = None,
+    prompt_version: str = DEFAULT_PROMPT_VERSION,
+    prompt_sha: str = "",
 ) -> dict:
     """Build an emit_edge row matching the deterministic edge schema exactly.
 
@@ -633,6 +752,8 @@ def build_emit_edge_row(
         "wiki_edge_type": tail_row.get("wiki_edge_type"),
         "locate_status": tail_row.get("locate_status", "verbatim"),
         "run_id": run_id,
+        "prompt_version": prompt_version,
+        "prompt_sha": prompt_sha,
         "schema_version": "pass1-derived-v1",
         "produced_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
     }
@@ -641,7 +762,12 @@ def build_emit_edge_row(
     return row
 
 
-def build_rejected_row(tail_row: dict, run_id: str) -> dict:
+def build_rejected_row(
+    tail_row: dict,
+    run_id: str,
+    prompt_version: str = DEFAULT_PROMPT_VERSION,
+    prompt_sha: str = "",
+) -> dict:
     """Build a rejected row carrying the original tail data."""
     return {
         "decision": "rejected",
@@ -651,6 +777,8 @@ def build_rejected_row(tail_row: dict, run_id: str) -> dict:
         "evidence_chapter": tail_row.get("evidence_chapter", ""),
         "evidence_quote": tail_row.get("evidence_quote", ""),
         "run_id": run_id,
+        "prompt_version": prompt_version,
+        "prompt_sha": prompt_sha,
         "schema_version": "pass1-derived-v1",
         "produced_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
     }
@@ -660,6 +788,8 @@ def build_needs_qualifier_row(
     tail_row: dict,
     edge_type: str,
     run_id: str,
+    prompt_version: str = DEFAULT_PROMPT_VERSION,
+    prompt_sha: str = "",
 ) -> dict:
     """Build a needs-qualifier row for Tier-1 types missing a qualifier."""
     return {
@@ -671,6 +801,8 @@ def build_needs_qualifier_row(
         "evidence_chapter": tail_row.get("evidence_chapter", ""),
         "evidence_quote": tail_row.get("evidence_quote", ""),
         "run_id": run_id,
+        "prompt_version": prompt_version,
+        "prompt_sha": prompt_sha,
         "schema_version": "pass1-derived-v1",
         "produced_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
     }
@@ -680,6 +812,8 @@ def build_classify_failed_row(
     tail_row: dict,
     reason: str,
     run_id: str,
+    prompt_version: str = DEFAULT_PROMPT_VERSION,
+    prompt_sha: str = "",
 ) -> dict:
     """Build a classify_failed row."""
     return {
@@ -690,6 +824,8 @@ def build_classify_failed_row(
         "evidence_chapter": tail_row.get("evidence_chapter", ""),
         "reason": reason,
         "run_id": run_id,
+        "prompt_version": prompt_version,
+        "prompt_sha": prompt_sha,
         "schema_version": "pass1-derived-v1",
         "produced_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
     }
@@ -923,6 +1059,8 @@ def process_batch(
     run_id: str,
     apply: bool,
     gated_types: tuple[str, ...] | None = None,
+    prompt_version: str = DEFAULT_PROMPT_VERSION,
+    prompt_sha: str = "",
 ) -> dict:
     """Classify one batch via claude -p.  Returns a results dict.
 
@@ -934,6 +1072,8 @@ def process_batch(
 
     gated_types: optional tuple of edge types to annotate as [GATED] in the
     vocab block (Rule 9 anti-pattern gate).
+
+    prompt_version / prompt_sha: provenance fields stamped onto every output row.
     """
     prompt = render_classify_prompt(batch, locked_vocab, gated_types=gated_types)
     rows_in = len(batch)
@@ -972,7 +1112,10 @@ def process_batch(
         # Entire batch failed
         print(f"  [batch {batch_idx}] Parse error: {parse_error}", file=sys.stderr)
         for tail_row in batch:
-            failed_rows.append(build_classify_failed_row(tail_row, f"parse_error: {parse_error}", run_id))
+            failed_rows.append(build_classify_failed_row(
+                tail_row, f"parse_error: {parse_error}", run_id,
+                prompt_version=prompt_version, prompt_sha=prompt_sha,
+            ))
     else:
         aligned = align_batch_output(parsed_objects, batch)
 
@@ -981,7 +1124,10 @@ def process_batch(
             if obj is None:
                 # idx missing or duplicated → classify_failed
                 reason = "idx missing or duplicated in model output"
-                failed_rows.append(build_classify_failed_row(tail_row, reason, run_id))
+                failed_rows.append(build_classify_failed_row(
+                    tail_row, reason, run_id,
+                    prompt_version=prompt_version, prompt_sha=prompt_sha,
+                ))
                 conform_violations += 1
                 continue
 
@@ -1008,23 +1154,29 @@ def process_batch(
             )
 
             if decision == "rejected":
-                rejected_rows.append(build_rejected_row(tail_row, run_id))
+                rejected_rows.append(build_rejected_row(
+                    tail_row, run_id,
+                    prompt_version=prompt_version, prompt_sha=prompt_sha,
+                ))
 
             elif decision == "classify_failed":
                 conform_violations += 1
                 failed_rows.append(build_classify_failed_row(
-                    tail_row, conform_error or "conform failed", run_id
+                    tail_row, conform_error or "conform failed", run_id,
+                    prompt_version=prompt_version, prompt_sha=prompt_sha,
                 ))
 
             elif decision == "needs_qualifier":
                 needs_qualifier_rows.append(build_needs_qualifier_row(
-                    tail_row, edge_type, run_id
+                    tail_row, edge_type, run_id,
+                    prompt_version=prompt_version, prompt_sha=prompt_sha,
                 ))
 
             else:  # emit_edge
                 emit_rows.append(build_emit_edge_row(
                     tail_row, edge_type, qualifier, model, run_id,
                     model_confidence_tier=model_confidence_tier,
+                    prompt_version=prompt_version, prompt_sha=prompt_sha,
                 ))
 
     return {
@@ -1224,6 +1376,17 @@ def parse_args() -> argparse.Namespace:
         ),
     )
     parser.add_argument(
+        "--prompt-version",
+        default=DEFAULT_PROMPT_VERSION,
+        metavar="VERSION",
+        help=(
+            f"Human-readable prompt version label stamped onto every output row "
+            f"(default: {DEFAULT_PROMPT_VERSION!r}). Bump this when you change the "
+            "prompt rules so downstream queries can identify rows classified under "
+            "a specific version."
+        ),
+    )
+    parser.add_argument(
         "--abort-after-consecutive-failures",
         type=int,
         default=5,
@@ -1282,12 +1445,21 @@ def main() -> int:
         print(f"  Gate-vocab: {', '.join(gated_types)}")
     print()
 
+    prompt_version: str = args.prompt_version
+
     # Load vocab
     print("Loading locked vocab + Tier-1 set...")
     locked_vocab = load_locked_vocab(ARCH_MD)
     tier1_types = load_tier1_edge_types(QUAL_VOCAB_MD)
     print(f"  Locked vocab: {len(locked_vocab)} edge types")
     print(f"  Tier-1 types: {len(tier1_types)}: {sorted(tier1_types)}")
+    print()
+
+    # Compute prompt SHA (depends on locked_vocab + gated_types — do AFTER vocab load)
+    prompt_sha: str = compute_prompt_sha(locked_vocab, gated_types=gated_types)
+    print(f"Prompt provenance:")
+    print(f"  prompt_version: {prompt_version}")
+    print(f"  prompt_sha:     {prompt_sha}")
     print()
 
     # Pre-warm display name cache
@@ -1351,10 +1523,12 @@ def main() -> int:
     if not apply:
         # Dry-run: print first batch prompt
         print("=== DRY-RUN PLAN ===")
-        print(f"  rows_in:      {len(all_rows)}")
-        print(f"  batch_count:  {len(chunks)}")
-        print(f"  chunk_size:   {chunk_size}")
-        print(f"  model:        {args.model}")
+        print(f"  rows_in:        {len(all_rows)}")
+        print(f"  batch_count:    {len(chunks)}")
+        print(f"  chunk_size:     {chunk_size}")
+        print(f"  model:          {args.model}")
+        print(f"  prompt_version: {prompt_version}")
+        print(f"  prompt_sha:     {prompt_sha}")
         print()
         if chunks:
             print(f"--- First batch prompt ({len(chunks[0])} rows) ---")
@@ -1407,6 +1581,8 @@ def main() -> int:
             run_id=run_id,
             apply=True,
             gated_types=gated_types,
+            prompt_version=prompt_version,
+            prompt_sha=prompt_sha,
         )
 
         elapsed = round(time.monotonic() - t0, 1)
@@ -1485,6 +1661,8 @@ def main() -> int:
         "needs_qualifier": total_needs_qualifier,
         "conform_violations": total_conform_violations,
         "total_cost_usd": round(total_cost_usd, 6),
+        "prompt_version": prompt_version,
+        "prompt_sha": prompt_sha,
     }
     OUT_BASE.mkdir(parents=True, exist_ok=True)
     summary_path = OUT_BASE / "run-summary.json"

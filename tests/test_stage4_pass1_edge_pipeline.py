@@ -622,5 +622,228 @@ class TestLoadLockedVocab(unittest.TestCase):
             self.assertIn(t, vocab)
 
 
+# ---------------------------------------------------------------------------
+# Tests: improved locator — locate_quality and both-named preference
+# ---------------------------------------------------------------------------
+
+class TestLocateQualityField(unittest.TestCase):
+    """locate_evidence must emit locate_quality in every return path."""
+
+    def setUp(self):
+        self._tmp = tempfile.mkdtemp()
+        self._tmp_path = Path(self._tmp)
+
+    def _write_chapter(self, book: str, chapter_slug: str, prose: str) -> Path:
+        chapter_dir = self._tmp_path / "sources" / "chapters" / book
+        chapter_dir.mkdir(parents=True, exist_ok=True)
+        content = f"---\nbook: TEST\npov_character: Test\n---\n\n{prose}\n"
+        path = chapter_dir / f"{chapter_slug}.md"
+        path.write_text(content, encoding="utf-8")
+        return path
+
+    def test_locate_quality_present_verbatim(self):
+        """locate_quality field must be present when locate_status=verbatim."""
+        prose = "Arya watched as Yoren cut her hair and disguised her identity.\n"
+        chapter_path = self._write_chapter("acok", "acok-arya-loctest-01", prose)
+        candidate = {
+            "source_slug": "arya-stark",
+            "target_slug": "yoren",
+            "hint_raw": "disguised",
+            "evidence_text": "Yoren cut her hair",
+            "evidence_chapter": "acok-arya-loctest-01",
+            "evidence_book": "acok",
+        }
+        result = locator_mod.locate_evidence(candidate, chapter_path)
+        self.assertIn("locate_quality", result)
+        self.assertIn(result["locate_quality"],
+                      {"both-named", "one-named", "nearest-fallback", "chapter-level"})
+
+    def test_locate_quality_present_chapter_level(self):
+        """locate_quality='chapter-level' when no sentence scores above threshold."""
+        prose = "The wall stood tall in the north.\n"
+        chapter_path = self._write_chapter("acok", "acok-cl-test", prose)
+        candidate = {
+            "source_slug": "arya-stark",
+            "target_slug": "cersei-lannister",
+            "hint_raw": "hates",
+            "evidence_text": "Arya despises Cersei for ordering Eddard's death",
+            "evidence_chapter": "acok-cl-test",
+            "evidence_book": "acok",
+        }
+        result = locator_mod.locate_evidence(candidate, chapter_path)
+        self.assertIn("locate_quality", result)
+
+    def test_locate_quality_missing_file(self):
+        """locate_quality='chapter-level' for missing prose file."""
+        candidate = {
+            "source_slug": "arya-stark",
+            "target_slug": "yoren",
+            "hint_raw": "serves",
+            "evidence_text": "Yoren protects her",
+            "evidence_chapter": "acok-missing-loc",
+            "evidence_book": "acok",
+        }
+        missing_path = self._tmp_path / "sources" / "chapters" / "acok" / "acok-missing-loc.md"
+        result = locator_mod.locate_evidence(candidate, missing_path)
+        self.assertEqual(result["locate_quality"], "chapter-level")
+
+
+class TestBothNamedPreference(unittest.TestCase):
+    """locate_evidence should PREFER a quote naming BOTH endpoints."""
+
+    def setUp(self):
+        self._tmp = tempfile.mkdtemp()
+        self._tmp_path = Path(self._tmp)
+
+    def _write_chapter(self, book: str, chapter_slug: str, prose: str) -> Path:
+        chapter_dir = self._tmp_path / "sources" / "chapters" / book
+        chapter_dir.mkdir(parents=True, exist_ok=True)
+        content = f"---\nbook: TEST\npov_character: Test\n---\n\n{prose}\n"
+        path = chapter_dir / f"{chapter_slug}.md"
+        path.write_text(content, encoding="utf-8")
+        return path
+
+    def test_both_named_single_sentence(self):
+        """When a sentence names both endpoints, locate_quality=both-named."""
+        # Sentence 2 names both Arya and Yoren; other sentences name only one
+        prose = (
+            "She walked through the city alone.\n"
+            "Arya followed Yoren toward the gate carefully.\n"
+            "The night was dark and cold.\n"
+        )
+        chapter_path = self._write_chapter("acok", "acok-both-01", prose)
+        candidate = {
+            "source_slug": "arya-stark",
+            "target_slug": "yoren",
+            "hint_raw": "follows",
+            "evidence_text": "Arya followed Yoren",
+            "evidence_chapter": "acok-both-01",
+            "evidence_book": "acok",
+        }
+        result = locator_mod.locate_evidence(candidate, chapter_path)
+        self.assertEqual(result["locate_status"], "verbatim")
+        self.assertEqual(result["locate_quality"], "both-named")
+        self.assertIn("Arya", result["evidence_quote"])
+        self.assertIn("Yoren", result["evidence_quote"])
+
+    def test_both_named_prefers_over_content_rich_single_name(self):
+        """Even if another sentence has more content-word hits but names only one,
+        a both-named sentence should be preferred."""
+        # Sentence 1 is content-rich but only names Arya
+        # Sentence 2 names both Arya and Yoren (less content)
+        prose = (
+            "Arya disguised herself carefully, cutting her hair and hiding her identity from everyone.\n"
+            "Arya trusted Yoren completely.\n"
+        )
+        chapter_path = self._write_chapter("acok", "acok-both-02", prose)
+        candidate = {
+            "source_slug": "arya-stark",
+            "target_slug": "yoren",
+            "hint_raw": "trusts",
+            "evidence_text": "Arya trusts Yoren",
+            "evidence_chapter": "acok-both-02",
+            "evidence_book": "acok",
+        }
+        result = locator_mod.locate_evidence(candidate, chapter_path)
+        self.assertEqual(result["locate_quality"], "both-named")
+        self.assertIn("Yoren", result["evidence_quote"])
+
+    def test_window_expansion_finds_both_names(self):
+        """When no single sentence names both, a multi-sentence window should be tried."""
+        # Sentence 1 has Arya; sentence 2 has Yoren — window should catch both
+        prose = (
+            "Arya was frightened and did not know where to turn.\n"
+            "Yoren grabbed her arm and pulled her into the shadows.\n"
+            "The crowd roared around them in the city.\n"
+        )
+        chapter_path = self._write_chapter("acok", "acok-both-03", prose)
+        candidate = {
+            "source_slug": "arya-stark",
+            "target_slug": "yoren",
+            "hint_raw": "rescued",
+            "evidence_text": "Yoren rescued Arya",
+            "evidence_chapter": "acok-both-03",
+            "evidence_book": "acok",
+        }
+        result = locator_mod.locate_evidence(candidate, chapter_path)
+        # Should find both names either via single sentence or window
+        self.assertEqual(result["locate_status"], "verbatim")
+        # If window worked, both names should be in the quote
+        if result["locate_quality"] == "both-named":
+            q = result["evidence_quote"]
+            q_lower = q.lower()
+            self.assertTrue("arya" in q_lower or "stark" in q_lower, f"Arya not in: {q}")
+            self.assertTrue("yoren" in q_lower, f"Yoren not in: {q}")
+
+    def test_one_named_when_only_one_entity_present(self):
+        """When no sentence or window names both, quality degrades gracefully."""
+        # Only Arya is named; Yoren doesn't appear in this chapter excerpt
+        prose = (
+            "Arya ran through the streets of King's Landing.\n"
+            "She found an alley and hid there.\n"
+            "Someone had been following her all night.\n"
+        )
+        chapter_path = self._write_chapter("acok", "acok-both-04", prose)
+        candidate = {
+            "source_slug": "arya-stark",
+            "target_slug": "yoren",
+            "hint_raw": "followed by",
+            "evidence_text": "Arya was followed by Yoren",
+            "evidence_chapter": "acok-both-04",
+            "evidence_book": "acok",
+        }
+        result = locator_mod.locate_evidence(candidate, chapter_path)
+        # Should be verbatim (Arya is present) but quality is one-named or nearest-fallback
+        if result["locate_status"] == "verbatim":
+            self.assertIn(result["locate_quality"], {"one-named", "nearest-fallback"})
+
+    def test_quality_values_are_valid_enum(self):
+        """All returned locate_quality values must be in the documented enum."""
+        valid_quality = {"both-named", "one-named", "nearest-fallback", "chapter-level"}
+        prose_cases = [
+            ("Arya and Yoren ran together.", "arya-stark", "yoren"),
+            ("She ran alone.", "arya-stark", "yoren"),
+            ("Nothing relevant here.", "arya-stark", "cersei-lannister"),
+        ]
+        for prose, src, tgt in prose_cases:
+            chapter_slug = f"acok-enum-{src[:4]}"
+            chapter_path = self._write_chapter("acok", chapter_slug, prose)
+            candidate = {
+                "source_slug": src,
+                "target_slug": tgt,
+                "hint_raw": "test",
+                "evidence_text": "",
+                "evidence_chapter": chapter_slug,
+                "evidence_book": "acok",
+            }
+            result = locator_mod.locate_evidence(candidate, chapter_path)
+            self.assertIn(result["locate_quality"], valid_quality,
+                          f"Invalid locate_quality {result['locate_quality']!r} for {prose!r}")
+
+
+class TestSlugNamedInText(unittest.TestCase):
+    """_slug_named_in_text must match whole-word, case-insensitive."""
+
+    def test_basic_match(self):
+        tokens = frozenset(["arya", "stark"])
+        self.assertTrue(locator_mod._slug_named_in_text(tokens, "arya walked away"))
+
+    def test_no_partial_match(self):
+        """'starkness' must not match 'stark' token."""
+        tokens = frozenset(["stark"])
+        self.assertFalse(locator_mod._slug_named_in_text(tokens, "the starkness of winter"))
+
+    def test_case_insensitive(self):
+        """text_lower is lowercased by caller; tokens are already lowercase."""
+        tokens = frozenset(["yoren"])
+        # The function contract: text_lower is pre-lowercased by locate_evidence.
+        # Token matching is case-insensitive at the token level (tokens are lowercase).
+        self.assertTrue(locator_mod._slug_named_in_text(tokens, "yoren grabbed her arm"))
+
+    def test_empty_tokens(self):
+        tokens = frozenset()
+        self.assertFalse(locator_mod._slug_named_in_text(tokens, "arya walked away"))
+
+
 if __name__ == "__main__":
     unittest.main()

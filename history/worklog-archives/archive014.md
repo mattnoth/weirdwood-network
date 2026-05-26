@@ -1,7 +1,7 @@
 # Worklog Archive 014
 
 > Archived Session Log entries (oldest-first within this file). Each archive holds 5 entries.
-> Sessions: 63, 64, 65 (more added as later sessions roll off the worklog).
+> Sessions: 63, 64, 65, 66 (more added as later sessions roll off the worklog).
 
 ---
 
@@ -69,3 +69,22 @@
 - Then the bounded Sonnet LLM tail (needs Matt's OK — it's an extraction) + an Opus validation pass.
 - Carry-overs: regenerate the 24 skipped files via the new pipeline; provenance stamp; `git clean` the ~31 untracked throwaway scripts.
 - **/endsession was explicitly authorized this session.**
+
+---
+
+### Session 66 — Stage 4 Pass-1-derived edge spine BUILT (2026-05-23)
+
+**Detail:** `history/session-details/session-066.md`
+
+**Changes made:**
+- NEW `scripts/stage4-pass1-edge-candidates.py` (parse→resolve→type→corroboration-flag), `scripts/stage4-pass1-evidence-locator.py` (verbatim quote + file:line), `scripts/stage4_name_resolver.py` (5-rung collision-aware resolver: exact/alias/firstname-unique/context-present/context-prior + GENERIC_TERMS stoplist + title-prefix `name_key`). +127 tests (`tests/test_stage4_pass1_edge_pipeline.py`, `tests/test_stage4_name_resolver.py`) → **278 green**.
+- Output (gitignored, regenerable via the two `--apply` scripts): `working/wiki/pass2-buckets/pass1-derived/{book}/*.{edges,candidates}.jsonl` + `_tail/` + `*.needs-qualifier.jsonl`. Tracked: 8 `working/wiki/data/pass1-derived-*` audit reports + `pass1-derived-firstname-aliases.json` (additive, does NOT mutate `alias-resolver.json`).
+- `.gitignore` — added `working/wiki/pass2-buckets/pass1-derived/`. 1 commit `047e49b3b` (not pushed).
+- Memory `project_stage4_pass1_derived_pivot` updated (spine built+committed; tail model = Sonnet, not Haiku).
+
+**Decisions:** **Spine emits 2,818 typed, ~99%-cited `book-pass1` edges at zero LLM cost.** Yield arc 1,035→2,466→2,717→2,818. **Key recalibration: resolution, NOT typing, was the wall** — 5,141/7,398 rows failed name→slug resolution (missing first-name aliases); first-name enrichment + context-disambiguation 2.7×'d the naive yield. Final honest score = 38% of rows → edges (not the design's ~50%). **Already-known pairs KEPT** (Matt's call — wiki ≈ canonical) but made self-describing via `corroborates_known_edge` + `wiki_edge_type` (book-vs-wiki type-disagreement is now a queryable signal, not a blind dupe). **Two systematic misresolution bugs caught by spot-audit, not the green tests** (generic role-words→concept nodes 87; title-first-token→`ser-pounce` the cat 341→0) — reinforces drift-detection discipline. Blind 20-edge sample: 20/20 correct. Validator clean, conform 0 drift.
+
+**What's next:**
+- → continue: `progress/continue-prompts/2026-05-23-stage4-pass1-tail-and-recovery.md` (**Sonnet 4.6** for the LLM tail + deterministic recovery; **Opus 4.7** for a validation pass). Tracks: (a) deterministic recovery backlog (924 ambiguous-queued + 387 unresolved names) — no permission; (b) **LLM tail** (untyped-but-resolved `_tail/` rows, Sonnet, smoke first — needs Matt's OK, it's an extraction); (c) deprecate-stamp wiki-comention (design step 4); (d) first-class book-pass1 validator schema.
+- Throwaway-script cleanup: HOLD (Matt's choice).
+- **`/endsession` explicitly authorized this session** (arg: write continue prompt for LLM tail + what's next).

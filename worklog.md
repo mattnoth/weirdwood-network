@@ -86,7 +86,7 @@ This is your project memory. When you come back after a break, read Current Stat
 - [ ] Trigger table v1
 - [ ] Entity index
 - [ ] Chapter index
-- [x] Graph edges formalized — **v1 LANDED** (`graph/edges/edges.jsonl`, 3,842 cited Pass-1-derived edges, ~78% strict precision, all `evidence_ref`-carrying; Session 70, 2026-05-25). Haiku Events+Dialogue enrichment = v2 (in progress). See `graph/edges/README.md`.
+- [x] Graph edges formalized — **v1 LANDED** (`graph/edges/edges.jsonl`, 3,842 cited Pass-1-derived edges, ~78% strict precision, all `evidence_ref`-carrying; Session 70, 2026-05-25). Haiku Events+Dialogue enrichment = v2 — **NOT-YET (S71):** out-of-sample ~62% precision + 20% false-reject; deterministic post-filter doesn't generalize; root cause = locator hint↔quote decoupling. Next lever = locator quote-grounding fix → re-smoke → GO only if ≥~75% stable across 2 fresh samples. v1.1 refinement candidate (−10 schema errors + soft-flags) built, PENDING Matt's OK. See `graph/edges/README.md` + `graph/edges/` continue prompt.
 - [ ] Convergence maps
 
 ### Reference Materials
@@ -100,6 +100,12 @@ This is your project memory. When you come back after a break, read Current Stat
 ## Active Decisions
 
 > Design questions that need resolution. Tag with status: OPEN, DECIDED, DEFERRED.
+
+### OPEN/BLOCKING: Unpromoted-node gap — edges PAUSED until node schema is whole (2026-05-25, Session 71)
+- **Finding:** `graph/nodes/` holds **8,299** promoted nodes, but **~7,251 staged `.node.md` sit unpromoted** in `working/wiki/pass2-buckets/*/skeleton/`. A wiki Pass-2 promotion run (~sessions 40s) apparently never finished. Nodes are staged, **not lost**.
+- **Why it blocks edges:** edge endpoint resolution AND type-contracts both depend on the node set. With nodes missing, the validator false-drops real edges (e.g. `COMMANDS→faction`: stone-crows/second-sons/iron-fleet — real factions read as "not a character"). Cannot finalize edges on an incomplete node layer.
+- **Decision:** **Edge formalization PAUSED.** Fix nodes first (accounting + promote the staged skeletons), THEN re-resolve + re-type-check edges (deterministic, $0 — NOT a re-extract). Committed v1 edges (3,842) FROZEN; v1.1 candidate built but NOT applied.
+- **Next:** `CONTINUE-node-recovery-and-edges.md` (top-level). Also flags folder reorg (wiki/scripts are dumps) + a one-line health check (`graph/nodes/` count vs staged-skeleton count) that would have surfaced this earlier.
 
 ### DECIDED: Stage 4 pivots to a Pass-1-derived deterministic edge pipeline (2026-05-22, Session 65)
 - **Decision:** Replace the wiki-chapter-summary **comention** pass with a pipeline built on **our own Pass 1 extractions**. The extractions already contain a `## Relationships Observed` table (pair + evidence) per chapter — use them. Python does parsing + verbatim-locating + common-hint typing; the LLM only **labels** the residual free-text hint with a locked-vocab edge type.
@@ -186,6 +192,21 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 71 — Stage 4 accuracy suite + prompt overhaul → PIVOT: unpromoted-node gap found, edges PAUSED (2026-05-25)
+
+**Detail:** `history/session-details/session-071.md` + tracked docs: `working/wiki/data/readiness-review-fresh.md`, `prompt-review-opus-1.md`/`-2.md`, `pass1-derived-staging-manifest.md`, `pass1-derived-v1.1-applied.md`.
+
+**Changes made (all $0/deterministic except 3 smokes ~$3.4 Haiku; NOTHING committed; `graph/edges/edges.jsonl` untouched):**
+- **Deterministic accuracy suite (NEW, tested):** `stage4-{quote-relevance-filter,type-contract-validator,fresh-relocate-sample,refine-v1-edges,produce-v1-1-candidate}.py`; improved `stage4-pass1-evidence-locator.py` (locator v2 + `locate_quality`); `stage4-tail-classifier.py` prompt v4 (GOVERNING PRINCIPLE + GATE1/2/3, evidence-grounding, gated types 5→13, `prompt_version`/`prompt_sha` stamping). 119+ tests green.
+- **Smokes:** smoke4 (60%), smoke5 (seed-4242, **72.5% raw**; post-filter looked ~80-91% but OVERFIT), **smoke6 (seed-7777 OUT-OF-SAMPLE = ~62% raw)**. v1.1 refinement candidate built (`_v1-refine/edges-v1.1-candidate.jsonl`) — **NOT applied.**
+- NEW top-level continue prompt `CONTINUE-node-recovery-and-edges.md` + staging manifest.
+
+**Decisions:** **PIVOT — edge formalization PAUSED.** Edge work surfaced that a large chunk of the wiki Pass-2 entity schema was **never promoted**: `graph/nodes/` = **8,299** nodes but **~7,251 staged `.node.md` sit unpromoted in `working/wiki/pass2-buckets/*/skeleton/`** (the "staging nodes ready" Matt remembered — NOT lost). Smoking gun: the type-contract validator false-dropped real `COMMANDS→faction` edges (stone-crows/second-sons/iron-fleet/brotherhood) because those factions aren't in `graph/nodes/characters/` — the node gap producing false edge-drops. So edges can't be finalized until nodes are whole. **Enrichment (Events+Dialogue Haiku) separately = NOT-YET** (~62% out-of-sample; root cause = locator hint↔quote decoupling; fresh-Opus-review caught my ~80-91% overfit claim). **Will edges be fully redone? No** — re-resolve + re-type-check (deterministic, $0) over existing candidates, NOT re-extract. Core v1 (3,842) FROZEN.
+
+**What's next:** → **PRIMARY: `CONTINUE-node-recovery-and-edges.md`** (top-level; **Opus 4.7** "fixer & finder"). Stream 1 = node accounting + promote the ~7,251 staged skeletons; Stream 2 = edge re-validation against complete nodes; Stream 3 = folder reorg (wiki/scripts are dumps); Stream 4 = scratch-check (no project hook found — IDE-selection surfacing). SECONDARY (gated behind nodes): `progress/continue-prompts/2026-05-25-stage4-locator-grounding.md`. All Stage-4 scripts UNCOMMITTED.
+
+---
+
 ### Session 70 — graph/edges/ v1 LANDED + Haiku enrichment gate (NO-GO) (2026-05-25)
 
 **Detail:** `working/wiki/data/pass1-derived-enrichment-gate-result.md` + `pass1-derived-smoke2-headtohead-review.md` serve as the detail (no separate session file).
@@ -257,25 +278,7 @@ This is your project memory. When you come back after a break, read Current Stat
 
 ---
 
-### Session 66 — Stage 4 Pass-1-derived edge spine BUILT (2026-05-23)
-
-**Detail:** `history/session-details/session-066.md`
-
-**Changes made:**
-- NEW `scripts/stage4-pass1-edge-candidates.py` (parse→resolve→type→corroboration-flag), `scripts/stage4-pass1-evidence-locator.py` (verbatim quote + file:line), `scripts/stage4_name_resolver.py` (5-rung collision-aware resolver: exact/alias/firstname-unique/context-present/context-prior + GENERIC_TERMS stoplist + title-prefix `name_key`). +127 tests (`tests/test_stage4_pass1_edge_pipeline.py`, `tests/test_stage4_name_resolver.py`) → **278 green**.
-- Output (gitignored, regenerable via the two `--apply` scripts): `working/wiki/pass2-buckets/pass1-derived/{book}/*.{edges,candidates}.jsonl` + `_tail/` + `*.needs-qualifier.jsonl`. Tracked: 8 `working/wiki/data/pass1-derived-*` audit reports + `pass1-derived-firstname-aliases.json` (additive, does NOT mutate `alias-resolver.json`).
-- `.gitignore` — added `working/wiki/pass2-buckets/pass1-derived/`. 1 commit `047e49b3b` (not pushed).
-- Memory `project_stage4_pass1_derived_pivot` updated (spine built+committed; tail model = Sonnet, not Haiku).
-
-**Decisions:** **Spine emits 2,818 typed, ~99%-cited `book-pass1` edges at zero LLM cost.** Yield arc 1,035→2,466→2,717→2,818. **Key recalibration: resolution, NOT typing, was the wall** — 5,141/7,398 rows failed name→slug resolution (missing first-name aliases); first-name enrichment + context-disambiguation 2.7×'d the naive yield. Final honest score = 38% of rows → edges (not the design's ~50%). **Already-known pairs KEPT** (Matt's call — wiki ≈ canonical) but made self-describing via `corroborates_known_edge` + `wiki_edge_type` (book-vs-wiki type-disagreement is now a queryable signal, not a blind dupe). **Two systematic misresolution bugs caught by spot-audit, not the green tests** (generic role-words→concept nodes 87; title-first-token→`ser-pounce` the cat 341→0) — reinforces drift-detection discipline. Blind 20-edge sample: 20/20 correct. Validator clean, conform 0 drift.
-
-**What's next:**
-- → continue: `progress/continue-prompts/2026-05-23-stage4-pass1-tail-and-recovery.md` (**Sonnet 4.6** for the LLM tail + deterministic recovery; **Opus 4.7** for a validation pass). Tracks: (a) deterministic recovery backlog (924 ambiguous-queued + 387 unresolved names) — no permission; (b) **LLM tail** (untyped-but-resolved `_tail/` rows, Sonnet, smoke first — needs Matt's OK, it's an extraction); (c) deprecate-stamp wiki-comention (design step 4); (d) first-class book-pass1 validator schema.
-- Throwaway-script cleanup: HOLD (Matt's choice).
-- **`/endsession` explicitly authorized this session** (arg: write continue prompt for LLM tail + what's next).
-
----
-
+> Session 66 archived to `history/worklog-archives/archive014.md` (archive014 now 4/5)
 > Session 65 archived to `history/worklog-archives/archive014.md` (archive014 now 3/5)
 > Session 64 archived to `history/worklog-archives/archive014.md` (archive014 now 2/5)
 > Session 63 archived to `history/worklog-archives/archive014.md` (archive014 started — 1/5)

@@ -738,10 +738,88 @@ class TestRule6InPrompt(unittest.TestCase):
         )
 
     def test_rule_numbering_sequential(self):
-        """The preamble must have rules 6 through 11 present."""
+        """The preamble must have rules 6 through 14 present."""
         preamble = tc._PROMPT_PREAMBLE
-        for n in range(6, 12):
+        for n in range(6, 15):
             self.assertIn(f"{n}.", preamble, f"Rule {n} must be present in preamble")
+
+
+# ---------------------------------------------------------------------------
+# Tests: New prompt gates (Rules 12-14) added in Task 4
+# ---------------------------------------------------------------------------
+
+class TestNewPromptGates(unittest.TestCase):
+    """Rules 12 (RESPECTS gate), 13 (direction reminder), 14 (ECHOES contract)
+    must appear in _PROMPT_PREAMBLE and propagate into the rendered prompt.
+    """
+
+    def test_respects_gate_in_preamble(self):
+        """Rule 12 RESPECTS gate must be in _PROMPT_PREAMBLE."""
+        preamble = tc._PROMPT_PREAMBLE
+        self.assertIn("RESPECTS", preamble)
+        lower = preamble.lower()
+        # Must include the core concept: explicit respect language required
+        self.assertTrue(
+            "explicit" in lower or "defers to" in lower or "admires" in lower,
+            "RESPECTS gate must mention explicit respect language requirement",
+        )
+
+    def test_respects_gate_rejects_co_presence(self):
+        """RESPECTS gate must call out co-presence and rebuke as not sufficient."""
+        lower = tc._PROMPT_PREAMBLE.lower()
+        # At least one of: co-presence, rebuke, boast, neutral
+        self.assertTrue(
+            "rebuke" in lower or "co-presence" in lower or "boast" in lower
+            or "neutral" in lower,
+            "RESPECTS gate must reject co-presence/rebuke/boast/neutral as evidence",
+        )
+
+    def test_direction_reminder_in_preamble(self):
+        """Rule 13 direction reminder must be in _PROMPT_PREAMBLE."""
+        preamble = tc._PROMPT_PREAMBLE
+        lower = preamble.lower()
+        # Must mention source as actor and reversal
+        self.assertTrue(
+            "reverse" in lower or "swap" in lower or "actor" in lower,
+            "Direction reminder must address reversal/swap in _PROMPT_PREAMBLE",
+        )
+
+    def test_direction_reminder_heals_example(self):
+        """The HEALS Bran/Luwin direction example must appear in preamble."""
+        lower = tc._PROMPT_PREAMBLE.lower()
+        self.assertIn("heals", lower, "Direction reminder must cite HEALS as example")
+
+    def test_echoes_contract_in_preamble(self):
+        """Rule 14 ECHOES type-contract must be in _PROMPT_PREAMBLE."""
+        preamble = tc._PROMPT_PREAMBLE
+        self.assertIn("ECHOES", preamble)
+        # Must state ECHOES must NOT connect two characters
+        self.assertIn("characters", preamble,
+                      "ECHOES contract must mention the char<->char restriction")
+
+    def test_new_rules_in_rendered_prompt(self):
+        """All three new gates must propagate into the rendered classify prompt."""
+        rows = [_make_tail_row()]
+        prompt = tc.render_classify_prompt(rows, _SAMPLE_VOCAB)
+        # RESPECTS gate
+        self.assertIn("RESPECTS", prompt)
+        # ECHOES contract
+        self.assertIn("ECHOES", prompt)
+        # Direction reminder
+        lower = prompt.lower()
+        self.assertTrue("source" in lower and "target" in lower)
+
+    def test_rule_12_explicit_rule_number(self):
+        """Rule 12 must be numbered '12.' in the preamble."""
+        self.assertIn("12.", tc._PROMPT_PREAMBLE)
+
+    def test_rule_13_explicit_rule_number(self):
+        """Rule 13 must be numbered '13.' in the preamble."""
+        self.assertIn("13.", tc._PROMPT_PREAMBLE)
+
+    def test_rule_14_explicit_rule_number(self):
+        """Rule 14 must be numbered '14.' in the preamble."""
+        self.assertIn("14.", tc._PROMPT_PREAMBLE)
 
 
 # ---------------------------------------------------------------------------
@@ -1389,6 +1467,311 @@ class TestSkipExistingOutputDir(unittest.TestCase):
             keys = tc.load_existing_keys(["agot"], output_dir=custom_dir)
             self.assertIn(("ned-stark", "robert-baratheon", "agot-eddard-01"), keys)
 
+
+# ---------------------------------------------------------------------------
+# Tests: Prompt Overhaul — GOVERNING PRINCIPLE, evidence-grounding, co-presence
+# consolidation, expanded gated types (2026-05-25 audit)
+# ---------------------------------------------------------------------------
+
+class TestPromptOverhaul(unittest.TestCase):
+    """Verify all changes from the 2026-05-25 Opus prompt-review consensus:
+    - GOVERNING PRINCIPLE / 3-gate preamble
+    - Rule 4 uses evidence_quote (not hint)
+    - Rule 4a evidence-grounding + planned-vs-completed
+    - Consolidated co-presence principle (Rule 12)
+    - Expanded gated types (13 total)
+    - Rule 10 tier-1 tightening (hesitation → not tier-1)
+    - Empty evidence_quote → REJECT
+    """
+
+    # ----------------------------------------------------------------
+    # GOVERNING PRINCIPLE block
+    # ----------------------------------------------------------------
+
+    def test_governing_principle_present(self):
+        """GOVERNING PRINCIPLE block must appear in _PROMPT_PREAMBLE."""
+        self.assertIn("GOVERNING PRINCIPLE", tc._PROMPT_PREAMBLE)
+
+    def test_governing_principle_before_rules(self):
+        """GOVERNING PRINCIPLE must appear before the RULES: block."""
+        preamble = tc._PROMPT_PREAMBLE
+        idx_gp = preamble.index("GOVERNING PRINCIPLE")
+        idx_rules = preamble.index("RULES:")
+        self.assertLess(idx_gp, idx_rules,
+                        "GOVERNING PRINCIPLE must appear before RULES:")
+
+    def test_governing_principle_reject_asymmetry(self):
+        """Governing principle must state the missing-vs-wrong asymmetry."""
+        lower = tc._PROMPT_PREAMBLE.lower()
+        self.assertIn("missing edge is recoverable", lower)
+        self.assertIn("wrong edge", lower)
+
+    def test_governing_principle_gate1_state_not_moment(self):
+        """GATE 1 (STATE, not MOMENT) must appear in preamble."""
+        preamble = tc._PROMPT_PREAMBLE
+        self.assertIn("GATE 1", preamble)
+        lower = preamble.lower()
+        self.assertTrue(
+            "standing" in lower or "moment" in lower,
+            "GATE 1 must distinguish standing relationships from single moments",
+        )
+
+    def test_governing_principle_gate2_direct_pair(self):
+        """GATE 2 (DIRECT pair, no two-hop) must appear in preamble."""
+        self.assertIn("GATE 2", tc._PROMPT_PREAMBLE)
+
+    def test_governing_principle_gate3_fact_not_plan(self):
+        """GATE 3 (FACT, not PLAN) must appear in preamble."""
+        preamble = tc._PROMPT_PREAMBLE
+        self.assertIn("GATE 3", preamble)
+        lower = preamble.lower()
+        self.assertTrue(
+            "foiled" in lower or "planned" in lower or "attempted" in lower,
+            "GATE 3 must address foiled/planned/attempted actions",
+        )
+
+    def test_gate1_whitelists_single_act_types(self):
+        """GATE 1 must whitelist single-act types (KILLS, RESCUES, REVEALS_TO, ENCOUNTERS)."""
+        lower = tc._PROMPT_PREAMBLE.lower()
+        # At least KILLS and REVEALS_TO must be mentioned as single-act exceptions
+        self.assertIn("kills", lower)
+        self.assertIn("reveals_to", lower)
+
+    # ----------------------------------------------------------------
+    # Rule 4 fix: evidence_quote replaces hint+evidence
+    # ----------------------------------------------------------------
+
+    def test_rule4_references_evidence_quote_not_hint(self):
+        """Rule 4 must say 'evidence_quote', not 'hint+evidence'."""
+        preamble = tc._PROMPT_PREAMBLE
+        self.assertIn("evidence_quote", preamble,
+                      "Rule 4 must reference evidence_quote as the authoritative signal")
+        self.assertNotIn("hint+evidence", preamble,
+                         "Rule 4 must NOT use the old 'hint+evidence' phrasing")
+
+    def test_rule4_empty_quote_reject(self):
+        """Rule 4 must state that an empty/blank evidence_quote → REJECT."""
+        lower = tc._PROMPT_PREAMBLE.lower()
+        self.assertTrue(
+            "empty" in lower or "blank" in lower,
+            "Rule 4 must specify that empty/blank evidence_quote → REJECT",
+        )
+
+    # ----------------------------------------------------------------
+    # Rule 4a: evidence-grounding
+    # ----------------------------------------------------------------
+
+    def test_rule4a_present(self):
+        """Rule 4a must appear in the preamble."""
+        self.assertIn("4a.", tc._PROMPT_PREAMBLE)
+
+    def test_rule4a_hint_is_not_proof(self):
+        """Rule 4a must state the hint is a candidate label, NOT proof."""
+        lower = tc._PROMPT_PREAMBLE.lower()
+        self.assertIn("hint", lower)
+        self.assertTrue(
+            "not proof" in lower or "candidate label" in lower,
+            "Rule 4a must call out the hint as not proof",
+        )
+
+    def test_rule4a_world_knowledge_prohibition(self):
+        """Rule 4a must prohibit using world-knowledge to supply a relationship."""
+        lower = tc._PROMPT_PREAMBLE.lower()
+        self.assertTrue(
+            "world-knowledge" in lower or "world knowledge" in lower,
+            "Rule 4a must explicitly prohibit world-knowledge substitution",
+        )
+
+    def test_rule4a_denial_is_not_evidence(self):
+        """Rule 4a must state that a denial in the quote is not evidence FOR the relationship."""
+        lower = tc._PROMPT_PREAMBLE.lower()
+        self.assertTrue(
+            "deny" in lower or "denying" in lower or "denies" in lower,
+            "Rule 4a must address the denial-is-not-evidence pattern",
+        )
+
+    def test_rule4a_planned_not_completed(self):
+        """Rule 4a must state planned/attempted/foiled actions are not completed facts."""
+        lower = tc._PROMPT_PREAMBLE.lower()
+        self.assertTrue(
+            "foiled" in lower or ("planned" in lower and "not" in lower),
+            "Rule 4a must address planned/foiled actions not equalling completed edges",
+        )
+
+    # ----------------------------------------------------------------
+    # Expanded DEFAULT_GATED_TYPES
+    # ----------------------------------------------------------------
+
+    _NEW_GATED = ("OPPOSES", "MOTIVATES", "COMMANDS", "COURTS", "SEEKS", "TEACHES", "TUTORS", "KILLS")
+    _ALL_GATED = ("INFORMS", "ADVISES", "MANIPULATES", "SUPPORTS", "ALIAS_OF") + _NEW_GATED
+
+    def test_default_gated_types_contains_all_new_types(self):
+        """DEFAULT_GATED_TYPES must contain all 8 new types from the audit."""
+        for t in self._NEW_GATED:
+            self.assertIn(t, tc.DEFAULT_GATED_TYPES,
+                          f"{t} must be in DEFAULT_GATED_TYPES after prompt overhaul")
+
+    def test_default_gated_types_count_is_13(self):
+        """DEFAULT_GATED_TYPES must now have 13 entries (5 original + 8 new)."""
+        self.assertEqual(
+            len(tc.DEFAULT_GATED_TYPES),
+            13,
+            f"Expected 13 gated types, got {len(tc.DEFAULT_GATED_TYPES)}: {tc.DEFAULT_GATED_TYPES}",
+        )
+
+    def test_new_gated_types_anti_pattern_in_preamble(self):
+        """Each new gated type must have its anti-pattern note in Rule 9 of the preamble."""
+        preamble = tc._PROMPT_PREAMBLE
+        for t in self._NEW_GATED:
+            self.assertIn(t, preamble,
+                          f"Anti-pattern for {t} must appear in preamble Rule 9")
+
+    def test_opposes_one_time_disagreement_prohibition(self):
+        """OPPOSES anti-pattern must prohibit one-time disagreements between allies."""
+        lower = tc._PROMPT_PREAMBLE.lower()
+        self.assertTrue(
+            "single" in lower or "one-time" in lower or "sustained" in lower,
+            "OPPOSES gate must require sustained enmity, not one-time clash",
+        )
+
+    def test_motivates_person_source_prohibition(self):
+        """MOTIVATES anti-pattern must state person-as-source is forbidden."""
+        lower = tc._PROMPT_PREAMBLE.lower()
+        self.assertTrue(
+            "event or condition" in lower or "event" in lower,
+            "MOTIVATES gate must require an event/condition as source, not a person",
+        )
+
+    def test_commands_two_hop_guard(self):
+        """COMMANDS anti-pattern must address the A-orders-B-about-C two-hop collapse."""
+        lower = tc._PROMPT_PREAMBLE.lower()
+        self.assertTrue(
+            "two-hop" in lower or "a→b" in lower or "commanded person" in lower or
+            "a orders b" in lower,
+            "COMMANDS gate must address the two-hop collapse pattern",
+        )
+
+    def test_courts_suitor_language_required(self):
+        """COURTS anti-pattern must require explicit suitor language."""
+        lower = tc._PROMPT_PREAMBLE.lower()
+        self.assertTrue(
+            "suitor" in lower or "sought her hand" in lower or "courted" in lower,
+            "COURTS gate must require explicit suitor/courtship language",
+        )
+
+    def test_kills_foiled_plot_prohibition(self):
+        """KILLS anti-pattern must state foiled plot / attempted kill is not KILLS."""
+        lower = tc._PROMPT_PREAMBLE.lower()
+        # foiled or tried to kill
+        self.assertTrue(
+            "foiled" in lower or "attempt" in lower or "tried to" in lower,
+            "KILLS gate must address foiled-plot / attempt-not-completion",
+        )
+
+    def test_new_gated_types_annotated_in_vocab_block(self):
+        """build_vocab_block must annotate all 13 gated types with [GATED]."""
+        # Build a vocab that includes all gated types
+        vocab = frozenset(tc.DEFAULT_GATED_TYPES) | frozenset({"LOVES", "SERVES"})
+        block = tc.build_vocab_block(vocab, gated_types=tc.DEFAULT_GATED_TYPES)
+        for t in tc.DEFAULT_GATED_TYPES:
+            # Find the line for this type
+            line = next((ln for ln in block.splitlines() if t in ln), "")
+            self.assertIn("GATED", line,
+                          f"{t} must be annotated [GATED] in vocab block")
+
+    # ----------------------------------------------------------------
+    # Consolidated co-presence principle (Rule 12)
+    # ----------------------------------------------------------------
+
+    def test_co_presence_principle_present(self):
+        """CO-PRESENCE PRINCIPLE must be present in the preamble (Rule 12)."""
+        preamble = tc._PROMPT_PREAMBLE
+        self.assertIn("CO-PRESENCE PRINCIPLE", preamble)
+
+    def test_co_presence_principle_in_rule12(self):
+        """CO-PRESENCE PRINCIPLE must live in Rule 12."""
+        preamble = tc._PROMPT_PREAMBLE
+        idx_12 = preamble.index("12.")
+        idx_cp = preamble.index("CO-PRESENCE PRINCIPLE")
+        self.assertGreaterEqual(idx_cp, idx_12,
+                                "CO-PRESENCE PRINCIPLE must appear at or after Rule 12")
+        # Must not appear before rule 12
+        self.assertLess(idx_12, idx_cp + len("CO-PRESENCE PRINCIPLE"))
+
+    def test_co_presence_requires_action_or_stance(self):
+        """Co-presence principle must require an ACTION or STANCE directed source→target."""
+        lower = tc._PROMPT_PREAMBLE.lower()
+        self.assertTrue(
+            "action or stance" in lower or "action" in lower,
+            "Co-presence principle must require a directed action or stance",
+        )
+
+    def test_co_presence_covers_same_scene(self):
+        """Co-presence principle must explicitly say same scene is not enough."""
+        lower = tc._PROMPT_PREAMBLE.lower()
+        self.assertTrue(
+            "same scene" in lower or "same room" in lower or "scene" in lower,
+            "Co-presence principle must address same-scene co-presence",
+        )
+
+    def test_co_presence_respects_gate_folded_in(self):
+        """RESPECTS gate must still appear (now folded into Rule 12)."""
+        preamble = tc._PROMPT_PREAMBLE
+        self.assertIn("RESPECTS", preamble)
+        lower = preamble.lower()
+        self.assertTrue(
+            "admires" in lower or "defers to" in lower or "explicit" in lower,
+            "RESPECTS gate must still require explicit respect language",
+        )
+
+    def test_travels_with_carve_out_present(self):
+        """Rule 12 must include the TRAVELS_WITH carve-out for genuine shared journeys."""
+        lower = tc._PROMPT_PREAMBLE.lower()
+        self.assertTrue(
+            "travels_with" in lower and (
+                "journey" in lower or "journeyed" in lower or "voyage" in lower
+            ),
+            "Co-presence principle must carve out genuine TRAVELS_WITH shared journeys",
+        )
+
+    # ----------------------------------------------------------------
+    # Rule 10 tier-1 tightening
+    # ----------------------------------------------------------------
+
+    def test_rule10_hesitation_means_not_tier1(self):
+        """Rule 10 must state that hesitation over a relationship → not Tier-1."""
+        lower = tc._PROMPT_PREAMBLE.lower()
+        self.assertTrue(
+            "hesitat" in lower,
+            "Rule 10 must say: if you hesitated, it is NOT Tier-1",
+        )
+
+    def test_rule10_single_moment_edges_tier2(self):
+        """Rule 10 must direct single-moment edges to Tier-2."""
+        lower = tc._PROMPT_PREAMBLE.lower()
+        self.assertTrue(
+            "single-moment" in lower or "single moment" in lower,
+            "Rule 10 must state single-moment edges → Tier-2",
+        )
+
+    def test_rule10_tier3_for_rumor_hearsay(self):
+        """Rule 10 must assign Tier-3 to rumor/hearsay/dream evidence."""
+        lower = tc._PROMPT_PREAMBLE.lower()
+        self.assertTrue(
+            "rumor" in lower or "hearsay" in lower,
+            "Rule 10 must assign Tier-3 to rumor/hearsay evidence",
+        )
+
+    # ----------------------------------------------------------------
+    # Backward-compatibility: original 5 gated types still present
+    # ----------------------------------------------------------------
+
+    def test_original_five_gated_types_still_present(self):
+        """The original 5 gated types must still be in DEFAULT_GATED_TYPES."""
+        for t in ("INFORMS", "ADVISES", "MANIPULATES", "SUPPORTS", "ALIAS_OF"):
+            self.assertIn(t, tc.DEFAULT_GATED_TYPES,
+                          f"Original gated type {t} must still be in DEFAULT_GATED_TYPES")
+
     def test_load_existing_keys_output_dir_param_is_explicit(self):
         """load_existing_keys accepts output_dir keyword argument (API contract test)."""
         import inspect
@@ -1643,6 +2026,179 @@ class TestConsecutiveFailureAbort(unittest.TestCase):
         )
         self.assertFalse(batch_is_fully_failed,
                          "REJECT-only batch must NOT trigger the consecutive-failure counter")
+
+
+# ---------------------------------------------------------------------------
+# Tests: Prompt provenance stamping (DEFAULT_PROMPT_VERSION, compute_prompt_sha,
+#        --prompt-version, stamps on all four row types, run-summary)
+# ---------------------------------------------------------------------------
+
+class TestPromptProvenance(unittest.TestCase):
+    """Prompt provenance fields (prompt_version, prompt_sha) must be stamped on
+    every output row type and on the run-summary.  The sha must be stable for an
+    unchanged prompt and must change when the rendered template changes."""
+
+    def test_default_prompt_version_constant_exists(self):
+        """DEFAULT_PROMPT_VERSION must be a non-empty string."""
+        self.assertIsInstance(tc.DEFAULT_PROMPT_VERSION, str)
+        self.assertTrue(tc.DEFAULT_PROMPT_VERSION, "DEFAULT_PROMPT_VERSION must not be empty")
+
+    def test_compute_prompt_sha_returns_12_hex_chars(self):
+        """compute_prompt_sha must return a 12-character hex string."""
+        sha = tc.compute_prompt_sha(_SAMPLE_VOCAB)
+        self.assertIsInstance(sha, str)
+        self.assertEqual(len(sha), 12)
+        # Must be valid hex
+        int(sha, 16)
+
+    def test_compute_prompt_sha_stable_for_unchanged_inputs(self):
+        """Same vocab + gated_types → same sha on repeated calls."""
+        sha1 = tc.compute_prompt_sha(_SAMPLE_VOCAB, gated_types=("SERVES",))
+        sha2 = tc.compute_prompt_sha(_SAMPLE_VOCAB, gated_types=("SERVES",))
+        self.assertEqual(sha1, sha2)
+
+    def test_compute_prompt_sha_changes_with_different_vocab(self):
+        """Different vocab → different sha (tamper-evident)."""
+        small_vocab = frozenset({"SERVES"})
+        large_vocab = frozenset({"SERVES", "LOVES", "KILLS"})
+        sha_small = tc.compute_prompt_sha(small_vocab)
+        sha_large = tc.compute_prompt_sha(large_vocab)
+        self.assertNotEqual(sha_small, sha_large)
+
+    def test_compute_prompt_sha_changes_with_different_gated_types(self):
+        """Different gated_types annotation → different sha."""
+        sha_no_gate = tc.compute_prompt_sha(_SAMPLE_VOCAB, gated_types=None)
+        sha_gated = tc.compute_prompt_sha(_SAMPLE_VOCAB, gated_types=("SERVES",))
+        self.assertNotEqual(sha_no_gate, sha_gated)
+
+    def test_emit_edge_row_carries_provenance(self):
+        """build_emit_edge_row must stamp prompt_version + prompt_sha."""
+        row = tc.build_emit_edge_row(
+            _make_tail_row(), "SERVES", None, "claude-haiku-4-5", "test-run",
+            prompt_version="v4-governing-principle", prompt_sha="abc123def456",
+        )
+        self.assertEqual(row["prompt_version"], "v4-governing-principle")
+        self.assertEqual(row["prompt_sha"], "abc123def456")
+
+    def test_rejected_row_carries_provenance(self):
+        """build_rejected_row must stamp prompt_version + prompt_sha."""
+        row = tc.build_rejected_row(
+            _make_tail_row(), "test-run",
+            prompt_version="v4-governing-principle", prompt_sha="abc123def456",
+        )
+        self.assertEqual(row["prompt_version"], "v4-governing-principle")
+        self.assertEqual(row["prompt_sha"], "abc123def456")
+        self.assertEqual(row["decision"], "rejected")
+
+    def test_classify_failed_row_carries_provenance(self):
+        """build_classify_failed_row must stamp prompt_version + prompt_sha."""
+        row = tc.build_classify_failed_row(
+            _make_tail_row(), "bad type", "test-run",
+            prompt_version="v4-governing-principle", prompt_sha="abc123def456",
+        )
+        self.assertEqual(row["prompt_version"], "v4-governing-principle")
+        self.assertEqual(row["prompt_sha"], "abc123def456")
+        self.assertEqual(row["decision"], "classify_failed")
+
+    def test_needs_qualifier_row_carries_provenance(self):
+        """build_needs_qualifier_row must stamp prompt_version + prompt_sha."""
+        row = tc.build_needs_qualifier_row(
+            _make_tail_row(), "PARENT_OF", "test-run",
+            prompt_version="v4-governing-principle", prompt_sha="abc123def456",
+        )
+        self.assertEqual(row["prompt_version"], "v4-governing-principle")
+        self.assertEqual(row["prompt_sha"], "abc123def456")
+        self.assertEqual(row["decision"], "needs_qualifier")
+
+    def test_process_batch_stamps_provenance_on_emit_rows(self):
+        """process_batch must forward prompt_version + prompt_sha to emit rows."""
+        batch = [_make_tail_row()]
+        model_objects = [{"idx": 0, "edge_type": "SERVES", "confidence_tier": 2}]
+        mock_resp = _mock_claude_response(model_objects)
+        with patch.object(tc, "invoke_claude", return_value=mock_resp):
+            result = tc.process_batch(
+                batch=batch,
+                batch_idx=0,
+                locked_vocab=_SAMPLE_VOCAB,
+                tier1_types=_TIER1,
+                model="claude-haiku-4-5",
+                run_id="test-run",
+                apply=True,
+                prompt_version="v4-test",
+                prompt_sha="deadbeef0001",
+            )
+        self.assertEqual(len(result["emit_rows"]), 1)
+        row = result["emit_rows"][0]
+        self.assertEqual(row["prompt_version"], "v4-test")
+        self.assertEqual(row["prompt_sha"], "deadbeef0001")
+
+    def test_process_batch_stamps_provenance_on_rejected_rows(self):
+        """process_batch must forward provenance to rejected rows."""
+        batch = [_make_tail_row()]
+        model_objects = [{"idx": 0, "edge_type": "REJECT"}]
+        mock_resp = _mock_claude_response(model_objects)
+        with patch.object(tc, "invoke_claude", return_value=mock_resp):
+            result = tc.process_batch(
+                batch=batch,
+                batch_idx=0,
+                locked_vocab=_SAMPLE_VOCAB,
+                tier1_types=_TIER1,
+                model="claude-haiku-4-5",
+                run_id="test-run",
+                apply=True,
+                prompt_version="v4-test",
+                prompt_sha="deadbeef0002",
+            )
+        self.assertEqual(len(result["rejected_rows"]), 1)
+        row = result["rejected_rows"][0]
+        self.assertEqual(row["prompt_version"], "v4-test")
+        self.assertEqual(row["prompt_sha"], "deadbeef0002")
+
+    def test_process_batch_stamps_provenance_on_classify_failed_rows(self):
+        """process_batch must forward provenance to classify_failed rows (parse error path)."""
+        batch = [_make_tail_row()]
+        bad_resp = {
+            "returncode": 0,
+            "raw_output": json.dumps({"result": "not json at all [[[", "total_cost_usd": 0.0}),
+            "result_json": None,
+            "total_cost_usd": 0.0,
+            "error_message": None,
+            "duration_s": 0.1,
+        }
+        with patch.object(tc, "invoke_claude", return_value=bad_resp):
+            result = tc.process_batch(
+                batch=batch,
+                batch_idx=0,
+                locked_vocab=_SAMPLE_VOCAB,
+                tier1_types=_TIER1,
+                model="claude-haiku-4-5",
+                run_id="test-run",
+                apply=True,
+                prompt_version="v4-test",
+                prompt_sha="deadbeef0003",
+            )
+        self.assertGreater(len(result["failed_rows"]), 0)
+        row = result["failed_rows"][0]
+        self.assertEqual(row["prompt_version"], "v4-test")
+        self.assertEqual(row["prompt_sha"], "deadbeef0003")
+
+    def test_prompt_version_override_propagates(self):
+        """A non-default prompt_version override must appear on the output row."""
+        row = tc.build_rejected_row(
+            _make_tail_row(), "run-x",
+            prompt_version="v99-custom", prompt_sha="000000000000",
+        )
+        self.assertEqual(row["prompt_version"], "v99-custom")
+
+    def test_rejected_rows_still_carry_decision_field(self):
+        """Rejected rows must have decision='rejected' alongside provenance fields."""
+        row = tc.build_rejected_row(
+            _make_tail_row(), "run-x",
+            prompt_version="v4-governing-principle", prompt_sha="aabbccdd1122",
+        )
+        self.assertEqual(row["decision"], "rejected")
+        self.assertIn("prompt_version", row)
+        self.assertIn("prompt_sha", row)
 
 
 if __name__ == "__main__":

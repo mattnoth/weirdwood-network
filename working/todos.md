@@ -24,6 +24,19 @@ Apply this lens when reviewing existing prompts (mechanical-extractor, wiki-inge
 
 ---
 
+## NODE SCHEMA RECOVERY — BLOCKING (NEW 2026-05-25 — Session 71)
+
+> **Why this is now top priority:** edge work surfaced that a large slice of the wiki Pass-2 entity schema was **never promoted**. `graph/nodes/` = 8,299 nodes, but **~7,251 staged `.node.md` sit unpromoted** in `working/wiki/pass2-buckets/*/skeleton/`. Edge resolution + type-contracts depend on the node set → **edge formalization is PAUSED** until nodes are whole. Nodes are staged, not lost.
+> → continue: `CONTINUE-node-recovery-and-edges.md` (top-level; **Opus 4.7** "fixer & finder")
+
+- [ ] **Stream 1 — Node accounting + promotion:** reconcile the ~7,251 staged skeletons vs the 8,299 promoted (net-new / dupes / why promotion stopped ~sessions 40s); promote net-new into `graph/nodes/{category}/`; dedupe + alias completeness (`bronze`→yohn-royce, `queen-cersei`→cersei-lannister class). Single Opus session for accounting+plan; fan out subagents for mechanical promotion once rules are clear.
+- [ ] **Stream 2 — Edge re-validation (after Stream 1):** re-resolve + re-type-check existing edge candidates against the complete node set (deterministic, $0 — NOT a re-extract). Fixes the `COMMANDS→faction` false-drops; re-derive v1.1 dispositions. Possible faction/title-target allowances in the type-contract validator.
+- [ ] **Stream 3 — Folder reorg:** `working/wiki/` + `scripts/` are dumps (dozens of `stage4-*.py`); reorganize into themed subdirs. Remove leftover worktree `.claude/worktrees/mystifying-burnell-*/`. Own session(s).
+- [ ] **Stream 4 — scratch-check (0.1):** no project/local/global `settings.json` hook found; the scratch surfacing was an IDE text-selection. Confirm with Matt whether a specific hook is meant.
+- [ ] **Health check to add:** `count(graph/nodes/**/*.node.md)` vs `count(working/wiki/pass2-buckets/**/skeleton/*.node.md)` — would have surfaced this gap; wire into a periodic check.
+
+---
+
 ## Stage 4 — Haiku Cutover Prep (NEW 2026-05-18 — Session 55)
 
 > **Why this section exists:** Stage 4 v1 bulk run on Sonnet projects ~$2,800 / ~340h / month-locked-up at solo-account pace (75/1,089 batches done as of 2026-05-18). Haiku 4.5 at ~$800 / ~170h is the target. Prior Haiku smoke (Session 54) failed with ~80% semantic drift, but ran against an un-locked vocab + un-flagged soft fallbacks — the smoke wasn't fair. Five-step prep below ports the bulk to a runtime where Haiku has a fair shot.

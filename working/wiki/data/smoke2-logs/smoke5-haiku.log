@@ -1,0 +1,49 @@
+  Output dir: /Users/mnoth/source/asoiaf-chat/working/wiki/pass2-buckets/pass1-derived/_smoke5-haiku (redirected from canonical _tail-typed/)
+Weirwood Network — Stage 4 Tail Classifier
+  Model:      claude-haiku-4-5
+  Chunk size: 40
+  Mode:       --apply
+  Input dir:  working/wiki/pass2-buckets/pass1-derived/_fresh-relocate-4242
+  Kinds:      pass1_events,pass1_dialogue
+  Gate-vocab: INFORMS, ADVISES, MANIPULATES, SUPPORTS, ALIAS_OF, OPPOSES, MOTIVATES, COMMANDS, COURTS, SEEKS, TEACHES, TUTORS, KILLS
+
+Loading locked vocab + Tier-1 set...
+  Locked vocab: 163 edge types
+  Tier-1 types: 8: ['HOLDS_TITLE', 'MANIPULATES', 'PARENT_OF', 'SIBLING_OF', 'SPOUSE_OF', 'SWORN_TO', 'VOWS_TO', 'WARD_OF']
+
+Building display name cache from graph/nodes/...
+  8050 slug → display name entries
+
+Loading extra-tables rows from working/wiki/pass2-buckets/pass1-derived/_fresh-relocate-4242 ...
+  400 untyped rows loaded
+
+Batch plan: 400 rows → 10 batches of ≤40
+
+Run ID: tail-llm-20260525T185153
+
+  Batch 1/10 (40 rows)... typed=3 rejected=37 failed=0 nq=0 cost=$0.1199 (167.7s)
+  Batch 2/10 (40 rows)... typed=4 rejected=36 failed=0 nq=0 cost=$0.1267 (176.9s)
+  Batch 3/10 (40 rows)... typed=8 rejected=32 failed=0 nq=0 cost=$0.1244 (175.7s)
+  Batch 4/10 (40 rows)... typed=7 rejected=33 failed=0 nq=0 cost=$0.1197 (160.5s)
+  Batch 5/10 (40 rows)... typed=3 rejected=37 failed=0 nq=0 cost=$0.1119 (135.1s)
+  Batch 6/10 (40 rows)... typed=1 rejected=39 failed=0 nq=0 cost=$0.1378 (194.5s)
+  Batch 7/10 (40 rows)... typed=5 rejected=35 failed=0 nq=0 cost=$0.1082 (139.1s)
+  Batch 8/10 (40 rows)... typed=4 rejected=36 failed=0 nq=0 cost=$0.1096 (144.5s)
+  Batch 9/10 (40 rows)... typed=1 rejected=39 failed=0 nq=0 cost=$0.1050 (139.7s)
+  Batch 10/10 (40 rows)... typed=4 rejected=36 failed=0 nq=0 cost=$0.1426 (200.7s)
+
+Writing output files...
+
+============================================================
+FINAL SUMMARY
+============================================================
+  rows_in:           400
+  typed (emit_edge): 40
+  rejected:          360
+  classify_failed:   0
+  needs_qualifier:   0
+  conform_violations:0
+  total_cost_usd:    $1.2057
+  output dir:        working/wiki/pass2-buckets/pass1-derived/_smoke5-haiku
+  needs-qual dir:    working/wiki/pass2-buckets/pass1-derived/_smoke5-haiku/_needs-qualifier
+  run summary:       working/wiki/pass2-buckets/pass1-derived/_smoke5-haiku/run-summary.json

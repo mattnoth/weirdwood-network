@@ -1,0 +1,43 @@
+  Output dir: /Users/mnoth/source/asoiaf-chat/working/wiki/pass2-buckets/pass1-derived/_smoke4-haiku (redirected from canonical _tail-typed/)
+Weirwood Network — Stage 4 Tail Classifier
+  Model:      claude-haiku-4-5
+  Chunk size: 40
+  Mode:       --apply
+  Input dir:  working/wiki/pass2-buckets/pass1-derived/_relocate-smoke
+  Gate-vocab: INFORMS, ADVISES, MANIPULATES, SUPPORTS, ALIAS_OF
+
+Loading locked vocab + Tier-1 set...
+  Locked vocab: 163 edge types
+  Tier-1 types: 8: ['HOLDS_TITLE', 'MANIPULATES', 'PARENT_OF', 'SIBLING_OF', 'SPOUSE_OF', 'SWORN_TO', 'VOWS_TO', 'WARD_OF']
+
+Building display name cache from graph/nodes/...
+  8050 slug → display name entries
+
+Loading extra-tables rows from working/wiki/pass2-buckets/pass1-derived/_relocate-smoke ...
+  200 untyped rows loaded
+
+Batch plan: 200 rows → 5 batches of ≤40
+
+Run ID: tail-llm-20260525T181722
+
+  Batch 1/5 (40 rows)... typed=32 rejected=7 failed=1 nq=0 cost=$0.1425 (210.4s)
+  Batch 2/5 (40 rows)... typed=19 rejected=21 failed=0 nq=0 cost=$0.1177 (169.1s)
+  Batch 3/5 (40 rows)... typed=18 rejected=22 failed=0 nq=0 cost=$0.1332 (193.4s)
+  Batch 4/5 (40 rows)... typed=14 rejected=26 failed=0 nq=0 cost=$0.1300 (187.9s)
+  Batch 5/5 (40 rows)... typed=20 rejected=20 failed=0 nq=0 cost=$0.1300 (189.8s)
+
+Writing output files...
+
+============================================================
+FINAL SUMMARY
+============================================================
+  rows_in:           200
+  typed (emit_edge): 103
+  rejected:          96
+  classify_failed:   1
+  needs_qualifier:   0
+  conform_violations:1
+  total_cost_usd:    $0.6533
+  output dir:        working/wiki/pass2-buckets/pass1-derived/_smoke4-haiku
+  needs-qual dir:    working/wiki/pass2-buckets/pass1-derived/_smoke4-haiku/_needs-qualifier
+  run summary:       working/wiki/pass2-buckets/pass1-derived/_smoke4-haiku/run-summary.json
