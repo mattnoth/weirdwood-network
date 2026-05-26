@@ -108,7 +108,7 @@ This is your project memory. When you come back after a break, read Current Stat
 - **Lesson for next time:** the health check is a **slug intersection** (staged-vs-promoted by slug), NOT a file count — a file count is exactly what produced this false alarm. 805 tests green.
 - **Resolved this session:** ① v1.2 applied + committed. ② net-new "promotion" CANCELLED — all 8 are singular/variant **dups** of existing canonical nodes (andals/dornishmen/free-folk/war-of-the-five-kings/stormlanders/lhazareen/lyseni), not promotable. ③ `lord-tywin` = a real ship artifact (Cersei's dromond), NOT a mis-type; the bad edge referencing it was correctly dropped — no node action.
 - **Resolver pass DONE (2026-05-26, edges v1.3):** title-person disambiguation in `stage4_name_resolver.py` (a title-prefixed name that exact-matches a NON-character node now prefers the character via a char-restricted ladder; `resolved-title-person` rung) + `CAPTAIN_OF`/`CREW_OF` target-not-character contract. Applied to `edges.jsonl` (3,825→3,811): remapped 6 collision slugs, dropped 2 mis-typed CAPTAIN_OF. 814 tests green.
-- **Still open (next sessions):** folder reorg (wiki/scripts dumps + leftover worktrees); scratch: 2 scratch files git-tracked (`git rm --cached`). Possible deeper resolver work: alias completeness for the S67 unresolved/ambiguous endpoints. See `CONTINUE-node-recovery-and-edges.md`.
+- **Still open (updated S73):** worktrees REMOVED; scripts folderization DEFERRED (low value / high import-coupling risk); 27 comention scripts KEPT (revival recall lever — do NOT re-propose archiving); scratch left tracked per Matt. Deferred levers: **skeleton-untrack** (7,180 tracked stale `skeleton/*.node.md`, entangled w/ ~24 promotion scripts — its own decision); resolver alias completeness for S67 unresolved/ambiguous endpoints (`progress/continue-prompts/2026-05-23-stage4-pass1-finishing.md`). Edge enrichment gate-opener: `progress/continue-prompts/2026-05-25-stage4-locator-grounding.md`.
 
 ### DECIDED: Stage 4 pivots to a Pass-1-derived deterministic edge pipeline (2026-05-22, Session 65)
 - **Decision:** Replace the wiki-chapter-summary **comention** pass with a pipeline built on **our own Pass 1 extractions**. The extractions already contain a `## Relationships Observed` table (pair + evidence) per chapter — use them. Python does parsing + verbatim-locating + common-hint typing; the LLM only **labels** the residual free-text hint with a locked-vocab edge type.
@@ -195,6 +195,27 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 73 — Cleanup-and-reorg triage: worktrees removed, CLAUDE.md #9 finding, scripts KEPT (2026-05-26)
+
+**Model:** Opus 4.7. **Detail:** `history/session-details/session-073.md`. **Commit:** this endsession commit.
+
+**The session:** `/continue cleanup-and-reorg` — became a triage/decision session; most of the "reorg" dissolved on inspection.
+
+**Changes made:**
+- Removed both leftover worktrees (`.claude/worktrees/{admiring-benz-fa26f8, mystifying-burnell-56ee9c}`, clean) + deleted the 2 fully-merged `claude/*` branches (reversible). `.claude/worktrees/` empty.
+- Fixed the stale "gitignored" claim in `progress/continue-prompts/2026-05-26-cleanup-and-reorg.md` (corrected to the tracked-files reality below).
+- Scratch files untouched (Matt: "ignore scratch files"). Memory: `project_pass1_all_opus` (Pass 1 = all Opus, Matt-confirmed; not derivable from extraction files).
+
+**Decisions:**
+- **Scripts folderization DEFERRED indefinitely** — cosmetic, high-risk: `stage4-*`↔`wiki-pass2-*` cross-import via hardcoded `_REPO/"scripts"/"<name>"` paths (4 bridges), and `tests/_helpers.py:load_script` loads by flat filename (~30 call-sites). Nothing's broken; payoff is navigational only.
+- **27 comention / wiki-prose-edge scripts KEPT (do NOT re-propose archiving)** — they implement the pre-S65 wiki-comention approach (**superseded, not dead**) + one-off per-house classifiers + Haiku-bulk apparatus; inert but a plausible **future recall lever** (~9% prose-only relationships, S68 recall-sample). The only driver for archiving was "cleanup" → not enough.
+- **CLAUDE.md #9 finding:** the continue prompt said `pass2-buckets/` is gitignored. Reality = **23,081 TRACKED files**, incl. **7,180 stale `skeleton/*.node.md`** (~28 MB, S72-verified redundant with `graph/nodes/`). Only `pass1-derived/` is gitignored. **Skeleton-untrack DEFERRED to its own decision** (entangled — ~24 `wiki-pass2-*` promotion scripts read `skeleton/`).
+- **Edge state confirmed for Matt:** 3,811 promoted (v1.3 frozen); 5,886 core candidates worked through; **27,305** extra-table candidates held at the ~$270 / ≥80%-precision spend gate (smokes ~62-66%). Strategy (deterministic spine to minimize Haiku work + validation stack + prompt hardening) confirmed correct.
+
+**What's next:** → **edge enrichment gate-opener** = the $0 deterministic **locator quote-grounding fix** → ~$1.4 re-smoke; if ≥~75% across 2 fresh samples, enrichment unlocks, else ship core-only. Continue: `progress/continue-prompts/2026-05-25-stage4-locator-grounding.md` (**Sonnet 4.6** build/smoke; Opus review only). **NOTE both stage4 continue prompts say edges=3,842 — STALE; it's 3,811 v1.3 after S72.** Downstream framework: `2026-05-25-stage4-enrichment-decision.md` (A/B/C). Deferred levers: skeleton-untrack; S67 resolver recall levers (`2026-05-23-stage4-pass1-finishing.md`).
+
+---
+
 ### Session 72 — CORRECTION: "unpromoted-node gap" was a false alarm; index + validator + resolver FIXED; edges v1→v1.3 (2026-05-25→26)
 
 **Model:** Opus 4.7 (autonomous stretches — Matt stepped away mid-session with "do all of this"). **Detail:** `history/session-details/session-072.md`. **Commits:** `eb3c6b18b`, `4f149f7b6`.
@@ -268,22 +289,7 @@ This is your project memory. When you come back after a break, read Current Stat
 
 ---
 
-### Session 68 — Stage 4 recall ceiling: mine all Pass 1 tables + recall-sample (2026-05-24)
-
-**Detail:** `history/session-details/session-068.md`
-
-**Changes made:**
-- Answered Matt's two S67 questions: (a) **wiki comparison** — 1,973/6,239 resolved pairs (32%) corroborate an existing wiki edge, 4,266 (68%) are NEW; vs the deprecated comention path (29,259-candidate sink, 5,723 rows from 60/222 batches @ $55.66), Pass-1-derived = 5,219 edges @ $20.88 primary-source+cited. (b) **line marking** — locator attached verbatim quote + `file:line` to **5,816/5,886 = 98.8%** (70 chapter-level fallbacks); match-rate, not verified-correct.
-- NEW `scripts/stage4-pass1-extra-tables.py` (opt-in `--extra-tables`; separate staging `pass1-derived/_extra-tables/{book}/`; **canonical spine untouched**) + `tests/test_stage4_extra_tables.py` (+81 → **431 green**) + report `working/wiki/data/pass1-derived-extra-tables-report.md`. Yield: **Hospitality → 529 deterministic $0 edges** (460 GUEST_OF + 69 VIOLATES_GUEST_RIGHT; Red Wedding correct); **Dialogue → 4,422 tail rows** (~$30 to type); Food/Events/Info **counted-only** (prose-shaped: 1,263 / 8,384 / 5,654 rows).
-- Recall-sample check (`working/wiki/data/pass1-derived-recall-sample.md`, 7 chapters / 196 rels): **A=64% caught now · B=28% table-mineable · C=9% prose-only** (~3% of C high-value: Gregor/Aegon, Cersei/Maggy, Dany/Viserys).
-- todos.md: added "Stage 4 — Recall Expansion" block. **All S68 work uncommitted** (Matt checkpoints).
-
-**Decisions:** **Key tension found** — recall-sample ranks bucket-B productivity Events & Actions > Information Revealed > Hospitality > Dialogue, but the miner can only emit cheap deterministic edges from **Hospitality (#3)**; the #1/#2 recall tables are **prose-shaped (counted-only)** and need a bounded LLM pass (~14k rows, ~$95+); Dialogue ($30) is the **lowest-yield**. So 1a-as-built = A + Hospitality (~free), NOT the full ~92% the sample implied — the rest is an explicit LLM cost call. Spot-check of the Red Wedding output caught `walder-frey VIOLATES all-for-joffrey` (a toast resolved to a junk node — same index-pollution class as the pending resolver levers; 529 edges inherit it → endpoint filter before merge). **Full prose reading NOT warranted; targeted narrative-aside audit recovers the ~3% high-value C.** Nothing run beyond the deterministic miner.
-
-**What's next:** → continue: `progress/continue-prompts/2026-05-24-stage4-recall-expansion.md` (**Opus 4.7** — decisions + merge coordination; references the finishing prompt for resolver-lever/tail-cleanup detail). Tracks: (1) merge 529 Hospitality/VIOLATES edges after endpoint filter; (2) smoke ~200 Dialogue rows before the $30; (3) **Matt decides** the bounded Events/Info LLM pass (~$95+); plus the S67 finishing work (resolver levers, tail cleanup/dedup, canonical merge) now also covering the 529 edges. #2 (fast narrow wiki layer) logged in todos.
-
----
-
+> Session 68 archived to `history/worklog-archives/archive015.md` (archive015 started — 1/5)
 > Session 67 archived to `history/worklog-archives/archive014.md` (archive014 now full at 5/5)
 > Session 66 archived to `history/worklog-archives/archive014.md`
 > Session 65 archived to `history/worklog-archives/archive014.md` (archive014 now 3/5)

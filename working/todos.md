@@ -27,14 +27,15 @@ Apply this lens when reviewing existing prompts (mechanical-extractor, wiki-inge
 ## NODE/EDGE RECOVERY — RESOLVED (Session 72, 2026-05-25→26)
 
 > **Correction (CLAUDE.md #9):** the S71 "~7,251 unpromoted node backlog" was a **FALSE ALARM** — a file count without a slug check. Slug intersection: 7,039/7,047 staged skeletons already promoted; only ~8 net-new (all singular/variant dups of canonical nodes → NOT promoted). The node layer was whole. Detail: `history/session-details/session-072.md`. Memory: `project_s72_node_gap_false_alarm`.
-> → continue (remaining hygiene): `progress/continue-prompts/2026-05-26-cleanup-and-reorg.md` (**Sonnet 4.6**)
+> Remaining hygiene RESOLVED/DEFERRED S73 (continue prompt deleted): worktrees removed; scripts folderization deferred; 27 comention scripts kept (revival lever); scratch left tracked per Matt; skeleton-untrack deferred to its own decision (see new bullet below).
 
 - [x] **Node accounting** — no backlog. 1,307 skeleton↔node "conflicts" = stale staging vs canonical (richer) nodes → no action; do not re-promote (would downgrade).
 - [x] **Real "entities missing" gap = the INDEX** — `graph/index/` covered only 5/21 categories; extended `build-entity-indexes.py` + rebuilt (+1,861 `*.index.json`). Edge scripts read `graph/nodes/` (not the index), so the index is traversal/query only — decoupled from edge results.
 - [x] **Edge re-validation** — type-contract fixed (COMMANDS accepts faction/house unit targets); `refine-v1-edges.py` now passes `slug_category_index` (category contracts had never fired). Edges v1→v1.2 (3,842→3,825).
 - [x] **Resolver title-person pass** — ship/artifact/title nodes named after people (`lord-tywin`=Cersei's dromond) remapped to characters via a category-aware exact rung (`resolved-title-person`) + `CAPTAIN_OF`/`CREW_OF` target-not-character guard. Edges v1.2→v1.3 (3,825→3,811). 814 tests green.
-- [ ] **Folder reorg (still open):** `working/wiki/` + `scripts/` dumps + 2 leftover worktrees. → continue: `progress/continue-prompts/2026-05-26-cleanup-and-reorg.md`
-- [ ] **Scratch (0.1, still open):** untrack 2 git-tracked scratch files (`git rm --cached`); no active promotion hook exists (the surfacing was an IDE text-selection).
+- [x] **Folder reorg — RESOLVED/DEFERRED (S73):** 2 leftover worktrees REMOVED (+2 merged `claude/*` branches). `scripts/` folderization DEFERRED indefinitely (cosmetic; high import-coupling risk: `tests/_helpers.py:load_script` loads by flat filename + `stage4-*`↔`wiki-pass2-*` cross-bridges via hardcoded `_REPO/"scripts"/"<name>"`). 27 comention/wiki-prose-edge scripts KEPT (superseded-not-dead; future recall lever — **do NOT re-propose archiving**). Only stray file: `working/wiki/classify-mormont-edges.py`.
+- [x] **Scratch (0.1) — Matt's call (S73):** Matt chose to LEAVE the 2 scratch files git-tracked ("ignore scratch files"). Not untracked. (`.gitignore scratch*` doesn't retroactively untrack already-tracked files; revisit only if Matt asks.)
+- [ ] **DEFERRED DECISION (surfaced S73) — skeleton-untrack:** `working/wiki/pass2-buckets/` has **23,081 tracked files** incl. **7,180 stale `skeleton/*.node.md`** (~28 MB, S72-verified redundant w/ `graph/nodes/`). `git rm --cached` would de-bloat the repo but it's entangled — ~24 `wiki-pass2-*` promotion scripts read `skeleton/` dirs. Treat as its own focused decision; 28 MB isn't urgent. (CLAUDE.md #9: the prior continue prompt's "gitignored" claim was false — only `pass1-derived/` is ignored.)
 - [x] **Health-check lesson** — use a SLUG INTERSECTION (staged-vs-promoted by slug), not a file count; a file count is exactly what produced the false alarm.
 
 ---
