@@ -1,0 +1,375 @@
+{
+  "generated_at": "2026-05-26T03:23:03.208874+00:00",
+  "entity_type": "texts",
+  "dry_run": false,
+  "entity_count": 159,
+  "type_counts": {
+    "object.text": 159
+  },
+  "entities_with_zero_mentions": 118,
+  "mention_inverse_slugs": 41,
+  "top_by_appearances": [
+    {
+      "slug": "the-seven-pointed-star",
+      "name": "The Seven-Pointed Star",
+      "type": "object.text",
+      "appearances_total": 9,
+      "chapters_referenced_in": 7,
+      "in_edge_count": 17,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "white-book",
+      "name": "White Book",
+      "type": "object.text",
+      "appearances_total": 9,
+      "chapters_referenced_in": 9,
+      "in_edge_count": 25,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "the-rains-of-castamere",
+      "name": "The Rains of Castamere",
+      "type": "object.text",
+      "appearances_total": 6,
+      "chapters_referenced_in": 6,
+      "in_edge_count": 19,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "the-bear-and-the-maiden-fair",
+      "name": "The Bear and the Maiden Fair",
+      "type": "object.text",
+      "appearances_total": 6,
+      "chapters_referenced_in": 6,
+      "in_edge_count": 18,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "life-of-the-grand-maester-aethelmure",
+      "name": "Life of the Grand Maester Aethelmure",
+      "type": "object.text",
+      "appearances_total": 3,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "jade-compendium",
+      "name": "Jade Compendium",
+      "type": "object.text",
+      "appearances_total": 3,
+      "chapters_referenced_in": 3,
+      "in_edge_count": 12,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "rat-cook",
+      "name": "Rat Cook",
+      "type": "object.text",
+      "appearances_total": 2,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 16,
+      "out_edge_count": 1
+    },
+    {
+      "slug": "the-dance-of-the-dragons",
+      "name": "The Dance of the Dragons",
+      "type": "object.text",
+      "appearances_total": 2,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 2,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "lives-of-four-kings",
+      "name": "Lives of Four Kings",
+      "type": "object.text",
+      "appearances_total": 2,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 15,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "the-day-they-hanged-black-robin",
+      "name": "The Day They Hanged Black Robin",
+      "type": "object.text",
+      "appearances_total": 2,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 2,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "a-thousand-eyes-and-one",
+      "name": "A Thousand Eyes, and One",
+      "type": "object.text",
+      "appearances_total": 2,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 1,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "the-king-without-courage",
+      "name": "The King Without Courage",
+      "type": "object.text",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 3,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "the-dornishmans-wife",
+      "name": "The Dornishman's Wife",
+      "type": "object.text",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 3,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "iron-lances",
+      "name": "Iron Lances",
+      "type": "object.text",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 6,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "the-song-of-the-seven",
+      "name": "The Song of the Seven",
+      "type": "object.text",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 7,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "annals-of-the-black-centaur",
+      "name": "Annals of the Black Centaur",
+      "type": "object.text",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 2,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "jennys-song",
+      "name": "Jenny's song",
+      "type": "object.text",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 9,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "fifty-four-tuns",
+      "name": "Fifty-Four Tuns",
+      "type": "object.text",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 1,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "on-a-misty-morn",
+      "name": "On a Misty Morn",
+      "type": "object.text",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 1,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "the-last-of-the-giants",
+      "name": "The Last of the Giants",
+      "type": "object.text",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 11,
+      "out_edge_count": 0
+    }
+  ],
+  "top_by_in_edges": [
+    {
+      "slug": "ten-thousand-ships",
+      "name": "Ten Thousand Ships",
+      "type": "object.text",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 33,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "the-testimony-of-mushroom",
+      "name": "The Testimony of Mushroom",
+      "type": "object.text",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 29,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "white-book",
+      "name": "White Book",
+      "type": "object.text",
+      "appearances_total": 9,
+      "chapters_referenced_in": 9,
+      "in_edge_count": 25,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "secret-marriage-pact",
+      "name": "Secret marriage pact",
+      "type": "object.text",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 20,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "the-rains-of-castamere",
+      "name": "The Rains of Castamere",
+      "type": "object.text",
+      "appearances_total": 6,
+      "chapters_referenced_in": 6,
+      "in_edge_count": 19,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "the-bear-and-the-maiden-fair",
+      "name": "The Bear and the Maiden Fair",
+      "type": "object.text",
+      "appearances_total": 6,
+      "chapters_referenced_in": 6,
+      "in_edge_count": 18,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "the-seven-pointed-star",
+      "name": "The Seven-Pointed Star",
+      "type": "object.text",
+      "appearances_total": 9,
+      "chapters_referenced_in": 7,
+      "in_edge_count": 17,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "rat-cook",
+      "name": "Rat Cook",
+      "type": "object.text",
+      "appearances_total": 2,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 16,
+      "out_edge_count": 1
+    },
+    {
+      "slug": "lives-of-four-kings",
+      "name": "Lives of Four Kings",
+      "type": "object.text",
+      "appearances_total": 2,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 15,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "fire-blood-being-a-history-of-the-targaryen-kings-of-westeros",
+      "name": "Fire & Blood, Being a History of the Targaryen Kings of Westeros",
+      "type": "object.text",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 14,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "jade-compendium",
+      "name": "Jade Compendium",
+      "type": "object.text",
+      "appearances_total": 3,
+      "chapters_referenced_in": 3,
+      "in_edge_count": 12,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "the-last-of-the-giants",
+      "name": "The Last of the Giants",
+      "type": "object.text",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 11,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "a-caution-for-young-girls",
+      "name": "A Caution for Young Girls",
+      "type": "object.text",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 11,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "wonders-made-by-man",
+      "name": "Wonders Made by Man",
+      "type": "object.text",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 9,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "jennys-song",
+      "name": "Jenny's song",
+      "type": "object.text",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 9,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "the-reign-of-king-viserys-first-of-his-name-and-the-dance-of-the-dragons-that-came-after",
+      "name": "The Reign of King Viserys, First of His Name, and the Dance of the Dragons That Came After",
+      "type": "object.text",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 9,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "true-history",
+      "name": "True History",
+      "type": "object.text",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 8,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "the-song-of-the-seven",
+      "name": "The Song of the Seven",
+      "type": "object.text",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 7,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "passages-of-the-dead",
+      "name": "Passages of the Dead",
+      "type": "object.text",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 7,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "iron-lances",
+      "name": "Iron Lances",
+      "type": "object.text",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 6,
+      "out_edge_count": 0
+    }
+  ]
+}

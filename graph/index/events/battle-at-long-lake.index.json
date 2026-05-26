@@ -1,0 +1,18 @@
+{
+  "slug": "battle-at-long-lake",
+  "name": "Battle at Long Lake",
+  "type": "event.battle",
+  "node_path": "graph/nodes/events/battle-at-long-lake.node.md",
+  "generated_at": "2026-05-26T03:23:02.156628+00:00",
+  "stats": {
+    "appearances_total": 0,
+    "chapters_referenced_in": 0,
+    "chapters_in_raw_list": 0,
+    "out_edge_count": 1,
+    "in_edge_count": 10
+  },
+  "chapters": {
+    "in_raw_list": [],
+    "referenced_in": []
+  }
+}

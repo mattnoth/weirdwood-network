@@ -1,0 +1,18 @@
+{
+  "slug": "men-of-the-frozen-shore",
+  "name": "Men of the Frozen Shore",
+  "type": "concept.culture",
+  "node_path": "graph/nodes/factions/men-of-the-frozen-shore.node.md",
+  "generated_at": "2026-05-26T03:22:50.753066+00:00",
+  "stats": {
+    "appearances_total": 0,
+    "chapters_referenced_in": 0,
+    "chapters_in_raw_list": 0,
+    "out_edge_count": 0,
+    "in_edge_count": 5
+  },
+  "chapters": {
+    "in_raw_list": [],
+    "referenced_in": []
+  }
+}

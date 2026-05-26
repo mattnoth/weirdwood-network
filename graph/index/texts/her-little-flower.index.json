@@ -1,0 +1,44 @@
+{
+  "slug": "her-little-flower",
+  "name": "Her Little Flower",
+  "type": "object.text",
+  "node_path": "graph/nodes/texts/her-little-flower.node.md",
+  "generated_at": "2026-05-26T03:23:03.202780+00:00",
+  "stats": {
+    "appearances_total": 1,
+    "chapters_referenced_in": 1,
+    "chapters_in_raw_list": 1,
+    "out_edge_count": 0,
+    "in_edge_count": 1
+  },
+  "chapters": {
+    "in_raw_list": [
+      {
+        "chapter_id": "affc-samwell-02",
+        "book": "affc",
+        "pov_character_slug": "samwell-tarly",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > In-world Texts & Songs"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      }
+    ],
+    "referenced_in": [
+      {
+        "chapter_id": "affc-samwell-02",
+        "book": "affc",
+        "pov_character_slug": "samwell-tarly",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > In-world Texts & Songs"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      }
+    ]
+  }
+}

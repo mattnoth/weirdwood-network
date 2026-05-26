@@ -1,9 +1,10 @@
-# graph/edges/ — Pass-1-derived edge set (v1)
+# graph/edges/ — Pass-1-derived edge set (v1.2)
 
-**Landed:** Session 70, 2026-05-25. **Status:** v1 — the first traversable edge layer.
+**Landed:** Session 70, 2026-05-25 (v1, 3,842). **Refined:** Session 72, 2026-05-25 (v1.2, 3,825).
+**Status:** v1.2 — type-contract re-validated against the complete node set.
 
 `edges.jsonl` is the formalized, deduped, endpoint-gated, precision-filtered set of
-**3,842 typed relationship edges** derived from our own Pass 1 chapter extractions
+**3,825 typed relationship edges** derived from our own Pass 1 chapter extractions
 (`extractions/mechanical/{book}/`). Every edge carries a verbatim source citation
 (`evidence_ref` → `sources/chapters/<book>/<chapter>.md:<line>`), so a runtime LLM can
 re-verify any edge against the surrounding chapter text.
@@ -12,10 +13,10 @@ re-verify any edge against the surrounding chapter text.
 
 | `typed_by` | count | source |
 |---|---|---|
-| `python-map` | 1,982 | deterministic phrase→vocab map of Pass 1 "Relationships Observed" hints (the spine) |
-| `sonnet` | 1,411 | S67 LLM tail — Sonnet typed the residual free-text hints |
+| `python-map` | 1,970 | deterministic phrase→vocab map of Pass 1 "Relationships Observed" hints (the spine) |
+| `sonnet` | 1,409 | S67 LLM tail — Sonnet typed the residual free-text hints |
 | `hospitality-table` | 396 | deterministic Hospitality & Guest Right table (`GUEST_OF`) |
-| `hospitality-table-violation` | 53 | deterministic Hospitality table (`VIOLATES_GUEST_RIGHT`) |
+| `hospitality-table-violation` | 50 | deterministic Hospitality table (`VIOLATES_GUEST_RIGHT`) |
 
 All edges: `evidence_kind: book-pass1` (primary-text source, not wiki).
 
@@ -36,6 +37,30 @@ Producers: `scripts/stage4-formalize-edges.py` (merge + gate + dedup + `--precis
 Quarantined rows are preserved (not deleted) in staging
 `working/wiki/pass2-buckets/pass1-derived/_formalized/` (gitignored), queued for a future
 locked-down re-typing pass.
+
+### v1.2 refinement (Session 72, 2026-05-25)
+
+```
+v1 3,842
+  → type-contract re-validation (fixed validator + slug_category_index)   −17   = 3,825
+       drops: 13 COMMANDS with non-commandable targets (artifact/place/title/species/text/
+                 concept — e.g. gregor→lord-tywin[a ship], victarion→iron-throne)
+            + 1 MOTIVATES (character source) + 3 VIOLATES_GUEST_RIGHT
+       retypes: 3 RULES→COMMANDS (character target)
+       KEPT: 16 COMMANDS→faction unit-command edges that the old char-only contract
+             would have false-dropped (gunthor→stone-crows, victarion→iron-fleet,
+             beric→brotherhood-without-banners, ben-plumm→second-sons, jon→nights-watch, …)
+```
+
+Producer: `scripts/stage4-refine-v1-edges.py` (now passes `slug_category_index`, so the
+category-based contracts — COMMANDS-unit / CONTRACTED_WITH / MEMBER_OF-flip / HOLDS_TITLE-place
+— actually fire). The annotated candidate (with quote-relevance `_qr_warning` soft-flags on
+1,944 rows) lives in `working/wiki/pass2-buckets/pass1-derived/_v1-refine/` (gitignored); the
+committed layer here keeps the clean schema (advisory `_`-fields stripped).
+
+**Known residual (resolver disambiguation):** `lord-tywin` resolves to the *ship* (a real
+`object.artifact` — Cersei's dromond), not the man, so `lord-tywin→tommen COMMANDS` survives as
+noise. Fixing this belongs in the resolver (name disambiguation), not the type-contract.
 
 ## Quality — read before trusting blindly
 

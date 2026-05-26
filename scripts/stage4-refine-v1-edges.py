@@ -132,6 +132,7 @@ def refine_edges(
     *,
     tcv_module,
     qrf_module,
+    slug_category_index: dict[str, str] | None = None,
 ) -> tuple[list[dict], list[dict]]:
     """Apply type-contract drop then quote-relevance soft-flag.
 
@@ -142,6 +143,10 @@ def refine_edges(
         stoplist:          Token stoplist for QR filter.
         tcv_module:        Loaded stage4-type-contract-validator module.
         qrf_module:        Loaded stage4-quote-relevance-filter module.
+        slug_category_index: slug→category map (filesystem-derived).  REQUIRED for
+                           the category-based contracts (COMMANDS unit-target,
+                           CONTRACTED_WITH, MEMBER_OF-flip, HOLDS_TITLE-place).
+                           If None, those contracts degrade to soft-flag/skip.
 
     Returns:
         (output_rows, dropped_rows)
@@ -153,7 +158,9 @@ def refine_edges(
 
     for row in rows:
         # ---- Pass 1: type-contract gate (drop / flip / flag / retype / keep) ----
-        tc_disp, tc_reason = tcv_module.type_contract_pass(row, character_slugs)
+        tc_disp, tc_reason = tcv_module.type_contract_pass(
+            row, character_slugs, slug_category_index
+        )
 
         if tc_disp == "drop":
             annotated = dict(row)
@@ -369,6 +376,8 @@ def main(argv: list[str] | None = None) -> None:
     print("Building character slug set…", file=sys.stderr)
     character_slugs = tcv.build_character_slugs(nodes_dir)
     print(f"  {len(character_slugs):,} character slugs", file=sys.stderr)
+    slug_category_index = tcv.build_slug_category_index(nodes_dir)
+    print(f"  {len(slug_category_index):,} slug→category entries", file=sys.stderr)
 
     # Read input
     print(f"Reading {input_path}…", file=sys.stderr)
@@ -396,6 +405,7 @@ def main(argv: list[str] | None = None) -> None:
         stoplist,
         tcv_module=tcv,
         qrf_module=qrf,
+        slug_category_index=slug_category_index,
     )
 
     stats = _build_stats(len(rows), dropped_rows, output_rows)

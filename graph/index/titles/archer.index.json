@@ -1,0 +1,31 @@
+{
+  "slug": "archer",
+  "name": "Archer",
+  "type": "title",
+  "node_path": "graph/nodes/titles/archer.node.md",
+  "generated_at": "2026-05-26T03:23:01.743362+00:00",
+  "stats": {
+    "appearances_total": 1,
+    "chapters_referenced_in": 1,
+    "chapters_in_raw_list": 0,
+    "out_edge_count": 0,
+    "in_edge_count": 5
+  },
+  "chapters": {
+    "in_raw_list": [],
+    "referenced_in": [
+      {
+        "chapter_id": "affc-brienne-03",
+        "book": "affc",
+        "pov_character_slug": "brienne-tarth",
+        "mention_count": 1,
+        "sections": [
+          "Characters Present"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": false
+      }
+    ]
+  }
+}

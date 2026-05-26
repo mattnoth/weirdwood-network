@@ -1,0 +1,18 @@
+{
+  "slug": "battles-and-sieges-of-the-century-of-blood",
+  "name": "Battles and Sieges of the Century of Blood",
+  "type": "object.text",
+  "node_path": "graph/nodes/texts/battles-and-sieges-of-the-century-of-blood.node.md",
+  "generated_at": "2026-05-26T03:23:03.201703+00:00",
+  "stats": {
+    "appearances_total": 0,
+    "chapters_referenced_in": 0,
+    "chapters_in_raw_list": 0,
+    "out_edge_count": 0,
+    "in_edge_count": 0
+  },
+  "chapters": {
+    "in_raw_list": [],
+    "referenced_in": []
+  }
+}

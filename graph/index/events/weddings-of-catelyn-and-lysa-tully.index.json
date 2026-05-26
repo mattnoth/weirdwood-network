@@ -1,0 +1,18 @@
+{
+  "slug": "weddings-of-catelyn-and-lysa-tully",
+  "name": "Weddings of Catelyn and Lysa Tully",
+  "type": "event.battle",
+  "node_path": "graph/nodes/events/weddings-of-catelyn-and-lysa-tully.node.md",
+  "generated_at": "2026-05-26T03:23:02.141664+00:00",
+  "stats": {
+    "appearances_total": 0,
+    "chapters_referenced_in": 0,
+    "chapters_in_raw_list": 0,
+    "out_edge_count": 0,
+    "in_edge_count": 15
+  },
+  "chapters": {
+    "in_raw_list": [],
+    "referenced_in": []
+  }
+}

@@ -84,9 +84,9 @@ This is your project memory. When you come back after a break, read Current Stat
 
 ### Index & Graph
 - [ ] Trigger table v1
-- [ ] Entity index
-- [ ] Chapter index
-- [x] Graph edges formalized — **v1 LANDED** (`graph/edges/edges.jsonl`, 3,842 cited Pass-1-derived edges, ~78% strict precision, all `evidence_ref`-carrying; Session 70, 2026-05-25). Haiku Events+Dialogue enrichment = v2 — **NOT-YET (S71):** out-of-sample ~62% precision + 20% false-reject; deterministic post-filter doesn't generalize; root cause = locator hint↔quote decoupling. Next lever = locator quote-grounding fix → re-smoke → GO only if ≥~75% stable across 2 fresh samples. v1.1 refinement candidate (−10 schema errors + soft-flags) built, PENDING Matt's OK. See `graph/edges/README.md` + `graph/edges/` continue prompt.
+- [x] Entity index — **REBUILT to all categories (Session 72).** `graph/index/` previously covered only characters/houses/locations/artifacts/chapters; `scripts/build-entity-indexes.py` extended with 14 more `TYPE_CONFIGS` → **1,847 new `*.index.json`** (factions, titles, events, religions, species, texts, concepts, materials, foods, theories, customs, languages, medical, prophecies). This was the real "entities aren't there" gap (the nodes always existed; the index didn't cover them). Mention-stats zero for wiki-sourced entities Pass 1 never tagged (expected).
+- [x] Chapter index (per-chapter `*.mentions.json` under `graph/index/chapters/`)
+- [x] Graph edges formalized — **v1.2 APPLIED (Session 72)** (`graph/edges/edges.jsonl` = **3,825** cited Pass-1-derived edges; was v1 3,842 Session 70). Re-validated against the complete node set with the fixed type-contract validator: dropped 17 genuinely-wrong rows (13 COMMANDS→non-commandable target + 1 MOTIVATES + 3 VIOLATES_GUEST_RIGHT), retyped 3 RULES→COMMANDS, **kept 16 real `COMMANDS→faction` unit-command edges** the old char-only contract would have false-dropped. Clean schema preserved (advisory `_qr_warning` soft-flags live only in the gitignored `_v1-refine/` candidate). ~78% strict precision; all `evidence_ref`-carrying. Known residual: `lord-tywin`→ship resolver-disambiguation noise (resolver follow-up). Haiku Events+Dialogue enrichment = v2, separately NOT-YET (~62% out-of-sample; `progress/continue-prompts/2026-05-25-stage4-locator-grounding.md`).
 - [ ] Convergence maps
 
 ### Reference Materials
@@ -101,11 +101,13 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Design questions that need resolution. Tag with status: OPEN, DECIDED, DEFERRED.
 
-### OPEN/BLOCKING: Unpromoted-node gap — edges PAUSED until node schema is whole (2026-05-25, Session 71)
-- **Finding:** `graph/nodes/` holds **8,299** promoted nodes, but **~7,251 staged `.node.md` sit unpromoted** in `working/wiki/pass2-buckets/*/skeleton/`. A wiki Pass-2 promotion run (~sessions 40s) apparently never finished. Nodes are staged, **not lost**.
-- **Why it blocks edges:** edge endpoint resolution AND type-contracts both depend on the node set. With nodes missing, the validator false-drops real edges (e.g. `COMMANDS→faction`: stone-crows/second-sons/iron-fleet — real factions read as "not a character"). Cannot finalize edges on an incomplete node layer.
-- **Decision:** **Edge formalization PAUSED.** Fix nodes first (accounting + promote the staged skeletons), THEN re-resolve + re-type-check edges (deterministic, $0 — NOT a re-extract). Committed v1 edges (3,842) FROZEN; v1.1 candidate built but NOT applied.
-- **Next:** `CONTINUE-node-recovery-and-edges.md` (top-level). Also flags folder reorg (wiki/scripts are dumps) + a one-line health check (`graph/nodes/` count vs staged-skeleton count) that would have surfaced this earlier.
+### RESOLVED/CORRECTED: The "unpromoted-node gap" was a FALSE ALARM — node layer is whole (2026-05-25, Session 72)
+- **S71 claimed** ~7,251 staged `.node.md` were never promoted and PAUSED edges until "the node layer is whole." **That was a file count without a slug intersection — and it was wrong.** S72 verified three ways: (1) slug reconciliation — **7,039 of 7,047** unique staged-skeleton slugs are ALREADY in `graph/nodes/`; only **8** truly net-new. (2) `promote.py` dry-run — of ~3,730 promotable Tier-A/B pages: **43 net-new / 2,367 byte-equal / 1,307 byte-different**. (3) promoted (8,299) > staged (7,047). **No backlog. The skeletons are stale intermediate artifacts; promoted nodes are canonical (and in substantive conflicts, RICHER).**
+- **What was actually wrong (all FIXED S72, $0/deterministic):** (a) **the INDEX, not the nodes** — `graph/index/` only had builder configs for characters/houses/locations/artifacts; 14 categories were never indexed → "entities weren't there." Extended `build-entity-indexes.py` + rebuilt (1,847 new index files). (b) **type-contract validator** false-dropped `COMMANDS→faction` because Contract 4 only checked `graph/nodes/characters/` (the factions existed all along). Fixed: COMMANDS accepts character OR faction/house targets. (c) **`refine-v1-edges.py` never passed `slug_category_index`** → category-based contracts never fired. Fixed.
+- **Edge re-validation + v1.2 APPLIED (Matt's "re-resolve + re-validate, not re-extract"):** re-ran refine with the fixed validator → applied to **`graph/edges/edges.jsonl` = 3,825** (was v1 3,842). 16 faction-COMMANDS recovered, 17 wrong rows dropped, 3 RULES→COMMANDS retyped. Clean schema preserved. Re-resolve was a no-op (nodes never missing). **COMMITTED Session 72.**
+- **Lesson for next time:** the health check is a **slug intersection** (staged-vs-promoted by slug), NOT a file count — a file count is exactly what produced this false alarm. 805 tests green.
+- **Resolved this session:** ① v1.2 applied + committed. ② net-new "promotion" CANCELLED — all 8 are singular/variant **dups** of existing canonical nodes (andals/dornishmen/free-folk/war-of-the-five-kings/stormlanders/lhazareen/lyseni), not promotable. ③ `lord-tywin` = a real ship artifact (Cersei's dromond), NOT a mis-type; the bad edge referencing it was correctly dropped — no node action.
+- **Still open (next sessions):** resolver name-disambiguation (the `lord-tywin` ship-vs-man class — best edge-quality lever now, NOT the index); folder reorg (wiki/scripts dumps + leftover worktrees); scratch: 2 scratch files git-tracked (`git rm --cached`). See `CONTINUE-node-recovery-and-edges.md`.
 
 ### DECIDED: Stage 4 pivots to a Pass-1-derived deterministic edge pipeline (2026-05-22, Session 65)
 - **Decision:** Replace the wiki-chapter-summary **comention** pass with a pipeline built on **our own Pass 1 extractions**. The extractions already contain a `## Relationships Observed` table (pair + evidence) per chapter — use them. Python does parsing + verbatim-locating + common-hint typing; the LLM only **labels** the residual free-text hint with a locked-vocab edge type.
@@ -192,6 +194,27 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 72 — CORRECTION: the "unpromoted-node gap" was a false alarm; real gaps (index + validator) FIXED; edges re-validated (2026-05-25)
+
+**Model:** Opus 4.7 (autonomous — Matt stepped away mid-session with "do all of this"). **Detail:** this entry + `CONTINUE-node-recovery-and-edges.md` (rewritten).
+
+**The correction (CLAUDE.md #9 in action):** S71 handed off "~7,251 staged nodes never promoted → edges PAUSED." **Verified false this session** — it was a file count without a slug check. Slug reconciliation: **7,039/7,047** staged-skeleton slugs ALREADY in `graph/nodes/`; only **8** net-new. `promote.py` dry-run: 43 net-new / 2,367 byte-equal / 1,307 byte-diff. Promoted (8,299) > staged (7,047). **No backlog; node layer whole.** Did NOT mass-promote on the false premise.
+
+**What was actually wrong — all FIXED ($0/deterministic):**
+- **The index, not the nodes** (what Matt actually saw). `graph/index/` only had configs for characters/houses/locations/artifacts; 14 categories never indexed. script-builder extended `scripts/build-entity-indexes.py` + rebuilt → **1,847 new `*.index.json`** (factions 191, titles 542, events 371, …).
+- **Type-contract validator** false-dropped `COMMANDS→faction` (Contract 4 only checked `graph/nodes/characters/`; the factions existed all along). Fixed `stage4-type-contract-validator.py`: COMMANDS accepts character OR commandable unit (faction/house); drops place(two-hop)/object; flags unknown. `TestCommandsContract` rewritten.
+- **`refine-v1-edges.py` never passed `slug_category_index`** → category-based contracts never fired (latent bug). Fixed (builds + passes index; test stub updated). **805 tests green.**
+
+**Edge re-validation (Matt's "re-resolve + re-validate, not re-extract"):** re-ran refine with the fixed validator over READ-ONLY `edges.jsonl` → **corrected v1.2 candidate 3,825 rows** (`_v1-refine/edges-v1.1-candidate.jsonl`); **16 faction-COMMANDS recovered** (gunthor→stone-crows, victarion→iron-fleet, …), 17 hard-drops (13 wrong COMMANDS + 1 MOTIVATES + 3 VIOLATES_GUEST_RIGHT). Pre-fix v1.1 preserved in `_v1-refine/superseded-2026-05-25-preCommandsFix/`. **`graph/edges/edges.jsonl` = 3,842 FROZEN/untouched** (md5 `9617c73b…`).
+
+**Decisions/findings:** 1,307 skeleton↔node "conflicts" = stale staging vs canonical (richer) nodes → **NO ACTION** (re-promoting would downgrade). Data-smell tail: `lord-tywin` resolves to `graph/nodes/artifacts/` (alias/mis-type). 0.1 scratch: `endsession.md` already says don't triage scratch + `.gitignore scratch*` covers it, BUT 2 scratch files are git-tracked (`git rm --cached`). **Nothing committed; did NOT run /endsession** (no permission). Health-check lesson: use a **slug intersection**, not a file count.
+
+**Then (same session, Matt back — "go for 1,2,3, commit"):** ① **applied v1.2 → `edges.jsonl` = 3,825 + committed.** ② net-new promotion CANCELLED (all 8 are dups of canonical nodes). ③ `lord-tywin` = real ship artifact, bad edge already dropped — no-op. Answered Matt's Q: fixing `graph/index/` does NOT help the edge scripts (they read `graph/nodes/`, not the index); the next real edge-quality lever is the **resolver/name-disambiguation** layer (the `lord-tywin` ship-vs-man class), a scoped follow-up.
+
+**What's next:** → `CONTINUE-node-recovery-and-edges.md` (rewritten, corrected). Open: resolver name-disambiguation pass; folder reorg (wiki/scripts dumps + leftover worktrees); scratch untrack (`git rm --cached` 2 files).
+
+---
+
 ### Session 71 — Stage 4 accuracy suite + prompt overhaul → PIVOT: unpromoted-node gap found, edges PAUSED (2026-05-25)
 
 **Detail:** `history/session-details/session-071.md` + tracked docs: `working/wiki/data/readiness-review-fresh.md`, `prompt-review-opus-1.md`/`-2.md`, `pass1-derived-staging-manifest.md`, `pass1-derived-v1.1-applied.md`.
@@ -258,27 +281,8 @@ This is your project memory. When you come back after a break, read Current Stat
 
 ---
 
-### Session 67 — Stage 4 Pass-1-derived: alias recovery + comention deprecation + LLM tail (2026-05-23)
-
-**Detail:** `history/session-details/session-067.md`
-
-**Changes made:**
-- NEW `scripts/stage4-deprecate-comention-stamp.py` (+test): stamped **133 `*.comention-edges.jsonl` files / 11,269 rows** in-data (`status: superseded`, `superseded_by: pass1-derived`, `do_not_promote: true`). Idempotent.
-- NEW `working/wiki/data/pass1-derived-supplementary-aliases.json` (13 hand-vetted single-referent aliases) + additive fill-only merge in `stage4-pass1-edge-candidates.py` (new `IN_SUPP_ALIAS`; never mutates alias-resolver.json). Regenerated spine: **2,818→2,834 edges (+16)**; tail 3,029→3,052. Spot-audited (areo-hotah/barbrey-dustin/janos-slynt/wyman-manderly correct; all 13 names left needs-node).
-- NEW `scripts/stage4-tail-classifier.py` (+tests): LLM tail via **`claude -p --model claude-sonnet-4-6`** subprocesses (cwd=/tmp → ~49% cost cut; 40-row batches; idx-echo alignment). **Fixed vocab-drift bug** — loader scraped 172 backtick tokens incl. deprecated `KNOWS`/`ADWD`/`POV` → switched to canonical table-row extraction (`build-edge-type-counts.py`, 163 types). 350 tests green.
-- LLM tail RAN (Matt authorized mid-session): **3,052 tail rows → 2,385 typed (78%) / 667 rejected / 0 needs-qual / 0 classify-failed / $20.88**, `typed_by: sonnet`, output `working/wiki/pass2-buckets/pass1-derived/_tail-typed/{book}/` (gitignored/regenerable). Validator 21/2,385 (0.88%).
-- Worklog: Session 62 archived to archive013 (now full 5/5). **All changes UNCOMMITTED** (Matt checkpoints via own `wip` commits).
-
-**Decisions:** Caught + flagged 2 stale continue-prompt claims (firstname-aliases.json is write-ONLY → built a real supplementary-alias path; comention files = 133 not 130). Track A kept CONSERVATIVE (Matt away for that part; ambiguous bare surnames + multi-name cells queued for him). LLM tail mechanism = `claude -p` subprocesses (the "normal pipeline"; API key/SDK unavailable in this shell), NOT Agent subagents. **Smoke-first gate caught the `KNOWS` vocab-drift before the bulk — green tests did not.** Tail violations NOT auto-dropped (several are correct edges blocked by wrong TARGET-NODE types, not classifier errors). **Two resolver levers found (measured, NOT implemented — Matt's "how aggressive" call):** full-surname rung (~72 of 651 ambiguous endpoints) + common-leading-word index-pollution filter (~417 noise endpoints).
-
-**What's next:**
-- → continue: `progress/continue-prompts/2026-05-23-stage4-pass1-finishing.md` (**Sonnet 4.6** for deterministic cleanup; **Opus 4.7** only for the resolver-lever decision review). Tracks: (1) Matt decides the 2 resolver levers; (2) tail-violation cleanup (6× HOLDS_TITLE→place re-type, 4× ENCOUNTERS verb-gate, 1× SPOUSE_OF qualifier) + the wrong-target-node-type fixes; (3) tail dedup (spine emits some dup rows); (4) merge `_tail-typed/` into the main book-pass1 edge set; (5) optional Track D first-class book-pass1 validator schema.
-- **Decide whether to COMMIT this session** (currently all uncommitted) + throwaway `classify_*` cleanup still ON HOLD.
-- **Book-pass1 edge total now: 2,834 deterministic + 2,385 tail = 5,219.**
-
----
-
-> Session 66 archived to `history/worklog-archives/archive014.md` (archive014 now 4/5)
+> Session 67 archived to `history/worklog-archives/archive014.md` (archive014 now full at 5/5)
+> Session 66 archived to `history/worklog-archives/archive014.md`
 > Session 65 archived to `history/worklog-archives/archive014.md` (archive014 now 3/5)
 > Session 64 archived to `history/worklog-archives/archive014.md` (archive014 now 2/5)
 > Session 63 archived to `history/worklog-archives/archive014.md` (archive014 started — 1/5)

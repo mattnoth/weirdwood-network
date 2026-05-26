@@ -395,36 +395,65 @@ class TestValidRowsKeep(unittest.TestCase):
 
 
 class TestCommandsContract(unittest.TestCase):
-    """COMMANDS target must be a character (the person being commanded)."""
+    """COMMANDS target = the commanded party: a character OR a commandable unit
+    (faction/house — clan, company, levy, order).  A PLACE target is a two-hop
+    collapse; an OBJECT cannot be commanded (both DROP); an UNKNOWN target is
+    soft-flagged (the relationship may be real)."""
 
     def test_commands_char_target_keep(self):
         """COMMANDS: target is a character (the commanded person) -> keep."""
         row = _make_row("mormont", "jon-snow", "COMMANDS")
-        self.assertTrue(_is_keep(row, _CHARS), "Expected keep")
+        self.assertTrue(_is_keep(row, _CHARS, _CAT_INDEX), "Expected keep")
 
-    def test_commands_non_char_target_drop(self):
-        """COMMANDS: target is a non-character (place/group/faction) -> DROP (two-hop collapse)."""
-        row = _make_row("robert-baratheon", "kingsguard", "COMMANDS")
-        # kingsguard is not in _CHARS (it's a group, not a character)
-        chars_with_robert = _CHARS | {"robert-baratheon"}
-        self.assertTrue(_is_drop(row, chars_with_robert))
-        d, reason = _disp(row, chars_with_robert)
+    def test_commands_faction_target_keep(self):
+        """COMMANDS: target is a faction/unit (gunthor -> stone-crows) -> keep.
+
+        This is the v1 false-drop the fix targets: commanding a clan/company/order is
+        a real relationship once factions are first-class nodes (they always were)."""
+        row = _make_row("gunthor", "stone-crows", "COMMANDS")
+        self.assertTrue(_is_keep(row, _CHARS | {"gunthor"}, _CAT_INDEX),
+                        "Expected keep: commanding a faction/unit is valid")
+
+    def test_commands_faction_target_keep_v1_cases(self):
+        """The v1 false-dropped unit-command cases all KEEP now."""
+        chars = _CHARS | {"victarion", "mormont"}
+        for src, tgt in [("victarion", "iron-fleet"), ("mormont", "nights-watch")]:
+            row = _make_row(src, tgt, "COMMANDS")
+            self.assertTrue(_is_keep(row, chars, _CAT_INDEX),
+                            f"Expected keep: {src} COMMANDS {tgt} (unit command)")
+
+    def test_commands_house_target_keep(self):
+        """COMMANDS: target is a house (its levies) -> keep."""
+        row = _make_row("robb-stark", "house-stark", "COMMANDS")
+        self.assertTrue(_is_keep(row, _CHARS, _CAT_INDEX), "Expected keep: house levies")
+
+    def test_commands_location_target_drop(self):
+        """COMMANDS: target is a place -> DROP (two-hop collapse)."""
+        row = _make_row("tyrion-lannister", "winterfell", "COMMANDS")
+        self.assertTrue(_is_drop(row, _CHARS, _CAT_INDEX))
+        d, reason = _disp(row, _CHARS, _CAT_INDEX)
         self.assertIn("CONTRACT_VIOLATED", reason)
         self.assertIn("two-hop", reason)
 
-    def test_commands_non_char_target_faction_drop(self):
-        """COMMANDS: target is a faction slug -> DROP."""
-        row = _make_row("cersei-lannister", "faith-of-the-seven", "COMMANDS")
-        self.assertTrue(_is_drop(row, _CHARS))
-        d, reason = _disp(row, _CHARS)
-        self.assertIn("CONTRACT_VIOLATED", reason)
+    def test_commands_object_target_drop(self):
+        """COMMANDS: target is an object (artifact) -> DROP (cannot be commanded)."""
+        row = _make_row("arya-stark", "needle", "COMMANDS")
+        self.assertTrue(_is_drop(row, _CHARS, _CAT_INDEX))
+        d, reason = _disp(row, _CHARS, _CAT_INDEX)
+        self.assertIn("object category", reason)
 
-    def test_commands_location_target_drop(self):
-        """COMMANDS: target is a location -> DROP."""
-        row = _make_row("tyrion-lannister", "winterfell", "COMMANDS")
-        self.assertTrue(_is_drop(row, _CHARS))
-        d, reason = _disp(row, _CHARS)
-        self.assertIn("CONTRACT_VIOLATED", reason)
+    def test_commands_unknown_target_flag(self):
+        """COMMANDS: target has no node -> FLAG (may be real alias/unpromoted; don't drop)."""
+        row = _make_row("jon-snow", "some-unknown-host", "COMMANDS")
+        d, reason = _disp(row, _CHARS, _CAT_INDEX)
+        self.assertEqual(d, "flag", f"Expected flag for unknown target: {reason}")
+        self.assertIn("CONTRACT_WARNING", reason)
+
+    def test_commands_no_index_non_char_target_flag(self):
+        """COMMANDS: non-char target with no category index -> FLAG (conservative, no drop)."""
+        row = _make_row("jon-snow", "nights-watch", "COMMANDS")
+        d, reason = _disp(row, _CHARS, None)
+        self.assertEqual(d, "flag", f"Expected flag when no index: {reason}")
 
 
 class TestMotivatesContract(unittest.TestCase):
@@ -556,10 +585,12 @@ _CAT_INDEX = {
     "north":                "locations",
     "winterfell":           "locations",
     "kings-landing":        "locations",
-    # factions / houses (org sources)
+    # factions / houses (org sources, and commandable COMMANDS targets)
     "nights-watch":         "factions",
     "house-stark":          "houses",
     "lannister-army":       "factions",
+    "stone-crows":          "factions",
+    "iron-fleet":           "factions",
     # characters (present in _CHARS too)
     "jon-snow":             "characters",
     "tyrion-lannister":     "characters",

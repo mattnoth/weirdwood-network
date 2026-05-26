@@ -1,7 +1,7 @@
 # Worklog Archive 014
 
 > Archived Session Log entries (oldest-first within this file). Each archive holds 5 entries.
-> Sessions: 63, 64, 65, 66 (more added as later sessions roll off the worklog).
+> Sessions: 63, 64, 65, 66, 67 (full at 5).
 
 ---
 
@@ -88,3 +88,23 @@
 - → continue: `progress/continue-prompts/2026-05-23-stage4-pass1-tail-and-recovery.md` (**Sonnet 4.6** for the LLM tail + deterministic recovery; **Opus 4.7** for a validation pass). Tracks: (a) deterministic recovery backlog (924 ambiguous-queued + 387 unresolved names) — no permission; (b) **LLM tail** (untyped-but-resolved `_tail/` rows, Sonnet, smoke first — needs Matt's OK, it's an extraction); (c) deprecate-stamp wiki-comention (design step 4); (d) first-class book-pass1 validator schema.
 - Throwaway-script cleanup: HOLD (Matt's choice).
 - **`/endsession` explicitly authorized this session** (arg: write continue prompt for LLM tail + what's next).
+
+---
+
+### Session 67 — Stage 4 Pass-1-derived: alias recovery + comention deprecation + LLM tail (2026-05-23)
+
+**Detail:** `history/session-details/session-067.md`
+
+**Changes made:**
+- NEW `scripts/stage4-deprecate-comention-stamp.py` (+test): stamped **133 `*.comention-edges.jsonl` files / 11,269 rows** in-data (`status: superseded`, `superseded_by: pass1-derived`, `do_not_promote: true`). Idempotent.
+- NEW `working/wiki/data/pass1-derived-supplementary-aliases.json` (13 hand-vetted single-referent aliases) + additive fill-only merge in `stage4-pass1-edge-candidates.py` (new `IN_SUPP_ALIAS`; never mutates alias-resolver.json). Regenerated spine: **2,818→2,834 edges (+16)**; tail 3,029→3,052. Spot-audited (areo-hotah/barbrey-dustin/janos-slynt/wyman-manderly correct; all 13 names left needs-node).
+- NEW `scripts/stage4-tail-classifier.py` (+tests): LLM tail via **`claude -p --model claude-sonnet-4-6`** subprocesses (cwd=/tmp → ~49% cost cut; 40-row batches; idx-echo alignment). **Fixed vocab-drift bug** — loader scraped 172 backtick tokens incl. deprecated `KNOWS`/`ADWD`/`POV` → switched to canonical table-row extraction (`build-edge-type-counts.py`, 163 types). 350 tests green.
+- LLM tail RAN (Matt authorized mid-session): **3,052 tail rows → 2,385 typed (78%) / 667 rejected / 0 needs-qual / 0 classify-failed / $20.88**, `typed_by: sonnet`, output `working/wiki/pass2-buckets/pass1-derived/_tail-typed/{book}/` (gitignored/regenerable). Validator 21/2,385 (0.88%).
+- Worklog: Session 62 archived to archive013 (now full 5/5). **All changes UNCOMMITTED** (Matt checkpoints via own `wip` commits).
+
+**Decisions:** Caught + flagged 2 stale continue-prompt claims (firstname-aliases.json is write-ONLY → built a real supplementary-alias path; comention files = 133 not 130). Track A kept CONSERVATIVE (Matt away for that part; ambiguous bare surnames + multi-name cells queued for him). LLM tail mechanism = `claude -p` subprocesses (the "normal pipeline"; API key/SDK unavailable in this shell), NOT Agent subagents. **Smoke-first gate caught the `KNOWS` vocab-drift before the bulk — green tests did not.** Tail violations NOT auto-dropped (several are correct edges blocked by wrong TARGET-NODE types, not classifier errors). **Two resolver levers found (measured, NOT implemented — Matt's "how aggressive" call):** full-surname rung (~72 of 651 ambiguous endpoints) + common-leading-word index-pollution filter (~417 noise endpoints).
+
+**What's next:**
+- → continue: `progress/continue-prompts/2026-05-23-stage4-pass1-finishing.md` (**Sonnet 4.6** for deterministic cleanup; **Opus 4.7** only for the resolver-lever decision review). Tracks: (1) Matt decides the 2 resolver levers; (2) tail-violation cleanup (6× HOLDS_TITLE→place re-type, 4× ENCOUNTERS verb-gate, 1× SPOUSE_OF qualifier) + the wrong-target-node-type fixes; (3) tail dedup (spine emits some dup rows); (4) merge `_tail-typed/` into the main book-pass1 edge set; (5) optional Track D first-class book-pass1 validator schema.
+- **Decide whether to COMMIT this session** (currently all uncommitted) + throwaway `classify_*` cleanup still ON HOLD.
+- **Book-pass1 edge total now: 2,834 deterministic + 2,385 tail = 5,219.**

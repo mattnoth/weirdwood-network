@@ -1,0 +1,375 @@
+{
+  "generated_at": "2026-05-26T03:23:02.498579+00:00",
+  "entity_type": "religions",
+  "dry_run": false,
+  "entity_count": 63,
+  "type_counts": {
+    "organization.religion": 63
+  },
+  "entities_with_zero_mentions": 37,
+  "mention_inverse_slugs": 26,
+  "top_by_appearances": [
+    {
+      "slug": "faith-of-the-seven",
+      "name": "Faith of the Seven",
+      "type": "organization.religion",
+      "appearances_total": 47,
+      "chapters_referenced_in": 47,
+      "in_edge_count": 447,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "old-gods-of-the-forest",
+      "name": "Old Gods of the Forest",
+      "type": "organization.religion",
+      "appearances_total": 39,
+      "chapters_referenced_in": 39,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "stranger",
+      "name": "Stranger",
+      "type": "organization.religion",
+      "appearances_total": 14,
+      "chapters_referenced_in": 7,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "rhllor",
+      "name": "R'hllor",
+      "type": "organization.religion",
+      "appearances_total": 11,
+      "chapters_referenced_in": 11,
+      "in_edge_count": 193,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "drowned-god",
+      "name": "Drowned God",
+      "type": "organization.religion",
+      "appearances_total": 6,
+      "chapters_referenced_in": 6,
+      "in_edge_count": 93,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "storm-god",
+      "name": "Storm God",
+      "type": "organization.religion",
+      "appearances_total": 3,
+      "chapters_referenced_in": 3,
+      "in_edge_count": 10,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "maid",
+      "name": "Maid",
+      "type": "organization.religion",
+      "appearances_total": 3,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 19,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "elenei",
+      "name": "Elenei",
+      "type": "organization.religion",
+      "appearances_total": 2,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 8,
+      "out_edge_count": 6
+    },
+    {
+      "slug": "lord-of-the-skies",
+      "name": "Lord of the Skies",
+      "type": "organization.religion",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 5,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "silent-god",
+      "name": "Silent God",
+      "type": "organization.religion",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 0,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "trios",
+      "name": "Trios",
+      "type": "organization.religion",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 3,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "weeping-lady-of-lys",
+      "name": "Weeping Lady of Lys",
+      "type": "organization.religion",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 3,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "black-goat-of-qohor",
+      "name": "Black Goat of Qohor",
+      "type": "organization.religion",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 9,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "old-man-of-the-river",
+      "name": "Old Man of the River",
+      "type": "organization.religion",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 6,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "great-shepherd",
+      "name": "Great Shepherd",
+      "type": "organization.religion",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 7,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "father-of-waters",
+      "name": "Father of Waters",
+      "type": "organization.religion",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 1,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "lord-of-harmony",
+      "name": "Lord of Harmony",
+      "type": "organization.religion",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 6,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "many-faced-god",
+      "name": "Many-Faced God",
+      "type": "organization.religion",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 23,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "semosh-and-selloso",
+      "name": "Semosh and Selloso",
+      "type": "organization.religion",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 1,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "mother-rhoyne",
+      "name": "Mother Rhoyne",
+      "type": "organization.religion",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 15,
+      "out_edge_count": 0
+    }
+  ],
+  "top_by_in_edges": [
+    {
+      "slug": "faith-of-the-seven",
+      "name": "Faith of the Seven",
+      "type": "organization.religion",
+      "appearances_total": 47,
+      "chapters_referenced_in": 47,
+      "in_edge_count": 447,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "rhllor",
+      "name": "R'hllor",
+      "type": "organization.religion",
+      "appearances_total": 11,
+      "chapters_referenced_in": 11,
+      "in_edge_count": 193,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "drowned-god",
+      "name": "Drowned God",
+      "type": "organization.religion",
+      "appearances_total": 6,
+      "chapters_referenced_in": 6,
+      "in_edge_count": 93,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "mother-the-seven",
+      "name": "Mother (the Seven)",
+      "type": "organization.religion",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 54,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "warrior-the-seven",
+      "name": "Warrior (the Seven)",
+      "type": "organization.religion",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 35,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "garth-greenhand",
+      "name": "Garth Greenhand",
+      "type": "organization.religion",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 34,
+      "out_edge_count": 16
+    },
+    {
+      "slug": "father-the-seven",
+      "name": "Father (the Seven)",
+      "type": "organization.religion",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 29,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "stranger-the-seven",
+      "name": "Stranger (the Seven)",
+      "type": "organization.religion",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 23,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "many-faced-god",
+      "name": "Many-Faced God",
+      "type": "organization.religion",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 23,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "crone-the-seven",
+      "name": "Crone (the Seven)",
+      "type": "organization.religion",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 20,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "maiden-the-seven",
+      "name": "Maiden (the Seven)",
+      "type": "organization.religion",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 19,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "smith-the-seven",
+      "name": "Smith (the Seven)",
+      "type": "organization.religion",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 19,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "maid",
+      "name": "Maid",
+      "type": "organization.religion",
+      "appearances_total": 3,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 19,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "religion",
+      "name": "Religion",
+      "type": "organization.religion",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 19,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "great-other",
+      "name": "Great Other",
+      "type": "organization.religion",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 18,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "mother-rhoyne",
+      "name": "Mother Rhoyne",
+      "type": "organization.religion",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 15,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "lion-of-night",
+      "name": "Lion of Night",
+      "type": "organization.religion",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 15,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "storm-god",
+      "name": "Storm God",
+      "type": "organization.religion",
+      "appearances_total": 3,
+      "chapters_referenced_in": 3,
+      "in_edge_count": 10,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "black-goat-of-qohor",
+      "name": "Black Goat of Qohor",
+      "type": "organization.religion",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 9,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "maiden-made-of-light",
+      "name": "Maiden-Made-of-Light",
+      "type": "organization.religion",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 8,
+      "out_edge_count": 0
+    }
+  ]
+}

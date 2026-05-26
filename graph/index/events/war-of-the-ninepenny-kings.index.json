@@ -1,0 +1,44 @@
+{
+  "slug": "war-of-the-ninepenny-kings",
+  "name": "War of the Ninepenny Kings",
+  "type": "event.battle",
+  "node_path": "graph/nodes/events/war-of-the-ninepenny-kings.node.md",
+  "generated_at": "2026-05-26T03:23:02.135942+00:00",
+  "stats": {
+    "appearances_total": 1,
+    "chapters_referenced_in": 1,
+    "chapters_in_raw_list": 1,
+    "out_edge_count": 2,
+    "in_edge_count": 48
+  },
+  "chapters": {
+    "in_raw_list": [
+      {
+        "chapter_id": "adwd-tyrion-02",
+        "book": "adwd",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Wars & Conflicts"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      }
+    ],
+    "referenced_in": [
+      {
+        "chapter_id": "adwd-tyrion-02",
+        "book": "adwd",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Raw Entity List > Wars & Conflicts"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      }
+    ]
+  }
+}

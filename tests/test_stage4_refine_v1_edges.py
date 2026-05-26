@@ -40,12 +40,17 @@ class _StubTCV:
     """Type-contract-validator stub — delegates to the real implementation."""
 
     @staticmethod
-    def type_contract_pass(row: dict, character_slugs: frozenset) -> tuple[bool, str]:
-        return _tcv_real.type_contract_pass(row, character_slugs)
+    def type_contract_pass(row: dict, character_slugs: frozenset,
+                           slug_category_index=None) -> tuple[bool, str]:
+        return _tcv_real.type_contract_pass(row, character_slugs, slug_category_index)
 
     @staticmethod
     def build_character_slugs(nodes_dir) -> frozenset:
         return frozenset()
+
+    @staticmethod
+    def build_slug_category_index(nodes_dir) -> dict:
+        return {}
 
 
 class _StubQRF:

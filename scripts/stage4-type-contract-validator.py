@@ -240,8 +240,8 @@ _NON_CHAR_TARGET_TYPES: frozenset[str] = frozenset({
 # When RULES has a character target, the correct edge is COMMANDS (same direction).
 # RETYPE: rewrite edge_type to "COMMANDS", preserve source/target/evidence,
 # add _retyped_from="RULES" and _retype_reason.
-# NOTE: COMMANDS itself requires a character target (existing Contract 4), so the
-# retyped edge will satisfy that contract.
+# NOTE: the retyped edge has a character target, which satisfies Contract 4
+# (Contract 4 accepts character targets — and also commandable units; see Contract 4).
 _RULES_RETYPE_TARGET_TYPE: str = "COMMANDS"
 
 # Types where BOTH endpoints being characters is wrong.
@@ -253,10 +253,21 @@ _NOT_CHAR_CHAR_TYPES: frozenset[str] = frozenset({
     "CONTEMPORARY_WITH",
 })
 
-# COMMANDS two-hop guard: target must be a character (the person commanded).
-# "A orders B to act on C" emits at most A→B; A→C is a two-hop collapse and is dropped.
-_COMMANDS_CHAR_TARGET_TYPES: frozenset[str] = frozenset({
+# COMMANDS target sanity.  COMMANDS = Commander → Subordinate.  A valid target is a
+# character (the person commanded) OR a commandable unit/organization (faction/house —
+# clan, sellsword company, levy, military order; e.g. gunthor COMMANDS stone-crows,
+# victarion COMMANDS iron-fleet, beric COMMANDS brotherhood-without-banners).
+# A PLACE target is a two-hop collapse ("A orders B to act on place C"); an object
+# target cannot be commanded — both DROP.  Unknown target (no node) → soft-flag.
+_COMMANDS_TYPES: frozenset[str] = frozenset({
     "COMMANDS",
+})
+
+# Organizational/unit categories that ARE valid COMMANDS targets.  You command a
+# faction (clan/company/order) or a house's levies — not just an individual person.
+_COMMANDABLE_ORG_CATEGORIES: frozenset[str] = frozenset({
+    "factions",
+    "houses",
 })
 
 # MOTIVATES source-type guard: source must NOT be a character.
@@ -411,15 +422,40 @@ def type_contract_pass(
                 f"but target {tgt!r} is a character"
             )
 
-    # Contract 4: COMMANDS two-hop guard — target must be the commanded person (a character).
-    # Dropping target-not-char catches "A orders B to act on place/faction C" two-hop collapses.
-    # Conservative: if target is genuinely ambiguous (not in character_slugs), we drop; the
-    # slug set is built from graph/nodes/characters/ which is the authoritative character roster.
-    if et in _COMMANDS_CHAR_TARGET_TYPES:
-        if not tgt_is_char:
+    # Contract 4: COMMANDS target sanity.
+    # COMMANDS = Commander → Subordinate.  Valid targets: a character (person commanded)
+    # OR a commandable unit/organization (faction/house — clan, company, levy, order).
+    #   keep → target is a character, or resolves to factions/houses
+    #   drop → target is a PLACE (two-hop collapse: "A orders B to act on place C")
+    #   drop → target is an object (artifact/food/material — cannot be commanded)
+    #   drop → target resolves to another non-commandable known category
+    #   flag → target has no node (relationship may be real — alias/unpromoted; annotate)
+    # (Was previously a char-target-only DROP, which false-dropped real unit-command
+    #  edges like gunthor→stone-crows once factions became first-class nodes.)
+    if et in _COMMANDS_TYPES and not tgt_is_char:
+        tgt_cat = slug_category_index.get(tgt) if slug_category_index else None
+        if tgt_cat in _COMMANDABLE_ORG_CATEGORIES:
+            pass  # valid: commanding a unit/organization (e.g. gunthor → stone-crows)
+        elif tgt_cat in _LOCATION_CATEGORIES:
             return "drop", (
-                f"CONTRACT_VIOLATED: {et} target must be a character (the person commanded), "
-                f"but target {tgt!r} is not a character — possible two-hop collapse"
+                f"CONTRACT_VIOLATED: {et} target {tgt!r} is a place "
+                f"(category {tgt_cat!r}) — two-hop collapse "
+                f"('A orders B to act on place C'); COMMANDS targets a person or unit"
+            )
+        elif tgt_cat in _OBJECT_CATEGORIES:
+            return "drop", (
+                f"CONTRACT_VIOLATED: {et} target {tgt!r} resolves to object category "
+                f"{tgt_cat!r} — an object cannot be commanded"
+            )
+        elif tgt_cat is None:
+            return "flag", (
+                f"CONTRACT_WARNING: {et} target {tgt!r} has no node — the command "
+                f"relationship may be real (alias/unpromoted target); keep + annotate"
+            )
+        else:
+            return "drop", (
+                f"CONTRACT_VIOLATED: {et} target {tgt!r} resolves to category "
+                f"{tgt_cat!r}, which is not a commandable person or unit"
             )
 
     # Contract 5: MOTIVATES source-type guard — source must NOT be a character.

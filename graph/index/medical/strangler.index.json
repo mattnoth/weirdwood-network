@@ -1,0 +1,45 @@
+{
+  "slug": "strangler",
+  "name": "Strangler",
+  "type": "concept.medical",
+  "node_path": "graph/nodes/medical/strangler.node.md",
+  "generated_at": "2026-05-26T03:23:05.552121+00:00",
+  "stats": {
+    "appearances_total": 4,
+    "chapters_referenced_in": 2,
+    "chapters_in_raw_list": 0,
+    "out_edge_count": 0,
+    "in_edge_count": 25
+  },
+  "chapters": {
+    "in_raw_list": [],
+    "referenced_in": [
+      {
+        "chapter_id": "acok-prologue",
+        "book": "acok",
+        "pov_character_slug": "cressen",
+        "mention_count": 3,
+        "sections": [
+          "Artifacts & Objects of Significance",
+          "Raw Entity List > Artifacts & Objects",
+          "Raw Entity List > Magic & Phenomena"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-tyrion-09",
+        "book": "asos",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 1,
+        "sections": [
+          "Artifacts & Objects of Significance"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": false
+      }
+    ]
+  }
+}

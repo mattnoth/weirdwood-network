@@ -1,0 +1,18 @@
+{
+  "slug": "yndros-of-the-twilight",
+  "name": "Yndros of the Twilight",
+  "type": "organization.religion",
+  "node_path": "graph/nodes/religions/yndros-of-the-twilight.node.md",
+  "generated_at": "2026-05-26T03:23:02.496647+00:00",
+  "stats": {
+    "appearances_total": 0,
+    "chapters_referenced_in": 0,
+    "chapters_in_raw_list": 0,
+    "out_edge_count": 0,
+    "in_edge_count": 3
+  },
+  "chapters": {
+    "in_raw_list": [],
+    "referenced_in": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "slug": "history-of-the-kings-beyond-the-wall",
+  "name": "History of the Kings-Beyond-the-Wall",
+  "type": "object.text",
+  "node_path": "graph/nodes/texts/history-of-the-kings-beyond-the-wall.node.md",
+  "generated_at": "2026-05-26T03:23:03.204809+00:00",
+  "stats": {
+    "appearances_total": 0,
+    "chapters_referenced_in": 0,
+    "chapters_in_raw_list": 0,
+    "out_edge_count": 0,
+    "in_edge_count": 6
+  },
+  "chapters": {
+    "in_raw_list": [],
+    "referenced_in": []
+  }
+}

@@ -1,0 +1,375 @@
+{
+  "generated_at": "2026-05-26T03:23:02.859006+00:00",
+  "entity_type": "species",
+  "dry_run": false,
+  "entity_count": 188,
+  "type_counts": {
+    "species": 188
+  },
+  "entities_with_zero_mentions": 149,
+  "mention_inverse_slugs": 39,
+  "top_by_appearances": [
+    {
+      "slug": "children-of-the-forest",
+      "name": "Children Of The Forest",
+      "type": "species",
+      "appearances_total": 17,
+      "chapters_referenced_in": 14,
+      "in_edge_count": 160,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "others",
+      "name": "Others",
+      "type": "species",
+      "appearances_total": 15,
+      "chapters_referenced_in": 13,
+      "in_edge_count": 152,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "horse",
+      "name": "Horse",
+      "type": "species",
+      "appearances_total": 14,
+      "chapters_referenced_in": 11,
+      "in_edge_count": 239,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "giants",
+      "name": "Giants",
+      "type": "species",
+      "appearances_total": 10,
+      "chapters_referenced_in": 9,
+      "in_edge_count": 88,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "dog",
+      "name": "Dog",
+      "type": "species",
+      "appearances_total": 6,
+      "chapters_referenced_in": 4,
+      "in_edge_count": 62,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "heart-tree",
+      "name": "Heart tree",
+      "type": "species",
+      "appearances_total": 5,
+      "chapters_referenced_in": 5,
+      "in_edge_count": 71,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "pretty-pig",
+      "name": "Pretty Pig",
+      "type": "species",
+      "appearances_total": 5,
+      "chapters_referenced_in": 3,
+      "in_edge_count": 9,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "white-raven",
+      "name": "White raven",
+      "type": "species",
+      "appearances_total": 5,
+      "chapters_referenced_in": 4,
+      "in_edge_count": 14,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "shadowcat",
+      "name": "Shadowcat",
+      "type": "species",
+      "appearances_total": 5,
+      "chapters_referenced_in": 5,
+      "in_edge_count": 24,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "nightingale",
+      "name": "Nightingale",
+      "type": "species",
+      "appearances_total": 4,
+      "chapters_referenced_in": 3,
+      "in_edge_count": 7,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "sourleaf",
+      "name": "Sourleaf",
+      "type": "species",
+      "appearances_total": 4,
+      "chapters_referenced_in": 4,
+      "in_edge_count": 11,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "raven",
+      "name": "Raven",
+      "type": "species",
+      "appearances_total": 3,
+      "chapters_referenced_in": 3,
+      "in_edge_count": 168,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "cat",
+      "name": "Cat",
+      "type": "species",
+      "appearances_total": 3,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 44,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "three-eyed-crow",
+      "name": "Three-eyed crow",
+      "type": "species",
+      "appearances_total": 3,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 41,
+      "out_edge_count": 1
+    },
+    {
+      "slug": "hrakkar",
+      "name": "Hrakkar",
+      "type": "species",
+      "appearances_total": 3,
+      "chapters_referenced_in": 3,
+      "in_edge_count": 6,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "swordfish",
+      "name": "Swordfish",
+      "type": "species",
+      "appearances_total": 2,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 2,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "ice-dragon",
+      "name": "Ice Dragon",
+      "type": "species",
+      "appearances_total": 2,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 1,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "devilgrass",
+      "name": "Devilgrass",
+      "type": "species",
+      "appearances_total": 2,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 3,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "unicorn",
+      "name": "Unicorn",
+      "type": "species",
+      "appearances_total": 2,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 13,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "eagle",
+      "name": "Eagle",
+      "type": "species",
+      "appearances_total": 2,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 24,
+      "out_edge_count": 0
+    }
+  ],
+  "top_by_in_edges": [
+    {
+      "slug": "dragon",
+      "name": "Dragon",
+      "type": "species",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 648,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "horse",
+      "name": "Horse",
+      "type": "species",
+      "appearances_total": 14,
+      "chapters_referenced_in": 11,
+      "in_edge_count": 239,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "weirwood",
+      "name": "Weirwood",
+      "type": "species",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 184,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "raven",
+      "name": "Raven",
+      "type": "species",
+      "appearances_total": 3,
+      "chapters_referenced_in": 3,
+      "in_edge_count": 168,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "children-of-the-forest",
+      "name": "Children Of The Forest",
+      "type": "species",
+      "appearances_total": 17,
+      "chapters_referenced_in": 14,
+      "in_edge_count": 160,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "others",
+      "name": "Others",
+      "type": "species",
+      "appearances_total": 15,
+      "chapters_referenced_in": 13,
+      "in_edge_count": 152,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "direwolf",
+      "name": "Direwolf",
+      "type": "species",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 142,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "giants",
+      "name": "Giants",
+      "type": "species",
+      "appearances_total": 10,
+      "chapters_referenced_in": 9,
+      "in_edge_count": 88,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "lion",
+      "name": "Lion",
+      "type": "species",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 73,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "heart-tree",
+      "name": "Heart tree",
+      "type": "species",
+      "appearances_total": 5,
+      "chapters_referenced_in": 5,
+      "in_edge_count": 71,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "oak",
+      "name": "Oak",
+      "type": "species",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 70,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "dog",
+      "name": "Dog",
+      "type": "species",
+      "appearances_total": 6,
+      "chapters_referenced_in": 4,
+      "in_edge_count": 62,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "bear",
+      "name": "Bear",
+      "type": "species",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 53,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "cat",
+      "name": "Cat",
+      "type": "species",
+      "appearances_total": 3,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 44,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "wolf",
+      "name": "Wolf",
+      "type": "species",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 44,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "three-eyed-crow",
+      "name": "Three-eyed crow",
+      "type": "species",
+      "appearances_total": 3,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 41,
+      "out_edge_count": 1
+    },
+    {
+      "slug": "kraken",
+      "name": "Kraken",
+      "type": "species",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 39,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "hawk",
+      "name": "Hawk",
+      "type": "species",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 37,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "ghosts",
+      "name": "Ghosts",
+      "type": "species",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 32,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "snake",
+      "name": "Snake",
+      "type": "species",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 30,
+      "out_edge_count": 0
+    }
+  ]
+}

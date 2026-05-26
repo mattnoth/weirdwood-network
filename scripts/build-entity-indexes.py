@@ -85,6 +85,125 @@ TYPE_CONFIGS: dict[str, TypeConfig] = {
         raw_list_section_keywords=["Raw Entity List > House"],
         primary_chapter_key=None,
     ),
+    # --- Extended categories (all use directory-scope matching via "" prefix) ---
+    "factions": TypeConfig(
+        node_dirs=["graph/nodes/factions"],
+        type_prefixes=[""],   # directory-scoped; type varies (organization.faction, concept.culture)
+        output_dir="graph/index/factions",
+        primary_sections=frozenset(),
+        raw_list_section_keywords=[
+            "Raw Entity List > Factions & Organizations",
+            "Raw Entity List > Cultures & Peoples",
+        ],
+        primary_chapter_key=None,
+    ),
+    "titles": TypeConfig(
+        node_dirs=["graph/nodes/titles"],
+        type_prefixes=[""],   # bare type "title"
+        output_dir="graph/index/titles",
+        primary_sections=frozenset(),
+        raw_list_section_keywords=["Raw Entity List > Titles & Offices"],
+        primary_chapter_key=None,
+    ),
+    "events": TypeConfig(
+        node_dirs=["graph/nodes/events"],
+        type_prefixes=["event."],
+        output_dir="graph/index/events",
+        primary_sections=frozenset(),
+        raw_list_section_keywords=["Raw Entity List > Wars & Conflicts"],
+        primary_chapter_key=None,
+    ),
+    "religions": TypeConfig(
+        node_dirs=["graph/nodes/religions"],
+        type_prefixes=[""],   # organization.religion
+        output_dir="graph/index/religions",
+        primary_sections=frozenset(),
+        raw_list_section_keywords=["Raw Entity List > Religions & Faiths"],
+        primary_chapter_key=None,
+    ),
+    "species": TypeConfig(
+        node_dirs=["graph/nodes/species"],
+        type_prefixes=[""],   # bare type "species"
+        output_dir="graph/index/species",
+        primary_sections=frozenset(),
+        raw_list_section_keywords=[
+            "Raw Entity List > Magic & Phenomena",
+            "Raw Entity List > Other",
+        ],
+        primary_chapter_key=None,
+    ),
+    "texts": TypeConfig(
+        node_dirs=["graph/nodes/texts"],
+        type_prefixes=["object.text"],
+        output_dir="graph/index/texts",
+        primary_sections=frozenset(),
+        raw_list_section_keywords=["Raw Entity List > In-world Texts & Songs"],
+        primary_chapter_key=None,
+    ),
+    "concepts": TypeConfig(
+        node_dirs=["graph/nodes/concepts"],
+        type_prefixes=[""],   # directory-scoped; includes bare "concept" and "concept.*" subtypes
+        output_dir="graph/index/concepts",
+        primary_sections=frozenset(),
+        raw_list_section_keywords=["Raw Entity List > Magic & Phenomena"],
+        primary_chapter_key=None,
+    ),
+    "materials": TypeConfig(
+        node_dirs=["graph/nodes/materials"],
+        type_prefixes=["object.material"],
+        output_dir="graph/index/materials",
+        primary_sections=frozenset(),
+        raw_list_section_keywords=["Raw Entity List > Other"],
+        primary_chapter_key=None,
+    ),
+    "foods": TypeConfig(
+        node_dirs=["graph/nodes/foods"],
+        type_prefixes=["object.food"],
+        output_dir="graph/index/foods",
+        primary_sections=frozenset(),
+        raw_list_section_keywords=["Raw Entity List > Other"],
+        primary_chapter_key=None,
+    ),
+    "theories": TypeConfig(
+        node_dirs=["graph/nodes/theories"],
+        type_prefixes=["concept.theory"],
+        output_dir="graph/index/theories",
+        primary_sections=frozenset(),
+        raw_list_section_keywords=[],
+        primary_chapter_key=None,
+    ),
+    "customs": TypeConfig(
+        node_dirs=["graph/nodes/customs"],
+        type_prefixes=["concept.custom"],
+        output_dir="graph/index/customs",
+        primary_sections=frozenset(),
+        raw_list_section_keywords=["Raw Entity List > Other"],
+        primary_chapter_key=None,
+    ),
+    "languages": TypeConfig(
+        node_dirs=["graph/nodes/languages"],
+        type_prefixes=["concept.language"],
+        output_dir="graph/index/languages",
+        primary_sections=frozenset(),
+        raw_list_section_keywords=["Raw Entity List > Other"],
+        primary_chapter_key=None,
+    ),
+    "medical": TypeConfig(
+        node_dirs=["graph/nodes/medical"],
+        type_prefixes=["concept.medical"],
+        output_dir="graph/index/medical",
+        primary_sections=frozenset(),
+        raw_list_section_keywords=["Raw Entity List > Other"],
+        primary_chapter_key=None,
+    ),
+    "prophecies": TypeConfig(
+        node_dirs=["graph/nodes/prophecies"],
+        type_prefixes=["concept.prophecy"],
+        output_dir="graph/index/prophecies",
+        primary_sections=frozenset(),
+        raw_list_section_keywords=["Raw Entity List > Magic & Phenomena"],
+        primary_chapter_key=None,
+    ),
 }
 
 

@@ -1,0 +1,84 @@
+{
+  "slug": "field-of-fire",
+  "name": "Field of Fire",
+  "type": "event.battle",
+  "node_path": "graph/nodes/events/field-of-fire.node.md",
+  "generated_at": "2026-05-26T03:23:02.121828+00:00",
+  "stats": {
+    "appearances_total": 6,
+    "chapters_referenced_in": 4,
+    "chapters_in_raw_list": 1,
+    "out_edge_count": 4,
+    "in_edge_count": 53
+  },
+  "chapters": {
+    "in_raw_list": [
+      {
+        "chapter_id": "acok-tyrion-13",
+        "book": "acok",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 3,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations",
+          "Raw Entity List > Wars & Conflicts"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      }
+    ],
+    "referenced_in": [
+      {
+        "chapter_id": "acok-tyrion-13",
+        "book": "acok",
+        "pov_character_slug": "tyrion-lannister",
+        "mention_count": 3,
+        "sections": [
+          "Locations",
+          "Raw Entity List > Locations",
+          "Raw Entity List > Wars & Conflicts"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": true
+      },
+      {
+        "chapter_id": "asos-daenerys-03",
+        "book": "asos",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "asos-sansa-01",
+        "book": "asos",
+        "pov_character_slug": "sansa-stark",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": false
+      },
+      {
+        "chapter_id": "adwd-daenerys-02",
+        "book": "adwd",
+        "pov_character_slug": "daenerys-targaryen",
+        "mention_count": 1,
+        "sections": [
+          "Locations"
+        ],
+        "resolved_via": "direct",
+        "in_primary_section": false,
+        "in_raw_list": false
+      }
+    ]
+  }
+}

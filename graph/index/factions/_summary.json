@@ -1,0 +1,376 @@
+{
+  "generated_at": "2026-05-26T03:22:50.756692+00:00",
+  "entity_type": "factions",
+  "dry_run": false,
+  "entity_count": 191,
+  "type_counts": {
+    "organization.faction": 173,
+    "concept.culture": 18
+  },
+  "entities_with_zero_mentions": 86,
+  "mention_inverse_slugs": 105,
+  "top_by_appearances": [
+    {
+      "slug": "nights-watch",
+      "name": "Night's Watch",
+      "type": "organization.faction",
+      "appearances_total": 46,
+      "chapters_referenced_in": 46,
+      "in_edge_count": 719,
+      "out_edge_count": 3
+    },
+    {
+      "slug": "kingsguard",
+      "name": "Kingsguard",
+      "type": "organization.faction",
+      "appearances_total": 36,
+      "chapters_referenced_in": 26,
+      "in_edge_count": 617,
+      "out_edge_count": 7
+    },
+    {
+      "slug": "dothraki",
+      "name": "Dothraki",
+      "type": "organization.faction",
+      "appearances_total": 28,
+      "chapters_referenced_in": 26,
+      "in_edge_count": 179,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "first-men",
+      "name": "First Men",
+      "type": "organization.faction",
+      "appearances_total": 27,
+      "chapters_referenced_in": 27,
+      "in_edge_count": 258,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "lyseni",
+      "name": "Lyseni",
+      "type": "organization.faction",
+      "appearances_total": 25,
+      "chapters_referenced_in": 25,
+      "in_edge_count": 3,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "braavosi",
+      "name": "Braavosi",
+      "type": "organization.faction",
+      "appearances_total": 18,
+      "chapters_referenced_in": 18,
+      "in_edge_count": 4,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "tyroshi",
+      "name": "Tyroshi",
+      "type": "organization.faction",
+      "appearances_total": 15,
+      "chapters_referenced_in": 15,
+      "in_edge_count": 10,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "silent-sisters",
+      "name": "Silent Sisters",
+      "type": "organization.faction",
+      "appearances_total": 14,
+      "chapters_referenced_in": 12,
+      "in_edge_count": 47,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "myrish",
+      "name": "Myrish",
+      "type": "organization.faction",
+      "appearances_total": 12,
+      "chapters_referenced_in": 12,
+      "in_edge_count": 2,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "queens-men",
+      "name": "Queens Men",
+      "type": "organization.faction",
+      "appearances_total": 12,
+      "chapters_referenced_in": 10,
+      "in_edge_count": 73,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "unsullied",
+      "name": "Unsullied",
+      "type": "organization.faction",
+      "appearances_total": 12,
+      "chapters_referenced_in": 12,
+      "in_edge_count": 120,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "westerosi",
+      "name": "Westerosi",
+      "type": "organization.faction",
+      "appearances_total": 12,
+      "chapters_referenced_in": 12,
+      "in_edge_count": 4,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "ibbenese",
+      "name": "Ibbenese",
+      "type": "organization.faction",
+      "appearances_total": 11,
+      "chapters_referenced_in": 11,
+      "in_edge_count": 40,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "andals",
+      "name": "Andals",
+      "type": "organization.faction",
+      "appearances_total": 11,
+      "chapters_referenced_in": 11,
+      "in_edge_count": 142,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "qartheen",
+      "name": "Qartheen",
+      "type": "organization.faction",
+      "appearances_total": 11,
+      "chapters_referenced_in": 11,
+      "in_edge_count": 2,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "ghiscari",
+      "name": "Ghiscari",
+      "type": "organization.faction",
+      "appearances_total": 10,
+      "chapters_referenced_in": 10,
+      "in_edge_count": 48,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "brave-companions",
+      "name": "Brave Companions",
+      "type": "organization.faction",
+      "appearances_total": 10,
+      "chapters_referenced_in": 8,
+      "in_edge_count": 136,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "northmen",
+      "name": "Northmen",
+      "type": "organization.faction",
+      "appearances_total": 10,
+      "chapters_referenced_in": 9,
+      "in_edge_count": 128,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "rhoynar",
+      "name": "Rhoynar",
+      "type": "concept.culture",
+      "appearances_total": 9,
+      "chapters_referenced_in": 9,
+      "in_edge_count": 79,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "golden-company",
+      "name": "Golden Company",
+      "type": "organization.faction",
+      "appearances_total": 9,
+      "chapters_referenced_in": 9,
+      "in_edge_count": 162,
+      "out_edge_count": 1
+    }
+  ],
+  "top_by_in_edges": [
+    {
+      "slug": "nights-watch",
+      "name": "Night's Watch",
+      "type": "organization.faction",
+      "appearances_total": 46,
+      "chapters_referenced_in": 46,
+      "in_edge_count": 719,
+      "out_edge_count": 3
+    },
+    {
+      "slug": "kingsguard",
+      "name": "Kingsguard",
+      "type": "organization.faction",
+      "appearances_total": 36,
+      "chapters_referenced_in": 26,
+      "in_edge_count": 617,
+      "out_edge_count": 7
+    },
+    {
+      "slug": "ironborn",
+      "name": "Ironborn",
+      "type": "organization.faction",
+      "appearances_total": 9,
+      "chapters_referenced_in": 9,
+      "in_edge_count": 504,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "small-council",
+      "name": "Small Council",
+      "type": "organization.faction",
+      "appearances_total": 3,
+      "chapters_referenced_in": 3,
+      "in_edge_count": 307,
+      "out_edge_count": 6
+    },
+    {
+      "slug": "first-men",
+      "name": "First Men",
+      "type": "organization.faction",
+      "appearances_total": 27,
+      "chapters_referenced_in": 27,
+      "in_edge_count": 258,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "blacks",
+      "name": "Blacks",
+      "type": "organization.faction",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 244,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "brotherhood-without-banners",
+      "name": "Brotherhood Without Banners",
+      "type": "organization.faction",
+      "appearances_total": 6,
+      "chapters_referenced_in": 6,
+      "in_edge_count": 219,
+      "out_edge_count": 17
+    },
+    {
+      "slug": "greens",
+      "name": "Greens",
+      "type": "organization.faction",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 218,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "dothraki",
+      "name": "Dothraki",
+      "type": "organization.faction",
+      "appearances_total": 28,
+      "chapters_referenced_in": 26,
+      "in_edge_count": 179,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "golden-company",
+      "name": "Golden Company",
+      "type": "organization.faction",
+      "appearances_total": 9,
+      "chapters_referenced_in": 9,
+      "in_edge_count": 162,
+      "out_edge_count": 1
+    },
+    {
+      "slug": "dornishmen",
+      "name": "Dornishmen",
+      "type": "organization.faction",
+      "appearances_total": 9,
+      "chapters_referenced_in": 9,
+      "in_edge_count": 154,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "maesters",
+      "name": "Maesters",
+      "type": "organization.faction",
+      "appearances_total": 3,
+      "chapters_referenced_in": 3,
+      "in_edge_count": 154,
+      "out_edge_count": 4
+    },
+    {
+      "slug": "andals",
+      "name": "Andals",
+      "type": "organization.faction",
+      "appearances_total": 11,
+      "chapters_referenced_in": 11,
+      "in_edge_count": 142,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "brave-companions",
+      "name": "Brave Companions",
+      "type": "organization.faction",
+      "appearances_total": 10,
+      "chapters_referenced_in": 8,
+      "in_edge_count": 136,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "northmen",
+      "name": "Northmen",
+      "type": "organization.faction",
+      "appearances_total": 10,
+      "chapters_referenced_in": 9,
+      "in_edge_count": 128,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "iron-fleet",
+      "name": "Iron Fleet",
+      "type": "organization.faction",
+      "appearances_total": 2,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 124,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "unsullied",
+      "name": "Unsullied",
+      "type": "organization.faction",
+      "appearances_total": 12,
+      "chapters_referenced_in": 12,
+      "in_edge_count": 120,
+      "out_edge_count": 0
+    },
+    {
+      "slug": "city-watch-of-kings-landing",
+      "name": "City Watch of King's Landing",
+      "type": "organization.faction",
+      "appearances_total": 1,
+      "chapters_referenced_in": 1,
+      "in_edge_count": 112,
+      "out_edge_count": 6
+    },
+    {
+      "slug": "warriors-sons",
+      "name": "Warrior's Sons",
+      "type": "organization.faction",
+      "appearances_total": 4,
+      "chapters_referenced_in": 2,
+      "in_edge_count": 111,
+      "out_edge_count": 8
+    },
+    {
+      "slug": "vale-mountain-clans",
+      "name": "Vale mountain clans",
+      "type": "organization.faction",
+      "appearances_total": 0,
+      "chapters_referenced_in": 0,
+      "in_edge_count": 90,
+      "out_edge_count": 0
+    }
+  ]
+}
