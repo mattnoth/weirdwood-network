@@ -2391,5 +2391,306 @@ class TestV5PrecisionRules(unittest.TestCase):
         self.assertIn("v5 PRECISION RULES", preamble)
 
 
+# ---------------------------------------------------------------------------
+# Tests: flush_delta — cursor-based incremental flush correctness
+# ---------------------------------------------------------------------------
+
+class TestFlushDelta(unittest.TestCase):
+    """flush_delta: cursor-based incremental flush — no duplicates, correct delta."""
+
+    # ------------------------------------------------------------------
+    # Helpers
+    # ------------------------------------------------------------------
+
+    def _make_emit_row(self, idx: int) -> dict:
+        """Minimal emit_edge row with a unique evidence_chapter so book grouping works."""
+        return {
+            "decision": "emit_edge",
+            "edge_type": "LOVES",
+            "source_slug": f"char-{idx}",
+            "target_slug": "target",
+            "evidence_chapter": f"agot-test-{idx:02d}",
+        }
+
+    def _make_rejected_row(self, idx: int) -> dict:
+        return {
+            "decision": "rejected",
+            "edge_type": "REJECT",
+            "source_slug": f"char-{idx}",
+            "target_slug": "target",
+            "evidence_chapter": f"agot-test-{idx:02d}",
+        }
+
+    def _read_jsonl(self, path: Path) -> list[dict]:
+        if not path.exists():
+            return []
+        lines = path.read_text().splitlines()
+        return [json.loads(ln) for ln in lines if ln.strip()]
+
+    # ------------------------------------------------------------------
+    # Core correctness
+    # ------------------------------------------------------------------
+
+    def test_flush_delta_writes_only_new_rows(self):
+        """flush_delta with cursor=0 writes all rows; second call with advanced cursor writes nothing."""
+        with _tmp_out_dir() as out_dir:
+            emit_rows = [self._make_emit_row(i) for i in range(3)]
+            cursors = {"emit": 0, "rejected": 0, "failed": 0, "needs_qualifier": 0}
+
+            new_cursors = tc.flush_delta(emit_rows, [], [], [], cursors, ["agot"])
+            # All 3 rows written
+            out_file = out_dir / "agot" / "agot-tail.edges.jsonl"
+            rows_on_disk = self._read_jsonl(out_file)
+            self.assertEqual(len(rows_on_disk), 3)
+            self.assertEqual(new_cursors["emit"], 3)
+
+            # Second flush with same lists but advanced cursors → no new rows
+            new_cursors2 = tc.flush_delta(emit_rows, [], [], [], new_cursors, ["agot"])
+            rows_on_disk2 = self._read_jsonl(out_file)
+            self.assertEqual(len(rows_on_disk2), 3, "Second flush must not duplicate rows")
+            self.assertEqual(new_cursors2["emit"], 3)
+
+    def test_flush_delta_appends_incremental_batches(self):
+        """Simulate 3 batches of 2 rows each with flush-every=1; disk gets 6 unique rows."""
+        with _tmp_out_dir() as out_dir:
+            all_emit: list[dict] = []
+            cursors = {"emit": 0, "rejected": 0, "failed": 0, "needs_qualifier": 0}
+
+            for batch_i in range(3):
+                # Add 2 rows per batch
+                all_emit.append(self._make_emit_row(batch_i * 2))
+                all_emit.append(self._make_emit_row(batch_i * 2 + 1))
+                cursors = tc.flush_delta(all_emit, [], [], [], cursors, ["agot"])
+
+            out_file = out_dir / "agot" / "agot-tail.edges.jsonl"
+            rows_on_disk = self._read_jsonl(out_file)
+            self.assertEqual(len(rows_on_disk), 6, "6 unique rows — no duplicates")
+            self.assertEqual(cursors["emit"], 6)
+
+    def test_flush_delta_no_duplicates_with_flush_every_2(self):
+        """Simulate flush-every=2 over 6 batches of 1 row; final flush picks up the tail."""
+        with _tmp_out_dir() as out_dir:
+            all_emit: list[dict] = []
+            all_rejected: list[dict] = []
+            cursors = {"emit": 0, "rejected": 0, "failed": 0, "needs_qualifier": 0}
+
+            for batch_idx in range(6):
+                all_emit.append(self._make_emit_row(batch_idx))
+                if batch_idx % 2 == 1:
+                    all_rejected.append(self._make_rejected_row(batch_idx))
+                # Flush every 2 batches
+                if (batch_idx + 1) % 2 == 0:
+                    cursors = tc.flush_delta(all_emit, all_rejected, [], [], cursors, ["agot"])
+
+            # Final flush (end-of-run tail)
+            cursors = tc.flush_delta(all_emit, all_rejected, [], [], cursors, ["agot"])
+
+            edges_file = out_dir / "agot" / "agot-tail.edges.jsonl"
+            rejected_file = out_dir / "agot" / "agot-tail.rejected.jsonl"
+            edges_on_disk = self._read_jsonl(edges_file)
+            rejected_on_disk = self._read_jsonl(rejected_file)
+
+            # 6 batches × 1 emit row each = 6 edges (no dupes)
+            self.assertEqual(len(edges_on_disk), 6, "6 emit rows, no duplicates")
+            # 3 rejected rows (batch_idx 1, 3, 5)
+            self.assertEqual(len(rejected_on_disk), 3, "3 rejected rows, no duplicates")
+
+    def test_flush_delta_returns_advanced_cursors(self):
+        """Returned cursors must reflect the post-flush totals."""
+        with _tmp_out_dir() as out_dir:
+            emit_rows = [self._make_emit_row(i) for i in range(4)]
+            rejected_rows = [self._make_rejected_row(i) for i in range(2)]
+            cursors = {"emit": 0, "rejected": 0, "failed": 0, "needs_qualifier": 0}
+
+            # First flush: 2 emit + 1 rejected
+            c1 = tc.flush_delta(emit_rows[:2], rejected_rows[:1], [], [], cursors, ["agot"])
+            self.assertEqual(c1["emit"], 2)
+            self.assertEqual(c1["rejected"], 1)
+
+            # Second flush: 2 more emit + 1 more rejected
+            c2 = tc.flush_delta(emit_rows, rejected_rows, [], [], c1, ["agot"])
+            self.assertEqual(c2["emit"], 4)
+            self.assertEqual(c2["rejected"], 2)
+
+    def test_flush_delta_empty_lists_is_noop(self):
+        """flush_delta on empty lists must not create any files and returns zero cursors."""
+        with _tmp_out_dir() as out_dir:
+            cursors = {"emit": 0, "rejected": 0, "failed": 0, "needs_qualifier": 0}
+            new_cursors = tc.flush_delta([], [], [], [], cursors, ["agot"])
+            edges_file = out_dir / "agot" / "agot-tail.edges.jsonl"
+            self.assertFalse(edges_file.exists(), "No file should be created for empty flush")
+            self.assertEqual(new_cursors, cursors)
+
+    def test_flush_delta_cursor_never_writes_row_twice(self):
+        """Growing list + repeated flush_delta calls must yield exactly len(list) rows on disk."""
+        with _tmp_out_dir() as out_dir:
+            all_emit: list[dict] = []
+            cursors = {"emit": 0, "rejected": 0, "failed": 0, "needs_qualifier": 0}
+
+            for i in range(10):
+                all_emit.append(self._make_emit_row(i))
+                cursors = tc.flush_delta(all_emit, [], [], [], cursors, ["agot"])
+
+            out_file = out_dir / "agot" / "agot-tail.edges.jsonl"
+            rows_on_disk = self._read_jsonl(out_file)
+            # Must be exactly 10 rows — each row written exactly once
+            self.assertEqual(len(rows_on_disk), 10)
+            source_slugs = [r["source_slug"] for r in rows_on_disk]
+            self.assertEqual(len(set(source_slugs)), 10, "Each row unique — no dupes")
+
+
+# ---------------------------------------------------------------------------
+# Tests: --flush-every 0 legacy path (end-only)
+# ---------------------------------------------------------------------------
+
+class TestFlushEveryZeroLegacyPath(unittest.TestCase):
+    """--flush-every 0 must write exactly once at end, matching current behavior."""
+
+    def _make_emit_row(self, idx: int) -> dict:
+        return {
+            "decision": "emit_edge",
+            "edge_type": "LOVES",
+            "source_slug": f"char-{idx}",
+            "target_slug": "target",
+            "evidence_chapter": f"agot-test-{idx:02d}",
+        }
+
+    def _read_jsonl(self, path: Path) -> list[dict]:
+        if not path.exists():
+            return []
+        return [json.loads(ln) for ln in path.read_text().splitlines() if ln.strip()]
+
+    def test_end_only_writes_all_rows_at_once(self):
+        """With flush_every=0, a single flush_delta at end writes all rows, no intermediate files."""
+        with _tmp_out_dir() as out_dir:
+            # Simulate 5 "batches" accumulating rows without flushing
+            all_emit = [self._make_emit_row(i) for i in range(5)]
+            cursors = {"emit": 0, "rejected": 0, "failed": 0, "needs_qualifier": 0}
+
+            # Don't flush mid-run (flush_every=0)
+            # Verify: no file yet
+            out_file = out_dir / "agot" / "agot-tail.edges.jsonl"
+            self.assertFalse(out_file.exists(), "No file should exist before end-of-run flush")
+
+            # End-of-run flush
+            tc.flush_delta(all_emit, [], [], [], cursors, ["agot"])
+            rows = self._read_jsonl(out_file)
+            self.assertEqual(len(rows), 5)
+
+    def test_end_only_single_flush_no_duplicates(self):
+        """Calling flush_delta once at end with all 10 rows yields exactly 10 rows on disk."""
+        with _tmp_out_dir() as out_dir:
+            all_emit = [self._make_emit_row(i) for i in range(10)]
+            cursors = {"emit": 0, "rejected": 0, "failed": 0, "needs_qualifier": 0}
+            tc.flush_delta(all_emit, [], [], [], cursors, ["agot"])
+            out_file = out_dir / "agot" / "agot-tail.edges.jsonl"
+            rows = self._read_jsonl(out_file)
+            self.assertEqual(len(rows), 10)
+
+
+# ---------------------------------------------------------------------------
+# Tests: EXIT_CODE_INTERRUPTED constant
+# ---------------------------------------------------------------------------
+
+class TestExitCodeInterrupted(unittest.TestCase):
+    """EXIT_CODE_INTERRUPTED must be defined and have the conventional value 130."""
+
+    def test_exit_code_interrupted_defined(self):
+        self.assertTrue(hasattr(tc, "EXIT_CODE_INTERRUPTED"))
+
+    def test_exit_code_interrupted_value(self):
+        self.assertEqual(tc.EXIT_CODE_INTERRUPTED, 130)
+
+    def test_exit_code_interrupted_distinct_from_rate_limit(self):
+        self.assertNotEqual(tc.EXIT_CODE_INTERRUPTED, tc.EXIT_CODE_RATE_LIMIT)
+
+
+# ---------------------------------------------------------------------------
+# Tests: flush_delta underlying logic (signal handler path)
+#
+# A full signal test requires OS-level signal delivery, which is impractical
+# in a unittest harness.  Instead we test the underlying delta-flush helper
+# (the same function the signal path calls) to verify it flushes the correct
+# remaining delta.  The signal handler itself just sets _interrupted=True; the
+# loop calls flush_delta immediately after checking the flag.
+# ---------------------------------------------------------------------------
+
+class TestSignalPathDeltaFlush(unittest.TestCase):
+    """Unit-test the delta-flush logic that the SIGINT/SIGTERM path invokes.
+
+    We can't deliver a real signal inside unittest without triggering the test
+    runner's own handler, so we test the underlying flush_delta function
+    directly across a 'mid-run' state and verify the remaining tail is written
+    correctly — exactly what the signal handler's exit path does.
+    """
+
+    def _make_row(self, idx: int, chapter: str = "agot-test-01") -> dict:
+        return {
+            "decision": "emit_edge",
+            "edge_type": "SERVES",
+            "source_slug": f"char-{idx}",
+            "target_slug": "lord",
+            "evidence_chapter": chapter,
+        }
+
+    def _read_jsonl(self, path: Path) -> list[dict]:
+        if not path.exists():
+            return []
+        return [json.loads(ln) for ln in path.read_text().splitlines() if ln.strip()]
+
+    def test_signal_path_flushes_remaining_delta(self):
+        """Simulate: 3 rows flushed periodically, then signal fires with 2 more rows pending.
+
+        The signal path calls flush_delta with the current cursors.  Only the 2
+        pending rows must be written — no duplicates of the already-flushed 3.
+        """
+        with _tmp_out_dir() as out_dir:
+            all_emit = [self._make_row(i) for i in range(5)]
+
+            # Simulate periodic flush after rows 0-2
+            cursors = {"emit": 0, "rejected": 0, "failed": 0, "needs_qualifier": 0}
+            cursors = tc.flush_delta(all_emit[:3], [], [], [], cursors, ["agot"])
+            self.assertEqual(cursors["emit"], 3)
+
+            # Simulate signal fired after rows 3-4 are accumulated but not yet flushed
+            # (this is exactly what the signal-path code does)
+            final_cursors = tc.flush_delta(all_emit, [], [], [], cursors, ["agot"])
+            self.assertEqual(final_cursors["emit"], 5)
+
+            out_file = out_dir / "agot" / "agot-tail.edges.jsonl"
+            rows_on_disk = self._read_jsonl(out_file)
+            self.assertEqual(len(rows_on_disk), 5, "All 5 rows on disk — none duplicated")
+            source_slugs = [r["source_slug"] for r in rows_on_disk]
+            self.assertEqual(
+                source_slugs,
+                [f"char-{i}" for i in range(5)],
+                "Rows in correct insertion order",
+            )
+
+
+# ---------------------------------------------------------------------------
+# Context manager: temporarily redirect OUT_BASE/OUT_NEEDS_QUAL_DIR
+# ---------------------------------------------------------------------------
+
+import contextlib
+import tempfile
+
+
+@contextlib.contextmanager
+def _tmp_out_dir():
+    """Redirect tc.OUT_BASE and tc.OUT_NEEDS_QUAL_DIR to a temp dir for isolation."""
+    with tempfile.TemporaryDirectory() as td:
+        tmp = Path(td)
+        old_out_base = tc.OUT_BASE
+        old_nq_dir = tc.OUT_NEEDS_QUAL_DIR
+        tc.OUT_BASE = tmp
+        tc.OUT_NEEDS_QUAL_DIR = tmp / "_needs-qualifier"
+        try:
+            yield tmp
+        finally:
+            tc.OUT_BASE = old_out_base
+            tc.OUT_NEEDS_QUAL_DIR = old_nq_dir
+
+
 if __name__ == "__main__":
     unittest.main()

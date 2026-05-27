@@ -1,7 +1,7 @@
 # Worklog Archive 015
 
 > Archived Session Log entries (oldest-first within this file). Each archive holds 5 entries.
-> Sessions: 68-70 (3/5).
+> Sessions: 68-71 (4/5).
 
 ---
 
@@ -53,3 +53,18 @@
 **Decisions:** Matt: **deliverable-first** + head-to-head re-smoke (not Sonnet-only). Head-to-head (same 200 rows, post-lockdown): **Haiku 76% / Sonnet 78% strict** — neither cleared 80%; Sonnet's 2pt edge NOT worth 4.4× cost → **Decision C = enrich with Haiku**. Rule-11 patches cleanly eliminated the 2 target biases (CONTEMPORARY_WITH/COMPANION_OF→0) but post-patch precision = **~70%** (new RESPECTS drift + structural candidate-noise: evidence-mis-pairing, direction flips — the same ceiling as the v1 core; prompt can't reach it). **Bulk HELD overnight, $0 spent** — honored the agreed ≥80% gate. The deterministic core (explicit Pass-1 Relationships pairs) is the higher-quality layer; the extra-tables enrichment has a ~70-80% ceiling.
 
 **What's next:** → continue: `progress/continue-prompts/2026-05-25-stage4-enrichment-decision.md` (**Opus 4.7** — A/B/C decision + review; Sonnet for the $0 builds). Options: **A** one iteration (RESPECTS gate + direction reminder + deterministic quote-relevance filter — also cleans v1) then re-smoke; **B** run bulk at ~70% + heavy filters + runtime verify (~$60); **C** ship core-only, defer enrichment. Rec: **A one-shot → fall back to C**. [Superseded by S74: C taken — enrichment NO-GO, core shipped 3,811 v1.3.]
+
+---
+
+### Session 71 — Stage 4 accuracy suite + prompt overhaul → PIVOT: unpromoted-node gap found, edges PAUSED (2026-05-25)
+
+**Detail:** `history/session-details/session-071.md` + tracked docs: `working/wiki/data/readiness-review-fresh.md`, `prompt-review-opus-1.md`/`-2.md`, `pass1-derived-staging-manifest.md`, `pass1-derived-v1.1-applied.md`.
+
+**Changes made (all $0/deterministic except 3 smokes ~$3.4 Haiku; NOTHING committed; `graph/edges/edges.jsonl` untouched):**
+- **Deterministic accuracy suite (NEW, tested):** `stage4-{quote-relevance-filter,type-contract-validator,fresh-relocate-sample,refine-v1-edges,produce-v1-1-candidate}.py`; improved `stage4-pass1-evidence-locator.py` (locator v2 + `locate_quality`); `stage4-tail-classifier.py` prompt v4 (GOVERNING PRINCIPLE + GATE1/2/3, evidence-grounding, gated types 5→13, `prompt_version`/`prompt_sha` stamping). 119+ tests green.
+- **Smokes:** smoke4 (60%), smoke5 (seed-4242, **72.5% raw**; post-filter looked ~80-91% but OVERFIT), **smoke6 (seed-7777 OUT-OF-SAMPLE = ~62% raw)**. v1.1 refinement candidate built (`_v1-refine/edges-v1.1-candidate.jsonl`) — **NOT applied.**
+- NEW top-level continue prompt `CONTINUE-node-recovery-and-edges.md` + staging manifest.
+
+**Decisions:** **PIVOT — edge formalization PAUSED.** Edge work surfaced that a large chunk of the wiki Pass-2 entity schema was **never promoted**: `graph/nodes/` = **8,299** nodes but **~7,251 staged `.node.md` sit unpromoted in `working/wiki/pass2-buckets/*/skeleton/`** (the "staging nodes ready" Matt remembered — NOT lost). Smoking gun: the type-contract validator false-dropped real `COMMANDS→faction` edges (stone-crows/second-sons/iron-fleet/brotherhood) because those factions aren't in `graph/nodes/characters/` — the node gap producing false edge-drops. So edges can't be finalized until nodes are whole. **Enrichment (Events+Dialogue Haiku) separately = NOT-YET** (~62% out-of-sample; root cause = locator hint↔quote decoupling; fresh-Opus-review caught my ~80-91% overfit claim). **Will edges be fully redone? No** — re-resolve + re-type-check (deterministic, $0) over existing candidates, NOT re-extract. Core v1 (3,842) FROZEN.
+
+**What's next:** → **PRIMARY: `CONTINUE-node-recovery-and-edges.md`** (top-level; **Opus 4.7** "fixer & finder"). Stream 1 = node accounting + promote the ~7,251 staged skeletons; Stream 2 = edge re-validation against complete nodes; Stream 3 = folder reorg (wiki/scripts are dumps); Stream 4 = scratch-check (no project hook found — IDE-selection surfacing). SECONDARY (gated behind nodes): `progress/continue-prompts/2026-05-25-stage4-locator-grounding.md`. All Stage-4 scripts UNCOMMITTED.

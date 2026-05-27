@@ -56,8 +56,10 @@ import argparse
 import hashlib
 import importlib.util
 import json
+import os
 import random
 import re
+import signal
 import subprocess
 import sys
 import time
@@ -86,6 +88,10 @@ DEFAULT_PROMPT_VERSION = "v5-precision-rules"
 # Exit code used by the forever-loop wrapper to distinguish "rate-limit wall"
 # (sleep and retry) from normal completion (0) or hard failure (1+).
 EXIT_CODE_RATE_LIMIT = 42
+
+# Exit code emitted when the process is interrupted by SIGINT/SIGTERM and
+# successfully flushed its delta to disk.  130 = 128 + SIGINT (Unix convention).
+EXIT_CODE_INTERRUPTED = 130
 
 # ---------------------------------------------------------------------------
 # Dynamic imports (hyphenated filenames)
@@ -1255,6 +1261,46 @@ def process_batch(
 # Output writing
 # ---------------------------------------------------------------------------
 
+def flush_delta(
+    all_emit_rows: list[dict],
+    all_rejected_rows: list[dict],
+    all_failed_rows: list[dict],
+    all_needs_qualifier_rows: list[dict],
+    cursors: dict[str, int],
+    books: list[str],
+) -> dict[str, int]:
+    """Cursor-based incremental flush: append ONLY the rows since the last flush.
+
+    ``cursors`` maps list name → count of rows already written to disk:
+        "emit" / "rejected" / "failed" / "needs_qualifier"
+
+    Returns updated cursors after writing.  Rows already flushed are never
+    re-written (no duplicates), because we only pass the un-flushed tail to
+    ``write_output_rows`` which opens files in append mode.
+
+    Safe to call at any point in the main loop: if there is no new data since
+    the last flush, all four slices are empty and write_output_rows is a no-op.
+    """
+    emit_cursor = cursors.get("emit", 0)
+    rejected_cursor = cursors.get("rejected", 0)
+    failed_cursor = cursors.get("failed", 0)
+    nq_cursor = cursors.get("needs_qualifier", 0)
+
+    delta_emit = all_emit_rows[emit_cursor:]
+    delta_rejected = all_rejected_rows[rejected_cursor:]
+    delta_failed = all_failed_rows[failed_cursor:]
+    delta_nq = all_needs_qualifier_rows[nq_cursor:]
+
+    write_output_rows(delta_emit, delta_rejected, delta_failed, delta_nq, books)
+
+    return {
+        "emit": emit_cursor + len(delta_emit),
+        "rejected": rejected_cursor + len(delta_rejected),
+        "failed": failed_cursor + len(delta_failed),
+        "needs_qualifier": nq_cursor + len(delta_nq),
+    }
+
+
 def write_output_rows(
     emit_rows: list[dict],
     rejected_rows: list[dict],
@@ -1456,6 +1502,17 @@ def parse_args() -> argparse.Namespace:
             "Set to 0 to disable. Default: 5."
         ),
     )
+    parser.add_argument(
+        "--flush-every",
+        type=int,
+        default=5,
+        metavar="N",
+        help=(
+            "Flush accumulated output to disk every N batches (cursor-based, "
+            "append-only delta — no duplicates). 0 = write only at end. Makes the "
+            "run resumable via --skip-existing and lossless on kill. Default: 5."
+        ),
+    )
     return parser.parse_args()
 
 
@@ -1492,6 +1549,9 @@ def main() -> int:
         print(f"  Input dir:  {args.input_dir}")
     if args.candidate_kinds:
         print(f"  Kinds:      {args.candidate_kinds}")
+    if apply:
+        flush_label = f"every {args.flush_every} batches" if args.flush_every > 0 else "end-only (legacy)"
+        print(f"  Flush-every:{args.flush_every} ({flush_label})")
 
     # Parse --gate-vocab
     gated_types: tuple[str, ...] = tuple(
@@ -1615,6 +1675,14 @@ def main() -> int:
     all_failed_rows: list[dict] = []
     all_needs_qualifier_rows: list[dict] = []
 
+    # Cursor-based incremental flush: tracks how many rows from each list have
+    # already been written to disk.  flush_delta() advances these after each
+    # write so we never write a row twice.
+    _flush_cursors: dict[str, int] = {"emit": 0, "rejected": 0, "failed": 0, "needs_qualifier": 0}
+
+    # --flush-every: periodic checkpoint cadence.  0 = legacy end-only mode.
+    flush_every: int = args.flush_every
+
     # --abort-after-consecutive-failures: track fully-failed batches in a row.
     # A batch is "fully failed" when every row came back classify_failed
     # (0 typed + 0 rejected + 0 needs-qualifier), which is the signature of a
@@ -1623,6 +1691,19 @@ def main() -> int:
     # (42) so the forever-loop wrapper knows to sleep-and-retry.
     abort_threshold = args.abort_after_consecutive_failures
     consecutive_failures = 0
+
+    # --- Signal handler (SIGINT / SIGTERM) ---
+    # Uses a flag + main-loop check so the handler is never interrupted mid-write.
+    # The handler sets _interrupted; after each batch the loop checks it, flushes
+    # the remaining delta (cursor-respecting, no duplicates), and exits cleanly.
+    _interrupted = False
+
+    def _handle_signal(signum, frame):  # noqa: ANN001
+        nonlocal _interrupted
+        _interrupted = True
+
+    signal.signal(signal.SIGINT, _handle_signal)
+    signal.signal(signal.SIGTERM, _handle_signal)
 
     for batch_idx, batch in enumerate(chunks):
         print(f"  Batch {batch_idx + 1}/{len(chunks)} ({len(batch)} rows)...", end=" ", flush=True)
@@ -1672,6 +1753,32 @@ def main() -> int:
         else:
             consecutive_failures = 0
 
+        # --- Periodic checkpoint flush ---
+        if flush_every > 0 and (batch_idx + 1) % flush_every == 0:
+            prev_cursors = dict(_flush_cursors)
+            _flush_cursors = flush_delta(
+                all_emit_rows, all_rejected_rows, all_failed_rows,
+                all_needs_qualifier_rows, _flush_cursors, books,
+            )
+            delta_edges = _flush_cursors["emit"] - prev_cursors["emit"]
+            delta_rejected = _flush_cursors["rejected"] - prev_cursors["rejected"]
+            print(
+                f"  [checkpoint: flushed +{delta_edges} edges / "
+                f"+{delta_rejected} rejected to disk @ batch {batch_idx + 1}]"
+            )
+
+        # --- Signal handler check ---
+        if _interrupted:
+            print(
+                f"\n  INTERRUPTED (SIGINT/SIGTERM) after batch {batch_idx + 1}. "
+                f"Flushing remaining delta and exiting with code {EXIT_CODE_INTERRUPTED}."
+            )
+            _flush_cursors = flush_delta(
+                all_emit_rows, all_rejected_rows, all_failed_rows,
+                all_needs_qualifier_rows, _flush_cursors, books,
+            )
+            return EXIT_CODE_INTERRUPTED
+
         if abort_threshold > 0 and consecutive_failures >= abort_threshold:
             print(
                 f"\n  RATE-LIMIT WALL DETECTED: {consecutive_failures} consecutive "
@@ -1679,26 +1786,20 @@ def main() -> int:
                 f"Flushing partial output and exiting with code {EXIT_CODE_RATE_LIMIT} "
                 f"so the wrapper can sleep and retry."
             )
-            # Flush partial output before exiting (so progress is not lost)
+            # Flush remaining delta before exiting (cursor-respecting — no duplicates)
             print("Writing partial output files...")
-            write_output_rows(
-                all_emit_rows,
-                all_rejected_rows,
-                all_failed_rows,
-                all_needs_qualifier_rows,
-                books,
+            _flush_cursors = flush_delta(
+                all_emit_rows, all_rejected_rows, all_failed_rows,
+                all_needs_qualifier_rows, _flush_cursors, books,
             )
             return EXIT_CODE_RATE_LIMIT
 
-    # Write output files
+    # Write output files (cursor-respecting delta — only rows not yet flushed)
     print()
     print("Writing output files...")
-    write_output_rows(
-        all_emit_rows,
-        all_rejected_rows,
-        all_failed_rows,
-        all_needs_qualifier_rows,
-        books,
+    flush_delta(
+        all_emit_rows, all_rejected_rows, all_failed_rows,
+        all_needs_qualifier_rows, _flush_cursors, books,
     )
 
     # Write run-summary

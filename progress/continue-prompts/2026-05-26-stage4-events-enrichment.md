@@ -4,6 +4,8 @@
 >
 > **Trust `worklog.md` over this prompt if they disagree** (CLAUDE.md #9). Authoritative state: worklog Session 75 entry + the Session-74/75 Active Decisions. Note: older Stage-4 continue prompts may still say edges=3,842 — STALE; it's **3,811 v1.3**.
 
+> **⚠️ STATUS (updated S76, 2026-05-27):** Step 1 precursors are **DONE** (temporal scoping built — 31/32 conflicts are arcs; conflict-pair review — only 2 `cersei↔tyrion` LOVES are real mis-types; v5 wired). Step 2 is **IN PROGRESS**: Matt relaxed the hard 75% gate to a monitored iterative loop and the Events run launched on Sonnet (75/415 batches, ~82-86% strict, paused on a rate-limit wall). **The live next action is the Haiku-vs-Sonnet model decision** → `progress/continue-prompts/2026-05-27-haiku-events-comparison.md`. Trust `worklog.md` Session 76 over the steps below.
+
 ## Why this track exists
 
 Matt wants to **enrich the graph beyond the shipped deterministic core**, step by step, with **Events as the next surface** (2026-05-26, Session 75 — softens the S74 "enrichment NO-GO" to a *deferral*). Memory: `project_enrichment_wanted_events_next`.

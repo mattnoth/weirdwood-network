@@ -88,6 +88,8 @@ This is your project memory. When you come back after a break, read Current Stat
 - [x] Chapter index (per-chapter `*.mentions.json` under `graph/index/chapters/`)
 - [x] Graph edges formalized — **v1.3 (Session 72)** (`graph/edges/edges.jsonl` = **3,811** cited Pass-1-derived edges; v1 3,842→v1.2 3,825→v1.3 3,811). **v1.2:** type-contract re-validation vs complete node set (−17 wrong, +3 RULES→COMMANDS retype, kept 16 real `COMMANDS→faction`). **v1.3 resolver pass:** title-person disambiguation — 6 ship/artifact/title nodes named after people (`lord-tywin`=Cersei's dromond, `queen-cersei`, `lord-renly`, `princess-myrcella`, `lady-olenna`, `khal-jhaqo`) were capturing person references via exact slug-match; remapped → their characters (−12 dups) + new `CAPTAIN_OF`/`CREW_OF` target-not-character contract dropped 2 mis-typed "captain of the guard" edges. ~78% strict precision; all `evidence_ref`-carrying. **S74: core SHIPPED — citations re-grounded** (`scripts/stage4-reground-core-citations.py` corrected 3,676/3,811 `evidence_ref` line numbers; quote text + edge set byte-identical; fixed the latent `:11` locator bug — `read_chapter_prose` stripped blanks so all refs pinned to the first prose line). **Graph exercised: 100% of 898 edge endpoints resolve to a node, 0 orphans, fully traversable.** **Haiku Events+Dialogue enrichment = NO-GO, SHELVED** (post-locator-fix out-of-sample smokes 74.5%/62.5%, <75% gate; v5 precision rules authored + kept for any future revisit). Commit `63b8b461a`.
 - [x] Graph query + audit tooling — **NEW (Session 75).** `scripts/graph-query.py` (S39 node-inspection EXTENDED with `--neighbors`/`--path`/`--health`/`--edges` over canonical `edges.jsonl`) + NEW `scripts/graph-conflict-pairs.py` (read-only precision-cleanup review queue → `working/wiki/data/graph-conflict-pairs.{md,jsonl}`; 32 flagged pairs, mostly temporal arcs). 920 tests green. `--health` confirms 0 orphans / 100% traversable.
+- [x] Edge temporal-scoping — **NEW (Session 76).** `scripts/stage4-edge-temporal-scope.py` (+58 tests) annotates all 3,811 edges with `(book_order, chapter_number)` + temporal-aware conflict re-audit → **31/32 flagged pairs are temporal arcs** (`--window chapter`), 1 true same-window (`cersei↔tyrion`). Read-only on `edges.jsonl`. Outputs `working/wiki/data/edges-temporal-scoped.jsonl` + `graph-conflict-pairs-temporal.{md,jsonl}`.
+- [~] Events edge enrichment (Stage 4) — **IN PROGRESS (Session 76).** Sonnet typing run over 16,572 `pass1_events` candidates; **75/415 batches done → 273 unique edges, ~82-86% strict (5 checkpoints), $20.81**, in `working/wiki/pass2-buckets/pass1-derived/_events-run-20260527/` (gitignored, NOT merged). Paused on a shared-account rate-limit wall. `scripts/stage4-tail-classifier.py` gained `--flush-every` (cursor-delta) + signal-flush (1011 tests). Next: Haiku-vs-Sonnet comparison decides the model for the remaining ~82%.
 - [ ] Convergence maps
 
 ### Reference Materials
@@ -101,6 +103,11 @@ This is your project memory. When you come back after a break, read Current Stat
 ## Active Decisions
 
 > Design questions that need resolution. Tag with status: OPEN, DECIDED, DEFERRED.
+
+### OPEN: Events-enrichment model + 3 gated core-cleanups (2026-05-27, Session 76)
+- **Model for the remaining ~82% of the Events run — UNDECIDED.** Sonnet held ~82-86% strict (proven) but ≈2 days of ~5h cap-bursts that collide with Matt's interactive sessions (shared account). Haiku is lighter/faster (Matt's standing bulk policy) but earlier Haiku smokes were ~60-62% — *on the pre-v5 prompt*; untested on the current v5+gated-vocab+cleaned-candidates setup. **Decision pending a same-rows Haiku-vs-Sonnet comparison** → `progress/continue-prompts/2026-05-27-haiku-events-comparison.md`. If Haiku ≥~80% → switch + add a sleep-until-reset wrapper; else finish on Sonnet (wrapped).
+- **3 gated core-cleanups — await Matt's before/after sign-off (do NOT touch `edges.jsonl` without it):** (1) drop the 2 `cersei↔tyrion` LOVES mis-types (3,811→3,809); (2) retype the ~22 physical `ASSAULTS`→`ATTACKS` (`ASSAULTS`=sexual only per architecture.md:233; fix the spine phrase→type map too); (3) merge-time `OWNS→BONDED_TO` for direwolf/dragon targets (Events output, not core). The Events v5 prompt already obeys the ASSAULTS rule (emitted 0).
+- **Operational:** long unattended runs MUST use a sleep-until-reset auto-resume wrapper — S76's bare worker sat idle all night after one cap wall.
 
 ### AMENDED: Enrichment is DEFERRED, not abandoned — Events is the next surface (2026-05-26, Session 75)
 - **Decision (Matt):** Softens the S74 "SHELVE enrichment" below. Matt **does want to enrich the graph** — step by step, with **Events as the next surface**, but **gated behind the precision changes landing first** (the conflict-pair cleanup built this session + the kept v5 precision rules). **Not launched this session** (Matt chose to end + queue it).
@@ -208,6 +215,20 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 76 — Events enrichment launched (Sonnet); flush-fix + rate-limit wall; ASSAULTS mis-type caught (2026-05-27)
+
+**Model:** Opus 4.7 (orchestrator) + script-builder (Sonnet 4.6) ×2. **Detail:** `history/session-details/session-076.md`. **Commit:** uncommitted at endsession (Matt to confirm).
+
+**Changes made (Step 1 precursors + Events run, all staging — `graph/edges/edges.jsonl` UNTOUCHED):**
+- NEW `scripts/stage4-edge-temporal-scope.py` (+58 tests; 999 suite green): annotates all 3,811 edges with `(book_order, chapter_number)`; temporal-aware conflict re-audit → **`--window chapter`: 31/32 flagged pairs are temporal arcs, 1 true same-window** (`cersei↔tyrion`); `--window book`: 24/8. Outputs `working/wiki/data/edges-temporal-scoped.jsonl` + `graph-conflict-pairs-temporal.{md,jsonl}`.
+- `scripts/stage4-tail-classifier.py` (+tests, **1011 green**): NEW `--flush-every N` (default 5; **cursor-based delta** flush — dodged the append-mode duplication trap) + SIGINT/SIGTERM flush handler → kill-to-tune is lossless + resumable. Rate-limit/end paths made cursor-safe.
+- **Events run (Sonnet, `pass1_events`, 16,572 cands/415 batches):** 75 batches done → **369 typed / 2,631 rejected / 240 classify_failed; 273 unique; $20.81** in `working/wiki/pass2-buckets/pass1-derived/_events-run-20260527/` (gitignored). 5 accuracy checkpoints, **~82-86% strict, zero drift**; vocab lockdown correct even on MANIPULATES/ADVISES/CROWNS_QUEEN_OF_LOVE_AND_BEAUTY. Paused on a shared-account rate-limit wall (~75 batches/5h window; exit 42, partial flushed).
+- NEW continue prompt `progress/continue-prompts/2026-05-27-haiku-events-comparison.md`.
+
+**Decisions:** (1) Matt converted his S75 hard 75% gate to a **monitored iterative loop** ("run it, continue even if <75%, tune the prompt every couple batches"); precision held ~82-86% so no tuning was needed. (2) **Conflict-pair review:** only genuine mis-types = the **2 `cersei↔tyrion` LOVES** edges (sarcasm/accusation); `catelyn→tyrion`/`ghost↔tyrion` are real arcs (KEEP). (3) **ASSAULTS bug (Matt-caught):** `ASSAULTS`=sexual only (architecture.md:233); **~22/32 core ASSAULTS are physical → mis-typed, should be `ATTACKS`** (root cause: spine phrase→type map pre-dates the split). v5 Events prompt obeys it (emitted 0 ASSAULTS). (4) **Model for remaining ~82% UNDECIDED** — Sonnet ≈ 2 days of session-blocking 5h-bursts vs Haiku (lighter, untested on current setup) → Haiku comparison queued. (5) **Auto-resume miss:** bare classifier didn't sleep-and-relaunch overnight; use a sleep-until-reset wrapper next time.
+
+**What's next:** → `progress/continue-prompts/2026-05-27-haiku-events-comparison.md` (**Opus 4.7** conductor; Haiku 4.5 worker-under-test) — same-rows Haiku-vs-Sonnet comparison to pick the model, then resume the remaining ~82% with a sleep-until-reset wrapper. **3 gated core-cleanups await Matt's before/after OK:** drop 2 `cersei↔tyrion` LOVES (3,811→3,809); retype ~22 physical `ASSAULTS`→`ATTACKS` (+ fix spine map); merge-time `OWNS→BONDED_TO` for direwolf/dragon targets. None modify `edges.jsonl` without sign-off. Broader track context: `progress/continue-prompts/2026-05-26-stage4-events-enrichment.md` (Step 1 DONE).
+
 ### Session 75 — Graph-exercise follow-ups: conflict-pair audit + graph-query tool; enrichment un-shelved (2026-05-26)
 
 **Model:** Opus 4.7 (orchestrator) + script-builder (Sonnet 4.6) ×2 parallel. **Detail:** `history/session-details/session-075.md`. **Session-results:** `working/session-results/2026-05-26-graph-followups.md`. **Commit:** this endsession commit.
@@ -281,21 +302,7 @@ This is your project memory. When you come back after a break, read Current Stat
 
 ---
 
-### Session 71 — Stage 4 accuracy suite + prompt overhaul → PIVOT: unpromoted-node gap found, edges PAUSED (2026-05-25)
-
-**Detail:** `history/session-details/session-071.md` + tracked docs: `working/wiki/data/readiness-review-fresh.md`, `prompt-review-opus-1.md`/`-2.md`, `pass1-derived-staging-manifest.md`, `pass1-derived-v1.1-applied.md`.
-
-**Changes made (all $0/deterministic except 3 smokes ~$3.4 Haiku; NOTHING committed; `graph/edges/edges.jsonl` untouched):**
-- **Deterministic accuracy suite (NEW, tested):** `stage4-{quote-relevance-filter,type-contract-validator,fresh-relocate-sample,refine-v1-edges,produce-v1-1-candidate}.py`; improved `stage4-pass1-evidence-locator.py` (locator v2 + `locate_quality`); `stage4-tail-classifier.py` prompt v4 (GOVERNING PRINCIPLE + GATE1/2/3, evidence-grounding, gated types 5→13, `prompt_version`/`prompt_sha` stamping). 119+ tests green.
-- **Smokes:** smoke4 (60%), smoke5 (seed-4242, **72.5% raw**; post-filter looked ~80-91% but OVERFIT), **smoke6 (seed-7777 OUT-OF-SAMPLE = ~62% raw)**. v1.1 refinement candidate built (`_v1-refine/edges-v1.1-candidate.jsonl`) — **NOT applied.**
-- NEW top-level continue prompt `CONTINUE-node-recovery-and-edges.md` + staging manifest.
-
-**Decisions:** **PIVOT — edge formalization PAUSED.** Edge work surfaced that a large chunk of the wiki Pass-2 entity schema was **never promoted**: `graph/nodes/` = **8,299** nodes but **~7,251 staged `.node.md` sit unpromoted in `working/wiki/pass2-buckets/*/skeleton/`** (the "staging nodes ready" Matt remembered — NOT lost). Smoking gun: the type-contract validator false-dropped real `COMMANDS→faction` edges (stone-crows/second-sons/iron-fleet/brotherhood) because those factions aren't in `graph/nodes/characters/` — the node gap producing false edge-drops. So edges can't be finalized until nodes are whole. **Enrichment (Events+Dialogue Haiku) separately = NOT-YET** (~62% out-of-sample; root cause = locator hint↔quote decoupling; fresh-Opus-review caught my ~80-91% overfit claim). **Will edges be fully redone? No** — re-resolve + re-type-check (deterministic, $0) over existing candidates, NOT re-extract. Core v1 (3,842) FROZEN.
-
-**What's next:** → **PRIMARY: `CONTINUE-node-recovery-and-edges.md`** (top-level; **Opus 4.7** "fixer & finder"). Stream 1 = node accounting + promote the ~7,251 staged skeletons; Stream 2 = edge re-validation against complete nodes; Stream 3 = folder reorg (wiki/scripts are dumps); Stream 4 = scratch-check (no project hook found — IDE-selection surfacing). SECONDARY (gated behind nodes): `progress/continue-prompts/2026-05-25-stage4-locator-grounding.md`. All Stage-4 scripts UNCOMMITTED.
-
----
-
+> Session 71 archived to `history/worklog-archives/archive015.md` (archive015 now 4/5)
 > Session 70 archived to `history/worklog-archives/archive015.md` (archive015 now 3/5)
 > Session 69 archived to `history/worklog-archives/archive015.md` (archive015 now 2/5)
 > Session 68 archived to `history/worklog-archives/archive015.md`
