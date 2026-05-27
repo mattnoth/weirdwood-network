@@ -1519,5 +1519,263 @@ class TestSlugGateInGenerator(unittest.TestCase):
         self.assertIsInstance(escal_rows, list)
 
 
+# ---------------------------------------------------------------------------
+# Tests: Fix 3 — ENDPOINT_BLOCKLIST (Problem B)
+# ---------------------------------------------------------------------------
+
+ENDPOINT_BLOCKLIST = extra_mod.ENDPOINT_BLOCKLIST
+_scan_text_for_entities = extra_mod._scan_text_for_entities
+
+
+class TestEndpointBlocklist(unittest.TestCase):
+    """ENDPOINT_BLOCKLIST slugs must be rejected by is_low_quality_endpoint."""
+
+    def test_bastard_blocked(self):
+        """'bastard' resolves to a titles node but should never be an endpoint."""
+        self.assertTrue(is_low_quality_endpoint("bastard"))
+
+    def test_dog_blocked(self):
+        """'dog' resolves to a species node but should never be an endpoint."""
+        self.assertTrue(is_low_quality_endpoint("dog"))
+
+    def test_four_storms_blocked(self):
+        """'four-storms' is a fuzzy mis-resolution from 'four brothers'."""
+        self.assertTrue(is_low_quality_endpoint("four-storms"))
+
+    def test_hunt_of_the_poor_fellows_blocked(self):
+        """'hunt-of-the-poor-fellows' is wrong node for Robert's boar hunt."""
+        self.assertTrue(is_low_quality_endpoint("hunt-of-the-poor-fellows"))
+
+    def test_blocklist_has_exactly_four_entries(self):
+        """Blocklist is conservative: exactly 4 confirmed mis-resolutions."""
+        self.assertEqual(len(ENDPOINT_BLOCKLIST), 4)
+
+    def test_tywin_lannister_not_blocked(self):
+        """tywin-lannister is a real character endpoint — must NOT be blocked."""
+        self.assertFalse(is_low_quality_endpoint("tywin-lannister"))
+
+    def test_eddard_stark_not_blocked(self):
+        """eddard-stark must not be blocked."""
+        self.assertFalse(is_low_quality_endpoint("eddard-stark"))
+
+    def test_blocklist_drops_in_generator(self):
+        """Candidates whose source or target is a blocklisted slug are escalated."""
+        import tempfile
+        tmpdir = tempfile.mkdtemp()
+        chapter_path = Path(tmpdir) / "agot-bran-01.md"
+        chapter_path.write_text("---\nfoo: bar\n---\nSome text.\n", encoding="utf-8")
+        # We inject pre-resolved slugs directly into _emit_entity_pair_candidates.
+        # "bastard" is in ENDPOINT_BLOCKLIST → escalated, not emitted.
+        emit_rows, escals = extra_mod._emit_entity_pair_candidates(
+            slugs=["arya-stark", "bastard"],
+            candidate_kind="pass1_events",
+            source_section="Events & Actions",
+            hint_raw="Arya was called a bastard.",
+            evidence_quote="",
+            evidence_context="",
+            chapter_slug="agot-bran-01",
+            book_abbrev="agot",
+            pov_slug="bran-stark",
+            extraction_rel="extractions/mechanical/agot/agot-bran-01.extraction.md",
+            run_id="test",
+            schema_version="v1",
+            produced_at="2026-05-27T00:00:00+00:00",
+            chapter_path=chapter_path,
+            chapter_rel="sources/chapters/agot/agot-bran-01.md",
+        )
+        self.assertEqual(len(emit_rows), 0, "Blocklisted target must not emit")
+        self.assertEqual(len(escals), 1, "Blocklisted target must escalate")
+
+    def test_dog_drops_in_generator(self):
+        """'dog' endpoint is blocked even though dog.node.md exists."""
+        import tempfile
+        tmpdir = tempfile.mkdtemp()
+        chapter_path = Path(tmpdir) / "agot-bran-01.md"
+        chapter_path.write_text("---\nfoo: bar\n---\nSome text.\n", encoding="utf-8")
+        emit_rows, escals = extra_mod._emit_entity_pair_candidates(
+            slugs=["dog", "arya-stark"],
+            candidate_kind="pass1_events",
+            source_section="Events & Actions",
+            hint_raw="A dog followed Arya.",
+            evidence_quote="",
+            evidence_context="",
+            chapter_slug="agot-bran-01",
+            book_abbrev="agot",
+            pov_slug="bran-stark",
+            extraction_rel="extractions/mechanical/agot/agot-bran-01.extraction.md",
+            run_id="test",
+            schema_version="v1",
+            produced_at="2026-05-27T00:00:00+00:00",
+            chapter_path=chapter_path,
+            chapter_rel="sources/chapters/agot/agot-bran-01.md",
+        )
+        self.assertEqual(len(emit_rows), 0, "Blocklisted source must not emit")
+        self.assertEqual(len(escals), 1)
+
+
+# ---------------------------------------------------------------------------
+# Tests: Fix 4 — title-person disambiguation in _build_present_slugs
+# (Problem A — root cause: bootstrap seeds wrong slug into present_slugs)
+# ---------------------------------------------------------------------------
+
+_build_present_slugs = extra_mod._build_present_slugs
+
+
+class TestBuildPresentSlugsBootstrapTitlePerson(unittest.TestCase):
+    """_build_present_slugs must remap bootstrapped non-character artifact slugs
+    when slug_category is provided (the lord-tywin → tywin-lannister case).
+    """
+
+    # Same stub environment as TestTitlePersonDisambiguation
+    _NODE_SET = {"lord-tywin", "tywin-lannister", "cersei-lannister", "eddard-stark"}
+    _ALIAS_MAP = {}
+    _FIRSTNAME_INDEX = {
+        "tywin": ["tywin-lannister", "lord-tywin"],  # multiple → remap needed
+        "cersei": ["cersei-lannister"],
+        "eddard": ["eddard-stark"],
+    }
+    _PRIOR = {"tywin-lannister": 500, "lord-tywin": 10}
+    _SLUG_CATEGORY = {
+        "lord-tywin": "artifacts",
+        "tywin-lannister": "characters",
+        "cersei-lannister": "characters",
+        "eddard-stark": "characters",
+    }
+
+    def _text_with_chars(self, *names) -> str:
+        """Minimal extraction text with a Characters Present table."""
+        rows = "\n".join(
+            f"| {name} | Present | No | |" for name in names
+        )
+        return (
+            "## Characters Present\n"
+            "| Character | Role | First? | Notes |\n"
+            "|-----------|------|--------|-------|\n"
+            + rows + "\n\n## Events & Actions\n1. Something.\n"
+        )
+
+    def test_lord_tywin_bootstrap_without_slug_category_seeds_artifact(self):
+        """Without slug_category, 'Lord Tywin' bootstrap seeds lord-tywin (artifact)."""
+        text = self._text_with_chars("Lord Tywin")
+        # Inject "Lord Tywin" as a dialogue speaker too
+        diag_rows = [{"speaker": "Lord Tywin", "listener": "Cersei", "quote": "", "context": ""}]
+        present = _build_present_slugs(
+            text, [], diag_rows,
+            self._ALIAS_MAP, self._NODE_SET, self._FIRSTNAME_INDEX,
+            # No slug_category
+        )
+        # Without fix, lord-tywin (the artifact) is seeded
+        self.assertIn("lord-tywin", present)
+        self.assertNotIn("tywin-lannister", present)
+
+    def test_lord_tywin_bootstrap_with_slug_category_seeds_character(self):
+        """With slug_category, 'Lord Tywin' bootstrap seeds tywin-lannister (char)."""
+        diag_rows = [{"speaker": "Lord Tywin", "listener": "Cersei", "quote": "", "context": ""}]
+        text = self._text_with_chars("Lord Tywin")
+        present = _build_present_slugs(
+            text, [], diag_rows,
+            self._ALIAS_MAP, self._NODE_SET, self._FIRSTNAME_INDEX,
+            slug_category=self._SLUG_CATEGORY,
+            importance_prior=self._PRIOR,
+        )
+        self.assertIn("tywin-lannister", present)
+        self.assertNotIn("lord-tywin", present)
+
+
+class TestTitlePersonDisambiguation(unittest.TestCase):
+    """_scan_text_for_entities must use slug_category to resolve 'Lord Tywin'
+    → tywin-lannister (not lord-tywin the ship artifact).
+    """
+
+    # Minimal stub environment mirroring the actual collision.
+    # lord-tywin is an artifact; tywin-lannister is a character.
+    _NODE_SET = {"lord-tywin", "tywin-lannister", "cersei-lannister", "eddard-stark"}
+    _ALIAS_MAP = {}
+    _FIRSTNAME_INDEX = {
+        "tywin": ["tywin-lannister"],
+        "cersei": ["cersei-lannister"],
+        "eddard": ["eddard-stark"],
+    }
+    _PRIOR = {"tywin-lannister": 500, "lord-tywin": 10}
+    _PRESENT = set(_NODE_SET)
+    _SLUG_CATEGORY = {
+        "lord-tywin": "artifacts",          # The ship — NOT a character
+        "tywin-lannister": "characters",
+        "cersei-lannister": "characters",
+        "eddard-stark": "characters",
+    }
+
+    def test_lord_tywin_without_slug_category_returns_ship(self):
+        """Without slug_category, 'Lord Tywin' exact-matches the artifact node."""
+        slugs = _scan_text_for_entities(
+            "Lord Tywin ordered Cersei to comply.",
+            self._ALIAS_MAP, self._NODE_SET, self._FIRSTNAME_INDEX,
+            self._PRIOR, self._PRESENT,
+            # No slug_category
+        )
+        # Without the fix, lord-tywin (the ship) is resolved
+        self.assertIn("lord-tywin", slugs)
+        self.assertNotIn("tywin-lannister", slugs)
+
+    def test_lord_tywin_with_slug_category_returns_person(self):
+        """With slug_category, 'Lord Tywin' is redirected to tywin-lannister."""
+        slugs = _scan_text_for_entities(
+            "Lord Tywin ordered Cersei to comply.",
+            self._ALIAS_MAP, self._NODE_SET, self._FIRSTNAME_INDEX,
+            self._PRIOR, self._PRESENT,
+            slug_category=self._SLUG_CATEGORY,
+        )
+        self.assertIn("tywin-lannister", slugs)
+        self.assertNotIn("lord-tywin", slugs)
+
+    def test_lord_tywin_not_doubled_in_results(self):
+        """After title-person redirect, the cursor advances past both tokens
+        so 'Tywin' doesn't produce a second tywin-lannister slug."""
+        slugs = _scan_text_for_entities(
+            "Lord Tywin arrived.",
+            self._ALIAS_MAP, self._NODE_SET, self._FIRSTNAME_INDEX,
+            self._PRIOR, self._PRESENT,
+            slug_category=self._SLUG_CATEGORY,
+        )
+        # Only one occurrence of tywin-lannister
+        self.assertEqual(slugs.count("tywin-lannister"), 1)
+
+    def test_pair_emitted_with_slug_category(self):
+        """An event item with 'Lord Tywin' and another character should emit a
+        candidate with tywin-lannister (not lord-tywin) as an endpoint."""
+        import tempfile
+        tmpdir = tempfile.mkdtemp()
+        chapter_path = Path(tmpdir) / "agot-tywin-01.md"
+        chapter_path.write_text(
+            "---\nfoo: bar\n---\nLord Tywin ordered Cersei to comply.\n",
+            encoding="utf-8",
+        )
+        chapter_rel = "sources/chapters/agot/agot-tywin-01.md"
+        items = ["1. **Order** — Lord Tywin ordered Cersei to comply."]
+        cands, _, _, _, _ = generate_events_candidates(
+            event_items=items,
+            chapter_slug="agot-tywin-01",
+            book_abbrev="agot",
+            pov_slug="tyrion-lannister",
+            extraction_rel="extractions/mechanical/agot/agot-tywin-01.extraction.md",
+            alias_map=self._ALIAS_MAP,
+            node_set=self._NODE_SET,
+            firstname_index=self._FIRSTNAME_INDEX,
+            importance_prior=self._PRIOR,
+            present_slugs=self._PRESENT,
+            chapter_path=chapter_path,
+            chapter_rel=chapter_rel,
+            run_id="test",
+            schema_version="v1",
+            produced_at="2026-05-27T00:00:00+00:00",
+            slug_category=self._SLUG_CATEGORY,
+        )
+        all_slugs = {c["source_slug"] for c in cands} | {c["target_slug"] for c in cands}
+        self.assertIn("tywin-lannister", all_slugs,
+                      f"Expected tywin-lannister in endpoints; got {all_slugs}")
+        self.assertNotIn("lord-tywin", all_slugs,
+                         f"lord-tywin (ship artifact) must not appear; got {all_slugs}")
+
+
 if __name__ == "__main__":
     unittest.main()

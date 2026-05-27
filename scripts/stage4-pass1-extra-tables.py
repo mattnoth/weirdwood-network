@@ -64,14 +64,19 @@ from stage4_name_resolver import (  # noqa: E402
     resolve_name_bootstrap,
     write_firstname_aliases,
     GENERIC_TERMS,
+    TITLE_PREFIXES,
     STATUS_EXACT,
     STATUS_ALIAS,
+    STATUS_TITLE_PERSON,
     STATUS_FIRSTNAME_UNIQUE,
     STATUS_CONTEXT_PRESENT,
     STATUS_CONTEXT_PRIOR,
     STATUS_AMBIGUOUS,
     STATUS_UNRESOLVED,
     STATUS_UNRESOLVED_GENERIC,
+    _first_token,
+    _resolve_char_restricted,
+    _clean_raw_name,
 )
 
 # ---------------------------------------------------------------------------
@@ -589,10 +594,18 @@ def _build_present_slugs(
     alias_map: dict,
     node_set: set,
     firstname_index: dict,
+    slug_category: Optional[dict] = None,
+    importance_prior: Optional[dict] = None,
 ) -> set[str]:
     """Build a set of probable-present slugs for context-resolution.
 
     Seeds from Characters Present + Hospitality host/guests + Dialogue speakers/listeners.
+
+    slug_category + importance_prior: when provided, applies title-person
+    disambiguation to bootstrapped slugs.  Without them, a name like "Lord Tywin"
+    (which exact-matches the artifact node lord-tywin) would be seeded as
+    lord-tywin rather than tywin-lannister, causing the context-present rung to
+    later prefer the wrong node when scanning event text.
     """
     raw_names: list[str] = parse_characters_present(text)
     for row in hosp_rows:
@@ -613,6 +626,22 @@ def _build_present_slugs(
             firstname_index=firstname_index,
         )
         if s:
+            # Title-person remap: if slug_category is available and the bootstrap
+            # resolved a title-prefixed name to a NON-character node, try to find
+            # the actual character via the restricted character ladder.
+            # Example: "Lord Tywin" → lord-tywin (artifact) → should be tywin-lannister.
+            if (
+                slug_category is not None
+                and slug_category.get(s) not in (None, "characters")
+            ):
+                cleaned = _clean_raw_name(name)
+                if _first_token(cleaned) in TITLE_PREFIXES:
+                    prior = importance_prior if importance_prior is not None else {}
+                    person = _resolve_char_restricted(
+                        cleaned, firstname_index, slug_category, prior, present
+                    )
+                    if person is not None and person != s:
+                        s = person
             present.add(s)
     return present
 
@@ -800,6 +829,7 @@ def _scan_text_for_entities(
     firstname_index: dict,
     importance_prior: dict,
     present_slugs: set,
+    slug_category: Optional[dict] = None,
 ) -> list[str]:
     """Scan text for entity name-forms, return list of resolved slugs in reading order.
 
@@ -808,14 +838,20 @@ def _scan_text_for_entities(
 
     Greedy multi-word matching: tries 3-word → 2-word → 1-word spans for each
     Title-cased token. A multi-word span is consumed (advances the cursor) ONLY
-    when it resolves via a full-name match (EXACT or ALIAS status). FIRSTNAME_UNIQUE
-    matches are accepted only for single-word spans — this prevents "Jon" from eating
-    "Snow" into an "Arya Jon Snow" ghost span.
+    when it resolves via a full-name match (EXACT, ALIAS, or TITLE_PERSON status).
+    FIRSTNAME_UNIQUE matches are accepted only for single-word spans — this prevents
+    "Jon" from eating "Snow" into an "Arya Jon Snow" ghost span.
+
+    slug_category: optional dict[slug → category-dir] from build_graph_index().
+    When provided, enables title-person disambiguation in the resolver so that
+    "Lord Tywin" → tywin-lannister instead of lord-tywin (the ship artifact).
 
     Returns list of unique resolved slugs (AMBIGUOUS and UNRESOLVED excluded).
     """
     # Multi-word spans consumed only on these statuses (full-name match):
-    _FULL_MATCH_STATUSES = (STATUS_EXACT, STATUS_ALIAS)
+    # STATUS_TITLE_PERSON is included so "Lord Tywin" → tywin-lannister advances
+    # the cursor past both tokens (preventing "Tywin" from being re-resolved).
+    _FULL_MATCH_STATUSES = (STATUS_EXACT, STATUS_ALIAS, STATUS_TITLE_PERSON)
 
     all_tokens = re.findall(r"\b[A-Z][a-zA-Z'-]+\b", text)
     seen_slugs: dict[str, int] = {}  # slug → first occurrence position
@@ -838,6 +874,7 @@ def _scan_text_for_entities(
                 firstname_index=firstname_index,
                 prior=importance_prior,
                 present_slugs=present_slugs,
+                slug_category=slug_category,
             )
             if slug and status not in (STATUS_AMBIGUOUS, STATUS_UNRESOLVED, STATUS_UNRESOLVED_GENERIC):
                 # For multi-word spans: only advance cursor on full-name matches.
@@ -908,6 +945,32 @@ _TOAST_PHRASE_PATTERN = re.compile(
     re.IGNORECASE,
 )
 
+# Endpoint blocklist: slugs that exist as real graph nodes but are WRONG targets
+# for pass1_events candidates — they are common words or fuzzy mis-resolutions
+# that resolved to a real node of the wrong type or entity.
+#
+# Each entry is explained:
+#   bastard         — resolves to graph/nodes/titles/bastard.node.md; "bastard" is
+#                     a common word/epithet (e.g. Jon Snow called a bastard), not
+#                     a relationship endpoint.
+#   dog             — resolves to graph/nodes/species/dog.node.md; "dog" in events
+#                     text refers to a specific animal or is derogatory, not the
+#                     species concept node.
+#   four-storms     — resolves to graph/nodes/characters/four-storms.node.md; text
+#                     was "four brothers" fuzzy-resolved to this character slug.
+#   hunt-of-the-poor-fellows — resolves to graph/nodes/events/hunt-of-the-poor-fellows.node.md;
+#                     text was Robert's boar hunt, not the Faith Militant's hunt.
+#
+# Keep this list conservative and explicit. Do NOT add slugs speculatively —
+# each entry requires a confirmed observed mis-resolution from hand-reading
+# model output or audit. Potential additions go to the validation report first.
+ENDPOINT_BLOCKLIST: frozenset[str] = frozenset({
+    "bastard",                      # common epithet → titles node, not an individual
+    "dog",                          # common word/species node → not a specific animal
+    "four-storms",                  # fuzzy mis-resolution from "four brothers"
+    "hunt-of-the-poor-fellows",     # wrong event → Robert's boar hunt ≠ Faith Militant hunt
+})
+
 
 def is_low_quality_endpoint(slug: str) -> bool:
     """Return True if a slug should be routed to escalation rather than emitting an edge.
@@ -917,6 +980,7 @@ def is_low_quality_endpoint(slug: str) -> bool:
     2. Known aliases (alayne, reek, arry, etc.) — cross-identity paths handle these.
     3. National/regional demonyms (dothraki, wildling, etc.) — groups, not individuals.
     4. Toast/phrase patterns (all-for-joffrey, etc.) — not people.
+    5. Endpoint blocklist — confirmed wrong-node mis-resolutions (bastard, dog, etc.).
 
     This function is intentionally importable and reusable for the formalize step
     that applies the same gate to already-computed edge sets.
@@ -939,6 +1003,10 @@ def is_low_quality_endpoint(slug: str) -> bool:
 
     # 4. Toast/phrase patterns
     if _TOAST_PHRASE_PATTERN.match(slug_lower):
+        return True
+
+    # 5. Endpoint blocklist (confirmed wrong-node mis-resolutions)
+    if slug_lower in ENDPOINT_BLOCKLIST:
         return True
 
     return False
@@ -1101,8 +1169,13 @@ def generate_events_candidates(
     run_id: str,
     schema_version: str,
     produced_at: str,
+    slug_category: Optional[dict] = None,
 ) -> tuple[list[dict], int, int, int, list[dict]]:
     """Generate pass1_events candidate pairs from Events & Actions numbered items.
+
+    slug_category: optional dict[slug → category-dir]. When provided, enables
+    title-person disambiguation (e.g. "Lord Tywin" → tywin-lannister, not
+    lord-tywin the ship artifact).
 
     Returns (candidates, rows_with_2plus_entities, rows_dropped, rows_escalated,
              escalation_rows).
@@ -1119,7 +1192,8 @@ def generate_events_candidates(
         hint_raw = re.sub(r"^\d+\.\s+", "", item_text).strip()
 
         slugs = _scan_text_for_entities(
-            hint_raw, alias_map, node_set, firstname_index, importance_prior, present_slugs
+            hint_raw, alias_map, node_set, firstname_index, importance_prior, present_slugs,
+            slug_category=slug_category,
         )
 
         if len(slugs) < 2:
@@ -1171,11 +1245,13 @@ def generate_info_candidates(
     run_id: str,
     schema_version: str,
     produced_at: str,
+    slug_category: Optional[dict] = None,
 ) -> tuple[list[dict], int, int, int, list[dict]]:
     """Generate pass1_info candidate pairs from Information Revealed table rows.
 
     Scans: Information column + Known To (Characters) column.
     How Revealed column → evidence_context.
+    slug_category: optional dict[slug → category-dir] for title-person disambiguation.
     Returns (candidates, rows_with_2plus_entities, rows_dropped, rows_escalated,
              escalation_rows).
     """
@@ -1205,7 +1281,8 @@ def generate_info_candidates(
         evidence_context = how_revealed.strip()
 
         slugs = _scan_text_for_entities(
-            combined_scan, alias_map, node_set, firstname_index, importance_prior, present_slugs
+            combined_scan, alias_map, node_set, firstname_index, importance_prior, present_slugs,
+            slug_category=slug_category,
         )
 
         if len(slugs) < 2:
@@ -1257,6 +1334,7 @@ def generate_food_candidates(
     run_id: str,
     schema_version: str,
     produced_at: str,
+    slug_category: Optional[dict] = None,
 ) -> tuple[list[dict], int, int, int, list[dict]]:
     """Generate pass1_food candidate pairs from Food & Drink table rows.
 
@@ -1288,7 +1366,8 @@ def generate_food_candidates(
         hint_raw = who_text.strip() if who_text.strip() else meal_text.strip()
 
         slugs = _scan_text_for_entities(
-            scan_text, alias_map, node_set, firstname_index, importance_prior, present_slugs
+            scan_text, alias_map, node_set, firstname_index, importance_prior, present_slugs,
+            slug_category=slug_category,
         )
 
         if len(slugs) < 2:
@@ -1460,6 +1539,22 @@ def main() -> None:
     importance_prior = load_importance_prior(IN_BACKLINKS)
     print(f"  {len(importance_prior):,} slug priors loaded")
 
+    # Build slug→category index for title-person disambiguation.
+    # Powers the resolver's title-person rung: a title-prefixed name
+    # ("Lord Tywin") that exact-matches a NON-character node (a ship artifact)
+    # is redirected to the character (tywin-lannister).  Without this index,
+    # _scan_text_for_entities would emit lord-tywin (the ship) instead.
+    # Mirrors the same build in stage4-pass1-edge-candidates.py.
+    print("Building slug→category index (title-person disambiguation)...")
+    _SKIP_DIRS_CAT = {"_conflicts", "_unclassified", "_stage3-preview"}
+    slug_category: dict[str, str] = {}
+    for cat_dir in sorted(GRAPH_NODES_DIR.iterdir()):
+        if not cat_dir.is_dir() or cat_dir.name.startswith("_") or cat_dir.name in _SKIP_DIRS_CAT:
+            continue
+        for nf in cat_dir.glob("*.node.md"):
+            slug_category[nf.name[: -len(".node.md")]] = cat_dir.name
+    print(f"  {len(slug_category):,} slug→category entries")
+
     # ------------------------------------------------------------------
     # Step 2: Enumerate extraction files
     # ------------------------------------------------------------------
@@ -1585,6 +1680,8 @@ def main() -> None:
         present_slugs = _build_present_slugs(
             text, hosp_rows, diag_rows,
             alias_to_canonical, node_slug_set, firstname_index,
+            slug_category=slug_category,
+            importance_prior=importance_prior,
         )
 
         chapter_rows: list[dict] = []
@@ -1621,6 +1718,7 @@ def main() -> None:
                         firstname_index=firstname_index,
                         prior=importance_prior,
                         present_slugs=present_slugs,
+                        slug_category=slug_category,
                     )
                     for guest_raw in split_guests(guests_raw):
                         victim_slug, victim_status = resolve_name(
@@ -1630,6 +1728,7 @@ def main() -> None:
                             firstname_index=firstname_index,
                             prior=importance_prior,
                             present_slugs=present_slugs,
+                            slug_category=slug_category,
                         )
                         detail_entry = {
                             "chapter": chapter_slug,
@@ -1697,6 +1796,7 @@ def main() -> None:
                     firstname_index=firstname_index,
                     prior=importance_prior,
                     present_slugs=present_slugs,
+                    slug_category=slug_category,
                 )
                 if not host_slug or host_status in (STATUS_AMBIGUOUS, STATUS_UNRESOLVED, STATUS_UNRESOLVED_GENERIC):
                     if host:
@@ -1715,6 +1815,7 @@ def main() -> None:
                         firstname_index=firstname_index,
                         prior=importance_prior,
                         present_slugs=present_slugs,
+                        slug_category=slug_category,
                     )
                     if not guest_slug or guest_status in (STATUS_AMBIGUOUS, STATUS_UNRESOLVED, STATUS_UNRESOLVED_GENERIC):
                         h_guest_drop_unresolved += 1
@@ -1784,6 +1885,7 @@ def main() -> None:
                 firstname_index=firstname_index,
                 prior=importance_prior,
                 present_slugs=present_slugs,
+                slug_category=slug_category,
             )
             listener_slug, listener_status = resolve_name(
                 listener_raw,
@@ -1792,6 +1894,7 @@ def main() -> None:
                 firstname_index=firstname_index,
                 prior=importance_prior,
                 present_slugs=present_slugs,
+                slug_category=slug_category,
             )
 
             if not speaker_slug or speaker_status in (STATUS_AMBIGUOUS, STATUS_UNRESOLVED, STATUS_UNRESOLVED_GENERIC):
@@ -1872,6 +1975,7 @@ def main() -> None:
             run_id=run_id,
             schema_version=schema_version,
             produced_at=produced_at,
+            slug_category=slug_category,
         )
         f_rows_with_2plus += food_2plus
         f_rows_dropped += food_dropped
@@ -1915,6 +2019,7 @@ def main() -> None:
             run_id=run_id,
             schema_version=schema_version,
             produced_at=produced_at,
+            slug_category=slug_category,
         )
         ev_rows_with_2plus += ev_2plus
         ev_rows_dropped += ev_dropped
@@ -1958,6 +2063,7 @@ def main() -> None:
             run_id=run_id,
             schema_version=schema_version,
             produced_at=produced_at,
+            slug_category=slug_category,
         )
         i_rows_with_2plus += info_2plus
         i_rows_dropped += info_dropped

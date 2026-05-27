@@ -85,6 +85,11 @@ DEFAULT_MODEL = "claude-sonnet-4-6"
 DEFAULT_CHUNK_SIZE = 40
 DEFAULT_PROMPT_VERSION = "v5-precision-rules"
 
+# Stop-file path: touch this to stop a running classifier cleanly.
+# The wrapper (stage4-events-bulk-run.sh) owns the file's lifecycle —
+# it does NOT remove it here; the wrapper removes it after the loop exits.
+STOP_FILE = "/tmp/stage4-stop"
+
 # Exit code used by the forever-loop wrapper to distinguish "rate-limit wall"
 # (sleep and retry) from normal completion (0) or hard failure (1+).
 EXIT_CODE_RATE_LIMIT = 42
@@ -92,6 +97,13 @@ EXIT_CODE_RATE_LIMIT = 42
 # Exit code emitted when the process is interrupted by SIGINT/SIGTERM and
 # successfully flushed its delta to disk.  130 = 128 + SIGINT (Unix convention).
 EXIT_CODE_INTERRUPTED = 130
+
+# Exit code emitted when the drift-detection validation fires (reject-rate too
+# low, out-of-vocab count > 0, or malformed rows).  The outer wrapper treats
+# this as "do NOT auto-resume" — a human must inspect the output before retrying.
+# Must not collide with EXIT_CODE_RATE_LIMIT (42), EXIT_CODE_INTERRUPTED (130),
+# or the abort-after-consecutive-failures sentinel (also EXIT_CODE_RATE_LIMIT=42).
+EXIT_CODE_DRIFT_HALT = 43
 
 # ---------------------------------------------------------------------------
 # Dynamic imports (hyphenated filenames)
@@ -1364,6 +1376,112 @@ def write_output_rows(
 
 
 # ---------------------------------------------------------------------------
+# Drift-detection validation (Piece 2)
+# ---------------------------------------------------------------------------
+
+def run_drift_validation(
+    all_emit_rows: list[dict],
+    all_rejected_rows: list[dict],
+    locked_vocab: frozenset[str],
+    batch_num: int,
+    reject_rate_floor: float,
+    min_batches_for_rate_check: int = 5,
+) -> tuple[bool, str]:
+    """Mechanical drift-detection over output accumulated so far.
+
+    Checks:
+      1. Schema conformance: every emit_edge row has required fields,
+         edge_type is in locked_vocab, both endpoints are non-empty slugs.
+      2. Out-of-vocab count == 0 (should be structurally impossible, but assert).
+      3. Cumulative reject-rate = rejected / (emit + rejected) >= reject_rate_floor,
+         enforced only after min_batches_for_rate_check batches of data (i.e. once
+         emit + rejected > 0 and we have enough signal to judge).
+
+    Returns (ok, reason_string).
+      ok=True  → validation passed, continue run.
+      ok=False → drift detected, caller should flush and exit EXIT_CODE_DRIFT_HALT.
+    """
+    _REQUIRED_EMIT_FIELDS = {
+        "decision", "edge_type", "source_slug", "target_slug",
+        "evidence_chapter", "confidence_tier", "typed_by",
+    }
+
+    # --- Schema conformance check ---
+    schema_violations = 0
+    oov_count = 0
+    empty_endpoint_count = 0
+
+    for row in all_emit_rows:
+        # Required fields present
+        for field in _REQUIRED_EMIT_FIELDS:
+            if field not in row:
+                schema_violations += 1
+                break
+
+        # edge_type in locked vocab
+        et = row.get("edge_type", "")
+        if et not in locked_vocab:
+            oov_count += 1
+
+        # Both endpoints non-empty
+        if not row.get("source_slug", "").strip() or not row.get("target_slug", "").strip():
+            empty_endpoint_count += 1
+
+    if schema_violations > 0:
+        return False, f"schema_violations={schema_violations} (missing required fields in emit_edge rows)"
+
+    if oov_count > 0:
+        return False, f"out_of_vocab={oov_count} (edge_type not in locked vocab — structural integrity failure)"
+
+    if empty_endpoint_count > 0:
+        return False, f"empty_endpoints={empty_endpoint_count} (source_slug or target_slug is blank)"
+
+    # --- Reject-rate monitor ---
+    total_emit = len(all_emit_rows)
+    total_rejected = len(all_rejected_rows)
+    denominator = total_emit + total_rejected
+
+    if denominator > 0 and batch_num >= min_batches_for_rate_check:
+        reject_rate = total_rejected / denominator
+        if reject_rate < reject_rate_floor:
+            return False, (
+                f"reject_rate={reject_rate:.3f} < floor={reject_rate_floor:.2f} "
+                f"(emit={total_emit}, rejected={total_rejected}) — over-emission drift detected"
+            )
+
+    # Build one-line summary for the log
+    if denominator > 0:
+        reject_rate_str = f"{total_rejected / denominator:.3f}"
+    else:
+        reject_rate_str = "n/a"
+
+    # Unresolved endpoint check (best-effort, if node dir exists)
+    unresolved = 0
+    if GRAPH_NODES_DIR.exists():
+        node_slugs: set[str] = set()
+        skip_dirs = {"_conflicts", "_unclassified", "_stage3-preview"}
+        for node_file in GRAPH_NODES_DIR.rglob("*.node.md"):
+            parts = node_file.relative_to(GRAPH_NODES_DIR).parts
+            if any(p in skip_dirs for p in parts):
+                continue
+            node_slugs.add(node_file.name[: -len(".node.md")])
+        if node_slugs:
+            for row in all_emit_rows:
+                src = row.get("source_slug", "")
+                tgt = row.get("target_slug", "")
+                if src and src not in node_slugs:
+                    unresolved += 1
+                if tgt and tgt not in node_slugs:
+                    unresolved += 1
+
+    print(
+        f"  [validate@batch {batch_num}: emits={total_emit} rejects={total_rejected} "
+        f"reject_rate={reject_rate_str} unresolved={unresolved} OK]"
+    )
+    return True, ""
+
+
+# ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
 
@@ -1513,6 +1631,44 @@ def parse_args() -> argparse.Namespace:
             "run resumable via --skip-existing and lossless on kill. Default: 5."
         ),
     )
+    parser.add_argument(
+        "--sleep-between",
+        type=int,
+        default=0,
+        metavar="SECONDS",
+        help=(
+            "Sleep this many seconds AFTER each batch completes and BEFORE the next "
+            "batch starts. Does NOT sleep after the final batch, and does NOT sleep "
+            "when the run exits due to a rate-limit wall. Default: 0 (no sleep — "
+            "fully backward-compatible with all existing usage and tests)."
+        ),
+    )
+    parser.add_argument(
+        "--validate-every",
+        type=int,
+        default=0,
+        metavar="N",
+        help=(
+            "Run a mechanical drift-detection validation over all output accumulated "
+            "so far every N batches (aligned with flush cadence). Checks: schema "
+            "conformance, out-of-vocab count == 0, both endpoints non-empty, and "
+            "cumulative reject-rate above --reject-rate-floor. On failure, flushes "
+            "output and exits with code 43 (DRIFT_HALT — do NOT auto-resume). "
+            "Default: 0 (disabled — fully backward-compatible with all existing usage)."
+        ),
+    )
+    parser.add_argument(
+        "--reject-rate-floor",
+        type=float,
+        default=0.70,
+        metavar="FLOOR",
+        help=(
+            "Minimum acceptable cumulative reject-rate = rejected / (emit + rejected). "
+            "Only enforced after at least 5 batches of data (emit+rejected > 0). "
+            "If the rate drops below this floor, --validate-every triggers a DRIFT_HALT "
+            "(exit 43). Expected Haiku/Sonnet range is ~0.87–0.90. Default: 0.70."
+        ),
+    )
     return parser.parse_args()
 
 
@@ -1552,6 +1708,10 @@ def main() -> int:
     if apply:
         flush_label = f"every {args.flush_every} batches" if args.flush_every > 0 else "end-only (legacy)"
         print(f"  Flush-every:{args.flush_every} ({flush_label})")
+    if apply and args.sleep_between > 0:
+        print(f"  Sleep-between: {args.sleep_between}s (between batches, not after last/rate-limit)")
+    if apply and args.validate_every > 0:
+        print(f"  Validate-every: {args.validate_every} batches (drift-stop floor={args.reject_rate_floor})")
 
     # Parse --gate-vocab
     gated_types: tuple[str, ...] = tuple(
@@ -1609,10 +1769,13 @@ def main() -> int:
         all_rows = stratified_sample(all_rows, args.sample_n)
         print(f"  {len(all_rows)} rows after stratified sample")
 
-    # --smoke (sequential truncation, for backward compat with existing usage)
-    if args.smoke is not None and args.input_dir is None:
-        # Already handled by load_tail_rows; no-op here
-        pass
+    # --smoke (sequential truncation). TAIL_DIR mode applies it inside
+    # load_tail_rows(); --input-dir mode (load_extra_tables_rows has no smoke
+    # param) applies it here. Sequential = first N rows in deterministic load
+    # order, which reproduces the exact rows an earlier unbounded run processed
+    # first — required for same-rows model comparisons.
+    if args.smoke is not None and args.input_dir is not None:
+        all_rows = all_rows[: args.smoke]
 
     # Skip-existing filter
     if args.skip_existing and all_rows:
@@ -1645,6 +1808,9 @@ def main() -> int:
         print(f"  model:          {args.model}")
         print(f"  prompt_version: {prompt_version}")
         print(f"  prompt_sha:     {prompt_sha}")
+        print(f"  sleep_between:  {args.sleep_between}s")
+        print(f"  validate_every: {args.validate_every} batches (0=disabled)")
+        print(f"  reject_rate_floor: {args.reject_rate_floor}")
         print()
         if chunks:
             print(f"--- First batch prompt ({len(chunks[0])} rows) ---")
@@ -1683,6 +1849,13 @@ def main() -> int:
     # --flush-every: periodic checkpoint cadence.  0 = legacy end-only mode.
     flush_every: int = args.flush_every
 
+    # --sleep-between: pause between batches (not after last batch or rate-limit exit).
+    sleep_between: int = args.sleep_between
+
+    # --validate-every / --reject-rate-floor: drift detection cadence and threshold.
+    validate_every: int = args.validate_every
+    reject_rate_floor: float = args.reject_rate_floor
+
     # --abort-after-consecutive-failures: track fully-failed batches in a row.
     # A batch is "fully failed" when every row came back classify_failed
     # (0 typed + 0 rejected + 0 needs-qualifier), which is the signature of a
@@ -1706,6 +1879,8 @@ def main() -> int:
     signal.signal(signal.SIGTERM, _handle_signal)
 
     for batch_idx, batch in enumerate(chunks):
+        is_last_batch = (batch_idx + 1) == len(chunks)
+
         print(f"  Batch {batch_idx + 1}/{len(chunks)} ({len(batch)} rows)...", end=" ", flush=True)
         t0 = time.monotonic()
 
@@ -1767,6 +1942,30 @@ def main() -> int:
                 f"+{delta_rejected} rejected to disk @ batch {batch_idx + 1}]"
             )
 
+        # --- Drift-detection validation ---
+        # Runs every validate_every batches (when enabled; validate_every=0 disables).
+        # Aligned with flush cadence: validation fires AFTER the flush so the
+        # validator sees all rows written so far.
+        if validate_every > 0 and (batch_idx + 1) % validate_every == 0:
+            ok, reason = run_drift_validation(
+                all_emit_rows=all_emit_rows,
+                all_rejected_rows=all_rejected_rows,
+                locked_vocab=locked_vocab,
+                batch_num=batch_idx + 1,
+                reject_rate_floor=reject_rate_floor,
+            )
+            if not ok:
+                print(
+                    f"\n  DRIFT HALT: {reason}\n"
+                    f"  Flushing output and exiting with code {EXIT_CODE_DRIFT_HALT} "
+                    f"(do NOT auto-resume — inspect output before retrying)."
+                )
+                _flush_cursors = flush_delta(
+                    all_emit_rows, all_rejected_rows, all_failed_rows,
+                    all_needs_qualifier_rows, _flush_cursors, books,
+                )
+                return EXIT_CODE_DRIFT_HALT
+
         # --- Signal handler check ---
         if _interrupted:
             print(
@@ -1786,13 +1985,54 @@ def main() -> int:
                 f"Flushing partial output and exiting with code {EXIT_CODE_RATE_LIMIT} "
                 f"so the wrapper can sleep and retry."
             )
-            # Flush remaining delta before exiting (cursor-respecting — no duplicates)
+            # Flush remaining delta before exiting (cursor-respecting — no duplicates).
+            # Do NOT sleep before exiting on rate-limit (sleep_between is skipped).
             print("Writing partial output files...")
             _flush_cursors = flush_delta(
                 all_emit_rows, all_rejected_rows, all_failed_rows,
                 all_needs_qualifier_rows, _flush_cursors, books,
             )
             return EXIT_CODE_RATE_LIMIT
+
+        # --- Inter-batch sleep (Piece 1) ---
+        # Sleep AFTER the batch completes (after flush, after drift check, after
+        # signal check, after rate-limit check) — but NOT after the last batch and
+        # NOT when we are about to exit due to a rate-limit wall (already returned).
+        #
+        # Sleep is chunked (30s steps) so that a stop-file can interrupt it promptly
+        # rather than blocking for the full duration (which could be 30+ minutes).
+        if sleep_between > 0 and not is_last_batch:
+            print(f"  sleeping {sleep_between}s before next batch...", flush=True)
+            remaining_sleep = sleep_between
+            while remaining_sleep > 0:
+                # Check stop-file before each chunk.
+                if Path(STOP_FILE).exists():
+                    print(
+                        f"\n  STOP FILE detected mid-sleep — flushing and exiting cleanly.",
+                        flush=True,
+                    )
+                    _flush_cursors = flush_delta(
+                        all_emit_rows, all_rejected_rows, all_failed_rows,
+                        all_needs_qualifier_rows, _flush_cursors, books,
+                    )
+                    return EXIT_CODE_INTERRUPTED
+                step = min(30, remaining_sleep)
+                time.sleep(step)
+                remaining_sleep -= step
+
+        # --- Stop-file check between batches ---
+        # Independent of the sleep path: catch a stop-file that appeared while
+        # the batch itself was running (not during the sleep above).
+        if Path(STOP_FILE).exists():
+            print(
+                f"\n  STOP FILE detected between batches — flushing and exiting cleanly.",
+                flush=True,
+            )
+            _flush_cursors = flush_delta(
+                all_emit_rows, all_rejected_rows, all_failed_rows,
+                all_needs_qualifier_rows, _flush_cursors, books,
+            )
+            return EXIT_CODE_INTERRUPTED
 
     # Write output files (cursor-respecting delta — only rows not yet flushed)
     print()

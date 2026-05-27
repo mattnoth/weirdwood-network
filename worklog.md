@@ -89,7 +89,7 @@ This is your project memory. When you come back after a break, read Current Stat
 - [x] Graph edges formalized — **v1.3 (Session 72)** (`graph/edges/edges.jsonl` = **3,811** cited Pass-1-derived edges; v1 3,842→v1.2 3,825→v1.3 3,811). **v1.2:** type-contract re-validation vs complete node set (−17 wrong, +3 RULES→COMMANDS retype, kept 16 real `COMMANDS→faction`). **v1.3 resolver pass:** title-person disambiguation — 6 ship/artifact/title nodes named after people (`lord-tywin`=Cersei's dromond, `queen-cersei`, `lord-renly`, `princess-myrcella`, `lady-olenna`, `khal-jhaqo`) were capturing person references via exact slug-match; remapped → their characters (−12 dups) + new `CAPTAIN_OF`/`CREW_OF` target-not-character contract dropped 2 mis-typed "captain of the guard" edges. ~78% strict precision; all `evidence_ref`-carrying. **S74: core SHIPPED — citations re-grounded** (`scripts/stage4-reground-core-citations.py` corrected 3,676/3,811 `evidence_ref` line numbers; quote text + edge set byte-identical; fixed the latent `:11` locator bug — `read_chapter_prose` stripped blanks so all refs pinned to the first prose line). **Graph exercised: 100% of 898 edge endpoints resolve to a node, 0 orphans, fully traversable.** **Haiku Events+Dialogue enrichment = NO-GO, SHELVED** (post-locator-fix out-of-sample smokes 74.5%/62.5%, <75% gate; v5 precision rules authored + kept for any future revisit). Commit `63b8b461a`.
 - [x] Graph query + audit tooling — **NEW (Session 75).** `scripts/graph-query.py` (S39 node-inspection EXTENDED with `--neighbors`/`--path`/`--health`/`--edges` over canonical `edges.jsonl`) + NEW `scripts/graph-conflict-pairs.py` (read-only precision-cleanup review queue → `working/wiki/data/graph-conflict-pairs.{md,jsonl}`; 32 flagged pairs, mostly temporal arcs). 920 tests green. `--health` confirms 0 orphans / 100% traversable.
 - [x] Edge temporal-scoping — **NEW (Session 76).** `scripts/stage4-edge-temporal-scope.py` (+58 tests) annotates all 3,811 edges with `(book_order, chapter_number)` + temporal-aware conflict re-audit → **31/32 flagged pairs are temporal arcs** (`--window chapter`), 1 true same-window (`cersei↔tyrion`). Read-only on `edges.jsonl`. Outputs `working/wiki/data/edges-temporal-scoped.jsonl` + `graph-conflict-pairs-temporal.{md,jsonl}`.
-- [~] Events edge enrichment (Stage 4) — **IN PROGRESS (Session 76).** Sonnet typing run over 16,572 `pass1_events` candidates; **75/415 batches done → 273 unique edges, ~82-86% strict (5 checkpoints), $20.81**, in `working/wiki/pass2-buckets/pass1-derived/_events-run-20260527/` (gitignored, NOT merged). Paused on a shared-account rate-limit wall. `scripts/stage4-tail-classifier.py` gained `--flush-every` (cursor-delta) + signal-flush (1011 tests). Next: Haiku-vs-Sonnet comparison decides the model for the remaining ~82%.
+- [~] Events edge enrichment (Stage 4) — **MODEL DECIDED + RUNNER READY, NOT LAUNCHED (Session 77, 2026-05-27).** Haiku-vs-Sonnet comparison done on the SAME rows (AGOT 600 + ACOK 600 out-of-sample): **Haiku ~85% / ~90% strict** (vs Sonnet's 82-86%), 0 walls, ~$1.8/run → **DECISION: Haiku** for the full run (fresh all-Haiku, single provenance; Sonnet partial `_events-run-20260527/` superseded). Residual errors were **bad candidate slugs** (disambiguation, not model error) → **FIXED**: `stage4-pass1-extra-tables.py` now passes `slug_category` so the title-person rung fires (lord-tywin→tywin-lannister) + endpoint blocklist (bastard/dog/four-storms/hunt) → pass1_events **16,572→16,502 clean rows** (backup `_extra-tables.pre-slugfix-20260527/`). Runner BUILT + HARDENED: `scripts/stage4-tail-classifier.py` gained `--sleep-between` (chunked, stop-file-aware) + `--validate-every`/`--reject-rate-floor` (drift-halt exit 43); wrapper `scripts/stage4-events-bulk-run.sh` (paced auto-resume, `sleep_with_stop_check`, SIGINT-terminal, MAX_ITER, stop-file). **1072 tests green.** Comparison report: `working/session-results/2026-05-27-haiku-vs-sonnet-events.md`. Runbook: `working/runbooks/stage4-events-haiku-bulk.md`. NOT merged into `edges.jsonl` (separate gated milestone).
 - [ ] Convergence maps
 
 ### Reference Materials
@@ -104,8 +104,19 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Design questions that need resolution. Tag with status: OPEN, DECIDED, DEFERRED.
 
-### OPEN: Events-enrichment model + 3 gated core-cleanups (2026-05-27, Session 76)
-- **Model for the remaining ~82% of the Events run — UNDECIDED.** Sonnet held ~82-86% strict (proven) but ≈2 days of ~5h cap-bursts that collide with Matt's interactive sessions (shared account). Haiku is lighter/faster (Matt's standing bulk policy) but earlier Haiku smokes were ~60-62% — *on the pre-v5 prompt*; untested on the current v5+gated-vocab+cleaned-candidates setup. **Decision pending a same-rows Haiku-vs-Sonnet comparison** → `progress/continue-prompts/2026-05-27-haiku-events-comparison.md`. If Haiku ≥~80% → switch + add a sleep-until-reset wrapper; else finish on Sonnet (wrapped).
+### OPEN: Events Haiku bulk — TEMP SLEEP, must lower before Matt travels (2026-05-27, Session 77)
+- **OPERATIONAL — a future session must act on this.** Matt starts the Events Haiku bulk himself in iTerm **today/tomorrow** with a **TEMPORARY long sleep (`STAGE4_SLEEP_BETWEEN=1800`, 30 min)** so it runs gently alongside his concurrent Opus work. **Before he leaves (~2026-05-29), a session must LOWER the sleep to `600` (or `300`) for the unattended phase** so it finishes in reasonable time.
+- **Launch command (stable output dir so cross-day resume works — do NOT rely on the datestamp default):**
+  ```
+  STAGE4_OUT=/Users/mnoth/source/asoiaf-chat/working/wiki/pass2-buckets/pass1-derived/_events-haiku-bulk \
+  STAGE4_SLEEP_BETWEEN=1800 STAGE4_VALIDATE_EVERY=25 \
+  bash /Users/mnoth/source/asoiaf-chat/scripts/stage4-events-bulk-run.sh
+  ```
+- **To change the sleep (the future session's job):** `touch /tmp/stage4-stop` (stops cleanly within ~1 batch+60s) → wait for clean exit → relaunch the SAME command with `STAGE4_SLEEP_BETWEEN=600` and the **same `STAGE4_OUT`** (`--skip-existing` resumes). Runbook: `working/runbooks/stage4-events-haiku-bulk.md`.
+- Drift safety: `--validate-every 25` hard-stops (exit 43) on schema drift / reject-rate <0.70. First-checkpoint precision spot-read + completion read owed (orchestrator).
+
+### OPEN: 3 gated core-cleanups — still await Matt's before/after sign-off (carried from Session 76)
+- Model decision RESOLVED (→ Haiku, see above). Still pending Matt's OK (do NOT touch `edges.jsonl` without before/after sign-off):
 - **3 gated core-cleanups — await Matt's before/after sign-off (do NOT touch `edges.jsonl` without it):** (1) drop the 2 `cersei↔tyrion` LOVES mis-types (3,811→3,809); (2) retype the ~22 physical `ASSAULTS`→`ATTACKS` (`ASSAULTS`=sexual only per architecture.md:233; fix the spine phrase→type map too); (3) merge-time `OWNS→BONDED_TO` for direwolf/dragon targets (Events output, not core). The Events v5 prompt already obeys the ASSAULTS rule (emitted 0).
 - **Operational:** long unattended runs MUST use a sleep-until-reset auto-resume wrapper — S76's bare worker sat idle all night after one cap wall.
 
@@ -215,6 +226,20 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 77 — Events: model DECIDED (Haiku), candidate slug-fix, paced runner built+hardened, bulk LAUNCHED (2026-05-27)
+
+**Model:** Opus 4.7 (orchestrator) + script-builder (Sonnet 4.6) ×3. **Detail:** `history/session-details/session-077.md`. **Commit:** this endsession commit.
+
+**Changes made:**
+- NEW `scripts/stage4-model-run-diff.py` — diffs two classifier runs on the SAME rows (match key `(source,target,chapter,hint_raw)`, NOT `evidence_ref` which only exists on emits). Self-diff = 100%.
+- `scripts/stage4-tail-classifier.py`: fixed `--smoke` silently ignored under `--input-dir` (had started a full 415-batch run instead of 600; killed at $0); added `--sleep-between` (chunked, stop-file-aware), `--validate-every`/`--reject-rate-floor` (drift-halt **exit 43**), `STOP_FILE` honoring mid-sleep + between batches. **1072 tests green.**
+- `scripts/stage4-pass1-extra-tables.py`: SLUG-FIX — now passes `slug_category` so the S72 title-person rung fires (`lord-tywin`→`tywin-lannister`) + `ENDPOINT_BLOCKLIST` (bastard/dog/four-storms/hunt). Regenerated: pass1_events **16,572→16,502 clean** (5 bad-slug classes →0; 44 `lord-tywin` remapped, 15 dropped). Backup `_extra-tables.pre-slugfix-20260527/`.
+- NEW `scripts/stage4-events-bulk-run.sh` — paced auto-resume wrapper; hardened against "sleeps-but-never-restarts" via `sleep_with_stop_check` (pattern from `stage4-haiku-loop.sh`), exit-130(Ctrl-C)-terminal, `MAX_ITER=200`. Runbook `working/runbooks/stage4-events-haiku-bulk.md`. Comparison report `working/session-results/2026-05-27-haiku-vs-sonnet-events.md`.
+
+**Decisions:** **(1) Model = HAIKU** for the full Events run — validated on 2 fresh out-of-sample samples (AGOT 600 ~85%, ACOK 600 ~90% strict; 0 walls; ~$1.8/run) vs Sonnet's 82-86%. Haiku's cost is lower RECALL (acceptable per project values: missing edge recoverable, wrong edge = pollution), not extra pollution. **(2) Fix candidates first** — residual errors in BOTH samples were bad candidate SLUGS (a disambiguation miss that survives the existence-gate AND a merge-time orphan-filter), not model error → fixed before the bulk. **(3) Run = fresh all-Haiku** (single provenance; Sonnet partial `_events-run-20260527/` superseded). New collision classes (cat/wolf/duck/gold/others/dragon/bear) left for merge-time triage (mixed = real refs + a few wrong; some have missing nodes). **(4) Calibration:** precision reads judge EDGE CORRECTNESS as the bar; flag a quote only when it actively fails to support the type (not when merely less-direct).
+
+**What's next:** Events Haiku bulk RUNNING in Matt's iTerm (`_events-haiku-bulk/`, 600s pacing, validate-every 25; ~411 batches, ~3.5 days; auto-resumes walls, hard-stops drift at exit 43). → `progress/continue-prompts/2026-05-27-events-haiku-bulk-monitor.md` (**Opus 4.7** — checkpoint precision reads + completion→merge). Owed: precision spot-read at first/25-batch checkpoint + at completion. Still gated on Matt: 3 core-cleanups (drop 2 cersei↔tyrion LOVES / ~22 ASSAULTS→ATTACKS / merge-time OWNS→BONDED_TO). Merge of Events edges into `graph/edges/edges.jsonl` = separate milestone.
+
 ### Session 76 — Events enrichment launched (Sonnet); flush-fix + rate-limit wall; ASSAULTS mis-type caught (2026-05-27)
 
 **Model:** Opus 4.7 (orchestrator) + script-builder (Sonnet 4.6) ×2. **Detail:** `history/session-details/session-076.md`. **Commit:** uncommitted at endsession (Matt to confirm).
@@ -279,29 +304,7 @@ This is your project memory. When you come back after a break, read Current Stat
 
 ---
 
-### Session 72 — CORRECTION: "unpromoted-node gap" was a false alarm; index + validator + resolver FIXED; edges v1→v1.3 (2026-05-25→26)
-
-**Model:** Opus 4.7 (autonomous stretches — Matt stepped away mid-session with "do all of this"). **Detail:** `history/session-details/session-072.md`. **Commits:** `eb3c6b18b`, `4f149f7b6`.
-
-**The correction (CLAUDE.md #9 in action):** S71 handed off "~7,251 staged nodes never promoted → edges PAUSED." **Verified false this session** — it was a file count without a slug check. Slug reconciliation: **7,039/7,047** staged-skeleton slugs ALREADY in `graph/nodes/`; only **8** net-new. `promote.py` dry-run: 43 net-new / 2,367 byte-equal / 1,307 byte-diff. Promoted (8,299) > staged (7,047). **No backlog; node layer whole.** Did NOT mass-promote on the false premise.
-
-**What was actually wrong — all FIXED ($0/deterministic):**
-- **The index, not the nodes** (what Matt actually saw). `graph/index/` only had configs for characters/houses/locations/artifacts; 14 categories never indexed. script-builder extended `scripts/build-entity-indexes.py` + rebuilt → **1,847 new `*.index.json`** (factions 191, titles 542, events 371, …).
-- **Type-contract validator** false-dropped `COMMANDS→faction` (Contract 4 only checked `graph/nodes/characters/`; the factions existed all along). Fixed `stage4-type-contract-validator.py`: COMMANDS accepts character OR commandable unit (faction/house); drops place(two-hop)/object; flags unknown. `TestCommandsContract` rewritten.
-- **`refine-v1-edges.py` never passed `slug_category_index`** → category-based contracts never fired (latent bug). Fixed (builds + passes index; test stub updated). **805 tests green.**
-
-**Edge re-validation (Matt's "re-resolve + re-validate, not re-extract"):** re-ran refine with the fixed validator over READ-ONLY `edges.jsonl` → **corrected v1.2 candidate 3,825 rows** (`_v1-refine/edges-v1.1-candidate.jsonl`); **16 faction-COMMANDS recovered** (gunthor→stone-crows, victarion→iron-fleet, …), 17 hard-drops (13 wrong COMMANDS + 1 MOTIVATES + 3 VIOLATES_GUEST_RIGHT). Pre-fix v1.1 preserved in `_v1-refine/superseded-2026-05-25-preCommandsFix/`. **`graph/edges/edges.jsonl` = 3,842 FROZEN/untouched** (md5 `9617c73b…`).
-
-**Decisions/findings:** 1,307 skeleton↔node "conflicts" = stale staging vs canonical (richer) nodes → **NO ACTION** (re-promoting would downgrade). Data-smell tail: `lord-tywin` resolves to `graph/nodes/artifacts/` (alias/mis-type). 0.1 scratch: `endsession.md` already says don't triage scratch + `.gitignore scratch*` covers it, BUT 2 scratch files are git-tracked (`git rm --cached`). **Nothing committed; did NOT run /endsession** (no permission). Health-check lesson: use a **slug intersection**, not a file count.
-
-**Then (same session, Matt back — "go for 1,2,3, commit"):** ① **applied v1.2 → `edges.jsonl` = 3,825 + committed.** ② net-new promotion CANCELLED (all 8 are dups of canonical nodes). ③ `lord-tywin` = real ship artifact, bad edge already dropped — no-op. Answered Matt's Q: fixing `graph/index/` does NOT help the edge scripts (they read `graph/nodes/`, not the index); the next real edge-quality lever is the **resolver/name-disambiguation** layer (the `lord-tywin` ship-vs-man class), a scoped follow-up.
-
-**Resolver pass (2026-05-26, continued same session → edges v1.3 = 3,811):** title-person disambiguation in `stage4_name_resolver.py` + `CAPTAIN_OF`/`CREW_OF` validator guard. Measured 42 collision edges, simulated to de-risk (6 clean wins, ship `lady-marya` protected), applied to `edges.jsonl`. 814 tests green. Answered Matt's Q on whether the index helps edge scripts: no (decoupled) — the resolver is the lever.
-
-**What's next:** → `CONTINUE-node-recovery-and-edges.md`. Open: folder reorg (wiki/scripts dumps + leftover worktrees); scratch untrack (`git rm --cached` 2 files); optional deeper resolver work (alias completeness for S67 unresolved/ambiguous endpoints).
-
----
-
+> Session 72 archived to `history/worklog-archives/archive015.md` (archive015 now full at 5/5)
 > Session 71 archived to `history/worklog-archives/archive015.md` (archive015 now 4/5)
 > Session 70 archived to `history/worklog-archives/archive015.md` (archive015 now 3/5)
 > Session 69 archived to `history/worklog-archives/archive015.md` (archive015 now 2/5)
