@@ -1,7 +1,7 @@
 # Worklog Archive 015
 
 > Archived Session Log entries (oldest-first within this file). Each archive holds 5 entries.
-> Sessions: 68-69 (2/5).
+> Sessions: 68-70 (3/5).
 
 ---
 
@@ -36,3 +36,20 @@
 **Decisions:** Matt's call: type all 4 tables (Dialogue/Events/Info/Food; fights ∈ Events) before formalizing; **full source-chapter re-read DEFERRED** (table-mining now, enrich later — additive "build then enrich"). **HELD at the $270 spend gate** — the smokes did their job, catching 3 systematic, fixable ($0) problem classes: (1) prompt over-types `INFORMS` (~100% wrong — it's spy→handler)/`ADVISES`/`MANIPULATES`/`SUPPORTS`/`ALIAS_OF` + uniform Tier-1; (2) generator direction-heuristic/fan-out/bare-slug emission = the SAME `all-for-joffrey` endpoint-pollution class as the 529 Hospitality edges (one fix cleans both); (3) `candidate_kind` hardcoded → provenance loss. Reject discipline (~90%) + relationship-revealing types (SIBLING_OF/KILLS/VOWS_TO/DUELS/REVEALS_TO/CONSPIRES_WITH/FIGHTS_IN) are solid. Canonical `_tail-typed/` (2,385 edges) untouched all session. Two bugs caught by doing, not by the 273 green tests.
 
 **What's next:** → continue: `progress/continue-prompts/2026-05-25-stage4-smoke-fixes-and-formalize.md` (decisions A/B/C; Sonnet for the $0 fixes). Track 1: 3 fixes (prompt vocab restriction+anti-patterns; generator direction-validation+slug-quality gate = endpoint filter; candidate_kind provenance). Track 2: re-smoke ~$4 → confirm ≥80% strict precision. Track 3: scoped full run via run-forever wrapper, drift-detection mandatory. Track 4: **FORMALIZE into `graph/edges/`**. [Superseded by S70-S74: edges formalized v1 S70; enrichment NO-GO + core shipped S74.]
+
+---
+
+### Session 70 — graph/edges/ v1 LANDED + Haiku enrichment gate (NO-GO) (2026-05-25)
+
+**Detail:** `working/wiki/data/pass1-derived-enrichment-gate-result.md` + `pass1-derived-smoke2-headtohead-review.md` serve as the detail (no separate session file).
+
+**Changes made:**
+- **graph/edges/ v1 COMMITTED (`c3880e160`)** — `graph/edges/edges.jsonl` (3,842 cited Pass-1-derived edges) + `graph/edges/README.md`. First populated edge layer; graph is now traversable.
+- NEW `scripts/stage4-formalize-edges.py` (+test, 99 green): merge spine(2,834 emit)+S67 tail(2,385 emit)+Hospitality(529)=5,748 → endpoint-gate −109, tail-violation quarantine −10, dedup −1,543 → 4,086 → `--precision-filter` (gated-type −234, CONTEMPORARY_WITH person↔person −10) → **3,842**. Quarantines preserved in `_formalized/` (gitignored).
+- 3 $0 fixes to `stage4-tail-classifier.py` + `stage4-pass1-extra-tables.py` (+tests): vocab gating (5 types)+tier guidance; generator direction-validation + reusable `is_low_quality_endpoint()`; provenance (candidate_kind preserved, typed_by from `--model`). Rule-11 anti-pattern patches (CONTEMPORARY_WITH/COMPANION_OF/CITED_BY/CONTRADICTS/ASSAULTS/NURSED_BY). `--abort-after-consecutive-failures` (exit 42) + `--skip-existing`/`--output-dir` hardening.
+- NEW `scripts/stage4-tail-bulk-forever.sh` (rate-limit-surviving overnight loop). **UNCOMMITTED** (classifier hardening + wrapper; 137 cls tests green) — commit with whichever path Matt picks.
+- NEW reviews: `pass1-derived-smoke2-headtohead-review.md`, `pass1-derived-enrichment-gate-result.md`. Deleted continue prompt `2026-05-25-stage4-smoke-fixes-and-formalize.md` (executed).
+
+**Decisions:** Matt: **deliverable-first** + head-to-head re-smoke (not Sonnet-only). Head-to-head (same 200 rows, post-lockdown): **Haiku 76% / Sonnet 78% strict** — neither cleared 80%; Sonnet's 2pt edge NOT worth 4.4× cost → **Decision C = enrich with Haiku**. Rule-11 patches cleanly eliminated the 2 target biases (CONTEMPORARY_WITH/COMPANION_OF→0) but post-patch precision = **~70%** (new RESPECTS drift + structural candidate-noise: evidence-mis-pairing, direction flips — the same ceiling as the v1 core; prompt can't reach it). **Bulk HELD overnight, $0 spent** — honored the agreed ≥80% gate. The deterministic core (explicit Pass-1 Relationships pairs) is the higher-quality layer; the extra-tables enrichment has a ~70-80% ceiling.
+
+**What's next:** → continue: `progress/continue-prompts/2026-05-25-stage4-enrichment-decision.md` (**Opus 4.7** — A/B/C decision + review; Sonnet for the $0 builds). Options: **A** one iteration (RESPECTS gate + direction reminder + deterministic quote-relevance filter — also cleans v1) then re-smoke; **B** run bulk at ~70% + heavy filters + runtime verify (~$60); **C** ship core-only, defer enrichment. Rec: **A one-shot → fall back to C**. [Superseded by S74: C taken — enrichment NO-GO, core shipped 3,811 v1.3.]

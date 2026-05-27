@@ -87,6 +87,7 @@ This is your project memory. When you come back after a break, read Current Stat
 - [x] Entity index — **REBUILT to all categories (Session 72).** `graph/index/` previously covered only characters/houses/locations/artifacts/chapters; `scripts/build-entity-indexes.py` extended with 14 more `TYPE_CONFIGS` → **1,847 new `*.index.json`** (factions, titles, events, religions, species, texts, concepts, materials, foods, theories, customs, languages, medical, prophecies). This was the real "entities aren't there" gap (the nodes always existed; the index didn't cover them). Mention-stats zero for wiki-sourced entities Pass 1 never tagged (expected).
 - [x] Chapter index (per-chapter `*.mentions.json` under `graph/index/chapters/`)
 - [x] Graph edges formalized — **v1.3 (Session 72)** (`graph/edges/edges.jsonl` = **3,811** cited Pass-1-derived edges; v1 3,842→v1.2 3,825→v1.3 3,811). **v1.2:** type-contract re-validation vs complete node set (−17 wrong, +3 RULES→COMMANDS retype, kept 16 real `COMMANDS→faction`). **v1.3 resolver pass:** title-person disambiguation — 6 ship/artifact/title nodes named after people (`lord-tywin`=Cersei's dromond, `queen-cersei`, `lord-renly`, `princess-myrcella`, `lady-olenna`, `khal-jhaqo`) were capturing person references via exact slug-match; remapped → their characters (−12 dups) + new `CAPTAIN_OF`/`CREW_OF` target-not-character contract dropped 2 mis-typed "captain of the guard" edges. ~78% strict precision; all `evidence_ref`-carrying. **S74: core SHIPPED — citations re-grounded** (`scripts/stage4-reground-core-citations.py` corrected 3,676/3,811 `evidence_ref` line numbers; quote text + edge set byte-identical; fixed the latent `:11` locator bug — `read_chapter_prose` stripped blanks so all refs pinned to the first prose line). **Graph exercised: 100% of 898 edge endpoints resolve to a node, 0 orphans, fully traversable.** **Haiku Events+Dialogue enrichment = NO-GO, SHELVED** (post-locator-fix out-of-sample smokes 74.5%/62.5%, <75% gate; v5 precision rules authored + kept for any future revisit). Commit `63b8b461a`.
+- [x] Graph query + audit tooling — **NEW (Session 75).** `scripts/graph-query.py` (S39 node-inspection EXTENDED with `--neighbors`/`--path`/`--health`/`--edges` over canonical `edges.jsonl`) + NEW `scripts/graph-conflict-pairs.py` (read-only precision-cleanup review queue → `working/wiki/data/graph-conflict-pairs.{md,jsonl}`; 32 flagged pairs, mostly temporal arcs). 920 tests green. `--health` confirms 0 orphans / 100% traversable.
 - [ ] Convergence maps
 
 ### Reference Materials
@@ -100,6 +101,11 @@ This is your project memory. When you come back after a break, read Current Stat
 ## Active Decisions
 
 > Design questions that need resolution. Tag with status: OPEN, DECIDED, DEFERRED.
+
+### AMENDED: Enrichment is DEFERRED, not abandoned — Events is the next surface (2026-05-26, Session 75)
+- **Decision (Matt):** Softens the S74 "SHELVE enrichment" below. Matt **does want to enrich the graph** — step by step, with **Events as the next surface**, but **gated behind the precision changes landing first** (the conflict-pair cleanup built this session + the kept v5 precision rules). **Not launched this session** (Matt chose to end + queue it).
+- **Temporal flagging endorsed** — per-edge "when does this apply" is the right structural answer to the contradictory-edges problem, and it's largely deterministic (every edge carries `evidence_book`+`evidence_chapter`; chapter frontmatter has `chapter_number`).
+- **DO NOT** run the ~$270 Events bulk blind — it failed the 75% precision gate (S74). The next Events pass must fold in the precision precursors. Continue: `progress/continue-prompts/2026-05-26-stage4-events-enrichment.md`. Memory: `project_enrichment_wanted_events_next`.
 
 ### DECIDED: Ship the deterministic core; SHELVE Events+Dialogue LLM enrichment (2026-05-26, Session 74)
 - **Decision (Matt):** Ship `graph/edges/edges.jsonl` (3,811 cited deterministic edges, ~78%) as THE edge layer. **Do NOT run the ~$75 Events+Dialogue Haiku enrichment.**
@@ -202,6 +208,19 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 75 — Graph-exercise follow-ups: conflict-pair audit + graph-query tool; enrichment un-shelved (2026-05-26)
+
+**Model:** Opus 4.7 (orchestrator) + script-builder (Sonnet 4.6) ×2 parallel. **Detail:** `history/session-details/session-075.md`. **Session-results:** `working/session-results/2026-05-26-graph-followups.md`. **Commit:** this endsession commit.
+
+**Changes made (all $0/deterministic, no LLM):**
+- NEW `scripts/graph-conflict-pairs.py` (+`tests/test_graph_conflict_pairs.py`, 29 green) — read-only audit; flags entity pairs with semantically incompatible co-occurring edge types into a REVIEW QUEUE (does NOT modify `edges.jsonl`). Output `working/wiki/data/graph-conflict-pairs.{md,jsonl}`. **1,978 pairs → 32 flagged** (14 same-direction / 11 opposite / 7 both; DISTRUSTS×TRUSTS 15, ALLIES_WITH×OPPOSES 12, LOVES×HATES 5, PROTECTS×ASSAULTS 3).
+- EXTENDED `scripts/graph-query.py` — already existed from S39 (node-inspection over node `## Edges` + `cross-references.jsonl`); preserved all S39 modes, added `--neighbors`/`--path`/`--health`/`--edges` over canonical `edges.jsonl`. `tests/test_graph_query_edges.py` (29 green); full suite **920 green**, no regressions.
+- `--health`: 8,299 node files · 3,811 edges · 898 endpoints · **0 orphans** · 105 edge types (GUEST_OF 404, OPPOSES 265, SERVES 255 lead); degree leaders jon-snow 317, tyrion 315, dany 248, cersei 229, arya 198.
+
+**Decisions:** (1) **Enrichment UN-SHELVED** — Matt confirmed he DOES want enrichment; softens the S74 "NO-GO" to a *deferral*. Step by step, **Events is the next surface**, gated behind the precision changes landing first (the conflict-pair cleanup + kept v5 precision rules). Memory `project_enrichment_wanted_events_next`. (2) **Temporal flagging endorsed** ("when an edge applies — shrewd"). Verified it's largely DETERMINISTIC: all 3,811 edges carry `evidence_book`+`evidence_chapter`; chapter frontmatter has `chapter_number` → a `(book_order, chapter_number)` key is derivable at $0. The 32 conflicts are mostly *temporal arcs* (Dany→Jorah TRUSTS@AGOT+DISTRUSTS@ADWD), not errors → real fix is temporal scoping, not deletion. (3) `graph-query.py` collision surfaced before touching it (S74 prompt assumed the file didn't exist) → extended, not overwritten.
+
+**What's next:** → `progress/continue-prompts/2026-05-26-stage4-events-enrichment.md` (**edge enrichment with Events**, precision-gated). Folds in the precision precursors: review/apply the 32-pair true mis-attributions + build deterministic temporal scoping + keep v5 rules; THEN a gated Events pass. NOT launched this session (Matt's call to end + queue). DO NOT run the ~$270 Events bulk blind (failed 75% gate).
+
 ### Session 74 — Locator grounding fix, enrichment NO-GO, core citations re-grounded, graph exercised (2026-05-26)
 
 **Model:** Opus 4.7 + script-builder (Sonnet) + prose-edge-reviewer ×2. **Detail:** `history/session-details/session-074.md`. **Commit:** `63b8b461a`.
@@ -277,23 +296,7 @@ This is your project memory. When you come back after a break, read Current Stat
 
 ---
 
-### Session 70 — graph/edges/ v1 LANDED + Haiku enrichment gate (NO-GO) (2026-05-25)
-
-**Detail:** `working/wiki/data/pass1-derived-enrichment-gate-result.md` + `pass1-derived-smoke2-headtohead-review.md` serve as the detail (no separate session file).
-
-**Changes made:**
-- **graph/edges/ v1 COMMITTED (`c3880e160`)** — `graph/edges/edges.jsonl` (3,842 cited Pass-1-derived edges) + `graph/edges/README.md`. First populated edge layer; graph is now traversable.
-- NEW `scripts/stage4-formalize-edges.py` (+test, 99 green): merge spine(2,834 emit)+S67 tail(2,385 emit)+Hospitality(529)=5,748 → endpoint-gate −109, tail-violation quarantine −10, dedup −1,543 → 4,086 → `--precision-filter` (gated-type −234, CONTEMPORARY_WITH person↔person −10) → **3,842**. Quarantines preserved in `_formalized/` (gitignored).
-- 3 $0 fixes to `stage4-tail-classifier.py` + `stage4-pass1-extra-tables.py` (+tests): vocab gating (5 types)+tier guidance; generator direction-validation + reusable `is_low_quality_endpoint()`; provenance (candidate_kind preserved, typed_by from `--model`). Rule-11 anti-pattern patches (CONTEMPORARY_WITH/COMPANION_OF/CITED_BY/CONTRADICTS/ASSAULTS/NURSED_BY). `--abort-after-consecutive-failures` (exit 42) + `--skip-existing`/`--output-dir` hardening.
-- NEW `scripts/stage4-tail-bulk-forever.sh` (rate-limit-surviving overnight loop). **UNCOMMITTED** (classifier hardening + wrapper; 137 cls tests green) — commit with whichever path Matt picks.
-- NEW reviews: `pass1-derived-smoke2-headtohead-review.md`, `pass1-derived-enrichment-gate-result.md`. Deleted continue prompt `2026-05-25-stage4-smoke-fixes-and-formalize.md` (executed).
-
-**Decisions:** Matt: **deliverable-first** + head-to-head re-smoke (not Sonnet-only). Head-to-head (same 200 rows, post-lockdown): **Haiku 76% / Sonnet 78% strict** — neither cleared 80%; Sonnet's 2pt edge NOT worth 4.4× cost → **Decision C = enrich with Haiku**. Rule-11 patches cleanly eliminated the 2 target biases (CONTEMPORARY_WITH/COMPANION_OF→0) but post-patch precision = **~70%** (new RESPECTS drift + structural candidate-noise: evidence-mis-pairing, direction flips — the same ceiling as the v1 core; prompt can't reach it). **Bulk HELD overnight, $0 spent** — honored the agreed ≥80% gate. The deterministic core (explicit Pass-1 Relationships pairs) is the higher-quality layer; the extra-tables enrichment has a ~70-80% ceiling.
-
-**What's next:** → continue: `progress/continue-prompts/2026-05-25-stage4-enrichment-decision.md` (**Opus 4.7** — A/B/C decision + review; Sonnet for the $0 builds). Options (full detail in `working/wiki/data/pass1-derived-enrichment-gate-result.md`): **A** one iteration (RESPECTS gate + direction reminder + deterministic quote-relevance filter — also cleans v1) then re-smoke; **B** run bulk at ~70% + heavy filters + runtime verify (~$60); **C** ship core-only, defer enrichment. Rec: **A one-shot → fall back to C**; quote-relevance filter is highest-value next build either way. Commit the uncommitted classifier hardening + wrapper with whichever path.
-
----
-
+> Session 70 archived to `history/worklog-archives/archive015.md` (archive015 now 3/5)
 > Session 69 archived to `history/worklog-archives/archive015.md` (archive015 now 2/5)
 > Session 68 archived to `history/worklog-archives/archive015.md`
 > Session 67 archived to `history/worklog-archives/archive014.md` (archive014 now full at 5/5)

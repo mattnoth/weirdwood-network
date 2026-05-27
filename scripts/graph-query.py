@@ -9,11 +9,17 @@ Prints a human-readable (or machine-readable) report for a single node:
      matches this node. Top 20 by default.
   4. Summary line.
 
-Usage:
+NODE INSPECTION (original modes):
   python3 scripts/graph-query.py <slug>
   python3 scripts/graph-query.py <slug> --edges-only
   python3 scripts/graph-query.py <slug> --inbound-only
   python3 scripts/graph-query.py <slug> --json
+
+CANONICAL EDGE LAYER (graph/edges/edges.jsonl):
+  python3 scripts/graph-query.py --neighbors <slug>
+  python3 scripts/graph-query.py --path <slugA> <slugB>
+  python3 scripts/graph-query.py --health
+  python3 scripts/graph-query.py --edges <path>   # override edges.jsonl location
   python3 scripts/graph-query.py --help
 """
 
@@ -21,6 +27,7 @@ import argparse
 import json
 import re
 import sys
+from collections import Counter, defaultdict
 from pathlib import Path
 
 # ---------------------------------------------------------------------------
@@ -31,6 +38,7 @@ PROJECT_ROOT = SCRIPT_DIR.parent
 NODES_DIR = PROJECT_ROOT / "graph" / "nodes"
 CROSS_REFS_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "cross-references.jsonl"
 ALIAS_RESOLVER_FILE = PROJECT_ROOT / "working" / "wiki" / "data" / "alias-resolver.json"
+DEFAULT_EDGES_FILE = PROJECT_ROOT / "graph" / "edges" / "edges.jsonl"
 
 # ---------------------------------------------------------------------------
 # Slug generation — must match wiki-pass2-emit-deterministic.py exactly
@@ -598,6 +606,432 @@ def print_json(report: dict) -> None:
     print(json.dumps(report, indent=2, default=str))
 
 
+# ===========================================================================
+# CANONICAL EDGE LAYER — graph/edges/edges.jsonl
+# All functions below read the canonical edge file and are independent of
+# the legacy node-inspection code above.
+# ===========================================================================
+
+# ---------------------------------------------------------------------------
+# edges.jsonl loader
+# ---------------------------------------------------------------------------
+
+def load_edges(edges_path: Path) -> list[dict]:
+    """Load all edges from a JSONL file.  Returns list of dicts.
+
+    Raises FileNotFoundError with a clear message if the file is missing.
+    """
+    if not edges_path.exists():
+        raise FileNotFoundError(
+            f"edges.jsonl not found at {edges_path}. "
+            "Run the Stage 4 pipeline first to produce this file."
+        )
+    rows: list[dict] = []
+    with open(edges_path, encoding="utf-8") as f:
+        for lineno, line in enumerate(f, 1):
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                rows.append(json.loads(line))
+            except json.JSONDecodeError as exc:
+                print(
+                    f"Warning: JSON decode error on line {lineno} of {edges_path}: {exc}",
+                    file=sys.stderr,
+                )
+    return rows
+
+
+def _short_quote(quote: str, max_len: int = 80) -> str:
+    """Truncate a quote to max_len with an ellipsis if needed."""
+    if not quote:
+        return ""
+    quote = quote.replace("\n", " ").strip()
+    return (quote[:max_len] + "...") if len(quote) > max_len else quote
+
+
+# ---------------------------------------------------------------------------
+# Node header helper (for --neighbors / --path output)
+# ---------------------------------------------------------------------------
+
+def _node_header(slug: str) -> str:
+    """Return a one-line description of a slug: 'name (type)' or just slug if not found."""
+    node_file = find_node_file(slug)
+    if node_file is None:
+        return slug
+    try:
+        text = node_file.read_text(encoding="utf-8")
+        fields, _ = parse_frontmatter(text)
+        name = fields.get("name", slug)
+        ntype = fields.get("type", "")
+        return f"{name} ({ntype})" if ntype else name
+    except Exception:
+        return slug
+
+
+# ---------------------------------------------------------------------------
+# --neighbors <slug>
+# ---------------------------------------------------------------------------
+
+def cmd_neighbors(slug: str, edges: list[dict], *, json_output: bool = False) -> None:
+    """Print all edges touching <slug>, grouped by direction and edge_type."""
+
+    outgoing: list[dict] = [e for e in edges if e.get("source_slug") == slug]
+    incoming: list[dict] = [e for e in edges if e.get("target_slug") == slug]
+
+    if json_output:
+        result = {
+            "slug": slug,
+            "node_header": _node_header(slug),
+            "outgoing_count": len(outgoing),
+            "incoming_count": len(incoming),
+            "outgoing": _edges_to_neighbor_records(outgoing, direction="outgoing", pivot=slug),
+            "incoming": _edges_to_neighbor_records(incoming, direction="incoming", pivot=slug),
+        }
+        print(json.dumps(result, indent=2, default=str))
+        return
+
+    node_file = find_node_file(slug)
+    print("=" * 72)
+    print(f"NEIGHBORS: {slug}")
+    if node_file:
+        print(f"  {_node_header(slug)}")
+        print(f"  File: {node_file}")
+    else:
+        print("  (no node file found for this slug)")
+    print()
+
+    # OUTGOING
+    print(f"OUTGOING ({len(outgoing)} edges — {slug} is source)")
+    print("-" * 72)
+    if not outgoing:
+        print("  (none)")
+    else:
+        by_type: dict[str, list[dict]] = defaultdict(list)
+        for e in outgoing:
+            by_type[e.get("edge_type", "?")].append(e)
+        for etype in sorted(by_type):
+            group = by_type[etype]
+            print(f"  [{etype}]  ({len(group)} edge{'s' if len(group) != 1 else ''})")
+            for e in group:
+                target = e.get("target_slug", "?")
+                ref = e.get("evidence_ref", "")
+                quote = _short_quote(e.get("evidence_quote", ""), 80)
+                print(f"    -> {target}")
+                if ref:
+                    print(f"       ref  : {ref}")
+                if quote:
+                    print(f"       quote: \"{quote}\"")
+
+    print()
+
+    # INCOMING
+    print(f"INCOMING ({len(incoming)} edges — {slug} is target)")
+    print("-" * 72)
+    if not incoming:
+        print("  (none)")
+    else:
+        by_type_in: dict[str, list[dict]] = defaultdict(list)
+        for e in incoming:
+            by_type_in[e.get("edge_type", "?")].append(e)
+        for etype in sorted(by_type_in):
+            group = by_type_in[etype]
+            print(f"  [{etype}]  ({len(group)} edge{'s' if len(group) != 1 else ''})")
+            for e in group:
+                source = e.get("source_slug", "?")
+                ref = e.get("evidence_ref", "")
+                quote = _short_quote(e.get("evidence_quote", ""), 80)
+                print(f"    <- {source}")
+                if ref:
+                    print(f"       ref  : {ref}")
+                if quote:
+                    print(f"       quote: \"{quote}\"")
+
+    print()
+    print("=" * 72)
+    print(
+        f"SUMMARY: {slug}  |  {len(outgoing)} outgoing, {len(incoming)} incoming"
+        f"  ({len(outgoing) + len(incoming)} total)"
+    )
+
+
+def _edges_to_neighbor_records(
+    edges: list[dict], *, direction: str, pivot: str
+) -> list[dict]:
+    """Convert edge dicts to lean neighbor records for JSON output."""
+    records = []
+    for e in edges:
+        other = e.get("target_slug") if direction == "outgoing" else e.get("source_slug")
+        records.append({
+            "edge_type": e.get("edge_type"),
+            "other_slug": other,
+            "evidence_ref": e.get("evidence_ref"),
+            "evidence_quote": _short_quote(e.get("evidence_quote", ""), 120),
+            "confidence_tier": e.get("confidence_tier"),
+        })
+    return records
+
+
+# ---------------------------------------------------------------------------
+# --path <slugA> <slugB>
+# ---------------------------------------------------------------------------
+
+BRIDGE_CAP = 50  # maximum bridges to display
+
+
+def cmd_path(slug_a: str, slug_b: str, edges: list[dict], *, json_output: bool = False) -> None:
+    """Print direct edges between A and B, then 2-hop bridges."""
+
+    # (a) Direct edges in either direction
+    direct: list[dict] = [
+        e for e in edges
+        if (e.get("source_slug") == slug_a and e.get("target_slug") == slug_b)
+        or (e.get("source_slug") == slug_b and e.get("target_slug") == slug_a)
+    ]
+
+    # (b) 2-hop bridges: neighbors of A and neighbors of B, intersected
+    # Build neighbor sets: slug → {neighbor_slug: [edges]}
+    neighbors_a: dict[str, list[dict]] = defaultdict(list)
+    for e in edges:
+        if e.get("source_slug") == slug_a:
+            neighbors_a[e["target_slug"]].append(e)
+        elif e.get("target_slug") == slug_a:
+            neighbors_a[e["source_slug"]].append(e)
+
+    neighbors_b: dict[str, list[dict]] = defaultdict(list)
+    for e in edges:
+        if e.get("source_slug") == slug_b:
+            neighbors_b[e["target_slug"]].append(e)
+        elif e.get("target_slug") == slug_b:
+            neighbors_b[e["source_slug"]].append(e)
+
+    # Common neighbors (bridges), excluding slug_a and slug_b themselves
+    bridge_slugs = (set(neighbors_a.keys()) & set(neighbors_b.keys())) - {slug_a, slug_b}
+    total_bridges = len(bridge_slugs)
+
+    # For each bridge, collect representative edge types (first edge on each leg)
+    bridges: list[dict] = []
+    for bridge in sorted(bridge_slugs):
+        leg_a = neighbors_a[bridge]
+        leg_b = neighbors_b[bridge]
+        # Summarize leg types
+        a_types = sorted({e.get("edge_type", "?") for e in leg_a})
+        b_types = sorted({e.get("edge_type", "?") for e in leg_b})
+
+        # Edge directions from slug_a's perspective on this bridge
+        a_dir = _leg_direction(slug_a, bridge, leg_a)
+        b_dir = _leg_direction(slug_b, bridge, leg_b)
+
+        bridges.append({
+            "bridge": bridge,
+            "a_types": a_types,
+            "b_types": b_types,
+            "a_dir": a_dir,
+            "b_dir": b_dir,
+            "a_edge_count": len(leg_a),
+            "b_edge_count": len(leg_b),
+        })
+
+    # Sort bridges by total edge count on both legs (richest connections first)
+    bridges.sort(key=lambda x: -(x["a_edge_count"] + x["b_edge_count"]))
+    displayed_bridges = bridges[:BRIDGE_CAP]
+
+    if json_output:
+        result = {
+            "slug_a": slug_a,
+            "slug_b": slug_b,
+            "direct_edges": [
+                {
+                    "edge_type": e.get("edge_type"),
+                    "source_slug": e.get("source_slug"),
+                    "target_slug": e.get("target_slug"),
+                    "evidence_ref": e.get("evidence_ref"),
+                    "evidence_quote": _short_quote(e.get("evidence_quote", ""), 120),
+                    "confidence_tier": e.get("confidence_tier"),
+                }
+                for e in direct
+            ],
+            "total_bridges": total_bridges,
+            "bridges_shown": len(displayed_bridges),
+            "bridges": displayed_bridges,
+        }
+        print(json.dumps(result, indent=2, default=str))
+        return
+
+    print("=" * 72)
+    print(f"PATH: {slug_a}  -->  {slug_b}")
+    print(f"  A: {_node_header(slug_a)}")
+    print(f"  B: {_node_header(slug_b)}")
+    print()
+
+    # Direct edges
+    print(f"DIRECT EDGES ({len(direct)})")
+    print("-" * 72)
+    if not direct:
+        print("  (no direct edges between these nodes)")
+    for e in direct:
+        src = e.get("source_slug", "?")
+        tgt = e.get("target_slug", "?")
+        etype = e.get("edge_type", "?")
+        ref = e.get("evidence_ref", "")
+        quote = _short_quote(e.get("evidence_quote", ""), 80)
+        print(f"  {src}  --[{etype}]-->  {tgt}")
+        if ref:
+            print(f"    ref  : {ref}")
+        if quote:
+            print(f"    quote: \"{quote}\"")
+        print()
+
+    # 2-hop bridges
+    print(
+        f"2-HOP BRIDGES ({total_bridges} common neighbors"
+        + (f", showing top {BRIDGE_CAP}" if total_bridges > BRIDGE_CAP else "")
+        + ")"
+    )
+    print("-" * 72)
+    if not bridges:
+        print("  (no common neighbors)")
+    for b in displayed_bridges:
+        bridge = b["bridge"]
+        a_arrow = _format_arrow(slug_a, bridge, b["a_dir"], b["a_types"])
+        b_arrow = _format_arrow(slug_b, bridge, b["b_dir"], b["b_types"])
+        print(f"  {a_arrow}  --[{bridge}]--  {b_arrow}")
+
+    print()
+    print("=" * 72)
+    print(
+        f"SUMMARY: {slug_a} → {slug_b}  |  "
+        f"{len(direct)} direct edges, {total_bridges} 2-hop bridges"
+    )
+
+
+def _leg_direction(pivot: str, other: str, leg_edges: list[dict]) -> str:
+    """Determine the dominant direction on a leg ('out', 'in', or 'both')."""
+    out_count = sum(1 for e in leg_edges if e.get("source_slug") == pivot)
+    in_count = sum(1 for e in leg_edges if e.get("target_slug") == pivot)
+    if out_count > 0 and in_count > 0:
+        return "both"
+    if out_count > 0:
+        return "out"
+    return "in"
+
+
+def _format_arrow(pivot: str, bridge: str, direction: str, types: list[str]) -> str:
+    """Format a leg as 'pivot --[TYPES]--> bridge' (or reverse)."""
+    type_str = "|".join(types) if types else "?"
+    if direction == "out":
+        return f"{pivot} --[{type_str}]--> {bridge}"
+    elif direction == "in":
+        return f"{bridge} --[{type_str}]--> {pivot}"
+    else:
+        return f"{pivot} <-[{type_str}]-> {bridge}"
+
+
+# ---------------------------------------------------------------------------
+# --health
+# ---------------------------------------------------------------------------
+
+DEGREE_TOP_N = 20
+
+
+def cmd_health(
+    edges: list[dict],
+    nodes_dir: Path,
+    *,
+    json_output: bool = False,
+) -> None:
+    """Print graph-wide health stats: node count, edge count, type distribution,
+    orphan endpoints, and degree leaders."""
+
+    # Node count
+    node_files = list(nodes_dir.rglob("*.node.md")) if nodes_dir.exists() else []
+    node_count = len(node_files)
+    node_slugs: set[str] = {f.stem.replace(".node", "") for f in node_files}
+
+    # Edge stats
+    edge_count = len(edges)
+    type_counter: Counter = Counter(e.get("edge_type", "?") for e in edges)
+
+    # Degree
+    degree: Counter = Counter()
+    for e in edges:
+        src = e.get("source_slug")
+        tgt = e.get("target_slug")
+        if src:
+            degree[src] += 1
+        if tgt:
+            degree[tgt] += 1
+
+    all_endpoints = set(degree.keys())
+    endpoint_count = len(all_endpoints)
+
+    # Orphan endpoints: slugs that appear in edges but have NO node file
+    orphan_endpoints = sorted(all_endpoints - node_slugs)
+    orphan_count = len(orphan_endpoints)
+
+    # Top degree
+    degree_leaders = degree.most_common(DEGREE_TOP_N)
+
+    if json_output:
+        result = {
+            "node_count": node_count,
+            "edge_count": edge_count,
+            "unique_endpoints": endpoint_count,
+            "orphan_endpoint_count": orphan_count,
+            "orphan_endpoints": orphan_endpoints,
+            "edge_type_distribution": type_counter.most_common(),
+            "degree_leaders": [
+                {"slug": s, "degree": d} for s, d in degree_leaders
+            ],
+        }
+        print(json.dumps(result, indent=2, default=str))
+        return
+
+    print("=" * 72)
+    print("GRAPH HEALTH REPORT")
+    print("=" * 72)
+    print(f"  Node files (*.node.md)  : {node_count:>7,}")
+    print(f"  Edge count              : {edge_count:>7,}")
+    print(f"  Unique edge endpoints   : {endpoint_count:>7,}")
+    print(f"  Orphan endpoints        : {orphan_count:>7,}  "
+          f"(endpoints with no node file)")
+    print()
+
+    # Edge-type distribution
+    print(f"EDGE-TYPE DISTRIBUTION  ({len(type_counter)} types)")
+    print("-" * 72)
+    for etype, cnt in type_counter.most_common():
+        bar = "#" * min(cnt // 5, 40)
+        print(f"  {etype:<30}  {cnt:>5}  {bar}")
+    print()
+
+    # Orphans list (truncate if very long)
+    if orphan_count == 0:
+        print("ORPHAN ENDPOINTS: none — all edge endpoints have node files")
+    else:
+        print(f"ORPHAN ENDPOINTS ({orphan_count})")
+        print("-" * 72)
+        display_orphans = orphan_endpoints[:50]
+        for slug in display_orphans:
+            print(f"  {slug}")
+        if orphan_count > 50:
+            print(f"  ... and {orphan_count - 50} more")
+    print()
+
+    # Degree leaders
+    print(f"DEGREE LEADERS (top {DEGREE_TOP_N} — total edges touching each entity)")
+    print("-" * 72)
+    for rank, (slug, deg) in enumerate(degree_leaders, 1):
+        bar = "#" * min(deg // 10, 35)
+        print(f"  {rank:>2}. {slug:<40}  {deg:>5}  {bar}")
+
+    print()
+    print("=" * 72)
+    print(f"SUMMARY: {node_count:,} nodes, {edge_count:,} edges, "
+          f"{orphan_count} orphan endpoints, "
+          f"{len(type_counter)} edge types")
+
+
 # ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
@@ -605,21 +1039,36 @@ def print_json(report: dict) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(
         description=(
-            "Inspect a single Weirwood Network graph node. "
-            "Prints node header, outbound edges with resolution status, "
-            "and inbound cross-references."
-        )
+            "Inspect Weirwood Network graph nodes and edges.\n\n"
+            "NODE INSPECTION (original):\n"
+            "  graph-query.py <slug> [--edges-only] [--inbound-only] [--json]\n\n"
+            "CANONICAL EDGE LAYER:\n"
+            "  graph-query.py --neighbors <slug>\n"
+            "  graph-query.py --path <slugA> <slugB>\n"
+            "  graph-query.py --health\n"
+            "  graph-query.py --edges <path>   (override edges.jsonl location)"
+        ),
+        formatter_class=argparse.RawDescriptionHelpFormatter,
     )
-    parser.add_argument("slug", help="Node slug (e.g. house-stark, eddard-stark)")
+
+    # Positional slug — optional so new modes work without it
+    parser.add_argument(
+        "slug",
+        nargs="?",
+        default=None,
+        help="Node slug for node inspection (e.g. house-stark, eddard-stark)",
+    )
+
+    # --- original flags ---
     parser.add_argument(
         "--edges-only",
         action="store_true",
-        help="Print only outbound edges, skip inbound references.",
+        help="(node inspection) Print only outbound edges, skip inbound references.",
     )
     parser.add_argument(
         "--inbound-only",
         action="store_true",
-        help="Print only inbound references (top 50).",
+        help="(node inspection) Print only inbound references (top 50).",
     )
     parser.add_argument(
         "--json",
@@ -628,8 +1077,76 @@ def main() -> None:
         help="Output machine-readable JSON instead of formatted text.",
     )
 
+    # --- new edge-layer flags ---
+    parser.add_argument(
+        "--neighbors",
+        metavar="SLUG",
+        default=None,
+        help="Show all edges touching SLUG, split into OUTGOING and INCOMING, "
+             "grouped by edge_type.",
+    )
+    parser.add_argument(
+        "--path",
+        nargs=2,
+        metavar=("SLUG_A", "SLUG_B"),
+        default=None,
+        help="Show direct edges between SLUG_A and SLUG_B, plus 2-hop common "
+             "neighbors (bridges).",
+    )
+    parser.add_argument(
+        "--health",
+        action="store_true",
+        help="Print graph-wide stats: node count, edge count, type distribution, "
+             "orphan endpoints, and degree leaders.",
+    )
+    parser.add_argument(
+        "--edges",
+        metavar="PATH",
+        default=None,
+        help=f"Override path to edges.jsonl (default: {DEFAULT_EDGES_FILE})",
+    )
+
     args = parser.parse_args()
 
+    # Validate: at most one mode active
+    new_mode = args.neighbors or args.path or args.health
+    old_mode = args.slug is not None
+
+    if new_mode and old_mode:
+        parser.error(
+            "Cannot combine a positional slug with --neighbors / --path / --health. "
+            "Use one mode at a time."
+        )
+
+    if not new_mode and not old_mode:
+        parser.print_help()
+        sys.exit(0)
+
+    # ------------------------------------------------------------------
+    # NEW EDGE-LAYER MODES
+    # ------------------------------------------------------------------
+    if new_mode:
+        edges_path = Path(args.edges) if args.edges else DEFAULT_EDGES_FILE
+        try:
+            edges = load_edges(edges_path)
+        except FileNotFoundError as exc:
+            print(f"ERROR: {exc}", file=sys.stderr)
+            sys.exit(1)
+
+        if args.neighbors:
+            cmd_neighbors(args.neighbors, edges, json_output=args.json_output)
+
+        elif args.path:
+            cmd_path(args.path[0], args.path[1], edges, json_output=args.json_output)
+
+        elif args.health:
+            cmd_health(edges, NODES_DIR, json_output=args.json_output)
+
+        sys.exit(0)
+
+    # ------------------------------------------------------------------
+    # ORIGINAL NODE-INSPECTION MODE (unchanged behaviour)
+    # ------------------------------------------------------------------
     if args.edges_only and args.inbound_only:
         parser.error("--edges-only and --inbound-only are mutually exclusive.")
 
