@@ -39,3 +39,8 @@ scratch*
 # are derived/redundant. The report IS tracked.
 graph/edges/_regrounding/edges-preregrounding-backup.jsonl
 graph/edges/_regrounding/edges-regrounded-candidate.jsonl
+
+# Session 78 (2026-05-28): runtime lock for scheduled tasks — accidentally committed
+# in S76. It's a per-process lock (sessionId/pid/acquiredAt); a stale one can block legit
+# scheduling. Untracked + ignored so it stops polluting git status.
+.claude/scheduled_tasks.lock
