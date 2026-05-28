@@ -89,7 +89,7 @@ This is your project memory. When you come back after a break, read Current Stat
 - [x] Graph edges formalized — **v1.3 (Session 72)** (`graph/edges/edges.jsonl` = **3,811** cited Pass-1-derived edges; v1 3,842→v1.2 3,825→v1.3 3,811). **v1.2:** type-contract re-validation vs complete node set (−17 wrong, +3 RULES→COMMANDS retype, kept 16 real `COMMANDS→faction`). **v1.3 resolver pass:** title-person disambiguation — 6 ship/artifact/title nodes named after people (`lord-tywin`=Cersei's dromond, `queen-cersei`, `lord-renly`, `princess-myrcella`, `lady-olenna`, `khal-jhaqo`) were capturing person references via exact slug-match; remapped → their characters (−12 dups) + new `CAPTAIN_OF`/`CREW_OF` target-not-character contract dropped 2 mis-typed "captain of the guard" edges. ~78% strict precision; all `evidence_ref`-carrying. **S74: core SHIPPED — citations re-grounded** (`scripts/stage4-reground-core-citations.py` corrected 3,676/3,811 `evidence_ref` line numbers; quote text + edge set byte-identical; fixed the latent `:11` locator bug — `read_chapter_prose` stripped blanks so all refs pinned to the first prose line). **Graph exercised: 100% of 898 edge endpoints resolve to a node, 0 orphans, fully traversable.** **Haiku Events+Dialogue enrichment = NO-GO, SHELVED** (post-locator-fix out-of-sample smokes 74.5%/62.5%, <75% gate; v5 precision rules authored + kept for any future revisit). Commit `63b8b461a`.
 - [x] Graph query + audit tooling — **NEW (Session 75).** `scripts/graph-query.py` (S39 node-inspection EXTENDED with `--neighbors`/`--path`/`--health`/`--edges` over canonical `edges.jsonl`) + NEW `scripts/graph-conflict-pairs.py` (read-only precision-cleanup review queue → `working/wiki/data/graph-conflict-pairs.{md,jsonl}`; 32 flagged pairs, mostly temporal arcs). 920 tests green. `--health` confirms 0 orphans / 100% traversable.
 - [x] Edge temporal-scoping — **NEW (Session 76).** `scripts/stage4-edge-temporal-scope.py` (+58 tests) annotates all 3,811 edges with `(book_order, chapter_number)` + temporal-aware conflict re-audit → **31/32 flagged pairs are temporal arcs** (`--window chapter`), 1 true same-window (`cersei↔tyrion`). Read-only on `edges.jsonl`. Outputs `working/wiki/data/edges-temporal-scoped.jsonl` + `graph-conflict-pairs-temporal.{md,jsonl}`.
-- [~] Events edge enrichment (Stage 4) — **MODEL DECIDED + RUNNER READY, NOT LAUNCHED (Session 77, 2026-05-27).** Haiku-vs-Sonnet comparison done on the SAME rows (AGOT 600 + ACOK 600 out-of-sample): **Haiku ~85% / ~90% strict** (vs Sonnet's 82-86%), 0 walls, ~$1.8/run → **DECISION: Haiku** for the full run (fresh all-Haiku, single provenance; Sonnet partial `_events-run-20260527/` superseded). Residual errors were **bad candidate slugs** (disambiguation, not model error) → **FIXED**: `stage4-pass1-extra-tables.py` now passes `slug_category` so the title-person rung fires (lord-tywin→tywin-lannister) + endpoint blocklist (bastard/dog/four-storms/hunt) → pass1_events **16,572→16,502 clean rows** (backup `_extra-tables.pre-slugfix-20260527/`). Runner BUILT + HARDENED: `scripts/stage4-tail-classifier.py` gained `--sleep-between` (chunked, stop-file-aware) + `--validate-every`/`--reject-rate-floor` (drift-halt exit 43); wrapper `scripts/stage4-events-bulk-run.sh` (paced auto-resume, `sleep_with_stop_check`, SIGINT-terminal, MAX_ITER, stop-file). **1072 tests green.** Comparison report: `working/session-results/2026-05-27-haiku-vs-sonnet-events.md`. Runbook: `working/runbooks/stage4-events-haiku-bulk.md`. NOT merged into `edges.jsonl` (separate gated milestone).
+- [~] Events edge enrichment (Stage 4) — **LAUNCHED + MONITORED HEALTHY (Session 78, 2026-05-28; launched S77).** As of 2026-05-28 10:26: **batch 92/411 (319 left), $11.34 spent (~$50 proj), ~2.7 days @ 600s pacing, 389 edges** (AGOT/ACOK; later books book-ordered, not yet reached). Validate@25/50/75 reject_rate ~0.90 unresolved=0 (no walls, no drift); first-flush human read ~93–96% strict. NOT merged into `edges.jsonl` (gated). Monitor log: `working/session-results/2026-05-27-events-haiku-bulk-monitor-log.md`. Haiku-vs-Sonnet comparison done on the SAME rows (AGOT 600 + ACOK 600 out-of-sample): **Haiku ~85% / ~90% strict** (vs Sonnet's 82-86%), 0 walls, ~$1.8/run → **DECISION: Haiku** for the full run (fresh all-Haiku, single provenance; Sonnet partial `_events-run-20260527/` superseded). Residual errors were **bad candidate slugs** (disambiguation, not model error) → **FIXED**: `stage4-pass1-extra-tables.py` now passes `slug_category` so the title-person rung fires (lord-tywin→tywin-lannister) + endpoint blocklist (bastard/dog/four-storms/hunt) → pass1_events **16,572→16,502 clean rows** (backup `_extra-tables.pre-slugfix-20260527/`). Runner BUILT + HARDENED: `scripts/stage4-tail-classifier.py` gained `--sleep-between` (chunked, stop-file-aware) + `--validate-every`/`--reject-rate-floor` (drift-halt exit 43); wrapper `scripts/stage4-events-bulk-run.sh` (paced auto-resume, `sleep_with_stop_check`, SIGINT-terminal, MAX_ITER, stop-file). **1072 tests green.** Comparison report: `working/session-results/2026-05-27-haiku-vs-sonnet-events.md`. Runbook: `working/runbooks/stage4-events-haiku-bulk.md`. NOT merged into `edges.jsonl` (separate gated milestone).
 - [ ] Convergence maps
 
 ### Reference Materials
@@ -226,6 +226,24 @@ This is your project memory. When you come back after a break, read Current Stat
 
 > Newest first. One entry per work session. **Strict 5-entry max** (CLAUDE.md rule #8): when a 6th lands, the oldest archives to `history/worklog-archives/archiveNNN.md`.
 
+### Session 78 — Events Haiku bulk: monitor checkpoints (healthy) + continue-prompt refresh (2026-05-28)
+
+**Model:** Opus 4.7 (orchestrator; read + light doc-writes). **Detail:** none (pure monitoring/admin session). **Commit:** this endsession commit.
+
+**Changes made (no code, no graph — 2 doc writes + worklog):**
+- NEW `working/session-results/2026-05-27-events-haiku-bulk-monitor-log.md` — durable checkpoint log (baseline for the completion read).
+- REFRESHED `progress/continue-prompts/2026-05-27-events-haiku-bulk-monitor.md` — current state baked in; **relaxed the read-only framing per Matt ("it can write if it needs to"; only `edges.jsonl` is gated).**
+- Worklog Current State Events line → LAUNCHED + MONITORED HEALTHY.
+
+**Monitoring (read-only on the in-flight run — never touched it):**
+- Run alive (PIDs 65068/65078), 600s pacing. Matt relaunched the temp-1800s start at 600s himself → the worklog "lower sleep before travel" action item is already done.
+- First-flush human precision read (58 edges): **~93–96% strict**; 2 clear + 2 borderline errors, all candidate-slug / over-eager-moment class (`bran TEACHES joseth-maester`, `robb FEARS sansa`, `jaime RESCUES bran`, `bran LOCATED_AT winterfell`), NOT vocab drift. Schema clean (`typed_by=haiku`, 0 ASSAULTS).
+- Automated validate@25/50/75 all OK (reject_rate ~0.90, unresolved=0; no walls, no drift).
+
+**Decisions:** (1) **Pacing is NOT a cost lever** — 600s spreads the SAME ~$50 token spend over ~3 days; it's a weekly-usage-rate lever (splits spend across weeks). Total Haiku run ~$50 vs Sonnet's ~$270 for the same rows. (2) Next session **MAY write** (Matt) — only `edges.jsonl` modification stays gated on before/after sign-off.
+
+**What's next:** Run self-driving (~2.7 days; exit-43 drift halt guards it). → `progress/continue-prompts/2026-05-27-events-haiku-bulk-monitor.md` (**Opus 4.7**): owed = completion read + slug long-tail triage + MERGE into `edges.jsonl` (gated). Still gated on Matt: 3 core-cleanups (drop 2 `cersei↔tyrion` LOVES / ~22 `ASSAULTS`→`ATTACKS` / merge-time `OWNS→BONDED_TO`).
+
 ### Session 77 — Events: model DECIDED (Haiku), candidate slug-fix, paced runner built+hardened, bulk LAUNCHED (2026-05-27)
 
 **Model:** Opus 4.7 (orchestrator) + script-builder (Sonnet 4.6) ×3. **Detail:** `history/session-details/session-077.md`. **Commit:** this endsession commit.
@@ -283,27 +301,9 @@ This is your project memory. When you come back after a break, read Current Stat
 
 **What's next:** → `progress/continue-prompts/2026-05-26-graph-exercise-followups.md` (**Sonnet 4.6** builds; Opus review). (1) $0 **conflict-pair audit** — flag pairs with incompatible edge types as a precision-cleanup queue (attacks the ~22%). (2) Formalize the ad-hoc traversal into reusable `scripts/graph-query.py`. (3) Deferred: temporal/chapter scoping on edges; SIBLING_OF-class weak-evidence backfill. Spend: ~$2.5.
 
-### Session 73 — Cleanup-and-reorg triage: worktrees removed, CLAUDE.md #9 finding, scripts KEPT (2026-05-26)
-
-**Model:** Opus 4.7. **Detail:** `history/session-details/session-073.md`. **Commit:** this endsession commit.
-
-**The session:** `/continue cleanup-and-reorg` — became a triage/decision session; most of the "reorg" dissolved on inspection.
-
-**Changes made:**
-- Removed both leftover worktrees (`.claude/worktrees/{admiring-benz-fa26f8, mystifying-burnell-56ee9c}`, clean) + deleted the 2 fully-merged `claude/*` branches (reversible). `.claude/worktrees/` empty.
-- Fixed the stale "gitignored" claim in `progress/continue-prompts/2026-05-26-cleanup-and-reorg.md` (corrected to the tracked-files reality below).
-- Scratch files untouched (Matt: "ignore scratch files"). Memory: `project_pass1_all_opus` (Pass 1 = all Opus, Matt-confirmed; not derivable from extraction files).
-
-**Decisions:**
-- **Scripts folderization DEFERRED indefinitely** — cosmetic, high-risk: `stage4-*`↔`wiki-pass2-*` cross-import via hardcoded `_REPO/"scripts"/"<name>"` paths (4 bridges), and `tests/_helpers.py:load_script` loads by flat filename (~30 call-sites). Nothing's broken; payoff is navigational only.
-- **27 comention / wiki-prose-edge scripts KEPT (do NOT re-propose archiving)** — they implement the pre-S65 wiki-comention approach (**superseded, not dead**) + one-off per-house classifiers + Haiku-bulk apparatus; inert but a plausible **future recall lever** (~9% prose-only relationships, S68 recall-sample). The only driver for archiving was "cleanup" → not enough.
-- **CLAUDE.md #9 finding:** the continue prompt said `pass2-buckets/` is gitignored. Reality = **23,081 TRACKED files**, incl. **7,180 stale `skeleton/*.node.md`** (~28 MB, S72-verified redundant with `graph/nodes/`). Only `pass1-derived/` is gitignored. **Skeleton-untrack DEFERRED to its own decision** (entangled — ~24 `wiki-pass2-*` promotion scripts read `skeleton/`).
-- **Edge state confirmed for Matt:** 3,811 promoted (v1.3 frozen); 5,886 core candidates worked through; **27,305** extra-table candidates held at the ~$270 / ≥80%-precision spend gate (smokes ~62-66%). Strategy (deterministic spine to minimize Haiku work + validation stack + prompt hardening) confirmed correct.
-
-**What's next:** → **edge enrichment gate-opener** = the $0 deterministic **locator quote-grounding fix** → ~$1.4 re-smoke; if ≥~75% across 2 fresh samples, enrichment unlocks, else ship core-only. Continue: `progress/continue-prompts/2026-05-25-stage4-locator-grounding.md` (**Sonnet 4.6** build/smoke; Opus review only). **NOTE both stage4 continue prompts say edges=3,842 — STALE; it's 3,811 v1.3 after S72.** Downstream framework: `2026-05-25-stage4-enrichment-decision.md` (A/B/C). Deferred levers: skeleton-untrack; S67 resolver recall levers (`2026-05-23-stage4-pass1-finishing.md`).
-
 ---
 
+> Session 73 archived to `history/worklog-archives/archive016.md` (archive016 started — 1/5)
 > Session 72 archived to `history/worklog-archives/archive015.md` (archive015 now full at 5/5)
 > Session 71 archived to `history/worklog-archives/archive015.md` (archive015 now 4/5)
 > Session 70 archived to `history/worklog-archives/archive015.md` (archive015 now 3/5)
