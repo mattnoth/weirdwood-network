@@ -31,5 +31,11 @@ Bar (Matt's S77 calibration): EDGE CORRECTNESS — flag only when the cited evid
 - **25 random AGOT rejects judged: ~0 clear missed edges; ~4 borderline** (`aggo→daenerys` protect, `bowen-marsh→nights-watch` member, `bronn→tyrion` serve, `ogo→lhazareen` sack) — each already captured from a cleaner row OR a group/bad slug (`lhazareen`/`tyroshi`/`royal-fleet`, which *should* be rejected). Large share of rejects = `SIBLING_OF`/`SPOUSE_OF`/`PARENT_OF` duplicates whose edge already exists.
 - **Estimated unique-edge recall loss < ~15%** — acceptable per the Haiku trade. The completion read must repeat this check (now a required validation step in the continue prompt).
 
+## Checkpoint 2.5 — sleep lowered 240→120 + parse-error diagnosis (Session 79, 2026-05-28 ~20:16 CDT)
+- Matt re-launched the run himself in iTerm (at 240s), then asked to lower to **120s** for the unattended phase before travel. Stopped the 240s run cleanly (`touch /tmp/stage4-stop` → exit 130) and relaunched at 120s. **Resume verified:** skipped 5,239 done rows → 11,263 remaining / 282 batches, same `v5-precision-rules` sha `d31ca56c4768`. Genuine resume, not restart.
+- **Parse-error diagnosis** (the `[batch N] Parse error: JSON parse error: Expecting value: line 1 column 1 (char 0)` Matt saw): Haiku returned non-JSON for that batch; `parse_batch_response` (`stage4-tail-classifier.py:645`) `json.loads()` on a `result` text that doesn't start with a JSON value → whole-batch all-or-nothing fail (`:1185`) → 40 rows to `*.classify_failed.jsonl`. **Rare** (2 parse errors in ~700 batches across both runs) but **recurs**: `classify_failed` is NOT a skip-key (only `edges`+`rejected` are), so the same ~40 acok rows (joffrey↔mandon-moore etc.) get re-fed as batch 1 each run and fail again. Non-fatal, non-degrading (batches 2+ all `failed=0`). Logged as a one-line-fix todo in `working/todos.md` (Stage 4 section). NOT fixed live.
+- Pacing note: 120s spreads the SAME ~$50 token spend over fewer days vs 600s — usage-rate lever, not a cost lever.
+- **Verdict: HEALTHY. Run self-driving at 120s; no action beyond the owed completion read.**
+
 ## Checkpoint 3 — completion
 - _pending — must include BOTH a ~25-emit precision read AND a ~25-reject recall read (expect recall loss < ~15%)._

@@ -3,13 +3,13 @@
 > **Recommended model:** **Opus 4.7** — the work is judgment (precision spot-reads, drift interpretation, the merge/formalize decision + the 3 gated core-cleanups). Deterministic sub-steps (dedup, validators) can go to script-builder/Sonnet. **The session MAY write** (update the monitor log, fix scripts, stage merge artifacts, write progress notes) — it is NOT restricted to read-only (Matt, 2026-05-28). The ONE hard gate: never modify `graph/edges/edges.jsonl` without Matt's before/after sign-off.
 >
 > **Trust `worklog.md` over this prompt if they disagree** (CLAUDE.md #9).
-> **REFRESHED 2026-05-28 10:26 CDT** (orig written Session 77, 2026-05-27). State below is current as of the refresh.
+> **REFRESHED 2026-05-28 20:16 CDT (Session 79)** — sleep lowered 240→**120s** for the unattended phase; parse-error loose end documented. (orig written Session 77; prior refresh 2026-05-28 10:26.)
 
-## What's running (started by Matt in his iTerm, Session 77)
+## What's running (started by Matt in his iTerm, Session 77; relaunched at 120s Session 79)
 - **Fresh all-Haiku** typing pass over the **16,502 cleaned `pass1_events`** candidate rows (`working/wiki/pass2-buckets/pass1-derived/_extra-tables/`, `candidate_kind=pass1_events`).
-- Command (the relaunch Matt is actually running — note 600s, not the worklog's temp-1800s):
+- Command (the relaunch Matt is actually running — now **120s**, lowered from 240/600 for the unattended finish):
   ```
-  STAGE4_OUT=.../_events-haiku-bulk STAGE4_SLEEP_BETWEEN=600 STAGE4_VALIDATE_EVERY=25 \
+  STAGE4_OUT=.../_events-haiku-bulk STAGE4_SLEEP_BETWEEN=120 STAGE4_VALIDATE_EVERY=25 \
   bash scripts/stage4-events-bulk-run.sh
   ```
 - Output: `working/wiki/pass2-buckets/pass1-derived/_events-haiku-bulk/` (gitignored). Log: `…/_events-haiku-bulk/run.log`. PIDs at refresh: 65068 (wrapper) / 65078 (classifier).
@@ -34,7 +34,8 @@
 1. **Read `run.log`.** Healthy: each batch ~90% reject, ~$0.10–0.14, then `sleeping 600s before next batch...`. `[validate@batch N: … reject_rate=.. OK]` prints every 25.
 2. **Remaining precision spot-read owed at completion** (the batch-5 + 25/50/75 reads are done — see above). Optional mid-run re-read fine but not required. Method: `python3` over `_events-haiku-bulk/**/*.edges.jsonl`; check `edge_type` vs `evidence_quote`. **Bar = EDGE CORRECTNESS** (is the relationship right?) — do NOT down-flag for a less-than-verbatim quote (Matt's S77 calibration).
 3. **If you see `DRIFT HALT (exit 43)`** in the log: the run stopped itself (reject-rate <0.70 or schema break). Inspect `_events-haiku-bulk/` + the run.log validate line; diagnose before any resume.
-4. **Sleep change (only if Matt asks):** stop (`touch /tmp/stage4-stop`), wait for clean exit, relaunch SAME command with new `STAGE4_SLEEP_BETWEEN` and the **same `STAGE4_OUT`**. NOTE pacing spreads the SAME token spend over more days — it is NOT a cost lever, only a weekly-usage-rate lever.
+4. **Sleep change (only if Matt asks):** stop (`touch /tmp/stage4-stop`), wait for clean exit, relaunch SAME command with new `STAGE4_SLEEP_BETWEEN` and the **same `STAGE4_OUT`**. NOTE pacing spreads the SAME token spend over more days — it is NOT a cost lever, only a weekly-usage-rate lever. (`setsid` is NOT on macOS — use `nohup` or iTerm for a detached launch.)
+5. **KNOWN loose end — recurring parse-fail batch (S79, non-fatal, do NOT panic):** ~once per run a 40-row batch logs `Parse error: JSON parse error: Expecting value: line 1 column 1 (char 0)` and reports `failed=40`. Cause: Haiku returned non-JSON for that batch → whole-batch all-or-nothing fail → 40 rows to `*.classify_failed.jsonl`. Because `classify_failed` is NOT a skip-key (only `edges`+`rejected` are), the same ~40 acok rows (joffrey↔mandon-moore etc.) get re-fed as batch 1 every run and fail again. It does NOT block or degrade the run (batches 2+ are `failed=0`). The one-line fix (make `classify_failed` a skip-key OR add a one-shot batch retry) is queued in `working/todos.md` Stage 4 section — apply it whenever, or just let those ~40 rows stay unresolved.
 
 ## Your job — on COMPLETION (run.log shows the wrapper "finished" with all 411 batches done)
 1. **Full validation (BOTH sides — precision AND recall):**
