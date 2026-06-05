@@ -99,6 +99,9 @@ sleep_with_stop_check() {
 # ---------------------------------------------------------------------------
 # Count remaining work: candidates minus done-keys (emit + rejected).
 # Returns the count on stdout; prints nothing on error (returns 0).
+#
+# Both sides are counted as unique (source_slug, target_slug, evidence_chapter)
+# keys so that duplicate input rows don't show as phantom "remaining" work.
 # ---------------------------------------------------------------------------
 count_remaining() {
   python3 - <<'PYEOF' "$INPUT_DIR" "$OUT" 2>/dev/null || echo "0"
@@ -109,8 +112,11 @@ input_dir = Path(sys.argv[1])
 out_dir = Path(sys.argv[2])
 books = ["agot", "acok", "asos", "affc", "adwd"]
 
-# Count total candidates (pass1_events, edge_type=null)
-total = 0
+def key_of(r):
+    return (r.get("source_slug",""), r.get("target_slug",""), r.get("evidence_chapter",""))
+
+# Count total candidate KEYS (pass1_events, edge_type=null)
+total_keys = set()
 for book in books:
     bd = input_dir / book
     if not bd.exists():
@@ -123,12 +129,12 @@ for book in books:
             try:
                 r = json.loads(line)
                 if r.get("edge_type") is None and r.get("candidate_kind") == "pass1_events":
-                    total += 1
+                    total_keys.add(key_of(r))
             except Exception:
                 pass
 
-# Count done keys from edges + rejected outputs
-done = set()
+# Count done KEYS from edges + rejected outputs
+done_keys = set()
 for book in books:
     bd = out_dir / book
     if not bd.exists():
@@ -141,12 +147,11 @@ for book in books:
                     continue
                 try:
                     r = json.loads(line)
-                    key = (r.get("source_slug",""), r.get("target_slug",""), r.get("evidence_chapter",""))
-                    done.add(key)
+                    done_keys.add(key_of(r))
                 except Exception:
                     pass
 
-remaining = max(0, total - len(done))
+remaining = max(0, len(total_keys) - len(done_keys))
 print(remaining)
 PYEOF
 }
