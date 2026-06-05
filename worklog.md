@@ -226,7 +226,7 @@ This is your project memory. When you come back after a break, read Current Stat
 
 ### Session 82 — Edge/event modeling: cleanroom decision doc + two-way synthesis (2026-06-04)
 
-**Model:** Opus 4.7 (orchestrator + cleanroom analyst). **Detail:** none (analysis session; recommendation pending Matt's call). **Commit:** this endsession commit.
+**Model:** Opus 4.7 (orchestrator + cleanroom analyst). **Detail:** `history/session-details/session-082.md`. **Commit:** `2d971c1c9` (S82 + bundled S80/S81 backlog) + this endsession commit (continue prompt + session-details + todos linkage).
 
 **Changes made (analysis artifacts; no code, no graph, all untracked at repo root):**
 - NEW `EDGE_INVENTORY_REPORT.md` (281KB) — full inventory of current edge-modeling state; input to the analysis.
@@ -240,7 +240,7 @@ This is your project memory. When you come back after a break, read Current Stat
 
 **Decisions:** None binding yet — analysis-only. The Events Haiku v2.0 promotion chain (S81's open question) is now coupled to this decision: the cleanroom lens reshapes which Haiku rows promote vs. hold vs. drop.
 
-**What's next:** Matt's call on the recommendation. If yes → new continue prompt that supersedes `progress/continue-prompts/2026-06-01-events-bulk-escalation-pick.md` (the S81 free A-E pick is now informed by cleanroom synthesis). If redirect / no → the inventory + decision docs remain durable reference artifacts regardless. Still gated on Matt: 3 core-cleanups carrying since S77 (drop 2 `cersei↔tyrion` LOVES; ~22 `ASSAULTS`→`ATTACKS`; merge-time `OWNS→BONDED_TO`).
+**What's next:** → `progress/continue-prompts/2026-06-04-edge-modeling-cleanroom-execution.md` (**Opus 4.7**) — verification + planning prep, four execution plates (A-doc / A-schema / B-backfill / A-pick) to Matt as approve/hold/reject. No spend, no execution. **Partially supersedes** `2026-06-01-events-bulk-escalation-pick.md` (the S81 A-E choice is no longer free under the cleanroom lens). If Matt approves any plate → mechanical work follows on Sonnet 4.6. Still gated on Matt: 3 core-cleanups carrying since S77 (drop 2 `cersei↔tyrion` LOVES; ~22 `ASSAULTS`→`ATTACKS`; merge-time `OWNS→BONDED_TO`).
 
 ### Session 81 — Events Haiku bulk drift audit → NO-GO (borderline); fresh-eyes corrected the framing (2026-05-31 → 2026-06-01)
 
