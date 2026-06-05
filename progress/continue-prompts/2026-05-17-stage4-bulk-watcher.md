@@ -11,7 +11,7 @@
 
 You are checking on the Stage 4 v1 prose-edge classifier bulk run for the Weirwood Network (ASOIAF knowledge graph). One worker terminal is running, processing 5-file batches from a 1,089-batch manifest, with a 270-second sleep between batches.
 
-**The terminal runs `scripts/stage4-run-forever.sh` (new 2026-05-17), not `stage4.sh run` directly.** The wrapper auto-resumes after rate-limit walls by sleeping until reset + 60s buffer, then re-launching the worker. It only exits when (a) `/tmp/stage4-stop` exists or (b) the manifest has 0 queued batches. This is the unattended-overnight mode.
+**The terminal runs `scripts/stage4-run-forever.sh` (new 2026-05-17), not `stage4.sh run` directly.** The wrapper auto-resumes after rate-limit walls by sleeping until reset + 60s buffer, then re-launching the worker. It only exits when (a) `$HOME/source/claude-cwd/tmp/stage4-stop` exists or (b) the manifest has 0 queued batches. This is the unattended-overnight mode.
 
 The mission directory is `working/missions/2026-05-14-stage4-v1-bulk-sonnet/`. The worker prompt is `.claude/commands/worker-stage4.md`. Base launch script is `scripts/stage4.sh`. Forever-wrapper is `scripts/stage4-run-forever.sh`.
 
@@ -76,7 +76,7 @@ print(f'{count} file_done events in last hour across {len(batches)} batches')
 
 Symptoms: `ps` shows neither `stage4-run-forever.sh` nor `stage4.sh run`. Latest run-log hasn't been written to in >30 min.
 
-Action: Check if the wrapper exited cleanly (mission complete OR `/tmp/stage4-stop` set). If neither — investigate the iTerm tab (Matt may have closed it). Relaunch:
+Action: Check if the wrapper exited cleanly (mission complete OR `$HOME/source/claude-cwd/tmp/stage4-stop` set). If neither — investigate the iTerm tab (Matt may have closed it). Relaunch:
 
 ```bash
 osascript <<'EOF'
@@ -139,7 +139,7 @@ The Write-tool-based lock is not fully atomic when multiple workers race. The 20
 ### Stop the worker gracefully
 
 ```bash
-weirwood stage4 stop   # touches /tmp/stage4-stop
+weirwood stage4 stop   # touches $HOME/source/claude-cwd/tmp/stage4-stop
 # Wrapper checks the stop file every iteration AND after rate-limit pre-sleeps.
 # Worker exits cleanly at top of next inner loop iteration (after current batch).
 # Wrapper exits cleanly on its next loop check.

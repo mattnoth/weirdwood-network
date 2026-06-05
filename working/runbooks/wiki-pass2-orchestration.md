@@ -173,7 +173,7 @@ The extraction pipeline's concurrency is:
 - Multiple iTerm tabs (parallelism unit = terminal).
 - Each tab runs `claude -p --dangerously-skip-permissions` once per chapter, sequentially, in a "wave" of 5.
 - Cross-tab coordination via filesystem (`is_complete` check), not IPC.
-- Soft-stop via `/tmp/extraction-stop` marker.
+- Soft-stop via `$HOME/source/claude-cwd/tmp/extraction-stop` marker.
 - Per-book stats CSV per pass-version.
 
 **Pass 2 inherits all of this.** A "wave" for wiki = a sequence of buckets a single tab processes. A "chapter" for wiki = a bucket (not an individual page — see §1.3 rationale). The launcher script is `scripts/wiki-pass2.sh` (sibling to `extract.sh`), exposed via a `wiki` subcommand on the existing `weirwood` zsh function (not a separate binary).
@@ -456,7 +456,7 @@ If a future Pass 2 v2 ships, two new lines (`Wiki Pass 2 v2 — core …`) get s
 
 ### 5.3 Soft-stop
 
-Identical to extraction: `/tmp/wiki-pass2-stop` (distinct from extraction's stop file so the two can coexist). Tabs check between buckets, not mid-bucket. Marker cleared automatically on next launch.
+Identical to extraction: `$HOME/source/claude-cwd/tmp/wiki-pass2-stop` (distinct from extraction's stop file so the two can coexist). Tabs check between buckets, not mid-bucket. Marker cleared automatically on next launch.
 
 ### 5.4 Re-run semantics
 
@@ -538,7 +538,7 @@ Pass 2 is meant to run unattended for long stretches. The orchestration must gua
 - **No destructive re-run.** A re-launch never deletes prior nodes, prior manifests, prior stats, or prior failure logs. "Reset" is an explicit, separate command — never the default of any launcher subcommand.
 - **No partial output on disk.** The validator gate from §3.1 is the only path from `tmp/` to `graph/nodes/`. A killed process leaves files in `tmp/` (recoverable) but never half-validated nodes in the graph proper.
 - **All decisions traced.** Every node carries `wiki_source`, `bucket_id`, and `prompt_version` in frontmatter. A user reading any node six months later can reproduce its lineage.
-- **Session-killable mid-run.** Soft-stop (`/tmp/wiki-pass2-stop`) plus the per-bucket atomicity above means a `weirwood wiki stop` followed by closing the laptop loses at most one bucket's in-flight `tmp/` content (which is auto-discarded next launch via fingerprint mismatch).
+- **Session-killable mid-run.** Soft-stop (`$HOME/source/claude-cwd/tmp/wiki-pass2-stop`) plus the per-bucket atomicity above means a `weirwood wiki stop` followed by closing the laptop loses at most one bucket's in-flight `tmp/` content (which is auto-discarded next launch via fingerprint mismatch).
 
 **Question queue for async sessions:**
 
@@ -699,7 +699,7 @@ The shell entry point stays `weirwood`. Wiki Pass 2 is a subcommand on the same 
 |------------------------------|-------------------------------|
 | `weirwood agot 2 3` | `weirwood wiki core 2 3` |
 | `weirwood acok` (status) | `weirwood wiki core` (status) |
-| `weirwood stop` | `weirwood wiki stop` (separate stop file `/tmp/wiki-pass2-stop`) |
+| `weirwood stop` | `weirwood wiki stop` (separate stop file `$HOME/source/claude-cwd/tmp/wiki-pass2-stop`) |
 | `extract.sh status agot` | `wiki-pass2.sh status core` |
 | `extract.sh run agot --wave 4` | `wiki-pass2.sh run core --wave 4` |
 | `is_complete()` (line count + section grep) | `is_bucket_complete()` (manifest fingerprint + node files exist + validator pass) |

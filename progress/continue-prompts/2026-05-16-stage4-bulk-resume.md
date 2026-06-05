@@ -19,7 +19,7 @@ This is **Path 1** from Matt's decision (keep firing, accept baseline, build pos
 - Mission: `2026-05-14-stage4-v1-bulk-sonnet`
 - Mission dir: `working/missions/2026-05-14-stage4-v1-bulk-sonnet/`
 - Manifest: **21 done / 180 queued** (all 180 are tier-1 source_target, except a few tier-2/3/4 comention + pass1 batches at the end of the queue)
-- Worker NOT running. Stop file `/tmp/stage4-stop` is removed. Locks dir is empty.
+- Worker NOT running. Stop file `$HOME/source/claude-cwd/tmp/stage4-stop` is removed. Locks dir is empty.
 - Recent batches under the strengthened prompt: 0019/0020/0021 all CLEAN per validator, with KNOWS soft-fallback observed in 0020 (Frey-t-z bucket). See `working/session-results/2026-05-16-stage4-bulk-run-checkpoint.md` for the full per-batch table.
 
 ## What to do

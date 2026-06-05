@@ -5,14 +5,14 @@
 #   - Loops calling stage4-haiku-loop.sh
 #   - If the inner loop exits non-zero (crash, terminal disconnect, etc.), sleeps
 #     RELAUNCH_SLEEP seconds and re-launches
-#   - Stops cleanly when /tmp/stage4-haiku-stop exists
+#   - Stops cleanly when $HOME/source/claude-cwd/tmp/stage4-haiku-stop exists
 #
 # Usage:
 #   bash scripts/stage4-haiku-run-forever.sh                # start at batch-0001
 #   bash scripts/stage4-haiku-run-forever.sh batch-0050     # resume at batch-0050
 #
 # Stop:
-#   touch /tmp/stage4-haiku-stop  (will propagate through inner loop)
+#   touch $HOME/source/claude-cwd/tmp/stage4-haiku-stop  (will propagate through inner loop)
 #
 # Env (forwarded to inner loop via bash env inheritance):
 #   STAGE4_HAIKU_SLEEP_BETWEEN, STAGE4_HAIKU_CONCURRENCY,
@@ -27,7 +27,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 cd "$REPO_ROOT"
 
-STOP_FILE="/tmp/stage4-haiku-stop"
+STOP_FILE="$HOME/source/claude-cwd/tmp/stage4-haiku-stop"
 RELAUNCH_SLEEP="${STAGE4_HAIKU_RELAUNCH_SLEEP:-600}"
 START_BATCH="${1:-batch-0001}"
 WRAPPER_LOG_DIR="working/missions/2026-05-19-stage4-haiku/loop-logs"

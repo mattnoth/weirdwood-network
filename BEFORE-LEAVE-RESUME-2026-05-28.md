@@ -21,7 +21,7 @@ bash /Users/mnoth/source/asoiaf-chat/scripts/stage4-events-bulk-run.sh
 ```
 Run this from your iTerm in `/Users/mnoth/source/asoiaf-chat`. At 300s pacing the remaining ~290 batches finish in roughly a day.
 
-**To stop again later:** `touch /tmp/stage4-stop` (stops cleanly within ~1 batch + 60s; resume with the same command).
+**To stop again later:** `touch $HOME/source/claude-cwd/tmp/stage4-stop` (stops cleanly within ~1 batch + 60s; resume with the same command).
 
 ## When it finishes (owed work — gated on you for the merge)
 1. **Precision read** (~25 emits) + **reject-recall check** (~25 random rejects; expect <~15% unique-edge recall loss).

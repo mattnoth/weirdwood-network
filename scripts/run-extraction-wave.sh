@@ -21,8 +21,8 @@
 #
 # Outputs:
 #   extractions/mechanical/<book>/{chapter}.extraction.md  — the extraction
-#   /tmp/extraction-{chapter}.log                          — claude stdout (text)
-#   /tmp/extraction-{chapter}.json                         — full stream-json (token usage)
+#   $HOME/source/claude-cwd/tmp/extraction-{chapter}.log                          — claude stdout (text)
+#   $HOME/source/claude-cwd/tmp/extraction-{chapter}.json                         — full stream-json (token usage)
 #   working/extraction-stats.csv                           — per-chapter timing & token log
 
 set -euo pipefail
@@ -134,8 +134,8 @@ for ch in "${WAVE_CHAPTERS[@]}"; do
     fi
   fi
 
-  LOGFILE="/tmp/extraction-${ch}.log"
-  JSONFILE="/tmp/extraction-${ch}.json"
+  LOGFILE="$HOME/source/claude-cwd/tmp/extraction-${ch}.log"
+  JSONFILE="$HOME/source/claude-cwd/tmp/extraction-${ch}.json"
   CH_START=$(date +%s)
   CH_START_FMT=$(date '+%Y-%m-%d %H:%M:%S')
   echo "--- Extracting: $ch ---"

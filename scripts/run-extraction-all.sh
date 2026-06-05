@@ -18,8 +18,8 @@
 #
 # Outputs:
 #   extractions/mechanical/{book}/{chapter}.extraction.md  — the extraction
-#   /tmp/extraction-{chapter}.log                          — claude stdout (text)
-#   /tmp/extraction-{chapter}.json                         — full stream-json (token usage)
+#   $HOME/source/claude-cwd/tmp/extraction-{chapter}.log                          — claude stdout (text)
+#   $HOME/source/claude-cwd/tmp/extraction-{chapter}.json                         — full stream-json (token usage)
 #   working/extraction-stats.csv                           — per-chapter timing & token log
 #   working/progress.md                                    — appended wave summaries
 
@@ -255,14 +255,14 @@ fi
 # We use a simple semaphore: a temp directory where each running job drops a
 # lock file named after its PID. The main loop waits when the slot count is full.
 
-JOB_DIR=$(mktemp -d /tmp/extraction-jobs-XXXXXX)
+JOB_DIR=$(mktemp -d $HOME/source/claude-cwd/tmp/extraction-jobs-XXXXXX)
 cleanup() {
   rm -rf "$JOB_DIR"
 }
 trap cleanup EXIT
 
 # Track per-job results via temp files so subshells can communicate to parent
-RESULT_DIR=$(mktemp -d /tmp/extraction-results-XXXXXX)
+RESULT_DIR=$(mktemp -d $HOME/source/claude-cwd/tmp/extraction-results-XXXXXX)
 trap 'rm -rf "$RESULT_DIR"' EXIT
 
 running_jobs() {
@@ -298,8 +298,8 @@ run_chapter() {
 
   local srcfile="${CHAPTER_DIR}/${ch}.md"
   local outfile="${EXTRACTION_DIR}/${ch}.extraction.md"
-  local logfile="/tmp/extraction-${ch}.log"
-  local jsonfile="/tmp/extraction-${ch}.json"
+  local logfile="$HOME/source/claude-cwd/tmp/extraction-${ch}.log"
+  local jsonfile="$HOME/source/claude-cwd/tmp/extraction-${ch}.json"
   local resultfile="${RESULT_DIR}/${ch}.result"
 
   local CH_START CH_START_FMT CH_END CH_END_FMT ELAPSED

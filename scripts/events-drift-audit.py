@@ -9,9 +9,10 @@ Method (Option B, decided in chain README):
   - Load 1,617 Haiku emits from `_events-haiku-bulk/{book}/*.edges.jsonl`.
   - Stratified sample of 50 rows (seed=531): proportional by book, ≥3 of each
     of TRAVELS_WITH / COMMANDS / TRAVELS_TO / LOCATED_AT / SERVES / REVEALS_TO.
-  - Re-classify each batch via `claude -p` with cwd=/tmp and Sonnet 4.6, using
-    the *exact* same prompt the Haiku bulk run used. Parity (not cost) is the
-    reason for cwd=/tmp + subprocess vs an Agent subagent — an Agent inherits
+  - Re-classify each batch via `claude -p` with cwd=~/source/claude-cwd and
+    Sonnet 4.6, using the *exact* same prompt the Haiku bulk run used. Parity
+    (not cost) is the reason for cwd-outside-repo + subprocess vs an Agent
+    subagent — an Agent inherits
     ~28k tokens of CLAUDE.md plus tools Haiku never had, contaminating the audit.
   - Compute triple-level / pair-level / per-type agreement; surface ≥5-sample
     types under 50%.
@@ -146,7 +147,7 @@ def build_metadata(judged_count: int, judged_cost: float) -> dict:
         "script_path": "scripts/events-drift-audit.py",
         "script_sha": script_sha(),
         "judge_model": JUDGE_MODEL,
-        "judge_cwd": "/tmp",
+        "judge_cwd": "/Users/mnoth/source/claude-cwd",
         "expected_prompt_sha": EXPECTED_PROMPT_SHA,
         "sample_seed": SAMPLE_SEED,
         "sample_n": SAMPLE_N,
@@ -249,7 +250,7 @@ def main() -> int:
 
     print()
     print("=" * 70)
-    print(f"APPLY: invoking `claude -p` model={JUDGE_MODEL} cwd=/tmp")
+    print(f"APPLY: invoking `claude -p` model={JUDGE_MODEL} cwd={TC.CLAUDE_P_CWD}")
     print(f"Chunk size: {args.chunk_size}; total batches: "
           f"{(len(sample) + args.chunk_size - 1) // args.chunk_size}")
     print("=" * 70)

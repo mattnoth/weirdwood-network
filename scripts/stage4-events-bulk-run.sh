@@ -16,7 +16,7 @@
 #   130 — SIGINT/SIGTERM or stop-file detected inside the classifier
 #   other non-zero — crash (sleep 300s and retry, up to MAX_CRASHES consecutive)
 #
-# Stop-file: touch /tmp/stage4-stop to stop cleanly between iterations.
+# Stop-file: touch $HOME/source/claude-cwd/tmp/stage4-stop to stop cleanly between iterations.
 # Ctrl-C (SIGINT) also stops cleanly and does NOT relaunch.
 #
 # Usage (one-liner for iTerm):
@@ -35,7 +35,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 cd "$REPO_ROOT"
 
-STOP_FILE="/tmp/stage4-stop"
+STOP_FILE="$HOME/source/claude-cwd/tmp/stage4-stop"
 SLEEP_BETWEEN="${STAGE4_SLEEP_BETWEEN:-600}"
 VALIDATE_EVERY="${STAGE4_VALIDATE_EVERY:-25}"
 WALL_SLEEP="${STAGE4_WALL_SLEEP:-3600}"

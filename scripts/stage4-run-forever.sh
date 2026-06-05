@@ -7,7 +7,7 @@
 #     this wrapper inspects next-eligible.txt + manifest, sleeps until reset if needed,
 #     and re-launches the worker.
 #   - Stops cleanly on:
-#       (a) /tmp/stage4-stop exists (manual soft-stop)
+#       (a) $HOME/source/claude-cwd/tmp/stage4-stop exists (manual soft-stop)
 #       (b) 0 queued batches in manifest (mission complete)
 #
 # Usage:
@@ -21,7 +21,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="${WEIRWOOD_PROJECT_DIR:-$(cd "$SCRIPT_DIR/.." && pwd)}"
 cd "$REPO_ROOT"
 
-STOP_FILE="/tmp/stage4-stop"
+STOP_FILE="$HOME/source/claude-cwd/tmp/stage4-stop"
 
 # Mission discovery — mirror stage4.sh logic.
 discover_mission_dir() {

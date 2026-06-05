@@ -8,7 +8,7 @@
 #        exactly where the previous run left off.
 #     2. Compute REMAINING = input rows (for the target candidate_kinds) minus
 #        rows already decided (typed OR rejected) in the output dir.
-#     3. Stop cleanly when: REMAINING==0, /tmp/stage4-tail-stop exists, or
+#     3. Stop cleanly when: REMAINING==0, $HOME/source/claude-cwd/tmp/stage4-tail-stop exists, or
 #        the max-iteration cap is reached (default 60).
 #     4. Otherwise sleep STAGE4_SLEEP_BETWEEN seconds (default 1800) and retry.
 #        If the classifier exited with the rate-limit code (42) OR two consecutive
@@ -30,7 +30,7 @@
 #   nohup bash scripts/stage4-tail-bulk-forever.sh >> working/wiki/data/smoke2-logs/enrich-haiku-forever.log 2>&1 &
 #
 #   # Soft-stop after the current iteration finishes:
-#   touch /tmp/stage4-tail-stop
+#   touch $HOME/source/claude-cwd/tmp/stage4-tail-stop
 #
 set -uo pipefail
 
@@ -57,7 +57,7 @@ LOG_FILE="${REPO}/working/wiki/data/smoke2-logs/enrich-haiku-forever.log"
 RATE_LIMIT_CODE=42
 
 # Soft-stop sentinel file
-STOP_SENTINEL="/tmp/stage4-tail-stop"
+STOP_SENTINEL="$HOME/source/claude-cwd/tmp/stage4-tail-stop"
 
 # ---------------------------------------------------------------------------
 # Helper: count total input rows for the target candidate_kinds

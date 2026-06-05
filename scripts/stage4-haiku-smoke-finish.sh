@@ -12,7 +12,7 @@ cd "$(dirname "${BASH_SOURCE[0]}")/.."
 MANIFEST=working/missions/2026-05-14-stage4-v1-bulk-sonnet/batch-manifest.jsonl
 STATE=working/missions/2026-05-14-stage4-v1-bulk-sonnet/state.jsonl
 WORKER=.claude/commands/worker-stage4.md
-COSTLOG=/tmp/haiku-smoke-costs.jsonl
+COSTLOG=$HOME/source/claude-cwd/tmp/haiku-smoke-costs.jsonl
 : > "$COSTLOG"
 
 smoke_status() {
@@ -55,11 +55,11 @@ for i in $(seq 1 15); do
 
   claude -p --dangerously-skip-permissions --model claude-haiku-4-5 \
     --verbose --output-format stream-json \
-    "$(cat "$WORKER")" > "/tmp/haiku-smoke-iter-$i.jsonl" 2>&1
+    "$(cat "$WORKER")" > "$HOME/source/claude-cwd/tmp/haiku-smoke-iter-$i.jsonl" 2>&1
 
   python3 -c "
 import json
-for l in open('/tmp/haiku-smoke-iter-$i.jsonl'):
+for l in open('$HOME/source/claude-cwd/tmp/haiku-smoke-iter-$i.jsonl'):
     l=l.strip()
     if not l: continue
     try:

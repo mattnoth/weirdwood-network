@@ -85,7 +85,7 @@ If you need to halt mid-run:
 weirwood stop
 ```
 
-This creates a marker file (`/tmp/extraction-stop`) that the running terminal checks between waves. It never interrupts a wave mid-chapter — the current wave finishes, then the terminal sees the marker and exits.
+This creates a marker file (`$HOME/source/claude-cwd/tmp/extraction-stop`) that the running terminal checks between waves. It never interrupts a wave mid-chapter — the current wave finishes, then the terminal sees the marker and exits.
 
 **Important:** The next batch will NOT auto-launch if you use `weirwood stop`. You must manually relaunch:
 

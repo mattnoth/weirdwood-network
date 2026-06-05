@@ -94,13 +94,13 @@ Runs each chapter in the wave sequentially. Skips chapters that are already comp
 | `weirwood acok` | `extract.sh status acok` |
 | `weirwood acok 2 3` | `extract.sh launch acok -t 2 -w 3` |
 | `weirwood acok 2 3 claude-sonnet-4-6` | `extract.sh launch acok -t 2 -w 3 -m claude-sonnet-4-6` |
-| `weirwood stop` | `touch /tmp/extraction-stop` |
+| `weirwood stop` | `touch $HOME/source/claude-cwd/tmp/extraction-stop` |
 
 ---
 
 ## Soft Stop
 
-`weirwood stop` (or `touch /tmp/extraction-stop`) creates a marker file. Running terminals check for this file **between waves** — after one wave finishes and before the next starts.
+`weirwood stop` (or `touch $HOME/source/claude-cwd/tmp/extraction-stop`) creates a marker file. Running terminals check for this file **between waves** — after one wave finishes and before the next starts.
 
 **What it does:**
 - The current wave runs to completion (all 5 chapters finish)
@@ -113,11 +113,11 @@ Runs each chapter in the wave sequentially. Skips chapters that are already comp
 
 **Where to run it:**
 - Any terminal tab (doesn't need to be one running extractions)
-- Claude Code: `! weirwood stop` or `! touch /tmp/extraction-stop`
+- Claude Code: `! weirwood stop` or `! touch $HOME/source/claude-cwd/tmp/extraction-stop`
 
 **Cleanup:**
 - The stop file is automatically deleted when you `launch` again
-- Or manually: `rm /tmp/extraction-stop`
+- Or manually: `rm $HOME/source/claude-cwd/tmp/extraction-stop`
 
 ---
 
@@ -138,9 +138,9 @@ Incomplete or truncated extractions are flagged as "tarnished" and automatically
 | `extractions/mechanical/{book}/{chapter}.extraction.md` | The extraction output | `run` |
 | `working/extraction-stats.csv` | Per-chapter timing, tokens, cost | `run` |
 | `working/progress.md` | Wave summaries (appended) | `run` |
-| `/tmp/extraction-{chapter}.json` | Raw claude stream-json output | `run` |
-| `/tmp/extraction-{chapter}.log` | Readable text from claude output | `run` |
-| `/tmp/extraction-stop` | Soft stop marker | `stop` |
+| `$HOME/source/claude-cwd/tmp/extraction-{chapter}.json` | Raw claude stream-json output | `run` |
+| `$HOME/source/claude-cwd/tmp/extraction-{chapter}.log` | Readable text from claude output | `run` |
+| `$HOME/source/claude-cwd/tmp/extraction-stop` | Soft stop marker | `stop` |
 
 ---
 

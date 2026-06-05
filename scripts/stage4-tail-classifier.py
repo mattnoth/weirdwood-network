@@ -7,8 +7,9 @@ _tail/{book}/*.tail.jsonl with decision=needs_type.  This script asks an LLM
 to assign ONE locked-vocab edge type per row (or REJECT).
 
 Architecture:
-  - Every claude invocation uses `claude -p` subprocess, cwd=/tmp, so it does
-    NOT load this repo's CLAUDE.md (~28 k token cold-load avoided).
+  - Every claude invocation uses `claude -p` subprocess with cwd outside the
+    repo (~/source/claude-cwd), so it does NOT load this repo's CLAUDE.md
+    (~28 k token cold-load avoided).
   - Rows are batched (default 40 per call) to amortise per-call overhead.
   - Each row in the batch gets an explicit `idx` integer; the model MUST echo
     it in each output object.  Missing/extra/duplicate idx → classify_failed.
@@ -88,7 +89,7 @@ DEFAULT_PROMPT_VERSION = "v5-precision-rules"
 # Stop-file path: touch this to stop a running classifier cleanly.
 # The wrapper (stage4-events-bulk-run.sh) owns the file's lifecycle —
 # it does NOT remove it here; the wrapper removes it after the loop exits.
-STOP_FILE = "/tmp/stage4-stop"
+STOP_FILE = os.path.expanduser("~/source/claude-cwd/tmp/stage4-stop")
 
 # Exit code used by the forever-loop wrapper to distinguish "rate-limit wall"
 # (sleep and retry) from normal completion (0) or hard failure (1+).
@@ -543,11 +544,15 @@ def render_classify_prompt(
 
 
 # ---------------------------------------------------------------------------
-# claude -p subprocess invocation (cwd=/tmp to avoid CLAUDE.md load)
+# claude -p subprocess invocation (cwd outside repo to avoid CLAUDE.md load)
 # ---------------------------------------------------------------------------
 
+CLAUDE_P_CWD = "/Users/mnoth/source/claude-cwd"
+
+
 def invoke_claude(prompt: str, model: str) -> dict:
-    """Call `claude -p` from /tmp (avoids repo CLAUDE.md cold-load).
+    """Call `claude -p` from an empty dir outside the repo so the subprocess
+    does not cold-load this repo's CLAUDE.md (~49% cheaper).
 
     Returns dict with keys: returncode, raw_output, result_json,
     total_cost_usd, error_message.
@@ -566,7 +571,7 @@ def invoke_claude(prompt: str, model: str) -> dict:
         cmd,
         capture_output=True,
         text=True,
-        cwd="/tmp",   # CRITICAL: avoids loading this repo's CLAUDE.md
+        cwd=CLAUDE_P_CWD,   # CRITICAL: avoids loading this repo's CLAUDE.md
     )
     duration_s = round(time.monotonic() - t_start, 2)
 

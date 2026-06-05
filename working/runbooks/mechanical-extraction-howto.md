@@ -66,7 +66,7 @@ weirwood-mechanical --chain agot 4
 weirwood-mechanical --stop
 
 # Or equivalently:
-touch /tmp/extraction-stop
+touch $HOME/source/claude-cwd/tmp/extraction-stop
 ```
 
 ## Tuning the terminal count

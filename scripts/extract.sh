@@ -219,7 +219,7 @@ Race protection:
   automatically cleared on startup via extract-status-sweep.py.
 
 Soft stop:
-  'weirwood stop' (or 'touch /tmp/extraction-stop') creates a marker file.
+  'weirwood stop' (or 'touch $HOME/source/claude-cwd/tmp/extraction-stop') creates a marker file.
   Terminals check for it between waves. The current wave finishes normally,
   then the terminal exits instead of starting the next wave. Never interrupts
   mid-chapter. The marker is cleared automatically on the next launch.
@@ -470,8 +470,8 @@ cmd_run() {
 
     ch_idx=$(( ch_idx + 1 ))
 
-    local logfile="/tmp/extraction-${ch}.log"
-    local jsonfile="/tmp/extraction-${ch}.json"
+    local logfile="$HOME/source/claude-cwd/tmp/extraction-${ch}.log"
+    local jsonfile="$HOME/source/claude-cwd/tmp/extraction-${ch}.json"
     local ch_start ch_start_fmt
     ch_start=$(date +%s)
     ch_start_fmt=$(date '+%Y-%m-%d %H:%M:%S')
@@ -728,7 +728,7 @@ cmd_launch() {
   fi
 
   # Clear stale stop file
-  rm -f /tmp/extraction-stop
+  rm -f $HOME/source/claude-cwd/tmp/extraction-stop
 
   echo "${book^^}: ${#CHAPTERS[@]} chapters, ${TOTAL_WAVES} waves total, $available incomplete"
   echo "Launching $terminals terminals, $waves_per waves each"
@@ -756,7 +756,7 @@ cmd_launch() {
       cmd="./scripts/extract.sh run ${book} --wave ${term_waves[0]} --model ${model}"
     else
       cmd="for w in ${term_waves[*]}; do "
-      cmd+="if [[ -f /tmp/extraction-stop ]]; then echo 'Stop file detected — halting before wave '\$w; break; fi; "
+      cmd+="if [[ -f $HOME/source/claude-cwd/tmp/extraction-stop ]]; then echo 'Stop file detected — halting before wave '\$w; break; fi; "
       cmd+="./scripts/extract.sh run ${book} --wave \$w --model ${model}; "
       cmd+="done"
     fi

@@ -32,7 +32,7 @@
 #   it again later, it picks up from where it left off.
 #
 # Soft stop:
-#   'weirwood stop' creates a file (/tmp/extraction-stop) that terminals
+#   'weirwood stop' creates a file ($HOME/source/claude-cwd/tmp/extraction-stop) that terminals
 #   check between waves. It never interrupts a wave mid-chapter — the
 #   current wave finishes normally, then the terminal sees the stop file
 #   and exits instead of starting the next wave.
@@ -61,7 +61,7 @@ weirwood() {
       "$script" check
       ;;
     stop)
-      touch /tmp/extraction-stop
+      touch $HOME/source/claude-cwd/tmp/extraction-stop
       echo "Stop file created — terminals will halt after their current wave."
       ;;
 
@@ -146,7 +146,7 @@ weirwood() {
           bash "$stage4_script" status
           ;;
         stop)
-          touch /tmp/stage4-stop
+          touch $HOME/source/claude-cwd/tmp/stage4-stop
           echo "Stop file created — workers will halt after their current batch."
           ;;
         unstick)
@@ -223,7 +223,7 @@ weirwood() {
       echo "  Run it from any terminal, a third tab, or Claude Code (! weirwood stop)."
       echo "  The stop file is cleared automatically on the next launch."
       echo "  Note: 'weirwood wiki stop' and 'weirwood stage4 stop' each use SEPARATE"
-      echo "        stop files (/tmp/wiki-pass2-stop, /tmp/stage4-stop)."
+      echo "        stop files ($HOME/source/claude-cwd/tmp/wiki-pass2-stop, $HOME/source/claude-cwd/tmp/stage4-stop)."
       echo ""
       echo "Overview:"
       # Quick status across all books

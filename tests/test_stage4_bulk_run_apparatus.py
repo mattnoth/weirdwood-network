@@ -7,8 +7,8 @@ Piece 3: Stop-file awareness in --sleep-between (chunked sleep, mid-sleep stop,
 
 No real claude -p calls are made.  All subprocess invocations are mocked.
 No real sleeps are performed (time.sleep is patched where needed).
-No real /tmp/stage4-stop file is created — tests use a temp path via monkeypatching
-tc.STOP_FILE so a leftover /tmp/stage4-stop never affects other tests.
+No real ~/source/claude-cwd/tmp/stage4-stop file is created — tests use a temp path
+via monkeypatching tc.STOP_FILE so a leftover stop-file never affects other tests.
 
 Run: python3 -m unittest tests.test_stage4_bulk_run_apparatus -v
 """
@@ -724,7 +724,10 @@ class TestStopFileConstant(unittest.TestCase):
                         "tc.STOP_FILE constant must be defined")
 
     def test_stop_file_constant_value(self):
-        self.assertEqual(tc.STOP_FILE, "/tmp/stage4-stop")
+        self.assertEqual(
+            tc.STOP_FILE,
+            os.path.expanduser("~/source/claude-cwd/tmp/stage4-stop"),
+        )
 
     def test_stop_file_constant_is_string(self):
         self.assertIsInstance(tc.STOP_FILE, str)
@@ -737,7 +740,7 @@ class TestStopFileMidSleep(unittest.TestCase):
     def setUp(self):
         self._orig_out_base = tc.OUT_BASE
         self._orig_needs_qual = tc.OUT_NEEDS_QUAL_DIR
-        # Create a temp dir for the fake stop file so we never touch /tmp/stage4-stop.
+        # Create a temp dir for the fake stop file so we never touch the real stop-file path.
         self._tmp = tempfile.TemporaryDirectory()
         self._fake_stop = str(Path(self._tmp.name) / "stage4-stop")
         self._orig_stop_file = tc.STOP_FILE

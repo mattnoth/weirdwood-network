@@ -15,7 +15,7 @@ REPO_ROOT="${WEIRWOOD_PROJECT_DIR:-$(cd "$SCRIPT_DIR/.." && pwd)}"
 cd "$REPO_ROOT"
 
 MODEL="${STAGE4_MODEL:-claude-sonnet-4-6}"
-STOP_FILE="/tmp/stage4-stop"
+STOP_FILE="$HOME/source/claude-cwd/tmp/stage4-stop"
 WORKER_PROMPT="$REPO_ROOT/.claude/commands/worker-stage4.md"
 # Inter-batch sleep in seconds (throttle to share Max 5h cap with other Claude work).
 # Default 1200 = 20 min ("parallel-safe": Matt working alongside the bulk run).
@@ -325,7 +325,7 @@ print(count)
     _log "Queued batches remaining: $queued_count — starting Claude run"
 
     local tmp_json
-    tmp_json=$(mktemp /tmp/stage4-stream-XXXXXX)
+    tmp_json=$(mktemp $HOME/source/claude-cwd/tmp/stage4-stream-XXXXXX)
 
     local batch_start
     batch_start=$(date +%s)
@@ -574,7 +574,7 @@ cmd_unstick() {
 
   # Rewrite manifest: change status of matching batch_id to "queued"
   local tmp_manifest
-  tmp_manifest=$(mktemp /tmp/stage4-manifest-XXXXXX)
+  tmp_manifest=$(mktemp $HOME/source/claude-cwd/tmp/stage4-manifest-XXXXXX)
 
   local changed=false
   local old_status=""
@@ -637,7 +637,7 @@ Environment:
                          Lower = faster but more likely to saturate 5h Max cap.
 
 Soft stop:
-  'weirwood stage4 stop' (or 'touch /tmp/stage4-stop') creates a marker file.
+  'weirwood stage4 stop' (or 'touch $HOME/source/claude-cwd/tmp/stage4-stop') creates a marker file.
   Workers check it at the top of each loop. The current batch finishes
   normally, then the worker exits instead of claiming another batch.
   The marker is cleared automatically on the next launch.

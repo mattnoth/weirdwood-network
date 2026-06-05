@@ -11,7 +11,7 @@
 #
 # With --chain: terminals cycle through all remaining waves.
 #   4 terminals from wave 1 = T1 gets 1,5,9,13... T2 gets 2,6,10,14... etc.
-#   Touch /tmp/extraction-stop to halt after the current wave.
+#   Touch $HOME/source/claude-cwd/tmp/extraction-stop to halt after the current wave.
 #
 # With --max N: each terminal runs at most N waves, then stops.
 #   Combine with --chain to limit how far each terminal goes.
@@ -62,7 +62,7 @@ echo ""
 
 # Clear any stale stop file from a previous run (only relevant in chain mode)
 if [[ "$CHAIN" == true ]]; then
-  rm -f /tmp/extraction-stop
+  rm -f $HOME/source/claude-cwd/tmp/extraction-stop
 fi
 
 PROJECT_DIR="$(pwd)"
@@ -99,7 +99,7 @@ for (( t=0; t<TERMINALS; t++ )); do
     CMD="${SCRIPT} ${BOOK} ${WAVES_ARR[0]}"
   else
     CMD="for w in ${WAVES_ARR[*]}; do "
-    CMD+="if [[ -f /tmp/extraction-stop ]]; then echo '⏸  Stop file detected (/tmp/extraction-stop) — halting before wave '\$w; break; fi; "
+    CMD+="if [[ -f $HOME/source/claude-cwd/tmp/extraction-stop ]]; then echo '⏸  Stop file detected ($HOME/source/claude-cwd/tmp/extraction-stop) — halting before wave '\$w; break; fi; "
     CMD+="${SCRIPT} ${BOOK} \$w; "
     CMD+="done"
   fi
@@ -133,5 +133,5 @@ echo "Launched $TERMINALS iTerm2 tabs. Monitor progress in each tab."
 if [[ "$CHAIN" == true ]]; then
   echo ""
   echo "To stop after the current wave finishes:"
-  echo "  touch /tmp/extraction-stop"
+  echo "  touch $HOME/source/claude-cwd/tmp/extraction-stop"
 fi

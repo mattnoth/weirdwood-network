@@ -32,7 +32,7 @@ Run this from any working directory; the script resolves paths relative to the r
 ### Option A — stop-file (recommended for unattended runs)
 
 ```bash
-touch /tmp/stage4-stop
+touch $HOME/source/claude-cwd/tmp/stage4-stop
 ```
 
 Takes effect within **one batch + up to 60s** — whichever comes first:
@@ -42,7 +42,7 @@ Takes effect within **one batch + up to 60s** — whichever comes first:
 - The wrapper's `sleep_with_stop_check()` also checks every 60s during wall/crash sleeps.
 
 Both the classifier and wrapper exit cleanly with flushed output.
-The wrapper removes `/tmp/stage4-stop` automatically when the loop exits.
+The wrapper removes `$HOME/source/claude-cwd/tmp/stage4-stop` automatically when the loop exits.
 
 ### Option B — Ctrl-C
 
@@ -85,7 +85,7 @@ interactive (Opus) use, then shorten it before travelling.
 
 1. Stop the current run:
    ```bash
-   touch /tmp/stage4-stop
+   touch $HOME/source/claude-cwd/tmp/stage4-stop
    ```
    Wait for the current batch to finish (watch the log: `tail -f $OUT/run.log`).
 

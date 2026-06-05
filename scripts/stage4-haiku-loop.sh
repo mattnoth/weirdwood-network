@@ -10,7 +10,7 @@
 #   bash scripts/stage4-haiku-loop.sh batch-0050     # resume from batch-0050
 #
 # Stop:
-#   touch /tmp/stage4-haiku-stop                     # graceful stop after current batch
+#   touch $HOME/source/claude-cwd/tmp/stage4-haiku-stop                     # graceful stop after current batch
 #
 # Env overrides:
 #   STAGE4_HAIKU_SLEEP_BETWEEN  inter-batch sleep seconds (default 1200 = 20 min)
@@ -23,7 +23,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 cd "$REPO_ROOT"
 
-STOP_FILE="/tmp/stage4-haiku-stop"
+STOP_FILE="$HOME/source/claude-cwd/tmp/stage4-haiku-stop"
 SLEEP_BETWEEN="${STAGE4_HAIKU_SLEEP_BETWEEN:-1200}"
 CONCURRENCY="${STAGE4_HAIKU_CONCURRENCY:-4}"
 CHUNK_SIZE="${STAGE4_HAIKU_CHUNK_SIZE:-3}"

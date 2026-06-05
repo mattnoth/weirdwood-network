@@ -28,7 +28,7 @@ STATS_DIR="working/extraction-stats"
 WORKLOG_FILE="worklog.md"
 WIKI_STATE_DIR="working/wiki-pass2"
 TRIAGE_MANIFEST="working/wiki/pass2-staging/triage-manifest.jsonl"
-STOP_FILE="/tmp/wiki-pass2-stop"
+STOP_FILE="$HOME/source/claude-cwd/tmp/wiki-pass2-stop"
 WAVE_SIZE=4          # 3-5 buckets per wave (default 4)
 VERSION="v1"
 DEFAULT_ORPHAN_THRESHOLD=60  # minutes
@@ -627,8 +627,8 @@ with open('$mf', 'w') as f:
     fi
 
     # Invoke agent (wiki-ingester)
-    local logfile="/tmp/wiki-pass2-${bucket_id}.log"
-    local jsonfile="/tmp/wiki-pass2-${bucket_id}.json"
+    local logfile="$HOME/source/claude-cwd/tmp/wiki-pass2-${bucket_id}.log"
+    local jsonfile="$HOME/source/claude-cwd/tmp/wiki-pass2-${bucket_id}.json"
     local ch_start ch_start_fmt
     ch_start=$(date +%s)
     ch_start_fmt=$(date '+%Y-%m-%d %H:%M:%S')
@@ -1621,7 +1621,7 @@ Subcommands:
       Types: disambiguation | tier | promotion | other
 
   stop
-      Create /tmp/wiki-pass2-stop (DISTINCT from /tmp/extraction-stop).
+      Create $HOME/source/claude-cwd/tmp/wiki-pass2-stop (DISTINCT from $HOME/source/claude-cwd/tmp/extraction-stop).
       Tabs check between buckets; current bucket finishes normally.
 
 Use via: weirwood wiki <subcommand>
