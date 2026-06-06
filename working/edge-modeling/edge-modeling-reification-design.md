@@ -88,6 +88,25 @@ The 1,617 Haiku emits **failed the S74 drift gate** (48% triple-level agreement 
 ### D7 — Causation modeling (resolved — both independent runs converged)
 **One event node carrying both roles** (`AGENT_IN` for executor, `COMMANDS_IN` for orderer) — **not** two event nodes joined by a causal edge. "Who was behind Robb's death" is a one-hop role scan; two-node-causal reintroduces the fragmentation. `GATE 2` in the Stage-4 prompt already refuses the merged `instigator → victim` edge, so the role just gives the orderer a home. **Exception:** when the ordering is itself a separately-attested, distinctly-narrated occasion (a documented council/decree), model it as its own node linked via the existing `CAUSES`/`TRIGGERS`. Minority case. *(Both the repo-aware and clean-room runs reached this independently — treat as settled.)*
 
+### D2 RESOLVED — 2026-06-05 (Plate 2)
+
+**Decision: option (a) Replace.** Reification onto event-node hubs is sufficient. Scattered person→person binaries that are superseded by a reified hub get marked `superseded_by` (NOT deleted; CLAUDE.md hard rule on source data + per D4 normalizer's same convention). No materialized agent→patient dyad will be generated. `--path` traverses person→event→person transparently — the 2-hop headline query ("who killed Robb", "who betrayed X") survives without any new binary projection.
+
+**Why this decision:**
+- `scripts/graph-query.py:794-809` (`cmd_path`) performs an untyped 2-hop bridge intersection over the whole `edges.jsonl`. No node-type filter, no edge-type filter. Any common neighbor — character, house, location, **event** — appears as a bridge.
+- Live probes confirmed: `--path eddard-stark robb-stark` already returns bridges through `winterfell` (location.castle) and `house-frey` (house.*); `--path robb-stark roose-bolton` returns 12 bridges including `house-frey` and `hornwood`. Plate 3's role edges onto event-node hubs will appear via the same mechanism — `--path walder-frey robb-stark` will surface the `red-wedding` bridge with `AGENT_IN`/`VICTIM_IN` legs once the role edges land. Engineering work needed to make this happen: zero.
+- Option (c) Project's deterministic materialized dyad was attractive insurance, but it solves a problem `graph-query.py` doesn't have, and re-introduces the **underdetermination problem D2 was designed to kill**: which participant becomes the canonical `source`? Even a deterministic rule (e.g. AGENT_IN → VICTIM_IN) picks ONE projection of an event that has many — and once you have a binary on the books, downstream consumers can't tell whether `walder-frey BETRAYS robb-stark` came from the hub projection or from the legacy edges. Option (a) keeps the data model honest: events live as nodes, full stop.
+- Full evidence: `working/edge-modeling/plate2-graphquery-traversal.md`.
+
+**Consequence for Plate 3:**
+- Plate 3 emits role edges (`AGENT_IN`, `VICTIM_IN`, `COMMANDS_IN`, `WIELDED_IN`, `LOCATED_AT`) onto event-node hubs and STOPS THERE — no canonical dyad generation step.
+- Plate 3 (or a sibling sub-step) marks superseded person→person binaries with `superseded_by: <hub_slug>` so the legacy edges remain (per CLAUDE.md) but no longer participate in primary traversal. The exact deprecation-marking mechanism is a Plate 3 / Plate 5 detail.
+- Result for queries: "who killed X" returns 2-hop walks through the event hub (rich, multi-role); 1-hop walks return either nothing or the legacy edge marked superseded.
+
+**Open follow-up (out of scope for Plate 2):**
+- Whether `--path` should expose a `--prefer-event-bridges` flag to rank event-mediated bridges higher than incidental character bridges. Presentation polish; not a blocker.
+- Whether per-node `## Edges` display bullets (the unsynced markdown layer) should be regenerated to show the hub-mediated 2-hop walks. Plate 5 line item.
+
 ---
 
 ## 4. Glossary

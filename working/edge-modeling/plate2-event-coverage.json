@@ -1,0 +1,162 @@
+{
+  "total_pass1_entries": 8384,
+  "distinct_titles_floor": 8317,
+  "titles_matching_existing_slug": 1,
+  "titles_needs_minting": 8316,
+  "event_nodes_total": 371,
+  "event_nodes_with_any_chapter_linkage": 38,
+  "entries_in_node_touched_chapter": 1937,
+  "per_book": {
+    "agot": {
+      "files": 73,
+      "entries": 1496,
+      "distinct_titles": 1492,
+      "title_node_matches": 0,
+      "entries_in_node_touched_chapter": 99
+    },
+    "acok": {
+      "files": 70,
+      "entries": 1655,
+      "distinct_titles": 1651,
+      "title_node_matches": 1,
+      "entries_in_node_touched_chapter": 666
+    },
+    "asos": {
+      "files": 82,
+      "entries": 2113,
+      "distinct_titles": 2100,
+      "title_node_matches": 0,
+      "entries_in_node_touched_chapter": 511
+    },
+    "affc": {
+      "files": 46,
+      "entries": 1279,
+      "distinct_titles": 1278,
+      "title_node_matches": 0,
+      "entries_in_node_touched_chapter": 210
+    },
+    "adwd": {
+      "files": 73,
+      "entries": 1841,
+      "distinct_titles": 1838,
+      "title_node_matches": 0,
+      "entries_in_node_touched_chapter": 451
+    }
+  },
+  "spot_checks": {
+    "bran-defenestration": {
+      "node_candidates": [],
+      "pass1_hits": [
+        {
+          "chapter": "agot-bran-02",
+          "num": 6,
+          "title": "Bran decides to climb the broken tower"
+        },
+        {
+          "chapter": "agot-bran-02",
+          "num": 10,
+          "title": "Bran traverses rooftops toward the broken tower"
+        },
+        {
+          "chapter": "agot-bran-02",
+          "num": 16,
+          "title": "Jaime pulls Bran up"
+        },
+        {
+          "chapter": "agot-bran-02",
+          "num": 17,
+          "title": "Jaime pushes Bran from the window"
+        },
+        {
+          "chapter": "agot-bran-02",
+          "num": 17,
+          "title": "Jaime pushes Bran from the window"
+        },
+        {
+          "chapter": "agot-bran-02",
+          "num": 18,
+          "title": "Chapter ends with Bran falling"
+        },
+        {
+          "chapter": "agot-bran-02",
+          "num": 18,
+          "title": "Chapter ends with Bran falling"
+        },
+        {
+          "chapter": "agot-bran-03",
+          "num": 1,
+          "title": "Bran falls through darkness"
+        },
+        {
+          "chapter": "agot-bran-03",
+          "num": 1,
+          "title": "Bran falls through darkness"
+        },
+        {
+          "chapter": "agot-bran-04",
+          "num": 10,
+          "title": "Tyrion asks about Bran's fall"
+        },
+        {
+          "chapter": "agot-bran-05",
+          "num": 1,
+          "title": "Bran rides outside Winterfell for the first time since his fall"
+        },
+        {
+          "chapter": "acok-bran-03",
+          "num": 17,
+          "title": "Bran falls asleep and enters wolf dream"
+        }
+      ]
+    },
+    "tywin-privy-death": {
+      "node_candidates": [
+        "assassination-of-tywin-lannister"
+      ],
+      "pass1_hits": [
+        {
+          "chapter": "asos-tyrion-11",
+          "num": 27,
+          "title": "Tyrion confronts Tywin on the privy"
+        },
+        {
+          "chapter": "asos-tyrion-11",
+          "num": 30,
+          "title": "Tyrion shoots Tywin"
+        },
+        {
+          "chapter": "asos-tyrion-11",
+          "num": 31,
+          "title": "Tywin dies"
+        },
+        {
+          "chapter": "adwd-tyrion-01",
+          "num": 2,
+          "title": "Tyrion reflects on killing Tywin"
+        }
+      ]
+    },
+    "purple-wedding": {
+      "node_candidates": [
+        "purple-wedding"
+      ],
+      "pass1_hits": [
+        {
+          "chapter": "asos-arya-13",
+          "num": 5,
+          "title": "Arya learns Joffrey is dead"
+        },
+        {
+          "chapter": "asos-tyrion-08",
+          "num": 36,
+          "title": "Joffrey begins choking"
+        },
+        {
+          "chapter": "asos-tyrion-08",
+          "num": 38,
+          "title": "Joffrey dies"
+        }
+      ]
+    }
+  }
+}

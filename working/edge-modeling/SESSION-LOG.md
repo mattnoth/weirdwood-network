@@ -127,3 +127,67 @@ Script: `scripts/aerys-slug-merge.py`
 **COMMANDS/SERVES passive phrases are contextual, not inversions:** "Is served by" from daenerys's perspective in a COMMANDS edge = daenerys is the commander receiving service = CORRECT direction. Same for "summoned by" in SERVES. Excluded from flip logic.
 
 **Conservative default held throughout:** "Only flip on positive signal" — no flip without a confirmed reverse cue. 3,800 kept rows show the vast majority of edges had unambiguous forward-direction descriptions.
+
+---
+
+## Plate 2 — verify + D2 resolved (Session 83)
+
+**Both gating unknowns resolved. Plate 3 is unblocked.** Cost: $0 (analysis only). No node minted, no edge touched.
+
+### 2a — Pass-1 event coverage by existing nodes
+
+Script: `scripts/plate2-event-coverage.py`. Report: `working/edge-modeling/plate2-event-coverage.md` + `.json`.
+
+| Metric | Value |
+|---|---:|
+| Total Pass-1 event ENTRIES (numbered bold-title lines, all 344 files) | **8,384** |
+| Distinct titles (de-dup floor — normalized) | **8,317** |
+| Distinct titles matching an existing event slug | **1** |
+| Distinct titles → needs MINTING (floor) | **8,316** |
+| Existing event nodes | 371 |
+| Event nodes with ANY chapter linkage | **38 / 371 (10%)** |
+| Pass-1 entries in a chapter touched by ≥1 event node (loose upper bound) | 1,937 |
+
+Per-book entry counts: AGOT 1,496 / ACOK 1,655 / ASOS 2,113 / AFFC 1,279 / ADWD 1,841.
+
+**Unexpected finding (1):** the design doc §3 D3 claim "*the Purple Wedding poisoning and Tywin's privy death have no hub*" is **wrong**. Both nodes exist (`purple-wedding`, `assassination-of-tywin-lannister`). What they LACK is Pass-1 chapter linkage in their index — `chapters.in_raw_list = []` because the chapter→event index was built from the Wars & Conflicts column of the Raw Entity List, which only catches historical-event NAMES, not narrative micro-events. Of the 371 nodes, only ~38 have any Pass-1 chapter linkage. D3 is partially correct — fine-grained minting IS needed for ~8k narrative micro-beats — but the named-event case has more existing infrastructure than the design assumed.
+
+**Unexpected finding (2):** Pass-1 entries are overwhelmingly narrative micro-beats ("Departure at daybreak", "Tyrion reflects on killing Tywin", "Bran traverses rooftops toward the broken tower"), not named historical events. Only 1 distinct title matches an event-node slug. The realistic mint floor for Plate 3 is ~8k (one per distinct micro-beat) if EVERY entry is reified — or much smaller if Plate 3 mines selectively for kill/betray/attack/poisoning beats only.
+
+### Spot-checks
+
+| Case | Chapter | Existing node? | Verdict |
+|---|---|---|---|
+| Bran's defenestration | `agot-bran-02` #17 "Jaime pushes Bran from the window" | **NO** | **NEEDS MINTING** |
+| Tywin's privy death | `asos-tyrion-11` #30 "Tyrion shoots Tywin" | YES (`assassination-of-tywin-lannister`) | REUSE (chapter linkage broken — re-bind) |
+| Purple Wedding | `asos-tyrion-08` #36-38 "Joffrey begins choking / dies" | YES (`purple-wedding`) | REUSE (chapter linkage broken — re-bind) |
+
+Prompt also mentioned Tywin's death in "ADWD Tyrion" — that's *references* (e.g. `adwd-tyrion-01` #2 "Tyrion reflects on killing Tywin"). The actual kill is in `asos-tyrion-11`.
+
+### 2b — `graph-query.py` traversal check
+
+Report: `working/edge-modeling/plate2-graphquery-traversal.md`.
+
+**Verdict: YES — `--path` transparently traverses `person → event → person`.** `cmd_path()` (`scripts/graph-query.py:794-809`) computes 2-hop bridges by intersecting `neighbors_a` and `neighbors_b` over the WHOLE `edges.jsonl`. No node-type filter; no edge-type filter; intermediate node identity is irrelevant. Live probes confirmed bridges through `location.castle` (`winterfell`), `house.*` (`house-frey`), and generic location (`hornwood`). Plate 3 role edges onto event-node hubs will land in the same traversal mechanism with zero engineering changes.
+
+### D2 RESOLVED — option (a) Replace
+
+Recorded in `edge-modeling-reification-design.md` §3 (new "D2 RESOLVED" subsection after D7).
+
+**Decision:** option (a) Replace. Reification is sufficient. Superseded person→person binaries get marked `superseded_by` (NOT deleted; CLAUDE.md hard rule). No materialized agent→patient dyad.
+
+**Key rationale (one paragraph):** the headline query "who killed X" already works through any 2-hop bridge — including event nodes once role edges land. Option (c) Project would re-introduce the underdetermination problem D2 was designed to kill (which participant gets nominated `source` of the canonical binary?), and solves a problem `graph-query.py` doesn't have. Option (a) keeps the data model honest — events are nodes, not edges-in-disguise.
+
+### Consequence for Plate 3
+
+- Emit role edges onto hubs; STOP. No canonical-dyad sub-step.
+- Mark superseded legacy person→person binaries with `superseded_by: <hub_slug>` (mechanism is a Plate 3 / Plate 5 detail).
+- Node-minting scope: from 8,316 distinct titles "floor", but Plate 3 should likely be selective (kill/betray/attack/poisoning beats only) rather than reifying every Pass-1 micro-event. Whether to reify ALL or a SELECTIVE subset is now the new lead Plate 3 design question.
+
+### Files touched
+- CREATE `scripts/plate2-event-coverage.py`
+- CREATE `working/edge-modeling/plate2-event-coverage.md`, `.json`
+- CREATE `working/edge-modeling/plate2-graphquery-traversal.md`
+- APPEND `## D2 RESOLVED` subsection to `working/edge-modeling/edge-modeling-reification-design.md` §3
+- (next: append to worklog.md + this SESSION-LOG.md entry)
+- Did NOT touch `graph/edges/edges.jsonl`, `graph/nodes/`, Plate 0 outputs, or Plate 1 doc commits.
