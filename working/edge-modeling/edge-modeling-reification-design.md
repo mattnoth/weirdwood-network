@@ -2,7 +2,7 @@
 
 **Status:** PLAN ONLY. Nothing here has been applied. Every plate is independently approvable.
 **Authored:** Session 82+ (2026-06-05), orchestrator synthesis.
-**Lineage:** `EDGE_INVENTORY_ANALYSIS_PROMT.md` (brief) → `EDGE_INVENTORY_REPORT.md` (inventory) → `EDGE_MODELING_DECISION.md` (in-session run, repo-aware) + `EDGE_MODELING_DECISION-cleanroom.md` (independent clean-room run, repo-blind) → the cleanroom Execution Plan (Matt's verification pass) → **this document** (improvements folded in, sectioned for multi-session execution).
+**Lineage:** `lineage/EDGE_INVENTORY_ANALYSIS_PROMT.md` (brief) → `lineage/EDGE_INVENTORY_REPORT.md` (inventory) → `lineage/EDGE_MODELING_DECISION.md` (in-session run, repo-aware) + `lineage/EDGE_MODELING_DECISION-cleanroom.md` (independent clean-room run, repo-blind) → `lineage/EDGE_MODELING_PLAN.md` (S82 verification pass) → **this document** (improvements folded in, sectioned for multi-session execution). All lineage files moved from repo root → `working/edge-modeling/lineage/` in Session 83 (2026-06-05) for tidiness.
 **Vehicle decision:** The agent fleet is **design-stage only** (no runnable orchestrator/dispatcher/daemon as of S82). The watcher/worker mission pattern targets parallel waves of bounded items; this work is tightly sequenced. **Therefore: hand-authored session prompts, one per plate (§7), launched one at a time.** Not a fleet mission.
 
 ---
