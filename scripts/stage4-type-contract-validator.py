@@ -324,6 +324,27 @@ _LOCATION_CATEGORIES: frozenset[str] = frozenset({
     "locations",
 })
 
+# AGENT_IN / VICTIM_IN target-type contract.
+# Architecture: AGENT_IN = executor of an event; VICTIM_IN = patient of an event.
+# Both are reification role edges — source is a person or house, target MUST be
+# an event node (event.*).  Any non-event target is a model error.
+#   DROP  — if target resolves to a known non-event category.
+#   FLAG  — if target has no node (alias/unpromoted; keep + annotate).
+#   KEEP  — if target resolves to the "events" category.
+_ROLE_EVENT_TYPES: frozenset[str] = frozenset({
+    "AGENT_IN",
+    "VICTIM_IN",
+})
+
+# Valid source categories for AGENT_IN / VICTIM_IN.
+_ROLE_EVENT_VALID_SOURCE_CATEGORIES: frozenset[str] = frozenset({
+    "characters",
+    "houses",
+})
+
+# The single valid target category for AGENT_IN / VICTIM_IN.
+_ROLE_EVENT_TARGET_CATEGORY: str = "events"
+
 
 # ---------------------------------------------------------------------------
 # Core predicate
@@ -528,6 +549,29 @@ def type_contract_pass(
                     f"category {tgt_cat!r} — the relationship is TRUE but the target "
                     f"should be retargeted to a title node "
                     f"(holds_title_target_is_place_should_retarget_to_title)"
+                )
+
+        # Contract 10: AGENT_IN / VICTIM_IN target-type contract.
+        # Both are reification role edges: source = person/house, target MUST be event.*.
+        # Architecture: "Person/House → Event (event.*)" (added Session 83, 2026-06-05).
+        #   DROP  — target resolves to a known non-event category.
+        #   FLAG  — target has no node (alias/unpromoted event node; keep + annotate).
+        #   KEEP  — target resolves to "events".
+        if et in _ROLE_EVENT_TYPES:
+            if tgt_cat == _ROLE_EVENT_TARGET_CATEGORY:
+                pass  # valid: role edge correctly points at an event node
+            elif tgt_cat is None:
+                return "flag", (
+                    f"CONTRACT_WARNING: {et} target {tgt!r} has no node — expected "
+                    f"an event.* node; the event may be unminted or the slug is an alias. "
+                    f"Keep + annotate for retargeting once the event node exists."
+                )
+            else:
+                return "drop", (
+                    f"CONTRACT_VIOLATED: {et} target must be an event node (event.*), "
+                    f"but target {tgt!r} resolves to category {tgt_cat!r}. "
+                    f"AGENT_IN and VICTIM_IN are reification role edges — source is a "
+                    f"person/house and target MUST be an event hub."
                 )
 
     return "keep", "PASS"

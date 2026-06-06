@@ -133,6 +133,14 @@ Types include: `guest_right_invoked`, `bread_and_salt`, `shelter_offered`, `shel
 
 ## Events & Actions
 1. **{Event}** — {factual description}
+   - Agent: {entity (executor; the one who actually performed the act)}
+   - Patient: {entity (the recipient/target of the act)}
+   - Instrument: {artifact or weapon used, if any}
+   - Location: {place node}
+   - Instigator: {orderer/commander, if different from Agent — e.g. Tywin in "Tywin had the Mountain attack X"}
+   - Outcome: {brief outcome — e.g. "death", "victory", "escape"}
+
+Role sub-bullets are OPTIONAL. Entries without sub-bullets remain valid (backwards-compatible). Use them when the event has multiple participants or distinct roles that would otherwise be lost.
 
 ## Spatial Layout & Movement
 Track the physical positioning and movement of characters within the chapter's scenes. Not every chapter needs a full table — use this when characters move through space in ways that matter (battles, ambushes, feasts, ceremonies, confrontations, escapes, arrivals).
@@ -176,6 +184,8 @@ Phase vocabulary (use the most fitting — not an exhaustive list):
 ## Relationships Observed
 | Character A | Relationship | Character B | Evidence |
 |-------------|-------------|-------------|----------|
+
+**Head rule:** Column A is always the SEMANTIC AGENT of the relationship, never the grammatical subject of the source sentence and never the POV character. For passive sentences ("X was killed by Y"), put the by-phrase agent (Y) in Column A. For ordered acts ("Tywin had the Mountain attack the Riverlands"), the EXECUTOR (Mountain) goes in Column A; record the orderer (Tywin) in the Events & Actions Instigator slot, not in Column A. Never anchor on the grammatical subject — the same event is phrased many ways, and surface syntax must not leak into the data model.
 
 ## Unanswered Questions
 | Question | Raised By | Context |
