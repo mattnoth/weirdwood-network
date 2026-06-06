@@ -191,3 +191,55 @@ Recorded in `edge-modeling-reification-design.md` §3 (new "D2 RESOLVED" subsect
 - APPEND `## D2 RESOLVED` subsection to `working/edge-modeling/edge-modeling-reification-design.md` §3
 - (next: append to worklog.md + this SESSION-LOG.md entry)
 - Did NOT touch `graph/edges/edges.jsonl`, `graph/nodes/`, Plate 0 outputs, or Plate 1 doc commits.
+
+---
+
+## Session 83 closing summary (2026-06-05, orchestrator)
+
+### Commits landed this session
+1. `5bc168b4d` — Plate 0 + Plate 1 (normalizer + Aerys merge candidates + doc foundation).
+2. `03442d0a0` — Plate 2 (event-coverage analysis + traversal probe + D2 RESOLVED) + continue prompts for Plates 3/4/5.
+
+Neither commit touched `graph/edges/edges.jsonl` or `graph/nodes/`. The graph is in the same state it was at session start; everything new is staging or doc.
+
+### What worked
+- **Parallel agent fan-out was efficient.** Plate 0 (script-builder, Sonnet) and Plate 1 (general-purpose, Sonnet) ran simultaneously without conflict — different file surfaces, different staging dirs. Combined wall-clock ~10 min vs ~25 min sequential.
+- **Pre-flight file/line verification before agent dispatch saved a round-trip.** Confirming `mechanical-extractor.md:176-178`, `aerys-targaryen.node.md`, validator existence up front meant the agent prompts were correct on first try.
+- **The design doc's plate structure held.** Each §7 prompt was copy-pasteable and self-contained as advertised; agents didn't need clarifying questions.
+
+### Surprises / partial failures
+- **§3 D3 was partially wrong.** The design doc claimed Purple Wedding and Tywin's privy death have no event-node hub. They DO. What's missing is the *chapter-evidence linkage* on those existing nodes (`chapters.in_raw_list = []`). This is good news (less minting needed for the headline cases) but reshapes Plate 3 — the script will need a chapter-rebind step for existing nodes, not just a mint step.
+- **Coverage join was much weaker than expected.** Only 1 of 8,317 distinct Pass-1 event titles exact-matched an event-node slug. 10% of existing nodes (38/371) carry any Pass-1 chapter linkage. The "join" path the design assumed (Pass-1 entry → existing event node via chapter membership) is largely broken at the node-index layer. Two responses are possible: (i) a fuzzy-title pass to reuse more existing nodes, or (ii) accept the slug-floor and treat near-everything as minted. This is **open Matt decision Q2 in the Plate 3 continue prompt**.
+- **The normalizer's flip count was surprisingly small (10 out of 3,811).** The design doc cited "232 unordered pairs carry the same edge type in both directions" as evidence of widespread inversion. After edge-type-aware filtering (excluding PRISONER_OF, SERVES, COMMANDS, etc., where passive-voice phrases are SEMANTIC, not inversion-cues), only 10 unambiguous flips remained. This is NOT a failure — it's the conservative posture working — but it means the "232 bidir pairs" finding was largely NOT subject-leakage inversions. They were genuine bidirectional relations (mutual support, reciprocal feudal ties, etc.). Worth re-examining whether the design's framing of the live-graph problem was overstated.
+- **Causation rule already shipped.** §3 D7's "use COMMANDS_IN for orderer, AGENT_IN for executor; do NOT make a separate causal node" was implicit in the Plate 1 schema decisions; nothing extra to do here.
+
+### Failures (genuine — none this session)
+No failed agent runs. No reverted commits. The single "flagged-for-review" row (donal-noye ↔ mag-mar-tun-doh-weg KILLS, both forward + reverse signal) is a legitimately ambiguous mutual-kill at the Battle of Castle Black — flagged for human eye, not script error.
+
+### Newly open Matt decisions (blocks Plate 3)
+1. **Reify-all vs reify-selective?** 8,317 distinct event titles is a lot of new hubs. Recommend selective: kill/death/attack/poisoning/wedding/betrayal/capture/escape trigger list. Matches the underdetermination cases the project actually wants to fix.
+2. **Fuzzy reuse vs slug-floor mint?** Exact-match found 1 hit. Fuzzy/title-matching (e.g. `tywin-privy-death` ≈ `assassination-of-tywin-lannister`) would likely lift to several hundred. Decide: pay for a fuzzy pass, or accept the floor.
+
+Both questions are documented inline in `progress/continue-prompts/2026-06-05-edge-modeling-plate-3-backfill.md` PRE-WORK DECISION block.
+
+### Newly noticed but DEFERRED
+- **§3 D3 in the design doc itself is now stale.** The "Purple Wedding + Tywin's death have no hub" claim should be edited or annotated. Did not do this in-session to keep the design doc as the historical lineage record; Plate 2's "D2 RESOLVED" subsection plus this SESSION-LOG note are the authoritative corrections. A future session may want to add a `D3 RE-EXAMINED` note in §3 to make the correction explicit.
+- **`graph/edges/_regrounding/` backup convention** is documented in design doc Plate 5 but not yet exercised this session. First exercise lands in Plate 5.
+- **The Plate 1 head rule benefits only FUTURE Pass-1 extractions.** None are planned (worklog says Pass 1 is DONE). The rule is a hedge against any future re-run, but does not retroactively fix the existing 344 extractions. Plate 0's normalizer is the retroactive fix.
+
+### Continue-prompt coverage (per design doc §8)
+- `progress/continue-prompts/2026-06-05-edge-modeling-plate-3-backfill.md` — reify backfill + minting; HELD on Matt Q1/Q2.
+- `progress/continue-prompts/2026-06-05-edge-modeling-plate-4-haiku-disposition.md` — 1,617-row Haiku bulk re-bucketing; HELD on Matt go.
+- `progress/continue-prompts/2026-06-05-edge-modeling-plate-5-merge.md` — gated merge of all staging into canonical `edges.jsonl`; HELD on Plates 3+4 staging + Matt sign-off.
+
+Each carries the required "Recommended model" line, lists its preconditions, and points back to the design doc and SESSION-LOG for context. A fresh Claude Code session should be able to pick any of them up cold.
+
+### What did NOT happen this session (scope discipline)
+- No edge in `graph/edges/edges.jsonl` was modified.
+- No node in `graph/nodes/` was created, moved, or deleted.
+- No Pass-1 extraction was re-run.
+- No LLM token spend on the data path (Plates 0-2 were entirely deterministic / doc-only / read-only analysis). Total session cost is the agent meta-LLM cost only — small.
+- The Haiku-bulk (1,617 rows) was NOT promoted, normalized, or touched. It's Plate 4's job.
+
+### Trust hierarchy reminder (CLAUDE.md rule #9)
+If the design doc's §3 D3 disagrees with this SESSION-LOG on whether Purple Wedding / Tywin's death have hubs: **trust SESSION-LOG + plate2-event-coverage.md**. They reflect actual repo state as of 2026-06-05; the design doc's D3 was written before the coverage probe ran.
