@@ -117,6 +117,9 @@ Apply this lens when reviewing existing prompts (mechanical-extractor, wiki-inge
 
 ## Doc Hygiene
 
+- [ ] **HIGH (post-Plate-3) — Repo audit + strategy reconciliation + memory consolidation.** 84 sessions of strategy sediment: competing edge strategies layered over each other (wiki-comention deprecated / Pass-1 spine shipped / Events-Haiku NO-GO / reification ACTIVE), stale worklog checkboxes (e.g. `[ ] Pass 2 ... agent prompt written` above completed stages), superseded continue prompts (cleanroom-execution done, events-bulk-escalation reframed, 7-step chain halted), point-in-time memory entries needing reconciliation. Goal: make the edge-modeling reification direction the unambiguous canonical thrust + zero contradictory state. Read-only proposals first → Matt approves → apply. Memory: `project_edge_modeling_reification_direction` (NEW, captures current direction). Run the `anthropic-skills:consolidate-memory` skill for the memory part. TIMING: after Plate 3 settles.
+  → continue: `progress/continue-prompts/2026-06-07-repo-audit-strategy-reconciliation.md` (**Opus 4.7**)
+
 - [ ] **LOW — Anchor numeric claims in architecture.md to a script or session decision.** Session 52 (2026-05-13) surfaced that "the 22 edge types currently in the corpus" had rotted into being wrong (real count: ~96 master, ~26 wiki-infobox subset, ~62 actually emitted in graph). The claim was made at Session 26 when it was true, but propagated to 6 places (architecture.md, design-philosophy.md, schema-drift-auditor.md, prose-edge-classifier.md ×3) without anyone updating as the corpus grew. Pattern to apply going forward: bare-count assertions in architecture.md should either (a) be a derived count regenerable from a script (e.g., `grep -c '^| \`[A-Z_]\`' reference/architecture.md`), or (b) be hedged with "as of Session N" + a pointer to the session entry. Not urgent; preventive.
 
 ## Hooks & Mechanical Enforcement
