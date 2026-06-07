@@ -163,3 +163,90 @@ grep -n "def cmd_path" scripts/graph-query.py                    # should land n
 - Vocab count in `architecture.md` ≠ 165 (means schema drifted without an entry below).
 - `progress/continue-prompts/2026-06-05-edge-modeling-plate-3-backfill.md` is missing or has been resolved without an answer to Q1/Q2.
 - `working/edge-modeling/edge-modeling-reification-design.md` §3 still contains the unmarked claim "the Purple Wedding poisoning and Tywin's privy death have no hub" without a `D3 RE-EXAMINED` note (this is technical debt; flag it but don't escalate).
+
+---
+
+## Entry 2 — Parallel-session note: Q1/Q2 resolved, D8 added, Plate 2.5 + Plate 3 in flight (observed 2026-06-07)
+
+**Source / authorship.** This entry was written by the orchestrator session that owns Entry 1, observing uncommitted work in another Claude Code session that ran in parallel. **The other session owns its own worklog entry + commits.** This entry exists only so the validator log doesn't fall silent during the parallel window.
+
+**Status:** Plate 3 is no longer BLOCKED. Q1 + Q2 + a new Q1b/D8 refinement have all been answered (by Matt, in the other window). Plate 2.5 (event-node inventory) was added as a new precondition and shipped. Plate 3 has produced minibatch + revalidation + full staging outputs. None of it is committed at the time of this entry. Validator should expect a forthcoming "Entry 3" from the parallel session that records the actual Plate 3 outcome with commit hashes.
+
+### Design-doc changes observed (uncommitted in `working/edge-modeling/edge-modeling-reification-design.md`)
+
+- **D3 RE-EXAMINED note** added (L78-95) — directly in §3 D3, correcting the original "no hub" claim for Purple Wedding + Tywin's privy death. This closes the technical-debt flag from Entry 1's last validator-check bullet. Future validators: D3 RE-EXAMINED is in place; no further escalation.
+- **D8 — Reify on n-ary STRUCTURE, not event TYPE** added (L97-114). Sharpens Q1 and the §2 disposition table. The trigger to reify is now structural (instigator ≠ executor, multiple killers/victims, or a named set-piece other edges reference), NOT event-type membership. **Clean dyads stay as direct typed edges** (`KILLS source→target`, direction-fixed by Plate 0). Empirical claim in D8: 0 of 102 current KILLS rows carry an instigator signal → almost all are clean dyads (Jaime/Aerys archetype). Reify-target collapses to "~100–200 distinct n-ary events, most of which already have nodes."
+- **D2 RESOLVED + D3 RE-EXAMINED notes** were anchored at L129+ during the parallel work (line refs from `grep -n "^### D"`).
+
+### Continue-prompt changes observed (uncommitted in `progress/continue-prompts/2026-06-05-edge-modeling-plate-3-backfill.md`)
+
+- **Q1 — RESOLVED: reify-SELECTIVE** with explicit trigger families (death-violence / weddings & ceremonies / sieges / conspiracies / captures-imprisonments / guest-right violations). Plain travel / observations / dialogue beats are NOT reified.
+- **Q2 — RESOLVED: fuzzy reuse pass BEFORE minting**, gated by confidence:
+  - Auto-rebind on exact alias match or normalized-slug equality.
+  - Queue for review on merely-plausible fuzzy hits (do NOT auto-rebind).
+  - Mint only when no candidate clears the bar.
+- **Q1b/D8 REFINEMENT** added — reify on n-ary structure (see design doc D8). Clean dyads inside the trigger families are NOT reified.
+- **New precondition: Plate 2.5 Event-Node Inventory at `working/edge-modeling/event-node-reuse-lookup.json`** (normalized-title/alias → existing event-node slug). Reuse-before-mint is mandatory.
+
+### New artifacts observed (all UNCOMMITTED at time of this entry)
+
+**Scripts:**
+- `scripts/event-node-inventory.py` — builds Plate 2.5 reuse lookup.
+- `scripts/edge-reify-backfill.py` — Plate 3 backfill pipeline.
+- `scripts/stage-drift-reclassify.py` — appears to be a drift-detection / reclassify pass (purpose to be confirmed by parallel session's worklog entry).
+- `scripts/stage-event-collision-merge.py` — looks like an event-node de-collision step (also TBC).
+
+**Plate 2.5 outputs:**
+- `working/edge-modeling/event-node-inventory.md`
+- `working/edge-modeling/event-node-reuse-lookup.json` (1,092 lines)
+
+**Plate 3 outputs (staging only; canonical `graph/` untouched as far as I've checked):**
+- `working/edge-modeling/plate3-minibatch/` — minibatch run: `role-edges-staging.jsonl`, `minted-event-nodes/`, `skipped-clean-dyads.jsonl`, `supersede-candidates.jsonl`, `hub-review-queue.jsonl`, `plate3-minibatch-summary.{md,json}`, `minibatch-config.json`.
+- `working/edge-modeling/plate3-revalidation/` — revalidation pass on the same minibatch (same shape).
+- `working/edge-modeling/plate3-full/` — full run: `hub-review-queue.jsonl`, `minted-event-nodes/`.
+- `working/edge-modeling/plate3-smoke-red-wedding.jsonl` + `plate3-smoke-red-wedding-meta.json` — the Red Wedding smoke test called out in the design doc.
+
+**Audit apparatus (NEW — the parallel session institutionalized the validator pattern):**
+- `working/runbooks/edge-modeling-audit-loop.md` — standing procedure: each plate produces a Reporter log entry (Sonnet, in-repo agent) judged by an Auditor (Opus, FRESH session). Reporter gathers facts; Auditor renders ON-COURSE / DRIFT / NO-GO. **Separation of duties is the point.** This formalizes what this validator log was meant to do.
+- `working/edge-modeling/audit-repo-reporter-prompt.md` — Reporter agent prompt.
+- `working/edge-modeling/audit-alignment-auditor-prompt.md` — Auditor agent prompt.
+- `working/edge-modeling/cleanup-decisions-resolved.md` — appears to capture the Q1/Q2/D8 decisions and any cleanup downstream.
+- `working/edge-modeling/drift-reclassify-{candidates.jsonl,summary.md}` — drift-reclassify outputs (purpose TBC).
+- `working/edge-modeling/collision-merge-{candidates.jsonl,summary.md}` — event-node collision-merge outputs (purpose TBC).
+
+### Surprises / risks for the validator
+
+- **The audit-loop runbook (`working/runbooks/edge-modeling-audit-loop.md`) supersedes this validator log's role in part.** Going forward, plate audits flow through the Reporter→Auditor pipeline into `SESSION-LOG.md`, not directly here. This validator log remains the **Matt-facing index**: each plate completion still gets an entry here, but the entry can cite the SESSION-LOG audit instead of re-deriving facts. Future appenders: keep this file as the high-level "are we on plan?" digest, not the audit-of-record.
+- **Untracked: drift-reclassify + collision-merge scripts/outputs are NOT named in the design doc as plates.** They look like derived cleanup work the parallel session bolted on. The next validator pass should confirm they don't constitute scope creep — verify against `cleanup-decisions-resolved.md`.
+- **`graph/edges/edges.jsonl` and `graph/nodes/events/` still appear untouched** at the time of this entry — Plate 3 stayed in `working/edge-modeling/plate3-*/`. Future validators must re-confirm.
+- **Two scratch files (`scratch-do-not-delete.txt`, `scratch-stage4-considerations-haiku.txt`) show as deleted** in `git status`. These are Matt's private notes per memory `feedback_scratch_is_private` — the parallel session was authorized to do this OR Matt deleted them himself; **do not investigate, do not surface to Matt unless he asks.** Flagged here only so a future drift-checker doesn't read the deletions as project state.
+
+### Validator checks for Entry 2 (what a fresh agent should run)
+
+```bash
+# Confirm the design-doc edits actually landed
+grep -n "D3 RE-EXAMINED\|D8 — Reify on n-ary STRUCTURE" working/edge-modeling/edge-modeling-reification-design.md
+
+# Confirm Plate 2.5 reuse lookup exists and is non-trivial
+wc -l working/edge-modeling/event-node-reuse-lookup.json   # expect ~1092
+
+# Confirm Plate 3 staging exists; confirm canonical graph still untouched
+ls working/edge-modeling/plate3-minibatch/ working/edge-modeling/plate3-revalidation/ working/edge-modeling/plate3-full/
+wc -l graph/edges/edges.jsonl   # should STILL be 3811
+ls graph/nodes/events/*.node.md | wc -l   # compare against baseline (was 371)
+
+# Confirm audit-loop runbook + agent prompts exist
+ls working/runbooks/edge-modeling-audit-loop.md
+ls working/edge-modeling/audit-repo-reporter-prompt.md working/edge-modeling/audit-alignment-auditor-prompt.md
+
+# Confirm Entry 3 is forthcoming — if the parallel session committed Plate 3, there should be
+# a corresponding Entry 3 here. If commits land for Plate 3 work but no Entry 3 lands, flag it.
+git log --oneline --all -- working/edge-modeling/plate3-minibatch/ | head -5
+```
+
+**Validator should flag drift in this entry's terms if:**
+- The parallel session's commits land but no Entry 3 is appended here within one session-cycle.
+- `graph/edges/edges.jsonl` changed row count without a Plate 5 / merge entry.
+- `working/edge-modeling/edge-modeling-reification-design.md` D8 was edited (not just appended-to) after this entry.
+- `event-node-reuse-lookup.json` is missing or empty (means Plate 2.5 was rolled back).
+- The audit-loop runbook is referenced but the Reporter→Auditor pipeline never actually ran for Plate 3 (means the institutionalized audit is bypassed).
