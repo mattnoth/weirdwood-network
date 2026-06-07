@@ -1,6 +1,6 @@
 # Plate 3 — RESUME the reification full sweep
 
-> **Recommended model:** Sonnet (the runner shells out to `claude -p` per event; the orchestrating session just launches + watches). No Opus needed.
+> **Recommended model:** Opus 4.7 — this session LEADS with a reasoning task: diagnose + fix the `--all` selective-gate bug (see "⚠️ BEFORE YOU RUN" below — the overnight `--all` minted narrative micro-beat hubs because the D8/Q1 gate wasn't enforced in that path; the dry-run stub bypassed it, so it's UNVERIFIED), then make the calibration cost call. The per-event role typing still shells out to `claude -p` (Sonnet) inside the runner. **Bug status: OPEN — not fixed, only diagnosed.**
 > **Trust worklog.md over this prompt** (CLAUDE.md rule #9). This is a resumption snapshot.
 > **Context docs:** `working/edge-modeling/SESSION-LOG.md` (read the "Plate 3 Full-Sweep — Status Report — 2026-06-07" entry first), `working/edge-modeling/edge-modeling-reification-design.md` §3 (D2/D7/D8), `progress/continue-prompts/2026-06-05-edge-modeling-plate-3-backfill.md` (full spec + engineering notes).
 
